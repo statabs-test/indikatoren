@@ -187,7 +187,7 @@ input::-ms-clear {
 .carousel-indicators-numbers li {
     text-indent: 0;
     margin: 0 2px;    
-    width: 45px;
+    width: 60px;
     height: 30px;
     border: none;
     line-height: 30px;
@@ -196,7 +196,7 @@ input::-ms-clear {
 
 .carousel-indicators-numbers li.active, .carousel-indicators-numbers li:hover {
     margin: 0 2px;
-    width: 45px;
+    width: 60px;
     height: 30px;
     background-color: white;
     color: black;
