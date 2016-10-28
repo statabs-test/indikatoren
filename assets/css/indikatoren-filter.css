@@ -194,6 +194,14 @@ input::-ms-clear {
     color: black;
 }
 
+.carousel-indicators-numbers li.active, .carousel-indicators-numbers li:hover {
+    margin: 0 2px;
+    width: 45px;
+    height: 30px;
+    background-color: white;
+    color: black;
+}
+
 
 .carousel-inner {
     margin-top: 30px;
