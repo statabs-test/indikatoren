@@ -1,6 +1,6 @@
 {
   "name": "indikatoren",
-  "version": "1.0.0",
+  "version": "1.2.2",
   "description": "Indikatorenportal Statistisches Amt Basel-Stadt",
   "dependencies": {
     "bootstrap": "^3.3.7",
