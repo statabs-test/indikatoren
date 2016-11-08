@@ -1,4 +1,5 @@
-"use strict"; 
+"use strict";
+var template; 
 
 //parse csv and configure HighCharts object
 function parseData(chartOptions, data, completeHandler) {
@@ -97,12 +98,17 @@ function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel, i
   //load scripts one after the other, then load csv and draw the chart
   $.when(        
       $.getScript(globalOptionsUrl),
-      $.getScript(templateUrl),
+      //$.getScript(templateUrl),
+      $.getJSON(templateUrl, function(json) {
+        template = json;
+        //todo: parse json with corret reviver function
+      }),
       $.getScript(chartUrl),
       $.Deferred(function( deferred ){
           $(deferred.resolve);
       })
   ).done(function(){
+      console.log(template);
       //load csv and draw chart      
       $.get(csvUrl, function(data){
         drawChart(data, chartOptions[kuerzel], chartMetaData, indikatorensetView, callbackFn)
@@ -178,3 +184,31 @@ function exportThumbnail(kuerzel, exportType, offline){
   }
 };
 
+
+//replace the name of a function in a chart config with the function implementation if the function is declaredin here and thus safe. 
+//idea: http://ovaraksin.blogspot.ch/2013/10/pass-javascript-function-via-json.html
+function addFunctionsToConfigs(config){
+  JSON.parse(config, function(key, value){
+    if (value && (typeof value === 'string') && highchartFunctions.allowedFunctionNames.indexOf(value) > -1) {
+      // we can only pass a function as string in JSON ==> doing a real function
+      var jsFunc = new Function('return highchartFunctions.' + value + '()')();
+      return jsFunc;
+    }
+  })
+};
+
+//define functions to be used in chart configs
+var highchartFunctions = function(){
+  var allowedFunctionNames = [
+    'creditsOnClickNothing', 
+    'menuFontFamily'
+  ];
+
+  var creditsOnClickNothing = function() {
+    this.credits.element.onclick = function() {};
+  }
+
+  var menuFontFamily = function(){
+    return Highcharts.SVGRenderer.prototype.getStyle().fontFamily; 
+  };
+}();

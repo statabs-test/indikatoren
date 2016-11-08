@@ -1,16 +1,7 @@
-var template = {
+{
     "chart": {		
         "events":{
-            "load": function() {
-                this.credits.element.onclick = function() {
-                    /*
-                    window.open(
-                    "http://www.statistik.bs.ch",
-                    '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
-                    );
-                    */
-                }
-            }
+            "load": "creditsOnClickNothing"
         },
         "borderColor": "#fbfbfb",
         "backgroundColor": "#fbfbfb",
@@ -40,8 +31,8 @@ var template = {
     },
     "navigation": {
         "menuItemStyle": {
-            "fontFamily": Highcharts.SVGRenderer.prototype.getStyle().fontFamily,
-            "padding": '2px 10px'
+            "fontFamily": "menuFontFamily",
+            "padding": "2px 10px"
         }
     },
     "plotOptions": {
@@ -86,7 +77,7 @@ var template = {
         }                
     },
     "tooltip": {
-        "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b> ({point.percentage:.0f}%)<br/>',
+        "pointFormat": "<span style='color:{point.color}'>\u25CF</span> {series.name}: <b>{point.y}</b> ({point.percentage:.0f}%)<br/>",
         "shared": false
     },
     "credits": {
@@ -112,4 +103,4 @@ var template = {
             "fontWeight": "normal"
         }
     }    
-};
+}
