@@ -90,8 +90,6 @@ function createEmptyLabels(options){
   return newOptions;
 }
 
-
-//todo: create new function that uses the pre-created chart configs from /charts/configs
 //load global options, template, chartOptions from external scripts, load csv data from external file, and render chart to designated div
 function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel, indikatorensetView, callbackFn){
   var chartMetaData = findChartByKuerzel(indikatoren, kuerzel);   
@@ -99,10 +97,32 @@ function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel, i
   $.when(        
       $.getScript(globalOptionsUrl),
       //$.getScript(templateUrl),
-      $.getJSON(templateUrl, function(json) {
-        template = json;
-        //todo: parse json with corret reviver function
+      $.getJSON(templateUrl, function(json) {      
+        template = addFunctionsToConfigs(JSON.stringify(json));     
       }),
+      $.getScript(chartUrl),
+      $.Deferred(function( deferred ){
+          $(deferred.resolve);
+      })
+  ).done(function(){
+      //load csv and draw chart      
+      $.get(csvUrl, function(data){
+        drawChart(data, chartOptions[kuerzel], chartMetaData, indikatorensetView, callbackFn)
+      });
+  });  
+};
+
+
+
+
+//todo: create new function that uses the pre-created chart configs from /charts/configs
+//load global options, template, chartOptions from external scripts, load csv data from external file, and render chart to designated div
+function OldRenderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, kuerzel, indikatorensetView, callbackFn){
+  var chartMetaData = findChartByKuerzel(indikatoren, kuerzel);   
+  //load scripts one after the other, then load csv and draw the chart
+  $.when(        
+      $.getScript(globalOptionsUrl),
+      $.getScript(templateUrl),      
       $.getScript(chartUrl),
       $.Deferred(function( deferred ){
           $(deferred.resolve);
@@ -140,7 +160,7 @@ function lazyRenderChartByKuerzel(kuerzel, indikatorensetView, callbackFn){
     var csvUrl = 'data/' + kuerzel + '.csv';    
     //get template for requested chart
     var chartMetaData = findChartByKuerzel(indikatoren, kuerzel); 
-    var templateUrl = 'charts/templates/' + chartMetaData.template + '.js';
+    var templateUrl = 'charts/templates/' + chartMetaData.template + '.json';
         
     renderChart('charts/templates/options001.js', templateUrl, chartUrl, csvUrl, kuerzel, indikatorensetView, callbackFn);
   }
@@ -185,30 +205,30 @@ function exportThumbnail(kuerzel, exportType, offline){
 };
 
 
+//define functions to be used in chart configs
+var highchartFunctions = {
+  "FNcreditsOnClickNothing": function() {
+    this.credits.element.onclick = function() {};    
+  },
+
+  "FNmenuFontFamily": function(){
+    return Highcharts.SVGRenderer.prototype.getStyle().fontFamily; 
+  }
+
+}
+
 //replace the name of a function in a chart config with the function implementation if the function is declaredin here and thus safe. 
 //idea: http://ovaraksin.blogspot.ch/2013/10/pass-javascript-function-via-json.html
 function addFunctionsToConfigs(config){
-  JSON.parse(config, function(key, value){
-    if (value && (typeof value === 'string') && highchartFunctions.allowedFunctionNames.indexOf(value) > -1) {
-      // we can only pass a function as string in JSON ==> doing a real function
-      var jsFunc = new Function('return highchartFunctions.' + value + '()')();
-      return jsFunc;
+  return JSON.parse(config, function(key, value){
+    if (value && (typeof value === 'string') && (highchartFunctions[value] !== undefined)) {
+      var jsfunc;
+      eval("jsfunc = highchartFunctions." + value);       
+      //console.log('replacing ' + value + ' with ' + jsfunc);
+      return jsfunc;
+    }
+    else {
+      return value;
     }
   })
 };
-
-//define functions to be used in chart configs
-var highchartFunctions = function(){
-  var allowedFunctionNames = [
-    'creditsOnClickNothing', 
-    'menuFontFamily'
-  ];
-
-  var creditsOnClickNothing = function() {
-    this.credits.element.onclick = function() {};
-  }
-
-  var menuFontFamily = function(){
-    return Highcharts.SVGRenderer.prototype.getStyle().fontFamily; 
-  };
-}();
