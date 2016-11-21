@@ -20,7 +20,7 @@
   "scripts": {
     "test": "echo \"No test specified\" && exit 0",
     "build:database": "node build/createJsonDatabase",
-    "build:charts": "node build/createChartgit Configs",
+    "build:charts": "node build/createChartConfigs",
     "build:images_jsdom": "node build/createThumbnailsJsdom",
     "build:images_phantom_fast": "node build/createThumbnailsPhantomFast",
     "build:images_phantom_slow": "node build/createThumbnailsPhantomSlow",
