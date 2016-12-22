@@ -7,9 +7,9 @@
 		
 		
 		<!-- 1. Add these JavaScript inclusions in the head of your page -->
-		<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-		<script src="https://code.highcharts.com/stock/highstock.js"></script>
-		<script type="text/javascript" src="http://code.highcharts.com/modules/data.js"></script>
+		<script src="//code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="//code.highcharts.com/stock/highstock.js"></script>
+		<script src="//code.highcharts.com/modules/data.js"></script>
 		
 		
 		<!-- 2. Add the JavaScript to initialize the chart on document ready -->
@@ -18,9 +18,8 @@
 			$.get('data/Einwohner_BS.tsv', function(csv) {
 			    Highcharts.stockChart('container', 
 			    {
-
 			        chart: {
-			        	
+			        	type: 'area'
 			        },
 			        xAxis: {
 			            ordinal: false
