@@ -19,20 +19,21 @@ var geojson_wohnviertel = ctx.geojson_wohnviertel;
 
 
 console.log('Loading metadata...');
-var ctx = execfile('metadata/indikatoren.js');
+var ctx = execfile('metadata/all/indikatoren.js');
 var indikatoren = ctx.indikatoren;
 
 var views = [true, false];
 views.forEach(function(view){
     console.log('Starting creation of chart config for indikatorensetView=' + view);
     indikatoren.forEach(function(indikator){
-        console.log('Creating config for chart ' + indikator.kuerzel + ', indikatorensetView=' + view +'...');
-        createChartConfig(indikator.kuerzel, view, console);
+        console.log('Creating config for chart ' + indikator.id + ', indikatorensetView=' + view +'...');
+        createChartConfig(indikator.id, view, console);
     });
 })
 
+
 //todo: get rid of all the jsdom code if not needed 
-function createChartConfig(kuerzel, indikatorensetView, console){
+function createChartConfig(id, indikatorensetView, console){
 
 
     var fs = require('fs');
@@ -40,7 +41,7 @@ function createChartConfig(kuerzel, indikatorensetView, console){
     //from https://github.com/kirjs/react-highcharts/blob/b8e31a26b741f94a13a798ffcc1f1b60e7764676/src/simulateDOM.js 
     var jsdom = require('jsdom');
 
-    global.document = jsdom.jsdom('<!doctype html><html><body><div id="container-' + kuerzel + '"></div></body></html>', { virtualConsole });
+    global.document = jsdom.jsdom('<!doctype html><html><body><div id="container-' + id + '"></div></body></html>', { virtualConsole });
     var virtualConsole = jsdom.createVirtualConsole().sendTo(console);
     var win = global.document.defaultView;
     global.window = global;
@@ -76,17 +77,18 @@ function createChartConfig(kuerzel, indikatorensetView, console){
     });
 
     for (var i=0; i<indikatoren.length; i++){
-        if (indikatoren[i].kuerzel === kuerzel){
+        if (indikatoren[i].id === id){
             var chartMetaData = indikatoren[i];
+            var kuerzel = indikatoren[i].kuerzel;
             break;
         }
     };
 
 
-    var csv = (fs.readFileSync('data/' + kuerzel + '.csv', 'utf8'));
+    var csv = (fs.readFileSync('data/' + id + '.tsv', 'utf8'));
 
-    var ctx = execfile('charts/templates/' + kuerzel + '.js', {Highcharts: Highcharts, chartOptions: {}, geojson_wohnviertel: geojson_wohnviertel, rheinData: rheinData});
-    var options = ctx.chartOptions[kuerzel];
+    var ctx = execfile('charts/templates/' + id + '.js', {Highcharts: Highcharts, chartOptions: {}, geojson_wohnviertel: geojson_wohnviertel, rheinData: rheinData});
+    var options = ctx.chartOptions;
 
     //disable animations and prevent exceptions
     options.chart = (options.chart || {});
@@ -107,6 +109,6 @@ function createChartConfig(kuerzel, indikatorensetView, console){
         var stringifiedOptions = serialize(options, {space: 2});
         var filePath = (indikatorensetView) ? 'charts/configs/indikatorenset/' : 'charts/configs/portal/';
         //console.log(stringifiedOptions);
-        fs.writeFile(filePath + kuerzel + '.json', stringifiedOptions);
+        fs.writeFile(filePath + id + '.json', stringifiedOptions);
     });
 };
