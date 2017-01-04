@@ -1,4 +1,4 @@
-chartOptions['I.01.1.0038.map'] = {
+var chartOptions = {
 	"tooltip": {
 		"pointFormatter": function(){
 			if (this.series.data[this.x].name === undefined) {
@@ -44,5 +44,3 @@ chartOptions['I.01.1.0038.map'] = {
 		}
 	]
 };
-
-//Colors of StatA Bereiche: violett3 #923F8D, gruen3 #68AB2B, blau3 #689199

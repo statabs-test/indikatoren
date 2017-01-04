@@ -457,7 +457,7 @@ var indikatoren = [
 	{
 		"title": "Anteil Ausländer",
 		"subtitle": "",
-		"kuerzel": "I.01.1.0038.map",
+		"kuerzel": "9999.map",
 		"kuerzelKunde": "GS-2",
 		"image": "images/I.01.1.0038.jpg",
 		"description": "Anteil Ausländer",
