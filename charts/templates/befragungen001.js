@@ -82,7 +82,9 @@ var template = {
         "labels": {
             "rotation": 0,
             "style": {
-                "color": "#000000"
+                "color": "#000000",
+                "width": 10, 
+                "textOverflow": "none"
             }
         }                
     },
@@ -112,6 +114,9 @@ var template = {
         "itemStyle": {
             "fontWeight": "normal"
         },
-        "symbolRadius": 0
+        "symbolRadius": 0,
+        labelFormatter: function () {
+            return this.name.replace('/ ', '/<br/>');
+        }
     }    
 };
