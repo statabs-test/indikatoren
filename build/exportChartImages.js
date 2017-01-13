@@ -1,7 +1,7 @@
 //Include the exporter module
 const exporter = require('highcharts-export-server');
 var path = require('path');
-var chartId=4130;
+var chartId=4127;
 var configPath = 'charts/configs/portal/';
 var infilePath = path.join(__dirname, '../' + configPath + chartId + '.json');
 console.log(infilePath);
