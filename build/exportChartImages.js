@@ -73,7 +73,7 @@ function createSvgImages(chartDetails){
     else {
         console.log('...done!');
         exporter.killPool();
-        process.exit(1);
+        process.exit();
     }
 }
 
