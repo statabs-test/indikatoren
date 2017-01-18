@@ -2,21 +2,41 @@ const exporter = require('highcharts-export-server');
 var execfile = require("execfile");
 var fs = require('fs');
 var path = require('path');
-var chartIds = [4716,4127];
-
 var keysFilePath = path.join(__dirname, '../metadata/all/kuerzelById.js');
 var ctx = execfile(keysFilePath);
 var kuerzelById = ctx.kuerzelById;
 
 var chartDetails = [];
 
-var views = [true, false];
-views.forEach(function(view){
-    console.log('Creating array entries for indikatorensetView=' + view);
-    Object.keys(kuerzelById).forEach(function(chartId) {
-        chartDetails.push(createPathArray(chartId, view));
+console.log('Deleting previous svg files...');
+var rimraf = require("rimraf");
+rimraf('images/indikatorenset/*', function(error) {
+    if (error) { throw error; }
+    rimraf('images/portal/*', function(error) {
+        if (error) { throw error; }
+        go();
     });
 });
+
+
+
+function go(){
+    var views = [true, false];
+    views.forEach(function(view){
+        console.log('Creating array entries for indikatorensetView=' + view);
+        Object.keys(kuerzelById).forEach(function(chartId) {
+            chartDetails.push(createPathArray(chartId, view));
+        });
+    });
+    
+    exporter.initPool(
+        {
+            maxWorkers: 1,
+            initialWorkers: 1,
+            workLimit: 10
+        });
+    createSvgImages(chartDetails);
+}
 
 
 function createPathArray(chartId, view){
@@ -30,15 +50,6 @@ function createPathArray(chartId, view){
     
     return {config: config, outfilePath: outfilePath};
 }
-
-
-exporter.initPool(
-    {
-        maxWorkers: 1,
-        initialWorkers: 1,
-        workLimit: 10
-    });
-createSvgImages(chartDetails);
 
 
 function createSvgImages(chartDetails){
