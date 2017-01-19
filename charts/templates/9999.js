@@ -1,3 +1,7 @@
+/*  global rheinData
+	global Highcharts
+	global geojson_wohnviertel
+*/
 var chartOptions = {
 	"tooltip": {
 		"pointFormatter": function(){
@@ -5,7 +9,7 @@ var chartOptions = {
 				return '<span style="color:{series.color}"></span>';
 			}
 			else {
-				return '<span style="color:{series.color}">' + this.series.data[this.x].name + '</span>: <b>'+Highcharts.numberFormat((this.value*100),2)+'%</b><br/>Rang <b>' + parseInt(this.x + 1) + '</b>';
+				return '<span style="color:{series.color}">' + this.series.data[this.x].name + '</span>: <b>'+Highcharts.numberFormat((this.value*100),2)+'%</b><br/>Rang <b>' + parseInt(this.x + 1, 10) + '</b>';
 			}
 		}
 	},

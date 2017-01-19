@@ -2,14 +2,7 @@ var template = {
     "chart": {		
         events:{
             load: function() {                
-                this.credits.element.onclick = function() {
-                    /*
-                    window.open(
-                    "http://www.statistik.bs.ch",
-                    '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
-                    );
-                    */
-                };
+                this.credits.element.onclick = function() {};
             }
         },
         "borderColor": "#fbfbfb",
@@ -76,5 +69,3 @@ var template = {
         "floating": true
 	}
 };
-
-//Colors of StatA Bereiche: violett3 #923F8D, gruen3 #68AB2B, blau3 #689199
