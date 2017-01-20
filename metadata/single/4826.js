@@ -1,10 +1,10 @@
 ﻿var indikatoren = [{"title":"Gymnasialquote",
 "subtitle":"",
 "kuerzel":"I.15.6.0003",
-"kuerzelKunde":"GS-5",
+"kuerzelKunde":"GS-5.a",
 "image":"images/I.15.6.0003.jpg",
 "description":"Gymnasialquote",
-"id":"4826",
+"id":4826,
 "thema":"15 Bildung",
 "unterthema":"Bildungsniveau",
 "kennzahlenset":"Wohnviertel",
@@ -20,5 +20,7 @@
 "erlaeuterungen":"Anteil der Gymnasiasten an allen Schülern der 10. und 11. Schulstufe des Wohnviertels an öffentlichen Schulen und mit Elternwohnort Basel-Stadt (Schulstufen einschliesslich zweier obligatorischer Kindergartenstufen gezählt). Stand: 2015",
 "template":"dotplot",
 "option":"options001",
+"visible":true,
+"visibleInPortal":true,
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bildungsstatistik"]
 }];

@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "Anteil Ausländer 2015",
+      "name": "Vermögenssteuer pro Veranlagung",
       "animation": true,
       "mapData": {
         "type": "FeatureCollection",
@@ -6019,88 +6019,88 @@
       },
       "data": [
         [
-          8,
-          0.2138485362
-        ],
-        [
-          15,
-          0.2202354509
-        ],
-        [
-          7,
-          0.2311086597
-        ],
-        [
-          20,
-          0.2454837319
-        ],
-        [
-          30,
-          0.2516611296
-        ],
-        [
-          1,
-          0.2526315789
-        ],
-        [
-          9,
-          0.2762753983
-        ],
-        [
-          14,
-          0.3090779383
-        ],
-        [
-          5,
-          0.3103859199
-        ],
-        [
-          4,
-          0.3244801085
-        ],
-        [
-          3,
-          0.33959782
-        ],
-        [
-          12,
-          0.3585215606
-        ],
-        [
-          10,
-          0.3673457088
-        ],
-        [
-          2,
-          0.3684103812
-        ],
-        [
-          6,
-          0.3957582185
-        ],
-        [
-          11,
-          0.4343434343
+          18,
+          162.1977333
         ],
         [
           19,
-          0.4637931034
-        ],
-        [
-          13,
-          0.4638868206
-        ],
-        [
-          17,
-          0.5114395251
-        ],
-        [
-          18,
-          0.5177860184
+          207.74610106
         ],
         [
           16,
-          0.5493277175
+          240.50197771
+        ],
+        [
+          10,
+          425.08366863
+        ],
+        [
+          17,
+          426.09984706
+        ],
+        [
+          13,
+          436.89323843
+        ],
+        [
+          6,
+          467.21327303
+        ],
+        [
+          4,
+          482.15108977
+        ],
+        [
+          11,
+          486.03965292
+        ],
+        [
+          15,
+          681.39708738
+        ],
+        [
+          12,
+          1123.2948052
+        ],
+        [
+          14,
+          1229.5143029
+        ],
+        [
+          8,
+          1762.144018
+        ],
+        [
+          30,
+          2844.7711599
+        ],
+        [
+          3,
+          3212.0137397
+        ],
+        [
+          20,
+          3296.1133034
+        ],
+        [
+          9,
+          3483.3688952
+        ],
+        [
+          5,
+          4206.1965759
+        ],
+        [
+          1,
+          5188.1848894
+        ],
+        [
+          2,
+          7828.9125886
+        ],
+        [
+          7,
+          19314.398374
         ]
       ]
     },
@@ -6453,7 +6453,7 @@
     "type": "map",
     "inverted": true,
     "forExport": true,
-    "renderTo": "container-9999"
+    "renderTo": "container-5122"
   },
   "title": {
     "style": {
@@ -6463,7 +6463,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "GS-2 Anteil Ausländer"
+    "text": "WA-1.b Vermögenssteuer pro Veranlagung"
   },
   "subtitle": {
     "style": {
@@ -6488,21 +6488,23 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+    "text": "Quelle: kantonale Leerstandserhebung"
   },
   "colorAxis": {
     "min": 0,
     "gridLineColor": "#fbfbfb",
-    "gridLineWidth": 0,
+    "gridLineWidth": 1,
     "labels": {
       "style": {
         "color": "black",
         "cursor": "default",
-        "fontSize": "11px"
+        "fontSize": "11px",
+        "textOverflow": "none"
       },
       "formatter": function () {
-				return Highcharts.numberFormat((this.value*100),0)+'%'; 
-			}
+				return Highcharts.numberFormat((this.value),0); 
+			},
+      "staggerLines": 2
     }
   },
   "mapNavigation": {
@@ -6523,11 +6525,11 @@
 				return '<span style="color:{series.color}"></span>';
 			}
 			else {
-				return '<span style="color:{series.color}">' + this.series.data[this.x].name + '</span>: <b>'+Highcharts.numberFormat((this.value*100),2)+'%</b><br/>Rang <b>' + parseInt(this.x + 1, 10) + '</b>';
+				return '<span style="color:{series.color}">' + this.series.data[this.x].name + '</span>: <b>Fr. ' + Highcharts.numberFormat(this.value, 0) + '</b><br/>Rang <b>' + parseInt(this.x + 1, 10) + '</b>';
 			}
 		}
   },
   "exporting": {
-    "filename": "9999.map"
+    "filename": "I.18.2.0005"
   }
 }

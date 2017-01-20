@@ -1,10 +1,10 @@
 ﻿var indikatoren = [{"title":"Vermögenssteuer pro Veranlagung",
 "subtitle":"",
 "kuerzel":"I.18.2.0002",
-"kuerzelKunde":"WA-1",
+"kuerzelKunde":"WA-1.a",
 "image":"images/I.18.2.0002.jpg",
 "description":"Vermögenssteuer pro Veranlagung",
-"id":"4835",
+"id":4835,
 "thema":"18 Öffentliche Finanzen",
 "unterthema":"Steuern",
 "kennzahlenset":"Wohnviertel",
@@ -20,5 +20,7 @@
 "erlaeuterungen":"Mittlere Vermögenssteuer der steuerpflichtigen Personen im Wohnviertel (ordentliche Veranlagungen, totaler Steuerertrag geteilt durch die Anzahl Veranlagungen) in Franken. Stand: Steuerjahr 2013",
 "template":"dotplot",
 "option":"options001",
+"visible":true,
+"visibleInPortal":true,
 "quellenangabe":["kantonale Leerstandserhebung"]
 }];

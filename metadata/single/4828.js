@@ -1,10 +1,10 @@
 ﻿var indikatoren = [{"title":"Sesshaftigkeit",
 "subtitle":"",
 "kuerzel":"I.01.1.0040",
-"kuerzelKunde":"GS-7",
+"kuerzelKunde":"GS-7.a",
 "image":"images/I.01.1.0040.jpg",
 "description":"Sesshaftigkeit",
-"id":"4828",
+"id":4828,
 "thema":"01 Bevölkerung",
 "unterthema":"Bestand und Struktur ",
 "kennzahlenset":"Wohnviertel",
@@ -20,5 +20,7 @@
 "erlaeuterungen":"Anteil der seit mindestens 10 Jahren am gleichen Wohnsitz wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent. Stand: 2015",
 "template":"dotplot",
 "option":"options001",
+"visible":true,
+"visibleInPortal":true,
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"]
 }];

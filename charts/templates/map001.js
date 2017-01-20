@@ -51,9 +51,9 @@ var template = {
     "colorAxis": {
 		"min": 0,
 		"gridLineColor": "#fbfbfb",	
-        "gridLineWidth": 0,
+        "gridLineWidth": 1,
         "labels": {	
-		    "style": {"color": "black", "cursor": "default", "fontSize": "11px"}
+		    "style": {"color": "black", "cursor": "default", "fontSize": "11px", "textOverflow": "none"}
 		}
 	},    
     "mapNavigation": {

@@ -1,10 +1,10 @@
 ﻿var indikatoren = [{"title":"Arbeitsplätze pro Kopf",
 "subtitle":"",
 "kuerzel":"I.03.2.0002",
-"kuerzelKunde":"WA-4",
+"kuerzelKunde":"WA-4.a",
 "image":"images/I.03.2.0002.jpg",
 "description":"Arbeitsplätze pro Kopf",
-"id":"4838",
+"id":4838,
 "thema":"03 Erwerbsleben",
 "unterthema":"Beschäftigte ",
 "kennzahlenset":"Wohnviertel",
@@ -20,5 +20,7 @@
 "erlaeuterungen":"Anzahl Arbeitsplätze (Beschäftigtenzahl in Vollzeitäquivalenten einschliesslich Beschäftigter, die nicht im Kanton wohnen, aber hier arbeiten) an der gesamten Wohnbevölkerung des Wohnviertels. Stand: 2013",
 "template":"dotplot",
 "option":"options001",
+"visible":true,
+"visibleInPortal":true,
 "quellenangabe":["Bundesamt für Statistik BFS, STATENT"]
 }];

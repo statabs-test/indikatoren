@@ -1,10 +1,10 @@
 ﻿var indikatoren = [{"title":"Sozialhilfequote",
 "subtitle":"",
 "kuerzel":"I.13.3.0004",
-"kuerzelKunde":"GS-1",
+"kuerzelKunde":"GS-1.a",
 "image":"images/I.13.3.0004.jpg",
 "description":"Sozialhilfequote",
-"id":"4822",
+"id":4822,
 "thema":"13 Soziale Sicherheit",
 "unterthema":"Sozialhilfe und Notwohnen",
 "kennzahlenset":"Wohnviertel",
@@ -20,5 +20,7 @@
 "erlaeuterungen":"Anteil Sozialhilfeempfänger an der Wohnbevölkerung des Wohnviertels in Prozent. Stand: 2015",
 "template":"dotplot",
 "option":"options001",
+"visible":true,
+"visibleInPortal":true,
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Sozialhilfestatistik"]
 }];

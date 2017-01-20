@@ -1,10 +1,10 @@
 ﻿var indikatoren = [{"title":"Anteil Konfessionslose",
 "subtitle":"",
 "kuerzel":"I.01.7.0001",
-"kuerzelKunde":"GS-3",
+"kuerzelKunde":"GS-3.a",
 "image":"images/I.01.7.0001.jpg",
 "description":"Anteil Konfessionslose",
-"id":"4824",
+"id":4824,
 "thema":"01 Bevölkerung",
 "unterthema":"Religionen",
 "kennzahlenset":"Wohnviertel",
@@ -20,5 +20,7 @@
 "erlaeuterungen":"Anteil der konfessionslosen Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent. Stand: 2015",
 "template":"dotplot",
 "option":"options001",
+"visible":true,
+"visibleInPortal":true,
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"]
 }];

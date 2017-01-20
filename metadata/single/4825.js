@@ -1,10 +1,10 @@
 ﻿var indikatoren = [{"title":"Anteil Personen in Einpersonenhaushalten",
 "subtitle":"",
 "kuerzel":"I.01.2.0003",
-"kuerzelKunde":"GS-4",
+"kuerzelKunde":"GS-4.a",
 "image":"images/I.01.2.0003.jpg",
 "description":"Anteil Personen in Einpersonenhaushalten",
-"id":"4825",
+"id":4825,
 "thema":"01 Bevölkerung",
 "unterthema":"Haushalte",
 "kennzahlenset":"Wohnviertel",
@@ -20,5 +20,7 @@
 "erlaeuterungen":"Anteil Personen in Einpersonenhaushalten an allen Personen in Privathaushalten des Wohnviertels in Prozent. Stand: 2014",
 "template":"dotplot",
 "option":"options001",
+"visible":true,
+"visibleInPortal":true,
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"]
 }];

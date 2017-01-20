@@ -1,10 +1,10 @@
 ﻿var indikatoren = [{"title":"Einkommenssteuer pro Veranlagung",
 "subtitle":"",
 "kuerzel":"I.18.2.0003",
-"kuerzelKunde":"WA-2",
+"kuerzelKunde":"WA-2.a",
 "image":"images/I.18.2.0003.jpg",
 "description":"Einkommenssteuer pro Veranlagung",
-"id":"4836",
+"id":4836,
 "thema":"18 Öffentliche Finanzen",
 "unterthema":"Steuern",
 "kennzahlenset":"Wohnviertel",
@@ -20,5 +20,7 @@
 "erlaeuterungen":"Mittlere Einkommenssteuer der steuerpflichtigen Personen im Wohnviertel (ordentliche Veranlagungen, totaler Steuerertrag geteilt durch die Anzahl Veranlagungen) in Franken. Stand: Steuerjahr 2013",
 "template":"dotplot",
 "option":"options001",
+"visible":true,
+"visibleInPortal":true,
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"]
 }];

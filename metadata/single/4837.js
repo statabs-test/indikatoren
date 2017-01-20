@@ -1,10 +1,10 @@
 ﻿var indikatoren = [{"title":"Erwerbstätigenquote",
 "subtitle":"",
 "kuerzel":"I.03.1.0002",
-"kuerzelKunde":"WA-3",
+"kuerzelKunde":"WA-3.a",
 "image":"images/I.03.1.0002.jpg",
 "description":"Erwerbstätigenquote",
-"id":"4837",
+"id":4837,
 "thema":"03 Erwerbsleben",
 "unterthema":"Erwerbspersonen ",
 "kennzahlenset":"Wohnviertel",
@@ -20,5 +20,7 @@
 "erlaeuterungen":"Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (16 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet, was zum selben Wert für die beiden Gemeinden führt. Stand: gepoolte Daten 2010 - 2014",
 "template":"dotplot",
 "option":"options001",
-"quellenangabe":["Staatssekretariat für Wirtschaft SECO"]
+"visible":true,
+"visibleInPortal":true,
+"quellenangabe":["Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"]
 }];

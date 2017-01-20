@@ -1,10 +1,10 @@
 ﻿var indikatoren = [{"title":"Anteil Grünflächen",
 "subtitle":"",
 "kuerzel":"I.02.1.0016",
-"kuerzelKunde":"RU-3",
+"kuerzelKunde":"RU-3.a",
 "image":"images/I.02.1.0016.jpg",
 "description":"Anteil Grünflächen",
-"id":"4832",
+"id":4832,
 "thema":"02 Raum, Umwelt",
 "unterthema":"Räumliche Gliederung und Bodennutzung",
 "kennzahlenset":"Wohnviertel",
@@ -20,5 +20,7 @@
 "erlaeuterungen":"Anteil der Grünfläche an der gesamten Fläche des Wohnviertels in Prozent. Stand: 2014",
 "template":"dotplot",
 "option":"options001",
+"visible":true,
+"visibleInPortal":true,
 "quellenangabe":["Grundbuch- und Vermessungsamt  Basel-Stadt"]
 }];

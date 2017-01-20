@@ -1,10 +1,10 @@
 ﻿var indikatoren = [{"title":"Altersquotient",
 "subtitle":"",
 "kuerzel":"I.01.1.0039",
-"kuerzelKunde":"GS-6",
+"kuerzelKunde":"GS-6.a",
 "image":"images/I.01.1.0039.jpg",
 "description":"Altersquotient",
-"id":"4827",
+"id":4827,
 "thema":"01 Bevölkerung",
 "unterthema":"Bestand und Struktur ",
 "kennzahlenset":"Wohnviertel",
@@ -20,5 +20,7 @@
 "erlaeuterungen":"Anteil der über 64-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent. Stand: 2015",
 "template":"dotplot",
 "option":"options001",
+"visible":true,
+"visibleInPortal":true,
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"]
 }];

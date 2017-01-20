@@ -40,14 +40,14 @@
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>9999.map Anteil Ausländer</tspan>
+        <tspan>I.01.1.0047 Anteil Ausländer</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(43 323)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="432" height="47"/>
         <g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined">
             <path fill="url(#b)" d="M0 4h200v12H0z" transform="translate(226 3)"/>
             <g class="highcharts-grid highcharts-coloraxis-grid">
-                <path fill="none" class="highcharts-grid-line" d="M225.5 7v12m67-12v12m66-12v12m67-12v12"/>
+                <path fill="none" stroke="#fbfbfb" class="highcharts-grid-line" d="M225.5 7v12m67-12v12m66-12v12m67-12v12"/>
             </g>
             <g class="highcharts-axis highcharts-coloraxis">
                 <path fill="none" class="highcharts-axis-line" d="M226 19h200"/>

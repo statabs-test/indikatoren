@@ -142,7 +142,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "WA-3 Erwerbstätigenquote"
+    "text": "WA-3.a Erwerbstätigenquote"
   },
   "subtitle": {
     "style": {
@@ -208,7 +208,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
   },
   "legend": {
     "enabled": false,
