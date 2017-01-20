@@ -14,6 +14,8 @@ var chartOptions = {
 		}
 	},
 	"colorAxis": {
+		"minColor": "#f4ebf3",
+		"maxColor": "#5b2659",
 		"labels": {
 			"formatter": function () {
 				return Highcharts.numberFormat((this.value*100),0)+'%'; 

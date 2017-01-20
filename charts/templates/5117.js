@@ -14,7 +14,9 @@ var chartOptions = {
 		}
 	},
 	"colorAxis": {
-		"min": 1800
+		"min": 1800, 
+		"minColor": "#eff6e9",
+		"maxColor": "#4b7b1f"
 	},			
 	"series": [
 		{
