@@ -6501,7 +6501,9 @@
         "fontSize": "11px",
         "textOverflow": "none"
       }
-    }
+    },
+    "minColor": "#eff6e9",
+    "maxColor": "#4b7b1f"
   },
   "mapNavigation": {
     "enabled": true,

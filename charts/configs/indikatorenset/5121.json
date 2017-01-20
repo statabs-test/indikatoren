@@ -6491,7 +6491,6 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik;\u003Cbr\u002F\u003EKantonale Baustatistik"
   },
   "colorAxis": {
-    "min": 0,
     "gridLineColor": "#fbfbfb",
     "gridLineWidth": 1,
     "labels": {
@@ -6504,7 +6503,9 @@
       "formatter": function () {
 				return Highcharts.numberFormat((this.value), 0)+' m²'; 
 			}
-    }
+    },
+    "minColor": "#eff6e9",
+    "maxColor": "#4b7b1f"
   },
   "mapNavigation": {
     "enabled": true,

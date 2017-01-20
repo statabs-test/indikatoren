@@ -6504,7 +6504,9 @@
       "formatter": function () {
 				return Highcharts.numberFormat(this.value, 0, "," , ""); 
 			}
-    }
+    },
+    "minColor": "#eff4f4",
+    "maxColor": "#4f6e75"
   },
   "mapNavigation": {
     "enabled": true,

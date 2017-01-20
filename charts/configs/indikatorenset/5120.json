@@ -6505,7 +6505,9 @@
 				return Highcharts.numberFormat(this.value, 0)+' m²'; 
 			},
       "staggerLines": 2
-    }
+    },
+    "minColor": "#eff6e9",
+    "maxColor": "#4b7b1f"
   },
   "mapNavigation": {
     "enabled": true,

@@ -6491,7 +6491,6 @@
     "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
   },
   "colorAxis": {
-    "min": 0,
     "gridLineColor": "#fbfbfb",
     "gridLineWidth": 1,
     "labels": {
@@ -6504,7 +6503,9 @@
       "formatter": function () {
 				return Highcharts.numberFormat((this.value*100),0)+'%'; 
 			}
-    }
+    },
+    "minColor": "#eff4f4",
+    "maxColor": "#4f6e75"
   },
   "mapNavigation": {
     "enabled": true,
