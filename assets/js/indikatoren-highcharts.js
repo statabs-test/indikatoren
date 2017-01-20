@@ -15,30 +15,17 @@ global templatesById
 function parseData(chartOptions, data, completeHandler) {
     try {
       var dataOptions = Highcharts.merge(chartOptions.data, {
-        /*  seriesMapping necessary for charts with error bars. 
-            todo: read dataOptions from chart-specific file
-        */          
-        "seriesMapping": [
-          {
-            "x": 0
-          },
-          {
-            "x": 0
-          },
-          {
-            "x": 0
-          }
-        ],
           csv: data
       });
- 
+      
       //delete data node in chartOptions after merging into dataOptions
       delete chartOptions.data;
  
-      dataOptions.sort = true;
+      //dataOptions.sort = true;
       dataOptions.complete = completeHandler;
       Highcharts.data(dataOptions, chartOptions);
-    } catch (error) {
+    } 
+    catch (error) {
       console.log(error);
       completeHandler(undefined);
     }      
