@@ -1,4 +1,18 @@
 var chartOptions = {
+  //seriesMapping necessary for charts with error bars. 
+  "data": {
+    "seriesMapping": [
+      {
+        "x": 0
+      },
+      {
+        "x": 0
+      },
+      {
+        "x": 0
+      }
+    ]  
+  },
   "plotOptions": {
     "series": {
       "pointWidth": 15,

@@ -1,22 +1,22 @@
-﻿Wohnviertel,Wohnfläche pro Kopf 2015,Rang
-Klybeck,31.8503,1
-Kleinhüningen,32.4669,2
-Rosental,34.0638,3
-Matthäus,34.4628,4
-St. Johann,36.5693,5
-Clara,37.0875,6
-Iselin,37.0909,7
-Gundeldingen,38.659,8
-Breite,38.8153,9
-Hirzbrunnen,39.1704,10
-Gotthelf,41.6946,11
-Altstadt Kleinbasel,43.8589,12
-Wettstein,45.6134,13
-Am Ring,46.8958,14
-Bachletten,46.9222,15
-Riehen,47.7031,16
-St. Alban,49.285,17
-Bruderholz,49.54,18
-Vorstädte,50.4173,19
-Bettingen,52.377,20
-Altstadt Grossbasel,55.1904,21
+﻿Wohnviertel_Id	Wohnfläche pro Kopf	Rang	Wohnviertel	jahr_num
+18	31.8503	1	Klybeck	2015
+19	32.4669	2	Kleinhüningen	2015
+16	34.0638	3	Rosental	2015
+17	34.4628	4	Matthäus	2015
+11	36.5693	5	St. Johann	2015
+13	37.0875	6	Clara	2015
+10	37.0909	7	Iselin	2015
+6	38.659	8	Gundeldingen	2015
+4	38.8153	9	Breite	2015
+15	39.1704	10	Hirzbrunnen	2015
+9	41.6946	11	Gotthelf	2015
+12	43.8589	12	Altstadt Kleinbasel	2015
+14	45.6134	13	Wettstein	2015
+3	46.8958	14	Am Ring	2015
+8	46.9222	15	Bachletten	2015
+20	47.7031	16	Riehen	2015
+5	49.285	17	St. Alban	2015
+7	49.54	18	Bruderholz	2015
+2	50.4173	19	Vorstädte	2015
+30	52.377	20	Bettingen	2015
+1	55.1904	21	Altstadt Grossbasel	2015
