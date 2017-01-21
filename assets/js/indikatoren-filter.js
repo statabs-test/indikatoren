@@ -139,6 +139,7 @@ function initializeFilterJS(indikatorenset){
   //add event listener to render chart on modal show
   $("#lightbox").on('show.bs.modal', function (e) {    
     var targetId = $(e.relatedTarget).attr("indikator-id-data");
+    //todo: only render chart if target div has class "active", otherwise the slide event of the lightbox will render the chart.
     lazyRenderChartById(targetId, undefined, indikatorensetView);
   });
 
