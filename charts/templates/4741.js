@@ -1,4 +1,5 @@
-var chartOptions = {
+(function(){
+    return {
   //seriesMapping necessary for charts with error bars. 
   "data": {
     "seriesMapping": [
@@ -77,4 +78,5 @@ var chartOptions = {
     "type": "column",
     "inverted": true
   }
-};
+	}
+}());

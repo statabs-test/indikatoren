@@ -1,4 +1,5 @@
-var template = {
+(function(){
+    return {
     "chart": {		
         "events":{
             "load": function() {
@@ -114,4 +115,5 @@ var template = {
         },
         "symbolRadius": 0
     }    
-};
+	}
+}());

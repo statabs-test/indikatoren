@@ -2,7 +2,8 @@
 	global Highcharts
 	global geojson_wohnviertel
 */
-var chartOptions = {
+(function(){
+    return {
 	"tooltip": {
 		"pointFormatter": function(){
 			if (this.series.data[this.x].name === undefined) {
@@ -49,4 +50,5 @@ var chartOptions = {
 			"borderColor": "#fbfbfb"
 		}
 	]
-};
+	}
+}());

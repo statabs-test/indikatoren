@@ -3,8 +3,6 @@ global $
 
 global Highcharts
 
-global chartOptionssssssss
-global templateeeeeeeeee
 global indikatoren
 global templatesById
 */
@@ -112,18 +110,24 @@ function renderChartByKuerzel(globalOptionsUrl, templateUrl, chartUrl, csvUrl, k
       $.Deferred(function( deferred ){
         $(deferred.resolve);
       })
-  ).done(function(optionsReturnData, templateReturnData, metadataReturnData){
+  ).done(function(optionsReturnData, templateReturnData, chartReturnData){
       //todo: use return data instead of global variable asignment in order to fix multi threading
-      //console.log(optionsReturnData[0]);
-      //console.log(templateReturnData[0]);
-      //console.log(metadataReturnData[0]);
       //clone the global variables so that no other thread manipulates them
-      var chartOptionsCloned = $.extend(true, {}, chartOptions);
-      var templateCloned = $.extend(true, {}, template);
+      //var chartOptionsCloned = $.extend(true, {}, chartOptions);
+      //var templateCloned = $.extend(true, {}, template);
+      var globalOptions = eval(optionsReturnData[0]);
+      var chartOptions = eval(chartReturnData[0]);
+      var template = eval(templateReturnData[0]);
+      
       //load csv and draw chart            
       $.get(csvUrl, function(data){
-        drawChart(data, chartOptionsCloned, templateCloned, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn);
+        drawChart(data, chartOptions, template, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn);
       });
+    }
+  ).fail(function(jqXHR, textStatus, errorThrown){
+    console.log('$.getScript() failed! ');
+    console.log(textStatus);
+    console.log(errorThrown);
   });  
 }
 

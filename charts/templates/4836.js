@@ -1,4 +1,5 @@
-var chartOptions = {
+(function(){
+    return {
 	"series": [{
 		"color": "#689199"
 	}],
@@ -24,6 +25,7 @@ var chartOptions = {
             //rank is calculated from index, thus data needs to be sorted by rank ascending.
             return '<span style="color:{series.color}">' + this.series.data[this.x].name + '</span>: <b>Fr. ' + Highcharts.numberFormat(this.y, 0, "," ," ") + '</b><br/>Rang <b>' + parseInt(this.x + 1) + '</b>'                
         }
-    }};
+    }	}
+}());
 
 //Colors of StatA Bereiche: violett3 #923F8D, gruen3 #68AB2B, blau3 #689199
