@@ -54,8 +54,13 @@ $(document).ready(function(){
       $(deferred.resolve);
     })
   ).done(function(){
-      //if indikatorenset is loaded: make sure the data is loaded into var indikatoren
-      if (indikatorensetView) {indikatoren = indikatorensetData}
+      if (indikatorensetView) {
+        //if indikatorenset is loaded: make sure the data is loaded into var indikatoren
+        indikatoren = indikatorensetData;
+      }
+      else {
+        //todo: add daily changing random number to properties
+      }
       initializeFilterJS(indikatorenset);
   });  
 });
@@ -95,6 +100,7 @@ function initializeFilterJS(indikatorenset){
   }  
   else {
     //Portal view
+    //todo: sort by random number
     sortOptions = {'kuerzel': 'asc'};
     preparePortalView();    
     //define filter.js configuration 
