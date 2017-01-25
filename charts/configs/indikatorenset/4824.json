@@ -110,15 +110,8 @@
   "chart": {
     "events": {
       "load": function () {                
-                this.credits.element.onclick = function() {
-                    /*
-                    window.open(
-                    "http://www.statistik.bs.ch",
-                    '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
-                    );
-                    */
-                };
-            }
+                    this.credits.element.onclick = function() {}
+                }
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
@@ -165,8 +158,8 @@
           "fontSize": "10px"
         },
         "formatter": function (){
-                    return Highcharts.numberFormat((this.y*100),1)+'%';                
-                }
+                        return Highcharts.numberFormat((this.y*100),1)+'%';                
+                    }
       }
     }
   },
@@ -180,8 +173,8 @@
     },
     "labels": {
       "formatter": function (){
-                return Highcharts.numberFormat((this.value*100),0)+'%';                
-            },
+                    return Highcharts.numberFormat((this.value*100),0)+'%';                
+                },
       "style": {
         "color": "#000000"
       }
@@ -190,9 +183,9 @@
   },
   "tooltip": {
     "pointFormatter": function (){
-            //rank is calculated from index, thus data needs to be sorted by rank ascending.
-            return '<span style="color:{series.color}">' + this.series.data[this.x].name + '</span>: <b>'+Highcharts.numberFormat((this.y*100),2)+'%</b><br/>Rang <b>' + parseInt(this.x + 1) + '</b>'                
-        },
+                //rank is calculated from index, thus data needs to be sorted by rank ascending.
+                return '<span style="color:{series.color}">' + this.series.data[this.x].name + '</span>: <b>'+Highcharts.numberFormat((this.y*100),2)+'%</b><br/>Rang <b>' + parseInt(this.x + 1) + '</b>'                
+            },
     "shared": false
   },
   "credits": {

@@ -12,6 +12,7 @@
 
 //Hack to re-use existing web js code from within node.js, see http://stackoverflow.com/a/8808162
 var execfile = require("execfile");
+var fs = require('fs');
 var serialize = require('serialize-javascript');
 var glob = require("glob");
 console.log('Loading wohnviertel shapes...');
@@ -30,13 +31,13 @@ rimraf('charts/configs/indikatorenset/*', function(error) {
         views.forEach(function(view){
             console.log('Starting creation of chart config for indikatorensetView=' + view);
             
-            var files = glob.sync("metadata/single/*.js");
+            var files = glob.sync("metadata/single/*.json");
             files.forEach(function(filepath){
-                var ctx = execfile(filepath);
-                var indikator = ctx.indikatoren[0];
+                var fileContents = fs.readFileSync(filepath);
+                var indikator = JSON.parse(fileContents);
                 if (indikator.visible == undefined || indikator.visible){
                     console.log('Creating config for chart ' + indikator.id + ', indikatorensetView=' + view +'...');
-                    createChartConfig(indikator, view, console);
+                    saveChartConfig(indikator, view, console);
                 }
                 else {
                     console.log('Chart ' + indikator.id + ' is invisible, ignoring.');
@@ -50,7 +51,7 @@ rimraf('charts/configs/indikatorenset/*', function(error) {
 
 
 //todo: get rid of all the jsdom code if not needed 
-function createChartConfig(indikator, indikatorensetView, console){
+function saveChartConfig(indikator, indikatorensetView, console){
     var fs = require('fs');
 
     //from https://github.com/kirjs/react-highcharts/blob/b8e31a26b741f94a13a798ffcc1f1b60e7764676/src/simulateDOM.js 
@@ -92,29 +93,25 @@ function createChartConfig(indikator, indikatorensetView, console){
     });
 
     var csv = (fs.readFileSync('data/' + indikator.id + '.tsv', 'utf8'));
-
-    ctx = execfile('charts/templates/' + indikator.id + '.js', {Highcharts: Highcharts, chartOptions: {}, geojson_wohnviertel: geojson_wohnviertel, rheinData: rheinData});
-    var options = ctx.chartOptions;
+    var result = execfile('charts/templates/' + indikator.id + '.js', {Highcharts: Highcharts, chartOptions: {}, geojson_wohnviertel: geojson_wohnviertel, rheinData: rheinData});
+    var options = result.result;
 
     //disable animations and prevent exceptions
     options.chart = (options.chart || {});
     options.chart.forExport = true;
-
-    var templateName = indikator.template;
-    ctx = execfile('charts/templates/' + templateName + '.js', {Highcharts: Highcharts});
-    var template = ctx.template;
+    
+    result = execfile('charts/templates/' + indikator.template + '.js', {Highcharts: Highcharts});
+    var template = result.result;
 
 
     ctx = execfile("assets/js/indikatoren-highcharts.js", { 
         Highcharts: Highcharts, 
-        console: console, 
-        template: template
-    });
+        console: console
+    }).context;
 
-    ctx.createChartConfig(csv, options, indikator, indikatorensetView, false, function(options){
+    ctx.createChartConfig(csv, options, template, indikator, indikatorensetView, false, function(options){
         var stringifiedOptions = serialize(options, {space: 2});
         var filePath = (indikatorensetView) ? 'charts/configs/indikatorenset/' : 'charts/configs/portal/';
-        //console.log(stringifiedOptions);
         fs.writeFile(filePath + indikator.id + '.json', stringifiedOptions);
     });
 }

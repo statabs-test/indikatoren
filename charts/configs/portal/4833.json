@@ -110,15 +110,8 @@
   "chart": {
     "events": {
       "load": function () {                
-                this.credits.element.onclick = function() {
-                    /*
-                    window.open(
-                    "http://www.statistik.bs.ch",
-                    '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
-                    );
-                    */
-                };
-            }
+                    this.credits.element.onclick = function() {}
+                }
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
@@ -165,8 +158,8 @@
           "fontSize": "10px"
         },
         "formatter": function (){
-                    return Highcharts.numberFormat((this.y*100),1)+'%';                
-                }
+                        return Highcharts.numberFormat((this.y*100),1)+'%';                
+                    }
       }
     }
   },

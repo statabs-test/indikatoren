@@ -35,7 +35,7 @@ function go(){
         console.log('Creating MultiArgsFile entries for indikatorensetView=' + view);
         var files = glob.sync("metadata/single/*.js");
         files.forEach(function(filepath){
-            var ctx = execfile(filepath);
+            var ctx = execfile(filepath).context;
             var indikator = ctx.indikatoren[0];
             if (indikator.visible == undefined || indikator.visible){            
                 console.log('Creating MultiArgsFile entries for chart ' + indikator.id + ' indikatorensetView=' + view +'...');
@@ -74,7 +74,7 @@ function addSvgViewBox(console){
     views.forEach(function(view){
         var files = glob.sync("metadata/single/*.js");
         files.forEach(function(filepath){
-            var ctx = execfile(filepath);
+            var ctx = execfile(filepath).context;
             var indikator = ctx.indikatoren[0];
             if (indikator.visible == undefined || indikator.visible){            
                 var path = (view) ? 'images/indikatorenset/' : 'images/portal/';
