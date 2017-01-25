@@ -3,7 +3,7 @@
         "chart": {		
             events:{
                 load: function() {                
-                    this.credits.element.onclick = function() {}
+                    this.credits.element.onclick = function() {};
                 }
             },
             "borderColor": "#fbfbfb",
@@ -69,6 +69,6 @@
             "align": "right",
             "floating": true
     	}
-    }
+    };
     }()
 );

@@ -50,5 +50,5 @@
 			"borderColor": "#fbfbfb"
 		}
 	]
-	}
+	};
 }());

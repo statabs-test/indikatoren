@@ -17,7 +17,7 @@ var serialize = require('serialize-javascript');
 var glob = require("glob");
 console.log('Loading wohnviertel shapes...');
 var ctx = execfile('geojson/wohnviertel_reproj_mollweide_simp.js');
-var geojson_wohnviertel = ctx.geojson_wohnviertel;
+var geojson_wohnviertel = ctx.context.geojson_wohnviertel;
 
 
 console.log('deleting previous chart configs...');
@@ -74,7 +74,7 @@ function saveChartConfig(indikator, indikatorensetView, console){
     var Highcharts_map = require('highcharts/modules/map')(Highcharts);
 
     var ctx = execfile('geojson/rhein_reproj_mollweide_simp.js', {Highcharts: Highcharts, console: console});
-    var rheinData = ctx.rheinData;
+    var rheinData = ctx.context.rheinData;
     
     // Disable all animation
     Highcharts.setOptions({
@@ -93,6 +93,7 @@ function saveChartConfig(indikator, indikatorensetView, console){
     });
 
     var csv = (fs.readFileSync('data/' + indikator.id + '.tsv', 'utf8'));
+    
     var result = execfile('charts/templates/' + indikator.id + '.js', {Highcharts: Highcharts, chartOptions: {}, geojson_wohnviertel: geojson_wohnviertel, rheinData: rheinData});
     var options = result.result;
 
@@ -106,6 +107,8 @@ function saveChartConfig(indikator, indikatorensetView, console){
 
     ctx = execfile("assets/js/indikatoren-highcharts.js", { 
         Highcharts: Highcharts, 
+        geojson_wohnviertel: geojson_wohnviertel, 
+        rheinData: rheinData,
         console: console
     }).context;
 
