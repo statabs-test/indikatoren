@@ -84,8 +84,7 @@
         if (kuerzel == 'undefined') {
           kuerzel = kuerzelById[id]
         };
-        $.getScript('metadata/single/'+ id + '.js').done(function(script, textStatus){              
-            var chartMetadata = indikatoren[0];
+        $.getJSON('metadata/single/'+ id + '.json').done(function(chartMetadata, textStatus){     
             //create div for chart
             jQuery('<div/>', {
               id: 'container-' + id,
