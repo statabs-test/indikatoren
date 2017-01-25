@@ -11,7 +11,7 @@
     "jquery": "^3.1.1"
   },
   "devDependencies": {
-    "gh-pages-travis": "1.0.0",
+    "gh-pages-travis": "1.0.1",
     "glob": "^7.1.1",
     "highcharts": "^5.0.6",
     "highcharts-phantomjs": "^2.2.0",
