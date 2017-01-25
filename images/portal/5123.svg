@@ -1,0 +1,49 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" width="485" height="415" font-family="Arial" font-size="12">
+    <defs>
+        <linearGradient x2="1" id="a">
+            <stop offset="0" stop-color="#eff4f4"/>
+            <stop offset="1" stop-color="#4f6e75"/>
+        </linearGradient>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M10 41h465v329H10z"/>
+    <text x="3" y="15" font-weight="700" color="#666" fill="#666" transform="translate(188 196)" class="highcharts-label highcharts-no-data">
+        <tspan>No data to display</tspan>
+    </text>
+    <path fill="none" class="highcharts-plot-border" d="M10 41h465v329H10z"/>
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>I.18.2.0006 Einkommenssteuer pro Veranlagung</tspan>
+    </text>
+    <g class="highcharts-legend" transform="translate(43 323)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="432" height="47"/>
+        <g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined">
+            <path fill="url(#a)" d="M0 4h200v12H0z" transform="translate(226 3)"/>
+            <g class="highcharts-grid highcharts-coloraxis-grid">
+                <path fill="none" stroke="#fbfbfb" class="highcharts-grid-line" d="M225.5 7v12m50-12v12m50-12v12m50-12v12m51-12v12"/>
+            </g>
+            <g class="highcharts-axis highcharts-coloraxis">
+                <path fill="none" class="highcharts-axis-line" d="M226 19h200"/>
+            </g>
+            <g class="highcharts-axis-labels highcharts-coloraxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+                <text x="3.063" y="35" transform="translate(226 3)">
+                    <tspan>0</tspan>
+                </text>
+                <text x="50" y="48" transform="translate(226 3)">
+                    <tspan>5 000</tspan>
+                </text>
+                <text x="100" y="35" transform="translate(226 3)">
+                    <tspan>10 000</tspan>
+                </text>
+                <text x="150" y="48" transform="translate(226 3)">
+                    <tspan>15 000</tspan>
+                </text>
+                <text x="183.203" y="35" transform="translate(226 3)">
+                    <tspan>20 000</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Statistisches Amt Basel-Stadt, kantonale Steuerstatistik</tspan>
+    </text>
+</svg>

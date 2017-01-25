@@ -1,0 +1,85 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" width="485" height="415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h410v291H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M65 58h410v291H65z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M68.5 58v291m80-291v291m81-291v291m80-291v291m81-291v291m80-291v291"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M65 349.5h410m-410-58h410m-410-58h410m-410-59h410m-410-58h410m-410-59h410"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M65 58h410v291H65z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M65 349.5h410"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M65 58v291"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(65 58)" clip-path="url(#a)">
+            <path fill="none" d="M4.02 170.968l80.392-15.388 80.392-12.036 80.392-18.053 80.392-10.953 80.392-7.403" class="highcharts-graph" stroke="#B375AB" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.98 170.968h10l80.392-15.388 80.392-12.036 80.392-18.053 80.392-10.953 80.392-7.403h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#B375AB" d="M73 229a4 4 0 1 1 0-.004zm80-15a4 4 0 1 1 0-.004zm80-12a4 4 0 1 1 0-.004zm81-19a4 4 0 1 1 0-.004zm80-10a4 4 0 1 1 0-.004zm80-8a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>I.01.1.0025 Erwachsene Einwohner mit Hauptwohnsitz im</tspan><tspan dy="17" x="10">Kanton Basel-Stadt</tspan><title>I.01.1.0025 Erwachsene Einwohner mit Hauptwohnsitz im Kanton Basel-Stadt</title>
+    </text>
+    <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(60 206)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">160 312</tspan><tspan x="5" y="16">160 312</tspan>
+        </text>
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(430 142)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">165 796</tspan><tspan x="5" y="16">165 796</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="69.02" y="368">
+            <tspan>2010</tspan>
+        </text>
+        <text x="149.412" y="368">
+            <tspan>2011</tspan>
+        </text>
+        <text x="229.804" y="368">
+            <tspan>2012</tspan>
+        </text>
+        <text x="310.196" y="368">
+            <tspan>2013</tspan>
+        </text>
+        <text x="390.588" y="368">
+            <tspan>2014</tspan>
+        </text>
+        <text x="462.781" y="368">
+            <tspan>2015</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="50" y="354">
+            <tspan>150 000</tspan>
+        </text>
+        <text x="50" y="295">
+            <tspan>155 000</tspan>
+        </text>
+        <text x="50" y="237">
+            <tspan>160 000</tspan>
+        </text>
+        <text x="50" y="179">
+            <tspan>165 000</tspan>
+        </text>
+        <text x="50" y="121">
+            <tspan>170 000</tspan>
+        </text>
+        <text x="50" y="63">
+            <tspan>175 000</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Bundesamt für Statistik BFS, STATPOP</tspan>
+    </text>
+</svg>

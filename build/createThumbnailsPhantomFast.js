@@ -10,7 +10,7 @@ var path = require('path')
 var phantomjs = require('phantomjs-prebuilt')
 var binPath = phantomjs.path
 
-console.log('deleting previous chart configs...');
+console.log('deleting previous chart images...');
 var rimraf = require("rimraf");
 rimraf('images/indikatorenset/*', function(error) {
     if (error) { throw error; }
@@ -33,10 +33,10 @@ function go(){
     var views = [true, false];
     views.forEach(function(view){
         console.log('Creating MultiArgsFile entries for indikatorensetView=' + view);
-        var files = glob.sync("metadata/single/*.js");
+        var files = glob.sync("metadata/single/*.json");
         files.forEach(function(filepath){
-            var ctx = execfile(filepath).context;
-            var indikator = ctx.indikatoren[0];
+            var fileContents = fs.readFileSync(filepath);
+            var indikator = JSON.parse(fileContents);
             if (indikator.visible == undefined || indikator.visible){            
                 console.log('Creating MultiArgsFile entries for chart ' + indikator.id + ' indikatorensetView=' + view +'...');
                 var imagePath = (view) ? 'images/indikatorenset/' : 'images/portal/';
@@ -74,8 +74,7 @@ function addSvgViewBox(console){
     views.forEach(function(view){
         var files = glob.sync("metadata/single/*.js");
         files.forEach(function(filepath){
-            var ctx = execfile(filepath).context;
-            var indikator = ctx.indikatoren[0];
+            var indikator = execfile(filepath).result;
             if (indikator.visible == undefined || indikator.visible){            
                 var path = (view) ? 'images/indikatorenset/' : 'images/portal/';
                 var svg = fs.readFileSync(path + indikator.id + '.svg', 'utf8');
