@@ -111,10 +111,7 @@ function renderChartByKuerzel(globalOptionsUrl, templateUrl, chartUrl, csvUrl, k
         $(deferred.resolve);
       })
   ).done(function(optionsReturnData, templateReturnData, chartReturnData){
-      //todo: use return data instead of global variable asignment in order to fix multi threading
-      //clone the global variables so that no other thread manipulates them
-      //var chartOptionsCloned = $.extend(true, {}, chartOptions);
-      //var templateCloned = $.extend(true, {}, template);
+      //get returned script, evaluate it, save returned object to variable. 
       var globalOptions = eval(optionsReturnData[0]);
       var chartOptions = eval(chartReturnData[0]);
       var template = eval(templateReturnData[0]);
