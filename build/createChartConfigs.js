@@ -11,8 +11,18 @@
  */
 
 //Hack to re-use existing web js code from within node.js, see http://stackoverflow.com/a/8808162
-var execfile = require("execfile");
-var fs = require('fs');
+//var execfile = require("execfile");
+
+var vm = require("vm");
+var fs = require("fs");
+var execute = function(path, context) {
+  context = context || {};
+  var data = fs.readFileSync(path);
+  var result = vm.runInNewContext(data, context, path);
+  return {context: context, result: result};
+};
+
+
 var serialize = require('serialize-javascript');
 var glob = require("glob");
 console.log('Loading wohnviertel shapes...');
@@ -94,17 +104,17 @@ function saveChartConfig(indikator, indikatorensetView, console){
 
     var csv = (fs.readFileSync('data/' + indikator.id + '.tsv', 'utf8'));
     
-    var result = execfile('charts/templates/' + indikator.id + '.js', {Highcharts: Highcharts, chartOptions: {}, geojson_wohnviertel: geojson_wohnviertel, rheinData: rheinData});
+    var result = execute('charts/templates/' + indikator.id + '.js', {Highcharts: Highcharts, chartOptions: {}, geojson_wohnviertel: geojson_wohnviertel, rheinData: rheinData});
     var options = result.result;
 
     //disable animations and prevent exceptions
     options.chart = (options.chart || {});
     options.chart.forExport = true;
     
-    result = execfile('charts/templates/' + indikator.template + '.js', {Highcharts: Highcharts});
+    result = execute('charts/templates/' + indikator.template + '.js', {Highcharts: Highcharts});
     var template = result.result;
 
-    var ctx = execfile("assets/js/indikatoren-highcharts.js", { 
+    var ctx = execute("assets/js/indikatoren-highcharts.js", { 
         Highcharts: Highcharts, 
         geojson_wohnviertel: geojson_wohnviertel, 
         rheinData: rheinData,

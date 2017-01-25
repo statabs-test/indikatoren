@@ -2,13 +2,21 @@
 //how to use custom non-node code in from within node.js: http://stackoverflow.com/questions/5171213/load-vanilla-javascript-libraries-into-node-js
 
 //Hack to re-use existing web js code from within node.js, see http://stackoverflow.com/a/8808162
-var execfile = require("execfile");
-var serialize = require('serialize-javascript');
-var fs = require('fs');
+//var execute = require("execute");
+
+var vm = require("vm");
+var fs = require("fs");
+var execute = function(path, context) {
+  context = context || {};
+  var data = fs.readFileSync(path);
+  var result = vm.runInNewContext(data, context, path);
+  return {context: context, result: result};
+};
+
 var glob = require("glob");
-var path = require('path')
-var phantomjs = require('phantomjs-prebuilt')
-var binPath = phantomjs.path
+var path = require('path');
+var phantomjs = require('phantomjs-prebuilt');
+var binPath = phantomjs.path;
 
 console.log('deleting previous chart images...');
 var rimraf = require("rimraf");
@@ -74,7 +82,7 @@ function addSvgViewBox(console){
     views.forEach(function(view){
         var files = glob.sync("metadata/single/*.js");
         files.forEach(function(filepath){
-            var indikator = execfile(filepath).result;
+            var indikator = execute(filepath).result;
             if (indikator.visible == undefined || indikator.visible){            
                 var path = (view) ? 'images/indikatorenset/' : 'images/portal/';
                 var svg = fs.readFileSync(path + indikator.id + '.svg', 'utf8');
