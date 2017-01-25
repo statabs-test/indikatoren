@@ -60,7 +60,7 @@ function go(){
         });
     });
     var allArgsObj = {allArgs};
-    console.log('Saving MultiArgsFile to ' + path.join(__dirname, 'convertArgs2.json') + '...');
+    console.log('Saving MultiArgsFile to ' + path.join(__dirname, 'convertArgs.json') + '...');
     fs.writeFileSync(path.join(__dirname, 'convertArgs.json'), JSON.stringify(allArgsObj, null, '\t'));
     console.log('Invoking PhantomJs to render all images...');
     renderMultipleImages(console);
