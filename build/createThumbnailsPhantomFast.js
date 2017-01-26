@@ -80,9 +80,10 @@ function go(){
 function addSvgViewBox(console){
     var views = [true, false];
     views.forEach(function(view){
-        var files = glob.sync("metadata/single/*.js");
+        var files = glob.sync("metadata/single/*.json");
         files.forEach(function(filepath){
-            var indikator = execute(filepath).result;
+            var fileContents = fs.readFileSync(filepath);
+            var indikator = JSON.parse(fileContents);
             if (indikator.visible == undefined || indikator.visible){            
                 var path = (view) ? 'images/indikatorenset/' : 'images/portal/';
                 var svg = fs.readFileSync(path + indikator.id + '.svg', 'utf8');
