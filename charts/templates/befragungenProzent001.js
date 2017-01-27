@@ -120,6 +120,9 @@ var template = {
             "fontWeight": "normal",
             "width": 115
         },
-        "symbolRadius": 0
+        "symbolRadius": 0,
+        "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        }
     }    
 };

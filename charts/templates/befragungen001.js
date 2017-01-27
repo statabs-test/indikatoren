@@ -118,7 +118,7 @@ var template = {
             "fontWeight": "normal"
         },
         "symbolRadius": 0,
-        labelFormatter: function () {
+        "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
         }
     }    
