@@ -6501,7 +6501,7 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-				return Highcharts.numberFormat((this.value), 0)+' m²'; 
+				return Highcharts.numberFormat((this.value), 0); 
 			}
     },
     "minColor": "#eff6e9",
@@ -6522,7 +6522,8 @@
       "style": {
         "fontWeight": "normal",
         "fontSize": "11px"
-      }
+      },
+      "text": "in m²"
     }
   },
   "tooltip": {

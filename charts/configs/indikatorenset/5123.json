@@ -6502,7 +6502,7 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-				return Highcharts.numberFormat(this.value/ 1000, 0); 
+				return Highcharts.numberFormat(this.value / 1000, 0); 
 			}
     },
     "minColor": "#eff4f4",
