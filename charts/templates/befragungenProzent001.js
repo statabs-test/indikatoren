@@ -83,7 +83,12 @@ var template = {
         "labels": {
             "rotation": 0,
 			"style": {
-                "color": "#000000"
+                "color": "#000000",
+                "width": 1,
+                "textOverflow": "none"
+            },
+            "formatter": function() {
+            	return this.value.replace(" ", "<br/>");
             }
         }                
     },
@@ -112,7 +117,8 @@ var template = {
         "align": "right",
         "useHTML": true,
         "itemStyle": {
-            "fontWeight": "normal"
+            "fontWeight": "normal",
+            "width": 115
         },
         "symbolRadius": 0
     }    
