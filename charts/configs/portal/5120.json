@@ -6491,7 +6491,6 @@
     "text": "Quelle: Kantonale Baustatistik"
   },
   "colorAxis": {
-    "min": 0,
     "gridLineColor": "#fbfbfb",
     "gridLineWidth": 1,
     "labels": {
@@ -6502,9 +6501,8 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-				return Highcharts.numberFormat(this.value, 0)+' m²'; 
-			},
-      "staggerLines": 2
+				return Highcharts.numberFormat(this.value, 0); 
+			}
     },
     "minColor": "#eff6e9",
     "maxColor": "#4b7b1f"
@@ -6519,7 +6517,14 @@
   "legend": {
     "enabled": true,
     "align": "right",
-    "floating": true
+    "floating": true,
+    "title": {
+      "style": {
+        "fontWeight": "normal",
+        "fontSize": "11px"
+      },
+      "text": "in m²"
+    }
   },
   "tooltip": {
     "pointFormatter": function (){

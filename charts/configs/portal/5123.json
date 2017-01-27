@@ -6502,9 +6502,8 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-				return Highcharts.numberFormat(this.value, 0); 
-			},
-      "staggerLines": 2
+				return Highcharts.numberFormat(this.value/ 1000, 0); 
+			}
     },
     "minColor": "#eff4f4",
     "maxColor": "#4f6e75"
@@ -6519,7 +6518,14 @@
   "legend": {
     "enabled": true,
     "align": "right",
-    "floating": true
+    "floating": true,
+    "title": {
+      "style": {
+        "fontWeight": "normal",
+        "fontSize": "11px"
+      },
+      "text": "in tausend Franken"
+    }
   },
   "tooltip": {
     "pointFormatter": function (){

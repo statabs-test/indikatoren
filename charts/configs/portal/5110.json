@@ -6518,7 +6518,13 @@
   "legend": {
     "enabled": true,
     "align": "right",
-    "floating": true
+    "floating": true,
+    "title": {
+      "style": {
+        "fontWeight": "normal",
+        "fontSize": "11px"
+      }
+    }
   },
   "tooltip": {
     "pointFormatter": function (){
