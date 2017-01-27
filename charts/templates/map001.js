@@ -19,19 +19,19 @@
         },
         "title": {
             "style": {
-            "fontSize": "14px",
-            "fontWeight": "bold",
-            "fontFamily": "Arial",
-            "color": "#000000"
+                "fontSize": "14px",
+                "fontWeight": "bold",
+                "fontFamily": "Arial",
+                "color": "#000000"
             },        
             "align": "left"
         },
         "subtitle": {
             "style": {
-            "fontSize": "12px",
-            "fontWeight": "normal",
-            "fontFamily": "Arial",
-            "color": "#000000"
+                "fontSize": "12px",
+                "fontWeight": "normal",
+                "fontFamily": "Arial",
+                "color": "#000000"
             },
             "text": "",
             "align": "left"
@@ -67,7 +67,13 @@
         "legend": {
     		"enabled": true, 
             "align": "right",
-            "floating": true
+            "floating": true,
+            "title": {
+                "style": {
+                    "fontWeight": "normal", 
+                    "fontSize": "11px"
+                }
+            }
     	}
     };
     }()

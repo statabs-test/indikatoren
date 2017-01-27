@@ -17,11 +17,12 @@
 	"colorAxis": {
 		"minColor": "#eff6e9",
 		"maxColor": "#4b7b1f",
+		"min": undefined,
+		"tickInterval": 50,
 		"labels": {
 			"formatter": function () {
-				return Highcharts.numberFormat(this.value, 0)+' m²'; 
-			},
-			"staggerLines": 2
+				return Highcharts.numberFormat(this.value, 0) +' m²'; 
+			}
 		}
 	},			
 	"series": [

@@ -14,14 +14,18 @@
 			}
 		}
 	},
+	"legend": {
+		"title": {
+			"text": "in tausend Franken"
+		}
+	},
 	"colorAxis": {
 		"minColor": "#eff4f4",
 		"maxColor": "#4f6e75",
 		"labels": {
 			"formatter": function () {
-				return Highcharts.numberFormat((this.value),0); 
-			},
-			"staggerLines": 2
+				return Highcharts.numberFormat((this.value / 1000),0); 
+			}
 		}
 	},			
 	"series": [
