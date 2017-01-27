@@ -201,9 +201,12 @@
     "useHTML": true,
     "itemStyle": {
       "fontWeight": "normal",
-      "width": 115
+      "width": 150
     },
-    "symbolRadius": 0
+    "symbolRadius": 0,
+    "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        }
   },
   "exporting": {
     "filename": "I.50.3.0001"

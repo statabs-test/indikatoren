@@ -263,6 +263,9 @@
       "fontWeight": "normal"
     },
     "symbolRadius": 0,
+    "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        },
     "x": 30,
     "y": 35,
     "itemWidth": 200

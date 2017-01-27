@@ -59,7 +59,7 @@
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
             <text x="21" y="15" style="width:115" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 71)">
-                <tspan>Weiss nicht / keine</tspan><tspan dy="15" x="21">Angabe</tspan><title>Weiss nicht / keine Angabe</title>
+                <tspan>Weiss nicht /</tspan><tspan x="21" dy="15">keine Angabe</tspan>
             </text>
             <path fill="#C8C8C8" class="highcharts-point" d="M10 75h12v12H10z"/>
         </g>

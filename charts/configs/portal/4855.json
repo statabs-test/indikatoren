@@ -122,7 +122,7 @@
           4.6
         ]
       ],
-      "name": "Weiss nicht\u002Fkeine Angabe",
+      "name": "Weiss nicht \u002F keine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -253,7 +253,10 @@
       "fontWeight": "normal",
       "width": 115
     },
-    "symbolRadius": 0
+    "symbolRadius": 0,
+    "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        }
   },
   "exporting": {
     "filename": "I.50.1.0014"
