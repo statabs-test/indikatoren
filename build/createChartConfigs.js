@@ -15,6 +15,7 @@
 
 var vm = require("vm");
 var fs = require("fs");
+
 var execute = function(path, context) {
   context = context || {};
   var data = fs.readFileSync(path);
@@ -30,7 +31,7 @@ var fileContents = fs.readFileSync('geojson/wohnviertel_reproj_mollweide_simp.js
 var geojson_wohnviertel = JSON.parse(fileContents);
 console.log('Loading rhein shape...');
 var rheinFileContents = fs.readFileSync('geojson/rhein_reproj_mollweide_simp.json');
-var rheinData = JSON.parse(rheinFileContents);
+var geojson_rhein = JSON.parse(rheinFileContents);
 
 console.log('deleting previous chart configs...');
 var rimraf = require("rimraf");
@@ -84,6 +85,9 @@ function saveChartConfig(indikator, indikatorensetView, console){
     require('highcharts/highcharts-more')(Highcharts);
     var Highcharts_data = require('highcharts/modules/data')(Highcharts);
     var Highcharts_map = require('highcharts/modules/map')(Highcharts);
+    
+    //convert rhein shape to geojson, see http://api.highcharts.com/highmaps/Highcharts.geojson
+    var rheinData = Highcharts.geojson(geojson_rhein, 'map');
 
 
     // Disable all animation
@@ -104,22 +108,17 @@ function saveChartConfig(indikator, indikatorensetView, console){
 
     var csv = (fs.readFileSync('data/' + indikator.id + '.tsv', 'utf8'));
     
-    var result = execute('charts/templates/' + indikator.id + '.js', {Highcharts: Highcharts, chartOptions: {}, geojson_wohnviertel: geojson_wohnviertel, rheinData: rheinData});
+    var result = execute('charts/templates/' + indikator.id + '.js', {Highcharts: Highcharts, geojson_wohnviertel: geojson_wohnviertel, rheinData: rheinData, console: console});
     var options = result.result;
 
     //disable animations and prevent exceptions
     options.chart = (options.chart || {});
     options.chart.forExport = true;
     
-    result = execute('charts/templates/' + indikator.template + '.js', {Highcharts: Highcharts});
+    result = execute('charts/templates/' + indikator.template + '.js', {Highcharts: Highcharts, geojson_wohnviertel: geojson_wohnviertel, rheinData: rheinData, console: console});
     var template = result.result;
 
-    var ctx = execute("assets/js/indikatoren-highcharts.js", { 
-        Highcharts: Highcharts, 
-        geojson_wohnviertel: geojson_wohnviertel, 
-        rheinData: rheinData,
-        console: console
-    }).context;
+    var ctx = execute("assets/js/indikatoren-highcharts.js", {Highcharts: Highcharts, chartOptions: {}, geojson_wohnviertel: geojson_wohnviertel, rheinData: rheinData, console: console}).context;
 
     ctx.createChartConfig(csv, options, template, indikator, indikatorensetView, false, function(options){
         var stringifiedOptions = serialize(options, {space: 2});
