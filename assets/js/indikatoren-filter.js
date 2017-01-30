@@ -99,11 +99,13 @@ function initializeFilterJS(indikatorenset){
 
     //define filter.js configuration 
     fjsConfig['template'] = '#indikator-template-carousel-indikatorenset';
+    fjsConfig['criterias'] = [
+      {field: "kennzahlenset", ele: "#kennzahlenset_filter", all: "all"},
+      {field: "stufe1", ele: "#stufe1_filter", all: "all"},
+      {field: "stufe2", ele: "#stufe2_filter", all: "all"}
+      ];
 
     var FJS = FilterJS(indikatoren, '#indikatoren', fjsConfig);
-    FJS.addCriteria({field: "kennzahlenset", ele: "#kennzahlenset_filter", all: "all"});
-    FJS.addCriteria({field: "stufe1", ele: "#stufe1_filter", all: "all"});
-    FJS.addCriteria({field: "stufe2", ele: "#stufe2_filter", all: "all"});
   }  
   else {
     //Portal view
@@ -111,14 +113,15 @@ function initializeFilterJS(indikatorenset){
     preparePortalView();    
     //define filter.js configuration 
     fjsConfig['template'] = '#indikator-template-carousel-portal';
-
+    fjsConfig['criterias'] = [
+      {field: "thema", ele: "#thema_criteria input:radio", all: "Alle"},
+      {field: "unterthema", ele: "#unterthema_filter", all: "all"},
+      {field: "schlagwort", ele: "#schlagwort_filter", all: "all"},
+      {field: "raeumlicheGliederung", ele: "#raeumlicheGliederung_filter", all: "all"}
+    ];
     FJS = FilterJS(indikatoren, '#indikatoren', fjsConfig);
-    FJS.addCriteria({field: "thema", ele: "#thema_criteria input:radio", all: "Alle"});
-    FJS.addCriteria({field: "unterthema", ele: "#unterthema_filter", all: "all"});
-    FJS.addCriteria({field: "schlagwort", ele: "#schlagwort_filter", all: "all"});
-    FJS.addCriteria({field: "raeumlicheGliederung", ele: "#raeumlicheGliederung_filter", all: "all"});      
 
-    //reset all filter criteria
+    //reset all filter criteria upon button press
     $("#portal-reset-button").click(function(){
       $('#searchbox').val('');
       $("#thema_criteria :radio:first()").prop('checked', true);
@@ -436,7 +439,15 @@ var afterFilter = function(result, jQ){
             var c = $(this), count = 0;           
             //get last Query JsonQuery Object of last filter event and remove the current filter value from it
             try{
-              var jsonQ = window.FJS.last_Query;           
+              //get last query result - if no previous query or FJS has not been gloablly assigned yet: get jsonquery of all data
+              var jsonQ;
+              if(window['FJS']) {
+                jsonQ = (window.FJS.last_Query || JsonQuery(indikatoren));
+              }
+              else {
+                jsonQ = JsonQuery(indikatoren);
+              }
+
               //save array to restore later
               var origArray = jsonQ.where().criteria.where[field + '.$in'];
               //add only current item to new criterion array
