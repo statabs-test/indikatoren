@@ -105,7 +105,8 @@ function initializeFilterJS(indikatorenset){
       {field: "stufe2", ele: "#stufe2_filter", all: "all"}
       ];
 
-    var FJS = FilterJS(indikatoren, '#indikatoren', fjsConfig);
+    window.FJS = FilterJS(indikatoren, '#indikatoren', fjsConfig);
+
   }  
   else {
     //Portal view
@@ -119,8 +120,7 @@ function initializeFilterJS(indikatorenset){
       {field: "schlagwort", ele: "#schlagwort_filter", all: "all"},
       {field: "raeumlicheGliederung", ele: "#raeumlicheGliederung_filter", all: "all"}
     ];
-    FJS = FilterJS(indikatoren, '#indikatoren', fjsConfig);
-
+    window.FJS = FilterJS(indikatoren, '#indikatoren', fjsConfig);
     //reset all filter criteria upon button press
     $("#portal-reset-button").click(function(){
       $('#searchbox').val('');
@@ -146,8 +146,6 @@ function initializeFilterJS(indikatorenset){
     }
   }
 
-  window.FJS = FJS;  
-  FJS.filter();  
   //only now display page
   $('body').show();
 
@@ -405,16 +403,16 @@ function getIndexByFid(fid){
 
 
 //after filtering is done: update counts in dropdowns and create all carousel components
-var afterFilter = function(result, jQ){
+var afterFilter = function(result, jQ, lastQuery){
     //$('#total_indikatoren').text(result.length);    
 
     //define how counts in dropdowns or checkboxes are rendered 
     var optionCountRenderFunction = function(c, count){c.text(c.val() + ' (' + count + ')') };
     var checkboxCountRenderFunction = function(c, count){c.next().text(c.val() + ' (' + count + ')')};
     //render new counts after each control
-    updateCountsExclusive('#thema_criteria :input:gt(0)', 'thema', checkboxCountRenderFunction, result, jQ);        
-    updateCountsExclusive('#schlagwort_filter > option', 'schlagwort', optionCountRenderFunction, result, jQ);
-    updateCountsExclusive('#raeumlicheGliederung_filter > option', 'raeumlicheGliederung', optionCountRenderFunction, result, jQ);
+    updateCountsExclusive('#thema_criteria :input:gt(0)', 'thema', checkboxCountRenderFunction, result, jQ, lastQuery);        
+    updateCountsExclusive('#schlagwort_filter > option', 'schlagwort', optionCountRenderFunction, result, jQ, lastQuery);
+    updateCountsExclusive('#raeumlicheGliederung_filter > option', 'raeumlicheGliederung', optionCountRenderFunction, result, jQ, lastQuery);
 
     //hide dropdowns if no specific values present, or select the single specific value
     selectSingleEntryOrHideDropdown('#unterthema_filter');
@@ -432,53 +430,39 @@ var afterFilter = function(result, jQ){
 
     //add Counts in brackets after each option
     //calculate number of results that would be found if only the current value was selected (i.e. exclusive any filtercriteria of the current control)
-    function updateCountsExclusive(selector, field, renderFunction){
-          var items  = $(selector);
-          //iterate over each displayed value of the criterion 
-          items.each(function(){            
-            var c = $(this), count = 0;           
-            //get last Query JsonQuery Object of last filter event and remove the current filter value from it
-            try{
-              //get last query result - if no previous query or FJS has not been gloablly assigned yet: get jsonquery of all data
-              var jsonQ;
-              if(window['FJS']) {
-                jsonQ = (window.FJS.last_Query || JsonQuery(indikatoren));
-              }
-              else {
-                jsonQ = JsonQuery(indikatoren);
-              }
+    function updateCountsExclusive(selector, field, renderFunction, result, jQ, lastQuery){
+      var items  = $(selector);
+      //iterate over each displayed value of the criterion 
+      items.each(function(){
+        var c = $(this), count = 0;           
+        //From last filter event: remove the current filter value from lastQuery JsonQuery Object
+        //save array to restore later
+        var origArray = lastQuery.where().criteria.where[field + '.$in'];
+        //add only current item to new criterion array
+        var newArray = [c.val()];
+        lastQuery.where().criteria.where[field + '.$in'] = newArray;
+        //if any of the where criteria contains an empty array as filter item: remove the clause to make jsonQuery work
+        $.each(lastQuery.where().criteria.where, function(index, value){
+          if (value === undefined){
+            delete lastQuery.where().criteria.where[index];
+          }
+        });
+        //invoke JsonQuery and get length of result
+        count = lastQuery.count;
+        //render text using the appropriate function
+        renderFunction(c, count);
 
-              //save array to restore later
-              var origArray = jsonQ.where().criteria.where[field + '.$in'];
-              //add only current item to new criterion array
-              var newArray = [c.val()];
-              jsonQ.where().criteria.where[field + '.$in'] = newArray;
-              //if any of the where criteria contains an empty array as filter item: remove the clause to make jsonQuery work
-              $.each(jsonQ.where().criteria.where, function(index, value){
-                if (value === undefined){
-                  delete jsonQ.where().criteria.where[index];
-                }
-              });
-              //invoke JsonQuery and get length of result
-              count = jsonQ.count;
-              //handle full text search if it is defined in FJS
-              if(window.FJS.has_search){                
-                //only do full text search with minimum number of search characters               
-                if (window.FJS.search_text.length > window.FJS.opts.search.start_length){
-                  var result = window.FJS.search(window.FJS.search_text, jsonQ.all);
-                  count = result.length;
-                }                
-              }                             
-              //restore original criterion array
-              jsonQ.where().criteria.where[field + '.$in'] = origArray;
-            }
-            catch(e){
-              //no filter after first page load, thus no criteria. Silently dismiss exception. 
-              //console.log(e);
-            }
-            //render text using the appropriate function
-            renderFunction(c, count);
-          });      
+        //handle full text search if it is defined in FJS
+        if(window['FJS'] && window['FJS']['has_search']){                
+          //only do full text search with minimum number of search characters               
+          if (window.FJS.search_text.length > window.FJS.opts.search.start_length){
+            var result = window.FJS.search(window.FJS.search_text, lastQuery.all);
+            count = result.length;
+          }                
+        }                             
+        //restore original criterion array
+        lastQuery.where().criteria.where[field + '.$in'] = origArray;
+      });      
     }
 
 
