@@ -2,6 +2,9 @@
     return {
 	"series": [{
 		"color": "#689199"
+	},
+	{
+		"visible": false
 	}],
 	"data": {
 	    "parsed": function (columns) {

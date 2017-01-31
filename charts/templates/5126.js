@@ -4,54 +4,55 @@
 */
 (function(){
     return {
-	"tooltip": {
-		"pointFormatter": function(){
-			if (this.series.data[this.x].name === undefined) {
-				return '<span style="color:{series.color}"></span>';
-			}
-			else {
-				return '<span style="color:{series.color}">' + this.series.data[this.x].name + '</span>: <b>'+Highcharts.numberFormat((this.value*100),2)+'%</b><br/>Rang <b>' + parseInt(this.x + 1, 10) + '</b>';
-			}
-		}
-	},
-	"colorAxis": {
-		"minColor": "#eff4f4",
-		"maxColor": "#4f6e75",
-		"labels": {
-			"formatter": function () {
-				return Highcharts.numberFormat((this.value*100),1)+'%'; 
-			}
-		}
-	},			
-	"series": [
-		{
-			"name": "Wohnviertel", 
-			"animation": true,
-			"mapData": geojson_wohnviertel,
-			"borderColor": "#fbfbfb",		
-			"joinBy": ['TXT', 'Wohnviertel Id'],
-			"keys": ['Wohnviertel Id', 'value'],
-			"states": {
-				"hover": {
-					"enabled": false,
-					"borderColor": '#BADA55',
-					"brightness": 0
+		"colorAxis": {
+			"minColor": "#eff4f4",
+			"maxColor": "#4f6e75",
+			"labels": {
+				"formatter": function () {
+					return Highcharts.numberFormat((this.value*100),1)+'%'; 
 				}
 			}
-		}, 
-		{
-			"visible": false
-		}
-	],
-	/* series with fixed data that should be added to the series object after merging with csv data */
-	"afterSeries": [
-		{
-			"name": "Rhein",
-			"animation": true,
-			"data": rheinData, 
-			"color": "#008AC3",    
-			"borderColor": "#fbfbfb"
-		}
-	]
+		},
+        "data": {
+		    "seriesMapping": [
+		      {
+		      	x: 0, y: 1
+		      },
+		      {
+		      	//2nd series: use x values from column 2
+		      	x: 2
+		      }		      
+		    ]
+        },
+		"series": [
+			{
+				"name": "Wohnviertel", 
+				"animation": true,
+				"mapData": geojson_wohnviertel,
+				"borderColor": "#fbfbfb",		
+				"joinBy": ['TXT', 'Wohnviertel Id'],
+				"keys": ['Wohnviertel Id', 'value'],
+				"states": {
+					"hover": {
+						"enabled": false,
+						"borderColor": '#BADA55',
+						"brightness": 0
+					}
+				}
+			}, 
+			{
+				"visible": false
+			}
+		],
+		/* series with fixed data that should be added to the series object after merging with csv data */
+		"afterSeries": [
+			{
+				"name": "Rhein",
+				"animation": true,
+				"data": rheinData, 
+				"color": "#008AC3",    
+				"borderColor": "#fbfbfb"
+			}
+		]
 	};
 }());

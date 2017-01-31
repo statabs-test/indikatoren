@@ -1,8 +1,12 @@
 (function() {
 	return {
 		"series": [{
-			"color": "#923F8D"
-		}],
+				"color": "#923F8D"
+			},
+			{
+				"visible": false
+			}
+		],
 		"data": {
 		    "parsed": function (columns) {
 		    	
@@ -11,7 +15,7 @@
 		    	columns.push(columns[1]);
 		    	columns.push(columns[2]);
 		    	columns.splice(0,5);
-	    	}
+			}
 		}
 	}
 }());
