@@ -2,7 +2,11 @@
     return {
 	"series": [{
 		"color": "#68AB2B"
-	}],
+	},
+	{
+	    "visible": false
+	}
+	],
 	"yAxis": {
 		"labels": {
             "formatter": function(){
