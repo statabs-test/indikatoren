@@ -19,7 +19,7 @@ var chartOptions = {
             var other_series = args.chart.series[other_series_index];
             var other_point = other_series.data[this_point_index];
             return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-                this.point.name +': <b>Fr. ' + Highcharts.numberFormat(this.y, 0, "," ," ") + '.-</b><br/>' + 
+                this.point.name +': <b>' + Highcharts.numberFormat(this.y, 0, "," ," ") + ' Fr.</b><br/>' + 
                 'Rang <b>' + other_point.y + '</b>';
         }
     }    
