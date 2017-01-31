@@ -6105,6 +6105,96 @@
       ]
     },
     {
+      "visible": false,
+      "data": [
+        [
+          13,
+          1
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          16,
+          3
+        ],
+        [
+          17,
+          4
+        ],
+        [
+          18,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          12,
+          8
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          19,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          3,
+          12
+        ],
+        [
+          11,
+          13
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          9,
+          16
+        ],
+        [
+          8,
+          17
+        ],
+        [
+          20,
+          18
+        ],
+        [
+          15,
+          19
+        ],
+        [
+          7,
+          20
+        ],
+        [
+          30,
+          21
+        ]
+      ],
+      "name": "Rang"
+    },
+    {
       "name": "Rhein",
       "animation": true,
       "data": [
@@ -6472,7 +6562,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Stand: 2015",
     "align": "left"
   },
   "credits": {
@@ -6502,8 +6592,8 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-				return Highcharts.numberFormat((this.value*100),0)+'%'; 
-			}
+					return Highcharts.numberFormat((this.value*100),0)+'%'; 
+				}
     },
     "marker": {
       "color": "black"
@@ -6530,14 +6620,22 @@
     }
   },
   "tooltip": {
-    "pointFormatter": function (){
-			if (this.series.data[this.x].name === undefined) {
-				return '<span style="color:{series.color}"></span>';
-			}
-			else {
-				return '<span style="color:{series.color}">' + this.series.data[this.x].name + '</span>: <b>'+Highcharts.numberFormat((this.value*100),2)+'%</b><br/>Rang <b>' + parseInt(this.x + 1, 10) + '</b>';
-			}
-		}
+    "formatter": function (args){
+        		if (this.series.data[this.point.x].name === undefined) {
+        		    //Rhein
+        			return '<span style="color:' + this.color + ';">\u25CF </span><span>' + this.series.name + '</span>';
+        		}
+                else {
+                    //Wohnviertel
+                    var this_point_index = this.series.data.indexOf(this.point);
+                    var other_series_index = this.series.index == 0 ? 1 : 0; // assuming 2 series
+                    var other_series = args.chart.series[other_series_index];
+                    var other_point = other_series.data[this_point_index];
+                    return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
+                        this.point.name +': <b>' + Highcharts.numberFormat((this.point.value*100),1) + '%</b><br/>' + 
+                        'Rang <b>' + other_point.value + '</b>';
+                }
+            }
   },
   "exporting": {
     "filename": "I.09.1.0033"

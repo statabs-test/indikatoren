@@ -6109,90 +6109,90 @@
       "data": [
         [
           1,
-          1
-        ],
-        [
-          20,
-          2
-        ],
-        [
-          30,
-          2
-        ],
-        [
-          8,
-          4
-        ],
-        [
-          7,
-          5
+          "Altstadt Grossbasel"
         ],
         [
           2,
-          6
+          "Riehen"
         ],
         [
-          9,
-          7
-        ],
-        [
-          3,
-          8
-        ],
-        [
-          5,
-          9
-        ],
-        [
-          15,
-          10
-        ],
-        [
-          12,
-          11
-        ],
-        [
-          6,
-          12
-        ],
-        [
-          14,
-          13
-        ],
-        [
-          10,
-          14
+          2,
+          "Bettingen"
         ],
         [
           4,
-          15
+          "Bachletten"
+        ],
+        [
+          5,
+          "Bruderholz"
+        ],
+        [
+          6,
+          "Vorstädte"
+        ],
+        [
+          7,
+          "Gotthelf"
+        ],
+        [
+          8,
+          "Am Ring"
+        ],
+        [
+          9,
+          "St. Alban"
+        ],
+        [
+          10,
+          "Hirzbrunnen"
         ],
         [
           11,
-          16
+          "Altstadt Kleinbasel"
+        ],
+        [
+          12,
+          "Gundeldingen"
         ],
         [
           13,
-          17
+          "Wettstein"
         ],
         [
-          17,
-          18
+          14,
+          "Iselin"
         ],
         [
-          19,
-          19
+          15,
+          "Breite"
         ],
         [
           16,
-          20
+          "St. Johann"
+        ],
+        [
+          17,
+          "Clara"
         ],
         [
           18,
-          21
+          "Matthäus"
+        ],
+        [
+          19,
+          "Kleinhüningen"
+        ],
+        [
+          20,
+          "Rosental"
+        ],
+        [
+          21,
+          "Klybeck"
         ]
       ],
-      "name": "Rang"
+      "name": "Wohnviertel"
     },
     {
       "name": "Rhein",
@@ -6562,7 +6562,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Stand: 2015",
     "align": "left"
   },
   "credits": {
@@ -6592,8 +6592,8 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-				return Highcharts.numberFormat((this.value*100),1)+'%'; 
-			}
+					return Highcharts.numberFormat((this.value*100),1)+'%'; 
+				}
     },
     "marker": {
       "color": "black"
@@ -6620,9 +6620,22 @@
     }
   },
   "tooltip": {
-    "formatter": function (){
-			console.log(this);
-		}
+    "formatter": function (args){
+        		if (this.series.data[this.point.x].name === undefined) {
+        		    //Rhein
+        			return '<span style="color:' + this.color + ';">\u25CF </span><span>' + this.series.name + '</span>';
+        		}
+                else {
+                    //Wohnviertel
+                    var this_point_index = this.series.data.indexOf(this.point);
+                    var other_series_index = this.series.index == 0 ? 1 : 0; // assuming 2 series
+                    var other_series = args.chart.series[other_series_index];
+                    var other_point = other_series.data[this_point_index];
+                    return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
+                        this.point.name +': <b>' + Highcharts.numberFormat((this.point.value*100),1) + '%</b><br/>' + 
+                        'Rang <b>' + other_point.value + '</b>';
+                }
+            }
   },
   "exporting": {
     "filename": "I.03.4.0008"

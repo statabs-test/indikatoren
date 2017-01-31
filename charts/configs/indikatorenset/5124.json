@@ -6105,6 +6105,96 @@
       ]
     },
     {
+      "visible": false,
+      "data": [
+        [
+          18,
+          1
+        ],
+        [
+          19,
+          2
+        ],
+        [
+          13,
+          3
+        ],
+        [
+          17,
+          4
+        ],
+        [
+          16,
+          5
+        ],
+        [
+          10,
+          6
+        ],
+        [
+          11,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          15,
+          9
+        ],
+        [
+          12,
+          10
+        ],
+        [
+          7,
+          11
+        ],
+        [
+          20,
+          12
+        ],
+        [
+          30,
+          12
+        ],
+        [
+          6,
+          14
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          9,
+          16
+        ],
+        [
+          14,
+          17
+        ],
+        [
+          8,
+          18
+        ],
+        [
+          3,
+          19
+        ],
+        [
+          2,
+          20
+        ],
+        [
+          1,
+          21
+        ]
+      ],
+      "name": "Rang"
+    },
+    {
       "name": "Rhein",
       "animation": true,
       "data": [
@@ -6472,7 +6562,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Stand: gepoolte Daten 2010 - 2014",
     "align": "left"
   },
   "credits": {
@@ -6488,7 +6578,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+    "text": "Quelle: Bundesamt für Statistik BFS, Strukturerhebung (SE)"
   },
   "colorAxis": {
     "gridLineColor": "#fbfbfb",
@@ -6501,8 +6591,8 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-				return Highcharts.numberFormat((this.value*100),0)+'%'; 
-			}
+					return Highcharts.numberFormat((this.value*100),0)+'%'; 
+				}
     },
     "marker": {
       "color": "black"
@@ -6529,14 +6619,22 @@
     }
   },
   "tooltip": {
-    "pointFormatter": function (){
-			if (this.series.data[this.x].name === undefined) {
-				return '<span style="color:{series.color}"></span>';
-			}
-			else {
-				return '<span style="color:{series.color}">' + this.series.data[this.x].name + '</span>: <b>'+Highcharts.numberFormat((this.value*100),2)+'%</b><br/>Rang <b>' + parseInt(this.x + 1, 10) + '</b>';
-			}
-		}
+    "formatter": function (args){
+        		if (this.series.data[this.point.x].name === undefined) {
+        		    //Rhein
+        			return '<span style="color:' + this.color + ';">\u25CF </span><span>' + this.series.name + '</span>';
+        		}
+                else {
+                    //Wohnviertel
+                    var this_point_index = this.series.data.indexOf(this.point);
+                    var other_series_index = this.series.index == 0 ? 1 : 0; // assuming 2 series
+                    var other_series = args.chart.series[other_series_index];
+                    var other_point = other_series.data[this_point_index];
+                    return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
+                        this.point.name +': <b>' + Highcharts.numberFormat((this.point.value*100),1) + '%</b><br/>' + 
+                        'Rang <b>' + other_point.value + '</b>';
+                }
+            }
   },
   "exporting": {
     "filename": "I.03.1.0004"
