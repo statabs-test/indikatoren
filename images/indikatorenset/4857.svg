@@ -47,13 +47,13 @@
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="141" height="151"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
-                <tspan>Überhaupt nicht</tspan><tspan x="21" dy="15">einverstanden</tspan>
+                <tspan>Überhaupt nicht</tspan><tspan dy="15" x="21">einverstanden</tspan><title>Überhaupt nicht einverstanden</title>
             </text>
             <path fill="#FF8028" class="highcharts-point" d="M10 7h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 37)">
-                <tspan>Eher nicht</tspan><tspan x="21" dy="15">einverstanden</tspan>
+                <tspan>Eher nicht</tspan><tspan dy="15" x="21">einverstanden</tspan><title>Eher nicht einverstanden</title>
             </text>
             <path fill="#FFBB58" class="highcharts-point" d="M10 41h12v12H10z"/>
         </g>

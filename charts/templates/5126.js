@@ -38,7 +38,10 @@
 					"brightness": 0
 				}
 			}
-		}	
+		}, 
+		{
+			"visible": false
+		}
 	],
 	/* series with fixed data that should be added to the series object after merging with csv data */
 	"afterSeries": [

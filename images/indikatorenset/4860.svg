@@ -50,19 +50,19 @@
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 37)">
-                Senken
+                <tspan>Senken</tspan>
             </text>
             <path fill="#FFBB58" class="highcharts-point" d="M10 41h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 56)">
-                Beibehalten
+                <tspan>Beibehalten</tspan>
             </text>
             <path fill="#71A3B5" class="highcharts-point" d="M10 60h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 75)">
-                Erhöhen
+                <tspan>Erhöhen</tspan>
             </text>
             <path fill="#256370" class="highcharts-point" d="M10 79h12v12H10z"/>
         </g>

@@ -6504,6 +6504,9 @@
 				return Highcharts.numberFormat((this.value*100),0)+'%'; 
 			}
     },
+    "marker": {
+      "color": "black"
+    },
     "minColor": "#eff4f4",
     "maxColor": "#4f6e75"
   },

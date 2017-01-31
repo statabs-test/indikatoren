@@ -41,7 +41,7 @@
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="110" height="83"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
-                Nein
+                <tspan>Nein</tspan>
             </text>
             <path fill="#FABD24" class="highcharts-point" d="M10 7h12v12H10z"/>
         </g>
@@ -53,7 +53,7 @@
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 56)">
-                Ja
+                <tspan>Ja</tspan>
             </text>
             <path fill="#256370" class="highcharts-point" d="M10 60h12v12H10z"/>
         </g>

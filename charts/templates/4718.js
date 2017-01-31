@@ -1,7 +1,10 @@
 (function(){
     return {
     "xAxis": {
-        "type": "category"
+        "type": "category", 
+        "labels": {
+            formatter: undefined
+        }
     },
     "yAxis": {
         "tickInterval": null,

@@ -52,7 +52,8 @@
     "itemMarginBottom": 7,
     "align": "right",
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal", 
+      "width": 85
     }
   },
   "series": [

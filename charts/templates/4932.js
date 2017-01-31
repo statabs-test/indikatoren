@@ -30,7 +30,8 @@
         "y": 35,
         "itemWidth": 200,
         "itemStyle": {
-            "fontWeight": "normal"
+            "fontWeight": "normal",
+            "width": undefined
         }
     },          
     "plotOptions": 

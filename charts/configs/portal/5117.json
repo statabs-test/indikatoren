@@ -6502,6 +6502,9 @@
         "textOverflow": "none"
       }
     },
+    "marker": {
+      "color": "black"
+    },
     "minColor": "#eff6e9",
     "maxColor": "#4b7b1f"
   },
