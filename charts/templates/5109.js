@@ -5,16 +5,6 @@ global geojson_wohnviertel
 */
 (function(){
     return {
-		"tooltip": {
-			"pointFormatter": function(){
-				if (this.series.data[this.x].name === undefined) {
-					return '<span style="color:{series.color}"></span>';
-				}
-				else {
-					return '<span style="color:{series.color}">' + this.series.data[this.x].name + '</span>: <b>'+Highcharts.numberFormat((this.value*100),2)+'%</b><br/>Rang <b>' + parseInt(this.x + 1, 10) + '</b>';
-				}
-			}
-		},
 		"colorAxis": {
 			"minColor": "#f4ebf3",
 			"maxColor": "#5b2659",
@@ -23,7 +13,18 @@ global geojson_wohnviertel
 					return Highcharts.numberFormat((this.value*100),0)+'%'; 
 				}
 			}
-		},			
+		},
+        "data": {
+		    "seriesMapping": [
+		      {
+		      	x: 0, y: 1
+		      },
+		      {
+		      	//2nd series: use x values from column 2
+		      	x: 2
+		      }		      
+		    ]
+        },
 		"series": [
 			{
 				"name": "Wohnviertel", 
@@ -39,6 +40,9 @@ global geojson_wohnviertel
 						"brightness": 0
 					}
 				}
+			}, 
+			{
+				"visible": false
 			}	
 		],
 		/* series with fixed data that should be added to the series object after merging with csv data */
