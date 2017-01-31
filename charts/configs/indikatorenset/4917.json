@@ -90,6 +90,97 @@
       ],
       "name": "Motorisierungsgrad",
       "turboThreshold": 0
+    },
+    {
+      "visible": false,
+      "data": [
+        [
+          "Altstadt Kleinbasel",
+          21
+        ],
+        [
+          "Matthäus",
+          20
+        ],
+        [
+          "Gundeldingen",
+          19
+        ],
+        [
+          "St. Johann",
+          18
+        ],
+        [
+          "Altstadt Grossbasel",
+          17
+        ],
+        [
+          "Rosental",
+          16
+        ],
+        [
+          "Iselin",
+          15
+        ],
+        [
+          "Am Ring",
+          14
+        ],
+        [
+          "Gotthelf",
+          13
+        ],
+        [
+          "Klybeck",
+          12
+        ],
+        [
+          "Vorstädte",
+          11
+        ],
+        [
+          "Clara",
+          10
+        ],
+        [
+          "Wettstein",
+          9
+        ],
+        [
+          "Kleinhüningen",
+          8
+        ],
+        [
+          "Breite",
+          7
+        ],
+        [
+          "Bachletten",
+          6
+        ],
+        [
+          "Hirzbrunnen",
+          5
+        ],
+        [
+          "St. Alban",
+          4
+        ],
+        [
+          "Bruderholz",
+          3
+        ],
+        [
+          "Riehen",
+          2
+        ],
+        [
+          "Bettingen",
+          1
+        ]
+      ],
+      "name": "Rang",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {

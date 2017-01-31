@@ -90,6 +90,97 @@
       ],
       "name": "Personenwagen pro Haushalt",
       "turboThreshold": 0
+    },
+    {
+      "visible": false,
+      "data": [
+        [
+          "Altstadt Kleinbasel",
+          1
+        ],
+        [
+          "Matthäus",
+          2
+        ],
+        [
+          "Gundeldingen",
+          3
+        ],
+        [
+          "Gotthelf",
+          4
+        ],
+        [
+          "Iselin",
+          5
+        ],
+        [
+          "St. Johann",
+          6
+        ],
+        [
+          "Vorstädte",
+          7
+        ],
+        [
+          "Rosental",
+          8
+        ],
+        [
+          "Altstadt Grossbasel",
+          9
+        ],
+        [
+          "Am Ring",
+          10
+        ],
+        [
+          "Klybeck",
+          11
+        ],
+        [
+          "Clara",
+          12
+        ],
+        [
+          "Wettstein",
+          13
+        ],
+        [
+          "Breite",
+          14
+        ],
+        [
+          "Bachletten",
+          15
+        ],
+        [
+          "St. Alban",
+          16
+        ],
+        [
+          "Kleinhüningen",
+          17
+        ],
+        [
+          "Hirzbrunnen",
+          18
+        ],
+        [
+          "Bruderholz",
+          19
+        ],
+        [
+          "Riehen",
+          20
+        ],
+        [
+          "Bettingen",
+          21
+        ]
+      ],
+      "name": "Rang",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
