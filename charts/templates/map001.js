@@ -55,7 +55,10 @@
             "gridLineWidth": 1,
             "labels": {	
     		    "style": {"color": "black", "cursor": "default", "fontSize": "11px", "textOverflow": "none"}
-    		}
+    		},
+    		"marker": {
+                    "color": "black"
+            }
     	},    
         "mapNavigation": {
             "enabled": true,
