@@ -235,7 +235,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Stand: Steuerjahr 2013",
     "align": "left"
   },
   "plotOptions": {
@@ -285,7 +285,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: kantonale Leerstandserhebung"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"
   },
   "legend": {
     "enabled": false,

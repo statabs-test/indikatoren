@@ -226,7 +226,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "I.01.7.0001 Anteil Konfessionslose"
+    "text": "I.01.7.0001 Anteil Personen ohne Religionszugehörigkeit"
   },
   "subtitle": {
     "style": {
@@ -235,7 +235,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Stand: 2015",
     "align": "left"
   },
   "plotOptions": {

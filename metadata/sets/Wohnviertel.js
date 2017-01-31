@@ -1,10 +1,9 @@
 var indikatorensetData = [
 	{
 		"title": "Sozialhilfequote",
-		"subtitle": "",
+		"subtitle": "Stand: 2015",
 		"kuerzel": "I.13.3.0004",
 		"kuerzelKunde": "GS-1.a",
-		"image": "images/I.13.3.0004.jpg",
 		"description": "Sozialhilfequote",
 		"id": 4822,
 		"thema": "13 Soziale Sicherheit",
@@ -23,21 +22,27 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "Anteil Sozialhilfeempfänger an der Wohnbevölkerung des Wohnviertels in Prozent. Stand: 2015",
+		"erlaeuterungen": "Anteil Sozialhilfeempfänger an der Wohnbevölkerung des Wohnviertels in Prozent.",
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5109"
+		],
+		"renderLink": [
+			"5109"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Sozialhilfestatistik"
 		]
 	},
 	{
 		"title": "Anteil Ausländer",
-		"subtitle": "",
+		"subtitle": "Stand: 2015",
 		"kuerzel": "I.01.1.0038",
 		"kuerzelKunde": "GS-2.a",
-		"image": "images/I.01.1.0038.jpg",
 		"description": "Anteil Ausländer",
 		"id": 4823,
 		"thema": "01 Bevölkerung",
@@ -56,22 +61,28 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "Anteil der ausländischen Wohnbevölkerung an der gesamten Wohnbevölkerung des Wohnviertels in Prozent. Stand: 2015",
+		"erlaeuterungen": "Anteil der ausländischen Wohnbevölkerung an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5110"
+		],
+		"renderLink": [
+			"5110"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
 		]
 	},
 	{
-		"title": "Anteil Konfessionslose",
-		"subtitle": "",
+		"title": "Anteil Personen ohne Religionszugehörigkeit",
+		"subtitle": "Stand: 2015",
 		"kuerzel": "I.01.7.0001",
 		"kuerzelKunde": "GS-3.a",
-		"image": "images/I.01.7.0001.jpg",
-		"description": "Anteil Konfessionslose",
+		"description": "Anteil Personen ohne Religionszugehörigkeit",
 		"id": 4824,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Religionen",
@@ -88,22 +99,28 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Anteil der konfessionslosen Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent. Stand: 2015",
+		"lesehilfe": "Test",
+		"erlaeuterungen": "Anteil Personen ohne Religionszugehörigkeit an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5111"
+		],
+		"renderLink": [
+			"5111"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
 		]
 	},
 	{
 		"title": "Anteil Personen in Einpersonenhaushalten",
-		"subtitle": "",
+		"subtitle": "Stand: 2014",
 		"kuerzel": "I.01.2.0003",
 		"kuerzelKunde": "GS-4.a",
-		"image": "images/I.01.2.0003.jpg",
 		"description": "Anteil Personen in Einpersonenhaushalten",
 		"id": 4825,
 		"thema": "01 Bevölkerung",
@@ -122,21 +139,27 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "Anteil Personen in Einpersonenhaushalten an allen Personen in Privathaushalten des Wohnviertels in Prozent. Stand: 2014",
+		"erlaeuterungen": "Anteil Personen in Einpersonenhaushalten an allen Personen in Privathaushalten des Wohnviertels in Prozent.",
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5112"
+		],
+		"renderLink": [
+			"5112"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
 		]
 	},
 	{
 		"title": "Gymnasialquote",
-		"subtitle": "",
+		"subtitle": "Stand: 2015",
 		"kuerzel": "I.15.6.0003",
 		"kuerzelKunde": "GS-5.a",
-		"image": "images/I.15.6.0003.jpg",
 		"description": "Gymnasialquote",
 		"id": 4826,
 		"thema": "15 Bildung",
@@ -156,21 +179,27 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "Anteil der Gymnasiasten an allen Schülern der 10. und 11. Schulstufe des Wohnviertels an öffentlichen Schulen und mit Elternwohnort Basel-Stadt (Schulstufen einschliesslich zweier obligatorischer Kindergartenstufen gezählt). Stand: 2015",
+		"erlaeuterungen": "Anteil der Gymnasiasten an allen Schülern der 10. und 11. Schulstufe des Wohnviertels an öffentlichen Schulen und mit Elternwohnort Basel-Stadt (Schulstufen einschliesslich zweier obligatorischer Kindergartenstufen gezählt).",
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5113"
+		],
+		"renderLink": [
+			"5113"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
 		]
 	},
 	{
 		"title": "Altersquotient",
-		"subtitle": "",
+		"subtitle": "Stand: 2015",
 		"kuerzel": "I.01.1.0039",
 		"kuerzelKunde": "GS-6.a",
-		"image": "images/I.01.1.0039.jpg",
 		"description": "Altersquotient",
 		"id": 4827,
 		"thema": "01 Bevölkerung",
@@ -190,21 +219,27 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "Anteil der über 64-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent. Stand: 2015",
+		"erlaeuterungen": "Anteil der über 64-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent.",
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5114"
+		],
+		"renderLink": [
+			"5114"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
 		]
 	},
 	{
 		"title": "Sesshaftigkeit",
-		"subtitle": "",
+		"subtitle": "Stand: 2015",
 		"kuerzel": "I.01.1.0040",
 		"kuerzelKunde": "GS-7.a",
-		"image": "images/I.01.1.0040.jpg",
 		"description": "Sesshaftigkeit",
 		"id": 4828,
 		"thema": "01 Bevölkerung",
@@ -223,21 +258,27 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "Anteil der seit mindestens 10 Jahren am gleichen Wohnsitz wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent. Stand: 2015",
+		"erlaeuterungen": "Anteil der seit mindestens 10 Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5115"
+		],
+		"renderLink": [
+			"5115"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
 		]
 	},
 	{
 		"title": "Jugendquotient",
-		"subtitle": "",
+		"subtitle": "Stand: 2015",
 		"kuerzel": "I.01.1.0041",
 		"kuerzelKunde": "GS-8.a",
-		"image": "images/I.01.1.0041.jpg",
 		"description": "Jugendquotient",
 		"id": 4829,
 		"thema": "01 Bevölkerung",
@@ -257,21 +298,27 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "Anteil der unter 20-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent: Stand 2015",
+		"erlaeuterungen": "Anteil der unter 20-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent:",
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5116"
+		],
+		"renderLink": [
+			"5116"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
 		]
 	},
 	{
 		"title": "Baujahr Wohngebäude",
-		"subtitle": "",
+		"subtitle": "Stand: 2015",
 		"kuerzel": "I.09.1.0009",
 		"kuerzelKunde": "RU-1.a",
-		"image": "images/I.09.1.0009.jpg",
 		"description": "Baujahr Wohngebäude",
 		"id": 4830,
 		"thema": "09 Bau-, Wohnungswesen",
@@ -290,22 +337,28 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am ältesten sind die Wohngebäude der Altstadt von Gross- und Kleinbasel. Am jüngsten diejenigen in Bettingen und Riehen.",
-		"erlaeuterungen": "Mittleres Baujahr der Wohngebäude des Wohnviertels (ungewichtetes arithmetisches Mittel des Baujahres über alle Wohngebäude). Stand: 2015",
+		"lesehilfe": "",
+		"erlaeuterungen": "Mittleres Baujahr der Wohngebäude des Wohnviertels (ungewichtetes arithmetisches Mittel des Baujahres über alle Wohngebäude).",
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5117"
+		],
+		"renderLink": [
+			"5117"
+		],
 		"quellenangabe": [
 			"Kantonale Baustatistik"
 		]
 	},
 	{
 		"title": "Anteil Einfamilienhäuser",
-		"subtitle": "",
+		"subtitle": "Stand: 2015",
 		"kuerzel": "I.09.1.0010",
 		"kuerzelKunde": "RU-2.a",
-		"image": "images/I.09.1.0010.jpg",
 		"description": "Anteil Einfamilienhäuser",
 		"id": 4831,
 		"thema": "09 Bau-, Wohnungswesen",
@@ -323,22 +376,28 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil an Einfamilienhäusern ist in den Wohnvierteln Hirzbrunnen und Bruderholz sowie in der Gemeinde Bettingen am höchsten.",
-		"erlaeuterungen": "Anteil der Einfamilienhäuser an allen Gebäuden des Wohnviertels in Prozent. Stand: 2015",
+		"lesehilfe": "",
+		"erlaeuterungen": "Anteil der Einfamilienhäuser an allen Gebäuden des Wohnviertels in Prozent.",
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5118"
+		],
+		"renderLink": [
+			"5118"
+		],
 		"quellenangabe": [
 			"Kantonale Baustatistik"
 		]
 	},
 	{
 		"title": "Anteil Grünflächen",
-		"subtitle": "",
+		"subtitle": "Stand: 2014",
 		"kuerzel": "I.02.1.0016",
 		"kuerzelKunde": "RU-3.a",
-		"image": "images/I.02.1.0016.jpg",
 		"description": "Anteil Grünflächen",
 		"id": 4832,
 		"thema": "02 Raum, Umwelt",
@@ -357,21 +416,27 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "Anteil der Grünfläche an der gesamten Fläche des Wohnviertels in Prozent. Stand: 2014",
+		"erlaeuterungen": "Anteil der Grünflächen an der gesamten Fläche der Wohnviertel. Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m2 geführt werden. Diese werden in einem Turnus von 6–12 Jahren mit einer periodischen Nachführung aktualisiert. Ausnahme: Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst.",
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5119"
+		],
+		"renderLink": [
+			"5119"
+		],
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt  Basel-Stadt"
 		]
 	},
 	{
 		"title": "Fläche pro Wohnung",
-		"subtitle": "",
+		"subtitle": "Stand: 2015",
 		"kuerzel": "I.09.1.0011",
 		"kuerzelKunde": "RU-4.a",
-		"image": "images/I.09.1.0011.jpg",
 		"description": "Fläche pro Wohnung",
 		"id": 4833,
 		"thema": "09 Bau-, Wohnungswesen",
@@ -389,22 +454,28 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Eine durchschnittliche Wohnung ist in den Gemeinden Bettingen und Riehen sowie im Wohnviertel Bruderholz am grössten. Die kleinsten Logis befinden sich in den Wohnvierteln Klybeck, Clara und Matthäus.",
-		"erlaeuterungen": "Mittlere Fläche der Wohnungen im Wohnviertel (ungewichtetes arithmetisches Mittel über alle Wohnungen) in Quadratmeter. Stand: 2015",
+		"lesehilfe": "",
+		"erlaeuterungen": "Mittlere Fläche der Wohnungen im Wohnviertel (ungewichtetes arithmetisches Mittel über alle Wohnungen) in Quadratmeter.",
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5120"
+		],
+		"renderLink": [
+			"5120"
+		],
 		"quellenangabe": [
 			"Kantonale Baustatistik"
 		]
 	},
 	{
 		"title": "Wohnfläche pro Kopf",
-		"subtitle": "",
+		"subtitle": "Stand: 2015",
 		"kuerzel": "I.09.1.0012",
 		"kuerzelKunde": "RU-5.a",
-		"image": "images/I.09.1.0012.jpg",
 		"description": "Wohnfläche pro Kopf",
 		"id": 4834,
 		"thema": "09 Bau-, Wohnungswesen",
@@ -422,12 +493,19 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den Wohnvierteln Klybeck und Kleinhüningen beträgt die durchschnittliche Wohnfläche pro Kopf knapp 30 Quadratmeter, während sie in der Altstadt Grossbasel, in Bettingen und im Wohnviertel Vorstädte über 50 Quadratmeter liegt.",
-		"erlaeuterungen": "Mittlere verfügbare Wohnfläche pro Einwohner im Wohnviertel (gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen geteilt durch das Total der dort wohnenden Personen) in Quadratmeter. Stand: 2015",
+		"lesehilfe": "",
+		"erlaeuterungen": "Mittlere Wohnfläche pro Einwohner im Wohnviertel (gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen geteilt durch das Total der dort wohnenden Personen) in Quadratmeter.",
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5121"
+		],
+		"renderLink": [
+			"5121"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik",
 			"Kantonale Baustatistik"
@@ -435,10 +513,9 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Vermögenssteuer pro Veranlagung",
-		"subtitle": "",
+		"subtitle": "Stand: Steuerjahr 2013",
 		"kuerzel": "I.18.2.0002",
 		"kuerzelKunde": "WA-1.a",
-		"image": "images/I.18.2.0002.jpg",
 		"description": "Vermögenssteuer pro Veranlagung",
 		"id": 4835,
 		"thema": "18 Öffentliche Finanzen",
@@ -457,21 +534,27 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "Mittlere Vermögenssteuer der steuerpflichtigen Personen im Wohnviertel (ordentliche Veranlagungen, totaler Steuerertrag geteilt durch die Anzahl Veranlagungen) in Franken. Stand: Steuerjahr 2013",
+		"erlaeuterungen": "Mittlere Vermögenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Vermögenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5122"
+		],
+		"renderLink": [
+			"5122"
+		],
 		"quellenangabe": [
-			"kantonale Leerstandserhebung"
+			"Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"
 		]
 	},
 	{
 		"title": "Einkommenssteuer pro Veranlagung",
-		"subtitle": "",
+		"subtitle": "Stand: Steuerjahr 2013",
 		"kuerzel": "I.18.2.0003",
 		"kuerzelKunde": "WA-2.a",
-		"image": "images/I.18.2.0003.jpg",
 		"description": "Einkommenssteuer pro Veranlagung",
 		"id": 4836,
 		"thema": "18 Öffentliche Finanzen",
@@ -490,21 +573,27 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "Mittlere Einkommenssteuer der steuerpflichtigen Personen im Wohnviertel (ordentliche Veranlagungen, totaler Steuerertrag geteilt durch die Anzahl Veranlagungen) in Franken. Stand: Steuerjahr 2013",
+		"erlaeuterungen": "Mittlere Einkommenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Einkommenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5123"
+		],
+		"renderLink": [
+			"5123"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"
 		]
 	},
 	{
 		"title": "Erwerbstätigenquote",
-		"subtitle": "",
+		"subtitle": "Stand: gepoolte Daten 2010 - 2014",
 		"kuerzel": "I.03.1.0002",
 		"kuerzelKunde": "WA-3.a",
-		"image": "images/I.03.1.0002.jpg",
 		"description": "Erwerbstätigenquote",
 		"id": 4837,
 		"thema": "03 Erwerbsleben",
@@ -523,21 +612,25 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (16 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet, was zum selben Wert für die beiden Gemeinden führt. Stand: gepoolte Daten 2010 - 2014",
+		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet, was zum selben Wert für die beiden Gemeinden führt.",
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5124"
+		],
+		"renderLink": [],
 		"quellenangabe": [
-			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+			"Bundesamt für Statistik BFS, Strukturerhebung (SE)"
 		]
 	},
 	{
 		"title": "Arbeitsplätze pro Kopf",
-		"subtitle": "",
+		"subtitle": "Stand: 2013",
 		"kuerzel": "I.03.2.0002",
 		"kuerzelKunde": "WA-4.a",
-		"image": "images/I.03.2.0002.jpg",
 		"description": "Arbeitsplätze pro Kopf",
 		"id": 4838,
 		"thema": "03 Erwerbsleben",
@@ -556,21 +649,27 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigtenzahl in Vollzeitäquivalenten einschliesslich Beschäftigter, die nicht im Kanton wohnen, aber hier arbeiten) an der gesamten Wohnbevölkerung des Wohnviertels. Stand: 2013",
+		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte, die in Basel-Stadt arbeiten, in Vollzeitäquivalenten) an der gesamten Wohnbevölkerung des Wohnviertels.",
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5125"
+		],
+		"renderLink": [
+			"5125"
+		],
 		"quellenangabe": [
 			"Bundesamt für Statistik BFS, STATENT"
 		]
 	},
 	{
 		"title": "Arbeitslosenquote",
-		"subtitle": "",
+		"subtitle": "Stand: 2015",
 		"kuerzel": "I.03.4.0003",
 		"kuerzelKunde": "WA-5.a",
-		"image": "images/I.03.4.0003.jpg",
 		"description": "Arbeitslosenquote",
 		"id": 4839,
 		"thema": "03 Erwerbsleben",
@@ -590,11 +689,18 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "Anteil als arbeitslos gemeldeter Personen am Total der Erwerbspersonen (16 bis 64 Jahre) in Prozent, jeweils Ende Jahr. Erwerbspersonen aus den Jahren 2010 - 2014, Hochrechnung auf Basis einer Stichprobe von 5 000 Personen pro Jahr. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet. Stand: 2015",
+		"erlaeuterungen": "Anteil als arbeitslos gemeldeter Personen am Total der Erwerbspersonen (15 bis 64 Jahre) in Prozent, jeweils Ende Jahr. Erwerbspersonen aus den Jahren 2010 - 2014, Hochrechnung auf Basis einer Stichprobe von 5 000 Personen pro Jahr. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet.",
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5126"
+		],
+		"renderLink": [
+			"5126"
+		],
 		"quellenangabe": [
 			"Bundesamt für Statistik BFS, Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
