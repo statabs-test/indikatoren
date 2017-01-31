@@ -19,7 +19,7 @@
 		"maxColor": "#4f6e75",
 		"labels": {
 			"formatter": function () {
-				return Highcharts.numberFormat((this.value*100),0)+'%'; 
+				return Highcharts.numberFormat((this.value*100),1)+'%'; 
 			}
 		}
 	},			
