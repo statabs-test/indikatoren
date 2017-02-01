@@ -79,10 +79,12 @@
             },
             "labels": {
                 "style": {
-                    "color": "#000000"
+                    "color": "#000000",
+                    "fontSize": "10px"
                 }
             },
             "tickColor": "#FFFFFF",
+            "tickInterval": 1,
             "type": "category",
             "uniqueNames": true        
         },
