@@ -1293,7 +1293,7 @@ var indikatorensetData = [
 		"template": "map001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"parentId": 4837,
 		"children": [],
 		"renderLink": [],
