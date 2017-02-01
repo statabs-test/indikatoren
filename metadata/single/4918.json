@@ -1,4 +1,8 @@
+<<<<<<< HEAD:metadata/single/4918.json
 {"title":"Personenwagen pro Haushalt",
+=======
+﻿var indikatoren = [{"title":"Personenwagen pro Haushalt",
+>>>>>>> issue.174:metadata/single/4918.js
 "subtitle":"Stand: 2015",
 "kuerzel":"I.11.1.0041",
 "kuerzelKunde":"",
@@ -21,7 +25,11 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
+<<<<<<< HEAD:metadata/single/4918.json
 "parentId":null,
+=======
+"parentId":undefined,
+>>>>>>> issue.174:metadata/single/4918.js
 "children":["5131"],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"]
