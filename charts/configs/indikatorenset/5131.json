@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "Motorisierungsgrad",
+      "name": "Personenwagen pro Haushalt",
       "animation": true,
       "mapData": {
         "type": "FeatureCollection",
@@ -6020,87 +6020,87 @@
       "data": [
         [
           12,
-          164.681724845996
+          0.298363095238
         ],
         [
           17,
-          169.737818451645
+          0.34602294214
         ],
         [
           6,
-          198.3032873807
-        ],
-        [
-          11,
-          199.574694311536
-        ],
-        [
-          1,
-          203.643724696356
-        ],
-        [
-          16,
-          204.438684594201
-        ],
-        [
-          10,
-          218.478784956606
-        ],
-        [
-          3,
-          220.259349746288
+          0.373477132015
         ],
         [
           9,
-          221.458851045169
+          0.409791723018
         ],
         [
-          18,
-          226.205191594561
+          10,
+          0.411931818181
+        ],
+        [
+          11,
+          0.41393758959
         ],
         [
           2,
-          237.834549878345
+          0.424231464737
+        ],
+        [
+          16,
+          0.42765164351
+        ],
+        [
+          1,
+          0.429547395388
+        ],
+        [
+          3,
+          0.431914501566
+        ],
+        [
+          18,
+          0.475461893764
         ],
         [
           13,
-          245.222139488707
+          0.479378942261
         ],
         [
           14,
-          257.356875334403
-        ],
-        [
-          19,
-          262.413793103448
+          0.487170830519
         ],
         [
           4,
-          269.552441229656
+          0.49317617866
         ],
         [
           8,
-          272.10382715139
-        ],
-        [
-          15,
-          288.649489115948
+          0.551899491474
         ],
         [
           5,
-          297.827481895682
+          0.583408152271
+        ],
+        [
+          19,
+          0.589465530596
+        ],
+        [
+          15,
+          0.613840340103
         ],
         [
           7,
-          328.295642581357
+          0.745117676514
         ],
         [
           20,
-          366.764099861038
+          0.808407266582
         ],
         [
           30,
-          422.757475083056
+          1.087606837606
         ]
       ]
     },
@@ -6121,35 +6121,35 @@
         ],
         [
           4,
-          "St. Johann"
-        ],
-        [
-          5,
-          "Altstadt Grossbasel"
-        ],
-        [
-          6,
-          "Rosental"
-        ],
-        [
-          7,
-          "Iselin"
-        ],
-        [
-          8,
-          "Am Ring"
-        ],
-        [
-          9,
           "Gotthelf"
         ],
         [
+          5,
+          "Iselin"
+        ],
+        [
+          6,
+          "St. Johann"
+        ],
+        [
+          7,
+          "Vorstädte"
+        ],
+        [
+          8,
+          "Rosental"
+        ],
+        [
+          9,
+          "Altstadt Grossbasel"
+        ],
+        [
           10,
-          "Klybeck"
+          "Am Ring"
         ],
         [
           11,
-          "Vorstädte"
+          "Klybeck"
         ],
         [
           12,
@@ -6161,23 +6161,23 @@
         ],
         [
           14,
-          "Kleinhüningen"
-        ],
-        [
-          15,
           "Breite"
         ],
         [
-          16,
+          15,
           "Bachletten"
         ],
         [
+          16,
+          "St. Alban"
+        ],
+        [
           17,
-          "Hirzbrunnen"
+          "Kleinhüningen"
         ],
         [
           18,
-          "St. Alban"
+          "Hirzbrunnen"
         ],
         [
           19,
@@ -6543,7 +6543,7 @@
     "type": "map",
     "inverted": true,
     "forExport": true,
-    "renderTo": "container-5130"
+    "renderTo": "container-5131"
   },
   "title": {
     "style": {
@@ -6553,7 +6553,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": " Privater Motorisierungsgrad"
+    "text": " Personenwagen pro Haushalt"
   },
   "subtitle": {
     "style": {
@@ -6562,7 +6562,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Private Personenwagen pro 1000 Einwohner 2015",
+    "text": "Stand: 2015",
     "align": "left"
   },
   "credits": {
@@ -6592,7 +6592,7 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-					return Highcharts.numberFormat((this.value),0); 
+					return Highcharts.numberFormat((this.value),1); 
 				}
     },
     "marker": {
@@ -6632,12 +6632,12 @@
                     var other_series = args.chart.series[other_series_index];
                     var other_point = other_series.data[this_point_index];
                     return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-                        this.point.name +': <b>' + Highcharts.numberFormat((this.point.value),1) + '</b><br/>' + 
+                        this.point.name +': <b>' + Highcharts.numberFormat((this.point.value),2) + '</b><br/>' + 
                         'Rang <b>' + other_point.value + '</b>';
                 }
             }
   },
   "exporting": {
-    "filename": "I.11.1.0042"
+    "filename": "I.11.1.0043"
   }
 }

@@ -4954,7 +4954,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Privater Motorisierungsgrad",
-		"subtitle": "Private Personenwagen pro 1000 Einwohner 0",
+		"subtitle": "Private Personenwagen pro 1000 Einwohner 2015",
 		"kuerzel": "I.11.1.0042",
 		"kuerzelKunde": "",
 		"description": "Privater Motorisierungsgrad",
@@ -4987,6 +4987,47 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [
 			"4917"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"
+		]
+	},
+	{
+		"title": "Personenwagen pro Haushalt",
+		"subtitle": "Stand: 2015",
+		"kuerzel": "I.11.1.0043",
+		"kuerzelKunde": "",
+		"description": "Personenwagen pro Haushalt",
+		"id": 5131,
+		"thema": "11 Verkehr",
+		"unterthema": "Motorfahrzeuge",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Wohnviertel",
+			"Gemeinde"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Haushalt",
+			"Familie",
+			"Quote",
+			"Auto"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "map001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": 4918,
+		"children": [],
+		"renderLink": [
+			"4918"
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"
