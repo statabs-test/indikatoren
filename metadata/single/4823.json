@@ -1,4 +1,4 @@
-{"title":"Anteil Ausländer",
+﻿{"title":"Anteil Ausländer",
 "subtitle":"Stand: 2015",
 "kuerzel":"I.01.1.0038",
 "kuerzelKunde":"GS-2.a",
@@ -24,5 +24,6 @@
 "parentId":null,
 "children":["5110"],
 "renderLink":["5110"],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"]
+"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"],
+"externalLinks":[""]
 }

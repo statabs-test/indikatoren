@@ -1,4 +1,4 @@
-{"title":"Sesshaftigkeit",
+﻿{"title":"Sesshaftigkeit",
 "subtitle":"Stand: 2015",
 "kuerzel":"I.01.1.0040",
 "kuerzelKunde":"GS-7.a",
@@ -24,5 +24,6 @@
 "parentId":null,
 "children":["5115"],
 "renderLink":["5115"],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"]
+"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"],
+"externalLinks":[""]
 }
