@@ -46,7 +46,8 @@
         "align": "left"
       },
       "tooltip": {
-        "shared": false
+        "shared": false,
+        "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y} ({point.percentage:.1f}%)</b><br/>'
       },
       "xAxis": {
         "labels": {
@@ -71,10 +72,14 @@
         }
       },
       "legend": {
-        "enabled": true,
         "layout": "vertical",
         "verticalAlign": "middle",
+        "itemMarginBottom": 5,     
         "align": "right",
+        "useHTML": true,
+        "itemStyle": {
+            "fontWeight": "normal"
+        },
         "symbolRadius": 0
       }
 	}
