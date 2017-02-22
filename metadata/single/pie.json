@@ -20,7 +20,7 @@
 "erlaeuterungen":"Test Erläuterungen",
 "template":"pie001",
 "option":"options001",
-"visible":false,
+"visible":true,
 "visibleInPortal":false,
 "quellenangabe":["Statistisches Amt Basel-Stadt"]
 }
