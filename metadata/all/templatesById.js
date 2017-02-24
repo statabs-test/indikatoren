@@ -143,5 +143,6 @@ var templatesById = {
 	"5126": "map001",
 	"5130": "map001",
 	"5131": "map001",
+	"area": "area001",
 	"pie": "pie001"
 };

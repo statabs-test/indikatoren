@@ -73,6 +73,17 @@ $(document).ready(function(){
 });
 
 
+//reset all filter criteria
+function resetPortalFilter(FJS){
+  $('#searchbox').val('');
+  $("#thema_criteria :radio:first()").prop('checked', true);
+  $("#unterthema_filter").prop('selectedIndex', 0);
+  $("#schlagwort_filter option").prop('selected', true);
+  $("#schlagwort_filter").multiselect('selectAll', false).multiselect('updateButtonText');      
+  $("#raeumlicheGliederung_filter").multiselect('selectAll', false).multiselect('updateButtonText');
+  FJS.filter();
+}
+
 function initializeFilterJS(indikatorenset){
   var fjsConfig = {      
     template: undefined,
@@ -526,7 +537,11 @@ var afterFilter = function(result, jQ){
     }
 
     
-    //create a div that will contain the chart and an indicator dot for each chart in the result. the result contains charts over all pages. 
+<<<<<<<<< saved version
+
+=========
+    //create a div that will contain the chart. The result contains charts over all pages. 
+>>>>>>>>> local version
     //bootstrap carousel combined with modal inspired by https://codepen.io/krnlde/pen/pGijB
     function createCarousel(result){            
       //add a carousel-inner div for each thumbnail
