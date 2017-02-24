@@ -76,6 +76,10 @@
           "x": 10
         }
       },
+      "tooltip": {
+        "shared": false,
+        "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f} ({point.percentage:.1f}%)</b><br/>'
+      },      
       "legend": {
         "enabled": false,
         "layout": "vertical",

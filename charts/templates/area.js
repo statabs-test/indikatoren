@@ -8,10 +8,6 @@
       "xAxis": {
         "tickInterval": 1
       },
-      "tooltip": {
-        "shared": false,
-        "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}</b><br/>'
-      },
       "series": [
         {
           "color": "#69929B",
