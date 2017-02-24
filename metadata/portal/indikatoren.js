@@ -5091,36 +5091,5 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"
 		]
-	},
-	{
-		"title": "Test Area Prozent",
-		"subtitle": "",
-		"kuerzel": "Test",
-		"kuerzelKunde": "1",
-		"image": "images/I.01.6.0001.jpg",
-		"description": "Test Area Prozent",
-		"id": "area",
-		"thema": "01 Bevölkerung",
-		"unterthema": "",
-		"kennzahlenset": "",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat"
-		],
-		"stufe1": "1 Struktur der Bevölkerung",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Test Lesehilfe",
-		"erlaeuterungen": "Test Erläuterungen",
-		"template": "area001",
-		"option": "options001",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
-		]
 	}
 ];

@@ -598,11 +598,7 @@ var afterFilter = function(result, jQ){
     }
 
     
-<<<<<<<<< saved version
-
-=========
     //create a div that will contain the chart. The result contains charts over all pages. 
->>>>>>>>> local version
     //bootstrap carousel combined with modal inspired by https://codepen.io/krnlde/pen/pGijB
     function createCarousel(result){            
       //add a carousel-inner div for each thumbnail

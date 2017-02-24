@@ -20,5 +20,7 @@
 "erlaeuterungen":"Test Erläuterungen",
 "template":"area001",
 "option":"options001",
+"visible":true,
+"visibleInPortal":false,
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"]
 }
