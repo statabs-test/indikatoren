@@ -40,6 +40,7 @@
       },
       "yAxis": {
         "min": 0,
+        "max": 100,
         "title": {
           "style": {
             "color": "#000000",
@@ -87,8 +88,10 @@
           "stacking": "percent"
         }, 
         "area": {
+          "lineWidth": 0,
           "marker": {
-            "enabled": false
+            "enabled": false,
+            "symbol": "circle"
           }
         }
       }
