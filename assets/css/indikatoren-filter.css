@@ -212,7 +212,7 @@ h1{
     text-transform: uppercase;
     letter-spacing: none;
     font-weight: bold;
-    color: #496c78;
+    color: #246036;
     line-height: 100%;
     margin-top: 14px;
     margin-bottom: 8px;
@@ -246,7 +246,7 @@ h1{
 
 .lesehilfe a {
     font-weight: bold;
-    color: #496c78;
+    color: #246036;
 }
 
 
@@ -263,3 +263,7 @@ h1{
     z-index: 9999 !important;
 }
 
+.link-icon {
+    height: 12px;
+    width: 15px;
+}
