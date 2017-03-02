@@ -42,6 +42,7 @@
         	       }
 				});				
 				
+				
 				var chartOptions = 
 			    {
 			        chart: {
@@ -88,17 +89,23 @@
 					            }
 				            ],
 			            inputEnabled: true,
-			            selected: 3
+			            selected: 3 , 
+			            inputDateFormat: '%Y',
+        				inputEditDateFormat: '%Y'
 			        }
 			    };
 				
-			    Highcharts.stockChart('container', chartOptions, function (chart) {
+				
+				//todo: replace with nicer-looking picker, e.g. this one: https://github.com/Eonasdan/bootstrap-datetimepicker
+				var addDatePicker = function (chart) {
 			        // apply the date pickers, see http://jsfiddle.net/gh/get/library/pure/highcharts/highcharts/tree/master/samples/stock/rangeselector/input-datepicker/
 			        setTimeout(function () {
 			            $('input.highcharts-range-selector', $(chart.container).parent())
 			                .datepicker();
 			        }, 0);
-				});
+				}
+				
+			    Highcharts.stockChart('container', chartOptions, addDatePicker);
 				
 				$.datepicker.setDefaults($.datepicker.regional["de"]);
 				// Set the datepicker's date format
@@ -107,7 +114,9 @@
 				    onSelect: function () {
 				        this.onchange();
 				        this.onblur();
-				    }
+				    },
+				    changeMonth: true,
+    				changeYear: true
 				});
 			});
 		});
