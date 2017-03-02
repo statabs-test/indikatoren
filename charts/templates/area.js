@@ -12,7 +12,7 @@
         {
           "color": "#69929B",
           "marker": {
-            "enabled": true
+            "enabled": false
           }
       },
         {"color": "#672773"},
