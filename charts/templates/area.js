@@ -36,14 +36,9 @@
           "fontWeight": "normal"
         }
       },
-      "series": {
-        "dataLabels": {
-          "enabled": false
-        }
-      },
       "chart": {		
     		"marginTop": 130
     	}
-	}
+	};
 }());
  

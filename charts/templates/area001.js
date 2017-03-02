@@ -35,9 +35,6 @@
         "text": "",
         "align": "left"
       },
-      "tooltip": {
-        "shared": false
-      },
       "yAxis": {
         "min": 0,
         "max": 100,
@@ -87,6 +84,11 @@
         "align": "right",
         "symbolRadius": 0
       },
+      "series": {
+        "dataLabels": {
+          "enabled": false
+        }
+      },
       "plotOptions": {
         "series": {
           "stacking": "percent"
@@ -99,5 +101,5 @@
           }
         }
       }
-	}
+	};
 }());
