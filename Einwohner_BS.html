@@ -23,7 +23,7 @@
 				Highcharts.setOptions({
                  lang: {
                      decimalPoint: ',',
-                     thousandsSep: '.',
+                     thousandsSep: ' ',
                      loading: 'Daten werden geladen...',
                      months: ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'],
                      weekdays: ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'],
@@ -51,8 +51,10 @@
 			        xAxis: {
 			            ordinal: false
 			        },
-			        yAxis: {
-			            min: 0
+			        yAxis: { 
+			            labels: {
+			            	format: '{value:,.0f}'
+			            }
 			        },
 			        data: {
 			            csv: csv
@@ -60,7 +62,7 @@
                     plotOptions: {
                         series: {
                             marker: {
-                                enabled: null,
+                                enabled: false, //null,
                                 radius: 4
                             }
                         }
