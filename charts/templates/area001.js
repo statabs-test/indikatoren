@@ -35,11 +35,9 @@
         "text": "",
         "align": "left"
       },
-      "tooltip": {
-        "shared": false
-      },
       "yAxis": {
         "min": 0,
+        "max": 100,
         "title": {
           "style": {
             "color": "#000000",
@@ -75,6 +73,10 @@
           "x": 10
         }
       },
+      "tooltip": {
+        "shared": false,
+        "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f} ({point.percentage:.1f}%)</b><br/>'
+      },      
       "legend": {
         "enabled": false,
         "layout": "vertical",
@@ -82,15 +84,22 @@
         "align": "right",
         "symbolRadius": 0
       },
+      "series": {
+        "dataLabels": {
+          "enabled": false
+        }
+      },
       "plotOptions": {
         "series": {
           "stacking": "percent"
         }, 
         "area": {
+          "lineWidth": 0,
           "marker": {
-            "enabled": false
+            "enabled": false,
+            "symbol": "circle"
           }
         }
       }
-	}
+	};
 }());
