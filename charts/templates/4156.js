@@ -1,4 +1,5 @@
-﻿chartOptions['I.50.4.0001'] = {
+(function(){
+    return {
   "xAxis": {
     "type": "category"
   },  
@@ -24,6 +25,7 @@
       "index": 4
     }
   ]
-};
+	}
+}());
 
  

@@ -1,6 +1,10 @@
-chartOptions['I.50.2.0001'] = {
+(function(){
+    return {
     "xAxis": {
-        "type": "category"
+        "type": "category", 
+        "labels": {
+            formatter: undefined
+        }
     },
     "yAxis": {
         "tickInterval": null,
@@ -42,5 +46,6 @@ chartOptions['I.50.2.0001'] = {
     {
         "inverted": true
     }
-};
+	}
+}());
  

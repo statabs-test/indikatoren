@@ -1,4 +1,5 @@
-﻿chartOptions['I.09.1.0004'] = { 
+(function(){
+    return { 
   "plotOptions": { 
     "series": { 
       "stacking": "percent" 
@@ -56,5 +57,6 @@
     "zoomType": "xy", 
     "type": "column" 
   } 
-}; 
+	}
+}()); 
 

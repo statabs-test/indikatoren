@@ -1,4 +1,5 @@
-chartOptions['I.01.1.0019'] = {
+(function(){
+    return {
   "plotOptions": {
     "series": {
       "pointWidth": 15,
@@ -60,4 +61,5 @@ chartOptions['I.01.1.0019'] = {
     "type": "column",
     "inverted": true
   }
-};
+	}
+}());

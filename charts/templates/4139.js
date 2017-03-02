@@ -1,4 +1,5 @@
-﻿chartOptions["I.09.4.0005"] = {
+(function(){
+    return {
   "plotOptions": {
     "series": {
       "stacking": null,
@@ -105,4 +106,5 @@
     "marginTop": 75,
     "type": "column"
   }
-};
+	}
+}());

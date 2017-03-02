@@ -1,4 +1,5 @@
-chartOptions['I.50.3.0002'] = {
+(function(){
+    return {
     "series": [
         {
             "color": "#71A3B5", 
@@ -14,11 +15,12 @@ chartOptions['I.50.3.0002'] = {
         }        
   ],
   "xAxis": {
-      "type": "category"
+        "type": "category"
   },
   "legend": {
       "reversed": true
   }
-};
+	}
+}());
 
  

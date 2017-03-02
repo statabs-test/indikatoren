@@ -1,4 +1,5 @@
-﻿chartOptions['I.13.3.0002'] = {
+(function(){
+    return {
   "plotOptions": {
     "series": {
       "dataLabels": {
@@ -82,4 +83,5 @@
     "type": "line",
     "alignTicks": false,
   }
-};
+	}
+}());

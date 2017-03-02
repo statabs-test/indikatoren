@@ -1,4 +1,5 @@
-﻿chartOptions["I.09.1.0007"] = {
+(function(){
+    return {
   "yAxis": [{
     "labels": {
       "format": "{value:,.0f}",
@@ -65,5 +66,6 @@
     "type": "line",
     "alignTicks": false
   }
-};
+	}
+}());
  

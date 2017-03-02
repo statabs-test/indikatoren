@@ -1,4 +1,5 @@
-chartOptions['I.01.5.0042'] = {
+(function(){
+    return {
   "plotOptions": {
     "series": {      
       "dataLabels": {
@@ -46,4 +47,5 @@ chartOptions['I.01.5.0042'] = {
     "type": "column",
     "inverted": true
   }
-};
+	}
+}());

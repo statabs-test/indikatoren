@@ -1,4 +1,5 @@
-﻿chartOptions['I.09.5.0001'] = {
+(function(){
+    return {
   "yAxis": {
     "max": 3000,
     "labels": {
@@ -69,5 +70,6 @@
       }
     }
   }
-};
+	}
+}());
  

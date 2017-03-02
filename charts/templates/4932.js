@@ -1,4 +1,5 @@
-chartOptions['I.50.1.0028'] = {
+(function(){
+    return {
         "series": [
             {
                 "color": "#083038"
@@ -29,7 +30,8 @@ chartOptions['I.50.1.0028'] = {
         "y": 35,
         "itemWidth": 200,
         "itemStyle": {
-            "fontWeight": "normal"
+            "fontWeight": "normal",
+            "width": undefined
         }
     },          
     "plotOptions": 
@@ -38,6 +40,7 @@ chartOptions['I.50.1.0028'] = {
             "stacking": null
         }
     }
-};
+	}
+}());
 
  

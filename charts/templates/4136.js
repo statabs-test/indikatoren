@@ -1,4 +1,5 @@
-﻿ chartOptions['I.09.1.0005'] = {
+(function(){
+    return {
   "plotOptions": {
     "series": {
       "stacking": "normal"
@@ -25,7 +26,8 @@
     "itemMarginBottom": 7,
     "align": "right",
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "width": 111
     }
   },
   "series": [
@@ -64,4 +66,5 @@
     "zoomType": "xy",
     "type": "column"
   }
-};
+	}
+}());

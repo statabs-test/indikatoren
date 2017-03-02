@@ -1,4 +1,5 @@
-chartOptions['I.50.1.0015'] = {
+(function(){
+    return {
     "series": [
         {
             "color": "#256370",
@@ -29,6 +30,7 @@ chartOptions['I.50.1.0015'] = {
   "xAxis": {
       "type": "category"
   }
-};
+	}
+}());
 
  

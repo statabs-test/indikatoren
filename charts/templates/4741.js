@@ -1,4 +1,19 @@
-chartOptions['I.03.0.0001'] = {
+(function(){
+    return {
+  //seriesMapping necessary for charts with error bars. 
+  "data": {
+    "seriesMapping": [
+      {
+        "x": 0
+      },
+      {
+        "x": 0
+      },
+      {
+        "x": 0
+      }
+    ]  
+  },
   "plotOptions": {
     "series": {
       "pointWidth": 15,
@@ -63,4 +78,5 @@ chartOptions['I.03.0.0001'] = {
     "type": "column",
     "inverted": true
   }
-};
+	}
+}());

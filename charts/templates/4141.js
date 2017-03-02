@@ -1,4 +1,5 @@
-﻿chartOptions['I.01.2.0001'] = {
+(function(){
+    return {
   "plotOptions": {
     "series": {
       "stacking": "percent"
@@ -44,5 +45,6 @@
   "chart": {
     "type": "column"
   }
-};
+	}
+}());
 

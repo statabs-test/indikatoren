@@ -1,4 +1,5 @@
-chartOptions["I.15.3.0001"] = {
+(function(){
+    return {
   "yAxis": {
     "labels": {
       "format": "{value:,.0f}%",
@@ -62,5 +63,6 @@ chartOptions["I.15.3.0001"] = {
   "chart": {		
 		"marginTop": 120
 	}
-};
+	}
+}());
  

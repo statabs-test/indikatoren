@@ -1,4 +1,5 @@
-chartOptions['I.50.4.0006'] = {
+(function(){
+    return {
     "series": [
         {
             "color": "#71A3B5", 
@@ -19,6 +20,7 @@ chartOptions['I.50.4.0006'] = {
   "legend": {
       "reversed": true
   }
-};
+	}
+}());
 
  

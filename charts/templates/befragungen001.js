@@ -1,4 +1,5 @@
-var template = {
+(function(){
+    return {
     "chart": {		
         "events":{
             "load": function() {
@@ -82,9 +83,14 @@ var template = {
         "labels": {
             "rotation": 0,
             "style": {
-                "color": "#000000"
+                "color": "#000000",
+                "width": 1, 
+                "textOverflow": "none"
+            },
+            "formatter": function() {
+            	return this.value.replace(" ", "<br/>");
             }
-        }                
+        }
     },
     "tooltip": {
         "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b> ({point.percentage:.0f}%)<br/>',
@@ -112,6 +118,10 @@ var template = {
         "itemStyle": {
             "fontWeight": "normal"
         },
-        "symbolRadius": 0
+        "symbolRadius": 0,
+        "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        }
     }    
-};
+	}
+}());

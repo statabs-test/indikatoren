@@ -1,4 +1,5 @@
-﻿chartOptions['I.16.1.0005'] = {
+(function(){
+    return {
   "yAxis": {
     "tickInterval": 250000,
     "labels": {
@@ -35,4 +36,5 @@
       }
     }
   }
-};
+	}
+}());

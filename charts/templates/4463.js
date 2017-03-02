@@ -1,4 +1,5 @@
-chartOptions["I.01.8.0001"] = {
+(function(){
+    return {
   "yAxis": {
     "labels": {
       "formatter": function(){
@@ -62,4 +63,5 @@ chartOptions["I.01.8.0001"] = {
       }
     }
   }
-};
+	}
+}());

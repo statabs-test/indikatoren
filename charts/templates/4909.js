@@ -1,4 +1,5 @@
-chartOptions['I.05.1.0001'] = {
+(function(){
+    return {
   "yAxis": {
     "min": 0,
     "labels": {
@@ -35,4 +36,5 @@ chartOptions['I.05.1.0001'] = {
       }
     }
   }
-};
+	}
+}());

@@ -1,4 +1,5 @@
-﻿chartOptions['I.06.1.0010'] = {
+(function(){
+    return {
   "yAxis": {
     "labels": {
       "format": "{value:,.0f}",
@@ -42,5 +43,6 @@
       }
     }
   }
-};
+	}
+}());
  

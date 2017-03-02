@@ -1,8 +1,7 @@
-﻿chartOptions['I.01.1.0025'] = {
+(function(){
+    return {
   "yAxis": {
-    "min": 150000,
     "max": 175000,
-    "tickInterval": 5000,
     "labels": {
       "format": "{value:,.0f}",
     },
@@ -36,4 +35,5 @@
       }
     }
   }
-};
+	}
+}());

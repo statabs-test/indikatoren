@@ -1,4 +1,5 @@
-chartOptions['I.50.2.0002'] = {
+(function(){
+    return {
   "xAxis": {
     "type": "category"    
   },
@@ -36,4 +37,5 @@ chartOptions['I.50.2.0002'] = {
     "type": "column",
     "inverted": true
   }
-};
+	}
+}());

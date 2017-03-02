@@ -1,4 +1,5 @@
- chartOptions['I.18.2.0004'] = {
+(function(){
+    return {
   "plotOptions": {
     "series": {
       "dataLabels": {
@@ -46,4 +47,5 @@
     "marginTop": 75,
     "type": "column"
   }
-};
+	}
+}());

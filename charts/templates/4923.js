@@ -1,4 +1,5 @@
-﻿chartOptions['I.19.3.0003'] = {
+(function(){
+    return {
   "chart": {
     "marginBottom": 75
   },
@@ -38,4 +39,5 @@
       }
     }
   }
-};
+	}
+}());

@@ -2,7 +2,7 @@
 
 	<head>
 		<script src="assets/js/jquery-1.11.3.min.js" type="text/javascript"></script>
-		<script src="metadata/all/indikatoren.js" type="text/javascript"></script>		
+		<script src="metadata/portal/indikatoren.js" type="text/javascript"></script>		
 		<script src="assets/js/url-min.js" type="text/javascript"></script>
 		<!-- http://stackoverflow.com/questions/4856746/hide-horizontal-scrollbar-on-an-iframe -->
 		<style>
@@ -27,20 +27,23 @@
 
 
 		<script>
-			var indikatorensetView = (window.encodeURIComponent($.url('?indikatorensetView')) === 'true') ? true : false;
+			/* 
+			global $
+			global indikatoren
+			*/
+			var indikatorensetView = (window.decodeURIComponent($.url('?indikatorensetView')) === 'true') ? true : false;
 
 			$(document).ready(function(){
 				$.each(indikatoren, function(index, item){
 					$('<iframe/>', {
-						src: 'chart.html?kuerzel=' + item.kuerzel + '&thumbnailOfflineExporting=true&thumbnailType=svg&indikatorensetView=' + indikatorensetView,
+						src: 'chart.html?id=' + item.id + '&kuerzel=' + item.kuerzel + '&thumbnailOfflineExporting=true&thumbnailType=svg&indikatorensetView=' + indikatorensetView,
 						frameborder: 0,
 						class: "noScrolling",
 						scrolling: "no",
-						seamless: "seamless", 
-						frameborder: "0"
+						seamless: "seamless"
 					}
-					).appendTo('body')
-				})
+					).appendTo('body');
+				});
 			});
 		</script>
 

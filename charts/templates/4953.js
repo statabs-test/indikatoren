@@ -1,4 +1,5 @@
-chartOptions['I.08.1.0028'] = {
+(function(){
+    return {
   "plotOptions": {
     "series": {
       "pointWidth": 45,
@@ -51,4 +52,5 @@ chartOptions['I.08.1.0028'] = {
     "marginTop": 75,
     "type": "column"
   }
-};
+	}
+}());

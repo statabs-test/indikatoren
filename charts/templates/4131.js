@@ -1,4 +1,5 @@
-﻿chartOptions['I.09.1.0002'] = {
+(function(){
+    return {
   "plotOptions": {
     "series": {
       "dataLabels": {
@@ -51,4 +52,5 @@
     "zoomType": "y",
     "type": "column"
   }
-};
+	}
+}());

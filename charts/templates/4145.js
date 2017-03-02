@@ -1,4 +1,5 @@
-﻿chartOptions['I.09.1.0025'] = {
+(function(){
+    return {
   "xAxis": {
     "max": 2015,
     "tickInterval": 5,
@@ -43,4 +44,5 @@
       }
     }
   }
-};
+	}
+}());
