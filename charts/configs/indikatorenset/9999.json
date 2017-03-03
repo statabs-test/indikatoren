@@ -525,10 +525,10 @@
       }
     },
     "tickColor": "#FFFFFF",
-    "showFirstLabel": true,
+    "endOnTick": true,
     "startOnTick": true,
-    "showLastLabel": true,
-    "endOnTick": true
+    "showFirstLabel": true,
+    "showLastLabel": true
   },
   "isStock": true,
   "chart": {

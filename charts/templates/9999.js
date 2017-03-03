@@ -4,12 +4,10 @@
         	type: 'area'
         },
         xAxis: {
-            
-            showFirstLabel: true,
+            endOnTick: true,    
             startOnTick: true,
+            showFirstLabel: true,
             showLastLabel: true,
-            endOnTick: true
-            
         },
         yAxis: { 
             showLastLabel: true,
