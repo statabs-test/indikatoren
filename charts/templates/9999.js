@@ -4,9 +4,16 @@
         	type: 'area'
         },
         xAxis: {
-            ordinal: false
+            
+            showFirstLabel: true,
+            startOnTick: true,
+            showLastLabel: true,
+            endOnTick: true
+            
         },
         yAxis: { 
+            showLastLabel: true,
+            endOnTick: true,
             labels: {
             	format: '{value:,.0f}'
             }, 

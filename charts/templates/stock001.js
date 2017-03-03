@@ -7,7 +7,7 @@
             "backgroundColor": "#fbfbfb",
             "width": 485,
             "height": 415,        
-            "spacingBottom": 30,
+            "spacingBottom": 60,
             "style": {
                 "fontFamily": "Arial"
             },
@@ -47,6 +47,7 @@
         },
         "xAxis": {
             "uniqueNames": true,
+            "ordinal": false,
             "title": {
                 "style": {
                     "color": "#000000"
@@ -96,6 +97,13 @@
             "symbolRadius": 0
         }, 
         "rangeSelector": {
+            buttonPosition: {
+                x: 10,
+                y: 365
+            }
+        },
+        navigator: {
+            margin: 10
         }
 	};
 }());
