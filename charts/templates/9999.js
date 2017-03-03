@@ -31,23 +31,24 @@
         			{
                       count: 10,
                       type: 'year',
-                      text: '10J'
+                      text: '10 J'
     	            }, 
     	            {
                       count: 50,
                       type: 'year',
-                      text: '50J'
+                      text: '50 J'
     	            }, 
     	            {
                       count: 100,
                       type: 'year',
-                      text: '100J'
+                      text: '100 J'
     	            },
     	            {
                       type: 'all',
                       text: 'Total'
     	            }
                 ],
+            buttonSpacing: 15,                
             inputEnabled: false,
             selected: 3 , 
             inputDateFormat: '%Y',

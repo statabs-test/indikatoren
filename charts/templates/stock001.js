@@ -69,8 +69,9 @@
                 "text": null
             },
             "labels": {
+                "y": 3,
                 "style": {
-                "color": "#000000"
+                    "color": "#000000"
                 }
             }
         },    
