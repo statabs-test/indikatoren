@@ -15,7 +15,6 @@ Highcharts.setOptions({
 		"downloadCSV": 'CSV',
 		"downloadXLS": 'XLS',		
         "thousandsSep": " ",
-        decimalPoint: ',',
         months: ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'],
         weekdays: ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'],
         shortMonths: ['Jan', 'Feb', 'Mär', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez'],
