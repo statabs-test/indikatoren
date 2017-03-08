@@ -7,7 +7,7 @@
             endOnTick: true,    
             startOnTick: true,
             showFirstLabel: true,
-            showLastLabel: true,
+            showLastLabel: true
         },
         yAxis: { 
             showLastLabel: true,
@@ -45,7 +45,7 @@
     	            },
     	            {
                       type: 'all',
-                      text: 'Total'
+                      text: 'Alle J'
     	            }
                 ],
             buttonSpacing: 15,                
