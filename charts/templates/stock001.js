@@ -11,7 +11,6 @@
             "style": {
                 "fontFamily": "Arial"
             },
-            "zoomType": "xy",
             "events":{
                     "load": function() {
                         this.credits.element.onclick = function() {};
@@ -104,7 +103,13 @@
             }
         },
         navigator: {
-            margin: 10
+            margin: 10, 
+            height: 30
+        }, 
+        tooltip: {
+            dateTimeLabelFormats: {
+                day:"%A, %e. %b, %Y"
+            }
         }
 	};
 }());
