@@ -1,0 +1,115 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h410v291H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M65 58h410v291H65z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M68.5 58v291m45-291v291m44-291v291m45-291v291m45-291v291m44-291v291m45-291v291m45-291v291m44-291v291m45-291v291"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M65 349.5h410m-410-73h410m-410-72h410m-410-73h410m-410-74h410"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M65 58h410v291H65z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M65 349.5h410"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M65 58v291"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(65 58)" clip-path="url(#a)">
+            <path fill="none" d="M48.682 103.289l44.662-.316 44.663 1.252 44.662.243 44.662.32 44.662.07 44.663.037 44.662.313 44.662.11" class="highcharts-graph" stroke="#b00000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M38.682 103.289h10l44.662-.316 44.663 1.252 44.662.243 44.662.32 44.662.07 44.663.037 44.662.313 44.662.11h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(65 58)" clip-path="url(#a)">
+            <path fill="none" d="M48.682 205.63l44.662-1.997 44.663-2.373 44.662-.662 44.662-2.856 44.662-2.084 44.663-2.946 44.662-1.785 44.662-1.176" class="highcharts-graph" stroke="#4f81bd" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M38.682 205.63h10l44.662-1.997 44.663-2.373 44.662-.662 44.662-2.856 44.662-2.084 44.663-2.946 44.662-1.785 44.662-1.176h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="translate(65 58)" clip-path="url(#a)">
+            <path fill="none" d="M4.02 18.38l44.662-.46 44.662-2.314 44.663-1.121 44.662-.42 44.662-2.536 44.662-2.012 44.663-2.91 44.662-1.472 44.662-1.067" class="highcharts-graph" stroke="#000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.98 18.38h10l44.662-.46 44.662-2.314 44.663-1.121 44.662-.42 44.662-2.536 44.662-2.012 44.663-2.91 44.662-1.472 44.662-1.067h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>LP.5.16.1 Wohnbevölkerung am Jahresende nach</tspan><tspan dy="17" x="10">Staatsangehörigkeit</tspan><title>LP.5.16.1 Wohnbevölkerung am Jahresende nach Staatsangehörigkeit</title>
+    </text>
+    <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(427 140)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">Schweiz</tspan><tspan x="5" y="16">Schweiz</tspan>
+        </text>
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(427 140)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">Schweiz</tspan><tspan x="5" y="16">Schweiz</tspan>
+        </text>
+    </g>
+    <g class="highcharts-data-labels highcharts-series-1 highcharts-line-series highcharts-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(427 225)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">Ausland</tspan><tspan x="5" y="16">Ausland</tspan>
+        </text>
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(427 225)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">Ausland</tspan><tspan x="5" y="16">Ausland</tspan>
+        </text>
+    </g>
+    <g class="highcharts-data-labels highcharts-series-2 highcharts-line-series highcharts-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(444 62)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">Total</tspan><tspan x="5" y="16">Total</tspan>
+        </text>
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(444 62)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">Total</tspan><tspan x="5" y="16">Total</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="69.02" y="368">
+            2006
+        </text>
+        <text x="113.682" y="368">
+            2007
+        </text>
+        <text x="158.344" y="368">
+            2008
+        </text>
+        <text x="203.007" y="368">
+            2009
+        </text>
+        <text x="247.669" y="368">
+            2010
+        </text>
+        <text x="292.331" y="368">
+            2011
+        </text>
+        <text x="336.993" y="368">
+            2012
+        </text>
+        <text x="381.656" y="368">
+            2013
+        </text>
+        <text x="426.318" y="368">
+            2014
+        </text>
+        <text x="462.781" y="368">
+            2015
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="50" y="354">
+            <tspan>0</tspan>
+        </text>
+        <text x="50" y="281">
+            <tspan>50 000</tspan>
+        </text>
+        <text x="50" y="208">
+            <tspan>100 000</tspan>
+        </text>
+        <text x="50" y="135">
+            <tspan>150 000</tspan>
+        </text>
+        <text x="50" y="63">
+            <tspan>200 000</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik</tspan>
+    </text>
+</svg>

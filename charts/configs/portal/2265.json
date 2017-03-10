@@ -1,0 +1,326 @@
+{
+  "series": [
+    {
+      "color": "#b00000",
+      "index": 1,
+      "data": [
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          129011
+        ],
+        [
+          2008,
+          129228
+        ],
+        [
+          2009,
+          128368
+        ],
+        [
+          2010,
+          128201
+        ],
+        [
+          2011,
+          127981
+        ],
+        [
+          2011,
+          127981
+        ],
+        [
+          2012,
+          127932
+        ],
+        [
+          2012,
+          127932
+        ],
+        [
+          2013,
+          127907
+        ],
+        [
+          2013,
+          127907
+        ],
+        [
+          2014,
+          127692
+        ],
+        [
+          2014,
+          127692
+        ],
+        [
+          2015,
+          127617
+        ],
+        [
+          2015,
+          127617
+        ]
+      ],
+      "name": "Schweiz"
+    },
+    {
+      "color": "#4f81bd",
+      "index": 2,
+      "data": [
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          58673
+        ],
+        [
+          2008,
+          60046
+        ],
+        [
+          2009,
+          61677
+        ],
+        [
+          2010,
+          62132
+        ],
+        [
+          2011,
+          64095
+        ],
+        [
+          2011,
+          64095
+        ],
+        [
+          2012,
+          65527
+        ],
+        [
+          2012,
+          65527
+        ],
+        [
+          2013,
+          67552
+        ],
+        [
+          2013,
+          67552
+        ],
+        [
+          2014,
+          68779
+        ],
+        [
+          2014,
+          68779
+        ],
+        [
+          2015,
+          69587
+        ],
+        [
+          2015,
+          69587
+        ]
+      ],
+      "name": "Ausland"
+    },
+    {
+      "color": "#000000",
+      "index": 3,
+      "data": [
+        [
+          2006,
+          187368
+        ],
+        [
+          2007,
+          187684
+        ],
+        [
+          2008,
+          189274
+        ],
+        [
+          2009,
+          190045
+        ],
+        [
+          2010,
+          190333
+        ],
+        [
+          2011,
+          192076
+        ],
+        [
+          2011,
+          192076
+        ],
+        [
+          2012,
+          193459
+        ],
+        [
+          2012,
+          193459
+        ],
+        [
+          2013,
+          195459
+        ],
+        [
+          2013,
+          195459
+        ],
+        [
+          2014,
+          196471
+        ],
+        [
+          2014,
+          196471
+        ],
+        [
+          2015,
+          197204
+        ],
+        [
+          2015,
+          197204
+        ]
+      ],
+      "name": "Total"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "forExport": true,
+    "renderTo": "container-2265"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "I.01.1.0062 Wohnbevölkerung am Jahresende nach Staatsangehörigkeit"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "max": 200000
+  },
+  "xAxis": {
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+  },
+  "legend": {
+    "enabled": false,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "x": 20,
+    "y": 35,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    },
+    "series": {
+      "dataLabels": {
+        "enabled": true,
+        "allowOverlap": true,
+        "formatter": function () {
+            var last  = this.series.data[this.series.data.length - 1];
+            if (this.point.category === last.category  && this.point.y === last.y) {
+              return this.series.name;
+            }
+            return "";
+          }
+      }
+    }
+  },
+  "exporting": {
+    "filename": "I.01.1.0062"
+  }
+}
