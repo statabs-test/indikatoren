@@ -1,0 +1,116 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h422v196H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M53 112h422v196H53z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M122.5 112v196m71-196v196m70-196v196m70-196v196m71-196v196m70-196v196m-422-196v196"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M53 308.5h422m-422-49h422m-422-49h422m-422-49h422m-422-50h422"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M53 112h422v196H53z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M122.5 308v10m71-10v10m70-10v10m70-10v10m71-10v10m71-10v10m-423-10v10"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M53 308.5h422"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M53 112v196"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 112)" clip-path="url(#a)">
+            <path fill="#d7e9d2" class="highcharts-point" stroke="#fff" d="M14.5 40.5h7v156h-7zm70-2h7v158h-7zm71-4h7v162h-7zm70 10h7v152h-7zm70-1h7v153h-7zm71-5h7v158h-7z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 112)" clip-path="url(#a)">
+            <path fill="#73ba7c" class="highcharts-point" stroke="#fff" d="M22.5 66.5h7v130h-7zm71-6h7v136h-7zm70-10h7v146h-7zm70 8h7v138h-7zm71 4h7v134h-7zm70-3h7v137h-7z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 112)" clip-path="url(#a)">
+            <path fill="#007a2f" class="highcharts-point" stroke="#fff" d="M31.5 76.5h7v120h-7zm70-8h7v128h-7zm70 2h7v126h-7zm71-1h7v127h-7zm70-6h7v133h-7zm70 4h7v129h-7z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 112)" clip-path="url(#a)">
+            <path fill="#0b3b19" class="highcharts-point" stroke="#fff" d="M39.5 83.5h7v113h-7zm71-6h7v119h-7zm70-1h7v120h-7zm70 3h7v117h-7zm71 3h7v114h-7zm70-5h7v119h-7z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 112)" clip-path="url(#a)">
+            <path fill="#4f6228" class="highcharts-point" stroke="#fff" d="M48.5 101.5h7v95h-7zm70-3h7v98h-7zm70-4h7v102h-7zm71 2h7v100h-7zm70 2h7v98h-7zm70 0h7v98h-7z"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>LP.1.05.2 Überlebensraten neugegründeter Unternehmen 2008</tspan><tspan dy="17" x="10">in % - Basel im Vergleich mit ZH, GE, BL, AG, CH</tspan><title>LP.1.05.2 Überlebensraten neugegründeter Unternehmen 2008 in % - Basel im Vergleich mit ZH, GE, BL, AG, CH</title>
+    </text>
+    <g class="highcharts-legend" transform="translate(45 75)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="396" height="25"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
+                <tspan>1 Jahr</tspan>
+            </text>
+            <path fill="#d7e9d2" class="highcharts-point" d="M10 7h12v12H10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(88 3)">
+                <tspan>2 Jahre</tspan>
+            </text>
+            <path fill="#73ba7c" class="highcharts-point" d="M90 7h12v12H90z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(168 3)">
+                <tspan>3 Jahre</tspan>
+            </text>
+            <path fill="#007a2f" class="highcharts-point" d="M170 7h12v12h-12z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(248 3)">
+                <tspan>4 Jahre</tspan>
+            </text>
+            <path fill="#0b3b19" class="highcharts-point" d="M250 7h12v12h-12z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(328 3)">
+                <tspan>5 Jahre</tspan>
+            </text>
+            <path fill="#4f6228" class="highcharts-point" d="M330 7h12v12h-12z"/>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="90.759" transform="rotate(-45 90.76 324)" y="324">
+            <tspan>Basel</tspan>
+        </text>
+        <text x="161.093" transform="rotate(-45 161.093 324)" y="324">
+            <tspan>Zürich</tspan>
+        </text>
+        <text x="231.426" transform="rotate(-45 231.426 324)" y="324">
+            <tspan>Genf</tspan>
+        </text>
+        <text x="301.759" transform="rotate(-45 301.76 324)" y="324">
+            <tspan>Basel-Landschaft</tspan>
+        </text>
+        <text x="372.093" transform="rotate(-45 372.093 324)" y="324">
+            <tspan>Aargau</tspan>
+        </text>
+        <text x="442.426" transform="rotate(-45 442.426 324)" y="324">
+            <tspan>Schweiz</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="38" y="313">
+            <tspan>0%</tspan>
+        </text>
+        <text x="38" y="264">
+            <tspan>25%</tspan>
+        </text>
+        <text x="38" y="215">
+            <tspan>50%</tspan>
+        </text>
+        <text x="38" y="166">
+            <tspan>75%</tspan>
+        </text>
+        <text x="38" y="117">
+            <tspan>100%</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Bundesamt für Statistik BFS, UDEMO</tspan>
+    </text>
+</svg>

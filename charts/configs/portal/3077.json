@@ -1,0 +1,206 @@
+{
+  "series": [
+    {
+      "color": "#672773",
+      "legendIndex": 1,
+      "data": [
+        [
+          2006,
+          6.72305488247142
+        ],
+        [
+          2007,
+          4.81183224671618
+        ],
+        [
+          2008,
+          4.13696296599013
+        ],
+        [
+          2009,
+          5.39086379920439
+        ],
+        [
+          2010,
+          4.65072716903917
+        ],
+        [
+          2011,
+          4.73253623359763
+        ],
+        [
+          2012,
+          3.2375245876591
+        ],
+        [
+          2013,
+          3.47532008899113
+        ],
+        [
+          2014,
+          3.88041263162817
+        ],
+        [
+          2015,
+          2.99657093429169
+        ]
+      ],
+      "name": "AOX pro Einwohner und Beschäftigte"
+    },
+    {
+      "color": "#dc440e",
+      "legendIndex": 0,
+      "data": [
+        [
+          2006,
+          12.8503712025944
+        ],
+        [
+          2007,
+          9.19981997874141
+        ],
+        [
+          2008,
+          8.03887519608206
+        ],
+        [
+          2009,
+          10.432716083944
+        ],
+        [
+          2010,
+          8.97171708883399
+        ],
+        [
+          2011,
+          9.2589502640085
+        ],
+        [
+          2012,
+          6.37518773780358
+        ],
+        [
+          2013,
+          6.84528524825974
+        ],
+        [
+          2014,
+          7.66890377638878
+        ],
+        [
+          2015,
+          5.90853946386603
+        ]
+      ],
+      "name": "AOX pro Einwohner"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "forExport": true,
+    "renderTo": "container-3077"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "I.02.4.0001 Wasserqualität (AOX-Fracht)"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}"
+    },
+    "max": 20
+  },
+  "xAxis": {
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt;\u003Cbr\u002F\u003EProRheno AG"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "symbolRadius": 0,
+    "x": 10,
+    "y": 50,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "filename": "I.02.4.0001"
+  }
+}

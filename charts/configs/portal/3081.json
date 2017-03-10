@@ -1,0 +1,168 @@
+{
+  "series": [
+    {
+      "marker": {
+        "symbol": "circle",
+        "enabled": true
+      },
+      "color": "#8b2223",
+      "data": [
+        [
+          1995,
+          906
+        ],
+        [
+          2000,
+          4031
+        ],
+        [
+          2005,
+          5078
+        ],
+        [
+          2010,
+          7102
+        ],
+        [
+          2015,
+          12421
+        ]
+      ],
+      "name": "Einwohner mit lärmsanierten Fenstern (kumuliert)"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {                
+                    this.credits.element.onclick = function() {}
+                }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "scatter",
+    "inverted": true,
+    "forExport": true,
+    "renderTo": "container-3081"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "I.02.5.0007 Anzahl Einwohner mit lärmsanierten Fenstern (kumuliert)"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "x": 5,
+        "align": "left",
+        "verticalAlign": "middle",
+        "enabled": true,
+        "style": {
+          "fontSize": "10px"
+        },
+        "formatter": function () {
+              var last = this.series.data[this.series.data.length - 1];
+              var first = this.series.data[0];
+              if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {
+                return this.point.y;
+              }
+              return "";
+            },
+        "allowOverlap": true,
+        "y": -10
+      }
+    }
+  },
+  "yAxis": {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "formatter": function (){
+                    return Highcharts.numberFormat((this.value*100),0)+'%';                
+                },
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "min": 30
+  },
+  "xAxis": {
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "fontSize": "10px"
+      }
+    },
+    "tickColor": "#FFFFFF",
+    "tickInterval": 2,
+    "type": "category",
+    "uniqueNames": true
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt"
+  },
+  "legend": {
+    "enabled": false,
+    "symbolRadius": 0
+  },
+  "tooltip": {
+    "formatter": function (args){
+                var this_point_index = this.series.data.indexOf(this.point);
+                var other_series_index = this.series.index == 0 ? 1 : 0; // assuming 2 series
+                var other_series = args.chart.series[other_series_index];
+                var other_point = other_series.data[this_point_index];
+                return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
+                    this.point.name +': <b>' + Highcharts.numberFormat((this.y*100),1) + '%</b><br/>' + 
+                    'Rang <b>' + other_point.y + '</b>';
+            },
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "I.02.5.0007"
+  }
+}

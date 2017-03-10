@@ -1,0 +1,113 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h435v178H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M40 158h435v178H40z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M126.5 158v178m87-178v178m87-178v178m87-178v178m87-178v178m-435-178v178"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M40 336.5h435m-435-59h435m-435-60h435m-435-60h435"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M40 158h435v178H40z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M126.5 336v10m87-10v10m87-10v10m87-10v10m88-10v10m-436-10v10"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M40 336.5h435"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M40 158v178"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(40 158)" clip-path="url(#a)">
+            <path fill="#b00000" class="highcharts-point" stroke="#fff" d="M17.5 118.5h9v60h-9zm87-34h9v94h-9zm87 64h9v30h-9zm87 20h9v10h-9zm87-196h9v206h-9z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(40 158)" clip-path="url(#a)">
+            <path fill="#4f81bd" class="highcharts-point" stroke="#fff" d="M28.5 142.5h9v36h-9zm87-38h9v74h-9zm87 26h9v48h-9zm87 33h9v15h-9zm87-178h9v193h-9z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(40 158)" clip-path="url(#a)">
+            <path fill="#9A86A6" class="highcharts-point" stroke="#fff" d="M38.5 167.5h9v11h-9zm87-1h9v12h-9zm87-83h9v95h-9zm87 83h9v12h-9zm87-152h9v164h-9z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(40 158)" clip-path="url(#a)">
+            <path fill="#9bbb59" class="highcharts-point" stroke="#fff" d="M49.5-118.5h9v297h-9zm87-296h9v593h-9zm87-297h9v890h-9zm87-297h9v1187h-9zm87-168h9v1355h-9z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(40 158)" clip-path="url(#a)">
+            <path fill="#FABD24" class="highcharts-point" stroke="#fff" d="M59.5-1176.5h9v1355h-9zm87 0h9v1355h-9zm87 0h9v1355h-9zm87 0h9v1355h-9zm87 0h9v1355h-9z"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>I.04.1.0010 Transnationale Patentanmeldungen pro 1000</tspan><tspan dy="17" x="10">Einwohner 2000 bis 2004</tspan><title>I.04.1.0010 Transnationale Patentanmeldungen pro 1000 Einwohner 2000 bis 2004</title>
+    </text>
+    <text x="10" class="highcharts-subtitle" y="57" color="#000" font-weight="400">
+        <tspan>nach ausgewählten Wirtschaftsbranchen</tspan>
+    </text>
+    <g class="highcharts-legend" transform="translate(35 65)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="296" height="81"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
+                Basel-Stadt
+            </text>
+            <path fill="#b00000" class="highcharts-point" d="M10 7h12v12H10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 17)">
+                Basel-Landschaft
+            </text>
+            <path fill="#4f81bd" class="highcharts-point" d="M10 21h12v12H10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 31)">
+                Zürich
+            </text>
+            <path fill="#9A86A6" class="highcharts-point" d="M10 35h12v12H10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 45)">
+                sortierung
+            </text>
+            <path fill="#9bbb59" class="highcharts-point" d="M10 49h12v12H10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 59)">
+                MW_Einw_BS
+            </text>
+            <path fill="#FABD24" class="highcharts-point" d="M10 63h12v12H10z"/>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="83.5" y="355">
+            <tspan>Chemische</tspan><tspan dy="14" x="83.5">Industrie</tspan><title>Chemische Industrie</title>
+        </text>
+        <text x="170.5" y="355">
+            <tspan>Pharmazeutische</tspan><tspan dy="14" x="170.5">Industrie</tspan><title>Pharmazeutische Industrie</title>
+        </text>
+        <text x="257.5" y="355">
+            <tspan>Elektronik.</tspan><tspan dy="14" x="257.5">Optik und</tspan><tspan dy="14" x="257.5">Maschinenbau</tspan><title>Elektronik. Optik und Maschinenbau</title>
+        </text>
+        <text x="344.5" y="355">
+            <tspan>Medizinaltechnik</tspan>
+        </text>
+        <text x="431.5" y="355">
+            <tspan>Total</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="25" y="341">
+            <tspan>0</tspan>
+        </text>
+        <text x="25" y="281">
+            <tspan>0.2</tspan>
+        </text>
+        <text x="25" y="222">
+            <tspan>0.4</tspan>
+        </text>
+        <text x="25" y="163">
+            <tspan>0.6</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: BAK Basel Economics</tspan>
+    </text>
+</svg>

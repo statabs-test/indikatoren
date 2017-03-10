@@ -1,0 +1,172 @@
+{
+  "series": [
+    {
+      "color": "#2f656b",
+      "data": [
+        [
+          2010,
+          54.9
+        ],
+        [
+          2011,
+          59
+        ],
+        [
+          2012,
+          57.8
+        ],
+        [
+          2013,
+          56
+        ],
+        [
+          2014,
+          60.9
+        ],
+        [
+          2015,
+          61
+        ]
+      ],
+      "name": "Im Alter von 6 Jahren"
+    },
+    {
+      "color": "#83522e",
+      "data": [
+        [
+          2010,
+          40.4
+        ],
+        [
+          2011,
+          41.1
+        ],
+        [
+          2012,
+          43.3
+        ],
+        [
+          2013,
+          46.1
+        ],
+        [
+          2014,
+          43.5
+        ],
+        [
+          2015,
+          37
+        ]
+      ],
+      "name": "Im Alter von 12 Jahren"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "forExport": true,
+    "renderTo": "container-5071"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "LP.9.40.5 Anteil kariesfreier Kinder"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    },
+    "max": 100
+  },
+  "xAxis": {
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Universitäre Zentrum für Zahnmedizin Basel, Schulzahnklinik"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "x": 35,
+    "y": 35,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "filename": "I.14.4.0047"
+  }
+}

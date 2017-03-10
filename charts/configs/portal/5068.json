@@ -1,0 +1,262 @@
+{
+  "series": [
+    {
+      "color": "#c00000",
+      "data": [
+        [
+          2006,
+          572
+        ],
+        [
+          2007,
+          529
+        ],
+        [
+          2008,
+          495
+        ],
+        [
+          2009,
+          472
+        ],
+        [
+          2010,
+          381
+        ],
+        [
+          2011,
+          317
+        ],
+        [
+          2012,
+          256
+        ],
+        [
+          2013,
+          327
+        ],
+        [
+          2014,
+          374
+        ],
+        [
+          2015,
+          391
+        ]
+      ],
+      "name": "mit Personenschaden"
+    },
+    {
+      "color": "#c3d69b",
+      "data": [
+        [
+          2006,
+          1264
+        ],
+        [
+          2007,
+          1217
+        ],
+        [
+          2008,
+          969
+        ],
+        [
+          2009,
+          878
+        ],
+        [
+          2010,
+          772
+        ],
+        [
+          2011,
+          631
+        ],
+        [
+          2012,
+          642
+        ],
+        [
+          2013,
+          702
+        ],
+        [
+          2014,
+          732
+        ],
+        [
+          2015,
+          735
+        ]
+      ],
+      "name": "mit Sachschaden"
+    },
+    {
+      "color": "#4a7ebb",
+      "data": [
+        [
+          2006,
+          1836
+        ],
+        [
+          2007,
+          1746
+        ],
+        [
+          2008,
+          1464
+        ],
+        [
+          2009,
+          1350
+        ],
+        [
+          2010,
+          1153
+        ],
+        [
+          2011,
+          948
+        ],
+        [
+          2012,
+          898
+        ],
+        [
+          2013,
+          1029
+        ],
+        [
+          2014,
+          1106
+        ],
+        [
+          2015,
+          1126
+        ]
+      ],
+      "name": "Total Unfälle"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "forExport": true,
+    "renderTo": "container-5068"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "I.11.7.0002 Strassenverkehrsunfälle und verunfallte Personen"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "xAxis": {
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Kantonspolizei Basel-Stadt"
+  },
+  "legend": {
+    "enabled": false,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "x": 40,
+    "y": 20,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    },
+    "series": {
+      "dataLabels": {
+        "enabled": true,
+        "allowOverlap": true,
+        "formatter": function () {
+            var last  = this.series.data[this.series.data.length - 1];
+            if (this.point.category === last.category  && this.point.y === last.y) {
+              return this.series.name;
+            }
+            return "";
+          }
+      }
+    }
+  },
+  "exporting": {
+    "filename": "I.11.7.0002"
+  }
+}

@@ -1,0 +1,147 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h416v147H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M59 202h416v147H59z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M62.5 202v147m45-147v147m46-147v147m45-147v147m45-147v147m46-147v147m45-147v147m45-147v147m46-147v147m45-147v147"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M59 349.5h416m-416-49h416m-416-49h416m-416-50h416"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M59 202h416v147H59z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M59 349.5h416"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M59 202v147"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(59 202)" clip-path="url(#a)">
+            <path fill="none" d="M4.078 46.09l45.316-8.919 45.316-6.164 45.316-2.675 45.316-2.627 45.316-2.352 45.316-3.704 45.316-2.724 45.316.245 45.316-1.784" class="highcharts-graph" stroke="#6F6F6F" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.922 46.09h10l45.316-8.919 45.316-6.164 45.316-2.675 45.316-2.627 45.316-2.352 45.316-3.704 45.316-2.724 45.316.245 45.316-1.784h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#6F6F6F" d="M67 248a4 4 0 1 1 0-.004zm45-9a4 4 0 1 1 0-.004zm45-6a4 4 0 1 1 0-.004zm46-3a4 4 0 1 1 0-.004zm45-2a4 4 0 1 1 0-.004zm45-3a4 4 0 1 1 0-.004zm45-3a4 4 0 1 1 0-.004zm46-3a4 4 0 1 1 0-.004zm45 0a4 4 0 1 1 0-.004zm45-2a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(59 202)" clip-path="url(#a)">
+            <path fill="none" d="M4.078 86.612l45.316-3.508 45.316-8.967 45.316-7.223 45.316-4.782 45.316-2.293 45.316-5.312 45.316-5.556 45.316-5.204 45.316-7.135" class="highcharts-graph" stroke="#C8C8C8" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.922 86.612h10l45.316-3.508 45.316-8.967 45.316-7.223 45.316-4.782 45.316-2.293 45.316-5.312 45.316-5.556 45.316-5.204 45.316-7.135h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#C8C8C8" d="M67 289a4 4 0 1 1 0-.004zm45-4a4 4 0 1 1 0-.004zm45-9a4 4 0 1 1 0-.004zm46-7a4 4 0 1 1 0-.004zm45-5a4 4 0 1 1 0-.004zm45-2a4 4 0 1 1 0-.004zm45-5a4 4 0 1 1 0-.004zm46-6a4 4 0 1 1 0-.004zm45-5a4 4 0 1 1 0-.004zm45-7a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" visibility="hidden" transform="translate(59 202)" clip-path="url(#a)">
+            <path fill="none" d="M4.078 91.679l45.316-5.86 45.316-3.234 45.316-1.372 45.316-1.47 45.316-1.382 45.316-1.51 45.316-1.234 45.316.068 45.316-2.028" class="highcharts-graph" stroke="#0F7399" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.922 91.679h10l45.316-5.86 45.316-3.234 45.316-1.372 45.316-1.47 45.316-1.382 45.316-1.51 45.316-1.234 45.316.068 45.316-2.028h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-3 highcharts-line-series highcharts-color-undefined" visibility="hidden" transform="translate(59 202)" clip-path="url(#a)">
+            <path fill="none" d="M4.078 115.68l45.316-1.196 45.316-3.96 45.316-3.92 45.316-1.881 45.316-1.264 45.316-2.107 45.316-1.95 45.316-2.392 45.316-3.841" class="highcharts-graph" stroke="#A8C3CA" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.922 115.68h10l45.316-1.196 45.316-3.96 45.316-3.92 45.316-1.881 45.316-1.264 45.316-2.107 45.316-1.95 45.316-2.392 45.316-3.841h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-4 highcharts-line-series highcharts-color-undefined" visibility="hidden" transform="translate(59 202)" clip-path="url(#a)">
+            <path fill="none" d="M4.078 101.41l45.316-3.057 45.316-2.93 45.316-1.304 45.316-1.156 45.316-.97 45.316-2.196 45.316-1.49 45.316.177 45.316.245" class="highcharts-graph" stroke="#923F8D" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.922 101.41h10l45.316-3.057 45.316-2.93 45.316-1.304 45.316-1.156 45.316-.97 45.316-2.196 45.316-1.49 45.316.177 45.316.245h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-5 highcharts-line-series highcharts-color-undefined" visibility="hidden" transform="translate(59 202)" clip-path="url(#a)">
+            <path fill="none" d="M4.078 117.933l45.316-2.313 45.316-5.007 45.316-3.303 45.316-2.9 45.316-1.03 45.316-3.204 45.316-3.607 45.316-2.812 45.316-3.293" class="highcharts-graph" stroke="#E7CEE2" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.922 117.933h10l45.316-2.313 45.316-5.007 45.316-3.303 45.316-2.9 45.316-1.03 45.316-3.204 45.316-3.607 45.316-2.812 45.316-3.293h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>LP.2.08.1 Entwicklung der Studierenden an Basler</tspan><tspan dy="17" x="10">Hochschulen nach Geschlecht</tspan><title>LP.2.08.1 Entwicklung der Studierenden an Basler Hochschulen nach Geschlecht</title>
+    </text>
+    <g class="highcharts-legend" transform="translate(45 65)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="226" height="125"/>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0">
+            <path fill="none" d="M8 14h16" class="highcharts-graph" stroke="#6F6F6F" stroke-width="2"/>
+            <path fill="#6F6F6F" d="M20 14a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
+                <tspan>Total Studierende Universität Basell</tspan>
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1">
+            <path fill="none" d="M8 33h16" class="highcharts-graph" stroke="#C8C8C8" stroke-width="2"/>
+            <path fill="#C8C8C8" d="M20 33a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 22)">
+                <tspan>Total Studierende FHNW</tspan>
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-2 highcharts-legend-item-hidden">
+            <path fill="none" d="M8 52h16" class="highcharts-graph" stroke="#ccc" stroke-width="2"/>
+            <text x="21" y="15" color="#ccc" font-weight="400" cursor="pointer" fill="#ccc" transform="translate(8 41)">
+                <tspan>Frauen Universität Basel</tspan>
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-3 highcharts-legend-item-hidden">
+            <path fill="none" d="M8 71h16" class="highcharts-graph" stroke="#ccc" stroke-width="2"/>
+            <text x="21" y="15" color="#ccc" font-weight="400" cursor="pointer" fill="#ccc" transform="translate(8 60)">
+                <tspan>Männer FHNW</tspan>
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-4 highcharts-legend-item-hidden">
+            <path fill="none" d="M8 90h16" class="highcharts-graph" stroke="#ccc" stroke-width="2"/>
+            <text x="21" y="15" color="#ccc" font-weight="400" cursor="pointer" fill="#ccc" transform="translate(8 79)">
+                <tspan>Männer Universität Basel</tspan>
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-5 highcharts-legend-item-hidden">
+            <path fill="none" d="M8 109h16" class="highcharts-graph" stroke="#ccc" stroke-width="2"/>
+            <text x="21" y="15" color="#ccc" font-weight="400" cursor="pointer" fill="#ccc" transform="translate(8 98)">
+                <tspan>Frauen FHNW</tspan>
+            </text>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="63.078" y="368">
+            2006
+        </text>
+        <text x="108.394" y="368">
+            2007
+        </text>
+        <text x="153.71" y="368">
+            2008
+        </text>
+        <text x="199.026" y="368">
+            2009
+        </text>
+        <text x="244.342" y="368">
+            2010
+        </text>
+        <text x="289.658" y="368">
+            2011
+        </text>
+        <text x="334.974" y="368">
+            2012
+        </text>
+        <text x="380.29" y="368">
+            2013
+        </text>
+        <text x="425.606" y="368">
+            2014
+        </text>
+        <text x="462.781" y="368">
+            2015
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="44" y="354">
+            <tspan>0</tspan>
+        </text>
+        <text x="44" y="305">
+            <tspan>5 000</tspan>
+        </text>
+        <text x="44" y="256">
+            <tspan>10 000</tspan>
+        </text>
+        <text x="44" y="207">
+            <tspan>15 000</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="390" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Universität Basel;</tspan><tspan x="10" dy="13">Fachhochschule Nordwestschweiz</tspan>
+    </text>
+</svg>

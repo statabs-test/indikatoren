@@ -1,0 +1,122 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h423v199H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M52 150h423v199H52z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M55.5 150v199m92-199v199m92-199v199m93-199v199m92-199v199"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M52 349.5h423m-423-66h423m-423-67h423m-423-66h423"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M52 150h423v199H52z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M52 349.5h423"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M52 150v199"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(52 150)" clip-path="url(#a)">
+            <path fill="none" d="M4.147 113.33l46.078-.961 46.079.862 46.078-.83 46.079-7.395 46.078-5.672 46.079-2.322 46.078-.994 46.079-2.223 46.078-3.88" class="highcharts-graph" stroke="red" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.853 113.33h10l46.078-.961 46.079.862 46.078-.83 46.079-7.395 46.078-5.672 46.079-2.322 46.078-.994 46.079-2.223 46.078-3.88h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker">
+            <path fill="red" d="M60 263a4 4 0 1 1 0-.004zm46-1a4 4 0 1 1 0-.004zm46 1a4 4 0 1 1 0-.004zm46-1a4 4 0 1 1 0-.004zm46-7a4 4 0 1 1 0-.004zm46-6a4 4 0 1 1 0-.004zm46-2a4 4 0 1 1 0-.004zm46-1a4 4 0 1 1 0-.004zm46-2a4 4 0 1 1 0-.004zm46-4a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(52 150)" clip-path="url(#a)">
+            <path fill="none" d="M4.147 80.496l46.078-1.228 46.079.995 46.078-1.89 46.079-10.846 46.078-8.258 46.079-3.35 46.078-.1 46.079-1.26 46.078-5.306" class="highcharts-graph" stroke="#000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.853 80.496h10l46.078-1.228 46.079.995 46.078-1.89 46.079-10.846 46.078-8.258 46.079-3.35 46.078-.1 46.079-1.26 46.078-5.306h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined highcharts-tracker">
+            <path d="M60 230a4 4 0 1 1 0-.004zm46-1a4 4 0 1 1 0-.004zm46 1a4 4 0 1 1 0-.004zm46-2a4 4 0 1 1 0-.004zm46-10a4 4 0 1 1 0-.004zm46-9a4 4 0 1 1 0-.004zm46-3a4 4 0 1 1 0-.004zm46 0a4 4 0 1 1 0-.004zm46-1a4 4 0 1 1 0-.004zm46-6a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="translate(52 150)" clip-path="url(#a)">
+            <path fill="none" d="M4.147 111.606l46.078-1.161 46.079.697 46.078-2.388 46.079-9.685 46.078-7.628 46.079-3.118 46.078-1.26 46.079-2.322 46.078-5.97" class="highcharts-graph" stroke="#4a7ebb" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.853 111.606h10l46.078-1.161 46.079.697 46.078-2.388 46.079-9.685 46.078-7.628 46.079-3.118 46.078-1.26 46.079-2.322 46.078-5.97h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-3 highcharts-line-series highcharts-color-undefined" transform="translate(52 150)" clip-path="url(#a)">
+            <path fill="none" d="M4.147 124.01l46.078-1.724 46.079-.763 46.078-1.46 46.079-8.258 46.078-5.539 46.079-2.554 46.078-.696 46.079-2.62 46.078-4.146" class="highcharts-graph" stroke="#e46c0a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.853 124.01h10l46.078-1.724 46.079-.763 46.078-1.46 46.079-8.258 46.078-5.539 46.079-2.554 46.078-.696 46.079-2.62 46.078-4.146h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-4 highcharts-line-series highcharts-color-undefined" transform="translate(52 150)" clip-path="url(#a)">
+            <path fill="none" d="M4.147 121.954l46.078-1.36 46.079.133 46.078-2.355 46.079-8.259 46.078-5.107 46.079-3.416 46.078-1.327 46.079-2.62 46.078-5.24" class="highcharts-graph" stroke="#93f" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.853 121.954h10l46.078-1.36 46.079.133 46.078-2.355 46.079-8.259 46.078-5.107 46.079-3.416 46.078-1.327 46.079-2.62 46.078-5.24h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>LP.9.38.3 Kantonale Durchschnittsprämien je versicherte</tspan><tspan dy="17" x="10">Person in Franken, Basel-Stadt im Vergleich zu BL, AG und SO</tspan><title>LP.9.38.3 Kantonale Durchschnittsprämien je versicherte Person in Franken, Basel-Stadt im Vergleich zu BL, AG und SO</title>
+    </text>
+    <g class="highcharts-legend" transform="translate(45 70)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="396" height="68"/>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0">
+            <path fill="none" d="M8 14h16" class="highcharts-graph" stroke="red" stroke-width="2"/>
+            <path fill="red" d="M20 14a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
+                Schweiz
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1">
+            <path fill="none" d="M208 14h16" class="highcharts-graph" stroke="#000" stroke-width="2"/>
+            <path d="M220 14a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(208 3)">
+                Basel-Stadt
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-2">
+            <path fill="none" d="M8 33h16" class="highcharts-graph" stroke="#4a7ebb" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 22)">
+                Basel-Landschaft
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-3">
+            <path fill="none" d="M208 33h16" class="highcharts-graph" stroke="#e46c0a" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(208 22)">
+                Aargau
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-4">
+            <path fill="none" d="M8 52h16" class="highcharts-graph" stroke="#93f" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 41)">
+                Solothurn
+            </text>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="56.147" y="368">
+            <tspan>2006</tspan>
+        </text>
+        <text x="148.304" y="368">
+            <tspan>2008</tspan>
+        </text>
+        <text x="240.461" y="368">
+            <tspan>2010</tspan>
+        </text>
+        <text x="332.618" y="368">
+            <tspan>2012</tspan>
+        </text>
+        <text x="424.775" y="368">
+            <tspan>2014</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="37" y="354">
+            <tspan>0</tspan>
+        </text>
+        <text x="37" y="287">
+            <tspan>2 000</tspan>
+        </text>
+        <text x="37" y="221">
+            <tspan>4 000</tspan>
+        </text>
+        <text x="37" y="155">
+            <tspan>6 000</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Bundesamt für Gesundheit BAG</tspan>
+    </text>
+</svg>

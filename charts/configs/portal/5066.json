@@ -1,0 +1,224 @@
+{
+  "series": [
+    {
+      "color": "#71a3b5",
+      "index": 0,
+      "type": "column",
+      "pointWidth": "10",
+      "data": [
+        [
+          2005,
+          52422
+        ],
+        [
+          2006,
+          52177
+        ],
+        [
+          2007,
+          50528
+        ],
+        [
+          2008,
+          49684
+        ],
+        [
+          2009,
+          51915
+        ],
+        [
+          2010,
+          51485
+        ],
+        [
+          2011,
+          52341
+        ],
+        [
+          2012,
+          53403
+        ],
+        [
+          2013,
+          54294
+        ],
+        [
+          2014,
+          50302
+        ],
+        [
+          2015,
+          50633
+        ]
+      ],
+      "name": "PV-Beziehende (inkl. SH\u002FEL) (linke Achse)"
+    },
+    {
+      "color": "#7d60a0",
+      "index": 1,
+      "type": "line",
+      "yAxis": 1,
+      "data": [
+        [
+          2005,
+          27.9639182131941
+        ],
+        [
+          2006,
+          27.8473378591862
+        ],
+        [
+          2007,
+          26.9218473604569
+        ],
+        [
+          2008,
+          26.2497754578019
+        ],
+        [
+          2009,
+          27.3172143439712
+        ],
+        [
+          2010,
+          27.0499598072851
+        ],
+        [
+          2011,
+          27.250150981903
+        ],
+        [
+          2012,
+          27.6042985852299
+        ],
+        [
+          2013,
+          27.7776925084033
+        ],
+        [
+          2014,
+          25.602760712777
+        ],
+        [
+          2015,
+          25.6754426887893
+        ]
+      ],
+      "name": "Anteil PV-Beziehende an Wohnbev. in % (rechte Achse)"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "marginBottom": 65,
+    "alignTicks": false,
+    "forExport": true,
+    "renderTo": "container-5066"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "I.13.2.0008 Anteil PV-Beziehende mit Sozialhilfe und Ergänzungsleistungen an der Bevölkerung"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": true
+  },
+  "yAxis": [
+    {
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "title": ""
+    },
+    {
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}%",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "gridLineWidth": 0,
+      "opposite": true
+    }
+  ],
+  "xAxis": {
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EAmt für Sozialbeiträge, Abt. Prämienverbilligungen"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "y": 40,
+    "x": 40,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "exporting": {
+    "filename": "I.13.2.0008"
+  }
+}

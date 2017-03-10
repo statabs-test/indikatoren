@@ -1,0 +1,95 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h422v220H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M53 130h422v220H53z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M136.5 130v220m85-220v220m84-220v220m85-220v220m84-220v220m-422-220v220"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M53 350.5h422m-422-55h422m-422-55h422m-422-55h422m-422-55h422"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M53 130h422v220H53z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M136.5 350v10m85-10v10m84-10v10m85-10v10m85-10v10m-423-10v10"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M53 350.5h422"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M53 130v220"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 130)" clip-path="url(#a)">
+            <path fill="#b475ab" class="highcharts-point" stroke="#fff" d="M18.5 111.5h14v109h-14zm84 92h14v17h-14zm84-34h14v51h-14zm85 10h14v41h-14zm84 39h14v2h-14z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 130)" clip-path="url(#a)">
+            <path fill="#b2c4cb" class="highcharts-point" stroke="#fff" d="M34.5 128.5h14v92h-14zm85 77h14v15h-14zm84-52h14v67h-14zm85 25h14v42h-14zm84 38h14v4h-14z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 130)" clip-path="url(#a)">
+            <path fill="#cd9c00" class="highcharts-point" stroke="#fff" d="M51.5 204.5h14v16h-14zm85 8h14v8h-14zm84-115h14v123h-14zm85 53h14v70h-14zm84 66h14v4h-14z"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>LP.3.11.1B Anteile der Verkehrsmittel für die Agglomeration</tspan><tspan dy="17" x="10">Basel-Stadt 2010</tspan><title>LP.3.11.1B Anteile der Verkehrsmittel für die Agglomeration Basel-Stadt 2010</title>
+    </text>
+    <g class="highcharts-legend" transform="translate(45 65)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="296" height="53"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
+                <tspan>in % der Anzahl Etappen</tspan>
+            </text>
+            <path fill="#b475ab" class="highcharts-point" d="M10 7h12v12H10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 17)">
+                <tspan>in % der Unterwegszeit</tspan>
+            </text>
+            <path fill="#b2c4cb" class="highcharts-point" d="M10 21h12v12H10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 31)">
+                <tspan>in % der Tagesdistanz</tspan>
+            </text>
+            <path fill="#cd9c00" class="highcharts-point" d="M10 35h12v12H10z"/>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="95.2" y="369">
+            <tspan>zu Fuss</tspan>
+        </text>
+        <text x="179.6" y="369">
+            <tspan>Velo</tspan>
+        </text>
+        <text x="264" y="369">
+            <tspan>MIV</tspan>
+        </text>
+        <text x="348.4" y="369">
+            <tspan>ÖV</tspan>
+        </text>
+        <text x="432.8" y="369">
+            <tspan>Übrige</tspan><tspan dy="14" x="432.8">Verkehrsmittel</tspan><title>Übrige Verkehrsmittel</title>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="38" y="355">
+            <tspan>0%</tspan>
+        </text>
+        <text x="38" y="300">
+            <tspan>25%</tspan>
+        </text>
+        <text x="38" y="245">
+            <tspan>50%</tspan>
+        </text>
+        <text x="38" y="190">
+            <tspan>75%</tspan>
+        </text>
+        <text x="38" y="134">
+            <tspan>100%</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Bundesamt für Raumentwicklung, Mikrozensus zum Verkehrsverhalten</tspan>
+    </text>
+</svg>

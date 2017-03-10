@@ -1,0 +1,112 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h428v209H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M47 140h428v209H47z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M50.5 140v209m53-209v209m52-209v209m53-209v209m52-209v209m52-209v209m53-209v209m52-209v209m53-209v209"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M47 349.5h428m-428-42h428m-428-42h428m-428-41h428m-428-42h428m-428-43h428"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M47 140h428v209H47z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M47 349.5h428"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M47 140v209"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(47 140)" clip-path="url(#a)">
+            <path fill="none" d="M4.196 151.953l157.353-6.119 262.255 2.655" class="highcharts-graph" stroke="#b00000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.804 151.953h10l157.353-6.119 262.255 2.655h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(47 140)" clip-path="url(#a)">
+            <path fill="none" d="M4.196 137.248l157.353-10.142 262.255 14.326" class="highcharts-graph" stroke="#68411e" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.804 137.248h10l157.353-10.142 262.255 14.326h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="translate(47 140)" clip-path="url(#a)">
+            <path fill="none" d="M4.196 99.334l157.353 1.04 262.255 6.007" class="highcharts-graph" stroke="#44ab2b" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.804 99.334h10l157.353 1.04 262.255 6.007h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>I.02.5.0006 Anteil übermässig mit Lärm belasteter Einwohner</tspan>
+    </text>
+    <g class="highcharts-legend" transform="translate(30 60)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="296" height="68"/>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0">
+            <path fill="none" d="M8 14h16" class="highcharts-graph" stroke="#b00000" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
+                <tspan>Über Grenzwert am Tag</tspan>
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1">
+            <path fill="none" d="M8 33h16" class="highcharts-graph" stroke="#68411e" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 22)">
+                <tspan>Über Grenzwert in der Nacht</tspan>
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-2">
+            <path fill="none" d="M8 52h16" class="highcharts-graph" stroke="#44ab2b" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 41)">
+                <tspan>Über 50 dB (A) in der Nacht</tspan>
+            </text>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="51.196" y="368">
+            2000
+        </text>
+        <text x="103.647" y="368">
+            2001
+        </text>
+        <text x="156.098" y="368">
+            2002
+        </text>
+        <text x="208.549" y="368">
+            2003
+        </text>
+        <text x="261" y="368">
+            2004
+        </text>
+        <text x="313.451" y="368">
+            2005
+        </text>
+        <text x="365.902" y="368">
+            2006
+        </text>
+        <text x="418.353" y="368">
+            2007
+        </text>
+        <text x="462.781" y="368">
+            2008
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="32" y="354">
+            <tspan>0%</tspan>
+        </text>
+        <text x="32" y="312">
+            <tspan>10%</tspan>
+        </text>
+        <text x="32" y="270">
+            <tspan>20%</tspan>
+        </text>
+        <text x="32" y="228">
+            <tspan>30%</tspan>
+        </text>
+        <text x="32" y="186">
+            <tspan>40%</tspan>
+        </text>
+        <text x="32" y="145">
+            <tspan>50%</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster</tspan>
+    </text>
+</svg>

@@ -1,0 +1,109 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h428v291H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M47 58h428v291H47z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M50.5 58v291m47-291v291m46-291v291m47-291v291m47-291v291m46-291v291m47-291v291m47-291v291m46-291v291m47-291v291"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M47 349.5h428m-428-73h428m-428-72h428m-428-73h428m-428-74h428"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M47 58h428v291H47z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M47 349.5h428"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M47 58v291"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(47 58)" clip-path="url(#a)">
+            <path fill="none" d="M4.196 54.349l46.623.606 46.623.817 46.623-.51 46.623-3.898 46.624.48 46.623-.608 46.623-.692 46.623-.482 46.623.386" class="highcharts-graph" stroke="#b00000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.804 54.349h10l46.623.606 46.623.817 46.623-.51 46.623-3.898 46.624.48 46.623-.608 46.623-.692 46.623-.482 46.623.386h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(47 58)" clip-path="url(#a)">
+            <path fill="none" d="M4.196 221.809l46.623-3.874 46.623 1.36 46.623 1.342 46.623 8.847 46.624 7.335 46.623-3.155 46.623-.903 46.623-3.09 46.623-1.882" class="highcharts-graph" stroke="#71a3b5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.804 221.809h10l46.623-3.874 46.623 1.36 46.623 1.342 46.623 8.847 46.624 7.335 46.623-3.155 46.623-.903 46.623-3.09 46.623-1.882h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="translate(47 58)" clip-path="url(#a)">
+            <path fill="none" d="M4.196 106.492l46.623-.587 46.623 1.744 46.623 1.284 46.623.576 46.624 4.061 46.623-.543 46.623.492 46.623-.58 46.623.087" class="highcharts-graph" stroke="#000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.804 106.492h10l46.623-.587 46.623 1.744 46.623 1.284 46.623.576 46.624 4.061 46.623-.543 46.623.492 46.623-.58 46.623.087h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-2 highcharts-line-series highcharts-color-undefined highcharts-tracker">
+            <path d="M55 164a4 4 0 1 1 0-.004zm46 0a4 4 0 1 1 0-.004zm47 2a4 4 0 1 1 0-.004zm47 1a4 4 0 1 1 0-.004zm46 1a4 4 0 1 1 0-.004zm47 4a4 4 0 1 1 0-.004zm46-1a4 4 0 1 1 0-.004zm47 1a4 4 0 1 1 0-.004zm47-1a4 4 0 1 1 0-.004zm46 0a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>I.01.5.0001 Anteil der Bevölkerung, der seit mindestens 10</tspan><tspan dy="17" x="10">Jahren an der gleichen Adresse wohnt nach Heimat</tspan><title>I.01.5.0001 Anteil der Bevölkerung, der seit mindestens 10 Jahren an der gleichen Adresse wohnt nach Heimat</title>
+    </text>
+    <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(416 85)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">Schweizer</tspan><tspan x="5" y="16">Schweizer</tspan>
+        </text>
+    </g>
+    <g class="highcharts-data-labels highcharts-series-1 highcharts-line-series highcharts-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(416 263)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">Ausländer</tspan><tspan x="5" y="16">Ausländer</tspan>
+        </text>
+    </g>
+    <g class="highcharts-data-labels highcharts-series-2 highcharts-line-series highcharts-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(443 148)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">Total</tspan><tspan x="5" y="16">Total</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="51.196" y="368">
+            2006
+        </text>
+        <text x="97.819" y="368">
+            2007
+        </text>
+        <text x="144.442" y="368">
+            2008
+        </text>
+        <text x="191.065" y="368">
+            2009
+        </text>
+        <text x="237.688" y="368">
+            2010
+        </text>
+        <text x="284.312" y="368">
+            2011
+        </text>
+        <text x="330.935" y="368">
+            2012
+        </text>
+        <text x="377.558" y="368">
+            2013
+        </text>
+        <text x="424.181" y="368">
+            2014
+        </text>
+        <text x="462.781" y="368">
+            2015
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="32" y="354">
+            <tspan>10%</tspan>
+        </text>
+        <text x="32" y="281">
+            <tspan>20%</tspan>
+        </text>
+        <text x="32" y="208">
+            <tspan>30%</tspan>
+        </text>
+        <text x="32" y="135">
+            <tspan>40%</tspan>
+        </text>
+        <text x="32" y="63">
+            <tspan>50%</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik</tspan>
+    </text>
+</svg>

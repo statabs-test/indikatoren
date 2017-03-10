@@ -1,0 +1,101 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h423v242H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M52 107h423v242H52z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M55.5 107v242m92-242v242m92-242v242m93-242v242m92-242v242"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M52 349.5h423m-423-60h423m-423-61h423m-423-60h423m-423-62h423"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M52 107h423v242H52z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M52 349.5h423"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M52 107v242"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(52 107)" clip-path="url(#a)">
+            <path fill="none" d="M4.147 228.569l46.078 3.63 46.079-1.089 46.078 2.904 46.079-63.041 46.078 8.228 46.079 55.176 46.078-2.904 46.079 1.452 46.078-3.146" class="highcharts-graph" stroke="#b00000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.853 228.569h10l46.078 3.63 46.079-1.089 46.078 2.904 46.079-63.041 46.078 8.228 46.079 55.176 46.078-2.904 46.079 1.452 46.078-3.146h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(52 107)" clip-path="url(#a)">
+            <path fill="none" d="M4.147 135.641L50.225 21.417l46.079 27.709 46.078 69.575 46.079 37.268 46.078 18.634 46.079-11.737 46.078-26.257 46.079 14.762 46.078-25.652" class="highcharts-graph" stroke="#71a3b5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.853 135.641h10L50.225 21.417l46.079 27.709 46.078 69.575 46.079 37.268 46.078 18.634 46.079-11.737 46.078-26.257 46.079 14.762 46.078-25.652h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="translate(52 107)" clip-path="url(#a)">
+            <path fill="none" d="M4.147 242h414.706" class="highcharts-graph" stroke="#000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.853 242h434.706" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-2 highcharts-line-series highcharts-color-undefined highcharts-tracker">
+            <path d="M60 349a4 4 0 1 1 0-.004zm46 0a4 4 0 1 1 0-.004zm46 0a4 4 0 1 1 0-.004zm46 0a4 4 0 1 1 0-.004zm46 0a4 4 0 1 1 0-.004zm46 0a4 4 0 1 1 0-.004zm46 0a4 4 0 1 1 0-.004zm46 0a4 4 0 1 1 0-.004zm46 0a4 4 0 1 1 0-.004zm46 0a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>LP.3.10.2 Ordentlich Eingebürgerte nach bisheriger Heimat</tspan><tspan dy="17" x="10">und Geburtsland</tspan><title>LP.3.10.2 Ordentlich Eingebürgerte nach bisheriger Heimat und Geburtsland</title>
+    </text>
+    <g class="highcharts-legend" transform="translate(45 65)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="339" height="30"/>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0">
+            <path fill="none" d="M8 14h16" class="highcharts-graph" stroke="#b00000" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
+                Schweiz
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1">
+            <path fill="none" d="M93.656 14h16" class="highcharts-graph" stroke="#71a3b5" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(93.656 3)">
+                Ausland
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-2">
+            <path fill="none" d="M178 14h16" class="highcharts-graph" stroke="#000" stroke-width="2"/>
+            <path d="M190 14a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(178 3)">
+                Ausland_GeburtslandCH
+            </text>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="56.147" y="368">
+            <tspan>2006</tspan>
+        </text>
+        <text x="148.304" y="368">
+            <tspan>2008</tspan>
+        </text>
+        <text x="240.461" y="368">
+            <tspan>2010</tspan>
+        </text>
+        <text x="332.618" y="368">
+            <tspan>2012</tspan>
+        </text>
+        <text x="424.775" y="368">
+            <tspan>2014</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="37" y="354">
+            <tspan>0</tspan>
+        </text>
+        <text x="37" y="293">
+            <tspan>500</tspan>
+        </text>
+        <text x="37" y="233">
+            <tspan>1 000</tspan>
+        </text>
+        <text x="37" y="172">
+            <tspan>1 500</tspan>
+        </text>
+        <text x="37" y="112">
+            <tspan>2 000</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik</tspan>
+    </text>
+</svg>

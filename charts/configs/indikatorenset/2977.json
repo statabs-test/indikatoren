@@ -1,0 +1,239 @@
+{
+  "series": [
+    {
+      "color": "#b475ab",
+      "data": [
+        [
+          2006,
+          12.2
+        ],
+        [
+          2007,
+          11.5
+        ],
+        [
+          2008,
+          11.4
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ]
+      ],
+      "name": "Alte Berechnungsmethode"
+    },
+    {
+      "color": "#e7cfe2",
+      "data": [
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          11.3
+        ],
+        [
+          2009,
+          11.2
+        ],
+        [
+          2010,
+          11.2
+        ],
+        [
+          2011,
+          11.4
+        ],
+        [
+          2012,
+          11.8
+        ],
+        [
+          2013,
+          12
+        ],
+        [
+          2014,
+          11.9
+        ],
+        [
+          2015,
+          12.1
+        ]
+      ],
+      "name": "Neue Berechnungsmethode"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {                
+                    this.credits.element.onclick = function() {}
+                }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "scatter",
+    "inverted": true,
+    "forExport": true,
+    "renderTo": "container-2977"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "LP.9.37.1 Anteil Empfänger\u002F-innen von existenzsichernden Leistungen"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "x": 5,
+        "align": "left",
+        "verticalAlign": "middle",
+        "enabled": false,
+        "style": {
+          "fontSize": "10px"
+        },
+        "formatter": function (){
+                        return Highcharts.numberFormat((this.y*100),1)+'%';                
+                    }
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "yAxis": {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "formatter": function (){
+                    return Highcharts.numberFormat((this.value*100),0)+'%';                
+                },
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    },
+    "min": 0,
+    "tickInterval": 10
+  },
+  "xAxis": {
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "fontSize": "10px"
+      }
+    },
+    "tickColor": "#FFFFFF",
+    "tickInterval": 2,
+    "type": "category",
+    "uniqueNames": true
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -35
+    },
+    "text": "Quelle: Amt für Sozialbeiträge Abteilung Ergänzungsleistungen;\u003Cbr\u002F\u003EBundesamt für Statistik BFS, Sozialhilfestatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+  },
+  "legend": {
+    "enabled": true,
+    "symbolRadius": 0,
+    "x": 30,
+    "y": 40,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left",
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "formatter": function (args){
+                var this_point_index = this.series.data.indexOf(this.point);
+                var other_series_index = this.series.index == 0 ? 1 : 0; // assuming 2 series
+                var other_series = args.chart.series[other_series_index];
+                var other_point = other_series.data[this_point_index];
+                return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
+                    this.point.name +': <b>' + Highcharts.numberFormat((this.y*100),1) + '%</b><br/>' + 
+                    'Rang <b>' + other_point.y + '</b>';
+            },
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "I.13.2.0010"
+  }
+}

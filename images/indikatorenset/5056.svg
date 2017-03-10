@@ -1,0 +1,142 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h413v191H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M62 125h413v191H62z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M102.5 125v191m42-191v191m41-191v191m41-191v191m42-191v191m41-191v191m41-191v191m41-191v191m42-191v191m41-191v191m-413-191v191"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M62 316.5h413m-413-48h413m-413-47h413m-413-48h413m-413-49h413"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M62 125h413v191H62z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M62 316.5h413"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M62 125v191"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(62 125)" clip-path="url(#a)">
+            <path fill="none" d="M20.65 39.782l41.3-6.537 41.3-10.484 41.3-2.435 41.3.695 41.3 12.743 41.3-.925 41.3-22.18 41.3 18.872" class="highcharts-graph" stroke="#69929b" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M10.65 39.782h10l41.3-6.537 41.3-10.484 41.3-2.435 41.3.695 41.3 12.743 41.3-.925 41.3-22.18 41.3 18.872h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(62 125)" clip-path="url(#a)">
+            <path fill="none" d="M20.65 139.32l41.3-5.19 41.3 2.657 41.3.733 41.3 1.861 41.3-4.113 41.3.416 41.3.53 41.3 2.073 41.3-6.22" class="highcharts-graph" stroke="#44ab2b" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M10.65 139.32h10l41.3-5.19 41.3 2.657 41.3.733 41.3 1.861 41.3-4.113 41.3.416 41.3.53 41.3 2.073 41.3-6.22h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="translate(62 125)" clip-path="url(#a)">
+            <path fill="none" d="M20.65 168.413l41.3 1.23 41.3 1.62 41.3-1.885 41.3.028 41.3.213 41.3 2.185 41.3-1.97 41.3 1.794 41.3.178" class="highcharts-graph" stroke="#ff8028" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M10.65 168.413h10l41.3 1.23 41.3 1.62 41.3-1.885 41.3.028 41.3.213 41.3 2.185 41.3-1.97 41.3 1.794 41.3.178h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-3 highcharts-line-series highcharts-color-undefined" transform="translate(62 125)" clip-path="url(#a)">
+            <path fill="none" d="M20.65 183.958l41.3.025 41.3-.79 41.3-.693 41.3-.075 41.3-1.453 41.3-1.733 41.3-.177 41.3 2.292 41.3.096" class="highcharts-graph" stroke="#933f8d" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M10.65 183.958h10l41.3.025 41.3-.79 41.3-.693 41.3-.075 41.3-1.453 41.3-1.733 41.3-.177 41.3 2.292 41.3.096h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-4 highcharts-line-series highcharts-color-undefined" transform="translate(62 125)" clip-path="url(#a)">
+            <path fill="none" d="M20.65 181.71l41.3 2.376 41.3-6.349 41.3-4.476 41.3-2.752 41.3 7.117 41.3-2.298 41.3-.399 41.3 1.934" class="highcharts-graph" stroke="#c8c8c8" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M10.65 181.71h10l41.3 2.376 41.3-6.349 41.3-4.476 41.3-2.752 41.3 7.117 41.3-2.298 41.3-.399 41.3 1.934h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-5 highcharts-line-series highcharts-color-undefined" transform="translate(62 125)" clip-path="url(#a)">
+            <path fill="none" d="M20.65 182.023l41.3-1.05 41.3-.86 41.3-2.483 41.3-2.75 41.3 1.838 41.3-2.378 41.3.392 41.3 2.578 41.3-.836" class="highcharts-graph" stroke="#b00000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M10.65 182.023h10l41.3-1.05 41.3-.86 41.3-2.483 41.3-2.75 41.3 1.838 41.3-2.378 41.3.392 41.3 2.578 41.3-.836h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>LP.6.24.1.B Anzahl Besucher: Theater Basel, ausgewählte</tspan><tspan dy="17" x="10">Bühnen und Kleintheater</tspan><title>LP.6.24.1.B Anzahl Besucher: Theater Basel, ausgewählte Bühnen und Kleintheater</title>
+    </text>
+    <g class="highcharts-legend" transform="translate(40 45)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="396" height="68"/>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0">
+            <path fill="none" d="M8 14h16" class="highcharts-graph" stroke="#69929b" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
+                <tspan>Theater Basel</tspan>
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1">
+            <path fill="none" d="M208 14h16" class="highcharts-graph" stroke="#44ab2b" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(208 3)">
+                Fauteuil
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-2">
+            <path fill="none" d="M8 33h16" class="highcharts-graph" stroke="#ff8028" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 22)">
+                Tabourettli
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-3">
+            <path fill="none" d="M208 33h16" class="highcharts-graph" stroke="#933f8d" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(208 22)">
+                <tspan>Basler Kinder Theater</tspan>
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-4">
+            <path fill="none" d="M8 52h16" class="highcharts-graph" stroke="#c8c8c8" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 41)">
+                Kaserne
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-5">
+            <path fill="none" d="M208 52h16" class="highcharts-graph" stroke="#b00000" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(208 41)">
+                <tspan>Theater Arlecchino</tspan>
+            </text>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="85.243" transform="rotate(-45 85.243 332)" y="332">
+            <tspan>2006/2007</tspan>
+        </text>
+        <text x="126.543" transform="rotate(-45 126.543 332)" y="332">
+            <tspan>2007/2008</tspan>
+        </text>
+        <text x="167.843" transform="rotate(-45 167.843 332)" y="332">
+            <tspan>2008/2009</tspan>
+        </text>
+        <text x="209.143" transform="rotate(-45 209.143 332)" y="332">
+            <tspan>2009/2010</tspan>
+        </text>
+        <text x="250.443" transform="rotate(-45 250.443 332)" y="332">
+            <tspan>2010/2011</tspan>
+        </text>
+        <text x="291.743" transform="rotate(-45 291.743 332)" y="332">
+            <tspan>2011/2012</tspan>
+        </text>
+        <text x="333.043" transform="rotate(-45 333.043 332)" y="332">
+            <tspan>2012/2013</tspan>
+        </text>
+        <text x="374.343" transform="rotate(-45 374.343 332)" y="332">
+            <tspan>2013/2014</tspan>
+        </text>
+        <text x="415.643" transform="rotate(-45 415.643 332)" y="332">
+            <tspan>2014/2015</tspan>
+        </text>
+        <text x="456.943" transform="rotate(-45 456.943 332)" y="332">
+            <tspan>2015/2016</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="47" y="321">
+            <tspan>0</tspan>
+        </text>
+        <text x="47" y="273">
+            <tspan>50000</tspan>
+        </text>
+        <text x="47" y="225">
+            <tspan>100000</tspan>
+        </text>
+        <text x="47" y="177">
+            <tspan>150000</tspan>
+        </text>
+        <text x="47" y="130">
+            <tspan>200000</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Jahresbericht Theater Basel, Informationen der Bühnen und Kleintheater</tspan>
+    </text>
+</svg>

@@ -1,0 +1,102 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h200v295H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M37 41h200v295H37z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M38.5 41v295m22-295v295m22-295v295m21-295v295m22-295v295m22-295v295m22-295v295m21-295v295m22-295v295m22-295v295"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M37 336.5h200m-200-74h200m-200-73h200m-200-74h200m-200-75h200"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M37 41h200v295H37z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M37 336.5h200"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M37 41v295"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(37 41)" clip-path="url(#a)">
+            <path fill="none" d="M1.96 195.835l21.787 28.19 21.787 9.955 21.786-18.495 21.787 10.917 21.786-1.207 21.787 22.052 21.786-3.508 21.787-5.975 21.786 13.037" class="highcharts-graph" stroke="#672773" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-8.04 195.835h10l21.787 28.19 21.787 9.955 21.786-18.495 21.787 10.917 21.786-1.207 21.787 22.052 21.786-3.508 21.787-5.975 21.786 13.037h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(37 41)" clip-path="url(#a)">
+            <path fill="none" d="M1.96 105.457l21.787 53.846 21.787 17.124 21.786-35.31 21.787 21.55 21.786-4.237 21.787 42.536 21.786-6.934 21.787-12.148 21.786 25.965" class="highcharts-graph" stroke="#dc440e" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-8.04 105.457h10l21.787 53.846 21.787 17.124 21.786-35.31 21.787 21.55 21.786-4.237 21.787 42.536 21.786-6.934 21.787-12.148 21.786 25.965h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>LP.8.34.5 Wasserqualität (AOX-Fracht)</tspan>
+    </text>
+    <g class="highcharts-legend" transform="translate(249 216)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="235" height="49"/>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1">
+            <path fill="none" d="M8 14h16" class="highcharts-graph" stroke="#dc440e" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
+                <tspan>AOX pro Einwohner</tspan>
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0">
+            <path fill="none" d="M8 33h16" class="highcharts-graph" stroke="#672773" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 22)">
+                <tspan>AOX pro Einwohner und Beschäftigte</tspan>
+            </text>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="41.554" transform="rotate(-45 41.554 352)" y="352">
+            <tspan>2006</tspan>
+        </text>
+        <text x="63.34" transform="rotate(-45 63.34 352)" y="352">
+            <tspan>2007</tspan>
+        </text>
+        <text x="85.126" transform="rotate(-45 85.126 352)" y="352">
+            <tspan>2008</tspan>
+        </text>
+        <text x="106.913" transform="rotate(-45 106.913 352)" y="352">
+            <tspan>2009</tspan>
+        </text>
+        <text x="128.699" transform="rotate(-45 128.7 352)" y="352">
+            <tspan>2010</tspan>
+        </text>
+        <text x="150.486" transform="rotate(-45 150.486 352)" y="352">
+            <tspan>2011</tspan>
+        </text>
+        <text x="172.272" transform="rotate(-45 172.272 352)" y="352">
+            <tspan>2012</tspan>
+        </text>
+        <text x="194.059" transform="rotate(-45 194.059 352)" y="352">
+            <tspan>2013</tspan>
+        </text>
+        <text x="215.845" transform="rotate(-45 215.845 352)" y="352">
+            <tspan>2014</tspan>
+        </text>
+        <text x="237.632" transform="rotate(-45 237.632 352)" y="352">
+            <tspan>2015</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="22" y="341">
+            <tspan>0</tspan>
+        </text>
+        <text x="22" y="267">
+            <tspan>5</tspan>
+        </text>
+        <text x="22" y="193">
+            <tspan>10</tspan>
+        </text>
+        <text x="22" y="119">
+            <tspan>15</tspan>
+        </text>
+        <text x="22" y="46">
+            <tspan>20</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="390" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Amt für Umwelt und Energie Basel-Stadt;</tspan><tspan x="10" dy="13">ProRheno AG</tspan>
+    </text>
+</svg>

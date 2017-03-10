@@ -1,0 +1,359 @@
+{
+  "series": [
+    {
+      "color": "#007a2f",
+      "index": 5,
+      "data": [
+        [
+          "ch\u002Fdt",
+          0.306748466257
+        ],
+        [
+          "ch\u002Fdt und andere",
+          0.350467289719
+        ],
+        [
+          "Andere",
+          0.374045801526
+        ],
+        [
+          "OS",
+          0.300341296928
+        ],
+        [
+          "WBS",
+          0.336787564766
+        ],
+        [
+          "Gymn.",
+          0.252148997134
+        ],
+        [
+          "Anderes",
+          0.453201970443
+        ],
+        [
+          "Männer",
+          0.340956340956
+        ],
+        [
+          "Frauen",
+          0.3
+        ],
+        [
+          "Total",
+          0.320809248554
+        ]
+      ],
+      "name": "Sehr gut",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73ba7c",
+      "index": 4,
+      "data": [
+        [
+          "ch\u002Fdt",
+          0.562372188139
+        ],
+        [
+          "ch\u002Fdt und andere",
+          0.509345794392
+        ],
+        [
+          "Andere",
+          0.492366412213
+        ],
+        [
+          "OS",
+          0.477815699658
+        ],
+        [
+          "WBS",
+          0.533678756476
+        ],
+        [
+          "Gymn.",
+          0.595988538681
+        ],
+        [
+          "Anderes",
+          0.467980295566
+        ],
+        [
+          "Männer",
+          0.511434511434
+        ],
+        [
+          "Frauen",
+          0.543636363636
+        ],
+        [
+          "Total",
+          0.526011560693
+        ]
+      ],
+      "name": "Eher gut",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ff8028",
+      "index": 3,
+      "data": [
+        [
+          "ch\u002Fdt",
+          0.102249488752
+        ],
+        [
+          "ch\u002Fdt und andere",
+          0.056074766355
+        ],
+        [
+          "Andere",
+          0.057251908396
+        ],
+        [
+          "OS",
+          0.058020477815
+        ],
+        [
+          "WBS",
+          0.072538860103
+        ],
+        [
+          "Gymn.",
+          0.114613180515
+        ],
+        [
+          "Anderes",
+          0.054187192118
+        ],
+        [
+          "Männer",
+          0.085239085239
+        ],
+        [
+          "Frauen",
+          0.074545454545
+        ],
+        [
+          "Total",
+          0.078998073217
+        ]
+      ],
+      "name": "eher nicht gut",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b00000",
+      "index": 2,
+      "data": [
+        [
+          "ch\u002Fdt",
+          0.010224948875
+        ],
+        [
+          "ch\u002Fdt und andere",
+          0.023364485981
+        ],
+        [
+          "Andere",
+          0.026717557251
+        ],
+        [
+          "OS",
+          0.037542662116
+        ],
+        [
+          "WBS",
+          0
+        ],
+        [
+          "Gymn.",
+          0.017191977077
+        ],
+        [
+          "Anderes",
+          0.009852216748
+        ],
+        [
+          "Männer",
+          0.02079002079
+        ],
+        [
+          "Frauen",
+          0.014545454545
+        ],
+        [
+          "Total",
+          0.018304431599
+        ]
+      ],
+      "name": "gar nicht gut",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#c8c8c8",
+      "index": 1,
+      "data": [
+        [
+          "ch\u002Fdt",
+          0.018404907975
+        ],
+        [
+          "ch\u002Fdt und andere",
+          0.060747663551
+        ],
+        [
+          "Andere",
+          0.04961832061
+        ],
+        [
+          "OS",
+          0.126279863481
+        ],
+        [
+          "WBS",
+          0.056994818652
+        ],
+        [
+          "Gymn.",
+          0.02005730659
+        ],
+        [
+          "Anderes",
+          0.014778325123
+        ],
+        [
+          "Männer",
+          0.04158004158
+        ],
+        [
+          "Frauen",
+          0.067272727272
+        ],
+        [
+          "Total",
+          0.055876685934
+        ]
+      ],
+      "name": "Keine Angabe",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "column",
+    "renderTo": "container-2399",
+    "marginBottom": 75,
+    "marginTop": 75,
+    "inverted": true,
+    "forExport": true
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "LP.7.26.2 Zufriedenheit mit der Schule\u002FLehrstelle (Jugendbefragung)"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Befragungsjahr 2013",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    },
+    "max": 100
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F46"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "symbolRadius": 0,
+    "itemMarginBottom": 5,
+    "itemWidth": 100,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "pointWidth": 20,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "normal"
+    }
+  },
+  "exporting": {
+    "filename": "I.15.3.0002"
+  }
+}

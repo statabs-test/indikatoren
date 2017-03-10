@@ -1,0 +1,121 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h247v265H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M80 75h247v265H80z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M91.5 75v265m50-265v265m49-265v265m50-265v265m49-265v265"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M80 340.5h247m-247-66h247m-247-66h247m-247-67h247m-247-67h247"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M80 75h247v265H80z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M80 340.5h247"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M80 75v265"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(80 75)" clip-path="url(#a)">
+            <path fill="#71a3b5" class="highcharts-point" stroke="#fff" d="M4.5 102.5h15v31h-15zm25-6h15v39h-15zm24-8h15v43h-15zm25-7h15v48h-15zm25-10h15v56h-15zm24 28h15v25h-15zm25 1h15v23h-15zm25 6h15v24h-15zm24 2h15v23h-15zm25-3h15v26h-15z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(80 75)" clip-path="url(#a)">
+            <path fill="#baa85a" class="highcharts-point" stroke="#fff" d="M4.5 133.5h15v15h-15zm25 2h15v19h-15zm24-4h15v21h-15zm25-2h15v25h-15zm25-2h15v28h-15zm24-3h15v25h-15zm25-1h15v23h-15zm25 7h15v25h-15zm24 1h15v23h-15zm25 0h15v25h-15z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(80 75)" clip-path="url(#a)">
+            <path fill="#933f8d" class="highcharts-point" stroke="#fff" d="M4.5 148.5h15v2h-15zm25 6h15v2h-15zm24-2h15v2h-15zm25 2h15v1h-15zm25 1h15v2h-15zm24-6h15v2h-15zm25-3h15v2h-15zm25 9h15v2h-15zm24-1h15v2h-15zm25 2h15v2h-15z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(80 75)" clip-path="url(#a)">
+            <path fill="#ff8028" class="highcharts-point" stroke="#fff" d="M4.5 150.5h15v2h-15zm25 6h15v2h-15zm24-2h15v2h-15zm25 1h15v2h-15zm25 2h15v2h-15zm24-6h15v3h-15zm25-3h15v3h-15zm25 9h15v1h-15zm24-1h15v2h-15zm25 2h15v2h-15z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(80 75)" clip-path="url(#a)">
+            <path fill="#2f656b" class="highcharts-point" stroke="#fff" d="M4.5 152.5h15v10h-15zm25 6h15v5h-15zm24-2h15v6h-15zm25 1h15v7h-15zm25 2h15v6h-15zm24-5h15v6h-15zm25-3h15v8h-15zm25 7h15v6h-15zm24 0h15v6h-15zm25 2h15v6h-15z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-5 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(80 75)" clip-path="url(#a)">
+            <path fill="#b00000" class="highcharts-point" stroke="#fff" d="M4.5 162.5h15v103h-15zm25 1h15v102h-15zm24-1h15v103h-15zm25 2h15v101h-15zm25 1h15v100h-15zm24-5h15v105h-15zm25-1h15v106h-15zm25 5h15v101h-15zm24 0h15v101h-15zm25 2h15v99h-15z"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>LP.8.34.4.B Gesamter Trinkwasserverbrauch nach</tspan><tspan dy="17" x="10">Verbrauchergruppe</tspan><title>LP.8.34.4.B Gesamter Trinkwasserverbrauch nach Verbrauchergruppe</title>
+    </text>
+    <g class="highcharts-legend" transform="translate(339 128)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="136" height="125"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
+                <tspan>Eigenverbrauch Trinkwasser IWB</tspan>
+            </text>
+            <path fill="#71a3b5" class="highcharts-point" d="M10 7h12v12H10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 22)">
+                Industrie
+            </text>
+            <path fill="#baa85a" class="highcharts-point" d="M10 26h12v12H10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 41)">
+                Bau
+            </text>
+            <path fill="#933f8d" class="highcharts-point" d="M10 45h12v12H10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 60)">
+                Temporär
+            </text>
+            <path fill="#ff8028" class="highcharts-point" d="M10 64h12v12H10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 79)">
+                Gewerbe
+            </text>
+            <path fill="#2f656b" class="highcharts-point" d="M10 83h12v12H10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-5">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 98)">
+                Haushalte
+            </text>
+            <path fill="#b00000" class="highcharts-point" d="M10 102h12v12H10z"/>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="92.35" y="359">
+            2006
+        </text>
+        <text x="141.75" y="359">
+            2008
+        </text>
+        <text x="191.15" y="359">
+            2010
+        </text>
+        <text x="240.55" y="359">
+            2012
+        </text>
+        <text x="289.95" y="359">
+            2014
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="65" y="345">
+            <tspan>0</tspan>
+        </text>
+        <text x="65" y="278">
+            <tspan>10 000 000</tspan>
+        </text>
+        <text x="65" y="212">
+            <tspan>20 000 000</tspan>
+        </text>
+        <text x="65" y="146">
+            <tspan>30 000 000</tspan>
+        </text>
+        <text x="65" y="80">
+            <tspan>40 000 000</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Industrielle Werke Basel</tspan>
+    </text>
+</svg>

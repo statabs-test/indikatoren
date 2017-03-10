@@ -1,0 +1,397 @@
+{
+  "series": [
+    {
+      "color": "#69929b",
+      "data": [
+        [
+          "2006\u002F2007",
+          617
+        ],
+        [
+          "2007\u002F2008",
+          620
+        ],
+        [
+          "2008\u002F2009",
+          627
+        ],
+        [
+          "2009\u002F2010",
+          599
+        ],
+        [
+          "2010\u002F2011",
+          625
+        ],
+        [
+          "2011\u002F2012",
+          621
+        ],
+        [
+          "2012\u002F2013",
+          576
+        ],
+        [
+          "2013\u002F2014",
+          572
+        ],
+        [
+          "2014\u002F2015",
+          619
+        ],
+        [
+          "2015\u002F2016",
+          null
+        ]
+      ],
+      "name": "Theater Basel",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#44ab2b",
+      "data": [
+        [
+          "2006\u002F2007",
+          251
+        ],
+        [
+          "2007\u002F2008",
+          267
+        ],
+        [
+          "2008\u002F2009",
+          264
+        ],
+        [
+          "2009\u002F2010",
+          257
+        ],
+        [
+          "2010\u002F2011",
+          249
+        ],
+        [
+          "2011\u002F2012",
+          283
+        ],
+        [
+          "2012\u002F2013",
+          285
+        ],
+        [
+          "2013\u002F2014",
+          276
+        ],
+        [
+          "2014\u002F2015",
+          277
+        ],
+        [
+          "2015\u002F2016",
+          291
+        ]
+      ],
+      "name": "Fauteuil",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ff8028",
+      "data": [
+        [
+          "2006\u002F2007",
+          165
+        ],
+        [
+          "2007\u002F2008",
+          157
+        ],
+        [
+          "2008\u002F2009",
+          147
+        ],
+        [
+          "2009\u002F2010",
+          167
+        ],
+        [
+          "2010\u002F2011",
+          172
+        ],
+        [
+          "2011\u002F2012",
+          152
+        ],
+        [
+          "2012\u002F2013",
+          152
+        ],
+        [
+          "2013\u002F2014",
+          178
+        ],
+        [
+          "2014\u002F2015",
+          166
+        ],
+        [
+          "2015\u002F2016",
+          159
+        ]
+      ],
+      "name": "Tabourettli",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#933f8d",
+      "data": [
+        [
+          "2006\u002F2007",
+          89
+        ],
+        [
+          "2007\u002F2008",
+          101
+        ],
+        [
+          "2008\u002F2009",
+          100
+        ],
+        [
+          "2009\u002F2010",
+          100
+        ],
+        [
+          "2010\u002F2011",
+          97
+        ],
+        [
+          "2011\u002F2012",
+          94
+        ],
+        [
+          "2012\u002F2013",
+          95
+        ],
+        [
+          "2013\u002F2014",
+          94
+        ],
+        [
+          "2014\u002F2015",
+          93
+        ],
+        [
+          "2015\u002F2016",
+          92
+        ]
+      ],
+      "name": "Basler Kinder Theater",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#c8c8c8",
+      "data": [
+        [
+          "2006\u002F2007",
+          76
+        ],
+        [
+          "2007\u002F2008",
+          61
+        ],
+        [
+          "2008\u002F2009",
+          143
+        ],
+        [
+          "2009\u002F2010",
+          139
+        ],
+        [
+          "2010\u002F2011",
+          153
+        ],
+        [
+          "2011\u002F2012",
+          165
+        ],
+        [
+          "2012\u002F2013",
+          170
+        ],
+        [
+          "2013\u002F2014",
+          158
+        ],
+        [
+          "2014\u002F2015",
+          149
+        ],
+        [
+          "2015\u002F2016",
+          null
+        ]
+      ],
+      "name": "Kaserne",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b00000",
+      "data": [
+        [
+          "2006\u002F2007",
+          94
+        ],
+        [
+          "2007\u002F2008",
+          103
+        ],
+        [
+          "2008\u002F2009",
+          96
+        ],
+        [
+          "2009\u002F2010",
+          100
+        ],
+        [
+          "2010\u002F2011",
+          128
+        ],
+        [
+          "2011\u002F2012",
+          117
+        ],
+        [
+          "2012\u002F2013",
+          126
+        ],
+        [
+          "2013\u002F2014",
+          121
+        ],
+        [
+          "2014\u002F2015",
+          114
+        ],
+        [
+          "2015\u002F2016",
+          115
+        ]
+      ],
+      "name": "Theater Arlecchino",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "forExport": true,
+    "renderTo": "container-3157"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "I.16.1.0011 Anzahl Vorstellungen: Theater Basel, ausgewählte Bühnen und Kleintheater"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "max": 200000
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Jahresbericht Theater Basel, Informationen der Bühnen und Kleintheater"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "x": 45,
+    "y": 35,
+    "itemWidth": 200,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "filename": "I.16.1.0011"
+  }
+}

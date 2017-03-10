@@ -1,0 +1,205 @@
+{
+  "series": [
+    {
+      "color": "#b475ab",
+      "data": [
+        [
+          "zu Fuss",
+          49.7
+        ],
+        [
+          "Velo",
+          7.6
+        ],
+        [
+          "MIV",
+          23.1
+        ],
+        [
+          "ÖV",
+          18.6
+        ],
+        [
+          "Übrige Verkehrsmittel",
+          1
+        ]
+      ],
+      "name": "in % der Anzahl Etappen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b2c4cb",
+      "data": [
+        [
+          "zu Fuss",
+          41.7
+        ],
+        [
+          "Velo",
+          7
+        ],
+        [
+          "MIV",
+          30.4
+        ],
+        [
+          "ÖV",
+          19.1
+        ],
+        [
+          "Übrige Verkehrsmittel",
+          2
+        ]
+      ],
+      "name": "in % der Unterwegszeit",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#cd9c00",
+      "data": [
+        [
+          "zu Fuss",
+          7.1
+        ],
+        [
+          "Velo",
+          3.7
+        ],
+        [
+          "MIV",
+          55.7
+        ],
+        [
+          "ÖV",
+          31.8
+        ],
+        [
+          "Übrige Verkehrsmittel",
+          1.7
+        ]
+      ],
+      "name": "in % der Tagesdistanz",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickColor": "#FFFFFF"
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {}
+                }
+    },
+    "type": "column",
+    "inverted": false,
+    "forExport": true,
+    "renderTo": "container-5039"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "I.11.6.0002 Anteile der Verkehrsmittel für die Agglomeration Basel-Stadt 2010"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "yAxis": {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    },
+    "max": 100
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Bundesamt für Raumentwicklung, Mikrozensus zum Verkehrsverhalten"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "x": 35,
+    "y": 55,
+    "itemWidth": 300,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": "I.11.6.0002"
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "series": [
+    {
+      "color": "#d7e9d2",
+      "index": 0,
+      "legendIndex": 0,
+      "data": [
+        [
+          "Basel",
+          79.4
+        ],
+        [
+          "Zürich",
+          80.4
+        ],
+        [
+          "Genf",
+          82.9
+        ],
+        [
+          "Basel-Landschaft",
+          77.4
+        ],
+        [
+          "Aargau",
+          77.9
+        ],
+        [
+          "Schweiz",
+          80.7
+        ]
+      ],
+      "name": "1 Jahr",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73ba7c",
+      "index": 1,
+      "legendIndex": 1,
+      "data": [
+        [
+          "Basel",
+          66.5
+        ],
+        [
+          "Zürich",
+          69.6
+        ],
+        [
+          "Genf",
+          74.4
+        ],
+        [
+          "Basel-Landschaft",
+          70.2
+        ],
+        [
+          "Aargau",
+          68.3
+        ],
+        [
+          "Schweiz",
+          69.8
+        ]
+      ],
+      "name": "2 Jahre",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007a2f",
+      "index": 2,
+      "legendIndex": 2,
+      "data": [
+        [
+          "Basel",
+          61.4
+        ],
+        [
+          "Zürich",
+          65.3
+        ],
+        [
+          "Genf",
+          64.1
+        ],
+        [
+          "Basel-Landschaft",
+          64.7
+        ],
+        [
+          "Aargau",
+          67.7
+        ],
+        [
+          "Schweiz",
+          65.8
+        ]
+      ],
+      "name": "3 Jahre",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#0b3b19",
+      "index": 3,
+      "legendIndex": 3,
+      "data": [
+        [
+          "Basel",
+          57.9
+        ],
+        [
+          "Zürich",
+          60.7
+        ],
+        [
+          "Genf",
+          61.4
+        ],
+        [
+          "Basel-Landschaft",
+          59.9
+        ],
+        [
+          "Aargau",
+          58.3
+        ],
+        [
+          "Schweiz",
+          60.6
+        ]
+      ],
+      "name": "4 Jahre",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#4f6228",
+      "index": 4,
+      "legendIndex": 4,
+      "data": [
+        [
+          "Basel",
+          48.3
+        ],
+        [
+          "Zürich",
+          50
+        ],
+        [
+          "Genf",
+          51.8
+        ],
+        [
+          "Basel-Landschaft",
+          50.9
+        ],
+        [
+          "Aargau",
+          50
+        ],
+        [
+          "Schweiz",
+          50
+        ]
+      ],
+      "name": "5 Jahre",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickColor": "#FFFFFF"
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {}
+                }
+    },
+    "type": "column",
+    "inverted": false,
+    "forExport": true,
+    "renderTo": "container-2502"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "I.03.0.0001 Überlebensraten neugegründeter Unternehmen 2008 in % - Basel im Vergleich mit ZH, GE, BL, AG, CH"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "yAxis": {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Bundesamt für Statistik BFS, UDEMO"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "x": 35,
+    "y": 65,
+    "itemWidth": 80,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": "I.03.0.0001"
+  }
+}

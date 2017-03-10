@@ -1,0 +1,91 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h438v291H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M37 58h438v291H37z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M40.5 58v291m62-291v291m61-291v291m61-291v291m62-291v291m61-291v291m61-291v291m62-291v291"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M37 349.5h438m-438-58h438m-438-58h438m-438-59h438m-438-58h438m-438-59h438"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M37 58h438v291H37z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M37 349.5h438"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M37 58v291"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(37 58)" clip-path="url(#a)">
+            <path fill="none" d="M4.294 139.68l61.345 5.82 61.344 40.74h61.345l61.344-64.02 61.345 29.1 61.344 5.82 61.345 11.64" class="highcharts-graph" stroke="#73ba7c" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.706 139.68h10l61.345 5.82 61.344 40.74h61.345l61.344-64.02 61.345 29.1 61.344 5.82 61.345 11.64h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#73ba7c" d="M45 198a4 4 0 1 1 0-.004zm61 6a4 4 0 1 1 0-.004zm61 40a4 4 0 1 1 0-.004zm62 0a4 4 0 1 1 0-.004zm61-64a4 4 0 1 1 0-.004zm62 29a4 4 0 1 1 0-.004zm61 6a4 4 0 1 1 0-.004zm61 12a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>I.04.0.0004 Anzahl durch BaselArea unterstützte internationaler</tspan><tspan dy="17" x="10">Ansiedlungen</tspan><title>I.04.0.0004 Anzahl durch BaselArea unterstützte internationaler Ansiedlungen</title>
+    </text>
+    <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(32 165)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">26</tspan><tspan x="5" y="16">26</tspan>
+        </text>
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(457 194)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">21</tspan><tspan x="5" y="16">21</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="41.294" y="368">
+            2008
+        </text>
+        <text x="102.639" y="368">
+            2009
+        </text>
+        <text x="163.983" y="368">
+            2010
+        </text>
+        <text x="225.328" y="368">
+            2011
+        </text>
+        <text x="286.672" y="368">
+            2012
+        </text>
+        <text x="348.017" y="368">
+            2013
+        </text>
+        <text x="409.361" y="368">
+            2014
+        </text>
+        <text x="462.781" y="368">
+            2015
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="22" y="354">
+            <tspan>0</tspan>
+        </text>
+        <text x="22" y="295">
+            <tspan>10</tspan>
+        </text>
+        <text x="22" y="237">
+            <tspan>20</tspan>
+        </text>
+        <text x="22" y="179">
+            <tspan>30</tspan>
+        </text>
+        <text x="22" y="121">
+            <tspan>40</tspan>
+        </text>
+        <text x="22" y="63">
+            <tspan>50</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: BaselArea</tspan>
+    </text>
+</svg>

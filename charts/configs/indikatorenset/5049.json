@@ -1,0 +1,258 @@
+{
+  "series": [
+    {
+      "color": "#cd9c00",
+      "data": [
+        [
+          "2003",
+          300
+        ],
+        [
+          "2005",
+          254.807692307692
+        ],
+        [
+          "2007",
+          305.813953488372
+        ],
+        [
+          "2011",
+          357.619047619047
+        ],
+        [
+          "2015",
+          433.529411764705
+        ]
+      ],
+      "name": "Schweiz",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#9f7c5a",
+      "data": [
+        [
+          "2003",
+          51.010101010101
+        ],
+        [
+          "2005",
+          44.230769230769
+        ],
+        [
+          "2007",
+          39.53488372093
+        ],
+        [
+          "2011",
+          58.571428571428
+        ],
+        [
+          "2015",
+          64.117647058823
+        ]
+      ],
+      "name": "Ausland",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b00000",
+      "data": [
+        [
+          "2003",
+          49.268292682926
+        ],
+        [
+          "2005",
+          38.914027149321
+        ],
+        [
+          "2007",
+          36.842105263157
+        ],
+        [
+          "2011",
+          56.983240223463
+        ],
+        [
+          "2015",
+          60.416666666666
+        ]
+      ],
+      "name": "18-29 J.",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#45381d",
+      "data": [
+        [
+          "2003",
+          38.793103448275
+        ],
+        [
+          "2005",
+          37.219730941704
+        ],
+        [
+          "2007",
+          37.5
+        ],
+        [
+          "2011",
+          51.176470588235
+        ],
+        [
+          "2015",
+          51.26050420168
+        ]
+      ],
+      "name": "30-39 J.",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#77933c",
+      "data": [
+        [
+          "2003",
+          45.5938697318
+        ],
+        [
+          "2005",
+          32.764505119453
+        ],
+        [
+          "2007",
+          37.339055793991
+        ],
+        [
+          "2011",
+          58.649789029535
+        ],
+        [
+          "2015",
+          54.06976744186
+        ]
+      ],
+      "name": "40-49 J.",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickColor": "#FFFFFF"
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {}
+                }
+    },
+    "type": "column",
+    "inverted": false,
+    "forExport": true,
+    "renderTo": "container-5049"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "LP.7.29.2 Anteil Befragter, der mit Einrichtungen und Angeboten für behinderte Menschen eher oder sehr zufrieden ist"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "«Wie zufrieden sind Sie mit Angeboten und Einrichtungen für behinderte Menschen?»",
+    "align": "left"
+  },
+  "yAxis": {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    },
+    "max": 100
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_19"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "x": 0,
+    "y": 65,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": "I.50.1.0054"
+  }
+}

@@ -1,0 +1,139 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h416v278H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M59 58h416v278H59z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M62.5 58v278m20-278v278m21-278v278m20-278v278m21-278v278m20-278v278m20-278v278m21-278v278m20-278v278m21-278v278m20-278v278m20-278v278m21-278v278m20-278v278m21-278v278m20-278v278m20-278v278m21-278v278m20-278v278m21-278v278m20-278v278"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M59 336.5h416m-416-69h416m-416-70h416m-416-69h416m-416-71h416"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M59 58h416v278H59z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M59 336.5h416"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M59 58v278"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(59 58)" clip-path="url(#a)">
+            <path fill="none" d="M4.078 214.116l101.961 16.346L208 235.244l101.96 9.396 101.962 5.977" class="highcharts-graph" stroke="#b00000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.922 214.116h10l101.961 16.346L208 235.244l101.96 9.396 101.962 5.977h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(59 58)" clip-path="url(#a)">
+            <path fill="none" d="M4.078 271.606l101.961.556 101.961.834 101.96.278 101.962.278" class="highcharts-graph" stroke="#672773" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.922 271.606h10l101.961.556 101.961.834 101.96.278 101.962.278h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="translate(59 58)" clip-path="url(#a)">
+            <path fill="none" d="M4.078 169.58l101.961 32.526 101.961.278 101.96 13.066 101.962 6.394" class="highcharts-graph" stroke="#71a3b5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.922 169.58h10l101.961 32.526 101.961.278 101.96 13.066 101.962 6.394h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>LP.8.34.3 Entwicklung der Schadstofffrachten (NOX, PM10,</tspan><tspan dy="17" x="10">VOC) in Tonnen pro Jahr</tspan><title>LP.8.34.3 Entwicklung der Schadstofffrachten (NOX, PM10, VOC) in Tonnen pro Jahr</title>
+    </text>
+    <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(54 244)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">NOx-Emissionen</tspan><tspan x="5" y="16">NOx-Emissionen</tspan>
+        </text>
+    </g>
+    <g class="highcharts-data-labels highcharts-series-1 highcharts-line-series highcharts-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(54 302)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">PM10-Emissionen</tspan><tspan x="5" y="16">PM10-Emissionen</tspan>
+        </text>
+    </g>
+    <g class="highcharts-data-labels highcharts-series-2 highcharts-line-series highcharts-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(54 200)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">VOC-Emissionen</tspan><tspan x="5" y="16">VOC-Emissionen</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="65.671" transform="rotate(-45 65.671 352)" y="352">
+            <tspan>1995</tspan>
+        </text>
+        <text x="86.063" transform="rotate(-45 86.063 352)" y="352">
+            <tspan>1996</tspan>
+        </text>
+        <text x="106.455" transform="rotate(-45 106.455 352)" y="352">
+            <tspan>1997</tspan>
+        </text>
+        <text x="126.848" transform="rotate(-45 126.848 352)" y="352">
+            <tspan>1998</tspan>
+        </text>
+        <text x="147.24" transform="rotate(-45 147.24 352)" y="352">
+            <tspan>1999</tspan>
+        </text>
+        <text x="167.632" transform="rotate(-45 167.632 352)" y="352">
+            <tspan>2000</tspan>
+        </text>
+        <text x="188.024" transform="rotate(-45 188.024 352)" y="352">
+            <tspan>2001</tspan>
+        </text>
+        <text x="208.416" transform="rotate(-45 208.416 352)" y="352">
+            <tspan>2002</tspan>
+        </text>
+        <text x="228.808" transform="rotate(-45 228.808 352)" y="352">
+            <tspan>2003</tspan>
+        </text>
+        <text x="249.201" transform="rotate(-45 249.2 352)" y="352">
+            <tspan>2004</tspan>
+        </text>
+        <text x="269.593" transform="rotate(-45 269.593 352)" y="352">
+            <tspan>2005</tspan>
+        </text>
+        <text x="289.985" transform="rotate(-45 289.985 352)" y="352">
+            <tspan>2006</tspan>
+        </text>
+        <text x="310.377" transform="rotate(-45 310.377 352)" y="352">
+            <tspan>2007</tspan>
+        </text>
+        <text x="330.769" transform="rotate(-45 330.77 352)" y="352">
+            <tspan>2008</tspan>
+        </text>
+        <text x="351.161" transform="rotate(-45 351.161 352)" y="352">
+            <tspan>2009</tspan>
+        </text>
+        <text x="371.554" transform="rotate(-45 371.554 352)" y="352">
+            <tspan>2010</tspan>
+        </text>
+        <text x="391.946" transform="rotate(-45 391.946 352)" y="352">
+            <tspan>2011</tspan>
+        </text>
+        <text x="412.338" transform="rotate(-45 412.338 352)" y="352">
+            <tspan>2012</tspan>
+        </text>
+        <text x="432.73" transform="rotate(-45 432.73 352)" y="352">
+            <tspan>2013</tspan>
+        </text>
+        <text x="453.122" transform="rotate(-45 453.122 352)" y="352">
+            <tspan>2014</tspan>
+        </text>
+        <text x="473.514" transform="rotate(-45 473.514 352)" y="352">
+            <tspan>2015</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="44" y="341">
+            <tspan>0</tspan>
+        </text>
+        <text x="44" y="271">
+            <tspan>2 500</tspan>
+        </text>
+        <text x="44" y="202">
+            <tspan>5 000</tspan>
+        </text>
+        <text x="44" y="132">
+            <tspan>7 500</tspan>
+        </text>
+        <text x="44" y="63">
+            <tspan>10 000</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Lufthygieneamt beider Basel, Daten aus Emissionskataster</tspan>
+    </text>
+</svg>

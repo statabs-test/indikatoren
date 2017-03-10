@@ -1,0 +1,258 @@
+{
+  "series": [
+    {
+      "color": "#cd9c00",
+      "data": [
+        [
+          "2003",
+          94.03563129357
+        ],
+        [
+          "2005",
+          94.615384615384
+        ],
+        [
+          "2007",
+          94.064613072877
+        ],
+        [
+          "2011",
+          92.396313364055
+        ],
+        [
+          "2015",
+          91.147786946736
+        ]
+      ],
+      "name": "Schweiz",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#9f7c5a",
+      "data": [
+        [
+          "2003",
+          92.233009708737
+        ],
+        [
+          "2005",
+          94.761904761904
+        ],
+        [
+          "2007",
+          96.629213483146
+        ],
+        [
+          "2011",
+          95.327102803738
+        ],
+        [
+          "2015",
+          91.329479768786
+        ]
+      ],
+      "name": "Ausland",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b00000",
+      "data": [
+        [
+          "2003",
+          96.153846153846
+        ],
+        [
+          "2005",
+          95.964125560538
+        ],
+        [
+          "2007",
+          96.226415094339
+        ],
+        [
+          "2011",
+          96.648044692737
+        ],
+        [
+          "2015",
+          95.876288659793
+        ]
+      ],
+      "name": "18-29 J.",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ff5050",
+      "data": [
+        [
+          "2003",
+          95.726495726495
+        ],
+        [
+          "2005",
+          95.575221238938
+        ],
+        [
+          "2007",
+          95.505617977528
+        ],
+        [
+          "2011",
+          92.98245614035
+        ],
+        [
+          "2015",
+          91.666666666666
+        ]
+      ],
+      "name": "30-39 J.",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#45381d",
+      "data": [
+        [
+          "2003",
+          95.112781954887
+        ],
+        [
+          "2005",
+          96.938775510204
+        ],
+        [
+          "2007",
+          95.358649789029
+        ],
+        [
+          "2011",
+          95.358649789029
+        ],
+        [
+          "2015",
+          92.528735632183
+        ]
+      ],
+      "name": "40-49 J.",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickColor": "#FFFFFF"
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {}
+                }
+    },
+    "type": "column",
+    "inverted": false,
+    "forExport": true,
+    "renderTo": "container-2955"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "I.50.1.0039 Anteil Befragte, die sich im Alltag eher oder sehr sicher fühlen nach Heimat, Alter und Geschlecht"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Wie sicher fühlen Sie sich ganz allgemein im Alltag?",
+    "align": "left"
+  },
+  "yAxis": {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    },
+    "max": 100
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9a"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "x": 0,
+    "y": 65,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": "I.50.1.0039"
+  }
+}

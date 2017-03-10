@@ -1,0 +1,100 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h410v258H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M65 58h410v258H65z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M105.5 58v258m41-258v258m41-258v258m41-258v258m41-258v258m41-258v258m41-258v258m41-258v258m41-258v258m41-258v258M64.5 58v258"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M65 316.5h410m-410-52h410m-410-51h410m-410-52h410m-410-51h410m-410-53h410"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M65 58h410v258H65z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M65 316.5h410"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M65 58v258"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(65 58)" clip-path="url(#a)">
+            <path fill="none" d="M20.5 152.859l41-.842 41 1.163 41 .162 41 3.99 41-1.825 41-2.154 41 43.754 41 .394 41 .191" class="highcharts-graph" stroke="#44ab2b" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M10.5 152.859h10l41-.842 41 1.163 41 .162 41 3.99 41-1.825 41-2.154 41 43.754 41 .394 41 .191h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(65 58)" clip-path="url(#a)">
+            <path fill="none" d="M20.5 29.514l41 67.163 41-33.043 41-27.31 41 10.719 41-1.484 41 3.734 41 73.236 41-3.934 41 4.734" class="highcharts-graph" stroke="#b00000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M10.5 29.514h10l41 67.163 41-33.043 41-27.31 41 10.719 41-1.484 41 3.734 41 73.236 41-3.934 41 4.734h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>I.08.1.0030 Strom- und Wärmeverbrauch der kantonalen</tspan><tspan dy="17" x="10">Bauten Basel-Stadt</tspan><title>I.08.1.0030 Strom- und Wärmeverbrauch der kantonalen Bauten Basel-Stadt</title>
+    </text>
+    <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(414 223)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">Elektrizität</tspan><tspan x="5" y="16">Elektrizität</tspan>
+        </text>
+    </g>
+    <g class="highcharts-data-labels highcharts-series-1 highcharts-line-series highcharts-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(431 148)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">Wärme</tspan><tspan x="5" y="16">Wärme</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="88.093" transform="rotate(-45 88.093 332)" y="332">
+            <tspan>2005/2006</tspan>
+        </text>
+        <text x="129.093" transform="rotate(-45 129.093 332)" y="332">
+            <tspan>2006/2007</tspan>
+        </text>
+        <text x="170.093" transform="rotate(-45 170.093 332)" y="332">
+            <tspan>2007/2008</tspan>
+        </text>
+        <text x="211.093" transform="rotate(-45 211.093 332)" y="332">
+            <tspan>2008/2009</tspan>
+        </text>
+        <text x="252.093" transform="rotate(-45 252.093 332)" y="332">
+            <tspan>2009/2010</tspan>
+        </text>
+        <text x="293.093" transform="rotate(-45 293.093 332)" y="332">
+            <tspan>2010/2011</tspan>
+        </text>
+        <text x="334.093" transform="rotate(-45 334.093 332)" y="332">
+            <tspan>2011/2012</tspan>
+        </text>
+        <text x="375.093" transform="rotate(-45 375.093 332)" y="332">
+            <tspan>2012/2013</tspan>
+        </text>
+        <text x="416.093" transform="rotate(-45 416.093 332)" y="332">
+            <tspan>2013/2014</tspan>
+        </text>
+        <text x="457.093" transform="rotate(-45 457.093 332)" y="332">
+            <tspan>2014/2015</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="50" y="321">
+            <tspan>0</tspan>
+        </text>
+        <text x="50" y="269">
+            <tspan>50 000</tspan>
+        </text>
+        <text x="50" y="217">
+            <tspan>100 000</tspan>
+        </text>
+        <text x="50" y="166">
+            <tspan>150 000</tspan>
+        </text>
+        <text x="50" y="114">
+            <tspan>200 000</tspan>
+        </text>
+        <text x="50" y="63">
+            <tspan>250 000</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: BVD BS, Hochbauamt, Fachstelle Energiemanagement</tspan>
+    </text>
+</svg>

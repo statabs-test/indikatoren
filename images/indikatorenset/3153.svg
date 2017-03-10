@@ -1,0 +1,129 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h234v428H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M47 116h428v234H47z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M47 139.5h428m-428 24h428m-428 23h428m-428 24h428m-428 23h428m-428 23h428m-428 24h428m-428 23h428m-428 24h428m-428 23h428"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M46.5 116v234m86-234v234m85-234v234m86-234v234m85-234v234m87-234v234"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M46.5 116v234m86-234v234m85-234v234m86-234v234m85-234v234m86-234v234"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M47 116h428v234H47z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M47 139.5H37m10 24H37m10 23H37m10 24H37m10 23H37m10 23H37m10 24H37m10 23H37m10 24H37m10 23H37"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M46.5 116v234"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M47 350h428"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M47 116h428"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="matrix(0 -1 -1 0 475 350)" clip-path="url(#a)">
+            <path fill="none" d="M222.3-100000H11.7" class="highcharts-graph" stroke="#7d60a0" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M212.3-100000h10H11.7h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>LP.8.35.2 Nettoschuldenquote in Promille und Nettoschulden</tspan><tspan dy="17" x="10">pro Einwohner/-in</tspan><title>LP.8.35.2 Nettoschuldenquote in Promille und Nettoschulden pro Einwohner/-in</title>
+    </text>
+    <g class="highcharts-legend" transform="translate(50 50)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="375" height="30"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
+                <tspan>NSQ in ‰ (linke Skala)</tspan>
+            </text>
+            <path fill="#71a3b5" class="highcharts-point" d="M10 7h12v12H10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1">
+            <path fill="none" d="M172.25 14h16" class="highcharts-graph" stroke="#7d60a0" stroke-width="2"/>
+            <path fill="#7d60a0" d="M184.25 14a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(172.25 3)">
+                <tspan>NS pro Kopf in Fr. (rechte Skala)</tspan>
+            </text>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="10">
+        <text x="32" y="131">
+            <tspan>2006</tspan>
+        </text>
+        <text x="32" y="155">
+            <tspan>2007</tspan>
+        </text>
+        <text x="32" y="178">
+            <tspan>2008</tspan>
+        </text>
+        <text x="32" y="201">
+            <tspan>2009</tspan>
+        </text>
+        <text x="32" y="225">
+            <tspan>2010</tspan>
+        </text>
+        <text x="32" y="248">
+            <tspan>2011</tspan>
+        </text>
+        <text x="32" y="272">
+            <tspan>2012</tspan>
+        </text>
+        <text x="32" y="295">
+            <tspan>2013</tspan>
+        </text>
+        <text x="32" y="318">
+            <tspan>2014</tspan>
+        </text>
+        <text x="32" y="342">
+            <tspan>2015</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="47" y="369">
+            <tspan>0</tspan>
+        </text>
+        <text x="132.6" y="369">
+            <tspan>3 000</tspan>
+        </text>
+        <text x="218.2" y="369">
+            <tspan>6 000</tspan>
+        </text>
+        <text x="303.8" y="369">
+            <tspan>9 000</tspan>
+        </text>
+        <text x="389.4" y="369">
+            <tspan>12 000</tspan>
+        </text>
+        <text x="458.203" y="369">
+            <tspan>15 000</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="47" y="103">
+            <tspan>0‰</tspan>
+        </text>
+        <text x="132.6" y="103">
+            <tspan>2‰</tspan>
+        </text>
+        <text x="218.2" y="103">
+            <tspan>4‰</tspan>
+        </text>
+        <text x="303.8" y="103">
+            <tspan>6‰</tspan>
+        </text>
+        <text x="389.4" y="103">
+            <tspan>8‰</tspan>
+        </text>
+        <text x="463.391" y="103">
+            <tspan>10‰</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Jahresbericht des Kantons Basel-Stadt</tspan>
+    </text>
+</svg>

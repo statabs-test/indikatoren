@@ -1,0 +1,95 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M47 58h428v277H47z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M47 83.5h428m-428 25h428m-428 26h428m-428 25h428m-428 25h428m-428 25h428m-428 25h428m-428 25h428m-428 26h428m-428 25h428m-428 25h428"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M46.5 58v277m71-277v277m72-277v277m71-277v277m71-277v277m72-277v277m72-277v277"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M47 58h428v277H47z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M47 83.5H37m10 25H37m10 26H37m10 25H37m10 25H37m10 25H37m10 25H37m10 25H37m10 26H37m10 25H37m10 25H37"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M46.5 58v277"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M47 335h428"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-markers highcharts-series-0 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#8b2223" d="M401 67a4 4 0 1 1 .004 0zm6 25a4 4 0 1 1 .004 0zm7 25a4 4 0 1 1 .004 0zm8 26a4 4 0 1 1 .004 0zm-165 25a4 4 0 1 1 .004 0zm21 25a4 4 0 1 1 .004 0zm-5 25a4 4 0 1 1 .004 0zm6 25a4 4 0 1 1 .004 0zm84 26a4 4 0 1 1 .004 0zm-100 25a4 4 0 1 1 .004 0zm1 25a4 4 0 1 1 .004 0z" class="highcharts-point"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>I.18.1.0013 Entwicklung der Staatsausgaben im Bereich</tspan><tspan dy="17" x="10">Gesundheit in 1000 Franken</tspan><title>I.18.1.0013 Entwicklung der Staatsausgaben im Bereich Gesundheit in 1000 Franken</title>
+    </text>
+    <g class="highcharts-data-labels highcharts-series-0 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
+        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="700" color="#000" transform="translate(406 90)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">991605.65012</tspan><tspan x="5" y="15">991605.65012</tspan>
+        </text>
+        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="700" color="#000" transform="translate(269 287)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">607409.947078125</tspan><tspan x="5" y="15">607409.947078125</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="10">
+        <text x="32" y="74">
+            <tspan>2004</tspan>
+        </text>
+        <text x="32" y="99">
+            <tspan>2005</tspan>
+        </text>
+        <text x="32" y="124">
+            <tspan>2006</tspan>
+        </text>
+        <text x="32" y="150">
+            <tspan>2007</tspan>
+        </text>
+        <text x="32" y="175">
+            <tspan>2008</tspan>
+        </text>
+        <text x="32" y="200">
+            <tspan>2009</tspan>
+        </text>
+        <text x="32" y="225">
+            <tspan>2010</tspan>
+        </text>
+        <text x="32" y="250">
+            <tspan>2011</tspan>
+        </text>
+        <text x="32" y="276">
+            <tspan>2012</tspan>
+        </text>
+        <text x="32" y="301">
+            <tspan>2013</tspan>
+        </text>
+        <text x="32" y="326">
+            <tspan>2014</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="47" y="354">
+            <tspan>0%</tspan>
+        </text>
+        <text x="118.333" y="354">
+            <tspan>20 000</tspan><tspan dy="14" x="118.333">000%</tspan><title>20 000 000%</title>
+        </text>
+        <text x="189.667" y="354">
+            <tspan>40 000</tspan><tspan dy="14" x="189.667">000%</tspan><title>40 000 000%</title>
+        </text>
+        <text x="261" y="354">
+            <tspan>60 000</tspan><tspan dy="14" x="261">000%</tspan><title>60 000 000%</title>
+        </text>
+        <text x="332.333" y="354">
+            <tspan>80 000</tspan><tspan dy="14" x="332.333">000%</tspan><title>80 000 000%</title>
+        </text>
+        <text x="403.667" y="354">
+            <tspan>100 000</tspan><tspan dy="14" x="403.667">000%</tspan><title>100 000 000%</title>
+        </text>
+        <text x="457.167" y="354">
+            <tspan>120 …</tspan><title>120 000 000%</title>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Eidgenössische Finanzverwaltung</tspan>
+    </text>
+</svg>

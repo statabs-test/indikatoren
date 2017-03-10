@@ -1,0 +1,97 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h422v308H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M53 41h422v308H53z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M56.5 41v308m46-308v308m46-308v308m46-308v308m46-308v308m46-308v308m46-308v308m46-308v308m46-308v308m46-308v308"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M53 349.5h422m-422-62h422m-422-61h422m-422-62h422m-422-61h422m-422-63h422"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M53 41h422v308H53z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M53 349.5h422"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M53 41v308"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(53 41)" clip-path="url(#a)">
+            <path fill="none" d="M4.137 147.84l45.97-36.96 45.97 12.32h91.939l45.969-12.32 45.97 18.48 45.969-12.32 45.97 12.32 45.969-18.48" class="highcharts-graph" stroke="#b00000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.863 147.84h10l45.97-36.96 45.97 12.32h91.939l45.969-12.32 45.97 18.48 45.969-12.32 45.97 12.32 45.969-18.48h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#b00000" d="M61 189a4 4 0 1 1 0-.004zm46-37a4 4 0 1 1 0-.004zm46 12a4 4 0 1 1 0-.004zm46 0a4 4 0 1 1 0-.004zm46 0a4 4 0 1 1 0-.004zm45-12a4 4 0 1 1 0-.004zm46 18a4 4 0 1 1 0-.004zm46-12a4 4 0 1 1 0-.004zm46 12a4 4 0 1 1 0-.004zm46-18a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>LP.7.25.1 Verhältnis der Löhne von Frauen und Männern</tspan>
+    </text>
+    <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(48 156)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">76%</tspan><tspan x="5" y="16">76%</tspan>
+        </text>
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(448 119)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">82%</tspan><tspan x="5" y="16">82%</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="57.137" y="368">
+            1996
+        </text>
+        <text x="103.107" y="368">
+            1998
+        </text>
+        <text x="149.076" y="368">
+            2000
+        </text>
+        <text x="195.046" y="368">
+            2002
+        </text>
+        <text x="241.015" y="368">
+            2004
+        </text>
+        <text x="286.985" y="368">
+            2006
+        </text>
+        <text x="332.954" y="368">
+            2008
+        </text>
+        <text x="378.924" y="368">
+            2010
+        </text>
+        <text x="424.893" y="368">
+            2012
+        </text>
+        <text x="462.781" y="368">
+            2014
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="38" y="354">
+            <tspan>50%</tspan>
+        </text>
+        <text x="38" y="292">
+            <tspan>60%</tspan>
+        </text>
+        <text x="38" y="230">
+            <tspan>70%</tspan>
+        </text>
+        <text x="38" y="169">
+            <tspan>80%</tspan>
+        </text>
+        <text x="38" y="107">
+            <tspan>90%</tspan>
+        </text>
+        <text x="38" y="46">
+            <tspan>100%</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Bundesamt für Statistik BFS, Lohnstrukturerhebung (LSE)</tspan>
+    </text>
+</svg>

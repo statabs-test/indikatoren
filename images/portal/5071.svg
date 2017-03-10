@@ -1,0 +1,90 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h422v262H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M53 87h422v262H53z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M56.5 87v262m83-262v262m83-262v262m82-262v262m83-262v262m83-262v262"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M53 349.5h422m-422-65h422m-422-66h422m-422-65h422m-422-67h422"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M53 87h422v262H53z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M53 349.5h422"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M53 87v262"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(53 87)" clip-path="url(#a)">
+            <path fill="none" d="M4.137 118.162l82.745-10.742 82.745 3.144 82.746 4.716 82.745-12.838 82.745-.262" class="highcharts-graph" stroke="#2f656b" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.863 118.162h10l82.745-10.742 82.745 3.144 82.746 4.716 82.745-12.838 82.745-.262h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(53 87)" clip-path="url(#a)">
+            <path fill="none" d="M4.137 156.152l82.745-1.834 82.745-5.764 82.746-7.336 82.745 6.812 82.745 17.03" class="highcharts-graph" stroke="#83522e" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.863 156.152h10l82.745-1.834 82.745-5.764 82.746-7.336 82.745 6.812 82.745 17.03h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>I.14.4.0047 Anteil kariesfreier Kinder</tspan>
+    </text>
+    <g class="highcharts-legend" transform="translate(45 45)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="312" height="30"/>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0">
+            <path fill="none" d="M8 14h16" class="highcharts-graph" stroke="#2f656b" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
+                <tspan>Im Alter von 6 Jahren</tspan>
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1">
+            <path fill="none" d="M162.953 14h16" class="highcharts-graph" stroke="#83522e" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(162.953 3)">
+                <tspan>Im Alter von 12 Jahren</tspan>
+            </text>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="57.137" y="368">
+            <tspan>2010</tspan>
+        </text>
+        <text x="139.882" y="368">
+            <tspan>2011</tspan>
+        </text>
+        <text x="222.627" y="368">
+            <tspan>2012</tspan>
+        </text>
+        <text x="305.373" y="368">
+            <tspan>2013</tspan>
+        </text>
+        <text x="388.118" y="368">
+            <tspan>2014</tspan>
+        </text>
+        <text x="462.781" y="368">
+            <tspan>2015</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="38" y="354">
+            <tspan>0%</tspan>
+        </text>
+        <text x="38" y="288">
+            <tspan>25%</tspan>
+        </text>
+        <text x="38" y="223">
+            <tspan>50%</tspan>
+        </text>
+        <text x="38" y="157">
+            <tspan>75%</tspan>
+        </text>
+        <text x="38" y="92">
+            <tspan>100%</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Universitäre Zentrum für Zahnmedizin Basel, Schulzahnklinik</tspan>
+    </text>
+</svg>

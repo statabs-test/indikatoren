@@ -1,0 +1,89 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h306v304H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M171 58h304v306H171z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M171 63.5h304m-304 22h304m-304 22h304m-304 22h304m-304 22h304m-304 22h304m-304 22h304m-304 21h304m-304 22h304m-304 22h304m-304 22h304m-304 22h304m-304 22h304m-304 22h304"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M170.5 58v306m152-306v306m153-306v306"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M171 58h304v306H171z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M171 63.5h-10m10 22h-10m10 22h-10m10 22h-10m10 22h-10m10 22h-10m10 22h-10m10 21h-10m10 22h-10m10 22h-10m10 22h-10m10 22h-10m10 22h-10m10 22h-10"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M170.5 58v306"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M171 364h304"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="matrix(0 -1 -1 0 475 364)" clip-path="url(#a)">
+            <path fill="#44ab2b" class="highcharts-point" stroke="#fff" d="M295.5 35.5h10v269h-10zm-11 29h10v240h-10zm-11 79h10v161h-10zm-11 55h10v106h-10zm-11 9h10v97h-10zm-11 4h10v93h-10zm-11 6h10v87h-10zm-11 0h10v87h-10zm-11 0h10v87h-10zm-11 12h10v75h-10zm-11 1h10v74h-10zm-11 5h10v69h-10zm-11 5h10v64h-10zm-11 2h10v62h-10zm-10 9h10v53h-10zm-11 3h10v50h-10zm-11 0h10v50h-10zm-11 1h10v49h-10zm-11 1h10v48h-10zm-11 0h10v48h-10zm-11 1h10v47h-10zm-11 0h10v47h-10zm-11 1h10v46h-10zm-11 2h10v44h-10zm-11 5h10v39h-10zm-11 0h10v39h-10zm-11 4h10v35h-10zm-11 0h10v35h-10z"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>LP.6.22.2 Austellungen mit hohem Besucheraufkommen in</tspan><tspan dy="17" x="10">Basler Museen</tspan><title>LP.6.22.2 Austellungen mit hohem Besucheraufkommen in Basler Museen</title>
+    </text>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="156" y="68">
+            <tspan>Tutanchamun (2004)</tspan>
+        </text>
+        <text x="156" y="90">
+            <tspan>Paul Gauguin (2015)</tspan>
+        </text>
+        <text x="156" y="112">
+            <tspan>Wien 1900 -Klimt. Schiele u…</tspan><title>Wien 1900 - Klimt. Schiele und ihre Zeit (2010/11)</title>
+        </text>
+        <text x="156" y="134">
+            <tspan>Monet (2002)</tspan>
+        </text>
+        <text x="156" y="155">
+            <tspan>Munch (2007)</tspan>
+        </text>
+        <text x="156" y="177">
+            <tspan>Gerhard Richter (2014)</tspan>
+        </text>
+        <text x="156" y="199">
+            <tspan>Ferdinand Hodler (2013)</tspan>
+        </text>
+        <text x="156" y="221">
+            <tspan>Die Picassos sind da! (2013)</tspan>
+        </text>
+        <text x="156" y="243">
+            <tspan>Gustave Courbet (2014/15)</tspan>
+        </text>
+        <text x="156" y="265">
+            <tspan>Tiefsee (2007/2008)</tspan>
+        </text>
+        <text x="156" y="287">
+            <tspan>Basquiat (2010)</tspan>
+        </text>
+        <text x="156" y="308">
+            <tspan>Bonnard (2012)</tspan>
+        </text>
+        <text x="156" y="330">
+            <tspan>Holbein (2005)</tspan>
+        </text>
+        <text x="156" y="352">
+            <tspan>Odilon Redon (2014)</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="171" y="383">
+            <tspan>0</tspan>
+        </text>
+        <text x="323" y="383">
+            <tspan>350 000</tspan>
+        </text>
+        <text x="455.141" y="383">
+            <tspan>700 000</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Präsidialdepartement des Kantons Basel-Stadt, Abteilung Kultur</tspan>
+    </text>
+</svg>

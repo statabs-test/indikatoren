@@ -1,0 +1,116 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h422v252H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M53 112h422v252H53z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M136.5 112v252m85-252v252m84-252v252m85-252v252m84-252v252m-422-252v252"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M53 364.5h422m-422-63h422m-422-63h422m-422-63h422m-422-64h422"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M53 112h422v252H53z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M136.5 364v10m85-10v10m84-10v10m85-10v10m85-10v10m-423-10v10"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M53 364.5h422"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M53 112v252"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 112)" clip-path="url(#a)">
+            <path fill="#cd9c00" class="highcharts-point" stroke="#fff" d="M17.5 80.5h9v172h-9zm84-1h9v173h-9zm85 12h9v161h-9zm84-33h9v194h-9zm84 10h9v184h-9z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 112)" clip-path="url(#a)">
+            <path fill="#9f7c5a" class="highcharts-point" stroke="#fff" d="M27.5 94.5h9v158h-9zm84-33h9v191h-9zm85 15h9v176h-9zm84-29h9v205h-9zm85 3h9v202h-9z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 112)" clip-path="url(#a)">
+            <path fill="#b00000" class="highcharts-point" stroke="#fff" d="M37.5 113.5h9v139h-9zm85-21h9v160h-9zm84 10h9v150h-9zm84-40h9v190h-9zm85-13h9v203h-9z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 112)" clip-path="url(#a)">
+            <path fill="#45381d" class="highcharts-point" stroke="#fff" d="M47.5 74.5h9v178h-9zm85-6h9v184h-9zm84 14h9v170h-9zm84-25h9v195h-9zm85-2h9v197h-9z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 112)" clip-path="url(#a)">
+            <path fill="#71a3b5" class="highcharts-point" stroke="#fff" d="M57.5 83.5h9v169h-9zm85-10h9v179h-9zm84 4h9v175h-9zm85-27h9v202h-9zm84 9h9v193h-9z"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>I.50.1.0053 Positive Beurteilung der kantonalen Verwaltung</tspan><tspan dy="17" x="10">nach Heimat, Alter und Geschlecht</tspan><title>I.50.1.0053 Positive Beurteilung der kantonalen Verwaltung nach Heimat, Alter und Geschlecht</title>
+    </text>
+    <text x="10" class="highcharts-subtitle" y="57" color="#000" font-weight="400">
+        <tspan>«Denken Sie einmal an den letzten Kontakt, den Sie mit der kantonalen</tspan><tspan dy="15" x="10">Verwaltung gehabt haben. Wie ist dieser Kontakt verlaufen?»</tspan><title>«Denken Sie einmal an den letzten Kontakt, den Sie mit der kantonalen Verwaltung gehabt haben. Wie ist dieser Kontakt verlaufen?»</title>
+    </text>
+    <g class="highcharts-legend" transform="translate(10 75)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="418" height="25"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
+                Schweiz
+            </text>
+            <path fill="#cd9c00" class="highcharts-point" d="M10 7h12v12H10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(93.656 3)">
+                Ausland
+            </text>
+            <path fill="#9f7c5a" class="highcharts-point" d="M95.656 7h12v12h-12z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(178 3)">
+                <tspan>18-29 J.</tspan>
+            </text>
+            <path fill="#b00000" class="highcharts-point" d="M180 7h12v12h-12z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(262.328 3)">
+                <tspan>30-39 J.</tspan>
+            </text>
+            <path fill="#45381d" class="highcharts-point" d="M264.328 7h12v12h-12z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(346.656 3)">
+                <tspan>40-49 J.</tspan>
+            </text>
+            <path fill="#71a3b5" class="highcharts-point" d="M348.656 7h12v12h-12z"/>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="95.2" y="383">
+            <tspan>2003</tspan>
+        </text>
+        <text x="179.6" y="383">
+            <tspan>2005</tspan>
+        </text>
+        <text x="264" y="383">
+            <tspan>2007</tspan>
+        </text>
+        <text x="348.4" y="383">
+            <tspan>2011</tspan>
+        </text>
+        <text x="432.8" y="383">
+            <tspan>2015</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="38" y="369">
+            <tspan>0%</tspan>
+        </text>
+        <text x="38" y="306">
+            <tspan>25%</tspan>
+        </text>
+        <text x="38" y="243">
+            <tspan>50%</tspan>
+        </text>
+        <text x="38" y="180">
+            <tspan>75%</tspan>
+        </text>
+        <text x="38" y="117">
+            <tspan>100%</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F19a</tspan>
+    </text>
+</svg>

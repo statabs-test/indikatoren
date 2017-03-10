@@ -1,0 +1,112 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h428v291H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M47 58h428v291H47z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M50.5 58v291m47-291v291m46-291v291m47-291v291m47-291v291m46-291v291m47-291v291m47-291v291m46-291v291m47-291v291"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M47 349.5h428m-428-58h428m-428-58h428m-428-59h428m-428-58h428m-428-59h428"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M47 58h428v291H47z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M47 349.5h428"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M47 58v291"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(47 58)" clip-path="url(#a)">
+            <path fill="none" d="M4.196 140.844l46.623-1.164 46.623-18.624 46.623 2.328 46.623 32.592 46.624 5.82 46.623 7.566 46.623-46.56 46.623 24.444 46.623-8.73" class="highcharts-graph" stroke="#B00000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.804 140.844h10l46.623-1.164 46.623-18.624 46.623 2.328 46.623 32.592 46.624 5.82 46.623 7.566 46.623-46.56 46.623 24.444 46.623-8.73h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(47 58)" clip-path="url(#a)">
+            <path fill="none" d="M4.196 68.676l46.623 5.238 46.623-40.158 46.623 9.894 46.623 38.412 46.624 5.238 46.623-24.444 46.623 3.492 46.623 4.656 46.623-.582" class="highcharts-graph" stroke="#008AC3" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.804 68.676h10l46.623 5.238 46.623-40.158 46.623 9.894 46.623 38.412 46.624 5.238 46.623-24.444 46.623 3.492 46.623 4.656 46.623-.582h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="translate(47 58)" clip-path="url(#a)">
+            <path fill="none" d="M4.196 104.76l46.623 1.164 46.623-29.1 46.623 5.238 46.623 36.084 46.624 7.566 46.623-8.148 46.623-22.698 46.623 15.132 46.623-5.238" class="highcharts-graph" stroke="#3c3c3c" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.804 104.76h10l46.623 1.164 46.623-29.1 46.623 5.238 46.623 36.084 46.624 7.566 46.623-8.148 46.623-22.698 46.623 15.132 46.623-5.238h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-2 highcharts-line-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#3c3c3c" d="M55 163a4 4 0 1 1 0-.004zm46 1a4 4 0 1 1 0-.004zm47-29a4 4 0 1 1 0-.004zm47 5a4 4 0 1 1 0-.004zm46 36a4 4 0 1 1 0-.004zm47 8a4 4 0 1 1 0-.004zm46-8a4 4 0 1 1 0-.004zm47-23a4 4 0 1 1 0-.004zm47 15a4 4 0 1 1 0-.004zm46-5a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>LP.7.25.3 Arbeitnehmer mit Kaderstellen (Unternehmensleitung</tspan><tspan dy="17" x="10">oder Vorgesetztenfunktion) nach Geschlecht</tspan><title>LP.7.25.3 Arbeitnehmer mit Kaderstellen (Unternehmensleitung oder Vorgesetztenfunktion) nach Geschlecht</title>
+    </text>
+    <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(434 174)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">Frauen</tspan><tspan x="5" y="16">Frauen</tspan>
+        </text>
+    </g>
+    <g class="highcharts-data-labels highcharts-series-1 highcharts-line-series highcharts-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(431 105)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">Männer</tspan><tspan x="5" y="16">Männer</tspan>
+        </text>
+    </g>
+    <g class="highcharts-data-labels highcharts-series-2 highcharts-line-series highcharts-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(443 140)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">Total</tspan><tspan x="5" y="16">Total</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="51.196" y="368">
+            2006
+        </text>
+        <text x="97.819" y="368">
+            2007
+        </text>
+        <text x="144.442" y="368">
+            2008
+        </text>
+        <text x="191.065" y="368">
+            2009
+        </text>
+        <text x="237.688" y="368">
+            2010
+        </text>
+        <text x="284.312" y="368">
+            2011
+        </text>
+        <text x="330.935" y="368">
+            2012
+        </text>
+        <text x="377.558" y="368">
+            2013
+        </text>
+        <text x="424.181" y="368">
+            2014
+        </text>
+        <text x="462.781" y="368">
+            2015
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="32" y="354">
+            <tspan>0%</tspan>
+        </text>
+        <text x="32" y="295">
+            <tspan>10%</tspan>
+        </text>
+        <text x="32" y="237">
+            <tspan>20%</tspan>
+        </text>
+        <text x="32" y="179">
+            <tspan>30%</tspan>
+        </text>
+        <text x="32" y="121">
+            <tspan>40%</tspan>
+        </text>
+        <text x="32" y="63">
+            <tspan>50%</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Schweizerische Arbeitskräfteerhebung (SAKE)</tspan>
+    </text>
+</svg>

@@ -1,0 +1,198 @@
+{
+  "series": [
+    {
+      "color": "#73ba7c",
+      "index": 5,
+      "data": [
+        [
+          "2009",
+          1.92926045016
+        ],
+        [
+          "2013",
+          45.898700134468
+        ]
+      ],
+      "name": "Sehr zufrieden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#00b050",
+      "index": 4,
+      "data": [
+        [
+          "2009",
+          4.715969989281
+        ],
+        [
+          "2013",
+          28.059166293142
+        ]
+      ],
+      "name": "Eher zufrieden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#d99694",
+      "index": 3,
+      "data": [
+        [
+          "2009",
+          30.439442658092
+        ],
+        [
+          "2013",
+          4.482294935006
+        ]
+      ],
+      "name": "Eher unzufrieden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#c00000",
+      "index": 2,
+      "data": [
+        [
+          "2009",
+          58.520900321543
+        ],
+        [
+          "2013",
+          1.075750784401
+        ]
+      ],
+      "name": "Sehr unzufrieden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#a6a6a6",
+      "index": 1,
+      "data": [
+        [
+          "2009",
+          4.394426580921
+        ],
+        [
+          "2013",
+          20.48408785298
+        ]
+      ],
+      "name": "keine Angaben",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "column",
+    "renderTo": "container-5046",
+    "marginBottom": 75,
+    "marginTop": 75,
+    "inverted": false,
+    "forExport": true
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "I.50.2.0012 Zufriedenheit mit der aktuellen Tagesbetreuungssituation (Familienbefragung 2009, 2013)"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "«Wie zufrieden sind Sie mit der aktuellen Tagesbetreuungssituation Ihres Kindes\u002FIhrer Kinder?»",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    },
+    "max": 100
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F53"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "symbolRadius": 0,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "pointWidth": 70,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "normal"
+    }
+  },
+  "exporting": {
+    "filename": "I.50.2.0012"
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "series": [
+    {
+      "color": "#ffda80",
+      "data": [
+        [
+          "2003",
+          97.222222222222
+        ],
+        [
+          "2005",
+          98.936170212765
+        ],
+        [
+          "2007",
+          93.827160493827
+        ],
+        [
+          "2011",
+          95.522388059701
+        ],
+        [
+          "2015",
+          97.101449275362
+        ]
+      ],
+      "name": "Innenstadt",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#fabd24",
+      "data": [
+        [
+          "2003",
+          96.202531645569
+        ],
+        [
+          "2005",
+          95.936794582392
+        ],
+        [
+          "2007",
+          96.305418719211
+        ],
+        [
+          "2011",
+          97.241379310344
+        ],
+        [
+          "2015",
+          97.584541062801
+        ]
+      ],
+      "name": "Am Ring",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#cd9c00",
+      "data": [
+        [
+          "2003",
+          93.877551020408
+        ],
+        [
+          "2005",
+          96.666666666666
+        ],
+        [
+          "2007",
+          95.031055900621
+        ],
+        [
+          "2011",
+          97.674418604651
+        ],
+        [
+          "2015",
+          97.53086419753
+        ]
+      ],
+      "name": "St. Alban Breite",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#7f5f1a",
+      "data": [
+        [
+          "2003",
+          95.495495495495
+        ],
+        [
+          "2005",
+          94.782608695652
+        ],
+        [
+          "2007",
+          97.321428571428
+        ],
+        [
+          "2011",
+          99.019607843137
+        ],
+        [
+          "2015",
+          95.833333333333
+        ]
+      ],
+      "name": "St. Johann",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#948a54",
+      "data": [
+        [
+          "2003",
+          93.525179856115
+        ],
+        [
+          "2005",
+          97.560975609756
+        ],
+        [
+          "2007",
+          95.3125
+        ],
+        [
+          "2011",
+          98.333333333333
+        ],
+        [
+          "2015",
+          98.373983739837
+        ]
+      ],
+      "name": "Gundeldingen",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickColor": "#FFFFFF"
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {}
+                }
+    },
+    "type": "column",
+    "inverted": false,
+    "forExport": true,
+    "renderTo": "container-2949"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "I.50.1.0030 Anteil Befragte, die sehr oder eher gerne in ihrem Quartier\u002Fan ihrem Wohnort leben nach Wohngegend"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "«Wie gerne leben Sie insgesamt an Ihrem Wohnort?»",
+    "align": "left"
+  },
+  "yAxis": {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    },
+    "max": 100
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F2b"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "x": 0,
+    "y": 65,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": "I.50.1.0030"
+  }
+}

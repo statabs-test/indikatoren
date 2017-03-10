@@ -1,0 +1,77 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M47 92h428v257H47z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M47 105.5h428m-428 51h428m-428 52h428m-428 51h428m-428 51h428"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M46.5 92v257m214-257v257m215-257v257"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M47 92h428v257H47z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M47 105.5H37m10 51H37m10 52H37m10 51H37m10 51H37"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M46.5 92v257"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M47 349h428"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-markers highcharts-series-0 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#b475ab" d="M308 101a4 4 0 1 1 .004 0zm-15 26a4 4 0 1 1 .004 0zm-2 26a4 4 0 1 1 .004 0z" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-1 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#e7cfe2" d="M293 157l-4-4-4 4 4 4zm-2 25l-4-4-4 4 4 4zm0 26l-4-4-4 4 4 4zm4 26l-4-4-4 4 4 4zm9 26l-4-4-4 4 4 4zm4 25l-4-4-4 4 4 4zm-2 26l-4-4-4 4 4 4zm4 26l-4-4-4 4 4 4z" class="highcharts-point"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>I.13.2.0010 Anteil Empfänger/-innen von existenzsichernden</tspan><tspan dy="17" x="10">Leistungen</tspan><title>I.13.2.0010 Anteil Empfänger/-innen von existenzsichernden Leistungen</title>
+    </text>
+    <g class="highcharts-legend" transform="translate(40 50)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="368" height="30"/>
+        <g class="highcharts-legend-item highcharts-scatter-series highcharts-color-undefined highcharts-series-0">
+            <path fill="none" d="M8 14h16" class="highcharts-graph"/>
+            <path fill="#b475ab" d="M20 14a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
+                <tspan>Alte Berechnungsmethode</tspan>
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-scatter-series highcharts-color-undefined highcharts-series-1">
+            <path fill="none" d="M190.344 14h16" class="highcharts-graph"/>
+            <path fill="#e7cfe2" d="M198.344 10l4 4-4 4-4-4z" class="highcharts-point"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(190.344 3)">
+                <tspan>Neue Berechnungsmethode</tspan>
+            </text>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="10">
+        <text x="32" y="108">
+            <tspan>2006</tspan>
+        </text>
+        <text x="32" y="160">
+            <tspan>2008</tspan>
+        </text>
+        <text x="32" y="211">
+            <tspan>2010</tspan>
+        </text>
+        <text x="32" y="263">
+            <tspan>2012</tspan>
+        </text>
+        <text x="32" y="314">
+            <tspan>2014</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="47" y="368">
+            <tspan>0%</tspan>
+        </text>
+        <text x="261" y="368">
+            <tspan>1 000%</tspan>
+        </text>
+        <text x="456.375" y="368">
+            <tspan>2 000%</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="380" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Amt für Sozialbeiträge Abteilung Ergänzungsleistungen;</tspan><tspan x="10" dy="13">Bundesamt für Statistik BFS, Sozialhilfestatistik;</tspan><tspan x="10" dy="13">Statistisches Amt Basel-Stadt, Bevölkerungsstatistik</tspan>
+    </text>
+</svg>

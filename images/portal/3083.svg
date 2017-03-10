@@ -1,0 +1,74 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M47 58h428v291H47z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M47 116.5h428m-428 58h428m-428 59h428m-428 58h428m-428 58h428"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M46.5 58v291m86-291v291m85-291v291m86-291v291m85-291v291m87-291v291"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M47 58h428v291H47z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M47 116.5H37m10 58H37m10 59H37m10 58H37m10 58H37"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M46.5 58v291"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M47 349h428"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-markers highcharts-series-0 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#8b2223" d="M247 84a4 4 0 1 1 .004 0zm-15 116a4 4 0 1 1 .004 0zm-20 116a4 4 0 1 1 .004 0z" class="highcharts-point"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>I.08.5.0002 CO2-Emissionen pro Kopf in Tonnen im Kanton</tspan><tspan dy="17" x="10">Basel-Stadt</tspan><title>I.08.5.0002 CO2-Emissionen pro Kopf in Tonnen im Kanton Basel-Stadt</title>
+    </text>
+    <g class="highcharts-data-labels highcharts-series-0 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
+        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="700" color="#000" transform="translate(252 66)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">4.67898947481825</tspan><tspan x="5" y="15">4.67898947481825</tspan>
+        </text>
+        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="700" color="#000" transform="translate(217 299)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">3.85083476363092</tspan><tspan x="5" y="15">3.85083476363092</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="10">
+        <text x="32" y="91">
+            <tspan>2010</tspan>
+        </text>
+        <text x="32" y="149">
+            <tspan>2011</tspan>
+        </text>
+        <text x="32" y="207">
+            <tspan>2012</tspan>
+        </text>
+        <text x="32" y="265">
+            <tspan>2013</tspan>
+        </text>
+        <text x="32" y="323">
+            <tspan>2014</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="47" y="368">
+            <tspan>0%</tspan>
+        </text>
+        <text x="132.6" y="368">
+            <tspan>200%</tspan>
+        </text>
+        <text x="218.2" y="368">
+            <tspan>400%</tspan>
+        </text>
+        <text x="303.8" y="368">
+            <tspan>600%</tspan>
+        </text>
+        <text x="389.4" y="368">
+            <tspan>800%</tspan>
+        </text>
+        <text x="456.375" y="368">
+            <tspan>1 000%</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Statistisches Amt Basel-Stadt, Energiestatistik</tspan>
+    </text>
+</svg>

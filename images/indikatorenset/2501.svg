@@ -1,0 +1,127 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h253v301H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M174 111h301v253H174z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M174 134.5h301m-301 23h301m-301 23h301m-301 23h301m-301 23h301m-301 23h301m-301 23h301m-301 23h301m-301 23h301m-301 23h301m-301 23h301m-301-253h301"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M173.5 111v253m75-253v253m76-253v253m75-253v253m76-253v253"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M174 111h301v253H174z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M174 134.5h-10m10 23h-10m10 23h-10m10 23h-10m10 23h-10m10 23h-10m10 23h-10m10 23h-10m10 23h-10m10 23h-10m10 23h-10m10-254h-10"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M173.5 111v253"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M174 364h301"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="matrix(0 -1 -1 0 475 364)" clip-path="url(#a)">
+            <path fill="#8a8a8a" class="highcharts-point" stroke="#fff" d="M241.5 184.5h6v41h-6z"/>
+            <path fill="#8a8a8a" class="highcharts-point highcharts-negative" stroke="#fff" d="M218.5 225.5h6v6h-6z"/>
+            <path fill="#8a8a8a" class="highcharts-point" stroke="#fff" d="M195.5 217.5h6v8h-6z"/>
+            <path fill="#8a8a8a" class="highcharts-point highcharts-negative" stroke="#fff" d="M172.5 225.5h6v25h-6z"/>
+            <path fill="#8a8a8a" class="highcharts-point" stroke="#fff" d="M149.5 223.5h6v2h-6z"/>
+            <path fill="#8a8a8a" class="highcharts-point highcharts-negative" stroke="#fff" d="M126.5 225.5h6v18h-6z"/>
+            <path fill="#8a8a8a" class="highcharts-point" stroke="#fff" d="M103.5 222.5h6v3h-6zm-23-21h6v24h-6zm-23-25h6v49h-6zm-23 24h6v25h-6zm-23-50h6v75h-6z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="matrix(0 -1 -1 0 475 364)" clip-path="url(#a)">
+            <path fill="#ff8028" class="highcharts-point" stroke="#fff" d="M234.5 176.5h6v49h-6zm-23-142h6v191h-6z"/>
+            <path fill="#ff8028" class="highcharts-point highcharts-negative" stroke="#fff" d="M188.5 225.5h6v3h-6zm-23 0h6v41h-6z"/>
+            <path fill="#ff8028" class="highcharts-point" stroke="#fff" d="M142.5 218.5h6v7h-6zm-23 1h6v6h-6zm-23-12h6v18h-6zm-23-24h6v42h-6zm-23-21h6v63h-6zm-23 0h6v63h-6zm-23-3h6v66h-6z"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>LP.1.04.1 Wachstumsrate der realen Wertschöpfung</tspan><tspan dy="17" x="10">ausgewählter Branchen</tspan><title>LP.1.04.1 Wachstumsrate der realen Wertschöpfung ausgewählter Branchen</title>
+    </text>
+    <text x="10" class="highcharts-subtitle" y="57" color="#000" font-weight="400">
+        <tspan>BS im Vergleich mit ZH, GE, CH, Stand 2015</tspan>
+    </text>
+    <g class="highcharts-legend" transform="translate(165 60)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="296" height="39"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
+                Schweiz
+            </text>
+            <path fill="#8a8a8a" class="highcharts-point" d="M10 7h12v12H10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(158 3)">
+                Basel-Stadt
+            </text>
+            <path fill="#ff8028" class="highcharts-point" d="M160 7h12v12h-12z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2 highcharts-legend-item-hidden">
+            <text x="21" y="15" color="#ccc" font-weight="400" cursor="pointer" fill="#ccc" transform="translate(8 17)">
+                Genf
+            </text>
+            <path fill="#ccc" class="highcharts-point" d="M10 21h12v12H10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3 highcharts-legend-item-hidden">
+            <text x="21" y="15" color="#ccc" font-weight="400" cursor="pointer" fill="#ccc" transform="translate(158 17)">
+                Zürich
+            </text>
+            <path fill="#ccc" class="highcharts-point" d="M160 21h12v12h-12z"/>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="159" y="127">
+            <tspan>Life Sciences</tspan>
+        </text>
+        <text x="159" y="150">
+            <tspan>Herstellung von chemischen…</tspan><title>Herstellung von chemischen Erzeugnissen</title>
+        </text>
+        <text x="159" y="173">
+            <tspan>Baugewerbe</tspan>
+        </text>
+        <text x="159" y="196">
+            <tspan>Handel und Garagengewerbe</tspan>
+        </text>
+        <text x="159" y="219">
+            <tspan>Verkehr und Lagerei</tspan>
+        </text>
+        <text x="159" y="242">
+            <tspan>Gastgewerbe</tspan>
+        </text>
+        <text x="159" y="265">
+            <tspan>Finanz-und Versicherungsdi…</tspan><title>Finanz- und Versicherungsdienstleistungen</title>
+        </text>
+        <text x="159" y="288">
+            <tspan>Freiberufliche und wissensc…</tspan><title>Freiberufliche und wissenschaftl. Dienstl.</title>
+        </text>
+        <text x="159" y="311">
+            <tspan>Sonstige wirtschaftliche Die…</tspan><title>Sonstige wirtschaftliche Dienstleistungen</title>
+        </text>
+        <text x="159" y="334">
+            <tspan>Verwaltung</tspan>
+        </text>
+        <text x="159" y="357">
+            <tspan>Gesundheits-und Sozialwes…</tspan><title>Gesundheits- und Sozialwesen</title>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="174" y="383">
+            <tspan>-5%</tspan>
+        </text>
+        <text x="249.25" y="383">
+            <tspan>0%</tspan>
+        </text>
+        <text x="324.5" y="383">
+            <tspan>5%</tspan>
+        </text>
+        <text x="399.75" y="383">
+            <tspan>10%</tspan>
+        </text>
+        <text x="464" y="383">
+            <tspan>15%</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: BAK Basel Economics</tspan>
+    </text>
+</svg>

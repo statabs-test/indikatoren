@@ -1,0 +1,204 @@
+{
+  "series": [
+    {
+      "color": "#b00000",
+      "data": [
+        [
+          1995,
+          2298
+        ],
+        [
+          2000,
+          1710
+        ],
+        [
+          2005,
+          1538
+        ],
+        [
+          2010,
+          1200
+        ],
+        [
+          2015,
+          985
+        ]
+      ],
+      "name": "NOx-Emissionen"
+    },
+    {
+      "color": "#672773",
+      "data": [
+        [
+          1995,
+          230
+        ],
+        [
+          2000,
+          210
+        ],
+        [
+          2005,
+          180
+        ],
+        [
+          2010,
+          170
+        ],
+        [
+          2015,
+          160
+        ]
+      ],
+      "name": "PM10-Emissionen"
+    },
+    {
+      "color": "#71a3b5",
+      "data": [
+        [
+          1995,
+          3900
+        ],
+        [
+          2000,
+          2730
+        ],
+        [
+          2005,
+          2720
+        ],
+        [
+          2010,
+          2250
+        ],
+        [
+          2015,
+          2020
+        ]
+      ],
+      "name": "VOC-Emissionen"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "forExport": true,
+    "renderTo": "container-5063"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "LP.8.34.3 Entwicklung der Schadstofffrachten (NOX, PM10, VOC) in Tonnen pro Jahr"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "max": 10000
+  },
+  "xAxis": {
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Lufthygieneamt beider Basel, Daten aus Emissionskataster"
+  },
+  "legend": {
+    "enabled": false,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "x": 20,
+    "y": 50,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    },
+    "series": {
+      "dataLabels": {
+        "enabled": true,
+        "allowOverlap": true,
+        "y": -5,
+        "formatter": function () {
+            var first  = this.series.data[0];
+            if (this.point.category === first.category  && this.point.y === first.y) {
+              return this.series.name;
+            }
+            return "";
+          }
+      }
+    }
+  },
+  "exporting": {
+    "filename": "I.02.5.0005"
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "series": [
+    {
+      "color": "#000000",
+      "legendIndex": 0,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2005,
+          12.2
+        ],
+        [
+          2006,
+          11.9
+        ],
+        [
+          2007,
+          10.1
+        ],
+        [
+          2008,
+          8.5
+        ],
+        [
+          2009,
+          8.5
+        ],
+        [
+          2010,
+          8.2
+        ],
+        [
+          2011,
+          8.3
+        ],
+        [
+          2012,
+          8.6
+        ],
+        [
+          2013,
+          8.8
+        ],
+        [
+          2014,
+          8.5
+        ],
+        [
+          2015,
+          8.2
+        ]
+      ],
+      "name": "Basel"
+    },
+    {
+      "color": "#cd9c00",
+      "legendIndex": 2,
+      "data": [
+        [
+          2005,
+          9.1
+        ],
+        [
+          2006,
+          8.5
+        ],
+        [
+          2007,
+          7.3
+        ],
+        [
+          2008,
+          6.3
+        ],
+        [
+          2009,
+          5.3
+        ],
+        [
+          2010,
+          5
+        ],
+        [
+          2011,
+          5.4
+        ],
+        [
+          2012,
+          5.3
+        ],
+        [
+          2013,
+          5.3
+        ],
+        [
+          2014,
+          5.4
+        ],
+        [
+          2015,
+          5.2
+        ]
+      ],
+      "name": "Zürich"
+    },
+    {
+      "color": "#fabd24",
+      "legendIndex": 1,
+      "data": [
+        [
+          2005,
+          6.5
+        ],
+        [
+          2006,
+          7
+        ],
+        [
+          2007,
+          6
+        ],
+        [
+          2008,
+          4.9
+        ],
+        [
+          2009,
+          5.6
+        ],
+        [
+          2010,
+          5.6
+        ],
+        [
+          2011,
+          6
+        ],
+        [
+          2012,
+          6
+        ],
+        [
+          2013,
+          6.2
+        ],
+        [
+          2014,
+          6
+        ],
+        [
+          2015,
+          5.5
+        ]
+      ],
+      "name": "Bern"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {                
+                    this.credits.element.onclick = function() {}
+                }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "scatter",
+    "inverted": true,
+    "forExport": true,
+    "renderTo": "container-2980"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "I.13.3.0007 Sozialhilfequote der 18-25 Jährigen - Städtevergleich zwischen Basel, Zürich und Bern"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "x": 5,
+        "align": "left",
+        "verticalAlign": "middle",
+        "enabled": false,
+        "style": {
+          "fontSize": "10px"
+        },
+        "formatter": function (){
+                        return Highcharts.numberFormat((this.y*100),1)+'%';                
+                    }
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "yAxis": {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "formatter": function (){
+                    return Highcharts.numberFormat((this.value*100),0)+'%';                
+                },
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    },
+    "min": 0
+  },
+  "xAxis": {
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "fontSize": "10px"
+      }
+    },
+    "tickColor": "#FFFFFF",
+    "tickInterval": 1,
+    "type": "category",
+    "uniqueNames": true
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Bericht 'Kennzahlenvergleich zur Sozialhilfe in Schweizer Städten'"
+  },
+  "legend": {
+    "enabled": true,
+    "symbolRadius": 0,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5,
+    "align": "right",
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "formatter": function (args){
+                var this_point_index = this.series.data.indexOf(this.point);
+                var other_series_index = this.series.index == 0 ? 1 : 0; // assuming 2 series
+                var other_series = args.chart.series[other_series_index];
+                var other_point = other_series.data[this_point_index];
+                return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
+                    this.point.name +': <b>' + Highcharts.numberFormat((this.y*100),1) + '%</b><br/>' + 
+                    'Rang <b>' + other_point.y + '</b>';
+            },
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "I.13.3.0007"
+  }
+}
