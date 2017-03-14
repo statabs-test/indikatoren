@@ -6,7 +6,7 @@
   "yAxis": {
     "min": undefined, 
 	"labels": {
-		"format": "{value}"
+		"format": "{value:,.0f}"
 	}
   },	
   "tooltip": {
