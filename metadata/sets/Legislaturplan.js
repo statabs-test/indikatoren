@@ -1335,7 +1335,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Der Bevölkerungsanteil, der durch Schallschutzfenster vor übermässigem Lärm geschützt wird, hat in den letzten Jahren stark zugenommen. Im Jahr 2005 lebten rund 5 100 Einwohner in Wohnungen mit sanierten Fenstern, 2015 waren es rund 12 400.",
 		"erlaeuterungen": "Seit 2004 leistet der Kanton freiwillig ab einer Belastung von 67 dB (A) am Tag einen Beitrag von 50% an Schallschutzfenster. Nicht mitberücksichtigt sind die auf eigene Initiative von Hauseigentümern eingebauten Schallschutzfenster.",
-		"template": "dotplot",
+		"template": "line001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,

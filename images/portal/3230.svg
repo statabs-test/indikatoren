@@ -21,16 +21,16 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(52 87)" clip-path="url(#a)">
-            <path fill="none" d="M4.147 230.56l46.078-21.222 46.079-69.954 46.078 25.152 46.079 5.502 46.078 21.746 46.079 23.842 46.078-50.304 46.079-109.778 46.078 98.512" class="highcharts-graph" stroke="#b00000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M-5.853 230.56h10l46.078-21.222 46.079-69.954 46.078 25.152 46.079 5.502 46.078 21.746 46.079 23.842 46.078-50.304 46.079-109.778 46.078 98.512h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+            <path fill="none" d="M4.147 169.514l46.078 61.046 46.079-21.222 46.078-69.954 46.079 25.152 46.078 5.502 46.079 21.746 46.078 23.842 46.079-50.304 46.078-109.778" class="highcharts-graph" stroke="#b00000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.853 169.514h10l46.078 61.046 46.079-21.222 46.078-69.954 46.079 25.152 46.078 5.502 46.079 21.746 46.078 23.842 46.079-50.304 46.078-109.778h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(52 87)" clip-path="url(#a)">
-            <path fill="none" d="M4.147 161.654l46.078 62.88 46.079 1.048 46.078 5.24 46.079 4.978 46.078-14.148 46.079 4.978 46.078-48.208 46.079 49.256 46.078-15.458" class="highcharts-graph" stroke="#71a3b5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M-5.853 161.654h10l46.078 62.88 46.079 1.048 46.078 5.24 46.079 4.978 46.078-14.148 46.079 4.978 46.078-48.208 46.079 49.256 46.078-15.458h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+            <path fill="none" d="M4.147 175.278l46.078-13.624 46.079 62.88 46.078 1.048 46.079 5.24 46.078 4.978 46.079-14.148 46.078 4.978 46.079-48.208 46.078 49.256" class="highcharts-graph" stroke="#71a3b5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.853 175.278h10l46.078-13.624 46.079 62.88 46.078 1.048 46.079 5.24 46.078 4.978 46.079-14.148 46.078 4.978 46.079-48.208 46.078 49.256h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="translate(52 87)" clip-path="url(#a)">
-            <path fill="none" d="M4.147 130.214l46.078 41.658 46.079-68.906 46.078 30.392 46.079 10.48 46.078 7.598 46.079 28.82 46.078-98.512 46.079-60.522 46.078 83.054" class="highcharts-graph" stroke="#ffbb58" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M-5.853 130.214h10l46.078 41.658 46.079-68.906 46.078 30.392 46.079 10.48 46.078 7.598 46.079 28.82 46.078-98.512 46.079-60.522 46.078 83.054h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+            <path fill="none" d="M4.147 82.792l46.078 47.422 46.079 41.658 46.078-68.906 46.079 30.392 46.078 10.48 46.079 7.598 46.078 28.82 46.079-98.512 46.078-60.522" class="highcharts-graph" stroke="#ffbb58" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.853 82.792h10l46.078 47.422 46.079 41.658 46.078-68.906 46.079 30.392 46.078 10.48 46.079 7.598 46.078 28.82 46.079-98.512 46.078-60.522h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
@@ -59,34 +59,34 @@
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
         <text x="56.147" y="368">
-            2007
+            2006
         </text>
         <text x="102.225" y="368">
-            2008
+            2007
         </text>
         <text x="148.304" y="368">
-            2009
+            2008
         </text>
         <text x="194.382" y="368">
-            2010
+            2009
         </text>
         <text x="240.461" y="368">
-            2011
+            2010
         </text>
         <text x="286.539" y="368">
-            2012
+            2011
         </text>
         <text x="332.618" y="368">
-            2013
+            2012
         </text>
         <text x="378.696" y="368">
-            2014
+            2013
         </text>
         <text x="424.775" y="368">
-            2015
+            2014
         </text>
         <text x="462.781" y="368">
-            2016
+            2015
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">

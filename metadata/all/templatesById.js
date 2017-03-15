@@ -30,7 +30,7 @@ var templatesById = {
 	"3057": "template001",
 	"3077": "line001",
 	"3080": "dotplot",
-	"3081": "dotplot",
+	"3081": "line001",
 	"3083": "dotplot",
 	"3086": "line001",
 	"3087": "template001",

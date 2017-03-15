@@ -7,7 +7,7 @@
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
     <path fill="none" class="highcharts-plot-background" d="M47 41h428v308H47z"/>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M50.5 41v308m35-308v308m35-308v308m35-308v308m35-308v308m35-308v308m35-308v308m35-308v308m35-308v308m35-308v308m35-308v308m35-308v308m35-308v308"/>
+        <path fill="none" class="highcharts-grid-line" d="M50.5 41v308m70-308v308m70-308v308m70-308v308m70-308v308m70-308v308m70-308v308"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
         <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M47 349.5h428m-428-77h428m-428-77h428m-428-77h428m-428-78h428"/>
@@ -21,63 +21,45 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(47 41)" clip-path="url(#a)">
-            <path fill="none" d="M4.196 224.84l34.967-41.58 34.968-5.39 34.967 5.39 34.967-64.68 34.968-17.71L214 83.16l34.967-12.32 34.968-29.26 34.967-12.32 34.967-6.16 34.968 46.2 34.967-7.7" class="highcharts-graph" stroke="#376092" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M-5.804 224.84h10l34.967-41.58 34.968-5.39 34.967 5.39 34.967-64.68 34.968-17.71L214 83.16l34.967-12.32 34.968-29.26 34.967-12.32 34.967-6.16 34.968 46.2 34.967-7.7h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+            <path fill="none" d="M4.196 100.87l69.935-17.71 69.934-12.32L214 41.58l69.935-12.32 69.934-6.16 69.935 46.2" class="highcharts-graph" stroke="#376092" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.804 100.87h10l69.935-17.71 69.934-12.32L214 41.58l69.935-12.32 69.934-6.16 69.935 46.2h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#376092" d="M55 266a4 4 0 1 1 0-.004zm35-42a4 4 0 1 1 0-.004zm35-5a4 4 0 1 1 0-.004zm35 5a4 4 0 1 1 0-.004zm35-64a4 4 0 1 1 0-.004zm35-18a4 4 0 1 1 0-.004zm35-18a4 4 0 1 1 0-.004zm34-12a4 4 0 1 1 0-.004zm35-29a4 4 0 1 1 0-.004zm35-13a4 4 0 1 1 0-.004zm35-6a4 4 0 1 1 0-.004zm35 46a4 4 0 1 1 0-.004zm35-7a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <path fill="#376092" d="M55 142a4 4 0 1 1 0-.004zm70-18a4 4 0 1 1 0-.004zm70-12a4 4 0 1 1 0-.004zm70-29a4 4 0 1 1 0-.004zm69-13a4 4 0 1 1 0-.004zm70-6a4 4 0 1 1 0-.004zm70 46a4 4 0 1 1 0-.004z" class="highcharts-point"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>LP.7.25.2 Frauenanteil im Grossen Rat Basel-Stadt</tspan>
     </text>
     <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
-        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(42 233)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
-            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">10.8%</tspan><tspan x="5" y="16">10.8%</tspan>
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(42 109)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">26.9%</tspan><tspan x="5" y="16">26.9%</tspan>
         </text>
-        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(448 70)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
-            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">32%</tspan><tspan x="5" y="16">32%</tspan>
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(448 77)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">31%</tspan><tspan x="5" y="16">31%</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
         <text x="51.196" y="368">
-            1968
-        </text>
-        <text x="86.163" y="368">
-            1972
-        </text>
-        <text x="121.131" y="368">
-            1976
-        </text>
-        <text x="156.098" y="368">
-            1980
-        </text>
-        <text x="191.065" y="368">
-            1984
-        </text>
-        <text x="226.033" y="368">
             1988
         </text>
-        <text x="261" y="368">
+        <text x="121.131" y="368">
             1992
         </text>
-        <text x="295.967" y="368">
+        <text x="191.065" y="368">
             1996
         </text>
-        <text x="330.935" y="368">
+        <text x="261" y="368">
             2000
         </text>
-        <text x="365.902" y="368">
+        <text x="330.935" y="368">
             2004
         </text>
         <text x="400.869" y="368">
             2008
         </text>
-        <text x="435.837" y="368">
+        <text x="462.781" y="368">
             2012
-        </text>
-        <text x="463.985" y="368">
-            <tspan>2…</tspan><title>2016</title>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">

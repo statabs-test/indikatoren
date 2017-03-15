@@ -7,7 +7,7 @@
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
     <path fill="none" class="highcharts-plot-background" d="M52 150h423v199H52z"/>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M55.5 150v199m92-199v199m92-199v199m93-199v199m92-199v199"/>
+        <path fill="none" class="highcharts-grid-line" d="M55.5 150v199m46-199v199m46-199v199m46-199v199m46-199v199m47-199v199m46-199v199m46-199v199m46-199v199m46-199v199"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
         <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M52 349.5h423m-423-66h423m-423-67h423m-423-66h423"/>
@@ -87,19 +87,34 @@
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
         <text x="56.147" y="368">
-            <tspan>2006</tspan>
+            2006
+        </text>
+        <text x="102.225" y="368">
+            2007
         </text>
         <text x="148.304" y="368">
-            <tspan>2008</tspan>
+            2008
+        </text>
+        <text x="194.382" y="368">
+            2009
         </text>
         <text x="240.461" y="368">
-            <tspan>2010</tspan>
+            2010
+        </text>
+        <text x="286.539" y="368">
+            2011
         </text>
         <text x="332.618" y="368">
-            <tspan>2012</tspan>
+            2012
+        </text>
+        <text x="378.696" y="368">
+            2013
         </text>
         <text x="424.775" y="368">
-            <tspan>2014</tspan>
+            2014
+        </text>
+        <text x="462.781" y="368">
+            2015
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">

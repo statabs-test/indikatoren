@@ -4,135 +4,175 @@
       "color": "#ffda80",
       "data": [
         [
-          "2003",
+          "Innenstadt",
           50.724637681159
         ],
         [
-          "2005",
-          63.736263736263
+          "Am Ring",
+          56.020942408376
         ],
         [
-          "2007",
-          57.692307692307
+          "St Alban",
+          58.620689655172
         ],
         [
-          "2011",
-          48.4375
+          "Unteres Kleinbasel",
+          58.579881656804
         ],
         [
-          "2015",
-          41.935483870967
+          "Oberes Kleinbasel",
+          57.971014492753
+        ],
+        [
+          "Riehen Bettingen",
+          51.339285714285
+        ],
+        [
+          "Basel-Stadt",
+          54.201101928374
         ]
       ],
-      "name": "Innenstadt",
+      "name": "2003",
       "turboThreshold": 0
     },
     {
       "color": "#fabd24",
       "data": [
         [
-          "2003",
-          56.020942408376
+          "Innenstadt",
+          63.736263736263
         ],
         [
-          "2005",
+          "Am Ring",
           54.272517321016
         ],
         [
-          "2007",
-          62.371134020618
+          "St Alban",
+          56.375838926174
         ],
         [
-          "2011",
-          68.997668997668
+          "Unteres Kleinbasel",
+          57.627118644067
         ],
         [
-          "2015",
-          52.631578947368
+          "Oberes Kleinbasel",
+          57.522123893805
+        ],
+        [
+          "Riehen Bettingen",
+          59.375
+        ],
+        [
+          "Basel-Stadt",
+          57.403651115618
         ]
       ],
-      "name": "Am Ring",
+      "name": "2005",
       "turboThreshold": 0
     },
     {
       "color": "#cd9c00",
       "data": [
         [
-          "2003",
-          58.620689655172
+          "Innenstadt",
+          57.692307692307
         ],
         [
-          "2005",
-          56.375838926174
+          "Am Ring",
+          62.371134020618
         ],
         [
-          "2007",
+          "St Alban",
           62.893081761006
         ],
         [
-          "2011",
-          66.081871345029
+          "Unteres Kleinbasel",
+          61.052631578947
         ],
         [
-          "2015",
-          51.655629139072
+          "Oberes Kleinbasel",
+          59.558823529411
+        ],
+        [
+          "Riehen Bettingen",
+          62.686567164179
+        ],
+        [
+          "Basel-Stadt",
+          62.008141112618
         ]
       ],
-      "name": "St Alban",
+      "name": "2007",
       "turboThreshold": 0
     },
     {
       "color": "#7f5f1a",
       "data": [
         [
-          "2003",
-          58.579881656804
+          "Innenstadt",
+          48.4375
         ],
         [
-          "2005",
-          57.627118644067
+          "Am Ring",
+          68.997668997668
         ],
         [
-          "2007",
-          61.052631578947
+          "St Alban",
+          66.081871345029
         ],
         [
-          "2011",
+          "Unteres Kleinbasel",
           69.060773480662
         ],
         [
-          "2015",
-          51.449275362318
+          "Oberes Kleinbasel",
+          64.150943396226
+        ],
+        [
+          "Riehen Bettingen",
+          64.912280701754
+        ],
+        [
+          "Basel-Stadt",
+          65.281501340482
         ]
       ],
-      "name": "Unteres Kleinbasel",
+      "name": "2011",
       "turboThreshold": 0
     },
     {
       "color": "#948a54",
       "data": [
         [
-          "2003",
-          57.971014492753
+          "Innenstadt",
+          41.935483870967
         ],
         [
-          "2005",
-          57.522123893805
+          "Am Ring",
+          52.631578947368
         ],
         [
-          "2007",
-          59.558823529411
+          "St Alban",
+          51.655629139072
         ],
         [
-          "2011",
-          64.150943396226
+          "Unteres Kleinbasel",
+          51.449275362318
         ],
         [
-          "2015",
+          "Oberes Kleinbasel",
           50.819672131147
+        ],
+        [
+          "Riehen Bettingen",
+          53.658536585365
+        ],
+        [
+          "Basel-Stadt",
+          50.7215007215
         ]
       ],
-      "name": "Oberes Kleinbasel",
+      "name": "2015",
       "turboThreshold": 0
     }
   ],
@@ -242,14 +282,14 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 0,
+    "x": 40,
     "y": 65,
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {

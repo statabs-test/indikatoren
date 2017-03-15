@@ -4,135 +4,235 @@
       "color": "#ffda80",
       "data": [
         [
-          "2003",
+          "Innenstadt",
           97.222222222222
         ],
         [
-          "2005",
-          98.936170212765
+          "Am Ring",
+          96.202531645569
         ],
         [
-          "2007",
-          93.827160493827
+          "St. Alban Breite",
+          93.877551020408
         ],
         [
-          "2011",
-          95.522388059701
+          "St. Johann",
+          95.495495495495
         ],
         [
-          "2015",
-          97.101449275362
+          "Gundeldingen",
+          93.525179856115
+        ],
+        [
+          "Bruderholz",
+          95.348837209302
+        ],
+        [
+          "Unteres Kleinbasel",
+          92.613636363636
+        ],
+        [
+          "Oberes Kleinbasel",
+          97.122302158273
+        ],
+        [
+          "Riehen Bettingen",
+          99.137931034482
+        ],
+        [
+          "Basel-Stadt",
+          95.791583166332
         ]
       ],
-      "name": "Innenstadt",
+      "name": "2003",
       "turboThreshold": 0
     },
     {
       "color": "#fabd24",
       "data": [
         [
-          "2003",
-          96.202531645569
+          "Innenstadt",
+          98.936170212765
         ],
         [
-          "2005",
+          "Am Ring",
           95.936794582392
         ],
         [
-          "2007",
-          96.305418719211
+          "St. Alban Breite",
+          96.666666666666
         ],
         [
-          "2011",
-          97.241379310344
+          "St. Johann",
+          94.782608695652
         ],
         [
-          "2015",
-          97.584541062801
+          "Gundeldingen",
+          97.560975609756
+        ],
+        [
+          "Bruderholz",
+          97.802197802197
+        ],
+        [
+          "Unteres Kleinbasel",
+          93.406593406593
+        ],
+        [
+          "Oberes Kleinbasel",
+          88.59649122807
+        ],
+        [
+          "Riehen Bettingen",
+          100
+        ],
+        [
+          "Basel-Stadt",
+          96.026490066225
         ]
       ],
-      "name": "Am Ring",
+      "name": "2005",
       "turboThreshold": 0
     },
     {
       "color": "#cd9c00",
       "data": [
         [
-          "2003",
-          93.877551020408
+          "Innenstadt",
+          93.827160493827
         ],
         [
-          "2005",
-          96.666666666666
+          "Am Ring",
+          96.305418719211
         ],
         [
-          "2007",
+          "St. Alban Breite",
           95.031055900621
         ],
         [
-          "2011",
-          97.674418604651
+          "St. Johann",
+          97.321428571428
         ],
         [
-          "2015",
-          97.53086419753
+          "Gundeldingen",
+          95.3125
+        ],
+        [
+          "Bruderholz",
+          91.954022988505
+        ],
+        [
+          "Unteres Kleinbasel",
+          93.264248704663
+        ],
+        [
+          "Oberes Kleinbasel",
+          97.794117647058
+        ],
+        [
+          "Riehen Bettingen",
+          97.560975609756
+        ],
+        [
+          "Basel-Stadt",
+          95.692511597084
         ]
       ],
-      "name": "St. Alban Breite",
+      "name": "2007",
       "turboThreshold": 0
     },
     {
       "color": "#7f5f1a",
       "data": [
         [
-          "2003",
-          95.495495495495
+          "Innenstadt",
+          95.522388059701
         ],
         [
-          "2005",
-          94.782608695652
+          "Am Ring",
+          97.241379310344
         ],
         [
-          "2007",
-          97.321428571428
+          "St. Alban Breite",
+          97.674418604651
         ],
         [
-          "2011",
+          "St. Johann",
           99.019607843137
         ],
         [
-          "2015",
-          95.833333333333
+          "Gundeldingen",
+          98.333333333333
+        ],
+        [
+          "Bruderholz",
+          96.875
+        ],
+        [
+          "Unteres Kleinbasel",
+          98.351648351648
+        ],
+        [
+          "Oberes Kleinbasel",
+          99.099099099099
+        ],
+        [
+          "Riehen Bettingen",
+          99.567099567099
+        ],
+        [
+          "Basel-Stadt",
+          98.021108179419
         ]
       ],
-      "name": "St. Johann",
+      "name": "2011",
       "turboThreshold": 0
     },
     {
       "color": "#948a54",
       "data": [
         [
-          "2003",
-          93.525179856115
+          "Innenstadt",
+          97.101449275362
         ],
         [
-          "2005",
-          97.560975609756
+          "Am Ring",
+          97.584541062801
         ],
         [
-          "2007",
-          95.3125
+          "St. Alban Breite",
+          97.53086419753
         ],
         [
-          "2011",
-          98.333333333333
+          "St. Johann",
+          95.833333333333
         ],
         [
-          "2015",
+          "Gundeldingen",
           98.373983739837
+        ],
+        [
+          "Bruderholz",
+          93.577981651376
+        ],
+        [
+          "Unteres Kleinbasel",
+          93.333333333333
+        ],
+        [
+          "Oberes Kleinbasel",
+          96.899224806201
+        ],
+        [
+          "Riehen Bettingen",
+          98.695652173913
+        ],
+        [
+          "Basel-Stadt",
+          96.879150066401
         ]
       ],
-      "name": "Gundeldingen",
+      "name": "2015",
       "turboThreshold": 0
     }
   ],
@@ -242,14 +342,14 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 0,
+    "x": 35,
     "y": 65,
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
