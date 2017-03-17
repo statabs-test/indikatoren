@@ -29,18 +29,18 @@
             <path fill="none" d="M-5.853 135.641h10L50.225 21.417l46.079 27.709 46.078 69.575 46.079 37.268 46.078 18.634 46.079-11.737 46.078-26.257 46.079 14.762 46.078-25.652h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="translate(52 107)" clip-path="url(#a)">
-            <path fill="none" d="M4.147 242h414.706" class="highcharts-graph" stroke="#000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M-5.853 242h434.706" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+            <path fill="none" d="M4.147 122.21L50.225 11.616l46.079 26.62 46.078 72.479 46.079-25.773 46.078 26.862 46.079 43.439 46.078-29.161 46.079 16.214 46.078-28.798" class="highcharts-graph" stroke="#000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.853 122.21h10L50.225 11.616l46.079 26.62 46.078 72.479 46.079-25.773 46.078 26.862 46.079 43.439 46.078-29.161 46.079 16.214 46.078-28.798h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-markers highcharts-series-2 highcharts-line-series highcharts-color-undefined highcharts-tracker">
-            <path d="M60 349a4 4 0 1 1 0-.004zm46 0a4 4 0 1 1 0-.004zm46 0a4 4 0 1 1 0-.004zm46 0a4 4 0 1 1 0-.004zm46 0a4 4 0 1 1 0-.004zm46 0a4 4 0 1 1 0-.004zm46 0a4 4 0 1 1 0-.004zm46 0a4 4 0 1 1 0-.004zm46 0a4 4 0 1 1 0-.004zm46 0a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <path d="M60 229a4 4 0 1 1 0-.004zm46-110a4 4 0 1 1 0-.004zm46 26a4 4 0 1 1 0-.004zm46 73a4 4 0 1 1 0-.004zm46-26a4 4 0 1 1 0-.004zm46 27a4 4 0 1 1 0-.004zm46 43a4 4 0 1 1 0-.004zm46-29a4 4 0 1 1 0-.004zm46 16a4 4 0 1 1 0-.004zm46-29a4 4 0 1 1 0-.004z" class="highcharts-point"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>I.01.5.0043 Ordentlich Eingebürgerte nach bisheriger Heimat</tspan><tspan dy="17" x="10">und Geburtsland</tspan><title>I.01.5.0043 Ordentlich Eingebürgerte nach bisheriger Heimat und Geburtsland</title>
     </text>
     <g class="highcharts-legend" transform="translate(45 65)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="339" height="30"/>
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="233" height="30"/>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0">
             <path fill="none" d="M8 14h16" class="highcharts-graph" stroke="#b00000" stroke-width="2"/>
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
@@ -57,7 +57,7 @@
             <path fill="none" d="M178 14h16" class="highcharts-graph" stroke="#000" stroke-width="2"/>
             <path d="M190 14a4 4 0 1 1 0-.004z" class="highcharts-point"/>
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(178 3)">
-                Ausland_GeburtslandCH
+                Total
             </text>
         </g>
     </g>

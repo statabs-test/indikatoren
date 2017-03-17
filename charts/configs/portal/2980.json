@@ -147,21 +147,20 @@
   ],
   "chart": {
     "events": {
-      "load": function () {                
-                    this.credits.element.onclick = function() {}
-                }
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
     "width": 485,
     "height": 415,
     "spacingBottom": 45,
     "style": {
       "fontFamily": "Arial"
     },
-    "zoomType": "xy",
-    "type": "scatter",
-    "inverted": true,
+    "type": "line",
     "forExport": true,
     "renderTo": "container-2980"
   },
@@ -169,7 +168,6 @@
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
-      "fontFamily": "Arial",
       "color": "#000000"
     },
     "align": "left",
@@ -185,29 +183,12 @@
     "text": "",
     "align": "left"
   },
-  "plotOptions": {
-    "series": {
-      "dataLabels": {
-        "x": 5,
-        "align": "left",
-        "verticalAlign": "middle",
-        "enabled": false,
-        "style": {
-          "fontSize": "10px"
-        },
-        "formatter": function (){
-                        return Highcharts.numberFormat((this.y*100),1)+'%';                
-                    }
-      }
-    },
-    "line": {
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
-    }
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
+    "min": 0,
     "title": {
       "style": {
         "color": "#000000",
@@ -216,34 +197,23 @@
       "text": null
     },
     "labels": {
-      "formatter": function (){
-                    return Highcharts.numberFormat((this.value*100),0)+'%';                
-                },
       "style": {
         "color": "#000000"
       },
       "format": "{value}%"
-    },
-    "min": 0
+    }
   },
   "xAxis": {
-    "title": {
+    "labels": {
       "style": {
         "color": "#000000"
       }
     },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "fontSize": "10px"
-      }
-    },
-    "tickColor": "#FFFFFF",
-    "tickInterval": 1,
-    "type": "category",
-    "uniqueNames": true
+    "tickLength": 0,
+    "tickInterval": 1
   },
   "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
     "style": {
       "color": "#000000",
@@ -260,27 +230,22 @@
   },
   "legend": {
     "enabled": true,
-    "symbolRadius": 0,
     "layout": "vertical",
     "verticalAlign": "middle",
-    "itemMarginBottom": 5,
     "align": "right",
+    "symbolRadius": 0,
+    "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
-  "tooltip": {
-    "formatter": function (args){
-                var this_point_index = this.series.data.indexOf(this.point);
-                var other_series_index = this.series.index == 0 ? 1 : 0; // assuming 2 series
-                var other_series = args.chart.series[other_series_index];
-                var other_point = other_series.data[this_point_index];
-                return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-                    this.point.name +': <b>' + Highcharts.numberFormat((this.y*100),1) + '%</b><br/>' + 
-                    'Rang <b>' + other_point.y + '</b>';
-            },
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  "plotOptions": {
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
   },
   "exporting": {
     "filename": "I.13.3.0007"

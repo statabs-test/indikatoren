@@ -4,135 +4,235 @@
       "color": "#ffbb58",
       "data": [
         [
-          "2003",
-          85.915492957746
+          "Innenstadt",
+          89.705882352941
         ],
         [
-          "2005",
-          91.489361702127
+          "Am Ring West",
+          89.757412398921
         ],
         [
-          "2007",
-          91.358024691358
+          "St. Alban Breite",
+          94.160583941605
         ],
         [
-          "2011",
-          95.384615384615
+          "St. Johann",
+          89.108910891089
         ],
         [
-          "2015",
-          97.101449275362
+          "Gundeldingen",
+          89.230769230769
+        ],
+        [
+          "Bruderholz",
+          90.361445783132
+        ],
+        [
+          "Unteress Kleinbasel",
+          93.939393939393
+        ],
+        [
+          "Oberes Kleinbasel",
+          90.551181102362
+        ],
+        [
+          "Riehen Bettingen",
+          89.823008849557
+        ],
+        [
+          "Basel-Stadt",
+          90.696022727272
         ]
       ],
-      "name": "Innenstadt",
+      "name": "2003",
       "turboThreshold": 0
     },
     {
       "color": "#ff8028",
       "data": [
         [
-          "2003",
-          85.384615384615
+          "Innenstadt",
+          92.473118279569
         ],
         [
-          "2005",
-          84.162895927601
+          "Am Ring West",
+          87.943262411347
         ],
         [
-          "2007",
-          86.881188118811
+          "St. Alban Breite",
+          87.323943661971
         ],
         [
-          "2011",
-          88.965517241379
+          "St. Johann",
+          87.850467289719
         ],
         [
-          "2015",
-          89.512195121951
+          "Gundeldingen",
+          90.983606557377
+        ],
+        [
+          "Bruderholz",
+          93.103448275862
+        ],
+        [
+          "Unteress Kleinbasel",
+          88.304093567251
+        ],
+        [
+          "Oberes Kleinbasel",
+          91.509433962264
+        ],
+        [
+          "Riehen Bettingen",
+          95.3125
+        ],
+        [
+          "Basel-Stadt",
+          90.02079002079
         ]
       ],
-      "name": "Am Ring",
+      "name": "2005",
       "turboThreshold": 0
     },
     {
       "color": "#b00000",
       "data": [
         [
-          "2003",
-          87.755102040816
+          "Innenstadt",
+          93.670886075949
         ],
         [
-          "2005",
-          83.221476510067
+          "Am Ring West",
+          90
         ],
         [
-          "2007",
-          91.925465838509
+          "St. Alban Breite",
+          96.73202614379
         ],
         [
-          "2011",
-          92.98245614035
+          "St. Johann",
+          87.155963302752
         ],
         [
-          "2015",
-          89.440993788819
+          "Gundeldingen",
+          84.677419354838
+        ],
+        [
+          "Bruderholz",
+          93.975903614457
+        ],
+        [
+          "Unteress Kleinbasel",
+          82.857142857142
+        ],
+        [
+          "Oberes Kleinbasel",
+          96.825396825396
+        ],
+        [
+          "Riehen Bettingen",
+          92.424242424242
+        ],
+        [
+          "Basel-Stadt",
+          90.53583855254
         ]
       ],
-      "name": "St Alban",
+      "name": "2007",
       "turboThreshold": 0
     },
     {
       "color": "#661200",
       "data": [
         [
-          "2003",
+          "Innenstadt",
+          95.384615384615
+        ],
+        [
+          "Am Ring West",
+          92.583732057416
+        ],
+        [
+          "St. Alban Breite",
+          94.082840236686
+        ],
+        [
+          "St. Johann",
+          94.897959183673
+        ],
+        [
+          "Gundeldingen",
+          88.888888888888
+        ],
+        [
+          "Bruderholz",
+          96.739130434782
+        ],
+        [
+          "Unteress Kleinbasel",
           89.080459770114
         ],
         [
-          "2005",
-          83.42541436464
+          "Oberes Kleinbasel",
+          94.495412844036
         ],
         [
-          "2007",
-          76.315789473684
+          "Riehen Bettingen",
+          94.594594594594
         ],
         [
-          "2011",
-          86.111111111111
-        ],
-        [
-          "2015",
-          91.891891891891
+          "Basel-Stadt",
+          93.032786885245
         ]
       ],
-      "name": "Unteres Kleinbasel",
+      "name": "2011",
       "turboThreshold": 0
     },
     {
       "color": "#953735",
       "data": [
         [
-          "2003",
-          82.73381294964
+          "Innenstadt",
+          97.101449275362
         ],
         [
-          "2005",
-          85.840707964601
+          "Am Ring West",
+          94.344473007712
         ],
         [
-          "2007",
-          90.37037037037
+          "St. Alban Breite",
+          94.736842105263
         ],
         [
-          "2011",
-          92.792792792792
+          "St. Johann",
+          88.392857142857
         ],
         [
-          "2015",
-          88.28125
+          "Gundeldingen",
+          94.690265486725
+        ],
+        [
+          "Bruderholz",
+          95.238095238095
+        ],
+        [
+          "Unteress Kleinbasel",
+          94.444444444444
+        ],
+        [
+          "Oberes Kleinbasel",
+          100
+        ],
+        [
+          "Riehen Bettingen",
+          95.022624434389
+        ],
+        [
+          "Basel-Stadt",
+          94.710860366713
         ]
       ],
-      "name": "Oberes Kleinbasel",
+      "name": "2015",
       "turboThreshold": 0
     }
   ],
@@ -242,14 +342,14 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 0,
+    "x": 35,
     "y": 65,
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {

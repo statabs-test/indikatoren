@@ -17,7 +17,7 @@
 "stufe5":"", 
 "lesehilfe":"Die Sozialhilfequote der jungen Erwachsenen ist in der Stadt Basel deutlich höher als in Bern und Zürich. Seit 2013 ist ein leichter Rückgang der Sozialhilfequote dieser Gruppe zu beobachten.",
 "erlaeuterungen":"",
-"template":"dotplot",
+"template":"line001",
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,

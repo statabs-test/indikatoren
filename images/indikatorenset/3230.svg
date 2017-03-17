@@ -29,15 +29,15 @@
             <path fill="none" d="M-5.853 175.278h10l46.078-13.624 46.079 62.88 46.078 1.048 46.079 5.24 46.078 4.978 46.079-14.148 46.078 4.978 46.079-48.208 46.078 49.256h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="translate(52 87)" clip-path="url(#a)">
-            <path fill="none" d="M4.147 82.792l46.078 47.422 46.079 41.658 46.078-68.906 46.079 30.392 46.078 10.48 46.079 7.598 46.078 28.82 46.079-98.512 46.078-60.522" class="highcharts-graph" stroke="#ffbb58" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M-5.853 82.792h10l46.078 47.422 46.079 41.658 46.078-68.906 46.079 30.392 46.078 10.48 46.079 7.598 46.078 28.82 46.079-98.512 46.078-60.522h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+            <path fill="none" d="M4.147 262h414.706" class="highcharts-graph" stroke="#ffbb58" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.853 262h434.706" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>LP.5.18.1.A In Neubauten neuerstellte, umgebaute und</tspan><tspan dy="17" x="10">baubegonnene Wohnungen</tspan><title>LP.5.18.1.A In Neubauten neuerstellte, umgebaute und baubegonnene Wohnungen</title>
     </text>
     <g class="highcharts-legend" transform="translate(45 45)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="258" height="30"/>
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="306" height="30"/>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0">
             <path fill="none" d="M8 14h16" class="highcharts-graph" stroke="#b00000" stroke-width="2"/>
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
@@ -53,7 +53,7 @@
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-2">
             <path fill="none" d="M202.625 14h16" class="highcharts-graph" stroke="#ffbb58" stroke-width="2"/>
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(202.625 3)">
-                Total
+                Baubegonnen
             </text>
         </g>
     </g>

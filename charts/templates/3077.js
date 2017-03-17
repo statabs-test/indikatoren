@@ -26,6 +26,7 @@
     "verticalAlign": "middle",
     "itemMarginBottom": 5,
     "align": "right",
+     "width": 200,
     "itemStyle": {
       "fontWeight": "normal"
     }
