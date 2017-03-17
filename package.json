@@ -20,7 +20,7 @@
     "serialize-javascript": "^1.3.0",
     "shrinkpack": "0.18.1",
     "svgo": "0.7.2",
-    "copy-node-modules": "0.4.1"
+    "copy-node-modules": "1.0.0"
   },
   "scripts": {
     "build:database": "node build/createJsonDatabase",
