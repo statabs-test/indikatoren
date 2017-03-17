@@ -1,5 +1,8 @@
 (function(){
     return {
+   "data":{
+  	"switchRowsAndColumns": true
+  },
   "xAxis": {
     "type": "category"  ,	
   },
@@ -22,14 +25,14 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 0,
+    "x": 35,
 	"y": 65,    
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
   tooltip: {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>',
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>',
     "shared": false
   },  
   "chart": {      
