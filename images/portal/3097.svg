@@ -1,71 +1,79 @@
 <svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h428v308H0z"/>
+        </clipPath>
+    </defs>
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
     <path fill="none" class="highcharts-plot-background" d="M47 41h428v308H47z"/>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M47 103.5h428m-428 61h428m-428 62h428m-428 61h428m-428 62h428"/>
+        <path fill="none" class="highcharts-grid-line" d="M50.5 41v308m105-308v308m105-308v308m105-308v308m105-308v308"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M46.5 41v308m86-308v308m85-308v308m86-308v308m85-308v308m87-308v308"/>
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M47 349.5h428m-428-62h428m-428-61h428m-428-62h428m-428-61h428m-428-63h428"/>
     </g>
     <path fill="none" class="highcharts-plot-border" d="M47 41h428v308H47z"/>
     <g class="highcharts-axis highcharts-xaxis">
-        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M47 103.5H37m10 61H37m10 62H37m10 61H37m10 62H37"/>
-        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M46.5 41v308"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M47 349.5h428"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M47 349h428"/>
+        <path fill="none" class="highcharts-axis-line" d="M47 41v308"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-markers highcharts-series-0 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#3c3" d="M346 68a4 4 0 1 1 .004 0zm10 123a4 4 0 1 1 .004 0zm17 124a4 4 0 1 1 .004 0z" class="highcharts-point"/>
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(47 41)" clip-path="url(#a)">
+            <path fill="none" d="M4.196 92.625L214 85.353l209.804-11.696" class="highcharts-graph" stroke="#3c3" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.804 92.625h10L214 85.353l209.804-11.696h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#3c3" d="M55 134a4 4 0 1 1 0-.004zm210-8a4 4 0 1 1 0-.004zm209-11a4 4 0 1 1 0-.004z" class="highcharts-point"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>I.08.3.0002 Anteil erneuerbarer Energie am Bruttoverbrauch</tspan>
     </text>
-    <g class="highcharts-data-labels highcharts-series-0 highcharts-scatter-series highcharts-color-undefined highcharts-tracker">
-        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="700" color="#000" transform="translate(351 51)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
-            <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">34.9634254733309%</tspan><tspan x="5" y="15">34.9634254733309%</tspan>
+    <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(42 101)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">34.9634254733309%</tspan><tspan x="5" y="16">34.9634254733309%</tspan>
         </text>
-        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="700" color="#000" transform="translate(273 297)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
-            <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">38.0427439021328%</tspan><tspan x="5" y="15">38.0427439021328%</tspan>
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(365 82)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">38.0427439021328%</tspan><tspan x="5" y="16">38.0427439021328%</tspan>
         </text>
     </g>
-    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="10">
-        <text x="32" y="75">
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="51.196" y="368">
             <tspan>2010</tspan>
         </text>
-        <text x="32" y="137">
+        <text x="156.098" y="368">
             <tspan>2011</tspan>
         </text>
-        <text x="32" y="199">
+        <text x="261" y="368">
             <tspan>2012</tspan>
         </text>
-        <text x="32" y="260">
+        <text x="365.902" y="368">
             <tspan>2013</tspan>
         </text>
-        <text x="32" y="322">
+        <text x="462.781" y="368">
             <tspan>2014</tspan>
         </text>
     </g>
-    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
-        <text x="47" y="368">
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="32" y="354">
             <tspan>0%</tspan>
         </text>
-        <text x="132.6" y="368">
-            <tspan>1 000%</tspan>
+        <text x="32" y="292">
+            <tspan>10%</tspan>
         </text>
-        <text x="218.2" y="368">
-            <tspan>2 000%</tspan>
+        <text x="32" y="230">
+            <tspan>20%</tspan>
         </text>
-        <text x="303.8" y="368">
-            <tspan>3 000%</tspan>
+        <text x="32" y="169">
+            <tspan>30%</tspan>
         </text>
-        <text x="389.4" y="368">
-            <tspan>4 000%</tspan>
+        <text x="32" y="107">
+            <tspan>40%</tspan>
         </text>
-        <text x="456.375" y="368">
-            <tspan>5 000%</tspan>
+        <text x="32" y="46">
+            <tspan>50%</tspan>
         </text>
     </g>
     <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">

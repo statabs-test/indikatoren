@@ -51,15 +51,15 @@
       "data": [
         [
           2005,
-          360232.22691
+          351288.11881
         ],
         [
           2006,
-          371151.10991
+          364261.64509
         ],
         [
           2007,
-          382992.84989
+          376797.45881
         ],
         [
           2008,
@@ -97,15 +97,15 @@
       "data": [
         [
           2005,
-          1195306.78675
+          944912.27294
         ],
         [
           2006,
-          1111917.95636
+          957409.32341
         ],
         [
           2007,
-          2204775.98316
+          1031536.29002
         ],
         [
           2008,
@@ -501,7 +501,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
     "min": 0,

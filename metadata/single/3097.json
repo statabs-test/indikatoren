@@ -17,7 +17,7 @@
 "stufe5":"", 
 "lesehilfe":"Der Anteil der erneuerbaren Energieträger am Bruttoenergieverbrauch nimmt über die Jahre zu. 2010 lag der Anteil bei 35,0%, zwei Jahre später bei 36,2%. Im Jahr 2014 machen die erneuerbaren Energieträger 38,1% des Bruttoverbrauchs aus.",
 "erlaeuterungen":"In der Umweltwärme ist auch Geothermie enthalten; Kehricht / Schlamm: Die ausgewiesene Menge entspricht 50% des verbrauchten Kehrichts und 100% des verbrauchten Klärschlamms. Der Industrieabfall bleibt unberücksichtigt; 100% des importierten Strommix stammen aus erneuerbaren Quellen.",
-"template":"dotplot",
+"template":"line001",
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,

@@ -17,7 +17,7 @@
 "stufe5":"", 
 "lesehilfe":"Der mittlere Tagesverbrauch pro Kopf im Bereich Haushalte bewegt sich in den letzten zehn Jahren zwischen 208 und  227 Litern.",
 "erlaeuterungen":"Trinkwasserbezug temporär: In der Tarifverordnung gibt es die Möglichkeit für temporäre Wasserbezüge, z.B. für Baustellen, Messen, Zirkusveranstaltungen etc., also überall, wo kein permanenter Wasserbezug notwendig ist und daher auch kein eigentlicher Anschluss besteht.",
-"template":"dotplot",
+"template":"line001",
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,

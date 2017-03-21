@@ -1,7 +1,7 @@
 (function(){
     return {
   "xAxis": {
-    "tickInterval": 1,
+    "tickInterval": 2,
   },
   "yAxis": {
     "min": 0, 

@@ -1,7 +1,7 @@
 (function(){
     return {
   "xAxis": {
-    "tickInterval": 1,
+    "tickInterval":2,
   },
   "yAxis": {
     "min": 0,
@@ -12,7 +12,7 @@
   },	
   "tooltip": {
     "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
+	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}</b><br/>'
   },
  "series": [
  	{"color": "#672773", "legendIndex": 1}, /*violett*/
@@ -21,14 +21,15 @@
   "legend": {
     "enabled": true,
     "x": 10,
-    "y": 50,
+    "y": 100,
     "layout": "vertical",
     "verticalAlign": "middle",
     "itemMarginBottom": 5,
     "align": "right",
-     "width": 200,
+     "width": 180,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "width": 200
     }
   },
   "plotOptions": {
