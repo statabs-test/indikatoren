@@ -19,7 +19,7 @@
     }
   ],
   "tooltip": {
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span><b>{point.y}</b><br/>',
+	"pointFormat": '<span style="color:{series.color}">\u25CF</span><b>{point.y:.0f}</b><br/>',
     "shared": false
   },
   "plotOptions": {

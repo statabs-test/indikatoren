@@ -104,7 +104,7 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 1
+    "tickInterval": 2
   },
   "chart": {
     "events": {

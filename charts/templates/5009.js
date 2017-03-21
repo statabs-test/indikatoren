@@ -1,5 +1,8 @@
 (function(){
     return {
+   "data":{
+  	"switchRowsAndColumns": true
+  },
   "xAxis": {
     "type": "category"    
   },

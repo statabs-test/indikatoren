@@ -17,7 +17,7 @@
 "stufe5":"", 
 "lesehilfe":"Die Werte bewegten sich in den letzten 10 Jahren tendenziell nach unten.",
 "erlaeuterungen":"",
-"template":"dotplot",
+"template":"line001",
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
