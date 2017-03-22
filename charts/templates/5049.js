@@ -1,5 +1,8 @@
 (function(){
     return {
+  "data":{
+  	"switchRowsAndColumns": true
+  },
   "xAxis": {
     "type": "category"  ,	
   },
@@ -22,7 +25,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 0,
+    "x": 35,
 	"y": 65,    
     "itemStyle": {
       "fontWeight": "normal"
