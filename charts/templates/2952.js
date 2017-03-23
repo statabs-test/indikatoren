@@ -18,7 +18,7 @@
   {"color": "#b475ab", "visible": false}, /* ... */
   {"color": "#933f8d", "visible": false}, /* ...*/
   {"color": "#2f1435", "visible": false}, /* ... */
-  {"color": "#8064a2"}, /* dunkelrot*/
+  {"color": "#8064a2", "visible": true}, /* dunkelrot*/
   ],
   "legend": {
     "enabled": true,
