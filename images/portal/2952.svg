@@ -22,14 +22,11 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 112)" clip-path="url(#a)">
-            <path fill="#45381d" class="highcharts-point" stroke="#fff" d="M9.5 8.5h19v219h-19zm38 0h19v219h-19zm39-3h19v222h-19zm38 15h19v207h-19zm38-13h19v220h-19zm39-2h19v222h-19zm38 3h19v219h-19zm39-1h19v220h-19zm38 0h19v220h-19zm38 1h19v219h-19zm39 0h19v219h-19z"/>
+            <path fill="#8064a2" class="highcharts-point" stroke="#fff" d="M9.5 127.5h19v100h-19zm38-29h19v129h-19zm39 31h19v98h-19zm38-8h19v106h-19zm38 16h19v90h-19zm39-12h19v102h-19zm38 5h19v97h-19zm39-18h19v115h-19zm38 3h19v112h-19zm38 17h19v95h-19zm39-8h19v103h-19z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>I.50.1.0041 Anteil Befragte, die mit der Gesundheitsversorgung</tspan><tspan dy="17" x="10">eher oder sehr zufrieden sind</tspan><title>I.50.1.0041 Anteil Befragte, die mit der Gesundheitsversorgung eher oder sehr zufrieden sind</title>
-    </text>
-    <text x="10" class="highcharts-subtitle" y="57" color="#000" font-weight="400">
-        <tspan>«Wie zufrieden sind Sie mit der Gesundheitsversorgung?»</tspan>
+        <tspan>I.01.1.0003 Erleichterung zur Vereinbarkeit von Familie und</tspan><tspan dy="17" x="10">Beruf (Bevölkerungsbefragung)</tspan><title>I.01.1.0003 Erleichterung zur Vereinbarkeit von Familie und Beruf (Bevölkerungsbefragung)</title>
     </text>
     <g class="highcharts-legend" transform="translate(50 75)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="334" height="25"/>
@@ -61,7 +58,7 @@
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(278.75 3)">
                 2015
             </text>
-            <path fill="#45381d" class="highcharts-point" d="M280.75 7h12v12h-12z"/>
+            <path fill="#8064a2" class="highcharts-point" d="M280.75 7h12v12h-12z"/>
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
@@ -117,6 +114,6 @@
         </text>
     </g>
     <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
-        <tspan>Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_8</tspan>
+        <tspan>Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F16a_9</tspan>
     </text>
 </svg>

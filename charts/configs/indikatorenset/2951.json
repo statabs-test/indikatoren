@@ -4,30 +4,94 @@
       "color": "#77933c",
       "data": [
         [
-          "2009",
-          58.108108108108
+          "Innenstadt",
+          60.56338028169
         ],
         [
-          "2013",
-          63.076923076923
+          "Am Ring West",
+          90.90909090909
+        ],
+        [
+          "St. Alban Breite",
+          88.745980707395
+        ],
+        [
+          "St. Johann",
+          83.003952569169
+        ],
+        [
+          "Gundeldingen",
+          73.725490196078
+        ],
+        [
+          "Bruderholz",
+          93.333333333333
+        ],
+        [
+          "Unteress Kleinbasel",
+          63.793103448275
+        ],
+        [
+          "Oberes Kleinbasel",
+          84.046692607003
+        ],
+        [
+          "Riehen Bettingen",
+          96.359743040685
+        ],
+        [
+          "Basel-Stadt",
+          84.579439252336
         ]
       ],
-      "name": "Innenstadt",
+      "name": "2009",
       "turboThreshold": 0
     },
     {
       "color": "#c3d69b",
       "data": [
         [
-          "2009",
-          87.54623921085
+          "Innenstadt",
+          64.0625
         ],
         [
-          "2013",
-          88.461538461538
+          "Am Ring West",
+          91.335740072202
+        ],
+        [
+          "St. Alban Breite",
+          90.776699029126
+        ],
+        [
+          "St. Johann",
+          93.333333333333
+        ],
+        [
+          "Gundeldingen",
+          72.31638418079
+        ],
+        [
+          "Bruderholz",
+          93.75
+        ],
+        [
+          "Unteress Kleinbasel",
+          65.878378378378
+        ],
+        [
+          "Oberes Kleinbasel",
+          92.513368983957
+        ],
+        [
+          "Riehen Bettingen",
+          96.960486322188
+        ],
+        [
+          "Basel-Stadt",
+          86.716209939619
         ]
       ],
-      "name": "Am Ring",
+      "name": "2013",
       "turboThreshold": 0
     }
   ],
@@ -144,7 +208,7 @@
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
