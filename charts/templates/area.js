@@ -2,7 +2,7 @@
     return {
       "yAxis": {
         "labels": {
-          "format": "{value:,.0f}",
+          "format": "{value}%",
         }
       },
       "xAxis": {
@@ -25,20 +25,8 @@
         {"color": "#FF8028"}
       ],
       "legend": {
-        "enabled": true,
-        "x": 25,
-        "y": 35,
-        "layout": "horizontal",
-        "verticalAlign": "top",
-        "itemMarginBottom": 5,
-        "align": "left",
-        "itemStyle": {
-          "fontWeight": "normal"
-        }
-      },
-      "chart": {		
-    		"marginTop": 130
-    	}
-	};
+        "enabled": true
+      }
+    };
 }());
  
