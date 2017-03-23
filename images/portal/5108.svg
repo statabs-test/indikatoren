@@ -21,27 +21,27 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(65 152)" clip-path="url(#a)">
-            <path fill="none" d="M4.02 99.026h44.662l44.662 1.738 44.663-1.738 44.662.118 44.662 1.494H405.98" class="highcharts-graph" stroke="#ff8028" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M-5.98 99.026h54.662l44.662 1.738 44.663-1.738 44.662.118 44.662 1.494H415.98" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+            <path fill="none" d="M4.02 70.408h44.662l44.662 6.044 44.663 4.118h44.662l44.662 4.166 44.662 2.104 44.663 2.125h89.324" class="highcharts-graph" stroke="#ff8028" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.98 70.408h54.662l44.662 6.044 44.663 4.118h44.662l44.662 4.166 44.662 2.104 44.663 2.125h99.324" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#ff8028" d="M73 251a4 4 0 1 1 0-.004zm44 0a4 4 0 1 1 0-.004zm45 2a4 4 0 1 1 0-.004zm45-2a4 4 0 1 1 0-.004zm44 0a4 4 0 1 1 0-.004zm45 2a4 4 0 1 1 0-.004zm44 0a4 4 0 1 1 0-.004zm45 0a4 4 0 1 1 0-.004zm45 0a4 4 0 1 1 0-.004zm44 0a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <path fill="#ff8028" d="M73 222a4 4 0 1 1 0-.004zm44 0a4 4 0 1 1 0-.004zm45 6a4 4 0 1 1 0-.004zm45 5a4 4 0 1 1 0-.004zm44 0a4 4 0 1 1 0-.004zm45 4a4 4 0 1 1 0-.004zm44 2a4 4 0 1 1 0-.004zm45 2a4 4 0 1 1 0-.004zm45 0a4 4 0 1 1 0-.004zm44 0a4 4 0 1 1 0-.004z" class="highcharts-point"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(65 152)" clip-path="url(#a)">
-            <path fill="none" d="M4.02 75.787h89.324l44.663 3.492 44.662.069 44.662.36h133.987l44.662.073" class="highcharts-graph" stroke="#007a2f" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M-5.98 75.787h99.324l44.663 3.492 44.662.069 44.662.36h133.987l44.662.073h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+            <path fill="none" d="M4.02 99.026h44.662l44.662 1.738 44.663-1.738 44.662.118 44.662 1.494H405.98" class="highcharts-graph" stroke="#007a2f" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.98 99.026h54.662l44.662 1.738 44.663-1.738 44.662.118 44.662 1.494H415.98" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="translate(65 152)" clip-path="url(#a)">
-            <path fill="none" d="M4.02 64.4h44.662l44.662 35.807 44.663 3.559 44.662 5.143 44.662-3.103H405.98" class="highcharts-graph" stroke="#672773" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M-5.98 64.4h54.662l44.662 35.807 44.663 3.559 44.662 5.143 44.662-3.103H415.98" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+            <path fill="none" d="M4.02 75.787h89.324l44.663 3.492 44.662.069 44.662.36h133.987l44.662.073" class="highcharts-graph" stroke="#672773" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.98 75.787h99.324l44.663 3.492 44.662.069 44.662.36h133.987l44.662.073h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-series highcharts-series-3 highcharts-line-series highcharts-color-undefined" transform="translate(65 152)" clip-path="url(#a)">
-            <path fill="none" d="M4.02 98.943l44.662-.004 44.662 1.073h89.326l44.662.008h44.662l44.663.187h89.324" class="highcharts-graph" stroke="#b00000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M-5.98 98.943h10l44.662-.004 44.662 1.073h89.326l44.662.008h44.662l44.663.187h99.324" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+            <path fill="none" d="M4.02 64.4h44.662l44.662 35.807 44.663 3.559 44.662 5.143 44.662-3.103H405.98" class="highcharts-graph" stroke="#b00000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.98 64.4h54.662l44.662 35.807 44.663 3.559 44.662 5.143 44.662-3.103H415.98" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-series highcharts-series-4 highcharts-line-series highcharts-color-undefined" transform="translate(65 152)" clip-path="url(#a)">
-            <path fill="none" d="M4.02 70.408h44.662l44.662 6.044 44.663 4.118h44.662l44.662 4.166 44.662 2.104 44.663 2.125h89.324" class="highcharts-graph" stroke="#a0bec8" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M-5.98 70.408h54.662l44.662 6.044 44.663 4.118h44.662l44.662 4.166 44.662 2.104 44.663 2.125h99.324" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+            <path fill="none" d="M4.02 98.943l44.662-.004 44.662 1.073h89.326l44.662.008h44.662l44.663.187h89.324" class="highcharts-graph" stroke="#a0bec8" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.98 98.943h10l44.662-.004 44.662 1.073h89.326l44.662.008h44.662l44.663.187h99.324" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
@@ -53,31 +53,31 @@
             <path fill="none" d="M8 14h16" class="highcharts-graph" stroke="#ff8028" stroke-width="2"/>
             <path fill="#ff8028" d="M20 14a4 4 0 1 1 0-.004z" class="highcharts-point"/>
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
-                Bern
+                Basel
             </text>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1">
-            <path fill="none" d="M74.328 14h16" class="highcharts-graph" stroke="#007a2f" stroke-width="2"/>
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(74.328 3)">
-                Genf
+            <path fill="none" d="M79 14h16" class="highcharts-graph" stroke="#007a2f" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(79 3)">
+                Bern
             </text>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-2">
-            <path fill="none" d="M141.328 14h16" class="highcharts-graph" stroke="#672773" stroke-width="2"/>
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(141.328 3)">
-                Liestal
+            <path fill="none" d="M145.328 14h16" class="highcharts-graph" stroke="#672773" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(145.328 3)">
+                Genf
             </text>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-3">
-            <path fill="none" d="M216.984 14h16" class="highcharts-graph" stroke="#b00000" stroke-width="2"/>
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(216.984 3)">
-                Zürich
+            <path fill="none" d="M212.328 14h16" class="highcharts-graph" stroke="#b00000" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(212.328 3)">
+                Liestal
             </text>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-4">
-            <path fill="none" d="M291.297 14h16" class="highcharts-graph" stroke="#a0bec8" stroke-width="2"/>
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(291.297 3)">
-                Basel
+            <path fill="none" d="M287.984 14h16" class="highcharts-graph" stroke="#a0bec8" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(287.984 3)">
+                Zürich
             </text>
         </g>
     </g>

@@ -676,6 +676,48 @@ var indikatoren = [
 		]
 	},
 	{
+		"title": "Anteil Familien, die mit den Grünflächen (z.B. Wiesen/Parks) im Quartier sehr oder eher zufrieden sind nach Wohngegend",
+		"subtitle": "«Wenn Sie an Ihr Quartier denken, wie zufrieden sind Sie dann mit dem Angebot an Grünflächen (z.B. Wiesen, Parks)»",
+		"kuerzel": "I.50.2.0013",
+		"kuerzelKunde": "LP.5.19.2",
+		"description": "Anteil Familien, die mit den Grünflächen (z.B. Wiesen/Parks) im Quartier sehr oder eher zufrieden sind nach Wohngegend",
+		"id": 2951,
+		"thema": "50 Befragungen",
+		"unterthema": "Familienbefragung",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Wohnviertel",
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-02-15T14:16:07.077",
+		"schlagwort": [
+			"Grünflächen",
+			"Familie",
+			"Bevölkerung",
+			"Quartier"
+		],
+		"stufe1": "Schwerpunkt 5: Urbane Standortqualität",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Zufriedenheit mit Grünanlagen und Parks war mit mehr als 90% sowohl 2009 als auch 2013 in den Landgemeinden Riehen und Bettingen sowie auf dem Bruderholz am ausgeprägtesten. Am wenigsten zufrieden mit den Grünanlagen im Quartier sind mit einem Anteil von weniger als 65% in beiden Befragungsjahren die Einwohnerinnen und Einwohner der Innenstadt sowie des unteren Kleinbasel.",
+		"erlaeuterungen": "Da im Datensatz nicht für alle statistischen Wohnviertel genügend Beobachtungen vorliegen, wurden einzelne Wohnviertel zu grösseren Gebietseinheiten zusammengefasst. Es sind dies: Innenstadt = Altstadt Grossbasel, Vorstädte, Altstadt Kleinbasel; Am Ring West = Am Ring, Bachletten, Gotthelf, Iselin; Unteres Kleinbasel = Clara, Rosental, Matthäus, Klybeck, Kleinhüningen; Oberes Kleinbasel = Wettstein, Hirzbrunnen.",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": 2950,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F18e"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Anteil Befragter, die mit dem Kulturangebot eher oder sehr zufrieden sind",
 		"subtitle": "«Wie zufrieden sind Sie mit dem Kulturangebot»",
 		"kuerzel": "I.50.1.0037",

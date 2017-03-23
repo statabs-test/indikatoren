@@ -706,7 +706,7 @@ var indikatorensetData = [
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"parentId": 2950,
 		"children": [],
 		"renderLink": [],
