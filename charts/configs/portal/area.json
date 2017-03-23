@@ -1,6 +1,10 @@
 {
   "series": [
     {
+      "color": "#69929B",
+      "marker": {
+        "enabled": false
+      },
       "data": [
         [
           2006,
@@ -37,15 +41,12 @@
         [
           2014,
           14.2630744849445
-        ],
-        [
-          2015,
-          16.7847442769483
         ]
       ],
       "name": "Ausland"
     },
     {
+      "color": "#672773",
       "data": [
         [
           2006,
@@ -82,15 +83,12 @@
         [
           2014,
           14.7887323943662
-        ],
-        [
-          2015,
-          17.2632647880173
         ]
       ],
       "name": "Deutschland"
     },
     {
+      "color": "#007A2F",
       "data": [
         [
           2006,
@@ -127,15 +125,12 @@
         [
           2014,
           11.1650485436893
-        ],
-        [
-          2015,
-          11.6839315827511
         ]
       ],
       "name": "Italien"
     },
     {
+      "color": "#73BA7C",
       "data": [
         [
           2006,
@@ -172,15 +167,12 @@
         [
           2014,
           7.2483969891274
-        ],
-        [
-          2015,
-          13.892672296377
         ]
       ],
       "name": "Spanien"
     },
     {
+      "color": "#FABD24",
       "data": [
         [
           2006,
@@ -217,15 +209,12 @@
         [
           2014,
           16.2352580793383
-        ],
-        [
-          2015,
-          24.7183979974969
         ]
       ],
       "name": "Türkei"
     },
     {
+      "color": "#D3E2E5",
       "data": [
         [
           2006,
@@ -262,15 +251,12 @@
         [
           2014,
           25.1274149579234
-        ],
-        [
-          2015,
-          27.8980278980279
         ]
       ],
-      "name": "Ehem. Jugoslawien ohne SLO"
+      "name": "Ehem. Jugosl."
     },
     {
+      "color": "#9F7C5A",
       "data": [
         [
           2006,
@@ -307,15 +293,12 @@
         [
           2014,
           45.2830188679245
-        ],
-        [
-          2015,
-          35.3356890459364
         ]
       ],
-      "name": "Maghreb und Ägypten"
+      "name": "Maghreb\u002FÄgypten"
     },
     {
+      "color": "#E7CFE2",
       "data": [
         [
           2006,
@@ -352,15 +335,12 @@
         [
           2014,
           6.82805710738672
-        ],
-        [
-          2015,
-          6.97269029633934
         ]
       ],
       "name": "EU-Oststaaten"
     },
     {
+      "color": "#FF8028",
       "data": [
         [
           2006,
@@ -397,13 +377,9 @@
         [
           2014,
           22.794846382557
-        ],
-        [
-          2015,
-          21.3611525086935
         ]
       ],
-      "name": "Mittel- und Südamerika"
+      "name": "M.+S.-Amerika"
     }
   ],
   "chart": {
@@ -422,7 +398,6 @@
       "fontFamily": "Arial"
     },
     "type": "area",
-    "marginTop": 130,
     "forExport": true,
     "renderTo": "container-area"
   },
@@ -445,12 +420,9 @@
     "text": "",
     "align": "left"
   },
-  "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-  },
   "yAxis": {
     "min": 0,
+    "max": 100,
     "title": {
       "style": {
         "color": "#000000",
@@ -462,7 +434,7 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}"
+      "format": "{value}%"
     }
   },
   "xAxis": {
@@ -490,15 +462,16 @@
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
   },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f} ({point.percentage:.1f}%)\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
   "legend": {
     "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
     "symbolRadius": 0,
-    "x": 25,
-    "y": 35,
-    "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -508,8 +481,10 @@
       "stacking": "percent"
     },
     "area": {
+      "lineWidth": 0,
       "marker": {
-        "enabled": false
+        "enabled": false,
+        "symbol": "circle"
       }
     }
   },
