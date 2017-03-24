@@ -461,7 +461,11 @@
     },
     "highcharts-export-csv": {
       "version": "1.4.4",
+<<<<<<< HEAD
       "from": "highcharts-export-csv@1.4.4",
+=======
+      "from": "node_shrinkwrap/highcharts-export-csv-1.4.4.tar",
+>>>>>>> issue-135
       "resolved": "./node_shrinkwrap/highcharts-export-csv-1.4.4.tar"
     },
     "highcharts-phantomjs": {
