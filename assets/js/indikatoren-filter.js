@@ -397,10 +397,20 @@ function slideToLinkedChart(chartId, FJS, indikatorensetView){
     $('.carousel').carousel(index);
   }
   else {
-    //reset search filters, then find index and slide to the specified chart
+    //get index of currently displayed chart
+    var currentIndex = $(".item.active").index();
+    //reset search filters
     resetPortalFilter(FJS, indikatorensetView);
+    //find index of target chart
     index = getIndexOfChart(chartId, getLastFjsResult());
     if (index > -1){
+      //if index of current chart is same as index of target chart we have to mess with the "active" attribute in order to make sliding work
+      if (currentIndex == index){
+        //set active class on the last item (is set to first item by afterFilter function)
+        $(".item.active").removeClass("active");
+        $(".item:last-child").addClass("active");
+      }
+      //slide to target item
       $('.carousel').carousel(index);
     }
     else {
