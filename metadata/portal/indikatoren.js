@@ -676,6 +676,51 @@ var indikatoren = [
 		]
 	},
 	{
+		"title": "Anteil Befragte, die mit den Parks und Grünanlagen am Wohnort sehr oder eher zufrieden sind nach Wohngegend",
+		"subtitle": "«Wie zufrieden sind Sie mit Parks und Grünanlagen am Wohnort?»",
+		"kuerzel": "I.50.1.0033",
+		"kuerzelKunde": "LP.5.19.1",
+		"description": "Anteil Befragte, die mit den Parks und Grünanlagen am Wohnort sehr oder eher zufrieden sind nach Wohngegend",
+		"id": 2950,
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Wohnviertel",
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2016-12-14T12:04:37.3737",
+		"schlagwort": [
+			"Grünflächen",
+			"Bevölkerung",
+			"Quartier"
+		],
+		"stufe1": "Schwerpunkt 5: Urbane Standortqualität",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Mit den Parks und Grünanlagen sind 91,7% der Befragten in Basel-Stadt sehr oder eher zufrieden.  Die Zufriedenheit mit den Grünanlagen unterscheidet sich nach Wohngegend. Während in den Wohngegenden Gundeldingen und Unteres Kleinbasel die Zufriedenheit bei 77,2% liegt, sind die Befragten in den Wohngegenden Am Ring West mit 95,1% und in Riehen mit 98,2% zufriedener.",
+		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt. Da im Datensatz nicht für alle statistischen Wohnviertel genügend Beobachtungen vorliegen, wurden einzelne Wohnviertel zu grösseren Gebietseinheiten zusammengefasst. Es sind dies: Innenstadt = Altstadt Grossbasel, Vorstädte, Altstadt Kleinbasel; Am Ring West = Am Ring, Bachletten, Gotthelf, Iselin; Unteres Kleinbasel = Clara, Rosental, Matthäus, Klybeck, Kleinhüningen; Oberes Kleinbasel = Wettstein, Hirzbrunnen.",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"2951",
+			"5035",
+			"5036"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_7"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Anteil Familien, die mit den Grünflächen (z.B. Wiesen/Parks) im Quartier sehr oder eher zufrieden sind nach Wohngegend",
 		"subtitle": "«Wenn Sie an Ihr Quartier denken, wie zufrieden sind Sie dann mit dem Angebot an Grünflächen (z.B. Wiesen, Parks)»",
 		"kuerzel": "I.50.2.0013",
@@ -6453,6 +6498,47 @@ var indikatoren = [
 		]
 	},
 	{
+		"title": "Anteil Befragte, die mit den Parks und Grünanlagen am Wohnort sehr oder eher zufrieden sind nach Wohngegend",
+		"subtitle": "",
+		"kuerzel": "I.50.1.0035",
+		"kuerzelKunde": "LP.5.20.1",
+		"description": "Anteil Befragte, die mit den Parks und Grünanlagen am Wohnort sehr oder eher zufrieden sind nach Wohngegend",
+		"id": 5035,
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Wohnviertel",
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2016-12-15T16:12:05.055",
+		"schlagwort": [
+			"Grünflächen",
+			"Bevölkerung",
+			"Quartier"
+		],
+		"stufe1": "Schwerpunkt 5: Urbane Standortqualität",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Mit den Parks und Grünanlagen sind 91,7% der Befragten in Basel-Stadt sehr oder eher zufrieden.  Die Zufriedenheit mit den Grünanlagen unterscheidet sich nach Wohngegend. Während in den Wohngegenden Gundeldingen und Unteres Kleinbasel die Zufriedenheit bei 77,2% liegt, sind die Befragten in den Wohngegenden Am Ring West mit 95,1% und in Riehen mit 98,2% zufriedener.",
+		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt. Da im Datensatz nicht für alle statistischen Wohnviertel genügend Beobachtungen vorliegen, wurden einzelne Wohnviertel zu grösseren Gebietseinheiten zusammengefasst. Es sind dies: Innenstadt = Altstadt Grossbasel, Vorstädte, Altstadt Kleinbasel; Am Ring West = Am Ring, Bachletten, Gotthelf, Iselin; Unteres Kleinbasel = Clara, Rosental, Matthäus, Klybeck, Kleinhüningen; Oberes Kleinbasel = Wettstein, Hirzbrunnen.",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": 2950,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_7"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Bewertung der Lebensqualität im Kanton Basel-Stadt",
 		"subtitle": "",
 		"kuerzel": "I.50.1.0036",
@@ -6770,6 +6856,47 @@ var indikatoren = [
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Entwicklung der besucherstärksten Messen in der Stadt Basel",
+		"subtitle": "",
+		"kuerzel": "I.10.1.0007",
+		"kuerzelKunde": "LP.6.22.3",
+		"description": "Entwicklung der besucherstärksten Messen in der Stadt Basel",
+		"id": 5055,
+		"thema": "10 Tourismus",
+		"unterthema": "Hotellerie",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-01-04T16:33:58.5858",
+		"schlagwort": [
+			"Gäste",
+			"Ausstellung",
+			"Standort",
+			"Messe"
+		],
+		"stufe1": "Schwerpunkt 6: Kulturstadt mit Ausstrahlung",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Baselworld ist mit Abstand die meistbesuchte Messe.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Messe Schweiz"
 		],
 		"externalLinks": [
 			""

@@ -1,260 +1,235 @@
 {
   "series": [
     {
-      "color": "#e7cfe2",
-      "visible": false,
+      "color": "#d7e9d2",
       "data": [
         [
-          "Schweiz",
-          36.078006500541
+          "Innenstadt",
+          70.422535211267
         ],
         [
-          "Ausland",
-          41.304347826086
+          "Am Ring West",
+          86.410256410256
         ],
         [
-          "18-29 J.",
-          42.446043165467
+          "St. Alban Breite",
+          87.586206896551
         ],
         [
-          "30-39 J.",
-          28.648648648648
+          "St. Johann",
+          77.477477477477
         ],
         [
-          "40-49 J.",
-          31.753554502369
+          "Gundeldingen",
+          70.289855072463
         ],
         [
-          "50-59 J.",
-          30.526315789473
+          "Bruderholz",
+          90.588235294117
         ],
         [
-          "60-69 J.",
-          45.142857142857
+          "Unteress Kleinbasel",
+          65.340909090909
         ],
         [
-          "\u003E69 J.",
-          45.962732919254
+          "Oberes Kleinbasel",
+          87.681159420289
         ],
         [
-          "Männer",
-          39.361702127659
+          "Riehen Bettingen",
+          97.835497835497
         ],
         [
-          "Frauen",
-          34.686971235194
-        ],
-        [
-          "Total",
-          36.757775683317
+          "Basel-Stadt",
+          83.232323232323
         ]
       ],
       "name": "2003",
       "turboThreshold": 0
     },
     {
-      "color": "#b475ab",
-      "visible": false,
+      "color": "#73ba7c",
       "data": [
         [
-          "Schweiz",
-          28.659793814432
+          "Innenstadt",
+          64.130434782608
         ],
         [
-          "Ausland",
-          36.075949367088
+          "Am Ring West",
+          89.090909090909
         ],
         [
-          "18-29 J.",
-          43.712574850299
+          "St. Alban Breite",
+          86.577181208053
         ],
         [
-          "30-39 J.",
-          24.615384615384
+          "St. Johann",
+          85.217391304347
         ],
         [
-          "40-49 J.",
-          25.102880658436
+          "Gundeldingen",
+          67.479674796747
         ],
         [
-          "50-59 J.",
-          22.885572139303
+          "Bruderholz",
+          92.307692307692
         ],
         [
-          "60-69 J.",
-          26.785714285714
+          "Unteress Kleinbasel",
+          60.67415730337
         ],
         [
-          "\u003E69 J.",
-          40.25974025974
+          "Oberes Kleinbasel",
+          84.955752212389
         ],
         [
-          "Männer",
-          31.2625250501
+          "Riehen Bettingen",
+          94.444444444444
         ],
         [
-          "Frauen",
-          28.45786963434
-        ],
-        [
-          "Total",
-          29.698581560283
+          "Basel-Stadt",
+          82.454969979986
         ]
       ],
       "name": "2005",
       "turboThreshold": 0
     },
     {
-      "color": "#933f8d",
-      "visible": false,
+      "color": "#007a2f",
       "data": [
         [
-          "Schweiz",
-          34.035827186512
+          "Innenstadt",
+          78.75
         ],
         [
-          "Ausland",
-          37.704918032786
+          "Am Ring West",
+          91.111111111111
         ],
         [
-          "18-29 J.",
-          43.708609271523
+          "St. Alban Breite",
+          87.421383647798
         ],
         [
-          "30-39 J.",
-          34.69387755102
+          "St. Johann",
+          79.090909090909
         ],
         [
-          "40-49 J.",
-          28.282828282828
+          "Gundeldingen",
+          73.4375
         ],
         [
-          "50-59 J.",
-          29.186602870813
+          "Bruderholz",
+          93.103448275862
         ],
         [
-          "60-69 J.",
-          28.651685393258
+          "Unteress Kleinbasel",
+          58.947368421052
         ],
         [
-          "\u003E69 J.",
-          44.680851063829
+          "Oberes Kleinbasel",
+          85.294117647058
         ],
         [
-          "Männer",
-          36.475409836065
+          "Riehen Bettingen",
+          95.121951219512
         ],
         [
-          "Frauen",
-          32.761578044596
-        ],
-        [
-          "Total",
-          34.453781512605
+          "Basel-Stadt",
+          83.733333333333
         ]
       ],
       "name": "2007",
       "turboThreshold": 0
     },
     {
-      "color": "#2f1435",
-      "visible": false,
+      "color": "#0b3b19",
       "data": [
         [
-          "Schweiz",
-          43.517587939698
+          "Innenstadt",
+          80.597014925373
         ],
         [
-          "Ausland",
-          46.794871794871
+          "Am Ring West",
+          92.626728110599
         ],
         [
-          "18-29 J.",
-          45.588235294117
+          "St. Alban Breite",
+          94.152046783625
         ],
         [
-          "30-39 J.",
-          37.74834437086
+          "St. Johann",
+          88.118811881188
         ],
         [
-          "40-49 J.",
-          40.306122448979
+          "Gundeldingen",
+          76.470588235294
         ],
         [
-          "50-59 J.",
-          41.203703703703
+          "Bruderholz",
+          96.808510638297
         ],
         [
-          "60-69 J.",
-          37.563451776649
+          "Unteress Kleinbasel",
+          72.527472527472
         ],
         [
-          "\u003E69 J.",
-          56.862745098039
+          "Oberes Kleinbasel",
+          88.288288288288
         ],
         [
-          "Männer",
-          46.6796875
+          "Riehen Bettingen",
+          98.268398268398
         ],
         [
-          "Frauen",
-          41.784037558685
-        ],
-        [
-          "Total",
-          43.96177237185
+          "Basel-Stadt",
+          89.072847682119
         ]
       ],
       "name": "2011",
       "turboThreshold": 0
     },
     {
-      "color": "#8064a2",
-      "visible": true,
+      "color": "#4f6228",
       "data": [
         [
-          "Schweiz",
-          43.852459016393
+          "Innenstadt",
+          92.647058823529
         ],
         [
-          "Ausland",
-          57.03125
+          "Am Ring West",
+          95.121951219512
         ],
         [
-          "18-29 J.",
-          43.209876543209
+          "St. Alban Breite",
+          94.444444444444
         ],
         [
-          "30-39 J.",
-          46.666666666666
+          "St. Johann",
+          95
         ],
         [
-          "40-49 J.",
-          39.473684210526
+          "Gundeldingen",
+          77.235772357723
         ],
         [
-          "50-59 J.",
-          44.888888888888
+          "Bruderholz",
+          92.660550458715
         ],
         [
-          "60-69 J.",
-          42.794759825327
+          "Unteress Kleinbasel",
+          77.181208053691
         ],
         [
-          "\u003E69 J.",
-          50.641025641025
+          "Oberes Kleinbasel",
+          92.1875
         ],
         [
-          "Männer",
-          49.506903353057
+          "Riehen Bettingen",
+          98.245614035087
         ],
         [
-          "Frauen",
-          41.876046901172
-        ],
-        [
-          "Total",
-          45.380434782608
+          "Basel-Stadt",
+          91.716766867067
         ]
       ],
       "name": "2015",
@@ -294,7 +269,7 @@
     "type": "column",
     "inverted": false,
     "forExport": true,
-    "renderTo": "container-2952"
+    "renderTo": "container-2950"
   },
   "plotOptions": {
     "series": {
@@ -312,7 +287,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "I.01.1.0003 Erleichterung zur Vereinbarkeit von Familie und Beruf (Bevölkerungsbefragung)"
+    "text": "LP.5.19.1 Anteil Befragte, die mit den Parks und Grünanlagen am Wohnort sehr oder eher zufrieden sind nach Wohngegend"
   },
   "subtitle": {
     "style": {
@@ -321,7 +296,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "«Wie zufrieden sind Sie mit Parks und Grünanlagen am Wohnort?»",
     "align": "left"
   },
   "yAxis": {
@@ -359,7 +334,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F16a_9"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_7"
   },
   "legend": {
     "symbolRadius": 0,
@@ -367,7 +342,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 40,
+    "x": 35,
     "y": 65,
     "itemStyle": {
       "fontWeight": "normal"
@@ -378,6 +353,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.01.1.0003"
+    "filename": "I.50.1.0033"
   }
 }
