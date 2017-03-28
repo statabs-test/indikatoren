@@ -1,0 +1,260 @@
+{
+  "series": [
+    {
+      "color": "#b00000",
+      "data": [
+        [
+          "Chemische Industrie",
+          0.182663779536024
+        ],
+        [
+          "Pharmazeutische Industrie",
+          0.450363236976199
+        ],
+        [
+          "Elektronik. Optik und Maschinenbau",
+          0.147834530433661
+        ],
+        [
+          "Medizinaltechnik",
+          0.0541211514480445
+        ],
+        [
+          "Total",
+          0.881760490314119
+        ]
+      ],
+      "name": "Basel-Stadt",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#4f81bd",
+      "data": [
+        [
+          "Chemische Industrie",
+          0.102614514913152
+        ],
+        [
+          "Pharmazeutische Industrie",
+          0.285530008637663
+        ],
+        [
+          "Elektronik. Optik und Maschinenbau",
+          0.172382728758813
+        ],
+        [
+          "Medizinaltechnik",
+          0.078012297789189
+        ],
+        [
+          "Total",
+          0.702232811978946
+        ]
+      ],
+      "name": "Basel-Landschaft",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#9A86A6",
+      "data": [
+        [
+          "Chemische Industrie",
+          0.063013016992523
+        ],
+        [
+          "Pharmazeutische Industrie",
+          0.0427376132461994
+        ],
+        [
+          "Elektronik. Optik und Maschinenbau",
+          0.346166562949119
+        ],
+        [
+          "Medizinaltechnik",
+          0.0532347678984544
+        ],
+        [
+          "Total",
+          0.626657982634399
+        ]
+      ],
+      "name": "Zürich",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#9bbb59",
+      "data": [
+        [
+          "Chemische Industrie",
+          1
+        ],
+        [
+          "Pharmazeutische Industrie",
+          2
+        ],
+        [
+          "Elektronik. Optik und Maschinenbau",
+          3
+        ],
+        [
+          "Medizinaltechnik",
+          4
+        ],
+        [
+          "Total",
+          5
+        ]
+      ],
+      "name": "sortierung",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FABD24",
+      "data": [
+        [
+          "Chemische Industrie",
+          186044
+        ],
+        [
+          "Pharmazeutische Industrie",
+          186044
+        ],
+        [
+          "Elektronik. Optik und Maschinenbau",
+          186044
+        ],
+        [
+          "Medizinaltechnik",
+          186044
+        ],
+        [
+          "Total",
+          186044
+        ]
+      ],
+      "name": "MW_Einw_BS",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickColor": "#FFFFFF"
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {}
+                }
+    },
+    "type": "column",
+    "inverted": false,
+    "forExport": true,
+    "renderTo": "container-5032"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "I.04.1.0013 Transnationale Patentanmeldungen pro 1000 Einwohner 2005 bis 2009"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "nach ausgewählten Wirtschaftsbranchen",
+    "align": "left"
+  },
+  "yAxis": {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}"
+    },
+    "min": 0,
+    "max": 0.5
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: BAK Basel Economics"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "x": 25,
+    "y": 55,
+    "itemWidth": 300,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": "I.04.1.0013"
+  }
+}

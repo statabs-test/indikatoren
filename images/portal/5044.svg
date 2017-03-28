@@ -1,0 +1,125 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h423v228H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M52 121h423v228H52z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M55.5 121v228m46-228v228m46-228v228m46-228v228m46-228v228m47-228v228m46-228v228m46-228v228m46-228v228m46-228v228"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M52 349.5h423m-423-46h423m-423-45h423m-423-46h423m-423-45h423m-423-47h423"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M52 121h423v228H52z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M52 349.5h423"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M52 121v228"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(52 121)" clip-path="url(#a)">
+            <path fill="none" d="M4.147 136.904l46.078-4.714 46.079-6.288 46.078-3.496 46.079-27.923 46.078-12.95 46.079-11.172 46.078-4.697 46.079-13.634 46.078-5.837" class="highcharts-graph" stroke="#672773" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.853 136.904h10l46.078-4.714 46.079-6.288 46.078-3.496 46.079-27.923 46.078-12.95 46.079-11.172 46.078-4.697 46.079-13.634 46.078-5.837h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(52 121)" clip-path="url(#a)">
+            <path fill="none" d="M4.147 201.962l46.078-8.253 46.079-2.143 46.078-.912 46.079-4.15 46.078 4.925 46.079 2.69 46.078-4.925 46.079-3.082 46.078 6.229" class="highcharts-graph" stroke="#4a7ebb" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.853 201.962h10l46.078-8.253 46.079-2.143 46.078-.912 46.079-4.15 46.078 4.925 46.079 2.69 46.078-4.925 46.079-3.082 46.078 6.229h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="translate(52 121)" clip-path="url(#a)">
+            <path fill="none" d="M4.147 210.034l46.078-4.287 46.079-6.019 46.078-8.846 46.079-16.37 46.078-15.368 46.079-31.874 46.078-34.52 46.079-33.744 46.078-17.784" class="highcharts-graph" stroke="#46aac5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.853 210.034h10l46.078-4.287 46.079-6.019 46.078-8.846 46.079-16.37 46.078-15.368 46.079-31.874 46.078-34.52 46.079-33.744 46.078-17.784h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-series highcharts-series-3 highcharts-line-series highcharts-color-undefined" transform="translate(52 121)" clip-path="url(#a)">
+            <path fill="none" d="M142.382 221.036l46.079-1.161 46.078.083 46.079-.249 46.078-.497 46.079-.25 46.078.01" class="highcharts-graph" stroke="#c1d2a7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M132.382 221.036h10l46.079-1.161 46.078.083 46.079-.249 46.078-.497 46.079-.25 46.078.01h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>I.01.3.0007 Angebotene Plätze für Tagesbetreuung und</tspan><tspan dy="17" x="10">Tagesstrukturen seit 2006</tspan><title>I.01.3.0007 Angebotene Plätze für Tagesbetreuung und Tagesstrukturen seit 2006</title>
+    </text>
+    <g class="highcharts-legend" transform="translate(45 60)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="416" height="49"/>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0">
+            <path fill="none" d="M8 14h16" class="highcharts-graph" stroke="#672773" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
+                Tagesbetreuung
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1">
+            <path fill="none" d="M218 14h16" class="highcharts-graph" stroke="#4a7ebb" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(218 3)">
+                <tspan>Tagesstrukturen in den Quartieren</tspan>
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-2">
+            <path fill="none" d="M8 33h16" class="highcharts-graph" stroke="#46aac5" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 22)">
+                <tspan>Tagesstrukturen in den Schulen</tspan>
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-3">
+            <path fill="none" d="M218 33h16" class="highcharts-graph" stroke="#c1d2a7" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(218 22)">
+                Tagesferien
+            </text>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="56.147" y="368">
+            2006
+        </text>
+        <text x="102.225" y="368">
+            2007
+        </text>
+        <text x="148.304" y="368">
+            2008
+        </text>
+        <text x="194.382" y="368">
+            2009
+        </text>
+        <text x="240.461" y="368">
+            2010
+        </text>
+        <text x="286.539" y="368">
+            2011
+        </text>
+        <text x="332.618" y="368">
+            2012
+        </text>
+        <text x="378.696" y="368">
+            2013
+        </text>
+        <text x="424.775" y="368">
+            2014
+        </text>
+        <text x="462.781" y="368">
+            2015
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="37" y="354">
+            <tspan>0</tspan>
+        </text>
+        <text x="37" y="308">
+            <tspan>1 000</tspan>
+        </text>
+        <text x="37" y="262">
+            <tspan>2 000</tspan>
+        </text>
+        <text x="37" y="217">
+            <tspan>3 000</tspan>
+        </text>
+        <text x="37" y="171">
+            <tspan>4 000</tspan>
+        </text>
+        <text x="37" y="126">
+            <tspan>5 000</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung</tspan>
+    </text>
+</svg>

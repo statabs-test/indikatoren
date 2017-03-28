@@ -7839,6 +7839,45 @@ var indikatoren = [
 		]
 	},
 	{
+		"title": "Anzahl und Qualität der Lebensmittelbetriebe",
+		"subtitle": "",
+		"kuerzel": "I.14.4.0046",
+		"kuerzelKunde": "LP.9.40.4",
+		"description": "Anzahl und Qualität der Lebensmittelbetriebe",
+		"id": 5070,
+		"thema": "14 Gesundheit",
+		"unterthema": "Prävention, Praxen, Rettung",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-01-03T16:37:15.1515",
+		"schlagwort": [
+			"Gäste",
+			"Beurteilung"
+		],
+		"stufe1": "Schwerpunkt 9: Lebensqualität und Sicherheit",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Jahr 2015 wurden 1163 Lebensmittelinspektionen durchgeführt.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Gesundheitsdepartement Basel-Stadt, Kantonales Laboratorium / Lebensmittelinspektorat"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Anteil kariesfreier Kinder",
 		"subtitle": "",
 		"kuerzel": "I.14.4.0047",
@@ -8003,6 +8042,46 @@ var indikatoren = [
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: S11"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Bodenversiegelung",
+		"subtitle": "",
+		"kuerzel": "I.02.1.0021",
+		"kuerzelKunde": "LP.5.17.2",
+		"description": "Bodenversiegelung",
+		"id": 5105,
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-01-19T16:54:23.2323",
+		"schlagwort": [
+			"Gebäude",
+			"Grünflächen",
+			"Boden"
+		],
+		"stufe1": "Schwerpunkt 5: Urbane Standortqualität",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Boden im Kanton Basel-Stadt ist auf rund 46% der Fläche versiegelt (Gebäude und andere befestigte Flächen).",
+		"erlaeuterungen": "Die Angaben basieren auf der Datenebene \"Bodenbedeckung\" der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m2 geführt werden. Diese werden in einem Turnus von 6–12 Jahren mit einer periodischen Nachführung aktualisiert. Ausnahme: Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst. Als versiegelt gelten Gebäude und befestigte Flächen.",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Grundbuch- und Vermessungsamt  Basel-Stadt"
 		],
 		"externalLinks": [
 			""

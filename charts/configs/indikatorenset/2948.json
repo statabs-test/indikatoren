@@ -1,0 +1,358 @@
+{
+  "series": [
+    {
+      "color": "#ffda80",
+      "data": [
+        [
+          "Innenstadt",
+          61.403508771929
+        ],
+        [
+          "Am Ring West",
+          69.032258064516
+        ],
+        [
+          "St. Alban Breite",
+          73.275862068965
+        ],
+        [
+          "St. Johann",
+          67.901234567901
+        ],
+        [
+          "Gundeldingen",
+          61.061946902654
+        ],
+        [
+          "Bruderholz",
+          61.403508771929
+        ],
+        [
+          "Unteress Kleinbasel",
+          66
+        ],
+        [
+          "Oberes Kleinbasel",
+          71.428571428571
+        ],
+        [
+          "Riehen Bettingen",
+          63.186813186813
+        ],
+        [
+          "Basel-Stadt",
+          66.808149405772
+        ]
+      ],
+      "name": "2003",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#fabd24",
+      "data": [
+        [
+          "Innenstadt",
+          69.047619047619
+        ],
+        [
+          "Am Ring West",
+          65.459610027855
+        ],
+        [
+          "St. Alban Breite",
+          68.292682926829
+        ],
+        [
+          "St. Johann",
+          67.961165048543
+        ],
+        [
+          "Gundeldingen",
+          64.150943396226
+        ],
+        [
+          "Bruderholz",
+          69.736842105263
+        ],
+        [
+          "Unteress Kleinbasel",
+          64.150943396226
+        ],
+        [
+          "Oberes Kleinbasel",
+          70.652173913043
+        ],
+        [
+          "Riehen Bettingen",
+          69.512195121951
+        ],
+        [
+          "Basel-Stadt",
+          67.061611374407
+        ]
+      ],
+      "name": "2005",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#cd9c00",
+      "data": [
+        [
+          "Innenstadt",
+          71.428571428571
+        ],
+        [
+          "Am Ring West",
+          77.316293929712
+        ],
+        [
+          "St. Alban Breite",
+          75.757575757575
+        ],
+        [
+          "St. Johann",
+          68.888888888888
+        ],
+        [
+          "Gundeldingen",
+          75
+        ],
+        [
+          "Bruderholz",
+          82.432432432432
+        ],
+        [
+          "Unteress Kleinbasel",
+          71.604938271604
+        ],
+        [
+          "Oberes Kleinbasel",
+          71.681415929203
+        ],
+        [
+          "Riehen Bettingen",
+          78.75
+        ],
+        [
+          "Basel-Stadt",
+          75.226337448559
+        ]
+      ],
+      "name": "2007",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#7f5f1a",
+      "data": [
+        [
+          "Innenstadt",
+          52.542372881355
+        ],
+        [
+          "Am Ring West",
+          76.485788113695
+        ],
+        [
+          "St. Alban Breite",
+          71.974522292993
+        ],
+        [
+          "St. Johann",
+          72.289156626506
+        ],
+        [
+          "Gundeldingen",
+          76.146788990825
+        ],
+        [
+          "Bruderholz",
+          67.567567567567
+        ],
+        [
+          "Unteress Kleinbasel",
+          73.96449704142
+        ],
+        [
+          "Oberes Kleinbasel",
+          72.340425531914
+        ],
+        [
+          "Riehen Bettingen",
+          73.631840796019
+        ],
+        [
+          "Basel-Stadt",
+          73.068267066766
+        ]
+      ],
+      "name": "2011",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#948a54",
+      "data": [
+        [
+          "Innenstadt",
+          52
+        ],
+        [
+          "Am Ring West",
+          63.897763578274
+        ],
+        [
+          "St. Alban Breite",
+          59.541984732824
+        ],
+        [
+          "St. Johann",
+          58.163265306122
+        ],
+        [
+          "Gundeldingen",
+          46.153846153846
+        ],
+        [
+          "Bruderholz",
+          60.714285714285
+        ],
+        [
+          "Unteress Kleinbasel",
+          55.905511811023
+        ],
+        [
+          "Oberes Kleinbasel",
+          57.407407407407
+        ],
+        [
+          "Riehen Bettingen",
+          65.088757396449
+        ],
+        [
+          "Basel-Stadt",
+          59.375
+        ]
+      ],
+      "name": "2015",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickColor": "#FFFFFF"
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {}
+                }
+    },
+    "type": "column",
+    "inverted": false,
+    "forExport": true,
+    "renderTo": "container-2948"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "LP.5.18.2 Anteil Befragte, die mit dem Wohnungsangebot sehr oder eher zufrieden sind nach Wohngegend"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "«Wie zufrieden sind Sie mit dem Wohnungsangebot»",
+    "align": "left"
+  },
+  "yAxis": {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    },
+    "max": 100
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_9"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "x": 40,
+    "y": 65,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": "I.50.1.0051"
+  }
+}

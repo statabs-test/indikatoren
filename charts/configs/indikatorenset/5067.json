@@ -1,0 +1,378 @@
+{
+  "series": [
+    {
+      "color": "#cd9c00",
+      "data": [
+        [
+          "Schweiz",
+          78.071539657853
+        ],
+        [
+          "Ausland",
+          83.495145631067
+        ],
+        [
+          "18-29 J.",
+          83.091787439613
+        ],
+        [
+          "30-39 J.",
+          73.076923076923
+        ],
+        [
+          "40-49 J.",
+          72.452830188679
+        ],
+        [
+          "50-59 J.",
+          77.735849056603
+        ],
+        [
+          "60-69 J.",
+          83.75
+        ],
+        [
+          "\u003E69 J.",
+          83.274021352313
+        ],
+        [
+          "Männer",
+          81.737849779086
+        ],
+        [
+          "Frauen",
+          76.383763837638
+        ],
+        [
+          "Total",
+          78.82037533512
+        ]
+      ],
+      "name": "2003",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#9f7c5a",
+      "data": [
+        [
+          "Schweiz",
+          82.973805855161
+        ],
+        [
+          "Ausland",
+          80.382775119617
+        ],
+        [
+          "18-29 J.",
+          87.892376681614
+        ],
+        [
+          "30-39 J.",
+          75.111111111111
+        ],
+        [
+          "40-49 J.",
+          76.79180887372
+        ],
+        [
+          "50-59 J.",
+          83.712121212121
+        ],
+        [
+          "60-69 J.",
+          84.297520661157
+        ],
+        [
+          "\u003E69 J.",
+          88.461538461538
+        ],
+        [
+          "Männer",
+          84.736091298145
+        ],
+        [
+          "Frauen",
+          80.76923076923
+        ],
+        [
+          "Total",
+          82.614465826144
+        ]
+      ],
+      "name": "2005",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b00000",
+      "data": [
+        [
+          "Schweiz",
+          80.225563909774
+        ],
+        [
+          "Ausland",
+          81.714285714285
+        ],
+        [
+          "18-29 J.",
+          85.849056603773
+        ],
+        [
+          "30-39 J.",
+          77.966101694915
+        ],
+        [
+          "40-49 J.",
+          73.504273504273
+        ],
+        [
+          "50-59 J.",
+          77.25631768953
+        ],
+        [
+          "60-69 J.",
+          81.609195402298
+        ],
+        [
+          "\u003E69 J.",
+          84.593023255813
+        ],
+        [
+          "Männer",
+          80.607814761215
+        ],
+        [
+          "Frauen",
+          80.22113022113
+        ],
+        [
+          "Total",
+          80.398671096345
+        ]
+      ],
+      "name": "2007",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ff5050",
+      "data": [
+        [
+          "Schweiz",
+          83.692307692307
+        ],
+        [
+          "Ausland",
+          86.448598130841
+        ],
+        [
+          "18-29 J.",
+          87.150837988826
+        ],
+        [
+          "30-39 J.",
+          78.362573099415
+        ],
+        [
+          "40-49 J.",
+          80.93220338983
+        ],
+        [
+          "50-59 J.",
+          84.191176470588
+        ],
+        [
+          "60-69 J.",
+          85.551330798479
+        ],
+        [
+          "\u003E69 J.",
+          86.005089058524
+        ],
+        [
+          "Männer",
+          85.119047619047
+        ],
+        [
+          "Frauen",
+          83.254156769596
+        ],
+        [
+          "Total",
+          84.081902245706
+        ]
+      ],
+      "name": "2011",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#45381d",
+      "data": [
+        [
+          "Schweiz",
+          85.240963855421
+        ],
+        [
+          "Ausland",
+          90.751445086705
+        ],
+        [
+          "18-29 J.",
+          90.625
+        ],
+        [
+          "30-39 J.",
+          81.666666666666
+        ],
+        [
+          "40-49 J.",
+          79.310344827586
+        ],
+        [
+          "50-59 J.",
+          82.783882783882
+        ],
+        [
+          "60-69 J.",
+          87.048192771084
+        ],
+        [
+          "\u003E69 J.",
+          89.130434782608
+        ],
+        [
+          "Männer",
+          86.734693877551
+        ],
+        [
+          "Frauen",
+          85.153374233128
+        ],
+        [
+          "Total",
+          85.876082611592
+        ]
+      ],
+      "name": "2015",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickColor": "#FFFFFF"
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {}
+                }
+    },
+    "type": "column",
+    "inverted": false,
+    "forExport": true,
+    "renderTo": "container-5067"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "LP.9.39.1 Anteil Befragte, die mit der Verkehrssicherheit eher oder sehr zufrieden sind nach Heimat, Alter und Geschlecht"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "«Wie zufrieden sind Sie mit der Verkehrssicherheit?»",
+    "align": "left"
+  },
+  "yAxis": {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    },
+    "max": 100
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_22"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "x": 35,
+    "y": 65,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": "I.50.1.0042"
+  }
+}

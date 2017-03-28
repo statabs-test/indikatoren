@@ -1,0 +1,249 @@
+{
+  "series": [
+    {
+      "color": "#b00000",
+      "data": [
+        [
+          2006,
+          353
+        ],
+        [
+          2007,
+          120
+        ],
+        [
+          2008,
+          201
+        ],
+        [
+          2009,
+          468
+        ],
+        [
+          2010,
+          372
+        ],
+        [
+          2011,
+          351
+        ],
+        [
+          2012,
+          268
+        ],
+        [
+          2013,
+          177
+        ],
+        [
+          2014,
+          369
+        ],
+        [
+          2015,
+          788
+        ]
+      ],
+      "name": "Neuerstellt"
+    },
+    {
+      "color": "#71a3b5",
+      "data": [
+        [
+          2006,
+          331
+        ],
+        [
+          2007,
+          383
+        ],
+        [
+          2008,
+          143
+        ],
+        [
+          2009,
+          139
+        ],
+        [
+          2010,
+          119
+        ],
+        [
+          2011,
+          100
+        ],
+        [
+          2012,
+          154
+        ],
+        [
+          2013,
+          135
+        ],
+        [
+          2014,
+          319
+        ],
+        [
+          2015,
+          131
+        ]
+      ],
+      "name": "Umgebaut"
+    },
+    {
+      "color": "#ffbb58",
+      "data": [
+        [
+          2006,
+          0
+        ],
+        [
+          2007,
+          0
+        ],
+        [
+          2008,
+          0
+        ],
+        [
+          2009,
+          0
+        ],
+        [
+          2010,
+          0
+        ],
+        [
+          2011,
+          0
+        ],
+        [
+          2012,
+          0
+        ],
+        [
+          2013,
+          0
+        ],
+        [
+          2014,
+          0
+        ],
+        [
+          2015,
+          0
+        ]
+      ],
+      "name": "Baubegonnen"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "forExport": true,
+    "renderTo": "container-3230"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "I.09.1.0046 In Neubauten neuerstellte, umgebaute und baubegonnene Wohnungen"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "xAxis": {
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "x": 35,
+    "y": 35,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "filename": "I.09.1.0046"
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "series": [
+    {
+      "color": "#8a8a8a",
+      "index": 2,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2006,
+          4.69118719453356
+        ],
+        [
+          2007,
+          4.5154805196623
+        ],
+        [
+          2008,
+          4.59049569668237
+        ],
+        [
+          2009,
+          4.38899108789325
+        ],
+        [
+          2010,
+          4.26808784288086
+        ],
+        [
+          2011,
+          4.17049802689973
+        ],
+        [
+          2012,
+          4.2019094466236
+        ],
+        [
+          2013,
+          4.06066236875508
+        ],
+        [
+          2014,
+          3.97253971232925
+        ],
+        [
+          2015,
+          3.86658686586381
+        ]
+      ],
+      "name": "Basel-Stadt"
+    },
+    {
+      "color": "#ffc000",
+      "index": 3,
+      "data": [
+        [
+          2006,
+          4.54386115803267
+        ],
+        [
+          2007,
+          4.47055805135786
+        ],
+        [
+          2008,
+          4.48371571886935
+        ],
+        [
+          2009,
+          4.63137859256821
+        ],
+        [
+          2010,
+          4.73761963197996
+        ],
+        [
+          2011,
+          4.92427040284353
+        ],
+        [
+          2012,
+          4.88751667477373
+        ],
+        [
+          2013,
+          4.72812700819937
+        ],
+        [
+          2014,
+          4.68429714580129
+        ],
+        [
+          2015,
+          4.59352151376296
+        ]
+      ],
+      "name": "Basel-Landschaft"
+    },
+    {
+      "color": "#256370",
+      "index": 4,
+      "data": [
+        [
+          2006,
+          3.59554473409851
+        ],
+        [
+          2007,
+          3.62586434724367
+        ],
+        [
+          2008,
+          3.70660660787284
+        ],
+        [
+          2009,
+          3.74368609968112
+        ],
+        [
+          2010,
+          3.78213928829799
+        ],
+        [
+          2011,
+          3.79353543606173
+        ],
+        [
+          2012,
+          3.68968926705445
+        ],
+        [
+          2013,
+          3.46543393221746
+        ],
+        [
+          2014,
+          3.43147537882335
+        ],
+        [
+          2015,
+          3.39022735101149
+        ]
+      ],
+      "name": "Aargau"
+    },
+    {
+      "color": "#b00000",
+      "index": 1,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2006,
+          4.04873347425358
+        ],
+        [
+          2007,
+          3.98625583364237
+        ],
+        [
+          2008,
+          4.05173784572166
+        ],
+        [
+          2009,
+          4.06851559285584
+        ],
+        [
+          2010,
+          4.14531172012182
+        ],
+        [
+          2011,
+          4.17685972897897
+        ],
+        [
+          2012,
+          4.22881574651297
+        ],
+        [
+          2013,
+          4.1168820845486
+        ],
+        [
+          2014,
+          4.08373201612184
+        ],
+        [
+          2015,
+          4.01683205204465
+        ]
+      ],
+      "name": "Schweiz"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "forExport": true,
+    "renderTo": "container-2364"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "I.04.0.0002 Anteil der Logistikwirtschaft an der regionalen nominalen Wertschöpfung in %"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    }
+  },
+  "xAxis": {
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: BAK Basel Economics"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "x": 35,
+    "y": 35,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "filename": "I.04.0.0002"
+  }
+}

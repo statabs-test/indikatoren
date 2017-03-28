@@ -1,0 +1,221 @@
+{
+  "series": [
+    {
+      "color": "#71a3b5",
+      "index": 0,
+      "type": "column",
+      "pointWidth": "30",
+      "data": [
+        [
+          2010,
+          2313
+        ],
+        [
+          2011,
+          2542
+        ],
+        [
+          2012,
+          2657
+        ],
+        [
+          2013,
+          2759
+        ],
+        [
+          2014,
+          2797
+        ],
+        [
+          2015,
+          2872
+        ]
+      ],
+      "name": "Anzahl Lebensmittelbetriebe"
+    },
+    {
+      "color": "#b00000",
+      "index": 0,
+      "type": "column",
+      "pointWidth": "30",
+      "data": [
+        [
+          2010,
+          1155
+        ],
+        [
+          2011,
+          1288
+        ],
+        [
+          2012,
+          1287
+        ],
+        [
+          2013,
+          1269
+        ],
+        [
+          2014,
+          1158
+        ],
+        [
+          2015,
+          null
+        ]
+      ],
+      "name": "Anzahl durchgeführte Inspektionen"
+    },
+    {
+      "color": "#7d60a0",
+      "index": 1,
+      "type": "line",
+      "yAxis": 1,
+      "data": [
+        [
+          2010,
+          18.7012987012987
+        ],
+        [
+          2011,
+          15.7608695652174
+        ],
+        [
+          2012,
+          16.7055167055167
+        ],
+        [
+          2013,
+          18.0457052797478
+        ],
+        [
+          2014,
+          19.7754749568221
+        ],
+        [
+          2015,
+          null
+        ]
+      ],
+      "name": "davon als mangelhaft\u002Fschlecht beurteilt (in %)"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "marginBottom": 65,
+    "alignTicks": false,
+    "forExport": true,
+    "renderTo": "container-5070"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "I.14.4.0046 Anzahl und Qualität der Lebensmittelbetriebe"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": true
+  },
+  "yAxis": [
+    {
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "max": 3000,
+      "tickInterval": 600,
+      "title": ""
+    },
+    {
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}%",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "max": 10,
+      "tickInterval": 2,
+      "gridLineWidth": 0,
+      "opposite": true
+    }
+  ],
+  "xAxis": {
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt, Kantonales Laboratorium \u002F Lebensmittelinspektorat"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "y": 40,
+    "x": 40,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "exporting": {
+    "filename": "I.14.4.0046"
+  }
+}

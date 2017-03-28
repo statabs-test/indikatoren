@@ -1,0 +1,347 @@
+{
+  "series": [
+    {
+      "color": "#8B2223",
+      "index": 14,
+      "data": [
+        [
+          "2013",
+          1
+        ],
+        [
+          "2014",
+          4
+        ]
+      ],
+      "name": "Chemische Industrie",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#DC440E",
+      "index": 13,
+      "data": [
+        [
+          "2013",
+          302
+        ],
+        [
+          "2014",
+          80
+        ]
+      ],
+      "name": "Unternehmensdienstleistungen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "index": 12,
+      "data": [
+        [
+          "2013",
+          55
+        ],
+        [
+          "2014",
+          399
+        ]
+      ],
+      "name": "Detailhandel\u002FReparatur",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFBB58",
+      "index": 11,
+      "data": [
+        [
+          "2013",
+          121
+        ],
+        [
+          "2014",
+          140
+        ]
+      ],
+      "name": "Gesundheits-\u002FSozialwesen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFDA80",
+      "index": 10,
+      "data": [
+        [
+          "2013",
+          79
+        ],
+        [
+          "2014",
+          84
+        ]
+      ],
+      "name": "Baugewerbe",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007A2F",
+      "index": 9,
+      "data": [
+        [
+          "2013",
+          31
+        ],
+        [
+          "2014",
+          50
+        ]
+      ],
+      "name": "Gastgewerbe",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#D7E8D2",
+      "index": 8,
+      "data": [
+        [
+          "2013",
+          33
+        ],
+        [
+          "2014",
+          25
+        ]
+      ],
+      "name": "Verkehr und Lagerei",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73BA7C",
+      "index": 7,
+      "data": [
+        [
+          "2013",
+          34
+        ],
+        [
+          "2014",
+          45
+        ]
+      ],
+      "name": "Grosshandel",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#2B0099",
+      "index": 6,
+      "data": [
+        [
+          "2013",
+          27
+        ],
+        [
+          "2014",
+          25
+        ]
+      ],
+      "name": "Finanzdienstleistungen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "index": 5,
+      "data": [
+        [
+          "2013",
+          36
+        ],
+        [
+          "2014",
+          48
+        ]
+      ],
+      "name": "Informatikdienste",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B9CFD7",
+      "index": 4,
+      "data": [
+        [
+          "2013",
+          20
+        ],
+        [
+          "2014",
+          33
+        ]
+      ],
+      "name": "Immobilienwesen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#672773",
+      "index": 3,
+      "data": [
+        [
+          "2013",
+          129
+        ],
+        [
+          "2014",
+          175
+        ]
+      ],
+      "name": "Unterhaltung\u002FKultur\u002FSport",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#E7CEE2",
+      "index": 2,
+      "data": [
+        [
+          "2013",
+          179
+        ],
+        [
+          "2014",
+          244
+        ]
+      ],
+      "name": "Anderes",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "index": 0,
+      "data": [
+        [
+          "2013",
+          1047
+        ],
+        [
+          "2014",
+          1352
+        ]
+      ],
+      "name": "Total",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickColor": "#FFFFFF"
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {}
+                }
+    },
+    "renderTo": "container-5041",
+    "marginBottom": 75,
+    "marginTop": 75,
+    "type": "column",
+    "forExport": true
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointWidth": 70,
+      "stacking": "normal"
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "I.03.2.0006 Neugründungen in Basel-Stadt in ausgewählten Branchen"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "yAxis": {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Bundesamt für Statistik BFS, UDEMO"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5,
+    "align": "right",
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": "I.03.2.0006"
+  }
+}

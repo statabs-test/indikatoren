@@ -1,0 +1,217 @@
+{
+  "series": [
+    {
+      "color": "#77933c",
+      "data": [
+        [
+          "Innenstadt",
+          60.56338028169
+        ],
+        [
+          "Am Ring West",
+          90.90909090909
+        ],
+        [
+          "St. Alban Breite",
+          88.745980707395
+        ],
+        [
+          "St. Johann",
+          83.003952569169
+        ],
+        [
+          "Gundeldingen",
+          73.725490196078
+        ],
+        [
+          "Bruderholz",
+          93.333333333333
+        ],
+        [
+          "Unteress Kleinbasel",
+          63.793103448275
+        ],
+        [
+          "Oberes Kleinbasel",
+          84.046692607003
+        ],
+        [
+          "Riehen Bettingen",
+          96.359743040685
+        ],
+        [
+          "Basel-Stadt",
+          84.579439252336
+        ]
+      ],
+      "name": "2009",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#c3d69b",
+      "data": [
+        [
+          "Innenstadt",
+          64.0625
+        ],
+        [
+          "Am Ring West",
+          91.335740072202
+        ],
+        [
+          "St. Alban Breite",
+          90.776699029126
+        ],
+        [
+          "St. Johann",
+          93.333333333333
+        ],
+        [
+          "Gundeldingen",
+          72.31638418079
+        ],
+        [
+          "Bruderholz",
+          93.75
+        ],
+        [
+          "Unteress Kleinbasel",
+          65.878378378378
+        ],
+        [
+          "Oberes Kleinbasel",
+          92.513368983957
+        ],
+        [
+          "Riehen Bettingen",
+          96.960486322188
+        ],
+        [
+          "Basel-Stadt",
+          86.716209939619
+        ]
+      ],
+      "name": "2013",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickColor": "#FFFFFF"
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {}
+                }
+    },
+    "type": "column",
+    "inverted": false,
+    "forExport": true,
+    "renderTo": "container-2951"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "LP.5.19.2 Anteil Familien, die mit den Grünflächen (z.B. Wiesen\u002FParks) im Quartier sehr oder eher zufrieden sind nach Wohngegend"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "«Wenn Sie an Ihr Quartier denken, wie zufrieden sind Sie dann mit dem Angebot an Grünflächen (z.B. Wiesen, Parks)»",
+    "align": "left"
+  },
+  "yAxis": {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    },
+    "max": 100
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F18e"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "x": 35,
+    "y": 65,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": "I.50.2.0013"
+  }
+}

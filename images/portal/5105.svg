@@ -1,0 +1,85 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h428v308H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M47 41h428v308H47z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M85.5 41v308m70-308v308m70-308v308m70-308v308m70-308v308m70-308v308"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M47 349.5h428m-428-62h428m-428-61h428m-428-62h428m-428-61h428m-428-63h428"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M47 41h428v308H47z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M47 349.5h428"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M47 41v308"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(47 41)" clip-path="url(#a)">
+            <path fill="none" d="M4.196 19.739l34.967-.27 34.968 1.306 34.967.497 34.967.622 34.968-6.233 34.967.072 34.967.397 34.968.302 34.967.086 34.967 1.322 34.968.426 34.967-.415" class="highcharts-graph" stroke="#5592d5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.804 19.739h10l34.967-.27 34.968 1.306 34.967.497 34.967.622 34.968-6.233 34.967.072 34.967.397 34.968.302 34.967.086 34.967 1.322 34.968.426 34.967-.415h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#5592d5" d="M55 61a4 4 0 1 1 0-.004zm35-1a4 4 0 1 1 0-.004zm35 2a4 4 0 1 1 0-.004zm35 0a4 4 0 1 1 0-.004zm35 1a4 4 0 1 1 0-.004zm35-6a4 4 0 1 1 0-.004zm35 0a4 4 0 1 1 0-.004zm34 0a4 4 0 1 1 0-.004zm35 0a4 4 0 1 1 0-.004zm35 1a4 4 0 1 1 0-.004zm35 1a4 4 0 1 1 0-.004zm35 0a4 4 0 1 1 0-.004zm35 0a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>I.02.1.0021 Bodenversiegelung</tspan>
+    </text>
+    <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(42 58)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">46,8%</tspan><tspan x="5" y="16">46,8%</tspan>
+        </text>
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(439 56)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">47,1%</tspan><tspan x="5" y="16">47,1%</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="86.163" y="368">
+            2004
+        </text>
+        <text x="156.098" y="368">
+            2006
+        </text>
+        <text x="226.033" y="368">
+            2008
+        </text>
+        <text x="295.967" y="368">
+            2010
+        </text>
+        <text x="365.902" y="368">
+            2012
+        </text>
+        <text x="435.837" y="368">
+            2014
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="32" y="354">
+            <tspan>0%</tspan>
+        </text>
+        <text x="32" y="292">
+            <tspan>10%</tspan>
+        </text>
+        <text x="32" y="230">
+            <tspan>20%</tspan>
+        </text>
+        <text x="32" y="169">
+            <tspan>30%</tspan>
+        </text>
+        <text x="32" y="107">
+            <tspan>40%</tspan>
+        </text>
+        <text x="32" y="46">
+            <tspan>50%</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Grundbuch- und Vermessungsamt Basel-Stadt</tspan>
+    </text>
+</svg>
