@@ -1,5 +1,8 @@
 (function(){
     return {
+  "data":{
+  	"switchRowsAndColumns": true
+  },
   "xAxis": {
     "type": "category"  ,	
   },
@@ -13,7 +16,8 @@
   {"color": "#a8c4cb"}, /* grau */
   {"color": "#73ba7c"}, /* grün */
   {"color": "#008AC3"}, /* blau */
-  {"color": "#fabd24"}  /* orange */
+  {"color": "#fabd24"},  /* orange */
+  {"color": "#E64900"}  /* orange */
   ],
   "legend": {
     "enabled": true,

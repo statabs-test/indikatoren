@@ -6582,6 +6582,128 @@ var indikatoren = [
 		]
 	},
 	{
+		"title": "Anteil Versicherte in Managed-Care-Modellen (Ärztenetzwerke, HMO1) - Erwachsene ab 19 Jahren, Kanton BS und CH",
+		"subtitle": "Erwachsene ab 19 Jahren, Kanton BS und CH",
+		"kuerzel": "I.14.1.0007",
+		"kuerzelKunde": "LP.4.15.1",
+		"description": "Anteil Versicherte in Managed-Care-Modellen (Ärztenetzwerke, HMO1) - Erwachsene ab 19 Jahren, Kanton BS und CH",
+		"id": 5019,
+		"thema": "14 Gesundheit",
+		"unterthema": "Spitäler",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton",
+			"Schweiz"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Spital",
+			"Patient"
+		],
+		"stufe1": "Schwerpunkt4: Basel-Stadt als starker und verlässlicher Partner",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Anteil Versicherter in HMO-Modellen lag 2015 in Basel-Stadt bei 17,5% und damit 9 Prozentpunkte über dem schweizweiten Mittelwert. Der Anteil Versicherter in Hausarztmodellen lag in Basel-Stadt 2015 bei knapp 28% und damit unter dem Schweizer Wert. In den vergangenen Jahren waren die entsprechenden Anteile in Basel-Stadt wie auch in der Schweiz über die Jahre angestiegen.",
+		"erlaeuterungen": "HMO ist die Abkürzung für Health Maintenance Organization (Gesundheitserhaltungsorganisation). Es ist ein alternatives Versicherungsmodell in der obligatorischen Krankenpflegeversicherung, bei dem sich Versicherte verpflichten, im Krankheitsfall immer zuerst eine bestimmte HMO Praxis aufzusuchen. Mit der Wahl des Hausarzt-Modells verzichtet der Versicherte auf die freie Arztwahl. Er verpflichtet sich (wie bei der HMO), im Krankheitsfall immer seinen festen Hausarzt aufzusuchen.",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Gesundheit BAG"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Siedlungsabfälle pro Kopf in Kilogramm",
+		"subtitle": "",
+		"kuerzel": "I.01.2.0004",
+		"kuerzelKunde": "LP.8.34.7",
+		"description": "Siedlungsabfälle pro Kopf in Kilogramm",
+		"id": 5023,
+		"thema": "01 Bevölkerung",
+		"unterthema": "Haushalte",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2016-12-07T11:41:02.022",
+		"schlagwort": [
+			"Haushalt",
+			"Familie",
+			"Bevölkerung",
+			"Konsum",
+			"Umwelt"
+		],
+		"stufe1": "Schwerpunkt 8: Nachhaltiger Umgang mit Ressourcen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Siedlungsabfälle reduzierten sich zwischen dem Jahr 2006 und 2015 von ca. 179 auf 158 kg pro Kopf.",
+		"erlaeuterungen": "In der Kehrichtverwertungsanlage entsorgte Haushaltsabfälle inkl. Sperrgut, ohne privat organisierte Entsorgung. 2009 und 2010 wurde versuchsweise eine Gratis-Sperrgutabfuhr durchgeführt.",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Umwelt und Energie Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Recyclingquote",
+		"subtitle": "",
+		"kuerzel": "I.01.2.0005",
+		"kuerzelKunde": "LP.8.34.8",
+		"description": "Recyclingquote",
+		"id": 5024,
+		"thema": "01 Bevölkerung",
+		"unterthema": "Haushalte",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2016-11-30T10:29:26.2626",
+		"schlagwort": [
+			"Haushalt",
+			"Konsum",
+			"Umwelt"
+		],
+		"stufe1": "Schwerpunkt 8: Nachhaltiger Umgang mit Ressourcen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Recyclingquote bewegt sich seit 2006 zwischen rund 42% bis 45%.",
+		"erlaeuterungen": "Wertstoffsammlungen aus Haushalten in Prozent aller in Basel-Stadt eingesammelter Haushaltsabfälle, ohne privat organisierte Wertstoffsammlungen. Datenreihe im Juni 2016 rückwirkend korrigiert aufgrund revidierter Methodik und Datenerhebung durch das Amt für Umwelt und Energie: Die dezentrale Kompostierung wird aus Gründen der kantonalen Vergleichbarkeit separat geführt. Dies führte zu einem geringeren Recyclinganteil im Kanton.",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Umwelt und Energie Basel-Stadt"
+		],
+		"externalLinks": [
+			"Bearbeiten Sie diese Karte im <a href='www.statistik.bs.ch' target='_blank'>Statistisches Amt Basel</a>."
+		]
+	},
+	{
 		"title": "Transnationale Patentanmeldungen pro 1000 Einwohner 2005 bis 2009",
 		"subtitle": "nach ausgewählten Wirtschaftsbranchen",
 		"kuerzel": "I.04.1.0013",
