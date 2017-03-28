@@ -1,83 +1,84 @@
 {
   "series": [
     {
-      "color": "#256370",
-      "index": 5,
+      "color": "#b475ab",
       "data": [
         [
-          "2005",
+          "zu Fuss",
           49.7
         ],
         [
-          "2010",
-          49.7
-        ]
-      ],
-      "name": "zu Fuss",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#71a3b5",
-      "index": 4,
-      "data": [
-        [
-          "2005",
-          7.7
-        ],
-        [
-          "2010",
+          "Velo",
           7.6
+        ],
+        [
+          "MIV",
+          23.1
+        ],
+        [
+          "ÖV",
+          18.6
+        ],
+        [
+          "Übrige Verkehrsmittel",
+          1
         ]
       ],
-      "name": "Velo",
+      "name": "in % der Anzahl Etappen",
       "turboThreshold": 0
     },
     {
-      "color": "#fabd24",
-      "index": 3,
+      "color": "#b2c4cb",
       "data": [
         [
-          "2005",
-          26.5
+          "zu Fuss",
+          41.7
         ],
         [
-          "2010",
-          23.1
+          "Velo",
+          7
+        ],
+        [
+          "MIV",
+          30.4
+        ],
+        [
+          "ÖV",
+          19.1
+        ],
+        [
+          "Übrige Verkehrsmittel",
+          2
         ]
       ],
-      "name": "MIV",
+      "name": "in % der Unterwegszeit",
       "turboThreshold": 0
     },
     {
       "color": "#cd9c00",
-      "index": 2,
       "data": [
         [
-          "2005",
-          15.2
+          "zu Fuss",
+          7.1
         ],
         [
-          "2010",
-          18.6
-        ]
-      ],
-      "name": "ÖV",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#73ba7c",
-      "index": 1,
-      "data": [
-        [
-          "2005",
-          0.9
+          "Velo",
+          3.7
         ],
         [
-          "2010",
-          1
+          "MIV",
+          55.7
+        ],
+        [
+          "ÖV",
+          31.8
+        ],
+        [
+          "Übrige Verkehrsmittel",
+          1.7
         ]
       ],
-      "name": "Übrige Verkehrsmittel",
+      "name": "in % der Tagesdistanz",
       "turboThreshold": 0
     }
   ],
@@ -111,11 +112,10 @@
                     this.credits.element.onclick = function() {}
                 }
     },
-    "renderTo": "container-3103",
-    "marginBottom": 75,
-    "marginTop": 75,
     "type": "column",
-    "forExport": true
+    "inverted": false,
+    "forExport": true,
+    "renderTo": "container-5059"
   },
   "plotOptions": {
     "series": {
@@ -123,9 +123,7 @@
         "style": {
           "fontSize": "10px"
         }
-      },
-      "pointWidth": 70,
-      "stacking": "normal"
+      }
     }
   },
   "title": {
@@ -135,7 +133,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "LP.3.11.1A Anteile der Verkehrsmittel für die Agglomeration Basel-Stadt 2005"
+    "text": "LP.8.31.1.B Anteile der Verkehrsmittel für die Agglomeration Basel-Stadt 2010"
   },
   "subtitle": {
     "style": {
@@ -159,7 +157,7 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}%"
+      "format": "{value}%"
     },
     "max": 100
   },
@@ -186,10 +184,13 @@
   },
   "legend": {
     "symbolRadius": 0,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 5,
-    "align": "right",
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "x": 35,
+    "y": 55,
+    "itemWidth": 300,
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -199,6 +200,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.11.6.0001"
+    "filename": "I.11.6.0004"
   }
 }

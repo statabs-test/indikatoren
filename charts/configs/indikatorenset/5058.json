@@ -111,7 +111,7 @@
                     this.credits.element.onclick = function() {}
                 }
     },
-    "renderTo": "container-3103",
+    "renderTo": "container-5058",
     "marginBottom": 75,
     "marginTop": 75,
     "type": "column",
@@ -135,7 +135,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "LP.3.11.1A Anteile der Verkehrsmittel für die Agglomeration Basel-Stadt 2005"
+    "text": "LP.8.31.1.A Anteile der Verkehrsmittel für die Agglomeration Basel-Stadt 2005"
   },
   "subtitle": {
     "style": {
@@ -199,6 +199,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.11.6.0001"
+    "filename": "I.11.6.0003"
   }
 }

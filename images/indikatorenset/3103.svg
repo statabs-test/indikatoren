@@ -75,10 +75,10 @@
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
         <text x="117.5" y="359">
-            <tspan>2005</tspan><tspan x="117.5" dy="14">in %</tspan>
+            <tspan>2005</tspan>
         </text>
         <text x="246.5" y="359">
-            <tspan>2010</tspan><tspan x="246.5" dy="14">in %</tspan>
+            <tspan>2010</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">

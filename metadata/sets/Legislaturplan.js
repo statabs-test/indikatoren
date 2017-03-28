@@ -1355,6 +1355,47 @@ var indikatorensetData = [
 		]
 	},
 	{
+		"title": "Luftqualität: Langzeitbelastungen Jahresmittelwerte NO2 und PM10 im Vergleich zum Jahresgrenzwert",
+		"subtitle": "",
+		"kuerzel": "I.02.5.0008",
+		"kuerzelKunde": "LP.8.34.2",
+		"description": "Luftqualität: Langzeitbelastungen Jahresmittelwerte NO2 und PM10 im Vergleich zum Jahresgrenzwert",
+		"id": 3075,
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Luftschadstoffe",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-03-03T14:50:47.4747",
+		"schlagwort": [
+			"Nachhaltigkeit",
+			"Gefühl",
+			"Beurteilung",
+			"Umwelt"
+		],
+		"stufe1": "Schwerpunkt 8: Nachhaltiger Umgang mit Ressourcen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Langzeitgrenzwerte beim Stickstoffdioxid (NO2) an der Messstation St. Johann wurden im 2007 und dann wieder ab 2011 bis 2015 unterschritten. Beim Feinstaub konnte der Jahresgrenzwert seit 2012 eingehalten werden.",
+		"erlaeuterungen": "Anzahl Tage mit Grenzwertüberschreitungen: An einem solchen Tag werden die Kurzzeitgrenzwerte von NO2, PM10 und O3 überschritten. Kurzzeitgrenzwerte sind ein Mass für kurzzeitige Spitzenwerte und dürfen höchstens einmal pro Jahr überschritten werden: Stickstoffdioxid (NO2): Tagesmittelwert von 80 Mikrogramm pro m3, Feinstaub (PM10): Tagesmittelwert von 50 Mikrogramm pro m3, Ozon (O3): Stundenmittelwert von 120 Mikrogramm pro m3. Langzeitgrenzwerte sind ein Mass für die Dauerbelastung: Stickstoffdioxid (NO2): Jahresmittelwert von 30 Mikrogramm pro m3, Feinstaub (PM10): Jahresmittelwert von 20 Mikrogramm pro m3.",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Lufthygieneamt beider Basel, Website Luftqualität in den Kantonen AG, BL, BS und SO"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Wasserqualität (AOX-Fracht)",
 		"subtitle": "",
 		"kuerzel": "I.02.4.0001",
@@ -1751,6 +1792,49 @@ var indikatorensetData = [
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Basel Economics"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Prozentanteil übergewichtiger Kinder nach Schulstufe, Heimat und Geschlecht",
+		"subtitle": "",
+		"kuerzel": "I.14.1.0005",
+		"kuerzelKunde": "LP.9.40.3",
+		"description": "Prozentanteil übergewichtiger Kinder nach Schulstufe, Heimat und Geschlecht",
+		"id": 3105,
+		"thema": "14 Gesundheit",
+		"unterthema": "Spitäler",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-01-09T10:57:59.5959",
+		"schlagwort": [
+			"Geschlecht",
+			"Ausländer",
+			"Alter",
+			"Schule"
+		],
+		"stufe1": "Schwerpunkt 9: Lebensqualität und Sicherheit",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Schuljahr 2014/2015 waren 9% der Knaben im ersten Kindergartenjahr übergewichtig. Alternative Interpretation: 9% der Knaben im ersten Kindergartenjahr hatten einen BMI-Wert, der über dem Referenzwert (für ihr Alter und Geschlecht) für Übergewicht lag.",
+		"erlaeuterungen": "Die Daten werden im Rahmen der schulärztlichen Untersuchunen erhoben und nur für die dargestellten Schulstufen. Die BMI-Referenzwerte für Übergewicht variiren nach Alter und Geschlecht und werden von Zeit zu Zeit neu erhoben. Damit die Anteile vergleichbar bleiben werden stets dieselben Referenzwerte nach Tim J Cole (BMJ Vol. 320, 5/2000) verwendet.",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5182"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Gesundheitsdepartement Basel-Stadt, Kinder- und Jugendgesundheitsdienst"
 		],
 		"externalLinks": [
 			""
@@ -2158,6 +2242,47 @@ var indikatorensetData = [
 		]
 	},
 	{
+		"title": "Globale und kontinentale Erreichbarkeit - Basel im nationalen Vergleich",
+		"subtitle": "",
+		"kuerzel": "I.10.1.0006",
+		"kuerzelKunde": "LP.3.11.2",
+		"description": "Globale und kontinentale Erreichbarkeit - Basel im nationalen Vergleich",
+		"id": 5016,
+		"thema": "10 Tourismus",
+		"unterthema": "Hotellerie",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2015-12-17T00:00:00.000",
+		"schlagwort": [
+			"EuroAirport",
+			"Kantonsvergleich",
+			"Verkehr",
+			"Zug"
+		],
+		"stufe1": "Schwerpunkt 3: Basel ist Zentrum des Metropolitanraums",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die kontinentale Erreichbarkeit der Stadt Basel hat sich zwischen 2000 und 2014 verbessert. Die Entwicklung bei den anderen Schweizer Städte verläuft im gleichen Zeitraum identisch. Die Stadt Zürich bewegt sich auf einem höheren Niveau als Basel und Genf, die Stadt Bern liegt darunter. Die Entwicklung bei der globalen Erreichbarkeit verläuft bei allen Städten parallel und über die Jahre auf gleichbleibendem Niveau. Basel bewegt sich auch bei diesem indikator zusammen mit Genf wiederum zwischen dem Level von Zürich und Bern.",
+		"erlaeuterungen": "Bei der Kennzahl handelt es sich um einen indexierten Wert: 100 = Mittel aller einbezogenen Ursprungsregionen im Jahr 2002; dem globalen und kontinentalen Erreichbarkeitsmodell liegen Strassenerreichbarkeit, Bahnfahr- und Flugpläne zugrunde; globale Erreichbarkeit = Erreichbarkeit von Regionen ausserhalb Europas; kontinentale Erreichbarkeit = Erreichbarkeit aller Regionen Europas. Erreichbarkeit ist kein klares, lineares Konzept. Vielmehr beruht es auf einer Vielzahl von Faktoren, die unter dem Themenbereich Erreichbarkeit subsumiert werden können. Die Erreichbarkeitsmodelle von BAKBASEL basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren. Zudem folgen sie dem Konzept der Erreichbarkeit „aus der Region“ (outbound accessibility), d.h. es wird die Reisezeit und Frequenz herangezogen, die benötigt wird, um aus der Region andere Regionen zu erreichen. Der resultierende Indikator reflektiert das gesamte Potenzial aller Regionen ohne jegliche Limitierung der Reisezeit. Jedoch werden die Reisedestinationen über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet.",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"BAK Basel Economics"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Transnationale Patentanmeldungen pro 1000 Einwohner 2005 bis 2009",
 		"subtitle": "nach ausgewählten Wirtschaftsbranchen",
 		"kuerzel": "I.04.1.0013",
@@ -2234,6 +2359,47 @@ var indikatorensetData = [
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_7"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Anteil Familien, die mit den Grünflächen (z.B. Wiesen/Parks) im Quartier sehr oder eher zufrieden sind nach Wohngegend",
+		"subtitle": "«Wenn Sie an Ihr Quartier denken, wie zufrieden sind Sie dann mit dem Angebot an Grünflächen (z.B. Wiesen, Parks)»",
+		"kuerzel": "I.50.2.0014",
+		"kuerzelKunde": "LP.5.20.2",
+		"description": "Anteil Familien, die mit den Grünflächen (z.B. Wiesen/Parks) im Quartier sehr oder eher zufrieden sind nach Wohngegend",
+		"id": 5036,
+		"thema": "50 Befragungen",
+		"unterthema": "Familienbefragung",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Wohnviertel",
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-02-27T10:34:30.3030",
+		"schlagwort": [
+			"Grünflächen",
+			"Bevölkerung",
+			"Quartier"
+		],
+		"stufe1": "Schwerpunkt 5: Urbane Standortqualität",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Zufriedenheit mit Grünanlagen und Parks war mit mehr als 90% sowohl 2009 als auch 2013 in den Landgemeinden Riehen und Bettingen sowie auf dem Bruderholz am ausgeprägtesten. Am wenigsten zufrieden mit den Grünanlagen im Quartier sind mit einem Anteil von weniger als 65% in beiden Befragungsjahren die Einwohnerinnen und Einwohner der Innenstadt sowie des unteren Kleinbasel.",
+		"erlaeuterungen": "Da im Datensatz nicht für alle statistischen Wohnviertel genügend Beobachtungen vorliegen, wurden einzelne Wohnviertel zu grösseren Gebietseinheiten zusammengefasst. Es sind dies: Innenstadt = Altstadt Grossbasel, Vorstädte, Altstadt Kleinbasel Am Ring West = Am Ring, Bachletten, Gotthelf, Iselin; Unteres Kleinbasel = Clara, Rosental, Matthäus, Klybeck, Kleinhüningen; Oberes Kleinbasel = Wettstein, Hirzbrunnen",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": 2950,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F18e"
 		],
 		"externalLinks": [
 			""
@@ -2679,6 +2845,84 @@ var indikatorensetData = [
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik BFS"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Anteile der Verkehrsmittel für die Agglomeration Basel-Stadt 2005",
+		"subtitle": "",
+		"kuerzel": "I.11.6.0003",
+		"kuerzelKunde": "LP.8.31.1.A",
+		"description": "Anteile der Verkehrsmittel für die Agglomeration Basel-Stadt 2005",
+		"id": 5058,
+		"thema": "11 Verkehr",
+		"unterthema": "Mobilitätsverhalten",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-01-04T16:24:25.2525",
+		"schlagwort": [
+			"Auto",
+			"Zug"
+		],
+		"stufe1": "Schwerpunkt 8: Nachhaltiger Umgang mit Ressourcen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Anteil des nichtmotorisierten Individualverkehrs (Velo und zu Fuss) an der Anzahl Etappen liegt bei über 57%. Rund 27% der Etappen werden mit Verkehrsmittel des motorisierten Individualverkehrs zurückgelegt und 15% mit Verkehrsmitteln des öffentlichen Verkehrs.",
+		"erlaeuterungen": "Basis: 4 512 Inlandetappen im Jahr 2005, 22 060 Etappen im Jahr 2010; Filter: Zielpersonen mit Wohnort in der Agglomeration Basel. Diese umfasst die \"Kerngemeinde\" Basel sowie die mit ihr formal und funktional verflochtenen Agglomerationsgemeinden (Umland)",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Raumentwicklung, Mikrozensus zum Verkehrsverhalten"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Anteile der Verkehrsmittel für die Agglomeration Basel-Stadt 2010",
+		"subtitle": "",
+		"kuerzel": "I.11.6.0004",
+		"kuerzelKunde": "LP.8.31.1.B",
+		"description": "Anteile der Verkehrsmittel für die Agglomeration Basel-Stadt 2010",
+		"id": 5059,
+		"thema": "11 Verkehr",
+		"unterthema": "Mobilitätsverhalten",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-01-04T16:27:03.033",
+		"schlagwort": [
+			"Auto",
+			"Zug"
+		],
+		"stufe1": "Schwerpunkt 8: Nachhaltiger Umgang mit Ressourcen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Anteil des nichtmotorisierten Individualverkehrs (Velo und zu Fuss) an der Anzahl Etappen liegt bei über 57%. Rund die Hälfte der Unterwegszeit wird unmotorisiert zurückgelegt, 30% motorisiert und 19% mit öffentlichen Verkehrsmitteln (ÖV). Bei der Tagesdistanz überwiegen die Anteile des motorisierten Individualverkehrs und des öffentlichen Verkehrs.",
+		"erlaeuterungen": "Basis: 4 512 Inlandetappen im Jahr 2005, 22 060 Etappen im Jahr 2010; Filter: Zielpersonen mit Wohnort in der Agglomeration Basel. Diese umfasst die \"Kerngemeinde\" Basel sowie die mit ihr formal und funktional verflochtenen Agglomerationsgemeinden (Umland)",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Raumentwicklung, Mikrozensus zum Verkehrsverhalten"
 		],
 		"externalLinks": [
 			""
