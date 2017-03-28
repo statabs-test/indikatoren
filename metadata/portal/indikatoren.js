@@ -6905,6 +6905,129 @@ var indikatoren = [
 		]
 	},
 	{
+		"title": "Neugegründete Unternehmen",
+		"subtitle": "Basel-Stadt im nationalen Vergleich",
+		"kuerzel": "I.03.2.0005",
+		"kuerzelKunde": "LP.1.05.1.A",
+		"description": "Neugegründete Unternehmen",
+		"id": 5040,
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Beschäftigte ",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton",
+			"Schweiz"
+		],
+		"aktualisierungsdatum": "2016-12-07T14:46:47.4747",
+		"schlagwort": [
+			"Niederlassung",
+			"Arbeit",
+			"Erwerbstätigkeit",
+			"Standort",
+			"Kantonsvergleich"
+		],
+		"stufe1": "Schwerkpunkte 1: Wirtschaftsstandort stärken",
+		"stufe2": "Ziel 5: Häufige Gründung und Ansiedlung von Hightech Firmen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Jahr 2014 wurden in Basel-Stadt 1 352 neue Unternehmen gegründet, 305 mehr als im Jahr 2013.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik BFS, UDEMO"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Neugründungen in Basel-Stadt in ausgewählten Branchen",
+		"subtitle": "",
+		"kuerzel": "I.03.2.0006",
+		"kuerzelKunde": "LP.1.05.1.B",
+		"description": "Neugründungen in Basel-Stadt in ausgewählten Branchen",
+		"id": 5041,
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Beschäftigte ",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2016-12-07T15:07:33.3333",
+		"schlagwort": [
+			"Arbeit",
+			"Erwerbstätigkeit"
+		],
+		"stufe1": "Schwerkpunkte 1: Wirtschaftsstandort stärken",
+		"stufe2": "Ziel 5: Häufige Gründung und Ansiedlung von Hightech Firmen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die meisten neuen Unternehmen wurden 2014 in den Unternehmensdienstleistungen gegründet.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik BFS, UDEMO"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen seit 2006",
+		"subtitle": "",
+		"kuerzel": "I.01.3.0007",
+		"kuerzelKunde": "LP.7.25.5",
+		"description": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen seit 2006",
+		"id": 5044,
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wahlen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-02-06T11:46:04.044",
+		"schlagwort": [
+			"Alter",
+			"Familie",
+			"Bildung",
+			"Schule"
+		],
+		"stufe1": "Schwerpunkt 7: Chancengleichheit",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Das Angebot an Plätzen ist in den letzten Jahren sowohl im Bereich Tagesbetreuung als auch Tagesstrukturen kontinuierlich ausgebaut worden.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Arbeitnehmer mit Kaderstellen (Unternehmensleitung oder Vorgesetztenfunktion) nach Geschlecht",
 		"subtitle": "",
 		"kuerzel": "I.03.2.0010",
