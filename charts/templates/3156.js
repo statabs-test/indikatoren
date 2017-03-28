@@ -2,13 +2,13 @@
     return {
 	"plotOptions": {
 		"series": {
-			"pointWidth": 10
+			"pointWidth": 7
 		}
 	},
   "xAxis": {
     "type": "category",
       "labels": {
-      "rotation": 0 
+      "rotation": -90 
     }  
    },
   "yAxis": {
@@ -39,7 +39,8 @@
   },
   "chart": {      
     "type": "column",
-    "inverted": true
+    "inverted": false,
+     "spacingBottom": 40
   }
 }
 }());

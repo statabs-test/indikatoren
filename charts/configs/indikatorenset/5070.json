@@ -4,7 +4,7 @@
       "color": "#71a3b5",
       "index": 0,
       "type": "column",
-      "pointWidth": "30",
+      "pointWidth": "15",
       "data": [
         [
           2010,
@@ -37,7 +37,7 @@
       "color": "#b00000",
       "index": 0,
       "type": "column",
-      "pointWidth": "30",
+      "pointWidth": "15",
       "data": [
         [
           2010,
@@ -171,7 +171,6 @@
         }
       },
       "min": 0,
-      "max": 10,
       "tickInterval": 2,
       "gridLineWidth": 0,
       "opposite": true

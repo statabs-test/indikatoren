@@ -1,39 +1,39 @@
 <svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
     <defs>
         <clipPath id="a">
-            <path fill="none" d="M0 0h253v301H0z"/>
+            <path fill="none" d="M0 0h253v306H0z"/>
         </clipPath>
     </defs>
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M174 111h301v253H174z"/>
+    <path fill="none" class="highcharts-plot-background" d="M169 111h306v253H169z"/>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M174 134.5h301m-301 23h301m-301 23h301m-301 23h301m-301 23h301m-301 23h301m-301 23h301m-301 23h301m-301 23h301m-301 23h301m-301 23h301m-301-253h301"/>
+        <path fill="none" class="highcharts-grid-line" d="M169 134.5h306m-306 23h306m-306 23h306m-306 23h306m-306 23h306m-306 23h306m-306 23h306m-306 23h306m-306 23h306m-306 23h306m-306 23h306m-306-253h306"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M173.5 111v253m75-253v253m76-253v253m75-253v253m76-253v253"/>
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M168.5 111v253m77-253v253m76-253v253m77-253v253m77-253v253"/>
     </g>
-    <path fill="none" class="highcharts-plot-border" d="M174 111h301v253H174z"/>
+    <path fill="none" class="highcharts-plot-border" d="M169 111h306v253H169z"/>
     <g class="highcharts-axis highcharts-xaxis">
-        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M174 134.5h-10m10 23h-10m10 23h-10m10 23h-10m10 23h-10m10 23h-10m10 23h-10m10 23h-10m10 23h-10m10 23h-10m10 23h-10m10-254h-10"/>
-        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M173.5 111v253"/>
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M169 134.5h-10m10 23h-10m10 23h-10m10 23h-10m10 23h-10m10 23h-10m10 23h-10m10 23h-10m10 23h-10m10 23h-10m10 23h-10m10-254h-10"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M168.5 111v253"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M174 364h301"/>
+        <path fill="none" class="highcharts-axis-line" d="M169 364h306"/>
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="matrix(0 -1 -1 0 475 364)" clip-path="url(#a)">
-            <path fill="#8a8a8a" class="highcharts-point" stroke="#fff" d="M241.5 184.5h6v41h-6z"/>
-            <path fill="#8a8a8a" class="highcharts-point highcharts-negative" stroke="#fff" d="M218.5 225.5h6v6h-6z"/>
-            <path fill="#8a8a8a" class="highcharts-point" stroke="#fff" d="M195.5 217.5h6v8h-6z"/>
-            <path fill="#8a8a8a" class="highcharts-point highcharts-negative" stroke="#fff" d="M172.5 225.5h6v25h-6z"/>
-            <path fill="#8a8a8a" class="highcharts-point" stroke="#fff" d="M149.5 223.5h6v2h-6z"/>
-            <path fill="#8a8a8a" class="highcharts-point highcharts-negative" stroke="#fff" d="M126.5 225.5h6v18h-6z"/>
-            <path fill="#8a8a8a" class="highcharts-point" stroke="#fff" d="M103.5 222.5h6v3h-6zm-23-21h6v24h-6zm-23-25h6v49h-6zm-23 24h6v25h-6zm-23-50h6v75h-6z"/>
+            <path fill="#8a8a8a" class="highcharts-point" stroke="#fff" d="M241.5 187.5h6v42h-6z"/>
+            <path fill="#8a8a8a" class="highcharts-point highcharts-negative" stroke="#fff" d="M218.5 229.5h6v5h-6z"/>
+            <path fill="#8a8a8a" class="highcharts-point" stroke="#fff" d="M195.5 220.5h6v9h-6z"/>
+            <path fill="#8a8a8a" class="highcharts-point highcharts-negative" stroke="#fff" d="M172.5 229.5h6v25h-6z"/>
+            <path fill="#8a8a8a" class="highcharts-point" stroke="#fff" d="M149.5 227.5h6v2h-6z"/>
+            <path fill="#8a8a8a" class="highcharts-point highcharts-negative" stroke="#fff" d="M126.5 229.5h6v18h-6z"/>
+            <path fill="#8a8a8a" class="highcharts-point" stroke="#fff" d="M103.5 226.5h6v3h-6zm-23-21h6v24h-6zm-23-26h6v50h-6zm-23 24h6v26h-6zm-23-50h6v76h-6z"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="matrix(0 -1 -1 0 475 364)" clip-path="url(#a)">
-            <path fill="#ff8028" class="highcharts-point" stroke="#fff" d="M234.5 176.5h6v49h-6zm-23-142h6v191h-6z"/>
-            <path fill="#ff8028" class="highcharts-point highcharts-negative" stroke="#fff" d="M188.5 225.5h6v3h-6zm-23 0h6v41h-6z"/>
-            <path fill="#ff8028" class="highcharts-point" stroke="#fff" d="M142.5 218.5h6v7h-6zm-23 1h6v6h-6zm-23-12h6v18h-6zm-23-24h6v42h-6zm-23-21h6v63h-6zm-23 0h6v63h-6zm-23-3h6v66h-6z"/>
+            <path fill="#ff8028" class="highcharts-point" stroke="#fff" d="M234.5 179.5h6v50h-6zm-23-145h6v195h-6z"/>
+            <path fill="#ff8028" class="highcharts-point highcharts-negative" stroke="#fff" d="M188.5 229.5h6v3h-6zm-23 0h6v42h-6z"/>
+            <path fill="#ff8028" class="highcharts-point" stroke="#fff" d="M142.5 222.5h6v7h-6zm-23 1h6v6h-6zm-23-12h6v18h-6zm-23-25h6v43h-6zm-23-22h6v65h-6zm-23 1h6v64h-6zm-23-3h6v67h-6z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
@@ -70,51 +70,51 @@
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="159" y="127">
+        <text x="154" y="127">
             <tspan>Life Sciences</tspan>
         </text>
-        <text x="159" y="150">
-            <tspan>Herstellung von chemischen…</tspan><title>Herstellung von chemischen Erzeugnissen</title>
+        <text x="154" y="150">
+            <tspan>Herst. von chem. Erzeugn.</tspan>
         </text>
-        <text x="159" y="173">
+        <text x="154" y="173">
             <tspan>Baugewerbe</tspan>
         </text>
-        <text x="159" y="196">
+        <text x="154" y="196">
             <tspan>Handel und Garagengewerbe</tspan>
         </text>
-        <text x="159" y="219">
+        <text x="154" y="219">
             <tspan>Verkehr und Lagerei</tspan>
         </text>
-        <text x="159" y="242">
+        <text x="154" y="242">
             <tspan>Gastgewerbe</tspan>
         </text>
-        <text x="159" y="265">
-            <tspan>Finanz-und Versicherungsdi…</tspan><title>Finanz- und Versicherungsdienstleistungen</title>
+        <text x="154" y="265">
+            <tspan>Finanz- &amp; Versicherungsdl.</tspan>
         </text>
-        <text x="159" y="288">
-            <tspan>Freiberufliche und wissensc…</tspan><title>Freiberufliche und wissenschaftl. Dienstl.</title>
+        <text x="154" y="288">
+            <tspan>Freiberufl. &amp; wiss. Dienstl.</tspan>
         </text>
-        <text x="159" y="311">
-            <tspan>Sonstige wirtschaftliche Die…</tspan><title>Sonstige wirtschaftliche Dienstleistungen</title>
+        <text x="154" y="311">
+            <tspan>Sonstige wirtschaftl. Dienstl.</tspan>
         </text>
-        <text x="159" y="334">
+        <text x="154" y="334">
             <tspan>Verwaltung</tspan>
         </text>
-        <text x="159" y="357">
-            <tspan>Gesundheits-und Sozialwes…</tspan><title>Gesundheits- und Sozialwesen</title>
+        <text x="154" y="357">
+            <tspan>Gesundh.- &amp; Sozialwesen</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
-        <text x="174" y="383">
+        <text x="169" y="383">
             <tspan>-5%</tspan>
         </text>
-        <text x="249.25" y="383">
+        <text x="245.5" y="383">
             <tspan>0%</tspan>
         </text>
-        <text x="324.5" y="383">
+        <text x="322" y="383">
             <tspan>5%</tspan>
         </text>
-        <text x="399.75" y="383">
+        <text x="398.5" y="383">
             <tspan>10%</tspan>
         </text>
         <text x="464" y="383">

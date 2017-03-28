@@ -13,7 +13,7 @@
         <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M52 350.5h386m-386-48h386m-386-48h386m-386-47h386m-386-48h386m-386-49h386"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M52 350.5h386m-386-48h386m-386-48h386m-386-47h386m-386-48h386m-386-48h386"/>
+        <path fill="none" class="highcharts-grid-line" d="M52 350.5h386m-386-22h386m-386-21h386m-386-22h386m-386-22h386m-386-22h386m-386-21h386m-386-22h386m-386-22h386m-386-22h386m-386-21h386m-386-22h386"/>
     </g>
     <path fill="none" class="highcharts-plot-border" d="M52 111h386v239H52z"/>
     <g class="highcharts-axis highcharts-xaxis">
@@ -27,14 +27,17 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(52 111)" clip-path="url(#a)">
-            <path fill="#71a3b5" class="highcharts-point" stroke="#fff" d="M9.5 55.5h30v184h-30zm64-19h30v203h-30zm63-9h30v212h-30zm63-8h30v220h-30zm63-3h30v223h-30zm64-6h30v229h-30z"/>
+            <path fill="#71a3b5" class="highcharts-point" stroke="#fff" d="M17.5 55.5h15v184h-15zm63-19h15v203h-15zm63-9h15v212h-15zm64-8h15v220h-15zm63-3h15v223h-15zm63-6h15v229h-15z"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(52 111)" clip-path="url(#a)">
-            <path fill="#b00000" class="highcharts-point" stroke="#fff" d="M28.5 147.5h30v92h-30zm64-11h30v103h-30zm63 0h30v103h-30zm63 2h30v101h-30zm63 9h30v92h-30z"/>
+            <path fill="#b00000" class="highcharts-point" stroke="#fff" d="M36.5 147.5h15v92h-15zm63-11h15v103h-15zm63 0h15v103h-15zm64 2h15v101h-15zm63 9h15v92h-15z"/>
         </g>
         <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="translate(52 111)" clip-path="url(#a)">
-            <path fill="none" d="M34.803-207.961l63.279 70.276 63.279-22.577 63.278-32.03 63.279-41.342" class="highcharts-graph" stroke="#7d60a0" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M24.803-207.961h10l63.279 70.276 63.279-22.577 63.278-32.03 63.279-41.342h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+            <path fill="none" d="M34.803 35.836L98.082 67.78l63.279-10.263 63.278-14.559 63.279-18.792" class="highcharts-graph" stroke="#7d60a0" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M24.803 35.836h10L98.082 67.78l63.279-10.263 63.278-14.559 63.279-18.792h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-2 highcharts-line-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#7d60a0" d="M90 147a4 4 0 1 1 0-.004zm64 32a4 4 0 1 1 0-.004zm63-10a4 4 0 1 1 0-.004zm63-15a4 4 0 1 1 0-.004zm63-19a4 4 0 1 1 0-.004z" class="highcharts-point"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
@@ -106,20 +109,38 @@
         <text x="453" y="355">
             <tspan>0%</tspan>
         </text>
-        <text x="453" y="307">
+        <text x="453" y="333">
             <tspan>2%</tspan>
         </text>
-        <text x="453" y="259">
+        <text x="453" y="311">
             <tspan>4%</tspan>
         </text>
-        <text x="453" y="211">
+        <text x="453" y="289">
             <tspan>6%</tspan>
         </text>
-        <text x="453" y="163">
+        <text x="453" y="268">
             <tspan>8%</tspan>
         </text>
-        <text x="453" y="116">
+        <text x="453" y="246">
             <tspan>10%</tspan>
+        </text>
+        <text x="453" y="224">
+            <tspan>12%</tspan>
+        </text>
+        <text x="453" y="202">
+            <tspan>14%</tspan>
+        </text>
+        <text x="453" y="181">
+            <tspan>16%</tspan>
+        </text>
+        <text x="453" y="159">
+            <tspan>18%</tspan>
+        </text>
+        <text x="453" y="137">
+            <tspan>20%</tspan>
+        </text>
+        <text x="453" y="116">
+            <tspan>22%</tspan>
         </text>
     </g>
     <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">

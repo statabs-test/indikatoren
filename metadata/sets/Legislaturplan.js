@@ -721,7 +721,7 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Anteil Familien, die mit den Grünflächen (z.B. Wiesen/Parks) im Quartier sehr oder eher zufrieden sind nach Wohngegend",
+		"title": "Zufriedenheit mit Grünflächen im Quartier",
 		"subtitle": "«Wenn Sie an Ihr Quartier denken, wie zufrieden sind Sie dann mit dem Angebot an Grünflächen (z.B. Wiesen, Parks)»",
 		"kuerzel": "I.50.2.0013",
 		"kuerzelKunde": "LP.5.19.2",
