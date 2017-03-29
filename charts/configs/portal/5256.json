@@ -433,7 +433,7 @@
     "text": "Quelle: "
   },
   "legend": {
-    "enabled": false,
+    "enabled": true,
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",

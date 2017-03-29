@@ -2,6 +2,7 @@
   "series": [
     {
       "color": "#cd9c00",
+      "visible": false,
       "data": [
         [
           "Schweiz",
@@ -45,6 +46,7 @@
     },
     {
       "color": "#9f7c5a",
+      "visible": false,
       "data": [
         [
           "Schweiz",
@@ -88,6 +90,7 @@
     },
     {
       "color": "#661200",
+      "visible": false,
       "data": [
         [
           "Schweiz",
@@ -131,6 +134,7 @@
     },
     {
       "color": "#008AC3",
+      "visible": false,
       "data": [
         [
           "Schweiz",
@@ -174,6 +178,7 @@
     },
     {
       "color": "#69929b",
+      "visible": true,
       "data": [
         [
           "Schweiz",

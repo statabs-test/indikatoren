@@ -2,6 +2,7 @@
   "series": [
     {
       "color": "#d7e9d2",
+      "visible": false,
       "data": [
         [
           "Innenstadt",
@@ -49,6 +50,7 @@
     },
     {
       "color": "#73ba7c",
+      "visible": false,
       "data": [
         [
           "Innenstadt",
@@ -96,6 +98,7 @@
     },
     {
       "color": "#007a2f",
+      "visible": false,
       "data": [
         [
           "Innenstadt",
@@ -143,6 +146,7 @@
     },
     {
       "color": "#0b3b19",
+      "visible": false,
       "data": [
         [
           "Innenstadt",
@@ -190,6 +194,7 @@
     },
     {
       "color": "#4f6228",
+      "visible": true,
       "data": [
         [
           "Innenstadt",
