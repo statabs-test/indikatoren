@@ -104,11 +104,19 @@
         },
         navigator: {
             margin: 10, 
-            height: 30
+            height: 30,
+            series: {
+                includeInCSVExport: false
+            }
         }, 
         tooltip: {
             dateTimeLabelFormats: {
                 day:"%A, %e. %b, %Y"
+            }
+        },
+        exporting: {
+            csv: {
+                dateFormat: '%d.%m.%Y'
             }
         }
 	};

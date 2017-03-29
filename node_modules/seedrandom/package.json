@@ -2,11 +2,11 @@
   "_args": [
     [
       {
-        "raw": "seedrandom@./node_shrinkwrap/seedrandom-2.4.2.tar",
+        "raw": "seedrandom@file:node_shrinkwrap/seedrandom-2.4.2.tar",
         "scope": null,
         "escapedName": "seedrandom",
         "name": "seedrandom",
-        "rawSpec": "./node_shrinkwrap/seedrandom-2.4.2.tar",
+        "rawSpec": "file:node_shrinkwrap/seedrandom-2.4.2.tar",
         "spec": "/home/ubuntu/workspace/node_shrinkwrap/seedrandom-2.4.2.tar",
         "type": "local"
       },
@@ -19,11 +19,11 @@
   "_location": "/seedrandom",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "seedrandom@./node_shrinkwrap/seedrandom-2.4.2.tar",
+    "raw": "seedrandom@file:node_shrinkwrap/seedrandom-2.4.2.tar",
     "scope": null,
     "escapedName": "seedrandom",
     "name": "seedrandom",
-    "rawSpec": "./node_shrinkwrap/seedrandom-2.4.2.tar",
+    "rawSpec": "file:node_shrinkwrap/seedrandom-2.4.2.tar",
     "spec": "/home/ubuntu/workspace/node_shrinkwrap/seedrandom-2.4.2.tar",
     "type": "local"
   },
@@ -33,7 +33,7 @@
   "_resolved": "file:node_shrinkwrap/seedrandom-2.4.2.tar",
   "_shasum": "5eef7291a4f634b763be11fae92fef73659cb43e",
   "_shrinkwrap": null,
-  "_spec": "seedrandom@./node_shrinkwrap/seedrandom-2.4.2.tar",
+  "_spec": "seedrandom@file:node_shrinkwrap/seedrandom-2.4.2.tar",
   "_where": "/home/ubuntu/workspace",
   "author": {
     "name": "David Bau"

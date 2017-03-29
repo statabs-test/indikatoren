@@ -2,28 +2,28 @@
   "_args": [
     [
       {
-        "raw": "highcharts@./node_shrinkwrap/highcharts-5.0.7.tar",
+        "raw": "highcharts@file:node_shrinkwrap/highcharts-5.0.7.tar",
         "scope": null,
         "escapedName": "highcharts",
         "name": "highcharts",
-        "rawSpec": "./node_shrinkwrap/highcharts-5.0.7.tar",
+        "rawSpec": "file:node_shrinkwrap/highcharts-5.0.7.tar",
         "spec": "/home/ubuntu/workspace/node_shrinkwrap/highcharts-5.0.7.tar",
         "type": "local"
       },
       "/home/ubuntu/workspace"
     ]
   ],
-  "_from": "highcharts@>=5.0.6 <6.0.0",
+  "_from": "node_shrinkwrap/highcharts-5.0.7.tar",
   "_id": "highcharts@5.0.7",
   "_inCache": true,
   "_location": "/highcharts",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "highcharts@./node_shrinkwrap/highcharts-5.0.7.tar",
+    "raw": "highcharts@file:node_shrinkwrap/highcharts-5.0.7.tar",
     "scope": null,
     "escapedName": "highcharts",
     "name": "highcharts",
-    "rawSpec": "./node_shrinkwrap/highcharts-5.0.7.tar",
+    "rawSpec": "file:node_shrinkwrap/highcharts-5.0.7.tar",
     "spec": "/home/ubuntu/workspace/node_shrinkwrap/highcharts-5.0.7.tar",
     "type": "local"
   },
@@ -33,7 +33,7 @@
   "_resolved": "file:node_shrinkwrap/highcharts-5.0.7.tar",
   "_shasum": "adf0ced5c43055924d85278ee38fde24a773673c",
   "_shrinkwrap": null,
-  "_spec": "highcharts@./node_shrinkwrap/highcharts-5.0.7.tar",
+  "_spec": "highcharts@file:node_shrinkwrap/highcharts-5.0.7.tar",
   "_where": "/home/ubuntu/workspace",
   "author": {
     "name": "Highsoft AS",

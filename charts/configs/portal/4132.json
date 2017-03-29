@@ -695,7 +695,10 @@
   },
   "navigator": {
     "margin": 10,
-    "height": 30
+    "height": 30,
+    "series": {
+      "includeInCSVExport": false
+    }
   },
   "tooltip": {
     "dateTimeLabelFormats": {
@@ -703,6 +706,9 @@
     }
   },
   "exporting": {
+    "csv": {
+      "dateFormat": "%d.%m.%Y"
+    },
     "filename": "I.01.1.0077"
   }
 }
