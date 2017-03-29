@@ -13,11 +13,11 @@
     }    
   },
   "series": [
-  {"color": "#d7e9d2"}, /* hellgrün*/
-  {"color": "#73ba7c"}, /* ... */
-  {"color": "#007a2f"}, /* ... */
-  {"color": "#0b3b19"}, /* ... */
-  {"color": "#4f6228"}  /* dunkelgrün */
+  {"color": "#d7e9d2", "visible": false}, /* hellgrün*/
+  {"color": "#73ba7c", "visible": false}, /* ... */
+  {"color": "#007a2f", "visible": false}, /* ... */
+  {"color": "#0b3b19", "visible": false}, /* ... */
+  {"color": "#4f6228", "visible": true}  /* dunkelgrün */
   ],
   "legend": {
     "enabled": true,
