@@ -5,23 +5,23 @@
       "data": [
         [
           "Chemische Industrie",
-          0.182663779536024
+          0.180692975339755
         ],
         [
           "Pharmazeutische Industrie",
-          0.450363236976199
+          0.41476682211066
         ],
         [
           "Elektronik. Optik und Maschinenbau",
-          0.147834530433661
+          0.145802400513393
         ],
         [
           "Medizinaltechnik",
-          0.0541211514480445
+          0.0794592955552733
         ],
         [
           "Total",
-          0.881760490314119
+          0.895595489895918
         ]
       ],
       "name": "Basel-Stadt",
@@ -32,23 +32,23 @@
       "data": [
         [
           "Chemische Industrie",
-          0.102614514913152
+          0.031734116712234
         ],
         [
           "Pharmazeutische Industrie",
-          0.285530008637663
+          0.164027800810348
         ],
         [
           "Elektronik. Optik und Maschinenbau",
-          0.172382728758813
+          0.144146855126489
         ],
         [
           "Medizinaltechnik",
-          0.078012297789189
+          0.104271368840597
         ],
         [
           "Total",
-          0.702232811978946
+          0.490443825777836
         ]
       ],
       "name": "Basel-Landschaft",
@@ -59,23 +59,23 @@
       "data": [
         [
           "Chemische Industrie",
-          0.063013016992523
+          0.051026630011517
         ],
         [
           "Pharmazeutische Industrie",
-          0.0427376132461994
+          0.0272584317351114
         ],
         [
           "Elektronik. Optik und Maschinenbau",
-          0.346166562949119
+          0.31815194512014
         ],
         [
           "Medizinaltechnik",
-          0.0532347678984544
+          0.0482803337466384
         ],
         [
           "Total",
-          0.626657982634399
+          0.559869149026793
         ]
       ],
       "name": "Zürich",
@@ -113,23 +113,23 @@
       "data": [
         [
           "Chemische Industrie",
-          186044
+          186991.25
         ],
         [
           "Pharmazeutische Industrie",
-          186044
+          186991.25
         ],
         [
           "Elektronik. Optik und Maschinenbau",
-          186044
+          186991.25
         ],
         [
           "Medizinaltechnik",
-          186044
+          186991.25
         ],
         [
           "Total",
-          186044
+          186991.25
         ]
       ],
       "name": "MW_Einw_BS",
@@ -169,7 +169,7 @@
     "type": "column",
     "inverted": false,
     "forExport": true,
-    "renderTo": "container-5032"
+    "renderTo": "container-5033"
   },
   "plotOptions": {
     "series": {
@@ -187,7 +187,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "I.04.1.0013 Transnationale Patentanmeldungen pro 1000 Einwohner 2005 bis 2009"
+    "text": "LP.2.07.1C Transnationale Patentanmeldungen pro 1000 Einwohner 2010 bis 2013"
   },
   "subtitle": {
     "style": {
@@ -253,6 +253,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.04.1.0013"
+    "filename": "I.04.1.0014"
   }
 }

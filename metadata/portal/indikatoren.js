@@ -6745,6 +6745,47 @@ var indikatoren = [
 		]
 	},
 	{
+		"title": "Transnationale Patentanmeldungen pro 1000 Einwohner 2010 bis 2013",
+		"subtitle": "nach ausgewählten Wirtschaftsbranchen",
+		"kuerzel": "I.04.1.0014",
+		"kuerzelKunde": "LP.2.07.1C",
+		"description": "Transnationale Patentanmeldungen pro 1000 Einwohner 2010 bis 2013",
+		"id": 5033,
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Volkseinkommen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2016-12-05T15:36:26.2626",
+		"schlagwort": [
+			"Bewilligung",
+			"Schule",
+			"Standort",
+			"Kantonsvergleich"
+		],
+		"stufe1": "Schwerkpunkte 2: Basel als Wissenszentrum positionieren",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Es werden die Patentanmeldungen pro Einwohner im Mittel über mehrere Jahre gezeigt. In Basel-Stadt werden am meisten Patente in der Pharmazeutischen Industrie angemeldet.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"BAK Basel Economics"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Anteil Befragte, die mit den Parks und Grünanlagen am Wohnort sehr oder eher zufrieden sind nach Wohngegend",
 		"subtitle": "",
 		"kuerzel": "I.50.1.0035",
@@ -6786,7 +6827,7 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Anteil Familien, die mit den Grünflächen (z.B. Wiesen/Parks) im Quartier sehr oder eher zufrieden sind nach Wohngegend",
+		"title": "Zufriedenheit mit Grünflächen im Quartier",
 		"subtitle": "«Wenn Sie an Ihr Quartier denken, wie zufrieden sind Sie dann mit dem Angebot an Grünflächen (z.B. Wiesen, Parks)»",
 		"kuerzel": "I.50.2.0014",
 		"kuerzelKunde": "LP.5.20.2",
@@ -7150,7 +7191,7 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Anteil Befragter, der mit Einrichtungen und Angeboten für behinderte Menschen eher oder sehr zufrieden ist",
+		"title": "Zufriedenheit mit Angebot für behinderte Menschen",
 		"subtitle": "«Wie zufrieden sind Sie mit Angeboten und Einrichtungen für behinderte Menschen?»",
 		"kuerzel": "I.50.1.0054",
 		"kuerzelKunde": "LP.7.29.2",
@@ -7234,11 +7275,11 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Neuerstellte und umgebaute Wohnungen nach Zimmerzahl",
+		"title": "Umgebaute Wohnungen nach Zimmerzahl",
 		"subtitle": "",
 		"kuerzel": "I.09.1.0047",
 		"kuerzelKunde": "LP.5.18.1.B",
-		"description": "Neuerstellte und umgebaute Wohnungen nach Zimmerzahl",
+		"description": "Umgebaute Wohnungen nach Zimmerzahl",
 		"id": 5054,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
@@ -9016,6 +9057,43 @@ var indikatoren = [
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"
+		]
+	},
+	{
+		"title": "Neuerstellte Wohnungen nach Zimmerzahl",
+		"subtitle": "",
+		"kuerzel": "I.09.1.0050",
+		"kuerzelKunde": "LP.5.18.1.A",
+		"description": "Neuerstellte Wohnungen nach Zimmerzahl",
+		"id": 5256,
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Gebäude",
+			"Quartier"
+		],
+		"stufe1": "Schwerpunkt 5: Urbane Standortqualität",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
 		]
 	}
 ];

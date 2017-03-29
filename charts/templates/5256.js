@@ -34,6 +34,7 @@
     }
   },
   "legend": {
+  	"enabled": true,
     "layout": "vertical",
     "verticalAlign": "middle",
     "itemMarginBottom": 5,

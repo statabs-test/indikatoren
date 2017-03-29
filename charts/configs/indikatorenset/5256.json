@@ -6,40 +6,44 @@
       "legendIndex": 6,
       "data": [
         [
-          "2007  Neubau",
+          "2007  Umbau",
+          0
+        ],
+        [
+          "2008  Umbau",
           3
         ],
         [
-          "2008  Neubau",
-          8
-        ],
-        [
-          "2009  Neubau",
-          31
-        ],
-        [
-          "2010  Neubau",
-          8
-        ],
-        [
-          "2011  Neubau",
+          "2009  Umbau",
           9
         ],
         [
-          "2012  Neubau",
-          19
+          "2010  Umbau",
+          15
         ],
         [
-          "2013  Neubau",
-          10
+          "2011  Umbau",
+          6
         ],
         [
-          "2014  Neubau",
-          75
+          "2012  Umbau",
+          26
         ],
         [
-          "2015  Neubau",
-          36
+          "2013  Umbau",
+          27
+        ],
+        [
+          "2014  Umbau",
+          21
+        ],
+        [
+          "2015  Umbau",
+          32
+        ],
+        [
+          "2016  Umbau",
+          12
         ]
       ],
       "name": "1 Zimmer",
@@ -51,40 +55,44 @@
       "legendIndex": 5,
       "data": [
         [
-          "2007  Neubau",
+          "2007  Umbau",
+          0
+        ],
+        [
+          "2008  Umbau",
+          25
+        ],
+        [
+          "2009  Umbau",
+          13
+        ],
+        [
+          "2010  Umbau",
+          17
+        ],
+        [
+          "2011  Umbau",
           11
         ],
         [
-          "2008  Neubau",
-          31
-        ],
-        [
-          "2009  Neubau",
-          104
-        ],
-        [
-          "2010  Neubau",
-          54
-        ],
-        [
-          "2011  Neubau",
-          114
-        ],
-        [
-          "2012  Neubau",
-          100
-        ],
-        [
-          "2013  Neubau",
-          51
-        ],
-        [
-          "2014  Neubau",
-          78
-        ],
-        [
-          "2015  Neubau",
+          "2012  Umbau",
           41
+        ],
+        [
+          "2013  Umbau",
+          83
+        ],
+        [
+          "2014  Umbau",
+          89
+        ],
+        [
+          "2015  Umbau",
+          258
+        ],
+        [
+          "2016  Umbau",
+          122
         ]
       ],
       "name": "2 Zimmer",
@@ -96,40 +104,44 @@
       "legendIndex": 4,
       "data": [
         [
-          "2007  Neubau",
+          "2007  Umbau",
+          0
+        ],
+        [
+          "2008  Umbau",
           31
         ],
         [
-          "2008  Neubau",
-          75
+          "2009  Umbau",
+          41
         ],
         [
-          "2009  Neubau",
-          165
+          "2010  Umbau",
+          21
         ],
         [
-          "2010  Neubau",
-          156
+          "2011  Umbau",
+          24
         ],
         [
-          "2011  Neubau",
-          121
+          "2012  Umbau",
+          40
         ],
         [
-          "2012  Neubau",
-          88
+          "2013  Umbau",
+          33
         ],
         [
-          "2013  Neubau",
-          35
+          "2014  Umbau",
+          109
         ],
         [
-          "2014  Neubau",
-          75
+          "2015  Umbau",
+          310
         ],
         [
-          "2015  Neubau",
-          28
+          "2016  Umbau",
+          173
         ]
       ],
       "name": "3 Zimmer",
@@ -141,40 +153,44 @@
       "legendIndex": 3,
       "data": [
         [
-          "2007  Neubau",
-          38
+          "2007  Umbau",
+          0
         ],
         [
-          "2008  Neubau",
-          64
+          "2008  Umbau",
+          57
         ],
         [
-          "2009  Neubau",
-          145
+          "2009  Umbau",
+          44
         ],
         [
-          "2010  Neubau",
-          118
+          "2010  Umbau",
+          34
         ],
         [
-          "2011  Neubau",
-          94
+          "2011  Umbau",
+          29
         ],
         [
-          "2012  Neubau",
-          41
+          "2012  Umbau",
+          25
         ],
         [
-          "2013  Neubau",
-          26
+          "2013  Umbau",
+          3
         ],
         [
-          "2014  Neubau",
-          65
+          "2014  Umbau",
+          105
         ],
         [
-          "2015  Neubau",
-          18
+          "2015  Umbau",
+          141
+        ],
+        [
+          "2016  Umbau",
+          83
         ]
       ],
       "name": "4 Zimmer",
@@ -186,40 +202,44 @@
       "legendIndex": 2,
       "data": [
         [
-          "2007  Neubau",
-          33
+          "2007  Umbau",
+          0
         ],
         [
-          "2008  Neubau",
-          15
+          "2008  Umbau",
+          10
         ],
         [
-          "2009  Neubau",
-          17
+          "2009  Umbau",
+          21
         ],
         [
-          "2010  Neubau",
+          "2010  Umbau",
+          16
+        ],
+        [
+          "2011  Umbau",
+          18
+        ],
+        [
+          "2012  Umbau",
+          16
+        ],
+        [
+          "2013  Umbau",
           26
         ],
         [
-          "2011  Neubau",
-          13
+          "2014  Umbau",
+          26
         ],
         [
-          "2012  Neubau",
-          12
+          "2015  Umbau",
+          42
         ],
         [
-          "2013  Neubau",
-          6
-        ],
-        [
-          "2014  Neubau",
-          23
-        ],
-        [
-          "2015  Neubau",
-          8
+          "2016  Umbau",
+          10
         ]
       ],
       "name": "5 Zimmer",
@@ -231,40 +251,44 @@
       "legendIndex": 1,
       "data": [
         [
-          "2007  Neubau",
-          4
-        ],
-        [
-          "2008  Neubau",
-          8
-        ],
-        [
-          "2009  Neubau",
-          7
-        ],
-        [
-          "2010  Neubau",
-          10
-        ],
-        [
-          "2011  Neubau",
+          "2007  Umbau",
           0
         ],
         [
-          "2012  Neubau",
-          8
+          "2008  Umbau",
+          17
         ],
         [
-          "2013  Neubau",
-          10
+          "2009  Umbau",
+          11
         ],
         [
-          "2014  Neubau",
-          10
+          "2010  Umbau",
+          16
         ],
         [
-          "2015  Neubau",
-          3
+          "2011  Umbau",
+          12
+        ],
+        [
+          "2012  Umbau",
+          6
+        ],
+        [
+          "2013  Umbau",
+          5
+        ],
+        [
+          "2014  Umbau",
+          19
+        ],
+        [
+          "2015  Umbau",
+          5
+        ],
+        [
+          "2016  Umbau",
+          12
         ]
       ],
       "name": "6 Zimmer u.m.",
@@ -276,39 +300,43 @@
       "legendIndex": 0,
       "data": [
         [
-          "2007  Neubau",
+          "2007  Umbau",
+          263
+        ],
+        [
+          "2008  Umbau",
           0
         ],
         [
-          "2008  Neubau",
+          "2009  Umbau",
           0
         ],
         [
-          "2009  Neubau",
+          "2010  Umbau",
           0
         ],
         [
-          "2010  Neubau",
+          "2011  Umbau",
           0
         ],
         [
-          "2011  Neubau",
+          "2012  Umbau",
           0
         ],
         [
-          "2012  Neubau",
-          0
-        ],
-        [
-          "2013  Neubau",
+          "2013  Umbau",
           null
         ],
         [
-          "2014  Neubau",
+          "2014  Umbau",
           null
         ],
         [
-          "2015  Neubau",
+          "2015  Umbau",
+          null
+        ],
+        [
+          "2016  Umbau",
           null
         ]
       ],
@@ -318,52 +346,36 @@
   ],
   "xAxis": {
     "type": "category",
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
+    "uniqueNames": false,
     "labels": {
       "style": {
         "color": "#000000"
       }
     },
-    "tickColor": "#FFFFFF",
+    "tickLength": 0,
     "tickInterval": 1
   },
   "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
+    },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
     "width": 485,
     "height": 415,
-    "spacingBottom": 30,
+    "spacingBottom": 45,
     "style": {
       "fontFamily": "Arial"
     },
-    "zoomType": "xy",
-    "events": {
-      "load": function () {
-                    this.credits.element.onclick = function() {}
-                }
-    },
-    "renderTo": "container-5054",
+    "type": "column",
+    "renderTo": "container-5256",
     "marginBottom": 75,
     "marginTop": 75,
-    "type": "column",
     "inverted": true,
     "forExport": true
-  },
-  "plotOptions": {
-    "series": {
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      },
-      "pointWidth": 10,
-      "stacking": "normal"
-    }
   },
   "title": {
     "style": {
@@ -372,7 +384,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "LP.5.18.1.B Umgebaute Wohnungen nach Zimmerzahl"
+    "text": "LP.5.18.1.A Neuerstellte Wohnungen nach Zimmerzahl"
   },
   "subtitle": {
     "style": {
@@ -384,7 +396,12 @@
     "text": "",
     "align": "left"
   },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
   "yAxis": {
+    "min": 0,
     "title": {
       "style": {
         "color": "#000000",
@@ -399,13 +416,8 @@
       "format": "{value:,.0f}"
     }
   },
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
-    }
-  },
   "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
     "style": {
       "color": "#000000",
@@ -416,25 +428,33 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -5
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+    "text": "Quelle: "
   },
   "legend": {
-    "symbolRadius": 0,
+    "enabled": false,
     "layout": "vertical",
     "verticalAlign": "middle",
-    "itemMarginBottom": 5,
     "align": "right",
+    "symbolRadius": 0,
+    "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
+  "plotOptions": {
+    "series": {
+      "pointWidth": 10,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "normal"
+    }
   },
   "exporting": {
-    "filename": "I.09.1.0047"
+    "filename": "I.09.1.0050"
   }
 }

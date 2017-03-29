@@ -29,9 +29,9 @@
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>LP.5.20.2 Anteil Familien, die mit den Grünflächen (z.B.</tspan><tspan dy="17" x="10">Wiesen/Parks) im Quartier sehr oder eher zufrieden sind nach</tspan><tspan dy="17" x="10">Wohngegend</tspan><title>LP.5.20.2 Anteil Familien, die mit den Grünflächen (z.B. Wiesen/Parks) im Quartier sehr oder eher zufrieden sind nach Wohngegend</title>
+        <tspan>LP.5.20.2 Zufriedenheit mit Grünflächen im Quartier</tspan>
     </text>
-    <text x="10" class="highcharts-subtitle" y="74" color="#000" font-weight="400">
+    <text x="10" class="highcharts-subtitle" y="40" color="#000" font-weight="400">
         <tspan>«Wenn Sie an Ihr Quartier denken, wie zufrieden sind Sie dann mit dem</tspan><tspan dy="15" x="10">Angebot an Grünflächen (z.B. Wiesen, Parks)»</tspan><title>«Wenn Sie an Ihr Quartier denken, wie zufrieden sind Sie dann mit dem Angebot an Grünflächen (z.B. Wiesen, Parks)»</title>
     </text>
     <g class="highcharts-legend" transform="translate(45 75)">

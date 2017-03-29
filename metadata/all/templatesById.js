@@ -182,6 +182,7 @@ var templatesById = {
 	"5023": "line001",
 	"5024": "line001",
 	"5032": "template001",
+	"5033": "template001",
 	"5035": "line001",
 	"5036": "template001",
 	"5037": "template001",
@@ -237,5 +238,6 @@ var templatesById = {
 	"5125": "map001",
 	"5126": "map001",
 	"5130": "map001",
-	"5131": "map001"
+	"5131": "map001",
+	"5256": "line001"
 };

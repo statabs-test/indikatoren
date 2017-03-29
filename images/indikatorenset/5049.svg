@@ -26,9 +26,9 @@
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>LP.7.29.2 Anteil Befragter, der mit Einrichtungen und</tspan><tspan dy="17" x="10">Angeboten für behinderte Menschen eher oder sehr zufrieden</tspan><tspan dy="17" x="10">ist</tspan><title>LP.7.29.2 Anteil Befragter, der mit Einrichtungen und Angeboten für behinderte Menschen eher oder sehr zufrieden ist</title>
+        <tspan>LP.7.29.2 Zufriedenheit mit Angebot für behinderte Menschen</tspan>
     </text>
-    <text x="10" class="highcharts-subtitle" y="74" color="#000" font-weight="400">
+    <text x="10" class="highcharts-subtitle" y="40" color="#000" font-weight="400">
         <tspan>«Wie zufrieden sind Sie mit Angeboten und Einrichtungen für behinderte</tspan><tspan dy="15" x="10">Menschen?»</tspan><title>«Wie zufrieden sind Sie mit Angeboten und Einrichtungen für behinderte Menschen?»</title>
     </text>
     <g class="highcharts-legend" transform="translate(45 75)">

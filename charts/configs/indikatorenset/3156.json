@@ -132,7 +132,7 @@
       "style": {
         "color": "#000000"
       },
-      "rotation": 0
+      "rotation": -90
     },
     "tickColor": "#FFFFFF"
   },
@@ -141,7 +141,7 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 415,
-    "spacingBottom": 30,
+    "spacingBottom": 40,
     "style": {
       "fontFamily": "Arial"
     },
@@ -152,7 +152,7 @@
                 }
     },
     "type": "column",
-    "inverted": true,
+    "inverted": false,
     "forExport": true,
     "renderTo": "container-3156"
   },
@@ -163,7 +163,7 @@
           "fontSize": "10px"
         }
       },
-      "pointWidth": 10
+      "pointWidth": 7
     }
   },
   "title": {

@@ -13,11 +13,11 @@
     }    
   },
    "series": [
-  {"color": "#cd9c00"}, /* hellbraun*/
-  {"color": "#9f7c5a"}, /* ... */
-  {"color": "#b00000"}, /* ...*/
-  {"color": "#ff5050"}, /* ... */
-  {"color": "#45381d"}, /* dunkelbraun*/
+  {"color": "#cd9c00", "visible": false}, /* hellbraun*/
+  {"color": "#9f7c5a", "visible": false}, /* ... */
+  {"color": "#b00000", "visible": false}, /* ...*/
+  {"color": "#ff5050", "visible": false}, /* ... */
+  {"color": "#45381d", "visible": true}, /* dunkelbraun*/
   ],
   "legend": {
     "enabled": true,
@@ -31,7 +31,7 @@
     }
   },
   tooltip: {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:1f}%</b><br/>',
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>',
     "shared": false
   },
   "chart": {      
