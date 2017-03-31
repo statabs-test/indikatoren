@@ -5,7 +5,7 @@
   "dependencies": {
     "bootstrap": "3.3.7",
     "bootstrap-multiselect": "0.9.13-1",
-    "highcharts": "5.0.7",
+    "highcharts": "5.0.10",
     "highcharts-export-csv": "1.4.4",
     "jquery": "3.1.1",
     "seedrandom": "2.4.2"
