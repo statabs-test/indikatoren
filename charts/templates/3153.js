@@ -53,17 +53,23 @@
       "color": "#71a3b5",
       "index": 0,
       "type": "column",
-      "pointWidth": "20"
+      "pointWidth": "20",
+      "tooltip": {
+       "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}</b><br/>'
+      }
     },
     {
       "color": "#7d60a0",
       "index": 1,
       "type": "line",
-      "yAxis": 1
+      "yAxis": 1,
+      "tooltip": {
+       "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}‰</b><br/>'
+      }
     }
   ],  
   "tooltip": {
-    "shared": false
+    "shared": true
   },
   "chart": {
     "marginBottom": 65,

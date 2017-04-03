@@ -57,12 +57,14 @@
       "color": "#7d60a0",
       "index": 1,
       "type": "line",
-      "yAxis": 1
+      "yAxis": 1,
+      "tooltip": {
+       "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>'
+      }
     }
   ],  
   "tooltip": {
     "shared": true,
-    /*"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.0f}%</b><br/>'*/
   },
   "chart": {
     "marginBottom": 65,
