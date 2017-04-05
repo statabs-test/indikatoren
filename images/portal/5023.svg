@@ -21,11 +21,11 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(43 41)" clip-path="url(#a)">
-            <path fill="none" d="M4.235 197.232l47.06 1.238 47.058 3.888 47.059-9.4 47.059 5.216m47.058 8.27l47.06-1.957m47.058 3.224l47.059-1.235m47.059 4.275" class="highcharts-graph" stroke="#8b2223" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M-5.765 197.232h10l47.06 1.238 47.058 3.888 47.059-9.4 47.059 5.216h10m27.058 8.27h10l47.06-1.957h10m27.058 3.224h10l47.059-1.235h10m27.059 4.275h20" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+            <path fill="none" d="M4.235 197.482l47.06 1.172 47.058 3.861 47.059-9.094 47.059 5.021 47.058 8.002 47.06-1.957 47.058 3.224 47.059-1.235 47.059 4.275" class="highcharts-graph" stroke="#8b2223" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.765 197.482h10l47.06 1.172 47.058 3.861 47.059-9.094 47.059 5.021 47.058 8.002 47.06-1.957 47.058 3.224 47.059-1.235 47.059 4.275h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#8b2223" d="M51 238a4 4 0 1 1 0-.004zm47 1a4 4 0 1 1 0-.004zm47 4a4 4 0 1 1 0-.004zm47-9a4 4 0 1 1 0-.004zm47 5a4 4 0 1 1 0-.004zm47 8a4 4 0 1 1 0-.004zm47-2a4 4 0 1 1 0-.004zm47 4a4 4 0 1 1 0-.004zm47-2a4 4 0 1 1 0-.004zm47 5a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <path fill="#8b2223" d="M51 238a4 4 0 1 1 0-.004zm47 2a4 4 0 1 1 0-.004zm47 4a4 4 0 1 1 0-.004zm47-10a4 4 0 1 1 0-.004zm47 5a4 4 0 1 1 0-.004zm47 8a4 4 0 1 1 0-.004zm47-2a4 4 0 1 1 0-.004zm47 4a4 4 0 1 1 0-.004zm47-2a4 4 0 1 1 0-.004zm47 5a4 4 0 1 1 0-.004z" class="highcharts-point"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
@@ -33,7 +33,7 @@
     </text>
     <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
         <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(38 205)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
-            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">180</tspan><tspan x="5" y="16">180</tspan>
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">179</tspan><tspan x="5" y="16">179</tspan>
         </text>
         <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(451 219)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
             <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">158</tspan><tspan x="5" y="16">158</tspan>

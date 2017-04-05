@@ -21,16 +21,16 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(65 58)" clip-path="url(#a)">
-            <path fill="none" d="M4.02 103.267l44.662.022 44.662-.316 44.663 1.252 44.662.243 44.662.32 44.662.07 44.663.037 44.662.313 44.662.11" class="highcharts-graph" stroke="#b00000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M-5.98 103.267h10l44.662.022 44.662-.316 44.663 1.252 44.662.243 44.662.32 44.662.07 44.663.037 44.662.313 44.662.11h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+            <path fill="none" d="M4.02 102.99l44.662.196 44.662-.21 44.663.854 44.662.62 44.662.338 44.662.07 44.663.037 44.662.313 44.662.11" class="highcharts-graph" stroke="#b00000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.98 102.99h10l44.662.196 44.662-.21 44.663.854 44.662.62 44.662.338 44.662.07 44.663.037 44.662.313 44.662.11h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(65 58)" clip-path="url(#a)">
-            <path fill="none" d="M4.02 206.112l44.662-.481 44.662-1.998 44.663-2.373 44.662-.662 44.662-2.856 44.662-2.084 44.663-2.946 44.662-1.785 44.662-1.176" class="highcharts-graph" stroke="#4f81bd" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M-5.98 206.112h10l44.662-.481 44.662-1.998 44.663-2.373 44.662-.662 44.662-2.856 44.662-2.084 44.663-2.946 44.662-1.785 44.662-1.176h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+            <path fill="none" d="M4.02 205.772l44.662-.498 44.662-2.054 44.663-2.686 44.662-.597 44.662-2.195 44.662-2.084 44.663-2.946 44.662-1.785 44.662-1.176" class="highcharts-graph" stroke="#4f81bd" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.98 205.772h10l44.662-.498 44.662-2.054 44.663-2.686 44.662-.597 44.662-2.195 44.662-2.084 44.663-2.946 44.662-1.785 44.662-1.176h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="translate(65 58)" clip-path="url(#a)">
-            <path fill="none" d="M4.02 18.38l44.662-.46 44.662-2.314 44.663-1.121 44.662-.42 44.662-2.536 44.662-2.012 44.663-2.91 44.662-1.472 44.662-1.067" class="highcharts-graph" stroke="#000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M-5.98 18.38h10l44.662-.46 44.662-2.314 44.663-1.121 44.662-.42 44.662-2.536 44.662-2.012 44.663-2.91 44.662-1.472 44.662-1.067h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+            <path fill="none" d="M4.02 17.763l44.662-.303 44.662-2.264 44.663-1.832 44.662.023 44.662-1.858 44.662-2.012 44.663-2.91 44.662-1.472 44.662-1.067" class="highcharts-graph" stroke="#000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.98 17.763h10l44.662-.303 44.662-2.264 44.663-1.832 44.662.023 44.662-1.858 44.662-2.012 44.663-2.91 44.662-1.472 44.662-1.067h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">

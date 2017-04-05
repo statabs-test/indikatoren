@@ -7111,11 +7111,11 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Zufriedenheit mit der aktuellen Tagesbetreuungssituation (Familienbefragung 2009, 2013)",
+		"title": "Zufriedenheit mit der Tagesbetreuungssituation",
 		"subtitle": "«Wie zufrieden sind Sie mit der aktuellen Tagesbetreuungssituation Ihres Kindes/Ihrer Kinder?»",
 		"kuerzel": "I.50.2.0012",
 		"kuerzelKunde": "LP.7.25.6",
-		"description": "Zufriedenheit mit der aktuellen Tagesbetreuungssituation (Familienbefragung 2009, 2013)",
+		"description": "Zufriedenheit mit der Tagesbetreuungssituation",
 		"id": 5046,
 		"thema": "50 Befragungen",
 		"unterthema": "Familienbefragung",

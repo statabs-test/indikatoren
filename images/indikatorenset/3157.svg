@@ -21,28 +21,28 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(65 125)" clip-path="url(#a)">
-            <path fill="none" d="M20.5 190.41l41-.002 41-.007 41 .027 41-.025 41 .004 41 .043 41 .004 41-.045" class="highcharts-graph" stroke="#69929b" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M10.5 190.41h10l41-.002 41-.007 41 .027 41-.025 41 .004 41 .043 41 .004 41-.045h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+            <path fill="none" d="M20.5 39.782l41-6.537 41-10.484 41-2.435 41 .695 41 12.743 41-.925 41-22.18 41 18.872" class="highcharts-graph" stroke="#69929b" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M10.5 39.782h10l41-6.537 41-10.484 41-2.435 41 .695 41 12.743 41-.925 41-22.18 41 18.872h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(65 125)" clip-path="url(#a)">
-            <path fill="none" d="M20.5 190.76l41-.015 41 .003 41 .007 41 .007 41-.032 41-.002 41 .008h41l41-.014" class="highcharts-graph" stroke="#44ab2b" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M10.5 190.76h10l41-.015 41 .003 41 .007 41 .007 41-.032 41-.002 41 .008h41l41-.014h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+            <path fill="none" d="M20.5 139.32l41-5.19 41 2.657 41 .733 41 1.861 41-4.113 41 .416 41 .53 41 2.073 41-6.22" class="highcharts-graph" stroke="#44ab2b" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M10.5 139.32h10l41-5.19 41 2.657 41 .733 41 1.861 41-4.113 41 .416 41 .53 41 2.073 41-6.22h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="translate(65 125)" clip-path="url(#a)">
-            <path fill="none" d="M20.5 190.842l41 .008 41 .01 41-.02 41-.004 41 .019h41l41-.025 41 .011 41 .007" class="highcharts-graph" stroke="#ff8028" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M10.5 190.842h10l41 .008 41 .01 41-.02 41-.004 41 .019h41l41-.025 41 .011 41 .007h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+            <path fill="none" d="M20.5 168.413l41 1.23 41 1.62 41-1.885 41 .028 41 .213 41 2.185 41-1.97 41 1.794 41 .178" class="highcharts-graph" stroke="#ff8028" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M10.5 168.413h10l41 1.23 41 1.62 41-1.885 41 .028 41 .213 41 2.185 41-1.97 41 1.794 41 .178h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-series highcharts-series-3 highcharts-line-series highcharts-color-undefined" transform="translate(65 125)" clip-path="url(#a)">
-            <path fill="none" d="M20.5 190.915l41-.011h82l41 .003 41 .003h82l41 .001 41 .001" class="highcharts-graph" stroke="#933f8d" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M10.5 190.915h10l41-.011h82l41 .003 41 .003h82l41 .001 41 .001h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+            <path fill="none" d="M20.5 183.958l41 .025 41-.79 41-.693 41-.075 41-1.453 41-1.733 41-.177 41 2.292 41 .096" class="highcharts-graph" stroke="#933f8d" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M10.5 183.958h10l41 .025 41-.79 41-.693 41-.075 41-1.453 41-1.733 41-.177 41 2.292 41 .096h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-series highcharts-series-4 highcharts-line-series highcharts-color-undefined" transform="translate(65 125)" clip-path="url(#a)">
-            <path fill="none" d="M20.5 190.927l41 .015 41-.079 41 .004 41-.013 41-.012 41-.004 41 .011 41 .009" class="highcharts-graph" stroke="#c8c8c8" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M10.5 190.927h10l41 .015 41-.079 41 .004 41-.013 41-.012 41-.004 41 .011 41 .009h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+            <path fill="none" d="M20.5 181.71l41 2.376 41-6.349 41-4.476 41-2.752 41 7.117 41-2.298 41-.399 41 1.934" class="highcharts-graph" stroke="#c8c8c8" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M10.5 181.71h10l41 2.376 41-6.349 41-4.476 41-2.752 41 7.117 41-2.298 41-.399 41 1.934h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-series highcharts-series-5 highcharts-line-series highcharts-color-undefined" transform="translate(65 125)" clip-path="url(#a)">
-            <path fill="none" d="M20.5 190.91l41-.008 41 .006 41-.003 41-.027 41 .01 41-.008 41 .004 41 .007h41" class="highcharts-graph" stroke="#b00000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M10.5 190.91h10l41-.008 41 .006 41-.003 41-.027 41 .01 41-.008 41 .004 41 .007h51" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+            <path fill="none" d="M20.5 182.023l41-1.05 41-.86 41-2.483 41-2.75 41 1.838 41-2.378 41 .392 41 2.578 41-.836" class="highcharts-graph" stroke="#b00000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M10.5 182.023h10l41-1.05 41-.86 41-2.483 41-2.75 41 1.838 41-2.378 41 .392 41 2.578 41-.836h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
