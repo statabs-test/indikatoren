@@ -24,25 +24,6 @@
       "data": [
         [
           "Basel-Stadt",
-          0.318413896759043
-        ],
-        [
-          "Basel-Landschaft",
-          0.25017661387985
-        ],
-        [
-          "Zürich",
-          0.0392193885967634
-        ]
-      ],
-      "name": "Pharmazeutische Industrie",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#9A86A6",
-      "data": [
-        [
-          "Basel-Stadt",
           0.102714474434874
         ],
         [
@@ -58,7 +39,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#9bbb59",
+      "color": "#9A86A6",
       "data": [
         [
           "Basel-Stadt",
@@ -74,6 +55,25 @@
         ]
       ],
       "name": "Medizinaltechnik",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#9bbb59",
+      "data": [
+        [
+          "Basel-Stadt",
+          0.318413896759043
+        ],
+        [
+          "Basel-Landschaft",
+          0.25017661387985
+        ],
+        [
+          "Zürich",
+          0.0392193885967634
+        ]
+      ],
+      "name": "Pharmazeutische Industrie",
       "turboThreshold": 0
     }
   ],

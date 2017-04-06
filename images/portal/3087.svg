@@ -25,13 +25,13 @@
             <path fill="#b00000" class="highcharts-point" stroke="#fff" d="M30.5 146.5h18v74h-18zm145 29h18v45h-18zm145 31h18v14h-18z"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(40 144)" clip-path="url(#a)">
-            <path fill="#4f81bd" class="highcharts-point" stroke="#fff" d="M52.5 103.5h18v117h-18zm145 25h18v92h-18zm145 78h18v14h-18z"/>
+            <path fill="#4f81bd" class="highcharts-point" stroke="#fff" d="M52.5 182.5h18v38h-18zm145-21h18v59h-18zm145-58h18v117h-18z"/>
         </g>
         <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(40 144)" clip-path="url(#a)">
-            <path fill="#9A86A6" class="highcharts-point" stroke="#fff" d="M74.5 182.5h18v38h-18zm145-21h18v59h-18zm145-58h18v117h-18z"/>
+            <path fill="#9A86A6" class="highcharts-point" stroke="#fff" d="M74.5 207.5h18v13h-18zm145-6h18v19h-18zm145 4h18v15h-18z"/>
         </g>
         <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(40 144)" clip-path="url(#a)">
-            <path fill="#9bbb59" class="highcharts-point" stroke="#fff" d="M95.5 207.5h18v13h-18zm145-6h18v19h-18zm145 4h18v15h-18z"/>
+            <path fill="#9bbb59" class="highcharts-point" stroke="#fff" d="M95.5 103.5h18v117h-18zm145 25h18v92h-18zm145 78h18v14h-18z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
@@ -50,19 +50,19 @@
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 17)">
-                <tspan>Pharmazeutische Industrie</tspan>
+                <tspan>Elektronik. Optik und Maschinenbau</tspan>
             </text>
             <path fill="#4f81bd" class="highcharts-point" d="M10 21h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 31)">
-                <tspan>Elektronik. Optik und Maschinenbau</tspan>
+                Medizinaltechnik
             </text>
             <path fill="#9A86A6" class="highcharts-point" d="M10 35h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 45)">
-                Medizinaltechnik
+                <tspan>Pharmazeutische Industrie</tspan>
             </text>
             <path fill="#9bbb59" class="highcharts-point" d="M10 49h12v12H10z"/>
         </g>

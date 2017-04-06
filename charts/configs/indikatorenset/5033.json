@@ -4,135 +4,76 @@
       "color": "#b00000",
       "data": [
         [
-          "Chemische Industrie",
+          "Basel-Stadt",
           0.180692975339755
         ],
         [
-          "Pharmazeutische Industrie",
-          0.41476682211066
+          "Basel-Landschaft",
+          0.031734116712234
         ],
         [
-          "Elektronik. Optik und Maschinenbau",
-          0.145802400513393
-        ],
-        [
-          "Medizinaltechnik",
-          0.0794592955552733
-        ],
-        [
-          "Total",
-          0.895595489895918
+          "Zürich",
+          0.051026630011517
         ]
       ],
-      "name": "Basel-Stadt",
+      "name": "Chemische Industrie",
       "turboThreshold": 0
     },
     {
       "color": "#4f81bd",
       "data": [
         [
-          "Chemische Industrie",
-          0.031734116712234
+          "Basel-Stadt",
+          0.145802400513393
         ],
         [
-          "Pharmazeutische Industrie",
-          0.164027800810348
-        ],
-        [
-          "Elektronik. Optik und Maschinenbau",
+          "Basel-Landschaft",
           0.144146855126489
         ],
         [
-          "Medizinaltechnik",
-          0.104271368840597
-        ],
-        [
-          "Total",
-          0.490443825777836
+          "Zürich",
+          0.31815194512014
         ]
       ],
-      "name": "Basel-Landschaft",
+      "name": "Elektronik. Optik und Maschinenbau",
       "turboThreshold": 0
     },
     {
       "color": "#9A86A6",
       "data": [
         [
-          "Chemische Industrie",
-          0.051026630011517
+          "Basel-Stadt",
+          0.0794592955552733
         ],
         [
-          "Pharmazeutische Industrie",
-          0.0272584317351114
+          "Basel-Landschaft",
+          0.104271368840597
         ],
         [
-          "Elektronik. Optik und Maschinenbau",
-          0.31815194512014
-        ],
-        [
-          "Medizinaltechnik",
+          "Zürich",
           0.0482803337466384
-        ],
-        [
-          "Total",
-          0.559869149026793
         ]
       ],
-      "name": "Zürich",
+      "name": "Medizinaltechnik",
       "turboThreshold": 0
     },
     {
       "color": "#9bbb59",
       "data": [
         [
-          "Chemische Industrie",
-          1
+          "Basel-Stadt",
+          0.41476682211066
         ],
         [
-          "Pharmazeutische Industrie",
-          2
+          "Basel-Landschaft",
+          0.164027800810348
         ],
         [
-          "Elektronik. Optik und Maschinenbau",
-          3
-        ],
-        [
-          "Medizinaltechnik",
-          4
-        ],
-        [
-          "Total",
-          5
+          "Zürich",
+          0.0272584317351114
         ]
       ],
-      "name": "sortierung",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#FABD24",
-      "data": [
-        [
-          "Chemische Industrie",
-          186991.25
-        ],
-        [
-          "Pharmazeutische Industrie",
-          186991.25
-        ],
-        [
-          "Elektronik. Optik und Maschinenbau",
-          186991.25
-        ],
-        [
-          "Medizinaltechnik",
-          186991.25
-        ],
-        [
-          "Total",
-          186991.25
-        ]
-      ],
-      "name": "MW_Einw_BS",
+      "name": "Pharmazeutische Industrie",
       "turboThreshold": 0
     }
   ],
@@ -212,7 +153,9 @@
         "color": "#000000"
       },
       "format": "{value}"
-    }
+    },
+    "min": 0,
+    "max": 0.5
   },
   "navigation": {
     "menuItemStyle": {
@@ -249,7 +192,7 @@
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.3f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
