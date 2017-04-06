@@ -10,7 +10,7 @@
         <path fill="none" class="highcharts-grid-line" d="M91.5 75v265m50-265v265m49-265v265m50-265v265m49-265v265"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M80 340.5h247m-247-66h247m-247-66h247m-247-67h247m-247-67h247"/>
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M80 340.5h247m-247-53h247m-247-53h247m-247-53h247m-247-53h247m-247-54h247"/>
     </g>
     <path fill="none" class="highcharts-plot-border" d="M80 75h247v265H80z"/>
     <g class="highcharts-axis highcharts-xaxis">
@@ -21,22 +21,22 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(80 75)" clip-path="url(#a)">
-            <path fill="#71a3b5" class="highcharts-point" stroke="#fff" d="M4.5 102.5h15v31h-15zm25-6h15v39h-15zm24-8h15v43h-15zm25-7h15v48h-15zm25-10h15v56h-15zm24 28h15v25h-15zm25 1h15v23h-15zm25 6h15v24h-15zm24 2h15v23h-15zm25-3h15v26h-15z"/>
+            <path fill="#71a3b5" class="highcharts-point" stroke="#fff" d="M4.5 47.5h15v7h-15zm25 5h15v5h-15zm24-7h15v5h-15zm25-3h15v6h-15zm25-1h15v3h-15zm24-4h15v2h-15zm25-2h15v3h-15zm25 12h15v2h-15zm24 2h15v2h-15zm25-1h15v2h-15z"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(80 75)" clip-path="url(#a)">
-            <path fill="#baa85a" class="highcharts-point" stroke="#fff" d="M4.5 133.5h15v15h-15zm25 2h15v19h-15zm24-4h15v21h-15zm25-2h15v25h-15zm25-2h15v28h-15zm24-3h15v25h-15zm25-1h15v23h-15zm25 7h15v25h-15zm24 1h15v23h-15zm25 0h15v25h-15z"/>
+            <path fill="#baa85a" class="highcharts-point" stroke="#fff" d="M4.5 54.5h15v24h-15zm25 3h15v31h-15zm24-7h15v34h-15zm25-2h15v39h-15zm25-4h15v45h-15zm24-5h15v40h-15zm25-1h15v37h-15zm25 11h15v39h-15zm24 2h15v36h-15zm25-1h15v40h-15z"/>
         </g>
         <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(80 75)" clip-path="url(#a)">
-            <path fill="#933f8d" class="highcharts-point" stroke="#fff" d="M4.5 148.5h15v2h-15zm25 6h15v2h-15zm24-2h15v2h-15zm25 2h15v1h-15zm25 1h15v2h-15zm24-6h15v2h-15zm25-3h15v2h-15zm25 9h15v2h-15zm24-1h15v2h-15zm25 2h15v2h-15z"/>
+            <path fill="#933f8d" class="highcharts-point" stroke="#fff" d="M4.5 78.5h15v3h-15zm25 10h15v3h-15zm24-4h15v3h-15zm25 3h15v2h-15zm25 2h15v3h-15zm24-10h15v4h-15zm25-4h15v3h-15zm25 13h15v4h-15zm24-1h15v4h-15zm25 3h15v4h-15z"/>
         </g>
         <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(80 75)" clip-path="url(#a)">
-            <path fill="#ff8028" class="highcharts-point" stroke="#fff" d="M4.5 150.5h15v2h-15zm25 6h15v2h-15zm24-2h15v2h-15zm25 1h15v2h-15zm25 2h15v2h-15zm24-6h15v3h-15zm25-3h15v3h-15zm25 9h15v1h-15zm24-1h15v2h-15zm25 2h15v2h-15z"/>
+            <path fill="#ff8028" class="highcharts-point" stroke="#fff" d="M4.5 81.5h15v3h-15zm25 10h15v3h-15zm24-4h15v3h-15zm25 2h15v4h-15zm25 3h15v3h-15zm24-9h15v4h-15zm25-5h15v4h-15zm25 14h15v2h-15zm24-1h15v3h-15zm25 3h15v4h-15z"/>
         </g>
         <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(80 75)" clip-path="url(#a)">
-            <path fill="#2f656b" class="highcharts-point" stroke="#fff" d="M4.5 152.5h15v10h-15zm25 6h15v5h-15zm24-2h15v6h-15zm25 1h15v7h-15zm25 2h15v6h-15zm24-5h15v6h-15zm25-3h15v8h-15zm25 7h15v6h-15zm24 0h15v6h-15zm25 2h15v6h-15z"/>
+            <path fill="#2f656b" class="highcharts-point" stroke="#fff" d="M4.5 84.5h15v16h-15zm25 10h15v9h-15zm24-4h15v11h-15zm25 3h15v11h-15zm25 2h15v10h-15zm24-8h15v10h-15zm25-5h15v14h-15zm25 12h15v10h-15zm24 0h15v9h-15zm25 4h15v9h-15z"/>
         </g>
         <g class="highcharts-series highcharts-series-5 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(80 75)" clip-path="url(#a)">
-            <path fill="#b00000" class="highcharts-point" stroke="#fff" d="M4.5 162.5h15v103h-15zm25 1h15v102h-15zm24-1h15v103h-15zm25 2h15v101h-15zm25 1h15v100h-15zm24-5h15v105h-15zm25-1h15v106h-15zm25 5h15v101h-15zm24 0h15v101h-15zm25 2h15v99h-15z"/>
+            <path fill="#b00000" class="highcharts-point" stroke="#fff" d="M4.5 100.5h15v165h-15zm25 3h15v162h-15zm24-2h15v164h-15zm25 3h15v161h-15zm25 1h15v160h-15zm24-8h15v168h-15zm25-1h15v169h-15zm25 8h15v161h-15zm24-1h15v162h-15zm25 4h15v158h-15z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
@@ -46,7 +46,7 @@
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="136" height="125"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
-                <tspan>Eigenverbrauch Trinkwasser IWB</tspan>
+                Eigenverbrauch
             </text>
             <path fill="#71a3b5" class="highcharts-point" d="M10 7h12v12H10z"/>
         </g>
@@ -102,17 +102,20 @@
         <text x="65" y="345">
             <tspan>0</tspan>
         </text>
-        <text x="65" y="278">
+        <text x="65" y="292">
+            <tspan>5 000 000</tspan>
+        </text>
+        <text x="65" y="239">
             <tspan>10 000 000</tspan>
         </text>
-        <text x="65" y="212">
+        <text x="65" y="186">
+            <tspan>15 000 000</tspan>
+        </text>
+        <text x="65" y="133">
             <tspan>20 000 000</tspan>
         </text>
-        <text x="65" y="146">
-            <tspan>30 000 000</tspan>
-        </text>
         <text x="65" y="80">
-            <tspan>40 000 000</tspan>
+            <tspan>25 000 000</tspan>
         </text>
     </g>
     <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">

@@ -75,10 +75,10 @@
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
         <text x="117.5" y="359">
-            <tspan>2005</tspan>
+            <tspan>2005 in % der Anz.</tspan><tspan dy="14" x="117.5">Etappen</tspan><title>2005 in % der Anz. Etappen</title>
         </text>
         <text x="246.5" y="359">
-            <tspan>2010</tspan>
+            <tspan>2010 in % der Anz.</tspan><tspan dy="14" x="246.5">Etappen</tspan><title>2010 in % der Anz. Etappen</title>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
