@@ -40,8 +40,8 @@
             <path fill="none" d="M-5.98 52.548h54.662L93.344 71.59l44.663 10.677 44.662 15.431 44.662-9.31H415.98" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-series highcharts-series-4 highcharts-line-series highcharts-color-undefined" transform="translate(65 152)" clip-path="url(#a)">
-            <path fill="none" d="M4.02 168.069l44.662-.002 44.662.301h133.987l44.662.035 44.663.03h89.324" class="highcharts-graph" stroke="#a0bec8" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M-5.98 168.069h10l44.662-.002 44.662.301h133.987l44.662.035 44.663.03h99.324" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+            <path fill="none" d="M4.02 75.796l44.662-.004 44.662 1.345h89.326l44.662-.004 44.662-.035 44.663.276h89.324" class="highcharts-graph" stroke="#a0bec8" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.98 75.796h10l44.662-.004 44.662 1.345h89.326l44.662-.004 44.662-.035 44.663.276h99.324" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">

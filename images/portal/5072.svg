@@ -1,28 +1,28 @@
 <svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
     <defs>
         <clipPath id="a">
-            <path fill="none" d="M0 0h422v187H0z"/>
+            <path fill="none" d="M0 0h422v191H0z"/>
         </clipPath>
     </defs>
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M53 112h422v187H53z"/>
+    <path fill="none" class="highcharts-plot-background" d="M53 112h422v191H53z"/>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M94.5 112v187m42-187v187m43-187v187m42-187v187m42-187v187m42-187v187m42-187v187m43-187v187m42-187v187m42-187v187m-422-187v187"/>
+        <path fill="none" class="highcharts-grid-line" d="M90.5 112v191m39-191v191m38-191v191m38-191v191m39-191v191m38-191v191m39-191v191m38-191v191m38-191v191m39-191v191m38-191v191m-422-191v191"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M53 299.5h422m-422-93h422m-422-95h422"/>
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M53 303.5h422m-422-95h422m-422-97h422"/>
     </g>
-    <path fill="none" class="highcharts-plot-border" d="M53 112h422v187H53z"/>
+    <path fill="none" class="highcharts-plot-border" d="M53 112h422v191H53z"/>
     <g class="highcharts-axis highcharts-xaxis">
-        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M94.5 299v10m42-10v10m43-10v10m42-10v10m42-10v10m42-10v10m42-10v10m43-10v10m42-10v10m42-10v10m-422-10v10"/>
-        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M53 299.5h422"/>
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M90.5 303v10m39-10v10m38-10v10m38-10v10m39-10v10m38-10v10m39-10v10m38-10v10m38-10v10m39-10v10m38-10v10m-422-10v10"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M53 303.5h422"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M53 112v187"/>
+        <path fill="none" class="highcharts-axis-line" d="M53 112v191"/>
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 112)" clip-path="url(#a)">
-            <path fill="#4f6228" class="highcharts-point" stroke="#fff" d="M10.5 14.5h21v173h-21zm42-5h21v178h-21zm42 1h21v177h-21zm43-1h21v178h-21zm42 34h21v144h-21zm42-29h21v173h-21zm42 29h21v144h-21zm42-28h21v172h-21zm43-12h21v184h-21zm42 12h21v172h-21z"/>
+            <path fill="#4f6228" class="highcharts-point" stroke="#fff" d="M9.5 14.5h19v177h-19zm38-5h19v182h-19zm39 2h19v180h-19zm38-1h19v181h-19zm38 33h19v148h-19zm39-29h19v177h-19zm38 30h19v147h-19zm39-29h19v176h-19zm38-12h19v188h-19zm38 13h19v175h-19zm39 173h19v2h-19z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
@@ -65,42 +65,45 @@
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="76.693" transform="rotate(-45 76.693 315)" y="315">
+        <text x="74.775" transform="rotate(-45 74.775 319)" y="319">
             <tspan>Innenstadt</tspan>
         </text>
-        <text x="118.893" transform="rotate(-45 118.893 315)" y="315">
+        <text x="113.138" transform="rotate(-45 113.138 319)" y="319">
             <tspan>Am Ring West</tspan>
         </text>
-        <text x="161.093" transform="rotate(-45 161.093 315)" y="315">
+        <text x="151.502" transform="rotate(-45 151.502 319)" y="319">
             <tspan>St. Alban Breite</tspan>
         </text>
-        <text x="203.293" transform="rotate(-45 203.293 315)" y="315">
+        <text x="189.865" transform="rotate(-45 189.865 319)" y="319">
             <tspan>St. Johann</tspan>
         </text>
-        <text x="245.493" transform="rotate(-45 245.493 315)" y="315">
+        <text x="228.229" transform="rotate(-45 228.23 319)" y="319">
             <tspan>Gundeldingen</tspan>
         </text>
-        <text x="287.693" transform="rotate(-45 287.693 315)" y="315">
+        <text x="266.593" transform="rotate(-45 266.593 319)" y="319">
             <tspan>Bruderholz</tspan>
         </text>
-        <text x="329.893" transform="rotate(-45 329.893 315)" y="315">
-            <tspan>Unteress Kleinbasel</tspan>
+        <text x="304.956" transform="rotate(-45 304.956 319)" y="319">
+            <tspan>Unteres Kleinbasel</tspan>
         </text>
-        <text x="372.093" transform="rotate(-45 372.093 315)" y="315">
+        <text x="343.32" transform="rotate(-45 343.32 319)" y="319">
             <tspan>Oberes Kleinbasel</tspan>
         </text>
-        <text x="414.293" transform="rotate(-45 414.293 315)" y="315">
-            <tspan>Riehen Bettingen</tspan>
+        <text x="381.684" transform="rotate(-45 381.684 319)" y="319">
+            <tspan>Riehen/ Bettingen</tspan>
         </text>
-        <text x="456.493" transform="rotate(-45 456.493 315)" y="315">
+        <text x="420.047" transform="rotate(-45 420.047 319)" y="319">
             <tspan>Basel-Stadt</tspan>
+        </text>
+        <text x="458.411" transform="rotate(-45 458.41 319)" y="319">
+            <tspan>Gruppe</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="38" y="304">
+        <text x="38" y="308">
             <tspan>0%</tspan>
         </text>
-        <text x="38" y="210">
+        <text x="38" y="212">
             <tspan>50%</tspan>
         </text>
         <text x="38" y="117">

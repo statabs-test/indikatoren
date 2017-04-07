@@ -12,7 +12,8 @@
     }
   },
   "xAxis": {
-    "type": "category"    
+    "type": "category",
+    "rotation": 180
   },  
   "yAxis": {
     "labels": {
