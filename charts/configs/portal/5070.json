@@ -5,6 +5,7 @@
       "index": 0,
       "type": "column",
       "pointWidth": "15",
+      "legendIndex": 1,
       "data": [
         [
           2010,
@@ -34,43 +35,14 @@
       "name": "Anzahl Lebensmittelbetriebe"
     },
     {
-      "color": "#b00000",
-      "index": 0,
-      "type": "column",
-      "pointWidth": "15",
-      "data": [
-        [
-          2010,
-          1155
-        ],
-        [
-          2011,
-          1288
-        ],
-        [
-          2012,
-          1287
-        ],
-        [
-          2013,
-          1269
-        ],
-        [
-          2014,
-          1158
-        ],
-        [
-          2015,
-          1163
-        ]
-      ],
-      "name": "Anzahl durchgeführte Inspektionen"
-    },
-    {
       "color": "#7d60a0",
       "index": 1,
       "type": "line",
       "yAxis": 1,
+      "legendIndex": 2,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
       "data": [
         [
           2010,
@@ -98,6 +70,40 @@
         ]
       ],
       "name": "davon als mangelhaft\u002Fschlecht beurteilt (in %)"
+    },
+    {
+      "color": "#b00000",
+      "index": 0,
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 3,
+      "data": [
+        [
+          2010,
+          1155
+        ],
+        [
+          2011,
+          1288
+        ],
+        [
+          2012,
+          1287
+        ],
+        [
+          2013,
+          1269
+        ],
+        [
+          2014,
+          1158
+        ],
+        [
+          2015,
+          1163
+        ]
+      ],
+      "name": "Anzahl durchgeführte Inspektionen"
     }
   ],
   "chart": {

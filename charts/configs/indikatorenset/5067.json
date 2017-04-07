@@ -2,6 +2,7 @@
   "series": [
     {
       "color": "#cd9c00",
+      "visible": false,
       "data": [
         [
           "Schweiz",
@@ -28,10 +29,6 @@
           78.326996197718
         ],
         [
-          "60-69 J.",
-          85.169491525423
-        ],
-        [
           "\u003E69 J.",
           84.172661870503
         ],
@@ -40,8 +37,8 @@
           82.835820895522
         ],
         [
-          "Frauen",
-          77.047146401985
+          "Männer",
+          82.835820895522
         ],
         [
           "Total",
@@ -53,6 +50,7 @@
     },
     {
       "color": "#9f7c5a",
+      "visible": false,
       "data": [
         [
           "Schweiz",
@@ -79,10 +77,6 @@
           84.03041825095
         ],
         [
-          "60-69 J.",
-          85.355648535564
-        ],
-        [
           "\u003E69 J.",
           90.196078431372
         ],
@@ -91,8 +85,8 @@
           85.100286532951
         ],
         [
-          "Frauen",
-          81.68130489335
+          "Männer",
+          85.100286532951
         ],
         [
           "Total",
@@ -104,6 +98,7 @@
     },
     {
       "color": "#b00000",
+      "visible": false,
       "data": [
         [
           "Schweiz",
@@ -130,10 +125,6 @@
           77.818181818181
         ],
         [
-          "60-69 J.",
-          82.558139534883
-        ],
-        [
           "\u003E69 J.",
           85.840707964601
         ],
@@ -142,8 +133,8 @@
           81.432748538011
         ],
         [
-          "Frauen",
-          81.017369727047
+          "Männer",
+          81.432748538011
         ],
         [
           "Total",
@@ -155,6 +146,7 @@
     },
     {
       "color": "#ff5050",
+      "visible": false,
       "data": [
         [
           "Schweiz",
@@ -181,10 +173,6 @@
           84.814814814814
         ],
         [
-          "60-69 J.",
-          85.877862595419
-        ],
-        [
           "\u003E69 J.",
           86.889460154241
         ],
@@ -193,8 +181,8 @@
           85.500747384155
         ],
         [
-          "Frauen",
-          84.052757793764
+          "Männer",
+          85.500747384155
         ],
         [
           "Total",
@@ -206,6 +194,7 @@
     },
     {
       "color": "#45381d",
+      "visible": true,
       "data": [
         [
           "Schweiz",
@@ -232,10 +221,6 @@
           83.703703703703
         ],
         [
-          "60-69 J.",
-          88.379204892966
-        ],
-        [
           "\u003E69 J.",
           90.2
         ],
@@ -244,8 +229,8 @@
           87.758112094395
         ],
         [
-          "Frauen",
-          85.997521685254
+          "Männer",
+          87.758112094395
         ],
         [
           "Total",
@@ -253,6 +238,246 @@
         ]
       ],
       "name": "2015",
+      "turboThreshold": 0
+    },
+    {
+      "visible": false,
+      "showInLegend": false,
+      "data": [
+        [
+          "Schweiz",
+          1270
+        ],
+        [
+          "Ausland",
+          206
+        ],
+        [
+          "18-29 J.",
+          206
+        ],
+        [
+          "30-39 J.",
+          230
+        ],
+        [
+          "40-49 J.",
+          263
+        ],
+        [
+          "50-59 J.",
+          263
+        ],
+        [
+          "\u003E69 J.",
+          278
+        ],
+        [
+          "Männer",
+          670
+        ],
+        [
+          "Männer",
+          670
+        ],
+        [
+          "Total",
+          1476
+        ]
+      ],
+      "name": "2003_n",
+      "turboThreshold": 0
+    },
+    {
+      "visible": false,
+      "showInLegend": false,
+      "data": [
+        [
+          "Schweiz",
+          1288
+        ],
+        [
+          "Ausland",
+          207
+        ],
+        [
+          "18-29 J.",
+          223
+        ],
+        [
+          "30-39 J.",
+          224
+        ],
+        [
+          "40-49 J.",
+          291
+        ],
+        [
+          "50-59 J.",
+          263
+        ],
+        [
+          "\u003E69 J.",
+          255
+        ],
+        [
+          "Männer",
+          698
+        ],
+        [
+          "Männer",
+          698
+        ],
+        [
+          "Total",
+          1495
+        ]
+      ],
+      "name": "2005_n",
+      "turboThreshold": 0
+    },
+    {
+      "visible": false,
+      "showInLegend": false,
+      "data": [
+        [
+          "Schweiz",
+          1316
+        ],
+        [
+          "Ausland",
+          174
+        ],
+        [
+          "18-29 J.",
+          211
+        ],
+        [
+          "30-39 J.",
+          175
+        ],
+        [
+          "40-49 J.",
+          232
+        ],
+        [
+          "50-59 J.",
+          275
+        ],
+        [
+          "\u003E69 J.",
+          339
+        ],
+        [
+          "Männer",
+          684
+        ],
+        [
+          "Männer",
+          684
+        ],
+        [
+          "Total",
+          1490
+        ]
+      ],
+      "name": "2007_n",
+      "turboThreshold": 0
+    },
+    {
+      "visible": false,
+      "showInLegend": false,
+      "data": [
+        [
+          "Schweiz",
+          1289
+        ],
+        [
+          "Ausland",
+          214
+        ],
+        [
+          "18-29 J.",
+          177
+        ],
+        [
+          "30-39 J.",
+          170
+        ],
+        [
+          "40-49 J.",
+          235
+        ],
+        [
+          "50-59 J.",
+          270
+        ],
+        [
+          "\u003E69 J.",
+          389
+        ],
+        [
+          "Männer",
+          669
+        ],
+        [
+          "Männer",
+          669
+        ],
+        [
+          "Total",
+          1503
+        ]
+      ],
+      "name": "2011_n",
+      "turboThreshold": 0
+    },
+    {
+      "visible": false,
+      "showInLegend": false,
+      "data": [
+        [
+          "Schweiz",
+          1312
+        ],
+        [
+          "Ausland",
+          173
+        ],
+        [
+          "18-29 J.",
+          95
+        ],
+        [
+          "30-39 J.",
+          120
+        ],
+        [
+          "40-49 J.",
+          173
+        ],
+        [
+          "50-59 J.",
+          270
+        ],
+        [
+          "\u003E69 J.",
+          500
+        ],
+        [
+          "Männer",
+          678
+        ],
+        [
+          "Männer",
+          678
+        ],
+        [
+          "Total",
+          1485
+        ]
+      ],
+      "name": "2015_n",
       "turboThreshold": 0
     }
   ],
@@ -287,7 +512,7 @@
                 }
     },
     "type": "column",
-    "inverted": false,
+    "inverted": true,
     "forExport": true,
     "renderTo": "container-5067"
   },
@@ -369,7 +594,15 @@
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "formatter": function (args){
+      var seriesName = this.series.name;
+      //get corresponding series by name: series 2015-N corresponds to series 2015, etc.
+      var correspondingNSeries = this.series.chart.series.filter(function(element, index, array){
+          return element.name == seriesName + '_n';
+      })[0];
+      var n = correspondingNSeries.yData[this.x];
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 1, ",", " ") + '%</b> (n=' + n + ')<br/>';
+    },
     "shared": false
   },
   "exporting": {

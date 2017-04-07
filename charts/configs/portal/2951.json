@@ -28,7 +28,7 @@
           91.919191919191
         ],
         [
-          "Unteress Kleinbasel",
+          "Unteres Kleinbasel",
           58.202247191011
         ],
         [
@@ -36,7 +36,7 @@
           81.203007518796
         ],
         [
-          "Riehen Bettingen",
+          "Riehen\u002F Bettingen",
           94.339622641509
         ],
         [
@@ -75,7 +75,7 @@
           92.465753424657
         ],
         [
-          "Unteress Kleinbasel",
+          "Unteres Kleinbasel",
           61.514195583596
         ],
         [
@@ -83,7 +83,7 @@
           90.104166666666
         ],
         [
-          "Riehen Bettingen",
+          "Riehen\u002F Bettingen",
           95.223880597014
         ],
         [
@@ -92,6 +92,102 @@
         ]
       ],
       "name": "2013",
+      "turboThreshold": 0
+    },
+    {
+      "visible": false,
+      "showInLegend": false,
+      "data": [
+        [
+          "Innenstadt",
+          74
+        ],
+        [
+          "Am Ring West",
+          811
+        ],
+        [
+          "St. Alban Breite",
+          318
+        ],
+        [
+          "St. Johann",
+          268
+        ],
+        [
+          "Gundeldingen",
+          262
+        ],
+        [
+          "Bruderholz",
+          198
+        ],
+        [
+          "Unteres Kleinbasel",
+          445
+        ],
+        [
+          "Oberes Kleinbasel",
+          266
+        ],
+        [
+          "Riehen\u002F Bettingen",
+          477
+        ],
+        [
+          "Basel-Stadt",
+          3119
+        ]
+      ],
+      "name": "2009_n",
+      "turboThreshold": 0
+    },
+    {
+      "visible": false,
+      "showInLegend": false,
+      "data": [
+        [
+          "Innenstadt",
+          65
+        ],
+        [
+          "Am Ring West",
+          572
+        ],
+        [
+          "St. Alban Breite",
+          211
+        ],
+        [
+          "St. Johann",
+          206
+        ],
+        [
+          "Gundeldingen",
+          185
+        ],
+        [
+          "Bruderholz",
+          146
+        ],
+        [
+          "Unteres Kleinbasel",
+          317
+        ],
+        [
+          "Oberes Kleinbasel",
+          192
+        ],
+        [
+          "Riehen\u002F Bettingen",
+          335
+        ],
+        [
+          "Basel-Stadt",
+          2231
+        ]
+      ],
+      "name": "2013_n",
       "turboThreshold": 0
     }
   ],
@@ -126,7 +222,7 @@
                 }
     },
     "type": "column",
-    "inverted": false,
+    "inverted": true,
     "forExport": true,
     "renderTo": "container-2951"
   },
@@ -208,7 +304,15 @@
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "formatter": function (args){
+      var seriesName = this.series.name;
+      //get corresponding series by name: series 2015-N corresponds to series 2015, etc.
+      var correspondingNSeries = this.series.chart.series.filter(function(element, index, array){
+          return element.name == seriesName + '_n';
+      })[0];
+      var n = correspondingNSeries.yData[this.x];
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 1, ",", " ") + '%</b> (n=' + n + ')<br/>';
+    },
     "shared": false
   },
   "exporting": {

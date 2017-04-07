@@ -1,22 +1,30 @@
+/*global Highcharts  */
+
 (function(){
     return {
-   "data":{
+  "data":{
   	"switchRowsAndColumns": true
   },
   "xAxis": {
-    "type": "category"    
+    "type": "category"  ,	
   },
   "yAxis": {
+	"max": 100,
     "labels": {
       "format": "{value}%"
     }    
   },
   "series": [
-  {"color": "#cd9c00"}, /*hellbraun */
-  {"color": "#9f7c5a"}, /*dunkelbraun1 */
-  {"color": "#b00000"}, /*rot */
-  {"color": "#45381d"}, /*dunkelbraun2 */
-  {"color": "#71a3b5"}  /*blau */
+  {"color": "#cd9c00", visible: false}, /*hellbraun */
+  {"color": "#9f7c5a", visible: false}, /*dunkelbraun1 */
+  {"color": "#b00000", visible: false}, /*rot */
+  {"color": "#45381d", visible: false}, /*dunkelbraun2 */
+  {"color": "#71a3b5", visible: true},  /*blau */
+  {visible: false, showInLegend: false},
+  {visible: false, showInLegend: false},
+  {visible: false, showInLegend: false},
+  {visible: false, showInLegend: false},
+  {visible: false, showInLegend: false}
   ],
   "legend": {
     "enabled": true,
@@ -30,14 +38,20 @@
     }
   },
   tooltip: {
-    pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>',
-    shared: false
+    formatter: function(args){
+      var seriesName = this.series.name;
+      //get corresponding series by name: series 2015-N corresponds to series 2015, etc.
+      var correspondingNSeries = this.series.chart.series.filter(function(element, index, array){
+          return element.name == seriesName + '_n';
+      })[0];
+      var n = correspondingNSeries.yData[this.x];
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 1, ",", " ") + '%</b> (n=' + n + ')<br/>';
+    },
+    "shared": false
   },  
   "chart": {      
     "type": "column",
-    "inverted": false
+    "inverted": true
   }
 }
 }());
-
- 

@@ -7,14 +7,14 @@
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
     <path fill="none" class="highcharts-plot-background" d="M53 112h422v227H53z"/>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M90.5 112v227m39-227v227m38-227v227m38-227v227m39-227v227m38-227v227m39-227v227m38-227v227m38-227v227m39-227v227m38-227v227m-422-227v227"/>
+        <path fill="none" class="highcharts-grid-line" d="M99.5 112v227m47-227v227m47-227v227m47-227v227m46-227v227m47-227v227m47-227v227m47-227v227m47-227v227m-422-227v227"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
         <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M53 339.5h422m-422-57h422m-422-56h422m-422-57h422m-422-58h422"/>
     </g>
     <path fill="none" class="highcharts-plot-border" d="M53 112h422v227H53z"/>
     <g class="highcharts-axis highcharts-xaxis">
-        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M90.5 339v10m39-10v10m38-10v10m38-10v10m39-10v10m38-10v10m39-10v10m38-10v10m38-10v10m39-10v10m38-10v10m-422-10v10"/>
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M99.5 339v10m47-10v10m47-10v10m47-10v10m46-10v10m47-10v10m47-10v10m47-10v10m48-10v10m-423-10v10"/>
         <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M53 339.5h422"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
@@ -22,7 +22,8 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 112)" clip-path="url(#a)">
-            <path fill="#8064a2" class="highcharts-point" stroke="#fff" d="M9.5 127.5h19v100h-19zm38-29h19v129h-19zm39 31h19v98h-19zm38-8h19v106h-19zm38 16h19v90h-19zm39-12h19v102h-19zm38 5h19v97h-19zm39-18h19v115h-19zm38 3h19v112h-19zm38 17h19v95h-19zm39-8h19v103h-19z"/>
+            <path fill="#8064a2" class="highcharts-point" stroke="#fff" d="M11.5 127.5h23v100h-23zm47-29h23v129h-23zm47 31h23v98h-23zm47-8h23v106h-23zm47 16h23v90h-23zm47-12h23v102h-23zm47-13h23v115h-23zm46 3h23v112h-23z"/>
+            <path fill="#8064a2" class="highcharts-point" stroke="#fff" d="M339.5 115.5h23v112h-23zm47 9h23v103h-23z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
@@ -62,37 +63,31 @@
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="74.775" transform="rotate(-45 74.775 355)" y="355">
+        <text x="79.037" transform="rotate(-45 79.037 355)" y="355">
             <tspan>Schweiz</tspan>
         </text>
-        <text x="113.138" transform="rotate(-45 113.138 355)" y="355">
+        <text x="125.926" transform="rotate(-45 125.926 355)" y="355">
             <tspan>Ausland</tspan>
         </text>
-        <text x="151.502" transform="rotate(-45 151.502 355)" y="355">
+        <text x="172.815" transform="rotate(-45 172.815 355)" y="355">
             <tspan>18-29 J.</tspan>
         </text>
-        <text x="189.865" transform="rotate(-45 189.865 355)" y="355">
+        <text x="219.704" transform="rotate(-45 219.704 355)" y="355">
             <tspan>30-39 J.</tspan>
         </text>
-        <text x="228.229" transform="rotate(-45 228.23 355)" y="355">
+        <text x="266.593" transform="rotate(-45 266.593 355)" y="355">
             <tspan>40-49 J.</tspan>
         </text>
-        <text x="266.593" transform="rotate(-45 266.593 355)" y="355">
+        <text x="313.482" transform="rotate(-45 313.482 355)" y="355">
             <tspan>50-59 J.</tspan>
         </text>
-        <text x="304.956" transform="rotate(-45 304.956 355)" y="355">
-            <tspan>60-69 J.</tspan>
-        </text>
-        <text x="343.32" transform="rotate(-45 343.32 355)" y="355">
+        <text x="360.371" transform="rotate(-45 360.37 355)" y="355">
             <tspan>&gt;69 J.</tspan>
         </text>
-        <text x="381.684" transform="rotate(-45 381.684 355)" y="355">
+        <text x="407.259" transform="rotate(-45 407.26 355)" y="355">
             <tspan>Männer</tspan>
         </text>
-        <text x="420.047" transform="rotate(-45 420.047 355)" y="355">
-            <tspan>Frauen</tspan>
-        </text>
-        <text x="458.411" transform="rotate(-45 458.41 355)" y="355">
+        <text x="454.148" transform="rotate(-45 454.148 355)" y="355">
             <tspan>Total</tspan>
         </text>
     </g>
