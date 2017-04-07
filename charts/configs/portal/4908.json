@@ -270,7 +270,8 @@
         "color": "#000000"
       }
     },
-    "tickColor": "#FFFFFF"
+    "tickColor": "#FFFFFF",
+    "rotation": 180
   },
   "chart": {
     "borderColor": "#fbfbfb",

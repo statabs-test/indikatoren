@@ -27,7 +27,7 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(59 111)" clip-path="url(#a)">
-            <path fill="#71a3b5" class="highcharts-point" stroke="#fff" d="M14.5 30.5h10v209h-10zm34 1h10v208h-10zm34 7h10v201h-10zm34 3h10v198h-10zm34-9h10v207h-10zm34 2h10v205h-10zm33-3h10v208h-10zm34-5h10v213h-10zm34-3h10v216h-10zm34 16h10v200h-10zm34-2h10v202h-10z"/>
+            <path fill="#71a3b5" class="highcharts-point" stroke="#fff" d="M9.5 30.5h20v209h-20zm34 1h20v208h-20zm34 7h20v201h-20zm34 3h20v198h-20zm34-9h20v207h-20zm34 2h20v205h-20zm33-3h20v208h-20zm34-5h20v213h-20zm34-3h20v216h-20zm34 16h20v200h-20zm34-2h20v202h-20z"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(59 111)" clip-path="url(#a)">
             <path fill="none" d="M20.304 16.22l33.839.93 33.84 7.373 33.838 5.354 33.84-8.504 33.839 2.129 33.84-1.595 33.839-2.821 33.839-1.382 33.84 17.327 33.838-.579" class="highcharts-graph" stroke="#7d60a0" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>

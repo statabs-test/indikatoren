@@ -52,19 +52,25 @@
       "color": "#71a3b5",
       "index": 0,
       "type": "column",
-      "pointWidth": "15"
-    },
-    {
-      "color": "#b00000",
-      "index": 0,
-      "type": "column",
-      "pointWidth": "15"
+      "pointWidth": "15",
+      legendIndex: 1
     },
     {
       "color": "#7d60a0",
       "index": 1,
       "type": "line",
-      "yAxis": 1
+      "yAxis": 1,
+      legendIndex: 2,
+      tooltip: {
+      	"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>'
+    }
+    },
+    {
+      "color": "#b00000",
+      "index": 0,
+      "type": "column",
+      "pointWidth": "15",
+      legendIndex: 3
     }
   ],  
   "tooltip": {

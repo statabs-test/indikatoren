@@ -2,6 +2,7 @@
     return {
 "plotOptions": {
     "series": {
+      pointPadding: 100,
       "pointWidth": 15,
       "dataLabels": {
         "style": {
