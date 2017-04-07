@@ -33,7 +33,7 @@
   },  
   "chart": {      
     "type": "column",
-    "inverted": false
+    "inverted": true
   }
 }
 }());
