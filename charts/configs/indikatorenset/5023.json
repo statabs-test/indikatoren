@@ -9,43 +9,43 @@
       "data": [
         [
           2006,
-          179.412861037744
+          178.794954388907
         ],
         [
           2007,
-          177.509574468085
+          177.196652719665
         ],
         [
           2008,
-          171.24174386461
+          171.672836894436
         ],
         [
           2009,
-          186.004244949296
+          186.133982232198
         ],
         [
           2010,
-          177.853657513928
+          176.790868265033
         ],
         [
           2011,
-          164.864428663654
+          164.780355303007
         ],
         [
           2012,
-          168.040773497227
+          168.527734577501
         ],
         [
           2013,
-          162.806522083915
+          163.478975623539
         ],
         [
           2014,
-          164.811091713281
+          165.134685801128
         ],
         [
           2015,
-          157.872558365956
+          158.032029643918
         ]
       ],
       "name": "Siedlungsabfälle pro Kopf"
@@ -152,7 +152,7 @@
               var last = this.series.data[this.series.data.length - 1];
               var first = this.series.data[0];
               if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {
-                return Highcharts.numberFormat(this.point.y, 0, ",", " ");
+                return Highcharts.numberFormat(this.point.y, 1, ",", " ");
               }
               return "";
             }

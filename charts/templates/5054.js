@@ -43,7 +43,6 @@
     }
   },
   "series": [
-  {"color": "#9a86a6", "index": 6, "legendIndex": 6}, 
   {"color": "#baa85a", "index": 5, "legendIndex": 5},
   {"color": "#71a3b5", "index": 4, "legendIndex": 4},
   {"color": "#85b77d", "index": 3, "legendIndex": 3},

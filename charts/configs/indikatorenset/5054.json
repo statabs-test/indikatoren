@@ -6,6 +6,10 @@
       "legendIndex": 6,
       "data": [
         [
+          "2006  Neubau",
+          4
+        ],
+        [
           "2007  Neubau",
           3
         ],
@@ -31,15 +35,19 @@
         ],
         [
           "2013  Neubau",
-          10
+          27
         ],
         [
           "2014  Neubau",
-          75
+          21
         ],
         [
           "2015  Neubau",
-          36
+          32
+        ],
+        [
+          "2016  Neubau",
+          12
         ]
       ],
       "name": "1 Zimmer",
@@ -50,6 +58,10 @@
       "index": 5,
       "legendIndex": 5,
       "data": [
+        [
+          "2006  Neubau",
+          16
+        ],
         [
           "2007  Neubau",
           11
@@ -76,15 +88,19 @@
         ],
         [
           "2013  Neubau",
-          51
+          83
         ],
         [
           "2014  Neubau",
-          78
+          89
         ],
         [
           "2015  Neubau",
-          41
+          258
+        ],
+        [
+          "2016  Neubau",
+          122
         ]
       ],
       "name": "2 Zimmer",
@@ -95,6 +111,10 @@
       "index": 4,
       "legendIndex": 4,
       "data": [
+        [
+          "2006  Neubau",
+          106
+        ],
         [
           "2007  Neubau",
           31
@@ -121,15 +141,19 @@
         ],
         [
           "2013  Neubau",
-          35
+          33
         ],
         [
           "2014  Neubau",
-          75
+          109
         ],
         [
           "2015  Neubau",
-          28
+          310
+        ],
+        [
+          "2016  Neubau",
+          173
         ]
       ],
       "name": "3 Zimmer",
@@ -140,6 +164,10 @@
       "index": 3,
       "legendIndex": 3,
       "data": [
+        [
+          "2006  Neubau",
+          128
+        ],
         [
           "2007  Neubau",
           38
@@ -166,15 +194,19 @@
         ],
         [
           "2013  Neubau",
-          26
+          3
         ],
         [
           "2014  Neubau",
-          65
+          105
         ],
         [
           "2015  Neubau",
-          18
+          141
+        ],
+        [
+          "2016  Neubau",
+          83
         ]
       ],
       "name": "4 Zimmer",
@@ -185,6 +217,10 @@
       "index": 2,
       "legendIndex": 2,
       "data": [
+        [
+          "2006  Neubau",
+          70
+        ],
         [
           "2007  Neubau",
           33
@@ -211,15 +247,19 @@
         ],
         [
           "2013  Neubau",
-          6
+          26
         ],
         [
           "2014  Neubau",
-          23
+          26
         ],
         [
           "2015  Neubau",
-          8
+          42
+        ],
+        [
+          "2016  Neubau",
+          10
         ]
       ],
       "name": "5 Zimmer",
@@ -230,6 +270,10 @@
       "index": 1,
       "legendIndex": 1,
       "data": [
+        [
+          "2006  Neubau",
+          19
+        ],
         [
           "2007  Neubau",
           4
@@ -256,15 +300,19 @@
         ],
         [
           "2013  Neubau",
-          10
+          5
         ],
         [
           "2014  Neubau",
-          10
+          19
         ],
         [
           "2015  Neubau",
-          3
+          5
+        ],
+        [
+          "2016  Neubau",
+          12
         ]
       ],
       "name": "6 Zimmer u.m.",
@@ -276,40 +324,48 @@
       "legendIndex": 0,
       "data": [
         [
+          "2006  Neubau",
+          343
+        ],
+        [
           "2007  Neubau",
-          0
+          120
         ],
         [
           "2008  Neubau",
-          0
+          201
         ],
         [
           "2009  Neubau",
-          0
+          469
         ],
         [
           "2010  Neubau",
-          0
+          372
         ],
         [
           "2011  Neubau",
-          0
+          351
         ],
         [
           "2012  Neubau",
-          0
+          268
         ],
         [
           "2013  Neubau",
-          null
+          177
         ],
         [
           "2014  Neubau",
-          null
+          369
         ],
         [
           "2015  Neubau",
-          null
+          788
+        ],
+        [
+          "2016  Neubau",
+          412
         ]
       ],
       "name": "Total",
