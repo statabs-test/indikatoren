@@ -22,133 +22,130 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(52 75)" clip-path="url(#a)">
-            <path fill="#C8C8C8" class="highcharts-point" stroke="#fff" d="M16.5 80.5h70v93h-70zm105-54h70v120h-70z"/>
+            <path fill="#E7CEE2" class="highcharts-point" stroke="#fff" d="M16.5 80.5h70v32h-70zm105-54h70v43h-70z"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(52 75)" clip-path="url(#a)">
-            <path fill="#E7CEE2" class="highcharts-point" stroke="#fff" d="M16.5 173.5h70v15h-70zm105-27h70v21h-70z"/>
+            <path fill="#672773" class="highcharts-point" stroke="#fff" d="M16.5 112.5h70v22h-70zm105-43h70v31h-70z"/>
         </g>
         <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(52 75)" clip-path="url(#a)">
-            <path fill="#672773" class="highcharts-point" stroke="#fff" d="M16.5 188.5h70v12h-70zm105-21h70v16h-70z"/>
+            <path fill="#B9CFD7" class="highcharts-point" stroke="#fff" d="M16.5 134.5h70v4h-70zm105-34h70v6h-70z"/>
         </g>
         <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(52 75)" clip-path="url(#a)">
-            <path fill="#B9CFD7" class="highcharts-point" stroke="#fff" d="M16.5 200.5h70v1h-70zm105-17h70v3h-70z"/>
+            <path fill="#008AC3" class="highcharts-point" stroke="#fff" d="M16.5 138.5h70v6h-70zm105-32h70v8h-70z"/>
         </g>
         <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(52 75)" clip-path="url(#a)">
-            <path fill="#008AC3" class="highcharts-point" stroke="#fff" d="M16.5 201.5h70v4h-70zm105-15h70v4h-70z"/>
+            <path fill="#2B0099" class="highcharts-point" stroke="#fff" d="M16.5 144.5h70v5h-70zm105-30h70v5h-70z"/>
         </g>
         <g class="highcharts-series highcharts-series-5 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(52 75)" clip-path="url(#a)">
-            <path fill="#2B0099" class="highcharts-point" stroke="#fff" d="M16.5 205.5h70v2h-70zm105-15h70v2h-70z"/>
+            <path fill="#73BA7C" class="highcharts-point" stroke="#fff" d="M16.5 149.5h70v6h-70zm105-30h70v8h-70z"/>
         </g>
         <g class="highcharts-series highcharts-series-6 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(52 75)" clip-path="url(#a)">
-            <path fill="#73BA7C" class="highcharts-point" stroke="#fff" d="M16.5 207.5h70v3h-70zm105-15h70v4h-70z"/>
+            <path fill="#D7E8D2" class="highcharts-point" stroke="#fff" d="M16.5 155.5h70v6h-70zm105-28h70v4h-70z"/>
         </g>
         <g class="highcharts-series highcharts-series-7 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(52 75)" clip-path="url(#a)">
-            <path fill="#D7E8D2" class="highcharts-point" stroke="#fff" d="M16.5 210.5h70v3h-70zm105-14h70v2h-70z"/>
+            <path fill="#007A2F" class="highcharts-point" stroke="#fff" d="M16.5 161.5h70v5h-70zm105-30h70v9h-70z"/>
         </g>
         <g class="highcharts-series highcharts-series-8 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(52 75)" clip-path="url(#a)">
-            <path fill="#007A2F" class="highcharts-point" stroke="#fff" d="M16.5 213.5h70v3h-70zm105-15h70v5h-70z"/>
+            <path fill="#FFDA80" class="highcharts-point" stroke="#fff" d="M16.5 166.5h70v14h-70zm105-26h70v15h-70z"/>
         </g>
         <g class="highcharts-series highcharts-series-9 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(52 75)" clip-path="url(#a)">
-            <path fill="#FFDA80" class="highcharts-point" stroke="#fff" d="M16.5 216.5h70v7h-70zm105-13h70v7h-70z"/>
+            <path fill="#FFBB58" class="highcharts-point" stroke="#fff" d="M16.5 180.5h70v22h-70zm105-25h70v25h-70z"/>
         </g>
         <g class="highcharts-series highcharts-series-10 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(52 75)" clip-path="url(#a)">
-            <path fill="#FFBB58" class="highcharts-point" stroke="#fff" d="M16.5 223.5h70v10h-70zm105-13h70v12h-70z"/>
+            <path fill="#FF8028" class="highcharts-point" stroke="#fff" d="M16.5 202.5h70v9h-70zm105-22h70v70h-70z"/>
         </g>
         <g class="highcharts-series highcharts-series-11 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(52 75)" clip-path="url(#a)">
-            <path fill="#FF8028" class="highcharts-point" stroke="#fff" d="M16.5 233.5h70v5h-70zm105-11h70v36h-70z"/>
+            <path fill="#DC440E" class="highcharts-point" stroke="#fff" d="M16.5 211.5h70v54h-70zm105 39h70v14h-70z"/>
         </g>
         <g class="highcharts-series highcharts-series-12 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(52 75)" clip-path="url(#a)">
-            <path fill="#DC440E" class="highcharts-point" stroke="#fff" d="M16.5 238.5h70v27h-70zm105 20h70v7h-70z"/>
+            <path fill="#8B2223" class="highcharts-point" stroke="#fff" d="M121.5 264.5h70v1h-70z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>LP.1.05.1.B Neugründungen in Basel-Stadt in ausgewählten</tspan><tspan dy="17" x="10">Branchen</tspan><title>LP.1.05.1.B Neugründungen in Basel-Stadt in ausgewählten Branchen</title>
+        <tspan>LP.1.05.1.B Neugründungen in Basel-Stadt</tspan>
     </text>
-    <g class="highcharts-legend" transform="translate(273 59)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="202" height="277"/>
+    <text x="10" class="highcharts-subtitle" y="40" color="#000" font-weight="400">
+        <tspan>in ausgewählten Branchen</tspan>
+    </text>
+    <g class="highcharts-legend" transform="translate(273 69)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="202" height="258"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
-                Total
+                Anderes
             </text>
-            <path fill="#C8C8C8" class="highcharts-point" d="M10 7h12v12H10z"/>
+            <path fill="#E7CEE2" class="highcharts-point" d="M10 7h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 22)">
-                Anderes
+                Unterhaltung/Kultur/Sport
             </text>
-            <path fill="#E7CEE2" class="highcharts-point" d="M10 26h12v12H10z"/>
+            <path fill="#672773" class="highcharts-point" d="M10 26h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 41)">
-                Unterhaltung/Kultur/Sport
+                Immobilienwesen
             </text>
-            <path fill="#672773" class="highcharts-point" d="M10 45h12v12H10z"/>
+            <path fill="#B9CFD7" class="highcharts-point" d="M10 45h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 60)">
-                Immobilienwesen
+                Informatikdienste
             </text>
-            <path fill="#B9CFD7" class="highcharts-point" d="M10 64h12v12H10z"/>
+            <path fill="#008AC3" class="highcharts-point" d="M10 64h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 79)">
-                Informatikdienste
+                Finanzdienstleistungen
             </text>
-            <path fill="#008AC3" class="highcharts-point" d="M10 83h12v12H10z"/>
+            <path fill="#2B0099" class="highcharts-point" d="M10 83h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-5">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 98)">
-                Finanzdienstleistungen
+                Grosshandel
             </text>
-            <path fill="#2B0099" class="highcharts-point" d="M10 102h12v12H10z"/>
+            <path fill="#73BA7C" class="highcharts-point" d="M10 102h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-6">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 117)">
-                Grosshandel
+                <tspan>Verkehr und Lagerei</tspan>
             </text>
-            <path fill="#73BA7C" class="highcharts-point" d="M10 121h12v12H10z"/>
+            <path fill="#D7E8D2" class="highcharts-point" d="M10 121h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-7">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 136)">
-                <tspan>Verkehr und Lagerei</tspan>
+                Gastgewerbe
             </text>
-            <path fill="#D7E8D2" class="highcharts-point" d="M10 140h12v12H10z"/>
+            <path fill="#007A2F" class="highcharts-point" d="M10 140h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-8">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 155)">
-                Gastgewerbe
+                Baugewerbe
             </text>
-            <path fill="#007A2F" class="highcharts-point" d="M10 159h12v12H10z"/>
+            <path fill="#FFDA80" class="highcharts-point" d="M10 159h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-9">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 174)">
-                Baugewerbe
+                Gesundheits-/Sozialwesen
             </text>
-            <path fill="#FFDA80" class="highcharts-point" d="M10 178h12v12H10z"/>
+            <path fill="#FFBB58" class="highcharts-point" d="M10 178h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-10">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 193)">
-                Gesundheits-/Sozialwesen
+                Detailhandel/Reparatur
             </text>
-            <path fill="#FFBB58" class="highcharts-point" d="M10 197h12v12H10z"/>
+            <path fill="#FF8028" class="highcharts-point" d="M10 197h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-11">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 212)">
-                Detailhandel/Reparatur
+                Unternehmensdienstleistungen
             </text>
-            <path fill="#FF8028" class="highcharts-point" d="M10 216h12v12H10z"/>
+            <path fill="#DC440E" class="highcharts-point" d="M10 216h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-12">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 231)">
-                Unternehmensdienstleistungen
-            </text>
-            <path fill="#DC440E" class="highcharts-point" d="M10 235h12v12H10z"/>
-        </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-13">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 250)">
                 <tspan>Chemische Industrie</tspan>
             </text>
-            <path fill="#8B2223" class="highcharts-point" d="M10 254h12v12H10z"/>
+            <path fill="#8B2223" class="highcharts-point" d="M10 235h12v12H10z"/>
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
@@ -164,13 +161,13 @@
             <tspan>0</tspan>
         </text>
         <text x="37" y="256">
-            <tspan>1 000</tspan>
+            <tspan>500</tspan>
         </text>
         <text x="37" y="168">
-            <tspan>2 000</tspan>
+            <tspan>1 000</tspan>
         </text>
         <text x="37" y="80">
-            <tspan>3 000</tspan>
+            <tspan>1 500</tspan>
         </text>
     </g>
     <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">

@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#8a8a8a",
+      "color": "#ff8031",
       "index": 2,
       "marker": {
         "enabled": true
@@ -221,7 +221,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "LP.1.03.2 Anteil der Logistikwirtschaft an der regionalen nominalen Wertschöpfung in %"
+    "text": "LP.1.03.2 Anteil der Logistikwirtschaft an der regionalen nominalen Wertschöpfung"
   },
   "subtitle": {
     "style": {

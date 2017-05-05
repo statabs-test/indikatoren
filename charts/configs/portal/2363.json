@@ -219,7 +219,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "I.04.1.0017 Wachstum des realen BIP BS in % gegenüber Vorjahr im Vergleich mit ZH, GE, CH"
+    "text": "I.04.1.0017 Wachstum des realen BIP BS gegenüber dem Vorjahr"
   },
   "subtitle": {
     "style": {
@@ -228,7 +228,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt im nationalen Vergleich",
     "align": "left"
   },
   "tooltip": {
@@ -283,7 +283,7 @@
     "align": "left",
     "symbolRadius": 0,
     "x": 35,
-    "y": 35,
+    "y": 60,
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"

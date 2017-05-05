@@ -46,7 +46,6 @@
 	 {"color": "#B9CFD7", "index": 4}, /*hellblau */
 	 {"color": "#672773", "index": 3},  /*dunkelpink */
 	 {"color": "#E7CEE2", "index": 2},  /*hellpink */
-	 {"color": "#C8C8C8", "index": 0}  /*grau */
   ],
   "chart": {
     "renderTo": 'container-I.01.1.0016', 

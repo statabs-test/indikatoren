@@ -130,7 +130,7 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value}"
+      "format": "{value:,.0f}"
     }
   },
   "navigation": {

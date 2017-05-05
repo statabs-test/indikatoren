@@ -77,7 +77,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "LP.1.01.3 Steuereinnahmen juristischer Personen (in Mio. Franken) "
+    "text": "LP.1.01.3 Steuereinnahmen juristischer Personen"
   },
   "subtitle": {
     "style": {
@@ -86,7 +86,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "in Mio. Franken",
     "align": "left"
   },
   "tooltip": {

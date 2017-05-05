@@ -154,7 +154,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "LP.1.02.1 Entwicklung der Logiernächte Schweiz\u002FAusland und Top 5 Nationen"
+    "text": "LP.1.02.1 Entwicklung der Logiernächte"
   },
   "subtitle": {
     "style": {
@@ -163,7 +163,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "differenzierert nach Schweiz und Ausland",
     "align": "left"
   },
   "yAxis": {

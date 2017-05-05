@@ -22,73 +22,64 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="matrix(0 -1 -1 0 349 340)" clip-path="url(#a)">
-            <path fill="#2f656b" class="highcharts-point" stroke="#fff" d="M247.5 170.5h10v44h-10zm-24 57h10v16h-10zm-24-21h10v26h-10zm-24-69h10v60h-10zm-24 25h10v48h-10zm-24 5h10v46h-10zm-25 22h10v34h-10zm-24 23h10v23h-10zm-24-49h10v47h-10zm-24-108h10v101h-10zm-24 97h10v53h-10z"/>
+            <path fill="#2f656b" class="highcharts-point" stroke="#fff" d="M247.5 170.5h10v4h-10zm-24 57h10v1h-10zm-24-21h10v2h-10zm-24-69h10v2h-10zm-24 25h10v3h-10zm-49 27h10v2h-10zm-24 23h10v2h-10zm-24-49h10v5h-10zm-24-108h10v1h-10zm-24 97h10v3h-10z"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="matrix(0 -1 -1 0 349 340)" clip-path="url(#a)">
-            <path fill="#83522e" class="highcharts-point" stroke="#fff" d="M247.5 214.5h10v2h-10zm-48 18h10v1h-10zm-24-35h10v1h-10zm-24 13h10v1h-10zm-49 13h10v1h-10zm-24 12h10v1h-10zm-24-25h10v3h-10zm-24-54h10v1h-10zm-24 49h10v1h-10z"/>
+            <path fill="#83522e" class="highcharts-point" stroke="#fff" d="M247.5 174.5h10v18h-10zm-24 54h10v9h-10zm-24-20h10v4h-10zm-24-69h10v4h-10zm-24 26h10v6h-10zm-24 2h10v4h-10zm-25 24h10v3h-10zm-24 23h10v6h-10zm-24-46h10v6h-10zm-24-112h10v11h-10zm-24 99h10v2h-10z"/>
         </g>
         <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="matrix(0 -1 -1 0 349 340)" clip-path="url(#a)">
-            <path fill="#474747" class="highcharts-point" stroke="#fff" d="M247.5 216.5h10v9h-10zm-24 27h10v4h-10zm-24-10h10v2h-10zm-24-35h10v3h-10zm-24 13h10v4h-10zm-24 2h10v1h-10zm-25 11h10v2h-10zm-24 12h10v3h-10zm-24-23h10v3h-10zm-24-56h10v5h-10zm-24 49h10v2h-10z"/>
+            <path fill="#474747" class="highcharts-point" stroke="#fff" d="M247.5 192.5h10v33h-10zm-24 45h10v9h-10zm-24-25h10v17h-10zm-24-69h10v38h-10zm-24 28h10v31h-10zm-24 0h10v24h-10zm-25 23h10v11h-10zm-24 26h10v1h-10zm-24-46h10v27h-10zm-24-107h10v36h-10zm-24 90h10v22h-10z"/>
         </g>
         <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="matrix(0 -1 -1 0 349 340)" clip-path="url(#a)">
-            <path fill="#85b77d" class="highcharts-point" stroke="#fff" d="M247.5 225.5h10v17h-10zm-24 22h10v5h-10zm-24-12h10v8h-10zm-24-34h10v18h-10zm-24 14h10v15h-10zm-24-1h10v13h-10zm-25 12h10v5h-10zm-24 13h10v1h-10zm-24-23h10v14h-10zm-24-54h10v19h-10zm-24 46h10v10h-10z"/>
+            <path fill="#85b77d" class="highcharts-point" stroke="#fff" d="M247.5 225.5h10v28h-10zm-24 21h10v8h-10zm-24-17h10v19h-10zm-24-48h10v42h-10zm-24 21h10v40h-10zm-24-7h10v31h-10zm-25 10h10v22h-10zm-24 16h10v9h-10zm-24-20h10v29h-10zm-24-98h10v80h-10zm-24 76h10v44h-10z"/>
         </g>
         <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="matrix(0 -1 -1 0 349 340)" clip-path="url(#a)">
-            <path fill="#71a3b5" class="highcharts-point" stroke="#fff" d="M247.5 242.5h10v13h-10zm-24 10h10v4h-10zm-24-9h10v10h-10zm-24-24h10v22h-10zm-24 11h10v20h-10zm-24-3h10v15h-10zm-25 4h10v12h-10zm-24 9h10v4h-10zm-24-10h10v14h-10zm-24-49h10v40h-10zm-24 37h10v23h-10z"/>
+            <path fill="#71a3b5" class="highcharts-point" stroke="#fff" d="M247.5 253.5h10v4h-10zm-24 1h10v3h-10zm-24-6h10v8h-10zm-24-25h10v27h-10zm-24 19h10v14h-10zm-24-16h10v30h-10zm-25 1h10v26h-10zm-24 3h10v21h-10zm-24 0h10v23h-10zm-24-47h10v67h-10zm-24 40h10v32h-10z"/>
         </g>
         <g class="highcharts-series highcharts-series-5 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="matrix(0 -1 -1 0 349 340)" clip-path="url(#a)">
-            <path fill="#baa85a" class="highcharts-point" stroke="#fff" d="M247.5 255.5h10v2h-10zm-24 1h10v2h-10zm-24-3h10v4h-10zm-24-12h10v13h-10zm-24 9h10v7h-10zm-24-8h10v15h-10zm-25 1h10v13h-10zm-24 1h10v11h-10zm-24 0h10v11h-10zm-24-23h10v33h-10zm-24 20h10v15h-10z"/>
-        </g>
-        <g class="highcharts-series highcharts-series-6 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="matrix(0 -1 -1 0 349 340)" clip-path="url(#a)">
-            <path fill="#9a86a6" class="highcharts-point" stroke="#fff" d="M247.5 257.5h10v1h-10zm-48 0h10v1h-10zm-24-3h10v4h-10zm-24 3h10v1h-10zm-24 0h10v1h-10zm-25-1h10v2h-10zm-24-1h10v3h-10zm-24 0h10v3h-10zm-24-1h10v4h-10zm-24 2h10v2h-10z"/>
+            <path fill="#baa85a" class="highcharts-point" stroke="#fff" d="M247.5 257.5h10v1h-10zm-24 0h10v1h-10zm-24-1h10v2h-10zm-24-6h10v8h-10zm-24 6h10v2h-10zm-24 0h10v2h-10zm-25-3h10v5h-10zm-24-2h10v7h-10zm-24 2h10v5h-10zm-24-3h10v8h-10zm-24 5h10v3h-10z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>I.09.1.0047 Umgebaute Wohnungen nach Zimmerzahl</tspan>
     </text>
-    <g class="highcharts-legend" transform="translate(361 126)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="114" height="144"/>
+    <g class="highcharts-legend" transform="translate(361 135)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="114" height="125"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
-                Total
+                <tspan>6 Zimmer u.m.</tspan>
             </text>
             <path fill="#2f656b" class="highcharts-point" d="M10 7h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 22)">
-                <tspan>6 Zimmer u.m.</tspan>
+                <tspan>5 Zimmer</tspan>
             </text>
             <path fill="#83522e" class="highcharts-point" d="M10 26h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 41)">
-                <tspan>5 Zimmer</tspan>
+                <tspan>4 Zimmer</tspan>
             </text>
             <path fill="#474747" class="highcharts-point" d="M10 45h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 60)">
-                <tspan>4 Zimmer</tspan>
+                <tspan>3 Zimmer</tspan>
             </text>
             <path fill="#85b77d" class="highcharts-point" d="M10 64h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 79)">
-                <tspan>3 Zimmer</tspan>
+                <tspan>2 Zimmer</tspan>
             </text>
             <path fill="#71a3b5" class="highcharts-point" d="M10 83h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-5">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 98)">
-                <tspan>2 Zimmer</tspan>
-            </text>
-            <path fill="#baa85a" class="highcharts-point" d="M10 102h12v12H10z"/>
-        </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-6">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 117)">
                 <tspan>1 Zimmer</tspan>
             </text>
-            <path fill="#9a86a6" class="highcharts-point" d="M10 121h12v12H10z"/>
+            <path fill="#baa85a" class="highcharts-point" d="M10 102h12v12H10z"/>
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
@@ -128,19 +119,19 @@
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
         <text x="91" y="359">
-            0
-        </text>
-        <text x="155.5" y="359">
-            500
-        </text>
-        <text x="220" y="359">
-            <tspan>1 000</tspan>
-        </text>
-        <text x="284.5" y="359">
-            <tspan>1 500</tspan>
+            <tspan>0</tspan>
         </text>
         <text x="349" y="359">
-            <tspan>2 000</tspan>
+            <tspan>1 000</tspan>
+        </text>
+        <text x="155.5" y="359">
+            250
+        </text>
+        <text x="220" y="359">
+            500
+        </text>
+        <text x="284.5" y="359">
+            750
         </text>
     </g>
     <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">

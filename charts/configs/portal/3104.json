@@ -391,7 +391,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "I.10.1.0003 Globale und kontinentale Erreichbarkeit – Basel im nationalen Vergleich"
+    "text": "I.10.1.0003 Globale und kontinentale Erreichbarkeit"
   },
   "subtitle": {
     "style": {
@@ -400,7 +400,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Stadt Basel im nationalen Vergleich",
     "align": "left"
   },
   "tooltip": {

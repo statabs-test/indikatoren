@@ -28,11 +28,11 @@
             <path fill="#b00000" d="M49 172a4 4 0 1 1 0-.004zm47 3a4 4 0 1 1 0-.004zm47-3a4 4 0 1 1 0-.004zm48-1a4 4 0 1 1 0-.004zm47-3a4 4 0 1 1 0-.004zm47-1a4 4 0 1 1 0-.004zm47-3a4 4 0 1 1 0-.004zm48 5a4 4 0 1 1 0-.004zm47 2a4 4 0 1 1 0-.004zm47 3a4 4 0 1 1 0-.004z" class="highcharts-point"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(41 87)" clip-path="url(#a)">
-            <path fill="none" d="M4.255 57.151l47.277 7.673 47.276-3.276 47.277 8.8 47.277 5.279 47.276 4.261 47.277-1.371 47.277 6.167 47.276 3.848 47.277 4.627" class="highcharts-graph" stroke="#8a8a8a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M4.255 57.151l47.277 7.673 47.276-3.276 47.277 8.8 47.277 5.279 47.276 4.261 47.277-1.371 47.277 6.167 47.276 3.848 47.277 4.627" class="highcharts-graph" stroke="#ff8031" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
             <path fill="none" d="M-5.745 57.151h10l47.277 7.673 47.276-3.276 47.277 8.8 47.277 5.279 47.276 4.261 47.277-1.371 47.277 6.167 47.276 3.848 47.277 4.627h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#8a8a8a" d="M49 144a4 4 0 1 1 0-.004zm47 8a4 4 0 1 1 0-.004zm47-3a4 4 0 1 1 0-.004zm48 8a4 4 0 1 1 0-.004zm47 6a4 4 0 1 1 0-.004zm47 4a4 4 0 1 1 0-.004zm47-1a4 4 0 1 1 0-.004zm48 6a4 4 0 1 1 0-.004zm47 4a4 4 0 1 1 0-.004zm47 4a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <path fill="#ff8031" d="M49 144a4 4 0 1 1 0-.004zm47 8a4 4 0 1 1 0-.004zm47-3a4 4 0 1 1 0-.004zm48 8a4 4 0 1 1 0-.004zm47 6a4 4 0 1 1 0-.004zm47 4a4 4 0 1 1 0-.004zm47-1a4 4 0 1 1 0-.004zm48 6a4 4 0 1 1 0-.004zm47 4a4 4 0 1 1 0-.004zm47 4a4 4 0 1 1 0-.004z" class="highcharts-point"/>
         </g>
         <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="translate(41 87)" clip-path="url(#a)">
             <path fill="none" d="M4.255 63.585l47.277 3.2 47.276-.574 47.277-6.448 47.277-4.64 47.276-8.15 47.277 1.605 47.277 6.96 47.276 1.914 47.277 3.964" class="highcharts-graph" stroke="#ffc000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
@@ -44,7 +44,7 @@
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>I.04.0.0002 Anteil der Logistikwirtschaft an der regionalen</tspan><tspan dy="17" x="10">nominalen Wertschöpfung in %</tspan><title>I.04.0.0002 Anteil der Logistikwirtschaft an der regionalen nominalen Wertschöpfung in %</title>
+        <tspan>I.04.0.0002 Anteil der Logistikwirtschaft an der regionalen</tspan><tspan dy="17" x="10">nominalen Wertschöpfung</tspan><title>I.04.0.0002 Anteil der Logistikwirtschaft an der regionalen nominalen Wertschöpfung</title>
     </text>
     <g class="highcharts-legend" transform="translate(45 45)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="397" height="30"/>
@@ -56,8 +56,8 @@
             </text>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1">
-            <path fill="none" d="M93.656 14h16" class="highcharts-graph" stroke="#8a8a8a" stroke-width="2"/>
-            <path fill="#8a8a8a" d="M105.656 14a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <path fill="none" d="M93.656 14h16" class="highcharts-graph" stroke="#ff8031" stroke-width="2"/>
+            <path fill="#ff8031" d="M105.656 14a4 4 0 1 1 0-.004z" class="highcharts-point"/>
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(93.656 3)">
                 Basel-Stadt
             </text>

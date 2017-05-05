@@ -217,7 +217,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "I.03.0.0001 Überlebensraten neugegründeter Unternehmen 2008 in % - Basel im Vergleich mit ZH, GE, BL, AG, CH"
+    "text": "I.03.0.0001 Überlebensrate neu gegründeter Unternehmen"
   },
   "subtitle": {
     "style": {
@@ -226,7 +226,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt im nationalen Vergleich",
     "align": "left"
   },
   "yAxis": {

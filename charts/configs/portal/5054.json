@@ -1,9 +1,9 @@
 {
   "series": [
     {
-      "color": "#9a86a6",
-      "index": 6,
-      "legendIndex": 6,
+      "color": "#baa85a",
+      "index": 5,
+      "legendIndex": 5,
       "data": [
         [
           "2006  Neubau",
@@ -54,9 +54,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#baa85a",
-      "index": 5,
-      "legendIndex": 5,
+      "color": "#71a3b5",
+      "index": 4,
+      "legendIndex": 4,
       "data": [
         [
           "2006  Neubau",
@@ -107,9 +107,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#71a3b5",
-      "index": 4,
-      "legendIndex": 4,
+      "color": "#85b77d",
+      "index": 3,
+      "legendIndex": 3,
       "data": [
         [
           "2006  Neubau",
@@ -160,9 +160,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#85b77d",
-      "index": 3,
-      "legendIndex": 3,
+      "color": "#474747",
+      "index": 2,
+      "legendIndex": 2,
       "data": [
         [
           "2006  Neubau",
@@ -213,9 +213,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#474747",
-      "index": 2,
-      "legendIndex": 2,
+      "color": "#83522e",
+      "index": 1,
+      "legendIndex": 1,
       "data": [
         [
           "2006  Neubau",
@@ -266,9 +266,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#83522e",
-      "index": 1,
-      "legendIndex": 1,
+      "color": "#2f656b",
+      "index": 0,
+      "legendIndex": 0,
       "data": [
         [
           "2006  Neubau",
@@ -316,59 +316,6 @@
         ]
       ],
       "name": "6 Zimmer u.m.",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#2f656b",
-      "index": 0,
-      "legendIndex": 0,
-      "data": [
-        [
-          "2006  Neubau",
-          343
-        ],
-        [
-          "2007  Neubau",
-          120
-        ],
-        [
-          "2008  Neubau",
-          201
-        ],
-        [
-          "2009  Neubau",
-          469
-        ],
-        [
-          "2010  Neubau",
-          372
-        ],
-        [
-          "2011  Neubau",
-          351
-        ],
-        [
-          "2012  Neubau",
-          268
-        ],
-        [
-          "2013  Neubau",
-          177
-        ],
-        [
-          "2014  Neubau",
-          369
-        ],
-        [
-          "2015  Neubau",
-          788
-        ],
-        [
-          "2016  Neubau",
-          412
-        ]
-      ],
-      "name": "Total",
       "turboThreshold": 0
     }
   ],

@@ -139,7 +139,7 @@
       "name": "Basler Herbstwarenmesse"
     },
     {
-      "color": "#9a86a6",
+      "color": "#007A2F",
       "data": [
         [
           2006,
@@ -185,7 +185,7 @@
       "name": "Swissbau"
     },
     {
-      "color": "#a0bec8",
+      "color": "#008AC3",
       "data": [
         [
           2006,
@@ -231,7 +231,7 @@
       "name": "Art Basel"
     },
     {
-      "color": "#c9d6db",
+      "color": "#C8C8C8",
       "data": [
         [
           2006,
@@ -303,7 +303,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "I.10.1.0008 Entwicklung der besucherstärksten Messen in der Stadt Basel"
+    "text": "I.10.1.0008 Entwicklung der besucherstärksten Messen"
   },
   "subtitle": {
     "style": {
@@ -312,7 +312,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "nur Stadt Basel",
     "align": "left"
   },
   "tooltip": {

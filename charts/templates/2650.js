@@ -17,9 +17,9 @@
     {"color": "#b00000 "}, /* rot */
     {"color": "#ff8028"}, /* orange */
 	  {"color": "#672773"}, /* violett */
-	  {"color": "#9a86a6"}, /* lila */
-  	{"color": "#a0bec8"}, /* hellblau  */
-    {"color": "#c9d6db"}, /* hellgrau */	
+	  {"color": "#007A2F"}, /* dunkelgrün */
+  	{"color": "#008AC3"}, /* dunkelblau  */
+    {"color": "#C8C8C8"}, /* grau */	
   ],
   "legend": {
     "enabled": true,

@@ -14,12 +14,12 @@
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>'
   },
   "series": [
-	  {"color": "#8a8a8a",
+	  {"color": "#ff8031",
       "index": 2,
   	   "marker": {
           "enabled": true
       }
-  	}, /* BS = grau */
+  	}, /* BS = orange */
     {"color": "#ffc000",
       "index": 3
     }, /* BL gelb */

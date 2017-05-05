@@ -1,9 +1,9 @@
 {
   "series": [
     {
-      "color": "#9a86a6",
-      "index": 6,
-      "legendIndex": 6,
+      "color": "#baa85a",
+      "index": 5,
+      "legendIndex": 5,
       "data": [
         [
           "2007  Umbau",
@@ -31,28 +31,28 @@
         ],
         [
           "2013  Umbau",
-          27
+          10
         ],
         [
           "2014  Umbau",
-          21
+          75
         ],
         [
           "2015  Umbau",
-          32
+          36
         ],
         [
           "2016  Umbau",
-          12
+          46
         ]
       ],
       "name": "1 Zimmer",
       "turboThreshold": 0
     },
     {
-      "color": "#baa85a",
-      "index": 5,
-      "legendIndex": 5,
+      "color": "#71a3b5",
+      "index": 4,
+      "legendIndex": 4,
       "data": [
         [
           "2007  Umbau",
@@ -80,28 +80,28 @@
         ],
         [
           "2013  Umbau",
-          83
+          51
         ],
         [
           "2014  Umbau",
-          89
+          78
         ],
         [
           "2015  Umbau",
-          258
+          41
         ],
         [
           "2016  Umbau",
-          122
+          54
         ]
       ],
       "name": "2 Zimmer",
       "turboThreshold": 0
     },
     {
-      "color": "#71a3b5",
-      "index": 4,
-      "legendIndex": 4,
+      "color": "#85b77d",
+      "index": 3,
+      "legendIndex": 3,
       "data": [
         [
           "2007  Umbau",
@@ -129,28 +129,28 @@
         ],
         [
           "2013  Umbau",
-          33
+          35
         ],
         [
           "2014  Umbau",
-          109
+          75
         ],
         [
           "2015  Umbau",
-          310
+          28
         ],
         [
           "2016  Umbau",
-          173
+          32
         ]
       ],
       "name": "3 Zimmer",
       "turboThreshold": 0
     },
     {
-      "color": "#85b77d",
-      "index": 3,
-      "legendIndex": 3,
+      "color": "#474747",
+      "index": 2,
+      "legendIndex": 2,
       "data": [
         [
           "2007  Umbau",
@@ -178,28 +178,28 @@
         ],
         [
           "2013  Umbau",
-          3
+          26
         ],
         [
           "2014  Umbau",
-          105
+          65
         ],
         [
           "2015  Umbau",
-          141
+          18
         ],
         [
           "2016  Umbau",
-          83
+          34
         ]
       ],
       "name": "4 Zimmer",
       "turboThreshold": 0
     },
     {
-      "color": "#474747",
-      "index": 2,
-      "legendIndex": 2,
+      "color": "#83522e",
+      "index": 1,
+      "legendIndex": 1,
       "data": [
         [
           "2007  Umbau",
@@ -227,28 +227,28 @@
         ],
         [
           "2013  Umbau",
-          26
+          6
         ],
         [
           "2014  Umbau",
-          26
+          23
         ],
         [
           "2015  Umbau",
-          42
+          8
         ],
         [
           "2016  Umbau",
-          10
+          11
         ]
       ],
       "name": "5 Zimmer",
       "turboThreshold": 0
     },
     {
-      "color": "#83522e",
-      "index": 1,
-      "legendIndex": 1,
+      "color": "#2f656b",
+      "index": 0,
+      "legendIndex": 0,
       "data": [
         [
           "2007  Umbau",
@@ -276,71 +276,22 @@
         ],
         [
           "2013  Umbau",
-          5
+          10
         ],
         [
           "2014  Umbau",
-          19
+          10
         ],
         [
           "2015  Umbau",
-          5
+          3
         ],
         [
           "2016  Umbau",
-          12
+          16
         ]
       ],
       "name": "6 Zimmer u.m.",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#2f656b",
-      "index": 0,
-      "legendIndex": 0,
-      "data": [
-        [
-          "2007  Umbau",
-          263
-        ],
-        [
-          "2008  Umbau",
-          0
-        ],
-        [
-          "2009  Umbau",
-          0
-        ],
-        [
-          "2010  Umbau",
-          0
-        ],
-        [
-          "2011  Umbau",
-          0
-        ],
-        [
-          "2012  Umbau",
-          0
-        ],
-        [
-          "2013  Umbau",
-          null
-        ],
-        [
-          "2014  Umbau",
-          null
-        ],
-        [
-          "2015  Umbau",
-          null
-        ],
-        [
-          "2016  Umbau",
-          null
-        ]
-      ],
-      "name": "Total",
       "turboThreshold": 0
     }
   ],

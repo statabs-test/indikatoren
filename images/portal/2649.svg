@@ -29,7 +29,10 @@
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>I.10.1.0001 Entwicklung der Logiernächte Schweiz/Ausland</tspan><tspan dy="17" x="10">und Top 5 Nationen</tspan><title>I.10.1.0001 Entwicklung der Logiernächte Schweiz/Ausland und Top 5 Nationen</title>
+        <tspan>I.10.1.0001 Entwicklung der Logiernächte</tspan>
+    </text>
+    <text x="10" class="highcharts-subtitle" y="40" color="#000" font-weight="400">
+        <tspan>differenzierert nach Schweiz und Ausland</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(65 45)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="166" height="30"/>

@@ -5,7 +5,7 @@
   },
   "yAxis": {
     "labels": {
-      "format": "{value}"
+      "format": "{value:,.0f}"
     }    
   },
    "series": [

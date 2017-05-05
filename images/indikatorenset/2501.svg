@@ -40,7 +40,7 @@
         <tspan>LP.1.04.1 Wachstumsrate der realen Wertschöpfung</tspan><tspan dy="17" x="10">ausgewählter Branchen</tspan><title>LP.1.04.1 Wachstumsrate der realen Wertschöpfung ausgewählter Branchen</title>
     </text>
     <text x="10" class="highcharts-subtitle" y="57" color="#000" font-weight="400">
-        <tspan>BS im Vergleich mit ZH, GE, CH, Stand 2015</tspan>
+        <tspan>Basel-Stadt im nationalen Vergleich, Stand: 2015</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(165 60)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="296" height="39"/>

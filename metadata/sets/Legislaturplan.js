@@ -135,11 +135,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Wachstum des realen BIP BS in % gegenüber Vorjahr im Vergleich mit ZH, GE, CH",
-		"subtitle": "",
+		"title": "Wachstum des realen BIP BS gegenüber dem Vorjahr",
+		"subtitle": "Basel-Stadt im nationalen Vergleich",
 		"kuerzel": "I.04.1.0017",
 		"kuerzelKunde": "LP.1.01.1",
-		"description": "Wachstum des realen BIP BS in % gegenüber Vorjahr im Vergleich mit ZH, GE, CH",
+		"description": "Wachstum des realen BIP BS gegenüber dem Vorjahr",
 		"id": 2363,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
@@ -158,7 +158,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Wachstum des realen BIPs in Basel-Stadt liegt im Jahr 2015 mit 2,4% über das BIP-Wachstum in den Vergleichskantonen und in der Gesamtschweiz. Von der Finanz- und Wirtschaftskrise im Jahr 2009 hat alle Kantone betroffen.",
+		"lesehilfe": "Das Wachstum des realen BIPs in Basel-Stadt liegt im Jahr 2015 mit 2,4% über dem BIP-Wachstum der Vergleichskantone der Gesamtschweiz. Die Finanz- und Wirtschaftskrise im Jahr 2009 hat alle Kantone betroffen.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"option": "options001",
@@ -177,11 +177,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Anteil der Logistikwirtschaft an der regionalen nominalen Wertschöpfung in %",
+		"title": "Anteil der Logistikwirtschaft an der regionalen nominalen Wertschöpfung",
 		"subtitle": "",
 		"kuerzel": "I.04.0.0002",
 		"kuerzelKunde": "LP.1.03.2",
-		"description": "Anteil der Logistikwirtschaft an der regionalen nominalen Wertschöpfung in %",
+		"description": "Anteil der Logistikwirtschaft an der regionalen nominalen Wertschöpfung",
 		"id": 2364,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
@@ -301,7 +301,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
-		"subtitle": "BS im Vergleich mit ZH, GE, CH, Stand 2015",
+		"subtitle": "Basel-Stadt im nationalen Vergleich, Stand: 2015",
 		"kuerzel": "I.04.1.0018",
 		"kuerzelKunde": "LP.1.04.1",
 		"description": "Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
@@ -341,11 +341,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Überlebensraten neugegründeter Unternehmen 2008 in % - Basel im Vergleich mit ZH, GE, BL, AG, CH",
-		"subtitle": "",
+		"title": "Überlebensrate neu gegründeter Unternehmen",
+		"subtitle": "Basel-Stadt im nationalen Vergleich",
 		"kuerzel": "I.03.0.0001",
 		"kuerzelKunde": "LP.1.05.2",
-		"description": "Überlebensraten neugegründeter Unternehmen 2008 in % - Basel im Vergleich mit ZH, GE, BL, AG, CH",
+		"description": "Überlebensrate neu gegründeter Unternehmen",
 		"id": 2502,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
@@ -467,11 +467,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Entwicklung der Logiernächte Schweiz/Ausland und Top 5 Nationen",
-		"subtitle": "",
+		"title": "Entwicklung der Logiernächte",
+		"subtitle": "differenzierert nach Schweiz und Ausland",
 		"kuerzel": "I.10.1.0001",
 		"kuerzelKunde": "LP.1.02.1",
-		"description": "Entwicklung der Logiernächte Schweiz/Ausland und Top 5 Nationen",
+		"description": "Entwicklung der Logiernächte",
 		"id": 2649,
 		"thema": "10 Tourismus",
 		"unterthema": "Hotellerie",
@@ -508,11 +508,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Entwicklung der besucherstärksten Messen in der Stadt Basel",
-		"subtitle": "",
+		"title": "Entwicklung der besucherstärksten Messen",
+		"subtitle": "nur Stadt Basel",
 		"kuerzel": "I.10.1.0008",
 		"kuerzelKunde": "LP.1.02.2",
-		"description": "Entwicklung der besucherstärksten Messen in der Stadt Basel",
+		"description": "Entwicklung der besucherstärksten Messen",
 		"id": 2650,
 		"thema": "10 Tourismus",
 		"unterthema": "Hotellerie",
@@ -532,14 +532,16 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Baselworld ist mit Abstand die meistbesuchte Messe.",
+		"lesehilfe": "Bis 2014 war Muba die besucherstärkste Messe. 2015 hat Baselworld augeholt. Die Besucher der Muba sind seit 2012 stark zurückgegangen.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
 		"parentId": null,
-		"children": [],
+		"children": [
+			"5055"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Messe Schweiz"
@@ -1556,11 +1558,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Anzahl durch BaselArea unterstützte internationaler Ansiedlungen",
+		"title": "Durch BaselArea unterstützte internationale Ansiedlungen",
 		"subtitle": "",
 		"kuerzel": "I.04.0.0004",
 		"kuerzelKunde": "LP.1.01.2",
-		"description": "Anzahl durch BaselArea unterstützte internationaler Ansiedlungen",
+		"description": "Durch BaselArea unterstützte internationale Ansiedlungen",
 		"id": 3086,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
@@ -1581,7 +1583,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl von durch BaselArea unterstützte internationale Ansiedlungen bewegt sich auf gleichbleibendem Niveau.",
+		"lesehilfe": "Die Anzahl von durch BaselArea unterstützte internationale Ansiedlungen stieg 2012 an und nimmt seither wieder ab.",
 		"erlaeuterungen": "Die Anzahl von durch BaselArea unterstützten internationalen Ansiedlungen beinhalten seit 2013 auch ausländische Firmengründungen im Kanton Jura.",
 		"template": "line001",
 		"option": "options001",
@@ -1757,11 +1759,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Globale und kontinentale Erreichbarkeit – Basel im nationalen Vergleich",
-		"subtitle": "",
+		"title": "Globale und kontinentale Erreichbarkeit",
+		"subtitle": "Stadt Basel im nationalen Vergleich",
 		"kuerzel": "I.10.1.0003",
 		"kuerzelKunde": "LP.1.03.1",
-		"description": "Globale und kontinentale Erreichbarkeit – Basel im nationalen Vergleich",
+		"description": "Globale und kontinentale Erreichbarkeit",
 		"id": 3104,
 		"thema": "10 Tourismus",
 		"unterthema": "Hotellerie",
@@ -1879,11 +1881,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Steuereinnahmen juristischer Personen (in Mio. Franken) ",
-		"subtitle": "",
+		"title": "Steuereinnahmen juristischer Personen",
+		"subtitle": "in Mio. Franken",
 		"kuerzel": "I.04.0.0005",
 		"kuerzelKunde": "LP.1.01.3",
-		"description": "Steuereinnahmen juristischer Personen (in Mio. Franken) ",
+		"description": "Steuereinnahmen juristischer Personen",
 		"id": 3111,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
@@ -2690,11 +2692,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Neugründungen in Basel-Stadt in ausgewählten Branchen",
-		"subtitle": "",
+		"title": "Neugründungen in Basel-Stadt",
+		"subtitle": "in ausgewählten Branchen",
 		"kuerzel": "I.03.2.0006",
 		"kuerzelKunde": "LP.1.05.1.B",
-		"description": "Neugründungen in Basel-Stadt in ausgewählten Branchen",
+		"description": "Neugründungen in Basel-Stadt",
 		"id": 5041,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",

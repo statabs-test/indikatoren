@@ -207,22 +207,6 @@
       ],
       "name": "Anderes",
       "turboThreshold": 0
-    },
-    {
-      "color": "#C8C8C8",
-      "index": 0,
-      "data": [
-        [
-          "2013",
-          1047
-        ],
-        [
-          "2014",
-          1352
-        ]
-      ],
-      "name": "Total",
-      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -279,7 +263,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "LP.1.05.1.B Neugründungen in Basel-Stadt in ausgewählten Branchen"
+    "text": "LP.1.05.1.B Neugründungen in Basel-Stadt"
   },
   "subtitle": {
     "style": {
@@ -288,7 +272,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "in ausgewählten Branchen",
     "align": "left"
   },
   "yAxis": {
