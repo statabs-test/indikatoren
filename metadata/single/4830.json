@@ -1,4 +1,4 @@
-{"title":"Baujahr Wohngebäude",
+﻿{"title":"Baujahr Wohngebäude",
 "subtitle":"Stand: 2015",
 "kuerzel":"I.09.1.0009",
 "kuerzelKunde":"RU-1.a",
@@ -15,7 +15,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"",
+"lesehilfe":"ich bin ein test",
 "erlaeuterungen":"Mittleres Baujahr der Wohngebäude des Wohnviertels (ungewichtetes arithmetisches Mittel des Baujahres über alle Wohngebäude).",
 "template":"dotplot",
 "option":"options001",
@@ -24,5 +24,6 @@
 "parentId":null,
 "children":["5117"],
 "renderLink":["5117"],
-"quellenangabe":["Kantonale Baustatistik"]
+"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"],
+"externalLinks":[""]
 }

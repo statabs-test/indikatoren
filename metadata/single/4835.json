@@ -1,4 +1,4 @@
-{"title":"Vermögenssteuer pro Veranlagung",
+﻿{"title":"Vermögenssteuer pro Veranlagung",
 "subtitle":"Stand: Steuerjahr 2013",
 "kuerzel":"I.18.2.0002",
 "kuerzelKunde":"WA-1.a",
@@ -24,5 +24,6 @@
 "parentId":null,
 "children":["5122"],
 "renderLink":["5122"],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"]
+"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"],
+"externalLinks":[""]
 }

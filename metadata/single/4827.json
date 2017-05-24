@@ -1,4 +1,4 @@
-{"title":"Altersquotient",
+﻿{"title":"Altersquotient",
 "subtitle":"Stand: 2015",
 "kuerzel":"I.01.1.0039",
 "kuerzelKunde":"GS-6.a",
@@ -24,5 +24,6 @@
 "parentId":null,
 "children":["5114"],
 "renderLink":["5114"],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"]
+"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"],
+"externalLinks":[""]
 }
