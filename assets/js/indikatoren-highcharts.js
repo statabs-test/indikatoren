@@ -58,9 +58,9 @@ function createChartConfig(data, chartOptions, template, chartMetaData, indikato
 //merge series with all options and draw chart
 function drawChart(data, chartOptions, template, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn){
   createChartConfig(data, chartOptions, template, chartMetaData, indikatorensetView, suppressNumberInTitle, function(options){
-    var chartType = (options.chart.type === "map") ? 'Map' : 'Chart';
-    var chart = new Highcharts[chartType](options, callbackFn);
-    return chart;
+    //decide if stockchart, map, or chart
+    var constr = options.isStock ? 'StockChart': (options.chart.type === 'map' ? 'Map' : 'Chart');
+    return new Highcharts[constr](options, callbackFn);
   });
 }
 
@@ -68,8 +68,8 @@ function drawChart(data, chartOptions, template, chartMetaData, indikatorensetVi
 //Add data from database to chart config
 function injectMetadataToChartConfig(options, data, indikatorensetView, suppressNumberInTitle){
   var chartNumber = (indikatorensetView) ? data.kuerzelKunde : data.kuerzel;
-  var chartNumberToDisplay = (suppressNumberInTitle) ? "" : chartNumber + ' ';
-  options['title']['text'] = (indikatorensetView) ? chartNumberToDisplay + data.title : chartNumberToDisplay + data.title;
+  var chartNumberToDisplay = (suppressNumberInTitle == true || suppressNumberInTitle == null) ? "" : chartNumber + ': ';
+  options['title']['text'] = (indikatorensetView) ? chartNumberToDisplay + data.title : data.title;
   options['subtitle']['text'] = data.subtitle;    
   options['chart']['renderTo'] = 'container-' + data.id;
   options['credits']['text'] = 'Quelle: ' + data.quellenangabe.join(';<br/>');
