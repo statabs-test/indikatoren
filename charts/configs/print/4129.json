@@ -358,6 +358,22 @@
       "format": "{value:,.0f}"
     }
   },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": " "
+  },
   "legend": {
     "enabled": false,
     "layout": "vertical",

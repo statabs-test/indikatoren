@@ -336,6 +336,22 @@
     "tickLength": 0,
     "tickInterval": 1
   },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": " "
+  },
   "legend": {
     "enabled": true,
     "layout": "horizontal",

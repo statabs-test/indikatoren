@@ -85,11 +85,12 @@ function injectMetadataToChartConfig(options, data, view, suppressNumberInTitle)
   options['exporting'] = (options['exporting'] || {});
   options['exporting']['filename'] = data.kuerzel;
   
-  //for print, remove, title, subtitle, and credits
+  //for print, remove, title, subtitle, and credits, and set the scale
   if (view == "print"){
     options.title.text = null;
     delete options.subtitle;
-    delete options.credits;
+    options.credits.text = ' ';
+    //options.exporting.scale = 4;
   }
   return options;
 }

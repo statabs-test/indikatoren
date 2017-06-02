@@ -54,12 +54,14 @@ function go(){
                 var constr = config.isStock ? 'StockChart': (config.chart.type === 'map' ? 'Map' : 'Chart');
                 //file extension depends on view of chart
                 var outputFileExt = (view == "print") ? '.png' : '.svg';
-                
+                var scaleParameter = (view == "print") ? '-width' : ' ';
+                var scaleArgument = (view == "print") ? ' 2000' : ' ';
                 var currentArg = [
                     path.join(__dirname, 'highcharts-convert.js'),
                     '-infile', path.join(__dirname, '../' + configPath + indikator.id + '.json'),
                     '-outfile', path.join(__dirname, '../' + imagePath + indikator.id + outputFileExt),
-                    '-constr', constr
+                    '-constr', constr, 
+                    scaleParameter, scaleArgument
                 ];
                 allArgs.push(currentArg);
             }

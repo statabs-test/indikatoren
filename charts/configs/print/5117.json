@@ -6555,6 +6555,21 @@
     "align": "left",
     "text": null
   },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": " "
+  },
   "colorAxis": {
     "min": 1800,
     "gridLineColor": "#fbfbfb",
