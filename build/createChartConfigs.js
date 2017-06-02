@@ -35,36 +35,38 @@ var geojson_rhein = JSON.parse(rheinFileContents);
 
 console.log('deleting previous chart configs...');
 var rimraf = require("rimraf");
-rimraf('charts/configs/indikatorenset/*', function(error) {
-    if (error) { throw error; }
-    rimraf('charts/configs/portal/*', function(error) {
-        if (error) { throw error; }
+rimraf.sync('charts/configs/indikatorenset/*');
+rimraf.sync('charts/configs/portal/*');
+rimraf.sync('charts/configs/print/*');
 
-        var views = [true, false];
-        views.forEach(function(view){
-            console.log('Starting creation of chart config for indikatorensetView=' + view);
-            
-            var files = glob.sync("metadata/single/*.json");
-            files.forEach(function(filepath){
-                var fileContents = fs.readFileSync(filepath);
-                var indikator = JSON.parse(fileContents);
-                if (indikator.visible == undefined || indikator.visible){
-                    console.log('Creating config for chart ' + indikator.id + ', indikatorensetView=' + view +'...');
-                    saveChartConfig(indikator, view, console);
-                }
-                else {
-                    console.log('Chart ' + indikator.id + ' is invisible, ignoring.');
-                }
-            });
-        });
+//var views = [true, false];
+var views = ['indikatorenset', 'portal', 'print'];
+views.forEach(function(view){
+    console.log('Starting creation of chart config for view=' + view);
+    
+    var files = glob.sync("metadata/single/*.json");
+    files.forEach(function(filepath){
+        var fileContents = fs.readFileSync(filepath);
+        var indikator = JSON.parse(fileContents);
+        if (indikator.visible == undefined || indikator.visible){
+            console.log('Creating config for chart ' + indikator.id + ', view=' + view +'...');
+            saveChartConfig(indikator, view, console);
+        }
+        else {
+            console.log('Chart ' + indikator.id + ' is invisible, ignoring.');
+        }
     });
 });
 
 
+function isIndikatorensetView(view){
+  return ((view == true || view == "indikatorenset") ? true :  false);
+}
+
 
 
 //todo: get rid of all the jsdom code if not needed 
-function saveChartConfig(indikator, indikatorensetView, console){
+function saveChartConfig(indikator, view, console){
     var fs = require('fs');
 
     //from https://github.com/kirjs/react-highcharts/blob/b8e31a26b741f94a13a798ffcc1f1b60e7764676/src/simulateDOM.js 
@@ -120,9 +122,10 @@ function saveChartConfig(indikator, indikatorensetView, console){
 
     var ctx = execute("assets/js/indikatoren-highcharts.js", {Highcharts: Highcharts, chartOptions: {}, geojson_wohnviertel: geojson_wohnviertel, rheinData: rheinData, console: console}).context;
 
-    ctx.createChartConfig(csv, options, template, indikator, indikatorensetView, true, function(options){
+    ctx.createChartConfig(csv, options, template, indikator, view, true, function(options){
         var stringifiedOptions = serialize(options, {space: 2});
-        var filePath = (indikatorensetView) ? 'charts/configs/indikatorenset/' : 'charts/configs/portal/';
-        fs.writeFile(filePath + indikator.id + '.json', stringifiedOptions);
+        var filePath = 'charts/configs/' + view + '/';
+        //var filePath = (isIndikatorensetView(view)) ? 'charts/configs/indikatorenset/' : 'charts/configs/portal/';
+        fs.writeFileSync(filePath + indikator.id + '.json', stringifiedOptions);
     });
 }

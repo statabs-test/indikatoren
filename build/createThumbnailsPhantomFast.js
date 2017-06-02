@@ -20,13 +20,11 @@ var binPath = phantomjs.path;
 
 console.log('deleting previous chart images...');
 var rimraf = require("rimraf");
-rimraf('images/indikatorenset/*', function(error) {
-    if (error) { throw error; }
-    rimraf('images/portal/*', function(error) {
-        if (error) { throw error; }
-        go();
-    });
-});
+rimraf.sync('images/indikatorenset/*');
+rimraf.sync('images/portal/*');
+rimraf.sync('images/print/*');
+
+go();
 
 
 //from https://github.com/yahoo/serialize-javascript
@@ -38,26 +36,29 @@ function deserialize(serializedJavascript){
 function go(){
     console.log('Starting MultiArgsFile creation...');
     var allArgs = [];
-    var views = [true, false];
+    var views = ['indikatorenset', 'portal', 'print'];
+    //var views = [true, false];
     views.forEach(function(view){
-        console.log('Creating MultiArgsFile entries for indikatorensetView=' + view);
+        console.log('Creating MultiArgsFile entries for view=' + view);
         var files = glob.sync("metadata/single/*.json");
         files.forEach(function(filepath){
             var fileContents = fs.readFileSync(filepath);
             var indikator = JSON.parse(fileContents);
             if (indikator.visible == undefined || indikator.visible){            
                 console.log('Creating MultiArgsFile entries for chart ' + indikator.id + ' indikatorensetView=' + view +'...');
-                var imagePath = (view) ? 'images/indikatorenset/' : 'images/portal/';
-                var configPath = (view) ? 'charts/configs/indikatorenset/' : 'charts/configs/portal/';
+                var imagePath = 'images/' + view + '/';
+                var configPath = 'charts/configs/' + view + '/';
                 //check if the chart is of type map and set 'constr' parameter accordingly 
                 var configFile = fs.readFileSync(configPath + indikator.id + '.json', 'utf8');
                 var config = deserialize(configFile);
                 var constr = config.isStock ? 'StockChart': (config.chart.type === 'map' ? 'Map' : 'Chart');
+                //file extension depends on view of chart
+                var outputFileExt = (view == "print") ? '.png' : '.svg';
                 
                 var currentArg = [
                     path.join(__dirname, 'highcharts-convert.js'),
                     '-infile', path.join(__dirname, '../' + configPath + indikator.id + '.json'),
-                    '-outfile', path.join(__dirname, '../' + imagePath + indikator.id + '.svg'),
+                    '-outfile', path.join(__dirname, '../' + imagePath + indikator.id + outputFileExt),
                     '-constr', constr
                 ];
                 allArgs.push(currentArg);
@@ -78,21 +79,23 @@ function go(){
 
 
 function addSvgViewBox(console){
-    var views = [true, false];
+    var views = ['indikatorenset', 'portal'/*, 'print'*/];
+    //var views = [true, false];
     views.forEach(function(view){
         var files = glob.sync("metadata/single/*.json");
         files.forEach(function(filepath){
             var fileContents = fs.readFileSync(filepath);
             var indikator = JSON.parse(fileContents);
             if (indikator.visible == undefined || indikator.visible){            
-                var path = (view) ? 'images/indikatorenset/' : 'images/portal/';
+                var path = 'images/' + view + '/';
+                //var path = (view) ? 'images/indikatorenset/' : 'images/portal/';
                 var svg = fs.readFileSync(path + indikator.id + '.svg', 'utf8');
                 //replace hardcoded height and width with hardcoded viewBox in order to make pics compatible with IE. 
                 var regex = 'width="(.*?)" height="(.*?)">';
                 var re = new RegExp (regex);
                 var replace = 'viewBox="0 0 $1 $2">';
                 var svgWithViewBox = svg.replace(re, replace);            
-                fs.writeFile(path + indikator.id + '.svg', svgWithViewBox);
+                fs.writeFileSync(path + indikator.id + '.svg', svgWithViewBox);
             }
         });
     });
