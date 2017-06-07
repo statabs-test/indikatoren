@@ -13,10 +13,10 @@
         <path fill="none" class="highcharts-grid-line" d="M89.5 150v200m0-200v200m38-200v200m0-200v200m37-200v200m0-200v200m37-200v200m0-200v200m38-200v200m0-200v200m37-200v200m0-200v200m37-200v200m0-200v200m37-200v200m0-200v200m38-200v200m0-200v200m37-200v200m0-200v200m-373-200v200m0-200v200"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M53 350.5h373m-373-50h373m-373-50h373m-373-50h373m-373-51h373"/>
+        <path fill="none" stroke="#B9CFD7" stroke-width=".5" class="highcharts-grid-line" d="M53 350.25h373m-373-50h373m-373-50h373m-373-50h373m-373-50.5h373"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M53 350.5h373m-373-50h373m-373-50h373m-373-50h373m-373-51h373"/>
+        <path fill="none" stroke="#B9CFD7" stroke-width=".5" class="highcharts-grid-line" d="M53 350.25h373m-373-50h373m-373-50h373m-373-50h373m-373-50.5h373"/>
     </g>
     <path fill="none" class="highcharts-plot-border" d="M53 150h373v200H53z"/>
     <g class="highcharts-axis highcharts-xaxis">

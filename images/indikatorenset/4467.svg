@@ -13,10 +13,10 @@
         <path fill="none" class="highcharts-grid-line" d="M89.5 150v200m0-200v200m36-200v200m0-200v200m37-200v200m0-200v200m37-200v200m0-200v200m37-200v200m0-200v200m36-200v200m0-200v200m37-200v200m0-200v200m37-200v200m0-200v200m36-200v200m0-200v200m37-200v200m0-200v200m-367-200v200m0-200v200"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M53 350.5h367m-367-50h367m-367-50h367m-367-50h367m-367-51h367"/>
+        <path fill="none" stroke="#B9CFD7" stroke-width=".5" class="highcharts-grid-line" d="M53 350.25h367m-367-50h367m-367-50h367m-367-50h367m-367-50.5h367"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M53 350.5h367m-367-50h367m-367-50h367m-367-50h367m-367-51h367"/>
+        <path fill="none" stroke="#B9CFD7" stroke-width=".5" class="highcharts-grid-line" d="M53 350.25h367m-367-50h367m-367-50h367m-367-50h367m-367-50.5h367"/>
     </g>
     <path fill="none" class="highcharts-plot-border" d="M53 150h367v200H53z"/>
     <g class="highcharts-axis highcharts-xaxis">

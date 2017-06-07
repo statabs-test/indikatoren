@@ -112,7 +112,8 @@
             height: 30,
             series: {
                 includeInCSVExport: false
-            }
+            },
+            outlineColor: '#B9CFD7'
         }, 
         tooltip: {
             dateTimeLabelFormats: {

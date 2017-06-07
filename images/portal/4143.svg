@@ -13,7 +13,7 @@
         <path fill="none" class="highcharts-grid-line" d="M67.5 82v268m0-268v268m51-268v268m0-268v268m52-268v268m0-268v268m52-268v268m0-268v268m51-268v268m0-268v268m52-268v268m0-268v268m52-268v268m0-268v268m51-268v268m0-268v268"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M59 350.5h379m-379-54h379m-379-53h379m-379-54h379m-379-53h379m-379-55h379"/>
+        <path fill="none" stroke="#B9CFD7" stroke-width=".5" class="highcharts-grid-line" d="M59 350.25h379m-379-54h379m-379-53h379m-379-54h379m-379-53h379M59 81.75h379"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
         <path fill="none" class="highcharts-grid-line" d="M59 350.5h379m-379-54h379m-379-53h379m-379-54h379m-379-53h379m-379-54h379"/>

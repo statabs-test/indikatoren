@@ -134,6 +134,8 @@
   },
   "yAxis": [
     {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
       "labels": {
         "format": "{value:,.0f}",
         "style": {
@@ -144,6 +146,8 @@
       "title": ""
     },
     {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0,
       "title": {
         "style": {
           "color": "#000000",
@@ -160,7 +164,6 @@
       },
       "min": 0,
       "max": 24,
-      "gridLineWidth": 0,
       "opposite": true
     }
   ],

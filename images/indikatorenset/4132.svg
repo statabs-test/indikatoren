@@ -142,7 +142,7 @@
     <g class="highcharts-navigator">
         <path fill="transparent" class="highcharts-navigator-mask-outside" d="M79 311h303v30H79z"/>
         <path fill="rgba(102,133,194,0.3)" class="highcharts-navigator-mask-inside" cursor="ew-resize" d="M382 311h79v30h-79z"/>
-        <path fill="none" class="highcharts-navigator-outline" stroke="#ccc" d="M65 311.5h316.5v44h79v-44H475m-94 0h80"/>
+        <path fill="none" class="highcharts-navigator-outline" stroke="#B9CFD7" d="M65 311.5h316.5v44h79v-44H475m-94 0h80"/>
         <path fill="#f2f2f2" d="M456.5 318.5h8v15h-8v-15m3 3.5v8m2-8v8" class="highcharts-navigator-handle highcharts-navigator-handle-right" stroke="#999" cursor="ew-resize"/>
         <path fill="#f2f2f2" d="M377.5 318.5h8v15h-8v-15m3 3.5v8m2-8v8" class="highcharts-navigator-handle highcharts-navigator-handle-left" stroke="#999" cursor="ew-resize"/>
     </g>
