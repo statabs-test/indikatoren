@@ -230,8 +230,10 @@ function exportThumbnail(id, exportType, offline){
   var chart = $(escapeCssChars('#container-' + id)).highcharts();
   //remove callback - otherwise end up in infinite loop
   delete chart.callback;
-  //scale chart in order to receive 150px width
-  chart.options.exporting.scale = 0.31;
+  //change scale for png
+  if (exportType == 'image/png') {
+    chart.options.exporting.scale = 15;
+  }
   if (offline){     
     chart.exportChartLocal({
       type: exportType, 

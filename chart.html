@@ -96,7 +96,11 @@
   
             var chartOptions = {};            
             var indikatorensetView = (window.decodeURIComponent($.url('?indikatorensetView')) === 'true') ? true : false;
-            lazyRenderChartById(id, chartMetadata, indikatorensetView, suppressNumberInTitle, function(){
+            var view = window.decodeURIComponent($.url('?view'));
+            if (!(view == 'indikatorenset' || view == 'portal' || view == 'print')) {
+              view = indikatorensetView;
+            }
+            lazyRenderChartById(id, chartMetadata, view, suppressNumberInTitle, function(){
               
               //make sure we have the complete chart with the renderTo object, which contains the kuerzel
               if (this.renderTo){                        
