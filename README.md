@@ -1,6 +1,8 @@
 # Indikatorenportal Statistisches Amt Basel-Stadt 
 Find and display statistical indicators from the canton of Basel-Stadt, Switzerland. See live version [here](http://www.statistik.bs.ch/zahlen/indikatoren/).  
 
+
+
 ## Local Installation
 Install [node.js](https://nodejs.org), then run the following command in the console: 
 ```javascript
@@ -39,9 +41,13 @@ Build:
 npm run build
 ```
 
-Manually create svg thumbnails: 
-- For the portal view: In Chrome, open thumbnails.html.
-- For the indikatorenset view: In Chrome, open thumbnails.html?indikatorensetView=true.
+####Create png files of each chart within an indikatorenset
+- In Chrome, open print.html&Indikatorenset=indikatorensetname 
+- Chrome will download a png file of each chart in the given Indikatorenset to the local downloads directory. You can then manually move them to their target folder. 
+
+####Manually create svg thumbnails: 
+- For the portal view: In Chrome, open thumbnails.html
+- For the indikatorenset view: In Chrome, open thumbnails.html?view=indikatorenset
 This will download all svg files to the local downloads directory. You can then manually move them to their respective directory below /images/.
 
 

@@ -36,8 +36,7 @@ function deserialize(serializedJavascript){
 function go(){
     console.log('Starting MultiArgsFile creation...');
     var allArgs = [];
-    var views = ['indikatorenset', 'portal', 'print'];
-    //var views = [true, false];
+    var views = ['indikatorenset', 'portal'/*, 'print'*/];
     views.forEach(function(view){
         console.log('Creating MultiArgsFile entries for view=' + view);
         var files = glob.sync("metadata/single/*.json");
@@ -45,7 +44,7 @@ function go(){
             var fileContents = fs.readFileSync(filepath);
             var indikator = JSON.parse(fileContents);
             if (indikator.visible == undefined || indikator.visible){            
-                console.log('Creating MultiArgsFile entries for chart ' + indikator.id + ' indikatorensetView=' + view +'...');
+                console.log('Creating MultiArgsFile entries for chart ' + indikator.id + ' view=' + view +'...');
                 var imagePath = 'images/' + view + '/';
                 var configPath = 'charts/configs/' + view + '/';
                 //check if the chart is of type map and set 'constr' parameter accordingly 
@@ -90,7 +89,6 @@ function addSvgViewBox(console){
             var indikator = JSON.parse(fileContents);
             if (indikator.visible == undefined || indikator.visible){            
                 var path = 'images/' + view + '/';
-                //var path = (view) ? 'images/indikatorenset/' : 'images/portal/';
                 var svg = fs.readFileSync(path + indikator.id + '.svg', 'utf8');
                 //replace hardcoded height and width with hardcoded viewBox in order to make pics compatible with IE. 
                 var regex = 'width="(.*?)" height="(.*?)">';
