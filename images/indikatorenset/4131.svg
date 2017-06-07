@@ -10,12 +10,12 @@
         <path fill="none" class="highcharts-grid-line" d="M88.5 75v275m69-275v275m69-275v275"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M53 350.5h210m-210-69h210m-210-68h210m-210-69h210m-210-70h210"/>
+        <path fill="none" stroke="#B9CFD7" stroke-width=".5" class="highcharts-grid-line" d="M53 350.25h210m-210-69h210m-210-68h210m-210-69h210M53 74.75h210"/>
     </g>
     <path fill="none" class="highcharts-plot-border" d="M53 75h210v275H53z"/>
     <g class="highcharts-axis highcharts-xaxis">
         <path fill="none" class="highcharts-tick" stroke="#FFF" d="M88.5 350v10m69-10v10m69-10v10"/>
-        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M53 350.5h210"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width=".5" d="M53 350.25h210"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
         <path fill="none" class="highcharts-axis-line" d="M53 75v275"/>

@@ -21,7 +21,7 @@
     <path fill="none" class="highcharts-plot-border" d="M43 75h276v245H43z"/>
     <g class="highcharts-axis highcharts-xaxis">
         <path fill="none" class="highcharts-tick" stroke="#FFF" d="M88.5 320v10m46-10v10m46-10v10m46-10v10m46-10v10m47-10v10m-277-10v10"/>
-        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M43 320.5h276"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width=".5" d="M43 320.25h276"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
         <path fill="none" class="highcharts-axis-line" d="M43 75v245"/>

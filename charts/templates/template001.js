@@ -45,6 +45,8 @@
         "align": "left"
     },
     "xAxis": {
+        lineColor: '#B9CFD7', 
+        lineWidth: 0.5,
         "uniqueNames": true,
         "title": {
             "style": {
@@ -59,6 +61,9 @@
         "tickColor": "#FFFFFF"
     }, 
     "yAxis": {
+        gridLineColor: '#B9CFD7', 
+        gridLineWidth: 0.5,
+        lineColor: '#B9CFD7', 
         "title": {
             "style": {
                 "color": "#000000",

@@ -116,6 +116,8 @@
     "text": null
   },
   "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
     "uniqueNames": true,
     "title": {
       "style": {

@@ -28,7 +28,14 @@ Highcharts.setOptions({
         "buttons": {
             "contextButton": {
                 "text": "",
-                "menuItems": Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 7)     
+                "menuItems": Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 7),
+
+        chartOptions: {
+            chart: {
+                borderColor: 'white',
+                backgroundColor: 'white'
+            }
+        }
                 /*
                 Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 7).push({"textKey": "Test", "onclick": function(){ console.log('Test was clicked.'); }}) 
                  */           

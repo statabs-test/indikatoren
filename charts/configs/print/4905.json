@@ -251,6 +251,8 @@
   "xAxis": {
     "type": "category",
     "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
     "title": {
       "style": {
         "color": "#000000"

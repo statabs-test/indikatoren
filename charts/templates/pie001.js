@@ -19,6 +19,7 @@
     	},
     	"plotOptions": {
     		"pie": {
+    		  borderWidth: 0,
     			"allowPointSelect": true,
     			"cursor": true,
     			"showInLegend": true,

@@ -20,7 +20,7 @@
     </g>
     <path fill="none" class="highcharts-plot-border" d="M74 75h359v275H74z"/>
     <g class="highcharts-axis highcharts-xaxis">
-        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M74 350.5h359"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width=".5" d="M74 350.25h359"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
         <path fill="none" class="highcharts-axis-line" d="M74 75v275"/>
