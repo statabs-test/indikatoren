@@ -68,6 +68,13 @@
     "marginBottom": 65,
     "marginTop": 75,
     "type": "line"
+  },
+  plotOptions: 
+  {
+    series: 
+    {
+      borderWidth: 1  
+    }
   }
 	}
 }());

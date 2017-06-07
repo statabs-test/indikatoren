@@ -22,13 +22,13 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 55)" clip-path="url(#a)">
-            <path fill="#71A3B5" class="highcharts-point" stroke="#fff" d="M38.5 231.5h72v64h-72zm149-17h72v81h-72z"/>
+            <path fill="#71A3B5" class="highcharts-point" d="M39 232h72v64H39zm149-17h72v81h-72z"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 55)" clip-path="url(#a)">
-            <path fill="#8A8A8A" class="highcharts-point" stroke="#fff" d="M38.5 178.5h72v53h-72zm149 12h72v24h-72z"/>
+            <path fill="#8A8A8A" class="highcharts-point" d="M39 179h72v53H39zm149 12h72v24h-72z"/>
         </g>
         <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 55)" clip-path="url(#a)">
-            <path fill="#FFBB58" class="highcharts-point" stroke="#fff" d="M38.5-.5h72v179h-72zm149 0h72v191h-72z"/>
+            <path fill="#FFBB58" class="highcharts-point" d="M39 0h72v179H39zm149 0h72v191h-72z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">

@@ -22,10 +22,10 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 55)" clip-path="url(#a)">
-            <path fill="#71A3B5" class="highcharts-point" stroke="#fff" d="M80.5 174.5h150v121h-150z"/>
+            <path fill="#71A3B5" class="highcharts-point" d="M81 175h150v121H81z"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 55)" clip-path="url(#a)">
-            <path fill="#FFBB58" class="highcharts-point" stroke="#fff" d="M80.5-.5h150v175h-150z"/>
+            <path fill="#FFBB58" class="highcharts-point" d="M81 0h150v175H81z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">

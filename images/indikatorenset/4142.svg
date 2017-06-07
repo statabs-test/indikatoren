@@ -22,16 +22,16 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 150)" clip-path="url(#a)">
-            <path fill="#2f656b" class="highcharts-point" stroke="#fff" d="M24.5-.5h40v89h-40zm83 0h40v87h-40zm83 0h40v87h-40zm83 0h40v85h-40zm83 0h40v89h-40z"/>
+            <path fill="#2f656b" class="highcharts-point" d="M25 0h40v89H25zm83 0h40v87h-40zm83 0h40v87h-40zm83 0h40v85h-40zm83 0h40v89h-40z"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 150)" clip-path="url(#a)">
-            <path fill="#689199" class="highcharts-point" stroke="#fff" d="M24.5 88.5h40v69h-40zm83-2h40v69h-40zm83 0h40v71h-40zm83-2h40v71h-40zm83 4h40v66h-40z"/>
+            <path fill="#689199" class="highcharts-point" d="M25 89h40v69H25zm83-2h40v69h-40zm83 0h40v71h-40zm83-2h40v71h-40zm83 4h40v66h-40z"/>
         </g>
         <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 150)" clip-path="url(#a)">
-            <path fill="#923f8d" class="highcharts-point" stroke="#fff" d="M24.5 157.5h40v21h-40zm83-2h40v21h-40zm83 2h40v20h-40zm83-2h40v21h-40zm83-1h40v21h-40z"/>
+            <path fill="#923f8d" class="highcharts-point" d="M25 158h40v21H25zm83-2h40v21h-40zm83 2h40v20h-40zm83-2h40v21h-40zm83-1h40v21h-40z"/>
         </g>
         <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 150)" clip-path="url(#a)">
-            <path fill="#008ac3" class="highcharts-point" stroke="#fff" d="M24.5 178.5h40v36h-40zm83-2h40v38h-40zm83 1h40v37h-40zm83-1h40v38h-40zm83-1h40v39h-40z"/>
+            <path fill="#008ac3" class="highcharts-point" d="M25 179h40v36H25zm83-2h40v38h-40zm83 1h40v37h-40zm83-1h40v38h-40zm83-1h40v39h-40z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">

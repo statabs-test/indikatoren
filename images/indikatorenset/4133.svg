@@ -22,22 +22,22 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(65 75)" clip-path="url(#a)">
-            <path fill="#B00000" class="highcharts-point" stroke="#fff" d="M6.5 43.5h13v12h-13zm25 0h13v11h-13zm26 0h13v12h-13zm26 0h13v11h-13zm26-1h13v12h-13zm25 0h13v11h-13zm26-1h13v12h-13zm26 0h13v11h-13zm26-1h13v12h-13zm25-2h13v13h-13zm26-2h13v13h-13z"/>
+            <path fill="#B00000" class="highcharts-point" d="M7 44h13v12H7zm25 0h13v11H32zm26 0h13v12H58zm26 0h13v11H84zm26-1h13v12h-13zm25 0h13v11h-13zm26-1h13v12h-13zm26 0h13v11h-13zm26-1h13v12h-13zm25-2h13v13h-13zm26-2h13v13h-13z"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(65 75)" clip-path="url(#a)">
-            <path fill="#CD9C00" class="highcharts-point" stroke="#fff" d="M6.5 55.5h13v13h-13zm25-1h13v14h-13zm26 1h13v13h-13zm26-1h13v14h-13zm26 0h13v13h-13zm25-1h13v14h-13zm26 0h13v14h-13zm26-1h13v14h-13zm26 0h13v15h-13zm25-1h13v14h-13zm26-2h13v14h-13z"/>
+            <path fill="#CD9C00" class="highcharts-point" d="M7 56h13v13H7zm25-1h13v14H32zm26 1h13v13H58zm26-1h13v14H84zm26 0h13v13h-13zm25-1h13v14h-13zm26 0h13v14h-13zm26-1h13v14h-13zm26 0h13v15h-13zm25-1h13v14h-13zm26-2h13v14h-13z"/>
         </g>
         <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(65 75)" clip-path="url(#a)">
-            <path fill="#689199" class="highcharts-point" stroke="#fff" d="M6.5 68.5h13v37h-13zm25 0h13v37h-13zm26 0h13v37h-13zm26 0h13v37h-13zm26-1h13v38h-13zm25 0h13v38h-13zm26 0h13v38h-13zm26-1h13v39h-13zm26 1h13v39h-13zm25-2h13v40h-13zm26-2h13v40h-13z"/>
+            <path fill="#689199" class="highcharts-point" d="M7 69h13v37H7zm25 0h13v37H32zm26 0h13v37H58zm26 0h13v37H84zm26-1h13v38h-13zm25 0h13v38h-13zm26 0h13v38h-13zm26-1h13v39h-13zm26 1h13v39h-13zm25-2h13v40h-13zm26-2h13v40h-13z"/>
         </g>
         <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(65 75)" clip-path="url(#a)">
-            <path fill="#68AB2B" class="highcharts-point" stroke="#fff" d="M6.5 105.5h13v82h-13zm25 0h13v83h-13zm26 0h13v83h-13zm26 0h13v83h-13zm26 0h13v83h-13zm25 0h13v83h-13zm26 0h13v84h-13zm26 0h13v83h-13zm26 1h13v85h-13zm25-1h13v85h-13zm26-2h13v86h-13z"/>
+            <path fill="#68AB2B" class="highcharts-point" d="M7 106h13v82H7zm25 0h13v83H32zm26 0h13v83H58zm26 0h13v83H84zm26 0h13v83h-13zm25 0h13v83h-13zm26 0h13v84h-13zm26 0h13v83h-13zm26 1h13v85h-13zm25-1h13v85h-13zm26-2h13v86h-13z"/>
         </g>
         <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(65 75)" clip-path="url(#a)">
-            <path fill="#923F8D" class="highcharts-point" stroke="#fff" d="M6.5 187.5h13v53h-13zm25 1h13v52h-13zm26 0h13v52h-13zm26 0h13v53h-13zm26 0h13v53h-13zm25 0h13v53h-13zm26 1h13v52h-13zm26-1h13v53h-13zm26 3h13v52h-13zm25-1h13v52h-13zm26-1h13v53h-13z"/>
+            <path fill="#923F8D" class="highcharts-point" d="M7 188h13v53H7zm25 1h13v52H32zm26 0h13v52H58zm26 0h13v53H84zm26 0h13v53h-13zm25 0h13v53h-13zm26 1h13v52h-13zm26-1h13v53h-13zm26 3h13v52h-13zm25-1h13v52h-13zm26-1h13v53h-13z"/>
         </g>
         <g class="highcharts-series highcharts-series-5 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(65 75)" clip-path="url(#a)">
-            <path fill="#DC440E" class="highcharts-point" stroke="#fff" d="M6.5 240.5h13v25h-13zm25 0h13v25h-13zm26 0h13v25h-13zm26 1h13v24h-13zm26 0h13v24h-13zm25 0h13v24h-13zm26 0h13v24h-13zm26 0h13v24h-13zm26 2h13v22h-13zm25-1h13v23h-13zm26 0h13v23h-13z"/>
+            <path fill="#DC440E" class="highcharts-point" d="M7 241h13v25H7zm25 0h13v25H32zm26 0h13v25H58zm26 1h13v24H84zm26 0h13v24h-13zm25 0h13v24h-13zm26 0h13v24h-13zm26 0h13v24h-13zm26 2h13v22h-13zm25-1h13v23h-13zm26 0h13v23h-13z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">

@@ -65,7 +65,14 @@
     "marginBottom": 65,
     "type": "line",
     "alignTicks": false
-  }
+  },
+  plotOptions: 
+  {
+    series: 
+    {
+      borderWidth: 1  
+    }
+  }  
 	}
 }());
  

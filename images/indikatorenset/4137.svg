@@ -22,10 +22,10 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(52 100)" clip-path="url(#a)">
-            <path fill="#007a2f" class="highcharts-point" stroke="#fff" d="M12.5 175.5h17v75h-17zm34-13h17v88h-17zm35 58h17v30h-17zm35-20h17v50h-17zm34-67h17v117h-17zm35 24h17v93h-17zm34 5h17v88h-17zm35 21h17v67h-17zm35 23h17v44h-17zm34-48h17v92h-17zm35-105h17v197h-17z"/>
+            <path fill="#007a2f" class="highcharts-point" d="M13 176h17v75H13zm34-13h17v88H47zm35 58h17v30H82zm35-20h17v50h-17zm34-67h17v117h-17zm35 24h17v93h-17zm34 5h17v88h-17zm35 21h17v67h-17zm35 23h17v44h-17zm34-48h17v92h-17zm35-105h17v197h-17z"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(52 100)" clip-path="url(#a)">
-            <path fill="rgba(0, 122, 47, 0.38)" class="highcharts-point" stroke="#fff" d="M393.5 150.5h17v100h-17z"/>
+            <path fill="rgba(0, 122, 47, 0.38)" class="highcharts-point" d="M394 151h17v100h-17z"/>
         </g>
         <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="translate(52 100)" clip-path="url(#a)">
             <path fill="none" d="M332.654 175.5l34.615-10 34.616-1" class="highcharts-graph" stroke="#b00000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>

@@ -47,6 +47,7 @@
     },
     "plotOptions": {
         "series": {
+            borderWidth: 0,
             "dataLabels": {
                 "style": {
                     "fontSize": "10px"

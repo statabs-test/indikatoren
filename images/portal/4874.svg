@@ -22,19 +22,19 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 55)" clip-path="url(#a)">
-            <path fill="#007A2F" class="highcharts-point" stroke="#fff" d="M36.5 213.5h70v82h-70zm144-11h70v93h-70z"/>
+            <path fill="#007A2F" class="highcharts-point" d="M37 214h70v82H37zm144-11h70v93h-70z"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 55)" clip-path="url(#a)">
-            <path fill="#73BA7C" class="highcharts-point" stroke="#fff" d="M36.5 89.5h70v124h-70zm144-20h70v133h-70z"/>
+            <path fill="#73BA7C" class="highcharts-point" d="M37 90h70v124H37zm144-20h70v133h-70z"/>
         </g>
         <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 55)" clip-path="url(#a)">
-            <path fill="#C8C8C8" class="highcharts-point" stroke="#fff" d="M36.5 63.5h70v26h-70zm144-6h70v12h-70z"/>
+            <path fill="#C8C8C8" class="highcharts-point" d="M37 64h70v26H37zm144-6h70v12h-70z"/>
         </g>
         <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 55)" clip-path="url(#a)">
-            <path fill="#FFBB58" class="highcharts-point" stroke="#fff" d="M36.5 10.5h70v53h-70zm144-2h70v49h-70z"/>
+            <path fill="#FFBB58" class="highcharts-point" d="M37 11h70v53H37zm144-2h70v49h-70z"/>
         </g>
         <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 55)" clip-path="url(#a)">
-            <path fill="#FF8028" class="highcharts-point" stroke="#fff" d="M36.5-.5h70v11h-70zm144 0h70v9h-70z"/>
+            <path fill="#FF8028" class="highcharts-point" d="M37 0h70v11H37zm144 0h70v9h-70z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">

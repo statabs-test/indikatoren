@@ -22,10 +22,10 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="matrix(0 -1 -1 0 475 364)" clip-path="url(#a)">
-            <path fill="#256370" class="highcharts-point" stroke="#fff" d="M234.5 130.5h9v182h-9zm-36 53h9v129h-9zm-36 77h9v52h-9zm-36-87h9v139h-9zm-36-69h9v208h-9zm-36 65h9v143h-9zm-36-148h9v291h-9z"/>
+            <path fill="#256370" class="highcharts-point" d="M235 131h9v182h-9zm-36 53h9v129h-9zm-36 77h9v52h-9zm-36-87h9v139h-9zm-36-69h9v208h-9zm-36 65h9v143h-9zM19 22h9v291h-9z"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="matrix(0 -1 -1 0 475 364)" clip-path="url(#a)">
-            <path fill="#A8C4CB" class="highcharts-point" stroke="#fff" d="M223.5 146.5h9v166h-9zm-36 48h9v118h-9zm-36 59h9v59h-9zm-36-60h9v119h-9zm-36-76h9v195h-9zm-36 48h9v147h-9zm-36-146h9v293h-9z"/>
+            <path fill="#A8C4CB" class="highcharts-point" d="M224 147h9v166h-9zm-36 48h9v118h-9zm-36 59h9v59h-9zm-36-60h9v119h-9zm-36-76h9v195h-9zm-36 48h9v147h-9zM8 20h9v293H8z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">

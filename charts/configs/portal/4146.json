@@ -122,6 +122,7 @@
   },
   "plotOptions": {
     "series": {
+      "borderWidth": 1,
       "dataLabels": {
         "style": {
           "fontSize": "10px"

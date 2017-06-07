@@ -22,16 +22,16 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="matrix(0 -1 -1 0 475 364)" clip-path="url(#a)">
-            <path fill="#B00000" class="highcharts-point highcharts-color-0" stroke="#fff" d="M300.5 26.5h15v276h-15z"/>
-            <path fill="#69929B" class="highcharts-point highcharts-color-1" stroke="#fff" d="M270.5 241.5h15v61h-15z"/>
-            <path fill="#CD9C00" class="highcharts-point highcharts-color-3" stroke="#fff" d="M212.5 251.5h15v51h-15z"/>
-            <path fill="#CD9C00" class="highcharts-point highcharts-color-4" stroke="#fff" d="M182.5 93.5h15v209h-15z"/>
-            <path fill="#CD9C00" class="highcharts-point highcharts-color-5" stroke="#fff" d="M153.5 237.5h15v65h-15z"/>
-            <path fill="#CD9C00" class="highcharts-point highcharts-color-6" stroke="#fff" d="M124.5 243.5h15v59h-15z"/>
-            <path fill="#CD9C00" class="highcharts-point highcharts-color-7" stroke="#fff" d="M94.5 281.5h15v21h-15z"/>
-            <path fill="#CD9C00" class="highcharts-point highcharts-color-8" stroke="#fff" d="M65.5 243.5h15v59h-15z"/>
-            <path fill="#CD9C00" class="highcharts-point highcharts-color-9" stroke="#fff" d="M36.5 286.5h15v16h-15z"/>
-            <path fill="#CD9C00" class="highcharts-point highcharts-color-10" stroke="#fff" d="M6.5 290.5h15v12h-15z"/>
+            <path fill="#B00000" class="highcharts-point highcharts-color-0" d="M301 27h15v276h-15z"/>
+            <path fill="#69929B" class="highcharts-point highcharts-color-1" d="M271 242h15v61h-15z"/>
+            <path fill="#CD9C00" class="highcharts-point highcharts-color-3" d="M213 252h15v51h-15z"/>
+            <path fill="#CD9C00" class="highcharts-point highcharts-color-4" d="M183 94h15v209h-15z"/>
+            <path fill="#CD9C00" class="highcharts-point highcharts-color-5" d="M154 238h15v65h-15z"/>
+            <path fill="#CD9C00" class="highcharts-point highcharts-color-6" d="M125 244h15v59h-15z"/>
+            <path fill="#CD9C00" class="highcharts-point highcharts-color-7" d="M95 282h15v21H95z"/>
+            <path fill="#CD9C00" class="highcharts-point highcharts-color-8" d="M66 244h15v59H66z"/>
+            <path fill="#CD9C00" class="highcharts-point highcharts-color-9" d="M37 287h15v16H37z"/>
+            <path fill="#CD9C00" class="highcharts-point highcharts-color-10" d="M7 291h15v12H7z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
