@@ -21,6 +21,7 @@
     <link href="assets/css/indikatoren-filter.css" media="screen" rel="stylesheet" type="text/css">
     <script src="assets/js/jquery-1.11.3.min.js" type="text/javascript"></script>
     <script src="assets/js/url-min.js" type="text/javascript"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.6/proj4.js"></script>
     <script src="https://code.highcharts.com/highcharts.js" type="text/javascript"></script>
     <script src="https://code.highcharts.com/maps/modules/map.js" type="text/javascript"></script>
     <!--script src="http://code.highcharts.com/maps/highmaps.js" type="text/javascript"></script-->
@@ -95,7 +96,10 @@
               title: {
                   text: 'Highmaps BubbleMap'
               },
-
+              
+              colorAxis: {
+              },
+              
               series: [       
 
                 {
@@ -103,25 +107,23 @@
                   showInLegend: false,
                   index: 1,
                   mapData: geojson_wohnviertel,
-                  name: 'background',
+                  name: 'choropleth',
+                  //enable data and colorAxis above in order to show choropleth map below bubbles
+                  data: $.extend(true, [], data), //copy necessary since each series modified the data set
+                  joinBy: ['TXT', 0],
+                  keys: ['TXT', 'value'], //needs to be named value
                 },
                 {
                   type: 'mapbubble',
                   showInLegend: false,
                   index: 2,
-                  data: data,
+                  data: $.extend(true, [], data),
                   name: 'bubble',
                   color: "#4f6e75",
-                  borderColor: "#4f6e75",
                   mapData: geojson_wohnviertel,
-                  keys: ['TXT', 'z'],
+                  keys: ['TXT', 'z'], //needs to be named z
                   joinBy: ['TXT', 0],
-                  /*
-                  dataLabels: {
-                      enabled: true,
-                      format: '{point.value}'
-                  }
-                  */
+                  
                 },                 
                 {
                   name: "Rhein",
