@@ -231,7 +231,7 @@ var chart = Highcharts.mapChart('container', {
             headerFormat: '',
             pointFormatter: function () {
                 var hoverVotes = this.hoverVotes; // Used by pie only
-                return '<b>Wählerstimmen pro Wohnviertel:<br/>' + this.id + ' </b><br/>' +
+                return '<b>' + this.id + '</b><br/>Wählerstimmen pro Wohnviertel:<br/>' +
                     Highcharts.map([
                         ['FDP', this.demVotes, demColor],
                         ['SP', this.repVotes, repColor],
