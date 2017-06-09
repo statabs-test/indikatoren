@@ -22,10 +22,9 @@
       
     <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.6/proj4.js"></script>      
     <script src="geojson/wohnviertel_EPSG_2056.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.15/proj4.js"></script>
-    <script src="https://code.highcharts.com/highcharts.js"></script>
-    <script src="https://code.highcharts.com/maps/modules/map.js"></script>
-    <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+    <script src="assets/js/modules/highcharts/highcharts.js"></script>
+    <script src="assets/js/modules/highcharts/modules/map.js"></script>
+    <script src="assets/js/modules/highcharts/modules/exporting.js"></script>
 
     
     <div id="container"></div>
@@ -63,13 +62,10 @@ Highcharts.seriesType('mappie', 'pie', {
             chart = this.chart,
             slicingRoom = 2 * (options.slicedOffset || 0);
         if (!options.center) {
-            console.log('options.center not given, setting to empty array');
             options.center = [null, null]; // Do the default here instead
         }
         // Handle lat/lon support
-        console.log('options.center.lat given? ', options.center);
         if (options.center.lat !== undefined) {
-            console.log('options.center.lat given, calculating x from options.center');
             var point = chart.fromLatLonToPoint(options.center);
             options.center = [
                 chart.xAxis[0].toPixels(point.x, true),
@@ -98,26 +94,26 @@ Highcharts.seriesType('mappie', 'pie', {
 var data = [
         // id, demVotes, repVotes, libVotes, grnVotes, sumVotes, winner, (wohnviertelid), offset config for pies
         ['Altstadt Grossbasel', 729547, 1318255, 44467, 9391, 2101660, -1, 1],
-        ['Alaska', 116454, 163387, 18725, 5735, 304301, -1, 2],
-        ['Arizona', 1161167, 1252401, 106327, 34345, 2554240, -1, 3],
-        ['Arkansas', 380494, 684782, 29829, 9473, 1104578, -1, 4],
-        ['California', 8577206, 4390272, 467370, 271047, 13705895, 1, 5],
-        ['Colorado', 1338870, 1202484, 144121, 38437, 2723912, 1, 6],
-        ['Connecticut', 897572, 673215, 48676, 22841, 1642304, 1, 7],
-        ['Delaware', 235603, 185127, 14757, 6103, 441590, 1, 8],
-        ['District of Columbia', 282830, 12723, 4906, 4258, 304717, 1, 9],
-        ['Florida', 4504975, 4617886, 207043, 64399, 9394303, -1, 10],
-        ['Georgia', 1877963, 2089104, 125306, 0, 4092373, -1, 11],
-        ['Hawaii', 266891, 128847, 15954, 12737, 424429, 1, 12],
-        ['Idaho', 189765, 409055, 28331, 8496, 635647, -1 , 13],
-        ['Illinois', 2977498, 2118179, 208682, 74112, 5378471, 1, 14],
-        ['Indiana', 1039126, 1557286, 133993, 7841, 2738246, -1, 15],
-        ['Iowa', 653669, 800983, 59186, 11479, 1525317, -1, 16],
-        ['Kansas', 427005, 671018, 55406, 23506, 1176935, -1, 17],
-        ['Kentucky', 628854, 1202971, 53752, 13913, 1899490, -1, 18],
-        ['Louisiana', 780154, 1178638, 37978, 14031, 2010801, -1, 19],
-        ['Maine', 352156, 332418, 37578, 13995, 736147, 1, 20],
-        ['Maryland', 1502820, 878615, 78225, 33380, 2493040, 1, 30],
+        ['Vorstädte', 116454, 163387, 18725, 5735, 304301, -1, 2],
+        ['Am Ring', 1161167, 1252401, 106327, 34345, 2554240, -1, 3],
+        ['Breite', 380494, 684782, 29829, 9473, 1104578, -1, 4],
+        ['St. Alban', 8577206, 4390272, 467370, 271047, 13705895, 1, 5],
+        ['Gundeldingen', 1338870, 1202484, 144121, 38437, 2723912, 1, 6],
+        ['Bruderholz', 897572, 673215, 48676, 22841, 1642304, 1, 7],
+        ['Bachletten', 235603, 185127, 14757, 6103, 441590, 1, 8],
+        ['Gotthelf', 282830, 12723, 4906, 4258, 304717, 1, 9],
+        ['Iselin', 4504975, 4617886, 207043, 64399, 9394303, -1, 10],
+        ['St. Johann', 1877963, 2089104, 125306, 0, 4092373, -1, 11],
+        ['Altstadt Kleinbasel', 266891, 128847, 15954, 12737, 424429, 1, 12],
+        ['Clara', 189765, 409055, 28331, 8496, 635647, -1 , 13],
+        ['Wettstein', 2977498, 2118179, 208682, 74112, 5378471, 1, 14],
+        ['Hirzbrunnen', 1039126, 1557286, 133993, 7841, 2738246, -1, 15],
+        ['Rosental', 653669, 800983, 59186, 11479, 1525317, -1, 16],
+        ['Matthäus', 427005, 671018, 55406, 23506, 1176935, -1, 17],
+        ['Klybeck', 628854, 1202971, 53752, 13913, 1899490, -1, 18],
+        ['Kleinhüningen', 780154, 1178638, 37978, 14031, 2010801, -1, 19],
+        ['Riehen', 352156, 332418, 37578, 13995, 736147, 1, 20],
+        ['Bettingen', 1502820, 878615, 78225, 33380, 2493040, 1, 30],
         /*
         ['Massachusetts', 1995196, 1090893, 138018, 47661, 3271768, 1, { lon: 3 }],
         ['Michigan', 2268839, 2279543, 172136, 51463, 4771981, -1],
@@ -178,22 +174,24 @@ var chart = Highcharts.mapChart('container', {
             from: -1,
             to: 0,
             color: 'rgba(244,91,91,0.5)',
-            name: 'Republican'
+            name: 'SP' //'Republican'
         }, {
             from: 0,
             to: 1,
             color: 'rgba(124,181,236,0.5)',
-            name: 'Democrat'
+            name: 'FDP'//'Democrat'
         }, {
             from: 2,
             to: 3,
-            name: 'Libertarian',
-            color: libColor
+            color: libColor,
+            name: 'CVP'//'Libertarian',
+            
         }, {
             from: 3,
             to: 4,
-            name: 'Green',
-            color: grnColor
+            color: grnColor,
+            name: 'Grüne Partei'//'Green',
+            
         }]
     },
 
@@ -202,7 +200,7 @@ var chart = Highcharts.mapChart('container', {
     },
     // Limit zoom range
     yAxis: {
-        minRange: 2300
+        //minRange: 2300
     },
 
     tooltip: {
@@ -221,26 +219,24 @@ var chart = Highcharts.mapChart('container', {
     },
 
     series: [{
-        //mapData: Highcharts.maps['countries/us/us-all'],
         mapData: geojson_wohnviertel, 
         data: data,
-        name: 'States',
+        name: 'Wohnviertel',
         borderColor: '#FFF',
         showInLegend: true,
         //joinBy: ['name', 'id'],
         joinBy: ['TXT', 'wohnviertelid'],
-        keys: ['id', 'demVotes', 'repVotes', 'libVotes', 'grnVotes',
-            'sumVotes', 'value', 'wohnviertelid', 'pieOffset'],
+        keys: ['id', 'demVotes', 'repVotes', 'libVotes', 'grnVotes', 'sumVotes', 'value', 'wohnviertelid', 'pieOffset'],
         tooltip: {
             headerFormat: '',
             pointFormatter: function () {
                 var hoverVotes = this.hoverVotes; // Used by pie only
-                return '<b>' + this.id + ' votes</b><br/>' +
+                return '<b>Wählerstimmen pro Wohnviertel:<br/>' + this.id + ' </b><br/>' +
                     Highcharts.map([
-                        ['Democrats', this.demVotes, demColor],
-                        ['Republicans', this.repVotes, repColor],
-                        ['Libertarians', this.libVotes, libColor],
-                        ['Green', this.grnVotes, grnColor]
+                        ['FDP', this.demVotes, demColor],
+                        ['SP', this.repVotes, repColor],
+                        ['CVP', this.libVotes, libColor],
+                        ['Grüne', this.grnVotes, grnColor]
                     ].sort(function (a, b) {
                         return b[1] - a[1]; // Sort tooltip by most votes
                     }), function (line) {
@@ -274,6 +270,7 @@ var chart = Highcharts.mapChart('container', {
     }]
 });
 
+
 /*
 // When clicking legend items, also toggle connectors and pies
 Highcharts.each(chart.legend.allItems, function (item) {
@@ -283,7 +280,7 @@ Highcharts.each(chart.legend.allItems, function (item) {
         old.call(legendItem);
         Highcharts.each(chart.series[0].points, function (point) {
             if (chart.colorAxis[0].dataClasses[point.dataClass].name === legendItem.name) {
-                // Find this state's pie and set visibility
+                // Find this Wohnviertel's pie and set visibility
                 Highcharts.find(chart.series, function (item) {
                     return item.name === point.id;
                 }).setVisible(legendItem.visible, false);
@@ -301,27 +298,23 @@ Highcharts.each(chart.legend.allItems, function (item) {
 });
 */
 
+
+
 // Add the pies after chart load, optionally with offset and connectors
-Highcharts.each(chart.series[0].points, function (state) {
-    if (!state.id) {
+Highcharts.each(chart.series[0].points, function (wohnviertel) {
+    if (!wohnviertel.id) {
         return; // Skip points with no data, if any
     }
 
-    var pieOffset = state.pieOffset || {},
-        //centerLat = parseFloat(state.properties.latitude),
-        //centerLon = parseFloat(state.properties.longitude);
-        centerLat = parseFloat(state.properties.lat),
-        centerLon = parseFloat(state.properties.lon);
-        //centerLat = parseFloat(state.properties.POINT_Y),
-        //centerLon = parseFloat(state.properties.POINT_X);
-        console.log(centerLat);
-
+    var pieOffset = wohnviertel.pieOffset || {},
+        centerLat = parseFloat(wohnviertel.properties.lat),
+        centerLon = parseFloat(wohnviertel.properties.lon);
 
     var currentPieSeries = 
     {
         type: 'mappie',
-        //name: state.id,
-        name: state.wohnviertelid,
+        //name: wohnviertel.id,
+        name: wohnviertel.wohnviertelid,
         zIndex: 6, // Keep pies above connector lines
         
         sizeFormatter: function () {
@@ -330,67 +323,54 @@ Highcharts.each(chart.series[0].points, function (state) {
                     (yAxis.max - yAxis.min);
             return Math.max(
                 this.chart.chartWidth / 45 * zoomFactor, // Min size
-                this.chart.chartWidth / 11 * zoomFactor * state.sumVotes / maxVotes
+                this.chart.chartWidth / 11 * zoomFactor * wohnviertel.sumVotes / maxVotes
             );
         },
         
         tooltip: {
-            // Use the state tooltip for the pies as well
+            // Use the wohnviertel tooltip for the pies as well
             pointFormatter: function () {
-                return state.series.tooltipOptions.pointFormatter.call({
-                    id: state.id,
+                return wohnviertel.series.tooltipOptions.pointFormatter.call({
+                    id: wohnviertel.id,
                     hoverVotes: this.name,
-                    demVotes: state.demVotes,
-                    repVotes: state.repVotes,
-                    libVotes: state.libVotes,
-                    grnVotes: state.grnVotes,
-                    sumVotes: state.sumVotes
+                    demVotes: wohnviertel.demVotes,
+                    repVotes: wohnviertel.repVotes,
+                    libVotes: wohnviertel.libVotes,
+                    grnVotes: wohnviertel.grnVotes,
+                    sumVotes: wohnviertel.sumVotes
                 });
             }
         },
         data: [{
-            name: 'Democrats',
-            y: state.demVotes,
+            name: 'FDP',
+            y: wohnviertel.demVotes,
             color: demColor
         }, {
-            name: 'Republicans',
-            y: state.repVotes,
+            name: 'SP',
+            y: wohnviertel.repVotes,
             color: repColor
         }, {
-            name: 'Libertarians',
-            y: state.libVotes,
+            name: 'CVP',
+            y: wohnviertel.libVotes,
             color: libColor
         }, {
-            name: 'Green',
-            y: state.grnVotes,
+            name: 'Grüne',
+            y: wohnviertel.grnVotes,
             color: grnColor
         }],
-        /*
+
         center: {
             lat: centerLat + (pieOffset.lat || 0),
             lon: centerLon + (pieOffset.lon || 0)
         }
-        */
-        center:  //chart.fromLatLonToPoint(
-            {
-                lat: centerLat + (pieOffset.lat || 0),
-                lon: centerLon + (pieOffset.lon || 0)
-            }
-        //)
     }
     ;
     
-    //manually project lat long: see http://api.highcharts.com/highmaps/Chart.transformFromLatLon
-    //transform = Highcharts.maps['countries/gb/gb-all']['hc-transform']['gb-all-shetland'];
-    var transform = geojson_wohnviertel["hc-transform"].default;
-    var position = chart.transformFromLatLon({ lat: centerLat, lon: centerLon}, transform);
-    console.log('manually projected: ', position);
-    console.log('auto projected:     ', currentPieSeries.center);
-    // Add the pie for this state
+    // Add the pie for this wohnviertel
     chart.addSeries(currentPieSeries, false);
     
     /*
-    // Draw connector to state center if the pie has been offset
+    // Draw connector to wohnviertel center if the pie has been offset
     if (pieOffset.drawConnector !== false) {
         var centerPoint = chart.fromLatLonToPoint({
                 lat: centerLat,
@@ -401,7 +381,7 @@ Highcharts.each(chart.series[0].points, function (state) {
                 lon: centerLon + (pieOffset.lon || 0)
             });
         chart.series[1].addPoint({
-            name: state.id,
+            name: wohnviertel.id,
             path: 'M' + offsetPoint.x + ' ' + offsetPoint.y +
                 'L' + centerPoint.x + ' ' + centerPoint.y
         }, false);
@@ -415,9 +395,6 @@ Highcharts.each(chart.series[0].points, function (state) {
 chart.redraw();
     
 
-    
-    
-    
 </script>
 
 </body>
