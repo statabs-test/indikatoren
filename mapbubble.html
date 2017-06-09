@@ -62,15 +62,15 @@
         // Prepare random data
         var data = 
           [
-            ["1",1.2138485362,1  ],
-            ["2",2.2202354509,2  ],
-            ["3",3.2311086597,3  ],
-            ["4",4.2454837319,4  ],
-            ["5",5.2516611296,5  ],
-            ["6",6.2526315789,6  ],
-            ["7",7.2762753983,7  ],
-            ["8",8.3090779383,8  ],
-            ["9",9.3103859199,9  ],
+            ["1",1.2138485362,10  ],
+            ["2",2.2202354509,20  ],
+            ["3",3.2311086597,13  ],
+            ["4",4.2454837319,24  ],
+            ["5",5.2516611296,15  ],
+            ["6",6.2526315789,26  ],
+            ["7",7.2762753983,17  ],
+            ["8",8.3090779383,28  ],
+            ["9",9.3103859199,19  ],
             ["10",10.3244801085,10  ],
             ["11",11.33959782,11  ],
             ["12",12.3585215606,12  ],
@@ -82,26 +82,88 @@
             ["18",18.4638868206,18  ],
             ["19",29.5114395251,19  ],
             ["20",20.5177860184,20  ],
-            ["30",21.5493277175,30  ]
+            ["30",1.2,30  ]
           ];
 
+  
+
         var rheinData = Highcharts.geojson(geojson_rhein, 'map');
+
+        //not necessary since definitioon is included in geojson file, see https://www.highcharts.com/docs/maps/latlon
+        //proj4.defs("EPSG:2056","+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs");
+        //proj4.defs("ESRI:54009","+proj=moll +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs");
 
         //console.log(JSON.stringify(data));
         //$.getJSON('https://www.highcharts.com/samples/data/jsonp.php?filename=germany.geo.json&callback=?', function (geojson) {
           //console.log(JSON.stringify(geojson));
           // Initiate the chart
           $('#container').highcharts('Map', {
-
-              title: {
-                  text: 'Highmaps BubbleMap'
+              chart: {
+                "borderColor": "#fbfbfb",
+                "backgroundColor": "#fbfbfb",
+                "width": 485,
+                "height": 415,
+                "spacingBottom": 45,
+                "style": {
+                    "fontFamily": "Arial"
+                },
+                "type": "map",
               },
-              
+              "title": {
+                  "style": {
+                      "fontSize": "14px",
+                      "fontWeight": "bold",
+                      "fontFamily": "Arial",
+                      "color": "#000000"
+                  },        
+                  "align": "left"
+              },
+              "subtitle": {
+                  "style": {
+                      "fontSize": "12px",
+                      "fontWeight": "normal",
+                      "fontFamily": "Arial",
+                      "color": "#000000"
+                  },
+                  "text": "",
+                  "align": "left"
+              },
+              "credits": {
+                  "enabled": true,
+                  "style": {
+                      "color": "#000000",
+                      "fontSize": "10px",
+                      "cursor": "default"
+                  },
+                  "position": {
+                      "align": "left",
+                      "verticalAlign": "bottom",
+                      "x": 10
+                  }
+              },
+              "mapNavigation": {
+                  "enabled": true,
+                  "buttonOptions": {
+                      "align": "left",
+                      "verticalAlign": 'bottom'
+                  }
+              },
+              /*
               colorAxis: {
               },
-              
+              */
+              "legend": {
+            		"enabled": true, 
+                    "align": "right",
+                    "floating": true,
+                    "title": {
+                        "style": {
+                            "fontWeight": "normal", 
+                            "fontSize": "11px"
+                        }
+                    }
+            	},              
               series: [       
-
                 {
                   type: 'map',
                   showInLegend: false,
@@ -109,7 +171,7 @@
                   mapData: geojson_wohnviertel,
                   name: 'choropleth',
                   //enable data and colorAxis above in order to show choropleth map below bubbles
-                  data: $.extend(true, [], data), //copy necessary since each series modified the data set
+                  //data: $.extend(true, [], data), //copy necessary since each series modified the data set
                   joinBy: ['TXT', 0],
                   keys: ['TXT', 'value'], //needs to be named value
                 },
@@ -123,8 +185,43 @@
                   mapData: geojson_wohnviertel,
                   keys: ['TXT', 'z'], //needs to be named z
                   joinBy: ['TXT', 0],
-                  
-                },                 
+                  minSize: 8,
+                  maxSize: 40,
+                  zMin: 1, 
+                  zMax: 50
+                },       
+                {
+                	type: 'mapbubble',
+                	name: 'Legend',
+                	showInLegend: false,
+                  minSize: 8,
+                  maxSize: 40,
+                  zMin: 1, 
+                  zMax: 50,
+                  dataLabels: {
+                    enabled: true,
+                    align: 'right', 
+                    y: 10
+                  },
+                	data: [
+                	  {
+                	    name: '30',
+                      //x: 601664.6214171989,
+                      //y:-5614659.403824114,
+                      lat: 47.55, 
+                	    lon:  7.670464,
+                	    z: 30
+                	  }, 
+                  	{
+                	    name: '1',
+                      //x: 601664.6214171989,
+                      //y:-5614659.403824114,
+                	    //lat:  47.55108693,
+                	    lat:  47.55,
+                	    lon:  7.670464,
+                	    z: 1
+                  	}]	
+                }, 
                 {
                   name: "Rhein",
                   showInLegend: false,
