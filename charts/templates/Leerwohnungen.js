@@ -38,8 +38,8 @@
 		      	x: 0, y: 2
 		      },
 		      {
-		      	//2nd series: use x values from column 3
-		      	x: 0, y: 3
+		      	//2nd series: use y values from column 3
+		      	y: 3
 		      }
 		    ]
         },
@@ -49,8 +49,8 @@
 				"animation": true,
 				"mapData": geojson_wohnviertel,
 				"borderColor": "#fbfbfb",		
-				"joinBy": ['TXT', 'WV_ID'],
-				"keys": ['WV_ID', 'value'],
+				"joinBy": ['TXT', 'Wohnviertel_Id'],
+				"keys": ['Wohnviertel_Id', 'value'],
 				"states": {
 					"hover": {
 						"enabled": false,
@@ -83,6 +83,14 @@
 	            	
 	                var chart = this;
 	                
+	                // Compute max votes to find relative sizes of bubbles
+	                var maxNumber = 0;
+	                
+					Highcharts.each(chart.series[1].points, function (wohnviertel) {
+					    maxNumber = Math.max(maxNumber, wohnviertel.value);
+					});
+					
+	                
 	                /*
 	                // When clicking legend items, also toggle connectors and pies
 	                Highcharts.each(chart.legend.allItems, function (item) {
@@ -110,35 +118,35 @@
 	                });
 	                */
 	                
-	                console.log(chart.series[0].points);
-	                
 	                // Add the pies after chart load, optionally with offset and connectors
-	                Highcharts.each(chart.series[0].points, function (wohnviertel) {
-	                    if (!wohnviertel.id) {
+	                // series[0] contains the choropleth map data, series[1] the pie chart data
+	                Highcharts.each(chart.series[1].points, function (data) {
+	                    if (!data.value) {
 	                        return; // Skip points with no data, if any
 	                    }
-	                
-	                    var pieOffset = wohnviertel.pieOffset || {},
-	                        centerLat = parseFloat(wohnviertel.properties.lat),
-	                        centerLon = parseFloat(wohnviertel.properties.lon);
+
+	                	var wohnviertelSeries = chart.series[0].points[data.index];
+	                	
+	                    var pieOffset = wohnviertelSeries.pieOffset || {},
+	                        centerLat = parseFloat(wohnviertelSeries.properties.lat),
+	                        centerLon = parseFloat(wohnviertelSeries.properties.lon);
 	                
 	                    var currentPieSeries = 
 	                    {
 	                        type: 'mappie',
-	                        //name: wohnviertel.id,
-	                        name: 'Pie-' + wohnviertel.wohnviertelid,
+	                        //name: data.id,
+	                        name: 'Pie-' + data.Wohnviertel_Id,
 	                        zIndex: 6, // Keep pies above connector lines
 	                        borderWidth: 0,
 	                        sizeFormatter: function () {
 	                            var yAxis = this.chart.yAxis[0],
-	                                zoomFactor = (yAxis.dataMax - yAxis.dataMin) /
-	                                    (yAxis.max - yAxis.min);
-	                            return Math.max(
-	                                this.chart.chartWidth / 45 * zoomFactor, // Min size
-	                                this.chart.chartWidth / 11 * zoomFactor * wohnviertel.value / maxVotes
-	                            );
+	                                zoomFactor = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
+								var minSize = this.chart.chartWidth / 45 * zoomFactor;
+								var maxSize = this.chart.chartWidth / 11 * zoomFactor * data.value / maxNumber; 
+
+	                            return Math.max(minSize, maxSize);
 	                        },
-	                        
+	                        /*
 	                        tooltip: {
 	                            // Use the wohnviertel tooltip for the pies as well
 	                            pointFormatter: function () {
@@ -153,22 +161,23 @@
 	                                });
 	                            }
 	                        },
+	                        */
 	                        data: [{
 	                            name: 'FDP',
-	                            y: wohnviertel.demVotes,
-	                            color: demColor
+	                            y: 1, //wohnviertel.demVotes,
+	                            color: 'red'
 	                        }, {
 	                            name: 'SP',
-	                            y: wohnviertel.repVotes,
-	                            color: repColor
+	                            y: 2, //wohnviertel.repVotes,
+	                            color: 'blue'
 	                        }, {
 	                            name: 'CVP',
-	                            y: wohnviertel.libVotes,
-	                            color: libColor
+	                            y: 3, //wohnviertel.libVotes,
+	                            color: 'green'
 	                        }, {
 	                            name: 'Grüne',
-	                            y: wohnviertel.grnVotes,
-	                            color: grnColor
+	                            y: 4, //wohnviertel.grnVotes,
+	                            color: 'yellow'
 	                        }],
 	                
 	                        center: {
@@ -177,6 +186,7 @@
 	                        }
 	                    }
 	                    ;
+	                    
 	                    
 	                    // Add the pie for this wohnviertel
 	                    chart.addSeries(currentPieSeries, false);
