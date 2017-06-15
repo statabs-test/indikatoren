@@ -3,6 +3,12 @@
 	global geojson_wohnviertel
 */
 (function(){
+	
+	
+	
+	
+	
+	
     return {
 		"colorAxis": {
 			//"min": undefined,
@@ -80,7 +86,7 @@
 	            load: function (e) {
 	            	
 	            	this.credits.element.onclick = function() {};
-	            	
+
 	                var chart = this;
 	                
 	                // Compute max votes to find relative sizes of bubbles

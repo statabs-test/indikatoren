@@ -54,6 +54,7 @@ Highcharts.getOptions().exporting.buttons.contextButton.menuItems.push(
         }
     });
     
+
     
 //define new chart type
 // source: https://www.highcharts.com/blog/data-journalism/effectively-visualizing-us-election-results/, 
@@ -109,3 +110,5 @@ Highcharts.seriesType('mappie', 'pie', {
         return Highcharts.seriesTypes.pie.prototype.translate.call(this, p);
     }
 });
+
+
