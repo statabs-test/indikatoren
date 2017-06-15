@@ -1,0 +1,114 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h416v257H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M59 92h416v257H59z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M82.5 92v257m41-257v257m41-257v257m41-257v257m41-257v257m40-257v257m41-257v257m41-257v257m41-257v257m41-257v257"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M59 349.5h416m-416-64h416m-416-64h416m-416-65h416m-416-65h416"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M59 92h416v257H59z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M59 349.5h416"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M59 92v257"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(59 92)" clip-path="url(#a)">
+            <path fill="#71a3b5" class="highcharts-point" stroke="#fff" d="M16.5 47.5h15v82h-15zm40-10h15v92h-15zm41 5h15v87h-15zm41-1h15v88h-15zm41-5h15v93h-15zm41 1h15v92h-15zm41-6h15v98h-15zm41 11h15v87h-15zm41-5h15v92h-15zm40-2h15v94h-15z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(59 92)" clip-path="url(#a)">
+            <path fill="#b00000" class="highcharts-point highcharts-negative" stroke="#fff" d="M16.5 129.5h15v77h-15zm40 0h15v77h-15zm41 0h15v75h-15zm41 0h15v85h-15zm41 0h15v81h-15zm41 0h15v79h-15zm41 0h15v85h-15zm41 0h15v81h-15zm41 0h15v87h-15zm40 0h15v89h-15z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="translate(59 92)" clip-path="url(#a)">
+            <path fill="none" d="M24.11 124.908l40.864-9.476 40.865 2.364 40.864 9.014 40.865-9.027 40.864-.45 40.865-1.034 40.864 7.106 40.865.52 40.864.212" class="highcharts-graph" stroke="#000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M14.11 124.908h10l40.864-9.476 40.865 2.364 40.864 9.014 40.865-9.027 40.864-.45 40.865-1.034 40.864 7.106 40.865.52 40.864.212h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-2 highcharts-line-series highcharts-color-undefined highcharts-tracker">
+            <path d="M87 217a4 4 0 1 1 0-.004zm40-10a4 4 0 1 1 0-.004zm41 3a4 4 0 1 1 0-.004zm41 9a4 4 0 1 1 0-.004zm41-9a4 4 0 1 1 0-.004zm41-1a4 4 0 1 1 0-.004zm41-1a4 4 0 1 1 0-.004zm41 7a4 4 0 1 1 0-.004zm41 1a4 4 0 1 1 0-.004zm40 0a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>Wanderungssaldo</tspan>
+    </text>
+    <g class="highcharts-legend" transform="translate(50 50)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="293" height="30"/>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-2">
+            <path fill="none" d="M8 14h16" class="highcharts-graph" stroke="#000" stroke-width="2"/>
+            <path d="M20 14a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
+                Wanderungssaldo
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(145.672 3)">
+                Zuzug
+            </text>
+            <path fill="#71a3b5" class="highcharts-point" d="M147.672 7h12v12h-12z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(220.016 3)">
+                Wegzug
+            </text>
+            <path fill="#b00000" class="highcharts-point" d="M222.016 7h12v12h-12z"/>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="83.11" y="368">
+            2007
+        </text>
+        <text x="123.974" y="368">
+            2008
+        </text>
+        <text x="164.839" y="368">
+            2009
+        </text>
+        <text x="205.703" y="368">
+            2010
+        </text>
+        <text x="246.568" y="368">
+            2011
+        </text>
+        <text x="287.432" y="368">
+            2012
+        </text>
+        <text x="328.297" y="368">
+            2013
+        </text>
+        <text x="369.161" y="368">
+            2014
+        </text>
+        <text x="410.026" y="368">
+            2015
+        </text>
+        <text x="450.89" y="368">
+            2016
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="44" y="354">
+            <tspan>-20000</tspan>
+        </text>
+        <text x="44" y="289">
+            <tspan>-10000</tspan>
+        </text>
+        <text x="44" y="225">
+            <tspan>0</tspan>
+        </text>
+        <text x="44" y="161">
+            <tspan>10000</tspan>
+        </text>
+        <text x="44" y="97">
+            <tspan>20000</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="410" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle:</tspan>
+    </text>
+</svg>

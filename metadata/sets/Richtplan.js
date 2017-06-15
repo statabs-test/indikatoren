@@ -282,7 +282,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Über 90% der Befragten sind mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden. Dieser Wert ist seit 2005 jeweils leicht angestiegen.",
 		"erlaeuterungen": "",
-		"template": "befragungen001",
+		"template": "line001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
@@ -291,44 +291,6 @@ var indikatorensetData = [
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_7"
-		],
-		"externalLinks": [
-			""
-		]
-	},
-	{
-		"title": "Anteil übermässig mit Lärm belasteter Einwohner",
-		"subtitle": "",
-		"kuerzel": "I.02.5.05820",
-		"kuerzelKunde": "ST 5-2",
-		"description": "Anteil übermässig mit Lärm belasteter Einwohner",
-		"id": 5820,
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Luftschadstoffe",
-		"kennzahlenset": "Richtplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Lärm"
-		],
-		"stufe1": "Strategie 5",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Anteil der Einwohner, welche an ihrem Wohnort in der Nacht einer Lärmbelastung von über 50 dB (A) ausgesetzt sind, betrug 2010 knapp 24%. Bei 14% der Einwohner wurde der Tagesgrenzwert überschritten, bei 16% der Grenzwert in der Nacht.",
-		"erlaeuterungen": "",
-		"template": "bar001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": false,
-		"parentId": 5061,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster"
 		],
 		"externalLinks": [
 			""
@@ -358,7 +320,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. Im Durchschnitt vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton eine 7,7.",
 		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt.",
-		"template": "bar001",
+		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
