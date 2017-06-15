@@ -20,7 +20,6 @@
     "labels": {
       "format": "{value:,.0f}"
     },
-	"max": undefined
   },
   "legend": {
     "enabled": true,
@@ -47,8 +46,8 @@
   },
   "tooltip": {
   "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
-  "footerFormat": 'Total: <b>{point.total}</b>',
+   "footerFormat": 'Total:: <b>{point.total}</b>',
    "shared": true,
   },
-};
+}
 }());

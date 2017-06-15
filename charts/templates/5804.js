@@ -22,10 +22,6 @@
     },
 	"max": undefined
   },
-  "tooltip": {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
-    "shared": false
-  },  
   "legend": {
     "enabled": true,
     "layout": "horizontal",
@@ -48,6 +44,11 @@
     "marginTop": 75,
     "type": "column",
     "inverted": false
-  }
+  },
+  "tooltip": {
+  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
+  "footerFormat": 'Total: <b>{point.total}</b>',
+   "shared": true
+  },
 }
 }());
