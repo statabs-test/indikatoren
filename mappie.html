@@ -223,7 +223,7 @@ var chart = Highcharts.mapChart('container', {
                                     (yAxis.max - yAxis.min);
                             return Math.max(
                                 this.chart.chartWidth / 45 * zoomFactor, // Min size
-                                this.chart.chartWidth / 11 * zoomFactor * wohnviertel.sumVotes / maxVotes
+                                this.chart.chartWidth / 11 * zoomFactor * wohnviertel.value / maxVotes
                             );
                         },
                         
@@ -237,7 +237,7 @@ var chart = Highcharts.mapChart('container', {
                                     repVotes: wohnviertel.repVotes,
                                     libVotes: wohnviertel.libVotes,
                                     grnVotes: wohnviertel.grnVotes,
-                                    sumVotes: wohnviertel.sumVotes
+                                    sumVotes: wohnviertel.value
                                 });
                             }
                         },
@@ -297,7 +297,9 @@ var chart = Highcharts.mapChart('container', {
         }
     },
     
+    
     colorAxis: {
+        /*
         dataClasses: [{
             from: -1,
             to: 0,
@@ -319,10 +321,12 @@ var chart = Highcharts.mapChart('container', {
             to: 4,
             color: grnColor,
             name: 'Grüne Partei'//'Green',
-            
         }]
+        */
     },
-
+    
+    legend: {},
+    
     mapNavigation: {
         enabled: true
     },
@@ -352,9 +356,10 @@ var chart = Highcharts.mapChart('container', {
         name: 'Wohnviertel',
         borderColor: '#FFF',
         showInLegend: true,
+        showCheckbox: true, 
         //joinBy: ['name', 'id'],
         joinBy: ['TXT', 'wohnviertelid'],
-        keys: ['id', 'demVotes', 'repVotes', 'libVotes', 'grnVotes', 'sumVotes', 'value', 'wohnviertelid', 'pieOffset'],
+        keys: ['id', 'demVotes', 'repVotes', 'libVotes', 'grnVotes', 'value', 'winner', 'wohnviertelid', 'pieOffset'],
         tooltip: {
             headerFormat: '',
             pointFormatter: function () {
@@ -381,14 +386,7 @@ var chart = Highcharts.mapChart('container', {
                     '<hr/>Total: ' + Highcharts.numberFormat(this.sumVotes, 0);
             }
         }
-    }, /*{
-        name: 'Separators',
-        type: 'mapline',
-        data: Highcharts.geojson(Highcharts.maps['countries/us/us-all'], 'mapline'),
-        color: '#707070',
-        showInLegend: false,
-        enableMouseTracking: false
-    }, */{
+    }, {
         name: 'Connectors',
         type: 'mapline',
         color: 'rgba(130, 130, 130, 0.5)',

@@ -1,0 +1,212 @@
+/*  global rheinData
+	global Highcharts
+	global geojson_wohnviertel
+*/
+(function(){
+    return {
+		"colorAxis": {
+			//"min": undefined,
+			"minColor": "#eff6e9",
+			"maxColor": "#4b7b1f",
+			"labels": {
+				"formatter": function () {
+					return Highcharts.numberFormat((this.value),1); 
+				}
+			}
+		},
+        "tooltip": {
+            "formatter": function(args){
+        		if (this.series.data[this.point.x].name === undefined) {
+        		    //Rhein
+        			return '<span style="color:' + this.color + ';">\u25CF </span><span>' + this.series.name + '</span>';
+        		}
+                else {
+                    //Wohnviertel
+                    var this_point_index = this.series.data.indexOf(this.point);
+                    var other_series_index = this.series.index == 0 ? 1 : 0; // assuming 2 series
+                    var other_series = args.chart.series[other_series_index];
+                    var other_point = other_series.data[this_point_index];
+                    return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
+                        this.point.name +': <b>' + Highcharts.numberFormat((this.point.value),3) + '</b><br/>' + 
+                        'Rang <b>' + other_point.value + '</b>';
+                }
+            }
+        },
+        "data": {
+		    "seriesMapping": [
+		      {
+		      	x: 0, y: 2
+		      },
+		      {
+		      	//2nd series: use x values from column 3
+		      	x: 0, y: 3
+		      }
+		    ]
+        },
+		"series": [
+			{
+				"name": "Wohnviertel", 
+				"animation": true,
+				"mapData": geojson_wohnviertel,
+				"borderColor": "#fbfbfb",		
+				"joinBy": ['TXT', 'WV_ID'],
+				"keys": ['WV_ID', 'value'],
+				"states": {
+					"hover": {
+						"enabled": false,
+						"borderColor": '#BADA55',
+						"brightness": 0
+					}
+				}
+			}, 
+			{
+				"visible": false
+			}
+		],
+		/* series with fixed data that should be added to the series object after merging with csv data */
+		/*
+		"afterSeries": [
+			{
+				"name": "Rhein",
+				"animation": true,
+				"data": rheinData, 
+				"color": "#008AC3",    
+				"borderColor": "#fbfbfb"
+			}
+		]
+		*/
+		chart: {
+			events: {
+	            load: function (e) {
+	            	
+	            	this.credits.element.onclick = function() {};
+	            	
+	                var chart = this;
+	                
+	                /*
+	                // When clicking legend items, also toggle connectors and pies
+	                Highcharts.each(chart.legend.allItems, function (item) {
+	                    var old = item.setVisible;
+	                    item.setVisible = function () {
+	                        var legendItem = this;
+	                        old.call(legendItem);
+	                        Highcharts.each(chart.series[0].points, function (point) {
+	                            if (chart.colorAxis[0].dataClasses[point.dataClass].name === legendItem.name) {
+	                                // Find this Wohnviertel's pie and set visibility
+	                                Highcharts.find(chart.series, function (item) {
+	                                    return item.name === point.id;
+	                                }).setVisible(legendItem.visible, false);
+	                                // Do the same for the connector point if it exists
+	                                var connector = Highcharts.find(chart.series[1].points, function (item) {
+	                                    return item.name === point.id;
+	                                });
+	                                if (connector) {
+	                                    connector.setVisible(legendItem.visible, false);
+	                                }
+	                            }
+	                        });
+	                        chart.redraw();
+	                    };
+	                });
+	                */
+	                
+	                console.log(chart.series[0].points);
+	                
+	                // Add the pies after chart load, optionally with offset and connectors
+	                Highcharts.each(chart.series[0].points, function (wohnviertel) {
+	                    if (!wohnviertel.id) {
+	                        return; // Skip points with no data, if any
+	                    }
+	                
+	                    var pieOffset = wohnviertel.pieOffset || {},
+	                        centerLat = parseFloat(wohnviertel.properties.lat),
+	                        centerLon = parseFloat(wohnviertel.properties.lon);
+	                
+	                    var currentPieSeries = 
+	                    {
+	                        type: 'mappie',
+	                        //name: wohnviertel.id,
+	                        name: 'Pie-' + wohnviertel.wohnviertelid,
+	                        zIndex: 6, // Keep pies above connector lines
+	                        borderWidth: 0,
+	                        sizeFormatter: function () {
+	                            var yAxis = this.chart.yAxis[0],
+	                                zoomFactor = (yAxis.dataMax - yAxis.dataMin) /
+	                                    (yAxis.max - yAxis.min);
+	                            return Math.max(
+	                                this.chart.chartWidth / 45 * zoomFactor, // Min size
+	                                this.chart.chartWidth / 11 * zoomFactor * wohnviertel.value / maxVotes
+	                            );
+	                        },
+	                        
+	                        tooltip: {
+	                            // Use the wohnviertel tooltip for the pies as well
+	                            pointFormatter: function () {
+	                                return wohnviertel.series.tooltipOptions.pointFormatter.call({
+	                                    id: wohnviertel.id,
+	                                    hoverVotes: this.name,
+	                                    demVotes: wohnviertel.demVotes,
+	                                    repVotes: wohnviertel.repVotes,
+	                                    libVotes: wohnviertel.libVotes,
+	                                    grnVotes: wohnviertel.grnVotes,
+	                                    sumVotes: wohnviertel.value
+	                                });
+	                            }
+	                        },
+	                        data: [{
+	                            name: 'FDP',
+	                            y: wohnviertel.demVotes,
+	                            color: demColor
+	                        }, {
+	                            name: 'SP',
+	                            y: wohnviertel.repVotes,
+	                            color: repColor
+	                        }, {
+	                            name: 'CVP',
+	                            y: wohnviertel.libVotes,
+	                            color: libColor
+	                        }, {
+	                            name: 'Grüne',
+	                            y: wohnviertel.grnVotes,
+	                            color: grnColor
+	                        }],
+	                
+	                        center: {
+	                            lat: centerLat + (pieOffset.lat || 0),
+	                            lon: centerLon + (pieOffset.lon || 0)
+	                        }
+	                    }
+	                    ;
+	                    
+	                    // Add the pie for this wohnviertel
+	                    chart.addSeries(currentPieSeries, false);
+	                    
+	                    /*
+	                    // Draw connector to wohnviertel center if the pie has been offset
+	                    if (pieOffset.drawConnector !== false) {
+	                        var centerPoint = chart.fromLatLonToPoint({
+	                                lat: centerLat,
+	                                lon: centerLon
+	                            }),
+	                            offsetPoint = chart.fromLatLonToPoint({
+	                                lat: centerLat + (pieOffset.lat || 0),
+	                                lon: centerLon + (pieOffset.lon || 0)
+	                            });
+	                        chart.series[1].addPoint({
+	                            name: wohnviertel.id,
+	                            path: 'M' + offsetPoint.x + ' ' + offsetPoint.y +
+	                                'L' + centerPoint.x + ' ' + centerPoint.y
+	                        }, false);
+	                    }
+	                    */
+	                    
+	                    //console.log(chart.series[chart.series.length-1]);
+	                    
+	                });
+	                // Only redraw once all pies and connectors have been added
+	                chart.redraw();
+	            }
+			}
+		}
+	};
+}());
