@@ -18,4 +18,4 @@ var geojson_rhein =
     ]
 };
 
-var rheinData = Highcharts.geojson(geojson_rhein, 'map');
+var rheinDataEPSG2056 = Highcharts.geojson(geojson_rhein, 'map');
