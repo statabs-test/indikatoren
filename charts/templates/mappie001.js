@@ -10,7 +10,7 @@
                 "fontFamily": "Arial"
             },
             "type": "map",
-    		"inverted": true
+    		"inverted": false
         },
         "title": {
             "style": {

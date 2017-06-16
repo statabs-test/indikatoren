@@ -87,7 +87,71 @@
 	            	
 	            	this.credits.element.onclick = function() {};
 
+
 	                var chart = this;
+
+
+					    
+					//define new chart type
+					// source: https://www.highcharts.com/blog/data-journalism/effectively-visualizing-us-election-results/, 
+					//  which displays  http://jsfiddle.net/gh/get/library/pure/highcharts/highcharts/tree/master/samples/maps/demo/map-pies/
+					
+					    
+					// New map-pie series type that also allows lat/lon as center option.
+					// Also adds a sizeFormatter option to the series, to allow dynamic sizing
+					// of the pies.
+					Highcharts.seriesType('mappie', 'pie', {
+					    center: null, // Can't be array by default anymore
+					    clip: true, // For map navigation
+					    states: {
+					        hover: {
+					            halo: {
+					                size: 5
+					            }
+					        }
+					    },
+					    dataLabels: {
+					        enabled: false
+					    }
+					    
+					}, {
+					    getCenter: function () {
+					        var options = this.options,
+					            chart = this.chart,
+					            slicingRoom = 2 * (options.slicedOffset || 0);
+					        if (!options.center) {
+					            options.center = [null, null]; // Do the default here instead
+					        }
+					        // Handle lat/lon support
+					        if (options.center.lat !== undefined) {
+					            var point = chart.fromLatLonToPoint(options.center);
+					            options.center = [
+					                chart.xAxis[0].toPixels(point.x, true),
+					                chart.yAxis[0].toPixels(point.y, true)
+					            ];
+					        }
+					        // Handle dynamic size
+					        if (options.sizeFormatter) {
+					            options.size = options.sizeFormatter.call(this);
+					        }
+					        // Call parent function
+					        var result = Highcharts.seriesTypes.pie.prototype.getCenter.call(this);
+					        // Must correct for slicing room to get exact pixel pos
+					        result[0] -= slicingRoom;
+					        result[1] -= slicingRoom;
+					        return result;
+					    },
+					    translate: function (p) {
+					        this.options.center = this.userOptions.center;
+					        this.center = this.getCenter();
+					        return Highcharts.seriesTypes.pie.prototype.translate.call(this, p);
+					    }
+					});
+					
+					
+
+
+
 	                
 	                // Compute max votes to find relative sizes of bubbles
 	                var maxNumber = 0;
@@ -141,9 +205,10 @@
 	                    {
 	                        type: 'mappie',
 	                        //name: data.id,
-	                        name: 'Pie-' + data.Wohnviertel_Id,
+	                        name: 'Pie-' + wohnviertelSeries.Wohnviertel_Id,
 	                        zIndex: 6, // Keep pies above connector lines
-	                        borderWidth: 0,
+	                        borderWidth: 1,
+	                        borderColor: 'grey',
 	                        sizeFormatter: function () {
 	                            var yAxis = this.chart.yAxis[0],
 	                                zoomFactor = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
@@ -168,6 +233,14 @@
 	                            }
 	                        },
 	                        */
+	                        data: [
+	                        	{
+	                        		name: chart.series[1].name,
+	                        		y: data.value,
+	                        		color: 'grey'
+	                        	}
+	                        ],
+	                        /*
 	                        data: [{
 	                            name: 'FDP',
 	                            y: 1, //wohnviertel.demVotes,
@@ -185,7 +258,7 @@
 	                            y: 4, //wohnviertel.grnVotes,
 	                            color: 'yellow'
 	                        }],
-	                
+	                		*/
 	                        center: {
 	                            lat: centerLat + (pieOffset.lat || 0),
 	                            lon: centerLon + (pieOffset.lon || 0)
