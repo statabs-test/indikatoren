@@ -45,7 +45,10 @@ function go(){
         files.forEach(function(filepath){
             var fileContents = fs.readFileSync(filepath);
             var indikator = JSON.parse(fileContents);
-            if (indikator.visible == undefined || indikator.visible){            
+            //for the moment we exclude charts of type mappie todo: fix svg creation of mappie
+            //var mappie = (fileContents.indexOf('mappie') > 0);
+            var mappie = false;
+            if ((indikator.visible == undefined || indikator.visible) && !mappie) {            
                 console.log('Creating MultiArgsFile entries for chart ' + indikator.id + ' indikatorensetView=' + view +'...');
                 var imagePath = (view) ? 'images/indikatorenset/' : 'images/portal/';
                 var configPath = (view) ? 'charts/configs/indikatorenset/' : 'charts/configs/portal/';
@@ -84,7 +87,9 @@ function addSvgViewBox(console){
         files.forEach(function(filepath){
             var fileContents = fs.readFileSync(filepath);
             var indikator = JSON.parse(fileContents);
-            if (indikator.visible == undefined || indikator.visible){            
+            //for the moment we exclude charts of type mappie todo: fix svg creation of mappie
+            var mappie = (fileContents.indexOf('mappie') > 0);
+            if ((indikator.visible == undefined || indikator.visible) && !mappie) {                  
                 var path = (view) ? 'images/indikatorenset/' : 'images/portal/';
                 var svg = fs.readFileSync(path + indikator.id + '.svg', 'utf8');
                 //replace hardcoded height and width with hardcoded viewBox in order to make pics compatible with IE. 
