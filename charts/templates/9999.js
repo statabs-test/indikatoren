@@ -262,7 +262,10 @@
 	                        center: {
 	                            lat: centerLat + (pieOffset.lat || 0),
 	                            lon: centerLon + (pieOffset.lon || 0)
-	                        }
+	                        }, 
+	                        dataLabels: {
+						        enabled: false
+						    }
 	                    }
 	                    ;
 	                    
