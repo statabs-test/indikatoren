@@ -21,10 +21,10 @@
 <body style="margin: 0;">
       
     <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.6/proj4.js"></script>      
-    <script src="geojson/wohnviertel_EPSG_2056.js"></script>
     <script src="assets/js/modules/highcharts/highcharts.js"></script>
     <script src="assets/js/modules/highcharts/modules/map.js"></script>
     <script src="assets/js/modules/highcharts/modules/exporting.js"></script>
+    <script src="geojson/wohnviertel_EPSG_2056.js"></script>    
 
     
     <div id="container"></div>
@@ -351,7 +351,7 @@ var chart = Highcharts.mapChart('container', {
     },
 
     series: [{
-        mapData: geojson_wohnviertel, 
+        mapData: geojson_wohnviertelEPSG2056, 
         data: data,
         name: 'Wohnviertel',
         borderColor: '#FFF',
