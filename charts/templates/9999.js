@@ -1,14 +1,9 @@
-/*  global rheinData
+/*  global rheinDataEPSG2056
 	global Highcharts
-	global geojson_wohnviertel
+	global geojson_wohnviertelEPSG2056
 */
 (function(){
-	
-	
-	
-	
-	
-	
+
     return {
 		"colorAxis": {
 			//"min": undefined,
@@ -20,24 +15,6 @@
 				}
 			}
 		},
-        "tooltip": {
-            "formatter": function(args){
-        		if (this.series.data[this.point.x].name === undefined) {
-        		    //Rhein
-        			return '<span style="color:' + this.color + ';">\u25CF </span><span>' + this.series.name + '</span>';
-        		}
-                else {
-                    //Wohnviertel
-                    var this_point_index = this.series.data.indexOf(this.point);
-                    var other_series_index = this.series.index == 0 ? 1 : 0; // assuming 2 series
-                    var other_series = args.chart.series[other_series_index];
-                    var other_point = other_series.data[this_point_index];
-                    return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-                        this.point.name +': <b>' + Highcharts.numberFormat((this.point.value),3) + '</b><br/>' + 
-                        'Rang <b>' + other_point.value + '</b>';
-                }
-            }
-        },
         "data": {
 		    "seriesMapping": [
 		      {
@@ -62,6 +39,12 @@
 						"enabled": false,
 						"borderColor": '#BADA55',
 						"brightness": 0
+					}
+				}, 
+				tooltip: {
+					pointFormatter: function(){
+						//console.log(this);
+						return this.properties.LIBGEO +': <b>' + this.value + '</b><br/>';
 					}
 				}
 			}, 
@@ -149,9 +132,6 @@
 					
 					
 
-
-
-	                
 	                // Compute max votes to find relative sizes of bubbles
 	                var maxNumber = 0;
 	                
@@ -195,17 +175,19 @@
 	                    }
 
 	                	var wohnviertelSeries = chart.series[0].points[data.index];
-	                	console.log(data);
 	                	
 	                    var pieOffset = wohnviertelSeries.pieOffset || {},
 	                        centerLat = parseFloat(wohnviertelSeries.properties.lat),
 	                        centerLon = parseFloat(wohnviertelSeries.properties.lon);
-	                
+	                	
+
 	                    var currentPieSeries = 
 	                    {
 	                        type: 'mappie',
 	                        //name: data.id,
-	                        name: data.series.name +' ' + data["hc-key"],
+	                        name: data.series.name,
+	                        wohnviertel_Name: data["hc-key"],
+	                        wohnviertel_Id : wohnviertelSeries.wohnviertel_Id,
 	                        zIndex: 6, // Keep pies above connector lines
 	                        borderWidth: 1,
 	                        borderColor: 'grey',
@@ -218,17 +200,10 @@
 	                            return Math.max(minSize, maxSize);
 	                        },
 	                        tooltip: {
-	                        	enabled: false
-	                        	/*
-	                            // Use the wohnviertel tooltip for the pies as well
+	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {series.name} </span><br/>',
 	                            pointFormatter: function () {
-	                                return wohnviertelSeries.series.tooltipOptions.pointFormatter.call({
-	                                    id: wohnviertelSeries.id,
-	                                    hoverVotes: this.name,
-	                                    sumVotes: wohnviertelSeries.value
-	                                });
+	                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + this.y + '</b><br/>';
 	                            }
-	                            */
 	                        },
 	                        data: [
 	                        	{
