@@ -70,7 +70,7 @@
 			}
 		],
 		/* series with fixed data that should be added to the series object after merging with csv data */
-		/*
+		
 		"afterSeries": [
 			{
 				"name": "Rhein",
@@ -79,8 +79,7 @@
 				"color": "#008AC3",    
 				"borderColor": "#fbfbfb"
 			}
-		]
-		*/
+		],
 		chart: {
 			events: {
 	            load: function (e) {
@@ -196,6 +195,7 @@
 	                    }
 
 	                	var wohnviertelSeries = chart.series[0].points[data.index];
+	                	console.log(data);
 	                	
 	                    var pieOffset = wohnviertelSeries.pieOffset || {},
 	                        centerLat = parseFloat(wohnviertelSeries.properties.lat),
@@ -205,7 +205,7 @@
 	                    {
 	                        type: 'mappie',
 	                        //name: data.id,
-	                        name: 'Pie-' + wohnviertelSeries.Wohnviertel_Id,
+	                        name: data.series.name +' ' + data["hc-key"],
 	                        zIndex: 6, // Keep pies above connector lines
 	                        borderWidth: 1,
 	                        borderColor: 'grey',
@@ -217,22 +217,19 @@
 
 	                            return Math.max(minSize, maxSize);
 	                        },
-	                        /*
 	                        tooltip: {
+	                        	enabled: false
+	                        	/*
 	                            // Use the wohnviertel tooltip for the pies as well
 	                            pointFormatter: function () {
-	                                return wohnviertel.series.tooltipOptions.pointFormatter.call({
-	                                    id: wohnviertel.id,
+	                                return wohnviertelSeries.series.tooltipOptions.pointFormatter.call({
+	                                    id: wohnviertelSeries.id,
 	                                    hoverVotes: this.name,
-	                                    demVotes: wohnviertel.demVotes,
-	                                    repVotes: wohnviertel.repVotes,
-	                                    libVotes: wohnviertel.libVotes,
-	                                    grnVotes: wohnviertel.grnVotes,
-	                                    sumVotes: wohnviertel.value
+	                                    sumVotes: wohnviertelSeries.value
 	                                });
 	                            }
+	                            */
 	                        },
-	                        */
 	                        data: [
 	                        	{
 	                        		name: chart.series[1].name,

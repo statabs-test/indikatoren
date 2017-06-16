@@ -72,7 +72,7 @@
                     "fontSize": "11px"
                 }
             }
-    	},
+    	}/*,
         "tooltip": {
             "formatter": function(args){
         		if (this.series.data[this.point.x].name === undefined) {
@@ -90,7 +90,7 @@
                         'Rang <b>' + other_point.value + '</b>';
                 }
             }
-        }
+        }*/
     };
     }()
 );

@@ -46,8 +46,7 @@ function go(){
             var fileContents = fs.readFileSync(filepath);
             var indikator = JSON.parse(fileContents);
             //for the moment we exclude charts of type mappie todo: fix svg creation of mappie
-            //var mappie = (fileContents.indexOf('mappie') > 0);
-            var mappie = false;
+            var mappie = (fileContents.indexOf('mappie') > 0);
             if ((indikator.visible == undefined || indikator.visible) && !mappie) {            
                 console.log('Creating MultiArgsFile entries for chart ' + indikator.id + ' indikatorensetView=' + view +'...');
                 var imagePath = (view) ? 'images/indikatorenset/' : 'images/portal/';
