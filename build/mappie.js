@@ -1,12 +1,3 @@
-/home/ubuntu/workspace/node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs /home/ubuntu/workspace/build/highcharts-convert.js -infile /home/ubuntu/workspace/charts/configs/portal/4127.json -outfile /home/ubuntu/workspace/images/portal/4127.svg -multi true -multiArgsFile /home/ubuntu/workspace/build/convertArgs.json
-
-/home/ubuntu/workspace/node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs /home/ubuntu/workspace/build/highcharts-convert.js -infile /home/ubuntu/workspace/charts/configs/portal/9999.json -outfile /home/ubuntu/workspace/images/portal/9999.svg -customcode /home/ubuntu/workspace/build/mappie2.js
-
-
-					Highcharts.seriesType('mappie', 'pie', {}, {});
-					
-					
-					
 
 
 					// New map-pie series type that also allows lat/lon as center option.
@@ -59,4 +50,4 @@
 					        return Highcharts.seriesTypes.pie.prototype.translate.call(this, p);
 					    }
 					});
-										
+					
