@@ -10,19 +10,19 @@
         <path fill="none" class="highcharts-grid-line" d="M269.5 75v265m205-265v265M64.5 75v265"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M65 340.5h410m-410-53h410m-410-53h410m-410-53h410m-410-53h410m-410-54h410"/>
+        <path fill="none" stroke="#B9CFD7" stroke-width=".5" class="highcharts-grid-line" d="M65 340.25h410m-410-53h410m-410-53h410m-410-53h410m-410-53h410M65 74.75h410"/>
     </g>
     <path fill="none" class="highcharts-plot-border" d="M65 75h410v265H65z"/>
     <g class="highcharts-axis highcharts-xaxis">
         <path fill="none" class="highcharts-tick" stroke="#FFF" d="M269.5 340v10m206-10v10m-411-10v10"/>
-        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M65 340.5h410"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width=".5" d="M65 340.25h410"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
         <path fill="none" class="highcharts-axis-line" d="M65 75v265"/>
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(65 75)" clip-path="url(#a)">
-            <path fill="#2f656b" class="highcharts-point" stroke="#fff" d="M94.5 41.5h15v224h-15zm205-7h15v231h-15z"/>
+            <path fill="#2f656b" class="highcharts-point" d="M95 42h15v224H95zm205-7h15v231h-15z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">

@@ -10,20 +10,20 @@
         <path fill="none" class="highcharts-grid-line" d="M62.5 75v275m35-275v275m36-275v275m35-275v275m36-275v275m35-275v275m36-275v275m35-275v275m36-275v275m35-275v275m36-275v275m35-275v275"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M41 350.5h434m-434-46h434m-434-46h434m-434-45h434m-434-46h434m-434-46h434m-434-47h434"/>
+        <path fill="none" stroke="#B9CFD7" stroke-width=".5" class="highcharts-grid-line" d="M41 350.25h434m-434-46h434m-434-46h434m-434-45h434m-434-46h434m-434-46h434M41 74.75h434"/>
     </g>
     <path fill="none" class="highcharts-plot-border" d="M41 75h434v275H41z"/>
     <g class="highcharts-axis highcharts-xaxis">
         <path fill="none" class="highcharts-tick" stroke="#FFF" d="M62.5 350v10m35-10v10m36-10v10m35-10v10m36-10v10m35-10v10m36-10v10m35-10v10m36-10v10m35-10v10m36-10v10m35-10v10"/>
-        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M41 350.5h434"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width=".5" d="M41 350.25h434"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
         <path fill="none" class="highcharts-axis-line" d="M41 75v275"/>
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(41 75)" clip-path="url(#a)">
-            <path fill="#008AC3" class="highcharts-point highcharts-negative" stroke="#fff" d="M12.5 138.5h18v88h-18zm36 0h18v113h-18zm35 0h18v119h-18zm36 0h18v121h-18zm35 0h18v39h-18zm36 0h18v10h-18zm35 0h18v22h-18z"/>
-            <path fill="#008AC3" class="highcharts-point" stroke="#fff" d="M261.5 95.5h18v43h-18zm35-30h18v73h-18zm36 29h18v44h-18zm35-77h18v121h-18zm36 10h18v111h-18z"/>
+            <path fill="#008AC3" class="highcharts-point highcharts-negative" d="M13 139h18v88H13zm36 0h18v113H49zm35 0h18v119H84zm36 0h18v121h-18zm35 0h18v39h-18zm36 0h18v10h-18zm35 0h18v22h-18z"/>
+            <path fill="#008AC3" class="highcharts-point" d="M262 96h18v43h-18zm35-30h18v73h-18zm36 29h18v44h-18zm35-77h18v121h-18zm36 10h18v111h-18z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">

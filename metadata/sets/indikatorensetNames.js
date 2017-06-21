@@ -3,5 +3,6 @@ var indikatorensetNames = [
 	"Integration kompakt",
 	"Gesellschaftlicher Zusammenhalt",
 	"Wohnviertel",
-	"Richtplan"
+	"Richtplan",
+	"Test"
 ];

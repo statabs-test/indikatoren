@@ -251,6 +251,8 @@
   "xAxis": {
     "type": "category",
     "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
     "title": {
       "style": {
         "color": "#000000"
@@ -287,6 +289,7 @@
   },
   "plotOptions": {
     "series": {
+      "borderWidth": 0,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -316,6 +319,8 @@
   },
   "yAxis": [
     {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
       "tickAmount": 5,
       "title": {
         "style": {
@@ -333,6 +338,8 @@
       "reversedStacks": false
     },
     {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
       "tickAmount": 5,
       "min": 0,
       "title": {

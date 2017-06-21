@@ -1,0 +1,141 @@
+{
+  "series": [
+    {
+      "marker": {
+        "symbol": "circle",
+        "enabled": true
+      },
+      "index": 0,
+      "color": "#B375AB",
+      "data": [
+        [
+          2010,
+          160312
+        ],
+        [
+          2011,
+          161634
+        ],
+        [
+          2012,
+          162668
+        ],
+        [
+          2013,
+          164219
+        ],
+        [
+          2014,
+          165160
+        ],
+        [
+          2015,
+          165796
+        ]
+      ],
+      "name": "Einwohner mit Hauptwohnsitz über 18 Jahre"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "forExport": true,
+    "renderTo": "container-4148"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": null
+  },
+  "tooltip": {
+    "shared": false
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "max": 175000
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": " "
+  },
+  "legend": {
+    "enabled": false,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "symbolRadius": 0
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "enabled": true,
+        "formatter": function () {
+		    var first = this.series.data[0];
+			var last  = this.series.data[this.series.data.length - 1];
+		    if (this.point.y === first.y || this.point.y === last.y ) {
+			  return Highcharts.numberFormat(this.point.y, 0, ",", " ");
+			}
+			return "";
+          }
+      }
+    }
+  },
+  "exporting": {
+    "filename": "I.01.1.0025"
+  }
+}
