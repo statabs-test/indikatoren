@@ -43,7 +43,9 @@ function go(){
         files.forEach(function(filepath){
             var fileContents = fs.readFileSync(filepath);
             var indikator = JSON.parse(fileContents);
-            if (indikator.visible == undefined || indikator.visible){            
+            //for the moment we exclude charts of type mappie todo: fix svg creation of mappie
+            var mappie = (fileContents.indexOf('mappie') > 0);
+            if ((indikator.visible == undefined || indikator.visible) && !mappie) {                  
                 console.log('Creating MultiArgsFile entries for chart ' + indikator.id + ' view=' + view +'...');
                 var imagePath = 'images/' + view + '/';
                 var configPath = 'charts/configs/' + view + '/';
