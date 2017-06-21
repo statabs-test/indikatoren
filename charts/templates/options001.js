@@ -61,3 +61,13 @@ Highcharts.getOptions().exporting.buttons.contextButton.menuItems.push(
         }
     });
     
+
+
+
+
+					    
+//define new chart type, necessary contents are added later on in the chart's template
+Highcharts.seriesType('mappie', 'pie', {}, {});
+					
+					
+
