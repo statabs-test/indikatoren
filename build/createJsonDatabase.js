@@ -1,6 +1,7 @@
 var fs = require("fs");
 var glob = require("glob");
 var indikatoren = [];
+var indikatorenInSet = [];
 var kuerzelById = {};
 var idByKuerzel = {};
 var templatesById = {};
@@ -15,11 +16,13 @@ files.forEach(function(filepath){
     if (indikator.visible == undefined || indikator.visible == true) {
         console.log(filepath + ' is visible, proceeding with adding...');
         if (indikator.visibleInPortal == undefined || indikator.visibleInPortal == true) {
-            console.log(filepath + ' is visibleInPortal, proceeding with adding to indikatoren.js...');
-            indikatoren.push(indikator);            
+            console.log(filepath + ' is visibleInPortal, proceeding with adding to portal/indikatoren.js and all/indikatoren.js...');
+            indikatoren.push(indikator);
+            indikatorenInSet.push(indikator);
         }
         else {
-            console.log(filepath + ' is NOT visibleInPortal, ignoring for indikatoren.js');
+            console.log(filepath + ' is NOT visibleInPortal, ignoring for portal/indikatoren.js but adding to all/indikatoren.js');
+            indikatorenInSet.push(indikator);
         } 
         kuerzelById[indikator.id] = indikator.kuerzel;
         idByKuerzel[indikator.kuerzel] = indikator.id.toString();
@@ -31,6 +34,7 @@ files.forEach(function(filepath){
 });
 console.log('Saving json database...');
 saveToJsonFile('indikatoren', 'portal/', indikatoren, console);
+saveToJsonFile('indikatoren', 'all/', indikatorenInSet, console);
 saveToJsonFile('kuerzelById', 'all/', kuerzelById, console);
 saveToJsonFile('idByKuerzel', 'all/',idByKuerzel, console);
 saveToJsonFile('templatesById', 'all/',templatesById, console);

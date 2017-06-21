@@ -6,7 +6,7 @@
 "id":9999,
 "thema":"11 Verkehr",
 "unterthema":"Motorfahrzeuge",
-"kennzahlenset":"",
+"kennzahlenset":"Test",
 "raeumlicheGliederung":["Wohnviertel","Gemeinde"],
 "aktualisierungsdatum":"",
 "schlagwort":["Haushalt","Familie","Quote","Auto"],
@@ -23,6 +23,6 @@
 "visibleInPortal":false,
 "parentId":4918,
 "children":[],
-"renderLink":["4918"],
+"renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"]
 }

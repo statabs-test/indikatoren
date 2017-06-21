@@ -2,7 +2,7 @@
 
 	<head>
 		<script src="assets/js/jquery-1.11.3.min.js" type="text/javascript"></script>
-		<script src="metadata/portal/indikatoren.js" type="text/javascript"></script>		
+		<script src="metadata/all/indikatoren.js" type="text/javascript"></script>		
 		<script src="assets/js/url-min.js" type="text/javascript"></script>
 		<script src="metadata/sets/indikatorensetNames.js" type="text/javascript"></script>
 		<!-- http://stackoverflow.com/questions/4856746/hide-horizontal-scrollbar-on-an-iframe -->
@@ -35,8 +35,14 @@
 			*/
 			$(document).ready(function(){
 				var indikatorenset = window.decodeURIComponent($.url('?Indikatorenset'));
+				console.log(indikatorenset);
 				if (indikatorensetNames.indexOf(indikatorenset) > -1){
+					console.log('Set exists.');
 					$.each(indikatoren, function(index, item){
+						console.log('Checking chart ' + item.id);
+						console.log("item.kennzahlenset == indikatorenset");
+						console.log(item.kennzahlenset + "==" +  indikatorenset);
+						console.log(item.kennzahlenset == indikatorenset);
 						if (item.kennzahlenset == indikatorenset){
 							$('<iframe/>', {
 								src: 'chart.html?id=' + item.id + '&thumbnailOfflineExporting=true&thumbnailType=png&view=print',
