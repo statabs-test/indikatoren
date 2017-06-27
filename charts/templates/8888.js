@@ -35,11 +35,11 @@
         "enabled": true
       }    
     }, /* lila */
-  	{"color": "#a0bec8",
+  	{"color": "#007a2f",
       "marker": {
         "enabled": true
       }    
-    }/* hellblau  */
+    }/* grün  */
   ],
   "legend": {
     "enabled": true,
