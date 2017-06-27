@@ -5508,7 +5508,7 @@ var indikatoren = [
 		"kuerzel": "I.03.2.05891",
 		"kuerzelKunde": "ST 8-1",
 		"description": "Externe und interne Erreichbarkeit",
-		"id": 8888,
+		"id": 5891,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Richtplan",
