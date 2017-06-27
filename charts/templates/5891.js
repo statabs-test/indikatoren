@@ -30,11 +30,11 @@
         "enabled": true
       }    
     }, /* violett */
-	{"color": "#9a86a6",
+	{"color": "#4f81bd",
       "marker": {
         "enabled": true
       }    
-    }, /* lila */
+    }, /* blau */
   	{"color": "#007a2f",
       "marker": {
         "enabled": true

@@ -374,46 +374,5 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		]
-	},
-	{
-		"title": "Externe und interne Erreichbarkeit",
-		"subtitle": "Stadt Basel im nationalen Vergleich",
-		"kuerzel": "I.03.2.05891",
-		"kuerzelKunde": "ST 8-1",
-		"description": "Externe und interne Erreichbarkeit",
-		"id": 8888,
-		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
-		"kennzahlenset": "Richtplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2017-06-23T16:07:34.3434",
-		"schlagwort": [
-			"EuroAirport",
-			"Auto",
-			"Standort",
-			"Kantonsvergleich"
-		],
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die kontinentale Erreichbarkeit der Stadt Basel hat sich zwischen 2000 und 2014 verbessert. Die Entwicklung bei den anderen Schweizer Städte verläuft im gleichen Zeitraum identisch. Die Stadt Zürich bewegt sich auf einem höheren Niveau als Basel und Genf, die Stadt Bern liegt darunter. Die Entwicklung bei der globalen Erreichbarkeit verläuft bei allen Städten parallel und über die Jahre auf gleichbleibendem Niveau. Basel bewegt sich auch bei diesem indikator zusammen mit Genf wiederum zwischen dem Level von Zürich und Bern.",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
-		"parentId": 3104,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"BAK Basel Economics"
-		],
-		"externalLinks": [
-			""
-		]
 	}
 ];
