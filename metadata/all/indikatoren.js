@@ -5209,6 +5209,45 @@ var indikatoren = [
 		]
 	},
 	{
+		"title": "Bevölkerungsdichte",
+		"subtitle": "nach Wohnviertel",
+		"kuerzel": "I.01.1.05202",
+		"kuerzelKunde": "ST 1-2",
+		"description": "Bevölkerungsdichte",
+		"id": 5202,
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur ",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2017-06-26T13:34:57.5757",
+		"schlagwort": [
+			"Bevölkerung",
+			"Wohnen"
+		],
+		"stufe1": "Strategie 1",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "map001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5863"
+		],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Wegpendler nach Ziel",
 		"subtitle": "",
 		"kuerzel": "I.11.5.05203",
@@ -5319,6 +5358,46 @@ var indikatoren = [
 	{
 		"title": "Bevölkerung am Jahresende",
 		"subtitle": "",
+		"kuerzel": "I.01.1.05809",
+		"kuerzelKunde": "ST 4-2",
+		"description": "Bevölkerung am Jahresende",
+		"id": 5809,
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur ",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Bevölkerung"
+		],
+		"stufe1": "Schwerpunkt 5: Urbane Standortqualität",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Ausländeranteil liegt seit zehn Jahren bei rund einem Drittel.",
+		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister.",
+		"template": "bar001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"parentId": 2265,
+		"children": [
+			"5870"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Bevölkerung am Jahresende",
+		"subtitle": "",
 		"kuerzel": "I.01.1.05810",
 		"kuerzelKunde": "ST 4-1",
 		"description": "Bevölkerung am Jahresende",
@@ -5385,6 +5464,44 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"parentId": null,
 		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Leerwohnungsquote",
+		"subtitle": "",
+		"kuerzel": "I.09.1.05813",
+		"kuerzelKunde": "ST 4-4",
+		"description": "Leerwohnungsquote",
+		"id": 5813,
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-06-26T16:51:11.1111",
+		"schlagwort": [
+			"Wohnung"
+		],
+		"stufe1": "Strategie 4",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5873"
+		],
 		"renderLink": [],
 		"quellenangabe": [],
 		"externalLinks": [
@@ -5468,6 +5585,82 @@ var indikatoren = [
 		]
 	},
 	{
+		"title": "Nettowohnungsproduktion",
+		"subtitle": "nach Wohnviertel",
+		"kuerzel": "I.09.1.05817",
+		"kuerzelKunde": "ST 4-8",
+		"description": "Nettowohnungsproduktion",
+		"id": 5817,
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2017-06-22T11:48:21.2121",
+		"schlagwort": [
+			"Wohnung"
+		],
+		"stufe1": "Strategie 4",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "bar001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5877"
+		],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Bruttogeschossfläche Wohnen",
+		"subtitle": "",
+		"kuerzel": "I.09.1.05818",
+		"kuerzelKunde": "ST 4-9",
+		"description": "Bruttogeschossfläche Wohnen",
+		"id": 5818,
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Wohnung"
+		],
+		"stufe1": "Strategie 4",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "bar001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5878"
+		],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
 		"subtitle": "«Wie zufrieden sind Sie mit den Grünanlagen und Parks in Ihrem Wohnort?»",
 		"kuerzel": "I.50.1.05819",
@@ -5500,6 +5693,47 @@ var indikatoren = [
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_7"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Anteil übermässig mit Lärm belasteter Einwohner",
+		"subtitle": "",
+		"kuerzel": "I.02.5.05820",
+		"kuerzelKunde": "ST 5-2",
+		"description": "Anteil übermässig mit Lärm belasteter Einwohner",
+		"id": 5820,
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Luftschadstoffe",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-06-22T11:57:46.4646",
+		"schlagwort": [
+			"Bevölkerung",
+			"Umwelt"
+		],
+		"stufe1": "Strategie 5",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Anteil der Einwohner, welche an ihrem Wohnort in der Nacht einer Lärmbelastung von über 50 dB (A) ausgesetzt sind, betrug 2010 knapp 24%. Bei 14% der Einwohner wurde der Tagesgrenzwert überschritten, bei 16% der Grenzwert in der Nacht.",
+		"erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche einer Lärmbelastung über dem Immissionsgrenzwert gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Die in der LSV festgehaltenen Immissionsgrenzwerte drücken das Mass an Lärmbelastung aus, das zirka 75% der Bevölkerung erträgt, ohne sich erheblich gestört zu fühlen. Wohngebiete sind gemäss Lärmempfindlichkeitsstufenplan den Stufen II (Wohnzonen) und III (Wohn-/Gewerbezonen) mit unterschiedlichen Immissionsgrenzwerten zugeteilt: ES II: 60 dB (A) Tag, 50 dB (A) Nacht, ES III: 65 dB (A) Tag, 55 dB (A) Nacht; dB (A) ist die übliche Masseinheit zur Messung von Lärmstärke.",
+		"template": "bar001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"parentId": 5061,
+		"children": [
+			"5880"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster"
 		],
 		"externalLinks": [
 			""
@@ -5539,6 +5773,281 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
 		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Anteil Einwohner pro ÖV-Güteklasse",
+		"subtitle": "",
+		"kuerzel": "I.11.2.05822",
+		"kuerzelKunde": "ST 6-1",
+		"description": "Anteil Einwohner pro ÖV-Güteklasse",
+		"id": 5822,
+		"thema": "11 Verkehr",
+		"unterthema": "Öffentlicher Verkehr",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-06-26T14:00:15.1515",
+		"schlagwort": [
+			"ÖV"
+		],
+		"stufe1": "Strategie 6",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "pie001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5882"
+		],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Beschäftigtendichte",
+		"subtitle": "",
+		"kuerzel": "I.03.2.05823",
+		"kuerzelKunde": "ST 7-1",
+		"description": "Beschäftigtendichte",
+		"id": 5823,
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Beschäftigte ",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-06-26T14:38:43.4343",
+		"schlagwort": [
+			"Beschäftigte"
+		],
+		"stufe1": "Strategie 7",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5883"
+		],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Beschäftigtendichte",
+		"subtitle": "nach Wohnviertel",
+		"kuerzel": "I.03.2.05824",
+		"kuerzelKunde": "ST 7-2",
+		"description": "Beschäftigtendichte",
+		"id": 5824,
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Beschäftigte ",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2017-06-26T15:16:28.2828",
+		"schlagwort": [
+			"Beschäftigte"
+		],
+		"stufe1": "Strategie 7",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "map001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5884"
+		],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Bruttogeschossfläche Industrie und Gewerbe",
+		"subtitle": "",
+		"kuerzel": "I.09.1.05825",
+		"kuerzelKunde": "ST 7-3",
+		"description": "Bruttogeschossfläche Industrie und Gewerbe",
+		"id": 5825,
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-06-26T16:03:00.000",
+		"schlagwort": [
+			"Gebäude"
+		],
+		"stufe1": "Strategie 7",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "bar001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5885"
+		],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Anzahl privater Personenwagen pro Haushalt",
+		"subtitle": "",
+		"kuerzel": "I.11.1.05828",
+		"kuerzelKunde": "ST 11-1",
+		"description": "Anzahl privater Personenwagen pro Haushalt",
+		"id": 5828,
+		"thema": "11 Verkehr",
+		"unterthema": "Motorfahrzeuge",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2017-06-26T16:08:39.3939",
+		"schlagwort": [
+			"Personenwagen"
+		],
+		"stufe1": "Strategie 11",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5887"
+		],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Anzahl privater Personenwagen pro Haushalt",
+		"subtitle": "",
+		"kuerzel": "I.11.1.05829",
+		"kuerzelKunde": "ST 11-2",
+		"description": "Anzahl privater Personenwagen pro Haushalt",
+		"id": 5829,
+		"thema": "11 Verkehr",
+		"unterthema": "Motorfahrzeuge",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Wohnviertel",
+			"Gemeinde"
+		],
+		"aktualisierungsdatum": "2017-06-26T16:19:02.022",
+		"schlagwort": [
+			"Haushalt",
+			"Familie",
+			"Quote",
+			"Auto"
+		],
+		"stufe1": "Strategie 11",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "In den beiden Landgemeinden besitzen die Haushalte im Schnitt am meisten Personenwagen, in der Kleinbasler Altstadt am wenigsten.",
+		"erlaeuterungen": "",
+		"template": "map001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": 4918,
+		"children": [
+			"5888"
+		],
+		"renderLink": [
+			"4918"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Geförderte Trinkwassermenge",
+		"subtitle": "im Vergleich mit der potenziellen Maximalmenge",
+		"kuerzel": "I.02.4.05831",
+		"kuerzelKunde": "ST 12-1",
+		"description": "Geförderte Trinkwassermenge",
+		"id": 5831,
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Wasserversorgung und Wasserverbrauch",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-06-26T12:47:28.2828",
+		"schlagwort": [
+			"Umwelt",
+			"Wasser"
+		],
+		"stufe1": "Strategie 12",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5890"
+		],
+		"renderLink": [],
+		"quellenangabe": [],
 		"externalLinks": [
 			""
 		]
@@ -5615,7 +6124,7 @@ var indikatoren = [
 		"template": "mappie001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"parentId": 4918,
 		"children": [],
 		"renderLink": [],

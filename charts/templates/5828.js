@@ -1,12 +1,12 @@
 (function(){
     return {
    "yAxis": {
-    "labels": {
-      "format": "{value:,.0f}",
+      "labels": {
+      "format": "{value:,.2f}",
     }
   },
   "xAxis": {
-	"tickInterval": 2,
+	  "tickInterval": 2
   },
   "series": [
     {
@@ -18,7 +18,7 @@
     }
   ],
   "tooltip": {
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
+	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.2f}</b><br/>',
     "shared": false
   },
   "plotOptions": {
@@ -32,15 +32,12 @@
             var last = this.series.data[this.series.data.length - 1];
             var first = this.series.data[0];
             if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {
-              return Highcharts.numberFormat(this.point.y, 0, ",", " ");
+              return Highcharts.numberFormat(this.point.y, 2, ",", " ");
             }
             return "";
           }
       }
-    },
-    
-    
+    }
   }
 }
 }());
-
