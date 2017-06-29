@@ -40,7 +40,7 @@ rimraf.sync('charts/configs/portal/*');
 rimraf.sync('charts/configs/print/*');
 
 //var views = [true, false];
-var views = ['indikatorenset', 'portal', 'print'];
+var views = ['indikatorenset', 'portal'/*, 'print'*/];
 views.forEach(function(view){
     console.log('Starting creation of chart config for view=' + view);
     
@@ -112,10 +112,10 @@ function saveChartConfig(indikator, view, console){
     var csv = (fs.readFileSync('data/' + indikator.id + '.tsv', 'utf8'));
     
     var result = execute('charts/templates/' + indikator.id + '.js', {Highcharts: Highcharts, geojson_wohnviertel: geojson_wohnviertel, geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056, rheinData: rheinData, rheinDataEPSG2056: rheinDataEPSG2056, console: console});
-    var options = result.result;
+    var options = (result.result || {} );
 
     //disable animations and prevent exceptions
-    options.chart = (options.chart || {});
+    options.chart = (options["chart"] || {});
     options.chart.forExport = true;
     
     result = execute('charts/templates/' + indikator.template + '.js', {Highcharts: Highcharts, geojson_wohnviertel: geojson_wohnviertel, geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056, rheinData: rheinData, rheinDataEPSG2056: rheinDataEPSG2056, console: console});
