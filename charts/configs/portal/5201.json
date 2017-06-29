@@ -1,0 +1,353 @@
+{
+  "series": [
+    {
+      "data": [
+        [
+          1997,
+          194253
+        ],
+        [
+          1998,
+          192121
+        ],
+        [
+          1999,
+          190141
+        ],
+        [
+          2000,
+          188581
+        ],
+        [
+          2001,
+          187459
+        ],
+        [
+          2002,
+          188015
+        ],
+        [
+          2003,
+          188213
+        ],
+        [
+          2004,
+          188477
+        ],
+        [
+          2005,
+          187920
+        ],
+        [
+          2006,
+          187792
+        ],
+        [
+          2007,
+          188000
+        ],
+        [
+          2008,
+          189556
+        ],
+        [
+          2009,
+          190815
+        ],
+        [
+          2010,
+          190799
+        ],
+        [
+          2011,
+          192076
+        ],
+        [
+          2012,
+          193459
+        ],
+        [
+          2013,
+          195459
+        ],
+        [
+          2014,
+          196471
+        ],
+        [
+          2015,
+          197204
+        ],
+        [
+          2016,
+          198206
+        ]
+      ],
+      "name": "Einwohner"
+    },
+    {
+      "data": [
+        [
+          1997,
+          52.56175403
+        ],
+        [
+          1998,
+          51.98486894
+        ],
+        [
+          1999,
+          51.44911261
+        ],
+        [
+          2000,
+          51.02700157
+        ],
+        [
+          2001,
+          50.72340632
+        ],
+        [
+          2002,
+          50.87385103
+        ],
+        [
+          2003,
+          50.92742666
+        ],
+        [
+          2004,
+          50.99886084
+        ],
+        [
+          2005,
+          50.84814555
+        ],
+        [
+          2006,
+          50.8135108
+        ],
+        [
+          2007,
+          50.86979227
+        ],
+        [
+          2008,
+          51.29082097
+        ],
+        [
+          2009,
+          51.63148623
+        ],
+        [
+          2010,
+          51.62715689
+        ],
+        [
+          2011,
+          51.97269266
+        ],
+        [
+          2012,
+          52.34691033
+        ],
+        [
+          2013,
+          52.88807833
+        ],
+        [
+          2014,
+          53.16190934
+        ],
+        [
+          2015,
+          53.36024742
+        ],
+        [
+          2016,
+          53.63137259
+        ]
+      ],
+      "name": "Einwohner pro ha"
+    },
+    {
+      "data": [
+        [
+          1997,
+          3695.71
+        ],
+        [
+          1998,
+          3695.71
+        ],
+        [
+          1999,
+          3695.71
+        ],
+        [
+          2000,
+          3695.71
+        ],
+        [
+          2001,
+          3695.71
+        ],
+        [
+          2002,
+          3695.71
+        ],
+        [
+          2003,
+          3695.71
+        ],
+        [
+          2004,
+          3695.71
+        ],
+        [
+          2005,
+          3695.71
+        ],
+        [
+          2006,
+          3695.71
+        ],
+        [
+          2007,
+          3695.71
+        ],
+        [
+          2008,
+          3695.71
+        ],
+        [
+          2009,
+          3695.71
+        ],
+        [
+          2010,
+          3695.71
+        ],
+        [
+          2011,
+          3695.71
+        ],
+        [
+          2012,
+          3695.71
+        ],
+        [
+          2013,
+          3695.71
+        ],
+        [
+          2014,
+          3695.71
+        ],
+        [
+          2015,
+          3695.71
+        ],
+        [
+          2016,
+          3695.71
+        ]
+      ],
+      "name": "Flaeche ha"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "forExport": true,
+    "renderTo": "container-5201"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Bevölkerungsdichte"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+  },
+  "legend": {
+    "enabled": false,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "symbolRadius": 0
+  },
+  "exporting": {
+    "filename": "I.01.1.05201"
+  }
+}
