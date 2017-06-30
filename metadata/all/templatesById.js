@@ -148,7 +148,7 @@ var templatesById = {
 	"5203": "template001",
 	"5205": "line001",
 	"5804": "template001",
-	"5809": "bar001",
+	"5809": "template001",
 	"5810": "template001",
 	"5812": "template001",
 	"5813": "line001",
@@ -157,7 +157,7 @@ var templatesById = {
 	"5817": "bar001",
 	"5818": "bar001",
 	"5819": "line001",
-	"5820": "bar001",
+	"5820": "template001",
 	"5821": "template001",
 	"5822": "pie001",
 	"5823": "line001",
@@ -167,5 +167,6 @@ var templatesById = {
 	"5829": "map001",
 	"5831": "line001",
 	"5891": "line001",
-	"9999": "mappie001"
+	"9999": "mappie001",
+	"pie": "pie001"
 };
