@@ -5248,11 +5248,11 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Wegpendler nach Ziel",
+		"title": "Anzahl Wegpendler nach Ziel",
 		"subtitle": "",
 		"kuerzel": "I.11.5.05203",
 		"kuerzelKunde": "ST 1-3",
-		"description": "Wegpendler nach Ziel",
+		"description": "Anzahl Wegpendler nach Ziel",
 		"id": 5203,
 		"thema": "11 Verkehr",
 		"unterthema": "Pendler",
@@ -5276,7 +5276,9 @@ var indikatoren = [
 		"visible": true,
 		"visibleInPortal": true,
 		"parentId": null,
-		"children": [],
+		"children": [
+			"5864"
+		],
 		"renderLink": [],
 		"quellenangabe": [],
 		"externalLinks": [
@@ -5312,7 +5314,9 @@ var indikatoren = [
 		"visible": true,
 		"visibleInPortal": true,
 		"parentId": null,
-		"children": [],
+		"children": [
+			"5865"
+		],
 		"renderLink": [],
 		"quellenangabe": [],
 		"externalLinks": [
@@ -5379,7 +5383,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "",
 		"erlaeuterungen": "",
-		"template": "template001",
+		"template": "bar001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
@@ -5425,44 +5429,6 @@ var indikatoren = [
 		],
 		"renderLink": [],
 		"quellenangabe": [],
-		"externalLinks": [
-			""
-		]
-	},
-	{
-		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "",
-		"kuerzel": "I.09.1.05815",
-		"kuerzelKunde": "ST 4-6",
-		"description": "Mittlere Wohnfläche pro Person",
-		"id": 5815,
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Richtplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wohnen"
-		],
-		"stufe1": "Strategie 4",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Wohnfläche pro Kopf nahm von 1980 bis 2010 um sechs Quadratmeter zu. Seither ist ein leichter Rückgang zu verzeichnen.",
-		"erlaeuterungen": "",
-		"template": "line001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
-		"parentId": 4140,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
-		],
 		"externalLinks": [
 			""
 		]
@@ -5814,47 +5780,6 @@ var indikatoren = [
 		],
 		"renderLink": [],
 		"quellenangabe": [],
-		"externalLinks": [
-			""
-		]
-	},
-	{
-		"title": "Externe und interne Erreichbarkeit",
-		"subtitle": "Stadt Basel im nationalen Vergleich",
-		"kuerzel": "I.03.2.05891",
-		"kuerzelKunde": "ST 8-1",
-		"description": "Externe und interne Erreichbarkeit",
-		"id": 5891,
-		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
-		"kennzahlenset": "Richtplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2017-06-23T16:07:34.3434",
-		"schlagwort": [
-			"EuroAirport",
-			"Auto",
-			"Standort",
-			"Kantonsvergleich"
-		],
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die kontinentale Erreichbarkeit der Stadt Basel hat sich zwischen 2000 und 2014 verbessert. Die Entwicklung bei den anderen Schweizer Städte verläuft im gleichen Zeitraum identisch. Die Stadt Zürich bewegt sich auf einem höheren Niveau als Basel und Genf, die Stadt Bern liegt darunter. Die Entwicklung bei der globalen Erreichbarkeit verläuft bei allen Städten parallel und über die Jahre auf gleichbleibendem Niveau. Basel bewegt sich auch bei diesem indikator zusammen mit Genf wiederum zwischen dem Level von Zürich und Bern.",
-		"erlaeuterungen": "",
-		"template": "line001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
-		"parentId": 3104,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"BAK Basel Economics"
-		],
 		"externalLinks": [
 			""
 		]

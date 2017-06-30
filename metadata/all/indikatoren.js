@@ -5248,11 +5248,11 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Wegpendler nach Ziel",
+		"title": "Anzahl Wegpendler nach Ziel",
 		"subtitle": "",
 		"kuerzel": "I.11.5.05203",
 		"kuerzelKunde": "ST 1-3",
-		"description": "Wegpendler nach Ziel",
+		"description": "Anzahl Wegpendler nach Ziel",
 		"id": 5203,
 		"thema": "11 Verkehr",
 		"unterthema": "Pendler",
@@ -5276,7 +5276,9 @@ var indikatoren = [
 		"visible": true,
 		"visibleInPortal": true,
 		"parentId": null,
-		"children": [],
+		"children": [
+			"5864"
+		],
 		"renderLink": [],
 		"quellenangabe": [],
 		"externalLinks": [
@@ -5312,7 +5314,9 @@ var indikatoren = [
 		"visible": true,
 		"visibleInPortal": true,
 		"parentId": null,
-		"children": [],
+		"children": [
+			"5865"
+		],
 		"renderLink": [],
 		"quellenangabe": [],
 		"externalLinks": [
@@ -5379,7 +5383,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Der Ausländeranteil liegt seit zehn Jahren bei rund einem Drittel.",
 		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister.",
-		"template": "template001",
+		"template": "bar001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
@@ -5425,7 +5429,9 @@ var indikatoren = [
 		"visible": true,
 		"visibleInPortal": false,
 		"parentId": 2265,
-		"children": [],
+		"children": [
+			"5871"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
@@ -5458,7 +5464,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "",
 		"erlaeuterungen": "",
-		"template": "template001",
+		"template": "bar001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
@@ -5535,9 +5541,11 @@ var indikatoren = [
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"parentId": 4140,
-		"children": [],
+		"children": [
+			"5875"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
@@ -5575,7 +5583,9 @@ var indikatoren = [
 		"visible": true,
 		"visibleInPortal": false,
 		"parentId": 4135,
-		"children": [],
+		"children": [
+			"5876"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
@@ -5684,7 +5694,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Über 90% der Befragten sind mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden. Dieser Wert ist seit 2005 jeweils leicht angestiegen.",
 		"erlaeuterungen": "",
-		"template": "line001",
+		"template": "befragungen001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
@@ -5723,7 +5733,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Der Anteil der Einwohner, welche an ihrem Wohnort in der Nacht einer Lärmbelastung von über 50 dB (A) ausgesetzt sind, betrug 2010 knapp 24%. Bei 14% der Einwohner wurde der Tagesgrenzwert überschritten, bei 16% der Grenzwert in der Nacht.",
 		"erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche einer Lärmbelastung über dem Immissionsgrenzwert gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Die in der LSV festgehaltenen Immissionsgrenzwerte drücken das Mass an Lärmbelastung aus, das zirka 75% der Bevölkerung erträgt, ohne sich erheblich gestört zu fühlen. Wohngebiete sind gemäss Lärmempfindlichkeitsstufenplan den Stufen II (Wohnzonen) und III (Wohn-/Gewerbezonen) mit unterschiedlichen Immissionsgrenzwerten zugeteilt: ES II: 60 dB (A) Tag, 50 dB (A) Nacht, ES III: 65 dB (A) Tag, 55 dB (A) Nacht; dB (A) ist die übliche Masseinheit zur Messung von Lärmstärke.",
-		"template": "template001",
+		"template": "bar001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
@@ -5768,7 +5778,9 @@ var indikatoren = [
 		"visible": true,
 		"visibleInPortal": false,
 		"parentId": 5037,
-		"children": [],
+		"children": [
+			"5881"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
@@ -6082,7 +6094,7 @@ var indikatoren = [
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"parentId": 3104,
 		"children": [],
 		"renderLink": [],
