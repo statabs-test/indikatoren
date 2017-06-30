@@ -1,4 +1,4 @@
-{"title":"Mittlere Wohnfläche pro Person",
+﻿{"title":"Mittlere Wohnfläche pro Person",
 "subtitle":"",
 "kuerzel":"I.09.1.05815",
 "kuerzelKunde":"ST 4-6",
@@ -20,9 +20,9 @@
 "template":"line001",
 "option":"options001",
 "visible":true,
-"visibleInPortal":true,
+"visibleInPortal":false,
 "parentId":4140,
-"children":[],
+"children":["5875"],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"],
 "externalLinks":[""]

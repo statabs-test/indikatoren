@@ -1,4 +1,4 @@
-{"title":"Nettowohnungsproduktion",
+﻿{"title":"Nettowohnungsproduktion",
 "subtitle":"",
 "kuerzel":"I.09.1.05816",
 "kuerzelKunde":"ST 4-7",
@@ -22,7 +22,7 @@
 "visible":true,
 "visibleInPortal":false,
 "parentId":4135,
-"children":[],
+"children":["5876"],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"],
 "externalLinks":[""]
