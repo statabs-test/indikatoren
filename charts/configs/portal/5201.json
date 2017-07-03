@@ -1,6 +1,11 @@
 {
   "series": [
     {
+      "marker": {
+        "symbol": "circle",
+        "enabled": true
+      },
+      "color": "#8b2223",
       "data": [
         [
           1997,
@@ -84,176 +89,6 @@
         ]
       ],
       "name": "Einwohner"
-    },
-    {
-      "data": [
-        [
-          1997,
-          52.56175403
-        ],
-        [
-          1998,
-          51.98486894
-        ],
-        [
-          1999,
-          51.44911261
-        ],
-        [
-          2000,
-          51.02700157
-        ],
-        [
-          2001,
-          50.72340632
-        ],
-        [
-          2002,
-          50.87385103
-        ],
-        [
-          2003,
-          50.92742666
-        ],
-        [
-          2004,
-          50.99886084
-        ],
-        [
-          2005,
-          50.84814555
-        ],
-        [
-          2006,
-          50.8135108
-        ],
-        [
-          2007,
-          50.86979227
-        ],
-        [
-          2008,
-          51.29082097
-        ],
-        [
-          2009,
-          51.63148623
-        ],
-        [
-          2010,
-          51.62715689
-        ],
-        [
-          2011,
-          51.97269266
-        ],
-        [
-          2012,
-          52.34691033
-        ],
-        [
-          2013,
-          52.88807833
-        ],
-        [
-          2014,
-          53.16190934
-        ],
-        [
-          2015,
-          53.36024742
-        ],
-        [
-          2016,
-          53.63137259
-        ]
-      ],
-      "name": "Einwohner pro ha"
-    },
-    {
-      "data": [
-        [
-          1997,
-          3695.71
-        ],
-        [
-          1998,
-          3695.71
-        ],
-        [
-          1999,
-          3695.71
-        ],
-        [
-          2000,
-          3695.71
-        ],
-        [
-          2001,
-          3695.71
-        ],
-        [
-          2002,
-          3695.71
-        ],
-        [
-          2003,
-          3695.71
-        ],
-        [
-          2004,
-          3695.71
-        ],
-        [
-          2005,
-          3695.71
-        ],
-        [
-          2006,
-          3695.71
-        ],
-        [
-          2007,
-          3695.71
-        ],
-        [
-          2008,
-          3695.71
-        ],
-        [
-          2009,
-          3695.71
-        ],
-        [
-          2010,
-          3695.71
-        ],
-        [
-          2011,
-          3695.71
-        ],
-        [
-          2012,
-          3695.71
-        ],
-        [
-          2013,
-          3695.71
-        ],
-        [
-          2014,
-          3695.71
-        ],
-        [
-          2015,
-          3695.71
-        ],
-        [
-          2016,
-          3695.71
-        ]
-      ],
-      "name": "Flaeche ha"
     }
   ],
   "chart": {
@@ -295,7 +130,8 @@
     "align": "left"
   },
   "tooltip": {
-    "shared": false
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
     "min": 0,
@@ -311,7 +147,8 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "format": "{value:,.0f}"
     }
   },
   "xAxis": {
@@ -322,7 +159,8 @@
         "color": "#000000"
       }
     },
-    "tickLength": 0
+    "tickLength": 0,
+    "tickInterval": 2
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -346,6 +184,23 @@
     "verticalAlign": "middle",
     "align": "right",
     "symbolRadius": 0
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "enabled": true,
+        "allowOverlap": true,
+        "y": 30,
+        "formatter": function () {
+            var last = this.series.data[this.series.data.length - 1];
+            var first = this.series.data[0];
+            if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {
+              return Highcharts.numberFormat(this.point.y, 0, ",", " ");
+            }
+            return "";
+          }
+      }
+    }
   },
   "exporting": {
     "filename": "I.01.1.05201"

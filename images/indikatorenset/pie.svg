@@ -1,0 +1,77 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M10 70h288v300H10z"/>
+    <path fill="none" class="highcharts-plot-border" d="M10 70h288v300H10z"/>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-pie-series highcharts-color-undefined highcharts-tracker" cursor="true">
+            <path fill="#7cb5ec" d="M153.973 86a134 134 0 0 1 124.764 182.956L154 220z" class="highcharts-point highcharts-color-0"/>
+            <path fill="#434348" d="M278.688 269.08a134 134 0 0 1-16.808 30.406L154 220z" class="highcharts-point highcharts-color-1"/>
+            <path fill="#90ed7d" d="M261.8 299.594a134 134 0 0 1-121.338 53.72L154 220z" class="highcharts-point highcharts-color-2"/>
+            <path fill="#f7a35c" d="M140.329 353.3a134 134 0 0 1-88.507-46.607L154 220z" class="highcharts-point highcharts-color-3"/>
+            <path fill="#8085e9" d="M51.735 306.59a134 134 0 0 1-31.244-75.135L154 220z" class="highcharts-point highcharts-color-4"/>
+            <path fill="#f15c80" d="M20.48 231.322a134 134 0 0 1 .474-27.285L154 220z" class="highcharts-point highcharts-color-5"/>
+            <path fill="#e4d354" d="M20.97 203.904a134 134 0 0 1 80.923-107.358L154 220z" class="highcharts-point highcharts-color-6"/>
+            <path fill="#2b908f" d="M102.017 96.494A134 134 0 0 1 153.814 86L154 220z" class="highcharts-point highcharts-color-7"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>Pie Chart Example</tspan>
+    </text>
+    <text x="10" class="highcharts-subtitle" y="40" color="#000" font-weight="400">
+        <tspan>Arbeitslose EU-/EFTA-Staatsangehörige im Kanton Basel-Stadt nach</tspan><tspan dy="15" x="10">Herkunftsland im Jahresdurchschnitt 2016</tspan><title>Arbeitslose EU-/EFTA-Staatsangehörige im Kanton Basel-Stadt nach Herkunftsland im Jahresdurchschnitt 2016</title>
+    </text>
+    <g class="highcharts-legend" transform="translate(310 109)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="164" height="163"/>
+        <g class="highcharts-legend-item highcharts-pie-series highcharts-color-0">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
+                Deutschland
+            </text>
+            <path fill="#7cb5ec" class="highcharts-point" d="M10 7h12v12H10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-pie-series highcharts-color-1">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 22)">
+                Frankreich
+            </text>
+            <path fill="#434348" class="highcharts-point" d="M10 26h12v12H10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-pie-series highcharts-color-2">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 41)">
+                Italien
+            </text>
+            <path fill="#90ed7d" class="highcharts-point" d="M10 45h12v12H10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-pie-series highcharts-color-3">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 60)">
+                Portugal
+            </text>
+            <path fill="#f7a35c" class="highcharts-point" d="M10 64h12v12H10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-pie-series highcharts-color-4">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 79)">
+                Spanien
+            </text>
+            <path fill="#8085e9" class="highcharts-point" d="M10 83h12v12H10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-pie-series highcharts-color-5">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 98)">
+                <tspan>Vereinigtes Königreich</tspan>
+            </text>
+            <path fill="#f15c80" class="highcharts-point" d="M10 102h12v12H10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-pie-series highcharts-color-6">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 117)">
+                <tspan>EU-Länder ab 2004</tspan>
+            </text>
+            <path fill="#e4d354" class="highcharts-point" d="M10 121h12v12H10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-pie-series highcharts-color-7">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 136)">
+                <tspan>übrige EU/EFTA Länder</tspan>
+            </text>
+            <path fill="#2b908f" class="highcharts-point" d="M10 140h12v12H10z"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Statistisches Amt Basel-Stadt</tspan>
+    </text>
+</svg>

@@ -1,0 +1,384 @@
+{
+  "series": [
+    {
+      "color": "#71a3b5",
+      "index": 0,
+      "type": "column",
+      "pointWidth": "10",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          1985,
+          36605.8
+        ],
+        [
+          1986,
+          35064.4
+        ],
+        [
+          1987,
+          33620.9
+        ],
+        [
+          1988,
+          33917.9
+        ],
+        [
+          1989,
+          34431.3
+        ],
+        [
+          1990,
+          33625.7
+        ],
+        [
+          1991,
+          32336.4
+        ],
+        [
+          1992,
+          31715.1
+        ],
+        [
+          1993,
+          30528.4
+        ],
+        [
+          1994,
+          30767.9
+        ],
+        [
+          1995,
+          29691.5
+        ],
+        [
+          1996,
+          29884.2
+        ],
+        [
+          1997,
+          29175
+        ],
+        [
+          1998,
+          28640
+        ],
+        [
+          1999,
+          27706.7
+        ],
+        [
+          2000,
+          27044
+        ],
+        [
+          2001,
+          25906.9
+        ],
+        [
+          2002,
+          25300
+        ],
+        [
+          2003,
+          27067.9
+        ],
+        [
+          2004,
+          26111.3
+        ],
+        [
+          2005,
+          25260
+        ],
+        [
+          2006,
+          25731.8
+        ],
+        [
+          2007,
+          25430.5
+        ],
+        [
+          2008,
+          26159.6
+        ],
+        [
+          2009,
+          26772.3
+        ],
+        [
+          2010,
+          27309
+        ],
+        [
+          2011,
+          26019
+        ],
+        [
+          2012,
+          25441.683
+        ],
+        [
+          2013,
+          25912
+        ],
+        [
+          2014,
+          25615.867
+        ],
+        [
+          2015,
+          26545.709
+        ],
+        [
+          2016,
+          0
+        ]
+      ],
+      "name": "Wasserverbrauch in 1000 m³"
+    },
+    {
+      "color": "#7d60a0",
+      "index": 1,
+      "type": "line",
+      "marker": {
+        "symbol": "circle",
+        "enabled": false
+      },
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          1985,
+          50457.6
+        ],
+        [
+          1986,
+          50457.6
+        ],
+        [
+          1987,
+          50457.6
+        ],
+        [
+          1988,
+          50457.6
+        ],
+        [
+          1989,
+          50457.6
+        ],
+        [
+          1990,
+          50457.6
+        ],
+        [
+          1991,
+          50457.6
+        ],
+        [
+          1992,
+          50457.6
+        ],
+        [
+          1993,
+          50457.6
+        ],
+        [
+          1994,
+          50457.6
+        ],
+        [
+          1995,
+          50457.6
+        ],
+        [
+          1996,
+          50457.6
+        ],
+        [
+          1997,
+          50457.6
+        ],
+        [
+          1998,
+          50457.6
+        ],
+        [
+          1999,
+          50457.6
+        ],
+        [
+          2000,
+          50457.6
+        ],
+        [
+          2001,
+          50457.6
+        ],
+        [
+          2002,
+          50457.6
+        ],
+        [
+          2003,
+          50457.6
+        ],
+        [
+          2004,
+          50457.6
+        ],
+        [
+          2005,
+          50457.6
+        ],
+        [
+          2006,
+          50457.6
+        ],
+        [
+          2007,
+          50457.6
+        ],
+        [
+          2008,
+          50457.6
+        ],
+        [
+          2009,
+          50457.6
+        ],
+        [
+          2010,
+          50457.6
+        ],
+        [
+          2011,
+          50457.6
+        ],
+        [
+          2012,
+          50457.6
+        ],
+        [
+          2013,
+          50457.6
+        ],
+        [
+          2014,
+          50457.6
+        ],
+        [
+          2015,
+          50457.6
+        ],
+        [
+          2016,
+          50457.6
+        ]
+      ],
+      "name": "Maximal mögliche Jahresproduktion in 1000 m³"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "marginBottom": 65,
+    "alignTicks": false,
+    "forExport": true,
+    "renderTo": "container-5831"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Geförderte Trinkwassermenge"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "im Vergleich mit der potenziellen Maximalmenge",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": true
+  },
+  "yAxis": [
+    {
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "title": ""
+    }
+  ],
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 2
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -5
+    },
+    "text": "Quelle: "
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "y": 40,
+    "x": 40,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "exporting": {
+    "filename": "I.02.4.05831"
+  }
+}

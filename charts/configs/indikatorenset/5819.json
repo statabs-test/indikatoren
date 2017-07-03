@@ -143,32 +143,50 @@
   ],
   "xAxis": {
     "type": "category",
-    "uniqueNames": false,
+    "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
-    "labels": {
+    "tickColor": "#FFFFFF",
+    "title": {
       "style": {
         "color": "#000000"
       }
     },
-    "tickLength": 0,
+    "labels": {
+      "rotation": 0,
+      "style": {
+        "color": "#000000",
+        "width": 1,
+        "textOverflow": "none"
+      },
+      "formatter": function () {
+            	return this.value.replace(" ", "<br/>");
+            }
+    },
     "tickInterval": 1
   },
   "chart": {
     "events": {
       "load": function () {
-              this.credits.element.onclick = function() {}
-          }
+                this.credits.element.onclick = function() {
+                    /*
+                    window.open(
+                    "http://www.statistik.bs.ch",
+                    '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
+                    );
+                    */
+                }
+            }
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
     "width": 485,
     "height": 415,
-    "spacingBottom": 45,
+    "spacingBottom": 30,
     "style": {
       "fontFamily": "Arial"
     },
+    "zoomType": "xy",
     "type": "column",
     "renderTo": "container-5819",
     "marginBottom": 75,
@@ -188,21 +206,34 @@
   "subtitle": {
     "style": {
       "fontSize": "12px",
-      "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "«Wie zufrieden sind Sie mit den Grünanlagen und Parks in Ihrem Wohnort?»",
-    "align": "left"
+    "align": "left",
+    "text": "«Wie zufrieden sind Sie mit den Grünanlagen und Parks in Ihrem Wohnort?»"
   },
-  "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "normal",
+      "pointWidth": 20
+    }
   },
   "yAxis": {
-    "min": 0,
+    "tickInterval": 10,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
     "title": {
       "style": {
         "color": "#000000",
@@ -211,15 +242,18 @@
       "text": null
     },
     "labels": {
+      "format": "{value:,.0f}%",
       "style": {
         "color": "#000000"
-      },
-      "format": "{value:,.0f}%"
+      }
     },
     "max": 100
   },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
   "credits": {
-    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
     "style": {
       "color": "#000000",
@@ -235,26 +269,19 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_7"
   },
   "legend": {
-    "enabled": true,
     "layout": "vertical",
     "verticalAlign": "middle",
-    "align": "right",
-    "symbolRadius": 0,
     "itemMarginBottom": 5,
+    "align": "right",
+    "useHTML": true,
     "itemStyle": {
       "fontWeight": "normal"
-    }
-  },
-  "plotOptions": {
-    "series": {
-      "pointWidth": 20,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      },
-      "stacking": "normal"
-    }
+    },
+    "symbolRadius": 0,
+    "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        },
+    "enabled": true
   },
   "exporting": {
     "filename": "I.50.1.05819"

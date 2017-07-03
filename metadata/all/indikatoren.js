@@ -5383,7 +5383,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Der Ausländeranteil liegt seit zehn Jahren bei rund einem Drittel.",
 		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister.",
-		"template": "bar001",
+		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
@@ -5436,42 +5436,6 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
 		],
-		"externalLinks": [
-			""
-		]
-	},
-	{
-		"title": "Anzahl Wohnungen",
-		"subtitle": "",
-		"kuerzel": "I.09.1.05812",
-		"kuerzelKunde": "ST 4-3",
-		"description": "Anzahl Wohnungen",
-		"id": 5812,
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Richtplan",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2017-06-12T16:47:57.5757",
-		"schlagwort": [
-			"Wohnen"
-		],
-		"stufe1": "Strategie 4",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "",
-		"template": "bar001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [],
 		"externalLinks": [
 			""
 		]
@@ -5595,82 +5559,6 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Nettowohnungsproduktion",
-		"subtitle": "nach Wohnviertel",
-		"kuerzel": "I.09.1.05817",
-		"kuerzelKunde": "ST 4-8",
-		"description": "Nettowohnungsproduktion",
-		"id": 5817,
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Richtplan",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2017-06-22T11:48:21.2121",
-		"schlagwort": [
-			"Wohnung"
-		],
-		"stufe1": "Strategie 4",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "",
-		"template": "bar001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
-		"parentId": null,
-		"children": [
-			"5877"
-		],
-		"renderLink": [],
-		"quellenangabe": [],
-		"externalLinks": [
-			""
-		]
-	},
-	{
-		"title": "Bruttogeschossfläche Wohnen",
-		"subtitle": "",
-		"kuerzel": "I.09.1.05818",
-		"kuerzelKunde": "ST 4-9",
-		"description": "Bruttogeschossfläche Wohnen",
-		"id": 5818,
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Richtplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wohnung"
-		],
-		"stufe1": "Strategie 4",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "",
-		"template": "bar001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
-		"parentId": null,
-		"children": [
-			"5878"
-		],
-		"renderLink": [],
-		"quellenangabe": [],
-		"externalLinks": [
-			""
-		]
-	},
-	{
 		"title": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
 		"subtitle": "«Wie zufrieden sind Sie mit den Grünanlagen und Parks in Ihrem Wohnort?»",
 		"kuerzel": "I.50.1.05819",
@@ -5703,47 +5591,6 @@ var indikatoren = [
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_7"
-		],
-		"externalLinks": [
-			""
-		]
-	},
-	{
-		"title": "Anteil übermässig mit Lärm belasteter Einwohner",
-		"subtitle": "",
-		"kuerzel": "I.02.5.05820",
-		"kuerzelKunde": "ST 5-2",
-		"description": "Anteil übermässig mit Lärm belasteter Einwohner",
-		"id": 5820,
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Luftschadstoffe",
-		"kennzahlenset": "Richtplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2017-06-22T11:57:46.4646",
-		"schlagwort": [
-			"Bevölkerung",
-			"Umwelt"
-		],
-		"stufe1": "Strategie 5",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Anteil der Einwohner, welche an ihrem Wohnort in der Nacht einer Lärmbelastung von über 50 dB (A) ausgesetzt sind, betrug 2010 knapp 24%. Bei 14% der Einwohner wurde der Tagesgrenzwert überschritten, bei 16% der Grenzwert in der Nacht.",
-		"erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche einer Lärmbelastung über dem Immissionsgrenzwert gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Die in der LSV festgehaltenen Immissionsgrenzwerte drücken das Mass an Lärmbelastung aus, das zirka 75% der Bevölkerung erträgt, ohne sich erheblich gestört zu fühlen. Wohngebiete sind gemäss Lärmempfindlichkeitsstufenplan den Stufen II (Wohnzonen) und III (Wohn-/Gewerbezonen) mit unterschiedlichen Immissionsgrenzwerten zugeteilt: ES II: 60 dB (A) Tag, 50 dB (A) Nacht, ES III: 65 dB (A) Tag, 55 dB (A) Nacht; dB (A) ist die übliche Masseinheit zur Messung von Lärmstärke.",
-		"template": "bar001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": false,
-		"parentId": 5061,
-		"children": [
-			"5880"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster"
 		],
 		"externalLinks": [
 			""
@@ -5866,82 +5713,6 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Beschäftigtendichte",
-		"subtitle": "nach Wohnviertel",
-		"kuerzel": "I.03.2.05824",
-		"kuerzelKunde": "ST 7-2",
-		"description": "Beschäftigtendichte",
-		"id": 5824,
-		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
-		"kennzahlenset": "Richtplan",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2017-06-26T15:16:28.2828",
-		"schlagwort": [
-			"Beschäftigte"
-		],
-		"stufe1": "Strategie 7",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "",
-		"template": "map001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
-		"parentId": null,
-		"children": [
-			"5884"
-		],
-		"renderLink": [],
-		"quellenangabe": [],
-		"externalLinks": [
-			""
-		]
-	},
-	{
-		"title": "Bruttogeschossfläche Industrie und Gewerbe",
-		"subtitle": "",
-		"kuerzel": "I.09.1.05825",
-		"kuerzelKunde": "ST 7-3",
-		"description": "Bruttogeschossfläche Industrie und Gewerbe",
-		"id": 5825,
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Richtplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2017-06-26T16:03:00.000",
-		"schlagwort": [
-			"Gebäude"
-		],
-		"stufe1": "Strategie 7",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "",
-		"template": "bar001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
-		"parentId": null,
-		"children": [
-			"5885"
-		],
-		"renderLink": [],
-		"quellenangabe": [],
-		"externalLinks": [
-			""
-		]
-	},
-	{
 		"title": "Anzahl privater Personenwagen pro Haushalt",
 		"subtitle": "",
 		"kuerzel": "I.11.1.05828",
@@ -5975,52 +5746,6 @@ var indikatoren = [
 		],
 		"renderLink": [],
 		"quellenangabe": [],
-		"externalLinks": [
-			""
-		]
-	},
-	{
-		"title": "Anzahl privater Personenwagen pro Haushalt",
-		"subtitle": "",
-		"kuerzel": "I.11.1.05829",
-		"kuerzelKunde": "ST 11-2",
-		"description": "Anzahl privater Personenwagen pro Haushalt",
-		"id": 5829,
-		"thema": "11 Verkehr",
-		"unterthema": "Motorfahrzeuge",
-		"kennzahlenset": "Richtplan",
-		"raeumlicheGliederung": [
-			"Wohnviertel",
-			"Gemeinde"
-		],
-		"aktualisierungsdatum": "2017-06-26T16:19:02.022",
-		"schlagwort": [
-			"Haushalt",
-			"Familie",
-			"Quote",
-			"Auto"
-		],
-		"stufe1": "Strategie 11",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "In den beiden Landgemeinden besitzen die Haushalte im Schnitt am meisten Personenwagen, in der Kleinbasler Altstadt am wenigsten.",
-		"erlaeuterungen": "",
-		"template": "map001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
-		"parentId": 4918,
-		"children": [
-			"5888"
-		],
-		"renderLink": [
-			"4918"
-		],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"
-		],
 		"externalLinks": [
 			""
 		]

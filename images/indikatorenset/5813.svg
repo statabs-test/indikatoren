@@ -1,0 +1,82 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h429v308H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M46 41h429v308H46z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M87.5 41v308m77-308v308m76-308v308m77-308v308m76-308v308m77-308v308"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#B9CFD7" stroke-width=".5" class="highcharts-grid-line" d="M46 349.25h429m-429-77h429m-429-77h429m-429-77h429M46 40.75h429"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M46 41h429v308H46z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width=".5" d="M46 349.25h429"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M46 41v308"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(46 41)" clip-path="url(#a)">
+            <path fill="none" d="M4.206 59.406L42.44 77.892l38.235.56 38.236 27.128 38.235 50.89 38.235 29.433 38.236 40.818 38.235 3.801 38.235 21.61 38.236 18.265 38.235-14.223 38.235-12.357" class="highcharts-graph" stroke="#8b2223" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.794 59.406h10L42.44 77.892l38.235.56 38.236 27.128 38.235 50.89 38.235 29.433 38.236 40.818 38.235 3.801 38.235 21.61 38.236 18.265 38.235-14.223 38.235-12.357h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#8b2223" d="M54 100a4 4 0 1 1 0-.004zm38 19a4 4 0 1 1 0-.004zm38 0a4 4 0 1 1 0-.004zm38 28a4 4 0 1 1 0-.004zm39 50a4 4 0 1 1 0-.004zm38 30a4 4 0 1 1 0-.004zm38 41a4 4 0 1 1 0-.004zm38 4a4 4 0 1 1 0-.004zm39 21a4 4 0 1 1 0-.004zm38 18a4 4 0 1 1 0-.004zm38-14a4 4 0 1 1 0-.004zm38-12a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>Leerwohnungsquote</tspan>
+    </text>
+    <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(41 107)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">1,61</tspan><tspan x="5" y="16">1,61</tspan>
+        </text>
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(449 292)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">0,42</tspan><tspan x="5" y="16">0,42</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="88.441" y="368">
+            <tspan>2006</tspan>
+        </text>
+        <text x="164.912" y="368">
+            <tspan>2008</tspan>
+        </text>
+        <text x="241.382" y="368">
+            <tspan>2010</tspan>
+        </text>
+        <text x="317.853" y="368">
+            <tspan>2012</tspan>
+        </text>
+        <text x="394.324" y="368">
+            <tspan>2014</tspan>
+        </text>
+        <text x="462.781" y="368">
+            <tspan>2016</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="31" y="354">
+            <tspan>0.00</tspan>
+        </text>
+        <text x="31" y="277">
+            <tspan>0.50</tspan>
+        </text>
+        <text x="31" y="200">
+            <tspan>1.00</tspan>
+        </text>
+        <text x="31" y="123">
+            <tspan>1.50</tspan>
+        </text>
+        <text x="31" y="46">
+            <tspan>2.00</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="410" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle:</tspan>
+    </text>
+</svg>

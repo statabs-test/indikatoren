@@ -8,87 +8,31 @@
       "color": "#8b2223",
       "data": [
         [
-          1997,
-          194253
-        ],
-        [
-          1998,
-          192121
-        ],
-        [
-          1999,
-          190141
-        ],
-        [
-          2000,
-          188581
-        ],
-        [
-          2001,
-          187459
-        ],
-        [
-          2002,
-          188015
-        ],
-        [
-          2003,
-          188213
-        ],
-        [
-          2004,
-          188477
-        ],
-        [
-          2005,
-          187920
-        ],
-        [
-          2006,
-          187792
-        ],
-        [
-          2007,
-          188000
-        ],
-        [
-          2008,
-          189556
-        ],
-        [
-          2009,
-          190815
-        ],
-        [
-          2010,
-          190799
-        ],
-        [
           2011,
-          192076
+          147729.5978359
         ],
         [
           2012,
-          193459
+          148634.1781839
         ],
         [
           2013,
-          195459
+          150781.0675498
         ],
         [
           2014,
-          196471
+          151839.0317362
         ],
         [
           2015,
-          197204
+          151839.0317362
         ],
         [
           2016,
-          198206
+          151839.0317362
         ]
       ],
-      "name": "Einwohner"
+      "name": "Anzahl Beschäftigte"
     }
   ],
   "chart": {
@@ -108,7 +52,7 @@
     },
     "type": "line",
     "forExport": true,
-    "renderTo": "container-5201"
+    "renderTo": "container-5823"
   },
   "title": {
     "style": {
@@ -117,7 +61,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Bevölkerungsdichte"
+    "text": "Beschäftigtendichte"
   },
   "subtitle": {
     "style": {
@@ -131,7 +75,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
     "min": 0,
@@ -159,8 +103,7 @@
         "color": "#000000"
       }
     },
-    "tickLength": 0,
-    "tickInterval": 2
+    "tickLength": 0
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -174,9 +117,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -5
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+    "text": "Quelle: "
   },
   "legend": {
     "enabled": false,
@@ -203,6 +146,6 @@
     }
   },
   "exporting": {
-    "filename": "I.01.1.05201"
+    "filename": "I.03.2.05823"
   }
 }

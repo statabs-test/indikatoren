@@ -1,0 +1,119 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h416v239H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M59 111h416v239H59z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M81.5 111v239m26-239v239m25-239v239m26-239v239m25-239v239m26-239v239m25-239v239m26-239v239m25-239v239m26-239v239m25-239v239m26-239v239m25-239v239m26-239v239m25-239v239m26-239v239"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M59 350.5h416m-416-80h416m-416-79h416m-416-81h416"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M59 111h416v239H59z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width=".5" d="M59 350.25h416"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M59 111v239"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(59 111)" clip-path="url(#a)">
+            <path fill="#71a3b5" class="highcharts-point" stroke="#fff" d="M4.5 93.5h10v146h-10zm13 6h10v140h-10zm13 6h10v134h-10zm13-1h10v135h-10zm12-2h10v137h-10zm13 3h10v134h-10zm13 5h10v129h-10zm13 3h10v126h-10zm12 4h10v122h-10zm13-1h10v123h-10zm13 5h10v118h-10zm13-1h10v119h-10zm12 3h10v116h-10zm13 2h10v114h-10zm13 4h10v110h-10zm13 2h10v108h-10zm12 5h10v103h-10zm13 2h10v101h-10zm13-7h10v108h-10zm13 4h10v104h-10zm12 3h10v101h-10zm13-1h10v102h-10zm13 1h10v101h-10zm13-3h10v104h-10zm12-3h10v107h-10zm13-2h10v109h-10zm13 5h10v104h-10zm13 3h10v101h-10zm12-2h10v103h-10zm13 1h10v102h-10zm13-4h10v106h-10z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(59 111)" clip-path="url(#a)">
+            <path fill="none" d="M10.33 38.01h395.34" class="highcharts-graph" stroke="#7d60a0" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M.33 38.01h415.34" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>Geförderte Trinkwassermenge</tspan>
+    </text>
+    <text x="10" class="highcharts-subtitle" y="40" color="#000" font-weight="400">
+        <tspan>im Vergleich mit der potenziellen Maximalmenge</tspan>
+    </text>
+    <g class="highcharts-legend" transform="translate(50 50)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="288" height="49"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
+                <tspan>Wasserverbrauch in 1000 m³</tspan>
+            </text>
+            <path fill="#71a3b5" class="highcharts-point" d="M10 7h12v12H10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1">
+            <path fill="none" d="M8 33h16" class="highcharts-graph" stroke="#7d60a0" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 22)">
+                <tspan>Maximal mögliche Jahresproduktion in 1000 m³</tspan>
+            </text>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="84.675" transform="rotate(-45 84.675 366)" y="366">
+            <tspan>1986</tspan>
+        </text>
+        <text x="110.181" transform="rotate(-45 110.181 366)" y="366">
+            <tspan>1988</tspan>
+        </text>
+        <text x="135.687" transform="rotate(-45 135.687 366)" y="366">
+            <tspan>1990</tspan>
+        </text>
+        <text x="161.193" transform="rotate(-45 161.193 366)" y="366">
+            <tspan>1992</tspan>
+        </text>
+        <text x="186.699" transform="rotate(-45 186.699 366)" y="366">
+            <tspan>1994</tspan>
+        </text>
+        <text x="212.205" transform="rotate(-45 212.205 366)" y="366">
+            <tspan>1996</tspan>
+        </text>
+        <text x="237.71" transform="rotate(-45 237.71 366)" y="366">
+            <tspan>1998</tspan>
+        </text>
+        <text x="263.216" transform="rotate(-45 263.216 366)" y="366">
+            <tspan>2000</tspan>
+        </text>
+        <text x="288.722" transform="rotate(-45 288.722 366)" y="366">
+            <tspan>2002</tspan>
+        </text>
+        <text x="314.228" transform="rotate(-45 314.228 366)" y="366">
+            <tspan>2004</tspan>
+        </text>
+        <text x="339.734" transform="rotate(-45 339.734 366)" y="366">
+            <tspan>2006</tspan>
+        </text>
+        <text x="365.24" transform="rotate(-45 365.24 366)" y="366">
+            <tspan>2008</tspan>
+        </text>
+        <text x="390.745" transform="rotate(-45 390.745 366)" y="366">
+            <tspan>2010</tspan>
+        </text>
+        <text x="416.251" transform="rotate(-45 416.251 366)" y="366">
+            <tspan>2012</tspan>
+        </text>
+        <text x="441.757" transform="rotate(-45 441.757 366)" y="366">
+            <tspan>2014</tspan>
+        </text>
+        <text x="467.263" transform="rotate(-45 467.263 366)" y="366">
+            <tspan>2016</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="44" y="355">
+            <tspan>0</tspan>
+        </text>
+        <text x="44" y="275">
+            <tspan>20 000</tspan>
+        </text>
+        <text x="44" y="195">
+            <tspan>40 000</tspan>
+        </text>
+        <text x="44" y="116">
+            <tspan>60 000</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="410" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle:</tspan>
+    </text>
+</svg>

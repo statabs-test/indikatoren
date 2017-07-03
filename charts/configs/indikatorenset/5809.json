@@ -1,67 +1,101 @@
 {
   "series": [
     {
-      "color": "#b00000",
-      "index": 5,
+      "index": 1,
+      "color": "#990300",
+      "legendIndex": 1,
       "data": [
         [
+          "2006",
+          129216
+        ],
+        [
+          "2007",
+          129082
+        ],
+        [
+          "2008",
+          129226
+        ],
+        [
+          "2009",
+          128639
+        ],
+        [
           "2010",
-          22450
+          128213
         ],
         [
           "2011",
-          22097
+          127981
         ],
         [
           "2012",
-          22943
+          127932
         ],
         [
           "2013",
-          23562
+          127907
         ],
         [
           "2014",
-          24679
+          127692
         ],
         [
           "2015",
-          24073
+          127617
         ]
       ],
-      "name": "Anzahl in die Schweiz",
+      "name": "Schweiz",
       "turboThreshold": 0
     },
     {
-      "color": "#2f656b",
-      "index": 4,
+      "index": 0,
+      "color": "#71A3B5",
+      "legendIndex": 0,
       "data": [
         [
+          "2006",
+          58576
+        ],
+        [
+          "2007",
+          58918
+        ],
+        [
+          "2008",
+          60330
+        ],
+        [
+          "2009",
+          62176
+        ],
+        [
           "2010",
-          269
+          62586
         ],
         [
           "2011",
-          580
+          64095
         ],
         [
           "2012",
-          512
+          65527
         ],
         [
           "2013",
-          478
+          67552
         ],
         [
           "2014",
-          508
+          68779
         ],
         [
           "2015",
-          338
+          69587
         ]
       ],
-      "name": "Anzahl ins Ausland (Grenzgänger)",
+      "name": "Ausland",
       "turboThreshold": 0
     }
   ],
@@ -98,12 +132,11 @@
                     this.credits.element.onclick = function() {}
                 }
     },
-    "renderTo": "container-5203",
     "marginBottom": 75,
     "marginTop": 75,
     "type": "column",
-    "inverted": false,
-    "forExport": true
+    "forExport": true,
+    "renderTo": "container-5809"
   },
   "plotOptions": {
     "series": {
@@ -113,8 +146,7 @@
           "fontSize": "10px"
         }
       },
-      "pointPadding": 100,
-      "pointWidth": 15,
+      "pointWidth": 20,
       "stacking": "normal"
     }
   },
@@ -125,7 +157,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anzahl Wegpendler nach Ziel"
+    "text": "Bevölkerung am Jahresende"
   },
   "subtitle": {
     "style": {
@@ -172,29 +204,28 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: "
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
   },
   "legend": {
     "symbolRadius": 0,
     "enabled": true,
+    "x": 55,
+    "y": 35,
     "layout": "horizontal",
     "verticalAlign": "top",
+    "itemMarginBottom": 5,
     "align": "left",
-    "x": 40,
-    "y": 20,
-    "width": 200,
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "footerFormat": "Total: \u003Cb\u003E{point.total}\u003C\u002Fb\u003E",
     "shared": true
   },
   "exporting": {
-    "filename": "I.11.5.05203"
+    "filename": "I.01.1.05809"
   }
 }

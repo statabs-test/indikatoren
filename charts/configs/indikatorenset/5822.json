@@ -1,0 +1,122 @@
+{
+  "series": [
+    {
+      "name": "Anteil",
+      "data": [
+        [
+          "A",
+          0.646050069120007
+        ],
+        [
+          "B",
+          0.309783760330162
+        ],
+        [
+          "C",
+          0.0363006165302766
+        ],
+        [
+          "D",
+          0.00304228933533798
+        ],
+        [
+          "E",
+          0.000847602998900134
+        ]
+      ],
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+                  this.credits.element.onclick = function() {}
+              }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "pie",
+    "forExport": true,
+    "renderTo": "container-5822"
+  },
+  "plotOptions": {
+    "pie": {
+      "borderWidth": 0,
+      "allowPointSelect": true,
+      "cursor": true,
+      "showInLegend": true,
+      "dataLabels": {
+        "enabled": false
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Anteil Einwohner pro ÖV-Güteklasse"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} ({point.percentage:.1f}%)\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -5
+    },
+    "text": "Quelle: "
+  },
+  "legend": {
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5,
+    "align": "right",
+    "useHTML": true,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "symbolRadius": 0
+  },
+  "exporting": {
+    "filename": "I.11.2.05822"
+  }
+}
