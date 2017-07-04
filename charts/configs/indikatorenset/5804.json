@@ -29,7 +29,7 @@
           64289
         ]
       ],
-      "name": "Anzahl aus der Schweiz",
+      "name": "Aus der Schweiz",
       "turboThreshold": 0
     },
     {
@@ -61,7 +61,7 @@
           36272
         ]
       ],
-      "name": "Anzahl aus dem Ausland (Grenzgänger)",
+      "name": "Aus dem Ausland",
       "turboThreshold": 0
     }
   ],

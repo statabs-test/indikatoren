@@ -9,7 +9,7 @@
   "yAxis": {
   	"min": -200,
     "labels": {
-      "format": "{value}",
+      "format": "{value:,.0f}",
     }
   },
   "xAxis": {

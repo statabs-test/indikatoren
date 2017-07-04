@@ -2,7 +2,7 @@
     return {
       "series": [ 
             {
-                "name": "Anteil Einwohner"
+                "name": "Anzahl"
             }        
         ]
 	}

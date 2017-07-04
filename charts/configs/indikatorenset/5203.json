@@ -29,7 +29,7 @@
           24073
         ]
       ],
-      "name": "Anzahl in die Schweiz",
+      "name": "In die Schweiz",
       "turboThreshold": 0
     },
     {
@@ -61,7 +61,7 @@
           338
         ]
       ],
-      "name": "Anzahl ins Ausland (Grenzgänger)",
+      "name": "Ins Ausland",
       "turboThreshold": 0
     }
   ],

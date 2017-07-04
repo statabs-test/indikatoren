@@ -35,13 +35,13 @@
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="208" height="39"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
-                <tspan>Anzahl aus dem Ausland (Grenzgänger)</tspan>
+                <tspan>Aus dem Ausland</tspan>
             </text>
             <path fill="#2f656b" class="highcharts-point" d="M10 7h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 17)">
-                <tspan>Anzahl aus der Schweiz</tspan>
+                <tspan>Aus der Schweiz</tspan>
             </text>
             <path fill="#b00000" class="highcharts-point" d="M10 21h12v12H10z"/>
         </g>

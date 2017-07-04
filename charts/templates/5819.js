@@ -23,7 +23,7 @@
   },
   "tooltip": {
     "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>',
-    "shared": false
+    "shared": true
   },  
   "legend": {
 	"enabled": true,
@@ -36,11 +36,12 @@
     }
   },
   "series": [
-  {"color": "#73ba7c", "index": 5}, /*dunkelgrün*/
-  {"color": "#00b050", "index": 4}, /*hellgrün*/
-  {"color": "#d99694", "index": 3}, /*hellrot*/
-  {"color": "#c00000", "index": 2}, /*dunkelrot*/
-  {"color": "#a6a6a6", "index": 1} /*grau*/
+  {"color": "#a6a6a6"}, /*grau*/
+  {"color": "#c00000"}, /*dunkelrot*/
+  {"color": "#d99694"}, /*hellrot*/
+  {"color": "#00b050"}, /*hellgrün*/
+  {"color": "#73ba7c"} /*dunkelgrün*/
+
   ],
   "chart": {
     "renderTo": 'container-I.01.1.0016', 

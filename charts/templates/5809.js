@@ -2,7 +2,7 @@
     return {
   "plotOptions": {
     "series": {
-      "pointWidth": 20,
+      "pointWidth": 10,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -13,7 +13,7 @@
   },
   "xAxis": {
     "type": "category",
-	"tickInterval": 1	
+	"tickInterval": 5	
   },  
   "yAxis": {
     "labels": {
