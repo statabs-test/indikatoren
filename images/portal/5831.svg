@@ -7,7 +7,7 @@
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
     <path fill="none" class="highcharts-plot-background" d="M59 111h416v239H59z"/>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M81.5 111v239m26-239v239m25-239v239m26-239v239m25-239v239m26-239v239m25-239v239m26-239v239m25-239v239m26-239v239m25-239v239m26-239v239m25-239v239m26-239v239m25-239v239m26-239v239"/>
+        <path fill="none" class="highcharts-grid-line" d="M68.5 111v239m64-239v239m64-239v239m64-239v239m63-239v239m64-239v239m64-239v239"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
         <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M59 350.5h416m-416-80h416m-416-79h416m-416-81h416"/>
@@ -49,54 +49,27 @@
             </text>
         </g>
     </g>
-    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
-        <text x="84.675" transform="rotate(-45 84.675 366)" y="366">
-            <tspan>1986</tspan>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="69.33" y="369">
+            1985
         </text>
-        <text x="110.181" transform="rotate(-45 110.181 366)" y="366">
-            <tspan>1988</tspan>
+        <text x="133.094" y="369">
+            1990
         </text>
-        <text x="135.687" transform="rotate(-45 135.687 366)" y="366">
-            <tspan>1990</tspan>
+        <text x="196.859" y="369">
+            1995
         </text>
-        <text x="161.193" transform="rotate(-45 161.193 366)" y="366">
-            <tspan>1992</tspan>
+        <text x="260.624" y="369">
+            2000
         </text>
-        <text x="186.699" transform="rotate(-45 186.699 366)" y="366">
-            <tspan>1994</tspan>
+        <text x="324.388" y="369">
+            2005
         </text>
-        <text x="212.205" transform="rotate(-45 212.205 366)" y="366">
-            <tspan>1996</tspan>
+        <text x="388.153" y="369">
+            2010
         </text>
-        <text x="237.71" transform="rotate(-45 237.71 366)" y="366">
-            <tspan>1998</tspan>
-        </text>
-        <text x="263.216" transform="rotate(-45 263.216 366)" y="366">
-            <tspan>2000</tspan>
-        </text>
-        <text x="288.722" transform="rotate(-45 288.722 366)" y="366">
-            <tspan>2002</tspan>
-        </text>
-        <text x="314.228" transform="rotate(-45 314.228 366)" y="366">
-            <tspan>2004</tspan>
-        </text>
-        <text x="339.734" transform="rotate(-45 339.734 366)" y="366">
-            <tspan>2006</tspan>
-        </text>
-        <text x="365.24" transform="rotate(-45 365.24 366)" y="366">
-            <tspan>2008</tspan>
-        </text>
-        <text x="390.745" transform="rotate(-45 390.745 366)" y="366">
-            <tspan>2010</tspan>
-        </text>
-        <text x="416.251" transform="rotate(-45 416.251 366)" y="366">
-            <tspan>2012</tspan>
-        </text>
-        <text x="441.757" transform="rotate(-45 441.757 366)" y="366">
-            <tspan>2014</tspan>
-        </text>
-        <text x="467.263" transform="rotate(-45 467.263 366)" y="366">
-            <tspan>2016</tspan>
+        <text x="451.917" y="369">
+            2015
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">

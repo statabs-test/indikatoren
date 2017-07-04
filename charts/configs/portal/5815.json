@@ -1,48 +1,58 @@
 {
   "series": [
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
-      "color": "#8b2223",
+      "color": "#69929b",
+      "visible": true,
       "data": [
         [
-          2000,
+          "2000",
           41.108202876103
         ],
         [
-          2010,
+          "2010",
           42.131702031783
         ],
         [
-          2011,
+          "2011",
           42.029502178246
         ],
         [
-          2012,
+          "2012",
           41.989175837952
         ],
         [
-          2013,
+          "2013",
           42.004384685941
         ],
         [
-          2014,
+          "2014",
           41.7
         ],
         [
-          2015,
+          "2015",
           41.454831762135
         ],
         [
-          2016,
+          "2016",
           41.279119850187
         ]
       ],
-      "name": "wohnfl_pers"
+      "name": "wohnfl_pers",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0
+  },
   "chart": {
     "events": {
       "load": function () {
@@ -58,7 +68,8 @@
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line",
+    "type": "column",
+    "inverted": false,
     "forExport": true,
     "renderTo": "container-5815"
   },
@@ -83,7 +94,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f} m²\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
     "min": 0,
@@ -100,19 +111,8 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}"
+      "format": "{value} m²"
     }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "tickLength": 0,
-    "tickInterval": 2
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -132,26 +132,14 @@
   },
   "legend": {
     "enabled": false,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
-    "symbolRadius": 0
-  },
-  "plotOptions": {
-    "series": {
-      "dataLabels": {
-        "enabled": true,
-        "allowOverlap": true,
-        "y": -10,
-        "formatter": function () {
-              var last = this.series.data[this.series.data.length - 1];
-              var first = this.series.data[0];
-              if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {
-                 return Highcharts.numberFormat(this.point.y, 1, ",", " ");
-              }
-              return "";
-            }
-      }
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "x": 35,
+    "y": 65,
+    "itemStyle": {
+      "fontWeight": "normal"
     }
   },
   "exporting": {

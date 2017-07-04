@@ -1,27 +1,27 @@
 {
   "series": [
     {
-      "name": "Anzahl Einwohner",
+      "name": "2016",
       "data": [
         [
-          "A",
-          128051
+          "Gebäude",
+          6043588.96731154
         ],
         [
-          "B",
-          61401
+          "Verkehrsfläche",
+          6392486.69566555
         ],
         [
-          "C",
-          7195
+          "Grünfläche",
+          18731662.7231807
         ],
         [
-          "D",
-          603
+          "Gewässer",
+          1337681.55503446
         ],
         [
-          "E",
-          168
+          "überige Bodenversiegelung",
+          4448532.24764792
         ]
       ],
       "turboThreshold": 0
@@ -53,7 +53,7 @@
     },
     "type": "pie",
     "forExport": true,
-    "renderTo": "container-5822"
+    "renderTo": "container-5807"
   },
   "plotOptions": {
     "pie": {
@@ -73,7 +73,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil Einwohner pro ÖV-Güteklasse"
+    "text": "Anteil Fläche nach Art der Bodenbedeckung"
   },
   "subtitle": {
     "style": {
@@ -117,6 +117,6 @@
     "symbolRadius": 0
   },
   "exporting": {
-    "filename": "I.11.2.05822"
+    "filename": "I.02.1.05807"
   }
 }
