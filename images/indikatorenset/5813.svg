@@ -10,7 +10,7 @@
         <path fill="none" class="highcharts-grid-line" d="M87.5 41v308m77-308v308m76-308v308m77-308v308m76-308v308m77-308v308"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#B9CFD7" stroke-width=".5" class="highcharts-grid-line" d="M46 349.25h429m-429-77h429m-429-77h429m-429-77h429M46 40.75h429"/>
+        <path fill="none" stroke="#B9CFD7" stroke-width=".5" class="highcharts-grid-line" d="M46 349.25h429m-429-44h429m-429-44h429m-429-44h429m-429-44h429m-429-44h429m-429-44h429M46 40.75h429"/>
     </g>
     <path fill="none" class="highcharts-plot-border" d="M46 41h429v308H46z"/>
     <g class="highcharts-axis highcharts-xaxis">
@@ -21,21 +21,21 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(46 41)" clip-path="url(#a)">
-            <path fill="none" d="M4.206 59.406L42.44 77.892l38.235.56 38.236 27.128 38.235 50.89 38.235 29.433 38.236 40.818 38.235 3.801 38.235 25.133 38.236 17.068 38.235-16.209 38.235-12.498" class="highcharts-graph" stroke="#8b2223" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M-5.794 59.406h10L42.44 77.892l38.235.56 38.236 27.128 38.235 50.89 38.235 29.433 38.236 40.818 38.235 3.801 38.235 25.133 38.236 17.068 38.235-16.209 38.235-12.498h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+            <path fill="none" d="M4.206 40.567L42.44 60.556l38.235.773 38.236 29.24 38.235 54.695 38.235 31.588 38.236 43.872 38.235 4.072 38.235 23.22 38.236 19.786 38.235-19.032 38.235-14.122" class="highcharts-graph" stroke="#8b2223" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.794 40.567h10L42.44 60.556l38.235.773 38.236 29.24 38.235 54.695 38.235 31.588 38.236 43.872 38.235 4.072 38.235 23.22 38.236 19.786 38.235-19.032 38.235-14.122h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#8b2223" d="M54 100a4 4 0 1 1 0-.004zm38 19a4 4 0 1 1 0-.004zm38 0a4 4 0 1 1 0-.004zm38 28a4 4 0 1 1 0-.004zm39 50a4 4 0 1 1 0-.004zm38 30a4 4 0 1 1 0-.004zm38 41a4 4 0 1 1 0-.004zm38 4a4 4 0 1 1 0-.004zm39 25a4 4 0 1 1 0-.004zm38 17a4 4 0 1 1 0-.004zm38-16a4 4 0 1 1 0-.004zm38-13a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <path fill="#8b2223" d="M54 82a4 4 0 1 1 0-.004zm38 20a4 4 0 1 1 0-.004zm38 0a4 4 0 1 1 0-.004zm38 30a4 4 0 1 1 0-.004zm39 54a4 4 0 1 1 0-.004zm38 32a4 4 0 1 1 0-.004zm38 44a4 4 0 1 1 0-.004zm38 4a4 4 0 1 1 0-.004zm39 23a4 4 0 1 1 0-.004zm38 20a4 4 0 1 1 0-.004zm38-19a4 4 0 1 1 0-.004zm38-14a4 4 0 1 1 0-.004z" class="highcharts-point"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>Leerwohnungsquote</tspan>
     </text>
     <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
-        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(41 107)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
-            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">1,61</tspan><tspan x="5" y="16">1,61</tspan>
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(41 89)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">1,52</tspan><tspan x="5" y="16">1,52</tspan>
         </text>
-        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(449 292)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(449 283)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
             <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">0,42</tspan><tspan x="5" y="16">0,42</tspan>
         </text>
     </g>
@@ -63,17 +63,26 @@
         <text x="31" y="354">
             <tspan>0.00</tspan>
         </text>
-        <text x="31" y="277">
+        <text x="31" y="310">
+            <tspan>0.25</tspan>
+        </text>
+        <text x="31" y="266">
             <tspan>0.50</tspan>
         </text>
-        <text x="31" y="200">
+        <text x="31" y="222">
+            <tspan>0.75</tspan>
+        </text>
+        <text x="31" y="178">
             <tspan>1.00</tspan>
         </text>
-        <text x="31" y="123">
+        <text x="31" y="134">
+            <tspan>1.25</tspan>
+        </text>
+        <text x="31" y="90">
             <tspan>1.50</tspan>
         </text>
         <text x="31" y="46">
-            <tspan>2.00</tspan>
+            <tspan>1.75</tspan>
         </text>
     </g>
     <text x="10" class="highcharts-credits" y="410" cursor="default" color="#000" font-size="10">
