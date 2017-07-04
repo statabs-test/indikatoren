@@ -5,23 +5,23 @@
       "data": [
         [
           "Gebäude",
-          6043588.96731154
+          6.04358896731154
         ],
         [
           "Verkehrsfläche",
-          6392486.69566555
+          6.39248669566555
         ],
         [
           "Grünfläche",
-          18731662.7231807
+          18.7316627231807
         ],
         [
           "Gewässer",
-          1337681.55503446
+          1.33768155503446
         ],
         [
           "überige Bodenversiegelung",
-          4448532.24764792
+          4.44853224764792
         ]
       ],
       "turboThreshold": 0
@@ -87,7 +87,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} ({point.percentage:.1f}%)\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.2f} Mio. m² ({point.percentage:.1f}%)\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",

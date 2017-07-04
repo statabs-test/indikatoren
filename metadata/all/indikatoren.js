@@ -5209,45 +5209,6 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Bevölkerungsdichte",
-		"subtitle": "nach Wohnviertel",
-		"kuerzel": "I.01.1.05202",
-		"kuerzelKunde": "ST 1-2",
-		"description": "Bevölkerungsdichte",
-		"id": 5202,
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Richtplan",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2017-06-26T13:34:57.5757",
-		"schlagwort": [
-			"Bevölkerung",
-			"Wohnen"
-		],
-		"stufe1": "Strategie 1",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "",
-		"template": "map001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
-		"parentId": null,
-		"children": [
-			"5863"
-		],
-		"renderLink": [],
-		"quellenangabe": [],
-		"externalLinks": [
-			""
-		]
-	},
-	{
 		"title": "Anzahl Wegpendler nach Ziel",
 		"subtitle": "",
 		"kuerzel": "I.11.5.05203",
@@ -5633,6 +5594,44 @@ var indikatoren = [
 		]
 	},
 	{
+		"title": "Bruttogeschossfläche Wohnen",
+		"subtitle": "",
+		"kuerzel": "I.09.1.05818",
+		"kuerzelKunde": "ST 4-9",
+		"description": "Bruttogeschossfläche Wohnen",
+		"id": 5818,
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Wohnung"
+		],
+		"stufe1": "Strategie 4",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5878"
+		],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
 		"subtitle": "«Wie zufrieden sind Sie mit den Grünanlagen und Parks in Ihrem Wohnort?»",
 		"kuerzel": "I.50.1.05819",
@@ -5828,6 +5827,44 @@ var indikatoren = [
 		]
 	},
 	{
+		"title": "Bruttogeschossfläche Industrie und Gewerbe",
+		"subtitle": "",
+		"kuerzel": "I.09.1.05825",
+		"kuerzelKunde": "ST 7-3",
+		"description": "Bruttogeschossfläche Industrie und Gewerbe",
+		"id": 5825,
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-06-26T16:03:00.000",
+		"schlagwort": [
+			"Gebäude"
+		],
+		"stufe1": "Strategie 7",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5885"
+		],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Anzahl privater Personenwagen pro Haushalt",
 		"subtitle": "",
 		"kuerzel": "I.11.1.05828",
@@ -5858,6 +5895,44 @@ var indikatoren = [
 		"parentId": null,
 		"children": [
 			"5887"
+		],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Personen- und Kurskilometer",
+		"subtitle": "",
+		"kuerzel": "I.11.2.05830",
+		"kuerzelKunde": "ST 11-3",
+		"description": "Personen- und Kurskilometer",
+		"id": 5830,
+		"thema": "11 Verkehr",
+		"unterthema": "Öffentlicher Verkehr",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-07-04T10:03:49.4949",
+		"schlagwort": [
+			"Mobilität"
+		],
+		"stufe1": "Strategie 11",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5889"
 		],
 		"renderLink": [],
 		"quellenangabe": [],
