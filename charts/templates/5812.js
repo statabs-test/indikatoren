@@ -1,51 +1,41 @@
 (function(){
     return {
-"plotOptions": {
-    "series": {
-      pointPadding: 100,
-      "pointWidth": 15,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      },
-      "stacking": "normal"
-    }
-  },
+  
   "xAxis": {
     "type": "category",
-    "tickInterval": 1
-  },  
-  "yAxis": {
     "labels": {
-      "format": "{value:,.0f}"
-    },
+      "rotation": -90 
+    } 
   },
-  "tooltip": {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
-    "shared": false
-  },  
+  "yAxis": {
+	//"max": 100,
+    "labels": {
+      "format": "{value:,.0f} m²"
+    }    
+  },
+  "series": [
+  {"color": "#d7e9d2", "visible": true}, /* hellgrün*/
+  {"color": "#73ba7c", "visible": true} /* ... */
+  ],
   "legend": {
-    "enabled": false,
+    "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 40,
-	"y": 20,    
-	"width": 200,
+    "x": 45,
+	"y": 35,    
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
-  "series": [
-  {"color": "#2f656b", "index": 4}, /*dunkelblau */
-  ],
-  "chart": {
-    "renderTo": 'container-I.01.1.0016', 
-    "marginBottom": 75,
-    "marginTop": 75,
-    "type": "column",
-    "inverted": false
+   tooltip: {
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y} m²</b><br/>',
+    "shared": false
   },
+  "chart": {      
+    "type": "column",
+    "inverted": false,
+    "spacingBottom": 40
+  }
 }
 }());

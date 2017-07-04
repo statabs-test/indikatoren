@@ -2,7 +2,7 @@
     return {
   "yAxis": [{
     "labels": {
-      "format": "{value:,.0f}",
+      "format": "{value:,.0f} m³",
       "style": {
         "color": "#000000"
       }
@@ -32,7 +32,7 @@
       "type": "column",
       "pointWidth": "10",
       "tooltip": {
-       "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}</b><br/>'
+       "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f} </b><br/>'
       }
     },
     {
@@ -45,7 +45,7 @@
       }, 
 
       "tooltip": {
-       "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}</b><br/>'
+       "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>'
       }
     }
   ],  

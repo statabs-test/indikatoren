@@ -21,11 +21,11 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(46 41)" clip-path="url(#a)">
-            <path fill="none" d="M4.206 59.406L42.44 77.892l38.235.56 38.236 27.128 38.235 50.89 38.235 29.433 38.236 40.818 38.235 3.801 38.235 21.61 38.236 18.265 38.235-14.223 38.235-12.357" class="highcharts-graph" stroke="#8b2223" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M-5.794 59.406h10L42.44 77.892l38.235.56 38.236 27.128 38.235 50.89 38.235 29.433 38.236 40.818 38.235 3.801 38.235 21.61 38.236 18.265 38.235-14.223 38.235-12.357h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+            <path fill="none" d="M4.206 59.406L42.44 77.892l38.235.56 38.236 27.128 38.235 50.89 38.235 29.433 38.236 40.818 38.235 3.801 38.235 25.133 38.236 17.068 38.235-16.209 38.235-12.498" class="highcharts-graph" stroke="#8b2223" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.794 59.406h10L42.44 77.892l38.235.56 38.236 27.128 38.235 50.89 38.235 29.433 38.236 40.818 38.235 3.801 38.235 25.133 38.236 17.068 38.235-16.209 38.235-12.498h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#8b2223" d="M54 100a4 4 0 1 1 0-.004zm38 19a4 4 0 1 1 0-.004zm38 0a4 4 0 1 1 0-.004zm38 28a4 4 0 1 1 0-.004zm39 50a4 4 0 1 1 0-.004zm38 30a4 4 0 1 1 0-.004zm38 41a4 4 0 1 1 0-.004zm38 4a4 4 0 1 1 0-.004zm39 21a4 4 0 1 1 0-.004zm38 18a4 4 0 1 1 0-.004zm38-14a4 4 0 1 1 0-.004zm38-12a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <path fill="#8b2223" d="M54 100a4 4 0 1 1 0-.004zm38 19a4 4 0 1 1 0-.004zm38 0a4 4 0 1 1 0-.004zm38 28a4 4 0 1 1 0-.004zm39 50a4 4 0 1 1 0-.004zm38 30a4 4 0 1 1 0-.004zm38 41a4 4 0 1 1 0-.004zm38 4a4 4 0 1 1 0-.004zm39 25a4 4 0 1 1 0-.004zm38 17a4 4 0 1 1 0-.004zm38-16a4 4 0 1 1 0-.004zm38-13a4 4 0 1 1 0-.004z" class="highcharts-point"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
