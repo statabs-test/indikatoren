@@ -16,7 +16,7 @@
           14.476412100698
         ]
       ],
-      "name": "Über Grenzwert am Tag",
+      "name": "Über Grenzwert am Tag in %",
       "turboThreshold": 0
     },
     {
@@ -35,7 +35,7 @@
           16.164586418447
         ]
       ],
-      "name": "Über Grenzwert in der Nacht",
+      "name": "Über Grenzwert in der Nacht in %",
       "turboThreshold": 0
     },
     {
@@ -54,7 +54,7 @@
           24.549925957266
         ]
       ],
-      "name": "Über 50 dB (A) in der Nacht",
+      "name": "Über 50 dB (A) in der Nach in %",
       "turboThreshold": 0
     }
   ],
@@ -139,7 +139,7 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value}"
+      "format": "{value} %"
     }
   },
   "navigation": {
@@ -177,7 +177,7 @@
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.3f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": true
   },
   "exporting": {

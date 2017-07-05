@@ -10,7 +10,7 @@
   	//"min": 0,
   	//"max": 0.5,
     "labels": {
-      "format": "{value}"
+      "format": "{value} %"
     }    
   },
   "series": [
@@ -32,7 +32,7 @@
     }
   },
   tooltip: {
-    pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.3f}</b><br/>',
+    pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}</b><br/>',
     shared: true
   },  
   "chart": {      
