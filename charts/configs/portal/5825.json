@@ -6,90 +6,90 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          0
+          519483
         ],
         [
           "Vorstädte",
-          0
+          928329
         ],
         [
           "Am Ring",
-          0
+          517556
         ],
         [
           "Breite",
-          0
+          92897
         ],
         [
           "St. Alban",
-          0
+          1181456
         ],
         [
           "Gundeldingen",
-          0
+          629649
         ],
         [
           "Bruderholz",
-          0
+          58457
         ],
         [
           "Bachletten",
-          0
+          110886
         ],
         [
           "Gotthelf",
-          0
+          98852
         ],
         [
           "Iselin",
-          0
+          161315
         ],
         [
           "St. Johann",
-          0
+          1183076
         ],
         [
           "Altstadt Kleinbasel",
-          0
+          250620
         ],
         [
           "Clara",
-          0
+          135777
         ],
         [
           "Wettstein",
-          0
+          526004
         ],
         [
           "Hirzbrunnen",
-          0
+          216817
         ],
         [
           "Rosental",
-          0
+          581619
         ],
         [
           "Matthäus",
-          0
+          147139
         ],
         [
           "Klybeck",
-          0
+          825593
         ],
         [
           "Kleinhüningen",
-          0
+          276237
         ],
         [
           "Riehen",
-          0
+          207379
         ],
         [
           "Bettingen",
-          0
+          29759
         ]
       ],
-      "name": "2010",
+      "name": "2010 Arbeit",
       "turboThreshold": 0
     },
     {
@@ -110,11 +110,11 @@
         ],
         [
           "Breite",
-          89810
+          87666
         ],
         [
           "St. Alban",
-          1189682
+          1173793
         ],
         [
           "Gundeldingen",
@@ -134,11 +134,11 @@
         ],
         [
           "Iselin",
-          161223
+          161092
         ],
         [
           "St. Johann",
-          1180388
+          1137533
         ],
         [
           "Altstadt Kleinbasel",
@@ -150,7 +150,7 @@
         ],
         [
           "Wettstein",
-          582486
+          562064
         ],
         [
           "Hirzbrunnen",
@@ -166,7 +166,7 @@
         ],
         [
           "Klybeck",
-          825593
+          824751
         ],
         [
           "Kleinhüningen",
@@ -181,7 +181,7 @@
           29759
         ]
       ],
-      "name": "2015",
+      "name": "2015 Arbeit",
       "turboThreshold": 0
     }
   ],

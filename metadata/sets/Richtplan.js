@@ -12,7 +12,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-06-26T12:55:32.3232",
+		"aktualisierungsdatum": "2017-07-06T14:41:09.099",
 		"schlagwort": [
 			"Bevölkerung",
 			"Wohnen"
@@ -22,7 +22,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Bis  2002 verzeichnete Basel-Stadt  sinkende Bevölkerungszahlen. Seither nimmt die baselstädtische Wohnbevölkerung wieder zu.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"option": "options001",
@@ -91,7 +91,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-06-12T16:19:00.000",
+		"aktualisierungsdatum": "2017-07-04T16:48:49.4949",
 		"schlagwort": [
 			"Wanderung"
 		],
@@ -100,7 +100,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "In den Jahren 2006 bis 2016 zogen jeweils mehr Personen nach Basel-Stadt zu als dass den Kanton verliessen.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"option": "options001",
@@ -117,11 +117,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Zupendler nach Herkunft",
+		"title": "Anzahl Zupendler nach Herkunft",
 		"subtitle": "",
 		"kuerzel": "I.11.5.05804",
 		"kuerzelKunde": "ST 1-4",
-		"description": "Zupendler nach Herkunft",
+		"description": "Anzahl Zupendler nach Herkunft",
 		"id": 5804,
 		"thema": "11 Verkehr",
 		"unterthema": "Pendler",
@@ -145,7 +145,9 @@ var indikatorensetData = [
 		"visible": true,
 		"visibleInPortal": true,
 		"parentId": null,
-		"children": [],
+		"children": [
+			"5866"
+		],
 		"renderLink": [],
 		"quellenangabe": [],
 		"externalLinks": [
@@ -191,11 +193,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Bevölkerung am Jahresende",
+		"title": "Bevölkerung am Jahresende nach Herkunft",
 		"subtitle": "",
 		"kuerzel": "I.01.1.05809",
 		"kuerzelKunde": "ST 4-2",
-		"description": "Bevölkerung am Jahresende",
+		"description": "Bevölkerung am Jahresende nach Herkunft",
 		"id": 5809,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
@@ -231,47 +233,6 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Bevölkerung am Jahresende",
-		"subtitle": "",
-		"kuerzel": "I.01.1.05810",
-		"kuerzelKunde": "ST 4-1",
-		"description": "Bevölkerung am Jahresende",
-		"id": 5810,
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Richtplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2017-06-12T13:52:05.055",
-		"schlagwort": [
-			"Ausländer",
-			"Bevölkerung"
-		],
-		"stufe1": "Schwerpunkt 5: Urbane Standortqualität",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Ausländeranteil liegt seit zehn Jahren bei rund einem Drittel.",
-		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister.",
-		"template": "template001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": false,
-		"parentId": 2265,
-		"children": [
-			"5871"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
-		],
-		"externalLinks": [
-			""
-		]
-	},
-	{
 		"title": "Anzahl Wohnungen",
 		"subtitle": "",
 		"kuerzel": "I.09.1.05812",
@@ -284,7 +245,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-06-12T16:47:57.5757",
+		"aktualisierungsdatum": "2017-07-04T16:42:16.1616",
 		"schlagwort": [
 			"Wohnen"
 		],
@@ -293,14 +254,16 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Der Wohnungsbestand ist innert 5 Jahren um gut 3000 Einheiten oder 3% angewachsen. Der grösste relative Zuwachs verzeichnete das Wohnviertel Rosental, in welchem in diesem Zeitraum netto über 600 neue Wohnungen entstanden.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
 		"parentId": null,
-		"children": [],
+		"children": [
+			"5872"
+		],
 		"renderLink": [],
 		"quellenangabe": [],
 		"externalLinks": [
@@ -329,7 +292,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Die Leerwohnungsquote sank seit 2006 kontinuierlich und erreichte 2014 mit 0,2% den tiefsten Wert. Seither steigt sie wieder leicht an.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"option": "options001",
@@ -358,7 +321,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-05T09:32:06.066",
 		"schlagwort": [
 			"Wohnen"
 		],
@@ -487,12 +450,14 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Über 90% der Befragten sind mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden. Dieser Wert ist seit 2005 jeweils leicht angestiegen.",
 		"erlaeuterungen": "",
-		"template": "befragungen001",
+		"template": "line001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
 		"parentId": 4150,
-		"children": [],
+		"children": [
+			"5879"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_7"
@@ -671,7 +636,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-06-26T16:03:00.000",
+		"aktualisierungsdatum": "2017-07-04T18:50:03.033",
 		"schlagwort": [
 			"Gebäude"
 		],
@@ -709,7 +674,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-06-26T16:08:39.3939",
+		"aktualisierungsdatum": "2017-07-04T17:01:43.4343",
 		"schlagwort": [
 			"Personenwagen"
 		],

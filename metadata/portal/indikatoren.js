@@ -5180,7 +5180,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-06-26T12:55:32.3232",
+		"aktualisierungsdatum": "2017-07-06T14:41:09.099",
 		"schlagwort": [
 			"Bevölkerung",
 			"Wohnen"
@@ -5190,7 +5190,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Bis  2002 verzeichnete Basel-Stadt  sinkende Bevölkerungszahlen. Seither nimmt die baselstädtische Wohnbevölkerung wieder zu.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"option": "options001",
@@ -5259,7 +5259,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-06-12T16:19:00.000",
+		"aktualisierungsdatum": "2017-07-04T16:48:49.4949",
 		"schlagwort": [
 			"Wanderung"
 		],
@@ -5268,7 +5268,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "In den Jahren 2006 bis 2016 zogen jeweils mehr Personen nach Basel-Stadt zu als dass den Kanton verliessen.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"option": "options001",
@@ -5285,11 +5285,11 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Zupendler nach Herkunft",
+		"title": "Anzahl Zupendler nach Herkunft",
 		"subtitle": "",
 		"kuerzel": "I.11.5.05804",
 		"kuerzelKunde": "ST 1-4",
-		"description": "Zupendler nach Herkunft",
+		"description": "Anzahl Zupendler nach Herkunft",
 		"id": 5804,
 		"thema": "11 Verkehr",
 		"unterthema": "Pendler",
@@ -5313,7 +5313,9 @@ var indikatoren = [
 		"visible": true,
 		"visibleInPortal": true,
 		"parentId": null,
-		"children": [],
+		"children": [
+			"5866"
+		],
 		"renderLink": [],
 		"quellenangabe": [],
 		"externalLinks": [
@@ -5371,7 +5373,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-06-12T16:47:57.5757",
+		"aktualisierungsdatum": "2017-07-04T16:42:16.1616",
 		"schlagwort": [
 			"Wohnen"
 		],
@@ -5380,14 +5382,16 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Der Wohnungsbestand ist innert 5 Jahren um gut 3000 Einheiten oder 3% angewachsen. Der grösste relative Zuwachs verzeichnete das Wohnviertel Rosental, in welchem in diesem Zeitraum netto über 600 neue Wohnungen entstanden.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
 		"parentId": null,
-		"children": [],
+		"children": [
+			"5872"
+		],
 		"renderLink": [],
 		"quellenangabe": [],
 		"externalLinks": [
@@ -5416,7 +5420,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Die Leerwohnungsquote sank seit 2006 kontinuierlich und erreichte 2014 mit 0,2% den tiefsten Wert. Seither steigt sie wieder leicht an.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"option": "options001",
@@ -5559,7 +5563,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-06-26T16:03:00.000",
+		"aktualisierungsdatum": "2017-07-04T18:50:03.033",
 		"schlagwort": [
 			"Gebäude"
 		],
@@ -5597,7 +5601,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-06-26T16:08:39.3939",
+		"aktualisierungsdatum": "2017-07-04T17:01:43.4343",
 		"schlagwort": [
 			"Personenwagen"
 		],

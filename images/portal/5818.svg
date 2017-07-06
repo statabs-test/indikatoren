@@ -21,26 +21,29 @@
         <path fill="none" class="highcharts-axis-line" d="M90 82v190"/>
     </g>
     <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(90 82)" clip-path="url(#a)">
+            <path fill="#D7E8D2" class="highcharts-point" d="M4 161h5v30H4zm19-21h5v51h-5zm18-39h5v90h-5zm18 27h5v63h-5zm19-39h5v102h-5zm18-26h5v128h-5zm18 45h5v83h-5zm19-31h5v114h-5zm18 59h5v55h-5zm18-58h5v113h-5zm19-12h5v125h-5zm18 104h5v21h-5zm18-8h5v29h-5zm19-16h5v45h-5zm18-13h5v58h-5zm18 25h5v33h-5zm19-70h5v103h-5zm18 61h5v42h-5zm18 26h5v16h-5zm19-158h5v174h-5zm18 162h5v12h-5z"/>
+        </g>
         <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(90 82)" clip-path="url(#a)">
-            <path fill="#73ba7c" class="highcharts-point" d="M10 161h5v30h-5zm18-23h5v53h-5zm18-38h5v91h-5zm19 28h5v63h-5zm18-44h5v107h-5zm18-24h5v131h-5zm19 47h5v84h-5zm18-31h5v115h-5zm18 60h5v55h-5zm19-58h5v113h-5zm18-17h5v130h-5zm18 109h5v21h-5zm19-8h5v29h-5zm18-18h5v47h-5zm18-12h5v59h-5zm19 17h5v42h-5zm18-62h5v104h-5zm18 62h5v42h-5zm19 25h5v17h-5zm18-157h5v174h-5zm18 162h5v12h-5z"/>
+            <path fill="#007A2F" class="highcharts-point" d="M10 161h5v30h-5zm18-23h5v53h-5zm18-38h5v91h-5zm19 28h5v63h-5zm18-44h5v107h-5zm18-24h5v131h-5zm19 47h5v84h-5zm18-31h5v115h-5zm18 60h5v55h-5zm19-58h5v113h-5zm18-17h5v130h-5zm18 109h5v21h-5zm19-8h5v29h-5zm18-18h5v47h-5zm18-12h5v59h-5zm19 17h5v42h-5zm18-62h5v104h-5zm18 62h5v42h-5zm19 25h5v17h-5zm18-157h5v174h-5zm18 162h5v12h-5z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>Bruttogeschossfläche Wohnen</tspan>
     </text>
-    <g class="highcharts-legend" transform="translate(55 45)">
+    <g class="highcharts-legend" transform="translate(80 45)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="131" height="25"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
                 2010
             </text>
-            <path fill="#d7e9d2" class="highcharts-point" d="M10 7h12v12H10z"/>
+            <path fill="#D7E8D2" class="highcharts-point" d="M10 7h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(75.688 3)">
                 2015
             </text>
-            <path fill="#73ba7c" class="highcharts-point" d="M77.688 7h12v12h-12z"/>
+            <path fill="#007A2F" class="highcharts-point" d="M77.688 7h12v12h-12z"/>
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">

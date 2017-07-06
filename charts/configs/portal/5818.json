@@ -1,104 +1,196 @@
 {
   "series": [
     {
-      "color": "#d7e9d2",
+      "color": "#D7E8D2",
       "visible": true,
       "data": [
         [
           "Altstadt Grossbasel",
-          0
+          234162
+        ],
+        [
+          "Altstadt Grossbasel",
+          null
         ],
         [
           "Vorstädte",
-          0
+          405084
+        ],
+        [
+          "Vorstädte",
+          null
         ],
         [
           "Am Ring",
-          0
+          710360
+        ],
+        [
+          "Am Ring",
+          null
         ],
         [
           "Breite",
-          0
+          494450
+        ],
+        [
+          "Breite",
+          null
         ],
         [
           "St. Alban",
-          0
+          805689
+        ],
+        [
+          "St. Alban",
+          null
         ],
         [
           "Gundeldingen",
-          0
+          1007041
+        ],
+        [
+          "Gundeldingen",
+          null
         ],
         [
           "Bruderholz",
-          0
+          657497
+        ],
+        [
+          "Bruderholz",
+          null
         ],
         [
           "Bachletten",
-          0
+          901044
+        ],
+        [
+          "Bachletten",
+          null
         ],
         [
           "Gotthelf",
-          0
+          430316
+        ],
+        [
+          "Gotthelf",
+          null
         ],
         [
           "Iselin",
-          0
+          890815
+        ],
+        [
+          "Iselin",
+          null
         ],
         [
           "St. Johann",
-          0
+          990762
+        ],
+        [
+          "St. Johann",
+          null
         ],
         [
           "Altstadt Kleinbasel",
-          0
+          165181
+        ],
+        [
+          "Altstadt Kleinbasel",
+          null
         ],
         [
           "Clara",
-          0
+          228430
+        ],
+        [
+          "Clara",
+          null
         ],
         [
           "Wettstein",
-          0
+          357541
+        ],
+        [
+          "Wettstein",
+          null
         ],
         [
           "Hirzbrunnen",
-          0
+          456075
+        ],
+        [
+          "Hirzbrunnen",
+          null
         ],
         [
           "Rosental",
-          0
+          256823
+        ],
+        [
+          "Rosental",
+          null
         ],
         [
           "Matthäus",
-          0
+          814458
+        ],
+        [
+          "Matthäus",
+          null
         ],
         [
           "Klybeck",
-          0
+          329535
+        ],
+        [
+          "Klybeck",
+          null
         ],
         [
           "Kleinhüningen",
-          0
+          122818
+        ],
+        [
+          "Kleinhüningen",
+          null
         ],
         [
           "Riehen",
-          0
+          1372108
+        ],
+        [
+          "Riehen",
+          null
         ],
         [
           "Bettingen",
-          0
+          97299
+        ],
+        [
+          "Bettingen",
+          null
         ]
       ],
       "name": "2010",
       "turboThreshold": 0
     },
     {
-      "color": "#73ba7c",
+      "color": "#007A2F",
       "visible": true,
       "data": [
         [
           "Altstadt Grossbasel",
+          null
+        ],
+        [
+          "Altstadt Grossbasel",
           234073
+        ],
+        [
+          "Vorstädte",
+          null
         ],
         [
           "Vorstädte",
@@ -106,7 +198,15 @@
         ],
         [
           "Am Ring",
+          null
+        ],
+        [
+          "Am Ring",
           717612
+        ],
+        [
+          "Breite",
+          null
         ],
         [
           "Breite",
@@ -114,7 +214,15 @@
         ],
         [
           "St. Alban",
+          null
+        ],
+        [
+          "St. Alban",
           844677
+        ],
+        [
+          "Gundeldingen",
+          null
         ],
         [
           "Gundeldingen",
@@ -122,11 +230,23 @@
         ],
         [
           "Bruderholz",
+          null
+        ],
+        [
+          "Bruderholz",
           662320
         ],
         [
           "Bachletten",
-          906049
+          null
+        ],
+        [
+          "Bachletten",
+          906037
+        ],
+        [
+          "Gotthelf",
+          null
         ],
         [
           "Gotthelf",
@@ -134,7 +254,15 @@
         ],
         [
           "Iselin",
-          892940
+          null
+        ],
+        [
+          "Iselin",
+          893071
+        ],
+        [
+          "St. Johann",
+          null
         ],
         [
           "St. Johann",
@@ -142,7 +270,15 @@
         ],
         [
           "Altstadt Kleinbasel",
+          null
+        ],
+        [
+          "Altstadt Kleinbasel",
           168605
+        ],
+        [
+          "Clara",
+          null
         ],
         [
           "Clara",
@@ -150,11 +286,23 @@
         ],
         [
           "Wettstein",
+          null
+        ],
+        [
+          "Wettstein",
           374234
         ],
         [
           "Hirzbrunnen",
-          463687
+          null
+        ],
+        [
+          "Hirzbrunnen",
+          469136
+        ],
+        [
+          "Rosental",
+          null
         ],
         [
           "Rosental",
@@ -162,7 +310,15 @@
         ],
         [
           "Matthäus",
+          null
+        ],
+        [
+          "Matthäus",
           818470
+        ],
+        [
+          "Klybeck",
+          null
         ],
         [
           "Klybeck",
@@ -170,11 +326,23 @@
         ],
         [
           "Kleinhüningen",
+          null
+        ],
+        [
+          "Kleinhüningen",
           138015
         ],
         [
           "Riehen",
-          1376776
+          null
+        ],
+        [
+          "Riehen",
+          1376956
+        ],
+        [
+          "Bettingen",
+          null
         ],
         [
           "Bettingen",
@@ -297,7 +465,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 45,
+    "x": 70,
     "y": 35,
     "itemStyle": {
       "fontWeight": "normal"

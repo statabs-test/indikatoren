@@ -1,10 +1,211 @@
-﻿jahr	Nettowohnungsproduktion
-2008	48
-2009	300
-2010	208
-2011	311
-2012	270
-2013	354
-2014	748
-2015	1024
-2016	811
+﻿Jahr	WohnviertelId	Wohnviertel	Nettowohnungsproduktion
+2007	1	Altstadt Grossbasel	-1
+2007	2	Vorstädte	-7
+2007	3	Am Ring	-18
+2007	4	Breite	0
+2007	5	St. Alban	-32
+2007	6	Gundeldingen	0
+2007	7	Bruderholz	16
+2007	8	Bachletten	1
+2007	9	Gotthelf	-13
+2007	10	Iselin	-44
+2007	11	St. Johann	-5
+2007	12	Altstadt Kleinbasel	0
+2007	13	Clara	0
+2007	14	Wettstein	0
+2007	15	Hirzbrunnen	-1
+2007	16	Rosental	0
+2007	17	Matthäus	13
+2007	18	Klybeck	-6
+2007	19	Kleinhüningen	0
+2007	20	Riehen	36
+2007	30	Bettingen	0
+2008	1	Altstadt Grossbasel	-3
+2008	2	Vorstädte	8
+2008	3	Am Ring	15
+2008	4	Breite	2
+2008	5	St. Alban	37
+2008	6	Gundeldingen	14
+2008	7	Bruderholz	1
+2008	8	Bachletten	27
+2008	9	Gotthelf	-8
+2008	10	Iselin	-29
+2008	11	St. Johann	-4
+2008	12	Altstadt Kleinbasel	-17
+2008	13	Clara	-1
+2008	14	Wettstein	-2
+2008	15	Hirzbrunnen	-10
+2008	16	Rosental	0
+2008	17	Matthäus	8
+2008	18	Klybeck	-2
+2008	19	Kleinhüningen	3
+2008	20	Riehen	9
+2008	30	Bettingen	0
+2009	1	Altstadt Grossbasel	4
+2009	2	Vorstädte	-1
+2009	3	Am Ring	-2
+2009	4	Breite	1
+2009	5	St. Alban	1
+2009	6	Gundeldingen	29
+2009	7	Bruderholz	21
+2009	8	Bachletten	-9
+2009	9	Gotthelf	-6
+2009	10	Iselin	-1
+2009	11	St. Johann	102
+2009	12	Altstadt Kleinbasel	0
+2009	13	Clara	0
+2009	14	Wettstein	2
+2009	15	Hirzbrunnen	0
+2009	16	Rosental	233
+2009	17	Matthäus	-72
+2009	18	Klybeck	0
+2009	19	Kleinhüningen	-2
+2009	20	Riehen	0
+2009	30	Bettingen	0
+2010	1	Altstadt Grossbasel	-13
+2010	2	Vorstädte	39
+2010	3	Am Ring	-6
+2010	4	Breite	-26
+2010	5	St. Alban	60
+2010	6	Gundeldingen	12
+2010	7	Bruderholz	4
+2010	8	Bachletten	7
+2010	9	Gotthelf	-1
+2010	10	Iselin	2
+2010	11	St. Johann	173
+2010	12	Altstadt Kleinbasel	0
+2010	13	Clara	-2
+2010	14	Wettstein	1
+2010	15	Hirzbrunnen	-33
+2010	16	Rosental	10
+2010	17	Matthäus	3
+2010	18	Klybeck	3
+2010	19	Kleinhüningen	-3
+2010	20	Riehen	-21
+2010	30	Bettingen	-1
+2011	1	Altstadt Grossbasel	2
+2011	2	Vorstädte	-1
+2011	3	Am Ring	8
+2011	4	Breite	51
+2011	5	St. Alban	-12
+2011	6	Gundeldingen	19
+2011	7	Bruderholz	2
+2011	8	Bachletten	-5
+2011	9	Gotthelf	0
+2011	10	Iselin	22
+2011	11	St. Johann	10
+2011	12	Altstadt Kleinbasel	3
+2011	13	Clara	0
+2011	14	Wettstein	19
+2011	15	Hirzbrunnen	-3
+2011	16	Rosental	-7
+2011	17	Matthäus	73
+2011	18	Klybeck	-2
+2011	19	Kleinhüningen	93
+2011	20	Riehen	32
+2011	30	Bettingen	7
+2012	1	Altstadt Grossbasel	12
+2012	2	Vorstädte	12
+2012	3	Am Ring	47
+2012	4	Breite	1
+2012	5	St. Alban	-6
+2012	6	Gundeldingen	126
+2012	7	Bruderholz	21
+2012	8	Bachletten	15
+2012	9	Gotthelf	-2
+2012	10	Iselin	-6
+2012	11	St. Johann	-15
+2012	12	Altstadt Kleinbasel	2
+2012	13	Clara	-1
+2012	14	Wettstein	1
+2012	15	Hirzbrunnen	0
+2012	16	Rosental	8
+2012	17	Matthäus	5
+2012	18	Klybeck	5
+2012	19	Kleinhüningen	0
+2012	20	Riehen	47
+2012	30	Bettingen	-2
+2013	1	Altstadt Grossbasel	2
+2013	2	Vorstädte	2
+2013	3	Am Ring	7
+2013	4	Breite	-11
+2013	5	St. Alban	100
+2013	6	Gundeldingen	-8
+2013	7	Bruderholz	5
+2013	8	Bachletten	2
+2013	9	Gotthelf	-2
+2013	10	Iselin	13
+2013	11	St. Johann	27
+2013	12	Altstadt Kleinbasel	-2
+2013	13	Clara	-8
+2013	14	Wettstein	-3
+2013	15	Hirzbrunnen	8
+2013	16	Rosental	16
+2013	17	Matthäus	-2
+2013	18	Klybeck	2
+2013	19	Kleinhüningen	0
+2013	20	Riehen	23
+2013	30	Bettingen	0
+2014	1	Altstadt Grossbasel	2
+2014	2	Vorstädte	108
+2014	3	Am Ring	-24
+2014	4	Breite	-7
+2014	5	St. Alban	28
+2014	6	Gundeldingen	51
+2014	7	Bruderholz	-2
+2014	8	Bachletten	0
+2014	9	Gotthelf	0
+2014	10	Iselin	48
+2014	11	St. Johann	-1
+2014	12	Altstadt Kleinbasel	23
+2014	13	Clara	31
+2014	14	Wettstein	101
+2014	15	Hirzbrunnen	37
+2014	16	Rosental	66
+2014	17	Matthäus	7
+2014	18	Klybeck	0
+2014	19	Kleinhüningen	0
+2014	20	Riehen	17
+2014	30	Bettingen	11
+2015	1	Altstadt Grossbasel	3
+2015	2	Vorstädte	-30
+2015	3	Am Ring	16
+2015	4	Breite	10
+2015	5	St. Alban	-73
+2015	6	Gundeldingen	32
+2015	7	Bruderholz	5
+2015	8	Bachletten	11
+2015	9	Gotthelf	5
+2015	10	Iselin	28
+2015	11	St. Johann	1
+2015	12	Altstadt Kleinbasel	-2
+2015	13	Clara	-1
+2015	14	Wettstein	0
+2015	15	Hirzbrunnen	38
+2015	16	Rosental	537
+2015	17	Matthäus	28
+2015	18	Klybeck	0
+2015	19	Kleinhüningen	0
+2015	20	Riehen	27
+2015	30	Bettingen	0
+2016	1	Altstadt Grossbasel	14
+2016	2	Vorstädte	1
+2016	3	Am Ring	12
+2016	4	Breite	110
+2016	5	St. Alban	13
+2016	6	Gundeldingen	31
+2016	7	Bruderholz	11
+2016	8	Bachletten	8
+2016	9	Gotthelf	-1
+2016	10	Iselin	27
+2016	11	St. Johann	3
+2016	12	Altstadt Kleinbasel	-6
+2016	13	Clara	0
+2016	14	Wettstein	-7
+2016	15	Hirzbrunnen	151
+2016	16	Rosental	0
+2016	17	Matthäus	13
+2016	18	Klybeck	4
+2016	19	Kleinhüningen	1
+2016	20	Riehen	58
+2016	30	Bettingen	0

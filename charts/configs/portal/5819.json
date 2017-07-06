@@ -4,23 +4,23 @@
       "color": "#a6a6a6",
       "data": [
         [
-          "2003",
+          "2003  (n=1495)",
           0.66889632107
         ],
         [
-          "2005",
+          "2005  (n=1509)",
           0.662690523525
         ],
         [
-          "2007",
+          "2007  (n=1505)",
           0.332225913621
         ],
         [
-          "2011",
+          "2011  (n=1516)",
           0.395778364116
         ],
         [
-          "2015",
+          "2015  (n=1504)",
           0.465425531914
         ]
       ],
@@ -31,23 +31,23 @@
       "color": "#c00000",
       "data": [
         [
-          "2003",
+          "2003  (n=1495)",
           2.742474916387
         ],
         [
-          "2005",
+          "2005  (n=1509)",
           3.114645460569
         ],
         [
-          "2007",
+          "2007  (n=1505)",
           2.059800664451
         ],
         [
-          "2011",
+          "2011  (n=1516)",
           1.451187335092
         ],
         [
-          "2015",
+          "2015  (n=1504)",
           0.930851063829
         ]
       ],
@@ -58,23 +58,23 @@
       "color": "#d99694",
       "data": [
         [
-          "2003",
+          "2003  (n=1495)",
           13.91304347826
         ],
         [
-          "2005",
+          "2005  (n=1509)",
           14.314115308151
         ],
         [
-          "2007",
+          "2007  (n=1505)",
           14.152823920265
         ],
         [
-          "2011",
+          "2011  (n=1516)",
           9.4327176781
         ],
         [
-          "2015",
+          "2015  (n=1504)",
           7.313829787234
         ]
       ],
@@ -85,23 +85,23 @@
       "color": "#00b050",
       "data": [
         [
-          "2003",
+          "2003  (n=1495)",
           41.471571906354
         ],
         [
-          "2005",
+          "2005  (n=1509)",
           44.532803180914
         ],
         [
-          "2007",
+          "2007  (n=1505)",
           47.840531561461
         ],
         [
-          "2011",
+          "2011  (n=1516)",
           39.775725593667
         ],
         [
-          "2015",
+          "2015  (n=1504)",
           41.622340425531
         ]
       ],
@@ -112,23 +112,23 @@
       "color": "#73ba7c",
       "data": [
         [
-          "2003",
+          "2003  (n=1495)",
           41.204013377926
         ],
         [
-          "2005",
+          "2005  (n=1509)",
           37.375745526838
         ],
         [
-          "2007",
+          "2007  (n=1505)",
           35.614617940199
         ],
         [
-          "2011",
+          "2011  (n=1516)",
           48.944591029023
         ],
         [
-          "2015",
+          "2015  (n=1504)",
           49.667553191489
         ]
       ],
@@ -138,50 +138,32 @@
   ],
   "xAxis": {
     "type": "category",
-    "uniqueNames": true,
+    "uniqueNames": false,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
-    "tickColor": "#FFFFFF",
-    "title": {
+    "labels": {
       "style": {
         "color": "#000000"
       }
     },
-    "labels": {
-      "rotation": 0,
-      "style": {
-        "color": "#000000",
-        "width": 1,
-        "textOverflow": "none"
-      },
-      "formatter": function () {
-            	return this.value.replace(" ", "<br/>");
-            }
-    },
+    "tickLength": 0,
     "tickInterval": 1
   },
   "chart": {
     "events": {
       "load": function () {
-                this.credits.element.onclick = function() {
-                    /*
-                    window.open(
-                    "http://www.statistik.bs.ch",
-                    '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
-                    );
-                    */
-                }
-            }
+              this.credits.element.onclick = function() {}
+          }
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
     "width": 485,
     "height": 415,
-    "spacingBottom": 30,
+    "spacingBottom": 45,
     "style": {
       "fontFamily": "Arial"
     },
-    "zoomType": "xy",
     "type": "column",
     "renderTo": "container-5819",
     "marginBottom": 75,
@@ -201,34 +183,21 @@
   "subtitle": {
     "style": {
       "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
       "color": "#000000"
     },
-    "align": "left",
-    "text": "«Wie zufrieden sind Sie mit den Grünanlagen und Parks in Ihrem Wohnort?»"
+    "text": "«Wie zufrieden sind Sie mit den Grünanlagen und Parks in Ihrem Wohnort?»",
+    "align": "left"
   },
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
-    }
-  },
-  "plotOptions": {
-    "series": {
-      "borderWidth": 0,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      },
-      "stacking": "normal",
-      "pointWidth": 20
-    }
+  "tooltip": {
+    "shared": true,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
-    "tickInterval": 10,
+    "min": 0,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
-    "lineColor": "#B9CFD7",
     "title": {
       "style": {
         "color": "#000000",
@@ -237,18 +206,15 @@
       "text": null
     },
     "labels": {
-      "format": "{value:,.0f}%",
       "style": {
         "color": "#000000"
-      }
+      },
+      "format": "{value:,.0f}%"
     },
     "max": 100
   },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": true
-  },
   "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
     "style": {
       "color": "#000000",
@@ -264,19 +230,26 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_7"
   },
   "legend": {
+    "enabled": true,
     "layout": "vertical",
     "verticalAlign": "middle",
-    "itemMarginBottom": 5,
     "align": "right",
-    "useHTML": true,
+    "symbolRadius": 0,
+    "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"
-    },
-    "symbolRadius": 0,
-    "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
-        },
-    "enabled": true
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "pointWidth": 20,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "normal"
+    }
   },
   "exporting": {
     "filename": "I.50.1.05819"

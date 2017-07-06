@@ -1,26 +1,26 @@
 {
   "series": [
     {
-      "name": "Anzahl Einwohner",
+      "name": "2016",
       "data": [
         [
-          "A",
+          "Anz_A",
           128051
         ],
         [
-          "B",
+          "Anz_B",
           61401
         ],
         [
-          "C",
+          "Anz_C",
           7195
         ],
         [
-          "D",
+          "Anz_D",
           603
         ],
         [
-          "E",
+          "Anz_E",
           168
         ]
       ],

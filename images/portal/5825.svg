@@ -21,26 +21,29 @@
         <path fill="none" class="highcharts-axis-line" d="M90 82v190"/>
     </g>
     <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(90 82)" clip-path="url(#a)">
+            <path fill="#d7e9d2" class="highcharts-point" d="M4 125h5v66H4zm19-52h5v118h-5zm18 52h5v66h-5zm18 54h5v12h-5zM78 41h5v150h-5zm18 70h5v80h-5zm18 73h5v7h-5zm19-7h5v14h-5zm18 1h5v13h-5zm18-7h5v20h-5zm19-130h5v150h-5zm18 118h5v32h-5zm18 15h5v17h-5zm19-50h5v67h-5zm18 40h5v27h-5zm18-47h5v74h-5zm19 55h5v19h-5zm18-86h5v105h-5zm18 70h5v35h-5zm19 9h5v26h-5zm18 22h5v4h-5z"/>
+        </g>
         <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(90 82)" clip-path="url(#a)">
-            <path fill="#73ba7c" class="highcharts-point" d="M10 125h5v66h-5zm18-50h5v116h-5zm18 48h5v68h-5zm19 57h5v11h-5zM83 40h5v151h-5zm18 71h5v80h-5zm19 73h5v7h-5zm18-7h5v14h-5zm18 1h5v13h-5zm19-7h5v20h-5zm18-130h5v150h-5zm18 118h5v32h-5zm19 15h5v17h-5zm18-57h5v74h-5zm18 49h5v25h-5zm19-49h5v74h-5zm18 55h5v19h-5zm18-86h5v105h-5zm19 70h5v35h-5zm18 9h5v26h-5zm18 22h5v4h-5z"/>
+            <path fill="#73ba7c" class="highcharts-point" d="M10 125h5v66h-5zm18-50h5v116h-5zm18 48h5v68h-5zm19 57h5v11h-5zM83 42h5v149h-5zm18 69h5v80h-5zm19 73h5v7h-5zm18-7h5v14h-5zm18 1h5v13h-5zm19-7h5v20h-5zm18-124h5v144h-5zm18 112h5v32h-5zm19 15h5v17h-5zm18-54h5v71h-5zm18 46h5v25h-5zm19-49h5v74h-5zm18 55h5v19h-5zm18-85h5v104h-5zm19 69h5v35h-5zm18 9h5v26h-5zm18 22h5v4h-5z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>Bruttogeschossfläche Industrie und Gewerbe</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(85 45)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="131" height="25"/>
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="200" height="25"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
-                2010
+                <tspan>2010 Arbeit</tspan>
             </text>
             <path fill="#d7e9d2" class="highcharts-point" d="M10 7h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(75.688 3)">
-                2015
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(110.328 3)">
+                <tspan>2015 Arbeit</tspan>
             </text>
-            <path fill="#73ba7c" class="highcharts-point" d="M77.688 7h12v12h-12z"/>
+            <path fill="#73ba7c" class="highcharts-point" d="M112.328 7h12v12h-12z"/>
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
