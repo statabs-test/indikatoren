@@ -1,7 +1,7 @@
 var indikatorensetData = [
 	{
 		"title": "Bevölkerungsdichte",
-		"subtitle": "",
+		"subtitle": "Anzahl Einwohner pro Hektar",
 		"kuerzel": "I.01.1.05201",
 		"kuerzelKunde": "ST 1-1",
 		"description": "Bevölkerungsdichte",
@@ -196,7 +196,7 @@ var indikatorensetData = [
 		"title": "Bevölkerung am Jahresende nach Herkunft",
 		"subtitle": "",
 		"kuerzel": "I.01.1.05809",
-		"kuerzelKunde": "ST 4-2",
+		"kuerzelKunde": "ST 4-1",
 		"description": "Bevölkerung am Jahresende nach Herkunft",
 		"id": 5809,
 		"thema": "01 Bevölkerung",
@@ -223,6 +223,47 @@ var indikatorensetData = [
 		"parentId": 2265,
 		"children": [
 			"5870"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Bevölkerung am Jahresende nach Wohnviertel",
+		"subtitle": "",
+		"kuerzel": "I.01.1.05810",
+		"kuerzelKunde": "ST 4-2",
+		"description": "Bevölkerung am Jahresende nach Wohnviertel",
+		"id": 5810,
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur ",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-06-12T13:52:05.055",
+		"schlagwort": [
+			"Ausländer",
+			"Bevölkerung"
+		],
+		"stufe1": "Schwerpunkt 5: Urbane Standortqualität",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Ausländeranteil liegt seit zehn Jahren bei rund einem Drittel.",
+		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister.",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"parentId": 2265,
+		"children": [
+			"5871"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -350,7 +391,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Nettowohnungsproduktion",
-		"subtitle": "",
+		"subtitle": "Anzahl Wohnungen",
 		"kuerzel": "I.09.1.05816",
 		"kuerzelKunde": "ST 4-7",
 		"description": "Nettowohnungsproduktion",
@@ -384,6 +425,44 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
 		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Nettowohnungsproduktion",
+		"subtitle": "nach Wohnviertel",
+		"kuerzel": "I.09.1.05817",
+		"kuerzelKunde": "ST 4-8",
+		"description": "Nettowohnungsproduktion",
+		"id": 5817,
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2017-07-05T09:38:45.4545",
+		"schlagwort": [
+			"Wohnung"
+		],
+		"stufe1": "Strategie 4",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Nettoproduktion war in den letzten zehn Jahren im Wohnviertel Rosental besonders hoch. Auf dieses Wohnviertel entfielen rund 30% der gesamtkantonalen Nettoproduktion in diesem Zeitraum.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5877"
+		],
+		"renderLink": [],
+		"quellenangabe": [],
 		"externalLinks": [
 			""
 		]
@@ -448,7 +527,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Über 90% der Befragten sind mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden. Dieser Wert ist seit 2005 jeweils leicht angestiegen.",
+		"lesehilfe": "Über 90% der Befragten sind 2015 mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden. Dieser Wert ist seit 2005 jeweils leicht angestiegen.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"option": "options001",
@@ -529,7 +608,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. Im Durchschnitt vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton eine 7,7.",
+		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. 2015 vergeben die Bewohnerinnen und Bewohner im Durchschnitt der Lebensqualität im Stadtkanton eine 7,7.",
 		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "template001",
 		"option": "options001",
@@ -587,7 +666,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Beschäftigtendichte",
-		"subtitle": "",
+		"subtitle": "Anzahl Beschäftigte pro Hektar",
 		"kuerzel": "I.03.2.05823",
 		"kuerzelKunde": "ST 7-1",
 		"description": "Beschäftigtendichte",
@@ -674,7 +753,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-07-04T17:01:43.4343",
+		"aktualisierungsdatum": "2017-07-10T17:57:06.066",
 		"schlagwort": [
 			"Personenwagen"
 		],
@@ -700,11 +779,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Personen- und Kurskilometer",
+		"title": "Kurskilometer",
 		"subtitle": "",
 		"kuerzel": "I.11.2.05830",
 		"kuerzelKunde": "ST 11-3",
-		"description": "Personen- und Kurskilometer",
+		"description": "Kurskilometer",
 		"id": 5830,
 		"thema": "11 Verkehr",
 		"unterthema": "Öffentlicher Verkehr",

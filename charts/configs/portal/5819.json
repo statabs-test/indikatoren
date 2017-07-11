@@ -168,7 +168,7 @@
     "renderTo": "container-5819",
     "marginBottom": 75,
     "marginTop": 75,
-    "inverted": false,
+    "inverted": true,
     "forExport": true
   },
   "title": {

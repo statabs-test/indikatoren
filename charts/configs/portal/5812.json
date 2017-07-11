@@ -5,7 +5,7 @@
       "visible": true,
       "data": [
         [
-          "Altstadt Grossbasel",
+          "Altstadt GB",
           1350
         ],
         [
@@ -49,7 +49,7 @@
           10007
         ],
         [
-          "Altstadt Kleinbasel",
+          "Altstadt KB",
           1515
         ],
         [
@@ -97,7 +97,7 @@
       "visible": true,
       "data": [
         [
-          "Altstadt Grossbasel",
+          "Altstadt GB",
           1411
         ],
         [
@@ -141,7 +141,7 @@
           10060
         ],
         [
-          "Altstadt Kleinbasel",
+          "Altstadt KB",
           1534
         ],
         [
@@ -267,7 +267,7 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f} m²"
+      "format": "{value:,.0f}"
     }
   },
   "navigation": {
@@ -304,7 +304,7 @@
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} m²\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {

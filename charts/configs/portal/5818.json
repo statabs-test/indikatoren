@@ -9,168 +9,84 @@
           234162
         ],
         [
-          "Altstadt Grossbasel",
-          null
-        ],
-        [
           "Vorstädte",
           405084
-        ],
-        [
-          "Vorstädte",
-          null
         ],
         [
           "Am Ring",
           710360
         ],
         [
-          "Am Ring",
-          null
-        ],
-        [
           "Breite",
           494450
-        ],
-        [
-          "Breite",
-          null
         ],
         [
           "St. Alban",
           805689
         ],
         [
-          "St. Alban",
-          null
-        ],
-        [
           "Gundeldingen",
           1007041
-        ],
-        [
-          "Gundeldingen",
-          null
         ],
         [
           "Bruderholz",
           657497
         ],
         [
-          "Bruderholz",
-          null
-        ],
-        [
           "Bachletten",
           901044
-        ],
-        [
-          "Bachletten",
-          null
         ],
         [
           "Gotthelf",
           430316
         ],
         [
-          "Gotthelf",
-          null
-        ],
-        [
           "Iselin",
           890815
-        ],
-        [
-          "Iselin",
-          null
         ],
         [
           "St. Johann",
           990762
         ],
         [
-          "St. Johann",
-          null
-        ],
-        [
           "Altstadt Kleinbasel",
           165181
-        ],
-        [
-          "Altstadt Kleinbasel",
-          null
         ],
         [
           "Clara",
           228430
         ],
         [
-          "Clara",
-          null
-        ],
-        [
           "Wettstein",
           357541
-        ],
-        [
-          "Wettstein",
-          null
         ],
         [
           "Hirzbrunnen",
           456075
         ],
         [
-          "Hirzbrunnen",
-          null
-        ],
-        [
           "Rosental",
           256823
-        ],
-        [
-          "Rosental",
-          null
         ],
         [
           "Matthäus",
           814458
         ],
         [
-          "Matthäus",
-          null
-        ],
-        [
           "Klybeck",
           329535
-        ],
-        [
-          "Klybeck",
-          null
         ],
         [
           "Kleinhüningen",
           122818
         ],
         [
-          "Kleinhüningen",
-          null
-        ],
-        [
           "Riehen",
           1372108
         ],
         [
-          "Riehen",
-          null
-        ],
-        [
           "Bettingen",
           97299
-        ],
-        [
-          "Bettingen",
-          null
         ]
       ],
       "name": "2010",
@@ -182,15 +98,7 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          null
-        ],
-        [
-          "Altstadt Grossbasel",
           234073
-        ],
-        [
-          "Vorstädte",
-          null
         ],
         [
           "Vorstädte",
@@ -198,15 +106,7 @@
         ],
         [
           "Am Ring",
-          null
-        ],
-        [
-          "Am Ring",
           717612
-        ],
-        [
-          "Breite",
-          null
         ],
         [
           "Breite",
@@ -214,15 +114,7 @@
         ],
         [
           "St. Alban",
-          null
-        ],
-        [
-          "St. Alban",
           844677
-        ],
-        [
-          "Gundeldingen",
-          null
         ],
         [
           "Gundeldingen",
@@ -230,15 +122,7 @@
         ],
         [
           "Bruderholz",
-          null
-        ],
-        [
-          "Bruderholz",
           662320
-        ],
-        [
-          "Bachletten",
-          null
         ],
         [
           "Bachletten",
@@ -246,15 +130,7 @@
         ],
         [
           "Gotthelf",
-          null
-        ],
-        [
-          "Gotthelf",
           431363
-        ],
-        [
-          "Iselin",
-          null
         ],
         [
           "Iselin",
@@ -262,15 +138,7 @@
         ],
         [
           "St. Johann",
-          null
-        ],
-        [
-          "St. Johann",
           1027520
-        ],
-        [
-          "Altstadt Kleinbasel",
-          null
         ],
         [
           "Altstadt Kleinbasel",
@@ -278,15 +146,7 @@
         ],
         [
           "Clara",
-          null
-        ],
-        [
-          "Clara",
           228425
-        ],
-        [
-          "Wettstein",
-          null
         ],
         [
           "Wettstein",
@@ -294,15 +154,7 @@
         ],
         [
           "Hirzbrunnen",
-          null
-        ],
-        [
-          "Hirzbrunnen",
           469136
-        ],
-        [
-          "Rosental",
-          null
         ],
         [
           "Rosental",
@@ -310,15 +162,7 @@
         ],
         [
           "Matthäus",
-          null
-        ],
-        [
-          "Matthäus",
           818470
-        ],
-        [
-          "Klybeck",
-          null
         ],
         [
           "Klybeck",
@@ -326,23 +170,11 @@
         ],
         [
           "Kleinhüningen",
-          null
-        ],
-        [
-          "Kleinhüningen",
           138015
         ],
         [
           "Riehen",
-          null
-        ],
-        [
-          "Riehen",
           1376956
-        ],
-        [
-          "Bettingen",
-          null
         ],
         [
           "Bettingen",

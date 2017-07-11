@@ -6,90 +6,90 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          234162
+          2453
         ],
         [
           "Vorstädte",
-          405084
+          5862
         ],
         [
           "Am Ring",
-          710360
+          12434
         ],
         [
           "Breite",
-          494450
+          10235
         ],
         [
           "St. Alban",
-          805689
+          11365
         ],
         [
           "Gundeldingen",
-          1007041
+          22956
         ],
         [
           "Bruderholz",
-          657497
+          9832
         ],
         [
           "Bachletten",
-          901044
+          15075
         ],
         [
           "Gotthelf",
-          430316
+          7875
         ],
         [
           "Iselin",
-          890815
+          19105
         ],
         [
           "St. Johann",
-          990762
+          23389
         ],
         [
           "Altstadt Kleinbasel",
-          165181
+          2829
         ],
         [
           "Clara",
-          228430
+          4889
         ],
         [
           "Wettstein",
-          357541
+          6167
         ],
         [
           "Hirzbrunnen",
-          456075
+          10335
         ],
         [
           "Rosental",
-          256823
+          5341
         ],
         [
           "Matthäus",
-          814458
+          20462
         ],
         [
           "Klybeck",
-          329535
+          9312
         ],
         [
           "Kleinhüningen",
-          122818
+          3115
         ],
         [
           "Riehen",
-          1372108
+          22814
         ],
         [
           "Bettingen",
-          97299
+          1313
         ]
       ],
-      "name": "2010",
+      "name": "1997",
       "turboThreshold": 0
     },
     {
@@ -98,90 +98,90 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          234073
+          3135
         ],
         [
           "Vorstädte",
-          419021
+          6697
         ],
         [
           "Am Ring",
-          717612
+          13881
         ],
         [
           "Breite",
-          497145
+          11081
         ],
         [
           "St. Alban",
-          844677
+          13720
         ],
         [
           "Gundeldingen",
-          1034556
+          23635
         ],
         [
           "Bruderholz",
-          662320
+          11273
         ],
         [
           "Bachletten",
-          906037
+          16136
         ],
         [
           "Gotthelf",
-          431363
+          8433
         ],
         [
           "Iselin",
-          893071
+          21185
         ],
         [
           "St. Johann",
-          1027520
+          24840
         ],
         [
           "Altstadt Kleinbasel",
-          168605
+          3233
         ],
         [
           "Clara",
-          228425
+          5245
         ],
         [
           "Wettstein",
-          374234
+          7104
         ],
         [
           "Hirzbrunnen",
-          469136
+          10845
         ],
         [
           "Rosental",
-          327950
+          8831
         ],
         [
           "Matthäus",
-          818470
+          21209
         ],
         [
           "Klybeck",
-          329535
+          9600
         ],
         [
           "Kleinhüningen",
-          138015
+          3640
         ],
         [
           "Riehen",
-          1376956
+          25634
         ],
         [
           "Bettingen",
-          98676
+          1474
         ]
       ],
-      "name": "2015",
+      "name": "2016",
       "turboThreshold": 0
     }
   ],
@@ -221,7 +221,7 @@
     "type": "column",
     "inverted": false,
     "forExport": true,
-    "renderTo": "container-5818"
+    "renderTo": "container-5810"
   },
   "plotOptions": {
     "series": {
@@ -240,7 +240,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Bruttogeschossfläche Wohnen"
+    "text": "Bevölkerung am Jahresende nach Wohnviertel"
   },
   "subtitle": {
     "style": {
@@ -287,9 +287,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: "
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
   },
   "legend": {
     "symbolRadius": 0,
@@ -308,6 +308,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.09.1.05818"
+    "filename": "I.01.1.05810"
   }
 }

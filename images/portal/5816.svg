@@ -27,8 +27,8 @@
             <path fill="#a8c4cb" class="highcharts-point highcharts-negative" stroke="#fff" d="M16.5 190.5h15v21h-15zm42 0h15v24h-15zm41 0h15v29h-15zm42 0h15v28h-15zm41 0h15v11h-15zm42 0h15v5h-15zm41 0h15v8h-15zm42 0h15v10h-15zm41 0h15v34h-15zm42 0h15v15h-15z"/>
         </g>
         <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(52 111)" clip-path="url(#a)">
-            <path fill="#fabd24" class="highcharts-point" stroke="#fff" d="M16.5 176.5h15v14h-15zm42 9h15v5h-15zm41 2h15v3h-15zm42 0h15v3h-15z"/>
-            <path fill="#fabd24" class="highcharts-point highcharts-negative" stroke="#fff" d="M182.5 190.5h15v4h-15zm42 0h15v6h-15zm41 0h15v7h-15zm42 0h15v35h-15zm41 0h15v5h-15zm42 0h15v21h-15z"/>
+            <path fill="#fabd24" class="highcharts-point highcharts-negative" stroke="#fff" d="M16.5 190.5h15v14h-15zm42 0h15v6h-15zm41 0h15v4h-15zm42 0h15v4h-15z"/>
+            <path fill="#fabd24" class="highcharts-point" stroke="#fff" d="M182.5 187.5h15v3h-15zm42-2h15v5h-15zm41-1h15v6h-15zm42-28h15v34h-15zm41 30h15v4h-15zm42-16h15v20h-15z"/>
         </g>
         <g class="highcharts-series highcharts-series-3 highcharts-line-series highcharts-color-undefined" transform="translate(52 111)" clip-path="url(#a)">
             <path fill="none" d="M24.516 202.014l41.552-20.753 41.552-47.981 41.552 17.517 41.552-19.611 41.552 7.806 41.552 18.85 41.552-61.88 41.552-26.466 41.552 36.557" class="highcharts-graph" stroke="#000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
@@ -41,6 +41,9 @@
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>Nettowohnungsproduktion</tspan>
+    </text>
+    <text x="10" class="highcharts-subtitle" y="40" color="#000" font-weight="400">
+        <tspan>Anzahl Wohnungen</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(50 50)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="273" height="49"/>

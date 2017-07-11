@@ -32,18 +32,18 @@
         <tspan>Bruttogeschossfläche Industrie und Gewerbe</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(85 45)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="200" height="25"/>
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="131" height="25"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
-                <tspan>2010 Arbeit</tspan>
+                2010
             </text>
             <path fill="#d7e9d2" class="highcharts-point" d="M10 7h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(110.328 3)">
-                <tspan>2015 Arbeit</tspan>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(75.688 3)">
+                2015
             </text>
-            <path fill="#73ba7c" class="highcharts-point" d="M112.328 7h12v12h-12z"/>
+            <path fill="#73ba7c" class="highcharts-point" d="M77.688 7h12v12h-12z"/>
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
