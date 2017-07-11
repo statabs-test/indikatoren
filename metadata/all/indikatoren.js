@@ -5377,7 +5377,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Bevölkerung"
 		],
-		"stufe1": "Schwerpunkt 5: Urbane Standortqualität",
+		"stufe1": "Strategie 4",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -5418,7 +5418,7 @@ var indikatoren = [
 			"Ausländer",
 			"Bevölkerung"
 		],
-		"stufe1": "Schwerpunkt 5: Urbane Standortqualität",
+		"stufe1": "Strategie 4",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
