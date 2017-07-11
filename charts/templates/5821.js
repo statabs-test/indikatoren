@@ -13,7 +13,10 @@
   },
   "xAxis": {
     "type": "category",
-    "tickInterval": 1
+    "tickInterval": 1,
+    labels: {
+                rotation: 0,
+            }
   },  
   "yAxis": {
     "labels": {
@@ -51,7 +54,7 @@
     "marginBottom": 75,
     "marginTop": 75,
     "type": "column",
-    "inverted": false
+    "inverted": true
   }
 }
 }());

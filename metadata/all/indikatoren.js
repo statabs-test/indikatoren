@@ -5209,6 +5209,45 @@ var indikatoren = [
 		]
 	},
 	{
+		"title": "Bevölkerungsdichte",
+		"subtitle": "nach Wohnviertel",
+		"kuerzel": "I.01.1.05202",
+		"kuerzelKunde": "ST 1-2",
+		"description": "Bevölkerungsdichte",
+		"id": 5202,
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur ",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2017-06-26T13:34:57.5757",
+		"schlagwort": [
+			"Bevölkerung",
+			"Wohnen"
+		],
+		"stufe1": "Strategie 1",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "map001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5863"
+		],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Anzahl Wegpendler nach Ziel",
 		"subtitle": "",
 		"kuerzel": "I.11.5.05203",
@@ -5401,6 +5440,47 @@ var indikatoren = [
 		]
 	},
 	{
+		"title": "Bevölkerung am Jahresende nach Herkunft",
+		"subtitle": "",
+		"kuerzel": "I.01.1.05810",
+		"kuerzelKunde": "ST 4-1",
+		"description": "Bevölkerung am Jahresende nach Herkunft",
+		"id": 5810,
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur ",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-06-12T13:52:05.055",
+		"schlagwort": [
+			"Ausländer",
+			"Bevölkerung"
+		],
+		"stufe1": "Schwerpunkt 5: Urbane Standortqualität",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Ausländeranteil liegt seit zehn Jahren bei rund einem Drittel.",
+		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister.",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": 2265,
+		"children": [
+			"5871"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Anzahl Wohnungen",
 		"subtitle": "",
 		"kuerzel": "I.09.1.05812",
@@ -5477,6 +5557,44 @@ var indikatoren = [
 		]
 	},
 	{
+		"title": "Leerwohnungsquote",
+		"subtitle": "nach Wohnviertel",
+		"kuerzel": "I.09.1.05814",
+		"kuerzelKunde": "ST 4-5",
+		"description": "Leerwohnungsquote",
+		"id": 5814,
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2017-07-04T09:44:27.2727",
+		"schlagwort": [
+			"Wohnung"
+		],
+		"stufe1": "Strategie 4",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2015 wie auch 2016 in Bettingen verzeichnet.",
+		"erlaeuterungen": "",
+		"template": "map001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5874"
+		],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Mittlere Wohnfläche pro Person",
 		"subtitle": "",
 		"kuerzel": "I.09.1.05815",
@@ -5518,7 +5636,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Nettowohnungsproduktion",
-		"subtitle": "",
+		"subtitle": "Anzahl Wohnungen",
 		"kuerzel": "I.09.1.05816",
 		"kuerzelKunde": "ST 4-7",
 		"description": "Nettowohnungsproduktion",
@@ -5552,6 +5670,44 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
 		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Nettowohnungsproduktion",
+		"subtitle": "nach Wohnviertel",
+		"kuerzel": "I.09.1.05817",
+		"kuerzelKunde": "ST 4-8",
+		"description": "Nettowohnungsproduktion",
+		"id": 5817,
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2017-07-05T09:38:45.4545",
+		"schlagwort": [
+			"Wohnung"
+		],
+		"stufe1": "Strategie 4",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Nettoproduktion war in den letzten zehn Jahren im Wohnviertel Rosental besonders hoch. Auf dieses Wohnviertel entfielen rund 30% der gesamtkantonalen Nettoproduktion in diesem Zeitraum.",
+		"erlaeuterungen": "",
+		"template": "bar001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5877"
+		],
+		"renderLink": [],
+		"quellenangabe": [],
 		"externalLinks": [
 			""
 		]
@@ -5616,7 +5772,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Über 90% der Befragten sind mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden. Dieser Wert ist seit 2005 jeweils leicht angestiegen.",
+		"lesehilfe": "Über 90% der Befragten sind 2015 mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden. Dieser Wert ist seit 2005 jeweils leicht angestiegen.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"option": "options001",
@@ -5697,7 +5853,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. Im Durchschnitt vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton eine 7,7.",
+		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. 2015 vergeben die Bewohnerinnen und Bewohner im Durchschnitt der Lebensqualität im Stadtkanton eine 7,7.",
 		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "template001",
 		"option": "options001",
@@ -5755,7 +5911,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Beschäftigtendichte",
-		"subtitle": "",
+		"subtitle": "Anzahl Beschäftigte pro Hektar",
 		"kuerzel": "I.03.2.05823",
 		"kuerzelKunde": "ST 7-1",
 		"description": "Beschäftigtendichte",
@@ -5784,6 +5940,44 @@ var indikatoren = [
 		"parentId": null,
 		"children": [
 			"5883"
+		],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Beschäftigtendichte",
+		"subtitle": "Anzahl Beschäftigte pro Hektar nach Wohnviertel",
+		"kuerzel": "I.03.2.05824",
+		"kuerzelKunde": "ST 7-2",
+		"description": "Beschäftigtendichte",
+		"id": 5824,
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Beschäftigte ",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2017-06-26T15:16:28.2828",
+		"schlagwort": [
+			"Beschäftigte"
+		],
+		"stufe1": "Strategie 7",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "map001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5884"
 		],
 		"renderLink": [],
 		"quellenangabe": [],
@@ -5842,7 +6036,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-07-04T17:01:43.4343",
+		"aktualisierungsdatum": "2017-07-10T17:57:06.066",
 		"schlagwort": [
 			"Personenwagen"
 		],
@@ -5868,11 +6062,57 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Personen- und Kurskilometer",
+		"title": "Anzahl privater Personenwagen pro Haushalt",
+		"subtitle": "",
+		"kuerzel": "I.11.1.05829",
+		"kuerzelKunde": "ST 11-2",
+		"description": "Anzahl privater Personenwagen pro Haushalt",
+		"id": 5829,
+		"thema": "11 Verkehr",
+		"unterthema": "Motorfahrzeuge",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Wohnviertel",
+			"Gemeinde"
+		],
+		"aktualisierungsdatum": "2017-06-26T16:19:02.022",
+		"schlagwort": [
+			"Haushalt",
+			"Familie",
+			"Quote",
+			"Auto"
+		],
+		"stufe1": "Strategie 11",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "In den beiden Landgemeinden besitzen die Haushalte im Schnitt am meisten Personenwagen, in der Kleinbasler Altstadt am wenigsten.",
+		"erlaeuterungen": "",
+		"template": "map001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": 4918,
+		"children": [
+			"5888"
+		],
+		"renderLink": [
+			"4918"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Kurskilometer",
 		"subtitle": "",
 		"kuerzel": "I.11.2.05830",
 		"kuerzelKunde": "ST 11-3",
-		"description": "Personen- und Kurskilometer",
+		"description": "Kurskilometer",
 		"id": 5830,
 		"thema": "11 Verkehr",
 		"unterthema": "Öffentlicher Verkehr",

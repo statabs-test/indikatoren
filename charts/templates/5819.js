@@ -48,7 +48,7 @@
     "marginBottom": 75,
     "marginTop": 75,
     "type": "column",
-    "inverted": false
+    "inverted": true
   }
 }
 }());

@@ -2,7 +2,7 @@
     return {
   "yAxis": [{
     "labels": {
-      "format": "{value:,.0f} m³",
+      "format": "{value:,.0f} Mio m³",
       "style": {
         "color": "#000000"
       }
