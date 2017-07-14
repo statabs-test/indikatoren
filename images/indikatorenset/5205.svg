@@ -30,9 +30,6 @@
             <path fill="none" d="M22.125 125.981L59 124.908l36.875-9.476 36.875 2.364 36.875 9.014 36.875-9.027 36.875-.45 36.875-1.034 36.875 7.106 36.875.52 36.875.212" class="highcharts-graph" stroke="#000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
             <path fill="none" d="M12.125 125.981h10L59 124.908l36.875-9.476 36.875 2.364 36.875 9.014 36.875-9.027 36.875-.45 36.875-1.034 36.875 7.106 36.875.52 36.875.212h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
-        <g class="highcharts-markers highcharts-series-2 highcharts-line-series highcharts-color-undefined highcharts-tracker">
-            <path d="M88 218a4 4 0 1 1 0-.004zm36-1a4 4 0 1 1 0-.004zm37-10a4 4 0 1 1 0-.004zm37 3a4 4 0 1 1 0-.004zm37 9a4 4 0 1 1 0-.004zm37-9a4 4 0 1 1 0-.004zm37-1a4 4 0 1 1 0-.004zm37-1a4 4 0 1 1 0-.004zm37 7a4 4 0 1 1 0-.004zm37 1a4 4 0 1 1 0-.004zm36 0a4 4 0 1 1 0-.004z" class="highcharts-point"/>
-        </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>Wanderungssaldo</tspan>
@@ -41,7 +38,6 @@
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="293" height="30"/>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-2">
             <path fill="none" d="M8 14h16" class="highcharts-graph" stroke="#000" stroke-width="2"/>
-            <path d="M20 14a4 4 0 1 1 0-.004z" class="highcharts-point"/>
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
                 Wanderungssaldo
             </text>

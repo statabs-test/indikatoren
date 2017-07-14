@@ -82,7 +82,7 @@
             <path fill="none" d="M8 33h16" class="highcharts-graph" stroke="#672773" stroke-width="2"/>
             <path fill="#672773" d="M20 33a4 4 0 1 1 0-.004z" class="highcharts-point"/>
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 22)">
-                <tspan>BS Regional OEV</tspan>
+                <tspan>BS Regional ÖV ohne Frequenz</tspan>
             </text>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-3">
@@ -96,7 +96,7 @@
             <path fill="none" d="M8 52h16" class="highcharts-graph" stroke="#007a2f" stroke-width="2"/>
             <path fill="#007a2f" d="M20 52a4 4 0 1 1 0-.004z" class="highcharts-point"/>
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 41)">
-                <tspan>BS Regional OVF</tspan>
+                <tspan>BS Regional ÖV mit Frequent</tspan>
             </text>
         </g>
     </g>

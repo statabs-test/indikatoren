@@ -313,11 +313,11 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "im Vergleich mit der potenziellen Maximalmenge",
+    "text": "Vergleich mit potenzieller Maximalmenge",
     "align": "left"
   },
   "tooltip": {
-    "shared": true
+    "shared": false
   },
   "yAxis": [
     {

@@ -50,7 +50,7 @@
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 31)">
-                <tspan>Über 50 dB (A) in der Nach in %</tspan>
+                <tspan>Über 50 dB (A) in der Nacht in %</tspan>
             </text>
             <path fill="#9A86A6" class="highcharts-point" d="M10 35h12v12H10z"/>
         </g>

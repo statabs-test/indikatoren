@@ -30,7 +30,7 @@
           0.662
         ]
       ],
-      "name": "S-Bahn",
+      "name": "Zug",
       "turboThreshold": 0
     }
   ],
@@ -88,7 +88,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Kurskilometer"
+    "text": "Kurskilometer des öff. Verkehrs in Basel-Stadt"
   },
   "subtitle": {
     "style": {
@@ -97,7 +97,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "in Mio. Kilometer",
     "align": "left"
   },
   "yAxis": {

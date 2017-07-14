@@ -1,48 +1,48 @@
 <svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M10 41h380v329H10z"/>
-    <path fill="none" class="highcharts-plot-border" d="M10 41h380v329H10z"/>
+    <path fill="none" class="highcharts-plot-background" d="M10 41h344v329H10z"/>
+    <path fill="none" class="highcharts-plot-border" d="M10 41h344v329H10z"/>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-pie-series highcharts-color-undefined highcharts-tracker" cursor="true">
-            <path fill="#7cb5ec" d="M199.969 51.5A154.5 154.5 0 1 1 75.854 297.968L200 206z" class="highcharts-point highcharts-color-0"/>
-            <path fill="#434348" d="M75.763 297.844a154.5 154.5 0 0 1 85.356-241.372L200 206z" class="highcharts-point highcharts-color-1"/>
-            <path fill="#90ed7d" d="M161.269 56.433a154.5 154.5 0 0 1 34.809-4.883L200 206z" class="highcharts-point highcharts-color-2"/>
-            <path fill="#f7a35c" d="M196.232 51.546a154.5 154.5 0 0 1 2.78-.043L200 206z" class="highcharts-point highcharts-color-3"/>
-            <path fill="#8085e9" d="M199.167 51.502a154.5 154.5 0 0 1 .618-.002L200 206z" class="highcharts-point highcharts-color-4"/>
+            <path fill="#7cb5ec" d="M181.969 51.5A154.5 154.5 0 1 1 57.854 297.968L182 206z" class="highcharts-point highcharts-color-0"/>
+            <path fill="#434348" d="M57.763 297.844a154.5 154.5 0 0 1 85.356-241.372L182 206z" class="highcharts-point highcharts-color-1"/>
+            <path fill="#90ed7d" d="M143.269 56.433a154.5 154.5 0 0 1 34.809-4.883L182 206z" class="highcharts-point highcharts-color-2"/>
+            <path fill="#f7a35c" d="M178.232 51.546a154.5 154.5 0 0 1 2.78-.043L182 206z" class="highcharts-point highcharts-color-3"/>
+            <path fill="#8085e9" d="M181.167 51.502a154.5 154.5 0 0 1 .618-.002L182 206z" class="highcharts-point highcharts-color-4"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>Anteil Einwohner pro ÖV-Güteklasse</tspan>
     </text>
-    <g class="highcharts-legend" transform="translate(402 137)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="73" height="106"/>
+    <g class="highcharts-legend" transform="translate(366 137)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="108" height="106"/>
         <g class="highcharts-legend-item highcharts-pie-series highcharts-color-0">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
-                Anz_A
+                <tspan>Güteklasse A</tspan>
             </text>
             <path fill="#7cb5ec" class="highcharts-point" d="M10 7h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-pie-series highcharts-color-1">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 22)">
-                Anz_B
+                <tspan>Güteklasse B</tspan>
             </text>
             <path fill="#434348" class="highcharts-point" d="M10 26h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-pie-series highcharts-color-2">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 41)">
-                Anz_C
+                <tspan>Güteklasse C</tspan>
             </text>
             <path fill="#90ed7d" class="highcharts-point" d="M10 45h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-pie-series highcharts-color-3">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 60)">
-                Anz_D
+                <tspan>Güteklasse D</tspan>
             </text>
             <path fill="#f7a35c" class="highcharts-point" d="M10 64h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-pie-series highcharts-color-4">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 79)">
-                Anz_E
+                <tspan>Güteklasse E</tspan>
             </text>
             <path fill="#8085e9" class="highcharts-point" d="M10 83h12v12H10z"/>
         </g>

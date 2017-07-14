@@ -195,7 +195,7 @@
       }
     },
     "tickColor": "#FFFFFF",
-    "tickInterval": 5
+    "tickInterval": 2
   },
   "chart": {
     "borderColor": "#fbfbfb",

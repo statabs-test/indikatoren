@@ -32,7 +32,7 @@
         <tspan>Geförderte Trinkwassermenge</tspan>
     </text>
     <text x="10" class="highcharts-subtitle" y="40" color="#000" font-weight="400">
-        <tspan>im Vergleich mit der potenziellen Maximalmenge</tspan>
+        <tspan>Vergleich mit potenzieller Maximalmenge</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(50 50)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="284" height="49"/>

@@ -10,7 +10,7 @@
   "yAxis": {
 	//"max": 100,
     "labels": {
-      "format": "{value:,.0f} m²"
+      "format": "{value:,.0f}"
     }    
   },
   "series": [
@@ -29,7 +29,7 @@
     }
   },
    tooltip: {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y} m²</b><br/>',
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
     "shared": false
   },
   "chart": {      

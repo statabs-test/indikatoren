@@ -1,21 +1,21 @@
 <svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M10 41h270v329H10z"/>
-    <path fill="none" class="highcharts-plot-border" d="M10 41h270v329H10z"/>
+    <path fill="none" class="highcharts-plot-background" d="M10 41h268v329H10z"/>
+    <path fill="none" class="highcharts-plot-border" d="M10 41h268v329H10z"/>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-pie-series highcharts-color-undefined highcharts-tracker" cursor="true">
-            <path fill="#7cb5ec" d="M144.975 81a125 125 0 0 1 106.98 60.305L145 206z" class="highcharts-point highcharts-color-0"/>
-            <path fill="#434348" d="M252.02 141.412a125 125 0 0 1 0 129.176L145 206z" class="highcharts-point highcharts-color-1"/>
-            <path fill="#90ed7d" d="M251.956 270.695A125 125 0 1 1 40.883 136.828L145 206z" class="highcharts-point highcharts-color-2"/>
-            <path fill="#f7a35c" d="M40.952 136.724a125 125 0 0 1 18.17-21.553L145 206z" class="highcharts-point highcharts-color-3"/>
-            <path fill="#8085e9" d="M59.213 115.085A125 125 0 0 1 144.826 81L145 206z" class="highcharts-point highcharts-color-4"/>
+            <path fill="#7cb5ec" d="M143.975 82A124 124 0 0 1 250.1 141.822L144 206z" class="highcharts-point highcharts-color-0"/>
+            <path fill="#434348" d="M250.164 141.928a124 124 0 0 1 0 128.144L144 206z" class="highcharts-point highcharts-color-1"/>
+            <path fill="#90ed7d" d="M250.1 270.178A124 124 0 1 1 40.716 137.382L144 206z" class="highcharts-point highcharts-color-2"/>
+            <path fill="#f7a35c" d="M40.785 137.279a124 124 0 0 1 18.024-21.381L144 206z" class="highcharts-point highcharts-color-3"/>
+            <path fill="#8085e9" d="M58.899 115.812A124 124 0 0 1 143.828 82L144 206z" class="highcharts-point highcharts-color-4"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>Anteil Fläche nach Art der Bodenbedeckung</tspan>
     </text>
-    <g class="highcharts-legend" transform="translate(292 137)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="183" height="106"/>
+    <g class="highcharts-legend" transform="translate(290 137)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="185" height="106"/>
         <g class="highcharts-legend-item highcharts-pie-series highcharts-color-0">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
                 Gebäude
@@ -42,7 +42,7 @@
         </g>
         <g class="highcharts-legend-item highcharts-pie-series highcharts-color-4">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 79)">
-                <tspan>überige Bodenversiegelung</tspan>
+                <tspan>Überige Bodenversiegelung</tspan>
             </text>
             <path fill="#8085e9" class="highcharts-point" d="M10 83h12v12H10z"/>
         </g>

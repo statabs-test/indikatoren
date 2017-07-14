@@ -54,6 +54,10 @@
       "color": "#000000",
       "index": 1,
       "type": "line",
+      "marker": {
+        "enabled": false
+      }, 
+
       //"yAxis": 1,
       legendIndex: 3,
       tooltip: {

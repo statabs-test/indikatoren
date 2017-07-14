@@ -181,7 +181,7 @@
           168.7
         ]
       ],
-      "name": "BS Regional OEV"
+      "name": "BS Regional ÖV ohne Frequenz"
     },
     {
       "color": "#4f81bd",
@@ -303,7 +303,7 @@
           188.3
         ]
       ],
-      "name": "BS Regional OVF"
+      "name": "BS Regional ÖV mit Frequent"
     }
   ],
   "chart": {

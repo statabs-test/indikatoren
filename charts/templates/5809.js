@@ -13,7 +13,7 @@
   },
   "xAxis": {
     "type": "category",
-	"tickInterval": 5	
+	"tickInterval": 2	
   },  
   "yAxis": {
     "labels": {

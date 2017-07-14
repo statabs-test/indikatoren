@@ -34,16 +34,9 @@
             <path fill="none" d="M24.516 202.014l41.552-20.753 41.552-47.981 41.552 17.517 41.552-19.611 41.552 7.806 41.552 18.85 41.552-61.88 41.552-26.466 41.552 36.557" class="highcharts-graph" stroke="#000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
             <path fill="none" d="M14.516 202.014h10l41.552-20.753 41.552-47.981 41.552 17.517 41.552-19.611 41.552 7.806 41.552 18.85 41.552-61.88 41.552-26.466 41.552 36.557h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
-        <g class="highcharts-markers highcharts-series-3 highcharts-line-series highcharts-color-undefined highcharts-tracker">
-            <path d="M80 313a4 4 0 1 1 0-.004z" class="highcharts-point highcharts-negative"/>
-            <path d="M122 292a4 4 0 1 1 0-.004zm41-48a4 4 0 1 1 0-.004zm42 18a4 4 0 1 1 0-.004zm41-20a4 4 0 1 1 0-.004zm42 8a4 4 0 1 1 0-.004zm41 19a4 4 0 1 1 0-.004zm42-62a4 4 0 1 1 0-.004zm41-27a4 4 0 1 1 0-.004zm42 37a4 4 0 1 1 0-.004z" class="highcharts-point"/>
-        </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>Nettowohnungsproduktion</tspan>
-    </text>
-    <text x="10" class="highcharts-subtitle" y="40" color="#000" font-weight="400">
-        <tspan>Anzahl Wohnungen</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(50 50)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="273" height="49"/>
@@ -67,7 +60,6 @@
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-3">
             <path fill="none" d="M8 33h16" class="highcharts-graph" stroke="#000" stroke-width="2"/>
-            <path d="M20 33a4 4 0 1 1 0-.004z" class="highcharts-point"/>
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 22)">
                 Nettowohnungsproduktion
             </text>
