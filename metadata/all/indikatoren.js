@@ -6025,7 +6025,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Externe und interne Erreichbarkeit",
-		"subtitle": "Stadt Basel im nationalen Vergleich",
+		"subtitle": "Basel.Stadt im Vergleich",
 		"kuerzel": "I.03.2.05891",
 		"kuerzelKunde": "ST 8-1",
 		"description": "Externe und interne Erreichbarkeit",
@@ -6059,6 +6059,47 @@ var indikatoren = [
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Basel Economics"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Bevölkerungsdichte",
+		"subtitle": "Anzahl Einwohner pro Hektar",
+		"kuerzel": "I.01.1.08888",
+		"kuerzelKunde": "ST 1-1",
+		"description": "Bevölkerungsdichte",
+		"id": 8888,
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur ",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-07-06T14:41:09.099",
+		"schlagwort": [
+			"Bevölkerung",
+			"Wohnen"
+		],
+		"stufe1": "Strategie 1",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Bis 2002 verzeichnete Basel-Stadt sinkende Bevölkerungszahlen. Seither nimmt die baselstädtische Wohnbevölkerung und mit ihr die Bevölkerungsdichte wieder zu.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5862"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
 			""

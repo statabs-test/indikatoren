@@ -60,7 +60,7 @@
         <tspan>Externe und interne Erreichbarkeit</tspan>
     </text>
     <text x="10" class="highcharts-subtitle" y="40" color="#000" font-weight="400">
-        <tspan>Stadt Basel im nationalen Vergleich</tspan>
+        <tspan>Basel.Stadt im Vergleich</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(55 45)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="396" height="68"/>
