@@ -68,28 +68,28 @@
             <path fill="none" d="M8 14h16" class="highcharts-graph" stroke="#b00000" stroke-width="2"/>
             <path fill="#b00000" d="M20 14a4 4 0 1 1 0-.004z" class="highcharts-point"/>
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
-                <tspan>BS Regional MIV</tspan>
+                <tspan>Regional MIV</tspan>
             </text>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1">
             <path fill="none" d="M208 14h16" class="highcharts-graph" stroke="#ff8028" stroke-width="2"/>
             <path fill="#ff8028" d="M220 14a4 4 0 1 1 0-.004z" class="highcharts-point"/>
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(208 3)">
-                <tspan>BS Kontinental</tspan>
+                Kontinental
             </text>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-2">
             <path fill="none" d="M8 33h16" class="highcharts-graph" stroke="#672773" stroke-width="2"/>
             <path fill="#672773" d="M20 33a4 4 0 1 1 0-.004z" class="highcharts-point"/>
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 22)">
-                <tspan>BS Regional ÖV ohne Frequenz</tspan>
+                <tspan>Regional ÖV ohne Frequenz</tspan>
             </text>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-3">
             <path fill="none" d="M208 33h16" class="highcharts-graph" stroke="#4f81bd" stroke-width="2"/>
             <path fill="#4f81bd" d="M220 33a4 4 0 1 1 0-.004z" class="highcharts-point"/>
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(208 22)">
-                <tspan>BS Global</tspan>
+                Global
             </text>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-4">

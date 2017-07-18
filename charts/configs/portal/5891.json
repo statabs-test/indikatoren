@@ -59,7 +59,7 @@
           146.8
         ]
       ],
-      "name": "BS Regional MIV"
+      "name": "Regional MIV"
     },
     {
       "color": "#ff8028",
@@ -120,7 +120,7 @@
           null
         ]
       ],
-      "name": "BS Kontinental"
+      "name": "Kontinental"
     },
     {
       "color": "#672773",
@@ -181,7 +181,7 @@
           168.7
         ]
       ],
-      "name": "BS Regional ÖV ohne Frequenz"
+      "name": "Regional ÖV ohne Frequenz"
     },
     {
       "color": "#4f81bd",
@@ -242,7 +242,7 @@
           null
         ]
       ],
-      "name": "BS Global"
+      "name": "Global"
     },
     {
       "color": "#007a2f",
