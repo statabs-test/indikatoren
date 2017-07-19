@@ -62,8 +62,19 @@
       "cursor": true,
       "showInLegend": true,
       "dataLabels": {
-        "enabled": false
-      }
+        "enabled": true,
+        "format": "{point.percentage:.1f} %",
+        "style": {
+          "color": "black"
+        }
+      },
+      "colors": [
+        "#B00000",
+        "#FF8028",
+        "#E6E600",
+        "#68AB2B ",
+        "#008AC3"
+      ]
     }
   },
   "title": {

@@ -19,7 +19,7 @@
 "erlaeuterungen":"",
 "template":"pie001",
 "option":"options001",
-"visible":true,
+"visible":false,
 "visibleInPortal":false,
 "parentId":null,
 "children":["5869"],
