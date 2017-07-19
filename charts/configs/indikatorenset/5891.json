@@ -303,7 +303,7 @@
           188.3
         ]
       ],
-      "name": "BS Regional ÖV mit Frequent"
+      "name": "Regional ÖV mit Frequent"
     }
   ],
   "chart": {
@@ -341,7 +341,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel.Stadt im Vergleich",
+    "text": "Basel-Stadt im Vergleich",
     "align": "left"
   },
   "tooltip": {

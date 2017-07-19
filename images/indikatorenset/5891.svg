@@ -60,7 +60,7 @@
         <tspan>Externe und interne Erreichbarkeit</tspan>
     </text>
     <text x="10" class="highcharts-subtitle" y="40" color="#000" font-weight="400">
-        <tspan>Basel.Stadt im Vergleich</tspan>
+        <tspan>Basel-Stadt im Vergleich</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(55 45)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="396" height="68"/>
@@ -96,7 +96,7 @@
             <path fill="none" d="M8 52h16" class="highcharts-graph" stroke="#007a2f" stroke-width="2"/>
             <path fill="#007a2f" d="M20 52a4 4 0 1 1 0-.004z" class="highcharts-point"/>
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 41)">
-                <tspan>BS Regional ÖV mit Frequent</tspan>
+                <tspan>Regional ÖV mit Frequent</tspan>
             </text>
         </g>
     </g>

@@ -857,7 +857,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Externe und interne Erreichbarkeit",
-		"subtitle": "Basel.Stadt im Vergleich",
+		"subtitle": "Basel-Stadt im Vergleich",
 		"kuerzel": "I.03.2.05891",
 		"kuerzelKunde": "ST 8-1",
 		"description": "Externe und interne Erreichbarkeit",
