@@ -1,3 +1,6 @@
+/home/ubuntu/workspace/node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs /home/ubuntu/workspace/build/highcharts-convert.js -infile /home/ubuntu/workspace/charts/configs/indikatorenset/9998.json -outfile /home/ubuntu/workspace/images/indikatorenset/9998.svg -constr Chart
+
+
 /home/ubuntu/workspace/node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs /home/ubuntu/workspace/build/highcharts-convert.js -infile /home/ubuntu/workspace/charts/configs/portal/4127.json -outfile /home/ubuntu/workspace/images/portal/4127.svg -multi true -multiArgsFile /home/ubuntu/workspace/build/convertArgs.json
 
 /home/ubuntu/workspace/node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs /home/ubuntu/workspace/build/highcharts-convert.js -infile /home/ubuntu/workspace/charts/configs/portal/9999.json -outfile /home/ubuntu/workspace/images/portal/9999.svg -customcode /home/ubuntu/workspace/build/mappie.js

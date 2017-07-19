@@ -47,7 +47,6 @@
                 // or http://jsfiddle.net/highcharts/u7FQS/278/
                   
                 var chart = this;
-                
                 $(chart.series[0].data).each(function(i, e) {
                     e.legendItem.on('click', function(event) {
                         var legendItem=e.name;
@@ -89,7 +88,7 @@
                         
                         event.stopPropagation();
                         
-                        $(chart.series).each(function(j,f){
+                        $(chart.series).each(function(j,f){    
                                $(this.data).each(function(k,z){
                                    if(z.name==legendItem)
                                    {
