@@ -5,13 +5,13 @@
       },
       "series": [ 
           {
-              "name": "Anzahl"
+              innerSize: '20%',
+              id: 0,
+              showInLegend: false
           }, 
           {
-              "name": "Anzahl vorheriges Jahr",
-              innerSize: '50%', 
-              showInLegend: false,
-              linkedTo: 0
+              innerSize: '60%',
+              linkedTo: ':previous'
           }
       ],
     	"tooltip": {
