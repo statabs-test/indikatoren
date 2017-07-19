@@ -68,7 +68,7 @@ var indikatorensetData = [
 		"template": "mappie001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"parentId": 4918,
 		"children": [],
 		"renderLink": [],
