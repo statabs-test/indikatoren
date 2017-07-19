@@ -1,7 +1,36 @@
 {
   "series": [
     {
+      "name": "2015",
+      "data": [
+        [
+          "Gebäude",
+          5
+        ],
+        [
+          "Verkehrsfläche",
+          8
+        ],
+        [
+          "Grünfläche",
+          12
+        ],
+        [
+          "Gewässer",
+          4
+        ],
+        [
+          "Überige Bodenversiegelung",
+          2
+        ]
+      ],
+      "turboThreshold": 0
+    },
+    {
       "name": "2016",
+      "innerSize": "50%",
+      "showInLegend": false,
+      "linkedTo": 0,
       "data": [
         [
           "Gebäude",
@@ -53,11 +82,11 @@
     },
     "type": "pie",
     "forExport": true,
-    "renderTo": "container-5807"
+    "renderTo": "container-9998"
   },
   "plotOptions": {
     "pie": {
-      "borderWidth": 0,
+      "borderWidth": 1,
       "allowPointSelect": true,
       "cursor": true,
       "showInLegend": true,
