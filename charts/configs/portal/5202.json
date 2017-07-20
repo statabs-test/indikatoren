@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "Leerwohnungsquote",
+      "name": "2016",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -20568,87 +20568,87 @@
       "data": [
         [
           1,
-          0.2
+          6270
         ],
         [
           2,
-          0.4
+          13394
         ],
         [
           3,
-          0.3
+          27762
         ],
         [
           4,
-          0.3
+          22162
         ],
         [
           5,
-          0.7
+          27440
         ],
         [
           6,
-          0.5
+          47270
         ],
         [
           7,
-          0.3
+          22546
         ],
         [
           8,
-          0.2
+          32272
         ],
         [
           9,
-          0.2
+          16866
         ],
         [
           10,
-          0.1
+          42370
         ],
         [
           11,
-          0.2
+          49680
         ],
         [
           12,
-          0.7
+          6466
         ],
         [
           13,
-          0.8
+          10490
         ],
         [
           14,
-          0.3
+          14208
         ],
         [
           15,
-          0.3
+          21690
         ],
         [
           16,
-          0.4
+          17662
         ],
         [
           17,
-          0.2
+          42418
         ],
         [
           18,
-          0.2
+          19200
         ],
         [
           19,
-          0.1
+          7280
         ],
         [
           20,
-          0.6
+          51268
         ],
         [
           30,
-          1.6
+          2948
         ]
       ]
     },
@@ -20656,91 +20656,91 @@
       "visible": false,
       "data": [
         [
-          "Altstadt Grossbasel",
-          3
+          "Altstadt GB",
+          1364
         ],
         [
           "Vorstädte",
-          13
+          1670
         ],
         [
           "Am Ring",
-          21
+          2894
         ],
         [
           "Breite",
-          13
+          1692
         ],
         [
           "St. Alban",
-          42
+          4710
         ],
         [
           "Gundeldingen",
-          51
+          1358
         ],
         [
           "Bruderholz",
-          11
+          2882
         ],
         [
           "Bachletten",
-          13
+          2122
         ],
         [
           "Gotthelf",
-          10
+          1116
         ],
         [
           "Iselin",
-          14
+          4160
         ],
         [
           "St. Johann",
-          16
+          2902
         ],
         [
-          "Altstadt Kleinbasel",
-          11
+          "Altstadt KB",
+          808
         ],
         [
           "Clara",
-          19
+          712
         ],
         [
           "Wettstein",
-          10
+          1874
         ],
         [
           "Hirzbrunnen",
-          12
+          1020
         ],
         [
           "Rosental",
-          12
+          6980
         ],
         [
           "Matthäus",
-          16
+          1494
         ],
         [
           "Klybeck",
-          8
+          576
         ],
         [
           "Kleinhüningen",
-          1
+          1050
         ],
         [
           "Riehen",
-          57
+          5640
         ],
         [
           "Bettingen",
-          8
+          322
         ]
       ],
-      "name": "Leerwohnungen"
+      "name": "Differenz"
     },
     {
       "name": "Rhein",
@@ -21185,7 +21185,7 @@
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 641,
+    "width": 485,
     "height": 415,
     "spacingBottom": 45,
     "style": {
@@ -21401,7 +21401,7 @@
 	            }
     },
     "forExport": true,
-    "renderTo": "container-9999"
+    "renderTo": "container-5202"
   },
   "title": {
     "style": {
@@ -21411,7 +21411,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Personenwagen pro Haushalt"
+    "text": "Bevölkerungsdichte"
   },
   "subtitle": {
     "style": {
@@ -21420,7 +21420,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2015",
+    "text": "nach Wohnviertel",
     "align": "left"
   },
   "credits": {
@@ -21434,9 +21434,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -5
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"
+    "text": "Quelle: "
   },
   "colorAxis": {
     "min": 0,
@@ -21478,6 +21478,6 @@
     }
   },
   "exporting": {
-    "filename": "I.11.1.9999"
+    "filename": "I.01.1.05202"
   }
 }

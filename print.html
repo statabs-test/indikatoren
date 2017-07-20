@@ -8,7 +8,7 @@
 		<!-- http://stackoverflow.com/questions/4856746/hide-horizontal-scrollbar-on-an-iframe -->
 		<style>
 			iframe.noScrolling{
-				width: 600px;
+				width: 100%;
 				height: 600px;
 				overflow: hidden;
 			}
@@ -35,14 +35,8 @@
 			*/
 			$(document).ready(function(){
 				var indikatorenset = window.decodeURIComponent($.url('?Indikatorenset'));
-				console.log(indikatorenset);
 				if (indikatorensetNames.indexOf(indikatorenset) > -1){
-					console.log('Set exists.');
 					$.each(indikatoren, function(index, item){
-						console.log('Checking chart ' + item.id);
-						console.log("item.kennzahlenset == indikatorenset");
-						console.log(item.kennzahlenset + "==" +  indikatorenset);
-						console.log(item.kennzahlenset == indikatorenset);
 						if (item.kennzahlenset == indikatorenset){
 							$('<iframe/>', {
 								src: 'chart.html?id=' + item.id + '&thumbnailOfflineExporting=true&thumbnailType=png&view=print',

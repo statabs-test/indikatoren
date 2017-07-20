@@ -230,9 +230,11 @@ function exportThumbnail(id, exportType, offline){
   var chart = $(escapeCssChars('#container-' + id)).highcharts();
   //remove callback - otherwise end up in infinite loop
   delete chart.callback;
-  //change scale for png
+  //change scale and background color for png
   if (exportType == 'image/png') {
     chart.options.exporting.scale = 15;
+    chart.options.chart.borderColor = '#ffffff';
+    chart.options.chart.backgroundColor = '#ffffff';
   }
   if (offline){     
     chart.exportChartLocal({
