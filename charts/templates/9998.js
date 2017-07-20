@@ -37,7 +37,9 @@
              ]
 	      }
       },
-     chart: {		
+     chart: {
+        width: 1283,
+        height: 411,
         events:{
               load: function() {
                   this.credits.element.onclick = function() {};
