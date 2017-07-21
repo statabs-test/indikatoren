@@ -1,6 +1,9 @@
 (function(){
     return {
-  
+  "chart": {
+        "width":  450,
+        "height": 415
+  },
   "xAxis": {
     "type": "category",
     "labels": {

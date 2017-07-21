@@ -3,7 +3,7 @@
         "chart": {		
             "borderColor": "#fbfbfb",
             "backgroundColor": "#fbfbfb",
-            "width": 485,
+            "width": 1283,
             "height": 415,
             "spacingBottom": 45,
             "style": {

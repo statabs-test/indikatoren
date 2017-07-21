@@ -1,12 +1,12 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
-    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M10 41h465v329H10z"/>
-    <text x="3" y="15" font-weight="700" color="#666" fill="#666" transform="translate(188 196)" class="highcharts-label highcharts-no-data">
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 641 415" font-family="Arial" font-size="12">
+    <rect fill="#fbfbfb" class="highcharts-background" width="641" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M10 41h621v329H10z"/>
+    <text x="3" y="15" font-weight="700" color="#666" fill="#666" transform="translate(266 196)" class="highcharts-label highcharts-no-data">
         <tspan>No data to display</tspan>
     </text>
-    <path fill="none" class="highcharts-plot-border" d="M10 41h465v329H10z"/>
+    <path fill="none" class="highcharts-plot-border" d="M10 41h621v329H10z"/>
     <g class="highcharts-axis highcharts-xaxis">
-        <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width=".5" d="M10 370.25h465"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width=".5" d="M10 370.25h621"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
         <path fill="none" class="highcharts-axis-line" d="M10 41v329"/>

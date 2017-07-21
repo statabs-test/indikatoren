@@ -9,8 +9,8 @@
     		"borderColor": "#fbfbfb",
     		"backgroundColor": "#fbfbfb",
     		"zoomType": "xy",
-    		"width": 485,
-        "height": 415,
+            "width": 641,
+    		"height": 415,
         "spacingBottom": 45,    
     		"style": {
     		  "fontFamily": "Arial"

@@ -1,22 +1,22 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
-    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M10 41h280v329H10z"/>
-    <path fill="none" class="highcharts-plot-border" d="M10 41h280v329H10z"/>
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 641 415" font-family="Arial" font-size="12">
+    <rect fill="#fbfbfb" class="highcharts-background" width="641" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M10 41h436v329H10z"/>
+    <path fill="none" class="highcharts-plot-border" d="M10 41h436v329H10z"/>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-pie-series highcharts-color-undefined highcharts-tracker" cursor="true">
-            <path fill="#50B432" d="M149.974 76a130 130 0 0 1 84.151 30.89L150 206z" class="highcharts-point highcharts-color-0"/>
-            <path fill="#ED561B" d="M234.224 106.973a130 130 0 0 1 43.946 77.29L150 206z" class="highcharts-point highcharts-color-1"/>
-            <path fill="#DDDF00" d="M278.191 184.39a130 130 0 0 1-133.676 151.494L150 206z" class="highcharts-point highcharts-color-2"/>
-            <path fill="#24CBE5" d="M144.385 335.879a130 130 0 0 1-108.434-67.486L150 206z" class="highcharts-point highcharts-color-3"/>
-            <path fill="#64E572" d="M35.889 268.279a130 130 0 0 1 5.83-134.217L150 206z" class="highcharts-point highcharts-color-4"/>
-            <path fill="#FF9655" d="M41.79 133.953a130 130 0 0 1 78.777-54.577L150 206z" class="highcharts-point highcharts-color-5"/>
-            <path fill="#FFF263" d="M120.694 79.346A130 130 0 0 1 149.819 76L150 206z" class="highcharts-point highcharts-color-6"/>
+            <path fill="#50B432" d="M227.969 51.5a154.5 154.5 0 0 1 100.01 36.71L228 206z" class="highcharts-point highcharts-color-0"/>
+            <path fill="#ED561B" d="M328.097 88.31a154.5 154.5 0 0 1 52.228 91.856L228 206z" class="highcharts-point highcharts-color-1"/>
+            <path fill="#DDDF00" d="M380.35 180.318a154.5 154.5 0 0 1-158.869 180.044L228 206z" class="highcharts-point highcharts-color-2"/>
+            <path fill="#24CBE5" d="M221.327 360.356a154.5 154.5 0 0 1-128.87-80.204L228 206z" class="highcharts-point highcharts-color-3"/>
+            <path fill="#64E572" d="M92.383 280.016a154.5 154.5 0 0 1 6.929-159.512L228 206z" class="highcharts-point highcharts-color-4"/>
+            <path fill="#FF9655" d="M99.397 120.375a154.5 154.5 0 0 1 93.623-64.863L228 206z" class="highcharts-point highcharts-color-5"/>
+            <path fill="#FFF263" d="M193.17 55.477a154.5 154.5 0 0 1 34.615-3.977L228 206z" class="highcharts-point highcharts-color-6"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>Anteil Fläche nach Art der Bodenbedeckung</tspan>
     </text>
-    <g class="highcharts-legend" transform="translate(302 118)">
+    <g class="highcharts-legend" transform="translate(458 118)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="172" height="144"/>
         <g class="highcharts-legend-item highcharts-pie-series highcharts-color-0">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">

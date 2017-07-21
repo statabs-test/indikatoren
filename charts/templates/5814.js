@@ -5,13 +5,18 @@
 (function(){
 
     return {
+    	"legend": {
+			"title": {
+				"text": ""
+			}
+			},
 		"colorAxis": {
 			//"min": undefined,
 			"minColor": "#eff6e9",
 			"maxColor": "#4b7b1f",
 			"labels": {
 				"formatter": function () {
-					return Highcharts.numberFormat((this.value),1); 
+					return Highcharts.numberFormat((this.value),0); 
 				}
 			}
 		},
@@ -60,7 +65,13 @@
 				"animation": true,
 				"data": rheinDataEPSG2056, 
 				"color": "#008AC3",    
-				"borderColor": "#fbfbfb"
+				"borderColor": "#fbfbfb",
+				tooltip: {
+					pointFormatter: function(){
+						return '<br/>';
+					}
+				}
+
 			}
 		],
 		chart: {
@@ -135,7 +146,7 @@
 					
 
 	                // Compute max votes to find relative sizes of bubbles
-	                var maxNumber = 0;
+	                var maxNumber = Number.NEGATIVE_INFINITY;
 	                
 					Highcharts.each(chart.series[1].points, function (wohnviertel) {
 					    maxNumber = Math.max(maxNumber, wohnviertel.value);
@@ -182,6 +193,11 @@
 	                        centerLat = parseFloat(wohnviertelSeries.properties.lat),
 	                        centerLon = parseFloat(wohnviertelSeries.properties.lon);
 	                	
+						
+						//define different colors for positive and negative values
+                        var color = function(){
+                        	return (data.value >= 0) ? 'grey' : 'salmon';
+                        };
 
 	                    var currentPieSeries = 
 	                    {
@@ -191,27 +207,34 @@
 	                        wohnviertel_Name: data["hc-key"],
 	                        wohnviertel_Id : wohnviertelSeries.wohnviertel_Id,
 	                        zIndex: 6, // Keep pies above connector lines
+
 	                        borderWidth: 1,
-	                        borderColor: 'grey',
+	                        borderColor: color(),
 	                        sizeFormatter: function () {
 	                            var yAxis = this.chart.yAxis[0],
 	                                zoomFactor = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
-								var minSize = this.chart.chartWidth / 45 * zoomFactor;
-								var maxSize = this.chart.chartWidth / 11 * zoomFactor * data.value / maxNumber; 
-
-	                            return Math.max(minSize, maxSize);
+	                            //Increase or decrease default pie size
+                            	var pieSizeFactor = 0.5;
+	                            //We don't want a minimal sized pie here
+								//var minSize = this.chart.chartWidth / 45 * zoomFactor;
+								var size = this.chart.chartWidth / 11 * pieSizeFactor * zoomFactor * data.value / maxNumber; 
+								//Negative values: return absolute value
+								return Math.abs(size);
+	                            //return Math.max(minSize, maxSize);
 	                        },
 	                        tooltip: {
 	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {series.name} </span><br/>',
 	                            pointFormatter: function () {
-	                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + this.y + '</b><br/>';
+	                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + this.v + '</b><br/>';
 	                            }
 	                        },
 	                        data: [
 	                        	{
 	                        		name: chart.series[1].name,
-	                        		y: data.value,
-	                        		color: 'grey'
+	                        		//put absolute value in y, real value in v
+	                        		y: Math.abs(data.value),
+	                        		v: data.value,
+	                        		color: color()
 	                        	}
 	                        ],
 	                        /*

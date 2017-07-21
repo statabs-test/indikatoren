@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "Wohnviertel",
+      "name": "1998",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -20565,13 +20565,174 @@
 						return this.properties.LIBGEO +': <b>' + this.value + '</b><br/>';
 					}
       },
-      "data": [],
-      "turboThreshold": 0
+      "data": [
+        [
+          1,
+          0.450788880540947
+        ],
+        [
+          2,
+          1.85897435897436
+        ],
+        [
+          3,
+          2.04789430222956
+        ],
+        [
+          4,
+          0.799376096705011
+        ],
+        [
+          5,
+          0.924918389553863
+        ],
+        [
+          6,
+          2.00837616600038
+        ],
+        [
+          7,
+          0.344194584671868
+        ],
+        [
+          8,
+          0.420226922538171
+        ],
+        [
+          9,
+          0.528211284513806
+        ],
+        [
+          10,
+          1.59245678365636
+        ],
+        [
+          11,
+          2.27980315356031
+        ],
+        [
+          12,
+          2.47234873129473
+        ],
+        [
+          13,
+          2.10430009149131
+        ],
+        [
+          14,
+          1.53640614562458
+        ],
+        [
+          15,
+          0.752212389380531
+        ],
+        [
+          16,
+          3.48280365694384
+        ],
+        [
+          17,
+          2.60889552924951
+        ],
+        [
+          18,
+          1.99344620425997
+        ],
+        [
+          19,
+          1.51757188498403
+        ],
+        [
+          20,
+          0.767508794371602
+        ]
+      ]
     },
     {
       "visible": false,
-      "data": [],
-      "turboThreshold": 0
+      "data": [
+        [
+          "Altstadt GB",
+          0.43352601156
+        ],
+        [
+          "Vorstädte",
+          0.534759358288
+        ],
+        [
+          "Am Ring",
+          0.453221107154
+        ],
+        [
+          "Breite",
+          0.491772271609
+        ],
+        [
+          "St. Alban",
+          0.830618892508
+        ],
+        [
+          "Gundeldingen",
+          0.270758122743
+        ],
+        [
+          "Bruderholz",
+          0.389283260819
+        ],
+        [
+          "Bachletten",
+          0.166458593424
+        ],
+        [
+          "Gotthelf",
+          0.292754330324
+        ],
+        [
+          "Iselin",
+          0.343642611683
+        ],
+        [
+          "St. Johann",
+          0.189054726368
+        ],
+        [
+          "Altstadt KB",
+          0.588235294117
+        ],
+        [
+          "Clara",
+          0.431406384814
+        ],
+        [
+          "Wettstein",
+          0.214592274678
+        ],
+        [
+          "Hirzbrunnen",
+          1.280409731113
+        ],
+        [
+          "Rosental",
+          0.438468284127
+        ],
+        [
+          "Matthäus",
+          0.306922814595
+        ],
+        [
+          "Klybeck",
+          0.187265917602
+        ],
+        [
+          "Kleinhüningen",
+          0.294767870302
+        ],
+        [
+          "Riehen",
+          0.505751685838
+        ]
+      ],
+      "name": "2016"
     },
     {
       "name": "Rhein",
@@ -21010,13 +21171,14 @@
         }
       ],
       "color": "#008AC3",
-      "borderColor": "#fbfbfb"
+      "borderColor": "#fbfbfb",
+      "tooltip": {
+        "pointFormatter": function (){
+						return '<br/>';
+					}
+      }
     }
   ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": false
-  },
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
@@ -21097,7 +21259,7 @@
 					
 
 	                // Compute max votes to find relative sizes of bubbles
-	                var maxNumber = 0;
+	                var maxNumber = Number.NEGATIVE_INFINITY;
 	                
 					Highcharts.each(chart.series[1].points, function (wohnviertel) {
 					    maxNumber = Math.max(maxNumber, wohnviertel.value);
@@ -21144,6 +21306,11 @@
 	                        centerLat = parseFloat(wohnviertelSeries.properties.lat),
 	                        centerLon = parseFloat(wohnviertelSeries.properties.lon);
 	                	
+						
+						//define different colors for positive and negative values
+                        var color = function(){
+                        	return (data.value >= 0) ? 'grey' : 'salmon';
+                        };
 
 	                    var currentPieSeries = 
 	                    {
@@ -21153,27 +21320,34 @@
 	                        wohnviertel_Name: data["hc-key"],
 	                        wohnviertel_Id : wohnviertelSeries.wohnviertel_Id,
 	                        zIndex: 6, // Keep pies above connector lines
+
 	                        borderWidth: 1,
-	                        borderColor: 'grey',
+	                        borderColor: color(),
 	                        sizeFormatter: function () {
 	                            var yAxis = this.chart.yAxis[0],
 	                                zoomFactor = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
-								var minSize = this.chart.chartWidth / 45 * zoomFactor;
-								var maxSize = this.chart.chartWidth / 11 * zoomFactor * data.value / maxNumber; 
-
-	                            return Math.max(minSize, maxSize);
+	                            //Increase or decrease default pie size
+                            	var pieSizeFactor = 0.5;
+	                            //We don't want a minimal sized pie here
+								//var minSize = this.chart.chartWidth / 45 * zoomFactor;
+								var size = this.chart.chartWidth / 11 * pieSizeFactor * zoomFactor * data.value / maxNumber; 
+								//Negative values: return absolute value
+								return Math.abs(size);
+	                            //return Math.max(minSize, maxSize);
 	                        },
 	                        tooltip: {
 	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {series.name} </span><br/>',
 	                            pointFormatter: function () {
-	                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + this.y + '</b><br/>';
+	                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + this.v + '</b><br/>';
 	                            }
 	                        },
 	                        data: [
 	                        	{
 	                        		name: chart.series[1].name,
-	                        		y: data.value,
-	                        		color: 'grey'
+	                        		//put absolute value in y, real value in v
+	                        		y: Math.abs(data.value),
+	                        		v: data.value,
+	                        		color: color()
 	                        	}
 	                        ],
 	                        /*
@@ -21285,7 +21459,7 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-					return Highcharts.numberFormat((this.value),1); 
+					return Highcharts.numberFormat((this.value),0); 
 				}
     },
     "marker": {
@@ -21309,7 +21483,8 @@
       "style": {
         "fontWeight": "normal",
         "fontSize": "11px"
-      }
+      },
+      "text": ""
     }
   },
   "exporting": {
