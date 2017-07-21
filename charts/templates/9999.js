@@ -202,9 +202,11 @@
 	                        sizeFormatter: function () {
 	                            var yAxis = this.chart.yAxis[0],
 	                                zoomFactor = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
-	                            //We don't want a minimal sizes pie here
+	                            //Increase or decrease default pie size
+                            	var pieSizeFactor = 1;
+	                            //We don't want a minimal sized pie here
 								//var minSize = this.chart.chartWidth / 45 * zoomFactor;
-								var size = this.chart.chartWidth / 11 * zoomFactor * data.value / maxNumber; 
+								var size = this.chart.chartWidth / 11 * pieSizeFactor * zoomFactor * data.value / maxNumber; 
 								//Negative values: return absolute value
 								return Math.abs(size);
 	                            //return Math.max(minSize, maxSize);
