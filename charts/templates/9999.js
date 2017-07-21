@@ -135,7 +135,7 @@
 					
 
 	                // Compute max votes to find relative sizes of bubbles
-	                var maxNumber = 0;
+	                var maxNumber = Number.NEGATIVE_INFINITY;
 	                
 					Highcharts.each(chart.series[1].points, function (wohnviertel) {
 					    maxNumber = Math.max(maxNumber, wohnviertel.value);
@@ -182,6 +182,11 @@
 	                        centerLat = parseFloat(wohnviertelSeries.properties.lat),
 	                        centerLon = parseFloat(wohnviertelSeries.properties.lon);
 	                	
+						
+						//define different colors for positive and negative values
+                        var color = function(){
+                        	return (data.value >= 0) ? 'grey' : 'salmon';
+                        };
 
 	                    var currentPieSeries = 
 	                    {
@@ -191,15 +196,18 @@
 	                        wohnviertel_Name: data["hc-key"],
 	                        wohnviertel_Id : wohnviertelSeries.wohnviertel_Id,
 	                        zIndex: 6, // Keep pies above connector lines
+
 	                        borderWidth: 1,
-	                        borderColor: 'grey',
+	                        borderColor: color(),
 	                        sizeFormatter: function () {
 	                            var yAxis = this.chart.yAxis[0],
 	                                zoomFactor = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
-								var minSize = this.chart.chartWidth / 45 * zoomFactor;
-								var maxSize = this.chart.chartWidth / 11 * zoomFactor * data.value / maxNumber; 
-
-	                            return Math.max(minSize, maxSize);
+	                            //We don't want a minimal sizes pie here
+								//var minSize = this.chart.chartWidth / 45 * zoomFactor;
+								var size = this.chart.chartWidth / 11 * zoomFactor * data.value / maxNumber; 
+								//Negative values: return absolute value
+								return Math.abs(size);
+	                            //return Math.max(minSize, maxSize);
 	                        },
 	                        tooltip: {
 	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {series.name} </span><br/>',
@@ -210,8 +218,8 @@
 	                        data: [
 	                        	{
 	                        		name: chart.series[1].name,
-	                        		y: data.value,
-	                        		color: 'grey'
+	                        		y: Math.abs(data.value),
+	                        		color: color()
 	                        	}
 	                        ],
 	                        /*
