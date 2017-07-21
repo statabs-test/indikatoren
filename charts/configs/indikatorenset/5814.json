@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "2016",
+      "name": "Wohnviertel",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -20561,185 +20561,17 @@
       },
       "tooltip": {
         "pointFormatter": function (){
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),0) + '</b><br/>';
+						//console.log(this);
+						return this.properties.LIBGEO +': <b>' + this.value + '</b><br/>';
 					}
       },
-      "data": [
-        [
-          1,
-          6270
-        ],
-        [
-          2,
-          13394
-        ],
-        [
-          3,
-          27762
-        ],
-        [
-          4,
-          22162
-        ],
-        [
-          5,
-          27440
-        ],
-        [
-          6,
-          47270
-        ],
-        [
-          7,
-          22546
-        ],
-        [
-          8,
-          32272
-        ],
-        [
-          9,
-          16866
-        ],
-        [
-          10,
-          42370
-        ],
-        [
-          11,
-          49680
-        ],
-        [
-          12,
-          6466
-        ],
-        [
-          13,
-          10490
-        ],
-        [
-          14,
-          14208
-        ],
-        [
-          15,
-          21690
-        ],
-        [
-          16,
-          17662
-        ],
-        [
-          17,
-          42418
-        ],
-        [
-          18,
-          19200
-        ],
-        [
-          19,
-          7280
-        ],
-        [
-          20,
-          51268
-        ],
-        [
-          30,
-          2948
-        ]
-      ]
+      "data": [],
+      "turboThreshold": 0
     },
     {
       "visible": false,
-      "data": [
-        [
-          "Altstadt GB",
-          1364
-        ],
-        [
-          "Vorstädte",
-          1670
-        ],
-        [
-          "Am Ring",
-          2894
-        ],
-        [
-          "Breite",
-          1692
-        ],
-        [
-          "St. Alban",
-          4710
-        ],
-        [
-          "Gundeldingen",
-          1358
-        ],
-        [
-          "Bruderholz",
-          2882
-        ],
-        [
-          "Bachletten",
-          2122
-        ],
-        [
-          "Gotthelf",
-          1116
-        ],
-        [
-          "Iselin",
-          4160
-        ],
-        [
-          "St. Johann",
-          2902
-        ],
-        [
-          "Altstadt KB",
-          808
-        ],
-        [
-          "Clara",
-          712
-        ],
-        [
-          "Wettstein",
-          1874
-        ],
-        [
-          "Hirzbrunnen",
-          1020
-        ],
-        [
-          "Rosental",
-          6980
-        ],
-        [
-          "Matthäus",
-          1494
-        ],
-        [
-          "Klybeck",
-          576
-        ],
-        [
-          "Kleinhüningen",
-          1050
-        ],
-        [
-          "Riehen",
-          5640
-        ],
-        [
-          "Bettingen",
-          322
-        ]
-      ],
-      "name": "Differenz"
+      "data": [],
+      "turboThreshold": 0
     },
     {
       "name": "Rhein",
@@ -21181,10 +21013,14 @@
       "borderColor": "#fbfbfb"
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false
+  },
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 485,
+    "width": 641,
     "height": 415,
     "spacingBottom": 45,
     "style": {
@@ -21330,7 +21166,7 @@
 	                        tooltip: {
 	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {series.name} </span><br/>',
 	                            pointFormatter: function () {
-	                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.y),0) + '</b><br/>';
+	                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + this.y + '</b><br/>';
 	                            }
 	                        },
 	                        data: [
@@ -21400,7 +21236,7 @@
 	            }
     },
     "forExport": true,
-    "renderTo": "container-5202"
+    "renderTo": "container-5814"
   },
   "title": {
     "style": {
@@ -21410,7 +21246,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Bevölkerungsdichte"
+    "text": "Leerwohnungsquote"
   },
   "subtitle": {
     "style": {
@@ -21449,7 +21285,7 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-					return Highcharts.numberFormat((this.value/1000),0); 
+					return Highcharts.numberFormat((this.value),1); 
 				}
     },
     "marker": {
@@ -21473,11 +21309,10 @@
       "style": {
         "fontWeight": "normal",
         "fontSize": "11px"
-      },
-      "text": "in tausend"
+      }
     }
   },
   "exporting": {
-    "filename": "I.01.1.05202"
+    "filename": "I.09.1.05814"
   }
 }

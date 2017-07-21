@@ -389,6 +389,44 @@ var indikatorensetData = [
 		]
 	},
 	{
+		"title": "Leerwohnungsquote",
+		"subtitle": "nach Wohnviertel",
+		"kuerzel": "I.09.1.05814",
+		"kuerzelKunde": "ST 4-5",
+		"description": "Leerwohnungsquote",
+		"id": 5814,
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2017-07-04T09:44:27.2727",
+		"schlagwort": [
+			"Wohnung"
+		],
+		"stufe1": "Strategie 4",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2015 wie auch 2016 in Bettingen verzeichnet.",
+		"erlaeuterungen": "",
+		"template": "mappie001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5874"
+		],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Mittlere Wohnfläche pro Person",
 		"subtitle": "",
 		"kuerzel": "I.09.1.05815",
@@ -742,6 +780,44 @@ var indikatorensetData = [
 		]
 	},
 	{
+		"title": "Beschäftigtendichte",
+		"subtitle": "Anzahl Beschäftigte pro Hektar nach Wohnviertel",
+		"kuerzel": "I.03.2.05824",
+		"kuerzelKunde": "ST 7-2",
+		"description": "Beschäftigtendichte",
+		"id": 5824,
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Beschäftigte ",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2017-06-26T15:16:28.2828",
+		"schlagwort": [
+			"Beschäftigte"
+		],
+		"stufe1": "Strategie 7",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "mappie001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5884"
+		],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Bruttogeschossfläche Industrie und Gewerbe",
 		"subtitle": "",
 		"kuerzel": "I.09.1.05825",
@@ -813,6 +889,52 @@ var indikatorensetData = [
 		],
 		"renderLink": [],
 		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Anzahl privater Personenwagen pro Haushalt",
+		"subtitle": "",
+		"kuerzel": "I.11.1.05829",
+		"kuerzelKunde": "ST 11-2",
+		"description": "Anzahl privater Personenwagen pro Haushalt",
+		"id": 5829,
+		"thema": "11 Verkehr",
+		"unterthema": "Motorfahrzeuge",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Wohnviertel",
+			"Gemeinde"
+		],
+		"aktualisierungsdatum": "2017-06-26T16:19:02.022",
+		"schlagwort": [
+			"Haushalt",
+			"Familie",
+			"Quote",
+			"Auto"
+		],
+		"stufe1": "Strategie 11",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "In den beiden Landgemeinden besitzen die Haushalte im Schnitt am meisten private Personenwagen, in der Kleinbasler Altstadt am wenigsten. Den grössten Rückgang von 2010 (0,59) bis 2015 (0,49) verzeichnete das Wohnviertel Clara.",
+		"erlaeuterungen": "",
+		"template": "mappie001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": 4918,
+		"children": [
+			"5888"
+		],
+		"renderLink": [
+			"4918"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"
+		],
 		"externalLinks": [
 			""
 		]

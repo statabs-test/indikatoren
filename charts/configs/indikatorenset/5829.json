@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "2016",
+      "name": "2015",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -20561,93 +20561,94 @@
       },
       "tooltip": {
         "pointFormatter": function (){
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),0) + '</b><br/>';
+						//console.log(this);
+						return this.properties.LIBGEO +': <b>' + this.value + '</b><br/>';
 					}
       },
       "data": [
         [
           1,
-          6270
+          0.429547395388
         ],
         [
           2,
-          13394
+          0.424231464737
         ],
         [
           3,
-          27762
+          0.431914501566
         ],
         [
           4,
-          22162
+          0.49317617866
         ],
         [
           5,
-          27440
+          0.583408152271
         ],
         [
           6,
-          47270
+          0.373477132015
         ],
         [
           7,
-          22546
+          0.745117676514
         ],
         [
           8,
-          32272
+          0.551899491474
         ],
         [
           9,
-          16866
+          0.409791723018
         ],
         [
           10,
-          42370
+          0.411931818181
         ],
         [
           11,
-          49680
+          0.41393758959
         ],
         [
           12,
-          6466
+          0.298363095238
         ],
         [
           13,
-          10490
+          0.479378942261
         ],
         [
           14,
-          14208
+          0.487170830519
         ],
         [
           15,
-          21690
+          0.613840340103
         ],
         [
           16,
-          17662
+          0.42765164351
         ],
         [
           17,
-          42418
+          0.34602294214
         ],
         [
           18,
-          19200
+          0.475461893764
         ],
         [
           19,
-          7280
+          0.589465530596
         ],
         [
           20,
-          51268
+          0.808407266582
         ],
         [
           30,
-          2948
+          1.087606837606
         ]
       ]
     },
@@ -20656,87 +20657,87 @@
       "data": [
         [
           "Altstadt GB",
-          1364
+          -0.052829241067
         ],
         [
           "Vorstädte",
-          1670
+          -0.023347482631
         ],
         [
           "Am Ring",
-          2894
+          -0.040547479527
         ],
         [
           "Breite",
-          1692
+          0.004527291731
         ],
         [
           "St. Alban",
-          4710
+          -0.035380667604
         ],
         [
           "Gundeldingen",
-          1358
+          -0.036984541414
         ],
         [
           "Bruderholz",
-          2882
+          0.0034010055
         ],
         [
           "Bachletten",
-          2122
+          -0.030039251816
         ],
         [
           "Gotthelf",
-          1116
+          -0.016342997999
         ],
         [
           "Iselin",
-          4160
+          -0.021095261122
         ],
         [
           "St. Johann",
-          2902
+          -0.025808457367
         ],
         [
           "Altstadt KB",
-          808
+          -0.065671992481
         ],
         [
           "Clara",
-          712
+          -0.110490338784
         ],
         [
           "Wettstein",
-          1874
+          -0.017061778976
         ],
         [
           "Hirzbrunnen",
-          1020
+          -0.002975136087
         ],
         [
           "Rosental",
-          6980
+          -0.008448488242
         ],
         [
           "Matthäus",
-          1494
+          -0.027662764026
         ],
         [
           "Klybeck",
-          576
+          -0.044525710822
         ],
         [
           "Kleinhüningen",
-          1050
+          -0.007308662952
         ],
         [
           "Riehen",
-          5640
+          -0.018717747234
         ],
         [
           "Bettingen",
-          322
+          -0.000356125356
         ]
       ],
       "name": "Differenz"
@@ -21184,7 +21185,7 @@
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 485,
+    "width": 641,
     "height": 415,
     "spacingBottom": 45,
     "style": {
@@ -21330,7 +21331,7 @@
 	                        tooltip: {
 	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {series.name} </span><br/>',
 	                            pointFormatter: function () {
-	                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.y),0) + '</b><br/>';
+	                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + this.y + '</b><br/>';
 	                            }
 	                        },
 	                        data: [
@@ -21400,7 +21401,7 @@
 	            }
     },
     "forExport": true,
-    "renderTo": "container-5202"
+    "renderTo": "container-5829"
   },
   "title": {
     "style": {
@@ -21410,7 +21411,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Bevölkerungsdichte"
+    "text": "Anzahl privater Personenwagen pro Haushalt"
   },
   "subtitle": {
     "style": {
@@ -21419,7 +21420,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel",
+    "text": "",
     "align": "left"
   },
   "credits": {
@@ -21433,9 +21434,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: "
+    "text": "Quelle: Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"
   },
   "colorAxis": {
     "min": 0,
@@ -21449,7 +21450,7 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-					return Highcharts.numberFormat((this.value/1000),0); 
+					return Highcharts.numberFormat((this.value),1); 
 				}
     },
     "marker": {
@@ -21473,11 +21474,10 @@
       "style": {
         "fontWeight": "normal",
         "fontSize": "11px"
-      },
-      "text": "in tausend"
+      }
     }
   },
   "exporting": {
-    "filename": "I.01.1.05202"
+    "filename": "I.11.1.05829"
   }
 }

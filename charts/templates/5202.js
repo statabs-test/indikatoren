@@ -5,13 +5,18 @@
 (function(){
 
     return {
+		"legend": {
+			"title": {
+				"text": "in tausend"
+			}
+		},
 		"colorAxis": {
 			//"min": undefined,
 			"minColor": "#eff6e9",
 			"maxColor": "#4b7b1f",
 			"labels": {
 				"formatter": function () {
-					return Highcharts.numberFormat((this.value),1); 
+					return Highcharts.numberFormat((this.value/1000),0); 
 				}
 			}
 		},
@@ -43,8 +48,7 @@
 				}, 
 				tooltip: {
 					pointFormatter: function(){
-						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + this.value + '</b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),0) + '</b><br/>';
 					}
 				}
 			}, 
@@ -202,7 +206,7 @@
 	                        tooltip: {
 	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {series.name} </span><br/>',
 	                            pointFormatter: function () {
-	                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + this.y + '</b><br/>';
+	                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.y),0) + '</b><br/>';
 	                            }
 	                        },
 	                        data: [

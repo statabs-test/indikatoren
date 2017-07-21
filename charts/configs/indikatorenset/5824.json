@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "2016",
+      "name": "2014",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -20561,93 +20561,94 @@
       },
       "tooltip": {
         "pointFormatter": function (){
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),0) + '</b><br/>';
+						//console.log(this);
+						return this.properties.LIBGEO +': <b>' +  Highcharts.numberFormat((this.value),2) + '</b><br/>';
 					}
       },
       "data": [
         [
           1,
-          6270
+          298.973037855965
         ],
         [
           2,
-          13394
+          247.088620816459
         ],
         [
           3,
-          27762
+          118.155977947776
         ],
         [
           4,
-          22162
+          15.378967739765
         ],
         [
           5,
-          27440
+          78.639323568882
         ],
         [
           6,
-          47270
+          101.104322496059
         ],
         [
           7,
-          22546
+          4.65631552458901
         ],
         [
           8,
-          32272
+          16.5210099764298
         ],
         [
           9,
-          16866
+          41.355348019688
         ],
         [
           10,
-          42370
+          23.8365534805607
         ],
         [
           11,
-          49680
+          84.0653394263105
         ],
         [
           12,
-          6466
+          153.048779164001
         ],
         [
           13,
-          10490
+          118.553439728309
         ],
         [
           14,
-          14208
+          133.860272247662
         ],
         [
           15,
-          21690
+          9.78686805054976
         ],
         [
           16,
-          17662
+          88.5050276957298
         ],
         [
           17,
-          42418
+          49.5248745922574
         ],
         [
           18,
-          19200
+          65.2040801245654
         ],
         [
           19,
-          7280
+          43.5947567948006
         ],
         [
           20,
-          51268
+          3.16896548396142
         ],
         [
           30,
-          2948
+          1.57849677867498
         ]
       ]
     },
@@ -20656,87 +20657,87 @@
       "data": [
         [
           "Altstadt GB",
-          1364
+          17.5485601904908
         ],
         [
           "Vorstädte",
-          1670
+          4.97135860338847
         ],
         [
           "Am Ring",
-          2894
+          3.95214679708467
         ],
         [
           "Breite",
-          1692
+          -2.24328245514732
         ],
         [
           "St. Alban",
-          4710
+          1.77140738286801
         ],
         [
           "Gundeldingen",
-          1358
+          0.822336841499435
         ],
         [
           "Bruderholz",
-          2882
+          0.0603347771897269
         ],
         [
           "Bachletten",
-          2122
+          -0.989893234176385
         ],
         [
           "Gotthelf",
-          1116
+          -5.76192039376375
         ],
         [
           "Iselin",
-          4160
+          0.402317003665331
         ],
         [
           "St. Johann",
-          2902
+          1.42449562054979
         ],
         [
           "Altstadt KB",
-          808
+          -9.26996658125344
         ],
         [
           "Clara",
-          712
+          3.4400807222739
         ],
         [
           "Wettstein",
-          1874
+          13.7353683865437
         ],
         [
           "Hirzbrunnen",
-          1020
+          0.252298570843307
         ],
         [
           "Rosental",
-          6980
+          6.90496120944948
         ],
         [
           "Matthäus",
-          1494
+          -1.66795863720149
         ],
         [
           "Klybeck",
-          576
+          -6.57390818240941
         ],
         [
           "Kleinhüningen",
-          1050
+          10.2282247833202
         ],
         [
           "Riehen",
-          5640
+          0.102328636267827
         ],
         [
           "Bettingen",
-          322
+          0.123194979224724
         ]
       ],
       "name": "Differenz"
@@ -21184,7 +21185,7 @@
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 485,
+    "width": 641,
     "height": 415,
     "spacingBottom": 45,
     "style": {
@@ -21320,17 +21321,18 @@
 	                        borderWidth: 1,
 	                        borderColor: 'grey',
 	                        sizeFormatter: function () {
+	                        	var pieSize = 0.5;
 	                            var yAxis = this.chart.yAxis[0],
 	                                zoomFactor = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
-								var minSize = this.chart.chartWidth / 45 * zoomFactor;
-								var maxSize = this.chart.chartWidth / 11 * zoomFactor * data.value / maxNumber; 
+								var minSize = this.chart.chartWidth / 45 * pieSize * zoomFactor;
+								var maxSize = this.chart.chartWidth / 11 * pieSize * zoomFactor * data.value / maxNumber; 
 
 	                            return Math.max(minSize, maxSize);
 	                        },
 	                        tooltip: {
 	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {series.name} </span><br/>',
 	                            pointFormatter: function () {
-	                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.y),0) + '</b><br/>';
+	                            	return wohnviertelSeries.properties.LIBGEO +': <b>' +  Highcharts.numberFormat((this.y),2) + '</b><br/>';
 	                            }
 	                        },
 	                        data: [
@@ -21400,7 +21402,7 @@
 	            }
     },
     "forExport": true,
-    "renderTo": "container-5202"
+    "renderTo": "container-5824"
   },
   "title": {
     "style": {
@@ -21410,7 +21412,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Bevölkerungsdichte"
+    "text": "Beschäftigtendichte"
   },
   "subtitle": {
     "style": {
@@ -21419,7 +21421,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel",
+    "text": "Anzahl Beschäftigte pro Hektar nach Wohnviertel",
     "align": "left"
   },
   "credits": {
@@ -21449,7 +21451,7 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-					return Highcharts.numberFormat((this.value/1000),0); 
+					return Highcharts.numberFormat((this.value),1); 
 				}
     },
     "marker": {
@@ -21473,11 +21475,10 @@
       "style": {
         "fontWeight": "normal",
         "fontSize": "11px"
-      },
-      "text": "in tausend"
+      }
     }
   },
   "exporting": {
-    "filename": "I.01.1.05202"
+    "filename": "I.03.2.05824"
   }
 }
