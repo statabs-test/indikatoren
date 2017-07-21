@@ -60,7 +60,13 @@
 				"animation": true,
 				"data": rheinDataEPSG2056, 
 				"color": "#008AC3",    
-				"borderColor": "#fbfbfb"
+				"borderColor": "#fbfbfb",
+				tooltip: {
+					pointFormatter: function(){
+						return '<br/>';
+					}
+				}
+
 			}
 		],
 		chart: {
