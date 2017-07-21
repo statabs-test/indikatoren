@@ -220,13 +220,15 @@
 	                        tooltip: {
 	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {series.name} </span><br/>',
 	                            pointFormatter: function () {
-	                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + this.y + '</b><br/>';
+	                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + this.v + '</b><br/>';
 	                            }
 	                        },
 	                        data: [
 	                        	{
 	                        		name: chart.series[1].name,
+	                        		//put absolute value in y, real value in v
 	                        		y: Math.abs(data.value),
+	                        		v: data.value,
 	                        		color: color()
 	                        	}
 	                        ],
