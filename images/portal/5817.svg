@@ -41,7 +41,7 @@
         <tspan>Nettowohnungsproduktion</tspan>
     </text>
     <text x="10" class="highcharts-subtitle" y="40" color="#000" font-weight="400">
-        <tspan>nach Wohnviertel</tspan>
+        <tspan>nach Wohnviertel von 2007 bis %jahrbis%</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(80 45)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="131" height="25"/>

@@ -1,0 +1,313 @@
+{
+  "series": [
+    {
+      "color": "#D7E8D2",
+      "visible": true,
+      "data": [
+        [
+          "Altstadt GB",
+          2860
+        ],
+        [
+          "Vorstädte",
+          5921
+        ],
+        [
+          "Am Ring",
+          13218
+        ],
+        [
+          "Breite",
+          10356
+        ],
+        [
+          "St. Alban",
+          13103
+        ],
+        [
+          "Gundeldingen",
+          22909
+        ],
+        [
+          "Bruderholz",
+          10772
+        ],
+        [
+          "Bachletten",
+          15563
+        ],
+        [
+          "Gotthelf",
+          8288
+        ],
+        [
+          "Iselin",
+          19946
+        ],
+        [
+          "St. Johann",
+          23804
+        ],
+        [
+          "Altstadt KB",
+          2814
+        ],
+        [
+          "Clara",
+          5083
+        ],
+        [
+          "Wettstein",
+          6524
+        ],
+        [
+          "Hirzbrunnen",
+          9893
+        ],
+        [
+          "Rosental",
+          6566
+        ],
+        [
+          "Matthäus",
+          20766
+        ],
+        [
+          "Klybeck",
+          9595
+        ],
+        [
+          "Kleinhüningen",
+          3341
+        ],
+        [
+          "Riehen",
+          24674
+        ],
+        [
+          "Bettingen",
+          1472
+        ]
+      ],
+      "name": "2011",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007A2F",
+      "visible": true,
+      "data": [
+        [
+          "Altstadt GB",
+          3135
+        ],
+        [
+          "Vorstädte",
+          6697
+        ],
+        [
+          "Am Ring",
+          13881
+        ],
+        [
+          "Breite",
+          11081
+        ],
+        [
+          "St. Alban",
+          13720
+        ],
+        [
+          "Gundeldingen",
+          23635
+        ],
+        [
+          "Bruderholz",
+          11273
+        ],
+        [
+          "Bachletten",
+          16136
+        ],
+        [
+          "Gotthelf",
+          8433
+        ],
+        [
+          "Iselin",
+          21185
+        ],
+        [
+          "St. Johann",
+          24840
+        ],
+        [
+          "Altstadt KB",
+          3233
+        ],
+        [
+          "Clara",
+          5245
+        ],
+        [
+          "Wettstein",
+          7104
+        ],
+        [
+          "Hirzbrunnen",
+          10845
+        ],
+        [
+          "Rosental",
+          8831
+        ],
+        [
+          "Matthäus",
+          21209
+        ],
+        [
+          "Klybeck",
+          9600
+        ],
+        [
+          "Kleinhüningen",
+          3640
+        ],
+        [
+          "Riehen",
+          25634
+        ],
+        [
+          "Bettingen",
+          1474
+        ]
+      ],
+      "name": "2016",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "rotation": -90
+    },
+    "tickColor": "#FFFFFF"
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 40,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {}
+                }
+    },
+    "type": "column",
+    "inverted": false,
+    "forExport": true,
+    "renderTo": "container-5871"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Bevölkerung am Jahresende"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "x": 70,
+    "y": 35,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": "I.01.1.05810"
+  }
+}

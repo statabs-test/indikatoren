@@ -1,0 +1,376 @@
+{
+  "series": [
+    {
+      "color": "#71a3b5",
+      "index": 0,
+      "type": "column",
+      "pointWidth": "10",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f} \u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          1985,
+          36.6058
+        ],
+        [
+          1986,
+          35.0644
+        ],
+        [
+          1987,
+          33.6209
+        ],
+        [
+          1988,
+          33.9179
+        ],
+        [
+          1989,
+          34.4313
+        ],
+        [
+          1990,
+          33.6257
+        ],
+        [
+          1991,
+          32.3364
+        ],
+        [
+          1992,
+          31.7151
+        ],
+        [
+          1993,
+          30.5284
+        ],
+        [
+          1994,
+          30.7679
+        ],
+        [
+          1995,
+          29.6915
+        ],
+        [
+          1996,
+          29.8842
+        ],
+        [
+          1997,
+          29.175
+        ],
+        [
+          1998,
+          28.64
+        ],
+        [
+          1999,
+          27.7067
+        ],
+        [
+          2000,
+          27.044
+        ],
+        [
+          2001,
+          25.9069
+        ],
+        [
+          2002,
+          25.3
+        ],
+        [
+          2003,
+          27.0679
+        ],
+        [
+          2004,
+          26.1113
+        ],
+        [
+          2005,
+          25.26
+        ],
+        [
+          2006,
+          25.7318
+        ],
+        [
+          2007,
+          25.4305
+        ],
+        [
+          2008,
+          26.1596
+        ],
+        [
+          2009,
+          26.7723
+        ],
+        [
+          2010,
+          27.309
+        ],
+        [
+          2011,
+          26.019
+        ],
+        [
+          2012,
+          25.441683
+        ],
+        [
+          2013,
+          25.912
+        ],
+        [
+          2014,
+          25.615867
+        ],
+        [
+          2015,
+          26.545709
+        ]
+      ],
+      "name": "Wasserverbrauch in Mio. m³"
+    },
+    {
+      "color": "#7d60a0",
+      "index": 1,
+      "type": "line",
+      "marker": {
+        "symbol": "circle",
+        "enabled": false
+      },
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          1985,
+          50.4576
+        ],
+        [
+          1986,
+          50.4576
+        ],
+        [
+          1987,
+          50.4576
+        ],
+        [
+          1988,
+          50.4576
+        ],
+        [
+          1989,
+          50.4576
+        ],
+        [
+          1990,
+          50.4576
+        ],
+        [
+          1991,
+          50.4576
+        ],
+        [
+          1992,
+          50.4576
+        ],
+        [
+          1993,
+          50.4576
+        ],
+        [
+          1994,
+          50.4576
+        ],
+        [
+          1995,
+          50.4576
+        ],
+        [
+          1996,
+          50.4576
+        ],
+        [
+          1997,
+          50.4576
+        ],
+        [
+          1998,
+          50.4576
+        ],
+        [
+          1999,
+          50.4576
+        ],
+        [
+          2000,
+          50.4576
+        ],
+        [
+          2001,
+          50.4576
+        ],
+        [
+          2002,
+          50.4576
+        ],
+        [
+          2003,
+          50.4576
+        ],
+        [
+          2004,
+          50.4576
+        ],
+        [
+          2005,
+          50.4576
+        ],
+        [
+          2006,
+          50.4576
+        ],
+        [
+          2007,
+          50.4576
+        ],
+        [
+          2008,
+          50.4576
+        ],
+        [
+          2009,
+          50.4576
+        ],
+        [
+          2010,
+          50.4576
+        ],
+        [
+          2011,
+          50.4576
+        ],
+        [
+          2012,
+          50.4576
+        ],
+        [
+          2013,
+          50.4576
+        ],
+        [
+          2014,
+          50.4576
+        ],
+        [
+          2015,
+          50.4576
+        ]
+      ],
+      "name": "Maximal mögliche Jahresproduktion in Mio. m³"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "marginBottom": 65,
+    "alignTicks": false,
+    "forExport": true,
+    "renderTo": "container-5831"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Geförderte Trinkwassermenge"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Vergleich mit potenzieller Maximalmenge",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false
+  },
+  "yAxis": [
+    {
+      "labels": {
+        "format": "{value:,.0f} Mio m³",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "title": ""
+    }
+  ],
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 5
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -5
+    },
+    "text": "Quelle: "
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "y": 40,
+    "x": 40,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "exporting": {
+    "filename": "I.02.4.05831"
+  }
+}

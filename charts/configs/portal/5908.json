@@ -1,0 +1,421 @@
+{
+  "series": [
+    {
+      "color": "#b00000 ",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          1991,
+          null
+        ],
+        [
+          1996,
+          null
+        ],
+        [
+          2000,
+          135.7
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2003,
+          null
+        ],
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          138.7
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2008,
+          141.9
+        ],
+        [
+          2010,
+          147.2
+        ],
+        [
+          2012,
+          145.6
+        ],
+        [
+          2014,
+          146.5
+        ],
+        [
+          2016,
+          146.8
+        ]
+      ],
+      "name": "Regional MIV"
+    },
+    {
+      "color": "#ff8028",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          1991,
+          105.4
+        ],
+        [
+          1996,
+          111.2
+        ],
+        [
+          2000,
+          126.6
+        ],
+        [
+          2002,
+          124.9
+        ],
+        [
+          2003,
+          117.9
+        ],
+        [
+          2004,
+          119
+        ],
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          117.2
+        ],
+        [
+          2008,
+          135.3
+        ],
+        [
+          2010,
+          136
+        ],
+        [
+          2012,
+          135.2
+        ],
+        [
+          2014,
+          134.7
+        ],
+        [
+          2016,
+          null
+        ]
+      ],
+      "name": "Kontinental"
+    },
+    {
+      "color": "#672773",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          1991,
+          null
+        ],
+        [
+          1996,
+          null
+        ],
+        [
+          2000,
+          171
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2003,
+          null
+        ],
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          164.4
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2008,
+          162.6
+        ],
+        [
+          2010,
+          163.1
+        ],
+        [
+          2012,
+          163.3
+        ],
+        [
+          2014,
+          168.3
+        ],
+        [
+          2016,
+          168.7
+        ]
+      ],
+      "name": "Regional ÖV ohne Frequenz"
+    },
+    {
+      "color": "#4f81bd",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          1991,
+          87.9
+        ],
+        [
+          1996,
+          99.3
+        ],
+        [
+          2000,
+          107.6
+        ],
+        [
+          2002,
+          106.8
+        ],
+        [
+          2003,
+          104.9
+        ],
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          106.6
+        ],
+        [
+          2008,
+          107.2
+        ],
+        [
+          2010,
+          107.9
+        ],
+        [
+          2012,
+          108.6
+        ],
+        [
+          2014,
+          106.5
+        ],
+        [
+          2016,
+          null
+        ]
+      ],
+      "name": "Global"
+    },
+    {
+      "color": "#007a2f",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          1991,
+          null
+        ],
+        [
+          1996,
+          null
+        ],
+        [
+          2000,
+          null
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2003,
+          null
+        ],
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          167.1
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2008,
+          170.8
+        ],
+        [
+          2010,
+          177
+        ],
+        [
+          2012,
+          177.2
+        ],
+        [
+          2014,
+          184.6
+        ],
+        [
+          2016,
+          188.3
+        ]
+      ],
+      "name": "Regional ÖV mit Frequent"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "forExport": true,
+    "renderTo": "container-5908"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Externe und interne Erreichbarkeit"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt im Vergleich",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 5
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: BAK Basel Economics"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "x": 45,
+    "y": 35,
+    "itemWidth": 200,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "filename": "I.03.2.05891"
+  }
+}

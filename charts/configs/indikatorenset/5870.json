@@ -1,0 +1,312 @@
+{
+  "series": [
+    {
+      "index": 1,
+      "color": "#990300",
+      "legendIndex": 1,
+      "data": [
+        [
+          "1997",
+          142279
+        ],
+        [
+          "1998",
+          140223
+        ],
+        [
+          "1999",
+          137808
+        ],
+        [
+          "2000",
+          136609
+        ],
+        [
+          "2001",
+          134825
+        ],
+        [
+          "2002",
+          133730
+        ],
+        [
+          "2003",
+          132756
+        ],
+        [
+          "2004",
+          131998
+        ],
+        [
+          "2005",
+          130726
+        ],
+        [
+          "2006",
+          129216
+        ],
+        [
+          "2007",
+          129082
+        ],
+        [
+          "2008",
+          129226
+        ],
+        [
+          "2009",
+          128639
+        ],
+        [
+          "2010",
+          128213
+        ],
+        [
+          "2011",
+          127981
+        ],
+        [
+          "2012",
+          127932
+        ],
+        [
+          "2013",
+          127907
+        ],
+        [
+          "2014",
+          127692
+        ],
+        [
+          "2015",
+          127617
+        ],
+        [
+          "2016",
+          127398
+        ]
+      ],
+      "name": "Schweiz",
+      "turboThreshold": 0
+    },
+    {
+      "index": 0,
+      "color": "#71A3B5",
+      "legendIndex": 0,
+      "data": [
+        [
+          "1997",
+          51974
+        ],
+        [
+          "1998",
+          51898
+        ],
+        [
+          "1999",
+          52333
+        ],
+        [
+          "2000",
+          51972
+        ],
+        [
+          "2001",
+          52634
+        ],
+        [
+          "2002",
+          54285
+        ],
+        [
+          "2003",
+          55457
+        ],
+        [
+          "2004",
+          56479
+        ],
+        [
+          "2005",
+          57194
+        ],
+        [
+          "2006",
+          58576
+        ],
+        [
+          "2007",
+          58918
+        ],
+        [
+          "2008",
+          60330
+        ],
+        [
+          "2009",
+          62176
+        ],
+        [
+          "2010",
+          62586
+        ],
+        [
+          "2011",
+          64095
+        ],
+        [
+          "2012",
+          65527
+        ],
+        [
+          "2013",
+          67552
+        ],
+        [
+          "2014",
+          68779
+        ],
+        [
+          "2015",
+          69587
+        ],
+        [
+          "2016",
+          70808
+        ]
+      ],
+      "name": "Ausland",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickColor": "#FFFFFF",
+    "tickInterval": 2
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {}
+                }
+    },
+    "marginBottom": 75,
+    "marginTop": 75,
+    "type": "column",
+    "forExport": true,
+    "renderTo": "container-5870"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointWidth": 10,
+      "stacking": "normal"
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Bevölkerung am Jahresende"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "x": 55,
+    "y": 35,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left",
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "footerFormat": "Total:: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
+    "shared": true
+  },
+  "exporting": {
+    "filename": "I.01.1.05809"
+  }
+}

@@ -130,7 +130,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-07-04T16:48:49.4949",
+		"aktualisierungsdatum": "2017-07-19T17:39:01.011",
 		"schlagwort": [
 			"Wanderung"
 		],
@@ -508,7 +508,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Nettowohnungsproduktion",
-		"subtitle": "nach Wohnviertel",
+		"subtitle": "nach Wohnviertel von 2007 bis %jahrbis%",
 		"kuerzel": "I.09.1.05817",
 		"kuerzelKunde": "ST 4-8",
 		"description": "Nettowohnungsproduktion",
@@ -566,7 +566,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Die Bruttogeschossfläche im Bereich Wohnen nahm zwischen 2010 und 2015 in allen Wohnviertel zu, mit Ausnahme der Altstadt Grossbasel. Am stärksten sind die Anstiege in den Wohnvierteln Wettstein (4,7%), St. Alban (4,8%), Kleinhüningen (12,4%) sowie Rosental (27,7%).",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
@@ -839,7 +839,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Die Bruttogeschossfläche im Bereich Arbeiten (Industrie und Gewerbe) ist zwischen 2010 und 2015 im Kanton Basel-Stadt leicht rückläufig. Die grössten Rückgänge verzeichnen die Wohnviertel Hirzbrunnen (-8,0%) und Breite (-5,6%). Hingegen sind Zunahmen in den Wohnvierteln Am Ring (3,7%) und Wettstein (6,9%) feststellbar.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
@@ -848,6 +848,44 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [
 			"5885"
+		],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Anteil Landwirtschaftsfläche",
+		"subtitle": "gemäss Zonenplan",
+		"kuerzel": "I.02.1.05827",
+		"kuerzelKunde": "ST 9-1",
+		"description": "Anteil Landwirtschaftsfläche",
+		"id": 5827,
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-07-20T10:05:55.5555",
+		"schlagwort": [
+			"Umwelt"
+		],
+		"stufe1": "Strategie 9",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5886"
 		],
 		"renderLink": [],
 		"quellenangabe": [],
@@ -940,44 +978,6 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Kurskilometer des öff. Verkehrs in Basel-Stadt",
-		"subtitle": "in Mio. Kilometer",
-		"kuerzel": "I.11.2.05830",
-		"kuerzelKunde": "ST 11-3",
-		"description": "Kurskilometer des öff. Verkehrs in Basel-Stadt",
-		"id": 5830,
-		"thema": "11 Verkehr",
-		"unterthema": "Öffentlicher Verkehr",
-		"kennzahlenset": "Richtplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2017-07-04T10:03:49.4949",
-		"schlagwort": [
-			"Mobilität"
-		],
-		"stufe1": "Strategie 11",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
-		"parentId": null,
-		"children": [
-			"5889"
-		],
-		"renderLink": [],
-		"quellenangabe": [],
-		"externalLinks": [
-			""
-		]
-	},
-	{
 		"title": "Geförderte Trinkwassermenge",
 		"subtitle": "Vergleich mit potenzieller Maximalmenge",
 		"kuerzel": "I.02.4.05831",
@@ -1048,51 +1048,12 @@ var indikatorensetData = [
 		"visible": true,
 		"visibleInPortal": false,
 		"parentId": 3104,
-		"children": [],
+		"children": [
+			"5908"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Basel Economics"
-		],
-		"externalLinks": [
-			""
-		]
-	},
-	{
-		"title": "Bevölkerungsdichte",
-		"subtitle": "Anzahl Einwohner pro Hektar",
-		"kuerzel": "I.01.1.08888",
-		"kuerzelKunde": "ST 1-1",
-		"description": "Bevölkerungsdichte",
-		"id": 8888,
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Richtplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2017-07-06T14:41:09.099",
-		"schlagwort": [
-			"Bevölkerung",
-			"Wohnen"
-		],
-		"stufe1": "Strategie 1",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Bis 2002 verzeichnete Basel-Stadt sinkende Bevölkerungszahlen. Seither nimmt die baselstädtische Wohnbevölkerung und mit ihr die Bevölkerungsdichte wieder zu.",
-		"erlaeuterungen": "",
-		"template": "line001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
-		"parentId": null,
-		"children": [
-			"5862"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
 			""

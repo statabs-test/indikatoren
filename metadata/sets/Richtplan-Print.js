@@ -22,7 +22,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Bis 2002 verzeichnete Basel-Stadt sinkende Bevölkerungszahlen. Seither nimmt die baselstädtische Wohnbevölkerung und mit ihr die Bevölkerungsdichte wieder zu.",
 		"erlaeuterungen": "",
 		"template": "line001_print",
 		"option": "options001",
@@ -97,7 +97,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Rund 24 400 Personen aus der baselstädtischen Wohnbevölkerung pendelten 2015 in andere Kantone, um einer Erwerbstätigkeit nachzugehen. Etwa 300 pendelten dafür ins Ausland.",
 		"erlaeuterungen": "",
 		"template": "template001_print",
 		"option": "options001",
@@ -133,7 +133,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "In den Jahren 2006 bis 2016 zogen jeweils mehr Personen nach Basel-Stadt zu als dass den Kanton verliessen. Für 2016 ergab sich ein Plus von knapp 700 Personen.",
 		"erlaeuterungen": "",
 		"template": "line001_print",
 		"option": "options001",
@@ -169,7 +169,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Aus anderen Kantonen pendelten 2015 rund 64 300 Personen in den Kanton Basel-Stadt, um einer Erwerbstätigkeit nachzugehen. Dazu kommen etwa 36 300 Grenzgänger, die aus dem Ausland nach Basel-Stadt pendeln, um zu arbeiten. Dies ergibt ein Total von gut 100 000 Zupendlern.",
 		"erlaeuterungen": "",
 		"template": "template001_print",
 		"option": "options001",
@@ -222,6 +222,44 @@ var indikatorensetData = [
 	{
 		"title": "Bevölkerung am Jahresende",
 		"subtitle": "",
+		"kuerzel": "I.01.1.05809",
+		"kuerzelKunde": "ST 4-2",
+		"description": "Bevölkerung am Jahresende",
+		"id": 5870,
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur ",
+		"kennzahlenset": "Richtplan-Print",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Bevölkerung"
+		],
+		"stufe1": "Strategie 4",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die schweizerische Bevölkerung nahm von 1997 bis 2016 von gut 142 000 auf etwas 127 000 Personen ab. Dies entspricht einem Rückgang um rund 10%. Die ausländische Bevölkerung nahm im gleichen Zeitraum von knapp 52 000 auf leicht unter 71 000 Personen zu, was einem Zuwachs um 36% gleichkommt.",
+		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister.",
+		"template": "template001_print",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"parentId": 5809,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Bevölkerung am Jahresende",
+		"subtitle": "",
 		"kuerzel": "I.01.1.05810",
 		"kuerzelKunde": "ST 4-1",
 		"description": "Bevölkerung am Jahresende",
@@ -242,7 +280,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Riehen, St. Johann und Gundeldingen waren sowohl 1997 wie auch 2016 die bevölkerungsstärksten Wohnviertel resp. Landgemeinden. Dergrösste relative Zuwachs über diese Zeitspanne ergab sich im Rosentalquartier (+65%), der geringste Zuwachs wurde in Gundeldingen verzeichnet (+3%).",
 		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister. Der starke Zuwachs im Wohnviertel Rosental ergab sich mitunter durch die Überbauung des Erlenmattareals.",
 		"template": "template001_print",
 		"option": "options001",
@@ -295,6 +333,78 @@ var indikatorensetData = [
 		]
 	},
 	{
+		"title": "Leerwohnungsquote",
+		"subtitle": "",
+		"kuerzel": "I.09.1.05813",
+		"kuerzelKunde": "ST 4-4",
+		"description": "Leerwohnungsquote",
+		"id": 5873,
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Richtplan-Print",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Wohnung"
+		],
+		"stufe1": "Strategie 4",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Leerwohnungsquote sank seit 2006 kontinuierlich und erreichte 2014 mit 0,2% den tiefsten Wert. Seither steigt sie wieder leicht an.",
+		"erlaeuterungen": "",
+		"template": "line001_print",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"parentId": 5813,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Leerwohnungsquote",
+		"subtitle": "nach Wohnviertel",
+		"kuerzel": "I.09.1.05814",
+		"kuerzelKunde": "ST 4-5",
+		"description": "Leerwohnungsquote",
+		"id": 5874,
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Richtplan-Print",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Wohnung"
+		],
+		"stufe1": "Strategie 4",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2015 wie auch 2016 in Bettingen verzeichnet.",
+		"erlaeuterungen": "",
+		"template": "mappie001_print",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"parentId": 5814,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Mittlere Wohnfläche pro Person",
 		"subtitle": "",
 		"kuerzel": "I.09.1.05815",
@@ -316,7 +426,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Die Wohnfläche pro Kopf nahm von 1980 bis 2010 um sechs Quadratmeter zu. Seither ist ein leichter Rückgang zu verzeichnen. Der Wert 2016 beträgt 41,3 Quadratmeter.",
 		"erlaeuterungen": "",
 		"template": "line001_print",
 		"option": "options001",
@@ -354,7 +464,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "2016 war die Nettowohnungsproduktion überdurchschnittlich hoch. Dazu beigetragen hat eine hohe Neubauproduktion, ein positiver Umbausaldo und eine niedrige Anzahl von Abbrüchen.",
 		"erlaeuterungen": "",
 		"template": "line001_print",
 		"option": "options001",
@@ -366,6 +476,42 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
 		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Bruttogeschossfläche Wohnen",
+		"subtitle": "",
+		"kuerzel": "I.09.1.05818",
+		"kuerzelKunde": "ST 4-9",
+		"description": "Bruttogeschossfläche Wohnen",
+		"id": 5878,
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Richtplan-Print",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Wohnung"
+		],
+		"stufe1": "Strategie 4",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Bruttogeschossfläche im Bereich Wohnen nahm zwischen 2010 und 2015 in allen Wohnviertel zu, mit Ausnahme der Altstadt Grossbasel. Am stärksten sind die Anstiege in den Wohnvierteln Wettstein (4,7%), St. Alban (4,8%), Kleinhüningen (12,4%) sowie Rosental (27,7%).",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"parentId": 5818,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
 		"externalLinks": [
 			""
 		]
@@ -431,7 +577,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Der Anteil der Einwohner, welche an ihrem Wohnort in der Nacht einer Lärmbelastung von über 50 dB (A) ausgesetzt sind, betrug 2010 knapp 24%. Bei 14% der Einwohner wurde der Tagesgrenzwert überschritten, bei 16% der Grenzwert in der Nacht.",
 		"erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche einer Lärmbelastung über dem Immissionsgrenzwert gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Die in der LSV festgehaltenen Immissionsgrenzwerte drücken das Mass an Lärmbelastung aus, das zirka 75% der Bevölkerung erträgt, ohne sich erheblich gestört zu fühlen. Wohngebiete sind gemäss Lärmempfindlichkeitsstufenplan den Stufen II (Wohnzonen) und III (Wohn-/Gewerbezonen) mit unterschiedlichen Immissionsgrenzwerten zugeteilt: ES II: 60 dB (A) Tag, 50 dB (A) Nacht, ES III: 65 dB (A) Tag, 55 dB (A) Nacht; dB (A) ist die übliche Masseinheit zur Messung von Lärmstärke.",
 		"template": "template001_print",
 		"option": "options001",
@@ -469,7 +615,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. 2015 vergeben die Bewohnerinnen und Bewohner im Durchschnitt der Lebensqualität im Stadtkanton eine 7,7.",
 		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "template001_print",
 		"option": "options001",
@@ -481,6 +627,222 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
 		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Anteil Einwohner pro ÖV-Güteklasse",
+		"subtitle": "",
+		"kuerzel": "I.11.2.05822",
+		"kuerzelKunde": "ST 6-1",
+		"description": "Anteil Einwohner pro ÖV-Güteklasse",
+		"id": 5882,
+		"thema": "11 Verkehr",
+		"unterthema": "Öffentlicher Verkehr",
+		"kennzahlenset": "Richtplan-Print",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"ÖV"
+		],
+		"stufe1": "Strategie 6",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "pie001_print",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"parentId": 5822,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Beschäftigtendichte",
+		"subtitle": "Anzahl Beschäftigte pro Hektar",
+		"kuerzel": "I.03.2.05823",
+		"kuerzelKunde": "ST 7-1",
+		"description": "Beschäftigtendichte",
+		"id": 5883,
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Beschäftigte ",
+		"kennzahlenset": "Richtplan-Print",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Beschäftigte"
+		],
+		"stufe1": "Strategie 7",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Kanton Basel-Stadt arbeiteten 2014 rund 151 800 Beschäftigte. Daraus resultiert eine Beschäftigtendichte von etwa 41 Beschäftigten pro Hektar. Dieser Wert lag 2011 noch bei 40 Beschäftigten.",
+		"erlaeuterungen": "",
+		"template": "line001_print",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"parentId": 5823,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Beschäftigtendichte",
+		"subtitle": "Anzahl Beschäftigte pro Hektar nach Wohnviertel",
+		"kuerzel": "I.03.2.05824",
+		"kuerzelKunde": "ST 7-2",
+		"description": "Beschäftigtendichte",
+		"id": 5884,
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Beschäftigte ",
+		"kennzahlenset": "Richtplan-Print",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Beschäftigte"
+		],
+		"stufe1": "Strategie 7",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "mappie001_print",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"parentId": 5824,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Bruttogeschossfläche Industrie und Gewerbe",
+		"subtitle": "",
+		"kuerzel": "I.09.1.05825",
+		"kuerzelKunde": "ST 7-3",
+		"description": "Bruttogeschossfläche Industrie und Gewerbe",
+		"id": 5885,
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Richtplan-Print",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Gebäude"
+		],
+		"stufe1": "Strategie 7",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Bruttogeschossfläche im Bereich Arbeiten (Industrie und Gewerbe) ist zwischen 2010 und 2015 im Kanton Basel-Stadt leicht rückläufig. Die grössten Rückgänge verzeichnen die Wohnviertel Hirzbrunnen (-8,0%) und Breite (-5,6%). Hingegen sind Zunahmen in den Wohnvierteln Am Ring (3,7%) und Wettstein (6,9%) feststellbar.",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"parentId": 5825,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Anteil Landwirtschaftsfläche",
+		"subtitle": "gemäss Zonenplan",
+		"kuerzel": "I.02.1.05827",
+		"kuerzelKunde": "ST 9-1",
+		"description": "Anteil Landwirtschaftsfläche",
+		"id": 5886,
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kennzahlenset": "Richtplan-Print",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Umwelt"
+		],
+		"stufe1": "Strategie 9",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "line001_print",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"parentId": 5827,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Anzahl privater Personenwagen pro Haushalt",
+		"subtitle": "",
+		"kuerzel": "I.11.1.05828",
+		"kuerzelKunde": "ST 11-1",
+		"description": "Anzahl privater Personenwagen pro Haushalt",
+		"id": 5887,
+		"thema": "11 Verkehr",
+		"unterthema": "Motorfahrzeuge",
+		"kennzahlenset": "Richtplan-Print",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Personenwagen"
+		],
+		"stufe1": "Strategie 11",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Anzahl privater Personenwagen pro Haushalt betrug 2015 0,5 und damit etwas weniger als noch im Jahr 2010.",
+		"erlaeuterungen": "",
+		"template": "line001_print",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"parentId": 5828,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
 		"externalLinks": [
 			""
 		]
@@ -511,7 +873,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "In den beiden Landgemeinden besitzen die Haushalte im Schnitt am meisten private Personenwagen, in der Kleinbasler Altstadt am wenigsten. Den grössten Rückgang von 2010 (0,59) bis 2015 (0,49) verzeichnete das Wohnviertel Clara.",
 		"erlaeuterungen": "",
 		"template": "mappie001_print",
 		"option": "options001",
@@ -522,6 +884,84 @@ var indikatorensetData = [
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Geförderte Trinkwassermenge",
+		"subtitle": "Vergleich mit potenzieller Maximalmenge",
+		"kuerzel": "I.02.4.05831",
+		"kuerzelKunde": "ST 12-1",
+		"description": "Geförderte Trinkwassermenge",
+		"id": 5890,
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Wasserversorgung und Wasserverbrauch",
+		"kennzahlenset": "Richtplan-Print",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Umwelt",
+			"Wasser"
+		],
+		"stufe1": "Strategie 12",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "line001_print",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"parentId": 5831,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Externe und interne Erreichbarkeit",
+		"subtitle": "Basel-Stadt im Vergleich",
+		"kuerzel": "I.03.2.05891",
+		"kuerzelKunde": "ST 8-1",
+		"description": "Externe und interne Erreichbarkeit",
+		"id": 5908,
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Beschäftigte ",
+		"kennzahlenset": "Richtplan-Print",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-06-23T16:07:34.3434",
+		"schlagwort": [
+			"EuroAirport",
+			"Auto",
+			"Standort",
+			"Kantonsvergleich"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die kontinentale Erreichbarkeit der Stadt Basel hat sich zwischen 2000 und 2014 verbessert. Die Entwicklung bei den anderen Schweizer Städte verläuft im gleichen Zeitraum identisch. Die Stadt Zürich bewegt sich auf einem höheren Niveau als Basel und Genf, die Stadt Bern liegt darunter. Die Entwicklung bei der globalen Erreichbarkeit verläuft bei allen Städten parallel und über die Jahre auf gleichbleibendem Niveau. Basel bewegt sich auch bei diesem indikator zusammen mit Genf wiederum zwischen dem Level von Zürich und Bern.",
+		"erlaeuterungen": "",
+		"template": "line001_print",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"parentId": 5891,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"BAK Basel Economics"
 		],
 		"externalLinks": [
 			""
