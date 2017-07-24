@@ -15,16 +15,22 @@
       plotOptions: {
         pie: {
          colors: [
-           '#50B432', 
-           '#ED561B', 
-           '#DDDF00', 
-           '#24CBE5', 
-           '#64E572', 
-           '#FF9655', 
-           '#FFF263', 
-           '#6AF9C4'
-         ]
+           '#007A2F',  // Wald
+           '#68AB2B ',  // Acker, Wiese, Weide
+           '#73B97C',  // Übrige Grünfläche
+           '#990300',  // Gebäude
+           '#6F6F6F',  // Verkehrsflächen
+           '#3C3C3C',  // Übrige versiegelte Fläche
+           '#008AC3' // Gewässer
+         ],
+		dataLabels: {
+		                enabled: true,
+		                format: '{point.percentage:.1f} %',
+		                style: {
+		                    color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+		                }
 	      }
       }
+    }
     };
 }());

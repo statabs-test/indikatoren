@@ -36,11 +36,11 @@
     }
   },
   "series": [
-  {"color": "#a6a6a6"}, /*grau*/
-  {"color": "#c00000"}, /*dunkelrot*/
-  {"color": "#d99694"}, /*hellrot*/
-  {"color": "#00b050"}, /*hellgrün*/
-  {"color": "#73ba7c"} /*dunkelgrün*/
+  {"color": "#C8C8C8"}, /*grau*/
+  {"color": "#CD9C00"}, /*dunkelrot*/
+  {"color": "#FABD24"}, /*hellrot*/
+  {"color": "#73B97C"}, /*hellgrün*/
+  {"color": "#007A2F"} /*dunkelgrün*/
 
   ],
   "chart": {

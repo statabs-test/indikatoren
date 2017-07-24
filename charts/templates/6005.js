@@ -1,9 +1,10 @@
 (function(){
     return {
   "xAxis": {
-    "tickInterval": 3
+    "tickInterval": 5
   },
   "yAxis": {
+    "min": undefined, 
 	"labels": {
 		"format": "{value:,.0f}"
 	}
@@ -13,21 +14,27 @@
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   },
   "series": [
-    {"color": "#ff8028",
+    {"color": "#b00000 ",
       "marker": {
         "enabled": true
       }    
-    }, /* orange */
-	{"color": "#4f81bd",
+    
+    }, /* rot */
+	{"color": "#672773",
       "marker": {
         "enabled": true
       }    
-    }, /* blau */
+    }, /* violett */
+  	{"color": "#007a2f",
+      "marker": {
+        "enabled": true
+      }    
+    }/* grün  */
   ],
   "legend": {
     "enabled": true,
-    "x": 45,
-    "y": 35,
+    "x": 30,
+    "y": 25,
     "itemWidth": 1000,
     "layout": "horizontal",
     "verticalAlign": "top",
