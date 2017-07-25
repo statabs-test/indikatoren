@@ -231,18 +231,12 @@
 
 	                        borderWidth: 1,
 	                        borderColor: color(),
+	                        //sizeFormatter: pieSize(data.value, minAbsNumber, maxAbsNumber, chart),
+	                        
 	                        sizeFormatter: function () {
-	                            var yAxis = this.chart.yAxis[0],
-	                                zoomFactor = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
-	                            //Increase or decrease default pie size
-                            	var pieSizeFactor = 0.5;
-                            	//Minimal pie size: a summand added to the calculated size
-                            	var pieSizeMin = 5;
-								//Negative values: return absolute value
-								var size = pieSizeMin + Math.abs(this.chart.chartWidth / 11 * pieSizeFactor * zoomFactor * data.value / maxNumber); 
-								//console.log('value: '+ data.value + ', size: ' + size);
-								return size;
+								return pieSize(data.value, minAbsNumber, maxAbsNumber, chart);
 	                        },
+	                        
 	                        tooltip: {
 	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {series.name} </span><br/>',
 	                            pointFormatter: function () {
@@ -324,44 +318,44 @@
 	                //Add manually drawn legend
 	                var maxBubbleSize = 20;
 	                var minBubbleSize = 0.05
-	                chart.renderer.circle(290, 270, 0.5*pieSize(minBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
+	                chart.renderer.circle(410, 275, 0.5*pieSize(minBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
 					    fill: 'grey',
 					    'stroke-width': 0, 
 					    zIndex: 6,
 					    class: 'bubbleSizeLegend'
 					}).add();
-					chart.renderer.label(minBubbleSize, 315, 260).attr({
+					chart.renderer.label(minBubbleSize, 430, 265).attr({
 						zIndex: 6,
 						class: 'bubbleSizeLegend'
 					}).add();
-	                chart.renderer.circle(290, 300, 0.5*pieSize(maxBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
+	                chart.renderer.circle(410, 300, 0.5*pieSize(maxBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
 					    fill: 'grey',
 					    stroke: 'grey',
 					    'stroke-width': 0,
 					    zIndex: 6,
 					    class: 'bubbleSizeLegend'
 					}).add();
-					chart.renderer.label(maxBubbleSize, 315, 290).attr({
+					chart.renderer.label(maxBubbleSize, 430, 290).attr({
 						zIndex: 6,
 						class: 'bubbleSizeLegend'
 					}).add();
-				    chart.renderer.rect(360, 265, 10, 10, 0).attr({
+				    chart.renderer.rect(290, 270, 10, 10, 0).attr({
 			            'stroke-width':0,
 			            fill: 'grey',
 			            zIndex: 6,
 			            class: 'bubbleColorLegend'
 			        }).add();
-			        chart.renderer.label('Zunahme', 380, 260).attr({
+			        chart.renderer.label('Zunahme', 310, 265).attr({
 			        	zIndex: 6,
 			        	class: 'bubbleColorLegend'
 			        }).add();
-					chart.renderer.rect(360, 300, 10, 10, 0).attr({
+					chart.renderer.rect(290, 295, 10, 10, 0).attr({
 			            'stroke-width':0,
 			            fill: 'salmon',
 			            zIndex: 6,
 			            class: 'bubbleColorLegend'
 			        }).add();
-			        chart.renderer.label('Abnahme', 380, 295).attr({
+			        chart.renderer.label('Abnahme', 310, 290).attr({
 			        	zIndex: 6,
 			        	class: 'bubbleColorLegend'
 			        }).add();
