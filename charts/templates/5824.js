@@ -168,7 +168,6 @@
 		            	var pieSizeMin = 5;
 						//Negative values: return absolute value
 						var size = pieSizeMin + Math.abs(chart.chartWidth / 11 * pieSizeFactor * zoomFactor * value / maxAbsNumber); 
-						//console.log('value: '+ data.value + ', size: ' + size);
 						return size;
 	                }
 	                
@@ -228,15 +227,11 @@
 	                        wohnviertel_Name: data["hc-key"],
 	                        wohnviertel_Id : wohnviertelSeries.wohnviertel_Id,
 	                        zIndex: 6, // Keep pies above connector lines
-
 	                        borderWidth: 1,
 	                        borderColor: color(),
-	                        //sizeFormatter: pieSize(data.value, minAbsNumber, maxAbsNumber, chart),
-	                        
 	                        sizeFormatter: function () {
 								return pieSize(data.value, minAbsNumber, maxAbsNumber, chart);
 	                        },
-	                        
 	                        tooltip: {
 	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {series.name} </span><br/>',
 	                            pointFormatter: function () {
