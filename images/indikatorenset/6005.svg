@@ -1,0 +1,106 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h432v229H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M43 120h432v229H43z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M46.5 120v229m133-229v229m132-229v229m132-229v229"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#B9CFD7" stroke-width=".5" class="highcharts-grid-line" d="M43 349.25h432m-432-57h432m-432-57h432m-432-58h432m-432-57.5h432"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M43 120h432v229H43z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width=".5" d="M43 349.25h432"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M43 120v229"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(43 120)" clip-path="url(#a)">
+            <path fill="none" d="M4.235 184.059l132.353-8.588 79.412-9.16 52.941-15.171 52.941 4.58 52.942-2.576 52.94-.859" class="highcharts-graph" stroke="#b00000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.765 184.059h10l132.353-8.588 79.412-9.16 52.941-15.171 52.941 4.58 52.942-2.576 52.94-.859h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#b00000" d="M51 304a4 4 0 1 1 0-.004zm132-9a4 4 0 1 1 0-.004zm80-9a4 4 0 1 1 0-.004zm52-15a4 4 0 1 1 0-.004zm53 5a4 4 0 1 1 0-.004zm53-3a4 4 0 1 1 0-.004zm53-1a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(43 120)" clip-path="url(#a)">
+            <path fill="none" d="M4.235 83.013l132.353 18.892L216 107.058l52.941-1.432 52.941-.572 52.942-14.313 52.94-1.145" class="highcharts-graph" stroke="#672773" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.765 83.013h10l132.353 18.892L216 107.058l52.941-1.432 52.941-.572 52.942-14.313 52.94-1.145h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#672773" d="M51 203a4 4 0 1 1 0-.004zm132 19a4 4 0 1 1 0-.004zm80 5a4 4 0 1 1 0-.004zm52-1a4 4 0 1 1 0-.004zm53-1a4 4 0 1 1 0-.004zm53-14a4 4 0 1 1 0-.004zm53-1a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="translate(43 120)" clip-path="url(#a)">
+            <path fill="none" d="M136.588 94.176L216 83.585l52.941-17.747 52.941-.573 52.942-21.182 52.94-10.592" class="highcharts-graph" stroke="#007a2f" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M126.588 94.176h10L216 83.585l52.941-17.747 52.941-.573 52.942-21.182 52.94-10.592h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-2 highcharts-line-series highcharts-color-undefined highcharts-tracker">
+            <path fill="#007a2f" d="M183 214a4 4 0 1 1 0-.004zm80-10a4 4 0 1 1 0-.004zm52-18a4 4 0 1 1 0-.004zm53-1a4 4 0 1 1 0-.004zm53-21a4 4 0 1 1 0-.004zm53-11a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>Interne Erreichbarkeit</tspan>
+    </text>
+    <g class="highcharts-legend" transform="translate(40 35)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="996" height="73"/>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0">
+            <path fill="none" d="M8 19h16" class="highcharts-graph" stroke="#b00000" stroke-width="2"/>
+            <path fill="#b00000" d="M20 19a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 8)">
+                <tspan>Regional MIV</tspan>
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1">
+            <path fill="none" d="M8 38h16" class="highcharts-graph" stroke="#672773" stroke-width="2"/>
+            <path fill="#672773" d="M20 38a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 27)">
+                <tspan>Regional ÖV ohne Frequenz</tspan>
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-2">
+            <path fill="none" d="M8 57h16" class="highcharts-graph" stroke="#007a2f" stroke-width="2"/>
+            <path fill="#007a2f" d="M20 57a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 46)">
+                <tspan>Regional ÖV mit Frequent</tspan>
+            </text>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="47.235" y="368">
+            <tspan>2000</tspan>
+        </text>
+        <text x="179.588" y="368">
+            <tspan>2005</tspan>
+        </text>
+        <text x="311.941" y="368">
+            <tspan>2010</tspan>
+        </text>
+        <text x="444.294" y="368">
+            <tspan>2015</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="28" y="354">
+            <tspan>120</tspan>
+        </text>
+        <text x="28" y="296">
+            <tspan>140</tspan>
+        </text>
+        <text x="28" y="239">
+            <tspan>160</tspan>
+        </text>
+        <text x="28" y="182">
+            <tspan>180</tspan>
+        </text>
+        <text x="28" y="125">
+            <tspan>200</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: BAK Basel Economics</tspan>
+    </text>
+</svg>

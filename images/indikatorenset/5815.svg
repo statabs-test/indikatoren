@@ -21,11 +21,11 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(53 41)" clip-path="url(#a)">
-            <path fill="none" d="M4.137 60.368l21.775-1.848 21.775-2.464 21.775-1.283 217.75-6.304 21.776.63 21.775.248 21.775-.094 21.775 1.875 21.775 1.51 21.775 1.083" class="highcharts-graph" stroke="#8b2223" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M-5.863 60.368h10l21.775-1.848 21.775-2.464 21.775-1.283 217.75-6.304 21.776.63 21.775.248 21.775-.094 21.775 1.875 21.775 1.51 21.775 1.083h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+            <path fill="none" d="M4.137 60.368l21.775-1.848 21.775-2.464 21.775-1.283 217.75-6.304 21.776.63 21.775.248 21.775-.094 21.775 1.875 21.775 1.526 21.775 1.124" class="highcharts-graph" stroke="#83522E" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M-5.863 60.368h10l21.775-1.848 21.775-2.464 21.775-1.283 217.75-6.304 21.776.63 21.775.248 21.775-.094 21.775 1.875 21.775 1.526 21.775 1.124h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker">
-            <path fill="#8b2223" d="M61 101a4 4 0 1 1 0-.004zm21-1a4 4 0 1 1 0-.004zm22-3a4 4 0 1 1 0-.004zm22-1a4 4 0 1 1 0-.004zm218-7a4 4 0 1 1 0-.004zm21 1a4 4 0 1 1 0-.004zm22 0a4 4 0 1 1 0-.004zm22 0a4 4 0 1 1 0-.004zm22 2a4 4 0 1 1 0-.004zm22 2a4 4 0 1 1 0-.004zm21 1a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <path fill="#83522E" d="M61 101a4 4 0 1 1 0-.004zm21-1a4 4 0 1 1 0-.004zm22-3a4 4 0 1 1 0-.004zm22-1a4 4 0 1 1 0-.004zm218-7a4 4 0 1 1 0-.004zm21 1a4 4 0 1 1 0-.004zm22 0a4 4 0 1 1 0-.004zm22 0a4 4 0 1 1 0-.004zm22 2a4 4 0 1 1 0-.004zm22 2a4 4 0 1 1 0-.004zm21 1a4 4 0 1 1 0-.004z" class="highcharts-point"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">

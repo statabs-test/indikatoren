@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "Wohnviertel",
+      "name": "1998",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -20565,13 +20565,174 @@
 						return this.properties.LIBGEO +': <b>' + this.value + '</b><br/>';
 					}
       },
-      "data": [],
-      "turboThreshold": 0
+      "data": [
+        [
+          1,
+          0.06
+        ],
+        [
+          2,
+          0.58
+        ],
+        [
+          3,
+          1.24
+        ],
+        [
+          4,
+          0.41
+        ],
+        [
+          5,
+          0.51
+        ],
+        [
+          6,
+          2.11
+        ],
+        [
+          7,
+          0.15
+        ],
+        [
+          8,
+          0.3
+        ],
+        [
+          9,
+          0.22
+        ],
+        [
+          10,
+          1.52
+        ],
+        [
+          11,
+          2.27
+        ],
+        [
+          12,
+          0.38
+        ],
+        [
+          13,
+          0.46
+        ],
+        [
+          14,
+          0.46
+        ],
+        [
+          15,
+          0.34
+        ],
+        [
+          16,
+          0.8
+        ],
+        [
+          17,
+          2.27
+        ],
+        [
+          18,
+          0.73
+        ],
+        [
+          19,
+          0.19
+        ],
+        [
+          20,
+          0.72
+        ]
+      ]
     },
     {
       "visible": false,
-      "data": [],
-      "turboThreshold": 0
+      "data": [
+        [
+          "Altstadt GB",
+          0.37352601156
+        ],
+        [
+          "Vorstädte",
+          -0.045240641712
+        ],
+        [
+          "Am Ring",
+          -0.786778892846
+        ],
+        [
+          "Breite",
+          0.081772271609
+        ],
+        [
+          "St. Alban",
+          0.320618892508
+        ],
+        [
+          "Gundeldingen",
+          -1.839241877257
+        ],
+        [
+          "Bruderholz",
+          0.239283260819
+        ],
+        [
+          "Bachletten",
+          -0.133541406576
+        ],
+        [
+          "Gotthelf",
+          0.072754330324
+        ],
+        [
+          "Iselin",
+          -1.176357388317
+        ],
+        [
+          "St. Johann",
+          -2.080945273632
+        ],
+        [
+          "Altstadt KB",
+          0.208235294117
+        ],
+        [
+          "Clara",
+          -0.028593615186
+        ],
+        [
+          "Wettstein",
+          -0.245407725322
+        ],
+        [
+          "Hirzbrunnen",
+          0.940409731113
+        ],
+        [
+          "Rosental",
+          -0.361531715873
+        ],
+        [
+          "Matthäus",
+          -1.963077185405
+        ],
+        [
+          "Klybeck",
+          -0.542734082398
+        ],
+        [
+          "Kleinhüningen",
+          0.104767870302
+        ],
+        [
+          "Riehen",
+          -0.214248314162
+        ]
+      ],
+      "name": "Differenz"
     },
     {
       "name": "Rhein",
@@ -21013,10 +21174,6 @@
       "borderColor": "#fbfbfb"
     }
   ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": false
-  },
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",

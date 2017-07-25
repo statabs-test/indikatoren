@@ -21437,7 +21437,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel",
+    "text": "Anzahl Einwohner pro Hektar nach Wohnviertel",
     "align": "left"
   },
   "credits": {
@@ -21451,9 +21451,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: "
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
   },
   "colorAxis": {
     "min": 0,

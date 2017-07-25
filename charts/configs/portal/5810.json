@@ -1,103 +1,103 @@
 {
   "series": [
     {
-      "color": "#D7E8D2",
+      "color": "#FABD24",
       "visible": true,
       "data": [
         [
-          "Altstadt Grossbasel",
-          2453
+          "Altstadt GB",
+          2860
         ],
         [
           "Vorstädte",
-          5862
+          5921
         ],
         [
           "Am Ring",
-          12434
+          13218
         ],
         [
           "Breite",
-          10235
+          10356
         ],
         [
           "St. Alban",
-          11365
+          13103
         ],
         [
           "Gundeldingen",
-          22956
+          22909
         ],
         [
           "Bruderholz",
-          9832
+          10772
         ],
         [
           "Bachletten",
-          15075
+          15563
         ],
         [
           "Gotthelf",
-          7875
+          8288
         ],
         [
           "Iselin",
-          19105
+          19946
         ],
         [
           "St. Johann",
-          23389
+          23804
         ],
         [
-          "Altstadt Kleinbasel",
-          2829
+          "Altstadt KB",
+          2814
         ],
         [
           "Clara",
-          4889
+          5083
         ],
         [
           "Wettstein",
-          6167
+          6524
         ],
         [
           "Hirzbrunnen",
-          10335
+          9893
         ],
         [
           "Rosental",
-          5341
+          6566
         ],
         [
           "Matthäus",
-          20462
+          20766
         ],
         [
           "Klybeck",
-          9312
+          9595
         ],
         [
           "Kleinhüningen",
-          3115
+          3341
         ],
         [
           "Riehen",
-          22814
+          24674
         ],
         [
           "Bettingen",
-          1313
+          1472
         ]
       ],
-      "name": "1997",
+      "name": "2011",
       "turboThreshold": 0
     },
     {
-      "color": "#007A2F",
+      "color": "#B00000",
       "visible": true,
       "data": [
         [
-          "Altstadt Grossbasel",
+          "Altstadt GB",
           3135
         ],
         [
@@ -141,7 +141,7 @@
           24840
         ],
         [
-          "Altstadt Kleinbasel",
+          "Altstadt KB",
           3233
         ],
         [

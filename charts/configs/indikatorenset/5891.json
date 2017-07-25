@@ -1,67 +1,6 @@
 {
   "series": [
     {
-      "color": "#b00000 ",
-      "marker": {
-        "enabled": true
-      },
-      "data": [
-        [
-          1991,
-          null
-        ],
-        [
-          1996,
-          null
-        ],
-        [
-          2000,
-          135.7
-        ],
-        [
-          2002,
-          null
-        ],
-        [
-          2003,
-          null
-        ],
-        [
-          2004,
-          null
-        ],
-        [
-          2005,
-          138.7
-        ],
-        [
-          2006,
-          null
-        ],
-        [
-          2008,
-          141.9
-        ],
-        [
-          2010,
-          147.2
-        ],
-        [
-          2012,
-          145.6
-        ],
-        [
-          2014,
-          146.5
-        ],
-        [
-          2016,
-          146.8
-        ]
-      ],
-      "name": "Regional MIV"
-    },
-    {
       "color": "#ff8028",
       "marker": {
         "enabled": true
@@ -114,74 +53,9 @@
         [
           2014,
           134.7
-        ],
-        [
-          2016,
-          null
         ]
       ],
       "name": "Kontinental"
-    },
-    {
-      "color": "#672773",
-      "marker": {
-        "enabled": true
-      },
-      "data": [
-        [
-          1991,
-          null
-        ],
-        [
-          1996,
-          null
-        ],
-        [
-          2000,
-          171
-        ],
-        [
-          2002,
-          null
-        ],
-        [
-          2003,
-          null
-        ],
-        [
-          2004,
-          null
-        ],
-        [
-          2005,
-          164.4
-        ],
-        [
-          2006,
-          null
-        ],
-        [
-          2008,
-          162.6
-        ],
-        [
-          2010,
-          163.1
-        ],
-        [
-          2012,
-          163.3
-        ],
-        [
-          2014,
-          168.3
-        ],
-        [
-          2016,
-          168.7
-        ]
-      ],
-      "name": "Regional ÖV ohne Frequenz"
     },
     {
       "color": "#4f81bd",
@@ -236,74 +110,9 @@
         [
           2014,
           106.5
-        ],
-        [
-          2016,
-          null
         ]
       ],
       "name": "Global"
-    },
-    {
-      "color": "#007a2f",
-      "marker": {
-        "enabled": true
-      },
-      "data": [
-        [
-          1991,
-          null
-        ],
-        [
-          1996,
-          null
-        ],
-        [
-          2000,
-          null
-        ],
-        [
-          2002,
-          null
-        ],
-        [
-          2003,
-          null
-        ],
-        [
-          2004,
-          null
-        ],
-        [
-          2005,
-          167.1
-        ],
-        [
-          2006,
-          null
-        ],
-        [
-          2008,
-          170.8
-        ],
-        [
-          2010,
-          177
-        ],
-        [
-          2012,
-          177.2
-        ],
-        [
-          2014,
-          184.6
-        ],
-        [
-          2016,
-          188.3
-        ]
-      ],
-      "name": "Regional ÖV mit Frequent"
     }
   ],
   "chart": {
@@ -332,7 +141,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Externe und interne Erreichbarkeit"
+    "text": "Externe Erreichbarkeit"
   },
   "subtitle": {
     "style": {
@@ -349,6 +158,7 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
+    "min": 0,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "title": {
@@ -374,7 +184,7 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 5
+    "tickInterval": 3
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -400,7 +210,7 @@
     "symbolRadius": 0,
     "x": 45,
     "y": 35,
-    "itemWidth": 200,
+    "itemWidth": 1000,
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"

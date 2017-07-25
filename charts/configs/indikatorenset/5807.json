@@ -4,6 +4,18 @@
       "name": "2016",
       "data": [
         [
+          "Wald",
+          4.14451452088199
+        ],
+        [
+          "Acker, Wiese, Weide",
+          4.11349510450692
+        ],
+        [
+          "Übrige Grünfläche",
+          10.4736530977918
+        ],
+        [
           "Gebäude",
           6.04358896731154
         ],
@@ -12,16 +24,12 @@
           6.39248669566555
         ],
         [
-          "Grünfläche",
-          18.7316627231807
+          "Übrige versiegelte Fläche",
+          4.44853224764792
         ],
         [
           "Gewässer",
           1.33768155503446
-        ],
-        [
-          "Überige Bodenversiegelung",
-          4.44853224764792
         ]
       ],
       "turboThreshold": 0
@@ -62,17 +70,20 @@
       "cursor": true,
       "showInLegend": true,
       "dataLabels": {
-        "enabled": false
+        "enabled": true,
+        "format": "{point.percentage:.1f} %",
+        "style": {
+          "color": "black"
+        }
       },
       "colors": [
-        "#50B432",
-        "#ED561B",
-        "#DDDF00",
-        "#24CBE5",
-        "#64E572",
-        "#FF9655",
-        "#FFF263",
-        "#6AF9C4"
+        "#007A2F",
+        "#68AB2B ",
+        "#73B97C",
+        "#990300",
+        "#6F6F6F",
+        "#3C3C3C",
+        "#008AC3"
       ]
     }
   },
@@ -92,7 +103,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Stand 2016",
     "align": "left"
   },
   "tooltip": {

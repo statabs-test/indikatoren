@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#a6a6a6",
+      "color": "#C8C8C8",
       "data": [
         [
           "2003  (N=1495)",
@@ -28,7 +28,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#c00000",
+      "color": "#CD9C00",
       "data": [
         [
           "2003  (N=1495)",
@@ -55,7 +55,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#d99694",
+      "color": "#FABD24",
       "data": [
         [
           "2003  (N=1495)",
@@ -82,7 +82,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#00b050",
+      "color": "#73B97C",
       "data": [
         [
           "2003  (N=1495)",
@@ -109,7 +109,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#73ba7c",
+      "color": "#007A2F",
       "data": [
         [
           "2003  (N=1495)",
