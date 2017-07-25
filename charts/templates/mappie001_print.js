@@ -5,7 +5,7 @@
             "backgroundColor": "#fbfbfb",
             "width": 485,
             "height": 415,
-            "spacingBottom": 45,
+            spacing: [2,2,2,2],
             "style": {
                 "fontFamily": "Arial"
             },

@@ -23,9 +23,11 @@
     "verticalAlign": "top",
     "align": "left",
     "width": 50,
+    /*
 	"y": 40,
 	"x": 40,
 	"itemMarginBottom": 5,
+	*/
     "itemStyle": {
     "fontWeight": "normal"
     }
@@ -73,12 +75,8 @@
     "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
     "shared": true
   },
-  "chart": {
-/*    
-    "marginBottom": 65,
-    "type": "line",
-    "alignTicks": false
-*/    
+  "chart": { 
+  	"width":640,
   }
 };
 }());

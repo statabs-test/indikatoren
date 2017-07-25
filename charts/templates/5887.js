@@ -21,7 +21,7 @@
     "shared": false
   },
   "plotOptions": {
-    "series": {
+    /*"series": {
       "dataLabels": {
         "enabled": true,
         "allowOverlap": true,
@@ -36,7 +36,7 @@
             return "";
           }
       }
-    }
+    }*/
   }
 }
 }());
