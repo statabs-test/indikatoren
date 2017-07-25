@@ -76,8 +76,6 @@
 			}
 		],
 		chart: {
-			width: 485,
-			height: 415,
 			events: {
 	            load: function (e) {
 	            	
@@ -218,8 +216,6 @@
                         	return (data.value >= 0) ? 'grey' : 'salmon';
                         };
 
-
-
 	                    var currentPieSeries = 
 	                    {
 	                        type: 'mappie',
@@ -303,10 +299,6 @@
 	                    //console.log(chart.series[chart.series.length-1]);
 	                    
 	                });
-	                
-
-	                
-	                
 	                // Only redraw once all pies and connectors have been added
 	                chart.redraw();
 	                

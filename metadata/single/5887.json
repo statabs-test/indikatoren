@@ -1,4 +1,4 @@
-{"title":"Anzahl privater Personenwagen pro Haushalt",
+﻿{"title":"Anzahl privater Personenwagen pro Haushalt",
 "subtitle":"",
 "kuerzel":"I.11.1.05828",
 "kuerzelKunde":"ST 11-1",
@@ -24,6 +24,6 @@
 "parentId":5828,
 "children":[],
 "renderLink":[],
-"quellenangabe":[],
+"quellenangabe":["Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"],
 "externalLinks":[""]
 }

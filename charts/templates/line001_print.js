@@ -9,17 +9,16 @@
 		"borderColor": "#fbfbfb",
 		"backgroundColor": "#fbfbfb",
 		"zoomType": "xy",
-		"width": 641,
-    "height": 415,
-    "spacingBottom": 45,    
+		"width": 320,
+    	"height": 208,
 		"style": {
-		  "fontFamily": "Arial"
+		 "fontFamily": "Arial"
 		},
 		"type": "line"    
-	},
+		},
   "title": {
     "style": {
-      "fontSize": '14px',
+      "fontSize": '10px',
       "fontWeight": "bold",
       "color": "#000000"
     },
@@ -27,7 +26,7 @@
   },
   "subtitle": {
     "style": {
-      "fontSize": '12px',
+      "fontSize": '10px',
       "fontWeight": "normal",
       "fontFamily": "Arial",
       "color": "#000000"
@@ -51,6 +50,7 @@
     },
     "labels": {
       "style": {
+      	"fontSize": 10,
         "color": "#000000"
       }
     }
@@ -60,6 +60,7 @@
     lineWidth: 0.5,
     "labels": {
       "style": {
+      	"fontSize": 10,
         "color": "#000000"
       }
     },

@@ -75,8 +75,6 @@
 			}
 		],
 		chart: {
-			width: 641,
-			height: 415,
 			events: {
 	            load: function (e) {
 	            	
@@ -210,16 +208,19 @@
 
 	                        borderWidth: 1,
 	                        borderColor: color(),
-	                        sizeFormatter: function () {
+	                    	sizeFormatter: function () {
 	                            var yAxis = this.chart.yAxis[0],
 	                                zoomFactor = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
 	                            //Increase or decrease default pie size
-                            	var pieSizeFactor = 0.009;
-	                            //We don't want a minimal sized pie here
+                            	var pieSizeFactor = 0.01;
+                            	//Minimal pie size: a summand added to the calculated size
+                            	var pieSizeMin = 5;
+	                            //We don't want this variant of a minimal sized pie here
 								//var minSize = this.chart.chartWidth / 45 * zoomFactor;
-								var size = this.chart.chartWidth / 11 * pieSizeFactor * zoomFactor * data.value / maxNumber; 
 								//Negative values: return absolute value
-								return Math.abs(size);
+								var size = pieSizeMin + Math.abs(this.chart.chartWidth / 11 * pieSizeFactor * zoomFactor * data.value / maxNumber); 
+								
+								return size;
 	                            //return Math.max(minSize, maxSize);
 	                        },
 	                        tooltip: {

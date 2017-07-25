@@ -3,9 +3,9 @@
     "chart": {
         "borderColor": "#fbfbfb",
         "backgroundColor": "#fbfbfb",
-        "width": 641,
-        "height": 415,        
-        "spacingBottom": 30,
+ 		"width": 320,
+    	"height": 208,  
+        //"spacingBottom": 30,
         "style": {
             "fontFamily": "Arial"
         },
@@ -55,6 +55,7 @@
         },
         "labels": {
             "style": {
+            	fontSize: 10,
                 "color": "#000000"
             }
         },
@@ -73,6 +74,7 @@
         },
         "labels": {
             "style": {
+            	fontSize:10,
             "color": "#000000"
             }
         }
@@ -97,7 +99,12 @@
         }
     },
     "legend": {
-        "symbolRadius": 0
-    }
+        "symbolRadius": 0,
+        fontSize: 10
+    },
+    dataLabels: {
+            enabled: false,
+            style: {fontSize: 10}
+        }
 	}
 }());

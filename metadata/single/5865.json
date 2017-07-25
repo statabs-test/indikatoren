@@ -1,4 +1,4 @@
-{"title":"Wanderungssaldo",
+﻿{"title":"Wanderungssaldo",
 "subtitle":"",
 "kuerzel":"I.01.5.05205",
 "kuerzelKunde":"ST 1-5",
@@ -24,6 +24,6 @@
 "parentId":5205,
 "children":[],
 "renderLink":[],
-"quellenangabe":[],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
 "externalLinks":[""]
 }

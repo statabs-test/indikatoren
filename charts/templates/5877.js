@@ -14,15 +14,15 @@
     }    
   },
   "series": [
-  {"color": "#D7E8D2", "visible": true}, /* hellgrün*/
-  {"color": "#007A2F", "visible": true} /* ... */
+  {"color": "#83522E", "visible": true}, /* dunkelbraun*/
+  //{"color": "#007A2F", "visible": true} /* ... */
   ],
   "legend": {
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 70,
+    "x": 35,
 	"y": 35,    
     "itemStyle": {
       "fontWeight": "normal"
