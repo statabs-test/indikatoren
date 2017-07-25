@@ -350,12 +350,12 @@
 
 					//Add click handler to bubbleLegend items
 					$('.pieLegend').click(function(){
-						Highcharts.each(chart.series[1].points, function (data) {
-							console.log(data);
-							data.series.setVisible(false);
+						Highcharts.each(chart.series, function (data) {
+							if (data.userOptions.type == 'mappie'){
+								data.setVisible(false, false);
+							};
 						});
 					});
-					chart.redraw();
 	            }
 			}
 		}
