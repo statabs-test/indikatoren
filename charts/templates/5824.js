@@ -1,6 +1,7 @@
 /*  global rheinDataEPSG2056
 	global Highcharts
 	global geojson_wohnviertelEPSG2056
+	global $
 */
 (function(){
 
@@ -317,45 +318,52 @@
 					    fill: 'grey',
 					    'stroke-width': 0, 
 					    zIndex: 6,
-					    class: 'bubbleSizeLegend'
+					    class: 'pieLegend'
 					}).add();
 					chart.renderer.label(minBubbleSize, 430, 265).attr({
 						zIndex: 6,
-						class: 'bubbleSizeLegend'
+						class: 'pieLegend'
 					}).add();
 	                chart.renderer.circle(410, 300, 0.5*pieSize(maxBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
 					    fill: 'grey',
 					    stroke: 'grey',
 					    'stroke-width': 0,
 					    zIndex: 6,
-					    class: 'bubbleSizeLegend'
+					    class: 'pieLegend'
 					}).add();
 					chart.renderer.label(maxBubbleSize, 430, 290).attr({
 						zIndex: 6,
-						class: 'bubbleSizeLegend'
+						class: 'pieLegend'
 					}).add();
 				    chart.renderer.rect(290, 270, 10, 10, 0).attr({
 			            'stroke-width':0,
 			            fill: 'grey',
 			            zIndex: 6,
-			            class: 'bubbleColorLegend'
+			            class: 'pieLegend'
 			        }).add();
 			        chart.renderer.label('Zunahme', 310, 265).attr({
 			        	zIndex: 6,
-			        	class: 'bubbleColorLegend'
+			        	class: 'pieLegend'
 			        }).add();
 					chart.renderer.rect(290, 295, 10, 10, 0).attr({
 			            'stroke-width':0,
 			            fill: 'salmon',
 			            zIndex: 6,
-			            class: 'bubbleColorLegend'
+			            class: 'pieLegend'
 			        }).add();
 			        chart.renderer.label('Abnahme', 310, 290).attr({
 			        	zIndex: 6,
-			        	class: 'bubbleColorLegend'
+			        	class: 'pieLegend'
 			        }).add();
 
-
+					//Add click handler to bubbleLegend items
+					$('.pieLegend').click(function(){
+						Highcharts.each(chart.series[1].points, function (data) {
+							console.log(data);
+							data.series.setVisible(false);
+						});
+					});
+					chart.redraw();
 	            }
 			}
 		}
