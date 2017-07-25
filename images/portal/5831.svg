@@ -7,10 +7,10 @@
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
     <path fill="none" class="highcharts-plot-background" d="M74 111h401v239H74z"/>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M83.5 111v239m64-239v239m63-239v239m64-239v239m63-239v239m63-239v239m64-239v239"/>
+        <path fill="none" class="highcharts-grid-line" d="M99.5 111v239m73-239v239m72-239v239m73-239v239m73-239v239m73-239v239"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M74 350.5h401m-401-80h401m-401-79h401m-401-81h401"/>
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M74 350.5h401m-401-48h401m-401-48h401m-401-47h401m-401-48h401m-401-49h401"/>
     </g>
     <path fill="none" class="highcharts-plot-border" d="M74 111h401v239H74z"/>
     <g class="highcharts-axis highcharts-xaxis">
@@ -21,11 +21,11 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(74 111)" clip-path="url(#a)">
-            <path fill="#71a3b5" class="highcharts-point" stroke="#fff" d="M4.5 93.5h10v146h-10zm13 6h10v140h-10zm13 6h10v134h-10zm12-1h10v135h-10zm13-2h10v137h-10zm13 3h10v134h-10zm12 5h10v129h-10zm13 3h10v126h-10zm13 4h10v122h-10zm12-1h10v123h-10zm13 5h10v118h-10zm13-1h10v119h-10zm12 3h10v116h-10zm13 2h10v114h-10zm13 4h10v110h-10zm13 2h10v108h-10zm12 5h10v103h-10zm13 2h10v101h-10zm13-7h10v108h-10zm12 4h10v104h-10zm13 3h10v101h-10zm13-1h10v102h-10zm12 1h10v101h-10zm13-3h10v104h-10zm13-3h10v107h-10zm12-2h10v109h-10zm13 5h10v104h-10zm13 3h10v101h-10zm12-2h10v103h-10zm13 1h10v102h-10zm13-4h10v106h-10z"/>
+            <path fill="#71a3b5" class="highcharts-point" stroke="#fff" d="M5.5 53.5h10v186h-10zm15-9h10v195h-10zm14 15h10v180h-10zm15-8h10v188h-10zm14 10h10v178h-10zm15 10h10v168h-10zm15-1h10v169h-10zm14 5h10v164h-10zm15 9h10v155h-10zm14-4h10v159h-10zm15 7h10v152h-10zm14 2h10v150h-10zm15 5h10v145h-10zm15 8h10v137h-10zm14-21h10v158h-10zm15 6h10v152h-10zm14-9h10v161h-10zm15 12h10v149h-10zm14 2h10v147h-10zm15-1h10v148h-10zm14 3h10v145h-10zm15 1h10v144h-10zm15-7h10v151h-10zm14-2h10v153h-10zm15 8h10v145h-10zm14-1h10v146h-10zm15 3h10v143h-10z"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(74 111)" clip-path="url(#a)">
-            <path fill="none" d="M10.152 38.01h380.697" class="highcharts-graph" stroke="#7d60a0" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M.152 38.01h400.697" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+            <path fill="none" d="M11.074 163.758l14.571 3.123 14.572 4.291 14.57.326L69.36 174.5l14.571 4.853 14.571 1.705 14.572 1.728 14.57-.561 14.572.635 14.571 2.195 14.572 4.179 14.57 1.522L200.5 185.6l14.571 3.971 14.571 5.262 14.572 5.736 14.57-.97 14.572 1.132 14.571-4.592 14.572-4.343 14.57-5.298 14.572 3.908 14.571-.352 14.571 1.802 14.572 3.136 14.57-3.625" class="highcharts-graph" stroke="#7d60a0" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M1.074 163.758h10l14.571 3.123 14.572 4.291 14.57.326L69.36 174.5l14.571 4.853 14.571 1.705 14.572 1.728 14.57-.561 14.572.635 14.571 2.195 14.572 4.179 14.57 1.522L200.5 185.6l14.571 3.971 14.571 5.262 14.572 5.736 14.57-.97 14.572 1.132 14.571-4.592 14.572-4.343 14.57-5.298 14.572 3.908 14.571-.352 14.571 1.802 14.572 3.136 14.57-3.625h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
@@ -35,55 +35,58 @@
         <tspan>Vergleich mit potenzieller Maximalmenge</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(50 50)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="284" height="49"/>
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="260" height="49"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
-                <tspan>Wasserverbrauch in Mio. m³</tspan>
+                <tspan>Privatehaushalte in Mio. m³</tspan>
             </text>
             <path fill="#71a3b5" class="highcharts-point" d="M10 7h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1">
             <path fill="none" d="M8 33h16" class="highcharts-graph" stroke="#7d60a0" stroke-width="2"/>
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 22)">
-                <tspan>Maximal mögliche Jahresproduktion in Mio. m³</tspan>
+                <tspan>Industrie_m3 und Gewerbe_m3 in Mio. m³</tspan>
             </text>
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
-        <text x="84.152" y="369">
-            1985
+        <text x="99.645" y="369">
+            <tspan>1990</tspan>
         </text>
-        <text x="147.601" y="369">
-            1990
+        <text x="172.501" y="369">
+            <tspan>1995</tspan>
         </text>
-        <text x="211.051" y="369">
-            1995
+        <text x="245.358" y="369">
+            <tspan>2000</tspan>
         </text>
-        <text x="274.5" y="369">
-            2000
+        <text x="318.214" y="369">
+            <tspan>2005</tspan>
         </text>
-        <text x="337.949" y="369">
-            2005
-        </text>
-        <text x="401.399" y="369">
-            2010
+        <text x="391.07" y="369">
+            <tspan>2010</tspan>
         </text>
         <text x="462.781" y="369">
-            2015
+            <tspan>2015</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
         <text x="59" y="355">
             <tspan>0 Mio m³</tspan>
         </text>
-        <text x="59" y="275">
+        <text x="59" y="307">
+            <tspan>5 Mio m³</tspan>
+        </text>
+        <text x="59" y="259">
+            <tspan>10 Mio m³</tspan>
+        </text>
+        <text x="59" y="211">
+            <tspan>15 Mio m³</tspan>
+        </text>
+        <text x="59" y="163">
             <tspan>20 Mio m³</tspan>
         </text>
-        <text x="59" y="195">
-            <tspan>40 Mio m³</tspan>
-        </text>
         <text x="59" y="116">
-            <tspan>60 Mio m³</tspan>
+            <tspan>25 Mio m³</tspan>
         </text>
     </g>
     <text x="10" class="highcharts-credits" y="410" cursor="default" color="#000" font-size="10">

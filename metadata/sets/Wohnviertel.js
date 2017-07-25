@@ -339,49 +339,6 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Baujahr Wohngebäude",
-		"subtitle": "Stand: 2016",
-		"kuerzel": "I.09.1.4830",
-		"kuerzelKunde": "RU-1.A",
-		"description": "Baujahr Wohngebäude",
-		"id": 4830,
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Wohnviertel",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2017-05-04T16:18:00.000",
-		"schlagwort": [
-			"Gebäude",
-			"Alter"
-		],
-		"stufe1": "2 Raum und Umwelt",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "ich bin ein test",
-		"erlaeuterungen": "Mittleres Baujahr der Wohngebäude des Wohnviertels (ungewichtetes arithmetisches Mittel des Baujahres über alle Wohngebäude).",
-		"template": "dotplot",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
-		"parentId": null,
-		"children": [
-			"5117"
-		],
-		"renderLink": [
-			"5117"
-		],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
-		],
-		"externalLinks": [
-			""
-		]
-	},
-	{
 		"title": "Anteil Einfamilienhäuser",
 		"subtitle": "Stand: 2016",
 		"kuerzel": "I.09.1.4831",

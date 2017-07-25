@@ -1,152 +1,60 @@
 {
   "series": [
     {
-      "color": "#D7E8D2",
+      "color": "#83522E",
       "visible": true,
       "data": [
         [
           "Altstadt GB",
-          -1
+          22
         ],
         [
           "Altstadt KB",
-          0
-        ],
-        [
-          "Am Ring",
-          -18
-        ],
-        [
-          "Bachletten",
           1
         ],
         [
-          "Bettingen",
-          0
-        ],
-        [
-          "Breite",
-          0
-        ],
-        [
-          "Bruderholz",
-          16
-        ],
-        [
-          "Clara",
-          0
-        ],
-        [
-          "Gotthelf",
-          -13
-        ],
-        [
-          "Gundeldingen",
-          0
-        ],
-        [
-          "Hirzbrunnen",
-          -1
-        ],
-        [
-          "Iselin",
-          -44
-        ],
-        [
-          "Kleinhüningen",
-          0
-        ],
-        [
-          "Klybeck",
-          -6
-        ],
-        [
-          "Matthäus",
-          13
-        ],
-        [
-          "Riehen",
-          36
-        ],
-        [
-          "Rosental",
-          0
-        ],
-        [
-          "St. Alban",
-          -32
-        ],
-        [
-          "St. Johann",
-          -5
-        ],
-        [
-          "Vorstädte",
-          -7
-        ],
-        [
-          "Wettstein",
-          0
-        ]
-      ],
-      "name": "2007",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#007A2F",
-      "visible": true,
-      "data": [
-        [
-          "Altstadt GB",
-          14
-        ],
-        [
-          "Altstadt KB",
-          -6
-        ],
-        [
           "Am Ring",
-          12
+          55
         ],
         [
           "Bachletten",
-          8
+          57
         ],
         [
           "Bettingen",
-          0
+          15
         ],
         [
           "Breite",
-          110
+          131
         ],
         [
           "Bruderholz",
-          11
+          84
         ],
         [
           "Clara",
-          0
+          18
         ],
         [
           "Gotthelf",
-          -1
+          -28
         ],
         [
           "Gundeldingen",
-          31
+          306
         ],
         [
           "Hirzbrunnen",
-          151
+          187
         ],
         [
           "Iselin",
-          27
+          60
         ],
         [
           "Kleinhüningen",
-          1
+          92
         ],
         [
           "Klybeck",
@@ -154,34 +62,34 @@
         ],
         [
           "Matthäus",
-          13
+          76
         ],
         [
           "Riehen",
-          58
+          228
         ],
         [
           "Rosental",
-          0
+          863
         ],
         [
           "St. Alban",
-          13
+          116
         ],
         [
           "St. Johann",
-          3
+          291
         ],
         [
           "Vorstädte",
-          1
+          131
         ],
         [
           "Wettstein",
-          -7
+          112
         ]
       ],
-      "name": "2016",
+      "name": "Nettoproduktion  2007 bis  2016",
       "turboThreshold": 0
     }
   ],
@@ -249,7 +157,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel von 2007 bis %jahrbis%",
+    "text": "nach Wohnviertel von 2007 bis 2016",
     "align": "left"
   },
   "yAxis": {
@@ -287,9 +195,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: "
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
   },
   "legend": {
     "symbolRadius": 0,
@@ -297,7 +205,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 70,
+    "x": 35,
     "y": 35,
     "itemStyle": {
       "fontWeight": "normal"

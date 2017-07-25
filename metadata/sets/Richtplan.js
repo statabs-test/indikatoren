@@ -42,7 +42,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bevölkerungsdichte",
-		"subtitle": "nach Wohnviertel",
+		"subtitle": "Anzahl Einwohner pro Hektar nach Wohnviertel",
 		"kuerzel": "I.01.1.05202",
 		"kuerzelKunde": "ST 1-2",
 		"description": "Bevölkerungsdichte",
@@ -74,7 +74,9 @@ var indikatorensetData = [
 			"5863"
 		],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
 		"externalLinks": [
 			""
 		]
@@ -150,7 +152,9 @@ var indikatorensetData = [
 			"5865"
 		],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
 		"externalLinks": [
 			""
 		]
@@ -195,7 +199,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anteil Fläche nach Art der Bodenbedeckung",
-		"subtitle": "",
+		"subtitle": "Stand 2016",
 		"kuerzel": "I.02.1.05807",
 		"kuerzelKunde": "ST 2-1",
 		"description": "Anteil Fläche nach Art der Bodenbedeckung",
@@ -508,7 +512,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Nettowohnungsproduktion",
-		"subtitle": "nach Wohnviertel von 2007 bis %jahrbis%",
+		"subtitle": "nach Wohnviertel von 2007 bis 2016",
 		"kuerzel": "I.09.1.05817",
 		"kuerzelKunde": "ST 4-8",
 		"description": "Nettowohnungsproduktion",
@@ -539,7 +543,9 @@ var indikatorensetData = [
 			"5877"
 		],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+		],
 		"externalLinks": [
 			""
 		]
@@ -674,6 +680,7 @@ var indikatorensetData = [
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
+			"Wohnviertel",
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
@@ -926,7 +933,9 @@ var indikatorensetData = [
 			"5887"
 		],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"
+		],
 		"externalLinks": [
 			""
 		]
@@ -1017,11 +1026,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Externe und interne Erreichbarkeit",
+		"title": "Externe Erreichbarkeit",
 		"subtitle": "Basel-Stadt im Vergleich",
 		"kuerzel": "I.03.2.05891",
 		"kuerzelKunde": "ST 8-1",
-		"description": "Externe und interne Erreichbarkeit",
+		"description": "Externe Erreichbarkeit",
 		"id": 5891,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
@@ -1051,6 +1060,160 @@ var indikatorensetData = [
 		"children": [
 			"5908"
 		],
+		"renderLink": [],
+		"quellenangabe": [
+			"BAK Basel Economics"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Index der Bevölkerungs- und Beschäftigtenentwicklung",
+		"subtitle": "Werte 2005 = 100",
+		"kuerzel": "I.03.2.05901",
+		"kuerzelKunde": "ST4-10",
+		"description": "Index der Bevölkerungs- und Beschäftigtenentwicklung",
+		"id": 5901,
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Beschäftigte ",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Schweiz"
+		],
+		"aktualisierungsdatum": "2017-07-19T16:15:08.088",
+		"schlagwort": [
+			"Index"
+		],
+		"stufe1": "Strategie 4",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5909"
+		],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Unterwegsdistanz nach Verkehrsmittel",
+		"subtitle": "Stand 2010",
+		"kuerzel": "I.11.6.05902",
+		"kuerzelKunde": "ST11-3",
+		"description": "Unterwegsdistanz nach Verkehrsmittel",
+		"id": 5902,
+		"thema": "11 Verkehr",
+		"unterthema": "Mobilitätsverhalten",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"ÖV"
+		],
+		"stufe1": "Strategie 11",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "pie001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5910"
+		],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Mittlere Wohnfläche pro Person",
+		"subtitle": "nach Wohnviertel",
+		"kuerzel": "I.09.1.05903",
+		"kuerzelKunde": "ST4-11",
+		"description": "Mittlere Wohnfläche pro Person",
+		"id": 5903,
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Wohnen",
+			"Wohnung"
+		],
+		"stufe1": "Strategie 4",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Gewünscht ist ein Zweijahresvergleich",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [
+			"5911"
+		],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Interne Erreichbarkeit",
+		"subtitle": "",
+		"kuerzel": "I.03.2.06005",
+		"kuerzelKunde": "ST 8-1",
+		"description": "Interne Erreichbarkeit",
+		"id": 6005,
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Beschäftigte ",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Standort",
+			"Kantonsvergleich"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"parentId": null,
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Basel Economics"

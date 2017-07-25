@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#d7e9d2",
+      "color": "#CD9C00",
       "visible": true,
       "data": [
         [
@@ -93,7 +93,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#73ba7c",
+      "color": "#83522E",
       "visible": true,
       "data": [
         [
