@@ -10,7 +10,7 @@
   "yAxis": {
 	//"max": 100,
     "labels": {
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f} m²"
     }    
   },
   "series": [
@@ -22,14 +22,14 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 45,
+    "x":35,
 	"y": 35,    
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
    tooltip: {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}  m²</b><br/>',
     "shared": false
   },
   "chart": {      

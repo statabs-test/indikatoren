@@ -13,7 +13,7 @@
         "symbol": "circle",
         "enabled": true
       },     
-      "color": "#8b2223"
+      "color": "#83522E"
     }
   ],
   "tooltip": {

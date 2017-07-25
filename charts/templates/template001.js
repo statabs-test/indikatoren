@@ -97,7 +97,8 @@
         }
     },
     "legend": {
-        "symbolRadius": 0
+        "symbolRadius": 0,
+        fontSize: 10
     }
 	}
 }());

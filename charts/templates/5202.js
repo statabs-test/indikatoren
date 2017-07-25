@@ -75,8 +75,6 @@
 			}
 		],
 		chart: {
-			width: 641,
-			height: 415,
 			events: {
 	            load: function (e) {
 	            	
