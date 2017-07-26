@@ -53,8 +53,8 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
-    "width": 641,
-    "height": 415,
+    "width": 320,
+    "height": 208,
     "spacing": [
       2,
       2,
@@ -78,7 +78,8 @@
         "enabled": true,
         "format": "{point.percentage:.1f} %",
         "style": {
-          "color": "black"
+          "color": "black",
+          "fontSize": "10px"
         }
       },
       "colors": [

@@ -58,5 +58,6 @@
   },
   "deprecated": "Export CSV is included as a module in the main Highcharts package since v5.0.11.",
   "directories": {},
-  "_resolved": "https://registry.npmjs.org/highcharts-export-csv/-/highcharts-export-csv-1.4.4.tgz"
+  "_resolved": "https://registry.npmjs.org/highcharts-export-csv/-/highcharts-export-csv-1.4.4.tgz",
+  "readme": "ERROR: No README data found!"
 }
