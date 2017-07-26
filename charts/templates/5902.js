@@ -38,7 +38,7 @@
               allowPointSelect: false,
      		  dataLabels: {
                 enabled: true,
-                distance: -35,
+                distance: -30,
                 style: {
                     color: 'black', 
                     textOutline: "0px black", 
