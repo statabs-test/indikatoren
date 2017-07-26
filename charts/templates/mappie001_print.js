@@ -3,8 +3,8 @@
         "chart": {		
             "borderColor": "#fbfbfb",
             "backgroundColor": "#fbfbfb",
-            "width": 485,
-            "height": 415,
+            "width": 640,
+            "height": 308,
             spacing: [2,2,2,2],
             "style": {
                 "fontFamily": "Arial"
