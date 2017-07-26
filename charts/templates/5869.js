@@ -3,15 +3,46 @@
       "data":{
       	"switchRowsAndColumns": true
       },
-      "series": [ 
-          {
-              "name": "Anzahl"
-          }        
-      ],
+          /*series: [{
+              data: [
+                    {
+                        legendIndex: 0
+                    },
+                    {
+                        legendIndex: 2
+                    },
+                    {
+                        legendIndex: 3
+                    },
+                    {
+                        legendIndex: 4
+                    },
+                    {
+                        legendIndex: 5
+                    },
+                    {
+                        legendIndex: 6
+                    },
+                    {
+                        legendIndex: 7
+                    }  
+                ]
+    }],*/
     	"tooltip": {
     		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.2f} km² ({point.percentage:.1f}%)</b><br/>',
         "shared": false
       },
+	  "legend": {
+	    "enabled": true,
+	    "layout": "horizontal",
+	    "verticalAlign": "top",
+	    "align": "left",
+		//"x": 45,
+		"width": 340,
+	    "itemStyle": {
+	    "fontWeight": "normal"
+	    }
+	  },
       plotOptions: {
         pie: {
          colors: [
@@ -23,14 +54,18 @@
            '#3C3C3C',  // Übrige versiegelte Fläche
            '#008AC3' // Gewässer
          ],
+        size: "50%",
 		dataLabels: {
 		                enabled: true,
 		                format: '{point.percentage:.1f} %',
 		                style: {
-		                    color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+		                    color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black',
+		                    fontSize: '10px' 
 		                }
 	      }
       }
     }
     };
 }());
+
+
