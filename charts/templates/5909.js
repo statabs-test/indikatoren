@@ -2,11 +2,6 @@
     return {
   "plotOptions": {
     "series": {
-      "pointPadding": 0,
-      "groupPadding": 0,
-      //pointWidth: 2
-      //"stacking": null,
-      //"groupPadding": 0.1
     }
   },
   "yAxis": [{
@@ -56,14 +51,14 @@
     "fontWeight": "normal"
     }
   },
-  "series": [
+ "series": [
     {
       "color": "#B375AB",
       "index": 0,
       "type": "column",
-      "pointWidth": "7",
-      //"pointPadding": 0,
-      //"groupPadding": 0.1,
+      pointPadding: 0,
+      pointWidth: 5,
+      borderWidth: 0,
       legendIndex: 1,
     	"tooltip": {
   		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.0f}</b><br/>',
@@ -74,8 +69,8 @@
       "index": 1,
       "type": "line",
       "yAxis": 1,
-      "marker": {
-      "enabled": true
+       "marker": {
+        "enabled": true
       },
       legendIndex: 2,
       "tooltip": {
@@ -89,9 +84,9 @@
       "color": "#C4AB91",
       "index": 0,
       "type": "column",
-      "pointWidth": "7",
-      //"pointPadding": 0,
-      //"groupPadding": 0.1,
+      pointPadding: 0,
+      pointWidth: 5,
+      borderWidth: 0,
       legendIndex: 3,
       "tooltip": {
   		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.0f}</b><br/>',

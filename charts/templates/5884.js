@@ -13,14 +13,15 @@
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "right",
-			"x": -225,
-			"y": -30,
+			"x": -210,
+			"y": -2,
 			},
 		"colorAxis": {
 			//"min": undefined,
-			"minColor": "#eff6e9",
-			"maxColor": "#4b7b1f",
 			"labels": {
+				 style: {
+		                  fontSize: '10px', fontFamily: "Arial", "fontWeight": "normal"
+		                },
 				"formatter": function () {
 					return Highcharts.numberFormat((this.value),0); 
 				}
@@ -43,13 +44,24 @@
                     to: 0
                 }, {
                     from: 0,
-                    to: 50
+                    to: 20,
+                     color: '#D3E2E4'
                 }, {
-                    from: 100
+                    from: 20,
+                    to: 50,
+                     color: '#A8C3CA'
+                },{
+                    from: 50,
+                    to: 100,
+                     color: '#689199'
+                },{
+                    from: 100,
+                    color: '#246370'
                 }]
             },
 		"series": [
 			{
+				
 				"name": "Wohnviertel", 
 				"animation": true,
 				"mapData": geojson_wohnviertelEPSG2056,

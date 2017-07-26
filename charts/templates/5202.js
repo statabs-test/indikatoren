@@ -8,7 +8,7 @@
     return {
     	"legend": {
 			"title": {
-				"text": ""
+				"text": "in Tausend"
 			}
 			},
 		"colorAxis": {
@@ -17,7 +17,7 @@
 			"maxColor": "#4b7b1f",
 			"labels": {
 				"formatter": function () {
-					return Highcharts.numberFormat((this.value),0); 
+					return Highcharts.numberFormat((this.value/1000),0); 
 				}
 			}
 		},
@@ -306,28 +306,28 @@
 	                //Add manually drawn legend
 	                var maxBubbleSize = 500;
 	                var minBubbleSize = 5000
-	                chart.renderer.circle(410, 275, 0.5*pieSize(minBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
+	                chart.renderer.circle(280, 275, 0.5*pieSize(minBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
 					    fill: 'grey',
 					    'stroke-width': 0, 
 					    zIndex: 6,
 					    class: 'pieLegend'
 					}).add();
-					chart.renderer.label(minBubbleSize, 430, 265).attr({
+					chart.renderer.label(minBubbleSize, 300, 265).attr({
 						zIndex: 6,
 						class: 'pieLegend'
 					}).add();
-	                chart.renderer.circle(410, 300, 0.5*pieSize(maxBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
+	                chart.renderer.circle(280, 300, 0.5*pieSize(maxBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
 					    fill: 'grey',
 					    stroke: 'grey',
 					    'stroke-width': 0,
 					    zIndex: 6,
 					    class: 'pieLegend'
 					}).add();
-					chart.renderer.label(maxBubbleSize, 430, 290).attr({
+					chart.renderer.label(maxBubbleSize, 300, 290).attr({
 						zIndex: 6,
 						class: 'pieLegend'
 					}).add();
-				    chart.renderer.rect(290, 270, 10, 10, 0).attr({
+				    /*chart.renderer.rect(290, 270, 10, 10, 0).attr({
 			            'stroke-width':0,
 			            fill: 'grey',
 			            zIndex: 6,
@@ -337,7 +337,7 @@
 			        	zIndex: 6,
 			        	class: 'pieLegend'
 			        }).add();
-					/*chart.renderer.rect(290, 295, 10, 10, 0).attr({
+					chart.renderer.rect(290, 295, 10, 10, 0).attr({
 			            'stroke-width':0,
 			            fill: 'salmon',
 			            zIndex: 6,

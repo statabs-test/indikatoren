@@ -38,7 +38,8 @@
 	    "verticalAlign": "top",
 	    "align": "left",
 		//"x": 45,
-		"width": 340,
+		//"width": 340,
+		"itemWidth": 135,
 	    "itemStyle": {
 	    "fontWeight": "normal"
 	    }
@@ -60,7 +61,7 @@
 		                format: '{point.percentage:.1f} %',
 		                style: {
 		                    color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black',
-		                    fontSize: '10px' 
+		                    fontSize: '10px' ,  "fontFamily": "Arial"
 		                }
 	      }
       }
