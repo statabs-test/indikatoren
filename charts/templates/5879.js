@@ -2,7 +2,7 @@
     return {
   "plotOptions": {
     "series": {
-      "pointWidth": 20,
+      "pointWidth": 10,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -25,14 +25,15 @@
     "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>',
     "shared": true
   },  
-  "legend": {
-	"enabled": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 5,
-    "align": "right",
+    "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "width": 10,
+  	"x": 70,
     "itemStyle": {
-      "fontWeight": "normal"
+    "fontWeight": "normal"
     }
   },
   "series": [
@@ -45,8 +46,6 @@
   ],
   "chart": {
     "renderTo": 'container-I.01.1.0016', 
-    "marginBottom": 75,
-    "marginTop": 75,
     "type": "column",
     "inverted": true
   }
