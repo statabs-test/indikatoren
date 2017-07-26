@@ -115,7 +115,7 @@
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 320,
+    "width": 640,
     "height": 208,
     "spacing": [
       3,
@@ -134,7 +134,6 @@
     },
     "type": "column",
     "inverted": false,
-    "spacingBottom": 40,
     "forExport": true,
     "renderTo": "container-5877"
   },
@@ -215,7 +214,6 @@
     "verticalAlign": "top",
     "align": "left",
     "x": 35,
-    "y": 35,
     "itemStyle": {
       "fontWeight": "normal"
     }

@@ -370,10 +370,7 @@
     "align": "left",
     "symbolRadius": 0,
     "width": 50,
-<<<<<<< HEAD
-=======
     "x": 40,
->>>>>>> ee00fb03ac17d311c6dbd11623ee9807a0da0346
     "itemStyle": {
       "fontWeight": "normal"
     }

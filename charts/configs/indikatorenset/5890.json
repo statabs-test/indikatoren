@@ -1,13 +1,11 @@
 {
   "series": [
     {
-      "color": "#71a3b5",
+      "color": "#b475ab",
       "index": 0,
       "type": "column",
-      "pointWidth": "10",
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f} \u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
+      "pointWidth": "15",
+      "legendIndex": 0,
       "data": [
         [
           1989,
@@ -121,16 +119,11 @@
       "name": "Privatehaushalte in Mio. m³"
     },
     {
-      "color": "#7d60a0",
-      "index": 1,
-      "type": "line",
-      "marker": {
-        "symbol": "circle",
-        "enabled": false
-      },
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
+      "color": "#a8c4cb",
+      "index": 0,
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 1,
       "data": [
         [
           1989,
@@ -242,6 +235,126 @@
         ]
       ],
       "name": "Industrie_m3 und Gewerbe_m3 in Mio. m³"
+    },
+    {
+      "color": "#000000",
+      "index": 1,
+      "type": "line",
+      "marker": {
+        "enabled": false
+      },
+      "legendIndex": 3,
+      "data": [
+        [
+          1989,
+          50.4576
+        ],
+        [
+          1990,
+          50.4576
+        ],
+        [
+          1991,
+          50.4576
+        ],
+        [
+          1992,
+          50.4576
+        ],
+        [
+          1993,
+          50.4576
+        ],
+        [
+          1994,
+          50.4576
+        ],
+        [
+          1995,
+          50.4576
+        ],
+        [
+          1996,
+          50.4576
+        ],
+        [
+          1997,
+          50.4576
+        ],
+        [
+          1998,
+          50.4576
+        ],
+        [
+          1999,
+          50.4576
+        ],
+        [
+          2000,
+          50.4576
+        ],
+        [
+          2001,
+          50.4576
+        ],
+        [
+          2002,
+          50.4576
+        ],
+        [
+          2003,
+          50.4576
+        ],
+        [
+          2004,
+          50.4576
+        ],
+        [
+          2005,
+          50.4576
+        ],
+        [
+          2006,
+          50.4576
+        ],
+        [
+          2007,
+          50.4576
+        ],
+        [
+          2008,
+          50.4576
+        ],
+        [
+          2009,
+          50.4576
+        ],
+        [
+          2010,
+          50.4576
+        ],
+        [
+          2011,
+          50.4576
+        ],
+        [
+          2012,
+          50.4576
+        ],
+        [
+          2013,
+          50.4576
+        ],
+        [
+          2014,
+          50.4576
+        ],
+        [
+          2015,
+          50.4576
+        ]
+      ],
+      "name": "Maximal mögliche Jahresproduktion in Mio. m³"
     }
   ],
   "chart": {
@@ -253,7 +366,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
-    "width": 320,
+    "width": 640,
     "height": 208,
     "spacing": [
       2,
@@ -264,9 +377,8 @@
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line",
-    "marginBottom": 65,
-    "alignTicks": false,
+    "type": "column",
+    "inverted": false,
     "forExport": true,
     "renderTo": "container-5890"
   },
@@ -290,19 +402,29 @@
     "align": "left"
   },
   "tooltip": {
-    "shared": false
+    "shared": true,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E"
   },
-  "yAxis": [
-    {
-      "labels": {
-        "format": "{value:,.0f} Mio m³",
-        "style": {
-          "color": "#000000"
-        }
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
       },
-      "title": ""
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
     }
-  ],
+  },
   "xAxis": {
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
@@ -313,7 +435,7 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 5
+    "tickInterval": 2
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -337,11 +459,16 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "y": 40,
-    "x": 40,
-    "itemMarginBottom": 5,
+    "x": 30,
     "itemStyle": {
       "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "stacking": "normal",
+      "pointPadding": 0,
+      "groupPadding": 0.5
     }
   },
   "exporting": {
