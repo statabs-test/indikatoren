@@ -8,25 +8,32 @@
     return {
     	"legend": {
 			"title": {
-				"text": ""
+				"text": null, 
+				style: {'fontWeight':' bold'}
 			},
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "right",
-			"x": -210,
+			"x": -200,
 			"y": -2,
+			itemMarginBottom: 2, 
+			itemStyle: {
+				fontWeight: 'normal'
+			}
 			},
+		/*
 		"colorAxis": {
 			//"min": undefined,
 			"labels": {
 				 style: {
 		                  fontSize: '10px', fontFamily: "Arial", fontWeight: "normal"
 		                },
+		        format: "{value:,.0f}",
 				"formatter": function () {
 					return Highcharts.numberFormat((this.value),0); 
 				}
 			}
-		},
+		},*/
         "data": {
 		    "seriesMapping": [
 		      {
@@ -41,23 +48,30 @@
          colorAxis: {
                 dataClassColor: 'category',
                 dataClasses: [{
-                    to: 0
+                    to: 0,
+                     color: '#D3E2E4'
                 }, {
                     from: 0,
                     to: 20,
-                     color: '#D3E2E4'
+                     color: '#A8C3CA'
                 }, {
                     from: 20,
                     to: 50,
-                     color: '#A8C3CA'
+                     color: '#689199'
                 },{
                     from: 50,
                     to: 100,
-                     color: '#689199'
+                     color: '#246370'
                 },{
                     from: 100,
-                    color: '#246370'
-                }]
+                    color: '#083038'
+                }], 
+                labels: {
+					"formatter": function () {
+						return Highcharts.numberFormat((this.value),0); 
+					},	
+                	//format: "{value:,.0f}"
+                }
             },
 		"series": [
 			{
@@ -305,11 +319,21 @@
 	                
 	                
 	                //Add manually drawn legend
-	                 chart.renderer.label('2014', 320, 210).attr({
+	                 chart.renderer.label('2014', 330, 200)
+     				.css({
+	                    fontSize: '12px',
+	                    fontWeight: 'bold'
+	                })
+	                .attr({
 			        	zIndex: 6,
 			        	class: 'pieLegend'
 			        }).add();
-			        chart.renderer.label('Differenz 2014 zu 2011', 425, 210).attr({
+			        chart.renderer.label('Differenz 2014 zu 2011', 430, 200)
+     				.css({
+	                    fontSize: '12px',
+	                    fontWeight: 'bold'
+	                })
+			        .attr({
 			        	zIndex: 6,
 			        	class: 'pieLegend'
 			        }).add();
