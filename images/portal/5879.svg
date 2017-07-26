@@ -1,62 +1,50 @@
 <svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 208" font-family="Arial" font-size="12">
     <defs>
         <clipPath id="a">
-            <path fill="none" d="M0 0h58v45H0z"/>
+            <path fill="none" d="M0 0h88v232H0z"/>
         </clipPath>
     </defs>
     <rect fill="#fbfbfb" class="highcharts-background" width="320" height="208" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M84 75h45v58H84z"/>
+    <path fill="none" class="highcharts-plot-background" d="M85 96h232v88H85z"/>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M84 81.5h45m-45 35h45"/>
+        <path fill="none" class="highcharts-grid-line" d="M85 114.5h232m-232 17h232m-232 18h232m-232 17h232m-232 18h232m-232-88h232"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#B9CFD7" stroke-width=".5" class="highcharts-grid-line" d="M83.75 75v58m45.5-58v58"/>
+        <path fill="none" stroke="#B9CFD7" stroke-width=".5" class="highcharts-grid-line" d="M84.75 96v88m58-88v88m58-88v88m58-88v88m58.5-88v88"/>
     </g>
-    <path fill="none" class="highcharts-plot-border" d="M84 75h45v58H84z"/>
+    <path fill="none" class="highcharts-plot-border" d="M85 96h232v88H85z"/>
     <g class="highcharts-axis highcharts-xaxis">
-        <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width=".5" d="M83.75 75v58"/>
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M85 114.5H75m10 17H75m10 18H75m10 17H75m10 18H75m10-89H75"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width=".5" d="M84.75 96v88"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M84 133h45"/>
+        <path fill="none" class="highcharts-axis-line" d="M85 184h232"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="matrix(0 -1 -1 0 129 133)" clip-path="url(#a)">
-            <path fill="#CD9C00" class="highcharts-point" stroke="#fff" d="M41.5-.5h20v3h-20z"/>
-            <path fill="#CD9C00" class="highcharts-point" stroke="#fff" d="M30.5-.5h20v3h-20z"/>
-            <path fill="#CD9C00" class="highcharts-point" stroke="#fff" d="M18.5-.5h20v2h-20z"/>
-            <path fill="#CD9C00" class="highcharts-point" stroke="#fff" d="M6.5-.5h20v2h-20z"/>
-            <path fill="#CD9C00" class="highcharts-point" stroke="#fff" d="M-4.5-.5h20v2h-20z"/>
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="matrix(0 -1 -1 0 317 184)" clip-path="url(#a)">
+            <path fill="#C8C8C8" class="highcharts-point" d="M74 0h10v3H74zM57 0h10v3H57zM39 0h10v2H39zM21 0h10v2H21zM4 0h10v2H4z"/>
         </g>
-        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="matrix(0 -1 -1 0 129 133)" clip-path="url(#a)">
-            <path fill="#FABD24" class="highcharts-point" stroke="#fff" d="M41.5 2.5h20v6h-20z"/>
-            <path fill="#FABD24" class="highcharts-point" stroke="#fff" d="M30.5 2.5h20v6h-20z"/>
-            <path fill="#FABD24" class="highcharts-point" stroke="#fff" d="M18.5 1.5h20v6h-20z"/>
-            <path fill="#FABD24" class="highcharts-point" stroke="#fff" d="M6.5 1.5h20v4h-20z"/>
-            <path fill="#FABD24" class="highcharts-point" stroke="#fff" d="M-4.5 1.5h20v3h-20z"/>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="matrix(0 -1 -1 0 317 184)" clip-path="url(#a)">
+            <path fill="#CD9C00" class="highcharts-point" d="M74 3h10v6H74zM57 3h10v7H57zM39 2h10v5H39zM21 2h10v3H21zM4 2h10v2H4z"/>
         </g>
-        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="matrix(0 -1 -1 0 129 133)" clip-path="url(#a)">
-            <path fill="#73B97C" class="highcharts-point" stroke="#fff" d="M41.5 8.5h20v18h-20z"/>
-            <path fill="#73B97C" class="highcharts-point" stroke="#fff" d="M30.5 8.5h20v20h-20z"/>
-            <path fill="#73B97C" class="highcharts-point" stroke="#fff" d="M18.5 7.5h20v22h-20z"/>
-            <path fill="#73B97C" class="highcharts-point" stroke="#fff" d="M6.5 5.5h20v18h-20z"/>
-            <path fill="#73B97C" class="highcharts-point" stroke="#fff" d="M-4.5 4.5h20v19h-20z"/>
+        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="matrix(0 -1 -1 0 317 184)" clip-path="url(#a)">
+            <path fill="#FABD24" class="highcharts-point" d="M74 9h10v32H74zm-17 1h10v33H57zM39 7h10v32H39zM21 5h10v22H21zM4 4h10v17H4z"/>
         </g>
-        <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="matrix(0 -1 -1 0 129 133)" clip-path="url(#a)">
-            <path fill="#007A2F" class="highcharts-point" stroke="#fff" d="M41.5 26.5h20v19h-20z"/>
-            <path fill="#007A2F" class="highcharts-point" stroke="#fff" d="M30.5 28.5h20v17h-20z"/>
-            <path fill="#007A2F" class="highcharts-point" stroke="#fff" d="M18.5 29.5h20v16h-20z"/>
-            <path fill="#007A2F" class="highcharts-point" stroke="#fff" d="M6.5 23.5h20v22h-20z"/>
-            <path fill="#007A2F" class="highcharts-point" stroke="#fff" d="M-4.5 23.5h20v22h-20z"/>
+        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="matrix(0 -1 -1 0 317 184)" clip-path="url(#a)">
+            <path fill="#73B97C" class="highcharts-point" d="M74 41h10v96H74zm-17 2h10v103H57zm-18-4h10v111H39zM21 27h10v92H21zM4 21h10v97H4z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="matrix(0 -1 -1 0 317 184)" clip-path="url(#a)">
+            <path fill="#007A2F" class="highcharts-point" d="M74 137h10v96H74zm-17 9h10v87H57zm-18 4h10v83H39zm-18-31h10v114H21zm-17-1h10v115H4z"/>
         </g>
     </g>
-    <text x="2" class="highcharts-title" y="9" color="#000" font-size="10" font-weight="700">
-        <tspan>Zufriedenheit mit Grünanlagen und Parks am Wohnort</tspan>
+    <text x="3" class="highcharts-title" y="14" color="#000" font-size="14" font-weight="700">
+        <tspan>Zufriedenheit mit Grünanlagen und</tspan><tspan dy="17" x="3">Parks am Wohnort</tspan><title>Zufriedenheit mit Grünanlagen und Parks am Wohnort</title>
     </text>
-    <text x="2" class="highcharts-subtitle" y="27" color="#000" font-size="10" font-weight="400">
-        <tspan>«Wie zufrieden sind Sie mit den Grünanlagen und Parks in</tspan><tspan dy="13" x="2">Ihrem Wohnort?»</tspan><title>«Wie zufrieden sind Sie mit den Grünanlagen und Parks in Ihrem Wohnort?»</title>
+    <text x="3" class="highcharts-subtitle" y="50" color="#000" font-weight="400">
+        <tspan>«Wie zufrieden sind Sie mit den Grünanlagen und</tspan><tspan dy="15" x="3">Parks in Ihrem Wohnort?»</tspan><title>«Wie zufrieden sind Sie mit den Grünanlagen und Parks in Ihrem Wohnort?»</title>
     </text>
-    <g class="highcharts-legend" transform="translate(141 51)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="176" height="106"/>
+    <g class="highcharts-legend" transform="translate(78 3)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="18" height="81"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
                 <tspan>Weiss nicht/Keine Angabe</tspan>
@@ -64,43 +52,61 @@
             <path fill="#C8C8C8" class="highcharts-point" d="M10 7h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 22)">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 17)">
                 <tspan>Sehr unzufrieden</tspan>
             </text>
-            <path fill="#CD9C00" class="highcharts-point" d="M10 26h12v12H10z"/>
+            <path fill="#CD9C00" class="highcharts-point" d="M10 21h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 41)">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 31)">
                 <tspan>Eher unzufrieden</tspan>
             </text>
-            <path fill="#FABD24" class="highcharts-point" d="M10 45h12v12H10z"/>
+            <path fill="#FABD24" class="highcharts-point" d="M10 35h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 60)">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 45)">
                 <tspan>Eher zufrieden</tspan>
             </text>
-            <path fill="#73B97C" class="highcharts-point" d="M10 64h12v12H10z"/>
+            <path fill="#73B97C" class="highcharts-point" d="M10 49h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 79)">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 59)">
                 <tspan>Sehr zufrieden</tspan>
             </text>
-            <path fill="#007A2F" class="highcharts-point" d="M10 83h12v12H10z"/>
+            <path fill="#007A2F" class="highcharts-point" d="M10 63h12v12H10z"/>
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="10">
-        <text x="69" y="86">
+        <text x="70" y="110">
             <tspan>2003 (N=1495)</tspan>
         </text>
-        <text x="69" y="121">
+        <text x="70" y="128">
+            <tspan>2005 (N=1509)</tspan>
+        </text>
+        <text x="70" y="146">
+            <tspan>2007 (N=1505)</tspan>
+        </text>
+        <text x="70" y="163">
             <tspan>2011 (N=1516)</tspan>
+        </text>
+        <text x="70" y="181">
+            <tspan>2015 (N=1504)</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="10">
-        <text x="84" y="153">
+        <text x="85" y="204">
             0%
         </text>
-        <text x="129" y="153">
+        <text x="143" y="204">
+            25%
+        </text>
+        <text x="201" y="204">
+            50%
+        </text>
+        <text x="259" y="204">
+            75%
+        </text>
+        <text x="304.234" y="204">
             100%
         </text>
     </g>

@@ -30,10 +30,10 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(65 111)" clip-path="url(#a)">
-            <path fill="#B375AB" class="highcharts-point" stroke="#fff" d="M9.5 60.5h8v179h-8zm31 0h8v179h-8zm31 0h8v179h-8zm31-2h8v181h-8zm31-1h8v182h-8zm30 0h8v182h-8zm31-2h8v184h-8zm31-1h8v185h-8zm31-2h8v187h-8zm31-1h8v188h-8zm31-1h8v189h-8zm31 0h8v189h-8z"/>
+            <path fill="#B375AB" class="highcharts-point" d="M10 61h9v179h-9zm30 0h10v179H40zm31 0h10v179H71zm31-2h9v181h-9zm31-1h9v182h-9zm31 0h9v182h-9zm31-2h9v184h-9zm31-1h9v185h-9zm30-2h10v187h-10zm31-1h9v188h-9zm31-1h9v189h-9zm31 0h9v189h-9z"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(65 111)" clip-path="url(#a)">
-            <path fill="#C4AB91" class="highcharts-point" stroke="#fff" d="M18.5 75.5h8v164h-8zm93-6h8v170h-8zm93-6h8v176h-8zm30-3h8v179h-8zm31-1h8v180h-8zm31-3h8v183h-8z"/>
+            <path fill="#C4AB91" class="highcharts-point" d="M19 76h9v164h-9zm92-6h10v170h-10zm93-6h9v176h-9zm31-3h9v179h-9zm31-1h9v180h-9zm30-3h10v183h-10z"/>
         </g>
         <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="translate(65 111)" clip-path="url(#b)">
             <path fill="none" d="M18.82 79.667l30.85.08 30.851-.268 30.851-1.352 30.851-.655 30.851-.245 30.852-1.481 30.85-1.176 30.852-1.7 30.85-.86 30.852-.623 30.85-.851" class="highcharts-graph" stroke="#2B0099" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>

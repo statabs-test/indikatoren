@@ -126,10 +126,10 @@
     "width": 485,
     "height": 415,
     "spacing": [
-      2,
-      2,
-      2,
-      2
+      3,
+      3,
+      3,
+      3
     ],
     "style": {
       "fontFamily": "Arial"
@@ -201,7 +201,6 @@
   "legend": {
     "layout": "vertical",
     "verticalAlign": "middle",
-    "itemMarginBottom": 5,
     "align": "right",
     "useHTML": true,
     "itemStyle": {
