@@ -1,0 +1,312 @@
+{
+  "series": [
+    {
+      "color": "#CD9C00",
+      "visible": true,
+      "data": [
+        [
+          "Altstadt GB",
+          519483
+        ],
+        [
+          "Vorstädte",
+          928329
+        ],
+        [
+          "Am Ring",
+          517556
+        ],
+        [
+          "Breite",
+          92897
+        ],
+        [
+          "St. Alban",
+          1181456
+        ],
+        [
+          "Gundeldingen",
+          629649
+        ],
+        [
+          "Bruderholz",
+          58457
+        ],
+        [
+          "Bachletten",
+          110886
+        ],
+        [
+          "Gotthelf",
+          98852
+        ],
+        [
+          "Iselin",
+          161315
+        ],
+        [
+          "St. Johann",
+          1183076
+        ],
+        [
+          "Altstadt KB",
+          250620
+        ],
+        [
+          "Clara",
+          135777
+        ],
+        [
+          "Wettstein",
+          526004
+        ],
+        [
+          "Hirzbrunnen",
+          216817
+        ],
+        [
+          "Rosental",
+          581619
+        ],
+        [
+          "Matthäus",
+          147139
+        ],
+        [
+          "Klybeck",
+          825593
+        ],
+        [
+          "Kleinhüningen",
+          276237
+        ],
+        [
+          "Riehen",
+          207379
+        ],
+        [
+          "Bettingen",
+          29759
+        ]
+      ],
+      "name": "2010",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#83522E",
+      "visible": true,
+      "data": [
+        [
+          "Altstadt GB",
+          519253
+        ],
+        [
+          "Vorstädte",
+          917959
+        ],
+        [
+          "Am Ring",
+          536448
+        ],
+        [
+          "Breite",
+          87666
+        ],
+        [
+          "St. Alban",
+          1173793
+        ],
+        [
+          "Gundeldingen",
+          631156
+        ],
+        [
+          "Bruderholz",
+          58834
+        ],
+        [
+          "Bachletten",
+          110727
+        ],
+        [
+          "Gotthelf",
+          98852
+        ],
+        [
+          "Iselin",
+          161092
+        ],
+        [
+          "St. Johann",
+          1137533
+        ],
+        [
+          "Altstadt KB",
+          249937
+        ],
+        [
+          "Clara",
+          135893
+        ],
+        [
+          "Wettstein",
+          562064
+        ],
+        [
+          "Hirzbrunnen",
+          199538
+        ],
+        [
+          "Rosental",
+          581619
+        ],
+        [
+          "Matthäus",
+          146954
+        ],
+        [
+          "Klybeck",
+          824751
+        ],
+        [
+          "Kleinhüningen",
+          275637
+        ],
+        [
+          "Riehen",
+          207567
+        ],
+        [
+          "Bettingen",
+          29759
+        ]
+      ],
+      "name": "2015",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "rotation": -90
+    },
+    "tickColor": "#FFFFFF"
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 640,
+    "height": 415,
+    "spacingBottom": 40,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {}
+                }
+    },
+    "type": "column",
+    "inverted": false,
+    "forExport": true,
+    "renderTo": "container-5825"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Bruttogeschossfläche Industrie und Gewerbe"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f} m²"
+    }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -5
+    },
+    "text": "Quelle: "
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "x": 75,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} m²\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": "I.09.1.05825"
+  }
+}
