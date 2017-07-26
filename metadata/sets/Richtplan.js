@@ -1092,7 +1092,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "",
 		"erlaeuterungen": "",
-		"template": "template001",
+		"template": "line001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
@@ -1213,7 +1213,9 @@ var indikatorensetData = [
 		"visible": true,
 		"visibleInPortal": true,
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6006"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Basel Economics"

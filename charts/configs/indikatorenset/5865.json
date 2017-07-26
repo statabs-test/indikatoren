@@ -1,16 +1,10 @@
 {
   "series": [
     {
-      "color": "#000000",
-      "index": 1,
-      "type": "line",
-      "marker": {
-        "enabled": false
-      },
-      "legendIndex": 1,
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
+      "color": "#8B2223",
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 0,
       "data": [
         [
           2006,
@@ -60,11 +54,10 @@
       "name": "Zuzug aus der Schweiz"
     },
     {
-      "color": "#71a3b5",
-      "index": 0,
+      "color": "#b00000",
       "type": "column",
       "pointWidth": "15",
-      "legendIndex": 2,
+      "legendIndex": 1,
       "data": [
         [
           2006,
@@ -114,11 +107,10 @@
       "name": "Wegzug in die Schweiz"
     },
     {
-      "color": "#b00000",
-      "index": 0,
+      "color": "#246370",
       "type": "column",
       "pointWidth": "15",
-      "legendIndex": 3,
+      "legendIndex": 2,
       "data": [
         [
           2006,
@@ -166,6 +158,114 @@
         ]
       ],
       "name": "Zuzug aus Ausland"
+    },
+    {
+      "color": "#71a3b5",
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 4,
+      "data": [
+        [
+          2006,
+          -3931
+        ],
+        [
+          2007,
+          -3940
+        ],
+        [
+          2008,
+          -3864
+        ],
+        [
+          2009,
+          -3843
+        ],
+        [
+          2010,
+          -4077
+        ],
+        [
+          2011,
+          -4331
+        ],
+        [
+          2012,
+          -4286
+        ],
+        [
+          2013,
+          -4684
+        ],
+        [
+          2014,
+          -4604
+        ],
+        [
+          2015,
+          -4933
+        ],
+        [
+          2016,
+          -5004
+        ]
+      ],
+      "name": "Wegzug ins Ausland"
+    },
+    {
+      "color": "#000000",
+      "type": "line",
+      "marker": {
+        "enabled": false
+      },
+      "legendIndex": 4,
+      "data": [
+        [
+          2006,
+          392
+        ],
+        [
+          2007,
+          559
+        ],
+        [
+          2008,
+          2034
+        ],
+        [
+          2009,
+          1666
+        ],
+        [
+          2010,
+          263
+        ],
+        [
+          2011,
+          1668
+        ],
+        [
+          2012,
+          1738
+        ],
+        [
+          2013,
+          1899
+        ],
+        [
+          2014,
+          793
+        ],
+        [
+          2015,
+          712
+        ],
+        [
+          2016,
+          902
+        ]
+      ],
+      "name": "Wanderungssaldo Total"
     }
   ],
   "chart": {
@@ -177,9 +277,14 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
-    "width": 641,
-    "height": 415,
-    "spacingBottom": 45,
+    "width": 640,
+    "height": 208,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
     "style": {
       "fontFamily": "Arial"
     },
@@ -189,7 +294,7 @@
   },
   "title": {
     "style": {
-      "fontSize": "14px",
+      "fontSize": "10px",
       "fontWeight": "bold",
       "color": "#000000"
     },
@@ -198,7 +303,7 @@
   },
   "subtitle": {
     "style": {
-      "fontSize": "12px",
+      "fontSize": "10px",
       "fontWeight": "normal",
       "fontFamily": "Arial",
       "color": "#000000"
@@ -207,7 +312,8 @@
     "align": "left"
   },
   "tooltip": {
-    "shared": true
+    "shared": true,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
     "min": -20000,
@@ -222,16 +328,19 @@
     },
     "labels": {
       "style": {
+        "fontSize": 10,
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickInterval": 10000
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
     "labels": {
       "style": {
+        "fontSize": 10,
         "color": "#000000"
       }
     },
@@ -250,9 +359,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: "
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
   },
   "legend": {
     "enabled": true,
@@ -260,15 +369,15 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "y": 40,
+    "width": 50,
     "x": 40,
-    "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
   "plotOptions": {
     "series": {
+      "stacking": "normal",
       "pointPadding": 0,
       "groupPadding": 0.5
     }

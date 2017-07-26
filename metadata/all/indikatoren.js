@@ -6191,7 +6191,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Bevölkerungsdichte",
-		"subtitle": "nach Wohnviertel",
+		"subtitle": "Anzahl Einwohner pro Hektar nach Wohnviertel",
 		"kuerzel": "I.01.1.5202",
 		"kuerzelKunde": "ST 1-2",
 		"description": "Bevölkerungsdichte",
@@ -6221,7 +6221,9 @@ var indikatoren = [
 		"parentId": 5202,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
 		"externalLinks": [
 			""
 		]
@@ -6293,7 +6295,9 @@ var indikatoren = [
 		"parentId": 5205,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
 		"externalLinks": [
 			""
 		]
@@ -6336,7 +6340,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil Fläche nach Art der Bodenbedeckung",
-		"subtitle": "",
+		"subtitle": "Stand 2016",
 		"kuerzel": "I.02.1.05807",
 		"kuerzelKunde": "ST 2-1",
 		"description": "Anteil Fläche nach Art der Bodenbedeckung",
@@ -6632,6 +6636,44 @@ var indikatoren = [
 		]
 	},
 	{
+		"title": "Nettowohnungsproduktion",
+		"subtitle": "nach Wohnviertel von 2007 bis 2016",
+		"kuerzel": "I.09.1.05817",
+		"kuerzelKunde": "ST 4-8",
+		"description": "Nettowohnungsproduktion",
+		"id": 5877,
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Richtplan-Print",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2017-06-22T11:48:21.2121",
+		"schlagwort": [
+			"Wohnung"
+		],
+		"stufe1": "Strategie 4",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Nettoproduktion war in den letzten zehn Jahren im Wohnviertel Rosental besonders hoch. Auf dieses Wohnviertel entfielen rund 30% der gesamtkantonalen Nettoproduktion in diesem Zeitraum.",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"parentId": 5817,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Bruttogeschossfläche Wohnen",
 		"subtitle": "",
 		"kuerzel": "I.09.1.05818",
@@ -6755,6 +6797,7 @@ var indikatoren = [
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Richtplan-Print",
 		"raeumlicheGliederung": [
+			"Wohnviertel",
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
@@ -6993,7 +7036,9 @@ var indikatoren = [
 		"parentId": 5828,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"
+		],
 		"externalLinks": [
 			""
 		]
@@ -7144,7 +7189,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "",
 		"erlaeuterungen": "",
-		"template": "template001",
+		"template": "line001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
@@ -7277,6 +7322,115 @@ var indikatoren = [
 		]
 	},
 	{
+		"title": "Index der Bevölkerungs- und Beschäftigtenentwicklung",
+		"subtitle": "Werte 2005 = 100",
+		"kuerzel": "I.03.2.05901",
+		"kuerzelKunde": "ST4-10",
+		"description": "Index der Bevölkerungs- und Beschäftigtenentwicklung",
+		"id": 5909,
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Beschäftigte ",
+		"kennzahlenset": "Richtplan-Print",
+		"raeumlicheGliederung": [
+			"Schweiz"
+		],
+		"aktualisierungsdatum": "2017-07-19T16:15:08.088",
+		"schlagwort": [
+			"Index"
+		],
+		"stufe1": "Strategie 4",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "line001_print",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"parentId": 5901,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Unterwegsdistanz nach Verkehrsmittel",
+		"subtitle": "Stand 2010",
+		"kuerzel": "I.11.6.05902",
+		"kuerzelKunde": "ST11-3",
+		"description": "Unterwegsdistanz nach Verkehrsmittel",
+		"id": 5910,
+		"thema": "11 Verkehr",
+		"unterthema": "Mobilitätsverhalten",
+		"kennzahlenset": "Richtplan-Print",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"ÖV"
+		],
+		"stufe1": "Strategie 11",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "pie001_print",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"parentId": 5902,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Mittlere Wohnfläche pro Person",
+		"subtitle": "nach Wohnviertel",
+		"kuerzel": "I.09.1.05903",
+		"kuerzelKunde": "ST4-11",
+		"description": "Mittlere Wohnfläche pro Person",
+		"id": 5911,
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Richtplan-Print",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Wohnen",
+			"Wohnung"
+		],
+		"stufe1": "Strategie 4",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Gewünscht ist ein Zweijahresvergleich",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"parentId": 5903,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Interne Erreichbarkeit",
 		"subtitle": "",
 		"kuerzel": "I.03.2.06005",
@@ -7306,6 +7460,47 @@ var indikatoren = [
 		"visible": true,
 		"visibleInPortal": true,
 		"parentId": null,
+		"children": [
+			"6006"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"BAK Basel Economics"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Interne Erreichbarkeit",
+		"subtitle": "",
+		"kuerzel": "I.03.2.06005",
+		"kuerzelKunde": "ST 8-1",
+		"description": "Interne Erreichbarkeit",
+		"id": 6006,
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Beschäftigte ",
+		"kennzahlenset": "Richtplan-Print",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Standort",
+			"Kantonsvergleich"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "line001_print",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"parentId": 6005,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [

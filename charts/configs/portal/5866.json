@@ -77,6 +77,7 @@
     },
     "labels": {
       "style": {
+        "fontSize": 10,
         "color": "#000000"
       }
     },
@@ -86,9 +87,14 @@
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 641,
-    "height": 415,
-    "spacingBottom": 30,
+    "width": 320,
+    "height": 208,
+    "spacing": [
+      3,
+      3,
+      3,
+      3
+    ],
     "style": {
       "fontFamily": "Arial"
     },
@@ -99,8 +105,6 @@
                 }
     },
     "renderTo": "container-5866",
-    "marginBottom": 75,
-    "marginTop": 75,
     "type": "column",
     "inverted": false,
     "forExport": true
@@ -150,6 +154,7 @@
     },
     "labels": {
       "style": {
+        "fontSize": 10,
         "color": "#000000"
       },
       "format": "{value:,.0f}"
@@ -178,15 +183,21 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "fontSize": 10,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
     "x": 45,
-    "y": 20,
     "width": 200,
     "itemStyle": {
       "fontWeight": "normal"
+    }
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": 10
     }
   },
   "tooltip": {

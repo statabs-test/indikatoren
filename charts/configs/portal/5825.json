@@ -206,7 +206,7 @@
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 485,
+    "width": 640,
     "height": 415,
     "spacingBottom": 40,
     "style": {
@@ -298,7 +298,6 @@
     "verticalAlign": "top",
     "align": "left",
     "x": 75,
-    "y": 35,
     "itemStyle": {
       "fontWeight": "normal"
     }

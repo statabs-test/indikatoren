@@ -1,0 +1,47 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M2 47h271v366H2z"/>
+    <path fill="none" class="highcharts-plot-border" d="M2 47h271v366H2z"/>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-pie-series highcharts-color-undefined highcharts-tracker" cursor="true">
+            <path fill="#50B432" d="M137.974 104.5a125.5 125.5 0 0 1 111.053 66.99l-88.822 46.808a25.1 25.1 0 0 0-22.21-13.398z" class="highcharts-point highcharts-color-0" stroke="#fff" stroke-linejoin="round"/>
+            <path fill="#ED561B" d="M249.085 171.602A125.5 125.5 0 0 1 71.208 336.25l53.434-85a25.1 25.1 0 0 0 35.575-32.93z" class="highcharts-point highcharts-color-1" stroke="#fff" stroke-linejoin="round"/>
+            <path fill="#DDDF00" d="M71.102 336.183A125.5 125.5 0 0 1 137.826 104.5l.14 100.4a25.1 25.1 0 0 0-13.346 46.337z" class="highcharts-point highcharts-color-2" stroke="#fff" stroke-linejoin="round"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-pie-series highcharts-color-undefined highcharts-tracker" cursor="true">
+            <path fill="#50B432" d="M137.974 104.5a125.5 125.5 0 0 1 96.737 45.518l-38.684 31.993a75.3 75.3 0 0 0-58.042-27.311z" class="highcharts-point highcharts-color-0" stroke="#fff" stroke-linejoin="round"/>
+            <path fill="#ED561B" d="M234.791 150.115a125.5 125.5 0 0 1-149.929 193.58l21.255-45.478a75.3 75.3 0 0 0 89.958-116.148z" class="highcharts-point highcharts-color-1" stroke="#fff" stroke-linejoin="round"/>
+            <path fill="#DDDF00" d="M84.749 343.642A125.5 125.5 0 0 1 137.826 104.5l.07 50.2a75.3 75.3 0 0 0-31.847 143.485z" class="highcharts-point highcharts-color-2" stroke="#fff" stroke-linejoin="round"/>
+        </g>
+    </g>
+    <text x="2" class="highcharts-title" y="13" color="#000" font-size="14" font-weight="700">
+        <tspan>Unterwegsdistanz nach Verkehrsmittel</tspan>
+    </text>
+    <text x="2" class="highcharts-subtitle" y="32" color="#000" font-weight="400">
+        <tspan>Stand 2010</tspan>
+    </text>
+    <g class="highcharts-legend" transform="translate(285 174)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="197" height="68"/>
+        <g class="highcharts-legend-item highcharts-pie-series highcharts-color-0">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
+                Langsamverkehr
+            </text>
+            <path fill="#50B432" class="highcharts-point" d="M10 7h12v12H10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-pie-series highcharts-color-1">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 22)">
+                <tspan>Motorisierter Individualverkehr</tspan>
+            </text>
+            <path fill="#ED561B" class="highcharts-point" d="M10 26h12v12H10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-pie-series highcharts-color-2">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 41)">
+                <tspan>Öffentlicher Verkehr</tspan>
+            </text>
+            <path fill="#DDDF00" class="highcharts-point" d="M10 45h12v12H10z"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-credits" y="410" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle:</tspan>
+    </text>
+</svg>

@@ -70,6 +70,7 @@
     },
     "labels": {
       "style": {
+        "fontSize": 10,
         "color": "#000000"
       }
     },
@@ -78,9 +79,14 @@
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 641,
-    "height": 415,
-    "spacingBottom": 30,
+    "width": 320,
+    "height": 208,
+    "spacing": [
+      3,
+      3,
+      3,
+      3
+    ],
     "style": {
       "fontFamily": "Arial"
     },
@@ -137,6 +143,7 @@
     },
     "labels": {
       "style": {
+        "fontSize": 10,
         "color": "#000000"
       },
       "format": "{value} %"
@@ -165,15 +172,21 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "fontSize": 10,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
     "x": 25,
-    "y": 55,
     "itemWidth": 300,
     "itemStyle": {
       "fontWeight": "normal"
+    }
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": 10
     }
   },
   "tooltip": {

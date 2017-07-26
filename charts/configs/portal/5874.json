@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "1998",
+      "name": "2016",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -20568,83 +20568,87 @@
       "data": [
         [
           1,
-          0.06
+          0.43352601156
         ],
         [
           2,
-          0.58
+          0.534759358288
         ],
         [
           3,
-          1.24
+          0.453221107154
         ],
         [
           4,
-          0.41
+          0.491772271609
         ],
         [
           5,
-          0.51
+          0.830618892508
         ],
         [
           6,
-          2.11
+          0.270758122743
         ],
         [
           7,
-          0.15
+          0.389283260819
         ],
         [
           8,
-          0.3
+          0.166458593424
         ],
         [
           9,
-          0.22
+          0.292754330324
         ],
         [
           10,
-          1.52
+          0.343642611683
         ],
         [
           11,
-          2.27
+          0.189054726368
         ],
         [
           12,
-          0.38
+          0.588235294117
         ],
         [
           13,
-          0.46
+          0.431406384814
         ],
         [
           14,
-          0.46
+          0.214592274678
         ],
         [
           15,
-          0.34
+          1.280409731113
         ],
         [
           16,
-          0.8
+          0.438468284127
         ],
         [
           17,
-          2.27
+          0.306922814595
         ],
         [
           18,
-          0.73
+          0.187265917602
         ],
         [
           19,
-          0.19
+          0.294767870302
         ],
         [
           20,
-          0.72
+          0.505751685838
+        ],
+        [
+          30,
+          2.012072434607
         ]
       ]
     },
@@ -20653,86 +20657,90 @@
       "data": [
         [
           "Altstadt GB",
-          0.37352601156
+          -0.0172628689809466
         ],
         [
           "Vorstädte",
-          -0.045240641712
+          -1.32421500068636
         ],
         [
           "Am Ring",
-          -0.786778892846
+          -1.59467319507556
         ],
         [
           "Breite",
-          0.081772271609
+          -0.307603825096011
         ],
         [
           "St. Alban",
-          0.320618892508
+          -0.0942994970458628
         ],
         [
           "Gundeldingen",
-          -1.839241877257
+          -1.73761804325738
         ],
         [
           "Bruderholz",
-          0.239283260819
+          0.0450886761471322
         ],
         [
           "Bachletten",
-          -0.133541406576
+          -0.253768329114171
         ],
         [
           "Gotthelf",
-          0.072754330324
+          -0.235456954189806
         ],
         [
           "Iselin",
-          -1.176357388317
+          -1.24881417197336
         ],
         [
           "St. Johann",
-          -2.080945273632
+          -2.09074842719231
         ],
         [
           "Altstadt KB",
-          0.208235294117
+          -1.88411343717773
         ],
         [
           "Clara",
-          -0.028593615186
+          -1.67289370667731
         ],
         [
           "Wettstein",
-          -0.245407725322
+          -1.32181387094658
         ],
         [
           "Hirzbrunnen",
-          0.940409731113
+          0.528197341732469
         ],
         [
           "Rosental",
-          -0.361531715873
+          -3.04433537281684
         ],
         [
           "Matthäus",
-          -1.963077185405
+          -2.30197271465451
         ],
         [
           "Klybeck",
-          -0.542734082398
+          -1.80618028665797
         ],
         [
           "Kleinhüningen",
-          0.104767870302
+          -1.22280401468203
         ],
         [
           "Riehen",
-          -0.214248314162
+          -0.261757108533602
+        ],
+        [
+          "Bettingen",
+          0.619961065697487
         ]
       ],
-      "name": "Differenz"
+      "name": "Differenz 2016 zu 1998"
     },
     {
       "name": "Rhein",
@@ -21171,15 +21179,25 @@
         }
       ],
       "color": "#008AC3",
-      "borderColor": "#fbfbfb"
+      "borderColor": "#fbfbfb",
+      "tooltip": {
+        "pointFormatter": function (){
+						return '<br/>';
+					}
+      }
     }
   ],
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 641,
+    "width": 485,
     "height": 415,
-    "spacingBottom": 45,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
     "style": {
       "fontFamily": "Arial"
     },
@@ -21254,7 +21272,7 @@
 					
 
 	                // Compute max votes to find relative sizes of bubbles
-	                var maxNumber = 0;
+	                var maxNumber = Number.NEGATIVE_INFINITY;
 	                
 					Highcharts.each(chart.series[1].points, function (wohnviertel) {
 					    maxNumber = Math.max(maxNumber, wohnviertel.value);
@@ -21301,6 +21319,11 @@
 	                        centerLat = parseFloat(wohnviertelSeries.properties.lat),
 	                        centerLon = parseFloat(wohnviertelSeries.properties.lon);
 	                	
+						
+						//define different colors for positive and negative values
+                        var color = function(){
+                        	return (data.value >= 0) ? 'grey' : 'salmon';
+                        };
 
 	                    var currentPieSeries = 
 	                    {
@@ -21310,27 +21333,37 @@
 	                        wohnviertel_Name: data["hc-key"],
 	                        wohnviertel_Id : wohnviertelSeries.wohnviertel_Id,
 	                        zIndex: 6, // Keep pies above connector lines
+
 	                        borderWidth: 1,
-	                        borderColor: 'grey',
+	                        borderColor: color(),
 	                        sizeFormatter: function () {
 	                            var yAxis = this.chart.yAxis[0],
 	                                zoomFactor = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
-								var minSize = this.chart.chartWidth / 45 * zoomFactor;
-								var maxSize = this.chart.chartWidth / 11 * zoomFactor * data.value / maxNumber; 
-
-	                            return Math.max(minSize, maxSize);
+	                            //Increase or decrease default pie size
+                            	var pieSizeFactor = 0.07;
+                            	//Minimal pie size: a summand added to the calculated size
+                            	var pieSizeMin = 5;
+	                            //We don't want this variant of a minimal sized pie here
+								//var minSize = this.chart.chartWidth / 45 * zoomFactor;
+								//Negative values: return absolute value
+								var size = pieSizeMin + Math.abs(this.chart.chartWidth / 11 * pieSizeFactor * zoomFactor * data.value / maxNumber); 
+								
+								return size;
+	                            //return Math.max(minSize, maxSize);
 	                        },
 	                        tooltip: {
 	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {series.name} </span><br/>',
 	                            pointFormatter: function () {
-	                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + this.y + '</b><br/>';
+	                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + this.v + '</b><br/>';
 	                            }
 	                        },
 	                        data: [
 	                        	{
 	                        		name: chart.series[1].name,
-	                        		y: data.value,
-	                        		color: 'grey'
+	                        		//put absolute value in y, real value in v
+	                        		y: Math.abs(data.value),
+	                        		v: data.value,
+	                        		color: color()
 	                        	}
 	                        ],
 	                        /*
@@ -21442,7 +21475,7 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-					return Highcharts.numberFormat((this.value),1); 
+					return Highcharts.numberFormat((this.value),0); 
 				}
     },
     "marker": {
@@ -21466,7 +21499,8 @@
       "style": {
         "fontWeight": "normal",
         "fontSize": "11px"
-      }
+      },
+      "text": ""
     }
   },
   "exporting": {
