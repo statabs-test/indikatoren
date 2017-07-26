@@ -34,14 +34,14 @@
     "verticalAlign": "top",
     "align": "left",
     "width": 300,
-  	"x": 70,
+  	"x": 75,
     "itemStyle": {
     "fontWeight": "normal"
     }
   },
   "series": [
-  {"color": "#007a2f", "index": 9, "legendIndex":5}, /*grün dunkel2*/
-  {"color": "#44ab2b", "index": 8, "legendIndex":8}, /*grün mittel*/
+  {"color": "#007a2f", "index": 9, "legendIndex":8}, /*grün dunkel2*/
+  {"color": "#44ab2b", "index": 8, "legendIndex":5}, /*grün mittel*/
   {"color": "#73ba7c", "index": 7, "legendIndex":2}, /*grün dunkel1*/
   {"color": "#d7e9d2", "index": 6, "legendIndex":6}, /*grün hell*/
   {"color": "#b9cfd7", "index": 5, "legendIndex":4}, /*blau hell */

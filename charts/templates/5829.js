@@ -1,6 +1,7 @@
 /*  global rheinDataEPSG2056
 	global Highcharts
 	global geojson_wohnviertelEPSG2056
+	global $
 */
 (function(){
 
@@ -49,7 +50,7 @@
 				tooltip: {
 					pointFormatter: function(){
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + this.value + '</b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),5) + '</b><br/>';
 					}
 				}
 			}, 
@@ -143,13 +144,31 @@
 					
 					
 
-	                // Compute max votes to find relative sizes of bubbles
+	                // Compute max and min value to find relative sizes of bubbles. 
 	                var maxNumber = Number.NEGATIVE_INFINITY;
-	                
+	                var maxAbsNumber = Number.NEGATIVE_INFINITY;
+	                var minNumber = Number.POSITIVE_INFINITY;
+	                var minAbsNumber = Number.POSITIVE_INFINITY;
 					Highcharts.each(chart.series[1].points, function (wohnviertel) {
 					    maxNumber = Math.max(maxNumber, wohnviertel.value);
+					    maxAbsNumber = Math.max(maxAbsNumber, Math.abs(wohnviertel.value));
+					    minNumber = Math.min(minNumber, wohnviertel.value);
+					    minAbsNumber = Math.min(minAbsNumber, Math.abs(wohnviertel.value));
 					});
-					
+
+	                
+	                //Pie size 
+	                var pieSize = function(value, minAbsNumber, maxAbsNumber, chart){
+		                var yAxis = chart.yAxis[0],
+		                    zoomFactor = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
+		                //Increase or decrease default pie size
+		            	var pieSizeFactor = 0.5;
+		            	//Minimal pie size: a summand added to the calculated size
+		            	var pieSizeMin = 5;
+						//Negative values: return absolute value
+						var size = pieSizeMin + Math.abs(chart.chartWidth / 11 * pieSizeFactor * zoomFactor * value / maxAbsNumber); 
+						return size;
+	                }
 	                
 	                /*
 	                // When clicking legend items, also toggle connectors and pies
@@ -205,28 +224,15 @@
 	                        wohnviertel_Name: data["hc-key"],
 	                        wohnviertel_Id : wohnviertelSeries.wohnviertel_Id,
 	                        zIndex: 6, // Keep pies above connector lines
-
 	                        borderWidth: 1,
 	                        borderColor: color(),
-	                    	sizeFormatter: function () {
-	                            var yAxis = this.chart.yAxis[0],
-	                                zoomFactor = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
-	                            //Increase or decrease default pie size
-                            	var pieSizeFactor = 0.01;
-                            	//Minimal pie size: a summand added to the calculated size
-                            	var pieSizeMin = 5;
-	                            //We don't want this variant of a minimal sized pie here
-								//var minSize = this.chart.chartWidth / 45 * zoomFactor;
-								//Negative values: return absolute value
-								var size = pieSizeMin + Math.abs(this.chart.chartWidth / 11 * pieSizeFactor * zoomFactor * data.value / maxNumber); 
-								
-								return size;
-	                            //return Math.max(minSize, maxSize);
+	                        sizeFormatter: function () {
+								return pieSize(data.value, minAbsNumber, maxAbsNumber, chart);
 	                        },
 	                        tooltip: {
 	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {series.name} </span><br/>',
 	                            pointFormatter: function () {
-	                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + this.v + '</b><br/>';
+	                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),5) + '</b><br/>';
 	                            }
 	                        },
 	                        data: [
@@ -295,6 +301,61 @@
 	                });
 	                // Only redraw once all pies and connectors have been added
 	                chart.redraw();
+	                
+	                
+	                //Add manually drawn legend
+	                var maxBubbleSize = 0.1;
+	                var minBubbleSize = 0.01
+	                chart.renderer.circle(410, 275, 0.5*pieSize(minBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
+					    fill: 'grey',
+					    'stroke-width': 0, 
+					    zIndex: 6,
+					    class: 'pieLegend'
+					}).add();
+					chart.renderer.label(minBubbleSize, 430, 265).attr({
+						zIndex: 6,
+						class: 'pieLegend'
+					}).add();
+	                chart.renderer.circle(410, 300, 0.5*pieSize(maxBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
+					    fill: 'grey',
+					    stroke: 'grey',
+					    'stroke-width': 0,
+					    zIndex: 6,
+					    class: 'pieLegend'
+					}).add();
+					chart.renderer.label(maxBubbleSize, 430, 290).attr({
+						zIndex: 6,
+						class: 'pieLegend'
+					}).add();
+				    chart.renderer.rect(290, 270, 10, 10, 0).attr({
+			            'stroke-width':0,
+			            fill: 'grey',
+			            zIndex: 6,
+			            class: 'pieLegend'
+			        }).add();
+			        chart.renderer.label('Zunahme', 310, 265).attr({
+			        	zIndex: 6,
+			        	class: 'pieLegend'
+			        }).add();
+					chart.renderer.rect(290, 295, 10, 10, 0).attr({
+			            'stroke-width':0,
+			            fill: 'salmon',
+			            zIndex: 6,
+			            class: 'pieLegend'
+			        }).add();
+			        chart.renderer.label('Abnahme', 310, 290).attr({
+			        	zIndex: 6,
+			        	class: 'pieLegend'
+			        }).add();
+
+					//Add click handler to bubbleLegend items
+					$('.pieLegend').click(function(){
+						Highcharts.each(chart.series, function (data) {
+							if (data.userOptions.type == 'mappie'){
+								data.setVisible(false, false);
+							};
+						});
+					});
 	            }
 			}
 		}
