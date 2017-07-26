@@ -20,7 +20,7 @@
 			//"min": undefined,
 			"labels": {
 				 style: {
-		                  fontSize: '10px', fontFamily: "Arial", "fontWeight": "normal"
+		                  fontSize: '10px', fontFamily: "Arial", fontWeight: "normal"
 		                },
 				"formatter": function () {
 					return Highcharts.numberFormat((this.value),0); 
@@ -190,7 +190,7 @@
 		                var yAxis = chart.yAxis[0],
 		                    zoomFactor = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
 		                //Increase or decrease default pie size
-		            	var pieSizeFactor = 0.5;
+		            	var pieSizeFactor = 0.2;
 		            	//Minimal pie size: a summand added to the calculated size
 		            	var pieSizeMin = 5;
 						//Negative values: return absolute value
@@ -309,50 +309,50 @@
 			        	zIndex: 6,
 			        	class: 'pieLegend'
 			        }).add();
-			        chart.renderer.label('Differenz 2014 zu 2011', 400, 210).attr({
+			        chart.renderer.label('Differenz 2014 zu 2011', 425, 210).attr({
 			        	zIndex: 6,
 			        	class: 'pieLegend'
 			        }).add();
 	                var maxBubbleSize = 20;
 	                var minBubbleSize = 0.05
-	                /*chart.renderer.circle(410, 275, 0.5*pieSize(minBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
+	                chart.renderer.circle(440, 250, 0.5*pieSize(minBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
 					    fill: 'grey',
 					    'stroke-width': 0, 
 					    zIndex: 6,
 					    class: 'pieLegend'
 					}).add();
-					chart.renderer.label(minBubbleSize, 430, 265).attr({
+					chart.renderer.label(minBubbleSize, 460, 240).attr({
 						zIndex: 6,
 						class: 'pieLegend'
 					}).add();
-	                chart.renderer.circle(410, 300, 0.5*pieSize(maxBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
+	                chart.renderer.circle(440,275, 0.5*pieSize(maxBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
 					    fill: 'grey',
 					    stroke: 'grey',
 					    'stroke-width': 0,
 					    zIndex: 6,
 					    class: 'pieLegend'
 					}).add();
-					chart.renderer.label(maxBubbleSize, 430, 290).attr({
+					chart.renderer.label(maxBubbleSize, 460, 265).attr({
 						zIndex: 6,
 						class: 'pieLegend'
-					}).add();*/
-				    chart.renderer.rect(540, 235, 10, 10, 0).attr({
+					}).add();
+				    chart.renderer.rect(560, 235, 10, 10, 0).attr({
 			            'stroke-width':0,
 			            fill: 'grey',
 			            zIndex: 6,
 			            class: 'pieLegend'
 			        }).add();
-			        chart.renderer.label('Zunahme', 550, 230).attr({
+			        chart.renderer.label('Zunahme', 580, 230).attr({
 			        	zIndex: 6,
 			        	class: 'pieLegend'
 			        }).add();
-					chart.renderer.rect(540, 255, 10, 10, 0).attr({
+					chart.renderer.rect(560, 255, 10, 10, 0).attr({
 			            'stroke-width':0,
 			            fill: 'salmon',
 			            zIndex: 6,
 			            class: 'pieLegend'
 			        }).add();
-			        chart.renderer.label('Abnahme', 550, 250).attr({
+			        chart.renderer.label('Abnahme', 580, 250).attr({
 			        	zIndex: 6,
 			        	class: 'pieLegend'
 			        }).add();
