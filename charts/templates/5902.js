@@ -18,7 +18,7 @@
        		  dataLabels: {
                 enabled: true,
                 distance: -70,
-                format: "{point.percentage: ,.0f}%",
+                format: "{point.percentage:,.0f}%",
                 formatter: function(){
                     console.log(this);
                     return /*this.series.name; + ":<br/>" + */this.point.percentage;
@@ -45,7 +45,7 @@
                     fontWeight: "normal", 
                     fontSize: "10px"
                 },
-                format: "{point.percentage: ,.0f}%",
+                format: "{point.percentage:,.0f}%",
                 formatter: function(){
                     return this.point.percentage;
                 }
