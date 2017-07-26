@@ -1,7 +1,6 @@
 {
   "series": [
     {
-      "name": "2016",
       "data": [
         [
           "Wald",
@@ -32,6 +31,7 @@
           1.33768155503446
         ]
       ],
+      "name": "2016",
       "turboThreshold": 0
     }
   ],
@@ -56,10 +56,10 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      2,
-      2,
-      2,
-      2
+      3,
+      3,
+      3,
+      3
     ],
     "style": {
       "fontFamily": "Arial"
@@ -90,7 +90,8 @@
         "#6F6F6F",
         "#3C3C3C",
         "#008AC3"
-      ]
+      ],
+      "size": "50%"
     }
   },
   "title": {
@@ -133,15 +134,16 @@
     "text": "Quelle: "
   },
   "legend": {
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 5,
-    "align": "right",
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
     "useHTML": true,
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "symbolRadius": 0
+    "symbolRadius": 0,
+    "enabled": true,
+    "width": 340
   },
   "exporting": {
     "filename": "I.02.1.05807"
