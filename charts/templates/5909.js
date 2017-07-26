@@ -1,9 +1,5 @@
 (function(){
     return {
-  "plotOptions": {
-    "series": {
-    }
-  },
   "yAxis": [{
   	title: {
         text: null
@@ -56,9 +52,11 @@
       "color": "#B375AB",
       "index": 0,
       "type": "column",
+      //"pointWidth": "7",
       pointPadding: 0,
-      pointWidth: 5,
       borderWidth: 0,
+      //"pointPadding": 0,
+      //"groupPadding": 0.1,
       legendIndex: 1,
     	"tooltip": {
   		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.0f}</b><br/>',
@@ -84,8 +82,8 @@
       "color": "#C4AB91",
       "index": 0,
       "type": "column",
+      //"pointWidth": "7",
       pointPadding: 0,
-      pointWidth: 5,
       borderWidth: 0,
       legendIndex: 3,
       "tooltip": {
