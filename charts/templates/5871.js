@@ -23,7 +23,6 @@
     "verticalAlign": "top",
     "align": "left",
     "x": 70,
-	"y": 35,    
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -32,10 +31,10 @@
     "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
     "shared": false
   },
-  "chart": {      
+  "chart": {   
+  	"width":640,
     "type": "column",
-    "inverted": false,
-    "spacingBottom": 40
+    "inverted": false
   }
 }
 }());

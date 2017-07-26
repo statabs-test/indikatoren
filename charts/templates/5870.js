@@ -16,6 +16,7 @@
 	"tickInterval": 2	
   },  
   "yAxis": {
+  	max: 200000,
     "labels": {
       "format": "{value:,.0f}"
     }
@@ -40,7 +41,6 @@
   "legend": {
     "enabled": true,
     "x": 55,
-    "y": 35,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
@@ -50,9 +50,8 @@
     }
   },
   "chart": {    
-    "marginBottom": 75,
-    "marginTop": 75,
-    "type": "column"
+    "type": "column",
+    	"width":640,
   }
 }
 }());

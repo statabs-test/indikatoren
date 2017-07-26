@@ -23,7 +23,6 @@
     "verticalAlign": "top",
     "align": "left",
     "x": 75,
-	"y": 35,    
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -32,7 +31,8 @@
     "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y} m²</b><br/>',
     "shared": false
   },
-  "chart": {      
+  "chart": {
+  	"width":640,
     "type": "column",
     "inverted": false,
     "spacingBottom": 40
