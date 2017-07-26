@@ -7,15 +7,50 @@
       "data":{
       	"switchRowsAndColumns": true
       },
+      xAxis: {
+          type: "category"
+      },
       "series": [ 
           {
               innerSize: '20%',
-              id: 0
+              id: 0, 
+              allowPointSelect: false,
+       		  dataLabels: {
+                enabled: true,
+                distance: -70,
+                format: "{point.percentage: ,.1f}%",
+                formatter: function(){
+                    console.log(this);
+                    return /*this.series.name; + ":<br/>" + */this.point.percentage;
+                },
+                style: {
+                    color: 'black', 
+                    textOutline: "0px black", 
+                    fontWeight: "normal", 
+                    fontSize: "10px"
+                },
+      		}
           }, 
           {
               innerSize: '60%',
               linkedTo: ':previous',
-              showInLegend: false
+              showInLegend: false, 
+              allowPointSelect: false,
+     		  dataLabels: {
+                enabled: true,
+                distance: -35,
+                style: {
+                    color: 'black', 
+                    textOutline: "0px black", 
+                    fontWeight: "normal", 
+                    fontSize: "10px"
+                },
+                format: "{point.percentage: ,.1f}%",
+                formatter: function(){
+                    return this.point.percentage;
+                }
+      		}
+
           }
       ],
     	"tooltip": {
@@ -35,16 +70,6 @@
                '#FFF263', 
                '#6AF9C4'
              ],
-      		dataLabels: {
-		                enabled: true,
-		                //crop: false,
-		                //inside: false,
-		                //distance: -50,
-		                format: '{point.percentage:.1f} %',
-		                style: {
-		                    color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
-		                }
-      		}
 			}
       },
      chart: {
@@ -55,6 +80,27 @@
         events:{
               load: function() {
                   this.credits.element.onclick = function() {};
+        
+                //Label the two rings of the donut chart
+				this.renderer.label(this.series[1].name, 105, 97).attr({
+					zIndex: 6,
+					class: 'pieLegend'
+				})        
+				.css({
+                    fontSize: '10px' 
+                })
+				.add();
+				this.renderer.label(this.series[0].name, 105, 147).attr({
+					zIndex: 6,
+					class: 'pieLegend'
+				})
+    			.css({
+                    fontSize: '10px' 
+                })
+
+				.add();
+        
+        
         
                 // Remove all pie slices with same color when clicking onto legend item
                 // see https://www.bountysource.com/issues/1055141-linkedto-on-pie-chart-s-data-points-for-e-g-setvisible
