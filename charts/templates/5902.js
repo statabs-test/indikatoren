@@ -34,8 +34,18 @@
                '#FF9655', 
                '#FFF263', 
                '#6AF9C4'
-             ]
-	      }
+             ],
+      		dataLabels: {
+		                enabled: true,
+		                //crop: false,
+		                //inside: false,
+		                //distance: -50,
+		                format: '{point.percentage:.1f} %',
+		                style: {
+		                    color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+		                }
+      		}
+			}
       },
      chart: {
         //width: 1283,

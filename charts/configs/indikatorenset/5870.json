@@ -191,6 +191,7 @@
     },
     "labels": {
       "style": {
+        "fontSize": 10,
         "color": "#000000"
       }
     },
@@ -200,9 +201,14 @@
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 641,
-    "height": 415,
-    "spacingBottom": 30,
+    "width": 640,
+    "height": 208,
+    "spacing": [
+      3,
+      3,
+      3,
+      3
+    ],
     "style": {
       "fontFamily": "Arial"
     },
@@ -212,8 +218,6 @@
                     this.credits.element.onclick = function() {}
                 }
     },
-    "marginBottom": 75,
-    "marginTop": 75,
     "type": "column",
     "forExport": true,
     "renderTo": "container-5870"
@@ -262,10 +266,12 @@
     },
     "labels": {
       "style": {
+        "fontSize": 10,
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "max": 200000
   },
   "navigation": {
     "menuItemStyle": {
@@ -290,15 +296,21 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "fontSize": 10,
     "enabled": true,
     "x": 55,
-    "y": 35,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
+    }
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": 10
     }
   },
   "tooltip": {

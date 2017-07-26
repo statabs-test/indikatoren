@@ -55,7 +55,12 @@
     "zoomType": "xy",
     "width": 641,
     "height": 415,
-    "spacingBottom": 45,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
     "style": {
       "fontFamily": "Arial"
     },
@@ -70,17 +75,20 @@
       "cursor": true,
       "showInLegend": true,
       "dataLabels": {
-        "enabled": false
+        "enabled": true,
+        "format": "{point.percentage:.1f} %",
+        "style": {
+          "color": "black"
+        }
       },
       "colors": [
-        "#50B432",
-        "#ED561B",
-        "#DDDF00",
-        "#24CBE5",
-        "#64E572",
-        "#FF9655",
-        "#FFF263",
-        "#6AF9C4"
+        "#007A2F",
+        "#68AB2B ",
+        "#73B97C",
+        "#990300",
+        "#6F6F6F",
+        "#3C3C3C",
+        "#008AC3"
       ]
     }
   },
@@ -100,7 +108,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Stand 2016",
     "align": "left"
   },
   "tooltip": {

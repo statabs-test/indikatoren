@@ -5,27 +5,19 @@
       "id": 0,
       "data": [
         [
-          "Gebäude",
-          5
+          "Langsamverkehr",
+          4.18
         ],
         [
-          "Verkehrsfläche",
-          8
+          "Motorisierter Individualverkehr",
+          10.06
         ],
         [
-          "Grünfläche",
-          12
-        ],
-        [
-          "Gewässer",
-          4
-        ],
-        [
-          "Überige Bodenversiegelung",
-          2
+          "Öffentlicher Verkehr",
+          9.92
         ]
       ],
-      "name": "2015",
+      "name": "2010",
       "turboThreshold": 0
     },
     {
@@ -34,27 +26,19 @@
       "showInLegend": false,
       "data": [
         [
-          "Gebäude",
-          6.04358896731154
+          "Langsamverkehr",
+          3.78
         ],
         [
-          "Verkehrsfläche",
-          6.39248669566555
+          "Motorisierter Individualverkehr",
+          11.59
         ],
         [
-          "Grünfläche",
-          18.7316627231807
-        ],
-        [
-          "Gewässer",
-          1.33768155503446
-        ],
-        [
-          "Überige Bodenversiegelung",
-          4.44853224764792
+          "Öffentlicher Verkehr",
+          11.61
         ]
       ],
-      "name": "2016",
+      "name": "2015",
       "turboThreshold": 0
     }
   ],
@@ -141,13 +125,18 @@
     "zoomType": "xy",
     "width": 485,
     "height": 415,
-    "spacingBottom": 45,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
     "style": {
       "fontFamily": "Arial"
     },
     "type": "pie",
     "forExport": true,
-    "renderTo": "container-9998"
+    "renderTo": "container-5910"
   },
   "plotOptions": {
     "pie": {
@@ -177,7 +166,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil Fläche nach Art der Bodenbedeckung"
+    "text": "Unterwegsdistanz nach Verkehrsmittel"
   },
   "subtitle": {
     "style": {
@@ -186,7 +175,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Stand 2010",
     "align": "left"
   },
   "tooltip": {
@@ -221,6 +210,6 @@
     "symbolRadius": 0
   },
   "exporting": {
-    "filename": "I.02.1.05807"
+    "filename": "I.11.6.05902"
   }
 }

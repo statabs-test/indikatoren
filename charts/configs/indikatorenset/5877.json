@@ -1,75 +1,95 @@
 {
   "series": [
     {
-      "color": "#A8C4CB",
-      "index": 1,
+      "color": "#83522E",
+      "visible": true,
       "data": [
         [
-          "Berufliche Probleme",
-          26.6110933
+          "Altstadt GB",
+          22
         ],
         [
-          "Gesundheitliche Probleme",
-          18.94838089
+          "Altstadt KB",
+          1
         ],
         [
-          "Finanzielle Probleme",
-          9.426098108
+          "Am Ring",
+          55
         ],
         [
-          "Wohnungsprobleme",
-          19.01250401
+          "Bachletten",
+          57
         ],
         [
-          "Partnerschaftliche Probleme",
-          31.22795768
+          "Bettingen",
+          15
         ],
         [
-          "Schulische Probleme der Kinder",
-          23.56524527
+          "Breite",
+          131
         ],
         [
-          "Erziehungsfragen oder -probleme",
-          46.90605963
+          "Bruderholz",
+          84
+        ],
+        [
+          "Clara",
+          18
+        ],
+        [
+          "Gotthelf",
+          -28
+        ],
+        [
+          "Gundeldingen",
+          306
+        ],
+        [
+          "Hirzbrunnen",
+          187
+        ],
+        [
+          "Iselin",
+          60
+        ],
+        [
+          "Kleinhüningen",
+          92
+        ],
+        [
+          "Klybeck",
+          4
+        ],
+        [
+          "Matthäus",
+          76
+        ],
+        [
+          "Riehen",
+          228
+        ],
+        [
+          "Rosental",
+          863
+        ],
+        [
+          "St. Alban",
+          116
+        ],
+        [
+          "St. Johann",
+          291
+        ],
+        [
+          "Vorstädte",
+          131
+        ],
+        [
+          "Wettstein",
+          112
         ]
       ],
-      "name": "2009 (N=3119)",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#256370",
-      "index": 0,
-      "data": [
-        [
-          "Berufliche Probleme",
-          29.22456298
-        ],
-        [
-          "Gesundheitliche Probleme",
-          20.6185567
-        ],
-        [
-          "Finanzielle Probleme",
-          8.337068579
-        ],
-        [
-          "Wohnungsprobleme",
-          22.27700583
-        ],
-        [
-          "Partnerschaftliche Probleme",
-          33.34827432
-        ],
-        [
-          "Schulische Probleme der Kinder",
-          22.99417302
-        ],
-        [
-          "Erziehungsfragen oder -probleme",
-          46.57104437
-        ]
-      ],
-      "name": "2013 (N=2231)",
+      "name": "Nettoproduktion  2007 bis  2016",
       "turboThreshold": 0
     }
   ],
@@ -85,17 +105,24 @@
     },
     "labels": {
       "style": {
+        "fontSize": 10,
         "color": "#000000"
-      }
+      },
+      "rotation": -90
     },
     "tickColor": "#FFFFFF"
   },
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 485,
-    "height": 415,
-    "spacingBottom": 30,
+    "width": 320,
+    "height": 208,
+    "spacing": [
+      3,
+      3,
+      3,
+      3
+    ],
     "style": {
       "fontFamily": "Arial"
     },
@@ -106,9 +133,10 @@
                 }
     },
     "type": "column",
-    "inverted": true,
+    "inverted": false,
+    "spacingBottom": 40,
     "forExport": true,
-    "renderTo": "container-4848"
+    "renderTo": "container-5877"
   },
   "plotOptions": {
     "series": {
@@ -127,7 +155,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Unterstützung von Freunden oder Nachbarn"
+    "text": "Nettowohnungsproduktion"
   },
   "subtitle": {
     "style": {
@@ -136,7 +164,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "«Jeder Mensch braucht in seinem Leben einmal Unterstützung oder Hilfe. Wenn Sie zurück denken, haben Sie sich in nachfolgenden Situationen auch an Freunde\u002FNachbarn gewendet?»",
+    "text": "nach Wohnviertel von 2007 bis 2016",
     "align": "left"
   },
   "yAxis": {
@@ -152,9 +180,10 @@
     },
     "labels": {
       "style": {
+        "fontSize": 10,
         "color": "#000000"
       },
-      "format": "{value}%"
+      "format": "{value:,.0f}"
     }
   },
   "navigation": {
@@ -176,25 +205,32 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F72a-g"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
   },
   "legend": {
     "symbolRadius": 0,
+    "fontSize": 10,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 143,
-    "y": 65,
+    "x": 35,
+    "y": 35,
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": 10
+    }
+  },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
-    "filename": "I.50.2.0002"
+    "filename": "I.09.1.05817"
   }
 }
