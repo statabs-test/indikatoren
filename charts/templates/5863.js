@@ -64,23 +64,23 @@
                     color: '#D3E2E4'
                 }, {
                     from: 0,
-                    to: 20,
+                    to: 10000,
                     color: '#A8C3CA'
                 }, {
-                    from: 20,
-                    to: 50,
+                    from: 10000,
+                    to: 20000,
                      color: '#689199'
                 },{
-                    from: 50,
-                    to: 100,
+                    from: 20000,
+                    to: 30000,
                      color: '#246370'
                 },{
-                    from: 100,
+                    from: 30000,
                     color: '#083038'
                 }], 
                 labels: {
 					"formatter": function () {
-						return Highcharts.numberFormat((this.value),0); 
+						return Highcharts.numberFormat((this.value),0,"."," "); 
 					},	
                 	//format: "{value:,.0f}"
                 }
@@ -350,8 +350,8 @@
 			        	zIndex: 6,
 			        	//class: 'pieLegend'
 			        }).add();
-	                var maxBubbleSize = 20;
-	                var minBubbleSize = 0.05
+	                var maxBubbleSize = 500;
+	                var minBubbleSize = 5000
 	                chart.renderer.circle(443, 231, 0.5*pieSize(minBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
 					    fill: 'grey',
 					    'stroke-width': 0, 
@@ -372,7 +372,7 @@
 						zIndex: 6,
 						class: 'pieLegend'
 					}).add();
-				    chart.renderer.rect(500, 225, 12, 12, 0).attr({
+				    /*chart.renderer.rect(500, 225, 12, 12, 0).attr({
 			            'stroke-width':0,
 			            fill: 'grey',
 			            zIndex: 6,
@@ -391,7 +391,7 @@
 			        chart.renderer.label('Abnahme', 515, 237).attr({
 			        	zIndex: 6,
 			        	class: 'pieLegend'
-			        }).add();
+			        }).add();*/
 
 					//redraw chart after adding all series and the legend
 					chart.redraw();
