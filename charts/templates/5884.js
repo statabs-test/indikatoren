@@ -103,7 +103,6 @@
 				}, 
 				tooltip: {
 					pointFormatter: function(){
-						//console.log(this);
 						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '</b><br/>';
 					}
 				}
@@ -332,7 +331,6 @@
 
 	                drawPies();
 	                
-	                console.log(chart);
 	                //Add manually drawn legend
 	                 chart.renderer.label(chart.series[0].name, 340, 200)
      				.css({
