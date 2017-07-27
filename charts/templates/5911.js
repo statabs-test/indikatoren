@@ -8,7 +8,8 @@
     } 
   },
   "yAxis": {
-	//"max": 100,
+  	tickInterval: 30,
+	"max": 60,
     "labels": {
       "format": "{value:,.0f} m²"
     }    
@@ -22,7 +23,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x":35,
+    "x":30,
     "itemStyle": {
       "fontWeight": "normal"
     }

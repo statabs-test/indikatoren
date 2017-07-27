@@ -8,6 +8,8 @@
     } 
   },
   "yAxis": {
+  	max: 15000,
+  	tickInterval: 7500,
 	//"max": 100,
     "labels": {
       "format": "{value:,.0f}"
@@ -22,7 +24,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 45,
+    "x": 35,
     "itemStyle": {
       "fontWeight": "normal"
     }

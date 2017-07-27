@@ -8,7 +8,8 @@
         }
   },
   "yAxis": {
-  	//"min": -200,
+  	//"max": 60,
+  	//tickInterval: 30,
     "labels": {
       "format": "{value:,.0f}",
     }
