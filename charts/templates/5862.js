@@ -24,7 +24,7 @@
             var first = this.series.data[0];
             var last  = this.series.data[this.series.data.length - 1];
             if (this.point.y === first.y || this.point.y === last.y ) {
-              return this.point.x + ":<br/><b>" + Highcharts.numberFormat(this.point.y, 2, ",", " ") + "</b>";
+              return this.point.x + ":<br/>" + Highcharts.numberFormat(this.point.y, 1, ",", " ") + "";
             }
             return "";
           }
