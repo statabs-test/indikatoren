@@ -17,7 +17,7 @@
         "backgroundColor": "#fbfbfb",
        	"width": 320,
     	"height": 208,  
-        spacing: [3,3,3,3],
+        spacing: [3,0,3,2],
         "style": {
 			"fontFamily": "Arial"
         },
@@ -120,7 +120,7 @@
         "reversed": true,
         "layout": "vertical",
         "verticalAlign": "middle",
-        //"itemMarginBottom": 5,     
+        "itemMarginBottom": 5,     
         "align": "right",
         "useHTML": true,
         "itemStyle": {

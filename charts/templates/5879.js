@@ -6,7 +6,7 @@
       "tooltip": {
         valueDecimals: 1
       },  
-        "legend": {
+       /* "legend": {
 	    "enabled": true,
 	    "layout": "horizontal",
 	    "verticalAlign": "top",
@@ -16,7 +16,7 @@
 	    "itemStyle": {
 	    "fontWeight": "normal"
 	    }
-	  },
+	  },*/
       "series": [
         {"color": "#C8C8C8"}, /*grau*/
         {"color": "#CD9C00"}, /*dunkelrot*/
