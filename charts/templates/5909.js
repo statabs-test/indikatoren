@@ -5,6 +5,10 @@
         text: null
     },
     "labels": {
+      /*
+      formatter: function(){
+        return this.value/1000;
+      }*/
       "format": "{value:,.0f}"
     },
     "min": 0,
@@ -33,7 +37,12 @@
   }
   ],
   "xAxis": {
-    "tickInterval": 2
+    tickInterval: 1,
+    labels: {
+      //staggerLines: 2,
+      rotation: -50,
+      padding: 0
+    }
   },
   "legend": {
     "enabled": true,
@@ -76,7 +85,7 @@
 		   },
 	 "dataLabels": {
         style: {"fontSize": "10px", "fontWeight": "normal"}, 
-        "enabled": true,
+        "enabled": false,
           //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
           formatter: function() {
             var first = this.series.data[0];
