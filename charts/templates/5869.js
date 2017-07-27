@@ -11,7 +11,7 @@
 	    "enabled": true,
 	    "layout": "horizontal",
 	    "verticalAlign": "top",
-	    "align": "left",
+	    "align": "center",
 		//"x": 45,
 		//"width": 340,
 		"itemWidth": 135,

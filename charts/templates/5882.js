@@ -12,7 +12,7 @@
 	    "enabled": true,
 	    "layout": "horizontal",
 	    "verticalAlign": "top",
-	    "align": "left",
+	    "align": "center",
 		//"x": 45,
 		"itemWidth": 100,
 	    "itemStyle": {

@@ -125,7 +125,7 @@
         "useHTML": true,
         "itemStyle": {
             "fontWeight": "normal",
-            "width": 115
+            "width": 95
         },
         "symbolRadius": 0,
         "labelFormatter": function () {
