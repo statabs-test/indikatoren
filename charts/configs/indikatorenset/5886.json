@@ -6,6 +6,21 @@
         "enabled": true
       },
       "color": "#007A2F",
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "fontWeight": "normal"
+        },
+        "enabled": true,
+        "formatter": function () {
+            var first = this.series.data[0];
+            var last  = this.series.data[this.series.data.length - 1];
+            if (this.point.x === first.x || this.point.x === last.x) {
+              return /*this.point.x + ":<br/>" + */ Highcharts.numberFormat(this.point.y, 1, ",", " ") + "";
+            }
+            return "";
+          }
+      },
       "data": [
         [
           2008,
@@ -127,7 +142,7 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 2
+    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",

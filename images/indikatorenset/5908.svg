@@ -41,7 +41,20 @@
     <text x="2" class="highcharts-subtitle" y="27" color="#000" font-size="10" font-weight="400">
         <tspan>Basel-Stadt im Vergleich</tspan>
     </text>
-    <g class="highcharts-legend" transform="translate(47 2)">
+    <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="400" color="#000" transform="translate(29 79)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined highcharts-tracker">
+            <tspan x="5" y="0" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">1991:</tspan><tspan x="5" dy="13" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round"> 105,4</tspan><tspan x="5" y="0">1991:</tspan><tspan x="5" dy="13"> 105,4</tspan>
+        </text>
+    </g>
+    <g class="highcharts-data-labels highcharts-series-1 highcharts-line-series highcharts-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="400" color="#000" transform="translate(29 127)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined highcharts-tracker">
+            <tspan x="5" y="0" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">87,9</tspan><tspan x="5" y="0"> 87,9</tspan>
+        </text>
+        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="400" color="#000" transform="translate(288 115)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined highcharts-tracker">
+            <tspan x="5" y="0" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">106,5</tspan><tspan x="5" y="0"> 106,5</tspan>
+        </text>
+    </g>
+    <g class="highcharts-legend" transform="translate(27 2)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="996" height="39"/>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0">
             <path fill="none" d="M8 14h16" class="highcharts-graph" stroke="#ff8028" stroke-width="2"/>

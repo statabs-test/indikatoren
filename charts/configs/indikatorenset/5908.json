@@ -5,6 +5,22 @@
       "marker": {
         "enabled": true
       },
+      "dataLabels": {
+        "useHTML": true,
+        "style": {
+          "fontSize": "10px",
+          "fontWeight": "normal"
+        },
+        "enabled": true,
+        "formatter": function () {
+            var first = this.series.data[0];
+            var last  = this.series.data[this.series.data.length - 1];
+            if (this.point.y === first.y || this.point.y === last.y ) {
+              return this.point.x + ":<br/><span style='color: " + this.point.color + "'> " + Highcharts.numberFormat(this.point.y, 1, ",", " ") + "</span>";
+            }
+            return "";
+          }
+      },
       "data": [
         [
           1991,
@@ -61,6 +77,23 @@
       "color": "#4f81bd",
       "marker": {
         "enabled": true
+      },
+      "dataLabels": {
+        "useHTML": true,
+        "style": {
+          "fontSize": "10px",
+          "fontWeight": "normal"
+        },
+        "enabled": true,
+        "verticalAlign": "top",
+        "formatter": function () {
+            var first = this.series.data[0];
+            var last  = this.series.data[this.series.data.length - 1];
+            if (this.point.y === first.y || this.point.y === last.y ) {
+              return "<span style='color: " + this.point.color + "'> " + Highcharts.numberFormat(this.point.y, 1, ",", " ") + "</span>";
+            }
+            return "";
+          }
       },
       "data": [
         [
@@ -215,7 +248,7 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "x": 45,
+    "x": 25,
     "itemWidth": 1000,
     "itemStyle": {
       "fontWeight": "normal"

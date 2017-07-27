@@ -243,6 +243,9 @@
       "marker": {
         "enabled": false
       },
+      "tooltip": {
+        "pointFormat": ""
+      },
       "legendIndex": 3,
       "data": [
         [

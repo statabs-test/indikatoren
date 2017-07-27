@@ -74,6 +74,22 @@
       "tooltip": {
         "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "fontWeight": "normal"
+        },
+        "enabled": false,
+        "formatter": function () {
+            var first = this.series.data[0];
+            var last  = this.series.data[this.series.data.length - 1];
+            if (this.point.y === first.y || this.point.y === last.y ) {
+              return this.point.x + ":<br/>" + Highcharts.numberFormat(this.point.y, 1, ",", " ") + "";
+              //return this.point.x + ":<br/>" + Highcharts.numberFormat(this.y, 1, ",", " ") + "";
+            }
+            return "";
+          }
+      },
       "data": [
         [
           2005,
@@ -328,10 +344,12 @@
       "style": {
         "fontSize": 10,
         "color": "#000000"
-      }
+      },
+      "rotation": -50,
+      "padding": 0
     },
     "tickLength": 0,
-    "tickInterval": 2
+    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",

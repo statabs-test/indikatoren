@@ -275,7 +275,9 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "max": 30000,
+    "tickInterval": 15000
   },
   "navigation": {
     "menuItemStyle": {

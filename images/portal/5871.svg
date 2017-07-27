@@ -22,10 +22,10 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(49 40)" clip-path="url(#a)">
-            <path fill="#FABD24" class="highcharts-point" d="M6 88h7v7H6zm28-7h7v14h-7zm28-17h7v31h-7zm28 7h7v24h-7zm28-7h7v31h-7zm28-23h7v54h-7zm28 29h7v25h-7zm28-12h7v37h-7zm28 18h7v19h-7zm28-28h7v47h-7zm28-9h7v56h-7zm28 49h7v7h-7zm28-5h7v12h-7zm28-3h7v15h-7zm28-8h7v23h-7zm28 8h7v15h-7zm28-34h7v49h-7zm28 26h7v23h-7zm28 15h7v8h-7zm28-50h7v58h-7zm28 55h7v3h-7z"/>
+            <path fill="#FABD24" class="highcharts-point" d="M6 86h7v9H6zm28-10h7v19h-7zm28-22h7v41h-7zm28 9h7v32h-7zm28-9h7v41h-7zm28-31h7v72h-7zm28 38h7v34h-7zm28-15h7v49h-7zm28 23h7v26h-7zm28-36h7v62h-7zm28-13h7v75h-7zm28 66h7v9h-7zm28-7h7v16h-7zm28-4h7v20h-7zm28-11h7v31h-7zm28 10h7v21h-7zm28-44h7v65h-7zm28 35h7v30h-7zm28 20h7v10h-7zm28-67h7v77h-7zm28 72h7v5h-7z"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(49 40)" clip-path="url(#a)">
-            <path fill="#B00000" class="highcharts-point" d="M15 88h7v7h-7zm28-9h7v16h-7zm28-17h7v33h-7zm28 7h7v26h-7zm28-6h7v32h-7zm28-24h7v56h-7zm28 30h7v26h-7zm28-12h7v38h-7zm28 18h7v20h-7zm28-30h7v50h-7zm28-8h7v58h-7zm28 50h7v8h-7zm28-4h7v12h-7zm28-5h7v17h-7zm28-8h7v25h-7zm28 4h7v21h-7zm28-29h7v50h-7zm28 27h7v23h-7zm28 14h7v9h-7zm28-51h7v60h-7zm28 57h7v3h-7z"/>
+            <path fill="#B00000" class="highcharts-point" d="M15 85h7v10h-7zm28-11h7v21h-7zm28-22h7v43h-7zm28 8h7v35h-7zm28-8h7v43h-7zm28-31h7v74h-7zm28 39h7v35h-7zm28-16h7v51h-7zm28 25h7v26h-7zm28-40h7v66h-7zm28-12h7v78h-7zm28 68h7v10h-7zm28-6h7v16h-7zm28-6h7v22h-7zm28-12h7v34h-7zm28 6h7v28h-7zm28-38h7v66h-7zm28 36h7v30h-7zm28 19h7v11h-7zm28-69h7v80h-7zm28 75h7v5h-7z"/>
         </g>
     </g>
     <text x="3" class="highcharts-title" y="14" color="#000" font-size="14" font-weight="700">
@@ -116,10 +116,10 @@
             <tspan>0</tspan>
         </text>
         <text x="34" y="93">
-            <tspan>20 000</tspan>
+            <tspan>15 000</tspan>
         </text>
         <text x="34" y="46">
-            <tspan>40 000</tspan>
+            <tspan>30 000</tspan>
         </text>
     </g>
     <text x="10" class="highcharts-credits" y="193" cursor="default" color="#000" font-size="10">
