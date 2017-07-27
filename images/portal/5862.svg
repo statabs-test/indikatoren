@@ -7,7 +7,7 @@
     <rect fill="#fbfbfb" class="highcharts-background" width="320" height="208" rx="0" ry="0"/>
     <path fill="none" class="highcharts-plot-background" d="M28 43h290v142H28z"/>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M45.5 43v142m30-142v142m30-142v142m30-142v142m30-142v142m29-142v142m30-142v142m30-142v142m30-142v142m30-142v142"/>
+        <path fill="none" class="highcharts-grid-line" d="M75.5 43v142m75-142v142m74-142v142m75-142v142"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
         <path fill="none" stroke="#B9CFD7" stroke-width=".5" class="highcharts-grid-line" d="M28 185.25h290m-290-47h290m-290-48h290M28 42.75h290"/>
@@ -34,36 +34,26 @@
     <text x="2" class="highcharts-subtitle" y="27" color="#000" font-size="10" font-weight="400">
         <tspan>Anzahl Einwohner pro Hektar</tspan>
     </text>
+    <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="400" color="#000" transform="translate(23 49)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">1997:</tspan><tspan x="5" dy="13" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">52,6</tspan><tspan x="5" y="15">1997:</tspan><tspan x="5" dy="13">52,6</tspan>
+        </text>
+        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="400" color="#000" transform="translate(288 47)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">2016:</tspan><tspan x="5" dy="13" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">53,6</tspan><tspan x="5" y="15">2016:</tspan><tspan x="5" dy="13">53,6</tspan>
+        </text>
+    </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="10">
-        <text x="45.807" y="205">
-            1998
-        </text>
         <text x="75.735" y="205">
-            2000
+            <tspan>2000</tspan>
         </text>
-        <text x="105.663" y="205">
-            2002
-        </text>
-        <text x="135.59" y="205">
-            2004
-        </text>
-        <text x="165.518" y="205">
-            2006
-        </text>
-        <text x="195.446" y="205">
-            2008
+        <text x="150.554" y="205">
+            <tspan>2005</tspan>
         </text>
         <text x="225.374" y="205">
-            2010
+            <tspan>2010</tspan>
         </text>
-        <text x="255.301" y="205">
-            2012
-        </text>
-        <text x="285.229" y="205">
-            2014
-        </text>
-        <text x="308.523" y="205">
-            <tspan>2…</tspan><title>2016</title>
+        <text x="300.193" y="205">
+            <tspan>2015</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="10">
