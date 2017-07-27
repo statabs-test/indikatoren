@@ -1,5 +1,8 @@
 (function(){
     return {
+   chart:{
+  		"width":640,
+  	},
   plotOptions: {
         series: {
         	"stacking": "normal",

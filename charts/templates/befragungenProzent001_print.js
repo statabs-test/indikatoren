@@ -15,9 +15,9 @@
         },
         "borderColor": "#fbfbfb",
         "backgroundColor": "#fbfbfb",
-        "width": 641,
-    	"height": 415,
-        spacing: [2,2,2,2],
+       	"width": 320,
+    	"height": 208,  
+        spacing: [3,3,3,3],
         "style": {
 			"fontFamily": "Arial"
         },
@@ -120,7 +120,7 @@
         "reversed": true,
         "layout": "vertical",
         "verticalAlign": "middle",
-        "itemMarginBottom": 5,     
+        //"itemMarginBottom": 5,     
         "align": "right",
         "useHTML": true,
         "itemStyle": {

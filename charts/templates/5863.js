@@ -60,14 +60,14 @@
          colorAxis: {
                 dataClassColor: 'category',
                 dataClasses: [{
-                    to: 0,
+                    to: 10000,
                     color: '#D3E2E4'
                 }, {
-                    from: 0,
-                    to: 10000,
+                    from: 10000,
+                    to: 15000,
                     color: '#A8C3CA'
                 }, {
-                    from: 10000,
+                    from: 15000,
                     to: 20000,
                      color: '#689199'
                 },{
@@ -326,7 +326,7 @@
 	                drawPies();
 	                
 	                //Add manually drawn legend
-	                 chart.renderer.label(chart.series[0].name, 350, 200)
+	                 chart.renderer.label(chart.series[0].name, 340, 200)
      				.css({
 	                    fontSize: '12px',
 	                    fontWeight: 'bold'
@@ -335,7 +335,7 @@
 			        	zIndex: 6,
 			        	//class: 'pieLegend'
 			        }).add();
-			        chart.renderer.label(chart.series[1].name, 440, 200)
+			        chart.renderer.label(chart.series[1].name, 460, 200)
      				.css({
 	                    fontSize: '12px',
 	                    fontWeight: 'bold'
@@ -346,23 +346,23 @@
 			        }).add();
 	                var maxBubbleSize = 500;
 	                var minBubbleSize = 5000
-	                chart.renderer.circle(453, 231, 0.5*pieSize(minBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
+	                chart.renderer.circle(473, 231, 0.5*pieSize(minBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
 					    fill: 'grey',
 					    'stroke-width': 0, 
 					    zIndex: 6,
 					    class: 'pieLegend'
 					}).add();
-					chart.renderer.label(Highcharts.numberFormat((minBubbleSize),0,"."," "), 465, 221).attr({
+					chart.renderer.label(Highcharts.numberFormat((minBubbleSize),0,"."," "), 485, 221).attr({
 						zIndex: 6,
 						class: 'pieLegend', 
 					}).add();
-	                chart.renderer.circle(453, 248, 0.5*pieSize(maxBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
+	                chart.renderer.circle(473, 248, 0.5*pieSize(maxBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
 					    fill: 'grey',
 					    'stroke-width': 0,
 					    zIndex: 6,
 					    class: 'pieLegend'
 					}).add();
-					chart.renderer.label(Highcharts.numberFormat((maxBubbleSize),0,"."," "), 465, 237).attr({
+					chart.renderer.label(Highcharts.numberFormat((maxBubbleSize),0,"."," "), 485, 237).attr({
 						zIndex: 6,
 						class: 'pieLegend'
 					}).add();

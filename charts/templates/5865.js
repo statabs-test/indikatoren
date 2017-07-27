@@ -17,19 +17,27 @@
   "xAxis": {
    "tickInterval": 1
   },
-  "legend": {
+  /*"legend": {
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
     "width": 50,
   	"x": 40,
-  /*
 	"y": 40,
 	"itemMarginBottom": 5,
-	*/
     "itemStyle": {
     "fontWeight": "normal"
+    }
+  },*/
+  "legend": {
+  	enabled:true,
+  	"layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5,
+    "align": "right",
+    "itemStyle": {
+      "fontWeight": "normal"
     }
   },
   "series": [
