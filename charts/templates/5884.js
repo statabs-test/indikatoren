@@ -23,10 +23,10 @@
 				},
             labelFormatter: function () {
                 if (this.from === undefined) {
-                    return '≤ ' + this.to;
+                    return '< ' + this.to;
                 }
                 if (this.to === undefined) {
-                    return '   ≥ ' + this.from;
+                    return '≥ ' + this.from;
                 }
                 return '      ' + this.from + ' - ' + this.to;
             }	
@@ -332,8 +332,9 @@
 
 	                drawPies();
 	                
+	                console.log(chart);
 	                //Add manually drawn legend
-	                 chart.renderer.label('2014', 340, 200)
+	                 chart.renderer.label(chart.series[0].name, 340, 200)
      				.css({
 	                    fontSize: '12px',
 	                    fontWeight: 'bold'
@@ -342,7 +343,7 @@
 			        	zIndex: 6,
 			        	//class: 'pieLegend'
 			        }).add();
-			        chart.renderer.label('Differenz 2014 zu 2011', 430, 200)
+			        chart.renderer.label(chart.series[1].name, 430, 200)
      				.css({
 	                    fontSize: '12px',
 	                    fontWeight: 'bold'
