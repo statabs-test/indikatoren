@@ -14,7 +14,7 @@
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "right",
-			"x": -225,
+			"x": -185,
 			"y": 3,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
@@ -23,12 +23,12 @@
 				},
             labelFormatter: function () {
                 if (this.from === undefined) {
-                    return '< ' + this.to;
+                    return '< ' + Highcharts.numberFormat((this.to),0,"."," "); 
                 }
                 if (this.to === undefined) {
-                    return '≥ ' + this.from;
+                    return '≥ ' + Highcharts.numberFormat((this.from),0,"."," ");
                 }
-                return '      ' + this.from + ' - ' + this.to;
+                return '      ' + Highcharts.numberFormat((this.from),0,"."," ") + ' - ' + Highcharts.numberFormat((this.to),0,"."," ");
             }	
 		},
 
@@ -77,13 +77,7 @@
                 },{
                     from: 30000,
                     color: '#083038'
-                }], 
-                labels: {
-					"formatter": function () {
-						return Highcharts.numberFormat((this.value),0,"."," "); 
-					},	
-                	//format: "{value:,.0f}"
-                }
+                }]
             },
 		"series": [
 			{
@@ -332,7 +326,7 @@
 	                drawPies();
 	                
 	                //Add manually drawn legend
-	                 chart.renderer.label(chart.series[0].name, 340, 200)
+	                 chart.renderer.label(chart.series[0].name, 350, 200)
      				.css({
 	                    fontSize: '12px',
 	                    fontWeight: 'bold'
@@ -341,7 +335,7 @@
 			        	zIndex: 6,
 			        	//class: 'pieLegend'
 			        }).add();
-			        chart.renderer.label(chart.series[1].name, 430, 200)
+			        chart.renderer.label(chart.series[1].name, 440, 200)
      				.css({
 	                    fontSize: '12px',
 	                    fontWeight: 'bold'
@@ -352,23 +346,23 @@
 			        }).add();
 	                var maxBubbleSize = 500;
 	                var minBubbleSize = 5000
-	                chart.renderer.circle(443, 231, 0.5*pieSize(minBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
+	                chart.renderer.circle(453, 231, 0.5*pieSize(minBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
 					    fill: 'grey',
 					    'stroke-width': 0, 
 					    zIndex: 6,
 					    class: 'pieLegend'
 					}).add();
-					chart.renderer.label(minBubbleSize, 455, 221).attr({
+					chart.renderer.label(Highcharts.numberFormat((minBubbleSize),0,"."," "), 465, 221).attr({
 						zIndex: 6,
 						class: 'pieLegend', 
 					}).add();
-	                chart.renderer.circle(443, 248, 0.5*pieSize(maxBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
+	                chart.renderer.circle(453, 248, 0.5*pieSize(maxBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
 					    fill: 'grey',
 					    'stroke-width': 0,
 					    zIndex: 6,
 					    class: 'pieLegend'
 					}).add();
-					chart.renderer.label(maxBubbleSize, 455, 237).attr({
+					chart.renderer.label(Highcharts.numberFormat((maxBubbleSize),0,"."," "), 465, 237).attr({
 						zIndex: 6,
 						class: 'pieLegend'
 					}).add();
