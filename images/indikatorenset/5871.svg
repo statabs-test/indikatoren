@@ -31,7 +31,7 @@
     <text x="3" class="highcharts-title" y="14" color="#000" font-size="14" font-weight="700">
         <tspan>Bevölkerung am Jahresende</tspan>
     </text>
-    <g class="highcharts-legend" transform="translate(73 3)">
+    <g class="highcharts-legend" transform="translate(38 3)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="131" height="25"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">

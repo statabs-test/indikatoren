@@ -365,12 +365,11 @@
   },
   "legend": {
     "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
     "symbolRadius": 0,
-    "width": 50,
-    "x": 40,
+    "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"
     }

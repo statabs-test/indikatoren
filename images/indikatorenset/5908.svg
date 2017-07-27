@@ -42,16 +42,16 @@
         <tspan>Basel-Stadt im Vergleich</tspan>
     </text>
     <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
-        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="400" color="#000" transform="translate(29 79)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined highcharts-tracker">
-            <tspan x="5" y="0" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">1991:</tspan><tspan x="5" dy="13" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round"> 105,4</tspan><tspan x="5" y="0">1991:</tspan><tspan x="5" dy="13"> 105,4</tspan>
+        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="400" color="#000" transform="translate(29 79)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">1991:</tspan><tspan x="5" dy="13" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round"> 105,4</tspan><tspan x="5" y="15">1991:</tspan><tspan x="5" dy="13"> 105,4</tspan>
         </text>
     </g>
     <g class="highcharts-data-labels highcharts-series-1 highcharts-line-series highcharts-color-undefined">
-        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="400" color="#000" transform="translate(29 127)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined highcharts-tracker">
-            <tspan x="5" y="0" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">87,9</tspan><tspan x="5" y="0"> 87,9</tspan>
+        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="400" color="#000" transform="translate(29 127)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">87,9</tspan><tspan x="5" y="15"> 87,9</tspan>
         </text>
-        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="400" color="#000" transform="translate(288 115)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined highcharts-tracker">
-            <tspan x="5" y="0" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">106,5</tspan><tspan x="5" y="0"> 106,5</tspan>
+        <text x="5" style="text-outline:1px contrast" y="15" font-size="10" font-weight="400" color="#000" transform="translate(288 115)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">106,5</tspan><tspan x="5" y="15"> 106,5</tspan>
         </text>
     </g>
     <g class="highcharts-legend" transform="translate(27 2)">

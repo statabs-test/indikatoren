@@ -6,7 +6,7 @@
         "enabled": true
       },
       "dataLabels": {
-        "useHTML": true,
+        "useHTML": false,
         "style": {
           "fontSize": "10px",
           "fontWeight": "normal"
@@ -79,7 +79,7 @@
         "enabled": true
       },
       "dataLabels": {
-        "useHTML": true,
+        "useHTML": false,
         "style": {
           "fontSize": "10px",
           "fontWeight": "normal"
