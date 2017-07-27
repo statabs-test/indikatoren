@@ -3,31 +3,11 @@
       "data":{
       	"switchRowsAndColumns": true
       },
-          /*series: [{
-              data: [
-                    {
-                        legendIndex: 0
-                    },
-                    {
-                        legendIndex: 2
-                    },
-                    {
-                        legendIndex: 3
-                    },
-                    {
-                        legendIndex: 4
-                    },
-                    {
-                        legendIndex: 5
-                    },
-                    {
-                        legendIndex: 6
-                    },
-                    {
-                        legendIndex: 7
-                    }  
-                ]
-    }],*/
+       legend:{
+      	itemStyle: {
+		fontSize: "12px"
+		}
+      },
     	"tooltip": {
     		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.2f} km² ({point.percentage:.1f}%)</b><br/>',
         "shared": false
@@ -55,18 +35,20 @@
            '#3C3C3C',  // Übrige versiegelte Fläche
            '#008AC3' // Gewässer
          ],
-        size: "50%",
-		dataLabels: {
+        size: "115%",
+	dataLabels: {
 		                enabled: true,
 		                format: '{point.percentage:.1f} %',
+		                distance: 5,
 		                style: {
 		                    color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black',
-		                    fontSize: '10px' ,  "fontFamily": "Arial"
+		                    fontSize: '12px' 
 		                }
 	      }
       }
     }
     };
 }());
+
 
 
