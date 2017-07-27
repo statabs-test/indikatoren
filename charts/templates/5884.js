@@ -14,13 +14,25 @@
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "right",
-			"x": -200,
-			"y": -2,
+			"x": -225,
+			"y": 3,
 			itemMarginBottom: 2, 
+			symbolRadius: 0,
 			itemStyle: {
 				fontWeight: 'normal'
-			}
-			},
+				},
+            labelFormatter: function () {
+                if (this.from === undefined) {
+                    return '≤ ' + this.to;
+                }
+                if (this.to === undefined) {
+                    return '   ≥ ' + this.from;
+                }
+                return '      ' + this.from + ' - ' + this.to;
+            }	
+		},
+
+
 		/*
 		"colorAxis": {
 			//"min": undefined,
@@ -49,11 +61,11 @@
                 dataClassColor: 'category',
                 dataClasses: [{
                     to: 0,
-                     color: '#D3E2E4'
+                    color: '#D3E2E4'
                 }, {
                     from: 0,
                     to: 20,
-                     color: '#A8C3CA'
+                    color: '#A8C3CA'
                 }, {
                     from: 20,
                     to: 50,
@@ -319,7 +331,7 @@
 	                
 	                
 	                //Add manually drawn legend
-	                 chart.renderer.label('2014', 330, 200)
+	                 chart.renderer.label('2014', 340, 200)
      				.css({
 	                    fontSize: '12px',
 	                    fontWeight: 'bold'
@@ -339,44 +351,44 @@
 			        }).add();
 	                var maxBubbleSize = 20;
 	                var minBubbleSize = 0.05
-	                chart.renderer.circle(440, 250, 0.5*pieSize(minBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
+	                chart.renderer.circle(443, 231, 0.5*pieSize(minBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
 					    fill: 'grey',
 					    'stroke-width': 0, 
 					    zIndex: 6,
 					    class: 'pieLegend'
 					}).add();
-					chart.renderer.label(minBubbleSize, 460, 240).attr({
+					chart.renderer.label(minBubbleSize, 455, 221).attr({
 						zIndex: 6,
 						class: 'pieLegend'
 					}).add();
-	                chart.renderer.circle(440,275, 0.5*pieSize(maxBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
+	                chart.renderer.circle(443, 248, 0.5*pieSize(maxBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
 					    fill: 'grey',
 					    stroke: 'grey',
 					    'stroke-width': 0,
 					    zIndex: 6,
 					    class: 'pieLegend'
 					}).add();
-					chart.renderer.label(maxBubbleSize, 460, 265).attr({
+					chart.renderer.label(maxBubbleSize, 455, 237).attr({
 						zIndex: 6,
 						class: 'pieLegend'
 					}).add();
-				    chart.renderer.rect(560, 235, 10, 10, 0).attr({
+				    chart.renderer.rect(500, 225, 12, 12, 0).attr({
 			            'stroke-width':0,
 			            fill: 'grey',
 			            zIndex: 6,
 			            class: 'pieLegend'
 			        }).add();
-			        chart.renderer.label('Zunahme', 580, 230).attr({
+			        chart.renderer.label('Zunahme', 515, 221).attr({
 			        	zIndex: 6,
 			        	class: 'pieLegend'
 			        }).add();
-					chart.renderer.rect(560, 255, 10, 10, 0).attr({
+					chart.renderer.rect(500, 241, 12, 12, 0).attr({
 			            'stroke-width':0,
 			            fill: 'salmon',
 			            zIndex: 6,
 			            class: 'pieLegend'
 			        }).add();
-			        chart.renderer.label('Abnahme', 580, 250).attr({
+			        chart.renderer.label('Abnahme', 515, 237).attr({
 			        	zIndex: 6,
 			        	class: 'pieLegend'
 			        }).add();
