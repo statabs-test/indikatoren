@@ -72,7 +72,8 @@
         "distance": 17,
         "style": {
           "color": "black",
-          "fontSize": "12px"
+          "fontSize": "12px",
+          "fontWeight": "normal"
         }
       },
       "colors": [
