@@ -19,7 +19,7 @@
         "enabled": true
       },
         "dataLabels": {
-          useHTML: true,
+          useHTML: false,
           style: {"fontSize": "10px", "fontWeight": "normal"}, 
           "enabled": true,
           //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
@@ -38,7 +38,7 @@
         "enabled": true
       },
         "dataLabels": {          
-          useHTML: true,
+          useHTML: false,
           style: {"fontSize": "10px", "fontWeight": "normal"}, 
           "enabled": true,
           verticalAlign: 'top',
