@@ -4,7 +4,8 @@
       "color": "#B375AB",
       "index": 0,
       "type": "column",
-      "pointWidth": "7",
+      "pointPadding": 0,
+      "borderWidth": 0,
       "legendIndex": 1,
       "tooltip": {
         "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
@@ -129,7 +130,8 @@
       "color": "#C4AB91",
       "index": 0,
       "type": "column",
-      "pointWidth": "7",
+      "pointPadding": 0,
+      "borderWidth": 0,
       "legendIndex": 3,
       "tooltip": {
         "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
@@ -358,12 +360,6 @@
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"
-    }
-  },
-  "plotOptions": {
-    "series": {
-      "pointPadding": 0,
-      "groupPadding": 0
     }
   },
   "exporting": {

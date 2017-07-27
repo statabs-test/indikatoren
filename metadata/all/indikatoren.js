@@ -7586,38 +7586,5 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"
 		]
-	},
-	{
-		"title": "Pie Chart Example",
-		"subtitle": "Arbeitslose EU-/EFTA-Staatsangehörige im Kanton Basel-Stadt nach Herkunftsland im Jahresdurchschnitt 2016",
-		"kuerzel": "Pie",
-		"kuerzelKunde": "Pie",
-		"image": "images/pie.jpg",
-		"description": "Arbeitslose EU-/EFTA-Staatsangehörige im Kanton Basel-Stadt nach Herkunftsland im Jahresdurchschnitt 2016",
-		"id": "pie",
-		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose",
-		"kennzahlenset": "",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2016-01-01T00:00:00.000",
-		"schlagwort": [
-			"Arbeitslosigkeit"
-		],
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Test Lesehilfe",
-		"erlaeuterungen": "Test Erläuterungen",
-		"template": "pie001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt"
-		]
 	}
 ];

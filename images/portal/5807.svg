@@ -4,13 +4,13 @@
     <path fill="none" class="highcharts-plot-border" d="M10 55h280v315H10z"/>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-pie-series highcharts-color-undefined highcharts-tracker" cursor="true">
-            <path fill="#007A2F" d="M155.987 157a62 62 0 0 1 40.134 14.732L156 219z" class="highcharts-point highcharts-color-0"/>
-            <path fill="#68AB2B" d="M196.168 171.772a62 62 0 0 1 20.96 36.86L156 219z" class="highcharts-point highcharts-color-1"/>
-            <path fill="#73B97C" d="M217.137 208.694a62 62 0 0 1-63.753 72.25L156 219z" class="highcharts-point highcharts-color-2"/>
-            <path fill="#990300" d="M153.322 280.942a62 62 0 0 1-51.714-32.185L156 219z" class="highcharts-point highcharts-color-3"/>
-            <path fill="#6F6F6F" d="M101.578 248.702a62 62 0 0 1 2.78-64.011L156 219z" class="highcharts-point highcharts-color-4"/>
-            <path fill="#3C3C3C" d="M104.392 184.64a62 62 0 0 1 37.57-26.03L156 219z" class="highcharts-point highcharts-color-5"/>
-            <path fill="#008AC3" d="M142.023 158.596a62 62 0 0 1 13.89-1.596l.087 62z" class="highcharts-point highcharts-color-6"/>
+            <path fill="#007A2F" d="M155.975 91a122 122 0 0 1 78.973 28.988L156 213z" class="highcharts-point highcharts-color-0"/>
+            <path fill="#68AB2B" d="M235.041 120.067a122 122 0 0 1 41.241 72.533L156 213z" class="highcharts-point highcharts-color-1"/>
+            <path fill="#73B97C" d="M276.303 192.72a122 122 0 0 1-125.45 142.171L156 213z" class="highcharts-point highcharts-color-2"/>
+            <path fill="#990300" d="M150.73 334.886a122 122 0 0 1-101.76-63.333L156 213z" class="highcharts-point highcharts-color-3"/>
+            <path fill="#6F6F6F" d="M48.911 271.446a122 122 0 0 1 5.471-125.957L156 213z" class="highcharts-point highcharts-color-4"/>
+            <path fill="#3C3C3C" d="M54.45 145.387a122 122 0 0 1 73.928-51.219L156 213z" class="highcharts-point highcharts-color-5"/>
+            <path fill="#008AC3" d="M128.497 94.14A122 122 0 0 1 155.831 91L156 213z" class="highcharts-point highcharts-color-6"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
@@ -20,33 +20,26 @@
         <tspan>Stand 2016</tspan>
     </text>
     <g class="highcharts-data-labels highcharts-series-0 highcharts-pie-series highcharts-color-undefined highcharts-tracker" cursor="true">
-        <path fill="none" class="highcharts-data-label-connector highcharts-color-0" stroke="#007A2F" d="M192.749 132.152c-5 0-11.212 16.894-13.283 22.525l-2.07 5.632"/>
-        <path fill="none" class="highcharts-data-label-connector highcharts-color-1" stroke="#68AB2B" d="M241.003 173.074c-5 0-20.653 8.888-25.87 11.85l-5.218 2.963"/>
-        <path fill="none" class="highcharts-data-label-connector highcharts-color-2" stroke="#73B97C" d="M229.941 279.419c-5 0-18.488-11.92-22.984-15.892l-4.496-3.973"/>
-        <path fill="none" class="highcharts-data-label-connector highcharts-color-3" stroke="#990300" d="M102.358 296.59c5 0 14.517-15.28 17.69-20.372l3.171-5.093"/>
-        <path fill="none" class="highcharts-data-label-connector highcharts-color-4" stroke="#6F6F6F" d="M59.087 214.496c5 0 22.983.784 28.977 1.045l5.995.26"/>
-        <path fill="none" class="highcharts-data-label-connector highcharts-color-5" stroke="#3C3C3C" d="M90.148 149.5c5 0 23.725 8.161 27.141 13.094l3.416 4.933"/>
-        <path fill="none" class="highcharts-data-label-connector highcharts-color-6" stroke="#008AC3" d="M140.56 126.5c5 0 7.043 18.478 7.724 24.44l.68 5.96"/>
-        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(198 122)" class="highcharts-label highcharts-data-label highcharts-data-label-color-0">
-            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">11.2 %</tspan><tspan x="5" y="16">11.2 %</tspan>
+        <text x="5" style="text-outline:0 #fff" y="17" font-weight="400" color="#fff" fill="#fff" transform="translate(166 116)" class="highcharts-label highcharts-data-label highcharts-data-label-color-0">
+            <tspan x="5" y="17" class="highcharts-text-outline" stroke="#fff" stroke-width="0" stroke-linejoin="round">11.2%</tspan><tspan x="5" y="17">11.2%</tspan>
         </text>
-        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(246 163)" class="highcharts-label highcharts-data-label highcharts-data-label-color-1">
-            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">11.1 %</tspan><tspan x="5" y="16">11.1 %</tspan>
+        <text x="5" style="text-outline:0 #fff" y="17" font-weight="400" color="#fff" fill="#fff" transform="translate(214 157)" class="highcharts-label highcharts-data-label highcharts-data-label-color-1">
+            <tspan x="5" y="17" class="highcharts-text-outline" stroke="#fff" stroke-width="0" stroke-linejoin="round">11.1%</tspan><tspan x="5" y="17">11.1%</tspan>
         </text>
-        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(235 269)" class="highcharts-label highcharts-data-label highcharts-data-label-color-2">
-            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">28.3 %</tspan><tspan x="5" y="16">28.3 %</tspan>
+        <text x="5" style="text-outline:0 #fff" y="17" font-weight="400" color="#fff" fill="#fff" transform="translate(203 263)" class="highcharts-label highcharts-data-label highcharts-data-label-color-2">
+            <tspan x="5" y="17" class="highcharts-text-outline" stroke="#fff" stroke-width="0" stroke-linejoin="round">28.3%</tspan><tspan x="5" y="17">28.3%</tspan>
         </text>
-        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(53 287)" class="highcharts-label highcharts-data-label highcharts-data-label-color-3">
-            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">16.4 %</tspan><tspan x="5" y="16">16.4 %</tspan>
+        <text x="5" style="text-outline:0 #fff" y="17" font-weight="400" color="#fff" fill="#fff" transform="translate(85 281)" class="highcharts-label highcharts-data-label highcharts-data-label-color-3">
+            <tspan x="5" y="17" class="highcharts-text-outline" stroke="#fff" stroke-width="0" stroke-linejoin="round">16.4%</tspan><tspan x="5" y="17">16.4%</tspan>
         </text>
-        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(10 204)" class="highcharts-label highcharts-data-label highcharts-data-label-color-4">
-            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">17.3 %</tspan><tspan x="5" y="16">17.3 %</tspan>
+        <text x="5" style="text-outline:0 #fff" y="17" font-weight="400" color="#fff" fill="#fff" transform="translate(42 198)" class="highcharts-label highcharts-data-label highcharts-data-label-color-4">
+            <tspan x="5" y="17" class="highcharts-text-outline" stroke="#fff" stroke-width="0" stroke-linejoin="round">17.3%</tspan><tspan x="5" y="17">17.3%</tspan>
         </text>
-        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(41 140)" class="highcharts-label highcharts-data-label highcharts-data-label-color-5">
-            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">12.0 %</tspan><tspan x="5" y="16">12.0 %</tspan>
+        <text x="5" style="text-outline:0 #fff" y="17" font-weight="400" color="#fff" fill="#fff" transform="translate(82 127)" class="highcharts-label highcharts-data-label highcharts-data-label-color-5">
+            <tspan x="5" y="17" class="highcharts-text-outline" stroke="#fff" stroke-width="0" stroke-linejoin="round">12.0%</tspan><tspan x="5" y="17">12.0%</tspan>
         </text>
-        <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(97 117)" class="highcharts-label highcharts-data-label highcharts-data-label-color-6">
-            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">3.6 %</tspan><tspan x="5" y="16">3.6 %</tspan>
+        <text x="5" style="text-outline:0 #fff" y="17" font-weight="400" color="#fff" fill="#fff" transform="translate(127 111)" class="highcharts-label highcharts-data-label highcharts-data-label-color-6">
+            <tspan x="5" y="17" class="highcharts-text-outline" stroke="#fff" stroke-width="0" stroke-linejoin="round">3.6%</tspan><tspan x="5" y="17">3.6%</tspan>
         </text>
     </g>
     <g class="highcharts-legend" transform="translate(302 118)">

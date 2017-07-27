@@ -20,6 +20,34 @@
     <text x="3" class="highcharts-subtitle" y="33" color="#000" font-weight="400">
         <tspan>Stand 2010</tspan>
     </text>
+    <g class="highcharts-data-labels highcharts-series-0 highcharts-pie-series highcharts-color-undefined highcharts-tracker" cursor="true">
+        <text x="5" style="text-outline:0 #000" y="17" font-weight="400" color="#000" transform="translate(149 173)" class="highcharts-label highcharts-data-label highcharts-data-label-color-0">
+            <tspan x="5" y="17" class="highcharts-text-outline" stroke="#000" stroke-width="0" stroke-linejoin="round">17%</tspan><tspan x="5" y="17">17%</tspan>
+        </text>
+        <text x="5" style="text-outline:0 #000" y="17" font-weight="400" color="#000" transform="translate(158 260)" class="highcharts-label highcharts-data-label highcharts-data-label-color-1">
+            <tspan x="5" y="17" class="highcharts-text-outline" stroke="#000" stroke-width="0" stroke-linejoin="round">42%</tspan><tspan x="5" y="17">42%</tspan>
+        </text>
+        <text x="5" style="text-outline:0 #000" y="17" font-weight="400" color="#000" transform="translate(68 205)" class="highcharts-label highcharts-data-label highcharts-data-label-color-2">
+            <tspan x="5" y="17" class="highcharts-text-outline" stroke="#000" stroke-width="0" stroke-linejoin="round">41%</tspan><tspan x="5" y="17">41%</tspan>
+        </text>
+    </g>
+    <g class="highcharts-data-labels highcharts-series-1 highcharts-pie-series highcharts-color-undefined highcharts-tracker" cursor="true">
+        <text x="5" style="text-outline:0 #000" y="15" font-size="10" font-weight="400" color="#000" transform="translate(163 135)" class="highcharts-label highcharts-data-label highcharts-data-label-color-0">
+            <tspan x="5" y="15" class="highcharts-text-outline" stroke="#000" stroke-width="0" stroke-linejoin="round">14%</tspan><tspan x="5" y="15">14%</tspan>
+        </text>
+        <text x="5" style="text-outline:0 #000" y="15" font-size="10" font-weight="400" color="#000" transform="translate(197 278)" class="highcharts-label highcharts-data-label highcharts-data-label-color-1">
+            <tspan x="5" y="15" class="highcharts-text-outline" stroke="#000" stroke-width="0" stroke-linejoin="round">43%</tspan><tspan x="5" y="15">43%</tspan>
+        </text>
+        <text x="5" style="text-outline:0 #000" y="15" font-size="10" font-weight="400" color="#000" transform="translate(30 199)" class="highcharts-label highcharts-data-label highcharts-data-label-color-2">
+            <tspan x="5" y="15" class="highcharts-text-outline" stroke="#000" stroke-width="0" stroke-linejoin="round">43%</tspan><tspan x="5" y="15">43%</tspan>
+        </text>
+    </g>
+    <text x="3" y="15" font-weight="700" transform="translate(105 97)" class="pieLegend">
+        2015
+    </text>
+    <text x="3" y="15" font-weight="700" transform="translate(105 147)" class="pieLegend">
+        2010
+    </text>
     <g class="highcharts-legend" transform="translate(284 181)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="197" height="53"/>
         <g class="highcharts-legend-item highcharts-pie-series highcharts-color-0">

@@ -3,6 +3,22 @@
     {
       "innerSize": "20%",
       "id": 0,
+      "allowPointSelect": false,
+      "dataLabels": {
+        "enabled": true,
+        "distance": -70,
+        "format": "{point.percentage:,.0f}%",
+        "formatter": function (){
+                    console.log(this);
+                    return /*this.series.name; + ":<br/>" + */this.point.percentage;
+                },
+        "style": {
+          "color": "black",
+          "textOutline": "0px black",
+          "fontWeight": "normal",
+          "fontSize": "10px"
+        }
+      },
       "data": [
         [
           "Langsamverkehr",
@@ -24,6 +40,21 @@
       "innerSize": "60%",
       "linkedTo": ":previous",
       "showInLegend": false,
+      "allowPointSelect": false,
+      "dataLabels": {
+        "enabled": true,
+        "distance": -30,
+        "style": {
+          "color": "black",
+          "textOutline": "0px black",
+          "fontWeight": "normal",
+          "fontSize": "10px"
+        },
+        "format": "{point.percentage:,.0f}%",
+        "formatter": function (){
+                    return this.point.percentage;
+                }
+      },
       "data": [
         [
           "Langsamverkehr",
@@ -55,6 +86,29 @@
     "events": {
       "load": function () {
                   this.credits.element.onclick = function() {};
+        
+                //Label the two rings of the donut chart
+				this.renderer.label(this.series[1].name, 105, 97).attr({
+					zIndex: 6,
+					class: 'pieLegend'
+				})        
+				.css({
+                    fontSize: '12px',
+                    fontWeight: 'bold'
+                })
+				.add();
+				this.renderer.label(this.series[0].name, 105, 147).attr({
+					zIndex: 6,
+					class: 'pieLegend'
+				})
+    			.css({
+                    fontSize: '12px',
+                    fontWeight: 'bold'
+                })
+
+				.add();
+        
+        
         
                 // Remove all pie slices with same color when clicking onto legend item
                 // see https://www.bountysource.com/issues/1055141-linkedto-on-pie-chart-s-data-points-for-e-g-setvisible
@@ -140,11 +194,7 @@
       "cursor": true,
       "showInLegend": true,
       "dataLabels": {
-        "enabled": true,
-        "format": "{point.percentage:.1f} %",
-        "style": {
-          "color": "black"
-        }
+        "enabled": false
       },
       "colors": [
         "#50B432",
@@ -179,7 +229,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.2f} km² ({point.percentage:.1f}%)\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.2f} km ({point.percentage:.1f}%)\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",

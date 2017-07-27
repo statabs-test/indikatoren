@@ -63,6 +63,7 @@
       "showInLegend": true,
       "dataLabels": {
         "enabled": true,
+        "distance": 10,
         "format": "{point.percentage:.1f} %",
         "style": {
           "color": "black"

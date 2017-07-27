@@ -77,9 +77,11 @@
       "dataLabels": {
         "enabled": true,
         "format": "{point.percentage:.1f} %",
+        "distance": 5,
         "style": {
           "color": "black",
-          "fontSize": "10px"
+          "fontSize": "12px",
+          "fontWeight": "normal"
         }
       },
       "colors": [
@@ -91,7 +93,7 @@
         "#3C3C3C",
         "#008AC3"
       ],
-      "size": "50%"
+      "size": "115%"
     }
   },
   "title": {
@@ -139,11 +141,12 @@
     "align": "left",
     "useHTML": true,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "fontSize": "12px"
     },
     "symbolRadius": 0,
     "enabled": true,
-    "width": 340
+    "itemWidth": 135
   },
   "exporting": {
     "filename": "I.02.1.05807"

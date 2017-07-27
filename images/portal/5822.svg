@@ -4,22 +4,22 @@
     <path fill="none" class="highcharts-plot-border" d="M10 41h344v329H10z"/>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-pie-series highcharts-color-undefined highcharts-tracker" cursor="true">
-            <path fill="#B00000" d="M184.98 113.5a98.5 98.5 0 1 1-79.128 157.133L185 212z" class="highcharts-point highcharts-color-0"/>
-            <path fill="#FF8028" d="M105.794 270.554a98.5 98.5 0 0 1 54.418-153.884L185 212z" class="highcharts-point highcharts-color-1"/>
-            <path fill="#E6E600" d="M160.307 116.645a98.5 98.5 0 0 1 22.192-3.113L185 212z" class="highcharts-point highcharts-color-2"/>
-            <path fill="#68AB2B" d="M182.598 113.53a98.5 98.5 0 0 1 1.773-.028L185 212z" class="highcharts-point highcharts-color-3"/>
-            <path fill="#008AC3" d="M184.47 113.501a98.5 98.5 0 0 1 .393 0L185 212z" class="highcharts-point highcharts-color-4"/>
+            <path fill="#B00000" d="M184.976 93.5a118.5 118.5 0 1 1-95.194 189.039L185 212z" class="highcharts-point highcharts-color-0"/>
+            <path fill="#FF8028" d="M89.711 282.443a118.5 118.5 0 0 1 65.468-185.13L185 212z" class="highcharts-point highcharts-color-1"/>
+            <path fill="#E6E600" d="M155.294 97.284a118.5 118.5 0 0 1 26.698-3.746L185 212z" class="highcharts-point highcharts-color-2"/>
+            <path fill="#68AB2B" d="M182.11 93.535a118.5 118.5 0 0 1 2.133-.033L185 212z" class="highcharts-point highcharts-color-3"/>
+            <path fill="#008AC3" d="M184.361 93.502a118.5 118.5 0 0 1 .474-.002L185 212z" class="highcharts-point highcharts-color-4"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>Anteil Einwohner pro ÖV-Güteklasse</tspan>
     </text>
     <g class="highcharts-data-labels highcharts-series-0 highcharts-pie-series highcharts-color-undefined highcharts-tracker" cursor="true">
-        <path fill="none" class="highcharts-data-label-connector highcharts-color-0" stroke="#B00000" d="M304.745 269.344c-5 0-21.074-8.103-26.431-10.804l-5.358-2.7"/>
-        <path fill="none" class="highcharts-data-label-connector highcharts-color-1" stroke="#FF8028" d="M58.863 168.627c5 0 21.969 6.005 27.625 8.007l5.656 2.002"/>
-        <path fill="none" class="highcharts-data-label-connector highcharts-color-2" stroke="#E6E600" d="M81.481 129c5 0 88.205-26.934 89.037-20.992l.831 5.943"/>
-        <path fill="none" class="highcharts-data-label-connector highcharts-color-3" stroke="#68AB2B" d="M106.638 106c5 0 76.71-4.988 76.8 1.012l.09 5.999"/>
-        <path fill="none" class="highcharts-data-label-connector highcharts-color-4" stroke="#008AC3" d="M179.656 83c5 0 5.049 18 5.065 24l.016 6"/>
+        <path fill="none" class="highcharts-data-label-connector highcharts-color-0" stroke="#B00000" d="M304.745 269.344c-5 0-10.358-2.7-12.144-3.601l-1.786-.9"/>
+        <path fill="none" class="highcharts-data-label-connector highcharts-color-1" stroke="#FF8028" d="M58.863 168.627c5 0 10.656 2.002 12.542 2.67l1.885.666"/>
+        <path fill="none" class="highcharts-data-label-connector highcharts-color-2" stroke="#E6E600" d="M81.481 129c5 0 86.542-38.818 86.82-36.837l.276 1.98"/>
+        <path fill="none" class="highcharts-data-label-connector highcharts-color-3" stroke="#68AB2B" d="M106.638 106c5 0 76.532-16.986 76.561-14.987l.03 2"/>
+        <path fill="none" class="highcharts-data-label-connector highcharts-color-4" stroke="#008AC3" d="M179.656 83c5 0 5.017 6 5.022 8l.005 2"/>
         <text x="5" style="text-outline:1px contrast" y="16" font-size="11" font-weight="700" color="#000" transform="translate(310 259)" class="highcharts-label highcharts-data-label highcharts-data-label-color-0">
             <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">64.9 %</tspan><tspan x="5" y="16">64.9 %</tspan>
         </text>

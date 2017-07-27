@@ -205,6 +205,5 @@ var templatesById = {
 	"6005": "line001",
 	"6006": "line001_print",
 	"9998": "pie001",
-	"9999": "mappie001",
-	"pie": "pie001"
+	"9999": "mappie001"
 };
