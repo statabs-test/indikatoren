@@ -19,14 +19,15 @@
         "enabled": true
       },
         "dataLabels": {
-        style: {"fontSize": "10px", "fontWeight": "normal"}, 
-        "enabled": true,
+          useHTML: true,
+          style: {"fontSize": "10px", "fontWeight": "normal"}, 
+          "enabled": true,
           //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
           formatter: function() {
             var first = this.series.data[0];
             var last  = this.series.data[this.series.data.length - 1];
             if (this.point.y === first.y || this.point.y === last.y ) {
-              return this.point.x + ":<br/>" + Highcharts.numberFormat(this.point.y, 1, ",", " ") + "";
+              return this.point.x + ":<br/><span style='color: " + this.point.color + "'> " + Highcharts.numberFormat(this.point.y, 1, ",", " ") + "</span>";
             }
             return "";
           }
@@ -36,15 +37,17 @@
       "marker": {
         "enabled": true
       },
-        "dataLabels": {
-        style: {"fontSize": "10px", "fontWeight": "normal"}, 
-        "enabled": true,
+        "dataLabels": {          
+          useHTML: true,
+          style: {"fontSize": "10px", "fontWeight": "normal"}, 
+          "enabled": true,
+          verticalAlign: 'top',
           //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
           formatter: function() {
             var first = this.series.data[0];
             var last  = this.series.data[this.series.data.length - 1];
             if (this.point.y === first.y || this.point.y === last.y ) {
-              return this.point.x + ":<br/>" + Highcharts.numberFormat(this.point.y, 1, ",", " ") + "";
+              return "<span style='color: " + this.point.color + "'> " + Highcharts.numberFormat(this.point.y, 1, ",", " ") + "</span>";
             }
             return "";
           }
