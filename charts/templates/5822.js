@@ -21,7 +21,7 @@
 		                enabled: true,
 		                //crop: false,
 		                //inside: false,
-		                //distance: -50,
+		                distance: 10,
 		                format: '{point.percentage:.1f} %',
 		                style: {
 		                    color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'

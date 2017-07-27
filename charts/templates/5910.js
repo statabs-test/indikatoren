@@ -7,19 +7,54 @@
       "data":{
       	"switchRowsAndColumns": true
       },
+      xAxis: {
+          type: "category"
+      },
       "series": [ 
           {
               innerSize: '20%',
-              id: 0
+              id: 0, 
+              allowPointSelect: false,
+       		  dataLabels: {
+                enabled: true,
+                distance: -70,
+                format: "{point.percentage:,.0f}%",
+                formatter: function(){
+                    console.log(this);
+                    return /*this.series.name; + ":<br/>" + */this.point.percentage;
+                },
+                style: {
+                    color: 'black', 
+                    textOutline: "0px black", 
+                    fontWeight: "normal", 
+                    fontSize: "12px"
+                },
+      		}
           }, 
           {
               innerSize: '60%',
               linkedTo: ':previous',
-              showInLegend: false
+              showInLegend: false, 
+              allowPointSelect: false,
+     		  dataLabels: {
+                enabled: true,
+                distance: -30,
+                style: {
+                    color: 'black', 
+                    textOutline: "0px black", 
+                    fontWeight: "normal", 
+                    fontSize: "10px"
+                },
+                format: "{point.percentage:,.0f}%",
+                formatter: function(){
+                    return this.point.percentage;
+                }
+      		}
+
           }
       ],
     	"tooltip": {
-    		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.2f} km² ({point.percentage:.1f}%)</b><br/>',
+    		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.2f} km ({point.percentage:.1f}%)</b><br/>',
             "shared": false
       },
       plotOptions: {
@@ -34,8 +69,8 @@
                '#FF9655', 
                '#FFF263', 
                '#6AF9C4'
-             ]
-	      }
+             ],
+			}
       },
      chart: {
         //width: 1283,
@@ -45,6 +80,29 @@
         events:{
               load: function() {
                   this.credits.element.onclick = function() {};
+        
+                //Label the two rings of the donut chart
+				this.renderer.label(this.series[1].name, 105, 97).attr({
+					zIndex: 6,
+					class: 'pieLegend'
+				})        
+				.css({
+                    fontSize: '12px',
+                    fontWeight: 'bold'
+                })
+				.add();
+				this.renderer.label(this.series[0].name, 105, 147).attr({
+					zIndex: 6,
+					class: 'pieLegend'
+				})
+    			.css({
+                    fontSize: '12px',
+                    fontWeight: 'bold'
+                })
+
+				.add();
+        
+        
         
                 // Remove all pie slices with same color when clicking onto legend item
                 // see https://www.bountysource.com/issues/1055141-linkedto-on-pie-chart-s-data-points-for-e-g-setvisible
