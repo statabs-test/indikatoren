@@ -6,7 +6,8 @@
     }
   },
   "xAxis": {
-	"tickInterval": 2,
+	  tickInterval: 1,
+	  //padding: 0
   },
   "series": [
     {
@@ -22,8 +23,8 @@
           formatter: function() {
             var first = this.series.data[0];
             var last  = this.series.data[this.series.data.length - 1];
-            if (this.point.y === first.y || this.point.y === last.y ) {
-              return this.point.x + ":<br/>" + Highcharts.numberFormat(this.point.y, 1, ",", " ") + "";
+            if (this.point.x === first.x || this.point.x === last.x) {
+              return /*this.point.x + ":<br/>" + */ Highcharts.numberFormat(this.point.y, 1, ",", " ") + "";
             }
             return "";
           }
