@@ -35,7 +35,8 @@
 		                distance: 17,
 		                style: {
 		                    color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black',
-		                    fontSize: '12px' 
+		                    fontSize: '12px', 
+		                    fontWeight: 'normal'
 		                }
 	      }
       }

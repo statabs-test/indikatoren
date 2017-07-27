@@ -60,22 +60,22 @@
          colorAxis: {
                 dataClassColor: 'category',
                 dataClasses: [{
-                    to: 0,
+                    to: 0.2,
                     color: '#D3E2E4'
                 }, {
-                    from: 0,
-                    to: 20,
+                    from: 0.2,
+                    to: 0.4,
                     color: '#A8C3CA'
                 }, {
-                    from: 20,
-                    to: 50,
+                    from: 0.4,
+                    to: 0.6,
                      color: '#689199'
                 },{
-                    from: 50,
-                    to: 100,
+                    from: 0.6,
+                    to: 0.8,
                      color: '#246370'
                 },{
-                    from: 100,
+                    from: 0.8,
                     color: '#083038'
                 }], 
                 labels: {
@@ -350,8 +350,8 @@
 			        	zIndex: 6,
 			        	//class: 'pieLegend'
 			        }).add();
-	                var maxBubbleSize = 20;
-	                var minBubbleSize = 0.05
+	                var maxBubbleSize = 1;
+	                var minBubbleSize = 2
 	                chart.renderer.circle(443, 231, 0.5*pieSize(minBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
 					    fill: 'grey',
 					    'stroke-width': 0, 
