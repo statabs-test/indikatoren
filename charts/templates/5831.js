@@ -33,26 +33,30 @@
       "index": 0,
       "type": "column",
       "pointWidth": "15",
-      legendIndex: 0
+      legendIndex: 0,
     },
     {
       "color": "#a8c4cb",
       "index": 0,
       "type": "column",
       "pointWidth": "15",
-      legendIndex: 1
+      legendIndex: 1,
     },
-	{
+	  {
       "color": "#000000",
       "index": 1,
       "type": "line",
       "marker": {
         "enabled": false
       }, 
-
+      //remove series from tooltip
+      //enableMouseTracking: false,
+      tooltip: {
+        pointFormat: ''
+      },
       //"yAxis": 1,
       legendIndex: 3,
-      },
+    },
   ],  
   "tooltip": {
   	"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}</b><br/>',
