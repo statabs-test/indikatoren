@@ -1,8 +1,5 @@
 (function(){
     return {
-    "chart": {
-  		"width":665
-    	},
   "yAxis": [{
   	title: {
         text: null
@@ -132,7 +129,8 @@
     }
   ],  
   "chart": {
-    "alignTicks": false
+    "alignTicks": false,
+     "width":665
   }
 }
 }());

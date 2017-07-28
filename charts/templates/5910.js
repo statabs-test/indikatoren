@@ -1,11 +1,11 @@
 /* 
     global $
 */
-
 (function(){
     return {
     	legend:
     	{
+    	
     	itemMarginBottom: 2	
     	},
       "data":{
