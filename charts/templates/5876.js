@@ -1,7 +1,7 @@
 (function(){
     return {
    chart:{
-  		"width":640,
+  		//"width":665,
   	},
   plotOptions: {
         series: {
@@ -11,7 +11,9 @@
         }
   },
   "yAxis": {
-  	"min": -200,
+  	max: 900,
+  	tickInterval: 450,
+  	min:-100,
     "labels": {
       "format": "{value:,.0f}",
     }
@@ -24,7 +26,8 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-	"x": 40,
+	"x": 25,
+	itemWidth: 100,
     "itemStyle": {
     "fontWeight": "normal"
     }

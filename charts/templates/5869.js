@@ -11,10 +11,10 @@
 	    "enabled": true,
 	    "layout": "horizontal",
 	    "verticalAlign": "top",
-	    "align": "center",
-		//"x": 45,
+	    "align": "left",
+		"x": 10,
 		//"width": 340,
-		"itemWidth": 135,
+		"itemWidth": 120,
 	    "itemStyle": {
     	    "fontWeight": "normal", 
     	    fontSize: "12px"

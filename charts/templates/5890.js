@@ -23,6 +23,7 @@
     "verticalAlign": "top",
     "align": "left",
 	"x": 30,
+	itemWidth: 300, 
     "itemStyle": {
     "fontWeight": "normal"
     }
@@ -52,6 +53,18 @@
 
       //"yAxis": 1,
       legendIndex: 3,
+   //"dataLabels": {
+     //   style: {"fontSize": "12px", "fontWeight": "normal", "fontFamily": "Arial", color: 'black',}, 
+       // "enabled": true,
+          //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
+         // formatter: function() {
+           // var first  = this.series.data[this.series.data.length - 1];
+           // if (this.point.x === first.x) {
+            //  return /*this.point.x + ":<br/>" + */ Highcharts.numberFormat(this.point.y, 0, ",", " ") + "";
+           // }
+           // return "";
+         // }
+     // }
       },
   ],  
   "tooltip": {
@@ -60,7 +73,7 @@
     "shared": true
   },
   "chart": {   
-  	"width":640,
+  	"width":665,
     "type": "column",
     "inverted": false
   }

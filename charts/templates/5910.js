@@ -4,6 +4,10 @@
 
 (function(){
     return {
+    	legend:
+    	{
+    	itemMarginBottom: 2	
+    	},
       "data":{
       	"switchRowsAndColumns": true
       },
@@ -43,7 +47,7 @@
                     color: 'black', 
                     textOutline: "0px black", 
                     fontWeight: "normal", 
-                    fontSize: "10px"
+                    fontSize: "12px"
                 },
                 format: "{point.percentage:,.0f}%",
                 formatter: function(){

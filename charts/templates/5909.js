@@ -1,7 +1,7 @@
 (function(){
     return {
     "chart": {
-  		"width":640
+  		"width":665
     	},
   "yAxis": [{
   	title: {

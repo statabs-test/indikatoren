@@ -32,7 +32,7 @@
     "shared": false
   },
   "chart": {    
-  	"width":640,
+  	"width":665,
     "type": "column",
     "inverted": false,
   }

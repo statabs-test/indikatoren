@@ -4,7 +4,7 @@
             "borderColor": "#fbfbfb",
             "backgroundColor": "#fbfbfb",
             "width": 640,
-            "height": 308,
+            "height": 312,
             spacing: [2,2,2,2],
             "style": {
                 "fontFamily": "Arial"

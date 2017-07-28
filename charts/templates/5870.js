@@ -51,7 +51,7 @@
   },
   "chart": {    
     "type": "column",
-    	"width":640,
+    	"width":665,
   }
 }
 }());

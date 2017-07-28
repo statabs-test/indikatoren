@@ -84,7 +84,7 @@
     "shared": true
   },
   "chart": { 
-  	"width":640,
+  	"width":665,
   }
 };
 }());

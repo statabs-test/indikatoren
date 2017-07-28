@@ -15,7 +15,7 @@
       },     
       "color": "#8b2223",
        "dataLabels": {
-        style: {"fontSize": "10px", "fontWeight": "normal"}, 
+        style: {"fontSize": "12px", "fontWeight": "normal"}, 
         "enabled": true,
           //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
           formatter: function() {
