@@ -20,13 +20,15 @@
     "labels": {
       "format": "{value:,.0f}"
     },
-	"max": undefined
+	"max": 120000,
+	tickInterval: 60000
   },
   "legend": {
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
+     itemMarginBottom: 2,
     "x": 45,
 	"width": 200,
     "itemStyle": {
