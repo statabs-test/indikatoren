@@ -128,7 +128,7 @@
             <tspan>15 000</tspan>
         </text>
     </g>
-    <text x="10" class="highcharts-credits" y="410" cursor="default" color="#000" font-size="10">
-        <tspan>Quelle:</tspan>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik</tspan>
     </text>
 </svg>

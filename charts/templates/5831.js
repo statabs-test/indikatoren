@@ -21,6 +21,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
+    "itemWidth": 500,
     y: 40,
 	"x": 30,
     "itemStyle": {

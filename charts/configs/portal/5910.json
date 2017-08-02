@@ -48,7 +48,7 @@
           "color": "black",
           "textOutline": "0px black",
           "fontWeight": "normal",
-          "fontSize": "10px"
+          "fontSize": "12px"
         },
         "format": "{point.percentage:,.0f}%",
         "formatter": function (){
@@ -177,8 +177,8 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
-    "width": 485,
-    "height": 415,
+    "width": 320,
+    "height": 208,
     "spacing": [
       3,
       3,
@@ -260,7 +260,8 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "symbolRadius": 0
+    "symbolRadius": 0,
+    "itemMarginBottom": 2
   },
   "exporting": {
     "filename": "I.11.6.05902"

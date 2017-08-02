@@ -8,7 +8,7 @@
       "color": "#007A2F",
       "dataLabels": {
         "style": {
-          "fontSize": "10px",
+          "fontSize": "12px",
           "fontWeight": "normal"
         },
         "enabled": true,
@@ -141,8 +141,7 @@
         "color": "#000000"
       }
     },
-    "tickLength": 0,
-    "tickInterval": 1
+    "tickLength": 0
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",

@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Die Bruttogeschossfläche im Bereich Wohnen nahm zwischen 2010 und 2015 in allen Wohnviertel zu, mit Ausnahme der Altstadt Grossbasel. Am stärksten sind die Anstiege in den Wohnvierteln Wettstein (4,7%), St. Alban (4,8%), Kleinhüningen (12,4%) sowie Rosental (27,7%).",
-"erlaeuterungen":"",
+"erlaeuterungen":"Die Daten zur Bruttogeschossfläche werden fünfjährlich aktualisiert, letztmals 2015.",
 "template":"template001",
 "option":"options001",
 "visible":true,
@@ -24,6 +24,6 @@
 "parentId":null,
 "children":["5878"],
 "renderLink":[],
-"quellenangabe":[],
+"quellenangabe":["Planungsamt Basel-Stadt"],
 "externalLinks":[""]
 }

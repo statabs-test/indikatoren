@@ -188,6 +188,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
+    "itemMarginBottom": 2,
     "x": 40,
     "width": 200,
     "itemStyle": {

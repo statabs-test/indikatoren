@@ -158,7 +158,9 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "max": 120000,
+    "tickInterval": 60000
   },
   "navigation": {
     "menuItemStyle": {
@@ -188,6 +190,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
+    "itemMarginBottom": 2,
     "x": 45,
     "width": 200,
     "itemStyle": {

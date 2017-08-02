@@ -234,7 +234,7 @@
           4.982539729
         ]
       ],
-      "name": "Industrie_m3 und Gewerbe_m3 in Mio. m³"
+      "name": "Industrie_m3 und Gewerbe in Mio. m³"
     },
     {
       "color": "#000000",
@@ -366,7 +366,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
-    "width": 640,
+    "width": 665,
     "height": 208,
     "spacing": [
       2,
@@ -460,6 +460,7 @@
     "align": "left",
     "symbolRadius": 0,
     "x": 30,
+    "itemWidth": 400,
     "itemStyle": {
       "fontWeight": "normal"
     }

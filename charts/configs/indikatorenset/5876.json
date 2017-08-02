@@ -215,7 +215,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
-    "width": 640,
+    "width": 320,
     "height": 208,
     "spacing": [
       2,
@@ -253,7 +253,7 @@
     "shared": true
   },
   "yAxis": {
-    "min": -200,
+    "min": -100,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "title": {
@@ -269,7 +269,9 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "max": 900,
+    "tickInterval": 450
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -305,7 +307,8 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "x": 40,
+    "x": 25,
+    "itemWidth": 100,
     "itemStyle": {
       "fontWeight": "normal"
     }

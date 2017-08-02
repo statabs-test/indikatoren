@@ -15,7 +15,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"",
+"lesehilfe":"2015 legten in Basel-Stadt wohnhafte Personen pro Tag um Mittel mit dem Langsamverkehr (zu Fuss, Velo) fast 4 Kilometer zurück. Mit dem öffentlichen Verkehr sowie mit dem motorisierten Individualverkehr waren es je rund 12 Kilometer.",
 "erlaeuterungen":"",
 "template":"pie001",
 "option":"options001",
@@ -24,6 +24,6 @@
 "parentId":null,
 "children":["5910"],
 "renderLink":[],
-"quellenangabe":[],
+"quellenangabe":["Bundesamt für Raumentwicklung, Mikrozensus zum Verkehrsverhalten"],
 "externalLinks":[""]
 }

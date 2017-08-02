@@ -146,7 +146,8 @@
     },
     "symbolRadius": 0,
     "enabled": true,
-    "itemWidth": 135
+    "x": 10,
+    "itemWidth": 120
   },
   "exporting": {
     "filename": "I.02.1.05807"

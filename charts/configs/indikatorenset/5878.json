@@ -207,7 +207,7 @@
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 640,
+    "width": 665,
     "height": 208,
     "spacing": [
       3,
@@ -275,7 +275,9 @@
         "color": "#000000"
       },
       "format": "{value:,.0f} m²"
-    }
+    },
+    "max": 1500000,
+    "tickInterval": 750000
   },
   "navigation": {
     "menuItemStyle": {

@@ -8,7 +8,7 @@
       "color": "#83522E",
       "dataLabels": {
         "style": {
-          "fontSize": "10px",
+          "fontSize": "12px",
           "fontWeight": "normal"
         },
         "enabled": true,
@@ -165,7 +165,7 @@
         "fontSize": 10,
         "color": "#000000"
       },
-      "format": "{value:,.2f}"
+      "format": "{value:,.1f}"
     }
   },
   "xAxis": {

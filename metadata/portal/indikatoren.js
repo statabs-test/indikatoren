@@ -5239,7 +5239,9 @@ var indikatoren = [
 			"5864"
 		],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik BFS, Strukturerhebung (SE)"
+		],
 		"externalLinks": [
 			""
 		]
@@ -5317,7 +5319,9 @@ var indikatoren = [
 			"5866"
 		],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik BFS, Strukturerhebung (SE)"
+		],
 		"externalLinks": [
 			""
 		]
@@ -5344,7 +5348,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Hier haben wir noch keine Lesehilfe, da wir für diesen Indikatoren die Daten ausgewechselt haben.",
 		"erlaeuterungen": "",
 		"template": "pie001",
 		"option": "options001",
@@ -5382,8 +5386,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Wohnungsbestand ist innert 5 Jahren um gut 3 000 Einheiten oder 3% angewachsen. Den grössten relativen Zuwachs verzeichnete das Wohnviertel Rosental, in welchem in diesem Zeitraum netto über 600 neue Wohnungen entstanden sind.",
-		"erlaeuterungen": "Der starke Zuwachs im Wohnviertel Rosental ergab sich mitunter durch die Überbauung des Erlenmattareals.",
+		"lesehilfe": "Der Wohnungsbestand ist innert 5 Jahren um gut 3 000 Einheiten oder 3% angewachsen. Den grössten relativen Zuwachs verzeichnete das Wohnviertel Rosental, in welchem in diesem Zeitraum netto über 600 neue Wohnungen entstanden sind (Überbauung des Erlenmattareals.).",
+		"erlaeuterungen": "Es handelt sich um Bauwohnungen. Angaben bis 2012 basieren auf Fortschreibungsdaten per Ende Jahr auf Grundlage der eidegnössischen Gebäude- und Wohnungszählungen. Ab 2013 stammen die Daten vom kantonalen Gebäude- und Wohnungsregister GWR. Infolge stetiger Datenbereinigungen ergeben sich Korrekturen am Wohnungsbestand. Die jährliche Veränderung des Wohnungsbestandes seit 2012 ist somit nicht nur in der Bautätigkeit begründet.",
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
@@ -5393,7 +5397,9 @@ var indikatoren = [
 			"5872"
 		],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+		],
 		"externalLinks": [
 			""
 		]
@@ -5421,7 +5427,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Leerwohnungsquote sank seit 2006 kontinuierlich und erreichte 2014 mit 0,2% den tiefsten Wert. Seither steigt sie wieder leicht an.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Stichtag ist der 1. Juni. Nur Wohnungen, die für den eigentlichen Wohnungsmarkt in Betracht kommen, also ohne leere Wohnungen, die für den Abbruch oder Umbau bestimmt sind. Prozentangaben beziehen sich auf den Leerwohnungsbestand am Gesamtwohnungsbestande.",
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
@@ -5431,7 +5437,9 @@ var indikatoren = [
 			"5873"
 		],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Leerstandserhebung"
+		],
 		"externalLinks": [
 			""
 		]
@@ -5459,7 +5467,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2015 wie auch 2016 in Bettingen verzeichnet.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Stichtag ist der 1. Juni.",
 		"template": "mappie001",
 		"option": "options001",
 		"visible": true,
@@ -5469,7 +5477,9 @@ var indikatoren = [
 			"5874"
 		],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Leerstandserhebung"
+		],
 		"externalLinks": [
 			""
 		]
@@ -5537,7 +5547,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Bruttogeschossfläche im Bereich Wohnen nahm zwischen 2010 und 2015 in allen Wohnviertel zu, mit Ausnahme der Altstadt Grossbasel. Am stärksten sind die Anstiege in den Wohnvierteln Wettstein (4,7%), St. Alban (4,8%), Kleinhüningen (12,4%) sowie Rosental (27,7%).",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche werden fünfjährlich aktualisiert, letztmals 2015.",
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
@@ -5547,7 +5557,9 @@ var indikatoren = [
 			"5878"
 		],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Planungsamt Basel-Stadt"
+		],
 		"externalLinks": [
 			""
 		]
@@ -5574,8 +5586,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "",
+		"lesehilfe": "Über zwei Drittel der Einwohner in Basel-Stadt wohnen in einem Gebiet der ÖV-Güteklasse A und damit in einer Zone mit sehr guter Anbindung an den öffentlichen Verkehr. Gut 30% in einem Gebiet der Güteklasse B.",
+		"erlaeuterungen": "Die ÖV-Güteklassen sind ein Mass für die räumliche Erschliessungsqualität. Die Güteklassen werden zweistufig bestimmt: Die Art der Verkehrsmittel und das Kursintervall weisen jeder Haltestelle eine bestimmte Kategorie zu. Die Haltestellenkategorie in Verbindung mit der Distanz des Wohnorts einer Person zur Haltestelle ergeben dann die ÖV-Güteklasse für eine bestimmte Person. Folgender Link gibt detailliertere Auskunft zu den ÖV-Güteklassen: http://www.stadtplan.bs.ch/geoviewer/index.php?theme=340&cps=2614062.08,1267869.42,50000&nodefault&layers=stadtplan_grau_osm_50000,gueteklassen. Dieser Link zeigt die räumliche Verteilung der Güteklassen: http://map.geo.bs.ch/main/wsgi/file_proxy/GO_GueteklassenOeV/Definition_Gueteklassen_oeffentlicher_Verkehr.pdf",
 		"template": "pie001",
 		"option": "options001",
 		"visible": true,
@@ -5623,7 +5635,9 @@ var indikatoren = [
 			"5883"
 		],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik BFS, STATENT"
+		],
 		"externalLinks": [
 			""
 		]
@@ -5650,7 +5664,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "In der Altstadt Grossbasel gibt es am meisten Beschäftigte pro Hektar, nämlich rund 299. Am wenigsten Beschäftigte pro Flächeneinheit gibt es in der Gemeinde Bettingen mit unter 2 pro Hektar.",
 		"erlaeuterungen": "",
 		"template": "mappie001",
 		"option": "options001",
@@ -5661,7 +5675,9 @@ var indikatoren = [
 			"5884"
 		],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik BFS, STATENT"
+		],
 		"externalLinks": [
 			""
 		]
@@ -5689,7 +5705,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Bruttogeschossfläche im Bereich Arbeiten (Industrie und Gewerbe) ist zwischen 2010 und 2015 im Kanton Basel-Stadt leicht rückläufig. Die grössten Rückgänge verzeichnen die Wohnviertel Hirzbrunnen (-8,0%) und Breite (-5,6%). Hingegen sind Zunahmen in den Wohnvierteln Am Ring (3,7%) und Wettstein (6,9%) feststellbar.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche werden fünfjährlich aktualisiert, letztmals 2015.",
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
@@ -5699,7 +5715,9 @@ var indikatoren = [
 			"5885"
 		],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Planungsamt Basel-Stadt"
+		],
 		"externalLinks": [
 			""
 		]
@@ -5726,8 +5744,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "",
+		"lesehilfe": "Die Landwirtschaftsfläche hat seit 2007 um ca. 30 m² abgenommen.",
+		"erlaeuterungen": "Für die Auswertung wurden Daten aus folgenden Zeitständen ausgewertet: 02.01.2017, 04.01.2017, 06.01.2015, 07.01.2014, 05.03.2013, 06.02.2012, 05.01.2011, 21.01.2010, 18.03.2009, 06.02.2008, 27.08.2007.",
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
@@ -5851,8 +5869,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "",
+		"lesehilfe": "Der Wasserverbrauch hat von 1995 bis 2015 um 10.1 Mio. m³ abgenommen.",
+		"erlaeuterungen": "Die maximal mögliche Jahresproduktion bezieht sich auf heute (Grundwassser Lange Erle und Grundwasser Hard). Bei der maximal möglichen Jahresproduktion handelt es sich um eine theoretische Annahme seitens der Industriellen Werke Basel (IWB), die mit Unsicherheit behaftet ist. Aufgrund von Ausfällen der Anlage (z.B. Revision) oder günstigen Rahmenbedingungen (z.B. Grundwasserstände) steigt oder sinkt die jährlich maximal mögliche Jahresproduktion. Durch Wiederinbetriebnahme der momentan leeren Aktivkohlenbecken könnte die maximale Jahresproduktion gesteigert werden.",
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
@@ -5862,7 +5880,9 @@ var indikatoren = [
 			"5890"
 		],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Industrielle Werke Basel (IWB)"
+		],
 		"externalLinks": [
 			""
 		]
@@ -5889,7 +5909,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Die Wohnbevölkerung ist im Kanton Basel-Stadt zwischen 2005 und 2014 von 187463 auf 196471 gestiegen, was einem Anstieg von etwa 4,8% entspricht. Demgegenüber stieg die Zahl der Beschäftigten von 171743 auf 191441, eine Steigerung von 11,5%.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"option": "options001",
@@ -5900,7 +5920,9 @@ var indikatoren = [
 			"5909"
 		],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik BFS, STATENT"
+		],
 		"externalLinks": [
 			""
 		]
@@ -5927,7 +5949,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "2015 legten in Basel-Stadt wohnhafte Personen pro Tag um Mittel mit dem Langsamverkehr (zu Fuss, Velo) fast 4 Kilometer zurück. Mit dem öffentlichen Verkehr sowie mit dem motorisierten Individualverkehr waren es je rund 12 Kilometer.",
 		"erlaeuterungen": "",
 		"template": "pie001",
 		"option": "options001",
@@ -5938,7 +5960,9 @@ var indikatoren = [
 			"5910"
 		],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Bundesamt für Raumentwicklung, Mikrozensus zum Verkehrsverhalten"
+		],
 		"externalLinks": [
 			""
 		]
@@ -5977,7 +6001,10 @@ var indikatoren = [
 			"5911"
 		],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik",
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
 		"externalLinks": [
 			""
 		]

@@ -8,7 +8,7 @@
       "color": "#8b2223",
       "dataLabels": {
         "style": {
-          "fontSize": "10px",
+          "fontSize": "12px",
           "fontWeight": "normal"
         },
         "enabled": true,

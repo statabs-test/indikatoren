@@ -15,8 +15,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"",
+"lesehilfe":"Der Wasserverbrauch hat von 1995 bis 2015 um 10.1 Mio. m³ abgenommen.",
+"erlaeuterungen":"Die maximal mögliche Jahresproduktion bezieht sich auf heute (Grundwassser Lange Erle und Grundwasser Hard). Bei der maximal möglichen Jahresproduktion handelt es sich um eine theoretische Annahme seitens der Industriellen Werke Basel (IWB), die mit Unsicherheit behaftet ist. Aufgrund von Ausfällen der Anlage (z.B. Revision) oder günstigen Rahmenbedingungen (z.B. Grundwasserstände) steigt oder sinkt die jährlich maximal mögliche Jahresproduktion. Durch Wiederinbetriebnahme der momentan leeren Aktivkohlenbecken könnte die maximale Jahresproduktion gesteigert werden.",
 "template":"line001",
 "option":"options001",
 "visible":true,
@@ -24,6 +24,6 @@
 "parentId":null,
 "children":["5890"],
 "renderLink":[],
-"quellenangabe":[],
+"quellenangabe":["Industrielle Werke Basel (IWB)"],
 "externalLinks":[""]
 }

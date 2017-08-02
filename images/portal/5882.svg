@@ -36,7 +36,7 @@
             <tspan x="5" y="17" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">0.1 %</tspan><tspan x="5" y="17">0.1 %</tspan>
         </text>
     </g>
-    <g class="highcharts-legend" transform="translate(3 3)">
+    <g class="highcharts-legend" transform="translate(62 3)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="196" height="53"/>
         <g class="highcharts-legend-item highcharts-pie-series highcharts-color-0">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">

@@ -1,31 +1,31 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 208" font-family="Arial" font-size="12">
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 665 208" font-family="Arial" font-size="12">
     <defs>
         <clipPath id="a">
-            <path fill="none" d="M0 0h593v86H0z"/>
+            <path fill="none" d="M0 0h618v86H0z"/>
         </clipPath>
     </defs>
-    <rect fill="#fbfbfb" class="highcharts-background" width="640" height="208" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M44 48h593v86H44z"/>
+    <rect fill="#fbfbfb" class="highcharts-background" width="665" height="208" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M44 48h618v86H44z"/>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M71.5 48v86m28-86v86m29-86v86m28-86v86m28-86v86m28-86v86m29-86v86m28-86v86m28-86v86m28-86v86m29-86v86m28-86v86m28-86v86m28-86v86m29-86v86m28-86v86m28-86v86m28-86v86m29-86v86m28-86v86m28-86v86m-593-86v86"/>
+        <path fill="none" class="highcharts-grid-line" d="M72.5 48v86m30-86v86m29-86v86m30-86v86m29-86v86m30-86v86m29-86v86m29-86v86m30-86v86m29-86v86m30-86v86m29-86v86m30-86v86m29-86v86m29-86v86m30-86v86m29-86v86m30-86v86m29-86v86m30-86v86m29-86v86m-618-86v86"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#B9CFD7" stroke-width=".5" class="highcharts-grid-line" d="M44 134.25h593m-593-43h593M44 47.75h593"/>
+        <path fill="none" stroke="#B9CFD7" stroke-width=".5" class="highcharts-grid-line" d="M44 134.25h618m-618-43h618M44 47.75h618"/>
     </g>
-    <path fill="none" class="highcharts-plot-border" d="M44 48h593v86H44z"/>
+    <path fill="none" class="highcharts-plot-border" d="M44 48h618v86H44z"/>
     <g class="highcharts-axis highcharts-xaxis">
-        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M71.5 134v10m28-10v10m29-10v10m28-10v10m28-10v10m28-10v10m29-10v10m28-10v10m28-10v10m28-10v10m29-10v10m28-10v10m28-10v10m28-10v10m29-10v10m28-10v10m28-10v10m28-10v10m29-10v10m28-10v10m29-10v10m-594-10v10"/>
-        <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width=".5" d="M44 134.25h593"/>
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M72.5 134v10m30-10v10m29-10v10m30-10v10m29-10v10m30-10v10m29-10v10m29-10v10m30-10v10m29-10v10m30-10v10m29-10v10m30-10v10m29-10v10m29-10v10m30-10v10m29-10v10m30-10v10m29-10v10m30-10v10m29-10v10m-618-10v10"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width=".5" d="M44 134.25h618"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
         <path fill="none" class="highcharts-axis-line" d="M44 48v86"/>
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(44 48)" clip-path="url(#a)">
-            <path fill="#CD9C00" class="highcharts-point" d="M6 7h7v80H6zm29 6h7v74h-7zm28 5h7v69h-7zm28 13h7v56h-7zm28-17h7v73h-7zm29 17h7v56h-7zm28-17h7v73h-7zm28 4h7v69h-7zm28 8h7v61h-7zm29 7h7v54h-7zm28 1h7v53h-7zm28-12h7v65h-7zm28 12h7v53h-7zm29-13h7v66h-7zm28 9h7v57h-7zm28 9h7v48h-7zm28-2h7v50h-7zm29 5h7v45h-7zm28-3h7v48h-7zm28-20h7v68h-7zm28-6h7v74h-7z"/>
+            <path fill="#CD9C00" class="highcharts-point" d="M7 7h8v80H7zm29 6h8v74h-8zm30 5h8v69h-8zm29 13h8v56h-8zm29-17h8v73h-8zm30 17h8v56h-8zm29-17h8v73h-8zm30 4h8v69h-8zm29 8h8v61h-8zm30 7h8v54h-8zm29 1h8v53h-8zm29-12h8v65h-8zm30 12h8v53h-8zm29-13h8v66h-8zm30 9h8v57h-8zm29 9h8v48h-8zm30-2h8v50h-8zm29 5h8v45h-8zm29-3h8v48h-8zm30-20h8v68h-8zm29-6h8v74h-8z"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(44 48)" clip-path="url(#a)">
-            <path fill="#83522E" class="highcharts-point" d="M15 10h7v77h-7zm28 6h7v71h-7zm28 5h7v66h-7zm29 10h7v56h-7zm28-15h7v71h-7zm28 16h7v55h-7zm28-15h7v70h-7zm29 3h7v67h-7zm28 7h7v60h-7zm28 7h7v53h-7zm28 1h7v52h-7zm29-9h7v61h-7zm28 8h7v53h-7zm28-12h7v65h-7zm28 9h7v56h-7zm29 8h7v48h-7zm28-2h7v50h-7zm28 4h7v46h-7zm28-1h7v47h-7zm28-21h7v68h-7zm29-7h7v75h-7z"/>
+            <path fill="#83522E" class="highcharts-point" d="M16 10h8v77h-8zm29 6h8v71h-8zm29 5h8v66h-8zm30 10h8v56h-8zm29-15h8v71h-8zm30 16h8v55h-8zm29-15h8v70h-8zm30 3h8v67h-8zm29 7h8v60h-8zm29 7h8v53h-8zm30 1h8v52h-8zm29-9h8v61h-8zm30 8h8v53h-8zm29-12h8v65h-8zm30 9h8v56h-8zm29 8h8v48h-8zm29-2h8v50h-8zm30 4h8v46h-8zm29-1h8v47h-8zm30-21h8v68h-8zm29-7h8v75h-8z"/>
         </g>
     </g>
     <text x="3" class="highcharts-title" y="14" color="#000" font-size="14" font-weight="700">
@@ -50,67 +50,67 @@
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="10">
-        <text x="62.119" transform="rotate(-90 62.119 146)" y="146">
+        <text x="62.714" transform="rotate(-90 62.714 146)" y="146">
             <tspan>Altstadt GB</tspan>
         </text>
-        <text x="90.357" transform="rotate(-90 90.357 146)" y="146">
+        <text x="92.143" transform="rotate(-90 92.143 146)" y="146">
             <tspan>Vorstädte</tspan>
         </text>
-        <text x="118.595" transform="rotate(-90 118.595 146)" y="146">
+        <text x="121.571" transform="rotate(-90 121.571 146)" y="146">
             <tspan>Am Ring</tspan>
         </text>
-        <text x="146.833" transform="rotate(-90 146.833 146)" y="146">
+        <text x="151" transform="rotate(-90 151 146)" y="146">
             <tspan>Breite</tspan>
         </text>
-        <text x="175.071" transform="rotate(-90 175.071 146)" y="146">
+        <text x="180.429" transform="rotate(-90 180.429 146)" y="146">
             <tspan>St. Alban</tspan>
         </text>
-        <text x="203.31" transform="rotate(-90 203.31 146)" y="146">
+        <text x="209.857" transform="rotate(-90 209.857 146)" y="146">
             <tspan>Gundeldingen</tspan>
         </text>
-        <text x="231.548" transform="rotate(-90 231.548 146)" y="146">
+        <text x="239.286" transform="rotate(-90 239.286 146)" y="146">
             <tspan>Bruderholz</tspan>
         </text>
-        <text x="259.786" transform="rotate(-90 259.786 146)" y="146">
+        <text x="268.714" transform="rotate(-90 268.714 146)" y="146">
             <tspan>Bachletten</tspan>
         </text>
-        <text x="288.024" transform="rotate(-90 288.024 146)" y="146">
+        <text x="298.143" transform="rotate(-90 298.143 146)" y="146">
             <tspan>Gotthelf</tspan>
         </text>
-        <text x="316.262" transform="rotate(-90 316.262 146)" y="146">
+        <text x="327.571" transform="rotate(-90 327.571 146)" y="146">
             <tspan>Iselin</tspan>
         </text>
-        <text x="344.5" transform="rotate(-90 344.5 146)" y="146">
+        <text x="357" transform="rotate(-90 357 146)" y="146">
             <tspan>St. Johann</tspan>
         </text>
-        <text x="372.738" transform="rotate(-90 372.738 146)" y="146">
+        <text x="386.429" transform="rotate(-90 386.429 146)" y="146">
             <tspan>Altstadt KB</tspan>
         </text>
-        <text x="400.976" transform="rotate(-90 400.976 146)" y="146">
+        <text x="415.857" transform="rotate(-90 415.857 146)" y="146">
             <tspan>Clara</tspan>
         </text>
-        <text x="429.214" transform="rotate(-90 429.214 146)" y="146">
+        <text x="445.286" transform="rotate(-90 445.286 146)" y="146">
             <tspan>Wettstein</tspan>
         </text>
-        <text x="457.452" transform="rotate(-90 457.452 146)" y="146">
+        <text x="474.714" transform="rotate(-90 474.714 146)" y="146">
             <tspan>Hirzbrunnen</tspan>
         </text>
-        <text x="485.69" transform="rotate(-90 485.69 146)" y="146">
+        <text x="504.143" transform="rotate(-90 504.143 146)" y="146">
             <tspan>Rosental</tspan>
         </text>
-        <text x="513.929" transform="rotate(-90 513.929 146)" y="146">
+        <text x="533.571" transform="rotate(-90 533.571 146)" y="146">
             <tspan>Matthäus</tspan>
         </text>
-        <text x="542.167" transform="rotate(-90 542.167 146)" y="146">
+        <text x="563" transform="rotate(-90 563 146)" y="146">
             <tspan>Klybeck</tspan>
         </text>
-        <text x="570.405" transform="rotate(-90 570.405 146)" y="146">
+        <text x="592.429" transform="rotate(-90 592.429 146)" y="146">
             <tspan>Kleinhüningen</tspan>
         </text>
-        <text x="598.643" transform="rotate(-90 598.643 146)" y="146">
+        <text x="621.857" transform="rotate(-90 621.857 146)" y="146">
             <tspan>Riehen</tspan>
         </text>
-        <text x="626.881" transform="rotate(-90 626.881 146)" y="146">
+        <text x="651.286" transform="rotate(-90 651.286 146)" y="146">
             <tspan>Bettingen</tspan>
         </text>
     </g>

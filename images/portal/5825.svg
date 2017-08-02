@@ -131,7 +131,7 @@
             <tspan>1 250 000 m²</tspan>
         </text>
     </g>
-    <text x="10" class="highcharts-credits" y="410" cursor="default" color="#000" font-size="10">
-        <tspan>Quelle:</tspan>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Planungsamt Basel-Stadt</tspan>
     </text>
 </svg>

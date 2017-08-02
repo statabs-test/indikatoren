@@ -20740,7 +20740,7 @@
           0.123194979224724
         ]
       ],
-      "name": "Differenz 2016 zu 2011"
+      "name": "Differenz 2014 zu 2011"
     },
     {
       "name": "Rhein",
@@ -21514,9 +21514,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: "
+    "text": "Quelle: Bundesamt für Statistik BFS, STATENT"
   },
   "colorAxis": {
     "min": 0,

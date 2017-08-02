@@ -128,7 +128,7 @@
   "legend": {
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left",
+    "align": "center",
     "useHTML": true,
     "itemStyle": {
       "fontWeight": "normal"
