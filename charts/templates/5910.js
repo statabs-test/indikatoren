@@ -3,10 +3,15 @@
 */
 (function(){
     return {
-    	legend:
-    	{
-    	
-    	itemMarginBottom: 2	
+      legend: {
+    	width: 118,
+    	margin: 0,
+    	padding: 0,
+    	useHTML: true, 
+    	itemMarginBottom: 2, 
+        "labelFormatter": function () {
+            return this.name.replace(' ', '<br/>');
+        }
     	},
       "data":{
       	"switchRowsAndColumns": true
@@ -16,12 +21,12 @@
       },
       "series": [ 
           {
-              innerSize: '20%',
+              innerSize: '10%',
               id: 0, 
               allowPointSelect: false,
        		  dataLabels: {
                 enabled: true,
-                distance: -70,
+                distance: -65,
                 format: "{point.percentage:,.0f}%",
                 formatter: function(){
                     console.log(this);
@@ -36,13 +41,13 @@
       		}
           }, 
           {
-              innerSize: '60%',
+              innerSize: '45%',
               linkedTo: ':previous',
               showInLegend: false, 
               allowPointSelect: false,
      		  dataLabels: {
                 enabled: true,
-                distance: -30,
+                distance: -32,
                 style: {
                     color: 'black', 
                     textOutline: "0px black", 
