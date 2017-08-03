@@ -11,7 +11,7 @@
 		"zoomType": "xy",
 		"width": 320,
     	"height": 208,
-    	spacing: [2,2,2,2],
+    	spacing: [6,3,6,3],
 		"style": {
 		 "fontFamily": "Arial"
 		},
