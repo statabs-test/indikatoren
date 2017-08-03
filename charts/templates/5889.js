@@ -36,7 +36,13 @@
   "chart": {      
     "type": "column",
     "inverted": false
-  }
+  },
+    plotOptions: {
+        series: {
+            pointPadding: 0,
+            borderWidth: 0,
+        }
+    }
 }
 }());
 

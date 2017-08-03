@@ -14,7 +14,8 @@
     }
   },
   "xAxis": {
-   "tickInterval": 1
+  	//startOnTick: true, 
+   "tickInterval": 2
   },
   "legend": {
     "enabled": true,

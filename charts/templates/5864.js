@@ -4,11 +4,11 @@
     "series": {
       pointPadding: 100,
       "pointWidth": 15,
-      "dataLabels": {
+      /*"dataLabels": {
         "style": {
           "fontSize": "10px"
         }
-      },
+      },*/
       "stacking": "normal"
     }
   },

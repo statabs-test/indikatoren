@@ -16,8 +16,8 @@
   },
   "series": [
   {"color": "#FABD24", "visible": true}, /* hellrot*/
-  {"color": "#B00000", "visible": true} /* dunkelrot */
-  ],
+  {"color": "#B00000", "visible": true}, /* dunkelrot */
+   ],
   "legend": {
     "enabled": true,
     "layout": "horizontal",
@@ -36,6 +36,12 @@
   	"width":665,
     "type": "column",
     "inverted": false
-  }
+  },
+  plotOptions: {
+        series: {
+            pointPadding: 0,
+            borderWidth: 0,
+        }
+    }
 }
 }());

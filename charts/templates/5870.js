@@ -3,11 +3,11 @@
   "plotOptions": {
     "series": {
       "pointWidth": 10,
-      "dataLabels": {
+      /*"dataLabels": {
         "style": {
           "fontSize": "10px"
         }
-      },
+      },*/
       "stacking": "normal"
     }
   },

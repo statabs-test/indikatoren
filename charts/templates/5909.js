@@ -131,6 +131,12 @@
   "chart": {
     "alignTicks": false,
      "width":665
-  }
+  },
+  plotOptions: {
+        series: {
+            pointPadding: 0,
+            borderWidth: 0,
+        }
+    }
 }
 }());

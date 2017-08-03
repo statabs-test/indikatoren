@@ -28,7 +28,7 @@
     },
     "title": {
         "style": {
-        "fontSize": "14px",
+        "fontSize": "10px",
         "fontWeight": "bold",
         "color": "#000000"
         },
@@ -89,7 +89,7 @@
         "enabled": true,
         "style": {
             "color": "#000000",
-            "fontSize": "10px",
+            "fontSize": "10",
             "cursor": "default"
         },
         "position": {
@@ -100,7 +100,7 @@
     },
     "legend": {
         "symbolRadius": 0,
-        fontSize: 10
+        itemStyle:{"fontSize": "10px"}
     },
     dataLabels: {
             enabled: false,

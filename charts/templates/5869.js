@@ -17,7 +17,7 @@
 		"itemWidth": 120,
 	    "itemStyle": {
     	    "fontWeight": "normal", 
-    	    fontSize: "12px"
+    	    fontSize: "11px"
 	    }
 	  },
       plotOptions: {
@@ -38,7 +38,7 @@
             distance: 5,
             style: {
                 color: 'black',
-                fontSize: '12px', 
+                fontSize: '11px', 
                 fontWeight: 'normal'
             }
 	      }
