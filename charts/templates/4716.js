@@ -1,6 +1,10 @@
-var chartOptions = {
+(function(){
+    return {
     "xAxis": {
-        "type": "category"
+        "type": "category", 
+        "labels": {
+            formatter: undefined
+        }
     },
     "yAxis": {
         "tickInterval": null,
@@ -42,5 +46,6 @@ var chartOptions = {
     {
         "inverted": true
     }
-};
+	}
+}());
  

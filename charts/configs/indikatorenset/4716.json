@@ -247,7 +247,9 @@
     "labels": {
       "rotation": 0,
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "width": 1,
+        "textOverflow": "none"
       }
     }
   },
@@ -285,7 +287,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "1.1.01 Materielle oder finanzielle Hilfeleistungen durch Arbeitskollegen, Freunde und Bekannte oder Nachbarn"
+    "text": "Materielle oder finanzielle Hilfeleistungen durch Arbeitskollegen, Freunde und Bekannte oder Nachbarn"
   },
   "subtitle": {
     "style": {
@@ -352,11 +354,14 @@
     "verticalAlign": "top",
     "itemMarginBottom": 5,
     "align": "left",
-    "useHTML": true,
+    "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal"
     },
     "symbolRadius": 0,
+    "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        },
     "x": 145,
     "y": 70,
     "itemWidth": 150

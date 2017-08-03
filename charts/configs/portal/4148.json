@@ -10,11 +10,11 @@
       "data": [
         [
           2010,
-          160312
+          160306
         ],
         [
           2011,
-          161634
+          161628
         ],
         [
           2012,
@@ -33,7 +33,7 @@
           165796
         ]
       ],
-      "name": "Einwohner mit Hauptwohnsitz über 18 Jahre"
+      "name": "Einwohner mit Hauptwohnsitz ab 18 Jahren"
     }
   ],
   "chart": {
@@ -62,7 +62,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "I.01.1.0025 Erwachsene Einwohner mit Hauptwohnsitz im Kanton Basel-Stadt"
+    "text": "Erwachsene Einwohner mit Hauptwohnsitz in Basel-Stadt"
   },
   "subtitle": {
     "style": {
@@ -78,7 +78,7 @@
     "shared": false
   },
   "yAxis": {
-    "min": 150000,
+    "min": 0,
     "title": {
       "style": {
         "color": "#000000",
@@ -92,8 +92,7 @@
       },
       "format": "{value:,.0f}"
     },
-    "max": 175000,
-    "tickInterval": 5000
+    "max": 175000
   },
   "xAxis": {
     "labels": {
@@ -143,6 +142,6 @@
     }
   },
   "exporting": {
-    "filename": "I.01.1.0025"
+    "filename": "I.01.1.4148"
   }
 }

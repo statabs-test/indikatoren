@@ -1,4 +1,5 @@
-var chartOptions = {
+(function(){
+    return {
   "yAxis": {
     "labels": {
       "format": "{value:,.0f}",
@@ -6,7 +7,7 @@ var chartOptions = {
     "min": 0
   },
   "xAxis": {
-    "tickInterval": 1
+    "type": "category"
   },
   "series": [
     {
@@ -44,4 +45,5 @@ var chartOptions = {
       }
     }
   }
-};
+	}
+}());

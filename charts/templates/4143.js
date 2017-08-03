@@ -1,4 +1,5 @@
-var chartOptions = {
+(function(){
+    return {
   "yAxis": [{
     "labels": {
       "format": "{value:,.0f}",
@@ -54,7 +55,11 @@ var chartOptions = {
       "color": "#cd9c00",
       "index": 1,
       "type": "line",
-      "yAxis": 1
+      "yAxis": 1, 
+      connectNulls: true,
+      tooltip: {
+        valueDecimals: 2
+      }
     }
   ],  
   "tooltip": {
@@ -65,5 +70,6 @@ var chartOptions = {
     "type": "line",
     "alignTicks": false
   }
-};
+	}
+}());
  

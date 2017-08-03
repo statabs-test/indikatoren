@@ -1,8 +1,16 @@
-var chartOptions = {
+(function(){
+    return {
   "plotOptions": {
     "series": {
       "stacking": null,
       "groupPadding": 0.05
+    }, 
+    line: {
+        tooltip: {
+          pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
+          shared: false
+        },
+        shadow: true
     }
   },
   "yAxis": [
@@ -51,7 +59,8 @@ var chartOptions = {
     "itemMarginBottom": 7,
     "align": "right",
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal", 
+      "width": 85
     }
   },
   "series": [
@@ -86,7 +95,7 @@ var chartOptions = {
       "yAxis": 1,
       "marker": {
 				"enabled": false
-			},
+			}
     },
     {
       "color": "#ffbb58",
@@ -125,7 +134,7 @@ var chartOptions = {
       "yAxis": 1,
       "marker": {
 				"enabled": false
-			},
+			}
     },
     {
       "color": "#923f8d",
@@ -142,4 +151,5 @@ var chartOptions = {
     "type": "column",
     "spacingBottom": 28    
   }
-};
+	}
+}());

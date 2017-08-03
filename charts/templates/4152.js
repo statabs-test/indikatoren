@@ -1,4 +1,5 @@
-var chartOptions = {
+(function(){
+    return {
   "plotOptions": {
     "series": {
       "dataLabels": {
@@ -21,8 +22,7 @@ var chartOptions = {
         "color": "#000000"
       }
     },
-    "min": 0,
-    "max": 2000
+    "min": 0
   },
   {
     "title": {
@@ -33,7 +33,7 @@ var chartOptions = {
       "text": null
     },
     "labels": {
-      "format": "{value:,.0f}%",
+      "format": "{value:,.1f}%",
       "style": {
         "color": "#000000"
       }
@@ -65,7 +65,10 @@ var chartOptions = {
       "color": "#cd9c00",
       "index": 1,
       "type": "line",
-      "yAxis": 1
+      "yAxis": 1, 
+      tooltip: {
+        valueDecimals: 1
+      }
     }
   ],  
   "tooltip": {
@@ -76,4 +79,5 @@ var chartOptions = {
     "marginTop": 75,
     "type": "line"
   }
-};
+	}
+}());

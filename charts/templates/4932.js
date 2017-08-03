@@ -1,4 +1,5 @@
-var chartOptions = {
+(function(){
+    return {
         "series": [
             {
                 "color": "#083038"
@@ -29,7 +30,8 @@ var chartOptions = {
         "y": 35,
         "itemWidth": 200,
         "itemStyle": {
-            "fontWeight": "normal"
+            "fontWeight": "normal",
+            "width": undefined
         }
     },          
     "plotOptions": 
@@ -38,6 +40,7 @@ var chartOptions = {
             "stacking": null
         }
     }
-};
+	}
+}());
 
  

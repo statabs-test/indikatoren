@@ -24,6 +24,8 @@ global indikatorensetData
 global indikatorensetNames
 global lazyRenderChartById
 
+global seedrandom
+
 */
 
 //holds config of each chart
@@ -54,11 +56,42 @@ $(document).ready(function(){
       $(deferred.resolve);
     })
   ).done(function(){
-      //if indikatorenset is loaded: make sure the data is loaded into var indikatoren
-      if (indikatorensetView) {indikatoren = indikatorensetData}
+      if (indikatorensetView) {
+        //if indikatorenset is loaded: make sure the data is loaded into var indikatoren
+        indikatoren = indikatorensetData;
+      }
+      else { 
+        //add daily changing random number to properties
+        Math.seedrandom(new Date().toLocaleDateString());
+        indikatoren = $.map(indikatoren, function(val, i){
+          val['randomNumber'] = Math.random();
+          return val;
+        });
+      }
       initializeFilterJS(indikatorenset);
   });  
 });
+
+
+//reset all filter criteria
+function resetPortalFilter(FJS, indikatorensetView){
+  if (indikatorensetView){
+    $('#searchbox').val('');
+    $("#stufe2_filter").prop('selectedIndex', 0);
+    $("#stufe1_filter").prop('selectedIndex', 0);
+    FJS.filter();
+  }
+  //portal view
+  else{
+    $('#searchbox').val('');
+    $("#thema_criteria :radio:first()").prop('checked', true);
+    $("#unterthema_filter").prop('selectedIndex', 0);
+    $("#schlagwort_filter option").prop('selected', true);
+    $("#schlagwort_filter").multiselect('selectAll', false).multiselect('updateButtonText');      
+    $("#raeumlicheGliederung_filter").multiselect('selectAll', false).multiselect('updateButtonText');
+    FJS.filter();
+  }
+}
 
 
 function initializeFilterJS(indikatorenset){
@@ -95,7 +128,7 @@ function initializeFilterJS(indikatorenset){
   }  
   else {
     //Portal view
-    sortOptions = {'kuerzel': 'asc'};
+    sortOptions = {'randomNumber': 'asc'};
     preparePortalView();    
     //define filter.js configuration 
     fjsConfig['template'] = '#indikator-template-carousel-portal';
@@ -108,13 +141,7 @@ function initializeFilterJS(indikatorenset){
 
     //reset all filter criteria
     $("#portal-reset-button").click(function(){
-      $('#searchbox').val('');
-      $("#thema_criteria :radio:first()").prop('checked', true);
-      $("#unterthema_filter").prop('selectedIndex', 0);
-      $("#schlagwort_filter option").prop('selected', true);
-      $("#schlagwort_filter").multiselect('selectAll', false).multiselect('updateButtonText');      
-      $("#raeumlicheGliederung_filter").multiselect('selectAll', false).multiselect('updateButtonText');
-      FJS.filter();
+      resetPortalFilter(FJS, false)
     });
   }  
 
@@ -136,22 +163,38 @@ function initializeFilterJS(indikatorenset){
   //only now display page
   $('body').show();
 
+
   //add event listener to render chart on modal show
   $("#lightbox").on('show.bs.modal', function (e) {    
     var targetId = $(e.relatedTarget).attr("indikator-id-data");
     lazyRenderChartById(targetId, undefined, indikatorensetView);
-  });
-
-  //add event listener to render chart on carousel slide
-  $('#lightbox').on('slide.bs.carousel', function (e) {
-      var targetId = $(e.relatedTarget).children().first().attr('indikator-id-data');
-      lazyRenderChartById(targetId, undefined, indikatorensetView);
-      //display chart number in indicator      
-      var currentNumber = $(e.relatedTarget).index() + 1;            
+    var targetItem = $('#container-' + targetId).parent();
+    var currentNumber = $('.item').index(targetItem) +1;
+    updateIndicatorText(currentNumber);
+  
+    //Update number of chart in slider
+    function updateIndicatorText(number){        
       var indicatorText = $('#carousel-indicators li').text();
       var lastNumberText = indicatorText.substring(0, indicatorText.indexOf(' /'));      
-      $('#carousel-indicators li').text(indicatorText.replace(lastNumberText, currentNumber));      
+      $('#carousel-indicators li').text(indicatorText.replace(lastNumberText, number));      
       $('#carousel-indicators li').removeClass('active');
+    }
+    
+    //add event listener to render chart on carousel slide
+    //only do this in here in order to prevent two events from happening when clicking on a non-active chart thumbnail (sliding and opening model)
+    $('#lightbox').on('slide.bs.carousel', function (e) {
+        var targetId = $(e.relatedTarget).children().first().attr('indikator-id-data');
+        lazyRenderChartById(targetId, undefined, indikatorensetView);
+        //display chart number in indicator      
+        var currentNumber = $(e.relatedTarget).index() + 1;    
+        updateIndicatorText(currentNumber);
+    });
+  });
+
+  //remove sliding event event handler when modal ist closed in order to prevent sliding event from also being triggered when clicking an a chart thumbnail
+  $("#lightbox").on('hide.bs.modal', function (e) {
+      //remove slide event handler
+      $('#lightbox').off('slide.bs.carousel');
   });
 }
 
@@ -336,6 +379,80 @@ function renderMultiselectDropdownFromJson(data, field, selector, sort){
 }
 
 
+//find index of chart with a given id
+function getIndexOfChart(chartId, charts){
+  var indexes = $.map(charts, function(obj, index) {
+    if(obj.id == chartId) {
+        return index;
+    }
+  });    
+  return indexes[0];
+}
+
+
+//slide carousel to a specified chart id
+function slideToLinkedChart(chartId, FJS, indikatorensetView){
+  var index = getIndexOfChart(chartId, getLastFjsResult());
+  if (index > -1){
+    $('.carousel').carousel(index);
+  }
+  else {
+    //get index of currently displayed chart
+    var currentIndex = $(".item.active").index();
+    //reset search filters
+    resetPortalFilter(FJS, indikatorensetView);
+    //find index of target chart
+    index = getIndexOfChart(chartId, getLastFjsResult());
+    if (index > -1){
+      //if index of current chart is same as index of target chart we have to mess with the "active" attribute in order to make sliding work
+      if (currentIndex == index){
+        //set active class on the last item (is set to first item by afterFilter function)
+        $(".item.active").removeClass("active");
+        $(".item:last-child").addClass("active");
+      }
+      //slide to target item
+      $('.carousel').carousel(index);
+    }
+    else {
+      console.log('No chart with id ' + chartId + ' found...');
+    }
+  }
+}
+
+
+//render the html required for links to other chart, kennzahlenset or external resources
+function renderLinksHTML(kennzahlenset, renderLink, externalLinks, indikatorensetView){
+  var returnText = "";
+  var displayLinkToIndikatorenset = (kennzahlenset && !indikatorensetView);
+  var displayRenderLink = (renderLink && renderLink.length && renderLink[0].length);
+  var displayExternalLinks = (externalLinks && externalLinks.length && externalLinks[0].length);
+  //any of the links need to be present 
+  if (displayLinkToIndikatorenset || displayRenderLink || displayExternalLinks ) {
+    returnText = " \
+        <div> \
+          <h1>Links</h1> \
+          <div class='lesehilfe'> \
+            <ul class='list-unstyled'>\
+        ";
+    // Only display Link to Indikatorenset if not already in Indikatorenset View
+    if (displayLinkToIndikatorenset) {
+      returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/>Dieser Indikator ist Bestandteil des Indikatorensets <a href='http://www.statistik.bs.ch/zahlen/indikatoren/sets/"+ kennzahlenset.toLowerCase().replace(" ", "-") + ".html' target='_blank'>" + kennzahlenset + "</a>.</li>";
+    }
+    if (displayRenderLink) {
+      returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/><a href='javascript:javascript:slideToLinkedChart(" + renderLink[0] + ", window.FJS, " + indikatorensetView + ")'>Andere Darstellungsform</a> dieser Daten</li>";
+    }
+    if (displayExternalLinks) {
+      returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/>" + externalLinks + "</li>";
+    }
+    returnText += " \
+            </ul> \
+          </div> \
+        </div> \
+        ";
+  }
+  return returnText;
+}
+
 //convert a normal html select given via its css selector to a multiselect dropdown
 function configureMultiselect(selector){
   var control = $(selector);
@@ -370,13 +487,18 @@ function configureMultiselect(selector){
 }
 
 
-//find index of a given _fid in the results array. if full-text search is used (search_text has some minimum length), FJS uses a different results array than if not. 
+//if full-text search is used (search_text has some minimum length), FJS uses a different results array than if not. 
+function getLastFjsResult(){
+  return (window.FJS.search_text.length > FJS.opts.search.start_length) ? window.FJS.search_result : window.FJS.last_result;
+}
+
+
+//find index of a given _fid in the results array. 
 //this is necessary for carousel since links to charts in the carousel contain the array index which changes upon paging. 
 function getIndexByFid(fid){
   //source: http://stackoverflow.com/questions/15997879/get-the-index-of-the-object-inside-an-array-matching-a-condition
   try{
-    var results = (window.FJS.search_text.length > FJS.opts.search.start_length) ? window.FJS.search_result : window.FJS.last_result;
-    var indexes = $.map(results, function(obj, index) {
+    var indexes = $.map(getLastFjsResult(), function(obj, index) {
       if(obj._fid == fid) {
           return index;
       }

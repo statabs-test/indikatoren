@@ -88,8 +88,13 @@
     "labels": {
       "rotation": 0,
       "style": {
-        "color": "#000000"
-      }
+        "color": "#000000",
+        "width": 1,
+        "textOverflow": "none"
+      },
+      "formatter": function () {
+            	return this.value.replace(" ", "<br/>");
+            }
     }
   },
   "chart": {
@@ -125,7 +130,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "1.1.05 Zusammensetzung des Freundeskreises"
+    "text": "Zusammensetzung des Freundeskreises"
   },
   "subtitle": {
     "style": {
@@ -195,9 +200,13 @@
     "align": "right",
     "useHTML": true,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "width": 150
     },
-    "symbolRadius": 0
+    "symbolRadius": 0,
+    "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        }
   },
   "exporting": {
     "filename": "I.50.3.0001"

@@ -1,4 +1,5 @@
-var template = {
+(function(){
+    return {
     "chart": {		
         "events":{
             "load": function() {
@@ -83,7 +84,12 @@ var template = {
         "labels": {
             "rotation": 0,
 			"style": {
-                "color": "#000000"
+                "color": "#000000",
+                "width": 1,
+                "textOverflow": "none"
+            },
+            "formatter": function() {
+            	return this.value.replace(" ", "<br/>");
             }
         }                
     },
@@ -112,8 +118,13 @@ var template = {
         "align": "right",
         "useHTML": true,
         "itemStyle": {
-            "fontWeight": "normal"
+            "fontWeight": "normal",
+            "width": 115
         },
-        "symbolRadius": 0
+        "symbolRadius": 0,
+        "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        }
     }    
-};
+	}
+}());

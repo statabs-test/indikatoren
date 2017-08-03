@@ -5,90 +5,181 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          0.0668579057
+          0.067261875
         ],
         [
           "Altstadt Kleinbasel",
-          0.0809649461
-        ],
-        [
-          "Rosental",
-          0.1000477595
+          0.0809476205
         ],
         [
           "Klybeck",
-          0.1186634144
+          0.1181823341
+        ],
+        [
+          "Rosental",
+          0.137886656
         ],
         [
           "Kleinhüningen",
-          0.1554053483
+          0.155087399
         ],
         [
           "Clara",
-          0.159590892
+          0.1596210662
         ],
         [
           "Matthäus",
-          0.165298029
+          0.1657748081
         ],
         [
           "Gundeldingen",
-          0.1773290506
+          0.1748682856
         ],
         [
           "Vorstädte",
-          0.1960120539
+          0.197906736
         ],
         [
           "Am Ring",
-          0.2397054857
-        ],
-        [
-          "Wettstein",
-          0.2653275562
+          0.2387369156
         ],
         [
           "St. Johann",
-          0.2714893465
+          0.2711032949
         ],
         [
-          "Gotthelf",
-          0.3233909016
+          "Wettstein",
+          0.2812191425
         ],
         [
           "St. Alban",
-          0.3270115871
+          0.3217030196
+        ],
+        [
+          "Gotthelf",
+          0.3236973591
         ],
         [
           "Breite",
-          0.3598092406
+          0.3609948671
         ],
         [
           "Iselin",
-          0.3683075296
+          0.3644713433
         ],
         [
           "Bachletten",
-          0.4159264686
+          0.4165584987
         ],
         [
           "Hirzbrunnen",
-          0.5880951331
+          0.5900990651
         ],
         [
           "Bruderholz",
-          0.714828834
+          0.7146256637
         ],
         [
           "Riehen",
-          0.7966372996
+          0.7949819766
         ],
         [
           "Bettingen",
-          0.902597363
+          0.902449315
         ]
       ],
-      "name": "Anteil Grünflächen 2014",
+      "name": "Anteil Grünflächen",
+      "turboThreshold": 0
+    },
+    {
+      "visible": false,
+      "data": [
+        [
+          "Altstadt Grossbasel",
+          1
+        ],
+        [
+          "Altstadt Kleinbasel",
+          2
+        ],
+        [
+          "Klybeck",
+          3
+        ],
+        [
+          "Rosental",
+          4
+        ],
+        [
+          "Kleinhüningen",
+          5
+        ],
+        [
+          "Clara",
+          6
+        ],
+        [
+          "Matthäus",
+          7
+        ],
+        [
+          "Gundeldingen",
+          8
+        ],
+        [
+          "Vorstädte",
+          9
+        ],
+        [
+          "Am Ring",
+          10
+        ],
+        [
+          "St. Johann",
+          11
+        ],
+        [
+          "Wettstein",
+          12
+        ],
+        [
+          "St. Alban",
+          13
+        ],
+        [
+          "Gotthelf",
+          14
+        ],
+        [
+          "Breite",
+          15
+        ],
+        [
+          "Iselin",
+          16
+        ],
+        [
+          "Bachletten",
+          17
+        ],
+        [
+          "Hirzbrunnen",
+          18
+        ],
+        [
+          "Bruderholz",
+          19
+        ],
+        [
+          "Riehen",
+          20
+        ],
+        [
+          "Bettingen",
+          21
+        ]
+      ],
+      "name": "Rang",
       "turboThreshold": 0
     }
   ],
@@ -102,23 +193,18 @@
     },
     "labels": {
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "fontSize": "10px"
       }
     },
-    "tickColor": "#FFFFFF"
+    "tickColor": "#FFFFFF",
+    "tickInterval": 1
   },
   "chart": {
     "events": {
       "load": function () {                
-                this.credits.element.onclick = function() {
-                    /*
-                    window.open(
-                    "http://www.statistik.bs.ch",
-                    '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
-                    );
-                    */
-                };
-            }
+                    this.credits.element.onclick = function() {}
+                }
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
@@ -142,7 +228,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "I.02.1.0016 Anteil Grünflächen"
+    "text": "Anteil Grünflächen"
   },
   "subtitle": {
     "style": {
@@ -151,7 +237,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Stand: 2016",
     "align": "left"
   },
   "plotOptions": {
@@ -165,8 +251,8 @@
           "fontSize": "10px"
         },
         "formatter": function (){
-                    return Highcharts.numberFormat((this.y*100),1)+'%';                
-                }
+                        return Highcharts.numberFormat((this.y*100),1)+'%';                
+                    }
       }
     }
   },
@@ -180,20 +266,13 @@
     },
     "labels": {
       "formatter": function (){
-                return Highcharts.numberFormat((this.value*100),0)+'%';                
-            },
+                    return Highcharts.numberFormat((this.value*100),0)+'%';                
+                },
       "style": {
         "color": "#000000"
       }
     },
     "min": 0
-  },
-  "tooltip": {
-    "pointFormatter": function (){
-            //rank is calculated from index, thus data needs to be sorted by rank ascending.
-            return '<span style="color:{series.color}">' + this.series.data[this.x].name + '</span>: <b>'+Highcharts.numberFormat((this.y*100),2)+'%</b><br/>Rang <b>' + parseInt(this.x + 1) + '</b>'                
-        },
-    "shared": false
   },
   "credits": {
     "enabled": true,
@@ -214,7 +293,19 @@
     "enabled": false,
     "symbolRadius": 0
   },
+  "tooltip": {
+    "formatter": function (args){
+                var this_point_index = this.series.data.indexOf(this.point);
+                var other_series_index = this.series.index == 0 ? 1 : 0; // assuming 2 series
+                var other_series = args.chart.series[other_series_index];
+                var other_point = other_series.data[this_point_index];
+                return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
+                    this.point.name +': <b>' + Highcharts.numberFormat((this.y*100),1) + '%</b><br/>' + 
+                    'Rang <b>' + other_point.y + '</b>';
+            },
+    "shared": true
+  },
   "exporting": {
-    "filename": "I.02.1.0016"
+    "filename": "I.02.1.4832"
   }
 }

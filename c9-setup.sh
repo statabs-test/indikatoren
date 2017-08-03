@@ -4,7 +4,6 @@
 . ~/.bashrc
 
 rm -rf node_modules 
-git checkout node_modules/execfile 
 nvm install 6 
 #setting variables for highcharts export module, see https://github.com/highcharts/node-export-server
 echo 'export ACCEPT_HIGHCHARTS_LICENSE=YES' >> ~/.bashrc
@@ -16,4 +15,4 @@ echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select tr
 sudo apt-get install ttf-mscorefonts-installer
 
 npm install 
-npm run build
+#npm run build

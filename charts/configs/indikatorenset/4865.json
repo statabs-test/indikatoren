@@ -61,8 +61,13 @@
     "labels": {
       "rotation": 0,
       "style": {
-        "color": "#000000"
-      }
+        "color": "#000000",
+        "width": 1,
+        "textOverflow": "none"
+      },
+      "formatter": function () {
+            	return this.value.replace(" ", "<br/>");
+            }
     }
   },
   "chart": {
@@ -98,7 +103,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "3.1.03 Ehrenamtliche Tätigkeit \u002F Freiwilligenarbeit"
+    "text": "Ehrenamtliche Tätigkeit \u002F Freiwilligenarbeit"
   },
   "subtitle": {
     "style": {
@@ -168,9 +173,13 @@
     "align": "right",
     "useHTML": true,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "width": 115
     },
-    "symbolRadius": 0
+    "symbolRadius": 0,
+    "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        }
   },
   "exporting": {
     "filename": "I.50.4.0006"

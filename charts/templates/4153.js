@@ -1,7 +1,8 @@
-var chartOptions = {
+(function(){
+    return {
   "yAxis": {
     "min": 0,
-    "max": 10000000,
+    //"max": 10000000,
     "tickInterval": 2000000,
     "labels": {
       "format": "{value:,.0f}",
@@ -38,4 +39,5 @@ var chartOptions = {
       }
     }
   }
-};
+	}
+}());
