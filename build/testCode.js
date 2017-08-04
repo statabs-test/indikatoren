@@ -1,12 +1,27 @@
 //Include the exporter module
 const exporter = require('highcharts-export-server');
 
+var globalOptions = 
+    {   /*
+        "lang": {
+    		"decimalPoint": ",",
+            "thousandsSep": " ",
+            numericSymbols: null,
+            months: ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'],
+            weekdays: ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'],
+            shortMonths: ['Jan', 'Feb', 'Mär', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez'],
+            rangeSelectorFrom: "Von",
+            rangeSelectorTo: "Bis",
+            rangeSelectorZoom: "Zeitraum:"
+    	}
+    	*/
+    };
 
 //Export settings 
 var exportSettings = {
     type: 'svg',
-    infile: 'charts/configs/portal/4718.json',
-    constr: 'Chart',
+    infile: 'charts/configs/portal/5123.json',
+    constr: 'Map',
     outfile: 'test.svg'
 };
 

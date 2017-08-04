@@ -30,13 +30,23 @@ files.forEach(function(filepath){
     }
 });
 console.log('Saving json database...');
-saveToJsonFile('indikatoren', 'portal/', indikatoren, console);
-saveToJsonFile('kuerzelById', 'all/', kuerzelById, console);
-saveToJsonFile('idByKuerzel', 'all/',idByKuerzel, console);
-saveToJsonFile('templatesById', 'all/',templatesById, console);
+createFiles('indikatoren', 'portal/', indikatoren, console);
+createFiles('kuerzelById', 'all/', kuerzelById, console);
+createFiles('idByKuerzel', 'all/',idByKuerzel, console);
+createFiles('templatesById', 'all/',templatesById, console);
 //console.log('...done!');
 
+function createFiles(name, dir, obj, console){
+    saveToJsFile(name, dir, obj, console);
+    saveToJsonFile(name, dir, obj, console);
+}
+
+function saveToJsFile(name, dir, obj, console){
+    var jsFile = "var " +  name + " = " + JSON.stringify(obj, null, '\t') + ";";
+    fs.writeFile('metadata/' + dir +  name + '.js', jsFile);
+}
+
 function saveToJsonFile(name, dir, obj, console){
-    var jsonFile = "var " +  name + " = " + JSON.stringify(obj, null, '\t') + ";";
-    fs.writeFile('metadata/' + dir +  name + '.js', jsonFile);
-};
+    var jsonFile = JSON.stringify(obj, null, '\t');
+    fs.writeFile('metadata/' + dir +  name + '.json', jsonFile);
+}

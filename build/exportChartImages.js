@@ -1,10 +1,26 @@
 const exporter = require('highcharts-export-server');
-var execfile = require("execfile");
+//var execfile = require("execfile");
 var fs = require('fs');
 var path = require('path');
-var keysFilePath = path.join(__dirname, '../metadata/all/kuerzelById.js');
-var ctx = execfile(keysFilePath);
+
+/*
+//Hack to re-use existing web js code from within node.js, see http://stackoverflow.com/a/8808162
+var vm = require("vm");
+var execute = function(path, context) {
+  context = context || {};
+  var data = fs.readFileSync(path);
+  var result = vm.runInNewContext(data, context, path);
+  return {context: context, result: result};
+};
+*/
+
+/*
+var keysFilePath = path.join(__dirname, '../metadata/all/kuerzelById.json');
+var ctx = execute(keysFilePath);
 var kuerzelById = ctx.kuerzelById;
+*/
+
+var kuerzelById = JSON.parse(fs.readFileSync(path.join(__dirname, '../metadata/all/kuerzelById.json'), 'utf8'));
 
 var chartDetails = [];
 
@@ -47,26 +63,34 @@ function createPathArray(chartId, view){
     
     var configFile = fs.readFileSync(infilePath, 'utf8');
     var config = deserialize(configFile);
-    
-    return {config: config, outfilePath: outfilePath};
+    //decide if stockchart, map, or chart
+    var constr = config.isStock ? 'StockChart': (config.chart.type === 'map' ? 'Map' : 'Chart');
+    return {
+        config: config, 
+        infilePath: infilePath, 
+        outfilePath: outfilePath,
+        constr: constr
+    };
 }
 
 
 function createSvgImages(chartDetails){
     if (chartDetails.length > 0){
-        var chartEntry = chartDetails.pop();     
+        var chartEntry = chartDetails.pop();   
+        //console.log('Current infile: ' + chart.infile);
         var exportSettings = {
             type: 'svg',
-            options: chartEntry.config,
+            infile: chartEntry.infilePath,
+            constr: chartEntry.constr,
             outfile: chartEntry.outfilePath
         };
 
         exporter.export(exportSettings, function (err, res) {
-            if (err) {throw err};
+            if (err) {throw err}
             //The export result is now in res.
             //If the output is not PDF or SVG, it will be base64 encoded (res.data).
             //If the output is a PDF or SVG, it will contain a filename (res.filename).
-            console.log('File created: ' + res.filename);
+            console.log('File created: ' + res.filename + ', ' + chartDetails.length + ' to go...');
             createSvgImages(chartDetails);
         });
     }
