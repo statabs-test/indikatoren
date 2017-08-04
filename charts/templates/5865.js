@@ -1,5 +1,9 @@
 (function(){
     return {
+  "chart": { 
+  	"width":665,
+  	spacing: [10,3,3,3],
+  }
   plotOptions: {
         series: {
         	"stacking": "normal",
@@ -83,9 +87,6 @@
   "tooltip": {
     "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
     "shared": true
-  },
-  "chart": { 
-  	"width":665,
   }
 };
 }());

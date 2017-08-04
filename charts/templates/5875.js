@@ -1,7 +1,7 @@
 (function(){
     return {
    chart:{
-   	//spacing: [2,10,2,2],
+   	spacing: [10,3,3,3], 
    	//marginRight: 100,
    },
    "yAxis": {

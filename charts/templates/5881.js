@@ -1,5 +1,8 @@
 (function(){
-    return {
+    return {	
+    "chart": {
+		spacing: [10,3,3,3], /*top, right, bottom and left */ /*[3,3,3,3]*/
+	},
       xAxis: {
         "type": "category"
       },
