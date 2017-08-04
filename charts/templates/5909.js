@@ -9,7 +9,8 @@
       formatter: function(){
         return this.value/1000;
       }*/
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f}",
+      style:{color: "#000000"}
     },
     "min": 0,
     //"max": 3000,
@@ -28,7 +29,8 @@
         text: null
     },
     "labels": {
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f}",
+      style:{color: "#000000"}
     },
     "min": 0,
     //"tickInterval": 2,

@@ -11,7 +11,7 @@
 		"zoomType": "xy",
 		"width": 320,
     	"height": 208,
-    	spacing: [6,3,6,3],
+    	spacing: [3,3,3,3], /*top, right, bottom and left */
 		"style": {
 		 "fontFamily": "Arial"
 		},
@@ -86,7 +86,8 @@
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",
-    "symbolRadius": 0
+    "symbolRadius": 0,
+    itemStyle:{"fontSize": "10px"}
   }
 	};
 }());

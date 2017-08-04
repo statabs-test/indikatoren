@@ -13,7 +13,7 @@
   },
   "xAxis": {
     "type": "category",
-	"tickInterval": 2	
+	//"tickInterval": 2	
   },  
   "yAxis": {
   	max: 200000,
@@ -40,7 +40,7 @@
   ],
   "legend": {
     "enabled": true,
-    "x": 55,
+    "x": 40,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,

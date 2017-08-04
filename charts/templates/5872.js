@@ -1,6 +1,12 @@
 (function(){
     return {
-  
+   "chart": {
+  	"width":665,
+    "type": "column",
+    "inverted": false,
+       spacing: [3,3,10,3], /*top, right, bottom and left */ /*[3,3,3,3]*/
+
+  },
   "xAxis": {
     "type": "category",
     "labels": {
@@ -32,11 +38,6 @@
    tooltip: {
     "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
     "shared": false
-  },
-  "chart": {
-  	"width":665,
-    "type": "column",
-    "inverted": false,
   },
   plotOptions: {
         series: {

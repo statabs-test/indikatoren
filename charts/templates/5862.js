@@ -1,9 +1,11 @@
 (function(){
     return {	
 	"chart": {
-		spacing: [10,3,3,3], /*top, right, bottom and left */ /*[3,3,3,3]*/
+		spacing: [10,3,10,3], /*top, right, bottom and left */ /*[3,3,3,3]*/
 	},
    "yAxis": {
+	 max: 60,
+     tickInterval: 20,
     "labels": {
       "format": "{value:,.0f}",
     }

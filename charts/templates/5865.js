@@ -3,7 +3,7 @@
   "chart": { 
   	"width":665,
   	spacing: [10,3,3,3],
-  }
+  },
   plotOptions: {
         series: {
         	"stacking": "normal",

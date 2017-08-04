@@ -1,5 +1,11 @@
 (function(){
-    return {	
+    return {
+    "legend": {
+	    "itemMarginBottom": 4,
+	    verticalAlign: "top",
+	    y: -6
+  },
+
     "chart": {
 		spacing: [10,3,3,3], /*top, right, bottom and left */ /*[3,3,3,3]*/
 	},
