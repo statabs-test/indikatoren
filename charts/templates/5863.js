@@ -7,6 +7,7 @@
 
     return {
     	"legend": {
+    		useHTML: true,
 			"title": {
 				"text": null, 
 				style: {'fontWeight':' bold'}
@@ -61,22 +62,27 @@
                 dataClassColor: 'category',
                 dataClasses: [{
                     to: 10000,
-                    color: '#D3E2E4'
+                    color: '#D3E2E4',
+                    name:  '&nbsp;&nbsp;&nbsp;&nbsp;< &nbsp;&nbsp;&nbsp;10 000'
                 }, {
                     from: 10000,
                     to: 15000,
-                    color: '#A8C3CA'
+                    color: '#A8C3CA',
+                    name: "< 10 000 − 15 000"
                 }, {
                     from: 15000,
                     to: 20000,
-                     color: '#689199'
+                     color: '#689199',
+                    name: "< 15 000 − 20 000"
                 },{
                     from: 20000,
                     to: 30000,
-                     color: '#246370'
+                     color: '#246370',
+                    name: "< 20 000 −  30 000"
                 },{
                     from: 30000,
-                    color: '#083038'
+                    color: '#083038',
+                    name: "≥ 30 000"
                 }]
             },
 		"series": [

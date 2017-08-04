@@ -5,7 +5,7 @@
         "backgroundColor": "#fbfbfb",
  		"width": 320,
     	"height": 208,  
-    	spacing: [3,3,3,3], /*top, right, bottom and left */ /*[3,3,3,3]*/
+    	spacing: [3,3,3,3], /*top, right, bottom and left */
         "style": {
             "fontFamily": "Arial"
         },
