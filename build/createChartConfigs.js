@@ -114,7 +114,8 @@ function saveChartConfig(indikator, indikatorensetView, console){
 
     //disable animations and prevent exceptions
     options.chart = (options.chart || {});
-    options.chart.forExport = true;
+    //forExport = true  -- crashes highcharts export server for chart 4741
+    //options.chart.forExport = true;
     
     result = execute('charts/templates/' + indikator.template + '.js', {Highcharts: Highcharts, geojson_wohnviertel: geojson_wohnviertel, rheinData: rheinData, console: console});
     var template = result.result;
