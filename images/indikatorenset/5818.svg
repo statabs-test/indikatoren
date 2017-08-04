@@ -22,10 +22,10 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(90 82)" clip-path="url(#a)">
-            <path fill="#CD9C00" class="highcharts-point" d="M4 182h5v34H4zm19-24h5v58h-5zm18-44h5v102h-5zm18 31h5v71h-5zm19-44h5v115h-5zm18-29h5v144h-5zm18 50h5v94h-5zm19-35h5v129h-5zm18 67h5v62h-5zm18-66h5v128h-5zm19-14h5v142h-5zm18 118h5v24h-5zm18-9h5v33h-5zm19-18h5v51h-5zm18-14h5v65h-5zm18 28h5v37h-5zm19-80h5v117h-5zm18 70h5v47h-5zm18 29h5v18h-5zm19-179h5v197h-5zm18 183h5v14h-5z"/>
+            <path fill="#CD9C00" class="highcharts-point" d="M4 182h5v34H4zm18-24h6v58h-6zm18-44h6v102h-6zm19 31h5v71h-5zm18-44h6v115h-6zm18-29h6v144h-6zm19 50h5v94h-5zm18-35h6v129h-6zm18 67h6v62h-6zm19-66h5v128h-5zm18-14h6v142h-6zm18 118h6v24h-6zm19-9h5v33h-5zm18-18h6v51h-6zm18-14h6v65h-6zm19 28h5v37h-5zm18-80h6v117h-6zm18 70h6v47h-6zm19 29h5v18h-5zm18-179h6v197h-6zm18 183h6v14h-6z"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(90 82)" clip-path="url(#a)">
-            <path fill="#83522E" class="highcharts-point" d="M10 182h5v34h-5zm18-26h5v60h-5zm18-43h5v103h-5zm19 32h5v71h-5zm18-50h5v121h-5zm18-27h5v148h-5zm19 53h5v95h-5zm18-35h5v130h-5zm18 68h5v62h-5zm19-66h5v128h-5zm18-19h5v147h-5zm18 123h5v24h-5zm19-9h5v33h-5zm18-21h5v54h-5zm18-13h5v67h-5zm19 20h5v47h-5zm18-70h5v117h-5zm18 70h5v47h-5zm19 27h5v20h-5zm18-177h5v197h-5zm18 183h5v14h-5z"/>
+            <path fill="#83522E" class="highcharts-point" d="M9 182h6v34H9zm19-26h5v60h-5zm18-43h5v103h-5zm18 32h6v71h-6zm19-50h5v121h-5zm18-27h5v148h-5zm18 53h6v95h-6zm19-35h5v130h-5zm18 68h5v62h-5zm18-66h6v128h-6zm19-19h5v147h-5zm18 123h5v24h-5zm18-9h6v33h-6zm19-21h5v54h-5zm18-13h5v67h-5zm18 20h6v47h-6zm19-70h5v117h-5zm18 70h5v47h-5zm18 27h6v20h-6zm19-177h5v197h-5zm18 183h5v14h-5z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">

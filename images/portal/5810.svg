@@ -22,16 +22,16 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(59 82)" clip-path="url(#a)">
-            <path fill="#FABD24" class="highcharts-point" d="M5 196h5v20H5zm19-22h5v42h-5zm20-53h5v95h-5zm20 21h5v74h-5zm20-20h5v94h-5zm20-70h5v164h-5zm19 87h5v77h-5zm20-35h5v112h-5zm20 53h5v59h-5zm20-84h5v143h-5zm20-28h5v171h-5zm19 151h5v20h-5zm20-16h5v36h-5zm20-11h5v47h-5zm20-24h5v71h-5zm20 24h5v47h-5zm20-102h5v149h-5zm19 80h5v69h-5zm20 45h5v24h-5zm20-153h5v177h-5zm20 166h5v11h-5z"/>
+            <path fill="#FABD24" class="highcharts-point" d="M4 196h6v20H4zm20-22h6v42h-6zm20-53h6v95h-6zm19 21h6v74h-6zm20-20h6v94h-6zm20-70h6v164h-6zm20 87h6v77h-6zm20-35h6v112h-6zm19 53h6v59h-6zm20-84h6v143h-6zm20-28h6v171h-6zm20 151h6v20h-6zm20-16h6v36h-6zm19-11h6v47h-6zm20-24h6v71h-6zm20 24h6v47h-6zm20-102h6v149h-6zm20 80h6v69h-6zm20 45h5v24h-5zm19-153h6v177h-6zm20 166h6v11h-6z"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(59 82)" clip-path="url(#a)">
-            <path fill="#B00000" class="highcharts-point" d="M10 194h5v22h-5zm20-26h5v48h-5zm20-51h5v99h-5zm20 20h5v79h-5zm20-19h5v98h-5zm20-71h5v169h-5zm19 88h5v81h-5zm20-35h5v116h-5zm20 56h5v60h-5zm20-92h5v152h-5zm20-26h5v178h-5zm19 155h5v23h-5zm20-15h5v38h-5zm20-13h5v51h-5zm20-27h5v78h-5zm20 15h5v63h-5zm19-89h5v152h-5zm20 83h5v69h-5zm20 43h5v26h-5zm20-158h5v184h-5zm20 173h5v11h-5z"/>
+            <path fill="#B00000" class="highcharts-point" d="M10 194h6v22h-6zm20-26h6v48h-6zm20-51h5v99h-5zm19 20h6v79h-6zm20-19h6v98h-6zm20-71h6v169h-6zm20 88h6v81h-6zm20-35h6v116h-6zm19 56h6v60h-6zm20-92h6v152h-6zm20-26h6v178h-6zm20 155h6v23h-6zm20-15h6v38h-6zm19-13h6v51h-6zm20-27h6v78h-6zm20 15h6v63h-6zm20-89h6v152h-6zm20 83h6v69h-6zm19 43h6v26h-6zm20-158h6v184h-6zm20 173h6v11h-6z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
         <tspan>Bevölkerung am Jahresende nach Wohnviertel</tspan>
     </text>
-    <g class="highcharts-legend" transform="translate(80 45)">
+    <g class="highcharts-legend" transform="translate(50 45)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="131" height="25"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">

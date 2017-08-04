@@ -24,7 +24,7 @@
           0.465425531914
         ]
       ],
-      "name": "Weiss nicht\u002FKeine Angabe",
+      "name": "Weiss nicht\u002F Keine Angabe",
       "turboThreshold": 0
     },
     {
@@ -177,10 +177,10 @@
     "width": 320,
     "height": 208,
     "spacing": [
+      10,
       3,
-      0,
       3,
-      2
+      3
     ],
     "style": {
       "fontFamily": "Arial"

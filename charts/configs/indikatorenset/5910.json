@@ -1,12 +1,12 @@
 {
   "series": [
     {
-      "innerSize": "20%",
+      "innerSize": "10%",
       "id": 0,
       "allowPointSelect": false,
       "dataLabels": {
         "enabled": true,
-        "distance": -70,
+        "distance": -65,
         "format": "{point.percentage:,.0f}%",
         "formatter": function (){
                     console.log(this);
@@ -16,7 +16,7 @@
           "color": "black",
           "textOutline": "0px black",
           "fontWeight": "normal",
-          "fontSize": "12px"
+          "fontSize": "10px"
         }
       },
       "data": [
@@ -37,18 +37,18 @@
       "turboThreshold": 0
     },
     {
-      "innerSize": "60%",
+      "innerSize": "45%",
       "linkedTo": ":previous",
       "showInLegend": false,
       "allowPointSelect": false,
       "dataLabels": {
         "enabled": true,
-        "distance": -30,
+        "distance": -32,
         "style": {
           "color": "black",
           "textOutline": "0px black",
           "fontWeight": "normal",
-          "fontSize": "12px"
+          "fontSize": "10px"
         },
         "format": "{point.percentage:,.0f}%",
         "formatter": function (){
@@ -88,22 +88,22 @@
                   this.credits.element.onclick = function() {};
         
                 //Label the two rings of the donut chart
-				this.renderer.label(this.series[1].name, 105, 97).attr({
+				this.renderer.label("Innen: " + this.series[0].name, 800, 60).attr({
 					zIndex: 6,
 					class: 'pieLegend'
 				})        
 				.css({
-                    fontSize: '12px',
-                    fontWeight: 'bold'
+                    fontSize: '10px',
+                    fontWeight: 'normal'
                 })
 				.add();
-				this.renderer.label(this.series[0].name, 105, 147).attr({
+				this.renderer.label("Aussen: " +this.series[1].name, 800, 10).attr({
 					zIndex: 6,
 					class: 'pieLegend'
 				})
     			.css({
-                    fontSize: '12px',
-                    fontWeight: 'bold'
+                    fontSize: '10px',
+                    fontWeight: 'normal'
                 })
 
 				.add();
@@ -215,7 +215,7 @@
   },
   "title": {
     "style": {
-      "fontSize": "14px",
+      "fontSize": "10px",
       "fontWeight": "bold",
       "color": "#000000"
     },
@@ -224,7 +224,7 @@
   },
   "subtitle": {
     "style": {
-      "fontSize": "12px",
+      "fontSize": "10px",
       "fontWeight": "normal",
       "fontFamily": "Arial",
       "color": "#000000"
@@ -258,10 +258,18 @@
     "align": "right",
     "useHTML": true,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "fontSize": "10px"
     },
     "symbolRadius": 0,
-    "itemMarginBottom": 2
+    "width": 118,
+    "y": 25,
+    "margin": 0,
+    "padding": 0,
+    "itemMarginBottom": 2,
+    "labelFormatter": function () {
+            return this.name.replace(' ', '<br/>');
+        }
   },
   "exporting": {
     "filename": "I.11.6.05902"

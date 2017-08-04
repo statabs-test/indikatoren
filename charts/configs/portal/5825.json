@@ -206,7 +206,7 @@
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 640,
+    "width": 485,
     "height": 415,
     "spacingBottom": 40,
     "style": {
@@ -230,7 +230,8 @@
         "style": {
           "fontSize": "10px"
         }
-      }
+      },
+      "pointPadding": 0
     }
   },
   "title": {
@@ -297,7 +298,8 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 75,
+    "x": 70,
+    "y": 35,
     "itemStyle": {
       "fontWeight": "normal"
     }

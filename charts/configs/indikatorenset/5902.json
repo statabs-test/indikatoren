@@ -88,7 +88,7 @@
                   this.credits.element.onclick = function() {};
         
                 //Label the two rings of the donut chart
-				this.renderer.label(this.series[1].name, 105, 97).attr({
+				this.renderer.label("Innen: " + this.series[0].name, 285, 120).attr({
 					zIndex: 6,
 					class: 'pieLegend'
 				})        
@@ -97,7 +97,7 @@
                     fontWeight: 'bold'
                 })
 				.add();
-				this.renderer.label(this.series[0].name, 105, 147).attr({
+				this.renderer.label("Aussen: " + this.series[1].name, 285, 100).attr({
 					zIndex: 6,
 					class: 'pieLegend'
 				})

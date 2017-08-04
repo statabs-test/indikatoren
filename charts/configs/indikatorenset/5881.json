@@ -332,10 +332,10 @@
     "width": 320,
     "height": 208,
     "spacing": [
+      10,
       3,
-      0,
       3,
-      2
+      3
     ],
     "style": {
       "fontFamily": "Arial"
@@ -422,8 +422,8 @@
   "legend": {
     "reversed": true,
     "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 5,
+    "verticalAlign": "top",
+    "itemMarginBottom": 4,
     "align": "right",
     "useHTML": true,
     "itemStyle": {
@@ -433,7 +433,8 @@
     "symbolRadius": 0,
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
-        }
+        },
+    "y": -6
   },
   "exporting": {
     "filename": "I.50.1.05821"

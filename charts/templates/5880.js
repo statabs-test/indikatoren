@@ -10,7 +10,7 @@
   	//"min": 0,
   	//"max": 0.5,
     "labels": {
-      "format": "{value} %"
+      "format": "{value}%"
     }    
   },
   "series": [

@@ -118,10 +118,10 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      2,
-      2,
-      2,
-      2
+      10,
+      3,
+      10,
+      3
     ],
     "style": {
       "fontFamily": "Arial"
@@ -170,7 +170,9 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "max": 60,
+    "tickInterval": 20
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -204,7 +206,10 @@
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",
-    "symbolRadius": 0
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontSize": "10px"
+    }
   },
   "plotOptions": {},
   "exporting": {

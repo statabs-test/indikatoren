@@ -280,10 +280,10 @@
     "width": 665,
     "height": 208,
     "spacing": [
-      2,
-      2,
-      2,
-      2
+      10,
+      3,
+      3,
+      3
     ],
     "style": {
       "fontFamily": "Arial"
@@ -369,16 +369,18 @@
     "verticalAlign": "middle",
     "align": "right",
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
     "itemStyle": {
+      "fontSize": "10px",
       "fontWeight": "normal"
-    }
+    },
+    "itemMarginBottom": 5
   },
   "plotOptions": {
     "series": {
       "stacking": "normal",
       "pointPadding": 0,
-      "groupPadding": 0.5
+      "groupPadding": 0.5,
+      "borderWidth": 0
     }
   },
   "exporting": {

@@ -7,6 +7,12 @@
       "rotation": -90 
     } 
   },
+   plotOptions: {
+        series: {
+            pointPadding: 0,
+            borderWidth: 0,
+        }
+   },
   "yAxis": {
 	//"max": 100,
     "labels": {
@@ -22,7 +28,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 70,
+    "x": 40,
 	"y": 35,    
     "itemStyle": {
       "fontWeight": "normal"

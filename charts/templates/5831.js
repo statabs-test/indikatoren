@@ -4,7 +4,10 @@
         series: {
         	"stacking": "normal",
             pointPadding: 0,
-            groupPadding: 0.5, // exaclty overlaps columns
+            //groupPadding: 0, // exaclty overlaps columns
+            borderWidth: 0,
+           
+
         }
   },
   "yAxis": {
@@ -34,14 +37,14 @@
       "color": "#b475ab",
       "index": 0,
       "type": "column",
-      "pointWidth": "15",
+      "pointWidth": "10",
       legendIndex: 0,
     },
     {
       "color": "#a8c4cb",
       "index": 0,
       "type": "column",
-      "pointWidth": "15",
+      "pointWidth": "10",
       legendIndex: 1,
     },
 	  {

@@ -68,11 +68,12 @@
       "showInLegend": true,
       "dataLabels": {
         "enabled": true,
-        "format": "{point.percentage:.1f} %",
-        "distance": 17,
+        "softConnector": false,
+        "format": "{point.percentage:.1f}%",
+        "distance": 20,
         "style": {
           "color": "black",
-          "fontSize": "12px",
+          "fontSize": "10px",
           "fontWeight": "normal"
         }
       },
@@ -88,7 +89,7 @@
   },
   "title": {
     "style": {
-      "fontSize": "14px",
+      "fontSize": "10px",
       "fontWeight": "bold",
       "color": "#000000"
     },
@@ -97,7 +98,7 @@
   },
   "subtitle": {
     "style": {
-      "fontSize": "12px",
+      "fontSize": "10px",
       "fontWeight": "normal",
       "fontFamily": "Arial",
       "color": "#000000"
@@ -131,7 +132,8 @@
     "align": "center",
     "useHTML": true,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "fontSize": "10px"
     },
     "symbolRadius": 0,
     "enabled": true,

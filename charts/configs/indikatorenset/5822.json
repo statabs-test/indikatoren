@@ -64,7 +64,7 @@
       "dataLabels": {
         "enabled": true,
         "distance": 10,
-        "format": "{point.percentage:.1f} %",
+        "format": "{point.percentage:.1f}%",
         "style": {
           "color": "black"
         }
@@ -113,9 +113,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: "
+    "text": "Quelle: Bau- und Verkehrsdepartement des Kantons Basel-Stadt"
   },
   "legend": {
     "layout": "vertical",

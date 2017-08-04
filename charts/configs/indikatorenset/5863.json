@@ -21405,7 +21405,7 @@
 	                drawPies();
 	                
 	                //Add manually drawn legend
-	                 chart.renderer.label(chart.series[0].name, 340, 200)
+	                 chart.renderer.label(chart.series[0].name, 335, 200)
      				.css({
 	                    fontSize: '12px',
 	                    fontWeight: 'bold'
@@ -21560,27 +21560,32 @@
     "dataClassColor": "category",
     "dataClasses": [
       {
-        "to": 10000,
-        "color": "#D3E2E4"
+        "to": 9999,
+        "color": "#D3E2E4",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\u003C&nbsp;10 000"
       },
       {
         "from": 10000,
-        "to": 15000,
-        "color": "#A8C3CA"
+        "to": 14999,
+        "color": "#A8C3CA",
+        "name": "10 000 − 14 999"
       },
       {
         "from": 15000,
-        "to": 20000,
-        "color": "#689199"
+        "to": 19999,
+        "color": "#689199",
+        "name": "15 000 − 19 999"
       },
       {
         "from": 20000,
-        "to": 30000,
-        "color": "#246370"
+        "to": 29999,
+        "color": "#246370",
+        "name": "20 000 −  29 999"
       },
       {
         "from": 30000,
-        "color": "#083038"
+        "color": "#083038",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;30 000"
       }
     ]
   },
@@ -21602,6 +21607,7 @@
       },
       "text": null
     },
+    "useHTML": true,
     "layout": "vertical",
     "x": -185,
     "y": 3,
@@ -21609,16 +21615,7 @@
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    },
-    "labelFormatter": function () {
-                if (this.from === undefined) {
-                    return '< ' + Highcharts.numberFormat((this.to),0,"."," "); 
-                }
-                if (this.to === undefined) {
-                    return '≥ ' + Highcharts.numberFormat((this.from),0,"."," ");
-                }
-                return '      ' + Highcharts.numberFormat((this.from),0,"."," ") + ' - ' + Highcharts.numberFormat((this.to),0,"."," ");
-            }
+    }
   },
   "exporting": {
     "filename": "I.01.1.5202"

@@ -234,7 +234,7 @@
           4.982539729
         ]
       ],
-      "name": "Industrie_m3 und Gewerbe in Mio. m³"
+      "name": "Industrie m3 und Gewerbe in Mio. m³"
     },
     {
       "color": "#000000",
@@ -369,10 +369,10 @@
     "width": 665,
     "height": 208,
     "spacing": [
-      2,
-      2,
-      2,
-      2
+      3,
+      3,
+      3,
+      3
     ],
     "style": {
       "fontFamily": "Arial"
@@ -435,7 +435,7 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 2
+    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -459,17 +459,19 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "x": 30,
-    "itemWidth": 400,
     "itemStyle": {
+      "fontSize": "10px",
       "fontWeight": "normal"
-    }
+    },
+    "x": 30,
+    "itemWidth": 400
   },
   "plotOptions": {
     "series": {
       "stacking": "normal",
       "pointPadding": 0,
-      "groupPadding": 0.5
+      "groupPadding": 0.5,
+      "borderWidth": 0
     }
   },
   "exporting": {

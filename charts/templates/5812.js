@@ -1,6 +1,11 @@
 (function(){
     return {
-  
+   plotOptions: {
+        series: {
+            pointPadding: 0,
+            borderWidth: 0,
+        }
+   },
   "xAxis": {
     "type": "category",
     "labels": {
@@ -22,7 +27,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 45,
+    "x": 40,
 	"y": 35,    
     "itemStyle": {
       "fontWeight": "normal"

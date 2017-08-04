@@ -172,10 +172,10 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      2,
-      2,
-      2,
-      2
+      3,
+      3,
+      3,
+      3
     ],
     "style": {
       "fontFamily": "Arial"
@@ -259,12 +259,13 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
     "x": 25,
     "itemWidth": 1000,
-    "itemMarginBottom": 5,
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
+    "itemMarginBottom": 5
   },
   "plotOptions": {
     "line": {

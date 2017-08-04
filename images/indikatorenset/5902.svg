@@ -42,11 +42,11 @@
             <tspan x="5" y="15" class="highcharts-text-outline" stroke="#000" stroke-width="0" stroke-linejoin="round">43%</tspan><tspan x="5" y="15">43%</tspan>
         </text>
     </g>
-    <text x="3" y="15" font-weight="700" transform="translate(105 97)" class="pieLegend">
-        2015
+    <text x="3" y="15" font-weight="700" transform="translate(285 120)" class="pieLegend">
+        <tspan>Innen: 2010</tspan>
     </text>
-    <text x="3" y="15" font-weight="700" transform="translate(105 147)" class="pieLegend">
-        2010
+    <text x="3" y="15" font-weight="700" transform="translate(285 100)" class="pieLegend">
+        <tspan>Aussen: 2015</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(277 156)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="197" height="68"/>

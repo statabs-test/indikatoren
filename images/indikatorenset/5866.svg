@@ -1,49 +1,49 @@
 <svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 208" font-family="Arial" font-size="12">
     <defs>
         <clipPath id="a">
-            <path fill="none" d="M0 0h263v126H0z"/>
+            <path fill="none" d="M0 0h263v128H0z"/>
         </clipPath>
     </defs>
     <rect fill="#fbfbfb" class="highcharts-background" width="320" height="208" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M54 58h263v126H54z"/>
+    <path fill="none" class="highcharts-plot-background" d="M54 56h263v128H54z"/>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M97.5 58v126m44-126v126m44-126v126m43-126v126m44-126v126m44-126v126M53.5 58v126"/>
+        <path fill="none" class="highcharts-grid-line" d="M97.5 56v128m44-128v128m44-128v128m43-128v128m44-128v128m44-128v128M53.5 56v128"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#B9CFD7" stroke-width=".5" class="highcharts-grid-line" d="M54 184.25h263m-263-63h263m-263-63h263"/>
+        <path fill="none" stroke="#B9CFD7" stroke-width=".5" class="highcharts-grid-line" d="M54 184.25h263m-263-64h263M54 55.75h263"/>
     </g>
-    <path fill="none" class="highcharts-plot-border" d="M54 58h263v126H54z"/>
+    <path fill="none" class="highcharts-plot-border" d="M54 56h263v128H54z"/>
     <g class="highcharts-axis highcharts-xaxis">
         <path fill="none" class="highcharts-tick" stroke="#FFF" d="M97.5 184v10m44-10v10m44-10v10m43-10v10m44-10v10m45-10v10m-264-10v10"/>
         <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width=".5" d="M54 184.25h263"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M54 58v126"/>
+        <path fill="none" class="highcharts-axis-line" d="M54 56v128"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(54 58)" clip-path="url(#a)">
-            <path fill="#2f656b" class="highcharts-point" d="M14 31h15v32H14zm44-4h15v34H58zm44 0h15v34h-15zm44-1h15v35h-15zm44-4h15v37h-15zm44-1h15v38h-15z"/>
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(54 56)" clip-path="url(#a)">
+            <path fill="#2f656b" class="highcharts-point" d="M14 31h15v33H14zm44-4h15v34H58zm44 0h15v35h-15zm44-1h15v36h-15zm44-4h15v38h-15zm44 0h15v38h-15z"/>
         </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(54 58)" clip-path="url(#a)">
-            <path fill="#b00000" class="highcharts-point" d="M14 63h15v64H14zm44-2h15v66H58zm44 0h15v66h-15zm44 0h15v66h-15zm44-2h15v68h-15zm44 0h15v68h-15z"/>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(54 56)" clip-path="url(#a)">
+            <path fill="#b00000" class="highcharts-point" d="M14 64h15v65H14zm44-3h15v68H58zm44 1h15v67h-15zm44 0h15v67h-15zm44-2h15v69h-15zm44 0h15v69h-15z"/>
         </g>
     </g>
-    <text x="3" class="highcharts-title" y="14" color="#000" font-size="14" font-weight="700">
+    <text x="3" class="highcharts-title" y="10" color="#000" font-size="10" font-weight="700">
         <tspan>Anzahl Zupendler nach Herkunft</tspan>
     </text>
-    <g class="highcharts-legend" transform="translate(48 3)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="208" height="43"/>
+    <g class="highcharts-legend" transform="translate(43 3)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="208" height="41"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
+            <text x="21" y="13" color="#333" font-size="10" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
                 <tspan>Aus dem Ausland</tspan>
             </text>
-            <path fill="#2f656b" class="highcharts-point" d="M10 7h12v12H10z"/>
+            <path fill="#2f656b" class="highcharts-point" d="M11 7h10v10H11z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 19)">
+            <text x="21" y="13" color="#333" font-size="10" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 18)">
                 <tspan>Aus der Schweiz</tspan>
             </text>
-            <path fill="#b00000" class="highcharts-point" d="M10 23h12v12H10z"/>
+            <path fill="#b00000" class="highcharts-point" d="M11 22h10v10H11z"/>
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="10">
@@ -70,10 +70,10 @@
         <text x="39" y="190">
             <tspan>0</tspan>
         </text>
-        <text x="39" y="127">
+        <text x="39" y="126">
             <tspan>60 000</tspan>
         </text>
-        <text x="39" y="64">
+        <text x="39" y="62">
             <tspan>120 000</tspan>
         </text>
     </g>

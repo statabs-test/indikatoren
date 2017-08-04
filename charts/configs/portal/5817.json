@@ -201,7 +201,7 @@
   },
   "legend": {
     "symbolRadius": 0,
-    "enabled": true,
+    "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",

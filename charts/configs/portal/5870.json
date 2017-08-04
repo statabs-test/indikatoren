@@ -195,8 +195,7 @@
         "color": "#000000"
       }
     },
-    "tickColor": "#FFFFFF",
-    "tickInterval": 2
+    "tickColor": "#FFFFFF"
   },
   "chart": {
     "borderColor": "#fbfbfb",
@@ -236,7 +235,7 @@
   },
   "title": {
     "style": {
-      "fontSize": "14px",
+      "fontSize": "10px",
       "fontWeight": "bold",
       "color": "#000000"
     },
@@ -245,7 +244,7 @@
   },
   "subtitle": {
     "style": {
-      "fontSize": "12px",
+      "fontSize": "10px",
       "fontWeight": "normal",
       "fontFamily": "Arial",
       "color": "#000000"
@@ -283,7 +282,7 @@
     "enabled": true,
     "style": {
       "color": "#000000",
-      "fontSize": "10px",
+      "fontSize": "10",
       "cursor": "default"
     },
     "position": {
@@ -296,16 +295,16 @@
   },
   "legend": {
     "symbolRadius": 0,
-    "fontSize": 10,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
     "enabled": true,
-    "x": 55,
+    "x": 40,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
-    "align": "left",
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
+    "align": "left"
   },
   "dataLabels": {
     "enabled": false,

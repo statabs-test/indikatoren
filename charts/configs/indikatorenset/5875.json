@@ -8,7 +8,7 @@
       "color": "#83522E",
       "dataLabels": {
         "style": {
-          "fontSize": "12px",
+          "fontSize": "10px",
           "fontWeight": "normal"
         },
         "enabled": true,
@@ -83,10 +83,10 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      2,
-      2,
-      2,
-      2
+      10,
+      3,
+      3,
+      3
     ],
     "style": {
       "fontFamily": "Arial"
@@ -169,7 +169,10 @@
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",
-    "symbolRadius": 0
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontSize": "10px"
+    }
   },
   "plotOptions": {},
   "exporting": {

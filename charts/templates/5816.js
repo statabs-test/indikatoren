@@ -5,6 +5,7 @@
         	"stacking": "normal",
             pointPadding: 0,
             groupPadding: 0.5, // exaclty overlaps columns
+            borderWidth: 0
         }
   },
   "yAxis": {

@@ -281,10 +281,10 @@
     "width": 665,
     "height": 208,
     "spacing": [
-      2,
-      2,
-      2,
-      2
+      3,
+      3,
+      3,
+      3
     ],
     "style": {
       "fontFamily": "Arial"
@@ -322,7 +322,10 @@
         "text": null
       },
       "labels": {
-        "format": "{value:,.0f}"
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
       },
       "min": 0
     },
@@ -331,7 +334,10 @@
         "text": null
       },
       "labels": {
-        "format": "{value:,.0f}"
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
       },
       "min": 0,
       "opposite": true
@@ -373,11 +379,18 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
     "x": 45,
     "width": 300,
-    "itemMarginBottom": 5,
-    "itemStyle": {
-      "fontWeight": "normal"
+    "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "series": {
+      "pointPadding": 0,
+      "borderWidth": 0
     }
   },
   "exporting": {
