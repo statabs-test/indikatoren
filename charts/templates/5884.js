@@ -7,6 +7,7 @@
 
     return {
     	"legend": {
+    		useHTML: true,
 			"title": {
 				"text": null, 
 				style: {'fontWeight':' bold'}
@@ -14,22 +15,13 @@
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "right",
-			"x": -225,
+			"x": -215,
 			"y": 3,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
 			itemStyle: {
 				fontWeight: 'normal'
 				},
-            labelFormatter: function () {
-                if (this.from === undefined) {
-                    return '< ' + this.to;
-                }
-                if (this.to === undefined) {
-                    return '≥ ' + this.from;
-                }
-                return '      ' + this.from + ' - ' + this.to;
-            }	
 		},
 
 
@@ -60,27 +52,32 @@
          colorAxis: {
                 dataClassColor: 'category',
                 dataClasses: [{
-                    to: 0,
-                    color: '#D3E2E4'
+                    to: 9.999,
+                    color: '#D3E2E4',
+                     name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;<&nbsp;&nbsp;&nbsp;10,0"
                 }, {
-                    from: 0,
-                    to: 20,
-                    color: '#A8C3CA'
+                    from: 10,
+                    to: 49.999,
+                    color: '#A8C3CA',
+                    name: "&nbsp;10,0 − &nbsp;&nbsp;49,9"
                 }, {
-                    from: 20,
-                    to: 50,
-                     color: '#689199'
-                },{
                     from: 50,
-                    to: 100,
-                     color: '#246370'
+                    to: 99.999,
+                     color: '#689199',
+                     name: "&nbsp;50,0 − &nbsp;&nbsp;99,9"
                 },{
                     from: 100,
-                    color: '#083038'
+                    to: 149.999,
+                    color: '#246370',
+                    name: "100,0− 149,9"
+                },{
+                    from: 150,
+                    color: '#083038',
+                    name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp≥&nbsp150,0"
                 }], 
                 labels: {
 					"formatter": function () {
-						return Highcharts.numberFormat((this.value),0); 
+						return Highcharts.numberFormat((this.value),1); 
 					},	
                 	//format: "{value:,.0f}"
                 }
@@ -103,7 +100,7 @@
 				}, 
 				tooltip: {
 					pointFormatter: function(){
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '</b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),2) + '</b><br/>';
 					}
 				}
 			}, 
@@ -257,7 +254,7 @@
 		                        tooltip: {
 		                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {series.name} </span><br/>',
 		                            pointFormatter: function () {
-		                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),1) + '</b><br/>';
+		                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),2) + '</b><br/>';
 		                            }
 		                        },
 		                        data: [
@@ -332,7 +329,7 @@
 	                drawPies();
 	                
 	                //Add manually drawn legend
-	                 chart.renderer.label(chart.series[0].name, 340, 200)
+	                 chart.renderer.label(chart.series[0].name, 322, 200)
      				.css({
 	                    fontSize: '12px',
 	                    fontWeight: 'bold'
@@ -358,11 +355,11 @@
 					    zIndex: 6,
 					    class: 'pieLegend'
 					}).add();
-					chart.renderer.label(minBubbleSize, 455, 221).attr({
+					chart.renderer.label(Highcharts.numberFormat(minBubbleSize, 2, ",", " "), 455, 221).attr({
 						zIndex: 6,
 						class: 'pieLegend', 
 					}).add();
-	                chart.renderer.circle(443, 248, 0.5*pieSize(maxBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
+	                chart.renderer.circle(443, 248, 0.5*pieSize(Highcharts.numberFormat(maxBubbleSize, 0, ",", " "), minAbsNumber, maxAbsNumber, chart)).attr({
 					    fill: 'grey',
 					    'stroke-width': 0,
 					    zIndex: 6,

@@ -30,7 +30,7 @@
     	},    	
       "title": {
         "style": {
-          "fontSize": '14px',
+          "fontSize": '10px',
           "fontWeight": "bold",
           "color": "#000000"
         },
@@ -38,7 +38,7 @@
       },
       "subtitle": {
         "style": {
-          "fontSize": '12px',
+          "fontSize": '10px',
           "fontWeight": "normal",
           "fontFamily": "Arial",
           "color": "#000000"
@@ -79,7 +79,8 @@
         "align": "right",
         "useHTML": true,
         "itemStyle": {
-            "fontWeight": "normal"
+            "fontWeight": "normal",
+            "fontSize": "10px"
         },
         "symbolRadius": 0
       }

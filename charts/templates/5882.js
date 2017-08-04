@@ -5,7 +5,7 @@
 	  },
 	   legend:{
       	itemStyle: {
-		fontSize: "12px"
+		fontSize: "1opx"
 		}
       },
 	  "legend": {
@@ -31,11 +31,12 @@
         size: "100%",
 		dataLabels: {
 		                enabled: true,
-		                format: '{point.percentage:.1f} %',
-		                distance: 17,
+		                softConnector: false, 
+		                format: '{point.percentage:.1f}%',
+		                distance: 20,
 		                style: {
 		                    color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black',
-		                    fontSize: '12px', 
+		                    fontSize: '10px', 
 		                    fontWeight: 'normal'
 		                }
 	      }

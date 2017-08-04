@@ -22,7 +22,7 @@
 		                //crop: false,
 		                //inside: false,
 		                distance: 10,
-		                format: '{point.percentage:.1f} %',
+		                format: '{point.percentage:.1f}%',
 		                style: {
 		                    color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
 		                }

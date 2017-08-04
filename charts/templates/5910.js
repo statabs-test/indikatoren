@@ -5,10 +5,12 @@
     return {
       legend: {
     	width: 118,
+    	y: 25,
     	margin: 0,
     	padding: 0,
     	useHTML: true, 
     	itemMarginBottom: 2, 
+    	itemStyle:{"fontSize": "10px"},
         "labelFormatter": function () {
             return this.name.replace(' ', '<br/>');
         }
@@ -36,7 +38,7 @@
                     color: 'black', 
                     textOutline: "0px black", 
                     fontWeight: "normal", 
-                    fontSize: "12px"
+                    fontSize: "10px"
                 },
       		}
           }, 
@@ -52,7 +54,7 @@
                     color: 'black', 
                     textOutline: "0px black", 
                     fontWeight: "normal", 
-                    fontSize: "12px"
+                    fontSize: "10px"
                 },
                 format: "{point.percentage:,.0f}%",
                 formatter: function(){
@@ -91,22 +93,22 @@
                   this.credits.element.onclick = function() {};
         
                 //Label the two rings of the donut chart
-				this.renderer.label(this.series[1].name, 105, 97).attr({
+				this.renderer.label("Innen: " + this.series[0].name, 200, 60).attr({
 					zIndex: 6,
 					class: 'pieLegend'
 				})        
 				.css({
-                    fontSize: '12px',
-                    fontWeight: 'bold'
+                    fontSize: '10px',
+                    fontWeight: 'normal'
                 })
 				.add();
-				this.renderer.label(this.series[0].name, 105, 147).attr({
+				this.renderer.label("Aussen: " +this.series[1].name, 200, 45).attr({
 					zIndex: 6,
 					class: 'pieLegend'
 				})
     			.css({
-                    fontSize: '12px',
-                    fontWeight: 'bold'
+                    fontSize: '10px',
+                    fontWeight: 'normal'
                 })
 
 				.add();

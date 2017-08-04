@@ -21,16 +21,7 @@
 			symbolRadius: 0,
 			itemStyle: {
 				fontWeight: 'normal'
-				},
-            labelFormatter: function () {
-                if (this.from === undefined) {
-                    return '< ' + Highcharts.numberFormat((this.to),0,"."," "); 
-                }
-                if (this.to === undefined) {
-                    return '≥ ' + Highcharts.numberFormat((this.from),0,"."," ");
-                }
-                return '      ' + Highcharts.numberFormat((this.from),0,"."," ") + ' - ' + Highcharts.numberFormat((this.to),0,"."," ");
-            }	
+				}
 		},
 
 
@@ -61,29 +52,28 @@
          colorAxis: {
                 dataClassColor: 'category',
                 dataClasses: [{
-                    to: 10000,
+                    to: 9999,
                     color: '#D3E2E4',
-                    name:"Test"
-                    //name:  '&nbsp;&nbsp;&nbsp;&nbsp;< &nbsp;&nbsp;&nbsp;3'//"&nbsp;&nbsp;&nbsp;&nbsp;<10 000"
+                    name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;10 000"
                 }, {
                     from: 10000,
-                    to: 15000,
+                    to: 14999,
                     color: '#A8C3CA',
-                    name: '&nbsp;&nbsp;3 - &nbsp;10'//"&nbsp;&nbsp;&nbsp;&nbsp; < 10 000 − 15 000"
+                    name: "10 000 − 14 999"
                 }, {
                     from: 15000,
-                    to: 20000,
+                    to: 19999,
                     color: '#689199',
-                    name: "< 15 000 − 20 000"
+                    name: "15 000 − 19 999"
                 },{
                     from: 20000,
-                    to: 30000,
+                    to: 29999,
                     color: '#246370',
-                    name: "< 20 000 −  30 000"
+                    name: "20 000 −  29 999"
                 },{
                     from: 30000,
                     color: '#083038',
-                    name: "≥ 30 000"
+                    name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;30 000"
                 }]
             },
 		"series": [
@@ -333,7 +323,7 @@
 	                drawPies();
 	                
 	                //Add manually drawn legend
-	                 chart.renderer.label(chart.series[0].name, 340, 200)
+	                 chart.renderer.label(chart.series[0].name, 335, 200)
      				.css({
 	                    fontSize: '12px',
 	                    fontWeight: 'bold'

@@ -36,7 +36,7 @@
     },
     "subtitle": {
         "style": {
-        "fontSize": "12px",
+        "fontSize": "10px",
         "fontWeight": "normal",
         "fontFamily": "Arial",
         "color": "#000000"

@@ -7,6 +7,7 @@
 
     return {
     	"legend": {
+    		useHTML: true,
 			"title": {
 				"text": null, 
 				style: {'fontWeight':' bold'}
@@ -21,15 +22,6 @@
 			itemStyle: {
 				fontWeight: 'normal'
 				},
-            labelFormatter: function () {
-                if (this.from === undefined) {
-                    return '< ' + this.to;
-                }
-                if (this.to === undefined) {
-                    return '≥ ' + this.from;
-                }
-                return '      ' + this.from + ' - ' + this.to;
-            }	
 		},
 
 
@@ -60,23 +52,28 @@
          colorAxis: {
                 dataClassColor: 'category',
                 dataClasses: [{
-                    to: 0.4,
-                    color: '#D3E2E4'
+                    to: 0.39,
+                    color: '#D3E2E4',
+                    name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;0,40"
                 }, {
                     from: 0.4,
-                    to: 0.5,
-                    color: '#A8C3CA'
+                    to: 0.49,
+                    color: '#A8C3CA',
+                    name: "0,40 − 0,49"
                 }, {
-                    from: 0.5,
-                    to: 0.7,
-                     color: '#689199'
+                    from: 0.49,
+                    to: 0.69,
+                     color: '#689199',
+                     name: "0,50 − 0,69"
                 },{
                     from: 0.7,
-                    to: 1,
-                     color: '#246370'
+                    to: 0.99,
+                     color: '#246370',
+                     name: "0,70 − 0,99"
                 },{
                     from: 1,
-                    color: '#083038'
+                    color: '#083038',
+                    name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;1,00"
                 }], 
                 labels: {
 					"formatter": function () {

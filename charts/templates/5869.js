@@ -17,7 +17,7 @@
 		"itemWidth": 120,
 	    "itemStyle": {
     	    "fontWeight": "normal", 
-    	    fontSize: "11px"
+    	    fontSize: "10px"
 	    }
 	  },
       plotOptions: {
@@ -34,11 +34,12 @@
         size: "115%",
 	    dataLabels: {
             enabled: true,
-            format: '{point.percentage:.1f} %',
+            softConnector: false, 
+            format: '{point.percentage:.1f}%',
             distance: 5,
             style: {
                 color: 'black',
-                fontSize: '11px', 
+                fontSize: '10px', 
                 fontWeight: 'normal'
             }
 	      }

@@ -7,6 +7,7 @@
 
     return {
     	"legend": {
+    		useHTML: true,
 			"title": {
 				"text": null, 
 				style: {'fontWeight':' bold'}
@@ -21,15 +22,6 @@
 			itemStyle: {
 				fontWeight: 'normal'
 				},
-            labelFormatter: function () {
-                if (this.from === undefined) {
-                    return '< ' + this.to;
-                }
-                if (this.to === undefined) {
-                    return '≥ ' + this.from;
-                }
-                return '      ' + this.from + ' - ' + this.to;
-            }	
 		},
 
 
@@ -60,23 +52,28 @@
          colorAxis: {
                 dataClassColor: 'category',
                 dataClasses: [{
-                    to: 0.2,
-                    color: '#D3E2E4'
+                    to: 0.19,
+                    color: '#D3E2E4',
+                    name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;0,20"
                 }, {
                     from: 0.2,
-                    to: 0.4,
-                    color: '#A8C3CA'
+                    to: 0.39,
+                    color: '#A8C3CA',
+                    name: "0,2 − 0,39"
                 }, {
                     from: 0.4,
-                    to: 0.6,
-                     color: '#689199'
+                    to: 0.59,
+                     color: '#689199',
+                     name: "0,4 − 0,59"
                 },{
                     from: 0.6,
-                    to: 0.8,
-                     color: '#246370'
+                    to: 0.79,
+                    color: '#246370',
+                    name: "0,6 − 0,79"
                 },{
                     from: 0.8,
-                    color: '#083038'
+                    color: '#083038',
+                    name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;0,80"
                 }], 
                 labels: {
 					"formatter": function () {
@@ -332,7 +329,7 @@
 	                drawPies();
 	                
 	                //Add manually drawn legend
-	                 chart.renderer.label(chart.series[0].name, 340, 200)
+	                 chart.renderer.label(chart.series[0].name, 330, 200)
      				.css({
 	                    fontSize: '12px',
 	                    fontWeight: 'bold'
