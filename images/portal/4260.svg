@@ -1,4 +1,4 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" width="485" height="415" font-family="arial" font-size="12">
     <defs>
         <clipPath id="a">
             <path fill="none" d="M0 0h426v235H0z"/>
@@ -10,7 +10,7 @@
         <tspan>&gt; Indikator-Details</tspan>
     </text>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M133.5 109v235m0-235v235m85-235v235m0-235v235m86-235v235m0-235v235m85-235v235m0-235v235m85-235v235m0-235v235m-426-235v235m0-235v235"/>
+        <path fill="none" class="highcharts-grid-line" d="M133.5 109v235m85-235v235m86-235v235m85-235v235m85-235v235m-426-235v235"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
         <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M49 344.5h426m-426-59h426m-426-58h426m-426-59h426m-426-60h426"/>
@@ -26,13 +26,13 @@
         <path fill="none" class="highcharts-axis-line" d="M475 109v235"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(49 109)" clip-path="url(#a)">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined" transform="translate(49 109)" clip-path="url(#a)">
             <path fill="#FF8028" class="highcharts-point" d="M105 183h21v53h-21zm85 0h21v53h-21zm85 1h21v52h-21zm85 1h21v51h-21z"/>
         </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(49 109)" clip-path="url(#a)">
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined" transform="translate(49 109)" clip-path="url(#a)">
             <path fill="#B375AB" class="highcharts-point" d="M45 73h21v148H45zm85-6h21v154h-21zm86-2h21v157h-21zm85 2h21v157h-21zm85 0h21v158h-21z"/>
         </g>
-        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(49 109)" clip-path="url(#a)">
+        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined" transform="translate(49 109)" clip-path="url(#a)">
             <path fill="#923F8D" class="highcharts-point" d="M45 221h21v15H45zm85 0h21v15h-21zm86 1h21v14h-21zm85 2h21v12h-21zm85 1h21v11h-21z"/>
         </g>
     </g>

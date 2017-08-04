@@ -1,4 +1,4 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" width="485" height="415" font-family="arial" font-size="12">
     <defs>
         <clipPath id="a">
             <path fill="none" d="M0 0h422v254H0z"/>
@@ -10,7 +10,7 @@
         <tspan>&gt; Indikator-Details</tspan>
     </text>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M263.5 90v254m0-254v254m211-254v254m0-254v254M52.5 90v254m0-254v254"/>
+        <path fill="none" class="highcharts-grid-line" d="M263.5 90v254m211-254v254M52.5 90v254"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
         <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M53 344.5h422m-422-63h422m-422-64h422m-422-63h422m-422-65h422"/>
@@ -26,16 +26,16 @@
         <path fill="none" class="highcharts-axis-line" d="M475 90v254"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 90)" clip-path="url(#a)">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined" transform="translate(53 90)" clip-path="url(#a)">
             <path fill="#73B97C" class="highcharts-point" d="M49 0h51v247H49z"/>
         </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 90)" clip-path="url(#a)">
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined" transform="translate(53 90)" clip-path="url(#a)">
             <path fill="#68AB2B" class="highcharts-point" d="M49 247h51v8H49z"/>
         </g>
-        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 90)" clip-path="url(#a)">
+        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined" transform="translate(53 90)" clip-path="url(#a)">
             <path fill="#73B97C" class="highcharts-point" d="M112 0h51v235h-51zm211 0h51v215h-51z"/>
         </g>
-        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(53 90)" clip-path="url(#a)">
+        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined" transform="translate(53 90)" clip-path="url(#a)">
             <path fill="#68AB2B" class="highcharts-point" d="M112 235h51v20h-51zm211-20h51v40h-51z"/>
         </g>
     </g>
@@ -46,16 +46,16 @@
         <tspan>Kilometer und Prozent</tspan>
     </text>
     <g class="highcharts-stack-labels" text-anchor="middle" font-size=".8em" font-weight="400" color="#000">
-        <text x="137" style="text-outline:1px contrast" y="-5" transform="translate(53 90)">
+        <text x="137" y="-5" transform="translate(53 90)">
             <tspan x="137" y="-5" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">BL</tspan><tspan x="137" y="-5">BL</tspan>
         </text>
-        <text x="348" style="text-outline:1px contrast" y="-5" transform="translate(53 90)">
+        <text x="348" y="-5" transform="translate(53 90)">
             <tspan x="348" y="-5" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">BL</tspan><tspan x="348" y="-5">BL</tspan>
         </text>
-        <text x="74" style="text-outline:1px contrast" y="-5" transform="translate(53 90)">
+        <text x="74" y="-5" transform="translate(53 90)">
             <tspan x="74" y="-5" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">BS</tspan><tspan x="74" y="-5">BS</tspan>
         </text>
-        <text style="text-outline:1px contrast" visibility="hidden" transform="translate(53 90)">
+        <text visibility="hidden" transform="translate(53 90)">
             <tspan x="0" y="0" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">BS</tspan><tspan x="0" y="0">BS</tspan>
         </text>
     </g>

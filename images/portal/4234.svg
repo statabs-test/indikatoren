@@ -1,4 +1,4 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" width="485" height="415" font-family="arial" font-size="12">
     <defs>
         <clipPath id="a">
             <path fill="none" d="M0 0h438v162H0z"/>
@@ -13,7 +13,7 @@
         <tspan>&gt; Indikator-Details</tspan>
     </text>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M53.5 90v162m0-162v162m30-162v162m0-162v162m29-162v162m0-162v162m30-162v162m0-162v162m29-162v162m0-162v162m30-162v162m0-162v162m29-162v162m0-162v162m30-162v162m0-162v162m29-162v162m0-162v162m30-162v162m0-162v162m30-162v162m0-162v162m29-162v162m0-162v162m30-162v162m0-162v162m29-162v162m0-162v162m30-162v162m0-162v162"/>
+        <path fill="none" class="highcharts-grid-line" d="M53.5 90v162m30-162v162m29-162v162m30-162v162m29-162v162m30-162v162m29-162v162m30-162v162m29-162v162m30-162v162m30-162v162m29-162v162m30-162v162m29-162v162m30-162v162"/>
     </g>
     <g class="highcharts-grid highcharts-xaxis-grid highcharts-navigator-xaxis">
         <path fill="none" class="highcharts-grid-line" d="M50.5 311v40m195-40v40m195-40v40"/>
@@ -42,9 +42,9 @@
     </g>
     <g class="highcharts-scrollbar" transform="translate(37 352)">
         <rect fill="#f2f2f2" class="highcharts-scrollbar-track" rx="0" ry="0" height="14" width="438" stroke="#f2f2f2" y="-.5"/>
-        <g transform="translate(144 -.5)">
-            <rect fill="#ccc" class="highcharts-scrollbar-thumb" height="14" width="280" rx="0" ry="0" stroke="#ccc"/>
-            <path fill="none" d="M136.5 3.5v5.833m3-5.833v5.833m3-5.833v5.833" class="highcharts-scrollbar-rifles" stroke="#333"/>
+        <g transform="translate(145 -.5)">
+            <rect fill="#ccc" class="highcharts-scrollbar-thumb" height="14" width="279" rx="0" ry="0" stroke="#ccc"/>
+            <path fill="none" d="M136 3.5v5.833m3-5.833v5.833m3-5.833v5.833" class="highcharts-scrollbar-rifles" stroke="#333"/>
         </g>
         <rect fill="#e6e6e6" class="highcharts-scrollbar-button" stroke="#ccc" x="-.5" y="-.5" width="14" height="14" rx="0" ry="0"/>
         <path fill="#333" d="M8 4v6L5 7" class="highcharts-scrollbar-arrow"/>
@@ -56,11 +56,9 @@
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(37 90)" clip-path="url(#a)">
             <path fill="none" d="M31.989 114.48l14.764.216 14.764 4.536 14.764-1.08 14.764.864 14.764.432 14.764-.216 14.764 3.888 14.764 2.16 14.764 4.536 14.764-3.888 14.764 1.512 14.764 2.808 14.764-1.512 14.764 1.296 14.764 1.944 14.764 2.16 14.765-4.968 14.764 1.296 14.764 1.512 14.764-4.104 14.764 2.376 14.764-.864 14.764 1.728 14.764-1.512 14.764 1.512 14.764-1.944 14.764-1.296" class="highcharts-graph" stroke="#FF8028" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M21.989 114.48h10l14.764.216 14.764 4.536 14.764-1.08 14.764.864 14.764.432 14.764-.216 14.764 3.888 14.764 2.16 14.764 4.536 14.764-3.888 14.764 1.512 14.764 2.808 14.764-1.512 14.764 1.296 14.764 1.944 14.764 2.16 14.765-4.968 14.764 1.296 14.764 1.512 14.764-4.104 14.764 2.376 14.764-.864 14.764 1.728 14.764-1.512 14.764 1.512 14.764-1.944 14.764-1.296h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(37 90)" clip-path="url(#a)">
             <path fill="none" d="M-189.472 86.832l14.764 11.016 14.764-4.536 14.764-1.944 14.764-2.376 14.764-3.24 14.764-2.592 14.764-.432 14.764-2.16 14.764 5.832 14.765-3.672 14.764-6.264 14.764 1.728L2.46 63.288l14.764 13.608 14.764-4.536 14.764 3.456 14.764.648 14.764 2.592 14.764 2.808 14.764-5.616 14.764-1.296 14.764-.216 14.764-6.912 14.764-4.752 14.764 9.504 14.764-3.888h14.764l14.764 1.296 14.764-2.376 14.764 1.728 14.764-3.888 14.765 2.592 14.764-3.888 14.764 1.296 14.764 1.296 14.764-6.696 14.764-5.616 14.764 2.808 14.764-4.752 14.764 3.888 14.764.864" class="highcharts-graph" stroke="#B375AB" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M-199.472 86.832h10l14.764 11.016 14.764-4.536 14.764-1.944 14.764-2.376 14.764-3.24 14.764-2.592 14.764-.432 14.764-2.16 14.764 5.832 14.765-3.672 14.764-6.264 14.764 1.728L2.46 63.288l14.764 13.608 14.764-4.536 14.764 3.456 14.764.648 14.764 2.592 14.764 2.808 14.764-5.616 14.764-1.296 14.764-.216 14.764-6.912 14.764-4.752 14.764 9.504 14.764-3.888h14.764l14.764 1.296 14.764-2.376 14.764 1.728 14.764-3.888 14.765 2.592 14.764-3.888 14.764 1.296 14.764 1.296 14.764-6.696 14.764-5.616 14.764 2.808 14.764-4.752 14.764 3.888 14.764.864h10" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
         <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="translate(51 311)" clip-path="url(#b)">
             <path fill="none" d="M146.429 28.642l9.761.088 9.762 1.852 9.762-.44 9.762.352 9.762.176 9.762-.088 9.762 1.587 9.762.882 9.762 1.852 9.762-1.587 9.762.617 9.761 1.146 9.762-.617 9.762.53 9.762.793 9.762.882 9.762-2.029 9.762.53 9.762.617 9.762-1.676 9.762.97 9.761-.352 9.762.705 9.762-.617 9.762.617 9.762-.794L410 34.11" class="highcharts-graph" stroke="#FF8028" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
@@ -91,49 +89,49 @@
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
-        <text x="57.525" transform="rotate(-45 57.525 270)" y="270">
+        <text x="56.817" transform="rotate(-45 56.817 268)" y="268">
             <tspan>1988</tspan>
         </text>
-        <text x="87.053" transform="rotate(-45 87.053 270)" y="270">
+        <text x="86.346" transform="rotate(-45 86.346 268)" y="268">
             <tspan>1990</tspan>
         </text>
-        <text x="116.581" transform="rotate(-45 116.58 270)" y="270">
+        <text x="115.874" transform="rotate(-45 115.874 268)" y="268">
             <tspan>1992</tspan>
         </text>
-        <text x="146.109" transform="rotate(-45 146.109 270)" y="270">
+        <text x="145.402" transform="rotate(-45 145.402 268)" y="268">
             <tspan>1994</tspan>
         </text>
-        <text x="175.637" transform="rotate(-45 175.637 270)" y="270">
+        <text x="174.93" transform="rotate(-45 174.93 268)" y="268">
             <tspan>1996</tspan>
         </text>
-        <text x="205.165" transform="rotate(-45 205.165 270)" y="270">
+        <text x="204.458" transform="rotate(-45 204.458 268)" y="268">
             <tspan>1998</tspan>
         </text>
-        <text x="234.693" transform="rotate(-45 234.693 270)" y="270">
+        <text x="233.986" transform="rotate(-45 233.986 268)" y="268">
             <tspan>2000</tspan>
         </text>
-        <text x="264.221" transform="rotate(-45 264.221 270)" y="270">
+        <text x="263.514" transform="rotate(-45 263.514 268)" y="268">
             <tspan>2002</tspan>
         </text>
-        <text x="293.749" transform="rotate(-45 293.75 270)" y="270">
+        <text x="293.042" transform="rotate(-45 293.042 268)" y="268">
             <tspan>2004</tspan>
         </text>
-        <text x="323.277" transform="rotate(-45 323.277 270)" y="270">
+        <text x="322.57" transform="rotate(-45 322.57 268)" y="268">
             <tspan>2006</tspan>
         </text>
-        <text x="352.805" transform="rotate(-45 352.805 270)" y="270">
+        <text x="352.098" transform="rotate(-45 352.098 268)" y="268">
             <tspan>2008</tspan>
         </text>
-        <text x="382.334" transform="rotate(-45 382.334 270)" y="270">
+        <text x="381.626" transform="rotate(-45 381.626 268)" y="268">
             <tspan>2010</tspan>
         </text>
-        <text x="411.862" transform="rotate(-45 411.862 270)" y="270">
+        <text x="411.155" transform="rotate(-45 411.155 268)" y="268">
             <tspan>2012</tspan>
         </text>
-        <text x="441.39" transform="rotate(-45 441.39 270)" y="270">
+        <text x="440.683" transform="rotate(-45 440.683 268)" y="268">
             <tspan>2014</tspan>
         </text>
-        <text x="470.918" transform="rotate(-45 470.918 270)" y="270">
+        <text x="470.211" transform="rotate(-45 470.21 268)" y="268">
             <tspan>2016</tspan>
         </text>
     </g>
@@ -152,8 +150,8 @@
         </text>
     </g>
     <g class="highcharts-navigator">
-        <path fill="transparent" class="highcharts-navigator-mask-outside" d="M51 311h130v40H51z"/>
-        <path fill="rgba(102,133,194,0.3)" class="highcharts-navigator-mask-inside" cursor="ew-resize" d="M181 311h280v40H181z"/>
+        <path class="highcharts-navigator-mask-outside" fill="none" d="M51 311h130v40H51z"/>
+        <path fill="#6685C2" fill-opacity=".3" class="highcharts-navigator-mask-inside" cursor="ew-resize" d="M181 311h280v40H181z"/>
         <path fill="none" class="highcharts-navigator-outline" stroke="#ccc" d="M37 311.5h143.5v54h280v-54H475m-295 0h281"/>
         <path fill="#f2f2f2" d="M456.5 323.5h8v15h-8v-15m3 3.5v8m2-8v8" class="highcharts-navigator-handle highcharts-navigator-handle-right" stroke="#999" cursor="ew-resize"/>
         <path fill="#f2f2f2" d="M176.5 323.5h8v15h-8v-15m3 3.5v8m2-8v8" class="highcharts-navigator-handle highcharts-navigator-handle-left" stroke="#999" cursor="ew-resize"/>
