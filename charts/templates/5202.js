@@ -304,7 +304,7 @@
 	                
 	                
 	                //Add manually drawn legend
-	                   chart.renderer.label(chart.series[1].name, 264, 240)
+	                chart.renderer.label(chart.series[1].name, 264, 240)
      				.css({
 	                    fontSize: '12px',
 	                    fontWeight: 'bold'

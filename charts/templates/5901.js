@@ -50,7 +50,7 @@
   },
   "series": [
     {
-      "color": "#B375AB",
+      "color": "#FFBB58", // Bevölkerung
       "index": 0,
       "type": "column",
       pointPadding: 0,
@@ -61,7 +61,7 @@
 		   },
     },
     {
-      "color": "#2B0099",
+      "color": "#B00000", // Bevölkerung indexiert
       "index": 1,
       "type": "line",
       "yAxis": 1,
@@ -77,7 +77,7 @@
     //}
     },
      {
-      "color": "#C4AB91",
+      "color":  "#A8C3CA", // Beschäftigte
       "index": 0,
       "type": "column",
       pointPadding: 0,
@@ -89,7 +89,7 @@
 		   },
     },
     {
-      "color": "#3A2012",
+      "color":  "#246370", // Beschäftigte indexiert
       "index": 1,
       "type": "line",
       "yAxis": 1,

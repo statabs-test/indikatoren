@@ -9,8 +9,8 @@
         }
   },
   "yAxis": {
-  	//"max": 60,
-  	//tickInterval: 30,
+  	"max": 60,
+  	tickInterval: 20,
     "labels": {
       "format": "{value:,.0f}",
     }
@@ -54,18 +54,18 @@
 
       //"yAxis": 1,
       legendIndex: 3,
-   //"dataLabels": {
-     //   style: {"fontSize": "12px", "fontWeight": "normal", "fontFamily": "Arial", color: 'black',}, 
-       // "enabled": true,
-          //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
-         // formatter: function() {
-           // var first  = this.series.data[this.series.data.length - 1];
-           // if (this.point.x === first.x) {
-            //  return /*this.point.x + ":<br/>" + */ Highcharts.numberFormat(this.point.y, 0, ",", " ") + "";
-           // }
-           // return "";
-         // }
-     // }
+   "dataLabels": {
+	        style: {"fontSize": "12px", "fontWeight": "normal", "fontFamily": "Arial", color: 'black',}, 
+	       "enabled": true,
+	        //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
+	        formatter: function() {
+	        var first  = this.series.data[this.series.data.length - 1];
+	        if (this.point.x === first.x) {
+	        return /*this.point.x + ":<br/>" + */ Highcharts.numberFormat(this.point.y, 1, ",", " ") + "";
+	        }
+	        return "";
+	        }
+        }
       },
   ],  
   "tooltip": {
