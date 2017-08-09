@@ -304,6 +304,15 @@
 	                
 	                
 	                //Add manually drawn legend
+	                   chart.renderer.label(chart.series[1].name, 264, 240)
+     				.css({
+	                    fontSize: '12px',
+	                    fontWeight: 'bold'
+	                })
+	                .attr({
+			        	zIndex: 6,
+			        	//class: 'pieLegend'
+			        }).add();
 	                var maxBubbleSize = 500;
 	                var minBubbleSize = 5000
 	                chart.renderer.circle(280, 275, 0.5*pieSize(minBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({

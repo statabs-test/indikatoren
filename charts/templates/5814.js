@@ -17,7 +17,7 @@
 			"maxColor": "#4b7b1f",
 			"labels": {
 				"formatter": function () {
-					return Highcharts.numberFormat((this.value),0); 
+					return Highcharts.numberFormat((this.value),1); 
 				}
 			}
 		},
@@ -304,6 +304,15 @@
 	                
 	                
 	                //Add manually drawn legend
+	                 chart.renderer.label(chart.series[1].name, 285, 240)
+     				.css({
+	                    fontSize: '12px',
+	                    fontWeight: 'bold'
+	                })
+	                .attr({
+			        	zIndex: 6,
+			        	//class: 'pieLegend'
+			        }).add();
 	                var maxBubbleSize = 3;
 	                var minBubbleSize = 0.5
 	                chart.renderer.circle(410, 275, 0.5*pieSize(minBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({

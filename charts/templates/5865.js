@@ -47,28 +47,28 @@
   },
   "series": [
     {
-      "color": "#8B2223",
+      "color": "#246370", // dunkelblau - Zuzug aus der Schweiz
       //"index": 0,
       "type": "column",
       "pointWidth": "15",
       legendIndex: 0
     },
     {
-      "color": "#b00000",
+      "color": "#007A2F", //dunkelgrün - Wegzug in die Schweiz
       //"index": 0,
       "type": "column",
       "pointWidth": "15",
       legendIndex: 1
     },
     {
-      "color": "#246370",
+      "color": "#A8C3CA", //hellblau - Zuzug aus Ausland
       //"index": 0,
       "type": "column",
       "pointWidth": "15",
       legendIndex: 2
     },
     {
-      "color": "#71a3b5",
+      "color":  "#8AB77D", //hellgrün - Wegzug ins Ausland
       //"index": 0,
       "type": "column",
       "pointWidth": "15",
