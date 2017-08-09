@@ -10,7 +10,7 @@
         <path fill="none" class="highcharts-grid-line" d="M77.5 44v83m29-83v83m30-83v83m29-83v83m29-83v83m29-83v83m29-83v83m30-83v83m29-83v83m29-83v83m29-83v83m29-83v83m29-83v83m30-83v83m29-83v83m29-83v83m29-83v83m29-83v83m30-83v83m29-83v83m29-83v83m-613-83v83"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#B9CFD7" stroke-width=".5" class="highcharts-grid-line" d="M49 127.25h613m-613-41h613M49 43.75h613"/>
+        <path fill="none" stroke="#B9CFD7" stroke-width=".5" class="highcharts-grid-line" d="M49 127.25h613m-613-28h613m-613-27h613M49 43.75h613"/>
     </g>
     <path fill="none" class="highcharts-plot-border" d="M49 44h613v83H49z"/>
     <g class="highcharts-axis highcharts-xaxis">
@@ -118,8 +118,11 @@
         <text x="34" y="133">
             <tspan>0</tspan>
         </text>
-        <text x="34" y="91">
-            <tspan>7 500</tspan>
+        <text x="34" y="105">
+            <tspan>5 000</tspan>
+        </text>
+        <text x="34" y="77">
+            <tspan>10 000</tspan>
         </text>
         <text x="34" y="50">
             <tspan>15 000</tspan>

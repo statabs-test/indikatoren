@@ -244,6 +244,22 @@
         "enabled": false
       },
       "legendIndex": 3,
+      "dataLabels": {
+        "style": {
+          "fontSize": "12px",
+          "fontWeight": "normal",
+          "fontFamily": "Arial",
+          "color": "black"
+        },
+        "enabled": true,
+        "formatter": function () {
+	        var first  = this.series.data[this.series.data.length - 1];
+	        if (this.point.x === first.x) {
+	        return /*this.point.x + ":<br/>" + */ Highcharts.numberFormat(this.point.y, 1, ",", " ") + "";
+	        }
+	        return "";
+	        }
+      },
       "data": [
         [
           1989,
@@ -423,7 +439,9 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "max": 60,
+    "tickInterval": 20
   },
   "xAxis": {
     "lineColor": "#B9CFD7",

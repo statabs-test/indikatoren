@@ -21,16 +21,16 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(52 38)" clip-path="url(#a)">
-            <path fill="#8B2223" class="highcharts-point" d="M17 30h15v20H17zm41-2h15v21H58zm40-5h15v23H98zm41 3h15v21h-15zm41-1h15v22h-15zm41-3h15v23h-15zm40 1h15v22h-15zm41-4h15v22h-15zm41 6h15v20h-15zm40-3h15v23h-15zm41-2h15v24h-15z"/>
+            <path fill="#246370" class="highcharts-point" d="M17 30h15v20H17zm41-2h15v21H58zm40-5h15v23H98zm41 3h15v21h-15zm41-1h15v22h-15zm41-3h15v23h-15zm40 1h15v22h-15zm41-4h15v22h-15zm41 6h15v20h-15zm40-3h15v23h-15zm41-2h15v24h-15z"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(52 38)" clip-path="url(#a)">
-            <path fill="#b00000" class="highcharts-point highcharts-negative" d="M17 88h15v26H17zm41 0h15v27H58zm40 0h15v26H98zm41 0h15v25h-15zm41 1h15v24h-15zm41 1h15v25h-15zm40 0h15v24h-15zm41 1h15v26h-15zm41 0h15v25h-15zm40 1h15v27h-15zm41 0h15v28h-15z"/>
+            <path fill="#007A2F" class="highcharts-point highcharts-negative" d="M17 88h15v26H17zm41 0h15v27H58zm40 0h15v26H98zm41 0h15v25h-15zm41 1h15v24h-15zm41 1h15v25h-15zm40 0h15v24h-15zm41 1h15v26h-15zm41 0h15v25h-15zm40 1h15v27h-15zm41 0h15v28h-15z"/>
         </g>
         <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(52 38)" clip-path="url(#a)">
-            <path fill="#246370" class="highcharts-point" d="M17 50h15v24H17zm41-1h15v25H58zm40-3h15v28H98zm41 1h15v27h-15zm41 0h15v27h-15zm41-2h15v29h-15zm40 0h15v29h-15zm41-4h15v33h-15zm41 4h15v29h-15zm40 0h15v29h-15zm41-1h15v30h-15z"/>
+            <path fill="#A8C3CA" class="highcharts-point" d="M17 50h15v24H17zm41-1h15v25H58zm40-3h15v28H98zm41 1h15v27h-15zm41 0h15v27h-15zm41-2h15v29h-15zm40 0h15v29h-15zm41-4h15v33h-15zm41 4h15v29h-15zm40 0h15v29h-15zm41-1h15v30h-15z"/>
         </g>
         <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(52 38)" clip-path="url(#a)">
-            <path fill="#71a3b5" class="highcharts-point highcharts-negative" d="M17 74h15v14H17zm41 0h15v14H58zm40 0h15v14H98zm41 0h15v14h-15zm41 0h15v15h-15zm41 0h15v16h-15zm40 0h15v16h-15zm41 0h15v17h-15zm41 0h15v17h-15zm40 0h15v18h-15zm41 0h15v18h-15z"/>
+            <path fill="#8AB77D" class="highcharts-point highcharts-negative" d="M17 74h15v14H17zm41 0h15v14H58zm40 0h15v14H98zm41 0h15v14h-15zm41 0h15v15h-15zm41 0h15v16h-15zm40 0h15v16h-15zm41 0h15v17h-15zm41 0h15v17h-15zm40 0h15v18h-15zm41 0h15v18h-15z"/>
         </g>
         <g class="highcharts-series highcharts-series-4 highcharts-line-series highcharts-color-undefined" transform="translate(52 38)" clip-path="url(#a)">
             <path fill="none" d="M24.429 71.57l40.714-.61 40.714-5.384 40.714 1.343 40.715 5.121L228 66.912l40.714-.256 40.715-.587 40.714 4.037 40.714.295 40.714-.693" class="highcharts-graph" stroke="#000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
@@ -46,25 +46,25 @@
             <text x="21" y="13" color="#333" font-size="10" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
                 <tspan>Zuzug aus der Schweiz</tspan>
             </text>
-            <path fill="#8B2223" class="highcharts-point" d="M11 7h10v10H11z"/>
+            <path fill="#246370" class="highcharts-point" d="M11 7h10v10H11z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
             <text x="21" y="13" color="#333" font-size="10" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 21)">
                 <tspan>Wegzug in die Schweiz</tspan>
             </text>
-            <path fill="#b00000" class="highcharts-point" d="M11 25h10v10H11z"/>
+            <path fill="#007A2F" class="highcharts-point" d="M11 25h10v10H11z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
             <text x="21" y="13" color="#333" font-size="10" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 39)">
                 <tspan>Zuzug aus Ausland</tspan>
             </text>
-            <path fill="#246370" class="highcharts-point" d="M11 43h10v10H11z"/>
+            <path fill="#A8C3CA" class="highcharts-point" d="M11 43h10v10H11z"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3">
             <text x="21" y="13" color="#333" font-size="10" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 57)">
                 <tspan>Wegzug ins Ausland</tspan>
             </text>
-            <path fill="#71a3b5" class="highcharts-point" d="M11 61h10v10H11z"/>
+            <path fill="#8AB77D" class="highcharts-point" d="M11 61h10v10H11z"/>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-4">
             <path fill="none" d="M8 85h16" class="highcharts-graph" stroke="#000" stroke-width="2"/>

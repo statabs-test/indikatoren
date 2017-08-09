@@ -21,14 +21,14 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(29 65)" clip-path="url(#a)">
-            <path fill="#b475ab" class="highcharts-point" d="M10 69h15v28H10zm23-1h15v29H33zm23 3h15v27H56zm23-1h15v28H79zm23 2h15v26h-15zm23 2h15v25h-15zm23 0h15v25h-15zm23 1h15v25h-15zm23 1h15v24h-15zm23 0h15v24h-15zm23 1h15v23h-15zm23 1h15v23h-15zm23 1h15v22h-15zm23 1h15v20h-15zm23-3h15v24h-15zm23 2h15v22h-15zm23-1h15v24h-15zm23 2h15v22h-15zm23 0h15v22h-15zm23 0h15v22h-15zm23-1h15v22h-15zm23 0h15v21h-15zm23-1h15v23h-15zm23 0h15v23h-15zm23 1h15v22h-15zm23 1h15v21h-15zm23 0h15v21h-15z"/>
+            <path fill="#b475ab" class="highcharts-point" d="M10 59h15v35H10zm23-1h15v37H33zm23 4h15v33H56zm23-2h15v35H79zm23 3h15v33h-15zm23 3h15v31h-15zm23 0h15v31h-15zm23 1h15v31h-15zm23 2h15v28h-15zm23-1h15v30h-15zm23 2h15v28h-15zm23 1h15v28h-15zm23 1h15v27h-15zm23 1h15v25h-15zm23-4h15v30h-15zm23 2h15v29h-15zm23 0h15v30h-15zm23 2h15v28h-15zm23 1h15v27h-15zm23-2h15v28h-15zm23 0h15v27h-15zm23-1h15v27h-15zm23 0h15v28h-15zm23-1h15v29h-15zm23 2h15v27h-15zm23 0h15v28h-15zm23 0h15v27h-15z"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(29 65)" clip-path="url(#a)">
-            <path fill="#a8c4cb" class="highcharts-point" d="M10 97h15v11H10zm23 0h15v11H33zm23 1h15v10H56zm23 0h15v10H79zm23 0h15v10h-15zm23 1h15v9h-15zm23 0h15v9h-15zm23 1h15v8h-15zm23 0h15v8h-15zm23 0h15v8h-15zm23 0h15v8h-15zm23 1h15v7h-15zm23 0h15v7h-15zm23-1h15v8h-15zm23 1h15v7h-15zm23 0h15v7h-15zm23 1h15v6h-15zm23 0h15v6h-15zm23 0h15v6h-15zm23 0h15v6h-15zm23-1h15v7h-15zm23-1h15v8h-15zm23 1h15v7h-15zm23 0h15v7h-15zm23 0h15v7h-15zm23 0h15v7h-15zm23 0h15v7h-15z"/>
+            <path fill="#a8c4cb" class="highcharts-point" d="M10 94h15v14H10zm23 1h15v13H33zm23 0h15v13H56zm23 0h15v13H79zm23 1h15v12h-15zm23 1h15v11h-15zm23 0h15v11h-15zm23 1h15v10h-15zm23-1h15v11h-15zm23 1h15v10h-15zm23 0h15v10h-15zm23 1h15v9h-15zm23 0h15v9h-15zm23-1h15v10h-15zm23 1h15v9h-15zm23 1h15v8h-15zm23 1h15v7h-15zm23 0h15v7h-15zm23 0h15v7h-15zm23-1h15v8h-15zm23-1h15v9h-15zm23-1h15v10h-15zm23 1h15v9h-15zm23 0h15v9h-15zm23 0h15v9h-15zm23 1h15v8h-15zm23-1h15v9h-15z"/>
         </g>
         <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="translate(29 65)" clip-path="url(#a)">
-            <path fill="none" d="M17.481 35.014H615.52" class="highcharts-graph" stroke="#000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-            <path fill="none" d="M7.481 35.014H625.52" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+            <path fill="none" d="M17.481 17.017H615.52" class="highcharts-graph" stroke="#000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            <path fill="none" d="M7.481 17.017H625.52" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
     </g>
     <text x="3" class="highcharts-title" y="10" color="#000" font-size="10" font-weight="700">
@@ -37,6 +37,11 @@
     <text x="3" class="highcharts-subtitle" y="28" color="#000" font-size="10" font-weight="400">
         <tspan>Vergleich mit potenzieller Maximalmenge</tspan>
     </text>
+    <g class="highcharts-data-labels highcharts-series-2 highcharts-line-series highcharts-color-undefined">
+        <text x="5" style="text-outline:1px contrast" y="17" font-weight="400" color="#000" transform="translate(628 82)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="17" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">50,5</tspan><tspan x="5" y="17">50,5</tspan>
+        </text>
+    </g>
     <g class="highcharts-legend" transform="translate(33 3)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="396" height="50"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
@@ -146,13 +151,13 @@
             <tspan>0</tspan>
         </text>
         <text x="14" y="142">
-            <tspan>25</tspan>
+            <tspan>20</tspan>
         </text>
         <text x="14" y="106">
-            <tspan>50</tspan>
+            <tspan>40</tspan>
         </text>
         <text x="14" y="71">
-            <tspan>75</tspan>
+            <tspan>60</tspan>
         </text>
     </g>
     <text x="10" class="highcharts-credits" y="203" cursor="default" color="#000" font-size="10">

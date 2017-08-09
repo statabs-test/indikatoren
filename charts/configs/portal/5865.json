@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#8B2223",
+      "color": "#246370",
       "type": "column",
       "pointWidth": "15",
       "legendIndex": 0,
@@ -54,7 +54,7 @@
       "name": "Zuzug aus der Schweiz"
     },
     {
-      "color": "#b00000",
+      "color": "#007A2F",
       "type": "column",
       "pointWidth": "15",
       "legendIndex": 1,
@@ -107,7 +107,7 @@
       "name": "Wegzug in die Schweiz"
     },
     {
-      "color": "#246370",
+      "color": "#A8C3CA",
       "type": "column",
       "pointWidth": "15",
       "legendIndex": 2,
@@ -160,7 +160,7 @@
       "name": "Zuzug aus Ausland"
     },
     {
-      "color": "#71a3b5",
+      "color": "#8AB77D",
       "type": "column",
       "pointWidth": "15",
       "legendIndex": 4,

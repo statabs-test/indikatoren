@@ -278,7 +278,7 @@
       "format": "{value:,.0f}"
     },
     "max": 15000,
-    "tickInterval": 7500
+    "tickInterval": 5000
   },
   "navigation": {
     "menuItemStyle": {

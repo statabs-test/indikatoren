@@ -7,7 +7,7 @@
     <rect fill="#fbfbfb" class="highcharts-background" width="320" height="208" rx="0" ry="0"/>
     <path fill="none" class="highcharts-plot-background" d="M32 38h285v146H32z"/>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M34.5 38v146m112-146v146m111-146v146"/>
+        <path fill="none" class="highcharts-grid-line" d="M34.5 38v146m56-146v146m56-146v146m55-146v146m56-146v146m56-146v146"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
         <path fill="none" stroke="#B9CFD7" stroke-width=".5" class="highcharts-grid-line" d="M32 184.25h285m-285-49h285m-285-48h285M32 37.75h285"/>
@@ -41,13 +41,22 @@
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="10">
         <text x="34.794" y="204">
-            <tspan>2010</tspan>
+            2010
+        </text>
+        <text x="90.676" y="204">
+            2011
         </text>
         <text x="146.559" y="204">
-            <tspan>2012</tspan>
+            2012
+        </text>
+        <text x="202.441" y="204">
+            2013
         </text>
         <text x="258.324" y="204">
-            <tspan>2014</tspan>
+            2014
+        </text>
+        <text x="305.906" y="204">
+            2015
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="10">
