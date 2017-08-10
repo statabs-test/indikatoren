@@ -1,0 +1,232 @@
+{
+  "series": [
+    {
+      "color": "#b00000 ",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2010,
+          100
+        ],
+        [
+          2011,
+          99.2
+        ],
+        [
+          2012,
+          98.2
+        ],
+        [
+          2013,
+          98.5
+        ],
+        [
+          2014,
+          98.2
+        ]
+      ],
+      "name": "MIV Stadtstrassennetz"
+    },
+    {
+      "color": "#672773",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2010,
+          100
+        ],
+        [
+          2011,
+          103
+        ],
+        [
+          2012,
+          102.2
+        ],
+        [
+          2013,
+          105.2
+        ],
+        [
+          2014,
+          107
+        ]
+      ],
+      "name": "MIV Autobahnen"
+    },
+    {
+      "color": "#007a2f",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2010,
+          100
+        ],
+        [
+          2011,
+          102.6
+        ],
+        [
+          2012,
+          104.2
+        ],
+        [
+          2013,
+          105.3
+        ],
+        [
+          2014,
+          105.6
+        ]
+      ],
+      "name": "ÖV"
+    },
+    {
+      "color": "#b00000 ",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2010,
+          100
+        ],
+        [
+          2011,
+          103.7
+        ],
+        [
+          2012,
+          103.2
+        ],
+        [
+          2013,
+          103.8
+        ],
+        [
+          2014,
+          114.3
+        ]
+      ],
+      "name": "Velo (wetterbereinigt)"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "forExport": true,
+    "renderTo": "container-6007"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Verkehrsleistungsindex"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Indexwert (Basis 2010 = 100)",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Amt für Mobilität Basel-Stadt"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "x": 30,
+    "y": 25,
+    "itemWidth": 1000,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "filename": "I.02.6.06007"
+  }
+}

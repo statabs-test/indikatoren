@@ -55,7 +55,7 @@
       //"yAxis": 1,
       legendIndex: 3,
    "dataLabels": {
-	        style: {"fontSize": "12px", "fontWeight": "normal", "fontFamily": "Arial", color: 'black',}, 
+	        style: {"fontWeight": "normal", color: 'black',}, 
 	       "enabled": true,
 	        //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
 	        formatter: function() {

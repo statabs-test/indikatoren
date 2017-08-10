@@ -21538,9 +21538,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: "
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Leerstandserhebung"
   },
   "colorAxis": {
     "min": 0,

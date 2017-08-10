@@ -83,9 +83,9 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      10,
+      15,
       3,
-      3,
+      8,
       3
     ],
     "style": {
@@ -161,9 +161,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
   },
   "legend": {
     "enabled": false,

@@ -23,7 +23,7 @@
           6.39248669566555
         ],
         [
-          "Übrige versiegelte Fläche",
+          "Übrige befestigte Fläche",
           4.44853224764792
         ],
         [
@@ -56,7 +56,7 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      3,
+      7,
       3,
       3,
       3
@@ -132,9 +132,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: "
+    "text": "Quelle: Grundbuch- und Vermessungsamt  Basel-Stadt"
   },
   "legend": {
     "layout": "horizontal",

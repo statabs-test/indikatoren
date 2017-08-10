@@ -20,7 +20,8 @@
     "labels": {
       "format": "{value:,.0f}"
     },
-	"max": undefined
+	"max": 30000,
+	tickInterval: 10000,
   },
   "legend": {
     "enabled": true,

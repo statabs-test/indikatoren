@@ -1,37 +1,37 @@
 <svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 665 208" font-family="Arial" font-size="12">
     <defs>
         <clipPath id="a">
-            <path fill="none" d="M0 0h585v88H0z"/>
+            <path fill="none" d="M0 0h585v86H0z"/>
         </clipPath>
     </defs>
     <rect fill="#fbfbfb" class="highcharts-background" width="665" height="208" rx="0" ry="0"/>
-    <path fill="none" class="highcharts-plot-background" d="M77 39h585v88H77z"/>
+    <path fill="none" class="highcharts-plot-background" d="M77 43h585v86H77z"/>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M104.5 39v88m28-88v88m28-88v88m27-88v88m28-88v88m28-88v88m28-88v88m28-88v88m28-88v88m28-88v88m27-88v88m28-88v88m28-88v88m28-88v88m28-88v88m28-88v88m28-88v88m27-88v88m28-88v88m28-88v88m28-88v88m-585-88v88"/>
+        <path fill="none" class="highcharts-grid-line" d="M104.5 43v86m28-86v86m28-86v86m27-86v86m28-86v86m28-86v86m28-86v86m28-86v86m28-86v86m28-86v86m27-86v86m28-86v86m28-86v86m28-86v86m28-86v86m28-86v86m28-86v86m27-86v86m28-86v86m28-86v86m28-86v86m-585-86v86"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#B9CFD7" stroke-width=".5" class="highcharts-grid-line" d="M77 127.25h585m-585-44h585M77 38.75h585"/>
+        <path fill="none" stroke="#B9CFD7" stroke-width=".5" class="highcharts-grid-line" d="M77 129.25h585m-585-43h585M77 42.75h585"/>
     </g>
-    <path fill="none" class="highcharts-plot-border" d="M77 39h585v88H77z"/>
+    <path fill="none" class="highcharts-plot-border" d="M77 43h585v86H77z"/>
     <g class="highcharts-axis highcharts-xaxis">
-        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M104.5 127v10m28-10v10m28-10v10m27-10v10m28-10v10m28-10v10m28-10v10m28-10v10m28-10v10m28-10v10m27-10v10m28-10v10m28-10v10m28-10v10m28-10v10m28-10v10m28-10v10m27-10v10m28-10v10m28-10v10m29-10v10m-586-10v10"/>
-        <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width=".5" d="M77 127.25h585"/>
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M104.5 129v10m28-10v10m28-10v10m27-10v10m28-10v10m28-10v10m28-10v10m28-10v10m28-10v10m28-10v10m27-10v10m28-10v10m28-10v10m28-10v10m28-10v10m28-10v10m28-10v10m27-10v10m28-10v10m28-10v10m29-10v10m-586-10v10"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width=".5" d="M77 129.25h585"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
-        <path fill="none" class="highcharts-axis-line" d="M77 39v88"/>
+        <path fill="none" class="highcharts-axis-line" d="M77 43v86"/>
     </g>
     <g class="highcharts-series-group">
-        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(77 39)" clip-path="url(#a)">
-            <path fill="#CD9C00" class="highcharts-point" d="M6 51h8v38H6zm27-30h9v68h-9zm28 30h9v38h-9zm28 31h9v7h-9zm28-80h8v87h-8zm28 41h8v46h-8zm28 42h8v4h-8zm28-4h8v8h-8zm27 1h9v7h-9zm28-5h9v12h-9zm28-75h9v87h-9zm28 69h8v18h-8zm28 8h8v10h-8zm28-29h8v39h-8zm28 23h8v16h-8zm27-27h9v43h-9zm28 32h9v11h-9zm28-50h9v61h-9zm28 41h8v20h-8zm28 5h8v15h-8zm28 13h8v2h-8z"/>
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(77 43)" clip-path="url(#a)">
+            <path fill="#CD9C00" class="highcharts-point" d="M6 50h8v37H6zm27-30h9v67h-9zm28 30h9v37h-9zm28 30h9v7h-9zm28-78h8v85h-8zm28 40h8v45h-8zm28 41h8v4h-8zm28-4h8v8h-8zm27 1h9v7h-9zm28-5h9v12h-9zm28-73h9v85h-9zm28 67h8v18h-8zm28 8h8v10h-8zm28-28h8v38h-8zm28 22h8v16h-8zm27-26h9v42h-9zm28 31h9v11h-9zm28-48h9v59h-9zm28 39h8v20h-8zm28 5h8v15h-8zm28 13h8v2h-8z"/>
         </g>
-        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(77 39)" clip-path="url(#a)">
-            <path fill="#83522E" class="highcharts-point" d="M14 51h8v38h-8zm28-29h8v67h-8zm28 28h8v39h-8zm28 33h8v6h-8zm27-80h9v86h-9zm28 40h9v46h-9zm28 42h8v4h-8zm28-4h8v8h-8zm28 1h8v7h-8zm28-5h8v12h-8zm28-71h8v83h-8zm27 65h9v18h-9zm28 8h9v10h-9zm28-31h8v41h-8zm28 26h8v15h-8zm28-28h8v43h-8zm28 32h8v11h-8zm28-49h8v60h-8zm27 40h9v20h-9zm28 5h9v15h-9zm28 13h8v2h-8z"/>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(77 43)" clip-path="url(#a)">
+            <path fill="#83522E" class="highcharts-point" d="M14 50h8v37h-8zm28-29h8v66h-8zm28 28h8v38h-8zm28 32h8v6h-8zm27-78h9v84h-9zm28 39h9v45h-9zm28 41h8v4h-8zm28-4h8v8h-8zm28 1h8v7h-8zm28-5h8v12h-8zm28-70h8v82h-8zm27 64h9v18h-9zm28 8h9v10h-9zm28-30h8v40h-8zm28 26h8v14h-8zm28-28h8v42h-8zm28 31h8v11h-8zm28-48h8v59h-8zm27 39h9v20h-9zm28 5h9v15h-9zm28 13h8v2h-8z"/>
         </g>
     </g>
-    <text x="3" class="highcharts-title" y="10" color="#000" font-size="10" font-weight="700">
+    <text x="3" class="highcharts-title" y="14" color="#000" font-size="10" font-weight="700">
         <tspan>Bruttogeschossfläche Industrie und Gewerbe</tspan>
     </text>
-    <g class="highcharts-legend" transform="translate(68 3)">
+    <g class="highcharts-legend" transform="translate(68 7)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="122" height="24"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="13" color="#333" font-size="10" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
@@ -47,82 +47,82 @@
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="10">
-        <text x="94.929" transform="rotate(-90 94.929 139)" y="139">
+        <text x="94.929" transform="rotate(-90 94.929 141)" y="141">
             <tspan>Altstadt GB</tspan>
         </text>
-        <text x="122.786" transform="rotate(-90 122.786 139)" y="139">
+        <text x="122.786" transform="rotate(-90 122.786 141)" y="141">
             <tspan>Vorstädte</tspan>
         </text>
-        <text x="150.643" transform="rotate(-90 150.643 139)" y="139">
+        <text x="150.643" transform="rotate(-90 150.643 141)" y="141">
             <tspan>Am Ring</tspan>
         </text>
-        <text x="178.5" transform="rotate(-90 178.5 139)" y="139">
+        <text x="178.5" transform="rotate(-90 178.5 141)" y="141">
             <tspan>Breite</tspan>
         </text>
-        <text x="206.357" transform="rotate(-90 206.357 139)" y="139">
+        <text x="206.357" transform="rotate(-90 206.357 141)" y="141">
             <tspan>St. Alban</tspan>
         </text>
-        <text x="234.214" transform="rotate(-90 234.214 139)" y="139">
+        <text x="234.214" transform="rotate(-90 234.214 141)" y="141">
             <tspan>Gundeldingen</tspan>
         </text>
-        <text x="262.071" transform="rotate(-90 262.071 139)" y="139">
+        <text x="262.071" transform="rotate(-90 262.071 141)" y="141">
             <tspan>Bruderholz</tspan>
         </text>
-        <text x="289.929" transform="rotate(-90 289.929 139)" y="139">
+        <text x="289.929" transform="rotate(-90 289.929 141)" y="141">
             <tspan>Bachletten</tspan>
         </text>
-        <text x="317.786" transform="rotate(-90 317.786 139)" y="139">
+        <text x="317.786" transform="rotate(-90 317.786 141)" y="141">
             <tspan>Gotthelf</tspan>
         </text>
-        <text x="345.643" transform="rotate(-90 345.643 139)" y="139">
+        <text x="345.643" transform="rotate(-90 345.643 141)" y="141">
             <tspan>Iselin</tspan>
         </text>
-        <text x="373.5" transform="rotate(-90 373.5 139)" y="139">
+        <text x="373.5" transform="rotate(-90 373.5 141)" y="141">
             <tspan>St. Johann</tspan>
         </text>
-        <text x="401.357" transform="rotate(-90 401.357 139)" y="139">
+        <text x="401.357" transform="rotate(-90 401.357 141)" y="141">
             <tspan>Altstadt KB</tspan>
         </text>
-        <text x="429.214" transform="rotate(-90 429.214 139)" y="139">
+        <text x="429.214" transform="rotate(-90 429.214 141)" y="141">
             <tspan>Clara</tspan>
         </text>
-        <text x="457.071" transform="rotate(-90 457.071 139)" y="139">
+        <text x="457.071" transform="rotate(-90 457.071 141)" y="141">
             <tspan>Wettstein</tspan>
         </text>
-        <text x="484.929" transform="rotate(-90 484.929 139)" y="139">
+        <text x="484.929" transform="rotate(-90 484.929 141)" y="141">
             <tspan>Hirzbrunnen</tspan>
         </text>
-        <text x="512.786" transform="rotate(-90 512.786 139)" y="139">
+        <text x="512.786" transform="rotate(-90 512.786 141)" y="141">
             <tspan>Rosental</tspan>
         </text>
-        <text x="540.643" transform="rotate(-90 540.643 139)" y="139">
+        <text x="540.643" transform="rotate(-90 540.643 141)" y="141">
             <tspan>Matthäus</tspan>
         </text>
-        <text x="568.5" transform="rotate(-90 568.5 139)" y="139">
+        <text x="568.5" transform="rotate(-90 568.5 141)" y="141">
             <tspan>Klybeck</tspan>
         </text>
-        <text x="596.357" transform="rotate(-90 596.357 139)" y="139">
+        <text x="596.357" transform="rotate(-90 596.357 141)" y="141">
             <tspan>Kleinhüningen</tspan>
         </text>
-        <text x="624.214" transform="rotate(-90 624.214 139)" y="139">
+        <text x="624.214" transform="rotate(-90 624.214 141)" y="141">
             <tspan>Riehen</tspan>
         </text>
-        <text x="652.071" transform="rotate(-90 652.071 139)" y="139">
+        <text x="652.071" transform="rotate(-90 652.071 141)" y="141">
             <tspan>Bettingen</tspan>
         </text>
     </g>
     <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="10">
-        <text x="62" y="133">
+        <text x="62" y="135">
             <tspan>0 m²</tspan>
         </text>
-        <text x="62" y="89">
+        <text x="62" y="92">
             <tspan>600 000 m²</tspan>
         </text>
-        <text x="62" y="45">
+        <text x="62" y="49">
             <tspan>1 200 000 m²</tspan>
         </text>
     </g>
-    <text x="10" class="highcharts-credits" y="203" cursor="default" color="#000" font-size="10">
-        <tspan>Quelle:</tspan>
+    <text x="10" class="highcharts-credits" y="193" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Planungsamt Basel-Stadt</tspan>
     </text>
 </svg>

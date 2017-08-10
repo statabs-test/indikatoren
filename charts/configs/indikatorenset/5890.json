@@ -234,7 +234,7 @@
           4.982539729
         ]
       ],
-      "name": "Industrie m3 und Gewerbe in Mio. m³"
+      "name": "Industrie und Gewerbe in Mio. m³"
     },
     {
       "color": "#000000",
@@ -385,9 +385,9 @@
     "width": 665,
     "height": 208,
     "spacing": [
+      7,
       3,
-      3,
-      3,
+      8,
       3
     ],
     "style": {
@@ -467,9 +467,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: "
+    "text": "Quelle: Industrielle Werke Basel (IWB)"
   },
   "legend": {
     "enabled": true,

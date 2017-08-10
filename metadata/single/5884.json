@@ -15,7 +15,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"",
+"lesehilfe":"In der Altstadt Grossbasel gibt es am meisten Beschäftigte pro Hektar, nämlich rund 299. Am wenigsten Beschäftigte pro Flächeneinheit gibt es in der Gemeinde Bettingen mit unter 2 pro Hektar.",
 "erlaeuterungen":"",
 "template":"mappie001_print",
 "option":"options001",
@@ -24,6 +24,6 @@
 "parentId":5824,
 "children":[],
 "renderLink":[],
-"quellenangabe":[],
+"quellenangabe":["Bundesamt für Statistik BFS, STATENT"],
 "externalLinks":[""]
 }

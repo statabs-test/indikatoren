@@ -4,7 +4,7 @@
   	"width":665,
     "type": "column",
     "inverted": false,
-    spacing: [3,3,10,3], /*top, right, bottom and left */ /*[3,3,3,3]*/
+    //spacing: [3,3,10,3], /*top, right, bottom and left */ /*[3,3,3,3]*/
   },   
   "xAxis": {
     "type": "category",

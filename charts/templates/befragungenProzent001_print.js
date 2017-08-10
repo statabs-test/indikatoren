@@ -124,6 +124,7 @@
         "align": "right",
         "useHTML": true,
         "itemStyle": {
+        	"fontSize": "10px",
             "fontWeight": "normal",
             "width": 95
         },

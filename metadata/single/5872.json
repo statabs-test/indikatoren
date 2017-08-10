@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Der Wohnungsbestand ist innert 5 Jahren um gut 3000 Einheiten oder 3% angewachsen. Der grösste relative Zuwachs verzeichnete das Wohnviertel Rosental, in welchem in diesem Zeitraum netto über 600 neue Wohnungen entstanden.",
-"erlaeuterungen":"Der starke Zuwachs im Wohnviertel Rosental ergab sich mitunter durch die Überbauung des Erlenmattareals.",
+"erlaeuterungen":"Es handelt sich um Bauwohnungen. Angaben bis 2012 basieren auf Fortschreibungsdaten per Ende Jahr auf Grundlage der eidegnössischen Gebäude- und Wohnungszählungen. Ab 2013 stammen die Daten vom kantonalen Gebäude- und Wohnungsregister GWR. Infolge stetiger Datenbereinigungen ergeben sich Korrekturen am Wohnungsbestand. Die jährliche Veränderung des Wohnungsbestandes seit 2012 ist somit nicht nur in der Bautätigkeit begründet.",
 "template":"template001_print",
 "option":"options001",
 "visible":true,
@@ -24,6 +24,6 @@
 "parentId":5812,
 "children":[],
 "renderLink":[],
-"quellenangabe":[],
+"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"],
 "externalLinks":[""]
 }

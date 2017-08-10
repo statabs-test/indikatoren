@@ -48,7 +48,7 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      3,
+      7,
       3,
       3,
       3
@@ -122,9 +122,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -25
     },
-    "text": "Quelle: "
+    "text": "Quelle: Amt für Mobilität Basel-Stadt;\u003Cbr\u002F\u003EBau- und Verkehrsdepartement des Kantons Basel-Stadt"
   },
   "legend": {
     "layout": "horizontal",

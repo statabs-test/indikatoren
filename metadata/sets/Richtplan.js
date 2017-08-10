@@ -1253,5 +1253,43 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		]
+	},
+	{
+		"title": "Verkehrsleistungsindex",
+		"subtitle": "Indexwert (Basis 2010 = 100)",
+		"kuerzel": "I.02.6.06007",
+		"kuerzelKunde": "ST 08-2",
+		"description": "Verkehrsleistungsindex",
+		"id": 6007,
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Mobilitätsverhalten",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Lärm"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1705' target='_blank'>Umweltbericht beider Basel</a>.",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"parentId": 4319,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Mobilität Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		]
 	}
 ];

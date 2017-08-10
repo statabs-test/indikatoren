@@ -180,7 +180,7 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      3,
+      7,
       3,
       3,
       3
@@ -229,7 +229,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand 2010",
+    "text": "",
     "align": "left"
   },
   "tooltip": {
@@ -248,9 +248,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: "
+    "text": "Quelle: Bundesamt für Raumentwicklung, Mikrozensus zum Verkehrsverhalten"
   },
   "legend": {
     "layout": "vertical",

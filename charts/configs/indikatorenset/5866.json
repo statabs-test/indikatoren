@@ -90,9 +90,9 @@
     "width": 320,
     "height": 208,
     "spacing": [
+      7,
       3,
-      3,
-      3,
+      8,
       3
     ],
     "style": {
@@ -179,9 +179,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: "
+    "text": "Quelle: Bundesamt für Statistik BFS, Strukturerhebung (SE)"
   },
   "legend": {
     "symbolRadius": 0,

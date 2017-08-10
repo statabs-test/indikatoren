@@ -2,7 +2,7 @@
     return {
   "chart": { 
   	"width":665,
-  	spacing: [10,3,3,3],
+  	spacing: [15,3,8,3],
   },
   plotOptions: {
         series: {
