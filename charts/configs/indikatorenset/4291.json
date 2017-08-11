@@ -226,7 +226,7 @@
       "fill": "#000000",
       "width": "421px"
     },
-    "text": "Hektar",
+    "text": "Hektaren",
     "align": "left",
     "widthAdjust": -44
   },
@@ -955,7 +955,7 @@
       }
     },
     "series": {
-      "stacking": null,
+      "stacking": false,
       "connectNulls": true,
       "stickyTracking": false,
       "borderWidth": 0,
@@ -1130,6 +1130,11 @@
         "includeInCSVExport": false,
         "type": "column",
         "color": "#FF8028"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "line",
+        "color": "#444444"
       }
     ],
     "xAxis": {
@@ -1299,6 +1304,7 @@
   "xAxis": [
     {
       "categories": [
+        2008,
         2009,
         2010,
         2011,
@@ -1318,7 +1324,7 @@
           "color": "#000000"
         }
       },
-      "range": false,
+      "range": 25,
       "index": 0,
       "isX": true
     }
@@ -1381,8 +1387,9 @@
       "name": "Kanton Basel-Stadt",
       "color": "#FF8028",
       "id": "BS1512_1",
-      "valueSuffix": "Hektar",
+      "valueSuffix": "Hektaren",
       "data": [
+        21,
         22,
         20,
         22,
@@ -1391,6 +1398,38 @@
         10,
         15
       ]
+    },
+    {
+      "includeInCSVExport": true,
+      "tooltip": {
+        "headerFormat": "\u003Cspan style='width: 80px'\u003E\u003Cspan style='color:{point.color}; width: 10px; font-size: 1.8em;'\u003E■\u003C\u002Fspan\u003E\u003Cspan style='font-size: 1em;'\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan style='padding-left: 15px; line-height: 1.4em;'\u003E"
+      },
+      "dashStyle": "ShortDash",
+      "marker": {
+        "enabled": false,
+        "states": {
+          "hover": {
+            "enabled": false
+          }
+        }
+      },
+      "type": "line",
+      "showInNavigator": true,
+      "name": "Zielwert Basel-Stadt",
+      "color": "#444444",
+      "id": "1512_2",
+      "valueSuffix": "Hektaren",
+      "data": [
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25
+      ],
+      "_symbolIndex": 0
     }
   ]
 }

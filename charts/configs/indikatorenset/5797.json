@@ -955,7 +955,7 @@
       }
     },
     "series": {
-      "stacking": "normal",
+      "stacking": false,
       "connectNulls": true,
       "stickyTracking": false,
       "borderWidth": 0,
@@ -1052,7 +1052,7 @@
     "backgroundColor": "rgba(247,247,247,0.85)",
     "borderWidth": 1,
     "headerFormat": "\u003Cspan style=\"width: 80px\"\u003E\u003Cspan style=\"color:{point.color}; width: 10px; font-size: 1.8em;\"\u003E■\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 1em;\"\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan style=\"padding-left: 15px; line-height: 1.4em;\"\u003E{point.key}:",
-    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E% (von {point.stackTotal: ,2f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
+    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E%\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
     "shadow": true,
     "style": {
       "color": "#333333",
@@ -1069,7 +1069,7 @@
       },
       "hideDelay": 200,
       "headerFormat": "\u003Cspan style=\"width: 80px\"\u003E\u003Cspan style=\"color:{point.color}; width: 10px; font-size: 1.8em;\"\u003E■\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 1em;\"\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan style=\"padding-left: 15px; line-height: 1.4em;\"\u003E{point.key}:",
-      "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E% (von {point.stackTotal: ,2f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
+      "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E%\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
       "footerFormat": "",
       "useHTML": true
     }
@@ -1130,6 +1130,11 @@
         "includeInCSVExport": false,
         "type": "column",
         "color": "#73B97C"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "line",
+        "color": "#444444"
       }
     ],
     "xAxis": {
@@ -1323,7 +1328,7 @@
           "color": "#000000"
         }
       },
-      "range": false,
+      "range": 25,
       "index": 0,
       "isX": true
     }
@@ -1402,6 +1407,42 @@
         99.4,
         91.5
       ]
+    },
+    {
+      "includeInCSVExport": true,
+      "tooltip": {
+        "headerFormat": "\u003Cspan style='width: 80px'\u003E\u003Cspan style='color:{point.color}; width: 10px; font-size: 1.8em;'\u003E■\u003C\u002Fspan\u003E\u003Cspan style='font-size: 1em;'\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan style='padding-left: 15px; line-height: 1.4em;'\u003E"
+      },
+      "dashStyle": "ShortDash",
+      "marker": {
+        "enabled": false,
+        "states": {
+          "hover": {
+            "enabled": false
+          }
+        }
+      },
+      "type": "line",
+      "showInNavigator": true,
+      "name": "Zielwert",
+      "color": "#444444",
+      "id": "1504_2",
+      "valueSuffix": "Prozent",
+      "data": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "_symbolIndex": 0
     }
   ]
 }

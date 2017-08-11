@@ -13,7 +13,7 @@
         <path fill="none" class="highcharts-grid-line" d="M73.5 90v254m0-254v254m36-254v254m0-254v254m37-254v254m0-254v254m36-254v254m0-254v254m37-254v254m0-254v254m36-254v254m0-254v254m37-254v254m0-254v254m36-254v254m0-254v254m37-254v254m0-254v254m36-254v254m0-254v254m37-254v254m0-254v254m36-254v254m0-254v254M36.5 90v254m0-254v254"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M37 344.5h438m-438-42h438m-438-43h438m-438-42h438m-438-42h438m-438-43h438m-438-43h438"/>
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M37 344.5h438m-438-85h438m-438-84h438m-438-86h438"/>
     </g>
     <path fill="none" class="highcharts-plot-border" d="M37 90h438v254H37z"/>
     <g class="highcharts-axis highcharts-xaxis">
@@ -33,6 +33,10 @@
         <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined highcharts-tracker">
             <path fill="#FF8028" d="M58 162a3 3 0 1 1 0-.003zm36-8a3 3 0 1 1 0-.003zm37-12a3 3 0 1 1 0-.003zm36 0a3 3 0 1 1 0-.003zm37 2a3 3 0 1 1 0-.003zm36 0a3 3 0 1 1 0-.003zm37 10a3 3 0 1 1 0-.003zm36-4a3 3 0 1 1 0-.003zm37-1a3 3 0 1 1 0-.003zm36-1a3 3 0 1 1 0-.003zm37-9a3 3 0 1 1 0-.003zm36 5a3 3 0 1 1 0-.003z" class="highcharts-point"/>
         </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(37 90)" clip-path="url(#a)">
+            <path fill="none" d="M18.25 21.167h401.5" class="highcharts-graph" stroke="#444" stroke-width="2" stroke-dasharray="6,2"/>
+            <path fill="none" d="M8.25 21.167h421.5" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
     </g>
     <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
         <tspan>Fluglärm</tspan>
@@ -41,12 +45,18 @@
         <tspan>Dezibel dB(A)</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(10 40)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="143" height="38"/>
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="239" height="38"/>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0">
             <path fill="none" d="M12 18h16" class="highcharts-graph" stroke="#FF8028" stroke-width="2"/>
             <path fill="#FF8028" d="M23 18a3 3 0 1 1 0-.003z" class="highcharts-point"/>
             <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
                 <tspan>BS: Basel-Neubad</tspan>
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1">
+            <path fill="none" d="M151.656 18h16" class="highcharts-graph" stroke-dasharray="6,2" stroke="#444" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(151.656 7)">
+                <tspan>Grenzwert</tspan>
             </text>
         </g>
     </g>
@@ -92,20 +102,11 @@
         <text x="22" y="349">
             <tspan>0</tspan>
         </text>
-        <text x="22" y="306">
-            <tspan>10</tspan>
-        </text>
         <text x="22" y="264">
             <tspan>20</tspan>
         </text>
-        <text x="22" y="222">
-            <tspan>30</tspan>
-        </text>
         <text x="22" y="179">
             <tspan>40</tspan>
-        </text>
-        <text x="22" y="137">
-            <tspan>50</tspan>
         </text>
         <text x="22" y="95">
             <tspan>60</tspan>

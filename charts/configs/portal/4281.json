@@ -1145,6 +1145,11 @@
         "includeInCSVExport": false,
         "type": "line",
         "color": "#0A3B19"
+      },
+      {
+        "includeInCSVExport": false,
+        "type": "line",
+        "color": "#444444"
       }
     ],
     "xAxis": {
@@ -1558,6 +1563,56 @@
         null
       ],
       "_symbolIndex": 3
+    },
+    {
+      "includeInCSVExport": true,
+      "tooltip": {
+        "headerFormat": "\u003Cspan style='width: 80px'\u003E\u003Cspan style='color:{point.color}; width: 10px; font-size: 1.8em;'\u003E■\u003C\u002Fspan\u003E\u003Cspan style='font-size: 1em;'\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan style='padding-left: 15px; line-height: 1.4em;'\u003E"
+      },
+      "dashStyle": "ShortDash",
+      "marker": {
+        "enabled": false,
+        "states": {
+          "hover": {
+            "enabled": false
+          }
+        }
+      },
+      "type": "line",
+      "showInNavigator": true,
+      "name": "Grenzwert",
+      "color": "#444444",
+      "id": "1111_5",
+      "valueSuffix": "Mikrogramm pro Kubikmeter",
+      "data": [
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30
+      ],
+      "_symbolIndex": 4
     }
   ]
 }

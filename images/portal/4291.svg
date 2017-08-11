@@ -10,7 +10,7 @@
         <tspan>&gt; Indikator-Details</tspan>
     </text>
     <g class="highcharts-grid highcharts-xaxis-grid">
-        <path fill="none" class="highcharts-grid-line" d="M99.5 90v254m0-254v254m62-254v254m0-254v254m63-254v254m0-254v254m62-254v254m0-254v254m63-254v254m0-254v254m62-254v254m0-254v254m63-254v254m0-254v254M36.5 90v254m0-254v254"/>
+        <path fill="none" class="highcharts-grid-line" d="M91.5 90v254m0-254v254m55-254v254m0-254v254m54-254v254m0-254v254m55-254v254m0-254v254m55-254v254m0-254v254m55-254v254m0-254v254m54-254v254m0-254v254m55-254v254m0-254v254M36.5 90v254m0-254v254"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
         <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M37 344.5h438m-438-63h438m-438-64h438m-438-63h438m-438-65h438"/>
@@ -27,44 +27,57 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(37 90)" clip-path="url(#a)">
-            <path fill="#FF8028" class="highcharts-point" d="M16 115h31v140H16zm63 13h31v127H79zm62-13h31v140h-31zm63-38h31v178h-31zm63-12h31v190h-31zm62 127h31v63h-31zm63-32h31v95h-31z"/>
+            <path fill="#FF8028" class="highcharts-point" d="M14 122h27v133H14zm55-7h27v140H69zm55 13h27v127h-27zm54-13h27v140h-27zm55-38h27v178h-27zm55-12h27v190h-27zm55 127h27v63h-27zm54-32h27v95h-27z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(37 90)" clip-path="url(#a)">
+            <path fill="none" d="M27.375 95.25h383.25" class="highcharts-graph" stroke="#444" stroke-width="2" stroke-dasharray="6,2"/>
+            <path fill="none" d="M17.375 95.25h403.25" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
         <tspan>Gepflegte Jungwaldfläche</tspan>
     </text>
     <text x="10" class="highcharts-subtitle" y="38" color="#000" font-size=".9em">
-        <tspan>Hektar</tspan>
+        <tspan>Hektaren</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(10 40)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="148" height="38"/>
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="296" height="38"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
                 <tspan>Kanton Basel-Stadt</tspan>
             </text>
             <path fill="#FF8028" class="highcharts-point" d="M14 11h12v12H14z"/>
         </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1">
+            <path fill="none" d="M156.328 18h16" class="highcharts-graph" stroke-dasharray="6,2" stroke="#444" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(156.328 7)">
+                <tspan>Zielwert Basel-Stadt</tspan>
+            </text>
+        </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">
-        <text x="68.286" y="363">
+        <text x="64.375" y="363">
+            2008
+        </text>
+        <text x="119.125" y="363">
             2009
         </text>
-        <text x="130.857" y="363">
+        <text x="173.875" y="363">
             2010
         </text>
-        <text x="193.429" y="363">
+        <text x="228.625" y="363">
             2011
         </text>
-        <text x="256" y="363">
+        <text x="283.375" y="363">
             2012
         </text>
-        <text x="318.571" y="363">
+        <text x="338.125" y="363">
             2013
         </text>
-        <text x="381.143" y="363">
+        <text x="392.875" y="363">
             2014
         </text>
-        <text x="443.714" y="363">
+        <text x="447.625" y="363">
             2015
         </text>
     </g>

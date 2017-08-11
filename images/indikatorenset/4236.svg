@@ -29,6 +29,10 @@
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined highcharts-tracker" transform="translate(46 90)" clip-path="url(#a)">
             <path fill="#FF8028" class="highcharts-point" d="M11 72h21v183H11zm43 0h21v183H54zm43-20h21v203H97zm43 0h21v203h-21zm43 0h21v203h-21zm43 0h21v203h-21zm43 20h21v183h-21zm42 0h21v183h-21zm43 20h21v163h-21zm43-20h21v183h-21z"/>
         </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(46 90)" clip-path="url(#a)">
+            <path fill="none" d="M21.45 50.8h386.1" class="highcharts-graph" stroke="#444" stroke-width="2" stroke-dasharray="6,2"/>
+            <path fill="none" d="M11.45 50.8h406.1" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"/>
+        </g>
     </g>
     <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
         <tspan>Gelöster Organischer Kohlenstoff (DOC)</tspan>
@@ -37,12 +41,18 @@
         <tspan>Milligramm pro Liter</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(10 40)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="148" height="38"/>
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="244" height="38"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
             <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
                 <tspan>Kanton Basel-Stadt</tspan>
             </text>
             <path fill="#FF8028" class="highcharts-point" d="M14 11h12v12H14z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1">
+            <path fill="none" d="M156.328 18h16" class="highcharts-graph" stroke-dasharray="6,2" stroke="#444" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(156.328 7)">
+                <tspan>Grenzwert</tspan>
+            </text>
         </g>
     </g>
     <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">
