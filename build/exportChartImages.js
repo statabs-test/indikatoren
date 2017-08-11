@@ -74,6 +74,7 @@ function createPathArray(chartId, view){
 }
 
 
+//alternatively use looping style used here: https://github.com/highcharts/node-export-server/issues/41 
 function createSvgImages(chartDetails){
     if (chartDetails.length > 0){
         var chartEntry = chartDetails.pop();   
