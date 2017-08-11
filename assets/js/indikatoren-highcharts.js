@@ -226,7 +226,7 @@ function escapeCssChars(myid) {
 
 
 //create chart as image
-function exportThumbnail(id, exportType, offline){    
+function exportThumbnail(id, exportType, offline, exportServer){    
   var chart = $(escapeCssChars('#container-' + id)).highcharts();
   //remove callback - otherwise end up in infinite loop
   delete chart.callback;
@@ -236,6 +236,11 @@ function exportThumbnail(id, exportType, offline){
     chart.options.chart.borderColor = '#ffffff';
     chart.options.chart.backgroundColor = '#ffffff';
   }
+  //set exportServer
+  if (exportServer) {
+    chart.options.exporting.url =  exportServer;
+  }
+  
   if (offline){     
     chart.exportChartLocal({
       type: exportType, 

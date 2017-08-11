@@ -72,6 +72,17 @@
                     "fontSize": "11px"
                 }
             }
+    	}, 
+    	exporting: {
+    	    allowHTML: true, 
+    	    //disable animations to export finished chart
+    	    chartOptions: {
+    	        plotOptions: {
+    	            series: {
+    	                animation: false
+    	            }
+    	        }
+    	    }
     	}
     };
     }()
