@@ -1,7 +1,7 @@
 (function(){
     return {
   "xAxis": {
-    "tickInterval": 1
+    "tickInterval": 5
   },
   "yAxis": {
     "min": undefined, 
@@ -17,7 +17,8 @@
     {"color": "#b00000 ",
       "marker": {
         "enabled": true
-      }   
+      }    
+    
     }, /* rot */
 	{"color": "#672773",
       "marker": {
@@ -29,17 +30,16 @@
         "enabled": true
       }    
     },/* grün  */
-	 {"color": "#b00000 ",
+    {"color": "#007a2f",
       "marker": {
         "enabled": true
       }    
-    }, /* rot */
+    }/* grün  */
   ],
   "legend": {
     "enabled": true,
-    "x": 30,
-    "y": 25,
-    "itemWidth": 1000,
+    "x": 25,
+    "itemWidth": 130,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
