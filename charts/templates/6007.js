@@ -17,7 +17,8 @@
     {"color": "#b00000 ",
       "marker": {
         "enabled": true
-      }   
+      }    
+    
     }, /* rot */
 	{"color": "#672773",
       "marker": {
@@ -29,11 +30,21 @@
         "enabled": true
       }    
     },/* grün  */
-	 {"color": "#b00000 ",
+    {"color": "#7F5F1A",
       "marker": {
         "enabled": true
       }    
-    }, /* rot */
+    },/* braun  */
+    {"color": "#E6E600",
+      "marker": {
+        "enabled": true
+      }    
+    },/* gelb  */
+    {"color": "#008AC3",
+      "marker": {
+        "enabled": true
+      }    
+    },/* blau  */
   ],
   "legend": {
     "enabled": true,

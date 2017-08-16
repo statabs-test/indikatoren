@@ -1,7 +1,7 @@
 (function(){
     return {
   "xAxis": {
-    "tickInterval": 5
+    "tickInterval": 1
   },
   "yAxis": {
     "min": undefined, 
@@ -30,11 +30,21 @@
         "enabled": true
       }    
     },/* grün  */
-    {"color": "#007a2f",
+    {"color": "#7F5F1A",
       "marker": {
         "enabled": true
       }    
-    }/* grün  */
+    },/* braun  */
+    {"color": "#E6E600",
+      "marker": {
+        "enabled": true
+      }    
+    },/* gelb  */
+    {"color": "#008AC3",
+      "marker": {
+        "enabled": true
+      }    
+    },/* blau  */
   ],
   "legend": {
     "enabled": true,
