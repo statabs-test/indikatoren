@@ -50,7 +50,7 @@
     },
     {
 	  "color": "#71A3B5",
-      "legendIndex": 2,
+      "legendIndex": 0,
       "type": "column",
       "tooltip": {
     		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
@@ -59,21 +59,17 @@
     {
       "color": "#000000",
       "type": "line",
-      "legendIndex": 3,
       "yAxis": 1,
       "marker": {
         "enabled": false
     },
-    "tooltip": {
-    		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}</b><br/>',
-     }
     }
   ],
-   /*"tooltip": {
-    //"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
-    "footerFormat": 'Total:: <b>{point.total:,.0f}</b>',
+   "tooltip": {
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+    //"footerFormat": 'Total:: <b>{point.total:,.0f}</b>',
     "shared": false
-  },  */
+  },  
   "legend": {
     "enabled": true,
     "x": 45,

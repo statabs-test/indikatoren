@@ -14,7 +14,7 @@
         },
         "title": {
             "style": {
-                "fontSize": "14px",
+                "fontSize": "10px",
                 "fontWeight": "bold",
                 "fontFamily": "Arial",
                 "color": "#000000"
@@ -23,7 +23,7 @@
         },
         "subtitle": {
             "style": {
-                "fontSize": "12px",
+                "fontSize": "10px",
                 "fontWeight": "normal",
                 "fontFamily": "Arial",
                 "color": "#000000"
@@ -49,7 +49,7 @@
     		"gridLineColor": "#fbfbfb",	
             "gridLineWidth": 1,
             "labels": {	
-    		    "style": {"color": "black", "cursor": "default", "fontSize": "11px", "textOverflow": "none"}
+    		    "style": {"color": "black", "cursor": "default", "fontSize": "10px", "textOverflow": "none"}
     		},
     		"marker": {
                     "color": "black"
@@ -69,7 +69,7 @@
             "title": {
                 "style": {
                     "fontWeight": "normal", 
-                    "fontSize": "11px"
+                    "fontSize": "10px"
                 }
             }
     	}

@@ -8,7 +8,7 @@
     return {
     	"legend": {
 			"title": {
-				"text": "in Tausend"
+				"text": ""
 			}
 			},
 		"colorAxis": {
@@ -17,7 +17,7 @@
 			"maxColor": "#4b7b1f",
 			"labels": {
 				"formatter": function () {
-					return Highcharts.numberFormat((this.value/1000),0); 
+					return Highcharts.numberFormat((this.value),1); 
 				}
 			}
 		},
@@ -50,7 +50,7 @@
 				tooltip: {
 					pointFormatter: function(){
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),0) + '</b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '</b><br/>';
 					}
 				}
 			}, 
@@ -162,7 +162,7 @@
 		                var yAxis = chart.yAxis[0],
 		                    zoomFactor = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
 		                //Increase or decrease default pie size
-		            	var pieSizeFactor = 0.5;
+		            	var pieSizeFactor = 0.3;
 		            	//Minimal pie size: a summand added to the calculated size
 		            	var pieSizeMin = 5;
 						//Negative values: return absolute value
@@ -232,7 +232,7 @@
 	                        tooltip: {
 	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {series.name} </span><br/>',
 	                            pointFormatter: function () {
-	                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),0) + '</b><br/>';
+	                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),1) + '</b><br/>';
 	                            }
 	                        },
 	                        data: [
@@ -304,7 +304,7 @@
 	                
 	                
 	                //Add manually drawn legend
-	                chart.renderer.label(chart.series[1].name, 264, 240)
+	                 chart.renderer.label(chart.series[1].name, 285, 240)
      				.css({
 	                    fontSize: '12px',
 	                    fontWeight: 'bold'
@@ -313,30 +313,30 @@
 			        	zIndex: 6,
 			        	//class: 'pieLegend'
 			        }).add();
-	                var maxBubbleSize = 500;
-	                var minBubbleSize = 5000
-	                chart.renderer.circle(280, 275, 0.5*pieSize(minBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
+	                var maxBubbleSize = 3;
+	                var minBubbleSize = 0.5
+	                chart.renderer.circle(410, 275, 0.5*pieSize(minBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
 					    fill: 'grey',
 					    'stroke-width': 0, 
 					    zIndex: 6,
 					    class: 'pieLegend'
 					}).add();
-					chart.renderer.label(minBubbleSize, 300, 265).attr({
+					chart.renderer.label(minBubbleSize, 430, 265).attr({
 						zIndex: 6,
 						class: 'pieLegend'
 					}).add();
-	                chart.renderer.circle(280, 300, 0.5*pieSize(maxBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
+	                chart.renderer.circle(410, 300, 0.5*pieSize(maxBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
 					    fill: 'grey',
 					    stroke: 'grey',
 					    'stroke-width': 0,
 					    zIndex: 6,
 					    class: 'pieLegend'
 					}).add();
-					chart.renderer.label(maxBubbleSize, 300, 290).attr({
+					chart.renderer.label(maxBubbleSize, 430, 290).attr({
 						zIndex: 6,
 						class: 'pieLegend'
 					}).add();
-				    /*chart.renderer.rect(290, 270, 10, 10, 0).attr({
+				    chart.renderer.rect(290, 270, 10, 10, 0).attr({
 			            'stroke-width':0,
 			            fill: 'grey',
 			            zIndex: 6,
@@ -351,11 +351,11 @@
 			            fill: 'salmon',
 			            zIndex: 6,
 			            class: 'pieLegend'
-			        }).add();*/
-			        /*chart.renderer.label('Abnahme', 310, 290).attr({
+			        }).add();
+			        chart.renderer.label('Abnahme', 310, 290).attr({
 			        	zIndex: 6,
 			        	class: 'pieLegend'
-			        }).add();*/
+			        }).add();
 
 					//Add click handler to bubbleLegend items
 					$('.pieLegend').click(function(){
