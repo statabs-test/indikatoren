@@ -112,6 +112,14 @@
                 (thumbnailOfflineExporting) 
                   ? $.getScript('assets/js/highcharts-offline-exporting-4.2.6.js', function(){createThumbnail(id, kuerzel, exportType, thumbnailOfflineExporting);}) 
                   : createThumbnail(id, kuerzel, exportType, thumbnailOfflineExporting, exportServer);
+                  
+                setTimeout(function(){
+                  //save the contents of the svg element to be harvested by casper to save into svg if necessary
+                  window.svg = $('svg').clone().wrap('<svg>').parent().html();
+                  //console.log(window.svg);
+                  $('body').append('<div id="chartSVG" class="hidden"> ' + window.svg + ' </div>');
+                  $('body').append('<div id="renderDone"/>');
+                }, 1000);
               }                     
             });
         });
