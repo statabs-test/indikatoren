@@ -2,6 +2,7 @@
 	global Highcharts
 	global geojson_wohnviertelEPSG2056
 	global $
+	global jQuery
 */
 (function(){
 
@@ -314,55 +315,49 @@
 			        	//class: 'pieLegend'
 			        }).add();
 	                var maxBubbleSize = 20;
-	                var minBubbleSize = 0.05
+	                var minBubbleSize = 0.05;
+	                var group = chart.renderer.g().attr({id: 'pieLegend', class: 'pieLegend'}).add();
 	                chart.renderer.circle(410, 275, 0.5*pieSize(minBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
 					    fill: 'grey',
 					    'stroke-width': 0, 
-					    zIndex: 6,
-					    class: 'pieLegend'
-					}).add();
+					    zIndex: 6
+					}).add(group);
 					chart.renderer.label(minBubbleSize, 430, 265).attr({
-						zIndex: 6,
-						class: 'pieLegend'
-					}).add();
+						zIndex: 6
+					}).add(group);
 	                chart.renderer.circle(410, 300, 0.5*pieSize(maxBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
 					    fill: 'grey',
 					    stroke: 'grey',
 					    'stroke-width': 0,
-					    zIndex: 6,
-					    class: 'pieLegend'
-					}).add();
+					    zIndex: 6
+					}).add(group);
 					chart.renderer.label(maxBubbleSize, 430, 290).attr({
-						zIndex: 6,
-						class: 'pieLegend'
-					}).add();
+						zIndex: 6
+					}).add(group);
 				    chart.renderer.rect(290, 270, 10, 10, 0).attr({
 			            'stroke-width':0,
 			            fill: 'grey',
-			            zIndex: 6,
-			            class: 'pieLegend'
-			        }).add();
+			            zIndex: 6
+			        }).add(group);
 			        chart.renderer.label('Zunahme', 310, 265).attr({
-			        	zIndex: 6,
-			        	class: 'pieLegend'
-			        }).add();
+			        	zIndex: 6
+			        }).add(group);
 					chart.renderer.rect(290, 295, 10, 10, 0).attr({
 			            'stroke-width':0,
 			            fill: 'salmon',
-			            zIndex: 6,
-			            class: 'pieLegend'
-			        }).add();
+			            zIndex: 6
+			        }).add(group);
 			        chart.renderer.label('Abnahme', 310, 290).attr({
-			        	zIndex: 6,
-			        	class: 'pieLegend'
-			        }).add();
+			        	zIndex: 6
+			        }).add(group);
 
 					//Add click handler to bubbleLegend items
-					$('.pieLegend').click(function(){
+					//Do not use jquery to make chart exportable on export.highcharts.com
+					document.getElementById('pieLegend').addEventListener('click', function(){
 						Highcharts.each(chart.series, function (data) {
 							if (data.userOptions.type == 'mappie'){
 								data.setVisible(false, false);
-							};
+							}
 						});
 					});
 	            }
