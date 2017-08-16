@@ -64,7 +64,6 @@
       /*  
       global $
       global jQuery
-      global indikatoren
       global idByKuerzel
       global kuerzelById
       global lazyRenderChartById
@@ -79,14 +78,13 @@
   
       //check if kuerzel or id is member in the list of existing charts
       if (idByKuerzel[kuerzel] || kuerzelById[id]){
-        var chartOptions = {};                  
         //if no id is given, retrieve it using kuerzel (and same for kuerzel)
         if (id == 'undefined') {
-          id = idByKuerzel[kuerzel]
-        };
+          id = idByKuerzel[kuerzel];
+        }
         if (kuerzel == 'undefined') {
-          kuerzel = kuerzelById[id]
-        };
+          kuerzel = kuerzelById[id];
+        }
         $.getJSON('metadata/single/'+ id + '.json').done(function(chartMetadata, textStatus){     
             //create div for chart
             jQuery('<div/>', {
@@ -97,7 +95,6 @@
             //check if chart needs to be exported, and how
             var exportType = window.decodeURIComponent($.url('?thumbnailType'));
   
-            var chartOptions = {};            
             var indikatorensetView = (window.decodeURIComponent($.url('?indikatorensetView')) === 'true') ? true : false;
             var view = window.decodeURIComponent($.url('?view'));
             if (!(view == 'indikatorenset' || view == 'portal' || view == 'print')) {
@@ -108,12 +105,15 @@
               //make sure we have the complete chart with the renderTo object, which contains the kuerzel
               if (this.renderTo){                        
                 //determine if offline exporting necessary
-                var thumbnailOfflineExporting = (window.decodeURIComponent($.url('?thumbnailOfflineExporting')) === "true") ? true : false ;                
+                var thumbnailOfflineExporting = (window.decodeURIComponent($.url('?thumbnailOfflineExporting')) === "true") ? true : false ;      
+                var exportServer = window.decodeURIComponent($.url('?exportServer'));
                 //load offline exporting module first if required, then invoke createThumbnail()
-                (thumbnailOfflineExporting) ? $.getScript('assets/js/highcharts-offline-exporting-4.2.6.js', function(){createThumbnail(id, kuerzel, exportType, thumbnailOfflineExporting)}) : createThumbnail(id, kuerzel, exportType, thumbnailOfflineExporting);
+                (thumbnailOfflineExporting) 
+                  ? $.getScript('assets/js/highcharts-offline-exporting-4.2.6.js', function(){createThumbnail(id, kuerzel, exportType, thumbnailOfflineExporting);}) 
+                  : createThumbnail(id, kuerzel, exportType, thumbnailOfflineExporting, exportServer);
               }                     
             });
-        })
+        });
       }
       else {
         //display error message
@@ -121,16 +121,16 @@
       }
       
       
-      function createThumbnail(id, kuerzel, exportType, thumbnailOfflineExporting){                  
+      function createThumbnail(id, kuerzel, exportType, thumbnailOfflineExporting, exportServer){                  
         switch (exportType){
           case "jpg":                 
-            exportThumbnail(id, "image/jpeg", thumbnailOfflineExporting);                     
+            exportThumbnail(id, "image/jpeg", thumbnailOfflineExporting, exportServer);                     
             break;                    
           case "png": 
-            exportThumbnail(id, "image/png", thumbnailOfflineExporting);
+            exportThumbnail(id, "image/png", thumbnailOfflineExporting, exportServer);
             break;
           case "svg":              
-            exportThumbnail(id, "image/svg+xml", thumbnailOfflineExporting);
+            exportThumbnail(id, "image/svg+xml", thumbnailOfflineExporting, exportServer);
             break;           
         }
       }
