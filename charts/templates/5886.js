@@ -27,7 +27,7 @@
             var first = this.series.data[0];
             var last  = this.series.data[this.series.data.length - 1];
             if (this.point.x === first.x || this.point.x === last.x) {
-              return /*this.point.x + ":<br/>" + */ Highcharts.numberFormat(this.point.y, 1, ",", " ") + "";
+              return /*this.point.x + ":<br/>" + */ Highcharts.numberFormat(this.point.y, 0, ",", " ") + "";
             }
             return "";
           }
@@ -35,7 +35,7 @@
     }
   ],
   "tooltip": {
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}</b><br/>',
+	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
     "shared": false
   },
   "plotOptions": {
