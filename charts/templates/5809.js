@@ -34,11 +34,6 @@
     "opposite": true
   }
   ],
-  "tooltip": {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
-    //"footerFormat": 'Total:: <b>{point.total:,.0f}</b>',
-    "shared": false
-  },  
   "series": [
         {
 	  "color": "#990300",
@@ -69,11 +64,12 @@
      }
     }
   ],
-   /*"tooltip": {
+   "tooltip": {
     //"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
-    "footerFormat": 'Total:: <b>{point.total:,.0f}</b>',
-    "shared": false
-  },  */
+    "headerFormat": '&nbsp;&nbsp;&nbsp;Gesamtbevölkerung: <b>{point.total:,.0f}</b><br/>',
+    "shared": true, 
+    useHTML: true
+  }, 
   "legend": {
     "enabled": true,
     "x": 45,

@@ -54,26 +54,26 @@
                 dataClasses: [{
                     to: 9.999,
                     color: '#D3E2E4',
-                     name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;<&nbsp;&nbsp;&nbsp;10,0"
+                     name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;<&nbsp;&nbsp;&nbsp;10,0"
                 }, {
                     from: 10,
                     to: 49.999,
                     color: '#A8C3CA',
-                    name: "&nbsp;10,0 − &nbsp;&nbsp;49,9"
+                    name: "&nbsp;&nbsp;10,0 − &nbsp;&nbsp;49,9"
                 }, {
                     from: 50,
                     to: 99.999,
                      color: '#689199',
-                     name: "&nbsp;50,0 − &nbsp;&nbsp;99,9"
+                     name: "&nbsp;&nbsp;50,0 − &nbsp;&nbsp;99,9"
                 },{
                     from: 100,
                     to: 149.999,
                     color: '#246370',
-                    name: "100,0− 149,9"
+                    name: "100,0 − 149,9"
                 },{
                     from: 150,
                     color: '#083038',
-                    name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp≥&nbsp150,0"
+                    name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp≥&nbsp150,0"
                 }], 
                 labels: {
 					"formatter": function () {

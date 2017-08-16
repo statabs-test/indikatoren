@@ -52,28 +52,28 @@
          colorAxis: {
                 dataClassColor: 'category',
                 dataClasses: [{
-                    to: 9999,
+                    to: 4.9,
                     color: '#D3E2E4',
-                    name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;10 000"
+                     name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;<&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5,0"
                 }, {
-                    from: 10000,
-                    to: 14999,
+                    from: 5,
+                    to: 29.9,
                     color: '#A8C3CA',
-                    name: "10 000 − 14 999"
+                    name: "&nbsp;&nbsp;&nbsp;5,0 − &nbsp;&nbsp;29,9"
                 }, {
-                    from: 15000,
-                    to: 19999,
+                    from: 30,
+                    to: 69.9,
                     color: '#689199',
-                    name: "15 000 − 19 999"
+                     name: "&nbsp;30,0 − &nbsp;&nbsp;69,9"
                 },{
-                    from: 20000,
-                    to: 29999,
+                    from: 70,
+                    to: 99.9,
                     color: '#246370',
-                    name: "20 000 −  29 999"
+                    name:"&nbsp;70,0 − &nbsp;&nbsp;99,9"
                 },{
-                    from: 30000,
+                    from: 100,
                     color: '#083038',
-                    name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;30 000"
+                    name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp≥&nbsp100,0"
                 }]
             },
 		"series": [
@@ -341,8 +341,8 @@
 			        	zIndex: 6,
 			        	//class: 'pieLegend'
 			        }).add();
-	                var maxBubbleSize = 500;
-	                var minBubbleSize = 5000
+	                var maxBubbleSize = 10;
+	                var minBubbleSize = 1
 	                chart.renderer.circle(473, 231, 0.5*pieSize(minBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
 					    fill: 'grey',
 					    'stroke-width': 0, 
