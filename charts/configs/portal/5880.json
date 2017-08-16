@@ -98,7 +98,6 @@
     },
     "type": "column",
     "inverted": false,
-    "forExport": true,
     "renderTo": "container-5880"
   },
   "plotOptions": {

@@ -312,7 +312,6 @@
     "type": "column",
     "marginBottom": 75,
     "marginTop": 75,
-    "forExport": true,
     "renderTo": "container-5809"
   },
   "title": {

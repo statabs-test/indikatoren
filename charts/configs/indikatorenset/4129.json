@@ -146,7 +146,7 @@
         ],
         [
           "2009",
-          1455
+          1454
         ],
         [
           "2010",
@@ -170,7 +170,7 @@
         ],
         [
           "2015",
-          1816
+          1817
         ],
         [
           "2016",
@@ -206,7 +206,7 @@
         ],
         [
           "2009",
-          1955
+          1945
         ],
         [
           "2010",
@@ -329,7 +329,6 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "forExport": true,
     "renderTo": "container-4129"
   },
   "title": {
@@ -339,7 +338,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Mietpreisentwicklung der Leerwohnungen nach Zimmerzahl"
+    "text": "Mietpreisentwicklung der Leerwohnungen"
   },
   "subtitle": {
     "style": {
@@ -348,7 +347,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "nach Zimmerzahl",
     "align": "left"
   },
   "tooltip": {
@@ -411,6 +410,6 @@
     }
   },
   "exporting": {
-    "filename": "I.09.4.0003"
+    "filename": "I.09.2.4129"
   }
 }

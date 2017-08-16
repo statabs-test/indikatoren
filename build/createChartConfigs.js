@@ -33,30 +33,34 @@ console.log('Loading rhein shape...');
 var geojson_rhein = JSON.parse(fs.readFileSync('geojson/rhein_reproj_mollweide_simp.json'));
 var geojson_rheinEPSG2056 = JSON.parse(fs.readFileSync('geojson/rhein_EPSG_2056.json'));
 
-console.log('deleting previous chart configs...');
-var rimraf = require("rimraf");
-rimraf.sync('charts/configs/indikatorenset/*');
-rimraf.sync('charts/configs/portal/*');
-rimraf.sync('charts/configs/print/*');
+//console.log('deleting previous chart configs...');
+//var rimraf = require("rimraf");
+//rimraf('charts/configs/indikatorenset/*', function(error) {
+    //if (error) { throw error; }
+    //rimraf('charts/configs/portal/*', function(error) {
+        //if (error) { throw error; }
 
-//var views = [true, false];
-var views = ['indikatorenset', 'portal'/*, 'print'*/];
-views.forEach(function(view){
-    console.log('Starting creation of chart config for view=' + view);
-    
-    var files = glob.sync("metadata/single/*.json");
-    files.forEach(function(filepath){
-        var fileContents = fs.readFileSync(filepath);
-        var indikator = JSON.parse(fileContents);
-        if (indikator.visible == undefined || indikator.visible){
-            console.log('Creating config for chart ' + indikator.id + ', view=' + view +'...');
-            saveChartConfig(indikator, view, console);
-        }
-        else {
-            console.log('Chart ' + indikator.id + ' is invisible, ignoring.');
-        }
-    });
-});
+        //var views = [true, false];
+        var views = ['indikatorenset', 'portal'/*, 'print'*/];
+        views.forEach(function(view){
+            console.log('Starting creation of chart config for indikatorensetView=' + view);
+            
+            var files = glob.sync("metadata/single/*.json");
+            files.forEach(function(filepath){
+                var fileContents = fs.readFileSync(filepath);
+                var indikator = JSON.parse(fileContents);
+                //only create json files if indikator is visible and not from kennzahlenset "Umwelt"
+                if ((indikator.visible == undefined || indikator.visible) && indikator.kennzahlenset != "Umwelt"){
+                    console.log('Creating config for chart ' + indikator.id + ', indikatorensetView=' + view +'...');
+                    saveChartConfig(indikator, view, console);
+                }
+                else {
+                    console.log('Chart ' + indikator.id + ' is invisible or in kennzahlenset "Umwelt", ignoring.');
+                }
+            });
+        });
+//    });
+//});
 
 
 function isIndikatorensetView(view){
@@ -115,8 +119,9 @@ function saveChartConfig(indikator, view, console){
     var options = (result.result || {} );
 
     //disable animations and prevent exceptions
-    options.chart = (options["chart"] || {});
-    options.chart.forExport = true;
+    options.chart = (options.chart || {});
+    //forExport = true  -- crashes highcharts export server for chart 4741
+    //options.chart.forExport = true;
     
     result = execute('charts/templates/' + indikator.template + '.js', {Highcharts: Highcharts, geojson_wohnviertel: geojson_wohnviertel, geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056, rheinData: rheinData, rheinDataEPSG2056: rheinDataEPSG2056, console: console});
     var template = result.result;

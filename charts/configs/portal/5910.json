@@ -189,7 +189,6 @@
       "fontFamily": "Arial"
     },
     "type": "pie",
-    "forExport": true,
     "renderTo": "container-5910"
   },
   "plotOptions": {

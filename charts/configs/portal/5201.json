@@ -107,7 +107,6 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "forExport": true,
     "renderTo": "container-5201"
   },
   "title": {

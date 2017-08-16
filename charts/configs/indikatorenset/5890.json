@@ -393,7 +393,6 @@
     },
     "type": "column",
     "inverted": false,
-    "forExport": true,
     "renderTo": "container-5890"
   },
   "title": {

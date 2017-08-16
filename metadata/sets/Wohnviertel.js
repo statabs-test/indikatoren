@@ -800,11 +800,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Anteil Personen ohne Religionszugehörigkeit",
-		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.7.5111",
-		"kuerzelKunde": "GS-3.B",
-		"description": "Anteil Personen ohne Religionszugehörigkeit",
+		"title": "Anteil Konfessionslose",
+		"subtitle": "Stand: 2015",
+		"kuerzel": "I.01.7.0002",
+		"kuerzelKunde": "GS-3.b",
+		"description": "Anteil Konfessionslose",
 		"id": 5111,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Religionen",
@@ -812,7 +812,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-05-04T14:56:38.3838",
+		"aktualisierungsdatum": "",
 		"schlagwort": [
 			"Religion"
 		],
@@ -922,9 +922,9 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Altersquotient",
-		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.1.5114",
-		"kuerzelKunde": "GS-6.B",
+		"subtitle": "Stand: 2015",
+		"kuerzel": "I.01.1.0048",
+		"kuerzelKunde": "GS-6.b",
 		"description": "Altersquotient",
 		"id": 5114,
 		"thema": "01 Bevölkerung",
@@ -1003,9 +1003,9 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Jugendquotient",
-		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.1.5116",
-		"kuerzelKunde": "GS-8.B",
+		"subtitle": "Stand: 2015",
+		"kuerzel": "I.01.1.0050",
+		"kuerzelKunde": "GS-8.b",
 		"description": "Jugendquotient",
 		"id": 5116,
 		"thema": "01 Bevölkerung",
@@ -1014,7 +1014,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-03-17T14:09:43.4343",
+		"aktualisierungsdatum": "",
 		"schlagwort": [
 			"Alter",
 			"Jugend"

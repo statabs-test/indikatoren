@@ -134,7 +134,6 @@
     },
     "type": "column",
     "inverted": false,
-    "forExport": true,
     "renderTo": "container-5877"
   },
   "plotOptions": {

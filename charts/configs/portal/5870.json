@@ -321,7 +321,6 @@
                 }
     },
     "type": "column",
-    "forExport": true,
     "renderTo": "container-5870"
   },
   "plotOptions": {

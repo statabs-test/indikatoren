@@ -106,8 +106,7 @@
     },
     "renderTo": "container-5864",
     "type": "column",
-    "inverted": false,
-    "forExport": true
+    "inverted": false
   },
   "plotOptions": {
     "series": {

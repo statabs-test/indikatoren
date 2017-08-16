@@ -21417,7 +21417,6 @@
 	                chart.redraw();
 	            }
     },
-    "forExport": true,
     "renderTo": "container-9999"
   },
   "title": {
