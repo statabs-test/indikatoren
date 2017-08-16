@@ -176,7 +176,6 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "forExport": true,
     "renderTo": "container-6005"
   },
   "title": {

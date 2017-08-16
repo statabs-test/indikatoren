@@ -219,7 +219,6 @@
     "zoomType": "xy",
     "type": "scatter",
     "inverted": true,
-    "forExport": true,
     "renderTo": "container-4824"
   },
   "title": {

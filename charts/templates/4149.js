@@ -74,7 +74,8 @@
       "yAxis": 1
     }
   ],  "tooltip": {
-    "shared": true
+    "shared": true, 
+    valueDecimals: 1
   },
   "chart": {
     "zoomType": "xy",

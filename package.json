@@ -12,9 +12,11 @@
     "seedrandom": "2.4.2"
   },
   "devDependencies": {
-    "copy-node-modules": "0.4.1",
     "forever": "^0.15.3",
+    "casperjs": "1.1.4",
+    "copy-node-modules": "1.0.2",
     "gh-pages-travis": "1.0.0",
+    "highcharts-export-server": "2.0.0",
     "glob": "7.1.1",
     "highcharts-export-server": "2.0.0",
     "highcharts-phantomjs": "2.2.0",
@@ -23,7 +25,7 @@
     "phantomjs-prebuilt": "2.1.14",
     "reinstall": "1.1.1",
     "rimraf": "2.5.4",
-    "serialize-javascript": "^1.3.0",
+    "serialize-javascript": "1.3.0",
     "svgo": "0.7.2"
   },
   "scripts": {
@@ -31,10 +33,11 @@
     "build:database": "node build/createJsonDatabase",
     "build:partial_databases": "node build/createKennzahlensetJsonFiles.js",
     "build:charts": "node build/createChartConfigs",
-    "build:images_phantom_fast": "node build/createThumbnailsPhantomFast",
+    "build:images": "node build/exportChartImages",
+    "build:umwelt_charts": "node node_modules/casperjs/bin/casperjs.js build/createUmweltberichtConfigs.js   ",
     "build:optimize_images": "echo 'Optimizing svg images...' && svgo --pretty --multipass -f images/portal/ && svgo --pretty --multipass -f images/indikatorenset/ && echo '...done optimizing images!'",
     "build:copy_modules": "echo 'Copying required node_modules to assets/js/modules...' && copy-node-modules . assets/js -v && rm -rf assets/js/modules && mv assets/js/node_modules assets/js/modules",
-    "build": "npm run build:database && npm run build:partial_databases && npm run build:charts && npm run build:images_phantom_fast && npm run build:optimize_images && npm run build:copy_modules",
+    "build": "npm run build:database && npm run build:partial_databases && npm run build:charts && npm run build:images && npm run build:optimize_images && npm run build:copy_modules",
     "build:update_dependencies": "reinstall && npm prune --production=false && npm update --dev",
     "test": "echo \"No test specified\" && exit 0",
     "server": "http-server -p 8000 -c-1 -s -o ",

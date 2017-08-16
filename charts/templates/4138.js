@@ -4,6 +4,13 @@
     "series": {
       "stacking": null,
       "groupPadding": 0.05
+    }, 
+    line: {
+        tooltip: {
+          pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
+          shared: false
+        },
+        shadow: true
     }
   },
   "yAxis": [
@@ -94,7 +101,7 @@
       "yAxis": 1,
       "marker": {
 				"enabled": false
-			},
+			}
     },
     {
       "color": "#ffbb58",
@@ -133,7 +140,7 @@
       "yAxis": 1,
       "marker": {
 				"enabled": false
-			},
+			}
     },
     {
       "color": "#923f8d",

@@ -246,9 +246,7 @@
       "legendIndex": 3,
       "dataLabels": {
         "style": {
-          "fontSize": "12px",
           "fontWeight": "normal",
-          "fontFamily": "Arial",
           "color": "black"
         },
         "enabled": true,
@@ -395,7 +393,6 @@
     },
     "type": "column",
     "inverted": false,
-    "forExport": true,
     "renderTo": "container-5890"
   },
   "title": {

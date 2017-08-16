@@ -172,7 +172,6 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "forExport": true,
     "renderTo": "container-4855"
   },
   "title": {

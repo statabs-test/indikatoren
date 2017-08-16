@@ -218,7 +218,6 @@
                 }
     },
     "type": "column",
-    "forExport": true,
     "renderTo": "container-5870"
   },
   "plotOptions": {
@@ -226,7 +225,10 @@
       "borderWidth": 0,
       "dataLabels": {
         "style": {
-          "fontSize": "10px"
+          "fontSize": "10px",
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "black"
         }
       },
       "pointWidth": 10,

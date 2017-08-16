@@ -291,7 +291,6 @@
     },
     "type": "line",
     "alignTicks": false,
-    "forExport": true,
     "renderTo": "container-5909"
   },
   "title": {

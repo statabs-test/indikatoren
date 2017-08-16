@@ -21504,7 +21504,6 @@
 					
 	            }
     },
-    "forExport": true,
     "renderTo": "container-5884"
   },
   "title": {
@@ -21621,6 +21620,14 @@
     }
   },
   "exporting": {
+    "allowHTML": true,
+    "chartOptions": {
+      "plotOptions": {
+        "series": {
+          "animation": false
+        }
+      }
+    },
     "filename": "I.03.2.05824"
   }
 }

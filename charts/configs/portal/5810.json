@@ -220,7 +220,6 @@
     },
     "type": "column",
     "inverted": false,
-    "forExport": true,
     "renderTo": "container-5810"
   },
   "plotOptions": {

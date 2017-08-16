@@ -7,7 +7,7 @@ global indikatoren
 global templatesById
 */
 
-"use strict"; 
+//"use strict"; 
 
 //parse csv and configure HighCharts object
 function parseData(chartOptions, data, completeHandler) {
@@ -56,7 +56,7 @@ function createChartConfig(data, chartOptions, template, chartMetaData, view, su
 
 
 //merge series with all options and draw chart
-function drawChart(data, chartOptions, template, chartMetaData, view, suppressNumberInTitle, callbackFn){
+function drawChartFromData(data, chartOptions, template, chartMetaData, view, suppressNumberInTitle, callbackFn){
   createChartConfig(data, chartOptions, template, chartMetaData, view, suppressNumberInTitle, function(options){
     //decide if stockchart, map, or chart
     var constr = options.isStock ? 'StockChart': (options.chart.type === 'map' ? 'Map' : 'Chart');
@@ -69,6 +69,31 @@ function drawChart(data, chartOptions, template, chartMetaData, view, suppressNu
 function isIndikatorensetView(view){
   return ((view == true || view == "indikatorenset") ? true :  false);
 }
+
+
+
+function drawChartFromJson(id, indikatorensetView, chartMetaData, suppressNumberInTitle, callbackFn){
+  loadChartConfig(id, indikatorensetView,  function(options){
+    //decide if stockchart, map, or chart
+    var constr = options.isStock ? 'StockChart': (options.chart.type === 'map' ? 'Map' : 'Chart');
+    var injectedOptions = injectMetadataToChartConfig(options, chartMetaData, indikatorensetView, suppressNumberInTitle);
+    return new Highcharts[constr](injectedOptions, callbackFn);
+  });
+}
+
+
+function loadChartConfig(id, indikatorensetView, callbackFn){
+  var chartOptionsUrl = "charts/configs/portal/" + id + ".json";
+  var jqxhr = $.get(chartOptionsUrl, function() {}, null, "text")
+    .done(function(data) {
+      var chartOptions = deserialize(data);
+      callbackFn(chartOptions);    
+    })
+    .fail(function(e) {
+      console.log( "error"  + e);
+    });
+}
+
 
 
 //Add data from database to chart config
@@ -91,6 +116,12 @@ function injectMetadataToChartConfig(options, data, view, suppressNumberInTitle)
     delete options.subtitle;
     options.credits.text = ' ';
     //options.exporting.scale = 4;
+  }
+  //changes for charts from Umweltbericht
+  if (data.kennzahlenset == "Umwelt"){
+    //options['chart']["width"] =  485;
+    //options['chart']["height"] = 415;
+    delete options.exporting.buttons;
   }
   return options;
 }
@@ -115,31 +146,37 @@ function createEmptyLabels(options){
 
 //todo: create new function that uses the pre-created chart configs from /charts/configs
 //load global options, template, chartOptions from external scripts, load csv data from external file, and render chart to designated div
-function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, chartMetaData, view, suppressNumberInTitle, callbackFn){
-  //load scripts one after the other, then load csv and draw the chart
-  $.when(    
-      $.getScript(globalOptionsUrl),
-      $.getScript(templateUrl),
-      $.getScript(chartUrl),
-      $.Deferred(function( deferred ){
-        $(deferred.resolve);
-      })
-  ).done(function(optionsReturnData, templateReturnData, chartReturnData){
-      //get returned script, evaluate it, save returned object to variable. 
-      var globalOptions = eval(optionsReturnData[0]);
-      var chartOptions = eval(chartReturnData[0]);
-      var template = eval(templateReturnData[0]);
-      
-      //load csv and draw chart            
-      $.get(csvUrl, function(data){
-        drawChart(data, chartOptions, template, chartMetaData, view, suppressNumberInTitle, callbackFn);
-      });
-    }
-  ).fail(function(jqXHR, textStatus, errorThrown){
-    console.log('$.getScript() failed! ');
-    console.log(textStatus);
-    console.log(errorThrown);
-  });  
+function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn){
+  //Umwelt data are rendered directly from json, not from csv + json files
+  if (chartMetaData.kennzahlenset != "Umwelt"){
+    //load scripts one after the other, then load csv and draw the chart
+    $.when(    
+        //$.getScript(globalOptionsUrl),
+        $.getScript(templateUrl),
+        $.getScript(chartUrl),
+        $.Deferred(function( deferred ){
+          $(deferred.resolve);
+        })
+    ).done(function(/*optionsReturnData, */templateReturnData, chartReturnData){
+        //get returned script, evaluate it, save returned object to variable. 
+        //var globalOptions = eval(optionsReturnData[0]);
+        var chartOptions = eval(chartReturnData[0]);
+        var template = eval(templateReturnData[0]);
+        
+        //load csv and draw chart            
+        $.get(csvUrl, function(data){
+          drawChartFromData(data, chartOptions, template, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn);
+        });
+      }
+    ).fail(function(jqXHR, textStatus, errorThrown){
+      console.log('$.getScript() failed! ');
+      console.log(textStatus);
+      console.log(errorThrown);
+    });  
+  }
+  else{
+    drawChartFromJson(chartMetaData.id, indikatorensetView, chartMetaData, suppressNumberInTitle, callbackFn);
+  }
 }
 
 
@@ -225,6 +262,12 @@ function escapeCssChars(myid) {
 }
 
 
+//from https://github.com/yahoo/serialize-javascript
+function deserialize(serializedJavascript){
+  return eval('(' + serializedJavascript + ')');
+}
+
+
 //create chart as image
 function exportThumbnail(id, exportType, offline, exportServer){    
   var chart = $(escapeCssChars('#container-' + id)).highcharts();
@@ -254,4 +297,3 @@ function exportThumbnail(id, exportType, offline, exportServer){
     });      
   }
 }
-

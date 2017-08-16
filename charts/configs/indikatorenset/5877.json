@@ -118,7 +118,7 @@
     "width": 665,
     "height": 208,
     "spacing": [
-      7,
+      15,
       3,
       8,
       3
@@ -134,7 +134,6 @@
     },
     "type": "column",
     "inverted": false,
-    "forExport": true,
     "renderTo": "container-5877"
   },
   "plotOptions": {
@@ -142,7 +141,10 @@
       "borderWidth": 0,
       "dataLabels": {
         "style": {
-          "fontSize": "10px"
+          "fontSize": "10px",
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "black"
         }
       }
     }

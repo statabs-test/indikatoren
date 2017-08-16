@@ -146,7 +146,6 @@
       "fontFamily": "Arial"
     },
     "type": "pie",
-    "forExport": true,
     "renderTo": "container-9998"
   },
   "plotOptions": {

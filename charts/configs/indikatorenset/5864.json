@@ -106,15 +106,17 @@
     },
     "renderTo": "container-5864",
     "type": "column",
-    "inverted": false,
-    "forExport": true
+    "inverted": false
   },
   "plotOptions": {
     "series": {
       "borderWidth": 0,
       "dataLabels": {
         "style": {
-          "fontSize": "10px"
+          "fontSize": "10px",
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "black"
         }
       },
       "pointPadding": 100,

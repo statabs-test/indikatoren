@@ -51,9 +51,13 @@
         [
           "2015",
           9525625
+        ],
+        [
+          "2016",
+          10113441
         ]
       ],
-      "name": "Mietzinsbeiträge in Franken",
+      "name": "Familienmietzinsbeiträge in Franken",
       "turboThreshold": 0
     }
   ],
@@ -85,7 +89,6 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "forExport": true,
     "renderTo": "container-4153"
   },
   "title": {
@@ -127,7 +130,6 @@
       },
       "format": "{value:,.0f}"
     },
-    "max": 10000000,
     "tickInterval": 2000000
   },
   "credits": {
@@ -168,6 +170,6 @@
     }
   },
   "exporting": {
-    "filename": "I.13.2.0003"
+    "filename": "I.13.2.4153"
   }
 }
