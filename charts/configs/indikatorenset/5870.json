@@ -1,9 +1,12 @@
 {
   "series": [
     {
-      "index": 1,
       "color": "#990300",
       "legendIndex": 1,
+      "type": "column",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
       "data": [
         [
           "1997",
@@ -90,9 +93,12 @@
       "turboThreshold": 0
     },
     {
-      "index": 0,
       "color": "#71A3B5",
-      "legendIndex": 0,
+      "legendIndex": 2,
+      "type": "column",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
       "data": [
         [
           "1997",
@@ -177,6 +183,102 @@
       ],
       "name": "Ausland",
       "turboThreshold": 0
+    },
+    {
+      "color": "#000000",
+      "type": "line",
+      "legendIndex": 3,
+      "yAxis": 1,
+      "marker": {
+        "enabled": false
+      },
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "1997",
+          0.267558287388
+        ],
+        [
+          "1998",
+          0.270131843994
+        ],
+        [
+          "1999",
+          0.275232590551
+        ],
+        [
+          "2000",
+          0.275595102369
+        ],
+        [
+          "2001",
+          0.280776063032
+        ],
+        [
+          "2002",
+          0.288726963274
+        ],
+        [
+          "2003",
+          0.294650210134
+        ],
+        [
+          "2004",
+          0.299659905452
+        ],
+        [
+          "2005",
+          0.304352916134
+        ],
+        [
+          "2006",
+          0.311919570588
+        ],
+        [
+          "2007",
+          0.313393617021
+        ],
+        [
+          "2008",
+          0.318270062672
+        ],
+        [
+          "2009",
+          0.325844404265
+        ],
+        [
+          "2010",
+          0.328020587109
+        ],
+        [
+          "2011",
+          0.333696036985
+        ],
+        [
+          "2012",
+          0.338712595433
+        ],
+        [
+          "2013",
+          0.345607007096
+        ],
+        [
+          "2014",
+          0.350072020807
+        ],
+        [
+          "2015",
+          0.352868095981
+        ],
+        [
+          "2016",
+          0.357244483012
+        ]
+      ],
+      "name": "Ausländeranteil",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -195,7 +297,8 @@
         "color": "#000000"
       }
     },
-    "tickColor": "#FFFFFF"
+    "tickColor": "#FFFFFF",
+    "tickInterval": 2
   },
   "chart": {
     "borderColor": "#fbfbfb",
@@ -226,7 +329,10 @@
       "borderWidth": 0,
       "dataLabels": {
         "style": {
-          "fontSize": "10px"
+          "fontSize": "10px",
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "black"
         }
       },
       "pointWidth": 10,
@@ -252,26 +358,27 @@
     "text": "",
     "align": "left"
   },
-  "yAxis": {
-    "gridLineColor": "#B9CFD7",
-    "gridLineWidth": 0.5,
-    "lineColor": "#B9CFD7",
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
+  "yAxis": [
+    {
+      "title": {
+        "text": null
       },
-      "text": null
-    },
-    "labels": {
-      "style": {
-        "fontSize": 10,
-        "color": "#000000"
+      "labels": {
+        "format": "{value:,.0f}"
       },
-      "format": "{value:,.0f}"
+      "min": 0
     },
-    "max": 200000
-  },
+    {
+      "title": {
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.1f}"
+      },
+      "min": 0,
+      "opposite": true
+    }
+  ],
   "navigation": {
     "menuItemStyle": {
       "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
@@ -300,7 +407,7 @@
       "fontWeight": "normal"
     },
     "enabled": true,
-    "x": 40,
+    "x": 45,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
@@ -313,9 +420,8 @@
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "footerFormat": "Total:: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
-    "shared": true
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "exporting": {
     "filename": "I.01.1.05809"

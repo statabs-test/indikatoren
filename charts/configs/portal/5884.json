@@ -21509,7 +21509,7 @@
   },
   "title": {
     "style": {
-      "fontSize": "14px",
+      "fontSize": "10px",
       "fontWeight": "bold",
       "fontFamily": "Arial",
       "color": "#000000"
@@ -21519,7 +21519,7 @@
   },
   "subtitle": {
     "style": {
-      "fontSize": "12px",
+      "fontSize": "10px",
       "fontWeight": "normal",
       "fontFamily": "Arial",
       "color": "#000000"
@@ -21550,7 +21550,7 @@
       "style": {
         "color": "black",
         "cursor": "default",
-        "fontSize": "11px",
+        "fontSize": "10px",
         "textOverflow": "none"
       },
       "formatter": function () {
@@ -21565,30 +21565,30 @@
       {
         "to": 9.999,
         "color": "#D3E2E4",
-        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;\u003C&nbsp;&nbsp;&nbsp;10,0"
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;\u003C&nbsp;&nbsp;&nbsp;10,0"
       },
       {
         "from": 10,
         "to": 49.999,
         "color": "#A8C3CA",
-        "name": "&nbsp;10,0 − &nbsp;&nbsp;49,9"
+        "name": "&nbsp;&nbsp;10,0 − &nbsp;&nbsp;49,9"
       },
       {
         "from": 50,
         "to": 99.999,
         "color": "#689199",
-        "name": "&nbsp;50,0 − &nbsp;&nbsp;99,9"
+        "name": "&nbsp;&nbsp;50,0 − &nbsp;&nbsp;99,9"
       },
       {
         "from": 100,
         "to": 149.999,
         "color": "#246370",
-        "name": "100,0− 149,9"
+        "name": "100,0 − 149,9"
       },
       {
         "from": 150,
         "color": "#083038",
-        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp≥&nbsp150,0"
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp≥&nbsp150,0"
       }
     ]
   },
@@ -21606,7 +21606,7 @@
     "title": {
       "style": {
         "fontWeight": " bold",
-        "fontSize": "11px"
+        "fontSize": "10px"
       },
       "text": null
     },
@@ -21621,6 +21621,14 @@
     }
   },
   "exporting": {
+    "allowHTML": true,
+    "chartOptions": {
+      "plotOptions": {
+        "series": {
+          "animation": false
+        }
+      }
+    },
     "filename": "I.03.2.05824"
   }
 }

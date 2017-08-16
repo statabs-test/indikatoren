@@ -1,151 +1,403 @@
 {
   "series": [
     {
-      "color": "#ff8028",
+      "color": "#B00000",
       "marker": {
         "enabled": true
       },
-      "dataLabels": {
-        "useHTML": false,
-        "style": {
-          "fontSize": "10px",
-          "fontWeight": "normal"
-        },
-        "enabled": true,
-        "formatter": function () {
-            var first = this.series.data[0];
-            var last  = this.series.data[this.series.data.length - 1];
-            if (this.point.y === first.y || this.point.y === last.y ) {
-              return this.point.x + ":<br/><span style='color: " + this.point.color + "'> " + Highcharts.numberFormat(this.point.y, 1, ",", " ") + "</span>";
-            }
-            return "";
-          }
-      },
       "data": [
         [
-          1991,
-          105.4
-        ],
-        [
           1996,
-          111.2
+          111.1819
         ],
         [
           2000,
-          126.6
+          126.6112
         ],
         [
           2002,
-          124.9
+          124.9015
         ],
         [
           2003,
-          117.9
+          117.8925
         ],
         [
           2004,
-          119
-        ],
-        [
-          2005,
-          null
+          119.0159
         ],
         [
           2006,
-          117.2
+          117.1611
         ],
         [
           2008,
-          135.3
+          135.3056
         ],
         [
           2010,
-          136
+          135.9693
         ],
         [
           2012,
-          135.2
+          135.2396
         ],
         [
           2014,
-          134.7
+          134.6885
         ]
       ],
-      "name": "Kontinental"
+      "name": "Kontinental BS"
+    },
+    {
+      "color": "#FF8028",
+      "visible": true,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          1996,
+          99.3126
+        ],
+        [
+          2000,
+          107.5853
+        ],
+        [
+          2002,
+          106.8432
+        ],
+        [
+          2003,
+          104.8577
+        ],
+        [
+          2004,
+          106.5483
+        ],
+        [
+          2006,
+          106.6269
+        ],
+        [
+          2008,
+          107.2311
+        ],
+        [
+          2010,
+          107.8557
+        ],
+        [
+          2012,
+          108.5761
+        ],
+        [
+          2014,
+          107.9746
+        ]
+      ],
+      "name": "Global BS"
+    },
+    {
+      "color": "#007A2F",
+      "visible": true,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          1996,
+          122.6166
+        ],
+        [
+          2000,
+          141.9549
+        ],
+        [
+          2002,
+          137.1414
+        ],
+        [
+          2003,
+          132.7222
+        ],
+        [
+          2004,
+          132.0871
+        ],
+        [
+          2006,
+          130.3061
+        ],
+        [
+          2008,
+          148.028
+        ],
+        [
+          2010,
+          148.6229
+        ],
+        [
+          2012,
+          148.4009
+        ],
+        [
+          2014,
+          147.5576
+        ]
+      ],
+      "name": "Kontinental ZH"
+    },
+    {
+      "color": "#8AB77D",
+      "visible": true,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          1996,
+          102.608
+        ],
+        [
+          2000,
+          113.6136
+        ],
+        [
+          2002,
+          112.5612
+        ],
+        [
+          2003,
+          110.1057
+        ],
+        [
+          2004,
+          112.066
+        ],
+        [
+          2006,
+          111.3452
+        ],
+        [
+          2008,
+          111.4037
+        ],
+        [
+          2010,
+          112.5485
+        ],
+        [
+          2012,
+          113.3995
+        ],
+        [
+          2014,
+          112.5891
+        ]
+      ],
+      "name": "Global ZH"
     },
     {
       "color": "#4f81bd",
+      "visible": true,
       "marker": {
         "enabled": true
       },
-      "dataLabels": {
-        "useHTML": false,
-        "style": {
-          "fontSize": "10px",
-          "fontWeight": "normal"
-        },
-        "enabled": true,
-        "verticalAlign": "top",
-        "formatter": function () {
-            var first = this.series.data[0];
-            var last  = this.series.data[this.series.data.length - 1];
-            if (this.point.y === first.y || this.point.y === last.y ) {
-              return "<span style='color: " + this.point.color + "'> " + Highcharts.numberFormat(this.point.y, 1, ",", " ") + "</span>";
-            }
-            return "";
-          }
-      },
       "data": [
         [
-          1991,
-          87.9
-        ],
-        [
           1996,
-          99.3
+          92.1565
         ],
         [
           2000,
-          107.6
+          108.4681
         ],
         [
           2002,
-          106.8
+          104.3611
         ],
         [
           2003,
-          104.9
+          100.2264
         ],
         [
           2004,
-          null
-        ],
-        [
-          2005,
-          null
+          101.1864
         ],
         [
           2006,
-          106.6
+          104.8436
         ],
         [
           2008,
-          107.2
+          119.6274
         ],
         [
           2010,
-          107.9
+          121.6514
         ],
         [
           2012,
-          108.6
+          124.955
         ],
         [
           2014,
-          106.5
+          120.8834
         ]
       ],
-      "name": "Global"
+      "name": "Kontinental ZH"
+    },
+    {
+      "color": "#A8C3CA",
+      "visible": true,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          1996,
+          94.2086
+        ],
+        [
+          2000,
+          105.1817
+        ],
+        [
+          2002,
+          103.9817
+        ],
+        [
+          2003,
+          101.9157
+        ],
+        [
+          2004,
+          103.7479
+        ],
+        [
+          2006,
+          104.3733
+        ],
+        [
+          2008,
+          105.5164
+        ],
+        [
+          2010,
+          106.3234
+        ],
+        [
+          2012,
+          106.9653
+        ],
+        [
+          2014,
+          106.1885
+        ]
+      ],
+      "name": "Global BE"
+    },
+    {
+      "color": "#662673",
+      "visible": true,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          1996,
+          111.8561
+        ],
+        [
+          2000,
+          124.9565
+        ],
+        [
+          2002,
+          127.3041
+        ],
+        [
+          2003,
+          123.2102
+        ],
+        [
+          2004,
+          122.5876
+        ],
+        [
+          2006,
+          122.2398
+        ],
+        [
+          2008,
+          136.8721
+        ],
+        [
+          2010,
+          135.9837
+        ],
+        [
+          2012,
+          137.5492
+        ],
+        [
+          2014,
+          137.8176
+        ]
+      ],
+      "name": "Kontinental GE"
+    },
+    {
+      "color": "#B375AB",
+      "visible": true,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          1996,
+          100.5617
+        ],
+        [
+          2000,
+          106.9877
+        ],
+        [
+          2002,
+          106.5614
+        ],
+        [
+          2003,
+          105.4989
+        ],
+        [
+          2004,
+          107.8142
+        ],
+        [
+          2006,
+          107.7053
+        ],
+        [
+          2008,
+          107.2748
+        ],
+        [
+          2010,
+          107.9276
+        ],
+        [
+          2012,
+          108.3006
+        ],
+        [
+          2014,
+          108.4709
+        ]
+      ],
+      "name": "Global GE"
     }
   ],
   "chart": {
@@ -252,8 +504,9 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "x": 25,
-    "itemWidth": 1000
+    "x": 45,
+    "itemWidth": 120,
+    "itemMarginBottom": 5
   },
   "plotOptions": {
     "line": {

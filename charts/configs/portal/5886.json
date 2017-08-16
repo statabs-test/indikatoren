@@ -16,7 +16,7 @@
             var first = this.series.data[0];
             var last  = this.series.data[this.series.data.length - 1];
             if (this.point.x === first.x || this.point.x === last.x) {
-              return /*this.point.x + ":<br/>" + */ Highcharts.numberFormat(this.point.y, 1, ",", " ") + "";
+              return /*this.point.x + ":<br/>" + */ Highcharts.numberFormat(this.point.y, 0, ",", " ") + "";
             }
             return "";
           }
@@ -32,15 +32,15 @@
         ],
         [
           2010,
-          440.5331175
-        ],
-        [
-          2011,
           439.241852
         ],
         [
-          2012,
+          2011,
           438.761816
+        ],
+        [
+          2012,
+          438.881447
         ],
         [
           2013,
@@ -48,7 +48,7 @@
         ],
         [
           2014,
-          438.881447
+          410.355883
         ],
         [
           2015,
@@ -56,10 +56,6 @@
         ],
         [
           2016,
-          410.355883
-        ],
-        [
-          2017,
           410.665186
         ]
       ],
@@ -111,7 +107,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
     "min": 0,

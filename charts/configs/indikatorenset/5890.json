@@ -246,9 +246,7 @@
       "legendIndex": 3,
       "dataLabels": {
         "style": {
-          "fontSize": "12px",
           "fontWeight": "normal",
-          "fontFamily": "Arial",
           "color": "black"
         },
         "enabled": true,

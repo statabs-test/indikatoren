@@ -5228,7 +5228,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund 24 400 Personen aus der baselstädtischen Wohnbevölkerung pendelten 2015 in andere Kantone, um einer Erwerbstätigkeit nachzugehen. Etwa 300 pendelten dafür ins Ausland.",
+		"lesehilfe": "Gut 24 000 Personen aus der baselstädtischen Wohnbevölkerung pendelten 2015 in andere Kantone, um einer Erwerbstätigkeit nachzugehen. Etwas über 300 pendelten dafür ins Ausland. Dies ergibt ein Total von ca. 24 400  Wegpendler",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
@@ -5268,7 +5268,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den Jahren 2006 bis 2016 zogen jeweils mehr Personen nach Basel-Stadt zu als dass den Kanton verliessen. Für 2016 ergab sich ein Plus von knapp 700 Personen.",
+		"lesehilfe": "In den Jahren 2006 bis 2016 zogen jeweils mehr Personen in den Kanton Basel-Stast als dass sie diesen verliessen. Allein für 2016 ergab sich ein positiver Wanderungssaldo von knapp 700 Personen.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"option": "options001",
@@ -5348,8 +5348,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Hier haben wir noch keine Lesehilfe, da wir für diesen Indikatoren die Daten ausgewechselt haben.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Von der gesamten Kantonsfläche ist rund die Hälfte mit Grünflächen (11,2% Wald; 11,1% Acker, Wiese, Weide; 28,3% übrige Grünflächen) bedeckt. Auf 16.4% der Fläche stehen Gebäude, 17.3% werden von Verkehrsflächen in Anspruch, 12,0% sind übrige befestigte Flächen und 3,6% entfallen auf Gewässer.",
+		"erlaeuterungen": "Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m2 geführt werden. Diese werden in einem Turnus von 6–12 Jahren mit einer periodischen Nachführung aktualisiert. Ausnahme: Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst. Die folgenden Kategorien setzen sich aus den jeweils nachstehenden Unterkategorien zusammen: \"Übrige Grünflächen\" = Friedhof, Gartenanlage, Parkanlage & Spielplatz, Schrebergarten, humusierte Sportanlage, Tierpark, Park, Reben, humusiertes Gewässervorland, übrige humusierte, Hecke, übrige bestockte; \"Verkehrsflächen\" = Bahnareal, Tramareal, Strasse & Weg, Rabatte, Trottoir, Verkehrsinsel; \"Übrige befestigte\" = Fabrikareal, befestigtes Gewässervorland, Hafenareal, befestigte Sportanlage, Wasserbecken, übrige befestigte.",
 		"template": "pie001",
 		"option": "options001",
 		"visible": true,
@@ -5359,7 +5359,9 @@ var indikatoren = [
 			"5869"
 		],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Grundbuch- und Vermessungsamt  Basel-Stadt"
+		],
 		"externalLinks": [
 			""
 		]
@@ -5386,7 +5388,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Wohnungsbestand ist innert 5 Jahren um gut 3 000 Einheiten oder 3% angewachsen. Den grössten relativen Zuwachs verzeichnete das Wohnviertel Rosental, in welchem in diesem Zeitraum netto über 600 neue Wohnungen entstanden sind (Überbauung des Erlenmattareals.).",
+		"lesehilfe": "Der Wohnungsbestand ist innert 5 Jahren um gut 3 000 Einheiten oder 3% angewachsen. Den grössten relativen Zuwachs verzeichnete das Wohnviertel Rosental, in welchem in diesem Zeitraum netto über 600 neue Wohnungen entstanden sind (Überbauung des Erlenmattareals).",
 		"erlaeuterungen": "Es handelt sich um Bauwohnungen. Angaben bis 2012 basieren auf Fortschreibungsdaten per Ende Jahr auf Grundlage der eidegnössischen Gebäude- und Wohnungszählungen. Ab 2013 stammen die Daten vom kantonalen Gebäude- und Wohnungsregister GWR. Infolge stetiger Datenbereinigungen ergeben sich Korrekturen am Wohnungsbestand. Die jährliche Veränderung des Wohnungsbestandes seit 2012 ist somit nicht nur in der Bautätigkeit begründet.",
 		"template": "template001",
 		"option": "options001",
@@ -5407,12 +5409,12 @@ var indikatoren = [
 	{
 		"title": "Leerwohnungsquote",
 		"subtitle": "",
-		"kuerzel": "I.09.1.05813",
+		"kuerzel": "I.09.2.05813",
 		"kuerzelKunde": "ST 04-4",
 		"description": "Leerwohnungsquote",
 		"id": 5813,
 		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
+		"unterthema": "Leerstand",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -5447,12 +5449,12 @@ var indikatoren = [
 	{
 		"title": "Leerwohnungsquote",
 		"subtitle": "nach Wohnviertel",
-		"kuerzel": "I.09.1.05814",
+		"kuerzel": "I.09.2.05814",
 		"kuerzelKunde": "ST 04-5",
 		"description": "Leerwohnungsquote",
 		"id": 5814,
 		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
+		"unterthema": "Leerstand",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -5466,7 +5468,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2015 wie auch 2016 in Bettingen verzeichnet.",
+		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2016 in Bettingen verzeichnet.",
 		"erlaeuterungen": "Stichtag ist der 1. Juni.",
 		"template": "mappie001",
 		"option": "options001",
@@ -5474,7 +5476,8 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"parentId": null,
 		"children": [
-			"5874"
+			"5874",
+			"6009"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -5706,7 +5709,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Bruttogeschossfläche im Bereich Arbeiten (Industrie und Gewerbe) ist zwischen 2010 und 2015 im Kanton Basel-Stadt leicht rückläufig. Die grössten Rückgänge verzeichnen die Wohnviertel Hirzbrunnen (-8,0%) und Breite (-5,6%). Hingegen sind Zunahmen in den Wohnvierteln Am Ring (3,7%) und Wettstein (6,9%) feststellbar.",
+		"lesehilfe": "Die Bruttogeschossfläche im Bereich Arbeiten (Industrie und Gewerbe) ist zwischen 2010 und 2015 im Kanton Basel-Stadt leicht rückläufig. Die grössten realtiven Rückgänge verzeichnen die Wohnviertel Hirzbrunnen (-8,0%) und Breite (-5,6%). Hingegen sind Zunahmen in den Wohnvierteln Am Ring (3,7%) und Wettstein (6,9%) feststellbar.",
 		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche werden fünfjährlich aktualisiert, letztmals 2015.",
 		"template": "template001",
 		"option": "options001",
@@ -5746,7 +5749,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Landwirtschaftsfläche hat seit 2007 um ca. 30 m² abgenommen.",
+		"lesehilfe": "Die Landwirtschaftsfläche hat seit 2007 um ca. 30 ha abgenommen.",
 		"erlaeuterungen": "Für die Auswertung wurden Daten aus folgenden Zeitständen ausgewertet: 02.01.2017, 04.01.2017, 06.01.2015, 07.01.2014, 05.03.2013, 06.02.2012, 05.01.2011, 21.01.2010, 18.03.2009, 06.02.2008, 27.08.2007.",
 		"template": "line001",
 		"option": "options001",
@@ -5872,7 +5875,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Wasserverbrauch hat von 1995 bis 2015 um 10.1 Mio. m³ abgenommen.",
-		"erlaeuterungen": "Die maximal mögliche Jahresproduktion bezieht sich auf heute (Grundwassser Lange Erle und Grundwasser Hard). Bei der maximal möglichen Jahresproduktion handelt es sich um eine theoretische Annahme seitens der Industriellen Werke Basel (IWB), die mit Unsicherheit behaftet ist. Aufgrund von Ausfällen der Anlage (z.B. Revision) oder günstigen Rahmenbedingungen (z.B. Grundwasserstände) steigt oder sinkt die jährlich maximal mögliche Jahresproduktion. Durch Wiederinbetriebnahme der momentan leeren Aktivkohlenbecken könnte die maximale Jahresproduktion gesteigert werden.",
+		"erlaeuterungen": "Die maximal mögliche Jahresproduktion bezieht sich auf heute (Grundwassser Lange Erle und Grundwasser Hard). Bei der maximal möglichen Jahresproduktion handelt es sich um eine theoretische Annahme seitens der Industriellen Werke Basel (IWB), die mit Unsicherheit behaftet ist. Aufgrund von Ausfällen der Anlage (z.B. Revision) oder günstigen Rahmenbedingungen (z.B. Grundwasserstände) steigt oder sinkt die jährlich maximal mögliche Jahresproduktion.",
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
@@ -5931,7 +5934,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Unterwegsdistanz nach Verkehrsmittel",
-		"subtitle": "Stand 2010",
+		"subtitle": "",
 		"kuerzel": "I.11.6.05902",
 		"kuerzelKunde": "ST11-3",
 		"description": "Unterwegsdistanz nach Verkehrsmittel",
@@ -5992,7 +5995,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Gewünscht ist ein Zweijahresvergleich",
+		"lesehilfe": "Gegenüber 2012 nahm die Wohnfläche pro Person in allen Wohnvierteln ausser in der Gemeinde Bettingen und im Wohnviertel Klybeck leicht ab.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
@@ -6012,41 +6015,40 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Interne Erreichbarkeit",
+		"title": "Verkehrsleistungsindex (indexiert)",
 		"subtitle": "",
-		"kuerzel": "I.03.2.06005",
-		"kuerzelKunde": "ST 08-1",
-		"description": "Interne Erreichbarkeit",
-		"id": 6005,
-		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"kuerzel": "I.02.6.06007",
+		"kuerzelKunde": "ST 08-2",
+		"description": "Verkehrsleistungsindex (indexiert)",
+		"id": 6007,
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Mobilitätsverhalten",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
 		"schlagwort": [
-			"Standort",
-			"Kantonsvergleich"
+			"Lärm"
 		],
-		"stufe1": "",
+		"stufe1": "Strategie 8",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "",
+		"lesehilfe": "Von 2010 bis 2016 haben vor allem die Verkehrsmittel Velo und ÖV BVB/BLT einen Anstieg erfahren. Während demselben Zeitraum hat die Nutzung des Verkehrsmittel MIV Stadtstrassennetz abgenommen. Die Daten sind indexiert (Basis 2010 = 100).",
+		"erlaeuterungen": "Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1705' target='_blank'>Umweltbericht beider Basel</a>.",
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
 		"parentId": null,
 		"children": [
-			"6006"
+			"6008"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"BAK Basel Economics"
+			"Amt für Mobilität Basel-Stadt"
 		],
 		"externalLinks": [
 			""

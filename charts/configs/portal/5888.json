@@ -21405,7 +21405,7 @@
 	                drawPies();
 	                
 	                //Add manually drawn legend
-	                 chart.renderer.label(chart.series[0].name, 340, 200)
+	                 chart.renderer.label(chart.series[0].name, 320, 200)
      				.css({
 	                    fontSize: '12px',
 	                    fontWeight: 'bold'
@@ -21509,7 +21509,7 @@
   },
   "title": {
     "style": {
-      "fontSize": "14px",
+      "fontSize": "10px",
       "fontWeight": "bold",
       "fontFamily": "Arial",
       "color": "#000000"
@@ -21519,7 +21519,7 @@
   },
   "subtitle": {
     "style": {
-      "fontSize": "12px",
+      "fontSize": "10px",
       "fontWeight": "normal",
       "fontFamily": "Arial",
       "color": "#000000"
@@ -21550,7 +21550,7 @@
       "style": {
         "color": "black",
         "cursor": "default",
-        "fontSize": "11px",
+        "fontSize": "10px",
         "textOverflow": "none"
       },
       "formatter": function () {
@@ -21606,7 +21606,7 @@
     "title": {
       "style": {
         "fontWeight": " bold",
-        "fontSize": "11px"
+        "fontSize": "10px"
       },
       "text": null
     },
@@ -21621,6 +21621,14 @@
     }
   },
   "exporting": {
+    "allowHTML": true,
+    "chartOptions": {
+      "plotOptions": {
+        "series": {
+          "animation": false
+        }
+      }
+    },
     "filename": "I.11.1.05829"
   }
 }

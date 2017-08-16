@@ -323,7 +323,7 @@
 	                drawPies();
 	                
 	                //Add manually drawn legend
-	                 chart.renderer.label(chart.series[0].name, 335, 200)
+	                 chart.renderer.label(chart.series[0].name, 350, 200)
      				.css({
 	                    fontSize: '12px',
 	                    fontWeight: 'bold'

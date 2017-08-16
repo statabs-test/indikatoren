@@ -9,84 +9,84 @@
           22
         ],
         [
-          "Altstadt KB",
-          1
+          "Vorstädte",
+          131
         ],
         [
           "Am Ring",
           55
         ],
         [
-          "Bachletten",
-          57
-        ],
-        [
-          "Bettingen",
-          15
-        ],
-        [
           "Breite",
           131
-        ],
-        [
-          "Bruderholz",
-          84
-        ],
-        [
-          "Clara",
-          18
-        ],
-        [
-          "Gotthelf",
-          -28
-        ],
-        [
-          "Gundeldingen",
-          306
-        ],
-        [
-          "Hirzbrunnen",
-          187
-        ],
-        [
-          "Iselin",
-          60
-        ],
-        [
-          "Kleinhüningen",
-          92
-        ],
-        [
-          "Klybeck",
-          4
-        ],
-        [
-          "Matthäus",
-          76
-        ],
-        [
-          "Riehen",
-          228
-        ],
-        [
-          "Rosental",
-          863
         ],
         [
           "St. Alban",
           116
         ],
         [
+          "Gundeldingen",
+          306
+        ],
+        [
+          "Bruderholz",
+          84
+        ],
+        [
+          "Bachletten",
+          57
+        ],
+        [
+          "Gotthelf",
+          -28
+        ],
+        [
+          "Iselin",
+          60
+        ],
+        [
           "St. Johann",
           291
         ],
         [
-          "Vorstädte",
-          131
+          "Altstadt KB",
+          1
+        ],
+        [
+          "Clara",
+          18
         ],
         [
           "Wettstein",
           112
+        ],
+        [
+          "Hirzbrunnen",
+          187
+        ],
+        [
+          "Rosental",
+          863
+        ],
+        [
+          "Matthäus",
+          76
+        ],
+        [
+          "Klybeck",
+          4
+        ],
+        [
+          "Kleinhüningen",
+          92
+        ],
+        [
+          "Riehen",
+          228
+        ],
+        [
+          "Bettingen",
+          15
         ]
       ],
       "name": "Nettoproduktion  2007 bis  2016",
@@ -118,7 +118,7 @@
     "width": 665,
     "height": 208,
     "spacing": [
-      7,
+      15,
       3,
       8,
       3
@@ -142,7 +142,10 @@
       "borderWidth": 0,
       "dataLabels": {
         "style": {
-          "fontSize": "10px"
+          "fontSize": "10px",
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "black"
         }
       }
     }

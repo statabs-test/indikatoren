@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "1997",
+      "name": "2016",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -20567,87 +20567,87 @@
       "data": [
         [
           1,
-          56.9964224796903
+          67.4943682015309
         ],
         [
           2,
-          55.7415422690513
+          55.6861001144172
         ],
         [
           3,
-          116.364431913387
+          117.447655115966
         ],
         [
           4,
-          130.577819671781
+          130.228057654803
         ],
         [
           5,
-          34.1841129214502
+          36.5740469748745
         ],
         [
           6,
-          163.067881557276
+          162.080683916768
         ],
         [
           7,
-          34.7065293245663
+          35.5481337064078
         ],
         [
           8,
-          89.6727405269343
+          88.5479894607466
         ],
         [
           9,
-          142.680710061001
+          140.320485426793
         ],
         [
           10,
-          149.651977528482
+          152.7468360946
         ],
         [
           11,
-          84.371185645855
+          83.2615056999657
         ],
         [
           12,
-          97.4604849238766
+          100.687653298839
         ],
         [
           13,
-          168.732319252004
+          173.831016735163
         ],
         [
           14,
-          71.2512411712882
+          74.7172317369915
         ],
         [
           15,
-          30.4524847210906
+          29.8003004639172
         ],
         [
           16,
-          67.7029796137724
+          103.400914319216
         ],
         [
           17,
-          271.813639349213
+          267.514597481339
         ],
         [
           18,
-          78.1336483546917
+          78.2640522184269
         ],
         [
           19,
-          18.5484015082562
+          21.4128194586533
         ],
         [
           20,
-          19.1901575632098
+          19.3374837572559
         ],
         [
           30,
-          5.19528562963207
+          5.34346577291458
         ]
       ]
     },
@@ -20656,90 +20656,90 @@
       "data": [
         [
           "Altstadt GB",
-          67.4943682015309
+          10.4979457218406
         ],
         [
           "Vorstädte",
-          55.6861001144172
+          -0.0554421546340294
         ],
         [
           "Am Ring",
-          117.447655115966
+          1.08322320257878
         ],
         [
           "Breite",
-          130.228057654803
+          -0.349762016977991
         ],
         [
           "St. Alban",
-          36.5740469748745
+          2.38993405342426
         ],
         [
           "Gundeldingen",
-          162.080683916768
+          -0.987197640507816
         ],
         [
           "Bruderholz",
-          35.5481337064078
+          0.841604381841542
         ],
         [
           "Bachletten",
-          88.5479894607466
+          -1.12475106618776
         ],
         [
           "Gotthelf",
-          140.320485426793
+          -2.36022463420815
         ],
         [
           "Iselin",
-          152.7468360946
+          3.09485856611764
         ],
         [
           "St. Johann",
-          83.2615056999657
+          -1.10967994588928
         ],
         [
           "Altstadt KB",
-          100.687653298839
+          3.2271683749628
         ],
         [
           "Clara",
-          173.831016735163
+          5.09869748315913
         ],
         [
           "Wettstein",
-          74.7172317369915
+          3.46599056570321
         ],
         [
           "Hirzbrunnen",
-          29.8003004639172
+          -0.652184257173481
         ],
         [
           "Rosental",
-          103.400914319216
+          35.6979347054436
         ],
         [
           "Matthäus",
-          267.514597481339
+          -4.29904186787343
         ],
         [
           "Klybeck",
-          78.2640522184269
+          0.130403863735239
         ],
         [
           "Kleinhüningen",
-          21.4128194586533
+          2.86441795039711
         ],
         [
           "Riehen",
-          19.3374837572559
+          0.147326194046041
         ],
         [
           "Bettingen",
-          5.34346577291458
+          0.148180143282505
         ]
       ],
-      "name": "2016"
+      "name": "Differenz 2016 zu 1997"
     },
     {
       "name": "Rhein",
@@ -21405,7 +21405,7 @@
 	                drawPies();
 	                
 	                //Add manually drawn legend
-	                 chart.renderer.label(chart.series[0].name, 335, 200)
+	                 chart.renderer.label(chart.series[0].name, 350, 200)
      				.css({
 	                    fontSize: '12px',
 	                    fontWeight: 'bold'
@@ -21423,8 +21423,8 @@
 			        	zIndex: 6,
 			        	//class: 'pieLegend'
 			        }).add();
-	                var maxBubbleSize = 500;
-	                var minBubbleSize = 5000
+	                var maxBubbleSize = 10;
+	                var minBubbleSize = 1
 	                chart.renderer.circle(473, 231, 0.5*pieSize(minBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
 					    fill: 'grey',
 					    'stroke-width': 0, 
@@ -21509,7 +21509,7 @@
   },
   "title": {
     "style": {
-      "fontSize": "14px",
+      "fontSize": "10px",
       "fontWeight": "bold",
       "fontFamily": "Arial",
       "color": "#000000"
@@ -21519,7 +21519,7 @@
   },
   "subtitle": {
     "style": {
-      "fontSize": "12px",
+      "fontSize": "10px",
       "fontWeight": "normal",
       "fontFamily": "Arial",
       "color": "#000000"
@@ -21550,7 +21550,7 @@
       "style": {
         "color": "black",
         "cursor": "default",
-        "fontSize": "11px",
+        "fontSize": "10px",
         "textOverflow": "none"
       }
     },
@@ -21560,32 +21560,32 @@
     "dataClassColor": "category",
     "dataClasses": [
       {
-        "to": 9999,
+        "to": 4.9,
         "color": "#D3E2E4",
-        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\u003C&nbsp;10 000"
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;\u003C&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5,0"
       },
       {
-        "from": 10000,
-        "to": 14999,
+        "from": 5,
+        "to": 29.9,
         "color": "#A8C3CA",
-        "name": "10 000 − 14 999"
+        "name": "&nbsp;&nbsp;&nbsp;5,0 − &nbsp;&nbsp;29,9"
       },
       {
-        "from": 15000,
-        "to": 19999,
+        "from": 30,
+        "to": 69.9,
         "color": "#689199",
-        "name": "15 000 − 19 999"
+        "name": "&nbsp;30,0 − &nbsp;&nbsp;69,9"
       },
       {
-        "from": 20000,
-        "to": 29999,
+        "from": 70,
+        "to": 99.9,
         "color": "#246370",
-        "name": "20 000 −  29 999"
+        "name": "&nbsp;70,0 − &nbsp;&nbsp;99,9"
       },
       {
-        "from": 30000,
+        "from": 100,
         "color": "#083038",
-        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;30 000"
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp≥&nbsp100,0"
       }
     ]
   },
@@ -21603,7 +21603,7 @@
     "title": {
       "style": {
         "fontWeight": " bold",
-        "fontSize": "11px"
+        "fontSize": "10px"
       },
       "text": null
     },
@@ -21618,6 +21618,14 @@
     }
   },
   "exporting": {
+    "allowHTML": true,
+    "chartOptions": {
+      "plotOptions": {
+        "series": {
+          "animation": false
+        }
+      }
+    },
     "filename": "I.01.1.5202"
   }
 }

@@ -13,22 +13,59 @@
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   },
   "series": [
-    {"color": "#ff8028",
+    {"color": "#B00000",
+      "marker": {
+        "enabled": true
+      }    
+    }, /* dunkelrot */
+	{"color": "#FF8028",
+	visible:false,
       "marker": {
         "enabled": true
       }    
     }, /* orange */
-	{"color": "#4f81bd",
+    	{"color": "#007A2F",
+	visible:true,
       "marker": {
         "enabled": true
       }    
-    }, /* blau */
+    }, /* dunkelgrün */
+    	{"color": "#8AB77D",
+	visible:false,
+      "marker": {
+        "enabled": true
+      },
+    }, /* hellgrün */
+    	{"color": "#4f81bd",
+	visible:true,
+      "marker": {
+        "enabled": true
+      }    
+    }, /* dunkelblau */
+    	{"color": "#A8C3CA",
+	visible:false,
+      "marker": {
+        "enabled": true
+      }    
+    }, /* hellblau */
+    	{"color": "#662673",
+	visible:true,
+      "marker": {
+        "enabled": true
+      }    
+    }, /* dunkelviolett */
+    	{"color": "#B375AB",
+	visible:false,
+      "marker": {
+        "enabled": true
+      }    
+    }, /* hellviolett */
   ],
   "legend": {
     "enabled": true,
     "x": 45,
     "y": 35,
-    "itemWidth": 1000,
+    "itemWidth": 200,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
