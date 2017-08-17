@@ -56,7 +56,7 @@ while (ubFileList.length > 0) {
                     casper.echo('Saving contents to ' + path + '...');
                     fs.write(path, content, 'w');
 
-                    casper.capture('screenshots/' + id + '.png');
+                    //casper.capture('screenshots/' + id + '.png');
                 });
             });
         }
