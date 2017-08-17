@@ -18,48 +18,24 @@
         "enabled": true
       }    
     }, /* dunkelrot */
-	{"color": "#FF8028",
-	visible:false,
-      "marker": {
-        "enabled": true
-      }    
-    }, /* orange */
     	{"color": "#007A2F",
 	visible:true,
       "marker": {
         "enabled": true
       }    
     }, /* dunkelgrün */
-    	{"color": "#8AB77D",
-	visible:false,
-      "marker": {
-        "enabled": true
-      },
-    }, /* hellgrün */
     	{"color": "#4f81bd",
 	visible:true,
       "marker": {
         "enabled": true
       }    
     }, /* dunkelblau */
-    	{"color": "#A8C3CA",
-	visible:false,
-      "marker": {
-        "enabled": true
-      }    
-    }, /* hellblau */
     	{"color": "#662673",
 	visible:true,
       "marker": {
         "enabled": true
       }    
     }, /* dunkelviolett */
-    	{"color": "#B375AB",
-	visible:false,
-      "marker": {
-        "enabled": true
-      }    
-    }, /* hellviolett */
   ],
   "legend": {
     "enabled": true,
