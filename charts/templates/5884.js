@@ -53,26 +53,26 @@
                 dataClassColor: 'category',
                 dataClasses: [{
                     to: 9.999,
-                    color: '#D3E2E4',
+                    color: '#D7E8D2',
                      name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;<&nbsp;&nbsp;&nbsp;10,0"
                 }, {
                     from: 10,
                     to: 49.999,
-                    color: '#A8C3CA',
+                    color: '#73B97C',
                     name: "&nbsp;&nbsp;10,0 − &nbsp;&nbsp;49,9"
                 }, {
                     from: 50,
                     to: 99.999,
-                     color: '#689199',
+                     color: '#68AB2B',
                      name: "&nbsp;&nbsp;50,0 − &nbsp;&nbsp;99,9"
                 },{
                     from: 100,
                     to: 149.999,
-                    color: '#246370',
+                    color: '#007A2F',
                     name: "100,0 − 149,9"
                 },{
                     from: 150,
-                    color: '#083038',
+                    color: '#0A3B19',
                     name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp≥&nbsp150,0"
                 }], 
                 labels: {
