@@ -41,21 +41,23 @@
   },  
   "series": [
         {
+      "index": 2,
 	  "color": "#990300",
       "legendIndex": 1,
       "type": "column",
        "tooltip": {
     		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
        }
-    },
+    },// Rot
     {
+      "index": 1,
 	  "color": "#71A3B5",
       "legendIndex": 2,
       "type": "column",
       "tooltip": {
     		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
        }
-    },
+    },// Blau
     {
       "color": "#000000",
       "type": "line",

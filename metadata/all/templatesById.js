@@ -261,6 +261,7 @@ var templatesById = {
 	"5817": "template001",
 	"5818": "template001",
 	"5819": "befragungenProzent001",
+	"5820": "template001",
 	"5821": "befragungenProzent001",
 	"5822": "pie001",
 	"5823": "line001",
