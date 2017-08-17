@@ -21562,32 +21562,32 @@
     "dataClassColor": "category",
     "dataClasses": [
       {
-        "to": 0.19,
+        "to": 0.25,
         "color": "#D7E8D2",
-        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\u003C&nbsp;0,20"
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\u003C&nbsp;0,25"
       },
       {
-        "from": 0.2,
-        "to": 0.39,
+        "from": 0.25,
+        "to": 0.349,
         "color": "#73B97C",
-        "name": "0,20 − 0,39"
+        "name": "0,25 − 0,34"
       },
       {
-        "from": 0.4,
-        "to": 0.59,
+        "from": 0.35,
+        "to": 0.449,
         "color": "#68AB2B",
-        "name": "0,40 − 0,59"
+        "name": "0,35 − 0,44"
       },
       {
-        "from": 0.6,
-        "to": 0.79,
+        "from": 0.45,
+        "to": 0.549,
         "color": "#007A2F",
-        "name": "0,60 − 0,79"
+        "name": "0,45 − 0,54"
       },
       {
-        "from": 0.8,
+        "from": 0.55,
         "color": "#0A3B19",
-        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;0,80"
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;0,55"
       }
     ]
   },

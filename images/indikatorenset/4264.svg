@@ -1,1 +1,109 @@
-<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:9pt;" xmlns="http://www.w3.org/2000/svg" width="485" height="415"><desc>Created with Highstock 5.0.14</desc><defs><clipPath id="highcharts-wujaguo-7"><rect x="0" y="0" width="438" height="235" fill="none"></rect></clipPath><clipPath id="highcharts-wujaguo-8"><rect x="0" y="0" width="438" height="235" fill="none"></rect></clipPath></defs><rect fill="#fbfbfb" class="highcharts-background" x="0" y="0" width="485" height="415" rx="0" ry="0"></rect><rect fill="none" class="highcharts-plot-background" x="37" y="109" width="438" height="235"></rect><g class="highcharts-label" style="cursor:pointer;" transform="translate(10,451)"><text x="0" y="0"><tspan>&gt; Indikator-Details</tspan></text></g><g class="highcharts-pane-group"></g><g class="highcharts-grid highcharts-xaxis-grid "><path fill="none" class="highcharts-grid-line" d="M 146.5 109 L 146.5 344" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 255.5 109 L 255.5 344" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 365.5 109 L 365.5 344" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 474.5 109 L 474.5 344" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 36.5 109 L 36.5 344" opacity="1"></path></g><g class="highcharts-grid highcharts-yaxis-grid "><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 37 344.5 L 475 344.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 37 285.5 L 475 285.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 37 227.5 L 475 227.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 37 168.5 L 475 168.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 37 108.5 L 475 108.5" opacity="1"></path></g><g class="highcharts-grid highcharts-yaxis-grid "></g><rect fill="none" class="highcharts-plot-border" x="37" y="109" width="438" height="235"></rect><g class="highcharts-axis highcharts-xaxis "><path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" stroke-width="1" d="M 37 344.5 L 475 344.5"></path></g><g class="highcharts-axis highcharts-yaxis "><path fill="none" class="highcharts-axis-line" d="M 37 109 L 37 344"></path></g><g class="highcharts-axis highcharts-yaxis "><path fill="none" class="highcharts-axis-line" d="M 475 109 L 475 344"></path></g><g class="highcharts-series-group"><g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(37,109) scale(1 1)" clip-path="url(#highcharts-wujaguo-8)"><rect x="24" y="218" width="14" height="18" fill="#B375AB" class="highcharts-point"></rect><rect x="133" y="213" width="14" height="23" fill="#B375AB" class="highcharts-point"></rect><rect x="243" y="177" width="14" height="59" fill="#B375AB" class="highcharts-point"></rect><rect x="352" y="213" width="14" height="23" fill="#B375AB" class="highcharts-point"></rect></g><g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(37,109) scale(1 1)" clip-path="none"></g><g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(37,109) scale(1 1)" clip-path="url(#highcharts-wujaguo-8)"><rect x="40" y="130" width="14" height="106" fill="#923F8D" class="highcharts-point"></rect><rect x="149" y="83" width="14" height="153" fill="#923F8D" class="highcharts-point"></rect><rect x="259" y="42" width="14" height="194" fill="#923F8D" class="highcharts-point"></rect><rect x="368" y="183" width="14" height="53" fill="#923F8D" class="highcharts-point"></rect></g><g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(37,109) scale(1 1)" clip-path="none"></g><g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(37,109) scale(1 1)" clip-path="url(#highcharts-wujaguo-8)"><rect x="56" y="154" width="14" height="82" fill="#FF8028" class="highcharts-point"></rect><rect x="166" y="183" width="14" height="53" fill="#FF8028" class="highcharts-point"></rect><rect x="275" y="136" width="14" height="100" fill="#FF8028" class="highcharts-point"></rect><rect x="385" y="160" width="14" height="76" fill="#FF8028" class="highcharts-point"></rect></g><g class="highcharts-markers highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(37,109) scale(1 1)" clip-path="none"></g><g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(37,109) scale(1 1)" clip-path="url(#highcharts-wujaguo-8)"><rect x="73" y="183" width="14" height="53" fill="#DC440E" class="highcharts-point"></rect><rect x="182" y="48" width="14" height="188" fill="#DC440E" class="highcharts-point"></rect><rect x="292" y="66" width="14" height="170" fill="#DC440E" class="highcharts-point"></rect><rect x="401" y="177" width="14" height="59" fill="#DC440E" class="highcharts-point"></rect></g><g class="highcharts-markers highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(37,109) scale(1 1)" clip-path="none"></g></g><text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:1.1em;font-weight:bold;fill:#000000;" y="20"><tspan>Beanstandungen bei Inspektionen</tspan></text><text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:0.9em;fill:#000000;" y="38"><tspan>Anzahl Fälle</tspan></text><g class="highcharts-legend" transform="translate(10,40)"><rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="370" height="57" visibility="visible"></rect><g><g><g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(12,7)"><text x="21" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15"><tspan>BL: Anzahl Inspektionen</tspan></text><rect x="2" y="4" width="12" height="12" fill="#B375AB" class="highcharts-point"></rect></g><g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(182.34375,7)"><text x="21" y="15" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start"><tspan>BL: Anzahl Beanstandungen</tspan></text><rect x="2" y="4" width="12" height="12" fill="#923F8D" class="highcharts-point"></rect></g><g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2" transform="translate(12,26)"><text x="21" y="15" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start"><tspan>BS: Anzahl Inspektionen</tspan></text><rect x="2" y="4" width="12" height="12" fill="#FF8028" class="highcharts-point"></rect></g><g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3" transform="translate(183.671875,26)"><text x="21" y="15" style="color:#333333;font-size:1em;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start"><tspan>BS: Anzahl Beanstandungen</tspan></text><rect x="2" y="4" width="12" height="12" fill="#DC440E" class="highcharts-point"></rect></g></g></g></g><g class="highcharts-axis-labels highcharts-xaxis-labels "><text x="91.75" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="363" opacity="1"><tspan>2013</tspan></text><text x="201.25" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="363" opacity="1"><tspan>2014</tspan></text><text x="310.75" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="363" opacity="1"><tspan>2015</tspan></text><text x="420.25" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="363" opacity="1"><tspan>2016</tspan></text></g><g class="highcharts-axis-labels highcharts-yaxis-labels "><text x="22" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="349" opacity="1"><tspan>0</tspan></text><text x="22" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="290" opacity="1"><tspan>10</tspan></text><text x="22" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="231" opacity="1"><tspan>20</tspan></text><text x="22" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="172" opacity="1"><tspan>30</tspan></text><text x="22" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="114" opacity="1"><tspan>40</tspan></text></g><g class="highcharts-axis-labels highcharts-yaxis-labels "></g><text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:0.8em;fill:#000000;" y="400"><tspan>Quelle: Kantonales Laboratorium Basel-Stadt; Sicherheitsinspektorat Basel-Landschaft</tspan></text></svg>
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" width="485" height="415" font-family="arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h438v235H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M37 109h438v235H37z"/>
+    <text transform="translate(10 451)" class="highcharts-label" cursor="pointer">
+        <tspan>&gt; Indikator-Details</tspan>
+    </text>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M146.5 109v235m109-235v235m110-235v235m109-235v235m-438-235v235"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M37 344.5h438m-438-59h438m-438-58h438m-438-59h438m-438-60h438"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M37 109h438v235H37z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M37 344.5h438"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M37 109v235"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M475 109v235"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined" transform="translate(37 109)" clip-path="url(#a)">
+            <path fill="#B375AB" class="highcharts-point" d="M24 218h14v18H24zm109-5h14v23h-14zm110-36h14v59h-14zm109 36h14v23h-14z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined" transform="translate(37 109)" clip-path="url(#a)">
+            <path fill="#923F8D" class="highcharts-point" d="M40 130h14v106H40zm109-47h14v153h-14zm110-41h14v194h-14zm109 141h14v53h-14z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined" transform="translate(37 109)" clip-path="url(#a)">
+            <path fill="#FF8028" class="highcharts-point" d="M56 154h14v82H56zm110 29h14v53h-14zm109-47h14v100h-14zm110 24h14v76h-14z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined" transform="translate(37 109)" clip-path="url(#a)">
+            <path fill="#DC440E" class="highcharts-point" d="M73 183h14v53H73zM182 48h14v188h-14zm110 18h14v170h-14zm109 111h14v59h-14z"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="20" color="#000" font-size="1.1em" font-weight="700">
+        <tspan>Beanstandungen bei Inspektionen</tspan>
+    </text>
+    <text x="10" class="highcharts-subtitle" y="38" color="#000" font-size=".9em">
+        <tspan>Anzahl Fälle</tspan>
+    </text>
+    <g class="highcharts-legend" transform="translate(10 40)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="370" height="57"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 7)">
+                <tspan>BL: Anzahl Inspektionen</tspan>
+            </text>
+            <path fill="#B375AB" class="highcharts-point" d="M14 11h12v12H14z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(182.344 7)">
+                <tspan>BL: Anzahl Beanstandungen</tspan>
+            </text>
+            <path fill="#923F8D" class="highcharts-point" d="M184.344 11h12v12h-12z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(12 26)">
+                <tspan>BS: Anzahl Inspektionen</tspan>
+            </text>
+            <path fill="#FF8028" class="highcharts-point" d="M14 30h12v12H14z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3">
+            <text x="21" y="15" color="#333" font-size="1em" font-weight="400" cursor="pointer" fill="#333" transform="translate(183.672 26)">
+                <tspan>BS: Anzahl Beanstandungen</tspan>
+            </text>
+            <path fill="#DC440E" class="highcharts-point" d="M185.672 30h12v12h-12z"/>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size=".9em">
+        <text x="91.75" y="363">
+            <tspan>2013</tspan>
+        </text>
+        <text x="201.25" y="363">
+            <tspan>2014</tspan>
+        </text>
+        <text x="310.75" y="363">
+            <tspan>2015</tspan>
+        </text>
+        <text x="420.25" y="363">
+            <tspan>2016</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size=".9em">
+        <text x="22" y="349">
+            <tspan>0</tspan>
+        </text>
+        <text x="22" y="290">
+            <tspan>10</tspan>
+        </text>
+        <text x="22" y="231">
+            <tspan>20</tspan>
+        </text>
+        <text x="22" y="172">
+            <tspan>30</tspan>
+        </text>
+        <text x="22" y="114">
+            <tspan>40</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size=".8em">
+        <tspan>Quelle: Kantonales Laboratorium Basel-Stadt; Sicherheitsinspektorat Basel-Landschaft</tspan>
+    </text>
+</svg>

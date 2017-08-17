@@ -314,7 +314,7 @@
 			        	//class: 'pieLegend'
 			        }).add();
 	                var maxBubbleSize = 3;
-	                var minBubbleSize = 0.5
+	                var minBubbleSize = Highcharts.numberFormat((0.5),1, ",", " ")
 	                chart.renderer.circle(410, 275, 0.5*pieSize(minBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
 					    fill: 'grey',
 					    'stroke-width': 0, 
