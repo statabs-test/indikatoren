@@ -2,10 +2,10 @@
   "series": [
     {
       "color": "#b475ab",
-      "index": 0,
+      "index": 3,
       "type": "column",
       "pointWidth": "10",
-      "legendIndex": 0,
+      "legendIndex": 3,
       "data": [
         [
           1989,
@@ -124,10 +124,10 @@
     },
     {
       "color": "#a8c4cb",
-      "index": 0,
+      "index": 2,
       "type": "column",
       "pointWidth": "10",
-      "legendIndex": 1,
+      "legendIndex": 2,
       "data": [
         [
           1989,
@@ -246,7 +246,7 @@
     },
     {
       "color": "#8AB77D",
-      "index": 0,
+      "index": 1,
       "type": "column",
       "pointWidth": "10",
       "legendIndex": 1,
@@ -368,7 +368,7 @@
     },
     {
       "color": "#000000",
-      "index": 1,
+      "index": 0,
       "type": "line",
       "marker": {
         "enabled": false
@@ -376,7 +376,7 @@
       "tooltip": {
         "pointFormat": ""
       },
-      "legendIndex": 3,
+      "legendIndex": 4,
       "data": [
         [
           1989,
@@ -534,7 +534,7 @@
   "tooltip": {
     "shared": true,
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E"
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.1f}\u003C\u002Fb\u003E"
   },
   "yAxis": {
     "min": 0,

@@ -351,21 +351,12 @@
 			        	zIndex: 6
 			        }).add(group);
 
-<<<<<<< HEAD
-									//Add click handler to bubbleLegend items
-					$('.pieLegend').click(function(){
-						//Toggle visible of mappies
-						Highcharts.each(chart.series, function (series) {
-							if (series.userOptions.type == 'mappie'){
-								series.setVisible(!series.visible, false);
-=======
 					//Add click handler to bubbleLegend items
 					//Do not use jquery to make chart exportable on export.highcharts.com
 					document.getElementById('pieLegend').addEventListener('click', function(){
 						Highcharts.each(chart.series, function (data) {
 							if (data.userOptions.type == 'mappie'){
 								data.setVisible(false, false);
->>>>>>> 1640e3eb777471b31d8fffcc0ce1578e95a0ae28
 							}
 						});
 						chart.redraw();

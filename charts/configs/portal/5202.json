@@ -21481,11 +21481,34 @@
 
 					//Add click handler to bubbleLegend items
 					$('.pieLegend').click(function(){
-						Highcharts.each(chart.series, function (data) {
-							if (data.userOptions.type == 'mappie'){
-								data.setVisible(false, false);
-							};
+						//Toggle visible of mappies
+						Highcharts.each(chart.series, function (series) {
+							if (series.userOptions.type == 'mappie'){
+								series.setVisible(!series.visible, false);
+							}
 						});
+						chart.redraw();
+						
+						//toggle active state of legend elements
+						var pieLegendItems = $('.pieLegend');
+						//backup original color
+						pieLegendItems.each(function(i, v){
+							if (!$(this).attr('fill_active')) {
+								//if no fill color is defined, set to  black
+								$(this).attr('fill_active', $(this).attr('fill') || 'black');	
+							}
+						});
+						//toggle color
+						if (pieLegendItems.attr('fill') == pieLegendItems.attr('fill_active')){
+							//set all to grey
+							pieLegendItems.attr('fill', '#cccccc');
+						} 
+						else {
+							pieLegendItems.each(function(i, v){
+								//set each to its fill_active color
+								$(this).attr('fill', $(this).attr('fill_active'));	
+							});
+						}
 					});
 	            }
     },

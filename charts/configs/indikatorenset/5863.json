@@ -21423,7 +21423,7 @@
 			        	zIndex: 6,
 			        	//class: 'pieLegend'
 			        }).add();
-	                var maxBubbleSize = 10;
+	                var maxBubbleSize = 30;
 	                var minBubbleSize = 1
 	                chart.renderer.circle(473, 231, 0.5*pieSize(minBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
 					    fill: 'grey',
@@ -21445,23 +21445,23 @@
 						zIndex: 6,
 						class: 'pieLegend'
 					}).add();
-				    chart.renderer.rect(510, 225, 12, 12, 0).attr({
+				    chart.renderer.rect(520, 225, 12, 12, 0).attr({
 			            'stroke-width':0,
 			            fill: 'grey',
 			            zIndex: 6,
 			            class: 'pieLegend'
 			        }).add();
-			        chart.renderer.label('Zunahme', 525, 221).attr({
+			        chart.renderer.label('Zunahme', 535, 221).attr({
 			        	zIndex: 6,
 			        	class: 'pieLegend'
 			        }).add();
-					chart.renderer.rect(510, 241, 12, 12, 0).attr({
+					chart.renderer.rect(520, 241, 12, 12, 0).attr({
 			            'stroke-width':0,
 			            fill: 'salmon',
 			            zIndex: 6,
 			            class: 'pieLegend'
 			        }).add();
-			        chart.renderer.label('Abnahme', 525, 237).attr({
+			        chart.renderer.label('Abnahme', 535, 237).attr({
 			        	zIndex: 6,
 			        	class: 'pieLegend'
 			        }).add();
@@ -21560,30 +21560,30 @@
     "dataClasses": [
       {
         "to": 4.9,
-        "color": "#D3E2E4",
+        "color": "#D7E8D2",
         "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;\u003C&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5,0"
       },
       {
         "from": 5,
         "to": 29.9,
-        "color": "#A8C3CA",
+        "color": "#73B97C",
         "name": "&nbsp;&nbsp;&nbsp;5,0 − &nbsp;&nbsp;29,9"
       },
       {
         "from": 30,
         "to": 69.9,
-        "color": "#689199",
+        "color": "#68AB2B",
         "name": "&nbsp;30,0 − &nbsp;&nbsp;69,9"
       },
       {
         "from": 70,
         "to": 99.9,
-        "color": "#246370",
+        "color": "#007A2F",
         "name": "&nbsp;70,0 − &nbsp;&nbsp;99,9"
       },
       {
         "from": 100,
-        "color": "#083038",
+        "color": "#0A3B19",
         "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp≥&nbsp100,0"
       }
     ]
