@@ -6,7 +6,7 @@
 
 var charts = [];
 var casper = require('casper').create();
-var urlbase = 'https://statabs-test-indikatoren-jonasbieri.c9users.io/chart.html?id=';
+var urlbase = 'https://statabs-test-indikatoren-jonasbieri.c9users.io/chart.html?hiddenSVG=true&id=';
 var fs = require('fs');
 var pathBase = "metadata/single/";
 
@@ -29,11 +29,9 @@ while (ubFileList.length > 0) {
 
     (function(id){
 
-        //evaluate json and check if indicator belongs to kennzahlenset Umwelt
+        //evaluate json and check if rendering here is necessary
         var currentConfig = require(fs.workingDirectory + "/" + pathBase + id + ".json");
-        //if (currentConfig.template == "mappie001" && currentConfig.visible) {
-        if (currentConfig.id == 5824) {
-            
+        if ((currentConfig.template.indexOf("mappie") > -1 || id == 5902 || id == 5910) && currentConfig.visible) {
             var url = urlbase + currentConfig.id; 
             //close current page to release memory, https://stackoverflow.com/a/18156020
             casper.then(function() {
@@ -49,13 +47,7 @@ while (ubFileList.length > 0) {
                 // Wait for the page to be loaded, i.e. svg node is present
                 //this.waitForSelector('svg');
                 this.waitForSelector('#renderDone', function(){
-                    //get Highcharts.charts array
-                    //charts = this.evaluate(getCharts);
-                    //save options of first chart into file
-                    //var content = serialize(charts[0].options, {space: 2});
-                    //var content = casper.fetchText('svg');
-                    
-                    var content = this.getHTML('#chartSVG', true);
+                    var content = this.getHTML('#chartSVG', false);
                     
                     var path = 'images/indikatorenset/' + id + '.svg';
                     casper.echo('Saving contents to ' + path + '...');
@@ -67,30 +59,6 @@ while (ubFileList.length > 0) {
                     casper.capture('screenshots/' + id + '.png');
                 });
             });
-            /*
-            casper.then(function(){
-                this.wait(500, function() {
-                    this.echo("I've waited...");
-                });
-            });
-            
-            */
-            
-            /*
-            casper.then(function(){
-                //get Highcharts.charts array
-                charts = this.evaluate(getCharts);
-                //save options of first chart into file
-                //var content = JSON.stringify(charts[0].options, null,'\t');
-                //var content = serialize(charts[0].options, {space: 2});
-                
-                var content = document.querySelector('#serialized_highcharts').innerText;
-                var path = 'charts/configs/umweltbericht/' + id + '.json';
-                casper.echo('Saving contents to ' + path + '...');
-                fs.write(path, content, 'w');
-                casper.capture('screenshots/' + id + '.png');
-            });
-            */
         }
         else {
             //casper.echo('Chart ' + id + ' is either not visible (visible: ' + currentConfig["visible"] + '), or belongs to kennzahlenset ' + currentConfig.kennzahlenset +', which is not "Umwelt", thus ignoring here. ');

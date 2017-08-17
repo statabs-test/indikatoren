@@ -79,6 +79,7 @@ function createSvgImages(chartDetails){
     if (chartDetails.length > 0){
         var chartEntry = chartDetails.pop();   
         //console.log('Current infile: ' + chart.infile);
+
         var exportSettings = {
             type: 'svg',
             infile: chartEntry.infilePath,
