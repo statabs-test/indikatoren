@@ -47,6 +47,13 @@
       "pointWidth": "10",
       legendIndex: 1,
     },
+    {
+      "color": "#8AB77D",
+      "index": 0,
+      "type": "column",
+      "pointWidth": "10",
+      legendIndex: 1,
+    },
 	  {
       "color": "#000000",
       "index": 1,
@@ -65,7 +72,7 @@
   ],  
   "tooltip": {
   	"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}</b><br/>',
-  	"footerFormat": 'Total: <b>{point.total:,.0f}</b>',
+  	"footerFormat": 'Total: <b>{point.total:,.1f}</b>',
     "shared": true
   },
 };

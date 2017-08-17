@@ -363,26 +363,26 @@
 						zIndex: 6,
 						class: 'pieLegend'
 					}).add();
-				    /*chart.renderer.rect(500, 225, 12, 12, 0).attr({
+				    chart.renderer.rect(510, 225, 12, 12, 0).attr({
 			            'stroke-width':0,
 			            fill: 'grey',
 			            zIndex: 6,
 			            class: 'pieLegend'
 			        }).add();
-			        chart.renderer.label('Zunahme', 515, 221).attr({
+			        chart.renderer.label('Zunahme', 525, 221).attr({
 			        	zIndex: 6,
 			        	class: 'pieLegend'
 			        }).add();
-					chart.renderer.rect(500, 241, 12, 12, 0).attr({
+					chart.renderer.rect(510, 241, 12, 12, 0).attr({
 			            'stroke-width':0,
 			            fill: 'salmon',
 			            zIndex: 6,
 			            class: 'pieLegend'
 			        }).add();
-			        chart.renderer.label('Abnahme', 515, 237).attr({
+			        chart.renderer.label('Abnahme', 525, 237).attr({
 			        	zIndex: 6,
 			        	class: 'pieLegend'
-			        }).add();*/
+			        }).add();
 
 					//redraw chart after adding all series and the legend
 					chart.redraw();

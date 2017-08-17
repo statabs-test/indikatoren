@@ -1,6 +1,7 @@
 {
   "series": [
     {
+      "index": 2,
       "color": "#990300",
       "legendIndex": 1,
       "type": "column",
@@ -93,6 +94,7 @@
       "turboThreshold": 0
     },
     {
+      "index": 1,
       "color": "#71A3B5",
       "legendIndex": 2,
       "type": "column",
@@ -390,6 +392,7 @@
   },
   "plotOptions": {
     "series": {
+      "borderWidth": 0,
       "pointWidth": 10,
       "dataLabels": {
         "style": {

@@ -9,7 +9,7 @@
         }
   },
   "yAxis": {
-  	"max": 60,
+  	//"max": 60,
   	tickInterval: 20,
     "labels": {
       "format": "{value:,.0f}",
@@ -43,6 +43,13 @@
       "type": "column",
       "pointWidth": "15",
       legendIndex: 1
+    },
+    {
+      "color": "#8AB77D",
+      "index": 0,
+      "type": "column",
+      "pointWidth": "15",
+      legendIndex: 1,
     },
 	{
       "color": "#000000",

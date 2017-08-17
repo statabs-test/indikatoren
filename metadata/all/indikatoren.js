@@ -9819,7 +9819,7 @@ var indikatoren = [
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "nach Wohnviertel von 2007 bis 2016",
 		"kuerzel": "I.09.1.05817",
-		"kuerzelKunde": "ST 04-8",
+		"kuerzelKunde": "ST 4-8",
 		"description": "Nettowohnungsproduktion",
 		"id": 5817,
 		"thema": "09 Bau-, Wohnungswesen",
@@ -9837,12 +9837,13 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Nettoproduktion war in den letzten zehn Jahren im Wohnviertel Rosental besonders hoch. Auf dieses Wohnviertel entfielen rund 30% der gesamtkantonalen Nettoproduktion in diesem Zeitraum.",
+		"lesehilfe": "Die Nettoproduktion war in den letzten zehn Jahren im Wohnviertel Rosental besonders hoch. Auf dieses Wohnviertel entfielen rund 30% der gesamtkantonalen Nettoproduktion in diesem Zeitraum. Die Nettowohnungsproduktion ist vor allem auf grosse Arealentwicklungen zurückzuführen und im kleineren Masse auf Erneuerungen bzw. Verdichtungen im Bestand.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "Strategie 4_008",
 		"parentId": null,
 		"children": [
 			"5877"
@@ -9930,47 +9931,6 @@ var indikatoren = [
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_7"
-		],
-		"externalLinks": [
-			""
-		]
-	},
-	{
-		"title": "Anteil übermässig mit Lärm belasteter Einwohner",
-		"subtitle": "",
-		"kuerzel": "I.02.5.05820",
-		"kuerzelKunde": "ST 05-2",
-		"description": "Anteil übermässig mit Lärm belasteter Einwohner",
-		"id": 5820,
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Luftschadstoffe",
-		"kennzahlenset": "Richtplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2017-06-22T11:57:46.4646",
-		"schlagwort": [
-			"Bevölkerung",
-			"Umwelt"
-		],
-		"stufe1": "Strategie 5",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Anteil der Einwohner, welche an ihrem Wohnort in der Nacht einer Lärmbelastung von über 50 dB (A) ausgesetzt sind, betrug 2008 knapp 24%. Bei 14% der Einwohner wurde der Tagesgrenzwert überschritten, bei 16% der Grenzwert in der Nacht.",
-		"erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche einer Lärmbelastung über dem Immissionsgrenzwert (IGW) gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Wohngebiete sind gemäss LSV den Empfindlichkeitsstufen (ES) I (Erholung; IGW 55 dB (A) am Tag und  45 dB (A) in der Nacht), II (Wohnzonen; IGW: 60 dB (A) am Tag und  50 dB (A) in der Nacht) und III (Wohn-/Gewerbezonen; IGW: 65 dB (A) am Tag und 55 dB (A) in der Nacht) zugeteilt.",
-		"template": "template001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
-		"parentId": 5061,
-		"children": [
-			"5880"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster"
 		],
 		"externalLinks": [
 			""
@@ -10324,12 +10284,13 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Wasserverbrauch hat von 1995 bis 2015 um 10.1 Mio. m³ abgenommen.",
-		"erlaeuterungen": "Die maximal mögliche Jahresproduktion bezieht sich auf heute (Grundwassser Lange Erle und Grundwasser Hard). Bei der maximal möglichen Jahresproduktion handelt es sich um eine theoretische Annahme seitens der Industriellen Werke Basel (IWB), die mit Unsicherheit behaftet ist. Aufgrund von Ausfällen der Anlage (z.B. Revision) oder günstigen Rahmenbedingungen (z.B. Grundwasserstände) steigt oder sinkt die jährlich maximal mögliche Jahresproduktion.",
+		"lesehilfe": "Der Wasserverbrauch hat von 1989 bis 2016 um knapp 8 Mio. m³ abgenommen.",
+		"erlaeuterungen": "Die maximal mögliche Jahresproduktion bezieht sich auf  die im Jahr 2016 verfügbaren Grundwasserressourcen (Grundwassser Lange Erle und Grundwasser Hard). Bei der maximal möglichen Jahresproduktion handelt es sich um eine theoretische Grösse seitens der Industriellen Werke Basel (IWB), die mit Unsicherheit behaftet ist. Aufgrund von Ausfällen der Anlage (z.B. Revision) oder günstigen Rahmenbedingungen (z.B. Grundwasserstände) steigt oder sinkt die jährlich maximal mögliche Jahresproduktion.",
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "Strategie 12_000",
 		"parentId": null,
 		"children": [
 			"5890"
@@ -10949,45 +10910,6 @@ var indikatoren = [
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_7"
-		],
-		"externalLinks": [
-			""
-		]
-	},
-	{
-		"title": "Anteil übermässig mit Lärm belasteter Einwohner",
-		"subtitle": "",
-		"kuerzel": "I.02.5.05820",
-		"kuerzelKunde": "ST 5-2",
-		"description": "Anteil übermässig mit Lärm belasteter Einwohner",
-		"id": 5880,
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Luftschadstoffe",
-		"kennzahlenset": "Richtplan-Print",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2017-06-22T11:57:46.4646",
-		"schlagwort": [
-			"Bevölkerung",
-			"Umwelt"
-		],
-		"stufe1": "Strategie 5",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Anteil der Einwohner, welche an ihrem Wohnort in der Nacht einer Lärmbelastung von über 50 dB (A) ausgesetzt sind, betrug 2010 knapp 24%. Bei 14% der Einwohner wurde der Tagesgrenzwert überschritten, bei 16% der Grenzwert in der Nacht.",
-		"erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche einer Lärmbelastung über dem Immissionsgrenzwert (IGW) gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Wohngebiete sind gemäss LSV den Empfindlichkeitsstufen (ES) I (Erholung; IGW 55 dB (A) am Tag und  45 dB (A) in der Nacht), II (Wohnzonen; IGW: 60 dB (A) am Tag und  50 dB (A) in der Nacht) und III (Wohn-/Gewerbezonen; IGW: 65 dB (A) am Tag und 55 dB (A) in der Nacht) zugeteilt.",
-		"template": "template001_print",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": false,
-		"parentId": 5820,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster"
 		],
 		"externalLinks": [
 			""
