@@ -5404,6 +5404,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "_000",
 		"parentId": null,
 		"children": [
 			"5814"
