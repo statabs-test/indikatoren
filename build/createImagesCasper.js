@@ -1,12 +1,12 @@
 // invoke in bash using this command line: 
 // node node_modules/casperjs/bin/casperjs.js build/createUmweltberichtConfigs.js
-/* 
-    global Highcharts
-*/
 
-var charts = [];
+
 var casper = require('casper').create();
-var urlbase = 'https://statabs-test-indikatoren-jonasbieri.c9users.io/chart.html?hiddenSVG=true&id=';
+
+var system = require('system'); 
+var hostname = system.env.C9_HOSTNAME;
+var urlbase = 'https://'+ hostname + '/chart.html?hiddenSVG=true&id=';
 var fs = require('fs');
 var pathBase = "metadata/single/";
 
@@ -31,7 +31,13 @@ while (ubFileList.length > 0) {
 
         //evaluate json and check if rendering here is necessary
         var currentConfig = require(fs.workingDirectory + "/" + pathBase + id + ".json");
-        if ((currentConfig.template.indexOf("mappie") > -1 || id == 5902 || id == 5910) && currentConfig.visible) {
+        //define which charts need to be rendered here
+        if (
+            (   currentConfig.template.indexOf("mappie") > -1 || 
+                id == 5902 || 
+                id == 5910
+            ) 
+        && currentConfig.visible) {
             var url = urlbase + currentConfig.id; 
             //close current page to release memory, https://stackoverflow.com/a/18156020
             casper.then(function() {
@@ -70,11 +76,6 @@ while (ubFileList.length > 0) {
 //https://stackoverflow.com/a/5367656
 function padLeft(nr, n, str){
     return Array(n-String(nr).length+1).join(str||'0')+nr;
-}
-
-
-function getCharts() {
-    return window.Highcharts.charts;
 }
 
 
