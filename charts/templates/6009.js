@@ -314,14 +314,14 @@
 			        	//class: 'pieLegend'
 			        }).add();
 	                var maxBubbleSize = 3;
-	                var minBubbleSize = Highcharts.numberFormat((0.5),1, ",", " ")
+	                var minBubbleSize = 0.5
 	                chart.renderer.circle(410, 275, 0.5*pieSize(minBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
 					    fill: 'grey',
 					    'stroke-width': 0, 
 					    zIndex: 6,
 					    class: 'pieLegend'
 					}).add();
-					chart.renderer.label(minBubbleSize, 430, 265).attr({
+					chart.renderer.label(Highcharts.numberFormat((0.5),1, ",", " "), 430, 265).attr({
 						zIndex: 6,
 						class: 'pieLegend'
 					}).add();
