@@ -1,1 +1,52 @@
-<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">Chart input data error
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" width="485" height="415" font-family="Arial" font-size="12">
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M10 41h255v329H10z"/>
+    <path fill="none" class="highcharts-plot-border" d="M10 41h255v329H10z"/>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-pie-series highcharts-color-undefined highcharts-tracker" cursor="true">
+            <path fill="#50B432" d="M137.476 88a117.5 117.5 0 0 1 103.973 62.72l-83.16 43.824A23.5 23.5 0 0 0 137.496 182z" class="highcharts-point highcharts-color-0" stroke="#fff" stroke-linejoin="round"/>
+            <path fill="#ED561B" d="M241.504 150.824A117.5 117.5 0 0 1 74.966 304.977l50.027-79.582a23.5 23.5 0 0 0 33.308-30.83z" class="highcharts-point highcharts-color-1" stroke="#fff" stroke-linejoin="round"/>
+            <path fill="#DDDF00" d="M74.866 304.915A117.5 117.5 0 0 1 137.336 88l.131 94a23.5 23.5 0 0 0-12.494 43.383z" class="highcharts-point highcharts-color-2" stroke="#fff" stroke-linejoin="round"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-pie-series highcharts-color-undefined highcharts-tracker" cursor="true">
+            <path fill="#50B432" d="M137.476 88a117.5 117.5 0 0 1 90.57 42.616l-36.218 29.954A70.5 70.5 0 0 0 137.486 135z" class="highcharts-point highcharts-color-0" stroke="#fff" stroke-linejoin="round"/>
+            <path fill="#ED561B" d="M228.121 130.707A117.5 117.5 0 0 1 87.75 311.947l19.9-42.578a70.5 70.5 0 0 0 84.223-108.745z" class="highcharts-point highcharts-color-1" stroke="#fff" stroke-linejoin="round"/>
+            <path fill="#DDDF00" d="M87.643 311.898A117.5 117.5 0 0 1 137.337 88l.065 47a70.5 70.5 0 0 0-29.816 134.339z" class="highcharts-point highcharts-color-2" stroke="#fff" stroke-linejoin="round"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>Unterwegsdistanz nach Verkehrsmittel</tspan>
+    </text>
+    <g class="highcharts-data-labels highcharts-series-0 highcharts-pie-series highcharts-color-undefined highcharts-tracker" opacity=".001" cursor="true">
+        <text x="5" style="text-outline:0 #000" y="15" font-size="10" font-weight="400" color="#000" transform="translate(147 155)" class="highcharts-label highcharts-data-label highcharts-data-label-color-0">
+            <tspan x="5" y="15" class="highcharts-text-outline" stroke="#000" stroke-width="0" stroke-linejoin="round">17%</tspan><tspan x="5" y="15">17%</tspan>
+        </text>
+        <text x="5" style="text-outline:0 #000" y="15" font-size="10" font-weight="400" color="#000" transform="translate(155 230)" class="highcharts-label highcharts-data-label highcharts-data-label-color-1">
+            <tspan x="5" y="15" class="highcharts-text-outline" stroke="#000" stroke-width="0" stroke-linejoin="round">42%</tspan><tspan x="5" y="15">42%</tspan>
+        </text>
+        <text x="5" style="text-outline:0 #000" y="15" font-size="10" font-weight="400" color="#000" transform="translate(77 182)" class="highcharts-label highcharts-data-label highcharts-data-label-color-2">
+            <tspan x="5" y="15" class="highcharts-text-outline" stroke="#000" stroke-width="0" stroke-linejoin="round">41%</tspan><tspan x="5" y="15">41%</tspan>
+        </text>
+    </g>
+    <text x="3" y="15" font-weight="700" transform="translate(285 120)" class="pieLegend">
+        <tspan>Innen: 2010</tspan>
+    </text>
+    <text x="3" y="15" font-weight="700" transform="translate(285 100)" class="pieLegend">
+        <tspan>Aussen: 2015</tspan>
+    </text>
+    <g class="highcharts-legend" transform="translate(277 156)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="198" height="68"/>
+        <g class="highcharts-legend-item highcharts-pie-series highcharts-color-0">
+            <path fill="#50B432" class="highcharts-point" d="M10 7h12v12H10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-pie-series highcharts-color-1">
+            <path fill="#ED561B" class="highcharts-point" d="M10 26h12v12H10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-pie-series highcharts-color-2">
+            <path fill="#DDDF00" class="highcharts-point" d="M10 45h12v12H10z"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Bundesamt für Raumentwicklung, Mikrozensus zum Verkehrsverhalten</tspan>
+    </text>
+</svg>

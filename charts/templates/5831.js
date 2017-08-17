@@ -35,28 +35,28 @@
   "series": [
     {
       "color": "#b475ab",
-      "index": 0,
+      "index": 3,
       "type": "column",
       "pointWidth": "10",
-      legendIndex: 0,
+      legendIndex: 3,
     },
     {
       "color": "#a8c4cb",
-      "index": 0,
+      "index": 2,
       "type": "column",
       "pointWidth": "10",
-      legendIndex: 1,
+      legendIndex: 2,
     },
     {
       "color": "#8AB77D",
-      "index": 0,
+      "index": 1,
       "type": "column",
       "pointWidth": "10",
       legendIndex: 1,
     },
 	  {
       "color": "#000000",
-      "index": 1,
+      "index": 0,
       "type": "line",
       "marker": {
         "enabled": false
@@ -67,7 +67,7 @@
         pointFormat: ''
       },
       //"yAxis": 1,
-      legendIndex: 3,
+      legendIndex: 4,
     },
   ],  
   "tooltip": {

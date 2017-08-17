@@ -101,6 +101,10 @@
             if (!(view == 'indikatorenset' || view == 'portal' || view == 'print')) {
               view = indikatorensetView;
             }
+            
+            //check if the chart's svg should be saved into a 2nd hidden div for casperjs
+            var hiddenSVG = (window.decodeURIComponent($.url('?hiddenSVG')) === 'true') ? true : false;
+            
             lazyRenderChartById(id, chartMetadata, view, suppressNumberInTitle, function(){
               
               //make sure we have the complete chart with the renderTo object, which contains the kuerzel
@@ -112,14 +116,19 @@
                 (thumbnailOfflineExporting) 
                   ? $.getScript('assets/js/highcharts-offline-exporting-4.2.6.js', function(){createThumbnail(id, kuerzel, exportType, thumbnailOfflineExporting);}) 
                   : createThumbnail(id, kuerzel, exportType, thumbnailOfflineExporting, exportServer);
-                  
-                setTimeout(function(){
-                  //save the contents of the svg element to be harvested by casper to save into svg if necessary
-                  window.svg = $('svg').clone().wrap('<svg>').parent().html();
-                  //console.log(window.svg);
-                  $('body').append('<div id="chartSVG" class="hidden"> ' + window.svg + ' </div>');
-                  $('body').append('<div id="renderDone"/>');
-                }, 1000);
+                
+                //add a hidden div with the contents of the svg in order for it to be captured by casperjs
+                if (hiddenSVG){  
+                  setTimeout(function(){
+                    //save the contents of the svg element to be harvested by casper to save into svg if necessary
+                    window.svg = $('svg').clone().wrap('<svg>').parent().html();
+                    //console.log(window.svg);
+                    $('body').append('<div id="chartSVG" class="hidden"> ' + window.svg + ' </div>');
+                    //remove highcharts buttons from svg
+                    $('#chartSVG .highcharts-button').remove();
+                    $('body').append('<div id="renderDone"/>');
+                  }, 1000);
+                }
               }                     
             });
         });
