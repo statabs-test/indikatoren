@@ -9,7 +9,7 @@
         }
   },
   "yAxis": {
-  	//"max": 60,
+  	"max": 60,
   	tickInterval: 20,
     "labels": {
       "format": "{value:,.0f}",
