@@ -348,7 +348,7 @@
 			        	//class: 'pieLegend'
 			        }).add();
 	                var maxBubbleSize = 1;
-	                var minBubbleSize = 2
+	                var minBubbleSize = 0.01
 	                chart.renderer.circle(443, 231, 0.5*pieSize(minBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
 					    fill: 'grey',
 					    'stroke-width': 0, 

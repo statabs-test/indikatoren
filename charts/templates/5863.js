@@ -341,7 +341,7 @@
 			        	zIndex: 6,
 			        	//class: 'pieLegend'
 			        }).add();
-	                var maxBubbleSize = 10;
+	                var maxBubbleSize = 30;
 	                var minBubbleSize = 1
 	                chart.renderer.circle(473, 231, 0.5*pieSize(minBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
 					    fill: 'grey',
@@ -363,23 +363,23 @@
 						zIndex: 6,
 						class: 'pieLegend'
 					}).add();
-				    chart.renderer.rect(510, 225, 12, 12, 0).attr({
+				    chart.renderer.rect(520, 225, 12, 12, 0).attr({
 			            'stroke-width':0,
 			            fill: 'grey',
 			            zIndex: 6,
 			            class: 'pieLegend'
 			        }).add();
-			        chart.renderer.label('Zunahme', 525, 221).attr({
+			        chart.renderer.label('Zunahme', 535, 221).attr({
 			        	zIndex: 6,
 			        	class: 'pieLegend'
 			        }).add();
-					chart.renderer.rect(510, 241, 12, 12, 0).attr({
+					chart.renderer.rect(520, 241, 12, 12, 0).attr({
 			            'stroke-width':0,
 			            fill: 'salmon',
 			            zIndex: 6,
 			            class: 'pieLegend'
 			        }).add();
-			        chart.renderer.label('Abnahme', 525, 237).attr({
+			        chart.renderer.label('Abnahme', 535, 237).attr({
 			        	zIndex: 6,
 			        	class: 'pieLegend'
 			        }).add();
