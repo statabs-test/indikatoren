@@ -20,10 +20,10 @@
 "template":"mappie001",
 "option":"options001",
 "visible":true,
-"visibleInPortal":false,
+"visibleInPortal":true,
 "orderKey":"_000",
-"parentId":5814,
-"children":[],
+"parentId":null,
+"children":["5814"],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Leerstandserhebung"],
 "externalLinks":[""]

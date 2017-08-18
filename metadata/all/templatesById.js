@@ -162,6 +162,7 @@ var templatesById = {
 	"4827": "dotplot",
 	"4828": "dotplot",
 	"4829": "dotplot",
+	"4830": "dotplot",
 	"4831": "dotplot",
 	"4832": "dotplot",
 	"4833": "dotplot",
