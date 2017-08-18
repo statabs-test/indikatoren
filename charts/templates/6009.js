@@ -321,7 +321,7 @@
 					    zIndex: 6,
 					    class: 'pieLegend'
 					}).add();
-					chart.renderer.label(Highcharts.numberFormat((0.5),1, ",", " "), 430, 265).attr({
+					chart.renderer.label(Highcharts.numberFormat((minBubbleSize),1, ",", " "), 430, 265).attr({
 						zIndex: 6,
 						class: 'pieLegend'
 					}).add();
