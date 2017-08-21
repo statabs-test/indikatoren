@@ -254,7 +254,7 @@
 		                        tooltip: {
 		                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {series.name} </span><br/>',
 		                            pointFormatter: function () {
-		                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),1) + '</b><br/>';
+		                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),2) + '</b><br/>';
 		                            }
 		                        },
 		                        data: [
@@ -347,8 +347,8 @@
 			        	zIndex: 6,
 			        	//class: 'pieLegend'
 			        }).add();
-	                var maxBubbleSize = 1;
-	                var minBubbleSize = 0.01
+	                var maxBubbleSize = 3;
+	                var minBubbleSize = 0.5
 	                chart.renderer.circle(443, 231, 0.5*pieSize(minBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
 					    fill: 'grey',
 					    'stroke-width': 0, 

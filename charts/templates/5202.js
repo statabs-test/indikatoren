@@ -321,7 +321,7 @@
 					    zIndex: 6,
 					    class: 'pieLegend'
 					}).add();
-					chart.renderer.label(minBubbleSize, 430, 265).attr({
+					chart.renderer.label(Highcharts.numberFormat((minBubbleSize),0,"."," "), 430, 265).attr({
 						zIndex: 6,
 						class: 'pieLegend'
 					}).add();
@@ -332,7 +332,7 @@
 					    zIndex: 6,
 					    class: 'pieLegend'
 					}).add();
-					chart.renderer.label(maxBubbleSize, 430, 290).attr({
+					chart.renderer.label(Highcharts.numberFormat((maxBubbleSize),0,"."," "), 430, 290).attr({
 						zIndex: 6,
 						class: 'pieLegend'
 					}).add();
