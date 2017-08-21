@@ -176,8 +176,8 @@
 	                    var old = item.setVisible;
 	                    item.setVisible = function () {
 	                        var legendItem = this;
-	                        old.call(legendItem);
-	                        Highcharts.each(chart.series[0].points, function (point) {
+						//Negative values: return absolute value
+						var size = p       Highcharts.each(chart.series[0].points, function (point) {
 	                            if (chart.colorAxis[0].dataClasses[point.dataClass].name === legendItem.name) {
 	                                // Find this Wohnviertel's pie and set visibility
 	                                Highcharts.find(chart.series, function (item) {

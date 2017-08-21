@@ -3,11 +3,6 @@
   "plotOptions": {
     "series": {
       "pointWidth": 10,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      },
       "stacking": "normal"
     }
   },
@@ -20,7 +15,11 @@
         text: null
     },
     "labels": {
-      "format": "{value:,.0f}"
+       "style": {
+    	fontSize:10,
+       "color": "#000000"
+        },
+       "format": "{value:,.0f}"
     },
     "min": 0,  },
   {
@@ -28,6 +27,10 @@
         text: null
     },
     "labels": {
+       "style": {
+    	fontSize:10,
+       "color": "#000000"
+        },
       "format": "{value:,.1f}"
     },
     "min": 0,

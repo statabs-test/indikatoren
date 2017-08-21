@@ -162,9 +162,9 @@
 		                var yAxis = chart.yAxis[0],
 		                    zoomFactor = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
 		                //Increase or decrease default pie size
-		            	var pieSizeFactor = 0.3;
+		            	var pieSizeFactor = 0.4;
 		            	//Minimal pie size: a summand added to the calculated size
-		            	var pieSizeMin = 5;
+		            	var pieSizeMin = 3;
 						//Negative values: return absolute value
 						//size by Area: use sqrt of value to define size
 						//var size = pieSizeMin + Math.abs(chart.chartWidth / 11 * pieSizeFactor * zoomFactor * value / maxAbsNumber);
@@ -316,15 +316,15 @@
 			        	zIndex: 6,
 			        	//class: 'pieLegend'
 			        }).add();
-	                var maxBubbleSize = 3;
-	                var minBubbleSize = 0.5
+	                var maxBubbleSize = 1;
+	                var minBubbleSize = 0.01
 	                chart.renderer.circle(410, 275, 0.5*pieSize(minBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
 					    fill: 'grey',
 					    'stroke-width': 0, 
 					    zIndex: 6,
 					    class: 'pieLegend'
 					}).add();
-					chart.renderer.label(Highcharts.numberFormat((minBubbleSize),1,"."," "), 430, 265).attr({
+					chart.renderer.label(Highcharts.numberFormat((minBubbleSize),2,"."," "), 430, 265).attr({
 						zIndex: 6,
 						class: 'pieLegend'
 					}).add();
