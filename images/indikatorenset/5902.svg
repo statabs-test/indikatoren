@@ -1,4 +1,4 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" width="485" height="415" font-family="Arial" font-size="12">
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="Arial" font-size="12">
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
     <path fill="none" class="highcharts-plot-background" d="M10 41h255v329H10z"/>
     <path fill="none" class="highcharts-plot-border" d="M10 41h255v329H10z"/>
@@ -9,9 +9,9 @@
             <path fill="#DDDF00" d="M74.866 304.915A117.5 117.5 0 0 1 137.336 88l.131 94a23.5 23.5 0 0 0-12.494 43.383z" class="highcharts-point highcharts-color-2" stroke="#fff" stroke-linejoin="round"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-pie-series highcharts-color-undefined highcharts-tracker" cursor="true">
-            <path fill="#50B432" d="M137.476 88.001a117.499 117.499 0 0 1 90.568 42.614l-36.217 29.954A70.5 70.5 0 0 0 137.486 135z" class="highcharts-point highcharts-color-0" stroke="#fff" stroke-linejoin="round"/>
-            <path fill="#ED561B" d="M228.12 130.706A117.499 117.499 0 0 1 87.757 311.95l19.897-42.58a70.5 70.5 0 0 0 84.217-108.748z" class="highcharts-point highcharts-color-1" stroke="#fff" stroke-linejoin="round"/>
-            <path fill="#DDDF00" d="M87.652 311.901a117.499 117.499 0 0 1 49.668-223.9l.072 47a70.5 70.5 0 0 0-29.801 134.34z" class="highcharts-point highcharts-color-2" stroke="#fff" stroke-linejoin="round"/>
+            <path fill="#50B432" d="M137.476 88.004a117.496 117.496 0 0 1 90.561 42.608l-36.213 29.954A70.5 70.5 0 0 0 137.486 135z" class="highcharts-point highcharts-color-0" stroke="#fff" stroke-linejoin="round"/>
+            <path fill="#ED561B" d="M228.112 130.702A117.496 117.496 0 0 1 87.785 311.96l19.885-42.582a70.5 70.5 0 0 0 84.2-108.758z" class="highcharts-point highcharts-color-1" stroke="#fff" stroke-linejoin="round"/>
+            <path fill="#DDDF00" d="M87.679 311.91A117.496 117.496 0 0 1 137.27 88.004l.092 46.996a70.5 70.5 0 0 0-29.757 134.348z" class="highcharts-point highcharts-color-2" stroke="#fff" stroke-linejoin="round"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">

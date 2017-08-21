@@ -339,6 +339,50 @@ var indikatorensetData = [
 		]
 	},
 	{
+		"title": "Baujahr Wohngebäude",
+		"subtitle": "Stand: 2016",
+		"kuerzel": "I.09.1.4830",
+		"kuerzelKunde": "RU-1.A",
+		"description": "Baujahr Wohngebäude",
+		"id": 4830,
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2017-05-04T16:18:00.000",
+		"schlagwort": [
+			"Gebäude",
+			"Alter"
+		],
+		"stufe1": "2 Raum und Umwelt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "Mittleres Baujahr der Wohngebäude des Wohnviertels (ungewichtetes arithmetisches Mittel des Baujahres über alle Wohngebäude).",
+		"template": "dotplot",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "2 Raum und Umwelt_000",
+		"parentId": null,
+		"children": [
+			"5117"
+		],
+		"renderLink": [
+			"5117"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Anteil Einfamilienhäuser",
 		"subtitle": "Stand: 2016",
 		"kuerzel": "I.09.1.4831",
@@ -655,12 +699,13 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Aktualisierungszeitpunkt ist eigentlich Oktober t+2",
+		"lesehilfe": "",
 		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte, die in Basel-Stadt arbeiten, in Vollzeitäquivalenten) an der gesamten Wohnbevölkerung des Wohnviertels.",
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "3 Wirtschaft und Arbeit_000",
 		"parentId": null,
 		"children": [
 			"5125"
@@ -1065,12 +1110,13 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "ich bin ein test",
+		"lesehilfe": "",
 		"erlaeuterungen": "Mittleres Baujahr der Wohngebäude des Wohnviertels (ungewichtetes arithmetisches Mittel des Baujahres über alle Wohngebäude).",
 		"template": "map001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "2 Raum und Umwelt_000",
 		"parentId": 4830,
 		"children": [],
 		"renderLink": [
@@ -1386,12 +1432,13 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Aktualisierungszeitpunkt ist eigentlich Oktober t+2",
+		"lesehilfe": "",
 		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte, die in Basel-Stadt arbeiten, in Vollzeitäquivalenten) an der gesamten Wohnbevölkerung des Wohnviertels.",
 		"template": "map001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "3 Wirtschaft und Arbeit_000",
 		"parentId": 4838,
 		"children": [],
 		"renderLink": [

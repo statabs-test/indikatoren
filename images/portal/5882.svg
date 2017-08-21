@@ -1,4 +1,4 @@
-<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" width="320" height="208" font-family="arial" font-size="12">
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 208" font-family="arial" font-size="12">
     <rect fill="#fbfbfb" class="highcharts-background" width="320" height="208" rx="0" ry="0"/>
     <path fill="none" class="highcharts-plot-background" d="M3 69h314v136H3z"/>
     <path fill="none" class="highcharts-plot-border" d="M3 69h314v136H3z"/>
