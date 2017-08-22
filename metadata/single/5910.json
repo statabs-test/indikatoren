@@ -1,4 +1,4 @@
-{"title":"Unterwegsdistanz nach Verkehrsmittel",
+﻿{"title":"Unterwegsdistanz nach Verkehrsmittel",
 "subtitle":"",
 "kuerzel":"I.11.6.05902",
 "kuerzelKunde":"ST11-3",
@@ -21,6 +21,7 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":false,
+"orderKey":"Strategie 11_000",
 "parentId":5902,
 "children":[],
 "renderLink":[],

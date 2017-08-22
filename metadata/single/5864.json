@@ -1,4 +1,4 @@
-{"title":"Anzahl Wegpendler nach Ziel",
+﻿{"title":"Anzahl Wegpendler nach Ziel",
 "subtitle":"",
 "kuerzel":"I.11.5.05203",
 "kuerzelKunde":"ST 1-3",
@@ -21,9 +21,10 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":false,
+"orderKey":"Strategie 1_000",
 "parentId":5203,
 "children":[],
 "renderLink":[],
-"quellenangabe":["Bundesamt für Statistik BFS, Strukturerhebung (SE)"],
+"quellenangabe":["Bundesamt für Statistik (BFS), Strukturerhebung (SE)"],
 "externalLinks":[""]
 }

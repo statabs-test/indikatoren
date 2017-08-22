@@ -1,4 +1,4 @@
-{"title":"Anzahl privater Personenwagen pro Haushalt",
+﻿{"title":"Anzahl privater Personenwagen pro Haushalt",
 "subtitle":"",
 "kuerzel":"I.11.1.05828",
 "kuerzelKunde":"ST 11-1",
@@ -21,6 +21,7 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
+"orderKey":"Strategie 11_001",
 "parentId":null,
 "children":["5887"],
 "renderLink":[],

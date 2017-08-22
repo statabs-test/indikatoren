@@ -1,4 +1,4 @@
-{"title":"Bruttogeschossfläche Wohnen",
+﻿{"title":"Bruttogeschossfläche Wohnen",
 "subtitle":"",
 "kuerzel":"I.09.1.05818",
 "kuerzelKunde":"ST 4-9",
@@ -21,6 +21,7 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":false,
+"orderKey":"Strategie 4_000",
 "parentId":5818,
 "children":[],
 "renderLink":[],

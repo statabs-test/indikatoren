@@ -21,7 +21,10 @@
         text: null
     },
     "labels": {
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f}",
+       "style": {
+       "color": "#000000"
+        },
     },
     "min": 0,  },
   {
@@ -29,7 +32,10 @@
         text: null
     },
     "labels": {
-      "format": "{value:,.1f}"
+      "format": "{value:,.1f}",
+       "style": {
+       "color": "#000000"
+        },
     },
     "min": 0,
     "opposite": true

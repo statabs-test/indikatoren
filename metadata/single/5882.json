@@ -1,4 +1,4 @@
-{"title":"Anteil Einwohner pro ÖV-Güteklasse",
+﻿{"title":"Anteil Einwohner pro ÖV-Güteklasse",
 "subtitle":"",
 "kuerzel":"I.11.2.05822",
 "kuerzelKunde":"ST 6-1",
@@ -21,6 +21,7 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":false,
+"orderKey":"Strategie 6_000",
 "parentId":5822,
 "children":[],
 "renderLink":[],

@@ -1,4 +1,4 @@
-{"title":"Bruttogeschossfläche Industrie und Gewerbe",
+﻿{"title":"Bruttogeschossfläche Industrie und Gewerbe",
 "subtitle":"",
 "kuerzel":"I.09.1.05825",
 "kuerzelKunde":"ST 7-3",
@@ -21,6 +21,7 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":false,
+"orderKey":"Strategie 7_000",
 "parentId":5825,
 "children":[],
 "renderLink":[],

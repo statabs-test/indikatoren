@@ -1,4 +1,4 @@
-{"title":"Beschäftigtendichte",
+﻿{"title":"Beschäftigtendichte",
 "subtitle":"Anzahl Beschäftigte pro Hektar",
 "kuerzel":"I.03.2.05823",
 "kuerzelKunde":"ST 7-1",
@@ -21,9 +21,10 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":false,
+"orderKey":"Strategie 7_000",
 "parentId":5823,
 "children":[],
 "renderLink":[],
-"quellenangabe":["Bundesamt für Statistik BFS, STATENT"],
+"quellenangabe":["Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"],
 "externalLinks":[""]
 }

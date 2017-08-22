@@ -1,4 +1,4 @@
-{"title":"Mittlere Wohnfläche pro Person",
+﻿{"title":"Mittlere Wohnfläche pro Person",
 "subtitle":"nach Wohnviertel",
 "kuerzel":"I.09.1.05903",
 "kuerzelKunde":"ST4-11",
@@ -21,9 +21,10 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":false,
+"orderKey":"Strategie 4_000",
 "parentId":5903,
 "children":[],
 "renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik","Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik","Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
 "externalLinks":[""]
 }

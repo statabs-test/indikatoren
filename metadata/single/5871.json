@@ -1,4 +1,4 @@
-{"title":"Bevölkerung am Jahresende",
+﻿{"title":"Bevölkerung am Jahresende",
 "subtitle":"",
 "kuerzel":"I.01.1.05810",
 "kuerzelKunde":"ST 4-1",
@@ -21,9 +21,10 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":false,
+"orderKey":"Strategie 4_000",
 "parentId":5810,
 "children":[],
 "renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
 "externalLinks":[""]
 }
