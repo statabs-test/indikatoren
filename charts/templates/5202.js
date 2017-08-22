@@ -155,18 +155,19 @@
 					    minNumber = Math.min(minNumber, wohnviertel.value);
 					    minAbsNumber = Math.min(minAbsNumber, Math.abs(wohnviertel.value));
 					});
-
-	                
 	                //Pie size 
 	                var pieSize = function(value, minAbsNumber, maxAbsNumber, chart){
 		                var yAxis = chart.yAxis[0],
 		                    zoomFactor = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
 		                //Increase or decrease default pie size
-		            	var pieSizeFactor = 0.3;
+		            	var pieSizeFactor = 2;
 		            	//Minimal pie size: a summand added to the calculated size
-		            	var pieSizeMin = 5;
+		            	var pieSizeMin = 1;
 						//Negative values: return absolute value
-						var size = pieSizeMin + Math.abs(chart.chartWidth / 11 * pieSizeFactor * zoomFactor * value / maxAbsNumber); 
+						//size by Area: use sqrt of value to define size
+						//var size = pieSizeMin + Math.abs(chart.chartWidth / 11 * pieSizeFactor * zoomFactor * value / maxAbsNumber);
+						var size = pieSizeMin + chart.chartWidth / 11 * pieSizeFactor * zoomFactor * Math.sqrt(Math.abs(value)) / maxAbsNumber; 
+						//console.log('value absValue size: ' + value + ' ' + Math.abs(value) + ' ' + size);
 						return size;
 	                }
 	                
@@ -313,15 +314,15 @@
 			        	zIndex: 6,
 			        	//class: 'pieLegend'
 			        }).add();
-	                var maxBubbleSize = 10;
-	                var minBubbleSize = 1
+	                var maxBubbleSize = 30;
+	                var minBubbleSize = 0.1 //0.1
 	                chart.renderer.circle(410, 275, 0.5*pieSize(minBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
 					    fill: 'grey',
 					    'stroke-width': 0, 
 					    zIndex: 6,
 					    class: 'pieLegend'
 					}).add();
-					chart.renderer.label(Highcharts.numberFormat((minBubbleSize),0,"."," "), 430, 265).attr({
+					chart.renderer.label(Highcharts.numberFormat((minBubbleSize),1,","," "), 430, 265).attr({
 						zIndex: 6,
 						class: 'pieLegend'
 					}).add();
