@@ -6,7 +6,7 @@ var casper = require('casper').create();
 var system = require('system'); 
 
 var hostname, protocol;
-var port = '8082';
+var port = ':8082';
 //define url based on build system
 if (system.env.C9_HOSTNAME){
     //we're on c9.io

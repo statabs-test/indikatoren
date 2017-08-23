@@ -1,0 +1,113 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h423v308H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M52 41h423v308H52z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M86.5 41v308m36-308v308m35-308v308m35-308v308m35-308v308m36-308v308m35-308v308m35-308v308m35-308v308m36-308v308m35-308v308m35-308v308M51.5 41v308"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M52 349.5h423m-423-51h423m-423-52h423m-423-51h423m-423-51h423m-423-52h423m-423-52h423"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M52 41h423v308H52z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M52 349.5h423"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M52 41v308"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(52 41)" clip-path="url(#a)">
+            <path fill="none" d="M17.625 163.24l35.25-4.517 35.25-2.875 35.25-5.955 35.25-2.464 35.25-1.232 35.25-2.464 35.25-1.848 35.25-1.232 35.25-1.848 35.25-2.053 35.25-3.08" class="highcharts-graph" stroke="#008AC3" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined">
+            <path fill="#008AC3" d="M73 204a4 4 0 1 1 0-.004zm35-4a4 4 0 1 1 0-.004zm36-3a4 4 0 1 1 0-.004zm35-6a4 4 0 1 1 0-.004zm35-3a4 4 0 1 1 0-.004zm35-1a4 4 0 1 1 0-.004zm36-2a4 4 0 1 1 0-.004zm35-2a4 4 0 1 1 0-.004zm35-1a4 4 0 1 1 0-.004zm35-2a4 4 0 1 1 0-.004zm36-2a4 4 0 1 1 0-.004zm35-3a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(52 41)" clip-path="url(#a)">
+            <path fill="none" d="M17.625 84.187l35.25-2.875 35.25-1.848 35.25-3.285 35.25-6.16 35.25 8.624 35.25-17.043 35.25-2.67 35.25-1.642 35.25-1.232 35.25-3.901 35.25-3.491" class="highcharts-graph" stroke="#990300" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined">
+            <path fill="#990300" d="M73 125a4 4 0 1 1 0-.004zm35-3a4 4 0 1 1 0-.004zm36-2a4 4 0 1 1 0-.004zm35-3a4 4 0 1 1 0-.004zm35-6a4 4 0 1 1 0-.004zm35 9a4 4 0 1 1 0-.004zm36-17a4 4 0 1 1 0-.004zm35-3a4 4 0 1 1 0-.004zm35-2a4 4 0 1 1 0-.004zm35-1a4 4 0 1 1 0-.004zm36-4a4 4 0 1 1 0-.004zm35-3a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>Mietpreisentwicklung der 3-Zimmer-Wohnungen</tspan>
+    </text>
+    <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
+        <text x="5" y="16" font-size="11" font-weight="700" color="#000" transform="translate(316 152)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">Genossenschaftswohnungen</tspan><tspan x="5" y="16">Genossenschaftswohnungen</tspan>
+        </text>
+    </g>
+    <g class="highcharts-data-labels highcharts-series-1 highcharts-line-series highcharts-color-undefined">
+        <text x="5" y="16" font-size="11" font-weight="700" color="#000" transform="translate(286 67)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">Ohne Genossenschaftswohnungen</tspan><tspan x="5" y="16">Ohne Genossenschaftswohnungen</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="69.625" y="368">
+            2005
+        </text>
+        <text x="104.875" y="368">
+            2006
+        </text>
+        <text x="140.125" y="368">
+            2007
+        </text>
+        <text x="175.375" y="368">
+            2008
+        </text>
+        <text x="210.625" y="368">
+            2009
+        </text>
+        <text x="245.875" y="368">
+            2010
+        </text>
+        <text x="281.125" y="368">
+            2011
+        </text>
+        <text x="316.375" y="368">
+            2012
+        </text>
+        <text x="351.625" y="368">
+            2013
+        </text>
+        <text x="386.875" y="368">
+            2014
+        </text>
+        <text x="422.125" y="368">
+            2015
+        </text>
+        <text x="457.375" y="368">
+            2016
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="37" y="354">
+            <tspan>0</tspan>
+        </text>
+        <text x="37" y="302">
+            <tspan>250</tspan>
+        </text>
+        <text x="37" y="251">
+            <tspan>500</tspan>
+        </text>
+        <text x="37" y="200">
+            <tspan>750</tspan>
+        </text>
+        <text x="37" y="148">
+            <tspan>1 000</tspan>
+        </text>
+        <text x="37" y="97">
+            <tspan>1 250</tspan>
+        </text>
+        <text x="37" y="46">
+            <tspan>1 500</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung</tspan>
+    </text>
+</svg>
