@@ -19,7 +19,7 @@ else {
 }
 console.log('trying web server on ' + hostname);
 
-var urlbase = 'https://'+ hostname + ':8082/chart.html?hiddenSVG=true&id=';
+var urlbase = protocol + hostname + '/chart.html?hiddenSVG=true&id=';
 var fs = require('fs');
 var pathBase = "metadata/single/";
 
