@@ -155,21 +155,41 @@
 					    minNumber = Math.min(minNumber, wohnviertel.value);
 					    minAbsNumber = Math.min(minAbsNumber, Math.abs(wohnviertel.value));
 					});
+					
+					
+					//pie diameters in px
+					var maxPieDiameter = 30;
+					var minPieDiameter = 3;
+
+					
 	                //Pie size 
-	                var pieSize = function(value, minAbsNumber, maxAbsNumber, chart){
+	                var pieSize = function(value, minAbsValue, maxAbsValue, minPieDiameter, maxPieDiameter){
+	                	
+	                	function circleAreaByDiameter(diameter){
+	                		return Math.PI * diameter * diameter / 4;
+	                	}
+	                	
+	                	function circleDiameterByAre(area){	                		;
+	                		return Math.sqrt(4 * area / Math.PI);
+	                	}
+	                	
 		                var yAxis = chart.yAxis[0],
 		                    zoomFactor = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
-		                //Increase or decrease default pie size
-		            	var pieSizeFactor = 2;
-		            	//Minimal pie size: a summand added to the calculated size
-		            	var pieSizeMin = 1;
+		                    
 						//Negative values: return absolute value
 						//size by Area: use sqrt of value to define size
-						//var size = pieSizeMin + Math.abs(chart.chartWidth / 11 * pieSizeFactor * zoomFactor * value / maxAbsNumber);
-						var size = pieSizeMin + chart.chartWidth / 11 * pieSizeFactor * zoomFactor * Math.sqrt(Math.abs(value)) / maxAbsNumber; 
-						//console.log('value absValue size: ' + value + ' ' + Math.abs(value) + ' ' + size);
-						return size;
-	                }
+						//var size = pieSizeMin + chart.chartWidth / 11 * pieSizeFactor * /*zoomFactor **/ Math.sqrt(Math.abs(value)) / maxAbsNumber; 
+						//transform value to a number between 0 and 1 representing its relation to the min and max values
+						var relativeValue = (Math.abs(value) - minAbsValue) / (maxAbsValue - minAbsValue);
+						//console.log('absVal rel: '+ Math.abs(value) + ' ' + relativeValue);
+						//infer the pie size 
+						var maxPieArea = circleAreaByDiameter(maxPieDiameter);
+						var minPieArea = circleAreaByDiameter(minPieDiameter);
+						var area = relativeValue * (maxPieArea - minPieArea) + minPieArea;
+						var diameter = circleDiameterByAre(area);
+						//console.log('value absValue area diameter: ' + value + ' ' + Math.abs(value) + ' ' + area + ' ' + diameter);
+						return diameter;
+	                };
 	                
 	                /*
 	                // When clicking legend items, also toggle connectors and pies
@@ -228,7 +248,7 @@
 	                        borderWidth: 1,
 	                        borderColor: color(),
 	                        sizeFormatter: function () {
-								return pieSize(data.value, minAbsNumber, maxAbsNumber, chart);
+								return pieSize(data.value, minAbsNumber, maxAbsNumber, minPieDiameter, maxPieDiameter);
 	                        },
 	                        tooltip: {
 	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {series.name} </span><br/>',
@@ -303,6 +323,10 @@
 	                // Only redraw once all pies and connectors have been added
 	                chart.redraw();
 	                
+					//pie values in legend
+	                var minValueInLegend = 0.1; //minAbsNumber;
+	                var maxValueInLegend = 30; //maxAbsNumber;
+	                
 	                
 	                //Add manually drawn legend
 	                 chart.renderer.label(chart.series[1].name, 285, 240)
@@ -314,26 +338,24 @@
 			        	zIndex: 6,
 			        	//class: 'pieLegend'
 			        }).add();
-	                var maxBubbleSize = 30;
-	                var minBubbleSize = 0.1 //0.1
-	                chart.renderer.circle(410, 275, 0.5*pieSize(minBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
+	                chart.renderer.circle(410, 275, 0.5*pieSize(minValueInLegend, minAbsNumber, maxAbsNumber, minPieDiameter, maxPieDiameter)).attr({
 					    fill: 'grey',
 					    'stroke-width': 0, 
 					    zIndex: 6,
 					    class: 'pieLegend'
 					}).add();
-					chart.renderer.label(Highcharts.numberFormat((minBubbleSize),1,","," "), 430, 265).attr({
+					chart.renderer.label(Highcharts.numberFormat((minValueInLegend),1,","," "), 430, 265).attr({
 						zIndex: 6,
 						class: 'pieLegend'
 					}).add();
-	                chart.renderer.circle(410, 300, 0.5*pieSize(maxBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
+	                chart.renderer.circle(410, 300, 0.5*pieSize(maxValueInLegend, minAbsNumber, maxAbsNumber, minPieDiameter, maxPieDiameter)).attr({
 					    fill: 'grey',
 					    stroke: 'grey',
 					    'stroke-width': 0,
 					    zIndex: 6,
 					    class: 'pieLegend'
 					}).add();
-					chart.renderer.label(Highcharts.numberFormat((maxBubbleSize),0,"."," "), 430, 290).attr({
+					chart.renderer.label(Highcharts.numberFormat((maxValueInLegend),0,"."," "), 430, 290).attr({
 						zIndex: 6,
 						class: 'pieLegend'
 					}).add();
