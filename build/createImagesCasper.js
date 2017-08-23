@@ -5,19 +5,21 @@
 var casper = require('casper').create();
 var system = require('system'); 
 
-var hostname;
+var hostname, protocol;
 //define url based on build system
 if (system.env.C9_HOSTNAME){
     //we're on c9.io
+    protocol = 'https://';
     hostname = system.env.C9_HOSTNAME;    
 }
 else {
     //we're on travis or somewhere else
+    protocol = 'http://';
     hostname = 'localhost:8082';
 }
-casper.echo('trying web server on ' + hostname);
+console.log('trying web server on ' + hostname);
 
-var urlbase = 'https://'+ hostname + '/chart.html?hiddenSVG=true&id=';
+var urlbase = 'https://'+ hostname + ':8082/chart.html?hiddenSVG=true&id=';
 var fs = require('fs');
 var pathBase = "metadata/single/";
 
