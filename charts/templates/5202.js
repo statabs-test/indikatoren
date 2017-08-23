@@ -194,7 +194,7 @@
 						//var area = relativeValue * (maxPieArea - minPieArea) + minPieArea;
 						
 						var diameter = circleDiameterByAre(area);
-						console.log('value absValue area diameter: ' + value + ' ' + Math.abs(value) + ' ' + area + ' ' + diameter);
+						//console.log('value absValue area diameter: ' + value + ' ' + Math.abs(value) + ' ' + area + ' ' + diameter);
 						return diameter;
 	                };
 	                
