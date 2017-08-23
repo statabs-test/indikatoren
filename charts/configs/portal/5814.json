@@ -3238,7 +3238,7 @@
       "tooltip": {
         "pointFormatter": function (){
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '</b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),2) + '</b><br/>';
 					}
       },
       "data": [
@@ -3676,11 +3676,14 @@
 		                var yAxis = chart.yAxis[0],
 		                    zoomFactor = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
 		                //Increase or decrease default pie size
-		            	var pieSizeFactor = 0.3;
+		            	var pieSizeFactor =0.7;
 		            	//Minimal pie size: a summand added to the calculated size
-		            	var pieSizeMin = 5;
+		            	var pieSizeMin = 1;
 						//Negative values: return absolute value
-						var size = pieSizeMin + Math.abs(chart.chartWidth / 11 * pieSizeFactor * zoomFactor * value / maxAbsNumber); 
+						//size by Area: use sqrt of value to define size
+						//var size = pieSizeMin + Math.abs(chart.chartWidth / 11 * pieSizeFactor * zoomFactor * value / maxAbsNumber);
+						var size = pieSizeMin + chart.chartWidth / 11 * pieSizeFactor * zoomFactor * Math.sqrt(Math.abs(value)) / maxAbsNumber; 
+						//console.log('value absValue size: ' + value + ' ' + Math.abs(value) + ' ' + size);
 						return size;
 	                }
 	                
@@ -3746,7 +3749,7 @@
 	                        tooltip: {
 	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {series.name} </span><br/>',
 	                            pointFormatter: function () {
-	                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),1) + '</b><br/>';
+	                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),2) + '</b><br/>';
 	                            }
 	                        },
 	                        data: [
@@ -3828,14 +3831,14 @@
 			        	//class: 'pieLegend'
 			        }).add();
 	                var maxBubbleSize = 3;
-	                var minBubbleSize = 0.5
+	                var minBubbleSize = 0.01
 	                chart.renderer.circle(410, 275, 0.5*pieSize(minBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
 					    fill: 'grey',
 					    'stroke-width': 0, 
 					    zIndex: 6,
 					    class: 'pieLegend'
 					}).add();
-					chart.renderer.label(minBubbleSize, 430, 265).attr({
+					chart.renderer.label(Highcharts.numberFormat((minBubbleSize),2,","," "), 430, 265).attr({
 						zIndex: 6,
 						class: 'pieLegend'
 					}).add();
@@ -3846,7 +3849,7 @@
 					    zIndex: 6,
 					    class: 'pieLegend'
 					}).add();
-					chart.renderer.label(maxBubbleSize, 430, 290).attr({
+					chart.renderer.label(Highcharts.numberFormat((maxBubbleSize),0,"."," "), 430, 290).attr({
 						zIndex: 6,
 						class: 'pieLegend'
 					}).add();
@@ -3939,7 +3942,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Leerstandserhebung"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung"
   },
   "colorAxis": {
     "min": 0,

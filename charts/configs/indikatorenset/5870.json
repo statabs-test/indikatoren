@@ -279,7 +279,7 @@
           0.357244483012
         ]
       ],
-      "name": "Ausländeranteil",
+      "name": "Ausländeranteil (rechte Skala)",
       "turboThreshold": 0
     }
   ],
@@ -365,6 +365,10 @@
         "text": null
       },
       "labels": {
+        "style": {
+          "fontSize": 10,
+          "color": "#000000"
+        },
         "format": "{value:,.0f}"
       },
       "min": 0
@@ -374,6 +378,10 @@
         "text": null
       },
       "labels": {
+        "style": {
+          "fontSize": 10,
+          "color": "#000000"
+        },
         "format": "{value:,.1f}"
       },
       "min": 0,
@@ -399,7 +407,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
   },
   "legend": {
     "symbolRadius": 0,

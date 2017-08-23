@@ -126,6 +126,6 @@
         </text>
     </g>
     <text x="10" class="highcharts-credits" y="183" cursor="default" color="#000" font-size="10">
-        <tspan>Quelle: Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik;</tspan><tspan x="10" dy="15">Statistisches Amt Basel-Stadt, Bevölkerungsstatistik</tspan>
+        <tspan>Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik;</tspan><tspan x="10" dy="15">Statistisches Amt Basel-Stadt, Bevölkerungsstatistik</tspan>
     </text>
 </svg>

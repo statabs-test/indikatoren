@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "2016",
+      "name": "1997",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -3243,87 +3243,87 @@
       "data": [
         [
           1,
-          67.4943682015309
+          56.9964224796903
         ],
         [
           2,
-          55.6861001144172
+          55.7415422690513
         ],
         [
           3,
-          117.447655115966
+          116.364431913387
         ],
         [
           4,
-          130.228057654803
+          130.577819671781
         ],
         [
           5,
-          36.5740469748745
+          34.1841129214502
         ],
         [
           6,
-          162.080683916768
+          163.067881557276
         ],
         [
           7,
-          35.5481337064078
+          34.7065293245663
         ],
         [
           8,
-          88.5479894607466
+          89.6727405269343
         ],
         [
           9,
-          140.320485426793
+          142.680710061001
         ],
         [
           10,
-          152.7468360946
+          149.651977528482
         ],
         [
           11,
-          83.2615056999657
+          84.371185645855
         ],
         [
           12,
-          100.687653298839
+          97.4604849238766
         ],
         [
           13,
-          173.831016735163
+          168.732319252004
         ],
         [
           14,
-          74.7172317369915
+          71.2512411712882
         ],
         [
           15,
-          29.8003004639172
+          30.4524847210906
         ],
         [
           16,
-          103.400914319216
+          67.7029796137724
         ],
         [
           17,
-          267.514597481339
+          271.813639349213
         ],
         [
           18,
-          78.2640522184269
+          78.1336483546917
         ],
         [
           19,
-          21.4128194586533
+          18.5484015082562
         ],
         [
           20,
-          19.3374837572559
+          19.1901575632098
         ],
         [
           30,
-          5.34346577291458
+          5.19528562963207
         ]
       ]
     },
@@ -3332,90 +3332,90 @@
       "data": [
         [
           "Altstadt GB",
-          10.4979457218406
+          67.4943682015309
         ],
         [
           "Vorstädte",
-          -0.0554421546340294
+          55.6861001144172
         ],
         [
           "Am Ring",
-          1.08322320257878
+          117.447655115966
         ],
         [
           "Breite",
-          -0.349762016977991
+          130.228057654803
         ],
         [
           "St. Alban",
-          2.38993405342426
+          36.5740469748745
         ],
         [
           "Gundeldingen",
-          -0.987197640507816
+          162.080683916768
         ],
         [
           "Bruderholz",
-          0.841604381841542
+          35.5481337064078
         ],
         [
           "Bachletten",
-          -1.12475106618776
+          88.5479894607466
         ],
         [
           "Gotthelf",
-          -2.36022463420815
+          140.320485426793
         ],
         [
           "Iselin",
-          3.09485856611764
+          152.7468360946
         ],
         [
           "St. Johann",
-          -1.10967994588928
+          83.2615056999657
         ],
         [
           "Altstadt KB",
-          3.2271683749628
+          100.687653298839
         ],
         [
           "Clara",
-          5.09869748315913
+          173.831016735163
         ],
         [
           "Wettstein",
-          3.46599056570321
+          74.7172317369915
         ],
         [
           "Hirzbrunnen",
-          -0.652184257173481
+          29.8003004639172
         ],
         [
           "Rosental",
-          35.6979347054436
+          103.400914319216
         ],
         [
           "Matthäus",
-          -4.29904186787343
+          267.514597481339
         ],
         [
           "Klybeck",
-          0.130403863735239
+          78.2640522184269
         ],
         [
           "Kleinhüningen",
-          2.86441795039711
+          21.4128194586533
         ],
         [
           "Riehen",
-          0.147326194046041
+          19.3374837572559
         ],
         [
           "Bettingen",
-          0.148180143282505
+          5.34346577291458
         ]
       ],
-      "name": "Differenz 2016 zu 1997"
+      "name": "2016"
     },
     {
       "name": "Rhein",
@@ -3600,16 +3600,19 @@
 
 	                var chart = this;
 
-	                //Pie size 
+     //Pie size 
 	                var pieSize = function(value, minAbsNumber, maxAbsNumber, chart){
 		                var yAxis = chart.yAxis[0],
 		                    zoomFactor = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
 		                //Increase or decrease default pie size
-		            	var pieSizeFactor = 0.2;
+		            	var pieSizeFactor = 2;
 		            	//Minimal pie size: a summand added to the calculated size
-		            	var pieSizeMin = 5;
+		            	var pieSizeMin = 1;
 						//Negative values: return absolute value
-						var size = pieSizeMin + Math.abs(chart.chartWidth / 11 * pieSizeFactor * zoomFactor * value / maxAbsNumber); 
+						//size by Area: use sqrt of value to define size
+						//var size = pieSizeMin + Math.abs(chart.chartWidth / 11 * pieSizeFactor * zoomFactor * value / maxAbsNumber);
+						var size = pieSizeMin + chart.chartWidth / 11 * pieSizeFactor * zoomFactor * Math.sqrt(Math.abs(value)) / maxAbsNumber; 
+						//console.log('value absValue size: ' + value + ' ' + Math.abs(value) + ' ' + size);
 						return size;
 	                }
 					    
@@ -3816,14 +3819,14 @@
 			        	//class: 'pieLegend'
 			        }).add();
 	                var maxBubbleSize = 30;
-	                var minBubbleSize = 1
+	                var minBubbleSize = 0.1
 	                chart.renderer.circle(473, 231, 0.5*pieSize(minBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
 					    fill: 'grey',
 					    'stroke-width': 0, 
 					    zIndex: 6,
 					    class: 'pieLegend'
 					}).add();
-					chart.renderer.label(Highcharts.numberFormat((minBubbleSize),0,"."," "), 485, 221).attr({
+					chart.renderer.label(Highcharts.numberFormat((minBubbleSize),1,","," "), 485, 221).attr({
 						zIndex: 6,
 						class: 'pieLegend', 
 					}).add();

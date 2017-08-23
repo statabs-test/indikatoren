@@ -159,7 +159,6 @@
 					
 					//pie diameters in px
 					var maxPieDiameter = 30;
-					var minPieDiameter = 0.0000000001;
 
 					
 	                //Pie size 

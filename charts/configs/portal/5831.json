@@ -120,7 +120,7 @@
           15.638196946
         ]
       ],
-      "name": "Privatehaushalte in Mio. m³"
+      "name": "Privathaushalte in Mio. m³"
     },
     {
       "color": "#a8c4cb",
@@ -364,7 +364,7 @@
           0.513287371
         ]
       ],
-      "name": "Überige in Mio. m³"
+      "name": "Übrige in Mio. m³"
     },
     {
       "color": "#000000",
@@ -519,7 +519,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Geförderte Trinkwassermenge"
+    "text": "Geförderte Menge Trinkwasser im Vergleich zur der potenziellen Maximalmenge"
   },
   "subtitle": {
     "style": {

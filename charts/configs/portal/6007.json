@@ -219,8 +219,7 @@
           2016,
           102.5
         ]
-      ],
-      "name": "Fussgänger"
+      ]
     }
   ],
   "chart": {
@@ -248,7 +247,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Verkehrsleistungsindex (indexiert)"
+    "text": "Verkehrsleistungsindex"
   },
   "subtitle": {
     "style": {

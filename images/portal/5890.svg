@@ -40,7 +40,7 @@
         <tspan>Vergleich mit potenzieller Maximalmenge</tspan>
     </text>
     <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
-        <text x="5" y="16" font-size="11" font-weight="400" color="#000" transform="translate(629 96)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+        <text x="5" y="16" font-size="11" font-weight="400" color="#000" transform="translate(30 96)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
             <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">50,5</tspan><tspan x="5" y="16">50,5</tspan>
         </text>
     </g>
@@ -48,7 +48,7 @@
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="396" height="63"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
             <text x="21" y="13" color="#333" font-size="10" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
-                <tspan>Überige in Mio. m³</tspan>
+                <tspan>Übrige in Mio. m³</tspan>
             </text>
             <path fill="#8AB77D" class="highcharts-point" d="M11 7h10v10H11z"/>
         </g>
@@ -60,7 +60,7 @@
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3">
             <text x="21" y="13" color="#333" font-size="10" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 29)">
-                <tspan>Privatehaushalte in Mio. m³</tspan>
+                <tspan>Privathaushalte in Mio. m³</tspan>
             </text>
             <path fill="#b475ab" class="highcharts-point" d="M11 33h10v10H11z"/>
         </g>

@@ -20,6 +20,7 @@
     </g>
     <path fill="none" class="highcharts-plot-border" d="M65 75h380v265H65z"/>
     <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M74.5 340v10m38-10v10m38-10v10m38-10v10m38-10v10m38-10v10m38-10v10m38-10v10m38-10v10m38-10v10"/>
         <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width=".5" d="M65 340.25h380"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
@@ -43,7 +44,7 @@
         <tspan>Bevölkerung am Jahresende nach Herkunft</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(55 45)">
-        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="289" height="30"/>
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="367" height="30"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
                 <tspan>Schweiz</tspan>
@@ -59,7 +60,7 @@
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-2">
             <path fill="none" d="M178 14h16" class="highcharts-graph" stroke="#000" stroke-width="2"/>
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(178 3)">
-                <tspan>Ausländeranteil</tspan>
+                <tspan>Ausländeranteil (rechte Skala)</tspan>
             </text>
         </g>
     </g>
@@ -95,7 +96,7 @@
             2015
         </text>
     </g>
-    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#666" cursor="default" font-size="11" fill="#666">
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
         <text x="50" y="345">
             <tspan>0</tspan>
         </text>
@@ -112,7 +113,7 @@
             <tspan>240 000</tspan>
         </text>
     </g>
-    <g class="highcharts-axis-labels highcharts-yaxis-labels" color="#666" cursor="default" font-size="11" fill="#666">
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" color="#000" cursor="default" font-size="11">
         <text x="460" y="345">
             <tspan>0.0</tspan>
         </text>
@@ -130,6 +131,6 @@
         </text>
     </g>
     <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
-        <tspan>Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik</tspan>
+        <tspan>Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik</tspan>
     </text>
 </svg>

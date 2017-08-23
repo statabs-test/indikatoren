@@ -55,7 +55,7 @@
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 22)">
-                <tspan>Zuzug aus Ausland</tspan>
+                <tspan>Zuzug aus dem Ausland</tspan>
             </text>
             <path fill="#A8C3CA" class="highcharts-point" d="M10 26h12v12H10z"/>
         </g>

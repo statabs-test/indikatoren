@@ -58,7 +58,7 @@
         </g>
     </g>
     <text x="3" class="highcharts-title" y="14" color="#000" font-size="10" font-weight="700">
-        <tspan>Verkehrsleistungsindex (indexiert)</tspan>
+        <tspan>Verkehrsleistungsindex</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(28 7)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="256" height="65"/>

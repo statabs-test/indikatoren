@@ -120,7 +120,7 @@
           15.638196946
         ]
       ],
-      "name": "Privatehaushalte in Mio. m³"
+      "name": "Privathaushalte in Mio. m³"
     },
     {
       "color": "#a8c4cb",
@@ -364,7 +364,7 @@
           0.513287371
         ]
       ],
-      "name": "Überige in Mio. m³"
+      "name": "Übrige in Mio. m³"
     },
     {
       "color": "#000000",
@@ -381,7 +381,7 @@
         },
         "enabled": true,
         "formatter": function () {
-	        var first  = this.series.data[this.series.data.length - 1];
+            var first  = this.series.data[0];
 	        if (this.point.x === first.x) {
 	        return /*this.point.x + ":<br/>" + */ Highcharts.numberFormat(this.point.y, 1, ",", " ") + "";
 	        }

@@ -124,7 +124,7 @@
           105.730730864223
         ]
       ],
-      "name": "Bevölkerung indexiert"
+      "name": "Bevölkerung indexiert (rechte Skala)"
     },
     {
       "color": "#A8C3CA",
@@ -250,7 +250,7 @@
           null
         ]
       ],
-      "name": "Beschäftigte indexiert"
+      "name": "Beschäftigte indexiert (rechte Skala)"
     }
   ],
   "chart": {
@@ -341,7 +341,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Bundesamt für Statistik BFS, STATENT"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
   },
   "legend": {
     "enabled": true,
@@ -353,6 +353,7 @@
     "x": 45,
     "width": 300,
     "itemMarginBottom": 5,
+    "itemWidth": 120,
     "itemStyle": {
       "fontWeight": "normal"
     }
