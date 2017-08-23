@@ -159,11 +159,11 @@
 					
 					//pie diameters in px
 					var maxPieDiameter = 30;
-					var minPieDiameter = 3;
+					var minPieDiameter = 0.0000000001;
 
 					
 	                //Pie size 
-	                var pieSize = function(value, minAbsValue, maxAbsValue, minPieDiameter, maxPieDiameter){
+	                var pieSize = function(value, maxAbsValue, maxPieDiameter){
 	                	
 	                	function circleAreaByDiameter(diameter){
 	                		return Math.PI * diameter * diameter / 4;
@@ -179,15 +179,22 @@
 						//Negative values: return absolute value
 						//size by Area: use sqrt of value to define size
 						//var size = pieSizeMin + chart.chartWidth / 11 * pieSizeFactor * /*zoomFactor **/ Math.sqrt(Math.abs(value)) / maxAbsNumber; 
+						
 						//transform value to a number between 0 and 1 representing its relation to the min and max values
-						var relativeValue = (Math.abs(value) - minAbsValue) / (maxAbsValue - minAbsValue);
+						//var relativeValue = (Math.abs(value) - minAbsValue) / (maxAbsValue - minAbsValue);
+						
+						//transform value to a number between 0 and 1, where value 0 is represented by 0 and maxAbsValue by 1
+						var relativeValue = Math.abs(value) / maxAbsValue ;
 						//console.log('absVal rel: '+ Math.abs(value) + ' ' + relativeValue);
 						//infer the pie size 
 						var maxPieArea = circleAreaByDiameter(maxPieDiameter);
-						var minPieArea = circleAreaByDiameter(minPieDiameter);
-						var area = relativeValue * (maxPieArea - minPieArea) + minPieArea;
+						var area = relativeValue * maxPieArea;
+						
+						//var minPieArea = circleAreaByDiameter(minPieDiameter);
+						//var area = relativeValue * (maxPieArea - minPieArea) + minPieArea;
+						
 						var diameter = circleDiameterByAre(area);
-						//console.log('value absValue area diameter: ' + value + ' ' + Math.abs(value) + ' ' + area + ' ' + diameter);
+						console.log('value absValue area diameter: ' + value + ' ' + Math.abs(value) + ' ' + area + ' ' + diameter);
 						return diameter;
 	                };
 	                
@@ -248,7 +255,7 @@
 	                        borderWidth: 1,
 	                        borderColor: color(),
 	                        sizeFormatter: function () {
-								return pieSize(data.value, minAbsNumber, maxAbsNumber, minPieDiameter, maxPieDiameter);
+								return pieSize(data.value, maxAbsNumber, maxPieDiameter);
 	                        },
 	                        tooltip: {
 	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {series.name} </span><br/>',
@@ -324,8 +331,8 @@
 	                chart.redraw();
 	                
 					//pie values in legend
-	                var minValueInLegend = 0.1; //minAbsNumber;
-	                var maxValueInLegend = 30; //maxAbsNumber;
+	                var minValueInLegend = 1; //minAbsNumber;
+	                var maxValueInLegend = 20; //maxAbsNumber;
 	                
 	                
 	                //Add manually drawn legend
@@ -338,9 +345,10 @@
 			        	zIndex: 6,
 			        	//class: 'pieLegend'
 			        }).add();
-	                chart.renderer.circle(410, 275, 0.5*pieSize(minValueInLegend, minAbsNumber, maxAbsNumber, minPieDiameter, maxPieDiameter)).attr({
+	                chart.renderer.circle(410, 275, 0.5*pieSize(minValueInLegend, maxAbsNumber, maxPieDiameter)).attr({
 					    fill: 'grey',
-					    'stroke-width': 0, 
+					    stroke: 'grey',
+					    'stroke-width': 1, 
 					    zIndex: 6,
 					    class: 'pieLegend'
 					}).add();
@@ -348,10 +356,10 @@
 						zIndex: 6,
 						class: 'pieLegend'
 					}).add();
-	                chart.renderer.circle(410, 300, 0.5*pieSize(maxValueInLegend, minAbsNumber, maxAbsNumber, minPieDiameter, maxPieDiameter)).attr({
+	                chart.renderer.circle(410, 300, 0.5*pieSize(maxValueInLegend, maxAbsNumber, maxPieDiameter)).attr({
 					    fill: 'grey',
 					    stroke: 'grey',
-					    'stroke-width': 0,
+					    'stroke-width': 1,
 					    zIndex: 6,
 					    class: 'pieLegend'
 					}).add();
@@ -398,16 +406,27 @@
 								//if no fill color is defined, set to  black
 								$(this).attr('fill_active', $(this).attr('fill') || 'black');	
 							}
+							if (!$(this).attr('stroke_active')) {
+								$(this).attr('stroke_active', $(this).attr('stroke') || null);	
+							}
 						});
 						//toggle color
 						if (pieLegendItems.attr('fill') == pieLegendItems.attr('fill_active')){
 							//set all to grey
 							pieLegendItems.attr('fill', '#cccccc');
+							//if stroke is present, toggle it
+							pieLegendItems.each(function(i, v){
+								//if stroke_active is present, set it to grey
+								if ($(this).attr('stroke_active')) {
+									$(this).attr('stroke', '#cccccc');
+								}
+							});
 						} 
 						else {
 							pieLegendItems.each(function(i, v){
 								//set each to its fill_active color
 								$(this).attr('fill', $(this).attr('fill_active'));	
+								$(this).attr('stroke', $(this).attr('stroke_active'));	
 							});
 						}
 					});
