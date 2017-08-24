@@ -10,24 +10,6 @@
     </defs>
     <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
     <path fill="none" class="highcharts-plot-background" d="M10 55h465v315H10z"/>
-    <g class="pieLegend">
-        <circle cx="410" cy="275" r="1.295" fill="grey"/>
-        <text x="3" y="15" transform="translate(430 265)" class="highcharts-label">
-            0,1
-        </text>
-        <circle cx="410" cy="300" r="10.231" fill="grey"/>
-        <text x="3" y="15" transform="translate(430 290)" class="highcharts-label">
-            15
-        </text>
-        <path fill="grey" d="M290 270h10v10h-10z"/>
-        <text x="3" y="15" transform="translate(310 265)" class="highcharts-label">
-            Zunahme
-        </text>
-        <path fill="salmon" d="M290 295h10v10h-10z"/>
-        <text x="3" y="15" transform="translate(310 290)" class="highcharts-label">
-            Abnahme
-        </text>
-    </g>
     <path fill="none" class="highcharts-plot-border" d="M10 55h465v315H10z"/>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-map-series highcharts-color-0 highcharts-tracker" transform="translate(10 55)" clip-path="url(#a)">
@@ -57,67 +39,67 @@
             <path fill="#008AC3" d="M161.054 168.999l5.538 1.405 4.904.303 10.39-1.039 23.418-6.763 18.148-6.053 20.782-8.66 11.13.927-.792 3.09-6.23-.754-7.412.748-12.376 5.082-13 6.024.484 4.029-1.246-.96-5.196.865-7.03 3.326-3.215.713-4.704 2.058-8.084 2.182-6.61.634-12.04.699-5.681-.797-4.26-1.466-.895-.527-.452.486-1.062-.726-2.773-2.104-1.389-2.083-2.612-1.145-4.845-4.048-5.006-6.553-4.09-6.473-6.439-11.225.272-.448-.586-1.81-.456.147-1.385-7.567-.174-7.592 1.083-13.327-1.566-12.21 3.904 1.14-.707-11.785.876-8.763 2.546-12.458 3.226-9.484 5.381-12.913 10.757 3.53-7.193-2.36-4.464 9.294-4.025 11.616-.32 5.535-1.409 3.617-1.404 10.019.147 11.866 1.541 13.508-.313 7.186-.743 5.629.355 7.914 2.346 9.404 3.03 6.684 8.123 12.262 8.312 7.135 5.49 3.036z" class="highcharts-point" stroke="#fbfbfb" vector-effect="non-scaling-stroke"/>
         </g>
         <g class="highcharts-series highcharts-series-3 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="grey" d="M146.778 211.11a10.996 10.996 0 1 1-.199.002l.2 10.994z" class="highcharts-point highcharts-color-0" stroke="grey" stroke-linejoin="round"/>
+            <path fill="grey" d="M146.778 211.12a10.987 10.987 0 1 1-.096 0l.098 10.986z" class="highcharts-point highcharts-color-0" stroke="grey" stroke-linejoin="round"/>
         </g>
         <g class="highcharts-series highcharts-series-4 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="grey" d="M155.637 239.818a6.084 6.084 0 1 1-.123.002l.124 6.082z" class="highcharts-point highcharts-color-0" stroke="grey" stroke-linejoin="round"/>
+            <path fill="grey" d="M155.637 240.055a5.847 5.847 0 1 1-.055 0l.056 5.847z" class="highcharts-point highcharts-color-0" stroke="grey" stroke-linejoin="round"/>
         </g>
         <g class="highcharts-series highcharts-series-5 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="grey" d="M130.238 232.076a5.476 5.476 0 1 1-.117.001l.118 5.475z" class="highcharts-point highcharts-color-0" stroke="grey" stroke-linejoin="round"/>
+            <path fill="grey" d="M130.238 232.34a5.213 5.213 0 1 1-.053 0l.054 5.212z" class="highcharts-point highcharts-color-0" stroke="grey" stroke-linejoin="round"/>
         </g>
         <g class="highcharts-series highcharts-series-6 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="salmon" d="M219.476 226.444a4.248 4.248 0 1 1-.1.002l.1 4.246z" class="highcharts-point highcharts-color-0" stroke="salmon" stroke-linejoin="round"/>
+            <path fill="salmon" d="M219.476 226.765a3.927 3.927 0 1 1-.043 0l.044 3.927z" class="highcharts-point highcharts-color-0" stroke="salmon" stroke-linejoin="round"/>
         </g>
         <g class="highcharts-series highcharts-series-7 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="grey" d="M200.433 261.672a3.829 3.829 0 1 1-.1.001l.1 3.828z" class="highcharts-point highcharts-color-0" stroke="grey" stroke-linejoin="round"/>
+            <path fill="grey" d="M200.433 262.012a3.489 3.489 0 1 1-.04 0l.04 3.489z" class="highcharts-point highcharts-color-0" stroke="grey" stroke-linejoin="round"/>
         </g>
         <g class="highcharts-series highcharts-series-8 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="grey" d="M155.63 273.432a2.766 2.766 0 1 1-.078.001l.08 2.765z" class="highcharts-point highcharts-color-0" stroke="grey" stroke-linejoin="round"/>
+            <path fill="grey" d="M155.63 273.821a2.377 2.377 0 1 1-.03 0l.031 2.377z" class="highcharts-point highcharts-color-0" stroke="grey" stroke-linejoin="round"/>
         </g>
         <g class="highcharts-series highcharts-series-9 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="grey" d="M167.8 321.349a1.112 1.112 0 1 1-.036 0l.037 1.111z" class="highcharts-point highcharts-color-0" stroke="grey" stroke-linejoin="round"/>
+            <path fill="grey" d="M167.8 321.817a.644.644 0 1 1-.01 0l.01.643z" class="highcharts-point highcharts-color-0" stroke="grey" stroke-linejoin="round"/>
         </g>
         <g class="highcharts-series highcharts-series-10 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="salmon" d="M101.876 253.557a2.983 2.983 0 1 1-.105.002l.106 2.981z" class="highcharts-point highcharts-color-0" stroke="salmon" stroke-linejoin="round"/>
+            <path fill="salmon" d="M101.876 253.934a2.606 2.606 0 1 1-.042 0l.043 2.606z" class="highcharts-point highcharts-color-0" stroke="salmon" stroke-linejoin="round"/>
         </g>
         <g class="highcharts-series highcharts-series-11 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="salmon" d="M99.45 225.864a6.494 6.494 0 1 1-.239.005l.24 6.49z" class="highcharts-point highcharts-color-0" stroke="salmon" stroke-linejoin="round"/>
+            <path fill="salmon" d="M99.45 226.071a6.287 6.287 0 1 1-.107.001l.108 6.286z" class="highcharts-point highcharts-color-0" stroke="salmon" stroke-linejoin="round"/>
         </g>
         <g class="highcharts-series highcharts-series-12 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="grey" d="M88.251 204.778a2.081 2.081 0 1 1-.08.002l.08 2.08z" class="highcharts-point highcharts-color-0" stroke="grey" stroke-linejoin="round"/>
+            <path fill="grey" d="M88.251 205.198a1.661 1.661 0 1 1-.03 0l.03 1.661z" class="highcharts-point highcharts-color-0" stroke="grey" stroke-linejoin="round"/>
         </g>
         <g class="highcharts-series highcharts-series-13 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="grey" d="M105.154 172.176a3.475 3.475 0 1 1-.15.003l.15 3.472z" class="highcharts-point highcharts-color-0" stroke="grey" stroke-linejoin="round"/>
+            <path fill="grey" d="M105.154 172.526a3.125 3.125 0 1 1-.06 0l.06 3.125z" class="highcharts-point highcharts-color-0" stroke="grey" stroke-linejoin="round"/>
         </g>
         <g class="highcharts-series highcharts-series-14 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="salmon" d="M160.16 202.82a8.093 8.093 0 1 1-.36.008l.362 8.085z" class="highcharts-point highcharts-color-0" stroke="salmon" stroke-linejoin="round"/>
+            <path fill="salmon" d="M160.16 202.942a7.97 7.97 0 1 1-.152.002l.154 7.969z" class="highcharts-point highcharts-color-0" stroke="salmon" stroke-linejoin="round"/>
         </g>
         <g class="highcharts-series highcharts-series-15 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="grey" d="M171.14 195.052a5.123 5.123 0 1 1-.237.005l.238 5.118z" class="highcharts-point highcharts-color-0" stroke="grey" stroke-linejoin="round"/>
+            <path fill="grey" d="M171.14 195.318a4.856 4.856 0 1 1-.092.001l.093 4.856z" class="highcharts-point highcharts-color-0" stroke="grey" stroke-linejoin="round"/>
         </g>
         <g class="highcharts-series highcharts-series-16 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="grey" d="M192.628 202.044a9.741 9.741 0 1 1-.45.011l.452 9.73z" class="highcharts-point highcharts-color-0" stroke="grey" stroke-linejoin="round"/>
+            <path fill="grey" d="M192.628 202.083a9.702 9.702 0 1 1-.196.002l.198 9.7z" class="highcharts-point highcharts-color-0" stroke="grey" stroke-linejoin="round"/>
         </g>
         <g class="highcharts-series highcharts-series-17 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="grey" d="M219.804 177.557a1.749 1.749 0 1 1-.084.002l.084 1.747z" class="highcharts-point highcharts-color-0" stroke="grey" stroke-linejoin="round"/>
+            <path fill="grey" d="M219.804 177.991a1.315 1.315 0 1 1-.027 0l.027 1.315z" class="highcharts-point highcharts-color-0" stroke="grey" stroke-linejoin="round"/>
         </g>
         <g class="highcharts-series highcharts-series-18 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="grey" d="M184.056 177.199a7.047 7.047 0 1 1-.35.009l.352 7.038z" class="highcharts-point highcharts-color-0" stroke="grey" stroke-linejoin="round"/>
+            <path fill="grey" d="M184.056 177.368a6.878 6.878 0 1 1-.146.002l.148 6.876z" class="highcharts-point highcharts-color-0" stroke="grey" stroke-linejoin="round"/>
         </g>
         <g class="highcharts-series highcharts-series-19 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="salmon" d="M158.437 180.624a3.715 3.715 0 1 1-.184.005l.185 3.71z" class="highcharts-point highcharts-color-0" stroke="salmon" stroke-linejoin="round"/>
+            <path fill="salmon" d="M158.437 180.958a3.38 3.38 0 1 1-.075.001l.076 3.38z" class="highcharts-point highcharts-color-0" stroke="salmon" stroke-linejoin="round"/>
         </g>
         <g class="highcharts-series highcharts-series-20 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="salmon" d="M155.763 146.853a6.885 6.885 0 1 1-.366.01l.367 6.875z" class="highcharts-point highcharts-color-0" stroke="salmon" stroke-linejoin="round"/>
+            <path fill="salmon" d="M155.763 147.029a6.709 6.709 0 1 1-.158.002l.16 6.707z" class="highcharts-point highcharts-color-0" stroke="salmon" stroke-linejoin="round"/>
         </g>
         <g class="highcharts-series highcharts-series-21 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="grey" d="M171.576 115.66a8.465 8.465 0 1 1-.45.012l.452 8.453z" class="highcharts-point highcharts-color-0" stroke="grey" stroke-linejoin="round"/>
+            <path fill="grey" d="M171.576 115.757a8.368 8.368 0 1 1-.207.003l.209 8.365z" class="highcharts-point highcharts-color-0" stroke="grey" stroke-linejoin="round"/>
         </g>
         <g class="highcharts-series highcharts-series-22 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="grey" d="M313.286 134.606a1.292 1.292 0 1 1-.073.003l.073 1.29z" class="highcharts-point highcharts-color-0" stroke="grey" stroke-linejoin="round"/>
+            <path fill="grey" d="M313.286 135.062a.837.837 0 1 1-.02 0l.02.837z" class="highcharts-point highcharts-color-0" stroke="grey" stroke-linejoin="round"/>
         </g>
         <g class="highcharts-series highcharts-series-23 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="grey" d="M362.383 174.186a1.37 1.37 0 1 1-.078.002l.078 1.368z" class="highcharts-point highcharts-color-0" stroke="grey" stroke-linejoin="round"/>
+            <path fill="grey" d="M362.383 174.638a.918.918 0 1 1-.024 0l.024.918z" class="highcharts-point highcharts-color-0" stroke="grey" stroke-linejoin="round"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
@@ -128,6 +110,22 @@
     </text>
     <text x="3" y="15" font-weight="700" transform="translate(285 240)" class="highcharts-label">
         <tspan>Differenz 2014 zu 2011</tspan>
+    </text>
+    <circle cx="410" cy="275" r=".83" fill="grey" stroke="grey" class="pieLegend"/>
+    <text x="3" y="15" transform="translate(430 265)" class="pieLegend">
+        0,1
+    </text>
+    <circle cx="410" cy="300" r="10.17" fill="grey" stroke="grey" class="pieLegend"/>
+    <text x="3" y="15" transform="translate(430 290)" class="pieLegend">
+        15
+    </text>
+    <path fill="grey" class="pieLegend" d="M290 270h10v10h-10z"/>
+    <text x="3" y="15" transform="translate(310 265)" class="pieLegend">
+        Zunahme
+    </text>
+    <path fill="salmon" class="pieLegend" d="M290 295h10v10h-10z"/>
+    <text x="3" y="15" transform="translate(310 290)" class="pieLegend">
+        Abnahme
     </text>
     <g class="highcharts-legend" transform="translate(261 323)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="214" height="47"/>
