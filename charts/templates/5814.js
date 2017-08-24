@@ -17,7 +17,7 @@
 			"maxColor": "#4b7b1f",
 			"labels": {
 				"formatter": function () {
-					return Highcharts.numberFormat((this.value),1); 
+					return Highcharts.numberFormat((this.value),0); 
 				}
 			}
 		},
@@ -155,23 +155,47 @@
 					    minNumber = Math.min(minNumber, wohnviertel.value);
 					    minAbsNumber = Math.min(minAbsNumber, Math.abs(wohnviertel.value));
 					});
+					
+					
+					//pie diameters in px
+					var maxPieDiameter = 22;
 
-	                
+					
 	                //Pie size 
-	                var pieSize = function(value, minAbsNumber, maxAbsNumber, chart){
+	                var pieSize = function(value, maxAbsValue, maxPieDiameter){
+	                	
+	                	function circleAreaByDiameter(diameter){
+	                		return Math.PI * diameter * diameter / 4;
+	                	}
+	                	
+	                	function circleDiameterByAre(area){	                		;
+	                		return Math.sqrt(4 * area / Math.PI);
+	                	}
+	                	
 		                var yAxis = chart.yAxis[0],
 		                    zoomFactor = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
-		                //Increase or decrease default pie size
-		            	var pieSizeFactor =0.7;
-		            	//Minimal pie size: a summand added to the calculated size
-		            	var pieSizeMin = 1;
+		                    
 						//Negative values: return absolute value
 						//size by Area: use sqrt of value to define size
-						//var size = pieSizeMin + Math.abs(chart.chartWidth / 11 * pieSizeFactor * zoomFactor * value / maxAbsNumber);
-						var size = pieSizeMin + chart.chartWidth / 11 * pieSizeFactor * zoomFactor * Math.sqrt(Math.abs(value)) / maxAbsNumber; 
-						//console.log('value absValue size: ' + value + ' ' + Math.abs(value) + ' ' + size);
-						return size;
-	                }
+						//var size = pieSizeMin + chart.chartWidth / 11 * pieSizeFactor * /*zoomFactor **/ Math.sqrt(Math.abs(value)) / maxAbsNumber; 
+						
+						//transform value to a number between 0 and 1 representing its relation to the min and max values
+						//var relativeValue = (Math.abs(value) - minAbsValue) / (maxAbsValue - minAbsValue);
+						
+						//transform value to a number between 0 and 1, where value 0 is represented by 0 and maxAbsValue by 1
+						var relativeValue = Math.abs(value) / maxAbsValue ;
+						//console.log('absVal rel: '+ Math.abs(value) + ' ' + relativeValue);
+						//infer the pie size 
+						var maxPieArea = circleAreaByDiameter(maxPieDiameter);
+						var area = relativeValue * maxPieArea;
+						
+						//var minPieArea = circleAreaByDiameter(minPieDiameter);
+						//var area = relativeValue * (maxPieArea - minPieArea) + minPieArea;
+						
+						var diameter = circleDiameterByAre(area);
+						//console.log('value absValue area diameter: ' + value + ' ' + Math.abs(value) + ' ' + area + ' ' + diameter);
+						return diameter;
+	                };
 	                
 	                /*
 	                // When clicking legend items, also toggle connectors and pies
@@ -179,8 +203,8 @@
 	                    var old = item.setVisible;
 	                    item.setVisible = function () {
 	                        var legendItem = this;
-	                        old.call(legendItem);
-	                        Highcharts.each(chart.series[0].points, function (point) {
+						//Negative values: return absolute value
+						var size = p       Highcharts.each(chart.series[0].points, function (point) {
 	                            if (chart.colorAxis[0].dataClasses[point.dataClass].name === legendItem.name) {
 	                                // Find this Wohnviertel's pie and set visibility
 	                                Highcharts.find(chart.series, function (item) {
@@ -230,7 +254,7 @@
 	                        borderWidth: 1,
 	                        borderColor: color(),
 	                        sizeFormatter: function () {
-								return pieSize(data.value, minAbsNumber, maxAbsNumber, chart);
+								return pieSize(data.value, maxAbsNumber, maxPieDiameter);
 	                        },
 	                        tooltip: {
 	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {series.name} </span><br/>',
@@ -247,25 +271,6 @@
 	                        		color: color()
 	                        	}
 	                        ],
-	                        /*
-	                        data: [{
-	                            name: 'FDP',
-	                            y: 1, //wohnviertel.demVotes,
-	                            color: 'red'
-	                        }, {
-	                            name: 'SP',
-	                            y: 2, //wohnviertel.repVotes,
-	                            color: 'blue'
-	                        }, {
-	                            name: 'CVP',
-	                            y: 3, //wohnviertel.libVotes,
-	                            color: 'green'
-	                        }, {
-	                            name: 'Grüne',
-	                            y: 4, //wohnviertel.grnVotes,
-	                            color: 'yellow'
-	                        }],
-	                		*/
 	                        center: {
 	                            lat: centerLat + (pieOffset.lat || 0),
 	                            lon: centerLon + (pieOffset.lon || 0)
@@ -305,6 +310,10 @@
 	                // Only redraw once all pies and connectors have been added
 	                chart.redraw();
 	                
+					//pie values in legend
+	                var minValueInLegend = 0.01; //minAbsNumber;
+	                var maxValueInLegend = 3; //maxAbsNumber;
+	                
 	                
 	                //Add manually drawn legend
 	                 chart.renderer.label(chart.series[1].name, 285, 240)
@@ -316,26 +325,25 @@
 			        	zIndex: 6,
 			        	//class: 'pieLegend'
 			        }).add();
-	                var maxBubbleSize = 3;
-	                var minBubbleSize = 0.01
-	                chart.renderer.circle(410, 275, 0.5*pieSize(minBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
+	                chart.renderer.circle(410, 275, 0.5*pieSize(minValueInLegend, maxAbsNumber, maxPieDiameter)).attr({
 					    fill: 'grey',
-					    'stroke-width': 0, 
+					    stroke: 'grey',
+					    'stroke-width': 1, 
 					    zIndex: 6,
 					    class: 'pieLegend'
 					}).add();
-					chart.renderer.label(Highcharts.numberFormat((minBubbleSize),2,","," "), 430, 265).attr({
+					chart.renderer.label(Highcharts.numberFormat((minValueInLegend),2,","," "), 430, 265).attr({
 						zIndex: 6,
 						class: 'pieLegend'
 					}).add();
-	                chart.renderer.circle(410, 300, 0.5*pieSize(maxBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
+	                chart.renderer.circle(410, 300, 0.5*pieSize(maxValueInLegend, maxAbsNumber, maxPieDiameter)).attr({
 					    fill: 'grey',
 					    stroke: 'grey',
-					    'stroke-width': 0,
+					    'stroke-width': 1,
 					    zIndex: 6,
 					    class: 'pieLegend'
 					}).add();
-					chart.renderer.label(Highcharts.numberFormat((maxBubbleSize),0,"."," "), 430, 290).attr({
+					chart.renderer.label(Highcharts.numberFormat((maxValueInLegend),0,"."," "), 430, 290).attr({
 						zIndex: 6,
 						class: 'pieLegend'
 					}).add();
@@ -360,7 +368,7 @@
 			        	class: 'pieLegend'
 			        }).add();
 
-									//Add click handler to bubbleLegend items
+					//Add click handler to bubbleLegend items
 					$('.pieLegend').click(function(){
 						//Toggle visible of mappies
 						Highcharts.each(chart.series, function (series) {
@@ -378,16 +386,27 @@
 								//if no fill color is defined, set to  black
 								$(this).attr('fill_active', $(this).attr('fill') || 'black');	
 							}
+							if (!$(this).attr('stroke_active')) {
+								$(this).attr('stroke_active', $(this).attr('stroke') || null);	
+							}
 						});
 						//toggle color
 						if (pieLegendItems.attr('fill') == pieLegendItems.attr('fill_active')){
 							//set all to grey
 							pieLegendItems.attr('fill', '#cccccc');
+							//if stroke is present, toggle it
+							pieLegendItems.each(function(i, v){
+								//if stroke_active is present, set it to grey
+								if ($(this).attr('stroke_active')) {
+									$(this).attr('stroke', '#cccccc');
+								}
+							});
 						} 
 						else {
 							pieLegendItems.each(function(i, v){
 								//set each to its fill_active color
 								$(this).attr('fill', $(this).attr('fill_active'));	
+								$(this).attr('stroke', $(this).attr('stroke_active'));	
 							});
 						}
 					});
