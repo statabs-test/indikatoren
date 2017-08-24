@@ -63,10 +63,10 @@
             <path fill="#FFBB58" class="highcharts-point" d="M10 7h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-2">
-            <path fill="none" d="M115.672 14h16" class="highcharts-graph" stroke="#B00000" stroke-width="2"/>
-            <path fill="#B00000" d="M127.672 14a4 4 0 1 1 0-.004z" class="highcharts-point"/>
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(115.672 3)">
-                <tspan>Bevölkerung indexiert</tspan>
+            <path fill="none" d="M128 14h16" class="highcharts-graph" stroke="#B00000" stroke-width="2"/>
+            <path fill="#B00000" d="M140 14a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(128 3)">
+                <tspan>Bevölkerung…</tspan><title>Bevölkerung indexiert (rechte Skala)</title>
             </text>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
@@ -76,10 +76,10 @@
             <path fill="#A8C3CA" class="highcharts-point" d="M10 26h12v12H10z"/>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-3">
-            <path fill="none" d="M115 33h16" class="highcharts-graph" stroke="#246370" stroke-width="2"/>
-            <path fill="#246370" d="M123 29l4 4-4 4-4-4z" class="highcharts-point"/>
-            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(115 22)">
-                <tspan>Beschäftigte indexiert</tspan>
+            <path fill="none" d="M128 33h16" class="highcharts-graph" stroke="#246370" stroke-width="2"/>
+            <path fill="#246370" d="M136 29l4 4-4 4-4-4z" class="highcharts-point"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(128 22)">
+                <tspan>Beschäftigte…</tspan><title>Beschäftigte indexiert (rechte Skala)</title>
             </text>
         </g>
     </g>
@@ -138,6 +138,6 @@
         </text>
     </g>
     <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
-        <tspan>Quelle: Bundesamt für Statistik BFS, STATENT</tspan>
+        <tspan>Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)</tspan>
     </text>
 </svg>

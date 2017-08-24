@@ -62,7 +62,7 @@
             <path fill="none" d="M8 54h16" class="highcharts-graph" stroke="#007a2f" stroke-width="2"/>
             <path fill="#007a2f" d="M20 54a4 4 0 1 1 0-.004z" class="highcharts-point"/>
             <text x="21" y="13" color="#333" font-size="10" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 44)">
-                <tspan>Regional ÖV mit Frequent</tspan>
+                <tspan>Regional ÖV mit Frequenz</tspan>
             </text>
         </g>
     </g>

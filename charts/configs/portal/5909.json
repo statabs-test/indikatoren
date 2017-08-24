@@ -140,7 +140,7 @@
           105.730730864223
         ]
       ],
-      "name": "Bevölkerung indexiert"
+      "name": "Bevölkerung indexiert (rechte Skala)"
     },
     {
       "color": "#A8C3CA",
@@ -266,7 +266,7 @@
           null
         ]
       ],
-      "name": "Beschäftigte indexiert"
+      "name": "Beschäftigte indexiert (rechte Skala)"
     }
   ],
   "chart": {
@@ -323,7 +323,8 @@
       "labels": {
         "format": "{value:,.0f}",
         "style": {
-          "color": "#000000"
+          "color": "#000000",
+          "fontSize": 10
         }
       },
       "min": 0
@@ -335,7 +336,8 @@
       "labels": {
         "format": "{value:,.0f}",
         "style": {
-          "color": "#000000"
+          "color": "#000000",
+          "fontSize": 10
         }
       },
       "min": 0,
@@ -370,7 +372,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Bundesamt für Statistik BFS, STATENT"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
   },
   "legend": {
     "enabled": true,

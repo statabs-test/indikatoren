@@ -158,8 +158,8 @@
 					
 					
 					//pie diameters in px
-					var maxPieDiameter = 30;
-					var minPieDiameter = 3;
+					var maxPieDiameter = 10;
+					var minPieDiameter = 1;
 
 					
 	                //Pie size 
@@ -324,8 +324,8 @@
 	                chart.redraw();
 	                
 					//pie values in legend
-	                var minValueInLegend = 0.1; //minAbsNumber;
-	                var maxValueInLegend = 30; //maxAbsNumber;
+	                var minValueInLegend = 10; //minAbsNumber;
+	                var maxValueInLegend = 20; //maxAbsNumber;
 	                
 	                
 	                //Add manually drawn legend

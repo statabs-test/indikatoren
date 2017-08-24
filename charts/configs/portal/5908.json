@@ -303,7 +303,7 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "x": 45,
+    "x": 25,
     "itemWidth": 120,
     "itemMarginBottom": 5
   },
@@ -317,6 +317,6 @@
     }
   },
   "exporting": {
-    "filename": "I.03.2.05891"
+    "filename": "I.11.2.05908"
   }
 }

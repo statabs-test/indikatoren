@@ -28,6 +28,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
+		"orderKey": "Strategie 1_000",
 		"parentId": 5201,
 		"children": [],
 		"renderLink": [],
@@ -61,12 +62,13 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Mit 267,5 Einwohner pro ha wies das Matthäusviertel am Jahresende 2016 die höchste Bevölkerungsdichte auf. Ebenfalls hohe Bevölkerungsdichten wiesen die Wohnviertel Gundeldingen, Iselin und Clara auf. Im Vergleich zu 1997 am stärksten zugenommen hat die Bevölkerungsdichte im Rosentalviertel.",
 		"erlaeuterungen": "",
 		"template": "mappie001_print",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
+		"orderKey": "Strategie 1_000",
 		"parentId": 5202,
 		"children": [],
 		"renderLink": [],
@@ -105,11 +107,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
+		"orderKey": "Strategie 1_000",
 		"parentId": 5203,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik BFS, Strukturerhebung (SE)"
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
 		"externalLinks": [
 			""
@@ -143,6 +146,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
+		"orderKey": "Strategie 1_000",
 		"parentId": 5205,
 		"children": [],
 		"renderLink": [],
@@ -181,11 +185,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
+		"orderKey": "Strategie 1_000",
 		"parentId": 5804,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik BFS, Strukturerhebung (SE)"
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
 		"externalLinks": [
 			""
@@ -214,16 +219,17 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Von der gesamten Kantonsfläche ist rund die Hälfte mit Grünflächen (11,2% Wald; 11,1% Acker, Wiese, Weide; 28,3% übrige Grünflächen) bedeckt. Auf 16.4% der Fläche stehen Gebäude, 17.3% werden von Verkehrsflächen in Anspruch, 12,0% sind übrige befestigte Flächen und 3,6% entfallen auf Gewässer.",
-		"erlaeuterungen": "Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m2 geführt werden. Diese werden in einem Turnus von 6–12 Jahren mit einer periodischen Nachführung aktualisiert. Ausnahme: Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst.",
+		"erlaeuterungen": "Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m2 geführt werden. Diese werden in einem Turnus von 6 bis 12 Jahren mit einer periodischen Nachführung aktualisiert. Ausnahme: Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst. Die folgenden Kategorien setzen sich aus den jeweils nachstehenden Unterkategorien zusammen: «Übrige Grünflächen» = Friedhof, Gartenanlage, Parkanlage & Spielplatz, Schrebergarten, humusierte Sportanlage, Tierpark, Park, Reben, humusiertes Gewässervorland, übrige humusierte, Hecke, übrige bestockte; «Verkehrsflächen» = Bahnareal, Tramareal, Strasse & Weg, Rabatte, Trottoir, Verkehrsinsel; «Übrige befestigte» = Fabrikareal, befestigtes Gewässervorland, Hafenareal, befestigte Sportanlage, Wasserbecken, übrige Befestigte.",
 		"template": "pie001_print",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
+		"orderKey": "Strategie 2_000",
 		"parentId": 5807,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Grundbuch- und Vermessungsamt  Basel-Stadt"
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
 		],
 		"externalLinks": [
 			""
@@ -257,11 +263,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
+		"orderKey": "Strategie 4_000",
 		"parentId": 5809,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -296,11 +303,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
+		"orderKey": "Strategie 4_000",
 		"parentId": 5810,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -329,16 +337,17 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Wohnungsbestand ist innert 5 Jahren um gut 3000 Einheiten oder 3% angewachsen. Der grösste relative Zuwachs verzeichnete das Wohnviertel Rosental, in welchem in diesem Zeitraum netto über 600 neue Wohnungen entstanden.",
-		"erlaeuterungen": "Es handelt sich um Bauwohnungen. Angaben bis 2012 basieren auf Fortschreibungsdaten per Ende Jahr auf Grundlage der eidegnössischen Gebäude- und Wohnungszählungen. Ab 2013 stammen die Daten vom kantonalen Gebäude- und Wohnungsregister GWR. Infolge stetiger Datenbereinigungen ergeben sich Korrekturen am Wohnungsbestand. Die jährliche Veränderung des Wohnungsbestandes seit 2012 ist somit nicht nur in der Bautätigkeit begründet.",
+		"erlaeuterungen": "Es handelt sich um Bauwohnungen. Angaben bis 2012 basieren auf Fortschreibungsdaten per Ende Jahr auf Grundlage der eidgenössischen Gebäude- und Wohnungszählungen. Ab 2013 stammen die Daten vom kantonalen Gebäude- und Wohnungsregister GWR. Infolge stetiger Datenbereinigungen ergeben sich Korrekturen am Wohnungsbestand. Die jährliche Veränderung des Wohnungsbestandes seit 2012 ist somit nicht nur in der Bautätigkeit begründet.",
 		"template": "template001_print",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
+		"orderKey": "Strategie 4_000",
 		"parentId": 5812,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -367,16 +376,17 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Leerwohnungsquote sank seit 2006 kontinuierlich und erreichte 2014 mit 0,2% den tiefsten Wert. Seither steigt sie wieder leicht an.",
-		"erlaeuterungen": "Stichtag ist der 1. Juni. Nur Wohnungen, die für den eigentlichen Wohnungsmarkt in Betracht kommen, also ohne leere Wohnungen, die für den Abbruch oder Umbau bestimmt sind. Prozentangaben beziehen sich auf den Leerwohnungsbestand am Gesamtwohnungsbestande.",
+		"erlaeuterungen": "Stichtag ist der 1. Juni. Nur Wohnungen, die für den eigentlichen Wohnungsmarkt in Betracht kommen, also ohne leere Wohnungen, die für den Abbruch oder Umbau bestimmt sind. Prozentangaben beziehen sich auf den Leerwohnungsbestand am Gesamtwohnungsbestand.",
 		"template": "line001_print",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
+		"orderKey": "Strategie 4_000",
 		"parentId": 5813,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Leerstandserhebung"
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
 		"externalLinks": [
 			""
@@ -410,11 +420,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
+		"orderKey": "Strategie 4_000",
 		"parentId": 5814,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Leerstandserhebung"
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
 		"externalLinks": [
 			""
@@ -448,12 +459,13 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
+		"orderKey": "Strategie 4_000",
 		"parentId": 5815,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik",
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -487,11 +499,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
+		"orderKey": "Strategie 4_000",
 		"parentId": 5816,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -525,11 +538,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
+		"orderKey": "Strategie 4_000",
 		"parentId": 5817,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -563,6 +577,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
+		"orderKey": "Strategie 4_000",
 		"parentId": 5818,
 		"children": [],
 		"renderLink": [],
@@ -601,6 +616,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
+		"orderKey": "Strategie 5_000",
 		"parentId": 5819,
 		"children": [],
 		"renderLink": [],
@@ -640,6 +656,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
+		"orderKey": "Strategie 5_000",
 		"parentId": 5821,
 		"children": [],
 		"renderLink": [],
@@ -678,6 +695,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
+		"orderKey": "Strategie 6_000",
 		"parentId": 5822,
 		"children": [],
 		"renderLink": [],
@@ -717,11 +735,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
+		"orderKey": "Strategie 7_000",
 		"parentId": 5823,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik BFS, STATENT"
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
 		"externalLinks": [
 			""
@@ -755,11 +774,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
+		"orderKey": "Strategie 7_000",
 		"parentId": 5824,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik BFS, STATENT"
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
 		"externalLinks": [
 			""
@@ -793,6 +813,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
+		"orderKey": "Strategie 7_000",
 		"parentId": 5825,
 		"children": [],
 		"renderLink": [],
@@ -804,11 +825,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Anteil Landwirtschaftsfläche",
+		"title": "Landwirtschaftsfläche",
 		"subtitle": "gemäss Zonenplan",
 		"kuerzel": "I.02.1.05827",
 		"kuerzelKunde": "ST 9-1",
-		"description": "Anteil Landwirtschaftsfläche",
+		"description": "Landwirtschaftsfläche",
 		"id": 5886,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -831,6 +852,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
+		"orderKey": "Strategie 9_000",
 		"parentId": 5827,
 		"children": [],
 		"renderLink": [],
@@ -867,6 +889,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
+		"orderKey": "Strategie 11_000",
 		"parentId": 5828,
 		"children": [],
 		"renderLink": [],
@@ -909,6 +932,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
+		"orderKey": "Strategie 11_000",
 		"parentId": 5829,
 		"children": [],
 		"renderLink": [],
@@ -943,11 +967,12 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Wasserverbrauch hat von 1995 bis 2015 um 10.1 Mio. m³ abgenommen.",
-		"erlaeuterungen": "Die maximal mögliche Jahresproduktion bezieht sich auf heute (Grundwassser Lange Erle und Grundwasser Hard). Bei der maximal möglichen Jahresproduktion handelt es sich um eine theoretische Annahme seitens der Industriellen Werke Basel (IWB), die mit Unsicherheit behaftet ist. Aufgrund von Ausfällen der Anlage (z.B. Revision) oder günstigen Rahmenbedingungen (z.B. Grundwasserstände) steigt oder sinkt die jährlich maximal mögliche Jahresproduktion. Durch Wiederinbetriebnahme der momentan leeren Aktivkohlenbecken könnte die maximale Jahresproduktion gesteigert werden.",
+		"erlaeuterungen": "Die maximal mögliche Jahresproduktion bezieht sich auf  die im Jahr 2016 verfügbaren Grundwasserressourcen (Grundwassser Lange Erle und Grundwasser Hard). Bei der maximal möglichen Jahresproduktion handelt es sich um eine theoretische Grösse seitens der Industriellen Werke Basel (IWB), die mit Unsicherheit behaftet ist. Aufgrund von Ausfällen der Anlage (z.B. Revision) oder günstigen Rahmenbedingungen (z.B. Grundwasserstände) steigt oder sinkt die jährlich maximal mögliche Jahresproduktion.",
 		"template": "line001_print",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
+		"orderKey": "Strategie 12_000",
 		"parentId": 5831,
 		"children": [],
 		"renderLink": [],
@@ -961,11 +986,11 @@ var indikatorensetData = [
 	{
 		"title": "Externe und interne Erreichbarkeit",
 		"subtitle": "Basel-Stadt im Vergleich",
-		"kuerzel": "I.03.2.05891",
+		"kuerzel": "I.11.2.05908",
 		"kuerzelKunde": "ST 8-1",
 		"description": "Externe und interne Erreichbarkeit",
 		"id": 5908,
-		"thema": "03 Erwerbsleben",
+		"thema": "11 Verkehr",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Richtplan-Print",
 		"raeumlicheGliederung": [
@@ -978,17 +1003,18 @@ var indikatorensetData = [
 			"Standort",
 			"Kantonsvergleich"
 		],
-		"stufe1": "",
+		"stufe1": "Strategie 8",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die kontinentale Erreichbarkeit der Stadt Basel hat sich zwischen 2000 und 2014 verbessert. Die Entwicklung bei den anderen Schweizer Städte verläuft im gleichen Zeitraum identisch. Die Stadt Zürich bewegt sich auf einem höheren Niveau als Basel und Genf, die Stadt Bern liegt darunter. Die Entwicklung bei der globalen Erreichbarkeit verläuft bei allen Städten parallel und über die Jahre auf gleichbleibendem Niveau. Basel bewegt sich auch bei diesem indikator zusammen mit Genf wiederum zwischen dem Level von Zürich und Bern.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Kontinentale Erreichbarkeit = Erreichbarkeit aller Regionen Europas. Erreichbarkeit ist kein klares, lineares Konzept. Vielmehr beruht es auf einer Vielzahl von Faktoren, die unter dem Themenbereich Erreichbarkeit subsumiert werden können. Die Erreichbarkeitsmodelle von BAKBASEL basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren. Zudem folgen sie dem Konzept der Erreichbarkeit «aus der Region» (outbound accessibility), d.h. es wird die Reisezeit und Frequenz herangezogen, die benötigt wird, um aus der Region andere Regionen zu erreichen. Der resultierende Indikator reflektiert das gesamte Potenzial aller Regionen ohne jegliche Limitierung der Reisezeit. Jedoch werden die Reisedestinationen über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet.",
 		"template": "line001_print",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
+		"orderKey": "Strategie 8_000",
 		"parentId": 5891,
 		"children": [],
 		"renderLink": [],
@@ -1027,11 +1053,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
+		"orderKey": "Strategie 4_000",
 		"parentId": 5901,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik BFS, STATENT"
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
 		"externalLinks": [
 			""
@@ -1065,6 +1092,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
+		"orderKey": "Strategie 11_000",
 		"parentId": 5902,
 		"children": [],
 		"renderLink": [],
@@ -1104,11 +1132,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
+		"orderKey": "Strategie 4_000",
 		"parentId": 5903,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik",
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
@@ -1144,6 +1173,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
+		"orderKey": "_000",
 		"parentId": 6005,
 		"children": [],
 		"renderLink": [],
@@ -1155,11 +1185,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Verkehrsleistungsindex (indexiert)",
+		"title": "Verkehrsleistungsindex",
 		"subtitle": "",
 		"kuerzel": "I.02.6.06007",
 		"kuerzelKunde": "ST 08-2",
-		"description": "Verkehrsleistungsindex (indexiert)",
+		"description": "Verkehrsleistungsindex",
 		"id": 6008,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Mobilitätsverhalten",
@@ -1171,7 +1201,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Lärm"
 		],
-		"stufe1": "",
+		"stufe1": "Strategie 8",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1182,6 +1212,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
+		"orderKey": "Strategie 8_000",
 		"parentId": 6007,
 		"children": [],
 		"renderLink": [],

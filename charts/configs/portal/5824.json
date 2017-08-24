@@ -3676,11 +3676,14 @@
 		                var yAxis = chart.yAxis[0],
 		                    zoomFactor = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
 		                //Increase or decrease default pie size
-		            	var pieSizeFactor = 0.3;
+		            	var pieSizeFactor = 2;
 		            	//Minimal pie size: a summand added to the calculated size
-		            	var pieSizeMin = 5;
+		            	var pieSizeMin = 1;
 						//Negative values: return absolute value
-						var size = pieSizeMin + Math.abs(chart.chartWidth / 11 * pieSizeFactor * zoomFactor * value / maxAbsNumber); 
+						//size by Area: use sqrt of value to define size
+						//var size = pieSizeMin + Math.abs(chart.chartWidth / 11 * pieSizeFactor * zoomFactor * value / maxAbsNumber);
+						var size = pieSizeMin + chart.chartWidth / 11 * pieSizeFactor * zoomFactor * Math.sqrt(Math.abs(value)) / maxAbsNumber; 
+						//console.log('value absValue size: ' + value + ' ' + Math.abs(value) + ' ' + size);
 						return size;
 	                }
 	                
@@ -3827,15 +3830,15 @@
 			        	zIndex: 6,
 			        	//class: 'pieLegend'
 			        }).add();
-	                var maxBubbleSize = 20;
-	                var minBubbleSize = 0.05;
+	                var maxBubbleSize = 15;
+	                var minBubbleSize = 0.1;
 	                var group = chart.renderer.g().attr({id: 'pieLegend', class: 'pieLegend'}).add();
 	                chart.renderer.circle(410, 275, 0.5*pieSize(minBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
 					    fill: 'grey',
 					    'stroke-width': 0, 
 					    zIndex: 6
 					}).add(group);
-					chart.renderer.label(minBubbleSize, 430, 265).attr({
+					chart.renderer.label(Highcharts.numberFormat((minBubbleSize),1, ",", " "), 430, 265).attr({
 						zIndex: 6
 					}).add(group);
 	                chart.renderer.circle(410, 300, 0.5*pieSize(maxBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
@@ -3932,7 +3935,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Bundesamt für Statistik BFS, STATENT"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
   },
   "colorAxis": {
     "min": 0,

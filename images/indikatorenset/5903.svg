@@ -29,7 +29,7 @@
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>Mittlere Wohnfläche pro Person</tspan>
+        <tspan>Mittlere Wohnfläche pro Person nach Wohnviertel</tspan>
     </text>
     <text x="10" class="highcharts-subtitle" y="40" color="#000" font-weight="400">
         <tspan>nach Wohnviertel</tspan>
@@ -129,6 +129,6 @@
         </text>
     </g>
     <text x="10" class="highcharts-credits" y="390" cursor="default" color="#000" font-size="10">
-        <tspan>Quelle: Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik;</tspan><tspan x="10" dy="13">Statistisches Amt Basel-Stadt, Bevölkerungsstatistik</tspan>
+        <tspan>Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik;</tspan><tspan x="10" dy="13">Statistisches Amt Basel-Stadt, Bevölkerungsstatistik</tspan>
     </text>
 </svg>

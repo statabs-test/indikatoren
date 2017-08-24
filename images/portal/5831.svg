@@ -34,16 +34,16 @@
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
-        <tspan>Geförderte Trinkwassermenge</tspan>
+        <tspan>Geförderte Menge Trinkwasser im Vergleich zur der</tspan><tspan dy="17" x="10">potenziellen Maximalmenge</tspan><title>Geförderte Menge Trinkwasser im Vergleich zur der potenziellen Maximalmenge</title>
     </text>
-    <text x="10" class="highcharts-subtitle" y="40" color="#000" font-weight="400">
+    <text x="10" class="highcharts-subtitle" y="57" color="#000" font-weight="400">
         <tspan>Vergleich mit potenzieller Maximalmenge</tspan>
     </text>
     <g class="highcharts-legend" transform="translate(40 50)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="496" height="67"/>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
-                <tspan>Überige in Mio. m³</tspan>
+                <tspan>Übrige in Mio. m³</tspan>
             </text>
             <path fill="#8AB77D" class="highcharts-point" d="M10 7h12v12H10z"/>
         </g>
@@ -55,7 +55,7 @@
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3">
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 31)">
-                <tspan>Privatehaushalte in Mio. m³</tspan>
+                <tspan>Privathaushalte in Mio. m³</tspan>
             </text>
             <path fill="#b475ab" class="highcharts-point" d="M10 35h12v12H10z"/>
         </g>

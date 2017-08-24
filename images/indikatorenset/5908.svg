@@ -51,7 +51,7 @@
     <text x="3" class="highcharts-subtitle" y="32" color="#000" font-size="10" font-weight="400">
         <tspan>Basel-Stadt im Vergleich</tspan>
     </text>
-    <g class="highcharts-legend" transform="translate(48 7)">
+    <g class="highcharts-legend" transform="translate(28 7)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="236" height="47"/>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0">
             <path fill="none" d="M8 13h16" class="highcharts-graph" stroke="#B00000" stroke-width="2"/>
