@@ -3,10 +3,24 @@
 
 
 var casper = require('casper').create();
-
 var system = require('system'); 
-var hostname = system.env.C9_HOSTNAME;
-var urlbase = 'https://'+ hostname + '/chart.html?hiddenSVG=true&id=';
+
+var hostname, protocol;
+var port = ':8082';
+//define url based on build system
+if (system.env.C9_HOSTNAME){
+    //we're on c9.io
+    protocol = 'https://';
+    hostname = system.env.C9_HOSTNAME;
+}
+else {
+    //we're on travis or somewhere else
+    protocol = 'http://';
+    hostname = 'localhost';
+}
+console.log('trying web server on ' + hostname);
+
+var urlbase = protocol + hostname + port + '/chart.html?hiddenSVG=true&id=';
 var fs = require('fs');
 var pathBase = "metadata/single/";
 
@@ -33,7 +47,7 @@ while (ubFileList.length > 0) {
         var currentConfig = require(fs.workingDirectory + "/" + pathBase + id + ".json");
         //define which charts need to be rendered here
         if (
-            (   currentConfig.template.indexOf("mappie") > -1 || 
+            (   /*currentConfig.template.indexOf("mappie") > -1 || */
                 id == 5902 || 
                 id == 5910
             ) 

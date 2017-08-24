@@ -3785,25 +3785,6 @@
 	                        		color: color()
 	                        	}
 	                        ],
-	                        /*
-	                        data: [{
-	                            name: 'FDP',
-	                            y: 1, //wohnviertel.demVotes,
-	                            color: 'red'
-	                        }, {
-	                            name: 'SP',
-	                            y: 2, //wohnviertel.repVotes,
-	                            color: 'blue'
-	                        }, {
-	                            name: 'CVP',
-	                            y: 3, //wohnviertel.libVotes,
-	                            color: 'green'
-	                        }, {
-	                            name: 'Grüne',
-	                            y: 4, //wohnviertel.grnVotes,
-	                            color: 'yellow'
-	                        }],
-	                		*/
 	                        center: {
 	                            lat: centerLat + (pieOffset.lat || 0),
 	                            lon: centerLon + (pieOffset.lon || 0)
@@ -3844,8 +3825,8 @@
 	                chart.redraw();
 	                
 					//pie values in legend
-	                var minValueInLegend = 1; //minAbsNumber;
-	                var maxValueInLegend = 20; //maxAbsNumber;
+	                var minValueInLegend = 0.1; //minAbsNumber;
+	                var maxValueInLegend = 30; //maxAbsNumber;
 	                
 	                
 	                //Add manually drawn legend
