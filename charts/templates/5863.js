@@ -6,7 +6,7 @@
 (function(){
 
     return {
-    	"legend": {
+	"legend": {
     		useHTML: true,
 			"title": {
 				"text": null, 
@@ -24,32 +24,7 @@
 				}
 		},
 
-
-		/*
-		"colorAxis": {
-			//"min": undefined,
-			"labels": {
-				 style: {
-		                  fontSize: '10px', fontFamily: "Arial", fontWeight: "normal"
-		                },
-		        format: "{value:,.0f}",
-				"formatter": function () {
-					return Highcharts.numberFormat((this.value),0); 
-				}
-			}
-		},*/
-        "data": {
-		    "seriesMapping": [
-		      {
-		      	x: 0, y: 2
-		      },
-		      {
-		      	//2nd series: use y values from column 3
-		      	y: 3
-		      }
-		    ]
-        },
-         colorAxis: {
+		         colorAxis: {
                 dataClassColor: 'category',
                 dataClasses: [{
                     to: 4.9,
@@ -76,9 +51,19 @@
                     name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp≥&nbsp100,0"
                 }]
             },
+        "data": {
+		    "seriesMapping": [
+		      {
+		      	x: 0, y: 2
+		      },
+		      {
+		      	//2nd series: use y values from column 3
+		      	y: 3
+		      }
+		    ]
+        },
 		"series": [
 			{
-				
 				"name": "Wohnviertel", 
 				"animation": true,
 				"mapData": geojson_wohnviertelEPSG2056,
@@ -94,6 +79,7 @@
 				}, 
 				tooltip: {
 					pointFormatter: function(){
+						//console.log(this);
 						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '</b><br/>';
 					}
 				}
@@ -122,28 +108,72 @@
 		chart: {
 			events: {
 	            load: function (e) {
+	            	
 	            	this.credits.element.onclick = function() {};
+
 
 	                var chart = this;
 
-     //Pie size 
-	                var pieSize = function(value, minAbsNumber, maxAbsNumber, chart){
-		                var yAxis = chart.yAxis[0],
-		                    zoomFactor = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
-		                //Increase or decrease default pie size
-		            	var pieSizeFactor = 2;
-		            	//Minimal pie size: a summand added to the calculated size
-		            	var pieSizeMin = 1;
-						//Negative values: return absolute value
-						//size by Area: use sqrt of value to define size
-						//var size = pieSizeMin + Math.abs(chart.chartWidth / 11 * pieSizeFactor * zoomFactor * value / maxAbsNumber);
-						var size = pieSizeMin + chart.chartWidth / 11 * pieSizeFactor * zoomFactor * Math.sqrt(Math.abs(value)) / maxAbsNumber; 
-						//console.log('value absValue size: ' + value + ' ' + Math.abs(value) + ' ' + size);
-						return size;
-	                }
+
 					    
+					//define new chart type
+					// source: https://www.highcharts.com/blog/data-journalism/effectively-visualizing-us-election-results/, 
+					//  which displays  http://jsfiddle.net/gh/get/library/pure/highcharts/highcharts/tree/master/samples/maps/demo/map-pies/
+					
+					    
+					// New map-pie series type that also allows lat/lon as center option.
+					// Also adds a sizeFormatter option to the series, to allow dynamic sizing
+					// of the pies.
+					Highcharts.seriesType('mappie', 'pie', {
+					    center: null, // Can't be array by default anymore
+					    clip: true, // For map navigation
+					    states: {
+					        hover: {
+					            halo: {
+					                size: 5
+					            }
+					        }
+					    },
+					    dataLabels: {
+					        enabled: false
+					    }
+					    
+					}, {
+					    getCenter: function () {
+					        var options = this.options,
+					            chart = this.chart,
+					            slicingRoom = 2 * (options.slicedOffset || 0);
+					        if (!options.center) {
+					            options.center = [null, null]; // Do the default here instead
+					        }
+					        // Handle lat/lon support
+					        if (options.center.lat !== undefined) {
+					            var point = chart.fromLatLonToPoint(options.center);
+					            options.center = [
+					                chart.xAxis[0].toPixels(point.x, true),
+					                chart.yAxis[0].toPixels(point.y, true)
+					            ];
+					        }
+					        // Handle dynamic size
+					        if (options.sizeFormatter) {
+					            options.size = options.sizeFormatter.call(this);
+					        }
+					        // Call parent function
+					        var result = Highcharts.seriesTypes.pie.prototype.getCenter.call(this);
+					        // Must correct for slicing room to get exact pixel pos
+					        result[0] -= slicingRoom;
+					        result[1] -= slicingRoom;
+					        return result;
+					    },
+					    translate: function (p) {
+					        this.options.center = this.userOptions.center;
+					        this.center = this.getCenter();
+					        return Highcharts.seriesTypes.pie.prototype.translate.call(this, p);
+					    }
+					});
 					
 					
+
 	                // Compute max and min value to find relative sizes of bubbles. 
 	                var maxNumber = Number.NEGATIVE_INFINITY;
 	                var maxAbsNumber = Number.NEGATIVE_INFINITY;
@@ -155,175 +185,165 @@
 					    minNumber = Math.min(minNumber, wohnviertel.value);
 					    minAbsNumber = Math.min(minAbsNumber, Math.abs(wohnviertel.value));
 					});
+					
+					
+					//pie diameters in px
+					var maxPieDiameter = 20;
 
-					    
-					    
-					var drawPies = function(){
-						//define new chart type
-						// source: https://www.highcharts.com/blog/data-journalism/effectively-visualizing-us-election-results/, 
-						//  which displays  http://jsfiddle.net/gh/get/library/pure/highcharts/highcharts/tree/master/samples/maps/demo/map-pies/
+					
+	                //Pie size 
+	                var pieSize = function(value, maxAbsValue, maxPieDiameter){
+	                	
+	                	function circleAreaByDiameter(diameter){
+	                		return Math.PI * diameter * diameter / 4;
+	                	}
+	                	
+	                	function circleDiameterByAre(area){	                		;
+	                		return Math.sqrt(4 * area / Math.PI);
+	                	}
+	                	
+		                var yAxis = chart.yAxis[0],
+		                    zoomFactor = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
+		                    
+						//Negative values: return absolute value
+						//size by Area: use sqrt of value to define size
+						//var size = pieSizeMin + chart.chartWidth / 11 * pieSizeFactor * /*zoomFactor **/ Math.sqrt(Math.abs(value)) / maxAbsNumber; 
 						
-						    
-						// New map-pie series type that also allows lat/lon as center option.
-						// Also adds a sizeFormatter option to the series, to allow dynamic sizing
-						// of the pies.
-						Highcharts.seriesType('mappie', 'pie', {
-						    center: null, // Can't be array by default anymore
-						    clip: true, // For map navigation
-						    states: {
-						        hover: {
-						            halo: {
-						                size: 5
-						            }
-						        }
-						    },
-						    dataLabels: {
+						//transform value to a number between 0 and 1 representing its relation to the min and max values
+						//var relativeValue = (Math.abs(value) - minAbsValue) / (maxAbsValue - minAbsValue);
+						
+						//transform value to a number between 0 and 1, where value 0 is represented by 0 and maxAbsValue by 1
+						var relativeValue = Math.abs(value) / maxAbsValue ;
+						//console.log('absVal rel: '+ Math.abs(value) + ' ' + relativeValue);
+						//infer the pie size 
+						var maxPieArea = circleAreaByDiameter(maxPieDiameter);
+						var area = relativeValue * maxPieArea;
+						
+						//var minPieArea = circleAreaByDiameter(minPieDiameter);
+						//var area = relativeValue * (maxPieArea - minPieArea) + minPieArea;
+						
+						var diameter = circleDiameterByAre(area);
+						//console.log('value absValue area diameter: ' + value + ' ' + Math.abs(value) + ' ' + area + ' ' + diameter);
+						return diameter;
+	                };
+	                
+	                /*
+	                // When clicking legend items, also toggle connectors and pies
+	                Highcharts.each(chart.legend.allItems, function (item) {
+	                    var old = item.setVisible;
+	                    item.setVisible = function () {
+	                        var legendItem = this;
+						//Negative values: return absolute value
+						var size = p       Highcharts.each(chart.series[0].points, function (point) {
+	                            if (chart.colorAxis[0].dataClasses[point.dataClass].name === legendItem.name) {
+	                                // Find this Wohnviertel's pie and set visibility
+	                                Highcharts.find(chart.series, function (item) {
+	                                    return item.name === point.id;
+	                                }).setVisible(legendItem.visible, false);
+	                                // Do the same for the connector point if it exists
+	                                var connector = Highcharts.find(chart.series[1].points, function (item) {
+	                                    return item.name === point.id;
+	                                });
+	                                if (connector) {
+	                                    connector.setVisible(legendItem.visible, false);
+	                                }
+	                            }
+	                        });
+	                        chart.redraw();
+	                    };
+	                });
+	                */
+	                
+	                // Add the pies after chart load, optionally with offset and connectors
+	                // series[0] contains the choropleth map data, series[1] the pie chart data
+	                Highcharts.each(chart.series[1].points, function (data) {
+	                    if (!data.value) {
+	                        return; // Skip points with no data, if any
+	                    }
+
+	                	var wohnviertelSeries = chart.series[0].points[data.index];
+	                	
+	                    var pieOffset = wohnviertelSeries.pieOffset || {},
+	                        centerLat = parseFloat(wohnviertelSeries.properties.lat),
+	                        centerLon = parseFloat(wohnviertelSeries.properties.lon);
+	                	
+						
+						//define different colors for positive and negative values
+                        var color = function(){
+                        	return (data.value >= 0) ? 'grey' : 'salmon';
+                        };
+
+	                    var currentPieSeries = 
+	                    {
+	                        type: 'mappie',
+	                        //name: data.id,
+	                        name: data.series.name,
+	                        wohnviertel_Name: data["hc-key"],
+	                        wohnviertel_Id : wohnviertelSeries.wohnviertel_Id,
+	                        zIndex: 6, // Keep pies above connector lines
+	                        borderWidth: 1,
+	                        borderColor: color(),
+	                        sizeFormatter: function () {
+								return pieSize(data.value, maxAbsNumber, maxPieDiameter);
+	                        },
+	                        tooltip: {
+	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {series.name} </span><br/>',
+	                            pointFormatter: function () {
+	                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),1) + '</b><br/>';
+	                            }
+	                        },
+	                        data: [
+	                        	{
+	                        		name: chart.series[1].name,
+	                        		//put absolute value in y, real value in v
+	                        		y: Math.abs(data.value),
+	                        		v: data.value,
+	                        		color: color()
+	                        	}
+	                        ],
+	                        center: {
+	                            lat: centerLat + (pieOffset.lat || 0),
+	                            lon: centerLon + (pieOffset.lon || 0)
+	                        }, 
+	                        dataLabels: {
 						        enabled: false
 						    }
-						    
-						}, {
-						    getCenter: function () {
-						        var options = this.options,
-						            chart = this.chart,
-						            slicingRoom = 2 * (options.slicedOffset || 0);
-						        if (!options.center) {
-						            options.center = [null, null]; // Do the default here instead
-						        }
-						        // Handle lat/lon support
-						        if (options.center.lat !== undefined) {
-						            var point = chart.fromLatLonToPoint(options.center);
-						            options.center = [
-						                chart.xAxis[0].toPixels(point.x, true),
-						                chart.yAxis[0].toPixels(point.y, true)
-						            ];
-						        }
-						        // Handle dynamic size
-						        if (options.sizeFormatter) {
-						            options.size = options.sizeFormatter.call(this);
-						        }
-						        // Call parent function
-						        var result = Highcharts.seriesTypes.pie.prototype.getCenter.call(this);
-						        // Must correct for slicing room to get exact pixel pos
-						        result[0] -= slicingRoom;
-						        result[1] -= slicingRoom;
-						        return result;
-						    },
-						    translate: function (p) {
-						        this.options.center = this.userOptions.center;
-						        this.center = this.getCenter();
-						        return Highcharts.seriesTypes.pie.prototype.translate.call(this, p);
-						    }
-						});
-						
-		                
-	                // Add the pies after chart load, optionally with offset and connectors
-		                // series[0] contains the choropleth map data, series[1] the pie chart data
-		                Highcharts.each(chart.series[1].points, function (data) {
-		                    if (!data.value) {
-		                        return; // Skip points with no data, if any
-		                    }
-	
-		                	var wohnviertelSeries = chart.series[0].points[data.index];
-		                	
-		                    var pieOffset = wohnviertelSeries.pieOffset || {},
-		                        centerLat = parseFloat(wohnviertelSeries.properties.lat),
-		                        centerLon = parseFloat(wohnviertelSeries.properties.lon);
-		                	
-							
-							//define different colors for positive and negative values
-	                        var color = function(){
-	                        	return (data.value >= 0) ? 'grey' : 'salmon';
-	                        };
-	
-		                    var currentPieSeries = 
-		                    {
-		                        type: 'mappie',
-		                        //name: data.id,
-		                        name: data.series.name,
-		                        wohnviertel_Name: data["hc-key"],
-		                        wohnviertel_Id : wohnviertelSeries.wohnviertel_Id,
-		                        zIndex: 6, // Keep pies above connector lines
-		                        borderWidth: 1,
-		                        borderColor: color(),
-		                        sizeFormatter: function () {
-									return pieSize(data.value, minAbsNumber, maxAbsNumber, chart);
-		                        },
-		                        tooltip: {
-		                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {series.name} </span><br/>',
-		                            pointFormatter: function () {
-		                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),1) + '</b><br/>';
-		                            }
-		                        },
-		                        data: [
-		                        	{
-		                        		name: chart.series[1].name,
-		                        		//put absolute value in y, real value in v
-		                        		y: Math.abs(data.value),
-		                        		v: data.value,
-		                        		color: color()
-		                        	}
-		                        ],
-		                        /*
-		                        data: [{
-		                            name: 'FDP',
-		                            y: 1, //wohnviertel.demVotes,
-		                            color: 'red'
-		                        }, {
-		                            name: 'SP',
-		                            y: 2, //wohnviertel.repVotes,
-		                            color: 'blue'
-		                        }, {
-		                            name: 'CVP',
-		                            y: 3, //wohnviertel.libVotes,
-		                            color: 'green'
-		                        }, {
-		                            name: 'Grüne',
-		                            y: 4, //wohnviertel.grnVotes,
-		                            color: 'yellow'
-		                        }],
-		                		*/
-		                        center: {
-		                            lat: centerLat + (pieOffset.lat || 0),
-		                            lon: centerLon + (pieOffset.lon || 0)
-		                        }, 
-		                        dataLabels: {
-							        enabled: false
-							    }
-		                    }
-		                    ;
-		                    
-		                    
-		                    // Add the pie for this wohnviertel
-		                    chart.addSeries(currentPieSeries, false);
-		                    
-		                    /*
-		                    // Draw connector to wohnviertel center if the pie has been offset
-		                    if (pieOffset.drawConnector !== false) {
-		                        var centerPoint = chart.fromLatLonToPoint({
-		                                lat: centerLat,
-		                                lon: centerLon
-		                            }),
-		                            offsetPoint = chart.fromLatLonToPoint({
-		                                lat: centerLat + (pieOffset.lat || 0),
-		                                lon: centerLon + (pieOffset.lon || 0)
-		                            });
-		                        chart.series[1].addPoint({
-		                            name: wohnviertel.id,
-		                            path: 'M' + offsetPoint.x + ' ' + offsetPoint.y +
-		                                'L' + centerPoint.x + ' ' + centerPoint.y
-		                        }, false);
-		                    }
-		                    */
-		                    
-		                    //console.log(chart.series[chart.series.length-1]);
-		                    
-		                });
-		                // Only redraw once all pies and connectors have been added
-		                //chart.redraw();
-					};
-					
-
-	                drawPies();
+	                    }
+	                    ;
+	                    
+	                    
+	                    // Add the pie for this wohnviertel
+	                    chart.addSeries(currentPieSeries, false);
+	                    
+	                    /*
+	                    // Draw connector to wohnviertel center if the pie has been offset
+	                    if (pieOffset.drawConnector !== false) {
+	                        var centerPoint = chart.fromLatLonToPoint({
+	                                lat: centerLat,
+	                                lon: centerLon
+	                            }),
+	                            offsetPoint = chart.fromLatLonToPoint({
+	                                lat: centerLat + (pieOffset.lat || 0),
+	                                lon: centerLon + (pieOffset.lon || 0)
+	                            });
+	                        chart.series[1].addPoint({
+	                            name: wohnviertel.id,
+	                            path: 'M' + offsetPoint.x + ' ' + offsetPoint.y +
+	                                'L' + centerPoint.x + ' ' + centerPoint.y
+	                        }, false);
+	                    }
+	                    */
+	                    
+	                    //console.log(chart.series[chart.series.length-1]);
+	                    
+	                });
+	                // Only redraw once all pies and connectors have been added
+	                chart.redraw();
+	                
+					//pie values in legend
+	                var minValueInLegend = 0.1; //minAbsNumber;
+	                var maxValueInLegend = 30; //maxAbsNumber;
+	                
 	                
 	                //Add manually drawn legend
 	                 chart.renderer.label(chart.series[0].name, 350, 200)
@@ -334,39 +354,39 @@
 	                .attr({
 			        	zIndex: 6,
 			        	//class: 'pieLegend'
-			        }).add();
-			        chart.renderer.label(chart.series[1].name, 460, 200)
+			        }).add();	                
+	                 chart.renderer.label(chart.series[1].name, 460, 200)
      				.css({
 	                    fontSize: '12px',
 	                    fontWeight: 'bold'
 	                })
-			        .attr({
+	                .attr({
 			        	zIndex: 6,
 			        	//class: 'pieLegend'
 			        }).add();
-	                var maxBubbleSize = 30;
-	                var minBubbleSize = 0.1
-	                chart.renderer.circle(473, 231, 0.5*pieSize(minBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
+	                chart.renderer.circle(473, 231, 0.5*pieSize(minValueInLegend, maxAbsNumber, maxPieDiameter)).attr({
 					    fill: 'grey',
-					    'stroke-width': 0, 
+					    stroke: 'grey',
+					    'stroke-width': 1, 
 					    zIndex: 6,
 					    class: 'pieLegend'
 					}).add();
-					chart.renderer.label(Highcharts.numberFormat((minBubbleSize),1,","," "), 485, 221).attr({
-						zIndex: 6,
-						class: 'pieLegend', 
-					}).add();
-	                chart.renderer.circle(473, 248, 0.5*pieSize(maxBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
-					    fill: 'grey',
-					    'stroke-width': 0,
-					    zIndex: 6,
-					    class: 'pieLegend'
-					}).add();
-					chart.renderer.label(Highcharts.numberFormat((maxBubbleSize),0,"."," "), 485, 237).attr({
+					chart.renderer.label(Highcharts.numberFormat((minValueInLegend),1,","," "), 485, 221).attr({
 						zIndex: 6,
 						class: 'pieLegend'
 					}).add();
-				    chart.renderer.rect(520, 225, 12, 12, 0).attr({
+	                chart.renderer.circle(473, 248, 0.5*pieSize(maxValueInLegend, maxAbsNumber, maxPieDiameter)).attr({
+					    fill: 'grey',
+					    stroke: 'grey',
+					    'stroke-width': 1,
+					    zIndex: 6,
+					    class: 'pieLegend'
+					}).add();
+					chart.renderer.label(Highcharts.numberFormat((maxValueInLegend),0,"."," "), 485, 237).attr({
+						zIndex: 6,
+						class: 'pieLegend'
+					}).add();
+				    chart.renderer.rect(520, 225, 10, 10, 0).attr({
 			            'stroke-width':0,
 			            fill: 'grey',
 			            zIndex: 6,
@@ -376,7 +396,7 @@
 			        	zIndex: 6,
 			        	class: 'pieLegend'
 			        }).add();
-					chart.renderer.rect(520, 241, 12, 12, 0).attr({
+					chart.renderer.rect(520, 241, 10, 10, 0).attr({
 			            'stroke-width':0,
 			            fill: 'salmon',
 			            zIndex: 6,
@@ -386,10 +406,6 @@
 			        	zIndex: 6,
 			        	class: 'pieLegend'
 			        }).add();
-
-					//redraw chart after adding all series and the legend
-					chart.redraw();
-
 
 					//Add click handler to bubbleLegend items
 					$('.pieLegend').click(function(){
@@ -409,20 +425,30 @@
 								//if no fill color is defined, set to  black
 								$(this).attr('fill_active', $(this).attr('fill') || 'black');	
 							}
+							if (!$(this).attr('stroke_active')) {
+								$(this).attr('stroke_active', $(this).attr('stroke') || null);	
+							}
 						});
 						//toggle color
 						if (pieLegendItems.attr('fill') == pieLegendItems.attr('fill_active')){
 							//set all to grey
 							pieLegendItems.attr('fill', '#cccccc');
+							//if stroke is present, toggle it
+							pieLegendItems.each(function(i, v){
+								//if stroke_active is present, set it to grey
+								if ($(this).attr('stroke_active')) {
+									$(this).attr('stroke', '#cccccc');
+								}
+							});
 						} 
 						else {
 							pieLegendItems.each(function(i, v){
 								//set each to its fill_active color
 								$(this).attr('fill', $(this).attr('fill_active'));	
+								$(this).attr('stroke', $(this).attr('stroke_active'));	
 							});
 						}
 					});
-					
 	            }
 			}
 		}
