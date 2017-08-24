@@ -1,0 +1,177 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 665 208" font-family="arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h633v85H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="665" height="208" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M29 82h633v85H29z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M45.5 82v85m22-85v85m22-85v85m23-85v85m22-85v85m22-85v85m22-85v85m22-85v85m23-85v85m22-85v85m22-85v85m22-85v85m22-85v85m22-85v85m23-85v85m22-85v85m22-85v85m22-85v85m22-85v85m22-85v85m23-85v85m22-85v85m22-85v85m22-85v85m22-85v85m23-85v85m22-85v85m22-85v85"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#B9CFD7" stroke-width=".5" class="highcharts-grid-line" d="M29 167.25h633m-633-28h633m-633-29h633M29 81.75h633"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M29 82h633v85H29z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width=".5" d="M29 167.25h633"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M29 82v85"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(29 82)" clip-path="url(#a)">
+            <path fill="none" d="M17.078 13.518h598.844" class="highcharts-graph" stroke="#000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined" transform="translate(29 82)" clip-path="url(#a)">
+            <path fill="#8AB77D" class="highcharts-point" d="M10 46h15v1H10zm22-1h15v1H32zm22 3h15v1H54zm22-1h15v1H76zm22 2h15v1H98zm22 2h15v1h-15zm23 0h15v1h-15zm22 1h15v1h-15zm22 1h15v2h-15zm22-1h15v2h-15zm22 2h15v1h-15zm23 1h15v1h-15zm22 1h15v1h-15zm22 1h15v1h-15zm22-3h15v1h-15zm22 1h15v2h-15zm22 0h15v1h-15zm23 2h15v1h-15zm22 1h15v1h-15zm22-1h15v1h-15zm22-1h15v1h-15zm22 0h15v1h-15zm45-1h15v1h-15zm22 2h15v1h-15zm22 0h15v1h-15zm22 0h15v1h-15z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined" transform="translate(29 82)" clip-path="url(#a)">
+            <path fill="#a8c4cb" class="highcharts-point" d="M10 47h15v11H10zm22-1h15v11H32zm22 3h15v10H54zm22-1h15v10H76zm22 2h15v10H98zm22 2h15v9h-15zm23 0h15v9h-15zm22 1h15v9h-15zm22 2h15v8h-15zm22-1h15v8h-15zm22 1h15v8h-15zm23 1h15v8h-15zm22 1h15v8h-15zm22 1h15v8h-15zm22-3h15v8h-15zm22 2h15v6h-15zm22-1h15v6h-15zm23 2h15v6h-15zm22 1h15v5h-15zm22-1h15v6h-15zm22-1h15v7h-15zm22 0h15v8h-15zm23-1h15v8h-15zm22 0h15v7h-15zm22 2h15v7h-15zm22 0h15v6h-15zm22 0h15v7h-15zm22-1h15v7h-15z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined" transform="translate(29 82)" clip-path="url(#a)">
+            <path fill="#b475ab" class="highcharts-point" d="M10 58h15v28H10zm22-1h15v29H32zm22 2h15v27H54zm22-1h15v28H76zm22 2h15v26H98zm22 1h15v25h-15zm23 0h15v25h-15zm22 1h15v24h-15zm22 1h15v23h-15zm22-1h15v24h-15zm22 1h15v23h-15zm23 1h15v22h-15zm22 1h15v21h-15zm22 1h15v20h-15zm22-3h15v23h-15zm22 0h15v23h-15zm22-1h15v24h-15zm23 2h15v22h-15zm22 0h15v22h-15zm22 0h15v22h-15zm22 0h15v22h-15zm22 1h15v21h-15zm23-1h15v22h-15zm22-1h15v23h-15zm22 2h15v21h-15zm22-1h15v22h-15zm22 1h15v21h-15zm22-1h15v22h-15z"/>
+        </g>
+    </g>
+    <text x="3" class="highcharts-title" y="14" color="#000" font-size="10" font-weight="700">
+        <tspan>Geförderte Trinkwassermenge</tspan>
+    </text>
+    <text x="3" class="highcharts-subtitle" y="32" color="#000" font-size="10" font-weight="400">
+        <tspan>Vergleich mit potenzieller Maximalmenge</tspan>
+    </text>
+    <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
+        <text x="5" y="16" font-size="11" font-weight="400" color="#000" transform="translate(30 96)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">50,5</tspan><tspan x="5" y="16">50,5</tspan>
+        </text>
+    </g>
+    <g class="highcharts-legend" transform="translate(33 7)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="396" height="63"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
+            <text x="21" y="13" color="#333" font-size="10" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
+                <tspan>Übrige in Mio. m³</tspan>
+            </text>
+            <path fill="#8AB77D" class="highcharts-point" d="M11 7h10v10H11z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
+            <text x="21" y="13" color="#333" font-size="10" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 16)">
+                <tspan>Industrie, Bau und Gewerbe in Mio. m³</tspan>
+            </text>
+            <path fill="#a8c4cb" class="highcharts-point" d="M11 20h10v10H11z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3">
+            <text x="21" y="13" color="#333" font-size="10" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 29)">
+                <tspan>Privathaushalte in Mio. m³</tspan>
+            </text>
+            <path fill="#b475ab" class="highcharts-point" d="M11 33h10v10H11z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0">
+            <path fill="none" d="M8 52h16" class="highcharts-graph" stroke="#000" stroke-width="2"/>
+            <text x="21" y="13" color="#333" font-size="10" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 42)">
+                <tspan>Maximal mögliche Jahresproduktion in Mio. m³</tspan>
+            </text>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="10">
+        <text x="48.907" transform="rotate(-45 48.907 183)" y="183">
+            <tspan>1989</tspan>
+        </text>
+        <text x="71.086" transform="rotate(-45 71.086 183)" y="183">
+            <tspan>1990</tspan>
+        </text>
+        <text x="93.265" transform="rotate(-45 93.265 183)" y="183">
+            <tspan>1991</tspan>
+        </text>
+        <text x="115.445" transform="rotate(-45 115.445 183)" y="183">
+            <tspan>1992</tspan>
+        </text>
+        <text x="137.624" transform="rotate(-45 137.624 183)" y="183">
+            <tspan>1993</tspan>
+        </text>
+        <text x="159.804" transform="rotate(-45 159.804 183)" y="183">
+            <tspan>1994</tspan>
+        </text>
+        <text x="181.983" transform="rotate(-45 181.983 183)" y="183">
+            <tspan>1995</tspan>
+        </text>
+        <text x="204.162" transform="rotate(-45 204.162 183)" y="183">
+            <tspan>1996</tspan>
+        </text>
+        <text x="226.342" transform="rotate(-45 226.342 183)" y="183">
+            <tspan>1997</tspan>
+        </text>
+        <text x="248.521" transform="rotate(-45 248.521 183)" y="183">
+            <tspan>1998</tspan>
+        </text>
+        <text x="270.701" transform="rotate(-45 270.7 183)" y="183">
+            <tspan>1999</tspan>
+        </text>
+        <text x="292.88" transform="rotate(-45 292.88 183)" y="183">
+            <tspan>2000</tspan>
+        </text>
+        <text x="315.059" transform="rotate(-45 315.06 183)" y="183">
+            <tspan>2001</tspan>
+        </text>
+        <text x="337.239" transform="rotate(-45 337.239 183)" y="183">
+            <tspan>2002</tspan>
+        </text>
+        <text x="359.418" transform="rotate(-45 359.418 183)" y="183">
+            <tspan>2003</tspan>
+        </text>
+        <text x="381.598" transform="rotate(-45 381.598 183)" y="183">
+            <tspan>2004</tspan>
+        </text>
+        <text x="403.777" transform="rotate(-45 403.777 183)" y="183">
+            <tspan>2005</tspan>
+        </text>
+        <text x="425.956" transform="rotate(-45 425.956 183)" y="183">
+            <tspan>2006</tspan>
+        </text>
+        <text x="448.136" transform="rotate(-45 448.136 183)" y="183">
+            <tspan>2007</tspan>
+        </text>
+        <text x="470.315" transform="rotate(-45 470.315 183)" y="183">
+            <tspan>2008</tspan>
+        </text>
+        <text x="492.495" transform="rotate(-45 492.495 183)" y="183">
+            <tspan>2009</tspan>
+        </text>
+        <text x="514.674" transform="rotate(-45 514.674 183)" y="183">
+            <tspan>2010</tspan>
+        </text>
+        <text x="536.853" transform="rotate(-45 536.853 183)" y="183">
+            <tspan>2011</tspan>
+        </text>
+        <text x="559.033" transform="rotate(-45 559.033 183)" y="183">
+            <tspan>2012</tspan>
+        </text>
+        <text x="581.212" transform="rotate(-45 581.212 183)" y="183">
+            <tspan>2013</tspan>
+        </text>
+        <text x="603.391" transform="rotate(-45 603.391 183)" y="183">
+            <tspan>2014</tspan>
+        </text>
+        <text x="625.571" transform="rotate(-45 625.57 183)" y="183">
+            <tspan>2015</tspan>
+        </text>
+        <text x="647.75" transform="rotate(-45 647.75 183)" y="183">
+            <tspan>2016</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="10">
+        <text x="14" y="173">
+            <tspan>0</tspan>
+        </text>
+        <text x="14" y="144">
+            <tspan>20</tspan>
+        </text>
+        <text x="14" y="116">
+            <tspan>40</tspan>
+        </text>
+        <text x="14" y="88">
+            <tspan>60</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="193" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Industrielle Werke Basel (IWB)</tspan>
+    </text>
+</svg>

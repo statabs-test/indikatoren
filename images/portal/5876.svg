@@ -1,0 +1,116 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 208" font-family="arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h279v111H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="320" height="208" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M38 56h279v111H38z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M53.5 56v111m28-111v111m27-111v111m27-111v111m28-111v111m27-111v111m28-111v111m27-111v111m27-111v111m28-111v111"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#B9CFD7" stroke-width=".5" class="highcharts-grid-line" d="M38 167.25h279m-279-37h279m-279-37h279M38 55.75h279"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M38 56h279v111H38z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width=".5" d="M38 167.25h279"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M38 56v111"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined" transform="translate(38 56)" clip-path="url(#a)">
+            <path fill="#b475ab" stroke="#b475ab" class="highcharts-point" d="M8.5 64.5h15v10h-15zm27-7h15v17h-15zm27-21h15v38h-15zm28 7h15v31h-15zm27 1h15v29h-15zm28 6h15v22h-15zm27 7h15v14h-15zm28-28h15v30h-15zm27-22h15v65h-15zm27 24h15v34h-15z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined" transform="translate(38 56)" clip-path="url(#a)">
+            <path fill="#a8c4cb" stroke="#a8c4cb" class="highcharts-point highcharts-negative" d="M8.5 80.5h15v9h-15zm27-4h15v11h-15zm27-1h15v13h-15zm28 0h15v12h-15zm27-1h15v5h-15zm28 0h15v2h-15zm27 0h15v3h-15zm28 0h15v4h-15zm27 0h15v15h-15zm27 0h15v6h-15z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined" transform="translate(38 56)" clip-path="url(#a)">
+            <path fill="#fabd24" stroke="#fabd24" class="highcharts-point highcharts-negative" d="M8.5 74.5h15v6h-15zm27 0h15v2h-15zm27 0h15v1h-15zm28 0h15v1h-15z"/>
+            <path fill="#fabd24" stroke="#fabd24" class="highcharts-point" d="M117.5 73.5h15v1h-15zm28-1h15v2h-15zm27-1h15v3h-15zm28-12h15v15h-15zm27 13h15v2h-15zm27-7h15v9h-15z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-3 highcharts-line-series highcharts-color-undefined" transform="translate(38 56)" clip-path="url(#a)">
+            <path fill="none" d="M16.17 79.016l27.407-8.963 27.406-20.72 27.407 7.565 27.407-8.47 27.406 3.372 27.407 8.14 27.407-26.722 27.406-11.43 27.407 15.788" class="highcharts-graph" stroke="#000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+        </g>
+    </g>
+    <text x="3" class="highcharts-title" y="14" color="#000" font-size="10" font-weight="700">
+        <tspan>Nettowohnungsproduktion</tspan>
+    </text>
+    <g class="highcharts-legend" transform="translate(28 7)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="196" height="37"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
+            <text x="21" y="13" color="#333" font-size="10" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
+                <tspan>Neubau</tspan>
+            </text>
+            <path fill="#b475ab" class="highcharts-point" d="M11 7h10v10H11z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
+            <text x="21" y="13" color="#333" font-size="10" font-weight="400" cursor="pointer" fill="#333" transform="translate(108 3)">
+                <tspan>Abbruch</tspan>
+            </text>
+            <path fill="#a8c4cb" class="highcharts-point" d="M111 7h10v10h-10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
+            <text x="21" y="13" color="#333" font-size="10" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 16)">
+                <tspan>Umbausaldo</tspan>
+            </text>
+            <path fill="#fabd24" class="highcharts-point" d="M11 20h10v10H11z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-3">
+            <path fill="none" d="M108 26h16" class="highcharts-graph" stroke="#000" stroke-width="2"/>
+            <text x="21" y="13" color="#333" font-size="10" font-weight="400" cursor="pointer" fill="#333" transform="translate(108 16)">
+                <tspan>Nettowohn…</tspan><title>Nettowohnungsproduktion</title>
+            </text>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="10">
+        <text x="56.998" transform="rotate(-45 56.998 183)" y="183">
+            <tspan>2007</tspan>
+        </text>
+        <text x="84.405" transform="rotate(-45 84.405 183)" y="183">
+            <tspan>2008</tspan>
+        </text>
+        <text x="111.812" transform="rotate(-45 111.812 183)" y="183">
+            <tspan>2009</tspan>
+        </text>
+        <text x="139.218" transform="rotate(-45 139.218 183)" y="183">
+            <tspan>2010</tspan>
+        </text>
+        <text x="166.625" transform="rotate(-45 166.625 183)" y="183">
+            <tspan>2011</tspan>
+        </text>
+        <text x="194.032" transform="rotate(-45 194.032 183)" y="183">
+            <tspan>2012</tspan>
+        </text>
+        <text x="221.438" transform="rotate(-45 221.438 183)" y="183">
+            <tspan>2013</tspan>
+        </text>
+        <text x="248.845" transform="rotate(-45 248.845 183)" y="183">
+            <tspan>2014</tspan>
+        </text>
+        <text x="276.252" transform="rotate(-45 276.252 183)" y="183">
+            <tspan>2015</tspan>
+        </text>
+        <text x="303.658" transform="rotate(-45 303.658 183)" y="183">
+            <tspan>2016</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="10">
+        <text x="23" y="173">
+            <tspan>-450</tspan>
+        </text>
+        <text x="23" y="136">
+            <tspan>0</tspan>
+        </text>
+        <text x="23" y="99">
+            <tspan>450</tspan>
+        </text>
+        <text x="23" y="62">
+            <tspan>900</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="193" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik</tspan>
+    </text>
+</svg>

@@ -1,0 +1,87 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 208" font-family="arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h273v124H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="320" height="208" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M44 43h273v124H44z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M60.5 43v124m28-124v124m28-124v124m28-124v124m28-124v124m29-124v124m28-124v124m28-124v124m28-124v124m28-124v124"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#B9CFD7" stroke-width=".5" class="highcharts-grid-line" d="M44 167.25h273m-273-62h273M44 42.75h273"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M44 43h273v124H44z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width=".5" d="M44 167.25h273"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M44 43v124"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(44 43)" clip-path="url(#a)">
+            <path fill="none" d="M2.676 24.304l14.087-.744 14.087-.992 14.087-.516 140.866-2.539 14.087.254 14.087.1 14.086-.038 14.087.755 14.087.614 14.087.453" class="highcharts-graph" stroke="#83522E" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined">
+            <path fill="#83522E" d="M50 67a4 4 0 1 1 0-.004zm14 0a4 4 0 1 1 0-.004zm14-1a4 4 0 1 1 0-.004zm14-1a4 4 0 1 1 0-.004zm141-2a4 4 0 1 1 0-.004zm14 0a4 4 0 1 1 0-.004zm14 0a4 4 0 1 1 0-.004zm15 0a4 4 0 1 1 0-.004zm14 1a4 4 0 1 1 0-.004zm14 0a4 4 0 1 1 0-.004zm14 1a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+        </g>
+    </g>
+    <text x="3" class="highcharts-title" y="22" color="#000" font-size="10" font-weight="700">
+        <tspan>Mittlere Wohnfläche pro Person</tspan>
+    </text>
+    <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
+        <text x="5" y="15" font-size="10" font-weight="400" color="#000" transform="translate(39 67)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">1997:</tspan><tspan x="5" dy="13" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">40,2</tspan><tspan x="5" y="15">1997:</tspan><tspan x="5" dy="13">40,2</tspan>
+        </text>
+        <text x="5" y="15" font-size="10" font-weight="400" color="#000" transform="translate(287 65)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">2016:</tspan><tspan x="5" dy="13" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">41,3</tspan><tspan x="5" y="15">2016:</tspan><tspan x="5" dy="13">41,3</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="10">
+        <text x="63.592" transform="rotate(-45 63.592 183)" y="183">
+            <tspan>1998</tspan>
+        </text>
+        <text x="91.765" transform="rotate(-45 91.765 183)" y="183">
+            <tspan>2000</tspan>
+        </text>
+        <text x="119.938" transform="rotate(-45 119.938 183)" y="183">
+            <tspan>2002</tspan>
+        </text>
+        <text x="148.112" transform="rotate(-45 148.112 183)" y="183">
+            <tspan>2004</tspan>
+        </text>
+        <text x="176.285" transform="rotate(-45 176.285 183)" y="183">
+            <tspan>2006</tspan>
+        </text>
+        <text x="204.458" transform="rotate(-45 204.458 183)" y="183">
+            <tspan>2008</tspan>
+        </text>
+        <text x="232.632" transform="rotate(-45 232.632 183)" y="183">
+            <tspan>2010</tspan>
+        </text>
+        <text x="260.805" transform="rotate(-45 260.805 183)" y="183">
+            <tspan>2012</tspan>
+        </text>
+        <text x="288.979" transform="rotate(-45 288.979 183)" y="183">
+            <tspan>2014</tspan>
+        </text>
+        <text x="317.152" transform="rotate(-45 317.152 183)" y="183">
+            <tspan>2016</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="10">
+        <text x="29" y="173">
+            <tspan>0 m²</tspan>
+        </text>
+        <text x="29" y="111">
+            <tspan>25 m²</tspan>
+        </text>
+        <text x="29" y="49">
+            <tspan>50 m²</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="183" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;</tspan><tspan x="10" dy="13">Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik</tspan>
+    </text>
+</svg>

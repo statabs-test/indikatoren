@@ -13,15 +13,15 @@
         <path fill="none" class="highcharts-grid-line" d="M96.5 85v279m41-279v279m40-279v279m41-279v279m40-279v279m40-279v279m41-279v279m40-279v279m41-279v279"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M74 364.5h370m-370-70h370m-370-69h370m-370-70h370m-370-71h370"/>
+        <path fill="none" stroke="#B9CFD7" stroke-width=".5" class="highcharts-grid-line" d="M74 364.25h370m-370-70h370m-370-69h370m-370-70h370M74 84.75h370"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M74 364.5h370m-370-70h370m-370-69h370m-370-70h370m-370-71h370"/>
+        <path fill="none" stroke="#B9CFD7" stroke-width=".5" class="highcharts-grid-line" d="M74 364.25h370m-370-70h370m-370-69h370m-370-70h370M74 84.75h370"/>
     </g>
     <path fill="none" class="highcharts-plot-border" d="M74 85h370v279H74z"/>
     <g class="highcharts-axis highcharts-xaxis">
         <path fill="none" class="highcharts-tick" stroke="#FFF" d="M96.5 364v10m41-10v10m40-10v10m41-10v10m40-10v10m40-10v10m41-10v10m40-10v10m41-10v10"/>
-        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M74 364.5h370"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width=".5" d="M74 364.25h370"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
         <path fill="none" class="highcharts-axis-line" d="M74 85v279"/>
@@ -31,7 +31,7 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined" transform="translate(74 85)" clip-path="url(#a)">
-            <path fill="#73b97c" stroke="#fff" class="highcharts-point" d="M13.5 45.5h20v234h-20zm81-3h20v237h-20zm40-4h20v241h-20zm40 3h20v238h-20zm41 4h20v234h-20zm40-13h20v247h-20zm40-1h20v248h-20zm41-5h20v253h-20z"/>
+            <path fill="#73b97c" class="highcharts-point" d="M14 46h20v234H14zm81-3h20v237H95zm40-4h20v241h-20zm40 3h20v238h-20zm41 4h20v234h-20zm40-13h20v247h-20zm40-1h20v248h-20zm41-5h20v253h-20z"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(74 85)" clip-path="url(#b)">
             <path fill="none" d="M23.428 173.317l80.786-1.248 40.393-1.95L185 171.607l40.393 1.796 40.393-5.77 40.393-.492 40.393-2.062" class="highcharts-graph" stroke="#cd9c00" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>

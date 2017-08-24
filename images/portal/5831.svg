@@ -1,0 +1,130 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415" font-family="arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h438v220H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="485" height="415" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M37 129h438v220H37z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M63.5 129v220m31-220v220m31-220v220m30-220v220m31-220v220m31-220v220m30-220v220m31-220v220m31-220v220m30-220v220m31-220v220m31-220v220m30-220v220m31-220v220"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#B9CFD7" stroke-width=".5" class="highcharts-grid-line" d="M37 349.25h438m-438-73h438m-438-74h438m-438-73.5h438"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M37 129h438v220H37z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width=".5" d="M37 349.25h438"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M37 129v220"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(37 129)" clip-path="url(#a)">
+            <path fill="none" d="M11.817 34.989h414.366" class="highcharts-graph" stroke="#000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined" transform="translate(37 129)" clip-path="url(#a)">
+            <path fill="#8AB77D" class="highcharts-point" d="M7 116h10v5H7zm15-1h10v4H22zm16 8h10v3H38zm15-4h10v4H53zm15 6h10v3H68zm16 4h10v5H84zm15 0h10v5H99zm15 4h10v3h-10zm16 3h10v4h-10zm15-2h10v5h-10zm15 4h10v4h-10zm16 2h10v4h-10zm15 3h10v4h-10zm15 2h10v3h-10zm16-7h10v4h-10zm15 3h10v5h-10zm15 1h10v3h-10zm16 4h10v3h-10zm15 1h10v3h-10zm15-2h10v3h-10zm16-1h10v3h-10zm15 0h10v2h-10zm15-2h10v2h-10zm16 0h10v2h-10zm15 4h10v1h-10zm15 0h10v2h-10zm16 0h10v2h-10zm15-1h10v2h-10z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined" transform="translate(37 129)" clip-path="url(#a)">
+            <path fill="#a8c4cb" class="highcharts-point" d="M7 121h10v28H7zm15-2h10v27H22zm16 7h10v26H38zm15-3h10v26H53zm15 5h10v25H68zm16 6h10v23H84zm15 0h10v22H99zm15 2h10v22h-10zm16 4h10v22h-10zm15-1h10v21h-10zm15 3h10v21h-10zm16 2h10v20h-10zm15 3h10v18h-10zm15 1h10v21h-10zm16-6h10v19h-10zm15 4h10v17h-10zm15-1h10v14h-10zm16 4h10v15h-10zm15 1h10v15h-10zm15-2h10v16h-10zm16-1h10v18h-10zm15-1h10v20h-10zm15-2h10v19h-10zm16 0h10v18h-10zm15 3h10v18h-10zm15 1h10v17h-10zm16 0h10v18h-10zm15-1h10v17h-10z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined" transform="translate(37 129)" clip-path="url(#a)">
+            <path fill="#b475ab" class="highcharts-point" d="M7 149h10v72H7zm15-3h10v75H22zm16 6h10v69H38zm15-3h10v72H53zm15 4h10v68H68zm16 4h10v64H84zm15-1h10v65H99zm15 2h10v63h-10zm16 4h10v59h-10zm15-2h10v61h-10zm15 3h10v58h-10zm16 1h10v57h-10zm15 1h10v56h-10zm15 4h10v52h-10zm16-8h10v60h-10zm15 2h10v58h-10zm15-4h10v62h-10zm16 5h10v57h-10zm15 1h10v56h-10zm15-1h10v57h-10zm16 1h10v56h-10zm15 1h10v55h-10zm15-3h10v58h-10zm16-1h10v59h-10zm15 3h10v56h-10zm15 0h10v56h-10zm16 1h10v55h-10zm15-2h10v57h-10z"/>
+        </g>
+    </g>
+    <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">
+        <tspan>Geförderte Menge Trinkwasser im Vergleich zur der</tspan><tspan dy="17" x="10">potenziellen Maximalmenge</tspan><title>Geförderte Menge Trinkwasser im Vergleich zur der potenziellen Maximalmenge</title>
+    </text>
+    <text x="10" class="highcharts-subtitle" y="57" color="#000" font-weight="400">
+        <tspan>Vergleich mit potenzieller Maximalmenge</tspan>
+    </text>
+    <g class="highcharts-legend" transform="translate(40 50)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="496" height="67"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
+                <tspan>Übrige in Mio. m³</tspan>
+            </text>
+            <path fill="#8AB77D" class="highcharts-point" d="M10 7h12v12H10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 17)">
+                <tspan>Industrie, Bau und Gewerbe in Mio. m³</tspan>
+            </text>
+            <path fill="#a8c4cb" class="highcharts-point" d="M10 21h12v12H10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3">
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 31)">
+                <tspan>Privathaushalte in Mio. m³</tspan>
+            </text>
+            <path fill="#b475ab" class="highcharts-point" d="M10 35h12v12H10z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0">
+            <path fill="none" d="M8 56h16" class="highcharts-graph" stroke="#000" stroke-width="2"/>
+            <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 45)">
+                <tspan>Maximal mögliche Jahresproduktion in Mio. m³</tspan>
+            </text>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="11">
+        <text x="64.164" y="368">
+            1990
+        </text>
+        <text x="94.858" y="368">
+            1992
+        </text>
+        <text x="125.552" y="368">
+            1994
+        </text>
+        <text x="156.245" y="368">
+            1996
+        </text>
+        <text x="186.939" y="368">
+            1998
+        </text>
+        <text x="217.633" y="368">
+            2000
+        </text>
+        <text x="248.327" y="368">
+            2002
+        </text>
+        <text x="279.02" y="368">
+            2004
+        </text>
+        <text x="309.714" y="368">
+            2006
+        </text>
+        <text x="340.408" y="368">
+            2008
+        </text>
+        <text x="371.102" y="368">
+            2010
+        </text>
+        <text x="401.795" y="368">
+            2012
+        </text>
+        <text x="432.489" y="368">
+            2014
+        </text>
+        <text x="462.781" y="368">
+            2016
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="11">
+        <text x="22" y="354">
+            <tspan>0</tspan>
+        </text>
+        <text x="22" y="280">
+            <tspan>20</tspan>
+        </text>
+        <text x="22" y="207">
+            <tspan>40</tspan>
+        </text>
+        <text x="22" y="134">
+            <tspan>60</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="400" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Industrielle Werke Basel (IWB)</tspan>
+    </text>
+</svg>

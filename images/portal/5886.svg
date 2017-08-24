@@ -1,0 +1,75 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 208" font-family="arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h268v123H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="320" height="208" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M49 56h268v123H49z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M51.5 56v123m65-123v123m66-123v123m66-123v123m65-123v123"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#B9CFD7" stroke-width=".5" class="highcharts-grid-line" d="M49 179.25h268m-268-61h268M49 55.75h268"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M49 56h268v123H49z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width=".5" d="M49 179.25h268"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M49 56v123"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(49 56)" clip-path="url(#a)">
+            <path fill="none" d="M2.627 14.514h32.844l32.843.492h98.529l32.843 7.134h32.843l32.844-.246" class="highcharts-graph" stroke="#007A2F" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined">
+            <path fill="#007A2F" d="M55 71a4 4 0 1 1 0-.004zm33 0a4 4 0 1 1 0-.004zm33 0a4 4 0 1 1 0-.004zm33 0a4 4 0 1 1 0-.004zm33 0a4 4 0 1 1 0-.004zm32 0a4 4 0 1 1 0-.004zm33 7a4 4 0 1 1 0-.004zm33 0a4 4 0 1 1 0-.004zm33 0a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+        </g>
+    </g>
+    <text x="3" class="highcharts-title" y="22" color="#000" font-size="10" font-weight="700">
+        <tspan>Landwirtschaftsfläche</tspan>
+    </text>
+    <text x="3" class="highcharts-subtitle" y="40" color="#000" font-size="10" font-weight="400">
+        <tspan>gemäss Zonenplan</tspan>
+    </text>
+    <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
+        <text x="5" y="15" font-size="10" font-weight="400" color="#000" transform="translate(44 71)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">441</tspan><tspan x="5" y="15">441</tspan>
+        </text>
+        <text x="5" y="15" font-size="10" font-weight="400" color="#000" transform="translate(295 55)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">411</tspan><tspan x="5" y="15">411</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="10">
+        <text x="51.627" y="199">
+            2008
+        </text>
+        <text x="117.314" y="199">
+            2010
+        </text>
+        <text x="183" y="199">
+            2012
+        </text>
+        <text x="248.686" y="199">
+            2014
+        </text>
+        <text x="305.906" y="199">
+            2016
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="10">
+        <text x="34" y="185">
+            <tspan>0 ha</tspan>
+        </text>
+        <text x="34" y="123">
+            <tspan>250 ha</tspan>
+        </text>
+        <text x="34" y="62">
+            <tspan>500 ha</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="203" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle:</tspan>
+    </text>
+</svg>

@@ -1,0 +1,75 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 208" font-family="arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h288v123H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="320" height="208" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M29 56h288v123H29z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M75.5 56v123m75-123v123m74-123v123m74-123v123"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#B9CFD7" stroke-width=".5" class="highcharts-grid-line" d="M29 179.25h288m-288-41h288m-288-41h288m-288-41h288"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M29 56h288v123H29z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width=".5" d="M29 179.25h288"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M29 56v123"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(29 56)" clip-path="url(#a)">
+            <path fill="none" d="M2.824 15.248l14.86 1.183 14.86 1.098 14.862.866 14.86.622 14.86-.308 14.862-.11 14.86-.147 14.861.31 14.86.07 14.861-.115 14.861-.863 14.86-.699 14.861.01 14.861-.709 14.86-.767 14.861-1.11 14.861-.56 14.86-.408 14.861-.555" class="highcharts-graph" stroke="#8b2223" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined">
+            <path fill="#8b2223" d="M35 71a4 4 0 1 1 0-.004zm15 1a4 4 0 1 1 0-.004zm15 2a4 4 0 1 1 0-.004zm15 0a4 4 0 1 1 0-.004zm15 1a4 4 0 1 1 0-.004zm15 0a4 4 0 1 1 0-.004zm14 0a4 4 0 1 1 0-.004zm15-1a4 4 0 1 1 0-.004zm15 1a4 4 0 1 1 0-.004zm15 0a4 4 0 1 1 0-.004zm15 0a4 4 0 1 1 0-.004zm15-1a4 4 0 1 1 0-.004zm15-1a4 4 0 1 1 0-.004zm15 0a4 4 0 1 1 0-.004zm14-1a4 4 0 1 1 0-.004zm15 0a4 4 0 1 1 0-.004zm15-1a4 4 0 1 1 0-.004zm15-1a4 4 0 1 1 0-.004zm15 0a4 4 0 1 1 0-.004zm15-1a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+        </g>
+    </g>
+    <text x="3" class="highcharts-title" y="22" color="#000" font-size="10" font-weight="700">
+        <tspan>Bevölkerungsdichte</tspan>
+    </text>
+    <text x="3" class="highcharts-subtitle" y="40" color="#000" font-size="10" font-weight="400">
+        <tspan>Anzahl Einwohner pro Hektar</tspan>
+    </text>
+    <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined">
+        <text x="5" y="15" font-size="10" font-weight="400" color="#000" transform="translate(24 71)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">1997:</tspan><tspan x="5" dy="13" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">52,6</tspan><tspan x="5" y="15">1997:</tspan><tspan x="5" dy="13">52,6</tspan>
+        </text>
+        <text x="5" y="15" font-size="10" font-weight="400" color="#000" transform="translate(287 69)" class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined">
+            <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">2016:</tspan><tspan x="5" dy="13" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">53,6</tspan><tspan x="5" y="15">2016:</tspan><tspan x="5" dy="13">53,6</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="10">
+        <text x="76.406" y="199">
+            <tspan>2000</tspan>
+        </text>
+        <text x="150.709" y="199">
+            <tspan>2005</tspan>
+        </text>
+        <text x="225.012" y="199">
+            <tspan>2010</tspan>
+        </text>
+        <text x="299.316" y="199">
+            <tspan>2015</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="10">
+        <text x="14" y="185">
+            <tspan>0</tspan>
+        </text>
+        <text x="14" y="144">
+            <tspan>20</tspan>
+        </text>
+        <text x="14" y="103">
+            <tspan>40</tspan>
+        </text>
+        <text x="14" y="62">
+            <tspan>60</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="193" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik</tspan>
+    </text>
+</svg>

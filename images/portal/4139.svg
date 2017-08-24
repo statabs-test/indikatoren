@@ -31,7 +31,7 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined" transform="translate(43 75)" clip-path="url(#a)">
-            <path fill="#0a3b19" stroke="#fff" class="highcharts-point" d="M7.5 216.5h30v29h-30zm47-59h30v88h-30zm47-104h30v192h-30zm46-26h30v218h-30zm47 105h30v113h-30zm47 85h30v28h-30z"/>
+            <path fill="#0a3b19" class="highcharts-point" d="M8 217h30v29H8zm47-59h30v88H55zm47-104h30v192h-30zm46-26h30v218h-30zm47 105h30v113h-30zm47 85h30v28h-30z"/>
         </g>
         <g class="highcharts-series highcharts-series-3 highcharts-line-series highcharts-color-undefined" visibility="hidden" transform="translate(43 75)" clip-path="url(#b)">
             <path fill="none" d="M23.333 134.41L70 148.472l46.667 43.24 46.666-28.094L210 139.083l46.667-25.504" class="highcharts-graph" stroke="#ff8028" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>

@@ -1,0 +1,131 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 665 208" font-family="arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h618v81H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="665" height="208" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M44 48h618v81H44z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M72.5 48v81m30-81v81m29-81v81m30-81v81m29-81v81m30-81v81m29-81v81m29-81v81m30-81v81m29-81v81m30-81v81m29-81v81m30-81v81m29-81v81m29-81v81m30-81v81m29-81v81m30-81v81m29-81v81m30-81v81m29-81v81m-618-81v81"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#B9CFD7" stroke-width=".5" class="highcharts-grid-line" d="M44 129.25h618m-618-40h618M44 47.75h618"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M44 48h618v81H44z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-tick" stroke="#FFF" d="M72.5 129v10m30-10v10m29-10v10m30-10v10m29-10v10m30-10v10m29-10v10m29-10v10m30-10v10m29-10v10m30-10v10m29-10v10m30-10v10m29-10v10m29-10v10m30-10v10m29-10v10m30-10v10m29-10v10m30-10v10m29-10v10m-618-10v10"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width=".5" d="M44 129.25h618"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M44 48v81"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined" transform="translate(44 48)" clip-path="url(#a)">
+            <path fill="#CD9C00" class="highcharts-point" d="M6 7h9v75H6zm29 5h9v70h-9zm30 5h9v65h-9zm29 12h9v53h-9zm30-16h8v69h-8zm29 16h9v53h-9zm29-15h9v68h-9zm30 3h9v65h-9zm29 7h9v58h-9zm30 7h9v51h-9zm29 1h9v50h-9zm30-11h8v61h-8zm29 11h9v50h-9zm29-12h9v62h-9zm30 8h9v54h-9zm29 9h9v45h-9zm30-2h9v47h-9zm29 4h9v43h-9zm30-2h8v45h-8zm29-19h9v64h-9zm29-6h9v70h-9z"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined" transform="translate(44 48)" clip-path="url(#a)">
+            <path fill="#83522E" class="highcharts-point" d="M15 10h9v72h-9zm29 5h9v67h-9zm30 5h8v62h-8zm29 9h9v53h-9zm29-14h9v67h-9zm30 15h9v52h-9zm29-14h9v66h-9zm30 3h9v63h-9zm29 7h9v56h-9zm30 6h8v50h-8zm29 1h9v49h-9zm29-9h9v58h-9zm30 8h9v50h-9zm29-12h9v62h-9zm30 9h9v53h-9zm29 8h9v45h-9zm30-2h8v47h-8zm29 4h9v43h-9zm29-1h9v44h-9zm30-20h9v64h-9zm29-7h9v71h-9z"/>
+        </g>
+    </g>
+    <text x="3" class="highcharts-title" y="14" color="#000" font-size="10" font-weight="700">
+        <tspan>Mittlere Wohnfläche pro Person</tspan>
+    </text>
+    <text x="3" class="highcharts-subtitle" y="32" color="#000" font-size="10" font-weight="400">
+        <tspan>nach Wohnviertel</tspan>
+    </text>
+    <g class="highcharts-legend" transform="translate(33 7)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="122" height="24"/>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0">
+            <text x="21" y="13" color="#333" font-size="10" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
+                <tspan>2012</tspan>
+            </text>
+            <path fill="#CD9C00" class="highcharts-point" d="M11 7h10v10H11z"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1">
+            <text x="21" y="13" color="#333" font-size="10" font-weight="400" cursor="pointer" fill="#333" transform="translate(71.188 3)">
+                <tspan>2016</tspan>
+            </text>
+            <path fill="#83522E" class="highcharts-point" d="M74.188 7h10v10h-10z"/>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="10">
+        <text x="62.714" transform="rotate(-90 62.714 141)" y="141">
+            <tspan>Altstadt GB</tspan>
+        </text>
+        <text x="92.143" transform="rotate(-90 92.143 141)" y="141">
+            <tspan>Vorstädte</tspan>
+        </text>
+        <text x="121.571" transform="rotate(-90 121.571 141)" y="141">
+            <tspan>Am Ring</tspan>
+        </text>
+        <text x="151" transform="rotate(-90 151 141)" y="141">
+            <tspan>Breite</tspan>
+        </text>
+        <text x="180.429" transform="rotate(-90 180.429 141)" y="141">
+            <tspan>St. Alban</tspan>
+        </text>
+        <text x="209.857" transform="rotate(-90 209.857 141)" y="141">
+            <tspan>Gundeldingen</tspan>
+        </text>
+        <text x="239.286" transform="rotate(-90 239.286 141)" y="141">
+            <tspan>Bruderholz</tspan>
+        </text>
+        <text x="268.714" transform="rotate(-90 268.714 141)" y="141">
+            <tspan>Bachletten</tspan>
+        </text>
+        <text x="298.143" transform="rotate(-90 298.143 141)" y="141">
+            <tspan>Gotthelf</tspan>
+        </text>
+        <text x="327.571" transform="rotate(-90 327.571 141)" y="141">
+            <tspan>Iselin</tspan>
+        </text>
+        <text x="357" transform="rotate(-90 357 141)" y="141">
+            <tspan>St. Johann</tspan>
+        </text>
+        <text x="386.429" transform="rotate(-90 386.429 141)" y="141">
+            <tspan>Altstadt KB</tspan>
+        </text>
+        <text x="415.857" transform="rotate(-90 415.857 141)" y="141">
+            <tspan>Clara</tspan>
+        </text>
+        <text x="445.286" transform="rotate(-90 445.286 141)" y="141">
+            <tspan>Wettstein</tspan>
+        </text>
+        <text x="474.714" transform="rotate(-90 474.714 141)" y="141">
+            <tspan>Hirzbrunnen</tspan>
+        </text>
+        <text x="504.143" transform="rotate(-90 504.143 141)" y="141">
+            <tspan>Rosental</tspan>
+        </text>
+        <text x="533.571" transform="rotate(-90 533.571 141)" y="141">
+            <tspan>Matthäus</tspan>
+        </text>
+        <text x="563" transform="rotate(-90 563 141)" y="141">
+            <tspan>Klybeck</tspan>
+        </text>
+        <text x="592.429" transform="rotate(-90 592.429 141)" y="141">
+            <tspan>Kleinhüningen</tspan>
+        </text>
+        <text x="621.857" transform="rotate(-90 621.857 141)" y="141">
+            <tspan>Riehen</tspan>
+        </text>
+        <text x="651.286" transform="rotate(-90 651.286 141)" y="141">
+            <tspan>Bettingen</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="10">
+        <text x="29" y="135">
+            <tspan>0 m²</tspan>
+        </text>
+        <text x="29" y="94">
+            <tspan>30 m²</tspan>
+        </text>
+        <text x="29" y="54">
+            <tspan>60 m²</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="183" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik;</tspan><tspan x="10" dy="15">Statistisches Amt Basel-Stadt, Bevölkerungsstatistik</tspan>
+    </text>
+</svg>

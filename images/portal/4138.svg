@@ -13,15 +13,15 @@
         <path fill="none" class="highcharts-grid-line" d="M55.5 55v298m21-298v298m22-298v298m21-298v298m21-298v298m21-298v298m22-298v298m21-298v298m21-298v298m21-298v298m22-298v298m21-298v298"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M43 353.5h260m-260-60h260m-260-59h260m-260-60h260m-260-59h260m-260-61h260"/>
+        <path fill="none" stroke="#B9CFD7" stroke-width=".5" class="highcharts-grid-line" d="M43 353.25h260m-260-60h260m-260-59h260m-260-60h260m-260-59h260M43 54.75h260"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M43 353.5h260m-260-60h260m-260-59h260m-260-60h260m-260-59h260m-260-61h260"/>
+        <path fill="none" stroke="#B9CFD7" stroke-width=".5" class="highcharts-grid-line" d="M43 353.25h260m-260-60h260m-260-59h260m-260-60h260m-260-59h260M43 54.75h260"/>
     </g>
     <path fill="none" class="highcharts-plot-border" d="M43 55h260v298H43z"/>
     <g class="highcharts-axis highcharts-xaxis">
         <path fill="none" class="highcharts-tick" stroke="#FFF" d="M55.5 353v10m21-10v10m22-10v10m21-10v10m21-10v10m21-10v10m22-10v10m21-10v10m21-10v10m21-10v10m22-10v10m21-10v10"/>
-        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M43 353.5h260"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width=".5" d="M43 353.25h260"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
         <path fill="none" class="highcharts-axis-line" d="M43 55v298"/>
@@ -31,7 +31,7 @@
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined" transform="translate(43 55)" clip-path="url(#a)">
-            <path fill="#689199" stroke="#fff" class="highcharts-point" d="M4.5 25.5h16v273h-16zm22 3h16v270h-16zm21 7h16v263h-16zm21 64h16v199h-16zm21 52h16v147h-16zm22 56h16v91h-16zm21 6h16v85h-16zm21 30h16v55h-16zm22 7h16v48h-16zm21-30h16v78h-16zm21 2h16v76h-16zm21-7h16v83h-16z"/>
+            <path fill="#689199" class="highcharts-point" d="M5 26h16v273H5zm22 3h16v270H27zm21 7h16v263H48zm21 64h16v199H69zm21 52h16v147H90zm22 56h16v91h-16zm21 6h16v85h-16zm21 30h16v55h-16zm22 7h16v48h-16zm21-30h16v78h-16zm21 2h16v76h-16zm21-7h16v83h-16z"/>
         </g>
         <g class="highcharts-series highcharts-series-5 highcharts-line-series highcharts-color-undefined" transform="translate(43 55)" clip-path="url(#b)">
             <path fill="none" d="M13.979 159.344l21.276.436 21.277 16.503 21.277 30.87 21.276 17.828 21.277 24.76 21.276 2.3 21.277 13.104 21.276 11.168 21.277-10.742 21.277-7.97 21.276-8.304" class="highcharts-graph" stroke="#000" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-opacity=".05"/>

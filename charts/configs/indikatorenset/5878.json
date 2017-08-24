@@ -1,0 +1,331 @@
+{
+  "series": [
+    {
+      "color": "#CD9C00",
+      "visible": true,
+      "data": [
+        [
+          "Altstadt GB",
+          234162
+        ],
+        [
+          "Vorstädte",
+          405084
+        ],
+        [
+          "Am Ring",
+          710360
+        ],
+        [
+          "Breite",
+          494450
+        ],
+        [
+          "St. Alban",
+          805689
+        ],
+        [
+          "Gundeldingen",
+          1007041
+        ],
+        [
+          "Bruderholz",
+          657497
+        ],
+        [
+          "Bachletten",
+          901044
+        ],
+        [
+          "Gotthelf",
+          430316
+        ],
+        [
+          "Iselin",
+          890815
+        ],
+        [
+          "St. Johann",
+          990762
+        ],
+        [
+          "Altstadt KB",
+          165181
+        ],
+        [
+          "Clara",
+          228430
+        ],
+        [
+          "Wettstein",
+          357541
+        ],
+        [
+          "Hirzbrunnen",
+          456075
+        ],
+        [
+          "Rosental",
+          256823
+        ],
+        [
+          "Matthäus",
+          814458
+        ],
+        [
+          "Klybeck",
+          329535
+        ],
+        [
+          "Kleinhüningen",
+          122818
+        ],
+        [
+          "Riehen",
+          1372108
+        ],
+        [
+          "Bettingen",
+          97299
+        ]
+      ],
+      "name": "2010",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#83522E",
+      "visible": true,
+      "data": [
+        [
+          "Altstadt GB",
+          234073
+        ],
+        [
+          "Vorstädte",
+          419021
+        ],
+        [
+          "Am Ring",
+          717612
+        ],
+        [
+          "Breite",
+          497145
+        ],
+        [
+          "St. Alban",
+          844677
+        ],
+        [
+          "Gundeldingen",
+          1034556
+        ],
+        [
+          "Bruderholz",
+          662320
+        ],
+        [
+          "Bachletten",
+          906037
+        ],
+        [
+          "Gotthelf",
+          431363
+        ],
+        [
+          "Iselin",
+          893071
+        ],
+        [
+          "St. Johann",
+          1027520
+        ],
+        [
+          "Altstadt KB",
+          168605
+        ],
+        [
+          "Clara",
+          228425
+        ],
+        [
+          "Wettstein",
+          374234
+        ],
+        [
+          "Hirzbrunnen",
+          469136
+        ],
+        [
+          "Rosental",
+          327950
+        ],
+        [
+          "Matthäus",
+          818470
+        ],
+        [
+          "Klybeck",
+          329535
+        ],
+        [
+          "Kleinhüningen",
+          138015
+        ],
+        [
+          "Riehen",
+          1376956
+        ],
+        [
+          "Bettingen",
+          98676
+        ]
+      ],
+      "name": "2015",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "rotation": -90
+    },
+    "tickColor": "#FFFFFF"
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 665,
+    "height": 208,
+    "spacing": [
+      7,
+      3,
+      8,
+      3
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {}
+                }
+    },
+    "type": "column",
+    "inverted": false,
+    "renderTo": "container-5878"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "black"
+        }
+      },
+      "pointPadding": 0
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Bruttogeschossfläche Wohnen"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "format": "{value:,.0f} m²"
+    },
+    "max": 1500000,
+    "tickInterval": 750000
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Planungsamt Basel-Stadt"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "x": 65
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": 10
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} m²\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": "I.09.1.05818"
+  }
+}

@@ -10,25 +10,25 @@
         <path fill="none" class="highcharts-grid-line" d="M94.5 55v309m42-309v309m42-309v309m42-309v309m42-309v309m42-309v309M52.5 55v309"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M53 364.5h252m-252-31h252m-252-31h252m-252-31h252m-252-31h252m-252-30h252m-252-31h252m-252-31h252m-252-31h252m-252-31h252m-252-32h252"/>
+        <path fill="none" stroke="#B9CFD7" stroke-width=".5" class="highcharts-grid-line" d="M53 364.25h252m-252-31h252m-252-31h252m-252-31h252m-252-31h252m-252-30h252m-252-31h252m-252-31h252m-252-31h252m-252-31h252M53 54.75h252"/>
     </g>
     <path fill="none" class="highcharts-plot-border" d="M53 55h252v309H53z"/>
     <g class="highcharts-axis highcharts-xaxis">
         <path fill="none" class="highcharts-tick" stroke="#FFF" d="M94.5 364v10m42-10v10m42-10v10m42-10v10m42-10v10m43-10v10m-253-10v10"/>
-        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M53 364.5h252"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width=".5" d="M53 364.25h252"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
         <path fill="none" class="highcharts-axis-line" d="M53 55v309"/>
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined" transform="translate(53 55)" clip-path="url(#a)">
-            <path fill="#2f656b" stroke="#fff" class="highcharts-point" d="M10.5-.5h21v148h-21zm42 0h21v150h-21zm42 0h21v149h-21zm42 0h21v147h-21zm42 0h21v146h-21zm42 0h21v145h-21z"/>
+            <path fill="#2f656b" class="highcharts-point" d="M11 0h21v148H11zm42 0h21v150H53zm42 0h21v149H95zm42 0h21v147h-21zm42 0h21v146h-21zm42 0h21v145h-21z"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined" transform="translate(53 55)" clip-path="url(#a)">
-            <path fill="#73b97c" stroke="#fff" class="highcharts-point" d="M10.5 147.5h21v128h-21zm42 2h21v123h-21zm42-1h21v127h-21zm42-2h21v124h-21zm42-1h21v120h-21zm42-1h21v126h-21z"/>
+            <path fill="#73b97c" class="highcharts-point" d="M11 148h21v128H11zm42 2h21v123H53zm42-1h21v127H95zm42-2h21v124h-21zm42-1h21v120h-21zm42-1h21v126h-21z"/>
         </g>
         <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined" transform="translate(53 55)" clip-path="url(#a)">
-            <path fill="#cd9c00" stroke="#fff" class="highcharts-point" d="M10.5 275.5h21v34h-21zm42-3h21v37h-21zm42 3h21v34h-21zm42-5h21v39h-21zm42-5h21v44h-21zm42 5h21v39h-21z"/>
+            <path fill="#cd9c00" class="highcharts-point" d="M11 276h21v34H11zm42-3h21v37H53zm42 3h21v34H95zm42-5h21v39h-21zm42-5h21v44h-21zm42 5h21v39h-21z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">

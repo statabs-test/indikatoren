@@ -10,34 +10,34 @@
         <path fill="none" class="highcharts-grid-line" d="M164 186.5h311m-311 25h311m-311 26h311m-311 25h311m-311 26h311m-311 25h311m-311 26h311m-311 25h311m-311-204h311"/>
     </g>
     <g class="highcharts-grid highcharts-yaxis-grid">
-        <path fill="none" stroke="#e6e6e6" class="highcharts-grid-line" d="M163.5 160v204m78-204v204m78-204v204m77-204v204m79-204v204"/>
+        <path fill="none" stroke="#B9CFD7" stroke-width=".5" class="highcharts-grid-line" d="M163.75 160v204m78-204v204m78-204v204m77-204v204m78.5-204v204"/>
     </g>
     <path fill="none" class="highcharts-plot-border" d="M164 160h311v204H164z"/>
     <g class="highcharts-axis highcharts-xaxis">
         <path fill="none" class="highcharts-tick" stroke="#FFF" d="M164 186.5h-10m10 25h-10m10 26h-10m10 25h-10m10 26h-10m10 25h-10m10 26h-10m10 25h-10m10-205h-10"/>
-        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" d="M163.5 160v204"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width=".5" d="M163.75 160v204"/>
     </g>
     <g class="highcharts-axis highcharts-yaxis">
         <path fill="none" class="highcharts-axis-line" d="M164 364h311"/>
     </g>
     <g class="highcharts-series-group">
         <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined" transform="matrix(0 -1 -1 0 475 364)" clip-path="url(#a)">
-            <path fill="#256370" stroke="#fff" class="highcharts-point" d="M108.5 306.5h13v5h-13zm-26 2h13v3h-13zm-51-3h13v6h-13zm-25 1h13v5h-13z"/>
+            <path fill="#256370" class="highcharts-point" d="M109 307h13v5h-13zm-26 2h13v3H83zm-51-3h13v6H32zm-25 1h13v5H7z"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined" transform="matrix(0 -1 -1 0 475 364)" clip-path="url(#a)">
-            <path fill="#71A3B5" stroke="#fff" class="highcharts-point" d="M184.5 305.5h13v6h-13zm-25 4h13v2h-13zm-51-42h13v39h-13zm-26 20h13v21h-13zm-51-14h13v32h-13zm-25 12h13v21h-13z"/>
+            <path fill="#71A3B5" class="highcharts-point" d="M185 306h13v6h-13zm-25 4h13v2h-13zm-51-42h13v39h-13zm-26 20h13v21H83zm-51-14h13v32H32zM7 286h13v21H7z"/>
         </g>
         <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined" transform="matrix(0 -1 -1 0 475 364)" clip-path="url(#a)">
-            <path fill="#FFBB58" stroke="#fff" class="highcharts-point" d="M184.5 295.5h13v10h-13zm-25 7h13v7h-13zm-51-70h13v35h-13zm-26 29h13v26h-13zm-51-26h13v38h-13zm-25 27h13v23h-13z"/>
+            <path fill="#FFBB58" class="highcharts-point" d="M185 296h13v10h-13zm-25 7h13v7h-13zm-51-70h13v35h-13zm-26 29h13v26H83zm-51-26h13v38H32zM7 263h13v23H7z"/>
         </g>
         <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined" transform="matrix(0 -1 -1 0 475 364)" clip-path="url(#a)">
-            <path fill="#FF8028" stroke="#fff" class="highcharts-point" d="M184.5 138.5h13v157h-13zm-25 5h13v159h-13zm-51-67h13v156h-13zm-26 16h13v169h-13zm-51-14h13v157h-13zm-25 19h13v165h-13z"/>
+            <path fill="#FF8028" class="highcharts-point" d="M185 139h13v157h-13zm-25 5h13v159h-13zm-51-67h13v156h-13zM83 93h13v169H83zM32 79h13v157H32zM7 98h13v165H7z"/>
         </g>
         <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined" transform="matrix(0 -1 -1 0 475 364)" clip-path="url(#a)">
-            <path fill="#C8C8C8" stroke="#fff" class="highcharts-point" d="M184.5 73.5h13v65h-13zm-25 13h13v57h-13zm-51-28h13v18h-13zm-77-1h13v21h-13zm-25 15h13v25h-13z"/>
+            <path fill="#C8C8C8" class="highcharts-point" d="M185 74h13v65h-13zm-25 13h13v57h-13zm-51-28h13v18h-13zm-77-1h13v21H32zM7 73h13v25H7z"/>
         </g>
         <g class="highcharts-series highcharts-series-5 highcharts-column-series highcharts-color-undefined" transform="matrix(0 -1 -1 0 475 364)" clip-path="url(#a)">
-            <path fill="#8A8A8A" stroke="#fff" class="highcharts-point" d="M184.5-.5h13v74h-13zm-25 0h13v87h-13zm-51 0h13v59h-13zm-26 0h13v93h-13zm-51 0h13v58h-13zm-25 0h13v73h-13z"/>
+            <path fill="#8A8A8A" class="highcharts-point" d="M185 0h13v74h-13zm-25 0h13v87h-13zm-51 0h13v59h-13zM83 0h13v93H83zM32 0h13v58H32zM7 0h13v73H7z"/>
         </g>
     </g>
     <text x="10" class="highcharts-title" y="21" color="#000" font-size="14" font-weight="700">

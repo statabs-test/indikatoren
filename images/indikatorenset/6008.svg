@@ -1,0 +1,148 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 208" font-family="arial" font-size="12">
+    <defs>
+        <clipPath id="a">
+            <path fill="none" d="M0 0h282v95H0z"/>
+        </clipPath>
+    </defs>
+    <rect fill="#fbfbfb" class="highcharts-background" width="320" height="208" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M35 84h282v95H35z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid">
+        <path fill="none" class="highcharts-grid-line" d="M37.5 84v95m46-95v95m46-95v95m46-95v95m46-95v95m46-95v95m46-95v95"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid">
+        <path fill="none" stroke="#B9CFD7" stroke-width=".5" class="highcharts-grid-line" d="M35 179.25h282m-282-32h282m-282-31h282M35 83.75h282"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" d="M35 84h282v95H35z"/>
+    <g class="highcharts-axis highcharts-xaxis">
+        <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width=".5" d="M35 179.25h282"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis">
+        <path fill="none" class="highcharts-axis-line" d="M35 84v95"/>
+    </g>
+    <g class="highcharts-series-group">
+        <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined" transform="translate(35 84)" clip-path="url(#a)">
+            <path fill="none" d="M2.765 63.333L48.843 64.6l46.079 1.583L141 65.708l46.078.475 46.079 1.742 46.078-.158" class="highcharts-graph" stroke="#b00000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined">
+            <path fill="#b00000" d="M41 147a4 4 0 1 1 0-.004zm46 2a4 4 0 1 1 0-.004zm46 1a4 4 0 1 1 0-.004zm47 0a4 4 0 1 1 0-.004zm46 0a4 4 0 1 1 0-.004zm46 2a4 4 0 1 1 0-.004zm46 0a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined" transform="translate(35 84)" clip-path="url(#a)">
+            <path fill="none" d="M2.765 63.333l46.078-.791 46.079 1.583 46.078-1.9 46.078-.633 46.079.316 46.078-.158" class="highcharts-graph" stroke="#672773" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined">
+            <path fill="#672773" d="M41 147a4 4 0 1 1 0-.004zm46 0a4 4 0 1 1 0-.004zm46 1a4 4 0 1 1 0-.004zm47-2a4 4 0 1 1 0-.004zm46 0a4 4 0 1 1 0-.004zm46 0a4 4 0 1 1 0-.004zm46 0a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined" transform="translate(35 84)" clip-path="url(#a)">
+            <path fill="none" d="M2.765 63.333l46.078-4.907 46.079-5.897 92.156.49" class="highcharts-graph" stroke="#007a2f" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-2 highcharts-line-series highcharts-color-undefined">
+            <path fill="#007a2f" d="M41 147a4 4 0 1 1 0-.004zm46-5a4 4 0 1 1 0-.004zm46-5a4 4 0 1 1 0-.004zm93 0a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-series highcharts-series-3 highcharts-line-series highcharts-color-undefined" transform="translate(35 84)" clip-path="url(#a)">
+            <path fill="none" d="M2.765 63.333l46.078-4.144 46.079-2.464L141 55.001l46.078-.436 46.079-5.538 46.078 1.006" class="highcharts-graph" stroke="#7F5F1A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-3 highcharts-line-series highcharts-color-undefined">
+            <path fill="#7F5F1A" d="M41 147a4 4 0 1 1 0-.004zm46-4a4 4 0 1 1 0-.004zm46-2a4 4 0 1 1 0-.004zm47-2a4 4 0 1 1 0-.004zm46 0a4 4 0 1 1 0-.004zm46-6a4 4 0 1 1 0-.004zm46 1a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-series highcharts-series-4 highcharts-line-series highcharts-color-undefined" transform="translate(35 84)" clip-path="url(#a)">
+            <path fill="none" d="M2.765 63.333l46.078-4.958h46.079L141 57.186l46.078-17.126 46.079-5.917 46.078-7.068" class="highcharts-graph" stroke="#E6E600" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-4 highcharts-line-series highcharts-color-undefined">
+            <path fill="#E6E600" d="M41 147a4 4 0 1 1 0-.004zm46-5a4 4 0 1 1 0-.004zm46 0a4 4 0 1 1 0-.004zm47-1a4 4 0 1 1 0-.004zm46-17a4 4 0 1 1 0-.004zm46-6a4 4 0 1 1 0-.004zm46-7a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-series highcharts-series-5 highcharts-line-series highcharts-color-undefined" transform="translate(35 84)" clip-path="url(#a)">
+            <path fill="none" d="M141 63.333l46.078-11.083 46.079 6.333 46.078.792" class="highcharts-graph" stroke="#008AC3" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+        </g>
+        <g class="highcharts-markers highcharts-series-5 highcharts-line-series highcharts-color-undefined">
+            <path fill="#008AC3" d="M180 147a4 4 0 1 1 0-.004zm46-11a4 4 0 1 1 0-.004zm46 7a4 4 0 1 1 0-.004zm46 0a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+        </g>
+    </g>
+    <text x="3" class="highcharts-title" y="14" color="#000" font-size="10" font-weight="700">
+        <tspan>Verkehrsleistungsindex</tspan>
+    </text>
+    <g class="highcharts-legend" transform="translate(28 7)">
+        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="256" height="65"/>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0">
+            <path fill="none" d="M8 13h16" class="highcharts-graph" stroke="#b00000" stroke-width="2"/>
+            <path fill="#b00000" d="M20 13a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <text x="21" y="13" color="#333" font-size="10" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 3)">
+                <tspan>MIV Stadtstrasse…</tspan><title>MIV Stadtstrassennetz</title>
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1">
+            <path fill="none" d="M138 13h16" class="highcharts-graph" stroke="#672773" stroke-width="2"/>
+            <path fill="#672773" d="M150 13a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <text x="21" y="13" color="#333" font-size="10" font-weight="400" cursor="pointer" fill="#333" transform="translate(138 3)">
+                <tspan>MIV Total</tspan>
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-2">
+            <path fill="none" d="M8 31h16" class="highcharts-graph" stroke="#007a2f" stroke-width="2"/>
+            <path fill="#007a2f" d="M20 31a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <text x="21" y="13" color="#333" font-size="10" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 21)">
+                <tspan>ÖV</tspan>
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-3">
+            <path fill="none" d="M138 31h16" class="highcharts-graph" stroke="#7F5F1A" stroke-width="2"/>
+            <path fill="#7F5F1A" d="M150 31a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <text x="21" y="13" color="#333" font-size="10" font-weight="400" cursor="pointer" fill="#333" transform="translate(138 21)">
+                <tspan>ÖV BVB/BLT</tspan>
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-4">
+            <path fill="none" d="M8 49h16" class="highcharts-graph" stroke="#E6E600" stroke-width="2"/>
+            <path fill="#E6E600" d="M20 49a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <text x="21" y="13" color="#333" font-size="10" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 39)">
+                <tspan>Velo (wetterberei…</tspan><title>Velo (wetterbereinigt)</title>
+            </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-5">
+            <path fill="none" d="M138 49h16" class="highcharts-graph" stroke="#008AC3" stroke-width="2"/>
+            <path fill="#008AC3" d="M150 49a4 4 0 1 1 0-.004z" class="highcharts-point"/>
+            <text x="21" y="13" color="#333" font-size="10" font-weight="400" cursor="pointer" fill="#333" transform="translate(138 39)">
+                <tspan>Fussgänger</tspan>
+            </text>
+        </g>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" text-anchor="middle" color="#000" cursor="default" font-size="10">
+        <text x="37.765" y="199">
+            2010
+        </text>
+        <text x="83.843" y="199">
+            2011
+        </text>
+        <text x="129.922" y="199">
+            2012
+        </text>
+        <text x="176" y="199">
+            2013
+        </text>
+        <text x="222.078" y="199">
+            2014
+        </text>
+        <text x="268.157" y="199">
+            2015
+        </text>
+        <text x="305.906" y="199">
+            2016
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" text-anchor="end" color="#000" cursor="default" font-size="10">
+        <text x="20" y="185">
+            <tspan>80</tspan>
+        </text>
+        <text x="20" y="153">
+            <tspan>100</tspan>
+        </text>
+        <text x="20" y="121">
+            <tspan>120</tspan>
+        </text>
+        <text x="20" y="90">
+            <tspan>140</tspan>
+        </text>
+    </g>
+    <text x="10" class="highcharts-credits" y="193" cursor="default" color="#000" font-size="10">
+        <tspan>Quelle: Amt für Mobilität Basel-Stadt</tspan>
+    </text>
+</svg>

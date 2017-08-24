@@ -28,7 +28,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 01_001",
+		"orderKey": "Strategie 1_001",
 		"parentId": null,
 		"children": [
 			"5862"
@@ -70,7 +70,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 01_002",
+		"orderKey": "Strategie 1_002",
 		"parentId": null,
 		"children": [
 			"5863"
@@ -111,7 +111,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 01_003",
+		"orderKey": "Strategie 1_003",
 		"parentId": null,
 		"children": [
 			"5864"
@@ -152,7 +152,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 01_005",
+		"orderKey": "Strategie 1_005",
 		"parentId": null,
 		"children": [
 			"5865"
@@ -193,7 +193,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 01_004",
+		"orderKey": "Strategie 1_004",
 		"parentId": null,
 		"children": [
 			"5866"
@@ -234,7 +234,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 02_001",
+		"orderKey": "Strategie 2_001",
 		"parentId": null,
 		"children": [
 			"5869"
@@ -275,7 +275,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "Strategie 04_001",
+		"orderKey": "Strategie 4_001",
 		"parentId": 2265,
 		"children": [
 			"5870"
@@ -317,7 +317,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "Strategie 04_002",
+		"orderKey": "Strategie 4_002",
 		"parentId": 2265,
 		"children": [
 			"5871"
@@ -358,7 +358,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 04_003",
+		"orderKey": "Strategie 4_003",
 		"parentId": null,
 		"children": [
 			"5872"
@@ -399,7 +399,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 04_004",
+		"orderKey": "Strategie 4_004",
 		"parentId": null,
 		"children": [
 			"5873"
@@ -440,7 +440,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "Strategie 04_005",
+		"orderKey": "Strategie 4_005",
 		"parentId": 6009,
 		"children": [
 			"5874"
@@ -481,7 +481,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "Strategie 04_006",
+		"orderKey": "Strategie 4_006",
 		"parentId": 4140,
 		"children": [
 			"5875"
@@ -523,7 +523,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "Strategie 04_007",
+		"orderKey": "Strategie 4_007",
 		"parentId": 4135,
 		"children": [
 			"5876"
@@ -564,7 +564,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 04_008",
+		"orderKey": "Strategie 4_008",
 		"parentId": null,
 		"children": [
 			"5877"
@@ -605,7 +605,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 04_009",
+		"orderKey": "Strategie 4_009",
 		"parentId": null,
 		"children": [
 			"5878"
@@ -646,7 +646,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "Strategie 05_001",
+		"orderKey": "Strategie 5_001",
 		"parentId": 4150,
 		"children": [
 			"5879"
@@ -688,7 +688,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "Strategie 05_003",
+		"orderKey": "Strategie 5_003",
 		"parentId": 5037,
 		"children": [
 			"5881"
@@ -729,7 +729,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 06_001",
+		"orderKey": "Strategie 6_001",
 		"parentId": null,
 		"children": [
 			"5882"
@@ -770,7 +770,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 07_001",
+		"orderKey": "Strategie 7_001",
 		"parentId": null,
 		"children": [
 			"5883"
@@ -811,7 +811,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 07_002",
+		"orderKey": "Strategie 7_002",
 		"parentId": null,
 		"children": [
 			"5884"
@@ -852,7 +852,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 07_003",
+		"orderKey": "Strategie 7_003",
 		"parentId": null,
 		"children": [
 			"5885"
@@ -893,7 +893,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 09_001",
+		"orderKey": "Strategie 9_001",
 		"parentId": null,
 		"children": [
 			"5886"
@@ -1065,7 +1065,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "Strategie 08_001",
+		"orderKey": "Strategie 8_001",
 		"parentId": 3104,
 		"children": [
 			"5908"
@@ -1106,7 +1106,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 04_010",
+		"orderKey": "Strategie 4_010",
 		"parentId": null,
 		"children": [
 			"5909"
@@ -1189,7 +1189,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 04_011",
+		"orderKey": "Strategie 4_011",
 		"parentId": null,
 		"children": [
 			"5911"
@@ -1231,7 +1231,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 08_002",
+		"orderKey": "Strategie 8_002",
 		"parentId": null,
 		"children": [
 			"6008"
