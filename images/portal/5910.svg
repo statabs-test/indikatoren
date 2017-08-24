@@ -9,9 +9,9 @@
             <path fill="#DDDF00" d="M61.021 183.456A75 75 0 0 1 100.896 45l.094 67.5a7.5 7.5 0 0 0-3.988 13.846z" class="highcharts-point highcharts-color-2" stroke="#fff" stroke-linejoin="round"/>
         </g>
         <g class="highcharts-series highcharts-series-1 highcharts-pie-series highcharts-color-undefined highcharts-tracker" cursor="true">
-            <path fill="#50B432" d="M100.985 45a75 75 0 0 1 57.81 27.202L127.009 98.49a33.75 33.75 0 0 0-26.015-12.241z" class="highcharts-point highcharts-color-0" stroke="#fff" stroke-linejoin="round"/>
-            <path fill="#ED561B" d="M158.843 72.26a75 75 0 0 1-89.599 115.685l17.466-37.37a33.75 33.75 0 0 0 40.32-52.058z" class="highcharts-point highcharts-color-1" stroke="#fff" stroke-linejoin="round"/>
-            <path fill="#DDDF00" d="M69.176 187.914A75 75 0 0 1 100.896 45l.057 41.25a33.75 33.75 0 0 0-14.274 64.311z" class="highcharts-point highcharts-color-2" stroke="#fff" stroke-linejoin="round"/>
+            <path fill="#50B432" d="M100.985 45.002A74.998 74.998 0 0 1 158.793 72.2l-31.786 26.29a33.75 33.75 0 0 0-26.014-12.24z" class="highcharts-point highcharts-color-0" stroke="#fff" stroke-linejoin="round"/>
+            <path fill="#ED561B" d="M158.84 72.259a74.998 74.998 0 0 1-89.585 115.69l17.46-37.372a33.75 33.75 0 0 0 40.314-52.061z" class="highcharts-point highcharts-color-1" stroke="#fff" stroke-linejoin="round"/>
+            <path fill="#DDDF00" d="M69.187 187.917a74.998 74.998 0 0 1 31.69-142.915l.068 41.248a33.75 33.75 0 0 0-14.261 64.313z" class="highcharts-point highcharts-color-2" stroke="#fff" stroke-linejoin="round"/>
         </g>
     </g>
     <text x="3" class="highcharts-title" y="14" color="#000" font-size="10" font-weight="700">
