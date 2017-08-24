@@ -3860,7 +3860,7 @@
 					    zIndex: 6,
 					    class: 'pieLegend'
 					}).add();
-					chart.renderer.label(Highcharts.numberFormat((minValueInLegend),1,","," "), 485, 221).attr({
+					chart.renderer.label(Highcharts.numberFormat((minValueInLegend),2,","," "), 485, 221).attr({
 						zIndex: 6,
 						class: 'pieLegend'
 					}).add();

@@ -169,7 +169,7 @@
     </text>
     <circle cx="473" cy="231" r=".573" fill="grey" stroke="grey" class="pieLegend"/>
     <text x="3" y="15" transform="translate(485 221)" class="pieLegend">
-        0,0
+        0,01
     </text>
     <circle cx="473" cy="248" r="9.927" fill="grey" stroke="grey" class="pieLegend"/>
     <text x="3" y="15" transform="translate(485 237)" class="pieLegend">
