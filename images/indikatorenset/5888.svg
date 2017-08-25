@@ -226,17 +226,17 @@
             </div>
             <div class="pieLegend" style="position:absolute;left:485px;top:221px" opacity="1">
                 <span style="position:absolute;margin-left:0;margin-top:0;left:3px;top:3px" font-family="arial" font-size="12" white-space="nowrap">
-                    &lt; 0.0029
+                    &lt; 0,0029
                 </span>
             </div>
             <div class="pieLegend" style="position:absolute;left:485px;top:237px" opacity="1">
                 <span style="position:absolute;margin-left:0;margin-top:0;left:3px;top:3px" font-family="arial" font-size="12" white-space="nowrap">
-                    0.003 - 0.029
+                    0,003 − 0,029
                 </span>
             </div>
             <div class="pieLegend" style="position:absolute;left:485px;top:255px" opacity="1">
                 <span style="position:absolute;margin-left:0;margin-top:0;left:3px;top:3px" font-family="arial" font-size="12" white-space="nowrap">
-                    &gt; 0.03
+                    ≥ 0,03
                 </span>
             </div>
         </body>
