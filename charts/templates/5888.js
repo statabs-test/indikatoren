@@ -195,19 +195,19 @@
 					var pieSizeCatConfig = 
 					[
 						{
-							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; < 0,0029',
+							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; < 0,010',
 							from: 0,
-							to: 0.003, 
+							to: 0.01, 
 							diameter: 2
 						},
 						{
-							name: '0,003 − 0,029',
-							from: 0.003,
-							to: 0.03,
+							name: ' 0,010 − 0,029',
+							from: 0.01,
+							to: 0.029,
 							diameter: 8
 						},
 						{
-							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ≥ 0,03',
+							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ≥ 0,030',
 							from: 0.03,							
 							to: 10,
 							diameter: 16
