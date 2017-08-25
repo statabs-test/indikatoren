@@ -237,7 +237,7 @@
 						}
 					};
 					
-					
+					/*
 	                //Pie size 
 	                var pieSize = function(value, maxAbsValue, maxPieDiameter){
 	                	
@@ -254,7 +254,7 @@
 		                    
 						//Negative values: return absolute value
 						//size by Area: use sqrt of value to define size
-						//var size = pieSizeMin + chart.chartWidth / 11 * pieSizeFactor * /*zoomFactor **/ Math.sqrt(Math.abs(value)) / maxAbsNumber; 
+						//var size = pieSizeMin + chart.chartWidth / 11 * pieSizeFactor *  Math.sqrt(Math.abs(value)) / maxAbsNumber; 
 						
 						//transform value to a number between 0 and 1 representing its relation to the min and max values
 						//var relativeValue = (Math.abs(value) - minAbsValue) / (maxAbsValue - minAbsValue);
@@ -273,6 +273,7 @@
 						//console.log('value absValue area diameter: ' + value + ' ' + Math.abs(value) + ' ' + area + ' ' + diameter);
 						return diameter;
 	                };
+	                */
 	                
 	                /*
 	                // When clicking legend items, also toggle connectors and pies
