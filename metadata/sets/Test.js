@@ -35,6 +35,7 @@ var indikatorensetData = [
 		"quellenangabe": [],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "ST 2-1"
 	}
 ];

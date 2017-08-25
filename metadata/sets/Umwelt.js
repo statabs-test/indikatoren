@@ -36,7 +36,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0603"
 	},
 	{
 		"title": "Energiepreise Schweiz",
@@ -74,7 +75,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0601"
 	},
 	{
 		"title": "Neue erneuerbare Energien",
@@ -114,7 +116,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0604"
 	},
 	{
 		"title": "Eigenproduktion Strom",
@@ -152,7 +155,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0605"
 	},
 	{
 		"title": "Energieimportabhängigkeit",
@@ -190,7 +194,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0606"
 	},
 	{
 		"title": "Energiebezugsfläche mit Minergie-P® und A®-Standard",
@@ -229,7 +234,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0609"
 	},
 	{
 		"title": "Spezifischer Heizenergieverbrauch von neuen Bauten",
@@ -267,7 +273,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0610"
 	},
 	{
 		"title": "Heizgradtage",
@@ -306,7 +313,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0611"
 	},
 	{
 		"title": "Energieeffizienz",
@@ -344,7 +352,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0612"
 	},
 	{
 		"title": "Bruttoenergieverbrauch nach Energieträger",
@@ -382,7 +391,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0602"
 	},
 	{
 		"title": "AOX-Fracht Abwasser",
@@ -420,7 +430,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1604"
 	},
 	{
 		"title": "Nitrat im Grundwasser",
@@ -459,7 +470,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1602"
 	},
 	{
 		"title": "Wasserverbrauch Haushalte und Kleingewerbe",
@@ -497,7 +509,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1605"
 	},
 	{
 		"title": "Wasserverbrauch Gewerbe und Industrie",
@@ -535,7 +548,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1606"
 	},
 	{
 		"title": "Gelöster Organischer Kohlenstoff (DOC)",
@@ -573,7 +587,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1607"
 	},
 	{
 		"title": "Wassertemperatur Grundwasser",
@@ -611,7 +626,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1610"
 	},
 	{
 		"title": "Pflanzenschutzmittel im Grundwasser",
@@ -651,7 +667,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1611"
 	},
 	{
 		"title": "Ausbaugrad der Abwasserreinigungsanlagen",
@@ -689,7 +706,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1614"
 	},
 	{
 		"title": "Wassertemperatur Oberflächengewässer",
@@ -727,7 +745,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1609"
 	},
 	{
 		"title": "Medikamentenkonsum",
@@ -765,7 +784,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1617"
 	},
 	{
 		"title": "Biodiversität der Fliessgewässer",
@@ -803,7 +823,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1613"
 	},
 	{
 		"title": "Organische Spurenstoffe in Gewässern",
@@ -841,7 +862,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1612"
 	},
 	{
 		"title": "Revitalisierungsrate Oberflächengewässer",
@@ -879,7 +901,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1616"
 	},
 	{
 		"title": "Betriebseinheiten im Geltungsbereich der Störfallverordnung (StFV)",
@@ -917,7 +940,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1401"
 	},
 	{
 		"title": "Störfälle und Ereignisse",
@@ -955,7 +979,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1403"
 	},
 	{
 		"title": "Bodennutzung",
@@ -994,7 +1019,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0506"
 	},
 	{
 		"title": "Nutzung der landwirtschaftlichen Nutzfläche",
@@ -1032,7 +1058,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0507"
 	},
 	{
 		"title": "Gewicht der Landwirtschaftsmaschinen",
@@ -1071,7 +1098,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0505"
 	},
 	{
 		"title": "Bodenversiegelung",
@@ -1111,7 +1139,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0502"
 	},
 	{
 		"title": "Landwirtschaftliche Nutzfläche",
@@ -1149,7 +1178,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0503"
 	},
 	{
 		"title": "Siedlungsfläche",
@@ -1189,7 +1219,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0501"
 	},
 	{
 		"title": "Aktiv begleitete Sanierungen",
@@ -1227,7 +1258,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0207"
 	},
 	{
 		"title": "Belastete Standorte nach ihrer altlastenrechtlichen Bewertung",
@@ -1265,7 +1297,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0205"
 	},
 	{
 		"title": "Abgeschlossene Sanierungen",
@@ -1303,7 +1336,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0206"
 	},
 	{
 		"title": "Belastete Standorte",
@@ -1341,7 +1375,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0204"
 	},
 	{
 		"title": "Altlastenrechtlich beurteilte Baugesuche",
@@ -1379,7 +1414,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0208"
 	},
 	{
 		"title": "Unbeabsichtigte Freisetzung von gentechnisch veränderten Organismen",
@@ -1417,7 +1453,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0403"
 	},
 	{
 		"title": "Hochsicherheitslaboratorien in Biotechnologiebetrieben",
@@ -1455,7 +1492,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0401"
 	},
 	{
 		"title": "Beanstandungen bei Inspektionen",
@@ -1493,7 +1531,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0404"
 	},
 	{
 		"title": "Tätigkeiten mit gentechnisch veränderten und pathogenen Organismen",
@@ -1531,7 +1570,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0402"
 	},
 	{
 		"title": "Fluglärm",
@@ -1569,7 +1609,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1005"
 	},
 	{
 		"title": "Lärmreklamationen",
@@ -1607,7 +1648,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1003"
 	},
 	{
 		"title": "Eingebaute Schallschutzfenster",
@@ -1645,7 +1687,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1004"
 	},
 	{
 		"title": "Lärmbelastete Personen",
@@ -1683,7 +1726,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1002"
 	},
 	{
 		"title": "Lärmmindernder Strassenbelag",
@@ -1721,7 +1765,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1008"
 	},
 	{
 		"title": "Stickoxid-Emissionen",
@@ -1761,7 +1806,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1101"
 	},
 	{
 		"title": "Emissionen flüchtiger organischer Verbindungen (VOC)",
@@ -1799,7 +1845,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1102"
 	},
 	{
 		"title": "Feinstaub-Emissionen (PM10)",
@@ -1838,7 +1885,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1103"
 	},
 	{
 		"title": "Langzeitbelastungsindex",
@@ -1876,7 +1924,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1104"
 	},
 	{
 		"title": "Rindviehbestand",
@@ -1914,7 +1963,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1105"
 	},
 	{
 		"title": "Handlungsbedarf Luftschadstoffe",
@@ -1952,7 +2002,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1108"
 	},
 	{
 		"title": "Feinstaub-Immissionen",
@@ -1990,7 +2041,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1109"
 	},
 	{
 		"title": "Grenzwertüberschreitungen Ozon",
@@ -2028,7 +2080,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1110"
 	},
 	{
 		"title": "Gesundheitskosten der Luftverschmutzung",
@@ -2067,7 +2120,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1107"
 	},
 	{
 		"title": "Stickstoffdioxid-Immissionen",
@@ -2105,7 +2159,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1111"
 	},
 	{
 		"title": "Nutzungsdruck",
@@ -2143,7 +2198,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1508"
 	},
 	{
 		"title": "Biotopwert",
@@ -2181,7 +2237,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1509"
 	},
 	{
 		"title": "Stickstoffeintrag Wald",
@@ -2219,7 +2276,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1505"
 	},
 	{
 		"title": "Zwangsnutzungen ",
@@ -2257,7 +2315,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1506"
 	},
 	{
 		"title": "Waldreservate",
@@ -2295,7 +2354,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1511"
 	},
 	{
 		"title": "Waldrandpflege",
@@ -2334,7 +2394,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1514"
 	},
 	{
 		"title": "Gepflegte Jungwaldfläche",
@@ -2372,7 +2433,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1512"
 	},
 	{
 		"title": "In der Luft stabile Stoffe in Kälte- und Wärmepumpenanlagen",
@@ -2410,7 +2472,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1301"
 	},
 	{
 		"title": "Ozonschichtabbauende Stoffe in Kälteanlagen",
@@ -2448,7 +2511,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1303"
 	},
 	{
 		"title": "Ozonschichtabbauende Stoffe (Halone) in Löschanlagen",
@@ -2486,7 +2550,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1304"
 	},
 	{
 		"title": "Mobilfunksendeanlagen",
@@ -2524,7 +2589,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1204"
 	},
 	{
 		"title": "Elektroautos",
@@ -2562,7 +2628,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0805"
 	},
 	{
 		"title": "CO<sub>2</sub>-Emissionen",
@@ -2602,7 +2669,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0808"
 	},
 	{
 		"title": "Hitzetage",
@@ -2640,7 +2708,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0801"
 	},
 	{
 		"title": "Jahresmitteltemperatur",
@@ -2680,7 +2749,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0803"
 	},
 	{
 		"title": "CO<sub>2</sub>-Emissionen Neuzulassungen",
@@ -2718,7 +2788,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0806"
 	},
 	{
 		"title": "Strukturen der Fliessgewässer",
@@ -2757,7 +2828,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1608"
 	},
 	{
 		"title": "Kantonale Unterschutzstellungen",
@@ -2796,7 +2868,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0301"
 	},
 	{
 		"title": "Invasive gebietsfremde Arten",
@@ -2834,7 +2907,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0302"
 	},
 	{
 		"title": "Biodiversitätsförderflächen in der Landwirtschaft",
@@ -2873,7 +2947,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0305"
 	},
 	{
 		"title": "Landschaftszerschneidung",
@@ -2911,7 +2986,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0303"
 	},
 	{
 		"title": "Bauzonenflächenbeanspruchung",
@@ -2949,7 +3025,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0902"
 	},
 	{
 		"title": "Freiheitsgrad",
@@ -2988,7 +3065,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0903"
 	},
 	{
 		"title": "Fläche der Bauzone",
@@ -3027,7 +3105,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0901"
 	},
 	{
 		"title": "Hochwasser",
@@ -3066,7 +3145,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0702"
 	},
 	{
 		"title": "Investitionen in den Schutz vor Naturgefahren",
@@ -3104,7 +3184,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0704"
 	},
 	{
 		"title": "Gebäudeschäden durch Hochwasser und Rutschungen",
@@ -3142,7 +3223,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0705"
 	},
 	{
 		"title": "Bevölkerung",
@@ -3184,7 +3266,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1702"
 	},
 	{
 		"title": "Verkehrsleistungsindex",
@@ -3224,7 +3307,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1705"
 	},
 	{
 		"title": "Wohnfläche",
@@ -3265,7 +3349,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1703"
 	},
 	{
 		"title": "Stromverbrauch pro Einwohner",
@@ -3303,7 +3388,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0607"
 	},
 	{
 		"title": "Stromverbrauch nach Produktionsart",
@@ -3341,7 +3427,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0613"
 	},
 	{
 		"title": "Bruttoinlandprodukt",
@@ -3381,7 +3468,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1701"
 	},
 	{
 		"title": "Motorfahrzeuge",
@@ -3424,7 +3512,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1704"
 	},
 	{
 		"title": "Erdbebenertüchtigung von Bauwerken",
@@ -3462,7 +3551,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0703"
 	},
 	{
 		"title": "Auf Deponien abgelagerte Abfälle",
@@ -3500,7 +3590,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0106"
 	},
 	{
 		"title": "Recyclingquote",
@@ -3538,7 +3629,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0102"
 	},
 	{
 		"title": "Bauabfälle",
@@ -3576,7 +3668,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0108"
 	},
 	{
 		"title": "Sonderabfälle",
@@ -3614,7 +3707,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0109"
 	},
 	{
 		"title": "Abfallverbrennung",
@@ -3652,7 +3746,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0104"
 	},
 	{
 		"title": "Deponierte Klärschlammasche",
@@ -3690,7 +3785,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0107"
 	},
 	{
 		"title": "Verbrennungsrückstände",
@@ -3728,7 +3824,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0105"
 	},
 	{
 		"title": "Siedlungsabfälle",
@@ -3766,7 +3863,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0101"
 	},
 	{
 		"title": "Abgebrochene Bruttogeschossfläche",
@@ -3804,7 +3902,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0103"
 	},
 	{
 		"title": "Nachhaltige Holznutzung",
@@ -3842,7 +3941,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1504"
 	},
 	{
 		"title": "Waldfläche",
@@ -3880,7 +3980,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1501"
 	},
 	{
 		"title": "Anteil biologisch bewirtschafteter Landwirtschaftsfläche",
@@ -3918,7 +4019,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "0511"
 	},
 	{
 		"title": "Holzernte nach Sortimenten",
@@ -3956,6 +4058,7 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"orderKey": "1503"
 	}
 ];

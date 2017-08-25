@@ -28,7 +28,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 1_001",
+		"orderKey": "01_00_00_00_00",
 		"parentId": null,
 		"children": [
 			"5862"
@@ -70,7 +70,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 1_002",
+		"orderKey": "01_00_00_00_00",
 		"parentId": null,
 		"children": [
 			"5863"
@@ -111,7 +111,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 1_003",
+		"orderKey": "01_00_00_00_00",
 		"parentId": null,
 		"children": [
 			"5864"
@@ -152,7 +152,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 1_005",
+		"orderKey": "01_00_00_00_00",
 		"parentId": null,
 		"children": [
 			"5865"
@@ -193,7 +193,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 1_004",
+		"orderKey": "01_00_00_00_00",
 		"parentId": null,
 		"children": [
 			"5866"
@@ -229,12 +229,12 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Von der gesamten Kantonsfläche ist rund die Hälfte mit Grünflächen bedeckt. Auf 16% der Fläche stehen Gebäude und 17% werden von Verkehrsflächen in Anspruch genommen.",
-		"erlaeuterungen": "Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m2 geführt werden. Diese werden in einem Turnus von 6 bis 12 Jahren mit einer periodischen Nachführung aktualisiert. Ausnahme: Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst. Die folgenden Kategorien setzen sich aus den jeweils nachstehenden Unterkategorien zusammen: «Übrige Grünflächen» = Friedhof, Gartenanlage, Parkanlage & Spielplatz, Schrebergarten, humusierte Sportanlage, Tierpark, Park, Reben, humusiertes Gewässervorland, übrige humusierte, Hecke, übrige bestockte; «Verkehrsflächen» = Bahnareal, Tramareal, Strasse & Weg, Rabatte, Trottoir, Verkehrsinsel; «Übrige befestigte» = Fabrikareal, befestigtes Gewässervorland, Hafenareal, befestigte Sportanlage, Wasserbecken, übrige Befestigte.",
+		"erlaeuterungen": "Die Angaben basieren auf der Datenebene «Bodenbedeckung» der Amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m2 geführt werden. Diese werden in einem Turnus von 6 bis 12 Jahren mit einer periodischen Nachführung aktualisiert. Ausnahme: Öffentliche Parks und Rabatten im Strassenbereich werden detaillierter erfasst. Die folgenden Kategorien setzen sich aus den jeweils nachstehenden Unterkategorien zusammen: «Übrige Grünfläche» = Friedhof, Gartenanlage, Parkanlage & Spielplatz, Schrebergarten, humusierte Sportanlage, Tierpark, Park, Reben, humusiertes Gewässervorland, übrige humusierte Fläche, Hecke, übrige bestockte Fläche; «Verkehrsfläche» = Bahnareal, Tramareal, Strasse & Weg, Rabatte, Trottoir, Verkehrsinsel; «Übrige befestigte Fläche» = Fabrikareal, befestigtes Gewässervorland, Hafenareal, befestigte Sportanlage, Wasserbecken, übrige befestigte Fläche.",
 		"template": "pie001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 2_001",
+		"orderKey": "02_00_00_00_00",
 		"parentId": null,
 		"children": [
 			"5869"
@@ -275,7 +275,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "Strategie 4_001",
+		"orderKey": "04_00_00_00_00",
 		"parentId": 2265,
 		"children": [
 			"5870"
@@ -317,7 +317,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "Strategie 4_002",
+		"orderKey": "04_00_00_00_00",
 		"parentId": 2265,
 		"children": [
 			"5871"
@@ -358,7 +358,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 4_003",
+		"orderKey": "04_00_00_00_00",
 		"parentId": null,
 		"children": [
 			"5872"
@@ -394,12 +394,12 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Leerwohnungsquote sank seit 2006 kontinuierlich und erreichte 2014 mit 0,2% den tiefsten Wert. Seither steigt sie wieder leicht an.",
-		"erlaeuterungen": "Stichtag ist der 1. Juni. Nur Wohnungen, die für den eigentlichen Wohnungsmarkt in Betracht kommen, also ohne leere Wohnungen, die für den Abbruch oder Umbau bestimmt sind. Prozentangaben beziehen sich auf den Leerwohnungsbestand am Gesamtwohnungsbestand.",
+		"erlaeuterungen": "Stichtag ist der 1. Juni. Nur Wohnungen, die für den eigentlichen Wohnungsmarkt in Betracht kommen; also ohne leere Wohnungen, die für den Abbruch oder Umbau bestimmt sind. Prozentangaben beziehen sich auf den Leerwohnungsbestand am Gesamtwohnungsbestand.",
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 4_004",
+		"orderKey": "04_00_00_00_00",
 		"parentId": null,
 		"children": [
 			"5873"
@@ -440,7 +440,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "Strategie 4_005",
+		"orderKey": "04_00_00_00_00",
 		"parentId": 6009,
 		"children": [
 			"5874"
@@ -481,7 +481,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "Strategie 4_006",
+		"orderKey": "04_00_00_00_00",
 		"parentId": 4140,
 		"children": [
 			"5875"
@@ -523,7 +523,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "Strategie 4_007",
+		"orderKey": "04_00_00_00_00",
 		"parentId": 4135,
 		"children": [
 			"5876"
@@ -564,7 +564,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 4_008",
+		"orderKey": "04_00_00_00_00",
 		"parentId": null,
 		"children": [
 			"5877"
@@ -605,7 +605,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 4_009",
+		"orderKey": "04_00_00_00_00",
 		"parentId": null,
 		"children": [
 			"5878"
@@ -646,7 +646,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "Strategie 5_001",
+		"orderKey": "05_00_00_00_00",
 		"parentId": 4150,
 		"children": [
 			"5879"
@@ -688,7 +688,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "Strategie 5_003",
+		"orderKey": "05_00_00_00_00",
 		"parentId": 5037,
 		"children": [
 			"5881"
@@ -729,7 +729,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 6_001",
+		"orderKey": "06_00_00_00_00",
 		"parentId": null,
 		"children": [
 			"5882"
@@ -770,7 +770,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 7_001",
+		"orderKey": "07_00_00_00_00",
 		"parentId": null,
 		"children": [
 			"5883"
@@ -811,7 +811,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 7_002",
+		"orderKey": "07_00_00_00_00",
 		"parentId": null,
 		"children": [
 			"5884"
@@ -852,7 +852,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 7_003",
+		"orderKey": "07_00_00_00_00",
 		"parentId": null,
 		"children": [
 			"5885"
@@ -893,7 +893,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 9_001",
+		"orderKey": "09_00_00_00_00",
 		"parentId": null,
 		"children": [
 			"5886"
@@ -932,7 +932,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 11_001",
+		"orderKey": "11_00_00_00_00",
 		"parentId": null,
 		"children": [
 			"5887"
@@ -977,7 +977,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 11_002",
+		"orderKey": "11_00_00_00_00",
 		"parentId": 4918,
 		"children": [
 			"5888"
@@ -1021,7 +1021,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 12_001",
+		"orderKey": "12_00_00_00_00",
 		"parentId": null,
 		"children": [
 			"5890"
@@ -1065,7 +1065,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "Strategie 8_001",
+		"orderKey": "08_00_00_00_00",
 		"parentId": 3104,
 		"children": [
 			"5908"
@@ -1106,7 +1106,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 4_010",
+		"orderKey": "04_00_00_00_00",
 		"parentId": null,
 		"children": [
 			"5909"
@@ -1147,7 +1147,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 11_003",
+		"orderKey": "11_00_00_00_00",
 		"parentId": null,
 		"children": [
 			"5910"
@@ -1189,7 +1189,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 4_011",
+		"orderKey": "04_00_00_00_00",
 		"parentId": null,
 		"children": [
 			"5911"
@@ -1231,7 +1231,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "Strategie 8_002",
+		"orderKey": "08_00_00_00_00",
 		"parentId": null,
 		"children": [
 			"6008"
