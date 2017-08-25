@@ -28,7 +28,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00",
+		"orderKey": "01_00_00_00_00_001",
 		"parentId": null,
 		"children": [
 			"5862"
@@ -70,7 +70,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00",
+		"orderKey": "01_00_00_00_00_002",
 		"parentId": null,
 		"children": [
 			"5863"
@@ -111,7 +111,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00",
+		"orderKey": "01_00_00_00_00_003",
 		"parentId": null,
 		"children": [
 			"5864"
@@ -152,7 +152,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00",
+		"orderKey": "01_00_00_00_00_005",
 		"parentId": null,
 		"children": [
 			"5865"
@@ -193,7 +193,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00",
+		"orderKey": "01_00_00_00_00_004",
 		"parentId": null,
 		"children": [
 			"5866"
@@ -234,7 +234,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00",
+		"orderKey": "02_00_00_00_00_001",
 		"parentId": null,
 		"children": [
 			"5869"
@@ -275,7 +275,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "04_00_00_00_00",
+		"orderKey": "04_00_00_00_00_001",
 		"parentId": 2265,
 		"children": [
 			"5870"
@@ -317,7 +317,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "04_00_00_00_00",
+		"orderKey": "04_00_00_00_00_002",
 		"parentId": 2265,
 		"children": [
 			"5871"
@@ -358,7 +358,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00",
+		"orderKey": "04_00_00_00_00_003",
 		"parentId": null,
 		"children": [
 			"5872"
@@ -399,7 +399,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00",
+		"orderKey": "04_00_00_00_00_004",
 		"parentId": null,
 		"children": [
 			"5873"
@@ -440,7 +440,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "04_00_00_00_00",
+		"orderKey": "04_00_00_00_00_005",
 		"parentId": 6009,
 		"children": [
 			"5874"
@@ -481,7 +481,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "04_00_00_00_00",
+		"orderKey": "04_00_00_00_00_006",
 		"parentId": 4140,
 		"children": [
 			"5875"
@@ -523,7 +523,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "04_00_00_00_00",
+		"orderKey": "04_00_00_00_00_007",
 		"parentId": 4135,
 		"children": [
 			"5876"
@@ -564,7 +564,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00",
+		"orderKey": "04_00_00_00_00_008",
 		"parentId": null,
 		"children": [
 			"5877"
@@ -605,7 +605,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00",
+		"orderKey": "04_00_00_00_00_009",
 		"parentId": null,
 		"children": [
 			"5878"
@@ -646,7 +646,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "05_00_00_00_00",
+		"orderKey": "05_00_00_00_00_001",
 		"parentId": 4150,
 		"children": [
 			"5879"
@@ -688,7 +688,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "05_00_00_00_00",
+		"orderKey": "05_00_00_00_00_003",
 		"parentId": 5037,
 		"children": [
 			"5881"
@@ -729,7 +729,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "06_00_00_00_00",
+		"orderKey": "06_00_00_00_00_001",
 		"parentId": null,
 		"children": [
 			"5882"
@@ -770,7 +770,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "07_00_00_00_00",
+		"orderKey": "07_00_00_00_00_001",
 		"parentId": null,
 		"children": [
 			"5883"
@@ -811,7 +811,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "07_00_00_00_00",
+		"orderKey": "07_00_00_00_00_002",
 		"parentId": null,
 		"children": [
 			"5884"
@@ -852,7 +852,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "07_00_00_00_00",
+		"orderKey": "07_00_00_00_00_003",
 		"parentId": null,
 		"children": [
 			"5885"
@@ -893,7 +893,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "09_00_00_00_00",
+		"orderKey": "09_00_00_00_00_001",
 		"parentId": null,
 		"children": [
 			"5886"
@@ -932,7 +932,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "11_00_00_00_00",
+		"orderKey": "11_00_00_00_00_001",
 		"parentId": null,
 		"children": [
 			"5887"
@@ -977,7 +977,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "11_00_00_00_00",
+		"orderKey": "11_00_00_00_00_002",
 		"parentId": 4918,
 		"children": [
 			"5888"
@@ -1021,7 +1021,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "12_00_00_00_00",
+		"orderKey": "12_00_00_00_00_001",
 		"parentId": null,
 		"children": [
 			"5890"
@@ -1065,7 +1065,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "08_00_00_00_00",
+		"orderKey": "08_00_00_00_00_001",
 		"parentId": 3104,
 		"children": [
 			"5908"
@@ -1106,7 +1106,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00",
+		"orderKey": "04_00_00_00_00_010",
 		"parentId": null,
 		"children": [
 			"5909"
@@ -1147,7 +1147,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "11_00_00_00_00",
+		"orderKey": "11_00_00_00_00_003",
 		"parentId": null,
 		"children": [
 			"5910"
@@ -1189,7 +1189,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00",
+		"orderKey": "04_00_00_00_00_011",
 		"parentId": null,
 		"children": [
 			"5911"
@@ -1231,7 +1231,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "08_00_00_00_00",
+		"orderKey": "08_00_00_00_00_002",
 		"parentId": null,
 		"children": [
 			"6008"
