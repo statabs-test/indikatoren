@@ -15,7 +15,7 @@
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "right",
-			"x": -185,
+			"x": -198,
 			"y": 3,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,

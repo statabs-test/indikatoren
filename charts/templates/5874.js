@@ -15,7 +15,7 @@
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "right",
-			"x": -185,
+			"x": -198,
 			"y": 3,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
@@ -196,20 +196,20 @@
 					[
 						{
 							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; < 0,50',
-							from: 0,
-							to: 0.5, 
+							from: 0.00,
+							to: 0.50, 
 							diameter: 2
 						},
 						{
 							name: '0,05 − 1,49',
-							from: 0.5,
-							to: 1.4,
+							from: 0.50,
+							to: 1.49,
 							diameter: 8
 						},
 						{
 							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥ 1,50',
-							from: 1.5,							
-							to: 10,
+							from: 1.50,							
+							to: 10.00,
 							diameter: 16
 						}
 					];

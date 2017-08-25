@@ -39,16 +39,13 @@
             <path fill="salmon" d="M220.21 184.269a8 8 0 1 1-.009 0m.011 8" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
         </g>
         <g class="highcharts-series highcharts-series-6 highcharts-mappie-series highcharts-color-undefined">
-            <path fill="grey" d="M299.534 182.171a4 4 0 1 1-.005 0m.006 4" stroke="grey" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
+            <path fill="grey" d="M299.535 185.171a1 1 0 1 1-.001 0m0 1" stroke="grey" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
         </g>
         <g class="highcharts-series highcharts-series-7 highcharts-mappie-series highcharts-color-undefined">
             <path fill="salmon" d="M282.606 209.112a8 8 0 1 1-.01 0m.012 8" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
         </g>
         <g class="highcharts-series highcharts-series-8 highcharts-mappie-series highcharts-color-undefined">
             <path fill="salmon" d="M242.782 218.62a8 8 0 1 1-.01 0m.011 8" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
-        </g>
-        <g class="highcharts-series highcharts-series-9 highcharts-mappie-series highcharts-color-undefined">
-            <path fill="grey" d="M253.6 263.743a4 4 0 1 1-.005 0m.006 4" stroke="grey" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
         </g>
         <g class="highcharts-series highcharts-series-10 highcharts-mappie-series highcharts-color-undefined">
             <path fill="salmon" d="M195 201.147a8 8 0 1 1-.01 0m.012 8" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
@@ -72,7 +69,7 @@
             <path fill="salmon" d="M275.67 165.365a4 4 0 1 1-.005 0m.006 4" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
         </g>
         <g class="highcharts-series highcharts-series-18 highcharts-mappie-series highcharts-color-undefined">
-            <path fill="salmon" d="M268.05 140.886a4 4 0 1 1-.004 0m.005 4" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
+            <path fill="salmon" d="M268.051 143.886a1 1 0 1 1-.001 0m.001 1" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
         </g>
         <g class="highcharts-series highcharts-series-19 highcharts-mappie-series highcharts-color-undefined">
             <path fill="salmon" d="M245.277 140.968a4 4 0 1 1-.004 0m.005 4" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
@@ -81,7 +78,7 @@
             <path fill="salmon" d="M242.9 109.767a8 8 0 1 1-.01 0m.012 8" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
         </g>
         <g class="highcharts-series highcharts-series-21 highcharts-mappie-series highcharts-color-undefined">
-            <path fill="salmon" d="M256.957 87.444a4 4 0 1 1-.005 0m.006 4" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
+            <path fill="salmon" d="M256.958 90.444a1 1 0 1 1-.001 0m.001 1" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
         </g>
         <g class="highcharts-series highcharts-series-22 highcharts-mappie-series highcharts-color-undefined">
             <path fill="salmon" d="M382.92 97.91a4 4 0 1 1-.004 0m.005 4" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
@@ -96,7 +93,7 @@
             <path fill="salmon" d="M219.998 184a8 8 0 1 1-.01 0m.012 8" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
         </g>
         <g class="highcharts-series highcharts-series-27 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="grey" d="M300 182a4 4 0 1 1-.006 0m.006 4" stroke="grey" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
+            <path fill="grey" d="M300 185a1 1 0 1 1-.001 0m.001 1" stroke="grey" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
         </g>
         <g class="highcharts-series highcharts-series-28 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
             <path fill="salmon" d="M282.998 209a8 8 0 1 1-.01 0m.012 8" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
@@ -105,7 +102,7 @@
             <path fill="salmon" d="M242.998 219a8 8 0 1 1-.01 0m.012 8" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
         </g>
         <g class="highcharts-series highcharts-series-30 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="grey" d="M254 264a4 4 0 1 1-.006 0m.006 4" stroke="grey" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
+            <path fill="grey" d="M254 267a1 1 0 1 1-.001 0m.001 1" stroke="grey" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
         </g>
         <g class="highcharts-series highcharts-series-31 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
             <path fill="salmon" d="M194.998 201a8 8 0 1 1-.01 0m.012 8" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
@@ -132,7 +129,7 @@
             <path fill="salmon" d="M300 139a1 1 0 1 1-.001 0m.001 1" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
         </g>
         <g class="highcharts-series highcharts-series-39 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="salmon" d="M268 141a4 4 0 1 1-.006 0m.006 4" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
+            <path fill="salmon" d="M268 144a1 1 0 1 1-.001 0m.001 1" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
         </g>
         <g class="highcharts-series highcharts-series-40 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
             <path fill="salmon" d="M245 141a4 4 0 1 1-.006 0m.006 4" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
@@ -141,7 +138,7 @@
             <path fill="salmon" d="M242.998 110a8 8 0 1 1-.01 0m.012 8" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
         </g>
         <g class="highcharts-series highcharts-series-42 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
-            <path fill="salmon" d="M257 87a4 4 0 1 1-.006 0m.006 4" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
+            <path fill="salmon" d="M257 90a1 1 0 1 1-.001 0m.001 1" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
         </g>
         <g class="highcharts-series highcharts-series-43 highcharts-mappie-series highcharts-color-undefined highcharts-tracker">
             <path fill="salmon" d="M383 98a4 4 0 1 1-.006 0m.006 4" stroke="salmon" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
@@ -226,17 +223,17 @@
             </div>
             <div class="pieLegend" style="position:absolute;left:485px;top:221px" opacity="1">
                 <span style="position:absolute;margin-left:0;margin-top:0;left:3px;top:3px" font-family="arial" font-size="12" white-space="nowrap">
-                    &lt; 0,0029
+                    &lt; 0,010
                 </span>
             </div>
             <div class="pieLegend" style="position:absolute;left:485px;top:237px" opacity="1">
                 <span style="position:absolute;margin-left:0;margin-top:0;left:3px;top:3px" font-family="arial" font-size="12" white-space="nowrap">
-                    0,003 − 0,029
+                    0,010 − 0,029
                 </span>
             </div>
             <div class="pieLegend" style="position:absolute;left:485px;top:255px" opacity="1">
                 <span style="position:absolute;margin-left:0;margin-top:0;left:3px;top:3px" font-family="arial" font-size="12" white-space="nowrap">
-                    ≥ 0,03
+                    ≥ 0,030
                 </span>
             </div>
         </body>
