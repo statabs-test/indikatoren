@@ -195,19 +195,19 @@
 					var pieSizeCatConfig = 
 					[
 						{
-							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; < 0.0029',
+							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; < 0,0029',
 							from: 0,
 							to: 0.003, 
 							diameter: 2
 						},
 						{
-							name: '0.003 - 0.029',
+							name: '0,003 − 0,029',
 							from: 0.003,
 							to: 0.03,
 							diameter: 8
 						},
 						{
-							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > 0.03',
+							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ≥ 0,03',
 							from: 0.03,							
 							to: 10,
 							diameter: 16
@@ -464,6 +464,7 @@
 					});
 					
 
+	                //helper functions for pie legend
 	                
 	                function addLegendTitle(title, x, y){
                 		return chart.renderer.label(title, x, y)
