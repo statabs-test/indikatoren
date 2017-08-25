@@ -26,7 +26,7 @@
 
 		         colorAxis: {
                 dataClassColor: 'category',
-dataClasses: [{
+              dataClasses: [{
                     to: 25,
                     color: '#D7E8D2',
                      name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;<&nbsp;&nbsp;&nbsp;25,0"
@@ -80,7 +80,7 @@ dataClasses: [{
 				tooltip: {
 					pointFormatter: function(){
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '</b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),3) + '</b><br/>';
 					}
 				}
 			}, 
@@ -189,8 +189,55 @@ dataClasses: [{
 					
 					//pie diameters in px
 					var maxPieDiameter = 20;
-
 					
+					
+					//configuration of categorical pie sizes
+					var pieSizeCatConfig = 
+					[
+						{
+							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; < 0,50',
+							from: 0,
+							to: 0.49, 
+							diameter: 2
+						},
+						{
+							name: '0,50 − 3,99',
+							from: 0.50,
+							to: 3.99,
+							diameter: 8
+						},
+						{
+							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ≥ 4,00',
+							from: 4,							
+							to: 20,
+							diameter: 16
+						}
+					];
+					
+					
+					/*
+					//add the value() function to each conf object
+					pieSizeCatConfig.forEach(function(el){
+						//returns a value in between from and to
+						function value(){
+							return this.to + (this.to - this.from) / 2;
+						}	
+						el.value = value;
+					});
+					*/
+
+					//calculate pie size using categories defined in the conf object
+					var pieSizeCategorical = function(value, conf){
+						for (var i=0; i < conf.length; i++ ){
+							//console.log('checking value ' + value);
+							if (value >= conf[i].from && value < conf[i].to) {
+								//console.log('found conf object:  + ' + JSON.stringify(conf[i]));
+								return conf[i];
+							}
+						}
+					};
+					
+					/*
 	                //Pie size 
 	                var pieSize = function(value, maxAbsValue, maxPieDiameter){
 	                	
@@ -198,7 +245,7 @@ dataClasses: [{
 	                		return Math.PI * diameter * diameter / 4;
 	                	}
 	                	
-	                	function circleDiameterByAre(area){	                		;
+	                	function circleDiameterByAre(area){	                		
 	                		return Math.sqrt(4 * area / Math.PI);
 	                	}
 	                	
@@ -207,7 +254,7 @@ dataClasses: [{
 		                    
 						//Negative values: return absolute value
 						//size by Area: use sqrt of value to define size
-						//var size = pieSizeMin + chart.chartWidth / 11 * pieSizeFactor * /*zoomFactor **/ Math.sqrt(Math.abs(value)) / maxAbsNumber; 
+						//var size = pieSizeMin + chart.chartWidth / 11 * pieSizeFactor *  Math.sqrt(Math.abs(value)) / maxAbsNumber; 
 						
 						//transform value to a number between 0 and 1 representing its relation to the min and max values
 						//var relativeValue = (Math.abs(value) - minAbsValue) / (maxAbsValue - minAbsValue);
@@ -226,6 +273,7 @@ dataClasses: [{
 						//console.log('value absValue area diameter: ' + value + ' ' + Math.abs(value) + ' ' + area + ' ' + diameter);
 						return diameter;
 	                };
+	                */
 	                
 	                /*
 	                // When clicking legend items, also toggle connectors and pies
@@ -284,12 +332,13 @@ dataClasses: [{
 	                        borderWidth: 1,
 	                        borderColor: color(),
 	                        sizeFormatter: function () {
-								return pieSize(data.value, maxAbsNumber, maxPieDiameter);
+								//return pieSize(data.value, maxAbsNumber, maxPieDiameter);
+								return pieSizeCategorical(Math.abs(data.value), pieSizeCatConfig).diameter;
 	                        },
 	                        tooltip: {
 	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {series.name} </span><br/>',
 	                            pointFormatter: function () {
-	                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),1) + '</b><br/>';
+	                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),3) + '</b><br/>';
 	                            }
 	                        },
 	                        data: [
@@ -341,71 +390,29 @@ dataClasses: [{
 	                chart.redraw();
 	                
 					//pie values in legend
-	                var minValueInLegend = 0.1; //minAbsNumber;
-	                var maxValueInLegend = 15; //maxAbsNumber;
-	                
+	                //var minValueInLegend = 0.001; //minAbsNumber;
+	                //var maxValueInLegend = 0.1; //maxAbsNumber;
+
 	                
 	                //Add manually drawn legend
-	                 chart.renderer.label(chart.series[0].name, 350, 200)
-     				.css({
-	                    fontSize: '12px',
-	                    fontWeight: 'bold'
-	                })
-	                .attr({
-			        	zIndex: 6,
-			        	//class: 'pieLegend'
-			        }).add();	                
-	                 chart.renderer.label(chart.series[1].name, 460, 200)
-     				.css({
-	                    fontSize: '12px',
-	                    fontWeight: 'bold'
-	                })
-	                .attr({
-			        	zIndex: 6,
-			        	//class: 'pieLegend'
-			        }).add();
-	                chart.renderer.circle(473, 231, 0.5*pieSize(minValueInLegend, maxAbsNumber, maxPieDiameter)).attr({
-					    fill: 'grey',
-					    stroke: 'grey',
-					    'stroke-width': 1, 
-					    zIndex: 6,
-					    class: 'pieLegend'
-					}).add();
-					chart.renderer.label(Highcharts.numberFormat((minValueInLegend),1,","," "), 485, 221).attr({
-						zIndex: 6,
-						class: 'pieLegend'
-					}).add();
-	                chart.renderer.circle(473, 248, 0.5*pieSize(maxValueInLegend, maxAbsNumber, maxPieDiameter)).attr({
-					    fill: 'grey',
-					    stroke: 'grey',
-					    'stroke-width': 1,
-					    zIndex: 6,
-					    class: 'pieLegend'
-					}).add();
-					chart.renderer.label(Highcharts.numberFormat((maxValueInLegend),0,"."," "), 485, 237).attr({
-						zIndex: 6,
-						class: 'pieLegend'
-					}).add();
-				    chart.renderer.rect(520, 225, 10, 10, 0).attr({
-			            'stroke-width':0,
-			            fill: 'grey',
-			            zIndex: 6,
-			            class: 'pieLegend'
-			        }).add();
-			        chart.renderer.label('Zunahme', 535, 221).attr({
-			        	zIndex: 6,
-			        	class: 'pieLegend'
-			        }).add();
-					chart.renderer.rect(520, 241, 10, 10, 0).attr({
-			            'stroke-width':0,
-			            fill: 'salmon',
-			            zIndex: 6,
-			            class: 'pieLegend'
-			        }).add();
-			        chart.renderer.label('Abnahme', 535, 237).attr({
-			        	zIndex: 6,
-			        	class: 'pieLegend'
-			        }).add();
+	                addLegendTitle(chart.series[0].name, 350, 200);
+	                addLegendTitle(chart.series[1].name, 460, 200);
+	                
+	                addLegendCircle(473, 231, 0.5*pieSizeCatConfig[0].diameter, 'grey');
+	                addLegendLabel(pieSizeCatConfig[0].name, 485, 221, true);
+	                addLegendCircle(473, 248, 0.5*pieSizeCatConfig[1].diameter, 'grey');
+	                addLegendLabel(pieSizeCatConfig[1].name, 485, 237, true);
+	                addLegendCircle(473, 265, 0.5*pieSizeCatConfig[2].diameter, 'grey');
+					addLegendLabel(pieSizeCatConfig[2].name, 485, 255, true);
+					
+					addLegendSquare(565, 225, 10, 'grey');
+					addLegendLabel('Zunahme', 580, 221);
+					addLegendSquare(565, 241, 10, 'salmon');
+					addLegendLabel('Abnahme', 580, 237);
+					
+
+	                //chart.renderer.circle(473, 248, 0.5*pieSize(maxValueInLegend, maxAbsNumber, maxPieDiameter)).attr({
+					//chart.renderer.label(Highcharts.numberFormat((maxValueInLegend),1,"."," "), 485, 237).attr({
 
 					//Add click handler to bubbleLegend items
 					$('.pieLegend').click(function(){
@@ -417,6 +424,9 @@ dataClasses: [{
 						});
 						chart.redraw();
 						
+						
+						//if useHTMl is true, text is in span elements within DIVs classed .pieLegend. Add the class to these spans
+						$('.pieLegend>span').addClass('pieLegend').addClass('pieLegendHtmlText');
 						//toggle active state of legend elements
 						var pieLegendItems = $('.pieLegend');
 						//backup original color
@@ -440,6 +450,8 @@ dataClasses: [{
 									$(this).attr('stroke', '#cccccc');
 								}
 							});
+							//same for html text spans
+							$('.pieLegendHtmlText').css('color', '#cccccc');
 						} 
 						else {
 							pieLegendItems.each(function(i, v){
@@ -447,8 +459,53 @@ dataClasses: [{
 								$(this).attr('fill', $(this).attr('fill_active'));	
 								$(this).attr('stroke', $(this).attr('stroke_active'));	
 							});
+							//same for html text spans
+							$('.pieLegendHtmlText').css('color', 'black');
 						}
 					});
+					
+
+	                //helper functions for pie legend
+	                
+	                function addLegendTitle(title, x, y){
+                		return chart.renderer.label(title, x, y)
+		     				.css({
+			                    fontSize: '12px',
+			                    fontWeight: 'bold'
+			                })
+			                .attr({
+					        	zIndex: 6,
+					        	//class: 'pieLegend'
+					        }).add();	                
+	                }
+	                
+	                function addLegendCircle(x, y, radius, fill){
+	                	return chart.renderer.circle(x, y, radius, fill).attr({
+						    fill: fill,
+						    stroke: fill,
+						    'stroke-width': 1, 
+						    zIndex: 6,
+						    class: 'pieLegend'
+						}).add();
+	                }
+	                
+	                
+	                function addLegendLabel(text, x, y, useHtml){
+						return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
+							zIndex: 6,
+							class: 'pieLegend'
+						}).add();
+	                }
+	                
+	                function addLegendSquare(x, y, width, fill){
+	                	return chart.renderer.rect(x, y, width, width, 0).attr({
+				            'stroke-width':0,
+				            fill: fill,
+				            zIndex: 6,
+				            class: 'pieLegend'
+			        	}).add();
+	                }
+
 	            }
 			}
 		}

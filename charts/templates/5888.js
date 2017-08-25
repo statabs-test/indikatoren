@@ -16,7 +16,7 @@
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "right",
-			"x": -185,
+			"x": -198,
 			"y": 3,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
@@ -215,19 +215,19 @@
 					var pieSizeCatConfig = 
 					[
 						{
-							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; < 0,0029',
+							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; < 0,010',
 							from: 0,
-							to: 0.003, 
+							to: 0.01, 
 							diameter: 2
 						},
 						{
-							name: '0,003 − 0,029',
-							from: 0.003,
-							to: 0.03,
+							name: ' 0,010 − 0,029',
+							from: 0.01,
+							to: 0.029,
 							diameter: 8
 						},
 						{
-							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ≥ 0,03',
+							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ≥ 0,030',
 							from: 0.03,							
 							to: 10,
 							diameter: 16
@@ -257,7 +257,7 @@
 						}
 					};
 					
-					
+					/*
 	                //Pie size 
 	                var pieSize = function(value, maxAbsValue, maxPieDiameter){
 	                	
@@ -274,7 +274,7 @@
 		                    
 						//Negative values: return absolute value
 						//size by Area: use sqrt of value to define size
-						//var size = pieSizeMin + chart.chartWidth / 11 * pieSizeFactor * /*zoomFactor **/ Math.sqrt(Math.abs(value)) / maxAbsNumber; 
+						//var size = pieSizeMin + chart.chartWidth / 11 * pieSizeFactor *  Math.sqrt(Math.abs(value)) / maxAbsNumber; 
 						
 						//transform value to a number between 0 and 1 representing its relation to the min and max values
 						//var relativeValue = (Math.abs(value) - minAbsValue) / (maxAbsValue - minAbsValue);
@@ -293,6 +293,7 @@
 						//console.log('value absValue area diameter: ' + value + ' ' + Math.abs(value) + ' ' + area + ' ' + diameter);
 						return diameter;
 	                };
+	                */
 	                
 	                /*
 	                // When clicking legend items, also toggle connectors and pies

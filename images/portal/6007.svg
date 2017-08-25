@@ -101,7 +101,7 @@
             <path fill="none" d="M8 114h16" class="highcharts-graph" stroke="#008AC3" stroke-width="2"/>
             <path fill="#008AC3" d="M20 114a4 4 0 1 1 0-.004z" class="highcharts-point"/>
             <text x="21" y="15" color="#333" font-weight="400" cursor="pointer" fill="#333" transform="translate(8 103)">
-                <tspan>Series 6</tspan>
+                <tspan>Fussgänger</tspan>
             </text>
         </g>
     </g>
