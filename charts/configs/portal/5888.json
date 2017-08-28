@@ -3649,7 +3649,7 @@
 					
 					//configuration of categorical pie sizes
 					var pieSizeCatConfig = 
-				[
+					[
 						{
 							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; < 0,010',
 							from: 0,
@@ -3673,11 +3673,10 @@
 					//define different colors for positive and negative values
 	                var color = function(value){
 	                	return (value >= 0) ? '#7F5F1A' : '#FABD24';
-	                	//return (value >= 0) ? 'grey' : 'salmon';
 	                };					
 					
 					//define chart-specific details
-					var pieSeriesConfig = function(data, wohnviertelSeries, color){
+					var pieSeriesConfig = function(data, correspondingMapSeriesItem, color){
 						return {
 	                        sizeFormatter: function () {
 	                            var fn = this.chart.options.customFunctions;
@@ -3686,34 +3685,16 @@
 	                        },
 	                        tooltip: {
 	                            pointFormatter: function () {
-	                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),3) + '</b><br/>';
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),3) + '</b><br/>';
 	                            }
-	                        },/*
-	                        data: [
-	                        	{
-	                        		name: pieSizeSeries.name,
-	                        		//put absolute value in y, real value in v
-	                        		y: Math.abs(data.value),
-	                        		v: data.value,
-	                        		color: color(data.value),
-	                        		borderColor: color(data.value)
-	                        	}
-	                        ],
-	                        dataLabels: {
-						        enabled: false
-						    }
-						    */
+	                        }
 	                    };
 					};
 					
+					//put the pies / bubbles on the map
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
-					
-					//pie values in legend
-	                //var minValueInLegend = 0.001; //minAbsNumber;
-	                //var maxValueInLegend = 0.1; //maxAbsNumber;
-	                
+
 	                //Add manually drawn legend
-					
 	                fn.addLegendTitle(chart, choroplethSeries.name, 360, 200);
 	                fn.addLegendTitle(chart, pieSizeSeries.name, 460, 200);
 	                
@@ -3729,8 +3710,8 @@
 					fn.addLegendSquare(chart, 565, 241, 10, '#FABD24');
 					fn.addLegendLabel(chart, 'Abnahme', 580, 237);
 					
+					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
-
 	            }
     },
     "renderTo": "container-5888"
@@ -3988,12 +3969,12 @@
 	                        return; // Skip points with no data, if any
 	                    }
 	                    
-	                	var wohnviertelSeries = choroplethSeries.points[data.index];
+	                	var correspondingMapSeriesItem = choroplethSeries.points[data.index];
 	                	
 	                	//define where to place the pies on the map
-	                    var pieOffset = wohnviertelSeries.pieOffset || {},
-	                        centerLat = parseFloat(wohnviertelSeries.properties.lat),
-	                        centerLon = parseFloat(wohnviertelSeries.properties.lon);
+	                    var pieOffset = correspondingMapSeriesItem.pieOffset || {},
+	                        centerLat = parseFloat(correspondingMapSeriesItem.properties.lat),
+	                        centerLon = parseFloat(correspondingMapSeriesItem.properties.lon);
 	                	
                         //create the highcharts pie chart config
 	                    var currentPieSeries = function(config){
@@ -4002,13 +3983,13 @@
     	                        type: 'mappie',
     	                        name: data.series.name,
     	                        wohnviertel_Name: data["hc-key"],
-    	                        wohnviertel_Id : wohnviertelSeries.wohnviertel_Id,
+    	                        wohnviertel_Id : correspondingMapSeriesItem.wohnviertel_Id,
     	                        zIndex: 6, // Keep pies above connector lines
     	                        borderWidth: 1,
     	                        tooltip: {
 	                        	    headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {series.name} </span><br/>',
 		                            pointFormatter: function () {
-		                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),3) + '</b><br/>';
+		                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),3) + '</b><br/>';
 		                            }
     	                        },
 	                            center: {
@@ -4040,7 +4021,7 @@
 							    }    	                        
 	                        };
 	                        //create the config handed in from the chart
-	                        var pieTemplate = config(data, wohnviertelSeries, color);
+	                        var pieTemplate = config(data, correspondingMapSeriesItem, color);
 	                        //merge the two configs (2nd into first, see e.g. https://gist.github.com/TorsteinHonsi/f646f39d51d18b7d6bfb)
 	                        return Highcharts.merge(true, mapPieConfig, pieTemplate);
 	                    };
