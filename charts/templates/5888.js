@@ -395,7 +395,7 @@
 
 	                
 	                //Add manually drawn legend
-	                addLegendTitle(chart.series[0].name, 350, 200);
+	                addLegendTitle(chart.series[0].name, 360, 200);
 	                addLegendTitle(chart.series[1].name, 460, 200);
 	                
 	                addLegendCircle(473, 231, 0.5*pieSizeCatConfig[0].diameter, 'grey');
