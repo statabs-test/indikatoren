@@ -178,7 +178,7 @@
     <text x="3" y="15" transform="translate(580 237)" class="pieLegend">
         Abnahme
     </text>
-    <g class="highcharts-legend" transform="translate(356 142)">
+    <g class="highcharts-legend" transform="translate(343 142)">
         <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" width="97" height="171"/>
         <g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined">
             <path fill="#D7E8D2" class="highcharts-point" d="M10 23h12v12H10z"/>
@@ -201,7 +201,7 @@
     </text>
     <foreignObject x="0" y="0" width="640" height="312">
         <body xmlns="http://www.w3.org/1999/xhtml">
-            <div class="highcharts-legend" style="position:absolute;left:356px;top:142px" opacity="1">
+            <div class="highcharts-legend" style="position:absolute;left:343px;top:142px" opacity="1">
                 <div style="position:absolute;left:0;top:0" opacity="1">
                     <div style="position:absolute;left:0;top:0" opacity="1">
                         <div class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" style="position:absolute;left:8px;top:19px" opacity="1">

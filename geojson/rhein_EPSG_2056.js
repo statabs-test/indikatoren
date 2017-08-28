@@ -21,3 +21,26 @@ var geojson_rhein =
 
 ;
 var rheinDataEPSG2056 = Highcharts.geojson(geojson_rhein, 'map');
+
+var geojson_scalebar =
+{
+    "name":"Massstab","type":"FeatureCollection",
+    "crs":{
+        "type":"name",
+        "properties":{
+            "name":"EPSG:2056"
+        }
+    },
+    "features":[
+        {
+            "type":"Feature",
+            "geometry": {
+                "type":"LineString",
+                "coordinates":[[2609400,1264700],[2610400,1264700]]},
+                "properties": {}
+        }
+    ]
+};
+
+
+var scalebarDataEPSG2056 = Highcharts.geojson(geojson_scalebar, 'mapline');
