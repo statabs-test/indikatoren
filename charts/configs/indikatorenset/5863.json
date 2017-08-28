@@ -3570,7 +3570,7 @@
           }
         }
       ],
-      "color": "#008AC3",
+      "color": "#689199",
       "borderColor": "#fbfbfb",
       "tooltip": {
         "pointFormatter": function (){
@@ -3807,7 +3807,7 @@
 						
 						//define different colors for positive and negative values
                         var color = function(){
-                        	return (data.value >= 0) ? 'grey' : 'salmon';
+                        	return (data.value >= 0) ? '#7F5F1A' : '#FABD24';
                         };
 
 	                    var currentPieSeries = 
@@ -3894,9 +3894,9 @@
 	                addLegendCircle(473, 265, 0.5*pieSizeCatConfig[2].diameter, 'grey');
 					addLegendLabel(pieSizeCatConfig[2].name, 485, 255, true);
 					
-					addLegendSquare(565, 225, 10, 'grey');
+					addLegendSquare(565, 225, 10, '#7F5F1A');
 					addLegendLabel('Zunahme', 580, 221);
-					addLegendSquare(565, 241, 10, 'salmon');
+					addLegendSquare(565, 241, 10, '#FABD24');
 					addLegendLabel('Abnahme', 580, 237);
 					
 

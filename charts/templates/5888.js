@@ -1,5 +1,4 @@
 /*  global rheinDataEPSG2056
-	global scalebarDataEPSG2056
 	global Highcharts
 	global geojson_wohnviertelEPSG2056
 	global $
@@ -16,7 +15,7 @@
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "right",
-			"x": -198,
+			"x": -185,
 			"y": 3,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
@@ -27,7 +26,7 @@
 
 		         colorAxis: {
                 dataClassColor: 'category',
-                dataClasses: [{
+                       dataClasses: [{
                     to: 0.39,
                     color: '#D7E8D2',
                     name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;0,40"
@@ -90,6 +89,7 @@
 			}
 		],
 		/* series with fixed data that should be added to the series object after merging with csv data */
+		
 		"afterSeries": [
 			{
 				"name": "Rhein",
@@ -103,27 +103,7 @@
 					}
 				}
 
-			}, 
-			{
-				name: 'Massstab', 
-				animation: true,
-				type: 'mapline',
-				data: scalebarDataEPSG2056,
-				color: 'black', 
-				tooltip: {
-					pointFormatter: function(){
-						return '<br/>';
-					}
-				}, 
-				dataLabels: {
-					enabled: true, 
-					formatter: function(){
-						return '1 km';
-					}, 
-					style: {fontSize: "12px", fontWeight: "normal", color: 'black'},
-					y: -10
-				}
-    		}
+			}
 		],
 		chart: {
 			events: {
@@ -213,7 +193,7 @@
 					
 					//configuration of categorical pie sizes
 					var pieSizeCatConfig = 
-					[
+				[
 						{
 							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; < 0,010',
 							from: 0,
