@@ -96,14 +96,12 @@
 
 	                var chart = this;
 	                var fn = this.options.customFunctions;
+	                //define new Highcharts template "mappie"
 					fn.defineTemplate();
 					
 					var choroplethSeries = chart.series[0];
 					var pieSizeSeries = chart.series[1];
 					
-					//get extreme values of pie Sizes
-					var pieSizeExtremes = fn.getPointsExtremes(pieSizeSeries.points);
-
 					//pie diameters in px
 					var maxPieDiameter = 20;
 					
@@ -130,9 +128,42 @@
 						}
 					];
 					
-
+					//define different colors for positive and negative values
+	                var color = function(value){
+	                	return (value >= 0) ? 'grey' : 'salmon';
+	                };					
 					
-					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSizeCatConfig);
+					//define chart-specific details
+					var pieSeriesConfig = function(data, wohnviertelSeries, color){
+						return {
+	                        sizeFormatter: function () {
+	                            var fn = this.chart.options.customFunctions;
+								//return fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
+								return fn.pieSizeCategorical(Math.abs(data.value), pieSizeCatConfig).diameter;
+	                        },
+	                        tooltip: {
+	                            pointFormatter: function () {
+	                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),3) + '</b><br/>';
+	                            }
+	                        },/*
+	                        data: [
+	                        	{
+	                        		name: pieSizeSeries.name,
+	                        		//put absolute value in y, real value in v
+	                        		y: Math.abs(data.value),
+	                        		v: data.value,
+	                        		color: color(data.value),
+	                        		borderColor: color(data.value)
+	                        	}
+	                        ],
+	                        dataLabels: {
+						        enabled: false
+						    }
+						    */
+	                    };
+					};
+					
+					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 					
 					//pie values in legend
 	                //var minValueInLegend = 0.001; //minAbsNumber;
