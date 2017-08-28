@@ -366,7 +366,7 @@
 			        chart.renderer.label('Abnahme', 310, 290).attr({
 			        	zIndex: 6,
 			        	class: 'pieLegend'
-			        }).add();sd
+			        }).add();
 
 					//Add click handler to bubbleLegend items
 					$('.pieLegend').click(function(){
