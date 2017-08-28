@@ -106,7 +106,7 @@
 					
 					//configuration of categorical pie sizes
 					var pieSizeCatConfig = 
-				[
+					[
 						{
 							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; < 0,010',
 							from: 0,
@@ -133,7 +133,7 @@
 	                };					
 					
 					//define chart-specific details
-					var pieSeriesConfig = function(data, wohnviertelSeries, color){
+					var pieSeriesConfig = function(data, correspondingMapSeriesItem, color){
 						return {
 	                        sizeFormatter: function () {
 	                            var fn = this.chart.options.customFunctions;
@@ -142,7 +142,7 @@
 	                        },
 	                        tooltip: {
 	                            pointFormatter: function () {
-	                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),3) + '</b><br/>';
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),3) + '</b><br/>';
 	                            }
 	                        },/*
 	                        data: [
