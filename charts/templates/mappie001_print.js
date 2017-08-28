@@ -240,6 +240,119 @@
 
     		    },
     		    
+				// Compute max and min value to find relative sizes of bubbles. 
+				getPointsExtremes: function(points){
+	                var maxNumber = Number.NEGATIVE_INFINITY;
+	                var maxAbsNumber = Number.NEGATIVE_INFINITY;
+	                var minNumber = Number.POSITIVE_INFINITY;
+	                var minAbsNumber = Number.POSITIVE_INFINITY;
+					Highcharts.each(points, function (point) {
+					    maxNumber = Math.max(maxNumber, point.value);
+					    maxAbsNumber = Math.max(maxAbsNumber, Math.abs(point.value));
+					    minNumber = Math.min(minNumber, point.value);
+					    minAbsNumber = Math.min(minAbsNumber, Math.abs(point.value));
+					});
+					return {
+					    maxNumber: maxNumber,
+					    maxAbsNumber: maxAbsNumber,
+					    minNumber: minNumber,
+					    minAbsNumber: minAbsNumber
+					};
+				},
+				    		    
+                drawPies: function(chart, pieSizeSeries, choroplethSeries, pieSizeCatConfig){
+                    
+					//define different colors for positive and negative values
+	                var color = function(value){
+	                	return (value >= 0) ? 'grey' : 'salmon';
+	                };					
+					
+					                    
+	                // Add the pies after chart load, optionally with offset and connectors
+	                // series[0] contains the choropleth map data, series[1] the pie chart data
+	                Highcharts.each(pieSizeSeries.points, function (data) {
+	                    if (!data.value) {
+	                        return; // Skip points with no data, if any
+	                    }
+
+	                	var wohnviertelSeries = choroplethSeries.points[data.index];
+	                	
+	                    var pieOffset = wohnviertelSeries.pieOffset || {},
+	                        centerLat = parseFloat(wohnviertelSeries.properties.lat),
+	                        centerLon = parseFloat(wohnviertelSeries.properties.lon);
+	                	
+						
+
+
+	                    var currentPieSeries = 
+	                    {
+	                        type: 'mappie',
+	                        //name: data.id,
+	                        name: data.series.name,
+	                        wohnviertel_Name: data["hc-key"],
+	                        wohnviertel_Id : wohnviertelSeries.wohnviertel_Id,
+	                        zIndex: 6, // Keep pies above connector lines
+	                        borderWidth: 1,
+	                        borderColor: color(data.value),
+	                        sizeFormatter: function () {
+	                            var fn = this.chart.options.customFunctions;
+								//return pieSize(data.value, maxAbsNumber, maxPieDiameter);
+								return fn.pieSizeCategorical(Math.abs(data.value), pieSizeCatConfig).diameter;
+	                        },
+	                        tooltip: {
+	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {series.name} </span><br/>',
+	                            pointFormatter: function () {
+	                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),3) + '</b><br/>';
+	                            }
+	                        },
+	                        data: [
+	                        	{
+	                        		name: pieSizeSeries.name,
+	                        		//put absolute value in y, real value in v
+	                        		y: Math.abs(data.value),
+	                        		v: data.value,
+	                        		color: color(data.value)
+	                        	}
+	                        ],
+	                        center: {
+	                            lat: centerLat + (pieOffset.lat || 0),
+	                            lon: centerLon + (pieOffset.lon || 0)
+	                        }, 
+	                        dataLabels: {
+						        enabled: false
+						    }
+	                    }
+	                    ;
+	                    
+	                    
+	                    // Add the pie for this wohnviertel
+	                    chart.addSeries(currentPieSeries, false);
+	                    
+	                    /*
+	                    // Draw connector to wohnviertel center if the pie has been offset
+	                    if (pieOffset.drawConnector !== false) {
+	                        var centerPoint = chart.fromLatLonToPoint({
+	                                lat: centerLat,
+	                                lon: centerLon
+	                            }),
+	                            offsetPoint = chart.fromLatLonToPoint({
+	                                lat: centerLat + (pieOffset.lat || 0),
+	                                lon: centerLon + (pieOffset.lon || 0)
+	                            });
+	                        pieSizeSeries.addPoint({
+	                            name: wohnviertel.id,
+	                            path: 'M' + offsetPoint.x + ' ' + offsetPoint.y +
+	                                'L' + centerPoint.x + ' ' + centerPoint.y
+	                        }, false);
+	                    }
+	                    */
+	                    
+	                    //console.log(chart.series[chart.series.length-1]);
+	                    
+	                });
+	                // Only redraw once all pies and connectors have been added
+	                chart.redraw();
+				},    		    
     		    
                 //helper functions for pie legend
     	        addLegendTitle: function(chart, title, x, y){
