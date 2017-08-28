@@ -43,7 +43,7 @@
 				"states": {
 					"hover": {
 						"enabled": false,
-						"borderColor": '#BADA55',
+						"borderColor": 68,
 						"brightness": 0
 					}
 				}, 
@@ -240,7 +240,8 @@
 						
 						//define different colors for positive and negative values
                         var color = function(){
-                        	return (data.value >= 0) ? 'grey' : 'salmon';
+                        	return (data.value >= 0) ? '#7F5F1A' : '#FABD24';
+                        	//return (data.value >= 0) ? 'yellow' : 'orange';
                         };
 
 	                    var currentPieSeries = 
@@ -349,7 +350,7 @@
 					}).add();
 				    chart.renderer.rect(290, 270, 10, 10, 0).attr({
 			            'stroke-width':0,
-			            fill: 'grey',
+			            fill: '#7F5F1A ',
 			            zIndex: 6,
 			            class: 'pieLegend'
 			        }).add();
@@ -359,7 +360,7 @@
 			        }).add();
 					chart.renderer.rect(290, 295, 10, 10, 0).attr({
 			            'stroke-width':0,
-			            fill: 'salmon',
+			            fill: '#FABD24',
 			            zIndex: 6,
 			            class: 'pieLegend'
 			        }).add();

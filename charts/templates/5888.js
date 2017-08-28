@@ -1,5 +1,4 @@
 /*  global rheinDataEPSG2056
-	global scalebarDataEPSG2056
 	global Highcharts
 	global geojson_wohnviertelEPSG2056
 	global $
@@ -16,17 +15,17 @@
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "right",
-			"x": -198,
+			"x": -185,
 			"y": 3,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
 			itemStyle: {
 				fontWeight: 'normal'
 				}
-			},
-	    colorAxis: {
+		},
+         colorAxis: {
             dataClassColor: 'category',
-            dataClasses: [{
+                   dataClasses: [{
                 to: 0.39,
                 color: '#D7E8D2',
                 name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;0,40"
@@ -107,7 +106,7 @@
 					
 					//configuration of categorical pie sizes
 					var pieSizeCatConfig = 
-					[
+				[
 						{
 							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; < 0,010',
 							from: 0,
@@ -130,7 +129,7 @@
 					
 					//define different colors for positive and negative values
 	                var color = function(value){
-	                	return (value >= 0) ? 'grey' : 'salmon';
+	                	return (value >= 0) ? '#7F5F1A' : '#FABD24';
 	                };					
 					
 					//define chart-specific details
@@ -170,7 +169,8 @@
 	                //var maxValueInLegend = 0.1; //maxAbsNumber;
 	                
 	                //Add manually drawn legend
-	                fn.addLegendTitle(chart, choroplethSeries.name, 350, 200);
+					
+	                fn.addLegendTitle(chart, choroplethSeries.name, 360, 200);
 	                fn.addLegendTitle(chart, pieSizeSeries.name, 460, 200);
 	                
 	                fn.addLegendCircle(chart, 473, 231, 0.5*pieSizeCatConfig[0].diameter, 'grey');
@@ -180,9 +180,9 @@
 	                fn.addLegendCircle(chart, 473, 265, 0.5*pieSizeCatConfig[2].diameter, 'grey');
 					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 485, 255, true);
 					
-					fn.addLegendSquare(chart, 565, 225, 10, 'grey');
+					fn.addLegendSquare(chart, 565, 225, 10, '#7F5F1A');
 					fn.addLegendLabel(chart, 'Zunahme', 580, 221);
-					fn.addLegendSquare(chart, 565, 241, 10, 'salmon');
+					fn.addLegendSquare(chart, 565, 241, 10, '#FABD24');
 					fn.addLegendLabel(chart, 'Abnahme', 580, 237);
 					
 					fn.AddPieLegendClickHandler(chart);
