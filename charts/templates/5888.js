@@ -144,32 +144,14 @@
 	                            pointFormatter: function () {
 	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),3) + '</b><br/>';
 	                            }
-	                        },/*
-	                        data: [
-	                        	{
-	                        		name: pieSizeSeries.name,
-	                        		//put absolute value in y, real value in v
-	                        		y: Math.abs(data.value),
-	                        		v: data.value,
-	                        		color: color(data.value),
-	                        		borderColor: color(data.value)
-	                        	}
-	                        ],
-	                        dataLabels: {
-						        enabled: false
-						    }
-						    */
+	                        }
 	                    };
 					};
 					
+					//put the pies / bubbles on the map
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
-					
-					//pie values in legend
-	                //var minValueInLegend = 0.001; //minAbsNumber;
-	                //var maxValueInLegend = 0.1; //maxAbsNumber;
-	                
+
 	                //Add manually drawn legend
-					
 	                fn.addLegendTitle(chart, choroplethSeries.name, 360, 200);
 	                fn.addLegendTitle(chart, pieSizeSeries.name, 460, 200);
 	                
@@ -185,8 +167,8 @@
 					fn.addLegendSquare(chart, 565, 241, 10, '#FABD24');
 					fn.addLegendLabel(chart, 'Abnahme', 580, 237);
 					
+					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
-
 	            }
 			}
 		}
