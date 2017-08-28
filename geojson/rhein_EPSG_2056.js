@@ -1,3 +1,7 @@
+/*
+    global Highcharts
+*/
+
 var geojson_rhein =
 {
     "name":"rhein","type":"FeatureCollection",
@@ -36,7 +40,8 @@ var geojson_scalebar =
             "type":"Feature",
             "geometry": {
                 "type":"LineString",
-                "coordinates":[[2609400,1264700],[2610400,1264700]]},
+                //"coordinates":[[2609400,1264700],[2610400,1264700]]},
+                "coordinates": [[2609400,1264800],[2609400,1264600],[2609400,1264700],[2610400,1264700],[2610400,1264800],[2610400,1264600]]},
                 "properties": {}
         }
     ]
