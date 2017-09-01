@@ -3607,7 +3607,7 @@
 						return '1 km';
 					},
         "style": {
-          "fontSize": "12px",
+          "fontSize": "10px",
           "fontWeight": "normal",
           "color": "black"
         },
@@ -3695,7 +3695,7 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 	                //Add manually drawn legend
-	                fn.addLegendTitle(chart, choroplethSeries.name, 360, 200);
+	                fn.addLegendTitle(chart, choroplethSeries.name, 372, 200);
 	                fn.addLegendTitle(chart, pieSizeSeries.name, 460, 200);
 	                
 	                fn.addLegendCircle(chart, 473, 231, 0.5*pieSizeCatConfig[0].diameter, 'grey');
@@ -3809,6 +3809,10 @@
     "enabled": true,
     "align": "right",
     "floating": true,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
     "title": {
       "style": {
         "fontWeight": " bold",
@@ -3821,10 +3825,7 @@
     "x": -185,
     "y": 3,
     "itemMarginBottom": 2,
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
+    "symbolRadius": 0
   },
   "exporting": {
     "allowHTML": true,
@@ -4055,7 +4056,7 @@
     "addLegendTitle": function (chart, title, x, y){
             		return chart.renderer.label(title, x, y)
          				.css({
-    	                    fontSize: '12px',
+    	                    fontSize: '10px',
     	                    fontWeight: 'bold'
     	                })
     	                .attr({
@@ -4073,7 +4074,11 @@
     				}).add();
                 },
     "addLegendLabel": function (chart, text, x, y, useHtml){
-    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
+    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
+					.css({
+	                    fontSize: '10px'
+	                })
+    				.attr({
     					zIndex: 6,
     					class: 'pieLegend'
     				}).add();
