@@ -38,33 +38,14 @@ files.forEach(function(filepath){
     }
 });
 console.log('Saving json databases...');
-saveToJsonFile('hashesBeforeBuild', 'tmp/', hashes, console);
+saveToJsonFile('hashesAfterBuild', 'all/', hashes, console);
 
 function saveToJsonFile(name, dir, obj, console){
     var jsonFile = JSON.stringify(obj, null, '\t');
-    fs.writeFile(dir +  name + '.json', jsonFile);
+    fs.writeFile('metadata/' + dir +  name + '.json', jsonFile);
 }
 
 
-
-var jsondiffpatch = require('jsondiffpatch');
-var hashesBeforeBuild = hashes;
-var hashesAfterBuild = {};
-try {
-    hashesAfterBuild = JSON.parse(fs.readFileSync('metadata/all/hashesAfterBuild.json'));
-}
-catch (err){
-    //no file present, ignore. 
-}
-
-var delta = jsondiffpatch.diff(hashesBeforeBuild, hashesAfterBuild);
-//only get the chart id from the diff file. Any changes in any of the hashes means the chart needs to be rebuilt
-//todo: handle deleted charts
-var chartsToBuild = Object.keys(delta || {});
-console.log('Charts to build: ');
-console.log(chartsToBuild);
-
-saveToJsonFile('chartsToBuild', 'tmp/', chartsToBuild, console);
 
 /*
 var hasher = require('folder-hash');
