@@ -73,6 +73,7 @@
     		"enabled": true, 
             "align": "right",
             "floating": true,
+            itemStyle: {fontSize: "10px"},
             "title": {
                 "style": {
                     "fontWeight": "normal", 
@@ -122,7 +123,7 @@
 					formatter: function(){
 						return '1 km';
 					}, 
-					style: {fontSize: "12px", fontWeight: "normal", color: 'black'},
+					style: {fontSize: "10px", fontWeight: "normal", color: 'black'},
 					y: -10
 				}
     		}
@@ -359,7 +360,7 @@
     	        addLegendTitle: function(chart, title, x, y){
             		return chart.renderer.label(title, x, y)
          				.css({
-    	                    fontSize: '12px',
+    	                    fontSize: '10px',
     	                    fontWeight: 'bold'
     	                })
     	                .attr({
@@ -380,7 +381,11 @@
     	                
     	                
                 addLegendLabel: function(chart, text, x, y, useHtml){
-    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
+    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
+					.css({
+	                    fontSize: '10px'
+	                })
+    				.attr({
     					zIndex: 6,
     					class: 'pieLegend'
     				}).add();
