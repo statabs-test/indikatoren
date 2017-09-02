@@ -11,9 +11,36 @@ views.forEach(function(view){
        filePaths.push('images/' + view + '/' + id + '.svg'); 
     });
 });
-console.log(filePaths);
+//console.log(filePaths);
 
 
+filePaths.forEach(filePath => {
+    //var filePath = 'images/portal/5125.svg';
+    
+    
+    fs.readFile(filePath, 'utf8', function(err, data) {
+        if (err) {
+            throw err;
+        }
+    
+        svgo = new SVGO({
+            full    : true,
+            plugins : [],
+            js2svg  : { pretty: true, indent: 2 }
+        });
+    
+        svgo.optimize(data, function(result) {
+            fs.writeFile(filePath, result.data, (err) => {
+              if (err) throw err;
+              console.log('Optimized file ' + filePath + '...');
+            });
+        });
+    
+    });
+});
+
+
+/*
 //working with promises: see https://stackoverflow.com/questions/31413749/node-js-promise-all-and-foreach
 
 var actions = filePaths.map(function(filePath){
@@ -27,3 +54,4 @@ results.then(svg => {
          fs.writeFileSync(path + indikator.id + '.svg', svgWithViewBox);
     }
 );
+*/
