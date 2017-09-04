@@ -41,6 +41,11 @@ console.log('Saving json databases...');
 saveToJsonFile('hashesBeforeBuild', 'tmp/', hashes, console);
 
 function saveToJsonFile(name, dir, obj, console){
+    //create directory of if nonexistent
+    if (!fs.existsSync(dir)){
+        fs.mkdirSync(dir);
+    }    
+    //write file
     var jsonFile = JSON.stringify(obj, null, '\t');
     fs.writeFile(dir +  name + '.json', jsonFile);
 }
