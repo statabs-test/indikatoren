@@ -9507,5 +9507,84 @@
 		"externalLinks": [
 			""
 		]
+	},
+	{
+		"title": "Steuerbelastung durch Reingewinn- und Kapitalsteuern für Kapitalgesellschaften und Genossenschaften",
+		"subtitle": "",
+		"kuerzel": "I.04.1.06130",
+		"kuerzelKunde": "2.2",
+		"description": "Steuerbelastung durch Reingewinn- und Kapitalsteuern für Kapitalgesellschaften und Genossenschaften",
+		"id": 6130,
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Volkseinkommen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Einkommen",
+			"Erwerbstätigkeit",
+			"Angestellte",
+			"Kantonsvergleich"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Werte sind in den letzten Jahren relativ konstant.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "08_00_00_00_00_001",
+		"parentId": 3169,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Eidgenössische Finanzverwaltung, Publikation"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Entwicklung der Staatsausgaben nach Funktion in Franken pro Kopf",
+		"subtitle": "",
+		"kuerzel": "I.04.1.06131",
+		"kuerzelKunde": "2.3",
+		"description": "Entwicklung der Staatsausgaben nach Funktion in Franken pro Kopf",
+		"id": 6131,
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Volkseinkommen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Steuer"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "08_00_00_00_00_001",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
 	}
 ]
