@@ -25,7 +25,10 @@ filePaths.forEach(filePath => {
     
         svgo = new SVGO({
             full    : true,
-            plugins : [],
+            plugins : 
+                [
+                    'cleanupIDs'
+                ],
             js2svg  : { pretty: true, indent: 2 }
         });
     
