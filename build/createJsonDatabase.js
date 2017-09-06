@@ -1,6 +1,5 @@
 var fs = require("fs");
 var glob = require("glob");
-var hashFiles = require('hash-files');
 var indikatoren = [];
 var indikatorenInSet = [];
 var kuerzelById = {};
@@ -18,7 +17,7 @@ files.forEach(function(filepath){
     if (indikator.visible == undefined || indikator.visible == true) {
         console.log(filepath + ' is visible, proceeding with adding...');
         if (indikator.visibleInPortal == undefined || indikator.visibleInPortal == true) {
-            console.log(filepath + ' is visibleInPortal, proceeding with adding to portal/indikatoren.json, all/indikatoren.json, all/hashesAfterBuild.json...');
+            console.log(filepath + ' is visibleInPortal, proceeding with adding to portal/indikatoren.json, all/indikatoren.json...');
             indikatoren.push(indikator);
             indikatorenInSet.push(indikator);
         }
@@ -48,10 +47,6 @@ saveToJsFile('templatesById', 'all/',templatesById, console);
 
 //console.log('...done!');
 
-function createFiles(name, dir, obj, console){
-    saveToJsFile(name, dir, obj, console);
-    saveToJsonFile(name, dir, obj, console);
-}
 
 function saveToJsFile(name, dir, obj, console){
     var jsFile = "var " +  name + " = " + JSON.stringify(obj, null, '\t') + ";";
