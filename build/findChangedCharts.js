@@ -1,57 +1,13 @@
 var fs = require("fs");
-var glob = require("glob");
-var hashFiles = require('hash-files');
+var buildFileHashes = require('./buildFileHashes.js');
 
-var hashes = {};
-/*
-var filePathsToCheck = {
-	chartConfig: 'charts/templates/', 
-	data: 'data/', 
-	'configs/portal': 'configs/portal/', 
-	template: 'charts/templates/'
-};
-*/
-console.log('Searching for json files to add to hashesAfterBuild.json...');
-var files = glob.sync("metadata/single/*.json");
-files.forEach(function(filepath){
-    var fileContents = fs.readFileSync(filepath);
-    //strip whitespace from start of file and save file
-    var fileContentsStripped = fileContents.slice(fileContents.indexOf('{'));
-    fs.writeFileSync(filepath, fileContentsStripped);
-    var indikator = JSON.parse(fileContentsStripped);
-    if (indikator.visible == undefined || indikator.visible == true) {
-        //console.log(filepath + ' is visible, proceeding with adding...');
-        if (indikator.visibleInPortal == undefined || indikator.visibleInPortal == true) {
-            //console.log(filepath + ' is visibleInPortal, proceeding with adding to all/hashesAfterBuild.json...');
-            hashes[indikator.id] = {metadata: hashFiles.sync({files: filepath})};
-            hashes[indikator.id]['chartConfig'] = hashFiles.sync({files: 'charts/templates/' + indikator.id + '.js'});
-            hashes[indikator.id]['data'] = hashFiles.sync({files: 'data/' + indikator.id + '.tsv'});
-            hashes[indikator.id]['configs/portal'] = hashFiles.sync({files: 'configs/portal/' + indikator.id + '.json'});
-            hashes[indikator.id]['template'] = hashFiles.sync({files: 'charts/templates/' + indikator.template + '.js'});
-        }
-        else {
-            //console.log(filepath + ' is NOT visibleInPortal, ignoring for all/hashesAfterBuild.json');
-        } 
-    }
-    else {
-        console.log(filepath + ' NOT visible, ignoring');
-    }
-});
-console.log('Saving json databases...');
-saveToJsonFile('hashesBeforeBuild', 'tmp/', hashes, console);
+console.log('Searching for json files to add to hashesBeforeBuild.json...');
+var hashes = buildFileHashes.getChartsHashes('metadata/single/*.json');
 
-function saveToJsonFile(name, dir, obj, console){
-    //create directory of if nonexistent
-    if (!fs.existsSync(dir)){
-        fs.mkdirSync(dir);
-    }    
-    //write file
-    var jsonFile = JSON.stringify(obj, null, '\t');
-    fs.writeFile(dir +  name + '.json', jsonFile);
-}
+console.log('Saving hash database...');
+buildFileHashes.saveToJsonFile('hashesBeforeBuild', 'tmp/', hashes, console);
 
-
-
+console.log('Comparing tmp/hashesBeforeBuild.json with metadata/all/hashesAfterBuild.json...');
 var jsondiffpatch = require('jsondiffpatch');
 var hashesBeforeBuild = hashes;
 var hashesAfterBuild = {};
@@ -60,7 +16,7 @@ try {
 }
 catch (err){
     console.log('No hash file present, building all charts...');
-    //no file present, ignore. 
+    //no file present, ignore error and go on
 }
 
 var delta = jsondiffpatch.diff(hashesBeforeBuild, hashesAfterBuild);
@@ -68,40 +24,7 @@ var delta = jsondiffpatch.diff(hashesBeforeBuild, hashesAfterBuild);
 //todo: handle deleted charts
 var chartsToBuild = Object.keys(delta || {});
 console.log('Charts to build: ');
-console.log(chartsToBuild);
+console.log(JSON.stringify(chartsToBuild));
 
-saveToJsonFile('chartsToBuild', 'tmp/', chartsToBuild, console);
-
-/*
-var hasher = require('folder-hash');
-var fs = require("fs");
-
-//exclude dotFiles
-var options = { 
-    excludes: ['.*'], 
-    match: { 
-        basename: true, 
-        path: false 
-    } 
-};
-
-var dirNames = [
-    'metadata/single',
-    'charts/templates',
-    'data'
-    ];
-
-//working with promises: see https://stackoverflow.com/questions/31413749/node-js-promise-all-and-foreach
-
-var actions = dirNames.map(function(dirName){
-    return hasher.hashElement(dirName, options);
-});
-
-var results = Promise.all(actions);
-
-results.then(hash => {
-        //console.log(data.toString()); 
-        fs.writeFileSync('build/hashesAfterBuild.json', JSON.stringify(hash, null, '\t'));
-    }
-);
-*/
+console.log('Saving tmp/chartsToBuild.json...');
+buildFileHashes.saveToJsonFile('chartsToBuild', 'tmp/', chartsToBuild, console);

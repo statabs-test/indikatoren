@@ -14,7 +14,6 @@
   "devDependencies": {
     "casperjs": "1.1.4",
     "copy-node-modules": "1.0.2",
-    "folder-hash": "1.1.1",
     "forever": "0.15.3",
     "gh-pages-travis": "1.0.0",
     "glob": "7.1.1",
