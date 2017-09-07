@@ -9586,5 +9586,84 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		]
+	},
+	{
+		"title": "Summe der Steuereinnahmen natürlicher und juristischer Personen in Mio. Franken",
+		"subtitle": "",
+		"kuerzel": "I.04.1.06132",
+		"kuerzelKunde": "2.4",
+		"description": "Summe der Steuereinnahmen natürlicher und juristischer Personen in Mio. Franken",
+		"id": 6132,
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Volkseinkommen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Steuer"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Folgen der Finanz- und Wirtschaftskrise, die 2008 begann,<br>wurden vor allem bei der Gewinn- und Kapitalsteuer deutlich. Die<br>Steuereinnahmen aus Einkommens- und Vermögenssteuer<br>betrugen 2015 rund 1,86 Mrd. Franken.",
+		"erlaeuterungen": "Steuereinnahmen gemäss Jahresrechung des Kantons Basel-Stadt; direkte Steuern natürlicher und juristischer Personen. Im Gegensatz zur Steuerstatistik auf das Kalenderjahr bezogen, nicht auf das Steuerjahr.",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "08_00_00_00_00_001",
+		"parentId": 5162,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Jahresbericht des Kantons Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Beurteilung der kantonalen Steuern",
+		"subtitle": "«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen, wie sie heute sind?»",
+		"kuerzel": "I.50.1.06133",
+		"kuerzelKunde": "2.5",
+		"description": "Beurteilung der kantonalen Steuern",
+		"id": 6133,
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Verwaltung",
+			"Beurteilung"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2015 gaben mit 56,4% mehr als die Hälfte der Befragten an, dass die kantonalen Steuern und Gebühren beibehalten werden sollten. Dieser Anteil fällt im Vergleich zu den Vorjahren deutlich höher aus (2011: 45,6%, 2007: 30,0%).",
+		"erlaeuterungen": "",
+		"template": "befragungenProzent001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "08_00_00_00_00_001",
+		"parentId": 4860,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F8"
+		],
+		"externalLinks": [
+			""
+		]
 	}
 ];

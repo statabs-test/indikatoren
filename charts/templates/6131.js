@@ -14,31 +14,41 @@
   },
  "series": [
 	{"color": "#256370",
-  "visible": true}, /*blau*/
+  index: 10}, /*blau*/
 	{"color": "#a8c4cb",
-  "visible": true}, /*hellblau*/
+  index: 9}, /*hellblau*/
 	{"color": "#ffbb58",
-  "visible": true}, /*hellorange*/
+  index: 8}, /*hellorange*/
 	{"color": "#b475ab",
-  "visible": true}, /*hellviolett*/
+  index: 7}, /*hellviolett*/
 	{"color": "#44ab2b",
-  "visible": true}, /*grün*/
+  index: 6}, /*grün*/
   {"color": "#007a2f",
-  "visible": true},  /*dunkelgrün*/
+  index: 5},  /*dunkelgrün*/
 	{"color": "#672773",
-  "visible": true}, /*violett*/
+  index: 4}, /*violett*/
 	{"color": "#b00000",
-  "visible": true}, /*rot*/
+  index: 3}, /*rot*/
 	{"color": "#ff8028",
-  "visible": true}, /*orange*/
+  index: 2}, /*orange*/
 	{"color": "#cd9c00",
-  "visible": true}, /*hellbraun*/
+  index: 1}, /*hellbraun*/
+      {
+	  "color": "#E6E6E6",
+	  "index": 0,
+      "legendIndex": 12,
+      "type": "column",
+      "borderWidth": 0,
+      /*"tooltip": {
+    		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+       }*/
+    }, // Blau
   ],
   "legend": {
     "enabled": true,
     "x": 45,
     "y": 35,
-    "itemWidth": 200,
+    "itemWidth": 208,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,

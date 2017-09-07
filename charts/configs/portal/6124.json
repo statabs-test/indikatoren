@@ -1,0 +1,381 @@
+{
+  "series": [
+    {
+      "color": "#B00000",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          1995,
+          93941
+        ],
+        [
+          1996,
+          93190
+        ],
+        [
+          1997,
+          92806
+        ],
+        [
+          1998,
+          96580
+        ],
+        [
+          1999,
+          99949
+        ],
+        [
+          2000,
+          108732
+        ],
+        [
+          2001,
+          117003
+        ],
+        [
+          2002,
+          122215
+        ],
+        [
+          2003,
+          126749
+        ],
+        [
+          2004,
+          133584
+        ],
+        [
+          2005,
+          138943
+        ],
+        [
+          2006,
+          149011
+        ],
+        [
+          2007,
+          159191
+        ],
+        [
+          2008,
+          162461
+        ],
+        [
+          2009,
+          159597
+        ],
+        [
+          2010,
+          160586
+        ],
+        [
+          2011,
+          167039
+        ],
+        [
+          2012,
+          167043
+        ],
+        [
+          2013,
+          166449
+        ],
+        [
+          2014,
+          167953
+        ]
+      ],
+      "name": "Kanton Basel-Stadt"
+    },
+    {
+      "color": "#007A2F",
+      "visible": true,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          1995,
+          76840
+        ],
+        [
+          1996,
+          77829
+        ],
+        [
+          1997,
+          81069
+        ],
+        [
+          1998,
+          82931
+        ],
+        [
+          1999,
+          83628
+        ],
+        [
+          2000,
+          87539
+        ],
+        [
+          2001,
+          86522
+        ],
+        [
+          2002,
+          84903
+        ],
+        [
+          2003,
+          84543
+        ],
+        [
+          2004,
+          86777
+        ],
+        [
+          2005,
+          90665
+        ],
+        [
+          2006,
+          96440
+        ],
+        [
+          2007,
+          103375
+        ],
+        [
+          2008,
+          106149
+        ],
+        [
+          2009,
+          101529
+        ],
+        [
+          2010,
+          103471
+        ],
+        [
+          2011,
+          102464
+        ],
+        [
+          2012,
+          103246
+        ],
+        [
+          2013,
+          103650
+        ],
+        [
+          2014,
+          103840
+        ]
+      ],
+      "name": "Kanton Genf"
+    },
+    {
+      "color": "#4f81bd",
+      "visible": true,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          1995,
+          72502
+        ],
+        [
+          1996,
+          74352
+        ],
+        [
+          1997,
+          77348
+        ],
+        [
+          1998,
+          80432
+        ],
+        [
+          1999,
+          82379
+        ],
+        [
+          2000,
+          87516
+        ],
+        [
+          2001,
+          86950
+        ],
+        [
+          2002,
+          84545
+        ],
+        [
+          2003,
+          84658
+        ],
+        [
+          2004,
+          86054
+        ],
+        [
+          2005,
+          88124
+        ],
+        [
+          2006,
+          93468
+        ],
+        [
+          2007,
+          99631
+        ],
+        [
+          2008,
+          100196
+        ],
+        [
+          2009,
+          96349
+        ],
+        [
+          2010,
+          96042
+        ],
+        [
+          2011,
+          96649
+        ],
+        [
+          2012,
+          96654
+        ],
+        [
+          2013,
+          97360
+        ],
+        [
+          2014,
+          96776
+        ]
+      ],
+      "name": "Kanton Zürich"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-6124"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Bruttoinlandprodukt in Franken pro Einwohner, nach Kanton (BS, ZH, GE)"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "xAxis": {
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 3
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: BAK Basel Economics"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "x": 45,
+    "y": 35,
+    "itemWidth": 300,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "filename": "I.04.1.06124"
+  }
+}
