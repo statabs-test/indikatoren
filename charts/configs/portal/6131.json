@@ -2,7 +2,7 @@
   "series": [
     {
       "color": "#256370",
-      "visible": true,
+      "index": 10,
       "data": [
         [
           2000,
@@ -65,7 +65,7 @@
     },
     {
       "color": "#a8c4cb",
-      "visible": true,
+      "index": 9,
       "data": [
         [
           2000,
@@ -124,11 +124,11 @@
           419097
         ]
       ],
-      "name": "Öffentliche Ordnung und Sicherheit"
+      "name": "Öffentliche Ordnung & Sicherheit"
     },
     {
       "color": "#ffbb58",
-      "visible": true,
+      "index": 8,
       "data": [
         [
           2000,
@@ -191,7 +191,7 @@
     },
     {
       "color": "#b475ab",
-      "visible": true,
+      "index": 7,
       "data": [
         [
           2000,
@@ -250,11 +250,11 @@
           251703
         ]
       ],
-      "name": "Kultur, Sport und Freizeit, Kirche"
+      "name": "Kultur, Sport & Freizeit, Kirche"
     },
     {
       "color": "#44ab2b",
-      "visible": true,
+      "index": 6,
       "data": [
         [
           2000,
@@ -317,7 +317,7 @@
     },
     {
       "color": "#007a2f",
-      "visible": true,
+      "index": 5,
       "data": [
         [
           2000,
@@ -380,7 +380,7 @@
     },
     {
       "color": "#672773",
-      "visible": true,
+      "index": 4,
       "data": [
         [
           2000,
@@ -443,7 +443,7 @@
     },
     {
       "color": "#b00000",
-      "visible": true,
+      "index": 3,
       "data": [
         [
           2000,
@@ -502,11 +502,11 @@
           85641
         ]
       ],
-      "name": "Umweltschutz und Raumordnung"
+      "name": "Umweltschutz & Raumordnung"
     },
     {
       "color": "#ff8028",
-      "visible": true,
+      "index": 2,
       "data": [
         [
           2000,
@@ -569,7 +569,7 @@
     },
     {
       "color": "#cd9c00",
-      "visible": true,
+      "index": 1,
       "data": [
         [
           2000,
@@ -629,6 +629,72 @@
         ]
       ],
       "name": "Finanzen und Steuern"
+    },
+    {
+      "color": "#E6E6E6",
+      "index": 0,
+      "legendIndex": 12,
+      "type": "column",
+      "borderWidth": 0,
+      "data": [
+        [
+          2000,
+          3690774
+        ],
+        [
+          2001,
+          4048285
+        ],
+        [
+          2002,
+          3917186
+        ],
+        [
+          2003,
+          3925082
+        ],
+        [
+          2004,
+          3857149
+        ],
+        [
+          2005,
+          4015587
+        ],
+        [
+          2006,
+          4041603
+        ],
+        [
+          2007,
+          5145527
+        ],
+        [
+          2008,
+          4394207
+        ],
+        [
+          2009,
+          3854858
+        ],
+        [
+          2010,
+          4323939
+        ],
+        [
+          2011,
+          4110465
+        ],
+        [
+          2012,
+          4509177
+        ],
+        [
+          2013,
+          4542233
+        ]
+      ],
+      "name": "Total"
     }
   ],
   "chart": {
@@ -721,7 +787,7 @@
     "symbolRadius": 0,
     "x": 45,
     "y": 35,
-    "itemWidth": 200,
+    "itemWidth": 208,
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"

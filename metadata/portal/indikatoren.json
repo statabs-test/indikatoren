@@ -5460,5 +5460,48 @@
 		"externalLinks": [
 			""
 		]
+	},
+	{
+		"title": "Entwicklung der Staatsausgaben nach Funktion in Franken pro Kopf",
+		"subtitle": "",
+		"kuerzel": "I.04.1.06184",
+		"kuerzelKunde": "11.5",
+		"description": "Entwicklung der Staatsausgaben nach Funktion in Franken pro Kopf",
+		"id": 6184,
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Volkseinkommen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Einkommen",
+			"Staatspersonal",
+			"Angestellte",
+			"Konsum",
+			"Schulden"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Gesamtausgaben pro Kopf stiegen von 20 817 Fr. im Jahr 2003 auf 23 335 Fr. im Jahr 2013. Der höchste Wert wird mit 7 068 Fr. pro<br>Kopf für den Bereich Bildung notiert, auf den weiteren Rängen folgen Soziale Sicherheit, Gesundheit und Öffentliche Ordnung und<br>Sicherheit. Der Anstieg der Ausgaben beim Posten",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Eidgenössische Finanzverwaltung"
+		],
+		"externalLinks": [
+			""
+		]
 	}
 ]

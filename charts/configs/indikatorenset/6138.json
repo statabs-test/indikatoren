@@ -3,6 +3,7 @@
     {
       "color": "#256370",
       "index": 10,
+      "visible": false,
       "data": [
         [
           2000,
@@ -66,6 +67,7 @@
     {
       "color": "#a8c4cb",
       "index": 9,
+      "visible": false,
       "data": [
         [
           2000,
@@ -129,6 +131,7 @@
     {
       "color": "#ffbb58",
       "index": 8,
+      "visible": false,
       "data": [
         [
           2000,
@@ -192,6 +195,7 @@
     {
       "color": "#b475ab",
       "index": 7,
+      "visible": false,
       "data": [
         [
           2000,
@@ -255,6 +259,7 @@
     {
       "color": "#44ab2b",
       "index": 6,
+      "visible": false,
       "data": [
         [
           2000,
@@ -318,6 +323,7 @@
     {
       "color": "#007a2f",
       "index": 5,
+      "visible": false,
       "data": [
         [
           2000,
@@ -381,6 +387,7 @@
     {
       "color": "#672773",
       "index": 4,
+      "visible": false,
       "data": [
         [
           2000,
@@ -444,6 +451,7 @@
     {
       "color": "#b00000",
       "index": 3,
+      "visible": false,
       "data": [
         [
           2000,
@@ -507,6 +515,7 @@
     {
       "color": "#ff8028",
       "index": 2,
+      "visible": false,
       "data": [
         [
           2000,
@@ -570,6 +579,7 @@
     {
       "color": "#cd9c00",
       "index": 1,
+      "visible": false,
       "data": [
         [
           2000,
@@ -713,7 +723,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-6131"
+    "renderTo": "container-6138"
   },
   "title": {
     "style": {
@@ -722,7 +732,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Entwicklung der Staatsausgaben nach Funktion in Franken pro Kopf"
+    "text": " Entwicklung der Staatsausgaben nach Funktion in Franken pro Kopf"
   },
   "subtitle": {
     "style": {
@@ -775,9 +785,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: "
+    "text": "Quelle: Eidgenössische Finanzverwaltung"
   },
   "legend": {
     "enabled": true,
@@ -803,6 +813,6 @@
     }
   },
   "exporting": {
-    "filename": "I.04.1.06131"
+    "filename": "I.04.1.06138"
   }
 }

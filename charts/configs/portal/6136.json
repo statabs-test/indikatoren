@@ -1,0 +1,564 @@
+{
+  "series": [
+    {
+      "color": "#cd9c00",
+      "visible": true,
+      "data": [
+        [
+          "weibl.",
+          11.6
+        ],
+        [
+          "männl.",
+          6.4
+        ],
+        [
+          "Schw.",
+          8.6
+        ],
+        [
+          "Ausl.",
+          14.5
+        ],
+        [
+          "18-29",
+          14.4
+        ],
+        [
+          "30-39",
+          4.2
+        ],
+        [
+          "40-49",
+          8
+        ],
+        [
+          "50-59",
+          6.2
+        ],
+        [
+          "60-69",
+          5.1
+        ],
+        [
+          "70 u.m.",
+          14.2
+        ]
+      ],
+      "name": "Oblig. Schule",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#9f7c5a",
+      "visible": true,
+      "data": [
+        [
+          "weibl.",
+          1.2
+        ],
+        [
+          "männl.",
+          0.6
+        ],
+        [
+          "Schw.",
+          1
+        ],
+        [
+          "Ausl.",
+          0.6
+        ],
+        [
+          "18-29",
+          3.1
+        ],
+        [
+          "30-39",
+          0.8
+        ],
+        [
+          "40-49",
+          1.1
+        ],
+        [
+          "50-59",
+          "–"
+        ],
+        [
+          "60-69",
+          0.3
+        ],
+        [
+          "70 u.m.",
+          1.4
+        ]
+      ],
+      "name": "Berufsvorb. Schule",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b00000",
+      "visible": true,
+      "data": [
+        [
+          "weibl.",
+          40
+        ],
+        [
+          "männl.",
+          36.3
+        ],
+        [
+          "Schw.",
+          39.5
+        ],
+        [
+          "Ausl.",
+          28.9
+        ],
+        [
+          "18-29",
+          22.7
+        ],
+        [
+          "30-39",
+          29.2
+        ],
+        [
+          "40-49",
+          26.4
+        ],
+        [
+          "50-59",
+          31.1
+        ],
+        [
+          "60-69",
+          41.9
+        ],
+        [
+          "70 u.m.",
+          49
+        ]
+      ],
+      "name": "Berufslehre",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#45381d",
+      "visible": true,
+      "data": [
+        [
+          "weibl.",
+          1.1
+        ],
+        [
+          "männl.",
+          1.7
+        ],
+        [
+          "Schw.",
+          1.4
+        ],
+        [
+          "Ausl.",
+          1.7
+        ],
+        [
+          "18-29",
+          1
+        ],
+        [
+          "30-39",
+          3.3
+        ],
+        [
+          "40-49",
+          1.7
+        ],
+        [
+          "50-59",
+          1.8
+        ],
+        [
+          "60-69",
+          0.6
+        ],
+        [
+          "70 u.m.",
+          1.2
+        ]
+      ],
+      "name": "DMS",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#77933c",
+      "visible": true,
+      "data": [
+        [
+          "weibl.",
+          6.5
+        ],
+        [
+          "männl.",
+          7.1
+        ],
+        [
+          "Schw.",
+          6.7
+        ],
+        [
+          "Ausl.",
+          7.5
+        ],
+        [
+          "18-29",
+          37.1
+        ],
+        [
+          "30-39",
+          7.5
+        ],
+        [
+          "40-49",
+          5.7
+        ],
+        [
+          "50-59",
+          4.4
+        ],
+        [
+          "60-69",
+          4.5
+        ],
+        [
+          "70 u.m.",
+          3.9
+        ]
+      ],
+      "name": "Matura",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#9f7c5a",
+      "visible": true,
+      "data": [
+        [
+          "weibl.",
+          3.4
+        ],
+        [
+          "männl.",
+          0.7
+        ],
+        [
+          "Schw.",
+          2.4
+        ],
+        [
+          "Ausl.",
+          0.6
+        ],
+        [
+          "18-29",
+          "–"
+        ],
+        [
+          "30-39",
+          "–"
+        ],
+        [
+          "40-49",
+          1.1
+        ],
+        [
+          "50-59",
+          4
+        ],
+        [
+          "60-69",
+          2.4
+        ],
+        [
+          "70 u.m.",
+          2.4
+        ]
+      ],
+      "name": "Seminar",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b00000",
+      "visible": true,
+      "data": [
+        [
+          "weibl.",
+          17.8
+        ],
+        [
+          "männl.",
+          19.3
+        ],
+        [
+          "Schw.",
+          19.1
+        ],
+        [
+          "Ausl.",
+          13.9
+        ],
+        [
+          "18-29",
+          9.3
+        ],
+        [
+          "30-39",
+          19.2
+        ],
+        [
+          "40-49",
+          24.7
+        ],
+        [
+          "50-59",
+          24.2
+        ],
+        [
+          "60-69",
+          20.4
+        ],
+        [
+          "70 u.m.",
+          13.8
+        ]
+      ],
+      "name": "Höhere Fachschule",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#45381d",
+      "visible": true,
+      "data": [
+        [
+          "weibl.",
+          17.8
+        ],
+        [
+          "männl.",
+          27
+        ],
+        [
+          "Schw.",
+          20.7
+        ],
+        [
+          "Ausl.",
+          32.4
+        ],
+        [
+          "18-29",
+          12.4
+        ],
+        [
+          "30-39",
+          35
+        ],
+        [
+          "40-49",
+          30.5
+        ],
+        [
+          "50-59",
+          27.8
+        ],
+        [
+          "60-69",
+          24
+        ],
+        [
+          "70 u.m.",
+          13.6
+        ]
+      ],
+      "name": "Universität",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#77933c",
+      "visible": true,
+      "data": [
+        [
+          "weibl.",
+          0.4
+        ],
+        [
+          "männl.",
+          0.6
+        ],
+        [
+          "Schw.",
+          0.5
+        ],
+        [
+          "Ausl.",
+          "–"
+        ],
+        [
+          "18-29",
+          "–"
+        ],
+        [
+          "30-39",
+          0.8
+        ],
+        [
+          "40-49",
+          0.6
+        ],
+        [
+          "50-59",
+          0.4
+        ],
+        [
+          "60-69",
+          0.3
+        ],
+        [
+          "70 u.m.",
+          0.6
+        ]
+      ],
+      "name": "Andere Ausbildung",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickColor": "#FFFFFF"
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {}
+                }
+    },
+    "type": "column",
+    "inverted": false,
+    "renderTo": "container-6136"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 0,
+      "borderWidth": 0
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Höchste abgeschlossene Ausbildung nach Geschlecht, Herkunft und Altersgruppe"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "yAxis": {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    },
+    "max": 100
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -5
+    },
+    "text": "Quelle: "
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "x": 35,
+    "y": 65,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "formatter": function (args){
+      var seriesName = this.series.name;
+      //get corresponding series by name: series 2015-N corresponds to series 2015, etc.
+      var correspondingNSeries = this.series.chart.series.filter(function(element, index, array){
+          return element.name == seriesName + '_n';
+      })[0];
+      var n = correspondingNSeries.yData[this.x];
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 1, ",", " ") + '%</b> (n=' + n + ')<br/>';
+    },
+    "shared": false
+  },
+  "exporting": {
+    "filename": "I.15.6.06136"
+  }
+}
