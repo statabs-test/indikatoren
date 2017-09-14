@@ -24,16 +24,14 @@
         "data": {
 		    "seriesMapping": [
 		      {
-		      	x: 0, 
-		      	y: 2
+		      	x: 0, y: 2
 		      },
 		      {
 		      	//2nd series: use y values from column 3
-		      	x: 0,
 		      	y: 3
 		      },
-			  {
-			  	x: 0,
+		      {
+		      	x: 0, 
 		      	y: 4
 		      }
 		    ]
@@ -61,8 +59,7 @@
 				}
 			}, 
 			{
-				visible: false, 
-				//type: 'line'
+				"visible": false
 			}, 
 			{
 				visible: false,
@@ -74,10 +71,7 @@
 	            load: function (e) {
 	            	
 	            	this.credits.element.onclick = function() {};
-	            	
-					//return null;
-					
-					
+
 	                var chart = this;
 	                var fn = this.options.customFunctions;
 	                //define new Highcharts template "mappie"
@@ -112,9 +106,8 @@
 	                    };
 					};
 					 var pieSizeCatConfig;
-					 var pieDataSeries;
 					//put the pies / bubbles on the map
-					fn.drawPies(chart, pieSizeSeries, pieDataSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
+					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 	                
 					//pie values in legend
 	                var minValueInLegend = 0.001; 
