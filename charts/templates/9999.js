@@ -33,6 +33,10 @@
 		      {
 		      	x: 0, 
 		      	y: 4
+		      },
+		      {
+		      	x: 0, 
+		      	y: 5
 		      }
 		    ]
         },
@@ -63,7 +67,16 @@
 			}, 
 			{
 				visible: false,
-				type: 'line'
+				type: 'pie',
+				color: 'red',
+				borderColor: 'red'
+
+			}, 
+			{
+				visible: false,
+				type: 'pie',
+        		color: 'blue',
+        		borderColor: 'blue'
 			}
 		],
 		chart: {
@@ -79,17 +92,13 @@
 					
 					var choroplethSeries = chart.series[0];
 					var pieSizeSeries = chart.series[1];
-					
+					var pieSeries = [chart.series[2], chart.series[3]];
+
 					//pie diameters in px
 					var maxPieDiameter = 22;
 
 					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
-					
-					//define different colors for positive and negative values
-	                var color = function(value){
-	                	return (value >= 0) ? '#7F5F1A' : '#FABD24';
-	                };					
-					
+
 					//define chart-specific details
 					var pieSeriesConfig = function(data, correspondingMapSeriesItem, color){
 						return {
@@ -99,15 +108,16 @@
 								//return fn.pieSizeCategorical(Math.abs(data.value), pieSizeCatConfig).diameter;
 	                        },
 	                        tooltip: {
+	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {point.key} </span><br/>',
 	                            pointFormatter: function () {
 	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),3) + '</b><br/>';
 	                            }
-	                        }
+	                        },
 	                    };
 					};
-					 var pieSizeCatConfig;
+					var pieSizeCatConfig;
 					//put the pies / bubbles on the map
-					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
+					fn.drawPies(chart, pieSizeSeries, pieSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig);
 	                
 					//pie values in legend
 	                var minValueInLegend = 0.001; 
@@ -121,10 +131,10 @@
 	                fn.addLegendCircle(chart, 410, 300, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),2,"."," "), 430, 290);
 
-					fn.addLegendSquare(chart, 290, 270, 10, '#7F5F1A');
-					fn.addLegendLabel(chart, 'Zunahme', 310, 265);
-					fn.addLegendSquare(chart, 290, 295, 10, '#FABD24');
-					fn.addLegendLabel(chart, 'Abnahme', 310, 290);
+					fn.addLegendSquare(chart, 290, 270, 10, 'red');
+					fn.addLegendLabel(chart, 'Benzin', 310, 265);
+					fn.addLegendSquare(chart, 290, 295, 10, 'blue');
+					fn.addLegendLabel(chart, 'Diesel', 310, 290);
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
