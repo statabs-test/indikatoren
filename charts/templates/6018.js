@@ -49,19 +49,27 @@
 		series: [
             {
               color: "#B00000", // rot
-              borderWidth: 0,
-              pointWidth: 15
+              //borderWidth: 0,
+              //pointWidth: 15
             }, 
             {
               color: "#008AC3", //blau
-              borderWidth: 0,
-              pointWidth: 15
+              //borderWidth: 0,
+              //pointWidth: 15
             },
              {
-              color: "#000000", //blau
-              borderWidth: 0,
-              pointWidth: 15
+              color: "#000000", //schwarz
+              //borderWidth: 0,
+              //pointWidth: 15
             }
-	    ]
+	    ],
+ plotOptions: {
+        series: {
+            pointPadding: 0,
+            borderWidth: 0,
+            pointWidth: 16
+        }
+   },
+
 	};
 }());
