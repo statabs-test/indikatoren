@@ -9874,6 +9874,169 @@ var indikatoren = [
 		]
 	},
 	{
+		"title": "Anteil der Beschäftigten in innovativen Branchen an der gesamten Beschäftigung (Vollzeitäquivalente)",
+		"subtitle": "",
+		"kuerzel": "I.03.2.06141",
+		"kuerzelKunde": "3.7",
+		"description": "Anteil der Beschäftigten in innovativen Branchen an der gesamten Beschäftigung (Vollzeitäquivalente)",
+		"id": 6141,
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Beschäftigte ",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Arbeit",
+			"Erwerbstätigkeit",
+			"Branche"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Insgesamt waren 2013 rund 16% der Beschäftigten (in<br>Vollzeitäquivalenten) in Basel-Stadt in innovativen Branchen tätig,<br>der Grossteil davon in Industriebranchen.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 6048,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik, Betriebszählung, STATENT"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Bevölkerungsbestand am Jahresende",
+		"subtitle": "",
+		"kuerzel": "I.01.1.06143",
+		"kuerzelKunde": "4.1",
+		"description": "Bevölkerungsbestand am Jahresende",
+		"id": 6143,
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur ",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Bevölkerung"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die schweizerische Bevölkerung nahm von 1997 bis 2016 von gut 142 000 auf etwas 127 000 Personen ab. Dies entspricht einem Rückgang um rund 10%. Die ausländische Bevölkerung nahm im gleichen Zeitraum von knapp 52 000 auf leicht unter 71 000 Personen zu, was einem Zuwachs um 36% gleichkommt.",
+		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister.",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 5870,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Vereinbarkeit von Familie und Beruf nach Heimat, Alter und Geschlecht",
+		"subtitle": "",
+		"kuerzel": "I.01.1.06145",
+		"kuerzelKunde": "4.3",
+		"description": "Vereinbarkeit von Familie und Beruf nach Heimat, Alter und Geschlecht",
+		"id": 6145,
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Einkommen",
+			"Erwerb",
+			"Erwerbstätigkeit"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "45,4% der Befragten sind der Meinung, dass es in Basel gute Teilzeitstellen gibt, so dass Väter und Mütter Beruf und Familie unter einen Hut bringen können. Männer stimmen dieser Aussage mit 49,5% häufiger zu als Frauen mit 41,9%. Seit 2003 ist die Einschätzung des Angebots an Teilzeitstellen kontinuierlich gestiegen: 2003 waren 36,8% sehr oder eher einverstanden mit der Aussage, 2015 liegt die Zustimmung bei 45,4%.",
+		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt.",
+		"template": "befragungenProzent001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 2952,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F16a_9"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Beurteilung von gesellschaftlicher Vielfalt: Anteil Befragte, die es als eine Bereicherung für den Kanton ansehen, dass Menschen aus den verschiedensten Ländern hier leben.",
+		"subtitle": "",
+		"kuerzel": "I.50.1.06146",
+		"kuerzelKunde": "4.4",
+		"description": "Beurteilung von gesellschaftlicher Vielfalt: Anteil Befragte, die es als eine Bereicherung für den Kanton ansehen, dass Menschen aus den verschiedensten Ländern hier leben.",
+		"id": 6146,
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Ausländer",
+			"Bevölkerung",
+			"Ausland",
+			"Geburtsort"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Drei Viertel der Befragten empfanden 2015 den multikulturellen<br>Charakter Basel-Stadts als eine sehr oder eher grosse Bereicherung<br>für den Kanton.",
+		"erlaeuterungen": "",
+		"template": "befragungenProzent001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 6034,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion in Franken pro Kopf",
 		"subtitle": "",
 		"kuerzel": "I.04.1.06170",
