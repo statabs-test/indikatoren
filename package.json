@@ -18,7 +18,7 @@
     "gh-pages-travis": "1.0.0",
     "glob": "7.1.1",
     "hash-files": "1.1.1",
-    "highcharts-export-server": "2.0.0",
+    "highcharts-export-server": "2.0.1",
     "highcharts-phantomjs": "2.2.0",
     "http-server": "0.9.0",
     "jsdom": "9.8.0",
