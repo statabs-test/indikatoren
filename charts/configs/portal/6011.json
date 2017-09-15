@@ -1,0 +1,555 @@
+{
+  "series": [
+    {
+      "color": "#246370",
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 0,
+      "data": [
+        [
+          2007,
+          132
+        ],
+        [
+          2008,
+          155
+        ],
+        [
+          2009,
+          189
+        ],
+        [
+          2010,
+          179
+        ],
+        [
+          2011,
+          178
+        ],
+        [
+          2012,
+          215
+        ],
+        [
+          2013,
+          99
+        ],
+        [
+          2014,
+          17
+        ],
+        [
+          2015,
+          44
+        ],
+        [
+          2016,
+          31
+        ]
+      ],
+      "name": "Zuzug_Unbekannt"
+    },
+    {
+      "color": "#007A2F",
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 1,
+      "data": [
+        [
+          2007,
+          2666
+        ],
+        [
+          2008,
+          2987
+        ],
+        [
+          2009,
+          2802
+        ],
+        [
+          2010,
+          2846
+        ],
+        [
+          2011,
+          2996
+        ],
+        [
+          2012,
+          2967
+        ],
+        [
+          2013,
+          2961
+        ],
+        [
+          2014,
+          2695
+        ],
+        [
+          2015,
+          3009
+        ],
+        [
+          2016,
+          3101
+        ]
+      ],
+      "name": "Zuzug_Schweiz. Agglomeration Basel"
+    },
+    {
+      "color": "#A8C3CA",
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 2,
+      "data": [
+        [
+          2007,
+          2929
+        ],
+        [
+          2008,
+          3238
+        ],
+        [
+          2009,
+          3049
+        ],
+        [
+          2010,
+          3082
+        ],
+        [
+          2011,
+          3135
+        ],
+        [
+          2012,
+          3003
+        ],
+        [
+          2013,
+          3223
+        ],
+        [
+          2014,
+          2936
+        ],
+        [
+          2015,
+          3199
+        ],
+        [
+          2016,
+          3426
+        ]
+      ],
+      "name": "Zuzug_Übrige Schweiz"
+    },
+    {
+      "color": "#8AB77D",
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 4,
+      "data": [
+        [
+          2007,
+          6965
+        ],
+        [
+          2008,
+          7789
+        ],
+        [
+          2009,
+          7432
+        ],
+        [
+          2010,
+          7482
+        ],
+        [
+          2011,
+          8016
+        ],
+        [
+          2012,
+          7994
+        ],
+        [
+          2013,
+          8953
+        ],
+        [
+          2014,
+          7872
+        ],
+        [
+          2015,
+          8027
+        ],
+        [
+          2016,
+          8291
+        ]
+      ],
+      "name": "Zuzug_Ausland"
+    },
+    {
+      "color": "#246370",
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 0,
+      "data": [
+        [
+          2007,
+          -897
+        ],
+        [
+          2008,
+          -1160
+        ],
+        [
+          2009,
+          -1023
+        ],
+        [
+          2010,
+          -2599
+        ],
+        [
+          2011,
+          -1406
+        ],
+        [
+          2012,
+          -1525
+        ],
+        [
+          2013,
+          -1600
+        ],
+        [
+          2014,
+          -1215
+        ],
+        [
+          2015,
+          -1372
+        ],
+        [
+          2016,
+          -1425
+        ]
+      ],
+      "name": "Weggezogene_Unbekannt"
+    },
+    {
+      "color": "#007A2F",
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 1,
+      "data": [
+        [
+          2007,
+          -4181
+        ],
+        [
+          2008,
+          -4052
+        ],
+        [
+          2009,
+          -4024
+        ],
+        [
+          2010,
+          -3738
+        ],
+        [
+          2011,
+          -4083
+        ],
+        [
+          2012,
+          -3856
+        ],
+        [
+          2013,
+          -4149
+        ],
+        [
+          2014,
+          -4049
+        ],
+        [
+          2015,
+          -4261
+        ],
+        [
+          2016,
+          -4483
+        ]
+      ],
+      "name": "Weggezogene_Schweiz. Agglomeration Basel"
+    },
+    {
+      "color": "#A8C3CA",
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 2,
+      "data": [
+        [
+          2007,
+          -3114
+        ],
+        [
+          2008,
+          -3057
+        ],
+        [
+          2009,
+          -2915
+        ],
+        [
+          2010,
+          -2912
+        ],
+        [
+          2011,
+          -2837
+        ],
+        [
+          2012,
+          -2774
+        ],
+        [
+          2013,
+          -2901
+        ],
+        [
+          2014,
+          -2859
+        ],
+        [
+          2015,
+          -3001
+        ],
+        [
+          2016,
+          -3035
+        ]
+      ],
+      "name": "Weggezogene_Übrige Schweiz"
+    },
+    {
+      "color": "#8AB77D",
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 4,
+      "data": [
+        [
+          2007,
+          -3941
+        ],
+        [
+          2008,
+          -3866
+        ],
+        [
+          2009,
+          -3844
+        ],
+        [
+          2010,
+          -4077
+        ],
+        [
+          2011,
+          -4331
+        ],
+        [
+          2012,
+          -4286
+        ],
+        [
+          2013,
+          -4687
+        ],
+        [
+          2014,
+          -4604
+        ],
+        [
+          2015,
+          -4933
+        ],
+        [
+          2016,
+          -5004
+        ]
+      ],
+      "name": "Weggezogene_Ausland"
+    },
+    {
+      "color": "#000000",
+      "type": "line",
+      "marker": {
+        "enabled": false
+      },
+      "legendIndex": 4,
+      "data": [
+        [
+          2007,
+          559
+        ],
+        [
+          2008,
+          2034
+        ],
+        [
+          2009,
+          1666
+        ],
+        [
+          2010,
+          263
+        ],
+        [
+          2011,
+          1668
+        ],
+        [
+          2012,
+          1738
+        ],
+        [
+          2013,
+          1899
+        ],
+        [
+          2014,
+          793
+        ],
+        [
+          2015,
+          712
+        ],
+        [
+          2016,
+          902
+        ]
+      ],
+      "name": "Saldo"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-6011"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "2007 - 2016",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": true,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": -20000,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 10000
+  },
+  "xAxis": {
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "y": 40,
+    "x": 40,
+    "itemMarginBottom": 5,
+    "itemWidth": 200,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "stacking": "normal",
+      "pointPadding": 0,
+      "groupPadding": 0.5,
+      "borderWidth": 0
+    }
+  },
+  "exporting": {
+    "filename": "I.01.5.06011"
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "series": [
+    {
+      "color": "#246370",
+      "type": "column",
+      "pointWidth": "15",
+      "data": [
+        [
+          "Schweiz",
+          14.9
+        ],
+        [
+          "Deutschland",
+          16.4
+        ],
+        [
+          "Italien",
+          16.6
+        ],
+        [
+          "Frankreich",
+          13.5
+        ],
+        [
+          "USA",
+          14.2
+        ],
+        [
+          "UK",
+          16.5
+        ],
+        [
+          "Übriges Ausl.",
+          15
+        ],
+        [
+          "Total",
+          15.2
+        ]
+      ],
+      "name": "Männer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007A2F",
+      "type": "column",
+      "pointWidth": "15",
+      "data": [
+        [
+          "Schweiz",
+          15.4
+        ],
+        [
+          "Deutschland",
+          13.9
+        ],
+        [
+          "Italien",
+          13.8
+        ],
+        [
+          "Frankreich",
+          16.8
+        ],
+        [
+          "USA",
+          16.1
+        ],
+        [
+          "UK",
+          13.8
+        ],
+        [
+          "Übriges Ausl.",
+          15.3
+        ],
+        [
+          "Total",
+          15.1
+        ]
+      ],
+      "name": "Frauen",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-6017"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Zugezogene nach Zuzugsland und Geschlecht"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Stand: 2016",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": true,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "y": 40,
+    "x": 40,
+    "itemMarginBottom": 5,
+    "itemWidth": 110,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "stacking": "normal",
+      "pointPadding": 0,
+      "groupPadding": 0.5,
+      "borderWidth": 0
+    }
+  },
+  "exporting": {
+    "filename": "I.01.5.06017"
+  }
+}

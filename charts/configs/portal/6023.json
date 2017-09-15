@@ -1,0 +1,198 @@
+{
+  "series": [
+    {
+      "color": "#246370",
+      "type": "column",
+      "pointWidth": "15",
+      "data": [
+        [
+          "Deutschland",
+          630.3030303
+        ],
+        [
+          "Italien",
+          180.3030303
+        ],
+        [
+          "Frankreich",
+          157.5757576
+        ],
+        [
+          "USA",
+          156.6666667
+        ],
+        [
+          "UK",
+          125.7575758
+        ]
+      ],
+      "name": "Anz Zuzüger",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007A2F",
+      "type": "column",
+      "pointWidth": "15",
+      "data": [
+        [
+          "Deutschland",
+          -408.4848485
+        ],
+        [
+          "Italien",
+          -69.09090909
+        ],
+        [
+          "Frankreich",
+          -137.5757576
+        ],
+        [
+          "USA",
+          -145.4545455
+        ],
+        [
+          "UK",
+          -77.57575758
+        ]
+      ],
+      "name": "Anz Wegzüger",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#000000",
+      "type": "scatter",
+      "data": [
+        [
+          "Deutschland",
+          221.8181818
+        ],
+        [
+          "Italien",
+          111.2121212
+        ],
+        [
+          "Frankreich",
+          20
+        ],
+        [
+          "USA",
+          11.21212121
+        ],
+        [
+          "UK",
+          48.18181818
+        ]
+      ],
+      "name": "Saldo",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-6023"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Zugezogene nach Zuzugsland, bei denen die Staatsangehörigkeit dem Zuzugsland entspricht"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": true,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": -1500,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "y": 40,
+    "x": 40,
+    "itemMarginBottom": 5,
+    "itemWidth": 110,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "stacking": "normal",
+      "pointPadding": 0,
+      "groupPadding": 0.5,
+      "borderWidth": 0
+    }
+  },
+  "exporting": {
+    "filename": "I.01.5.06016"
+  }
+}

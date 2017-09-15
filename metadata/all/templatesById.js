@@ -245,5 +245,15 @@ var templatesById = {
 	"5798": "dotplot",
 	"5799": "dotplot",
 	"5800": "dotplot",
-	"6009": "mappie001"
+	"6009": "mappie001",
+	"6011": "line001",
+	"6012": "line001",
+	"6013": "pie001",
+	"6016": "line001",
+	"6017": "line001",
+	"6018": "populationPyramid001",
+	"6019": "populationPyramid001",
+	"6021": "line001",
+	"6023": "line001",
+	"6024": "line001"
 };

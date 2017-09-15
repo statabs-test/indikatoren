@@ -1,0 +1,237 @@
+{
+  "series": [
+    {
+      "color": "#b00000 ",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2007,
+          10
+        ],
+        [
+          2008,
+          10
+        ],
+        [
+          2009,
+          10
+        ]
+      ],
+      "name": "Deutschland"
+    },
+    {
+      "color": "#672773",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2007,
+          246
+        ],
+        [
+          2008,
+          297
+        ],
+        [
+          2009,
+          284
+        ]
+      ],
+      "name": "Italien"
+    },
+    {
+      "color": "#007a2f",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2007,
+          372
+        ],
+        [
+          2008,
+          363
+        ],
+        [
+          2009,
+          361
+        ]
+      ],
+      "name": "Frankreich"
+    },
+    {
+      "color": "#7F5F1A",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2007,
+          421
+        ],
+        [
+          2008,
+          461
+        ],
+        [
+          2009,
+          508
+        ]
+      ],
+      "name": "USA"
+    },
+    {
+      "color": "#E6E600",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2007,
+          392
+        ],
+        [
+          2008,
+          453
+        ],
+        [
+          2009,
+          488
+        ]
+      ],
+      "name": "UK"
+    },
+    {
+      "color": "#008AC3",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2007,
+          2979
+        ],
+        [
+          2008,
+          3648
+        ],
+        [
+          2009,
+          3444
+        ]
+      ],
+      "name": "Übriges Ausland"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-6024"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Zugezogene nach Zuzugsland und Geschlecht"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "xAxis": {
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "x": 30,
+    "y": 25,
+    "itemWidth": 200,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "filename": "I.01.5.06017"
+  }
+}

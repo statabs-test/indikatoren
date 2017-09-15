@@ -1,0 +1,376 @@
+{
+  "series": [
+    {
+      "color": "#B00000",
+      "borderWidth": 0,
+      "pointWidth": 15,
+      "data": [
+        [
+          "0-4",
+          -174.0128558
+        ],
+        [
+          "5-9",
+          -90.17447199
+        ],
+        [
+          "10-14",
+          -62.62626263
+        ],
+        [
+          "15-19",
+          -253.0762167
+        ],
+        [
+          "20-24",
+          -1261.432507
+        ],
+        [
+          "25-29",
+          -1300.367309
+        ],
+        [
+          "30-34",
+          -767.3094582
+        ],
+        [
+          "35-39",
+          -452.7089073
+        ],
+        [
+          "40-44",
+          -314.600551
+        ],
+        [
+          "45-49",
+          -259.5959596
+        ],
+        [
+          "50-54",
+          -201.2855831
+        ],
+        [
+          "55-59",
+          -134.7107438
+        ],
+        [
+          "60-64",
+          -91.36822773
+        ],
+        [
+          "65-69",
+          -64.09550046
+        ],
+        [
+          "70-74",
+          -32.41505969
+        ],
+        [
+          "75-79",
+          -29.56841139
+        ],
+        [
+          "\u003E79",
+          -43.25068871
+        ],
+        [
+          "Total",
+          -5532.598714
+        ]
+      ],
+      "name": "Zugezogene",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "borderWidth": 0,
+      "pointWidth": 15,
+      "data": [
+        [
+          "0-4",
+          -384.8484848
+        ],
+        [
+          "5-9",
+          -195.4086318
+        ],
+        [
+          "10-14",
+          116.7125803
+        ],
+        [
+          "15-19",
+          156.0146924
+        ],
+        [
+          "20-24",
+          741.8732782
+        ],
+        [
+          "25-29",
+          1344.444444
+        ],
+        [
+          "30-34",
+          1091.64371
+        ],
+        [
+          "35-39",
+          732.4150597
+        ],
+        [
+          "40-44",
+          493.5720845
+        ],
+        [
+          "45-49",
+          376.7676768
+        ],
+        [
+          "50-54",
+          267.2176309
+        ],
+        [
+          "55-59",
+          186.0422406
+        ],
+        [
+          "60-64",
+          145.087236
+        ],
+        [
+          "65-69",
+          91.36822773
+        ],
+        [
+          "70-74",
+          49.86225895
+        ],
+        [
+          "75-79",
+          30.67033976
+        ],
+        [
+          "\u003E79",
+          50.13774105
+        ],
+        [
+          "Total",
+          6454.086318
+        ]
+      ],
+      "name": "Weggezogene",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#000000",
+      "borderWidth": 0,
+      "pointWidth": 15,
+      "data": [
+        [
+          "0-4",
+          400
+        ],
+        [
+          "5-9",
+          400
+        ],
+        [
+          "10-14",
+          400
+        ],
+        [
+          "15-19",
+          400
+        ],
+        [
+          "20-24",
+          400
+        ],
+        [
+          "25-29",
+          400
+        ],
+        [
+          "30-34",
+          400
+        ],
+        [
+          "35-39",
+          400
+        ],
+        [
+          "40-44",
+          400
+        ],
+        [
+          "45-49",
+          400
+        ],
+        [
+          "50-54",
+          400
+        ],
+        [
+          "55-59",
+          400
+        ],
+        [
+          "60-64",
+          400
+        ],
+        [
+          "65-69",
+          400
+        ],
+        [
+          "70-74",
+          400
+        ],
+        [
+          "75-79",
+          400
+        ],
+        [
+          "\u003E79",
+          400
+        ],
+        [
+          "Total",
+          400
+        ]
+      ],
+      "name": "Saldo",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": [
+    {
+      "reversed": false,
+      "type": "category",
+      "labels": {
+        "step": 1,
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "tickLength": 0,
+      "title": {
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "tickColor": "#FFFFFF"
+    },
+    {
+      "type": "category",
+      "visible": false,
+      "opposite": true,
+      "reversed": false,
+      "linkedTo": 0
+    }
+  ],
+  "chart": {
+    "type": "bar",
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {};
+                    //create symmetric axis
+                	var createSymmetricAxis = function(axis){
+                        var absMax = Math.max(Math.abs(axis.min), Math.abs(axis.max));
+                        axis.setExtremes(-absMax, absMax);
+                	};
+            	    createSymmetricAxis(this.yAxis[0]);
+                }
+    },
+    "renderTo": "container-6018"
+  },
+  "plotOptions": {
+    "series": {
+      "stacking": "normal",
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Wanderungen der aus der Schweiz Zugezogenen und der in die Schweiz Weggezogenen nach Alter"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "2007 - 2016 zusammengefasst",
+    "align": "left"
+  },
+  "yAxis": {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "formatter": function () {
+                    return Math.abs(this.value);
+                }
+    }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+  },
+  "legend": {
+    "symbolRadius": 0
+  },
+  "tooltip": {
+    "pointFormatter": function () {
+                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Math.abs(this.y) + '</b><br/>';
+            }
+  },
+  "customFunctions": {},
+  "exporting": {
+    "filename": "I.01.5.06018"
+  }
+}
