@@ -62,6 +62,6 @@
               borderWidth: 0,
               pointWidth: 15
             }
-	    ]
+	    ],
 	};
 }());
