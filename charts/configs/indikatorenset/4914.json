@@ -149,7 +149,6 @@
     "type": "line",
     "marginBottom": 65,
     "marginTop": 90,
-    "forExport": true,
     "renderTo": "container-4914"
   },
   "title": {
@@ -159,7 +158,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": " Landwirtschaftliche Nutzfläche und Anzahl Landwirtschaftsbetriebe"
+    "text": "Landwirtschaftliche Nutzfläche und Anzahl Landwirtschaftsbetriebe"
   },
   "subtitle": {
     "style": {

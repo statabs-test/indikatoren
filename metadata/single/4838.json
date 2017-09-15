@@ -1,7 +1,7 @@
 {"title":"Arbeitsplätze pro Kopf",
-"subtitle":"Stand: 2013",
-"kuerzel":"I.03.2.0002",
-"kuerzelKunde":"WA-4.a",
+"subtitle":"Stand: 2014",
+"kuerzel":"I.03.2.4838",
+"kuerzelKunde":"WA-4.A",
 "description":"Arbeitsplätze pro Kopf",
 "id":4838,
 "thema":"03 Erwerbsleben",
@@ -21,8 +21,10 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
+"orderKey":"3 Wirtschaft und Arbeit_000",
 "parentId":null,
 "children":["5125"],
 "renderLink":["5125"],
-"quellenangabe":["Bundesamt für Statistik BFS, STATENT"]
+"quellenangabe":["Bundesamt für Statistik BFS, STATENT"],
+"externalLinks":[""]
 }

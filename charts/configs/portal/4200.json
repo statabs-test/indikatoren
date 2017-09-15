@@ -466,7 +466,6 @@
     "marginBottom": 75,
     "marginTop": 75,
     "type": "column",
-    "forExport": true,
     "renderTo": "container-4200"
   },
   "plotOptions": {
@@ -487,7 +486,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "I.01.1.0013 Ausländeranteil nach Staatsangehörigkeit seit 2006"
+    "text": "Ausländeranteil nach Staatsangehörigkeit seit 2006"
   },
   "subtitle": {
     "style": {

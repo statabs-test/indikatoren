@@ -190,7 +190,6 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "forExport": true,
     "renderTo": "container-4862"
   },
   "title": {
@@ -200,7 +199,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "I.50.1.0024 Beurteilung der Bildungschancen"
+    "text": "Beurteilung der Bildungschancen"
   },
   "subtitle": {
     "style": {

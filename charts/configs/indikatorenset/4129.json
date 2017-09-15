@@ -9,10 +9,6 @@
       "color": "#DC440E",
       "data": [
         [
-          "2005",
-          605
-        ],
-        [
           "2006",
           604
         ],
@@ -55,6 +51,10 @@
         [
           "2016",
           940
+        ],
+        [
+          "2017",
+          919
         ]
       ],
       "name": "1-Zimmer",
@@ -68,10 +68,6 @@
       "index": 3,
       "color": "#933F8D",
       "data": [
-        [
-          "2005",
-          952
-        ],
         [
           "2006",
           994
@@ -114,7 +110,11 @@
         ],
         [
           "2016",
-          1446
+          1440
+        ],
+        [
+          "2017",
+          1294
         ]
       ],
       "name": "2-Zimmer",
@@ -129,10 +129,6 @@
       "color": "#68AB2B",
       "data": [
         [
-          "2005",
-          1315
-        ],
-        [
           "2006",
           1405
         ],
@@ -146,7 +142,7 @@
         ],
         [
           "2009",
-          1455
+          1454
         ],
         [
           "2010",
@@ -170,11 +166,15 @@
         ],
         [
           "2015",
-          1816
+          1817
         ],
         [
           "2016",
-          1748
+          1705
+        ],
+        [
+          "2017",
+          1617
         ]
       ],
       "name": "3-Zimmer",
@@ -189,10 +189,6 @@
       "color": "#689199",
       "data": [
         [
-          "2005",
-          1821
-        ],
-        [
           "2006",
           2033
         ],
@@ -206,7 +202,7 @@
         ],
         [
           "2009",
-          1955
+          1945
         ],
         [
           "2010",
@@ -234,7 +230,11 @@
         ],
         [
           "2016",
-          2418
+          2393
+        ],
+        [
+          "2017",
+          2468
         ]
       ],
       "name": "4-Zimmer",
@@ -248,10 +248,6 @@
       "index": 0,
       "color": "#008AC3",
       "data": [
-        [
-          "2005",
-          2346
-        ],
         [
           "2006",
           2282
@@ -290,11 +286,15 @@
         ],
         [
           "2015",
-          3073
+          2811
         ],
         [
           "2016",
-          3737
+          3634
+        ],
+        [
+          "2017",
+          3112
         ]
       ],
       "name": "5-Zimmer",
@@ -327,7 +327,6 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "forExport": true,
     "renderTo": "container-4129"
   },
   "title": {
@@ -337,7 +336,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "0.1.b-2 Mietpreisentwicklung der Leerwohnungen nach Zimmerzahl"
+    "text": "Mietpreisentwicklung der Leerwohnungen"
   },
   "subtitle": {
     "style": {
@@ -346,7 +345,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "nach Zimmerzahl",
     "align": "left"
   },
   "tooltip": {
@@ -397,16 +396,16 @@
         "enabled": true,
         "allowOverlap": true,
         "formatter": function () {
-            var last  = this.series.data[this.series.data.length - 1];
-            if (this.point.category === last.category  &&  this.point.y === last.y ) {
-              return this.series.name;
+              var last  = this.series.data[this.series.data.length - 1];
+              if (this.point.category === last.category  &&  this.point.y === last.y ) {
+                return this.series.name;
+              }
+              return "";
             }
-            return "";
-          }
       }
     }
   },
   "exporting": {
-    "filename": "I.09.4.0003"
+    "filename": "I.09.2.4129"
   }
 }

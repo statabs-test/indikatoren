@@ -261,7 +261,6 @@
     "marginBottom": 75,
     "marginTop": 75,
     "type": "column",
-    "forExport": true,
     "renderTo": "container-4915"
   },
   "plotOptions": {
@@ -282,7 +281,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": " Logiernächte nach Herkunft"
+    "text": "Logiernächte nach Herkunft"
   },
   "subtitle": {
     "style": {

@@ -85,7 +85,6 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "forExport": true,
     "renderTo": "container-4906"
   },
   "title": {
@@ -95,7 +94,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": " Bruttoinlandprodukt pro Kopf in Franken"
+    "text": "Bruttoinlandprodukt pro Kopf in Franken"
   },
   "subtitle": {
     "style": {

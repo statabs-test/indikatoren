@@ -1,8 +1,8 @@
 {
   "series": [
     {
-      "color": "#0a3b19",
-      "index": 2,
+      "color": "#d7e8d2",
+      "visible": false,
       "data": [
         [
           "bis 29 m²",
@@ -29,148 +29,70 @@
           33
         ]
       ],
-      "name": "Anzahl 2015",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#b00000",
-      "marker": {
-        "enabled": false
-      },
-      "yAxis": 1,
-      "index": 5,
-      "type": "line",
-      "data": [
-        [
-          "bis 29 m²",
-          0.45
-        ],
-        [
-          "30-49 m²",
-          0.39
-        ],
-        [
-          "50-69 m²",
-          0.22
-        ],
-        [
-          "70-99 m²",
-          0.33
-        ],
-        [
-          "100-149 m²",
-          0.43
-        ],
-        [
-          "150+ m²",
-          0.54
-        ]
-      ],
-      "name": "LWQ 2015",
+      "name": "2015",
       "turboThreshold": 0
     },
     {
       "color": "#68ab2b",
-      "index": 1,
       "visible": false,
       "data": [
         [
           "bis 29 m²",
-          10
+          14
         ],
         [
           "30-49 m²",
-          30
+          68
         ],
         [
           "50-69 m²",
-          48
+          106
         ],
         [
           "70-99 m²",
-          86
+          149
         ],
         [
           "100-149 m²",
-          48
+          92
         ],
         [
           "150+ m²",
           23
         ]
       ],
-      "name": "Anzahl 2014",
+      "name": "2016",
       "turboThreshold": 0
     },
     {
-      "color": "#923f8d",
-      "marker": {
-        "enabled": false
-      },
-      "yAxis": 1,
-      "index": 4,
-      "type": "line",
-      "visible": false,
+      "color": "#0a3b19",
       "data": [
         [
           "bis 29 m²",
-          0.09
+          24
         ],
         [
           "30-49 m²",
-          0.12
+          72
         ],
         [
           "50-69 m²",
-          0.12
+          157
         ],
         [
           "70-99 m²",
-          0.23
+          178
         ],
         [
           "100-149 m²",
-          0.3
+          92
         ],
         [
           "150+ m²",
-          0.38
+          23
         ]
       ],
-      "name": "LWQ 2014",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#d7e8d2",
-      "index": 0,
-      "visible": false,
-      "data": [
-        [
-          "bis 29 m²",
-          25
-        ],
-        [
-          "30-49 m²",
-          46
-        ],
-        [
-          "50-69 m²",
-          97
-        ],
-        [
-          "70-99 m²",
-          118
-        ],
-        [
-          "100-149 m²",
-          61
-        ],
-        [
-          "150+ m²",
-          14
-        ]
-      ],
-      "name": "Anzahl 2013",
+      "name": "2017",
       "turboThreshold": 0
     },
     {
@@ -179,36 +101,117 @@
         "enabled": false
       },
       "yAxis": 1,
-      "index": 3,
       "type": "line",
       "visible": false,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
       "data": [
         [
           "bis 29 m²",
-          0.85
+          0.451388888888
         ],
         [
           "30-49 m²",
-          0.35
+          0.393993458221
         ],
         [
           "50-69 m²",
-          0.31
+          0.217502558853
         ],
         [
           "70-99 m²",
-          0.32
+          0.332172515403
         ],
         [
           "100-149 m²",
-          0.38
+          0.432312252964
         ],
         [
           "150+ m²",
-          0.23
+          0.536410923276
         ]
       ],
-      "name": "LWQ 2013",
+      "name": "LWQ 2015",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#923f8d",
+      "marker": {
+        "enabled": false
+      },
+      "yAxis": 1,
+      "type": "line",
+      "visible": false,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "bis 29 m²",
+          0.47879616963
+        ],
+        [
+          "30-49 m²",
+          0.497257769652
+        ],
+        [
+          "50-69 m²",
+          0.335538602766
+        ],
+        [
+          "70-99 m²",
+          0.39537228679
+        ],
+        [
+          "100-149 m²",
+          0.561215152809
+        ],
+        [
+          "150+ m²",
+          0.371987708232
+        ]
+      ],
+      "name": "LWQ 2016",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b00000",
+      "marker": {
+        "enabled": false
+      },
+      "yAxis": 1,
+      "type": "line",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "bis 29 m²",
+          0.786885245901
+        ],
+        [
+          "30-49 m²",
+          0.52283784765
+        ],
+        [
+          "50-69 m²",
+          0.4945193398
+        ],
+        [
+          "70-99 m²",
+          0.470725128259
+        ],
+        [
+          "100-149 m²",
+          0.55622732769
+        ],
+        [
+          "150+ m²",
+          0.371147329352
+        ]
+      ],
+      "name": "LWQ 2017",
       "turboThreshold": 0
     }
   ],
@@ -226,6 +229,8 @@
       }
     },
     "tickColor": "#FFFFFF",
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
     "tickInterval": 1
   },
   "chart": {
@@ -246,7 +251,6 @@
     "marginBottom": 95,
     "marginTop": 75,
     "type": "column",
-    "forExport": true,
     "renderTo": "container-4139"
   },
   "plotOptions": {
@@ -267,7 +271,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "I.09.4.0005 Anzahl Leerwohnungen und Leerwohnungsquote nach Wohnflächenkategorie"
+    "text": "Anzahl Leerwohnungen und Leerwohnungsquote"
   },
   "subtitle": {
     "style": {
@@ -276,11 +280,14 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "nach Wohnflächenkategorie, Stand 2015 bis 2017",
     "align": "left"
   },
   "yAxis": [
     {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "min": 0,
       "title": {
         "style": {
           "color": "#000000",
@@ -296,6 +303,8 @@
       }
     },
     {
+      "gridLineColor": "#B9CFD7",
+      "min": 0,
       "title": {
         "style": {
           "color": "#000000",
@@ -304,7 +313,7 @@
         "text": null
       },
       "labels": {
-        "format": "{value:,.1f}%",
+        "format": "{value:,.2f}%",
         "style": {
           "color": "#000000"
         }
@@ -349,6 +358,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.09.4.0005"
+    "filename": "I.09.2.04139"
   }
 }

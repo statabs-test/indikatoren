@@ -341,7 +341,6 @@
     "marginTop": 85,
     "type": "column",
     "inverted": true,
-    "forExport": true,
     "renderTo": "container-4340"
   },
   "plotOptions": {
@@ -362,7 +361,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "1-5b Anteil Ausländer nach Staatsangehörigkeit und Art der Bewilligung 2015"
+    "text": "Anteil Ausländer nach Staatsangehörigkeit und Art der Bewilligung 2015"
   },
   "subtitle": {
     "style": {

@@ -434,7 +434,6 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "forExport": true,
     "renderTo": "container-4465"
   },
   "title": {
@@ -444,7 +443,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "I.01.1.0021 Segregationsindex nach Staatsangehörigkeit seit 2006"
+    "text": "Segregationsindex nach Staatsangehörigkeit seit 2006"
   },
   "subtitle": {
     "style": {

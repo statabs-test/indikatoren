@@ -85,8 +85,7 @@
     "marginBottom": 65,
     "marginTop": 75,
     "type": "column",
-    "inverted": true,
-    "forExport": true
+    "inverted": true
   },
   "plotOptions": {
     "series": {
@@ -108,7 +107,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "1-3 Jugendquotient nach Staatsangehörigkeit 2015"
+    "text": "Jugendquotient nach Staatsangehörigkeit 2015"
   },
   "subtitle": {
     "style": {

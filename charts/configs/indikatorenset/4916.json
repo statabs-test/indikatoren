@@ -245,7 +245,6 @@
     "type": "line",
     "marginBottom": 65,
     "marginTop": 75,
-    "forExport": true,
     "renderTo": "container-4916"
   },
   "title": {
@@ -255,7 +254,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": " Logiernächte und Bettenzahl"
+    "text": "Logiernächte und Bettenzahl"
   },
   "subtitle": {
     "style": {

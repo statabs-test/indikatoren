@@ -53,7 +53,6 @@
     "marginBottom": 65,
     "marginTop": 75,
     "type": "column",
-    "forExport": true,
     "renderTo": "container-4866"
   },
   "plotOptions": {
@@ -81,7 +80,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "I.19.1.0001 Anzahl Anzeigen, die das Strafgesetzbuch (StGB) betreffen, pro 1000 Einwohner im Alter von 18 und mehr Jahren"
+    "text": "Anzahl Anzeigen, die das Strafgesetzbuch (StGB) betreffen, pro 1000 Einwohner im Alter von 18 und mehr Jahren"
   },
   "subtitle": {
     "style": {

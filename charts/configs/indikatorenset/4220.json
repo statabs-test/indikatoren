@@ -139,8 +139,7 @@
     "marginBottom": 65,
     "marginTop": 75,
     "type": "column",
-    "inverted": true,
-    "forExport": true
+    "inverted": true
   },
   "plotOptions": {
     "series": {
@@ -158,7 +157,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "1-4b Anteil Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit 2006 und 2015"
+    "text": "Anteil Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit 2006 und 2015"
   },
   "subtitle": {
     "style": {

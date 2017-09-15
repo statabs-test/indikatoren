@@ -147,7 +147,6 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "forExport": true,
     "renderTo": "container-4851"
   },
   "title": {
@@ -157,7 +156,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "1.1.06 Zufriedenheit mit dem Austausch mit der Nachbarschaft"
+    "text": "Zufriedenheit mit dem Austausch mit der Nachbarschaft"
   },
   "subtitle": {
     "style": {

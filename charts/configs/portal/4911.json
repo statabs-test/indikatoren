@@ -159,8 +159,7 @@
     "renderTo": "container-4911",
     "marginBottom": 65,
     "marginTop": 75,
-    "type": "column",
-    "forExport": true
+    "type": "column"
   },
   "plotOptions": {
     "series": {
@@ -178,7 +177,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "I.05.1.0003 Mittlere Jahresteuerung Basel-Stadt im Vergleich zur Schweiz"
+    "text": "Mittlere Jahresteuerung Basel-Stadt im Vergleich zur Schweiz"
   },
   "subtitle": {
     "style": {

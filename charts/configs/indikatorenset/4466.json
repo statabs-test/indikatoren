@@ -269,7 +269,6 @@
     "marginBottom": 65,
     "marginTop": 150,
     "type": "column",
-    "forExport": true,
     "renderTo": "container-4466"
   },
   "plotOptions": {
@@ -290,7 +289,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "2-2 Anteil Ausländer nach Wohndauer und Zuzugsort seit 2006"
+    "text": "Anteil Ausländer nach Wohndauer und Zuzugsort seit 2006"
   },
   "subtitle": {
     "style": {

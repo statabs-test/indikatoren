@@ -1,6 +1,7 @@
 /*  global Highcharts 
     global $
 */
+
 Highcharts.setOptions({
 	"lang": {
 		"downloadJPEG": "JPEG",
@@ -9,12 +10,19 @@ Highcharts.setOptions({
 		"printChart": "Drucken",
 		"downloadSVG": "SVG",
 		"downloadPNG": "PNG",
-		"decimalPoint": ",",
 		"contextButtonTitle": "Exportieren und drucken",
 		"downloadPDF": "PDF",
 		"downloadCSV": 'CSV',
-		"downloadXLS": 'XLS',		
-        "thousandsSep": " "  
+		"downloadXLS": 'XLS',
+		"decimalPoint": ",",
+        "thousandsSep": " ",
+        numericSymbols: null,
+        months: ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'],
+        weekdays: ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'],
+        shortMonths: ['Jan', 'Feb', 'Mär', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez'],
+        rangeSelectorFrom: "Von",
+        rangeSelectorTo: "Bis",
+        rangeSelectorZoom: "Zeitraum:"
 	},
 	"exporting": {
         "sourceWidth": null,
@@ -22,7 +30,14 @@ Highcharts.setOptions({
         "buttons": {
             "contextButton": {
                 "text": "",
-                "menuItems": Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 7)     
+                "menuItems": Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 7),
+
+        chartOptions: {
+            chart: {
+                borderColor: 'white',
+                backgroundColor: 'white'
+            }
+        }
                 /*
                 Highcharts.getOptions().exporting.buttons.contextButton.menuItems.slice(0, 7).push({"textKey": "Test", "onclick": function(){ console.log('Test was clicked.'); }}) 
                  */           
@@ -48,3 +63,13 @@ Highcharts.getOptions().exporting.buttons.contextButton.menuItems.push(
         }
     });
     
+
+
+
+
+					    
+//define new chart type, necessary contents are added later on in the chart's template
+Highcharts.seriesType('mappie', 'pie', {}, {});
+					
+					
+

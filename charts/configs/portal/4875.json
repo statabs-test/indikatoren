@@ -147,7 +147,6 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "forExport": true,
     "renderTo": "container-4875"
   },
   "title": {
@@ -157,7 +156,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "I.50.4.0008 Zufriedenheit mit Sozialkontakten im Wohnumfeld"
+    "text": "Zufriedenheit mit Sozialkontakten im Wohnumfeld"
   },
   "subtitle": {
     "style": {

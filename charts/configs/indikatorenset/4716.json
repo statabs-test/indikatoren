@@ -277,7 +277,6 @@
     "zoomType": "xy",
     "type": "column",
     "inverted": true,
-    "forExport": true,
     "renderTo": "container-4716"
   },
   "title": {
@@ -287,7 +286,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "1.1.01 Materielle oder finanzielle Hilfeleistungen durch Arbeitskollegen, Freunde und Bekannte oder Nachbarn"
+    "text": "Materielle oder finanzielle Hilfeleistungen durch Arbeitskollegen, Freunde und Bekannte oder Nachbarn"
   },
   "subtitle": {
     "style": {
@@ -354,7 +353,7 @@
     "verticalAlign": "top",
     "itemMarginBottom": 5,
     "align": "left",
-    "useHTML": true,
+    "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal"
     },

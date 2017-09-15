@@ -180,7 +180,6 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "forExport": true,
     "renderTo": "container-4932"
   },
   "title": {
@@ -190,7 +189,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "I.50.1.0028 Gründe für Gedanken über die Arbeitsstelle"
+    "text": "Gründe für Gedanken über die Arbeitsstelle"
   },
   "subtitle": {
     "style": {

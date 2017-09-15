@@ -183,7 +183,6 @@
     "marginBottom": 65,
     "marginTop": 100,
     "type": "column",
-    "forExport": true,
     "renderTo": "container-4722"
   },
   "plotOptions": {
@@ -203,7 +202,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "I.01.6.0002 Anzahl eingebürgerte Ausländer und Einbürgerungsziffer"
+    "text": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer"
   },
   "subtitle": {
     "style": {

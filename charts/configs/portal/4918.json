@@ -217,7 +217,6 @@
     "zoomType": "xy",
     "type": "scatter",
     "inverted": true,
-    "forExport": true,
     "renderTo": "container-4918"
   },
   "title": {
@@ -228,7 +227,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "I.11.1.0041 Personenwagen pro Haushalt"
+    "text": "Personenwagen pro Haushalt"
   },
   "subtitle": {
     "style": {

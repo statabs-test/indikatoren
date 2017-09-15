@@ -120,7 +120,6 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "forExport": true,
     "renderTo": "container-4850"
   },
   "title": {
@@ -130,7 +129,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "1.1.05 Zusammensetzung des Freundeskreises"
+    "text": "Zusammensetzung des Freundeskreises"
   },
   "subtitle": {
     "style": {

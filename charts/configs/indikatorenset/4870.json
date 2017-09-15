@@ -93,7 +93,6 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "forExport": true,
     "renderTo": "container-4870"
   },
   "title": {
@@ -103,7 +102,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "3.3.01 Engagement in Organisationen und Vereinen"
+    "text": "Engagement in Organisationen und Vereinen"
   },
   "subtitle": {
     "style": {

@@ -217,7 +217,6 @@
     "zoomType": "xy",
     "type": "scatter",
     "inverted": true,
-    "forExport": true,
     "renderTo": "container-4917"
   },
   "title": {
@@ -228,7 +227,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": " Privater Motorisierungsgrad"
+    "text": "Privater Motorisierungsgrad"
   },
   "subtitle": {
     "style": {

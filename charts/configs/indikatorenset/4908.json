@@ -290,7 +290,6 @@
     "marginBottom": 75,
     "marginTop": 75,
     "type": "column",
-    "forExport": true,
     "renderTo": "container-4908"
   },
   "plotOptions": {
@@ -311,7 +310,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": " Bruttowertschöpfung nach Branchengruppe in Mio. Franken"
+    "text": "Bruttowertschöpfung nach Branchengruppe in Mio. Franken"
   },
   "subtitle": {
     "style": {

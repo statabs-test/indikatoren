@@ -159,7 +159,6 @@
     "marginTop": 75,
     "type": "column",
     "inverted": true,
-    "forExport": true,
     "renderTo": "container-4741"
   },
   "plotOptions": {
@@ -182,7 +181,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "I.03.0.0001 Erwerbstätigenquote nach Staatsangehörigkeit 2010 bis 2014"
+    "text": "Erwerbstätigenquote nach Staatsangehörigkeit 2010 bis 2014"
   },
   "subtitle": {
     "style": {

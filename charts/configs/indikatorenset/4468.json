@@ -435,7 +435,6 @@
     },
     "type": "line",
     "marginTop": 130,
-    "forExport": true,
     "renderTo": "container-4468"
   },
   "title": {
@@ -445,7 +444,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "2-4 Rückwanderungsquote der Ausländer nach Staatsangehörigkeit seit 2006"
+    "text": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeit seit 2006"
   },
   "subtitle": {
     "style": {

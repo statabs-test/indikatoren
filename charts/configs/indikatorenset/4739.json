@@ -343,7 +343,6 @@
     },
     "type": "line",
     "marginTop": 120,
-    "forExport": true,
     "renderTo": "container-4739"
   },
   "title": {
@@ -353,7 +352,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "3-1 Gymnasialquote nach Staatsangehörigkeit seit 2006"
+    "text": "Gymnasialquote nach Staatsangehörigkeit seit 2006"
   },
   "subtitle": {
     "style": {

@@ -93,7 +93,6 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "forExport": true,
     "renderTo": "container-4865"
   },
   "title": {
@@ -103,7 +102,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "I.50.4.0006 Ehrenamtliche Tätigkeit \u002F Freiwilligenarbeit"
+    "text": "Ehrenamtliche Tätigkeit \u002F Freiwilligenarbeit"
   },
   "subtitle": {
     "style": {

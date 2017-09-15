@@ -51,7 +51,11 @@
         ],
         [
           2016,
-          null
+          412
+        ],
+        [
+          2017,
+          0
         ]
       ],
       "name": "Neubau"
@@ -107,6 +111,10 @@
         ],
         [
           2016,
+          null
+        ],
+        [
+          2017,
           400
         ]
       ],
@@ -162,14 +170,18 @@
         ],
         [
           2015,
-          338
+          347
         ],
         [
           2016,
-          342
+          353
+        ],
+        [
+          2017,
+          381
         ]
       ],
-      "name": "Entwicklung des Zehnjahresdurchschnitts gemäss Prognose"
+      "name": "Entwicklung des Zehnjahresdurchschnittes gemäss Prognose"
     }
   ],
   "chart": {
@@ -190,7 +202,6 @@
     "marginBottom": 65,
     "marginTop": 100,
     "type": "column",
-    "forExport": true,
     "renderTo": "container-4137"
   },
   "plotOptions": {
@@ -210,7 +221,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "I.09.1.0026 Anzahl neu erstellte Wohnungen"
+    "text": "Anzahl neu erstellte Wohnungen"
   },
   "subtitle": {
     "style": {
@@ -288,6 +299,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.09.1.0026"
+    "filename": "I.09.1.4137"
   }
 }

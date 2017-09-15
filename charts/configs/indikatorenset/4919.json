@@ -132,7 +132,6 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "forExport": true,
     "renderTo": "container-4919"
   },
   "title": {
@@ -142,7 +141,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": " Grundpfandbelastung in Mio. Franken seit 1990"
+    "text": "Grundpfandbelastung in Mio. Franken seit 1990"
   },
   "subtitle": {
     "style": {

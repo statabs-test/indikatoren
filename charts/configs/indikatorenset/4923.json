@@ -104,7 +104,6 @@
     },
     "type": "line",
     "marginBottom": 75,
-    "forExport": true,
     "renderTo": "container-4923"
   },
   "title": {
@@ -114,7 +113,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": " Anzahl Gewaltstraftaten pro 100000 Einwohner"
+    "text": "Anzahl Gewaltstraftaten pro 100000 Einwohner"
   },
   "subtitle": {
     "style": {

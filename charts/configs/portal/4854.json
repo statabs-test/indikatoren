@@ -190,7 +190,6 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "forExport": true,
     "renderTo": "container-4854"
   },
   "title": {
@@ -200,7 +199,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "I.50.1.0012 Sicherhheitsgefühl nachts im Quartier"
+    "text": "Sicherhheitsgefühl nachts im Quartier"
   },
   "subtitle": {
     "style": {

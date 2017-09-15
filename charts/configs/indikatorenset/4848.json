@@ -105,7 +105,6 @@
     },
     "type": "column",
     "inverted": true,
-    "forExport": true,
     "renderTo": "container-4848"
   },
   "plotOptions": {
@@ -124,7 +123,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "1.1.03 Unterstützung von Freunden oder Nachbarn"
+    "text": "Unterstützung von Freunden oder Nachbarn"
   },
   "subtitle": {
     "style": {

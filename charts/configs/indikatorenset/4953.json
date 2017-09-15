@@ -94,7 +94,6 @@
     "marginBottom": 75,
     "marginTop": 75,
     "type": "column",
-    "forExport": true,
     "renderTo": "container-4953"
   },
   "plotOptions": {
@@ -115,7 +114,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": " Endenergieverbrauch nach Verbrauchergruppe in Mio. kWh"
+    "text": "Endenergieverbrauch nach Verbrauchergruppe in Mio. kWh"
   },
   "subtitle": {
     "style": {

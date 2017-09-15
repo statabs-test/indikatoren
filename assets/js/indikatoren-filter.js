@@ -33,19 +33,19 @@ var chartOptions = {};
 var sortOptions = {};
 
 var indikatoren;
-var indikatorensetView = false;
+var view = false;
 
 $(document).ready(function(){
   //Render page differently depending on url query string 'Indikatorenset'
   //var indikatorenset = $.url('?Indikatorenset');
   var indikatorenset = window.decodeURIComponent($.url('?Indikatorenset'));
   //defines if portal or indikatorenset view is to be shown
-  indikatorensetView = false;
+  view = false;
   
   var jsonDatabaseUrl = 'metadata/portal/indikatoren.js';
   //determine if valid indikaorenset name
   if (indikatorensetNames.indexOf(indikatorenset) > -1){
-    indikatorensetView = true;
+    view = true;
     jsonDatabaseUrl = 'metadata/sets/'+ indikatorenset + '.js';
   }
   
@@ -56,7 +56,7 @@ $(document).ready(function(){
       $(deferred.resolve);
     })
   ).done(function(){
-      if (indikatorensetView) {
+      if (isIndikatorensetView(view)) {
         //if indikatorenset is loaded: make sure the data is loaded into var indikatoren
         indikatoren = indikatorensetData;
       }
@@ -74,15 +74,25 @@ $(document).ready(function(){
 
 
 //reset all filter criteria
-function resetPortalFilter(FJS){
-  $('#searchbox').val('');
-  $("#thema_criteria :radio:first()").prop('checked', true);
-  $("#unterthema_filter").prop('selectedIndex', 0);
-  $("#schlagwort_filter option").prop('selected', true);
-  $("#schlagwort_filter").multiselect('selectAll', false).multiselect('updateButtonText');      
-  $("#raeumlicheGliederung_filter").multiselect('selectAll', false).multiselect('updateButtonText');
-  FJS.filter();
+function resetPortalFilter(FJS, view){
+  if (isIndikatorensetView(view)){
+    $('#searchbox').val('');
+    $("#stufe2_filter").prop('selectedIndex', 0);
+    $("#stufe1_filter").prop('selectedIndex', 0);
+    FJS.filter();
+  }
+  //portal view
+  else{
+    $('#searchbox').val('');
+    $("#thema_criteria :radio:first()").prop('checked', true);
+    $("#unterthema_filter").prop('selectedIndex', 0);
+    $("#schlagwort_filter option").prop('selected', true);
+    $("#schlagwort_filter").multiselect('selectAll', false).multiselect('updateButtonText');      
+    $("#raeumlicheGliederung_filter").multiselect('selectAll', false).multiselect('updateButtonText');
+    FJS.filter();
+  }
 }
+
 
 function initializeFilterJS(indikatorenset){
   var fjsConfig = {      
@@ -103,7 +113,7 @@ function initializeFilterJS(indikatorenset){
   };
 
 
-  if (indikatorensetView){ 
+  if (isIndikatorensetView(view)){ 
     //Indikatorenset View
     sortOptions = {'kuerzelKunde': 'asc'};
     prepareIndikatorensetView(indikatorenset);
@@ -131,7 +141,7 @@ function initializeFilterJS(indikatorenset){
 
     //reset all filter criteria
     $("#portal-reset-button").click(function(){
-      resetPortalFilter(FJS)
+      resetPortalFilter(FJS, false)
     });
   }  
 
@@ -157,7 +167,7 @@ function initializeFilterJS(indikatorenset){
   //add event listener to render chart on modal show
   $("#lightbox").on('show.bs.modal', function (e) {    
     var targetId = $(e.relatedTarget).attr("indikator-id-data");
-    lazyRenderChartById(targetId, undefined, indikatorensetView);
+    lazyRenderChartById(targetId, undefined, view);
     var targetItem = $('#container-' + targetId).parent();
     var currentNumber = $('.item').index(targetItem) +1;
     updateIndicatorText(currentNumber);
@@ -174,7 +184,7 @@ function initializeFilterJS(indikatorenset){
     //only do this in here in order to prevent two events from happening when clicking on a non-active chart thumbnail (sliding and opening model)
     $('#lightbox').on('slide.bs.carousel', function (e) {
         var targetId = $(e.relatedTarget).children().first().attr('indikator-id-data');
-        lazyRenderChartById(targetId, undefined, indikatorensetView);
+        lazyRenderChartById(targetId, undefined, view);
         //display chart number in indicator      
         var currentNumber = $(e.relatedTarget).index() + 1;    
         updateIndicatorText(currentNumber);
@@ -381,16 +391,26 @@ function getIndexOfChart(chartId, charts){
 
 
 //slide carousel to a specified chart id
-function slideToLinkedChart(chartId, FJS){
+function slideToLinkedChart(chartId, FJS, view){
   var index = getIndexOfChart(chartId, getLastFjsResult());
   if (index > -1){
     $('.carousel').carousel(index);
   }
   else {
-    //reset search filters, then find index and slide to the specified chart
-    resetPortalFilter(FJS);
+    //get index of currently displayed chart
+    var currentIndex = $(".item.active").index();
+    //reset search filters
+    resetPortalFilter(FJS, view);
+    //find index of target chart
     index = getIndexOfChart(chartId, getLastFjsResult());
     if (index > -1){
+      //if index of current chart is same as index of target chart we have to mess with the "active" attribute in order to make sliding work
+      if (currentIndex == index){
+        //set active class on the last item (is set to first item by afterFilter function)
+        $(".item.active").removeClass("active");
+        $(".item:last-child").addClass("active");
+      }
+      //slide to target item
       $('.carousel').carousel(index);
     }
     else {
@@ -401,25 +421,27 @@ function slideToLinkedChart(chartId, FJS){
 
 
 //render the html required for links to other chart, kennzahlenset or external resources
-function renderLinksHTML(kennzahlenset, renderLink, externalLinks){
-  var display = false;
+function renderLinksHTML(kennzahlenset, renderLink, externalLinks, view){
   var returnText = "";
+  var displayLinkToIndikatorenset = (kennzahlenset && !isIndikatorensetView(view));
+  var displayRenderLink = (renderLink && renderLink.length && renderLink[0].length);
+  var displayExternalLinks = (externalLinks && externalLinks.length && externalLinks[0].length);
   //any of the links need to be present 
-  if (kennzahlenset || (renderLink && renderLink.length && renderLink[0].length) || (externalLinks && externalLinks.length && externalLinks[0].length) ) {
-    display = true;
+  if (displayLinkToIndikatorenset || displayRenderLink || displayExternalLinks ) {
     returnText = " \
         <div> \
           <h1>Links</h1> \
           <div class='lesehilfe'> \
             <ul class='list-unstyled'>\
         ";
-    if (kennzahlenset) {
+    // Only display Link to Indikatorenset if not already in Indikatorenset View
+    if (displayLinkToIndikatorenset) {
       returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/>Dieser Indikator ist Bestandteil des Indikatorensets <a href='http://www.statistik.bs.ch/zahlen/indikatoren/sets/"+ kennzahlenset.toLowerCase().replace(" ", "-") + ".html' target='_blank'>" + kennzahlenset + "</a>.</li>";
     }
-    if (renderLink && renderLink.length && renderLink[0].length) {
-      returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/><a href='javascript:javascript:slideToLinkedChart(" + renderLink[0] + ", window.FJS)'>Andere Darstellungsform</a> dieser Daten</li>";
+    if (displayRenderLink) {
+      returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/><a href='javascript:javascript:slideToLinkedChart(" + renderLink[0] + ", window.FJS, " + view + ")'>Andere Darstellungsform</a> dieser Daten</li>";
     }
-    if (externalLinks && externalLinks.length && externalLinks[0].length) {
+    if (displayExternalLinks) {
       returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/>" + externalLinks + "</li>";
     }
     returnText += " \
@@ -603,7 +625,7 @@ var afterFilter = function(result, jQ){
     function createCarousel(result){            
       //add a carousel-inner div for each thumbnail
       //build template function using template from DOM
-      var template = (indikatorensetView) ? '#indikator-template-modal-indikatorenset' : '#indikator-template-modal-portal';
+      var template = (isIndikatorensetView(view)) ? '#indikator-template-modal-indikatorenset' : '#indikator-template-modal-portal';
       var html = $(template).html();
       var templateFunction = FilterJS.templateBuilder(html);
       var container = $('#carousel-inner');

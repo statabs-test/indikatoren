@@ -203,7 +203,6 @@
     },
     "type": "line",
     "marginTop": 120,
-    "forExport": true,
     "renderTo": "container-4740"
   },
   "title": {
@@ -213,7 +212,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "3-2 Lehrabbruchquote nach Staatsangehörigkeit seit 2011"
+    "text": "Lehrabbruchquote nach Staatsangehörigkeit seit 2011"
   },
   "subtitle": {
     "style": {

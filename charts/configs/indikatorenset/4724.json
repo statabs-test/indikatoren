@@ -190,7 +190,6 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "forExport": true,
     "renderTo": "container-4724"
   },
   "title": {
@@ -200,7 +199,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "2.2.01 Beurteilung der politischen Behörden"
+    "text": "Beurteilung der politischen Behörden"
   },
   "subtitle": {
     "style": {

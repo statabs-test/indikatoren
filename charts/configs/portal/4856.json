@@ -170,7 +170,6 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "forExport": true,
     "renderTo": "container-4856"
   },
   "title": {
@@ -180,7 +179,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "I.50.1.0015 Ohne die Menschen aus dem Ausland würden wir nicht so gut leben."
+    "text": "Ohne die Menschen aus dem Ausland würden wir nicht so gut leben."
   },
   "subtitle": {
     "style": {
