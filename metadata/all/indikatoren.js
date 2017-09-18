@@ -11044,6 +11044,164 @@ var indikatoren = [
 		]
 	},
 	{
+		"title": "Anzahl Gewaltstraftaten pro 100 000 Einwohner",
+		"subtitle": "",
+		"kuerzel": "I.14.3.06176",
+		"kuerzelKunde": "10.1",
+		"description": "Anzahl Gewaltstraftaten pro 100 000 Einwohner",
+		"id": 6176,
+		"thema": "14 Gesundheit",
+		"unterthema": "Sterblichkeit",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Sicherheit"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Zahl der Gewaltstraftaten pro 100'000 Einwohner hat sich in den letzten zehn Jahren kaum verändert. Aktuell liegt sie bei 335.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 5188,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Polizeiliche Kriminalitätsstatistk (PKS)"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Strassenverkehrsunfälle und verunfallte Personen",
+		"subtitle": "",
+		"kuerzel": "I.14.3.06177",
+		"kuerzelKunde": "10.2",
+		"description": "Strassenverkehrsunfälle und verunfallte Personen",
+		"id": 6177,
+		"thema": "14 Gesundheit",
+		"unterthema": "Sterblichkeit",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Verkehr"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Anzahl Unfälle und verunfallte Personen leicht gestiegen.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 5186,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Kantonspolizei Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Sicherheitsempfinden im Alltag: Anteil Befragte, die sich im Alltag sicher fühlen.",
+		"subtitle": "",
+		"kuerzel": "I.50.1.06178",
+		"kuerzelKunde": "10.4",
+		"description": "Sicherheitsempfinden im Alltag: Anteil Befragte, die sich im Alltag sicher fühlen.",
+		"id": 6178,
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Bevölkerung",
+			"Verbrechen",
+			"Gefühl"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Mit einem Anteil von 42,2% fühlte sich weniger als die Hälfte der<br>Befragten im Alltag sehr sicher und 49,0% fühlten sich eher sicher.<br>Im Vergleich zu den vorherigen Befragungen fühlten sich die<br>Befragten im Alltag weniger sicher. Am höchsten war das<br>Sicherheitsempfinden 2003 als der Anteil derjenigen, die sich<br>grundsätzlich sehr sicher fühlen, über 55% lag.",
+		"erlaeuterungen": "",
+		"template": "befragungen001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 6035,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Anzahl Störfälle und Ereignisse",
+		"subtitle": "",
+		"kuerzel": "I.14.3.06179",
+		"kuerzelKunde": "10.3",
+		"description": "Anzahl Störfälle und Ereignisse",
+		"id": 6179,
+		"thema": "14 Gesundheit",
+		"unterthema": "Sterblichkeit",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Sicherheit"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2015 sind bei der Chemiefachberatung des Kantons 10 Alarmierungen<br>aufgrund von ABC-Ereignissen eingegangen. Die Tragweite<br>dieser Ereignisse war jeweils gering. Kein Ereignis hatte die<br>Ausmasse eines Störfalls.",
+		"erlaeuterungen": "Die Anzahl der Ereignisse sagt noch nichts über die Einwirkung auf die Umwelt aus und ist deshalb immer in Verbindung mit den Bewertungen durch die kantonale Fachstelle zu betrachten. Ereignis: Alarmierungen an die Chemiefachberatung wegen radioaktiven, biologischen oder chemischen Gefahren. Störfall: ein ausserordentliches Ereignis in einem Betrieb, auf einem Verkehrsweg oder in einer Rohrleitungsanlage, bei dem erhebliche Einwirkungen auftreten: a) ausserhalb des Betriebsareals, b) auf oder ausserhalb des Verkehrswegs, c) ausserhalb der Rohrleitungsanlage. Die eigentliche Entscheidung, ob ein Ereignis als Störfall einzustufen ist, liegt im Ermessen der zuständigen Fachstelle.",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 5189,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Kantonales Laboratorium Basel-Stadt, Kontrollstelle für Chemie- und Biosicherheit"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion in Franken pro Kopf",
 		"subtitle": "",
 		"kuerzel": "I.04.1.06184",

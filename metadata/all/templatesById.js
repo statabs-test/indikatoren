@@ -288,5 +288,9 @@ var templatesById = {
 	"6172": "line001",
 	"6173": "line001",
 	"6174": "befragungen001",
+	"6176": "line001",
+	"6177": "line001",
+	"6178": "befragungen001",
+	"6179": "line001",
 	"6184": "line001"
 };
