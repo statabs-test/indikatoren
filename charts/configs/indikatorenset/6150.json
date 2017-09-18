@@ -1,0 +1,515 @@
+{
+  "series": [
+    {
+      "color": "#b00000 ",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          1991,
+          56648
+        ],
+        [
+          1992,
+          59623
+        ],
+        [
+          1993,
+          60493
+        ],
+        [
+          1994,
+          60045
+        ],
+        [
+          1995,
+          60221
+        ],
+        [
+          1996,
+          59155
+        ],
+        [
+          1997,
+          58517
+        ],
+        [
+          1998,
+          59512
+        ],
+        [
+          1999,
+          59759
+        ],
+        [
+          2000,
+          60053
+        ],
+        [
+          2001,
+          62240
+        ],
+        [
+          2002,
+          62656
+        ],
+        [
+          2003,
+          62274
+        ],
+        [
+          2004,
+          61576
+        ],
+        [
+          2005,
+          62274
+        ],
+        [
+          2006,
+          62984
+        ],
+        [
+          2007,
+          65318
+        ],
+        [
+          2008,
+          64910
+        ],
+        [
+          2009,
+          "65js107"
+        ],
+        [
+          2010,
+          "65js751"
+        ],
+        [
+          2011,
+          "64js818"
+        ],
+        [
+          2012,
+          "65js189"
+        ],
+        [
+          2013,
+          "66js943"
+        ]
+      ],
+      "name": "Mittelwert"
+    },
+    {
+      "color": "#672773",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          1991,
+          45700
+        ],
+        [
+          1992,
+          48400
+        ],
+        [
+          1993,
+          49000
+        ],
+        [
+          1994,
+          48900
+        ],
+        [
+          1995,
+          48800
+        ],
+        [
+          1996,
+          47700
+        ],
+        [
+          1997,
+          47300
+        ],
+        [
+          1998,
+          47200
+        ],
+        [
+          1999,
+          47200
+        ],
+        [
+          2000,
+          47300
+        ],
+        [
+          2001,
+          49000
+        ],
+        [
+          2002,
+          49500
+        ],
+        [
+          2003,
+          49270
+        ],
+        [
+          2004,
+          48884
+        ],
+        [
+          2005,
+          48536
+        ],
+        [
+          2006,
+          48563
+        ],
+        [
+          2007,
+          49530
+        ],
+        [
+          2008,
+          47442
+        ],
+        [
+          2009,
+          "47js980"
+        ],
+        [
+          2010,
+          "48js072"
+        ],
+        [
+          2011,
+          "48js350"
+        ],
+        [
+          2012,
+          "48js409"
+        ],
+        [
+          2013,
+          "48js816"
+        ]
+      ],
+      "name": "Median"
+    },
+    {
+      "color": "#007a2f",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          1991,
+          133301
+        ],
+        [
+          1992,
+          139347
+        ],
+        [
+          1993,
+          141476
+        ],
+        [
+          1994,
+          139758
+        ],
+        [
+          1995,
+          141031
+        ],
+        [
+          1996,
+          141056
+        ],
+        [
+          1997,
+          139777
+        ],
+        [
+          1998,
+          145147
+        ],
+        [
+          1999,
+          146567
+        ],
+        [
+          2000,
+          148719
+        ],
+        [
+          2001,
+          153128
+        ],
+        [
+          2002,
+          151951
+        ],
+        [
+          2003,
+          151813
+        ],
+        [
+          2004,
+          150501
+        ],
+        [
+          2005,
+          155470
+        ],
+        [
+          2006,
+          158872
+        ],
+        [
+          2007,
+          166815
+        ],
+        [
+          2008,
+          171657
+        ],
+        [
+          2009,
+          "171js321"
+        ],
+        [
+          2010,
+          "173js954"
+        ],
+        [
+          2011,
+          "168js644"
+        ],
+        [
+          2012,
+          "170js304"
+        ],
+        [
+          2013,
+          "177js720"
+        ]
+      ],
+      "name": "Mittelwert oberstes Quintil"
+    },
+    {
+      "color": "#008AC3",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          1991,
+          10330
+        ],
+        [
+          1992,
+          11062
+        ],
+        [
+          1993,
+          11347
+        ],
+        [
+          1994,
+          11182
+        ],
+        [
+          1995,
+          11124
+        ],
+        [
+          1996,
+          9535
+        ],
+        [
+          1997,
+          9101
+        ],
+        [
+          1998,
+          8811
+        ],
+        [
+          1999,
+          8619
+        ],
+        [
+          2000,
+          7942
+        ],
+        [
+          2001,
+          8695
+        ],
+        [
+          2002,
+          9904
+        ],
+        [
+          2003,
+          8957
+        ],
+        [
+          2004,
+          8115
+        ],
+        [
+          2005,
+          7463
+        ],
+        [
+          2006,
+          7546
+        ],
+        [
+          2007,
+          7953
+        ],
+        [
+          2008,
+          7111
+        ],
+        [
+          2009,
+          "6js917"
+        ],
+        [
+          2010,
+          "6js868"
+        ],
+        [
+          2011,
+          "6js901"
+        ],
+        [
+          2012,
+          "6js792"
+        ],
+        [
+          2013,
+          "6js764"
+        ]
+      ],
+      "name": "Mittelwert unterstes Quintil"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-6150"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Reineinkommen: Mittelwert und Median sowie Mittelwerte der höchsten und tiefsten 20% aller Veranlagungen in Franken"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "xAxis": {
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003ESteuerverwaltung Basel-Stadt"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "x": 30,
+    "y": 25,
+    "itemWidth": 1000,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "filename": "I.18.2.06150"
+  }
+}
