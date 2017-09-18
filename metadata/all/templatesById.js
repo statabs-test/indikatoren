@@ -256,5 +256,6 @@ var templatesById = {
 	"6021": "line001",
 	"6023": "line001",
 	"6024": "line001",
+	"6025": "mappie002",
 	"9999": "mappie002"
 };
