@@ -10522,6 +10522,324 @@ var indikatoren = [
 		]
 	},
 	{
+		"title": "Anteil erneuerbare Energie am Bruttoenergieverbrauch",
+		"subtitle": "",
+		"kuerzel": "I.08.3.06161",
+		"kuerzelKunde": "7.2",
+		"description": "Anteil erneuerbare Energie am Bruttoenergieverbrauch",
+		"id": 6161,
+		"thema": "08 Energie",
+		"unterthema": "Erneuerbare",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Energie",
+			""
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "_000",
+		"parentId": 3094,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf; Recyclingquote",
+		"subtitle": "",
+		"kuerzel": "I.09.6.06163",
+		"kuerzelKunde": "7.3",
+		"description": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf; Recyclingquote",
+		"id": 6163,
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Entsorgung",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Abfall"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Siedlungsabfälle reduzierten sich zwischen dem Jahr 2000 und<br>2014 von ca. 194 auf 165 kg pro Kopf. Die Recyclingquote stieg von<br>ca. 46% auf fast 52%.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Umwelt und Energie Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Wasserqualität: AOX-Fracht in Gramm pro Kopf",
+		"subtitle": "",
+		"kuerzel": "I.02.19.06164",
+		"kuerzelKunde": "7.4",
+		"description": "Wasserqualität: AOX-Fracht in Gramm pro Kopf",
+		"id": 6164,
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Wasser",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Nachhaltigkeit",
+			"Umwelt",
+			"Wasser"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die AOX-Fracht im Ablauf der Abwasserreinigungsanlage betrug<br>2014 umgerechnet auf die Anzahl Einwohner und Beschäftigte<br>3,9 Gramm pro Kopf.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 6030,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Umwelt und Energie Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "CO2-Emissionen in Tonnen und Tonnen pro Kopf",
+		"subtitle": "",
+		"kuerzel": "I.02.5.06165",
+		"kuerzelKunde": "7.5",
+		"description": "CO2-Emissionen in Tonnen und Tonnen pro Kopf",
+		"id": 6165,
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Luftschadstoffe",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Nachhaltigkeit",
+			"Umwelt",
+			"Luft"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2014 waren die CO2-Emissionen sowohl Total als auch pro Kopf<br>geringer als noch 2010.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 6158,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Energiestatistik"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Wassertemperatur Grundwasser",
+		"subtitle": "°C",
+		"kuerzel": "I.02.19.06166",
+		"kuerzelKunde": "7.6",
+		"description": "Wassertemperatur Grundwasser",
+		"id": 6166,
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Wasser",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Wasser"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1610' target='_blank'>Umweltbericht beider Basel</a>.",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 4237,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Umwelt und Energie Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Ausstellungen mit Besucherrekorden",
+		"subtitle": "",
+		"kuerzel": "I.16.1.06167",
+		"kuerzelKunde": "8.1",
+		"description": "Ausstellungen mit Besucherrekorden",
+		"id": 6167,
+		"thema": "16 Kultur und Sport",
+		"unterthema": "Kultureinrichtungen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Kunst"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Zufriedenheit mit Kultur- und Freizeitangebot nach Geschlecht",
+		"subtitle": "«Wie zufrieden sind Sie mit dem Kulturangebot»",
+		"kuerzel": "I.50.1.06168",
+		"kuerzelKunde": "8.2",
+		"description": "Zufriedenheit mit Kultur- und Freizeitangebot nach Geschlecht",
+		"id": 6168,
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Wohnviertel",
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Zufriedenheit",
+			"Museum",
+			"Kunst",
+			"Quartier",
+			"Standort"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Fast 95% der Befragten sind zufrieden mit dem Kulturangebot in Basel-Stadt. Seit 2007 hat die Zufriedenheit mit dem Kulturangebot zugenommen. Die Zufriedenheit mit dem Kulturangebot unterscheidet sich nach Wohngegend. Während in der Wohngegend St. Johann die Zufriedenheit bei 88,4% liegt, sind die Befragten in der Wohngegend Oberes Kleinbasel mit 100% zufriedener.",
+		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt. Da im Datensatz nicht für alle statistischen Wohnviertel genügend Beobachtungen vorliegen, wurden einzelne Wohnviertel zu grösseren Gebietseinheiten zusammengefasst. Es sind dies: Innenstadt = Altstadt Grossbasel, Vorstädte, Altstadt Kleinbasel; Am Ring West = Am Ring, Bachletten, Gotthelf, Iselin; Unteres Kleinbasel = Clara, Rosental, Matthäus, Klybeck, Kleinhüningen; Oberes Kleinbasel = Wettstein, Hirzbrunnen.",
+		"template": "befragungenProzent001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 2953,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_12"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Kulturelle Aktivitäten: Anzahl Besuche in Theater, Kinos und Museen",
+		"subtitle": "",
+		"kuerzel": "I.16.1.06169",
+		"kuerzelKunde": "8.3",
+		"description": "Kulturelle Aktivitäten: Anzahl Besuche in Theater, Kinos und Museen",
+		"id": 6169,
+		"thema": "16 Kultur und Sport",
+		"unterthema": "Kultureinrichtungen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Kunst"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Vor allem die Kinobesuche haben im Lauf der Zeit abgenommen; von 1,31 Mio. im Jahr 2002 auf 0,65 Mio. im Jahr 2015. Bei den Theatern und Museen blieben die Zahlen vergleichsweise konstant.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 5194,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Jeweilige Institutionen"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion in Franken pro Kopf",
 		"subtitle": "",
 		"kuerzel": "I.04.1.06170",
@@ -10560,6 +10878,45 @@ var indikatoren = [
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
 		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Kantonale Durchschnittsprämien je versicherte Person in Franken, Basel-Stadt im Vergleich zu BL, AG und SO",
+		"subtitle": "",
+		"kuerzel": "I.14.4.06171",
+		"kuerzelKunde": "9.1",
+		"description": "Kantonale Durchschnittsprämien je versicherte Person in Franken, Basel-Stadt im Vergleich zu BL, AG und SO",
+		"id": 6171,
+		"thema": "14 Gesundheit",
+		"unterthema": "Prävention, Praxen, Rettung",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Gesundheit"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 6171,
+		"children": [
+			"6171"
+		],
+		"renderLink": [],
+		"quellenangabe": [],
 		"externalLinks": [
 			""
 		]
