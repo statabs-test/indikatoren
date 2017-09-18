@@ -10425,7 +10425,7 @@
 		"stufe5": "",
 		"lesehilfe": "2014 waren die CO2-Emissionen sowohl Total als auch pro Kopf<br>geringer als noch 2010.",
 		"erlaeuterungen": "",
-		"template": "line001",
+		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
@@ -10434,6 +10434,85 @@
 		"children": [
 			"6165"
 		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Energiestatistik"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Anteil übermässig mit Lärm belasteter Einwohner",
+		"subtitle": "",
+		"kuerzel": "I.02.5.06159",
+		"kuerzelKunde": "5.8",
+		"description": "Anteil übermässig mit Lärm belasteter Einwohner",
+		"id": 6159,
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Luftschadstoffe",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Bevölkerung",
+			"Umwelt"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Anteil der Einwohner, welche an ihrem Wohnort in der Nacht einer Lärmbelastung von über 50 dB (A) ausgesetzt sind, betrug 2010 knapp 24%. Bei 14% der Einwohner wurde der Tagesgrenzwert überschritten, bei 16% der Grenzwert in der Nacht.",
+		"erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche einer Lärmbelastung über dem Immissionsgrenzwert gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Die in der LSV festgehaltenen Immissionsgrenzwerte drücken das Mass an Lärmbelastung aus, das zirka 75% der Bevölkerung erträgt, ohne sich erheblich gestört zu fühlen. Wohngebiete sind gemäss Lärmempfindlichkeitsstufenplan den Stufen II (Wohnzonen) und III (Wohn-/Gewerbezonen) mit unterschiedlichen Immissionsgrenzwerten zugeteilt: ES II: 60 dB (A) Tag, 50 dB (A) Nacht, ES III: 65 dB (A) Tag, 55 dB (A) Nacht; dB (A) ist die übliche Masseinheit zur Messung von Lärmstärke.",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 5197,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Energieverbrauch nach Verbrauchergruppe in Mio. kWh",
+		"subtitle": "",
+		"kuerzel": "I.08.1.06160",
+		"kuerzelKunde": "7.1",
+		"description": "Energieverbrauch nach Verbrauchergruppe in Mio. kWh",
+		"id": 6160,
+		"thema": "08 Energie",
+		"unterthema": "Verbrauch",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Energie"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2014 um 16% auf 4 630 Mio. kWh abgenommen. Der Rückgang verteilt sich gleichmässig auf die Verbrauchergruppen Wohnen und Nichtwohnen und ist primär der milden Witterung geschuldet. Das Jahr 2014 hatte rund 17% weniger Heizgradtage als das Jahr 2012.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "",
+		"parentId": null,
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
