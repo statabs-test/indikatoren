@@ -1,0 +1,213 @@
+{
+  "series": [
+    {
+      "color": "#B00000",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          1994,
+          13.8
+        ],
+        [
+          1995,
+          13.9
+        ],
+        [
+          1996,
+          13.7
+        ],
+        [
+          1997,
+          13.6
+        ],
+        [
+          1998,
+          13.6
+        ],
+        [
+          1999,
+          13.7
+        ],
+        [
+          2000,
+          13.8
+        ],
+        [
+          2001,
+          13.9
+        ],
+        [
+          2002,
+          13.9
+        ],
+        [
+          2003,
+          14
+        ],
+        [
+          2004,
+          14.2
+        ],
+        [
+          2005,
+          14.1
+        ],
+        [
+          2006,
+          13.9
+        ],
+        [
+          2007,
+          14
+        ],
+        [
+          2008,
+          14
+        ],
+        [
+          2009,
+          14
+        ],
+        [
+          2010,
+          14.3
+        ],
+        [
+          2011,
+          14.3
+        ],
+        [
+          2012,
+          14.5
+        ],
+        [
+          2013,
+          14.5
+        ],
+        [
+          2014,
+          14.6
+        ],
+        [
+          2015,
+          14.7
+        ],
+        [
+          2016,
+          14.7
+        ]
+      ],
+      "name": "\"Kanton Basel-Stadt\""
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-6166"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Wassertemperatur Grundwasser"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "°C",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "xAxis": {
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 3
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "x": 45,
+    "y": 35,
+    "itemWidth": 200,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "filename": "I.02.19.06166"
+  }
+}

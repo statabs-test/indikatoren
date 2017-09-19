@@ -1,0 +1,211 @@
+{
+  "series": [
+    {
+      "color": "#B00000",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2005,
+          5.6
+        ],
+        [
+          2006,
+          6.7
+        ],
+        [
+          2007,
+          4.8
+        ],
+        [
+          2008,
+          4.1
+        ],
+        [
+          2009,
+          5.4
+        ],
+        [
+          2010,
+          4.7
+        ],
+        [
+          2011,
+          4.7
+        ],
+        [
+          2012,
+          3.2
+        ],
+        [
+          2013,
+          3.5
+        ],
+        [
+          2014,
+          3.9
+        ]
+      ],
+      "name": "AOX pro Einwohner und Beschäftigte"
+    },
+    {
+      "color": "#007A2F",
+      "visible": true,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2005,
+          10.6
+        ],
+        [
+          2006,
+          12.9
+        ],
+        [
+          2007,
+          9.2
+        ],
+        [
+          2008,
+          8
+        ],
+        [
+          2009,
+          10.4
+        ],
+        [
+          2010,
+          9
+        ],
+        [
+          2011,
+          9.3
+        ],
+        [
+          2012,
+          6.4
+        ],
+        [
+          2013,
+          6.8
+        ],
+        [
+          2014,
+          7.7
+        ]
+      ],
+      "name": "AOX pro Einwohner"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-6164"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Wasserqualität: AOX-Fracht in Gramm pro Kopf"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "xAxis": {
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 3
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "x": 45,
+    "y": 35,
+    "itemWidth": 500,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "filename": "I.02.19.06164"
+  }
+}

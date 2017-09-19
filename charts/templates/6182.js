@@ -36,23 +36,23 @@
         "enabled": true
       }    
     }, /* dunkelviolett */
-        {"color": "#B00000",
+        {"color": "#7F5F1A",
       "marker": {
         "enabled": true
       }    
-    }, /* dunkelrot */
-    	{"color": "#007A2F",
+    }, /* dunkelbraun */
+    	{"color": "#FABD24",
 	visible:true,
       "marker": {
         "enabled": true
       }    
-    }, /* dunkelgrün */
-    	{"color": "#4f81bd",
+    }, /* dunkelgelb */
+    	{"color": "#3C3C3C",
 	visible:true,
       "marker": {
         "enabled": true
       }    
-    }, /* dunkelblau */
+    }, /* schwarz */
   ],
   "legend": {
     "enabled": true,

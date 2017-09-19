@@ -363,6 +363,47 @@ var indikatorensetData = [
 		]
 	},
 	{
+		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe und Bildungsabschluss",
+		"subtitle": "",
+		"kuerzel": "I.03.4.06137",
+		"kuerzelKunde": "3.3",
+		"description": "Arbeitslosenquote im Jahresmittel nach Altersgruppe und Bildungsabschluss",
+		"id": 6137,
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Arbeitslose ",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Alter",
+			"Arbeit",
+			"Erwerbstätigkeit"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt liegt, mit der Ausnahme von<br>2014, seit 2011 bei rund 3,7%. Die Jugendarbeitslosenquote ist<br>2015 mit 4,5% höher als im Durchschnitt. Die Arbeitslosenquote der<br>Personen über 50 Jahre beträgt ca. 3% und unterliegt weniger<br>starken Schwankungen.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 6053,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": " Entwicklung der Staatsausgaben nach Funktion in Franken pro Kopf",
 		"subtitle": "",
 		"kuerzel": "I.04.1.06138",
@@ -525,45 +566,6 @@ var indikatorensetData = [
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik, Betriebszählung, STATENT"
-		],
-		"externalLinks": [
-			""
-		]
-	},
-	{
-		"title": "Bevölkerungsbestand am Jahresende",
-		"subtitle": "",
-		"kuerzel": "I.01.1.06143",
-		"kuerzelKunde": "4.1",
-		"description": "Bevölkerungsbestand am Jahresende",
-		"id": 6143,
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Legislaturplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung"
-		],
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die schweizerische Bevölkerung nahm von 1997 bis 2016 von gut 142 000 auf etwas 127 000 Personen ab. Dies entspricht einem Rückgang um rund 10%. Die ausländische Bevölkerung nahm im gleichen Zeitraum von knapp 52 000 auf leicht unter 71 000 Personen zu, was einem Zuwachs um 36% gleichkommt.",
-		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister.",
-		"template": "template001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": false,
-		"orderKey": "",
-		"parentId": 5870,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -1138,6 +1140,324 @@ var indikatorensetData = [
 		]
 	},
 	{
+		"title": "Anteil erneuerbare Energie am Bruttoenergieverbrauch",
+		"subtitle": "",
+		"kuerzel": "I.08.3.06161",
+		"kuerzelKunde": "7.2",
+		"description": "Anteil erneuerbare Energie am Bruttoenergieverbrauch",
+		"id": 6161,
+		"thema": "08 Energie",
+		"unterthema": "Erneuerbare",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Energie",
+			""
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "_000",
+		"parentId": 3094,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf; Recyclingquote",
+		"subtitle": "",
+		"kuerzel": "I.09.6.06163",
+		"kuerzelKunde": "7.3",
+		"description": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf; Recyclingquote",
+		"id": 6163,
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Entsorgung",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Abfall"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Siedlungsabfälle reduzierten sich zwischen dem Jahr 2000 und<br>2014 von ca. 194 auf 165 kg pro Kopf. Die Recyclingquote stieg von<br>ca. 46% auf fast 52%.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Umwelt und Energie Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Wasserqualität: AOX-Fracht in Gramm pro Kopf",
+		"subtitle": "",
+		"kuerzel": "I.02.19.06164",
+		"kuerzelKunde": "7.4",
+		"description": "Wasserqualität: AOX-Fracht in Gramm pro Kopf",
+		"id": 6164,
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Wasser",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Nachhaltigkeit",
+			"Umwelt",
+			"Wasser"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die AOX-Fracht im Ablauf der Abwasserreinigungsanlage betrug<br>2014 umgerechnet auf die Anzahl Einwohner und Beschäftigte<br>3,9 Gramm pro Kopf.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 6030,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Umwelt und Energie Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "CO2-Emissionen in Tonnen und Tonnen pro Kopf",
+		"subtitle": "",
+		"kuerzel": "I.02.5.06165",
+		"kuerzelKunde": "7.5",
+		"description": "CO2-Emissionen in Tonnen und Tonnen pro Kopf",
+		"id": 6165,
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Luftschadstoffe",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Nachhaltigkeit",
+			"Umwelt",
+			"Luft"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2014 waren die CO2-Emissionen sowohl Total als auch pro Kopf<br>geringer als noch 2010.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 6158,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Energiestatistik"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Wassertemperatur Grundwasser",
+		"subtitle": "°C",
+		"kuerzel": "I.02.19.06166",
+		"kuerzelKunde": "7.6",
+		"description": "Wassertemperatur Grundwasser",
+		"id": 6166,
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Wasser",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Wasser"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1610' target='_blank'>Umweltbericht beider Basel</a>.",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 4237,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Umwelt und Energie Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Ausstellungen mit Besucherrekorden",
+		"subtitle": "",
+		"kuerzel": "I.16.1.06167",
+		"kuerzelKunde": "8.1",
+		"description": "Ausstellungen mit Besucherrekorden",
+		"id": 6167,
+		"thema": "16 Kultur und Sport",
+		"unterthema": "Kultureinrichtungen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Kunst"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Zufriedenheit mit Kultur- und Freizeitangebot nach Geschlecht",
+		"subtitle": "«Wie zufrieden sind Sie mit dem Kulturangebot»",
+		"kuerzel": "I.50.1.06168",
+		"kuerzelKunde": "8.2",
+		"description": "Zufriedenheit mit Kultur- und Freizeitangebot nach Geschlecht",
+		"id": 6168,
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Wohnviertel",
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Zufriedenheit",
+			"Museum",
+			"Kunst",
+			"Quartier",
+			"Standort"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Fast 95% der Befragten sind zufrieden mit dem Kulturangebot in Basel-Stadt. Seit 2007 hat die Zufriedenheit mit dem Kulturangebot zugenommen. Die Zufriedenheit mit dem Kulturangebot unterscheidet sich nach Wohngegend. Während in der Wohngegend St. Johann die Zufriedenheit bei 88,4% liegt, sind die Befragten in der Wohngegend Oberes Kleinbasel mit 100% zufriedener.",
+		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt. Da im Datensatz nicht für alle statistischen Wohnviertel genügend Beobachtungen vorliegen, wurden einzelne Wohnviertel zu grösseren Gebietseinheiten zusammengefasst. Es sind dies: Innenstadt = Altstadt Grossbasel, Vorstädte, Altstadt Kleinbasel; Am Ring West = Am Ring, Bachletten, Gotthelf, Iselin; Unteres Kleinbasel = Clara, Rosental, Matthäus, Klybeck, Kleinhüningen; Oberes Kleinbasel = Wettstein, Hirzbrunnen.",
+		"template": "befragungenProzent001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 2953,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_12"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Kulturelle Aktivitäten: Anzahl Besuche in Theater, Kinos und Museen",
+		"subtitle": "",
+		"kuerzel": "I.16.1.06169",
+		"kuerzelKunde": "8.3",
+		"description": "Kulturelle Aktivitäten: Anzahl Besuche in Theater, Kinos und Museen",
+		"id": 6169,
+		"thema": "16 Kultur und Sport",
+		"unterthema": "Kultureinrichtungen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Kunst"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Vor allem die Kinobesuche haben im Lauf der Zeit abgenommen; von 1,31 Mio. im Jahr 2002 auf 0,65 Mio. im Jahr 2015. Bei den Theatern und Museen blieben die Zahlen vergleichsweise konstant.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 5194,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Jeweilige Institutionen"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion in Franken pro Kopf",
 		"subtitle": "",
 		"kuerzel": "I.04.1.06170",
@@ -1176,6 +1496,45 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
 		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Kantonale Durchschnittsprämien je versicherte Person in Franken, Basel-Stadt im Vergleich zu BL, AG und SO",
+		"subtitle": "",
+		"kuerzel": "I.14.4.06171",
+		"kuerzelKunde": "9.1",
+		"description": "Kantonale Durchschnittsprämien je versicherte Person in Franken, Basel-Stadt im Vergleich zu BL, AG und SO",
+		"id": 6171,
+		"thema": "14 Gesundheit",
+		"unterthema": "Prävention, Praxen, Rettung",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Gesundheit"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 6171,
+		"children": [
+			"6171"
+		],
+		"renderLink": [],
+		"quellenangabe": [],
 		"externalLinks": [
 			""
 		]
@@ -1224,6 +1583,403 @@ var indikatorensetData = [
 		]
 	},
 	{
+		"title": "Anzahl Beziehende von Prämienverbilligungen",
+		"subtitle": "",
+		"kuerzel": "I.13.2.06173",
+		"kuerzelKunde": "9.3",
+		"description": "Anzahl Beziehende von Prämienverbilligungen",
+		"id": 6173,
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Einkommen"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2015 erhalten etwas mehr als ein Viertel der in Basel-Stadt<br>wohnhaften Personen Prämienverbilligung",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 2917,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Sozialbeiträge, Abteilung Prämienverbilligungen und Familienmietzinsbeiträge"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Zufriedeneheit mit der Gesundheitsversorgung am Wohnort",
+		"subtitle": "",
+		"kuerzel": "I.50.1.06174",
+		"kuerzelKunde": "9.4",
+		"description": "Zufriedeneheit mit der Gesundheitsversorgung am Wohnort",
+		"id": 6174,
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Zufriedenheit",
+			"Bevölkerung"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2015 hatten die befragten Personen die Gelegenheit, 23 Punkte, die für den Wohnort wichtig sind, zu bewerten. Am zufriedensten sind sie<br>mit der generellen Vielfalt der Einkaufsmöglichkeiten in Basel, gefolgt von den öffentlichen Verkehrsmitteln und der Gesundheitsversorgung.<br>Beim Thema Parkplätze gehen die Meinungen auseinander: Der Anteil Zufriedener und der Anteil Unzufriedener halten sich in etwa die<br>Waage.",
+		"erlaeuterungen": "",
+		"template": "befragungen001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 5178,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bevölkerungsbefragung Basel-Stadt 2015, Frage F6"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Anzahl Gewaltstraftaten pro 100 000 Einwohner",
+		"subtitle": "",
+		"kuerzel": "I.14.3.06176",
+		"kuerzelKunde": "10.1",
+		"description": "Anzahl Gewaltstraftaten pro 100 000 Einwohner",
+		"id": 6176,
+		"thema": "14 Gesundheit",
+		"unterthema": "Sterblichkeit",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Sicherheit"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Zahl der Gewaltstraftaten pro 100'000 Einwohner hat sich in den letzten zehn Jahren kaum verändert. Aktuell liegt sie bei 335.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 5188,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Polizeiliche Kriminalitätsstatistk (PKS)"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Strassenverkehrsunfälle und verunfallte Personen",
+		"subtitle": "",
+		"kuerzel": "I.14.3.06177",
+		"kuerzelKunde": "10.2",
+		"description": "Strassenverkehrsunfälle und verunfallte Personen",
+		"id": 6177,
+		"thema": "14 Gesundheit",
+		"unterthema": "Sterblichkeit",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Verkehr"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Anzahl Unfälle und verunfallte Personen leicht gestiegen.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 5186,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Kantonspolizei Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Sicherheitsempfinden im Alltag: Anteil Befragte, die sich im Alltag sicher fühlen.",
+		"subtitle": "",
+		"kuerzel": "I.50.1.06178",
+		"kuerzelKunde": "10.4",
+		"description": "Sicherheitsempfinden im Alltag: Anteil Befragte, die sich im Alltag sicher fühlen.",
+		"id": 6178,
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Bevölkerung",
+			"Verbrechen",
+			"Gefühl"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Mit einem Anteil von 42,2% fühlte sich weniger als die Hälfte der<br>Befragten im Alltag sehr sicher und 49,0% fühlten sich eher sicher.<br>Im Vergleich zu den vorherigen Befragungen fühlten sich die<br>Befragten im Alltag weniger sicher. Am höchsten war das<br>Sicherheitsempfinden 2003 als der Anteil derjenigen, die sich<br>grundsätzlich sehr sicher fühlen, über 55% lag.",
+		"erlaeuterungen": "",
+		"template": "befragungen001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 6035,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Anzahl Störfälle und Ereignisse",
+		"subtitle": "",
+		"kuerzel": "I.14.3.06179",
+		"kuerzelKunde": "10.3",
+		"description": "Anzahl Störfälle und Ereignisse",
+		"id": 6179,
+		"thema": "14 Gesundheit",
+		"unterthema": "Sterblichkeit",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Sicherheit"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2015 sind bei der Chemiefachberatung des Kantons 10 Alarmierungen<br>aufgrund von ABC-Ereignissen eingegangen. Die Tragweite<br>dieser Ereignisse war jeweils gering. Kein Ereignis hatte die<br>Ausmasse eines Störfalls.",
+		"erlaeuterungen": "Die Anzahl der Ereignisse sagt noch nichts über die Einwirkung auf die Umwelt aus und ist deshalb immer in Verbindung mit den Bewertungen durch die kantonale Fachstelle zu betrachten. Ereignis: Alarmierungen an die Chemiefachberatung wegen radioaktiven, biologischen oder chemischen Gefahren. Störfall: ein ausserordentliches Ereignis in einem Betrieb, auf einem Verkehrsweg oder in einer Rohrleitungsanlage, bei dem erhebliche Einwirkungen auftreten: a) ausserhalb des Betriebsareals, b) auf oder ausserhalb des Verkehrswegs, c) ausserhalb der Rohrleitungsanlage. Die eigentliche Entscheidung, ob ein Ereignis als Störfall einzustufen ist, liegt im Ermessen der zuständigen Fachstelle.",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 5189,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Kantonales Laboratorium Basel-Stadt, Kontrollstelle für Chemie- und Biosicherheit"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Anteil Empfänger/-innen von Ergänzungsleistungen",
+		"subtitle": "",
+		"kuerzel": "I.13.2.06180",
+		"kuerzelKunde": "11.1",
+		"description": "Anteil Empfänger/-innen von Ergänzungsleistungen",
+		"id": 6180,
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Bevölkerung",
+			"Hilfeleistung"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Mit rund 50 000 Beziehenden beziehen etwas mehr als ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligungen.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Amt für Sozialbeiträge, Abteilung Prämienverbilligungen"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. Reiner Prämienverbilligung",
+		"subtitle": "",
+		"kuerzel": "I.13.2.06181",
+		"kuerzelKunde": "11.2",
+		"description": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. Reiner Prämienverbilligung",
+		"id": 6181,
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Einkommen"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2% der baselstädtischen Haushalte erhalten 2015 Familienmietzinsbeiträge (FAMI). In 14% der Haushalte bezieht mindestens eine Person Prämienverbilligung.",
+		"erlaeuterungen": "Anteil Haushalte mit Prämienverbilligung: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt.",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 5183,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Basler Informationssystem Sozialleistungen (BISS)"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Kopie von Sozialhilfequote nach Altersgruppe",
+		"subtitle": "",
+		"kuerzel": "I.13.2.06182",
+		"kuerzelKunde": "11.3",
+		"description": "Kopie von Sozialhilfequote nach Altersgruppe",
+		"id": 6182,
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Einkommen"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Minderjährige weisen 2015 mit 13,3% die höchste Sozialhilfequote<br>aus. Die Sozialhilfequote der 51- bis 65-Jährigen ist vergleichsweise<br>gering, steigt aber über den gesamten Zeitverlauf kontinuierlich.",
+		"erlaeuterungen": "Nur Stadt Basel, ohne Riehen und Bettingen.",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 5184,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt des Kantons Basel-Stadt, Sozialhilfestatistik",
+			"Departement für Wirtschaft, Soziales und Umwelt"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
+		"subtitle": "",
+		"kuerzel": "I.13.2.06183",
+		"kuerzelKunde": "11.4",
+		"description": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
+		"id": 6183,
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Einkommen"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Anteil Zahlfälle mit einer Bezugsdauer von mehr als 36<br>Monaten lag 2015 bei 45,5%. Seit 2011 hat sich dieser stetig<br>erhöht.",
+		"erlaeuterungen": "Nur Stadt Basel, ohne Riehen und Bettingen. Die Sozialhilfe führt Dossiers für Unterstützungseinheiten, die eine oder mehrere Personen umfassen. Als Zahlfälle gelten Unterstützungseinheiten, die entweder wirtschaftliche Sozialhilfe mit Beratung beanspruchen oder Fremdplatzierte sind. Letztere sind minderjährige Kinder, die in Pflegefamilien oder Heimen untergebracht sind und für welche die Sozialhilfe ein eigenes Dossier führt. In einem Haushalt kann es mehrere Zahlfälle geben.",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 5185,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik",
+			"Departement für Wirtschaft, Soziales und Umwelt"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion in Franken pro Kopf",
 		"subtitle": "",
 		"kuerzel": "I.04.1.06184",
@@ -1261,6 +2017,131 @@ var indikatorensetData = [
 		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Anteil Befragter, die angeben, wie gut ihrer Meinung nach die Behörden – Regierungsrat und Grosser Rat – die Anliegen der Bevölkerung vertreten",
+		"subtitle": "",
+		"kuerzel": "I.50.1.06185",
+		"kuerzelKunde": "12.1",
+		"description": "Anteil Befragter, die angeben, wie gut ihrer Meinung nach die Behörden – Regierungsrat und Grosser Rat – die Anliegen der Bevölkerung vertreten",
+		"id": 6185,
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Verwaltung",
+			"Grosser Rat",
+			"Beurteilung"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2015 fühlten sich 68,2% der befragten Personen sehr oder eher gut von den Behörden vertreten. Im Vergleich zu 2011 entspricht dies einem Rückgang um 2,2 Prozentpunkte. In den vorhergehenden Befragungsjahren lag die Zufriedenheit mit der Vertretung durch die Behörden jeweils deutlich unter derjenigen von 2011 und 2015 und die Frage konnte deutlich häufiger nicht beantwortet werden.",
+		"erlaeuterungen": "",
+		"template": "befragungen001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 5138,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F21a"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Steuerbelastung durch Reingewinn- und Kapitalsteuern für Kapitalgesellschaften und Genossenschaften: 400 000",
+		"subtitle": "",
+		"kuerzel": "I.04.1.06201",
+		"kuerzelKunde": "2.2",
+		"description": "Steuerbelastung durch Reingewinn- und Kapitalsteuern für Kapitalgesellschaften und Genossenschaften: 400 000",
+		"id": 6201,
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Volkseinkommen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Einkommen",
+			"Erwerbstätigkeit",
+			"Angestellte",
+			"Kantonsvergleich"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Werte sind in den letzten Jahren relativ konstant.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "_000",
+		"parentId": 5107,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Eidgenössische Finanzverwaltung, Publikation"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Steuerbelastung durch Reingewinn- und Kapitalsteuern für Kapitalgesellschaften und Genossenschaften: 1 000 000",
+		"subtitle": "",
+		"kuerzel": "I.04.1.06202",
+		"kuerzelKunde": "2.2",
+		"description": "Steuerbelastung durch Reingewinn- und Kapitalsteuern für Kapitalgesellschaften und Genossenschaften: 1 000 000",
+		"id": 6202,
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Volkseinkommen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Einkommen",
+			"Erwerbstätigkeit",
+			"Angestellte",
+			"Kantonsvergleich"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Werte sind in den letzten Jahren relativ konstant.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "_000",
+		"parentId": 5108,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Eidgenössische Finanzverwaltung, Publikation"
 		],
 		"externalLinks": [
 			""

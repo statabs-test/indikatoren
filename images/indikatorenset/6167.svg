@@ -1,0 +1,226 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+  <desc>
+    Created with Highstock 5.0.14
+  </desc>
+  <defs>
+    <clipPath>
+      <rect x="0" y="0" width="410" height="191" fill="none"/>
+    </clipPath>
+    <clipPath id="a">
+      <rect x="0" y="0" width="410" height="191" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect fill="#fbfbfb" class="highcharts-background" x="0" y="0" width="485" height="415" rx="0" ry="0"/>
+  <rect fill="none" class="highcharts-plot-background" x="65" y="41" width="410" height="191"/>
+  <g class="highcharts-pane-group"/>
+  <g class="highcharts-grid highcharts-xaxis-grid ">
+    <path fill="none" class="highcharts-grid-line" d="M 79.5 41 L 79.5 232" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 93.5 41 L 93.5 232" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 108.5 41 L 108.5 232" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 123.5 41 L 123.5 232" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 137.5 41 L 137.5 232" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 152.5 41 L 152.5 232" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 167.5 41 L 167.5 232" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 181.5 41 L 181.5 232" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 196.5 41 L 196.5 232" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 210.5 41 L 210.5 232" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 225.5 41 L 225.5 232" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 240.5 41 L 240.5 232" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 254.5 41 L 254.5 232" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 269.5 41 L 269.5 232" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 284.5 41 L 284.5 232" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 298.5 41 L 298.5 232" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 313.5 41 L 313.5 232" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 328.5 41 L 328.5 232" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 342.5 41 L 342.5 232" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 357.5 41 L 357.5 232" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 372.5 41 L 372.5 232" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 386.5 41 L 386.5 232" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 401.5 41 L 401.5 232" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 415.5 41 L 415.5 232" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 430.5 41 L 430.5 232" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 445.5 41 L 445.5 232" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 459.5 41 L 459.5 232" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 474.5 41 L 474.5 232" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 64.5 41 L 64.5 232" opacity="1"/>
+  </g>
+  <g class="highcharts-grid highcharts-yaxis-grid ">
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 65 232.5 L 475 232.5" opacity="1"/>
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 65 137.5 L 475 137.5" opacity="1"/>
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 65 41.5 L 475 41.5" opacity="1"/>
+  </g>
+  <rect fill="none" class="highcharts-plot-border" x="65" y="41" width="410" height="191"/>
+  <g class="highcharts-axis highcharts-xaxis ">
+    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 79.5 232 L 79.5 242" opacity="1"/>
+    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 93.5 232 L 93.5 242" opacity="1"/>
+    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 108.5 232 L 108.5 242" opacity="1"/>
+    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 123.5 232 L 123.5 242" opacity="1"/>
+    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 137.5 232 L 137.5 242" opacity="1"/>
+    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 152.5 232 L 152.5 242" opacity="1"/>
+    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 167.5 232 L 167.5 242" opacity="1"/>
+    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 181.5 232 L 181.5 242" opacity="1"/>
+    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 196.5 232 L 196.5 242" opacity="1"/>
+    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 210.5 232 L 210.5 242" opacity="1"/>
+    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 225.5 232 L 225.5 242" opacity="1"/>
+    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 240.5 232 L 240.5 242" opacity="1"/>
+    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 254.5 232 L 254.5 242" opacity="1"/>
+    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 269.5 232 L 269.5 242" opacity="1"/>
+    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 284.5 232 L 284.5 242" opacity="1"/>
+    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 298.5 232 L 298.5 242" opacity="1"/>
+    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 313.5 232 L 313.5 242" opacity="1"/>
+    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 328.5 232 L 328.5 242" opacity="1"/>
+    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 342.5 232 L 342.5 242" opacity="1"/>
+    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 357.5 232 L 357.5 242" opacity="1"/>
+    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 372.5 232 L 372.5 242" opacity="1"/>
+    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 386.5 232 L 386.5 242" opacity="1"/>
+    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 401.5 232 L 401.5 242" opacity="1"/>
+    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 415.5 232 L 415.5 242" opacity="1"/>
+    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 430.5 232 L 430.5 242" opacity="1"/>
+    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 445.5 232 L 445.5 242" opacity="1"/>
+    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 459.5 232 L 459.5 242" opacity="1"/>
+    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 474.5 232 L 474.5 242" opacity="1"/>
+    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 64.5 232 L 64.5 242" opacity="1"/>
+    <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" stroke-width="1" d="M 65 232.5 L 475 232.5"/>
+  </g>
+  <g class="highcharts-axis highcharts-yaxis ">
+    <path fill="none" class="highcharts-axis-line" d="M 65 41 L 65 232"/>
+  </g>
+  <g class="highcharts-series-group">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(65,41) scale(1 1)" clip-path="url(#a)">
+      <rect x="3.5" y="22.5" width="7" height="169" fill="#44ab2b" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="17.5" y="40.5" width="7" height="151" fill="#44ab2b" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="32.5" y="90.5" width="7" height="101" fill="#44ab2b" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="47.5" y="124.5" width="7" height="67" fill="#44ab2b" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="61.5" y="130.5" width="7" height="61" fill="#44ab2b" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="76.5" y="133.5" width="7" height="58" fill="#44ab2b" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="91.5" y="136.5" width="7" height="55" fill="#44ab2b" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="105.5" y="136.5" width="7" height="55" fill="#44ab2b" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="120.5" y="136.5" width="7" height="55" fill="#44ab2b" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="135.5" y="144.5" width="7" height="47" fill="#44ab2b" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="149.5" y="144.5" width="7" height="47" fill="#44ab2b" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="164.5" y="148.5" width="7" height="43" fill="#44ab2b" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="179.5" y="151.5" width="7" height="40" fill="#44ab2b" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="193.5" y="152.5" width="7" height="39" fill="#44ab2b" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="208.5" y="158.5" width="7" height="33" fill="#44ab2b" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="222.5" y="160.5" width="7" height="31" fill="#44ab2b" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="237.5" y="160.5" width="7" height="31" fill="#44ab2b" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="252.5" y="160.5" width="7" height="31" fill="#44ab2b" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="266.5" y="161.5" width="7" height="30" fill="#44ab2b" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="281.5" y="161.5" width="7" height="30" fill="#44ab2b" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="296.5" y="161.5" width="7" height="30" fill="#44ab2b" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="310.5" y="161.5" width="7" height="30" fill="#44ab2b" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="325.5" y="162.5" width="7" height="29" fill="#44ab2b" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="340.5" y="163.5" width="7" height="28" fill="#44ab2b" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="354.5" y="166.5" width="7" height="25" fill="#44ab2b" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="369.5" y="166.5" width="7" height="25" fill="#44ab2b" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="384.5" y="169.5" width="7" height="22" fill="#44ab2b" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="398.5" y="169.5" width="7" height="22" fill="#44ab2b" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+    </g>
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(65,41) scale(1 1)" clip-path="none"/>
+  </g>
+  <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
+    <tspan>Ausstellungen mit Besucherrekorden</tspan>
+  </text>
+  <g class="highcharts-axis-labels highcharts-xaxis-labels ">
+    <text x="75.98809523809524" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 75.98809523809524 244)" y="244" opacity="1">
+      <tspan>Tutanchamun (2004)</tspan>
+    </text>
+    <text x="90.63095238095238" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 90.63095238095238 244)" y="244" opacity="1">
+      <tspan>Van Gogh (2009)</tspan>
+    </text>
+    <text x="105.27380952380952" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 105.27380952380952 244)" y="244" opacity="1">
+      <tspan>Paul Gauguin (2015)</tspan>
+    </text>
+    <text x="119.91666666666667" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 119.91666666666667 244)" y="244" opacity="1">
+      <tspan>Monet (1986)</tspan>
+    </text>
+    <text x="134.5595238095238" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 134.5595238095238 244)" y="244" opacity="1">
+      <tspan>Wien 1900 - Klimt. Schiel…</tspan><title>Wien 1900 - Klimt. Schiele und ihre Zeit (2010/11)</title>
+    </text>
+    <text x="149.2023809523809" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 149.2023809523809 244)" y="244" opacity="1">
+      <tspan>Picasso/Braque (1990)</tspan>
+    </text>
+    <text x="163.84523809523807" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 163.84523809523807 244)" y="244" opacity="1">
+      <tspan>Monet (2002)</tspan>
+    </text>
+    <text x="178.4880952380952" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 178.4880952380952 244)" y="244" opacity="1">
+      <tspan>Rothko (2001)</tspan>
+    </text>
+    <text x="193.13095238095235" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 193.13095238095235 244)" y="244" opacity="1">
+      <tspan>Munch (2007)</tspan>
+    </text>
+    <text x="207.77380952380952" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 207.77380952380952 244)" y="244" opacity="1">
+      <tspan>Segantini (2011)</tspan>
+    </text>
+    <text x="222.41666666666666" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 222.41666666666666 244)" y="244" opacity="1">
+      <tspan>Gerhard Richter (2014)</tspan>
+    </text>
+    <text x="237.0595238095238" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 237.0595238095238 244)" y="244" opacity="1">
+      <tspan>Surrealismus in Paris (20…</tspan><title>Surrealismus in Paris (2011/2012)</title>
+    </text>
+    <text x="251.70238095238093" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 251.70238095238093 244)" y="244" opacity="1">
+      <tspan>Ferdinand Hodler (2013)</tspan>
+    </text>
+    <text x="266.34523809523813" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 266.34523809523813 244)" y="244" opacity="1">
+      <tspan>Degas (2012/2013)</tspan>
+    </text>
+    <text x="280.98809523809524" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 280.98809523809524 244)" y="244" opacity="1">
+      <tspan>Die Picassos sind da! (20…</tspan><title>Die Picassos sind da! (2013)</title>
+    </text>
+    <text x="295.6309523809524" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 295.6309523809524 244)" y="244" opacity="1">
+      <tspan>Rousseau (2010)</tspan>
+    </text>
+    <text x="310.2738095238096" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 310.2738095238096 244)" y="244" opacity="1">
+      <tspan>Gustave Courbet (2014/15)</tspan>
+    </text>
+    <text x="324.9166666666667" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 324.9166666666667 244)" y="244" opacity="1">
+      <tspan>Renoir (2012)</tspan>
+    </text>
+    <text x="339.5595238095238" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 339.5595238095238 244)" y="244" opacity="1">
+      <tspan>Tiefsee (2007/2008)</tspan>
+    </text>
+    <text x="354.20238095238096" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 354.20238095238096 244)" y="244" opacity="1">
+      <tspan>Koons (2012)</tspan>
+    </text>
+    <text x="368.84523809523813" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 368.84523809523813 244)" y="244" opacity="1">
+      <tspan>Basquiat (2010)</tspan>
+    </text>
+    <text x="383.48809523809524" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 383.48809523809524 244)" y="244" opacity="1">
+      <tspan>Max Ernst (2013)</tspan>
+    </text>
+    <text x="398.1309523809524" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 398.1309523809524 244)" y="244" opacity="1">
+      <tspan>Bonnard (2012)</tspan>
+    </text>
+    <text x="412.7738095238095" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 412.7738095238095 244)" y="244" opacity="1">
+      <tspan>Warhol (2010/2011)</tspan>
+    </text>
+    <text x="427.4166666666667" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 427.4166666666667 244)" y="244" opacity="1">
+      <tspan>Holbein (2005)</tspan>
+    </text>
+    <text x="442.0595238095238" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 442.0595238095238 244)" y="244" opacity="1">
+      <tspan>Kandinsky (2006/07)</tspan>
+    </text>
+    <text x="456.70238095238096" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 456.70238095238096 244)" y="244" opacity="1">
+      <tspan>Odilon Redon (2014)</tspan>
+    </text>
+    <text x="471.3452380952381" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 471.3452380952381 244)" y="244" opacity="1">
+      <tspan>Himmelsscheibe (2006/07)</tspan>
+    </text>
+  </g>
+  <g class="highcharts-axis-labels highcharts-yaxis-labels ">
+    <text x="50" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="237" opacity="1">
+      <tspan>0</tspan>
+    </text>
+    <text x="50" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="141" opacity="1">
+      <tspan>350 000</tspan>
+    </text>
+    <text x="50" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="45" opacity="1">
+      <tspan>700 000</tspan>
+    </text>
+  </g>
+  <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="410">
+    <tspan>Quelle:</tspan>
+  </text>
+</svg>
