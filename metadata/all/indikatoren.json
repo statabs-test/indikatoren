@@ -9747,6 +9747,47 @@
 		]
 	},
 	{
+		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe und Bildungsabschluss",
+		"subtitle": "",
+		"kuerzel": "I.03.4.06137",
+		"kuerzelKunde": "3.3",
+		"description": "Arbeitslosenquote im Jahresmittel nach Altersgruppe und Bildungsabschluss",
+		"id": 6137,
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Arbeitslose ",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Alter",
+			"Arbeit",
+			"Erwerbstätigkeit"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt liegt, mit der Ausnahme von<br>2014, seit 2011 bei rund 3,7%. Die Jugendarbeitslosenquote ist<br>2015 mit 4,5% höher als im Durchschnitt. Die Arbeitslosenquote der<br>Personen über 50 Jahre beträgt ca. 3% und unterliegt weniger<br>starken Schwankungen.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 6053,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": " Entwicklung der Staatsausgaben nach Funktion in Franken pro Kopf",
 		"subtitle": "",
 		"kuerzel": "I.04.1.06138",
@@ -11196,6 +11237,166 @@
 		"renderLink": [],
 		"quellenangabe": [
 			"Kantonales Laboratorium Basel-Stadt, Kontrollstelle für Chemie- und Biosicherheit"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Anteil Empfänger/-innen von Ergänzungsleistungen",
+		"subtitle": "",
+		"kuerzel": "I.13.2.06180",
+		"kuerzelKunde": "11.1",
+		"description": "Anteil Empfänger/-innen von Ergänzungsleistungen",
+		"id": 6180,
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Bevölkerung",
+			"Hilfeleistung"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Mit rund 50 000 Beziehenden beziehen etwas mehr als ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligungen.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Amt für Sozialbeiträge, Abteilung Prämienverbilligungen"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. Reiner Prämienverbilligung",
+		"subtitle": "",
+		"kuerzel": "I.13.2.06181",
+		"kuerzelKunde": "11.2",
+		"description": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. Reiner Prämienverbilligung",
+		"id": 6181,
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Einkommen"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2% der baselstädtischen Haushalte erhalten 2015 Familienmietzinsbeiträge (FAMI). In 14% der Haushalte bezieht mindestens eine Person Prämienverbilligung.",
+		"erlaeuterungen": "Anteil Haushalte mit Prämienverbilligung: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt.",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 5183,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Basler Informationssystem Sozialleistungen (BISS)"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Kopie von Sozialhilfequote nach Altersgruppe",
+		"subtitle": "",
+		"kuerzel": "I.13.2.06182",
+		"kuerzelKunde": "11.3",
+		"description": "Kopie von Sozialhilfequote nach Altersgruppe",
+		"id": 6182,
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Einkommen"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Minderjährige weisen 2015 mit 13,3% die höchste Sozialhilfequote<br>aus. Die Sozialhilfequote der 51- bis 65-Jährigen ist vergleichsweise<br>gering, steigt aber über den gesamten Zeitverlauf kontinuierlich.",
+		"erlaeuterungen": "Nur Stadt Basel, ohne Riehen und Bettingen.",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 5184,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt des Kantons Basel-Stadt, Sozialhilfestatistik",
+			"Departement für Wirtschaft, Soziales und Umwelt"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
+		"subtitle": "",
+		"kuerzel": "I.13.2.06183",
+		"kuerzelKunde": "11.4",
+		"description": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
+		"id": 6183,
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Einkommen"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Anteil Zahlfälle mit einer Bezugsdauer von mehr als 36<br>Monaten lag 2015 bei 45,5%. Seit 2011 hat sich dieser stetig<br>erhöht.",
+		"erlaeuterungen": "Nur Stadt Basel, ohne Riehen und Bettingen. Die Sozialhilfe führt Dossiers für Unterstützungseinheiten, die eine oder mehrere Personen umfassen. Als Zahlfälle gelten Unterstützungseinheiten, die entweder wirtschaftliche Sozialhilfe mit Beratung beanspruchen oder Fremdplatzierte sind. Letztere sind minderjährige Kinder, die in Pflegefamilien oder Heimen untergebracht sind und für welche die Sozialhilfe ein eigenes Dossier führt. In einem Haushalt kann es mehrere Zahlfälle geben.",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 5185,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik",
+			"Departement für Wirtschaft, Soziales und Umwelt"
 		],
 		"externalLinks": [
 			""

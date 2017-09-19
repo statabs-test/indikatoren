@@ -5577,6 +5577,47 @@ var indikatoren = [
 		]
 	},
 	{
+		"title": "Anteil Empfänger/-innen von Ergänzungsleistungen",
+		"subtitle": "",
+		"kuerzel": "I.13.2.06180",
+		"kuerzelKunde": "11.1",
+		"description": "Anteil Empfänger/-innen von Ergänzungsleistungen",
+		"id": 6180,
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Bevölkerung",
+			"Hilfeleistung"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Mit rund 50 000 Beziehenden beziehen etwas mehr als ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligungen.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Amt für Sozialbeiträge, Abteilung Prämienverbilligungen"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion in Franken pro Kopf",
 		"subtitle": "",
 		"kuerzel": "I.04.1.06184",
