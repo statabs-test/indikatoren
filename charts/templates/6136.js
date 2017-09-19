@@ -1,63 +1,68 @@
-/*global Highcharts  */
-
 (function(){
     return {
-	plotOptions: {
-        series: {
-            pointPadding: 0,
-            borderWidth: 0,
-    	}
-   },
-
-  "data":{
-  	"switchRowsAndColumns": true
+"plotOptions": {
+    "series": {
+    	
+      pointPadding: 100,
+      "pointWidth": 15,
+      borderWidth: 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "normal"
+    }
   },
   "xAxis": {
-    "type": "category"  ,	
-  },
+    "type": "category",
+    "tickInterval": 1
+  },  
   "yAxis": {
-	"max": 100,
+  	 //max: 120000,
+     //tickInterval: 60000,
     "labels": {
-      "format": "{value}%"
-    }    
+      "format": "{value:,.0f}",
+    },
+	"max": undefined
   },
-  "series": [
-  {"color": "#cd9c00", "visible": true}, /* hellbraun*/
-  {"color": "#9f7c5a", "visible": true}, /* ... */
-  {"color": "#b00000", "visible": true}, /* ...*/
-  {"color": "#45381d", "visible": true}, /* ... */
-  {"color": "#77933c", "visible": true}, /* grün*/
-  {"color": "#9f7c5a", "visible": true}, /* ... */
-  {"color": "#b00000", "visible": true}, /* ...*/
-  {"color": "#45381d", "visible": true}, /* ... */
-  {"color": "#77933c", "visible": true}, /* grün*/
-  ],
   "legend": {
     "enabled": true,
+    "itemWidth": 150,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
     "x": 35,
-	"y": 65,    
+	"y": 45,
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
-  tooltip: {
-    formatter: function(args){
-      var seriesName = this.series.name;
-      //get corresponding series by name: series 2015-N corresponds to series 2015, etc.
-      var correspondingNSeries = this.series.chart.series.filter(function(element, index, array){
-          return element.name == seriesName + '_n';
-      })[0];
-      var n = correspondingNSeries.yData[this.x];
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 1, ",", " ") + '%</b> (n=' + n + ')<br/>';
-    },
-    "shared": false
-  },  
-  "chart": {      
+  "series": [
+  {"color": "#007a2f", "index": 9, "legendIndex":9}, /*grün dunkel2*/
+  {"color": "#44ab2b", "index": 8, "legendIndex":8}, /*grün mittel*/
+  {"color": "#73ba7c", "index": 7, "legendIndex":7}, /*grün dunkel1*/
+  {"color": "#d7e9d2", "index": 6, "legendIndex":6}, /*grün hell*/
+  {"color": "#b9cfd7", "index": 5, "legendIndex":5}, /*blau hell */
+  {"color": "#71a3b5", "index": 4, "legendIndex":4}, /*blau dunkel */
+  {"color": "#ffbb58", "index": 3, "legendIndex":3}, /*orange hell */
+  {"color": "#ff8028", "index": 2, "legendIndex":2}, /*orange dunkel */
+  {"color": "#dc440e", "index": 1, "legendIndex":1}, /*rot hell */
+  {"color": "#b00000", "index": 0, "legendIndex":0} /*rot dunkel */
+  ],
+  "chart": {
+    "renderTo": 'container-I.01.1.0016', 
+    "marginBottom": 75,
+    "marginTop":150,
     "type": "column",
     "inverted": false
-  }
+  },
+  "tooltip": {
+  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
+  "footerFormat": 'Total: <b>{point.total:,.0f}</b>',
+   "shared": true
+  },
 }
 }());
+
+
