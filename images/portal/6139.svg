@@ -40,27 +40,27 @@
   </g>
   <g class="highcharts-series-group">
     <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(40,144) scale(1 1)" clip-path="url(#a)">
-      <rect x="30.5" y="146.5" width="18" height="74" fill="#b00000" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="175.5" y="175.5" width="18" height="45" fill="#b00000" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="320.5" y="206.5" width="18" height="14" fill="#b00000" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="29" y="147" width="22" height="74" fill="#b00000" class="highcharts-point"/>
+      <rect x="174" y="176" width="22" height="45" fill="#b00000" class="highcharts-point"/>
+      <rect x="319" y="207" width="22" height="14" fill="#b00000" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(40,144) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(40,144) scale(1 1)" clip-path="url(#a)">
-      <rect x="52.5" y="182.5" width="18" height="38" fill="#4f81bd" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="197.5" y="161.5" width="18" height="59" fill="#4f81bd" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="342.5" y="103.5" width="18" height="117" fill="#4f81bd" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="51" y="183" width="22" height="38" fill="#4f81bd" class="highcharts-point"/>
+      <rect x="196" y="162" width="22" height="59" fill="#4f81bd" class="highcharts-point"/>
+      <rect x="341" y="104" width="22" height="117" fill="#4f81bd" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(40,144) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(40,144) scale(1 1)" clip-path="url(#a)">
-      <rect x="74.5" y="207.5" width="18" height="13" fill="#9A86A6" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="219.5" y="201.5" width="18" height="19" fill="#9A86A6" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="364.5" y="205.5" width="18" height="15" fill="#9A86A6" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="73" y="208" width="21" height="13" fill="#9A86A6" class="highcharts-point"/>
+      <rect x="218" y="202" width="21" height="19" fill="#9A86A6" class="highcharts-point"/>
+      <rect x="363" y="206" width="21" height="15" fill="#9A86A6" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(40,144) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(40,144) scale(1 1)" clip-path="url(#a)">
-      <rect x="95.5" y="103.5" width="18" height="117" fill="#9bbb59" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="240.5" y="128.5" width="18" height="92" fill="#9bbb59" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="385.5" y="206.5" width="18" height="14" fill="#9bbb59" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="94" y="104" width="22" height="117" fill="#9bbb59" class="highcharts-point"/>
+      <rect x="239" y="129" width="22" height="92" fill="#9bbb59" class="highcharts-point"/>
+      <rect x="384" y="207" width="22" height="14" fill="#9bbb59" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(40,144) scale(1 1)" clip-path="none"/>
   </g>

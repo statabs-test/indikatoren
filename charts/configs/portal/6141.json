@@ -72,11 +72,9 @@
                     this.credits.element.onclick = function() {}
                 }
     },
-    "renderTo": "container-6141",
-    "marginBottom": 75,
-    "marginTop": 75,
     "type": "column",
-    "inverted": false
+    "inverted": false,
+    "renderTo": "container-6141"
   },
   "plotOptions": {
     "series": {
@@ -85,8 +83,8 @@
           "fontSize": "10px"
         }
       },
-      "pointPadding": 100,
-      "pointWidth": 15,
+      "borderWidth": 0,
+      "pointWidth": 30,
       "stacking": "normal"
     }
   },
@@ -151,7 +149,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 45,
+    "x": 25,
     "y": 30,
     "width": 200,
     "itemStyle": {

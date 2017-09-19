@@ -2,13 +2,8 @@
     return {
 "plotOptions": {
     "series": {
-      pointPadding: 100,
-      "pointWidth": 15,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      },
+       borderWidth: 0,
+      "pointWidth": 30,
       "stacking": "normal"
     }
   },
@@ -17,9 +12,7 @@
     "tickInterval": 1
   },  
   "yAxis": {
-  	 //max: 120000,
-     //tickInterval: 60000,
-    "labels": {
+      "labels": {
       "format": "{value:,.0f}",
     },
 	"max": undefined
@@ -29,7 +22,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 45,
+    "x": 25,
 	"y": 30,
 	"width": 200,
     "itemStyle": {
@@ -41,9 +34,9 @@
   {"color": "#2f656b", "index": 4}, /*dunkelblau */
   ],
   "chart": {
-    "renderTo": 'container-I.01.1.0016', 
-    "marginBottom": 75,
-    "marginTop": 75,
+    //"renderTo": 'container-I.01.1.0016', 
+    //"marginBottom": 75,
+    //"marginTop": 75,
     "type": "column",
     "inverted": false
   },

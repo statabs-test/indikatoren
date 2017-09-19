@@ -1,5 +1,11 @@
 (function(){
     return {
+	plotOptions: {
+        series: {
+            pointPadding: 0,
+            borderWidth: 0
+        }
+    },
   "data":{
   	"switchRowsAndColumns": true
   },
@@ -10,7 +16,7 @@
   	"min": 0,
   	"max": 0.5,
     "labels": {
-      "format": "{value}"
+      "format": "{value}" 
     }    
   },
   "series": [

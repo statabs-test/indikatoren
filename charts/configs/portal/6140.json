@@ -53,7 +53,7 @@
       "style": {
         "color": "#000000"
       },
-      "rotation": -90
+      "rotation": 0
     },
     "tickColor": "#FFFFFF"
   },
@@ -62,7 +62,7 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 415,
-    "spacingBottom": 40,
+    "spacingBottom": 30,
     "style": {
       "fontFamily": "Arial"
     },
@@ -85,7 +85,7 @@
       },
       "pointPadding": 0,
       "borderWidth": 0,
-      "groupPadding": 0.1
+      "itemWidth": 10
     }
   },
   "title": {
@@ -119,7 +119,7 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f} m²"
+      "format": "{value:,.0f} %"
     }
   },
   "navigation": {
@@ -149,14 +149,14 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 70,
-    "y": 35,
+    "x": 25,
+    "y": 55,
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} m²\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} %\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {

@@ -280,7 +280,7 @@
       "name": "36 bis 50"
     },
     {
-      "color": "#B00000",
+      "color": "#7F5F1A",
       "marker": {
         "enabled": true
       },
@@ -349,7 +349,7 @@
       "name": "51 bis 65"
     },
     {
-      "color": "#007A2F",
+      "color": "#FABD24",
       "visible": true,
       "marker": {
         "enabled": true
@@ -419,7 +419,7 @@
       "name": "66 u.m."
     },
     {
-      "color": "#4f81bd",
+      "color": "#3C3C3C",
       "visible": true,
       "marker": {
         "enabled": true
@@ -553,7 +553,7 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 3
+    "tickInterval": 2
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",

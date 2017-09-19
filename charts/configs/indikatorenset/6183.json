@@ -7,43 +7,43 @@
       "data": [
         [
           "2006",
-          8.91
+          498
         ],
         [
           "2007",
-          8.97
+          452
         ],
         [
           "2008",
-          9.77
+          460
         ],
         [
           "2009",
-          10.81
+          516
         ],
         [
           "2010",
-          9.8
+          474
         ],
         [
           "2011",
-          9.77
+          501
         ],
         [
           "2012",
-          9.21
+          485
         ],
         [
           "2013",
-          10.01
+          534
         ],
         [
           "2014",
-          8.8
+          462
         ],
         [
           "2015",
-          9.56
+          527
         ]
       ],
       "name": "Bis 3 Monate",
@@ -56,43 +56,43 @@
       "data": [
         [
           "2006",
-          18.78
+          1049
         ],
         [
           "2007",
-          17.1
+          862
         ],
         [
           "2008",
-          17.37
+          818
         ],
         [
           "2009",
-          19.76
+          943
         ],
         [
           "2010",
-          18.87
+          913
         ],
         [
           "2011",
-          21.22
+          1088
         ],
         [
           "2012",
-          19.37
+          1020
         ],
         [
           "2013",
-          17.77
+          948
         ],
         [
           "2014",
-          16.84
+          884
         ],
         [
           "2015",
-          18.15
+          1001
         ]
       ],
       "name": "4 bis 12 Monate",
@@ -105,43 +105,43 @@
       "data": [
         [
           "2006",
-          34.87
+          1948
         ],
         [
           "2007",
-          30.3
+          1527
         ],
         [
           "2008",
-          27.03
+          1273
         ],
         [
           "2009",
-          25.88
+          1235
         ],
         [
           "2010",
-          28.92
+          1399
         ],
         [
           "2011",
-          28.85
+          1479
         ],
         [
           "2012",
-          30.33
+          1597
         ],
         [
           "2013",
-          29.49
+          1573
         ],
         [
           "2014",
-          28.98
+          1521
         ],
         [
           "2015",
-          26.79
+          1477
         ]
       ],
       "name": "13 bis 36 Monate",
@@ -154,43 +154,43 @@
       "data": [
         [
           "2006",
-          37.44
+          null
         ],
         [
           "2007",
-          43.63
+          null
         ],
         [
           "2008",
-          45.83
+          null
         ],
         [
           "2009",
-          43.55
+          null
         ],
         [
           "2010",
-          42.41
+          null
         ],
         [
           "2011",
-          40.16
+          null
         ],
         [
           "2012",
-          41.09
+          null
         ],
         [
           "2013",
-          42.73
+          null
         ],
         [
           "2014",
-          45.37
+          null
         ],
         [
           "2015",
-          45.5
+          null
         ]
       ],
       "name": "Über 36 Monate",
@@ -200,20 +200,37 @@
   "xAxis": {
     "type": "category",
     "uniqueNames": true,
+    "tickColor": "#FFFFFF",
     "title": {
       "style": {
         "color": "#000000"
       }
     },
     "labels": {
+      "rotation": 0,
       "style": {
-        "color": "#000000"
-      }
-    },
-    "tickColor": "#FFFFFF",
-    "tickInterval": 1
+        "color": "#000000",
+        "width": 1,
+        "textOverflow": "none"
+      },
+      "formatter": function () {
+            	return this.value.replace(" ", "<br/>");
+            }
+    }
   },
   "chart": {
+    "events": {
+      "load": function () {
+                this.credits.element.onclick = function() {
+                    /*
+                    window.open(
+                    "http://www.statistik.bs.ch",
+                    '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
+                    );
+                    */
+                }
+            }
+    },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
@@ -223,27 +240,11 @@
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
-    "events": {
-      "load": function () {
-                    this.credits.element.onclick = function() {}
-                }
-    },
+    "type": "column",
     "renderTo": "container-6183",
     "marginBottom": 75,
     "marginTop": 75,
-    "type": "column",
     "inverted": false
-  },
-  "plotOptions": {
-    "series": {
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      },
-      "pointWidth": 20,
-      "stacking": "normal"
-    }
   },
   "title": {
     "style": {
@@ -257,14 +258,29 @@
   "subtitle": {
     "style": {
       "fontSize": "12px",
-      "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
-    "align": "left"
+    "align": "left",
+    "text": ""
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent"
+    }
   },
   "yAxis": {
+    "tickInterval": 10,
     "title": {
       "style": {
         "color": "#000000",
@@ -273,18 +289,15 @@
       "text": null
     },
     "labels": {
+      "format": "{value}%",
       "style": {
         "color": "#000000"
-      },
-      "format": "{value:,.0f}%"
-    },
-    "max": 100
-  },
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
+      }
     }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "credits": {
     "enabled": true,
@@ -302,18 +315,18 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik;\u003Cbr\u002F\u003EDepartement für Wirtschaft, Soziales und Umwelt"
   },
   "legend": {
-    "symbolRadius": 0,
     "layout": "vertical",
     "verticalAlign": "middle",
     "itemMarginBottom": 5,
     "align": "right",
+    "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal"
-    }
-  },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
+    },
+    "symbolRadius": 0,
+    "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        }
   },
   "exporting": {
     "filename": "I.13.2.06183"

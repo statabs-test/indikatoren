@@ -1,7 +1,7 @@
 (function(){
     return {
   "xAxis": {
-    "tickInterval": 3
+    "tickInterval": 2
   },
   "yAxis": {
 	"labels": {
@@ -18,7 +18,7 @@
 	{"color": "#a8c4cb",
   index: 9, "visible":  false}, /*hellblau*/
 	{"color": "#ffbb58",
-  index: 8, "visible":  false}, /*hellorange*/
+  index: 8, "visible":  true}, /*hellorange*/
 	{"color": "#b475ab",
   index: 7, "visible":  false}, /*hellviolett*/
 	{"color": "#44ab2b",

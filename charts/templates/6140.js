@@ -4,20 +4,20 @@
         series: {
             pointPadding: 0,
             borderWidth: 0,
-			groupPadding: 0.1, 
+			itemWidth: 10, 
 
         }
    },
   "xAxis": {
     "type": "category",
     "labels": {
-      "rotation": -90 
+      "rotation": 0 
     } 
   },
   "yAxis": {
 	//"max": 100,
     "labels": {
-      "format": "{value:,.0f} m²"
+      "format": "{value:,.0f} %"
     }    
   },
   "series": [
@@ -29,20 +29,20 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 70,
-	"y": 35,    
+    "x": 25,
+	"y": 55,    
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
    tooltip: {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y} m²</b><br/>',
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y} %</b><br/>',
     "shared": false
   },
   "chart": {      
     "type": "column",
     "inverted": false,
-    "spacingBottom": 40
+    //"spacingTop": 100
   }
 }
 }());

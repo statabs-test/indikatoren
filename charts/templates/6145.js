@@ -5,7 +5,10 @@
   },
 
   "xAxis": {
-    "type": "category"  ,	
+    "type": "category",
+     "labels": {
+      "rotation": -90 
+    } 
   },
   "yAxis": {
 	"max": 100,
@@ -37,7 +40,12 @@
   },
   "chart": {      
     "type": "column",
-    "inverted": false
-  }
+    "inverted": false,
+     //"marginBottom": 75,
+     //"marginTop": 75,
+  },
+   "labelFormatter": function () {
+            return this.name;
+        }
 }
 }());

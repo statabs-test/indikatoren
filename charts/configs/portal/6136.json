@@ -1,8 +1,9 @@
 {
   "series": [
     {
-      "color": "#cd9c00",
-      "visible": true,
+      "color": "#007a2f",
+      "index": 9,
+      "legendIndex": 9,
       "data": [
         [
           "weibl.",
@@ -49,8 +50,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#9f7c5a",
-      "visible": true,
+      "color": "#44ab2b",
+      "index": 8,
+      "legendIndex": 8,
       "data": [
         [
           "weibl.",
@@ -82,7 +84,7 @@
         ],
         [
           "50-59",
-          "–"
+          null
         ],
         [
           "60-69",
@@ -97,8 +99,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#b00000",
-      "visible": true,
+      "color": "#73ba7c",
+      "index": 7,
+      "legendIndex": 7,
       "data": [
         [
           "weibl.",
@@ -145,8 +148,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#45381d",
-      "visible": true,
+      "color": "#d7e9d2",
+      "index": 6,
+      "legendIndex": 6,
       "data": [
         [
           "weibl.",
@@ -193,8 +197,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#77933c",
-      "visible": true,
+      "color": "#b9cfd7",
+      "index": 5,
+      "legendIndex": 5,
       "data": [
         [
           "weibl.",
@@ -241,8 +246,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#9f7c5a",
-      "visible": true,
+      "color": "#71a3b5",
+      "index": 4,
+      "legendIndex": 4,
       "data": [
         [
           "weibl.",
@@ -262,11 +268,11 @@
         ],
         [
           "18-29",
-          "–"
+          null
         ],
         [
           "30-39",
-          "–"
+          null
         ],
         [
           "40-49",
@@ -289,8 +295,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#b00000",
-      "visible": true,
+      "color": "#ffbb58",
+      "index": 3,
+      "legendIndex": 3,
       "data": [
         [
           "weibl.",
@@ -337,8 +344,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#45381d",
-      "visible": true,
+      "color": "#ff8028",
+      "index": 2,
+      "legendIndex": 2,
       "data": [
         [
           "weibl.",
@@ -385,8 +393,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#77933c",
-      "visible": true,
+      "color": "#dc440e",
+      "index": 1,
+      "legendIndex": 1,
       "data": [
         [
           "weibl.",
@@ -402,11 +411,11 @@
         ],
         [
           "Ausl.",
-          "–"
+          null
         ],
         [
           "18-29",
-          "–"
+          null
         ],
         [
           "30-39",
@@ -431,6 +440,55 @@
       ],
       "name": "Andere Ausbildung",
       "turboThreshold": 0
+    },
+    {
+      "color": "#b00000",
+      "index": 0,
+      "legendIndex": 0,
+      "data": [
+        [
+          "weibl.",
+          0.1
+        ],
+        [
+          "männl.",
+          0.1
+        ],
+        [
+          "Schw.",
+          0.2
+        ],
+        [
+          "Ausl.",
+          null
+        ],
+        [
+          "18-29",
+          null
+        ],
+        [
+          "30-39",
+          null
+        ],
+        [
+          "40-49",
+          null
+        ],
+        [
+          "50-59",
+          null
+        ],
+        [
+          "60-69",
+          0.6
+        ],
+        [
+          "70 u.m.",
+          null
+        ]
+      ],
+      "name": "Keine Angabe",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -446,7 +504,8 @@
         "color": "#000000"
       }
     },
-    "tickColor": "#FFFFFF"
+    "tickColor": "#FFFFFF",
+    "tickInterval": 1
   },
   "chart": {
     "borderColor": "#fbfbfb",
@@ -463,9 +522,11 @@
                     this.credits.element.onclick = function() {}
                 }
     },
+    "renderTo": "container-6136",
+    "marginBottom": 75,
+    "marginTop": 150,
     "type": "column",
-    "inverted": false,
-    "renderTo": "container-6136"
+    "inverted": false
   },
   "plotOptions": {
     "series": {
@@ -474,8 +535,10 @@
           "fontSize": "10px"
         }
       },
-      "pointPadding": 0,
-      "borderWidth": 0
+      "pointPadding": 100,
+      "pointWidth": 15,
+      "borderWidth": 0,
+      "stacking": "normal"
     }
   },
   "title": {
@@ -509,9 +572,8 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value}%"
-    },
-    "max": 100
+      "format": "{value:,.0f}"
+    }
   },
   "navigation": {
     "menuItemStyle": {
@@ -537,26 +599,20 @@
   "legend": {
     "symbolRadius": 0,
     "enabled": true,
+    "itemWidth": 150,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
     "x": 35,
-    "y": 65,
+    "y": 45,
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
   "tooltip": {
-    "formatter": function (args){
-      var seriesName = this.series.name;
-      //get corresponding series by name: series 2015-N corresponds to series 2015, etc.
-      var correspondingNSeries = this.series.chart.series.filter(function(element, index, array){
-          return element.name == seriesName + '_n';
-      })[0];
-      var n = correspondingNSeries.yData[this.x];
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 1, ",", " ") + '%</b> (n=' + n + ')<br/>';
-    },
-    "shared": false
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
+    "shared": true
   },
   "exporting": {
     "filename": "I.15.6.06136"

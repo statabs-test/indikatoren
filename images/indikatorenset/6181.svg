@@ -16,7 +16,11 @@
   <rect fill="none" class="highcharts-plot-background" x="50" y="87" width="425" height="262"/>
   <g class="highcharts-pane-group"/>
   <g class="highcharts-grid highcharts-xaxis-grid ">
+    <path fill="none" class="highcharts-grid-line" d="M 53.5 87 L 53.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 157.5 87 L 157.5 349" opacity="1"/>
     <path fill="none" class="highcharts-grid-line" d="M 262.5 87 L 262.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 366.5 87 L 366.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 470.5 87 L 470.5 349" opacity="1"/>
   </g>
   <g class="highcharts-grid highcharts-yaxis-grid ">
     <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 50 349.5 L 475 349.5" opacity="1"/>
@@ -78,8 +82,20 @@
     </g>
   </g>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
+    <text x="54.16666666666295" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      <tspan>2011</tspan>
+    </text>
+    <text x="158.33333333333147" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      <tspan>2012</tspan>
+    </text>
     <text x="262.5" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
       <tspan>2013</tspan>
+    </text>
+    <text x="366.6666666666685" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      <tspan>2014</tspan>
+    </text>
+    <text x="462.78125" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      <tspan>2015</tspan>
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
