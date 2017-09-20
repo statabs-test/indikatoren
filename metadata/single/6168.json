@@ -17,7 +17,7 @@
 "stufe5":"", 
 "lesehilfe":"Fast 95% der Befragten sind zufrieden mit dem Kulturangebot in Basel-Stadt. Seit 2007 hat die Zufriedenheit mit dem Kulturangebot zugenommen. Die Zufriedenheit mit dem Kulturangebot unterscheidet sich nach Wohngegend. Während in der Wohngegend St. Johann die Zufriedenheit bei 88,4% liegt, sind die Befragten in der Wohngegend Oberes Kleinbasel mit 100% zufriedener.",
 "erlaeuterungen":"Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt. Da im Datensatz nicht für alle statistischen Wohnviertel genügend Beobachtungen vorliegen, wurden einzelne Wohnviertel zu grösseren Gebietseinheiten zusammengefasst. Es sind dies: Innenstadt = Altstadt Grossbasel, Vorstädte, Altstadt Kleinbasel; Am Ring West = Am Ring, Bachletten, Gotthelf, Iselin; Unteres Kleinbasel = Clara, Rosental, Matthäus, Klybeck, Kleinhüningen; Oberes Kleinbasel = Wettstein, Hirzbrunnen.",
-"template":"befragungenProzent001",
+"template":"template001",
 "option":"options001",
 "visible":true,
 "visibleInPortal":false,

@@ -6,7 +6,10 @@
   	"switchRowsAndColumns": true
   },
   "xAxis": {
-    "type": "category"  ,	
+    "type": "category",	
+    "labels": {
+      "rotation": -90 
+    } 
   },
   "yAxis": {
 	"max": 100,
@@ -51,7 +54,7 @@
   },  
   "chart": {      
     "type": "column",
-    "inverted": true
+    "inverted": false
   }
 }
 }());

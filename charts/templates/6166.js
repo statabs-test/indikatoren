@@ -20,7 +20,7 @@
     }, /* dunkelrot */
   ],
   "legend": {
-    "enabled": true,
+    "enabled": false,
     "x": 45,
     "y": 35,
     "itemWidth": 200,
