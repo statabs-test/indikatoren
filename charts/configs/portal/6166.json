@@ -99,7 +99,7 @@
           14.7
         ]
       ],
-      "name": "\"Kanton Basel-Stadt\""
+      "name": "Kanton Basel-Stadt"
     }
   ],
   "chart": {
@@ -185,7 +185,7 @@
     "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt"
   },
   "legend": {
-    "enabled": true,
+    "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",

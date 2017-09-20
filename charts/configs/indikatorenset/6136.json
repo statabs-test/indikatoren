@@ -504,8 +504,7 @@
         "color": "#000000"
       }
     },
-    "tickColor": "#FFFFFF",
-    "tickInterval": 1
+    "tickColor": "#FFFFFF"
   },
   "chart": {
     "borderColor": "#fbfbfb",
@@ -573,7 +572,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "max": 100
   },
   "navigation": {
     "menuItemStyle": {

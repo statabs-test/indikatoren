@@ -3,6 +3,7 @@
     {
       "color": "#256370",
       "index": 10,
+      "yAxis": 0,
       "visible": false,
       "data": [
         [
@@ -67,6 +68,7 @@
     {
       "color": "#a8c4cb",
       "index": 9,
+      "yAxis": 0,
       "visible": false,
       "data": [
         [
@@ -131,6 +133,7 @@
     {
       "color": "#ffbb58",
       "index": 8,
+      "yAxis": 0,
       "visible": false,
       "data": [
         [
@@ -195,6 +198,7 @@
     {
       "color": "#b475ab",
       "index": 7,
+      "yAxis": 0,
       "visible": false,
       "data": [
         [
@@ -259,6 +263,7 @@
     {
       "color": "#44ab2b",
       "index": 6,
+      "yAxis": 0,
       "visible": true,
       "data": [
         [
@@ -323,6 +328,7 @@
     {
       "color": "#007a2f",
       "index": 5,
+      "yAxis": 0,
       "visible": false,
       "data": [
         [
@@ -387,6 +393,7 @@
     {
       "color": "#672773",
       "index": 4,
+      "yAxis": 0,
       "visible": false,
       "data": [
         [
@@ -451,6 +458,7 @@
     {
       "color": "#b00000",
       "index": 3,
+      "yAxis": 0,
       "visible": false,
       "data": [
         [
@@ -515,6 +523,7 @@
     {
       "color": "#ff8028",
       "index": 2,
+      "yAxis": 0,
       "visible": false,
       "data": [
         [
@@ -579,6 +588,7 @@
     {
       "color": "#cd9c00",
       "index": 1,
+      "yAxis": 0,
       "visible": false,
       "data": [
         [
@@ -646,6 +656,7 @@
       "legendIndex": 12,
       "type": "column",
       "borderWidth": 0,
+      "yAxis": 1,
       "data": [
         [
           2000,
@@ -748,22 +759,36 @@
     "shared": false,
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
-  "yAxis": {
-    "min": 0,
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
+  "yAxis": [
+    {
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
       },
-      "text": null
+      "min": 0,
+      "title": ""
     },
-    "labels": {
-      "style": {
-        "color": "#000000"
+    {
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
       },
-      "format": "{value:,.0f}"
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "gridLineWidth": 0,
+      "opposite": true
     }
-  },
+  ],
   "xAxis": {
     "labels": {
       "style": {
@@ -771,7 +796,7 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 3
+    "tickInterval": 2
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
