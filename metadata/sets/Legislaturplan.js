@@ -167,7 +167,7 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Schulabgänger/-innen ohne Anschlusslösung nach Geschlecht und Schultyp",
+		"title": "Schulabgänger/-innen ohne Anschlusslösung nach Geschlecht",
 		"subtitle": "",
 		"kuerzel": "I.15.7.06135",
 		"kuerzelKunde": "3.1",
@@ -334,7 +334,7 @@ var indikatorensetData = [
 		"kuerzel": "I.13.2.06180",
 		"kuerzelKunde": "11.1",
 		"description": "Anteil Empfänger/-innen von Ergänzungsleistungen",
-		"id": 2956,
+		"id": 5066,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Legislaturplan",
@@ -2225,6 +2225,47 @@ var indikatorensetData = [
 		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung, Publikation"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Schulabgänger/-innen ohne Anschlusslösung nach Schultyp",
+		"subtitle": "",
+		"kuerzel": "I.15.7.06206",
+		"kuerzelKunde": "LP.7.26.3",
+		"description": "Schulabgänger/-innen ohne Anschlusslösung nach Schultyp",
+		"id": 6206,
+		"thema": "15 Bildung",
+		"unterthema": "Bildungsabschlüsse",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Geschlecht",
+			"Bildung",
+			"Schule"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Jugendlichen der Abschlussklassen der Sekundarstufe I werden jeweils Ende Schuljahr schriftlich über ihren nächsten Ausbildungsschritt befragt. Nachdem sich die Mädchen bei der Suche nach einer Anschlusslösung bis 2010 vergleichsweise schwer getan haben, gelingt ihnen dies seit 2011 besser als den Knaben (Ausnahme 2012). Die Werte 2016 deuten darauf hin, dass die Jugendlichen wieder mehr Mühe haben, eine für sie passende Anschlusslösung zu finden.",
+		"erlaeuterungen": "Die Weiterbildungsschule läuft Ende Schuljahr 2017/18 aus.",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung"
 		],
 		"externalLinks": [
 			""

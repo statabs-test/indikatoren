@@ -4576,7 +4576,7 @@ var indikatoren = [
 		"kuerzel": "I.13.2.06180",
 		"kuerzelKunde": "11.1",
 		"description": "Anteil Empfänger/-innen von Ergänzungsleistungen",
-		"id": 2956,
+		"id": 5066,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Legislaturplan",

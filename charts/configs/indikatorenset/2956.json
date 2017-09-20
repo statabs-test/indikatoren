@@ -1,63 +1,483 @@
 {
   "series": [
     {
-      "color": "#999999",
-      "index": 2,
+      "color": "#cd9c00",
+      "visible": false,
       "data": [
         [
-          "Gesundheitsversorgung",
-          2.1
+          "Schweiz",
+          95.154884829229
+        ],
+        [
+          "Ausland",
+          93.532338308457
+        ],
+        [
+          "18-29 J.",
+          91
+        ],
+        [
+          "30-39 J.",
+          93.362831858407
+        ],
+        [
+          "40-49 J.",
+          95.76923076923
+        ],
+        [
+          "50-59 J.",
+          96.958174904942
+        ],
+        [
+          "\u003E69 J.",
+          96.028880866425
+        ],
+        [
+          "Männer",
+          95.808383233532
+        ],
+        [
+          "Männer",
+          95.808383233532
+        ],
+        [
+          "Total",
+          94.931506849315
         ]
       ],
-      "name": "Weiss nicht\u002Fk.A.",
+      "name": "2003",
       "turboThreshold": 0
     },
     {
-      "color": "#dc440e",
-      "index": 0,
+      "color": "#9f7c5a",
+      "visible": false,
       "data": [
         [
-          "Gesundheitsversorgung",
-          0.4
+          "Schweiz",
+          96.403440187646
+        ],
+        [
+          "Ausland",
+          94.202898550724
+        ],
+        [
+          "18-29 J.",
+          96.818181818181
+        ],
+        [
+          "30-39 J.",
+          94.570135746606
+        ],
+        [
+          "40-49 J.",
+          95.532646048109
+        ],
+        [
+          "50-59 J.",
+          95.719844357976
+        ],
+        [
+          "\u003E69 J.",
+          99.22480620155
+        ],
+        [
+          "Männer",
+          96.700143472022
+        ],
+        [
+          "Männer",
+          96.700143472022
+        ],
+        [
+          "Total",
+          96.096904441453
         ]
       ],
-      "name": "Sehr unzufrieden",
+      "name": "2005",
       "turboThreshold": 0
     },
     {
-      "color": "#ffbb58",
-      "index": 1,
+      "color": "#b00000",
+      "visible": false,
       "data": [
         [
-          "Gesundheitsversorgung",
-          2.9
+          "Schweiz",
+          96.027501909854
+        ],
+        [
+          "Ausland",
+          95.930232558139
+        ],
+        [
+          "18-29 J.",
+          96.56862745098
+        ],
+        [
+          "30-39 J.",
+          94.21965317919
+        ],
+        [
+          "40-49 J.",
+          95.652173913043
+        ],
+        [
+          "50-59 J.",
+          95.620437956204
+        ],
+        [
+          "\u003E69 J.",
+          97.067448680351
+        ],
+        [
+          "Männer",
+          96.902654867256
+        ],
+        [
+          "Männer",
+          96.902654867256
+        ],
+        [
+          "Total",
+          96.016205266711
         ]
       ],
-      "name": "Eher unzufrieden",
+      "name": "2007",
       "turboThreshold": 0
     },
     {
-      "color": "#68ab2b",
-      "index": 3,
+      "color": "#ff5050",
+      "visible": false,
       "data": [
         [
-          "Gesundheitsversorgung",
-          42.8
+          "Schweiz",
+          96.207430340557
+        ],
+        [
+          "Ausland",
+          94.31279620853
+        ],
+        [
+          "18-29 J.",
+          96.629213483146
+        ],
+        [
+          "30-39 J.",
+          95.266272189349
+        ],
+        [
+          "40-49 J.",
+          95.762711864406
+        ],
+        [
+          "50-59 J.",
+          94.052044609665
+        ],
+        [
+          "\u003E69 J.",
+          96.923076923076
+        ],
+        [
+          "Männer",
+          96.870342771982
+        ],
+        [
+          "Männer",
+          96.870342771982
+        ],
+        [
+          "Total",
+          95.941450432468
         ]
       ],
-      "name": "Eher zufrieden",
+      "name": "2011",
       "turboThreshold": 0
     },
     {
-      "color": "#007a2f",
-      "index": 4,
+      "color": "#45381d",
+      "visible": true,
       "data": [
         [
-          "Gesundheitsversorgung",
-          51.7
+          "Schweiz",
+          96.617986164488
+        ],
+        [
+          "Ausland",
+          96.470588235294
+        ],
+        [
+          "18-29 J.",
+          97.872340425531
+        ],
+        [
+          "30-39 J.",
+          91.304347826086
+        ],
+        [
+          "40-49 J.",
+          97.093023255813
+        ],
+        [
+          "50-59 J.",
+          97.735849056603
+        ],
+        [
+          "\u003E69 J.",
+          96.987951807228
+        ],
+        [
+          "Männer",
+          96.898079763663
+        ],
+        [
+          "Männer",
+          96.898079763663
+        ],
+        [
+          "Total",
+          96.600951733514
         ]
       ],
-      "name": "Sehr zufrieden",
+      "name": "2015",
+      "turboThreshold": 0
+    },
+    {
+      "visible": false,
+      "showInLegend": false,
+      "data": [
+        [
+          "Schweiz",
+          1259
+        ],
+        [
+          "Ausland",
+          201
+        ],
+        [
+          "18-29 J.",
+          200
+        ],
+        [
+          "30-39 J.",
+          226
+        ],
+        [
+          "40-49 J.",
+          260
+        ],
+        [
+          "50-59 J.",
+          263
+        ],
+        [
+          "\u003E69 J.",
+          277
+        ],
+        [
+          "Männer",
+          668
+        ],
+        [
+          "Männer",
+          668
+        ],
+        [
+          "Total",
+          1460
+        ]
+      ],
+      "name": "2003_n",
+      "turboThreshold": 0
+    },
+    {
+      "visible": false,
+      "showInLegend": false,
+      "data": [
+        [
+          "Schweiz",
+          1279
+        ],
+        [
+          "Ausland",
+          207
+        ],
+        [
+          "18-29 J.",
+          220
+        ],
+        [
+          "30-39 J.",
+          221
+        ],
+        [
+          "40-49 J.",
+          291
+        ],
+        [
+          "50-59 J.",
+          257
+        ],
+        [
+          "\u003E69 J.",
+          258
+        ],
+        [
+          "Männer",
+          697
+        ],
+        [
+          "Männer",
+          697
+        ],
+        [
+          "Total",
+          1486
+        ]
+      ],
+      "name": "2005_n",
+      "turboThreshold": 0
+    },
+    {
+      "visible": false,
+      "showInLegend": false,
+      "data": [
+        [
+          "Schweiz",
+          1309
+        ],
+        [
+          "Ausland",
+          172
+        ],
+        [
+          "18-29 J.",
+          204
+        ],
+        [
+          "30-39 J.",
+          173
+        ],
+        [
+          "40-49 J.",
+          230
+        ],
+        [
+          "50-59 J.",
+          274
+        ],
+        [
+          "\u003E69 J.",
+          341
+        ],
+        [
+          "Männer",
+          678
+        ],
+        [
+          "Männer",
+          678
+        ],
+        [
+          "Total",
+          1481
+        ]
+      ],
+      "name": "2007_n",
+      "turboThreshold": 0
+    },
+    {
+      "visible": false,
+      "showInLegend": false,
+      "data": [
+        [
+          "Schweiz",
+          1292
+        ],
+        [
+          "Ausland",
+          211
+        ],
+        [
+          "18-29 J.",
+          178
+        ],
+        [
+          "30-39 J.",
+          169
+        ],
+        [
+          "40-49 J.",
+          236
+        ],
+        [
+          "50-59 J.",
+          269
+        ],
+        [
+          "\u003E69 J.",
+          390
+        ],
+        [
+          "Männer",
+          671
+        ],
+        [
+          "Männer",
+          671
+        ],
+        [
+          "Total",
+          1503
+        ]
+      ],
+      "name": "2011_n",
+      "turboThreshold": 0
+    },
+    {
+      "visible": false,
+      "showInLegend": false,
+      "data": [
+        [
+          "Schweiz",
+          1301
+        ],
+        [
+          "Ausland",
+          170
+        ],
+        [
+          "18-29 J.",
+          94
+        ],
+        [
+          "30-39 J.",
+          115
+        ],
+        [
+          "40-49 J.",
+          172
+        ],
+        [
+          "50-59 J.",
+          265
+        ],
+        [
+          "\u003E69 J.",
+          498
+        ],
+        [
+          "Männer",
+          677
+        ],
+        [
+          "Männer",
+          677
+        ],
+        [
+          "Total",
+          1471
+        ]
+      ],
+      "name": "2015_n",
       "turboThreshold": 0
     }
   ],
@@ -105,6 +525,7 @@
     },
     "zoomType": "xy",
     "type": "column",
+    "inverted": false,
     "renderTo": "container-2956"
   },
   "title": {
@@ -137,8 +558,7 @@
           "fontSize": "10px"
         }
       },
-      "stacking": "percent",
-      "pointWidth": 30
+      "stacking": "percent"
     }
   },
   "yAxis": {
@@ -155,11 +575,21 @@
       "style": {
         "color": "#000000"
       }
-    }
+    },
+    "max": 100
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
-    "shared": false
+    "shared": false,
+    "formatter": function (args){
+      var seriesName = this.series.name;
+      //get corresponding series by name: series 2015-N corresponds to series 2015, etc.
+      var correspondingNSeries = this.series.chart.series.filter(function(element, index, array){
+          return element.name == seriesName + '_n';
+      })[0];
+      var n = correspondingNSeries.yData[this.x];
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 1, ",", " ") + '%</b> (n=' + n + ')<br/>';
+    }
   },
   "credits": {
     "enabled": true,
@@ -177,10 +607,10 @@
     "text": "Quelle: Bevölkerungsbefragung Basel-Stadt 2015, Frage F6"
   },
   "legend": {
-    "layout": "vertical",
-    "verticalAlign": "middle",
+    "layout": "horizontal",
+    "verticalAlign": "top",
     "itemMarginBottom": 5,
-    "align": "right",
+    "align": "left",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal"
@@ -188,7 +618,10 @@
     "symbolRadius": 0,
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
-        }
+        },
+    "enabled": true,
+    "x": 35,
+    "y": 65
   },
   "exporting": {
     "filename": "I.50.1.06174"
