@@ -16,7 +16,8 @@
                 "fontFamily": "Arial"
             },
             "type": "map",
-    		"inverted": false
+    		"inverted": false, 
+    		animation: true
         },
         "title": {
             "style": {
@@ -61,6 +62,13 @@
                     "color": "black"
             }
     	},    
+    	xAxis: {
+    		visible: true
+    	},
+    	yAxis: {
+    		visible: true,
+    		minRange: -1272279
+    	},
         "mapNavigation": {
             "enabled": true,
             "buttonOptions": {
@@ -169,55 +177,33 @@
 		    
 		    defineTemplate: function(){
 
-					//define new chart type
-					// source: https://www.highcharts.com/blog/data-journalism/effectively-visualizing-us-election-results/, 
-					//  which displays  http://jsfiddle.net/gh/get/library/pure/highcharts/highcharts/tree/master/samples/maps/demo/map-pies/
-					
-					    
-					// New map-pie series type that also allows lat/lon as center option.
-					// Also adds a sizeFormatter option to the series, to allow dynamic sizing
-					// of the pies.
-					Highcharts.seriesType('mappie', 'pie', {
-					    center: null, // Can't be array by default anymore
-					    clip: true, // For map navigation
-					    dataLabels: {
-					        enabled: false
-					    }
-					    
-					}, {
-					    getCenter: function () {
-					        var options = this.options,
-					            chart = this.chart,
-					            slicingRoom = 2 * (options.slicedOffset || 0);
-					        if (!options.center) {
-					            options.center = [null, null]; // Do the default here instead
-					        }
-					        // Handle lat/lon support
-					        if (options.center.lat !== undefined) {
-					            var point = chart.fromLatLonToPoint(options.center);
-					            options.center = [
-					                chart.xAxis[0].toPixels(point.x, true),
-					                chart.yAxis[0].toPixels(point.y, true)
-					            ];
-					        }
-					        // Handle dynamic size
-					        if (options.sizeFormatter) {
-					            options.size = options.sizeFormatter.call(this);
-					        }
-					        // Call parent function
-					        var result = Highcharts.seriesTypes.pie.prototype.getCenter.call(this);
-					        // Must correct for slicing room to get exact pixel pos
-					        result[0] -= slicingRoom;
-					        result[1] -= slicingRoom;
-					        return result;
-					    },
-					    translate: function (p) {
-					        this.options.center = this.userOptions.center;
-					        this.center = this.getCenter();
-					        return Highcharts.seriesTypes.pie.prototype.translate.call(this, p);
-					    }
-					});
+					//define new chart type, see http://jsfiddle.net/o85o39tL/
 
+					// New mapcolumn series type that also allows lat/lon as center option.
+					Highcharts.seriesType('mapcolumn', 'column', {
+					  dataLabels: {
+					    enabled: false
+					  }
+					}, {
+					  drawPoints: function() {
+					    // Proceed
+					    Highcharts.seriesTypes.column.prototype.drawPoints.call(this);
+					
+					    // Custom      
+					    var series = this,
+					      points = series.points,
+					      firstSeries = series.chart.series[0];
+					      console.log();
+					
+					    Highcharts.each(points, function(point, index) {
+					      var state = firstSeries.points[series.index - 3];
+						      point.graphic.attr({
+						        x: state.plotX + index * 4,
+						        y: state.plotY - point.graphic.attr('height')
+						      });
+					    });
+					  }
+					});
     		    },
     		    
 				// Compute max and min value to find relative sizes of bubbles. 
@@ -242,7 +228,7 @@
 				    		    
 				    		    
 	            //draw pies onto he map			    		    
-                drawPies: function(chart, pieSizeSeries, pieSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig){
+                drawColumns: function(chart, pieSizeSeries, pieSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig){
                     
                     //iterate over each wohnviertel and draw the pies / bubbles
 	                Highcharts.each(pieSizeSeries.points, function (data, i) {
@@ -251,47 +237,42 @@
 	                        return; // Skip points with no data, if any
 	                    }
 	                    
+	                    if (false || i > 1) {return null}
+	                    
 	                	var correspondingMapSeriesItem = choroplethSeries.points[data.index];
 	                	
-	                	//define where to place the pies on the map
-	                    var pieOffset = correspondingMapSeriesItem.pieOffset || {},
-	                        centerLat = parseFloat(correspondingMapSeriesItem.properties.lat),
-	                        centerLon = parseFloat(correspondingMapSeriesItem.properties.lon);
-	                	
                         //create the highcharts pie chart config
-	                    var currentPieSeries = function(config){
+	                    var currentColumnSeries = function(config){
 	                        //define default properties
-	                        var mapPieConfig = {
-    	                        type: 'mappie',
+	                        var mapColumnConfig = {
+    	                        type: 'mapcolumn',
+    	                        animation: true,
     	                        name: data.series.name,
     	                        wohnviertel_Name: data["hc-key"],
     	                        wohnviertel_Id : correspondingMapSeriesItem.wohnviertel_Id,
     	                        zIndex: 6, // Keep pies above connector lines
     	                        borderWidth: 1,
-    	                        tooltip: {
-	                        	    headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {series.name} </span><br/>',
-		                            pointFormatter: function () {
-		                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),3) + '</b><br/>';
-		                            }
-    	                        },
-	                            center: {
-    	                            lat: centerLat + (pieOffset.lat || 0),
-    	                            lon: centerLon + (pieOffset.lon || 0)
-    	                        }, 
-    	                        
-    	                        //defaults that are normally overwritten
-		                        sizeFormatter: function () {
-		                            var fn = this.chart.options.customFunctions;
-									//pie diameters in px
-									var maxPieDiameter = 20;		 
-									//pie Size proportional to absolute value, no categories used
-		                            return fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
-		                        },
+    	                        showInLegend: false,
 		                        dataLabels: {
 							        enabled: false
 							    }, 
+							        data: [{
+							        	name: 'Test1',
+								      x: 2610000,
+								      y: -1262000,
+								      v: -1262000,
+								      color: 'green',
+								      borderColor: 'green'
+								    }, {
+								    	name: 'Test2',
+								      x: 2610500,
+								      y: -1264000,
+								      v: -1264000,
+								      color: 'blue',
+								      borderColor: 'blue'
+								    }],
+							   /*
 							    data: [
-							    	/*
 		                        	//Pies: Two series
 		                        	{
 		                        		name: pieSeries[0].name,
@@ -309,13 +290,14 @@
 		                        		color: pieSeries[1].userOptions.color,
 		                        		borderColor: pieSeries[1].userOptions.borderColor
 		                        	}
-		                        	*/
 						    	]
+						    	*/
 	                        };
 	                        
 	                        //add data object to mapPieConfig: for bubbles only one, for pies several
+	                        /*
 	                        pieSeries.forEach(function(item, index, arr){
-	                        	mapPieConfig.data.push(
+	                        	mapColumnConfig.data.push(
 	                        		{
 		                        		name: item.name,
 		                        		//put absolute value in y, real value in v
@@ -326,15 +308,18 @@
 		                        	}
                         		);
 	                        });
+	                        */
 
 	                        //create the config handed in from the chart
-	                        var pieTemplate = config(data, correspondingMapSeriesItem);
+	                        var columnTemplate = config(data, correspondingMapSeriesItem);
 	                        //merge the two configs (2nd into first, see e.g. https://gist.github.com/TorsteinHonsi/f646f39d51d18b7d6bfb)
-	                        return Highcharts.merge(true, mapPieConfig, pieTemplate);
+	                        return Highcharts.merge(true, mapColumnConfig, columnTemplate);
 	                    };
 	                    
 	                    // Add the pie for this wohnviertel to the chart
-	                    chart.addSeries(currentPieSeries(pieSeriesConfig), false);
+	                    var mergeResult = currentColumnSeries(pieSeriesConfig);
+	                    console.log(mergeResult);
+	                    chart.addSeries(mergeResult, false);
 	                    
 	                    /*
 	                    // Draw connector to wohnviertel center if the pie has been offset
@@ -452,7 +437,8 @@
 							$('.pieLegendHtmlText').css('color', 'black');
 						}
 					});
-				}          	
+				}      
+					
 		}
     };
     }()

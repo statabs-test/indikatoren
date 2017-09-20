@@ -84,7 +84,7 @@
 	            load: function (e) {
 	            	
 	            	this.credits.element.onclick = function() {};
-
+					
 	                var chart = this;
 	                var fn = this.options.customFunctions;
 	                //define new Highcharts template "mappie"
@@ -93,6 +93,7 @@
 					var choroplethSeries = chart.series[0];
 					var pieSizeSeries = chart.series[1];
 					var pieSeries = [chart.series[2], chart.series[3]];
+					
 
 					//pie diameters in px
 					var maxPieDiameter = 22;
@@ -100,24 +101,20 @@
 					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
 
 					//define chart-specific details
-					var pieSeriesConfig = function(data, correspondingMapSeriesItem, color){
+					var columnSeriesConfig = function(data, correspondingMapSeriesItem, color){
 						return {
-	                        sizeFormatter: function () {
-	                            var fn = this.chart.options.customFunctions;
-								return fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
-								//return fn.pieSizeCategorical(Math.abs(data.value), pieSizeCatConfig).diameter;
-	                        },
 	                        tooltip: {
 	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {point.key} </span><br/>',
 	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),3) + '</b><br/>';
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.y) ,3) + '</b><br/>';
 	                            }
 	                        },
 	                    };
 					};
 					var pieSizeCatConfig;
-					//put the pies / bubbles on the map
-					fn.drawPies(chart, pieSizeSeries, pieSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig);
+					//put the columns on the map
+					fn.drawColumns(chart, pieSizeSeries, pieSeries, choroplethSeries, columnSeriesConfig, pieSizeCatConfig);
+					
 	                
 					//pie values in legend
 	                var minValueInLegend = 0.001; 
