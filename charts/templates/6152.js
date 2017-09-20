@@ -1,46 +1,105 @@
 (function(){
     return {
-   "yAxis": {
-    "labels": {
-      "format": "{value:,.0f}",
-    }
-  },
   "xAxis": {
-	"tickInterval": 2,
+    "tickInterval":2
+  },
+  "yAxis": {
+	"labels": {
+		"format": "{value:,.0f}"
+	}
+  },	
+  "tooltip": {
+    "shared": false, 
+	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   },
   "series": [
-    {
+    {"color": "#B00000",
       "marker": {
-        "symbol": "circle",
         "enabled": true
-      },     
-      "color": "#8b2223"
-    }
+      }    
+    }, /* dunkelrot */
+    	{"color": "#007A2F",
+	visible:true,
+      "marker": {
+        "enabled": true
+      }    
+    }, /* dunkelgrün */
+    	{"color": "#4f81bd",
+	visible:true,
+      "marker": {
+        "enabled": true
+      }    
+    }, /* dunkelblau */
+    	{"color": "#662673",
+	visible:true,
+      "marker": {
+        "enabled": true
+      }    
+    }, /* dunkelviolett */
+        {"color": "#7F5F1A",
+      "marker": {
+        "enabled": true
+      }    
+    }, /* dunkelbraun */
+    	{"color": "#FABD24",
+	visible:true,
+      "marker": {
+        "enabled": true
+      }    
+    }, /* dunkelgelb */
+    	{"color": "#3C3C3C",
+	visible:true,
+      "marker": {
+        "enabled": true
+      }    
+    }, /* schwarz */
+    	{"color": "#2B0099",
+	visible:true,
+      "marker": {
+        "enabled": true
+      }    
+    }, /* dunkelblau */
+    	{"color": "#E7CEE2",
+	visible:true,
+      "marker": {
+        "enabled": true
+      }    
+    }, /* hellviolett */
+    	{"color": "#A8C3CA",
+	visible:true,
+      "marker": {
+        "enabled": true
+      }    
+    }, /* hellblau */
+    	{"color": "#8AB77D",
+	visible:true,
+      "marker": {
+        "enabled": true
+      }    
+    }, /* hellgrün */
   ],
-  "tooltip": {
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
-    "shared": false
+  "legend": {
+    "enabled": true,
+    "x": 45,
+    "y": 35,
+    "itemWidth": 200,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left",
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
   },
   "plotOptions": {
-    "series": {
-      "dataLabels": {
-        "enabled": true,
-        "allowOverlap": true,
-          y: 30,
-          //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
-          formatter: function() {
-            var last = this.series.data[this.series.data.length - 1];
-            var first = this.series.data[0];
-            if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {
-              return Highcharts.numberFormat(this.point.y, 1, ",", " ");
-            }
-            return "";
-          }
+    "line": {
+	  "connectNulls": true,
+      "marker":{
+        "enabled": false,
+        "symbol": "circle",
       }
-    },
-    
-    
+    }
   }
 }
 }());
-
+ 

@@ -1,34 +1,57 @@
+/*global Highcharts  */
+
 (function(){
     return {
+  "data":{
+  	"switchRowsAndColumns": true
+  },
   "xAxis": {
-    "type": "category"
+    "type": "category"  ,	
+  },
+  "yAxis": {
+	"max": 100,
+    "labels": {
+      "format": "{value}%"
+    }    
   },
   "series": [
-    {
-      "color": "#999999", // grau
-      "index": 2
-    },
-    {
-      "color": "#dc440e", // rot
-      "index": 0
-    },
-    {
-      "color": "#ffbb58", //orange
-      "index": 1
-    },
-    {
-      "color": "#68ab2b", //hellgrün
-      "index": 3
-    },
-    {
-      "color": "#007a2f", //dunkelgrün
-      "index": 4
-    }
+ {"color": "#cd9c00", "visible": false}, /* hellbraun*/
+  {"color": "#9f7c5a", "visible": false}, /* ... */
+  {"color": "#b00000", "visible": false}, /* ...*/
+  {"color": "#ff5050", "visible": false}, /* ... */
+  {"color": "#45381d", "visible": true}, /* dunkelbraun*/
+  {visible: false, showInLegend: false},
+  {visible: false, showInLegend: false},
+  {visible: false, showInLegend: false},
+  {visible: false, showInLegend: false},
+  {visible: false, showInLegend: false}
   ],
-  "plotOptions": {
-    "series": {
-      "pointWidth": 30,
-      },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "x": 35,
+	"y": 65,    
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  tooltip: {
+    formatter: function(args){
+      var seriesName = this.series.name;
+      //get corresponding series by name: series 2015-N corresponds to series 2015, etc.
+      var correspondingNSeries = this.series.chart.series.filter(function(element, index, array){
+          return element.name == seriesName + '_n';
+      })[0];
+      var n = correspondingNSeries.yData[this.x];
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 1, ",", " ") + '%</b> (n=' + n + ')<br/>';
+    },
+    "shared": false
+  },  
+  "chart": {      
+    "type": "column",
+    "inverted": false
   }
-	}
+}
 }());
