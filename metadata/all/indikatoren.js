@@ -1,5 +1,253 @@
 var indikatoren = [
 	{
+		"title": "Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
+		"subtitle": "BS im Vergleich mit ZH, GE, CH",
+		"kuerzel": "I.04.1.06125",
+		"kuerzelKunde": "1.2",
+		"description": "Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
+		"id": 2501,
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Volkseinkommen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton",
+			"Schweiz"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Arbeit",
+			"Standort",
+			"Kantonsvergleich"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Das reale Wertschöpfungswachstum im Gesundheits- und Sozialwesen war im Jahr 2015 für alle betrachteten Kantone stärker als in den anderen Branchen. Nur die chemische Industrie in Basel-Stadt verzeichnete eine deutlich höhere jährliche Wachstumsrate von fast 13%. Das Wachstum im Bereich Life Sciences belief sich in Basel-Stadt auf 3,3%.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "08_00_00_00_00_001",
+		"parentId": 2501,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"BAK Basel Economics"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Vereinbarkeit von Familie und Beruf nach Heimat, Alter und Geschlecht",
+		"subtitle": "",
+		"kuerzel": "I.01.1.06145",
+		"kuerzelKunde": "4.3",
+		"description": "Vereinbarkeit von Familie und Beruf nach Heimat, Alter und Geschlecht",
+		"id": 2952,
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Einkommen",
+			"Erwerb",
+			"Erwerbstätigkeit"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "45,4% der Befragten sind der Meinung, dass es in Basel gute Teilzeitstellen gibt, so dass Väter und Mütter Beruf und Familie unter einen Hut bringen können. Männer stimmen dieser Aussage mit 49,5% häufiger zu als Frauen mit 41,9%. Seit 2003 ist die Einschätzung des Angebots an Teilzeitstellen kontinuierlich gestiegen: 2003 waren 36,8% sehr oder eher einverstanden mit der Aussage, 2015 liegt die Zustimmung bei 45,4%.",
+		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt.",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 2952,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F16a_9"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Zufriedenheit mit Kultur- und Freizeitangebot nach Geschlecht",
+		"subtitle": "«Wie zufrieden sind Sie mit dem Kulturangebot»",
+		"kuerzel": "I.50.1.06168",
+		"kuerzelKunde": "8.2",
+		"description": "Zufriedenheit mit Kultur- und Freizeitangebot nach Geschlecht",
+		"id": 2953,
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Wohnviertel",
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Zufriedenheit",
+			"Museum",
+			"Kunst",
+			"Quartier",
+			"Standort"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Fast 95% der Befragten sind zufrieden mit dem Kulturangebot in Basel-Stadt. Seit 2007 hat die Zufriedenheit mit dem Kulturangebot zugenommen. Die Zufriedenheit mit dem Kulturangebot unterscheidet sich nach Wohngegend. Während in der Wohngegend St. Johann die Zufriedenheit bei 88,4% liegt, sind die Befragten in der Wohngegend Oberes Kleinbasel mit 100% zufriedener.",
+		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt. Da im Datensatz nicht für alle statistischen Wohnviertel genügend Beobachtungen vorliegen, wurden einzelne Wohnviertel zu grösseren Gebietseinheiten zusammengefasst. Es sind dies: Innenstadt = Altstadt Grossbasel, Vorstädte, Altstadt Kleinbasel; Am Ring West = Am Ring, Bachletten, Gotthelf, Iselin; Unteres Kleinbasel = Clara, Rosental, Matthäus, Klybeck, Kleinhüningen; Oberes Kleinbasel = Wettstein, Hirzbrunnen.",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 2953,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_12"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Zufriedeneheit mit der Gesundheitsversorgung am Wohnort",
+		"subtitle": "",
+		"kuerzel": "I.50.1.06174",
+		"kuerzelKunde": "9.4",
+		"description": "Zufriedeneheit mit der Gesundheitsversorgung am Wohnort",
+		"id": 2956,
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Zufriedenheit",
+			"Bevölkerung"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2015 hatten die befragten Personen die Gelegenheit, 23 Punkte, die für den Wohnort wichtig sind, zu bewerten. Am zufriedensten sind sie<br>mit der generellen Vielfalt der Einkaufsmöglichkeiten in Basel, gefolgt von den öffentlichen Verkehrsmitteln und der Gesundheitsversorgung.<br>Beim Thema Parkplätze gehen die Meinungen auseinander: Der Anteil Zufriedener und der Anteil Unzufriedener halten sich in etwa die<br>Waage.",
+		"erlaeuterungen": "",
+		"template": "befragungen001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 5178,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bevölkerungsbefragung Basel-Stadt 2015, Frage F6"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Schulabgänger/-innen ohne Anschlusslösung nach Geschlecht seit 2005",
+		"subtitle": "",
+		"kuerzel": "I.15.7.06135",
+		"kuerzelKunde": "3.1",
+		"description": "Schulabgänger/-innen ohne Anschlusslösung nach Geschlecht und Schultyp",
+		"id": 3051,
+		"thema": "15 Bildung",
+		"unterthema": "Bildungsabschlüsse",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Geschlecht",
+			"Bildung",
+			"Schule"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Jugendlichen der Abschlussklassen der Sekundarstufe I werden jeweils Ende Schuljahr schriftlich über ihren nächsten Ausbildungsschritt befragt. Nachdem sich die Mädchen bei der Suche nach einer Anschlusslösung bis 2010 vergleichsweise schwer getan haben, gelingt ihnen dies seit 2011 besser als den Knaben (Ausnahme 2012). Die Werte 2016 deuten darauf hin, dass die Jugendlichen wieder mehr Mühe haben, eine für sie passende Anschlusslösung zu finden.",
+		"erlaeuterungen": "Die Weiterbildungsschule läuft Ende Schuljahr 2017/18 aus.",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "08_00_00_00_00_001",
+		"parentId": 3051,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": " Globale und kontinentale Erreichbarkeit",
+		"subtitle": "Basel im nationalen Vergleich",
+		"kuerzel": "I.11.1.06153",
+		"kuerzelKunde": "5.1",
+		"description": " Globale und kontinentale Erreichbarkeit",
+		"id": 3104,
+		"thema": "11 Verkehr",
+		"unterthema": "Hotellerie",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Bevölkerung",
+			"Umwelt"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Anteil der Einwohner, welche an ihrem Wohnort in der Nacht einer Lärmbelastung von über 50 dB (A) ausgesetzt sind, betrug 2010 knapp 24%. Bei 14% der Einwohner wurde der Tagesgrenzwert überschritten, bei 16% der Grenzwert in der Nacht.",
+		"erlaeuterungen": "Bei der Kennzahl handelt es sich um einen indexierten Wert: 100 = Mittel aller einbezogenen Ursprungsregionen im Jahr 2002; dem globalen und kontinentalen Erreichbarkeitsmodell liegen Strassenerreichbarkeit, Bahnfahr- und Flugpläne zugrunde; globale Erreichbarkeit = Erreichbarkeit von Regionen ausserhalb Europas; kontinentale Erreichbarkeit = Erreichbarkeit aller Regionen Europas. Erreichbarkeit ist kein klares, lineares Konzept. Vielmehr beruht es auf einer Vielzahl von Faktoren, die unter dem Themenbereich Erreichbarkeit subsumiert werden können. Die Erreichbarkeitsmodelle von BAKBASEL basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren. Zudem folgen sie dem Konzept der Erreichbarkeit „aus der Region“ (outbound accessibility), d.h. es wird die Reisezeit und Frequenz herangezogen, die benötigt wird, um aus der Region andere Regionen zu erreichen. Der resultierende Indikator reflektiert das gesamte Potenzial aller Regionen ohne jegliche Limitierung der Reisezeit. Jedoch werden die Reisedestinationen über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet.",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 5826,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Zufriedenheit mit dem Wohnungsangebot",
 		"subtitle": "«Wie zufrieden sind sie mit dem Wohnungsangebot?»",
 		"kuerzel": "I.50.1.4127",
@@ -8378,6 +8626,128 @@ var indikatoren = [
 		]
 	},
 	{
+		"title": "Transnationale Patentanmeldungen pro 1000 Einwohner nach Technologiefeld",
+		"subtitle": "nach ausgewählten Wirtschaftsbranchen",
+		"kuerzel": "I.04.1.06139",
+		"kuerzelKunde": "3.5",
+		"description": "Transnationale Patentanmeldungen pro 1000 Einwohner nach Technologiefeld",
+		"id": 5033,
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Volkseinkommen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Bewilligung",
+			"Schule",
+			"Standort",
+			"Kantonsvergleich"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Es werden die Patentanmeldungen pro Einwohner im Mittel über mehrere Jahre gezeigt. In Basel-Stadt werden am meisten Patente in der Pharmazeutischen Industrie angemeldet.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 3087,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"BAK Basel Economics"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Kantonale Durchschnittsprämien je versicherte Person in Franken, Basel-Stadt im Vergleich zu BL, AG und SO",
+		"subtitle": "",
+		"kuerzel": "I.14.4.06171",
+		"kuerzelKunde": "9.1",
+		"description": "Kantonale Durchschnittsprämien je versicherte Person in Franken, Basel-Stadt im Vergleich zu BL, AG und SO",
+		"id": 5065,
+		"thema": "14 Gesundheit",
+		"unterthema": "Prävention, Praxen, Rettung",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Gesundheit"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 6171,
+		"children": [
+			"6171"
+		],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Anteil Empfänger/-innen von Ergänzungsleistungen",
+		"subtitle": "",
+		"kuerzel": "I.13.2.06180",
+		"kuerzelKunde": "11.1",
+		"description": "Anteil Empfänger/-innen von Ergänzungsleistungen",
+		"id": 2956,
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Bevölkerung",
+			"Hilfeleistung"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Mit rund 50 000 Beziehenden beziehen etwas mehr als ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligungen.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Amt für Sozialbeiträge, Abteilung Prämienverbilligungen"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Sozialhilfequote",
 		"subtitle": "Stand: 2016",
 		"kuerzel": "I.13.3.5109",
@@ -9426,48 +9796,6 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
-		"subtitle": "BS im Vergleich mit ZH, GE, CH",
-		"kuerzel": "I.04.1.06125",
-		"kuerzelKunde": "1.2",
-		"description": "Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
-		"id": 6125,
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Volkseinkommen",
-		"kennzahlenset": "Legislaturplan",
-		"raeumlicheGliederung": [
-			"Kanton",
-			"Schweiz"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeit",
-			"Standort",
-			"Kantonsvergleich"
-		],
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Das reale Wertschöpfungswachstum im Gesundheits- und Sozialwesen war im Jahr 2015 für alle betrachteten Kantone stärker als in den anderen Branchen. Nur die chemische Industrie in Basel-Stadt verzeichnete eine deutlich höhere jährliche Wachstumsrate von fast 13%. Das Wachstum im Bereich Life Sciences belief sich in Basel-Stadt auf 3,3%.",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": false,
-		"orderKey": "08_00_00_00_00_001",
-		"parentId": 2501,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"BAK Basel Economics"
-		],
-		"externalLinks": [
-			""
-		]
-	},
-	{
 		"title": "Kantonaler Wettbewerbsindikator (KWI) 2016 im Vergleich mit ausgewählten Kantonen.",
 		"subtitle": "",
 		"kuerzel": "I.04.2.06126",
@@ -9667,47 +9995,6 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Schulabgänger/-innen ohne Anschlusslösung nach Geschlecht und Schultyp",
-		"subtitle": "",
-		"kuerzel": "I.15.7.06135",
-		"kuerzelKunde": "3.1",
-		"description": "Schulabgänger/-innen ohne Anschlusslösung nach Geschlecht und Schultyp",
-		"id": 6135,
-		"thema": "15 Bildung",
-		"unterthema": "Bildungsabschlüsse",
-		"kennzahlenset": "Legislaturplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Bildung",
-			"Schule"
-		],
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Jugendlichen der Abschlussklassen der Sekundarstufe I werden jeweils Ende Schuljahr schriftlich über ihren nächsten Ausbildungsschritt befragt. Nachdem sich die Mädchen bei der Suche nach einer Anschlusslösung bis 2010 vergleichsweise schwer getan haben, gelingt ihnen dies seit 2011 besser als den Knaben (Ausnahme 2012). Die Werte 2016 deuten darauf hin, dass die Jugendlichen wieder mehr Mühe haben, eine für sie passende Anschlusslösung zu finden.",
-		"erlaeuterungen": "Die Weiterbildungsschule läuft Ende Schuljahr 2017/18 aus.",
-		"template": "template001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": false,
-		"orderKey": "08_00_00_00_00_001",
-		"parentId": 3051,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung"
-		],
-		"externalLinks": [
-			""
-		]
-	},
-	{
 		"title": "Höchste abgeschlossene Ausbildung nach Geschlecht, Herkunft und Altersgruppe",
 		"subtitle": "",
 		"kuerzel": "I.15.6.06136",
@@ -9831,48 +10118,6 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Transnationale Patentanmeldungen pro 1000 Einwohner nach Technologiefeld",
-		"subtitle": "nach ausgewählten Wirtschaftsbranchen",
-		"kuerzel": "I.04.1.06139",
-		"kuerzelKunde": "3.5",
-		"description": "Transnationale Patentanmeldungen pro 1000 Einwohner nach Technologiefeld",
-		"id": 6139,
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Volkseinkommen",
-		"kennzahlenset": "Legislaturplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bewilligung",
-			"Schule",
-			"Standort",
-			"Kantonsvergleich"
-		],
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Es werden die Patentanmeldungen pro Einwohner im Mittel über mehrere Jahre gezeigt. In Basel-Stadt werden am meisten Patente in der Pharmazeutischen Industrie angemeldet.",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": false,
-		"orderKey": "",
-		"parentId": 3087,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"BAK Basel Economics"
-		],
-		"externalLinks": [
-			""
-		]
-	},
-	{
 		"title": "Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft in der NWCH und anderen Grossregionen, Anteil am BIP",
 		"subtitle": "",
 		"kuerzel": "I.04.2.06140",
@@ -9989,47 +10234,6 @@ var indikatoren = [
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"externalLinks": [
-			""
-		]
-	},
-	{
-		"title": "Vereinbarkeit von Familie und Beruf nach Heimat, Alter und Geschlecht",
-		"subtitle": "",
-		"kuerzel": "I.01.1.06145",
-		"kuerzelKunde": "4.3",
-		"description": "Vereinbarkeit von Familie und Beruf nach Heimat, Alter und Geschlecht",
-		"id": 6145,
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Legislaturplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen",
-			"Erwerb",
-			"Erwerbstätigkeit"
-		],
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "45,4% der Befragten sind der Meinung, dass es in Basel gute Teilzeitstellen gibt, so dass Väter und Mütter Beruf und Familie unter einen Hut bringen können. Männer stimmen dieser Aussage mit 49,5% häufiger zu als Frauen mit 41,9%. Seit 2003 ist die Einschätzung des Angebots an Teilzeitstellen kontinuierlich gestiegen: 2003 waren 36,8% sehr oder eher einverstanden mit der Aussage, 2015 liegt die Zustimmung bei 45,4%.",
-		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt.",
-		"template": "template001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": false,
-		"orderKey": "",
-		"parentId": 2952,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F16a_9"
 		],
 		"externalLinks": [
 			""
@@ -10271,7 +10475,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. Im Durchschnitt vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton eine 7,7.",
 		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt.",
-		"template": "line001",
+		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
@@ -10320,46 +10524,6 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [],
-		"externalLinks": [
-			""
-		]
-	},
-	{
-		"title": " Globale und kontinentale Erreichbarkeit",
-		"subtitle": "Basel im nationalen Vergleich",
-		"kuerzel": "I.11.1.06153",
-		"kuerzelKunde": "5.1",
-		"description": " Globale und kontinentale Erreichbarkeit",
-		"id": 6153,
-		"thema": "11 Verkehr",
-		"unterthema": "Hotellerie",
-		"kennzahlenset": "Legislaturplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Umwelt"
-		],
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Anteil der Einwohner, welche an ihrem Wohnort in der Nacht einer Lärmbelastung von über 50 dB (A) ausgesetzt sind, betrug 2010 knapp 24%. Bei 14% der Einwohner wurde der Tagesgrenzwert überschritten, bei 16% der Grenzwert in der Nacht.",
-		"erlaeuterungen": "Bei der Kennzahl handelt es sich um einen indexierten Wert: 100 = Mittel aller einbezogenen Ursprungsregionen im Jahr 2002; dem globalen und kontinentalen Erreichbarkeitsmodell liegen Strassenerreichbarkeit, Bahnfahr- und Flugpläne zugrunde; globale Erreichbarkeit = Erreichbarkeit von Regionen ausserhalb Europas; kontinentale Erreichbarkeit = Erreichbarkeit aller Regionen Europas. Erreichbarkeit ist kein klares, lineares Konzept. Vielmehr beruht es auf einer Vielzahl von Faktoren, die unter dem Themenbereich Erreichbarkeit subsumiert werden können. Die Erreichbarkeitsmodelle von BAKBASEL basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren. Zudem folgen sie dem Konzept der Erreichbarkeit „aus der Region“ (outbound accessibility), d.h. es wird die Reisezeit und Frequenz herangezogen, die benötigt wird, um aus der Region andere Regionen zu erreichen. Der resultierende Indikator reflektiert das gesamte Potenzial aller Regionen ohne jegliche Limitierung der Reisezeit. Jedoch werden die Reisedestinationen über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet.",
-		"template": "line001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": false,
-		"orderKey": "",
-		"parentId": 5826,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster"
-		],
 		"externalLinks": [
 			""
 		]
@@ -10798,50 +10962,6 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Zufriedenheit mit Kultur- und Freizeitangebot nach Geschlecht",
-		"subtitle": "«Wie zufrieden sind Sie mit dem Kulturangebot»",
-		"kuerzel": "I.50.1.06168",
-		"kuerzelKunde": "8.2",
-		"description": "Zufriedenheit mit Kultur- und Freizeitangebot nach Geschlecht",
-		"id": 6168,
-		"thema": "50 Befragungen",
-		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Legislaturplan",
-		"raeumlicheGliederung": [
-			"Wohnviertel",
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Zufriedenheit",
-			"Museum",
-			"Kunst",
-			"Quartier",
-			"Standort"
-		],
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Fast 95% der Befragten sind zufrieden mit dem Kulturangebot in Basel-Stadt. Seit 2007 hat die Zufriedenheit mit dem Kulturangebot zugenommen. Die Zufriedenheit mit dem Kulturangebot unterscheidet sich nach Wohngegend. Während in der Wohngegend St. Johann die Zufriedenheit bei 88,4% liegt, sind die Befragten in der Wohngegend Oberes Kleinbasel mit 100% zufriedener.",
-		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt. Da im Datensatz nicht für alle statistischen Wohnviertel genügend Beobachtungen vorliegen, wurden einzelne Wohnviertel zu grösseren Gebietseinheiten zusammengefasst. Es sind dies: Innenstadt = Altstadt Grossbasel, Vorstädte, Altstadt Kleinbasel; Am Ring West = Am Ring, Bachletten, Gotthelf, Iselin; Unteres Kleinbasel = Clara, Rosental, Matthäus, Klybeck, Kleinhüningen; Oberes Kleinbasel = Wettstein, Hirzbrunnen.",
-		"template": "template001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": false,
-		"orderKey": "",
-		"parentId": 2953,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_12"
-		],
-		"externalLinks": [
-			""
-		]
-	},
-	{
 		"title": "Kulturelle Aktivitäten: Anzahl Besuche in Theater, Kinos und Museen",
 		"subtitle": "",
 		"kuerzel": "I.16.1.06169",
@@ -10924,45 +11044,6 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Kantonale Durchschnittsprämien je versicherte Person in Franken, Basel-Stadt im Vergleich zu BL, AG und SO",
-		"subtitle": "",
-		"kuerzel": "I.14.4.06171",
-		"kuerzelKunde": "9.1",
-		"description": "Kantonale Durchschnittsprämien je versicherte Person in Franken, Basel-Stadt im Vergleich zu BL, AG und SO",
-		"id": 6171,
-		"thema": "14 Gesundheit",
-		"unterthema": "Prävention, Praxen, Rettung",
-		"kennzahlenset": "Legislaturplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Gesundheit"
-		],
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "",
-		"template": "line001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": false,
-		"orderKey": "",
-		"parentId": 6171,
-		"children": [
-			"6171"
-		],
-		"renderLink": [],
-		"quellenangabe": [],
-		"externalLinks": [
-			""
-		]
-	},
-	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion in Franken pro Kopf",
 		"subtitle": "",
 		"kuerzel": "I.04.1.06172",
@@ -11039,46 +11120,6 @@ var indikatoren = [
 		"renderLink": [],
 		"quellenangabe": [
 			"Amt für Sozialbeiträge, Abteilung Prämienverbilligungen und Familienmietzinsbeiträge"
-		],
-		"externalLinks": [
-			""
-		]
-	},
-	{
-		"title": "Zufriedeneheit mit der Gesundheitsversorgung am Wohnort",
-		"subtitle": "",
-		"kuerzel": "I.50.1.06174",
-		"kuerzelKunde": "9.4",
-		"description": "Zufriedeneheit mit der Gesundheitsversorgung am Wohnort",
-		"id": 6174,
-		"thema": "50 Befragungen",
-		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Legislaturplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Zufriedenheit",
-			"Bevölkerung"
-		],
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "2015 hatten die befragten Personen die Gelegenheit, 23 Punkte, die für den Wohnort wichtig sind, zu bewerten. Am zufriedensten sind sie<br>mit der generellen Vielfalt der Einkaufsmöglichkeiten in Basel, gefolgt von den öffentlichen Verkehrsmitteln und der Gesundheitsversorgung.<br>Beim Thema Parkplätze gehen die Meinungen auseinander: Der Anteil Zufriedener und der Anteil Unzufriedener halten sich in etwa die<br>Waage.",
-		"erlaeuterungen": "",
-		"template": "befragungen001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": false,
-		"orderKey": "",
-		"parentId": 5178,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bevölkerungsbefragung Basel-Stadt 2015, Frage F6"
 		],
 		"externalLinks": [
 			""
@@ -11237,47 +11278,6 @@ var indikatoren = [
 		"renderLink": [],
 		"quellenangabe": [
 			"Kantonales Laboratorium Basel-Stadt, Kontrollstelle für Chemie- und Biosicherheit"
-		],
-		"externalLinks": [
-			""
-		]
-	},
-	{
-		"title": "Anteil Empfänger/-innen von Ergänzungsleistungen",
-		"subtitle": "",
-		"kuerzel": "I.13.2.06180",
-		"kuerzelKunde": "11.1",
-		"description": "Anteil Empfänger/-innen von Ergänzungsleistungen",
-		"id": 6180,
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialleistungen",
-		"kennzahlenset": "Legislaturplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Hilfeleistung"
-		],
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Mit rund 50 000 Beziehenden beziehen etwas mehr als ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligungen.",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
-		"orderKey": "",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Amt für Sozialbeiträge, Abteilung Prämienverbilligungen"
 		],
 		"externalLinks": [
 			""
@@ -11487,6 +11487,50 @@ var indikatoren = [
 		]
 	},
 	{
+		"title": "Beurteilung der kantonalen Verwaltung",
+		"subtitle": "«Denken Sie einmal an den letzten Kontakt, den Sie mit der kantonalen Verwaltung gehabt haben. Wie ist dieser Kontakt verlaufen?»",
+		"kuerzel": "I.50.1.06186",
+		"kuerzelKunde": "12.2",
+		"description": "Beurteilung der kantonalen Verwaltung",
+		"id": 6186,
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Heimat",
+			"Geschlecht",
+			"Alter",
+			"Bevölkerung",
+			"Verwaltung",
+			"Beurteilung"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "86,1% der befragten Personen schätzen den letzten Kontakt, den sie mit der Verwaltung des Kantons Basel-Stadt hatten, als positiv ein.",
+		"erlaeuterungen": "Die Antwortkategorien «eher positiv» oder «sehr positiv» wurden summiert. Antwortkategorien eher positiv oder sehr positiv zur Frage aus der Bevölkerungsbefragung: Denken Sie einmal an den letzten Kontakt, den Sie mit der kantonalen Verwaltung gehabt haben. Wie ist dieser Kontakt verlaufen? Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
+		"template": "befragungenProzent001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "",
+		"parentId": 5009,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F19a"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Steuerbelastung durch Reingewinn- und Kapitalsteuern für Kapitalgesellschaften und Genossenschaften: 400 000",
 		"subtitle": "",
 		"kuerzel": "I.04.1.06201",
@@ -11565,6 +11609,47 @@ var indikatoren = [
 		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung, Publikation"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Schulabgänger/-innen ohne Anschlusslösung nach Schultyp",
+		"subtitle": "",
+		"kuerzel": "I.15.7.06206",
+		"kuerzelKunde": "LP.7.26.3",
+		"description": "Schulabgänger/-innen ohne Anschlusslösung nach Schultyp",
+		"id": 6206,
+		"thema": "15 Bildung",
+		"unterthema": "Bildungsabschlüsse",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Geschlecht",
+			"Bildung",
+			"Schule"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Jugendlichen der Abschlussklassen der Sekundarstufe I werden jeweils Ende Schuljahr schriftlich über ihren nächsten Ausbildungsschritt befragt. Nachdem sich die Mädchen bei der Suche nach einer Anschlusslösung bis 2010 vergleichsweise schwer getan haben, gelingt ihnen dies seit 2011 besser als den Knaben (Ausnahme 2012). Die Werte 2016 deuten darauf hin, dass die Jugendlichen wieder mehr Mühe haben, eine für sie passende Anschlusslösung zu finden.",
+		"erlaeuterungen": "Die Weiterbildungsschule läuft Ende Schuljahr 2017/18 aus.",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung"
 		],
 		"externalLinks": [
 			""

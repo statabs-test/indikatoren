@@ -48,7 +48,58 @@
           13.8
         ]
       ],
-      "name": "Einbürgerungsziffer"
+      "name": "Einbürgerungsziffer (linke Achse)"
+    },
+    {
+      "marker": {
+        "symbol": "circle",
+        "enabled": true
+      },
+      "color": "#68AB2B",
+      "yAxis": 1,
+      "data": [
+        [
+          2006,
+          0.311919571
+        ],
+        [
+          2007,
+          0.313393617
+        ],
+        [
+          2008,
+          0.318270063
+        ],
+        [
+          2009,
+          0.325844404
+        ],
+        [
+          2010,
+          0.328020587
+        ],
+        [
+          2011,
+          0.333696037
+        ],
+        [
+          2012,
+          0.338712595
+        ],
+        [
+          2013,
+          0.345607007
+        ],
+        [
+          2014,
+          0.350072021
+        ],
+        [
+          2015,
+          0.352868096
+        ]
+      ],
+      "name": "Ausländeranteil (rechte Achse)"
     }
   ],
   "chart": {
@@ -92,22 +143,36 @@
     "shared": false,
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
-  "yAxis": {
-    "min": 0,
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
+  "yAxis": [
+    {
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
       },
-      "text": null
+      "min": 0,
+      "title": ""
     },
-    "labels": {
-      "style": {
-        "color": "#000000"
+    {
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
       },
-      "format": "{value:,.0f}"
+      "labels": {
+        "format": "{value:,.1f}",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "gridLineWidth": 0,
+      "opposite": true
     }
-  },
+  ],
   "xAxis": {
     "labels": {
       "style": {
@@ -134,27 +199,17 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
   },
   "legend": {
-    "enabled": false,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
-    "symbolRadius": 0
-  },
-  "plotOptions": {
-    "series": {
-      "dataLabels": {
-        "enabled": true,
-        "allowOverlap": true,
-        "y": 30,
-        "formatter": function () {
-            var last = this.series.data[this.series.data.length - 1];
-            var first = this.series.data[0];
-            if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {
-              return Highcharts.numberFormat(this.point.y, 1, ",", " ");
-            }
-            return "";
-          }
-      }
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "x": 25,
+    "y": 35,
+    "itemWidth": 500,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
     }
   },
   "exporting": {

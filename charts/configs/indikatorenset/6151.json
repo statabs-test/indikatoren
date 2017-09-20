@@ -1,493 +1,343 @@
 {
   "series": [
     {
-      "color": "#B00000",
-      "type": "line",
-      "yAxis": 0,
-      "marker": {
-        "enabled": true
-      },
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
+      "color": "#007a2f",
+      "index": 9,
+      "legendIndex": 9,
       "data": [
         [
-          1960,
-          null
+          "2003",
+          8.124576844955
         ],
         [
-          1961,
-          3.7
+          "2005",
+          6.8
         ],
         [
-          1962,
-          4.1
+          "2007",
+          7
         ],
         [
-          1963,
-          4
+          "2011",
+          13.417052214144
         ],
         [
-          1964,
-          4.1
-        ],
-        [
-          1965,
-          4
-        ],
-        [
-          1966,
-          4
-        ],
-        [
-          1967,
-          4.2
-        ],
-        [
-          1968,
-          4.1
-        ],
-        [
-          1969,
-          4.5
-        ],
-        [
-          1970,
-          4.9
-        ],
-        [
-          1971,
-          5
-        ],
-        [
-          1972,
-          5.1
-        ],
-        [
-          1973,
-          5.3
-        ],
-        [
-          1974,
-          4.9
-        ],
-        [
-          1975,
-          4.3
-        ],
-        [
-          1976,
-          4.4
-        ],
-        [
-          1977,
-          4.5
-        ],
-        [
-          1978,
-          4.8
-        ],
-        [
-          1979,
-          4.8
-        ],
-        [
-          1980,
-          4.9
-        ],
-        [
-          1981,
-          4.8
-        ],
-        [
-          1982,
-          4.5
-        ],
-        [
-          1983,
-          4.6
-        ],
-        [
-          1984,
-          4.8
-        ],
-        [
-          1985,
-          4.8
-        ],
-        [
-          1986,
-          4.9
-        ],
-        [
-          1987,
-          4.8
-        ],
-        [
-          1988,
-          5
-        ],
-        [
-          1989,
-          5.1
-        ],
-        [
-          1990,
-          5.3
-        ],
-        [
-          1991,
-          5
-        ],
-        [
-          1992,
-          4.9
-        ],
-        [
-          1993,
-          4.7
-        ],
-        [
-          1994,
-          4.7
-        ],
-        [
-          1995,
-          4.8
-        ],
-        [
-          1996,
-          4.7
-        ],
-        [
-          1997,
-          4.7
-        ],
-        [
-          1998,
-          4.8
-        ],
-        [
-          1999,
-          4.6
-        ],
-        [
-          2000,
-          4.9
-        ],
-        [
-          2001,
-          4.6
-        ],
-        [
-          2002,
-          4.5
-        ],
-        [
-          2003,
-          4.6
-        ],
-        [
-          2004,
-          4.6
-        ],
-        [
-          2005,
-          4.9
-        ],
-        [
-          2006,
-          5.1
-        ],
-        [
-          2007,
-          5.2
-        ],
-        [
-          2008,
-          5.2
-        ],
-        [
-          2009,
-          4.9
-        ],
-        [
-          2010,
-          5.1
-        ],
-        [
-          2011,
-          4.9
-        ],
-        [
-          2012,
-          null
-        ],
-        [
-          2013,
-          null
-        ],
-        [
-          2014,
-          null
+          "2015",
+          11.618535930154
         ]
       ],
-      "name": "Ökologischer Fussabdruck Schweiz (linke Skala)"
+      "name": "Note 10",
+      "turboThreshold": 0
     },
     {
-      "color": "#246370",
-      "type": "line",
-      "yAxis": 1,
-      "marker": {
-        "enabled": true
-      },
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
+      "color": "#44ab2b",
+      "index": 8,
+      "legendIndex": 8,
       "data": [
         [
-          1960,
-          null
+          "2003",
+          7.041299932295
         ],
         [
-          1961,
-          null
+          "2005",
+          10
         ],
         [
-          1962,
-          null
+          "2007",
+          10.666666666666
         ],
         [
-          1963,
-          null
+          "2011",
+          11.103767349636
         ],
         [
-          1964,
-          null
-        ],
-        [
-          1965,
-          null
-        ],
-        [
-          1966,
-          null
-        ],
-        [
-          1967,
-          null
-        ],
-        [
-          1968,
-          null
-        ],
-        [
-          1969,
-          null
-        ],
-        [
-          1970,
-          null
-        ],
-        [
-          1971,
-          null
-        ],
-        [
-          1972,
-          null
-        ],
-        [
-          1973,
-          null
-        ],
-        [
-          1974,
-          null
-        ],
-        [
-          1975,
-          null
-        ],
-        [
-          1976,
-          null
-        ],
-        [
-          1977,
-          null
-        ],
-        [
-          1978,
-          null
-        ],
-        [
-          1979,
-          null
-        ],
-        [
-          1980,
-          null
-        ],
-        [
-          1981,
-          null
-        ],
-        [
-          1982,
-          null
-        ],
-        [
-          1983,
-          null
-        ],
-        [
-          1984,
-          null
-        ],
-        [
-          1985,
-          null
-        ],
-        [
-          1986,
-          null
-        ],
-        [
-          1987,
-          null
-        ],
-        [
-          1988,
-          null
-        ],
-        [
-          1989,
-          null
-        ],
-        [
-          1990,
-          null
-        ],
-        [
-          1991,
-          null
-        ],
-        [
-          1992,
-          null
-        ],
-        [
-          1993,
-          null
-        ],
-        [
-          1994,
-          null
-        ],
-        [
-          1995,
-          93941
-        ],
-        [
-          1996,
-          93190
-        ],
-        [
-          1997,
-          92806
-        ],
-        [
-          1998,
-          96580
-        ],
-        [
-          1999,
-          99949
-        ],
-        [
-          2000,
-          108732
-        ],
-        [
-          2001,
-          117003
-        ],
-        [
-          2002,
-          122215
-        ],
-        [
-          2003,
-          126749
-        ],
-        [
-          2004,
-          133584
-        ],
-        [
-          2005,
-          138943
-        ],
-        [
-          2006,
-          149011
-        ],
-        [
-          2007,
-          159191
-        ],
-        [
-          2008,
-          162461
-        ],
-        [
-          2009,
-          159597
-        ],
-        [
-          2010,
-          160586
-        ],
-        [
-          2011,
-          167039
-        ],
-        [
-          2012,
-          167043
-        ],
-        [
-          2013,
-          166449
-        ],
-        [
-          2014,
-          167953
+          "2015",
+          14.97649429147
         ]
       ],
-      "name": "BIP Kanton Basel-Stadt (rechte Skala)"
+      "name": "Note 9",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73ba7c",
+      "index": 7,
+      "legendIndex": 7,
+      "data": [
+        [
+          "2003",
+          38.997968855788
+        ],
+        [
+          "2005",
+          36.4
+        ],
+        [
+          "2007",
+          38.066666666666
+        ],
+        [
+          "2011",
+          38.466622604097
+        ],
+        [
+          "2015",
+          39.623908663532
+        ]
+      ],
+      "name": "Note 8",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#d7e9d2",
+      "index": 6,
+      "legendIndex": 6,
+      "data": [
+        [
+          "2003",
+          23.764387271496
+        ],
+        [
+          "2005",
+          24.2
+        ],
+        [
+          "2007",
+          24.8
+        ],
+        [
+          "2011",
+          21.612690019828
+        ],
+        [
+          "2015",
+          18.871725990597
+        ]
+      ],
+      "name": "Note 7",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b9cfd7",
+      "index": 5,
+      "legendIndex": 5,
+      "data": [
+        [
+          "2003",
+          9.749492213947
+        ],
+        [
+          "2005",
+          9.533333333333
+        ],
+        [
+          "2007",
+          8.666666666666
+        ],
+        [
+          "2011",
+          6.146728354263
+        ],
+        [
+          "2015",
+          6.245802552048
+        ]
+      ],
+      "name": "Note 6",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#71a3b5",
+      "index": 4,
+      "legendIndex": 4,
+      "data": [
+        [
+          "2003",
+          9.275558564658
+        ],
+        [
+          "2005",
+          9.333333333333
+        ],
+        [
+          "2007",
+          7.6
+        ],
+        [
+          "2011",
+          6.345009914077
+        ],
+        [
+          "2015",
+          6.245802552048
+        ]
+      ],
+      "name": "Note 5",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ffbb58",
+      "index": 3,
+      "legendIndex": 3,
+      "data": [
+        [
+          "2003",
+          1.557210561949
+        ],
+        [
+          "2005",
+          2
+        ],
+        [
+          "2007",
+          1.733333333333
+        ],
+        [
+          "2011",
+          1.321877065432
+        ],
+        [
+          "2015",
+          1.074546675621
+        ]
+      ],
+      "name": "Note 4",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ff8028",
+      "index": 2,
+      "legendIndex": 2,
+      "data": [
+        [
+          "2003",
+          0.947867298578
+        ],
+        [
+          "2005",
+          1.133333333333
+        ],
+        [
+          "2007",
+          0.866666666666
+        ],
+        [
+          "2011",
+          0.859220092531
+        ],
+        [
+          "2015",
+          0.940228341168
+        ]
+      ],
+      "name": "Note 3",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#dc440e",
+      "index": 1,
+      "legendIndex": 1,
+      "data": [
+        [
+          "2003",
+          0.203114421123
+        ],
+        [
+          "2005",
+          0.266666666666
+        ],
+        [
+          "2007",
+          0.266666666666
+        ],
+        [
+          "2011",
+          0.264375413086
+        ],
+        [
+          "2015",
+          0.134318334452
+        ]
+      ],
+      "name": "Note 2",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b00000",
+      "index": 0,
+      "legendIndex": 0,
+      "data": [
+        [
+          "2003",
+          0.338524035206
+        ],
+        [
+          "2005",
+          0.333333333333
+        ],
+        [
+          "2007",
+          0.333333333333
+        ],
+        [
+          "2011",
+          0.462656972901
+        ],
+        [
+          "2015",
+          0.268636668905
+        ]
+      ],
+      "name": "Note 1",
+      "turboThreshold": 0
     }
   ],
-  "chart": {
-    "events": {
-      "load": function () {
-              this.credits.element.onclick = function() {}
-          }
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
     },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickColor": "#FFFFFF",
+    "tickInterval": 1
+  },
+  "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
     "width": 485,
     "height": 415,
-    "spacingBottom": 45,
+    "spacingBottom": 30,
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line",
-    "marginBottom": 65,
-    "alignTicks": false,
-    "renderTo": "container-6151"
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {}
+                }
+    },
+    "renderTo": "container-6151",
+    "marginBottom": 75,
+    "marginTop": 75,
+    "type": "column",
+    "inverted": false
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointWidth": 20,
+      "stacking": "normal"
+    }
   },
   "title": {
     "style": {
@@ -508,40 +358,29 @@
     "text": "",
     "align": "left"
   },
-  "tooltip": {
-    "shared": false
-  },
-  "yAxis": [
-    {
-      "title": {
-        "text": null
+  "yAxis": {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
       },
-      "labels": {
-        "format": "{value:,.0f}"
-      },
-      "min": 0
+      "text": null
     },
-    {
-      "title": {
-        "text": null
-      },
-      "labels": {
-        "format": "{value:,.0f}"
-      },
-      "min": 0,
-      "opposite": true
-    }
-  ],
-  "xAxis": {
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "format": "{value:,.0f}%"
     },
-    "tickLength": 0
+    "max": 100
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
   },
   "credits": {
-    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
     "style": {
       "color": "#000000",
@@ -557,19 +396,18 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
   },
   "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
     "symbolRadius": 0,
-    "y": 40,
-    "x": 20,
-    "width": 300,
+    "layout": "vertical",
+    "verticalAlign": "middle",
     "itemMarginBottom": 5,
-    "itemWidth": 200,
+    "align": "right",
     "itemStyle": {
       "fontWeight": "normal"
     }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "exporting": {
     "filename": "I.50.1.06151"
