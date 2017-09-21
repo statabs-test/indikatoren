@@ -257,7 +257,7 @@
     	                })
     	                .attr({
     			        	zIndex: 6,
-    			        	//class: 'pieLegend'
+    			        	//class: 'columnLegend'
     			        }).add();	                
                 },
     	                
@@ -267,7 +267,7 @@
     				    stroke: fill,
     				    'stroke-width': 1, 
     				    zIndex: 6,
-    				    class: 'pieLegend'
+    				    class: 'columnLegend'
     				}).add();
                 },
     	                
@@ -275,7 +275,7 @@
                 addLegendLabel: function(chart, text, x, y, useHtml){
     				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
     					zIndex: 6,
-    					class: 'pieLegend'
+    					class: 'columnLegend'
     				}).add();
                 },
                 
@@ -284,7 +284,7 @@
     		            'stroke-width':0,
     		            fill: fill,
     		            zIndex: 6,
-    		            class: 'pieLegend'
+    		            class: 'columnLegend'
     	        	}).add();
                 },
                 
@@ -292,7 +292,7 @@
 
 				//Add click handler to bubbleLegend items
 				AddColumnLegendClickHandler: function(chart){
-				    $('.pieLegend').click(function(){
+				    $('.columnLegend').click(function(){
 						//Toggle visible of mappies
 						Highcharts.each(chart.series, function (series) {
 							if (series.userOptions.type == 'mapcolumn'){
@@ -302,12 +302,12 @@
 						chart.redraw();
 						
 						
-						//if useHTMl is true, text is in span elements within DIVs classed .pieLegend. Add the class to these spans
-						$('.pieLegend>span').addClass('pieLegend').addClass('pieLegendHtmlText');
+						//if useHTMl is true, text is in span elements within DIVs classed .columnLegend. Add the class to these spans
+						$('.columnLegend>span').addClass('columnLegend').addClass('columnLegendHtmlText');
 						//toggle active state of legend elements
-						var pieLegendItems = $('.pieLegend');
+						var columnLegendItems = $('.columnLegend');
 						//backup original color
-						pieLegendItems.each(function(i, v){
+						columnLegendItems.each(function(i, v){
 							if (!$(this).attr('fill_active')) {
 								//if no fill color is defined, set to  black
 								$(this).attr('fill_active', $(this).attr('fill') || 'black');	
@@ -317,27 +317,27 @@
 							}
 						});
 						//toggle color
-						if (pieLegendItems.attr('fill') == pieLegendItems.attr('fill_active')){
+						if (columnLegendItems.attr('fill') == columnLegendItems.attr('fill_active')){
 							//set all to grey
-							pieLegendItems.attr('fill', '#cccccc');
+							columnLegendItems.attr('fill', '#cccccc');
 							//if stroke is present, toggle it
-							pieLegendItems.each(function(i, v){
+							columnLegendItems.each(function(i, v){
 								//if stroke_active is present, set it to grey
 								if ($(this).attr('stroke_active')) {
 									$(this).attr('stroke', '#cccccc');
 								}
 							});
 							//same for html text spans
-							$('.pieLegendHtmlText').css('color', '#cccccc');
+							$('.columnLegendHtmlText').css('color', '#cccccc');
 						} 
 						else {
-							pieLegendItems.each(function(i, v){
+							columnLegendItems.each(function(i, v){
 								//set each to its fill_active color
 								$(this).attr('fill', $(this).attr('fill_active'));	
 								$(this).attr('stroke', $(this).attr('stroke_active'));	
 							});
 							//same for html text spans
-							$('.pieLegendHtmlText').css('color', 'black');
+							$('.columnLegendHtmlText').css('color', 'black');
 						}
 					});
 				}      
