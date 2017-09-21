@@ -235,33 +235,7 @@
 				    		    
 	            //draw pies onto he map			    		    
                 drawColumns: function(chart, pieSizeSeries, pieSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig){
-					/*                	
-                	console.log('xAxis[0].max: ' + chart.xAxis[0].max);
-                	console.log('xAxis[0].min: ' + chart.xAxis[0].min);
-                	console.log('yAxis[0].max: ' + chart.yAxis[0].max);
-                	console.log('yAxis[0].min: ' + chart.yAxis[0].min);
-                	*/
-                	
-                	//calculate the center of an axis
-                	var axisCenter = function(axis){
-	                	var max = axis.max;
-	                	var min = axis.min;
-	                	return min + (max - min) / 2;
-                	};
-                    
-                    var xCenter = axisCenter(chart.xAxis[0]);
-                    var yCenter = axisCenter(chart.yAxis[0]);
-                    console.log('xcenter: ' + xCenter);
-                    
-                    var yExtremes = chart.yAxis[0].getExtremes();
-                    var xExtremes = chart.xAxis[0].getExtremes();
-                    
-                    console.log('yAxis dataMax: ' + yExtremes.dataMax);
-                    
-                    var yDataMax = yExtremes.dataMax;
-                    
-                    //chart.xAxis[0].setExtremes(xExtremes.dataMin + 8000, xExtremes.dataMax);
-                    
+
                     //iterate over each wohnviertel and draw the pies / bubbles
 	                Highcharts.each(pieSizeSeries.points, function (data, i) {
 	                    
@@ -272,11 +246,7 @@
 	                    //if (false || i > 5) {return null}
 	                    
 	                	var correspondingMapSeriesItem = choroplethSeries.points[data.index];
-	                	console.log('corresponding map series points: ');
-	                	console.log(correspondingMapSeriesItem);
-	                	console.log('correspondig map series centroid x value: ');
-	                	console.log(correspondingMapSeriesItem.properties.POINT_X);
-	                	
+
 	                	//Width of a 5 pixel column in terms of xAxis units
 	                	var columnWidthValue = chart.xAxis[0].toValue(100) - chart.xAxis[0].toValue(95);
 	                	//console.log(columnWidthValue);
@@ -313,31 +283,8 @@
 							      color: 'blue',
 							      borderColor: 'blue'
 							    }],
-							   
-							   /*
-							    data: [
-		                        	//Pies: Two series
-		                        	{
-		                        		name: pieSeries[0].name,
-		                        		//put absolute value in y, real value in v
-		                        		y: Math.abs(pieSeries[0].points[i].y),
-		                        		v: pieSeries[0].points[i].y,
-		                        		color: pieSeries[0].userOptions.color,
-		                        		borderColor: pieSeries[0].userOptions.borderColor
-		                        	},
-		                        	{
-		                        		name: pieSeries[1].name,
-		                        		//put absolute value in y, real value in v
-		                        		y: Math.abs(pieSeries[1].points[i].y),
-		                        		v: pieSeries[1].points[i].y,
-		                        		color: pieSeries[1].userOptions.color,
-		                        		borderColor: pieSeries[1].userOptions.borderColor
-		                        	}
-						    	]
-						    	*/
 	                        };
 	                        
-	                        console.log(mapColumnConfig);
 	                        
 	                        //add data object to mapPieConfig: for bubbles only one, for pies several
 	                        /*
@@ -363,7 +310,6 @@
 	                    
 	                    // Add the pie for this wohnviertel to the chart
 	                    var mergeResult = currentColumnSeries(pieSeriesConfig);
-	                    console.log(mergeResult);
 	                    chart.addSeries(mergeResult, false);
 	                    
 	                    /*
