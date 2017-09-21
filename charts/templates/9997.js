@@ -108,6 +108,13 @@
 					
 					//define different colors for positive and negative values
                     var color = function(value, index){
+						//add polyfill for ie, see https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Math/sign                    	
+                    	if (!Math.sign) {
+						  Math.sign = function(x) {
+						    return ((x > 0) - (x < 0)) || +x;
+						  };
+						}
+                    	
                     	var colors = {
                     		'1': ['#ffaa00','#38a800'],
                     		'-1': ['#a87000', '#267300']
