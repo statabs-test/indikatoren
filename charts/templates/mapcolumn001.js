@@ -196,8 +196,10 @@
 					
 					    Highcharts.each(points, function(point, index) {
 					      var state = firstSeries.points[series.index - 3];
+					      /*
 					      console.log('state.x: ' + state.plotX);
 					      console.log('point.graphic.attr("height"): '+ point.graphic.attr('height'));
+					      */
 					      /*
 					      point.graphic.attr({
 					        x: state.plotX + index * 2,
@@ -258,7 +260,8 @@
                     
                     var yDataMax = yExtremes.dataMax;
                     
-                    chart.xAxis[0].setExtremes(xExtremes.dataMin + 8000, xExtremes.dataMax);
+                    //chart.xAxis[0].setExtremes(xExtremes.dataMin + 8000, xExtremes.dataMax);
+                    
                     //iterate over each wohnviertel and draw the pies / bubbles
 	                Highcharts.each(pieSizeSeries.points, function (data, i) {
 	                    
@@ -266,9 +269,18 @@
 	                        return; // Skip points with no data, if any
 	                    }
 	                    
-	                    if (false || i > 0) {return null}
+	                    //if (false || i > 5) {return null}
 	                    
 	                	var correspondingMapSeriesItem = choroplethSeries.points[data.index];
+	                	console.log('corresponding map series points: ');
+	                	console.log(correspondingMapSeriesItem);
+	                	console.log('correspondig map series centroid x value: ');
+	                	console.log(correspondingMapSeriesItem.properties.POINT_X);
+	                	
+	                	//Width of a 5 pixel column in terms of xAxis units
+	                	var columnWidthValue = chart.xAxis[0].toValue(100) - chart.xAxis[0].toValue(95);
+	                	//console.log(columnWidthValue);
+	                	
 	                	
                         //create the highcharts pie chart config
 	                    var currentColumnSeries = function(config){
@@ -288,16 +300,16 @@
 							    pointWidth: 5,
 						        data: [{
 						        	name: 'Test1',
-							      x: xCenter -5000, //xExtremes.dataMin + 1000,
-							      low: yCenter + 500,
-							      high: yCenter - 500,
+							      x: +correspondingMapSeriesItem.properties.POINT_X - columnWidthValue / 2,
+							      low: -correspondingMapSeriesItem.properties.POINT_Y - 500,
+							      high: -correspondingMapSeriesItem.properties.POINT_Y,
 							      color: 'green',
 							      borderColor: 'green'
 							    }, {
 							    	name: 'Test2',
-							      x: xCenter + 1000,
-							      low: yCenter + 240,
-							      high: yCenter - 240,
+							      x: +correspondingMapSeriesItem.properties.POINT_X + columnWidthValue / 2,
+							      low: -correspondingMapSeriesItem.properties.POINT_Y - 240,
+							      high: -correspondingMapSeriesItem.properties.POINT_Y,
 							      color: 'blue',
 							      borderColor: 'blue'
 							    }],
