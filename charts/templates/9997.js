@@ -70,7 +70,6 @@
 				type: 'pie',
 				color: 'red',
 				borderColor: 'red'
-
 			}, 
 			{
 				visible: false,
@@ -108,8 +107,19 @@
 	                    };
 					};
 					var pieSizeCatConfig;
+					
+					//define different colors for positive and negative values
+                    var color = function(value, index){
+                    	var colors = {
+                    		'1': ['#ffaa00','#38a800'],
+                    		'-1': ['#a87000', '#267300']
+                    	};
+						return colors[''+Math.sign(value)][index];
+                    };
+					
+					
 					//put the columns on the map
-					fn.drawColumns(chart, pieSizeSeries, pieSeries, choroplethSeries, columnSeriesConfig, pieSizeCatConfig);
+					fn.drawColumns(chart, pieSizeSeries, pieSeries, choroplethSeries, columnSeriesConfig, pieSizeCatConfig, color);
 					
 	                
 					//pie values in legend

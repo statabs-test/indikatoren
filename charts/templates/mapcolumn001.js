@@ -146,7 +146,7 @@
 				    		    
 				    		    
 	            //draw pies onto he map			    		    
-                drawColumns: function(chart, pieSizeSeries, pieSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig){
+                drawColumns: function(chart, pieSizeSeries, pieSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color){
 
                     //iterate over each wohnviertel and draw the pies / bubbles
 	                Highcharts.each(pieSizeSeries.points, function (data, i) {
@@ -203,17 +203,18 @@
 	                        
 	                        //add data object to mapPieConfig: for bubbles only one, for pies several
 	                        pieSeries.forEach(function(item, index, arr){
+	                        	var value = item.yData[i];
 	                        	var baselineY = -correspondingMapSeriesItem.properties.POINT_Y;
-	                        	var valueY = -correspondingMapSeriesItem.properties.POINT_Y - 500 * item.yData[i];
+	                        	var valueY = -correspondingMapSeriesItem.properties.POINT_Y - 500 * value;
 	                        	mapColumnConfig.data.push(
 	                        		{
 		                        		name: item.name,
 		                        		x: +correspondingMapSeriesItem.properties.POINT_X + (index + 1) * columnWidthValue,
 		                        		low: Math.max(baselineY, valueY),
 		                        		high: Math.min(baselineY, valueY),
-		                        		v: item.yData[i],
-		                        		color: item.userOptions.color,
-		                        		borderColor: item.userOptions.borderColor
+		                        		v: value,
+		                        		color: color(value, index), //item.userOptions.color,
+		                        		borderColor: color(value, index) //item.userOptions.borderColor
 		                        	}
                         		);
 	                        });
