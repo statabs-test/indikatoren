@@ -62,13 +62,6 @@
                     "color": "black"
             }
     	},    
-    	xAxis: {
-    		visible: true
-    	},
-    	yAxis: {
-    		visible: true,
-    		minRange: -1272279
-    	},
         "mapNavigation": {
             "enabled": true,
             "buttonOptions": {
@@ -125,91 +118,10 @@
     		}
 		], 
 		customFunctions: {
-		    
-			//calculate pie size using categories defined in the conf object
-			pieSizeCategorical: function(value, conf){
-				for (var i=0; i < conf.length; i++ ){
-					if (value >= conf[i].from && value < conf[i].to) {
-						return conf[i];
-					}
-				}
-			},  
-			
-			
-            //Pie size 
-            pieSize: function(value, maxAbsValue, maxPieDiameter){
-            	
-            	function circleAreaByDiameter(diameter){
-            		return Math.PI * diameter * diameter / 4;
-            	}
-            	
-            	function circleDiameterByAre(area){	                		
-            		return Math.sqrt(4 * area / Math.PI);
-            	}
-            	
-            	/*
-                var yAxis = chart.yAxis[0],
-                    zoomFactor = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
-                */
-                
-				//Negative values: return absolute value
-				//size by Area: use sqrt of value to define size
-				//var size = pieSizeMin + chart.chartWidth / 11 * pieSizeFactor *  Math.sqrt(Math.abs(value)) / maxAbsNumber; 
-				
-				//transform value to a number between 0 and 1 representing its relation to the min and max values
-				//var relativeValue = (Math.abs(value) - minAbsValue) / (maxAbsValue - minAbsValue);
-				
-				//transform value to a number between 0 and 1, where value 0 is represented by 0 and maxAbsValue by 1
-				var relativeValue = Math.abs(value) / maxAbsValue ;
-				//console.log('absVal rel: '+ Math.abs(value) + ' ' + relativeValue);
-				//infer the pie size 
-				var maxPieArea = circleAreaByDiameter(maxPieDiameter);
-				var area = relativeValue * maxPieArea;
-				
-				//var minPieArea = circleAreaByDiameter(minPieDiameter);
-				//var area = relativeValue * (maxPieArea - minPieArea) + minPieArea;
-				
-				var diameter = circleDiameterByAre(area);
-				//console.log('value absValue area diameter: ' + value + ' ' + Math.abs(value) + ' ' + area + ' ' + diameter);
-				return diameter;
-            }, 
-	                			
-		    
-		    defineTemplate: function(){
 
-					//define new chart type, see http://jsfiddle.net/o85o39tL/
-
-					// New mapcolumn series type that also allows lat/lon as center option.
-					Highcharts.seriesType('mapcolumn', 'columnrange', {
-					  dataLabels: {
-					    enabled: false
-					  }
-					}, {
-					  drawPoints: function() {
-					    // Proceed
-					    Highcharts.seriesTypes.column.prototype.drawPoints.call(this);
-					
-					    // Custom      
-					    var series = this,
-					      points = series.points,
-					      firstSeries = series.chart.series[0];
-					
-					    Highcharts.each(points, function(point, index) {
-					      var state = firstSeries.points[series.index - 3];
-					      /*
-					      console.log('state.x: ' + state.plotX);
-					      console.log('point.graphic.attr("height"): '+ point.graphic.attr('height'));
-					      */
-					      /*
-					      point.graphic.attr({
-					        x: state.plotX + index * 2,
-					        y: state.plotY - point.graphic.attr('height')
-					      });
-					      */
-					      
-					    });
-					  }
-					});
+		    
+		    defineTemplateFoo: function(){
+					Highcharts.seriesType('mapcolumn', 'columnrange');
     		    },
     		    
 				// Compute max and min value to find relative sizes of bubbles. 
@@ -379,11 +291,11 @@
                 
 
 				//Add click handler to bubbleLegend items
-				AddPieLegendClickHandler: function(chart){
+				AddColumnLegendClickHandler: function(chart){
 				    $('.pieLegend').click(function(){
 						//Toggle visible of mappies
 						Highcharts.each(chart.series, function (series) {
-							if (series.userOptions.type == 'mappie'){
+							if (series.userOptions.type == 'mapcolumn'){
 								series.setVisible(!series.visible, false);
 							}
 						});

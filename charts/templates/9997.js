@@ -88,15 +88,11 @@
 	                var chart = this;
 	                var fn = this.options.customFunctions;
 	                //define new Highcharts template "mappie"
-					fn.defineTemplate();
+					//fn.defineTemplate();
 					
 					var choroplethSeries = chart.series[0];
 					var pieSizeSeries = chart.series[1];
 					var pieSeries = [chart.series[2], chart.series[3]];
-					
-
-					//pie diameters in px
-					var maxPieDiameter = 22;
 
 					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
 
@@ -106,7 +102,7 @@
 	                        tooltip: {
 	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {point.key} </span><br/>',
 	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.y) ,3) + '</b><br/>';
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.y),3) + '</b><br/>';
 	                            }
 	                        },
 	                    };
@@ -123,9 +119,9 @@
                 	//Add manually drawn legend	
 	                fn.addLegendTitle(chart, pieSizeSeries.name, 285, 240);
 	                
-	                fn.addLegendCircle(chart, 410, 275, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
+	                fn.addLegendCircle(chart, 410, 275, 2, 'grey');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),3,","," "), 430, 265);
-	                fn.addLegendCircle(chart, 410, 300, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
+	                fn.addLegendCircle(chart, 410, 300, 10, 'grey');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),2,"."," "), 430, 290);
 
 					fn.addLegendSquare(chart, 290, 270, 10, 'red');
@@ -134,7 +130,7 @@
 					fn.addLegendLabel(chart, 'Diesel', 310, 290);
 					
 					//make sure pies are hidden upon click onto pie legend
-					fn.AddPieLegendClickHandler(chart);
+					fn.AddColumnLegendClickHandler(chart);
 	            }
 			}
 		}
