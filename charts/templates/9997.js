@@ -86,14 +86,13 @@
 					
 	                var chart = this;
 	                var fn = this.options.customFunctions;
-	                //define new Highcharts template "mappie"
+	                //define new Highcharts template "mapcolumn"
 					//fn.defineTemplate();
 					
 					var choroplethSeries = chart.series[0];
-					var pieSizeSeries = chart.series[1];
-					var pieSeries = [chart.series[2], chart.series[3]];
+					var columnSeries = [chart.series[2], chart.series[3]];
 
-					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
+					//var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
 
 					//define chart-specific details
 					var columnSeriesConfig = function(data, correspondingMapSeriesItem, color){
@@ -106,7 +105,6 @@
 	                        },
 	                    };
 					};
-					var pieSizeCatConfig;
 					
 					//define different colors for positive and negative values
                     var color = function(value, index){
@@ -119,15 +117,15 @@
 					
 					
 					//put the columns on the map
-					fn.drawColumns(chart, pieSizeSeries, pieSeries, choroplethSeries, columnSeriesConfig, pieSizeCatConfig, color);
+					fn.drawColumns(chart, columnSeries, choroplethSeries, columnSeriesConfig, color);
 					
 	                
-					//pie values in legend
+					//column values in legend
 	                var minValueInLegend = 0.001; 
 	                var maxValueInLegend = 0.1; 
 	                
                 	//Add manually drawn legend	
-	                fn.addLegendTitle(chart, pieSizeSeries.name, 285, 240);
+	                fn.addLegendTitle(chart, columnSeries[0].name, 285, 240);
 	                
 	                fn.addLegendCircle(chart, 410, 275, 2, 'grey');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),3,","," "), 430, 265);
@@ -139,7 +137,7 @@
 					fn.addLegendSquare(chart, 290, 295, 10, 'blue');
 					fn.addLegendLabel(chart, 'Diesel', 310, 290);
 					
-					//make sure pies are hidden upon click onto pie legend
+					//make sure columns are hidden upon click onto column legend
 					fn.AddColumnLegendClickHandler(chart);
 	            }
 			}
