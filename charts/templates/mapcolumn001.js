@@ -180,39 +180,44 @@
 							        enabled: false
 							    }, 
 							    pointWidth: 5,
+							    data: [],
+							    /*
 						        data: [{
 						        	name: 'Test1',
-							      x: +correspondingMapSeriesItem.properties.POINT_X - columnWidthValue / 2,
+							      x: +correspondingMapSeriesItem.properties.POINT_X - columnWidthValue / pieSeries.length,
 							      low: -correspondingMapSeriesItem.properties.POINT_Y - 500,
 							      high: -correspondingMapSeriesItem.properties.POINT_Y,
 							      color: 'green',
 							      borderColor: 'green'
 							    }, {
 							    	name: 'Test2',
-							      x: +correspondingMapSeriesItem.properties.POINT_X + columnWidthValue / 2,
+							      x: +correspondingMapSeriesItem.properties.POINT_X + columnWidthValue / pieSeries.length,
 							      low: -correspondingMapSeriesItem.properties.POINT_Y - 240,
 							      high: -correspondingMapSeriesItem.properties.POINT_Y,
 							      color: 'blue',
 							      borderColor: 'blue'
 							    }],
+							    */
 	                        };
 	                        
 	                        
 	                        //add data object to mapPieConfig: for bubbles only one, for pies several
-	                        /*
 	                        pieSeries.forEach(function(item, index, arr){
+	                        	var baselineY = -correspondingMapSeriesItem.properties.POINT_Y;
+	                        	var valueY = -correspondingMapSeriesItem.properties.POINT_Y - 500 * item.yData[i];
 	                        	mapColumnConfig.data.push(
 	                        		{
 		                        		name: item.name,
-		                        		//put absolute value in y, real value in v
-		                        		y: Math.abs(item.points[i].y),
-		                        		v: item.points[i].y,
+		                        		x: +correspondingMapSeriesItem.properties.POINT_X + (index + 1) * columnWidthValue,
+		                        		low: Math.max(baselineY, valueY),
+		                        		high: Math.min(baselineY, valueY),
+		                        		v: item.yData[i],
 		                        		color: item.userOptions.color,
 		                        		borderColor: item.userOptions.borderColor
 		                        	}
                         		);
 	                        });
-	                        */
+	                        
 
 	                        //create the config handed in from the chart
 	                        var columnTemplate = config(data, correspondingMapSeriesItem);
