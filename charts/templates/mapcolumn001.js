@@ -180,7 +180,7 @@
 					//define new chart type, see http://jsfiddle.net/o85o39tL/
 
 					// New mapcolumn series type that also allows lat/lon as center option.
-					Highcharts.seriesType('mapcolumn', 'column', {
+					Highcharts.seriesType('mapcolumn', 'columnrange', {
 					  dataLabels: {
 					    enabled: false
 					  }
@@ -193,14 +193,18 @@
 					    var series = this,
 					      points = series.points,
 					      firstSeries = series.chart.series[0];
-					      console.log();
 					
 					    Highcharts.each(points, function(point, index) {
 					      var state = firstSeries.points[series.index - 3];
-						      point.graphic.attr({
-						        x: state.plotX + index * 4,
-						        y: state.plotY - point.graphic.attr('height')
-						      });
+					      console.log('state.x: ' + state.plotX);
+					      console.log('point.graphic.attr("height"): '+ point.graphic.attr('height'));
+					      /*
+					      point.graphic.attr({
+					        x: state.plotX + index * 2,
+					        y: state.plotY - point.graphic.attr('height')
+					      });
+					      */
+					      
 					    });
 					  }
 					});
@@ -229,7 +233,32 @@
 				    		    
 	            //draw pies onto he map			    		    
                 drawColumns: function(chart, pieSizeSeries, pieSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig){
+					/*                	
+                	console.log('xAxis[0].max: ' + chart.xAxis[0].max);
+                	console.log('xAxis[0].min: ' + chart.xAxis[0].min);
+                	console.log('yAxis[0].max: ' + chart.yAxis[0].max);
+                	console.log('yAxis[0].min: ' + chart.yAxis[0].min);
+                	*/
+                	
+                	//calculate the center of an axis
+                	var axisCenter = function(axis){
+	                	var max = axis.max;
+	                	var min = axis.min;
+	                	return min + (max - min) / 2;
+                	};
                     
+                    var xCenter = axisCenter(chart.xAxis[0]);
+                    var yCenter = axisCenter(chart.yAxis[0]);
+                    console.log('xcenter: ' + xCenter);
+                    
+                    var yExtremes = chart.yAxis[0].getExtremes();
+                    var xExtremes = chart.xAxis[0].getExtremes();
+                    
+                    console.log('yAxis dataMax: ' + yExtremes.dataMax);
+                    
+                    var yDataMax = yExtremes.dataMax;
+                    
+                    chart.xAxis[0].setExtremes(xExtremes.dataMin + 8000, xExtremes.dataMax);
                     //iterate over each wohnviertel and draw the pies / bubbles
 	                Highcharts.each(pieSizeSeries.points, function (data, i) {
 	                    
@@ -237,7 +266,7 @@
 	                        return; // Skip points with no data, if any
 	                    }
 	                    
-	                    if (false || i > 1) {return null}
+	                    if (false || i > 0) {return null}
 	                    
 	                	var correspondingMapSeriesItem = choroplethSeries.points[data.index];
 	                	
@@ -256,21 +285,23 @@
 		                        dataLabels: {
 							        enabled: false
 							    }, 
-							        data: [{
-							        	name: 'Test1',
-								      x: 2610000,
-								      y: -1262000,
-								      v: -1262000,
-								      color: 'green',
-								      borderColor: 'green'
-								    }, {
-								    	name: 'Test2',
-								      x: 2610500,
-								      y: -1264000,
-								      v: -1264000,
-								      color: 'blue',
-								      borderColor: 'blue'
-								    }],
+							    pointWidth: 5,
+						        data: [{
+						        	name: 'Test1',
+							      x: xCenter -5000, //xExtremes.dataMin + 1000,
+							      low: yCenter + 500,
+							      high: yCenter - 500,
+							      color: 'green',
+							      borderColor: 'green'
+							    }, {
+							    	name: 'Test2',
+							      x: xCenter + 1000,
+							      low: yCenter + 240,
+							      high: yCenter - 240,
+							      color: 'blue',
+							      borderColor: 'blue'
+							    }],
+							   
 							   /*
 							    data: [
 		                        	//Pies: Two series
@@ -293,6 +324,8 @@
 						    	]
 						    	*/
 	                        };
+	                        
+	                        console.log(mapColumnConfig);
 	                        
 	                        //add data object to mapPieConfig: for bubbles only one, for pies several
 	                        /*
