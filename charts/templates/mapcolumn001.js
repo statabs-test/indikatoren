@@ -130,14 +130,22 @@
 						if (value.options.type == 'mapcolumn'){
 							var baselineYvalue = value.data[0].baselineYvalue;
 							var zoomRatioBefore = value.data[0].zoomRatio;
+							
 							//handle zooming in and out by dividing zoomBefore and zoomAfter
 							var ratiosOfZoomRatios = zoomRatio / zoomRatioBefore;
+							
+							//handle column width
+							var columnWidthValueBefore = value.data[0].columnWidthValue;
+							var columnWidthValue = columnWidthValueBefore / ratiosOfZoomRatios;
+
 							//calculate and update data of each column
 							var newData = value.data.map(function (val, i, arr){
 								return {
 									low: ((val.low - baselineYvalue) / ratiosOfZoomRatios) + baselineYvalue,
 									high: ((val.high - baselineYvalue) / ratiosOfZoomRatios) + baselineYvalue,
-									zoomRatio: zoomRatio
+									zoomRatio: zoomRatio,
+									x: +value.data[0].POINT_X + (i + 1) * columnWidthValue,
+									columnWidthValue: columnWidthValue
 								};
 							});
 							value.setData(newData, false);
@@ -176,7 +184,7 @@
 			},
 				    		    
 				    		    
-            //draw columns onto he map			    		    
+            //draw columns onto the map			    		    
             drawColumns: function(chart, columnSeries, choroplethSeries, columnRangeSeriesConfig, color){
             	//determine current zoom level
             	var e = chart.xAxis[0].getExtremes();
@@ -218,19 +226,22 @@
                         columnSeries.forEach(function(item, index, arr){
                         	var value = item.yData[i];
                         	//POINT_X, POINT_Y: centroid for the wohnviertel (defined in geojson)
-                        	var baselineY = -correspondingMapSeriesItem.properties.POINT_Y;
-                        	var valueY = -correspondingMapSeriesItem.properties.POINT_Y - 500 * value;
+                        	var centroidX = +correspondingMapSeriesItem.properties.POINT_X;
+                        	var centroidY = +correspondingMapSeriesItem.properties.POINT_Y;
+                        	var baselineY = -centroidY;
+                        	var valueY = -centroidY - 500 * value;
                         	mapColumnConfig.data.push(
                         		{
 	                        		name: item.name,
-	                        		x: +correspondingMapSeriesItem.properties.POINT_X + (index + 1) * columnWidthValue,
+	                        		x: +centroidX + (index + 1) * columnWidthValue,
 	                        		low: Math.max(baselineY, valueY),
 	                        		high: Math.min(baselineY, valueY),
 	                        		v: value,
-	                        		POINT_X: correspondingMapSeriesItem.properties.POINT_X,
-	                        		POINT_Y: correspondingMapSeriesItem.properties.POINT_Y,
+	                        		POINT_X: centroidX,
+	                        		POINT_Y: centroidY,
 	                        		baselineYvalue: baselineY,
 	                        		zoomRatio: zoomRatio,
+	                        		columnWidthValue: columnWidthValue,
 	                        		color: color(value, index), //item.userOptions.color,
 	                        		borderColor: color(value, index) //item.userOptions.borderColor
 	                        	}
