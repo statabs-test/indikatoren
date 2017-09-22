@@ -80,7 +80,6 @@
                 }
             }
     	}, 
-    	
 		/* series with fixed data that should be added to the series object after merging with csv data */
 		"afterSeries": [
 			{
@@ -117,6 +116,38 @@
 				}
     		}
 		], 
+		
+		xAxis: {
+			events: {
+				//on zoom: unzoom columns (keep them at original size)
+				afterSetExtremes: function(e){
+					//only care about zoom events, not pan
+					if (e.trigger == 'pan') return;
+					//determine current zoom level
+					var zoomRatio = (e.dataMax - e.dataMin) / (e.max - e.min);
+					//adapt data values determined by zoomRatio now and before
+					e.target.chart.series.forEach(function(value, index, array){
+						if (value.options.type == 'mapcolumn'){
+							var baselineYvalue = value.data[0].baselineYvalue;
+							var zoomRatioBefore = value.data[0].zoomRatio;
+							//handle zooming in and out by dividing zoomBefore and zoomAfter
+							var ratiosOfZoomRatios = zoomRatio / zoomRatioBefore;
+							//calculate and update data of each column
+							var newData = value.data.map(function (val, i, arr){
+								return {
+									low: ((val.low - baselineYvalue) / ratiosOfZoomRatios) + baselineYvalue,
+									high: ((val.high - baselineYvalue) / ratiosOfZoomRatios) + baselineYvalue,
+									zoomRatio: zoomRatio
+								};
+							});
+							value.setData(newData, false);
+						}
+					});
+					
+				}
+			}
+		},		
+		
 		customFunctions: {
 
 		    
@@ -147,6 +178,9 @@
 				    		    
             //draw columns onto he map			    		    
             drawColumns: function(chart, columnSeries, choroplethSeries, columnRangeSeriesConfig, color){
+            	//determine current zoom level
+            	var e = chart.xAxis[0].getExtremes();
+            	var zoomRatio = (e.dataMax - e.dataMin) / (e.max - e.min);
                 //iterate over each wohnviertel and draw the columns
                 Highcharts.each(columnSeries[0].points, function (data, i, array) {
                    
@@ -183,6 +217,7 @@
                         //add data object to mapColumnConfig
                         columnSeries.forEach(function(item, index, arr){
                         	var value = item.yData[i];
+                        	//POINT_X, POINT_Y: centroid for the wohnviertel (defined in geojson)
                         	var baselineY = -correspondingMapSeriesItem.properties.POINT_Y;
                         	var valueY = -correspondingMapSeriesItem.properties.POINT_Y - 500 * value;
                         	mapColumnConfig.data.push(
@@ -192,6 +227,10 @@
 	                        		low: Math.max(baselineY, valueY),
 	                        		high: Math.min(baselineY, valueY),
 	                        		v: value,
+	                        		POINT_X: correspondingMapSeriesItem.properties.POINT_X,
+	                        		POINT_Y: correspondingMapSeriesItem.properties.POINT_Y,
+	                        		baselineYvalue: baselineY,
+	                        		zoomRatio: zoomRatio,
 	                        		color: color(value, index), //item.userOptions.color,
 	                        		borderColor: color(value, index) //item.userOptions.borderColor
 	                        	}
