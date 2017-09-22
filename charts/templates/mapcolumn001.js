@@ -337,19 +337,21 @@
 	        	}).add();
             },
             
+            
             addLegendColumnChart: function(chart, x, y, values, color, maxAbsVal, maxHeightValueFactor){
-            	
-            	
-            	
-            	
-            	
-            	var height = values[0] / maxAbsVal
-            	return chart.renderer.rect(x, y, 5, 20, 0).attr({
-		            'stroke-width':0,
-		            fill: 'blue',
-		            zIndex: 6,
-		            class: 'columnLegend'
-	        	}).add();
+				var axis = chart.yAxis[0];            	
+				var baselineYCoord = axis.toValue(y);
+				values.forEach(function(value, i, arr){
+	            	var columnTopCoord = baselineYCoord - value * maxHeightValueFactor;
+	            	var columnTopPx = axis.toPixels(columnTopCoord);
+	            	var columnHeightPx = y - columnTopPx;
+	            	chart.renderer.rect(x + i * 5, columnTopPx, 5, columnHeightPx, 0).attr({
+			            'stroke-width':0,
+			            fill: color(values[0], i),
+			            zIndex: 6,
+			            class: 'columnLegend'
+		        	}).add();
+				});
             },
             
 

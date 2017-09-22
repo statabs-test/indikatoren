@@ -78,9 +78,6 @@
         		borderColor: 'blue'
 			}
 		],
-		yAxis: {
-			visible: true
-		},
 		chart: {
 			events: {
 	            load: function (e) {
@@ -141,7 +138,7 @@
                 	//Add manually drawn legend	
 	                fn.addLegendTitle(chart, columnSeries[0].name, 285, 240);
 	                
-	                fn.addLegendColumnChart(chart, 410, 275, [5, 2.5], color, maxAbsValue, maxHeightValueFactor);
+	                fn.addLegendColumnChart(chart, 410, 275, [1, 0.5], color, maxAbsValue, maxHeightValueFactor);
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),3,","," "), 430, 265);
 	                fn.addLegendCircle(chart, 410, 300, 10, 'grey');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),2,"."," "), 430, 290);
