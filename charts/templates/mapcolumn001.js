@@ -157,35 +157,31 @@
 		},		
 		
 		customFunctions: {
-
-		    
-		    defineTemplateFoo: function(){
-					Highcharts.seriesType('mapcolumn', 'columnrange');
-    		    },
-    		    
-			// Compute max and min value to find relative sizes of bubbles. 
-			getPointsExtremes: function(points){
-                var maxNumber = Number.NEGATIVE_INFINITY;
-                var maxAbsNumber = Number.NEGATIVE_INFINITY;
-                var minNumber = Number.POSITIVE_INFINITY;
-                var minAbsNumber = Number.POSITIVE_INFINITY;
-				Highcharts.each(points, function (point) {
-				    maxNumber = Math.max(maxNumber, point.value);
-				    maxAbsNumber = Math.max(maxAbsNumber, Math.abs(point.value));
-				    minNumber = Math.min(minNumber, point.value);
-				    minAbsNumber = Math.min(minAbsNumber, Math.abs(point.value));
-				});
-				return {
-				    maxNumber: maxNumber,
-				    maxAbsNumber: maxAbsNumber,
-				    minNumber: minNumber,
-				    minAbsNumber: minAbsNumber
-				};
+			//get max absolue yValue from an array of series				    		    
+			getMaxAbsoluteYValue: function(seriesArray){
+				return Math.max.apply(null, 
+            		Array.prototype.concat.apply([], seriesArray.map(function(val, i, arr){
+            			//return single values, not points
+	            		return val.yData.map(function(val, i, arr){
+	            			//return abs value
+	            			return Math.abs(val);
+	            		});
+	            	}))
+            	);
 			},
-				    		    
-				    		    
+			
+			
+        	//factor with which to multiply value to get column height of value, so that max value gets the max height in px
+        	maxHeightValueFactor: function(axis, maxAbsVal, heightOfLargestBar){
+            	var yExtremes = axis.getExtremes();
+            	var centerY = yExtremes.min + (yExtremes.max - yExtremes.min) / 2;
+            	return (-centerY - axis.toValue(axis.toPixels(-centerY) - heightOfLargestBar)) / maxAbsVal;
+        	},
+
+       	
+
             //draw columns onto the map			    		    
-            drawColumns: function(chart, columnSeries, choroplethSeries, columnRangeSeriesConfig, color, heightOfLargestBar){
+            drawColumns: function(chart, columnSeries, choroplethSeries, columnRangeSeriesConfig, color, maxHeightValueFactor){
             	//determine current zoom level
             	var e = chart.xAxis[0].getExtremes();
             	var zoomRatio = (e.dataMax - e.dataMin) / (e.max - e.min);
@@ -202,8 +198,8 @@
 	            	}))
             	);
             	
-            	//factor with which to multiply value to get column height of value, so that max value gets the max height in px
-            	var maxHeightValueFactor;
+
+
             	
                 //iterate over each wohnviertel and draw the columns
                 Highcharts.each(columnSeries[0].points, function (data, i, array) {
@@ -239,9 +235,6 @@
 						    data: [],
                         };
                         
-                        var toYpx = function(val){return chart.yAxis[0].toPixels(val)};
-                        var toYvalue = function(val){return chart.yAxis[0].toValue(val)};
-                        
                         //add data object to mapColumnConfig
                         columnSeries.forEach(function(item, index, arr){
                         	var value = item.yData[i];
@@ -249,10 +242,6 @@
                         	var centroidX = +correspondingMapSeriesItem.properties.POINT_X;
                         	var centroidY = +correspondingMapSeriesItem.properties.POINT_Y;
                         	var baselineY = -centroidY;
-                        	//calculate the factor with which to multiply value to get appropriate column height
-                        	if (!maxHeightValueFactor){
-                        		maxHeightValueFactor = (-centroidY - toYvalue(toYpx(-centroidY) - heightOfLargestBar)) / maxAbsVal;
-                        	}
                         	//calculate value of column so that height is appropriate
                         	var valueY = -centroidY - value * maxHeightValueFactor ;
                         	mapColumnConfig.data.push(
@@ -348,6 +337,20 @@
 	        	}).add();
             },
             
+            addLegendColumnChart: function(chart, x, y, values, color, maxAbsVal, maxHeightValueFactor){
+            	
+            	
+            	
+            	
+            	
+            	var height = values[0] / maxAbsVal
+            	return chart.renderer.rect(x, y, 5, 20, 0).attr({
+		            'stroke-width':0,
+		            fill: 'blue',
+		            zIndex: 6,
+		            class: 'columnLegend'
+	        	}).add();
+            },
             
 
 			//Add click handler to bubbleLegend items
