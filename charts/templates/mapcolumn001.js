@@ -201,7 +201,9 @@
 	            		});
 	            	}))
             	);
-            	console.log('maxAbsVal: ' + maxAbsVal);
+            	
+            	//factor with which to multiply value to get column height of value, so that max value gets the max height in px
+            	var maxHeightValueFactor;
             	
                 //iterate over each wohnviertel and draw the columns
                 Highcharts.each(columnSeries[0].points, function (data, i, array) {
@@ -239,8 +241,6 @@
                         
                         var toYpx = function(val){return chart.yAxis[0].toPixels(val)};
                         var toYvalue = function(val){return chart.yAxis[0].toValue(val)};
-                        //
-                        var maxHeighValueFactor;
                         
                         //add data object to mapColumnConfig
                         columnSeries.forEach(function(item, index, arr){
@@ -249,17 +249,12 @@
                         	var centroidX = +correspondingMapSeriesItem.properties.POINT_X;
                         	var centroidY = +correspondingMapSeriesItem.properties.POINT_Y;
                         	var baselineY = -centroidY;
-                        	
-                        	if (!maxHeighValueFactor){
-	                        	
-	                        	console.log('-centroidY: ' + -centroidY);
-	                        	console.log('centroid value to pixels: ' + toYpx(-centroidY));
-	                        	console.log('pixel position of '+ heightOfLargestBar + 'px above centroid: ' + (toYpx(-centroidY) - heightOfLargestBar));
-	                        	console.log('value of ' + heightOfLargestBar + 'px above centroid: ' + toYvalue(toYpx(-centroidY) - heightOfLargestBar));
-	                        	console.log('value necessary for ' + heightOfLargestBar + 'px column: ' + (-centroidY - toYvalue(toYpx(-centroidY) - heightOfLargestBar)));
-                        		var maxHeightValue = -centroidY - toYvalue(toYpx(-centroidY) - heightOfLargestBar);
+                        	//calculate the factor with which to multiply value to get appropriate column height
+                        	if (!maxHeightValueFactor){
+                        		maxHeightValueFactor = (-centroidY - toYvalue(toYpx(-centroidY) - heightOfLargestBar)) / maxAbsVal;
                         	}
-                        	var valueY = -centroidY - value / maxAbsVal * maxHeightValue ;
+                        	//calculate value of column so that height is appropriate
+                        	var valueY = -centroidY - value * maxHeightValueFactor ;
                         	mapColumnConfig.data.push(
                         		{
 	                        		name: item.name,
