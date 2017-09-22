@@ -212,12 +212,14 @@
 	                        wohnviertel_Name: data["hc-key"],
 	                        wohnviertel_Id : correspondingMapSeriesItem.wohnviertel_Id,
 	                        zIndex: 6, // Keep columns above connector lines
-	                        borderWidth: 1,
 	                        showInLegend: false,
 	                        dataLabels: {
 						        enabled: false
 						    }, 
 						    pointWidth: columnWidth,
+				            pointPadding: 0,
+				            groupPadding: 0,
+				            borderWidth: 0,						    
 						    data: [],
                         };
                         
