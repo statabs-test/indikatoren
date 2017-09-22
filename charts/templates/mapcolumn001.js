@@ -190,10 +190,18 @@
             	var e = chart.xAxis[0].getExtremes();
             	var zoomRatio = (e.dataMax - e.dataMin) / (e.max - e.min);
             	
-            	//determine extreme values to set height of largest bar in terms of yAxis unit. See https://stackoverflow.com/a/30629698 
-            	var allPoints = Array.prototype.concat.apply([], columnSeries.map(function(val, i, arr){
-            		return val.yData;
-            	}));
+            	//determine extreme values to set height of largest bar in terms of yAxis unit. See https://stackoverflow.com/a/30629698, https://stackoverflow.com/a/6102340
+            	//get max vaue
+            	var maxAbsVal = Math.max.apply(null, 
+            		Array.prototype.concat.apply([], columnSeries.map(function(val, i, arr){
+            			//return single values, not points
+	            		return val.yData.map(function(val, i, arr){
+	            			//return abs value
+	            			return Math.abs(val);
+	            		});
+	            	}))
+            	);
+            	console.log('maxAbsVal: ' + maxAbsVal);
             	
                 //iterate over each wohnviertel and draw the columns
                 Highcharts.each(columnSeries[0].points, function (data, i, array) {
@@ -229,6 +237,10 @@
 						    data: [],
                         };
                         
+                        var toYpx = function(val){return chart.yAxis[0].toPixels(val)};
+                        var toYvalue = function(val){return chart.yAxis[0].toValue(val)};
+                        //
+                        var maxHeighValueFactor;
                         
                         //add data object to mapColumnConfig
                         columnSeries.forEach(function(item, index, arr){
@@ -237,7 +249,17 @@
                         	var centroidX = +correspondingMapSeriesItem.properties.POINT_X;
                         	var centroidY = +correspondingMapSeriesItem.properties.POINT_Y;
                         	var baselineY = -centroidY;
-                        	var valueY = -centroidY - 500 * value;
+                        	
+                        	if (!maxHeighValueFactor){
+	                        	
+	                        	console.log('-centroidY: ' + -centroidY);
+	                        	console.log('centroid value to pixels: ' + toYpx(-centroidY));
+	                        	console.log('pixel position of '+ heightOfLargestBar + 'px above centroid: ' + (toYpx(-centroidY) - heightOfLargestBar));
+	                        	console.log('value of ' + heightOfLargestBar + 'px above centroid: ' + toYvalue(toYpx(-centroidY) - heightOfLargestBar));
+	                        	console.log('value necessary for ' + heightOfLargestBar + 'px column: ' + (-centroidY - toYvalue(toYpx(-centroidY) - heightOfLargestBar)));
+                        		var maxHeightValue = -centroidY - toYvalue(toYpx(-centroidY) - heightOfLargestBar);
+                        	}
+                        	var valueY = -centroidY - value / maxAbsVal * maxHeightValue ;
                         	mapColumnConfig.data.push(
                         		{
 	                        		name: item.name,

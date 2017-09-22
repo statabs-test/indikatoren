@@ -78,6 +78,9 @@
         		borderColor: 'blue'
 			}
 		],
+		yAxis: {
+			visible: true
+		},
 		chart: {
 			events: {
 	            load: function (e) {
@@ -123,7 +126,7 @@
                     };
 					
 					//height of largest bar in px
-					var heightOfLargestBar = 20;
+					var heightOfLargestBar = 50;
 					
 					//put the columns on the map
 					fn.drawColumns(chart, columnSeries, choroplethSeries, columnSeriesConfig, color, heightOfLargestBar);
