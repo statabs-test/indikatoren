@@ -122,10 +122,11 @@
 						return colors[''+Math.sign(value)][index];
                     };
 					
+					//height of largest bar in px
+					var heightOfLargestBar = 20;
 					
 					//put the columns on the map
-					fn.drawColumns(chart, columnSeries, choroplethSeries, columnSeriesConfig, color);
-					
+					fn.drawColumns(chart, columnSeries, choroplethSeries, columnSeriesConfig, color, heightOfLargestBar);
 	                
 					//column values in legend
 	                var minValueInLegend = 0.001; 

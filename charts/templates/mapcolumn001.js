@@ -185,10 +185,16 @@
 				    		    
 				    		    
             //draw columns onto the map			    		    
-            drawColumns: function(chart, columnSeries, choroplethSeries, columnRangeSeriesConfig, color){
+            drawColumns: function(chart, columnSeries, choroplethSeries, columnRangeSeriesConfig, color, heightOfLargestBar){
             	//determine current zoom level
             	var e = chart.xAxis[0].getExtremes();
             	var zoomRatio = (e.dataMax - e.dataMin) / (e.max - e.min);
+            	
+            	//determine extreme values to set height of largest bar in terms of yAxis unit. See https://stackoverflow.com/a/30629698 
+            	var allPoints = Array.prototype.concat.apply([], columnSeries.map(function(val, i, arr){
+            		return val.yData;
+            	}));
+            	
                 //iterate over each wohnviertel and draw the columns
                 Highcharts.each(columnSeries[0].points, function (data, i, array) {
                    
