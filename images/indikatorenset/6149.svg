@@ -92,7 +92,7 @@
           <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#8b2223" stroke-width="2"/>
           <path fill="#8b2223" d="M 12 11 A 4 4 0 1 1 11.999998000000167 10.996000000666664 Z" class="highcharts-point"/>
           <text x="21" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
-            <tspan>Einbürgerungsziffer (linke Achse)</tspan>
+            <tspan>Einbürgerungsziffer Total (linke Achse)</tspan>
           </text>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1" transform="translate(8,27)">

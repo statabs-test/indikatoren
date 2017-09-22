@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#cd9c00",
+      "color": "#e7cfe2",
       "visible": false,
       "data": [
         [
@@ -49,7 +49,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#9f7c5a",
+      "color": "#b475ab",
       "visible": false,
       "data": [
         [
@@ -97,7 +97,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#b00000",
+      "color": "#933f8d",
       "visible": false,
       "data": [
         [
@@ -145,7 +145,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#ff5050",
+      "color": "#2f1435",
       "visible": false,
       "data": [
         [
@@ -193,7 +193,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#45381d",
+      "color": "#8064a2",
       "visible": true,
       "data": [
         [
@@ -239,282 +239,25 @@
       ],
       "name": "2015",
       "turboThreshold": 0
-    },
-    {
-      "visible": false,
-      "showInLegend": false,
-      "data": [
-        [
-          "Schweiz",
-          1259
-        ],
-        [
-          "Ausland",
-          201
-        ],
-        [
-          "18-29 J.",
-          200
-        ],
-        [
-          "30-39 J.",
-          226
-        ],
-        [
-          "40-49 J.",
-          260
-        ],
-        [
-          "50-59 J.",
-          263
-        ],
-        [
-          "\u003E69 J.",
-          277
-        ],
-        [
-          "Männer",
-          668
-        ],
-        [
-          "Männer",
-          668
-        ],
-        [
-          "Total",
-          1460
-        ]
-      ],
-      "name": "2003_n",
-      "turboThreshold": 0
-    },
-    {
-      "visible": false,
-      "showInLegend": false,
-      "data": [
-        [
-          "Schweiz",
-          1279
-        ],
-        [
-          "Ausland",
-          207
-        ],
-        [
-          "18-29 J.",
-          220
-        ],
-        [
-          "30-39 J.",
-          221
-        ],
-        [
-          "40-49 J.",
-          291
-        ],
-        [
-          "50-59 J.",
-          257
-        ],
-        [
-          "\u003E69 J.",
-          258
-        ],
-        [
-          "Männer",
-          697
-        ],
-        [
-          "Männer",
-          697
-        ],
-        [
-          "Total",
-          1486
-        ]
-      ],
-      "name": "2005_n",
-      "turboThreshold": 0
-    },
-    {
-      "visible": false,
-      "showInLegend": false,
-      "data": [
-        [
-          "Schweiz",
-          1309
-        ],
-        [
-          "Ausland",
-          172
-        ],
-        [
-          "18-29 J.",
-          204
-        ],
-        [
-          "30-39 J.",
-          173
-        ],
-        [
-          "40-49 J.",
-          230
-        ],
-        [
-          "50-59 J.",
-          274
-        ],
-        [
-          "\u003E69 J.",
-          341
-        ],
-        [
-          "Männer",
-          678
-        ],
-        [
-          "Männer",
-          678
-        ],
-        [
-          "Total",
-          1481
-        ]
-      ],
-      "name": "2007_n",
-      "turboThreshold": 0
-    },
-    {
-      "visible": false,
-      "showInLegend": false,
-      "data": [
-        [
-          "Schweiz",
-          1292
-        ],
-        [
-          "Ausland",
-          211
-        ],
-        [
-          "18-29 J.",
-          178
-        ],
-        [
-          "30-39 J.",
-          169
-        ],
-        [
-          "40-49 J.",
-          236
-        ],
-        [
-          "50-59 J.",
-          269
-        ],
-        [
-          "\u003E69 J.",
-          390
-        ],
-        [
-          "Männer",
-          671
-        ],
-        [
-          "Männer",
-          671
-        ],
-        [
-          "Total",
-          1503
-        ]
-      ],
-      "name": "2011_n",
-      "turboThreshold": 0
-    },
-    {
-      "visible": false,
-      "showInLegend": false,
-      "data": [
-        [
-          "Schweiz",
-          1301
-        ],
-        [
-          "Ausland",
-          170
-        ],
-        [
-          "18-29 J.",
-          94
-        ],
-        [
-          "30-39 J.",
-          115
-        ],
-        [
-          "40-49 J.",
-          172
-        ],
-        [
-          "50-59 J.",
-          265
-        ],
-        [
-          "\u003E69 J.",
-          498
-        ],
-        [
-          "Männer",
-          677
-        ],
-        [
-          "Männer",
-          677
-        ],
-        [
-          "Total",
-          1471
-        ]
-      ],
-      "name": "2015_n",
-      "turboThreshold": 0
     }
   ],
   "xAxis": {
     "type": "category",
     "uniqueNames": true,
-    "tickColor": "#FFFFFF",
     "title": {
       "style": {
         "color": "#000000"
       }
     },
     "labels": {
-      "rotation": 0,
       "style": {
-        "color": "#000000",
-        "width": 1,
-        "textOverflow": "none"
+        "color": "#000000"
       },
-      "formatter": function () {
-            	return this.value.replace(" ", "<br/>");
-            }
-    }
+      "rotation": -90
+    },
+    "tickColor": "#FFFFFF"
   },
   "chart": {
-    "events": {
-      "load": function () {
-                this.credits.element.onclick = function() {
-                    /*
-                    window.open(
-                    "http://www.statistik.bs.ch",
-                    '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
-                    );
-                    */
-                }
-            }
-    },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
@@ -524,9 +267,23 @@
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {}
+                }
+    },
     "type": "column",
     "inverted": false,
     "renderTo": "container-2956"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
   },
   "title": {
     "style": {
@@ -540,29 +297,14 @@
   "subtitle": {
     "style": {
       "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
       "color": "#000000"
     },
-    "align": "left",
-    "text": ""
-  },
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
-    }
-  },
-  "plotOptions": {
-    "series": {
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      },
-      "stacking": "percent"
-    }
+    "text": "",
+    "align": "left"
   },
   "yAxis": {
-    "tickInterval": 10,
     "title": {
       "style": {
         "color": "#000000",
@@ -571,24 +313,17 @@
       "text": null
     },
     "labels": {
-      "format": "{value}%",
       "style": {
         "color": "#000000"
-      }
+      },
+      "format": "{value}%"
     },
     "max": 100
   },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
-    "shared": false,
-    "formatter": function (args){
-      var seriesName = this.series.name;
-      //get corresponding series by name: series 2015-N corresponds to series 2015, etc.
-      var correspondingNSeries = this.series.chart.series.filter(function(element, index, array){
-          return element.name == seriesName + '_n';
-      })[0];
-      var n = correspondingNSeries.yData[this.x];
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 1, ",", " ") + '%</b> (n=' + n + ')<br/>';
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
     }
   },
   "credits": {
@@ -607,22 +342,24 @@
     "text": "Quelle: Bevölkerungsbefragung Basel-Stadt 2015, Frage F6"
   },
   "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
     "align": "left",
-    "useHTML": false,
+    "x": 40,
+    "y": 65,
     "itemStyle": {
       "fontWeight": "normal"
-    },
-    "symbolRadius": 0,
-    "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
-        },
-    "enabled": true,
-    "x": 35,
-    "y": 65
+    }
   },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "labelFormatter": function () {
+            return this.name;
+        },
   "exporting": {
     "filename": "I.50.1.06174"
   }

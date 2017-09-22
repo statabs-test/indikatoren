@@ -8,47 +8,71 @@
       "color": "#8b2223",
       "data": [
         [
+          2000,
+          8.6
+        ],
+        [
+          2001,
+          8.5
+        ],
+        [
+          2002,
+          8.5
+        ],
+        [
+          2003,
+          8.1
+        ],
+        [
+          2004,
+          7.7
+        ],
+        [
+          2005,
+          6.9
+        ],
+        [
           2006,
-          15.1
+          4.7
         ],
         [
           2007,
-          31
+          5.5
         ],
         [
           2008,
-          26.7
+          5.1
         ],
         [
           2009,
-          16.6
+          4.6
         ],
         [
           2010,
-          11.2
+          3.3
         ],
         [
           2011,
-          8.7
+          3
         ],
         [
           2012,
-          10.1
+          3.5
         ],
         [
           2013,
-          13.1
+          3.2
         ],
         [
           2014,
-          11
+          3
         ],
         [
           2015,
-          13.8
+          2.9
         ]
       ],
-      "name": "Einbürgerungsziffer Total (linke Achse)"
+      "name": "Nettoschuldenquote in ‰ (linke Skala)"
     },
     {
       "marker": {
@@ -59,47 +83,71 @@
       "yAxis": 1,
       "data": [
         [
+          2000,
+          19131.6
+        ],
+        [
+          2001,
+          19371
+        ],
+        [
+          2002,
+          19605.6
+        ],
+        [
+          2003,
+          18827.5
+        ],
+        [
+          2004,
+          18441.8
+        ],
+        [
+          2005,
+          16868.3
+        ],
+        [
           2006,
-          0.311919571
+          12231
         ],
         [
           2007,
-          0.313393617
+          14875.5
         ],
         [
           2008,
-          0.318270063
+          14389.8
         ],
         [
           2009,
-          0.325844404
+          13036
         ],
         [
           2010,
-          0.328020587
+          9495
         ],
         [
           2011,
-          0.333696037
+          8916
         ],
         [
           2012,
-          0.338712595
+          10631
         ],
         [
           2013,
-          0.345607007
+          10450
         ],
         [
           2014,
-          0.350072021
+          9944
         ],
         [
           2015,
-          0.352868096
+          9313
         ]
       ],
-      "name": "Ausländeranteil (rechte Achse)"
+      "name": "Nettoschulden pro Kopf in Franken (rechte Skala)"
     }
   ],
   "chart": {
@@ -118,7 +166,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-6149"
+    "renderTo": "container-6211"
   },
   "title": {
     "style": {
@@ -127,7 +175,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Einbürgerungsziffer der Ausländerinnen und Ausländer sowie Ausländeranteil"
+    "text": " Nettoschuldenquote in Promille des BIP der Schweiz und Nettoschulden pro Einwohner in Franken"
   },
   "subtitle": {
     "style": {
@@ -146,7 +194,7 @@
   "yAxis": [
     {
       "labels": {
-        "format": "{value:,.0f}",
+        "format": "{value:,.0f} ‰",
         "style": {
           "color": "#000000"
         }
@@ -163,7 +211,7 @@
         "text": null
       },
       "labels": {
-        "format": "{value:,.1f}",
+        "format": "{value:,.0f}",
         "style": {
           "color": "#000000"
         }
@@ -196,7 +244,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt"
   },
   "legend": {
     "enabled": true,
@@ -213,6 +261,6 @@
     }
   },
   "exporting": {
-    "filename": "I.01.6.06149"
+    "filename": "I.04.1.06211"
   }
 }

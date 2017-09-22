@@ -6,41 +6,35 @@
   </desc>
   <defs>
     <clipPath>
-      <rect x="0" y="0" width="422" height="219" fill="none"/>
+      <rect x="0" y="0" width="422" height="224" fill="none"/>
     </clipPath>
     <clipPath id="a">
-      <rect x="0" y="0" width="422" height="219" fill="none"/>
+      <rect x="0" y="0" width="422" height="224" fill="none"/>
     </clipPath>
   </defs>
   <rect fill="#fbfbfb" class="highcharts-background" x="0" y="0" width="485" height="415" rx="0" ry="0"/>
-  <rect fill="none" class="highcharts-plot-background" x="53" y="117" width="422" height="219"/>
+  <rect fill="none" class="highcharts-plot-background" x="53" y="112" width="422" height="224"/>
   <g class="highcharts-pane-group"/>
   <g class="highcharts-grid highcharts-xaxis-grid ">
-    <path fill="none" class="highcharts-grid-line" d="M 99.5 117 L 99.5 336" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 146.5 117 L 146.5 336" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 193.5 117 L 193.5 336" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 240.5 117 L 240.5 336" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 286.5 117 L 286.5 336" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 333.5 117 L 333.5 336" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 380.5 117 L 380.5 336" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 427.5 117 L 427.5 336" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 474.5 117 L 474.5 336" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 52.5 117 L 52.5 336" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 99.5 112 L 99.5 336" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 146.5 112 L 146.5 336" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 193.5 112 L 193.5 336" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 240.5 112 L 240.5 336" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 286.5 112 L 286.5 336" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 333.5 112 L 333.5 336" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 380.5 112 L 380.5 336" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 427.5 112 L 427.5 336" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 474.5 112 L 474.5 336" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 52.5 112 L 52.5 336" opacity="1"/>
   </g>
   <g class="highcharts-grid highcharts-yaxis-grid ">
     <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 53 336.5 L 475 336.5" opacity="1"/>
-    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 53 314.5 L 475 314.5" opacity="1"/>
-    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 53 292.5 L 475 292.5" opacity="1"/>
-    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 53 270.5 L 475 270.5" opacity="1"/>
-    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 53 248.5 L 475 248.5" opacity="1"/>
-    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 53 227.5 L 475 227.5" opacity="1"/>
-    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 53 205.5 L 475 205.5" opacity="1"/>
-    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 53 183.5 L 475 183.5" opacity="1"/>
-    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 53 161.5 L 475 161.5" opacity="1"/>
-    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 53 139.5 L 475 139.5" opacity="1"/>
-    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 53 116.5 L 475 116.5" opacity="1"/>
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 53 280.5 L 475 280.5" opacity="1"/>
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 53 224.5 L 475 224.5" opacity="1"/>
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 53 168.5 L 475 168.5" opacity="1"/>
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 53 112.5 L 475 112.5" opacity="1"/>
   </g>
-  <rect fill="none" class="highcharts-plot-border" x="53" y="117" width="422" height="219"/>
+  <rect fill="none" class="highcharts-plot-border" x="53" y="112" width="422" height="224"/>
   <g class="highcharts-axis highcharts-xaxis ">
     <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 99.5 336 L 99.5 346" opacity="1"/>
     <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 146.5 336 L 146.5 346" opacity="1"/>
@@ -55,46 +49,36 @@
     <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" stroke-width="1" d="M 53 336.5 L 475 336.5"/>
   </g>
   <g class="highcharts-axis highcharts-yaxis ">
-    <path fill="none" class="highcharts-axis-line" d="M 53 117 L 53 336"/>
+    <path fill="none" class="highcharts-axis-line" d="M 53 112 L 53 336"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " visibility="hidden" transform="translate(53,117) scale(1 1)" clip-path="url(#a)"/>
-    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " visibility="hidden" transform="translate(53,117) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " visibility="hidden" transform="translate(53,117) scale(1 1)" clip-path="url(#a)"/>
-    <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " visibility="hidden" transform="translate(53,117) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined " visibility="hidden" transform="translate(53,117) scale(1 1)" clip-path="url(#a)"/>
-    <g class="highcharts-markers highcharts-series-2 highcharts-column-series highcharts-color-undefined " visibility="hidden" transform="translate(53,117) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined " visibility="hidden" transform="translate(53,117) scale(1 1)" clip-path="url(#a)"/>
-    <g class="highcharts-markers highcharts-series-3 highcharts-column-series highcharts-color-undefined " visibility="hidden" transform="translate(53,117) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined " transform="translate(53,117) scale(1 1)" clip-path="url(#a)">
-      <rect x="11.5" y="-0.5" width="23" height="220" fill="#45381d" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="58.5" y="-0.5" width="23" height="220" fill="#45381d" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="105.5" y="-0.5" width="23" height="220" fill="#45381d" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="152.5" y="-0.5" width="23" height="220" fill="#45381d" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="199.5" y="-0.5" width="23" height="220" fill="#45381d" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="246.5" y="-0.5" width="23" height="220" fill="#45381d" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="293.5" y="-0.5" width="23" height="220" fill="#45381d" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="339.5" y="162.5" width="23" height="57" fill="#45381d" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="339.5" y="-204.5" width="23" height="212" fill="#45381d" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="386.5" y="-0.5" width="23" height="220" fill="#45381d" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " visibility="hidden" transform="translate(53,112) scale(1 1)" clip-path="url(#a)"/>
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " visibility="hidden" transform="translate(53,112) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " visibility="hidden" transform="translate(53,112) scale(1 1)" clip-path="url(#a)"/>
+    <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " visibility="hidden" transform="translate(53,112) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined " visibility="hidden" transform="translate(53,112) scale(1 1)" clip-path="url(#a)"/>
+    <g class="highcharts-markers highcharts-series-2 highcharts-column-series highcharts-color-undefined " visibility="hidden" transform="translate(53,112) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined " visibility="hidden" transform="translate(53,112) scale(1 1)" clip-path="url(#a)"/>
+    <g class="highcharts-markers highcharts-series-3 highcharts-column-series highcharts-color-undefined " visibility="hidden" transform="translate(53,112) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined " transform="translate(53,112) scale(1 1)" clip-path="url(#a)">
+      <rect x="11.5" y="8.5" width="23" height="216" fill="#8064a2" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="58.5" y="8.5" width="23" height="216" fill="#8064a2" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="105.5" y="5.5" width="23" height="219" fill="#8064a2" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="152.5" y="19.5" width="23" height="205" fill="#8064a2" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="199.5" y="7.5" width="23" height="217" fill="#8064a2" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="246.5" y="5.5" width="23" height="219" fill="#8064a2" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="293.5" y="7.5" width="23" height="217" fill="#8064a2" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="339.5" y="7.5" width="23" height="217" fill="#8064a2" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="339.5" y="7.5" width="23" height="217" fill="#8064a2" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="386.5" y="8.5" width="23" height="216" fill="#8064a2" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-4 highcharts-column-series highcharts-color-undefined " transform="translate(53,117) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-5 highcharts-column-series highcharts-color-0 " visibility="hidden" transform="translate(53,117) scale(1 1)" clip-path="url(#a)"/>
-    <g class="highcharts-markers highcharts-series-5 highcharts-column-series highcharts-color-0 " visibility="hidden" transform="translate(53,117) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-6 highcharts-column-series highcharts-color-1 " visibility="hidden" transform="translate(53,117) scale(1 1)" clip-path="url(#a)"/>
-    <g class="highcharts-markers highcharts-series-6 highcharts-column-series highcharts-color-1 " visibility="hidden" transform="translate(53,117) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-7 highcharts-column-series highcharts-color-2 " visibility="hidden" transform="translate(53,117) scale(1 1)" clip-path="url(#a)"/>
-    <g class="highcharts-markers highcharts-series-7 highcharts-column-series highcharts-color-2 " visibility="hidden" transform="translate(53,117) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-8 highcharts-column-series highcharts-color-3 " visibility="hidden" transform="translate(53,117) scale(1 1)" clip-path="url(#a)"/>
-    <g class="highcharts-markers highcharts-series-8 highcharts-column-series highcharts-color-3 " visibility="hidden" transform="translate(53,117) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-9 highcharts-column-series highcharts-color-4 " visibility="hidden" transform="translate(53,117) scale(1 1)" clip-path="url(#a)"/>
-    <g class="highcharts-markers highcharts-series-9 highcharts-column-series highcharts-color-4 " visibility="hidden" transform="translate(53,117) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-4 highcharts-column-series highcharts-color-undefined " transform="translate(53,112) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Zufriedeneheit mit der Gesundheitsversorgung am Wohnort</tspan>
   </text>
-  <g class="highcharts-legend" transform="translate(45,75)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="334" height="30" visibility="visible"/>
+  <g class="highcharts-legend" transform="translate(50,75)">
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="334" height="25" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0 highcharts-legend-item-hidden" transform="translate(8,3)">
@@ -125,37 +109,37 @@
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>2015</tspan>
           </text>
-          <rect x="2" y="4" width="12" height="12" fill="#45381d" class="highcharts-point"/>
+          <rect x="2" y="4" width="12" height="12" fill="#8064a2" class="highcharts-point"/>
         </g>
       </g>
     </g>
   </g>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
-    <text x="76.44444444444444" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="355" opacity="1">
+    <text x="80.11111111111111" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 80.11111111111111 348)" y="348" opacity="1">
       <tspan>Schweiz</tspan>
     </text>
-    <text x="123.33333333333333" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="355" opacity="1">
+    <text x="126.99999999999999" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 126.99999999999999 348)" y="348" opacity="1">
       <tspan>Ausland</tspan>
     </text>
-    <text x="170.22222222222223" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="355" opacity="1">
-      <tspan>18-29</tspan><tspan x="170.22222222222223" dy="14">J.</tspan>
+    <text x="173.88888888888886" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 173.88888888888886 348)" y="348" opacity="1">
+      <tspan>18-29 J.</tspan>
     </text>
-    <text x="217.1111111111111" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="355" opacity="1">
-      <tspan>30-39</tspan><tspan x="217.1111111111111" dy="14">J.</tspan>
+    <text x="220.77777777777777" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 220.77777777777777 348)" y="348" opacity="1">
+      <tspan>30-39 J.</tspan>
     </text>
-    <text x="264" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="355" opacity="1">
-      <tspan>40-49</tspan><tspan x="264" dy="14">J.</tspan>
+    <text x="267.6666666666667" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 267.6666666666667 348)" y="348" opacity="1">
+      <tspan>40-49 J.</tspan>
     </text>
-    <text x="310.88888888888886" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="355" opacity="1">
-      <tspan>50-59</tspan><tspan x="310.88888888888886" dy="14">J.</tspan>
+    <text x="314.55555555555554" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 314.55555555555554 348)" y="348" opacity="1">
+      <tspan>50-59 J.</tspan>
     </text>
-    <text x="357.77777777777777" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="355" opacity="1">
-      <tspan>&gt;69</tspan><tspan x="357.77777777777777" dy="14">J.</tspan>
+    <text x="361.44444444444446" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 361.44444444444446 348)" y="348" opacity="1">
+      <tspan>&gt;69 J.</tspan>
     </text>
-    <text x="404.66666666666663" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="355" opacity="1">
+    <text x="408.3333333333333" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 408.3333333333333 348)" y="348" opacity="1">
       <tspan>Männer</tspan>
     </text>
-    <text x="451.55555555555554" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="355" opacity="1">
+    <text x="455.22222222222223" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 455.22222222222223 348)" y="348" opacity="1">
       <tspan>Total</tspan>
     </text>
   </g>
@@ -163,34 +147,16 @@
     <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="341" opacity="1">
       <tspan>0%</tspan>
     </text>
-    <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="319" opacity="1">
-      <tspan>10%</tspan>
+    <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="285" opacity="1">
+      <tspan>25%</tspan>
     </text>
-    <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="297" opacity="1">
-      <tspan>20%</tspan>
-    </text>
-    <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="275" opacity="1">
-      <tspan>30%</tspan>
-    </text>
-    <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="253" opacity="1">
-      <tspan>40%</tspan>
-    </text>
-    <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="231" opacity="1">
+    <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="229" opacity="1">
       <tspan>50%</tspan>
     </text>
-    <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="209" opacity="1">
-      <tspan>60%</tspan>
+    <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="172" opacity="1">
+      <tspan>75%</tspan>
     </text>
-    <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="187" opacity="1">
-      <tspan>70%</tspan>
-    </text>
-    <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="165" opacity="1">
-      <tspan>80%</tspan>
-    </text>
-    <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="143" opacity="1">
-      <tspan>90%</tspan>
-    </text>
-    <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="122" opacity="1">
+    <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="116" opacity="1">
       <tspan>100%</tspan>
     </text>
   </g>

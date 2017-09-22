@@ -2,7 +2,7 @@ var templatesById = {
 	"2501": "template001",
 	"2952": "template001",
 	"2953": "template001",
-	"2956": "befragungen001",
+	"2956": "template001",
 	"3051": "template001",
 	"3104": "line001",
 	"4127": "befragungen001",
@@ -285,7 +285,6 @@ var templatesById = {
 	"6164": "line001",
 	"6165": "line001",
 	"6166": "line001",
-	"6167": "template001",
 	"6169": "line001",
 	"6170": "line001",
 	"6172": "line001",
@@ -297,10 +296,11 @@ var templatesById = {
 	"6181": "line001",
 	"6182": "line001",
 	"6183": "befragungen001",
-	"6184": "line001",
+	"6184": "template001",
 	"6185": "befragungen001",
 	"6186": "befragungenProzent001",
 	"6201": "line001",
 	"6202": "line001",
-	"6206": "template001"
+	"6206": "template001",
+	"6211": "line001"
 };

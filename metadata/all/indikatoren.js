@@ -151,7 +151,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "2015 hatten die befragten Personen die Gelegenheit, 23 Punkte, die für den Wohnort wichtig sind, zu bewerten. Am zufriedensten sind sie<br>mit der generellen Vielfalt der Einkaufsmöglichkeiten in Basel, gefolgt von den öffentlichen Verkehrsmitteln und der Gesundheitsversorgung.<br>Beim Thema Parkplätze gehen die Meinungen auseinander: Der Anteil Zufriedener und der Anteil Unzufriedener halten sich in etwa die<br>Waage.",
 		"erlaeuterungen": "",
-		"template": "befragungen001",
+		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
@@ -10925,43 +10925,6 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Ausstellungen mit Besucherrekorden",
-		"subtitle": "",
-		"kuerzel": "I.16.1.06167",
-		"kuerzelKunde": "8.1",
-		"description": "Ausstellungen mit Besucherrekorden",
-		"id": 6167,
-		"thema": "16 Kultur und Sport",
-		"unterthema": "Kultureinrichtungen",
-		"kennzahlenset": "Legislaturplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Kunst"
-		],
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
-		"orderKey": "",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [],
-		"externalLinks": [
-			""
-		]
-	},
-	{
 		"title": "Kulturelle Aktivitäten: Anzahl Besuche in Theater, Kinos und Museen",
 		"subtitle": "",
 		"kuerzel": "I.16.1.06169",
@@ -11430,7 +11393,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Die Gesamtausgaben pro Kopf stiegen von 20 817 Fr. im Jahr 2003 auf 23 335 Fr. im Jahr 2013. Der höchste Wert wird mit 7 068 Fr. pro<br>Kopf für den Bereich Bildung notiert, auf den weiteren Rängen folgen Soziale Sicherheit, Gesundheit und Öffentliche Ordnung und<br>Sicherheit. Der Anstieg der Ausgaben beim Posten",
 		"erlaeuterungen": "",
-		"template": "line001",
+		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
@@ -11650,6 +11613,46 @@ var indikatoren = [
 		"renderLink": [],
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": " Nettoschuldenquote in Promille des BIP der Schweiz und Nettoschulden pro Einwohner in Franken",
+		"subtitle": "",
+		"kuerzel": "I.04.1.06211",
+		"kuerzelKunde": "SH1",
+		"description": " Nettoschuldenquote in Promille des BIP der Schweiz und Nettoschulden pro Einwohner in Franken",
+		"id": 6211,
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Volkseinkommen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"BIP",
+			"Schulden"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Nettoschulden haben sich seit dem Jahr 2000 von 19 132 auf<br>9 313 Franken pro Kopf im Jahr 2015 reduziert.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "_000",
+		"parentId": 5160,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Jahresbericht des Kantons Basel-Stadt"
 		],
 		"externalLinks": [
 			""

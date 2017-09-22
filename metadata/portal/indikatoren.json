@@ -5581,43 +5581,6 @@
 		]
 	},
 	{
-		"title": "Ausstellungen mit Besucherrekorden",
-		"subtitle": "",
-		"kuerzel": "I.16.1.06167",
-		"kuerzelKunde": "8.1",
-		"description": "Ausstellungen mit Besucherrekorden",
-		"id": 6167,
-		"thema": "16 Kultur und Sport",
-		"unterthema": "Kultureinrichtungen",
-		"kennzahlenset": "Legislaturplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Kunst"
-		],
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
-		"orderKey": "",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [],
-		"externalLinks": [
-			""
-		]
-	},
-	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion in Franken pro Kopf",
 		"subtitle": "",
 		"kuerzel": "I.04.1.06184",
@@ -5645,7 +5608,7 @@
 		"stufe5": "",
 		"lesehilfe": "Die Gesamtausgaben pro Kopf stiegen von 20 817 Fr. im Jahr 2003 auf 23 335 Fr. im Jahr 2013. Der höchste Wert wird mit 7 068 Fr. pro<br>Kopf für den Bereich Bildung notiert, auf den weiteren Rängen folgen Soziale Sicherheit, Gesundheit und Öffentliche Ordnung und<br>Sicherheit. Der Anstieg der Ausgaben beim Posten",
 		"erlaeuterungen": "",
-		"template": "line001",
+		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,

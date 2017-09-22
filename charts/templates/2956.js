@@ -1,12 +1,14 @@
-/*global Highcharts  */
-
 (function(){
     return {
-  "data":{
+    "data":{
   	"switchRowsAndColumns": true
   },
+
   "xAxis": {
-    "type": "category"  ,	
+    "type": "category",
+     "labels": {
+      "rotation": -90 
+    } 
   },
   "yAxis": {
 	"max": 100,
@@ -14,44 +16,36 @@
       "format": "{value}%"
     }    
   },
-  "series": [
- {"color": "#cd9c00", "visible": false}, /* hellbraun*/
-  {"color": "#9f7c5a", "visible": false}, /* ... */
-  {"color": "#b00000", "visible": false}, /* ...*/
-  {"color": "#ff5050", "visible": false}, /* ... */
-  {"color": "#45381d", "visible": true}, /* dunkelbraun*/
-  {visible: false, showInLegend: false},
-  {visible: false, showInLegend: false},
-  {visible: false, showInLegend: false},
-  {visible: false, showInLegend: false},
-  {visible: false, showInLegend: false}
+   "series": [
+  {"color": "#e7cfe2", "visible": false}, /* hellrot*/
+  {"color": "#b475ab", "visible": false}, /* ... */
+  {"color": "#933f8d", "visible": false}, /* ...*/
+  {"color": "#2f1435", "visible": false}, /* ... */
+  {"color": "#8064a2", "visible": true}, /* dunkelrot*/
   ],
   "legend": {
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 35,
+    "x": 40,
 	"y": 65,    
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
   tooltip: {
-    formatter: function(args){
-      var seriesName = this.series.name;
-      //get corresponding series by name: series 2015-N corresponds to series 2015, etc.
-      var correspondingNSeries = this.series.chart.series.filter(function(element, index, array){
-          return element.name == seriesName + '_n';
-      })[0];
-      var n = correspondingNSeries.yData[this.x];
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 1, ",", " ") + '%</b> (n=' + n + ')<br/>';
-    },
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>',
     "shared": false
-  },  
+  },
   "chart": {      
     "type": "column",
-    "inverted": false
-  }
+    "inverted": false,
+     //"marginBottom": 75,
+     //"marginTop": 75,
+  },
+   "labelFormatter": function () {
+            return this.name;
+        }
 }
 }());
