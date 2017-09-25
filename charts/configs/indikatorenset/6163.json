@@ -68,6 +68,10 @@
         [
           "2014",
           165
+        ],
+        [
+          "2015",
+          158
         ]
       ],
       "name": "Siedlungsabfälle (Hauskehricht und Sperrgut)",
@@ -141,6 +145,10 @@
         [
           "2014",
           175
+        ],
+        [
+          "2015",
+          null
         ]
       ],
       "name": "Wertstoffsammlungen",
@@ -217,6 +225,10 @@
         [
           "2014",
           51.5
+        ],
+        [
+          "2015",
+          null
         ]
       ],
       "name": "Recyclingquote (rechte Skala)",

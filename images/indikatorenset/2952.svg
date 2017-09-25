@@ -71,7 +71,7 @@
       <rect x="221.5" y="123.5" width="21" height="101" fill="#8064a2" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="263.5" y="111.5" width="21" height="113" fill="#8064a2" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="305.5" y="113.5" width="21" height="111" fill="#8064a2" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="348.5" y="113.5" width="21" height="111" fill="#8064a2" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="348.5" y="130.5" width="21" height="94" fill="#8064a2" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="390.5" y="122.5" width="21" height="102" fill="#8064a2" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-4 highcharts-column-series highcharts-color-undefined " transform="translate(53,112) scale(1 1)" clip-path="none"/>

@@ -32,7 +32,7 @@
         ],
         [
           2006,
-          "161c398"
+          161398
         ],
         [
           2007,
@@ -40,30 +40,34 @@
         ],
         [
           2008,
-          799711
+          797216
         ],
         [
           2009,
-          197566
+          194842
         ],
         [
           2010,
-          553234
+          385192
         ],
         [
           2011,
-          322349
+          366745
         ],
         [
           2012,
-          221512
+          217976
         ],
         [
           2013,
-          253365
+          248759
+        ],
+        [
+          2014,
+          286025
         ]
       ],
-      "name": "Allgemeine Verwaltung"
+      "name": "Allgemeine Verwaltung2"
     },
     {
       "color": "#a8c4cb",
@@ -126,9 +130,13 @@
         [
           2013,
           419097
+        ],
+        [
+          2014,
+          426341
         ]
       ],
-      "name": "Öffentliche Ordnung & Sicherheit"
+      "name": "Öffentliche Ordnung und Sicherheit"
     },
     {
       "color": "#ffbb58",
@@ -191,6 +199,10 @@
         [
           2013,
           1375752
+        ],
+        [
+          2014,
+          1458365
         ]
       ],
       "name": "Bildung"
@@ -256,9 +268,13 @@
         [
           2013,
           251703
+        ],
+        [
+          2014,
+          285868
         ]
       ],
-      "name": "Kultur, Sport & Freizeit, Kirche"
+      "name": "Kultur, Sport und Freizeit, Kirche"
     },
     {
       "color": "#44ab2b",
@@ -321,6 +337,10 @@
         [
           2013,
           605162
+        ],
+        [
+          2014,
+          607410
         ]
       ],
       "name": "Gesundheit"
@@ -365,19 +385,19 @@
         ],
         [
           2008,
-          719975
+          717051
         ],
         [
           2009,
-          772592
+          769345
         ],
         [
           2010,
-          797001
+          793272
         ],
         [
           2011,
-          835918
+          832573
         ],
         [
           2012,
@@ -386,6 +406,10 @@
         [
           2013,
           895985
+        ],
+        [
+          2014,
+          963078
         ]
       ],
       "name": "Soziale Sicherheit"
@@ -430,27 +454,31 @@
         ],
         [
           2008,
-          148707
+          151203
         ],
         [
           2009,
-          125056
+          127781
         ],
         [
           2010,
-          121921
+          125163
         ],
         [
           2011,
-          122546
+          126354
         ],
         [
           2012,
-          174426
+          177961
         ],
         [
           2013,
-          306108
+          310715
+        ],
+        [
+          2014,
+          252068
         ]
       ],
       "name": "Verkehr"
@@ -516,9 +544,13 @@
         [
           2013,
           85641
+        ],
+        [
+          2014,
+          82268
         ]
       ],
-      "name": "Umweltschutz & Raumordnung"
+      "name": "Umweltschutz und Raumordnung"
     },
     {
       "color": "#ff8028",
@@ -581,6 +613,10 @@
         [
           2013,
           16642
+        ],
+        [
+          2014,
+          23592
         ]
       ],
       "name": "Volkswirtschaft"
@@ -629,15 +665,15 @@
         ],
         [
           2009,
-          221094
+          270155
         ],
         [
           2010,
-          221337
+          256128
         ],
         [
           2011,
-          226197
+          271833
         ],
         [
           2012,
@@ -646,6 +682,10 @@
         [
           2013,
           332778
+        ],
+        [
+          2014,
+          323288
         ]
       ],
       "name": "Finanzen und Steuern"
@@ -692,19 +732,19 @@
         ],
         [
           2008,
-          4394207
+          4391283
         ],
         [
           2009,
-          3854858
+          3900672
         ],
         [
           2010,
-          4323939
+          4190201
         ],
         [
           2011,
-          4110465
+          4200959
         ],
         [
           2012,
@@ -713,28 +753,47 @@
         [
           2013,
           4542233
+        ],
+        [
+          2014,
+          4708304
         ]
       ],
       "name": "Total"
     }
   ],
   "chart": {
-    "events": {
-      "load": function () {
-              this.credits.element.onclick = function() {}
-          }
-    },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
     "width": 485,
     "height": 415,
-    "spacingBottom": 45,
+    "spacingBottom": 30,
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line",
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {}
+                }
+    },
     "renderTo": "container-6184"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
   },
   "title": {
     "style": {
@@ -755,9 +814,20 @@
     "text": "",
     "align": "left"
   },
-  "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  "xAxis": {
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickColor": "#FFFFFF",
+    "tickInterval": 2
   },
   "yAxis": [
     {
@@ -789,17 +859,13 @@
       "opposite": true
     }
   ],
-  "xAxis": {
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "tickLength": 0,
-    "tickInterval": 2
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
   },
   "credits": {
-    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
     "style": {
       "color": "#000000",
@@ -815,27 +881,22 @@
     "text": "Quelle: Eidgenössische Finanzverwaltung"
   },
   "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
     "symbolRadius": 0,
+    "enabled": true,
     "x": 45,
     "y": 35,
     "itemWidth": 208,
+    "layout": "horizontal",
+    "verticalAlign": "top",
     "itemMarginBottom": 5,
+    "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
-  "plotOptions": {
-    "line": {
-      "connectNulls": true,
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
-    }
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "I.04.1.06184"

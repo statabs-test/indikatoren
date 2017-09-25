@@ -9,46 +9,46 @@
       "data": [
         [
           2006,
-          15.1
+          null
         ],
         [
           2007,
-          31
+          null
         ],
         [
           2008,
-          26.7
+          null
         ],
         [
           2009,
-          16.6
+          null
         ],
         [
           2010,
-          11.2
+          null
         ],
         [
           2011,
-          8.7
+          null
         ],
         [
           2012,
-          10.1
+          null
         ],
         [
           2013,
-          13.1
+          null
         ],
         [
           2014,
-          11
+          null
         ],
         [
           2015,
-          13.8
+          null
         ]
       ],
-      "name": "Einbürgerungsziffer Total (linke Achse)"
+      "name": "Einbürgerungsziffer männlich (linke Achse)"
     },
     {
       "marker": {
@@ -60,46 +60,46 @@
       "data": [
         [
           2006,
-          0.311919571
+          null
         ],
         [
           2007,
-          0.313393617
+          null
         ],
         [
           2008,
-          0.318270063
+          null
         ],
         [
           2009,
-          0.325844404
+          null
         ],
         [
           2010,
-          0.328020587
+          null
         ],
         [
           2011,
-          0.333696037
+          null
         ],
         [
           2012,
-          0.338712595
+          null
         ],
         [
           2013,
-          0.345607007
+          null
         ],
         [
           2014,
-          0.350072021
+          null
         ],
         [
           2015,
-          0.352868096
+          null
         ]
       ],
-      "name": "Ausländeranteil (rechte Achse)"
+      "name": "Einbürgerungsziffer weiblich (linke Achse)"
     }
   ],
   "chart": {

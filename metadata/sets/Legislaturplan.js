@@ -2009,7 +2009,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Die Gesamtausgaben pro Kopf stiegen von 20 817 Fr. im Jahr 2003 auf 23 335 Fr. im Jahr 2013. Der höchste Wert wird mit 7 068 Fr. pro<br>Kopf für den Bereich Bildung notiert, auf den weiteren Rängen folgen Soziale Sicherheit, Gesundheit und Öffentliche Ordnung und<br>Sicherheit. Der Anstieg der Ausgaben beim Posten",
 		"erlaeuterungen": "",
-		"template": "line001",
+		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,

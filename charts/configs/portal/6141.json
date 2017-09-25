@@ -17,7 +17,7 @@
           14.27
         ]
       ],
-      "name": "Industrie",
+      "name": "Industrie Total",
       "turboThreshold": 0
     },
     {
@@ -37,7 +37,7 @@
           1.79
         ]
       ],
-      "name": "Dienstleistungen",
+      "name": "Dienstleistungen Total",
       "turboThreshold": 0
     }
   ],
