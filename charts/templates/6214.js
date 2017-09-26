@@ -1,5 +1,13 @@
 (function(){
     return {
+plotOptions: {
+        area: {
+            stacking: 'normal',
+            //lineColor: '#666666',
+            lineWidth: 1,
+
+        }
+    },
   "yAxis": [{
   	title: {
         text: null
@@ -8,7 +16,7 @@
       "format": "{value:,.0f}"
     },
     "min": 0,
-    "max": 200000,
+    //"max": 200000,
     //"tickInterval":600,
     //"title": ""
   },
@@ -27,8 +35,8 @@
       "format": "{value:,.0f}"
     },
     "min": 0,
-     max: 120,
-    "tickInterval": 30,
+    // max: 120,
+    //"tickInterval": 30,
     //"gridLineWidth": 0,
     "opposite": true
   }
@@ -43,9 +51,8 @@
     "align": "left",
 	"y": 40,
 	"x": 45,
-	"width": 300,
 	"itemMarginBottom": 5,
-    "itemWidth": 120, 
+    "itemWidth": 500, 
     "itemStyle": {
     "fontWeight": "normal"
     }
@@ -54,33 +61,22 @@
     {
       "color": "#FFBB58", // Bevölkerung
       "index": 0,
-      "type": "column",
-      pointPadding: 0,
-      borderWidth: 0,
-      legendIndex: 1,
-    	"tooltip": {
-  		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.0f}</b><br/>',
-		   },
-    },
-    {
-      "color": "#B00000", // Bevölkerung indexiert
-      "index": 1,
-      "type": "line",
-      "yAxis": 1,
-       "marker": {
-        "enabled": true
+      "type": "area",
+      "marker": {
+        "enabled": true,
+        //radius: 3,
+         "symbol": "circle",
       },
-      legendIndex: 2,
     },
      {
       "color":  "#A8C3CA", // Beschäftigte
       "index": 0,
-      "type": "column",
-      pointPadding: 0,
-      borderWidth: 0,
-      //"pointWidth": "8",
-      legendIndex: 3,
-
+      "type": "area",
+      "marker": {
+        "enabled": true,
+         //radius: 3,
+         "symbol": "circle",
+      },
     },
     {
       "color":  "#246370", // Beschäftigte indexiert
@@ -89,11 +85,12 @@
       "yAxis": 1,
       "legendIndex": 3,
       "marker": {
-        "enabled": true
+        "enabled": true,
+         "symbol": "circle",
       },
     }
-  ],  
-   "tooltip": {
+  ], 
+      "tooltip": {
   		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}</b><br/>',
 		   },
   "chart": {

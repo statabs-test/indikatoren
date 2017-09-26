@@ -307,7 +307,9 @@
 	                
 	                
 	                //Add manually drawn legend
-	                 chart.renderer.label(chart.series[1].name, 285, 240)
+	                
+	                 //chart.renderer.label("test", 265, 220)
+	                 chart.renderer.label(chart.series[1].name, 265, 220)
      				.css({
 	                    fontSize: '12px',
 	                    fontWeight: 'bold'
@@ -318,46 +320,51 @@
 			        }).add();
 	                var maxBubbleSize = 3;
 	                var minBubbleSize = 0.01
-	                chart.renderer.circle(410, 275, 0.5*pieSize(minBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
+	                chart.renderer.circle(410, 255, 0.5*pieSize(minBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
 					    fill: 'grey',
 					    'stroke-width': 0, 
 					    zIndex: 6,
 					    class: 'pieLegend'
 					}).add();
-					chart.renderer.label(Highcharts.numberFormat((minBubbleSize),2,","," "), 430, 265).attr({
+					chart.renderer.label(Highcharts.numberFormat((minBubbleSize),2,","," "), 430, 255).attr({
 						zIndex: 6,
 						class: 'pieLegend'
 					}).add();
-	                chart.renderer.circle(410, 300, 0.5*pieSize(maxBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
+	                chart.renderer.circle(410, 280, 0.5*pieSize(maxBubbleSize, minAbsNumber, maxAbsNumber, chart)).attr({
 					    fill: 'grey',
 					    stroke: 'grey',
 					    'stroke-width': 0,
 					    zIndex: 6,
 					    class: 'pieLegend'
 					}).add();
-					chart.renderer.label(Highcharts.numberFormat((maxBubbleSize),0,"."," "), 430, 290).attr({
+					chart.renderer.label(Highcharts.numberFormat((maxBubbleSize),0,"."," "), 430, 270).attr({
 						zIndex: 6,
 						class: 'pieLegend'
 					}).add();
-				    chart.renderer.rect(290, 270, 10, 10, 0).attr({
+				    chart.renderer.rect(270, 250, 10, 10, 0).attr({
 			            'stroke-width':0,
 			            fill: '#7F5F1A',
 			            zIndex: 6,
 			            class: 'pieLegend'
 			        }).add();
-			        chart.renderer.label('Zunahme', 310, 265).attr({
+			        chart.renderer.label('Zunahme', 300, 245).attr({
 			        	zIndex: 6,
 			        	class: 'pieLegend'
 			        }).add();
-					chart.renderer.rect(290, 295, 10, 10, 0).attr({
+					chart.renderer.rect(270, 275, 10, 10, 0).attr({
 			            'stroke-width':0,
 			            fill: '#FABD24',
 			            zIndex: 6,
 			            class: 'pieLegend'
 			        }).add();
-			        chart.renderer.label('Abnahme', 310, 290).attr({
+			        chart.renderer.label('Abnahme', 300, 270).attr({
 			        	zIndex: 6,
 			        	class: 'pieLegend'
+			        }).add();
+			        chart.renderer.label('Leerwohnungsquote nach Wohnviertel', 265, 300).attr({
+			        	zIndex: 6,
+			        	class: 'pieLegend',
+			        	fontWeight: 'bold'
 			        }).add();
 
 									//Add click handler to bubbleLegend items

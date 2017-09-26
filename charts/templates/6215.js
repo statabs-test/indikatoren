@@ -25,21 +25,6 @@
         "enabled": true
       }    
     }, /* violett */
-  	{"color": "#007a2f",
-      "marker": {
-        "enabled": true
-      }    
-    },/* grün  */
-    {"color": "#7F5F1A",
-      "marker": {
-        "enabled": true
-      }    
-    },/* braun  */
-    {"color": "#E6E600",
-      "marker": {
-        "enabled": true
-      }    
-    },/* gelb  */
     {"color": "#008AC3",
       "marker": {
         "enabled": true
@@ -48,7 +33,7 @@
   ],
   "legend": {
     "enabled": true,
-    "x": 100,
+    "x": 50,
     "y": 25,
     "itemWidth": 1000,
     "layout": "horizontal",

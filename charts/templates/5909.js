@@ -5,15 +5,10 @@
         text: null
     },
     "labels": {
-      /*
-      formatter: function(){
-        return this.value/1000;
-      }*/
-      "format": "{value:,.0f}",
-      style:{color: "#000000", fontSize:10}
+      "format": "{value:,.0f}"
     },
     "min": 0,
-    //"max": 3000,
+    "max": 200000,
     //"tickInterval":600,
     //"title": ""
   },
@@ -29,11 +24,11 @@
         text: null
     },
     "labels": {
-      "format": "{value:,.0f}",
-      style:{color: "#000000", fontSize:10}
+      "format": "{value:,.0f}"
     },
     "min": 0,
-    //"tickInterval": 2,
+     max: 120,
+    "tickInterval": 30,
     //"gridLineWidth": 0,
     "opposite": true
   }
