@@ -70,28 +70,32 @@ npm run build
 ``` 
 
 ### Build Application Locally  
-Build:
+To build the application,  create the json config files and the svg images of the charts that have changed since the last build: 
 ```javascript
 npm run build
 ```
 
-
-### Updating dependencies
-To update all packages, run the following command, then do intensive testing of the application: 
+<<<<<<< HEAD
+=======
+To build the application and rebuild all json config files and all chart's svg images: 
 ```javascript
-npm run build:update_dependencies
+npm run rebuild
 ```
 
+Manually create svg thumbnails: 
+- For the portal view: In Chrome, open thumbnails.html.
+- For the indikatorenset view: In Chrome, open thumbnails.html?indikatorensetView=true.
+This will download all svg files to the local downloads directory. You can then manually move them to their respective directory below /images/.
 
-Alternatively, run the following command to do a clean install, dependency update, and shrinkpack: 
+>>>>>>> master
+
+### Updating dependencies
+Update version numbers in package.json, then run the following command to do a clean reinstall: 
 ```javascript
 npm run reinstall
 ```
 
 
-##Licensing
-[Highcharts] (http://www.highcharts.com/) is free for personal, school or non-profit projects under the Creative Commons Attribution - Non Commercial 3.0 License.
-For commercial and governmental websites and projects, you need to buy a license. See [License and Pricing] (http://shop.highsoft.com/highcharts.html).
 ### Develop using [cloud9](https://c9.io)
 - Create new hosted workspace based on the node.js template and the correct github repo
 - Run the following command. This will set node.js version to 6, install true type fonts, and install the application.
@@ -99,3 +103,8 @@ For commercial and governmental websites and projects, you need to buy a license
 ./c9-setup.sh
 ```
 - Run application on c9: Click "Run", "New Run Configuration...", click "Runner", click "Apache httpd". Now click Run, then click the url displayed in the console log: ```https://<c9-vm-name>-<c9-username>.c9users.io```
+
+
+##Licensing
+[Highcharts] (http://www.highcharts.com/) is free for personal, school or non-profit projects under the Creative Commons Attribution - Non Commercial 3.0 License.
+For commercial and governmental websites and projects, you need to buy a license. See [License and Pricing] (http://shop.highsoft.com/highcharts.html).

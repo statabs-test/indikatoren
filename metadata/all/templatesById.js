@@ -99,7 +99,6 @@ var templatesById = {
 	"4292": "dotplot",
 	"4293": "dotplot",
 	"4294": "dotplot",
-	"4296": "dotplot",
 	"4298": "dotplot",
 	"4299": "dotplot",
 	"4300": "dotplot",
@@ -308,10 +307,15 @@ var templatesById = {
 	"6007": "line001",
 	"6008": "line001_print",
 	"6009": "mappie001",
+<<<<<<< HEAD
 	"6214": "template001",
 	"6215": "template001",
 	"6216": "befragungenProzent001",
 	"6218": "template001",
 	"6219": "template001",
 	"9998": "pie001"
+=======
+	"9998": "pie001",
+	"9999": "mappie002"
+>>>>>>> 48549c6039819caebf8be70eb8837beb0370296a
 };

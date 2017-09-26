@@ -284,7 +284,7 @@
 	                        //define default properties
 	                        var mapPieConfig = {
     	                        type: 'mappie',
-    	                        name: data.series.name,
+    	                        name: 'pie-' + data.series.name,
     	                        wohnviertel_Name: data["hc-key"],
     	                        wohnviertel_Id : correspondingMapSeriesItem.wohnviertel_Id,
     	                        zIndex: 6, // Keep pies above connector lines
