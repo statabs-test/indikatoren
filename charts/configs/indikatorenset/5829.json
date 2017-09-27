@@ -4007,6 +4007,15 @@
     					class: 'pieLegend'
     				}).add();
                 },
+    "addLegendLabelbold": function (chart, text, x, y, useHtml){
+    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).
+    				attr({
+    					zIndex: 6,
+    					class: 'pieLegend'	})
+    				.css({
+                        fontWeight: 'bold' }).
+                     add();
+                },
     "addLegendSquare": function (chart, x, y, width, fill){
                 	return chart.renderer.rect(x, y, width, width, 0).attr({
     		            'stroke-width':0,
