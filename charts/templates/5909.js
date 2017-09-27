@@ -26,9 +26,9 @@
     "labels": {
       "format": "{value:,.0f}"
     },
-    "min": 0,
+    "min": 90,
      max: 120,
-    "tickInterval": 30,
+    //"tickInterval": 100,
     //"gridLineWidth": 0,
     "opposite": true
   }

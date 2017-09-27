@@ -17,7 +17,13 @@
   	min:-100,
     "labels": {
       "format": "{value:,.0f}",
-    }
+    },
+	plotLines: [{
+                value: 0,
+                color: 'white',
+                width: 2,
+                zIndex: 10
+                }]
   },
   "xAxis": {
    "tickInterval": 1

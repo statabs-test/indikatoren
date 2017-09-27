@@ -19,6 +19,7 @@ plotOptions: {
        },
     },
     "min": 0,
+    //tickInterval: 25000
   },
   {
     "title": {
@@ -38,6 +39,7 @@ plotOptions: {
        },
     },
     "min": 0,
+    //tickInterval: 50000,
     "opposite": true
   }
   ],

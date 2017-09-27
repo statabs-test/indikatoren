@@ -1,53 +1,100 @@
 (function(){
     return {
-"plotOptions": {
-    "series": {
-      pointPadding: 100,
-      "pointWidth": 15,
-      /*"dataLabels": {
-        "style": {
-          "fontSize": "10px"
+  "chart": { 
+  	"width":665,
+  	spacing: [15,3,8,3],
+  },
+  plotOptions: {
+        series: {
+        	"stacking": "normal",
+            pointPadding: 0,
+            groupPadding: 0.5, // exaclty overlaps columns
+            borderWidth: 0
         }
-      },*/
-      "stacking": "normal"
-    }
+  },
+  "yAxis": {
+  	"min": -50000,
+  	 max: 100000,
+  	"tickInterval": 50000,
+    "labels": {
+      "format": "{value:,.0f}",
+    },
+  	plotLines: [{
+                value: 0,
+                color: 'white',
+                width: 2,
+                zIndex: 10
+                }]
   },
   "xAxis": {
-    "type": "category",
-    "tickInterval": 1
-  },  
-  "yAxis": {
-    "labels": {
-      "format": "{value:,.0f}"
-    },
-	"max": 30000,
-	tickInterval: 10000,
+  	type: "category",
+   "tickInterval": 1,
   },
-  "legend": {
+  /*"legend": {
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    itemMarginBottom: 2,
-    "x": 35,
-	"itemWidth": 200,
+    "width": 50,
+  	"x": 40,
+	"y": 40,
+	"itemMarginBottom": 5,
+    "itemStyle": {
+    "fontWeight": "normal"
+    }
+  },*/
+  "legend": {
+  	enabled:true,
+  	"layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5,
+    "align": "right",
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
   "series": [
-  {"color": "#b00000", "index": 5}, /*rot */
-  {"color": "#2f656b", "index": 4}, /*dunkelblau */
-  ],
-  "chart": {
-    "renderTo": 'container-I.01.1.0016', 
-    "type": "column",
-    "inverted": false
-  },
+    {
+      "color": "#246370", // dunkelblau 
+      //"index": 0,
+      "type": "column",
+      "pointWidth": "15",
+      legendIndex: 0
+    },
+    {
+      "color": "#A8C3CA", //hellblau 
+      //"index": 0,
+      "type": "column",
+      "pointWidth": "15",
+      legendIndex: 1
+    },
+    {
+      "color": "#007A2F", //dunkelgrün
+      //"index": 0,
+      "type": "column",
+      "pointWidth": "15",
+      legendIndex: 2
+    },
+    {
+      "color":  "#8AB77D", //hellgrün 
+      //"index": 0,
+      "type": "column",
+      "pointWidth": "15",
+      legendIndex: 4
+    },
+    {
+      "color": "#000000",
+      //"index": 1,
+      "type": "line",
+	   "marker": {
+    	"enabled": false
+      }, 
+      legendIndex: 4,
+    },
+  ],  
   "tooltip": {
-  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
-  "footerFormat": 'Total: <b>{point.total:,.0f}</b>',
-   "shared": true,
-  },
+    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
+    "shared": true
+  }
 };
 }());
