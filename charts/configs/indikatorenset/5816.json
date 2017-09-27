@@ -262,7 +262,15 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "plotLines": [
+      {
+        "value": 0,
+        "color": "white",
+        "width": 2,
+        "zIndex": 10
+      }
+    ]
   },
   "xAxis": {
     "lineColor": "#B9CFD7",

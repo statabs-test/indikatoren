@@ -270,7 +270,15 @@
       "format": "{value:,.0f}"
     },
     "max": 900,
-    "tickInterval": 450
+    "tickInterval": 450,
+    "plotLines": [
+      {
+        "value": 0,
+        "color": "white",
+        "width": 2,
+        "zIndex": 10
+      }
+    ]
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
