@@ -905,7 +905,7 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Leerstehende Indistrue-und Gewerberäume",
+		"title": "Bevölkerung ab 15 Jahren nach Ausbildungsniveau",
 		"subtitle": "",
 		"kuerzel": "I.09.1.05816",
 		"kuerzelKunde": "ST 4-7",

@@ -268,7 +268,7 @@
   </g>
   <g class="pieLegend" transform="translate(265,300)">
     <text x="3" style="font-weight:bold;" y="15">
-      <tspan>Bruttogeschossfläche in Tausend</tspan>
+      <tspan>Bruttogeschossfläche in km²</tspan>
     </text>
   </g>
   <g class="highcharts-legend" transform="translate(43,323)">
@@ -288,17 +288,17 @@
             <path fill="none" class="highcharts-axis-line" d="M 0 16 L 200 16"/>
           </g>
           <g class="highcharts-axis-labels highcharts-coloraxis-labels ">
-            <text x="3.0546875" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="35" opacity="1">
-              0
+            <text x="7.6328125" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="35" opacity="1">
+              0.0
             </text>
             <text x="66.66666666666667" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="35" opacity="1">
-              500
+              0.5
             </text>
             <text x="133.33333333333334" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="35" opacity="1">
-              <tspan>1 000</tspan>
+              1.0
             </text>
-            <text x="186.2578125" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="35" opacity="1">
-              <tspan>1 500</tspan>
+            <text x="192.3671875" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="35" opacity="1">
+              1.5
             </text>
           </g>
         </g>
