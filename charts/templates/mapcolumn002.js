@@ -21,10 +21,9 @@
     		events:{
 				redraw: function() {
 					var fn = this.options.customFunctions;
-
 			    	if (fn.redrawEnabled) {
 			        	fn.redrawEnabled = false;
-			        	fn.positionColumnSeries(this);
+			        	fn.positionColumnSeries(this, fn.columnChartConfiguration.chartWidth, fn.columnChartConfiguration.chartHeight);
 			            //console.log(this);
 			        	fn.redrawEnabled = true;
 			        }
@@ -175,59 +174,42 @@
 			
 			redrawEnabled: true,
 			
-			//get max absolue yValue from an array of series				    		    
-			getMaxAbsoluteYValue: function(seriesArray){
-				return Math.max.apply(null, 
-            		Array.prototype.concat.apply([], seriesArray.map(function(val, i, arr){
-            			//return single values, not points
-	            		return val.yData.map(function(val, i, arr){
-	            			//return abs value
-	            			return Math.abs(val);
-	            		});
-	            	}))
-            	);
+			columnChartConfiguration: {
+				chartHeight: undefined,
+				chartWidth: undefined, 
+				columnCount: undefined
 			},
-			
-			
-        	//factor with which to multiply value to get column height of value, so that max value gets the max height in px
-        	maxHeightValueFactor: function(axis, maxAbsVal, heightOfLargestBar){
-            	var yExtremes = axis.getExtremes();
-            	var centerY = yExtremes.min + (yExtremes.max - yExtremes.min) / 2;
-            	return (-centerY - axis.toValue(axis.toPixels(-centerY) - heightOfLargestBar)) / maxAbsVal;
-        	},
 
 			//position the columns at the correct location within the wohnviertel
-			positionColumnSeries: function(chart){
-			  var mapXAxis = chart.xAxis[0],
-			    mapYAxis = chart.yAxis[0],
-			    minColumnWidth = 5,
-			    minColumnHeight = 0;
+			positionColumnSeries: function(chart, chartWidth, chartHeight){
+			  var mapXAxis = chart.xAxis[0];
+			  var mapYAxis = chart.yAxis[0];
+			  var zoomRatio = (mapXAxis.dataMax - mapXAxis.dataMin) / (mapXAxis.max - mapXAxis.min);
 			
 			  Highcharts.each(chart.series[0].points, function(state) {
 			    var stateCenterX = mapXAxis.toPixels(state.series.mapData[state.index].properties.POINT_X),
 			      stateCenterY = mapYAxis.toPixels(-state.series.mapData[state.index].properties.POINT_Y),
-			      stateWidth = mapXAxis.toPixels(state._maxX) - mapXAxis.toPixels(state._minX),
-			      stateHeight = mapYAxis.toPixels(state._maxY) - mapYAxis.toPixels(state._minY),
-			      columnWidth = 10, // stateWidth / 6,
-			      columnHeight = 30,// stateHeight / 2,
-			      //columnHeight = 25,
+			      chartWidthZoomed = chartWidth * zoomRatio || 10, // stateWidth / 6,
+			      chartHeightZoomed = chartHeight * zoomRatio || 50,// stateHeight / 2,
 			      axisIndex = state.index + 1,
 			      xAxis = chart.xAxis[axisIndex],
 			      yAxis = chart.yAxis[axisIndex];
-			
+				
+				/*
 			    // applay minimum column plot dimensions if needed
-			    if (columnWidth < minColumnWidth) {
-			      columnWidth = minColumnWidth;
+			    if (chartWidth < minColumnWidth) {
+			      chartWidth = minColumnWidth;
 			    }
-			    if (columnHeight < minColumnHeight) {
-			      columnHeight = minColumnHeight;
+			    if (chartHeight < minColumnHeight) {
+			      chartHeight = minColumnHeight;
 			    }
+			    */
 			
-			    var left = stateCenterX - (columnWidth / 2),
-			      top = stateCenterY - columnHeight;
+			    var left = stateCenterX - (chartWidthZoomed / 2),
+			      top = stateCenterY - chartHeightZoomed / 2;
 			
 			    // hide series which don't fit in the plot area
-			    if (left - chart.plotLeft  < 0 || left - chart.plotLeft + columnWidth / 2 > chart.plotWidth || top   < 0 || top - chart.plotTop + columnHeight > chart.plotHeight) {
+			    if (left - chart.plotLeft  < 0 || left - chart.plotLeft + chartWidthZoomed / 2 > chart.plotWidth || top   < 0 || top - chart.plotTop + chartHeightZoomed > chart.plotHeight) {
 			      xAxis.series.forEach(function(s) {
 			        s.setVisible(false, false);
 			      });
@@ -238,13 +220,13 @@
 			      });
 			
 			      xAxis.update({
-			        left: left, // + 'px', 
-			        width: columnWidth,
+			        left: left, // + 'px'
+			        width: chartWidthZoomed
 			      }, false);
 			
 			      yAxis.update({
-			        top: top, // + 'px',
-			        height: columnHeight,
+			        top: top, // + 'px'
+			        height: chartHeightZoomed
 			      }, false);
 			    }
 			  });
@@ -253,17 +235,40 @@
 			},       	
 
             //draw columns onto the map			    		    
-            drawColumns: function(chart, columnSeries, choroplethSeries, columnRangeSeriesConfig, color, maxHeightValueFactor){
+            drawColumns: function(chart, columnSeries, choroplethSeries, columnRangeSeriesConfig, color, chartHeight, columnWidth){
+				var fn = chart.options.customFunctions;
+				//get all y Data into array in order to get max and min            	
+            	var allYData = Array.prototype.concat.apply(
+						[], columnSeries.map(
+							function(val, i, arr){
+			            		return val.yData;
+			            	}
+		            	)
+            	);
+				var yMax = Math.max.apply(null, allYData);
+				var yMin = Math.min.apply(null, allYData);
+				var mapXAxis = chart.xAxis[0];
+				var zoom = (mapXAxis.dataMax - mapXAxis.dataMin) / (mapXAxis.max - mapXAxis.min);
+				
+				fn.columnChartConfiguration.chartHeight = chartHeight;
+				fn.columnChartConfiguration.chartWidth = columnWidth * columnSeries.length;
+				fn.columnChartConfiguration.columnCount = columnSeries.length;
+				
+				
 				//see https://forum.highcharts.com/highmaps-usage-f14/how-to-make-world-map-with-with-overlaid-column-charts-t39522/ and http://jsfiddle.net/kkulig/d0dku2c2/
 				Highcharts.each(choroplethSeries.points, function(state) {
 				
 				  // create axes separate axes for each column plot    
 				  chart.addAxis({
-				    visible: false
+				    visible: false, 
+				    width: fn.columnChartConfiguration.chartWidth * zoom
 				  }, true, false);
 				
 				  chart.addAxis({
-				    visible: false
+				    visible: false,
+				    height: fn.columnChartConfiguration.chartHeight * zoom,
+				    min: yMin, 
+				    max: yMax
 				  }, false, false);
 				
 				  var mapColumnSeries = {
@@ -292,9 +297,10 @@
 
 				  chart.addSeries(mapColumnSeries, false);
 				});
-				chart.redraw();
-				//fn.positionColumnSeries(chart);
+				//chart.redraw();
+				fn.positionColumnSeries(chart);
 			},    		    
+		    
 		    
             //helper functions for column legend
 	        addLegendTitle: function(chart, title, x, y){

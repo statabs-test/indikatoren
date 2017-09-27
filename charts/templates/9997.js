@@ -121,17 +121,11 @@
                     	};
 						return colors[''+Math.sign(value)][index];
                     };
-					
-					//height of largest bar in px
-					var heightOfLargestBar = 50;
-					var maxAbsValue = fn.getMaxAbsoluteYValue(columnSeries);
-					//calculate factor with which to multiply value to get appropriate column height
-					var maxHeightValueFactor = fn.maxHeightValueFactor(chart.yAxis[0], maxAbsValue, heightOfLargestBar);
+                    var chartHeight = 50;
+                    var columnWidth = 5;
 					
 					//put the columns on the map
-					fn.drawColumns(chart, columnSeries, choroplethSeries, columnSeriesConfig, color, maxHeightValueFactor);
-
-
+					fn.drawColumns(chart, columnSeries, choroplethSeries, columnSeriesConfig, color, chartHeight, columnWidth);
 
 
 	                
@@ -142,7 +136,7 @@
                 	//Add manually drawn legend	
 	                fn.addLegendTitle(chart, columnSeries[0].name, 285, 240);
 	                
-	                fn.addLegendColumnChart(chart, 410, 275, [1, 0.5], color, maxAbsValue, maxHeightValueFactor);
+	                //fn.addLegendColumnChart(chart, 410, 275, [1, 0.5], color, maxAbsValue, maxHeightValueFactor);
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),3,","," "), 430, 265);
 	                fn.addLegendCircle(chart, 410, 300, 10, 'grey');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),2,"."," "), 430, 290);
