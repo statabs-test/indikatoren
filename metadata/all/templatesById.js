@@ -309,7 +309,7 @@ var templatesById = {
 	"6009": "mappie001",
 	"6203": "mappie001",
 	"6204": "mappie001",
-	"9997": "mapcolumn001",
+	"9997": "mapcolumn002",
 	"9998": "pie001",
 	"9999": "mappie002"
 };

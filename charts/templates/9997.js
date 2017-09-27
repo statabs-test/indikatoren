@@ -130,6 +130,10 @@
 					
 					//put the columns on the map
 					fn.drawColumns(chart, columnSeries, choroplethSeries, columnSeriesConfig, color, maxHeightValueFactor);
+
+
+
+
 	                
 					//column values in legend
 	                var minValueInLegend = 0.001; 

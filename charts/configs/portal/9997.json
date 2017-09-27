@@ -3814,6 +3814,16 @@
     "inverted": false,
     "animation": true,
     "events": {
+      "redraw": function () {
+					var fn = this.options.customFunctions;
+
+			    	if (fn.redrawEnabled) {
+			        	fn.redrawEnabled = false;
+			        	fn.positionColumnSeries(this);
+			            //console.log(this);
+			        	fn.redrawEnabled = true;
+			        }
+			    },
       "load": function (e) {
 	            	
 	            	this.credits.element.onclick = function() {};
@@ -3856,10 +3866,18 @@
 						return colors[''+Math.sign(value)][index];
                     };
 					
+					//height of largest bar in px
+					var heightOfLargestBar = 50;
+					var maxAbsValue = fn.getMaxAbsoluteYValue(columnSeries);
+					//calculate factor with which to multiply value to get appropriate column height
+					var maxHeightValueFactor = fn.maxHeightValueFactor(chart.yAxis[0], maxAbsValue, heightOfLargestBar);
 					
 					//put the columns on the map
-					fn.drawColumns(chart, columnSeries, choroplethSeries, columnSeriesConfig, color);
-					
+					fn.drawColumns(chart, columnSeries, choroplethSeries, columnSeriesConfig, color, maxHeightValueFactor);
+
+
+
+
 	                
 					//column values in legend
 	                var minValueInLegend = 0.001; 
@@ -3868,7 +3886,7 @@
                 	//Add manually drawn legend	
 	                fn.addLegendTitle(chart, columnSeries[0].name, 285, 240);
 	                
-	                fn.addLegendCircle(chart, 410, 275, 2, 'grey');
+	                fn.addLegendColumnChart(chart, 410, 275, [1, 0.5], color, maxAbsValue, maxHeightValueFactor);
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),3,","," "), 430, 265);
 	                fn.addLegendCircle(chart, 410, 300, 10, 'grey');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),2,"."," "), 430, 290);
@@ -3960,162 +3978,121 @@
     }
   },
   "xAxis": {
-    "events": {
-      "afterSetExtremes": function (e){
-					//only care about zoom events, not pan
-					if (e.trigger == 'pan') return;
-					//determine current zoom level
-					var zoomRatio = (e.dataMax - e.dataMin) / (e.max - e.min);
-					//adapt data values determined by zoomRatio now and before
-					e.target.chart.series.forEach(function(value, index, array){
-						if (value.options.type == 'mapcolumn'){
-							var baselineYvalue = value.data[0].baselineYvalue;
-							var zoomRatioBefore = value.data[0].zoomRatio;
-							
-							//handle zooming in and out by dividing zoomBefore and zoomAfter
-							var ratiosOfZoomRatios = zoomRatio / zoomRatioBefore;
-							
-							//handle column width
-							var columnWidthValueBefore = value.data[0].columnWidthValue;
-							var columnWidthValue = columnWidthValueBefore / ratiosOfZoomRatios;
-
-							//calculate and update data of each column
-							var newData = value.data.map(function (val, i, arr){
-								return {
-									low: ((val.low - baselineYvalue) / ratiosOfZoomRatios) + baselineYvalue,
-									high: ((val.high - baselineYvalue) / ratiosOfZoomRatios) + baselineYvalue,
-									zoomRatio: zoomRatio,
-									x: +value.data[0].POINT_X + (i + 1) * columnWidthValue,
-									columnWidthValue: columnWidthValue
-								};
-							});
-							value.setData(newData, false);
-						}
-					});
-					
-				}
-    }
+    "events": {}
   },
   "customFunctions": {
-    "defineTemplateFoo": function (){
-					Highcharts.seriesType('mapcolumn', 'columnrange');
-    		    },
-    "getPointsExtremes": function (points){
-                var maxNumber = Number.NEGATIVE_INFINITY;
-                var maxAbsNumber = Number.NEGATIVE_INFINITY;
-                var minNumber = Number.POSITIVE_INFINITY;
-                var minAbsNumber = Number.POSITIVE_INFINITY;
-				Highcharts.each(points, function (point) {
-				    maxNumber = Math.max(maxNumber, point.value);
-				    maxAbsNumber = Math.max(maxAbsNumber, Math.abs(point.value));
-				    minNumber = Math.min(minNumber, point.value);
-				    minAbsNumber = Math.min(minAbsNumber, Math.abs(point.value));
-				});
-				return {
-				    maxNumber: maxNumber,
-				    maxAbsNumber: maxAbsNumber,
-				    minNumber: minNumber,
-				    minAbsNumber: minAbsNumber
-				};
+    "redrawEnabled": true,
+    "getMaxAbsoluteYValue": function (seriesArray){
+				return Math.max.apply(null, 
+            		Array.prototype.concat.apply([], seriesArray.map(function(val, i, arr){
+            			//return single values, not points
+	            		return val.yData.map(function(val, i, arr){
+	            			//return abs value
+	            			return Math.abs(val);
+	            		});
+	            	}))
+            	);
 			},
-    "drawColumns": function (chart, columnSeries, choroplethSeries, columnRangeSeriesConfig, color){
-            	//determine current zoom level
-            	var e = chart.xAxis[0].getExtremes();
-            	var zoomRatio = (e.dataMax - e.dataMin) / (e.max - e.min);
-                //iterate over each wohnviertel and draw the columns
-                Highcharts.each(columnSeries[0].points, function (data, i, array) {
-                   
-                    if (!columnSeries[0].yData[i]) {
-                        return; // Skip points with no data, if any
-                    }
-                    
-                	var correspondingMapSeriesItem = choroplethSeries.points[i];
+    "maxHeightValueFactor": function (axis, maxAbsVal, heightOfLargestBar){
+            	var yExtremes = axis.getExtremes();
+            	var centerY = yExtremes.min + (yExtremes.max - yExtremes.min) / 2;
+            	return (-centerY - axis.toValue(axis.toPixels(-centerY) - heightOfLargestBar)) / maxAbsVal;
+        	},
+    "positionColumnSeries": function (chart){
+			  var mapXAxis = chart.xAxis[0],
+			    mapYAxis = chart.yAxis[0],
+			    minColumnWidth = 5,
+			    minColumnHeight = 0;
+			
+			  Highcharts.each(chart.series[0].points, function(state) {
+			    var stateCenterX = mapXAxis.toPixels(state.series.mapData[state.index].properties.POINT_X),
+			      stateCenterY = mapYAxis.toPixels(-state.series.mapData[state.index].properties.POINT_Y),
+			      stateWidth = mapXAxis.toPixels(state._maxX) - mapXAxis.toPixels(state._minX),
+			      stateHeight = mapYAxis.toPixels(state._maxY) - mapYAxis.toPixels(state._minY),
+			      columnWidth = 10, // stateWidth / 6,
+			      columnHeight = 30,// stateHeight / 2,
+			      //columnHeight = 25,
+			      axisIndex = state.index + 1,
+			      xAxis = chart.xAxis[axisIndex],
+			      yAxis = chart.yAxis[axisIndex];
+			
+			    // applay minimum column plot dimensions if needed
+			    if (columnWidth < minColumnWidth) {
+			      columnWidth = minColumnWidth;
+			    }
+			    if (columnHeight < minColumnHeight) {
+			      columnHeight = minColumnHeight;
+			    }
+			
+			    var left = stateCenterX - (columnWidth / 2),
+			      top = stateCenterY - columnHeight;
+			
+			    // hide series which don't fit in the plot area
+			    if (left - chart.plotLeft  < 0 || left - chart.plotLeft + columnWidth / 2 > chart.plotWidth || top   < 0 || top - chart.plotTop + columnHeight > chart.plotHeight) {
+			      xAxis.series.forEach(function(s) {
+			        s.setVisible(false, false);
+			      });
+			    // show and position series that fit in the plot area
+			    } else {
+			      xAxis.series.forEach(function(s) {
+			        s.setVisible(true, false);
+			      });
+			
+			      xAxis.update({
+			        left: left, // + 'px', 
+			        width: columnWidth,
+			      }, false);
+			
+			      yAxis.update({
+			        top: top, // + 'px',
+			        height: columnHeight,
+			      }, false);
+			    }
+			  });
+			
+			  chart.redraw();
+			},
+    "drawColumns": function (chart, columnSeries, choroplethSeries, columnRangeSeriesConfig, color, maxHeightValueFactor){
+				//see https://forum.highcharts.com/highmaps-usage-f14/how-to-make-world-map-with-with-overlaid-column-charts-t39522/ and http://jsfiddle.net/kkulig/d0dku2c2/
+				Highcharts.each(choroplethSeries.points, function(state) {
+				
+				  // create axes separate axes for each column plot    
+				  chart.addAxis({
+				    visible: false
+				  }, true, false);
+				
+				  chart.addAxis({
+				    visible: false
+				  }, false, false);
+				
+				  var mapColumnSeries = {
+				    type: 'column',
+				    name: state.id,
+				    showInLegend: false,
+				    xAxis: state.index + 1,
+				    yAxis: state.index + 1,
+		            pointPadding: 0,
+		            groupPadding: 0,
+		            borderWidth: 0,		
+				    data: []
+				  };
+				  
+  				  Highcharts.each(columnSeries, function(item, i, arr){
+  				  	var value = item.yData[state.index];
+				  	mapColumnSeries.data.push(
+				  		{
+					  		y: value, 
+					  		v: value,
+					  		color: color(value, i),
+					  		borderColor: color(value, i)
+				  		}
+				  	);
+				  });
 
-                	//Width of a 5 pixel column in terms of xAxis units
-                	var columnWidth = 5;
-                	var columnWidthValue = chart.xAxis[0].toValue(100) - chart.xAxis[0].toValue(100 - columnWidth);
-                	
-                    //create the highcharts column chart config
-                    var currentColumnSeries = function(config){
-                        //define default properties
-                        var mapColumnConfig = {
-	                        type: 'mapcolumn',
-	                        animation: true,
-	                        name: data.series.name,
-	                        wohnviertel_Name: data["hc-key"],
-	                        wohnviertel_Id : correspondingMapSeriesItem.wohnviertel_Id,
-	                        zIndex: 6, // Keep columns above connector lines
-	                        showInLegend: false,
-	                        dataLabels: {
-						        enabled: false
-						    }, 
-						    pointWidth: columnWidth,
-				            pointPadding: 0,
-				            groupPadding: 0,
-				            borderWidth: 0,						    
-						    data: [],
-                        };
-                        
-                        
-                        //add data object to mapColumnConfig
-                        columnSeries.forEach(function(item, index, arr){
-                        	var value = item.yData[i];
-                        	//POINT_X, POINT_Y: centroid for the wohnviertel (defined in geojson)
-                        	var centroidX = +correspondingMapSeriesItem.properties.POINT_X;
-                        	var centroidY = +correspondingMapSeriesItem.properties.POINT_Y;
-                        	var baselineY = -centroidY;
-                        	var valueY = -centroidY - 500 * value;
-                        	mapColumnConfig.data.push(
-                        		{
-	                        		name: item.name,
-	                        		x: +centroidX + (index + 1) * columnWidthValue,
-	                        		low: Math.max(baselineY, valueY),
-	                        		high: Math.min(baselineY, valueY),
-	                        		v: value,
-	                        		POINT_X: centroidX,
-	                        		POINT_Y: centroidY,
-	                        		baselineYvalue: baselineY,
-	                        		zoomRatio: zoomRatio,
-	                        		columnWidthValue: columnWidthValue,
-	                        		color: color(value, index), //item.userOptions.color,
-	                        		borderColor: color(value, index) //item.userOptions.borderColor
-	                        	}
-                    		);
-                        });
-                        
-
-                        //create the config handed in from the chart
-                        var columnTemplate = config(data, correspondingMapSeriesItem);
-                        //merge the two configs (2nd into first, see e.g. https://gist.github.com/TorsteinHonsi/f646f39d51d18b7d6bfb)
-                        return Highcharts.merge(true, mapColumnConfig, columnTemplate);
-                    };
-                    
-                    // Add the columns for this wohnviertel to the chart
-                    var mergeResult = currentColumnSeries(columnRangeSeriesConfig);
-                    chart.addSeries(mergeResult, false);
-                    
-                    /*
-                    // Draw connector to wohnviertel center if the pie has been offset
-                    if (pieOffset.drawConnector !== false) {
-                        var centerPoint = chart.fromLatLonToPoint({
-                                lat: centerLat,
-                                lon: centerLon
-                            }),
-                            offsetPoint = chart.fromLatLonToPoint({
-                                lat: centerLat + (pieOffset.lat || 0),
-                                lon: centerLon + (pieOffset.lon || 0)
-                            });
-                        pieSizeSeries.addPoint({
-                            name: wohnviertel.id,
-                            path: 'M' + offsetPoint.x + ' ' + offsetPoint.y +
-                                'L' + centerPoint.x + ' ' + centerPoint.y
-                        }, false);
-                    }
-                    */
-                    
-                });
-                // Only redraw once all columns and connectors have been added
-                chart.redraw();
+				  chart.addSeries(mapColumnSeries, false);
+				});
+				chart.redraw();
+				//fn.positionColumnSeries(chart);
 			},
     "addLegendTitle": function (chart, title, x, y){
         		return chart.renderer.label(title, x, y)
@@ -4150,6 +4127,21 @@
 		            zIndex: 6,
 		            class: 'columnLegend'
 	        	}).add();
+            },
+    "addLegendColumnChart": function (chart, x, y, values, color, maxAbsVal, maxHeightValueFactor){
+				var axis = chart.yAxis[0];            	
+				var baselineYCoord = axis.toValue(y);
+				values.forEach(function(value, i, arr){
+	            	var columnTopCoord = baselineYCoord - value * maxHeightValueFactor;
+	            	var columnTopPx = axis.toPixels(columnTopCoord);
+	            	var columnHeightPx = y - columnTopPx;
+	            	chart.renderer.rect(x + i * 5, columnTopPx, 5, columnHeightPx, 0).attr({
+			            'stroke-width':0,
+			            fill: color(values[0], i),
+			            zIndex: 6,
+			            class: 'columnLegend'
+		        	}).add();
+				});
             },
     "AddColumnLegendClickHandler": function (chart){
 			    $('.columnLegend').click(function(){
