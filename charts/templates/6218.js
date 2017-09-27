@@ -24,7 +24,7 @@
     "verticalAlign": "top",
     "align": "left",
 	"y": 40,
-	"x": 40,
+	"x": 45,
 	itemWidth: 500,
 	"itemMarginBottom": 5,
     "itemStyle": {
@@ -45,6 +45,13 @@
       "type": "column",
       "pointWidth": "15",
       legendIndex: 1
+    },
+    {
+      "color": "#fabd24",
+      "index": 0,
+      "type": "column",
+      "pointWidth": "15",
+      legendIndex: 2
     },
   ],  
   "tooltip": {
