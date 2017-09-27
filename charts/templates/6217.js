@@ -1,11 +1,21 @@
 (function(){
     return {
+   "chart": {
+    "type": "area",
+   },
   plotOptions: {
-        series: {
+        /*series: {
         	"stacking": "normal",
-            pointPadding: 0,
-            groupPadding: 0.5, // exaclty overlaps columns
-            borderWidth: 0
+			pointPadding: 0,
+            borderWidth: 0,
+            pointWidth: 10, 
+
+        }*/
+         area: {
+            stacking: 'normal',
+            //lineColor: '#666666',
+            lineWidth: 1,
+
         }
   },
   "yAxis": {
@@ -30,41 +40,11 @@
     }
   },
   "series": [
-    {
-      "color": "#B00000",  // red
-      "index": 0,
-      "type": "column",
-      "pointWidth": "15",
-      legendIndex: 0
-    },
-    {
-      "color": "#008AC3", // blue
-      "index": 0,
-      "type": "column",
-      "pointWidth": "15",
-      legendIndex: 1
-    },
-     {
-      "color": "#68AB2B", // green
-      "index": 0,
-      "type": "column",
-      "pointWidth": "15",
-      legendIndex: 2
-    },
-     {
-      "color": "#E6E600", // yellow
-      "index": 0,
-      "type": "column",
-      "pointWidth": "15",
-      legendIndex: 3
-    },
-     {
-      "color": "#923F8D", // pink
-      "index": 0,
-      "type": "column",
-      "pointWidth": "15",
-      legendIndex: 4
-    },
+   {"color":"#B00000", "index": 4, "marker": {"enabled": false}}, //rot
+  {"color":"#FF8028", "index": 3, "marker": {"enabled": false}}, //orange
+  {"color":"#E6E600", "index": 2, "marker": {"enabled": false}}, //gelb
+  {"color":"#71a3b5", "index": 1, "marker": {"enabled": false}}, //blau
+  {"color":"#007a2f", "index": 0, "marker": {"enabled": false}}, //grün
   ],  
   "tooltip": {
     "shared": true

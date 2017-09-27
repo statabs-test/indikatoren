@@ -60,7 +60,7 @@ plotOptions: {
   "series": [
     {
       "color": "#FFBB58", // Area
-      "index": 0,
+      "index": 1,
       "type": "area",
       "marker": {
         "enabled": false,

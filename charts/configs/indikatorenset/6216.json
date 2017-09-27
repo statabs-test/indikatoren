@@ -6,60 +6,60 @@
       "legendIndex": 5,
       "data": [
         [
-          "Parkplätze",
-          27
-        ],
-        [
-          "Wohnungsangebot",
-          14.6
-        ],
-        [
-          "Arbeitsplatzangebot",
-          25.4
-        ],
-        [
-          "Schule, Bildung",
-          19.6
-        ],
-        [
-          "Öffentliche Sicherheit",
-          0.8
-        ],
-        [
-          "Lärmsituation",
-          0.3
-        ],
-        [
-          "Luftqualität",
-          2.5
-        ],
-        [
-          "Bevölkerung",
-          5.6
-        ],
-        [
-          "Quartierleben",
-          9.2
-        ],
-        [
-          "Gebäude\u002FStrassenbild",
-          2.4
-        ],
-        [
-          "Verkehrssicherheit",
-          1.1
-        ],
-        [
-          "Grünanlagen",
-          0.5
+          "ÖV-Angebot",
+          0.9
         ],
         [
           "Abfallbeseitigung",
           0.3
         ],
         [
-          "ÖV-Angebot",
-          0.9
+          "Grünanlagen",
+          0.5
+        ],
+        [
+          "Verkehrssicherheit",
+          1.1
+        ],
+        [
+          "Gebäude\u002FStrassenbild",
+          2.4
+        ],
+        [
+          "Quartierleben",
+          9.2
+        ],
+        [
+          "Bevölkerung",
+          5.6
+        ],
+        [
+          "Luftqualität",
+          2.5
+        ],
+        [
+          "Lärmsituation",
+          0.3
+        ],
+        [
+          "Öffentliche Sicherheit",
+          0.8
+        ],
+        [
+          "Schule, Bildung",
+          19.6
+        ],
+        [
+          "Arbeitsplatzangebot",
+          25.4
+        ],
+        [
+          "Wohnungsangebot",
+          14.6
+        ],
+        [
+          "Parkplätze",
+          27
         ]
       ],
       "name": "Weiss nicht\u002Fk.A.",
@@ -71,60 +71,60 @@
       "legendIndex": 4,
       "data": [
         [
-          "Parkplätze",
-          16.4
-        ],
-        [
-          "Wohnungsangebot",
-          5.8
-        ],
-        [
-          "Arbeitsplatzangebot",
-          2
-        ],
-        [
-          "Schule, Bildung",
-          0.8
-        ],
-        [
-          "Öffentliche Sicherheit",
-          3.5
-        ],
-        [
-          "Lärmsituation",
-          4.4
-        ],
-        [
-          "Luftqualität",
-          2.4
-        ],
-        [
-          "Bevölkerung",
-          1.4
-        ],
-        [
-          "Quartierleben",
-          0.7
-        ],
-        [
-          "Gebäude\u002FStrassenbild",
-          1.5
-        ],
-        [
-          "Verkehrssicherheit",
-          1.5
-        ],
-        [
-          "Grünanlagen",
-          0.9
+          "ÖV-Angebot",
+          0.3
         ],
         [
           "Abfallbeseitigung",
           1.9
         ],
         [
-          "ÖV-Angebot",
-          0.3
+          "Grünanlagen",
+          0.9
+        ],
+        [
+          "Verkehrssicherheit",
+          1.5
+        ],
+        [
+          "Gebäude\u002FStrassenbild",
+          1.5
+        ],
+        [
+          "Quartierleben",
+          0.7
+        ],
+        [
+          "Bevölkerung",
+          1.4
+        ],
+        [
+          "Luftqualität",
+          2.4
+        ],
+        [
+          "Lärmsituation",
+          4.4
+        ],
+        [
+          "Öffentliche Sicherheit",
+          3.5
+        ],
+        [
+          "Schule, Bildung",
+          0.8
+        ],
+        [
+          "Arbeitsplatzangebot",
+          2
+        ],
+        [
+          "Wohnungsangebot",
+          5.8
+        ],
+        [
+          "Parkplätze",
+          16.4
         ]
       ],
       "name": "Ganz unzufrieden",
@@ -136,60 +136,60 @@
       "legendIndex": 3,
       "data": [
         [
-          "Parkplätze",
-          21.3
-        ],
-        [
-          "Wohnungsangebot",
-          28.9
-        ],
-        [
-          "Arbeitsplatzangebot",
-          14.8
-        ],
-        [
-          "Schule, Bildung",
-          7.3
-        ],
-        [
-          "Öffentliche Sicherheit",
-          19.1
-        ],
-        [
-          "Lärmsituation",
-          15.7
-        ],
-        [
-          "Luftqualität",
-          14.6
-        ],
-        [
-          "Bevölkerung",
-          10.7
-        ],
-        [
-          "Quartierleben",
-          7.7
-        ],
-        [
-          "Gebäude\u002FStrassenbild",
-          12.2
-        ],
-        [
-          "Verkehrssicherheit",
-          11.5
-        ],
-        [
-          "Grünanlagen",
-          7.3
+          "ÖV-Angebot",
+          3.5
         ],
         [
           "Abfallbeseitigung",
           5.8
         ],
         [
-          "ÖV-Angebot",
-          3.5
+          "Grünanlagen",
+          7.3
+        ],
+        [
+          "Verkehrssicherheit",
+          11.5
+        ],
+        [
+          "Gebäude\u002FStrassenbild",
+          12.2
+        ],
+        [
+          "Quartierleben",
+          7.7
+        ],
+        [
+          "Bevölkerung",
+          10.7
+        ],
+        [
+          "Luftqualität",
+          14.6
+        ],
+        [
+          "Lärmsituation",
+          15.7
+        ],
+        [
+          "Öffentliche Sicherheit",
+          19.1
+        ],
+        [
+          "Schule, Bildung",
+          7.3
+        ],
+        [
+          "Arbeitsplatzangebot",
+          14.8
+        ],
+        [
+          "Wohnungsangebot",
+          28.9
+        ],
+        [
+          "Parkplätze",
+          21.3
         ]
       ],
       "name": "Eher unzufrieden",
@@ -201,35 +201,23 @@
       "legendIndex": 2,
       "data": [
         [
-          "Parkplätze",
-          27.1
+          "ÖV-Angebot",
+          26.4
         ],
         [
-          "Wohnungsangebot",
-          39.8
+          "Abfallbeseitigung",
+          42.9
         ],
         [
-          "Arbeitsplatzangebot",
-          46.5
+          "Grünanlagen",
+          41.6
         ],
         [
-          "Schule, Bildung",
-          43.2
+          "Verkehrssicherheit",
+          61.4
         ],
         [
-          "Öffentliche Sicherheit",
-          55.4
-        ],
-        [
-          "Lärmsituation",
-          50.1
-        ],
-        [
-          "Luftqualität",
-          61.8
-        ],
-        [
-          "Bevölkerung",
+          "Gebäude\u002FStrassenbild",
           60.7
         ],
         [
@@ -237,24 +225,36 @@
           55.9
         ],
         [
-          "Gebäude\u002FStrassenbild",
+          "Bevölkerung",
           60.7
         ],
         [
-          "Verkehrssicherheit",
-          61.4
+          "Luftqualität",
+          61.8
         ],
         [
-          "Grünanlagen",
-          41.6
+          "Lärmsituation",
+          50.1
         ],
         [
-          "Abfallbeseitigung",
-          42.9
+          "Öffentliche Sicherheit",
+          55.4
         ],
         [
-          "ÖV-Angebot",
-          26.4
+          "Schule, Bildung",
+          43.2
+        ],
+        [
+          "Arbeitsplatzangebot",
+          46.5
+        ],
+        [
+          "Wohnungsangebot",
+          39.8
+        ],
+        [
+          "Parkplätze",
+          27.1
         ]
       ],
       "name": "Eher zufrieden",
@@ -266,60 +266,60 @@
       "legendIndex": 1,
       "data": [
         [
-          "Parkplätze",
-          8.2
-        ],
-        [
-          "Wohnungsangebot",
-          11
-        ],
-        [
-          "Arbeitsplatzangebot",
-          11.3
-        ],
-        [
-          "Schule, Bildung",
-          29
-        ],
-        [
-          "Öffentliche Sicherheit",
-          21.1
-        ],
-        [
-          "Lärmsituation",
-          29.5
-        ],
-        [
-          "Luftqualität",
-          18.7
-        ],
-        [
-          "Bevölkerung",
-          21.6
-        ],
-        [
-          "Quartierleben",
-          26.6
-        ],
-        [
-          "Gebäude\u002FStrassenbild",
-          23.2
-        ],
-        [
-          "Verkehrssicherheit",
-          24.5
-        ],
-        [
-          "Grünanlagen",
-          49.7
+          "ÖV-Angebot",
+          68.9
         ],
         [
           "Abfallbeseitigung",
           49
         ],
         [
-          "ÖV-Angebot",
-          68.9
+          "Grünanlagen",
+          49.7
+        ],
+        [
+          "Verkehrssicherheit",
+          24.5
+        ],
+        [
+          "Gebäude\u002FStrassenbild",
+          23.2
+        ],
+        [
+          "Quartierleben",
+          26.6
+        ],
+        [
+          "Bevölkerung",
+          21.6
+        ],
+        [
+          "Luftqualität",
+          18.7
+        ],
+        [
+          "Lärmsituation",
+          29.5
+        ],
+        [
+          "Öffentliche Sicherheit",
+          21.1
+        ],
+        [
+          "Schule, Bildung",
+          29
+        ],
+        [
+          "Arbeitsplatzangebot",
+          11.3
+        ],
+        [
+          "Wohnungsangebot",
+          11
+        ],
+        [
+          "Parkplätze",
+          8.2
         ]
       ],
       "name": "Sehr zufrieden",

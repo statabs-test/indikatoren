@@ -2,7 +2,7 @@
   "series": [
     {
       "color": "#FFBB58",
-      "index": 0,
+      "index": 1,
       "type": "area",
       "marker": {
         "enabled": false,
