@@ -24,7 +24,7 @@
     "verticalAlign": "top",
     "align": "left",
 	"y": 40,
-	"x": 45,
+	"x": 35,
 	itemWidth: 500,
 	"itemMarginBottom": 5,
     "itemStyle": {

@@ -19,14 +19,15 @@
     	"height": 208,  
         spacing: [3,0,3,2],
         "style": {
-			"fontFamily": "Arial"
+			"fontFamily": "Arial",
+			"fontSize": "10px",
         },
         "zoomType": "xy",
         "type": "column"
     },    
     "title": {
         "style": {
-			"fontSize": "14px",
+			"fontSize": "10px",
 			"fontWeight": "bold",
 			"color": "#000000"
         },        
@@ -34,7 +35,7 @@
     },
     "subtitle": {
         "style": {
-			"fontSize": "12px",
+			"fontSize": "10px",
 			"color": "#000000"
         },
 		"align": "left"
@@ -72,7 +73,8 @@
         "labels": {
             "format": "{value}%",
             "style": {
-            "color": "#000000"
+            "color": "#000000",
+           "fontSize": "10px"
             }
         }
     },
@@ -92,7 +94,8 @@
 			"style": {
                 "color": "#000000",
                 "width": 1,
-                "textOverflow": "none"
+                "textOverflow": "none",
+                "fontSize": "10px",
             },
             "formatter": function() {
             	return this.value.replace(" ", "<br/>");
@@ -125,8 +128,9 @@
         "useHTML": true,
         "itemStyle": {
         	"fontSize": "10px",
+        	fontFamily: "Arial",
             "fontWeight": "normal",
-            "width": 95
+            "width": 95,
         },
         "symbolRadius": 0,
         "labelFormatter": function () {

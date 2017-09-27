@@ -888,7 +888,7 @@
       }
     },
     "line": {
-      "connectNulls": true,
+      "connectNulls": false,
       "marker": {
         "enabled": false,
         "symbol": "circle"
@@ -980,7 +980,6 @@
     },
     "enabled": true,
     "x": 50,
-    "y": 25,
     "itemWidth": 1000,
     "layout": "horizontal",
     "verticalAlign": "top",

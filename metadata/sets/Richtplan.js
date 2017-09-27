@@ -987,82 +987,41 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Bevölkerung am Jahresende un Anzahl Wohnungen",
+		"title": "Haushalte",
 		"subtitle": "",
-		"kuerzel": "I.01.1.05809",
-		"kuerzelKunde": "ST 4-1",
-		"description": "Bevölkerung am Jahresende nach Herkunft",
-		"id": 8001,
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"kuerzel": "I.09.1.05816",
+		"kuerzelKunde": "ST 4-7",
+		"description": "Nettowohnungsproduktion",
+		"id": 6220,
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
 		"schlagwort": [
-			"Bevölkerung"
+			"Wohnen"
 		],
 		"stufe1": "Strategie 4",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die schweizerische Bevölkerung nahm von 1997 bis 2016 von gut 142 000 auf etwa 127 000 Personen ab. Dies entspricht einem Rückgang um rund 10%. Die ausländische Bevölkerung nahm im gleichen Zeitraum von knapp 52 000 auf leicht unter 71 000 Personen zu, was einem Zuwachs um 36% gleichkommt.",
-		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister.",
-		"template": "template001_print",
+		"lesehilfe": "Seit 2014 war die Nettowohnungsproduktion überdurchschnittlich hoch. Dazu beigetragen hat eine hohe Neubauproduktion, ein positiver Umbausaldo und mit Ausnahme von 2015 eine niedrige Anzahl von Abbrüchen.",
+		"erlaeuterungen": "",
+		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "04_00_00_00_00_001",
-		"parentId": 2265,
+		"orderKey": "04_00_00_00_00_007",
+		"parentId": 4135,
 		"children": [
-			"5870"
+			"5876"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"externalLinks": [
-			""
-		]
-	},
-	{
-		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
-		"subtitle": "",
-		"kuerzel": "I.01.1.05809",
-		"kuerzelKunde": "ST 4-1",
-		"description": "Bevölkerung am Jahresende nach Herkunft",
-		"id": 8002,
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Richtplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung"
-		],
-		"stufe1": "Strategie 4",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die schweizerische Bevölkerung nahm von 1997 bis 2016 von gut 142 000 auf etwa 127 000 Personen ab. Dies entspricht einem Rückgang um rund 10%. Die ausländische Bevölkerung nahm im gleichen Zeitraum von knapp 52 000 auf leicht unter 71 000 Personen zu, was einem Zuwachs um 36% gleichkommt.",
-		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister.",
-		"template": "template001_print",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": false,
-		"orderKey": "04_00_00_00_00_001",
-		"parentId": 2265,
-		"children": [
-			"5870"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
