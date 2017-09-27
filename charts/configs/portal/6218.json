@@ -8,14 +8,6 @@
       "legendIndex": 0,
       "data": [
         [
-          "1970",
-          63919
-        ],
-        [
-          "1980",
-          50791
-        ],
-        [
           "1990",
           58804
         ],
@@ -48,7 +40,7 @@
           38509
         ]
       ],
-      "name": "Sekundarstufe 1",
+      "name": "Sekundarstufe",
       "turboThreshold": 0
     },
     {
@@ -58,14 +50,6 @@
       "pointWidth": "15",
       "legendIndex": 1,
       "data": [
-        [
-          "1970",
-          87821
-        ],
-        [
-          "1980",
-          70332
-        ],
         [
           "1990",
           80648
@@ -99,7 +83,7 @@
           61450
         ]
       ],
-      "name": "Sekundarstufe 2",
+      "name": "Sekundarstufe",
       "turboThreshold": 0
     },
     {
@@ -109,14 +93,6 @@
       "pointWidth": "15",
       "legendIndex": 2,
       "data": [
-        [
-          "1970",
-          14879
-        ],
-        [
-          "1980",
-          17192
-        ],
         [
           "1990",
           22227

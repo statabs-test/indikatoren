@@ -3669,8 +3669,8 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 	                
 					//pie values in legend
-	                var minValueInLegend = 400; 
-	                var maxValueInLegend = 160000; 
+	                var minValueInLegend = 1000; 
+	                var maxValueInLegend = 270000; 
 	                
                 	//Add manually drawn legend	
 	                fn.addLegendTitle(chart, pieSizeSeries.name, 265, 220);
@@ -3682,8 +3682,8 @@
 
 					fn.addLegendSquare(chart, 270, 250, 10, '#7F5F1A');
 					fn.addLegendLabel(chart, 'Zunahme', 300, 245);
-					fn.addLegendSquare(chart, 270, 275, 10, '#FABD24');
-					fn.addLegendLabel(chart, 'Abnahme', 300, 270);
+					//fn.addLegendSquare(chart, 270, 275, 10, '#FABD24');
+					//fn.addLegendLabel(chart, 'Abnahme', 300, 270);
 					fn.addLegendLabelbold(chart, 'Bruttogeschossfläche in Tausend', 265, 300);
 					
 					//make sure pies are hidden upon click onto pie legend
@@ -3700,7 +3700,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Bevölkerung ab 15 Jahren nach Ausbildungsniveau"
+    "text": "Bruttogeschlossfläche Total"
   },
   "subtitle": {
     "style": {

@@ -228,7 +228,7 @@
     <g class="highcharts-markers highcharts-series-45 highcharts-mappie-series highcharts-color-undefined " transform="translate(10,41) scale(1 1)"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;font-family:arial;fill:#000000;" y="21">
-    <tspan>Bevölkerung ab 15 Jahren nach Ausbildungsniveau</tspan>
+    <tspan>Bruttogeschlossfläche Total</tspan>
   </text>
   <g class="highcharts-data-labels highcharts-series-3 highcharts-mapline-series highcharts-color-undefined " visibility="visible" transform="translate(10,41) scale(1 1)" clip-path="url(#a)">
     <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(-Infinity,-Infinity)">
@@ -242,28 +242,22 @@
       <tspan>Differenz 2015 zu 1995</tspan>
     </text>
   </g>
-  <circle cx="390" cy="255" r="0.3845023541240713" fill="grey" stroke="grey" stroke-width="1" class="pieLegend"/>
+  <circle cx="390" cy="255" r="0.6079516023643509" fill="grey" stroke="grey" stroke-width="1" class="pieLegend"/>
   <g class="pieLegend" transform="translate(410,245)">
     <text x="3" y="15">
-      400
+      <tspan>1 000</tspan>
     </text>
   </g>
-  <circle cx="390" cy="280" r="7.690047082481426" fill="grey" stroke="grey" stroke-width="1" class="pieLegend"/>
+  <circle cx="390" cy="280" r="9.989664194590983" fill="grey" stroke="grey" stroke-width="1" class="pieLegend"/>
   <g class="pieLegend" transform="translate(410,270)">
     <text x="3" y="15">
-      <tspan>160 000</tspan>
+      <tspan>270 000</tspan>
     </text>
   </g>
   <rect x="270" y="250" width="10" height="10" fill="#7F5F1A" class="pieLegend"/>
   <g class="pieLegend" transform="translate(300,245)">
     <text x="3" y="15">
       Zunahme
-    </text>
-  </g>
-  <rect x="270" y="275" width="10" height="10" fill="#FABD24" class="pieLegend"/>
-  <g class="pieLegend" transform="translate(300,270)">
-    <text x="3" y="15">
-      Abnahme
     </text>
   </g>
   <g class="pieLegend" transform="translate(265,300)">
