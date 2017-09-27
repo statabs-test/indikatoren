@@ -14,20 +14,24 @@
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   },
   "series": [
+  	   {"color": "black",
+      "marker": {
+        "enabled": false
+      }    
+    }, /* black */
     {"color": "#b00000 ",
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
-    
     }, /* rot */
 	{"color": "#672773",
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* violett */
     {"color": "#008AC3",
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     },/* blau  */
   ],
