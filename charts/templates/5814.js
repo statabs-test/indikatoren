@@ -361,11 +361,13 @@
 			        	zIndex: 6,
 			        	class: 'pieLegend'
 			        }).add();
-			        chart.renderer.label('Leerwohnungsquote nach Wohnviertel', 265, 300).attr({
+			        chart.renderer.label('Leerwohnungsquote', 265, 300).attr({
 			        	zIndex: 6,
 			        	class: 'pieLegend',
-			        	fontWeight: 'bold'
-			        }).add();
+			        })
+			         .css({
+                        fontWeight: 'bold'
+                    }).add();
 
 									//Add click handler to bubbleLegend items
 					$('.pieLegend').click(function(){
