@@ -48,7 +48,7 @@
           38509
         ]
       ],
-      "name": "Industrie",
+      "name": "Sekundarstufe 1",
       "turboThreshold": 0
     },
     {
@@ -99,7 +99,58 @@
           61450
         ]
       ],
-      "name": "Gewerbe",
+      "name": "Sekundarstufe 2",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#fabd24",
+      "index": 0,
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 2,
+      "data": [
+        [
+          "1970",
+          14879
+        ],
+        [
+          "1980",
+          17192
+        ],
+        [
+          "1990",
+          22227
+        ],
+        [
+          "2000",
+          31059
+        ],
+        [
+          "2010",
+          48517
+        ],
+        [
+          "2011",
+          52529
+        ],
+        [
+          "2012",
+          54797
+        ],
+        [
+          "2013",
+          57615
+        ],
+        [
+          "2014",
+          60432
+        ],
+        [
+          "2015",
+          61871
+        ]
+      ],
+      "name": "Tertiärstufe",
       "turboThreshold": 0
     }
   ],
@@ -215,7 +266,7 @@
     "verticalAlign": "top",
     "align": "left",
     "y": 40,
-    "x": 40,
+    "x": 45,
     "itemWidth": 500,
     "itemMarginBottom": 5,
     "itemStyle": {

@@ -11586,7 +11586,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Seit 2014 war die Nettowohnungsproduktion überdurchschnittlich hoch. Dazu beigetragen hat eine hohe Neubauproduktion, ein positiver Umbausaldo und mit Ausnahme von 2015 eine niedrige Anzahl von Abbrüchen.",
 		"erlaeuterungen": "",
-		"template": "template001",
+		"template": "mappie001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,

@@ -245,10 +245,10 @@
       <tspan>Differenz 2016 zu 1998</tspan>
     </text>
   </g>
-  <circle cx="410" cy="255" r="0.5731308066378492" fill="grey" stroke="grey" stroke-width="1" class="pieLegend"/>
-  <g class="pieLegend" transform="translate(430,255)">
+  <circle cx="410" cy="255" r="0.8105293597610782" fill="grey" stroke="grey" stroke-width="1" class="pieLegend"/>
+  <g class="pieLegend" transform="translate(430,245)">
     <text x="3" y="15">
-      0,01
+      0,02
     </text>
   </g>
   <circle cx="410" cy="280" r="9.926916764796886" fill="grey" stroke="grey" stroke-width="1" class="pieLegend"/>

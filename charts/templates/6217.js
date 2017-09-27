@@ -31,18 +31,39 @@
   },
   "series": [
     {
-      "color": "#b475ab",
+      "color": "#B00000",  // red
       "index": 0,
       "type": "column",
       "pointWidth": "15",
       legendIndex: 0
     },
     {
-      "color": "#a8c4cb",
+      "color": "#008AC3", // blue
       "index": 0,
       "type": "column",
       "pointWidth": "15",
       legendIndex: 1
+    },
+     {
+      "color": "#68AB2B", // green
+      "index": 0,
+      "type": "column",
+      "pointWidth": "15",
+      legendIndex: 2
+    },
+     {
+      "color": "#E6E600", // yellow
+      "index": 0,
+      "type": "column",
+      "pointWidth": "15",
+      legendIndex: 3
+    },
+     {
+      "color": "#923F8D", // pink
+      "index": 0,
+      "type": "column",
+      "pointWidth": "15",
+      legendIndex: 4
     },
   ],  
   "tooltip": {
