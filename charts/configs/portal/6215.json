@@ -1,0 +1,329 @@
+{
+  "series": [
+    {
+      "color": "#b00000 ",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2017,
+          197810
+        ],
+        [
+          2018,
+          197450
+        ],
+        [
+          2019,
+          197120
+        ],
+        [
+          2020,
+          196800
+        ],
+        [
+          2021,
+          196450
+        ],
+        [
+          2022,
+          196060
+        ],
+        [
+          2023,
+          195620
+        ],
+        [
+          2024,
+          195130
+        ],
+        [
+          2025,
+          194590
+        ],
+        [
+          2026,
+          194010
+        ],
+        [
+          2027,
+          193410
+        ],
+        [
+          2028,
+          192780
+        ],
+        [
+          2029,
+          192140
+        ],
+        [
+          2030,
+          191490
+        ]
+      ],
+      "name": "Tiefes Szenario"
+    },
+    {
+      "color": "#672773",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2017,
+          198980
+        ],
+        [
+          2018,
+          199910
+        ],
+        [
+          2019,
+          200960
+        ],
+        [
+          2020,
+          202090
+        ],
+        [
+          2021,
+          203250
+        ],
+        [
+          2022,
+          204400
+        ],
+        [
+          2023,
+          205510
+        ],
+        [
+          2024,
+          206550
+        ],
+        [
+          2025,
+          207480
+        ],
+        [
+          2026,
+          208310
+        ],
+        [
+          2027,
+          209030
+        ],
+        [
+          2028,
+          209660
+        ],
+        [
+          2029,
+          210200
+        ],
+        [
+          2030,
+          210690
+        ]
+      ],
+      "name": "Mittleres Szenario"
+    },
+    {
+      "color": "#008AC3",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2017,
+          199990
+        ],
+        [
+          2018,
+          202080
+        ],
+        [
+          2019,
+          204400
+        ],
+        [
+          2020,
+          206920
+        ],
+        [
+          2021,
+          209580
+        ],
+        [
+          2022,
+          212320
+        ],
+        [
+          2023,
+          215070
+        ],
+        [
+          2024,
+          217750
+        ],
+        [
+          2025,
+          220320
+        ],
+        [
+          2026,
+          222720
+        ],
+        [
+          2027,
+          224960
+        ],
+        [
+          2028,
+          227030
+        ],
+        [
+          2029,
+          228960
+        ],
+        [
+          2030,
+          230780
+        ]
+      ],
+      "name": "Hohes Szenario"
+    }
+  ],
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {}
+                }
+    },
+    "renderTo": "container-6215"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Wohnbevölkerung gemäss Bevölkerungsszenarien"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickColor": "#FFFFFF",
+    "tickInterval": 1
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "x": 50,
+    "y": 25,
+    "itemWidth": 1000,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left",
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "I.01.1.05809"
+  }
+}

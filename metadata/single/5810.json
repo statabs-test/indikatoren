@@ -19,7 +19,7 @@
 "erlaeuterungen":"Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister. Der starke Zuwachs im Wohnviertel Rosental ergab sich mitunter durch die Überbauung des Erlenmattareals.",
 "template":"template001",
 "option":"options001",
-"visible":true,
+"visible":false,
 "visibleInPortal":false,
 "orderKey":"04_00_00_00_00_002",
 "parentId":2265,

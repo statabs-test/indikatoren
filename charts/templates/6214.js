@@ -13,36 +13,36 @@ plotOptions: {
         text: null
     },
     "labels": {
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f}",
+       style:{
+       		color: "black",
+       },
     },
     "min": 0,
-    //"max": 200000,
-    //"tickInterval":600,
-    //"title": ""
   },
   {
-    /*"title": {
+    "title": {
         "style": {
         "color": "#000000",
         "fontSize": null
       },
       "text": null
-    },*/
+    },
     title: {
         text: null
     },
     "labels": {
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f}",
+       style:{
+       		color: "black",
+       },
     },
     "min": 0,
-    // max: 120,
-    //"tickInterval": 30,
-    //"gridLineWidth": 0,
     "opposite": true
   }
   ],
   "xAxis": {
-    "tickInterval": 2
+    "tickInterval": 5
   },
   "legend": {
     "enabled": true,
@@ -59,33 +59,33 @@ plotOptions: {
   },
   "series": [
     {
-      "color": "#FFBB58", // Bevölkerung
+      "color": "#FFBB58", // Area
       "index": 0,
       "type": "area",
       "marker": {
-        "enabled": true,
+        "enabled": false,
         //radius: 3,
          "symbol": "circle",
       },
     },
      {
-      "color":  "#A8C3CA", // Beschäftigte
+      "color":  "#A8C3CA", // Area
       "index": 0,
       "type": "area",
       "marker": {
-        "enabled": true,
+        "enabled": false,
          //radius: 3,
          "symbol": "circle",
       },
     },
     {
-      "color":  "#246370", // Beschäftigte indexiert
+      "color":  "#246370", // Line
       "index": 1,
       "type": "line",
       "yAxis": 1,
       "legendIndex": 3,
       "marker": {
-        "enabled": true,
+        "enabled": false,
          "symbol": "circle",
       },
     }

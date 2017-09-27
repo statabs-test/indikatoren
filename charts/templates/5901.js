@@ -1,35 +1,40 @@
 (function(){
     return {
   "yAxis": [{
+  	"min": 0,
+    "max": 200000,
   	title: {
-        text: null
+        text: null,
+        "color": "#000000",
+        "fontSize": null
     },
     "labels": {
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f}",
+       style:{
+       		color: "black",
+       },
     },
-    "min": 0,
-    "max": 200000,
-    //"tickInterval":600,
-    //"title": ""
   },
   {
-    /*"title": {
+  	"min": 90,
+     max: 120,
+    "tickInterval": 10,
+    "title": {
         "style": {
         "color": "#000000",
         "fontSize": null
       },
       "text": null
-    },*/
+    },
     title: {
         text: null
     },
     "labels": {
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f}",
+       style:{
+       		color: "black",
+       },
     },
-    "min": 0,
-     max: 120,
-    "tickInterval": 30,
-    //"gridLineWidth": 0,
     "opposite": true
   }
   ],

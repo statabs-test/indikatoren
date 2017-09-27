@@ -1,0 +1,313 @@
+{
+  "series": [
+    {
+      "color": "#b475ab",
+      "index": 0,
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 0,
+      "data": [
+        [
+          "1995",
+          7495
+        ],
+        [
+          "1996",
+          9754
+        ],
+        [
+          "1997",
+          10112
+        ],
+        [
+          "1998",
+          9996
+        ],
+        [
+          "1999",
+          7112
+        ],
+        [
+          "2000",
+          5734
+        ],
+        [
+          "2001",
+          6284
+        ],
+        [
+          "2002",
+          4415
+        ],
+        [
+          "2003",
+          4122
+        ],
+        [
+          "2004",
+          7135
+        ],
+        [
+          "2005",
+          11604
+        ],
+        [
+          "2006",
+          12642
+        ],
+        [
+          "2007",
+          7906
+        ],
+        [
+          "2008",
+          8597
+        ],
+        [
+          "2009",
+          20200
+        ],
+        [
+          "2010",
+          13516
+        ],
+        [
+          "2011",
+          16373
+        ],
+        [
+          "2012",
+          14333
+        ],
+        [
+          "2013",
+          9503
+        ],
+        [
+          "2014",
+          17186
+        ],
+        [
+          "2015",
+          17576
+        ],
+        [
+          "2016",
+          10559
+        ]
+      ],
+      "name": "Laden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#a8c4cb",
+      "index": 0,
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 1,
+      "data": [
+        [
+          "1995",
+          37359
+        ],
+        [
+          "1996",
+          36414
+        ],
+        [
+          "1997",
+          24845
+        ],
+        [
+          "1998",
+          14888
+        ],
+        [
+          "1999",
+          28533
+        ],
+        [
+          "2000",
+          37764
+        ],
+        [
+          "2001",
+          22039
+        ],
+        [
+          "2002",
+          23722
+        ],
+        [
+          "2003",
+          34053
+        ],
+        [
+          "2004",
+          52201
+        ],
+        [
+          "2005",
+          65745
+        ],
+        [
+          "2006",
+          43273
+        ],
+        [
+          "2007",
+          52559
+        ],
+        [
+          "2008",
+          60842
+        ],
+        [
+          "2009",
+          49314
+        ],
+        [
+          "2010",
+          81705
+        ],
+        [
+          "2011",
+          87909
+        ],
+        [
+          "2012",
+          91175
+        ],
+        [
+          "2013",
+          71229
+        ],
+        [
+          "2014",
+          75525
+        ],
+        [
+          "2015",
+          60952
+        ],
+        [
+          "2016",
+          54565
+        ]
+      ],
+      "name": "Büro",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-6217"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Leerstehende Industrie- und Gewerberäume"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": true
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -5
+    },
+    "text": "Quelle: "
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "y": 40,
+    "x": 40,
+    "itemWidth": 500,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "stacking": "normal",
+      "pointPadding": 0,
+      "groupPadding": 0.5,
+      "borderWidth": 0
+    }
+  },
+  "exporting": {
+    "filename": "I.09.2.06217"
+  }
+}

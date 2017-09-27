@@ -20,7 +20,12 @@
     "labels": {
       "format": "{value:,.0f}"
     },
-	"max": undefined
+   plotLines: [{
+                    value: 0,
+                    color: 'white',
+                    width: 2,
+                    zIndex: 10
+                }]
   },
   "legend": {
     "enabled": true,

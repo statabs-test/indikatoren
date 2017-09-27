@@ -71,9 +71,6 @@
         "enabled": true
       },
       "legendIndex": 2,
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
       "data": [
         [
           2005,
@@ -133,9 +130,6 @@
       "pointPadding": 0,
       "borderWidth": 0,
       "legendIndex": 3,
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
       "data": [
         [
           2005,
@@ -196,9 +190,6 @@
       "legendIndex": 3,
       "marker": {
         "enabled": true
-      },
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
         [
@@ -293,7 +284,8 @@
     "align": "left"
   },
   "tooltip": {
-    "shared": false
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": [
     {
@@ -303,7 +295,8 @@
       "labels": {
         "format": "{value:,.0f}"
       },
-      "min": 0
+      "min": 0,
+      "max": 200000
     },
     {
       "title": {
@@ -313,6 +306,8 @@
         "format": "{value:,.0f}"
       },
       "min": 0,
+      "max": 120,
+      "tickInterval": 30,
       "opposite": true
     }
   ],

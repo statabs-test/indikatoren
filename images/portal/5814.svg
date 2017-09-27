@@ -227,33 +227,38 @@
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
     <tspan>nach Wohnviertel</tspan>
   </text>
-  <g class="highcharts-label" transform="translate(285,240)">
+  <g class="highcharts-label" transform="translate(265,220)">
     <text x="3" style="font-size:12px;font-weight:bold;" y="15">
       <tspan>Differenz 2016 zu 1998</tspan>
     </text>
   </g>
-  <circle cx="410" cy="275" r="1.0069026993415493" fill="grey" class="pieLegend"/>
-  <g class="pieLegend" transform="translate(430,265)">
+  <circle cx="410" cy="255" r="1.0069026993415493" fill="grey" class="pieLegend"/>
+  <g class="pieLegend" transform="translate(430,255)">
     <text x="3" y="15">
       0,01
     </text>
   </g>
-  <circle cx="410" cy="300" r="9.279812297533743" fill="grey" class="pieLegend"/>
-  <g class="pieLegend" transform="translate(430,290)">
+  <circle cx="410" cy="280" r="9.279812297533743" fill="grey" class="pieLegend"/>
+  <g class="pieLegend" transform="translate(430,270)">
     <text x="3" y="15">
       3
     </text>
   </g>
-  <rect x="290" y="270" width="10" height="10" fill="#7F5F1A" class="pieLegend"/>
-  <g class="pieLegend" transform="translate(310,265)">
+  <rect x="270" y="250" width="10" height="10" fill="#7F5F1A" class="pieLegend"/>
+  <g class="pieLegend" transform="translate(300,245)">
     <text x="3" y="15">
       Zunahme
     </text>
   </g>
-  <rect x="290" y="295" width="10" height="10" fill="#FABD24" class="pieLegend"/>
-  <g class="pieLegend" transform="translate(310,290)">
+  <rect x="270" y="275" width="10" height="10" fill="#FABD24" class="pieLegend"/>
+  <g class="pieLegend" transform="translate(300,270)">
     <text x="3" y="15">
       Abnahme
+    </text>
+  </g>
+  <g class="pieLegend" fontWeight="bold" transform="translate(265,300)">
+    <text x="3" y="15">
+      <tspan>Leerwohnungsquote nach Wohnviertel</tspan>
     </text>
   </g>
   <g class="highcharts-legend" transform="translate(43,323)">
