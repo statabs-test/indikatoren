@@ -109,7 +109,7 @@
 	                fn.addLegendTitle(chart, pieSizeSeries.name, 265, 220);
 	                
 	                fn.addLegendCircle(chart, 410, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),2,","," "), 430, 255);
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),2,","," "), 430, 245);
 	                fn.addLegendCircle(chart, 410, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 430, 270);
 
