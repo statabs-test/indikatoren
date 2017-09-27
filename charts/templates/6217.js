@@ -9,14 +9,12 @@
         }
   },
   "yAxis": {
-  	//"min": -200,
     "labels": {
       "format": "{value:,.0f}",
     }
   },
   "xAxis": {
   	"type": "category",
-   //"tickInterval": 1
   },
   "legend": {
     "enabled": true,
@@ -24,8 +22,8 @@
     "verticalAlign": "top",
     "align": "left",
 	"y": 40,
-	"x": 40,
-	itemWidth: 500,
+	"x": 45,
+ 	itemWidth: 500,
 	"itemMarginBottom": 5,
     "itemStyle": {
     "fontWeight": "normal"
@@ -50,10 +48,5 @@
   "tooltip": {
     "shared": true
   },
-  /*"chart": {
-    "marginBottom": 65,
-    "type": "line",
-    "alignTicks": false
-  }*/
 };
 }());

@@ -1,7 +1,12 @@
 (function(){
     return {
       "xAxis": {
-        "type": "category"
+        "type": "category",
+        "labels": {
+            "formatter": function() {
+            	return this.value;
+            }
+        } 
       },  
       "tooltip": {
         valueDecimals: 1
@@ -15,6 +20,6 @@
       ],
   "chart": {      
      "inverted": true,
-  }
+  },
     };
 }());
