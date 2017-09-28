@@ -57,7 +57,6 @@
 				}, 
 				tooltip: {
 					pointFormatter: function(){
-						//console.log(this);
 						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),3) + '</b><br/>';
 					}
 				}
@@ -69,13 +68,13 @@
 				visible: false,
 				type: 'pie',
 				color: 'red',
-				borderColor: 'red'
+				borderColor: 'red', 
 			}, 
 			{
 				visible: false,
 				type: 'pie',
         		color: 'blue',
-        		borderColor: 'blue'
+        		borderColor: 'blue',
 			}
 		],
 		chart: {
@@ -95,7 +94,7 @@
 					//var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
 
 					//define chart-specific details
-					var columnSeriesConfig = function(data, correspondingMapSeriesItem, color){
+					var columnSeriesConfig = function(correspondingMapSeriesItem, color){
 						return {
 	                        tooltip: {
 	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {point.key} </span><br/>',

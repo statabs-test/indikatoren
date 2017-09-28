@@ -20,17 +20,38 @@
     		animation: true,
     		events:{
 				redraw: function() {
+					//position column charts on the map
 					var fn = this.options.customFunctions;
 			    	if (fn.redrawEnabled) {
 			        	fn.redrawEnabled = false;
 			        	fn.positionColumnSeries(this, fn.columnChartConfiguration.chartWidth, fn.columnChartConfiguration.chartHeight);
-			            //console.log(this);
 			        	fn.redrawEnabled = true;
 			        }
 			    }, 
-    		
     		}
         },
+		tooltip: {
+			enabled: true,
+			positioner: function(labelWidth, labelHeight, point, obj){
+				var conf = this.chart.options.customFunctions.columnChartConfiguration;
+				//Hack: For xAxis with left > 0, the point returned here lists only the x distance from the start of the xAxis. 
+				//To get the correct x coordinates, the MouseOver function of the series writes the x coordinate into conf.currentSeriesXAxisLeft, this used here. 
+				//For columns on maps: point.plotX is always < 10 - I have not found any other clever idea how to find out if the tooltip is over a column charts
+				point.plotX = point.plotX < 10 ? conf.currentSeriesXAxisLeft -7 : point.plotX;
+				return { x: point.plotX, y: point.plotY };
+			}
+		},
+		plotOptions: {
+			series: {
+					events: {
+						mouseOver: function(e){
+							//Hack: to prevent first tooltip of a column on map to be displayed at the left chart border, set current mouse position here. 
+							var conf = this.chart.options.customFunctions.columnChartConfiguration;
+							conf.currentSeriesXAxisLeft = e.target.xAxis.left;
+						}
+					}
+			}
+		},
         "title": {
             "style": {
                 "fontSize": "14px",
@@ -207,8 +228,9 @@
 			},       	
 
             //draw columns onto the map			    		    
-            drawColumns: function(chart, columnSeries, choroplethSeries, columnRangeSeriesConfig, color, chartHeight, columnWidth){
+            drawColumns: function(chart, columnSeries, choroplethSeries, columnSeriesConfig, color, chartHeight, columnWidth){
 				var fn = chart.options.customFunctions;
+				var conf = fn.columnChartConfiguration;
 				//get all y Data into array in order to get max and min            	
             	var allYData = Array.prototype.concat.apply(
 						[], columnSeries.map(
@@ -222,54 +244,60 @@
 				var mapXAxis = chart.xAxis[0];
 				var zoom = (mapXAxis.dataMax - mapXAxis.dataMin) / (mapXAxis.max - mapXAxis.min);
 				
-				fn.columnChartConfiguration.chartHeight = chartHeight;
-				fn.columnChartConfiguration.chartWidth = columnWidth * columnSeries.length;
-				fn.columnChartConfiguration.columnWidth = columnWidth;
-				fn.columnChartConfiguration.columnCount = columnSeries.length;
-				fn.columnChartConfiguration.yMax = yMax;
-				fn.columnChartConfiguration.yMin = yMin;
+				conf.chartHeight = chartHeight;
+				conf.chartWidth = columnWidth * columnSeries.length;
+				conf.columnWidth = columnWidth;
+				conf.columnCount = columnSeries.length;
+				conf.yMax = yMax;
+				conf.yMin = yMin;
 				
 				//see https://forum.highcharts.com/highmaps-usage-f14/how-to-make-world-map-with-with-overlaid-column-charts-t39522/ and http://jsfiddle.net/kkulig/d0dku2c2/
-				Highcharts.each(choroplethSeries.points, function(state) {
-				
-				  // create axes separate axes for each column plot    
-				  chart.addAxis({
-				    visible: false, 
-				    width: fn.columnChartConfiguration.chartWidth * zoom
-				  }, true, false);
-				
-				  chart.addAxis({
-				    visible: false,
-				    height: fn.columnChartConfiguration.chartHeight * zoom,
-				    min: yMin, 
-				    max: yMax
-				  }, false, false);
-				
-				  var mapColumnSeries = {
-				    type: 'column',
-				    name: state.id,
-				    showInLegend: false,
-				    xAxis: state.index + 1,
-				    yAxis: state.index + 1,
-		            pointPadding: 0,
-		            groupPadding: 0,
-		            borderWidth: 0,		
-				    data: []
-				  };
-				  
-  				  Highcharts.each(columnSeries, function(item, i, arr){
-  				  	var value = item.yData[state.index];
-				  	mapColumnSeries.data.push(
-				  		{
-					  		y: value, 
-					  		v: value,
-					  		color: color(value, i),
-					  		borderColor: color(value, i)
-				  		}
-				  	);
-				  });
-
-				  chart.addSeries(mapColumnSeries, false);
+				Highcharts.each(choroplethSeries.points, function(state, i, array) {
+					var correspondingMapSeriesItem = choroplethSeries.points[i];
+					
+					// create axes separate axes for each column plot    
+					chart.addAxis({
+						visible: false, 
+						width: conf.chartWidth * zoom
+					}, true, false);
+					
+					chart.addAxis({
+						visible: false,
+						height: conf.chartHeight * zoom,
+						min: yMin, 
+						max: yMax
+					}, false, false);
+					
+					var mapColumnSeries = {
+						type: 'column',
+						showInLegend: false,
+						xAxis: state.index + 1,
+						yAxis: state.index + 1,
+						pointPadding: 0,
+						groupPadding: 0,
+						borderWidth: 0,		
+						data: [], 
+					};
+					
+					Highcharts.each(columnSeries, function(item, i, arr){
+						var value = item.yData[state.index];
+						mapColumnSeries.data.push(
+							{
+							y: value, 
+							v: value,
+							name: item.name,
+							color: color(value, i),
+							borderColor: color(value, i)
+							}
+						);
+					});
+					
+					//create the config handed in from the chart
+					var columnTemplate = columnSeriesConfig(correspondingMapSeriesItem, color);
+					//merge the two configs (2nd into first, see e.g. https://gist.github.com/TorsteinHonsi/f646f39d51d18b7d6bfb)
+					var mergedColumnConfig = Highcharts.merge(true, mapColumnSeries, columnTemplate);
+					
+					chart.addSeries(mergedColumnConfig, false);
 				});
 				//chart.redraw();
 				fn.positionColumnSeries(chart);
