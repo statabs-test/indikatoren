@@ -310,7 +310,7 @@
 	                })
 	                .attr({
 			        	zIndex: 6,
-			        	//class: 'columnLegend'
+			        	//class: 'columnLegend' 
 			        }).add();	                
             },
 	                
@@ -325,26 +325,40 @@
             },
 	                
 	                
-            addLegendLabel: function(chart, text, x, y, useHtml){
-				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
-					zIndex: 6,
-					class: 'columnLegend'
-				}).add();
+            addLegendText: function(chart, x, y, text, color, useHtml){
+				return chart.renderer.text(text, x, y, undefined, undefined, undefined, useHtml)
+					.attr({
+						zIndex: 6,
+						fill: color,
+						class: 'columnLegend'
+					})
+					.add();
             },
             
             addLegendSquare: function(chart, x, y, width, fill){
-            	return chart.renderer.rect(x, y, width, width, 0).attr({
-		            'stroke-width':0,
-		            fill: fill,
-		            zIndex: 6,
-		            class: 'columnLegend'
-	        	}).add();
+            	return chart.renderer.rect(x, y, width, width, 0)
+	            	.attr({
+			            'stroke-width':0,
+			            fill: fill,
+			            zIndex: 6,
+			            class: 'columnLegend'
+		        	})
+		        	.add();
             },
             
             
             addLegendColumnChart: function(chart, x, y, values, color){
             	var fn = chart.options.customFunctions;
             	var conf = fn.columnChartConfiguration;
+				values.forEach(function(value, i, arr){
+					var height = value * conf.chartHeight / (conf.yMax - conf.yMin);
+	            	chart.renderer.rect(x + i * conf.columnWidth, y - height, conf.columnWidth, height, 0).attr({
+			            'stroke-width':0,
+			            fill: color(values[0], i),
+			            zIndex: 6,
+			            class: 'columnLegend'
+		        	}).add();
+				});
             	/*
 				var axis = chart.yAxis[0];            	
 				
@@ -391,20 +405,7 @@
 				});
 				
 				chart.addSeries(mapColumnSeries, true);
-				*/
-				
-				
-				values.forEach(function(value, i, arr){
-					var height = value * conf.chartHeight / (conf.yMax - conf.yMin);
-					console.log('height: ' + height + ' y: ' + y);
-	            	chart.renderer.rect(x + i * conf.columnWidth, y - height, conf.columnWidth, height, 0).attr({
-			            'stroke-width':0,
-			            fill: color(values[0], i),
-			            zIndex: 6,
-			            class: 'columnLegend'
-		        	}).add();
-				});
-				
+				*/				
             },
             
 

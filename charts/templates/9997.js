@@ -127,22 +127,29 @@
 					//put the columns on the map
 					fn.drawColumns(chart, columnSeries, choroplethSeries, columnSeriesConfig, color, chartHeight, columnWidth);
 
-
 	                
 					//column values in legend
 					var legendColumnValues = [1, 0.5];
 
                 	//Add manually drawn legend	
-	                fn.addLegendTitle(chart, columnSeries[0].name, 285, 240);
+                	var legendTop = 205;
+                	var legendLeft = 380;
+	                fn.addLegendTitle(chart, columnSeries[0].name, legendLeft, legendTop);
 	                
-	                fn.addLegendColumnChart(chart, 405, 280, legendColumnValues, color);
-	                fn.addLegendLabel(chart, Highcharts.numberFormat(legendColumnValues[0], 0,","," "), 430, 265);
-	                fn.addLegendLabel(chart, Highcharts.numberFormat(legendColumnValues[1], 1,"."," "), 440, 265);
+	                fn.addLegendColumnChart(chart, legendLeft+5,  legendTop+45,  legendColumnValues, color);
+	                fn.addLegendText(chart,        legendLeft+20, legendTop+45,  Highcharts.numberFormat(legendColumnValues[0], 0,","," "), color(legendColumnValues[0], 0));
+	                fn.addLegendText(chart,        legendLeft+26, legendTop+45,  ',');
+	                fn.addLegendText(chart,        legendLeft+33, legendTop+45,  Highcharts.numberFormat(legendColumnValues[1], 1,","," "), color(legendColumnValues[1], 1));
 
-					fn.addLegendSquare(chart, 290, 270, 10, 'red');
-					fn.addLegendLabel(chart, 'Benzin', 310, 265);
-					fn.addLegendSquare(chart, 290, 295, 10, 'blue');
-					fn.addLegendLabel(chart, 'Diesel', 310, 290);
+					fn.addLegendSquare(chart,      legendLeft+5,  legendTop+50,  10, color(1, 0));
+					fn.addLegendText(chart,        legendLeft+20, legendTop+60,  'Benzin positiv');
+					fn.addLegendSquare(chart,      legendLeft+5,  legendTop+65,  10, color(-1, 0));
+					fn.addLegendText(chart,        legendLeft+20, legendTop+75,  'Benzin negativ');
+					
+					fn.addLegendSquare(chart,      legendLeft+5,  legendTop+80,  10, color(1, 1));
+					fn.addLegendText(chart,        legendLeft+20, legendTop+90,  'Diesel positiv');
+					fn.addLegendSquare(chart,      legendLeft+5,  legendTop+95, 10, color(-1, 1));
+					fn.addLegendText(chart,        legendLeft+20, legendTop+105 , 'Diesel negativ');
 					
 					//make sure columns are hidden upon click onto column legend
 					fn.AddColumnLegendClickHandler(chart);

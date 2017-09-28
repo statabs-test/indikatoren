@@ -215,7 +215,7 @@
     <g class="highcharts-markers highcharts-series-22 highcharts-column-series highcharts-color-8 " transform="translate(150,151) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-23 highcharts-column-series highcharts-color-9 " transform="translate(147,119) scale(1 1)" clip-path="url(#s)">
       <rect x="0" y="20" width="3" height="6" fill="#ffaa00" class="highcharts-point highcharts-color-9"/>
-      <rect x="5" y="26" width="2" height="14" fill="#267300" class="highcharts-point highcharts-negative highcharts-color-9"/>
+      <rect x="5" y="20" width="2" height="6" fill="#38a800" class="highcharts-point highcharts-color-9"/>
     </g>
     <g class="highcharts-markers highcharts-series-23 highcharts-column-series highcharts-color-9 " transform="translate(147,119) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-24 highcharts-column-series highcharts-color-0 " transform="translate(163,88) scale(1 1)" clip-path="url(#t)">
@@ -225,7 +225,7 @@
     <g class="highcharts-markers highcharts-series-24 highcharts-column-series highcharts-color-0 " transform="translate(163,88) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-25 highcharts-column-series highcharts-color-1 " transform="translate(311,100) scale(1 1)" clip-path="url(#u)">
       <rect x="0" y="16" width="3" height="10" fill="#ffaa00" class="highcharts-point highcharts-color-1"/>
-      <rect x="5" y="26" width="2" height="13" fill="#267300" class="highcharts-point highcharts-negative highcharts-color-1"/>
+      <rect x="5" y="26" width="2" height="9" fill="#267300" class="highcharts-point highcharts-negative highcharts-color-1"/>
     </g>
     <g class="highcharts-markers highcharts-series-25 highcharts-column-series highcharts-color-1 " transform="translate(311,100) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-26 highcharts-column-series highcharts-color-2 " transform="translate(363,142) scale(1 1)" clip-path="url(#v)">
@@ -320,7 +320,7 @@
     <g class="highcharts-markers highcharts-series-43 highcharts-column-series highcharts-color-6 " transform="translate(150,151) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-44 highcharts-column-series highcharts-color-7 highcharts-tracker" transform="translate(147,119) scale(1 1)" clip-path="url(#s)">
       <rect x="3" y="20" width="2" height="6" fill="#ffaa00" class="highcharts-point highcharts-color-7"/>
-      <rect x="7" y="26" width="3" height="14" fill="#267300" class="highcharts-point highcharts-negative highcharts-color-7"/>
+      <rect x="7" y="20" width="3" height="6" fill="#38a800" class="highcharts-point highcharts-color-7"/>
     </g>
     <g class="highcharts-markers highcharts-series-44 highcharts-column-series highcharts-color-7 " transform="translate(147,119) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-45 highcharts-column-series highcharts-color-8 highcharts-tracker" transform="translate(163,88) scale(1 1)" clip-path="url(#t)">
@@ -330,7 +330,7 @@
     <g class="highcharts-markers highcharts-series-45 highcharts-column-series highcharts-color-8 " transform="translate(163,88) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-46 highcharts-column-series highcharts-color-9 highcharts-tracker" transform="translate(311,100) scale(1 1)" clip-path="url(#u)">
       <rect x="3" y="16" width="2" height="10" fill="#ffaa00" class="highcharts-point highcharts-color-9"/>
-      <rect x="7" y="26" width="3" height="13" fill="#267300" class="highcharts-point highcharts-negative highcharts-color-9"/>
+      <rect x="7" y="26" width="3" height="9" fill="#267300" class="highcharts-point highcharts-negative highcharts-color-9"/>
     </g>
     <g class="highcharts-markers highcharts-series-46 highcharts-column-series highcharts-color-9 " transform="translate(311,100) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-47 highcharts-column-series highcharts-color-0 highcharts-tracker" transform="translate(363,142) scale(1 1)" clip-path="url(#v)">
@@ -349,34 +349,38 @@
       </text>
     </g>
   </g>
-  <g class="highcharts-label" transform="translate(285,240)">
+  <g class="highcharts-label" transform="translate(380,205)">
     <text x="3" style="font-size:12px;font-weight:bold;" y="15">
       Benzin
     </text>
   </g>
-  <g class="columnLegend" transform="translate(430,265)">
-    <text x="3" y="15">
-      0,001
-    </text>
-  </g>
-  <circle cx="410" cy="300" r="10" fill="grey" stroke="grey" stroke-width="1" class="columnLegend"/>
-  <g class="columnLegend" transform="translate(430,290)">
-    <text x="3" y="15">
-      0.10
-    </text>
-  </g>
-  <rect x="290" y="270" width="10" height="10" fill="red" class="columnLegend"/>
-  <g class="columnLegend" transform="translate(310,265)">
-    <text x="3" y="15">
-      Benzin
-    </text>
-  </g>
-  <rect x="290" y="295" width="10" height="10" fill="blue" class="columnLegend"/>
-  <g class="columnLegend" transform="translate(310,290)">
-    <text x="3" y="15">
-      Diesel
-    </text>
-  </g>
+  <rect x="385" y="224.84862598974095" width="5" height="25.15137401025904" fill="#ffaa00" class="columnLegend"/>
+  <rect x="390" y="237.4243129948705" width="5" height="12.57568700512952" fill="#38a800" class="columnLegend"/>
+  <text x="400" y="250" fill="#ffaa00" class="columnLegend">
+    1
+  </text>
+  <text x="406" y="250" class="columnLegend">
+    ,
+  </text>
+  <text x="413" y="250" fill="#38a800" class="columnLegend">
+    0,5
+  </text>
+  <rect x="385" y="255" width="10" height="10" fill="#ffaa00" class="columnLegend"/>
+  <text x="400" y="265" class="columnLegend">
+    <tspan>Benzin positiv</tspan>
+  </text>
+  <rect x="385" y="270" width="10" height="10" fill="#a87000" class="columnLegend"/>
+  <text x="400" y="280" class="columnLegend">
+    <tspan>Benzin negativ</tspan>
+  </text>
+  <rect x="385" y="285" width="10" height="10" fill="#38a800" class="columnLegend"/>
+  <text x="400" y="295" class="columnLegend">
+    <tspan>Diesel positiv</tspan>
+  </text>
+  <rect x="385" y="300" width="10" height="10" fill="#267300" class="columnLegend"/>
+  <text x="400" y="310" class="columnLegend">
+    <tspan>Diesel negativ</tspan>
+  </text>
   <g class="highcharts-legend" transform="translate(43,323)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="432" height="47" visibility="visible"/>
     <g>

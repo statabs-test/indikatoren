@@ -3587,7 +3587,7 @@
         ],
         [
           18,
-          -1.1
+          0.5
         ],
         [
           19,
@@ -3595,7 +3595,7 @@
         ],
         [
           20,
-          -1
+          -0.7
         ],
         [
           30,
@@ -3870,24 +3870,29 @@
 					//put the columns on the map
 					fn.drawColumns(chart, columnSeries, choroplethSeries, columnSeriesConfig, color, chartHeight, columnWidth);
 
-
 	                
 					//column values in legend
-	                var minValueInLegend = 0.001; 
-	                var maxValueInLegend = 0.1; 
-	                
-                	//Add manually drawn legend	
-	                fn.addLegendTitle(chart, columnSeries[0].name, 285, 240);
-	                
-	                //fn.addLegendColumnChart(chart, 410, 275, [1, 0.5], color, maxAbsValue, maxHeightValueFactor);
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),3,","," "), 430, 265);
-	                fn.addLegendCircle(chart, 410, 300, 10, 'grey');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),2,"."," "), 430, 290);
+					var legendColumnValues = [1, 0.5];
 
-					fn.addLegendSquare(chart, 290, 270, 10, 'red');
-					fn.addLegendLabel(chart, 'Benzin', 310, 265);
-					fn.addLegendSquare(chart, 290, 295, 10, 'blue');
-					fn.addLegendLabel(chart, 'Diesel', 310, 290);
+                	//Add manually drawn legend	
+                	var legendTop = 205;
+                	var legendLeft = 380;
+	                fn.addLegendTitle(chart, columnSeries[0].name, legendLeft, legendTop);
+	                
+	                fn.addLegendColumnChart(chart, legendLeft+5,  legendTop+45,  legendColumnValues, color);
+	                fn.addLegendText(chart,        legendLeft+20, legendTop+45,  Highcharts.numberFormat(legendColumnValues[0], 0,","," "), color(legendColumnValues[0], 0));
+	                fn.addLegendText(chart,        legendLeft+26, legendTop+45,  ',');
+	                fn.addLegendText(chart,        legendLeft+33, legendTop+45,  Highcharts.numberFormat(legendColumnValues[1], 1,","," "), color(legendColumnValues[1], 1));
+
+					fn.addLegendSquare(chart,      legendLeft+5,  legendTop+50,  10, color(1, 0));
+					fn.addLegendText(chart,        legendLeft+20, legendTop+60,  'Benzin positiv');
+					fn.addLegendSquare(chart,      legendLeft+5,  legendTop+65,  10, color(-1, 0));
+					fn.addLegendText(chart,        legendLeft+20, legendTop+75,  'Benzin negativ');
+					
+					fn.addLegendSquare(chart,      legendLeft+5,  legendTop+80,  10, color(1, 1));
+					fn.addLegendText(chart,        legendLeft+20, legendTop+90,  'Diesel positiv');
+					fn.addLegendSquare(chart,      legendLeft+5,  legendTop+95, 10, color(-1, 1));
+					fn.addLegendText(chart,        legendLeft+20, legendTop+105 , 'Diesel negativ');
 					
 					//make sure columns are hidden upon click onto column legend
 					fn.AddColumnLegendClickHandler(chart);
@@ -4029,7 +4034,7 @@
 			  chart.redraw();
 			},
     "drawColumns": function (chart, columnSeries, choroplethSeries, columnRangeSeriesConfig, color, chartHeight, columnWidth){
-				
+				var fn = chart.options.customFunctions;
 				//get all y Data into array in order to get max and min            	
             	var allYData = Array.prototype.concat.apply(
 						[], columnSeries.map(
@@ -4043,10 +4048,12 @@
 				var mapXAxis = chart.xAxis[0];
 				var zoom = (mapXAxis.dataMax - mapXAxis.dataMin) / (mapXAxis.max - mapXAxis.min);
 				
-				var fn = chart.options.customFunctions;
 				fn.columnChartConfiguration.chartHeight = chartHeight;
 				fn.columnChartConfiguration.chartWidth = columnWidth * columnSeries.length;
-				
+				fn.columnChartConfiguration.columnWidth = columnWidth;
+				fn.columnChartConfiguration.columnCount = columnSeries.length;
+				fn.columnChartConfiguration.yMax = yMax;
+				fn.columnChartConfiguration.yMin = yMin;
 				
 				//see https://forum.highcharts.com/highmaps-usage-f14/how-to-make-world-map-with-with-overlaid-column-charts-t39522/ and http://jsfiddle.net/kkulig/d0dku2c2/
 				Highcharts.each(choroplethSeries.points, function(state) {
@@ -4101,7 +4108,7 @@
 	                })
 	                .attr({
 			        	zIndex: 6,
-			        	//class: 'columnLegend'
+			        	//class: 'columnLegend' 
 			        }).add();	                
             },
     "addLegendCircle": function (chart, x, y, radius, fill){
@@ -4113,34 +4120,84 @@
 				    class: 'columnLegend'
 				}).add();
             },
-    "addLegendLabel": function (chart, text, x, y, useHtml){
-				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
-					zIndex: 6,
-					class: 'columnLegend'
-				}).add();
+    "addLegendText": function (chart, x, y, text, color, useHtml){
+				return chart.renderer.text(text, x, y, undefined, undefined, undefined, useHtml)
+					.attr({
+						zIndex: 6,
+						fill: color,
+						class: 'columnLegend'
+					})
+					.add();
             },
     "addLegendSquare": function (chart, x, y, width, fill){
-            	return chart.renderer.rect(x, y, width, width, 0).attr({
-		            'stroke-width':0,
-		            fill: fill,
-		            zIndex: 6,
-		            class: 'columnLegend'
-	        	}).add();
+            	return chart.renderer.rect(x, y, width, width, 0)
+	            	.attr({
+			            'stroke-width':0,
+			            fill: fill,
+			            zIndex: 6,
+			            class: 'columnLegend'
+		        	})
+		        	.add();
             },
-    "addLegendColumnChart": function (chart, x, y, values, color, maxAbsVal, maxHeightValueFactor){
-				var axis = chart.yAxis[0];            	
-				var baselineYCoord = axis.toValue(y);
+    "addLegendColumnChart": function (chart, x, y, values, color){
+            	var fn = chart.options.customFunctions;
+            	var conf = fn.columnChartConfiguration;
 				values.forEach(function(value, i, arr){
-	            	var columnTopCoord = baselineYCoord - value * maxHeightValueFactor;
-	            	var columnTopPx = axis.toPixels(columnTopCoord);
-	            	var columnHeightPx = y - columnTopPx;
-	            	chart.renderer.rect(x + i * 5, columnTopPx, 5, columnHeightPx, 0).attr({
+					var height = value * conf.chartHeight / (conf.yMax - conf.yMin);
+	            	chart.renderer.rect(x + i * conf.columnWidth, y - height, conf.columnWidth, height, 0).attr({
 			            'stroke-width':0,
 			            fill: color(values[0], i),
 			            zIndex: 6,
 			            class: 'columnLegend'
 		        	}).add();
 				});
+            	/*
+				var axis = chart.yAxis[0];            	
+				
+				chart.addAxis({
+					visible: false, 
+					width: fn.columnChartConfiguration.columnWidth * values.length, 
+					left: x
+				}, true, false);
+
+				chart.addAxis({
+					visible: false,
+					height: fn.columnChartConfiguration.chartHeight,
+					min: fn.columnChartConfiguration.yMin, 
+					max: fn.columnChartConfiguration.yMax, 
+					top: 250
+				}, false, false);
+				
+				var mapColumnSeries = {
+					type: 'column',
+					name: 'mapColumnLegend',
+					id: 'mapColumnLegend',
+					showInLegend: false,
+					xAxis: chart.xAxis.length-1,
+					yAxis: chart.yAxis.length-1,
+					pointPadding: 0,
+					groupPadding: 0,
+					borderWidth: 0,		
+					tooltip: {
+						enabled: false
+					},
+					data: []
+				};
+				
+				
+				Highcharts.each(values, function(item, i, arr){
+				  mapColumnSeries.data.push(
+				  	{
+				  		y: item, 
+				  		v: item,
+				  		color: color(item, i),
+				  		borderColor: color(item, i)
+				  	}
+				  );
+				});
+				
+				chart.addSeries(mapColumnSeries, true);
+				*/				
             },
     "AddColumnLegendClickHandler": function (chart){
 			    $('.columnLegend').click(function(){
