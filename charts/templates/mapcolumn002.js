@@ -131,41 +131,15 @@
 		
 		xAxis: {
 			events: {
-				/*
-				//on zoom: unzoom columns (keep them at original size)
+				//hide svg elements on zoom
 				afterSetExtremes: function(e){
 					//only care about zoom events, not pan
-					if (e.trigger == 'pan') return;
-					//determine current zoom level
-					var zoomRatio = (e.dataMax - e.dataMin) / (e.max - e.min);
-					//adapt data values determined by zoomRatio now and before
-					e.target.chart.series.forEach(function(value, index, array){
-						if (value.options.type == 'mapcolumn'){
-							var baselineYvalue = value.data[0].baselineYvalue;
-							var zoomRatioBefore = value.data[0].zoomRatio;
-							
-							//handle zooming in and out by dividing zoomBefore and zoomAfter
-							var ratiosOfZoomRatios = zoomRatio / zoomRatioBefore;
-							
-							//handle column width
-							var columnWidthValueBefore = value.data[0].columnWidthValue;
-							var columnWidthValue = columnWidthValueBefore / ratiosOfZoomRatios;
-
-							//calculate and update data of each column
-							var newData = value.data.map(function (val, i, arr){
-								return {
-									low: ((val.low - baselineYvalue) / ratiosOfZoomRatios) + baselineYvalue,
-									high: ((val.high - baselineYvalue) / ratiosOfZoomRatios) + baselineYvalue,
-									zoomRatio: zoomRatio,
-									x: +value.data[0].POINT_X + (i + 1) * columnWidthValue,
-									columnWidthValue: columnWidthValue
-								};
-							});
-							value.setData(newData, false);
-						}
-					});
+					if (e.trigger != 'pan'){
+						//determine current zoom level
+						var zoom = (e.dataMax - e.dataMin) / (e.max - e.min);
+						$('.columnLegendHideOnZoom').attr('visibility', zoom == 1 ? 'inherit' : 'hidden');
+					}
 				}
-				*/
 			}
 		},		
 
@@ -326,12 +300,12 @@
             },
 	                
 	                
-            addLegendText: function(chart, x, y, text, color, useHtml){
+            addLegendText: function(chart, x, y, text, color, cssClass, useHtml){
 				return chart.renderer.text(text, x, y, undefined, undefined, undefined, useHtml)
 					.attr({
 						zIndex: 6,
 						fill: color,
-						class: 'columnLegend'
+						class: cssClass + ' columnLegend'
 					})
 					.add();
             },
@@ -348,7 +322,7 @@
             },
             
             
-            addLegendColumnChart: function(chart, x, y, values, color){
+            addLegendColumnChart: function(chart, x, y, values, color, cssClass){
             	var fn = chart.options.customFunctions;
             	var conf = fn.columnChartConfiguration;
 				values.forEach(function(value, i, arr){
@@ -357,7 +331,7 @@
 			            'stroke-width':0,
 			            fill: color(values[0], i),
 			            zIndex: 6,
-			            class: 'columnLegend'
+			            class: cssClass + ' columnLegend'
 		        	}).add();
 				});
             	/*

@@ -3879,11 +3879,11 @@
                 	var legendLeft = 380;
 	                fn.addLegendTitle(chart, columnSeries[0].name, legendLeft, legendTop);
 	                
-	                fn.addLegendColumnChart(chart, legendLeft+5,  legendTop+45,  legendColumnValues, color);
+	                fn.addLegendColumnChart(chart, legendLeft+5,  legendTop+45,  legendColumnValues, color, 'columnLegendHideOnZoom');
 	                
-	                fn.addLegendText(chart,        legendLeft+20, legendTop+45,  Highcharts.numberFormat(legendColumnValues[0], 0,","," "), color(legendColumnValues[0], 0));
-	                fn.addLegendText(chart,        legendLeft+26, legendTop+45,  ',');
-	                fn.addLegendText(chart,        legendLeft+33, legendTop+45,  Highcharts.numberFormat(legendColumnValues[1], 1,","," "), color(legendColumnValues[1], 1));
+	                fn.addLegendText(chart,        legendLeft+20, legendTop+45,  Highcharts.numberFormat(legendColumnValues[0], 0,","," "), color(legendColumnValues[0], 0), 'columnLegendHideOnZoom');
+	                fn.addLegendText(chart,        legendLeft+26, legendTop+45,  ',', undefined, 'columnLegendHideOnZoom');
+	                fn.addLegendText(chart,        legendLeft+33, legendTop+45,  Highcharts.numberFormat(legendColumnValues[1], 1,","," "), color(legendColumnValues[1], 1), 'columnLegendHideOnZoom');
 
 					fn.addLegendSquare(chart,      legendLeft+5,  legendTop+50,  10, color(1, 0));
 					fn.addLegendText(chart,        legendLeft+20, legendTop+60,  'Benzin positiv');
@@ -3977,7 +3977,16 @@
     }
   },
   "xAxis": {
-    "events": {}
+    "events": {
+      "afterSetExtremes": function (e){
+					//only care about zoom events, not pan
+					if (e.trigger != 'pan'){
+						//determine current zoom level
+						var zoom = (e.dataMax - e.dataMin) / (e.max - e.min);
+						$('.columnLegendHideOnZoom').attr('visibility', zoom == 1 ? 'inherit' : 'hidden');
+					}
+				}
+    }
   },
   "customFunctions": {
     "redrawEnabled": true,
@@ -4122,12 +4131,12 @@
 				    class: 'columnLegend'
 				}).add();
             },
-    "addLegendText": function (chart, x, y, text, color, useHtml){
+    "addLegendText": function (chart, x, y, text, color, cssClass, useHtml){
 				return chart.renderer.text(text, x, y, undefined, undefined, undefined, useHtml)
 					.attr({
 						zIndex: 6,
 						fill: color,
-						class: 'columnLegend'
+						class: cssClass + ' columnLegend'
 					})
 					.add();
             },
@@ -4141,7 +4150,7 @@
 		        	})
 		        	.add();
             },
-    "addLegendColumnChart": function (chart, x, y, values, color){
+    "addLegendColumnChart": function (chart, x, y, values, color, cssClass){
             	var fn = chart.options.customFunctions;
             	var conf = fn.columnChartConfiguration;
 				values.forEach(function(value, i, arr){
@@ -4150,7 +4159,7 @@
 			            'stroke-width':0,
 			            fill: color(values[0], i),
 			            zIndex: 6,
-			            class: 'columnLegend'
+			            class: cssClass + ' columnLegend'
 		        	}).add();
 				});
             	/*

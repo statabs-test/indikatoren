@@ -136,11 +136,11 @@
                 	var legendLeft = 380;
 	                fn.addLegendTitle(chart, columnSeries[0].name, legendLeft, legendTop);
 	                
-	                fn.addLegendColumnChart(chart, legendLeft+5,  legendTop+45,  legendColumnValues, color);
+	                fn.addLegendColumnChart(chart, legendLeft+5,  legendTop+45,  legendColumnValues, color, 'columnLegendHideOnZoom');
 	                
-	                fn.addLegendText(chart,        legendLeft+20, legendTop+45,  Highcharts.numberFormat(legendColumnValues[0], 0,","," "), color(legendColumnValues[0], 0));
-	                fn.addLegendText(chart,        legendLeft+26, legendTop+45,  ',');
-	                fn.addLegendText(chart,        legendLeft+33, legendTop+45,  Highcharts.numberFormat(legendColumnValues[1], 1,","," "), color(legendColumnValues[1], 1));
+	                fn.addLegendText(chart,        legendLeft+20, legendTop+45,  Highcharts.numberFormat(legendColumnValues[0], 0,","," "), color(legendColumnValues[0], 0), 'columnLegendHideOnZoom');
+	                fn.addLegendText(chart,        legendLeft+26, legendTop+45,  ',', undefined, 'columnLegendHideOnZoom');
+	                fn.addLegendText(chart,        legendLeft+33, legendTop+45,  Highcharts.numberFormat(legendColumnValues[1], 1,","," "), color(legendColumnValues[1], 1), 'columnLegendHideOnZoom');
 
 					fn.addLegendSquare(chart,      legendLeft+5,  legendTop+50,  10, color(1, 0));
 					fn.addLegendText(chart,        legendLeft+20, legendTop+60,  'Benzin positiv');

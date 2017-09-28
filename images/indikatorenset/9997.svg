@@ -354,31 +354,31 @@
       Benzin
     </text>
   </g>
-  <rect x="385" y="224.84862598974095" width="5" height="25.15137401025904" fill="#ffaa00" class="columnLegend"/>
-  <rect x="390" y="237.4243129948705" width="5" height="12.57568700512952" fill="#38a800" class="columnLegend"/>
-  <text x="400" y="250" fill="#ffaa00" class="columnLegend">
+  <rect x="385" y="224.84862598974095" width="5" height="25.15137401025904" fill="#ffaa00" class="columnLegendHideOnZoom columnLegend"/>
+  <rect x="390" y="237.4243129948705" width="5" height="12.57568700512952" fill="#38a800" class="columnLegendHideOnZoom columnLegend"/>
+  <text x="400" y="250" fill="#ffaa00" class="columnLegendHideOnZoom columnLegend">
     1
   </text>
-  <text x="406" y="250" class="columnLegend">
+  <text x="406" y="250" class="columnLegendHideOnZoom columnLegend">
     ,
   </text>
-  <text x="413" y="250" fill="#38a800" class="columnLegend">
+  <text x="413" y="250" fill="#38a800" class="columnLegendHideOnZoom columnLegend">
     0,5
   </text>
   <rect x="385" y="255" width="10" height="10" fill="#ffaa00" class="columnLegend"/>
-  <text x="400" y="265" class="columnLegend">
+  <text x="400" y="265" class="undefined columnLegend">
     <tspan>Benzin positiv</tspan>
   </text>
   <rect x="385" y="270" width="10" height="10" fill="#a87000" class="columnLegend"/>
-  <text x="400" y="280" class="columnLegend">
+  <text x="400" y="280" class="undefined columnLegend">
     <tspan>Benzin negativ</tspan>
   </text>
   <rect x="385" y="285" width="10" height="10" fill="#38a800" class="columnLegend"/>
-  <text x="400" y="295" class="columnLegend">
+  <text x="400" y="295" class="undefined columnLegend">
     <tspan>Diesel positiv</tspan>
   </text>
   <rect x="385" y="300" width="10" height="10" fill="#267300" class="columnLegend"/>
-  <text x="400" y="310" class="columnLegend">
+  <text x="400" y="310" class="undefined columnLegend">
     <tspan>Diesel negativ</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(43,323)">
