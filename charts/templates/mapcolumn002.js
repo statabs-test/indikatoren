@@ -175,9 +175,6 @@
 			redrawEnabled: true,
 			
 			columnChartConfiguration: {
-				chartHeight: undefined,
-				chartWidth: undefined, 
-				columnCount: undefined
 			},
 
 			//position the columns at the correct location within the wohnviertel
@@ -252,8 +249,10 @@
 				
 				fn.columnChartConfiguration.chartHeight = chartHeight;
 				fn.columnChartConfiguration.chartWidth = columnWidth * columnSeries.length;
+				fn.columnChartConfiguration.columnWidth = columnWidth;
 				fn.columnChartConfiguration.columnCount = columnSeries.length;
-				
+				fn.columnChartConfiguration.yMax = yMax;
+				fn.columnChartConfiguration.yMin = yMin;
 				
 				//see https://forum.highcharts.com/highmaps-usage-f14/how-to-make-world-map-with-with-overlaid-column-charts-t39522/ and http://jsfiddle.net/kkulig/d0dku2c2/
 				Highcharts.each(choroplethSeries.points, function(state) {
@@ -343,20 +342,69 @@
             },
             
             
-            addLegendColumnChart: function(chart, x, y, values, color, maxAbsVal, maxHeightValueFactor){
+            addLegendColumnChart: function(chart, x, y, values, color){
+            	var fn = chart.options.customFunctions;
+            	var conf = fn.columnChartConfiguration;
+            	/*
 				var axis = chart.yAxis[0];            	
-				var baselineYCoord = axis.toValue(y);
+				
+				chart.addAxis({
+					visible: false, 
+					width: fn.columnChartConfiguration.columnWidth * values.length, 
+					left: x
+				}, true, false);
+
+				chart.addAxis({
+					visible: false,
+					height: fn.columnChartConfiguration.chartHeight,
+					min: fn.columnChartConfiguration.yMin, 
+					max: fn.columnChartConfiguration.yMax, 
+					top: 250
+				}, false, false);
+				
+				var mapColumnSeries = {
+					type: 'column',
+					name: 'mapColumnLegend',
+					id: 'mapColumnLegend',
+					showInLegend: false,
+					xAxis: chart.xAxis.length-1,
+					yAxis: chart.yAxis.length-1,
+					pointPadding: 0,
+					groupPadding: 0,
+					borderWidth: 0,		
+					tooltip: {
+						enabled: false
+					},
+					data: []
+				};
+				
+				
+				Highcharts.each(values, function(item, i, arr){
+				  mapColumnSeries.data.push(
+				  	{
+				  		y: item, 
+				  		v: item,
+				  		color: color(item, i),
+				  		borderColor: color(item, i)
+				  	}
+				  );
+				});
+				
+				chart.addSeries(mapColumnSeries, true);
+				*/
+				
+				
 				values.forEach(function(value, i, arr){
-	            	var columnTopCoord = baselineYCoord - value * maxHeightValueFactor;
-	            	var columnTopPx = axis.toPixels(columnTopCoord);
-	            	var columnHeightPx = y - columnTopPx;
-	            	chart.renderer.rect(x + i * 5, columnTopPx, 5, columnHeightPx, 0).attr({
+					var height = value * conf.chartHeight / (conf.yMax - conf.yMin);
+					console.log('height: ' + height + ' y: ' + y);
+	            	chart.renderer.rect(x + i * conf.columnWidth, y - height, conf.columnWidth, height, 0).attr({
 			            'stroke-width':0,
 			            fill: color(values[0], i),
 			            zIndex: 6,
 			            class: 'columnLegend'
 		        	}).add();
 				});
+				
             },
             
 

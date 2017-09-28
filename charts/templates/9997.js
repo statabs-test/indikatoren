@@ -130,16 +130,14 @@
 
 	                
 					//column values in legend
-	                var minValueInLegend = 0.001; 
-	                var maxValueInLegend = 0.1; 
-	                
+					var legendColumnValues = [1, 0.5];
+
                 	//Add manually drawn legend	
 	                fn.addLegendTitle(chart, columnSeries[0].name, 285, 240);
 	                
-	                //fn.addLegendColumnChart(chart, 410, 275, [1, 0.5], color, maxAbsValue, maxHeightValueFactor);
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),3,","," "), 430, 265);
-	                fn.addLegendCircle(chart, 410, 300, 10, 'grey');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),2,"."," "), 430, 290);
+	                fn.addLegendColumnChart(chart, 405, 280, legendColumnValues, color);
+	                fn.addLegendLabel(chart, Highcharts.numberFormat(legendColumnValues[0], 0,","," "), 430, 265);
+	                fn.addLegendLabel(chart, Highcharts.numberFormat(legendColumnValues[1], 1,"."," "), 440, 265);
 
 					fn.addLegendSquare(chart, 290, 270, 10, 'red');
 					fn.addLegendLabel(chart, 'Benzin', 310, 265);
