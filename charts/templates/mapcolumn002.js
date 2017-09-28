@@ -206,14 +206,15 @@
 			      top = stateCenterY - chartHeightZoomed / 2;
 			
 			    // hide series which don't fit in the plot area
-			    if (left - chart.plotLeft  < 0 || left - chart.plotLeft + chartWidthZoomed / 2 > chart.plotWidth || top   < 0 || top - chart.plotTop + chartHeightZoomed > chart.plotHeight) {
+				if (left  < 0 || left  > chart.plotWidth || top  < 0 || top > chart.plotHeight + chart.plotTop) {		    	
 			      xAxis.series.forEach(function(s) {
 			        s.setVisible(false, false);
 			      });
 			    // show and position series that fit in the plot area
 			    } else {
 			      xAxis.series.forEach(function(s) {
-			        s.setVisible(true, false);
+			      	//if series must be hidden due to clicking on legend: hide despite ok position
+			        s.setVisible(true && !s._hide, false);
 			      });
 			
 			      xAxis.update({
@@ -414,8 +415,9 @@
 			    $('.columnLegend').click(function(){
 					//Toggle visible of mapcolumns
 					Highcharts.each(chart.series, function (series) {
-						if (series.userOptions.type == 'mapcolumn'){
-							series.setVisible(!series.visible, false);
+						if (series.userOptions.type == 'column'){
+							//series.setVisible(!series.visible, false);
+							series._hide = !series._hide;
 						}
 					});
 					chart.redraw();

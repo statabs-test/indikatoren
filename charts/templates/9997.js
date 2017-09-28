@@ -137,6 +137,7 @@
 	                fn.addLegendTitle(chart, columnSeries[0].name, legendLeft, legendTop);
 	                
 	                fn.addLegendColumnChart(chart, legendLeft+5,  legendTop+45,  legendColumnValues, color);
+	                
 	                fn.addLegendText(chart,        legendLeft+20, legendTop+45,  Highcharts.numberFormat(legendColumnValues[0], 0,","," "), color(legendColumnValues[0], 0));
 	                fn.addLegendText(chart,        legendLeft+26, legendTop+45,  ',');
 	                fn.addLegendText(chart,        legendLeft+33, legendTop+45,  Highcharts.numberFormat(legendColumnValues[1], 1,","," "), color(legendColumnValues[1], 1));
