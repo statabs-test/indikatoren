@@ -30,6 +30,7 @@
 			    }, 
     		}
         },
+        /*
 		tooltip: {
 			enabled: true,
 			positioner: function(labelWidth, labelHeight, point, obj){
@@ -41,6 +42,7 @@
 				return { x: point.plotX, y: point.plotY };
 			}
 		},
+
 		plotOptions: {
 			series: {
 					events: {
@@ -52,6 +54,7 @@
 					}
 			}
 		},
+		*/
         "title": {
             "style": {
                 "fontSize": "14px",

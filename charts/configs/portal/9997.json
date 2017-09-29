@@ -3236,8 +3236,22 @@
         }
       },
       "tooltip": {
+        "headerFormat": "",
+        "useHTML": true,
         "pointFormatter": function (){
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),3) + '</b><br/>';
+						var columnSeriesIndex = this.index + 6; // 6 series statically defined in this chart incl. afterSeries (rhein and massstab)
+						var columnSeries = this.series.chart.series[columnSeriesIndex];
+						//put together html for tooltip
+						var tooltipText = 
+							this.properties.LIBGEO + ': <br/><br/>' + 
+							'<table>'
+							+'<tr><td><span style="color:' + this.color + '">●</span></td> <td>' + this.series.name + ': </td> <td><b>' + Highcharts.numberFormat((this.value),3) + '</b></td></tr><br/>';
+						//add a tooltip row for each column
+						Highcharts.each(columnSeries.points, function(element, index, array){
+							(columnSeries.visible) ? tooltipText += ('<tr><td><span style="color:' + element.color + '">●</span></td> <td>' + element.name + ': </td> <td><b>' + Highcharts.numberFormat((element.y)) + '</b></td></tr><br/>') : undefined ;	
+						});
+						tooltipText += '</table>';
+						return tooltipText;
 					}
       },
       "data": [
@@ -3839,12 +3853,15 @@
 					//define chart-specific details
 					var columnSeriesConfig = function(correspondingMapSeriesItem, color){
 						return {
+							enableMouseTracking: false,
+							/*
 	                        tooltip: {
 	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {point.key} </span><br/>',
 	                            pointFormatter: function () {
 	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),3) + '</b><br/>';
 	                            }
 	                        },
+	                        */
 	                    };
 					};
 					
@@ -3899,28 +3916,6 @@
 	            }
     },
     "renderTo": "container-9997"
-  },
-  "tooltip": {
-    "enabled": true,
-    "positioner": function (labelWidth, labelHeight, point, obj){
-				var conf = this.chart.options.customFunctions.columnChartConfiguration;
-				//Hack: For xAxis with left > 0, the point returned here lists only the x distance from the start of the xAxis. 
-				//To get the correct x coordinates, the MouseOver function of the series writes the x coordinate into conf.currentSeriesXAxisLeft, this used here. 
-				//For columns on maps: point.plotX is always < 10 - I have not found any other clever idea how to find out if the tooltip is over a column charts
-				point.plotX = point.plotX < 10 ? conf.currentSeriesXAxisLeft -7 : point.plotX;
-				return { x: point.plotX, y: point.plotY };
-			}
-  },
-  "plotOptions": {
-    "series": {
-      "events": {
-        "mouseOver": function (e){
-							//Hack: to prevent first tooltip of a column on map to be displayed at the left chart border, set current mouse position here. 
-							var conf = this.chart.options.customFunctions.columnChartConfiguration;
-							conf.currentSeriesXAxisLeft = e.target.xAxis.left;
-						}
-      }
-    }
   },
   "title": {
     "style": {

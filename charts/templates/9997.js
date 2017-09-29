@@ -56,8 +56,22 @@
 					}
 				}, 
 				tooltip: {
+					headerFormat: '',
+					useHTML: true,
 					pointFormatter: function(){
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),3) + '</b><br/>';
+						var columnSeriesIndex = this.index + 6; // 6 series statically defined in this chart incl. afterSeries (rhein and massstab)
+						var columnSeries = this.series.chart.series[columnSeriesIndex];
+						//put together html for tooltip
+						var tooltipText = 
+							this.properties.LIBGEO + ': <br/><br/>' + 
+							'<table>'
+							+'<tr><td><span style="color:' + this.color + '">●</span></td> <td>' + this.series.name + ': </td> <td><b>' + Highcharts.numberFormat((this.value),3) + '</b></td></tr><br/>';
+						//add a tooltip row for each column
+						Highcharts.each(columnSeries.points, function(element, index, array){
+							(columnSeries.visible) ? tooltipText += ('<tr><td><span style="color:' + element.color + '">●</span></td> <td>' + element.name + ': </td> <td><b>' + Highcharts.numberFormat((element.y)) + '</b></td></tr><br/>') : undefined ;	
+						});
+						tooltipText += '</table>';
+						return tooltipText;
 					}
 				}
 			}, 
@@ -96,12 +110,15 @@
 					//define chart-specific details
 					var columnSeriesConfig = function(correspondingMapSeriesItem, color){
 						return {
+							enableMouseTracking: false,
+							/*
 	                        tooltip: {
 	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {point.key} </span><br/>',
 	                            pointFormatter: function () {
 	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),3) + '</b><br/>';
 	                            }
 	                        },
+	                        */
 	                    };
 					};
 					
