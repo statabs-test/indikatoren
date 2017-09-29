@@ -18,8 +18,8 @@
   },
   {
   	"min": 90,
-     max: 110,
-    "tickInterval": 5,
+     max: 120,
+    "tickInterval": 7.5,
     "title": {
         "style": {
         "color": "#000000",
@@ -31,7 +31,7 @@
         text: null
     },
     "labels": {
-      "format": "{value:,.0f}",
+      "format": "{value:,.1f}",
        style:{
        		color: "black",
        },

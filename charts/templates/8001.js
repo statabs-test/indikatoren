@@ -56,7 +56,7 @@ plotOptions: {
 //	"y": 40,
 	"x": 45,
 	"itemMarginBottom": 5,
-    "itemWidth": 500, 
+    //"itemWidth": 500, 
     "itemStyle": {
     "fontWeight": "normal"
     }
@@ -99,7 +99,6 @@ plotOptions: {
   		"shared": true
 		   },
   "chart": {
-    "marginBottom": 65,
     "alignTicks": false
   }
 }

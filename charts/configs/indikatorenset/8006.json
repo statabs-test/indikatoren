@@ -142,6 +142,7 @@
     },
     "labels": {
       "style": {
+        "fontSize": 10,
         "color": "#000000"
       }
     },
@@ -150,9 +151,14 @@
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 485,
-    "height": 415,
-    "spacingBottom": 30,
+    "width": 320,
+    "height": 208,
+    "spacing": [
+      7,
+      3,
+      8,
+      3
+    ],
     "style": {
       "fontFamily": "Arial"
     },
@@ -169,7 +175,10 @@
       "borderWidth": 0,
       "dataLabels": {
         "style": {
-          "fontSize": "10px"
+          "fontSize": "10px",
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "black"
         }
       },
       "stacking": "normal",
@@ -179,7 +188,7 @@
   },
   "title": {
     "style": {
-      "fontSize": "14px",
+      "fontSize": "10px",
       "fontWeight": "bold",
       "color": "#000000"
     },
@@ -188,7 +197,7 @@
   },
   "subtitle": {
     "style": {
-      "fontSize": "12px",
+      "fontSize": "10px",
       "fontWeight": "normal",
       "fontFamily": "Arial",
       "color": "#000000"
@@ -209,6 +218,7 @@
     },
     "labels": {
       "style": {
+        "fontSize": 10,
         "color": "#000000"
       },
       "format": "{value:,.0f}"
@@ -224,7 +234,7 @@
     "enabled": true,
     "style": {
       "color": "#000000",
-      "fontSize": "10px",
+      "fontSize": "10",
       "cursor": "default"
     },
     "position": {
@@ -237,16 +247,22 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "y": 40,
     "x": 45,
     "itemWidth": 500,
-    "itemMarginBottom": 5,
-    "itemStyle": {
-      "fontWeight": "normal"
+    "itemMarginBottom": 5
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": 10
     }
   },
   "tooltip": {
