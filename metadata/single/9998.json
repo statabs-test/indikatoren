@@ -20,7 +20,7 @@
 "template":"pie001",
 "option":"options001",
 "visible":true,
-"visibleInPortal":true,
+"visibleInPortal":false,
 "parentId":null,
 "children":["5869"],
 "renderLink":[],

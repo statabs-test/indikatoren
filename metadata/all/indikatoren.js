@@ -11926,7 +11926,7 @@ var indikatoren = [
 		"template": "mapcolumn002",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "11_00_00_00_00_002",
 		"parentId": 4918,
 		"children": [
@@ -11969,7 +11969,7 @@ var indikatoren = [
 		"template": "pie001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"parentId": null,
 		"children": [
 			"5869"
@@ -12011,7 +12011,7 @@ var indikatoren = [
 		"template": "mappie002",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "11_00_00_00_00_002",
 		"parentId": 4918,
 		"children": [
