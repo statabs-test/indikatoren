@@ -8,7 +8,7 @@
       "borderWidth": 0,
       "legendIndex": 1,
       "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
         [
@@ -72,23 +72,7 @@
       },
       "legendIndex": 2,
       "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px",
-          "fontWeight": "normal"
-        },
-        "enabled": false,
-        "formatter": function () {
-            var first = this.series.data[0];
-            var last  = this.series.data[this.series.data.length - 1];
-            if (this.point.y === first.y || this.point.y === last.y ) {
-              return this.point.x + ":<br/>" + Highcharts.numberFormat(this.point.y, 1, ",", " ") + "";
-              //return this.point.x + ":<br/>" + Highcharts.numberFormat(this.y, 1, ",", " ") + "";
-            }
-            return "";
-          }
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
         [
@@ -150,7 +134,7 @@
       "borderWidth": 0,
       "legendIndex": 3,
       "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
         [
@@ -210,11 +194,11 @@
       "type": "line",
       "yAxis": 1,
       "legendIndex": 3,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
       "marker": {
         "enabled": true
-      },
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
         [
@@ -317,24 +301,34 @@
   },
   "yAxis": [
     {
+      "min": 0,
+      "max": 200000,
+      "tickInterval": 50000,
       "title": {
-        "text": null
+        "text": null,
+        "color": "#000000",
+        "fontSize": null
       },
       "labels": {
-        "format": "{value:,.0f}"
-      },
-      "min": 0,
-      "max": 200000
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "black"
+        }
+      }
     },
     {
+      "min": 90,
+      "max": 110,
+      "tickInterval": 5,
       "title": {
         "text": null
       },
       "labels": {
-        "format": "{value:,.0f}"
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "black"
+        }
       },
-      "min": 90,
-      "max": 120,
       "opposite": true
     }
   ],
@@ -345,9 +339,7 @@
       "style": {
         "fontSize": 10,
         "color": "#000000"
-      },
-      "rotation": -50,
-      "padding": 0
+      }
     },
     "tickLength": 0,
     "tickInterval": 1
@@ -380,13 +372,8 @@
     },
     "x": 45,
     "width": 300,
-    "itemMarginBottom": 5
-  },
-  "plotOptions": {
-    "series": {
-      "pointPadding": 0,
-      "borderWidth": 0
-    }
+    "itemMarginBottom": 5,
+    "itemWidth": 120
   },
   "exporting": {
     "filename": "I.03.2.05901"

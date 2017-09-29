@@ -7,7 +7,7 @@
          area: {
             stacking: 'normal',
             //lineColor: '#666666',
-            lineWidth: 1,
+            lineWidth: 0,
 
         }
   },

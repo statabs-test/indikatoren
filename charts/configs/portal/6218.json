@@ -2,10 +2,10 @@
   "series": [
     {
       "color": "#b475ab",
-      "index": 0,
+      "index": 3,
       "type": "column",
       "pointWidth": "15",
-      "legendIndex": 0,
+      "legendIndex": 3,
       "data": [
         [
           "1990",
@@ -40,15 +40,15 @@
           23.8
         ]
       ],
-      "name": "Sekundarstufe",
+      "name": "Sekundarstufe 1",
       "turboThreshold": 0
     },
     {
       "color": "#a8c4cb",
-      "index": 0,
+      "index": 2,
       "type": "column",
       "pointWidth": "15",
-      "legendIndex": 1,
+      "legendIndex": 2,
       "data": [
         [
           "1990",
@@ -83,15 +83,15 @@
           38
         ]
       ],
-      "name": "Sekundarstufe",
+      "name": "Sekundarstufe 2",
       "turboThreshold": 0
     },
     {
       "color": "#fabd24",
-      "index": 0,
+      "index": 1,
       "type": "column",
       "pointWidth": "15",
-      "legendIndex": 2,
+      "legendIndex": 1,
       "data": [
         [
           "1990",
@@ -134,7 +134,7 @@
       "index": 0,
       "type": "column",
       "pointWidth": "15",
-      "legendIndex": 2,
+      "legendIndex": 0,
       "data": [
         [
           "1990",

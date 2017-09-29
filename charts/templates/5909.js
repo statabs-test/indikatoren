@@ -1,71 +1,71 @@
 (function(){
     return {
   "yAxis": [{
+  	"min": 0,
+    "max": 200000,
+     "tickInterval": 50000,
   	title: {
-        text: null
+        text: null,
+        "color": "#000000",
+        "fontSize": null
     },
     "labels": {
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f}",
+       style:{
+       		color: "black",
+       },
     },
-    "min": 0,
-    "max": 200000,
-    //"tickInterval":600,
-    //"title": ""
   },
   {
-    /*"title": {
+  	"min": 90,
+     max: 110,
+    "tickInterval": 5,
+    "title": {
         "style": {
         "color": "#000000",
         "fontSize": null
       },
       "text": null
-    },*/
+    },
     title: {
         text: null
     },
     "labels": {
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f}",
+       style:{
+       		color: "black",
+       },
     },
-    "min": 90,
-     max: 120,
-    //"tickInterval": 100,
-    //"gridLineWidth": 0,
     "opposite": true
   }
   ],
   "xAxis": {
-    tickInterval: 1,
-    labels: {
-      //staggerLines: 2,
-      rotation: -50,
-      padding: 0
-    }
+    "tickInterval": 1
   },
   "legend": {
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
+	//"y": 40,
 	"x": 45,
 	"width": 300,
 	"itemMarginBottom": 5,
+    "itemWidth": 120, 
     "itemStyle": {
     "fontWeight": "normal"
     }
   },
- "series": [
+  "series": [
     {
       "color": "#FFBB58", // Bevölkerung
       "index": 0,
       "type": "column",
-      //"pointWidth": "7",
       pointPadding: 0,
       borderWidth: 0,
-      //"pointPadding": 0,
-      //"groupPadding": 0.1,
       legendIndex: 1,
     	"tooltip": {
-  		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.0f}</b><br/>',
+  		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
 		   },
     },
     {
@@ -77,63 +77,43 @@
         "enabled": true
       },
       legendIndex: 2,
-      "tooltip": {
-  		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}</b><br/>',
-		   },
-	 "dataLabels": {
-        style: {"fontSize": "10px", "fontWeight": "normal"}, 
-        "enabled": false,
-          //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
-          formatter: function() {
-            var first = this.series.data[0];
-            var last  = this.series.data[this.series.data.length - 1];
-            if (this.point.y === first.y || this.point.y === last.y ) {
-              return this.point.x + ":<br/>" + Highcharts.numberFormat(this.point.y, 1, ",", " ") + "";
-              //return this.point.x + ":<br/>" + Highcharts.numberFormat(this.y, 1, ",", " ") + "";
-            }
-            return "";
-          }
-      }
-      //tooltip: {
-      	//"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>'
-    //}
+	  "tooltip": {
+  		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
+	   },
     },
      {
-      "color": "#A8C3CA", // Beschäftigte
+      "color":  "#A8C3CA", // Beschäftigte
       "index": 0,
       "type": "column",
-      //"pointWidth": "7",
       pointPadding: 0,
       borderWidth: 0,
+      //"pointWidth": "8",
       legendIndex: 3,
-      "tooltip": {
-  		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.0f}</b><br/>',
-		   },
+	  "tooltip": {
+  			"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+      },
+
     },
     {
-      "color": "#246370", // Beschäftigte indexiert
+      "color":  "#246370", // Beschäftigte indexiert
       "index": 1,
       "type": "line",
       "yAxis": 1,
       "legendIndex": 3,
+      "tooltip": {
+  		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
+	   },
       "marker": {
         "enabled": true
       },
-      "tooltip": {
-  		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}</b><br/>',
-		   },
-		   
     }
   ],  
+   "tooltip": {
+  	    //"shared": true
+		   },
   "chart": {
-    "alignTicks": false,
-     "width":665
-  },
-  plotOptions: {
-        series: {
-            pointPadding: 0,
-            borderWidth: 0,
-        }
-    }
+    "width":665,
+    "alignTicks": false
+  }
 }
 }());

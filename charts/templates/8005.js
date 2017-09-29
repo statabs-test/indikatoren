@@ -9,9 +9,9 @@
         }
   },
   "yAxis": {
-  	//"min": -200,
+  	max: 100,
     "labels": {
-      "format": "{value:,.0f}",
+      "format": "{value:,.0f} %",
     }
   },
   "xAxis": {
@@ -24,7 +24,7 @@
     "verticalAlign": "top",
     "align": "left",
 	//"y": 40,
-	"x": 45,
+	"x": 35,
 	itemWidth: 500,
 	"itemMarginBottom": 5,
     "itemStyle": {
@@ -34,28 +34,35 @@
   "series": [
     {
       "color": "#b475ab",
-      "index": 0,
+      "index": 3,
       "type": "column",
       "pointWidth": "15",
-      legendIndex: 0
+      legendIndex: 3
     },
     {
       "color": "#a8c4cb",
-      "index": 0,
+      "index": 2,
+      "type": "column",
+      "pointWidth": "15",
+      legendIndex: 2
+    },
+    {
+      "color": "#fabd24",
+      "index": 1,
       "type": "column",
       "pointWidth": "15",
       legendIndex: 1
     },
     {
-      "color": "#fabd24",
+      "color": "#68AB2B",
       "index": 0,
       "type": "column",
       "pointWidth": "15",
-      legendIndex: 2
-    },
+      legendIndex: 0
+    },    
   ],  
   "tooltip": {
-    "shared": true
+    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f} %</b><br/>',
   },
   /*"chart": {
     "marginBottom": 65,
@@ -64,3 +71,4 @@
   }*/
 };
 }());
+

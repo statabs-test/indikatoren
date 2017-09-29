@@ -308,7 +308,7 @@ var templatesById = {
 	"8004": "line001_print",
 	"8005": "template001_print",
 	"8006": "template001",
-	"8007": "template001_print",
+	"8007": "line001_print",
 	"9998": "pie001",
 	"9999": "mappie002"
 };

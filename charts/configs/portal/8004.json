@@ -566,7 +566,7 @@
   "plotOptions": {
     "area": {
       "stacking": "normal",
-      "lineWidth": 1
+      "lineWidth": 0
     }
   },
   "exporting": {
