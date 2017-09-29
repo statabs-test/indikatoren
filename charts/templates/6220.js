@@ -1,59 +1,53 @@
 (function(){
     return {
-  plotOptions: {
-        series: {
-        	"stacking": "normal",
-            pointPadding: 0,
-            groupPadding: 0.5, // exaclty overlaps columns
-            borderWidth: 0
-        }
+  "xAxis": {
+    "tickInterval": 1
   },
   "yAxis": {
-  	//"min": -200,
-    "labels": {
-      "format": "{value:,.0f}",
-    }
-  },
-  "xAxis": {
-  	"type": "category",
-   //"tickInterval": 1
-  },
-  "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-	"y": 40,
-	"x": 30,
-	itemWidth: 500,
-	"itemMarginBottom": 5,
-    "itemStyle": {
-    "fontWeight": "normal"
-    }
+    "min": undefined, 
+	"labels": {
+		"format": "{value:,.0f}"
+	}
+  },	
+  "tooltip": {
+    "shared": false, 
+	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   },
   "series": [
-    {
-      "color": "#b475ab",
-      "index": 0,
-      "type": "column",
-      "pointWidth": "15",
-      legendIndex: 0
-    },
-    {
-      "color": "#a8c4cb",
-      "index": 0,
-      "type": "column",
-      "pointWidth": "15",
-      legendIndex: 1
-    },
-  ],  
-  "tooltip": {
-    "shared": true
+    {"color": "#b00000 ",
+      "marker": {
+        "enabled": true
+      }    
+    
+    }, /* rot */
+	{"color": "#672773",
+      "marker": {
+        "enabled": true
+      }    
+    },/* blau  */
+  ],
+  "legend": {
+    "enabled": true,
+    "x": 25,
+    "y": 25,
+    "itemWidth": 200,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left",
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
   },
-  /*"chart": {
-    "marginBottom": 65,
-    "type": "line",
-    "alignTicks": false
-  }*/
-};
+  "plotOptions": {
+    "line": {
+	  "connectNulls": true,
+      "marker":{
+        "enabled": false,
+        "symbol": "circle",
+      }
+    }
+  }
+}
 }());
+ 

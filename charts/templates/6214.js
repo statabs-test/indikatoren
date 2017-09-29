@@ -18,8 +18,9 @@ plotOptions: {
        		color: "black",
        },
     },
-    "min": 0,
-    //tickInterval: 25000
+    min: 0,
+    max: 120000,
+    tickInterval: 30000,
   },
   {
     "title": {
@@ -38,8 +39,9 @@ plotOptions: {
        		color: "black",
        },
     },
-    "min": 0,
-    //tickInterval: 50000,
+   min: 0,
+   max: 250000,
+   tickInterval: 62500,
     "opposite": true
   }
   ],
@@ -93,7 +95,8 @@ plotOptions: {
     }
   ], 
       "tooltip": {
-  		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}</b><br/>',
+  		//"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.0f}</b><br/>',
+  		"shared": true
 		   },
   "chart": {
     "marginBottom": 65,

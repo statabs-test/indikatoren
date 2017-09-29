@@ -3,6 +3,7 @@
   "yAxis": [{
   	"min": 0,
     "max": 200000,
+     "tickInterval": 50000,
   	title: {
         text: null,
         "color": "#000000",
@@ -17,8 +18,8 @@
   },
   {
   	"min": 90,
-     max: 120,
-    "tickInterval": 10,
+     max: 110,
+    "tickInterval": 5,
     "title": {
         "style": {
         "color": "#000000",
@@ -64,7 +65,7 @@
       borderWidth: 0,
       legendIndex: 1,
     	"tooltip": {
-  		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.0f}</b><br/>',
+  		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
 		   },
     },
     {
@@ -76,6 +77,9 @@
         "enabled": true
       },
       legendIndex: 2,
+	  "tooltip": {
+  		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
+	   },
     },
      {
       "color":  "#A8C3CA", // Beschäftigte
@@ -85,6 +89,9 @@
       borderWidth: 0,
       //"pointWidth": "8",
       legendIndex: 3,
+	  "tooltip": {
+  			"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+      },
 
     },
     {
@@ -93,13 +100,17 @@
       "type": "line",
       "yAxis": 1,
       "legendIndex": 3,
+      "tooltip": {
+  		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
+	   },
       "marker": {
         "enabled": true
       },
     }
   ],  
    "tooltip": {
-  		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}</b><br/>',
+  		//"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
+  	    "shared": true
 		   },
   "chart": {
     "marginBottom": 65,
