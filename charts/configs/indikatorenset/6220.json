@@ -1,122 +1,89 @@
 {
   "series": [
     {
-      "color": "#b475ab",
-      "index": 0,
-      "type": "column",
-      "pointWidth": "15",
-      "legendIndex": 0,
+      "color": "#b00000 ",
+      "marker": {
+        "enabled": true
+      },
       "data": [
         [
-          "2011",
+          2011,
           100
         ],
         [
-          "2012",
+          2012,
           100.397878
         ],
         [
-          "2013",
+          2013,
           101.0462717
         ],
         [
-          "2014",
+          2014,
           101.6357206
         ],
         [
-          "2015",
+          2015,
           101.8567639
         ],
         [
-          "2016",
+          2016,
           102.4756852
         ]
       ],
-      "name": "Haushalte in Begegnungszonen",
-      "turboThreshold": 0
+      "name": "Haushalte in Begegnungszonen"
     },
     {
-      "color": "#a8c4cb",
-      "index": 0,
-      "type": "column",
-      "pointWidth": "15",
-      "legendIndex": 1,
+      "color": "#672773",
+      "marker": {
+        "enabled": true
+      },
       "data": [
         [
-          "2011",
+          2011,
           100
         ],
         [
-          "2012",
+          2012,
           101.0660224
         ],
         [
-          "2013",
+          2013,
           101.6259418
         ],
         [
-          "2014",
+          2014,
           101.36373
         ],
         [
-          "2015",
+          2015,
           101.0694575
         ],
         [
-          "2016",
+          2016,
           101.3305242
         ]
       ],
-      "name": "Haushalte in der Stadt Basel",
-      "turboThreshold": 0
+      "name": "Haushalte in der Stadt Basel"
     }
   ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": true,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "tickColor": "#FFFFFF"
-  },
   "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {}
+          }
+    },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
     "width": 485,
     "height": 415,
-    "spacingBottom": 30,
+    "spacingBottom": 45,
     "style": {
       "fontFamily": "Arial"
     },
-    "zoomType": "xy",
-    "events": {
-      "load": function () {
-                    this.credits.element.onclick = function() {}
-                }
-    },
+    "type": "line",
     "renderTo": "container-6220"
-  },
-  "plotOptions": {
-    "series": {
-      "borderWidth": 0,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      },
-      "stacking": "normal",
-      "pointPadding": 0,
-      "groupPadding": 0.5
-    }
   },
   "title": {
     "style": {
@@ -137,10 +104,13 @@
     "text": "",
     "align": "left"
   },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
   "yAxis": {
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
-    "lineColor": "#B9CFD7",
     "title": {
       "style": {
         "color": "#000000",
@@ -155,13 +125,19 @@
       "format": "{value:,.0f}"
     }
   },
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
-    }
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
   },
   "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
     "style": {
       "color": "#000000",
@@ -177,21 +153,27 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
   },
   "legend": {
-    "symbolRadius": 0,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "y": 40,
-    "x": 30,
-    "itemWidth": 500,
+    "symbolRadius": 0,
+    "x": 25,
+    "y": 25,
+    "itemWidth": 200,
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
-  "tooltip": {
-    "shared": true
+  "plotOptions": {
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
   },
   "exporting": {
     "filename": "I.09.1.05816"

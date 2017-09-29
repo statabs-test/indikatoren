@@ -803,7 +803,9 @@
           "color": "black"
         }
       },
-      "min": 0
+      "min": 0,
+      "max": 120000,
+      "tickInterval": 30000
     },
     {
       "title": {
@@ -816,6 +818,8 @@
         }
       },
       "min": 0,
+      "max": 250000,
+      "tickInterval": 62500,
       "opposite": true
     }
   ],
@@ -855,7 +859,7 @@
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "shared": true
   },
   "exporting": {
     "filename": "I.01.1.05809"

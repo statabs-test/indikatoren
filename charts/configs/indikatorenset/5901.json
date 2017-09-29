@@ -8,7 +8,7 @@
       "borderWidth": 0,
       "legendIndex": 1,
       "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
         [
@@ -71,6 +71,9 @@
         "enabled": true
       },
       "legendIndex": 2,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
       "data": [
         [
           2005,
@@ -130,6 +133,9 @@
       "pointPadding": 0,
       "borderWidth": 0,
       "legendIndex": 3,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
       "data": [
         [
           2005,
@@ -188,6 +194,9 @@
       "type": "line",
       "yAxis": 1,
       "legendIndex": 3,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
       "marker": {
         "enabled": true
       },
@@ -284,13 +293,13 @@
     "align": "left"
   },
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "shared": false
   },
   "yAxis": [
     {
       "min": 0,
       "max": 200000,
+      "tickInterval": 50000,
       "title": {
         "text": null,
         "color": "#000000",
@@ -305,8 +314,8 @@
     },
     {
       "min": 90,
-      "max": 120,
-      "tickInterval": 10,
+      "max": 110,
+      "tickInterval": 5,
       "title": {
         "text": null
       },

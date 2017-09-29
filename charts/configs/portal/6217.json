@@ -506,7 +506,7 @@
     "align": "left"
   },
   "tooltip": {
-    "shared": true
+    "shared": false
   },
   "yAxis": {
     "min": 0,
@@ -559,7 +559,7 @@
   "plotOptions": {
     "area": {
       "stacking": "normal",
-      "lineWidth": 1
+      "lineWidth": 0
     }
   },
   "exporting": {

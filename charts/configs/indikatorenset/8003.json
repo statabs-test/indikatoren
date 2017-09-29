@@ -347,7 +347,9 @@
       },
       "formatter": function () {
             	return this.value;
-            }
+            },
+      "step": 1,
+      "overflow": "justify"
     }
   },
   "chart": {
@@ -467,9 +469,9 @@
     "itemStyle": {
       "fontSize": "10px",
       "fontFamily": "Arial",
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "width": 95
     },
-    "width": 95,
     "symbolRadius": 0,
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');

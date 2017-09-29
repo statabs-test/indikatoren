@@ -979,8 +979,8 @@
       "fontWeight": "normal"
     },
     "enabled": true,
-    "x": 50,
-    "itemWidth": 1000,
+    "x": 45,
+    "itemWidth": 120,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
