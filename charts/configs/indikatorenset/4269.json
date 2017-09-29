@@ -1314,6 +1314,7 @@
         2010
       ],
       "floor": 0,
+      "ceiling": 2,
       "tickLength": 0,
       "title": {
         "enabled": false,

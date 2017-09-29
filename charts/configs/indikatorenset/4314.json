@@ -1384,6 +1384,7 @@
         2015
       ],
       "floor": 0,
+      "ceiling": 82,
       "tickLength": 0,
       "title": {
         "enabled": false,

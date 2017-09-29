@@ -1320,6 +1320,7 @@
         2013
       ],
       "floor": 0,
+      "ceiling": 3,
       "tickLength": 0,
       "title": {
         "enabled": false,
