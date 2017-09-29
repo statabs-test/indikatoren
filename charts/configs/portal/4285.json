@@ -1327,6 +1327,7 @@
         2009,
         2015
       ],
+      "floor": 0,
       "tickLength": 0,
       "title": {
         "enabled": false,

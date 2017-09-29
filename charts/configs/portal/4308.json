@@ -1305,6 +1305,7 @@
         1980,
         2002
       ],
+      "floor": 0,
       "tickLength": 0,
       "title": {
         "enabled": false,
