@@ -29,12 +29,11 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 45,
-	"y": 20,
-	"Itemwidth": 500,
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
+	  "y": 20,
+  	"Itemwidth": 500,
+      "itemStyle": {
+        "fontWeight": "normal"
+      }
   },
   "series": [
   {"color": "#B00000", "index": 4}, /*rot */
@@ -47,7 +46,19 @@
     "marginBottom": 75,
     "marginTop": 75,
     "type": "column",
-    "inverted": false
+    "inverted": false, 
+    events: {
+      load: function(){
+        this.update(
+          {
+            //move legend to x position of first yAxis
+            legend: {
+              x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+            }
+          }
+        );
+      }
+    }
   },
   "tooltip": {
   "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
