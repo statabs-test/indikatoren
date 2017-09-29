@@ -34,31 +34,31 @@
   "series": [
     {
       "color": "#b475ab",
-      "index": 0,
+      "index": 3,
       "type": "column",
       "pointWidth": "15",
-      legendIndex: 0
+      legendIndex: 3
     },
     {
       "color": "#a8c4cb",
-      "index": 0,
-      "type": "column",
-      "pointWidth": "15",
-      legendIndex: 1
-    },
-    {
-      "color": "#fabd24",
-      "index": 0,
+      "index": 2,
       "type": "column",
       "pointWidth": "15",
       legendIndex: 2
+    },
+    {
+      "color": "#fabd24",
+      "index": 1,
+      "type": "column",
+      "pointWidth": "15",
+      legendIndex: 1
     },
     {
       "color": "#68AB2B",
       "index": 0,
       "type": "column",
       "pointWidth": "15",
-      legendIndex: 2
+      legendIndex: 0
     },    
   ],  
   "tooltip": {
