@@ -9533,16 +9533,17 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Wohnfläche pro Kopf nahm von 1997 bis 2010 um knapp 2  m² zu. Seither ist ein leichter Rückgang zu verzeichnen. Der Wert 2016 beträgt 41,3 m².",
+		"lesehilfe": "Die Wohnfläche pro Kopf nahm von 1997 bis 2010 um knapp 2  m² zu. Seither ist ein leichter Rückgang zu verzeichnen.",
 		"erlaeuterungen": "Alle Berechnungen beziehen sich auf das Jahresende und berücksichtigen rückwirkend wo immer möglich die aktuell gültigen Definitionen gemäss Gesetzgebung zu Registerharmonisierung und Volkszählung. Ab 2012 handelt es sich um kantonale Registerauswertungen, frühere Werte wurden auf Basis der Volkszählungen 1980, 1990 und 2000 berechnet.",
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "04_00_00_00_00_006",
+		"orderKey": "01_00_00_00_00_006",
 		"parentId": 4140,
 		"children": [
-			"5875"
+			"5875",
+			"6105"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -11315,11 +11316,11 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Bevölkerung am Jahresende un Anzahl Wohnungen",
+		"title": "Bevölkerung am Jahresende und Anzahl Wohnungen",
 		"subtitle": "",
-		"kuerzel": "I.01.1.05809",
+		"kuerzel": "I.01.1.06214",
 		"kuerzelKunde": "ST 4-1",
-		"description": "Bevölkerung am Jahresende nach Herkunft",
+		"description": "Bevölkerung am Jahresende und Anzahl Wohnungen",
 		"id": 6214,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
@@ -11336,21 +11337,19 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die schweizerische Bevölkerung nahm von 1997 bis 2016 von gut 142 000 auf etwa 127 000 Personen ab. Dies entspricht einem Rückgang um rund 10%. Die ausländische Bevölkerung nahm im gleichen Zeitraum von knapp 52 000 auf leicht unter 71 000 Personen zu, was einem Zuwachs um 36% gleichkommt.",
-		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister.",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
-		"orderKey": "04_00_00_00_00_001",
-		"parentId": 2265,
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_001",
+		"parentId": null,
 		"children": [
-			"5870"
+			"6221"
 		],
 		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
+		"quellenangabe": [],
 		"externalLinks": [
 			""
 		]
@@ -11358,12 +11357,12 @@ var indikatoren = [
 	{
 		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
 		"subtitle": "",
-		"kuerzel": "I.01.1.05809",
-		"kuerzelKunde": "ST 4-1",
-		"description": "Bevölkerung am Jahresende nach Herkunft",
+		"kuerzel": "I.01.9.06215",
+		"kuerzelKunde": "ST 4-12",
+		"description": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
 		"id": 6215,
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Szenarien",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -11377,61 +11376,62 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die schweizerische Bevölkerung nahm von 1997 bis 2016 von gut 142 000 auf etwa 127 000 Personen ab. Dies entspricht einem Rückgang um rund 10%. Die ausländische Bevölkerung nahm im gleichen Zeitraum von knapp 52 000 auf leicht unter 71 000 Personen zu, was einem Zuwachs um 36% gleichkommt.",
-		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister.",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
-		"orderKey": "04_00_00_00_00_001",
-		"parentId": 2265,
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_012",
+		"parentId": null,
 		"children": [
-			"5870"
+			"6222"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
 		"externalLinks": [
 			""
 		]
 	},
 	{
-		"title": "Zufiredenzeit mit verschiedenen Aspekten und Angeboten am Wohnort",
-		"subtitle": "",
-		"kuerzel": "I.01.1.05809",
-		"kuerzelKunde": "ST 4-1",
-		"description": "Bevölkerung am Jahresende nach Herkunft",
+		"title": "Zufriedenheit mit verschiedenen Aspekten und Angeboten am Wohnort",
+		"subtitle": "«Wie zufreieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» Stand: 2015",
+		"kuerzel": "I.50.1.06216",
+		"kuerzelKunde": "ST 5-3",
+		"description": "Zufriedenheit mit verschiedenen Aspekten und Angeboten am Wohnort",
 		"id": 6216,
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
 		"schlagwort": [
+			"Zufriedenheit",
 			"Bevölkerung"
 		],
-		"stufe1": "Strategie 4",
+		"stufe1": "Strategie 5",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die schweizerische Bevölkerung nahm von 1997 bis 2016 von gut 142 000 auf etwa 127 000 Personen ab. Dies entspricht einem Rückgang um rund 10%. Die ausländische Bevölkerung nahm im gleichen Zeitraum von knapp 52 000 auf leicht unter 71 000 Personen zu, was einem Zuwachs um 36% gleichkommt.",
-		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister.",
+		"lesehilfe": "2015 hatten die befragten Personen die Gelegenheit, 23 Punkte, die für den Wohnort wichtig sind, zu bewerten. Am zufriedensten sind sie<br>mit der generellen Vielfalt der Einkaufsmöglichkeiten in Basel, gefolgt von den öffentlichen Verkehrsmitteln und der Gesundheitsversorgung.<br>Beim Thema Parkplätze gehen die Meinungen auseinander: Der Anteil Zufriedener und der Anteil Unzufriedener halten sich in etwa die<br>Waage.",
+		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "04_00_00_00_00_001",
-		"parentId": 2265,
+		"orderKey": "02_00_00_00_00_003",
+		"parentId": 5178,
 		"children": [
-			"5870"
+			"6223"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+			"Bevölkerungsbefragung Basel-Stadt 2015, Frage F6"
 		],
 		"externalLinks": [
 			""
@@ -11439,7 +11439,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Leerstehende Industrie- und Gewerberäume",
-		"subtitle": "",
+		"subtitle": "in Quadratmeter",
 		"kuerzel": "I.09.2.06217",
 		"kuerzelKunde": "ST 7-3",
 		"description": "Leerstehende Industrie- und Gewerberäume",
@@ -11454,7 +11454,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Gebäude"
 		],
-		"stufe1": "",
+		"stufe1": "Strategie 7",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -11465,11 +11465,15 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "04_00_00_00_00_003",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6224"
+		],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"SVIT beider Basel"
+		],
 		"externalLinks": [
 			""
 		]
@@ -11477,50 +11481,50 @@ var indikatoren = [
 	{
 		"title": "Bevölkerung ab 15 Jahren nach Ausbildungsniveau",
 		"subtitle": "",
-		"kuerzel": "I.09.1.05816",
-		"kuerzelKunde": "ST 4-7",
-		"description": "Nettowohnungsproduktion",
+		"kuerzel": "I.15.6.06218",
+		"kuerzelKunde": "ST 8-3",
+		"description": "Bevölkerung ab 15 Jahren nach Ausbildungsniveau",
 		"id": 6218,
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
+		"thema": "15 Bildung",
+		"unterthema": "Bildungsniveau",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
 		"schlagwort": [
-			"Wohnen"
+			"Bildung"
 		],
-		"stufe1": "Strategie 4",
+		"stufe1": "Strategie 8",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 2014 war die Nettowohnungsproduktion überdurchschnittlich hoch. Dazu beigetragen hat eine hohe Neubauproduktion, ein positiver Umbausaldo und mit Ausnahme von 2015 eine niedrige Anzahl von Abbrüchen.",
+		"lesehilfe": "",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
-		"orderKey": "04_00_00_00_00_007",
-		"parentId": 4135,
+		"visibleInPortal": true,
+		"orderKey": "05_00_00_00_00_003",
+		"parentId": null,
 		"children": [
-			"5876"
+			"6225"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
 		"externalLinks": [
 			""
 		]
 	},
 	{
-		"title": "Bruttogeschlossfläche Total",
-		"subtitle": "",
-		"kuerzel": "I.09.1.05816",
-		"kuerzelKunde": "ST 4-7",
-		"description": "Nettowohnungsproduktion",
+		"title": "Bruttogeschossfläche Total",
+		"subtitle": "nach Wohnviertel",
+		"kuerzel": "I.09.1.06219",
+		"kuerzelKunde": "ST 6-3",
+		"description": "Bruttogeschossfläche Total",
 		"id": 6219,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
@@ -11532,66 +11536,67 @@ var indikatoren = [
 		"schlagwort": [
 			"Wohnen"
 		],
-		"stufe1": "Strategie 4",
+		"stufe1": "Strategie 6",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 2014 war die Nettowohnungsproduktion überdurchschnittlich hoch. Dazu beigetragen hat eine hohe Neubauproduktion, ein positiver Umbausaldo und mit Ausnahme von 2015 eine niedrige Anzahl von Abbrüchen.",
+		"lesehilfe": "",
 		"erlaeuterungen": "",
 		"template": "mappie001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
-		"orderKey": "04_00_00_00_00_007",
-		"parentId": 4135,
+		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_003",
+		"parentId": null,
 		"children": [
-			"5876"
+			"6226"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+			"Planungsamt Basel-Stadt"
 		],
 		"externalLinks": [
 			""
 		]
 	},
 	{
-		"title": "Haushalte",
+		"title": "Indexierter Verlauf der Haushalte in Begegnungszonen",
 		"subtitle": "",
-		"kuerzel": "I.09.1.05816",
-		"kuerzelKunde": "ST 4-7",
-		"description": "Nettowohnungsproduktion",
+		"kuerzel": "I.01.2.06220",
+		"kuerzelKunde": "ST 5-4",
+		"description": "Indexierter Verlauf der Haushalte in Begegnungszonen",
 		"id": 6220,
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Haushalte",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
 		"schlagwort": [
-			"Wohnen"
+			"Haushalt"
 		],
-		"stufe1": "Strategie 4",
+		"stufe1": "Strategie 5",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 2014 war die Nettowohnungsproduktion überdurchschnittlich hoch. Dazu beigetragen hat eine hohe Neubauproduktion, ein positiver Umbausaldo und mit Ausnahme von 2015 eine niedrige Anzahl von Abbrüchen.",
+		"lesehilfe": "",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
-		"orderKey": "04_00_00_00_00_007",
-		"parentId": 4135,
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_004",
+		"parentId": null,
 		"children": [
-			"5876"
+			"6227"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Planungsamt Basel-Stadt"
 		],
 		"externalLinks": [
 			""

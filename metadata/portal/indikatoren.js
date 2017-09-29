@@ -5919,8 +5919,88 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Leerstehende Industrie- und Gewerberäume",
+		"title": "Bevölkerung am Jahresende und Anzahl Wohnungen",
 		"subtitle": "",
+		"kuerzel": "I.01.1.06214",
+		"kuerzelKunde": "ST 4-1",
+		"description": "Bevölkerung am Jahresende und Anzahl Wohnungen",
+		"id": 6214,
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur ",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Bevölkerung"
+		],
+		"stufe1": "Strategie 4",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_001",
+		"parentId": null,
+		"children": [
+			"6221"
+		],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
+		"subtitle": "",
+		"kuerzel": "I.01.9.06215",
+		"kuerzelKunde": "ST 4-12",
+		"description": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
+		"id": 6215,
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Bevölkerung"
+		],
+		"stufe1": "Strategie 4",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_012",
+		"parentId": null,
+		"children": [
+			"6222"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Leerstehende Industrie- und Gewerberäume",
+		"subtitle": "in Quadratmeter",
 		"kuerzel": "I.09.2.06217",
 		"kuerzelKunde": "ST 7-3",
 		"description": "Leerstehende Industrie- und Gewerberäume",
@@ -5935,7 +6015,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Gebäude"
 		],
-		"stufe1": "",
+		"stufe1": "Strategie 7",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -5946,11 +6026,139 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "04_00_00_00_00_003",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6224"
+		],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"SVIT beider Basel"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Bevölkerung ab 15 Jahren nach Ausbildungsniveau",
+		"subtitle": "",
+		"kuerzel": "I.15.6.06218",
+		"kuerzelKunde": "ST 8-3",
+		"description": "Bevölkerung ab 15 Jahren nach Ausbildungsniveau",
+		"id": 6218,
+		"thema": "15 Bildung",
+		"unterthema": "Bildungsniveau",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Bildung"
+		],
+		"stufe1": "Strategie 8",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "05_00_00_00_00_003",
+		"parentId": null,
+		"children": [
+			"6225"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Bruttogeschossfläche Total",
+		"subtitle": "nach Wohnviertel",
+		"kuerzel": "I.09.1.06219",
+		"kuerzelKunde": "ST 6-3",
+		"description": "Bruttogeschossfläche Total",
+		"id": 6219,
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Wohnen"
+		],
+		"stufe1": "Strategie 6",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "mappie001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_003",
+		"parentId": null,
+		"children": [
+			"6226"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Planungsamt Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Indexierter Verlauf der Haushalte in Begegnungszonen",
+		"subtitle": "",
+		"kuerzel": "I.01.2.06220",
+		"kuerzelKunde": "ST 5-4",
+		"description": "Indexierter Verlauf der Haushalte in Begegnungszonen",
+		"id": 6220,
+		"thema": "01 Bevölkerung",
+		"unterthema": "Haushalte",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Haushalt"
+		],
+		"stufe1": "Strategie 5",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_004",
+		"parentId": null,
+		"children": [
+			"6227"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Planungsamt Basel-Stadt"
+		],
 		"externalLinks": [
 			""
 		]

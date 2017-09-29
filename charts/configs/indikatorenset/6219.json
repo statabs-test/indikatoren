@@ -3700,7 +3700,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Bruttogeschlossfläche Total"
+    "text": "Bruttogeschossfläche Total"
   },
   "subtitle": {
     "style": {
@@ -3709,7 +3709,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "nach Wohnviertel",
     "align": "left"
   },
   "credits": {
@@ -3725,7 +3725,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+    "text": "Quelle: Planungsamt Basel-Stadt"
   },
   "colorAxis": {
     "min": 0,
@@ -4077,6 +4077,6 @@
 				}
   },
   "exporting": {
-    "filename": "I.09.1.05816"
+    "filename": "I.09.1.06219"
   }
 }

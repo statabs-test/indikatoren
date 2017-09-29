@@ -502,7 +502,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "in Quadratmeter",
     "align": "left"
   },
   "tooltip": {
@@ -538,9 +538,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: "
+    "text": "Quelle: SVIT beider Basel"
   },
   "legend": {
     "enabled": true,
