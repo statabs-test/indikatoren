@@ -46,19 +46,7 @@
     "marginBottom": 75,
     "marginTop": 75,
     "type": "column",
-    "inverted": false, 
-    events: {
-      load: function(){
-        this.update(
-          {
-            //move legend to x position of first yAxis
-            legend: {
-              x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-            }
-          }
-        );
-      }
-    }
+    "inverted": false
   },
   "tooltip": {
   "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
