@@ -99,7 +99,8 @@ plotOptions: {
   		"shared": true
 		   },
   "chart": {
-    "alignTicks": false
+    "alignTicks": false,
+     "width":665
   }
 }
 }());

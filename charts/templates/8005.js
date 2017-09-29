@@ -26,7 +26,7 @@
     "align": "left",
 	//"y": 40,
 	"x": 35,
-	itemWidth: 500,
+	itemWidth: 120,
 	"itemMarginBottom": 5,
     "itemStyle": {
     "fontWeight": "normal"
@@ -45,14 +45,14 @@
       "index": 2,
       "type": "column",
       "pointWidth": "15",
-      legendIndex: 2
+      legendIndex: 1
     },
     {
       "color": "#fabd24",
       "index": 1,
       "type": "column",
       "pointWidth": "15",
-      legendIndex: 1
+      legendIndex: 2
     },
     {
       "color": "#68AB2B",

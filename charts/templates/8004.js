@@ -2,6 +2,7 @@
     return {
    "chart": {
     "type": "area",
+     "width":665,
    },
   plotOptions: {
          area: {

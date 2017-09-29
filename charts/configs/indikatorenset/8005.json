@@ -266,7 +266,8 @@
       },
       "format": "{value:,.0f} %"
     },
-    "max": 100
+    "max": 100,
+    "tickInterval": 50
   },
   "navigation": {
     "menuItemStyle": {
@@ -300,7 +301,7 @@
     "verticalAlign": "top",
     "align": "left",
     "x": 35,
-    "itemWidth": 500,
+    "itemWidth": 120,
     "itemMarginBottom": 5
   },
   "dataLabels": {
