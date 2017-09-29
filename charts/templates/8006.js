@@ -41,9 +41,9 @@
                  name: "&nbsp;&nbsp;&nbsp;900 000 − &nbsp;&nbsp;&nbsp;999 999"
             },{
                 from: 1000000,
-                to: 1449999,
+                to: 1499999,
                  color: '#007A2F',
-                 name: "1 000 000 − 1 449 999"
+                 name: "1 000 000 − 1 499 999"
             },{
                 from: 1500000,
                 color: '#0A3B19',
