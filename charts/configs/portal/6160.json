@@ -108,9 +108,16 @@
     },
     "zoomType": "xy",
     "events": {
-      "load": function () {
-                    this.credits.element.onclick = function() {}
-                }
+      "load": function (){
+        this.update(
+          {
+            //move legend to x position of first yAxis
+            legend: {
+              x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+            }
+          }
+        );
+      }
     },
     "renderTo": "container-6160",
     "marginBottom": 75,
@@ -191,7 +198,6 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 45,
     "y": 20,
     "Itemwidth": 500,
     "itemStyle": {
