@@ -1,10 +1,10 @@
 var indikatorensetData = [
 	{
-		"title": "Anzahl privater Personenwagen pro Haushalt",
+		"title": "Test Daten: Anzahl privater Personenwagen pro Haushalt",
 		"subtitle": "",
 		"kuerzel": "I.11.1.05829",
-		"kuerzelKunde": "ST 11-2",
-		"description": "Anzahl privater Personenwagen pro Haushalt",
+		"kuerzelKunde": "Test ST 11-2",
+		"description": "Test Daten: Anzahl privater Personenwagen pro Haushalt",
 		"id": 9997,
 		"thema": "11 Verkehr",
 		"unterthema": "Motorfahrzeuge",
@@ -30,7 +30,7 @@ var indikatorensetData = [
 		"template": "mapcolumn002",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "11_00_00_00_00_002",
 		"parentId": 4918,
 		"children": [
@@ -116,7 +116,7 @@ var indikatorensetData = [
 		"template": "mappie002",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "11_00_00_00_00_002",
 		"parentId": 4918,
 		"children": [

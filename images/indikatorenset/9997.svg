@@ -340,7 +340,7 @@
     <g class="highcharts-markers highcharts-series-47 highcharts-column-series highcharts-color-0 " transform="translate(363,142) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;font-family:arial;fill:#000000;" y="21">
-    <tspan>Anzahl privater Personenwagen pro Haushalt</tspan>
+    <tspan>Test Daten: Anzahl privater Personenwagen pro Haushalt</tspan>
   </text>
   <g class="highcharts-data-labels highcharts-series-5 highcharts-mapline-series highcharts-color-undefined " visibility="visible" transform="translate(10,41) scale(1 1)" clip-path="url(#w)">
     <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(-Infinity,-Infinity)">
