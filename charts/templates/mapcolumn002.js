@@ -154,11 +154,12 @@
 			events: {
 				//hide svg elements on zoom
 				afterSetExtremes: function(e){
+					var divIdString = '#' + 'container-9997'; //e.target.chart.renderTo.id;
 					//only care about zoom events, not pan
 					if (e.trigger != 'pan'){
 						//determine current zoom level
 						var zoom = (e.dataMax - e.dataMin) / (e.max - e.min);
-						$('.columnLegendHideOnZoom').attr('visibility', zoom == 1 ? 'inherit' : 'hidden');
+						$(divIdString + ' .columnLegendHideOnZoom').attr('visibility', zoom == 1 ? 'inherit' : 'hidden');
 					}
 				}
 			}
@@ -412,9 +413,10 @@
             },
             
 
-			//Add click handler to bubbleLegend items
+			//Add click handler to bubbleLegend items 
 			AddColumnLegendClickHandler: function(chart){
-			    $('.columnLegend').click(function(){
+				var divIdString = '#' + 'container-9997';//chart.renderTo.id;
+			    $(divIdString + ' .columnLegend').click(function(){
 					//Toggle visible of mapcolumns
 					Highcharts.each(chart.series, function (series) {
 						if (series.userOptions.type == 'column'){
@@ -426,9 +428,9 @@
 					
 					
 					//if useHTMl is true, text is in span elements within DIVs classed .columnLegend. Add the class to these spans
-					$('.columnLegend>span').addClass('columnLegend').addClass('columnLegendHtmlText');
+					$(divIdString + ' .columnLegend>span').addClass('columnLegend').addClass('columnLegendHtmlText');
 					//toggle active state of legend elements
-					var columnLegendItems = $('.columnLegend');
+					var columnLegendItems = $(divIdString + ' .columnLegend');
 					//backup original color
 					columnLegendItems.each(function(i, v){
 						if (!$(this).attr('fill_active')) {
@@ -451,7 +453,7 @@
 							}
 						});
 						//same for html text spans
-						$('.columnLegendHtmlText').css('color', '#cccccc');
+						$(divIdString + ' .columnLegendHtmlText').css('color', '#cccccc');
 					} 
 					else {
 						columnLegendItems.each(function(i, v){
@@ -460,7 +462,7 @@
 							$(this).attr('stroke', $(this).attr('stroke_active'));	
 						});
 						//same for html text spans
-						$('.columnLegendHtmlText').css('color', 'black');
+						$(divIdString + ' .columnLegendHtmlText').css('color', 'black');
 					}
 				});
 			}      
