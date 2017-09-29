@@ -24,30 +24,31 @@
 				}
 		},
          colorAxis: {
-           dataClasses: [{
-                    to: 0.25,
-                    color: '#D7E8D2',
-                    name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;0,25"
-                }, {
-                    from: 0.25,
-                    to: 0.349,
-                    color: '#73B97C',
-                    name: "0,25 − 0,34"
-                }, {
-                    from: 0.35,
-                    to: 0.449,
-                     color: '#68AB2B',
-                     name: "0,35 − 0,44"
-                },{
-                    from: 0.45,
-                    to: 0.549,
-                    color: '#007A2F',
-                    name: "0,45 − 0,54"
-                },{
-                    from: 0.55,
-                    color: '#0A3B19',
-                    name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;0,55"
-                }], 
+            dataClassColor: 'category',
+                   dataClasses: [{
+                to: 0.2999,
+                color: '#D7E8D2',
+                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;0,30"
+            }, {
+                from: 0.3,
+                to:  0.3999,
+                color: '#73B97C',
+                name: "0,30 − 0,39"
+            }, {
+                from: 0.4,
+                to: 0.4999,
+                 color: '#68AB2B',
+                 name: "0,40 − 0,49"
+            },{
+                from: 0.5,
+                to: 0.5999,
+                 color: '#007A2F',
+                 name: "0,50 − 0,59"
+            },{
+                from: 0.6,
+                color: '#0A3B19',
+                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;0,60"
+            }], 
         },
         "data": {
 		    "seriesMapping": [
@@ -105,23 +106,23 @@
 					
 					//configuration of categorical pie sizes
 					var pieSizeCatConfig = 
-				[
+					[
 						{
-							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; < 0,50',
-							from: 0.00,
-							to: 0.50, 
+							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; < 0,30',
+							from: 0,
+							to: 0.2999, 
 							diameter: 2
 						},
 						{
-							name: '0,05 − 1,49',
-							from: 0.50,
-							to: 1.49,
+							name: ' 0,30 − 1,49',
+							from: 0.3,
+							to: 1.49999,
 							diameter: 8
 						},
 						{
-							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥ 1,50',
-							from: 1.50,							
-							to: 10.00,
+							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ≥ 1,50',
+							from: 1.5,							
+							to: 1000000,
 							diameter: 16
 						}
 					];

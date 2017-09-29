@@ -24,30 +24,31 @@
 				}
 		},
          colorAxis: {
-                        dataClasses: [{
-                    to: 4.9,
-                    color: '#D7E8D2',
-                     name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;<&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5,0"
-                }, {
-                    from: 5,
-                    to: 29.9,
-                    color: '#73B97C',
-                    name: "&nbsp;&nbsp;&nbsp;5,0 − &nbsp;&nbsp;29,9"
-                }, {
-                    from: 30,
-                    to: 69.9,
-                    color: '#68AB2B',
-                     name: "&nbsp;30,0 − &nbsp;&nbsp;69,9"
-                },{
-                    from: 70,
-                    to: 99.9,
-                    color: '#007A2F',
-                    name:"&nbsp;70,0 − &nbsp;&nbsp;99,9"
-                },{
-                    from: 100,
-                    color: '#0A3B19',
-                    name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp≥&nbsp100,0"
-                }],
+            dataClassColor: 'category',
+                   dataClasses: [{
+                to: 34.999,
+                color: '#D7E8D2',
+                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;&nbsp;&nbsp;35,0"
+            }, {
+                from: 35.0,
+                to: 79.999,
+                color: '#73B97C',
+                name: "&nbsp;&nbsp;35,0 − &nbsp;&nbsp;79,9"
+            }, {
+                from: 80.0,
+                to: 90.999,
+                 color: '#68AB2B',
+                 name: "&nbsp;&nbsp;80,0 − &nbsp;&nbsp;99,9"
+            },{
+                from: 100,
+                to: 149.999,
+                 color: '#007A2F',
+                 name: "100,0 − 149,9"
+            },{
+                from: 150,
+                color: '#0A3B19',
+                name:  "&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;150,0"
+            }], 
         },
         "data": {
 		    "seriesMapping": [
@@ -103,24 +104,25 @@
 					//pie diameters in px
 					var maxPieDiameter = 20;
 					
+					//configuration of categorical pie sizes
 					var pieSizeCatConfig = 
 					[
 						{
 							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; < 1,0',
-							from: 0.00,
-							to: 1.00, 
+							from: 0,
+							to: 0.999, 
 							diameter: 2
 						},
 						{
 							name: ' 1,0 − 2,9',
 							from: 1.0,
-							to: 2.99,
+							to: 2.999,
 							diameter: 8
 						},
 						{
 							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ≥ 3,0',
 							from: 3,							
-							to: 50,
+							to: 1000000,
 							diameter: 16
 						}
 					];
@@ -150,7 +152,7 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 	                //Add manually drawn legend
-	                fn.addLegendTitle(chart, choroplethSeries.name, 364, 200);
+	                fn.addLegendTitle(chart, choroplethSeries.name, 372, 200);
 	                fn.addLegendTitle(chart, pieSizeSeries.name, 460, 200);
 	                
 	                fn.addLegendCircle(chart, 473, 231, 0.5*pieSizeCatConfig[0].diameter, 'grey');

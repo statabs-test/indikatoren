@@ -48,7 +48,7 @@
       "index": 2,
       "type": "column",
       "pointWidth": "15",
-      "legendIndex": 2,
+      "legendIndex": 1,
       "data": [
         [
           "1990",
@@ -91,7 +91,7 @@
       "index": 1,
       "type": "column",
       "pointWidth": "15",
-      "legendIndex": 1,
+      "legendIndex": 2,
       "data": [
         [
           "1990",
