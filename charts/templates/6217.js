@@ -47,7 +47,7 @@
   {"color":"#007a2f", "index": 0, "marker": {"enabled": false}}, //grün
   ],  
   "tooltip": {
-    "shared": true
+    //"shared": true
   },
 };
 }());

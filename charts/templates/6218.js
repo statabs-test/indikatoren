@@ -9,9 +9,9 @@
         }
   },
   "yAxis": {
-  	//"min": -200,
+  	max: 100,
     "labels": {
-      "format": "{value:,.0f}",
+      "format": "{value:,.0f} %",
     }
   },
   "xAxis": {
@@ -53,9 +53,16 @@
       "pointWidth": "15",
       legendIndex: 2
     },
+    {
+      "color": "#68AB2B",
+      "index": 0,
+      "type": "column",
+      "pointWidth": "15",
+      legendIndex: 2
+    },    
   ],  
   "tooltip": {
-    "shared": true
+    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f} %</b><br/>',
   },
   /*"chart": {
     "marginBottom": 65,
@@ -64,3 +71,4 @@
   }*/
 };
 }());
+
