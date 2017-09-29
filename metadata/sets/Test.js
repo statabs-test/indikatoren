@@ -30,7 +30,7 @@ var indikatorensetData = [
 		"template": "mapcolumn002",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "11_00_00_00_00_002",
 		"parentId": 4918,
 		"children": [
@@ -73,7 +73,7 @@ var indikatorensetData = [
 		"template": "pie001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"parentId": null,
 		"children": [
 			"5869"
@@ -116,7 +116,7 @@ var indikatorensetData = [
 		"template": "mappie002",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "11_00_00_00_00_002",
 		"parentId": 4918,
 		"children": [

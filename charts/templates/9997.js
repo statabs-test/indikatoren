@@ -74,7 +74,7 @@
 				visible: false,
 				type: 'pie',
         		color: 'blue',
-        		borderColor: 'blue',
+        		borderColor: 'blue', 
 			}
 		],
 		chart: {

@@ -154,7 +154,9 @@
 			events: {
 				//hide svg elements on zoom
 				afterSetExtremes: function(e){
-					var divIdString = '#' + 'container-9997'; //e.target.chart.renderTo.id;
+					var divId = e['target']['chart']['renderTo']['id'] || 'dummySttingForExportServer';
+					var divIdString = '#' + divId;
+					divIdString = '';
 					//only care about zoom events, not pan
 					if (e.trigger != 'pan'){
 						//determine current zoom level
@@ -415,7 +417,9 @@
 
 			//Add click handler to bubbleLegend items 
 			AddColumnLegendClickHandler: function(chart){
-				var divIdString = '#' + 'container-9997';//chart.renderTo.id;
+				var divId = chart['renderTo']['id'] || 'dummySttingForExportServer';
+				var divIdString = '#' + divId;
+				divIdString = '';
 			    $(divIdString + ' .columnLegend').click(function(){
 					//Toggle visible of mapcolumns
 					Highcharts.each(chart.series, function (series) {
