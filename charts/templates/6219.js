@@ -17,7 +17,7 @@
 			"maxColor": "#4b7b1f",
 			"labels": {
 				"formatter": function () {
-					return Highcharts.numberFormat((this.value/1000000),0); 
+					return Highcharts.numberFormat((this.value/1000),0); 
 				}
 			}
 		},
@@ -117,7 +117,7 @@
 					fn.addLegendLabel(chart, 'Zunahme', 300, 245);
 					//fn.addLegendSquare(chart, 270, 275, 10, '#FABD24');
 					//fn.addLegendLabel(chart, 'Abnahme', 300, 270);
-					fn.addLegendLabelbold(chart, 'Bruttogeschossfläche in km²', 265, 300);
+					fn.addLegendLabelbold(chart, 'Bruttogeschossfläche in 1000 m²', 265, 300);
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
