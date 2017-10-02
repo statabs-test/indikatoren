@@ -105,7 +105,6 @@
 	"4292": "dotplot",
 	"4293": "dotplot",
 	"4294": "dotplot",
-	"4296": "dotplot",
 	"4298": "dotplot",
 	"4299": "dotplot",
 	"4300": "dotplot",
@@ -301,6 +300,8 @@
 	"6186": "befragungen001",
 	"6201": "line001",
 	"6202": "line001",
+	"6203": "mappie001",
+	"6204": "mappie001",
 	"6206": "line001",
 	"6211": "line001"
 }
