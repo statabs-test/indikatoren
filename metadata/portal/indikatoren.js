@@ -1,5 +1,223 @@
 var indikatoren = [
 	{
+		"title": "Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
+		"subtitle": "Basel-Stadt im nationalen Vergleich, Stand: 2015",
+		"kuerzel": "I.04.1.2501",
+		"kuerzelKunde": "1.2",
+		"description": "Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
+		"id": 2501,
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Volkseinkommen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton",
+			"Schweiz"
+		],
+		"aktualisierungsdatum": "2017-01-26T12:41:25.2525",
+		"schlagwort": [
+			"Arbeit",
+			"Standort",
+			"Kantonsvergleich"
+		],
+		"stufe1": "Schwerkpunkte 1: Wirtschaftsstandort stärken",
+		"stufe2": "Ziel 4: Life-Sciences-Region: Bedeutende Life-Sciences-Region",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Das reale Wertschöpfungswachstum im Gesundheits- und Sozialwesen war im Jahr 2015 für alle betrachteten Kantone stärker als in den anderen Branchen. Nur die chemische Industrie in Basel-Stadt verzeichnete eine deutlich höhere jährliche Wachstumsrate von fast 13%. Das Wachstum im Bereich Life Sciences belief sich in Basel-Stadt auf 3,3%.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_03_00_00_00_000",
+		"parentId": null,
+		"children": [
+			"6125"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"BAK Basel Economics"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Erleichterung zur Vereinbarkeit von Familie und Beruf (Bevölkerungsbefragung)",
+		"subtitle": "",
+		"kuerzel": "I.01.1.2952",
+		"kuerzelKunde": "4.3",
+		"description": "Erleichterung zur Vereinbarkeit von Familie und Beruf (Bevölkerungsbefragung)",
+		"id": 2952,
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-02-15T10:22:47.4747",
+		"schlagwort": [
+			"Einkommen",
+			"Erwerb",
+			"Erwerbstätigkeit"
+		],
+		"stufe1": "Schwerpunkt 7: Chancengleichheit",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "45,4% der Befragten sind der Meinung, dass es in Basel gute Teilzeitstellen gibt, so dass Väter und Mütter Beruf und Familie unter einen Hut bringen können. Männer stimmen dieser Aussage mit 49,5% häufiger zu als Frauen mit 41,9%. Seit 2003 ist die Einschätzung des Angebots an Teilzeitstellen kontinuierlich gestiegen: 2003 waren 36,8% sehr oder eher einverstanden mit der Aussage, 2015 liegt die Zustimmung bei 45,4%.",
+		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt.",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "07_00_00_00_00_000",
+		"parentId": null,
+		"children": [
+			"6145"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F16a_9"
+		],
+		"externalLinks": [
+			"Bearbeiten Sie diese Karte im <a href='https://basleratlas.ch/#i=ru_gruen.gruenflaeche_ant' target='_blank'>Basler Atlas</a>."
+		]
+	},
+	{
+		"title": "Anteil Befragte, die mit der Gesundheitsversorgung eher oder sehr zufrieden sind",
+		"subtitle": "«Wie zufrieden sind Sie mit der Gesundheitsversorgung?»",
+		"kuerzel": "I.50.1.2956",
+		"kuerzelKunde": "9.4",
+		"description": "Anteil Befragte, die mit der Gesundheitsversorgung eher oder sehr zufrieden sind",
+		"id": 2956,
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2016-12-14T12:19:48.4848",
+		"schlagwort": [
+			"Zufriedenheit",
+			"Gefühl",
+			"Spital",
+			"Patient"
+		],
+		"stufe1": "Schwerpunkt 9: Lebensqualität und Sicherheit",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "96,6% der Befragten sind sehr oder eher zufrieden mit der Gesundheitsversorgung.",
+		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt.",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "09_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_8"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Schulabgänger/-innen ohne Anschlusslösung nach Geschlecht",
+		"subtitle": "",
+		"kuerzel": "I.15.7.3051",
+		"kuerzelKunde": "3.1b",
+		"description": "Schulabgänger/-innen ohne Anschlusslösung nach Geschlecht",
+		"id": 3051,
+		"thema": "15 Bildung",
+		"unterthema": "Bildungsabschlüsse",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-02-16T13:43:21.2121",
+		"schlagwort": [
+			"Geschlecht",
+			"Bildung",
+			"Schule"
+		],
+		"stufe1": "Schwerpunkt 7: Chancengleichheit",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Jugendlichen der Abschlussklassen der Sekundarstufe I werden jeweils Ende Schuljahr schriftlich über ihren nächsten Ausbildungsschritt befragt. Nachdem sich die Mädchen bei der Suche nach einer Anschlusslösung bis 2010 vergleichsweise schwer getan haben, gelingt ihnen dies seit 2011 besser als den Knaben (Ausnahme 2012). Die Werte 2016 deuten darauf hin, dass die Jugendlichen wieder mehr Mühe haben, eine für sie passende Anschlusslösung zu finden.",
+		"erlaeuterungen": "Die Weiterbildungsschule läuft Ende Schuljahr 2017/18 aus.",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "07_00_00_00_00_000",
+		"parentId": null,
+		"children": [
+			"6135"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Globale und kontinentale Erreichbarkeit",
+		"subtitle": "Stadt Basel im nationalen Vergleich",
+		"kuerzel": "I.11.1.03104",
+		"kuerzelKunde": "5.1",
+		"description": "Globale und kontinentale Erreichbarkeit",
+		"id": 3104,
+		"thema": "11 Verkehr",
+		"unterthema": "Hotellerie",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2015-12-17T00:00:00.000",
+		"schlagwort": [
+			"EuroAirport",
+			"Auto",
+			"Standort",
+			"Kantonsvergleich"
+		],
+		"stufe1": "Schwerkpunkte 1: Wirtschaftsstandort stärken",
+		"stufe2": "Ziel 3:Drehscheibe für den Personen- und Güterverkehr in Europa",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die kontinentale Erreichbarkeit der Stadt Basel hat sich zwischen 2000 und 2014 verbessert. Die Entwicklung bei den anderen Schweizer Städte verläuft im gleichen Zeitraum identisch. Die Stadt Zürich bewegt sich auf einem höheren Niveau als Basel und Genf, die Stadt Bern liegt darunter. Die Entwicklung bei der globalen Erreichbarkeit verläuft bei allen Städten parallel und über die Jahre auf gleichbleibendem Niveau. Basel bewegt sich auch bei diesem indikator zusammen mit Genf wiederum zwischen dem Level von Zürich und Bern.",
+		"erlaeuterungen": "Bei der Kennzahl handelt es sich um einen indexierten Wert: 100 = Mittel aller einbezogenen Ursprungsregionen im Jahr 2002; dem globalen und kontinentalen Erreichbarkeitsmodell liegen Strassenerreichbarkeit, Bahnfahr- und Flugpläne zugrunde; globale Erreichbarkeit = Erreichbarkeit von Regionen ausserhalb Europas; kontinentale Erreichbarkeit = Erreichbarkeit aller Regionen Europas. Erreichbarkeit ist kein klares, lineares Konzept. Vielmehr beruht es auf einer Vielzahl von Faktoren, die unter dem Themenbereich Erreichbarkeit subsumiert werden können. Die Erreichbarkeitsmodelle von BAKBASEL basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren. Zudem folgen sie dem Konzept der Erreichbarkeit „aus der Region“ (outbound accessibility), d.h. es wird die Reisezeit und Frequenz herangezogen, die benötigt wird, um aus der Region andere Regionen zu erreichen. Der resultierende Indikator reflektiert das gesamte Potenzial aller Regionen ohne jegliche Limitierung der Reisezeit. Jedoch werden die Reisedestinationen über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet.",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_03_00_00_00_000",
+		"parentId": null,
+		"children": [
+			"5016",
+			"5826",
+			"5891"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"BAK Basel Economics"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Zufriedenheit mit dem Wohnungsangebot",
 		"subtitle": "«Wie zufrieden sind sie mit dem Wohnungsangebot?»",
 		"kuerzel": "I.50.1.4127",
@@ -4571,11 +4789,95 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Anteil Empfänger/-innen von Ergänzungsleistungen",
+		"title": "Transnationale Patentanmeldungen pro 1000 Einwohner 2010 bis 2013",
+		"subtitle": "nach ausgewählten Wirtschaftsbranchen",
+		"kuerzel": "I.04.1.5033",
+		"kuerzelKunde": "3.6",
+		"description": "Transnationale Patentanmeldungen pro 1000 Einwohner 2010 bis 2013",
+		"id": 5033,
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Volkseinkommen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2016-12-05T15:36:26.2626",
+		"schlagwort": [
+			"Bewilligung",
+			"Schule",
+			"Standort",
+			"Kantonsvergleich"
+		],
+		"stufe1": "Schwerkpunkte 2: Basel als Wissenszentrum positionieren",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Es werden die Patentanmeldungen pro Einwohner im Mittel über mehrere Jahre gezeigt. In Basel-Stadt werden am meisten Patente in der Pharmazeutischen Industrie angemeldet.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"BAK Basel Economics"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Kantonale Durchschnittsprämien je versicherte Person in Franken, Basel-Stadt im Vergleich zu BL, AG und SO",
 		"subtitle": "",
-		"kuerzel": "I.13.2.06180",
+		"kuerzel": "I.14.4.5065",
+		"kuerzelKunde": "9.1",
+		"description": "Kantonale Durchschnittsprämien je versicherte Person in Franken, Basel-Stadt im Vergleich zu BL, AG und SO",
+		"id": 5065,
+		"thema": "14 Gesundheit",
+		"unterthema": "Prävention, Praxen, Rettung",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton",
+			"Schweiz"
+		],
+		"aktualisierungsdatum": "2017-03-02T13:21:53.5353",
+		"schlagwort": [
+			"Bevölkerung",
+			"Spital",
+			"Kantonsvergleich"
+		],
+		"stufe1": "Schwerpunkt 9: Lebensqualität und Sicherheit",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die kantonale Durchschnittsprämie lag 2015 in basel-Stadt bei 4 515 Franken pro Person und damit gut 1 200 Franken über dem landesweiten Mittel. Der relative Anstieg seit 2006 beträgt in basel-Stadt 26% und damit ein Prozent weniger als in der gesamten Schweiz. Den höchsten Anstieg in den vergangenen 10 Jahren verzeichnete der Kanton Solothurn mit gut 38%.",
+		"erlaeuterungen": "1Für alle Versicherten für alle Versicherungsformen.",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "09_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Gesundheit (BAG)"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Anteil PV-Beziehende mit Sozialhilfe und Ergänzungsleistungen an der Bevölkerung",
+		"subtitle": "",
+		"kuerzel": "I.13.2.5066",
 		"kuerzelKunde": "11.1",
-		"description": "Anteil Empfänger/-innen von Ergänzungsleistungen",
+		"description": "Anteil PV-Beziehende mit Sozialhilfe und Ergänzungsleistungen an der Bevölkerung",
 		"id": 5066,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
@@ -4583,12 +4885,12 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-01-03T15:35:31.3131",
 		"schlagwort": [
 			"Bevölkerung",
 			"Hilfeleistung"
 		],
-		"stufe1": "",
+		"stufe1": "Schwerpunkt 9: Lebensqualität und Sicherheit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -4599,7 +4901,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "",
+		"orderKey": "09_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -5489,11 +5791,49 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "",
 		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Segregationsindex nach Staatsangehörigkeit",
+		"subtitle": "",
+		"kuerzel": "I.01.5.06152",
+		"kuerzelKunde": "4.11",
+		"description": "Segregationsindex nach Staatsangehörigkeit",
+		"id": 6152,
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wanderungen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Bevölkerung",
+			"Ausland"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "08_00_00_00_00_001",
+		"orderKey": "_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -5530,7 +5870,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "",
+		"orderKey": "_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -5569,7 +5909,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "",
+		"orderKey": "_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -5612,7 +5952,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "",
+		"orderKey": "_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -5627,7 +5967,7 @@ var indikatoren = [
 		"title": "Schulabgänger/-innen ohne Anschlusslösung nach Schultyp",
 		"subtitle": "",
 		"kuerzel": "I.15.7.06206",
-		"kuerzelKunde": "LP.7.26.3",
+		"kuerzelKunde": "3.1a",
 		"description": "Schulabgänger/-innen ohne Anschlusslösung nach Schultyp",
 		"id": 6206,
 		"thema": "15 Bildung",
@@ -5649,7 +5989,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Die Jugendlichen der Abschlussklassen der Sekundarstufe I werden jeweils Ende Schuljahr schriftlich über ihren nächsten Ausbildungsschritt befragt. Nachdem sich die Mädchen bei der Suche nach einer Anschlusslösung bis 2010 vergleichsweise schwer getan haben, gelingt ihnen dies seit 2011 besser als den Knaben (Ausnahme 2012). Die Werte 2016 deuten darauf hin, dass die Jugendlichen wieder mehr Mühe haben, eine für sie passende Anschlusslösung zu finden.",
 		"erlaeuterungen": "Die Weiterbildungsschule läuft Ende Schuljahr 2017/18 aus.",
-		"template": "template001",
+		"template": "line001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,

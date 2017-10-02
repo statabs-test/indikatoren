@@ -72,7 +72,6 @@
             this.credits.element.onclick = function() {};
               
             //for top-left legends with no x defined: move legend to x position of first yAxis
-            //console.log(this['legend']['options']['align']);
             if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
               this.update(
                 {
@@ -161,8 +160,8 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 25,
-    "y": 30,
+    "x": 20,
+    "y": 45,
     "width": 200,
     "itemStyle": {
       "fontWeight": "normal"

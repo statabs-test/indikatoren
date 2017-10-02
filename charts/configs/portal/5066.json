@@ -125,7 +125,6 @@
             this.credits.element.onclick = function() {};
               
             //for top-left legends with no x defined: move legend to x position of first yAxis
-            //console.log(this['legend']['options']['align']);
             if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
               this.update(
                 {
@@ -158,7 +157,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil Empfänger\u002F-innen von Ergänzungsleistungen"
+    "text": "Anteil PV-Beziehende mit Sozialhilfe und Ergänzungsleistungen an der Bevölkerung"
   },
   "subtitle": {
     "style": {
@@ -253,6 +252,6 @@
     "shared": true
   },
   "exporting": {
-    "filename": "I.13.2.06180"
+    "filename": "I.13.2.5066"
   }
 }

@@ -210,7 +210,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Denken Sie einmal an den letzten Kontakt, den Sie mit der kantonalen Verwaltung gehabt haben. Wie ist dieser Kontakt verlaufen?»"
+    "text": "«Denken Sie einmal an den letzten Kontakt, wo Sie mit der kantonalen Verwaltung gehabt haben. Wie ist dieser Kontakt verlaufen?»"
   },
   "navigation": {
     "menuItemStyle": {
@@ -230,7 +230,6 @@
   },
   "yAxis": {
     "tickInterval": 10,
-    "reversedStacks": false,
     "title": {
       "style": {
         "color": "#000000",
@@ -246,7 +245,7 @@
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
     "shared": false
   },
   "credits": {
@@ -265,20 +264,19 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F19a"
   },
   "legend": {
-    "reversed": true,
     "layout": "vertical",
     "verticalAlign": "middle",
     "itemMarginBottom": 5,
     "align": "right",
-    "useHTML": true,
+    "useHTML": false,
     "itemStyle": {
-      "fontWeight": "normal",
-      "width": 115
+      "fontWeight": "normal"
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
-        }
+        },
+    "reversed": true
   },
   "exporting": {
     "filename": "I.50.1.06186"

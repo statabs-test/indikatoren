@@ -1,5 +1,13 @@
 (function(){
     return {
+   plotOptions: {
+        series: {
+            pointPadding: 0,
+            borderWidth: 0,
+        }
+   },
+
+
     "data":{
   	"switchRowsAndColumns": true
   },

@@ -97,7 +97,7 @@
     </g>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Anteil Empfänger/-innen von Ergänzungsleistungen</tspan>
+    <tspan>Anteil PV-Beziehende mit Sozialhilfe und</tspan><tspan dy="17" x="10">Ergänzungsleistungen an der Bevölkerung</tspan><title>Anteil PV-Beziehende mit Sozialhilfe und Ergänzungsleistungen an der Bevölkerung</title>
   </text>
   <g class="highcharts-legend" transform="translate(50,50)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="335" height="49" visibility="visible"/>

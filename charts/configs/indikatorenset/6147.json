@@ -104,7 +104,7 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}"
+      "format": "{value:,.1f}"
     }
   },
   "xAxis": {

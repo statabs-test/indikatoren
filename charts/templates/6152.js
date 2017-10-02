@@ -15,71 +15,71 @@
   "series": [
     {"color": "#B00000",
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* dunkelrot */
     	{"color": "#007A2F",
 	visible:true,
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* dunkelgrün */
     	{"color": "#4f81bd",
 	visible:true,
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* dunkelblau */
     	{"color": "#662673",
 	visible:true,
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* dunkelviolett */
         {"color": "#7F5F1A",
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* dunkelbraun */
     	{"color": "#FABD24",
 	visible:true,
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* dunkelgelb */
     	{"color": "#3C3C3C",
 	visible:true,
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* schwarz */
     	{"color": "#2B0099",
 	visible:true,
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* dunkelblau */
     	{"color": "#E7CEE2",
 	visible:true,
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* hellviolett */
     	{"color": "#A8C3CA",
 	visible:true,
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* hellblau */
     	{"color": "#8AB77D",
 	visible:true,
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* hellgrün */
   ],
   "legend": {
-    "enabled": true,
+    "enabled": false,
     "x": 45,
     "y": 35,
     "itemWidth": 200,

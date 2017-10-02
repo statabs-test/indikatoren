@@ -147,7 +147,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "°C",
+    "text": "",
     "align": "left"
   },
   "tooltip": {
@@ -167,7 +167,7 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f} °C"
     }
   },
   "xAxis": {
