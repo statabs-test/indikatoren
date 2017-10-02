@@ -15,19 +15,20 @@
         },
         "borderColor": "#fbfbfb",
         "backgroundColor": "#fbfbfb",
-         "width": 641,
-    	"height": 415,
-        spacing: [2,2,2,2],
-        "style": {
-			"fontFamily": "Arial"
+       	"width": 320,
+    	"height": 208, 
+        spacing: [3,0,3,2],
+         "style": {
+			"fontFamily": "Arial",
+			"fontSize": "10px",
         },
         "zoomType": "xy",
         "type": "column"
     },    
     "title": {
         "style": {
-			"fontSize": "14px",
-			"fontWeight": "bold",
+			"fontSize": "10px",
+			"fontWeight": "normal",
 			"color": "#000000"
         },        
         "align": "left"
@@ -71,7 +72,8 @@
         "labels": {
             "format": "{value}%",
             "style": {
-            "color": "#000000"
+            "color": "#000000",
+           "fontSize": "10px"
             }
         }
     },
@@ -88,10 +90,11 @@
         },
         "labels": {
             "rotation": 0,
-            "style": {
+           "style": {
                 "color": "#000000",
-                "width": 1, 
-                "textOverflow": "none"
+                "width": 1,
+                "textOverflow": "none",
+                "fontSize": "10px",
             },
             "formatter": function() {
             	return this.value.replace(" ", "<br/>");
@@ -122,7 +125,10 @@
         "align": "right",
         "useHTML": true,
         "itemStyle": {
-            "fontWeight": "normal"
+        	"fontSize": "10px",
+        	fontFamily: "Arial",
+            "fontWeight": "normal",
+            "width": 95,
         },
         "symbolRadius": 0,
         "labelFormatter": function () {

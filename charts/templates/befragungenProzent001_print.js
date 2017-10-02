@@ -28,7 +28,7 @@
     "title": {
         "style": {
 			"fontSize": "10px",
-			"fontWeight": "bold",
+			"fontWeight": "normal",
 			"color": "#000000"
         },        
         "align": "left"

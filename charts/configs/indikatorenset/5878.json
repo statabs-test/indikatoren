@@ -3695,7 +3695,7 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 	                //Add manually drawn legend
-	                fn.addLegendTitle(chart, choroplethSeries.name, 372, 200);
+	                fn.addLegendTitle(chart, choroplethSeries.name, 341, 200);
 	                fn.addLegendTitle(chart, pieSizeSeries.name, 460, 200);
 	                
 	                fn.addLegendCircle(chart, 473, 231, 0.5*pieSizeCatConfig[0].diameter, 'grey');

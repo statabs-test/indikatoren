@@ -48,7 +48,7 @@
     "verticalAlign": "top",
     "align": "left",
 	"y": 40,
-	"x": 45,
+	//"x": 45,
 	"width": 300,
 	"itemMarginBottom": 5,
     "itemWidth": 120, 

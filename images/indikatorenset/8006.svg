@@ -233,7 +233,7 @@
       </text>
     </g>
   </g>
-  <g class="highcharts-label" transform="translate(372,200)">
+  <g class="highcharts-label" transform="translate(325,200)">
     <text x="3" style="font-size:10px;font-weight:bold;" y="13">
       2015
     </text>
@@ -293,7 +293,7 @@
           <div style="position: absolute; left: 0px; top: 0px; opacity: 1;">
             <div class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" style="position: absolute; left: 8px; top: 18px; opacity: 1;">
               <span style="font-family: arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(51, 51, 51); font-weight: normal; text-overflow: ellipsis; cursor: pointer; overflow: hidden; margin-left: 0px; margin-top: 0px; left: 21px; top: 3px; fill: #333333;" transform="translate(0,0)">
-                &lt; 599 999
+                &lt; 600 000
               </span>
             </div>
             <div class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" style="position: absolute; left: 8px; top: 48px; opacity: 1;">
