@@ -28,7 +28,7 @@
                    dataClasses: [{
                 to: 599999,
                 color: '#D7E8D2',
-                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;&nbsp;&nbsp; 599 999"
+                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;&nbsp;&nbsp; 600 000"
             }, {
                 from: 600000,
                 to: 899999,
@@ -152,7 +152,7 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 	                //Add manually drawn legend
-	                fn.addLegendTitle(chart, choroplethSeries.name, 372, 200);
+	                fn.addLegendTitle(chart, choroplethSeries.name, 325, 200);
 	                fn.addLegendTitle(chart, pieSizeSeries.name, 460, 200);
 	                
 	                fn.addLegendCircle(chart, 465, 231, 0.5*pieSizeCatConfig[0].diameter, 'grey');
