@@ -1083,14 +1083,13 @@
     "text": "Quelle: "
   },
   "legend": {
-    "enabled": false,
+    "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "x": 45,
     "y": 35,
-    "itemWidth": 200,
+    "itemWidth": 150,
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"
