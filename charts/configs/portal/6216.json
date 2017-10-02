@@ -2,8 +2,8 @@
   "series": [
     {
       "color": "#C8C8C8",
-      "index": 5,
-      "legendIndex": 5,
+      "index": 1,
+      "legendIndex": 1,
       "data": [
         [
           "ÖV-Angebot",
@@ -67,8 +67,8 @@
     },
     {
       "color": "#CD9C00",
-      "index": 4,
-      "legendIndex": 4,
+      "index": 2,
+      "legendIndex": 2,
       "data": [
         [
           "ÖV-Angebot",
@@ -197,8 +197,8 @@
     },
     {
       "color": "#73B97C",
-      "index": 2,
-      "legendIndex": 2,
+      "index": 4,
+      "legendIndex": 4,
       "data": [
         [
           "ÖV-Angebot",
@@ -262,8 +262,8 @@
     },
     {
       "color": "#007A2F",
-      "index": 1,
-      "legendIndex": 1,
+      "index": 5,
+      "legendIndex": 5,
       "data": [
         [
           "ÖV-Angebot",
