@@ -1,0 +1,227 @@
+{
+  "series": [
+    {
+      "color": "#B00000",
+      "legendIndex": 2,
+      "data": [
+        [
+          2011,
+          4385
+        ],
+        [
+          2012,
+          4189
+        ],
+        [
+          2013,
+          4109
+        ],
+        [
+          2014,
+          4089
+        ],
+        [
+          2015,
+          3959
+        ],
+        [
+          2016,
+          3940
+        ],
+        [
+          "Auswertung folgender 4 Bildungsinstitutionen: Allgemeine Gewerbeschule (AGS), Berufsfachschule (BFS), Schule für Gestaltung (SfG), Handelsschule KV (HKV); 2011-2013 JB-Zahlen; 2014-2016 SAS 06_Lernende_an_Berufsfachschulen",
+          null
+        ]
+      ],
+      "name": "Schweiz"
+    },
+    {
+      "color": "#008AC3",
+      "legendIndex": 0,
+      "data": [
+        [
+          2011,
+          1294
+        ],
+        [
+          2012,
+          1285
+        ],
+        [
+          2013,
+          1306
+        ],
+        [
+          2014,
+          1339
+        ],
+        [
+          2015,
+          1406
+        ],
+        [
+          2016,
+          1409
+        ],
+        [
+          "Auswertung folgender 4 Bildungsinstitutionen: Allgemeine Gewerbeschule (AGS), Berufsfachschule (BFS), Schule für Gestaltung (SfG), Handelsschule KV (HKV); 2011-2013 JB-Zahlen; 2014-2016 SAS 06_Lernende_an_Berufsfachschulen",
+          null
+        ]
+      ],
+      "name": "Ausland"
+    },
+    {
+      "color": "#3c3c3c",
+      "legendIndex": 1,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2011,
+          5679
+        ],
+        [
+          2012,
+          5474
+        ],
+        [
+          2013,
+          5415
+        ],
+        [
+          2014,
+          5428
+        ],
+        [
+          2015,
+          5365
+        ],
+        [
+          2016,
+          5349
+        ],
+        [
+          "Auswertung folgender 4 Bildungsinstitutionen: Allgemeine Gewerbeschule (AGS), Berufsfachschule (BFS), Schule für Gestaltung (SfG), Handelsschule KV (HKV); 2011-2013 JB-Zahlen; 2014-2016 SAS 06_Lernende_an_Berufsfachschulen",
+          null
+        ]
+      ],
+      "name": "Total"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-6209"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Anzahl Lernende an Basler Berufsfachschulen nach Herkunft"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E%\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    }
+  },
+  "xAxis": {
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -5
+    },
+    "text": "Quelle: "
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "symbolRadius": 0,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "filename": "I.15.3.06209"
+  }
+}

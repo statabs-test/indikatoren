@@ -36,7 +36,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 40,
+    //"x": 40,
 	"y": 65,    
     "itemStyle": {
       "fontWeight": "normal"

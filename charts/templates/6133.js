@@ -2,20 +2,20 @@
     return {
     "series": [
         {
-            "color": "#256370"
+            "color": "#2B0099" // dunkelblau
         },
         {
-            "color": "#71A3B5"
+            "color": "#B6CFD7" // hellblau
         },
         {
-            "color": "#FFBB58"
-        },
+            "color": "#3C3C3C" // grau
+        },  
         {
-            "color": "#8A8A8A"
-        }        
-  ],
+            "color": "#E6E600" //hellorange
+        },
+],
   "xAxis": {
-      "type": "category"
+      "type": "category",
   },
   "legend": {
       "reversed": true

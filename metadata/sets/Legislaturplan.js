@@ -653,7 +653,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "",
 		"erlaeuterungen": "",
-		"template": "template001",
+		"template": "befragungen001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
@@ -1108,7 +1108,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. Im Durchschnitt vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton eine 7,7.",
 		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt.",
-		"template": "template001",
+		"template": "befragungen001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
@@ -1196,6 +1196,43 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Transit durch die Region Basel in Brutto-Tonnen nach Verkehrsträger",
+		"subtitle": "",
+		"kuerzel": "I.06.4.06155",
+		"kuerzelKunde": "5.4",
+		"description": "Transit durch die Region Basel in Brutto-Tonnen nach Verkehrsträger",
+		"id": 6155,
+		"thema": "06 Produktion, Handel",
+		"unterthema": "Aussenhandel",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Mobilität"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
 		"externalLinks": [
 			""
 		]
@@ -2248,6 +2285,43 @@ var indikatorensetData = [
 		]
 	},
 	{
+		"title": "Anzahl Lernende an Basler Berufsfachschulen nach Herkunft",
+		"subtitle": "",
+		"kuerzel": "I.15.3.06209",
+		"kuerzelKunde": "3.2",
+		"description": "Anzahl Lernende an Basler Berufsfachschulen nach Herkunft",
+		"id": 6209,
+		"thema": "15 Bildung",
+		"unterthema": "Berufsfachschulen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Bildung"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": " Nettoschuldenquote in Promille des BIP der Schweiz und Nettoschulden pro Einwohner in Franken",
 		"subtitle": "",
 		"kuerzel": "I.04.1.06211",
@@ -2283,6 +2357,80 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Jahresbericht des Kantons Basel-Stadt"
 		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": " Bewertung der Lebensqualität nach Alter",
+		"subtitle": "",
+		"kuerzel": "I.50.1.06213",
+		"kuerzelKunde": "4.10b",
+		"description": " Bewertung der Lebensqualität nach Alter",
+		"id": 6213,
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Bevölkerung"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "befragungen001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Bewertung der Lebensqualität nach Einkommensklasse",
+		"subtitle": "",
+		"kuerzel": "I.50.1.06228",
+		"kuerzelKunde": "4.10c",
+		"description": "Bewertung der Lebensqualität nach Einkommensklasse",
+		"id": 6228,
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Bevölkerung"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "befragungen001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
 		"externalLinks": [
 			""
 		]

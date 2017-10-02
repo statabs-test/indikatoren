@@ -634,7 +634,6 @@
   "legend": {
     "symbolRadius": 0,
     "enabled": true,
-    "x": 45,
     "y": 35,
     "itemWidth": 100,
     "layout": "horizontal",

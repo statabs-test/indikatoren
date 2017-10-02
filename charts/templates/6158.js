@@ -23,7 +23,7 @@
     "labels": {
       "format": "{value:,.0f}",
        "style": {
-       "color": "red"
+       "color": "black"
         },
     },
     "min": 0,  },
@@ -34,7 +34,7 @@
     "labels": {
       "format": "{value:,.0f}",
        "style": {
-       "color": "red"
+       "color": "black"
         },
     },
     "min": 0,
@@ -71,7 +71,6 @@
   }, 
   "legend": {
     "enabled": true,
-    "x": 45,
     "y": 35,
     "layout": "horizontal",
     "verticalAlign": "top",

@@ -3,7 +3,7 @@
   "plotOptions": {
     "series": {
       "borderWidth": 0,
-      "pointWidth": 10,
+      "pointWidth": 30,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -14,7 +14,7 @@
   },
   "xAxis": {
     "type": "category",
-	"tickInterval": 2	
+	//"tickInterval": 1	
   },  
 "yAxis": [{
   	title: {
@@ -23,7 +23,7 @@
     "labels": {
       "format": "{value:,.0f}",
        "style": {
-       "color": "#000000"
+       "color": "black"
         },
     },
     "min": 0,  },
@@ -34,7 +34,7 @@
     "labels": {
       "format": "{value:,.0f}",
        "style": {
-       "color": "#000000"
+       "color": "black"
         },
     },
     "min": 0,
@@ -71,7 +71,6 @@
   }, 
   "legend": {
     "enabled": true,
-    "x": 45,
     "y": 35,
     "layout": "horizontal",
     "verticalAlign": "top",

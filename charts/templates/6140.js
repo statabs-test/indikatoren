@@ -29,14 +29,14 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 25,
+    //"x": 25,
 	"y": 55,    
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
    tooltip: {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y} %</b><br/>',
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f} %</b><br/>',
     "shared": false
   },
   "chart": {      

@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#256370",
+      "color": "#2B0099",
       "data": [
         [
           "2003 (N=1497)",
@@ -28,7 +28,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#71A3B5",
+      "color": "#B6CFD7",
       "data": [
         [
           "2003 (N=1497)",
@@ -55,34 +55,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FFBB58",
-      "data": [
-        [
-          "2003 (N=1497)",
-          58.3
-        ],
-        [
-          "2005 (N=1510)",
-          61.7
-        ],
-        [
-          "2007 (N=1509)",
-          69.7
-        ],
-        [
-          "2011 (N=1516)",
-          50.4
-        ],
-        [
-          "2015 (N=1506)",
-          37.1
-        ]
-      ],
-      "name": "Senken",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#8A8A8A",
+      "color": "#3C3C3C",
       "data": [
         [
           "2003 (N=1497)",
@@ -107,11 +80,40 @@
       ],
       "name": "Weiss nicht \u002F keine Angabe",
       "turboThreshold": 0
+    },
+    {
+      "color": "#E6E600",
+      "data": [
+        [
+          "2003 (N=1497)",
+          58.3
+        ],
+        [
+          "2005 (N=1510)",
+          61.7
+        ],
+        [
+          "2007 (N=1509)",
+          69.7
+        ],
+        [
+          "2011 (N=1516)",
+          50.4
+        ],
+        [
+          "2015 (N=1506)",
+          37.1
+        ]
+      ],
+      "name": "Senken",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
     "type": "category",
     "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
     "tickColor": "#FFFFFF",
     "title": {
       "style": {
@@ -183,6 +185,7 @@
   },
   "plotOptions": {
     "series": {
+      "borderWidth": 0,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -193,6 +196,9 @@
   },
   "yAxis": {
     "tickInterval": 10,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
     "title": {
       "style": {
         "color": "#000000",

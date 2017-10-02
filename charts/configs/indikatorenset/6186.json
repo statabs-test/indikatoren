@@ -1,96 +1,36 @@
 {
   "series": [
     {
-      "color": "#007A2F",
+      "color": "#999999",
+      "index": 2,
+      "data": [
+        [
+          "2003 (N=1497)",
+          16.6
+        ],
+        [
+          "2005 (N=1510)",
+          17.2
+        ],
+        [
+          "2007 (N=1509)",
+          21
+        ],
+        [
+          "2011 (N=1516)",
+          11.5
+        ],
+        [
+          "2015 (N=1506)",
+          14.3
+        ]
+      ],
+      "name": "Weiss nicht \u002F keine Angabe",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#dc440e",
       "index": 0,
-      "legendIndex": 0,
-      "data": [
-        [
-          "2003 (N=1497)",
-          26.1
-        ],
-        [
-          "2005 (N=1510)",
-          25.4
-        ],
-        [
-          "2007 (N=1509)",
-          22.1
-        ],
-        [
-          "2011 (N=1516)",
-          33
-        ],
-        [
-          "2015 (N=1506)",
-          31.1
-        ]
-      ],
-      "name": "Sehr positiv",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#73BA7C",
-      "index": 1,
-      "legendIndex": 1,
-      "data": [
-        [
-          "2003 (N=1497)",
-          41.3
-        ],
-        [
-          "2005 (N=1510)",
-          44.3
-        ],
-        [
-          "2007 (N=1509)",
-          42.3
-        ],
-        [
-          "2011 (N=1516)",
-          44.5
-        ],
-        [
-          "2015 (N=1506)",
-          42.6
-        ]
-      ],
-      "name": "Eher positiv",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#FFBB58",
-      "index": 3,
-      "legendIndex": 3,
-      "data": [
-        [
-          "2003 (N=1497)",
-          11.8
-        ],
-        [
-          "2005 (N=1510)",
-          8.8
-        ],
-        [
-          "2007 (N=1509)",
-          10.7
-        ],
-        [
-          "2011 (N=1516)",
-          8.8
-        ],
-        [
-          "2015 (N=1506)",
-          8.8
-        ]
-      ],
-      "name": "Eher negativ",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#FF8028",
-      "index": 4,
-      "legendIndex": 4,
       "data": [
         [
           "2003 (N=1497)",
@@ -117,38 +57,95 @@
       "turboThreshold": 0
     },
     {
-      "color": "#C8C8C8",
-      "index": 2,
-      "legendIndex": 2,
+      "color": "#ffbb58",
+      "index": 1,
       "data": [
         [
           "2003 (N=1497)",
-          16.6
+          11.8
         ],
         [
           "2005 (N=1510)",
-          17.2
+          8.8
         ],
         [
           "2007 (N=1509)",
-          21
+          10.7
         ],
         [
           "2011 (N=1516)",
-          11.5
+          8.8
         ],
         [
           "2015 (N=1506)",
-          14.3
+          8.8
         ]
       ],
-      "name": "Weiss nicht \u002F keine Angabe",
+      "name": "Eher negativ",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#68ab2b",
+      "index": 3,
+      "data": [
+        [
+          "2003 (N=1497)",
+          41.3
+        ],
+        [
+          "2005 (N=1510)",
+          44.3
+        ],
+        [
+          "2007 (N=1509)",
+          42.3
+        ],
+        [
+          "2011 (N=1516)",
+          44.5
+        ],
+        [
+          "2015 (N=1506)",
+          42.6
+        ]
+      ],
+      "name": "Eher positiv",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007a2f",
+      "index": 4,
+      "data": [
+        [
+          "2003 (N=1497)",
+          26.1
+        ],
+        [
+          "2005 (N=1510)",
+          25.4
+        ],
+        [
+          "2007 (N=1509)",
+          22.1
+        ],
+        [
+          "2011 (N=1516)",
+          33
+        ],
+        [
+          "2015 (N=1506)",
+          31.1
+        ]
+      ],
+      "name": "Sehr positiv",
       "turboThreshold": 0
     }
   ],
   "xAxis": {
     "type": "category",
     "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
     "tickColor": "#FFFFFF",
     "title": {
       "style": {
@@ -220,6 +217,7 @@
   },
   "plotOptions": {
     "series": {
+      "borderWidth": 0,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -230,6 +228,9 @@
   },
   "yAxis": {
     "tickInterval": 10,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
     "title": {
       "style": {
         "color": "#000000",
@@ -275,8 +276,7 @@
     "symbolRadius": 0,
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
-        },
-    "reversed": true
+        }
   },
   "exporting": {
     "filename": "I.50.1.06186"

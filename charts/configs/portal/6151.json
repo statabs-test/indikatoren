@@ -6,27 +6,63 @@
       "legendIndex": 9,
       "data": [
         [
-          "2003 (N=1497)",
-          6.36094674556213
+          "2003 männlich (N=1497)",
+          6.360946746
         ],
         [
-          "2005 (N=1510)",
-          5.42082738944365
+          "2003 weiblich",
+          9.61298377
         ],
         [
-          "2007 (N=1509)",
-          4.63096960926194
+          " ",
+          null
         ],
         [
-          "2011 (N=1516)",
-          9.79228486646884
+          "2005 männlich (N=1510)",
+          5.420827389
         ],
         [
-          "2015 (N=1506)",
-          9.41176470588235
+          "2005 weiblich",
+          8.010012516
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2007 männlich (N=1509)",
+          4.630969609
+        ],
+        [
+          "2007 weiblich",
+          9.023485785
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2011 männlich (N=1516)",
+          9.792284866
+        ],
+        [
+          "2011 weiblich",
+          16.32896305
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015 männlich (N=1506)",
+          9.411764706
+        ],
+        [
+          "2015 weiblich",
+          13.47342398
         ]
       ],
-      "name": "Note 10 männlich",
+      "name": "Note 10",
       "turboThreshold": 0
     },
     {
@@ -35,27 +71,63 @@
       "legendIndex": 8,
       "data": [
         [
-          "2003 (N=1497)",
-          9.61298377028714
+          "2003 männlich (N=1497)",
+          7.100591716
         ],
         [
-          "2005 (N=1510)",
-          8.01001251564456
+          "2003 weiblich",
+          6.991260924
         ],
         [
-          "2007 (N=1509)",
-          9.02348578491965
+          " ",
+          null
         ],
         [
-          "2011 (N=1516)",
-          16.3289630512515
+          "2005 männlich (N=1510)",
+          9.415121255
         ],
         [
-          "2015 (N=1506)",
-          13.4734239802225
+          "2005 weiblich",
+          10.51314143
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2007 männlich (N=1509)",
+          9.261939219
+        ],
+        [
+          "2007 weiblich",
+          11.86650185
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2011 männlich (N=1516)",
+          11.5727003
+        ],
+        [
+          "2011 weiblich",
+          10.72705602
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015 männlich (N=1506)",
+          15.88235294
+        ],
+        [
+          "2015 weiblich",
+          14.21508035
         ]
       ],
-      "name": "Note 10 weiblich",
+      "name": "Note 9",
       "turboThreshold": 0
     },
     {
@@ -64,27 +136,63 @@
       "legendIndex": 7,
       "data": [
         [
-          "2003 (N=1497)",
-          7.10059171597633
+          "2003 männlich (N=1497)",
+          41.56804734
         ],
         [
-          "2005 (N=1510)",
-          9.4151212553495
+          "2003 weiblich",
+          36.8289638
         ],
         [
-          "2007 (N=1509)",
-          9.26193921852388
+          " ",
+          null
         ],
         [
-          "2011 (N=1516)",
-          11.5727002967359
+          "2005 männlich (N=1510)",
+          37.23252496
         ],
         [
-          "2015 (N=1506)",
-          15.8823529411765
+          "2005 weiblich",
+          35.66958698
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2007 männlich (N=1509)",
+          38.49493488
+        ],
+        [
+          "2007 weiblich",
+          37.70086527
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2011 männlich (N=1516)",
+          42.13649852
+        ],
+        [
+          "2011 weiblich",
+          35.51847437
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015 männlich (N=1506)",
+          39.70588235
+        ],
+        [
+          "2015 weiblich",
+          39.55500618
         ]
       ],
-      "name": "Note 9 männlich",
+      "name": "Note 8",
       "turboThreshold": 0
     },
     {
@@ -93,27 +201,63 @@
       "legendIndex": 6,
       "data": [
         [
-          "2003 (N=1497)",
-          6.99126092384519
+          "2003 männlich (N=1497)",
+          24.26035503
         ],
         [
-          "2005 (N=1510)",
-          10.5131414267835
+          "2003 weiblich",
+          23.34581773
         ],
         [
-          "2007 (N=1509)",
-          11.8665018541409
+          " ",
+          null
         ],
         [
-          "2011 (N=1516)",
-          10.7270560190703
+          "2005 männlich (N=1510)",
+          25.24964337
         ],
         [
-          "2015 (N=1506)",
-          14.2150803461063
+          "2005 weiblich",
+          23.27909887
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2007 männlich (N=1509)",
+          28.07525326
+        ],
+        [
+          "2007 weiblich",
+          22.00247219
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2011 männlich (N=1516)",
+          22.84866469
+        ],
+        [
+          "2011 weiblich",
+          20.61978546
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015 männlich (N=1506)",
+          19.11764706
+        ],
+        [
+          "2015 weiblich",
+          18.66501854
         ]
       ],
-      "name": "Note 9 weiblich",
+      "name": "Note 7",
       "turboThreshold": 0
     },
     {
@@ -122,27 +266,63 @@
       "legendIndex": 5,
       "data": [
         [
-          "2003 (N=1497)",
-          41.5680473372781
+          "2003 männlich (N=1497)",
+          10.94674556
         ],
         [
-          "2005 (N=1510)",
-          37.2325249643367
+          "2003 weiblich",
+          8.739076155
         ],
         [
-          "2007 (N=1509)",
-          38.4949348769899
+          " ",
+          null
         ],
         [
-          "2011 (N=1516)",
-          42.1364985163205
+          "2005 männlich (N=1510)",
+          9.129814551
         ],
         [
-          "2015 (N=1506)",
-          39.7058823529412
+          "2005 weiblich",
+          9.887359199
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2007 männlich (N=1509)",
+          9.261939219
+        ],
+        [
+          "2007 weiblich",
+          8.158220025
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2011 männlich (N=1516)",
+          6.083086053
+        ],
+        [
+          "2011 weiblich",
+          6.197854589
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015 männlich (N=1506)",
+          6.617647059
+        ],
+        [
+          "2015 weiblich",
+          5.933250927
         ]
       ],
-      "name": "Note 8 männlich",
+      "name": "Note 6",
       "turboThreshold": 0
     },
     {
@@ -151,27 +331,63 @@
       "legendIndex": 4,
       "data": [
         [
-          "2003 (N=1497)",
-          36.8289637952559
+          "2003 männlich (N=1497)",
+          6.804733728
         ],
         [
-          "2005 (N=1510)",
-          35.6695869837297
+          "2003 weiblich",
+          11.360799
         ],
         [
-          "2007 (N=1509)",
-          37.7008652657602
+          " ",
+          null
         ],
         [
-          "2011 (N=1516)",
-          35.5184743742551
+          "2005 männlich (N=1510)",
+          9.129814551
         ],
         [
-          "2015 (N=1506)",
-          39.5550061804697
+          "2005 weiblich",
+          9.511889862
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2007 männlich (N=1509)",
+          6.512301013
+        ],
+        [
+          "2007 weiblich",
+          8.529048208
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2011 männlich (N=1516)",
+          5.044510386
+        ],
+        [
+          "2011 weiblich",
+          7.389749702
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015 männlich (N=1506)",
+          6.323529412
+        ],
+        [
+          "2015 weiblich",
+          6.180469716
         ]
       ],
-      "name": "Note 8 weiblich",
+      "name": "Note 5",
       "turboThreshold": 0
     },
     {
@@ -180,27 +396,63 @@
       "legendIndex": 3,
       "data": [
         [
-          "2003 (N=1497)",
-          24.2603550295858
+          "2003 männlich (N=1497)",
+          1.627218935
         ],
         [
-          "2005 (N=1510)",
-          25.2496433666191
+          "2003 weiblich",
+          1.498127341
         ],
         [
-          "2007 (N=1509)",
-          28.0752532561505
+          " ",
+          null
         ],
         [
-          "2011 (N=1516)",
-          22.8486646884273
+          "2005 männlich (N=1510)",
+          2.710413695
         ],
         [
-          "2015 (N=1506)",
-          19.1176470588235
+          "2005 weiblich",
+          1.376720901
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2007 männlich (N=1509)",
+          1.881331404
+        ],
+        [
+          "2007 weiblich",
+          1.606922126
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2011 männlich (N=1516)",
+          0.890207715
+        ],
+        [
+          "2011 weiblich",
+          1.668653159
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015 männlich (N=1506)",
+          1.176470588
+        ],
+        [
+          "2015 weiblich",
+          0.988875155
         ]
       ],
-      "name": "Note 7 männlich",
+      "name": "Note 4",
       "turboThreshold": 0
     },
     {
@@ -209,27 +461,63 @@
       "legendIndex": 2,
       "data": [
         [
-          "2003 (N=1497)",
-          23.3458177278402
+          "2003 männlich (N=1497)",
+          0.73964497
         ],
         [
-          "2005 (N=1510)",
-          23.279098873592
+          "2003 weiblich",
+          1.123595506
         ],
         [
-          "2007 (N=1509)",
-          22.0024721878863
+          " ",
+          null
         ],
         [
-          "2011 (N=1516)",
-          20.6197854588796
+          "2005 männlich (N=1510)",
+          0.998573466
         ],
         [
-          "2015 (N=1506)",
-          18.6650185414091
+          "2005 weiblich",
+          1.251564456
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2007 männlich (N=1509)",
+          1.447178003
+        ],
+        [
+          "2007 weiblich",
+          0.370828183
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2011 männlich (N=1516)",
+          1.18694362
+        ],
+        [
+          "2011 weiblich",
+          0.595947557
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015 männlich (N=1506)",
+          1.323529412
+        ],
+        [
+          "2015 weiblich",
+          0.618046972
         ]
       ],
-      "name": "Note 7 weiblich",
+      "name": "Note 3",
       "turboThreshold": 0
     },
     {
@@ -238,27 +526,63 @@
       "legendIndex": 1,
       "data": [
         [
-          "2003 (N=1497)",
-          10.9467455621302
+          "2003 männlich (N=1497)",
+          0
         ],
         [
-          "2005 (N=1510)",
-          9.12981455064194
+          "2003 weiblich",
+          0.374531835
         ],
         [
-          "2007 (N=1509)",
-          9.26193921852388
+          " ",
+          null
         ],
         [
-          "2011 (N=1516)",
-          6.08308605341246
+          "2005 männlich (N=1510)",
+          0.427960057
         ],
         [
-          "2015 (N=1506)",
-          6.61764705882353
+          "2005 weiblich",
+          0.125156446
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2007 männlich (N=1509)",
+          0.289435601
+        ],
+        [
+          "2007 weiblich",
+          0.247218789
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2011 männlich (N=1516)",
+          0.296735905
+        ],
+        [
+          "2011 weiblich",
+          0.238379023
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015 männlich (N=1506)",
+          0.147058824
+        ],
+        [
+          "2015 weiblich",
+          0.123609394
         ]
       ],
-      "name": "Note 6 männlich",
+      "name": "Note 2",
       "turboThreshold": 0
     },
     {
@@ -267,47 +591,105 @@
       "legendIndex": 0,
       "data": [
         [
-          "2003 (N=1497)",
-          8.73907615480649
+          "2003 männlich (N=1497)",
+          0.591715976
         ],
         [
-          "2005 (N=1510)",
-          9.88735919899875
+          "2003 weiblich",
+          0.124843945
         ],
         [
-          "2007 (N=1509)",
-          8.15822002472188
+          " ",
+          null
         ],
         [
-          "2011 (N=1516)",
-          6.19785458879619
+          "2005 männlich (N=1510)",
+          0.285306705
         ],
         [
-          "2015 (N=1506)",
-          5.93325092707046
+          "2005 weiblich",
+          0.375469337
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2007 männlich (N=1509)",
+          0.1447178
+        ],
+        [
+          "2007 weiblich",
+          0.494437577
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2011 männlich (N=1516)",
+          0.148367953
+        ],
+        [
+          "2011 weiblich",
+          0.715137068
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015 männlich (N=1506)",
+          0.294117647
+        ],
+        [
+          "2015 weiblich",
+          0.247218789
         ]
       ],
-      "name": "Note 6 weiblich",
+      "name": "Note 1",
       "turboThreshold": 0
     }
   ],
   "xAxis": {
     "type": "category",
     "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickColor": "#FFFFFF",
     "title": {
       "style": {
         "color": "#000000"
       }
     },
     "labels": {
+      "rotation": 0,
       "style": {
-        "color": "#000000"
-      }
-    },
-    "tickColor": "#FFFFFF",
-    "tickInterval": 1
+        "color": "#000000",
+        "width": 1,
+        "textOverflow": "none"
+      },
+      "formatter": function () {
+            	return this.value;
+            }
+    }
   },
   "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+            }
+    },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
@@ -317,38 +699,9 @@
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
-    "events": {
-      "load": function (){
-            this.credits.element.onclick = function() {};
-              
-            //for top-left legends with no x defined: move legend to x position of first yAxis
-            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-              this.update(
-                {
-                  legend: {
-                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                  }
-                }
-              );
-            }
-          }
-    },
-    "renderTo": "container-6151",
-    "marginBottom": 75,
-    "marginTop": 75,
     "type": "column",
-    "inverted": false
-  },
-  "plotOptions": {
-    "series": {
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      },
-      "pointWidth": 20,
-      "stacking": "normal"
-    }
+    "inverted": true,
+    "renderTo": "container-6151"
   },
   "title": {
     "style": {
@@ -362,14 +715,33 @@
   "subtitle": {
     "style": {
       "fontSize": "12px",
-      "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
-    "align": "left"
+    "align": "left",
+    "text": ""
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent"
+    }
   },
   "yAxis": {
+    "tickInterval": 25,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
     "title": {
       "style": {
         "color": "#000000",
@@ -378,18 +750,15 @@
       "text": null
     },
     "labels": {
+      "format": "{value}%",
       "style": {
         "color": "#000000"
-      },
-      "format": "{value:,.0f}%"
-    },
-    "max": 100
-  },
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
+      }
     }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "credits": {
     "enabled": true,
@@ -407,18 +776,18 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
   },
   "legend": {
-    "symbolRadius": 0,
     "layout": "vertical",
     "verticalAlign": "middle",
     "itemMarginBottom": 5,
     "align": "right",
+    "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal"
-    }
-  },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
+    },
+    "symbolRadius": 0,
+    "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        }
   },
   "exporting": {
     "filename": "I.50.1.06151"
