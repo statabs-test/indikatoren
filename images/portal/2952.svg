@@ -63,21 +63,21 @@
     <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined " visibility="hidden" transform="translate(53,112) scale(1 1)" clip-path="url(#a)"/>
     <g class="highcharts-markers highcharts-series-3 highcharts-column-series highcharts-color-undefined " visibility="hidden" transform="translate(53,112) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined " transform="translate(53,112) scale(1 1)" clip-path="url(#a)">
-      <rect x="10.5" y="126.5" width="21" height="98" fill="#8064a2" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="52.5" y="96.5" width="21" height="128" fill="#8064a2" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="94.5" y="127.5" width="21" height="97" fill="#8064a2" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="137.5" y="119.5" width="21" height="105" fill="#8064a2" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="179.5" y="136.5" width="21" height="88" fill="#8064a2" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="221.5" y="123.5" width="21" height="101" fill="#8064a2" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="263.5" y="111.5" width="21" height="113" fill="#8064a2" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="305.5" y="113.5" width="21" height="111" fill="#8064a2" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="348.5" y="130.5" width="21" height="94" fill="#8064a2" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="390.5" y="122.5" width="21" height="102" fill="#8064a2" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="8" y="127" width="26" height="98" fill="#8064a2" class="highcharts-point"/>
+      <rect x="51" y="97" width="25" height="128" fill="#8064a2" class="highcharts-point"/>
+      <rect x="93" y="128" width="25" height="97" fill="#8064a2" class="highcharts-point"/>
+      <rect x="135" y="120" width="25" height="105" fill="#8064a2" class="highcharts-point"/>
+      <rect x="177" y="137" width="26" height="88" fill="#8064a2" class="highcharts-point"/>
+      <rect x="219" y="124" width="26" height="101" fill="#8064a2" class="highcharts-point"/>
+      <rect x="262" y="112" width="25" height="113" fill="#8064a2" class="highcharts-point"/>
+      <rect x="304" y="114" width="25" height="111" fill="#8064a2" class="highcharts-point"/>
+      <rect x="346" y="131" width="25" height="94" fill="#8064a2" class="highcharts-point"/>
+      <rect x="388" y="123" width="26" height="102" fill="#8064a2" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-4 highcharts-column-series highcharts-color-undefined " transform="translate(53,112) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Vereinbarkeit von Familie und Beruf nach Heimat, Alter und</tspan><tspan dy="17" x="10">Geschlecht</tspan><title>Vereinbarkeit von Familie und Beruf nach Heimat, Alter und Geschlecht</title>
+    <tspan>Erleichterung zur Vereinbarkeit von Familie und Beruf</tspan><tspan dy="17" x="10">(Bevölkerungsbefragung)</tspan><title>Erleichterung zur Vereinbarkeit von Familie und Beruf (Bevölkerungsbefragung)</title>
   </text>
   <g class="highcharts-legend" transform="translate(50,75)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="334" height="25" visibility="visible"/>

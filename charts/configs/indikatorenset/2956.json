@@ -282,7 +282,9 @@
         "style": {
           "fontSize": "10px"
         }
-      }
+      },
+      "pointPadding": 0,
+      "borderWidth": 0
     }
   },
   "title": {
@@ -292,7 +294,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Zufriedeneheit mit der Gesundheitsversorgung am Wohnort"
+    "text": "Anteil Befragte, die mit der Gesundheitsversorgung eher oder sehr zufrieden sind"
   },
   "subtitle": {
     "style": {
@@ -301,7 +303,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "«Wie zufrieden sind Sie mit der Gesundheitsversorgung?»",
     "align": "left"
   },
   "yAxis": {
@@ -339,7 +341,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Bevölkerungsbefragung Basel-Stadt 2015, Frage F6"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_8"
   },
   "legend": {
     "symbolRadius": 0,
@@ -361,6 +363,6 @@
             return this.name;
         },
   "exporting": {
-    "filename": "I.50.1.06174"
+    "filename": "I.50.1.2956"
   }
 }

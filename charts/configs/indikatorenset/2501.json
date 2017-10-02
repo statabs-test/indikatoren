@@ -266,7 +266,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "BS im Vergleich mit ZH, GE, CH",
+    "text": "Basel-Stadt im nationalen Vergleich, Stand: 2015",
     "align": "left"
   },
   "yAxis": {
@@ -323,6 +323,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.04.1.06125"
+    "filename": "I.04.1.2501"
   }
 }

@@ -522,7 +522,9 @@
         "style": {
           "fontSize": "10px"
         }
-      }
+      },
+      "pointPadding": 0,
+      "borderWidth": 0
     }
   },
   "title": {

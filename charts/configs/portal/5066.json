@@ -146,7 +146,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil Empfänger\u002F-innen von Ergänzungsleistungen"
+    "text": "Anteil PV-Beziehende mit Sozialhilfe und Ergänzungsleistungen an der Bevölkerung"
   },
   "subtitle": {
     "style": {
@@ -241,6 +241,6 @@
     "shared": true
   },
   "exporting": {
-    "filename": "I.13.2.06180"
+    "filename": "I.13.2.5066"
   }
 }

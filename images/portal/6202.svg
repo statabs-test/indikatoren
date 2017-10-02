@@ -74,7 +74,10 @@
     <g class="highcharts-markers highcharts-series-4 highcharts-line-series highcharts-color-undefined " transform="translate(65,152) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Steuerbelastung durch Reingewinn- und Kapitalsteuern für</tspan><tspan dy="17" x="10">Kapitalgesellschaften und Genossenschaften: 1 000 000</tspan><title>Steuerbelastung durch Reingewinn- und Kapitalsteuern für Kapitalgesellschaften und Genossenschaften: 1 000 000</title>
+    <tspan>Steuerbelastung durch Reingewinn- und Kapitalsteuern für</tspan><tspan dy="17" x="10">Kapitalgesellschaften und Genossenschaften</tspan><title>Steuerbelastung durch Reingewinn- und Kapitalsteuern für Kapitalgesellschaften und Genossenschaften</title>
+  </text>
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="57">
+    <tspan>1 000 000</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(55,110)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="350" height="30" visibility="visible"/>

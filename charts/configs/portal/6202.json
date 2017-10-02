@@ -264,7 +264,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Steuerbelastung durch Reingewinn- und Kapitalsteuern für Kapitalgesellschaften und Genossenschaften: 1 000 000"
+    "text": "Steuerbelastung durch Reingewinn- und Kapitalsteuern für Kapitalgesellschaften und Genossenschaften"
   },
   "subtitle": {
     "style": {
@@ -273,7 +273,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "1 000 000",
     "align": "left"
   },
   "tooltip": {

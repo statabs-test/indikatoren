@@ -282,7 +282,9 @@
         "style": {
           "fontSize": "10px"
         }
-      }
+      },
+      "pointPadding": 0,
+      "borderWidth": 0
     }
   },
   "title": {
@@ -292,7 +294,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Vereinbarkeit von Familie und Beruf nach Heimat, Alter und Geschlecht"
+    "text": "Erleichterung zur Vereinbarkeit von Familie und Beruf (Bevölkerungsbefragung)"
   },
   "subtitle": {
     "style": {
@@ -361,6 +363,6 @@
             return this.name;
         },
   "exporting": {
-    "filename": "I.01.1.06145"
+    "filename": "I.01.1.2952"
   }
 }

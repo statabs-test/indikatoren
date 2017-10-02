@@ -763,22 +763,37 @@
     }
   ],
   "chart": {
-    "events": {
-      "load": function () {
-              this.credits.element.onclick = function() {}
-          }
-    },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
     "width": 485,
     "height": 415,
-    "spacingBottom": 45,
+    "spacingBottom": 30,
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line",
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function() {}
+                }
+    },
     "renderTo": "container-6131"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
   },
   "title": {
     "style": {
@@ -799,9 +814,20 @@
     "text": "",
     "align": "left"
   },
-  "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  "xAxis": {
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickColor": "#FFFFFF",
+    "tickInterval": 2
   },
   "yAxis": [
     {
@@ -833,17 +859,13 @@
       "opposite": true
     }
   ],
-  "xAxis": {
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "tickLength": 0,
-    "tickInterval": 2
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
   },
   "credits": {
-    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
     "style": {
       "color": "#000000",
@@ -859,27 +881,22 @@
     "text": "Quelle: "
   },
   "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
     "symbolRadius": 0,
+    "enabled": true,
     "x": 45,
     "y": 35,
     "itemWidth": 208,
+    "layout": "horizontal",
+    "verticalAlign": "top",
     "itemMarginBottom": 5,
+    "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
-  "plotOptions": {
-    "line": {
-      "connectNulls": true,
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
-    }
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "I.04.1.06131"

@@ -320,9 +320,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: "
+    "text": "Quelle: Bundesamt für Gesundheit (BAG)"
   },
   "legend": {
     "enabled": true,
@@ -347,6 +347,6 @@
     }
   },
   "exporting": {
-    "filename": "I.14.4.06171"
+    "filename": "I.14.4.5065"
   }
 }

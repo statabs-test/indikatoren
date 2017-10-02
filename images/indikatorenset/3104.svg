@@ -16,11 +16,14 @@
   <rect fill="none" class="highcharts-plot-background" x="43" y="144" width="432" height="205"/>
   <g class="highcharts-pane-group"/>
   <g class="highcharts-grid highcharts-xaxis-grid ">
-    <path fill="none" class="highcharts-grid-line" d="M 76.5 144 L 76.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 46.5 144 L 46.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 107.5 144 L 107.5 349" opacity="1"/>
     <path fill="none" class="highcharts-grid-line" d="M 167.5 144 L 167.5 349" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 258.5 144 L 258.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 228.5 144 L 228.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 288.5 144 L 288.5 349" opacity="1"/>
     <path fill="none" class="highcharts-grid-line" d="M 349.5 144 L 349.5 349" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 440.5 144 L 440.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 409.5 144 L 409.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 470.5 144 L 470.5 349" opacity="1"/>
   </g>
   <g class="highcharts-grid highcharts-yaxis-grid ">
     <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 43 349.5 L 475 349.5" opacity="1"/>
@@ -154,7 +157,7 @@
     <tspan>Globale und kontinentale Erreichbarkeit</tspan>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
-    <tspan>Basel im nationalen Vergleich</tspan>
+    <tspan>Stadt Basel im nationalen Vergleich</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(55,45)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="396" height="87" visibility="visible"/>
@@ -220,20 +223,29 @@
     </g>
   </g>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
-    <text x="77.48739495798574" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
-      <tspan>2001</tspan>
+    <text x="47.23529411765003" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      2000
+    </text>
+    <text x="107.73949579832144" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      2002
     </text>
     <text x="168.24369747899289" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
-      <tspan>2004</tspan>
+      2004
     </text>
-    <text x="259" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
-      <tspan>2007</tspan>
+    <text x="228.74789915966429" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      2006
+    </text>
+    <text x="289.25210084033574" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      2008
     </text>
     <text x="349.7563025210071" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
-      <tspan>2010</tspan>
+      2010
     </text>
-    <text x="440.5126050420143" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
-      <tspan>2013</tspan>
+    <text x="410.26050420167854" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      2012
+    </text>
+    <text x="462.78125" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      2014
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
@@ -254,6 +266,6 @@
     </text>
   </g>
   <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="400">
-    <tspan>Quelle: Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster</tspan>
+    <tspan>Quelle: BAK Basel Economics</tspan>
   </text>
 </svg>

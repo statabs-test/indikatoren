@@ -129,7 +129,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Transnationale Patentanmeldungen pro 1000 Einwohner nach Technologiefeld"
+    "text": "Transnationale Patentanmeldungen pro 1000 Einwohner 2010 bis 2013"
   },
   "subtitle": {
     "style": {
@@ -197,6 +197,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.04.1.06139"
+    "filename": "I.04.1.5033"
   }
 }
