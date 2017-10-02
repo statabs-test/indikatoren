@@ -6,19 +6,19 @@
       "data": [
         [
           2007,
-          3.8
+          3
         ],
         [
           2008,
-          3.4
+          2.8
         ],
         [
           2009,
-          3.9
+          2
         ],
         [
           2010,
-          4.3
+          3.5
         ],
         [
           2011,
@@ -43,6 +43,14 @@
         [
           2016,
           3.9
+        ],
+        [
+          2017,
+          4.9
+        ],
+        [
+          "Lesebeispiel: Jahr des Übertritts 2017 = Ende Schuljahr 2016\u002F17",
+          null
         ]
       ],
       "name": "Mädchen"
@@ -53,19 +61,19 @@
       "data": [
         [
           2007,
-          3
+          3.8
         ],
         [
           2008,
-          2.8
+          3.4
         ],
         [
           2009,
-          2
+          3.9
         ],
         [
           2010,
-          3.5
+          4.3
         ],
         [
           2011,
@@ -90,6 +98,14 @@
         [
           2016,
           5.9
+        ],
+        [
+          2017,
+          6.4
+        ],
+        [
+          "Lesebeispiel: Jahr des Übertritts 2017 = Ende Schuljahr 2016\u002F17",
+          null
         ]
       ],
       "name": "Knaben"
@@ -140,6 +156,14 @@
         [
           2016,
           5
+        ],
+        [
+          2017,
+          5.8
+        ],
+        [
+          "Lesebeispiel: Jahr des Übertritts 2017 = Ende Schuljahr 2016\u002F17",
+          null
         ]
       ],
       "name": "Total"

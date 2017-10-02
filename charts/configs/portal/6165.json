@@ -10,18 +10,18 @@
       "data": [
         [
           "2010",
-          890314
+          898113.313733464
         ],
         [
           "2012",
-          829830
+          831949.485219155
         ],
         [
           "2014",
-          747793
+          755094.785461333
         ]
       ],
-      "name": "CO  -Emissionen total (linke Skala)",
+      "name": "CO2-Emissionen total (linke Skala)",
       "turboThreshold": 0
     },
     {
@@ -45,10 +45,10 @@
         ],
         [
           "2014",
-          3.8
+          3.9
         ]
       ],
-      "name": "CO  -Emissionen pro Kopf (rechte Skala)",
+      "name": "CO2-Emissionen pro Kopf (rechte Skala)",
       "turboThreshold": 0
     }
   ],

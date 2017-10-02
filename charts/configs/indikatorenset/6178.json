@@ -5,27 +5,47 @@
       "index": 2,
       "data": [
         [
-          "2003",
-          "Weiss nicht \u002F keine Angabe männlich"
+          "2003 männlich (N=1497)",
+          0.003
         ],
         [
-          "2007",
-          null
+          "2003 weiblich",
+          0.001
         ],
         [
-          "2011",
-          null
+          "2005 männlich (N=1510)",
+          0
         ],
         [
-          "2015",
-          null
+          "2005 weiblich",
+          0.001
         ],
         [
-          "",
-          null
+          "2007 männlich (N=1509)",
+          0
+        ],
+        [
+          "2007 weiblich",
+          0.002
+        ],
+        [
+          "2011 männlich (N=1516)",
+          0
+        ],
+        [
+          "2011 weiblich",
+          0.001
+        ],
+        [
+          "2015 männlich (N=1506)",
+          0.001
+        ],
+        [
+          "2015 weiblich",
+          0.001
         ]
       ],
-      "name": "NA",
+      "name": "Weiss nicht \u002F keine Angabe",
       "turboThreshold": 0
     },
     {
@@ -33,27 +53,47 @@
       "index": 0,
       "data": [
         [
-          "2003",
-          "Weiss nicht \u002F keine Angabe weiblich"
+          "2003 männlich (N=1497)",
+          0.001
         ],
         [
-          "2007",
-          null
+          "2003 weiblich",
+          0.005
         ],
         [
-          "2011",
-          null
+          "2005 männlich (N=1510)",
+          0.003
         ],
         [
-          "2015",
-          null
+          "2005 weiblich",
+          0.003
         ],
         [
-          "",
-          null
+          "2007 männlich (N=1509)",
+          0.002
+        ],
+        [
+          "2007 weiblich",
+          0.003
+        ],
+        [
+          "2011 männlich (N=1516)",
+          0.003
+        ],
+        [
+          "2011 weiblich",
+          0.006
+        ],
+        [
+          "2015 männlich (N=1506)",
+          0.003
+        ],
+        [
+          "2015 weiblich",
+          0.007
         ]
       ],
-      "name": "NA",
+      "name": "Ganz unsicher",
       "turboThreshold": 0
     },
     {
@@ -61,27 +101,47 @@
       "index": 1,
       "data": [
         [
-          "2003",
-          "Ganz unsicher männlich"
+          "2003 männlich (N=1497)",
+          0.018
         ],
         [
-          "2007",
-          null
+          "2003 weiblich",
+          0.035
         ],
         [
-          "2011",
-          null
+          "2005 männlich (N=1510)",
+          0.018
         ],
         [
-          "2015",
-          null
+          "2005 weiblich",
+          0.028
         ],
         [
-          "",
-          null
+          "2007 männlich (N=1509)",
+          0.018
+        ],
+        [
+          "2007 weiblich",
+          0.032
+        ],
+        [
+          "2011 männlich (N=1516)",
+          0.02
+        ],
+        [
+          "2011 weiblich",
+          0.042
+        ],
+        [
+          "2015 männlich (N=1506)",
+          0.031
+        ],
+        [
+          "2015 weiblich",
+          0.046
         ]
       ],
-      "name": "NA",
+      "name": "Eher unsicher",
       "turboThreshold": 0
     },
     {
@@ -89,27 +149,47 @@
       "index": 3,
       "data": [
         [
-          "2003",
-          "Ganz unsicher weiblich"
+          "2003 männlich (N=1497)",
+          0.157
         ],
         [
-          "2007",
-          null
+          "2003 weiblich",
+          0.228
         ],
         [
-          "2011",
-          null
+          "2005 männlich (N=1510)",
+          0.169
         ],
         [
-          "2015",
-          null
+          "2005 weiblich",
+          0.218
         ],
         [
-          "",
-          null
+          "2007 männlich (N=1509)",
+          0.197
+        ],
+        [
+          "2007 weiblich",
+          0.246
+        ],
+        [
+          "2011 männlich (N=1516)",
+          0.193
+        ],
+        [
+          "2011 weiblich",
+          0.253
+        ],
+        [
+          "2015 männlich (N=1506)",
+          0.222
+        ],
+        [
+          "2015 weiblich",
+          0.268
         ]
       ],
-      "name": "NA",
+      "name": "Eher sicher",
       "turboThreshold": 0
     },
     {
@@ -117,27 +197,47 @@
       "index": 4,
       "data": [
         [
-          "2003",
-          "Eher unsicher: männlich"
+          "2003 männlich (N=1497)",
+          0.275
         ],
         [
-          "2007",
-          null
+          "2003 weiblich",
+          0.278
         ],
         [
-          "2011",
-          null
+          "2005 männlich (N=1510)",
+          0.275
         ],
         [
-          "2015",
-          null
+          "2005 weiblich",
+          0.284
         ],
         [
-          "",
-          null
+          "2007 männlich (N=1509)",
+          0.243
+        ],
+        [
+          "2007 weiblich",
+          0.258
+        ],
+        [
+          "2011 männlich (N=1516)",
+          0.228
+        ],
+        [
+          "2011 weiblich",
+          0.253
+        ],
+        [
+          "2015 männlich (N=1506)",
+          0.201
+        ],
+        [
+          "2015 weiblich",
+          0.221
         ]
       ],
-      "name": "NA",
+      "name": "Sehr sicher",
       "turboThreshold": 0
     }
   ],
@@ -158,7 +258,7 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-            	return this.value.replace(" ", "<br/>");
+            	return this.value;
             }
     }
   },
@@ -188,6 +288,7 @@
     },
     "zoomType": "xy",
     "type": "column",
+    "inverted": true,
     "renderTo": "container-6178"
   },
   "title": {
@@ -220,7 +321,9 @@
           "fontSize": "10px"
         }
       },
-      "stacking": "percent"
+      "stacking": "percent",
+      "pointPadding": 0,
+      "borderWidth": 0
     }
   },
   "yAxis": {

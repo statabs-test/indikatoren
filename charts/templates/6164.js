@@ -1,11 +1,11 @@
 (function(){
     return {
   "xAxis": {
-    "tickInterval": 1
+    "tickInterval": 2
   },
   "yAxis": {
 	"labels": {
-		"format": "{value:,.0f}"
+		"format": "{value:,.3f}"
 	}
   },	
   "tooltip": {
@@ -13,11 +13,11 @@
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   },
   "series": [
-    {"color": "#B00000",
+    {"color": "#2B0099",
       "marker": {
         "enabled": true
       }    
-    }, /* dunkelrot */
+    }, /* dunkelblau */
     	{"color": "#007A2F",
 	visible:true,
       "marker": {
@@ -27,7 +27,7 @@
   ],
   "legend": {
     "enabled": true,
-    "x": 45,
+    //"x": 45,
     "y": 35,
     "itemWidth": 500,
     "layout": "horizontal",
