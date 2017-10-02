@@ -82,7 +82,6 @@
             this.credits.element.onclick = function() {};
               
             //for top-left legends with no x defined: move legend to x position of first yAxis
-            //console.log(this['legend']['options']['align']);
             if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
               this.update(
                 {
@@ -136,7 +135,7 @@
       "labels": {
         "format": "{value:,.0f}",
         "style": {
-          "color": "#000000"
+          "color": "red"
         }
       },
       "min": 0
@@ -148,7 +147,7 @@
       "labels": {
         "format": "{value:,.0f}",
         "style": {
-          "color": "#000000"
+          "color": "red"
         }
       },
       "min": 0,

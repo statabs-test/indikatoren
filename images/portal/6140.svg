@@ -42,14 +42,14 @@
   <g class="highcharts-series-group">
     <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(44,102) scale(1 1)" clip-path="url(#a)">
       <rect x="29" y="204" width="43" height="59" fill="#CD9C00" class="highcharts-point"/>
-      <rect x="172" y="47" width="44" height="216" fill="#CD9C00" class="highcharts-point"/>
-      <rect x="316" y="237" width="43" height="26" fill="#CD9C00" class="highcharts-point"/>
+      <rect x="172" y="46" width="44" height="217" fill="#CD9C00" class="highcharts-point"/>
+      <rect x="316" y="238" width="43" height="25" fill="#CD9C00" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(44,102) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(44,102) scale(1 1)" clip-path="url(#a)">
-      <rect x="72" y="214" width="43" height="49" fill="#83522E" class="highcharts-point"/>
-      <rect x="216" y="73" width="43" height="190" fill="#83522E" class="highcharts-point"/>
-      <rect x="359" y="227" width="43" height="36" fill="#83522E" class="highcharts-point"/>
+      <rect x="72" y="213" width="43" height="50" fill="#83522E" class="highcharts-point"/>
+      <rect x="216" y="25" width="43" height="238" fill="#83522E" class="highcharts-point"/>
+      <rect x="359" y="228" width="43" height="35" fill="#83522E" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(44,102) scale(1 1)" clip-path="none"/>
   </g>

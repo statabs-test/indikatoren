@@ -65,6 +65,10 @@
         [
           2015,
           13.3
+        ],
+        [
+          2016,
+          13.5425589907328
         ]
       ],
       "name": "0 bis 17"
@@ -135,6 +139,10 @@
         [
           2015,
           9.8
+        ],
+        [
+          2016,
+          10.1807154350786
         ]
       ],
       "name": "18 bis 25"
@@ -205,6 +213,10 @@
         [
           2015,
           7.1
+        ],
+        [
+          2016,
+          7.49852635497782
         ]
       ],
       "name": "26 bis 35"
@@ -275,6 +287,10 @@
         [
           2015,
           8.3
+        ],
+        [
+          2016,
+          8.39597670725251
         ]
       ],
       "name": "36 bis 50"
@@ -344,6 +360,10 @@
         [
           2015,
           6.1
+        ],
+        [
+          2016,
+          6.35525994630217
         ]
       ],
       "name": "51 bis 65"
@@ -414,6 +434,10 @@
         [
           2015,
           0.2
+        ],
+        [
+          2016,
+          0.226215510100045
         ]
       ],
       "name": "66 u.m."
@@ -484,31 +508,16 @@
         [
           2015,
           7.1
+        ],
+        [
+          2016,
+          7.30960429508849
         ]
       ],
       "name": "Total"
     }
   ],
   "chart": {
-<<<<<<< HEAD
-=======
-    "events": {
-      "load": function () {
-              this.credits.element.onclick = function() {};
-              
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                    }
-                  }
-                );
-              }              
-          }
-    },
->>>>>>> da6a54f2b382971c5c07414feb603dd1155c97c0
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
@@ -519,9 +528,20 @@
     },
     "zoomType": "xy",
     "events": {
-      "load": function () {
-                    this.credits.element.onclick = function() {}
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
                 }
+              );
+            }
+          }
     },
     "renderTo": "container-6182"
   },

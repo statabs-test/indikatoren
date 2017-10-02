@@ -1,6 +1,15 @@
-Jahr	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-2003	Weiss nicht / keine Angabe männlich	Weiss nicht / keine Angabe weiblich	Ganz unsicher männlich	Ganz unsicher weiblich	Eher unsicher: männlich	Eher unsicher: weiblich	Sehr sicher männlich	Sehr sicher weiblich	Weiss nicht / keine Angabe total	Ganz unsicher total	Eher unsicher total	Eher sicher total	Sehr sicher total
-2007									0.3	0.6	5.3	38.5	55.2
-2011									0.2	0.5	5	44.3	50.1
-2015									0.1	0.9	6.2	44.7	48.2
-									0.2	1	7.6	49	42.2
+Jahr	Weiss nicht / keine Angabe	Ganz unsicher 	Eher unsicher	Eher sicher	Sehr sicher 
+2003 männlich (N=1497)	0.003	0.001	0.018	0.157	0.275
+2003 weiblich 	0.001	0.005	0.035	0.228	0.278
+.
+2005 männlich (N=1510)	0	0.003	0.018	0.169	0.275
+2005 weiblich 	0.001	0.003	0.028	0.218	0.284
+..
+2007 männlich (N=1509)	0	0.002	0.018	0.197	0.243
+2007 weiblich	0.002	0.003	0.032	0.246	0.258
+...
+2011 männlich (N=1516)	0	0.003	0.02	0.193	0.228
+2011 weiblich	0.001	0.006	0.042	0.253	0.253
+....
+2015 männlich (N=1506)	0.001	0.003	0.031	0.222	0.201
+2015 weiblich	0.001	0.007	0.046	0.268	0.221

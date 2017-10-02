@@ -29,6 +29,10 @@
           30.526315789473
         ],
         [
+          "60-69 J.",
+          45.1428571428571
+        ],
+        [
           "\u003E69 J.",
           45.962732919254
         ],
@@ -75,6 +79,10 @@
         [
           "50-59 J.",
           22.885572139303
+        ],
+        [
+          "60-69 J.",
+          26.7857142857143
         ],
         [
           "\u003E69 J.",
@@ -125,6 +133,10 @@
           29.186602870813
         ],
         [
+          "60-69 J.",
+          28.6516853932584
+        ],
+        [
           "\u003E69 J.",
           44.680851063829
         ],
@@ -173,6 +185,10 @@
           41.203703703703
         ],
         [
+          "60-69 J.",
+          37.5634517766497
+        ],
+        [
           "\u003E69 J.",
           56.862745098039
         ],
@@ -219,6 +235,10 @@
         [
           "50-59 J.",
           44.888888888888
+        ],
+        [
+          "60-69 J.",
+          42.7947598253275
         ],
         [
           "\u003E69 J.",
@@ -272,7 +292,6 @@
             this.credits.element.onclick = function() {};
               
             //for top-left legends with no x defined: move legend to x position of first yAxis
-            //console.log(this['legend']['options']['align']);
             if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
               this.update(
                 {

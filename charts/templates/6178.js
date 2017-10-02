@@ -1,8 +1,16 @@
 (function(){
     return {
-  "xAxis": {
-    "type": "category"
-  },
+    yAxis:{
+    	tickInterval: 25,
+    },
+	"xAxis": {
+        "type": "category",
+        "labels": {
+            "formatter": function() {
+            	return this.value;
+            }
+        } 
+    }, 
   "series": [
     {
       "color": "#999999",
@@ -24,6 +32,9 @@
       "color": "#007a2f",
       "index": 4
     }
-  ]
+  ],
+"chart": {      
+     "inverted": true,
+  },
 	}
 }());

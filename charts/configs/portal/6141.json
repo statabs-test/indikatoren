@@ -6,15 +6,23 @@
       "data": [
         [
           "2011",
-          14.91
+          14.87
         ],
         [
           "2012",
-          14.88
+          14.91
         ],
         [
           "2013",
-          14.27
+          14.45
+        ],
+        [
+          "2014",
+          14.45
+        ],
+        [
+          "2015",
+          14.84
         ]
       ],
       "name": "Industrie Total",
@@ -34,7 +42,15 @@
         ],
         [
           "2013",
-          1.79
+          1.83
+        ],
+        [
+          "2014",
+          1.86
+        ],
+        [
+          "2015",
+          1.74
         ]
       ],
       "name": "Dienstleistungen Total",
@@ -72,7 +88,6 @@
             this.credits.element.onclick = function() {};
               
             //for top-left legends with no x defined: move legend to x position of first yAxis
-            //console.log(this['legend']['options']['align']);
             if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
               this.update(
                 {

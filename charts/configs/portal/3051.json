@@ -6,19 +6,19 @@
       "data": [
         [
           2007,
-          3.8
+          3
         ],
         [
           2008,
-          3.4
+          2.8
         ],
         [
           2009,
-          3.9
+          2
         ],
         [
           2010,
-          4.3
+          3.5
         ],
         [
           2011,
@@ -43,6 +43,14 @@
         [
           2016,
           3.9
+        ],
+        [
+          2017,
+          4.9
+        ],
+        [
+          "Lesebeispiel: Jahr des Übertritts 2017 = Ende Schuljahr 2016\u002F17",
+          null
         ]
       ],
       "name": "Mädchen"
@@ -53,19 +61,19 @@
       "data": [
         [
           2007,
-          3
+          3.8
         ],
         [
           2008,
-          2.8
+          3.4
         ],
         [
           2009,
-          2
+          3.9
         ],
         [
           2010,
-          3.5
+          4.3
         ],
         [
           2011,
@@ -90,6 +98,14 @@
         [
           2016,
           5.9
+        ],
+        [
+          2017,
+          6.4
+        ],
+        [
+          "Lesebeispiel: Jahr des Übertritts 2017 = Ende Schuljahr 2016\u002F17",
+          null
         ]
       ],
       "name": "Knaben"
@@ -140,6 +156,14 @@
         [
           2016,
           5
+        ],
+        [
+          2017,
+          5.8
+        ],
+        [
+          "Lesebeispiel: Jahr des Übertritts 2017 = Ende Schuljahr 2016\u002F17",
+          null
         ]
       ],
       "name": "Total"
@@ -148,7 +172,18 @@
   "chart": {
     "events": {
       "load": function () {
-              this.credits.element.onclick = function() {}
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
           }
     },
     "borderColor": "#fbfbfb",
@@ -160,28 +195,7 @@
     "style": {
       "fontFamily": "Arial"
     },
-<<<<<<< HEAD
     "type": "line",
-=======
-    "zoomType": "xy",
-    "events": {
-      "load": function (){
-            this.credits.element.onclick = function() {};
-              
-            //for top-left legends with no x defined: move legend to x position of first yAxis
-            //console.log(this['legend']['options']['align']);
-            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-              this.update(
-                {
-                  legend: {
-                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                  }
-                }
-              );
-            }
-          }
-    },
->>>>>>> da6a54f2b382971c5c07414feb603dd1155c97c0
     "renderTo": "container-3051"
   },
   "title": {

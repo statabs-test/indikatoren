@@ -5,15 +5,15 @@
       "data": [
         [
           "2000",
-          13.647516978264
+          13.3752315217908
         ],
         [
           "2003",
-          15.111481182909
+          14.912066697781
         ],
         [
           "2008",
-          14.476412100698
+          14.4737677173683
         ]
       ],
       "name": "Über Grenzwert am Tag in %",
@@ -24,15 +24,15 @@
       "data": [
         [
           "2000",
-          17.165592827705
+          17.040003799332
         ],
         [
           "2003",
-          19.591942806228
+          19.4010140438712
         ],
         [
           "2008",
-          16.164586418447
+          16.2354558916861
         ]
       ],
       "name": "Über Grenzwert in der Nacht in %",
@@ -43,15 +43,15 @@
       "data": [
         [
           "2000",
-          26.235970175244
+          25.9573524988523
         ],
         [
           "2003",
-          25.986995629852
+          25.6311256311256
         ],
         [
           "2008",
-          24.549925957266
+          24.5657922572456
         ]
       ],
       "name": "Über 50 dB (A) in der Nacht in %",
@@ -74,25 +74,6 @@
     "tickColor": "#FFFFFF"
   },
   "chart": {
-<<<<<<< HEAD
-=======
-    "events": {
-      "load": function () {
-              this.credits.element.onclick = function() {};
-              
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                    }
-                  }
-                );
-              }              
-          }
-    },
->>>>>>> da6a54f2b382971c5c07414feb603dd1155c97c0
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
@@ -103,9 +84,20 @@
     },
     "zoomType": "xy",
     "events": {
-      "load": function () {
-                    this.credits.element.onclick = function() {}
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
                 }
+              );
+            }
+          }
     },
     "type": "column",
     "inverted": false,
