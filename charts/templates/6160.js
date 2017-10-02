@@ -29,12 +29,11 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 45,
-	"y": 20,
-	"Itemwidth": 500,
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
+	  "y": 20,
+  	"Itemwidth": 500,
+      "itemStyle": {
+        "fontWeight": "normal"
+      }
   },
   "series": [
   {"color": "#B00000", "index": 4}, /*rot */
