@@ -282,7 +282,7 @@
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
         },
-    "y": 50,
+    "y": 70,
     "itemWidth": 220,
     "enabled": true
   },

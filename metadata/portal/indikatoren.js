@@ -129,11 +129,11 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Schulabgänger/-innen ohne Anschlusslösung nach Geschlecht",
-		"subtitle": "",
+		"title": "Schulabgänger/-innen ohne Anschlusslösung",
+		"subtitle": "nach Geschlecht",
 		"kuerzel": "I.15.7.3051",
 		"kuerzelKunde": "3.1b",
-		"description": "Schulabgänger/-innen ohne Anschlusslösung nach Geschlecht",
+		"description": "Schulabgänger/-innen ohne Anschlusslösung",
 		"id": 3051,
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsabschlüsse",
@@ -6001,11 +6001,11 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Schulabgänger/-innen ohne Anschlusslösung nach Schultyp",
-		"subtitle": "",
+		"title": "Schulabgänger/-innen ohne Anschlusslösung",
+		"subtitle": "nach Schultyp",
 		"kuerzel": "I.15.7.06206",
 		"kuerzelKunde": "3.1a",
-		"description": "Schulabgänger/-innen ohne Anschlusslösung nach Schultyp",
+		"description": "Schulabgänger/-innen ohne Anschlusslösung",
 		"id": 6206,
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsabschlüsse",
@@ -6043,7 +6043,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anzahl Lernende an Basler Berufsfachschulen nach Herkunft",
-		"subtitle": "",
+		"subtitle": "nach Herkunft",
 		"kuerzel": "I.15.3.06209",
 		"kuerzelKunde": "3.2",
 		"description": "Anzahl Lernende an Basler Berufsfachschulen nach Herkunft",

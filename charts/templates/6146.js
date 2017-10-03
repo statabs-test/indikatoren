@@ -1,7 +1,7 @@
 (function(){
     return {
   "legend": {
-  	y: 50,
+  	y: 70,
   	itemWidth: 220,
     "enabled": true,
     "layout": "horizontal",

@@ -173,11 +173,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Schulabgänger/-innen ohne Anschlusslösung nach Geschlecht",
-		"subtitle": "",
+		"title": "Schulabgänger/-innen ohne Anschlusslösung",
+		"subtitle": "nach Geschlecht",
 		"kuerzel": "I.15.7.3051",
 		"kuerzelKunde": "3.1b",
-		"description": "Schulabgänger/-innen ohne Anschlusslösung nach Geschlecht",
+		"description": "Schulabgänger/-innen ohne Anschlusslösung",
 		"id": 3051,
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsabschlüsse",
@@ -1108,7 +1108,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. Im Durchschnitt vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton eine 7,7.",
 		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt.",
-		"template": "template001",
+		"template": "befragungen001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
@@ -1275,11 +1275,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "CO2-Emissionen in Tonnen und Tonnen pro Kopf",
+		"title": "CO2-Emissionen Verkehr",
 		"subtitle": "",
 		"kuerzel": "I.02.5.06158",
 		"kuerzelKunde": "5.6",
-		"description": "CO2-Emissionen in Tonnen und Tonnen pro Kopf",
+		"description": "CO2-Emissionen",
 		"id": 6158,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Luftschadstoffe",
@@ -1515,7 +1515,7 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "CO2-Emissionen in Tonnen und Tonnen pro Kopf",
+		"title": "CO2-Emissionen",
 		"subtitle": "",
 		"kuerzel": "I.02.5.06165",
 		"kuerzelKunde": "7.5",
@@ -1743,7 +1743,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "2015 erhalten etwas mehr als ein Viertel der in Basel-Stadt<br>wohnhaften Personen Prämienverbilligung",
 		"erlaeuterungen": "",
-		"template": "template001",
+		"template": "line001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
@@ -1917,7 +1917,7 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. Reiner Prämienverbilligung",
+		"title": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. reiner Prämienverbilligung",
 		"subtitle": "",
 		"kuerzel": "I.13.2.06181",
 		"kuerzelKunde": "11.2",
@@ -2244,11 +2244,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Schulabgänger/-innen ohne Anschlusslösung nach Schultyp",
-		"subtitle": "",
+		"title": "Schulabgänger/-innen ohne Anschlusslösung",
+		"subtitle": "nach Schultyp",
 		"kuerzel": "I.15.7.06206",
 		"kuerzelKunde": "3.1a",
-		"description": "Schulabgänger/-innen ohne Anschlusslösung nach Schultyp",
+		"description": "Schulabgänger/-innen ohne Anschlusslösung",
 		"id": 6206,
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsabschlüsse",
@@ -2286,7 +2286,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anzahl Lernende an Basler Berufsfachschulen nach Herkunft",
-		"subtitle": "",
+		"subtitle": "nach Herkunft",
 		"kuerzel": "I.15.3.06209",
 		"kuerzelKunde": "3.2",
 		"description": "Anzahl Lernende an Basler Berufsfachschulen nach Herkunft",

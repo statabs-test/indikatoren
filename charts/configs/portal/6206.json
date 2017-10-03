@@ -295,7 +295,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Schulabgänger\u002F-innen ohne Anschlusslösung nach Schultyp"
+    "text": "Schulabgänger\u002F-innen ohne Anschlusslösung"
   },
   "subtitle": {
     "style": {
@@ -304,7 +304,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "nach Schultyp",
     "align": "left"
   },
   "tooltip": {

@@ -14,16 +14,16 @@
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   },
   "series": [
-    {"color": "#b00000 ",
+    {"color": "#008AC3 ",
+      "marker": {
+        "enabled": true
+      }    
+    }, /* blau */
+	{"color": "#B00000",
       "marker": {
         "enabled": true
       }    
     }, /* rot */
-	{"color": "#672773",
-      "marker": {
-        "enabled": true
-      }    
-    }, /* violett */
   ],
   "legend": {
     "enabled": true,

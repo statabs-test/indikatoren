@@ -21,7 +21,7 @@
           747793
         ]
       ],
-      "name": "CO  -Emissionen total (linke Skala)",
+      "name": "CO  -Emissionen in Tonnen total (linke Skala)",
       "turboThreshold": 0
     },
     {
@@ -48,7 +48,7 @@
           3.8
         ]
       ],
-      "name": "CO  -Emissionen pro Kopf (rechte Skala)",
+      "name": "CO  -Emissionen in Tonnen pro Kopf (rechte Skala)",
       "turboThreshold": 0
     }
   ],
@@ -115,7 +115,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "CO2-Emissionen in Tonnen und Tonnen pro Kopf"
+    "text": "CO2-Emissionen Verkehr"
   },
   "subtitle": {
     "style": {
