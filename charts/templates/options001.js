@@ -73,4 +73,11 @@ Highcharts.seriesType('mappie', 'pie', {}, {});
 Highcharts.seriesType('mapcolumn', 'columnrange', {}, {});
 					
 					
+					
+//add polyfill for ie, see https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Math/sign                    	
+if (!Math.sign) {
+  Math.sign = function(x) {
+    return ((x > 0) - (x < 0)) || +x;
+  };
+}					
 
