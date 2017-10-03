@@ -8602,11 +8602,11 @@
 		]
 	},
 	{
-		"title": "Transnationale Patentanmeldungen pro 1000 Einwohner 2010 bis 2013",
-		"subtitle": "nach ausgewählten Wirtschaftsbranchen",
+		"title": "Transnationale Patentanmeldungen pro 1000 Einwohner",
+		"subtitle": "nach ausgewählten Wirtschaftsbranchen;  Stand 2010 bis 2013",
 		"kuerzel": "I.04.1.5033",
 		"kuerzelKunde": "3.6",
-		"description": "Transnationale Patentanmeldungen pro 1000 Einwohner 2010 bis 2013",
+		"description": "Transnationale Patentanmeldungen pro 1000 Einwohner",
 		"id": 5033,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
@@ -9816,6 +9816,45 @@
 		]
 	},
 	{
+		"title": "NFA-Ressourcenindex",
+		"subtitle": "Basel-Stadt im kantonalen Vergleich",
+		"kuerzel": "I.04.1.06129",
+		"kuerzelKunde": "2.1",
+		"description": "NFA-Ressourcenindex",
+		"id": 6129,
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Volkseinkommen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Einkommen"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [
+			"6157"
+		],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Steuerbelastung durch Reingewinn- und Kapitalsteuern für Kapitalgesellschaften und Genossenschaften",
 		"subtitle": "80 000",
 		"kuerzel": "I.04.1.06130",
@@ -10214,6 +10253,43 @@
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Bevölkerung nach sozioprofessioneller Kategorie",
+		"subtitle": "",
+		"kuerzel": "I.01.1.06144",
+		"kuerzelKunde": "4.2",
+		"description": "Bevölkerung nach sozioprofessioneller Kategorie",
+		"id": 6144,
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur ",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Bevölkerung"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
 		"externalLinks": [
 			""
 		]

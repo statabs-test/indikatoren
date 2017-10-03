@@ -1,68 +1,60 @@
 {
   "series": [
     {
-      "color": "#83522E",
-      "visible": true,
+      "marker": {
+        "symbol": "circle",
+        "enabled": true
+      },
+      "color": "#8b2223",
       "data": [
         [
-          "2006",
+          2006,
           52177
         ],
         [
-          "2007",
+          2007,
           50528
         ],
         [
-          "2008",
+          2008,
           49684
         ],
         [
-          "2009",
+          2009,
           51915
         ],
         [
-          "2010",
+          2010,
           51485
         ],
         [
-          "2011",
+          2011,
           52341
         ],
         [
-          "2012",
+          2012,
           53403
         ],
         [
-          "2013",
+          2013,
           54294
         ],
         [
-          "2014",
+          2014,
           50302
         ],
         [
-          "2015",
+          2015,
           50633
         ],
         [
-          "2016",
+          2016,
           51229
         ]
       ],
-      "name": "PV-Beziehende",
-      "turboThreshold": 0
+      "name": "PV-Beziehende"
     }
   ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": false,
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "tickLength": 0
-  },
   "chart": {
     "events": {
       "load": function () {
@@ -85,12 +77,11 @@
     "zoomType": "xy",
     "width": 485,
     "height": 415,
-    "spacingBottom": 40,
+    "spacingBottom": 45,
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "column",
-    "inverted": false,
+    "type": "line",
     "renderTo": "container-6173"
   },
   "title": {
@@ -114,7 +105,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
     "min": 0,
@@ -131,6 +122,15 @@
       },
       "format": "{value:,.0f}"
     }
+  },
+  "xAxis": {
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -150,14 +150,26 @@
   },
   "legend": {
     "enabled": false,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    "symbolRadius": 0,
-    "x": 35,
-    "y": 35,
-    "itemStyle": {
-      "fontWeight": "normal"
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "symbolRadius": 0
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "enabled": true,
+        "allowOverlap": true,
+        "y": 30,
+        "formatter": function () {
+            var last = this.series.data[this.series.data.length - 1];
+            var first = this.series.data[0];
+            if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {
+              return Highcharts.numberFormat(this.point.y, 0, ",", " ");
+            }
+            return "";
+          }
+      }
     }
   },
   "exporting": {

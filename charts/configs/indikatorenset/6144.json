@@ -1,60 +1,73 @@
 {
   "series": [
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
-      "color": "#8b2223",
+      "color": "#CD9C00",
+      "visible": true,
       "data": [
         [
-          2006,
-          52177
+          "Oberstes Management",
+          3389
         ],
         [
-          2007,
-          50528
+          "Freie und gleichgestellte Berufe",
+          3231
         ],
         [
-          2008,
-          49684
+          "Andere Selbstständige",
+          7281
         ],
         [
-          2009,
-          51915
+          "Akademische Berufe und oberes Kader",
+          24704
         ],
         [
-          2010,
-          51485
+          "Intermediäre Berufe",
+          21084
         ],
         [
-          2011,
-          52341
+          "Qualifizierte nichtmanuelle Berufe",
+          15857
         ],
         [
-          2012,
-          53403
+          "Qualifizierte manuelle Berufe",
+          4138
         ],
         [
-          2013,
-          54294
+          "Ungelernte Angestellte und Arbeiter",
+          6930
         ],
         [
-          2014,
-          50302
+          "Lernende in dualer beruflicher Grundbild",
+          2723
         ],
         [
-          2015,
-          50633
+          "Nicht zuteilbare Erwerbstätige (fehlende",
+          5649
         ],
         [
-          2016,
-          51229
+          "Erwerbslose",
+          7201
+        ],
+        [
+          "Nichterwerbspersonen",
+          59644
         ]
       ],
-      "name": "PV-Beziehende"
+      "name": "2015",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "rotation": 0
+    },
+    "tickLength": 0
+  },
   "chart": {
     "events": {
       "load": function () {
@@ -81,8 +94,9 @@
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line",
-    "renderTo": "container-6173"
+    "type": "column",
+    "inverted": false,
+    "renderTo": "container-6144"
   },
   "title": {
     "style": {
@@ -91,7 +105,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anzahl Beziehende von Prämienverbilligungen"
+    "text": "Bevölkerung nach sozioprofessioneller Kategorie"
   },
   "subtitle": {
     "style": {
@@ -105,7 +119,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f} %\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
     "min": 0,
@@ -120,17 +134,8 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f} %"
     }
-  },
-  "xAxis": {
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "tickLength": 0,
-    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -144,35 +149,29 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -5
     },
-    "text": "Quelle: Amt für Sozialbeiträge, Abteilung Prämienverbilligungen und Familienmietzinsbeiträge"
+    "text": "Quelle: "
   },
   "legend": {
     "enabled": false,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
-    "symbolRadius": 0
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "y": 55,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
   },
   "plotOptions": {
     "series": {
-      "dataLabels": {
-        "enabled": true,
-        "allowOverlap": true,
-        "y": 30,
-        "formatter": function () {
-            var last = this.series.data[this.series.data.length - 1];
-            var first = this.series.data[0];
-            if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {
-              return Highcharts.numberFormat(this.point.y, 0, ",", " ");
-            }
-            return "";
-          }
-      }
+      "pointPadding": 0,
+      "borderWidth": 0,
+      "itemWidth": 10
     }
   },
   "exporting": {
-    "filename": "I.13.2.06173"
+    "filename": "I.01.1.06144"
   }
 }

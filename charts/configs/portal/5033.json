@@ -140,7 +140,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Transnationale Patentanmeldungen pro 1000 Einwohner 2010 bis 2013"
+    "text": "Transnationale Patentanmeldungen pro 1000 Einwohner"
   },
   "subtitle": {
     "style": {
@@ -149,7 +149,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach ausgewählten Wirtschaftsbranchen",
+    "text": "nach ausgewählten Wirtschaftsbranchen;  Stand 2010 bis 2013",
     "align": "left"
   },
   "yAxis": {
