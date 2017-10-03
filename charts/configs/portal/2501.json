@@ -277,7 +277,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt im nationalen Vergleich, Stand: 2015",
+    "text": "Basel-Stadt im nationalen Vergleich, Stand: 2016",
     "align": "left"
   },
   "yAxis": {
@@ -322,7 +322,6 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 155,
     "y": 50,
     "itemWidth": 150,
     "itemStyle": {

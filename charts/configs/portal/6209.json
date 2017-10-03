@@ -2,7 +2,7 @@
   "series": [
     {
       "color": "#B00000",
-      "legendIndex": 2,
+      "legendIndex": 1,
       "data": [
         [
           2011,
@@ -27,17 +27,13 @@
         [
           2016,
           3940
-        ],
-        [
-          "Auswertung folgender 4 Bildungsinstitutionen: Allgemeine Gewerbeschule (AGS), Berufsfachschule (BFS), Schule für Gestaltung (SfG), Handelsschule KV (HKV); 2011-2013 JB-Zahlen; 2014-2016 SAS 06_Lernende_an_Berufsfachschulen",
-          null
         ]
       ],
       "name": "Schweiz"
     },
     {
       "color": "#008AC3",
-      "legendIndex": 0,
+      "legendIndex": 2,
       "data": [
         [
           2011,
@@ -62,17 +58,13 @@
         [
           2016,
           1409
-        ],
-        [
-          "Auswertung folgender 4 Bildungsinstitutionen: Allgemeine Gewerbeschule (AGS), Berufsfachschule (BFS), Schule für Gestaltung (SfG), Handelsschule KV (HKV); 2011-2013 JB-Zahlen; 2014-2016 SAS 06_Lernende_an_Berufsfachschulen",
-          null
         ]
       ],
       "name": "Ausland"
     },
     {
       "color": "#3c3c3c",
-      "legendIndex": 1,
+      "legendIndex": 0,
       "marker": {
         "enabled": true
       },
@@ -100,10 +92,6 @@
         [
           2016,
           5349
-        ],
-        [
-          "Auswertung folgender 4 Bildungsinstitutionen: Allgemeine Gewerbeschule (AGS), Berufsfachschule (BFS), Schule für Gestaltung (SfG), Handelsschule KV (HKV); 2011-2013 JB-Zahlen; 2014-2016 SAS 06_Lernende_an_Berufsfachschulen",
-          null
         ]
       ],
       "name": "Total"
@@ -159,7 +147,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E%\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
     "min": 0,
@@ -174,7 +162,7 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value}%"
+      "format": "{value:,.0f}"
     }
   },
   "xAxis": {

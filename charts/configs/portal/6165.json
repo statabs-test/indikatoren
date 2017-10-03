@@ -65,8 +65,7 @@
         "color": "#000000"
       }
     },
-    "tickColor": "#FFFFFF",
-    "tickInterval": 2
+    "tickColor": "#FFFFFF"
   },
   "chart": {
     "borderColor": "#fbfbfb",
@@ -105,7 +104,7 @@
         }
       },
       "borderWidth": 0,
-      "pointWidth": 10,
+      "pointWidth": 30,
       "stacking": "false"
     }
   },
@@ -136,7 +135,7 @@
       "labels": {
         "format": "{value:,.0f}",
         "style": {
-          "color": "#000000"
+          "color": "black"
         }
       },
       "min": 0
@@ -148,7 +147,7 @@
       "labels": {
         "format": "{value:,.0f}",
         "style": {
-          "color": "#000000"
+          "color": "black"
         }
       },
       "min": 0,
@@ -179,7 +178,6 @@
   "legend": {
     "symbolRadius": 0,
     "enabled": true,
-    "x": 45,
     "y": 35,
     "layout": "horizontal",
     "verticalAlign": "top",

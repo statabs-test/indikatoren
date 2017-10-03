@@ -42,9 +42,9 @@
   </g>
   <g class="highcharts-series-group">
     <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(50,41) scale(1 1)" clip-path="url(#a)">
-      <rect x="55.5" y="94.5" width="30" height="219" fill="#83522E" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="197.5" y="86.5" width="30" height="227" fill="#83522E" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="338.5" y="74.5" width="30" height="239" fill="#83522E" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="55.5" y="94.5" width="30" height="219" fill="#990300" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="197.5" y="86.5" width="30" height="227" fill="#990300" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="338.5" y="74.5" width="30" height="239" fill="#990300" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(50,41) scale(1 1)" clip-path="none"/>
   </g>

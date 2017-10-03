@@ -4,13 +4,16 @@
     "tickInterval": 2
   },
   "yAxis": {
+  	min: 75,
+  	max: 150,
+  	tickInterval: 25,
 	"labels": {
 		"format": "{value:,.0f}"
 	}
   },	
   "tooltip": {
     "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
+	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>'
   },
   "series": [
     {"color": "#B00000",
@@ -33,44 +36,45 @@
         "enabled": true
       }    
     }, /* dunkelblau */
-    	{"color": "#662673",
+    	{"color": "#2B0099",
     	legendIndex: 7,
 	visible:true,
       "marker": {
         "enabled": true
       }    
     }, /* dunkelviolett */
-       {"color": "#B00000",
+       {"color": "#E64900",
+       visible: false,
        legendIndex: 2,
       "marker": {
         "enabled": true
       }    
-    }, /* dunkelrot */
-    	{"color": "#007A2F",
+    }, /* hellrot */
+    	{"color": "#68AB2B",
     	legendIndex: 4,
-	visible:true,
+	visible:false,
       "marker": {
         "enabled": true
       }    
-    }, /* dunkelgrün */
-    	{"color": "#4f81bd",
+    }, /* hellgrün */
+    	{"color": "#008AC3",
     	legendIndex: 6,
-	visible:true,
+	visible:false,
       "marker": {
         "enabled": true
       }    
-    }, /* dunkelblau */
-    	{"color": "#662673",
+    }, /* hellblau */
+    	{"color": "#B375AB",
     	legendIndex: 8,
-	visible:true,
+	visible:false,
       "marker": {
         "enabled": true
       }    
-    }, /* dunkelviolett */
+    }, /* hellviolett */
   ],
   "legend": {
     "enabled": true,
-    "x": 45,
+    //"x": 45,
     "y": 35,
     "itemWidth": 200,
     "layout": "horizontal",

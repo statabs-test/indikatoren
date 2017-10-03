@@ -40,7 +40,7 @@
         "symbol": "circle",
         "enabled": true
       },     
-      "color": "#8b2223"
+      "color": "#008AC3"
     },
         {
       "marker": {

@@ -67,7 +67,7 @@
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>CO2-Emissionen in Tonnen und Tonnen pro Kopf</tspan>
   </text>
-  <g class="highcharts-legend" transform="translate(55,45)">
+  <g class="highcharts-legend" transform="translate(66,45)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="250" height="49" visibility="visible"/>
     <g>
       <g>
@@ -98,36 +98,36 @@
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
-    <text x="59" style="color:red;cursor:default;font-size:11px;fill:red;" text-anchor="end" transform="translate(0,0)" y="369" opacity="1">
+    <text x="59" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="end" transform="translate(0,0)" y="369" opacity="1">
       <tspan>0</tspan>
     </text>
-    <text x="59" style="color:red;cursor:default;font-size:11px;fill:red;" text-anchor="end" transform="translate(0,0)" y="304" opacity="1">
+    <text x="59" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="end" transform="translate(0,0)" y="304" opacity="1">
       <tspan>250 000</tspan>
     </text>
-    <text x="59" style="color:red;cursor:default;font-size:11px;fill:red;" text-anchor="end" transform="translate(0,0)" y="240" opacity="1">
+    <text x="59" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="end" transform="translate(0,0)" y="240" opacity="1">
       <tspan>500 000</tspan>
     </text>
-    <text x="59" style="color:red;cursor:default;font-size:11px;fill:red;" text-anchor="end" transform="translate(0,0)" y="175" opacity="1">
+    <text x="59" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="end" transform="translate(0,0)" y="175" opacity="1">
       <tspan>750 000</tspan>
     </text>
-    <text x="59" style="color:red;cursor:default;font-size:11px;fill:red;" text-anchor="end" transform="translate(0,0)" y="111" opacity="1">
+    <text x="59" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="end" transform="translate(0,0)" y="111" opacity="1">
       <tspan>1 000 000</tspan>
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
-    <text x="469" style="color:red;cursor:default;font-size:11px;fill:red;" text-anchor="start" transform="translate(0,0)" y="369" opacity="1">
+    <text x="469" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="start" transform="translate(0,0)" y="369" opacity="1">
       <tspan>0</tspan>
     </text>
-    <text x="469" style="color:red;cursor:default;font-size:11px;fill:red;" text-anchor="start" transform="translate(0,0)" y="304" opacity="1">
+    <text x="469" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="start" transform="translate(0,0)" y="304" opacity="1">
       <tspan>2</tspan>
     </text>
-    <text x="469" style="color:red;cursor:default;font-size:11px;fill:red;" text-anchor="start" transform="translate(0,0)" y="240" opacity="1">
+    <text x="469" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="start" transform="translate(0,0)" y="240" opacity="1">
       <tspan>3</tspan>
     </text>
-    <text x="469" style="color:red;cursor:default;font-size:11px;fill:red;" text-anchor="start" transform="translate(0,0)" y="175" opacity="1">
+    <text x="469" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="start" transform="translate(0,0)" y="175" opacity="1">
       <tspan>5</tspan>
     </text>
-    <text x="469" style="color:red;cursor:default;font-size:11px;fill:red;" text-anchor="start" transform="translate(0,0)" y="111" opacity="1">
+    <text x="469" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="start" transform="translate(0,0)" y="111" opacity="1">
       <tspan>6</tspan>
     </text>
   </g>

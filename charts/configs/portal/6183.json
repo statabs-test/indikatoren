@@ -234,7 +234,8 @@
       "formatter": function () {
             	return this.value.replace(" ", "<br/>");
             }
-    }
+    },
+    "tickInterval": 2
   },
   "chart": {
     "events": {

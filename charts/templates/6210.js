@@ -19,12 +19,6 @@
         "enabled": false
       }    
     }, /* dunkelrot */
-    	{"color": "#007A2F",
-	visible:true,
-      "marker": {
-        "enabled": false
-      }    
-    }, /* dunkelgrün */
     	{"color": "#4f81bd",
 	visible:true,
       "marker": {
@@ -37,13 +31,7 @@
         "enabled": false
       }    
     }, /* dunkelviolett */
-        {"color": "#7F5F1A",
-        visible:true,
-      "marker": {
-        "enabled": false
-      }    
-    }, /* dunkelbraun */
-    	{"color": "#FABD24",
+          	{"color": "#FABD24",
 	visible:true,
       "marker": {
         "enabled": false
@@ -60,7 +48,7 @@
     "enabled": true,
     //"x": 45,
     "y": 35,
-    "itemWidth": 100,
+    "itemWidth": 200,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
@@ -77,9 +65,6 @@
         "symbol": "circle",
       }
     }
-  },
-  chart:{
-	marginBottom: 70
   }
 }
 }());

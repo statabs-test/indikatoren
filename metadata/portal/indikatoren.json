@@ -1,7 +1,7 @@
 [
 	{
 		"title": "Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
-		"subtitle": "Basel-Stadt im nationalen Vergleich, Stand: 2015",
+		"subtitle": "Basel-Stadt im nationalen Vergleich, Stand: 2016",
 		"kuerzel": "I.04.1.2501",
 		"kuerzelKunde": "1.2",
 		"description": "Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
@@ -6057,6 +6057,43 @@
 		"aktualisierungsdatum": "",
 		"schlagwort": [
 			"Bildung"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Anzahl Plätze in Tagesbetreuungsangeboten",
+		"subtitle": "",
+		"kuerzel": "I.13.2.06210",
+		"kuerzelKunde": "4.4",
+		"description": "Anzahl Plätze in Tagesbetreuungsangeboten",
+		"id": 6210,
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Familie"
 		],
 		"stufe1": "",
 		"stufe2": "",

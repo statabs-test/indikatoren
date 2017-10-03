@@ -7,10 +7,6 @@
       "pointWidth": "20",
       "data": [
         [
-          2005,
-          52422
-        ],
-        [
           2006,
           52177
         ],
@@ -66,10 +62,6 @@
         "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
-        [
-          2005,
-          27.8959131545338
-        ],
         [
           2006,
           27.7844636619238
@@ -250,7 +242,6 @@
     "verticalAlign": "top",
     "align": "left",
     "y": 40,
-    "x": 40,
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"

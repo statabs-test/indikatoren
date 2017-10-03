@@ -1,7 +1,7 @@
 (function(){
     return {
   "xAxis": {
-    "tickInterval": 2
+    //"tickInterval": 2
   },
   "yAxis": {
 	"labels": {
@@ -13,29 +13,32 @@
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   },
   "series": [
-    {"color": "#B00000",
+    {"color": "#008AC3",
+    legendIndex: 0,
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
-    }, /* dunkelrot */
-    	{"color": "#007A2F",
+    }, /* grün */
+    	{"color": "#68AB2B",
+	visible:true,
+	legendIndex: 2,
+      "marker": {
+        "enabled": false
+      }    
+    }, /* blau */
+    	{"color": "#3C3C3C",
+	legendIndex: 1,
 	visible:true,
       "marker": {
         "enabled": true
       }    
-    }, /* dunkelgrün */
-    	{"color": "#4f81bd",
-	visible:true,
-      "marker": {
-        "enabled": true
-      }    
-    }, /* dunkelblau */
+    }, /* scharz */
   ],
   "legend": {
     "enabled": true,
-    "x": 45,
+    //"x": 45,
     "y": 35,
-    "itemWidth": 200,
+    "itemWidth": 500,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,

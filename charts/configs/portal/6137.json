@@ -1,9 +1,10 @@
 {
   "series": [
     {
-      "color": "#B00000",
+      "color": "#008AC3",
+      "legendIndex": 0,
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
@@ -106,10 +107,11 @@
       "name": "15-24-Jährige"
     },
     {
-      "color": "#007A2F",
+      "color": "#68AB2B",
       "visible": true,
+      "legendIndex": 2,
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
@@ -212,7 +214,8 @@
       "name": "50-Jährige und Ältere"
     },
     {
-      "color": "#4f81bd",
+      "color": "#3C3C3C",
+      "legendIndex": 1,
       "visible": true,
       "marker": {
         "enabled": true
@@ -392,8 +395,7 @@
         "color": "#000000"
       }
     },
-    "tickLength": 0,
-    "tickInterval": 2
+    "tickLength": 0
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -417,9 +419,8 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "x": 45,
     "y": 35,
-    "itemWidth": 200,
+    "itemWidth": 500,
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"

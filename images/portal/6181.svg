@@ -64,7 +64,7 @@
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Anteil Haushalte mit Familienmietzinsbeiträgen resp. Reiner</tspan><tspan dy="17" x="10">Prämienverbilligung</tspan><title>Anteil Haushalte mit Familienmietzinsbeiträgen resp. Reiner Prämienverbilligung</title>
   </text>
-  <g class="highcharts-legend" transform="translate(55,45)">
+  <g class="highcharts-legend" transform="translate(42,45)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="396" height="30" visibility="visible"/>
     <g>
       <g>
