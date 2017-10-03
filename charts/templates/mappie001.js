@@ -4,6 +4,9 @@
     global scalebarDataEPSG2056
     global Highcharts
 */
+
+// use this tenplate for bubbles on maps
+
 (function(){
     return {
         "chart": {		
