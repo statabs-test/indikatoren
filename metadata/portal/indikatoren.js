@@ -44,13 +44,13 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Erleichterung zur Vereinbarkeit von Familie und Beruf (Bevölkerungsbefragung)",
-		"subtitle": "",
-		"kuerzel": "I.01.1.2952",
+		"title": "Erleichterung zur Vereinbarkeit von Familie und Beruf nach Geschlecht, Herkunft und Altersgruppe",
+		"subtitle": "«Es gibt in Basel gute Teilzeitstellen, so dass Väter und Mütter Beruf und Familie unter einen Hut bringen können.»",
+		"kuerzel": "I.50.1.02952",
 		"kuerzelKunde": "4.3",
-		"description": "Erleichterung zur Vereinbarkeit von Familie und Beruf (Bevölkerungsbefragung)",
+		"description": "Erleichterung zur Vereinbarkeit von Familie und Beruf nach Geschlecht, Herkunft und Altersgruppe",
 		"id": 2952,
-		"thema": "01 Bevölkerung",
+		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
@@ -5843,11 +5843,11 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Transit durch die Region Basel in Brutto-Tonnen nach Verkehrsträger",
-		"subtitle": "",
+		"title": "Transit durch die Region Basel",
+		"subtitle": " in Brutto-Tonnen nach Verkehrsträger",
 		"kuerzel": "I.06.4.06155",
 		"kuerzelKunde": "5.4",
-		"description": "Transit durch die Region Basel in Brutto-Tonnen nach Verkehrsträger",
+		"description": "Transit durch die Region Basel",
 		"id": 6155,
 		"thema": "06 Produktion, Handel",
 		"unterthema": "Aussenhandel",

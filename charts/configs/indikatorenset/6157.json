@@ -192,7 +192,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Luftqualität: Langzeitbelastung der Luft - Jahresmittelwerte für Stickstoffdioxid (NO2) und Feinstaub (PM10) in Mikrogramm pro m3"
+    "text": "Luftqualität: Langzeitbelastung der Luft - Jahresmittelwerte für Stickstoffdioxid (NO2) und Feinstaub (PM10)"
   },
   "subtitle": {
     "style": {
@@ -201,7 +201,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt im kantonalen Vergleich",
+    "text": "in Mikrogramm pro m3",
     "align": "left"
   },
   "tooltip": {

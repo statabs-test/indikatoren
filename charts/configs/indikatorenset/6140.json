@@ -106,7 +106,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft in der NWCH und anderen Grossregionen, Anteil am BIP"
+    "text": "Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft"
   },
   "subtitle": {
     "style": {
@@ -115,7 +115,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Anteil am BIP",
     "align": "left"
   },
   "yAxis": {

@@ -54,7 +54,10 @@
     <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(44,102) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Aufwendungen für Forschung und Entwicklung in der</tspan><tspan dy="17" x="10">Privatwirtschaft in der NWCH und anderen Grossregionen,</tspan><tspan dy="17" x="10">Anteil am BIP</tspan><title>Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft in der NWCH und anderen Grossregionen, Anteil am BIP</title>
+    <tspan>Aufwendungen für Forschung und Entwicklung in der</tspan><tspan dy="17" x="10">Privatwirtschaft</tspan><title>Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft</title>
+  </text>
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="57">
+    <tspan>Anteil am BIP</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(36,65)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="131" height="25" visibility="visible"/>

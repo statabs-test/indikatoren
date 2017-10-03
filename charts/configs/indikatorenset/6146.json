@@ -204,7 +204,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Beurteilung von gesellschaftlicher Vielfalt: Anteil Befragte, die es als eine Bereicherung für den Kanton ansehen, dass Menschen aus den verschiedensten Ländern hier leben."
+    "text": "Beurteilung von gesellschaftlicher Vielfalt"
   },
   "subtitle": {
     "style": {
@@ -212,7 +212,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": ""
+    "text": "«Im Kanton Basel-Stadt gibt es Menschen aus den verschiedensten Ländern. Bitte geben Sie mir an, ob das eine sehr grosse, eher grosse, eher nicht so grosse oder gar keine Bereicherung für den Kanton Basel-Stadt ist.»"
   },
   "navigation": {
     "menuItemStyle": {

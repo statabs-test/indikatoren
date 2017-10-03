@@ -44,13 +44,13 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Erleichterung zur Vereinbarkeit von Familie und Beruf (Bevölkerungsbefragung)",
-		"subtitle": "",
-		"kuerzel": "I.01.1.2952",
+		"title": "Erleichterung zur Vereinbarkeit von Familie und Beruf nach Geschlecht, Herkunft und Altersgruppe",
+		"subtitle": "«Es gibt in Basel gute Teilzeitstellen, so dass Väter und Mütter Beruf und Familie unter einen Hut bringen können.»",
+		"kuerzel": "I.50.1.02952",
 		"kuerzelKunde": "4.3",
-		"description": "Erleichterung zur Vereinbarkeit von Familie und Beruf (Bevölkerungsbefragung)",
+		"description": "Erleichterung zur Vereinbarkeit von Familie und Beruf nach Geschlecht, Herkunft und Altersgruppe",
 		"id": 2952,
-		"thema": "01 Bevölkerung",
+		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
@@ -4100,44 +4100,6 @@ var indikatoren = [
 		"renderLink": [],
 		"quellenangabe": [
 			"envico AG"
-		],
-		"externalLinks": [
-			""
-		]
-	},
-	{
-		"title": "Mobilfunksendeanlagen",
-		"subtitle": "Anzahl Anlagen",
-		"kuerzel": "I.02.16.04296",
-		"kuerzelKunde": "1204",
-		"description": "Mobilfunksendeanlagen",
-		"id": 4296,
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Nichtionisierende Strahlung",
-		"kennzahlenset": "Umwelt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nichtionisierende Strahlung"
-		],
-		"stufe1": "Nichtionisierende Strahlung",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-12-1204' target='_blank'>Umweltbericht beider Basel</a>.",
-		"template": "dotplot",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": false,
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Lufthygieneamt beider Basel"
 		],
 		"externalLinks": [
 			""
@@ -10012,14 +9974,14 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Höchste abgeschlossene Ausbildung nach Geschlecht, Herkunft und Altersgruppe",
-		"subtitle": "",
-		"kuerzel": "I.15.6.06136",
+		"title": "Höchste abgeschlossene Ausbildung",
+		"subtitle": "nach Geschlecht, Herkunft und Altersgruppe",
+		"kuerzel": "I.50.1.06136",
 		"kuerzelKunde": "3.3",
-		"description": "Höchste abgeschlossene Ausbildung nach Geschlecht, Herkunft und Altersgruppe",
+		"description": "Höchste abgeschlossene Ausbildung",
 		"id": 6136,
-		"thema": "15 Bildung",
-		"unterthema": "Bildungsniveau",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -10037,7 +9999,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "",
 		"erlaeuterungen": "",
-		"template": "befragungen001",
+		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
@@ -10135,11 +10097,11 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft in der NWCH und anderen Grossregionen, Anteil am BIP",
-		"subtitle": "",
+		"title": "Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft",
+		"subtitle": "Anteil am BIP",
 		"kuerzel": "I.04.2.06140",
 		"kuerzelKunde": "3.7",
-		"description": "Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft in der NWCH und anderen Grossregionen, Anteil am BIP",
+		"description": "Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft",
 		"id": 6140,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
@@ -10257,11 +10219,11 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Beurteilung von gesellschaftlicher Vielfalt: Anteil Befragte, die es als eine Bereicherung für den Kanton ansehen, dass Menschen aus den verschiedensten Ländern hier leben.",
-		"subtitle": "",
+		"title": "Beurteilung von gesellschaftlicher Vielfalt",
+		"subtitle": "«Im Kanton Basel-Stadt gibt es Menschen aus den verschiedensten Ländern. Bitte geben Sie mir an, ob das eine sehr grosse, eher grosse, eher nicht so grosse oder gar keine Bereicherung für den Kanton Basel-Stadt ist.»",
 		"kuerzel": "I.50.1.06146",
 		"kuerzelKunde": "4.5",
-		"description": "Beurteilung von gesellschaftlicher Vielfalt: Anteil Befragte, die es als eine Bereicherung für den Kanton ansehen, dass Menschen aus den verschiedensten Ländern hier leben.",
+		"description": "Beurteilung von gesellschaftlicher Vielfalt",
 		"id": 6146,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
@@ -10470,9 +10432,9 @@ var indikatoren = [
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Geschlecht",
-		"subtitle": "",
+		"subtitle": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?»",
 		"kuerzel": "I.50.1.06151",
-		"kuerzelKunde": "4.10",
+		"kuerzelKunde": "4.10a",
 		"description": "Bewertung der Lebensqualität nach Geschlecht",
 		"id": 6151,
 		"thema": "50 Befragungen",
@@ -10492,7 +10454,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. Im Durchschnitt vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton eine 7,7.",
 		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt.",
-		"template": "befragungen001",
+		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
@@ -10585,11 +10547,11 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Transit durch die Region Basel in Brutto-Tonnen nach Verkehrsträger",
-		"subtitle": "",
+		"title": "Transit durch die Region Basel",
+		"subtitle": " in Brutto-Tonnen nach Verkehrsträger",
 		"kuerzel": "I.06.4.06155",
 		"kuerzelKunde": "5.4",
-		"description": "Transit durch die Region Basel in Brutto-Tonnen nach Verkehrsträger",
+		"description": "Transit durch die Region Basel",
 		"id": 6155,
 		"thema": "06 Produktion, Handel",
 		"unterthema": "Aussenhandel",
@@ -10622,11 +10584,11 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Luftqualität: Langzeitbelastung der Luft - Jahresmittelwerte für Stickstoffdioxid (NO2) und Feinstaub (PM10) in Mikrogramm pro m3",
-		"subtitle": "Basel-Stadt im kantonalen Vergleich",
+		"title": "Luftqualität: Langzeitbelastung der Luft - Jahresmittelwerte für Stickstoffdioxid (NO2) und Feinstaub (PM10)",
+		"subtitle": "in Mikrogramm pro m3",
 		"kuerzel": "I.02.5.06157",
 		"kuerzelKunde": "7.7",
-		"description": "Luftqualität: Langzeitbelastung der Luft - Jahresmittelwerte für Stickstoffdioxid (NO2) und Feinstaub (PM10) in Mikrogramm pro m3",
+		"description": "Luftqualität: Langzeitbelastung der Luft - Jahresmittelwerte für Stickstoffdioxid (NO2) und Feinstaub (PM10)",
 		"id": 6157,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Luftschadstoffe",
@@ -10858,11 +10820,11 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Wasserqualität: AOX-Fracht in Gramm pro Kopf",
+		"title": "Wasserqualität: AOX-Fracht",
 		"subtitle": "",
 		"kuerzel": "I.02.19.06164",
 		"kuerzelKunde": "7.4",
-		"description": "Wasserqualität: AOX-Fracht in Gramm pro Kopf",
+		"description": "Wasserqualität: AOX-Fracht",
 		"id": 6164,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Wasser",
@@ -11221,11 +11183,11 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Sicherheitsempfinden im Alltag: Anteil Befragte, die sich im Alltag sicher fühlen.",
-		"subtitle": "",
+		"title": "Sicherheitsempfinden im Alltag nach Geschlecht",
+		"subtitle": "«Wie sicher fühlen Sie sich ganz allgemein im Alltag?»",
 		"kuerzel": "I.50.1.06178",
 		"kuerzelKunde": "10.4",
-		"description": "Sicherheitsempfinden im Alltag: Anteil Befragte, die sich im Alltag sicher fühlen.",
+		"description": "Sicherheitsempfinden im Alltag nach Geschlecht",
 		"id": 6178,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
@@ -11285,7 +11247,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "2015 sind bei der Chemiefachberatung des Kantons 10 Alarmierungen<br>aufgrund von ABC-Ereignissen eingegangen. Die Tragweite<br>dieser Ereignisse war jeweils gering. Kein Ereignis hatte die<br>Ausmasse eines Störfalls.",
 		"erlaeuterungen": "Die Anzahl der Ereignisse sagt noch nichts über die Einwirkung auf die Umwelt aus und ist deshalb immer in Verbindung mit den Bewertungen durch die kantonale Fachstelle zu betrachten. Ereignis: Alarmierungen an die Chemiefachberatung wegen radioaktiven, biologischen oder chemischen Gefahren. Störfall: ein ausserordentliches Ereignis in einem Betrieb, auf einem Verkehrsweg oder in einer Rohrleitungsanlage, bei dem erhebliche Einwirkungen auftreten: a) ausserhalb des Betriebsareals, b) auf oder ausserhalb des Verkehrswegs, c) ausserhalb der Rohrleitungsanlage. Die eigentliche Entscheidung, ob ein Ereignis als Störfall einzustufen ist, liegt im Ermessen der zuständigen Fachstelle.",
-		"template": "template001",
+		"template": "line001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
@@ -11463,11 +11425,11 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Anteil Befragter, die angeben, wie gut ihrer Meinung nach die Behörden – Regierungsrat und Grosser Rat – die Anliegen der Bevölkerung vertreten",
-		"subtitle": "",
+		"title": "Vertretung der Anliegen der Bevölkerung",
+		"subtitle": "«Wie gut vertreten Ihrer Meinung nach die Behörden - also der Regierungsrat und der Grosse Rat - die Anliegen von der Bevölkerung?»",
 		"kuerzel": "I.50.1.06185",
 		"kuerzelKunde": "12.1",
-		"description": "Anteil Befragter, die angeben, wie gut ihrer Meinung nach die Behörden – Regierungsrat und Grosser Rat – die Anliegen der Bevölkerung vertreten",
+		"description": "Vertretung der Anliegen der Bevölkerung",
 		"id": 6185,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",

@@ -92,7 +92,10 @@
     <g class="highcharts-markers highcharts-series-4 highcharts-column-series highcharts-color-undefined " transform="translate(53,178) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Beurteilung von gesellschaftlicher Vielfalt: Anteil Befragte, die</tspan><tspan dy="17" x="10">es als eine Bereicherung für den Kanton ansehen, dass</tspan><tspan dy="17" x="10">Menschen aus den verschiedensten Ländern hier leben.</tspan><title>Beurteilung von gesellschaftlicher Vielfalt: Anteil Befragte, die es als eine Bereicherung für den Kanton ansehen, dass Menschen aus den verschiedensten Ländern hier leben.</title>
+    <tspan>Beurteilung von gesellschaftlicher Vielfalt</tspan>
+  </text>
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;fill:#000000;" y="40">
+    <tspan>«Im Kanton Basel-Stadt gibt es Menschen aus den verschiedensten Ländern.</tspan><tspan dy="15" x="10">Bitte geben Sie mir an, ob das eine sehr grosse, eher grosse, eher nicht so</tspan><tspan dy="15" x="10">grosse oder gar keine Bereicherung für den Kanton Basel-Stadt ist.»</tspan><title>«Im Kanton Basel-Stadt gibt es Menschen aus den verschiedensten Ländern. Bitte geben Sie mir an, ob das eine sehr grosse, eher grosse, eher nicht so grosse oder gar keine Bereicherung für den Kanton Basel-Stadt ist.»</title>
   </text>
   <g class="highcharts-legend" transform="translate(45,60)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="216" height="106" visibility="visible"/>

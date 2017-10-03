@@ -13,17 +13,17 @@
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   },
   "series": [
-    {"color": "#2B0099",
+    {"color": "#CD9C00",
       "marker": {
         "enabled": true
       }    
-    }, /* dunkelblau */
-    	{"color": "#007A2F",
+    }, /* gelb */
+    	{"color": "#3C3C3C",
 	visible:true,
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
-    }, /* dunkelgrün */
+    }, /* schwarz */
   ],
   "legend": {
     "enabled": true,

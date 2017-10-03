@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#2B0099",
+      "color": "#CD9C00",
       "marker": {
         "enabled": true
       },
@@ -58,10 +58,10 @@
       "name": "AOX in Milligramm pro Liter"
     },
     {
-      "color": "#007A2F",
+      "color": "#3C3C3C",
       "visible": true,
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
@@ -152,7 +152,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Wasserqualität: AOX-Fracht in Gramm pro Kopf"
+    "text": "Wasserqualität: AOX-Fracht"
   },
   "subtitle": {
     "style": {

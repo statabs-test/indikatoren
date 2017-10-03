@@ -14,23 +14,27 @@
   },
   "series": [
     {"color": "#FABD24",
+    legendIndex: 0,
       "marker": {
         "enabled": true
       }    
     }, /* hellgelb */
     	{"color": "#7F5F1A",
+   legendIndex: 2,
 	visible:true,
       "marker": {
         "enabled": true
       }    
     }, /* dunkelgelb */
     	{"color": "#008AC3",
+     legendIndex: 1,
 	visible:true,
       "marker": {
         "enabled": true
       }    
     }, /* hellblau */
     	{"color": "#2B0099",
+     legendIndex: 3,
 	visible:true,
       "marker": {
         "enabled": true
@@ -40,8 +44,8 @@
   "legend": {
     "enabled": true,
     //"x": 45,
-    "y": 35,
-    "itemWidth": 150,
+    "y": 55,
+    "itemWidth": 180,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,

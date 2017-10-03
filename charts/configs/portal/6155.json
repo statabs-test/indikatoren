@@ -2,6 +2,7 @@
   "series": [
     {
       "color": "#FABD24",
+      "legendIndex": 0,
       "marker": {
         "enabled": true
       },
@@ -51,6 +52,7 @@
     },
     {
       "color": "#7F5F1A",
+      "legendIndex": 2,
       "visible": true,
       "marker": {
         "enabled": true
@@ -101,6 +103,7 @@
     },
     {
       "color": "#008AC3",
+      "legendIndex": 1,
       "visible": true,
       "marker": {
         "enabled": true
@@ -151,6 +154,7 @@
     },
     {
       "color": "#2B0099",
+      "legendIndex": 3,
       "visible": true,
       "marker": {
         "enabled": true
@@ -236,7 +240,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Transit durch die Region Basel in Brutto-Tonnen nach Verkehrsträger"
+    "text": "Transit durch die Region Basel"
   },
   "subtitle": {
     "style": {
@@ -245,7 +249,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": " in Brutto-Tonnen nach Verkehrsträger",
     "align": "left"
   },
   "tooltip": {
@@ -299,8 +303,8 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "y": 35,
-    "itemWidth": 150,
+    "y": 55,
+    "itemWidth": 180,
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"

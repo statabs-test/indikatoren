@@ -7,7 +7,7 @@
             endOnTick: true,    
             startOnTick: true,
             showFirstLabel: true,
-            showLastLabel: true
+            showLastLabel: true,
         },
         yAxis: { 
             showLastLabel: true,

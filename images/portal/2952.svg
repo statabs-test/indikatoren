@@ -80,7 +80,10 @@
     <g class="highcharts-markers highcharts-series-4 highcharts-column-series highcharts-color-undefined " transform="translate(53,112) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Erleichterung zur Vereinbarkeit von Familie und Beruf</tspan><tspan dy="17" x="10">(Bevölkerungsbefragung)</tspan><title>Erleichterung zur Vereinbarkeit von Familie und Beruf (Bevölkerungsbefragung)</title>
+    <tspan>Erleichterung zur Vereinbarkeit von Familie und Beruf nach</tspan><tspan dy="17" x="10">Geschlecht, Herkunft und Altersgruppe</tspan><title>Erleichterung zur Vereinbarkeit von Familie und Beruf nach Geschlecht, Herkunft und Altersgruppe</title>
+  </text>
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="57">
+    <tspan>«Es gibt in Basel gute Teilzeitstellen, so dass Väter und Mütter Beruf und</tspan><tspan dy="15" x="10">Familie unter einen Hut bringen können.»</tspan><title>«Es gibt in Basel gute Teilzeitstellen, so dass Väter und Mütter Beruf und Familie unter einen Hut bringen können.»</title>
   </text>
   <g class="highcharts-legend" transform="translate(45,75)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="334" height="25" visibility="visible"/>

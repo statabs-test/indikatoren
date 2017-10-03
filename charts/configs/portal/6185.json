@@ -199,7 +199,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil Befragter, die angeben, wie gut ihrer Meinung nach die Behörden – Regierungsrat und Grosser Rat – die Anliegen der Bevölkerung vertreten"
+    "text": "Vertretung der Anliegen der Bevölkerung"
   },
   "subtitle": {
     "style": {
@@ -207,7 +207,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": ""
+    "text": "«Wie gut vertreten Ihrer Meinung nach die Behörden - also der Regierungsrat und der Grosse Rat - die Anliegen von der Bevölkerung?»"
   },
   "navigation": {
     "menuItemStyle": {

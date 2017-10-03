@@ -325,7 +325,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Erleichterung zur Vereinbarkeit von Familie und Beruf (Bevölkerungsbefragung)"
+    "text": "Erleichterung zur Vereinbarkeit von Familie und Beruf nach Geschlecht, Herkunft und Altersgruppe"
   },
   "subtitle": {
     "style": {
@@ -334,7 +334,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "«Es gibt in Basel gute Teilzeitstellen, so dass Väter und Mütter Beruf und Familie unter einen Hut bringen können.»",
     "align": "left"
   },
   "yAxis": {
@@ -393,6 +393,6 @@
             return this.name;
         },
   "exporting": {
-    "filename": "I.01.1.2952"
+    "filename": "I.50.1.02952"
   }
 }

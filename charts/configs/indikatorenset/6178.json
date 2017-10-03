@@ -380,7 +380,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Sicherheitsempfinden im Alltag: Anteil Befragte, die sich im Alltag sicher fühlen."
+    "text": "Sicherheitsempfinden im Alltag nach Geschlecht"
   },
   "subtitle": {
     "style": {
@@ -388,7 +388,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": ""
+    "text": "«Wie sicher fühlen Sie sich ganz allgemein im Alltag?»"
   },
   "navigation": {
     "menuItemStyle": {
