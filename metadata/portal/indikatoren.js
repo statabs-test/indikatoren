@@ -6077,10 +6077,6 @@ var indikatoren = [
 		]
 	},
 	{
-<<<<<<< HEAD
-		"title": "Schulabgänger/-innen ohne Anschlusslösung",
-		"subtitle": "nach Schultyp",
-=======
 		"title": "Anteil Haushalte mit FAMI",
 		"subtitle": "nach Wohnviertel, Stand: 2016",
 		"kuerzel": "I.13.2.06203",
@@ -6162,9 +6158,8 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Schulabgänger/-innen ohne Anschlusslösung nach Schultyp",
-		"subtitle": "",
->>>>>>> 57e2d7cdcb4299ca1b46af004df1aece855f384f
+		"title": "Schulabgänger/-innen ohne Anschlusslösung",
+		"subtitle": "nach Schultyp",
 		"kuerzel": "I.15.7.06206",
 		"kuerzelKunde": "3.1a",
 		"description": "Schulabgänger/-innen ohne Anschlusslösung",
