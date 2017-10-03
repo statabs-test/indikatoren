@@ -2,8 +2,8 @@
   "series": [
     {
       "color": "#007a2f",
-      "index": 9,
-      "legendIndex": 9,
+      "index": 0,
+      "legendIndex": 0,
       "data": [
         [
           "2003 (N=1477)",
@@ -31,8 +31,8 @@
     },
     {
       "color": "#44ab2b",
-      "index": 8,
-      "legendIndex": 8,
+      "index": 1,
+      "legendIndex": 1,
       "data": [
         [
           "2003 (N=1477)",
@@ -60,8 +60,8 @@
     },
     {
       "color": "#73ba7c",
-      "index": 7,
-      "legendIndex": 7,
+      "index": 2,
+      "legendIndex": 2,
       "data": [
         [
           "2003 (N=1477)",
@@ -89,8 +89,8 @@
     },
     {
       "color": "#d7e9d2",
-      "index": 6,
-      "legendIndex": 6,
+      "index": 3,
+      "legendIndex": 3,
       "data": [
         [
           "2003 (N=1477)",
@@ -118,8 +118,8 @@
     },
     {
       "color": "#b9cfd7",
-      "index": 5,
-      "legendIndex": 5,
+      "index": 4,
+      "legendIndex": 4,
       "data": [
         [
           "2003 (N=1477)",
@@ -147,8 +147,8 @@
     },
     {
       "color": "#71a3b5",
-      "index": 4,
-      "legendIndex": 4,
+      "index": 5,
+      "legendIndex": 5,
       "data": [
         [
           "2003 (N=1477)",
@@ -176,8 +176,8 @@
     },
     {
       "color": "#ffbb58",
-      "index": 3,
-      "legendIndex": 3,
+      "index": 6,
+      "legendIndex": 6,
       "data": [
         [
           "2003 (N=1477)",
@@ -205,8 +205,8 @@
     },
     {
       "color": "#ff8028",
-      "index": 2,
-      "legendIndex": 2,
+      "index": 7,
+      "legendIndex": 7,
       "data": [
         [
           "2003 (N=1477)",
@@ -234,8 +234,8 @@
     },
     {
       "color": "#dc440e",
-      "index": 1,
-      "legendIndex": 1,
+      "index": 8,
+      "legendIndex": 8,
       "data": [
         [
           "2003 (N=1477)",
@@ -263,8 +263,8 @@
     },
     {
       "color": "#b00000",
-      "index": 0,
-      "legendIndex": 0,
+      "index": 9,
+      "legendIndex": 9,
       "data": [
         [
           "2003 (N=1477)",

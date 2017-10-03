@@ -143,7 +143,7 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.2f}"
+      "format": "{value:,.1f}"
     }
   },
   "xAxis": {
