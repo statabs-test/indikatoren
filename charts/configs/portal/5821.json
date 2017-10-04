@@ -375,6 +375,7 @@
   },
   "yAxis": {
     "tickInterval": 10,
+    "reversedStacks": false,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
@@ -393,7 +394,7 @@
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false,
     "valueDecimals": 1
   },
@@ -413,13 +414,15 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
   },
   "legend": {
+    "reversed": true,
     "layout": "vertical",
     "verticalAlign": "middle",
     "itemMarginBottom": 5,
     "align": "right",
-    "useHTML": false,
+    "useHTML": true,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "width": 115
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
