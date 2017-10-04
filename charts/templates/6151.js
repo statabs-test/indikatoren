@@ -11,6 +11,12 @@
             }
         } 
   },  
+  plotOptions: {
+  	column: {
+  		borderWidth: 0,
+  		groupPadding: 0,
+  	}
+  },
   "series": [
   {"color": "#007a2f", "index": 9, "legendIndex":9}, /*grün dunkel2*/
   {"color": "#44ab2b", "index": 8, "legendIndex":8}, /*grün mittel*/
