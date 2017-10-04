@@ -75,8 +75,6 @@ To build the application,  create the json config files and the svg images of th
 npm run build
 ```
 
-<<<<<<< HEAD
-=======
 To build the application and rebuild all json config files and all chart's svg images: 
 ```javascript
 npm run rebuild
@@ -87,7 +85,6 @@ Manually create svg thumbnails:
 - For the indikatorenset view: In Chrome, open thumbnails.html?indikatorensetView=true.
 This will download all svg files to the local downloads directory. You can then manually move them to their respective directory below /images/.
 
->>>>>>> master
 
 ### Updating dependencies
 Update version numbers in package.json, then run the following command to do a clean reinstall: 
