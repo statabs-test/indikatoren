@@ -242,25 +242,25 @@
       <tspan>Differenz 2015 zu 1995</tspan>
     </text>
   </g>
-  <circle cx="390" cy="255" r="1.5688196698052752" fill="grey" stroke="grey" stroke-width="1" class="pieLegend"/>
-  <g class="pieLegend" transform="translate(410,245)">
+  <circle cx="390" cy="255" r="1.5688196698052752" fill="grey" stroke="grey" stroke-width="1" class="undefined pieLegend"/>
+  <g class="undefined pieLegend" transform="translate(410,245)">
     <text x="3" y="15">
       <tspan>3 000</tspan>
     </text>
   </g>
-  <circle cx="390" cy="280" r="9.92208678931591" fill="grey" stroke="grey" stroke-width="1" class="pieLegend"/>
-  <g class="pieLegend" transform="translate(410,270)">
+  <circle cx="390" cy="280" r="9.92208678931591" fill="grey" stroke="grey" stroke-width="1" class="undefined pieLegend"/>
+  <g class="undefined pieLegend" transform="translate(410,270)">
     <text x="3" y="15">
       <tspan>120 000</tspan>
     </text>
   </g>
-  <rect x="270" y="250" width="10" height="10" fill="#7F5F1A" class="pieLegend"/>
-  <g class="pieLegend" transform="translate(300,245)">
+  <rect x="270" y="250" width="10" height="10" fill="#7F5F1A" class="undefined pieLegend"/>
+  <g class="undefined pieLegend" transform="translate(300,245)">
     <text x="3" y="15">
       Zunahme
     </text>
   </g>
-  <g class="pieLegend" transform="translate(265,300)">
+  <g class="undefined pieLegend" transform="translate(265,300)">
     <text x="3" style="font-weight:bold;" y="15">
       <tspan>Bruttogeschossfläche in 1000 m²</tspan>
     </text>

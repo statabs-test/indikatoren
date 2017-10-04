@@ -245,31 +245,31 @@
       <tspan>Differenz 2016 zu 1997</tspan>
     </text>
   </g>
-  <circle cx="410" cy="255" r="0.5292714337899616" fill="grey" stroke="grey" stroke-width="1" class="pieLegend"/>
-  <g class="pieLegend" transform="translate(430,245)">
+  <circle cx="410" cy="255" r="0.5292714337899616" fill="grey" stroke="grey" stroke-width="1" class="undefined pieLegend"/>
+  <g class="undefined pieLegend" transform="translate(430,245)">
     <text x="3" y="15">
       0,1
     </text>
   </g>
-  <circle cx="410" cy="280" r="9.167250143190403" fill="grey" stroke="grey" stroke-width="1" class="pieLegend"/>
-  <g class="pieLegend" transform="translate(430,270)">
+  <circle cx="410" cy="280" r="9.167250143190403" fill="grey" stroke="grey" stroke-width="1" class="undefined pieLegend"/>
+  <g class="undefined pieLegend" transform="translate(430,270)">
     <text x="3" y="15">
       30
     </text>
   </g>
-  <rect x="270" y="250" width="10" height="10" fill="#7F5F1A" class="pieLegend"/>
-  <g class="pieLegend" transform="translate(300,245)">
+  <rect x="270" y="250" width="10" height="10" fill="#7F5F1A" class="undefined pieLegend"/>
+  <g class="undefined pieLegend" transform="translate(300,245)">
     <text x="3" y="15">
       Zunahme
     </text>
   </g>
-  <rect x="270" y="275" width="10" height="10" fill="#FABD24" class="pieLegend"/>
-  <g class="pieLegend" transform="translate(300,270)">
+  <rect x="270" y="275" width="10" height="10" fill="#FABD24" class="undefined pieLegend"/>
+  <g class="undefined pieLegend" transform="translate(300,270)">
     <text x="3" y="15">
       Abnahme
     </text>
   </g>
-  <g class="pieLegend" transform="translate(265,300)">
+  <g class="undefined pieLegend" transform="translate(265,300)">
     <text x="3" style="font-weight:bold;" y="15">
       Bevölkerungsdichte
     </text>
