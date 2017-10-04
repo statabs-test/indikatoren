@@ -2,8 +2,6 @@
   "series": [
     {
       "color": "#007A2F",
-      "index": 4,
-      "legendIndex": 4,
       "data": [
         [
           "2003 (N=1497)",
@@ -31,8 +29,6 @@
     },
     {
       "color": "#73BA7C",
-      "index": 3,
-      "legendIndex": 3,
       "data": [
         [
           "2003 (N=1497)",
@@ -60,8 +56,33 @@
     },
     {
       "color": "#C8C8C8",
-      "index": 2,
-      "legendIndex": 2,
+      "data": [
+        [
+          "2003 (N=1497)",
+          4.3
+        ],
+        [
+          "2005 (N=1510)",
+          3.6
+        ],
+        [
+          "2007 (N=1509)",
+          5.6
+        ],
+        [
+          "2011 (N=1516)",
+          2.6
+        ],
+        [
+          "2015 (N=1506)",
+          3.4
+        ]
+      ],
+      "name": "Weiss nicht\u002Fkeine Angabe",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFBB58",
       "data": [
         [
           "2003 (N=1497)",
@@ -88,9 +109,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FFBB58",
-      "index": 1,
-      "legendIndex": 1,
+      "color": "#FF8028",
       "data": [
         [
           "2003 (N=1497)",
@@ -114,35 +133,6 @@
         ]
       ],
       "name": "Gar keine Bereicherung",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#FF8028",
-      "index": 0,
-      "legendIndex": 0,
-      "data": [
-        [
-          "2003 (N=1497)",
-          4.3
-        ],
-        [
-          "2005 (N=1510)",
-          3.6
-        ],
-        [
-          "2007 (N=1509)",
-          5.6
-        ],
-        [
-          "2011 (N=1516)",
-          2.6
-        ],
-        [
-          "2015 (N=1506)",
-          3.4
-        ]
-      ],
-      "name": "Weiss nicht\u002Fkeine Angabe",
       "turboThreshold": 0
     }
   ],

@@ -1,16 +1,15 @@
 {
   "series": [
     {
-      "color": "#999999",
-      "index": 2,
+      "color": "#007a2f",
       "data": [
         [
           "2003 männlich (N=1497)",
-          0.3
+          27.5
         ],
         [
           "2003 weiblich",
-          0.1
+          27.8
         ],
         [
           " ",
@@ -18,11 +17,11 @@
         ],
         [
           "2005 männlich (N=1510)",
-          0
+          27.5
         ],
         [
           "2005 weiblich",
-          0.1
+          28.4
         ],
         [
           "  ",
@@ -30,11 +29,11 @@
         ],
         [
           "2007 männlich (N=1509)",
-          0
+          24.3
         ],
         [
           "2007 weiblich",
-          0.2
+          25.8
         ],
         [
           "   ",
@@ -42,11 +41,11 @@
         ],
         [
           "2011 männlich (N=1516)",
-          0
+          22.8
         ],
         [
           "2011 weiblich",
-          0.1
+          25.3
         ],
         [
           "    ",
@@ -54,147 +53,18 @@
         ],
         [
           "2015 männlich (N=1506)",
-          0.1
+          20.1
         ],
         [
           "2015 weiblich",
-          0.1
+          22.1
         ]
       ],
-      "name": "Weiss nicht \u002F keine Angabe",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#dc440e",
-      "index": 0,
-      "data": [
-        [
-          "2003 männlich (N=1497)",
-          0.1
-        ],
-        [
-          "2003 weiblich",
-          0.5
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2005 männlich (N=1510)",
-          0.3
-        ],
-        [
-          "2005 weiblich",
-          0.3
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2007 männlich (N=1509)",
-          0.2
-        ],
-        [
-          "2007 weiblich",
-          0.3
-        ],
-        [
-          "   ",
-          0
-        ],
-        [
-          "2011 männlich (N=1516)",
-          0.3
-        ],
-        [
-          "2011 weiblich",
-          0.6
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
-          "2015 männlich (N=1506)",
-          0.3
-        ],
-        [
-          "2015 weiblich",
-          0.7
-        ]
-      ],
-      "name": "Ganz unsicher",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#ffbb58",
-      "index": 1,
-      "data": [
-        [
-          "2003 männlich (N=1497)",
-          1.8
-        ],
-        [
-          "2003 weiblich",
-          3.5
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2005 männlich (N=1510)",
-          1.8
-        ],
-        [
-          "2005 weiblich",
-          2.8
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2007 männlich (N=1509)",
-          1.8
-        ],
-        [
-          "2007 weiblich",
-          3.2
-        ],
-        [
-          "   ",
-          0
-        ],
-        [
-          "2011 männlich (N=1516)",
-          2
-        ],
-        [
-          "2011 weiblich",
-          4.2
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
-          "2015 männlich (N=1506)",
-          3.1
-        ],
-        [
-          "2015 weiblich",
-          4.6
-        ]
-      ],
-      "name": "Eher unsicher",
+      "name": "Sehr sicher",
       "turboThreshold": 0
     },
     {
       "color": "#68ab2b",
-      "index": 3,
       "data": [
         [
           "2003 männlich (N=1497)",
@@ -257,16 +127,15 @@
       "turboThreshold": 0
     },
     {
-      "color": "#007a2f",
-      "index": 4,
+      "color": "#999999",
       "data": [
         [
           "2003 männlich (N=1497)",
-          27.5
+          0.3
         ],
         [
           "2003 weiblich",
-          27.8
+          0.1
         ],
         [
           " ",
@@ -274,11 +143,11 @@
         ],
         [
           "2005 männlich (N=1510)",
-          27.5
+          0
         ],
         [
           "2005 weiblich",
-          28.4
+          0.1
         ],
         [
           "  ",
@@ -286,11 +155,11 @@
         ],
         [
           "2007 männlich (N=1509)",
-          24.3
+          0
         ],
         [
           "2007 weiblich",
-          25.8
+          0.2
         ],
         [
           "   ",
@@ -298,11 +167,11 @@
         ],
         [
           "2011 männlich (N=1516)",
-          22.8
+          0
         ],
         [
           "2011 weiblich",
-          25.3
+          0.1
         ],
         [
           "    ",
@@ -310,14 +179,140 @@
         ],
         [
           "2015 männlich (N=1506)",
-          20.1
+          0.1
         ],
         [
           "2015 weiblich",
-          22.1
+          0.1
         ]
       ],
-      "name": "Sehr sicher",
+      "name": "Weiss nicht \u002F keine Angabe",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ffbb58",
+      "data": [
+        [
+          "2003 männlich (N=1497)",
+          1.8
+        ],
+        [
+          "2003 weiblich",
+          3.5
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2005 männlich (N=1510)",
+          1.8
+        ],
+        [
+          "2005 weiblich",
+          2.8
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2007 männlich (N=1509)",
+          1.8
+        ],
+        [
+          "2007 weiblich",
+          3.2
+        ],
+        [
+          "   ",
+          0
+        ],
+        [
+          "2011 männlich (N=1516)",
+          2
+        ],
+        [
+          "2011 weiblich",
+          4.2
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2015 männlich (N=1506)",
+          3.1
+        ],
+        [
+          "2015 weiblich",
+          4.6
+        ]
+      ],
+      "name": "Eher unsicher",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#dc440e",
+      "data": [
+        [
+          "2003 männlich (N=1497)",
+          0.1
+        ],
+        [
+          "2003 weiblich",
+          0.5
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2005 männlich (N=1510)",
+          0.3
+        ],
+        [
+          "2005 weiblich",
+          0.3
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2007 männlich (N=1509)",
+          0.2
+        ],
+        [
+          "2007 weiblich",
+          0.3
+        ],
+        [
+          "   ",
+          0
+        ],
+        [
+          "2011 männlich (N=1516)",
+          0.3
+        ],
+        [
+          "2011 weiblich",
+          0.6
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2015 männlich (N=1506)",
+          0.3
+        ],
+        [
+          "2015 weiblich",
+          0.7
+        ]
+      ],
+      "name": "Ganz unsicher",
       "turboThreshold": 0
     }
   ],
