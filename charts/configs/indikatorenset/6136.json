@@ -42,7 +42,7 @@
           5.1
         ],
         [
-          "70 u.m.",
+          "70u.m.",
           14.2
         ]
       ],
@@ -91,7 +91,7 @@
           0.3
         ],
         [
-          "70 u.m.",
+          "70u.m.",
           1.4
         ]
       ],
@@ -140,7 +140,7 @@
           41.9
         ],
         [
-          "70 u.m.",
+          "70u.m.",
           49
         ]
       ],
@@ -189,7 +189,7 @@
           0.6
         ],
         [
-          "70 u.m.",
+          "70u.m.",
           1.2
         ]
       ],
@@ -238,7 +238,7 @@
           4.5
         ],
         [
-          "70 u.m.",
+          "70u.m.",
           3.9
         ]
       ],
@@ -287,7 +287,7 @@
           2.4
         ],
         [
-          "70 u.m.",
+          "70u.m.",
           2.4
         ]
       ],
@@ -336,7 +336,7 @@
           20.4
         ],
         [
-          "70 u.m.",
+          "70u.m.",
           13.8
         ]
       ],
@@ -385,7 +385,7 @@
           24
         ],
         [
-          "70 u.m.",
+          "70u.m.",
           13.6
         ]
       ],
@@ -434,7 +434,7 @@
           0.3
         ],
         [
-          "70 u.m.",
+          "70u.m.",
           0.6
         ]
       ],
@@ -483,7 +483,7 @@
           0.6
         ],
         [
-          "70 u.m.",
+          "70u.m.",
           null
         ]
       ],
@@ -494,20 +494,42 @@
   "xAxis": {
     "type": "category",
     "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickColor": "#FFFFFF",
     "title": {
       "style": {
         "color": "#000000"
       }
     },
     "labels": {
+      "rotation": 0,
       "style": {
-        "color": "#000000"
-      }
-    },
-    "tickColor": "#FFFFFF",
-    "tickInterval": 1
+        "color": "#000000",
+        "width": 1,
+        "textOverflow": "none"
+      },
+      "formatter": function () {
+            	return this.value.replace(" ", "<br/>");
+            }
+    }
   },
   "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+            }
+    },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
@@ -517,38 +539,8 @@
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
-    "events": {
-      "load": function (){
-            this.credits.element.onclick = function() {};
-              
-            //for top-left legends with no x defined: move legend to x position of first yAxis
-            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-              this.update(
-                {
-                  legend: {
-                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                  }
-                }
-              );
-            }
-          }
-    },
     "type": "column",
-    "inverted": false,
     "renderTo": "container-6136"
-  },
-  "plotOptions": {
-    "series": {
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      },
-      "pointPadding": 100,
-      "borderWidth": 0,
-      "pointWidth": 20,
-      "stacking": "normal"
-    }
   },
   "title": {
     "style": {
@@ -562,14 +554,34 @@
   "subtitle": {
     "style": {
       "fontSize": "12px",
-      "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Geschlecht, Herkunft und Altersgruppe",
-    "align": "left"
+    "align": "left",
+    "text": "nach Geschlecht, Herkunft und Altersgruppe"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent"
+    }
   },
   "yAxis": {
+    "tickInterval": 10,
+    "reversedStacks": false,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
     "title": {
       "style": {
         "color": "#000000",
@@ -578,19 +590,15 @@
       "text": null
     },
     "labels": {
+      "format": "{value}%",
       "style": {
         "color": "#000000"
-      },
-      "format": "{value:,.0f}"
-    },
-    "max": 100,
-    "tickInterval": 10
-  },
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
+      }
     }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "credits": {
     "enabled": true,
@@ -608,21 +616,23 @@
     "text": "Quelle: "
   },
   "legend": {
-    "symbolRadius": 0,
-    "enabled": true,
+    "reversed": true,
     "layout": "horizontal",
     "verticalAlign": "top",
+    "itemMarginBottom": 5,
     "align": "left",
-    "y": 40,
-    "itemWidth": 150,
+    "useHTML": true,
     "itemStyle": {
-      "fontWeight": "normal"
-    }
-  },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
-    "shared": true
+      "fontWeight": "normal",
+      "width": 115
+    },
+    "symbolRadius": 0,
+    "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        },
+    "enabled": true,
+    "y": 40,
+    "itemWidth": 150
   },
   "exporting": {
     "filename": "I.50.1.06136"

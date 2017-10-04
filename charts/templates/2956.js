@@ -25,12 +25,12 @@
     }    
   },
    "series": [
-  {"color": "#e7cfe2", "visible": false}, /* hellrot*/
-  {"color": "#b475ab", "visible": false}, /* ... */
-  {"color": "#933f8d", "visible": false}, /* ...*/
-  {"color": "#2f1435", "visible": false}, /* ... */
-  {"color": "#8064a2", "visible": true}, /* dunkelrot*/
-  ],
+  {"color": "#ffbb58", visible: false}, /* hellrot*/
+  {"color": "#ff8028", visible: false}, /* ... */
+  {"color": "#b00000", visible: false}, /* ...*/
+  {"color": "#661200", visible: false}, /* ... */
+  {"color": "#953735", visible: true}, /* dunkelrot*/
+    ],
   "legend": {
     "enabled": true,
     "layout": "horizontal",

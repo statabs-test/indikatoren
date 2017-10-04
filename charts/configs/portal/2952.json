@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#e7cfe2",
+      "color": "#ffbb58",
       "visible": false,
       "data": [
         [
@@ -53,7 +53,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#b475ab",
+      "color": "#ff8028",
       "visible": false,
       "data": [
         [
@@ -105,7 +105,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#933f8d",
+      "color": "#b00000",
       "visible": false,
       "data": [
         [
@@ -157,7 +157,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#2f1435",
+      "color": "#661200",
       "visible": false,
       "data": [
         [
@@ -209,7 +209,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#8064a2",
+      "color": "#953735",
       "visible": true,
       "data": [
         [

@@ -183,7 +183,7 @@
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-10" transform="translate(8,174)">
           <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#256370" stroke-width="2"/>
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Allgemeine Verwaltung2</tspan>
+            <tspan>Allgemeine Verwaltung</tspan>
           </text>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(8,193)">

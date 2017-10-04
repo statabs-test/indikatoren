@@ -1,17 +1,5 @@
 (function(){
     return {
-  "legend": {
-  	y: 70,
-  	itemWidth: 220,
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    "itemStyle": {
-    "fontWeight": "normal"
-    }
-  },
-
         "series": [
             {
                 "color": "#007A2F", // dark green

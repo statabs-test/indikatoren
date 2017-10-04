@@ -37,9 +37,9 @@
   </g>
   <g class="highcharts-series-group">
     <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(43,55) scale(1 1)" clip-path="url(#a)">
-      <rect x="29" y="75" width="86" height="220" fill="#CD9C00" class="highcharts-point"/>
-      <rect x="173" y="118" width="86" height="177" fill="#CD9C00" class="highcharts-point"/>
-      <rect x="317" y="80" width="86" height="215" fill="#CD9C00" class="highcharts-point"/>
+      <rect x="52" y="75" width="40" height="220" fill="#CD9C00" class="highcharts-point"/>
+      <rect x="196" y="118" width="40" height="177" fill="#CD9C00" class="highcharts-point"/>
+      <rect x="340" y="80" width="40" height="215" fill="#CD9C00" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(43,55) scale(1 1)" clip-path="none"/>
   </g>

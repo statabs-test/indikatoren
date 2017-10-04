@@ -1,7 +1,7 @@
 (function(){
     return {
     "chart": {		
-        "events":{
+              "events":{
             "load": function() {
               this.credits.element.onclick = function() {};
               //for top-left legends with no x defined: move legend to x position of first yAxis
@@ -50,6 +50,7 @@
     },
     "plotOptions": {
         "series": {
+            borderWidth: 0,
             "dataLabels": {
                 "style": {
                     "fontSize": "10px"
@@ -61,6 +62,9 @@
     "yAxis": {
         "tickInterval":10,
         "reversedStacks": false,
+        gridLineColor: '#B9CFD7', 
+        gridLineWidth: 0.5,
+        lineColor: '#B9CFD7', 
         "title": {
             "style": {
             "color": "#000000",
@@ -76,6 +80,8 @@
         }
     },
     "xAxis": {    
+        lineColor: '#B9CFD7', 
+        lineWidth: 0.5,
         "type": "category",
         "uniqueNames": true,
         "tickColor": "#FFFFFF",
@@ -128,6 +134,6 @@
         "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
         }
-    }    
-	}
+    }
+    };    
 }());

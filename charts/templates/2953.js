@@ -1,5 +1,3 @@
-/*global Highcharts  */
-
 (function(){
     return {
  plotOptions: {
@@ -8,12 +6,13 @@
             borderWidth: 0,
         }
    },
-  "data":{
+    "data":{
   	"switchRowsAndColumns": true
   },
+
   "xAxis": {
-    "type": "category",	
-    "labels": {
+    "type": "category",
+     "labels": {
       "rotation": -90 
     } 
   },
@@ -29,38 +28,31 @@
   {"color": "#b00000", visible: false}, /* ...*/
   {"color": "#661200", visible: false}, /* ... */
   {"color": "#953735", visible: true}, /* dunkelrot*/
-  {visible: false, showInLegend: false},
-  {visible: false, showInLegend: false},
-  {visible: false, showInLegend: false},
-  {visible: false, showInLegend: false},
-  {visible: false, showInLegend: false}
   ],
   "legend": {
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    //"x": 35,
-	"y": 45,    
+    //"x": 40,
+	"y": 65,    
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
   tooltip: {
-    formatter: function(args){
-      var seriesName = this.series.name;
-      //get corresponding series by name: series 2015-N corresponds to series 2015, etc.
-      var correspondingNSeries = this.series.chart.series.filter(function(element, index, array){
-          return element.name == seriesName + '_n';
-      })[0];
-      var n = correspondingNSeries.yData[this.x];
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 1, ",", " ") + '%</b> (n=' + n + ')<br/>';
-    },
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>',
     "shared": false
-  },  
+  },
   "chart": {      
     "type": "column",
-    "inverted": false
-  }
+    "inverted": false,
+     //"marginBottom": 75,
+     //"marginTop": 75,
+  },
+   "labelFormatter": function () {
+            return this.name;
+        }
 }
 }());
+

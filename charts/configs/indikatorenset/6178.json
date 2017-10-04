@@ -6,11 +6,11 @@
       "data": [
         [
           "2003 männlich (N=1497)",
-          0.003
+          0.3
         ],
         [
           "2003 weiblich",
-          0.001
+          0.1
         ],
         [
           " ",
@@ -22,7 +22,7 @@
         ],
         [
           "2005 weiblich",
-          0.001
+          0.1
         ],
         [
           "  ",
@@ -34,11 +34,11 @@
         ],
         [
           "2007 weiblich",
-          0.002
+          0.2
         ],
         [
           "   ",
-          null
+          0
         ],
         [
           "2011 männlich (N=1516)",
@@ -46,7 +46,7 @@
         ],
         [
           "2011 weiblich",
-          0.001
+          0.1
         ],
         [
           "    ",
@@ -54,11 +54,11 @@
         ],
         [
           "2015 männlich (N=1506)",
-          0.001
+          0.1
         ],
         [
           "2015 weiblich",
-          0.001
+          0.1
         ]
       ],
       "name": "Weiss nicht \u002F keine Angabe",
@@ -70,11 +70,11 @@
       "data": [
         [
           "2003 männlich (N=1497)",
-          0.001
+          0.1
         ],
         [
           "2003 weiblich",
-          0.005
+          0.5
         ],
         [
           " ",
@@ -82,11 +82,11 @@
         ],
         [
           "2005 männlich (N=1510)",
-          0.003
+          0.3
         ],
         [
           "2005 weiblich",
-          0.003
+          0.3
         ],
         [
           "  ",
@@ -94,23 +94,23 @@
         ],
         [
           "2007 männlich (N=1509)",
-          0.002
+          0.2
         ],
         [
           "2007 weiblich",
-          0.003
+          0.3
         ],
         [
           "   ",
-          null
+          0
         ],
         [
           "2011 männlich (N=1516)",
-          0.003
+          0.3
         ],
         [
           "2011 weiblich",
-          0.006
+          0.6
         ],
         [
           "    ",
@@ -118,11 +118,11 @@
         ],
         [
           "2015 männlich (N=1506)",
-          0.003
+          0.3
         ],
         [
           "2015 weiblich",
-          0.007
+          0.7
         ]
       ],
       "name": "Ganz unsicher",
@@ -134,11 +134,11 @@
       "data": [
         [
           "2003 männlich (N=1497)",
-          0.018
+          1.8
         ],
         [
           "2003 weiblich",
-          0.035
+          3.5
         ],
         [
           " ",
@@ -146,11 +146,11 @@
         ],
         [
           "2005 männlich (N=1510)",
-          0.018
+          1.8
         ],
         [
           "2005 weiblich",
-          0.028
+          2.8
         ],
         [
           "  ",
@@ -158,23 +158,23 @@
         ],
         [
           "2007 männlich (N=1509)",
-          0.018
+          1.8
         ],
         [
           "2007 weiblich",
-          0.032
+          3.2
         ],
         [
           "   ",
-          null
+          0
         ],
         [
           "2011 männlich (N=1516)",
-          0.02
+          2
         ],
         [
           "2011 weiblich",
-          0.042
+          4.2
         ],
         [
           "    ",
@@ -182,11 +182,11 @@
         ],
         [
           "2015 männlich (N=1506)",
-          0.031
+          3.1
         ],
         [
           "2015 weiblich",
-          0.046
+          4.6
         ]
       ],
       "name": "Eher unsicher",
@@ -198,11 +198,11 @@
       "data": [
         [
           "2003 männlich (N=1497)",
-          0.157
+          15.7
         ],
         [
           "2003 weiblich",
-          0.228
+          22.8
         ],
         [
           " ",
@@ -210,11 +210,11 @@
         ],
         [
           "2005 männlich (N=1510)",
-          0.169
+          16.9
         ],
         [
           "2005 weiblich",
-          0.218
+          21.8
         ],
         [
           "  ",
@@ -222,23 +222,23 @@
         ],
         [
           "2007 männlich (N=1509)",
-          0.197
+          19.7
         ],
         [
           "2007 weiblich",
-          0.246
+          24.6
         ],
         [
           "   ",
-          null
+          0
         ],
         [
           "2011 männlich (N=1516)",
-          0.193
+          19.3
         ],
         [
           "2011 weiblich",
-          0.253
+          25.3
         ],
         [
           "    ",
@@ -246,11 +246,11 @@
         ],
         [
           "2015 männlich (N=1506)",
-          0.222
+          22.2
         ],
         [
           "2015 weiblich",
-          0.268
+          26.8
         ]
       ],
       "name": "Eher sicher",
@@ -262,11 +262,11 @@
       "data": [
         [
           "2003 männlich (N=1497)",
-          0.275
+          27.5
         ],
         [
           "2003 weiblich",
-          0.278
+          27.8
         ],
         [
           " ",
@@ -274,11 +274,11 @@
         ],
         [
           "2005 männlich (N=1510)",
-          0.275
+          27.5
         ],
         [
           "2005 weiblich",
-          0.284
+          28.4
         ],
         [
           "  ",
@@ -286,23 +286,23 @@
         ],
         [
           "2007 männlich (N=1509)",
-          0.243
+          24.3
         ],
         [
           "2007 weiblich",
-          0.258
+          25.8
         ],
         [
           "   ",
-          null
+          0
         ],
         [
           "2011 männlich (N=1516)",
-          0.228
+          22.8
         ],
         [
           "2011 weiblich",
-          0.253
+          25.3
         ],
         [
           "    ",
@@ -310,11 +310,11 @@
         ],
         [
           "2015 männlich (N=1506)",
-          0.201
+          20.1
         ],
         [
           "2015 weiblich",
-          0.221
+          22.1
         ]
       ],
       "name": "Sehr sicher",
@@ -409,6 +409,7 @@
   },
   "yAxis": {
     "tickInterval": 25,
+    "reversedStacks": false,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
@@ -427,7 +428,7 @@
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "credits": {
@@ -446,13 +447,15 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9"
   },
   "legend": {
+    "reversed": true,
     "layout": "vertical",
     "verticalAlign": "middle",
     "itemMarginBottom": 5,
     "align": "right",
-    "useHTML": false,
+    "useHTML": true,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "width": 115
     },
     "symbolRadius": 0,
     "labelFormatter": function () {

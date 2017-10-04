@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#e7cfe2",
+      "color": "#ffbb58",
       "visible": false,
       "data": [
         [
@@ -49,7 +49,7 @@
           94.931506849315
         ],
         [
-          "NA",
+          null,
           null
         ]
       ],
@@ -57,7 +57,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#b475ab",
+      "color": "#ff8028",
       "visible": false,
       "data": [
         [
@@ -105,7 +105,7 @@
           96.096904441453
         ],
         [
-          "NA",
+          null,
           null
         ]
       ],
@@ -113,7 +113,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#933f8d",
+      "color": "#b00000",
       "visible": false,
       "data": [
         [
@@ -161,7 +161,7 @@
           96.016205266711
         ],
         [
-          "NA",
+          null,
           null
         ]
       ],
@@ -169,7 +169,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#2f1435",
+      "color": "#661200",
       "visible": false,
       "data": [
         [
@@ -217,7 +217,7 @@
           95.941450432468
         ],
         [
-          "NA",
+          null,
           null
         ]
       ],
@@ -225,7 +225,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#8064a2",
+      "color": "#953735",
       "visible": true,
       "data": [
         [
@@ -273,7 +273,7 @@
           96.600951733514
         ],
         [
-          "NA",
+          null,
           null
         ]
       ],
