@@ -5,7 +5,7 @@
     global Highcharts
 */
 
-// use this tenplate for bubbles on maps
+//use this template for pies on map
 
 (function(){
     return {
@@ -82,22 +82,7 @@
                 }
             }
     	}, 
-    	xAxis: {
-    		events: {
-				//hide svg elements on zoom
-				afterSetExtremes: function(e){
-					var divId = e['target']['chart']['renderTo']['id'] || 'dummySettingForExportServer';
-					var divIdString = '#' + divId;
-					divIdString = '';
-					//only care about zoom events, not pan
-					if (e.trigger != 'pan'){
-						//determine current zoom level
-						var zoom = (e.dataMax - e.dataMin) / (e.max - e.min);
-						$(divIdString + ' .pieLegendHideOnZoom').attr('visibility', zoom == 1 ? 'inherit' : 'hidden');
-					}
-				}
-			}
-    	},
+    	
 		/* series with fixed data that should be added to the series object after merging with csv data */
 		"afterSeries": [
 			{
@@ -135,7 +120,7 @@
     		}
 		], 
 		customFunctions: {
-		
+		    
 			//calculate pie size using categories defined in the conf object
 			pieSizeCategorical: function(value, conf){
 				for (var i=0; i < conf.length; i++ ){
@@ -159,7 +144,7 @@
             	
             	/*
                 var yAxis = chart.yAxis[0],
-                    zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
+                    zoomFactor = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
                 */
                 
 				//Negative values: return absolute value
@@ -171,7 +156,7 @@
 				
 				//transform value to a number between 0 and 1, where value 0 is represented by 0 and maxAbsValue by 1
 				var relativeValue = Math.abs(value) / maxAbsValue ;
-				
+				//console.log('absVal rel: '+ Math.abs(value) + ' ' + relativeValue);
 				//infer the pie size 
 				var maxPieArea = circleAreaByDiameter(maxPieDiameter);
 				var area = relativeValue * maxPieArea;
@@ -180,6 +165,7 @@
 				//var area = relativeValue * (maxPieArea - minPieArea) + minPieArea;
 				
 				var diameter = circleDiameterByAre(area);
+				//console.log('value absValue area diameter: ' + value + ' ' + Math.abs(value) + ' ' + area + ' ' + diameter);
 				return diameter;
             }, 
 	                			
@@ -197,13 +183,6 @@
 					Highcharts.seriesType('mappie', 'pie', {
 					    center: null, // Can't be array by default anymore
 					    clip: true, // For map navigation
-					    states: {
-					        hover: {
-					            halo: {
-					                size: 5
-					            }
-					        }
-					    },
 					    dataLabels: {
 					        enabled: false
 					    }
@@ -212,7 +191,6 @@
 					    getCenter: function () {
 					        var options = this.options,
 					            chart = this.chart,
-					            fn = this.chart.options.customFunctions,
 					            slicingRoom = 2 * (options.slicedOffset || 0);
 					        if (!options.center) {
 					            options.center = [null, null]; // Do the default here instead
@@ -267,10 +245,10 @@
 				    		    
 				    		    
 	            //draw pies onto he map			    		    
-                drawPies: function(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color){
+                drawPies: function(chart, pieSizeSeries, pieSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig){
                     
                     //iterate over each wohnviertel and draw the pies / bubbles
-	                Highcharts.each(pieSizeSeries.points, function (data) {
+	                Highcharts.each(pieSizeSeries.points, function (data, i) {
 	                    
 	                    if (!data.value) {
 	                        return; // Skip points with no data, if any
@@ -312,23 +290,48 @@
 									//pie Size proportional to absolute value, no categories used
 		                            return fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
 		                        },
-		                        data: [
-		                        	//Bubbles: Only one element in the array
-		                        	{
-		                        		name: pieSizeSeries.name,
-		                        		//put absolute value in y, real value in v
-		                        		y: Math.abs(data.value),
-		                        		v: data.value,
-		                        		color: color(data.value),
-		                        		borderColor: color(data.value)
-		                        	}
-		                        ],
 		                        dataLabels: {
 							        enabled: false
-							    }    	                        
+							    }, 
+							    data: [
+							    	/*
+		                        	//Pies: Two series
+		                        	{
+		                        		name: pieSeries[0].name,
+		                        		//put absolute value in y, real value in v
+		                        		y: Math.abs(pieSeries[0].points[i].y),
+		                        		v: pieSeries[0].points[i].y,
+		                        		color: pieSeries[0].userOptions.color,
+		                        		borderColor: pieSeries[0].userOptions.borderColor
+		                        	},
+		                        	{
+		                        		name: pieSeries[1].name,
+		                        		//put absolute value in y, real value in v
+		                        		y: Math.abs(pieSeries[1].points[i].y),
+		                        		v: pieSeries[1].points[i].y,
+		                        		color: pieSeries[1].userOptions.color,
+		                        		borderColor: pieSeries[1].userOptions.borderColor
+		                        	}
+		                        	*/
+						    	]
 	                        };
+	                        
+	                        //add data object to mapPieConfig: for bubbles only one, for pies several
+	                        pieSeries.forEach(function(item, index, arr){
+	                        	mapPieConfig.data.push(
+	                        		{
+		                        		name: item.name,
+		                        		//put absolute value in y, real value in v
+		                        		y: Math.abs(item.points[i].y),
+		                        		v: item.points[i].y,
+		                        		color: item.userOptions.color,
+		                        		borderColor: item.userOptions.borderColor
+		                        	}
+                        		);
+	                        });
+
 	                        //create the config handed in from the chart
-	                        var pieTemplate = config(data, correspondingMapSeriesItem, color);
+	                        var pieTemplate = config(data, correspondingMapSeriesItem);
 	                        //merge the two configs (2nd into first, see e.g. https://gist.github.com/TorsteinHonsi/f646f39d51d18b7d6bfb)
 	                        return Highcharts.merge(true, mapPieConfig, pieTemplate);
 	                    };
@@ -373,40 +376,30 @@
     			        }).add();	                
                 },
     	                
-                addLegendCircle: function(chart, x, y, radius, fill, cssClass){
+                addLegendCircle: function(chart, x, y, radius, fill){
                 	return chart.renderer.circle(x, y, radius, fill).attr({
     				    fill: fill,
     				    stroke: fill,
     				    'stroke-width': 1, 
     				    zIndex: 6,
-    				    class: cssClass + ' pieLegend'
+    				    class: 'pieLegend'
     				}).add();
                 },
     	                
     	                
-                addLegendLabel: function(chart, text, x, y, cssClass, useHtml){
+                addLegendLabel: function(chart, text, x, y, useHtml){
     				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
     					zIndex: 6,
-    					class: cssClass + ' pieLegend'
+    					class: 'pieLegend'
     				}).add();
                 },
                 
-                 addLegendLabelbold: function(chart, text, x, y, cssClass, useHtml){
-    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).
-    				attr({
-    					zIndex: 6,
-    					class: cssClass +' pieLegend'	})
-    				.css({
-                        fontWeight: 'bold' }).
-                     add();
-                },
-                
-                addLegendSquare: function(chart, x, y, width, fill, cssClass){
+                addLegendSquare: function(chart, x, y, width, fill){
                 	return chart.renderer.rect(x, y, width, width, 0).attr({
     		            'stroke-width':0,
     		            fill: fill,
     		            zIndex: 6,
-    		            class: cssClass + ' pieLegend'
+    		            class: 'pieLegend'
     	        	}).add();
                 },
                 
@@ -429,7 +422,7 @@
 						//if useHTMl is true, text is in span elements within DIVs classed .pieLegend. Add the class to these spans
 						$(divIdString + ' .pieLegend>span').addClass('pieLegend').addClass('pieLegendHtmlText');
 						//toggle active state of legend elements
-						var pieLegendItems = $(divIdString + ' .pieLegend');
+						var pieLegendItems = $('.pieLegend');
 						//backup original color
 						pieLegendItems.each(function(i, v){
 							if (!$(this).attr('fill_active')) {
