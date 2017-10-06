@@ -9817,7 +9817,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wettbewerbsprofile: Basel-Stadt im Vergleich zum Median-Kanton",
-		"subtitle": "",
+		"subtitle": "Stand: 2016",
 		"kuerzel": "I.04.2.06127",
 		"kuerzelKunde": "1.4",
 		"description": "Wettbewerbsprofile: Basel-Stadt im Vergleich zum Median-Kanton",
@@ -10084,6 +10084,43 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F8"
 		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Steuersätze für natürliche Personen - Vergleich zwischen Kantonshauptorten",
+		"subtitle": "Vergleich zwischen Kantonshauptorten",
+		"kuerzel": "I.04.1.06134",
+		"kuerzelKunde": "2.7",
+		"description": "Steuersätze für natürliche Personen - Vergleich zwischen Kantonshauptorten",
+		"id": 6134,
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Volkseinkommen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Steuer"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
 		"externalLinks": [
 			""
 		]
