@@ -290,7 +290,7 @@
           330920.3995
         ]
       ],
-      "name": "Kultur, Sport & Freizeit, Kirche"
+      "name": "Kultur, Sport, Freizeit & Kirche"
     },
     {
       "color": "#44ab2b",
@@ -363,7 +363,7 @@
           609618.96207
         ]
       ],
-      "name": "Ges&heit"
+      "name": "Gesundheit"
     },
     {
       "color": "#007a2f",
@@ -938,9 +938,8 @@
   "legend": {
     "symbolRadius": 0,
     "enabled": true,
-    "x": 45,
     "y": 35,
-    "itemWidth": 208,
+    "itemWidth": 202,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,

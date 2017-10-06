@@ -123,8 +123,8 @@
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Entwicklung der Staatsausgaben nach Funktion in Franken pro</tspan><tspan dy="17" x="10">Kopf</tspan><title> Entwicklung der Staatsausgaben nach Funktion in Franken pro Kopf</title>
   </text>
-  <g class="highcharts-legend" transform="translate(55,45)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="204" height="174" visibility="visible"/>
+  <g class="highcharts-legend" transform="translate(66,45)">
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="198" height="174" visibility="visible"/>
     <g clip-path="url(#c)">
       <g transform="translate(0,0)">
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1 highcharts-legend-item-hidden" transform="translate(8,3)">
@@ -142,7 +142,7 @@
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-3 highcharts-legend-item-hidden" transform="translate(8,41)">
           <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#cccccc" stroke-width="2"/>
           <text x="21" y="15" style="color:#cccccc;font-size:12px;font-weight:normal;cursor:pointer;fill:#cccccc;" text-anchor="start">
-            <tspan>Umweltschutz &amp; Raumordnung</tspan>
+            <tspan>Umweltschutz &amp; Raumordn…</tspan><title>Umweltschutz &amp; Raumordnung</title>
           </text>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-4 highcharts-legend-item-hidden" transform="translate(8,60)">
@@ -160,13 +160,13 @@
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-6 highcharts-legend-item-hidden" transform="translate(8,98)">
           <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#cccccc" stroke-width="2"/>
           <text x="21" y="15" style="color:#cccccc;font-size:12px;font-weight:normal;cursor:pointer;fill:#cccccc;" text-anchor="start">
-            <tspan>Ges&amp;heit</tspan>
+            <tspan>Gesundheit</tspan>
           </text>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-7 highcharts-legend-item-hidden" transform="translate(8,117)">
           <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#cccccc" stroke-width="2"/>
           <text x="21" y="15" style="color:#cccccc;font-size:12px;font-weight:normal;cursor:pointer;fill:#cccccc;" text-anchor="start">
-            <tspan>Kultur, Sport &amp; Freizeit, Kirche</tspan>
+            <tspan>Kultur, Sport, Freizeit &amp; Kirc…</tspan><title>Kultur, Sport, Freizeit &amp; Kirche</title>
           </text>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-8" transform="translate(8,136)">
@@ -178,7 +178,7 @@
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-9 highcharts-legend-item-hidden" transform="translate(8,155)">
           <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#cccccc" stroke-width="2"/>
           <text x="21" y="15" style="color:#cccccc;font-size:12px;font-weight:normal;cursor:pointer;fill:#cccccc;" text-anchor="start">
-            <tspan>Öffentliche Ordnung &amp; Siche…</tspan><title>Öffentliche Ordnung &amp; Sicherheit</title>
+            <tspan>Öffentliche Ordnung &amp; Sich…</tspan><title>Öffentliche Ordnung &amp; Sicherheit</title>
           </text>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-10 highcharts-legend-item-hidden" transform="translate(8,174)">

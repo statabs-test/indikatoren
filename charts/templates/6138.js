@@ -75,7 +75,7 @@
     "enabled": true,
     //"x": 45,
     "y": 35,
-    "itemWidth": 208,
+    "itemWidth": 202,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
