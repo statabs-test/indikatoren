@@ -41,8 +41,9 @@
   </g>
   <g class="highcharts-series-group">
     <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(50,41) scale(1 1)" clip-path="url(#a)">
-      <rect x="55.5" y="39.5" width="30" height="274" fill="#990300" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="197.5" y="30.5" width="30" height="283" fill="#990300" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="56" y="40" width="30" height="274" fill="#990300" class="highcharts-point"/>
+      <rect x="198" y="31" width="30" height="283" fill="#990300" class="highcharts-point"/>
+      <rect x="339" y="17" width="30" height="297" fill="#990300" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(50,41) scale(1 1)" clip-path="none"/>
   </g>

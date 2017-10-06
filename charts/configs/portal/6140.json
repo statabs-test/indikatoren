@@ -88,15 +88,14 @@
     "renderTo": "container-6140"
   },
   "plotOptions": {
-    "borderWidth": 0,
     "series": {
+      "borderWidth": 0,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
       },
       "pointPadding": 0,
-      "borderWidth": 0,
       "itemWidth": 10
     }
   },

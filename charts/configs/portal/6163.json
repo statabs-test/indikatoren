@@ -293,14 +293,13 @@
     "renderTo": "container-6163"
   },
   "plotOptions": {
-    "borderWidth": 0,
     "series": {
+      "borderWidth": 0,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
       },
-      "borderWidth": 0,
       "pointWidth": 10,
       "stacking": "normal"
     }

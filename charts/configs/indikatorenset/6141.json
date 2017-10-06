@@ -104,14 +104,13 @@
     "renderTo": "container-6141"
   },
   "plotOptions": {
-    "borderWidth": 0,
     "series": {
+      "borderWidth": 0,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
       },
-      "borderWidth": 0,
       "pointWidth": 30,
       "stacking": "normal"
     }

@@ -197,8 +197,8 @@
     "renderTo": "container-4722"
   },
   "plotOptions": {
-    "borderWidth": 0,
     "series": {
+      "borderWidth": 0,
       "dataLabels": {
         "style": {
           "fontSize": "10px"

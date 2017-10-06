@@ -130,8 +130,8 @@
     "inverted": false
   },
   "plotOptions": {
-    "borderWidth": 0,
     "series": {
+      "borderWidth": 0,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -139,7 +139,6 @@
       },
       "pointPadding": 100,
       "pointWidth": 40,
-      "borderWidth": 0,
       "stacking": "normal"
     }
   },

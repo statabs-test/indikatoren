@@ -14,7 +14,7 @@
         ],
         [
           "2014",
-          "37,9"
+          37.9
         ]
       ],
       "name": "Anteil Erneuerbare Energie",
@@ -67,8 +67,8 @@
     "renderTo": "container-6161"
   },
   "plotOptions": {
-    "borderWidth": 0,
     "series": {
+      "borderWidth": 0,
       "dataLabels": {
         "style": {
           "fontSize": "10px"

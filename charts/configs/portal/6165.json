@@ -10,15 +10,15 @@
       "data": [
         [
           "2010",
-          890314
+          898113.3
         ],
         [
           "2012",
-          829830
+          831949.5
         ],
         [
           "2014",
-          747793
+          755094.8
         ]
       ],
       "name": "CO  -Emissionen in Tonnen total (linke Skala)",
@@ -45,7 +45,7 @@
         ],
         [
           "2014",
-          3.8
+          3.9
         ]
       ],
       "name": "CO  -Emissionen in Tonnen pro Kopf (rechte Skala)",
@@ -97,14 +97,13 @@
     "renderTo": "container-6165"
   },
   "plotOptions": {
-    "borderWidth": 0,
     "series": {
+      "borderWidth": 0,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
       },
-      "borderWidth": 0,
       "pointWidth": 30,
       "stacking": "false"
     }
