@@ -69,19 +69,13 @@
         "enabled": false
     },
     "tooltip": {
-    		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}</b><br/>',
+    		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
      }
     }
   ],
-   "tooltip": {
-    //"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
-    "headerFormat": '&nbsp;&nbsp;&nbsp;Gesamtbevölkerung: <b>{point.total:,.0f}</b><br/>',
-    "shared": false, 
-    useHTML: true
-  }, 
+  
   "legend": {
     "enabled": true,
-    "x": 45,
     "y": 35,
     "itemWidth": 500,
     "layout": "horizontal",

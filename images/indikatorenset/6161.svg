@@ -23,10 +23,9 @@
   </g>
   <g class="highcharts-grid highcharts-yaxis-grid ">
     <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 50 354.5 L 475 354.5" opacity="1"/>
-    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 50 291.5 L 475 291.5" opacity="1"/>
-    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 50 229.5 L 475 229.5" opacity="1"/>
-    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 50 166.5 L 475 166.5" opacity="1"/>
-    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 50 104.5 L 475 104.5" opacity="1"/>
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 50 276.5 L 475 276.5" opacity="1"/>
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 50 198.5 L 475 198.5" opacity="1"/>
+    <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 50 119.5 L 475 119.5" opacity="1"/>
     <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 50 40.5 L 475 40.5" opacity="1"/>
   </g>
   <rect fill="none" class="highcharts-plot-border" x="50" y="41" width="425" height="313"/>
@@ -42,9 +41,8 @@
   </g>
   <g class="highcharts-series-group">
     <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(50,41) scale(1 1)" clip-path="url(#a)">
-      <rect x="55.5" y="94.5" width="30" height="219" fill="#990300" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="197.5" y="86.5" width="30" height="227" fill="#990300" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="338.5" y="74.5" width="30" height="239" fill="#990300" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="55.5" y="39.5" width="30" height="274" fill="#990300" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="197.5" y="30.5" width="30" height="283" fill="#990300" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(50,41) scale(1 1)" clip-path="none"/>
   </g>
@@ -66,20 +64,17 @@
     <text x="35" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="359" opacity="1">
       <tspan>0 %</tspan>
     </text>
-    <text x="35" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="296" opacity="1">
+    <text x="35" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="280" opacity="1">
       <tspan>10 %</tspan>
     </text>
-    <text x="35" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="233" opacity="1">
+    <text x="35" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="202" opacity="1">
       <tspan>20 %</tspan>
     </text>
-    <text x="35" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="171" opacity="1">
+    <text x="35" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="124" opacity="1">
       <tspan>30 %</tspan>
     </text>
-    <text x="35" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="108" opacity="1">
-      <tspan>40 %</tspan>
-    </text>
     <text x="35" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="46" opacity="1">
-      <tspan>50 %</tspan>
+      <tspan>40 %</tspan>
     </text>
   </g>
   <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="410">

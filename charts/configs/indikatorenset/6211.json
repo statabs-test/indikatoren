@@ -70,6 +70,10 @@
         [
           2015,
           2.9
+        ],
+        [
+          2016,
+          3
         ]
       ],
       "name": "Nettoschuldenquote in ‰ (linke Skala)"
@@ -145,6 +149,10 @@
         [
           2015,
           9313
+        ],
+        [
+          2016,
+          9950
         ]
       ],
       "name": "Nettoschulden pro Kopf in Franken (rechte Skala)"

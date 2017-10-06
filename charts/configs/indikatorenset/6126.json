@@ -1,8 +1,6 @@
 {
   "series": [
     {
-      "color": "#83522E",
-      "visible": true,
       "data": [
         [
           "ZH",
@@ -162,6 +160,9 @@
           "fontSize": "10px"
         }
       }
+    },
+    "column": {
+      "colorByPoint": true
     }
   },
   "title": {
@@ -196,7 +197,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "max": 100
   },
   "navigation": {
     "menuItemStyle": {
@@ -231,8 +233,36 @@
       "fontWeight": "normal"
     }
   },
+  "colors": [
+    "#69929B",
+    "#B00000",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B",
+    "#69929B"
+  ],
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {

@@ -65,9 +65,13 @@
         [
           2014,
           286025
+        ],
+        [
+          2015,
+          356808.52228
         ]
       ],
-      "name": "Allgemeine Verwaltung2"
+      "name": "Allgemeine Verwaltung"
     },
     {
       "color": "#a8c4cb",
@@ -134,9 +138,13 @@
         [
           2014,
           426341
+        ],
+        [
+          2015,
+          429640.20602
         ]
       ],
-      "name": "Öffentliche Ordnung und Sicherheit"
+      "name": "Öffentliche Ordnung & Sicherheit"
     },
     {
       "color": "#ffbb58",
@@ -203,6 +211,10 @@
         [
           2014,
           1458365
+        ],
+        [
+          2015,
+          1537214.68255
         ]
       ],
       "name": "Bildung"
@@ -272,9 +284,13 @@
         [
           2014,
           285868
+        ],
+        [
+          2015,
+          330920.3995
         ]
       ],
-      "name": "Kultur, Sport und Freizeit, Kirche"
+      "name": "Kultur, Sport & Freizeit, Kirche"
     },
     {
       "color": "#44ab2b",
@@ -341,9 +357,13 @@
         [
           2014,
           607410
+        ],
+        [
+          2015,
+          609618.96207
         ]
       ],
-      "name": "Gesundheit"
+      "name": "Ges&heit"
     },
     {
       "color": "#007a2f",
@@ -410,6 +430,10 @@
         [
           2014,
           963078
+        ],
+        [
+          2015,
+          897719.17894
         ]
       ],
       "name": "Soziale Sicherheit"
@@ -479,6 +503,10 @@
         [
           2014,
           252068
+        ],
+        [
+          2015,
+          282895.1272
         ]
       ],
       "name": "Verkehr"
@@ -548,9 +576,13 @@
         [
           2014,
           82268
+        ],
+        [
+          2015,
+          91338.40475
         ]
       ],
-      "name": "Umweltschutz und Raumordnung"
+      "name": "Umweltschutz & Raumordnung"
     },
     {
       "color": "#ff8028",
@@ -617,6 +649,10 @@
         [
           2014,
           23592
+        ],
+        [
+          2015,
+          117843.181
         ]
       ],
       "name": "Volkswirtschaft"
@@ -681,14 +717,18 @@
         ],
         [
           2013,
-          332778
+          338362
         ],
         [
           2014,
           323288
+        ],
+        [
+          2015,
+          300038.378
         ]
       ],
-      "name": "Finanzen und Steuern"
+      "name": "Finanzen & Steuern"
     },
     {
       "color": "#E6E6E6",
@@ -752,11 +792,15 @@
         ],
         [
           2013,
-          4542233
+          4547818
         ],
         [
           2014,
           4708304
+        ],
+        [
+          2015,
+          4954037.04231
         ]
       ],
       "name": "Total"
@@ -907,7 +951,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "I.04.1.06138"

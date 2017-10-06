@@ -1,111 +1,54 @@
 {
   "series": [
     {
-      "color": "#B00000",
       "marker": {
+        "symbol": "circle",
         "enabled": true
       },
+      "color": "#8b2223",
       "data": [
         [
           2006,
-          1460.1
+          200131849.4
         ],
         [
           2007,
-          1513.4
+          248449269.85
         ],
         [
           2008,
-          1556.9
+          263094268
         ],
         [
           2009,
-          1511
+          295020922
         ],
         [
           2010,
-          1751.4
+          299631961.95
         ],
         [
           2011,
-          1689.4
+          313767616
         ],
         [
           2012,
-          1716.5
+          332632079.29
         ],
         [
           2013,
-          1611.7
+          365275690.8
         ],
         [
           2014,
-          1739.1
+          380892265.65
         ],
         [
           2015,
-          1885
-        ],
-        [
-          2016,
-          1872
+          403731511.1
         ]
       ],
-      "name": "Direkte Steuern natürliche Personen"
-    },
-    {
-      "color": "#4f81bd",
-      "visible": true,
-      "marker": {
-        "enabled": true
-      },
-      "data": [
-        [
-          2006,
-          712.7
-        ],
-        [
-          2007,
-          781.6
-        ],
-        [
-          2008,
-          935.2
-        ],
-        [
-          2009,
-          700.6
-        ],
-        [
-          2010,
-          770.8
-        ],
-        [
-          2011,
-          733.4
-        ],
-        [
-          2012,
-          638.8
-        ],
-        [
-          2013,
-          678.5
-        ],
-        [
-          2014,
-          698.1
-        ],
-        [
-          2015,
-          734.7
-        ],
-        [
-          2016,
-          837.1
-        ]
-      ],
-      "name": "Direkte Steuern juristische Personen"
+      "name": "Einnahmen aus Quellensteuer"
     }
   ],
   "chart": {
@@ -135,7 +78,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-6132"
+    "renderTo": "container-6128"
   },
   "title": {
     "style": {
@@ -144,7 +87,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Summe der Steuereinnahmen natürlicher und juristischer Personen in Mio. Franken"
+    "text": "Steuereinnahmen aus Quellensteuer"
   },
   "subtitle": {
     "style": {
@@ -158,7 +101,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
     "min": 0,
@@ -199,31 +142,33 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt"
+    "text": "Quelle: Steuerverwaltung Basel-Stadt"
   },
   "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    "symbolRadius": 0,
-    "y": 35,
-    "itemWidth": 300,
-    "itemMarginBottom": 5,
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
+    "enabled": false,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "symbolRadius": 0
   },
   "plotOptions": {
-    "line": {
-      "connectNulls": true,
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
+    "series": {
+      "dataLabels": {
+        "enabled": true,
+        "allowOverlap": true,
+        "y": 40,
+        "formatter": function () {
+            var last = this.series.data[this.series.data.length - 1];
+            var first = this.series.data[0];
+            if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {
+              return Highcharts.numberFormat(this.point.y, 0, ",", " ");
+            }
+            return "";
+          }
       }
     }
   },
   "exporting": {
-    "filename": "I.04.1.06132"
+    "filename": "I.04.1.06128"
   }
 }

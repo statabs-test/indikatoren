@@ -1,23 +1,31 @@
 {
   "series": [
     {
-      "color": "#990300",
+      "color": "#CD9C00",
       "visible": true,
       "data": [
         [
-          "2010",
-          35
+          "Basel",
+          6309
         ],
         [
-          "2012",
-          36.2
+          "Bern",
+          7954
         ],
         [
-          "2014",
-          "37,9"
+          "Genf",
+          2791
+        ],
+        [
+          "Liestal",
+          5854
+        ],
+        [
+          "Zürich",
+          4136
         ]
       ],
-      "name": "Anteil Erneuerbare Energie",
+      "name": "2016",
       "turboThreshold": 0
     }
   ],
@@ -32,7 +40,8 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "rotation": 0
     },
     "tickColor": "#FFFFFF"
   },
@@ -41,7 +50,7 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 415,
-    "spacingBottom": 40,
+    "spacingBottom": 30,
     "style": {
       "fontFamily": "Arial"
     },
@@ -64,7 +73,7 @@
     },
     "type": "column",
     "inverted": false,
-    "renderTo": "container-6161"
+    "renderTo": "container-6134"
   },
   "plotOptions": {
     "series": {
@@ -73,7 +82,9 @@
           "fontSize": "10px"
         }
       },
-      "pointWidth": 30
+      "pointPadding": 0,
+      "borderWidth": 0,
+      "pointWidth": 40
     }
   },
   "title": {
@@ -83,7 +94,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil erneuerbare Energie am Bruttoenergieverbrauch"
+    "text": "Steuersätze für natürliche Personen - Vergleich zwischen Kantonshauptorten"
   },
   "subtitle": {
     "style": {
@@ -92,7 +103,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Vergleich zwischen Kantonshauptorten",
     "align": "left"
   },
   "yAxis": {
@@ -107,7 +118,7 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f} %"
+      "format": "{value:,.0f}"
     }
   },
   "navigation": {
@@ -137,17 +148,16 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 35,
-    "y": 35,
+    "y": 55,
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
-    "filename": "I.08.3.06161"
+    "filename": "I.04.1.06134"
   }
 }

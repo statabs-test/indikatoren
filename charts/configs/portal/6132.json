@@ -45,9 +45,13 @@
         [
           2015,
           1885
+        ],
+        [
+          2016,
+          1872
         ]
       ],
-      "name": "Einkommens- und Vermögenssteuer"
+      "name": "Direkte Steuern natürliche Personen"
     },
     {
       "color": "#4f81bd",
@@ -95,9 +99,13 @@
         [
           2015,
           734.7
+        ],
+        [
+          2016,
+          837.1
         ]
       ],
-      "name": "Gewinn- und Kapitalsteuer"
+      "name": "Direkte Steuern juristische Personen"
     }
   ],
   "chart": {

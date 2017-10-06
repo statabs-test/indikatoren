@@ -1,23 +1,83 @@
 {
   "series": [
     {
-      "color": "#990300",
+      "color": "#CD9C00",
       "visible": true,
       "data": [
         [
-          "2010",
-          35
+          "Wirtschaftsstruktur",
+          100
         ],
         [
-          "2012",
-          36.2
+          "Innovation",
+          100
         ],
         [
-          "2014",
-          "37,9"
+          "Humankapital",
+          97
+        ],
+        [
+          "Arbeitsmarkt",
+          15
+        ],
+        [
+          "Erreichbarkeit",
+          100
+        ],
+        [
+          "Einzugsgebiet",
+          86
+        ],
+        [
+          "Kostenumfeld",
+          24
+        ],
+        [
+          "Staatsfinanzen",
+          33
         ]
       ],
-      "name": "Anteil Erneuerbare Energie",
+      "name": "Basel-Stadt",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#83522E",
+      "visible": true,
+      "data": [
+        [
+          "Wirtschaftsstruktur",
+          55.5
+        ],
+        [
+          "Innovation",
+          32.5
+        ],
+        [
+          "Humankapital",
+          42.5
+        ],
+        [
+          "Arbeitsmarkt",
+          68
+        ],
+        [
+          "Erreichbarkeit",
+          55
+        ],
+        [
+          "Einzugsgebiet",
+          34
+        ],
+        [
+          "Kostenumfeld",
+          72.5
+        ],
+        [
+          "Staatsfinanzen",
+          65
+        ]
+      ],
+      "name": "Mediankanton",
       "turboThreshold": 0
     }
   ],
@@ -32,7 +92,8 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "rotation": 0
     },
     "tickColor": "#FFFFFF"
   },
@@ -41,7 +102,7 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 415,
-    "spacingBottom": 40,
+    "spacingBottom": 30,
     "style": {
       "fontFamily": "Arial"
     },
@@ -63,8 +124,8 @@
           }
     },
     "type": "column",
-    "inverted": false,
-    "renderTo": "container-6161"
+    "inverted": true,
+    "renderTo": "container-6127"
   },
   "plotOptions": {
     "series": {
@@ -73,7 +134,9 @@
           "fontSize": "10px"
         }
       },
-      "pointWidth": 30
+      "pointPadding": 0,
+      "borderWidth": 0,
+      "itemWidth": 10
     }
   },
   "title": {
@@ -83,7 +146,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil erneuerbare Energie am Bruttoenergieverbrauch"
+    "text": "Wettbewerbsprofile: Basel-Stadt im Vergleich zum Median-Kanton"
   },
   "subtitle": {
     "style": {
@@ -92,7 +155,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Stand: 2016",
     "align": "left"
   },
   "yAxis": {
@@ -108,7 +171,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f} %"
-    }
+    },
+    "max": 100
   },
   "navigation": {
     "menuItemStyle": {
@@ -133,21 +197,20 @@
   },
   "legend": {
     "symbolRadius": 0,
-    "enabled": false,
+    "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 35,
-    "y": 35,
+    "y": 55,
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f} %\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
-    "filename": "I.08.3.06161"
+    "filename": "I.04.2.06127"
   }
 }
