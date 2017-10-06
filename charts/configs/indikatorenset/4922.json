@@ -141,6 +141,7 @@
     "type": "column"
   },
   "plotOptions": {
+    "borderWidth": 0,
     "series": {
       "dataLabels": {
         "style": {

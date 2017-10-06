@@ -77,7 +77,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt im kantonalen Vergleich",
+    "text": "Basel-Stadt im kantonalen Vergleich; Stand: 2018",
     "align": "left"
   },
   "tooltip": {
@@ -112,9 +112,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: "
+    "text": "Quelle: Eidgenössische Finanzverwaltung"
   },
   "legend": {
     "enabled": false,

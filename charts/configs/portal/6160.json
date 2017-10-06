@@ -130,6 +130,7 @@
     "inverted": false
   },
   "plotOptions": {
+    "borderWidth": 0,
     "series": {
       "dataLabels": {
         "style": {

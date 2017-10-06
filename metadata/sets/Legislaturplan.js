@@ -547,7 +547,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "NFA-Ressourcenindex",
-		"subtitle": "Basel-Stadt im kantonalen Vergleich",
+		"subtitle": "Basel-Stadt im kantonalen Vergleich; Stand: 2018",
 		"kuerzel": "I.04.1.06129",
 		"kuerzelKunde": "2.1",
 		"description": "NFA-Ressourcenindex",
@@ -567,8 +567,8 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "",
+		"lesehilfe": "Der Ressourcenindex bezeichnet die fiskalisch ausschöpfbaren finanziellen Ressourcen eines Kantons. Dieser liegt im Bemessungsjahr 2018, welches auf Daten der Jahre 2012 bis 2014 beruht,  im Kanton Basel-Stadt um rund 49% über dem Schweizerischen Durchschnitt.",
+		"erlaeuterungen": "Der Ressourcenindex bildet die Grundlage für den horizontalen und vertikalen Ressoucenausgleich des Neuen Finanzausgleichs (NFA). Der Ressourcenindex soll das Ressourcenpotenzial der Kantone - d.h. die fiskalisch ausschöpfbaren finanziellen Ressourcen eines Kantons - im Vergleich zum Schweizer Durchschnitt abbilden. Zur Bemessung der fiskalisch ausschöpfbaren Ressourcen stützt sich der neue Ressourcenindex auf die Aggregierte Steuerbemessungsgrundlage (ASG). Die ASG fasst die Summe der steuerbaren Einkommen und Vermögen der natürlichen Personen sowie die Summe der Gewinne der juristischen Personen zu einer Masszahl zusammen. Die ASG pro Einwohner eines Kantons im Verhältnis zur gesamtschweizerischen ASG pro Einwohner ergibt sodann den Ressourcenindex des Kantons.",
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
@@ -579,7 +579,9 @@ var indikatorensetData = [
 			"6157"
 		],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Eidgenössische Finanzverwaltung"
+		],
 		"externalLinks": [
 			""
 		]
@@ -1942,6 +1944,45 @@ var indikatorensetData = [
 		"renderLink": [],
 		"quellenangabe": [
 			"Amt für Sozialbeiträge, Abteilung Prämienverbilligungen und Familienmietzinsbeiträge"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Anzahl stationärer Behandlungen nach Hauptbereich und Wohnort (BS vs. Nicht-BS)",
+		"subtitle": "",
+		"kuerzel": "I.14.1.06175",
+		"kuerzelKunde": "9.5",
+		"description": "Anzahl stationärer Behandlungen nach Hauptbereich und Wohnort (BS vs. Nicht-BS)",
+		"id": 6175,
+		"thema": "14 Gesundheit",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Gesundheit"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Steuerverwaltung Basel-Stadt"
 		],
 		"externalLinks": [
 			""

@@ -99,6 +99,7 @@
     "inverted": true
   },
   "plotOptions": {
+    "borderWidth": 0,
     "series": {
       "dataLabels": {
         "style": {

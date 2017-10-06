@@ -308,6 +308,7 @@
     "renderTo": "container-2952"
   },
   "plotOptions": {
+    "borderWidth": 0,
     "series": {
       "dataLabels": {
         "style": {
