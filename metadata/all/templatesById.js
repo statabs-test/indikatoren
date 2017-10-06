@@ -257,6 +257,8 @@ var templatesById = {
 	"6009": "mappie001",
 	"6124": "line001",
 	"6126": "template001",
+	"6127": "template001",
+	"6128": "line001",
 	"6129": "line001",
 	"6130": "line001",
 	"6131": "template001",

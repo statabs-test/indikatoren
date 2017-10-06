@@ -5768,6 +5768,82 @@ var indikatoren = [
 		]
 	},
 	{
+		"title": "Wettbewerbsprofile: Basel-Stadt im Vergleich zum Median-Kanton",
+		"subtitle": "",
+		"kuerzel": "I.04.2.06127",
+		"kuerzelKunde": "1.4",
+		"description": "Wettbewerbsprofile: Basel-Stadt im Vergleich zum Median-Kanton",
+		"id": 6127,
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Konjunktur",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Verwaltung"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Steuereinnahmen aus Quellensteuer",
+		"subtitle": "",
+		"kuerzel": "I.04.1.06128",
+		"kuerzelKunde": "1.5",
+		"description": "Steuereinnahmen aus Quellensteuer",
+		"id": 6128,
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Volkseinkommen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Steuer"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Steuerverwaltung Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "NFA-Ressourcenindex",
 		"subtitle": "Basel-Stadt im kantonalen Vergleich",
 		"kuerzel": "I.04.1.06129",
