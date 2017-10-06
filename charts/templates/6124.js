@@ -1,7 +1,7 @@
 (function(){
     return {
   "xAxis": {
-    "tickInterval":2
+    "tickInterval":3
   },
   "yAxis": {
 	"labels": {
@@ -10,7 +10,7 @@
   },	
   "tooltip": {
     "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
+	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>'
   },
   "series": [
     {"color": "#B00000",
@@ -21,13 +21,13 @@
     	{"color": "#007A2F",
 	visible:true,
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* dunkelgrün */
     	{"color": "#4f81bd",
 	visible:true,
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* dunkelblau */
     	/*{"color": "#662673",
