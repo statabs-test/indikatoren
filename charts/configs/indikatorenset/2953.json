@@ -325,7 +325,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Zufriedenheit mit Kultur- und Freizeitangebot nach Geschlecht"
+    "text": "Zufriedenheit mit dem Kulturangebot nach Geschlecht, Herkunft und Altersgruppe"
   },
   "subtitle": {
     "style": {
@@ -393,6 +393,6 @@
             return this.name;
         },
   "exporting": {
-    "filename": "I.50.1.06168"
+    "filename": "I.50.1.2953"
   }
 }

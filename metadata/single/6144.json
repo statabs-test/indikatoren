@@ -15,9 +15,9 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"",
-"template":"line001",
+"lesehilfe":"Von der baselstädtischen Wohnbevölkerung arbeitetenim Jahr 2015 rund 3 400 Personen im obersten Management.",
+"erlaeuterungen":"Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren. Bei der Interpretation der Ergebnisse muss die Unsicherheit von Stichprobenerhebungen berücksichtigt werden.",
+"template":"template001",
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
@@ -25,6 +25,6 @@
 "parentId":null,
 "children":[],
 "renderLink":[],
-"quellenangabe":[],
+"quellenangabe":["Bundesamt für Statistik (BFS), Strukturerhebung (SE)"],
 "externalLinks":[""]
 }

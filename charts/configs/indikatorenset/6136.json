@@ -557,7 +557,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "nach Geschlecht, Herkunft und Altersgruppe"
+    "text": "«Welches ist Ihre höchste abgeschlossene Schul- und Berufsbildung?»"
   },
   "navigation": {
     "menuItemStyle": {
@@ -611,9 +611,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: "
+    "text": "Quelle: Statistisches Amt des Kantons Basel-Stadt, Bevölkerungsbefragung Basel-Stadt 2015, S15A"
   },
   "legend": {
     "reversed": true,

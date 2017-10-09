@@ -80,7 +80,7 @@
     <g class="highcharts-markers highcharts-series-4 highcharts-column-series highcharts-color-undefined " transform="translate(53,112) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Anteil Befragte, die mit der Gesundheitsversorgung eher oder</tspan><tspan dy="17" x="10">sehr zufrieden sind</tspan><title>Anteil Befragte, die mit der Gesundheitsversorgung eher oder sehr zufrieden sind</title>
+    <tspan>Zufriedenheit mit der Gesundheitsversorgung nach</tspan><tspan dy="17" x="10">Geschlecht, Herkunft und Altersgruppe</tspan><title>Zufriedenheit mit der Gesundheitsversorgung nach Geschlecht, Herkunft und Altersgruppe</title>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="57">
     <tspan>«Wie zufrieden sind Sie mit der Gesundheitsversorgung?»</tspan>

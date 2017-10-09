@@ -15,7 +15,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"",
+"lesehilfe":"Im Jahr 2010 lag der Anteil der erneuerbaren Energieträger bei 35,0%. Zwei Jahre später fiel der Wert mit 36,2% bereits höher aus.<br>Im Jahr 2014  stammte 37,9% der Energie aus erneuerbaren Quellen.",
 "erlaeuterungen":"",
 "template":"template001",
 "option":"options001",
@@ -25,6 +25,6 @@
 "parentId":3094,
 "children":[],
 "renderLink":[],
-"quellenangabe":[],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Energiestatistik"],
 "externalLinks":[""]
 }

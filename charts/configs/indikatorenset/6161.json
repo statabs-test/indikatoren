@@ -128,9 +128,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: "
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik"
   },
   "legend": {
     "symbolRadius": 0,

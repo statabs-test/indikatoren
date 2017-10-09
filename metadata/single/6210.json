@@ -15,8 +15,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"",
+"lesehilfe":"Das Angebot an Tagesbetreuungsplätzen wurde seit 2016 kontinuierlich ausgebaut. 2016 stehen insgesamt 4161 Plätze zur Verfügung. Davon stehen 90 Plätze in Tagesfamilien zur Verfügung.",
+"erlaeuterungen":"Stichwoche im Oktober.",
 "template":"line001",
 "option":"options001",
 "visible":true,
@@ -25,6 +25,6 @@
 "parentId":null,
 "children":[],
 "renderLink":[],
-"quellenangabe":[],
+"quellenangabe":["Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"],
 "externalLinks":[""]
 }

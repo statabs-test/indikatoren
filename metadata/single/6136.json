@@ -1,5 +1,5 @@
 {"title":"Höchste abgeschlossene Ausbildung",
-"subtitle":"nach Geschlecht, Herkunft und Altersgruppe",
+"subtitle":"«Welches ist Ihre höchste abgeschlossene Schul- und Berufsbildung?»",
 "kuerzel":"I.50.1.06136",
 "kuerzelKunde":"3.3",
 "description":"Höchste abgeschlossene Ausbildung",
@@ -15,7 +15,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"",
+"lesehilfe":"10,2% haben einen obligatorischen<br>Unterschiede bei der Schul- und Berufsbildung bestehen bei den Geschlechtern, der Herkunft und der Altersgruppen. 33,5% absolvierten ein Studium an einer Fachhochschule oder Universität. Ein deutlicher Unterschied zwischen den Geschlechtern zu beobachten: Bei den Männern liegt der Anteil bei 39,2%, bei den Frauen bei 28,6%.",
 "erlaeuterungen":"",
 "template":"befragungenProzent001",
 "option":"options001",
@@ -25,6 +25,6 @@
 "parentId":5191,
 "children":[],
 "renderLink":[],
-"quellenangabe":[],
+"quellenangabe":["Statistisches Amt des Kantons Basel-Stadt, Bevölkerungsbefragung Basel-Stadt 2015, S15A"],
 "externalLinks":[""]
 }

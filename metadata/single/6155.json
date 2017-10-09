@@ -9,13 +9,13 @@
 "kennzahlenset":"Legislaturplan",
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
-"schlagwort":["Mobilität"],
+"schlagwort":["EuroAirport","Zoll","Zug","Mobilität"],
 "stufe1":"",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"",
+"lesehilfe":"Der Transit durch die Region Basel nimmt auf der Strasse kontinuierlich ab. Dafür ist ein klarer Aufwärtstrend auf den Schienen erkennbar.",
 "erlaeuterungen":"",
 "template":"line001",
 "option":"options001",
@@ -25,6 +25,6 @@
 "parentId":null,
 "children":[],
 "renderLink":[],
-"quellenangabe":[],
+"quellenangabe":["Eidgenössische Zollverwaltung EZV"],
 "externalLinks":[""]
 }
