@@ -1,10 +1,10 @@
 (function(){
     return {
     "series": [
-        {"color": "#2B0099"}, // dunkelblau
-        {"color": "#B6CFD7"}, // hellblau,
-        {"color": "#3C3C3C"}, // grau
-        {"color": "#E6E600"}, //hellorange
+        {"color": "#256370"}, // 
+        {"color": "#71A3B5"}, // 
+        {"color": "#FFBB58"}, // 
+        {"color": "#8A8A8A"}, //
 ],
   "xAxis": {
       "type": "category",
