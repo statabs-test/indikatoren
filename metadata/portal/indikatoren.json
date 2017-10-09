@@ -6071,6 +6071,45 @@
 		]
 	},
 	{
+		"title": "Jährlich durch  Stau generierte Verzögerungszeit",
+		"subtitle": "",
+		"kuerzel": "I.11.6.06156",
+		"kuerzelKunde": "5.5",
+		"description": "Jährlich durch  Stau generierte Verzögerungszeit",
+		"id": 6156,
+		"thema": "11 Verkehr",
+		"unterthema": "Mobilitätsverhalten",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Mobilität"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Eine Verzögerungszeit von 27% bedeutet, dass eine durchschnittliche Reise 27% länger dauert als dies unter staufreien Bedingungen der Fall wäre.",
+		"erlaeuterungen": "Detaillierte Informationen zu den TomTom Staudaten und der angewandten Methodik finden Sie hier: https://www.google.ch/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwi1gJSj1ePWAhVCL1AKHYIVAvEQFggrMAA&url=http%3A%2F%2Fwww.congres-atecitsfrance.fr%2Fwp-content%2Fuploads%2F2013%2F12%2FCOHN_com085-Atelier-A7.pdf&usg=AOvVaw2VO2AxK37y7-LebxQcI6el, https://www.tomtom.com/en_gb/trafficindex/about",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"https://www.tomtom.com/en_gb/trafficindex/city/BAS"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Energieverbrauch nach Verbrauchergruppe in Mio. kWh",
 		"subtitle": "",
 		"kuerzel": "I.08.1.06160",

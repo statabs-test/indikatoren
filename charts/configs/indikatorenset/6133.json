@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#2B0099",
+      "color": "#256370",
       "data": [
         [
           "2003 (N=1497)",
@@ -28,7 +28,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#B6CFD7",
+      "color": "#71A3B5",
       "data": [
         [
           "2003 (N=1497)",
@@ -55,7 +55,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#3C3C3C",
+      "color": "#8A8A8A",
       "data": [
         [
           "2003 (N=1497)",
@@ -82,7 +82,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#E6E600",
+      "color": "#FFBB58",
       "data": [
         [
           "2003 (N=1497)",
