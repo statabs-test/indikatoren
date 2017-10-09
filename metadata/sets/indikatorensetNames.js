@@ -4,6 +4,7 @@ var indikatorensetNames = [
 	"Umwelt",
 	"Gesellschaftlicher Zusammenhalt",
 	"Wohnviertel",
+	"Richtplan_NEU",
 	"Richtplan",
 	"Richtplan-Print",
 	"Test"

@@ -100,7 +100,7 @@
     <g class="highcharts-markers highcharts-series-4 highcharts-line-series highcharts-color-undefined " transform="translate(65,123) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Anzahl Wegpendler aus Basel-Stadt nach Ziel</tspan>
+    <tspan>Zu- und Wegpendler nach Herkunft und Ziel</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(60,30)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="196" height="81" visibility="visible"/>

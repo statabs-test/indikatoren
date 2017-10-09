@@ -3766,12 +3766,25 @@
       "text": ""
     }
   },
+  "xAxis": {
+    "events": {
+      "afterSetExtremes": function (e){
+					var divId = e['target']['chart']['renderTo']['id'] || 'dummySettingForExportServer';
+					var divIdString = '#' + divId;
+					divIdString = '';
+					//only care about zoom events, not pan
+					if (e.trigger != 'pan'){
+						//determine current zoom level
+						var zoom = (e.dataMax - e.dataMin) / (e.max - e.min);
+						$(divIdString + ' .pieLegendHideOnZoom').attr('visibility', zoom == 1 ? 'inherit' : 'hidden');
+					}
+				}
+    }
+  },
   "customFunctions": {
     "pieSizeCategorical": function (value, conf){
 				for (var i=0; i < conf.length; i++ ){
-					//console.log('checking value ' + value);
 					if (value >= conf[i].from && value < conf[i].to) {
-						//console.log('found conf object:  + ' + JSON.stringify(conf[i]));
 						return conf[i];
 					}
 				}
@@ -3788,7 +3801,7 @@
             	
             	/*
                 var yAxis = chart.yAxis[0],
-                    zoomFactor = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
+                    zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
                 */
                 
 				//Negative values: return absolute value
@@ -3800,7 +3813,7 @@
 				
 				//transform value to a number between 0 and 1, where value 0 is represented by 0 and maxAbsValue by 1
 				var relativeValue = Math.abs(value) / maxAbsValue ;
-				//console.log('absVal rel: '+ Math.abs(value) + ' ' + relativeValue);
+				
 				//infer the pie size 
 				var maxPieArea = circleAreaByDiameter(maxPieDiameter);
 				var area = relativeValue * maxPieArea;
@@ -3809,7 +3822,7 @@
 				//var area = relativeValue * (maxPieArea - minPieArea) + minPieArea;
 				
 				var diameter = circleDiameterByAre(area);
-				//console.log('value absValue area diameter: ' + value + ' ' + Math.abs(value) + ' ' + area + ' ' + diameter);
+
 				return diameter;
             },
     "defineTemplate": function (){
@@ -3840,6 +3853,7 @@
 					    getCenter: function () {
 					        var options = this.options,
 					            chart = this.chart,
+					            fn = this.chart.options.customFunctions,
 					            slicingRoom = 2 * (options.slicedOffset || 0);
 					        if (!options.center) {
 					            options.center = [null, null]; // Do the default here instead
@@ -3992,40 +4006,42 @@
     			        	//class: 'pieLegend'
     			        }).add();	                
                 },
-    "addLegendCircle": function (chart, x, y, radius, fill){
+    "addLegendCircle": function (chart, x, y, radius, fill, cssClass){
                 	return chart.renderer.circle(x, y, radius, fill).attr({
     				    fill: fill,
     				    stroke: fill,
     				    'stroke-width': 1, 
     				    zIndex: 6,
-    				    class: 'pieLegend'
+    				    class: cssClass + ' pieLegend'
     				}).add();
                 },
-    "addLegendLabel": function (chart, text, x, y, useHtml){
+    "addLegendLabel": function (chart, text, x, y, cssClass, useHtml){
     				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
     					zIndex: 6,
-    					class: 'pieLegend'
+    					class: cssClass + ' pieLegend'
     				}).add();
                 },
-    "addLegendLabelbold": function (chart, text, x, y, useHtml){
+    "addLegendLabelbold": function (chart, text, x, y, cssClass, useHtml){
     				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).
     				attr({
     					zIndex: 6,
-    					class: 'pieLegend'	})
+    					class: cssClass +' pieLegend'	})
     				.css({
                         fontWeight: 'bold' }).
                      add();
                 },
-    "addLegendSquare": function (chart, x, y, width, fill){
+    "addLegendSquare": function (chart, x, y, width, fill, cssClass){
                 	return chart.renderer.rect(x, y, width, width, 0).attr({
     		            'stroke-width':0,
     		            fill: fill,
     		            zIndex: 6,
-    		            class: 'pieLegend'
+    		            class: cssClass + ' pieLegend'
     	        	}).add();
                 },
     "AddPieLegendClickHandler": function (chart){
-				    $('.pieLegend').click(function(){
+					var divId = chart['renderTo']['id'] || 'dummySettingForExportServer';
+					var divIdString = '#' + divId;
+				    $(divIdString + ' .pieLegend').click(function(){
 						//Toggle visible of mappies
 						Highcharts.each(chart.series, function (series) {
 							if (series.userOptions.type == 'mappie'){
@@ -4036,9 +4052,9 @@
 						
 						
 						//if useHTMl is true, text is in span elements within DIVs classed .pieLegend. Add the class to these spans
-						$('.pieLegend>span').addClass('pieLegend').addClass('pieLegendHtmlText');
+						$(divIdString + ' .pieLegend>span').addClass('pieLegend').addClass('pieLegendHtmlText');
 						//toggle active state of legend elements
-						var pieLegendItems = $('.pieLegend');
+						var pieLegendItems = $(divIdString + ' .pieLegend');
 						//backup original color
 						pieLegendItems.each(function(i, v){
 							if (!$(this).attr('fill_active')) {
@@ -4061,7 +4077,7 @@
 								}
 							});
 							//same for html text spans
-							$('.pieLegendHtmlText').css('color', '#cccccc');
+							$(divIdString + ' .pieLegendHtmlText').css('color', '#cccccc');
 						} 
 						else {
 							pieLegendItems.each(function(i, v){
@@ -4070,7 +4086,7 @@
 								$(this).attr('stroke', $(this).attr('stroke_active'));	
 							});
 							//same for html text spans
-							$('.pieLegendHtmlText').css('color', 'black');
+							$(divIdString + ' .pieLegendHtmlText').css('color', 'black');
 						}
 					});
 				}

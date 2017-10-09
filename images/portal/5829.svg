@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" width="485" height="415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
     Created with Highstock 5.0.14
   </desc>
@@ -242,26 +242,26 @@
       <tspan>Differenz 2016 zu 1997</tspan>
     </text>
   </g>
-  <circle cx="410" cy="275" r="1.046479035922714" fill="grey" stroke="grey" stroke-width="1" class="pieLegend"/>
-  <g class="pieLegend" transform="translate(430,265)">
+  <circle cx="410" cy="275" r="1.046479035922714" fill="grey" stroke="grey" stroke-width="1" class="undefined pieLegend"/>
+  <g class="undefined pieLegend" transform="translate(430,265)">
     <text x="3" y="15">
       0,001
     </text>
   </g>
-  <circle cx="410" cy="300" r="10.464790359227141" fill="grey" stroke="grey" stroke-width="1" class="pieLegend"/>
-  <g class="pieLegend" transform="translate(430,290)">
+  <circle cx="410" cy="300" r="10.464790359227141" fill="grey" stroke="grey" stroke-width="1" class="undefined pieLegend"/>
+  <g class="undefined pieLegend" transform="translate(430,290)">
     <text x="3" y="15">
       0.10
     </text>
   </g>
-  <rect x="290" y="270" width="10" height="10" fill="#7F5F1A" class="pieLegend"/>
-  <g class="pieLegend" transform="translate(310,265)">
+  <rect x="290" y="270" width="10" height="10" fill="#7F5F1A" class="undefined pieLegend"/>
+  <g class="undefined pieLegend" transform="translate(310,265)">
     <text x="3" y="15">
       Zunahme
     </text>
   </g>
-  <rect x="290" y="295" width="10" height="10" fill="#FABD24" class="pieLegend"/>
-  <g class="pieLegend" transform="translate(310,290)">
+  <rect x="290" y="295" width="10" height="10" fill="#FABD24" class="undefined pieLegend"/>
+  <g class="undefined pieLegend" transform="translate(310,290)">
     <text x="3" y="15">
       Abnahme
     </text>
