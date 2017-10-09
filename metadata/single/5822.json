@@ -1,4 +1,4 @@
-{"title":"Anteil Einwohner pro ÖV-Güteklasse",
+﻿{"title":"Anteil Einwohner pro ÖV-Güteklasse",
 "subtitle":"",
 "kuerzel":"I.11.2.05822",
 "kuerzelKunde":"ST 6-1",
@@ -21,10 +21,10 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
-"orderKey":"06_00_00_00_00_001",
+"orderKey":"03_00_00_00_00_001",
 "parentId":null,
-"children":["5882"],
+"children":["5882","6111"],
 "renderLink":[],
-"quellenangabe":["Bau- und Verkehrsdepartement des Kantons Basel-Stadt"],
+"quellenangabe":["Amt für Mobilität Basel-Stadt"],
 "externalLinks":[""]
 }

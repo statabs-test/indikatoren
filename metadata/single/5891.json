@@ -1,4 +1,4 @@
-{"title":"Kontinentale Erreichbarkeit",
+﻿{"title":"Kontinentale Erreichbarkeit",
 "subtitle":"Basel-Stadt im Vergleich",
 "kuerzel":"I.11.2.05891",
 "kuerzelKunde":"ST 8-1",
@@ -21,9 +21,9 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":false,
-"orderKey":"08_00_00_00_00_001",
+"orderKey":"05_00_00_00_00_001",
 "parentId":3104,
-"children":["5908"],
+"children":["5908","6119"],
 "renderLink":[],
 "quellenangabe":["BAK Basel Economics"],
 "externalLinks":[""]

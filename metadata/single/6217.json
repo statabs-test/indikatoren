@@ -1,4 +1,4 @@
-{"title":"Leerstehende Industrie- und Gewerberäume",
+﻿{"title":"Leerstehende Industrie- und Gewerberäume",
 "subtitle":"in Quadratmeter",
 "kuerzel":"I.09.2.06217",
 "kuerzelKunde":"ST 7-3",
@@ -15,7 +15,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"",
+"lesehilfe":"Die Büroflächen machen über die Hälfte aller leeren Geschäftsflächen aus.",
 "erlaeuterungen":"",
 "template":"line001",
 "option":"options001",
@@ -23,7 +23,7 @@
 "visibleInPortal":true,
 "orderKey":"04_00_00_00_00_003",
 "parentId":null,
-"children":["6224"],
+"children":["6224","6232"],
 "renderLink":[],
 "quellenangabe":["SVIT beider Basel"],
 "externalLinks":[""]

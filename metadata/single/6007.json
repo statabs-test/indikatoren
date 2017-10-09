@@ -1,4 +1,4 @@
-{"title":"Verkehrsleistungsindex",
+﻿{"title":"Verkehrsleistungsindex",
 "subtitle":"",
 "kuerzel":"I.02.6.06007",
 "kuerzelKunde":"ST 8-2",
@@ -21,9 +21,9 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
-"orderKey":"08_00_00_00_00_002",
+"orderKey":"05_00_00_00_00_002",
 "parentId":null,
-"children":["6008"],
+"children":["6008","6123"],
 "renderLink":[],
 "quellenangabe":["Amt für Mobilität Basel-Stadt"],
 "externalLinks":[""]

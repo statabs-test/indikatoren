@@ -1,4 +1,4 @@
-{"title":"Nettowohnungsproduktion",
+﻿{"title":"Nettowohnungsproduktion",
 "subtitle":"nach Wohnviertel von 2007 bis 2016",
 "kuerzel":"I.09.1.05817",
 "kuerzelKunde":"ST 4-8",
@@ -21,9 +21,9 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
-"orderKey":"04_00_00_00_00_008",
+"orderKey":"01_00_00_00_00_008",
 "parentId":null,
-"children":["5877"],
+"children":["5877","6107"],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"],
 "externalLinks":[""]

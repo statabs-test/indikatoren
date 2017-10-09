@@ -1,4 +1,4 @@
-{"title":"Bruttogeschossfläche Total",
+﻿{"title":"Bruttogeschossfläche Total",
 "subtitle":"nach Wohnviertel",
 "kuerzel":"I.09.1.06219",
 "kuerzelKunde":"ST 6-3",
@@ -23,7 +23,7 @@
 "visibleInPortal":true,
 "orderKey":"03_00_00_00_00_003",
 "parentId":null,
-"children":["6226"],
+"children":["6226","6234"],
 "renderLink":[],
 "quellenangabe":["Planungsamt Basel-Stadt"],
 "externalLinks":[""]

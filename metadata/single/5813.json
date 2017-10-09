@@ -1,4 +1,4 @@
-{"title":"Leerwohnungsquote",
+﻿{"title":"Leerwohnungsquote",
 "subtitle":"",
 "kuerzel":"I.09.2.05813",
 "kuerzelKunde":"ST 4-4",
@@ -21,9 +21,9 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
-"orderKey":"04_00_00_00_00_004",
+"orderKey":"01_00_00_00_00_004",
 "parentId":null,
-"children":["5873"],
+"children":["5873","6103"],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Leerstandserhebung"],
 "externalLinks":[""]
