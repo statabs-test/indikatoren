@@ -15,9 +15,9 @@
   },
   "xAxis": {
   	"type": "category",
-   //"tickInterval": 1
-           "labels": {
-           	//padding: -100,
+   "tickInterval": 1,
+          "labels": {
+          	step: 1,
             "rotation": 0,
         }  
   },
