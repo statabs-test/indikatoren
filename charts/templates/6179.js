@@ -1,46 +1,47 @@
 (function(){
     return {
-   "yAxis": {
-    "labels": {
-      "format": "{value:,.0f}",
-    }
-  },
+   plotOptions: {
+        series: {
+            pointPadding: 0,
+            borderWidth: 0,
+			itemWidth: 10, 
+
+        }
+   },
   "xAxis": {
-	"tickInterval": 1,
+    "type": "category",
+    "labels": {
+      "rotation": 0 
+    } 
+  },
+  "yAxis": {
+	//"max": 100,
+    "labels": {
+      "format": "{value:,.0f} %"
+    }    
   },
   "series": [
-    {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },     
-      "color": "#8b2223"
+  {"color": "#CD9C00", "visible": true} /* hellbraun*/
+ ],
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    //"x": 25,
+	"y": 25,    
+    "itemStyle": {
+      "fontWeight": "normal"
     }
-  ],
-  "tooltip": {
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+  },
+   tooltip: {
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f} %</b><br/>',
     "shared": false
   },
-  "plotOptions": {
-    "series": {
-      "dataLabels": {
-        "enabled": true,
-        "allowOverlap": true,
-          y: 30,
-          //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
-          formatter: function() {
-            var last = this.series.data[this.series.data.length - 1];
-            var first = this.series.data[0];
-            if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {
-              return Highcharts.numberFormat(this.point.y, 0, ",", " ");
-            }
-            return "";
-          }
-      }
-    },
-    
-    
+  "chart": {      
+    "type": "column",
+    "inverted": false,
+    //"spacingTop": 100
   }
 }
 }());
-

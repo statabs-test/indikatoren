@@ -1,7 +1,7 @@
 (function(){
     return {
   "xAxis": {
-    "tickInterval": 1
+    //"tickInterval": 1
   },
   "yAxis": {
 	"labels": {
@@ -22,10 +22,12 @@
 	visible:true,
       "marker": {
         "enabled": false
-      }    
+      },
+       dashStyle: 'LongDash'
     }, /* schwarz */
   ],
   "legend": {
+  	symbolWidth: 30,
     "enabled": true,
     //"x": 45,
     "y": 35,
