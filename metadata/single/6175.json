@@ -15,8 +15,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"",
+"lesehilfe":"Im Jahr 2016 wurden mehr Behandlungen an Patienten ausserhalb von Basel-Stadt durchgeführt (40'481), als Patienten mit Wohnort im Kanton Basel-Stadt (38585). Von den insgesamt 38'585 BS-Behandlungen stammen über 77% aus der Akutsomatik. Bei den Behandlungen ausserhalb von Basel-Stadt macht der Anteil der Akutsomatik-Behandlungen hingegen über 91% aus.",
+"erlaeuterungen":"Gezählt werden alle stationäre Fälle mit Austritt im jeweiligen Erhebungsjahr (A-Fälle). Die Aufteilung in BS und Nicht-BS erfolgt gemäss dem Wohnort. Fälle mit einem Wohnsitz im Ausland sind in den Nicht-BS-Fällen eingeschlossen. Die Aufteilung in die Hauptbereiche erfolgt gemässe der Hauptkostenstelle.",
 "template":"template001",
 "option":"options001",
 "visible":true,
@@ -25,6 +25,6 @@
 "parentId":null,
 "children":[],
 "renderLink":[],
-"quellenangabe":["Steuerverwaltung Basel-Stadt"],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Gesundheitsstatistik"],
 "externalLinks":[""]
 }

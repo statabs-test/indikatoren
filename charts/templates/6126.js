@@ -1,6 +1,9 @@
 (function(){
     return {
   "plotOptions": {
+  	   series: {
+          //pointWidth: 5, 
+        },
     "column": {
         "colorByPoint": true
     }

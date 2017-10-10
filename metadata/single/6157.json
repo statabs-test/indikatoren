@@ -15,8 +15,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"",
+"lesehilfe":"Sowohl die Stickstoffdioxid- als auch die Feinstaubkonzentrationen lagen 2016 mit 25 resp. 16 Mikrogramm pro Kubikmeter unter dem jeweiligen Grenzwert.",
+"erlaeuterungen":"Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung.",
 "template":"line001",
 "option":"options001",
 "visible":true,
@@ -25,6 +25,6 @@
 "parentId":6129,
 "children":[],
 "renderLink":[],
-"quellenangabe":[],
+"quellenangabe":["Lufthygieneamt beider Basel"],
 "externalLinks":[""]
 }

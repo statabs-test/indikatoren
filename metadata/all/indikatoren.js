@@ -68,7 +68,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "45,4% der Befragten sind der Meinung, dass es in Basel gute Teilzeitstellen gibt, so dass Väter und Mütter Beruf und Familie unter einen Hut bringen können. Männer stimmen dieser Aussage mit 49,5% häufiger zu als Frauen mit 41,9%. Seit 2003 ist die Einschätzung des Angebots an Teilzeitstellen kontinuierlich gestiegen: 2003 waren 36,8% sehr oder eher einverstanden mit der Aussage, 2015 liegt die Zustimmung bei 45,4%.",
-		"erlaeuterungen": "Antwortkategorien \"Sehr einverstanden\" und \"Eher einverstanden\" werden zusammengefasst. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt.",
+		"erlaeuterungen": "Antwortkategorien «Sehr einverstanden» und «Eher einverstanden» werden zusammengefasst. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
@@ -83,7 +83,7 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F16a_9"
 		],
 		"externalLinks": [
-			"Bearbeiten Sie diese Karte im <a href='https://basleratlas.ch/#i=ru_gruen.gruenflaeche_ant' target='_blank'>Basler Atlas</a>."
+			""
 		]
 	},
 	{
@@ -212,6 +212,46 @@ var indikatoren = [
 		"renderLink": [],
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Anteile der Verkehrsmittel für die Agglomeration Basel-Stadt 2005",
+		"subtitle": "",
+		"kuerzel": "I.11.6.3103",
+		"kuerzelKunde": "LP.3.11.1A",
+		"description": "Anteile der Verkehrsmittel für die Agglomeration Basel-Stadt 2005",
+		"id": 3103,
+		"thema": "11 Verkehr",
+		"unterthema": "Mobilitätsverhalten",
+		"kennzahlenset": "Legislaturplan 2013-2017",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2016-12-06T11:12:19.1919",
+		"schlagwort": [
+			"Verkehr",
+			"Zug"
+		],
+		"stufe1": "Schwerpunkt 3: Basel ist Zentrum des Metropolitanraums",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Anteil des nichtmotorisierten Individualverkehrs (Velo und zu Fuss) an der Anzahl Etappen bleibt zwischen 2005 und 2010 konstant bei über 57%. Rund die Hälfte der Unterwegszeit wird unmotorisiert zurückgelegt, 30% motorisiert und 19% mit öffentlichen Verkehrsmitteln (ÖV). Bei der Tagesdistanz überwiegen die Anteile des motorisierten Individualverkehrs und des öffentlichen Verkehrs.",
+		"erlaeuterungen": "Basis: 4 512 Inlandetappen im Jahr 2005, 22 060 Etappen im Jahr 2010; Filter: Zielpersonen mit Wohnort in der Agglomeration Basel. Diese umfasst die \"Kerngemeinde\" Basel sowie die mit ihr formal und funktional verflochtenen Agglomerationsgemeinden (Umland)",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Raumentwicklung, Mikrozensus zum Verkehrsverhalten"
 		],
 		"externalLinks": [
 			""
@@ -4795,9 +4835,10 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
+		"orderKey": "17_00_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"6007"
+			"6154"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -8646,6 +8687,167 @@ var indikatoren = [
 		]
 	},
 	{
+		"title": "Anteile der Verkehrsmittel für die Agglomeration Basel-Stadt 2010",
+		"subtitle": "",
+		"kuerzel": "I.11.6.5039",
+		"kuerzelKunde": "LP.3.11.1B",
+		"description": "Anteile der Verkehrsmittel für die Agglomeration Basel-Stadt 2010",
+		"id": 5039,
+		"thema": "11 Verkehr",
+		"unterthema": "Mobilitätsverhalten",
+		"kennzahlenset": "Legislaturplan 2013-2017",
+		"raeumlicheGliederung": [
+			"Schweiz"
+		],
+		"aktualisierungsdatum": "2016-12-06T11:30:15.1515",
+		"schlagwort": [
+			"Verkehr",
+			"Zug"
+		],
+		"stufe1": "Schwerpunkt 3: Basel ist Zentrum des Metropolitanraums",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Anteil des nichtmotorisierten Individualverkehrs (Velo und zu Fuss) an der Anzahl Etappen bleibt zwischen 2005 und 2010 konstant bei über 57%. Rund die Hälfte der Unterwegszeit wird unmotorisiert zurückgelegt, 30% motorisiert und 19% mit öffentlichen Verkehrsmitteln (ÖV). Bei der Tagesdistanz überwiegen die Anteile des motorisierten Individualverkehrs und des öffentlichen Verkehrs.",
+		"erlaeuterungen": "Basis: 4 512 Inlandetappen im Jahr 2005, 22 060 Etappen im Jahr 2010; Filter: Zielpersonen mit Wohnort in der Agglomeration Basel. Diese umfasst die \"Kerngemeinde\" Basel sowie die mit ihr formal und funktional verflochtenen Agglomerationsgemeinden (Umland)",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Raumentwicklung, Mikrozensus zum Verkehrsverhalten"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Anzahl behindertengerechte Teilhaltestellen des öffentlichen Verkehrs",
+		"subtitle": "",
+		"kuerzel": "I.11.2.05048",
+		"kuerzelKunde": "LP.7.29.1",
+		"description": "Anzahl behindertengerechte Teilhaltestellen des öffentlichen Verkehrs",
+		"id": 5048,
+		"thema": "11 Verkehr",
+		"unterthema": "Sozialleistungen",
+		"kennzahlenset": "Legislaturplan 2013-2017",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-03-02T10:25:10.1010",
+		"schlagwort": [
+			"Bevölkerung",
+			"Hilfeleistung",
+			"Verkehr"
+		],
+		"stufe1": "Schwerpunkt 7: Chancengleichheit",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Anzahl behindertengerechte Teilhaltestellen des öffentlichen Verkehrs, welche in Betrieb sind, nimmt seit 2012 kontinuierlich zu. Seit 2015 kann die Statistik für die Verkehrsträger Tram, Bus und die Kombination Tram/Bus ausgewiesen werden.",
+		"erlaeuterungen": "Behindertengerecht: Selbstständige Benutzung ohne personelle Hilfestellung, basierend auf dem Behindertengleichstellungsgesetz des Bundes (BehiG) und der Verordnung über die behindertengerechte Gestaltung des öffentlichen Verkehrs (VböV); Teilhaltestelle: Eine Teilhaltestelle ist die Infrastruktureinrichtung, an der ein Fahrzeug des öffentlichen Verkehrs hält. Eine Haltestelle besteht in den meisten Fällen aus mindestens zwei Teilhaltestellen, je eine pro Fahrtrichtung. Komplexe Haltestellen haben mehrere Teilhaltestellen. Aktuell liegen nur Angaben über die Teilhaltestellen des Tramverkehrs vor.",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "07_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bau- und Verkehrsdepartement, Mobilität, Mobilitätsplanung"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Anteile der Verkehrsmittel für die Agglomeration Basel-Stadt 2005",
+		"subtitle": "",
+		"kuerzel": "I.11.6.5058",
+		"kuerzelKunde": "LP.8.31.1.A",
+		"description": "Anteile der Verkehrsmittel für die Agglomeration Basel-Stadt 2005",
+		"id": 5058,
+		"thema": "11 Verkehr",
+		"unterthema": "Mobilitätsverhalten",
+		"kennzahlenset": "Legislaturplan 2013-2017",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-01-04T16:24:25.2525",
+		"schlagwort": [
+			"Auto",
+			"Zug"
+		],
+		"stufe1": "Schwerpunkt 8: Nachhaltiger Umgang mit Ressourcen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Anteil des nichtmotorisierten Individualverkehrs (Velo und zu Fuss) an der Anzahl Etappen liegt bei über 57%. Rund 27% der Etappen werden mit Verkehrsmittel des motorisierten Individualverkehrs zurückgelegt und 15% mit Verkehrsmitteln des öffentlichen Verkehrs.",
+		"erlaeuterungen": "Basis: 4 512 Inlandetappen im Jahr 2005, 22 060 Etappen im Jahr 2010; Filter: Zielpersonen mit Wohnort in der Agglomeration Basel. Diese umfasst die \"Kerngemeinde\" Basel sowie die mit ihr formal und funktional verflochtenen Agglomerationsgemeinden (Umland)",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "08_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Raumentwicklung, Mikrozensus zum Verkehrsverhalten"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Anteile der Verkehrsmittel für die Agglomeration Basel-Stadt 2010",
+		"subtitle": "",
+		"kuerzel": "I.11.6.5059",
+		"kuerzelKunde": "LP.8.31.1.B",
+		"description": "Anteile der Verkehrsmittel für die Agglomeration Basel-Stadt 2010",
+		"id": 5059,
+		"thema": "11 Verkehr",
+		"unterthema": "Mobilitätsverhalten",
+		"kennzahlenset": "Legislaturplan 2013-2017",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-01-04T16:27:03.033",
+		"schlagwort": [
+			"Auto",
+			"Zug"
+		],
+		"stufe1": "Schwerpunkt 8: Nachhaltiger Umgang mit Ressourcen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Anteil des nichtmotorisierten Individualverkehrs (Velo und zu Fuss) an der Anzahl Etappen liegt bei über 57%. Rund die Hälfte der Unterwegszeit wird unmotorisiert zurückgelegt, 30% motorisiert und 19% mit öffentlichen Verkehrsmitteln (ÖV). Bei der Tagesdistanz überwiegen die Anteile des motorisierten Individualverkehrs und des öffentlichen Verkehrs.",
+		"erlaeuterungen": "Basis: 4 512 Inlandetappen im Jahr 2005, 22 060 Etappen im Jahr 2010; Filter: Zielpersonen mit Wohnort in der Agglomeration Basel. Diese umfasst die \"Kerngemeinde\" Basel sowie die mit ihr formal und funktional verflochtenen Agglomerationsgemeinden (Umland)",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "08_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Raumentwicklung, Mikrozensus zum Verkehrsverhalten"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Kantonale Durchschnittsprämien je versicherte Person in Franken, Basel-Stadt im Vergleich zu BL, AG und SO",
 		"subtitle": "",
 		"kuerzel": "I.14.4.5065",
@@ -8710,8 +8912,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit rund 50 000 Beziehenden beziehen etwas mehr als ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligungen.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Mit rund 50 000 Beziehenden erhalten 2016 etwas mehr als ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligungen.",
+		"erlaeuterungen": "PV: Prämienverbilligungen",
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
@@ -8723,6 +8925,92 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Amt für Sozialbeiträge, Abteilung Prämienverbilligungen"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Anteil Befragte, die mit der Verkehrssicherheit eher oder sehr zufrieden sind nach Heimat, Alter und Geschlecht",
+		"subtitle": "«Wie zufrieden sind Sie mit der Verkehrssicherheit?»",
+		"kuerzel": "I.50.1.5067",
+		"kuerzelKunde": "LP.9.39.1",
+		"description": "Anteil Befragte, die mit der Verkehrssicherheit eher oder sehr zufrieden sind nach Heimat, Alter und Geschlecht",
+		"id": 5067,
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Legislaturplan 2013-2017",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-04-03T13:41:21.2121",
+		"schlagwort": [
+			"Alter",
+			"Zufriedenheit",
+			"Auto",
+			"Gefühl",
+			"Verkehr"
+		],
+		"stufe1": "Schwerpunkt 9: Lebensqualität und Sicherheit",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Mit einem Anteil von 86,8% sind die befragten Personen mit der Verkehrssicherheit sehr oder eher zufrieden. Die Zufriedenheit mit der Verkehrssicherheit unterscheidet sich nach Altersklasse. Während die über 70-Jährigen mit 90,2% zufrieden sind mit der Verkehrssicherheit, sind bei den 40- bis 49-Jährigen 79,8% sehr oder eher zufrieden.",
+		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt.",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "09_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_22"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Strassenverkehrsunfälle und verunfallte Personen",
+		"subtitle": "",
+		"kuerzel": "I.11.7.5068",
+		"kuerzelKunde": "LP.9.39.2",
+		"description": "Strassenverkehrsunfälle und verunfallte Personen",
+		"id": 5068,
+		"thema": "11 Verkehr",
+		"unterthema": "Strassenverkehrsunfälle",
+		"kennzahlenset": "Legislaturplan 2013-2017",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-03-03T16:02:23.2323",
+		"schlagwort": [
+			"Auto",
+			"Sicherheit",
+			"Verkehr"
+		],
+		"stufe1": "Schwerpunkt 9: Lebensqualität und Sicherheit",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Anzahl Unfälle und verunfallte Personen leicht gestiegen.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "09_00_00_00_00_000",
+		"parentId": null,
+		"children": [
+			"5186"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Kantonspolizei Basel-Stadt"
 		],
 		"externalLinks": [
 			""
@@ -9694,6 +9982,168 @@ var indikatoren = [
 		]
 	},
 	{
+		"title": "Unterwegsdistanz nach Verkehrsmittel",
+		"subtitle": "",
+		"kuerzel": "I.11.6.05902",
+		"kuerzelKunde": "ST 6-2",
+		"description": "Unterwegsdistanz nach Verkehrsmittel",
+		"id": 5902,
+		"thema": "11 Verkehr",
+		"unterthema": "Mobilitätsverhalten",
+		"kennzahlenset": "Richtplan_NEU",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"ÖV"
+		],
+		"stufe1": "Strategie 6",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2015 legten in Basel-Stadt wohnhafte Personen pro Tag im Mittel mit dem Langsamverkehr (zu Fuss, Velo) fast 4 Kilometer zurück. Mit dem öffentlichen Verkehr sowie mit dem motorisierten Individualverkehr waren es je rund 12 Kilometer.",
+		"erlaeuterungen": "",
+		"template": "pie001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_002",
+		"parentId": null,
+		"children": [
+			"5910",
+			"6121"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Raumentwicklung, Mikrozensus zum Verkehrsverhalten"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Unterwegsdistanz nach Verkehrsmittel",
+		"subtitle": "",
+		"kuerzel": "I.11.6.05902",
+		"kuerzelKunde": "ST11-3",
+		"description": "Unterwegsdistanz nach Verkehrsmittel",
+		"id": 5910,
+		"thema": "11 Verkehr",
+		"unterthema": "Mobilitätsverhalten",
+		"kennzahlenset": "Richtplan-Print",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"ÖV"
+		],
+		"stufe1": "Strategie 6",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2015 legten in Basel-Stadt wohnhafte Personen pro Tag um Mittel mit dem Langsamverkehr (zu Fuss, Velo) fast 4 Kilometer zurück. Mit dem öffentlichen Verkehr sowie mit dem motorisierten Individualverkehr waren es je rund 12 Kilometer.",
+		"erlaeuterungen": "",
+		"template": "pie001_print",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "03_00_00_00_00_000",
+		"parentId": 5902,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Raumentwicklung, Mikrozensus zum Verkehrsverhalten"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Verkehrsleistungsindex",
+		"subtitle": "",
+		"kuerzel": "I.02.6.06007",
+		"kuerzelKunde": "ST 8-2",
+		"description": "Verkehrsleistungsindex",
+		"id": 6007,
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Mobilitätsverhalten",
+		"kennzahlenset": "Richtplan_NEU",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Lärm"
+		],
+		"stufe1": "Strategie 8",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Von 2010 bis 2016 haben vor allem die Verkehrsmittel Velo und ÖV BVB/BLT einen Anstieg erfahren. Während demselben Zeitraum hat die Nutzung des Verkehrsmittel MIV Stadtstrassennetz abgenommen. Die Daten sind indexiert (Basis 2010 = 100).",
+		"erlaeuterungen": "Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1705' target='_blank'>Umweltbericht beider Basel</a>.",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "05_00_00_00_00_002",
+		"parentId": null,
+		"children": [
+			"6008",
+			"6123"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Mobilität Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Verkehrsleistungsindex",
+		"subtitle": "",
+		"kuerzel": "I.02.6.06007",
+		"kuerzelKunde": "ST 08-2",
+		"description": "Verkehrsleistungsindex",
+		"id": 6008,
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Mobilitätsverhalten",
+		"kennzahlenset": "Richtplan-Print",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Lärm"
+		],
+		"stufe1": "Strategie 8",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Von 2010 bis 2016 haben vor allem die Verkehrsmittel Velo und ÖV BVB/BLT einen Anstieg erfahren. Während demselben Zeitraum hat die Nutzung des Verkehrsmittel MIV Stadtstrassennetz abgenommen. Die Daten sind indexiert (Basis 2010 = 100).",
+		"erlaeuterungen": "Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1705' target='_blank'>Umweltbericht beider Basel</a>.",
+		"template": "line001_print",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "05_00_00_00_00_000",
+		"parentId": 6007,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Mobilität Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Leerwohnungsquote",
 		"subtitle": "nach Wohnviertel",
 		"kuerzel": "I.09.2.06009",
@@ -9735,6 +10185,84 @@ var indikatoren = [
 		]
 	},
 	{
+		"title": "Unterwegsdistanz nach Verkehrsmittel",
+		"subtitle": "",
+		"kuerzel": "I.11.6.05902",
+		"kuerzelKunde": "ST 11-3",
+		"description": "Unterwegsdistanz nach Verkehrsmittel",
+		"id": 6121,
+		"thema": "11 Verkehr",
+		"unterthema": "Mobilitätsverhalten",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"ÖV"
+		],
+		"stufe1": "Strategie 6",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2015 legten in Basel-Stadt wohnhafte Personen pro Tag im Mittel mit dem Langsamverkehr (zu Fuss, Velo) fast 4 Kilometer zurück. Mit dem öffentlichen Verkehr sowie mit dem motorisierten Individualverkehr waren es je rund 12 Kilometer.",
+		"erlaeuterungen": "",
+		"template": "pie001_print",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "03_00_00_00_00_000",
+		"parentId": 5902,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Raumentwicklung, Mikrozensus zum Verkehrsverhalten"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Verkehrsleistungsindex",
+		"subtitle": "",
+		"kuerzel": "I.02.6.06007",
+		"kuerzelKunde": "ST 8-2",
+		"description": "Verkehrsleistungsindex",
+		"id": 6123,
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Mobilitätsverhalten",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Lärm"
+		],
+		"stufe1": "Strategie 8",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Von 2010 bis 2016 haben vor allem die Verkehrsmittel Velo und ÖV BVB/BLT einen Anstieg erfahren. Während demselben Zeitraum hat die Nutzung des Verkehrsmittel MIV Stadtstrassennetz abgenommen. Die Daten sind indexiert (Basis 2010 = 100).",
+		"erlaeuterungen": "Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1705' target='_blank'>Umweltbericht beider Basel</a>.",
+		"template": "line001_print",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "05_00_00_00_00_000",
+		"parentId": 6007,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Mobilität Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Bruttoinlandprodukt in Franken pro Einwohner, nach Kanton (BS, ZH, GE)",
 		"subtitle": "",
 		"kuerzel": "I.04.1.06124",
@@ -9760,7 +10288,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Das Bruttoinlandprodukt pro Kopf ist in Basel-Stadt seit den 1990er-<br>Jahren stark gestiegen. In den letzten Jahren blieben die Werte, wie<br>für die Kantone Genf und Zürich, relativ konstant.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
@@ -9770,7 +10298,7 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"BAK Basel Economics"
+			"BAK Economics AG"
 		],
 		"externalLinks": [
 			""
@@ -9778,7 +10306,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Kantonaler Wettbewerbsindikator (KWI)",
-		"subtitle": "Basel-Stadt im nationalen Vergleich, Stand: &jahrbis%",
+		"subtitle": "Basel-Stadt im nationalen Vergleich, Stand: 2016",
 		"kuerzel": "I.04.2.06126",
 		"kuerzelKunde": "1.3",
 		"description": "Kantonaler Wettbewerbsindikator (KWI)",
@@ -9801,7 +10329,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2016 liegt Basel-Stadt beim Kantonalen Wettbewerbsindikator<br>der UBS mit einem Wert von 88,4 auf Rang 3 aller Schweizer Kantone. Der Nachbarkanton Basel-Landschaft belegt Rang 9.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Der Kantonale Wettbewerbsindikator (KWI) gibt Aufschluss über das relative längerfristige Wachstumspotenzial eines Kantons. Die Wettbewerbsfähigkeit eines Kantons beschreibt sein Potenzial für eine nachhaltige Steigerung seiner Wirtschaftsleistung. Kantone mit einer hohen relativen Wettbewerbsfähigkeit dürften längerfristig stärker wachsen als die Schweizer Gesamtwirtschaft. Hingegen ist in Kantonen mit einer tiefen relativen Wettbewerbsfähigkeit mit einem unterdurchschnittlichen Wachstum zu rechnen. Der KWI basiert auf der vergleichenden Analyse von acht Säulen mit insgesamt über 50 Variablen. Die Variablen werden gewichtet, aggregiert und normiert, sodass jeder Kanton für jede Säule eine Punktzahl zwischen 0 und 100 erhält. Zur Ermittlung des KWI wird für jeden Kanton der Durchschnitt aus den Punktzahlen der acht Säulen errechnet und so normiert, dass der höchste kantonale Durchschnittswert 100 beträgt.",
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
@@ -9811,18 +10339,18 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"UBS"
+			"UBS Switzerland AG"
 		],
 		"externalLinks": [
 			""
 		]
 	},
 	{
-		"title": "Wettbewerbsprofile: Basel-Stadt im Vergleich zum Median-Kanton",
-		"subtitle": "Stand: 2016",
+		"title": "Kantonales Wettbewerbsprofil",
+		"subtitle": "Basel-Stadt im Vergleich zum Median-Kanton; Stand: 2016",
 		"kuerzel": "I.04.2.06127",
 		"kuerzelKunde": "1.4",
-		"description": "Wettbewerbsprofile: Basel-Stadt im Vergleich zum Median-Kanton",
+		"description": "Kantonales Wettbewerbsprofil",
 		"id": 6127,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
@@ -9839,8 +10367,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "",
+		"lesehilfe": "Basel-Stadt positioniert sich bei verschiedenen Säulen des Kantonalen Wettbewerbindikators vorne, zum Beispiel bei Wirtschaftsstruktur, Innovation oder Erreichbarkeit. Für den \"Mediankanton\" wird jeweils derjenige Säulenwert auf der Skala von 0 bis 100 abgebildet, der dem Median aller Kantone dieser Säule entspricht.",
+		"erlaeuterungen": "Der Kantonale Wettbewerbsindikator (KWI) gibt Aufschluss über das relative längerfristige Wachstumspotenzial eines Kantons. Die Wettbewerbsfähigkeit eines Kantons beschreibt sein Potenzial für eine nachhaltige Steigerung seiner Wirtschaftsleistung. Kantone mit einer hohen relativen Wettbewerbsfähigkeit dürften längerfristig stärker wachsen als die Schweizer Gesamtwirtschaft. Hingegen ist in Kantonen mit einer tiefen relativen Wettbewerbsfähigkeit mit einem unterdurchschnittlichen Wachstum zu rechnen. Der KWI basiert auf der vergleichenden Analyse von acht Säulen mit insgesamt über 50 Variablen. Die Variablen werden gewichtet, aggregiert und normiert, sodass jeder Kanton für jede Säule eine Punktzahl zwischen 0 und 100 erhält. Zur Ermittlung des KWI wird für jeden Kanton der Durchschnitt aus den Punktzahlen der acht Säulen errechnet und so normiert, dass der höchste kantonale Durchschnittswert 100 beträgt.",
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
@@ -9849,7 +10377,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"UBS Switzerland AG"
+		],
 		"externalLinks": [
 			""
 		]
@@ -9876,8 +10406,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "",
+		"lesehilfe": "Der Ertrag aus der Quellenbesteuerung steigt seit vielen Jahren kontinuierlich. Zuletzt liegt er bei über 400 Mio. Franken.",
+		"erlaeuterungen": "Der Ertrag aus der Quellenbesteuerung ist hier gemäss Steuerstatistik Basel-Stadt nach Steuerjahr dargestellt. Er unterscheidet sich vom Ertrag nach Kalenderjahr, wie er im Jahresbericht des Kantons Basel-Stadt dargestellt ist. Enthalten ist auch der Anteil, der an den Bund fliesst.",
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
@@ -9936,7 +10466,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Steuerbelastung durch Reingewinn- und Kapitalsteuern für Kapitalgesellschaften und Genossenschaften",
-		"subtitle": "80 000",
+		"subtitle": "bei einem steuerbaren Reingewinn von  80 000",
 		"kuerzel": "I.04.1.06130",
 		"kuerzelKunde": "2.6a",
 		"description": "Steuerbelastung durch Reingewinn- und Kapitalsteuern für Kapitalgesellschaften und Genossenschaften",
@@ -9959,8 +10489,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Werte sind in den letzten Jahren relativ konstant.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Die Werte für Basel sind in den letzten Jahren relativ konstant. Seit 2009 liegt die Steuerbelastung in Basel höher als in den anderen dargestellten Kantonshauptorten.",
+		"erlaeuterungen": "Dargestellt ist die Steuerbelastung von Aktiengesellschaften (Handels-, Industrie, Bank-AG, ohne Beteiligungen), mit einem Kapital und Reserven von 2 Mio. Franken und einem Reingewinn von 80 000 Franken; Kanton- und Gemeindesteuer, einschliesslich Kirchensteuer. Reingewinn vor Abzug der im Geschäftsjahr bezahlten Steuern. In Genf ohne Gewerbesteuer.",
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
@@ -9970,7 +10500,7 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Eidgenössische Finanzverwaltung, Publikation"
+			"Eidgenössische Finanzverwaltung"
 		],
 		"externalLinks": [
 			""
@@ -10035,7 +10565,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Folgen der Finanz- und Wirtschaftskrise, die 2008 begann,<br>wurden vor allem bei der Gewinn- und Kapitalsteuer deutlich. Die<br>Steuereinnahmen aus Einkommens- und Vermögenssteuer<br>betrugen 2015 rund 1,86 Mrd. Franken.",
+		"lesehilfe": "Die Folgen der Finanz- und Wirtschaftskrise, die 2008 begann, wurden vor allem bei der Gewinn- und Kapitalsteuer deutlich. Die Steuereinnahmen aus Einkommens- und Vermögenssteuer betrugen 2015 rund 1,86 Mrd. Franken.",
 		"erlaeuterungen": "Steuereinnahmen gemäss Jahresrechung des Kantons Basel-Stadt; direkte Steuern natürlicher und juristischer Personen. Im Gegensatz zur Steuerstatistik auf das Kalenderjahr bezogen, nicht auf das Steuerjahr.",
 		"template": "line001",
 		"option": "options001",
@@ -10093,11 +10623,11 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Steuersätze für natürliche Personen - Vergleich zwischen Kantonshauptorten",
-		"subtitle": "Vergleich zwischen Kantonshauptorten",
+		"title": "Steuersätze für natürliche Personen",
+		"subtitle": "Vergleich zwischen Kantonshauptorten; Stand: 2016",
 		"kuerzel": "I.04.1.06134",
 		"kuerzelKunde": "2.7",
-		"description": "Steuersätze für natürliche Personen - Vergleich zwischen Kantonshauptorten",
+		"description": "Steuersätze für natürliche Personen",
 		"id": 6134,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
@@ -10153,7 +10683,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "10,2% haben einen obligatorischen<br>Unterschiede bei der Schul- und Berufsbildung bestehen bei den Geschlechtern, der Herkunft und der Altersgruppen. 33,5% absolvierten ein Studium an einer Fachhochschule oder Universität. Ein deutlicher Unterschied zwischen den Geschlechtern zu beobachten: Bei den Männern liegt der Anteil bei 39,2%, bei den Frauen bei 28,6%.",
+		"lesehilfe": "10,2% haben einen obligatorischen Unterschiede bei der Schul- und Berufsbildung bestehen bei den Geschlechtern, der Herkunft und der Altersgruppen. 33,5% absolvierten ein Studium an einer Fachhochschule oder Universität. Ein deutlicher Unterschied zwischen den Geschlechtern zu beobachten: Bei den Männern liegt der Anteil bei 39,2%, bei den Frauen bei 28,6%.",
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"option": "options001",
@@ -10320,7 +10850,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Insgesamt waren 2015 knapp 17% der Beschäftigten (in<br>Vollzeitäquivalenten) in Basel-Stadt in innovativen Branchen tätig,<br>der Grossteil davon in Industriebranchen.",
+		"lesehilfe": "Insgesamt waren 2015 knapp 17% der Beschäftigten (in Vollzeitäquivalenten) in Basel-Stadt in innovativen Branchen tätig, der Grossteil davon in Industriebranchen.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
@@ -10333,6 +10863,44 @@ var indikatoren = [
 		"quellenangabe": [
 			"Bundesamt für Statistik, Betriebszählung, STATENT"
 		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Anzahl Spin-Offs der Universität Basel",
+		"subtitle": "",
+		"kuerzel": "I.03.2.06142",
+		"kuerzelKunde": "3.9",
+		"description": "Anzahl Spin-Offs der Universität Basel",
+		"id": 6142,
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Beschäftigte ",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Bildung",
+			"Arbeit"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
 		"externalLinks": [
 			""
 		]
@@ -10482,7 +11050,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In Basel-Stadt erreichen die Löhne der Frauen seit Jahren<br>im Durchschnitt rund 80% der Löhne der Männer. Im Jahr 2014<br>lag das Verhältnis bei 82%.",
+		"lesehilfe": "In Basel-Stadt erreichen die Löhne der Frauen seit Jahren im Durchschnitt rund 80% der Löhne der Männer. Im Jahr 2014 lag das Verhältnis bei 82%.",
 		"erlaeuterungen": "Diese Ergebnisse basieren auf einer Sonderauswertung der LSE für Basel-Stadt. Die Zahlen 2012 und 2014 sind statistisch unsicher (Variationskoeffizient grösser als 5%). Grundlage ist die Median des monatlichen Bruttolohns, standardisiert, im privaten Sektor (ohne Landwirtschaft).",
 		"template": "line001",
 		"option": "options001",
@@ -10568,7 +11136,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Einbürgerungsziffer (Anzahl ordentlich eingebürgerte Ausländer<br>pro 1000 Ausländer der mittleren Wohnbevölkerung) unterlag in den<br>vergangenen zehn Jahren diversen Schwankungen. Die<br>Höchstwerte wurden 2007 und 2008 erreicht.<br>Danach ging die Einbürgerungsziffer zurück, 2011 lag sie bei den Männern noch bei 7,3 und bei den Frauen bei 10,3. Nach einem tendenziellen Anstieg in den Jahren 2012 bis 2015 sank sie 2016 erneut auf 7,4 bei den Männern und 8,0 bei den Frauen.",
+		"lesehilfe": "Die Einbürgerungsziffer (Anzahl ordentlich eingebürgerte Ausländer pro 1000 Ausländer der mittleren Wohnbevölkerung) unterlag in den vergangenen zehn Jahren diversen Schwankungen. Die Höchstwerte wurden 2007 und 2008 erreicht. Danach ging die Einbürgerungsziffer zurück, 2011 lag sie bei den Männern noch bei 7,3 und bei den Frauen bei 10,3. Nach einem tendenziellen Anstieg in den Jahren 2012 bis 2015 sank sie 2016 erneut auf 7,4 bei den Männern und 8,0 bei den Frauen.",
 		"erlaeuterungen": "Die Einbürgerungsziffer in den LP-Kennzahlen wird folgendermassen berechent: Anzahl ordentlich eingebürgerte Ausländer pro 1000 Ausländer der mittleren Wohnbevölkerung; jeweils für Männer und Frauen.",
 		"template": "line001",
 		"option": "options001",
@@ -10586,11 +11154,11 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Reineinkommen: Mittelwert und Median sowie Mittelwerte der höchsten und tiefsten 20% aller Veranlagungen in Franken",
-		"subtitle": "",
+		"title": "Reineinkommen: Mittelwert und Median sowie Mittelwerte der höchsten und tiefsten 20% aller Veranlagungen",
+		"subtitle": "in Franken",
 		"kuerzel": "I.18.2.06150",
 		"kuerzelKunde": "4.9",
-		"description": "Reineinkommen: Mittelwert und Median sowie Mittelwerte der höchsten und tiefsten 20% aller Veranlagungen in Franken",
+		"description": "Reineinkommen: Mittelwert und Median sowie Mittelwerte der höchsten und tiefsten 20% aller Veranlagungen",
 		"id": 6150,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
@@ -10609,7 +11177,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Mittelwert des Reineinkommens des obersten Quintils ist seit<br>1991 am deutlichsten gestiegen. Die übrigen Werte verlaufen relativ<br>konstant. Über den Betrachtungszeitraum gab es zahlreiche<br>Veränderungen in der Steuergesetzgebung, die einen Einfluss auf<br>die Berechnung des Reineinkommens haben können, etwa durch<br>erhöhte Abzugsmöglichkeiten (z. B. für Berufskosten).",
+		"lesehilfe": "Der Mittelwert des Reineinkommens des obersten Quintils ist seit 1991 am deutlichsten gestiegen. Die übrigen Werte verlaufen relativ konstant. Über den Betrachtungszeitraum gab es zahlreiche Veränderungen in der Steuergesetzgebung, die einen Einfluss auf die Berechnung des Reineinkommens haben können, etwa durch erhöhte Abzugsmöglichkeiten (z. B. für Berufskosten).",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"option": "options001",
@@ -10650,7 +11218,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. Im Durchschnitt vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton eine 7,7. Nach Geschlecht unterscheidet sich die Bewertung der Lebensqualität im Kanton Basel-Stadt nicht.",
-		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt.",
+		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "befragungenProzent001",
 		"option": "options001",
 		"visible": true,
@@ -10690,7 +11258,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2016 wiesen Personen aus dem Balkan (31,8), der Türkei (30,4), arabischen (26,7) und afrikanischen Ländern (25,6) die höchsten Segregationsindices auf. Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Die hohen Werte bedeuten, dass diese vier Bevölkerungsgruppen im Kanton Basel-Stadt am stärksten auf einzelne Gemeinden und Wohnviertel konzentriert waren. Der niedrigste Index ergab sich 2016 für die Deutschen (7,7). Der Segregationsindex der Schweizer lag im Jahr 2016 bei 17,9.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Der Segregationsindex misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betracheten Gruppe interpretieren, der in eine anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 würde bedeuten, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross wäre.",
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
@@ -10728,8 +11296,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1705' target='_blank'>Umweltbericht beider Basel</a>.",
+		"lesehilfe": "Die Fahrleistung des Motorisierten Individualverkehrs (MIV Total) auf Kantonsgebiet liegt 2016 um 1%, diejenige des Veloverkehrs um 22,9% höher als im Jahr 2010. Der Wert für Fussgänger stieg von 2013 bis 2014 um 7 Prozentpunkte, sank dann aber bis 2016 wieder auf einen Indexwert von 102,5.",
+		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Die Veränderung gegenüber dem Referenzjahr 2010 wird in Prozent dargestellt (indexiert, 2010 = 100). ",
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
@@ -10770,7 +11338,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Transit durch die Region Basel nimmt auf der Strasse kontinuierlich ab. Dafür ist ein klarer Aufwärtstrend auf den Schienen erkennbar.",
+		"lesehilfe": "Der Transit durch die Region Basel nimmt auf der Strasse  seit 2010 kontinuierlich ab. Der Transit auf den Schienen hat seit 2007 zugenommen.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"option": "options001",
@@ -10848,8 +11416,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "",
+		"lesehilfe": "Sowohl die Stickstoffdioxid- als auch die Feinstaubkonzentrationen lagen 2016 mit 25 resp. 16 Mikrogramm pro Kubikmeter unter dem jeweiligen Grenzwert.",
+		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung.",
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
@@ -10858,7 +11426,9 @@ var indikatoren = [
 		"parentId": 6129,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Lufthygieneamt beider Basel"
+		],
 		"externalLinks": [
 			""
 		]
@@ -10908,7 +11478,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil übermässig mit Lärm belasteter Einwohner",
-		"subtitle": "",
+		"subtitle": "in %",
 		"kuerzel": "I.02.5.06159",
 		"kuerzelKunde": "7.8",
 		"description": "Anteil übermässig mit Lärm belasteter Einwohner",
@@ -10930,7 +11500,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Anteil der Einwohner, welche an ihrem Wohnort in der Nacht einer Lärmbelastung von über 50 dB (A) ausgesetzt sind, betrug 2010 knapp 24%. Bei 14% der Einwohner wurde der Tagesgrenzwert überschritten, bei 16% der Grenzwert in der Nacht.",
-		"erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche an ihrem Wohnort einer Lärmbelastung über dem Immissionsgrenzwert gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Die in der LSV festgehaltenen Immissionsgrenzwerte drücken das Mass an Lärmbelastung aus, das zirka 75% der Bevölkerung erträgt, ohne sich erheblich gestört zu fühlen. Wohngebiete sind gemäss Lärmempfindlichkeitsstufenplan den Stufen II (Wohnzonen) und III (Wohn-/Gewerbezonen) mit unterschiedlichen Immissionsgrenzwerten zugeteilt: ES II: 60 dB (A) Tag, 50 dB (A) Nacht, ES III: 65 dB (A) Tag, 55 dB (A) Nacht; dB (A) ist die übliche Masseinheit zur Messung von Lärmstärke. Die angegebenen Werte beruhen auf Modellierungen. Die Lärmimmission an den Gebäuden werden in einem 3D-Oberflächenmodell (Gelände, Gebäude, Hindernisse) auf Basis des Emissionskatasters für Strassenverkehrslärm berechnet. Sobald ein Teil eines Gebäudes, z. B. eine Fassade oder die oberen Geschosse, welche nicht durch eine Lärmschutzwand geschützt werden, von Grenzwertüberschreitungen (gemäss LSV) betroffen sind, werden sämtliche Bewohner des Gebäudes als lärmbelastete Personen gezählt. Die Ausrichtung der einzelnen Wohnungen fliesst nicht in die Beurteilung ein. Weiter werden lärmempfindliche Räume in Betrieben nicht berücksichtigt.",
+		"erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche an ihrem Wohnort einer Lärmbelastung über dem Immissionsgrenzwert gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Die in der LSV festgehaltenen Immissionsgrenzwerte drücken das Mass an Lärmbelastung aus, das zirka 75% der Bevölkerung erträgt, ohne sich erheblich gestört zu fühlen. Wohngebiete sind gemäss Lärmempfindlichkeitsstufenplan den Stufen II (Wohnzonen) und III (Wohn-/Gewerbezonen) mit unterschiedlichen Immissionsgrenzwerten zugeteilt: ES II: 60 dB (A) Tag, 50 dB (A) Nacht, ES III: 65 dB (A) Tag, 55 dB (A) Nacht; dB (A) ist die übliche Masseinheit zur Messung von Lärmstärke.",
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
@@ -11008,7 +11578,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2010 lag der Anteil der erneuerbaren Energieträger bei 35,0%. Zwei Jahre später fiel der Wert mit 36,2% bereits höher aus.<br>Im Jahr 2014  stammte 37,9% der Energie aus erneuerbaren Quellen.",
+		"lesehilfe": "Im Jahr 2010 lag der Anteil der erneuerbaren Energieträger bei 35,0%. Zwei Jahre später fiel der Wert mit 36,2% bereits höher aus. Im Jahr 2014  stammte 37,9% der Energie aus erneuerbaren Quellen.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
@@ -11066,7 +11636,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wasserqualität: AOX-Fracht",
-		"subtitle": "",
+		"subtitle": "Milligramm pro Liter",
 		"kuerzel": "I.02.19.06164",
 		"kuerzelKunde": "7.4",
 		"description": "Wasserqualität: AOX-Fracht",
@@ -11089,7 +11659,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die mittlere AOX-Fracht betrug im Jahr 2016 0,046 mg pro Liter gereinigtem Abwasser. Sie lag damit unter dem Grenzwert von 0,08 mg/l.",
-		"erlaeuterungen": "Für die Wasserqualität ist entscheidend, wie viele Schadstoffe trotz Kläranlagen ins Wasser gelangen. Als messbarer Indikator dient die Ausflussmenge an AOX aus den Kläranlagen. Eine Zunahme bedeutet eine unerwünschte Belastung der Gewässer, eine Abnahme entspricht einer Verbesserung der Wasserqualität. Organischen Halogenverbindungen sind bereits in geringen Mengen schädlich, schwer biologisch abbaubar und reichern sich im Fettgewebe von Tieren und Menschen an.  AOX sind an Aktivkohle adsorbierbare organische Halogenverbindungen. Diese Fluor-, Chlor- und Bromverbindungen (wobei Chlorkohlenwasserstoffe in der Regel am häufigsten vorkommen) können als Verluste oder Nebenprodukte aus industriellen und gewerblichen Produktionen ins Wasser gelangen. Auch chlorhaltige Reinigungsmittel aus Haushalten tragen zur Belastung der Abwässer bei. Die AOX-Konzentration wird im gereinigten Abwasser in den Abläufen der Abwasserreinigungsanlagen (ARA) mehrmals pro Jahr in Form von Tagessammelmustern gemessen. Der Mittelwert aller Messungen eines Jahres entspricht dem Jahreswert. In der Gewässerschutzverordnung ist für die Einleitung von kommunalem Abwasser in Gewässer ein AOX-Grenzwert von 0.08 mg/l definiert. Das Abwasser aus Basel-Stadt wird in der ARA Basel gereinigt. Deren Einzugsgebiet umfasst auch die Gemeinden Allschwil, Binningen, Birsfelden, Bottmingen, Münchenstein (Ortsteil Brüglingen), Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Neuwiller (F).",
+		"erlaeuterungen": "Für die Wasserqualität ist entscheidend, wie viele Schadstoffe trotz Kläranlagen ins Wasser gelangen. Als messbarer Indikator dient die Ausflussmenge an AOX aus den Kläranlagen. Eine Zunahme bedeutet eine unerwünschte Belastung der Gewässer, eine Abnahme entspricht einer Verbesserung der Wasserqualität. Organischen Halogenverbindungen sind bereits in geringen Mengen schädlich, schwer biologisch abbaubar und reichern sich im Fettgewebe von Tieren und Menschen an.",
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
@@ -11129,7 +11699,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die aus dem Bruttoenergieverbrauch abgeleiteten CO2-<br>Emissionen nahmen zwischen 2010 und 2014 von 898 113<br>Tonnen auf 755 095 Tonnen ab. Das entspricht einer Re-<br>duktion von 16%.",
+		"lesehilfe": "Die aus dem Bruttoenergieverbrauch abgeleiteten CO2-Emissionen nahmen zwischen 2010 und 2014 von 898 113 Tonnen auf 755 095 Tonnen ab. Das entspricht einer Reduktion von 16%.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
@@ -11371,8 +11941,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "",
+		"lesehilfe": "Im Jahr 2016 wurden mehr Behandlungen an Patienten ausserhalb von Basel-Stadt durchgeführt (40'481), als Patienten mit Wohnort im Kanton Basel-Stadt (38585). Von den insgesamt 38'585 BS-Behandlungen stammen über 77% aus der Akutsomatik. Bei den Behandlungen ausserhalb von Basel-Stadt macht der Anteil der Akutsomatik-Behandlungen hingegen über 91% aus.",
+		"erlaeuterungen": "Gezählt werden alle stationäre Fälle mit Austritt im jeweiligen Erhebungsjahr (A-Fälle). Die Aufteilung in BS und Nicht-BS erfolgt gemäss dem Wohnort. Fälle mit einem Wohnsitz im Ausland sind in den Nicht-BS-Fällen eingeschlossen. Die Aufteilung in die Hauptbereiche erfolgt gemässe der Hauptkostenstelle.",
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
@@ -11382,7 +11952,7 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Steuerverwaltung Basel-Stadt"
+			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -11449,7 +12019,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Anzahl Unfälle und verunfallte Personen leicht gestiegen.",
+		"lesehilfe": "Von 1995 bis 2012 ist die Anzahl Strassenverkehrsunfälle von knapp 4 000 auf etwas rund 900 Unfälle gesunken. Auch die Anzahl der verunfallten Personen lag 2012 mit 307 Personen am tiefsten. Bis 2015 ist bei beiden Werten wieder ein leichter Anstieg zu beobachten.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"option": "options001",
@@ -11530,8 +12100,8 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2016 sind bei der Chemiefachberatung des Kantons 9 Alarmierungen<br>aufgrund von ABC-Ereignissen eingegangen.",
-		"erlaeuterungen": "Der Indikator sagt aus, wie häufig die Chemiefachberatung von den kantonalen Einsatzkräften bei Ereignissen angefordert wurde. Die Häufigkeit von solchen Ereignissen mit Austritt von Chemikalien in die Umgebung ist ein Mass für die Qualität des Umgangs mit gefährlichen Stoffen. Veränderungen sind dabei besser zu erkennen, wenn man nicht nur die selten auftretenden Störfälle betrachtet. Die Anzahl der Ereignisse alleine sagt hingegen noch nichts über die Einwirkung eines Ereignisses auf die Umwelt aus, und ist deshalb immer in Verbindung mit der jeweiligen Bewertung zu betrachten.Unter dem Begriff «Ereignisse» sind Alarmierungen an die Chemiefachberatung der Industriefeuerwehr Regio Basel (IRFB) zu verstehen. Es handelt sich dabei um Ereignisse mit radioaktiven, biologischen oder chemischen Gefahren. Als Störfall gilt nach Definition der Störfallverordnung (StFV) ein ausserordentliches Ereignis in einem Betrieb, auf einem Verkehrsweg oder in einer Rohrleitungsanlage, bei dem erhebliche Einwirkungen auftreten: a.) ausserhalb des Betriebsareals, b.) auf oder ausserhalb des Verkehrswegs, c.) ausserhalb der Rohrleitungsanlage. Die eigentliche Entscheidung, ob ein Ereignis als Störfall einzustufen ist, liegt aber im Ermessen der zuständigen Fachstelle.",
-		"template": "template001",
+		"erlaeuterungen": "Der Indikator sagt aus, wie häufig die Chemiefachberatung von den kantonalen Einsatzkräften bei Ereignissen angefordert wurde. Die Häufigkeit von solchen Ereignissen mit Austritt von Chemikalien in die Umgebung ist ein Mass für die Qualität des Umgangs mit gefährlichen Stoffen. Veränderungen sind dabei besser zu erkennen, wenn man nicht nur die selten auftretenden Störfälle betrachtet. Die Anzahl der Ereignisse alleine sagt hingegen noch nichts über die Einwirkung eines Ereignisses auf die Umwelt aus, und ist deshalb immer in Verbindung mit der jeweiligen Bewertung zu betrachten.Unter dem Begriff «Ereignisse» sind Alarmierungen an die Chemiefachberatung der Industriefeuerwehr Regio Basel (IRFB) zu verstehen. Es handelt sich dabei um Ereignisse mit radioaktiven, biologischen oder chemischen Gefahren. Als Störfall gilt nach Definition der Störfallverordnung (StFV) ein ausserordentliches Ereignis in einem Betrieb, auf einem Verkehrsweg oder in einer Rohrleitungsanlage, bei dem erhebliche Einwirkungen auftreten: Die eigentliche Entscheidung, ob ein Ereignis als Störfall einzustufen ist, liegt aber im Ermessen der zuständigen Fachstelle.",
+		"template": "line001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
@@ -11547,11 +12117,11 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. Reiner Prämienverbilligung",
+		"title": "Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung",
 		"subtitle": "",
 		"kuerzel": "I.13.2.06181",
 		"kuerzelKunde": "11.2",
-		"description": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. Reiner Prämienverbilligung",
+		"description": "Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung",
 		"id": 6181,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
@@ -11569,7 +12139,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2,2% der baselstädtischen Haushalte erhalten 2016 Familienmietzinsbeiträge (FAMI). In 14,5% der Haushalte bezieht mindestens eine Person Prämienverbilligung.",
-		"erlaeuterungen": "Anteil Haushalte mit Prämienverbilligung: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt.",
+		"erlaeuterungen": "FAMI: Familienmietzinsbeiträge; Anteil Haushalte mit Prämienverbilligung: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt.",
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
@@ -11579,6 +12149,7 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Basler Informationssystem Sozialleistungen (BISS)"
 		],
 		"externalLinks": [
@@ -11607,7 +12178,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Minderjährige weisen 2016 mit 13,5% die höchste Sozialhilfequote<br>aus. Die Sozialhilfequote der 51- bis 65-Jährigen ist vergleichsweise<br>gering, steigt aber über den gesamten Zeitverlauf kontinuierlich.",
+		"lesehilfe": "Minderjährige weisen 2016 mit 13,5% die höchste Sozialhilfequote aus. Die Sozialhilfequote der 51- bis 65-Jährigen ist vergleichsweise gering, steigt aber über den gesamten Zeitverlauf kontinuierlich.",
 		"erlaeuterungen": "Nur Stadt Basel, ohne Riehen und Bettingen.",
 		"template": "line001",
 		"option": "options001",
@@ -11709,11 +12280,11 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Vertretung der Anliegen der Bevölkerung",
-		"subtitle": "«Wie gut vertreten Ihrer Meinung nach die Behörden - also der Regierungsrat und der Grosse Rat - die Anliegen von der Bevölkerung?»",
+		"title": "Vertretung der Anliegen der Bevölkerung durch Behörden",
+		"subtitle": "«Wie gut vertreten Ihrer Meinung nach die Behörden, also der Regierungsrat und der Grosse Rat, die Anliegen von der Bevölkerung?»",
 		"kuerzel": "I.50.1.06185",
 		"kuerzelKunde": "12.1",
-		"description": "Vertretung der Anliegen der Bevölkerung",
+		"description": "Vertretung der Anliegen der Bevölkerung durch Behörden",
 		"id": 6185,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
@@ -11791,7 +12362,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Steuerbelastung durch Reingewinn- und Kapitalsteuern für Kapitalgesellschaften und Genossenschaften",
-		"subtitle": "400 000",
+		"subtitle": "bei einem steuerbaren Reingewinn von 400 000",
 		"kuerzel": "I.04.1.06201",
 		"kuerzelKunde": "2.6b",
 		"description": "Steuerbelastung durch Reingewinn- und Kapitalsteuern für Kapitalgesellschaften und Genossenschaften",
@@ -11814,7 +12385,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Werte sind in den letzten Jahren relativ konstant.",
+		"lesehilfe": "Die Werte für Basel sind in den letzten 4 Jahren konstant, nachdem von 2006 bis 2013 ein leichter Rückgang der Steuerbelastung stattgefunden hat. Zusammen mit Genf liegt Basel an der Spitze der verglichenen Kantonshauptorte.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"option": "options001",
@@ -11833,7 +12404,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Steuerbelastung durch Reingewinn- und Kapitalsteuern für Kapitalgesellschaften und Genossenschaften",
-		"subtitle": "1 000 000",
+		"subtitle": "bei einem steuerbaren Reingewinn von 1 000 000",
 		"kuerzel": "I.04.1.06202",
 		"kuerzelKunde": "2.6c",
 		"description": "Steuerbelastung durch Reingewinn- und Kapitalsteuern für Kapitalgesellschaften und Genossenschaften",
@@ -11856,7 +12427,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Werte sind in den letzten Jahren relativ konstant.",
+		"lesehilfe": "Die Werte für Basel sind in den letzten 4 Jahren konstant, nachdem von 2006 bis 2013 ein Rückgang von gut 192 000 auf knapp 165 000 Franken stattgefunden hat. Die Steuerbelastung durch Riengewinn- und Kapitalsteuern ist in Basel damit 2016 nach Genf am zweithöchsten unter den verglichenen Kantonshauptorten.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"option": "options001",
@@ -11950,6 +12521,43 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
 		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Entwicklung der Staatsausgaben nach Funktion im Verhältnis zum BIP",
+		"subtitle": "",
+		"kuerzel": "I.18.1.06205",
+		"kuerzelKunde": "2.4",
+		"description": "Entwicklung der Staatsausgaben nach Funktion im Verhältnis zum BIP",
+		"id": 6205,
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Staatsrechnung",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"BIP"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
 		"externalLinks": [
 			""
 		]
@@ -12096,7 +12704,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Nettoschulden haben sich seit dem Jahr 2000 von 19 132 auf<br>9 313 Franken pro Kopf im Jahr 2015 reduziert.",
+		"lesehilfe": "Die Nettoschulden haben sich seit dem Jahr 2000 von 19 132 auf 9313 Franken pro Kopf im Jahr 2015 reduziert. Die Nettoschuldenquote liegt 2016 bei 3,0 ‰ des schweizerischen BIP.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"option": "options001",
@@ -12109,6 +12717,43 @@ var indikatoren = [
 		"quellenangabe": [
 			"Jahresbericht des Kantons Basel-Stadt"
 		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Schulabgänger/-innen ohne Anschlusslösung nach Herkunft",
+		"subtitle": "",
+		"kuerzel": "I.15.7.06212",
+		"kuerzelKunde": "3.1c",
+		"description": "Schulabgänger/-innen ohne Anschlusslösung nach Herkunft",
+		"id": 6212,
+		"thema": "15 Bildung",
+		"unterthema": "Bildungsabschlüsse",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Bildung"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
 		"externalLinks": [
 			""
 		]

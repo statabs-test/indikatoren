@@ -3176,9 +3176,10 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
+		"orderKey": "17_00_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"6007"
+			"6154"
 		],
 		"renderLink": [],
 		"quellenangabe": [
