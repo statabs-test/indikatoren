@@ -35,7 +35,7 @@
           16.2354558916861
         ]
       ],
-      "name": "Über Grenzwert in der Nacht in %",
+      "name": "Über Grenzwert in der Nacht  in %",
       "turboThreshold": 0
     },
     {
@@ -54,7 +54,7 @@
           24.5657922572456
         ]
       ],
-      "name": "Über 50 dB (A) in der Nacht in %",
+      "name": "Über 50 dB (A) in der Nacht  in %",
       "turboThreshold": 0
     }
   ],

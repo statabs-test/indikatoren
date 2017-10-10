@@ -1,88 +1,115 @@
 {
   "series": [
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
-      "color": "#8b2223",
+      "color": "#CD9C00",
+      "visible": true,
       "data": [
         [
-          2006,
+          "2006",
           16
         ],
         [
-          2007,
+          "2007",
           19
         ],
         [
-          2008,
+          "2008",
           18
         ],
         [
-          2009,
+          "2009",
           16
         ],
         [
-          2010,
+          "2010",
           15
         ],
         [
-          2011,
+          "2011",
           8
         ],
         [
-          2012,
+          "2012",
           11
         ],
         [
-          2013,
+          "2013",
           10
         ],
         [
-          2014,
+          "2014",
           5
         ],
         [
-          2015,
+          "2015",
           10
         ],
         [
-          2016,
+          "2016",
           9
         ]
       ],
-      "name": "Anzahl Störfälle und Ereignisse"
+      "name": "Anzahl Störfälle und Ereignisse",
+      "turboThreshold": 0
     }
   ],
-  "chart": {
-    "events": {
-      "load": function () {
-              this.credits.element.onclick = function() {};
-              
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                    }
-                  }
-                );
-              }              
-          }
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
     },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "rotation": 0
+    },
+    "tickColor": "#FFFFFF"
+  },
+  "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
     "width": 485,
     "height": 415,
-    "spacingBottom": 45,
+    "spacingBottom": 30,
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line",
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "type": "column",
+    "inverted": false,
     "renderTo": "container-6179"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 0,
+      "itemWidth": 10
+    }
   },
   "title": {
     "style": {
@@ -103,12 +130,7 @@
     "text": "",
     "align": "left"
   },
-  "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-  },
   "yAxis": {
-    "min": 0,
     "title": {
       "style": {
         "color": "#000000",
@@ -120,20 +142,16 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f} %"
     }
   },
-  "xAxis": {
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "tickLength": 0,
-    "tickInterval": 1
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
   },
   "credits": {
-    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
     "style": {
       "color": "#000000",
@@ -149,28 +167,19 @@
     "text": "Quelle: Kantonales Laboratorium Basel-Stadt, Kontrollstelle für Chemie- und Biosicherheit"
   },
   "legend": {
-    "enabled": false,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
-    "symbolRadius": 0
-  },
-  "plotOptions": {
-    "series": {
-      "dataLabels": {
-        "enabled": true,
-        "allowOverlap": true,
-        "y": 30,
-        "formatter": function () {
-            var last = this.series.data[this.series.data.length - 1];
-            var first = this.series.data[0];
-            if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {
-              return Highcharts.numberFormat(this.point.y, 0, ",", " ");
-            }
-            return "";
-          }
-      }
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "y": 25,
+    "itemStyle": {
+      "fontWeight": "normal"
     }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f} %\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "exporting": {
     "filename": "I.14.3.06179"

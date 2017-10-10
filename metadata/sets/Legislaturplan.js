@@ -2066,7 +2066,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Die Zahl der Gewaltstraftaten pro 100'000 Einwohner hat sich in den letzten zehn Jahren kaum verändert. Aktuell liegt sie bei 335.",
 		"erlaeuterungen": "",
-		"template": "stock001",
+		"template": "line001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,

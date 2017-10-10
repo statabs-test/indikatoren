@@ -18,7 +18,8 @@
    "tickInterval": 1,
           "labels": {
           	step: 1,
-            "rotation": 0,
+            //"rotation": 0,
+            "rotation": -90,
         }  
   },
  "legend": {
@@ -65,7 +66,7 @@
     "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
   },
   "chart": {
-    "inverted": true,
+    "inverted": false,
   }
 };
 }());
