@@ -3,6 +3,10 @@
     {
       "data": [
         [
+          "ZG",
+          100
+        ],
+        [
           "ZH",
           96.5
         ],
@@ -103,7 +107,6 @@
           36.1
         ]
       ],
-      "name": "100.0",
       "turboThreshold": 0
     }
   ],
@@ -182,7 +185,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt im nationalen Vergleich, Stand: &jahrbis%",
+    "text": "Basel-Stadt im nationalen Vergleich, Stand: 2016",
     "align": "left"
   },
   "yAxis": {
@@ -220,7 +223,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: UBS"
+    "text": "Quelle: UBS Switzerland AG"
   },
   "legend": {
     "symbolRadius": 0,

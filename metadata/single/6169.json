@@ -15,7 +15,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Vor allem die Kinobesuche haben im Lauf der Zeit abgenommen; von 1,31 Mio. im Jahr 2002 auf 0,65 Mio. im Jahr 2015. Bei den Theatern und Museen blieben die Zahlen vergleichsweise konstant.",
+"lesehilfe":"Vor allem die Kinobesuche haben im Lauf der Zeit abgenommen; von 1,31 Mio. im Jahr 2002 auf 0,63 Mio. im Jahr 2016. Bei den Theatern und Museen blieben die Zahlen vergleichsweise konstant.",
 "erlaeuterungen":"",
 "template":"line001",
 "option":"options001",
@@ -25,6 +25,6 @@
 "parentId":5194,
 "children":[],
 "renderLink":[],
-"quellenangabe":["Jeweilige Institutionen"],
+"quellenangabe":["Jeweilige Institutionen","ProCinema"],
 "externalLinks":[""]
 }

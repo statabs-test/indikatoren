@@ -48,7 +48,7 @@
           14161516
         ]
       ],
-      "name": "Schiene_Ausgang"
+      "name": "Schiene Ausgang"
     },
     {
       "color": "#7F5F1A",
@@ -99,7 +99,7 @@
           18121077
         ]
       ],
-      "name": "Schiene_Eingang"
+      "name": "Schiene Eingang"
     },
     {
       "color": "#008AC3",
@@ -150,7 +150,7 @@
           2184931
         ]
       ],
-      "name": "Strasse_Ausgang"
+      "name": "Strasse Ausgang"
     },
     {
       "color": "#2B0099",
@@ -201,7 +201,7 @@
           1747475
         ]
       ],
-      "name": "Strasse_Eingang"
+      "name": "Strasse Eingang"
     }
   ],
   "chart": {

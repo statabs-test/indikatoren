@@ -1,5 +1,5 @@
 {"title":"Steuerbelastung durch Reingewinn- und Kapitalsteuern für Kapitalgesellschaften und Genossenschaften",
-"subtitle":"bei einem steuerbaren Reingewinn von 400 000",
+"subtitle":"Bei einem steuerbaren Reingewinn von 400 000",
 "kuerzel":"I.04.1.06201",
 "kuerzelKunde":"2.6b",
 "description":"Steuerbelastung durch Reingewinn- und Kapitalsteuern für Kapitalgesellschaften und Genossenschaften",
@@ -15,8 +15,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Die Werte für Basel sind in den letzten 4 Jahren konstant, nachdem von 2006 bis 2013 ein leichter Rückgang der Steuerbelastung stattgefunden hat. Zusammen mit Genf liegt Basel an der Spitze der verglichenen Kantonshauptorte.",
-"erlaeuterungen":"",
+"lesehilfe":"Die Werte für Basel-Stadt sind in den letzten 4 Jahren konstant, nachdem die Steuerbelastung zuvor leicht zurückgegangen ist. Zusammen mit Genf liegt Basel an der Spitze der verglichenen Kantonshauptorte.",
+"erlaeuterungen":"Dargestellt ist die Steuerbelastung von Aktiengesellschaften (Handels-, Industrie, Bank-AG, ohne Beteiligungen), mit einem Kapital und Reserven von 2 Mio. Franken und einem Reingewinn von 400 000 Franken; Kanton- und Gemeindesteuer, einschliesslich Kirchensteuer. Reingewinn vor Abzug der im Geschäftsjahr bezahlten Steuern. In Genf ohne Gewerbesteuer.",
 "template":"line001",
 "option":"options001",
 "visible":true,
@@ -25,6 +25,6 @@
 "parentId":5107,
 "children":[],
 "renderLink":[],
-"quellenangabe":["Eidgenössische Finanzverwaltung, Publikation"],
+"quellenangabe":["Eidgenössische Steuerverwaltung"],
 "externalLinks":[""]
 }

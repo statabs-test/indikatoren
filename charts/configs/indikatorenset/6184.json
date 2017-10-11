@@ -940,7 +940,7 @@
     "symbolRadius": 0,
     "enabled": true,
     "y": 35,
-    "itemWidth": 202,
+    "itemWidth": 220,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,

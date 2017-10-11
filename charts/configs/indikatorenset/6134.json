@@ -94,7 +94,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Steuersätze für natürliche Personen - Vergleich zwischen Kantonshauptorten"
+    "text": "Steuersätze für natürliche Personen"
   },
   "subtitle": {
     "style": {
@@ -103,7 +103,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Vergleich zwischen Kantonshauptorten",
+    "text": "Vergleich zwischen Kantonshauptorten; Stand: 2016",
     "align": "left"
   },
   "yAxis": {
@@ -138,9 +138,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: "
+    "text": "Quelle: Eidgenössische Steuerverwaltung"
   },
   "legend": {
     "symbolRadius": 0,
@@ -154,7 +154,7 @@
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {

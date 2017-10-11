@@ -111,7 +111,7 @@
           36999
         ]
       ],
-      "name": "Wohnort",
+      "name": "Akutsomatik",
       "turboThreshold": 0
     },
     {
@@ -225,7 +225,7 @@
           927
         ]
       ],
-      "name": "Akutsomatik",
+      "name": "Geriatrie",
       "turboThreshold": 0
     },
     {
@@ -339,7 +339,7 @@
           1023
         ]
       ],
-      "name": "Geriatrie",
+      "name": "Psychiatrie",
       "turboThreshold": 0
     },
     {
@@ -453,7 +453,7 @@
           1532
         ]
       ],
-      "name": "Psychiatrie",
+      "name": "Rehabilitation",
       "turboThreshold": 0
     }
   ],
@@ -470,7 +470,7 @@
         "color": "#000000"
       },
       "step": 1,
-      "rotation": 0
+      "rotation": -90
     },
     "tickColor": "#FFFFFF",
     "tickInterval": 1
@@ -501,7 +501,7 @@
             }
           }
     },
-    "inverted": true,
+    "inverted": false,
     "renderTo": "container-6175"
   },
   "plotOptions": {
@@ -571,7 +571,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Steuerverwaltung Basel-Stadt"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
   },
   "legend": {
     "symbolRadius": 0,

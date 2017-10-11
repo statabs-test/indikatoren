@@ -439,9 +439,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Jeweilige Institutionen"
+    "text": "Quelle: Jeweilige Institutionen;\u003Cbr\u002F\u003EProCinema"
   },
   "legend": {
     "enabled": true,

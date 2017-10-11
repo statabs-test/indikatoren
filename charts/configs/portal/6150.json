@@ -461,7 +461,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Reineinkommen: Mittelwert und Median sowie Mittelwerte der höchsten und tiefsten 20% aller Veranlagungen in Franken"
+    "text": "Reineinkommen: Mittelwert und Median sowie Mittelwerte der höchsten und tiefsten 20% aller Veranlagungen"
   },
   "subtitle": {
     "style": {
@@ -470,7 +470,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "in Franken",
     "align": "left"
   },
   "tooltip": {
@@ -513,9 +513,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003ESteuerverwaltung Basel-Stadt"
+    "text": "Quelle: Steuerstatistik Basel-Stadt"
   },
   "legend": {
     "enabled": true,

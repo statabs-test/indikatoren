@@ -75,7 +75,7 @@
     </g>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Arbeitslosenquote im Jahresmittel nach Altersgruppe und</tspan><tspan dy="17" x="10">Bildungsabschluss</tspan><title>Arbeitslosenquote im Jahresmittel nach Altersgruppe und Bildungsabschluss</title>
+    <tspan>Arbeitslosenquote im Jahresmittel nach Altersgruppe</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(23,45)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="496" height="73" visibility="visible"/>

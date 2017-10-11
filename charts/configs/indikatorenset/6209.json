@@ -1,102 +1,81 @@
 {
   "series": [
     {
-      "color": "#B00000",
-      "legendIndex": 1,
+      "color": "#b00000",
+      "index": 5,
       "data": [
         [
-          2011,
+          "2011",
           4385
         ],
         [
-          2012,
+          "2012",
           4189
         ],
         [
-          2013,
+          "2013",
           4109
         ],
         [
-          2014,
+          "2014",
           4089
         ],
         [
-          2015,
+          "2015",
           3959
         ],
         [
-          2016,
+          "2016",
           3940
         ]
       ],
-      "name": "Schweiz"
+      "name": "Schweiz",
+      "turboThreshold": 0
     },
     {
-      "color": "#008AC3",
-      "legendIndex": 2,
+      "color": "#2f656b",
+      "index": 4,
       "data": [
         [
-          2011,
+          "2011",
           1294
         ],
         [
-          2012,
+          "2012",
           1285
         ],
         [
-          2013,
+          "2013",
           1306
         ],
         [
-          2014,
+          "2014",
           1339
         ],
         [
-          2015,
+          "2015",
           1406
         ],
         [
-          2016,
+          "2016",
           1409
         ]
       ],
-      "name": "Ausland"
-    },
-    {
-      "color": "#3c3c3c",
-      "legendIndex": 0,
-      "marker": {
-        "enabled": true
-      },
-      "data": [
-        [
-          2011,
-          5679
-        ],
-        [
-          2012,
-          5474
-        ],
-        [
-          2013,
-          5415
-        ],
-        [
-          2014,
-          5428
-        ],
-        [
-          2015,
-          5365
-        ],
-        [
-          2016,
-          5349
-        ]
-      ],
-      "name": "Total"
+      "name": "Ausland",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
   "chart": {
     "events": {
       "load": function () {
@@ -123,8 +102,11 @@
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line",
-    "renderTo": "container-6209"
+    "type": "column",
+    "renderTo": "container-6209",
+    "marginBottom": 75,
+    "marginTop": 75,
+    "inverted": false
   },
   "title": {
     "style": {
@@ -146,8 +128,9 @@
     "align": "left"
   },
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "shared": true,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E"
   },
   "yAxis": {
     "min": 0,
@@ -164,15 +147,6 @@
       },
       "format": "{value:,.0f}"
     }
-  },
-  "xAxis": {
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "tickLength": 0,
-    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -192,21 +166,27 @@
   },
   "legend": {
     "enabled": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
+    "x": 45,
+    "y": 35,
+    "width": 200,
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
   "plotOptions": {
-    "line": {
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
+    "series": {
+      "pointPadding": 100,
+      "pointWidth": 30,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "normal"
     }
   },
   "exporting": {

@@ -146,7 +146,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Wettbewerbsprofile: Basel-Stadt im Vergleich zum Median-Kanton"
+    "text": "Kantonales Wettbewerbsprofil"
   },
   "subtitle": {
     "style": {
@@ -155,7 +155,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2016",
+    "text": "Basel-Stadt im Vergleich zum Median-Kanton; Stand: 2016",
     "align": "left"
   },
   "yAxis": {
@@ -170,7 +170,7 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f} %"
+      "format": "{value:,.0f}"
     },
     "max": 100
   },
@@ -191,9 +191,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: "
+    "text": "Quelle: UBS Switzerland AG"
   },
   "legend": {
     "symbolRadius": 0,
@@ -207,7 +207,7 @@
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f} %\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
