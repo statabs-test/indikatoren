@@ -22,7 +22,7 @@
 	{"color": "#4a7ebb",
 	  index:3
 	}, /*blau*/
-	{"color": "#e46c0a",
+	{"color": "#68AB2B",
 	  index:4
 	}, /*orange*/
 	{"color": "#9933ff",

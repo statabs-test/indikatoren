@@ -17,6 +17,7 @@
   	"type": "category",
    "tickInterval": 1,
           "labels": {
+          	align: "right",
           	step: 1,
             "rotation": 0,
             //"rotation": -90,
