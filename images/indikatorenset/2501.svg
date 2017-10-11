@@ -82,7 +82,7 @@
     <tspan>Wachstumsrate der realen Wertschöpfung ausgewählter</tspan><tspan dy="17" x="10">Branchen</tspan><title>Wachstumsrate der realen Wertschöpfung ausgewählter Branchen</title>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="57">
-    <tspan>Basel-Stadt im nationalen Vergleich, Stand: 2016</tspan>
+    <tspan>Basel-Stadt im nationalen Vergleich, Stand: Basel-Stadt im nationalen</tspan><tspan dy="15" x="10">Vergleich, Stand: %jahrbis%</tspan><title>Basel-Stadt im nationalen Vergleich, Stand: Basel-Stadt im nationalen Vergleich, Stand: %jahrbis%</title>
   </text>
   <g class="highcharts-legend" transform="translate(161,60)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="146" height="67" visibility="visible"/>

@@ -523,7 +523,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anzahl stationärer Behandlungen nach Hauptbereich und Wohnort (BS vs. Nicht-BS)"
+    "text": "Stationäre Behandlungen in Basler Spitälern"
   },
   "subtitle": {
     "style": {
@@ -532,7 +532,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Nach Hauptbereich und Wohnort",
     "align": "left"
   },
   "yAxis": {

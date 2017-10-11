@@ -15,8 +15,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"",
-"erlaeuterungen":"",
+"lesehilfe":"xy",
+"erlaeuterungen":"xy",
 "template":"template001",
 "option":"options001",
 "visible":true,
@@ -25,6 +25,6 @@
 "parentId":null,
 "children":[],
 "renderLink":[],
-"quellenangabe":[],
+"quellenangabe":["Eidgenössische Finanzverwaltung"],
 "externalLinks":[""]
 }
