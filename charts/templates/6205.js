@@ -4,6 +4,9 @@
     "tickInterval": 2
   },
   "yAxis": {
+  	min: 80,
+  	max: 180,
+  	tickInterval: 20, 
 	"labels": {
 		"format": "{value:,.0f}"
 	}
