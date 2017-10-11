@@ -316,6 +316,7 @@ var templatesById = {
 	"6218": "template001",
 	"6219": "mappie001",
 	"6220": "line001",
+	"6236": "template001",
 	"8001": "template001_print",
 	"8002": "template001_print",
 	"8003": "befragungen001_print",
