@@ -6,43 +6,35 @@
       "legendIndex": 0,
       "data": [
         [
-          "Pharmaindustrie",
+          "2005",
           12888
         ],
         [
-          "Übriges verarbeit. Gewerbe",
-          10729
+          "2008",
+          14427
         ],
         [
-          "Bau, Energie, Wasser",
-          9519
+          "2011",
+          16747
         ],
         [
-          "Handel und Verkehr",
-          31923
+          "2012",
+          17811
         ],
         [
-          "Finanzen, Versicherung",
-          11656
+          "2013",
+          17756
         ],
         [
-          "Unternehmens-DL, Freiberufe",
-          29016
+          "2014",
+          18186
         ],
         [
-          "Öff. Verwaltung und Bildung",
-          17700
-        ],
-        [
-          "Gesundheits- und Sozialwesen",
-          23549
-        ],
-        [
-          "Übrige Branchen",
-          24763
+          "2015",
+          18692
         ]
       ],
-      "name": "2005",
+      "name": "Pharmaindustrie",
       "turboThreshold": 0
     },
     {
@@ -51,43 +43,35 @@
       "legendIndex": 1,
       "data": [
         [
-          "Pharmaindustrie",
-          14427
+          "2005",
+          10729
         ],
         [
-          "Übriges verarbeit. Gewerbe",
+          "2008",
           11057
         ],
         [
-          "Bau, Energie, Wasser",
-          8786
+          "2011",
+          10370
         ],
         [
-          "Handel und Verkehr",
-          31557
+          "2012",
+          9943
         ],
         [
-          "Finanzen, Versicherung",
-          12244
+          "2013",
+          9082
         ],
         [
-          "Unternehmens-DL, Freiberufe",
-          31953
+          "2014",
+          8723
         ],
         [
-          "Öff. Verwaltung und Bildung",
-          17727
-        ],
-        [
-          "Gesundheits- und Sozialwesen",
-          24400
-        ],
-        [
-          "Übrige Branchen",
-          26186
+          "2015",
+          8719
         ]
       ],
-      "name": "2008",
+      "name": "Übriges verarbeit. Gewerbe",
       "turboThreshold": 0
     },
     {
@@ -96,43 +80,35 @@
       "legendIndex": 2,
       "data": [
         [
-          "Pharmaindustrie",
-          16747
+          "2005",
+          9519
         ],
         [
-          "Übriges verarbeit. Gewerbe",
-          10370
+          "2008",
+          8786
         ],
         [
-          "Bau, Energie, Wasser",
+          "2011",
           8926
         ],
         [
-          "Handel und Verkehr",
-          30017
+          "2012",
+          9102
         ],
         [
-          "Finanzen, Versicherung",
-          12074
+          "2013",
+          9037
         ],
         [
-          "Unternehmens-DL, Freiberufe",
-          34473
+          "2014",
+          9459
         ],
         [
-          "Öff. Verwaltung und Bildung",
-          17529
-        ],
-        [
-          "Gesundheits- und Sozialwesen",
-          26410
-        ],
-        [
-          "Übrige Branchen",
-          27258
+          "2015",
+          9526
         ]
       ],
-      "name": "2011",
+      "name": "Bau, Energie, Wasser",
       "turboThreshold": 0
     },
     {
@@ -141,43 +117,35 @@
       "legendIndex": 3,
       "data": [
         [
-          "Pharmaindustrie",
-          17811
+          "2005",
+          31923
         ],
         [
-          "Übriges verarbeit. Gewerbe",
-          9943
+          "2008",
+          31557
         ],
         [
-          "Bau, Energie, Wasser",
-          9102
+          "2011",
+          30017
         ],
         [
-          "Handel und Verkehr",
+          "2012",
           29717
         ],
         [
-          "Finanzen, Versicherung",
-          11898
+          "2013",
+          29282
         ],
         [
-          "Unternehmens-DL, Freiberufe",
-          35062
+          "2014",
+          28809
         ],
         [
-          "Öff. Verwaltung und Bildung",
-          18058
-        ],
-        [
-          "Gesundheits- und Sozialwesen",
-          26973
-        ],
-        [
-          "Übrige Branchen",
-          28386
+          "2015",
+          27297
         ]
       ],
-      "name": "2012",
+      "name": "Handel und Verkehr",
       "turboThreshold": 0
     },
     {
@@ -186,43 +154,35 @@
       "legendIndex": 4,
       "data": [
         [
-          "Pharmaindustrie",
-          17756
+          "2005",
+          11656
         ],
         [
-          "Übriges verarbeit. Gewerbe",
-          9082
+          "2008",
+          12244
         ],
         [
-          "Bau, Energie, Wasser",
-          9037
+          "2011",
+          12074
         ],
         [
-          "Handel und Verkehr",
-          29282
+          "2012",
+          11898
         ],
         [
-          "Finanzen, Versicherung",
+          "2013",
           11723
         ],
         [
-          "Unternehmens-DL, Freiberufe",
-          36382
+          "2014",
+          11678
         ],
         [
-          "Öff. Verwaltung und Bildung",
-          18171
-        ],
-        [
-          "Gesundheits- und Sozialwesen",
-          28048
-        ],
-        [
-          "Übrige Branchen",
-          29273
+          "2015",
+          11514
         ]
       ],
-      "name": "2013",
+      "name": "Finanzen, Versicherung",
       "turboThreshold": 0
     },
     {
@@ -231,43 +191,35 @@
       "legendIndex": 5,
       "data": [
         [
-          "Pharmaindustrie",
-          18186
+          "2005",
+          29016
         ],
         [
-          "Übriges verarbeit. Gewerbe",
-          8723
+          "2008",
+          31953
         ],
         [
-          "Bau, Energie, Wasser",
-          9459
+          "2011",
+          34473
         ],
         [
-          "Handel und Verkehr",
-          28809
+          "2012",
+          35062
         ],
         [
-          "Finanzen, Versicherung",
-          11678
+          "2013",
+          36382
         ],
         [
-          "Unternehmens-DL, Freiberufe",
+          "2014",
           37247
         ],
         [
-          "Öff. Verwaltung und Bildung",
-          18684
-        ],
-        [
-          "Gesundheits- und Sozialwesen",
-          29009
-        ],
-        [
-          "Übrige Branchen",
-          29779
+          "2015",
+          36690
         ]
       ],
-      "name": "2014",
+      "name": "Unternehmens-DL, Freiberufe",
       "turboThreshold": 0
     },
     {
@@ -276,59 +228,110 @@
       "legendIndex": 6,
       "data": [
         [
-          "Pharmaindustrie",
-          18692
+          "2005",
+          17700
         ],
         [
-          "Übriges verarbeit. Gewerbe",
-          8719
+          "2008",
+          17727
         ],
         [
-          "Bau, Energie, Wasser",
-          9526
+          "2011",
+          17529
         ],
         [
-          "Handel und Verkehr",
-          27297
+          "2012",
+          18058
         ],
         [
-          "Finanzen, Versicherung",
-          11514
+          "2013",
+          18171
         ],
         [
-          "Unternehmens-DL, Freiberufe",
-          36690
+          "2014",
+          18684
         ],
         [
-          "Öff. Verwaltung und Bildung",
+          "2015",
           18923
-        ],
-        [
-          "Gesundheits- und Sozialwesen",
-          29558
-        ],
-        [
-          "Übrige Branchen",
-          29834
         ]
       ],
-      "name": "2015",
+      "name": "Öff. Verwaltung und Bildung",
       "turboThreshold": 0
     },
     {
       "color": "#ff8028",
       "index": 7,
-      "legendIndex": 7
-    },
-    {
-      "color": "#dc440e",
-      "index": 8,
-      "legendIndex": 8
+      "legendIndex": 7,
+      "data": [
+        [
+          "2005",
+          23549
+        ],
+        [
+          "2008",
+          24400
+        ],
+        [
+          "2011",
+          26410
+        ],
+        [
+          "2012",
+          26973
+        ],
+        [
+          "2013",
+          28048
+        ],
+        [
+          "2014",
+          29009
+        ],
+        [
+          "2015",
+          29558
+        ]
+      ],
+      "name": "Gesundheits- und Sozialwesen",
+      "turboThreshold": 0
     },
     {
       "color": "#b00000",
       "index": 9,
-      "legendIndex": 9
+      "legendIndex": 9,
+      "data": [
+        [
+          "2005",
+          24763
+        ],
+        [
+          "2008",
+          26186
+        ],
+        [
+          "2011",
+          27258
+        ],
+        [
+          "2012",
+          28386
+        ],
+        [
+          "2013",
+          29273
+        ],
+        [
+          "2014",
+          29779
+        ],
+        [
+          "2015",
+          29834
+        ]
+      ],
+      "name": "Übrige Branchen",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -344,9 +347,11 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "step": 1
     },
-    "tickColor": "#FFFFFF"
+    "tickColor": "#FFFFFF",
+    "tickInterval": 1
   },
   "chart": {
     "borderColor": "#fbfbfb",
@@ -363,6 +368,8 @@
                     this.credits.element.onclick = function() {}
                 }
     },
+    "type": "column",
+    "inverted": false,
     "renderTo": "container-6236"
   },
   "plotOptions": {
@@ -372,7 +379,9 @@
         "style": {
           "fontSize": "10px"
         }
-      }
+      },
+      "stacking": "normal",
+      "groupPadding": 0
     }
   },
   "title": {
@@ -408,8 +417,10 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
-    }
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 10500
   },
   "navigation": {
     "menuItemStyle": {
@@ -435,14 +446,16 @@
   "legend": {
     "symbolRadius": 0,
     "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    "y": 40,
-    "itemWidth": 150,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5,
+    "align": "right",
     "itemStyle": {
       "fontWeight": "normal"
     }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "I.03.2.06236"
