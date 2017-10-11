@@ -156,7 +156,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel von 2007 bis 2016",
+    "text": "nach Wohnviertel von nach Wohnviertel von %jahrvon% bis nach Wohnviertel von nach Wohnviertel von %jahrvon% bis %jahrbis% bis %jahrbis% bis nach Wohnviertel von nach Wohnviertel von %jahrvon% bis %jahrbis% bis %jahrbis%",
     "align": "left"
   },
   "yAxis": {

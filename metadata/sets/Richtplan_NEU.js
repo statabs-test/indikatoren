@@ -17,8 +17,8 @@ var indikatorensetData = [
 			"Bevölkerung",
 			"Wohnen"
 		],
-		"stufe1": "Strategie 4",
-		"stufe2": "",
+		"stufe1": "Siedlung - Wohnen",
+		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -28,7 +28,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_002",
+		"orderKey": "01_01_00_00_00_002",
 		"parentId": null,
 		"children": [
 			"5862",
@@ -60,8 +60,8 @@ var indikatorensetData = [
 			"Bevölkerung",
 			"Wohnen"
 		],
-		"stufe1": "Strategie 4",
-		"stufe2": "",
+		"stufe1": "Siedlung - Wohnen",
+		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -71,7 +71,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_003",
+		"orderKey": "01_01_00_00_00_003",
 		"parentId": null,
 		"children": [
 			"5863",
@@ -89,7 +89,7 @@ var indikatorensetData = [
 		"title": "Zu- und Wegpendler nach Herkunft und Ziel",
 		"subtitle": "",
 		"kuerzel": "I.11.5.05203",
-		"kuerzelKunde": "ST 4-11",
+		"kuerzelKunde": "ST 4-13",
 		"description": "Zu- und Wegpendler nach Herkunft und Ziel",
 		"id": 5203,
 		"thema": "11 Verkehr",
@@ -102,8 +102,8 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Pendler"
 		],
-		"stufe1": "Strategie 4",
-		"stufe2": "",
+		"stufe1": "Siedlung - Wohnen",
+		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -113,7 +113,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_011",
+		"orderKey": "01_01_00_00_00_013",
 		"parentId": null,
 		"children": [
 			"5864",
@@ -131,7 +131,7 @@ var indikatorensetData = [
 		"title": "Leerwohnungsquote",
 		"subtitle": "",
 		"kuerzel": "I.09.2.05813",
-		"kuerzelKunde": "ST 4-4",
+		"kuerzelKunde": "ST 4-6",
 		"description": "Leerwohnungsquote",
 		"id": 5813,
 		"thema": "09 Bau-, Wohnungswesen",
@@ -144,8 +144,8 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Wohnung"
 		],
-		"stufe1": "Strategie 4",
-		"stufe2": "",
+		"stufe1": "Siedlung - Wohnen",
+		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -155,7 +155,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_004",
+		"orderKey": "01_01_00_00_00_006",
 		"parentId": null,
 		"children": [
 			"5873",
@@ -173,7 +173,7 @@ var indikatorensetData = [
 		"title": "Leerwohnungsquote",
 		"subtitle": "nach Wohnviertel",
 		"kuerzel": "I.09.2.05814",
-		"kuerzelKunde": "ST 4-5",
+		"kuerzelKunde": "ST 4-7",
 		"description": "Leerwohnungsquote",
 		"id": 5814,
 		"thema": "09 Bau-, Wohnungswesen",
@@ -186,8 +186,8 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Wohnung"
 		],
-		"stufe1": "Strategie 4",
-		"stufe2": "",
+		"stufe1": "Siedlung - Wohnen",
+		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -197,7 +197,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "01_00_00_00_00_005",
+		"orderKey": "01_01_00_00_00_007",
 		"parentId": 6009,
 		"children": [
 			"5874",
@@ -215,7 +215,7 @@ var indikatorensetData = [
 		"title": "Mittlere Wohnfläche pro Person",
 		"subtitle": "",
 		"kuerzel": "I.09.1.05815",
-		"kuerzelKunde": "ST 4-6",
+		"kuerzelKunde": "ST 4-8",
 		"description": "Mittlere Wohnfläche pro Person",
 		"id": 5815,
 		"thema": "09 Bau-, Wohnungswesen",
@@ -228,8 +228,8 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Wohnen"
 		],
-		"stufe1": "Strategie 4",
-		"stufe2": "",
+		"stufe1": "Siedlung - Wohnen",
+		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -239,7 +239,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "01_00_00_00_00_006",
+		"orderKey": "01_01_00_00_00_008",
 		"parentId": 4140,
 		"children": [
 			"5875",
@@ -258,7 +258,7 @@ var indikatorensetData = [
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "",
 		"kuerzel": "I.09.1.05816",
-		"kuerzelKunde": "ST 4-7",
+		"kuerzelKunde": "ST 4-9",
 		"description": "Nettowohnungsproduktion",
 		"id": 5816,
 		"thema": "09 Bau-, Wohnungswesen",
@@ -271,8 +271,8 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Wohnen"
 		],
-		"stufe1": "Strategie 4",
-		"stufe2": "",
+		"stufe1": "Siedlung - Wohnen",
+		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -282,7 +282,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "01_00_00_00_00_007",
+		"orderKey": "01_01_00_00_00_009",
 		"parentId": 4135,
 		"children": [
 			"5876",
@@ -298,9 +298,9 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Nettowohnungsproduktion",
-		"subtitle": "nach Wohnviertel von 2007 bis 2016",
+		"subtitle": "nach Wohnviertel von nach Wohnviertel von %jahrvon% bis nach Wohnviertel von nach Wohnviertel von %jahrvon% bis %jahrbis% bis %jahrbis% bis nach Wohnviertel von nach Wohnviertel von %jahrvon% bis %jahrbis% bis %jahrbis%",
 		"kuerzel": "I.09.1.05817",
-		"kuerzelKunde": "ST 4-8",
+		"kuerzelKunde": "ST 4-10",
 		"description": "Nettowohnungsproduktion",
 		"id": 5817,
 		"thema": "09 Bau-, Wohnungswesen",
@@ -313,8 +313,8 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Wohnung"
 		],
-		"stufe1": "Strategie 4",
-		"stufe2": "",
+		"stufe1": "Siedlung - Wohnen",
+		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -324,7 +324,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_008",
+		"orderKey": "01_01_00_00_00_010",
 		"parentId": null,
 		"children": [
 			"5877",
@@ -342,7 +342,7 @@ var indikatorensetData = [
 		"title": "Bruttogeschossfläche Wohnen nach Wohnviertel",
 		"subtitle": "",
 		"kuerzel": "I.09.1.05818",
-		"kuerzelKunde": "ST 4-9",
+		"kuerzelKunde": "ST 4-11",
 		"description": "Bruttogeschossfläche Wohnen nach Wohnviertel",
 		"id": 5818,
 		"thema": "09 Bau-, Wohnungswesen",
@@ -355,18 +355,18 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Wohnung"
 		],
-		"stufe1": "Strategie 4",
-		"stufe2": "",
+		"stufe1": "Siedlung - Wohnen",
+		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Bruttogeschossfläche im Bereich Wohnen nahm zwischen 2010 und 2015 in allen Wohnvierteln zu, mit Ausnahme der Altstadt Grossbasel. Am stärksten sind die Anstiege in den Wohnvierteln Wettstein (4,7%), St. Alban (4,8%), Kleinhüningen (12,4%) sowie Rosental (27,7%).",
+		"lesehilfe": "Die stärkste Zunahme der für Wohnen genutzten Bruttogeschossfläche (BGF) von 1995 bis 2015 ergab sich - neben der Gemeinde Riehen - dank der Überbauung des Erlenmattareals im Wohviertel Rosental. Nach Riehen weisen die Wohnviertel Gundeldingen und St. Johann im Jahr 2015 die höchsten Werte der BGF für Wohnnutzung auf.",
 		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche werden fünfjährlich aktualisiert, letztmals 2015.",
 		"template": "mappie001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_009",
+		"orderKey": "01_01_00_00_00_011",
 		"parentId": null,
 		"children": [
 			"5878",
@@ -397,8 +397,8 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Grünflächen"
 		],
-		"stufe1": "Strategie 5",
-		"stufe2": "",
+		"stufe1": "Siedlung - Wohnen",
+		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -408,7 +408,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "02_00_00_00_00_001",
+		"orderKey": "01_02_00_00_00_001",
 		"parentId": 4150,
 		"children": [
 			"5879",
@@ -417,6 +417,49 @@ var indikatorensetData = [
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_7"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Bewertung der Lebensqualität",
+		"subtitle": "",
+		"kuerzel": "I.50.1.05821",
+		"kuerzelKunde": "ST 5-2",
+		"description": "Bewertung der Lebensqualität",
+		"id": 5821,
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Richtplan_NEU",
+		"raeumlicheGliederung": [
+			"Wohnviertel",
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Zufriedenheit"
+		],
+		"stufe1": "Siedlung - Wohnen",
+		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. 2015 vergeben die Bewohnerinnen und Bewohner im Durchschnitt der Lebensqualität im Stadtkanton eine 7,7.",
+		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
+		"template": "befragungen001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "01_02_00_00_00_002",
+		"parentId": 5037,
+		"children": [
+			"5881",
+			"6110"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
 		],
 		"externalLinks": [
 			""
@@ -439,8 +482,8 @@ var indikatorensetData = [
 		"schlagwort": [
 			"ÖV"
 		],
-		"stufe1": "Strategie 6",
-		"stufe2": "",
+		"stufe1": "Siedlung - Wohnen",
+		"stufe2": "Strategie 6: Erschliessungsqualität",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -450,7 +493,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_001",
+		"orderKey": "01_03_00_00_00_001",
 		"parentId": null,
 		"children": [
 			"5882",
@@ -468,7 +511,7 @@ var indikatorensetData = [
 		"title": "Beschäftigtendichte",
 		"subtitle": "Anzahl Beschäftigte pro Hektar",
 		"kuerzel": "I.03.2.05823",
-		"kuerzelKunde": "ST 7-1",
+		"kuerzelKunde": "ST 7-2",
 		"description": "Beschäftigtendichte",
 		"id": 5823,
 		"thema": "03 Erwerbsleben",
@@ -481,8 +524,8 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Beschäftigte"
 		],
-		"stufe1": "Strategie 7",
-		"stufe2": "",
+		"stufe1": "Siedlung - Wirtschaft",
+		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -492,7 +535,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_001",
+		"orderKey": "02_04_00_00_00_002",
 		"parentId": null,
 		"children": [
 			"5883",
@@ -510,7 +553,7 @@ var indikatorensetData = [
 		"title": "Bruttogeschossfläche Industrie und Gewerbe nach Wohnviertel",
 		"subtitle": "",
 		"kuerzel": "I.09.1.05825",
-		"kuerzelKunde": "ST 7-2",
+		"kuerzelKunde": "ST 7-3",
 		"description": "Bruttogeschossfläche Industrie und Gewerbe nach Wohnviertel",
 		"id": 5825,
 		"thema": "09 Bau-, Wohnungswesen",
@@ -523,18 +566,18 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Gebäude"
 		],
-		"stufe1": "Strategie 7",
-		"stufe2": "",
+		"stufe1": "Siedlung - Wirtschaft",
+		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Bruttogeschossfläche im Bereich Arbeiten (Industrie und Gewerbe) ist zwischen 2010 und 2015 im Kanton Basel-Stadt leicht rückläufig. Die grössten realtiven Rückgänge verzeichnen die Wohnviertel Hirzbrunnen (-8,0%) und Breite (-5,6%). Hingegen sind Zunahmen in den Wohnvierteln Am Ring (3,7%) und Wettstein (6,9%) feststellbar.",
+		"lesehilfe": "Die meiste für Industrie und Gewerbe genutzte Bruttogeschossfläche (BGF) findet man 2015 in den Wohnvierteln St. Alban und St. Johann. Während das Wohnviertel St. Johann einen Rückgang der BGF für Industrie und Gewerbe zur Verfügung stehenden BGF seit 1995 verzeichnete, weist das St. Alban-Quartier den stärksten Zuwachs aus.",
 		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche werden fünfjährlich aktualisiert, letztmals 2015.",
 		"template": "mappie001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_002",
+		"orderKey": "02_04_00_00_00_003",
 		"parentId": null,
 		"children": [
 			"5885",
@@ -568,8 +611,8 @@ var indikatorensetData = [
 			"Standort",
 			"Kantonsvergleich"
 		],
-		"stufe1": "Strategie 8",
-		"stufe2": "",
+		"stufe1": "Siedlung - Wirtschaft",
+		"stufe2": "Strategie 8: Qualität für Wirtschaft und Bildung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -579,7 +622,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "05_00_00_00_00_001",
+		"orderKey": "02_05_00_00_00_001",
 		"parentId": 3104,
 		"children": [
 			"5908",
@@ -595,9 +638,9 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Index der Bevölkerungs- und Beschäftigtenentwicklung",
-		"subtitle": "Werte 2005 = 100",
+		"subtitle": "Werte Werte %jahrvon% = 100 = 100",
 		"kuerzel": "I.03.2.05901",
-		"kuerzelKunde": "ST 4-10",
+		"kuerzelKunde": "ST 4-12",
 		"description": "Index der Bevölkerungs- und Beschäftigtenentwicklung",
 		"id": 5901,
 		"thema": "03 Erwerbsleben",
@@ -610,8 +653,8 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Index"
 		],
-		"stufe1": "Strategie 4",
-		"stufe2": "",
+		"stufe1": "Siedlung - Wohnen",
+		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -621,7 +664,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_010",
+		"orderKey": "01_01_00_00_00_012",
 		"parentId": null,
 		"children": [
 			"5909",
@@ -639,7 +682,7 @@ var indikatorensetData = [
 		"title": "Verkehrsleistungsindex",
 		"subtitle": "",
 		"kuerzel": "I.02.6.06007",
-		"kuerzelKunde": "ST 8-2",
+		"kuerzelKunde": "ST 6-2",
 		"description": "Verkehrsleistungsindex",
 		"id": 6007,
 		"thema": "02 Raum, Umwelt",
@@ -652,8 +695,8 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Lärm"
 		],
-		"stufe1": "Strategie 8",
-		"stufe2": "",
+		"stufe1": "Siedlung - Wohnen",
+		"stufe2": "Strategie 6: Erschliessungsqualität",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -663,7 +706,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "05_00_00_00_00_002",
+		"orderKey": "01_03_00_00_00_002",
 		"parentId": null,
 		"children": [
 			"6008",
@@ -694,8 +737,8 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Bevölkerung"
 		],
-		"stufe1": "Strategie 4",
-		"stufe2": "",
+		"stufe1": "Siedlung - Wohnen",
+		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -705,7 +748,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_001",
+		"orderKey": "01_01_00_00_00_001",
 		"parentId": null,
 		"children": [
 			"6221",
@@ -722,9 +765,9 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
-		"subtitle": "Stand: 2017",
+		"subtitle": "Stand: Stand: %jahrvon%",
 		"kuerzel": "I.01.9.06215",
-		"kuerzelKunde": "ST 4-12",
+		"kuerzelKunde": "ST 4-5",
 		"description": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
 		"id": 6215,
 		"thema": "01 Bevölkerung",
@@ -737,8 +780,8 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Bevölkerung"
 		],
-		"stufe1": "Strategie 4",
-		"stufe2": "",
+		"stufe1": "Siedlung - Wohnen",
+		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -748,7 +791,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_012",
+		"orderKey": "01_01_00_00_00_005",
 		"parentId": null,
 		"children": [
 			"6222",
@@ -764,7 +807,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit verschiedenen Aspekten und Angeboten am Wohnort",
-		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» Stand: 2015",
+		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» Stand: «Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» Stand: %jahrbis%",
 		"kuerzel": "I.50.1.06216",
 		"kuerzelKunde": "ST 5-3",
 		"description": "Zufriedenheit mit verschiedenen Aspekten und Angeboten am Wohnort",
@@ -780,8 +823,8 @@ var indikatorensetData = [
 			"Zufriedenheit",
 			"Bevölkerung"
 		],
-		"stufe1": "Strategie 5",
-		"stufe2": "",
+		"stufe1": "Siedlung - Wohnen",
+		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -791,7 +834,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "02_00_00_00_00_003",
+		"orderKey": "01_02_00_00_00_003",
 		"parentId": 5178,
 		"children": [
 			"6223",
@@ -809,7 +852,7 @@ var indikatorensetData = [
 		"title": "Leerstehende Industrie- und Gewerberäume",
 		"subtitle": "in Quadratmeter",
 		"kuerzel": "I.09.2.06217",
-		"kuerzelKunde": "ST 7-3",
+		"kuerzelKunde": "ST 7-4",
 		"description": "Leerstehende Industrie- und Gewerberäume",
 		"id": 6217,
 		"thema": "09 Bau-, Wohnungswesen",
@@ -822,8 +865,8 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Gebäude"
 		],
-		"stufe1": "Strategie 7",
-		"stufe2": "",
+		"stufe1": "Siedlung - Wirtschaft",
+		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -833,7 +876,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_003",
+		"orderKey": "02_04_00_00_00_004",
 		"parentId": null,
 		"children": [
 			"6224",
@@ -864,8 +907,8 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Bildung"
 		],
-		"stufe1": "Strategie 8",
-		"stufe2": "",
+		"stufe1": "Siedlung - Wirtschaft",
+		"stufe2": "Strategie 8: Qualität für Wirtschaft und Bildung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -875,7 +918,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "05_00_00_00_00_003",
+		"orderKey": "02_05_00_00_00_003",
 		"parentId": null,
 		"children": [
 			"6225",
@@ -906,18 +949,18 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Haushalt"
 		],
-		"stufe1": "Strategie 5",
-		"stufe2": "",
+		"stufe1": "Siedlung - Wohnen",
+		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Die Anzahl Privathaushalte in Begegnungszonen ist von 2011 bis 2016 prozentual stärker angestiegen als das Total der Privathaushalte in der Stadt Basel.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_004",
+		"orderKey": "01_02_00_00_00_004",
 		"parentId": null,
 		"children": [
 			"6227",
@@ -936,7 +979,7 @@ var indikatorensetData = [
 		"title": "Anzahl Beschäftigte nach Branche",
 		"subtitle": "",
 		"kuerzel": "I.03.2.06236",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "ST 7-1",
 		"description": "Anzahl Beschäftigte nach Branche",
 		"id": 6236,
 		"thema": "03 Erwerbsleben",
@@ -950,8 +993,8 @@ var indikatorensetData = [
 			"Arbeit",
 			"Angestellte"
 		],
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "Siedlung - Wirtschaft",
+		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -961,7 +1004,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "02_04_00_00_00_001",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -976,8 +1019,8 @@ var indikatorensetData = [
 		"title": "Bevölkerungsdichte",
 		"subtitle": "in Schutz-, Schon- und Bauzonen",
 		"kuerzel": "I.01.1.06237",
-		"kuerzelKunde": "",
-		"description": "Bevölkerungsdcihte",
+		"kuerzelKunde": "ST 4-4",
+		"description": "Bevölkerungsdichte",
 		"id": 6237,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
@@ -990,8 +1033,8 @@ var indikatorensetData = [
 			"Bevölkerung",
 			"Wohnen"
 		],
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "Siedlung - Wohnen",
+		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -1001,7 +1044,7 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "01_01_00_00_00_004",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
