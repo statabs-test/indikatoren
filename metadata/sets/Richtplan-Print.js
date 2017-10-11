@@ -1507,7 +1507,7 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Bevölkerungsdcihte",
+		"title": "Bevölkerungsdichte",
 		"subtitle": "in Schutz-, Schon- und Bauzonen",
 		"kuerzel": "I.01.1.06237",
 		"kuerzelKunde": "",

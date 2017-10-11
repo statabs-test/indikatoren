@@ -6197,7 +6197,7 @@ var indikatoren = [
 		"id": 5902,
 		"thema": "11 Verkehr",
 		"unterthema": "Mobilitätsverhalten",
-		"kennzahlenset": "Richtplan_NEU",
+		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -6616,7 +6616,7 @@ var indikatoren = [
 		"id": 6219,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Richtplan_NEU",
+		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -6733,7 +6733,7 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Bevölkerungsdcihte",
+		"title": "Bevölkerungsdichte",
 		"subtitle": "in Schutz-, Schon- und Bauzonen",
 		"kuerzel": "I.01.1.06237",
 		"kuerzelKunde": "",
@@ -6810,7 +6810,7 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Bevölkerungsdcihte",
+		"title": "Bevölkerungsdichte",
 		"subtitle": "in Schutz-, Schon- und Bauzonen",
 		"kuerzel": "I.01.1.06237",
 		"kuerzelKunde": "",

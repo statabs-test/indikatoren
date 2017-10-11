@@ -224,7 +224,7 @@
     <g class="highcharts-markers highcharts-series-45 highcharts-mappie-series highcharts-color-undefined " transform="translate(2,43) scale(1 1)"/>
   </g>
   <text x="2" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:10px;font-weight:bold;font-family:arial;fill:#000000;" y="9">
-    <tspan>Bevölkerungsdcihte</tspan>
+    <tspan>Bevölkerungsdichte</tspan>
   </text>
   <text x="2" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:10px;font-weight:normal;font-family:arial;fill:#000000;" y="27">
     <tspan>in Schutz-, Schon- und Bauzonen</tspan>
@@ -236,7 +236,7 @@
       </text>
     </g>
   </g>
-  <g class="highcharts-label" transform="translate(372,200)">
+  <g class="highcharts-label" transform="translate(362,200)">
     <text x="3" style="font-size:10px;font-weight:bold;" y="13">
       2016
     </text>

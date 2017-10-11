@@ -253,6 +253,49 @@ var indikatorensetData = [
 		]
 	},
 	{
+		"title": "Bewertung der Lebensqualität",
+		"subtitle": "",
+		"kuerzel": "I.50.1.05821",
+		"kuerzelKunde": "ST 5-2",
+		"description": "Bewertung der Lebensqualität",
+		"id": 5821,
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Wohnviertel",
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Zufriedenheit"
+		],
+		"stufe1": "Strategie 5",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. 2015 vergeben die Bewohnerinnen und Bewohner im Durchschnitt der Lebensqualität im Stadtkanton eine 7,7.",
+		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
+		"template": "befragungen001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "02_00_00_00_00_002",
+		"parentId": 5037,
+		"children": [
+			"5881",
+			"6110"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Beschäftigtendichte",
 		"subtitle": "Anzahl Beschäftigte pro Hektar nach Wohnviertel",
 		"kuerzel": "I.03.2.05824",
@@ -468,6 +511,48 @@ var indikatorensetData = [
 		]
 	},
 	{
+		"title": "Unterwegsdistanz nach Verkehrsmittel",
+		"subtitle": "",
+		"kuerzel": "I.11.6.05902",
+		"kuerzelKunde": "ST 6-2",
+		"description": "Unterwegsdistanz nach Verkehrsmittel",
+		"id": 5902,
+		"thema": "11 Verkehr",
+		"unterthema": "Mobilitätsverhalten",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"ÖV"
+		],
+		"stufe1": "Strategie 6",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2015 legten in Basel-Stadt wohnhafte Personen pro Tag im Mittel mit dem Langsamverkehr (zu Fuss, Velo) fast 4 Kilometer zurück. Mit dem öffentlichen Verkehr sowie mit dem motorisierten Individualverkehr waren es je rund 12 Kilometer.",
+		"erlaeuterungen": "",
+		"template": "pie001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_002",
+		"parentId": null,
+		"children": [
+			"5910",
+			"6121"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Raumentwicklung, Mikrozensus zum Verkehrsverhalten"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Mittlere Wohnfläche pro Person nach Wohnviertel",
 		"subtitle": "nach Wohnviertel",
 		"kuerzel": "I.09.1.05903",
@@ -506,6 +591,48 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Bruttogeschossfläche Total",
+		"subtitle": "nach Wohnviertel",
+		"kuerzel": "I.09.1.06219",
+		"kuerzelKunde": "ST 6-3",
+		"description": "Bruttogeschossfläche Total",
+		"id": 6219,
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Wohnen"
+		],
+		"stufe1": "Strategie 6",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "mappie001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_003",
+		"parentId": null,
+		"children": [
+			"6226",
+			"6234"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Planungsamt Basel-Stadt"
 		],
 		"externalLinks": [
 			""
