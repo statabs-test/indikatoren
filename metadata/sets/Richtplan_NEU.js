@@ -1058,5 +1058,45 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		]
+	},
+	{
+		"title": "Anzahl Beschäftigte nach Branche",
+		"subtitle": "",
+		"kuerzel": "I.03.2.06236",
+		"kuerzelKunde": "",
+		"description": "Anzahl Beschäftigte nach Branche",
+		"id": 6236,
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Beschäftigte ",
+		"kennzahlenset": "Richtplan_NEU",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Arbeit",
+			"Angestellte"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [
+			""
+		]
 	}
 ];

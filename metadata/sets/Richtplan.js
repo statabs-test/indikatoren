@@ -512,22 +512,22 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Anzahl Beschäftigte nach Branche",
-		"subtitle": "",
-		"kuerzel": "I.03.2.06236",
+		"title": "Bevölkerungsdcihte",
+		"subtitle": "in Schutz-, Schon- und Bauzonen",
+		"kuerzel": "I.01.1.06237",
 		"kuerzelKunde": "",
-		"description": "Anzahl Beschäftigte nach Branche",
-		"id": 6236,
-		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"description": "Bevölkerungsdcihte",
+		"id": 6237,
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
 		"schlagwort": [
-			"Arbeit",
-			"Angestellte"
+			"Bevölkerung",
+			"Wohnen"
 		],
 		"stufe1": "",
 		"stufe2": "",
@@ -536,7 +536,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "",
 		"erlaeuterungen": "",
-		"template": "template001",
+		"template": "mappie001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
@@ -545,7 +545,7 @@ var indikatorensetData = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
 			""
