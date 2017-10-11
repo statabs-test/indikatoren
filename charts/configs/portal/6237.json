@@ -3333,87 +3333,87 @@
       "data": [
         [
           "Altstadt GB",
-          null
+          16.5
         ],
         [
           "Vorstädte",
-          null
+          9.8
         ],
         [
           "Am Ring",
-          null
+          6.9
         ],
         [
           "Breite",
-          null
+          12.8
         ],
         [
           "St. Alban",
-          null
+          5.4
         ],
         [
           "Gundeldingen",
-          null
+          -0.4
         ],
         [
           "Bruderholz",
-          null
+          3.8
         ],
         [
           "Bachletten",
-          null
+          3.6
         ],
         [
           "Gotthelf",
-          null
+          5.3
         ],
         [
           "Iselin",
-          null
+          17.4
         ],
         [
           "St. Johann",
-          null
+          6.2
         ],
         [
           "Altstadt KB",
-          null
+          21.1
         ],
         [
           "Clara",
-          null
+          11.3
         ],
         [
           "Wettstein",
-          null
+          3.5
         ],
         [
           "Hirzbrunnen",
-          null
+          12.5
         ],
         [
           "Rosental",
-          null
+          49.7
         ],
         [
           "Matthäus",
-          null
+          4.7
         ],
         [
           "Klybeck",
-          null
+          2.8
         ],
         [
           "Kleinhüningen",
-          null
+          5.8
         ],
         [
           "Riehen",
-          null
+          0.9
         ],
         [
           "Bettingen",
-          null
+          3.5
         ]
       ],
       "name": "Differenz 2016 zu 2007"
@@ -3669,8 +3669,8 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 	                
 					//pie values in legend
-	                var minValueInLegend = 0.1; 
-	                var maxValueInLegend = 30; 
+	                var minValueInLegend = 0.5; 
+	                var maxValueInLegend = 50; 
 	                
                 	//Add manually drawn legend	
 	                fn.addLegendTitle(chart, pieSizeSeries.name, 265, 220);

@@ -1098,5 +1098,45 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		]
+	},
+	{
+		"title": "Bevölkerungsdcihte",
+		"subtitle": "in Schutz-, Schon- und Bauzonen",
+		"kuerzel": "I.01.1.06237",
+		"kuerzelKunde": "",
+		"description": "Bevölkerungsdcihte",
+		"id": 6237,
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur ",
+		"kennzahlenset": "Richtplan_NEU",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Bevölkerung",
+			"Wohnen"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "mappie001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
+		]
 	}
 ];
