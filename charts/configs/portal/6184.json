@@ -71,7 +71,7 @@
           1807
         ]
       ],
-      "name": "Allgemeine Verwaltung"
+      "name": "Allg. Verwaltung"
     },
     {
       "color": "#a8c4cb",
@@ -144,7 +144,7 @@
           2181
         ]
       ],
-      "name": "Öffentliche Ordnung & Sicherheit"
+      "name": "Öff. Sicherheit"
     },
     {
       "color": "#ffbb58",
@@ -290,7 +290,7 @@
           1680
         ]
       ],
-      "name": "Kultur, Sport & Freizeit, Kirche"
+      "name": "Kultur, Bildung, Kultur, Sport"
     },
     {
       "color": "#44ab2b",
@@ -582,7 +582,7 @@
           464
         ]
       ],
-      "name": "Umweltschutz & Raumordnung"
+      "name": "Umweltschutz"
     },
     {
       "color": "#ff8028",
@@ -728,7 +728,7 @@
           1523
         ]
       ],
-      "name": "Finanzen & Steuern"
+      "name": "Finanzen, Steuern"
     },
     {
       "color": "#E6E6E6",
@@ -939,9 +939,8 @@
   "legend": {
     "symbolRadius": 0,
     "enabled": true,
-    "x": 1,
     "y": 35,
-    "itemWidth": 220,
+    "itemWidth": 200,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
