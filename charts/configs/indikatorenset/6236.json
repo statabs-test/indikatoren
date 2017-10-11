@@ -420,7 +420,7 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickInterval": 10500
+    "max": 200000
   },
   "navigation": {
     "menuItemStyle": {

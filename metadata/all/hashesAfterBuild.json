@@ -2220,7 +2220,7 @@
 	},
 	"6236": {
 		"metadata": "653018d3cef7c7eaaa6b0a86698a3d65f90cd32d",
-		"chartConfig": "6633b834250584a6a17b1681af09e8f9b22013af",
+		"chartConfig": "57b9a349e03d0c9e0b231c4a93f490296444087c",
 		"data": "e8b25d05489375683dbfeeb5c902f93d912ffca2",
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "19266290bd6256ccddf0a74722a622cc7c9ea837"
@@ -2290,7 +2290,7 @@
 	},
 	"8009": {
 		"metadata": "33f8f7ca0a720306194000b6a775cf0dfa7ad75a",
-		"chartConfig": "3ad9367a355016147d1140547e9e7fee8a59275a",
+		"chartConfig": "e2a76850241740455586254f894ed021f5c951d1",
 		"data": "3e81378793741f1fa6ca187da0ea86a5a271d7f8",
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "36416c326bfd69045a62865219daf8b56829cd7a"
