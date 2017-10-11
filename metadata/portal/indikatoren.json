@@ -6249,11 +6249,11 @@
 		]
 	},
 	{
-		"title": "Stationäre Behandlungen in Basler Spitälern",
-		"subtitle": "Nach Hauptbereich und Wohnort",
+		"title": "Anzahl stationärer Behandlungen nach Hauptbereich und Wohnort (BS vs. Nicht-BS)",
+		"subtitle": "",
 		"kuerzel": "I.14.1.06175",
 		"kuerzelKunde": "9.5",
-		"description": "Stationäre Behandlungen in Basler Spitälern",
+		"description": "Anzahl stationärer Behandlungen nach Hauptbereich und Wohnort (BS vs. Nicht-BS)",
 		"id": 6175,
 		"thema": "14 Gesundheit",
 		"unterthema": "Bevölkerungsbefragung",
@@ -6407,6 +6407,43 @@
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
 		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Kantonales BIP im Vergleich zu den Staatsausgaben",
+		"subtitle": "indexiert (1995 = 100)",
+		"kuerzel": "I.18.1.06205",
+		"kuerzelKunde": "2.4",
+		"description": "Kantonales BIP im Vergleich zu den Staatsausgaben",
+		"id": 6205,
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Staatsrechnung",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"BIP"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
 		"externalLinks": [
 			""
 		]

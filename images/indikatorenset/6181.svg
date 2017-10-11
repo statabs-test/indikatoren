@@ -39,15 +39,15 @@
   </g>
   <g class="highcharts-series-group">
     <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(50,111) scale(1 1)" clip-path="url(#a)">
-      <path fill="none" d="M 4.166666666663 223.72 L 87.499999999998 220.15 L 170.83333333333 217.77 L 254.16666666667 215.39 L 337.5 214.2 L 420.83333333334 211.82" class="highcharts-graph" stroke="#B00000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+      <path fill="none" d="M 4.166666666663 223.72 L 87.499999999998 220.15 L 170.83333333333 217.77 L 254.16666666667 215.39 L 337.5 214.2 L 420.83333333334 211.82" class="highcharts-graph" stroke="#008AC3" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(50,111) scale(1 1)" clip-path="none">
-      <path fill="#B00000" d="M 8 224 A 4 4 0 1 1 7.999998000000167 223.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#B00000" d="M 91 220 A 4 4 0 1 1 90.99999800000016 219.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#B00000" d="M 174 218 A 4 4 0 1 1 173.99999800000018 217.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#B00000" d="M 258 215 A 4 4 0 1 1 257.9999980000002 214.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#B00000" d="M 341 214 A 4 4 0 1 1 340.9999980000002 213.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#B00000" d="M 424 212 A 4 4 0 1 1 423.9999980000002 211.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#008AC3" d="M 8 224 A 4 4 0 1 1 7.999998000000167 223.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#008AC3" d="M 91 220 A 4 4 0 1 1 90.99999800000016 219.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#008AC3" d="M 174 218 A 4 4 0 1 1 173.99999800000018 217.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#008AC3" d="M 258 215 A 4 4 0 1 1 257.9999980000002 214.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#008AC3" d="M 341 214 A 4 4 0 1 1 340.9999980000002 213.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#008AC3" d="M 424 212 A 4 4 0 1 1 423.9999980000002 211.99600000066667 Z" class="highcharts-point"/>
     </g>
     <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(50,111) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 4.166666666663 70.21000000000001 L 87.499999999998 69.02000000000001 L 170.83333333333 69.02000000000001 L 254.16666666667 69.02000000000001 L 337.5 71.4 L 420.83333333334 65.44999999999999" class="highcharts-graph" stroke="#007A2F" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
@@ -69,8 +69,8 @@
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0" transform="translate(8,8)">
-          <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#B00000" stroke-width="2"/>
-          <path fill="#B00000" d="M 12 11 A 4 4 0 1 1 11.999998000000167 10.996000000666664 Z" class="highcharts-point"/>
+          <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#008AC3" stroke-width="2"/>
+          <path fill="#008AC3" d="M 12 11 A 4 4 0 1 1 11.999998000000167 10.996000000666664 Z" class="highcharts-point"/>
           <text x="21" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
             <tspan>FAMI</tspan>
           </text>

@@ -470,7 +470,7 @@
         "color": "#000000"
       },
       "step": 1,
-      "rotation": -90
+      "rotation": 0
     },
     "tickColor": "#FFFFFF",
     "tickInterval": 1
@@ -501,7 +501,7 @@
             }
           }
     },
-    "inverted": false,
+    "inverted": true,
     "renderTo": "container-6175"
   },
   "plotOptions": {
@@ -523,7 +523,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Stationäre Behandlungen in Basler Spitälern"
+    "text": "Anzahl stationärer Behandlungen nach Hauptbereich und Wohnort (BS vs. Nicht-BS)"
   },
   "subtitle": {
     "style": {
@@ -532,7 +532,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Nach Hauptbereich und Wohnort",
+    "text": "",
     "align": "left"
   },
   "yAxis": {

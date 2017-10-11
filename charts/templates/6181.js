@@ -12,7 +12,7 @@
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y} %</b><br/>'
   },
   "series": [
-    {"color": "#B00000",
+    {"color": "#008AC3",
       "marker": {
         "enabled": true
       }    

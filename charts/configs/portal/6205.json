@@ -7,31 +7,91 @@
       },
       "data": [
         [
+          1995,
+          100
+        ],
+        [
+          1996,
+          98
+        ],
+        [
+          1997,
+          98
+        ],
+        [
+          1998,
+          101
+        ],
+        [
+          1999,
+          103
+        ],
+        [
+          2000,
+          111
+        ],
+        [
+          2001,
+          118
+        ],
+        [
+          2002,
+          123
+        ],
+        [
+          2003,
+          128
+        ],
+        [
+          2004,
+          135
+        ],
+        [
+          2005,
+          140
+        ],
+        [
+          2006,
+          149
+        ],
+        [
+          2007,
+          159
+        ],
+        [
+          2008,
+          163
+        ],
+        [
+          2009,
+          161
+        ],
+        [
+          2010,
+          163
+        ],
+        [
           2011,
-          1.2
+          167
         ],
         [
           2012,
-          1.5
+          169
         ],
         [
           2013,
-          1.7
+          167
         ],
         [
           2014,
-          1.9
+          168
         ],
         [
           2015,
-          2
-        ],
-        [
-          2016,
-          2.2
+          170
         ]
       ],
-      "name": "FAMI"
+      "name": "nominales BIP BS"
     },
     {
       "color": "#007A2F",
@@ -41,31 +101,91 @@
       },
       "data": [
         [
+          1995,
+          100
+        ],
+        [
+          1996,
+          105
+        ],
+        [
+          1997,
+          106
+        ],
+        [
+          1998,
+          106
+        ],
+        [
+          1999,
+          105
+        ],
+        [
+          2000,
+          110
+        ],
+        [
+          2001,
+          120
+        ],
+        [
+          2002,
+          116
+        ],
+        [
+          2003,
+          117
+        ],
+        [
+          2004,
+          115
+        ],
+        [
+          2005,
+          119
+        ],
+        [
+          2006,
+          120
+        ],
+        [
+          2007,
+          152
+        ],
+        [
+          2008,
+          130
+        ],
+        [
+          2009,
+          116
+        ],
+        [
+          2010,
+          125
+        ],
+        [
           2011,
-          14.1
+          125
         ],
         [
           2012,
-          14.2
+          134
         ],
         [
           2013,
-          14.2
+          135
         ],
         [
           2014,
-          14.2
+          140
         ],
         [
           2015,
-          14
-        ],
-        [
-          2016,
-          14.5
+          147
         ]
       ],
-      "name": "Prämienverbilligung"
+      "name": "Staatsausgaben BS"
     }
   ],
   "chart": {
@@ -95,7 +215,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-6181"
+    "renderTo": "container-6205"
   },
   "title": {
     "style": {
@@ -104,7 +224,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung"
+    "text": "Kantonales BIP im Vergleich zu den Staatsausgaben"
   },
   "subtitle": {
     "style": {
@@ -113,12 +233,12 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "indexiert (1995 = 100)",
     "align": "left"
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} %\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
     "min": 0,
@@ -133,7 +253,7 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f} %"
+      "format": "{value:,.0f}"
     }
   },
   "xAxis": {
@@ -142,7 +262,8 @@
         "color": "#000000"
       }
     },
-    "tickLength": 0
+    "tickLength": 0,
+    "tickInterval": 2
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -156,9 +277,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -5
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBasler Informationssystem Sozialleistungen (BISS)"
+    "text": "Quelle: "
   },
   "legend": {
     "enabled": true,
@@ -166,8 +287,9 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
+    "x": 35,
     "y": 35,
-    "itemWidth": 500,
+    "itemWidth": 80,
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"
@@ -183,6 +305,6 @@
     }
   },
   "exporting": {
-    "filename": "I.13.2.06181"
+    "filename": "I.18.1.06205"
   }
 }
