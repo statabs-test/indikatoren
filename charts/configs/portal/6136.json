@@ -7,43 +7,43 @@
       "data": [
         [
           "weibl.",
-          11.6
+          95
         ],
         [
           "männl.",
-          6.4
+          44
         ],
         [
           "Schw.",
-          8.6
+          114
         ],
         [
           "Ausl.",
-          14.5
+          25
         ],
         [
           "18-29",
-          14.4
+          14
         ],
         [
           "30-39",
-          4.2
+          5
         ],
         [
           "40-49",
-          8
+          14
         ],
         [
           "50-59",
-          6.2
+          17
         ],
         [
           "60-69",
-          5.1
+          17
         ],
         [
           "70u.m.",
-          14.2
+          72
         ]
       ],
       "name": "Oblig. Schule",
@@ -56,43 +56,43 @@
       "data": [
         [
           "weibl.",
-          1.2
+          10
         ],
         [
           "männl.",
-          0.6
+          4
         ],
         [
           "Schw.",
-          1
+          13
         ],
         [
           "Ausl.",
-          0.6
+          1
         ],
         [
           "18-29",
-          3.1
+          3
         ],
         [
           "30-39",
-          0.8
+          1
         ],
         [
           "40-49",
-          1.1
+          2
         ],
         [
           "50-59",
-          null
+          0
         ],
         [
           "60-69",
-          0.3
+          1
         ],
         [
           "70u.m.",
-          1.4
+          7
         ]
       ],
       "name": "Berufsvorb. Schule",
@@ -105,43 +105,43 @@
       "data": [
         [
           "weibl.",
-          40
+          327
         ],
         [
           "männl.",
-          36.3
+          250
         ],
         [
           "Schw.",
-          39.5
+          527
         ],
         [
           "Ausl.",
-          28.9
+          50
         ],
         [
           "18-29",
-          22.7
+          22
         ],
         [
           "30-39",
-          29.2
+          35
         ],
         [
           "40-49",
-          26.4
+          46
         ],
         [
           "50-59",
-          31.1
+          85
         ],
         [
           "60-69",
-          41.9
+          140
         ],
         [
           "70u.m.",
-          49
+          249
         ]
       ],
       "name": "Berufslehre",
@@ -154,19 +154,19 @@
       "data": [
         [
           "weibl.",
-          1.1
+          9
         ],
         [
           "männl.",
-          1.7
+          12
         ],
         [
           "Schw.",
-          1.4
+          18
         ],
         [
           "Ausl.",
-          1.7
+          3
         ],
         [
           "18-29",
@@ -174,23 +174,23 @@
         ],
         [
           "30-39",
-          3.3
+          4
         ],
         [
           "40-49",
-          1.7
+          3
         ],
         [
           "50-59",
-          1.8
+          5
         ],
         [
           "60-69",
-          0.6
+          2
         ],
         [
           "70u.m.",
-          1.2
+          6
         ]
       ],
       "name": "DMS",
@@ -203,43 +203,43 @@
       "data": [
         [
           "weibl.",
-          6.5
+          53
         ],
         [
           "männl.",
-          7.1
+          49
         ],
         [
           "Schw.",
-          6.7
+          89
         ],
         [
           "Ausl.",
-          7.5
+          13
         ],
         [
           "18-29",
-          37.1
+          36
         ],
         [
           "30-39",
-          7.5
+          9
         ],
         [
           "40-49",
-          5.7
+          10
         ],
         [
           "50-59",
-          4.4
+          12
         ],
         [
           "60-69",
-          4.5
+          15
         ],
         [
           "70u.m.",
-          3.9
+          20
         ]
       ],
       "name": "Matura",
@@ -252,43 +252,43 @@
       "data": [
         [
           "weibl.",
-          3.4
+          28
         ],
         [
           "männl.",
-          0.7
+          5
         ],
         [
           "Schw.",
-          2.4
+          32
         ],
         [
           "Ausl.",
-          0.6
+          1
         ],
         [
           "18-29",
-          null
+          0
         ],
         [
           "30-39",
-          null
+          0
         ],
         [
           "40-49",
-          1.1
+          2
         ],
         [
           "50-59",
-          4
+          11
         ],
         [
           "60-69",
-          2.4
+          8
         ],
         [
           "70u.m.",
-          2.4
+          12
         ]
       ],
       "name": "Seminar",
@@ -301,43 +301,43 @@
       "data": [
         [
           "weibl.",
-          17.8
+          146
         ],
         [
           "männl.",
-          19.3
+          133
         ],
         [
           "Schw.",
-          19.1
+          255
         ],
         [
           "Ausl.",
-          13.9
+          24
         ],
         [
           "18-29",
-          9.3
+          9
         ],
         [
           "30-39",
-          19.2
+          23
         ],
         [
           "40-49",
-          24.7
+          43
         ],
         [
           "50-59",
-          24.2
+          66
         ],
         [
           "60-69",
-          20.4
+          68
         ],
         [
           "70u.m.",
-          13.8
+          70
         ]
       ],
       "name": "Höhere Fachschule",
@@ -350,43 +350,43 @@
       "data": [
         [
           "weibl.",
-          17.8
+          146
         ],
         [
           "männl.",
-          27
+          186
         ],
         [
           "Schw.",
-          20.7
+          276
         ],
         [
           "Ausl.",
-          32.4
+          56
         ],
         [
           "18-29",
-          12.4
+          12
         ],
         [
           "30-39",
-          35
+          42
         ],
         [
           "40-49",
-          30.5
+          53
         ],
         [
           "50-59",
-          27.8
+          76
         ],
         [
           "60-69",
-          24
+          80
         ],
         [
           "70u.m.",
-          13.6
+          69
         ]
       ],
       "name": "Universität",
@@ -399,43 +399,43 @@
       "data": [
         [
           "weibl.",
-          0.4
+          3
         ],
         [
           "männl.",
-          0.6
+          4
         ],
         [
           "Schw.",
-          0.5
+          7
         ],
         [
           "Ausl.",
-          null
+          0
         ],
         [
           "18-29",
-          null
+          0
         ],
         [
           "30-39",
-          0.8
+          1
         ],
         [
           "40-49",
-          0.6
+          1
         ],
         [
           "50-59",
-          0.4
+          1
         ],
         [
           "60-69",
-          0.3
+          1
         ],
         [
           "70u.m.",
-          0.6
+          3
         ]
       ],
       "name": "Andere Ausbildung",
@@ -448,43 +448,43 @@
       "data": [
         [
           "weibl.",
-          0.1
+          1
         ],
         [
           "männl.",
-          0.1
+          1
         ],
         [
           "Schw.",
-          0.2
+          2
         ],
         [
           "Ausl.",
-          null
+          0
         ],
         [
           "18-29",
-          null
+          0
         ],
         [
           "30-39",
-          null
+          0
         ],
         [
           "40-49",
-          null
+          0
         ],
         [
           "50-59",
-          null
+          0
         ],
         [
           "60-69",
-          0.6
+          2
         ],
         [
           "70u.m.",
-          null
+          0
         ]
       ],
       "name": "Keine Angabe",
@@ -494,8 +494,6 @@
   "xAxis": {
     "type": "category",
     "uniqueNames": true,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
     "tickColor": "#FFFFFF",
     "title": {
       "style": {
@@ -510,7 +508,17 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-            	return this.value.replace(" ", "<br/>");
+                //add sum of observations of visible series to the axis label
+                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
+                    return val.visible;
+                });
+                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
+                    return accumulator + series.yData[indexOfCurrentValue];
+                }, 0);
+                //use N if all series are visible, otherwise use n
+                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
+            	return this.value.replace(" ", "<br/>") + '<br/>(' + nString + sum + ')';
             }
     }
   },
@@ -578,10 +586,6 @@
   },
   "yAxis": {
     "tickInterval": 10,
-    "reversedStacks": false,
-    "gridLineColor": "#B9CFD7",
-    "gridLineWidth": 0.5,
-    "lineColor": "#B9CFD7",
     "title": {
       "style": {
         "color": "#000000",
@@ -597,7 +601,7 @@
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
     "shared": false
   },
   "credits": {
@@ -616,15 +620,13 @@
     "text": "Quelle: Statistisches Amt des Kantons Basel-Stadt, Bevölkerungsbefragung Basel-Stadt 2015, S15A"
   },
   "legend": {
-    "reversed": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
     "align": "left",
     "useHTML": false,
     "itemStyle": {
-      "fontWeight": "normal",
-      "width": 115
+      "fontWeight": "normal"
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
