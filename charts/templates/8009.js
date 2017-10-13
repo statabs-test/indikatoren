@@ -3,12 +3,13 @@
   plotOptions: {
         series: {
         	"stacking": "normal",
+        	 pointWidth: 30, 
              groupPadding: 0,
         }
   },
   "yAxis": {
   	max: 200000,
-  	//tickInterval: 10500,
+  	tickInterval: 50000,
     "labels": {
       "format": "{value:,.0f}",
     }
