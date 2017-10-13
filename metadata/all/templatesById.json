@@ -277,7 +277,7 @@
 	"6148": "line001",
 	"6149": "line001",
 	"6150": "line001",
-	"6151": "befragungenProzent001",
+	"6151": "befragungen001",
 	"6152": "line001",
 	"6154": "line001",
 	"6155": "line001",
@@ -302,7 +302,7 @@
 	"6179": "line001",
 	"6181": "line001",
 	"6182": "line001",
-	"6183": "befragungen001",
+	"6183": "befragungenProzent001",
 	"6184": "template001",
 	"6185": "befragungen001",
 	"6186": "befragungen001",
@@ -316,5 +316,5 @@
 	"6210": "line001",
 	"6211": "line001",
 	"6213": "befragungen001",
-	"6228": "befragungenProzent001"
+	"6228": "befragungen001"
 }
