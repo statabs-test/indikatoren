@@ -3,6 +3,7 @@
 "plotOptions": {
     "series": {
       pointPadding: 100,
+      borderWidth: 0,
       "pointWidth": 30,
       "dataLabels": {
         "style": {
@@ -29,7 +30,6 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 45,
 	"y": 35,
 	"width": 200,
     "itemStyle": {

@@ -11771,7 +11771,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Der Anteil Zahlfälle mit einer Bezugsdauer von mehr als 36Monaten lag 2016 bei 47%. Seit 2011 hat sich dieser stetigerhöht.",
 		"erlaeuterungen": "Nur Stadt Basel, ohne Riehen und Bettingen. Die Sozialhilfe führt Dossiers für Unterstützungseinheiten, die eine oder mehrere Personen umfassen. Als Zahlfälle gelten Unterstützungseinheiten, die entweder wirtschaftliche Sozialhilfe mit Beratung beanspruchen oder Fremdplatzierte sind. Letztere sind minderjährige Kinder, die in Pflegefamilien oder Heimen untergebracht sind und für welche die Sozialhilfe ein eigenes Dossier führt. In einem Haushalt kann es mehrere Zahlfälle geben.",
-		"template": "befragungenProzent001",
+		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
