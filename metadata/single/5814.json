@@ -1,5 +1,5 @@
 {"title":"Leerwohnungsquote",
-"subtitle":"nach Wohnviertel",
+"subtitle":"nach Wohnviertel in Prozent",
 "kuerzel":"I.09.2.05814",
 "kuerzelKunde":"ST 4-7",
 "description":"Leerwohnungsquote",
@@ -24,7 +24,7 @@
 "orderKey":"01_01_00_00_00_007",
 "parentId":6009,
 "children":["5874","6104"],
-"renderLink":[],
+"renderLink":[""],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Leerstandserhebung"],
 "externalLinks":[""]
 }

@@ -1,8 +1,8 @@
-{"title":"Bruttogeschossfläche Industrie und Gewerbe nach Wohnviertel",
+{"title":"Bruttogeschossfläche Arbeiten nach Wohnviertel",
 "subtitle":"",
 "kuerzel":"I.09.1.05825",
 "kuerzelKunde":"ST 7-3",
-"description":"Bruttogeschossfläche Industrie und Gewerbe nach Wohnviertel",
+"description":"Bruttogeschossfläche Arbeiten nach Wohnviertel",
 "id":5825,
 "thema":"09 Bau-, Wohnungswesen",
 "unterthema":"Gebäude und Wohnungen",
@@ -15,7 +15,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Die meiste für Industrie und Gewerbe genutzte Bruttogeschossfläche (BGF) findet man 2015 in den Wohnvierteln St. Alban und St. Johann. Während das Wohnviertel St. Johann einen Rückgang der BGF für Industrie und Gewerbe zur Verfügung stehenden BGF seit 1995 verzeichnete, weist das St. Alban-Quartier den stärksten Zuwachs aus.",
+"lesehilfe":"Die meiste für Arbeiten genutzte Bruttogeschossfläche (BGF) findet man 2015 in den Wohnvierteln St. Alban und St. Johann. Während das Wohnviertel St. Johann einen Rückgang der BGF Arbeiten seit 1995 verzeichnete, weist das St. Alban-Quartier den stärksten Zuwachs aus.",
 "erlaeuterungen":"Die Daten zur Bruttogeschossfläche werden fünfjährlich aktualisiert, letztmals 2015.",
 "template":"mappie001",
 "option":"options001",
@@ -24,7 +24,7 @@
 "orderKey":"02_04_00_00_00_003",
 "parentId":null,
 "children":["5885","6114"],
-"renderLink":[],
+"renderLink":[""],
 "quellenangabe":["Planungsamt Basel-Stadt"],
 "externalLinks":[""]
 }

@@ -1,5 +1,5 @@
 {"title":"Index der Bevölkerungs- und Beschäftigtenentwicklung",
-"subtitle":"Werte Werte %jahrvon% = 100 = 100",
+"subtitle":"Werte 2005 = 100",
 "kuerzel":"I.03.2.05901",
 "kuerzelKunde":"ST 4-12",
 "description":"Index der Bevölkerungs- und Beschäftigtenentwicklung",
@@ -24,7 +24,7 @@
 "orderKey":"01_01_00_00_00_012",
 "parentId":null,
 "children":["5909","6120"],
-"renderLink":[],
-"quellenangabe":["Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"],
+"renderLink":[""],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"],
 "externalLinks":[""]
 }

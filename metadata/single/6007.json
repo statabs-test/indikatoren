@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Von 2010 bis 2016 haben vor allem die Verkehrsmittel Velo und ÖV BVB/BLT einen Anstieg erfahren. Während demselben Zeitraum hat die Nutzung des Verkehrsmittel MIV Stadtstrassennetz abgenommen. Die Daten sind indexiert (Basis 2010 = 100).",
-"erlaeuterungen":"Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1705' target='_blank'>Umweltbericht beider Basel</a>.",
+"erlaeuterungen":"An 35 ausgewählten repräsentativen Zählstellen auf Kantonsgebiet wird die Verkehrsleistung des Motorisierten Individualverkehrs (MIV) gemessen. Aus der Veränderung an diesen Zählstellen wird die Veränderung auf dem ganzen Kantonsgebiet abgeleitet, indem jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet wird. Der Index kann alle fünf Jahre durch die Auswertung des «Mikrozensus Verkehr» überprüft werden.<br>Zusätzlich zum MIV-Index werden Indices für den Öffentlichen Verkehr (Tram- und Buslinien der BVB und der BLT) und für den Veloverkehr (20 Zählstellen) berechnet. Beim Veloverkehr wird der Wettereinfluss mittels einem Modell herausgerechnet.",
 "template":"line001",
 "option":"options001",
 "visible":true,
@@ -24,7 +24,7 @@
 "orderKey":"01_03_00_00_00_002",
 "parentId":null,
 "children":["6008","6123"],
-"renderLink":[],
+"renderLink":[""],
 "quellenangabe":["Amt für Mobilität Basel-Stadt"],
 "externalLinks":[""]
 }

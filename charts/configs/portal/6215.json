@@ -903,7 +903,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: Stand: %jahrvon%",
+    "text": "Stand: 2017",
     "align": "left"
   },
   "xAxis": {

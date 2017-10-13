@@ -3700,7 +3700,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Bevölkerungsdichte"
+    "text": "Bevölkerungsdichte in Wohnzonen"
   },
   "subtitle": {
     "style": {
@@ -3709,7 +3709,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Schutz-, Schon- und Bauzonen",
+    "text": "Anzahl Einwohner pro Hektar in den Zonen S sowie 2-7 nach Wohnviertel",
     "align": "left"
   },
   "credits": {

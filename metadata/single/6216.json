@@ -1,5 +1,5 @@
 {"title":"Zufriedenheit mit verschiedenen Aspekten und Angeboten am Wohnort",
-"subtitle":"«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» Stand: «Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» Stand: %jahrbis%",
+"subtitle":"«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» Stand: 2015",
 "kuerzel":"I.50.1.06216",
 "kuerzelKunde":"ST 5-3",
 "description":"Zufriedenheit mit verschiedenen Aspekten und Angeboten am Wohnort",
@@ -15,8 +15,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"2015 hatten die befragten Personen die Gelegenheit verschiedene Punkte, die für den Wohnort wichtig sind, einzuschätzen. Am zufriedensten sind die befragten Einwohnerinnen und Einwohner mit den Öffentlichen Verkehrsmitteln, gefolgt von der Abfallbeseitigung und den Grünanlagen. Am wenigsten zufrieden sind Sie mit den Parkplätzen und dem Angebot an Wohnungen.",
-"erlaeuterungen":"",
+"lesehilfe":"2015 hatten die befragten Personen die Gelegenheit verschiedene Punkte, die für den Wohnort wichtig sind, einzuschätzen. Am zufriedensten sind die befragten Einwohnerinnen und Einwohner mit den Öffentlichen Verkehrsmitteln, gefolgt von den Grünanlagen. Am wenigsten zufrieden sind Sie mit den Parkplätzen und dem Angebot an Wohnungen.",
+"erlaeuterungen":"2003: N=1495, 2005: N=1509, 2007: N=1505, 2011: N=1516, 2015: N=1504.",
 "template":"befragungen001",
 "option":"options001",
 "visible":true,
@@ -24,7 +24,7 @@
 "orderKey":"01_02_00_00_00_003",
 "parentId":5178,
 "children":["6223","6231"],
-"renderLink":[],
+"renderLink":[""],
 "quellenangabe":["Bevölkerungsbefragung Basel-Stadt 2015, Frage F6"],
 "externalLinks":[""]
 }

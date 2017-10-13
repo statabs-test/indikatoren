@@ -34,7 +34,9 @@ var indikatorensetData = [
 			"5862",
 			"6092"
 		],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -77,7 +79,9 @@ var indikatorensetData = [
 			"5863",
 			"6093"
 		],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -107,7 +111,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Gut 24 000 Personen aus der baselstädtischen Wohnbevölkerung pendelten 2015 in andere Kantone, um einer Erwerbstätigkeit nachzugehen. Etwas über 300 pendelten dafür ins Ausland. Dies ergibt ein Total von ca. 24 400  Wegpendlern.",
+		"lesehilfe": "Im Jahr 2015 pendeln gut 100 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen, rund zwei Drittel von ihnen aus der Schweiz. Etwas mehr als 24 000 Wegpendler stehen dem gegenüber. Dies ergibt einen Zupendlerüberschuss von rund 76 000 Personen - der höchste in der beobachteten Zeitspanne.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
@@ -119,7 +123,9 @@ var indikatorensetData = [
 			"5864",
 			"6094"
 		],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -129,7 +135,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Leerwohnungsquote",
-		"subtitle": "",
+		"subtitle": "in Prozent",
 		"kuerzel": "I.09.2.05813",
 		"kuerzelKunde": "ST 4-6",
 		"description": "Leerwohnungsquote",
@@ -161,7 +167,9 @@ var indikatorensetData = [
 			"5873",
 			"6103"
 		],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
@@ -171,7 +179,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Leerwohnungsquote",
-		"subtitle": "nach Wohnviertel",
+		"subtitle": "nach Wohnviertel in Prozent",
 		"kuerzel": "I.09.2.05814",
 		"kuerzelKunde": "ST 4-7",
 		"description": "Leerwohnungsquote",
@@ -203,7 +211,9 @@ var indikatorensetData = [
 			"5874",
 			"6104"
 		],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
@@ -233,7 +243,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Wohnfläche pro Kopf nahm von 1997 bis 2010 um knapp 2  m² zu. Seither ist ein leichter Rückgang zu verzeichnen.",
+		"lesehilfe": "Die Wohnfläche pro Kopf nahm von 1997 bis 2010 um knapp 2 m² zu. Seither ist ein Rückgang zu verzeichnen. Der Wert 2016 beträgt 41,3 m².",
 		"erlaeuterungen": "Alle Berechnungen beziehen sich auf das Jahresende und berücksichtigen rückwirkend wo immer möglich die aktuell gültigen Definitionen gemäss Gesetzgebung zu Registerharmonisierung und Volkszählung. Ab 2012 handelt es sich um kantonale Registerauswertungen, frühere Werte wurden auf Basis der Volkszählungen 1980, 1990 und 2000 berechnet.",
 		"template": "line001",
 		"option": "options001",
@@ -245,7 +255,9 @@ var indikatorensetData = [
 			"5875",
 			"6105"
 		],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -288,7 +300,9 @@ var indikatorensetData = [
 			"5876",
 			"6106"
 		],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
@@ -298,7 +312,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Nettowohnungsproduktion",
-		"subtitle": "nach Wohnviertel von nach Wohnviertel von %jahrvon% bis nach Wohnviertel von nach Wohnviertel von %jahrvon% bis %jahrbis% bis %jahrbis% bis nach Wohnviertel von nach Wohnviertel von %jahrvon% bis %jahrbis% bis %jahrbis%",
+		"subtitle": "nach Wohnviertel von 2007 bis 2016",
 		"kuerzel": "I.09.1.05817",
 		"kuerzelKunde": "ST 4-10",
 		"description": "Nettowohnungsproduktion",
@@ -330,7 +344,9 @@ var indikatorensetData = [
 			"5877",
 			"6107"
 		],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
@@ -360,7 +376,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die stärkste Zunahme der für Wohnen genutzten Bruttogeschossfläche (BGF) von 1995 bis 2015 ergab sich - neben der Gemeinde Riehen - dank der Überbauung des Erlenmattareals im Wohviertel Rosental. Nach Riehen weisen die Wohnviertel Gundeldingen und St. Johann im Jahr 2015 die höchsten Werte der BGF für Wohnnutzung auf.",
+		"lesehilfe": "Die stärkste Zunahme der für Wohnen genutzten Bruttogeschossfläche (BGF) von 1995 bis 2015 ergab sich - neben der Gemeinde Riehen - dank der Überbauung des Erlenmattareals im Wohviertel Rosental. Nach Riehen weisen die Wohnviertel Gundeldingen und St. Johann im Jahr 2015 die höchsten Werte der BGF Wohnen auf.",
 		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche werden fünfjährlich aktualisiert, letztmals 2015.",
 		"template": "mappie001",
 		"option": "options001",
@@ -372,7 +388,9 @@ var indikatorensetData = [
 			"5878",
 			"6108"
 		],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Planungsamt Basel-Stadt"
 		],
@@ -403,7 +421,7 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Über 90% der Befragten sind 2015 mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden. Dieser Wert ist seit 2005 jeweils leicht angestiegen.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "2003: N=1495, 2005: N=1509, 2007: N=1505, 2011: N=1516, 2015: N=1504.",
 		"template": "befragungen001",
 		"option": "options001",
 		"visible": true,
@@ -414,7 +432,9 @@ var indikatorensetData = [
 			"5879",
 			"6109"
 		],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_7"
 		],
@@ -445,8 +465,8 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. 2015 vergeben die Bewohnerinnen und Bewohner im Durchschnitt der Lebensqualität im Stadtkanton eine 7,7.",
-		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
+		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. 2015 vergeben die Bewohnerinnen und Bewohner im Durchschnitt der Lebensqualität im Stadtkanton eine 7,7. 2003 betrug die Durchschnittsnote 7,4.",
+		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.<br>2003: N=1477, 2005: N=1500, 2007: N=1500, 2011: N=1513, 2015: N=1489.",
 		"template": "befragungen001",
 		"option": "options001",
 		"visible": true,
@@ -457,7 +477,9 @@ var indikatorensetData = [
 			"5881",
 			"6110"
 		],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
 		],
@@ -488,7 +510,7 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Über zwei Drittel der Einwohner in Basel-Stadt wohnen in einem Gebiet der ÖV-Güteklasse A und damit in einer Zone mit sehr guter Anbindung an den öffentlichen Verkehr. Gut 30% in einem Gebiet der Güteklasse B.",
-		"erlaeuterungen": "Die ÖV-Güteklassen sind ein Mass für die räumliche Erschliessungsqualität. Die Güteklassen werden zweistufig bestimmt: Die Art der Verkehrsmittel und das Kursintervall weisen jeder Haltestelle eine bestimmte Kategorie zu. Die Haltestellenkategorie in Verbindung mit der Distanz des Wohnorts einer Person zur Haltestelle ergeben dann die ÖV-Güteklasse für eine bestimmte Person. Folgender Link gibt detailliertere Auskunft zu den ÖV-Güteklassen: http://www.stadtplan.bs.ch/geoviewer/index.php?theme=340&cps=2614062.08,1267869.42,50000&nodefault&layers=stadtplan_grau_osm_50000,gueteklassen. Dieser Link zeigt die räumliche Verteilung der Güteklassen: http://map.geo.bs.ch/main/wsgi/file_proxy/GO_GueteklassenOeV/Definition_Gueteklassen_oeffentlicher_Verkehr.pdf",
+		"erlaeuterungen": "Die ÖV-Güteklassen sind ein Mass für die räumliche Erschliessungsqualität. Die Güteklassen werden zweistufig bestimmt: Die Art der Verkehrsmittel und das Kursintervall weisen jeder Haltestelle eine bestimmte Kategorie zu. Die Haltestellenkategorie in Verbindung mit der Distanz des Wohnorts einer Person zur Haltestelle ergeben dann die ÖV-Güteklasse für eine bestimmte Person. Folgender Link gibt detailliertere Auskunft zu den ÖV-Güteklassen: <a href=\"http://www.stadtplan.bs.ch/geoviewer/index.php?theme=340&cps=2614062.08,1267869.42,50000&nodefault&layers=stadtplan_grau_osm_50000,gueteklassen.\">www.stadtplan.bs.ch</a> <br>Dieser<a href=\"http://map.geo.bs.ch/main/wsgi/file_proxy/GO_GueteklassenOeV/Definition_Gueteklassen_oeffentlicher_Verkehr.pdf\">Link</a> zeigt die räumliche Verteilung der Güteklassen.",
 		"template": "pie001",
 		"option": "options001",
 		"visible": true,
@@ -499,7 +521,9 @@ var indikatorensetData = [
 			"5882",
 			"6111"
 		],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
@@ -541,7 +565,9 @@ var indikatorensetData = [
 			"5883",
 			"6112"
 		],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
@@ -550,11 +576,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Bruttogeschossfläche Industrie und Gewerbe nach Wohnviertel",
+		"title": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
 		"subtitle": "",
 		"kuerzel": "I.09.1.05825",
 		"kuerzelKunde": "ST 7-3",
-		"description": "Bruttogeschossfläche Industrie und Gewerbe nach Wohnviertel",
+		"description": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
 		"id": 5825,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
@@ -571,7 +597,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die meiste für Industrie und Gewerbe genutzte Bruttogeschossfläche (BGF) findet man 2015 in den Wohnvierteln St. Alban und St. Johann. Während das Wohnviertel St. Johann einen Rückgang der BGF für Industrie und Gewerbe zur Verfügung stehenden BGF seit 1995 verzeichnete, weist das St. Alban-Quartier den stärksten Zuwachs aus.",
+		"lesehilfe": "Die meiste für Arbeiten genutzte Bruttogeschossfläche (BGF) findet man 2015 in den Wohnvierteln St. Alban und St. Johann. Während das Wohnviertel St. Johann einen Rückgang der BGF Arbeiten seit 1995 verzeichnete, weist das St. Alban-Quartier den stärksten Zuwachs aus.",
 		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche werden fünfjährlich aktualisiert, letztmals 2015.",
 		"template": "mappie001",
 		"option": "options001",
@@ -583,7 +609,9 @@ var indikatorensetData = [
 			"5885",
 			"6114"
 		],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Planungsamt Basel-Stadt"
 		],
@@ -628,9 +656,11 @@ var indikatorensetData = [
 			"5908",
 			"6119"
 		],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
-			"BAK Basel Economics"
+			"BAK Economics"
 		],
 		"externalLinks": [
 			""
@@ -638,7 +668,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Index der Bevölkerungs- und Beschäftigtenentwicklung",
-		"subtitle": "Werte Werte %jahrvon% = 100 = 100",
+		"subtitle": "Werte 2005 = 100",
 		"kuerzel": "I.03.2.05901",
 		"kuerzelKunde": "ST 4-12",
 		"description": "Index der Bevölkerungs- und Beschäftigtenentwicklung",
@@ -670,8 +700,11 @@ var indikatorensetData = [
 			"5909",
 			"6120"
 		],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
 		"externalLinks": [
@@ -701,7 +734,7 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Von 2010 bis 2016 haben vor allem die Verkehrsmittel Velo und ÖV BVB/BLT einen Anstieg erfahren. Während demselben Zeitraum hat die Nutzung des Verkehrsmittel MIV Stadtstrassennetz abgenommen. Die Daten sind indexiert (Basis 2010 = 100).",
-		"erlaeuterungen": "Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1705' target='_blank'>Umweltbericht beider Basel</a>.",
+		"erlaeuterungen": "An 35 ausgewählten repräsentativen Zählstellen auf Kantonsgebiet wird die Verkehrsleistung des Motorisierten Individualverkehrs (MIV) gemessen. Aus der Veränderung an diesen Zählstellen wird die Veränderung auf dem ganzen Kantonsgebiet abgeleitet, indem jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet wird. Der Index kann alle fünf Jahre durch die Auswertung des «Mikrozensus Verkehr» überprüft werden.<br>Zusätzlich zum MIV-Index werden Indices für den Öffentlichen Verkehr (Tram- und Buslinien der BVB und der BLT) und für den Veloverkehr (20 Zählstellen) berechnet. Beim Veloverkehr wird der Wettereinfluss mittels einem Modell herausgerechnet.",
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
@@ -712,7 +745,9 @@ var indikatorensetData = [
 			"6008",
 			"6123"
 		],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
@@ -742,7 +777,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Wohnbevölkerung in Basel-Stadt liegt 2016 mit rund 198 000 Personen tiefer als noch 1960 (228 000 Personen). Demgegenüber steht ein Ansteig der Anzahl Wohnungen auf gut 108 000 Wohnungen (+30 000) über denselben Zeitraum.",
+		"lesehilfe": "Die Wohnbevölkerung in Basel-Stadt liegt 2016 mit rund 198 000 Personen tiefer als noch 1960 (228 000 Personen). Demgegenüber steht ein Ansteig der Anzahl Wohnungen auf gut 108 000 Wohnungen (+30 000) über denselben Zeitraum. Der Höchststand der Bevölkerungszahl innerhalb des Beobachtungszeitraums lag 1969 bei über 238 000 Personen – seit dem Teifstwert 2006 (187 190) kann eine kontinuierliche Zunahme registriert werden.",
 		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister.",
 		"template": "template001",
 		"option": "options001",
@@ -754,7 +789,9 @@ var indikatorensetData = [
 			"6221",
 			"6229"
 		],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -765,7 +802,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
-		"subtitle": "Stand: Stand: %jahrvon%",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "I.01.9.06215",
 		"kuerzelKunde": "ST 4-5",
 		"description": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
@@ -786,7 +823,7 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Ende 2016 umfasste die baselstädtische Wohnbevölkerung rund 198 200 Personen. Das Mittlere Szenario der aktuellen Bevölkerungsszenarien des Kantons Basel-Stadt geht davon aus, dass sich die Zahl der in Basel-Stadt wohnhaften Personen bis 2035 auf etwa 212 600 erhöht.",
-		"erlaeuterungen": "Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf http://www.statistik.bs.ch/zahlen/analysen/bevoelkerungsszenarien.html.",
+		"erlaeuterungen": "Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der < href=\"http://www.statistik.bs.ch/zahlen/analysen/bevoelkerungsszenarien.html.\">Internetseite des Statistischen Amtes</a>",
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
@@ -797,7 +834,9 @@ var indikatorensetData = [
 			"6222",
 			"6230"
 		],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -807,7 +846,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit verschiedenen Aspekten und Angeboten am Wohnort",
-		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» Stand: «Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» Stand: %jahrbis%",
+		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» Stand: 2015",
 		"kuerzel": "I.50.1.06216",
 		"kuerzelKunde": "ST 5-3",
 		"description": "Zufriedenheit mit verschiedenen Aspekten und Angeboten am Wohnort",
@@ -828,8 +867,8 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2015 hatten die befragten Personen die Gelegenheit verschiedene Punkte, die für den Wohnort wichtig sind, einzuschätzen. Am zufriedensten sind die befragten Einwohnerinnen und Einwohner mit den Öffentlichen Verkehrsmitteln, gefolgt von der Abfallbeseitigung und den Grünanlagen. Am wenigsten zufrieden sind Sie mit den Parkplätzen und dem Angebot an Wohnungen.",
-		"erlaeuterungen": "",
+		"lesehilfe": "2015 hatten die befragten Personen die Gelegenheit verschiedene Punkte, die für den Wohnort wichtig sind, einzuschätzen. Am zufriedensten sind die befragten Einwohnerinnen und Einwohner mit den Öffentlichen Verkehrsmitteln, gefolgt von den Grünanlagen. Am wenigsten zufrieden sind Sie mit den Parkplätzen und dem Angebot an Wohnungen.",
+		"erlaeuterungen": "2003: N=1495, 2005: N=1509, 2007: N=1505, 2011: N=1516, 2015: N=1504.",
 		"template": "befragungen001",
 		"option": "options001",
 		"visible": true,
@@ -840,7 +879,9 @@ var indikatorensetData = [
 			"6223",
 			"6231"
 		],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Bevölkerungsbefragung Basel-Stadt 2015, Frage F6"
 		],
@@ -849,11 +890,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Leerstehende Industrie- und Gewerberäume",
+		"title": "Leerstehende Industrie- und Gewerbeflächen",
 		"subtitle": "in Quadratmeter",
 		"kuerzel": "I.09.2.06217",
 		"kuerzelKunde": "ST 7-4",
-		"description": "Leerstehende Industrie- und Gewerberäume",
+		"description": "Leerstehende Industrie- und Gewerbeflächen",
 		"id": 6217,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
@@ -870,8 +911,8 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Büroflächen machen über die Hälfte aller leeren Geschäftsflächen aus.",
-		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche werden fünfjährlich aktualisiert, letztmals 2015.",
+		"lesehilfe": "Die Büroflächen machen mit gut 54 000 m<sup>2</sup> über die Hälfte aller leeren Geschäftsflächen aus. Der Leerstand von Industrie- und Gewerbeflächen errreichte 2011 mit total knapp 170 000 m<sup>2</sup> den Höchststand in den letzten 20 Jahren.",
+		"erlaeuterungen": "",
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
@@ -882,7 +923,9 @@ var indikatorensetData = [
 			"6224",
 			"6232"
 		],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"SVIT beider Basel"
 		],
@@ -894,7 +937,7 @@ var indikatorensetData = [
 		"title": "Bevölkerung ab 15 Jahren nach Ausbildungsniveau",
 		"subtitle": "",
 		"kuerzel": "I.15.6.06218",
-		"kuerzelKunde": "ST 8-3",
+		"kuerzelKunde": "ST 8-2",
 		"description": "Bevölkerung ab 15 Jahren nach Ausbildungsniveau",
 		"id": 6218,
 		"thema": "15 Bildung",
@@ -924,7 +967,9 @@ var indikatorensetData = [
 			"6225",
 			"6233"
 		],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -954,7 +999,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl Privathaushalte in Begegnungszonen ist von 2011 bis 2016 prozentual stärker angestiegen als das Total der Privathaushalte in der Stadt Basel.",
+		"lesehilfe": "Die Anzahl Privathaushalte in Begegnungszonen ist von 2011 bis 2016 prozentual stärker angestiegen als das Total der Privathaushalte in der Stadt Basel. Ende 2016 gibt es 6 954 Privathaushalte in Begegnungszonen.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"option": "options001",
@@ -966,7 +1011,9 @@ var indikatorensetData = [
 			"6227",
 			"6235"
 		],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Planungsamt Basel-Stadt"
@@ -998,8 +1045,8 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "",
+		"lesehilfe": "Im Jahr 2015 sind in Basel-Stadt 190 753 Personen beschäftigt. Das sind 821 Personen weniger als im Vorjahr.  Den grössten Beschäftigungsrückgang verzeichnet die Branchengruppe Handel und Verkehr mit einer Abnahme um 1512 Personen, während im Gesundheits- und Sozialwesen mit 549 zusätzlichen Beschäftigten der grösste Zuwachs zu beobachten ist.",
+		"erlaeuterungen": "Unternehmens-DL, Freiberufe umfasst: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen, Erbringung von sonstigen wirtschaftlichen Dienstleistungen; Übrige Branchen umfasst: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Beherbergung und Gastronomie, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches  die STATENT-Methode für die entsprechenden Jahre simuliert.",
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
@@ -1007,7 +1054,9 @@ var indikatorensetData = [
 		"orderKey": "02_04_00_00_00_001",
 		"parentId": null,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
@@ -1016,11 +1065,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Bevölkerungsdichte",
-		"subtitle": "in Schutz-, Schon- und Bauzonen",
+		"title": "Bevölkerungsdichte in Wohnzonen",
+		"subtitle": "Anzahl Einwohner pro Hektar in den Zonen S sowie 2-7 nach Wohnviertel",
 		"kuerzel": "I.01.1.06237",
 		"kuerzelKunde": "ST 4-4",
-		"description": "Bevölkerungsdichte",
+		"description": "Bevölkerungsdichte in Wohnzonen",
 		"id": 6237,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
@@ -1038,8 +1087,8 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "",
+		"lesehilfe": "Die Bevölkerungsdichte in den Wohnzonen variiert je nach Gemeinde und Wohnviertel: Am höchsten ist sie in den Wohnvierteln Gundeldingen, Iselin, Clara und Matthäus (>250 Einwohner pro ha), am niedrigsten in Kleinhüningen und in den Landgemeinden (< 70 Einwohner pro ha).",
+		"erlaeuterungen": "Die Wohnzonen umfassen: Stadt- und Dorfbild- Schutz- und Schonzone, Zonen 2-7.",
 		"template": "mappie001",
 		"option": "options001",
 		"visible": true,
@@ -1047,7 +1096,9 @@ var indikatorensetData = [
 		"orderKey": "01_01_00_00_00_004",
 		"parentId": null,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
