@@ -6,6 +6,8 @@
  	"xAxis": {
         "type": "category",
         "labels": {
+		  align: "left",
+          x: -155,
             "formatter": function() {
                 //add sum of observations of visible series to the axis label
                 var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
@@ -41,6 +43,7 @@
   {"color": "#b00000", "index": 9, "legendIndex":9} /*rot dunkel */
   ],
 "chart": {      
+      marginLeft: 165,
      "inverted": true,
   },
 }
