@@ -12,7 +12,7 @@
   	max: 100,
   	tickInterval: 50,
     "labels": {
-      "format": "{value:,.0f} %",
+      "format": "{value:,.0f}%",
     }
   },
   "xAxis": {
@@ -63,7 +63,7 @@
     },    
   ],  
   "tooltip": {
-    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f} %</b><br/>',
+    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}%</b><br/>',
   },
   /*"chart": {
     "marginBottom": 65,

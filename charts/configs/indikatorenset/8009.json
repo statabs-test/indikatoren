@@ -391,6 +391,7 @@
         }
       },
       "stacking": "normal",
+      "pointWidth": 30,
       "groupPadding": 0
     }
   },
@@ -431,7 +432,8 @@
       },
       "format": "{value:,.0f}"
     },
-    "max": 200000
+    "max": 200000,
+    "tickInterval": 50000
   },
   "navigation": {
     "menuItemStyle": {
