@@ -10,7 +10,7 @@
       "type": "category",
   },
   "legend": {
-      "reversed": true
+      "reversed": false
   }
 	}
 }());
