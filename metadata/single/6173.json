@@ -10,7 +10,7 @@
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
 "schlagwort":["Einkommen"],
-"stufe1":"",
+"stufe1":"Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
@@ -21,10 +21,10 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":false,
-"orderKey":"_000",
+"orderKey":"09_00_00_00_00_000",
 "parentId":2917,
 "children":[],
-"renderLink":[],
+"renderLink":[""],
 "quellenangabe":["Amt für Sozialbeiträge, Abteilung Prämienverbilligungen und Familienmietzinsbeiträge"],
 "externalLinks":[""]
 }

@@ -461,7 +461,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Reineinkommen: Mittelwert und Median sowie Mittelwerte der höchsten und tiefsten 20% aller Veranlagungen"
+    "text": "mittelwert und Median des Reineinkommens in Fr. im Kanton Basel-Stadt"
   },
   "subtitle": {
     "style": {
@@ -523,7 +523,7 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "y": 25,
+    "y": 45,
     "itemWidth": 1000,
     "itemMarginBottom": 5,
     "itemStyle": {

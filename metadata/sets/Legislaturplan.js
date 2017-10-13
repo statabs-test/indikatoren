@@ -1,7 +1,7 @@
 var indikatorensetData = [
 	{
 		"title": "Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
-		"subtitle": "Basel-Stadt im nationalen Vergleich, Stand: Basel-Stadt im nationalen Vergleich, Stand: %jahrbis%",
+		"subtitle": "Basel-Stadt im nationalen Vergleich, Stand: 2016",
 		"kuerzel": "I.04.1.02501",
 		"kuerzelKunde": "1.2",
 		"description": "Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
@@ -19,8 +19,8 @@ var indikatorensetData = [
 			"Standort",
 			"Kantonsvergleich"
 		],
-		"stufe1": "Schwerkpunkte 1: Wirtschaftsstandort stärken",
-		"stufe2": "Ziel 4: Life-Sciences-Region: Bedeutende Life-Sciences-Region",
+		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -30,14 +30,16 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "01_03_00_00_00_000",
+		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
 		"children": [
 			"6125"
 		],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
-			"BAK Basel Economics"
+			"BAK Economics"
 		],
 		"externalLinks": [
 			""
@@ -62,7 +64,7 @@ var indikatorensetData = [
 			"Erwerb",
 			"Erwerbstätigkeit"
 		],
-		"stufe1": "Schwerpunkt 7: Chancengleichheit",
+		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -73,12 +75,14 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "07_00_00_00_00_000",
+		"orderKey": "04_00_00_00_00_000",
 		"parentId": null,
 		"children": [
 			"6145"
 		],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F16a_9"
 		],
@@ -108,7 +112,7 @@ var indikatorensetData = [
 			"Quartier",
 			"Standort"
 		],
-		"stufe1": "Schwerpunkt 6: Kulturstadt mit Ausstrahlung",
+		"stufe1": "Ziel 8: Das Kulturangebot ist vielfältig und erstklassig.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -119,12 +123,14 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "06_00_00_00_00_000",
+		"orderKey": "08_00_00_00_00_000",
 		"parentId": null,
 		"children": [
 			"6168"
 		],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_12"
 		],
@@ -152,7 +158,7 @@ var indikatorensetData = [
 			"Spital",
 			"Patient"
 		],
-		"stufe1": "Schwerpunkt 9: Lebensqualität und Sicherheit",
+		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -166,7 +172,9 @@ var indikatorensetData = [
 		"orderKey": "09_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_8"
 		],
@@ -193,7 +201,7 @@ var indikatorensetData = [
 			"Bildung",
 			"Schule"
 		],
-		"stufe1": "Schwerpunkt 7: Chancengleichheit",
+		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -204,12 +212,14 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "07_00_00_00_00_000",
+		"orderKey": "03_00_00_00_00_000",
 		"parentId": null,
 		"children": [
 			"6135"
 		],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung"
 		],
@@ -237,8 +247,8 @@ var indikatorensetData = [
 			"Standort",
 			"Kantonsvergleich"
 		],
-		"stufe1": "Schwerkpunkte 1: Wirtschaftsstandort stärken",
-		"stufe2": "Ziel 3:Drehscheibe für den Personen- und Güterverkehr in Europa",
+		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -248,16 +258,18 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "01_03_00_00_00_000",
+		"orderKey": "05_00_00_00_00_000",
 		"parentId": null,
 		"children": [
 			"5016",
 			"5826",
 			"5891"
 		],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
-			"BAK Basel Economics"
+			"BAK Economics"
 		],
 		"externalLinks": [
 			""
@@ -283,7 +295,7 @@ var indikatorensetData = [
 			"Standort",
 			"Kantonsvergleich"
 		],
-		"stufe1": "Schwerkpunkte 2: Basel als Wissenszentrum positionieren",
+		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -294,12 +306,14 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_000",
+		"orderKey": "03_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
-			"BAK Basel Economics"
+			"BAK Economics"
 		],
 		"externalLinks": [
 			""
@@ -325,7 +339,7 @@ var indikatorensetData = [
 			"Spital",
 			"Kantonsvergleich"
 		],
-		"stufe1": "Schwerpunkt 9: Lebensqualität und Sicherheit",
+		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -339,7 +353,9 @@ var indikatorensetData = [
 		"orderKey": "09_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Bundesamt für Gesundheit (BAG)"
 		],
@@ -365,7 +381,7 @@ var indikatorensetData = [
 			"Bevölkerung",
 			"Hilfeleistung"
 		],
-		"stufe1": "Schwerpunkt 9: Lebensqualität und Sicherheit",
+		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -376,10 +392,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "09_00_00_00_00_000",
+		"orderKey": "11_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Amt für Sozialbeiträge, Abteilung Prämienverbilligungen"
@@ -389,11 +407,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Bruttoinlandprodukt in Franken pro Einwohner, nach Kanton (BS, ZH, GE)",
-		"subtitle": "",
+		"title": "Bruttoinlandprodukt in Franken pro Einwohner",
+		"subtitle": "nach Kanton",
 		"kuerzel": "I.04.1.06124",
 		"kuerzelKunde": "1.1",
-		"description": "Bruttoinlandprodukt in Franken pro Einwohner, nach Kanton (BS, ZH, GE)",
+		"description": "Bruttoinlandprodukt in Franken pro Einwohner",
 		"id": 6124,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
@@ -408,7 +426,7 @@ var indikatorensetData = [
 			"BIP",
 			"Beschäftigte"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -419,10 +437,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "01_00_00_00_00_000",
 		"parentId": 6045,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"BAK Economics AG"
 		],
@@ -432,7 +452,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Kantonaler Wettbewerbsindikator (KWI)",
-		"subtitle": "Basel-Stadt im nationalen Vergleich, Stand: Basel-Stadt im nationalen Vergleich, Stand: %jahrbis%",
+		"subtitle": "Basel-Stadt im nationalen Vergleich, Stand: 2016",
 		"kuerzel": "I.04.2.06126",
 		"kuerzelKunde": "1.3",
 		"description": "Kantonaler Wettbewerbsindikator (KWI)",
@@ -449,7 +469,7 @@ var indikatorensetData = [
 			"Standort",
 			"Kantonsvergleich"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -460,10 +480,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "01_00_00_00_00_000",
 		"parentId": 6050,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"UBS Switzerland AG"
 		],
@@ -473,7 +495,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Kantonales Wettbewerbsprofil",
-		"subtitle": "Basel-Stadt im Vergleich zum Median-Kanton; Stand: Basel-Stadt im Vergleich zum Median-Kanton; Stand: %jahrbis%",
+		"subtitle": "Basel-Stadt im Vergleich zum Median-Kanton; Stand: 2016",
 		"kuerzel": "I.04.2.06127",
 		"kuerzelKunde": "1.4",
 		"description": "Kantonales Wettbewerbsprofil",
@@ -488,7 +510,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Verwaltung"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -499,10 +521,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"UBS Switzerland AG"
 		],
@@ -527,7 +551,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Steuer"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -538,10 +562,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
 		],
@@ -566,7 +592,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Einkommen"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -577,12 +603,14 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "02_00_00_00_00_000",
 		"parentId": null,
 		"children": [
 			"6157"
 		],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
 		],
@@ -591,11 +619,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Steuerbelastung durch Reingewinn- und Kapitalsteuern für Kapitalgesellschaften und Genossenschaften",
-		"subtitle": "Bei einem steuerbaren Reingewinn von  80 000",
+		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
+		"subtitle": "Kapitel und Reserven: 2 Mio. Fr.; Reingewinn: 80 000 Fr.",
 		"kuerzel": "I.04.1.06130",
 		"kuerzelKunde": "2.6a",
-		"description": "Steuerbelastung durch Reingewinn- und Kapitalsteuern für Kapitalgesellschaften und Genossenschaften",
+		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
 		"id": 6130,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
@@ -610,7 +638,7 @@ var indikatorensetData = [
 			"Angestellte",
 			"Kantonsvergleich"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -621,10 +649,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "02_00_00_00_00_000",
 		"parentId": 3169,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Eidgenössische Steuerverwaltung"
 		],
@@ -633,11 +663,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Entwicklung der Staatsausgaben nach Funktion in Franken pro Kopf",
-		"subtitle": "",
+		"title": "Entwicklung der Staatsausgaben nach Funktion",
+		"subtitle": "pro Kopf in Franken",
 		"kuerzel": "I.04.1.06131",
 		"kuerzelKunde": "2.3",
-		"description": "Entwicklung der Staatsausgaben nach Funktion in Franken pro Kopf",
+		"description": "Entwicklung der Staatsausgaben nach Funktion",
 		"id": 6131,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
@@ -649,21 +679,23 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Steuer"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "xy",
-		"erlaeuterungen": "xy",
+		"lesehilfe": "In den meisten Bereichen haben sich die Ausgaben seit 2008 erhöht. Den höchsten Anteil an den Gesamtausgaben hat die Funktion Bildung, gefolgt von Soziale Sicherheit und Gesundheit. Der hohe Wert der Allgemeinen Verwaltung 2008 ist auf die Ausfinanzierung der Deckungslücke der Pensionskasse zurückzuführen.",
+		"erlaeuterungen": "Seit 2008 verwendet die Eidgenössischen Finanzverwaltung (EFV) wegen des Neuen Finanzausgleichs in der Finanzstatistik ein neues Sektorisierungskonzept an, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "02_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
 		],
@@ -672,11 +704,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Summe der Steuereinnahmen natürlicher und juristischer Personen in Mio. Franken",
-		"subtitle": "",
+		"title": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
+		"subtitle": "in Mio. Franken",
 		"kuerzel": "I.04.1.06132",
 		"kuerzelKunde": "2.5",
-		"description": "Summe der Steuereinnahmen natürlicher und juristischer Personen in Mio. Franken",
+		"description": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
 		"id": 6132,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
@@ -688,7 +720,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Steuer"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -699,10 +731,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "02_00_00_00_00_000",
 		"parentId": 5162,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Jahresbericht des Kantons Basel-Stadt"
 		],
@@ -728,7 +762,7 @@ var indikatorensetData = [
 			"Verwaltung",
 			"Beurteilung"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -739,10 +773,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "02_00_00_00_00_000",
 		"parentId": 4860,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F8"
 		],
@@ -751,14 +787,14 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Steuersätze für natürliche Personen",
-		"subtitle": "Vergleich zwischen Kantonshauptorten; Stand: Vergleich zwischen Kantonshauptorten; Stand: %jahrbis%",
-		"kuerzel": "I.04.1.06134",
+		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshasuptorten",
+		"subtitle": "Doppelverdiener mit 2 Kindern und Bruttoarbeitseinkommen von 100 000 Fr.; Stand: 2016",
+		"kuerzel": "I.18.2.06134",
 		"kuerzelKunde": "2.7",
-		"description": "Steuersätze für natürliche Personen",
+		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshasuptorten",
 		"id": 6134,
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Volkseinkommen",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -767,7 +803,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Steuer"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -778,10 +814,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "02_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Eidgenössische Steuerverwaltung"
 		],
@@ -808,7 +846,7 @@ var indikatorensetData = [
 			"Alter",
 			"Bildung"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -819,10 +857,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "03_00_00_00_00_000",
 		"parentId": 5191,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Statistisches Amt des Kantons Basel-Stadt, Bevölkerungsbefragung Basel-Stadt 2015, S15A"
 		],
@@ -849,7 +889,7 @@ var indikatorensetData = [
 			"Arbeit",
 			"Erwerbstätigkeit"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -860,10 +900,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "03_00_00_00_00_000",
 		"parentId": 6053,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
@@ -872,11 +914,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": " Entwicklung der Staatsausgaben nach Funktion in Franken pro Kopf",
-		"subtitle": "",
+		"title": " Entwicklung der Staatsausgaben nach Funktion",
+		"subtitle": "pro Kopf in Franken",
 		"kuerzel": "I.04.1.06138",
 		"kuerzelKunde": "3.5",
-		"description": " Entwicklung der Staatsausgaben nach Funktion in Franken pro Kopf",
+		"description": " Entwicklung der Staatsausgaben nach Funktion",
 		"id": 6138,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
@@ -892,21 +934,23 @@ var indikatorensetData = [
 			"Konsum",
 			"Schulden"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Gesamtausgaben pro Kopf stiegen von 20 817 Fr. im Jahr 2003 auf 23 335 Fr. im Jahr 2013. Der höchste Wert wird mit 7 068 Fr. proKopf für den Bereich Bildung notiert, auf den weiteren Rängen folgen Soziale Sicherheit, Gesundheit und Öffentliche Ordnung undSicherheit. Der Anstieg der Ausgaben beim Posten",
-		"erlaeuterungen": "Aufgrund einer Änderung in der Finanzstatistik der Eidgenössischen Finanzverwaltung (EFV) ist der Vergleich der Daten ab 2008 mit den Jahren 2000-2007 nur von bedingter Aussagekraft. Seit der Einführung des Neuen Finanzausgleichs 2008 wendet die EFV in der Finanzstatistik ein neues Sektorisierungskonzept an, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
+		"lesehilfe": "Die Funktion Bildung hat mit 31,0% den grössten Anteil am Ausgabentotal 2016. Pro Kopf betragen die Ausgaben 7 803 Franken. Seit 2008 ist dieser Betrag um fast 33% gestiegen.",
+		"erlaeuterungen": "Seit 2008 verwendet die Eidgenössischen Finanzverwaltung (EFV) wegen des Neuen Finanzausgleichs in der Finanzstatistik ein neues Sektorisierungskonzept an, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "03_00_00_00_00_000",
 		"parentId": 5161,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
 		],
@@ -934,7 +978,7 @@ var indikatorensetData = [
 			"Standort",
 			"Branche"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -945,10 +989,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "03_00_00_00_00_000",
 		"parentId": 6049,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)"
 		],
@@ -975,21 +1021,23 @@ var indikatorensetData = [
 			"Erwerbstätigkeit",
 			"Branche"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Insgesamt waren 2015 knapp 17% der Beschäftigten (in Vollzeitäquivalenten) in Basel-Stadt in innovativen Branchen tätig, der Grossteil davon in Industriebranchen.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Als innovative Branchen gelten: Herstellung von chemischen (20) und pharmazeutischen Produkten (21), Gummi- und Kunststoffwaren (22), elektronischen und optischen Produkten (26), elektrischen Ausrüstungen (27), Maschinenbau (28), sonstiger Fahrzeugbau (30), Herstellung von medizinischen und zahnmedizinischen Apparaten und Materialien (325), Reparatur und Installation von Maschinen und Ausrüstungen (33), Forschung und Entwicklung (72).",
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "03_00_00_00_00_000",
 		"parentId": 6048,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Bundesamt für Statistik, Betriebszählung, STATENT"
 		],
@@ -1014,7 +1062,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Bevölkerung"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1025,10 +1073,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "04_00_00_00_00_000",
 		"parentId": 4132,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -1053,7 +1103,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Bevölkerung"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1064,10 +1114,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "04_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -1095,7 +1147,7 @@ var indikatorensetData = [
 			"Ausland",
 			"Geburtsort"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1106,10 +1158,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "04_00_00_00_00_000",
 		"parentId": 6034,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18"
 		],
@@ -1118,11 +1172,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Verhältnis der Löhne von Frauen und Männern in der NWCH",
+		"title": "Verhältnis der Löhne von Frauen und Männern in Basel-Stadt",
 		"subtitle": "",
 		"kuerzel": "I.03.3.06147",
 		"kuerzelKunde": "4.6",
-		"description": "Verhältnis der Löhne von Frauen und Männern in der NWCH",
+		"description": "Verhältnis der Löhne von Frauen und Männern in Basel-Stadt",
 		"id": 6147,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Löhne ",
@@ -1137,7 +1191,7 @@ var indikatorensetData = [
 			"Erwerb",
 			"Beschäftigte"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1148,10 +1202,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "04_00_00_00_00_000",
 		"parentId": 6037,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
 		],
@@ -1179,7 +1235,7 @@ var indikatorensetData = [
 			"Erwerb",
 			"Beschäftigte"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1190,10 +1246,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "04_00_00_00_00_000",
 		"parentId": 6038,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)"
 		],
@@ -1223,7 +1281,7 @@ var indikatorensetData = [
 			"Migrationshintergrund",
 			"Migration"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1234,10 +1292,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "04_00_00_00_00_000",
 		"parentId": 6043,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -1246,11 +1306,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Reineinkommen: Mittelwert und Median sowie Mittelwerte der höchsten und tiefsten 20% aller Veranlagungen",
+		"title": "mittelwert und Median des Reineinkommens in Fr. im Kanton Basel-Stadt",
 		"subtitle": "in Franken",
 		"kuerzel": "I.18.2.06150",
 		"kuerzelKunde": "4.9",
-		"description": "Reineinkommen: Mittelwert und Median sowie Mittelwerte der höchsten und tiefsten 20% aller Veranlagungen",
+		"description": "mittelwert und Median des Reineinkommens in Fr. im Kanton Basel-Stadt",
 		"id": 6150,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
@@ -1264,7 +1324,7 @@ var indikatorensetData = [
 			"Erwerbstätigkeit",
 			"Beschäftigte"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1275,10 +1335,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "04_00_00_00_00_000",
 		"parentId": 6054,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
 		],
@@ -1303,7 +1365,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Gesundheit"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1314,10 +1376,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "04_00_00_00_00_000",
 		"parentId": 5165,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
 		],
@@ -1343,7 +1407,7 @@ var indikatorensetData = [
 			"Bevölkerung",
 			"Ausland"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1354,10 +1418,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "04_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -1382,7 +1448,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Lärm"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1393,10 +1459,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "05_00_00_00_00_000",
 		"parentId": 4319,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
@@ -1424,7 +1492,7 @@ var indikatorensetData = [
 			"Zug",
 			"Mobilität"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1435,10 +1503,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "05_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Eidgenössische Zollverwaltung EZV"
 		],
@@ -1463,7 +1533,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Mobilität"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1474,12 +1544,14 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "05_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
-			"https://www.tomtom.com/en_gb/trafficindex/city/BAS"
+			"TomTom"
 		],
 		"externalLinks": [
 			""
@@ -1502,7 +1574,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Luft"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1513,10 +1585,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "07_00_00_00_00_000",
 		"parentId": 6129,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Lufthygieneamt beider Basel"
 		],
@@ -1543,23 +1617,25 @@ var indikatorensetData = [
 			"Umwelt",
 			"Luft"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2014 waren die durch Verkehr verursachten CO2-Emissionen sowohl Total als auch pro Kopfgeringer als noch 2010.",
+		"lesehilfe": "2014 waren die durch Verkehr verursachten CO2-Emissionen sowohl Total als auch pro Kopf geringer als noch 2010.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "05_00_00_00_00_000",
 		"parentId": 6031,
 		"children": [
 			"6165"
 		],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -1585,7 +1661,7 @@ var indikatorensetData = [
 			"Bevölkerung",
 			"Umwelt"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1596,10 +1672,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "07_00_00_00_00_000",
 		"parentId": 5197,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster"
 		],
@@ -1624,7 +1702,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Energie"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1635,10 +1713,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "07_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -1664,7 +1744,7 @@ var indikatorensetData = [
 			"Energie",
 			""
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1675,10 +1755,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "07_00_00_00_00_000",
 		"parentId": 3094,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -1703,7 +1785,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Abfall"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1714,10 +1796,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "07_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
@@ -1744,7 +1828,7 @@ var indikatorensetData = [
 			"Umwelt",
 			"Wasser"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1755,10 +1839,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "07_00_00_00_00_000",
 		"parentId": 6030,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
@@ -1785,7 +1871,7 @@ var indikatorensetData = [
 			"Umwelt",
 			"Luft"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1796,10 +1882,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "07_00_00_00_00_000",
 		"parentId": 6158,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -1824,7 +1912,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Wasser"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1835,10 +1923,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "07_00_00_00_00_000",
 		"parentId": 4237,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
@@ -1847,11 +1937,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Kulturelle Aktivitäten: Anzahl Besuche in Theater, Kinos und Museen",
+		"title": "Anzahl Besuche in Theater, Kinos und Museen",
 		"subtitle": "",
 		"kuerzel": "I.16.1.06169",
 		"kuerzelKunde": "8.2",
-		"description": "Kulturelle Aktivitäten: Anzahl Besuche in Theater, Kinos und Museen",
+		"description": "Anzahl Besuche in Theater, Kinos und Museen",
 		"id": 6169,
 		"thema": "16 Kultur und Sport",
 		"unterthema": "Kultureinrichtungen",
@@ -1863,7 +1953,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Kunst"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 8: Das Kulturangebot ist vielfältig und erstklassig.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1874,10 +1964,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "08_00_00_00_00_000",
 		"parentId": 5194,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Jeweilige Institutionen",
 			"ProCinema"
@@ -1887,11 +1979,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Entwicklung der Staatsausgaben nach Funktion in Franken pro Kopf",
-		"subtitle": "",
+		"title": "Entwicklung der Staatsausgaben nach Funktion",
+		"subtitle": "pro Kopf in Franken",
 		"kuerzel": "I.04.1.06170",
 		"kuerzelKunde": "8.3",
-		"description": "Entwicklung der Staatsausgaben nach Funktion in Franken pro Kopf",
+		"description": "Entwicklung der Staatsausgaben nach Funktion",
 		"id": 6170,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
@@ -1907,21 +1999,23 @@ var indikatorensetData = [
 			"Konsum",
 			"Schulden"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 8: Das Kulturangebot ist vielfältig und erstklassig.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Gesamtausgaben pro Kopf stiegen von 20 817 Fr. im Jahr 2003 auf 23 335 Fr. im Jahr 2013. Der höchste Wert wird mit 7 068 Fr. proKopf für den Bereich Bildung notiert, auf den weiteren Rängen folgen Soziale Sicherheit, Gesundheit und Öffentliche Ordnung undSicherheit. Der Anstieg der Ausgaben beim Posten",
-		"erlaeuterungen": "Aufgrund einer Änderung in der Finanzstatistik der Eidgenössischen Finanzverwaltung (EFV) ist der Vergleich der Daten ab 2008 mit den Jahren 2000-2007 nur von bedingter Aussagekraft. Seit der Einführung des Neuen Finanzausgleichs 2008 wendet die EFV in der Finanzstatistik ein neues Sektorisierungskonzept an, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
+		"lesehilfe": "Die Funktion Kultur, Sport und Freizeit, Kirche hat mit 6,7% einen relativ kleinen Anteil am Ausgabentotal 2016. Pro Kopf betragen die Ausgaben 1 680 Franken. Seit 2008 ist dieser Betrag um fast 29% gestiegen.",
+		"erlaeuterungen": "Seit 2008 verwendet die Eidgenössischen Finanzverwaltung (EFV) wegen des Neuen Finanzausgleichs in der Finanzstatistik ein neues Sektorisierungskonzept an, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "08_00_00_00_00_000",
 		"parentId": 5161,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
 		],
@@ -1930,11 +2024,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Entwicklung der Staatsausgaben nach Funktion in Franken pro Kopf",
-		"subtitle": "",
+		"title": "Entwicklung der Staatsausgaben nach Funktion",
+		"subtitle": "pro Kopf in Franken",
 		"kuerzel": "I.04.1.06172",
 		"kuerzelKunde": "9.2",
-		"description": "Entwicklung der Staatsausgaben nach Funktion in Franken pro Kopf",
+		"description": "Entwicklung der Staatsausgaben nach Funktion",
 		"id": 6172,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
@@ -1950,21 +2044,23 @@ var indikatorensetData = [
 			"Konsum",
 			"Schulden"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Gesamtausgaben pro Kopf stiegen von 20 817 Fr. im Jahr 2003 auf 23 335 Fr. im Jahr 2013. Der höchste Wert wird mit 7 068 Fr. proKopf für den Bereich Bildung notiert, auf den weiteren Rängen folgen Soziale Sicherheit, Gesundheit und Öffentliche Ordnung undSicherheit. Der Anstieg der Ausgaben beim Posten",
-		"erlaeuterungen": "Aufgrund einer Änderung in der Finanzstatistik der Eidgenössischen Finanzverwaltung (EFV) ist der Vergleich der Daten ab 2008 mit den Jahren 2000-2007 nur von bedingter Aussagekraft. Seit der Einführung des Neuen Finanzausgleichs 2008 wendet die EFV in der Finanzstatistik ein neues Sektorisierungskonzept an, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
+		"lesehilfe": "Die Funktion Gesundheit hat einen Anteil von 12,3% am Ausgabentotal 2016. Pro Kopf betragen die Ausgaben 3 094 Franken, 0,8% weniger als im Jahr 2008.",
+		"erlaeuterungen": "Seit 2008 verwendet die Eidgenössischen Finanzverwaltung (EFV) wegen des Neuen Finanzausgleichs in der Finanzstatistik ein neues Sektorisierungskonzept an, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "09_00_00_00_00_000",
 		"parentId": 5161,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
 		],
@@ -1989,7 +2085,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Einkommen"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2000,10 +2096,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "09_00_00_00_00_000",
 		"parentId": 2917,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Amt für Sozialbeiträge, Abteilung Prämienverbilligungen und Familienmietzinsbeiträge"
 		],
@@ -2012,11 +2110,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Anzahl stationärer Behandlungen nach Hauptbereich und Wohnort (BS vs. Nicht-BS)",
-		"subtitle": "",
+		"title": "Stationäre Behandlungen in Basler Spitälern",
+		"subtitle": "Nach Hauptbereich und Wohnort",
 		"kuerzel": "I.14.1.06175",
 		"kuerzelKunde": "9.5",
-		"description": "Anzahl stationärer Behandlungen nach Hauptbereich und Wohnort (BS vs. Nicht-BS)",
+		"description": "Stationäre Behandlungen in Basler Spitälern",
 		"id": 6175,
 		"thema": "14 Gesundheit",
 		"unterthema": "Bevölkerungsbefragung",
@@ -2028,7 +2126,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Gesundheit"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2039,10 +2137,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "09_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
 		],
@@ -2067,7 +2167,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Sicherheit"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2078,10 +2178,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "10_00_00_00_00_000",
 		"parentId": 5188,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Polizeiliche Kriminalitätsstatistk (PKS)"
 		],
@@ -2106,7 +2208,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Verkehr"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2117,10 +2219,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "10_00_00_00_00_000",
 		"parentId": 5186,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
 		],
@@ -2147,7 +2251,7 @@ var indikatorensetData = [
 			"Verbrechen",
 			"Gefühl"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2158,10 +2262,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "10_00_00_00_00_000",
 		"parentId": 6035,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9"
 		],
@@ -2186,7 +2292,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Sicherheit"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2197,10 +2303,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "10_00_00_00_00_000",
 		"parentId": 5189,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Kantonales Laboratorium Basel-Stadt, Kontrollstelle für Chemie- und Biosicherheit"
 		],
@@ -2225,7 +2333,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Einkommen"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2236,10 +2344,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "11_00_00_00_00_000",
 		"parentId": 5183,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Basler Informationssystem Sozialleistungen (BISS)"
@@ -2265,7 +2375,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Einkommen"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2276,10 +2386,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "11_00_00_00_00_000",
 		"parentId": 5184,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Statistisches Amt des Kantons Basel-Stadt, Sozialhilfestatistik",
 			"Departement für Wirtschaft, Soziales und Umwelt"
@@ -2305,7 +2417,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Einkommen"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2316,10 +2428,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "11_00_00_00_00_000",
 		"parentId": 5185,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik",
 			"Departement für Wirtschaft, Soziales und Umwelt"
@@ -2329,11 +2443,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Entwicklung der Staatsausgaben nach Funktion in Franken pro Kopf",
-		"subtitle": "",
+		"title": "Entwicklung der Staatsausgaben nach Funktion",
+		"subtitle": "pro Kopf in Franken",
 		"kuerzel": "I.04.1.06184",
 		"kuerzelKunde": "11.5",
-		"description": "Entwicklung der Staatsausgaben nach Funktion in Franken pro Kopf",
+		"description": "Entwicklung der Staatsausgaben nach Funktion",
 		"id": 6184,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
@@ -2349,21 +2463,23 @@ var indikatorensetData = [
 			"Konsum",
 			"Schulden"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Gesamtausgaben pro Kopf stiegen von 20 817 Fr. im Jahr 2003 auf 23 335 Fr. im Jahr 2013. Der höchste Wert wird mit 7 068 Fr. proKopf für den Bereich Bildung notiert, auf den weiteren Rängen folgen Soziale Sicherheit, Gesundheit und Öffentliche Ordnung undSicherheit. Der Anstieg der Ausgaben beim Posten",
-		"erlaeuterungen": "",
+		"lesehilfe": "Die Funktion Soziale Sicherheit hat einen Anteil von 18,1% am Ausgabentotal 2016. Pro Kopf betragen die Ausgaben 4 557 Franken. Seit 2008 ist dieser Betrag um über 20% gestiegen.",
+		"erlaeuterungen": "Seit 2008 verwendet die Eidgenössischen Finanzverwaltung (EFV) wegen des Neuen Finanzausgleichs in der Finanzstatistik ein neues Sektorisierungskonzept an, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "11_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
 		],
@@ -2390,7 +2506,7 @@ var indikatorensetData = [
 			"Grosser Rat",
 			"Beurteilung"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 12:  Der Service public ist modern und kundenfreundlich.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2401,10 +2517,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "12_00_00_00_00_000",
 		"parentId": 5138,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F21a"
 		],
@@ -2430,7 +2548,7 @@ var indikatorensetData = [
 			"Verwaltung",
 			"Beurteilung"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 12:  Der Service public ist modern und kundenfreundlich.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2441,10 +2559,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "12_00_00_00_00_000",
 		"parentId": 4859,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F19a"
 		],
@@ -2453,11 +2573,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Steuerbelastung durch Reingewinn- und Kapitalsteuern für Kapitalgesellschaften und Genossenschaften",
-		"subtitle": "Bei einem steuerbaren Reingewinn von 400 000",
+		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
+		"subtitle": "Kapital und Reserven: 2 Mio. Fr.; Reingewinn: 400 000 Fr.",
 		"kuerzel": "I.04.1.06201",
 		"kuerzelKunde": "2.6b",
-		"description": "Steuerbelastung durch Reingewinn- und Kapitalsteuern für Kapitalgesellschaften und Genossenschaften",
+		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
 		"id": 6201,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
@@ -2472,7 +2592,7 @@ var indikatorensetData = [
 			"Angestellte",
 			"Kantonsvergleich"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2483,10 +2603,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "02_00_00_00_00_000",
 		"parentId": 5107,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Eidgenössische Steuerverwaltung"
 		],
@@ -2495,11 +2617,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Steuerbelastung durch Reingewinn- und Kapitalsteuern für Kapitalgesellschaften und Genossenschaften",
-		"subtitle": "Bei einem steuerbaren Reingewinn von 1 000 000",
+		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
+		"subtitle": "Kapital und Reserven: 2 Mio. Fr.; Reingewinn: 1 000 000 Fr.",
 		"kuerzel": "I.04.1.06202",
 		"kuerzelKunde": "2.6c",
-		"description": "Steuerbelastung durch Reingewinn- und Kapitalsteuern für Kapitalgesellschaften und Genossenschaften",
+		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
 		"id": 6202,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
@@ -2514,7 +2636,7 @@ var indikatorensetData = [
 			"Angestellte",
 			"Kantonsvergleich"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2525,10 +2647,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "02_00_00_00_00_000",
 		"parentId": 5108,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Eidgenössische Steuerverwaltung"
 		],
@@ -2553,22 +2677,27 @@ var indikatorensetData = [
 		"schlagwort": [
 			"BIP"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Indexierte Werte, 1995 = 100.",
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "02_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [],
-		"quellenangabe": [],
+		"renderLink": [
+			""
+		],
+		"quellenangabe": [
+			"Eidgenössische Finanzverwaltung",
+			"BAK Economics AG"
+		],
 		"externalLinks": [
 			""
 		]
@@ -2592,7 +2721,7 @@ var indikatorensetData = [
 			"Bildung",
 			"Schule"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2603,10 +2732,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "03_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung"
 		],
@@ -2631,7 +2762,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Bildung"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2642,10 +2773,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "03_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
 		],
@@ -2670,7 +2803,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Familie"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2681,10 +2814,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "04_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
 		],
@@ -2710,7 +2845,7 @@ var indikatorensetData = [
 			"BIP",
 			"Schulden"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2721,10 +2856,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "_000",
+		"orderKey": "02_00_00_00_00_000",
 		"parentId": 5160,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Jahresbericht des Kantons Basel-Stadt"
 		],
@@ -2749,7 +2886,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Bevölkerung"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2760,10 +2897,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "04_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
 		],
@@ -2788,7 +2927,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Bevölkerung"
 		],
-		"stufe1": "",
+		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2799,10 +2938,12 @@ var indikatorensetData = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "04_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			""
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
 		],

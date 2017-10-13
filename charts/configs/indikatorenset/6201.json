@@ -295,7 +295,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Steuerbelastung durch Reingewinn- und Kapitalsteuern für Kapitalgesellschaften und Genossenschaften"
+    "text": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern"
   },
   "subtitle": {
     "style": {
@@ -304,7 +304,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Bei einem steuerbaren Reingewinn von 400 000",
+    "text": "Kapital und Reserven: 2 Mio. Fr.; Reingewinn: 400 000 Fr.",
     "align": "left"
   },
   "tooltip": {

@@ -263,7 +263,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt im nationalen Vergleich, Stand: Basel-Stadt im nationalen Vergleich, Stand: %jahrbis%",
+    "text": "Basel-Stadt im nationalen Vergleich, Stand: 2016",
     "align": "left"
   },
   "tooltip": {
@@ -300,7 +300,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: BAK Basel Economics"
+    "text": "Quelle: BAK Economics"
   },
   "legend": {
     "enabled": true,
@@ -308,7 +308,7 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "y": 50,
+    "y": 60,
     "itemWidth": 150,
     "itemStyle": {
       "fontWeight": "normal"

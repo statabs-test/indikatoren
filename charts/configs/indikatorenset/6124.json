@@ -330,7 +330,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Bruttoinlandprodukt in Franken pro Einwohner, nach Kanton (BS, ZH, GE)"
+    "text": "Bruttoinlandprodukt in Franken pro Einwohner"
   },
   "subtitle": {
     "style": {
@@ -339,7 +339,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "nach Kanton",
     "align": "left"
   },
   "tooltip": {

@@ -144,7 +144,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Summe der Steuereinnahmen natürlicher und juristischer Personen in Mio. Franken"
+    "text": "Ertrag des Kantons Basel-Stadt aus direkten Steuern"
   },
   "subtitle": {
     "style": {
@@ -153,7 +153,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "in Mio. Franken",
     "align": "left"
   },
   "tooltip": {

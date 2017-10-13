@@ -10,7 +10,7 @@
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
 "schlagwort":["Energie"],
-"stufe1":"",
+"stufe1":"Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
@@ -21,10 +21,10 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
-"orderKey":"_000",
+"orderKey":"07_00_00_00_00_000",
 "parentId":null,
 "children":[],
-"renderLink":[],
+"renderLink":[""],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Energiestatistik"],
 "externalLinks":[""]
 }

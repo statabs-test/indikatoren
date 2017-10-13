@@ -3,6 +3,7 @@
     {
       "color": "#000000",
       "index": 2,
+      "visible": true,
       "marker": {
         "enabled": true
       },
@@ -46,12 +47,17 @@
         [
           2015,
           4515
+        ],
+        [
+          2016,
+          4625
         ]
       ],
       "name": "Basel-Stadt"
     },
     {
       "color": "#4a7ebb",
+      "visible": true,
       "index": 3,
       "data": [
         [
@@ -93,12 +99,17 @@
         [
           2015,
           3625
+        ],
+        [
+          2016,
+          3802
         ]
       ],
       "name": "Basel-Landschaft"
     },
     {
-      "color": "#e46c0a",
+      "color": "#68AB2B",
+      "visible": true,
       "index": 4,
       "data": [
         [
@@ -140,12 +151,17 @@
         [
           2015,
           3098
+        ],
+        [
+          2016,
+          3245
         ]
       ],
       "name": "Aargau"
     },
     {
       "color": "#9933ff",
+      "visible": true,
       "index": 4,
       "data": [
         [
@@ -187,12 +203,17 @@
         [
           2015,
           3214
+        ],
+        [
+          2016,
+          3400
         ]
       ],
       "name": "Solothurn"
     },
     {
       "color": "#ff0000",
+      "visible": true,
       "index": 1,
       "marker": {
         "enabled": true
@@ -237,6 +258,10 @@
         [
           2015,
           3289
+        ],
+        [
+          2016,
+          3442
         ]
       ],
       "name": "Schweiz"

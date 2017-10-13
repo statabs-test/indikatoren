@@ -10,7 +10,7 @@
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"2017-02-15T10:22:47.4747",
 "schlagwort":["Einkommen","Erwerb","Erwerbstätigkeit"],
-"stufe1":"Schwerpunkt 7: Chancengleichheit",
+"stufe1":"Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
@@ -21,10 +21,10 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
-"orderKey":"07_00_00_00_00_000",
+"orderKey":"04_00_00_00_00_000",
 "parentId":null,
 "children":["6145"],
-"renderLink":[],
+"renderLink":[""],
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F16a_9"],
 "externalLinks":[""]
 }

@@ -140,7 +140,7 @@
     </g>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Kulturelle Aktivitäten: Anzahl Besuche in Theater, Kinos und</tspan><tspan dy="17" x="10">Museen</tspan><title>Kulturelle Aktivitäten: Anzahl Besuche in Theater, Kinos und Museen</title>
+    <tspan>Anzahl Besuche in Theater, Kinos und Museen</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(66,45)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="196" height="106" visibility="visible"/>

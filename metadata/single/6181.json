@@ -10,7 +10,7 @@
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
 "schlagwort":["Einkommen"],
-"stufe1":"",
+"stufe1":"Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
@@ -21,10 +21,10 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":false,
-"orderKey":"_000",
+"orderKey":"11_00_00_00_00_000",
 "parentId":5183,
 "children":[],
-"renderLink":[],
+"renderLink":[""],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Basler Informationssystem Sozialleistungen (BISS)"],
 "externalLinks":[""]
 }

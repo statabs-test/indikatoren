@@ -10,7 +10,7 @@
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"2016-12-05T15:36:26.2626",
 "schlagwort":["Bewilligung","Schule","Standort","Kantonsvergleich"],
-"stufe1":"Schwerkpunkte 2: Basel als Wissenszentrum positionieren",
+"stufe1":"Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
@@ -21,10 +21,10 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
-"orderKey":"02_00_00_00_00_000",
+"orderKey":"03_00_00_00_00_000",
 "parentId":null,
 "children":[],
-"renderLink":[],
-"quellenangabe":["BAK Basel Economics"],
+"renderLink":[""],
+"quellenangabe":["BAK Economics"],
 "externalLinks":[""]
 }

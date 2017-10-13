@@ -10,7 +10,7 @@
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
 "schlagwort":["Bildung","BIP","Standort","Branche"],
-"stufe1":"",
+"stufe1":"Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
@@ -21,10 +21,10 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":false,
-"orderKey":"_000",
+"orderKey":"03_00_00_00_00_000",
 "parentId":6049,
 "children":[],
-"renderLink":[],
+"renderLink":[""],
 "quellenangabe":["Bundesamt für Statistik (BFS)"],
 "externalLinks":[""]
 }

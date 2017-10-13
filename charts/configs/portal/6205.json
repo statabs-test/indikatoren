@@ -91,7 +91,7 @@
           170
         ]
       ],
-      "name": "nominales BIP BS"
+      "name": "Nominales BIP BS"
     },
     {
       "color": "#007A2F",
@@ -241,7 +241,7 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
-    "min": 0,
+    "min": 80,
     "title": {
       "style": {
         "color": "#000000",
@@ -254,7 +254,9 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "max": 180,
+    "tickInterval": 20
   },
   "xAxis": {
     "labels": {
@@ -277,9 +279,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -25
     },
-    "text": "Quelle: "
+    "text": "Quelle: Eidgenössische Finanzverwaltung;\u003Cbr\u002F\u003EBAK Economics AG"
   },
   "legend": {
     "enabled": true,

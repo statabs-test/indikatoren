@@ -10,7 +10,7 @@
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
 "schlagwort":["Mobilität"],
-"stufe1":"",
+"stufe1":"Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
@@ -21,10 +21,10 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
-"orderKey":"_000",
+"orderKey":"05_00_00_00_00_000",
 "parentId":null,
 "children":[],
-"renderLink":[],
-"quellenangabe":["https://www.tomtom.com/en_gb/trafficindex/city/BAS"],
+"renderLink":[""],
+"quellenangabe":["TomTom"],
 "externalLinks":[""]
 }

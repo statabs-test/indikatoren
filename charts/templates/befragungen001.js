@@ -1,19 +1,16 @@
 (function(){
     return {
     "chart": {		
-              "events":{
+        "events":{
             "load": function() {
-              this.credits.element.onclick = function() {};
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                    }
-                  }
-                );
-              }              
+                this.credits.element.onclick = function() {
+                    /*
+                    window.open(
+                    "http://www.statistik.bs.ch",
+                    '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
+                    );
+                    */
+                }
             }
         },
         "borderColor": "#fbfbfb",
@@ -50,7 +47,7 @@
     },
     "plotOptions": {
         "series": {
-            borderWidth: 0,
+        	borderWidth: 0,
             "dataLabels": {
                 "style": {
                     "fontSize": "10px"
@@ -61,9 +58,6 @@
     },
     "yAxis": {
         "tickInterval":10,
-        gridLineColor: '#B9CFD7', 
-        gridLineWidth: 0.5,
-        lineColor: '#B9CFD7', 
         "title": {
             "style": {
             "color": "#000000",
@@ -79,8 +73,6 @@
         }
     },
     "xAxis": {    
-        lineColor: '#B9CFD7', 
-        lineWidth: 0.5,
         "type": "category",
         "uniqueNames": true,
         "tickColor": "#FFFFFF",
@@ -97,7 +89,17 @@
                 "textOverflow": "none"
             },
             "formatter": function() {
-            	return this.value.replace(" ", "<br/>");
+                //add sum of observations of visible series to the axis label
+                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
+                    return val.visible;
+                });
+                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
+                    return accumulator + series.yData[indexOfCurrentValue];
+                }, 0);
+                //use N if all series are visible, otherwise use n
+                var nString = (this.axis.names.length == allVisibleSeries.length) ? 'N=' : 'n='; 
+            	return this.value.replace(" ", "<br/>") + '<br/>(' + nString + sum + ')';
             }
         }
     },
@@ -131,6 +133,6 @@
         "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
         }
-    }
-	};
+    }    
+	}
 }());

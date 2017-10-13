@@ -10,7 +10,7 @@
 "raeumlicheGliederung":["Wohnviertel","Kanton"],
 "aktualisierungsdatum":"2016-12-14T12:12:59.5959",
 "schlagwort":["Zufriedenheit","Museum","Kunst","Quartier","Standort"],
-"stufe1":"Schwerpunkt 6: Kulturstadt mit Ausstrahlung",
+"stufe1":"Ziel 8: Das Kulturangebot ist vielfältig und erstklassig.",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
@@ -21,10 +21,10 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
-"orderKey":"06_00_00_00_00_000",
+"orderKey":"08_00_00_00_00_000",
 "parentId":null,
 "children":["6168"],
-"renderLink":[],
+"renderLink":[""],
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_12"],
 "externalLinks":[""]
 }

@@ -10,7 +10,7 @@
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
 "schlagwort":["Lärm"],
-"stufe1":"",
+"stufe1":"Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
@@ -21,10 +21,10 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":false,
-"orderKey":"_000",
+"orderKey":"05_00_00_00_00_000",
 "parentId":4319,
 "children":[],
-"renderLink":[],
+"renderLink":[""],
 "quellenangabe":["Amt für Mobilität Basel-Stadt"],
 "externalLinks":[""]
 }

@@ -77,7 +77,10 @@
     </g>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Summe der Steuereinnahmen natürlicher und juristischer</tspan><tspan dy="17" x="10">Personen in Mio. Franken</tspan><title>Summe der Steuereinnahmen natürlicher und juristischer Personen in Mio. Franken</title>
+    <tspan>Ertrag des Kantons Basel-Stadt aus direkten Steuern</tspan>
+  </text>
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
+    <tspan>in Mio. Franken</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(44,45)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="296" height="49" visibility="visible"/>

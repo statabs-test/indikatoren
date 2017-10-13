@@ -290,7 +290,7 @@
           1680
         ]
       ],
-      "name": "Kultur, Bildung, Kultur, Sport"
+      "name": "Kultur und Sport"
     },
     {
       "color": "#44ab2b",
@@ -858,7 +858,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Entwicklung der Staatsausgaben nach Funktion in Franken pro Kopf"
+    "text": "Entwicklung der Staatsausgaben nach Funktion"
   },
   "subtitle": {
     "style": {
@@ -867,7 +867,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "pro Kopf in Franken",
     "align": "left"
   },
   "xAxis": {
@@ -883,7 +883,7 @@
       }
     },
     "tickColor": "#FFFFFF",
-    "tickInterval": 2
+    "tickInterval": 1
   },
   "yAxis": [
     {

@@ -94,7 +94,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Steuersätze für natürliche Personen"
+    "text": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshasuptorten"
   },
   "subtitle": {
     "style": {
@@ -103,7 +103,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Vergleich zwischen Kantonshauptorten; Stand: Vergleich zwischen Kantonshauptorten; Stand: %jahrbis%",
+    "text": "Doppelverdiener mit 2 Kindern und Bruttoarbeitseinkommen von 100 000 Fr.; Stand: 2016",
     "align": "left"
   },
   "yAxis": {
@@ -158,6 +158,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.04.1.06134"
+    "filename": "I.18.2.06134"
   }
 }

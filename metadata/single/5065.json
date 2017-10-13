@@ -10,7 +10,7 @@
 "raeumlicheGliederung":["Kanton","Schweiz"],
 "aktualisierungsdatum":"2017-03-02T13:21:53.5353",
 "schlagwort":["Bevölkerung","Spital","Kantonsvergleich"],
-"stufe1":"Schwerpunkt 9: Lebensqualität und Sicherheit",
+"stufe1":"Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
@@ -24,7 +24,7 @@
 "orderKey":"09_00_00_00_00_000",
 "parentId":null,
 "children":[],
-"renderLink":[],
+"renderLink":[""],
 "quellenangabe":["Bundesamt für Gesundheit (BAG)"],
 "externalLinks":[""]
 }
