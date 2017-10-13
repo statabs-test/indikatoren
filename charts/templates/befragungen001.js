@@ -1,7 +1,7 @@
 (function(){
     return {
     "chart": {		
-                    "events":{
+        "events":{
             "load": function() {
               this.credits.element.onclick = function() {};
               //for top-left legends with no x defined: move legend to x position of first yAxis
@@ -101,7 +101,7 @@
                     return accumulator + series.yData[indexOfCurrentValue];
                 }, 0);
                 //use N if all series are visible, otherwise use n
-                var nString = (this.axis.names.length == allVisibleSeries.length) ? 'N=' : 'n='; 
+                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
             	return this.value.replace(" ", "<br/>") + '<br/>(' + nString + sum + ')';
             }
         }
