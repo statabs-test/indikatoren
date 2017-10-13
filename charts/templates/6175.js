@@ -17,11 +17,12 @@
   	"type": "category",
    "tickInterval": 1,
           "labels": {
-          	align: "right",
+          	align: "left",
           	step: 1,
             "rotation": 0,
-            //"rotation": -90,
-        }  
+             overflow: 'justify',
+             x: -20
+       }  
   },
  "legend": {
     enabled:true,
@@ -67,7 +68,7 @@
     "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
   },
   "chart": {
-    "inverted": true,
+     "inverted": true,
   }
 };
 }());

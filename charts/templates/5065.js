@@ -15,20 +15,25 @@
  "series": [
  	{"color": "#000000",
  	 "index": 2,
+ 	 visible: true,
  	  "marker": {
         "enabled": true
     }
  	}, /*schwarz*/
 	{"color": "#4a7ebb",
+	visible: true,
 	  index:3
 	}, /*blau*/
 	{"color": "#68AB2B",
+	visible: true,
 	  index:4
 	}, /*orange*/
 	{"color": "#9933ff",
+	visible: true,
 	  index:4
 	}, /*violett*/
  	{"color": "#ff0000",
+	visible: true,
  	 "index": 1,
  	  "marker": {
         "enabled": true
