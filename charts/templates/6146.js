@@ -10,7 +10,7 @@
     { "color": "#dc440e", index: 1, legendIndex: 1}, // rot
     { "color": "#999999", index: 0, legendIndex: 0}, // grau
   ],
-  "legend": {
+  /*"legend": {
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
@@ -20,6 +20,6 @@
       "itemStyle": {
         "fontWeight": "normal"
       }
-  },
+  },*/
 	}
 }());
