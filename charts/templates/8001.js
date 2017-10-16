@@ -10,12 +10,15 @@ plotOptions: {
     },
   "yAxis": [{
   	title: {
-        text: null
+        text: null,
+        "color": "#000000",
+        "fontSize": null
     },
     "labels": {
       "format": "{value:,.0f}",
        style:{
        		color: "black",
+       		fontSize:10,
        },
     },
     min: 0,
@@ -37,6 +40,7 @@ plotOptions: {
       "format": "{value:,.0f}",
        style:{
        		color: "black",
+       		fontSize:10,
        },
     },
    min: 0,

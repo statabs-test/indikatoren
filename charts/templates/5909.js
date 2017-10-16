@@ -13,6 +13,7 @@
       "format": "{value:,.0f}",
        style:{
        		color: "black",
+       		fontSize:10,
        },
     },
   },
@@ -34,6 +35,7 @@
       "format": "{value:,.1f}",
        style:{
        		color: "black",
+       		fontSize:10,
        },
     },
     "opposite": true
