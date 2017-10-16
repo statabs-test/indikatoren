@@ -5915,7 +5915,7 @@ var indikatoren = [
 	},
 	{
 		"title": "NFA-Ressourcenindex",
-		"subtitle": "Basel-Stadt im kantonalen Vergleich; Stand: 2018",
+		"subtitle": "Basel-Stadt im kantonalen Vergleich, Stand: 2018",
 		"kuerzel": "I.04.1.06129",
 		"kuerzelKunde": "2.1",
 		"description": "NFA-Ressourcenindex",
@@ -6491,7 +6491,7 @@ var indikatoren = [
 		],
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung",
-			"BAK Economics AG"
+			"BAK Economics"
 		],
 		"externalLinks": [
 			""
@@ -6646,7 +6646,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. Im Durchschnitt vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton eine 7,7. Je älter die Befragten, desto tiefer wird die Lebensqualität im Kanton Basel-Stadt bewertet.",
 		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt.",
-		"template": "befragungen001",
+		"template": "befragungenProzent001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
@@ -6687,7 +6687,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. Im Durchschnitt vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton eine 7,7. Je höher das Einkommen der Befragten, desto höher wird die Lebensqualität im Kanton Basel-Stadt bewertet.",
 		"erlaeuterungen": "",
-		"template": "befragungen001",
+		"template": "befragungenProzent001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
@@ -6700,6 +6700,84 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
 		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshasuptorten",
+		"subtitle": "Doppelverdiener ohne Kinder und Bruttoarbeitseinkommen von 100 000 Fr.; Stand: 2016",
+		"kuerzel": "I.18.2.06239",
+		"kuerzelKunde": "2.7b",
+		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshasuptorten",
+		"id": 6239,
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Steuer"
+		],
+		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [
+			""
+		],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshasuptorten",
+		"subtitle": "Ledige Person mit Bruttoarbeitseinkommen von 100 000 Fr.; Stand: 2099",
+		"kuerzel": "I.18.2.06240",
+		"kuerzelKunde": "2.7c",
+		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshasuptorten",
+		"id": 6240,
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Steuer"
+		],
+		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [
+			""
+		],
+		"quellenangabe": [],
 		"externalLinks": [
 			""
 		]

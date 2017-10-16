@@ -170,7 +170,6 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "x": 45,
     "y": 35,
     "width": 200,
     "itemStyle": {
@@ -180,6 +179,7 @@
   "plotOptions": {
     "series": {
       "pointPadding": 100,
+      "borderWidth": 0,
       "pointWidth": 30,
       "dataLabels": {
         "style": {

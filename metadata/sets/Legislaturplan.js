@@ -444,7 +444,7 @@ var indikatorensetData = [
 			""
 		],
 		"quellenangabe": [
-			"BAK Economics AG"
+			"BAK Economics"
 		],
 		"externalLinks": [
 			""
@@ -577,7 +577,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "NFA-Ressourcenindex",
-		"subtitle": "Basel-Stadt im kantonalen Vergleich; Stand: 2018",
+		"subtitle": "Basel-Stadt im kantonalen Vergleich, Stand: 2018",
 		"kuerzel": "I.04.1.06129",
 		"kuerzelKunde": "2.1",
 		"description": "NFA-Ressourcenindex",
@@ -769,7 +769,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "2015 gaben mit 56,4% mehr als die Hälfte der Befragten an, dass die kantonalen Steuern und Gebühren beibehalten werden sollten. Dieser Anteil fällt im Vergleich zu den Vorjahren deutlich höher aus (2011: 45,6%, 2007: 30,0%).",
 		"erlaeuterungen": "",
-		"template": "befragungen001",
+		"template": "befragungenProzent001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
@@ -853,7 +853,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "10,2% haben einen obligatorischen Unterschiede bei der Schul- und Berufsbildung bestehen bei den Geschlechtern, der Herkunft und der Altersgruppen. 33,5% absolvierten ein Studium an einer Fachhochschule oder Universität. Ein deutlicher Unterschied zwischen den Geschlechtern zu beobachten: Bei den Männern liegt der Anteil bei 39,2%, bei den Frauen bei 28,6%.",
 		"erlaeuterungen": "",
-		"template": "befragungen001",
+		"template": "befragungenProzent001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
@@ -1306,11 +1306,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "mittelwert und Median des Reineinkommens in Fr. im Kanton Basel-Stadt",
+		"title": "Mittelwert und Median des Reineinkommens in Fr. im Kanton Basel-Stadt",
 		"subtitle": "in Franken",
 		"kuerzel": "I.18.2.06150",
 		"kuerzelKunde": "4.9",
-		"description": "mittelwert und Median des Reineinkommens in Fr. im Kanton Basel-Stadt",
+		"description": "Mittelwert und Median des Reineinkommens in Fr. im Kanton Basel-Stadt",
 		"id": 6150,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
@@ -1372,7 +1372,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. Im Durchschnitt vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton eine 7,7. Nach Geschlecht unterscheidet sich die Bewertung der Lebensqualität im Kanton Basel-Stadt nicht.",
 		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
-		"template": "befragungen001",
+		"template": "befragungenProzent001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
@@ -1622,8 +1622,8 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2014 waren die durch Verkehr verursachten CO2-Emissionen sowohl Total als auch pro Kopf geringer als noch 2010.",
-		"erlaeuterungen": "",
+		"lesehilfe": "2014 waren die durch den Verkehr verursachten CO2-Emissionen sowohl Total als auch pro Kopf geringer als noch 2010.",
+		"erlaeuterungen": "Die CO2 Produktion des Verkehrs berechnet sich aus der Summe der Verbräuche von Benzin und Diesel multipliziert mit den jeweiligen Emissionskoeffizienten von CO2. Zur Berechnung des pro Kopf Verbrauchs wird der CO2-Verbrauch durch die mittlere Bevölkerung dividiert. Die Verbräuche von Benzin und Diesel werden im Gesamtverkehrsmodell modelliert.",
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
@@ -1877,7 +1877,7 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die aus dem Bruttoenergieverbrauch abgeleiteten CO2-Emissionen nahmen zwischen 2010 und 2014 von 898 113 Tonnen auf 755 095 Tonnen ab. Das entspricht einer Reduktion von 16%.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Die CO2 Emission berechnet sich aus der Summe der Verbräuche aller fossilen Brennstoffe sowie Abfall multipliziert mit den jeweiligen Emissionskoeffizienten von CO2. Zur Berechnung des pro Kopf Verbrauchs wird der CO2-Verbrauch durch die mittlere Bevölkerung dividiert.  Erneuerbare Brennstoffe wie Holz oder Biogas sind nicht in den Emissionen eingeschlossen. Der in der KVA verbrannte Hauskehricht wird als 50% erneuerbar gezählt und ist somit nur zur Hälfte in die CO2 Emissionen eingerechnet.",
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
@@ -2424,7 +2424,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Der Anteil Zahlfälle mit einer Bezugsdauer von mehr als 36Monaten lag 2016 bei 47%. Seit 2011 hat sich dieser stetigerhöht.",
 		"erlaeuterungen": "Nur Stadt Basel, ohne Riehen und Bettingen. Die Sozialhilfe führt Dossiers für Unterstützungseinheiten, die eine oder mehrere Personen umfassen. Als Zahlfälle gelten Unterstützungseinheiten, die entweder wirtschaftliche Sozialhilfe mit Beratung beanspruchen oder Fremdplatzierte sind. Letztere sind minderjährige Kinder, die in Pflegefamilien oder Heimen untergebracht sind und für welche die Sozialhilfe ein eigenes Dossier führt. In einem Haushalt kann es mehrere Zahlfälle geben.",
-		"template": "template001",
+		"template": "befragungen001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
@@ -2555,7 +2555,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "73,7% der befragten Personen schätzten 2015 ihren letzten Kontakt, den sie mit der Verwaltung des Kantons Basel-Stadt hatten, als positiv ein. Das sind 3,8 Prozentpunkte weniger als 2011, aber mehr als in der Befragung von 2007 (64,4%).",
 		"erlaeuterungen": "",
-		"template": "befragungen001",
+		"template": "befragungenProzent001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
@@ -2696,7 +2696,7 @@ var indikatorensetData = [
 		],
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung",
-			"BAK Economics AG"
+			"BAK Economics"
 		],
 		"externalLinks": [
 			""
@@ -2893,7 +2893,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. Im Durchschnitt vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton eine 7,7. Je älter die Befragten, desto tiefer wird die Lebensqualität im Kanton Basel-Stadt bewertet.",
 		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt.",
-		"template": "befragungen001",
+		"template": "befragungenProzent001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
@@ -2934,7 +2934,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. Im Durchschnitt vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton eine 7,7. Je höher das Einkommen der Befragten, desto höher wird die Lebensqualität im Kanton Basel-Stadt bewertet.",
 		"erlaeuterungen": "",
-		"template": "befragungen001",
+		"template": "befragungenProzent001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
@@ -2947,6 +2947,84 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
 		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshasuptorten",
+		"subtitle": "Doppelverdiener ohne Kinder und Bruttoarbeitseinkommen von 100 000 Fr.; Stand: 2016",
+		"kuerzel": "I.18.2.06239",
+		"kuerzelKunde": "2.7b",
+		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshasuptorten",
+		"id": 6239,
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Steuer"
+		],
+		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [
+			""
+		],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshasuptorten",
+		"subtitle": "Ledige Person mit Bruttoarbeitseinkommen von 100 000 Fr.; Stand: 2099",
+		"kuerzel": "I.18.2.06240",
+		"kuerzelKunde": "2.7c",
+		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshasuptorten",
+		"id": 6240,
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Steuer"
+		],
+		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [
+			""
+		],
+		"quellenangabe": [],
 		"externalLinks": [
 			""
 		]

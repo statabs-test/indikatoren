@@ -65,35 +65,6 @@
       "data": [
         [
           "2003",
-          65
-        ],
-        [
-          "2005",
-          54
-        ],
-        [
-          "2007",
-          84
-        ],
-        [
-          "2011",
-          39
-        ],
-        [
-          "2015",
-          51
-        ]
-      ],
-      "name": "Weiss nicht\u002Fkeine Angabe",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#dc440e",
-      "index": 1,
-      "legendIndex": 1,
-      "data": [
-        [
-          "2003",
           322
         ],
         [
@@ -117,9 +88,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#999999",
-      "index": 0,
-      "legendIndex": 0,
+      "color": "#dc440e",
+      "index": 1,
+      "legendIndex": 1,
       "data": [
         [
           "2003",
@@ -143,6 +114,35 @@
         ]
       ],
       "name": "Gar keine Bereicherung",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#999999",
+      "index": 0,
+      "legendIndex": 0,
+      "data": [
+        [
+          "2003",
+          65
+        ],
+        [
+          "2005",
+          54
+        ],
+        [
+          "2007",
+          84
+        ],
+        [
+          "2011",
+          39
+        ],
+        [
+          "2015",
+          51
+        ]
+      ],
+      "name": "Weiss nicht\u002Fkeine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -275,10 +275,10 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18"
   },
   "legend": {
-    "layout": "horizontal",
-    "verticalAlign": "top",
+    "layout": "vertical",
+    "verticalAlign": "middle",
     "itemMarginBottom": 5,
-    "align": "left",
+    "align": "right",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal"
@@ -286,10 +286,7 @@
     "symbolRadius": 0,
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
-        },
-    "enabled": true,
-    "y": 70,
-    "itemWidth": 500
+        }
   },
   "exporting": {
     "filename": "I.50.1.06146"
