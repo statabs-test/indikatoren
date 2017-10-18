@@ -238,7 +238,7 @@
           108001
         ]
       ],
-      "name": "Belegte Wohnungen (linke Skala)"
+      "name": "Belegte Wohnungen"
     },
     {
       "color": "#A8C3CA",
@@ -478,7 +478,7 @@
           452
         ]
       ],
-      "name": "Leerstehende Wohnungen (linke Skala)"
+      "name": "Leerstehende Wohnungen"
     },
     {
       "color": "#246370",

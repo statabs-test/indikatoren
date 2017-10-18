@@ -6,7 +6,7 @@
 "id":6236,
 "thema":"03 Erwerbsleben",
 "unterthema":"Beschäftigte ",
-"kennzahlenset":"Richtplan_NEU",
+"kennzahlenset":"Richtplan-kurz",
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
 "schlagwort":["Arbeit","Angestellte"],
@@ -23,7 +23,7 @@
 "visibleInPortal":true,
 "orderKey":"02_04_00_00_00_001",
 "parentId":null,
-"children":[],
+"children":["6241","6265"],
 "renderLink":[""],
 "quellenangabe":["Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"],
 "externalLinks":[""]

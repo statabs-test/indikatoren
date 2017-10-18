@@ -6,7 +6,7 @@
 "id":5822,
 "thema":"11 Verkehr",
 "unterthema":"Öffentlicher Verkehr",
-"kennzahlenset":"Richtplan_NEU",
+"kennzahlenset":"Richtplan-kurz",
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"2017-06-26T14:00:15.1515",
 "schlagwort":["ÖV"],
@@ -23,7 +23,7 @@
 "visibleInPortal":true,
 "orderKey":"01_03_00_00_00_001",
 "parentId":null,
-"children":["5882","6111"],
+"children":["5882","6111","6253"],
 "renderLink":[""],
 "quellenangabe":["Amt für Mobilität Basel-Stadt"],
 "externalLinks":[""]

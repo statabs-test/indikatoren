@@ -1224,7 +1224,7 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Bevölkerung am Jahresende un Anzahl Wohnungen",
+		"title": "Bevölkerung am Jahresende und Anzahl Wohnungen",
 		"subtitle": "",
 		"kuerzel": "I.01.1.05809",
 		"kuerzelKunde": "ST 4-1",

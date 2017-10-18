@@ -6,7 +6,7 @@
 "id":6217,
 "thema":"09 Bau-, Wohnungswesen",
 "unterthema":"Leerstand",
-"kennzahlenset":"Richtplan_NEU",
+"kennzahlenset":"Richtplan-kurz",
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
 "schlagwort":["Gebäude"],
@@ -23,7 +23,7 @@
 "visibleInPortal":true,
 "orderKey":"02_04_00_00_00_004",
 "parentId":null,
-"children":["6224","6232"],
+"children":["6224","6232","6262"],
 "renderLink":[""],
 "quellenangabe":["SVIT beider Basel"],
 "externalLinks":[""]

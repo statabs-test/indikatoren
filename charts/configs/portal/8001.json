@@ -238,7 +238,7 @@
           108001
         ]
       ],
-      "name": "Belegte Wohnungen (linke Skala)"
+      "name": "Belegte Wohnungen"
     },
     {
       "color": "#A8C3CA",
@@ -478,7 +478,7 @@
           452
         ]
       ],
-      "name": "Leerstehende Wohnungen (linke Skala)"
+      "name": "Leerstehende Wohnungen"
     },
     {
       "color": "#246370",
@@ -770,7 +770,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Bevölkerung am Jahresende un Anzahl Wohnungen"
+    "text": "Bevölkerung am Jahresende und Anzahl Wohnungen"
   },
   "subtitle": {
     "style": {
@@ -803,12 +803,15 @@
   "yAxis": [
     {
       "title": {
-        "text": null
+        "text": null,
+        "color": "#000000",
+        "fontSize": null
       },
       "labels": {
         "format": "{value:,.0f}",
         "style": {
-          "color": "black"
+          "color": "black",
+          "fontSize": 10
         }
       },
       "min": 0,
@@ -822,7 +825,8 @@
       "labels": {
         "format": "{value:,.0f}",
         "style": {
-          "color": "black"
+          "color": "black",
+          "fontSize": 10
         }
       },
       "min": 0,

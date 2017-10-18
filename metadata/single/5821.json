@@ -6,7 +6,7 @@
 "id":5821,
 "thema":"50 Befragungen",
 "unterthema":"Bevölkerungsbefragung",
-"kennzahlenset":"Richtplan_NEU",
+"kennzahlenset":"Richtplan-kurz",
 "raeumlicheGliederung":["Wohnviertel","Kanton"],
 "aktualisierungsdatum":"",
 "schlagwort":["Zufriedenheit"],
@@ -23,7 +23,7 @@
 "visibleInPortal":false,
 "orderKey":"01_02_00_00_00_002",
 "parentId":5037,
-"children":["5881","6110"],
+"children":["5881","6110","6252"],
 "renderLink":[""],
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"],
 "externalLinks":[""]

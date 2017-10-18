@@ -9161,7 +9161,7 @@ var indikatoren = [
 		"id": 5201,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Richtplan_NEU",
+		"kennzahlenset": "Richtplan-kurz",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -9185,7 +9185,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [
 			"5862",
-			"6092"
+			"6092",
+			"6242"
 		],
 		"renderLink": [
 			""
@@ -9206,7 +9207,7 @@ var indikatoren = [
 		"id": 5202,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Richtplan_NEU",
+		"kennzahlenset": "Richtplan-kurz",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -9230,7 +9231,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [
 			"5863",
-			"6093"
+			"6093",
+			"6243"
 		],
 		"renderLink": [
 			""
@@ -9246,12 +9248,12 @@ var indikatoren = [
 		"title": "Zu- und Wegpendler nach Herkunft und Ziel",
 		"subtitle": "",
 		"kuerzel": "I.11.5.05203",
-		"kuerzelKunde": "ST 4-13",
+		"kuerzelKunde": "ST 4-12",
 		"description": "Zu- und Wegpendler nach Herkunft und Ziel",
 		"id": 5203,
 		"thema": "11 Verkehr",
 		"unterthema": "Pendler",
-		"kennzahlenset": "Richtplan_NEU",
+		"kennzahlenset": "Richtplan-kurz",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -9270,11 +9272,12 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_013",
+		"orderKey": "01_01_00_00_00_012",
 		"parentId": null,
 		"children": [
 			"5864",
-			"6094"
+			"6094",
+			"6244"
 		],
 		"renderLink": [
 			""
@@ -9695,12 +9698,12 @@ var indikatoren = [
 		"title": "Leerwohnungsquote",
 		"subtitle": "in Prozent",
 		"kuerzel": "I.09.2.05813",
-		"kuerzelKunde": "ST 4-6",
+		"kuerzelKunde": "ST 4-5",
 		"description": "Leerwohnungsquote",
 		"id": 5813,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
-		"kennzahlenset": "Richtplan_NEU",
+		"kennzahlenset": "Richtplan-kurz",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -9719,11 +9722,12 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_006",
+		"orderKey": "01_01_00_00_00_005",
 		"parentId": null,
 		"children": [
 			"5873",
-			"6103"
+			"6103",
+			"6245"
 		],
 		"renderLink": [
 			""
@@ -9739,12 +9743,12 @@ var indikatoren = [
 		"title": "Leerwohnungsquote",
 		"subtitle": "nach Wohnviertel in Prozent",
 		"kuerzel": "I.09.2.05814",
-		"kuerzelKunde": "ST 4-7",
+		"kuerzelKunde": "ST 4-6",
 		"description": "Leerwohnungsquote",
 		"id": 5814,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
-		"kennzahlenset": "Richtplan_NEU",
+		"kennzahlenset": "Richtplan-kurz",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -9757,17 +9761,18 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die höchsten Leerwohnungsquote wurden 2016 im Hirzbrunnen, im St. Alban sowie in der Gemeinde Bettingen verzeichnet.",
+		"lesehilfe": "Die höchsten Leerwohnungsquote wurden 2016 im Hirzbrunnen, im St. Alban sowie in der Gemeinde Bettingen verzeichnet. Die überwiegende Mehrheit der Wohnviertel erfuhr einen Rückgang der Leerwohnungsquote seit 1998.",
 		"erlaeuterungen": "Stichtag ist der 1. Juni.",
 		"template": "mappie001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "01_01_00_00_00_007",
+		"orderKey": "01_01_00_00_00_006",
 		"parentId": 6009,
 		"children": [
 			"5874",
-			"6104"
+			"6104",
+			"6246"
 		],
 		"renderLink": [
 			""
@@ -9783,12 +9788,12 @@ var indikatoren = [
 		"title": "Mittlere Wohnfläche pro Person",
 		"subtitle": "",
 		"kuerzel": "I.09.1.05815",
-		"kuerzelKunde": "ST 4-8",
+		"kuerzelKunde": "ST 4-7",
 		"description": "Mittlere Wohnfläche pro Person",
 		"id": 5815,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Richtplan_NEU",
+		"kennzahlenset": "Richtplan-kurz",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -9807,11 +9812,12 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "01_01_00_00_00_008",
+		"orderKey": "01_01_00_00_00_007",
 		"parentId": 4140,
 		"children": [
 			"5875",
-			"6105"
+			"6105",
+			"6247"
 		],
 		"renderLink": [
 			""
@@ -9828,12 +9834,12 @@ var indikatoren = [
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "",
 		"kuerzel": "I.09.1.05816",
-		"kuerzelKunde": "ST 4-9",
+		"kuerzelKunde": "ST 4-8",
 		"description": "Nettowohnungsproduktion",
 		"id": 5816,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Richtplan_NEU",
+		"kennzahlenset": "Richtplan-kurz",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -9852,11 +9858,12 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "01_01_00_00_00_009",
+		"orderKey": "01_01_00_00_00_008",
 		"parentId": 4135,
 		"children": [
 			"5876",
-			"6106"
+			"6106",
+			"6248"
 		],
 		"renderLink": [
 			""
@@ -9872,12 +9879,12 @@ var indikatoren = [
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "nach Wohnviertel von 2007 bis 2016",
 		"kuerzel": "I.09.1.05817",
-		"kuerzelKunde": "ST 4-10",
+		"kuerzelKunde": "ST 4-9",
 		"description": "Nettowohnungsproduktion",
 		"id": 5817,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Richtplan_NEU",
+		"kennzahlenset": "Richtplan-kurz",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -9896,11 +9903,12 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_010",
+		"orderKey": "01_01_00_00_00_009",
 		"parentId": null,
 		"children": [
 			"5877",
-			"6107"
+			"6107",
+			"6249"
 		],
 		"renderLink": [
 			""
@@ -9916,12 +9924,12 @@ var indikatoren = [
 		"title": "Bruttogeschossfläche Wohnen nach Wohnviertel",
 		"subtitle": "",
 		"kuerzel": "I.09.1.05818",
-		"kuerzelKunde": "ST 4-11",
+		"kuerzelKunde": "ST 4-10",
 		"description": "Bruttogeschossfläche Wohnen nach Wohnviertel",
 		"id": 5818,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Richtplan_NEU",
+		"kennzahlenset": "Richtplan-kurz",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -9940,11 +9948,12 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_011",
+		"orderKey": "01_01_00_00_00_010",
 		"parentId": null,
 		"children": [
 			"5878",
-			"6108"
+			"6108",
+			"6250"
 		],
 		"renderLink": [
 			""
@@ -9965,7 +9974,7 @@ var indikatoren = [
 		"id": 5819,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Richtplan_NEU",
+		"kennzahlenset": "Richtplan-kurz",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -9988,7 +9997,8 @@ var indikatoren = [
 		"parentId": 4150,
 		"children": [
 			"5879",
-			"6109"
+			"6109",
+			"6251"
 		],
 		"renderLink": [
 			""
@@ -10009,7 +10019,7 @@ var indikatoren = [
 		"id": 5821,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Richtplan_NEU",
+		"kennzahlenset": "Richtplan-kurz",
 		"raeumlicheGliederung": [
 			"Wohnviertel",
 			"Kanton"
@@ -10033,7 +10043,8 @@ var indikatoren = [
 		"parentId": 5037,
 		"children": [
 			"5881",
-			"6110"
+			"6110",
+			"6252"
 		],
 		"renderLink": [
 			""
@@ -10054,7 +10065,7 @@ var indikatoren = [
 		"id": 5822,
 		"thema": "11 Verkehr",
 		"unterthema": "Öffentlicher Verkehr",
-		"kennzahlenset": "Richtplan_NEU",
+		"kennzahlenset": "Richtplan-kurz",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -10077,7 +10088,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [
 			"5882",
-			"6111"
+			"6111",
+			"6253"
 		],
 		"renderLink": [
 			""
@@ -10098,7 +10110,7 @@ var indikatoren = [
 		"id": 5823,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
-		"kennzahlenset": "Richtplan_NEU",
+		"kennzahlenset": "Richtplan-kurz",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -10121,7 +10133,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [
 			"5883",
-			"6112"
+			"6112",
+			"6254"
 		],
 		"renderLink": [
 			""
@@ -10184,7 +10197,7 @@ var indikatoren = [
 		"id": 5825,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Richtplan_NEU",
+		"kennzahlenset": "Richtplan-kurz",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -10198,7 +10211,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die meiste für Arbeiten genutzte Bruttogeschossfläche (BGF) findet man 2015 in den Wohnvierteln St. Alban und St. Johann. Während das Wohnviertel St. Johann einen Rückgang der BGF Arbeiten seit 1995 verzeichnete, weist das St. Alban-Quartier den stärksten Zuwachs aus.",
-		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche werden fünfjährlich aktualisiert, letztmals 2015.",
+		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche werden fünfjährlich aktualisiert, letztmals 2015.<br> Der Rückgang im Wohnviertel St. Johann kann geht mit einer gleichzeitigen Zunahme der BGF Wohnen einher. Grund dafür waren Neubau-Projekte wie Volta West, Volta Mitte und Volta Zentrum sowie Umnutzungen generell.",
 		"template": "mappie001",
 		"option": "options001",
 		"visible": true,
@@ -10207,7 +10220,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [
 			"5885",
-			"6114"
+			"6114",
+			"6255"
 		],
 		"renderLink": [
 			""
@@ -11385,7 +11399,7 @@ var indikatoren = [
 		"id": 5891,
 		"thema": "11 Verkehr",
 		"unterthema": "Beschäftigte ",
-		"kennzahlenset": "Richtplan_NEU",
+		"kennzahlenset": "Richtplan-kurz",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -11402,7 +11416,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die kontinentale Erreichbarkeit der Stadt Basel hat sich zwischen 1996 und 2014 verbessert. Die Entwicklung bei den anderen Schweizer Städten verläuft im gleichen Zeitraum ähnlich. Die Stadt Zürich bewegt sich auf einem leicht höheren Niveau als Basel und Genf, die Erreichbarkeit der Stadt Bern liegt etwas darunter.",
-		"erlaeuterungen": "Kontinentale Erreichbarkeit = Erreichbarkeit aller Regionen Europas. Erreichbarkeit ist kein klares, lineares Konzept. Vielmehr beruht es auf einer Vielzahl von Faktoren, die unter dem Themenbereich Erreichbarkeit subsumiert werden können. Die Erreichbarkeitsmodelle von BAKBASEL basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren. Zudem folgen sie dem Konzept der Erreichbarkeit «aus der Region» (outbound accessibility), d.h. es wird die Reisezeit und Frequenz herangezogen, die benötigt wird, um aus der Region andere Regionen zu erreichen. Der resultierende Indikator reflektiert das gesamte Potenzial aller Regionen ohne jegliche Limitierung der Reisezeit. Jedoch werden die Reisedestinationen über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet.",
+		"erlaeuterungen": "Kontinentale Erreichbarkeit = Erreichbarkeit aller Regionen Europas. Erreichbarkeit ist kein klares, lineares Konzept. Vielmehr beruht es auf einer Vielzahl von Faktoren, die unter dem Themenbereich Erreichbarkeit subsumiert werden können. Die Erreichbarkeitsmodelle von BAK Economics basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren. Zudem folgen sie dem Konzept der Erreichbarkeit «aus der Region» (outbound accessibility), d.h. es wird die Reisezeit und Frequenz herangezogen, die benötigt wird, um aus der Region andere Regionen zu erreichen. Der resultierende Indikator reflektiert das gesamte Potenzial aller Regionen ohne jegliche Limitierung der Reisezeit. Jedoch werden die Reisedestinationen über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet.",
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
@@ -11411,7 +11425,8 @@ var indikatoren = [
 		"parentId": 3104,
 		"children": [
 			"5908",
-			"6119"
+			"6119",
+			"6256"
 		],
 		"renderLink": [
 			""
@@ -11427,12 +11442,12 @@ var indikatoren = [
 		"title": "Index der Bevölkerungs- und Beschäftigtenentwicklung",
 		"subtitle": "Werte 2005 = 100",
 		"kuerzel": "I.03.2.05901",
-		"kuerzelKunde": "ST 4-12",
+		"kuerzelKunde": "ST 4-11",
 		"description": "Index der Bevölkerungs- und Beschäftigtenentwicklung",
 		"id": 5901,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
-		"kennzahlenset": "Richtplan_NEU",
+		"kennzahlenset": "Richtplan-kurz",
 		"raeumlicheGliederung": [
 			"Schweiz"
 		],
@@ -11451,11 +11466,12 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_012",
+		"orderKey": "01_01_00_00_00_011",
 		"parentId": null,
 		"children": [
 			"5909",
-			"6120"
+			"6120",
+			"6257"
 		],
 		"renderLink": [
 			""
@@ -11764,7 +11780,7 @@ var indikatoren = [
 		"id": 6007,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Mobilitätsverhalten",
-		"kennzahlenset": "Richtplan_NEU",
+		"kennzahlenset": "Richtplan-kurz",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -11778,7 +11794,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Von 2010 bis 2016 haben vor allem die Verkehrsmittel Velo und ÖV BVB/BLT einen Anstieg erfahren. Während demselben Zeitraum hat die Nutzung des Verkehrsmittel MIV Stadtstrassennetz abgenommen. Die Daten sind indexiert (Basis 2010 = 100).",
-		"erlaeuterungen": "An 35 ausgewählten repräsentativen Zählstellen auf Kantonsgebiet wird die Verkehrsleistung des Motorisierten Individualverkehrs (MIV) gemessen. Aus der Veränderung an diesen Zählstellen wird die Veränderung auf dem ganzen Kantonsgebiet abgeleitet, indem jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet wird. Der Index kann alle fünf Jahre durch die Auswertung des «Mikrozensus Verkehr» überprüft werden.<br>Zusätzlich zum MIV-Index werden Indices für den Öffentlichen Verkehr (Tram- und Buslinien der BVB und der BLT) und für den Veloverkehr (20 Zählstellen) berechnet. Beim Veloverkehr wird der Wettereinfluss mittels einem Modell herausgerechnet.",
+		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Die Veränderung gegenüber dem Referenzjahr 2010 wird in Prozent dargestellt (indexiert, 2010 = 100). Autoverkehr (MIV):Der Index für den motorisierten Individualverkehr berechnet sich anhand von rund 35 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamts für Strassen. Der Index umfasst die Verkehrsleistung aller Motorfahrzeuge (inkl. Lastwagen, Lieferwagen, Motorrädern), aber ohne Linienbusse, Motorfahrräder und E-Bikes.Veloverkehr:Der Index für den Veloverkehr wird auf Basis von rund 20 Zählstellen des Kantons Basel-Stadt berechnet. Da der Veloverkehr stark wetterabhängig ist, wurde vom Statistischen Amt des Kantons Basel-Stadt ein Modell entwickelt, welches es zulässt, den Wettereinfluss aus der Verkehrsentwicklung herauszurechnen.Fussverkehr:Der Index für den Fussverkehr basiert auf rund 17 Zählstellen. Die Daten werden erst seit dem Jahr 2013 erhoben.Öffentlicher Verkehr (ÖV):Der Index des öffentlichen Verkehrs wird auf Basis der Verkehrsdaten von Tram- und Buslinien der BVB und der BLT und den S-Bahnen (nur alle zwei Jahre), abgegrenzt auf das Gebiet des Kantons Basel-Stadt, berechnet. Der Gesamtindex für den ÖV kann im jeweiligen Jahr erst im Herbst veröffentlicht werden, sobald die Daten für die S-Bahnen vorliegen. Aus der Veränderung an den Zählstellen wird die Veränderung auf dem ganzen Kantonsgebiet abgeleitet, indem jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet wird. Der Index kann alle fünf Jahre durch die Auswertung des «Mikrozensus Verkehr» überprüft werden.Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1705' target='_blank'>Umweltbericht beider Basel</a>.",
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
@@ -11787,7 +11803,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [
 			"6008",
-			"6123"
+			"6123",
+			"6258"
 		],
 		"renderLink": [
 			""
@@ -11969,7 +11986,7 @@ var indikatoren = [
 		"id": 6214,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Richtplan_NEU",
+		"kennzahlenset": "Richtplan-kurz",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -11992,7 +12009,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [
 			"6221",
-			"6229"
+			"6229",
+			"6259"
 		],
 		"renderLink": [
 			""
@@ -12009,12 +12027,12 @@ var indikatoren = [
 		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
 		"subtitle": "Stand: 2017",
 		"kuerzel": "I.01.9.06215",
-		"kuerzelKunde": "ST 4-5",
+		"kuerzelKunde": "ST 4-4",
 		"description": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
 		"id": 6215,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Szenarien",
-		"kennzahlenset": "Richtplan_NEU",
+		"kennzahlenset": "Richtplan-kurz",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -12033,11 +12051,12 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_005",
+		"orderKey": "01_01_00_00_00_004",
 		"parentId": null,
 		"children": [
 			"6222",
-			"6230"
+			"6230",
+			"6260"
 		],
 		"renderLink": [
 			""
@@ -12058,7 +12077,7 @@ var indikatoren = [
 		"id": 6216,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Richtplan_NEU",
+		"kennzahlenset": "Richtplan-kurz",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -12082,7 +12101,8 @@ var indikatoren = [
 		"parentId": 5178,
 		"children": [
 			"6223",
-			"6231"
+			"6231",
+			"6261"
 		],
 		"renderLink": [
 			""
@@ -12103,7 +12123,7 @@ var indikatoren = [
 		"id": 6217,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
-		"kennzahlenset": "Richtplan_NEU",
+		"kennzahlenset": "Richtplan-kurz",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -12126,7 +12146,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [
 			"6224",
-			"6232"
+			"6232",
+			"6262"
 		],
 		"renderLink": [
 			""
@@ -12147,7 +12168,7 @@ var indikatoren = [
 		"id": 6218,
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsniveau",
-		"kennzahlenset": "Richtplan_NEU",
+		"kennzahlenset": "Richtplan-kurz",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -12161,16 +12182,17 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Seit 1990 hat sich der Anteil der Personen mit einer Ausbildung auf Tertiärstufe kontinuierlich erhöht. 2015 beträgt dieser Anteil 38%. Ebenfalls 38% der baselstädtischen Wohnbevölkerung besitzt eine höchste abgeschlossene Ausbildung auf Niveau Sekundarstufe 2 und 24% auf Niveau Sekundarstufe 1.",
-		"erlaeuterungen": "Die Sekundarstufe 1 umfasst Ausbildungen bis maximal der obligatorischen Schule. Unter Sekundarstufe 2 ist die berufliche Grundbildung, z.B. eine Berufslehre, sowie die allgemeinbildende Schule, z.B. die gymnasiale Maturität, zusammengefasst. Die Tertiärstufe umfasst die höhere Berufsbildung, z.B. die höhere Fachschule für Technik oder Wirtschaft, sowie Ausbildungen an Hochschulen, wie z.B. ein Bachelor- oder Masterstudium.",
+		"erlaeuterungen": "Die Sekundarstufe I umfasst Ausbildungen bis maximal der obligatorischen Schule. Unter Sekundarstufe II ist die berufliche Grundbildung, z. B. eine Berufslehre, sowie die allgemeinbildende Schule, z. B. die gymnasiale Maturität, zusammengefasst. Die Tertiärstufe umfasst die höhere Berufsbildung, z. B. die höhere Fachschule für Technik oder Wirtschaft, sowie Ausbildungen an Hochschulen, wie z. B. ein Bachelor- oder Masterstudium.",
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "02_05_00_00_00_003",
+		"orderKey": "02_05_00_00_00_002",
 		"parentId": null,
 		"children": [
 			"6225",
-			"6233"
+			"6233",
+			"6263"
 		],
 		"renderLink": [
 			""
@@ -12233,7 +12255,7 @@ var indikatoren = [
 		"id": 6220,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
-		"kennzahlenset": "Richtplan_NEU",
+		"kennzahlenset": "Richtplan-kurz",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -12256,7 +12278,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [
 			"6227",
-			"6235"
+			"6235",
+			"6264"
 		],
 		"renderLink": [
 			""
@@ -12278,7 +12301,7 @@ var indikatoren = [
 		"id": 6236,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
-		"kennzahlenset": "Richtplan_NEU",
+		"kennzahlenset": "Richtplan-kurz",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -12300,7 +12323,10 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "02_04_00_00_00_001",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6241",
+			"6265"
+		],
 		"renderLink": [
 			""
 		],
@@ -12354,7 +12380,7 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Bevölkerung am Jahresende un Anzahl Wohnungen",
+		"title": "Bevölkerung am Jahresende und Anzahl Wohnungen",
 		"subtitle": "",
 		"kuerzel": "I.01.1.05809",
 		"kuerzelKunde": "ST 4-1",

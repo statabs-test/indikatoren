@@ -6,7 +6,7 @@
 "id":6216,
 "thema":"50 Befragungen",
 "unterthema":"Bevölkerungsbefragung",
-"kennzahlenset":"Richtplan_NEU",
+"kennzahlenset":"Richtplan-kurz",
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
 "schlagwort":["Zufriedenheit","Bevölkerung"],
@@ -23,7 +23,7 @@
 "visibleInPortal":false,
 "orderKey":"01_02_00_00_00_003",
 "parentId":5178,
-"children":["6223","6231"],
+"children":["6223","6231","6261"],
 "renderLink":[""],
 "quellenangabe":["Bevölkerungsbefragung Basel-Stadt 2015, Frage F6"],
 "externalLinks":[""]
