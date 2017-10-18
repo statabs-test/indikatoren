@@ -26,7 +26,7 @@
           355
         ]
       ],
-      "name": "Sehr grosse Bereicherung",
+      "name": "Sehr grosse",
       "turboThreshold": 0
     },
     {
@@ -55,7 +55,7 @@
           788
         ]
       ],
-      "name": "Eher grosse Bereicherung",
+      "name": "Eher grosse",
       "turboThreshold": 0
     },
     {
@@ -84,7 +84,7 @@
           258
         ]
       ],
-      "name": "Eher nicht so grosse Bereicherung",
+      "name": "Eher nicht so grosse",
       "turboThreshold": 0
     },
     {
@@ -113,7 +113,7 @@
           54
         ]
       ],
-      "name": "Gar keine Bereicherung",
+      "name": "Gar keine",
       "turboThreshold": 0
     },
     {
@@ -275,10 +275,10 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18"
   },
   "legend": {
-    "layout": "horizontal",
-    "verticalAlign": "top",
+    "layout": "vertical",
+    "verticalAlign": "middle",
     "itemMarginBottom": 5,
-    "align": "left",
+    "align": "right",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal"
@@ -286,10 +286,7 @@
     "symbolRadius": 0,
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
-        },
-    "enabled": true,
-    "y": 70,
-    "itemWidth": 500
+        }
   },
   "exporting": {
     "filename": "I.50.1.06146"

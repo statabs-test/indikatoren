@@ -5998,11 +5998,11 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshasuptorten",
+		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
 		"subtitle": "Doppelverdiener mit 2 Kindern und Bruttoarbeitseinkommen von 100 000 Fr.; Stand: 2016",
 		"kuerzel": "I.18.2.06134",
 		"kuerzelKunde": "2.7a",
-		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshasuptorten",
+		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
 		"id": 6134,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
@@ -6705,11 +6705,11 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshasuptorten",
+		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
 		"subtitle": "Doppelverdiener ohne Kinder und Bruttoarbeitseinkommen von 100 000 Fr.; Stand: 2016",
 		"kuerzel": "I.18.2.06239",
 		"kuerzelKunde": "2.7b",
-		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshasuptorten",
+		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
 		"id": 6239,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
@@ -6726,9 +6726,9 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "",
-		"template": "line001",
+		"lesehilfe": "In Basel beträgt die Steuerbelastung 2016 im ausgewählten Modellfall 9 780 Franken. In den fünf Kantonshauptorten liegt sie in Bern am höchsten, in Zürich am tiefsten.",
+		"erlaeuterungen": "Die Werte zeigen die Steuerbelastung (Kantons-, Gmeinde- und Kirchensteuern) in Franken für Doppelverdiener ohne Kinder und einem Bruttoarbeitseinkommen von 100 000 Franken im Jahr 2016.",
+		"template": "template001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
@@ -6738,17 +6738,19 @@ var indikatoren = [
 		"renderLink": [
 			""
 		],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Eidgenössische Finanzverwaltung"
+		],
 		"externalLinks": [
 			""
 		]
 	},
 	{
-		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshasuptorten",
-		"subtitle": "Ledige Person mit Bruttoarbeitseinkommen von 100 000 Fr.; Stand: 2099",
+		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
+		"subtitle": "Ledige mit Bruttoarbeitseinkommen von 100 000 Fr.; Stand: 2016",
 		"kuerzel": "I.18.2.06240",
 		"kuerzelKunde": "2.7c",
-		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshasuptorten",
+		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
 		"id": 6240,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
@@ -6765,8 +6767,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "",
+		"lesehilfe": "In Basel beträgt die Steuerbelastung 2016 im ausgewählten Modellfall 15 547 Franken. In den fünf Kantonshauptorten liegt sie in Liestal am höchsten, in Zürich am tiefsten.",
+		"erlaeuterungen": "Die Werte zeigen die Steuerbelastung (Kantons-, Gmeinde- und Kirchensteuern) in Franken für Ledige mit einem Bruttoarbeitseinkommen von 100 000 Franken im Jahr 2016.",
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
@@ -6777,7 +6779,51 @@ var indikatoren = [
 		"renderLink": [
 			""
 		],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Eidgenössische Finanzverwaltung"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Bewertung der Lebensqualität nach Herkunft",
+		"subtitle": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?»",
+		"kuerzel": "I.50.1.06266",
+		"kuerzelKunde": "4.10d",
+		"description": "Bewertung der Lebensqualität nach Herkunft",
+		"id": 6266,
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Zufriedenheit",
+			"Bevölkerung"
+		],
+		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. Im Durchschnitt vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton eine 7,7. Nach Herkunft unterscheidet sich die Bewertung der Lebensqualität im Kanton Basel-Stadt nicht.",
+		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
+		"template": "befragungen001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "04_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [
+			""
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
+		],
 		"externalLinks": [
 			""
 		]

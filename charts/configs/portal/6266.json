@@ -1,0 +1,807 @@
+{
+  "series": [
+    {
+      "color": "#007a2f",
+      "index": 8,
+      "legendIndex": 0,
+      "data": [
+        [
+          "2003 Schweiz (N=1273)",
+          100
+        ],
+        [
+          "2003 Ausland (N=204)",
+          20
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2005 Schweiz (N=1293)",
+          86
+        ],
+        [
+          "2005 Ausland (N=207)",
+          16
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2007 Schweiz (N=1324)",
+          87
+        ],
+        [
+          "2007 Ausland (N=176)",
+          18
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2011 Schweiz (N=1299)",
+          171
+        ],
+        [
+          "2011 Ausland (N=214)",
+          32
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015 Schweiz (N=1316)",
+          147
+        ],
+        [
+          "2015 Ausland (N=173)",
+          26
+        ]
+      ],
+      "name": "Note 10",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#44ab2b",
+      "index": 8,
+      "legendIndex": 1,
+      "data": [
+        [
+          "2003 Schweiz (N=1273)",
+          87
+        ],
+        [
+          "2003 Ausland (N=204)",
+          17
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2005 Schweiz (N=1293)",
+          115
+        ],
+        [
+          "2005 Ausland (N=207)",
+          35
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2007 Schweiz (N=1324)",
+          141
+        ],
+        [
+          "2007 Ausland (N=176)",
+          19
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2011 Schweiz (N=1299)",
+          138
+        ],
+        [
+          "2011 Ausland (N=214)",
+          30
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015 Schweiz (N=1316)",
+          190
+        ],
+        [
+          "2015 Ausland (N=173)",
+          33
+        ]
+      ],
+      "name": "Note 9",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73ba7c",
+      "index": 7,
+      "legendIndex": 2,
+      "data": [
+        [
+          "2003 Schweiz (N=1273)",
+          498
+        ],
+        [
+          "2003 Ausland (N=204)",
+          78
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2005 Schweiz (N=1293)",
+          477
+        ],
+        [
+          "2005 Ausland (N=207)",
+          69
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2007 Schweiz (N=1324)",
+          500
+        ],
+        [
+          "2007 Ausland (N=176)",
+          71
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2011 Schweiz (N=1299)",
+          496
+        ],
+        [
+          "2011 Ausland (N=214)",
+          86
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015 Schweiz (N=1316)",
+          524
+        ],
+        [
+          "2015 Ausland (N=173)",
+          66
+        ]
+      ],
+      "name": "Note 8",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#d7e9d2",
+      "index": 6,
+      "legendIndex": 3,
+      "data": [
+        [
+          "2003 Schweiz (N=1273)",
+          303
+        ],
+        [
+          "2003 Ausland (N=204)",
+          48
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2005 Schweiz (N=1293)",
+          313
+        ],
+        [
+          "2005 Ausland (N=207)",
+          50
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2007 Schweiz (N=1324)",
+          334
+        ],
+        [
+          "2007 Ausland (N=176)",
+          38
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2011 Schweiz (N=1299)",
+          281
+        ],
+        [
+          "2011 Ausland (N=214)",
+          46
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015 Schweiz (N=1316)",
+          251
+        ],
+        [
+          "2015 Ausland (N=173)",
+          30
+        ]
+      ],
+      "name": "Note 7",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b9cfd7",
+      "index": 5,
+      "legendIndex": 4,
+      "data": [
+        [
+          "2003 Schweiz (N=1273)",
+          123
+        ],
+        [
+          "2003 Ausland (N=204)",
+          21
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2005 Schweiz (N=1293)",
+          135
+        ],
+        [
+          "2005 Ausland (N=207)",
+          8
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2007 Schweiz (N=1324)",
+          118
+        ],
+        [
+          "2007 Ausland (N=176)",
+          12
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2011 Schweiz (N=1299)",
+          84
+        ],
+        [
+          "2011 Ausland (N=214)",
+          9
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015 Schweiz (N=1316)",
+          86
+        ],
+        [
+          "2015 Ausland (N=173)",
+          7
+        ]
+      ],
+      "name": "Note 6",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#71a3b5",
+      "index": 4,
+      "legendIndex": 5,
+      "data": [
+        [
+          "2003 Schweiz (N=1273)",
+          122
+        ],
+        [
+          "2003 Ausland (N=204)",
+          15
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2005 Schweiz (N=1293)",
+          117
+        ],
+        [
+          "2005 Ausland (N=207)",
+          23
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2007 Schweiz (N=1324)",
+          102
+        ],
+        [
+          "2007 Ausland (N=176)",
+          12
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2011 Schweiz (N=1299)",
+          88
+        ],
+        [
+          "2011 Ausland (N=214)",
+          8
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015 Schweiz (N=1316)",
+          84
+        ],
+        [
+          "2015 Ausland (N=173)",
+          9
+        ]
+      ],
+      "name": "Note 5",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ffbb58",
+      "index": 3,
+      "legendIndex": 6,
+      "data": [
+        [
+          "2003 Schweiz (N=1273)",
+          20
+        ],
+        [
+          "2003 Ausland (N=204)",
+          3
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2005 Schweiz (N=1293)",
+          27
+        ],
+        [
+          "2005 Ausland (N=207)",
+          3
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2007 Schweiz (N=1324)",
+          23
+        ],
+        [
+          "2007 Ausland (N=176)",
+          3
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2011 Schweiz (N=1299)",
+          17
+        ],
+        [
+          "2011 Ausland (N=214)",
+          3
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015 Schweiz (N=1316)",
+          15
+        ],
+        [
+          "2015 Ausland (N=173)",
+          1
+        ]
+      ],
+      "name": "Note 4",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ff8028",
+      "index": 2,
+      "legendIndex": 7,
+      "data": [
+        [
+          "2003 Schweiz (N=1273)",
+          12
+        ],
+        [
+          "2003 Ausland (N=204)",
+          2
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2005 Schweiz (N=1293)",
+          16
+        ],
+        [
+          "2005 Ausland (N=207)",
+          1
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2007 Schweiz (N=1324)",
+          10
+        ],
+        [
+          "2007 Ausland (N=176)",
+          3
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2011 Schweiz (N=1299)",
+          13
+        ],
+        [
+          "2011 Ausland (N=214)",
+          0
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015 Schweiz (N=1316)",
+          14
+        ],
+        [
+          "2015 Ausland (N=173)",
+          0
+        ]
+      ],
+      "name": "Note 3",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#dc440e",
+      "index": 1,
+      "legendIndex": 8,
+      "data": [
+        [
+          "2003 Schweiz (N=1273)",
+          3
+        ],
+        [
+          "2003 Ausland (N=204)",
+          0
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2005 Schweiz (N=1293)",
+          3
+        ],
+        [
+          "2005 Ausland (N=207)",
+          1
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2007 Schweiz (N=1324)",
+          4
+        ],
+        [
+          "2007 Ausland (N=176)",
+          0
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2011 Schweiz (N=1299)",
+          4
+        ],
+        [
+          "2011 Ausland (N=214)",
+          0
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015 Schweiz (N=1316)",
+          2
+        ],
+        [
+          "2015 Ausland (N=173)",
+          0
+        ]
+      ],
+      "name": "Note 2",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b00000",
+      "index": 0,
+      "legendIndex": 9,
+      "data": [
+        [
+          "2003 Schweiz (N=1273)",
+          5
+        ],
+        [
+          "2003 Ausland (N=204)",
+          0
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2005 Schweiz (N=1293)",
+          4
+        ],
+        [
+          "2005 Ausland (N=207)",
+          1
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2007 Schweiz (N=1324)",
+          5
+        ],
+        [
+          "2007 Ausland (N=176)",
+          0
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2011 Schweiz (N=1299)",
+          7
+        ],
+        [
+          "2011 Ausland (N=214)",
+          0
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2015 Schweiz (N=1316)",
+          3
+        ],
+        [
+          "2015 Ausland (N=173)",
+          1
+        ]
+      ],
+      "name": "Note 1",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "tickColor": "#FFFFFF",
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "rotation": 0,
+      "style": {
+        "color": "#000000",
+        "width": 1,
+        "textOverflow": "none"
+      },
+      "formatter": function () {
+                //add sum of observations of visible series to the axis label
+                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
+                    return val.visible;
+                });
+                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
+                    return accumulator + series.yData[indexOfCurrentValue];
+                }, 0);
+                //use N if all series are visible, otherwise use n
+                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
+                //check for value that contains only spaces
+            	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
+            },
+      "align": "left",
+      "x": -125
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+            }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "column",
+    "marginLeft": 140,
+    "inverted": true,
+    "renderTo": "container-6266"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Bewertung der Lebensqualität nach Herkunft"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?»"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent"
+    },
+    "column": {
+      "groupPadding": 0
+    }
+  },
+  "yAxis": {
+    "tickInterval": 25,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "format": "{value}%",
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
+  },
+  "legend": {
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5,
+    "align": "right",
+    "useHTML": false,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "symbolRadius": 0,
+    "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        }
+  },
+  "exporting": {
+    "filename": "I.50.1.06266"
+  }
+}

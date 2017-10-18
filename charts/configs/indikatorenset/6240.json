@@ -94,7 +94,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshasuptorten"
+    "text": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten"
   },
   "subtitle": {
     "style": {
@@ -103,7 +103,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ledige Person mit Bruttoarbeitseinkommen von 100 000 Fr.; Stand: 2099",
+    "text": "Ledige mit Bruttoarbeitseinkommen von 100 000 Fr.; Stand: 2016",
     "align": "left"
   },
   "yAxis": {
@@ -138,9 +138,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: "
+    "text": "Quelle: Eidgenössische Finanzverwaltung"
   },
   "legend": {
     "symbolRadius": 0,
