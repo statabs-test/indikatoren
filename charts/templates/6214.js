@@ -99,7 +99,7 @@ plotOptions: {
   		"shared": true
 		   },
   "chart": {
-    "marginBottom": 65,
+    "marginBottom": 75,
     "alignTicks": false
   }
 }

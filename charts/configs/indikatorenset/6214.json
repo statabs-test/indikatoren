@@ -738,7 +738,7 @@
                     this.credits.element.onclick = function() {}
                 }
     },
-    "marginBottom": 65,
+    "marginBottom": 75,
     "alignTicks": false,
     "renderTo": "container-6214"
   },

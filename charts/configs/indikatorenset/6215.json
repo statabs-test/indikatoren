@@ -920,8 +920,7 @@
         "color": "#000000"
       }
     },
-    "tickColor": "#FFFFFF",
-    "tickInterval": 1
+    "tickColor": "#FFFFFF"
   },
   "yAxis": {
     "gridLineColor": "#B9CFD7",

@@ -162,10 +162,10 @@
 	                fn.addLegendCircle(chart, 473, 265, 0.5*pieSizeCatConfig[2].diameter, 'grey');
 					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 485, 255, true);
 					
-					fn.addLegendSquare(chart, 565, 225, 10, '#7F5F1A');
-					fn.addLegendLabel(chart, 'Zunahme', 580, 221);
-					fn.addLegendSquare(chart, 565, 241, 10, '#FABD24');
-					fn.addLegendLabel(chart, 'Abnahme', 580, 237);
+					//fn.addLegendSquare(chart, 565, 225, 10, '#7F5F1A');
+					//fn.addLegendLabel(chart, 'Zunahme', 580, 221);
+					//fn.addLegendSquare(chart, 565, 241, 10, '#FABD24');
+					//fn.addLegendLabel(chart, 'Abnahme', 580, 237);
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);

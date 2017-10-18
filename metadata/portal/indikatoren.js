@@ -5780,7 +5780,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Bruttogeschossfläche Wohnen nach Wohnviertel",
-		"subtitle": "",
+		"subtitle": "in m²",
 		"kuerzel": "I.09.1.05818",
 		"kuerzelKunde": "ST 4-10",
 		"description": "Bruttogeschossfläche Wohnen nach Wohnviertel",
@@ -5957,7 +5957,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
-		"subtitle": "",
+		"subtitle": "in m²",
 		"kuerzel": "I.09.1.05825",
 		"kuerzelKunde": "ST 7-3",
 		"description": "Bruttogeschossfläche Arbeiten nach Wohnviertel",

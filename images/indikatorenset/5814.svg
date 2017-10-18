@@ -245,26 +245,26 @@
       <tspan>Differenz 2016 zu 1998</tspan>
     </text>
   </g>
-  <circle cx="410" cy="255" r="0.8105293597610782" fill="grey" stroke="grey" stroke-width="1" class="undefined pieLegend"/>
-  <g class="undefined pieLegend" transform="translate(430,245)">
+  <circle cx="355" cy="255" r="0.8105293597610782" fill="grey" stroke="grey" stroke-width="1" class="undefined pieLegend"/>
+  <g class="undefined pieLegend" transform="translate(370,245)">
     <text x="3" y="15">
-      0,02
+      <tspan>0,02 Prozentpunkte</tspan>
     </text>
   </g>
-  <circle cx="410" cy="280" r="9.926916764796886" fill="grey" stroke="grey" stroke-width="1" class="undefined pieLegend"/>
-  <g class="undefined pieLegend" transform="translate(430,270)">
+  <circle cx="355" cy="280" r="9.926916764796886" fill="grey" stroke="grey" stroke-width="1" class="undefined pieLegend"/>
+  <g class="undefined pieLegend" transform="translate(370,270)">
     <text x="3" y="15">
-      3
+      <tspan>3,00 Prozentpunkte</tspan>
     </text>
   </g>
   <rect x="270" y="250" width="10" height="10" fill="#7F5F1A" class="undefined pieLegend"/>
-  <g class="undefined pieLegend" transform="translate(300,245)">
+  <g class="undefined pieLegend" transform="translate(280,245)">
     <text x="3" y="15">
       Zunahme
     </text>
   </g>
   <rect x="270" y="275" width="10" height="10" fill="#FABD24" class="undefined pieLegend"/>
-  <g class="undefined pieLegend" transform="translate(300,270)">
+  <g class="undefined pieLegend" transform="translate(280,270)">
     <text x="3" y="15">
       Abnahme
     </text>
@@ -293,23 +293,23 @@
             <path fill="none" class="highcharts-axis-line" d="M 0 16 L 200 16"/>
           </g>
           <g class="highcharts-axis-labels highcharts-coloraxis-labels ">
-            <text x="7.6328125" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="35" opacity="1">
-              0.0
+            <text x="10" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="35" opacity="1">
+              <tspan>0.0%</tspan>
             </text>
             <text x="40" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="35" opacity="1">
-              0.5
+              0.5%
             </text>
             <text x="80" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="35" opacity="1">
-              1.0
+              1.0%
             </text>
             <text x="120" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="35" opacity="1">
-              1.5
+              1.5%
             </text>
             <text x="160" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="35" opacity="1">
-              2.0
+              2.0%
             </text>
-            <text x="192.3671875" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="35" opacity="1">
-              2.5
+            <text x="190" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="35" opacity="1">
+              <tspan>2.5%</tspan>
             </text>
           </g>
         </g>
