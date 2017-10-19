@@ -17,7 +17,7 @@
 			"maxColor": "#4b7b1f",
 			"labels": {
 				"formatter": function () {
-					return Highcharts.numberFormat((this.value),1)+ ''; 
+					return Highcharts.numberFormat((this.value),1)+ '%'; 
 				}
 			}
 		},
@@ -106,11 +106,11 @@
 	                var maxValueInLegend = 3; 
 	                
                 	//Add manually drawn legend	
-	                fn.addLegendTitle(chart, pieSizeSeries.name + "", 265, 210);
-	                fn.addLegendLabel(chart, 'in Prozentpunkte', 265, 225)
+	                fn.addLegendTitle(chart, pieSizeSeries.name + "", 265, 225);
+	                /*fn.addLegendLabel(chart, 'in Prozentpunkte', 265, 225)
 	                .css({
                         fontWeight: 'bold' }).
-                     add();
+                     add();*/
 	                
 	                fn.addLegendCircle(chart, 355, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),2,","," ")+ '', 370, 245);
@@ -121,7 +121,7 @@
 					fn.addLegendLabel(chart, 'Zunahme', 280, 245);
 					fn.addLegendSquare(chart, 270, 275, 10, '#FABD24');
 					fn.addLegendLabel(chart, 'Abnahme', 280, 270);
-					fn.addLegendLabelbold(chart, 'Leerwohnungsquote in %', 265, 300);
+					fn.addLegendLabelbold(chart, 'Leerwohnungsquote', 265, 300);
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
