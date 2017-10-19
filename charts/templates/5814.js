@@ -113,9 +113,9 @@
                      add();*/
 	                
 	                fn.addLegendCircle(chart, 355, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),2,","," ")+ '', 370, 245);
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),2,","," ")+ ' Prozentpunkte', 370, 245);
 	                fn.addLegendCircle(chart, 355, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),2,","," ")+ '', 370, 270);
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),2,","," ")+ ' Prozentpunkte', 370, 270);
 
 					fn.addLegendSquare(chart, 270, 250, 10, '#7F5F1A');
 					fn.addLegendLabel(chart, 'Zunahme', 280, 245);
