@@ -233,34 +233,22 @@
       </text>
     </g>
   </g>
-  <g class="highcharts-label" transform="translate(341,200)">
+  <g class="highcharts-label" transform="translate(340,210)">
     <text x="3" style="font-size:10px;font-weight:bold;" y="13">
-      2015
+      <tspan>2015 in m²</tspan>
     </text>
   </g>
-  <g class="highcharts-label" transform="translate(460,200)">
+  <g class="highcharts-label" transform="translate(465,210)">
     <text x="3" style="font-size:10px;font-weight:bold;" y="13">
-      <tspan>Differenz 2015 zu 1995</tspan>
+      <tspan>Differenz 2015 zu 1995 in m²</tspan>
     </text>
   </g>
-  <circle cx="473" cy="231" r="1" fill="grey" stroke="grey" stroke-width="1" class="pieLegend"/>
-  <g class="pieLegend" transform="translate(485,221)"/>
-  <circle cx="473" cy="248" r="4" fill="grey" stroke="grey" stroke-width="1" class="pieLegend"/>
-  <g class="pieLegend" transform="translate(485,237)"/>
-  <circle cx="473" cy="265" r="8" fill="grey" stroke="grey" stroke-width="1" class="pieLegend"/>
-  <g class="pieLegend" transform="translate(485,255)"/>
-  <rect x="565" y="225" width="10" height="10" fill="#7F5F1A" class="pieLegend"/>
-  <g class="pieLegend" transform="translate(580,221)">
-    <text x="3" style="font-size:10px;" y="13">
-      Zunahme
-    </text>
-  </g>
-  <rect x="565" y="241" width="10" height="10" fill="#FABD24" class="pieLegend"/>
-  <g class="pieLegend" transform="translate(580,237)">
-    <text x="3" style="font-size:10px;" y="13">
-      Abnahme
-    </text>
-  </g>
+  <circle cx="473" cy="246" r="1" fill="grey" stroke="grey" stroke-width="1" class="pieLegend"/>
+  <g class="pieLegend" transform="translate(485,236)"/>
+  <circle cx="473" cy="263" r="4" fill="grey" stroke="grey" stroke-width="1" class="pieLegend"/>
+  <g class="pieLegend" transform="translate(485,253)"/>
+  <circle cx="473" cy="280" r="8" fill="grey" stroke="grey" stroke-width="1" class="pieLegend"/>
+  <g class="pieLegend" transform="translate(485,270)"/>
   <g class="highcharts-legend" transform="translate(333,152)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="120" height="161" visibility="visible"/>
     <g>
@@ -319,17 +307,17 @@
           </div>
         </div>
       </div>
-      <div class="pieLegend" style="position: absolute; left: 485px; top: 221px; opacity: 1;">
+      <div class="pieLegend" style="position: absolute; left: 485px; top: 236px; opacity: 1;">
         <span style="font-family: arial; font-size: 10px; position: absolute; white-space: nowrap; margin-left: 0px; margin-top: 0px; left: 3px; top: 3px;">
           &lt; 19 999
         </span>
       </div>
-      <div class="pieLegend" style="position: absolute; left: 485px; top: 237px; opacity: 1;">
+      <div class="pieLegend" style="position: absolute; left: 485px; top: 253px; opacity: 1;">
         <span style="font-family: arial; font-size: 10px; position: absolute; white-space: nowrap; margin-left: 0px; margin-top: 0px; left: 3px; top: 3px;">
           20 000 − 39 999
         </span>
       </div>
-      <div class="pieLegend" style="position: absolute; left: 485px; top: 255px; opacity: 1;">
+      <div class="pieLegend" style="position: absolute; left: 485px; top: 270px; opacity: 1;">
         <span style="font-family: arial; font-size: 10px; position: absolute; white-space: nowrap; margin-left: 0px; margin-top: 0px; left: 3px; top: 3px;">
           ≥ 40 000
         </span>

@@ -240,21 +240,26 @@
       </text>
     </g>
   </g>
-  <g class="highcharts-label" transform="translate(265,220)">
+  <g class="highcharts-label" transform="translate(265,210)">
     <text x="3" style="font-size:12px;font-weight:bold;" y="15">
       <tspan>Differenz 2016 zu 1998</tspan>
+    </text>
+  </g>
+  <g class="undefined pieLegend" transform="translate(265,225)">
+    <text x="3" y="15" style="font-weight:bold;">
+      <tspan>in Prozentpunkte</tspan>
     </text>
   </g>
   <circle cx="355" cy="255" r="0.8105293597610782" fill="grey" stroke="grey" stroke-width="1" class="undefined pieLegend"/>
   <g class="undefined pieLegend" transform="translate(370,245)">
     <text x="3" y="15">
-      <tspan>0,02 Prozentpunkte</tspan>
+      0,02
     </text>
   </g>
   <circle cx="355" cy="280" r="9.926916764796886" fill="grey" stroke="grey" stroke-width="1" class="undefined pieLegend"/>
   <g class="undefined pieLegend" transform="translate(370,270)">
     <text x="3" y="15">
-      <tspan>3,00 Prozentpunkte</tspan>
+      3,00
     </text>
   </g>
   <rect x="270" y="250" width="10" height="10" fill="#7F5F1A" class="undefined pieLegend"/>
@@ -271,7 +276,7 @@
   </g>
   <g class="undefined pieLegend" transform="translate(265,300)">
     <text x="3" style="font-weight:bold;" y="15">
-      Leerwohnungsquote
+      <tspan>Leerwohnungsquote in %</tspan>
     </text>
   </g>
   <g class="highcharts-legend" transform="translate(43,323)">

@@ -350,7 +350,7 @@
         "color": "#000000"
       },
       "step": 1,
-      "rotation": -90
+      "rotation": 0
     },
     "tickColor": "#FFFFFF",
     "tickInterval": 1

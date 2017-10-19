@@ -242,7 +242,7 @@
   </g>
   <g class="highcharts-label" transform="translate(265,220)">
     <text x="3" style="font-size:12px;font-weight:bold;" y="15">
-      <tspan>Differenz 2015 zu 1995</tspan>
+      <tspan>Differenz 2015 zu 1995 in m²</tspan>
     </text>
   </g>
   <circle cx="280" cy="255" r="1.5688196698052752" fill="grey" stroke="grey" stroke-width="1" class="undefined pieLegend"/>

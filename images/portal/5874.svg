@@ -241,25 +241,35 @@
       2016
     </text>
   </g>
+  <g class="pieLegend" transform="translate(372,210)">
+    <text x="3" style="font-size:10px;font-weight:bold;" y="13">
+      <tspan>in %</tspan>
+    </text>
+  </g>
   <g class="highcharts-label" transform="translate(460,200)">
     <text x="3" style="font-size:10px;font-weight:bold;" y="13">
       <tspan>Differenz 2016 zu 1998</tspan>
     </text>
   </g>
-  <circle cx="473" cy="231" r="1" fill="grey" stroke="grey" stroke-width="1" class="pieLegend"/>
-  <g class="pieLegend" transform="translate(485,221)"/>
-  <circle cx="473" cy="248" r="4" fill="grey" stroke="grey" stroke-width="1" class="pieLegend"/>
-  <g class="pieLegend" transform="translate(485,237)"/>
-  <circle cx="473" cy="265" r="8" fill="grey" stroke="grey" stroke-width="1" class="pieLegend"/>
-  <g class="pieLegend" transform="translate(485,255)"/>
-  <rect x="565" y="225" width="10" height="10" fill="#7F5F1A" class="pieLegend"/>
-  <g class="pieLegend" transform="translate(580,221)">
+  <g class="pieLegend" transform="translate(460,210)">
+    <text x="3" style="font-size:10px;font-weight:bold;" y="13">
+      <tspan>in Prozentpunkte</tspan>
+    </text>
+  </g>
+  <circle cx="473" cy="246" r="1" fill="grey" stroke="grey" stroke-width="1" class="pieLegend"/>
+  <g class="pieLegend" transform="translate(485,236)"/>
+  <circle cx="473" cy="263" r="4" fill="grey" stroke="grey" stroke-width="1" class="pieLegend"/>
+  <g class="pieLegend" transform="translate(485,253)"/>
+  <circle cx="473" cy="280" r="8" fill="grey" stroke="grey" stroke-width="1" class="pieLegend"/>
+  <g class="pieLegend" transform="translate(485,270)"/>
+  <rect x="565" y="240" width="10" height="10" fill="#7F5F1A" class="pieLegend"/>
+  <g class="pieLegend" transform="translate(580,236)">
     <text x="3" style="font-size:10px;" y="13">
       Zunahme
     </text>
   </g>
-  <rect x="565" y="241" width="10" height="10" fill="#FABD24" class="pieLegend"/>
-  <g class="pieLegend" transform="translate(580,237)">
+  <rect x="565" y="256" width="10" height="10" fill="#FABD24" class="pieLegend"/>
+  <g class="pieLegend" transform="translate(580,252)">
     <text x="3" style="font-size:10px;" y="13">
       Abnahme
     </text>
@@ -322,17 +332,17 @@
           </div>
         </div>
       </div>
-      <div class="pieLegend" style="position: absolute; left: 485px; top: 221px; opacity: 1;">
+      <div class="pieLegend" style="position: absolute; left: 485px; top: 236px; opacity: 1;">
         <span style="font-family: arial; font-size: 10px; position: absolute; white-space: nowrap; margin-left: 0px; margin-top: 0px; left: 3px; top: 3px;">
           &lt; 0,30
         </span>
       </div>
-      <div class="pieLegend" style="position: absolute; left: 485px; top: 237px; opacity: 1;">
+      <div class="pieLegend" style="position: absolute; left: 485px; top: 253px; opacity: 1;">
         <span style="font-family: arial; font-size: 10px; position: absolute; white-space: nowrap; margin-left: 0px; margin-top: 0px; left: 3px; top: 3px;">
           0,30 − 1,49
         </span>
       </div>
-      <div class="pieLegend" style="position: absolute; left: 485px; top: 255px; opacity: 1;">
+      <div class="pieLegend" style="position: absolute; left: 485px; top: 270px; opacity: 1;">
         <span style="font-family: arial; font-size: 10px; position: absolute; white-space: nowrap; margin-left: 0px; margin-top: 0px; left: 3px; top: 3px;">
           ≥ 1,50
         </span>

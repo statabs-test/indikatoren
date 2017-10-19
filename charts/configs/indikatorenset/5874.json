@@ -3695,20 +3695,28 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 	                //Add manually drawn legend
-	                fn.addLegendTitle(chart, choroplethSeries.name, 372, 200);
-	                fn.addLegendTitle(chart, pieSizeSeries.name, 460, 200);
+	                fn.addLegendTitle(chart, choroplethSeries.name + "", 372, 200);
+	                fn.addLegendLabel(chart, 'in %', 372, 210)
+	                .css({
+                        fontWeight: 'bold' }).
+                     add();
+	                fn.addLegendTitle(chart, pieSizeSeries.name + "", 460, 200);
+	                fn.addLegendLabel(chart, 'in Prozentpunkte', 460, 210)
+	                .css({
+                        fontWeight: 'bold' }).
+                     add();
 	                
-	                fn.addLegendCircle(chart, 473, 231, 0.5*pieSizeCatConfig[0].diameter, 'grey');
-	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 485, 221, true);
-	                fn.addLegendCircle(chart, 473, 248, 0.5*pieSizeCatConfig[1].diameter, 'grey');
-	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 485, 237, true);
-	                fn.addLegendCircle(chart, 473, 265, 0.5*pieSizeCatConfig[2].diameter, 'grey');
-					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 485, 255, true);
+	                fn.addLegendCircle(chart, 473, 246, 0.5*pieSizeCatConfig[0].diameter, 'grey');
+	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 485, 236, true);
+	                fn.addLegendCircle(chart, 473, 263, 0.5*pieSizeCatConfig[1].diameter, 'grey');
+	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 485, 253, true);
+	                fn.addLegendCircle(chart, 473, 280, 0.5*pieSizeCatConfig[2].diameter, 'grey');
+					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 485, 270, true);
 					
-					fn.addLegendSquare(chart, 565, 225, 10, '#7F5F1A');
-					fn.addLegendLabel(chart, 'Zunahme', 580, 221);
-					fn.addLegendSquare(chart, 565, 241, 10, '#FABD24');
-					fn.addLegendLabel(chart, 'Abnahme', 580, 237);
+					fn.addLegendSquare(chart, 565, 240, 10, '#7F5F1A');
+					fn.addLegendLabel(chart, 'Zunahme', 580, 236);
+					fn.addLegendSquare(chart, 565, 256, 10, '#FABD24');
+					fn.addLegendLabel(chart, 'Abnahme', 580, 252);
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
