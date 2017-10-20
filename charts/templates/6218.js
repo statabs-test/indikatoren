@@ -20,12 +20,14 @@
   },
   "legend": {
     "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    /*
 	"y": 40,
 	"x": 35,
 	itemWidth: 500,
+	*/
 	"itemMarginBottom": 5,
     "itemStyle": {
     "fontWeight": "normal"

@@ -257,8 +257,8 @@
       <tspan>120 000</tspan>
     </text>
   </g>
-  <g class="undefined pieLegend" transform="translate(265,300)">
-    <text x="3" style="font-weight:bold;" y="15">
+  <g class="highcharts-label" transform="translate(265,300)">
+    <text x="3" style="font-size:12px;font-weight:bold;" y="15">
       <tspan>Bruttogeschossfläche in 1000 m²</tspan>
     </text>
   </g>

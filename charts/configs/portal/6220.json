@@ -101,7 +101,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Werte 2011 = 100",
     "align": "left"
   },
   "tooltip": {
@@ -158,8 +158,8 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "x": 25,
-    "y": 25,
+    "x": 35,
+    "y": 35,
     "itemWidth": 200,
     "itemMarginBottom": 5,
     "itemStyle": {

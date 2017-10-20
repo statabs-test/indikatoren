@@ -7,6 +7,5 @@ var indikatorensetNames = [
 	"Richtplan-kurz",
 	"Richtplan",
 	"Richtplan-Print",
-	"Richtplan_NEU",
 	"Test"
 ];

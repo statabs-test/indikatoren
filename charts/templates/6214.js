@@ -30,9 +30,6 @@ plotOptions: {
       },
       "text": null
     },
-    title: {
-        text: null
-    },
     "labels": {
       "format": "{value:,.0f}",
        style:{

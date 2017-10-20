@@ -234,7 +234,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt im Vergleich",
+    "text": "Basel im Vergleich",
     "align": "left"
   },
   "tooltip": {
@@ -291,7 +291,7 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "x": 45,
+    "x": 30,
     "y": 35,
     "itemWidth": 200,
     "itemMarginBottom": 5,
