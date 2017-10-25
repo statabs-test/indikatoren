@@ -18,9 +18,9 @@
     },
   },
   {
-  	"min": 90,
-     max: 120,
-    "tickInterval": 7.5,
+  	"min": 90, //95,
+     max: 120, //115,
+    "tickInterval": 7.5, //5,
     "title": {
         "style": {
         "color": "#000000",
@@ -74,6 +74,7 @@
       "color": "#B00000", // Bevölkerung indexiert
       "index": 1,
       "type": "line",
+      //connectNulls: true,
       "yAxis": 1,
        "marker": {
         "enabled": true
@@ -100,6 +101,7 @@
       "color":  "#246370", // Beschäftigte indexiert
       "index": 1,
       "type": "line",
+      //connectNulls: true,
       "yAxis": 1,
       "legendIndex": 3,
       "tooltip": {
@@ -111,7 +113,6 @@
     }
   ],  
    "tooltip": {
-  	    //"shared": true
 		   },
   "chart": {
     "width":665,
