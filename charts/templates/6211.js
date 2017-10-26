@@ -20,7 +20,7 @@
       "text": null
     },
     "labels": {
-      "format": "{value:,.0f}",
+      "format": "{value:,.0f} Fr.",
       "style": {
         "color": "#000000"
       }
