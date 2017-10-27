@@ -20,6 +20,10 @@
       "format": "{value:,.0f}"
     }    
   },
+  
+  series: [{
+    name: 'Kanton'
+  }],
 
   /*"series": [
            function() {
@@ -73,11 +77,8 @@
     }
   },
    tooltip: {
-     
-     pointFormatter: function(){
-       console.log(this);
-     },
-    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {point.name}: <b>{point.y:,.0f}</b><br/>',
+    headerFormat: '<span style="font-size: 10px">{series.name}</span><br/>',
+    pointFormat: '<span style="color:{point.color}">\u25CF</span> {point.name}: <b>{point.y:,.0f}</b><br/>',
     "shared": false
   },
   "chart": {      
