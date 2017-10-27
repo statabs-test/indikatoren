@@ -73,7 +73,11 @@
     }
   },
    tooltip: {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+     
+     pointFormatter: function(){
+       console.log(this);
+     },
+    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {point.name}: <b>{point.y:,.0f}</b><br/>',
     "shared": false
   },
   "chart": {      

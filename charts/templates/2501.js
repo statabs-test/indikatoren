@@ -9,6 +9,7 @@
     }*/ 
   },
   "yAxis": {
+    min: null,
     "labels": {
       "format": "{value}%"
     }    
