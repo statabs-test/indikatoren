@@ -290,43 +290,43 @@
   </g>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="84" opacity="1">
-      <tspan>2005: &lt;3000 Fr. (N=214)</tspan>
+      <tspan>2005: &lt;3000 Fr. (n=214)</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="104" opacity="1">
-      <tspan>2005: 3000-7499 Fr. (N=649)</tspan>
+      <tspan>2005: 3000-7499 Fr. (n=649)</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="124" opacity="1">
-      <tspan>2005: &gt;7500 Fr. (N=341)</tspan>
+      <tspan>2005: &gt;7500 Fr. (n=341)</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="150" opacity="1"/>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="163" opacity="1">
-      <tspan>2007: &lt;3000 Fr. (N=208)</tspan>
+      <tspan>2007: &lt;3000 Fr. (n=208)</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="182" opacity="1">
-      <tspan>2007: 3000-7499 Fr. (N=584)</tspan>
+      <tspan>2007: 3000-7499 Fr. (n=584)</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="202" opacity="1">
-      <tspan>2007: &gt;7500 Fr. (N=315)</tspan>
+      <tspan>2007: &gt;7500 Fr. (n=315)</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="228" opacity="1"/>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="241" opacity="1">
-      <tspan>2011: &lt;3000 Fr. (N=136)</tspan>
+      <tspan>2011: &lt;3000 Fr. (n=136)</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="261" opacity="1">
-      <tspan>2011: 3000-7499 Fr. (N=681)</tspan>
+      <tspan>2011: 3000-7499 Fr. (n=681)</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="280" opacity="1">
-      <tspan>2011: &gt;7500 Fr. (N=519)</tspan>
+      <tspan>2011: &gt;7500 Fr. (n=519)</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="306" opacity="1"/>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="320" opacity="1">
-      <tspan>2015: &lt;3000 Fr. (N=141)</tspan>
+      <tspan>2015: &lt;3000 Fr. (n=141)</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="339" opacity="1">
-      <tspan>2015: 3000-7499 Fr. (N=614)</tspan>
+      <tspan>2015: 3000-7499 Fr. (n=614)</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="359" opacity="1">
-      <tspan>2015: &gt;7500 Fr. (N=494)</tspan>
+      <tspan>2015: &gt;7500 Fr. (n=494)</tspan>
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">

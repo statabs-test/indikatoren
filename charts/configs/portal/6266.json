@@ -6,10 +6,6 @@
       "legendIndex": 0,
       "data": [
         [
-          "\u003C\u003C\u003C\u003C\u003C\u003C\u003C HEAD",
-          null
-        ],
-        [
           "2003 Schweiz",
           100
         ],
@@ -64,70 +60,6 @@
         [
           "2015 Ausland",
           26
-        ],
-        [
-          "=======",
-          null
-        ],
-        [
-          "2003 Schweiz (N=1273)",
-          100
-        ],
-        [
-          "2003 Ausland (N=204)",
-          20
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2005 Schweiz (N=1293)",
-          86
-        ],
-        [
-          "2005 Ausland (N=207)",
-          16
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2007 Schweiz (N=1324)",
-          87
-        ],
-        [
-          "2007 Ausland (N=176)",
-          18
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2011 Schweiz (N=1299)",
-          171
-        ],
-        [
-          "2011 Ausland (N=214)",
-          32
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2015 Schweiz (N=1316)",
-          147
-        ],
-        [
-          "2015 Ausland (N=173)",
-          26
-        ],
-        [
-          "\u003E\u003E\u003E\u003E\u003E\u003E\u003E master",
-          null
         ]
       ],
       "name": "Note 10",
@@ -139,10 +71,6 @@
       "legendIndex": 1,
       "data": [
         [
-          "\u003C\u003C\u003C\u003C\u003C\u003C\u003C HEAD",
-          null
-        ],
-        [
           "2003 Schweiz",
           87
         ],
@@ -197,70 +125,6 @@
         [
           "2015 Ausland",
           33
-        ],
-        [
-          "=======",
-          null
-        ],
-        [
-          "2003 Schweiz (N=1273)",
-          87
-        ],
-        [
-          "2003 Ausland (N=204)",
-          17
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2005 Schweiz (N=1293)",
-          115
-        ],
-        [
-          "2005 Ausland (N=207)",
-          35
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2007 Schweiz (N=1324)",
-          141
-        ],
-        [
-          "2007 Ausland (N=176)",
-          19
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2011 Schweiz (N=1299)",
-          138
-        ],
-        [
-          "2011 Ausland (N=214)",
-          30
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2015 Schweiz (N=1316)",
-          190
-        ],
-        [
-          "2015 Ausland (N=173)",
-          33
-        ],
-        [
-          "\u003E\u003E\u003E\u003E\u003E\u003E\u003E master",
-          null
         ]
       ],
       "name": "Note 9",
@@ -272,10 +136,6 @@
       "legendIndex": 2,
       "data": [
         [
-          "\u003C\u003C\u003C\u003C\u003C\u003C\u003C HEAD",
-          null
-        ],
-        [
           "2003 Schweiz",
           498
         ],
@@ -330,70 +190,6 @@
         [
           "2015 Ausland",
           66
-        ],
-        [
-          "=======",
-          null
-        ],
-        [
-          "2003 Schweiz (N=1273)",
-          498
-        ],
-        [
-          "2003 Ausland (N=204)",
-          78
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2005 Schweiz (N=1293)",
-          477
-        ],
-        [
-          "2005 Ausland (N=207)",
-          69
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2007 Schweiz (N=1324)",
-          500
-        ],
-        [
-          "2007 Ausland (N=176)",
-          71
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2011 Schweiz (N=1299)",
-          496
-        ],
-        [
-          "2011 Ausland (N=214)",
-          86
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2015 Schweiz (N=1316)",
-          524
-        ],
-        [
-          "2015 Ausland (N=173)",
-          66
-        ],
-        [
-          "\u003E\u003E\u003E\u003E\u003E\u003E\u003E master",
-          null
         ]
       ],
       "name": "Note 8",
@@ -405,10 +201,6 @@
       "legendIndex": 3,
       "data": [
         [
-          "\u003C\u003C\u003C\u003C\u003C\u003C\u003C HEAD",
-          null
-        ],
-        [
           "2003 Schweiz",
           303
         ],
@@ -463,70 +255,6 @@
         [
           "2015 Ausland",
           30
-        ],
-        [
-          "=======",
-          null
-        ],
-        [
-          "2003 Schweiz (N=1273)",
-          303
-        ],
-        [
-          "2003 Ausland (N=204)",
-          48
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2005 Schweiz (N=1293)",
-          313
-        ],
-        [
-          "2005 Ausland (N=207)",
-          50
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2007 Schweiz (N=1324)",
-          334
-        ],
-        [
-          "2007 Ausland (N=176)",
-          38
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2011 Schweiz (N=1299)",
-          281
-        ],
-        [
-          "2011 Ausland (N=214)",
-          46
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2015 Schweiz (N=1316)",
-          251
-        ],
-        [
-          "2015 Ausland (N=173)",
-          30
-        ],
-        [
-          "\u003E\u003E\u003E\u003E\u003E\u003E\u003E master",
-          null
         ]
       ],
       "name": "Note 7",
@@ -538,10 +266,6 @@
       "legendIndex": 4,
       "data": [
         [
-          "\u003C\u003C\u003C\u003C\u003C\u003C\u003C HEAD",
-          null
-        ],
-        [
           "2003 Schweiz",
           123
         ],
@@ -596,70 +320,6 @@
         [
           "2015 Ausland",
           7
-        ],
-        [
-          "=======",
-          null
-        ],
-        [
-          "2003 Schweiz (N=1273)",
-          123
-        ],
-        [
-          "2003 Ausland (N=204)",
-          21
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2005 Schweiz (N=1293)",
-          135
-        ],
-        [
-          "2005 Ausland (N=207)",
-          8
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2007 Schweiz (N=1324)",
-          118
-        ],
-        [
-          "2007 Ausland (N=176)",
-          12
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2011 Schweiz (N=1299)",
-          84
-        ],
-        [
-          "2011 Ausland (N=214)",
-          9
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2015 Schweiz (N=1316)",
-          86
-        ],
-        [
-          "2015 Ausland (N=173)",
-          7
-        ],
-        [
-          "\u003E\u003E\u003E\u003E\u003E\u003E\u003E master",
-          null
         ]
       ],
       "name": "Note 6",
@@ -671,10 +331,6 @@
       "legendIndex": 5,
       "data": [
         [
-          "\u003C\u003C\u003C\u003C\u003C\u003C\u003C HEAD",
-          null
-        ],
-        [
           "2003 Schweiz",
           122
         ],
@@ -729,70 +385,6 @@
         [
           "2015 Ausland",
           9
-        ],
-        [
-          "=======",
-          null
-        ],
-        [
-          "2003 Schweiz (N=1273)",
-          122
-        ],
-        [
-          "2003 Ausland (N=204)",
-          15
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2005 Schweiz (N=1293)",
-          117
-        ],
-        [
-          "2005 Ausland (N=207)",
-          23
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2007 Schweiz (N=1324)",
-          102
-        ],
-        [
-          "2007 Ausland (N=176)",
-          12
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2011 Schweiz (N=1299)",
-          88
-        ],
-        [
-          "2011 Ausland (N=214)",
-          8
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2015 Schweiz (N=1316)",
-          84
-        ],
-        [
-          "2015 Ausland (N=173)",
-          9
-        ],
-        [
-          "\u003E\u003E\u003E\u003E\u003E\u003E\u003E master",
-          null
         ]
       ],
       "name": "Note 5",
@@ -804,10 +396,6 @@
       "legendIndex": 6,
       "data": [
         [
-          "\u003C\u003C\u003C\u003C\u003C\u003C\u003C HEAD",
-          null
-        ],
-        [
           "2003 Schweiz",
           20
         ],
@@ -862,70 +450,6 @@
         [
           "2015 Ausland",
           1
-        ],
-        [
-          "=======",
-          null
-        ],
-        [
-          "2003 Schweiz (N=1273)",
-          20
-        ],
-        [
-          "2003 Ausland (N=204)",
-          3
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2005 Schweiz (N=1293)",
-          27
-        ],
-        [
-          "2005 Ausland (N=207)",
-          3
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2007 Schweiz (N=1324)",
-          23
-        ],
-        [
-          "2007 Ausland (N=176)",
-          3
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2011 Schweiz (N=1299)",
-          17
-        ],
-        [
-          "2011 Ausland (N=214)",
-          3
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2015 Schweiz (N=1316)",
-          15
-        ],
-        [
-          "2015 Ausland (N=173)",
-          1
-        ],
-        [
-          "\u003E\u003E\u003E\u003E\u003E\u003E\u003E master",
-          null
         ]
       ],
       "name": "Note 4",
@@ -937,10 +461,6 @@
       "legendIndex": 7,
       "data": [
         [
-          "\u003C\u003C\u003C\u003C\u003C\u003C\u003C HEAD",
-          null
-        ],
-        [
           "2003 Schweiz",
           12
         ],
@@ -995,70 +515,6 @@
         [
           "2015 Ausland",
           0
-        ],
-        [
-          "=======",
-          null
-        ],
-        [
-          "2003 Schweiz (N=1273)",
-          12
-        ],
-        [
-          "2003 Ausland (N=204)",
-          2
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2005 Schweiz (N=1293)",
-          16
-        ],
-        [
-          "2005 Ausland (N=207)",
-          1
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2007 Schweiz (N=1324)",
-          10
-        ],
-        [
-          "2007 Ausland (N=176)",
-          3
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2011 Schweiz (N=1299)",
-          13
-        ],
-        [
-          "2011 Ausland (N=214)",
-          0
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2015 Schweiz (N=1316)",
-          14
-        ],
-        [
-          "2015 Ausland (N=173)",
-          0
-        ],
-        [
-          "\u003E\u003E\u003E\u003E\u003E\u003E\u003E master",
-          null
         ]
       ],
       "name": "Note 3",
@@ -1070,10 +526,6 @@
       "legendIndex": 8,
       "data": [
         [
-          "\u003C\u003C\u003C\u003C\u003C\u003C\u003C HEAD",
-          null
-        ],
-        [
           "2003 Schweiz",
           3
         ],
@@ -1128,70 +580,6 @@
         [
           "2015 Ausland",
           0
-        ],
-        [
-          "=======",
-          null
-        ],
-        [
-          "2003 Schweiz (N=1273)",
-          3
-        ],
-        [
-          "2003 Ausland (N=204)",
-          0
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2005 Schweiz (N=1293)",
-          3
-        ],
-        [
-          "2005 Ausland (N=207)",
-          1
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2007 Schweiz (N=1324)",
-          4
-        ],
-        [
-          "2007 Ausland (N=176)",
-          0
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2011 Schweiz (N=1299)",
-          4
-        ],
-        [
-          "2011 Ausland (N=214)",
-          0
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2015 Schweiz (N=1316)",
-          2
-        ],
-        [
-          "2015 Ausland (N=173)",
-          0
-        ],
-        [
-          "\u003E\u003E\u003E\u003E\u003E\u003E\u003E master",
-          null
         ]
       ],
       "name": "Note 2",
@@ -1203,10 +591,6 @@
       "legendIndex": 9,
       "data": [
         [
-          "\u003C\u003C\u003C\u003C\u003C\u003C\u003C HEAD",
-          null
-        ],
-        [
           "2003 Schweiz",
           5
         ],
@@ -1261,70 +645,6 @@
         [
           "2015 Ausland",
           1
-        ],
-        [
-          "=======",
-          null
-        ],
-        [
-          "2003 Schweiz (N=1273)",
-          5
-        ],
-        [
-          "2003 Ausland (N=204)",
-          0
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2005 Schweiz (N=1293)",
-          4
-        ],
-        [
-          "2005 Ausland (N=207)",
-          1
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2007 Schweiz (N=1324)",
-          5
-        ],
-        [
-          "2007 Ausland (N=176)",
-          0
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2011 Schweiz (N=1299)",
-          7
-        ],
-        [
-          "2011 Ausland (N=214)",
-          0
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2015 Schweiz (N=1316)",
-          3
-        ],
-        [
-          "2015 Ausland (N=173)",
-          1
-        ],
-        [
-          "\u003E\u003E\u003E\u003E\u003E\u003E\u003E master",
-          null
         ]
       ],
       "name": "Note 1",
@@ -1359,7 +679,7 @@
                     return accumulator + series.yData[indexOfCurrentValue];
                 }, 0);
                 //use N if all series are visible, otherwise use n
-                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
+                var nString = /*(this.chart.series.length == allVisibleSeries.length) ? 'N=' : */'n='; 
                 //check for value that contains only spaces
             	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
             },

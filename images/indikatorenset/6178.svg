@@ -173,38 +173,38 @@
   </g>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="71" opacity="1">
-      <tspan>2003: männlich (N=679)</tspan>
+      <tspan>2003: männlich (n=679)</tspan>
     </text>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="93" opacity="1">
-      <tspan>2003: weiblich (N=818)</tspan>
+      <tspan>2003: weiblich (n=818)</tspan>
     </text>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="121" opacity="1"/>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="137" opacity="1">
-      <tspan>2005: männlich (N=703)</tspan>
+      <tspan>2005: männlich (n=703)</tspan>
     </text>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="159" opacity="1">
-      <tspan>2005: weiblich (N=807)</tspan>
+      <tspan>2005: weiblich (n=807)</tspan>
     </text>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="187" opacity="1"/>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="203" opacity="1">
-      <tspan>2007: männlich (N=693)</tspan>
+      <tspan>2007: männlich (n=693)</tspan>
     </text>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="225" opacity="1">
-      <tspan>2007: weiblich (N=816)</tspan>
+      <tspan>2007: weiblich (n=816)</tspan>
     </text>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="254" opacity="1"/>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="269" opacity="1">
-      <tspan>2011: männlich (N=674)</tspan>
+      <tspan>2011: männlich (n=674)</tspan>
     </text>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="291" opacity="1">
-      <tspan>2011: weiblich (N=842)</tspan>
+      <tspan>2011: weiblich (n=842)</tspan>
     </text>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="320" opacity="1"/>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="335" opacity="1">
-      <tspan>2015: männlich (N=688)</tspan>
+      <tspan>2015: männlich (n=688)</tspan>
     </text>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="357" opacity="1">
-      <tspan>2015: weiblich (N=818)</tspan>
+      <tspan>2015: weiblich (n=818)</tspan>
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
