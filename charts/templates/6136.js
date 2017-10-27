@@ -16,7 +16,8 @@
       },
       xAxis: {
         labels: {
-          formatter: function() {
+          formatter: function(a, b, c) {
+              console.log(this);
               //add sum of observations of visible series to the axis label
               var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
                   return val.visible;
@@ -26,7 +27,7 @@
                   return accumulator + series.yData[indexOfCurrentValue];
               }, 0);
               //use N if all series are visible, otherwise use n
-              var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
+              var nString = (this.chart.series.length == allVisibleSeries.length && this.value == 'Total') ? 'N=' : 'n='; 
           	return this.value + ' (' + nString + sum + ')';
           }
         }
