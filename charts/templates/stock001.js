@@ -55,6 +55,8 @@
             "align": "left"
         },
         "xAxis": {
+            lineColor: '#B9CFD7', 
+            lineWidth: 0.5,
             "uniqueNames": true,
             "ordinal": false,
             "title": {
@@ -70,6 +72,9 @@
             "tickColor": "#FFFFFF"
         }, 
         "yAxis": {
+            gridLineColor: '#B9CFD7', 
+            gridLineWidth: 0.5,
+            lineColor: '#B9CFD7', 
             "title": {
                 "style": {
                     "color": "#000000",
@@ -117,7 +122,8 @@
             height: 30,
             series: {
                 includeInCSVExport: false
-            }
+            },
+            outlineColor: '#B9CFD7'
         }, 
         tooltip: {
             dateTimeLabelFormats: {

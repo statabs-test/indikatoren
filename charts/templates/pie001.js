@@ -2,20 +2,10 @@
     return {
 	    "chart": {		
         "events":{
-          "load": function() {
-            this.credits.element.onclick = function() {};
-            //for top-left legends with no x defined: move legend to x position of first yAxis
-            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-              this.update(
-                {
-                  legend: {
-                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                  }
-                }
-              );
-            }              
-          }
-        },
+              load: function() {
+                  this.credits.element.onclick = function() {};
+              }
+          },
     		"borderColor": "#fbfbfb",
     		"backgroundColor": "#fbfbfb",
     		"zoomType": "xy",
@@ -29,6 +19,7 @@
     	},
     	"plotOptions": {
     		"pie": {
+    		  borderWidth: 0,
     			"allowPointSelect": true,
     			"cursor": true,
     			"showInLegend": true,

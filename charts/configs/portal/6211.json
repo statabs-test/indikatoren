@@ -230,7 +230,7 @@
         "text": null
       },
       "labels": {
-        "format": "{value:,.0f}",
+        "format": "{value:,.0f} Fr.",
         "style": {
           "color": "#000000"
         }
@@ -241,6 +241,8 @@
     }
   ],
   "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
     "labels": {
       "style": {
         "color": "#000000"

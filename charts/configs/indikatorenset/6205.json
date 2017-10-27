@@ -242,6 +242,8 @@
   },
   "yAxis": {
     "min": 80,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
     "title": {
       "style": {
         "color": "#000000",
@@ -259,6 +261,8 @@
     "tickInterval": 20
   },
   "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
     "labels": {
       "style": {
         "color": "#000000"

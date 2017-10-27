@@ -64,6 +64,9 @@
             }
         },
         "yAxis": {
+            gridLineColor: '#B9CFD7', 
+            gridLineWidth: 0.5, 
+            lineColor: '#B9CFD7',
             "title": {
                 "style": {
                     "color": "#000000",
@@ -82,6 +85,8 @@
             "min": 0
         },
         "xAxis": {
+            lineColor: '#B9CFD7',
+            lineWidth: 0.5,
             "title": {
                 "style": {
                     "color": "#000000"
@@ -127,7 +132,7 @@
             },        
             shared: true
         }
-    }
+    };
 }());
 
 //Colors of StatA Bereiche: violett3 #923F8D, gruen3 #68AB2B, blau3 #689199

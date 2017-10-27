@@ -153,6 +153,8 @@
   "xAxis": {
     "type": "category",
     "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
     "title": {
       "style": {
         "color": "#000000"
@@ -228,6 +230,8 @@
   },
   "yAxis": [
     {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
       "title": {
         "style": {
           "color": "#000000",
@@ -244,6 +248,8 @@
       "reversedStacks": true
     },
     {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
       "min": 0,
       "title": {
         "style": {
