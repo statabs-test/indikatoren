@@ -13,7 +13,7 @@
   },  
   "yAxis": {
       "labels": {
-      "format": "{value:,.0f}",
+      "format": "{value:,.0f}%",
     },
 	"max": undefined
   },
@@ -41,8 +41,8 @@
     "inverted": false
   },
   "tooltip": {
-  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
-  "footerFormat": 'Total: <b>{point.total:,.2f}</b>',
+  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>',
+  "footerFormat": 'Total: <b>{point.total:,.2f}%</b>',
    "shared": true
   },
 }

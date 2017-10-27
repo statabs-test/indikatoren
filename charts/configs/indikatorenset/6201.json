@@ -358,12 +358,10 @@
   },
   "legend": {
     "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
     "symbolRadius": 0,
-    "x": 45,
-    "y": 55,
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"

@@ -17,7 +17,7 @@
       xAxis: {
         labels: {
           formatter: function(a, b, c) {
-              console.log(this);
+              //console.log(this);
               //add sum of observations of visible series to the axis label
               var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
                   return val.visible;

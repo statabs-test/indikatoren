@@ -32,7 +32,7 @@
         text: null
     },
     "labels": {
-      "format": "{value:,.0f}",
+      "format": "{value:,.1f}",
        "style": {
        "color": "black"
         },

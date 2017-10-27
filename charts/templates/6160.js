@@ -27,14 +27,15 @@
   },
   "legend": {
     "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-	  "y": 20,
-  	"Itemwidth": 500,
-      "itemStyle": {
-        "fontWeight": "normal"
-      }
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+	  //"y": 20,
+  	//"Itemwidth": 500,
+  	"itemMarginBottom": 5,     
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
   },
   "series": [
   {"color": "#B00000", "index": 4}, /*rot */

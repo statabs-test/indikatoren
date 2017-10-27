@@ -31,12 +31,10 @@
 	  ],
   "legend": {
     "enabled": true,
-    "x": 45,
-    "y": 55,
-    "layout": "horizontal",
-    "verticalAlign": "top",
+    "layout": "vertical",
+    "verticalAlign": "middle",
     "itemMarginBottom": 5,
-    "align": "left",
+    "align": "right",
     "itemStyle": {
       "fontWeight": "normal"
     }
