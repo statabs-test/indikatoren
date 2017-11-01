@@ -57,7 +57,7 @@
   </g>
   <g class="highcharts-series-group">
     <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(37,110) scale(1 1)" clip-path="url(#a)">
-      <path fill="none" d="M 3.9999999999964 157.10052891125 L 43.999999999997 63.99679548124999 L 83.999999999998 95.53248584600001 L 124 151.56630693175 L 164 177.03299877575 L 204 195.68624434117498 L 244 184.023367899375 L 284 168.24476060675 L 324 175.69913905875 L 364 165.09199844025 L 404 195.1942983267" class="highcharts-graph" stroke="#008AC3" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+      <path fill="none" d="M 3.9999999999964 157.10052892988483 L 43.999999999997 63.996795488047155 L 83.999999999998 95.53248587570653 L 124 151.56630693250406 L 164 177.0329987834548 L 204 195.68624434121372 L 244 184.02336789834965 L 284 168.24476060657673 L 324 175.69913903952605 L 364 165.09199845380726 L 404 195.19429832929058" class="highcharts-graph" stroke="#008AC3" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(37,110) scale(1 1)" clip-path="none">
       <path fill="#008AC3" d="M 7 157 A 4 4 0 1 1 6.999998000000167 156.99600000066667 Z" class="highcharts-point"/>
@@ -73,7 +73,7 @@
       <path fill="#008AC3" d="M 408 195 A 4 4 0 1 1 407.9999980000002 194.99600000066667 Z" class="highcharts-point"/>
     </g>
     <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(37,110) scale(1 1)" clip-path="url(#a)">
-      <path fill="none" d="M 3.9999999999964 140.6086326015 L 43.999999999997 43.009995699 L 83.999999999998 65.01773799525003 L 124 129.361373981 L 164 164.5790075855 L 204 178.14406030275 L 244 174.27019683650002 L 284 155.115715231 L 324 172.0177246065 L 364 147.1430369575 L 404 191.889322037375" class="highcharts-graph" stroke="#68AB2B" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+      <path fill="none" d="M 3.9999999999964 140.60863257163575 L 43.999999999997 43.00999566974582 L 83.999999999998 65.01773796979293 L 124 129.36137400422126 L 164 164.57900760789073 L 204 178.14406032709812 L 244 174.2701968554264 L 284 155.11571525759175 L 324 172.01772458718403 L 364 147.14303695046326 L 404 191.88932203886623" class="highcharts-graph" stroke="#68AB2B" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
     <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(37,110) scale(1 1)" clip-path="none">
       <path fill="#68AB2B" d="M 7 141 A 4 4 0 1 1 6.999998000000167 140.99600000066667 Z" class="highcharts-point"/>
@@ -116,21 +116,21 @@
           <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#008AC3" stroke-width="2"/>
           <path fill="#008AC3" d="M 12 11 A 4 4 0 1 1 11.999998000000167 10.996000000666664 Z" class="highcharts-point"/>
           <text x="21" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
-            <tspan>Einbürgerungsziffer männlich (linke Achse)</tspan>
+            <tspan>Einbürgerungsziffer männlich</tspan>
           </text>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1" transform="translate(8,27)">
           <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#68AB2B" stroke-width="2"/>
           <path fill="#68AB2B" d="M 12 11 A 4 4 0 1 1 11.999998000000167 10.996000000666664 Z" class="highcharts-point"/>
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Einbürgerungsziffer weiblich (linke Achse)</tspan>
+            <tspan>Einbürgerungsziffer weiblich</tspan>
           </text>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-2" transform="translate(8,46)">
           <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#662673" stroke-width="2"/>
           <path fill="#662673" d="M 12 11 A 4 4 0 1 1 11.999998000000167 10.996000000666664 Z" class="highcharts-point"/>
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Ausländeranteil (rechte Achse)</tspan>
+            <tspan>Ausländeranteil (rechte Skala)</tspan>
           </text>
         </g>
       </g>

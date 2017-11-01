@@ -82,7 +82,7 @@
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(8,17)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Elektronik. Optik und Maschinenbau</tspan>
+            <tspan>Elektronik, Optik und Maschinenbau</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#4f81bd" class="highcharts-point"/>
         </g>

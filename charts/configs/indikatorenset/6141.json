@@ -171,9 +171,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -5
     },
-    "text": "Quelle: Bundesamt für Statistik, Betriebszählung, STATENT"
+    "text": "Quelle: "
   },
   "legend": {
     "symbolRadius": 0,

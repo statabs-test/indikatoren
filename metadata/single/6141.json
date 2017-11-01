@@ -21,10 +21,10 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":false,
-"orderKey":"03_00_00_00_00_000",
+"orderKey":"03_00_00_00_00_009",
 "parentId":6048,
 "children":[],
 "renderLink":[""],
-"quellenangabe":["Bundesamt für Statistik, Betriebszählung, STATENT"],
+"quellenangabe":[],
 "externalLinks":[""]
 }

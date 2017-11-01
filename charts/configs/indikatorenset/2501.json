@@ -28,11 +28,11 @@
           -0.612758507495348
         ],
         [
-          "Finanz- & Versicherungsdl.",
+          "Finanz- u. Versicherungsdl.",
           0.701594533029604
         ],
         [
-          "Freiberufl. & wiss. Dienstl.",
+          "Freiberufl. u. wiss. Dienstl.",
           1.39487932458475
         ],
         [
@@ -44,7 +44,7 @@
           1.35503905147267
         ],
         [
-          "Gesundh.- & Sozialwesen",
+          "Gesundheits- u. Sozialwesen",
           3.43120518948448
         ]
       ],
@@ -79,11 +79,11 @@
           -0.540441513236245
         ],
         [
-          "Finanz- & Versicherungsdl.",
+          "Finanz- u. Versicherungsdl.",
           1.64090988018752
         ],
         [
-          "Freiberufl. & wiss. Dienstl.",
+          "Freiberufl. u. wiss. Dienstl.",
           3.28856328856328
         ],
         [
@@ -95,7 +95,7 @@
           0.630346690679873
         ],
         [
-          "Gesundh.- & Sozialwesen",
+          "Gesundheits- u. Sozialwesen",
           2.52416756176155
         ]
       ],
@@ -131,11 +131,11 @@
           -1.64912661386568
         ],
         [
-          "Finanz- & Versicherungsdl.",
+          "Finanz- u. Versicherungsdl.",
           0.0309501702259185
         ],
         [
-          "Freiberufl. & wiss. Dienstl.",
+          "Freiberufl. u. wiss. Dienstl.",
           0.873269435569757
         ],
         [
@@ -147,7 +147,7 @@
           1.29189290395058
         ],
         [
-          "Gesundh.- & Sozialwesen",
+          "Gesundheits- u. Sozialwesen",
           3.24840206636898
         ]
       ],
@@ -183,11 +183,11 @@
           0.763682647433184
         ],
         [
-          "Finanz- & Versicherungsdl.",
+          "Finanz- u. Versicherungsdl.",
           0.101663585951939
         ],
         [
-          "Freiberufl. & wiss. Dienstl.",
+          "Freiberufl. u. wiss. Dienstl.",
           0.972992634354841
         ],
         [
@@ -199,7 +199,7 @@
           2.64545370456017
         ],
         [
-          "Gesundh.- & Sozialwesen",
+          "Gesundheits- u. Sozialwesen",
           3.47325102880658
         ]
       ],
@@ -256,7 +256,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Wachstumsrate der realen Wertschöpfung ausgewählter Branchen"
+    "text": "Jährliche Wachstumsrate der realen Wertschöpfung ausgewählter Branchen"
   },
   "subtitle": {
     "style": {

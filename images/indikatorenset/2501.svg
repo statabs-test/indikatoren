@@ -80,7 +80,7 @@
     <g class="highcharts-markers highcharts-series-3 highcharts-column-series highcharts-color-undefined " visibility="hidden" transform="translate(475,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Wachstumsrate der realen Wertschöpfung ausgewählter</tspan><tspan dy="17" x="10">Branchen</tspan><title>Wachstumsrate der realen Wertschöpfung ausgewählter Branchen</title>
+    <tspan>Jährliche Wachstumsrate der realen Wertschöpfung</tspan><tspan dy="17" x="10">ausgewählter Branchen</tspan><title>Jährliche Wachstumsrate der realen Wertschöpfung ausgewählter Branchen</title>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="57">
     <tspan>Basel-Stadt im nationalen Vergleich, Stand: 2016</tspan>
@@ -136,10 +136,10 @@
       <tspan>Gastgewerbe</tspan>
     </text>
     <text x="154" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="272" opacity="1">
-      <tspan>Finanz- &amp; Versicherungsdl.</tspan>
+      <tspan>Finanz- u. Versicherungsdl.</tspan>
     </text>
     <text x="154" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="290" opacity="1">
-      <tspan>Freiberufl. &amp; wiss. Dienstl.</tspan>
+      <tspan>Freiberufl. u. wiss. Dienstl.</tspan>
     </text>
     <text x="154" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="308" opacity="1">
       <tspan>Sonstige wirtschaftl. Dienstl.</tspan>
@@ -148,7 +148,7 @@
       <tspan>Verwaltung</tspan>
     </text>
     <text x="154" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="344" opacity="1">
-      <tspan>Gesundh.- &amp; Sozialwesen</tspan>
+      <tspan>Gesundheits- u. Sozialwesen</tspan>
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
