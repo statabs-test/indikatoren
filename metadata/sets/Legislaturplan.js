@@ -1879,10 +1879,12 @@ var indikatorensetData = [
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "07_00_00_00_00_005",
-		"parentId": 6158,
-		"children": [],
+		"parentId": null,
+		"children": [
+			"6316"
+		],
 		"renderLink": [
 			""
 		],
