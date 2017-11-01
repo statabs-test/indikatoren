@@ -21,7 +21,7 @@
           755094.785461333
         ]
       ],
-      "name": "CO2-Emissionen total",
+      "name": "CO\u003Csub\u003E2\u003C\u002Fsub\u003E-Emissionen total",
       "turboThreshold": 0
     },
     {
@@ -48,7 +48,7 @@
           3.9
         ]
       ],
-      "name": "CO2-Emissionen pro Kopf (rechte Skala)",
+      "name": "CO\u003Csub\u003E2\u003C\u002Fsub\u003E-Emissionen pro Kopf (rechte Skala)",
       "turboThreshold": 0
     }
   ],
@@ -117,7 +117,8 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "CO2-Emissionen"
+    "useHTML": true,
+    "text": "CO\u003Csub\u003E2\u003C\u002Fsub\u003E-Emissionen"
   },
   "subtitle": {
     "style": {
@@ -179,6 +180,7 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "useHTML": true,
     "enabled": true,
     "y": 35,
     "layout": "horizontal",
