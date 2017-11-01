@@ -1,4 +1,4 @@
-{"title":"Arbeitslosenquote",
+﻿{"title":"Arbeitslosenquote",
 "subtitle":"Stand: 2016",
 "kuerzel":"I.03.4.4839",
 "kuerzelKunde":"WA-5.A",
@@ -10,7 +10,7 @@
 "raeumlicheGliederung":["Wohnviertel"],
 "aktualisierungsdatum":"2017-05-12T15:13:10.1010",
 "schlagwort":["Arbeit","Erwerb"],
-"stufe1":"3 Wirtschaft und Arbeit",
+"stufe1":"Bereich 3: Wirtschaft und Arbeit",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
@@ -21,9 +21,10 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
+"orderKey":"03_00_00_00_00_009",
 "parentId":null,
 "children":["5126"],
 "renderLink":["5126"],
-"quellenangabe":["Bundesamt für Statistik BFS, Strukturerhebung (SE)","Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"],
+"quellenangabe":["Bundesamt für Statistik (BFS), Strukturerhebung (SE)","Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"],
 "externalLinks":[""]
 }
