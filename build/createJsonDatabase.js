@@ -18,9 +18,9 @@ files.forEach(function(filepath){
         console.log(filepath + ' is visible, proceeding with adding...');
         if (indikator.visibleInPortal == undefined || indikator.visibleInPortal == true) {
             indikatorenInSet.push(indikator);
-            //Special case for Umwelt charts: If no complete erlaeuterungen, hide from Portal view
-            if (indikator.kennzahlenset == 'Umwelt' && indikator.erlaeuterungen.startsWith('Eine detaillierte Beschreibung des Indikators')){
-                console.log(filepath + ' is Umwelt Indikator with no complete erlaeuterungen, thus hiding in portal view');
+            //Special case for Umwelt charts: Hide from Portal view //, if no complete text in field erlaeuterungen
+            if (indikator.kennzahlenset == 'Umwelt'/* && indikator.erlaeuterungen.startsWith('Eine detaillierte Beschreibung des Indikators') */){
+                console.log(filepath + ' is Umwelt Indikator ' /*+ 'with no complete erlaeuterungen'*/ + ', thus hiding in portal view');
             }
             else {
                 console.log(filepath + ' is visibleInPortal, proceeding with adding to portal/indikatoren.json, all/indikatoren.json...');
