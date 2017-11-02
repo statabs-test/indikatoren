@@ -74,7 +74,7 @@
   <text x="3" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:10px;font-weight:bold;fill:#000000;" y="14">
     <tspan>Anteil Arbeitnehmende in Unternehmensleitung oder</tspan><tspan dy="13" x="3">Vorgesetztenfunktion nach Geschlecht</tspan><title>Anteil Arbeitnehmende in Unternehmensleitung oder Vorgesetztenfunktion nach Geschlecht</title>
   </text>
-  <g class="highcharts-legend" transform="translate(3,32)">
+  <g class="highcharts-legend" transform="translate(30,32)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="996" height="52" visibility="visible"/>
     <g>
       <g>

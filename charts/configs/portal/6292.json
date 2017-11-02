@@ -541,7 +541,7 @@
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 320,
+    "width": 665,
     "height": 208,
     "spacing": [
       3,
@@ -633,10 +633,10 @@
     "text": "Quelle: Statistisches Amt des Kantons Basel-Stadt, Bevölkerungsbefragung Basel-Stadt 2015, S15A"
   },
   "legend": {
-    "layout": "horizontal",
+    "layout": "vertical",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
-    "align": "left",
+    "align": "right",
     "useHTML": true,
     "itemStyle": {
       "fontSize": "10px",
@@ -648,9 +648,7 @@
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
         },
-    "enabled": true,
-    "y": 40,
-    "itemWidth": 150
+    "enabled": true
   },
   "exporting": {
     "filename": "I.50.1.06136"

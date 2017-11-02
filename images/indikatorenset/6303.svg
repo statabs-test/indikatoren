@@ -163,7 +163,7 @@
   <text x="3" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:10px;font-weight:normal;font-family:arial;fill:#000000;" y="45">
     <tspan>in Franken</tspan>
   </text>
-  <g class="highcharts-legend" transform="translate(3,52)">
+  <g class="highcharts-legend" transform="translate(46,52)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="996" height="78" visibility="visible"/>
     <g clip-path="url(#b)">
       <g transform="translate(0,-5)">

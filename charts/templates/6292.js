@@ -1,15 +1,16 @@
 (function(){
     return {
       chart: {
-        inverted: true
+        inverted: true,
+        width: 665
       },
       "legend": {
         "enabled": true,
-        "layout": "horizontal",
+        "layout": "vertical",
         "verticalAlign": "top",
-        "align": "left",
-    	  "y": 40,
-    	  itemWidth: 150, 
+        "align": "right",
+    	  //"y": 40,
+    	  //itemWidth: 90, 
         "itemStyle": {
           "fontWeight": "normal"
         }

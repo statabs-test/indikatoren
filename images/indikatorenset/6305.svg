@@ -86,7 +86,7 @@
   <text x="3" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:10px;font-weight:bold;fill:#000000;" y="14">
     <tspan>Segregationsindex nach Staatsangehörigkeit</tspan>
   </text>
-  <g class="highcharts-legend" transform="translate(3,42)">
+  <g class="highcharts-legend" transform="translate(21,42)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="146" height="83" visibility="visible"/>
     <g clip-path="url(#b)">
       <g transform="translate(0,0)">

@@ -5,6 +5,7 @@
       "index": 10,
       "yAxis": 0,
       "visible": false,
+      "showInLegend": false,
       "data": [
         [
           2008,
@@ -46,6 +47,7 @@
       "index": 9,
       "yAxis": 0,
       "visible": false,
+      "showInLegend": false,
       "data": [
         [
           2008,
@@ -87,6 +89,7 @@
       "index": 8,
       "yAxis": 0,
       "visible": false,
+      "showInLegend": false,
       "data": [
         [
           2008,
@@ -128,6 +131,7 @@
       "index": 7,
       "yAxis": 0,
       "visible": false,
+      "showInLegend": false,
       "data": [
         [
           2008,
@@ -169,6 +173,7 @@
       "index": 6,
       "yAxis": 0,
       "visible": false,
+      "showInLegend": false,
       "data": [
         [
           2008,
@@ -251,6 +256,7 @@
       "index": 4,
       "yAxis": 0,
       "visible": false,
+      "showInLegend": false,
       "data": [
         [
           2008,
@@ -292,6 +298,7 @@
       "index": 3,
       "yAxis": 0,
       "visible": false,
+      "showInLegend": false,
       "data": [
         [
           2008,
@@ -333,6 +340,7 @@
       "index": 2,
       "yAxis": 0,
       "visible": false,
+      "showInLegend": false,
       "data": [
         [
           2008,
@@ -374,6 +382,7 @@
       "index": 1,
       "yAxis": 0,
       "visible": false,
+      "showInLegend": false,
       "data": [
         [
           2008,
@@ -591,7 +600,6 @@
       "fontWeight": "normal"
     },
     "enabled": true,
-    "y": 35,
     "itemWidth": 200,
     "layout": "horizontal",
     "verticalAlign": "top",

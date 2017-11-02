@@ -39,11 +39,11 @@
     }, /* dunkelgrün */
   ],
   "legend": {
-  	symbolWidth: 30,
+  	//symbolWidth: 30,
     "enabled": true,
     //"x": 25,
-    "y": 65,
-    "itemWidth": 220,
+    //"y": 65,
+    //"itemWidth": 220,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,

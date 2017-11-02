@@ -104,7 +104,7 @@
   <text x="3" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:10px;font-weight:normal;font-family:arial;fill:#000000;" y="32">
     <tspan>in Brutto-Tonnen nach Verkehrsträger</tspan>
   </text>
-  <g class="highcharts-legend" transform="translate(3,62)">
+  <g class="highcharts-legend" transform="translate(60,62)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="176" height="73" visibility="visible"/>
     <g clip-path="url(#b)">
       <g transform="translate(0,0)">
