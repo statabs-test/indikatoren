@@ -1,4 +1,4 @@
-{"title":"Vermögenssteuer pro Veranlagung",
+﻿{"title":"Vermögenssteuer pro Veranlagung",
 "subtitle":"Stand: Steuerjahr 2014",
 "kuerzel":"I.18.2.4835",
 "kuerzelKunde":"WA-1.A",
@@ -10,7 +10,7 @@
 "raeumlicheGliederung":["Wohnviertel"],
 "aktualisierungsdatum":"2017-05-05T14:15:03.033",
 "schlagwort":["Bevölkerung"],
-"stufe1":"3 Wirtschaft und Arbeit",
+"stufe1":"Bereich 3: Wirtschaft und Arbeit",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
@@ -21,9 +21,10 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
+"orderKey":"03_00_00_00_00_001",
 "parentId":null,
 "children":["5122"],
 "renderLink":["5122"],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Steuerstatistik"],
 "externalLinks":[""]
 }
