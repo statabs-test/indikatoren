@@ -69,6 +69,17 @@ npm run build
 npm run build
 ``` 
 
+### Create Kennzahlensets for Print: Copy Data and Chart Configurations
+- If a new kennzahlenset is created for print, it can be initialized with data and chart configurations of their respective parent kennzahlenset. 
+- To do this, first upload the metadata files to metadata/single. 
+- Then run 
+```javascript
+npm run build:init_print_charts
+```
+- This will check each metadata file for matching data/[id].tsv and charts/templates/[id].js. If tsv or js file is missing, it will be copied from the parent chart's file. 
+- This is an excellent starting point to refine charts for printing. 
+
+
 ### Build Application Locally  
 To build the application,  create the json config files and the svg images of the charts that have changed since the last build: 
 ```javascript
