@@ -1,12 +1,17 @@
 (function(){
     return {
+      chart: {
+        spacing: [1,3,1,3], /*top, right, bottom and left */
+      },
   "xAxis": {
-    "tickInterval":2
+    "tickInterval": 2
   },
   "yAxis": {
-	"labels": {
-		"format": "{value:,.0f}"
-	}
+    max: 40, 
+    tickInterval: 10,
+  	"labels": {
+  		"format": "{value:,.0f}"
+  	}
   },	
   "tooltip": {
     "shared": false, 
@@ -80,12 +85,12 @@
   ],
   "legend": {
     "enabled": true,
-    //"x": 45,
-    "y": 35,
-    "itemWidth": 150,
+    "itemWidth": 115,
+    margin: 6,
+    padding: 1,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 1,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
