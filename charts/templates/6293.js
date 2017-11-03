@@ -1,12 +1,14 @@
 (function(){
     return {
   "xAxis": {
-    //"tickInterval": 2
+    "tickInterval": 2
   },
   "yAxis": {
-	"labels": {
-		"format": "{value:,.0f}"
-	}
+    max: 8, 
+    tickInterval: 2,
+  	"labels": {
+  		"format": "{value:,.0f}"
+  	}
   },	
   "tooltip": {
     "shared": false, 
@@ -38,10 +40,11 @@
     "enabled": true,
     //"x": 45,
     //"y": 35,
-    "itemWidth": 500,
+    "itemWidth": 200,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 3,
+    margin: 3, 
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
