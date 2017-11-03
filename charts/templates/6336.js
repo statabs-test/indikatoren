@@ -4,7 +4,10 @@
     "tickInterval": 1,
   },
   "yAxis": {
-    "min": 0, 
+    "min": 0,
+    max: 25,
+    //endOnTick: false,
+    tickInterval: 5,
 	  "labels": {
 		  "format": "{value}%"
 	  }
@@ -41,8 +44,8 @@
    "legend": {
     "enabled": true,
     //"x": 45,
-    "y": 35,
-    "itemWidth": 200,
+    //"y": 35,
+    "itemWidth": 130,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,

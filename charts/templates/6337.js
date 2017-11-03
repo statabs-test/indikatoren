@@ -30,8 +30,8 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-	"y": 35,
-	"width": 200,
+	//"y": 35,
+	//"width": 200,
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -42,8 +42,8 @@
   ],
   "chart": {
     "renderTo": 'container-I.01.1.0016', 
-    "marginBottom": 75,
-    "marginTop": 75,
+    //"marginBottom": 75,
+    //"marginTop": 75,
     "type": "column",
     "inverted": false
   },
