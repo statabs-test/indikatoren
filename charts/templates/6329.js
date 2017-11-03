@@ -4,7 +4,7 @@
     "series": {
       pointPadding: 100,
       borderWidth: 0,
-      "pointWidth": 30,
+      "pointWidth": 20,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -18,8 +18,8 @@
     "tickInterval": 1
   },  
   "yAxis": {
-  	 //max: 120000,
-     //tickInterval: 60000,
+  	 max: 750000,
+     tickInterval: 2500,
     "labels": {
       "format": "{value:,.0f}",
     },
@@ -30,8 +30,10 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-	"y": 20,
-	"width": 200,
+    itemWidth: 120,
+    itemMarginBottom: 5,
+  	//"y": 20,
+  	//"width": 200,
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -44,7 +46,7 @@
   ],
   "chart": {
     "renderTo": 'container-I.01.1.0016', 
-    "marginBottom": 75,
+    //"marginBottom": 75,
     //"marginTop": 75,
     "type": "column",
     "inverted": false
