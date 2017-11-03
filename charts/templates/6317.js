@@ -6,7 +6,7 @@
     }
   },
   "xAxis": {
-	//"tickInterval": 1,
+	  "tickInterval": 2,
   },
   "series": [
     {

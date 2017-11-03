@@ -40,25 +40,25 @@
   },
  "series": [
 	{"color": "#256370",
-  index: 10, "yAxis": 0, visible: false}, /*blau*/
+  index: 10, "yAxis": 0, visible: false, showInLegend: false}, /*blau*/
 	{"color": "#a8c4cb",
-  index: 9, "yAxis": 0, visible: false}, /*hellblau*/
+  index: 9, "yAxis": 0, visible: false, showInLegend: false}, /*hellblau*/
 	{"color": "#ffbb58",
-  index: 8, "yAxis": 0, visible: false}, /*hellorange*/
+  index: 8, "yAxis": 0, visible: false, showInLegend: false}, /*hellorange*/
 	{"color": "#b475ab",
   index: 7, "yAxis": 0, visible: true}, /*hellviolett*/
 	{"color": "#44ab2b",
-  index: 6, "yAxis": 0, visible: false}, /*grün*/
+  index: 6, "yAxis": 0, visible: false, showInLegend: false}, /*grün*/
   {"color": "#007a2f",
-  index: 5, "yAxis": 0, visible: false},  /*dunkelgrün*/
+  index: 5, "yAxis": 0, visible: false, showInLegend: false},  /*dunkelgrün*/
 	{"color": "#672773",
-  index: 4, "yAxis": 0, visible: false}, /*violett*/
+  index: 4, "yAxis": 0, visible: false, showInLegend: false}, /*violett*/
 	{"color": "#b00000",
-  index: 3, "yAxis": 0, visible: false}, /*rot*/
+  index: 3, "yAxis": 0, visible: false, showInLegend: false}, /*rot*/
 	{"color": "#ff8028",
-  index: 2, "yAxis": 0, visible: false}, /*orange*/
+  index: 2, "yAxis": 0, visible: false, showInLegend: false}, /*orange*/
 	{"color": "#cd9c00",
-  index: 1, "yAxis": 0, visible: false}, /*hellbraun*/
+  index: 1, "yAxis": 0, visible: false, showInLegend: false}, /*hellbraun*/
       {
 	  "color": "#E6E6E6",
 	  "index": 0,
@@ -74,8 +74,8 @@
   "legend": {
     "enabled": true,
     //"x": 45,
-    "y": 35,
-    "itemWidth": 200,
+    //"y": 35,
+    //"itemWidth": 200,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,

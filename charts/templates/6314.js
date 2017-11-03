@@ -76,11 +76,13 @@
   
   "legend": {
     "enabled": true,
-    "y": 35,
-    "itemWidth": 500,
+    //"y": 35,
+    "itemWidth": 200,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
+    symbolPadding: 3,
+    symbolWidth: 10,
     "align": "left",
     "itemStyle": {
      "fontWeight": "normal"

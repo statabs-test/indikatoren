@@ -1,7 +1,7 @@
 (function(){
     return {
   "xAxis": {
-    //"tickInterval": 1
+    "tickInterval": 1
   },
   "yAxis": {
 	"labels": {
@@ -30,8 +30,8 @@
   	symbolWidth: 30,
     "enabled": true,
     //"x": 45,
-    "y": 35,
-    "itemWidth": 500,
+    //"y": 35,
+    //"itemWidth": 500,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,

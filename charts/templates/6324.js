@@ -28,7 +28,7 @@
   "legend": {
     "enabled": true,
     //"x":35,
-    "y": 35,
+    //"y": 35,
     "itemWidth": 80,
     "layout": "horizontal",
     "verticalAlign": "top",

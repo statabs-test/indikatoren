@@ -15,7 +15,8 @@
   },
   "yAxis": {
   	//"min": 0,
-  	//"max": 0.5,
+  	"max": 30,
+  	tickInterval: 10,
     "labels": {
       "format": "{value}%"
     }    
@@ -32,8 +33,9 @@
     "verticalAlign": "top",
     "align": "left",
     //"x": 25,
-	"y": 25,  
-	"itemWidth": 300,
+	  //"y": 25,  
+	  //"itemWidth": 300,
+	  itemMarginBottom: 5,
     "itemStyle": {
       "fontWeight": "normal"
     }

@@ -18,8 +18,8 @@
     "tickInterval": 1
   },  
   "yAxis": {
-  	 //max: 120000,
-     //tickInterval: 60000,
+  	 max: 6000,
+     tickInterval: 2000,
     "labels": {
       "format": "{value:,.0f}",
     },
@@ -45,8 +45,6 @@
   ],
   "chart": {
     "renderTo": 'container-I.01.1.0016', 
-    "marginBottom": 75,
-    "marginTop": 75,
     "type": "column",
     "inverted": false
   },
