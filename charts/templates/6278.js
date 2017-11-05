@@ -4,9 +4,9 @@
     "tickInterval": 2
   },
   "yAxis": {
-  	min: 75,
+  	min: 100,
   	max: 150,
-  	tickInterval: 25,
+  	tickInterval: 10,
 	"labels": {
 		"format": "{value:,.0f}"
 	}
@@ -44,42 +44,45 @@
       }    
     }, /* dunkelviolett */
        {"color": "#E64900",
-       visible: false,
+       visible: true,
        legendIndex: 2,
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* hellrot */
     	{"color": "#68AB2B",
     	legendIndex: 4,
-	visible:false,
+	visible: true,
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* hellgrün */
     	{"color": "#008AC3",
     	legendIndex: 6,
-	visible:false,
+	visible: true,
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* hellblau */
     	{"color": "#B375AB",
     	legendIndex: 8,
-	visible:false,
+	visible: true,
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* hellviolett */
   ],
   "legend": {
     "enabled": true,
     //"x": 45,
-    "y": 35,
-    "itemWidth": 200,
+    //"y": 35,
+    //"itemWidth": 200,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 3,
+    margin: 3, 
+    padding: 2,
+    itemWidth: 120,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"

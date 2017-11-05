@@ -17,16 +17,17 @@
     } 
   },
   "yAxis": {
-	"max": 100,
+	"max": 60,
+	tickInterval: 20, 
     "labels": {
       "format": "{value}%"
     }    
   },
    "series": [
-  {"color": "#ffbb58", visible: false}, /* hellrot*/
-  {"color": "#ff8028", visible: false}, /* ... */
-  {"color": "#b00000", visible: false}, /* ...*/
-  {"color": "#661200", visible: false}, /* ... */
+  {"color": "#ffbb58", visible: true}, /* hellrot*/
+  {"color": "#ff8028", visible: true}, /* ... */
+  {"color": "#b00000", visible: true}, /* ...*/
+  {"color": "#661200", visible: true}, /* ... */
   {"color": "#953735", visible: true}, /* dunkelrot*/
   ],
   "legend": {
@@ -34,8 +35,9 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
+    itemWidth: 52,
     //"x": 40,
-	"y": 65,    
+	//"y": 65,    
     "itemStyle": {
       "fontWeight": "normal"
     }
