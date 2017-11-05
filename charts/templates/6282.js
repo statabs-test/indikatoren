@@ -1,7 +1,10 @@
 (function(){
     return {
   "xAxis": {
-    "tickInterval":3
+    "tickInterval":3,
+    labels: {
+      rotation: -45
+    }
   },
   "yAxis": {
 	"labels": {
@@ -39,9 +42,11 @@
   ],
   "legend": {
     "enabled": true,
-    "x": 45,
-    "y": 35,
+    //"x": 45,
+    //"y": 35,
     "itemWidth": 300,
+    margin: 3, 
+    padding: 1,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,

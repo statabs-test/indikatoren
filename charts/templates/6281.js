@@ -39,19 +39,25 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-	"y": 40,
-	//"x": 40,
-	"itemMarginBottom": 5,
-    "itemStyle": {
-    "fontWeight": "normal"
-    }
-  },
+    margin: 3, 
+    padding: 3,
+  	//"y": 40,
+  	//"x": 40,
+  	//line break before (rechte Achse)
+  	labelFormatter: function(){
+  	  return this.name.replace("(rechte", "<br/>(rechte");
+  	},
+  	"itemMarginBottom": 5,
+      "itemStyle": {
+      "fontWeight": "normal"
+      }
+    },
   "series": [
     {
       "color": "#71a3b5",
       "index": 0,
       "type": "column",
-      "pointWidth": "20"
+      "pointWidth": "15"
     },
     {
       "color": "#7d60a0",
@@ -67,7 +73,7 @@
     "shared": true,
   },
   "chart": {
-    "marginBottom": 65,
+    //"marginBottom": 65,
     "type": "line",
     "alignTicks": false
   }

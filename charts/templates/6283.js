@@ -84,7 +84,8 @@
   "chart": {      
     "type": "column",
     "inverted": false,
-    "spacingBottom": 40
+    width: 600
+    //"spacingBottom": 40
   }
 }
 }());

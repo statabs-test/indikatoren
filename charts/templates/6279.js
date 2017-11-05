@@ -30,12 +30,15 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
+    margin: 5,
+    padding: 2,
+    itemMarginBottom: 2,
     //"x": 25,
-	"y": 55,  
-	"itemWidth": 300,
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
+  	//"y": 55,  
+  	"itemWidth": 300,
+      "itemStyle": {
+        "fontWeight": "normal"
+      }
   },
   tooltip: {
     pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.3f}</b><br/>',
@@ -43,7 +46,8 @@
   },  
   "chart": {      
     "type": "column",
-    "inverted": false
+    "inverted": false, 
+    spacingTop: 1
   }
 }
 }());
