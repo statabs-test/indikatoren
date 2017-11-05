@@ -18,18 +18,18 @@
   {"color": "#8a8a8a"}, /* Schweiz = hellgrau */
   {"color": "#ff8028"}, /* BS = orange */
   {"color": "#256370",
-  	"visible": false}, /* GE = dunkelblau */
+  	"visible": false, showInLegend: false}, /* GE = dunkelblau */
   {"color": "#71a3b5",
-  	"visible": false}  /* ZH = hellblau */
+  	"visible": false, showInLegend: false}  /* ZH = hellblau */
   ],
   "legend": {
     "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
     //"x": 155,
-	"y": 60,   
-	"itemWidth": 150,
+	  //"y": 60,   
+	  "itemWidth": 75,
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -40,7 +40,8 @@
   },  
   "chart": {      
     "type": "column",
-    "inverted": true /* false */
+    "inverted": true,
+    width: 600
   },
 }
 }());
