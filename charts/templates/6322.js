@@ -11,25 +11,32 @@
   	tickInterval: 10500,
     "labels": {
       "format": "{value:,.0f}",
+        //padding: 0,
+        //y: 8,
     }
   },
   "xAxis": {
   	"type": "category",
-   "tickInterval": 1,
-          "labels": {
-          	align: "left",
-          	step: 1,
-            "rotation": 0,
-             overflow: 'justify',
-             x: -80
+    "tickInterval": 1,
+      "labels": {
+      	//align: "left",
+      	step: 1,
+        "rotation": -90,
+         overflow: 'justify',
+         //x: -80
+         formatter: function(){
+           return this.value.split(" ").reverse().join(" ");
+         },
        }  
   },
  "legend": {
-    enabled:true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
+    "layout": "horizontal",
+    "verticalAlign": "top",
     "itemMarginBottom": 5, 
-    "align": "right",
+    "align": "left",
+    itemWidth: 120,
+    margin: 2,
+    padding: 2,
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -68,8 +75,10 @@
     "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
   },
   "chart": {
-  	  marginLeft:95,
-     "inverted": true,
+  	  //marginLeft: 95,
+     "inverted": false,
+     //width: 600, 
+     //spacing: [1,1,3,1]
   }
 };
 }());

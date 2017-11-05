@@ -16,11 +16,12 @@
     } 
   },
   "yAxis": {
-	//"max": 100,
-	tickInterval: 20000,
-	max: 60000, 
+  	//"max": 100,
+  	tickInterval: 20000,
+  	max: 60000, 
     "labels": {
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f}",
+      pading: 1
     }    
   },
   "series": [
@@ -45,6 +46,8 @@
   "chart": {      
     "type": "column",
     "inverted": true,
+    width: 600, 
+    spacing: [1,1,3,1]
     //"spacingTop": 100
   }
 }
