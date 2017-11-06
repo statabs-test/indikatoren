@@ -2,10 +2,6 @@
     return {
     "yAxis":{
         tickInterval: 25,
-        labels: {        
-            //padding: 0, 
-            //y: 10
-        }
     },
  	"xAxis": {
         "type": "category",
@@ -53,7 +49,7 @@
       marginLeft: 165,
      "inverted": true,
      width: 600, 
-     spacing: [1,1,1,1]
+     //spacing: [1,1,1,1]
   },
 }
 }());

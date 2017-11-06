@@ -8,6 +8,9 @@
         "labels": {
            align: "left",
             x: -125,
+            style: {
+              "fontSize": "9.999px",
+            },
             "formatter": function() {
                 //add sum of observations of visible series to the axis label
                 var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
@@ -45,6 +48,7 @@
 "chart": {     
 	 marginLeft: 140, 
      "inverted": true,
+     width: 600
   },
 }
 }());

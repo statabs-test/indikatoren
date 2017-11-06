@@ -8,20 +8,23 @@
             "labels": {
             	align: "left",
             	x: -125,
-                "formatter": function() {
-                    //add sum of observations of visible series to the axis label
-                    var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
-                        return val.visible;
-                    });
-                    var indexOfCurrentValue = this.axis.names.indexOf(this.value);
-                    var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
-                        return accumulator + series.yData[indexOfCurrentValue];
-                    }, 0);
-                    //use N if all series are visible, otherwise use n
-                    var nString = /*(this.chart.series.length == allVisibleSeries.length) ? 'N=' :*/ 'n='; 
-                    //check for value that contains only spaces
-                	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
-                }
+              style: {
+                "fontSize": "9.999px",
+              },
+              "formatter": function() {
+                //add sum of observations of visible series to the axis label
+                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
+                    return val.visible;
+                });
+                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
+                    return accumulator + series.yData[indexOfCurrentValue];
+                }, 0);
+                //use N if all series are visible, otherwise use n
+                var nString = /*(this.chart.series.length == allVisibleSeries.length) ? 'N=' :*/ 'n='; 
+                //check for value that contains only spaces
+              	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
+              }
             } 
         }, 
       "series": [
@@ -34,6 +37,7 @@
     "chart": {      
     	  marginLeft: 140,
          "inverted": true,
+         width: 600
       },
     };
 }());
