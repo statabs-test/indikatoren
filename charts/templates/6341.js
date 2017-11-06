@@ -1,27 +1,34 @@
 (function(){
     return {
     "yAxis":{
-    tickInterval:25,
+        tickInterval: 25,
+        labels: {        
+            //padding: 0, 
+            //y: 10
+        }
     },
  	"xAxis": {
         "type": "category",
         "labels": {
-		  align: "left",
-          x: -155,
-            "formatter": function() {
-                //add sum of observations of visible series to the axis label
-                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
-                    return val.visible;
-                });
-                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
-                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
-                    return accumulator + series.yData[indexOfCurrentValue];
-                }, 0);
-                //use N if all series are visible, otherwise use n
-                var nString = /*(this.chart.series.length == allVisibleSeries.length) ? 'N=' :*/ 'n='; 
-                //check for value that contains only spaces
-            	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
-            }
+    		  align: "left",
+          x: -150,
+          style: {
+            "fontSize": "9.999px",
+          },
+          "formatter": function() {
+              //add sum of observations of visible series to the axis label
+              var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
+                  return val.visible;
+              });
+              var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+              var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
+                  return accumulator + series.yData[indexOfCurrentValue];
+              }, 0);
+              //use N if all series are visible, otherwise use n
+              var nString = /*(this.chart.series.length == allVisibleSeries.length) ? 'N=' :*/ 'n='; 
+              //check for value that contains only spaces
+          	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
+          }
         } 
   },  
  plotOptions: {
@@ -45,6 +52,8 @@
 "chart": {      
       marginLeft: 165,
      "inverted": true,
+     width: 600, 
+     spacing: [1,1,1,1]
   },
 }
 }());

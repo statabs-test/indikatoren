@@ -45,6 +45,8 @@
 "chart": {     
 	 marginLeft: 140, 
      "inverted": true,
+     width: 600, 
+     spacing: [1,1,1,1]
   },
 }
 }());
