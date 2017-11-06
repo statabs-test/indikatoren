@@ -10,6 +10,8 @@
             showLastLabel: true,
         },
         yAxis: { 
+            max: 250000, 
+            tickInterval: 50000,
             showLastLabel: true,
             endOnTick: true,
             labels: {
