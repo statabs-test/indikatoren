@@ -8,6 +8,7 @@
             startOnTick: true,
             showFirstLabel: true,
             showLastLabel: true,
+            range: 50 * 12 * 30 * 24 * 3600 * 1000
         },
         yAxis: { 
             max: 250000, 
@@ -27,7 +28,14 @@
                 }
             }
         },
+        navigator: {
+            enabled: false
+        },
+        scrollbar: {
+            enabled: false
+        },
     	rangeSelector: {
+    	    enabled: false,
     		buttons: 
     			[
         			{
