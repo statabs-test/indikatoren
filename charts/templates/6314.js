@@ -26,7 +26,9 @@
        "color": "#000000"
         },
     },
-    "min": 0,  },
+    "min": 0,  
+    tickAmount: 5
+  },
   {
     title: {
         text: null
@@ -38,6 +40,8 @@
         },
     },
     "min": 0,
+    tickAmount: 5,
+    max: 50,
     "opposite": true
   }
   ],

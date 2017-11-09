@@ -5,9 +5,10 @@
   },
   "yAxis": {
     "min": undefined, 
-	"labels": {
-		"format": "{value:,.0f}"
-	}
+    tickAmount: 5,
+  	"labels": {
+  		"format": "{value:,.0f}"
+  	}
   },	
   "tooltip": {
     "shared": false, 
@@ -16,27 +17,15 @@
   "series": [
     {"color": "#b00000 ",
     legendIndex: 1,
-      "marker": {
-        "enabled": true
-      }    
     }, /* rot */
 	{"color": "#672773",
     legendIndex: 2,
-      "marker": {
-        "enabled": true
-      }    
     }, /* violett */
   	{"color": "#007a2f",
     legendIndex: 0,
-      "marker": {
-        "enabled": true
-      }    
     },/* grün  */
     {"color": "#008AC3",
     legendIndex: 3,
-      "marker": {
-        "enabled": true
-      }    
     },/* blau  */
   ],
   "legend": {

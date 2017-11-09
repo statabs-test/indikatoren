@@ -3,7 +3,7 @@
   "xAxis": {
     "tickInterval": 1
   },
-    "yAxis": [{
+  "yAxis": [{
     "labels": {
       "format": "{value:,.0f}",
       "style": {
@@ -12,6 +12,7 @@
     },
     "min": 0,
     "max": undefined,
+    tickAmount: 5,
     "title": ""
   },
   {
@@ -30,6 +31,7 @@
     },
     "min": 0,
     "max": undefined,
+    tickAmount: 5,
     "gridLineWidth": 0,
     "opposite": true
   }

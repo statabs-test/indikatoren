@@ -4,53 +4,61 @@
     "tickInterval":2
   },
   "yAxis": {
-	"labels": {
-		"format": "{value:,.0f}%"
-	}
+    tickAmount: 5,
+  	"labels": {
+  		"format": "{value:,.0f}%"
+  	}
   },	
   "tooltip": {
     "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}%</b><br/>'
+	  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}%</b><br/>'
   },
   "series": [
-    {"color": "#B00000",
-    visible:true,
+    {
+      "color": "#B00000",
+      visible:true,
       "marker": {
         "enabled": false
-      }    
+    }    
     }, /* dunkelrot */
-    	{"color": "#007A2F",
-	visible:true,
+  	{
+  	  "color": "#007A2F",
+	    visible:true,
       "marker": {
         "enabled": false
       }    
     }, /* dunkelgrün */
-    	{"color": "#4f81bd",
-	visible:true,
+  	{
+  	  "color": "#4f81bd",
+	    visible:true,
       "marker": {
         "enabled": false
       }    
     }, /* dunkelblau */
-    	{"color": "#662673",
-	visible:true,
-      "marker": {
-        "enabled": false
+  	{
+  	  "color": "#662673",
+    	visible:true,
+          "marker": {
+            "enabled": false
       }    
     }, /* dunkelviolett */
-        {"color": "#7F5F1A",
-        visible:true,
+    {
+      "color": "#7F5F1A",
+      visible:true,
       "marker": {
         "enabled": false
       }    
     }, /* dunkelbraun */
-    	{"color": "#FABD24",
-	visible:true,
+  	{
+  	  "color": "#FABD24",
+	    visible:true,
       "marker": {
         "enabled": false
       }    
     }, /* dunkelgelb */
-    	{"color": "#3C3C3C",
-	visible:true,
+  	{
+  	  "color": "#3C3C3C",
+	    visible:true,
       "marker": {
         "enabled": true
       }    
@@ -61,7 +69,8 @@
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    }, 
+    verticalAlign: 'middle',
   },
   "plotOptions": {
     "line": {
@@ -73,8 +82,8 @@
     }
   },
   chart:{
-	marginBottom: 70
+	  //marginBottom: 70
   }
-}
+};
 }());
  

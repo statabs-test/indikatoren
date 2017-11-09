@@ -3,8 +3,10 @@
   "xAxis": {
   },
   "yAxis": {
-	"labels": {
-		"format": "{value:,.0f}%"
+    tickAmount: 5,
+    //max: 20,
+  	"labels": {
+  		"format": "{value:,.0f}%"
 	}
   },	
   "tooltip": {

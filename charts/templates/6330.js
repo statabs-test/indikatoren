@@ -3,36 +3,39 @@
   "xAxis": {
     "tickInterval": 1
   },
-    "yAxis": [{
-    "labels": {
-      "format": "{value:,.0f}",
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "min": 0,
-    "max": undefined,
-    "title": ""
-  },
-  {
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
+  "yAxis": [
+    {
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
       },
-      "text": null
+      "min": 0,
+      "max": undefined,
+      tickAmount: 5,
+      "title": ""
     },
-    "labels": {
-      "format": "{value:,.0f}",
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "min": 0,
-    "max": undefined,
-    "gridLineWidth": 0,
-    "opposite": true
-  }
+    {
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "max": undefined,
+      tickAmount: 5,
+      "gridLineWidth": 0,
+      "opposite": true
+    }
   ],
   "tooltip": {
     "shared": false, 

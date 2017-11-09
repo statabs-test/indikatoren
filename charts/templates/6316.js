@@ -29,7 +29,9 @@
          "color": "black"
           },
       },
-      "min": 0,  },
+      "min": 0,  
+      tickAmount: 5
+    },
     {
       title: {
           text: null
@@ -41,6 +43,7 @@
           },
       },
       "min": 0,
+      tickAmount: 5,
       "opposite": true
     }
     ],
