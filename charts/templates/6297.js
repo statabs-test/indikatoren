@@ -4,11 +4,16 @@
         	type: 'area'
         },
         xAxis: {
-            endOnTick: true,    
-            startOnTick: true,
-            showFirstLabel: true,
-            showLastLabel: true,
-            range: 50 * 12 * 30 * 24 * 3600 * 1000
+            //endOnTick: true,    
+            //startOnTick: true,
+            //showFirstLabel: true,
+            //showLastLabel: true,
+            tickInterval: 5 * 12 * 30 * 24 * 3600 * 1000,
+            min: Date.UTC(1967, 12, 30),
+            labels: {
+                rotation: -45
+            }
+            //range: 50 * 12 * 30 * 24 * 3600 * 1000, //50 years
         },
         yAxis: { 
             max: 250000, 
