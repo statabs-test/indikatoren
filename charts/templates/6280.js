@@ -4,9 +4,10 @@
     "tickInterval": 1,
   },
   "yAxis": {
-	"labels": {
-		"format": "{value:,.0f}"
-	}
+    tickInterval: 1250,
+  	"labels": {
+  		"format": "{value:,.0f}"
+  	}
   },	
   "tooltip": {
     "shared": false, 

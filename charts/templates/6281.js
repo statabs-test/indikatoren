@@ -8,7 +8,8 @@
       }
     },
     "min": 0,
-    "max": undefined,
+    "max": 60000,
+    tickInterval: 20000,
     "title": ""
   },
   {
@@ -26,7 +27,8 @@
       }
     },
     "min": 0,
-    "max": undefined,
+    max: 30, 
+    tickInterval: 10,
     "gridLineWidth": 0,
     "opposite": true
   }
