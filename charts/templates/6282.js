@@ -7,9 +7,10 @@
     }
   },
   "yAxis": {
-	"labels": {
-		"format": "{value:,.0f}"
-	}
+    tickInterval: 50000,    
+  	"labels": {
+  		"format": "{value:,.0f}"
+  	}
   },	
   "tooltip": {
     "shared": false, 

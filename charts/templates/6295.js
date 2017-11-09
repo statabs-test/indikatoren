@@ -15,9 +15,10 @@
     } 
   },
   "yAxis": {
-	//"max": 100,
+	  "max": 10,
+	  tickAmount: 5,
     "labels": {
-      "format": "{value:,.0f}%"
+      "format": "{value:,.1f}%"
     }    
   },
   "series": [
