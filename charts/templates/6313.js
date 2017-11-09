@@ -20,7 +20,6 @@
     "verticalAlign": "top",
     "align": "left",
     "x": 35,
-	"y": 35,    
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -32,7 +31,6 @@
   "chart": {      
     "type": "column",
     "inverted": false,
-    "spacingBottom": 40
   },
    plotOptions: {
         series: {
