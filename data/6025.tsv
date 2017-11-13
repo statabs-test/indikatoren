@@ -1,5 +1,5 @@
-WohnviertelId	Wohnviertel	Anteil Zugezogene pro 100 Einwohner		Schweiz	Ausland
-1	Altstadt GB	11.27258445	Anzahl	48.43205575	51.56794425
+WohnviertelId	Wohnviertel	Anteil Zugezogene pro 100 Einwohner	Anzahl	Schweiz	Ausland
+1	Altstadt GB	11.27258445	0.1	48.43205575	51.56794425
 2	Vorstädte	13.36121067	0.1	36.06557377	63.93442623
 3	Am Ring	11.7849823	0.1	38.73517787	61.18577075
 4	Breite	7.038943599	0.1	55.48489666	44.51510334
@@ -20,4 +20,6 @@ WohnviertelId	Wohnviertel	Anteil Zugezogene pro 100 Einwohner		Schweiz	Ausland
 19	Kleinhüningen	6.187348773	0.1	32.40223464	67.59776536
 20	Riehen	3.756963954	0.1	50.44359949	49.30291508
 30	Bettingen	5.12605042	0.1	40.98360656	59.01639344
+					
+
 
