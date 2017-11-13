@@ -3,10 +3,7 @@
   
   "xAxis": {
     "type": "category",
-    "labels": {
-      "rotation": -90 
-    } 
-  },
+    },
    plotOptions: {
         series: {
             pointPadding: 0,
@@ -14,30 +11,32 @@
         }
    },
   "yAxis": {
-	"min": -3000,
-	"tickInterval": 1000,
+	"max": 3500,
+	"tickInterval": 500,
+ min: -1500,
     "labels": {
       "format": "{value:,.0f}"
     }    
   },
   "series": [
-  {"color": "#FABD24", "visible": true}, /* hellrot*/
-    {"color": "#FABD24", "visible": true}, /* hellrot*/
-  {"color": "#B00000", "visible": true} /* dunkelrot */
+  {"color": "#990300", "visible": true}, /* rot*/
+    {"color": "#0F7399", "visible": true}, /* blau*/
+  {"color": "#000000", "visible": true} /* schwarz */
   ],
   "legend": {
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 40,
-	"y": 35,    
+    //itemWidth: 300,
+    //"x": 40,
+    "y": 55,    
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
    tooltip: {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.1f}</b><br/>',
     "shared": false
   },
   "chart": {      

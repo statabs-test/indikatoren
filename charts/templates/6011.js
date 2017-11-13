@@ -6,14 +6,54 @@
             pointPadding: 0,
             groupPadding: 0.5, // exaclty overlaps columns,
             borderWidth: 0
-        }
+        },
   },
+   /*function(chart) { // on complete
+    chart.renderer.text('Zuzug', 0, 0)
+        .css({
+            color: '#B00000',
+            fontSize: '16px'
+        })
+        .add();
+  }, 
+   addLegendLabel: function(chart, text, x, y, cssClass, useHtml){
+    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
+    					zIndex: 6,
+    					class: cssClass + ' pieLegend'
+    				}).add();
+                },
+ this.chart.options.customFunctions.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 300, 270);*/
+ function (chart) { // on complete
+        //var point = chart.series[0].points[8];
+        chart.renderer.label('Zuzugsort', 1000, 1000)
+            .css({
+                color: '#black'
+            })
+            .attr({
+            })
+            .add();
+    },
   "yAxis": {
-  	"min": -20000,
-  	"tickInterval": 10000,
+  	"min": -16000,
+  	"max": 16000,
+  	"tickInterval": 4000,
     "labels": {
       "format": "{value:,.0f}",
-    }
+    },
+    //gridZIndex: 3,
+     /*plotLines: [{
+                    value: 0,
+                    color: '#6F6F6F',
+                    width: 2,
+                    zIndex: 4
+                }],*/
+     plotLines: [{
+                    value: 0,
+                    color: 'white',
+                    width: 2,
+                    zIndex: 4
+                }],
+
   },
   "xAxis": {
    "tickInterval": 1
@@ -25,65 +65,64 @@
     "align": "left",
     //"width": 50,
 	"y": 40,
-	"x": 40,
-	"itemMarginBottom": 5,
-	 itemWidth: 200,
+    "itemMarginBottom": 5,
+    itemWidth: 200,
     "itemStyle": {
     "fontWeight": "normal"
     }
   },
   "series": [
     {
-      "color": "#246370", // dunkelblau -Zuzug_Unbekannt
+      "color": "#83038", // dunkelblau -Zuzug_Unbekannt
       //"index": 0,
       "type": "column",
       "pointWidth": "15",
       legendIndex: 0
     },
     {
-      "color": "#007A2F", //dunkelgrün -Zuzug_Schweiz. Agglomeration Basel
+      "color": "#246370", //dunkelgrün -Zuzug_Schweiz. Agglomeration Basel
       //"index": 0,
       "type": "column",
       "pointWidth": "15",
       legendIndex: 1
     },
     {
-      "color": "#A8C3CA", //hellblau - Zuzug_Übrige Schweiz
+      "color": "#689199", //hellblau - Zuzug_Übrige Schweiz
       //"index": 0,
       "type": "column",
       "pointWidth": "15",
       legendIndex: 2
     },
     {
-      "color": "#8AB77D", //hellgrün - Zuzug_Ausland
+      "color": "#A8C3CA", //hellgrün - Zuzug_Ausland
       //"index": 0,
       "type": "column",
       "pointWidth": "15",
       legendIndex: 4
     },
         {
-      "color": "#246370", // dunkelblau -Wegzug_Unbekannt
+      "color": "#007A2F", // dunkelblau -Wegzug_Unbekannt
       //"index": 0,
       "type": "column",
       "pointWidth": "15",
       legendIndex: 0
     },
     {
-      "color": "#007A2F", //dunkelgrün -Wegzug_Schweiz. Agglomeration Basel
+      "color": "#68AB2B", //dunkelgrün -Wegzug_Schweiz. Agglomeration Basel
       //"index": 0,
       "type": "column",
       "pointWidth": "15",
       legendIndex: 1
     },
     {
-      "color": "#A8C3CA", //hellblau - Wegzug_Übrige Schweiz
+      "color": "#73B97C", //hellblau - Wegzug_Übrige Schweiz
       //"index": 0,
       "type": "column",
       "pointWidth": "15",
       legendIndex: 2
     },
     {
-      "color": "#8AB77D", //hellgrün - Wegzug_Ausland
+      "color": "#D7E8D2", //hellgrün - Wegzug_Ausland
       //"index": 0,
       "type": "column",
       "pointWidth": "15",
@@ -98,10 +137,17 @@
       }, 
       legendIndex: 4,
     },
+      /*{
+      "color": "000000", //hellgrün - Wegzug_Ausland
+      //"index": 0,
+      "type": "column",
+      "pointWidth": "15",
+      legendIndex: 4
+    },*/
   ],  
   "tooltip": {
     "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
-    "shared": true
+    "shared": false
   },
   "chart": {
 /*    
@@ -112,3 +158,4 @@
   }
 };
 }());
+

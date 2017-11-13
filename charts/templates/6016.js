@@ -4,7 +4,7 @@
   "xAxis": {
     "type": "category",
     "labels": {
-      "rotation": -90 
+      //"rotation": -90 
     } 
   },
    plotOptions: {
@@ -15,7 +15,7 @@
    },
   "yAxis": {
     "labels": {
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f}%"
     }    
   },
   "series": [
@@ -27,14 +27,13 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 40,
-	"y": 35,    
+   	"y": 35,    
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
    tooltip: {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>',
     "shared": false
   },
   "chart": {      

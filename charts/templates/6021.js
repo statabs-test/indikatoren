@@ -9,75 +9,66 @@
         }
   },
   "yAxis": {
-  	//"tickInterval": 10000,
+    max: 100,
+    tickInterval: 25,
     "labels": {
-      "format": "{value:,.0f}",
+      "format": "{value:,.0f}%",
     }
   },
   "xAxis": {
-   //"tickInterval": 1
+    "type": "category",
+    "labels": {
+      "rotation": -90 
+    } 
   },
-  "legend": {
+ "legend": {
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    //"width": 50,
-	"y": 40,
-	"x": 40,
-	"itemMarginBottom": 5,
-	 itemWidth: 110,
+   	"y": 55,
+	 "itemMarginBottom": 5,
+	  itemWidth: 110,
     "itemStyle": {
     "fontWeight": "normal"
     }
   },
   "series": [
-    {
-      "color": "#246370", // dunkelblau - Zuzug aus der Schweiz
-      //"index": 0,
+      {
+      "color": "#71A3B5", //blau
       "type": "column",
       "pointWidth": "15",
-      //legendIndex: 0
-    },
-    {
-      "color": "#007A2F", //dunkelgrün - Wegzug in die Schweiz
-      //"index": 0,
-      "type": "column",
-      "pointWidth": "15",
-      //legendIndex: 1
     },
       {
-      "color": "#007A2F", //dunkelgrün - Wegzug in die Schweiz
-      //"index": 0,
+      "color": "#B00000", // rot
       "type": "column",
       "pointWidth": "15",
-      //legendIndex: 1
     },
       {
-      "color": "#007A2F", //dunkelgrün - Wegzug in die Schweiz
-      //"index": 0,
+      "color": "#FF8028", //orange
       "type": "column",
       "pointWidth": "15",
-      //legendIndex: 1
+    },
+     {
+      "color": "#CD9C00", // braun
+      "type": "column",
+      "pointWidth": "15",
     },
       {
-      "color": "#007A2F", //dunkelgrün - Wegzug in die Schweiz
-      //"index": 0,
+      "color": "#923F8D", // violett
       "type": "column",
       "pointWidth": "15",
-      //legendIndex: 1
-    },
+    },        
       {
-      "color": "#007A2F", //dunkelgrün - Wegzug in die Schweiz
-      //"index": 0,
+      "color": "#999999", //grau 
       "type": "column",
       "pointWidth": "15",
-      //legendIndex: 1
-    }
+    },
+
   ],  
   "tooltip": {
-    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
-    "shared": true
+    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>',
+    "shared": false
   },
   "chart": {
 /*    

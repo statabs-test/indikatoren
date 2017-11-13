@@ -9,10 +9,9 @@
         }
   },
   "yAxis": {
-  	//"min": -1500,
-  	//"tickInterval": 10000,
+  	max: 100,
     "labels": {
-      "format": "{value:,.0f}",
+      "format": "{value:,.0f}%",
     }
   },
   "xAxis": {
@@ -25,7 +24,6 @@
     "align": "left",
     //"width": 50,
 	"y": 40,
-	"x": 40,
 	"itemMarginBottom": 5,
 	 itemWidth: 110,
     "itemStyle": {
@@ -34,14 +32,14 @@
   },
   "series": [
     {
-      "color": "#246370", // dunkelblau -Männer
+      "color": "#E6E600", // dunkelblau -Männer
       //"index": 0,
       "type": "column",
       "pointWidth": "15",
       //legendIndex: 0
     },
     {
-      "color": "#007A2F", //dunkelgrün - Frauen
+      "color": "#73B97C", //dunkelgrün - Frauen
       //"index": 0,
       "type": "column",
       "pointWidth": "15",
@@ -49,8 +47,8 @@
     }
   ],  
   "tooltip": {
-    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
-    "shared": true
+    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>',
+    "shared": false
   },
   "chart": {
 /*    

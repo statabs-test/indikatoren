@@ -25,7 +25,7 @@
     "align": "left",
     //"width": 50,
 	"y": 40,
-	"x": 40,
+	//"x": 40,
 	"itemMarginBottom": 5,
 	 itemWidth: 110,
     "itemStyle": {
@@ -34,33 +34,36 @@
   },
   "series": [
     {
-      "color": "#246370", // dunkelblau - Zuzug aus der Schweiz
+      "color": "#71A3B5", // dunkelblau - Zuzug aus der Schweiz
       //"index": 0,
       "type": "column",
       "pointWidth": "15",
       //legendIndex: 0
+    "tooltip": {
+    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
+    "shared": false
+  },
     },
     {
-      "color": "#007A2F", //dunkelgrün - Wegzug in die Schweiz
+      "color": "#73B97C", //dunkelgrün - Wegzug in die Schweiz
       //"index": 0,
       "type": "column",
       "pointWidth": "15",
       //legendIndex: 1
+    "tooltip": {
+    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
+    "shared": false
+  },
     },
     {
-      "color": "#000000",
-      //"index": 1,
-      "type": "scatter",
-	   /*"marker": {
-    	"enabled": true
-      },*/ 
-      //legendIndex: 4,
-    },
-  ],  
-  "tooltip": {
+    "color": "#000000",
+    "type": "scatter",
+   "tooltip": {
     "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
-    "shared": true
+    "shared": false
   },
+    },
+  ],
   "chart": {
 /*    
     "marginBottom": 65,

@@ -1,6 +1,6 @@
-Zuzugsland_id	Anz Zuzüger	Anz Wegzüger	Saldo
-Deutschland	630.3030303	-408.4848485	221.8181818
-Italien	180.3030303	-69.09090909	111.2121212
-Frankreich	157.5757576	-137.5757576	20
-USA	156.6666667	-145.4545455	11.21212121
-UK	125.7575758	-77.57575758	48.18181818
+Zuzugs-/Wegzugsland	 Zugezogene	 Weggezogene	 Saldo
+Deutschland	2080	-1348	732
+Italien	595	-228	367
+Frankreich	520	-454	66
+USA	517	-480	37
+UK	415	-256	159

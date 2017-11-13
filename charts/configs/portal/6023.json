@@ -1,86 +1,98 @@
 {
   "series": [
     {
-      "color": "#246370",
+      "color": "#71A3B5",
       "type": "column",
       "pointWidth": "15",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+        "shared": false
+      },
       "data": [
         [
           "Deutschland",
-          630.3030303
+          2080
         ],
         [
           "Italien",
-          180.3030303
+          595
         ],
         [
           "Frankreich",
-          157.5757576
+          520
         ],
         [
           "USA",
-          156.6666667
+          517
         ],
         [
           "UK",
-          125.7575758
+          415
         ]
       ],
-      "name": "Anz Zuzüger",
+      "name": "Zugezogene",
       "turboThreshold": 0
     },
     {
-      "color": "#007A2F",
+      "color": "#73B97C",
       "type": "column",
       "pointWidth": "15",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+        "shared": false
+      },
       "data": [
         [
           "Deutschland",
-          -408.4848485
+          -1348
         ],
         [
           "Italien",
-          -69.09090909
+          -228
         ],
         [
           "Frankreich",
-          -137.5757576
+          -454
         ],
         [
           "USA",
-          -145.4545455
+          -480
         ],
         [
           "UK",
-          -77.57575758
+          -256
         ]
       ],
-      "name": "Anz Wegzüger",
+      "name": "Weggezogene",
       "turboThreshold": 0
     },
     {
       "color": "#000000",
       "type": "scatter",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+        "shared": false
+      },
       "data": [
         [
           "Deutschland",
-          221.8181818
+          732
         ],
         [
           "Italien",
-          111.2121212
+          367
         ],
         [
           "Frankreich",
-          20
+          66
         ],
         [
           "USA",
-          11.21212121
+          37
         ],
         [
           "UK",
-          48.18181818
+          159
         ]
       ],
       "name": "Saldo",
@@ -89,31 +101,59 @@
   ],
   "xAxis": {
     "type": "category",
-    "uniqueNames": false,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
     "labels": {
       "style": {
         "color": "#000000"
       }
     },
-    "tickLength": 0
+    "tickColor": "#FFFFFF"
   },
   "chart": {
-    "events": {
-      "load": function () {
-              this.credits.element.onclick = function() {}
-          }
-    },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
     "width": 485,
     "height": 415,
-    "spacingBottom": 45,
+    "spacingBottom": 30,
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line",
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
     "renderTo": "container-6023"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "normal",
+      "pointPadding": 0,
+      "groupPadding": 0.5
+    }
   },
   "title": {
     "style": {
@@ -134,12 +174,7 @@
     "text": "",
     "align": "left"
   },
-  "tooltip": {
-    "shared": true,
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-  },
   "yAxis": {
-    "min": -1500,
     "title": {
       "style": {
         "color": "#000000",
@@ -152,10 +187,16 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
+    },
+    "min": -1500
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
     }
   },
   "credits": {
-    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
     "style": {
       "color": "#000000",
@@ -171,25 +212,16 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
   },
   "legend": {
+    "symbolRadius": 0,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "symbolRadius": 0,
     "y": 40,
-    "x": 40,
     "itemMarginBottom": 5,
     "itemWidth": 110,
     "itemStyle": {
       "fontWeight": "normal"
-    }
-  },
-  "plotOptions": {
-    "series": {
-      "stacking": "normal",
-      "pointPadding": 0,
-      "groupPadding": 0.5,
-      "borderWidth": 0
     }
   },
   "exporting": {

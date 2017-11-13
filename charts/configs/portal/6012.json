@@ -1,72 +1,72 @@
 {
   "series": [
     {
-      "color": "#FABD24",
+      "color": "#990300",
       "visible": true,
       "data": [
         [
           "Schweiz",
-          18.78787879
+          62
         ],
         [
           "Ausland",
-          -33.03030303
+          -109
         ],
         [
           "Unbekannt",
-          -97.57575758
+          -322
         ],
         [
           "Total",
-          -111.8181818
+          -369
         ]
       ],
       "name": "Schweizer",
       "turboThreshold": 0
     },
     {
-      "color": "#FABD24",
+      "color": "#0F7399",
       "visible": true,
       "data": [
         [
           "Schweiz",
-          -319.0909091
+          -1053
         ],
         [
           "Ausland",
-          1029.090909
+          3396
         ],
         [
           "Unbekannt",
-          -324.8484848
+          -1072
         ],
         [
           "Total",
-          385.1515152
+          1271
         ]
       ],
       "name": "Ausländer",
       "turboThreshold": 0
     },
     {
-      "color": "#B00000",
+      "color": "#000000",
       "visible": true,
       "data": [
         [
           "Schweiz",
-          -300.3030303
+          -991
         ],
         [
           "Ausland",
-          996.0606061
+          3287
         ],
         [
           "Unbekannt",
-          -422.4242424
+          -1394
         ],
         [
           "Total",
-          273.3333333
+          902
         ]
       ],
       "name": "Total",
@@ -75,33 +75,59 @@
   ],
   "xAxis": {
     "type": "category",
-    "uniqueNames": false,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
     "labels": {
       "style": {
         "color": "#000000"
-      },
-      "rotation": -90
+      }
     },
-    "tickLength": 0
+    "tickColor": "#FFFFFF"
   },
   "chart": {
-    "events": {
-      "load": function () {
-              this.credits.element.onclick = function() {}
-          }
-    },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
     "width": 485,
     "height": 415,
     "spacingBottom": 40,
     "style": {
       "fontFamily": "Arial"
     },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
     "type": "column",
     "inverted": false,
     "renderTo": "container-6012"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 0
+    }
   },
   "title": {
     "style": {
@@ -122,12 +148,7 @@
     "text": "Stand: 2016",
     "align": "left"
   },
-  "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-  },
   "yAxis": {
-    "min": -3000,
     "title": {
       "style": {
         "color": "#000000",
@@ -141,10 +162,17 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickInterval": 1000
+    "max": 3500,
+    "tickInterval": 500,
+    "min": -1500
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
   },
   "credits": {
-    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
     "style": {
       "color": "#000000",
@@ -160,22 +188,19 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
   },
   "legend": {
+    "symbolRadius": 0,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "symbolRadius": 0,
-    "x": 40,
-    "y": 35,
+    "y": 55,
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
-  "plotOptions": {
-    "series": {
-      "pointPadding": 0,
-      "borderWidth": 0
-    }
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "exporting": {
     "filename": "I.01.5.06012"

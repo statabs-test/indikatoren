@@ -5,27 +5,27 @@
       "data": [
         [
           "Deutschland",
-          27903.0303
+          2080
         ],
         [
           "Italien",
-          2907.575758
+          595
         ],
         [
           "Frankreich",
-          2884.848485
+          520
         ],
         [
           "USA",
-          2883.939394
+          517
         ],
         [
           "UK",
-          2853.030303
+          415
         ],
         [
           "Übriges Ausland",
-          1261.818182
+          4164
         ]
       ],
       "turboThreshold": 0
@@ -43,7 +43,7 @@
   "chart": {
     "events": {
       "load": function () {
-                  this.credits.element.onclick = function() {}
+                  this.credits.element.onclick = function() {};
               }
     },
     "borderColor": "#fbfbfb",
@@ -60,6 +60,7 @@
   },
   "plotOptions": {
     "pie": {
+      "borderWidth": 0,
       "allowPointSelect": true,
       "cursor": true,
       "showInLegend": true,
@@ -106,7 +107,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.2f} km² ({point.percentage:.1f}%)\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} km² ({point.percentage:,.1f}%)\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
