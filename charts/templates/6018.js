@@ -21,6 +21,14 @@
                 negateNumbersInColumn(1);
             }     
         },
+        yAxis:[{
+             plotLines: [{
+                    value: 0,
+                    color: 'white',
+                    width: 1,
+                    zIndex: 4
+                }],
+        }],
         xAxis: [{
                 reversed: false,
                 type: 'category',
@@ -70,6 +78,15 @@
             pointWidth: 16
         }
    },
-
+"legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+   	"y": 55,    
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
 	};
 }());

@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#b00000",
+      "color": "#71A3B5",
       "type": "column",
       "pointWidth": "15",
       "data": [
@@ -98,7 +98,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#ff8028",
+      "color": "#B00000",
       "type": "column",
       "pointWidth": "15",
       "data": [
@@ -195,7 +195,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#ffbb58",
+      "color": "#FF8028",
       "type": "column",
       "pointWidth": "15",
       "data": [
@@ -292,7 +292,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#71a3b5",
+      "color": "#CD9C00",
       "type": "column",
       "pointWidth": "15",
       "data": [
@@ -389,7 +389,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#73ba7c",
+      "color": "#923F8D",
       "type": "column",
       "pointWidth": "15",
       "data": [
@@ -486,7 +486,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#007a2f",
+      "color": "#999999",
       "type": "column",
       "pointWidth": "15",
       "data": [
@@ -594,7 +594,8 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "rotation": -90
     },
     "tickColor": "#FFFFFF"
   },
@@ -711,7 +712,7 @@
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": true
+    "shared": false
   },
   "exporting": {
     "filename": "I.01.5.06021"
