@@ -21,13 +21,21 @@
                 negateNumbersInColumn(1);
             }     
         },
-        yAxis:[{
-             plotLines: [{
-                    value: 0,
-                    color: 'white',
-                    width: 1,
-                    zIndex: 4
-                }],
+            yAxis:[{
+                title: {
+                    text: null
+                },
+                "labels": {
+                    "style": {
+                        "color": "#000000"
+                    }
+                },
+                 plotLines: [{
+                        value: 0,
+                        color: 'white',
+                        width: 1,
+                        zIndex: 4
+                    }],
         }],
         xAxis: [{
                 reversed: false,
