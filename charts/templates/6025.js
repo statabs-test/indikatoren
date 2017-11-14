@@ -124,7 +124,7 @@
 	                var maxValueInLegend = 0.1; 
 	                
                 	//Add manually drawn legend	
-	                fn.addLegendTitle(chart,"Anteil Zugezogene nach Zuzugsland", 265, 240);
+	                fn.addLegendTitle(chart,"Anteil Zugezogene nach Zuzugsland", 260, 240);
 	                
 	                //fn.addLegendCircle(chart, 410, 275, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
 	                //fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),3,","," "), 430, 265);
@@ -135,7 +135,7 @@
 					fn.addLegendLabel(chart, 'Schweiz', 290, 260);
 					fn.addLegendSquare(chart, 270, 285, 10, 'blue');
 					fn.addLegendLabel(chart, 'Ausland', 290, 280);
-					fn.addLegendLabelbold(chart, 'Anzahl zugezogene pro 100 Einwohner', 265, 305);
+					fn.addLegendLabelbold(chart, 'Anzahl zugezogene pro 100 Einwohner', 260, 305);
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
