@@ -84,7 +84,7 @@
         ],
         [
           "5-9",
-          -2128
+          2128
         ],
         [
           "10-14",
@@ -144,7 +144,7 @@
         ],
         [
           "\u003E79",
-          -546
+          546
         ]
       ],
       "name": "Weggezogene",
@@ -314,7 +314,7 @@
         {
           "value": 0,
           "color": "white",
-          "width": 2,
+          "width": 1,
           "zIndex": 4
         }
       ]
@@ -348,8 +348,6 @@
     "verticalAlign": "top",
     "align": "left",
     "y": 55,
-    "itemMarginBottom": 5,
-    "itemWidth": 110,
     "itemStyle": {
       "fontWeight": "normal"
     }

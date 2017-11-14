@@ -3333,87 +3333,87 @@
       "data": [
         [
           "Altstadt GB",
-          1
+          0.1
         ],
         [
           "Vorstädte",
-          1
+          0.1
         ],
         [
           "Am Ring",
-          1
+          0.1
         ],
         [
           "Breite",
-          1
+          0.1
         ],
         [
           "St. Alban",
-          1
+          0.1
         ],
         [
           "Gundeldingen",
-          1
+          0.1
         ],
         [
           "Bruderholz",
-          1
+          0.1
         ],
         [
           "Bachletten",
-          1
+          0.1
         ],
         [
           "Gotthelf",
-          1
+          0.1
         ],
         [
           "Iselin",
-          1
+          0.1
         ],
         [
           "St. Johann",
-          1
+          0.1
         ],
         [
           "Altstadt KB",
-          1
+          0.1
         ],
         [
           "Clara",
-          1
+          0.1
         ],
         [
           "Wettstein",
-          1
+          0.1
         ],
         [
           "Hirzbrunnen",
-          1
+          0.1
         ],
         [
           "Rosental",
-          1
+          0.1
         ],
         [
           "Matthäus",
-          1
+          0.1
         ],
         [
           "Klybeck",
-          1
+          0.1
         ],
         [
           "Kleinhüningen",
-          1
+          0.1
         ],
         [
           "Riehen",
-          1
+          0.1
         ],
         [
           "Bettingen",
-          1
+          0.1
         ]
       ],
       "name": "Anzahl"
@@ -3921,7 +3921,7 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-					return Highcharts.numberFormat((this.value),1); 
+					return Highcharts.numberFormat((this.value),0); 
 				}
     },
     "marker": {

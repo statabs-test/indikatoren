@@ -17,7 +17,7 @@
 			"maxColor": "#4b7b1f",
 			"labels": {
 				"formatter": function () {
-					return Highcharts.numberFormat((this.value),1); 
+					return Highcharts.numberFormat((this.value),0); 
 				}
 			}
 		},
@@ -124,17 +124,18 @@
 	                var maxValueInLegend = 0.1; 
 	                
                 	//Add manually drawn legend	
-	                fn.addLegendTitle(chart,"Anteil Zugezogene nach Zuzugsland", 285, 240);
+	                fn.addLegendTitle(chart,"Anteil Zugezogene nach Zuzugsland", 265, 240);
 	                
 	                //fn.addLegendCircle(chart, 410, 275, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
 	                //fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),3,","," "), 430, 265);
 	                //fn.addLegendCircle(chart, 410, 300, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
 	                //fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),2,"."," "), 430, 290);
 
-					fn.addLegendSquare(chart, 290, 270, 10, 'red');
-					fn.addLegendLabel(chart, 'Schweiz', 310, 265);
-					fn.addLegendSquare(chart, 290, 295, 10, 'blue');
-					fn.addLegendLabel(chart, 'Ausland', 310, 290);
+					fn.addLegendSquare(chart, 270, 265, 10, 'red');
+					fn.addLegendLabel(chart, 'Schweiz', 290, 260);
+					fn.addLegendSquare(chart, 270, 285, 10, 'blue');
+					fn.addLegendLabel(chart, 'Ausland', 290, 280);
+					fn.addLegendLabelbold(chart, 'Anzahl zugezogene pro 100 Einwohner', 265, 305);
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
