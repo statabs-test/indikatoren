@@ -87,7 +87,23 @@
                 formatter: function () {
                     return Math.abs(this.value);
                 }
-            }
+            },
+         /*xAxis:[{
+                        title: {
+                            text: null
+                        },
+                        "labels": {
+                            "style": {
+                                "color": "#000000"
+                            }
+                        },
+                         plotLines: [{
+                                value: 0,
+                                color: 'white',
+                                width: 1,
+                                zIndex: 4
+                            }],
+                }],*/
         },   
     	navigation: {
     		menuItemStyle: {

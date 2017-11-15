@@ -33,17 +33,17 @@
   "series": [
     {
       "color": "#E6E600", // dunkelblau -Männer
-      //"index": 0,
+     "index": 1,
       "type": "column",
       "pointWidth": "15",
-      //legendIndex: 0
+      legendIndex: 0
     },
     {
       "color": "#73B97C", //dunkelgrün - Frauen
-      //"index": 0,
+      "index": 0,
       "type": "column",
       "pointWidth": "15",
-      //legendIndex: 1
+      legendIndex: 1
     }
   ],  
   "tooltip": {

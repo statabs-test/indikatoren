@@ -48,7 +48,6 @@
   ],
   "legend": {
     "enabled": true,
-    "x": 30,
     "y": 25,
     "itemWidth": 200,
     "layout": "horizontal",
