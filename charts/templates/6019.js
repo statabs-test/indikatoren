@@ -29,6 +29,9 @@
                     text: null
                 },
                 "labels": {
+                      formatter: function () {
+                        return Math.abs(this.value);
+                        },
                     "style": {
                         "color": "#000000"
                     }
@@ -83,21 +86,22 @@
             }
 	    ],
 	    plotOptions: {
-        series: {
-            pointPadding: 0,
-            borderWidth: 0,
-            pointWidth: 16
-        }
+            series: {
+                stacking: null,
+                pointPadding: 0,
+                borderWidth: 0,
+                pointWidth: 16
+            }
    },
-"legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-   	"y": 55,    
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
-  },
+        "legend": {
+            "enabled": true,
+            "layout": "horizontal",
+            "verticalAlign": "top",
+            "align": "left",
+           	"y": 55,    
+            "itemStyle": {
+              "fontWeight": "normal"
+            }
+          },
 	};
 }());

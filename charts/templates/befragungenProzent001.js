@@ -52,7 +52,7 @@
                     "fontSize": "10px"
                 }
             },
-            "stacking": "percent"
+            //"stacking": "percent"
         }
     },
     "yAxis": {

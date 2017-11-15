@@ -29,6 +29,9 @@
                     text: null
                 },
                 "labels": {
+                      formatter: function () {
+                        return Math.abs(this.value);
+                        },
                     "style": {
                         "color": "#000000"
                     }
@@ -84,6 +87,7 @@
 	    ],
  plotOptions: {
         series: {
+            stacking: null,
             pointPadding: 0,
             borderWidth: 0,
             pointWidth: 16
