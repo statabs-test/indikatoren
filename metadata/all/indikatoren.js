@@ -6216,7 +6216,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Quote"
 		],
-		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -6227,6 +6227,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_001",
 		"parentId": null,
 		"children": [
 			"5109"
@@ -6235,7 +6236,7 @@ var indikatoren = [
 			"5109"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Sozialhilfestatistik"
+			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
 		],
 		"externalLinks": [
 			""
@@ -6258,7 +6259,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Ausländer"
 		],
-		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -6269,6 +6270,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_003",
 		"parentId": null,
 		"children": [
 			"5110"
@@ -6277,7 +6279,7 @@ var indikatoren = [
 			"5110"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -6300,7 +6302,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Religion"
 		],
-		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -6311,6 +6313,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_005",
 		"parentId": null,
 		"children": [
 			"5111"
@@ -6319,7 +6322,7 @@ var indikatoren = [
 			"5111"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -6342,7 +6345,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Haushalt"
 		],
-		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -6353,6 +6356,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_007",
 		"parentId": null,
 		"children": [
 			"5112"
@@ -6361,7 +6365,7 @@ var indikatoren = [
 			"5112"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -6385,7 +6389,7 @@ var indikatoren = [
 			"Quote",
 			"Bildung"
 		],
-		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -6396,6 +6400,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_009",
 		"parentId": null,
 		"children": [
 			"5113"
@@ -6428,7 +6433,7 @@ var indikatoren = [
 			"Alter",
 			"Alter"
 		],
-		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -6439,6 +6444,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_011",
 		"parentId": null,
 		"children": [
 			"5114"
@@ -6447,7 +6453,7 @@ var indikatoren = [
 			"5114"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -6470,7 +6476,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Wohndauer"
 		],
-		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -6481,6 +6487,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_013",
 		"parentId": null,
 		"children": [
 			"5115"
@@ -6489,7 +6496,7 @@ var indikatoren = [
 			"5115"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -6513,7 +6520,7 @@ var indikatoren = [
 			"Alter",
 			"Jugend"
 		],
-		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -6524,6 +6531,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_015",
 		"parentId": null,
 		"children": [
 			"5116"
@@ -6532,7 +6540,7 @@ var indikatoren = [
 			"5116"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -6556,7 +6564,7 @@ var indikatoren = [
 			"Gebäude",
 			"Alter"
 		],
-		"stufe1": "2 Raum und Umwelt",
+		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -6567,7 +6575,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "2 Raum und Umwelt_000",
+		"orderKey": "02_00_00_00_00_001",
 		"parentId": null,
 		"children": [
 			"5117"
@@ -6576,7 +6584,7 @@ var indikatoren = [
 			"5117"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -6599,7 +6607,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Gebäude"
 		],
-		"stufe1": "2 Raum und Umwelt",
+		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -6610,6 +6618,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_003",
 		"parentId": null,
 		"children": [
 			"5118"
@@ -6618,7 +6627,7 @@ var indikatoren = [
 			"5118"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -6641,7 +6650,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Grünflächen"
 		],
-		"stufe1": "2 Raum und Umwelt",
+		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -6652,6 +6661,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_005",
 		"parentId": null,
 		"children": [
 			"5119"
@@ -6660,7 +6670,7 @@ var indikatoren = [
 			"5119"
 		],
 		"quellenangabe": [
-			"Grundbuch- und Vermessungsamt  Basel-Stadt"
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
 		],
 		"externalLinks": [
 			""
@@ -6683,7 +6693,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Gebäude"
 		],
-		"stufe1": "2 Raum und Umwelt",
+		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -6694,6 +6704,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_007",
 		"parentId": null,
 		"children": [
 			"5120"
@@ -6702,7 +6713,7 @@ var indikatoren = [
 			"5120"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -6725,7 +6736,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Gebäude"
 		],
-		"stufe1": "2 Raum und Umwelt",
+		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -6736,6 +6747,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_009",
 		"parentId": null,
 		"children": [
 			"5121"
@@ -6744,8 +6756,8 @@ var indikatoren = [
 			"5121"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik",
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -6768,7 +6780,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Bevölkerung"
 		],
-		"stufe1": "3 Wirtschaft und Arbeit",
+		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -6779,6 +6791,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_001",
 		"parentId": null,
 		"children": [
 			"5122"
@@ -6787,7 +6800,7 @@ var indikatoren = [
 			"5122"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"
+			"Statistisches Amt Basel-Stadt, Steuerstatistik"
 		],
 		"externalLinks": [
 			""
@@ -6810,7 +6823,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Bevölkerung"
 		],
-		"stufe1": "3 Wirtschaft und Arbeit",
+		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -6821,6 +6834,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_003",
 		"parentId": null,
 		"children": [
 			"5123"
@@ -6829,7 +6843,7 @@ var indikatoren = [
 			"5123"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"
+			"Statistisches Amt Basel-Stadt, Steuerstatistik"
 		],
 		"externalLinks": [
 			""
@@ -6852,7 +6866,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Erwerb"
 		],
-		"stufe1": "3 Wirtschaft und Arbeit",
+		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -6863,6 +6877,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_005",
 		"parentId": null,
 		"children": [
 			"5124"
@@ -6871,7 +6886,7 @@ var indikatoren = [
 			"5124"
 		],
 		"quellenangabe": [
-			"Bundesamt für Statistik BFS, Strukturerhebung (SE)"
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
 		"externalLinks": [
 			""
@@ -6894,18 +6909,18 @@ var indikatoren = [
 		"schlagwort": [
 			"Erwerb"
 		],
-		"stufe1": "3 Wirtschaft und Arbeit",
+		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte, die in Basel-Stadt arbeiten, in Vollzeitäquivalenten) an der gesamten Wohnbevölkerung des Wohnviertels.",
+		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte, die in Basel-Stadt arbeiten, in Vollzeitäquivalenten) an der gesamten Wohnbevölkerung des Wohnviertels.<br> Im Wohnvietel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "3 Wirtschaft und Arbeit_000",
+		"orderKey": "03_00_00_00_00_007",
 		"parentId": null,
 		"children": [
 			"5125"
@@ -6914,7 +6929,7 @@ var indikatoren = [
 			"5125"
 		],
 		"quellenangabe": [
-			"Bundesamt für Statistik BFS, STATENT"
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
 		"externalLinks": [
 			""
@@ -6938,7 +6953,7 @@ var indikatoren = [
 			"Arbeit",
 			"Erwerb"
 		],
-		"stufe1": "3 Wirtschaft und Arbeit",
+		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -6949,6 +6964,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_009",
 		"parentId": null,
 		"children": [
 			"5126"
@@ -6957,7 +6973,7 @@ var indikatoren = [
 			"5126"
 		],
 		"quellenangabe": [
-			"Bundesamt für Statistik BFS, Strukturerhebung (SE)",
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
 		"externalLinks": [
@@ -8652,7 +8668,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Quote"
 		],
-		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -8663,13 +8679,14 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_002",
 		"parentId": 4822,
 		"children": [],
 		"renderLink": [
 			"4822"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Sozialhilfestatistik"
+			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
 		],
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=soz_sozhilfe.soz_quote' target='_blank'>Basler Atlas</a>."
@@ -8692,7 +8709,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Ausländer"
 		],
-		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -8703,24 +8720,25 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_004",
 		"parentId": 4823,
 		"children": [],
 		"renderLink": [
 			"4823"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevheim.anteil_al' target='_blank'>Basler Atlas</a>."
 		]
 	},
 	{
-		"title": "Anteil Konfessionslose",
-		"subtitle": "Stand: 2015",
-		"kuerzel": "I.01.7.0002",
-		"kuerzelKunde": "GS-3.b",
-		"description": "Anteil Konfessionslose",
+		"title": "Anteil Personen ohne Religionszugehörigkeit",
+		"subtitle": "Stand: 2016",
+		"kuerzel": "I.01.7.5111",
+		"kuerzelKunde": "GS-3.B",
+		"description": "Anteil Personen ohne Religionszugehörigkeit",
 		"id": 5111,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Religionen",
@@ -8728,11 +8746,11 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-05-04T14:56:38.3838",
 		"schlagwort": [
 			"Religion"
 		],
-		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -8743,13 +8761,14 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_006",
 		"parentId": 4824,
 		"children": [],
 		"renderLink": [
 			"4824"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -8772,7 +8791,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Haushalt"
 		],
-		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -8783,13 +8802,14 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_008",
 		"parentId": 4825,
 		"children": [],
 		"renderLink": [
 			"4825"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -8813,7 +8833,7 @@ var indikatoren = [
 			"Quote",
 			"Bildung"
 		],
-		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -8824,6 +8844,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_010",
 		"parentId": 4826,
 		"children": [],
 		"renderLink": [
@@ -8838,9 +8859,9 @@ var indikatoren = [
 	},
 	{
 		"title": "Altersquotient",
-		"subtitle": "Stand: 2015",
-		"kuerzel": "I.01.1.0048",
-		"kuerzelKunde": "GS-6.b",
+		"subtitle": "Stand: 2016",
+		"kuerzel": "I.01.1.5114",
+		"kuerzelKunde": "GS-6.B",
 		"description": "Altersquotient",
 		"id": 5114,
 		"thema": "01 Bevölkerung",
@@ -8854,7 +8875,7 @@ var indikatoren = [
 			"Alter",
 			"Alter"
 		],
-		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -8865,13 +8886,14 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_012",
 		"parentId": 4827,
 		"children": [],
 		"renderLink": [
 			"4827"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -8894,7 +8916,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Wohndauer"
 		],
-		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -8905,13 +8927,14 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_014",
 		"parentId": 4828,
 		"children": [],
 		"renderLink": [
 			"4828"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevsess.anteil_sess10' target='_blank'>Basler Atlas</a>."
@@ -8919,9 +8942,9 @@ var indikatoren = [
 	},
 	{
 		"title": "Jugendquotient",
-		"subtitle": "Stand: 2015",
-		"kuerzel": "I.01.1.0050",
-		"kuerzelKunde": "GS-8.b",
+		"subtitle": "Stand: 2016",
+		"kuerzel": "I.01.1.5116",
+		"kuerzelKunde": "GS-8.B",
 		"description": "Jugendquotient",
 		"id": 5116,
 		"thema": "01 Bevölkerung",
@@ -8930,12 +8953,12 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-03-17T14:09:43.4343",
 		"schlagwort": [
 			"Alter",
 			"Jugend"
 		],
-		"stufe1": "1 Gesellschaft und Soziales",
+		"stufe1": "Bereich 1: Gesellschaft und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -8946,13 +8969,14 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_016",
 		"parentId": 4829,
 		"children": [],
 		"renderLink": [
 			"4829"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -8976,7 +9000,7 @@ var indikatoren = [
 			"Gebäude",
 			"Alter"
 		],
-		"stufe1": "2 Raum und Umwelt",
+		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -8987,14 +9011,14 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "2 Raum und Umwelt_000",
+		"orderKey": "02_00_00_00_00_002",
 		"parentId": 4830,
 		"children": [],
 		"renderLink": [
 			"4830"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -9017,7 +9041,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Gebäude"
 		],
-		"stufe1": "2 Raum und Umwelt",
+		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -9028,13 +9052,14 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_004",
 		"parentId": 4831,
 		"children": [],
 		"renderLink": [
 			"4831"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -9057,7 +9082,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Grünflächen"
 		],
-		"stufe1": "2 Raum und Umwelt",
+		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -9068,13 +9093,14 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_006",
 		"parentId": 4832,
 		"children": [],
 		"renderLink": [
 			"4832"
 		],
 		"quellenangabe": [
-			"Grundbuch- und Vermessungsamt  Basel-Stadt"
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
 		],
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=ru_gruen.gruenflaeche_ant' target='_blank'>Basler Atlas</a>."
@@ -9097,7 +9123,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Gebäude"
 		],
-		"stufe1": "2 Raum und Umwelt",
+		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -9108,13 +9134,14 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_008",
 		"parentId": 4833,
 		"children": [],
 		"renderLink": [
 			"4833"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -9137,7 +9164,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Gebäude"
 		],
-		"stufe1": "2 Raum und Umwelt",
+		"stufe1": "Bereich 2: Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -9148,14 +9175,15 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_010",
 		"parentId": 4834,
 		"children": [],
 		"renderLink": [
 			"4834"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik",
-			"Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -9178,7 +9206,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Bevölkerung"
 		],
-		"stufe1": "3 Wirtschaft und Arbeit",
+		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -9189,13 +9217,14 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_002",
 		"parentId": 4835,
 		"children": [],
 		"renderLink": [
 			"4835"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"
+			"Statistisches Amt Basel-Stadt, Steuerstatistik"
 		],
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_ver.vermoegen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
@@ -9218,7 +9247,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Bevölkerung"
 		],
-		"stufe1": "3 Wirtschaft und Arbeit",
+		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -9229,13 +9258,14 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_004",
 		"parentId": 4836,
 		"children": [],
 		"renderLink": [
 			"4836"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Steuerstatistik"
+			"Statistisches Amt Basel-Stadt, Steuerstatistik"
 		],
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_eink.einkommen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
@@ -9258,7 +9288,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Erwerb"
 		],
-		"stufe1": "3 Wirtschaft und Arbeit",
+		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -9269,13 +9299,14 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_006",
 		"parentId": 4837,
 		"children": [],
 		"renderLink": [
 			"4837"
 		],
 		"quellenangabe": [
-			"Bundesamt für Statistik BFS, Strukturerhebung (SE)"
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
 		"externalLinks": [
 			""
@@ -9298,25 +9329,25 @@ var indikatoren = [
 		"schlagwort": [
 			"Erwerb"
 		],
-		"stufe1": "3 Wirtschaft und Arbeit",
+		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte, die in Basel-Stadt arbeiten, in Vollzeitäquivalenten) an der gesamten Wohnbevölkerung des Wohnviertels.",
+		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte, die in Basel-Stadt arbeiten, in Vollzeitäquivalenten) an der gesamten Wohnbevölkerung des Wohnviertels.<br> Im Wohnvietel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
 		"template": "map001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "3 Wirtschaft und Arbeit_000",
+		"orderKey": "03_00_00_00_00_008",
 		"parentId": 4838,
 		"children": [],
 		"renderLink": [
 			"4838"
 		],
 		"quellenangabe": [
-			"Bundesamt für Statistik BFS, STATENT"
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
 		"externalLinks": [
 			""
@@ -9340,7 +9371,7 @@ var indikatoren = [
 			"Arbeit",
 			"Erwerb"
 		],
-		"stufe1": "3 Wirtschaft und Arbeit",
+		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -9351,13 +9382,14 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_010",
 		"parentId": 4839,
 		"children": [],
 		"renderLink": [
 			"4839"
 		],
 		"quellenangabe": [
-			"Bundesamt für Statistik BFS, Strukturerhebung (SE)",
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
 		"externalLinks": [
