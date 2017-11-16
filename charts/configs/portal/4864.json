@@ -89,7 +89,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Freiwillige Tätigkeit"
+    "text": "Freiwilligenarbeit"
   },
   "subtitle": {
     "style": {
@@ -172,6 +172,6 @@
         }
   },
   "exporting": {
-    "filename": "I.50.1.0025"
+    "filename": "I.50.1.4864"
   }
 }

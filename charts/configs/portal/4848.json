@@ -126,7 +126,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Unterstützung von Freunden oder Nachbarn"
+    "text": "Unterstützung bei Problemen"
   },
   "subtitle": {
     "style": {
@@ -194,6 +194,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.50.2.0002"
+    "filename": "I.50.2.4848"
   }
 }

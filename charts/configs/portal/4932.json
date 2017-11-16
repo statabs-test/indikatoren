@@ -191,7 +191,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Gründe für Gedanken über die Arbeitsstelle"
+    "text": "Arbeitsplatzsorgen"
   },
   "subtitle": {
     "style": {
@@ -276,6 +276,6 @@
     "itemWidth": 200
   },
   "exporting": {
-    "filename": "I.50.1.0028"
+    "filename": "I.50.1.4932"
   }
 }
