@@ -1326,6 +1326,8 @@
         2015,
         2016
       ],
+      "floor": 0,
+      "ceiling": 25,
       "tickLength": 0,
       "title": {
         "enabled": false,
@@ -1395,9 +1397,10 @@
     {
       "includeInCSVExport": true,
       "stacking": null,
+      "showInLegend": false,
       "type": "column",
       "showInNavigator": true,
-      "name": "Kanton Basel-Stadt",
+      "name": "Störfälle und Ereignisse",
       "color": "#FF8028",
       "id": "BS1403_1",
       "valueSuffix": "Anzahl Störfälle und Ereignisse",

@@ -1305,6 +1305,8 @@
         2015,
         2016
       ],
+      "floor": 0,
+      "ceiling": 4,
       "tickLength": 0,
       "title": {
         "enabled": false,
@@ -1376,7 +1378,7 @@
       "stacking": null,
       "type": "column",
       "showInNavigator": true,
-      "name": "BS: Hafen Kleinhünigen und Bahnhof St. Johann",
+      "name": "Hafen Kleinhünigen und Bahnhof St. Johann",
       "color": "#FF8028",
       "id": "BS0403_2",
       "valueSuffix": "Anzahl Pflanzen",

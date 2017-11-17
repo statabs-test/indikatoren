@@ -1335,6 +1335,8 @@
         2013,
         2014
       ],
+      "floor": 0,
+      "ceiling": 34,
       "tickLength": 0,
       "title": {
         "enabled": false,
@@ -1403,9 +1405,10 @@
   "series": [
     {
       "includeInCSVExport": true,
+      "showInLegend": false,
       "type": "line",
       "showInNavigator": true,
-      "name": "Kanton Basel-Stadt",
+      "name": "Bruttoinlandprodukt",
       "color": "#FF8028",
       "id": "BS1701_1",
       "valueSuffix": "Millionen CHF",

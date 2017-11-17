@@ -1305,6 +1305,8 @@
         1980,
         2002
       ],
+      "floor": 0,
+      "ceiling": 4,
       "tickLength": 0,
       "title": {
         "enabled": false,
@@ -1374,9 +1376,10 @@
     {
       "includeInCSVExport": true,
       "stacking": null,
+      "showInLegend": false,
       "type": "column",
       "showInNavigator": true,
-      "name": "Kanton Basel-Stadt",
+      "name": "Landschaftszerschneidung",
       "color": "#FF8028",
       "id": "BS0303_1",
       "valueSuffix": "Quadratkilometer (Effektive Maschenweite)",

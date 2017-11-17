@@ -1309,6 +1309,8 @@
         2015,
         2016
       ],
+      "floor": 0,
+      "ceiling": 3,
       "tickLength": 0,
       "title": {
         "enabled": false,
@@ -1380,7 +1382,7 @@
       "stacking": null,
       "type": "column",
       "showInNavigator": true,
-      "name": "BS: Anzahl Inspektionen",
+      "name": "Anzahl Inspektionen",
       "color": "#FF8028",
       "id": "BS0404_3",
       "valueSuffix": "Anzahl Fälle",
@@ -1396,7 +1398,7 @@
       "stacking": null,
       "type": "column",
       "showInNavigator": true,
-      "name": "BS: Anzahl Beanstandungen",
+      "name": "Anzahl Beanstandungen",
       "color": "#DC440E",
       "id": "BS0404_4",
       "valueSuffix": "Anzahl Fälle",

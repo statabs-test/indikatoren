@@ -1346,6 +1346,8 @@
         2015,
         2016
       ],
+      "floor": 0,
+      "ceiling": 45,
       "tickLength": 0,
       "title": {
         "enabled": false,
@@ -1414,9 +1416,10 @@
   "series": [
     {
       "includeInCSVExport": true,
+      "showInLegend": false,
       "type": "line",
       "showInNavigator": true,
-      "name": "Kanton Basel-Stadt",
+      "name": "Bevölkerung",
       "color": "#FF8028",
       "id": "BS1702_1",
       "valueSuffix": "Anzahl Personen",
