@@ -18,9 +18,17 @@
             events: {
               load: function(){
                 this.credits.element.onclick = function() {};
-                  
+                
+                //create symmetric axis
+            	var createSymmetricAxis = function(axis){
+                    var absMax = Math.max(Math.abs(axis.min), Math.abs(axis.max));
+                    axis.setExtremes(-absMax, absMax);
+            	};
+        	    createSymmetricAxis(this.yAxis[0]);
+                
                 //for top-left legends with no x defined: move legend to x position of first yAxis
                 if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                    console.log('setting legend.left');
                   this.update(
                     {
                       legend: {
@@ -31,17 +39,6 @@
                 }
               }
             }, 
-            events:{
-                load: function() {
-                    this.credits.element.onclick = function() {};
-                    //create symmetric axis
-                	var createSymmetricAxis = function(axis){
-                        var absMax = Math.max(Math.abs(axis.min), Math.abs(axis.max));
-                        axis.setExtremes(-absMax, absMax);
-                	};
-            	    createSymmetricAxis(this.yAxis[0]);
-                }
-            }
         },    
         plotOptions: {
             series: {
