@@ -352,7 +352,7 @@
       "step": 1,
       "rotation": 0
     },
-    "tickColor": "#FFFFFF",
+    "tickLength": 0,
     "tickInterval": 1
   },
   "chart": {
