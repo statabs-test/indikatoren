@@ -20,7 +20,7 @@ var indikatorensetData = [
 			"Bevölkerung",
 			"Ausland"
 		],
-		"stufe1": "Themenbereich1: Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -63,7 +63,7 @@ var indikatorensetData = [
 			"Alter",
 			"Schweiz"
 		],
-		"stufe1": "Themenbereich1: Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -106,7 +106,7 @@ var indikatorensetData = [
 			"Alter",
 			"Schweiz"
 		],
-		"stufe1": "Themenbereich1: Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -147,7 +147,7 @@ var indikatorensetData = [
 			"Bewilligung",
 			"Niederlassung"
 		],
-		"stufe1": "Themenbereich1: Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -190,7 +190,7 @@ var indikatorensetData = [
 			"Niederlassung",
 			"Staatsangehörigkeit"
 		],
-		"stufe1": "Themenbereich1: Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -233,7 +233,7 @@ var indikatorensetData = [
 			"Niederlassung",
 			"Migration"
 		],
-		"stufe1": "Themenbereich1: Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -277,7 +277,7 @@ var indikatorensetData = [
 			"Migration",
 			"Staatsangehörigkeit"
 		],
-		"stufe1": "Themenbereich1: Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -324,7 +324,7 @@ var indikatorensetData = [
 			"Migration",
 			"Staatsangehörigkeit"
 		],
-		"stufe1": "Themenbereich1: Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -370,7 +370,7 @@ var indikatorensetData = [
 			"Staatsangehörigkeit",
 			"Wanderung"
 		],
-		"stufe1": "Themenbereich1: Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -416,7 +416,7 @@ var indikatorensetData = [
 			"Migration",
 			"Deutsch"
 		],
-		"stufe1": "Themenbereich1: Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",

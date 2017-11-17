@@ -1231,7 +1231,7 @@ var indikatoren = [
 			"Bevölkerung",
 			"Ausland"
 		],
-		"stufe1": "Themenbereich1: Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1274,7 +1274,7 @@ var indikatoren = [
 			"Alter",
 			"Schweiz"
 		],
-		"stufe1": "Themenbereich1: Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1317,7 +1317,7 @@ var indikatoren = [
 			"Alter",
 			"Schweiz"
 		],
-		"stufe1": "Themenbereich1: Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1358,7 +1358,7 @@ var indikatoren = [
 			"Bewilligung",
 			"Niederlassung"
 		],
-		"stufe1": "Themenbereich1: Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1401,7 +1401,7 @@ var indikatoren = [
 			"Niederlassung",
 			"Staatsangehörigkeit"
 		],
-		"stufe1": "Themenbereich1: Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1444,7 +1444,7 @@ var indikatoren = [
 			"Niederlassung",
 			"Migration"
 		],
-		"stufe1": "Themenbereich1: Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1488,7 +1488,7 @@ var indikatoren = [
 			"Migration",
 			"Staatsangehörigkeit"
 		],
-		"stufe1": "Themenbereich1: Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1535,7 +1535,7 @@ var indikatoren = [
 			"Migration",
 			"Staatsangehörigkeit"
 		],
-		"stufe1": "Themenbereich1: Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1581,7 +1581,7 @@ var indikatoren = [
 			"Staatsangehörigkeit",
 			"Wanderung"
 		],
-		"stufe1": "Themenbereich1: Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1627,7 +1627,7 @@ var indikatoren = [
 			"Migration",
 			"Deutsch"
 		],
-		"stufe1": "Themenbereich1: Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -6206,8 +6206,8 @@ var indikatoren = [
 			"Amt für Mobilität Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href='http://map.geo.bs.ch/main/wsgi/file_proxy/GO_GueteklassenOeV/Definition_Gueteklassen_oeffentlicher_Verkehr.pdf' target='_blank'>Definition der Güteklassen des öffentlichen Verkehrs</a>",
-			"<a href='http://www.stadtplan.bs.ch/geoviewer/index.php?theme=340&cps=2614062.08,1267876.03,50000&nodefault&layers=stadtplan_grau_osm_50000,gueteklassen' target='_blank'>Karte der Güteklassen des öffentlichen Verkehrs</a>"
+			"<a href = 'http://map.geo.bs.ch/main/wsgi/file_proxy/GO_GueteklassenOeV/Definition_Gueteklassen_oeffentlicher_Verkehr.pdf' target = '_blank'>Definition der Güteklassen des öffentlichen Verkehrs</a>",
+			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?theme=340&cps=2614062.08,1267876.03,50000&nodefault&layers=stadtplan_grau_osm_50000,gueteklassen' target = '_blank'>Karte der Güteklassen des öffentlichen Verkehrs</a>"
 		]
 	},
 	{

@@ -1231,7 +1231,7 @@ var indikatoren = [
 			"Bevölkerung",
 			"Ausland"
 		],
-		"stufe1": "Themenbereich1: Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1274,7 +1274,7 @@ var indikatoren = [
 			"Alter",
 			"Schweiz"
 		],
-		"stufe1": "Themenbereich1: Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1317,7 +1317,7 @@ var indikatoren = [
 			"Alter",
 			"Schweiz"
 		],
-		"stufe1": "Themenbereich1: Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1358,7 +1358,7 @@ var indikatoren = [
 			"Bewilligung",
 			"Niederlassung"
 		],
-		"stufe1": "Themenbereich1: Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1401,7 +1401,7 @@ var indikatoren = [
 			"Niederlassung",
 			"Staatsangehörigkeit"
 		],
-		"stufe1": "Themenbereich1: Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1521,28 +1521,26 @@ var indikatoren = [
 			"Biodiversität",
 			"Klima"
 		],
-		"stufe1": "Energie",
+		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "Der Indikator zeigt die jährliche Produktion von neuen erneuerbaren Energien im Kantonsgebiet. Darunter fallen Sonnenenergie, Umweltwärme, Biomasse, Windenergie sowie erneuerbare Anteile der Energiegewinnung in Kehrichtverbrennungs- und Abwasserreinigungsanlagen.Die hier berücksichtigten Energieträger werden entweder direkt bei den Anlagebetreibern erhoben (Windenergie, Deponie-/Klär-/Biogas etc.) oder geschätzt (z.B. Umweltwärme).  Die Zahlen basieren auf der kantonalen Energiestatistik.Für den Kanton Basel-Stadt sind die Zahlen vor 2010 der Statistik der erneuerbaren Energien des Amtes für Umwelt und Energie entnommen. Aufgrund methodischer Änderungen sind sie nur bedingt mit den Daten ab 2010 vergleichbar.",
+		"erlaeuterungen": "Der Indikator zeigt die jährliche Produktion von neuen erneuerbaren Energien im Kantonsgebiet. Darunter fallen Sonnenenergie, Umweltwärme, Biomasse, Windenergie sowie erneuerbare Anteile der Energiegewinnung in Kehrichtverbrennungs- und Abwasserreinigungsanlagen.<br><br>Die hier berücksichtigten Energieträger werden entweder direkt bei den Anlagebetreibern erhoben (Windenergie, Deponie-/Klär-/Biogas etc.) oder geschätzt (z.B. Umweltwärme).  Die Zahlen basieren auf der kantonalen Energiestatistik.Für den Kanton Basel-Stadt sind die Zahlen vor 2010 der Statistik der erneuerbaren Energien des Amtes für Umwelt und Energie entnommen. Aufgrund methodischer Änderungen sind sie nur bedingt mit den Daten ab 2010 vergleichbar.",
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "06_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt; Statistisches Amt Basel-Stadt"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target='_blank'>Energiestatistik Kanton Basel-Stadt</a></li></ul>"
+			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target='_blank'>Energiestatistik Kanton Basel-Stadt</a></li><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0604' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
 		]
 	},
 	{
@@ -1562,28 +1560,26 @@ var indikatoren = [
 		"schlagwort": [
 			"Energie"
 		],
-		"stufe1": "Energie",
+		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "Menge an Strom, welche innerhalb des Kantonsgebiets produziert wird.Die Daten werden im Rahmen der kantonalen Energiestatistik bei den Energieversorgungsunternehmen sowie bei Betreibern von grossen oder speziellen Anlagen (z.B. Elektrizitätsproduktion mittels Wärmekraftkoppelungsanlagen) erhoben. Die Elektrizitätsproduktion durch Photovoltaik wird basierend auf den Panelflächen abgeschätzt.",
+		"erlaeuterungen": "Menge an Strom, welche innerhalb des Kantonsgebiets produziert wird.<br><br>Die Daten werden im Rahmen der kantonalen Energiestatistik bei den Energieversorgungsunternehmen sowie bei Betreibern von grossen oder speziellen Anlagen (z.B. Elektrizitätsproduktion mittels Wärmekraftkoppelungsanlagen) erhoben. Die Elektrizitätsproduktion durch Photovoltaik wird basierend auf den Panelflächen abgeschätzt.",
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "06_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target='_blank'>Energiestatistik Kanton Basel-Stadt</a></li></ul>"
+			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target='_blank'>Energiestatistik Kanton Basel-Stadt</a></li><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0605' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
 		]
 	},
 	{
@@ -1603,28 +1599,26 @@ var indikatoren = [
 		"schlagwort": [
 			"Energie"
 		],
-		"stufe1": "Energie",
+		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "Anteil der von ausserhalb des Kantons importierten Energie am gesamten Bruttoenergieeinsatz.Summe der von ausserhalb des Kantons importierten Energie dividiert durch den gesamten Energieverbrauch. Die kantonale Energiestatistik dient als Datengrundlage der Berechnung.",
+		"erlaeuterungen": "Anteil der von ausserhalb des Kantons importierten Energie am gesamten Bruttoenergieeinsatz.<br><br>Summe der von ausserhalb des Kantons importierten Energie dividiert durch den gesamten Energieverbrauch. Die kantonale Energiestatistik dient als Datengrundlage der Berechnung.",
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "06_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.statistik-bs.ch/tabellen/t08' target='_blank'>Energiestatistik Kanton Basel-Stadt</a></li></ul>"
+			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.statistik-bs.ch/tabellen/t08' target='_blank'>Energiestatistik Kanton Basel-Stadt</a></li><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0606' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
 		]
 	},
 	{
@@ -1645,7 +1639,7 @@ var indikatoren = [
 			"Energie",
 			"Klima"
 		],
-		"stufe1": "Energie",
+		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1655,13 +1649,11 @@ var indikatoren = [
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "06_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Verein Minergie®"
 		],
@@ -1686,7 +1678,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Energie"
 		],
-		"stufe1": "Energie",
+		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1696,13 +1688,11 @@ var indikatoren = [
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "06_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
@@ -1767,28 +1757,26 @@ var indikatoren = [
 		"schlagwort": [
 			"Energie"
 		],
-		"stufe1": "Energie",
+		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "Entwicklung des Energieverbrauchs im Verhältnis zum Bruttoinlandprodukt (BIP) und zur Bevölkerung. Skalierung des Bruttoenergieverbrauchs über das Bruttoinlandprodukt (BIP) sowie die Wohnbevölkerung (mittlere Wohnbevölkerung). Sämtliche Werte werden mit dem Basisjahr 1995 indexiert. Die Daten zum BIP stammen von BAK Basel, die Angaben zur Bevölkerungsentwicklung werden der kantonalen Bevölkerungsstatistik entnommen.",
+		"erlaeuterungen": "Entwicklung des Energieverbrauchs im Verhältnis zum Bruttoinlandprodukt (BIP) und zur Bevölkerung.<br><br>Skalierung des Bruttoenergieverbrauchs über das Bruttoinlandprodukt (BIP) sowie die Wohnbevölkerung (mittlere Wohnbevölkerung). Sämtliche Werte werden mit dem Basisjahr 1995 indexiert. Die Daten zum BIP stammen von BAK Basel, die Angaben zur Bevölkerungsentwicklung werden der kantonalen Bevölkerungsstatistik entnommen.",
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "06_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='https://www.bfs.admin.ch/bfs/de/home/statistiken/raum-umwelt/ressourcen/umweltindikatorensystem/nutzung-natuerliche-ressourcen/energieeffizienz.html' target='_blank'>Energieeffizienz Schweiz (B"
+			"Weiterführende Informationen zum Indikator:<ul><li><a href='https://www.bfs.admin.ch/bfs/de/home/statistiken/raum-umwelt/ressourcen/umweltindikatorensystem/nutzung-natuerliche-ressourcen/energieeffizienz.html' target='_blank'>Energieeffizienz Schweiz (BFS)</a></li><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0612' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
 		]
 	},
 	{
@@ -1808,28 +1796,26 @@ var indikatoren = [
 		"schlagwort": [
 			"Energie"
 		],
-		"stufe1": "Energie",
+		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "Bruttoenergieverbrauch pro Jahr nach Energieträger. Der Bruttoverbrauch zeigt die Energie in der Form, in welcher sie in den Kanton importiert oder im Kanton aus natürlichen Quellen gewonnen wird (ohne Flugtreibstoffe). Im Gegensatz dazu bildet der Endenergieverbrauch die Energie in der Form ab, wie sie beim Endverbraucher eingesetzt wird. Die Differenz zwischen den beiden Grössen entspricht den Zu- respektive Abgängen in Folge der Umwandlung in Elektrizität und Fernwärme.Der Bruttoenergieverbrauch wird für die leitungsgebundenen Energieträger erhoben und für die nicht leitungsgebundenen Energieträger geschätzt. Für detaillierte Angaben zur Methodik siehe weiterführende Informationen.",
+		"erlaeuterungen": "Bruttoenergieverbrauch pro Jahr nach Energieträger. Der Bruttoverbrauch zeigt die Energie in der Form, in welcher sie in den Kanton importiert oder im Kanton aus natürlichen Quellen gewonnen wird (ohne Flugtreibstoffe). Im Gegensatz dazu bildet der Endenergieverbrauch die Energie in der Form ab, wie sie beim Endverbraucher eingesetzt wird. Die Differenz zwischen den beiden Grössen entspricht den Zu- respektive Abgängen in Folge der Umwandlung in Elektrizität und Fernwärme.<br><br>Der Bruttoenergieverbrauch wird für die leitungsgebundenen Energieträger erhoben und für die nicht leitungsgebundenen Energieträger geschätzt. Für detaillierte Angaben zur Methodik siehe weiterführende Informationen.",
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "06_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target='_blank'>Energiestatistik Kanton Basel-Stadt</a></li></ul>"
+			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target='_blank'>Energiestatistik Kanton Basel-Stadt</a></li><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0602' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
 		]
 	},
 	{
@@ -2205,7 +2191,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Wasser"
 		],
-		"stufe1": "Wasser",
+		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -2215,13 +2201,11 @@ var indikatoren = [
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "16_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)"
 		],
@@ -4013,7 +3997,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Klima"
 		],
-		"stufe1": "Klima",
+		"stufe1": "Thema Klima",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -4023,13 +4007,11 @@ var indikatoren = [
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "08_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle"
 		],
@@ -4492,7 +4474,7 @@ var indikatoren = [
 			"Boden",
 			"Landschaft"
 		],
-		"stufe1": "Landschaft",
+		"stufe1": "Thema Landschaft",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -4502,13 +4484,11 @@ var indikatoren = [
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "09_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Planungsamt Basel-Stadt"
 		],
@@ -4612,7 +4592,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Naturgefahren"
 		],
-		"stufe1": "Naturgefahren",
+		"stufe1": "Thema Naturgefahren",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -4622,13 +4602,11 @@ var indikatoren = [
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "07_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Gebäudeversicherung des Kantons Basel-Stadt"
 		],
@@ -4698,7 +4676,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Lärm"
 		],
-		"stufe1": "Querschnittsindikatoren",
+		"stufe1": "Thema Querschnittsindikatoren",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -4708,15 +4686,13 @@ var indikatoren = [
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "17_00_00_00_00_000",
 		"parentId": null,
 		"children": [
 			"6154"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
@@ -4744,28 +4720,26 @@ var indikatoren = [
 			"Klima",
 			"Landschaft"
 		],
-		"stufe1": "Querschnittsindikatoren",
+		"stufe1": "Thema Querschnittsindikatoren",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "Die durchschnittliche Wohnfläche pro Bewohner erlaubt Aussagen über die Wohnraumverhältnisse, nicht aber über die Verteilung des Wohnraums oder über die Wohnraumqualität.Die Berechnung dieses Indikators basiert auf dem Gebäude- und Wohnungsregister (GWR) sowie dem amtlichen Personenregister. Zur Berechnung der durchschnittlichen Wohnfläche pro Bewohner wird die Gesamtfläche der bewohnten Wohnungen durch die Summe der zugeordneten Bewohner dividiert.<br>Als Wohnungsfläche gelten sämtliche bewohnbaren Flächen einer Wohnung, also die Summe der Flächen sämtlicher Zimmer, Küchen, Kochnischen, Badezimmer, Toilettenräume, Abstellräume, Gänge, Veranden etc. einer Wohnung (ohne Terrassen oder offene Balkone).<br>Für die Berechnung werden sämtliche einer Wohnung zugeordneten Bewohner berücksichtigt, unabhängig von ihrem Meldeverhältnis (Niedergelassene und Aufenthalter). Personen mit mehreren Wohnsitzen werden entsprechend mehrmals gezählt. Für detaillierte Angaben zur Methodik siehe weiterführende Informationen. ",
+		"erlaeuterungen": "Die durchschnittliche Wohnfläche pro Bewohner erlaubt Aussagen über die Wohnraumverhältnisse, nicht aber über die Verteilung des Wohnraums oder über die Wohnraumqualität.<br><br>Die Berechnung dieses Indikators basiert auf dem Gebäude- und Wohnungsregister (GWR) sowie dem amtlichen Personenregister. Zur Berechnung der durchschnittlichen Wohnfläche pro Bewohner wird die Gesamtfläche der bewohnten Wohnungen durch die Summe der zugeordneten Bewohner dividiert.<br>Als Wohnungsfläche gelten sämtliche bewohnbaren Flächen einer Wohnung, also die Summe der Flächen sämtlicher Zimmer, Küchen, Kochnischen, Badezimmer, Toilettenräume, Abstellräume, Gänge, Veranden etc. einer Wohnung (ohne Terrassen oder offene Balkone).<br>Für die Berechnung werden sämtliche einer Wohnung zugeordneten Bewohner berücksichtigt, unabhängig von ihrem Meldeverhältnis (Niedergelassene und Aufenthalter). Personen mit mehreren Wohnsitzen werden entsprechend mehrmals gezählt. Für detaillierte Angaben zur Methodik siehe weiterführende Informationen. ",
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "17_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='https://www.bfs.admin.ch/bfs/de/home/statistiken/bau-wohnungswesen/wohnungen/wohnverhaeltnisse.html' target='_blank'>Wohnverhältnisse Schweiz (BFS)</a></li></ul>"
+			"Weiterführende Informationen zum Indikator:<ul><li><a href='https://www.bfs.admin.ch/bfs/de/home/statistiken/bau-wohnungswesen/wohnungen/wohnverhaeltnisse.html' target='_blank'>Wohnverhältnisse Schweiz (BFS)</a></li><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1703' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
 		]
 	},
 	{
@@ -4785,28 +4759,26 @@ var indikatoren = [
 		"schlagwort": [
 			"Energie"
 		],
-		"stufe1": "Energie",
+		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "Jährlicher Stromverbrauch pro Einwohner.Skalierung des Stromverbrauchs über die mittlere Wohnbevölkerung. Die Daten zum Stromverbrauch werden im Rahmen der kantonalen Energiestatistik bei den Energieversorgungsunternehmen erhoben.",
+		"erlaeuterungen": "Jährlicher Stromverbrauch pro Einwohner.<br><br>Skalierung des Stromverbrauchs über die mittlere Wohnbevölkerung. Die Daten zum Stromverbrauch werden im Rahmen der kantonalen Energiestatistik bei den Energieversorgungsunternehmen erhoben.",
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "06_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target='_blank'>Energiestatistik Kanton Basel-Stadt</a></li></ul>"
+			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target='_blank'>Energiestatistik Kanton Basel-Stadt</a></li><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0607' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
 		]
 	},
 	{
@@ -4826,28 +4798,26 @@ var indikatoren = [
 		"schlagwort": [
 			"Energie"
 		],
-		"stufe1": "Energie",
+		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "Jährlicher Stromverbrauch nach Produktionsart.Die Daten zum Stromverbrauch werden im Rahmen der Energiestatistik bei den Energieversorgungsunternehmen erhoben.",
+		"erlaeuterungen": "Jährlicher Stromverbrauch nach Produktionsart.<br><br>Die Daten zum Stromverbrauch werden im Rahmen der Energiestatistik bei den Energieversorgungsunternehmen erhoben.",
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "06_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target='_blank'>Energiestatistik Kanton Basel-Stadt</a></li></ul>"
+			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target='_blank'>Energiestatistik Kanton Basel-Stadt</a></li><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0613' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
 		]
 	},
 	{
@@ -4914,28 +4884,26 @@ var indikatoren = [
 			"Luft",
 			"Wald"
 		],
-		"stufe1": "Querschnittsindikatoren",
+		"stufe1": "Thema Querschnittsindikatoren",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "",
-		"erlaeuterungen": "Der Motorfahrzeugbestand entspricht der Anzahl an verkehrsberechtigten Motorfahrzeugen, der Motorisierungsgrad der Anzahl Personenwagen pro 1000 Einwohner.Die Daten basieren auf der Auswertung (Stichtag) der durch die Motorfahrzeugkontrolle zugelassenen Fahrzeuge. Der Motorfahrzeugbestand (linke Skala) umfasst die folgenden Fahrzeugkategorien:<br>- Personenwagen<br>- Lieferwagen<br>- Lastwagen<br>- Sattelschlepper<br>- Car, Autobus, Kleinbus<br>- Motorräder<br>- Übrige: Arbeitsmaschinen, Industrietraktoren etc.<br><br>Zur Berechnung des Motorisierungsgrades (rechte Skala) werden hingegen nur Personenwagen berücksichtigt. ",
+		"erlaeuterungen": "Der Motorfahrzeugbestand entspricht der Anzahl an verkehrsberechtigten Motorfahrzeugen, der Motorisierungsgrad der Anzahl Personenwagen pro 1000 Einwohner.<br><br>Die Daten basieren auf der Auswertung (Stichtag) der durch die Motorfahrzeugkontrolle zugelassenen Fahrzeuge. Der Motorfahrzeugbestand (linke Skala) umfasst die folgenden Fahrzeugkategorien:<br>- Personenwagen<br>- Lieferwagen<br>- Lastwagen<br>- Sattelschlepper<br>- Car, Autobus, Kleinbus<br>- Motorräder<br>- Übrige: Arbeitsmaschinen, Industrietraktoren etc.<br><br>Zur Berechnung des Motorisierungsgrades (rechte Skala) werden hingegen nur Personenwagen berücksichtigt. ",
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "17_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle; Statistisches Amt Basel-Stadt"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.polizei.bs.ch/verkehr/motorfahrzeugkontrolle.html' target='_blank'>Motorfahrzeugkontrolle Basel-Stadt</a></li></ul>"
+			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.polizei.bs.ch/verkehr/motorfahrzeugkontrolle.html' target='_blank'>Motorfahrzeugkontrolle Basel-Stadt</a></li><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1704' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
 		]
 	},
 	{
@@ -4955,7 +4923,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Naturgefahren"
 		],
-		"stufe1": "Naturgefahren",
+		"stufe1": "Thema Naturgefahren",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -4965,13 +4933,11 @@ var indikatoren = [
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "07_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Bau- und Gastgewerbeinspektorat Basel-Stadt"
 		],
@@ -5308,7 +5274,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Abfall"
 		],
-		"stufe1": "Abfall",
+		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -5318,13 +5284,11 @@ var indikatoren = [
 		"template": "dotplot",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
@@ -5353,7 +5317,7 @@ var indikatoren = [
 			"Niederlassung",
 			"Migration"
 		],
-		"stufe1": "Themenbereich1: Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -5397,7 +5361,7 @@ var indikatoren = [
 			"Migration",
 			"Staatsangehörigkeit"
 		],
-		"stufe1": "Themenbereich1: Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -5444,7 +5408,7 @@ var indikatoren = [
 			"Migration",
 			"Staatsangehörigkeit"
 		],
-		"stufe1": "Themenbereich1: Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -5490,7 +5454,7 @@ var indikatoren = [
 			"Staatsangehörigkeit",
 			"Wanderung"
 		],
-		"stufe1": "Themenbereich1: Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -5536,7 +5500,7 @@ var indikatoren = [
 			"Migration",
 			"Deutsch"
 		],
-		"stufe1": "Themenbereich1: Struktur der Bevölkerung",
+		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -10483,8 +10447,8 @@ var indikatoren = [
 			"Amt für Mobilität Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href='http://map.geo.bs.ch/main/wsgi/file_proxy/GO_GueteklassenOeV/Definition_Gueteklassen_oeffentlicher_Verkehr.pdf' target='_blank'>Definition der Güteklassen des öffentlichen Verkehrs</a>",
-			"<a href='http://www.stadtplan.bs.ch/geoviewer/index.php?theme=340&cps=2614062.08,1267876.03,50000&nodefault&layers=stadtplan_grau_osm_50000,gueteklassen' target='_blank'>Karte der Güteklassen des öffentlichen Verkehrs</a>"
+			"<a href = 'http://map.geo.bs.ch/main/wsgi/file_proxy/GO_GueteklassenOeV/Definition_Gueteklassen_oeffentlicher_Verkehr.pdf' target = '_blank'>Definition der Güteklassen des öffentlichen Verkehrs</a>",
+			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?theme=340&cps=2614062.08,1267876.03,50000&nodefault&layers=stadtplan_grau_osm_50000,gueteklassen' target = '_blank'>Karte der Güteklassen des öffentlichen Verkehrs</a>"
 		]
 	},
 	{

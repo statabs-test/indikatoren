@@ -504,8 +504,8 @@ var indikatorensetData = [
 			"Amt für Mobilität Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href='http://map.geo.bs.ch/main/wsgi/file_proxy/GO_GueteklassenOeV/Definition_Gueteklassen_oeffentlicher_Verkehr.pdf' target='_blank'>Definition der Güteklassen des öffentlichen Verkehrs</a>",
-			"<a href='http://www.stadtplan.bs.ch/geoviewer/index.php?theme=340&cps=2614062.08,1267876.03,50000&nodefault&layers=stadtplan_grau_osm_50000,gueteklassen' target='_blank'>Karte der Güteklassen des öffentlichen Verkehrs</a>"
+			"<a href = 'http://map.geo.bs.ch/main/wsgi/file_proxy/GO_GueteklassenOeV/Definition_Gueteklassen_oeffentlicher_Verkehr.pdf' target = '_blank'>Definition der Güteklassen des öffentlichen Verkehrs</a>",
+			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?theme=340&cps=2614062.08,1267876.03,50000&nodefault&layers=stadtplan_grau_osm_50000,gueteklassen' target = '_blank'>Karte der Güteklassen des öffentlichen Verkehrs</a>"
 		]
 	},
 	{
