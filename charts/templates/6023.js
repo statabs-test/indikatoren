@@ -47,8 +47,8 @@
     "color": "#000000",
     "type": "scatter",
     tooltip: {
-      headerFormat: '<span>●</span> <span style="font-size: 10px"> {point.key}</span><br/>',
-      pointFormat: '{series.name}: <b>{point.y}</b><br/>'    
+      headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
+      pointFormat: '<span style="color:{point.color}">●</span> {series.name}: <b>{point.y}</b><br/>'    
     }
     },
   ],
