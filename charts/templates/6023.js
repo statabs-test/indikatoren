@@ -35,33 +35,21 @@
   "series": [
     {
       "color": "#71A3B5", // dunkelblau - Zuzug aus der Schweiz
-      //"index": 0,
       "type": "column",
       "pointWidth": "15",
-      //legendIndex: 0
-    "tooltip": {
-    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
-    "shared": false
-  },
     },
     {
       "color": "#73B97C", //dunkelgrün - Wegzug in die Schweiz
-      //"index": 0,
       "type": "column",
       "pointWidth": "15",
-      //legendIndex: 1
-    "tooltip": {
-    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
-    "shared": false
-  },
     },
     {
     "color": "#000000",
     "type": "scatter",
-   "tooltip": {
-    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
-    "shared": false
-  },
+    tooltip: {
+      headerFormat: '<span>●</span> <span style="font-size: 10px"> {point.key}</span><br/>',
+      pointFormat: '{series.name}: <b>{point.y}</b><br/>'    
+    }
     },
   ],
   "chart": {
