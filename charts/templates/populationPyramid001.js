@@ -28,7 +28,6 @@
                 
                 //for top-left legends with no x defined: move legend to x position of first yAxis
                 if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                    console.log('setting legend.left');
                   this.update(
                     {
                       legend: {
