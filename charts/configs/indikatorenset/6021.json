@@ -4,6 +4,7 @@
       "color": "#71A3B5",
       "type": "column",
       "pointWidth": "15",
+      "index": 5,
       "data": [
         [
           "Altstadt GB",
@@ -101,6 +102,7 @@
       "color": "#B00000",
       "type": "column",
       "pointWidth": "15",
+      "index": 4,
       "data": [
         [
           "Altstadt GB",
@@ -198,6 +200,7 @@
       "color": "#FF8028",
       "type": "column",
       "pointWidth": "15",
+      "index": 3,
       "data": [
         [
           "Altstadt GB",
@@ -295,6 +298,7 @@
       "color": "#CD9C00",
       "type": "column",
       "pointWidth": "15",
+      "index": 2,
       "data": [
         [
           "Altstadt GB",
@@ -392,6 +396,7 @@
       "color": "#923F8D",
       "type": "column",
       "pointWidth": "15",
+      "index": 1,
       "data": [
         [
           "Altstadt GB",
@@ -489,6 +494,7 @@
       "color": "#999999",
       "type": "column",
       "pointWidth": "15",
+      "index": 0,
       "data": [
         [
           "Altstadt GB",
@@ -705,7 +711,7 @@
     "align": "left",
     "y": 55,
     "itemMarginBottom": 5,
-    "itemWidth": 110,
+    "itemWidth": 140,
     "itemStyle": {
       "fontWeight": "normal"
     }

@@ -2,8 +2,10 @@
   "series": [
     {
       "color": "#E6E600",
+      "index": 1,
       "type": "column",
       "pointWidth": "15",
+      "legendIndex": 0,
       "data": [
         [
           "Schweiz",
@@ -43,8 +45,10 @@
     },
     {
       "color": "#73B97C",
+      "index": 0,
       "type": "column",
       "pointWidth": "15",
+      "legendIndex": 1,
       "data": [
         [
           "Schweiz",

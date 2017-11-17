@@ -3257,87 +3257,87 @@
       "data": [
         [
           1,
-          0.429547395388
+          4.006284368
         ],
         [
           2,
-          0.424231464737
+          2.130625249
         ],
         [
           3,
-          0.431914501566
+          1.611701137
         ],
         [
           4,
-          0.49317617866
+          1.253357207
         ],
         [
           5,
-          0.583408152271
+          0.110132159
         ],
         [
           6,
-          0.373477132015
+          -0.508447646
         ],
         [
           7,
-          0.745117676514
+          2.19374457
         ],
         [
           8,
-          0.551899491474
+          -0.110774684
         ],
         [
           9,
-          0.409791723018
+          0.234020769
         ],
         [
           10,
-          0.411931818181
+          0.107900731
         ],
         [
           11,
-          0.41393758959
+          -0.794327753
         ],
         [
           12,
-          0.298363095238
+          1.362179487
         ],
         [
           13,
-          0.479378942261
+          1.068854089
         ],
         [
           14,
-          0.487170830519
+          -0.283286119
         ],
         [
           15,
-          0.613840340103
+          2.795232936
         ],
         [
           16,
-          0.42765164351
+          4.685592186
         ],
         [
           17,
-          0.34602294214
+          -1.72002511
         ],
         [
           18,
-          0.475461893764
+          -1.513468481
         ],
         [
           19,
-          0.589465530596
+          -0.103698583
         ],
         [
           20,
-          0.808407266582
+          0.899957145
         ],
         [
           30,
-          1.087606837606
+          -0.756302521
         ]
       ]
     },
@@ -3346,90 +3346,90 @@
       "data": [
         [
           "Altstadt GB",
-          -0.052829241067
+          3.377847604
         ],
         [
           "Vorstädte",
-          -0.023347482631
+          3.265631223
         ],
         [
           "Am Ring",
-          -0.040547479527
+          2.915967952
         ],
         [
           "Breite",
-          0.004527291731
+          -0.246195166
         ],
         [
           "St. Alban",
-          -0.035380667604
+          -0.926945668
         ],
         [
           "Gundeldingen",
-          -0.036984541414
+          0.667337535
         ],
         [
           "Bruderholz",
-          0.0034010055
+          0.510425717
         ],
         [
           "Bachletten",
-          -0.030039251816
+          -0.273244221
         ],
         [
           "Gotthelf",
-          -0.016342997999
+          -0.07313149
         ],
         [
           "Iselin",
-          -0.021095261122
+          -0.383647045
         ],
         [
           "St. Johann",
-          -0.025808457367
+          -0.389167289
         ],
         [
           "Altstadt KB",
-          -0.065671992481
+          0.120192308
         ],
         [
           "Clara",
-          -0.110490338784
+          0.745712155
         ],
         [
           "Wettstein",
-          -0.017061778976
+          2.124645892
         ],
         [
           "Hirzbrunnen",
-          -0.002975136087
+          0.498374865
         ],
         [
           "Rosental",
-          -0.008448488242
+          4.548229548
         ],
         [
           "Matthäus",
-          -0.027662764026
+          0.131826742
         ],
         [
           "Klybeck",
-          -0.044525710822
+          -0.444321022
         ],
         [
           "Kleinhüningen",
-          -0.007308662952
+          -0.24196336
         ],
         [
           "Riehen",
-          -0.018717747234
+          0.033331746
         ],
         [
           "Bettingen",
-          -0.000356125356
+          -1.512605042
         ]
       ],
-      "name": "Anzahl"
+      "name": "Wanderung"
     },
     {
       "visible": false,
@@ -3439,90 +3439,90 @@
       "data": [
         [
           1,
-          0.482376636455
+          3.377847604
         ],
         [
           2,
-          0.447578947368
+          3.265631223
         ],
         [
           3,
-          0.472461981093
+          2.915967952
         ],
         [
           4,
-          0.488648886929
+          -0.246195166
         ],
         [
           5,
-          0.618788819875
+          -0.926945668
         ],
         [
           6,
-          0.410461673429
+          0.667337535
         ],
         [
           7,
-          0.741716671014
+          0.510425717
         ],
         [
           8,
-          0.58193874329
+          -0.273244221
         ],
         [
           9,
-          0.426134721017
+          -0.07313149
         ],
         [
           10,
-          0.433027079303
+          -0.383647045
         ],
         [
           11,
-          0.439746046957
+          -0.389167289
         ],
         [
           12,
-          0.364035087719
+          0.120192308
         ],
         [
           13,
-          0.589869281045
+          0.745712155
         ],
         [
           14,
-          0.504232609495
+          2.124645892
         ],
         [
           15,
-          0.61681547619
+          0.498374865
         ],
         [
           16,
-          0.436100131752
+          4.548229548
         ],
         [
           17,
-          0.373685706166
+          0.131826742
         ],
         [
           18,
-          0.519987604586
+          -0.444321022
         ],
         [
           19,
-          0.596774193548
+          -0.24196336
         ],
         [
           20,
-          0.827125013816
+          0.033331746
         ],
         [
           30,
-          -1.087962962962
+          -1.512605042
         ]
       ],
-      "name": "Benzin"
+      "name": "Wanderung"
     },
     {
       "visible": false,
@@ -3532,90 +3532,90 @@
       "data": [
         [
           1,
-          0.1
+          0.628436764
         ],
         [
           2,
-          0.2
+          -1.135005974
         ],
         [
           3,
-          0.3
+          -1.304266816
         ],
         [
           4,
-          0.4
+          1.499552372
         ],
         [
           5,
-          0.5
+          1.037077827
         ],
         [
           6,
-          0.6
+          -1.175785181
         ],
         [
           7,
-          0.7
+          1.683318853
         ],
         [
           8,
-          0.8
+          0.162469537
         ],
         [
           9,
-          0.9
+          0.30715226
         ],
         [
           10,
-          0.00001
+          0.491547776
         ],
         [
           11,
-          -0.2
+          -0.405160465
         ],
         [
           12,
-          -0.2
+          1.241987179
         ],
         [
           13,
-          -0.2
+          0.323141934
         ],
         [
           14,
-          -0.2
+          -2.407932011
         ],
         [
           15,
-          -0.2
+          2.296858072
         ],
         [
           16,
-          -0.2
+          0.137362637
         ],
         [
           17,
-          -0.2
+          -1.851851852
         ],
         [
           18,
-          0.5
+          -1.069147459
         ],
         [
           19,
-          -0.2
+          0.138264777
         ],
         [
           20,
-          -0.7
+          0.866625399
         ],
         [
           30,
-          -0.8
+          0.756302521
         ]
       ],
-      "name": "Diesel"
+      "name": "Umzug"
     },
     {
       "name": "Rhein",
@@ -3880,7 +3880,7 @@
                     	};
 						return colors[''+Math.sign(value)][index];
                     };
-                    var chartHeight = 50;
+                    var chartHeight = 72;
                     var columnWidth = 5;
 					
 					//put the columns on the map
@@ -3888,28 +3888,32 @@
 
 	                
 					//column values in legend
-					var legendColumnValues = [1, 0.5]; 
+					var legendColumnValues = [5, 2.5]; 
 
                 	//Add manually drawn legend	
-                	var legendTop = 205;
-                	var legendLeft = 380;
-	                fn.addLegendTitle(chart, columnSeries[0].name, legendLeft, legendTop);
+                	var legendTop = 220;
+                	var legendLeft = 365;
+	                fn.addLegendTitle(chart, columnSeries[0].name, 265, 220);
 	                
-	                fn.addLegendColumnChart(chart, legendLeft+5,  legendTop+45,  legendColumnValues, color, 'columnLegendHideOnZoom');
+	                fn.addLegendColumnChart(chart, legendLeft+35,  legendTop+45,  legendColumnValues, color, 'columnLegendHideOnZoom');
 	                
-	                fn.addLegendText(chart,        legendLeft+20, legendTop+45,  Highcharts.numberFormat(legendColumnValues[0], 0,","," "), color(legendColumnValues[0], 0), 'columnLegendHideOnZoom');
-	                fn.addLegendText(chart,        legendLeft+26, legendTop+45,  ',', undefined, 'columnLegendHideOnZoom');
-	                fn.addLegendText(chart,        legendLeft+33, legendTop+45,  Highcharts.numberFormat(legendColumnValues[1], 1,","," "), color(legendColumnValues[1], 1), 'columnLegendHideOnZoom');
+	                fn.addLegendText(chart,        legendLeft+50, legendTop+45,  Highcharts.numberFormat(legendColumnValues[0], 0,","," "), color(legendColumnValues[0], 0), 'columnLegendHideOnZoom');
+	                //fn.addLegendText(chart,        legendLeft+71, legendTop+45,  ',', undefined, 'columnLegendHideOnZoom');
+	                fn.addLegendText(chart,        legendLeft+63, legendTop+45,  Highcharts.numberFormat(legendColumnValues[1], 1,","," "), color(legendColumnValues[1], 1), 'columnLegendHideOnZoom');
 
-					fn.addLegendSquare(chart,      legendLeft+5,  legendTop+50,  10, color(1, 0));
-					fn.addLegendText(chart,        legendLeft+20, legendTop+60,  'Benzin positiv');
-					fn.addLegendSquare(chart,      legendLeft+5,  legendTop+65,  10, color(-1, 0));
-					fn.addLegendText(chart,        legendLeft+20, legendTop+75,  'Benzin negativ');
+					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+20,  10, color(1, 0));
+					fn.addLegendText(chart,        legendLeft-80, legendTop+30,  'Wanderung positiv');
+					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+35,  10, color(-1, 0));
+					fn.addLegendText(chart,        legendLeft-80, legendTop+45,  'Wanderung negativ');
 					
-					fn.addLegendSquare(chart,      legendLeft+5,  legendTop+80,  10, color(1, 1));
-					fn.addLegendText(chart,        legendLeft+20, legendTop+90,  'Diesel positiv');
-					fn.addLegendSquare(chart,      legendLeft+5,  legendTop+95, 10, color(-1, 1));
-					fn.addLegendText(chart,        legendLeft+20, legendTop+105 , 'Diesel negativ');
+					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+50,  10, color(1, 1));
+					fn.addLegendText(chart,        legendLeft-80, legendTop+60,  'Umzug positiv');
+					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+65, 10, color(-1, 1));
+					fn.addLegendText(chart,        legendLeft-80, legendTop+75 , 'Umzug negativ');
+					fn.addLegendText(chart,        legendLeft-80, legendTop+75 , 'Umzug negativ');
+					fn.addLegendTextbold(chart,    legendLeft-98, legendTop+93 , 'Bevölkerungssaldo infolge räumlicher');	
+					fn.addLegendTextbold(chart,    legendLeft-98, legendTop+105 , 'Bewegung pro 100 Einwohner');
+					//fn.addLegendTextbold(chart,    legendLeft-98, legendTop+108 , '(Saldo total)');
 					
 					//make sure columns are hidden upon click onto column legend
 					fn.AddColumnLegendClickHandler(chart);
@@ -3964,7 +3968,7 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-					return Highcharts.numberFormat((this.value),1); 
+					return Highcharts.numberFormat((this.value),0); 
 				}
     },
     "marker": {
@@ -4165,6 +4169,16 @@
 						class: cssClass + ' columnLegend'
 					})
 					.add();
+            },
+    "addLegendTextbold": function (chart, x, y, text, color, cssClass, useHtml){
+				return chart.renderer.text(text, x, y, undefined, undefined, undefined, useHtml)
+					.attr({
+						zIndex: 6,
+						fill: color,
+						class: cssClass + ' columnLegend'})
+					.css({
+                        fontWeight: 'bold' }).
+                     add();
             },
     "addLegendSquare": function (chart, x, y, width, fill){
             	return chart.renderer.rect(x, y, width, width, 0)

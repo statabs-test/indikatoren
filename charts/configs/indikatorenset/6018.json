@@ -5,74 +5,74 @@
       "data": [
         [
           "0-4",
-          -1895
+          -4191
         ],
         [
           "5-9",
-          -982
+          -2128
         ],
         [
           "10-14",
-          -682
+          -1271
         ],
         [
           "15-19",
-          -2756
+          -1699
         ],
         [
           "20-24",
-          -13737
+          -8079
         ],
         [
           "25-29",
-          -14161
+          -14641
         ],
         [
           "30-34",
-          -8356
+          -11888
         ],
         [
           "35-39",
-          -4930
+          -7976
         ],
         [
           "40-44",
-          -3426
+          -5375
         ],
         [
           "45-49",
-          -2827
+          -4103
         ],
         [
           "50-54",
-          -2192
+          -2910
         ],
         [
           "55-59",
-          -1467
+          -2026
         ],
         [
           "60-64",
-          -995
+          -1580
         ],
         [
           "65-69",
-          -698
+          -995
         ],
         [
           "70-74",
-          -353
+          -543
         ],
         [
           "75-79",
-          -322
+          -334
         ],
         [
           "\u003E79",
-          -471
+          -546
         ]
       ],
-      "name": "Zugezogene",
+      "name": "Weggezogene",
       "turboThreshold": 0
     },
     {
@@ -80,74 +80,74 @@
       "data": [
         [
           "0-4",
-          4191
+          1895
         ],
         [
           "5-9",
-          2128
+          982
         ],
         [
           "10-14",
-          1271
+          682
         ],
         [
           "15-19",
-          1699
+          2756
         ],
         [
           "20-24",
-          8079
+          13737
         ],
         [
           "25-29",
-          14641
+          14161
         ],
         [
           "30-34",
-          11888
+          8356
         ],
         [
           "35-39",
-          7976
+          4930
         ],
         [
           "40-44",
-          5375
+          3426
         ],
         [
           "45-49",
-          4103
+          2827
         ],
         [
           "50-54",
-          2910
+          2192
         ],
         [
           "55-59",
-          2026
+          1467
         ],
         [
           "60-64",
-          1580
-        ],
-        [
-          "65-69",
           995
         ],
         [
+          "65-69",
+          698
+        ],
+        [
           "70-74",
-          543
+          353
         ],
         [
           "75-79",
-          334
+          322
         ],
         [
           "\u003E79",
-          546
+          471
         ]
       ],
-      "name": "Weggezogene",
+      "name": "Zugezogene",
       "turboThreshold": 0
     },
     {
@@ -264,21 +264,33 @@
     },
     "zoomType": "xy",
     "events": {
-      "load": function () {
-                    this.credits.element.onclick = function() {};
-                    //create symmetric axis
-                	var createSymmetricAxis = function(axis){
-                        var absMax = Math.max(Math.abs(axis.min), Math.abs(axis.max));
-                        axis.setExtremes(-absMax, absMax);
-                	};
-            	    createSymmetricAxis(this.yAxis[0]);
+      "load": function (){
+                this.credits.element.onclick = function() {};
+                
+                //create symmetric axis
+            	var createSymmetricAxis = function(axis){
+                    var absMax = Math.max(Math.abs(axis.min), Math.abs(axis.max));
+                    axis.setExtremes(-absMax, absMax);
+            	};
+        	    createSymmetricAxis(this.yAxis[0]);
+                
+                //for top-left legends with no x defined: move legend to x position of first yAxis
+                if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                  this.update(
+                    {
+                      legend: {
+                        x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                      }
+                    }
+                  );
                 }
+              }
     },
     "renderTo": "container-6018"
   },
   "plotOptions": {
     "series": {
-      "stacking": "normal",
+      "stacking": null,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -310,6 +322,20 @@
   },
   "yAxis": [
     {
+      "max": 18000,
+      "tickInterval": 6000,
+      "min": 0,
+      "title": {
+        "text": null
+      },
+      "labels": {
+        "formatter": function () {
+                        return Math.abs(this.value);
+                        },
+        "style": {
+          "color": "#000000"
+        }
+      },
       "plotLines": [
         {
           "value": 0,
