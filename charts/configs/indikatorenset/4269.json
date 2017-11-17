@@ -1310,9 +1310,11 @@
     {
       "categories": [
         2000,
-        2005,
-        2010
+        2003,
+        2008
       ],
+      "floor": 0,
+      "ceiling": 2,
       "tickLength": 0,
       "title": {
         "enabled": false,
@@ -1387,14 +1389,14 @@
       },
       "type": "column",
       "showInNavigator": true,
-      "name": "BS: Über Grenzwert am Tag",
+      "name": "Über Grenzwert am Tag",
       "color": "#FF8028",
       "id": "BS1002_1",
       "valueSuffix": "Prozent (Anteil an Bevölkerung)",
       "data": [
-        13.2,
-        14.7,
-        13.9
+        13.4,
+        14.9,
+        14.5
       ]
     },
     {
@@ -1405,14 +1407,14 @@
       },
       "type": "column",
       "showInNavigator": true,
-      "name": "BS: Über Grenzwert in der Nacht",
+      "name": "Über Grenzwert in der Nacht",
       "color": "#DC440E",
       "id": "BS1002_2",
       "valueSuffix": "Prozent (Anteil an Bevölkerung)",
       "data": [
-        16.5,
-        19.1,
-        15.7
+        17,
+        19.4,
+        16.2
       ]
     },
     {
@@ -1420,14 +1422,14 @@
       "stacking": null,
       "type": "column",
       "showInNavigator": true,
-      "name": "BS: Über 50 dB (A) in der Nacht",
+      "name": "Über 50 dB (A) in der Nacht",
       "color": "#B00000",
       "id": "BS1002_3",
       "valueSuffix": "Prozent (Anteil an Bevölkerung)",
       "data": [
-        25.5,
-        25.4,
-        23.8
+        26,
+        25.6,
+        24.6
       ]
     }
   ]

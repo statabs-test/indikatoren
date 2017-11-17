@@ -291,14 +291,14 @@
       <tspan>Anteil Zugezogene nach Zuzugsland</tspan>
     </text>
   </g>
-  <rect x="270" y="265" width="10" height="10" fill="red" class="pieLegend"/>
-  <g class="pieLegend" transform="translate(290,260)">
+  <rect x="270" y="265" width="10" height="10" fill="red" class="undefined pieLegend"/>
+  <g class="undefined pieLegend" transform="translate(290,260)">
     <text x="3" y="15">
       Schweiz
     </text>
   </g>
-  <rect x="270" y="285" width="10" height="10" fill="blue" class="pieLegend"/>
-  <g class="pieLegend" transform="translate(290,280)">
+  <rect x="270" y="285" width="10" height="10" fill="blue" class="undefined pieLegend"/>
+  <g class="undefined pieLegend" transform="translate(290,280)">
     <text x="3" y="15">
       Ausland
     </text>

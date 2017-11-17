@@ -1338,6 +1338,8 @@
         2015,
         2016
       ],
+      "floor": 0,
+      "ceiling": 32,
       "tickLength": 0,
       "title": {
         "enabled": false,
@@ -1409,7 +1411,7 @@
       "stacking": null,
       "type": "column",
       "showInNavigator": true,
-      "name": "BS: Schadenfälle",
+      "name": "Schadenfälle",
       "color": "#FF8028",
       "id": "BS0705_1",
       "valueSuffix": "Anzahl Schadenfälle; Tausend CHF (rechte Skala)",
@@ -1457,7 +1459,7 @@
       "stacking": null,
       "type": "column",
       "showInNavigator": true,
-      "name": "BS: Schadensumme (rechte Skala)",
+      "name": "Schadensumme (rechte Skala)",
       "color": "#DC440E",
       "id": "BS0705_2",
       "valueSuffix": "Anzahl Schadenfälle; Tausend CHF (rechte Skala)",

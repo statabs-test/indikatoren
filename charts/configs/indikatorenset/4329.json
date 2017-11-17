@@ -1313,6 +1313,8 @@
         2015,
         2016
       ],
+      "floor": 0,
+      "ceiling": 7,
       "tickLength": 0,
       "title": {
         "enabled": false,
@@ -1384,7 +1386,7 @@
       "stacking": null,
       "type": "column",
       "showInNavigator": true,
-      "name": "BS: Lifeline-Bauwerke (kumulativ)",
+      "name": "Lifeline-Bauwerke (kumulativ)",
       "color": "#FF8028",
       "id": "BS0703_1",
       "valueSuffix": "Anzahl Bauwerke",
@@ -1404,7 +1406,7 @@
       "stacking": null,
       "type": "column",
       "showInNavigator": true,
-      "name": "BS: Neubauten",
+      "name": "Neubauten",
       "color": "#DC440E",
       "id": "BS0703_2",
       "valueSuffix": "Anzahl Bauwerke",

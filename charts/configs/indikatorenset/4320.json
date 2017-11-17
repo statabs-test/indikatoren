@@ -1304,6 +1304,8 @@
         2014,
         2015
       ],
+      "floor": 2012,
+      "ceiling": 2015,
       "tickLength": 0,
       "title": {
         "enabled": false,
@@ -1373,9 +1375,10 @@
     {
       "includeInCSVExport": true,
       "stacking": null,
+      "showInLegend": false,
       "type": "column",
       "showInNavigator": true,
-      "name": "Kanton Basel-Stadt",
+      "name": "Wohnfläche",
       "color": "#FF8028",
       "id": "BS1703_1",
       "valueSuffix": "Quadratmeter pro Bewohner",

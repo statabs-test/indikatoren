@@ -4,6 +4,9 @@
     global scalebarDataEPSG2056
     global Highcharts
 */
+
+//use this template for pies on map
+
 (function(){
     return {
         "chart": {		
@@ -79,6 +82,22 @@
                 }
             }
     	}, 
+    	xAxis: {
+    		events: {
+				//hide svg elements on zoom
+				afterSetExtremes: function(e){
+					var divId = e['target']['chart']['renderTo']['id'] || 'dummySettingForExportServer';
+					var divIdString = '#' + divId;
+					divIdString = '';
+					//only care about zoom events, not pan
+					if (e.trigger != 'pan'){
+						//determine current zoom level
+						var zoom = (e.dataMax - e.dataMin) / (e.max - e.min);
+						$(divIdString + ' .pieLegendHideOnZoom').attr('visibility', zoom == 1 ? 'inherit' : 'hidden');
+					}
+				}
+			}
+    	},
     	
 		/* series with fixed data that should be added to the series object after merging with csv data */
 		"afterSeries": [
@@ -373,23 +392,24 @@
     			        }).add();	                
                 },
     	                
-                addLegendCircle: function(chart, x, y, radius, fill){
+                addLegendCircle: function(chart, x, y, radius, fill, cssClass){
                 	return chart.renderer.circle(x, y, radius, fill).attr({
     				    fill: fill,
     				    stroke: fill,
     				    'stroke-width': 1, 
     				    zIndex: 6,
-    				    class: 'pieLegend'
+    				    class: cssClass + ' pieLegend'
     				}).add();
                 },
     	                
     	                
-                addLegendLabel: function(chart, text, x, y, useHtml){
+                addLegendLabel: function(chart, text, x, y, cssClass, useHtml){
     				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
     					zIndex: 6,
-    					class: 'pieLegend'
+    					class: cssClass + ' pieLegend'
     				}).add();
                 },
+                
                  addLegendLabelbold: function(chart, text, x, y, cssClass, useHtml){
     				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).
     				attr({
@@ -399,20 +419,22 @@
                         fontWeight: 'bold' }).
                      add();
                 },
-                addLegendSquare: function(chart, x, y, width, fill){
+                
+                addLegendSquare: function(chart, x, y, width, fill, cssClass){
                 	return chart.renderer.rect(x, y, width, width, 0).attr({
     		            'stroke-width':0,
     		            fill: fill,
     		            zIndex: 6,
-    		            class: 'pieLegend'
+    		            class: cssClass + ' pieLegend'
     	        	}).add();
                 },
-                
-                
+                                
 
 				//Add click handler to bubbleLegend items
 				AddPieLegendClickHandler: function(chart){
-				    $('.pieLegend').click(function(){
+					var divId = chart['renderTo']['id'] || 'dummySettingForExportServer';
+					var divIdString = '#' + divId;
+				    $(divIdString + ' .pieLegend').click(function(){
 						//Toggle visible of mappies
 						Highcharts.each(chart.series, function (series) {
 							if (series.userOptions.type == 'mappie'){
@@ -423,7 +445,7 @@
 						
 						
 						//if useHTMl is true, text is in span elements within DIVs classed .pieLegend. Add the class to these spans
-						$('.pieLegend>span').addClass('pieLegend').addClass('pieLegendHtmlText');
+						$(divIdString + ' .pieLegend>span').addClass('pieLegend').addClass('pieLegendHtmlText');
 						//toggle active state of legend elements
 						var pieLegendItems = $('.pieLegend');
 						//backup original color
@@ -448,7 +470,7 @@
 								}
 							});
 							//same for html text spans
-							$('.pieLegendHtmlText').css('color', '#cccccc');
+							$(divIdString + ' .pieLegendHtmlText').css('color', '#cccccc');
 						} 
 						else {
 							pieLegendItems.each(function(i, v){
@@ -457,7 +479,7 @@
 								$(this).attr('stroke', $(this).attr('stroke_active'));	
 							});
 							//same for html text spans
-							$('.pieLegendHtmlText').css('color', 'black');
+							$(divIdString + ' .pieLegendHtmlText').css('color', 'black');
 						}
 					});
 				}          	

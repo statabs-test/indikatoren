@@ -1303,6 +1303,8 @@
         2012,
         2014
       ],
+      "floor": 0,
+      "ceiling": 2,
       "tickLength": 0,
       "title": {
         "enabled": false,
@@ -1372,9 +1374,10 @@
     {
       "includeInCSVExport": true,
       "stacking": null,
+      "showInLegend": false,
       "type": "column",
       "showInNavigator": true,
-      "name": "Kanton Basel-Stadt",
+      "name": "Anteil erneuerbarer Energien (ohne Mobilität)",
       "color": "#FF8028",
       "id": "BS0603_1",
       "valueSuffix": "Prozent",

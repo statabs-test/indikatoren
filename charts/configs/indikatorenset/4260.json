@@ -1304,6 +1304,8 @@
         2015,
         2016
       ],
+      "floor": 0,
+      "ceiling": 3,
       "tickLength": 0,
       "title": {
         "enabled": false,
@@ -1375,7 +1377,7 @@
       "stacking": null,
       "type": "column",
       "showInNavigator": true,
-      "name": "BS: Standorte insgesamt",
+      "name": "Standorte insgesamt",
       "color": "#FF8028",
       "id": "BS0204_1",
       "valueSuffix": "Anzahl Standorte",

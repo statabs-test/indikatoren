@@ -1310,6 +1310,8 @@
         2015,
         2016
       ],
+      "floor": 0,
+      "ceiling": 9,
       "tickLength": 0,
       "title": {
         "enabled": false,
@@ -1379,9 +1381,10 @@
     {
       "includeInCSVExport": true,
       "stacking": null,
+      "showInLegend": false,
       "type": "column",
       "showInNavigator": true,
-      "name": "Kanton Basel-Stadt",
+      "name": "Abgebrochene Bruttogeschossfläche",
       "color": "#FF8028",
       "id": "BS0103_1",
       "valueSuffix": "Quadratmeter",

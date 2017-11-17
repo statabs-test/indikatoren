@@ -1315,6 +1315,8 @@
         2014,
         2015
       ],
+      "floor": 0,
+      "ceiling": 9,
       "tickLength": 0,
       "title": {
         "enabled": false,
@@ -1387,7 +1389,7 @@
       "stack": "BS",
       "type": "column",
       "showInNavigator": true,
-      "name": "BS: Klasse 4 (Mineralische Abfälle)",
+      "name": "Klasse 4 (Mineralische Abfälle)",
       "color": "#FF8028",
       "id": "BS0109_1",
       "valueSuffix": "Tonnen",
@@ -1410,7 +1412,7 @@
       "stack": "BS",
       "type": "column",
       "showInNavigator": true,
-      "name": "BS: Übrige Abfallklassen",
+      "name": "Übrige Abfallklassen",
       "color": "#DC440E",
       "id": "BS0109_2",
       "valueSuffix": "Tonnen",

@@ -288,26 +288,26 @@
       Anzahl
     </text>
   </g>
-  <circle cx="410" cy="275" r="1.046479035922714" fill="grey" stroke="grey" stroke-width="1" class="pieLegend"/>
-  <g class="pieLegend" transform="translate(430,265)">
+  <circle cx="410" cy="275" r="1.046479035922714" fill="grey" stroke="grey" stroke-width="1" class="pieLegendHideOnZoom pieLegend"/>
+  <g class="pieLegendHideOnZoom pieLegend" transform="translate(430,265)">
     <text x="3" y="15">
       0,001
     </text>
   </g>
-  <circle cx="410" cy="300" r="10.464790359227141" fill="grey" stroke="grey" stroke-width="1" class="pieLegend"/>
-  <g class="pieLegend" transform="translate(430,290)">
+  <circle cx="410" cy="300" r="10.464790359227141" fill="grey" stroke="grey" stroke-width="1" class="pieLegendHideOnZoom pieLegend"/>
+  <g class="pieLegendHideOnZoom pieLegend" transform="translate(430,290)">
     <text x="3" y="15">
       0.10
     </text>
   </g>
-  <rect x="290" y="270" width="10" height="10" fill="red" class="pieLegend"/>
-  <g class="pieLegend" transform="translate(310,265)">
+  <rect x="290" y="270" width="10" height="10" fill="red" class="undefined pieLegend"/>
+  <g class="undefined pieLegend" transform="translate(310,265)">
     <text x="3" y="15">
       Benzin
     </text>
   </g>
-  <rect x="290" y="295" width="10" height="10" fill="blue" class="pieLegend"/>
-  <g class="pieLegend" transform="translate(310,290)">
+  <rect x="290" y="295" width="10" height="10" fill="blue" class="undefined pieLegend"/>
+  <g class="undefined pieLegend" transform="translate(310,290)">
     <text x="3" y="15">
       Diesel
     </text>

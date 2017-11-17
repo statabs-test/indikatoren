@@ -1316,6 +1316,8 @@
         2015,
         2016
       ],
+      "floor": 0,
+      "ceiling": 15,
       "tickLength": 0,
       "title": {
         "enabled": false,
@@ -1385,9 +1387,10 @@
     {
       "includeInCSVExport": true,
       "stacking": null,
+      "showInLegend": false,
       "type": "column",
       "showInNavigator": true,
-      "name": "BS: Hochsicherheitslaboratorien",
+      "name": "Hochsicherheitslaboratorien in Biotechnologiebetrieben",
       "color": "#FF8028",
       "id": "BS0401_1",
       "valueSuffix": "Anzahl Laboratorien",
