@@ -32,11 +32,11 @@
 		      },
 		      {
 		      	x: 0, 
-		      	y: 4
+		      	y: 3
 		      },
 		      {
 		      	x: 0, 
-		      	y: 5
+		      	y: 4
 		      }
 		    ]
         },
@@ -137,7 +137,7 @@
                     	};
 						return colors[''+Math.sign(value)][index];
                     };
-                    var chartHeight = 50;
+                    var chartHeight = 72;
                     var columnWidth = 5;
 					
 					//put the columns on the map
@@ -155,7 +155,7 @@
 	                fn.addLegendColumnChart(chart, legendLeft+35,  legendTop+45,  legendColumnValues, color, 'columnLegendHideOnZoom');
 	                
 	                fn.addLegendText(chart,        legendLeft+50, legendTop+45,  Highcharts.numberFormat(legendColumnValues[0], 0,","," "), color(legendColumnValues[0], 0), 'columnLegendHideOnZoom');
-	                fn.addLegendText(chart,        legendLeft+71, legendTop+45,  ',', undefined, 'columnLegendHideOnZoom');
+	                //fn.addLegendText(chart,        legendLeft+71, legendTop+45,  ',', undefined, 'columnLegendHideOnZoom');
 	                fn.addLegendText(chart,        legendLeft+63, legendTop+45,  Highcharts.numberFormat(legendColumnValues[1], 1,","," "), color(legendColumnValues[1], 1), 'columnLegendHideOnZoom');
 
 					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+20,  10, color(1, 0));
