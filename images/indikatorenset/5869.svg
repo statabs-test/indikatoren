@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 208">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 208">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.0.3
   </desc>
   <defs>
     <clipPath>
@@ -14,7 +14,7 @@
   <g class="highcharts-pane-group"/>
   <rect fill="none" class="highcharts-plot-border" x="3" y="82" width="314" height="123"/>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-pie-series highcharts-color-undefined " transform="translate(3,82) scale(1 1)">
+    <g class="highcharts-series highcharts-series-0 highcharts-pie-series " transform="translate(3,82) scale(1 1)">
       <path fill="#007A2F" d="M 156.9882429643167 4.275001197296575 A 57.725 57.725 0 0 1 194.3548074029242 17.990978323865917 L 157 62 A 0 0 0 0 0 157 62 Z" transform="translate(0,0)" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
       <path fill="#68AB2B " d="M 194.39879773986337 18.028355129552047 A 57.725 57.725 0 0 1 213.91229897330936 52.347754117685895 L 157 62 A 0 0 0 0 0 157 62 Z" transform="translate(0,0)" stroke-linejoin="round" class="highcharts-point highcharts-color-1"/>
       <path fill="#73B97C" d="M 213.92192276143587 52.40467123329636 A 57.725 57.725 0 0 1 154.5645161082043 119.67359918726075 L 157 62 A 0 0 0 0 0 157 62 Z" transform="translate(0,0)" stroke-linejoin="round" class="highcharts-point highcharts-color-2"/>
@@ -23,15 +23,15 @@
       <path fill="#3C3C3C" d="M 108.95084509524389 30.008527105824705 A 57.725 57.725 0 0 1 143.93056167692973 5.773979271875717 L 157 62 A 0 0 0 0 0 157 62 Z" transform="translate(0,0)" stroke-linejoin="round" class="highcharts-point highcharts-color-5"/>
       <path fill="#008AC3" d="M 143.98679422300546 5.760937948738899 A 57.725 57.725 0 0 1 156.9198211330748 4.275055683445665 L 157 62 A 0 0 0 0 0 157 62 Z" transform="translate(0,0)" stroke-linejoin="round" class="highcharts-point highcharts-color-6"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-pie-series highcharts-color-undefined " transform="translate(3,82) scale(1 1)"/>
+    <g class="highcharts-markers highcharts-series-0 highcharts-pie-series " transform="translate(3,82) scale(1 1)"/>
   </g>
   <text x="3" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:10px;font-weight:bold;fill:#000000;" y="14">
     <tspan>Anteil Fläche nach Art der Bodenbedeckung</tspan>
   </text>
-  <text x="3" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:10px;font-weight:normal;font-family:arial;fill:#000000;" y="32">
+  <text x="3" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:10px;font-weight:normal;font-family:Arial;fill:#000000;" y="32">
     <tspan>Stand 2016</tspan>
   </text>
-  <g class="highcharts-data-labels highcharts-series-0 highcharts-pie-series highcharts-color-undefined " visibility="visible" transform="translate(3,82) scale(1 1)">
+  <g class="highcharts-data-labels highcharts-series-0 highcharts-pie-series " visibility="visible" transform="translate(3,82) scale(1 1)">
     <path fill="none" class="highcharts-data-label-connector highcharts-color-0" stroke="#007A2F" stroke-width="1" d="M 183.64611702841796 2.628349415087456 L 177.26573491421038 6.382619679569723 L 176.9206393856585 7.32118724569029"/>
     <path fill="none" class="highcharts-data-label-connector highcharts-color-1" stroke="#68AB2B " stroke-width="1" d="M 216.54544292718396 30.528718449548805 L 208.06705677001003 32.503770282180206 L 207.19746023071653 32.99753324033806"/>
     <path fill="none" class="highcharts-data-label-connector highcharts-color-2" stroke="#73B97C" stroke-width="1" d="M 209.0038301995477 103.03390869605325 L 201.00637590224693 100.3852736257589 L 200.25701232792173 99.72311485818531"/>

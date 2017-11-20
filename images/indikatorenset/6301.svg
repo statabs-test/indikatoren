@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 208">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 208">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.0.3
   </desc>
   <defs>
     <clipPath>
@@ -42,10 +42,10 @@
     <path fill="none" class="highcharts-axis-line" d="M 38 48 L 38 167"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(38,48) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-line-series " transform="translate(38,48) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 2.7352941176446 37.78250000000001 L 33.12745098039 17.254999999999995 L 63.519607843136 22.3125 L 93.911764705882 38.079999999999984 L 124.30392156863 46.41 L 154.69607843137 33.91499999999999 L 185.08823529412 35.7 L 215.48039215686 39.27000000000001 L 245.87254901961 38.3775 L 276.26470588236 36.59249999999999" class="highcharts-graph" stroke="#008AC3 " stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(38,48) scale(1 1)" clip-path="none">
+    <g class="highcharts-markers highcharts-series-0 highcharts-line-series " transform="translate(38,48) scale(1 1)" clip-path="none">
       <path fill="#008AC3 " d="M 6 38 A 4 4 0 1 1 5.999998000000167 37.99600000066666 Z" class="highcharts-point"/>
       <path fill="#008AC3 " d="M 37 17 A 4 4 0 1 1 36.99999800000017 16.996000000666665 Z" class="highcharts-point"/>
       <path fill="#008AC3 " d="M 67 22 A 4 4 0 1 1 66.99999800000016 21.996000000666665 Z" class="highcharts-point"/>
@@ -57,10 +57,10 @@
       <path fill="#008AC3 " d="M 249 38 A 4 4 0 1 1 248.99999800000018 37.99600000066666 Z" class="highcharts-point"/>
       <path fill="#008AC3 " d="M 280 37 A 4 4 0 1 1 279.9999980000002 36.99600000066666 Z" class="highcharts-point"/>
     </g>
-    <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(38,48) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-1 highcharts-line-series " transform="translate(38,48) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 2.7352941176446 71.4 L 33.12745098039 61.88 L 63.519607843136 63.06999999999999 L 93.911764705882 79.135 L 124.30392156863 81.2175 L 154.69607843137 87.465 L 185.08823529412 64.26 L 215.48039215686 78.2425 L 245.87254901961 70.21000000000001 L 276.26470588236 69.615" class="highcharts-graph" stroke="#B00000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(38,48) scale(1 1)" clip-path="none">
+    <g class="highcharts-markers highcharts-series-1 highcharts-line-series " transform="translate(38,48) scale(1 1)" clip-path="none">
       <path fill="#B00000" d="M 6 71 A 4 4 0 1 1 5.999998000000167 70.99600000066667 Z" class="highcharts-point"/>
       <path fill="#B00000" d="M 37 62 A 4 4 0 1 1 36.99999800000017 61.99600000066666 Z" class="highcharts-point"/>
       <path fill="#B00000" d="M 67 63 A 4 4 0 1 1 66.99999800000016 62.99600000066666 Z" class="highcharts-point"/>
@@ -76,6 +76,7 @@
   <text x="3" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:10px;font-weight:bold;fill:#000000;" y="14">
     <tspan>Anteil Arbeitnehmende in Unternehmensleitung oder</tspan><tspan dy="13" x="3">Vorgesetztenfunktion nach Geschlecht</tspan><title>Anteil Arbeitnehmende in Unternehmensleitung oder Vorgesetztenfunktion nach Geschlecht</title>
   </text>
+  <text x="3" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:10px;font-weight:normal;font-family:Arial;fill:#000000;" y="45"/>
   <g class="highcharts-legend" transform="translate(30,7)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="143" height="29" visibility="visible"/>
     <g>

@@ -13212,17 +13212,17 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Eine Verzögerungszeit von 27% bedeutet, dass eine durchschnittliche Reise 27% länger dauert als dies unter staufreien Bedingungen der Fall wäre.",
-		"erlaeuterungen": "Detaillierte Informationen zu den TomTom Staudaten und der angewandten Methodik finden Sie <a href='http://www.congres-atecitsfrance.fr/wp-content/uploads/2013/12/COHN_com085-Atelier-A7.pdf' target='_blank'> hier</a> und <a href='https://www.tomtom.com/en_gb/trafficindex/about' target='_blank'> hier</a>.",
+		"erlaeuterungen": "Detaillierte Informationen zu den TomTom Staudaten und der angewandten Methodik sind hier zu finden: <br/>-  <a href=’https://www.tomtom.com/en_gb/trafficindex/city/basel target=’_blank’>TomTom Traffic Index: Toward a Global Measure  </a> <br/> -  <a href=’https://www.tomtom.com/en_gb/trafficindex/about target=’_blank’>TomTom Traffic Index: About  </a> <br/>  -  TomTom Traffic Index: <a href=’ https://www.tomtom.com/en_gb/trafficindex/city/basel target=’_blank’>Basel</a>, <a href=’ https://www.tomtom.com/en_gb/trafficindex/city/GNV target=’_blank’>Genf</a>, <a href=’ https://www.tomtom.com/en_gb/trafficindex/city/ZUR target=’_blank’>Zürich</a>, <a href=’ https://www.tomtom.com/en_gb/trafficindex/city/bern target=’_blank’>Bern</a>",
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
 		"orderKey": "05_00_00_00_00_004",
 		"parentId": null,
-		"children": [],
-		"renderLink": [
-			""
+		"children": [
+			"6308"
 		],
+		"renderLink": [],
 		"quellenangabe": [
 			"TomTom"
 		],

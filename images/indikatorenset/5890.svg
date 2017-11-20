@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 665 208">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 665 208">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.0.3
   </desc>
   <defs>
     <clipPath>
@@ -59,11 +59,11 @@
     <path fill="none" class="highcharts-axis-line" d="M 29 82 L 29 167"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(29,82) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-line-series " transform="translate(29,82) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 17.078135949544 13.5184 L 39.257533286615 13.5184 L 61.436930623686 13.5184 L 83.616327960757 13.5184 L 105.79572529783 13.5184 L 127.9751226349 13.5184 L 150.15451997197 13.5184 L 172.33391730904 13.5184 L 194.51331464611 13.5184 L 216.69271198318 13.5184 L 238.87210932025 13.5184 L 261.05150665732 13.5184 L 283.23090399439 13.5184 L 305.41030133146 13.5184 L 327.58969866854 13.5184 L 349.76909600561 13.5184 L 371.94849334268 13.5184 L 394.12789067975 13.5184 L 416.30728801682 13.5184 L 438.48668535389 13.5184 L 460.66608269096 13.5184 L 482.84548002803 13.5184 L 505.0248773651 13.5184 L 527.20427470217 13.5184 L 549.38367203924 13.5184 L 571.56306937631 13.5184 L 593.74246671339 13.5184 L 615.92186405046 13.5184" class="highcharts-graph" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(29,82) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(29,82) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-0 highcharts-line-series " transform="translate(29,82) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-column-series " transform="translate(29,82) scale(1 1)" clip-path="url(#a)">
       <rect x="10" y="46" width="15" height="1" fill="#8AB77D" class="highcharts-point"/>
       <rect x="32" y="45" width="15" height="1" fill="#8AB77D" class="highcharts-point"/>
       <rect x="54" y="48" width="15" height="1" fill="#8AB77D" class="highcharts-point"/>
@@ -93,8 +93,8 @@
       <rect x="586" y="57" width="15" height="1" fill="#8AB77D" class="highcharts-point"/>
       <rect x="608" y="57" width="15" height="0" fill="#8AB77D" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(29,82) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(29,82) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-1 highcharts-column-series " transform="translate(29,82) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-2 highcharts-column-series " transform="translate(29,82) scale(1 1)" clip-path="url(#a)">
       <rect x="10" y="47" width="15" height="11" fill="#a8c4cb" class="highcharts-point"/>
       <rect x="32" y="46" width="15" height="11" fill="#a8c4cb" class="highcharts-point"/>
       <rect x="54" y="49" width="15" height="10" fill="#a8c4cb" class="highcharts-point"/>
@@ -124,8 +124,8 @@
       <rect x="586" y="58" width="15" height="7" fill="#a8c4cb" class="highcharts-point"/>
       <rect x="608" y="57" width="15" height="7" fill="#a8c4cb" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(29,82) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(29,82) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-2 highcharts-column-series " transform="translate(29,82) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-3 highcharts-column-series " transform="translate(29,82) scale(1 1)" clip-path="url(#a)">
       <rect x="10" y="58" width="15" height="28" fill="#b475ab" class="highcharts-point"/>
       <rect x="32" y="57" width="15" height="29" fill="#b475ab" class="highcharts-point"/>
       <rect x="54" y="59" width="15" height="27" fill="#b475ab" class="highcharts-point"/>
@@ -155,15 +155,15 @@
       <rect x="586" y="65" width="15" height="21" fill="#b475ab" class="highcharts-point"/>
       <rect x="608" y="64" width="15" height="22" fill="#b475ab" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(29,82) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-3 highcharts-column-series " transform="translate(29,82) scale(1 1)" clip-path="none"/>
   </g>
   <text x="3" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:10px;font-weight:bold;fill:#000000;" y="14">
     <tspan>Geförderte Trinkwassermenge</tspan>
   </text>
-  <text x="3" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:10px;font-weight:normal;font-family:arial;fill:#000000;" y="32">
+  <text x="3" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:10px;font-weight:normal;font-family:Arial;fill:#000000;" y="32">
     <tspan>Vergleich mit potenzieller Maximalmenge</tspan>
   </text>
-  <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined " visibility="visible" transform="translate(29,82) scale(1 1)">
+  <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series " visibility="visible" transform="translate(29,82) scale(1 1)">
     <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(1,14)">
       <text x="5" style="font-size:11px;font-weight:normal;color:black;fill:black;" y="16">
         <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">50,5</tspan><tspan x="5" y="16">50,5</tspan>
