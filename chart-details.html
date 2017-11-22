@@ -10,7 +10,7 @@
     <link href="assets/css/indikatoren-filter.css" media="screen" rel="stylesheet" type="text/css">
     
     <script src="assets/js/modules/jquery/dist/jquery.min.js" type="text/javascript"></script>    
-    <script src="assets/js/filter-2.1.0.js" type="text/javascript"></script>
+    <script src="assets/js/modules/filter.js/src/template.js" type="text/javascript"></script>
     <script src="assets/js/url-min.js" type="text/javascript"></script>
     <script src="assets/js/modules/proj4/dist/proj4.js"></script>        
     <script src="assets/js/modules/highcharts/highstock.js" type="text/javascript"></script>
@@ -101,7 +101,7 @@
       global $
       global templatesById
       global lazyRenderChartById
-      global FilterJS
+      global templateBuilder
       */
       
       //get kuerzel and id from url, encode to prevent xss 
@@ -113,7 +113,7 @@
         $.getJSON('metadata/single/'+ id + '.json').done(function(chartMetadata, textStatus){     
             //retrieve template and merge with json to create html
             var html = $('#indikator-template-modal-portal').html();
-            var templateFunction = FilterJS.templateBuilder(html);
+            var templateFunction = templateBuilder(html);
             //append generated html
             var container = $('body');
             container.append(templateFunction(chartMetadata));

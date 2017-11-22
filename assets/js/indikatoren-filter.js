@@ -517,7 +517,7 @@ var afterFilter = function(result, jQ){
             var c = $(this), count = 0;           
             //get last Query JsonQuery Object of last filter event and remove the current filter value from it
             try{
-              var jsonQ = window.FJS.last_Query;           
+              var jsonQ = window.FJS.last_query;           
               //save array to restore later
               var origArray = jsonQ.where().criteria.where[field + '.$in'];
               //add only current item to new criterion array
