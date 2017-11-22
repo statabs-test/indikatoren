@@ -30,7 +30,7 @@
   },
   "series": [
     {
-    "color": "#73BA7C"
+    "color": "#44ab2b"
     }
   ],
   tooltip: {

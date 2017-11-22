@@ -25,13 +25,13 @@
   },
   "series": [
     {
-    "color": "#73BA7C"
+    "color": "#C4AB91"
     }
   ],
   "chart": {
     "marginBottom": 85,
     "marginTop": 75,
-    "type": "column"
+    "type": "line"
   }
 	}
 }());
