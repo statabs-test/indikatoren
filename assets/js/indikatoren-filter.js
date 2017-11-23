@@ -19,15 +19,15 @@ global FilterJS
 global JsonQuery
 global FJS
 
+global isIndikatorensetView
 global indikatorensetData
 global indikatorensetNames
 global lazyRenderChartById
 
-global isIndikatorensetView
-
 */
 
 //holds config of each chart
+
 var sortOptions = {};
 
 var indikatoren;
@@ -422,45 +422,7 @@ function slideToLinkedChart(chartId, FJS, view){
 }
 
 
-//render the html required for links to other chart, kennzahlenset or external resources
-function renderLinksHTML(kennzahlenset, renderLink, externalLinks, indikatorensetView, stufe1){
-  var returnText = "";
-  var displayLinkToIndikatorenset = kennzahlenset;
-  var displayRenderLink = (renderLink && renderLink.length && renderLink[0].length);
-  var displayExternalLinks = (externalLinks && externalLinks.length && externalLinks[0].length);
-  //any of the links need to be present 
-  if (displayLinkToIndikatorenset || displayRenderLink || displayExternalLinks ) {
-    returnText = " \
-        <div> \
-          <h1>Links</h1> \
-          <div class='lesehilfe'> \
-            <ul class='list-unstyled'>\
-        ";
-  
-    if (displayLinkToIndikatorenset) {
-      returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/>Dieser Indikator ist Bestandteil des Indikatorensets <a href='http://www.statistik.bs.ch/zahlen/indikatoren/sets/"+ kennzahlenset.toLowerCase().replace(" ", "-") + ".html' target='_blank'>" + kennzahlenset.replace("-", " ") + "</a>";
-      //in indikatorenset View, add the stufe1 text here
-      if(isIndikatorensetView(indikatorensetView)){
-        returnText += ", " + stufe1;
-      }
-      returnText += ".</li>";
-    }
-    if (displayRenderLink) {
-      returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/><a href='javascript:javascript:slideToLinkedChart(" + renderLink[0] + ", window.FJS, " + indikatorensetView + ")'>Andere Darstellungsform</a> dieser Daten</li>";
-    }
-    if (displayExternalLinks) {
-      externalLinks.forEach(function(v, i, arr){
-        returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/>" + v + "</li>";
-      });
-    }
-    returnText += " \
-            </ul> \
-          </div> \
-        </div> \
-        ";
-  }
-  return returnText;
-}
+
 
 //convert a normal html select given via its css selector to a multiselect dropdown
 function configureMultiselect(selector){
@@ -555,7 +517,7 @@ var afterFilter = function(result, jQ){
             var c = $(this), count = 0;           
             //get last Query JsonQuery Object of last filter event and remove the current filter value from it
             try{
-              var jsonQ = window.FJS.last_Query;           
+              var jsonQ = window.FJS.last_query;           
               //save array to restore later
               var origArray = jsonQ.where().criteria.where[field + '.$in'];
               //add only current item to new criterion array
