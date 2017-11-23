@@ -1286,10 +1286,11 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
+			"Amt für Wald beider Basel",
 			"Stadtgärtnerei Basel-Stadt"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href='https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target='_blank'>Webseite des Bundesamtes für Statistik</a>."
+			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der&nbsp<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik </a>"
 		]
 	},
 	{
@@ -1525,18 +1526,18 @@ var indikatoren = [
 			"Wasser",
 			"Cercle Indicateurs"
 		],
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "Umwelt",
+		"stufe2": "U7: Wasserhaushalt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Wasserabfluss via die ARA Basel sank zwischen 2003 und 2015 von 151 auf 115 m<sup>3</sup> pro Einwohner.",
-		"erlaeuterungen": "Gleitender Mittelwert über drei Jahre der Wasserzuflussmenge der ARA Basel pro angeschlossenem Einwohner und Jahr (Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>).<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
+		"erlaeuterungen": "Gleitender Mittelwert über drei Jahre (Wert für 2015 entspricht Mittelwert der Jahre 2013-2015) der Wasserzuflussmenge der ARA Basel pro angeschlossenem Einwohner und Jahr (Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>). Das Einzugsgebiet der ARA Basel umfasst die Gemeinden Basel, Riehen, Bettingen, Neuwiller (F), Allschwil, Binningen, Birsfelden, Bottmingen, Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Münchenstein (Ortsteil Brüglingen).<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "99_99_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -1575,7 +1576,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Ablauffracht der ARA Basel betrug 2015 308,15 Belastungseinheiten pro Einwohner.",
-		"erlaeuterungen": "Ablauffracht nach ARA pro angeschlossenemr Einwohner auf der Basis eines aggregierten, synthetischen Schadstoff- und Nährstofffaktors aus dem Sauerstoffbedarf (Biochemischer Sauerstoffbedarf BSB5), und aus den Ammonium- und Phosphor-Konzentrationen (Jahresmittelwerte) im Verhältnis zu den entsprechenden Grenzwerten der Einleitungsbedingungen in der Gewässerschutzverordnung multipliziert mit der jährlichen Wasserzuflussmenge durch die ARA (gesamt, gemessen beim ARA Eingang). Der Indikator stellt eine mit der Schadstoff- bzw. Nährstoffbelastung gewichtete virtuell erhöhte Abflussmenge dar (Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>).<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
+		"erlaeuterungen": "Ablauffracht nach ARA pro angeschlossenemr Einwohner auf der Basis eines aggregierten, synthetischen Schadstoff- und Nährstofffaktors aus dem Sauerstoffbedarf (Biochemischer Sauerstoffbedarf BSB<sub>5</sub>), und aus den Ammonium- und Phosphor-Konzentrationen (Jahresmittelwerte) im Verhältnis zu den entsprechenden Grenzwerten der Einleitungsbedingungen in der Gewässerschutzverordnung multipliziert mit der jährlichen Wasserzuflussmenge durch die ARA (gesamt, gemessen beim ARA Eingang). Der Indikator stellt eine mit der Schadstoff- bzw. Nährstoffbelastung gewichtete virtuell erhöhte Abflussmenge dar (Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>). Das Einzugsgebiet der ARA Basel umfasst die Gemeinden Basel, Riehen, Bettingen, Neuwiller (F), Allschwil, Binningen, Birsfelden, Bottmingen, Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Münchenstein (Ortsteil Brüglingen).<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
@@ -1762,7 +1763,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Qualifikationsniveau",
-		"subtitle": "Anteil der 25 – 64 Jährigen mit Ausbildung auf tertiärer Stufe (in der Stadt Basel)",
+		"subtitle": "Anteil der 25- bis 64-Jährigen mit Ausbildung auf tertiärer Stufe (in der Stadt Basel)",
 		"kuerzel": "BI.03.04360",
 		"kuerzelKunde": "W09",
 		"description": "Qualifikationsniveau",
@@ -1784,7 +1785,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Anteil hochqualifizierter Arbeitskräfte in der Stadt Basel ist von 2011 bis 2015 um 5,58 Prozentpunkte gestiegen.",
-		"erlaeuterungen": "Verfügbarkeit hochqualifizierter Arbeitskräfte: Bevölkerungsanteil (Wohnbevölkerung) der 25 – 64 Jährigen mit Ausbildung auf tertiärer Stufe (Hochschulabschlüsse und Abschlüsse mit höherer Berufsbildung). Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>.<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
+		"erlaeuterungen": "Verfügbarkeit hochqualifizierter Arbeitskräfte: Bevölkerungsanteil (Wohnbevölkerung) der 25- bis 64-Jährigen mit Ausbildung auf tertiärer Stufe (Hochschulabschlüsse und Abschlüsse mit höherer Berufsbildung). Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>.<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
@@ -1824,7 +1825,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Nettoverschuldungsquotient des Kantons Basel-Stadt sank von 171,44% im Jahr 2003 auf 65,89% im Jahr 2015.",
-		"erlaeuterungen": "Der Nettoverschuldungsquotient gibt an, welcher Anteil der jährlichen Fiskalerträge erforderlich wäre, um die Nettoschulden abzutragen (Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>).<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
+		"erlaeuterungen": "Der Nettoverschuldungsquotient gibt an, welcher Anteil der jährlichen Fiskalerträge erforderlich wäre, um die Nettoschulden abzutragen. Er wird berechnet, indem die Nettoschulden I durch die Fiskalerträge dividiert werden. (Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>). Bis und mit 2011 wurde für Basel-Stadt zur Berechnung das alte Harmonisierte Rechnungslegungsmodell (HRM1) verwendet, ab 2013 das neue HRM 2 Modell.<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
@@ -1842,7 +1843,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Verkehrsberuhigte Zonen",
-		"subtitle": "in % (in der Stadt Basel)",
+		"subtitle": "Anteil an der Gesamtlänge der Gemeindestrassen in den Bauzonen (in der Stadt Basel)",
 		"kuerzel": "BI.11.04364",
 		"kuerzelKunde": "G01",
 		"description": "Verkehrsberuhigte Zonen",
@@ -1948,7 +1949,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Anzahl Betreuungsplätze in der Stadt Basel lag 2015 bei 185,15 pro 1000 Kindern im Vorschulalter.",
-		"erlaeuterungen": "Anzahl durch die Stadt subventionierte Betreuungsplätze (in Vollzeitäquivalenten) für Kinder im Vorschulalter (0–3 Jahre), pro 1000 Kinder der gleichen Altersgruppe (ständige Wohnbevölkerung am 31.12.). Folgende institutionelle Betreuungsangebote werden berücksichtigt: Kindertagesstätten, Betreuungsangebote für alle Altersgruppen und Tagesfamilien. Schulergänzende Betreuungsangebote, Spielgruppen sowie informelle Betreuungsangebote (Betreuung durch Verwandte, Bekannte, Nachbarn) und nicht institutionelle Betreuungsangebote (Kinderfrauen, Nannys) sind nicht enthalten (Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>).<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
+		"erlaeuterungen": "Anzahl durch die Stadt subventionierte Betreuungsplätze (in Vollzeitäquivalenten) für Kinder im Vorschulalter (0–3 Jahre), pro 1000 Kinder der gleichen Altersgruppe (ständige Wohnbevölkerung am 31.12.). Folgende institutionelle Betreuungsangebote (BA) werden berücksichtigt: Kindertagesstätten, BA für alle Altersgruppen und Tagesfamilien. Nicht enthalten sind Schulergänzende BA, Spielgruppen sowie informelle BA (Betreuung durch Verwandte, Bekannte, Nachbarn) und nicht institutionelle BA (Kinderfrauen, Nannys). Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>.<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
 		"template": "template001",
 		"option": "options001",
 		"visible": true,

@@ -56,9 +56,9 @@
     <tspan>Anteil am gesamten Stromverbrauch (in der Stadt Basel)</tspan>
   </text>
   <g class="highcharts-data-labels highcharts-series-0 highcharts-column-series " visibility="visible" transform="translate(53,75) scale(1 1)">
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(20,29)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(16,29)">
       <text x="5" style="font-size:10px;font-weight:bold;color:#000000;fill:#000000;" y="15">
-        <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">80,0</tspan><tspan x="5" y="15">80,0</tspan>
+        <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">80,0%</tspan><tspan x="5" y="15">80,0%</tspan>
       </text>
     </g>
     <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(101,19)">
@@ -73,9 +73,9 @@
     <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(312,0)">
       <text x="5" style="font-size:10px;font-weight:bold;color:#000000;fill:#000000;" y="15"/>
     </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(370,0)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(365,0)">
       <text x="5" style="font-size:10px;font-weight:bold;color:#000000;fill:#000000;" y="15">
-        <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">100,0</tspan><tspan x="5" y="15">100,0</tspan>
+        <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">100,0%</tspan><tspan x="5" y="15">100,0%</tspan>
       </text>
     </g>
   </g>

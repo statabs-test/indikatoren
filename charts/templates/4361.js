@@ -9,7 +9,7 @@
             var last  = this.series.data[this.series.data.length - 1];
             var first  = this.series.data[0];
             if (this.point.x === first.x || this.point.x === last.x) {
-              return Highcharts.numberFormat(this.point.y, 1, ",", " ");
+              return Highcharts.numberFormat(this.point.y, 2, ",", " ") + "%";
             }
             return "";
           }
@@ -18,7 +18,7 @@
   },
   "yAxis": {
     "labels": {
-      "format": "{value:,.0f}",
+      "format": "{value:,.0f}%",
     },
   },
   "xAxis": {
@@ -34,7 +34,8 @@
     }
   ],
   "tooltip": {
-    "shared": false
+    pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.2f}%</b><br/>',
+    shared: false
   },
   "chart": {
     "marginBottom": 65,
