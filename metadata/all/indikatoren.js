@@ -1290,7 +1290,7 @@ var indikatoren = [
 			"Stadtgärtnerei Basel-Stadt"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der&nbsp<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik </a>"
+			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der&nbsp<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik </a>."
 		]
 	},
 	{
@@ -5612,7 +5612,7 @@ var indikatoren = [
 			"Statistisches Amt Basel-Landschaft"
 		],
 		"externalLinks": [
-			""
+			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der&nbsp<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik </a>."
 		]
 	},
 	{
@@ -5656,7 +5656,7 @@ var indikatoren = [
 			"Statistisches Amt Basel-Landschaft"
 		],
 		"externalLinks": [
-			""
+			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der&nbsp<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik </a>."
 		]
 	},
 	{
@@ -5700,7 +5700,7 @@ var indikatoren = [
 			"Verband Schweizerischer Elektrizitätsunternehmen VSE"
 		],
 		"externalLinks": [
-			""
+			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der&nbsp<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik </a>."
 		]
 	},
 	{
@@ -5741,7 +5741,7 @@ var indikatoren = [
 			"Bundesamt für Statistik (BFS)"
 		],
 		"externalLinks": [
-			""
+			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der&nbsp<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik </a>."
 		]
 	},
 	{
@@ -5782,7 +5782,7 @@ var indikatoren = [
 			"Bundesamt für Statistik (BFS), Bau- und Wohnbaustatistik (B&Wbs)"
 		],
 		"externalLinks": [
-			""
+			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der&nbsp<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik </a>."
 		]
 	},
 	{
@@ -5823,7 +5823,7 @@ var indikatoren = [
 			"Volkswirtschaftliche Gesamtrechnung (VGR)"
 		],
 		"externalLinks": [
-			""
+			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der&nbsp<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik </a>."
 		]
 	},
 	{
@@ -5863,7 +5863,7 @@ var indikatoren = [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
 		"externalLinks": [
-			""
+			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der&nbsp<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik </a>."
 		]
 	},
 	{
@@ -5903,7 +5903,7 @@ var indikatoren = [
 			"Finanzverwaltung Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der&nbsp<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik </a>."
 		]
 	},
 	{
@@ -5944,7 +5944,7 @@ var indikatoren = [
 			"Amt für Mobilität Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der&nbsp<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik </a>."
 		]
 	},
 	{
@@ -5987,7 +5987,7 @@ var indikatoren = [
 			"Bundesamt für Statistik (BFS), Statistik des jährlichen Bevölkerungsstandes, 1981-2010 (ESPOP)"
 		],
 		"externalLinks": [
-			""
+			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der&nbsp<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik </a>."
 		]
 	},
 	{
@@ -6028,7 +6028,7 @@ var indikatoren = [
 			"Erziehungsdepartement, Fachstelle Tagesbetreuung"
 		],
 		"externalLinks": [
-			""
+			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der&nbsp<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik </a>."
 		]
 	},
 	{
