@@ -41,11 +41,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Materielle Hilfeleistungen",
+		"title": "Erhaltene materielle Hilfeleistungen",
 		"subtitle": "«Wie häufig erhalten Sie oder ein anderes Mitglied Ihres Haushaltes materielle Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?»",
 		"kuerzel": "I.50.4.4718",
 		"kuerzelKunde": "1.1.02",
-		"description": "Materielle Hilfeleistungen",
+		"description": "Erhaltene materielle Hilfeleistungen",
 		"id": 4718,
 		"thema": "50 Befragungen",
 		"unterthema": "Befragung 55 plus",
@@ -294,11 +294,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Unterstützung bei Problemen",
+		"title": "Unterstützung von Freunden oder Nachbarn",
 		"subtitle": "«Jeder Mensch braucht in seinem Leben einmal Unterstützung oder Hilfe. Wenn Sie zurück denken, haben Sie sich in nachfolgenden Situationen auch an Freunde/Nachbarn gewendet?»",
 		"kuerzel": "I.50.2.4848",
 		"kuerzelKunde": "1.1.03",
-		"description": "Unterstützung bei Problemen",
+		"description": "Unterstützung von Freunden oder Nachbarn",
 		"id": 4848,
 		"thema": "50 Befragungen",
 		"unterthema": "Familienbefragung",
@@ -336,11 +336,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Nachbarschaftsbeziehungen",
+		"title": "Beurteilung des Verhältnisses zur Nachbarschaft",
 		"subtitle": "«Ich habe ein gutes Verhältnis mit der Mehrheit meiner Nachbarinnen und Nachbarn.»",
 		"kuerzel": "I.50.2.4849",
 		"kuerzelKunde": "1.1.04",
-		"description": "Nachbarschaftsbeziehungen",
+		"description": "Beurteilung des Verhältnisses zur Nachbarschaft",
 		"id": 4849,
 		"thema": "50 Befragungen",
 		"unterthema": "Familienbefragung",
@@ -375,11 +375,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Zusammensetzung Freundeskreis",
+		"title": "Zusammensetzung des Freundeskreises",
 		"subtitle": "«Wie sieht Dein Freundeskreis aus?»",
 		"kuerzel": "I.50.3.4850",
 		"kuerzelKunde": "1.1.05",
-		"description": "Zusammensetzung Freundeskreis",
+		"description": "Zusammensetzung des Freundeskreises",
 		"id": 4850,
 		"thema": "50 Befragungen",
 		"unterthema": "Jugendbefragung",
@@ -415,11 +415,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Nachbarschaftsaustausch",
+		"title": "Zufriedenheit mit dem Austausch mit der Nachbarschaft",
 		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit dem Austausch mit den Nachbarn?»",
 		"kuerzel": "I.50.4.4851",
 		"kuerzelKunde": "1.1.06",
-		"description": "Nachbarschaftsaustausch",
+		"description": "Zufriedenheit mit dem Austausch mit der Nachbarschaft",
 		"id": 4851,
 		"thema": "50 Befragungen",
 		"unterthema": "Befragung 55 plus",
@@ -576,11 +576,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Einschätzung Auslandsbevölkerung",
+		"title": "Beurteilung des Ausländeranteils",
 		"subtitle": "«Grundsätzlich gibt es einfach zu viele Menschen aus dem Ausland bei uns.»",
 		"kuerzel": "I.50.1.4855",
 		"kuerzelKunde": "1.3.02",
-		"description": "Einschätzung Auslandsbevölkerung",
+		"description": "Beurteilung des Ausländeranteils",
 		"id": 4855,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
@@ -616,11 +616,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Beitrag Auslandsbevölkerung",
+		"title": "Beurteilung des Beitrags der ausländischen Bevölkerung zur Lebensqualität",
 		"subtitle": "«Ohne die Menschen aus dem Ausland würden wir nicht so gut leben.»",
 		"kuerzel": "I.50.1.4856",
 		"kuerzelKunde": "1.3.03",
-		"description": "Beitrag Auslandsbevölkerung",
+		"description": "Beurteilung des Beitrags der ausländischen Bevölkerung zur Lebensqualität",
 		"id": 4856,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
@@ -945,11 +945,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Freiwilligenarbeit",
+		"title": "Freiwillige Tätigkeit",
 		"subtitle": "«Sind Sie in Ihrer Freizeit freiwillig tätig?»",
 		"kuerzel": "I.50.1.4864",
 		"kuerzelKunde": "3.1.02",
-		"description": "Freiwilligenarbeit",
+		"description": "Freiwillige Tätigkeit",
 		"id": 4864,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
@@ -984,11 +984,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Freiwilligenarbeit im Alter",
+		"title": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit im Alter",
 		"subtitle": "«Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?»",
 		"kuerzel": "I.50.4.4865",
 		"kuerzelKunde": "3.1.03",
-		"description": "Freiwilligenarbeit im Alter",
+		"description": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit im Alter",
 		"id": 4865,
 		"thema": "50 Befragungen",
 		"unterthema": "Befragung 55 plus",
@@ -1261,11 +1261,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Interesse an Kantonalpolitik",
+		"title": "Interesse an der Politik in Basel-Stadt",
 		"subtitle": "«Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?»",
 		"kuerzel": "I.50.1.4872",
 		"kuerzelKunde": "3.3.03.A",
-		"description": "Interesse an Kantonalpolitik",
+		"description": "Interesse an der Politik in Basel-Stadt",
 		"id": 4872,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
@@ -1302,11 +1302,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Politikintersse der >54-Jährigen",
+		"title": "Politikinteresse der über 54-Jährigen",
 		"subtitle": "«Wie stark beschäftigt Sie im Moment das Thema Politik?»",
 		"kuerzel": "I.50.4.4874",
 		"kuerzelKunde": "3.3.04",
-		"description": "Politikintersse der >54-Jährigen",
+		"description": "Politikinteresse der über 54-Jährigen",
 		"id": 4874,
 		"thema": "50 Befragungen",
 		"unterthema": "Befragung 55 plus",
@@ -1342,11 +1342,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Sozialkontakte im Wohnumfeld",
+		"title": "Zufriedenheit mit Sozialkontakten im Wohnumfeld",
 		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit den Sozialkontakten im Wohnumfeld/Quartier?»",
 		"kuerzel": "I.50.4.4875",
 		"kuerzelKunde": "1.1.07",
-		"description": "Sozialkontakte im Wohnumfeld",
+		"description": "Zufriedenheit mit Sozialkontakten im Wohnumfeld",
 		"id": 4875,
 		"thema": "50 Befragungen",
 		"unterthema": "Befragung 55 plus",
@@ -1383,11 +1383,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Arbeitsplatzgedanken",
+		"title": "Gedanken über die Arbeitsstelle",
 		"subtitle": "«Machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?»",
 		"kuerzel": "I.50.1.4931",
 		"kuerzelKunde": "1.1.08.A",
-		"description": "Arbeitsplatzgedanken",
+		"description": "Gedanken über die Arbeitsstelle",
 		"id": 4931,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
@@ -1423,11 +1423,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Arbeitsplatzsorgen",
+		"title": "Gründe für Gedanken über die Arbeitsstelle",
 		"subtitle": "«Warum machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?»",
 		"kuerzel": "I.50.1.4932",
 		"kuerzelKunde": "1.1.08.B",
-		"description": "Arbeitsplatzsorgen",
+		"description": "Gründe für Gedanken über die Arbeitsstelle",
 		"id": 4932,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
@@ -1465,11 +1465,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Politikinteresse der <30-Jährigen",
+		"title": "Politikinteresse der unter 30-Jährigen",
 		"subtitle": "«Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?» – nur Befragte im Alter zwischen 18 und 29 Jahren",
 		"kuerzel": "I.50.1.4933",
 		"kuerzelKunde": "3.3.03.B",
-		"description": "Politikinteresse der <30-Jährigen",
+		"description": "Politikinteresse der unter 30-Jährigen",
 		"id": 4933,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",

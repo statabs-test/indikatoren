@@ -44,7 +44,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Altersquotient nach Staatsangehörigkeit",
-		"subtitle": "",
+		"subtitle": "Stand: 2015",
 		"kuerzel": "I.01.1.4203",
 		"kuerzelKunde": "1-2",
 		"description": "Altersquotient nach Staatsangehörigkeit",
@@ -87,7 +87,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Jugendquotient nach Staatsangehörigkeit",
-		"subtitle": "",
+		"subtitle": "Stand: 2015",
 		"kuerzel": "I.01.1.4218",
 		"kuerzelKunde": "1-3",
 		"description": "Jugendquotient nach Staatsangehörigkeit",
@@ -257,7 +257,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anteil Ausländer nach Staatsangehörigkeit und Art der Bewilligung",
-		"subtitle": "",
+		"subtitle": "Stand: 2015",
 		"kuerzel": "I.01.1.4340",
 		"kuerzelKunde": "1-5B",
 		"description": "Anteil Ausländer nach Staatsangehörigkeit und Art der Bewilligung",
