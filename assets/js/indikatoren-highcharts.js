@@ -7,7 +7,7 @@ global indikatoren
 global templatesById
 */
 
-//"use strict"; 
+"use strict"; 
 
 //parse csv and configure HighCharts object
 function parseData(chartOptions, data, completeHandler) {
@@ -299,4 +299,53 @@ function exportThumbnail(id, exportType, offline, exportServer){
       filename: id
     });      
   }
+}
+
+
+//render the html required for links to other chart, kennzahlenset or external resources
+function renderLinksHTML(kennzahlenset, renderLink, externalLinks, view, stufe1, renderLinkDisplayMode){
+  var returnText = "";
+  var displayLinkToIndikatorenset = kennzahlenset;
+  //renderLink: Link to different view of same data
+  var displayRenderLink = (renderLink && renderLink.length && renderLink[0].length);
+  var displayExternalLinks = (externalLinks && externalLinks.length && externalLinks[0].length);
+  //any of the links need to be present 
+  if (displayLinkToIndikatorenset || displayRenderLink || displayExternalLinks ) {
+    returnText = " \
+        <div> \
+          <h1>Links</h1> \
+          <div class='lesehilfe'> \
+            <ul class='list-unstyled'>\
+        ";
+    // Only display Link to Indikatorenset if not already in Indikatorenset View
+    if (displayLinkToIndikatorenset) {
+      returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/>Dieser Indikator ist Bestandteil des Indikatorensets <a href='http://www.statistik.bs.ch/zahlen/indikatoren/sets/"+ kennzahlenset.toLowerCase().replace(" ", "-") + ".html' target='_blank'>" + kennzahlenset.replace('-', ' ') + "</a>";
+      //in indikatorenset View, add the stufe1 text here
+      if(isIndikatorensetView(view) && stufe1){
+        returnText += ", " + stufe1;
+      }
+      returnText += ".</li>";      
+    }
+    if (displayRenderLink) {
+      if (renderLinkDisplayMode == 'slide' || renderLinkDisplayMode === undefined){
+        //we're in carousel mode, slide to other chart
+        returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/><a href='javascript:javascript:slideToLinkedChart(" + renderLink[0] + ", window.FJS, " + isIndikatorensetView(view) + ")'>Andere Darstellungsform</a> dieser Daten</li>";
+      }
+      else{
+        //we're in chart-detail.html, open link to other chart
+        returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/><a href='chart-details.html?id=" + renderLink[0] + "'>Andere Darstellungsform</a> dieser Daten</li>";
+      }
+    }
+    if (displayExternalLinks) {
+      externalLinks.forEach(function(v, i, arr){
+        returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/>" + v + "</li>";
+      });
+    }
+    returnText += " \
+            </ul> \
+          </div> \
+        </div> \
+        ";
+  }
+  return returnText;
 }

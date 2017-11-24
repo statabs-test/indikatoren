@@ -1,9 +1,9 @@
 var indikatorensetNames = [
 	"Wohnraumentwicklung",
-	"Integration kompakt",
+	"Integration-kompakt",
 	"Cercle-Indicateurs",
 	"Umwelt",
-	"Gesellschaftlicher Zusammenhalt",
+	"Gesellschaftlicher-Zusammenhalt",
 	"Wohnviertel",
 	"Richtplan",
 	"Richtplan-Print",
