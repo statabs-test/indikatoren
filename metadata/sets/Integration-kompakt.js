@@ -940,7 +940,7 @@ var indikatorensetData = [
 			"Geburtsort",
 			"Staatsangehörigkeit"
 		],
-		"stufe1": "",
+		"stufe1": "Themenbereich 2: Wohnortwahl",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
