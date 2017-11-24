@@ -17,7 +17,7 @@ var indikatorensetData = [
 			"Bevölkerung",
 			"Wohnen"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -31,13 +31,10 @@ var indikatorensetData = [
 		"orderKey": "01_01_00_00_00_002",
 		"parentId": null,
 		"children": [
-			"5862",
 			"6092",
 			"6242"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -63,7 +60,7 @@ var indikatorensetData = [
 			"Bevölkerung",
 			"Wohnen"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -77,13 +74,10 @@ var indikatorensetData = [
 		"orderKey": "01_01_00_00_00_003",
 		"parentId": null,
 		"children": [
-			"5863",
 			"6093",
 			"6243"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -108,7 +102,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Pendler"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -122,13 +116,10 @@ var indikatorensetData = [
 		"orderKey": "01_01_00_00_00_012",
 		"parentId": null,
 		"children": [
-			"5864",
 			"6094",
 			"6244"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -153,7 +144,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Wohnung"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -167,13 +158,10 @@ var indikatorensetData = [
 		"orderKey": "01_01_00_00_00_005",
 		"parentId": null,
 		"children": [
-			"5873",
 			"6103",
 			"6245"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
@@ -198,7 +186,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Wohnung"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -212,13 +200,10 @@ var indikatorensetData = [
 		"orderKey": "01_01_00_00_00_006",
 		"parentId": 6009,
 		"children": [
-			"5874",
 			"6104",
 			"6246"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
@@ -243,7 +228,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Wohnen"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -257,13 +242,10 @@ var indikatorensetData = [
 		"orderKey": "01_01_00_00_00_007",
 		"parentId": 4140,
 		"children": [
-			"5875",
 			"6105",
 			"6247"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -289,7 +271,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Wohnen"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -303,13 +285,10 @@ var indikatorensetData = [
 		"orderKey": "01_01_00_00_00_008",
 		"parentId": 4135,
 		"children": [
-			"5876",
 			"6106",
 			"6248"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
@@ -334,7 +313,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Wohnung"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -348,13 +327,10 @@ var indikatorensetData = [
 		"orderKey": "01_01_00_00_00_009",
 		"parentId": null,
 		"children": [
-			"5877",
 			"6107",
 			"6249"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
@@ -379,7 +355,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Wohnung"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -421,7 +397,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Grünflächen"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -435,13 +411,10 @@ var indikatorensetData = [
 		"orderKey": "01_02_00_00_00_001",
 		"parentId": 4150,
 		"children": [
-			"5879",
 			"6109",
 			"6251"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_7"
 		],
@@ -467,7 +440,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Zufriedenheit"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -481,13 +454,10 @@ var indikatorensetData = [
 		"orderKey": "01_02_00_00_00_002",
 		"parentId": 5037,
 		"children": [
-			"5881",
 			"6110",
 			"6252"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
 		],
@@ -512,7 +482,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"ÖV"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 6: Erschliessungsqualität",
 		"stufe3": "",
 		"stufe4": "",
@@ -534,8 +504,8 @@ var indikatorensetData = [
 			"Amt für Mobilität Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href='http://map.geo.bs.ch/main/wsgi/file_proxy/GO_GueteklassenOeV/Definition_Gueteklassen_oeffentlicher_Verkehr.pdf' target='_blank'>Definition der Güteklassen des öffentlichen Verkehrs</a>",
-			"<a href='http://www.stadtplan.bs.ch/geoviewer/index.php?theme=340&cps=2614062.08,1267876.03,50000&nodefault&layers=stadtplan_grau_osm_50000,gueteklassen' target='_blank'>Karte der Güteklassen des öffentlichen Verkehrs</a>"
+			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/data/GO_GueteklassenOeV/Definition_Gueteklassen_oeffentlicher_Verkehr.pdf' target = '_blank'>Definition der Güteklassen des öffentlichen Verkehrs</a>",
+			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?theme=340&cps=2614062.08,1267876.03,50000&nodefault&layers=stadtplan_grau_osm_50000,gueteklassen' target = '_blank'>Karte der Güteklassen des öffentlichen Verkehrs</a>"
 		]
 	},
 	{
@@ -555,7 +525,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Beschäftigte"
 		],
-		"stufe1": "Siedlung - Wirtschaft",
+		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
 		"stufe4": "",
@@ -569,13 +539,10 @@ var indikatorensetData = [
 		"orderKey": "02_04_00_00_00_002",
 		"parentId": null,
 		"children": [
-			"5883",
 			"6112",
 			"6254"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
@@ -600,7 +567,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Gebäude"
 		],
-		"stufe1": "Siedlung - Wirtschaft",
+		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
 		"stufe4": "",
@@ -645,7 +612,7 @@ var indikatorensetData = [
 			"Standort",
 			"Kantonsvergleich"
 		],
-		"stufe1": "Siedlung - Wirtschaft",
+		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 8: Qualität für Wirtschaft und Bildung",
 		"stufe3": "",
 		"stufe4": "",
@@ -659,13 +626,10 @@ var indikatorensetData = [
 		"orderKey": "02_05_00_00_00_001",
 		"parentId": 3104,
 		"children": [
-			"5908",
 			"6119",
 			"6256"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"
 		],
@@ -690,7 +654,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Index"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -704,13 +668,10 @@ var indikatorensetData = [
 		"orderKey": "01_01_00_00_00_011",
 		"parentId": null,
 		"children": [
-			"5909",
 			"6120",
 			"6257"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -736,13 +697,13 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Lärm"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 6: Erschliessungsqualität",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Von 2010 bis 2016 haben vor allem die Verkehrsmittel Velo und ÖV BVB/BLT einen Anstieg erfahren. Während demselben Zeitraum hat die Nutzung des Verkehrsmittel MIV Stadtstrassennetz abgenommen.",
-		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet.<br/> <br/>Autoverkehr (MIV): Der Index für den motorisierten Individualverkehr berechnet sich anhand von rund 35 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamts für Strassen. Der Index umfasst die Verkehrsleistung aller Motorfahrzeuge (inkl. Lastwagen, Lieferwagen, Motorrädern), aber ohne Linienbusse, Motorfahrräder und E-Bikes.<br/><br/>Veloverkehr: Der Index für den Veloverkehr wird auf Basis von rund 20 Zählstellen des Kantons Basel-Stadt berechnet. Da der Veloverkehr stark wetterabhängig ist, wurde vom Statistischen Amt des Kantons Basel-Stadt ein Modell entwickelt, welches es zulässt, den Wettereinfluss aus der Verkehrsentwicklung herauszurechnen.<br/><br/>Fussverkehr: Der Index für den Fussverkehr basiert auf rund 17 Zählstellen. Die Daten werden erst seit dem Jahr 2013 erhoben.<br/><br/>Öffentlicher Verkehr (ÖV): Der Index des öffentlichen Verkehrs wird auf Basis der Verkehrsdaten von Tram- und Buslinien der BVB und der BLT und den S-Bahnen (nur alle zwei Jahre), abgegrenzt auf das Gebiet des Kantons Basel-Stadt, berechnet. Der Gesamtindex für den ÖV kann im jeweiligen Jahr erst im Herbst veröffentlicht werden, sobald die Daten für die S-Bahnen vorliegen.<br/> <br/>Aus der Veränderung an den Zählstellen wird die Veränderung auf dem ganzen Kantonsgebiet abgeleitet, indem jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet wird.<br/> <br/>Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1705' target='_blank'>Umweltbericht beider Basel</a>.",
+		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet.<br/> <br/>Autoverkehr: Der Index für den motorisierten Individualverkehr (MIV) berechnet sich anhand von rund 35 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamts für Strassen. Der Index umfasst die Verkehrsleistung aller Motorfahrzeuge (inkl. Lastwagen, Lieferwagen, Motorrädern), aber ohne Linienbusse, Motorfahrräder und E-Bikes.<br/><br/>Veloverkehr: Der Index für den Veloverkehr wird auf Basis von rund 20 Zählstellen des Kantons Basel-Stadt berechnet. Da der Veloverkehr stark wetterabhängig ist, wurde vom Statistischen Amt des Kantons Basel-Stadt ein Modell entwickelt, welches es zulässt, den Wettereinfluss aus der Verkehrsentwicklung herauszurechnen.<br/><br/>Fussverkehr: Der Index für den Fussverkehr basiert auf rund 17 Zählstellen. Die Daten werden erst seit dem Jahr 2013 erhoben.<br/><br/>Öffentlicher Verkehr (ÖV): Der Index des öffentlichen Verkehrs wird auf Basis der Verkehrsdaten von Tram- und Buslinien der BVB und der BLT und den S-Bahnen (nur alle zwei Jahre), abgegrenzt auf das Gebiet des Kantons Basel-Stadt, berechnet. Der Gesamtindex für den ÖV kann im jeweiligen Jahr erst im Herbst veröffentlicht werden, sobald die Daten für die S-Bahnen vorliegen.<br/> <br/>Aus der Veränderung an den Zählstellen wird die Veränderung auf dem ganzen Kantonsgebiet abgeleitet, indem jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet wird.<br/> <br/>Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1705' target='_blank'>Umweltbericht beider Basel</a>.",
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
@@ -750,13 +711,10 @@ var indikatorensetData = [
 		"orderKey": "01_03_00_00_00_002",
 		"parentId": null,
 		"children": [
-			"6008",
 			"6123",
 			"6258"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
@@ -781,7 +739,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Bevölkerung"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -796,12 +754,9 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [
 			"6221",
-			"6229",
 			"6259"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -827,7 +782,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Bevölkerung"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -870,7 +825,7 @@ var indikatorensetData = [
 			"Zufriedenheit",
 			"Bevölkerung"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -885,12 +840,9 @@ var indikatorensetData = [
 		"parentId": 5178,
 		"children": [
 			"6223",
-			"6231",
 			"6261"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Bevölkerungsbefragung Basel-Stadt 2015, Frage F6"
 		],
@@ -915,7 +867,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Gebäude"
 		],
-		"stufe1": "Siedlung - Wirtschaft",
+		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
 		"stufe4": "",
@@ -957,7 +909,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Bildung"
 		],
-		"stufe1": "Siedlung - Wirtschaft",
+		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 8: Qualität für Wirtschaft und Bildung",
 		"stufe3": "",
 		"stufe4": "",
@@ -972,12 +924,9 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [
 			"6225",
-			"6233",
 			"6263"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -1002,7 +951,7 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Haushalt"
 		],
-		"stufe1": "Siedlung - Wohnen",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
@@ -1017,12 +966,9 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [
 			"6227",
-			"6235",
 			"6264"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Planungsamt Basel-Stadt"
@@ -1049,7 +995,7 @@ var indikatorensetData = [
 			"Arbeit",
 			"Angestellte"
 		],
-		"stufe1": "Siedlung - Wirtschaft",
+		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
 		"stufe4": "",
@@ -1064,11 +1010,10 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [
 			"6241",
-			"6265"
+			"6265",
+			"6347"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
