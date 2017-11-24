@@ -531,7 +531,7 @@
       },
       "rotation": -45
     },
-    "tickColor": "#FFFFFF",
+    "tickLength": 0,
     "tickInterval": 155520000000,
     "min": -60652800000
   },

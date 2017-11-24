@@ -75,7 +75,7 @@
       "rotation": 0,
       "padding": -100
     },
-    "tickColor": "#FFFFFF"
+    "tickLength": 0
   },
   "chart": {
     "borderColor": "#fbfbfb",

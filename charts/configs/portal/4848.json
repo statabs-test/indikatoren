@@ -88,7 +88,7 @@
         "color": "#000000"
       }
     },
-    "tickColor": "#FFFFFF"
+    "tickLength": 0
   },
   "chart": {
     "borderColor": "#fbfbfb",
@@ -205,6 +205,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.50.2.0002"
+    "filename": "I.50.2.4848"
   }
 }

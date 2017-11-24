@@ -37,7 +37,7 @@
       },
       "rotation": 0
     },
-    "tickColor": "#FFFFFF"
+    "tickLength": 0
   },
   "chart": {
     "borderColor": "#fbfbfb",

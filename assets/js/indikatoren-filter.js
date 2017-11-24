@@ -19,17 +19,15 @@ global FilterJS
 global JsonQuery
 global FJS
 
-global indikatoren
+global isIndikatorensetView
 global indikatorensetData
 global indikatorensetNames
 global lazyRenderChartById
 
-global seedrandom
-
 */
 
 //holds config of each chart
-var chartOptions = {};
+
 var sortOptions = {};
 
 var indikatoren;
@@ -141,7 +139,7 @@ function initializeFilterJS(indikatorenset){
 
     //reset all filter criteria
     $("#portal-reset-button").click(function(){
-      resetPortalFilter(FJS, false)
+      resetPortalFilter(FJS, false);
     });
   }  
 
@@ -424,40 +422,7 @@ function slideToLinkedChart(chartId, FJS, view){
 }
 
 
-//render the html required for links to other chart, kennzahlenset or external resources
-function renderLinksHTML(kennzahlenset, renderLink, externalLinks, view){
-  var returnText = "";
-  var displayLinkToIndikatorenset = (kennzahlenset && !isIndikatorensetView(view));
-  var displayRenderLink = (renderLink && renderLink.length && renderLink[0].length);
-  var displayExternalLinks = (externalLinks && externalLinks.length && externalLinks[0].length);
-  //any of the links need to be present 
-  if (displayLinkToIndikatorenset || displayRenderLink || displayExternalLinks ) {
-    returnText = " \
-        <div> \
-          <h1>Links</h1> \
-          <div class='lesehilfe'> \
-            <ul class='list-unstyled'>\
-        ";
-    // Only display Link to Indikatorenset if not already in Indikatorenset View
-    if (displayLinkToIndikatorenset) {
-      returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/>Dieser Indikator ist Bestandteil des Indikatorensets <a href='http://www.statistik.bs.ch/zahlen/indikatoren/sets/"+ kennzahlenset.toLowerCase().replace(" ", "-") + ".html' target='_blank'>" + kennzahlenset + "</a>.</li>";
-    }
-    if (displayRenderLink) {
-      returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/><a href='javascript:javascript:slideToLinkedChart(" + renderLink[0] + ", window.FJS, " + view + ")'>Andere Darstellungsform</a> dieser Daten</li>";
-    }
-    if (displayExternalLinks) {
-      externalLinks.forEach(function(v, i, arr){
-        returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/>" + v + "</li>";
-      });
-    }
-    returnText += " \
-            </ul> \
-          </div> \
-        </div> \
-        ";
-  }
-  return returnText;
-}
+
 
 //convert a normal html select given via its css selector to a multiselect dropdown
 function configureMultiselect(selector){
@@ -631,7 +596,7 @@ var afterFilter = function(result, jQ){
     function createCarousel(result){            
       //add a carousel-inner div for each thumbnail
       //build template function using template from DOM
-      var template = (isIndikatorensetView(view)) ? '#indikator-template-modal-indikatorenset' : '#indikator-template-modal-portal';
+      var template = (isIndikatorensetView(indikatorensetView)) ? '#indikator-template-modal-indikatorenset' : '#indikator-template-modal-portal';
       var html = $(template).html();
       var templateFunction = FilterJS.templateBuilder(html);
       var container = $('#carousel-inner');

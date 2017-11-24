@@ -131,7 +131,7 @@
     "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
-    "tickColor": "#FFFFFF",
+    "tickLength": 0,
     "title": {
       "style": {
         "color": "#000000"
@@ -184,7 +184,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Ohne die Menschen aus dem Ausland würden wir nicht so gut leben."
+    "text": "Beurteilung des Beitrags der ausländischen Bevölkerung zur Lebensqualität"
   },
   "subtitle": {
     "style": {
@@ -267,6 +267,6 @@
         }
   },
   "exporting": {
-    "filename": "I.50.1.0015"
+    "filename": "I.50.1.4856"
   }
 }

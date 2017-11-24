@@ -66,7 +66,7 @@
         "color": "#000000"
       }
     },
-    "tickColor": "#FFFFFF"
+    "tickLength": 0
   },
   "chart": {
     "borderColor": "#fbfbfb",
@@ -121,7 +121,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Jugendquotient nach Staatsangehörigkeit 2015"
+    "text": "Jugendquotient nach Staatsangehörigkeit"
   },
   "subtitle": {
     "style": {
@@ -130,7 +130,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Stand: 2015",
     "align": "left"
   },
   "yAxis": {
@@ -169,7 +169,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
   },
   "legend": {
     "symbolRadius": 0,
@@ -193,6 +193,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.01.1.0015"
+    "filename": "I.01.1.4218"
   }
 }

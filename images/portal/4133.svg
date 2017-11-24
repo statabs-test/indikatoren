@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 6.0.3
+    Created with Highstock 5.0.14
   </desc>
   <defs>
     <clipPath>
@@ -40,26 +40,13 @@
   </g>
   <rect fill="none" class="highcharts-plot-border" x="65" y="75" width="280" height="265"/>
   <g class="highcharts-axis highcharts-xaxis ">
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 87.5 340 L 87.5 350" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 111.5 340 L 111.5 350" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 134.5 340 L 134.5 350" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 157.5 340 L 157.5 350" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 181.5 340 L 181.5 350" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 204.5 340 L 204.5 350" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 227.5 340 L 227.5 350" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 251.5 340 L 251.5 350" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 274.5 340 L 274.5 350" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 297.5 340 L 297.5 350" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 321.5 340 L 321.5 350" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 345.5 340 L 345.5 350" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 64.5 340 L 64.5 350" opacity="1"/>
     <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width="0.5" d="M 65 340.25 L 345 340.25"/>
   </g>
   <g class="highcharts-axis highcharts-yaxis ">
     <path fill="none" class="highcharts-axis-line" d="M 65 75 L 65 340"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series " transform="translate(65,75) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(65,75) scale(1 1)" clip-path="url(#a)">
       <rect x="6" y="44" width="12" height="12" fill="#B00000" class="highcharts-point"/>
       <rect x="29" y="44" width="12" height="11" fill="#B00000" class="highcharts-point"/>
       <rect x="53" y="44" width="12" height="12" fill="#B00000" class="highcharts-point"/>
@@ -73,8 +60,8 @@
       <rect x="239" y="37" width="12" height="13" fill="#B00000" class="highcharts-point"/>
       <rect x="263" y="35" width="12" height="13" fill="#B00000" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-column-series " transform="translate(65,75) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-1 highcharts-column-series " transform="translate(65,75) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(65,75) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(65,75) scale(1 1)" clip-path="url(#a)">
       <rect x="6" y="56" width="12" height="13" fill="#CD9C00" class="highcharts-point"/>
       <rect x="29" y="55" width="12" height="14" fill="#CD9C00" class="highcharts-point"/>
       <rect x="53" y="56" width="12" height="13" fill="#CD9C00" class="highcharts-point"/>
@@ -88,8 +75,8 @@
       <rect x="239" y="50" width="12" height="14" fill="#CD9C00" class="highcharts-point"/>
       <rect x="263" y="48" width="12" height="15" fill="#CD9C00" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-1 highcharts-column-series " transform="translate(65,75) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-2 highcharts-column-series " transform="translate(65,75) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(65,75) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(65,75) scale(1 1)" clip-path="url(#a)">
       <rect x="6" y="69" width="12" height="37" fill="#689199" class="highcharts-point"/>
       <rect x="29" y="69" width="12" height="37" fill="#689199" class="highcharts-point"/>
       <rect x="53" y="69" width="12" height="37" fill="#689199" class="highcharts-point"/>
@@ -103,8 +90,8 @@
       <rect x="239" y="64" width="12" height="40" fill="#689199" class="highcharts-point"/>
       <rect x="263" y="63" width="12" height="40" fill="#689199" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-2 highcharts-column-series " transform="translate(65,75) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-3 highcharts-column-series " transform="translate(65,75) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(65,75) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(65,75) scale(1 1)" clip-path="url(#a)">
       <rect x="6" y="106" width="12" height="82" fill="#68AB2B" class="highcharts-point"/>
       <rect x="29" y="106" width="12" height="83" fill="#68AB2B" class="highcharts-point"/>
       <rect x="53" y="106" width="12" height="83" fill="#68AB2B" class="highcharts-point"/>
@@ -118,8 +105,8 @@
       <rect x="239" y="104" width="12" height="86" fill="#68AB2B" class="highcharts-point"/>
       <rect x="263" y="103" width="12" height="86" fill="#68AB2B" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-3 highcharts-column-series " transform="translate(65,75) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-4 highcharts-column-series " transform="translate(65,75) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(65,75) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined " transform="translate(65,75) scale(1 1)" clip-path="url(#a)">
       <rect x="6" y="188" width="12" height="53" fill="#923F8D" class="highcharts-point"/>
       <rect x="29" y="189" width="12" height="52" fill="#923F8D" class="highcharts-point"/>
       <rect x="53" y="189" width="12" height="52" fill="#923F8D" class="highcharts-point"/>
@@ -133,8 +120,8 @@
       <rect x="239" y="190" width="12" height="53" fill="#923F8D" class="highcharts-point"/>
       <rect x="263" y="189" width="12" height="54" fill="#923F8D" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-4 highcharts-column-series " transform="translate(65,75) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-5 highcharts-column-series " transform="translate(65,75) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-4 highcharts-column-series highcharts-color-undefined " transform="translate(65,75) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-5 highcharts-column-series highcharts-color-undefined " transform="translate(65,75) scale(1 1)" clip-path="url(#a)">
       <rect x="6" y="241" width="12" height="25" fill="#DC440E" class="highcharts-point"/>
       <rect x="29" y="241" width="12" height="25" fill="#DC440E" class="highcharts-point"/>
       <rect x="53" y="241" width="12" height="25" fill="#DC440E" class="highcharts-point"/>
@@ -148,12 +135,12 @@
       <rect x="239" y="243" width="12" height="23" fill="#DC440E" class="highcharts-point"/>
       <rect x="263" y="243" width="12" height="23" fill="#DC440E" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-5 highcharts-column-series " transform="translate(65,75) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-5 highcharts-column-series highcharts-color-undefined " transform="translate(65,75) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Anzahl Wohnungen</tspan>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="40">
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
     <tspan>nach Zimmerzahl</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(357,135)">
@@ -258,6 +245,6 @@
     </text>
   </g>
   <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="400">
-    <tspan>Quelle: Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik</tspan>
+    <tspan>Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik</tspan>
   </text>
 </svg>

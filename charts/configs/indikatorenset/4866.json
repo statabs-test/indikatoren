@@ -118,7 +118,7 @@
         "color": "#000000"
       }
     },
-    "tickColor": "#FFFFFF",
+    "tickLength": 0,
     "tickInterval": 1
   },
   "yAxis": {
@@ -158,7 +158,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik BFS, Polizeiliche Kriminalstatistik (PKS)"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
   },
   "legend": {
     "symbolRadius": 0,
@@ -168,6 +168,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.19.1.0001"
+    "filename": "I.19.1.4866"
   }
 }

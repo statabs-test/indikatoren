@@ -479,7 +479,7 @@
            return this.value.split(" ").reverse().join(" ");
          }
     },
-    "tickColor": "#FFFFFF",
+    "tickLength": 0,
     "tickInterval": 1
   },
   "chart": {
