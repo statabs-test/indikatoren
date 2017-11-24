@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.0.3
   </desc>
   <defs>
     <clipPath>
@@ -35,64 +35,58 @@
   </g>
   <rect fill="none" class="highcharts-plot-border" x="47" y="70" width="305" height="280"/>
   <g class="highcharts-axis highcharts-xaxis ">
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 107.5 350 L 107.5 360" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 168.5 350 L 168.5 360" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 229.5 350 L 229.5 360" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 290.5 350 L 290.5 360" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 352.5 350 L 352.5 360" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 46.5 350 L 46.5 360" opacity="1"/>
     <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width="0.5" d="M 47 350.25 L 352 350.25"/>
   </g>
   <g class="highcharts-axis highcharts-yaxis ">
     <path fill="none" class="highcharts-axis-line" d="M 47 70 L 47 350"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(47,70) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series " transform="translate(47,70) scale(1 1)" clip-path="url(#a)">
       <rect x="13" y="255" width="6" height="26" fill="#007A2F" class="highcharts-point"/>
       <rect x="74" y="258" width="6" height="23" fill="#007A2F" class="highcharts-point"/>
       <rect x="135" y="266" width="6" height="15" fill="#007A2F" class="highcharts-point"/>
       <rect x="196" y="245" width="6" height="36" fill="#007A2F" class="highcharts-point"/>
       <rect x="257" y="247" width="6" height="34" fill="#007A2F" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(47,70) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(47,70) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series " transform="translate(47,70) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-column-series " transform="translate(47,70) scale(1 1)" clip-path="url(#a)">
       <rect x="20" y="73" width="6" height="208" fill="#73BA7C" class="highcharts-point"/>
       <rect x="81" y="55" width="6" height="226" fill="#73BA7C" class="highcharts-point"/>
       <rect x="142" y="85" width="6" height="196" fill="#73BA7C" class="highcharts-point"/>
       <rect x="203" y="31" width="6" height="250" fill="#73BA7C" class="highcharts-point"/>
       <rect x="264" y="43" width="6" height="238" fill="#73BA7C" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(47,70) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(47,70) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-1 highcharts-column-series " transform="translate(47,70) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-2 highcharts-column-series " transform="translate(47,70) scale(1 1)" clip-path="url(#a)">
       <rect x="28" y="203" width="6" height="78" fill="#C8C8C8" class="highcharts-point"/>
       <rect x="89" y="217" width="6" height="64" fill="#C8C8C8" class="highcharts-point"/>
       <rect x="150" y="208" width="6" height="73" fill="#C8C8C8" class="highcharts-point"/>
       <rect x="211" y="249" width="6" height="32" fill="#C8C8C8" class="highcharts-point"/>
       <rect x="272" y="251" width="6" height="30" fill="#C8C8C8" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(47,70) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(47,70) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-2 highcharts-column-series " transform="translate(47,70) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-3 highcharts-column-series " transform="translate(47,70) scale(1 1)" clip-path="url(#a)">
       <rect x="35" y="204" width="6" height="77" fill="#FFBB58" class="highcharts-point"/>
       <rect x="96" y="204" width="6" height="77" fill="#FFBB58" class="highcharts-point"/>
       <rect x="157" y="177" width="6" height="104" fill="#FFBB58" class="highcharts-point"/>
       <rect x="218" y="208" width="6" height="73" fill="#FFBB58" class="highcharts-point"/>
       <rect x="279" y="195" width="6" height="86" fill="#FFBB58" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(47,70) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined " transform="translate(47,70) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-3 highcharts-column-series " transform="translate(47,70) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-4 highcharts-column-series " transform="translate(47,70) scale(1 1)" clip-path="url(#a)">
       <rect x="42" y="270" width="6" height="11" fill="#FF8028" class="highcharts-point"/>
       <rect x="103" y="271" width="6" height="10" fill="#FF8028" class="highcharts-point"/>
       <rect x="164" y="268" width="6" height="13" fill="#FF8028" class="highcharts-point"/>
       <rect x="225" y="271" width="6" height="10" fill="#FF8028" class="highcharts-point"/>
       <rect x="286" y="270" width="6" height="11" fill="#FF8028" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-4 highcharts-column-series highcharts-color-undefined " transform="translate(47,70) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-4 highcharts-column-series " transform="translate(47,70) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Beurteilung der politischen Behörden</tspan>
+    <tspan>Vertretung der Anliegen der Bevölkerung durch Behörden</tspan>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;fill:#000000;" y="40">
-    <tspan>«Wie gut vertreten die Behörden, also der Regierungsrat und der Grosse Rat</tspan><tspan dy="15" x="10">die Anliegen der Bevölkerung?»</tspan><title>«Wie gut vertreten die Behörden, also der Regierungsrat und der Grosse Rat die Anliegen der Bevölkerung?»</title>
+    <tspan>«Wie gut vertreten die Behörden, also der Regierungsrat und der Grosse Rat,</tspan><tspan dy="15" x="10">die Anliegen der Bevölkerung?»</tspan><title>«Wie gut vertreten die Behörden, also der Regierungsrat und der Grosse Rat, die Anliegen der Bevölkerung?»</title>
   </text>
   <g class="highcharts-legend" transform="translate(364,137)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="110" height="121" visibility="visible"/>

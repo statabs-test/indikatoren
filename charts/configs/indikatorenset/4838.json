@@ -199,7 +199,7 @@
         "fontSize": "10px"
       }
     },
-    "tickColor": "#FFFFFF",
+    "tickLength": 0,
     "tickInterval": 1
   },
   "chart": {
@@ -292,7 +292,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Bundesamt für Statistik BFS, STATENT"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
   },
   "legend": {
     "enabled": false,

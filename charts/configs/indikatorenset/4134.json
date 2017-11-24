@@ -232,7 +232,7 @@
         "color": "#000000"
       }
     },
-    "tickColor": "#FFFFFF"
+    "tickLength": 0
   },
   "chart": {
     "borderColor": "#fbfbfb",
@@ -332,7 +332,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Gebäude- und Wohnungsstatistik"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
   },
   "legend": {
     "symbolRadius": 0,

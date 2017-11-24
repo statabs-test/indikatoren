@@ -199,7 +199,7 @@
         "fontSize": "10px"
       }
     },
-    "tickColor": "#FFFFFF",
+    "tickLength": 0,
     "tickInterval": 1
   },
   "chart": {
@@ -291,7 +291,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
   },
   "legend": {
     "enabled": false,

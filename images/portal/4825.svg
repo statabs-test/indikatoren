@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.0.3
   </desc>
   <defs>
     <clipPath>
@@ -51,36 +51,14 @@
   </g>
   <rect fill="none" class="highcharts-plot-border" x="112" y="55" width="363" height="294"/>
   <g class="highcharts-axis highcharts-xaxis ">
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 112 69.5 L 102 69.5" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 112 83.5 L 102 83.5" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 112 97.5 L 102 97.5" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 112 111.5 L 102 111.5" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 112 125.5 L 102 125.5" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 112 139.5 L 102 139.5" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 112 153.5 L 102 153.5" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 112 167.5 L 102 167.5" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 112 181.5 L 102 181.5" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 112 195.5 L 102 195.5" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 112 209.5 L 102 209.5" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 112 223.5 L 102 223.5" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 112 237.5 L 102 237.5" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 112 251.5 L 102 251.5" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 112 265.5 L 102 265.5" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 112 279.5 L 102 279.5" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 112 293.5 L 102 293.5" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 112 307.5 L 102 307.5" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 112 321.5 L 102 321.5" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 112 335.5 L 102 335.5" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 112 349.5 L 102 349.5" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 112 54.5 L 102 54.5" opacity="1"/>
     <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width="0.5" d="M 111.75 55 L 111.75 349"/>
   </g>
   <g class="highcharts-axis highcharts-yaxis ">
     <path fill="none" class="highcharts-axis-line" d="M 112 349 L 475 349"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-scatter-series highcharts-color-undefined " transform="translate(475,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)"/>
-    <g class="highcharts-markers highcharts-series-0 highcharts-scatter-series highcharts-color-undefined " transform="translate(475,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="none">
+    <g class="highcharts-series highcharts-series-0 highcharts-scatter-series " transform="translate(475,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)"/>
+    <g class="highcharts-markers highcharts-series-0 highcharts-scatter-series " transform="translate(475,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="none">
       <path fill="#923F8D" d="M 291 232 A 4 4 0 1 1 290.9999980000002 231.99600000066667 Z" class="highcharts-point"/>
       <path fill="#923F8D" d="M 277 201 A 4 4 0 1 1 276.9999980000002 200.99600000066667 Z" class="highcharts-point"/>
       <path fill="#923F8D" d="M 263 191 A 4 4 0 1 1 262.9999980000002 190.99600000066667 Z" class="highcharts-point"/>
@@ -106,10 +84,10 @@
     <g class="highcharts-series highcharts-series-1 highcharts-scatter-series highcharts-color-0 " visibility="hidden" transform="translate(475,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)"/>
     <g class="highcharts-markers highcharts-series-1 highcharts-scatter-series highcharts-color-0 " visibility="hidden" transform="translate(475,349) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
   </g>
-  <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;font-family:arial;fill:#000000;" y="21">
+  <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;font-family:Arial;fill:#000000;" y="21">
     <tspan>Anteil Personen in Einpersonenhaushalten</tspan>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="40">
     <tspan>Stand: 2016</tspan>
   </text>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
@@ -204,6 +182,6 @@
     </text>
   </g>
   <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="400">
-    <tspan>Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik</tspan>
+    <tspan>Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik</tspan>
   </text>
 </svg>

@@ -141,7 +141,7 @@
     "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
-    "tickColor": "#FFFFFF",
+    "tickLength": 0,
     "title": {
       "style": {
         "color": "#000000"
@@ -276,6 +276,6 @@
     "itemWidth": 200
   },
   "exporting": {
-    "filename": "I.50.1.0028"
+    "filename": "I.50.1.4932"
   }
 }

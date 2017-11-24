@@ -156,7 +156,7 @@
         "color": "#000000"
       }
     },
-    "tickColor": "#FFFFFF",
+    "tickLength": 0,
     "tickInterval": 1
   },
   "yAxis": [
@@ -218,7 +218,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Grundbuch- und Vermessungsamt  Basel-Stadt"
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt"
   },
   "legend": {
     "symbolRadius": 0,

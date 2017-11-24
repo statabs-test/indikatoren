@@ -10,7 +10,7 @@
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
 "schlagwort":["Arbeit","Angestellte"],
-"stufe1":"Siedlung - Wirtschaft",
+"stufe1":"Sachgebiet Siedlung - Wirtschaft",
 "stufe2":"Strategie 7: Raum für die Entwicklung der Wirtschaft",
 "stufe3":"",
 "stufe4":"",
@@ -23,8 +23,8 @@
 "visibleInPortal":true,
 "orderKey":"02_04_00_00_00_001",
 "parentId":null,
-"children":["6241","6265"],
-"renderLink":[""],
+"children":["6241","6265","6347"],
+"renderLink":[],
 "quellenangabe":["Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"],
 "externalLinks":[""]
 }
