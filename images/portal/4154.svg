@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.0.3
   </desc>
   <defs>
     <clipPath>
@@ -50,7 +50,7 @@
     <path fill="none" class="highcharts-axis-line" d="M 432 100 L 432 350"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(43,100) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series " transform="translate(43,100) scale(1 1)" clip-path="url(#a)">
       <rect x="18" y="78" width="16" height="173" fill="#73b97c" class="highcharts-point"/>
       <rect x="82" y="83" width="16" height="168" fill="#73b97c" class="highcharts-point"/>
       <rect x="145" y="88" width="16" height="163" fill="#73b97c" class="highcharts-point"/>
@@ -58,8 +58,8 @@
       <rect x="273" y="16" width="16" height="235" fill="#73b97c" class="highcharts-point"/>
       <rect x="337" y="16" width="16" height="235" fill="#73b97c" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(43,100) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(43,100) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series " transform="translate(43,100) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-column-series " transform="translate(43,100) scale(1 1)" clip-path="url(#a)">
       <rect x="37" y="94" width="16" height="157" fill="#007A2F" class="highcharts-point"/>
       <rect x="101" y="93" width="16" height="158" fill="#007A2F" class="highcharts-point"/>
       <rect x="165" y="93" width="16" height="158" fill="#007A2F" class="highcharts-point"/>
@@ -67,11 +67,11 @@
       <rect x="292" y="34" width="16" height="217" fill="#007A2F" class="highcharts-point"/>
       <rect x="356" y="41" width="16" height="210" fill="#007A2F" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(43,100) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined " transform="translate(43,100) scale(1 1)" clip-path="url(#b)">
+    <g class="highcharts-markers highcharts-series-1 highcharts-column-series " transform="translate(43,100) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-2 highcharts-line-series " transform="translate(43,100) scale(1 1)" clip-path="url(#b)">
       <path fill="none" d="M 35.073770491801 24.03846153846149 L 98.844262295081 14.85148514851474 L 162.61475409836 7.653061224489761 L 226.38524590164 7.352941176470495 L 290.15573770492 19.50354609929076 L 353.9262295082 26.595744680851" class="highcharts-graph" stroke="#cd9c00" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-2 highcharts-line-series highcharts-color-undefined " transform="translate(43,100) scale(1 1)" clip-path="none">
+    <g class="highcharts-markers highcharts-series-2 highcharts-line-series " transform="translate(43,100) scale(1 1)" clip-path="none">
       <path fill="#cd9c00" d="M 39 24 A 4 4 0 1 1 38.99999800000017 23.996000000666665 Z" class="highcharts-point"/>
       <path fill="#cd9c00" d="M 102 15 A 4 4 0 1 1 101.99999800000016 14.996000000666664 Z" class="highcharts-point"/>
       <path fill="#cd9c00" d="M 166 8 A 4 4 0 1 1 165.99999800000018 7.9960000006666645 Z" class="highcharts-point"/>
@@ -83,6 +83,7 @@
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Bestand an Notwohnungen und ihre Belegung</tspan>
   </text>
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="40"/>
   <g class="highcharts-legend" transform="translate(10,45)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="379" height="39" visibility="visible"/>
     <g>

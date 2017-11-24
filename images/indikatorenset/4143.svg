@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.0.3
   </desc>
   <defs>
     <clipPath>
@@ -55,7 +55,7 @@
     <path fill="none" class="highcharts-axis-line" d="M 438 82 L 438 350"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(59,82) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series " transform="translate(59,82) scale(1 1)" clip-path="url(#a)">
       <rect x="3.5" y="52.5" width="10" height="216" fill="#73b97c" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="103.5" y="50.5" width="10" height="218" fill="#73b97c" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="204.5" y="41.5" width="10" height="227" fill="#73b97c" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
@@ -65,11 +65,11 @@
       <rect x="354.5" y="36.5" width="10" height="232" fill="#73b97c" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="364.5" y="31.5" width="10" height="237" fill="#73b97c" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(59,82) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(59,82) scale(1 1)" clip-path="url(#b)">
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series " transform="translate(59,82) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-line-series " transform="translate(59,82) scale(1 1)" clip-path="url(#b)">
       <path fill="none" d="M 8.6410392364784 158.46047901159614 L 109.11823966066 160.28363866078 L 209.59544008484 157.33991223794192 L 310.07264050901 158.9079717303784 L 340.21580063627 159.4343499016075 L 350.26352067869 160.1134308821512 L 360.3112407211 160.64016151289422 L 370.35896076352 158.8883537089859" class="highcharts-graph" stroke="#cd9c00" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(59,82) scale(1 1)" clip-path="none">
+    <g class="highcharts-markers highcharts-series-1 highcharts-line-series " transform="translate(59,82) scale(1 1)" clip-path="none">
       <path fill="#cd9c00" d="M 12 158 A 4 4 0 1 1 11.999998000000167 157.99600000066667 Z" class="highcharts-point"/>
       <path fill="#cd9c00" d="M 113 160 A 4 4 0 1 1 112.99999800000016 159.99600000066667 Z" class="highcharts-point"/>
       <path fill="#cd9c00" d="M 213 157 A 4 4 0 1 1 212.99999800000018 156.99600000066667 Z" class="highcharts-point"/>
@@ -83,6 +83,7 @@
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Anzahl Genossenschaftswohnungen und Anteil am Bestand</tspan>
   </text>
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="40"/>
   <g class="highcharts-legend" transform="translate(10,45)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="437" height="25" visibility="visible"/>
     <g>
