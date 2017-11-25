@@ -186,7 +186,7 @@ function initializeFilterJS(indikatorenset){
     $('#lightbox').on('slide.bs.carousel', function (e) {
         var targetId = $(e.relatedTarget).children().first().attr('indikator-id-data');
         //fire GTM event
-        dataLayer.push({'event': 'SlideToChart', 'id': targetId});
+        dataLayer.push({'event': 'SlideToChart', 'id': targetId, 'view': view});
         lazyRenderChartById(targetId, undefined, view);
         //display chart number in indicator      
         var currentNumber = $(e.relatedTarget).index() + 1;    
