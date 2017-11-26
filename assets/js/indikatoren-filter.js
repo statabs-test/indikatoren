@@ -13,7 +13,6 @@
 
 "use strict";
 /*  
-global dataLayer
 global $ 
 
 global FilterJS
@@ -166,8 +165,6 @@ function initializeFilterJS(indikatorenset){
   //add event listener to render chart on modal show
   $("#lightbox").on('show.bs.modal', function (e) {    
     var targetId = $(e.relatedTarget).attr("indikator-id-data");
-    //fire GTM event
-    dataLayer.push({'event': 'OpenModal_DisplayChart', 'id': targetId});
     lazyRenderChartById(targetId, undefined, view);
     var targetItem = $('#container-' + targetId).parent();
     var currentNumber = $('.item').index(targetItem) +1;
@@ -185,8 +182,6 @@ function initializeFilterJS(indikatorenset){
     //only do this in here in order to prevent two events from happening when clicking on a non-active chart thumbnail (sliding and opening model)
     $('#lightbox').on('slide.bs.carousel', function (e) {
         var targetId = $(e.relatedTarget).children().first().attr('indikator-id-data');
-        //fire GTM event
-        dataLayer.push({'event': 'SlideToChart', 'id': targetId, 'view': view});
         lazyRenderChartById(targetId, undefined, view);
         //display chart number in indicator      
         var currentNumber = $(e.relatedTarget).index() + 1;    
@@ -198,9 +193,6 @@ function initializeFilterJS(indikatorenset){
   $("#lightbox").on('hide.bs.modal', function (e) {
       //remove slide event handler
       $('#lightbox').off('slide.bs.carousel');
-      //fire GTM event
-      dataLayer.push({'event': 'CloseModal'});
-
   });
 }
 
