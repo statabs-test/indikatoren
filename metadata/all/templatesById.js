@@ -443,6 +443,7 @@ var templatesById = {
 	"6344": "befragungen001_print",
 	"6346": "line001",
 	"6347": "template001",
+	"6348": "template001",
 	"9998": "pie001",
 	"9999": "mappie002"
 };

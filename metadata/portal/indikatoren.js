@@ -8248,5 +8248,42 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		]
+	},
+	{
+		"title": "Standortqualitätsindikator (SQUI)",
+		"subtitle": "Basel-Stadt im nationalen Vergleich; Stand: 2016",
+		"kuerzel": "I.04.2.06348",
+		"kuerzelKunde": "1.2",
+		"description": "Standortqualitätsindikator (SQUI)",
+		"id": 6348,
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Konjunktur",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Arbeit"
+		],
+		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		]
 	}
 ];
