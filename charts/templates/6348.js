@@ -77,7 +77,7 @@
   },
    tooltip: {
     headerFormat: '<span style="font-size: 10px">{series.name}</span><br/>',
-    pointFormat: '<span style="color:{point.color}">\u25CF</span> {point.name}: <b>{point.y:,.0f}</b><br/>',
+    pointFormat: '<span style="color:{point.color}">\u25CF</span> {point.name}: <b>{point.y:,.2f}</b><br/>',
     "shared": false
   },
   "chart": {      
