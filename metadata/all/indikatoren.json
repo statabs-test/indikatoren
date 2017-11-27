@@ -228,6 +228,49 @@
 		]
 	},
 	{
+		"title": "Durch BaselArea unterstützte internationale Ansiedlungen",
+		"subtitle": "in BS, BL, JU",
+		"kuerzel": "I.04.1.3086",
+		"kuerzelKunde": "2.4",
+		"description": "Durch BaselArea unterstützte internationale Ansiedlungen",
+		"id": 3086,
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Volkseinkommen",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2015-12-17T00:00:00.000",
+		"schlagwort": [
+			"Ausland",
+			"Niederlassung",
+			"Arbeit",
+			"Erwerbstätigkeit",
+			"Standort"
+		],
+		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Anzahl von durch BaselArea unterstützte internationale Ansiedlungen stieg 2012 an und nimmt seither wieder ab.",
+		"erlaeuterungen": "Die Anzahl von durch BaselArea unterstützten internationalen Ansiedlungen beinhalten seit 2013 auch ausländische Firmengründungen im Kanton Jura.",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "10_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"BaselArea"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Globale und kontinentale Erreichbarkeit",
 		"subtitle": "Stadt Basel im nationalen Vergleich",
 		"kuerzel": "I.11.1.03104",
@@ -9278,6 +9321,46 @@
 		]
 	},
 	{
+		"title": "Neugründungen in Basel-Stadt",
+		"subtitle": "in ausgewählten Branchen",
+		"kuerzel": "I.03.2.5041",
+		"kuerzelKunde": "2.3",
+		"description": "Neugründungen in Basel-Stadt",
+		"id": 5041,
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Beschäftigte ",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2016-12-07T15:07:33.3333",
+		"schlagwort": [
+			"Arbeit",
+			"Erwerbstätigkeit"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die meisten neuen Unternehmen wurden 2014 in den Unternehmensdienstleistungen gegründet.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Kantonale Durchschnittsprämien je versicherte Person in Franken, Basel-Stadt im Vergleich zu BL, AG und SO",
 		"subtitle": "",
 		"kuerzel": "I.14.4.5065",
@@ -18168,6 +18251,87 @@
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Medianprämie pro Prämienregion",
+		"subtitle": "Basel-Stadt im nationalen Vergleich",
+		"kuerzel": "I.14.4.06346",
+		"kuerzelKunde": "9.1",
+		"description": "Medianprämie pro Prämienregion",
+		"id": 6346,
+		"thema": "14 Gesundheit",
+		"unterthema": "Prävention, Praxen, Rettung",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Patient",
+			"Gesundheit"
+		],
+		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
+		"orderKey": "09_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Gesundheit (BAG)",
+			"Gesundheitsdepartement Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Anzahl Beschäftigte nach Branche",
+		"subtitle": "",
+		"kuerzel": "I.03.2.06347",
+		"kuerzelKunde": "2.5",
+		"description": "Anzahl Beschäftigte nach Branche",
+		"id": 6347,
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Beschäftigte ",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Arbeit",
+			"Angestellte"
+		],
+		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Jahr 2015 sind in Basel-Stadt 190 753 Personen beschäftigt. Das sind 821 Personen weniger als im Vorjahr.  Den grössten Beschäftigungsrückgang verzeichnet die Branchengruppe Handel und Verkehr mit einer Abnahme um 1512 Personen, während im Gesundheits- und Sozialwesen mit 549 zusätzlichen Beschäftigten der grösste Zuwachs zu beobachten ist.",
+		"erlaeuterungen": "Unternehmens-DL, Freiberufe umfasst: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen, Erbringung von sonstigen wirtschaftlichen Dienstleistungen; Übrige Branchen umfasst: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Beherbergung und Gastronomie, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches  die STATENT-Methode für die entsprechenden Jahre simuliert.",
+		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "02_00_00_00_00_000",
+		"parentId": 6236,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
 		"externalLinks": [
 			""
