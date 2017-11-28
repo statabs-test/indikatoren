@@ -255,7 +255,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "10_00_00_00_00_000",
+		"orderKey": "10_00_00_00_00_004",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -5470,56 +5470,12 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "_003",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
-		],
-		"externalLinks": [
-			""
-		]
-	},
-	{
-		"title": "Kantonale Durchschnittsprämien je versicherte Person in Franken, Basel-Stadt im Vergleich zu BL, AG und SO",
-		"subtitle": "",
-		"kuerzel": "I.14.4.5065",
-		"kuerzelKunde": "9.1",
-		"description": "Kantonale Durchschnittsprämien je versicherte Person in Franken, Basel-Stadt im Vergleich zu BL, AG und SO",
-		"id": 5065,
-		"thema": "14 Gesundheit",
-		"unterthema": "Prävention, Praxen, Rettung",
-		"kennzahlenset": "Legislaturplan",
-		"raeumlicheGliederung": [
-			"Kanton",
-			"Schweiz"
-		],
-		"aktualisierungsdatum": "2017-03-02T13:21:53.5353",
-		"schlagwort": [
-			"Bevölkerung",
-			"Spital",
-			"Kantonsvergleich"
-		],
-		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die kantonale Durchschnittsprämie lag 2015 in Basel-Stadt bei 4 515 Franken pro Person und damit gut 1 200 Franken über dem landesweiten Mittel. Der relative Anstieg seit 2006 beträgt in Basel-Stadt 26% und damit ein Prozent weniger als in der gesamten Schweiz. Der Kanton Solothurn verzeichnete in den vergangenen 10 Jahren mit gut 38% den höchsten Anstieg.",
-		"erlaeuterungen": "Für alle Versicherten für alle Versicherungsformen.",
-		"template": "line001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
-		"orderKey": "09_00_00_00_00_001",
-		"parentId": null,
-		"children": [],
-		"renderLink": [
-			""
-		],
-		"quellenangabe": [
-			"Bundesamt für Gesundheit (BAG)"
 		],
 		"externalLinks": [
 			""
@@ -6932,7 +6888,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_004",
+		"orderKey": "01_00_00_00_00_003",
 		"parentId": null,
 		"children": [
 			"6284"
@@ -6973,7 +6929,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_005",
+		"orderKey": "01_00_00_00_00_004",
 		"parentId": null,
 		"children": [
 			"6285"
@@ -7014,7 +6970,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_001",
+		"orderKey": "02_00_00_00_00_006",
 		"parentId": null,
 		"children": [
 			"6157",
@@ -7056,7 +7012,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_003",
+		"orderKey": "02_00_00_00_00_008",
 		"parentId": null,
 		"children": [
 			"6288"
@@ -7097,7 +7053,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_009",
+		"orderKey": "02_00_00_00_00_014",
 		"parentId": null,
 		"children": [
 			"6291"
@@ -7681,7 +7637,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_004",
+		"orderKey": "02_00_00_00_00_009",
 		"parentId": null,
 		"children": [
 			"6335"
@@ -8186,7 +8142,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_010",
+		"orderKey": "02_00_00_00_00_015",
 		"parentId": null,
 		"children": [
 			"6342"
@@ -8227,7 +8183,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_011",
+		"orderKey": "02_00_00_00_00_016",
 		"parentId": null,
 		"children": [
 			"6343"
@@ -8311,7 +8267,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "09_00_00_00_00_000",
+		"orderKey": "09_00_00_00_00_001",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -8351,7 +8307,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_000",
+		"orderKey": "01_00_00_00_00_002",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],

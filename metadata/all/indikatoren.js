@@ -255,7 +255,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "10_00_00_00_00_000",
+		"orderKey": "10_00_00_00_00_004",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -9343,56 +9343,12 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "_003",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
-		],
-		"externalLinks": [
-			""
-		]
-	},
-	{
-		"title": "Kantonale Durchschnittsprämien je versicherte Person in Franken, Basel-Stadt im Vergleich zu BL, AG und SO",
-		"subtitle": "",
-		"kuerzel": "I.14.4.5065",
-		"kuerzelKunde": "9.1",
-		"description": "Kantonale Durchschnittsprämien je versicherte Person in Franken, Basel-Stadt im Vergleich zu BL, AG und SO",
-		"id": 5065,
-		"thema": "14 Gesundheit",
-		"unterthema": "Prävention, Praxen, Rettung",
-		"kennzahlenset": "Legislaturplan",
-		"raeumlicheGliederung": [
-			"Kanton",
-			"Schweiz"
-		],
-		"aktualisierungsdatum": "2017-03-02T13:21:53.5353",
-		"schlagwort": [
-			"Bevölkerung",
-			"Spital",
-			"Kantonsvergleich"
-		],
-		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die kantonale Durchschnittsprämie lag 2015 in Basel-Stadt bei 4 515 Franken pro Person und damit gut 1 200 Franken über dem landesweiten Mittel. Der relative Anstieg seit 2006 beträgt in Basel-Stadt 26% und damit ein Prozent weniger als in der gesamten Schweiz. Der Kanton Solothurn verzeichnete in den vergangenen 10 Jahren mit gut 38% den höchsten Anstieg.",
-		"erlaeuterungen": "Für alle Versicherten für alle Versicherungsformen.",
-		"template": "line001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
-		"orderKey": "09_00_00_00_00_001",
-		"parentId": null,
-		"children": [],
-		"renderLink": [
-			""
-		],
-		"quellenangabe": [
-			"Bundesamt für Gesundheit (BAG)"
 		],
 		"externalLinks": [
 			""
@@ -11264,7 +11220,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "01_00_00_00_00_003",
+		"orderKey": "01_00_00_00_00_001",
 		"parentId": 6050,
 		"children": [
 			"6283"
@@ -11305,7 +11261,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_004",
+		"orderKey": "01_00_00_00_00_003",
 		"parentId": null,
 		"children": [
 			"6284"
@@ -11346,7 +11302,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_005",
+		"orderKey": "01_00_00_00_00_004",
 		"parentId": null,
 		"children": [
 			"6285"
@@ -11387,7 +11343,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_001",
+		"orderKey": "02_00_00_00_00_006",
 		"parentId": null,
 		"children": [
 			"6157",
@@ -11432,7 +11388,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "02_00_00_00_00_006",
+		"orderKey": "02_00_00_00_00_011",
 		"parentId": 3169,
 		"children": [
 			"6287"
@@ -11473,7 +11429,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_003",
+		"orderKey": "02_00_00_00_00_008",
 		"parentId": null,
 		"children": [
 			"6288"
@@ -11514,7 +11470,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "02_00_00_00_00_005",
+		"orderKey": "02_00_00_00_00_010",
 		"parentId": 5162,
 		"children": [
 			"6289"
@@ -11556,7 +11512,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "02_00_00_00_00_012",
+		"orderKey": "02_00_00_00_00_017",
 		"parentId": 4860,
 		"children": [
 			"6290"
@@ -11597,7 +11553,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_009",
+		"orderKey": "02_00_00_00_00_014",
 		"parentId": null,
 		"children": [
 			"6291"
@@ -13013,49 +12969,6 @@ var indikatoren = [
 		]
 	},
 	{
-		"title": "Sicherheitsempfinden im Alltag nach Geschlecht",
-		"subtitle": "«Wie sicher fühlen Sie sich ganz allgemein im Alltag?»",
-		"kuerzel": "I.50.1.06178",
-		"kuerzelKunde": "10.4",
-		"description": "Sicherheitsempfinden im Alltag nach Geschlecht",
-		"id": 6178,
-		"thema": "50 Befragungen",
-		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Legislaturplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Verbrechen",
-			"Gefühl"
-		],
-		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Mit einem Anteil von 42,2% fühlte sich weniger als die Hälfte der Befragten im Alltag sehr sicher und 49,0% fühlten sich eher sicher. Im Vergleich zu den vorherigen Befragungen fühlten sich dieBefragten im Alltag weniger sicher. Am höchsten war dasSicherheitsempfinden 2003 als der Anteil derjenigen, die sichgrundsätzlich sehr sicher fühlen, über 55% lag.",
-		"erlaeuterungen": "",
-		"template": "befragungen001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": false,
-		"orderKey": "10_00_00_00_00_004",
-		"parentId": 6035,
-		"children": [
-			"6325"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9"
-		],
-		"externalLinks": [
-			""
-		]
-	},
-	{
 		"title": "Anzahl Störfälle und Ereignisse",
 		"subtitle": "",
 		"kuerzel": "I.14.3.06179",
@@ -13383,7 +13296,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "02_00_00_00_00_007",
+		"orderKey": "02_00_00_00_00_012",
 		"parentId": 5107,
 		"children": [
 			"6333"
@@ -13427,7 +13340,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "02_00_00_00_00_008",
+		"orderKey": "02_00_00_00_00_013",
 		"parentId": 5108,
 		"children": [
 			"6334"
@@ -13549,7 +13462,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_004",
+		"orderKey": "02_00_00_00_00_009",
 		"parentId": null,
 		"children": [
 			"6335"
@@ -13717,7 +13630,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "02_00_00_00_00_002",
+		"orderKey": "02_00_00_00_00_007",
 		"parentId": 5160,
 		"children": [
 			"6339"
@@ -14139,7 +14052,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_010",
+		"orderKey": "02_00_00_00_00_015",
 		"parentId": null,
 		"children": [
 			"6342"
@@ -14180,7 +14093,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_011",
+		"orderKey": "02_00_00_00_00_016",
 		"parentId": null,
 		"children": [
 			"6343"
@@ -18275,7 +18188,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "09_00_00_00_00_000",
+		"orderKey": "09_00_00_00_00_001",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -18316,7 +18229,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
-		"orderKey": "02_00_00_00_00_000",
+		"orderKey": "02_00_00_00_00_005",
 		"parentId": 6236,
 		"children": [],
 		"renderLink": [],
@@ -18355,7 +18268,7 @@ var indikatoren = [
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_000",
+		"orderKey": "01_00_00_00_00_002",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
