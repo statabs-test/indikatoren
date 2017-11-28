@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 208">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 208">
   <desc>
-    Created with Highstock 6.0.3
+    Created with Highstock 5.0.14
   </desc>
   <defs>
     <clipPath>
@@ -44,18 +44,18 @@
     <path fill="none" class="highcharts-axis-line" d="M 24 69 L 24 167"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-line-series " transform="translate(24,69) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(24,69) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 2.8725490196081 24.5 L 15.36189258312 22.049999999999997 L 27.851236146633 36.75 L 40.340579710145 39.2 L 52.829923273657 31.849999999999994 L 65.31926683717 53.9 L 77.808610400682 68.6 L 90.297953964194 67.375 L 102.78729752771 64.925 L 115.27664109122 47.775000000000006 L 127.76598465473 20.825000000000003 L 140.25532821824 13.474999999999994 L 152.74467178176 23.275000000000006 L 165.23401534527 33.075 L 177.72335890878 47.775000000000006 L 190.21270247229 53.9 L 202.70204603581 39.2 L 215.19138959932 22.049999999999997 L 227.68073316283 35.525000000000006 L 240.17007672634 42.875 L 252.65942028985 41.650000000000006 L 265.14876385337 44.099999999999994 L 277.63810741688 42.875 L 290.12745098039 42.875" class="highcharts-graph" stroke="#008AC3" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-line-series " transform="translate(24,69) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-1 highcharts-line-series " transform="translate(24,69) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(24,69) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(24,69) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 2.8725490196081 55.125 L 15.36189258312 49 L 27.851236146633 56.35 L 40.340579710145 61.25 L 52.829923273657 58.8 L 65.31926683717 66.15 L 77.808610400682 77.175 L 90.297953964194 79.625 L 102.78729752771 79.625 L 115.27664109122 73.5 L 127.76598465473 64.925 L 140.25532821824 60.025 L 152.74467178176 61.25 L 165.23401534527 62.475 L 177.72335890878 64.925 L 190.21270247229 66.15 L 202.70204603581 61.25 L 215.19138959932 60.025 L 227.68073316283 63.7 L 240.17007672634 63.7 L 252.65942028985 62.475 L 265.14876385337 63.7 L 277.63810741688 62.475 L 290.12745098039 60.025" class="highcharts-graph" stroke="#68AB2B" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-1 highcharts-line-series " transform="translate(24,69) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-2 highcharts-line-series " transform="translate(24,69) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(24,69) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined " transform="translate(24,69) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 2.8725490196081 30.625 L 15.36189258312 28.174999999999997 L 27.851236146633 37.974999999999994 L 40.340579710145 40.425 L 52.829923273657 37.974999999999994 L 65.31926683717 52.675 L 77.808610400682 67.375 L 90.297953964194 72.275 L 102.78729752771 71.05 L 115.27664109122 61.25 L 127.76598465473 45.325 L 140.25532821824 41.650000000000006 L 152.74467178176 47.775000000000006 L 165.23401534527 52.675 L 177.72335890878 58.8 L 190.21270247229 61.25 L 202.70204603581 51.45 L 215.19138959932 46.55 L 227.68073316283 52.675 L 240.17007672634 52.675 L 252.65942028985 52.675 L 265.14876385337 56.35 L 277.63810741688 52.675 L 290.12745098039 50.225" class="highcharts-graph" stroke="#3C3C3C" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-2 highcharts-line-series " transform="translate(24,69) scale(1 1)" clip-path="none">
+    <g class="highcharts-markers highcharts-series-2 highcharts-line-series highcharts-color-undefined " transform="translate(24,69) scale(1 1)" clip-path="none">
       <path fill="#3C3C3C" d="M 6 31 A 4 4 0 1 1 5.999998000000167 30.996000000666665 Z" class="highcharts-point"/>
       <path fill="#3C3C3C" d="M 19 28 A 4 4 0 1 1 18.99999800000017 27.996000000666665 Z" class="highcharts-point"/>
       <path fill="#3C3C3C" d="M 31 38 A 4 4 0 1 1 30.99999800000017 37.99600000066666 Z" class="highcharts-point"/>
@@ -85,7 +85,6 @@
   <text x="3" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:10px;font-weight:bold;fill:#000000;" y="14">
     <tspan>Arbeitslosenquote im Jahresmittel nach Altersgruppe</tspan>
   </text>
-  <text x="3" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:10px;font-weight:normal;font-family:Arial;fill:#000000;" y="32"/>
   <g class="highcharts-legend" transform="translate(16,7)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="196" height="59" visibility="visible"/>
     <g>
