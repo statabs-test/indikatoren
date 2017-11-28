@@ -91,7 +91,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anzahl Gewaltstraftaten pro 100 000 Einwohner"
+    "text": "Anzahl Straftaten nach StGB pro 1000 Einwohner"
   },
   "subtitle": {
     "style": {
@@ -148,9 +148,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Polizeiliche Kriminalitätsstatistk (PKS)"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP);\u003Cbr\u002F\u003EPolizeiliche Kriminalitätsstatistk (PKS)"
   },
   "legend": {
     "enabled": false,
@@ -177,6 +177,6 @@
     }
   },
   "exporting": {
-    "filename": "I.14.3.06176"
+    "filename": "I.19.1.06176"
   }
 }

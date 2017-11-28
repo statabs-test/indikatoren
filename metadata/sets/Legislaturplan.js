@@ -864,7 +864,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
-		"subtitle": "Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von 100 000 Fr.; Stand: 2016",
+		"subtitle": "Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von <br/> 100 000 Fr.; Stand: 2016",
 		"kuerzel": "I.18.2.06134",
 		"kuerzelKunde": "2.12a",
 		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
@@ -2223,14 +2223,14 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Anzahl Gewaltstraftaten pro 100 000 Einwohner",
+		"title": "Anzahl Straftaten nach StGB pro 1000 Einwohner",
 		"subtitle": "",
-		"kuerzel": "I.14.3.06176",
+		"kuerzel": "I.19.1.06176",
 		"kuerzelKunde": "10.1",
-		"description": "Anzahl Gewaltstraftaten pro 100 000 Einwohner",
+		"description": "Anzahl Straftaten nach StGB pro 1000 Einwohner",
 		"id": 6176,
-		"thema": "14 Gesundheit",
-		"unterthema": "Sterblichkeit",
+		"thema": "19 Rechtspflege",
+		"unterthema": "Polizei",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -2244,19 +2244,20 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Gewaltstraftaten pro 100'000 Einwohner hat sich in den letzten zehn Jahren kaum verändert. Aktuell liegt sie bei 335.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Die Anzahl Straftaten nach Strafgesetzbuch pro 1000 Einwohner beträgt 2016 etwas mehr als 107. Im Jahr 2012 lag der Wert über 140 und damit am höchsten innerhalb des beobachteten Zeitraums.",
+		"erlaeuterungen": "Auf die ständige Wohnbevölkerung am Hauptwohnsitz am Jahresende berechnet. Wohnbevölkerung: Vorjahreszahlen.",
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "10_00_00_00_00_001",
-		"parentId": 5188,
+		"parentId": null,
 		"children": [
 			"6323"
 		],
 		"renderLink": [],
 		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)",
 			"Polizeiliche Kriminalitätsstatistk (PKS)"
 		],
 		"externalLinks": [
@@ -2264,14 +2265,14 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Strassenverkehrsunfälle und verunfallte Personen",
+		"title": "Strassenverkehrsunfälle",
 		"subtitle": "",
-		"kuerzel": "I.14.3.06177",
+		"kuerzel": "I.11.7.06177",
 		"kuerzelKunde": "10.2",
-		"description": "Strassenverkehrsunfälle und verunfallte Personen",
+		"description": "Strassenverkehrsunfälle",
 		"id": 6177,
-		"thema": "14 Gesundheit",
-		"unterthema": "Sterblichkeit",
+		"thema": "11 Verkehr",
+		"unterthema": "Strassenverkehrsunfälle",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -2285,14 +2286,14 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von 1995 bis 2012 ist die Anzahl Strassenverkehrsunfälle von knapp 4 000 auf rund 900 Unfälle gesunken. Auch die Anzahl der verunfallten Personen lag 2012 mit 307 Personen am tiefsten. Bis 2015 ist bei beiden Werten wieder ein leichter Anstieg zu beobachten.",
+		"lesehilfe": "Von 1995 bis 2012 ist die Anzahl Strassenverkehrsunfälle von knapp 4 000 auf rund 900 Unfälle gesunken. Bis 2016 ist wieder ein leichter Anstieg zu beobachten.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "10_00_00_00_00_002",
-		"parentId": 5186,
+		"parentId": null,
 		"children": [
 			"6324"
 		],
@@ -3025,7 +3026,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
-		"subtitle": "Doppelverdiener ohne Kinder und einem Bruttoarbeitseinkommen von 100 000 Fr.; Stand: 2016",
+		"subtitle": "Doppelverdiener ohne Kinder und einem Bruttoarbeitseinkommen von<br/> 100 000 Fr.; Stand: 2016",
 		"kuerzel": "I.18.2.06239",
 		"kuerzelKunde": "2.12b",
 		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",

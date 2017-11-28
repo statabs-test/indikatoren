@@ -52,7 +52,7 @@
     <tspan>Steuerbelastung natürlicher Personen in ausgewählten</tspan><tspan dy="17" x="10">Kantonshauptorten</tspan><title>Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten</title>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="57">
-    <tspan>Doppelverdiener ohne Kinder und einem Bruttoarbeitseinkommen von 100 000</tspan><tspan dy="15" x="10">Fr.; Stand: 2016</tspan><title>Doppelverdiener ohne Kinder und einem Bruttoarbeitseinkommen von 100 000 Fr.; Stand: 2016</title>
+    <tspan>Doppelverdiener ohne Kinder und einem Bruttoarbeitseinkommen von</tspan><tspan x="10" dy="15">100 000 Fr.; Stand: 2016</tspan>
   </text>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
     <text x="100.6" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="398" opacity="1">
