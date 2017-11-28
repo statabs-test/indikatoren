@@ -94,8 +94,8 @@ npm run reinstall
 
 
 ### Develop using [cloud9](https://c9.io)
-- Create new hosted workspace based on the node.js template and the correct github repo
-- Run the following command. This will set node.js version to 6, install true type fonts, and install the application.
+- in c9.io, create new hosted workspace based on the node.js template and the correct github repo
+- Run the following command. This will set node.js version to 6, install true type fonts, set Highcharts export server defaults, and install the application.
 ```shell
 ./c9-setup.sh
 ```
