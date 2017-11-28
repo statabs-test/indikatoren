@@ -30,6 +30,10 @@
     	"color": "#007A2F", 
     	"legendIndex": 0
     }, /* grün */
+        {
+    	"color": "#E6E600", 
+    	"legendIndex": 0
+    }, /* gelb */
   ],
    "legend": {
     "enabled": true,
