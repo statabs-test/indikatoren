@@ -3,7 +3,7 @@
 		"title": "Jährliche Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
 		"subtitle": "Basel-Stadt im nationalen Vergleich, Stand: 2016",
 		"kuerzel": "I.04.1.02501",
-		"kuerzelKunde": "1.2",
+		"kuerzelKunde": "2.2",
 		"description": "Jährliche Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
 		"id": 2501,
 		"thema": "04 Volkswirtschaft",
@@ -33,11 +33,10 @@
 		"orderKey": "01_00_00_00_00_002",
 		"parentId": null,
 		"children": [
-			"6125"
+			"6125",
+			"6273"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"
 		],
@@ -78,11 +77,10 @@
 		"orderKey": "04_00_00_00_00_003",
 		"parentId": null,
 		"children": [
-			"6145"
+			"6145",
+			"6274"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F16a_9"
 		],
@@ -126,11 +124,10 @@
 		"orderKey": "08_00_00_00_00_001",
 		"parentId": null,
 		"children": [
-			"6168"
+			"6168",
+			"6275"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_12"
 		],
@@ -171,10 +168,10 @@
 		"visibleInPortal": true,
 		"orderKey": "09_00_00_00_00_004",
 		"parentId": null,
-		"children": [],
-		"renderLink": [
-			""
+		"children": [
+			"6276"
 		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_8"
 		],
@@ -215,11 +212,10 @@
 		"orderKey": "03_00_00_00_00_002",
 		"parentId": null,
 		"children": [
-			"6135"
+			"6135",
+			"6277"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung"
 		],
@@ -253,9 +249,9 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl von durch BaselArea unterstützte internationale Ansiedlungen stieg 2012 an und nimmt seither wieder ab.",
+		"lesehilfe": "Die Anzahl von durch BaselArea unterstützte internationale Ansiedlungen ist von 2012 bis 2015 rückläufig. 2016 werden mit 31 Ansiedlungen die meisten innerhalb des Beobachtungszeitraums gezählt.",
 		"erlaeuterungen": "Die Anzahl von durch BaselArea unterstützten internationalen Ansiedlungen beinhalten seit 2013 auch ausländische Firmengründungen im Kanton Jura.",
-		"template": "template001",
+		"template": "line001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
@@ -305,12 +301,10 @@
 		"parentId": null,
 		"children": [
 			"5016",
-			"5826",
-			"5891"
+			"5891",
+			"6278"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"
 		],
@@ -5436,10 +5430,10 @@
 		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_007",
 		"parentId": null,
-		"children": [],
-		"renderLink": [
-			""
+		"children": [
+			"6279"
 		],
+		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"
 		],
@@ -5470,7 +5464,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die meisten neuen Unternehmen wurden 2014 in den Unternehmensdienstleistungen gegründet.",
+		"lesehilfe": "Die meisten neuen Unternehmen wurdenin allen drei Jahren im Bereich der Unternehmensdienstleistungen gegründet. Das Total der Neugründungen erreichte 2014 den Höchstwert.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"option": "options001",
@@ -5562,10 +5556,10 @@
 		"visibleInPortal": true,
 		"orderKey": "11_00_00_00_00_001",
 		"parentId": null,
-		"children": [],
-		"renderLink": [
-			""
+		"children": [
+			"6281"
 		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Amt für Sozialbeiträge, Abteilung Prämienverbilligungen"
@@ -6912,9 +6906,9 @@
 	},
 	{
 		"title": "Kantonales Wettbewerbsprofil",
-		"subtitle": "Basel-Stadt im Vergleich zum Median-Kanton; Stand: 2016",
+		"subtitle": "Basel-Stadt im Vergleich zum Median-Kanton, Stand: 2016",
 		"kuerzel": "I.04.2.06127",
-		"kuerzelKunde": "1.4",
+		"kuerzelKunde": "1.3",
 		"description": "Kantonales Wettbewerbsprofil",
 		"id": 6127,
 		"thema": "04 Volkswirtschaft",
@@ -6940,10 +6934,10 @@
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_004",
 		"parentId": null,
-		"children": [],
-		"renderLink": [
-			""
+		"children": [
+			"6284"
 		],
+		"renderLink": [],
 		"quellenangabe": [
 			"UBS Switzerland AG"
 		],
@@ -6955,7 +6949,7 @@
 		"title": "Steuereinnahmen aus Quellensteuer",
 		"subtitle": "in Franken",
 		"kuerzel": "I.04.1.06128",
-		"kuerzelKunde": "1.5",
+		"kuerzelKunde": "1.4",
 		"description": "Steuereinnahmen aus Quellensteuer",
 		"id": 6128,
 		"thema": "04 Volkswirtschaft",
@@ -6981,10 +6975,10 @@
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_005",
 		"parentId": null,
-		"children": [],
-		"renderLink": [
-			""
+		"children": [
+			"6285"
 		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
 		],
@@ -6996,7 +6990,7 @@
 		"title": "NFA-Ressourcenindex",
 		"subtitle": "Basel-Stadt im kantonalen Vergleich, Stand: 2018",
 		"kuerzel": "I.04.1.06129",
-		"kuerzelKunde": "2.1",
+		"kuerzelKunde": "2.6",
 		"description": "NFA-Ressourcenindex",
 		"id": 6129,
 		"thema": "04 Volkswirtschaft",
@@ -7023,11 +7017,10 @@
 		"orderKey": "02_00_00_00_00_001",
 		"parentId": null,
 		"children": [
-			"6157"
+			"6157",
+			"6286"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
 		],
@@ -7039,7 +7032,7 @@
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
 		"subtitle": "pro Kopf in Franken",
 		"kuerzel": "I.04.1.06131",
-		"kuerzelKunde": "2.3",
+		"kuerzelKunde": "2.8",
 		"description": "Entwicklung der Staatsausgaben nach Funktion",
 		"id": 6131,
 		"thema": "04 Volkswirtschaft",
@@ -7065,10 +7058,10 @@
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_003",
 		"parentId": null,
-		"children": [],
-		"renderLink": [
-			""
+		"children": [
+			"6288"
 		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
 		],
@@ -7080,7 +7073,7 @@
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
 		"subtitle": "Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von 100 000 Fr.; Stand: 2016",
 		"kuerzel": "I.18.2.06134",
-		"kuerzelKunde": "2.7a",
+		"kuerzelKunde": "2.12a",
 		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
 		"id": 6134,
 		"thema": "18 Öffentliche Finanzen",
@@ -7106,10 +7099,10 @@
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_009",
 		"parentId": null,
-		"children": [],
-		"renderLink": [
-			""
+		"children": [
+			"6291"
 		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Steuerverwaltung"
 		],
@@ -7147,10 +7140,10 @@
 		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_002",
 		"parentId": null,
-		"children": [],
-		"renderLink": [
-			""
+		"children": [
+			"6298"
 		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -7189,10 +7182,10 @@
 		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_014",
 		"parentId": null,
-		"children": [],
-		"renderLink": [
-			""
+		"children": [
+			"6305"
 		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -7233,10 +7226,10 @@
 		"visibleInPortal": true,
 		"orderKey": "05_00_00_00_00_003",
 		"parentId": null,
-		"children": [],
-		"renderLink": [
-			""
+		"children": [
+			"6307"
 		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Zollverwaltung EZV"
 		],
@@ -7267,7 +7260,7 @@
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Eine Verzögerungszeit von 27% bedeutet, dass eine durchschnittliche Reise 27% länger dauert als dies unter staufreien Bedingungen der Fall wäre.",
-		"erlaeuterungen": "<a href='https://www.google.ch/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwi10_XS-c_XAhVS46QKHf26CBUQFggoMAA&url=http%3A%2F%2Fwww.congres-atecitsfrance.fr%2Fwp-content%2Fuploads%2F2013%2F12%2FCOHN_com085-Atelier-A7.pdf&usg=AOvVaw2VO2AxK37y7-LebxQcI6el' target='_blank'>TomTom Traffic Index: Toward a Global Measure  </a> <br/> -  <a href='https://www.tomtom.com/en_gb/trafficindex/about' target='_blank'>TomTom Traffic Index: About  </a> <br/>  -  TomTom Traffic Index: <a href='https://www.tomtom.com/en_gb/trafficindex/city/basel' target='_blank'>Basel</a>, <a href='https://www.tomtom.com/en_gb/trafficindex/city/GNV' target='_blank'>Genf</a>, <a href='https://www.tomtom.com/en_gb/trafficindex/city/ZUR' target='_blank'>Zürich</a>, <a href='https://www.tomtom.com/en_gb/trafficindex/city/bern' target='_blank'>Bern</a>",
+		"erlaeuterungen": "Detaillierte Informationen zu den TomTom Staudaten und der angewandten Methodik sind hier zu finden: <br/>-  <a href=’https://www.google.ch/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwi10_XS-c_XAhVS46QKHf26CBUQFggoMAA&url=http%3A%2F%2Fwww.congres-atecitsfrance.fr%2Fwp-content%2Fuploads%2F2013%2F12%2FCOHN_com085-Atelier-A7.pdf&usg=AOvVaw2VO2AxK37y7-LebxQcI6el’ target=’_blank’>TomTom Traffic Index: Toward a Global Measure  </a> <br/> -  <a href=’https://www.tomtom.com/en_gb/trafficindex/about’ target=’_blank’>TomTom Traffic Index: About  </a> <br/>  -  TomTom Traffic Index: <a href=’https://www.tomtom.com/en_gb/trafficindex/city/basel’ target=’_blank’>Basel</a>, <a href=’https://www.tomtom.com/en_gb/trafficindex/city/GNV’ target=’_blank’>Genf</a>, <a href=’https://www.tomtom.com/en_gb/trafficindex/city/ZUR’ target=’_blank’>Zürich</a>, <a href=’https://www.tomtom.com/en_gb/trafficindex/city/bern’ target=’_blank’>Bern</a>",
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
@@ -7315,10 +7308,10 @@
 		"visibleInPortal": true,
 		"orderKey": "07_00_00_00_00_001",
 		"parentId": null,
-		"children": [],
-		"renderLink": [
-			""
+		"children": [
+			"6312"
 		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -7356,10 +7349,10 @@
 		"visibleInPortal": true,
 		"orderKey": "07_00_00_00_00_003",
 		"parentId": null,
-		"children": [],
-		"renderLink": [
-			""
+		"children": [
+			"6314"
 		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
@@ -7368,11 +7361,11 @@
 		]
 	},
 	{
-		"title": "CO<sub>2</sub>-Emissionen",
+		"title": "CO2-Emissionen",
 		"subtitle": "",
 		"kuerzel": "I.02.5.06165",
 		"kuerzelKunde": "7.5",
-		"description": "CO<sub>2</sub>-Emissionen",
+		"description": "CO2-Emissionen",
 		"id": 6165,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Luftschadstoffe",
@@ -7391,8 +7384,8 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die aus dem Bruttoenergieverbrauch abgeleiteten CO<sub>2</sub>-Emissionen nahmen zwischen 2010 und 2014 von 898 113 Tonnen auf 755 095 Tonnen ab. Das entspricht einer Reduktion von 16%.",
-		"erlaeuterungen": "Die CO<sub>2</sub>-Emission berechnet sich aus der Summe der Verbräuche aller fossilen Brennstoffe sowie Abfall multipliziert mit den jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Zur Berechnung des Pro-Kopf-Verbrauchs wird der CO<sub>2</sub>-Verbrauch durch die mittlere Bevölkerung dividiert.  Erneuerbare Brennstoffe wie Holz oder Biogas sind nicht in den Emissionen eingeschlossen. Der in der Kehrichtverwertungsanalge (KVA) verbrannte Hauskehricht wird als 50% erneuerbar gezählt und ist somit nur zur Hälfte in die CO<sub>2</sub>-Emissionen eingerechnet.",
+		"lesehilfe": "Die aus dem Bruttoenergieverbrauch abgeleiteten CO2-Emissionen nahmen zwischen 2010 und 2014 von 898 113 Tonnen auf 755 095 Tonnen ab. Das entspricht einer Reduktion von 16%.",
+		"erlaeuterungen": "Die CO2-Emission berechnet sich aus der Summe der Verbräuche aller fossilen Brennstoffe sowie Abfall multipliziert mit den jeweiligen Emissionskoeffizienten von CO2. Zur Berechnung des Pro-Kopf-Verbrauchs wird der CO2-Verbrauch durch die mittlere Bevölkerung dividiert.  Erneuerbare Brennstoffe wie Holz oder Biogas sind nicht in den Emissionen eingeschlossen. Der in der Kehrichtverwertungsanalge (KVA) verbrannte Hauskehricht wird als 50% erneuerbar gezählt und ist somit nur zur Hälfte in die CO2-Emissionen eingerechnet.",
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
@@ -7402,9 +7395,7 @@
 		"children": [
 			"6316"
 		],
-		"renderLink": [
-			""
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -7442,10 +7433,10 @@
 		"visibleInPortal": true,
 		"orderKey": "09_00_00_00_00_005",
 		"parentId": null,
-		"children": [],
-		"renderLink": [
-			""
+		"children": [
+			"6322"
 		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
 		],
@@ -7487,10 +7478,10 @@
 		"visibleInPortal": true,
 		"orderKey": "11_00_00_00_00_005",
 		"parentId": null,
-		"children": [],
-		"renderLink": [
-			""
+		"children": [
+			"6330"
 		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
 		],
@@ -7583,7 +7574,7 @@
 		"title": "Kantonales BIP im Vergleich zu den Staatsausgaben",
 		"subtitle": "indexiert (1995 = 100)",
 		"kuerzel": "I.18.1.06205",
-		"kuerzelKunde": "2.4",
+		"kuerzelKunde": "2.9",
 		"description": "Kantonales BIP im Vergleich zu den Staatsausgaben",
 		"id": 6205,
 		"thema": "18 Öffentliche Finanzen",
@@ -7609,10 +7600,10 @@
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_004",
 		"parentId": null,
-		"children": [],
-		"renderLink": [
-			""
+		"children": [
+			"6335"
 		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung",
 			"BAK Economics"
@@ -7653,10 +7644,10 @@
 		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_001",
 		"parentId": null,
-		"children": [],
-		"renderLink": [
-			""
+		"children": [
+			"6336"
 		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung"
 		],
@@ -7694,10 +7685,10 @@
 		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_003",
 		"parentId": null,
-		"children": [],
-		"renderLink": [
-			""
+		"children": [
+			"6337"
 		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
 		],
@@ -7735,10 +7726,10 @@
 		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_004",
 		"parentId": null,
-		"children": [],
-		"renderLink": [
-			""
+		"children": [
+			"6338"
 		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
 		],
@@ -7776,10 +7767,10 @@
 		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_011",
 		"parentId": null,
-		"children": [],
-		"renderLink": [
-			""
+		"children": [
+			"6340"
 		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
 		],
@@ -8029,10 +8020,10 @@
 		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_012",
 		"parentId": null,
-		"children": [],
-		"renderLink": [
-			""
+		"children": [
+			"6341"
 		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
 		],
@@ -8088,7 +8079,7 @@
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
 		"subtitle": "Doppelverdiener ohne Kinder und einem Bruttoarbeitseinkommen von 100 000 Fr.; Stand: 2016",
 		"kuerzel": "I.18.2.06239",
-		"kuerzelKunde": "2.7b",
+		"kuerzelKunde": "2.12b",
 		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
 		"id": 6239,
 		"thema": "18 Öffentliche Finanzen",
@@ -8114,10 +8105,10 @@
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_010",
 		"parentId": null,
-		"children": [],
-		"renderLink": [
-			""
+		"children": [
+			"6342"
 		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
 		],
@@ -8129,7 +8120,7 @@
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
 		"subtitle": "Ledige mit einem Bruttoarbeitseinkommen von 100 000 Fr.; Stand: 2016",
 		"kuerzel": "I.18.2.06240",
-		"kuerzelKunde": "2.7c",
+		"kuerzelKunde": "2.12c",
 		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
 		"id": 6240,
 		"thema": "18 Öffentliche Finanzen",
@@ -8155,10 +8146,10 @@
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_011",
 		"parentId": null,
-		"children": [],
-		"renderLink": [
-			""
+		"children": [
+			"6343"
 		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
 		],
@@ -8197,10 +8188,10 @@
 		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_013",
 		"parentId": null,
-		"children": [],
-		"renderLink": [
-			""
+		"children": [
+			"6344"
 		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
 		],
@@ -8210,7 +8201,7 @@
 	},
 	{
 		"title": "Medianprämie pro Prämienregion",
-		"subtitle": "Basel-Stadt im nationalen Vergleich",
+		"subtitle": "Basel-Stadt im kantonalen Vergleich; in Franken.",
 		"kuerzel": "I.14.4.06346",
 		"kuerzelKunde": "9.1",
 		"description": "Medianprämie pro Prämienregion",
@@ -8231,8 +8222,8 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "",
+		"lesehilfe": "In den teuersten Prämienregionen aller verglichenen Kantone stigen die Medianprämien seit 2010 setig an. Basel-Stadt liegt zusammen mit Genf an der Spitze dieser Rangliste.",
+		"erlaeuterungen": "Verglichen wird der Medianwert der Standardprämien aller Versicherer in den Vergleichskantonen. Standardprämie: Monatsprämie der Obligatorischen Krankenpflegeversicherung gemäss dem Bundesgesetz über die Krankenversicherung (KVG) für Erwachse, Franchise Fr. 300, mit Unfalldeckung, ohne besonderes Versicherungsmodelle mit eingeschränkter Arztwahl gemäss Art. 62 KVG. Der Medianwert ist der Wert einer Zahlenreihe, der an der mittleren (zentralen) Stelle steht, wenn man die Werte der Größe nach sortiert.",
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
@@ -8250,11 +8241,11 @@
 		]
 	},
 	{
-		"title": "Standortqualitätsindikator (SQUI)",
+		"title": "Standortqualitätsindikator (SQI)",
 		"subtitle": "Basel-Stadt im nationalen Vergleich; Stand: 2016",
 		"kuerzel": "I.04.2.06348",
 		"kuerzelKunde": "1.2",
-		"description": "Standortqualitätsindikator (SQUI)",
+		"description": "Standortqualitätsindikator (SQI)",
 		"id": 6348,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
@@ -8271,9 +8262,9 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "",
-		"template": "template001",
+		"lesehilfe": "Basel-Stadt liegt mit einem Wert von 0,84 hinter Zug, Zürich und Aargau auf dem vierten Rang aller Kantone.",
+		"erlaeuterungen": "Der Standortqualitätsindikator drückt die Attraktivität der Schweizer Kantone und Regionen als synthetischen Indikator im Vergleich  zum Schweizer Durchschnitt von null aus. Werte zwischen –0.3 und +0.3 können als Mittelfeld bezeichnet werden, höhere Werte bedeuten  eine überdurchschnittliche Attraktivität, tiefere Werte eine geringere. Die Komponenten der Standortqualität sind Steuerliche Attraktivität für natürliche und juristische Personen, Verfügbarkeit von Fachkräften und hochqualifizierten Personen sowie die Erreichbarkeit als Summe aller Beschäftigungs- oder Bevölkerungspotenziale im in- und ausländischen Einzugsgebiet bzw. des Passagieraufkommens am jeweiligen Flughafen.",
+		"template": "line001",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": true,
@@ -8281,7 +8272,9 @@
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Credit Suisse Group AG"
+		],
 		"externalLinks": [
 			""
 		]

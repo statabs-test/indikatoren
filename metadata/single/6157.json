@@ -23,8 +23,8 @@
 "visibleInPortal":false,
 "orderKey":"07_00_00_00_00_007",
 "parentId":6129,
-"children":[],
-"renderLink":[""],
+"children":["6309"],
+"renderLink":[],
 "quellenangabe":["Lufthygieneamt beider Basel"],
 "externalLinks":["Weiterführende Informationen zum Indikator:<ul><li><a href='http://luft-bs-so.ch/messdaten'>Luftqualität in der Nordwestschweiz</a></li><li><a href='http://www.admin.ch/opc/de/classified-compilation/19850321/index.html'>Luftreinhalte-Verordnung (LRV)</a></li></ul>"]
 }

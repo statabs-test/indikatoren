@@ -23,8 +23,8 @@
 "visibleInPortal":false,
 "orderKey":"07_00_00_00_00_004",
 "parentId":6030,
-"children":[],
-"renderLink":[""],
+"children":["6315"],
+"renderLink":[],
 "quellenangabe":["Amt für Umwelt und Energie Basel-Stadt"],
 "externalLinks":[""]
 }

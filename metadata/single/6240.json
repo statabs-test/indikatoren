@@ -1,7 +1,7 @@
 {"title":"Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
 "subtitle":"Ledige mit einem Bruttoarbeitseinkommen von 100 000 Fr.; Stand: 2016",
 "kuerzel":"I.18.2.06240",
-"kuerzelKunde":"2.7c",
+"kuerzelKunde":"2.12c",
 "description":"Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
 "id":6240,
 "thema":"18 Öffentliche Finanzen",
@@ -23,8 +23,8 @@
 "visibleInPortal":true,
 "orderKey":"02_00_00_00_00_011",
 "parentId":null,
-"children":[],
-"renderLink":[""],
+"children":["6343"],
+"renderLink":[],
 "quellenangabe":["Eidgenössische Finanzverwaltung"],
 "externalLinks":[""]
 }

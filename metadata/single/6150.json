@@ -23,8 +23,8 @@
 "visibleInPortal":false,
 "orderKey":"04_00_00_00_00_009",
 "parentId":6054,
-"children":[],
-"renderLink":[""],
+"children":["6303"],
+"renderLink":[],
 "quellenangabe":["Steuerstatistik Basel-Stadt"],
 "externalLinks":[""]
 }

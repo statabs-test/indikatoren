@@ -4,7 +4,7 @@ var templatesById = {
 	"2953": "template001",
 	"2956": "template001",
 	"3051": "line001",
-	"3086": "template001",
+	"3086": "line001",
 	"3104": "line001",
 	"4127": "befragungen001",
 	"4128": "line001",
@@ -443,7 +443,7 @@ var templatesById = {
 	"6344": "befragungen001_print",
 	"6346": "line001",
 	"6347": "template001",
-	"6348": "template001",
+	"6348": "line001",
 	"9998": "pie001",
 	"9999": "mappie002"
 };

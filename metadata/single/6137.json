@@ -23,8 +23,8 @@
 "visibleInPortal":false,
 "orderKey":"03_00_00_00_00_005",
 "parentId":6053,
-"children":[],
-"renderLink":[""],
+"children":["6293"],
+"renderLink":[],
 "quellenangabe":["Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"],
 "externalLinks":[""]
 }
