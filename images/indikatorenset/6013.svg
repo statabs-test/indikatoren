@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 6.0.3
+    Created with Highstock 5.0.14
   </desc>
   <defs>
     <clipPath>
@@ -14,7 +14,7 @@
   <g class="highcharts-pane-group"/>
   <rect fill="none" class="highcharts-plot-border" x="10" y="41" width="328" height="329"/>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-pie-series " transform="translate(10,41) scale(1 1)">
+    <g class="highcharts-series highcharts-series-0 highcharts-pie-series highcharts-color-undefined " transform="translate(10,41) scale(1 1)">
       <path fill="#007A2F" d="M 165.96904167303833 13.000003152690851 A 152 152 0 0 1 317.99878400162135 165.60799837866796 L 166 165 A 0 0 0 0 0 166 165 Z" transform="translate(0,0)" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
       <path fill="#68AB2B " d="M 317.99810000395837 165.75999683333728 A 152 152 0 0 1 302.5356762831413 231.7982716984897 L 166 165 A 0 0 0 0 0 166 165 Z" transform="translate(0,0)" stroke-linejoin="round" class="highcharts-point highcharts-color-1"/>
       <path fill="#73B97C" d="M 302.4688097547434 231.9347739528838 A 152 152 0 0 1 266.4315826183513 279.0942470625635 L 166 165 A 0 0 0 0 0 166 165 Z" transform="translate(0,0)" stroke-linejoin="round" class="highcharts-point highcharts-color-2"/>
@@ -22,13 +22,12 @@
       <path fill="#6F6F6F" d="M 215.08141835250262 308.8576184027339 A 152 152 0 0 1 168.24895960945807 316.983361525777 L 166 165 A 0 0 0 0 0 166 165 Z" transform="translate(0,0)" stroke-linejoin="round" class="highcharts-point highcharts-color-4"/>
       <path fill="#3C3C3C" d="M 168.09697514878317 316.9855344933372 A 152 152 0 1 1 165.78887504941312 13.000146624231121 L 166 165 A 0 0 0 1 0 166 165 Z" transform="translate(0,0)" stroke-linejoin="round" class="highcharts-point highcharts-color-5"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-pie-series " transform="translate(10,41) scale(1 1)"/>
+    <g class="highcharts-markers highcharts-series-0 highcharts-pie-series highcharts-color-undefined " transform="translate(10,41) scale(1 1)"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Aus dem Ausland Zugezogene nach Zuzugsland</tspan>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="40"/>
-  <g class="highcharts-data-labels highcharts-series-0 highcharts-pie-series " visibility="visible" transform="translate(10,41) scale(1 1)">
+  <g class="highcharts-data-labels highcharts-series-0 highcharts-pie-series highcharts-color-undefined " visibility="visible" transform="translate(10,41) scale(1 1)">
     <g class="highcharts-label highcharts-data-label highcharts-data-label-color-0 " style="cursor:true;" transform="translate(236,68)">
       <text x="5" style="font-size:12px;font-weight:normal;color:white;fill:white;" y="17">
         <tspan x="5" y="17" class="highcharts-text-outline" fill="white" stroke="white" stroke-width="0px" stroke-linejoin="round" style="">25%</tspan><tspan x="5" y="17">25%</tspan>
