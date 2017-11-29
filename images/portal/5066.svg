@@ -89,12 +89,12 @@
     <tspan>Anteil PV-Beziehende mit Sozialhilfe und</tspan><tspan dy="17" x="10">Ergänzungsleistungen an der Bevölkerung</tspan><title>Anteil PV-Beziehende mit Sozialhilfe und Ergänzungsleistungen an der Bevölkerung</title>
   </text>
   <g class="highcharts-legend" transform="translate(51,50)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="335" height="49" visibility="visible"/>
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="308" height="49" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(8,3)">
           <text x="21" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
-            <tspan>PV-Beziehende (inkl. SH/EL) (linke Achse)</tspan>
+            <tspan>Beziehende von Prämienverbilligung (inkl. SH/EL)</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#71a3b5" class="highcharts-point"/>
         </g>
@@ -102,7 +102,7 @@
           <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#7d60a0" stroke-width="2"/>
           <path fill="#7d60a0" d="M 12 11 A 4 4 0 1 1 11.999998000000167 10.996000000666664 Z" class="highcharts-point"/>
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Anteil PV-Beziehende an Wohnbev. in % (rechte Achse)</tspan>
+            <tspan>Anteil PV-Beziehende an Wohnbev. (rechte Achse)</tspan>
           </text>
         </g>
       </g>

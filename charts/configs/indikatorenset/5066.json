@@ -51,7 +51,7 @@
           51229
         ]
       ],
-      "name": "PV-Beziehende (inkl. SH\u002FEL) (linke Achse)"
+      "name": "Beziehende von Prämienverbilligung (inkl. SH\u002FEL)"
     },
     {
       "color": "#7d60a0",
@@ -107,7 +107,7 @@
           25.8463416849137
         ]
       ],
-      "name": "Anteil PV-Beziehende an Wohnbev. in % (rechte Achse)"
+      "name": "Anteil PV-Beziehende an Wohnbev. (rechte Achse)"
     }
   ],
   "chart": {
