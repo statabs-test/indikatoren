@@ -21,7 +21,7 @@
           194979.25868184
         ]
       ],
-      "name": "Verkehr tCO2",
+      "name": "Verkehr total",
       "turboThreshold": 0
     },
     {
@@ -48,7 +48,7 @@
           0.99435583714207
         ]
       ],
-      "name": "tCO2 pro Kopf",
+      "name": "Verkehr pro Kopf",
       "turboThreshold": 0
     }
   ],
@@ -126,7 +126,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "In Tonnen",
     "align": "left"
   },
   "yAxis": [

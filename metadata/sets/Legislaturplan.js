@@ -1630,7 +1630,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "CO2-Emissionen Verkehr",
-		"subtitle": "",
+		"subtitle": "In Tonnen",
 		"kuerzel": "I.02.5.06158",
 		"kuerzelKunde": "5.5",
 		"description": "CO2-Emissionen Verkehr",
