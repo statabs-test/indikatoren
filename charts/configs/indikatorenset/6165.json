@@ -118,7 +118,7 @@
     },
     "align": "left",
     "useHTML": true,
-    "text": "CO2-Emissionen"
+    "text": "CO\u003Csub\u003E2\u003C\u002Fsub\u003E-Emissionen"
   },
   "subtitle": {
     "style": {

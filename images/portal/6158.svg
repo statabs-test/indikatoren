@@ -64,7 +64,7 @@
     <tspan>CO2-Emissionen Verkehr</tspan>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
-    <tspan>In Tonnen</tspan>
+    <tspan>in Tonnen</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(57,45)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="236" height="30" visibility="visible"/>

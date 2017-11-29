@@ -493,7 +493,8 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Luftqualität: Langzeitbelastung der Luft - Jahresmittelwerte für Stickstoffdioxid (NO2) und Feinstaub (PM10)"
+    "useHTML": true,
+    "text": "Luftqualität: Langzeitbelastung der Luft - Jahresmittelwerte für Stickstoffdioxid (NO\u003Csub\u003E2\u003C\u002Fsub\u003E) und Feinstaub (PM10)"
   },
   "subtitle": {
     "style": {

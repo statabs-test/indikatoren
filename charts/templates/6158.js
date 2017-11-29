@@ -1,5 +1,8 @@
 (function(){
     return {
+    title: {
+      useHTML: true
+    },
   "plotOptions": {
     "series": {
       "borderWidth": 0,

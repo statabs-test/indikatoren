@@ -151,7 +151,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Energieverbrauch nach Verbrauchergruppe in Mio. kWh"
+    "text": "Energieverbrauch nach Verbrauchergruppe"
   },
   "subtitle": {
     "style": {
@@ -160,7 +160,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "in Mio. kWh",
     "align": "left"
   },
   "yAxis": {

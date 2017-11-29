@@ -17,14 +17,14 @@
   "yAxis": {
 	//"max": 100,
     "labels": {
-      "format": "{value:,.0f}%"
+      "format": "{value:,.0f}"
     }    
   },
   "series": [
   {"color": "#CD9C00", "visible": true} /* hellbraun*/
  ],
   "legend": {
-    "enabled": true,
+    "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
@@ -35,7 +35,7 @@
     }
   },
    tooltip: {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}%</b><br/>',
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
     "shared": false
   },
   "chart": {      

@@ -1,5 +1,8 @@
 (function(){
     return {
+    title: {
+      useHTML: true
+    },
   "xAxis": {
     //"tickInterval": 1
   },
