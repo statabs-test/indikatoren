@@ -230,7 +230,7 @@
         "color": "#000000"
       }
     },
-    "tickColor": "#FFFFFF",
+    "tickLength": 0,
     "tickInterval": 1
   },
   "chart": {
@@ -244,9 +244,20 @@
     },
     "zoomType": "xy",
     "events": {
-      "load": function () {
-                    this.credits.element.onclick = function() {}
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
                 }
+              );
+            }
+          }
     },
     "marginBottom": 95,
     "marginTop": 75,
@@ -342,7 +353,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik BFS, STATENT;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Leerstandserhebung"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Leerstandserhebung"
   },
   "legend": {
     "symbolRadius": 0,

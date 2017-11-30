@@ -19,17 +19,15 @@ global FilterJS
 global JsonQuery
 global FJS
 
-global indikatoren
+global isIndikatorensetView
 global indikatorensetData
 global indikatorensetNames
 global lazyRenderChartById
 
-global seedrandom
-
 */
 
 //holds config of each chart
-var chartOptions = {};
+
 var sortOptions = {};
 
 var indikatoren;
@@ -97,7 +95,7 @@ function resetPortalFilter(FJS, view){
 function initializeFilterJS(indikatorenset){
   var fjsConfig = {      
     template: undefined,
-    search: { ele: '#searchbox' },
+    search: { ele: '#searchbox', start_length: 1},
     callbacks: {
           afterFilter: afterFilter, 
           shortResult: sortResult
@@ -141,7 +139,7 @@ function initializeFilterJS(indikatorenset){
 
     //reset all filter criteria
     $("#portal-reset-button").click(function(){
-      resetPortalFilter(FJS, false)
+      resetPortalFilter(FJS, false);
     });
   }  
 
@@ -253,8 +251,8 @@ function prepareIndikatorensetView(indikatorenset){
   var baseQuery = {};
   baseQuery['kennzahlenset'] = indikatorenset;              
 
-  renderDropdownFromJson(indikatoren, 'stufe1', '#stufe1_filter', 'stufe1', baseQuery);
-  renderDropdownFromJson(indikatoren, 'stufe2', '#stufe2_filter', 'stufe2', baseQuery);
+  renderDropdownFromJson(indikatoren, 'stufe1', '#stufe1_filter', 'orderKey', baseQuery);
+  renderDropdownFromJson(indikatoren, 'stufe2', '#stufe2_filter', 'orderKey', baseQuery);
 
   //add cascaded dropdowns functionality to stufe1 and stufe2
   configureCascadedControls('#stufe1_filter', '#stufe2_filter', '#stufe1_filter', 'all', 'stufe1', '#stufe2_filter', 'all', 'stufe2', baseQuery); 
@@ -424,38 +422,7 @@ function slideToLinkedChart(chartId, FJS, view){
 }
 
 
-//render the html required for links to other chart, kennzahlenset or external resources
-function renderLinksHTML(kennzahlenset, renderLink, externalLinks, view){
-  var returnText = "";
-  var displayLinkToIndikatorenset = (kennzahlenset && !isIndikatorensetView(view));
-  var displayRenderLink = (renderLink && renderLink.length && renderLink[0].length);
-  var displayExternalLinks = (externalLinks && externalLinks.length && externalLinks[0].length);
-  //any of the links need to be present 
-  if (displayLinkToIndikatorenset || displayRenderLink || displayExternalLinks ) {
-    returnText = " \
-        <div> \
-          <h1>Links</h1> \
-          <div class='lesehilfe'> \
-            <ul class='list-unstyled'>\
-        ";
-    // Only display Link to Indikatorenset if not already in Indikatorenset View
-    if (displayLinkToIndikatorenset) {
-      returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/>Dieser Indikator ist Bestandteil des Indikatorensets <a href='http://www.statistik.bs.ch/zahlen/indikatoren/sets/"+ kennzahlenset.toLowerCase().replace(" ", "-") + ".html' target='_blank'>" + kennzahlenset + "</a>.</li>";
-    }
-    if (displayRenderLink) {
-      returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/><a href='javascript:javascript:slideToLinkedChart(" + renderLink[0] + ", window.FJS, " + view + ")'>Andere Darstellungsform</a> dieser Daten</li>";
-    }
-    if (displayExternalLinks) {
-      returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/>" + externalLinks + "</li>";
-    }
-    returnText += " \
-            </ul> \
-          </div> \
-        </div> \
-        ";
-  }
-  return returnText;
-}
+
 
 //convert a normal html select given via its css selector to a multiselect dropdown
 function configureMultiselect(selector){
@@ -550,7 +517,7 @@ var afterFilter = function(result, jQ){
             var c = $(this), count = 0;           
             //get last Query JsonQuery Object of last filter event and remove the current filter value from it
             try{
-              var jsonQ = window.FJS.last_Query;           
+              var jsonQ = window.FJS.last_query;           
               //save array to restore later
               var origArray = jsonQ.where().criteria.where[field + '.$in'];
               //add only current item to new criterion array
@@ -629,7 +596,7 @@ var afterFilter = function(result, jQ){
     function createCarousel(result){            
       //add a carousel-inner div for each thumbnail
       //build template function using template from DOM
-      var template = (isIndikatorensetView(view)) ? '#indikator-template-modal-indikatorenset' : '#indikator-template-modal-portal';
+      var template = (isIndikatorensetView(indikatorensetView)) ? '#indikator-template-modal-indikatorenset' : '#indikator-template-modal-portal';
       var html = $(template).html();
       var templateFunction = FilterJS.templateBuilder(html);
       var container = $('#carousel-inner');

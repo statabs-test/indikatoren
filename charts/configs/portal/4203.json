@@ -66,7 +66,7 @@
         "color": "#000000"
       }
     },
-    "tickColor": "#FFFFFF"
+    "tickLength": 0
   },
   "chart": {
     "borderColor": "#fbfbfb",
@@ -79,9 +79,20 @@
     },
     "zoomType": "xy",
     "events": {
-      "load": function () {
-                    this.credits.element.onclick = function() {}
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
                 }
+              );
+            }
+          }
     },
     "type": "column",
     "inverted": true,
@@ -108,7 +119,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Altersquotient nach Staatsangehörigkeit 2015"
+    "text": "Altersquotient nach Staatsangehörigkeit"
   },
   "subtitle": {
     "style": {
@@ -117,7 +128,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Stand: 2015",
     "align": "left"
   },
   "yAxis": {
@@ -156,7 +167,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsstatistik"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
   },
   "legend": {
     "symbolRadius": 0,
@@ -180,6 +191,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.01.1.0014"
+    "filename": "I.01.1.4203"
   }
 }

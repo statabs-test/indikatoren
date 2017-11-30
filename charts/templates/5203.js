@@ -20,34 +20,50 @@
     "labels": {
       "format": "{value:,.0f}"
     },
-	"max": undefined
+   plotLines: [{
+                    value: 0,
+                    color: 'white',
+                    width: 2,
+                    zIndex: 4
+                }]
   },
   "legend": {
     "enabled": true,
     "layout": "horizontal",
+    itemWidth: 200,
     "verticalAlign": "top",
     "align": "left",
-    "x": 40,
+    "x": 50,
 	"y": 20,    
-	"width": 200,
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
   "series": [
-  {"color": "#b00000", "index": 5}, /*rot */
-  {"color": "#2f656b", "index": 4}, /*dunkelblau */
+  {"color": "#246370", "index": 1, legendIndex: 1}, /*rot */
+  {"color": "#A8C3CA", "index": 2, legendIndex: 3}, /*blau */
+  {"color": "#007A2F", "index": 3, legendIndex: 2}, /*hellrot */
+  {"color": "#8AB77D", "index": 4, legendIndex: 4}, /*hellblau */
+      {
+      "color": "#000000",
+      //"index": 1,
+      "type": "line",
+	   "marker": {
+    	"enabled": false
+      }, 
+      legendIndex: 4,
+    },
   ],
   "chart": {
     "renderTo": 'container-I.01.1.0016', 
     "marginBottom": 75,
-    "marginTop": 75,
+    //"marginTop": 75,
     "type": "column",
     "inverted": false
   },
   "tooltip": {
   "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
-  "footerFormat": 'Total: <b>{point.total:,.0f}</b>',
+  //"footerFormat": 'Total: <b>{point.total:,.0f}</b>',
    "shared": true,
   },
 };

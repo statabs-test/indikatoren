@@ -35,9 +35,6 @@
   </g>
   <rect fill="none" class="highcharts-plot-border" x="53" y="55" width="298" height="295"/>
   <g class="highcharts-axis highcharts-xaxis ">
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 201.5 350 L 201.5 360" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 351.5 350 L 351.5 360" opacity="1"/>
-    <path fill="none" class="highcharts-tick" stroke="#FFFFFF" stroke-width="1" d="M 52.5 350 L 52.5 360" opacity="1"/>
     <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width="0.5" d="M 53 350.25 L 351 350.25"/>
   </g>
   <g class="highcharts-axis highcharts-yaxis ">
@@ -61,7 +58,7 @@
     <g class="highcharts-markers highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(53,55) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Ehrenamtliche Tätigkeit / Freiwilligenarbeit</tspan>
+    <tspan>Ehrenamtliche Tätigkeit / Freiwilligenarbeit im Alter</tspan>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;fill:#000000;" y="40">
     <tspan>«Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?»</tspan>

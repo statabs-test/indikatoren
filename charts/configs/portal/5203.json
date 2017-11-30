@@ -1,67 +1,211 @@
 {
   "series": [
     {
-      "color": "#b00000",
-      "index": 5,
+      "color": "#246370",
+      "index": 1,
+      "legendIndex": 1,
       "data": [
         [
+          "1990",
+          -14688
+        ],
+        [
+          "2000",
+          -17150
+        ],
+        [
           "2010",
-          22450
+          -22450
         ],
         [
           "2011",
-          22097
+          -22097
         ],
         [
           "2012",
-          22943
+          -22943
         ],
         [
           "2013",
-          23562
+          -23562
         ],
         [
           "2014",
-          24679
+          -24679
         ],
         [
           "2015",
-          24073
+          -24073
         ]
       ],
-      "name": "In die Schweiz",
+      "name": "Wegpendler in die Schweiz",
       "turboThreshold": 0
     },
     {
-      "color": "#2f656b",
-      "index": 4,
+      "color": "#A8C3CA",
+      "index": 2,
+      "legendIndex": 3,
       "data": [
         [
+          "1990",
+          -281
+        ],
+        [
+          "2000",
+          -235
+        ],
+        [
           "2010",
-          269
+          -269
         ],
         [
           "2011",
-          580
+          -580
         ],
         [
           "2012",
-          512
+          -512
         ],
         [
           "2013",
-          478
+          -478
         ],
         [
           "2014",
-          508
+          -508
         ],
         [
           "2015",
-          338
+          -338
         ]
       ],
-      "name": "Ins Ausland",
+      "name": "Wegpendler ins Ausland",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007A2F",
+      "index": 3,
+      "legendIndex": 2,
+      "data": [
+        [
+          "1990",
+          57294
+        ],
+        [
+          "2000",
+          54525
+        ],
+        [
+          "2010",
+          60812
+        ],
+        [
+          "2011",
+          63306
+        ],
+        [
+          "2012",
+          62880
+        ],
+        [
+          "2013",
+          62884
+        ],
+        [
+          "2014",
+          64706
+        ],
+        [
+          "2015",
+          64289
+        ]
+      ],
+      "name": "Zupendler aus der Schweiz",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#8AB77D",
+      "index": 4,
+      "legendIndex": 4,
+      "data": [
+        [
+          "1990",
+          28767
+        ],
+        [
+          "2000",
+          29785
+        ],
+        [
+          "2010",
+          31090
+        ],
+        [
+          "2011",
+          31929
+        ],
+        [
+          "2012",
+          32799
+        ],
+        [
+          "2013",
+          33603
+        ],
+        [
+          "2014",
+          35143
+        ],
+        [
+          "2015",
+          36272
+        ]
+      ],
+      "name": "Zupendler aus dem Ausland",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#000000",
+      "type": "line",
+      "marker": {
+        "enabled": false
+      },
+      "legendIndex": 4,
+      "data": [
+        [
+          "1990",
+          71092
+        ],
+        [
+          "2000",
+          66925
+        ],
+        [
+          "2010",
+          69183
+        ],
+        [
+          "2011",
+          72558
+        ],
+        [
+          "2012",
+          72224
+        ],
+        [
+          "2013",
+          72447
+        ],
+        [
+          "2014",
+          74662
+        ],
+        [
+          "2015",
+          76150
+        ]
+      ],
+      "name": "Saldo",
       "turboThreshold": 0
     }
   ],
@@ -80,7 +224,7 @@
         "color": "#000000"
       }
     },
-    "tickColor": "#FFFFFF",
+    "tickLength": 0,
     "tickInterval": 1
   },
   "chart": {
@@ -94,13 +238,23 @@
     },
     "zoomType": "xy",
     "events": {
-      "load": function () {
-                    this.credits.element.onclick = function() {}
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
                 }
+              );
+            }
+          }
     },
     "renderTo": "container-5203",
     "marginBottom": 75,
-    "marginTop": 75,
     "type": "column",
     "inverted": false
   },
@@ -124,7 +278,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anzahl Wegpendler aus Basel-Stadt nach Ziel"
+    "text": "Zu- und Wegpendler nach Herkunft und Ziel"
   },
   "subtitle": {
     "style": {
@@ -152,7 +306,15 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "plotLines": [
+      {
+        "value": 0,
+        "color": "white",
+        "width": 2,
+        "zIndex": 4
+      }
+    ]
   },
   "navigation": {
     "menuItemStyle": {
@@ -179,18 +341,17 @@
     "symbolRadius": 0,
     "enabled": true,
     "layout": "horizontal",
+    "itemWidth": 200,
     "verticalAlign": "top",
     "align": "left",
-    "x": 40,
+    "x": 50,
     "y": 20,
-    "width": 200,
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
     "shared": true
   },
   "exporting": {

@@ -1,34 +1,41 @@
 (function(){
     return {
   "yAxis": [{
+  	"min": 0,
+    "max": 200000,
+     "tickInterval": 50000,
   	title: {
-        text: null
+        text: null,
+        "color": "#000000",
+        "fontSize": null
     },
     "labels": {
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f}",
+       style:{
+       		color: "black",
+       },
     },
-    "min": 0,
-    //"max": 3000,
-    //"tickInterval":600,
-    //"title": ""
   },
   {
-    /*"title": {
+  	"min": 90,
+     max: 120,
+    "tickInterval": 7.5,
+    "title": {
         "style": {
         "color": "#000000",
         "fontSize": null
       },
       "text": null
-    },*/
+    },
     title: {
         text: null
     },
     "labels": {
-      "format": "{value:,.0f}"
+      "format": "{value:,.1f}",
+       style:{
+       		color: "black",
+       },
     },
-    "min": 0,
-    //"tickInterval": 2,
-    //"gridLineWidth": 0,
     "opposite": true
   }
   ],
@@ -58,7 +65,7 @@
       borderWidth: 0,
       legendIndex: 1,
     	"tooltip": {
-  		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.0f}</b><br/>',
+  		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
 		   },
     },
     {
@@ -70,12 +77,9 @@
         "enabled": true
       },
       legendIndex: 2,
-      "tooltip": {
-  		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}</b><br/>',
-		   },
-      //tooltip: {
-      	//"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>'
-    //}
+	  "tooltip": {
+  		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
+	   },
     },
      {
       "color":  "#A8C3CA", // Beschäftigte
@@ -85,9 +89,10 @@
       borderWidth: 0,
       //"pointWidth": "8",
       legendIndex: 3,
-      "tooltip": {
-  		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.0f}</b><br/>',
-		   },
+	  "tooltip": {
+  			"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+      },
+
     },
     {
       "color":  "#246370", // Beschäftigte indexiert
@@ -95,15 +100,17 @@
       "type": "line",
       "yAxis": 1,
       "legendIndex": 3,
+      "tooltip": {
+  		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
+	   },
       "marker": {
         "enabled": true
       },
-      "tooltip": {
-  		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}</b><br/>',
-		   },
-		   
     }
   ],  
+   "tooltip": {
+  	    //"shared": true
+		   },
   "chart": {
     "marginBottom": 65,
     "alignTicks": false

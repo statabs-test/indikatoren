@@ -1,16 +1,19 @@
 (function(){
     return {
     "chart": {		
-        "events":{
+              "events":{
             "load": function() {
-                this.credits.element.onclick = function() {
-                    /*
-                    window.open(
-                    "http://www.statistik.bs.ch",
-                    '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
-                    );
-                    */
-                }
+              this.credits.element.onclick = function() {};
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
             }
         },
         "borderColor": "#fbfbfb",
@@ -81,7 +84,7 @@
         lineWidth: 0.5,
         "type": "category",
         "uniqueNames": true,
-        "tickColor": "#FFFFFF",
+        "tickLength": 0,
         "title": {
             "style": {
 				"color": "#000000"
@@ -122,7 +125,7 @@
         "verticalAlign": "middle",
         "itemMarginBottom": 5,     
         "align": "right",
-        "useHTML": true,
+        "useHTML": false,
         "itemStyle": {
             "fontWeight": "normal",
             "width": 115

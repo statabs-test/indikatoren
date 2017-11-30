@@ -227,31 +227,31 @@
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
     <tspan>Anzahl Beschäftigte pro Hektar nach Wohnviertel</tspan>
   </text>
-  <g class="highcharts-label" transform="translate(265,240)">
+  <g class="highcharts-label" transform="translate(285,240)">
     <text x="3" style="font-size:12px;font-weight:bold;" y="15">
       <tspan>Differenz 2014 zu 2011</tspan>
     </text>
   </g>
-  <circle cx="385" cy="275" r="0.8303705543824683" fill="grey" stroke="grey" stroke-width="1" class="pieLegendHideOnZoom pieLegend"/>
-  <g class="pieLegendHideOnZoom pieLegend" transform="translate(400,265)">
+  <circle cx="410" cy="275" r="0.8303705543824683" fill="grey" stroke="grey" stroke-width="1" class="pieLegend"/>
+  <g class="pieLegend" transform="translate(430,265)">
     <text x="3" y="15">
       0,1
     </text>
   </g>
-  <circle cx="385" cy="300" r="10.169920778345187" fill="grey" stroke="grey" stroke-width="1" class="pieLegendHideOnZoom pieLegend"/>
-  <g class="pieLegendHideOnZoom pieLegend" transform="translate(400,290)">
+  <circle cx="410" cy="300" r="10.169920778345187" fill="grey" stroke="grey" stroke-width="1" class="pieLegend"/>
+  <g class="pieLegend" transform="translate(430,290)">
     <text x="3" y="15">
       15
     </text>
   </g>
-  <rect x="270" y="270" width="10" height="10" fill="#7F5F1A" class="undefined pieLegend"/>
-  <g class="undefined pieLegend" transform="translate(290,265)">
+  <rect x="290" y="270" width="10" height="10" fill="#7F5F1A" class="pieLegend"/>
+  <g class="pieLegend" transform="translate(310,265)">
     <text x="3" y="15">
       Zunahme
     </text>
   </g>
-  <rect x="270" y="295" width="10" height="10" fill="#FABD24" class="undefined pieLegend"/>
-  <g class="undefined pieLegend" transform="translate(290,290)">
+  <rect x="290" y="295" width="10" height="10" fill="#FABD24" class="pieLegend"/>
+  <g class="pieLegend" transform="translate(310,290)">
     <text x="3" y="15">
       Abnahme
     </text>

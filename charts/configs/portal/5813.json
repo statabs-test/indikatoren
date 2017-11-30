@@ -9,67 +9,67 @@
       "data": [
         [
           1998,
-          1.52052418577761
+          1.519192074785
         ],
         [
           1999,
-          1.54249070846733
+          1.540636450188
         ],
         [
           2000,
-          1.30810738022642
+          1.306536525381
         ],
         [
           2001,
-          1.40839657988279
+          1.409290163808
         ],
         [
           2002,
-          1.32756105052987
+          1.326453295991
         ],
         [
           2003,
-          1.36247625261461
+          1.360831065281
         ],
         [
           2004,
-          1.43930392119284
+          1.438711098765
         ],
         [
           2005,
-          1.52
+          1.519506399938
         ],
         [
           2006,
-          1.40593340214856
+          1.405933402148
         ],
         [
           2007,
-          1.40153901968647
+          1.401539019686
         ],
         [
           2008,
-          1.24
+          1.235404752584
         ],
         [
           2009,
-          0.92
+          0.924635966335
         ],
         [
           2010,
-          0.744247055804272
+          0.745160737737
         ],
         [
           2011,
-          1.48936170212766
+          0.495886611061
         ],
         [
           2012,
-          0.4727506523959
+          0.472750652395
         ],
         [
           2013,
-          0.340820045127973
+          0.340820045127
         ],
         [
           2014,
@@ -90,7 +90,18 @@
   "chart": {
     "events": {
       "load": function () {
-              this.credits.element.onclick = function() {}
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
           }
     },
     "borderColor": "#fbfbfb",
@@ -121,12 +132,12 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "in Prozent",
     "align": "left"
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.21f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
     "min": 0,
@@ -143,7 +154,7 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.2f}"
+      "format": "{value:,.1f}"
     }
   },
   "xAxis": {
@@ -190,7 +201,7 @@
             var last = this.series.data[this.series.data.length - 1];
             var first = this.series.data[0];
             if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {
-              return Highcharts.numberFormat(this.point.y, 1, ",", " ");
+              return Highcharts.numberFormat(this.point.y,2, ",", " ");
             }
             return "";
           }

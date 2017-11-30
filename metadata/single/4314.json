@@ -10,7 +10,7 @@
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
 "schlagwort":["Naturgefahren","Klima"],
-"stufe1":"Naturgefahren",
+"stufe1":"Thema Naturgefahren",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
@@ -21,9 +21,10 @@
 "option":"options001",
 "visible":true,
 "visibleInPortal":false,
+"orderKey":"07_00_00_00_00_000",
 "parentId":null,
 "children":[],
 "renderLink":[],
-"quellenangabe":["Bundesamt für Umwelt"],
+"quellenangabe":["Bundesamt für Umwelt (BAFU)"],
 "externalLinks":[""]
 }

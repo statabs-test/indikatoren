@@ -54,7 +54,7 @@
     <g class="highcharts-markers highcharts-series-2 highcharts-map-series highcharts-color-undefined " transform="translate(10,41) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-3 highcharts-mapline-series highcharts-color-undefined " transform="translate(10,41) scale(1 1)">
       <g transform="translate(0,0) scale(1 1)">
-        <path fill="none" d="M 2611898.998,1267399.905 " stroke="black" stroke-width="1" vector-effect="non-scaling-stroke" class="highcharts-point"/>
+        <path fill="none" d="M 67.47654592861153 270.56161641018224 L 67.47654592861153 277.79664158488123 67.47654592861153 274.17912899753173 103.6516718021066 274.17912899753173 103.6516718021066 270.56161641018224 103.6516718021066 277.79664158488123" stroke="black" stroke-width="1" vector-effect="non-scaling-stroke" class="highcharts-point"/>
       </g>
     </g>
     <g class="highcharts-markers highcharts-series-3 highcharts-mapline-series highcharts-color-undefined " transform="translate(10,41) scale(1 1)" clip-path="none"/>
@@ -231,37 +231,37 @@
     <tspan>Anzahl privater Personenwagen pro Haushalt</tspan>
   </text>
   <g class="highcharts-data-labels highcharts-series-3 highcharts-mapline-series highcharts-color-undefined " visibility="visible" transform="translate(10,41) scale(1 1)" clip-path="url(#a)">
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(-Infinity,-Infinity)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(73,257)">
       <text x="0" style="font-size:12px;font-weight:normal;color:black;fill:black;" y="12">
         <tspan x="0" y="12" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">1 km</tspan><tspan x="0" y="12">1 km</tspan>
       </text>
     </g>
   </g>
-  <g class="highcharts-label" transform="translate(265,240)">
+  <g class="highcharts-label" transform="translate(285,240)">
     <text x="3" style="font-size:12px;font-weight:bold;" y="15">
       <tspan>Differenz 2016 zu 1997</tspan>
     </text>
   </g>
-  <circle cx="385" cy="275" r="3.3092572771329416" fill="grey" stroke="grey" stroke-width="1" class="pieLegendHideOnZoom pieLegend"/>
-  <g class="pieLegendHideOnZoom pieLegend" transform="translate(400,265)">
+  <circle cx="410" cy="275" r="1.046479035922714" fill="grey" stroke="grey" stroke-width="1" class="undefined pieLegend"/>
+  <g class="undefined pieLegend" transform="translate(430,265)">
     <text x="3" y="15">
-      0,010
+      0,001
     </text>
   </g>
-  <circle cx="385" cy="300" r="10.464790359227141" fill="grey" stroke="grey" stroke-width="1" class="pieLegendHideOnZoom pieLegend"/>
-  <g class="pieLegendHideOnZoom pieLegend" transform="translate(400,290)">
+  <circle cx="410" cy="300" r="10.464790359227141" fill="grey" stroke="grey" stroke-width="1" class="undefined pieLegend"/>
+  <g class="undefined pieLegend" transform="translate(430,290)">
     <text x="3" y="15">
       0.10
     </text>
   </g>
-  <rect x="270" y="270" width="10" height="10" fill="#7F5F1A" class="undefined pieLegend"/>
-  <g class="undefined pieLegend" transform="translate(290,265)">
+  <rect x="290" y="270" width="10" height="10" fill="#7F5F1A" class="undefined pieLegend"/>
+  <g class="undefined pieLegend" transform="translate(310,265)">
     <text x="3" y="15">
       Zunahme
     </text>
   </g>
-  <rect x="270" y="295" width="10" height="10" fill="#FABD24" class="undefined pieLegend"/>
-  <g class="undefined pieLegend" transform="translate(290,290)">
+  <rect x="290" y="295" width="10" height="10" fill="#FABD24" class="undefined pieLegend"/>
+  <g class="undefined pieLegend" transform="translate(310,290)">
     <text x="3" y="15">
       Abnahme
     </text>

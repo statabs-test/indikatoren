@@ -30,7 +30,18 @@
   "chart": {
     "events": {
       "load": function () {
-              this.credits.element.onclick = function() {}
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
           }
     },
     "borderColor": "#fbfbfb",
@@ -129,7 +140,7 @@
             var last = this.series.data[this.series.data.length - 1];
             var first = this.series.data[0];
             if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {
-              return Highcharts.numberFormat(this.point.y, 0, ",", " ");
+              return Highcharts.numberFormat(this.point.y, 1, ",", " ");
             }
             return "";
           }

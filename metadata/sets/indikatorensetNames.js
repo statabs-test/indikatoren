@@ -1,10 +1,12 @@
 var indikatorensetNames = [
+	"Legislaturplan",
 	"Wohnraumentwicklung",
-	"Integration kompakt",
+	"Integration-kompakt",
 	"Umwelt",
-	"Gesellschaftlicher Zusammenhalt",
+	"Gesellschaftlicher-Zusammenhalt",
 	"Wohnviertel",
 	"Richtplan",
 	"Richtplan-Print",
+	"Legislaturplan (Print)",
 	"Test"
 ];

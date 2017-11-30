@@ -209,7 +209,18 @@
   "chart": {
     "events": {
       "load": function () {
-              this.credits.element.onclick = function() {}
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
           }
     },
     "borderColor": "#fbfbfb",
@@ -262,7 +273,15 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "plotLines": [
+      {
+        "value": 0,
+        "color": "white",
+        "width": 2,
+        "zIndex": 4
+      }
+    ]
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
