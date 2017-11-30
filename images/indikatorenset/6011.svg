@@ -158,9 +158,6 @@
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Zu- und Weggezogene nach Zuzugsort und Wegzugsort</tspan>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
-    <tspan>2007 - 2016</tspan>
-  </text>
   <g class="highcharts-plot-lines-4">
     <path fill="none" stroke="white" stroke-width="2" d="M 62 266 L 475 266"/>
   </g>
