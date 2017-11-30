@@ -8,31 +8,6 @@
             borderWidth: 0
         },
   },
-   /*function(chart) { // on complete
-    chart.renderer.text('Zuzug', 0, 0)
-        .css({
-            color: '#B00000',
-            fontSize: '16px'
-        })
-        .add();
-  }, 
-   addLegendLabel: function(chart, text, x, y, cssClass, useHtml){
-    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
-    					zIndex: 6,
-    					class: cssClass + ' pieLegend'
-    				}).add();
-                },
- this.chart.options.customFunctions.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 300, 270);*/
- function (chart) { // on complete
-        //var point = chart.series[0].points[8];
-        chart.renderer.label('Zuzugsort', 1000, 1000)
-            .css({
-                color: '#black'
-            })
-            .attr({
-            })
-            .add();
-    },
   "yAxis": {
   	"min": -16000,
   	"max": 16000,
@@ -64,7 +39,7 @@
     "verticalAlign": "top",
     "align": "left",
     //"width": 50,
-	"y": 40,
+	  "y": 15,
     "itemMarginBottom": 5,
     itemWidth: 200,
     "itemStyle": {
