@@ -85,6 +85,7 @@
     "shared": false
   },
   "chart": {      
+    width: 600,
     "type": "column",
     "inverted": false,
     //"spacingBottom": 40
