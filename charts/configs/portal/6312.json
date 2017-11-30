@@ -168,7 +168,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "in Mio. kWh",
     "align": "left"
   },
   "yAxis": {
@@ -236,6 +236,6 @@
     "shared": true
   },
   "exporting": {
-    "filename": "I.08.1.06160"
+    "filename": "I.08.1.06312"
   }
 }

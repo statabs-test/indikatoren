@@ -149,7 +149,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: TomTom"
+    "text": "Quelle: TomTom International"
   },
   "legend": {
     "enabled": false,
@@ -179,6 +179,6 @@
     }
   },
   "exporting": {
-    "filename": "I.11.6.06156"
+    "filename": "I.11.6.06308"
   }
 }

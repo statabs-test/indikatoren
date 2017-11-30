@@ -167,7 +167,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Milligramm pro Liter",
+    "text": "in Milligramm pro Liter",
     "align": "left"
   },
   "tooltip": {
@@ -245,6 +245,6 @@
     }
   },
   "exporting": {
-    "filename": "I.02.19.06164"
+    "filename": "I.02.19.06315"
   }
 }

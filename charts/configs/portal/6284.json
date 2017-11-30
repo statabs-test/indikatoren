@@ -167,7 +167,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt im Vergleich zum Median-Kanton; Stand: 2016",
+    "text": "Basel-Stadt im Vergleich zum Median-Kanton, Stand: 2016",
     "align": "left"
   },
   "yAxis": {
@@ -233,6 +233,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.04.2.06127"
+    "filename": "I.04.2.06284"
   }
 }

@@ -115,7 +115,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von 100 000 Fr.; Stand: 2016",
+    "text": "Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von \u003Cbr\u002F\u003E 100 000 Fr.; Stand: 2016",
     "align": "left"
   },
   "yAxis": {
@@ -181,6 +181,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.18.2.06134"
+    "filename": "I.18.2.06291"
   }
 }

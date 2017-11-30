@@ -155,9 +155,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Polizeiliche Kriminalitätsstatistk (PKS)"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP);\u003Cbr\u002F\u003EPolizeiliche Kriminalitätsstatistk (PKS)"
   },
   "legend": {
     "enabled": false,
@@ -187,6 +187,6 @@
     }
   },
   "exporting": {
-    "filename": "I.14.3.06176"
+    "filename": "I.14.3.06323"
   }
 }
