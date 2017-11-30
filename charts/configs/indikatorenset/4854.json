@@ -227,7 +227,8 @@
         "style": {
           "fontSize": "10px"
         }
-      }
+      },
+      "stacking": "percent"
     }
   },
   "yAxis": {

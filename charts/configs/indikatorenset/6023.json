@@ -214,7 +214,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "y": 40,
+    "y": 50,
     "itemMarginBottom": 5,
     "itemWidth": 110,
     "itemStyle": {
