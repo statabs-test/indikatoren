@@ -2,7 +2,7 @@
   "series": [
     {
       "color": "#B00000",
-      "legendIndex": 2,
+      "legendIndex": 3,
       "data": [
         [
           2010,
@@ -45,7 +45,7 @@
     },
     {
       "color": "#662673",
-      "legendIndex": 2,
+      "legendIndex": 4,
       "data": [
         [
           2010,
@@ -88,7 +88,7 @@
     },
     {
       "color": "#008AC3",
-      "legendIndex": 2,
+      "legendIndex": 0,
       "data": [
         [
           2010,
@@ -131,7 +131,7 @@
     },
     {
       "color": "#007A2F",
-      "legendIndex": 0,
+      "legendIndex": 2,
       "data": [
         [
           2010,
@@ -174,7 +174,7 @@
     },
     {
       "color": "#E6E600",
-      "legendIndex": 0,
+      "legendIndex": 1,
       "data": [
         [
           2010,
@@ -301,8 +301,7 @@
         "color": "#000000"
       }
     },
-    "tickLength": 0,
-    "tickInterval": 1
+    "tickLength": 0
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -330,9 +329,13 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "y": 35,
-    "itemWidth": 150,
+    "margin": 2,
+    "itemWidth": 90,
     "itemMarginBottom": 5
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": "I.14.4.06346"
   },
   "plotOptions": {
     "line": {
@@ -341,8 +344,5 @@
         "symbol": "circle"
       }
     }
-  },
-  "exporting": {
-    "filename": "I.14.4.06346"
   }
 }

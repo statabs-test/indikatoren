@@ -5,9 +5,6 @@
     Created with Highstock 5.0.14
   </desc>
   <defs>
-    <clipPath id="b">
-      <rect x="0" y="8" width="9999" height="157" fill="none"/>
-    </clipPath>
     <clipPath>
       <rect x="0" y="0" width="87" height="131" fill="none"/>
     </clipPath>
@@ -124,94 +121,87 @@
   </text>
   <g class="highcharts-legend" transform="translate(142,7)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="174" height="193" visibility="visible"/>
-    <g clip-path="url(#b)">
-      <g transform="translate(0,0)">
+    <g>
+      <g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(8,3)">
           <text x="21" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="13">
             <tspan>Anderes</tspan>
           </text>
           <rect x="3" y="4" width="10" height="10" fill="#E7CEE2" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(8,21)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(8,17)">
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Unterhaltung/Kultur/Sport</tspan>
           </text>
           <rect x="3" y="4" width="10" height="10" fill="#672773" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2" transform="translate(8,39)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2" transform="translate(8,31)">
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Immobilienwesen</tspan>
           </text>
           <rect x="3" y="4" width="10" height="10" fill="#B9CFD7" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3" transform="translate(8,57)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3" transform="translate(8,45)">
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Informatikdienste</tspan>
           </text>
           <rect x="3" y="4" width="10" height="10" fill="#008AC3" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4" transform="translate(8,75)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4" transform="translate(8,59)">
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Finanzdienstleistungen</tspan>
           </text>
           <rect x="3" y="4" width="10" height="10" fill="#2B0099" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-5" transform="translate(8,93)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-5" transform="translate(8,73)">
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Grosshandel</tspan>
           </text>
           <rect x="3" y="4" width="10" height="10" fill="#73BA7C" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-6" transform="translate(8,111)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-6" transform="translate(8,87)">
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Verkehr und Lagerei</tspan>
           </text>
           <rect x="3" y="4" width="10" height="10" fill="#D7E8D2" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-7" transform="translate(8,129)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-7" transform="translate(8,101)">
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Gastgewerbe</tspan>
           </text>
           <rect x="3" y="4" width="10" height="10" fill="#007A2F" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-8" transform="translate(8,147)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-8" transform="translate(8,115)">
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Baugewerbe</tspan>
           </text>
           <rect x="3" y="4" width="10" height="10" fill="#FFDA80" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-9" transform="translate(8,165)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-9" transform="translate(8,129)">
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Gesundheits-/Sozialwesen</tspan>
           </text>
           <rect x="3" y="4" width="10" height="10" fill="#FFBB58" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-10" transform="translate(8,183)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-10" transform="translate(8,143)">
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Detailhandel/Reparatur</tspan>
           </text>
           <rect x="3" y="4" width="10" height="10" fill="#FF8028" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-11" transform="translate(8,201)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-11" transform="translate(8,157)">
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Unternehmensdienstleistungen</tspan>
           </text>
           <rect x="3" y="4" width="10" height="10" fill="#DC440E" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-12" transform="translate(8,219)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-12" transform="translate(8,171)">
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Chemische Industrie</tspan>
           </text>
           <rect x="3" y="4" width="10" height="10" fill="#8B2223" class="highcharts-point"/>
         </g>
       </g>
-    </g>
-    <g visibility="visible" transform="translate(8,172)">
-      <path fill="#cccccc" d="M 6 0 L 12 12 0 12 Z" class="highcharts-legend-nav-inactive" style="cursor:default;"/>
-      <text x="15" y="10" class="highcharts-legend-navigation">
-        1/2
-      </text>
-      <path fill="#003399" d="M 34.671875 0 L 46.671875 0 40.671875 12 Z" class="highcharts-legend-nav-active" style="cursor:pointer;"/>
     </g>
   </g>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">

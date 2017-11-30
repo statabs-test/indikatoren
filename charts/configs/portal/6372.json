@@ -126,7 +126,9 @@
         "fontSize": 10,
         "color": "#000000"
       },
-      "rotation": -90
+      "rotation": -90,
+      "padding": 0,
+      "step": 1
     },
     "tickLength": 0
   },
@@ -164,7 +166,6 @@
     },
     "type": "column",
     "inverted": false,
-    "spacingBottom": 40,
     "renderTo": "container-6372"
   },
   "plotOptions": {
@@ -218,8 +219,9 @@
         "fontSize": 10,
         "color": "#000000"
       },
-      "format": "{value:,.0f}"
-    }
+      "format": "{value:,.1f}"
+    },
+    "tickInterval": 0.5
   },
   "navigation": {
     "menuItemStyle": {

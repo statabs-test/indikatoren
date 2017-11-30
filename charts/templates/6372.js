@@ -11,13 +11,17 @@
  "xAxis": {
     "type": "category",
     "labels": {
-      "rotation": -90 
+      "rotation": -90,
+      padding: 0,
+      step: 1,
     } 
   },
   "yAxis": {
+    //tickAmount: 8,
+    tickInterval: 0.5,
     "labels": {
-      "format": "{value:,.0f}"
-    }    
+      "format": "{value:,.1f}", 
+    }
   },
   
   series: [{
@@ -83,7 +87,7 @@
   "chart": {      
     "type": "column",
     "inverted": false,
-    "spacingBottom": 40
+    //"spacingBottom": 40
   }
 }
 }());

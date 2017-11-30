@@ -349,7 +349,10 @@
         "fontSize": 10,
         "color": "#000000"
       },
-      "step": 1
+      "y": 15,
+      "padding": 0,
+      "step": 1,
+      "rotation": -45
     },
     "tickLength": 0,
     "tickInterval": 1
@@ -440,9 +443,11 @@
         "fontSize": 10,
         "color": "#000000"
       },
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f}",
+      "x": -10
     },
-    "max": 200000
+    "max": 200000,
+    "tickAmount": 5
   },
   "navigation": {
     "menuItemStyle": {
@@ -472,6 +477,8 @@
       "fontWeight": "normal"
     },
     "enabled": true,
+    "margin": 0,
+    "y": -3,
     "layout": "vertical",
     "verticalAlign": "middle",
     "itemMarginBottom": 5,

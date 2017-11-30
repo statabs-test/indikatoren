@@ -10,19 +10,24 @@
   	max: 200000,
     "labels": {
       "format": "{value:,.0f}",
-    }
+      x: -10
+    }, 
+    tickAmount: 5
   },
   "xAxis": {
   	"type": "category",
-   "tickInterval": 1,
-          "labels": {
-          	step: 1,
-            //"rotation": 0,
-            //"rotation": -90,
-        }  
+    "tickInterval": 1,
+    "labels": {
+      y: 15,
+      padding: 0, 
+      step: 1, 
+      rotation: -45
+    }  
   },
  "legend": {
     enabled:true,
+    margin: 0,
+    y: -3,
     "layout": "vertical",
     "verticalAlign": "middle",
     "itemMarginBottom": 5, 
