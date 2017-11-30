@@ -36,14 +36,14 @@ var indikatorensetData = [
 		"orderKey": "ST 2-1"
 	},
 	{
-		"title": "Anzahl privater Personenwagen pro Haushalt",
+		"title": "Testdaten: Anzahl Teddybären pro Haushalt",
 		"subtitle": "",
 		"kuerzel": "I.11.1.05829",
 		"kuerzelKunde": "ST 11-2",
-		"description": "Anzahl privater Personenwagen pro Haushalt",
+		"description": "Anzahl Teddybären pro Haushalt",
 		"id": 9999,
 		"thema": "11 Verkehr",
-		"unterthema": "Motorfahrzeuge",
+		"unterthema": "Teddybären",
 		"kennzahlenset": "Test",
 		"raeumlicheGliederung": [
 			"Wohnviertel",
@@ -53,15 +53,14 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Haushalt",
 			"Familie",
-			"Quote",
-			"Auto"
+			"Quote"
 		],
 		"stufe1": "Strategie 11",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den beiden Landgemeinden besitzen die Haushalte im Schnitt am meisten private Personenwagen, in der Kleinbasler Altstadt am wenigsten. Den grössten Rückgang von 2010 (0,59) bis 2015 (0,49) verzeichnete das Wohnviertel Clara.",
+		"lesehilfe": "Dies sind Testdaten, um die Umsetzung eines Highcharts Templates zu dokumentieren. ",
 		"erlaeuterungen": "",
 		"template": "mappie002",
 		"orderKey": "11_00_00_00_00_002",
@@ -69,11 +68,9 @@ var indikatorensetData = [
 		"children": [
 			"5888"
 		],
-		"renderLink": [
-			"4918"
-		],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"
+			"Statistisches Amt Basel-Stadt; Teddybärkontrolle Basel-Stadt"
 		],
 		"externalLinks": [
 			""

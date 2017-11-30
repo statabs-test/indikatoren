@@ -3509,7 +3509,7 @@
           1.087962962962
         ]
       ],
-      "name": "Benzin"
+      "name": "Braun"
     },
     {
       "visible": false,
@@ -3602,7 +3602,7 @@
           0.2
         ]
       ],
-      "name": "Diesel"
+      "name": "Schwarz"
     },
     {
       "name": "Rhein",
@@ -3884,9 +3884,9 @@
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),2,"."," "), 430, 290, 'pieLegendHideOnZoom');
 
 					fn.addLegendSquare(chart, 290, 270, 10, 'red');
-					fn.addLegendLabel(chart, 'Benzin', 310, 265);
+					fn.addLegendLabel(chart, 'Braun', 310, 265);
 					fn.addLegendSquare(chart, 290, 295, 10, 'blue');
-					fn.addLegendLabel(chart, 'Diesel', 310, 290);
+					fn.addLegendLabel(chart, 'Schwarz', 310, 290);
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
@@ -3902,7 +3902,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anzahl privater Personenwagen pro Haushalt"
+    "text": "Testdaten: Anzahl Teddybären pro Haushalt"
   },
   "subtitle": {
     "style": {
@@ -3927,7 +3927,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"
+    "text": "Quelle: Statistisches Amt Basel-Stadt; Teddybärkontrolle Basel-Stadt"
   },
   "colorAxis": {
     "min": 0,
