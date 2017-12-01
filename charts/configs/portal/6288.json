@@ -553,6 +553,7 @@
           "color": "#000000"
         }
       },
+      "y": 3,
       "min": 0,
       "title": ""
     },
@@ -570,6 +571,7 @@
           "color": "#000000"
         }
       },
+      "y": 3,
       "min": 0,
       "gridLineWidth": 0,
       "opposite": true

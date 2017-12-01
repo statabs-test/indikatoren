@@ -97,36 +97,36 @@
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
-    <text x="52" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="end" transform="translate(0,0)" y="184" opacity="1">
+    <text x="52" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="end" transform="translate(0,0)" y="182" opacity="1">
       <tspan>0</tspan>
     </text>
-    <text x="52" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="end" transform="translate(0,0)" y="155" opacity="1">
+    <text x="52" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="end" transform="translate(0,0)" y="154" opacity="1">
       <tspan>250 000</tspan>
     </text>
-    <text x="52" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="end" transform="translate(0,0)" y="127" opacity="1">
+    <text x="52" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="end" transform="translate(0,0)" y="126" opacity="1">
       <tspan>500 000</tspan>
     </text>
-    <text x="52" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="end" transform="translate(0,0)" y="99" opacity="1">
+    <text x="52" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="end" transform="translate(0,0)" y="97" opacity="1">
       <tspan>750 000</tspan>
     </text>
-    <text x="52" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="end" transform="translate(0,0)" y="71" opacity="1">
+    <text x="52" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="end" transform="translate(0,0)" y="69" opacity="1">
       <tspan>1 000 000</tspan>
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
-    <text x="302" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="start" transform="translate(0,0)" y="184" opacity="1">
+    <text x="302" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="start" transform="translate(0,0)" y="182" opacity="1">
       <tspan>0.0</tspan>
     </text>
-    <text x="302" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="start" transform="translate(0,0)" y="155" opacity="1">
+    <text x="302" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="start" transform="translate(0,0)" y="154" opacity="1">
       <tspan>1.5</tspan>
     </text>
-    <text x="302" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="start" transform="translate(0,0)" y="127" opacity="1">
+    <text x="302" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="start" transform="translate(0,0)" y="126" opacity="1">
       <tspan>3.0</tspan>
     </text>
-    <text x="302" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="start" transform="translate(0,0)" y="99" opacity="1">
+    <text x="302" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="start" transform="translate(0,0)" y="97" opacity="1">
       <tspan>4.5</tspan>
     </text>
-    <text x="302" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="start" transform="translate(0,0)" y="71" opacity="1">
+    <text x="302" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="start" transform="translate(0,0)" y="69" opacity="1">
       <tspan>6.0</tspan>
     </text>
   </g>

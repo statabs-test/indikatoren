@@ -523,7 +523,8 @@
               //use N if all series are visible, otherwise use n
               var nString = (this.chart.series.length == allVisibleSeries.length && this.value == 'Total') ? 'N=' : 'n='; 
           	return this.value + ' (' + nString + sum + ')';
-          }
+          },
+      "y": 3
     }
   },
   "chart": {
@@ -605,6 +606,7 @@
       "text": ""
     },
     "labels": {
+      "y": 12,
       "format": "{value}%",
       "style": {
         "color": "#000000",

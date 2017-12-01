@@ -363,12 +363,12 @@
       "text": ""
     },
     "labels": {
+      "y": 3,
       "style": {
         "fontSize": 10,
         "color": "#000000"
       },
-      "format": "{value:,.0f}",
-      "y": 3
+      "format": "{value:,.0f}"
     },
     "tickAmount": 7
   },

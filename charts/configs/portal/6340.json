@@ -732,12 +732,12 @@
       "text": ""
     },
     "labels": {
+      "y": 12,
       "format": "{value}%",
       "style": {
         "color": "#000000",
         "fontSize": "10px"
-      },
-      "y": 12
+      }
     }
   },
   "tooltip": {

@@ -141,22 +141,22 @@
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
-    <text x="28" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="188" opacity="1">
+    <text x="28" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="187" opacity="1">
       <tspan>0%</tspan>
     </text>
     <text x="28" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="166" opacity="1">
       <tspan>20%</tspan>
     </text>
-    <text x="28" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="145" opacity="1">
+    <text x="28" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="144" opacity="1">
       <tspan>40%</tspan>
     </text>
     <text x="28" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="123" opacity="1">
       <tspan>60%</tspan>
     </text>
-    <text x="28" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="102" opacity="1">
+    <text x="28" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="101" opacity="1">
       <tspan>80%</tspan>
     </text>
-    <text x="28" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="81" opacity="1">
+    <text x="28" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="80" opacity="1">
       <tspan>100%</tspan>
     </text>
   </g>
