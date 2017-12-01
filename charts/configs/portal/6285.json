@@ -125,7 +125,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickInterval": 100000000
   },
   "xAxis": {
     "lineColor": "#B9CFD7",

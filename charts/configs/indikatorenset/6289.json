@@ -182,7 +182,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickAmount": 5
   },
   "xAxis": {
     "lineColor": "#B9CFD7",

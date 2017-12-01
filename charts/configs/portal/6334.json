@@ -333,7 +333,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickInterval": 50000
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -373,7 +374,8 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "x": 45,
+    "margin": 3,
+    "padding": 3,
     "itemMarginBottom": 5,
     "itemWidth": 75
   },

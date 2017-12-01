@@ -7,6 +7,7 @@
         }
   },
   "yAxis": {
+    tickAmount: 7,
     "labels": {
       "format": "{value:,.0f}",
     }
