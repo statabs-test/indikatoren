@@ -73,6 +73,7 @@
                 "text": ''
             },
             "labels": {
+                y: 3, 
                 "style": {
                     "color": "#000000"
                 }

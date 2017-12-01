@@ -65,6 +65,7 @@
                 "text": ''
             },
             "labels": {
+                y: 3, 
                 "formatter": function(){
                     return Highcharts.numberFormat((this.value*100),0)+'%';                
                 },

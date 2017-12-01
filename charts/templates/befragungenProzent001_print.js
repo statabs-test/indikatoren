@@ -71,6 +71,7 @@
             "text": ''
         },
         "labels": {
+            y: 3, 
             "format": "{value}%",
             "style": {
             "color": "#000000",

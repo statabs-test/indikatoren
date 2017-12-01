@@ -3,7 +3,7 @@
     "yAxis":{
         tickInterval: 25,
         labels: {
-          y: 12
+          y: 10
         }
     },
  	"xAxis": {
@@ -12,8 +12,9 @@
     		  align: "left",
           x: -150,
           y: 3,
+          padding: 0,
           style: {
-            "fontSize": "9.999px",
+            "fontSize": "9px",
           },
           "formatter": function() {
               //add sum of observations of visible series to the axis label
@@ -53,7 +54,7 @@
       marginLeft: 165,
      "inverted": true,
      width: 600, 
-     //spacing: [1,1,1,1]
+     spacing: [1,1,1,1]
   },
 }
 }());

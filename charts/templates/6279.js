@@ -17,7 +17,8 @@
   	"max": 0.5,
   	tickAmount: 6,
     "labels": {
-      "format": "{value:,.1f}" 
+      "format": "{value:,.1f}", 
+      y: 3
     }    
   },
   "series": [
