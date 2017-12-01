@@ -83,14 +83,14 @@
         "title": {
             "style": {
                 "color": "#000000",
-                "fontSize": null
+                "fontSize": 10, 
             },
-            "text": null
+            "text": ''
         },
         "labels": {
             "style": {
-            	fontSize:10,
-            "color": "#000000"
+            	fontSize: 10,
+                "color": "#000000",
             }
         }
     },    

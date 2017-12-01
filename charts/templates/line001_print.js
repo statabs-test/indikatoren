@@ -56,9 +56,9 @@
     "title": {
       "style": {
         "color": "#000000",
-        "fontSize": null
+        "fontSize": 10,
       },
-      "text": null
+      "text": ''
     },
     "labels": {
       "style": {

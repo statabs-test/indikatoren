@@ -10,6 +10,7 @@
     tickAmount: 7,
     "labels": {
       "format": "{value:,.0f}",
+      y: 3,
     }
   },
   "xAxis": {
