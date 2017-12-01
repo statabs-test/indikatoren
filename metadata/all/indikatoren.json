@@ -10236,7 +10236,7 @@
 		"externalLinks": [
 			""
 		],
-		"visibleInPortal": true
+		"visibleInPortal": false
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
@@ -10750,7 +10750,7 @@
 		"stufe5": "",
 		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2017 in Bettingen verzeichnet.",
 		"erlaeuterungen": "Stichtag ist der 1. Juni.",
-		"template": "map001",
+		"template": "mappie001",
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [
