@@ -2,7 +2,7 @@ var indikatorensetData = [
 	{
 		"title": "Erhaltenene Hilfeleistungen",
 		"subtitle": "«Erhalten Sie oder ein anderes Haushaltsmitglied (finanzielle oder materielle) Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?»",
-		"kuerzel": "I.50.2.4716",
+		"kuerzel": "I.50.2.04716",
 		"kuerzelKunde": "1.1.01",
 		"description": "Erhaltenene Hilfeleistungen",
 		"id": 4716,
@@ -40,7 +40,7 @@ var indikatorensetData = [
 	{
 		"title": "Erhaltene materielle Hilfeleistungen",
 		"subtitle": "«Wie häufig erhalten Sie oder ein anderes Mitglied Ihres Haushaltes materielle Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?»",
-		"kuerzel": "I.50.4.4718",
+		"kuerzel": "I.50.4.04718",
 		"kuerzelKunde": "1.1.02",
 		"description": "Erhaltene materielle Hilfeleistungen",
 		"id": 4718,
@@ -78,7 +78,7 @@ var indikatorensetData = [
 	{
 		"title": "Kulturelle Bereicherung",
 		"subtitle": "«Im Kanton Basel-Stadt gibt es Menschen aus den verschiedensten Ländern. Ist das eine Bereicherung für den Kanton?»",
-		"kuerzel": "I.50.1.4719",
+		"kuerzel": "I.50.1.04719",
 		"kuerzelKunde": "1.3.01",
 		"description": "Kulturelle Bereicherung",
 		"id": 4719,
@@ -115,7 +115,7 @@ var indikatorensetData = [
 	{
 		"title": "Beurteilung des Wohnorts",
 		"subtitle": "«Wie gerne leben Sie insgesamt an Ihrem Wohnort?»",
-		"kuerzel": "I.50.1.4720",
+		"kuerzel": "I.50.1.04720",
 		"kuerzelKunde": "2.1.01",
 		"description": "Beurteilung des Wohnorts",
 		"id": 4720,
@@ -154,7 +154,7 @@ var indikatorensetData = [
 	{
 		"title": "Beurteilung des Wohnquartiers",
 		"subtitle": "«Wie gerne leben Sie in Ihrem Wohnquartier?»",
-		"kuerzel": "I.50.1.4721",
+		"kuerzel": "I.50.1.04721",
 		"kuerzelKunde": "2.1.02",
 		"description": "Beurteilung des Wohnquartiers",
 		"id": 4721,
@@ -193,7 +193,7 @@ var indikatorensetData = [
 	{
 		"title": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
 		"subtitle": "",
-		"kuerzel": "I.01.6.4722",
+		"kuerzel": "I.01.6.04722",
 		"kuerzelKunde": "2.1.03",
 		"description": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
 		"id": 4722,
@@ -235,7 +235,7 @@ var indikatorensetData = [
 	{
 		"title": "Vertretung der Anliegen der Bevölkerung durch Behörden",
 		"subtitle": "«Wie gut vertreten die Behörden, also der Regierungsrat und der Grosse Rat, die Anliegen der Bevölkerung?»",
-		"kuerzel": "I.50.1.4724",
+		"kuerzel": "I.50.1.04724",
 		"kuerzelKunde": "2.2.01",
 		"description": "Vertretung der Anliegen der Bevölkerung durch Behörden",
 		"id": 4724,
@@ -262,7 +262,8 @@ var indikatorensetData = [
 		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"5138"
+			"5138",
+			"6185"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -275,7 +276,7 @@ var indikatorensetData = [
 	{
 		"title": "Unterstützung von Freunden oder Nachbarn",
 		"subtitle": "«Jeder Mensch braucht in seinem Leben einmal Unterstützung oder Hilfe. Wenn Sie zurück denken, haben Sie sich in nachfolgenden Situationen auch an Freunde/Nachbarn gewendet?»",
-		"kuerzel": "I.50.2.4848",
+		"kuerzel": "I.50.2.04848",
 		"kuerzelKunde": "1.1.03",
 		"description": "Unterstützung von Freunden oder Nachbarn",
 		"id": 4848,
@@ -314,7 +315,7 @@ var indikatorensetData = [
 	{
 		"title": "Beurteilung des Verhältnisses zur Nachbarschaft",
 		"subtitle": "«Ich habe ein gutes Verhältnis mit der Mehrheit meiner Nachbarinnen und Nachbarn.»",
-		"kuerzel": "I.50.2.4849",
+		"kuerzel": "I.50.2.04849",
 		"kuerzelKunde": "1.1.04",
 		"description": "Beurteilung des Verhältnisses zur Nachbarschaft",
 		"id": 4849,
@@ -350,7 +351,7 @@ var indikatorensetData = [
 	{
 		"title": "Zusammensetzung des Freundeskreises",
 		"subtitle": "«Wie sieht Dein Freundeskreis aus?»",
-		"kuerzel": "I.50.3.4850",
+		"kuerzel": "I.50.3.04850",
 		"kuerzelKunde": "1.1.05",
 		"description": "Zusammensetzung des Freundeskreises",
 		"id": 4850,
@@ -387,7 +388,7 @@ var indikatorensetData = [
 	{
 		"title": "Zufriedenheit mit dem Austausch mit der Nachbarschaft",
 		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit dem Austausch mit den Nachbarn?»",
-		"kuerzel": "I.50.4.4851",
+		"kuerzel": "I.50.4.04851",
 		"kuerzelKunde": "1.1.06",
 		"description": "Zufriedenheit mit dem Austausch mit der Nachbarschaft",
 		"id": 4851,
@@ -424,7 +425,7 @@ var indikatorensetData = [
 	{
 		"title": "Sicherheitsgefühl im Alltag",
 		"subtitle": "«Wie sicher fühlen Sie sich ganz allgemein im Alltag?»",
-		"kuerzel": "I.50.1.4852",
+		"kuerzel": "I.50.1.04852",
 		"kuerzelKunde": "1.2.01",
 		"description": "Sicherheitsgefühl im Alltag",
 		"id": 4852,
@@ -461,7 +462,7 @@ var indikatorensetData = [
 	{
 		"title": "Bedrohungen und Angriffe",
 		"subtitle": "«Sind Sie im letzten Jahr bedroht oder angegriffen worden?»",
-		"kuerzel": "I.50.1.4853",
+		"kuerzel": "I.50.1.04853",
 		"kuerzelKunde": "1.2.02",
 		"description": "Bedrohungen und Angriffe",
 		"id": 4853,
@@ -498,7 +499,7 @@ var indikatorensetData = [
 	{
 		"title": "Sicherheitsgefühl nachts im Quartier",
 		"subtitle": "«Wenn Sie in der Nacht alleine draussen sind in Ihrem Quartier oder Ihrer Gemeinde, wie sicher fühlen Sie sich dann?»",
-		"kuerzel": "I.50.1.4854",
+		"kuerzel": "I.50.1.04854",
 		"kuerzelKunde": "1.2.03",
 		"description": "Sicherheitsgefühl nachts im Quartier",
 		"id": 4854,
@@ -536,7 +537,7 @@ var indikatorensetData = [
 	{
 		"title": "Beurteilung des Ausländeranteils",
 		"subtitle": "«Grundsätzlich gibt es einfach zu viele Menschen aus dem Ausland bei uns.»",
-		"kuerzel": "I.50.1.4855",
+		"kuerzel": "I.50.1.04855",
 		"kuerzelKunde": "1.3.02",
 		"description": "Beurteilung des Ausländeranteils",
 		"id": 4855,
@@ -573,7 +574,7 @@ var indikatorensetData = [
 	{
 		"title": "Beurteilung des Beitrags der ausländischen Bevölkerung zur Lebensqualität",
 		"subtitle": "«Ohne die Menschen aus dem Ausland würden wir nicht so gut leben.»",
-		"kuerzel": "I.50.1.4856",
+		"kuerzel": "I.50.1.04856",
 		"kuerzelKunde": "1.3.03",
 		"description": "Beurteilung des Beitrags der ausländischen Bevölkerung zur Lebensqualität",
 		"id": 4856,
@@ -610,7 +611,7 @@ var indikatorensetData = [
 	{
 		"title": "Beurteilung der Schulen in Basel-Stadt",
 		"subtitle": "«Die Schulen des Kantons Basel-Stadt bereiten die Jugendlichen gut fürs Leben vor.»",
-		"kuerzel": "I.50.1.4857",
+		"kuerzel": "I.50.1.04857",
 		"kuerzelKunde": "2.2.02",
 		"description": "Beurteilung der Schulen in Basel-Stadt",
 		"id": 4857,
@@ -650,7 +651,7 @@ var indikatorensetData = [
 	{
 		"title": "Beurteilung der Chancengleichheit",
 		"subtitle": "«Die Chancengleichheit wird von den Behörden zielstrebig vorangetrieben.»",
-		"kuerzel": "I.50.1.4858",
+		"kuerzel": "I.50.1.04858",
 		"kuerzelKunde": "2.2.03",
 		"description": "Beurteilung der Chancengleichheit",
 		"id": 4858,
@@ -688,8 +689,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Beurteilung der kantonalen Verwaltung",
-		"subtitle": "«Denken Sie einmal an den letzten Kontakt, wo Sie mit der kantonalen Verwaltung gehabt haben. Wie ist dieser Kontakt verlaufen?»",
-		"kuerzel": "I.50.1.4859",
+		"subtitle": "«Denken Sie einmal an den letzten Kontakt, den Sie mit der kantonalen Verwaltung gehabt haben. Wie ist dieser Kontakt verlaufen?»",
+		"kuerzel": "I.50.1.04859",
 		"kuerzelKunde": "2.2.04",
 		"description": "Beurteilung der kantonalen Verwaltung",
 		"id": 4859,
@@ -728,7 +729,7 @@ var indikatorensetData = [
 	{
 		"title": "Beurteilung der kantonalen Steuern",
 		"subtitle": "«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen, wie sie heute sind?»",
-		"kuerzel": "I.50.1.4860",
+		"kuerzel": "I.50.1.04860",
 		"kuerzelKunde": "2.3.01",
 		"description": "Beurteilung der kantonalen Steuern",
 		"id": 4860,
@@ -767,7 +768,7 @@ var indikatorensetData = [
 	{
 		"title": "Beurteilung der eigenen wirtschaftlichen Situation",
 		"subtitle": "«Wie geht es Ihnen wirtschaftlich gesehen im Moment?»",
-		"kuerzel": "I.50.1.4861",
+		"kuerzel": "I.50.1.04861",
 		"kuerzelKunde": "2.3.02",
 		"description": "Beurteilung der eigenen wirtschaftlichen Situation",
 		"id": 4861,
@@ -804,7 +805,7 @@ var indikatorensetData = [
 	{
 		"title": "Beurteilung der Bildungschancen",
 		"subtitle": "«Alle Kinder erhalten die gleichen Bildungschancen.»",
-		"kuerzel": "I.50.1.4862",
+		"kuerzel": "I.50.1.04862",
 		"kuerzelKunde": "2.3.03",
 		"description": "Beurteilung der Bildungschancen",
 		"id": 4862,
@@ -841,7 +842,7 @@ var indikatorensetData = [
 	{
 		"title": "Anteil Steuerveranlagungen mit Zuwendungen",
 		"subtitle": "",
-		"kuerzel": "I.18.2.4863",
+		"kuerzel": "I.18.2.04863",
 		"kuerzelKunde": "3.1.01",
 		"description": "Anteil Steuerveranlagungen mit Zuwendungen",
 		"id": 4863,
@@ -878,7 +879,7 @@ var indikatorensetData = [
 	{
 		"title": "Freiwillige Tätigkeit",
 		"subtitle": "«Sind Sie in Ihrer Freizeit freiwillig tätig?»",
-		"kuerzel": "I.50.1.4864",
+		"kuerzel": "I.50.1.04864",
 		"kuerzelKunde": "3.1.02",
 		"description": "Freiwillige Tätigkeit",
 		"id": 4864,
@@ -914,7 +915,7 @@ var indikatorensetData = [
 	{
 		"title": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit im Alter",
 		"subtitle": "«Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?»",
-		"kuerzel": "I.50.4.4865",
+		"kuerzel": "I.50.4.04865",
 		"kuerzelKunde": "3.1.03",
 		"description": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit im Alter",
 		"id": 4865,
@@ -950,7 +951,7 @@ var indikatorensetData = [
 	{
 		"title": "Anzahl Anzeigen, die das Strafgesetzbuch (StGB) betreffen, pro 1000 Einwohner im Alter von 18 und mehr Jahren",
 		"subtitle": "",
-		"kuerzel": "I.19.1.4866",
+		"kuerzel": "I.19.1.04866",
 		"kuerzelKunde": "3.2.01",
 		"description": "Anzahl Anzeigen, die das Strafgesetzbuch (StGB) betreffen, pro 1000 Einwohner im Alter von 18 und mehr Jahren",
 		"id": 4866,
@@ -987,7 +988,7 @@ var indikatorensetData = [
 	{
 		"title": "Anzahl Anzeigen wegen Veruntreuung und Betrug pro 1000 Einwohner im Alter von 18 und mehr Jahren",
 		"subtitle": "",
-		"kuerzel": "I.19.1.4867",
+		"kuerzel": "I.19.1.04867",
 		"kuerzelKunde": "3.2.02",
 		"description": "Anzahl Anzeigen wegen Veruntreuung und Betrug pro 1000 Einwohner im Alter von 18 und mehr Jahren",
 		"id": 4867,
@@ -1024,7 +1025,7 @@ var indikatorensetData = [
 	{
 		"title": "Anzahl Anzeigen wegen Diebstahl (ohne Fahrzeugdiebstahl/-entwendung) pro 1000 Einwohner im Alter von 18 und mehr Jahren",
 		"subtitle": "",
-		"kuerzel": "I.19.1.4868",
+		"kuerzel": "I.19.1.04868",
 		"kuerzelKunde": "3.2.03",
 		"description": "Anzahl Anzeigen wegen Diebstahl (ohne Fahrzeugdiebstahl/-entwendung) pro 1000 Einwohner im Alter von 18 und mehr Jahren",
 		"id": 4868,
@@ -1061,7 +1062,7 @@ var indikatorensetData = [
 	{
 		"title": "Anzahl Anzeigen wegen Körperverletzung pro 1000 Einwohner im Alter von 18 und mehr Jahren",
 		"subtitle": "",
-		"kuerzel": "I.19.1.4869",
+		"kuerzel": "I.19.1.04869",
 		"kuerzelKunde": "3.2.04",
 		"description": "Anzahl Anzeigen wegen Körperverletzung pro 1000 Einwohner im Alter von 18 und mehr Jahren",
 		"id": 4869,
@@ -1098,7 +1099,7 @@ var indikatorensetData = [
 	{
 		"title": "Engagement in Organisationen und Vereinen",
 		"subtitle": "«Engagierst Du Dich in einer Organisation, in einem Verein oder ähnlichem?»",
-		"kuerzel": "I.50.3.4870",
+		"kuerzel": "I.50.3.04870",
 		"kuerzelKunde": "3.3.01",
 		"description": "Engagement in Organisationen und Vereinen",
 		"id": 4870,
@@ -1134,7 +1135,7 @@ var indikatorensetData = [
 	{
 		"title": "Wahlbeteiligung bei National- und Grossratswahlen",
 		"subtitle": "",
-		"kuerzel": "I.17.3.4871",
+		"kuerzel": "I.17.3.04871",
 		"kuerzelKunde": "3.3.02",
 		"description": "Wahlbeteiligung bei National- und Grossratswahlen",
 		"id": 4871,
@@ -1170,7 +1171,7 @@ var indikatorensetData = [
 	{
 		"title": "Interesse an der Politik in Basel-Stadt",
 		"subtitle": "«Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?»",
-		"kuerzel": "I.50.1.4872",
+		"kuerzel": "I.50.1.04872",
 		"kuerzelKunde": "3.3.03.A",
 		"description": "Interesse an der Politik in Basel-Stadt",
 		"id": 4872,
@@ -1208,7 +1209,7 @@ var indikatorensetData = [
 	{
 		"title": "Politikinteresse der über 54-Jährigen",
 		"subtitle": "«Wie stark beschäftigt Sie im Moment das Thema Politik?»",
-		"kuerzel": "I.50.4.4874",
+		"kuerzel": "I.50.4.04874",
 		"kuerzelKunde": "3.3.04",
 		"description": "Politikinteresse der über 54-Jährigen",
 		"id": 4874,
@@ -1245,7 +1246,7 @@ var indikatorensetData = [
 	{
 		"title": "Zufriedenheit mit Sozialkontakten im Wohnumfeld",
 		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit den Sozialkontakten im Wohnumfeld/Quartier?»",
-		"kuerzel": "I.50.4.4875",
+		"kuerzel": "I.50.4.04875",
 		"kuerzelKunde": "1.1.07",
 		"description": "Zufriedenheit mit Sozialkontakten im Wohnumfeld",
 		"id": 4875,
@@ -1283,7 +1284,7 @@ var indikatorensetData = [
 	{
 		"title": "Gedanken über die Arbeitsstelle",
 		"subtitle": "«Machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?»",
-		"kuerzel": "I.50.1.4931",
+		"kuerzel": "I.50.1.04931",
 		"kuerzelKunde": "1.1.08.A",
 		"description": "Gedanken über die Arbeitsstelle",
 		"id": 4931,
@@ -1320,7 +1321,7 @@ var indikatorensetData = [
 	{
 		"title": "Gründe für Gedanken über die Arbeitsstelle",
 		"subtitle": "«Warum machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?»",
-		"kuerzel": "I.50.1.4932",
+		"kuerzel": "I.50.1.04932",
 		"kuerzelKunde": "1.1.08.B",
 		"description": "Gründe für Gedanken über die Arbeitsstelle",
 		"id": 4932,
@@ -1359,7 +1360,7 @@ var indikatorensetData = [
 	{
 		"title": "Politikinteresse der unter 30-Jährigen",
 		"subtitle": "«Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?» – nur Befragte im Alter zwischen 18 und 29 Jahren",
-		"kuerzel": "I.50.1.4933",
+		"kuerzel": "I.50.1.04933",
 		"kuerzelKunde": "3.3.03.B",
 		"description": "Politikinteresse der unter 30-Jährigen",
 		"id": 4933,

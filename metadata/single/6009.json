@@ -17,14 +17,14 @@
 "stufe5":"", 
 "lesehilfe":"Die höchste Leerwohnungsquote aller Wohnviertel wurde 2017 in Bettingen verzeichnet.",
 "erlaeuterungen":"Stichtag ist der 1. Juni.",
-"template":"mappie001",
+"template":"map001",
 "option":"options001",
 "visible":true,
 "visibleInPortal":true,
-"orderKey":"08_00_00_00_00_001",
+"orderKey":"_000",
 "parentId":null,
 "children":["5814"],
 "renderLink":[],
-"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Leerstandserhebung"],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Leerstandserhebung"],
 "externalLinks":[""]
 }

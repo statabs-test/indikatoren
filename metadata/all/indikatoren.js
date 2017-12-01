@@ -87,7 +87,7 @@ var indikatoren = [
 	{
 		"title": "Zufriedenheit mit dem Kulturangebot nach Geschlecht, Herkunft und Altersgruppe",
 		"subtitle": "«Wie zufrieden sind Sie mit dem Kulturangebot?»",
-		"kuerzel": "I.50.1.2953",
+		"kuerzel": "I.50.1.02953",
 		"kuerzelKunde": "8.1",
 		"description": "Zufriedenheit mit dem Kulturangebot nach Geschlecht, Herkunft und Altersgruppe",
 		"id": 2953,
@@ -132,7 +132,7 @@ var indikatoren = [
 	{
 		"title": "Zufriedenheit mit der Gesundheitsversorgung nach Geschlecht, Herkunft und Altersgruppe",
 		"subtitle": "«Wie zufrieden sind Sie mit der Gesundheitsversorgung?»",
-		"kuerzel": "I.50.1.2956",
+		"kuerzel": "I.50.1.02956",
 		"kuerzelKunde": "9.4",
 		"description": "Zufriedenheit mit der Gesundheitsversorgung nach Geschlecht, Herkunft und Altersgruppe",
 		"id": 2956,
@@ -174,7 +174,7 @@ var indikatoren = [
 	{
 		"title": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
 		"subtitle": "nach Geschlecht",
-		"kuerzel": "I.15.7.3051",
+		"kuerzel": "I.15.7.03051",
 		"kuerzelKunde": "3.1b",
 		"description": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
 		"id": 3051,
@@ -216,7 +216,7 @@ var indikatoren = [
 	{
 		"title": "Durch BaselArea unterstützte internationale Ansiedlungen",
 		"subtitle": "in BS, BL, JU",
-		"kuerzel": "I.04.1.3086",
+		"kuerzel": "I.04.1.03086",
 		"kuerzelKunde": "2.4",
 		"description": "Durch BaselArea unterstützte internationale Ansiedlungen",
 		"id": 3086,
@@ -244,7 +244,9 @@ var indikatoren = [
 		"template": "line001",
 		"orderKey": "02_00_00_00_00_004",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6368"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BaselArea"
@@ -286,7 +288,6 @@ var indikatoren = [
 		"parentId": null,
 		"children": [
 			"5016",
-			"5891",
 			"6278"
 		],
 		"renderLink": [],
@@ -301,7 +302,7 @@ var indikatoren = [
 	{
 		"title": "Zufriedenheit mit dem Wohnungsangebot",
 		"subtitle": "«Wie zufrieden sind sie mit dem Wohnungsangebot?»",
-		"kuerzel": "I.50.1.4127",
+		"kuerzel": "I.50.1.04127",
 		"kuerzelKunde": "0.1.A",
 		"description": "Zufriedenheit mit dem Wohnungsangebot",
 		"id": 4127,
@@ -340,7 +341,7 @@ var indikatoren = [
 	{
 		"title": "Mietpreisentwicklung",
 		"subtitle": "nach Zimmerzahl",
-		"kuerzel": "I.09.3.4128",
+		"kuerzel": "I.09.3.04128",
 		"kuerzelKunde": "0.1.B-1",
 		"description": "Mietpreisentwicklung",
 		"id": 4128,
@@ -378,7 +379,7 @@ var indikatoren = [
 	{
 		"title": "Mietpreisentwicklung der Leerwohnungen",
 		"subtitle": "nach Zimmerzahl",
-		"kuerzel": "I.09.2.4129",
+		"kuerzel": "I.09.2.04129",
 		"kuerzelKunde": "0.1.B-2",
 		"description": "Mietpreisentwicklung der Leerwohnungen",
 		"id": 4129,
@@ -454,7 +455,7 @@ var indikatoren = [
 	{
 		"title": "Wohnungsbelegung",
 		"subtitle": "nach Belegungsart",
-		"kuerzel": "I.09.1.4131",
+		"kuerzel": "I.09.1.04131",
 		"kuerzelKunde": "0.1.C",
 		"description": "Wohnungsbelegung",
 		"id": 4131,
@@ -490,11 +491,11 @@ var indikatoren = [
 		"visibleInPortal": true
 	},
 	{
-		"title": "Bevölkerung am Jahresende",
+		"title": "Bevölkerungsbestand am Jahresende",
 		"subtitle": "",
-		"kuerzel": "I.01.1.4132",
+		"kuerzel": "I.01.1.04132",
 		"kuerzelKunde": "1.1.A",
-		"description": "Bevölkerung am Jahresende",
+		"description": "Bevölkerungsbestand am Jahresende",
 		"id": 4132,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
@@ -533,7 +534,7 @@ var indikatoren = [
 	{
 		"title": "Anzahl Wohnungen",
 		"subtitle": "nach Zimmerzahl",
-		"kuerzel": "I.09.1.4133",
+		"kuerzel": "I.09.1.04133",
 		"kuerzelKunde": "1.2.A",
 		"description": "Anzahl Wohnungen",
 		"id": 4133,
@@ -571,7 +572,7 @@ var indikatoren = [
 	{
 		"title": "Anteile am Wohnungsbestand",
 		"subtitle": "nach Zimmerzahl und Wohnflächenkategorie, Stand 2016",
-		"kuerzel": "I.09.1.4134",
+		"kuerzel": "I.09.1.04134",
 		"kuerzelKunde": "1.2.B",
 		"description": "Anteile am Wohnungsbestand",
 		"id": 4134,
@@ -609,7 +610,7 @@ var indikatoren = [
 	{
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "",
-		"kuerzel": "I.09.1.4135",
+		"kuerzel": "I.09.1.04135",
 		"kuerzelKunde": "1.2.C-1",
 		"description": "Nettowohnungsproduktion",
 		"id": 4135,
@@ -649,7 +650,7 @@ var indikatoren = [
 	{
 		"title": "Umbausaldo",
 		"subtitle": "nach Art des Umbaus",
-		"kuerzel": "I.09.1.4136",
+		"kuerzel": "I.09.1.04136",
 		"kuerzelKunde": "1.2.C-2",
 		"description": "Umbausaldo",
 		"id": 4136,
@@ -687,7 +688,7 @@ var indikatoren = [
 	{
 		"title": "Anzahl neu erstellte Wohnungen",
 		"subtitle": "",
-		"kuerzel": "I.09.1.4137",
+		"kuerzel": "I.09.1.04137",
 		"kuerzelKunde": "1.2.E",
 		"description": "Anzahl neu erstellte Wohnungen",
 		"id": 4137,
@@ -725,7 +726,7 @@ var indikatoren = [
 	{
 		"title": "Anzahl Leerwohnungen und Leerwohnungsquote",
 		"subtitle": "nach Zimmerzahl",
-		"kuerzel": "I.09.2.4138",
+		"kuerzel": "I.09.2.04138",
 		"kuerzelKunde": "1.2.F-1",
 		"description": "Anzahl Leerwohnungen und Leerwohnungsquote",
 		"id": 4138,
@@ -802,7 +803,7 @@ var indikatoren = [
 	{
 		"title": "Mittlere Wohnfläche pro Person",
 		"subtitle": "",
-		"kuerzel": "I.09.1.4140",
+		"kuerzel": "I.09.1.04140",
 		"kuerzelKunde": "1.3.A",
 		"description": "Mittlere Wohnfläche pro Person",
 		"id": 4140,
@@ -842,7 +843,7 @@ var indikatoren = [
 	{
 		"title": "Anteile der Haushalte",
 		"subtitle": "nach Art des Haushalts",
-		"kuerzel": "I.01.2.4141",
+		"kuerzel": "I.01.2.04141",
 		"kuerzelKunde": "1.4.A1",
 		"description": "Anteile der Haushalte",
 		"id": 4141,
@@ -880,7 +881,7 @@ var indikatoren = [
 	{
 		"title": "Anteile der Familienhaushalte",
 		"subtitle": "nach Art der Zusammensetzung",
-		"kuerzel": "I.01.2.4142",
+		"kuerzel": "I.01.2.04142",
 		"kuerzelKunde": "1.4.A2",
 		"description": "Anteile der Familienhaushalte",
 		"id": 4142,
@@ -918,7 +919,7 @@ var indikatoren = [
 	{
 		"title": "Anzahl Genossenschaftswohnungen und Anteil am Bestand",
 		"subtitle": "",
-		"kuerzel": "I.09.1.4143",
+		"kuerzel": "I.09.1.04143",
 		"kuerzelKunde": "1.4.B",
 		"description": "Anzahl Genossenschaftswohnungen und Anteil am Bestand",
 		"id": 4143,
@@ -956,7 +957,7 @@ var indikatoren = [
 	{
 		"title": "Zufriedenheit mit dem Wohnungsangebot - nur Familien",
 		"subtitle": "«Wie zufrieden sind sie mit dem Wohnungsangebot?»",
-		"kuerzel": "I.50.1.4144",
+		"kuerzel": "I.50.1.04144",
 		"kuerzelKunde": "1.4.C",
 		"description": "Zufriedenheit mit dem Wohnungsangebot - nur Familien",
 		"id": 4144,
@@ -994,7 +995,7 @@ var indikatoren = [
 	{
 		"title": "Wohneigentumsquote",
 		"subtitle": "",
-		"kuerzel": "I.09.1.4145",
+		"kuerzel": "I.09.1.04145",
 		"kuerzelKunde": "1.6.A",
 		"description": "Wohneigentumsquote",
 		"id": 4145,
@@ -1032,7 +1033,7 @@ var indikatoren = [
 	{
 		"title": "Anzahl und Anteil Wohnungen mit 4 oder mehr Zimmern",
 		"subtitle": "",
-		"kuerzel": "I.09.1.4146",
+		"kuerzel": "I.09.1.04146",
 		"kuerzelKunde": "2.1.A",
 		"description": "Anzahl und Anteil Wohnungen mit 4 oder mehr Zimmern",
 		"id": 4146,
@@ -1070,7 +1071,7 @@ var indikatoren = [
 	{
 		"title": "Saldo des Steuerertrages von Zu- und Wegzügern",
 		"subtitle": "",
-		"kuerzel": "I.18.2.4147",
+		"kuerzel": "I.18.2.04147",
 		"kuerzelKunde": "2.1.B",
 		"description": "Saldo des Steuerertrages von Zu- und Wegzügern",
 		"id": 4147,
@@ -1108,7 +1109,7 @@ var indikatoren = [
 	{
 		"title": "Erwachsene Einwohner mit Hauptwohnsitz in Basel-Stadt",
 		"subtitle": "",
-		"kuerzel": "I.01.1.4148",
+		"kuerzel": "I.01.1.04148",
 		"kuerzelKunde": "2.2.A",
 		"description": "Erwachsene Einwohner mit Hauptwohnsitz in Basel-Stadt",
 		"id": 4148,
@@ -1146,7 +1147,7 @@ var indikatoren = [
 	{
 		"title": "Freiraumfläche und Anteil an der Gesamtfläche",
 		"subtitle": "",
-		"kuerzel": "I.02.1.4149",
+		"kuerzel": "I.02.1.04149",
 		"kuerzelKunde": "3.2.A",
 		"description": "Freiraumfläche und Anteil an der Gesamtfläche",
 		"id": 4149,
@@ -1184,7 +1185,7 @@ var indikatoren = [
 	{
 		"title": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
 		"subtitle": "«Wie zufrieden sind Sie mit den Grünanlagen und Parks in Ihrem Wohnort?»",
-		"kuerzel": "I.50.1.4150",
+		"kuerzel": "I.50.1.04150",
 		"kuerzelKunde": "3.2.B",
 		"description": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
 		"id": 4150,
@@ -1225,7 +1226,7 @@ var indikatoren = [
 	{
 		"title": "Zufriedenheit mit Gestaltung und Erhaltung von Gebäuden und Strassenbild",
 		"subtitle": "«Wie zufrieden sind Sie mit der Gestaltung und Erhaltung von Gebäuden und Strassenbild?»",
-		"kuerzel": "I.50.1.4151",
+		"kuerzel": "I.50.1.04151",
 		"kuerzelKunde": "3.3.A",
 		"description": "Zufriedenheit mit Gestaltung und Erhaltung von Gebäuden und Strassenbild",
 		"id": 4151,
@@ -1263,7 +1264,7 @@ var indikatoren = [
 	{
 		"title": "Haushalte mit Familienmietzinsbeiträgen",
 		"subtitle": "",
-		"kuerzel": "I.13.2.4152",
+		"kuerzel": "I.13.2.04152",
 		"kuerzelKunde": "4.1.A",
 		"description": "Haushalte mit Familienmietzinsbeiträgen",
 		"id": 4152,
@@ -1300,7 +1301,7 @@ var indikatoren = [
 	{
 		"title": "Ausbezahlte Familienmietzinsbeiträge",
 		"subtitle": "",
-		"kuerzel": "I.13.2.4153",
+		"kuerzel": "I.13.2.04153",
 		"kuerzelKunde": "4.1.B",
 		"description": "Ausbezahlte Familienmietzinsbeiträge",
 		"id": 4153,
@@ -1376,7 +1377,7 @@ var indikatoren = [
 	{
 		"title": "Zufriedenheit mit Einrichtungen und Angeboten für behinderte Menschen",
 		"subtitle": "«Wie zufrieden sind Sie mit den Einrichtungen und Angeboten für behinderte Menschen?»",
-		"kuerzel": "I.50.1.4155",
+		"kuerzel": "I.50.1.04155",
 		"kuerzelKunde": "4.2.A",
 		"description": "Zufriedenheit mit Einrichtungen und Angeboten für behinderte Menschen",
 		"id": 4155,
@@ -1413,7 +1414,7 @@ var indikatoren = [
 	{
 		"title": "Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
 		"subtitle": "«Wie zufrieden sind Sie mit der altersangepassten Einrichtung des Wohngebäudes?»",
-		"kuerzel": "I.50.4.4156",
+		"kuerzel": "I.50.4.04156",
 		"kuerzelKunde": "4.2.C",
 		"description": "Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
 		"id": 4156,
@@ -1452,7 +1453,7 @@ var indikatoren = [
 	{
 		"title": "Ausländeranteil nach Staatsangehörigkeit seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.01.1.4200",
+		"kuerzel": "I.01.1.04200",
 		"kuerzelKunde": "1-1",
 		"description": "Ausländeranteil nach Staatsangehörigkeit seit 2006",
 		"id": 4200,
@@ -1493,7 +1494,7 @@ var indikatoren = [
 	{
 		"title": "Altersquotient nach Staatsangehörigkeit",
 		"subtitle": "Stand: 2015",
-		"kuerzel": "I.01.1.4203",
+		"kuerzel": "I.01.1.04203",
 		"kuerzelKunde": "1-2",
 		"description": "Altersquotient nach Staatsangehörigkeit",
 		"id": 4203,
@@ -1534,7 +1535,7 @@ var indikatoren = [
 	{
 		"title": "Jugendquotient nach Staatsangehörigkeit",
 		"subtitle": "Stand: 2015",
-		"kuerzel": "I.01.1.4218",
+		"kuerzel": "I.01.1.04218",
 		"kuerzelKunde": "1-3",
 		"description": "Jugendquotient nach Staatsangehörigkeit",
 		"id": 4218,
@@ -1575,7 +1576,7 @@ var indikatoren = [
 	{
 		"title": "Anzahl Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.01.1.4219",
+		"kuerzel": "I.01.1.04219",
 		"kuerzelKunde": "1-4A",
 		"description": "Anzahl Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit seit 2006",
 		"id": 4219,
@@ -1614,7 +1615,7 @@ var indikatoren = [
 	{
 		"title": "Anteil Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit 2006 und 2015",
 		"subtitle": "",
-		"kuerzel": "I.01.1.4220",
+		"kuerzel": "I.01.1.04220",
 		"kuerzelKunde": "1-4B",
 		"description": "Anteil Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit 2006 und 2015",
 		"id": 4220,
@@ -1686,7 +1687,7 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0603' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0603' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -1723,7 +1724,8 @@ var indikatoren = [
 			"Bundesamt für Statistik (BFS)"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'http://www.bfs.admin.ch/bfs/portal/de/index/themen/05/02.html' target = '_blank'>Landesindex der Konsumentenpreise (BFS)</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0601' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -1762,7 +1764,8 @@ var indikatoren = [
 			"Amt für Umwelt und Energie Basel-Stadt; Statistisches Amt Basel-Stadt"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target='_blank'>Energiestatistik Kanton Basel-Stadt</a></li><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0604' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
+			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0604' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -1799,7 +1802,8 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target='_blank'>Energiestatistik Kanton Basel-Stadt</a></li><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0605' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
+			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0605' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -1836,7 +1840,8 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.statistik-bs.ch/tabellen/t08' target='_blank'>Energiestatistik Kanton Basel-Stadt</a></li><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0606' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
+			"<a href = 'http://www.statistik-bs.ch/tabellen/t08' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0606' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -1874,7 +1879,9 @@ var indikatoren = [
 			"Verein Minergie®"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'http://www.minergie.ch/' target = '_blank'>Verein Minergie®</a>",
+			"<a href = 'http://www.aue.bs.ch/energie/gebaeude-energie.html' target = '_blank'>Gebäude und Energie (AUE BS)</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0609' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -1911,7 +1918,8 @@ var indikatoren = [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'http://www.aue.bs.ch/energie/gebaeude-energie.html' target = '_blank'>Gebäude und Energie (AUE BS)</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0610' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -1949,7 +1957,7 @@ var indikatoren = [
 			"Lufthygieneamt beider Basel"
 		],
 		"externalLinks": [
-			""
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0611' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -1986,7 +1994,8 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='https://www.bfs.admin.ch/bfs/de/home/statistiken/raum-umwelt/ressourcen/umweltindikatorensystem/nutzung-natuerliche-ressourcen/energieeffizienz.html' target='_blank'>Energieeffizienz Schweiz (BFS)</a></li><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0612' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
+			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/raum-umwelt/ressourcen/umweltindikatorensystem/nutzung-natuerliche-ressourcen/energieeffizienz.html' target = '_blank'>Energieeffizienz Schweiz (BFS)</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0612' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -2023,7 +2032,8 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target='_blank'>Energiestatistik Kanton Basel-Stadt</a></li><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0602' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
+			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0602' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -2060,7 +2070,8 @@ var indikatoren = [
 			"ProRheno AG"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='https://www.admin.ch/opc/de/classified-compilation/19983281/index.html#app4' target='_blank'>Gewässerschutzverordnung, Anhang 3.1</a></li><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1604' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
+			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19983281/index.html#app4' target = '_blank'>Gewässerschutzverordnung, Anhang 3.1</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1604' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -2098,7 +2109,8 @@ var indikatoren = [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19983281/index.html' target = '_blank'>Gewässerschutzverordnung (GSchV, SR 814.201)</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1602' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -2135,7 +2147,7 @@ var indikatoren = [
 			"Industrielle Werke Basel (IWB)"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1605' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1605' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -2172,7 +2184,7 @@ var indikatoren = [
 			"Amt für Umwelt und Energie Basel-Stadt; Industrielle Werke Basel-Stadt (IWB)"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1606' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1606' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -2209,7 +2221,8 @@ var indikatoren = [
 			"ProRheno AG"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19983281/index.html#app4' target = '_blank'>Gewässerschutzverordnung, Anhang 3.1</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1607' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -2239,16 +2252,15 @@ var indikatoren = [
 		"erlaeuterungen": "Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1610' target='_blank'>Umweltbericht beider Basel</a>.",
 		"template": "dotplot",
 		"orderKey": "16_00_00_00_00_000",
-		"parentId": null,
-		"children": [
-			"6166"
-		],
+		"parentId": 6166,
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'http://www.aue.bs.ch/wasser/grundwasser/grundwasserpegel-grundwasserqualitaet.html' target = '_blank'>Hydrologisches Jahrbuch BS</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1610' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -2287,7 +2299,7 @@ var indikatoren = [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1611' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -2324,7 +2336,7 @@ var indikatoren = [
 			"ProRheno AG"
 		],
 		"externalLinks": [
-			""
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1614' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -2361,7 +2373,8 @@ var indikatoren = [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'http://www.aue.bs.ch/umweltanalytik/rheinueberwachungsstation-weil-am-rhein.html' target = '_blank'>Rheinüberwachungsstation Weil am Rhein (RÜS)</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1609' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -2398,7 +2411,8 @@ var indikatoren = [
 			"Bundesamt für Statistik (BFS)"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/erhebungen/sgb.html' target = '_blank'>Bundesamt für Statistik, Schweizerische Gesundheitsbefragung</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1617' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -2435,7 +2449,7 @@ var indikatoren = [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1613' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -2472,7 +2486,7 @@ var indikatoren = [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1612' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -2509,7 +2523,8 @@ var indikatoren = [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'http://www.aue.bs.ch/wasser/oberflaechengewaesser/lebensraum.html' target = '_blank'>AUE BS, Lebensraum Oberflächengewässer</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1616' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -2546,7 +2561,8 @@ var indikatoren = [
 			"Kantonales Laboratorium Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'http://www.admin.ch/opc/de/classified-compilation/19910033/index.html' target = '_blank'>Verordnung über den Schutz vor Störfällen (Störfallverordnung, StFV)</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-14-1401' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -2583,7 +2599,8 @@ var indikatoren = [
 			"Kantonales Laboratorium Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'http://www.kantonslabor.bs.ch/umwelt/anlagensicherheit.html' target = '_blank'>Störfallvorsorge BS</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-14-1403' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -2621,7 +2638,8 @@ var indikatoren = [
 			"Bundesamt für Statistik (BFS)"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/arealstatistik/01.html' target='_blank'>Arealstatistik Schweiz (Methode)</a></li><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0506' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
+			"<a href = 'http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/arealstatistik/01.html' target = '_blank'>Arealstatistik Schweiz (Methode)</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0506' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -2658,7 +2676,8 @@ var indikatoren = [
 			"Bundesamt für Statistik (BFS)"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/land-forstwirtschaft/landwirtschaft.html' target = '_blank'>Landwirtschaftliche Strukturerhebung (BFS)</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0507' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -2696,7 +2715,8 @@ var indikatoren = [
 			"Bundesamt für Statistik (BFS)"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'http://www.bfs.admin.ch/bfs/portal/de/index/themen/11/03/blank/02.html' target = '_blank'>Strassenfahrzeugbestand (BFS)</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0505' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -2736,14 +2756,14 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"<a href = 'http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/arealstatistik/01.html' target = '_blank'>Arealstatistik Schweiz (Methode)</a>",
-			"<a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0502' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0502' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
 	{
 		"title": "Landwirtschaftliche Nutzfläche",
 		"subtitle": "Hektaren",
-		"kuerzel": "I.07.1.4254",
+		"kuerzel": "I.07.1.04254",
 		"kuerzelKunde": "0503",
 		"description": "Landwirtschaftliche Nutzfläche",
 		"id": 4254,
@@ -2773,7 +2793,8 @@ var indikatoren = [
 			"Bundesamt für Statistik (BFS)"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='https://www.bfs.admin.ch/bfs/de/home/statistiken/land-forstwirtschaft/landwirtschaft.html' target='_blank'>Landwirtschaftliche Strukturerhebung (BFS)</a></li><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0503' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
+			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/land-forstwirtschaft/landwirtschaft.html' target = '_blank'>Landwirtschaftliche Strukturerhebung (BFS)</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0503' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -2812,7 +2833,8 @@ var indikatoren = [
 			"Bundesamt für Statistik (BFS)"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/arealstatistik/01.html' target='_blank'>Arealstatistik Schweiz (Methode)</a></li><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0501' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
+			"<a href = 'http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/arealstatistik/01.html' target = '_blank'>Arealstatistik Schweiz (Methode)</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0501' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -2849,7 +2871,8 @@ var indikatoren = [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19983151/index.html' target = '_blank'>Altlasten-Verordnung (SR 814.680)</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-02-0207' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -2886,7 +2909,8 @@ var indikatoren = [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?instance=default&language=de&theme=186' target = '_blank'>Kataster der belasteten Standorte im Kanton Basel-Stadt</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-02-0205' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -2923,7 +2947,8 @@ var indikatoren = [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19983151/index.html' target = '_blank'>Altlasten-Verordnung (SR 814.680)</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-02-0206' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -2960,7 +2985,8 @@ var indikatoren = [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?instance=default&language=de&theme=186' target = '_blank'>Kataster der belasteten Standorte im Kanton Basel-Stadt</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-02-0204' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -2997,7 +3023,8 @@ var indikatoren = [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'http://www.aue.bs.ch/altlasten-boden/bauen-auf-belasteten-standorten.html' target = '_blank'>Kanton Basel-Stadt: Bauen auf belasteten Standorten</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-02-0208' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -3034,7 +3061,8 @@ var indikatoren = [
 			"Kantonales Laboratorium Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'http://www.kantonslabor.bs.ch/berichte/jahresberichte.html' target = '_blank'>Jahresberichte Kantonales Laboratorium Basel-Stadt</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-04-0403' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -3071,7 +3099,8 @@ var indikatoren = [
 			"Bundesamt für Umwelt (BAFU)"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?theme=67&nodefault&layers=stadtplan_grau_osm_25000,gefkatasterex' target = '_blank'>Gefahrenkataster BS (Kataster der Störfallverordnung)</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-04-0401' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -3108,7 +3137,8 @@ var indikatoren = [
 			"Kantonales Laboratorium Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'http://www.kantonslabor.bs.ch/umwelt/anlagensicherheit/biosicherheit.html' target = '_blank'>Kantonales Laboratorium Basel-Stadt, Biosicherheit</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-04-0404' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -3145,7 +3175,8 @@ var indikatoren = [
 			"Kantonales Laboratorium Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/20100803/201506010000/814.912.pdf' target = '_blank'>Einschliessungsverordnung (ESV)</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-04-0402' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -3182,7 +3213,9 @@ var indikatoren = [
 			"EuroAirport Basel Mulhouse Freiburg"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'http://www.euroairport.com/de/umwelt/' target = '_blank'>Flughafen Basel-Mulhouse</a>",
+			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19860372/index.html#app5' target = '_blank'>Lärmschutz-Verordnung (LSV)</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1005' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -3219,7 +3252,9 @@ var indikatoren = [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'http://map.geo.bs.ch/s/7ft7' target = '_blank'>Lärmreklamationen Basel-Stadt</a>",
+			"<a href = 'http://www.aue.bs.ch/laerm/laermsorgen.html' target = '_blank'>Beschwerdeformular Lärmbelästigung Basel-Stadt</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1003' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -3256,7 +3291,9 @@ var indikatoren = [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.aue.bs.ch/laerm/verkehrslaerm/schallschutzfensterbeitraege.html' target='_blank'>Schallschutzfensterbeiträge</a></li><li><a href='https://www.admin.ch/opc/de/classified-compilation/19860372/index.html' target='_blank'>Lärmschutz-Verordnung (LSV)</a></li><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1004' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
+			"<a href = 'http://www.aue.bs.ch/laerm/verkehrslaerm/schallschutzfensterbeitraege.html' target = '_blank'>Schallschutzfensterbeiträge</a>",
+			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19860372/index.html' target = '_blank'>Lärmschutz-Verordnung (LSV)</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1004' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -3293,7 +3330,8 @@ var indikatoren = [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.stadtplan.bs.ch/geoviewer/index.php?theme=19&cps=2612411.74,1267773.51,25000&nodefault&layers=stadtplan_grau_osm_25000,strlaermtag' target='_blank'>Strassenlärmkataster BS</a></li><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1002' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
+			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?theme=19&cps=2612411.74,1267773.51,25000&nodefault&layers=stadtplan_grau_osm_25000,strlaermtag' target = '_blank'>Strassenlärmkataster BS</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1002' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -3330,7 +3368,7 @@ var indikatoren = [
 			"Tiefbauamt Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1008' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -3369,7 +3407,10 @@ var indikatoren = [
 			"Lufthygieneamt beider Basel"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/schadstoffe/stickoxide-nox-no2' target = '_blank'>Lufthygieneamt beider Basel: Quellen der Luftbelastung</a>",
+			"<a href = 'https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftreinhalteplanung' target = '_blank'>Luftreinhalteplan beider Basel</a>",
+			"<a href = 'http://www.bafu.admin.ch/luft/00585/10763/index.html?lang=de' target = '_blank'>Informationen zu Stickoxiden (BAFU)</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1101' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -3406,7 +3447,10 @@ var indikatoren = [
 			"Lufthygieneamt beider Basel"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/schadstoffe/fluechtige-organische-verbindungen-voc' target = '_blank'>Lufthygieneamt beider Basel: Quellen der Luftbelastung</a>",
+			"<a href = 'https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftreinhalteplanung' target = '_blank'>Luftreinhalteplan beider Basel</a>",
+			"<a href = 'http://www.bafu.admin.ch/luft/index.html?lang=de' target = '_blank'>BAFU: Informationen zum Thema Luft</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1102' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -3444,7 +3488,10 @@ var indikatoren = [
 			"Lufthygieneamt beider Basel"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/schadstoffe/feinstaub' target = '_blank'>Lufthygieneamt beider Basel: Quellen der Luftbelastung</a>",
+			"<a href = 'https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftreinhalteplanung' target = '_blank'>Luftreinhalteplan beider Basel</a>",
+			"<a href = 'http://www.bafu.admin.ch/luft/index.html?lang=de' target = '_blank'>BAFU: Informationen zum Thema Luft</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1103' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -3481,7 +3528,12 @@ var indikatoren = [
 			"Lufthygieneamt beider Basel"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='https://cerclair.ch/assets/src/pdf/27b_2015_06_10_D_Langzeit_Luftbelastungs_Index.pdf' target='_blank'>Empfehlung Nr. 27 der Schweizerischen Gesellschaft der Lufthygiene-Fachleute (Cercl'Air)</a></li><li><a href='http://www.baselland.ch/Lufthygiene.273902.0.html' target='_blank'>Lufthygieneamt beider Basel</a></li><li><a href='https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftreinhalteplanung/luftreinhalteplan-2010' target='_blank'>Luftreinhalteplan beider Basel</a></li><li><a href='https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target='_blank'>Luftreinhalte-Verordnung (LRV)</a></li><li><a href='http://www.bafu.admin.ch/luft/index.html?lang=de' target='_blank'>BAFU: Informationen zum Thema Luft</a></li><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1104' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
+			"<a href = 'https://cerclair.ch/assets/src/pdf/27b_2015_06_10_D_Langzeit_Luftbelastungs_Index.pdf' target = '_blank'>Empfehlung Nr. 27 der Schweizerischen Gesellschaft der Lufthygiene-Fachleute (Cercl'Air)</a>",
+			"<a href = 'http://www.baselland.ch/Lufthygiene.273902.0.html' target = '_blank'>Lufthygieneamt beider Basel</a>",
+			"<a href = 'https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftreinhalteplanung/luftreinhalteplan-2010' target = '_blank'>Luftreinhalteplan beider Basel</a>",
+			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>",
+			"<a href = 'http://www.bafu.admin.ch/luft/index.html?lang=de' target = '_blank'>BAFU: Informationen zum Thema Luft</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1104' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -3518,7 +3570,8 @@ var indikatoren = [
 			"Bundesamt für Statistik (BFS)"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/lb/01.html' target='_blank'>Landwirtschaftliche Betriebsstrukturerhebung BFS</a></li><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1105' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
+			"<a href = 'http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/lb/01.html' target = '_blank'>Landwirtschaftliche Betriebsstrukturerhebung BFS</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1105' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -3555,7 +3608,9 @@ var indikatoren = [
 			"Lufthygieneamt beider Basel"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftreinhalteplanung' target = '_blank'>Luftreinhalteplan beider Basel</a>",
+			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1108' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -3592,7 +3647,9 @@ var indikatoren = [
 			"Lufthygieneamt beider Basel"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://luft-bs-so.ch/messdaten' target='_blank'>Luftqualität in der Nordwestschweiz</a></li><li><a href='https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target='_blank'>Luftreinhalte-Verordnung (LRV)</a></li><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1109' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
+			"<a href = 'http://luft-bs-so.ch/messdaten' target = '_blank'>Luftqualität in der Nordwestschweiz</a>",
+			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1109' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -3629,7 +3686,9 @@ var indikatoren = [
 			"Lufthygieneamt beider Basel"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://luft-bs-so.ch/messdaten' target='_blank'>Luftqualität in der Nordwestschweiz</a></li><li><a href='https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target='_blank'>Luftreinhalte-Verordnung (LRV)</a></li><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1110' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
+			"<a href = 'http://luft-bs-so.ch/messdaten' target = '_blank'>Luftqualität in der Nordwestschweiz</a>",
+			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1110' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -3667,7 +3726,10 @@ var indikatoren = [
 			"Lufthygieneamt beider Basel"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'http://www.bafu.admin.ch/luft/10804/10806/index.html?lang=de' target = '_blank'>Auswirkungen der Luftverschmutzung auf die Gesundheit (BAFU)</a>",
+			"<a href = 'https://www.are.admin.ch/dam/are/de/dokumente/verkehr/publikationen/externe_effekte_desverkehrs2010.pdf.download.pdf/externe_effekte_desverkehrs2010.pdf ' target = '_blank'>Externe Effekte des Verkehrs (ARE): Quellen der Luftbelastung</a>",
+			"<a href = 'https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftreinhalteplanung' target = '_blank'>Lufthygieneamt beider Basel: Luftreinhalteplan beider Basel 2016</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1107' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -3704,7 +3766,9 @@ var indikatoren = [
 			"Lufthygieneamt beider Basel"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://luft-bs-so.ch/messdaten' target='_blank'>Luftqualität in der Nordwestschweiz</a></li><li><a href='https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target='_blank'>Luftreinhalte-Verordnung (LRV)</a></li><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1111' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
+			"<a href = 'http://luft-bs-so.ch/messdaten' target = '_blank'>Luftqualität in der Nordwestschweiz</a>",
+			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1111' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -3741,7 +3805,7 @@ var indikatoren = [
 			"Amt für Wald beider Basel"
 		],
 		"externalLinks": [
-			""
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1508' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -3778,7 +3842,8 @@ var indikatoren = [
 			"Schweizerisches Landesforstinventar (LFI)"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'https://www.lfi.ch/index.php' target = '_blank'>Schweizerisches Landesforstinventar (LFI)</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1509' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -3815,7 +3880,8 @@ var indikatoren = [
 			"Lufthygieneamt beider Basel"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftreinhalteplanung' target = '_blank'>Luftreinhalteplan beider Basel</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1505' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -3852,7 +3918,7 @@ var indikatoren = [
 			"Amt für Wald beider Basel"
 		],
 		"externalLinks": [
-			""
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1506' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -3889,7 +3955,8 @@ var indikatoren = [
 			"Amt für Wald beider Basel"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/landw-zentrum-ebenrain/natur/naturschutz/naturschutz-im-wald' target = '_blank'>Naturschutz im Wald (LZE)</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1511' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -3927,7 +3994,8 @@ var indikatoren = [
 			"Amt für Wald beider Basel"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/landw-zentrum-ebenrain/natur/naturschutz/naturschutz-im-wald' target = '_blank'>Naturschutz im Wald (LZE)</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1514' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -3964,7 +4032,7 @@ var indikatoren = [
 			"Landwirtschaftliches Zentrum Ebenrain"
 		],
 		"externalLinks": [
-			""
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1512' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -4001,7 +4069,8 @@ var indikatoren = [
 			"Bundesamt für Umwelt (BAFU)"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'http://www.admin.ch/opc/de/classified-compilation/20021520/index.html#app30' target = '_blank'>Chemikalien-Risikoreduktions-Verordnung (ChemRRV), Anhang 2.10 - Kältemittel</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-13-1301' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -4038,7 +4107,8 @@ var indikatoren = [
 			"Bundesamt für Umwelt (BAFU)"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'http://www.admin.ch/opc/de/classified-compilation/20021520/index.html#app30' target = '_blank'>Chemikalien-Risikoreduktions-Verordnung (ChemRRV), Anhang 2.10 - Kältemittel</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-13-1303' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -4075,7 +4145,8 @@ var indikatoren = [
 			"envico AG"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/20021520/index.html#app31' target = '_blank'>Chemikalien-Risikoreduktions-Verordnung (ChemRRV), Anhang 2.11 - Löschmittel</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-13-1304' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -4112,7 +4183,8 @@ var indikatoren = [
 			"Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'http://www.polizei.bs.ch/verkehr/motorfahrzeugkontrolle.html' target = '_blank'>Motorfahrzeugkontrolle Basel-Stadt</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0805' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -4144,14 +4216,15 @@ var indikatoren = [
 		"erlaeuterungen": "Der Indikator zeigt die Summe der aus dem kantonalen Energieverbrauch resultierenden CO<sub>2</sub>-Emissionen in die Atmosphäre. <br><br>Die CO<sub>2</sub>-Emissionen werden ausgehend vom Bruttoenergieverbrauch gemäss der kantonalen Energiestatistik ermittelt. Zur Berechnung der Emissionen wird pro Energieträger der jährliche Bruttoenergieverbrauch mit dem entsprechenden CO<sub>2</sub>-Emissionsfaktor (gemäss Schweizerischem Treibhausgasinventar) multipliziert.<br><br>Es sind zur Hauptsache CO<sub>2</sub>-Emissionen berücksichtigt, welche bei der Verbrennung von fossilen Energieträgern (Brenn- und Treibstoffe) entstehen. Die Emissionen aus der energetischen Nutzung von Holz werden nicht ausgewiesen, da Holz als CO<sub>2</sub>-neutral gilt. Die Verbrennung von biogenem Material wird ebenso als CO<sub>2</sub>-neutral betrachtet, weshalb nur 50% des in der Kehrichtverwertungsanlage verbrannten Abfalls berücksichtigt wird. Auch der Klärschlamm wird als biogen taxiert; demzufolge bleiben die entsprechenden CO<sub>2</sub>-Emissionen ebenfalls unberücksichtigt. ",
 		"template": "dotplot",
 		"orderKey": "08_00_00_00_00_000",
-		"parentId": null,
+		"parentId": 6165,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.bafu.admin.ch/klima/index.html?lang=de' target='_blank'>Bundesamt für Umwelt</a></li><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0808' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
+			"<a href = 'http://www.bafu.admin.ch/klima/index.html?lang=de' target = '_blank'>Bundesamt für Umwelt</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0808' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -4188,7 +4261,7 @@ var indikatoren = [
 			"Meteorologischer Verein der Region Basel"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0801' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0801' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -4227,7 +4300,8 @@ var indikatoren = [
 			"Meteorologischer Verein der Region Basel"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.klimabasel.ch/' target='_blank'>Meteorologischer Verein der Region Basel</a></li><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0803' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
+			"<a href = 'http://www.klimabasel.ch/' target = '_blank'>Meteorologischer Verein der Region Basel</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0803' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -4264,7 +4338,8 @@ var indikatoren = [
 			"Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'http://www.polizei.bs.ch/verkehr/motorfahrzeugkontrolle.html' target = '_blank'>Motorfahrzeugkontrolle Basel-Stadt</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0806' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -4302,7 +4377,8 @@ var indikatoren = [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'http://www.modul-stufen-konzept.ch/fg/index' target = '_blank'>Modul-Stufen-Konzept</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1608' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -4340,7 +4416,8 @@ var indikatoren = [
 			"Stadtgärtnerei Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'http://www.stadtgaertnerei.bs.ch/oekologische-verantwortung/naturschutzkonzept.html' target = '_blank'>Naturschutz BS</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-03-0301' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -4377,7 +4454,8 @@ var indikatoren = [
 			"Stadtgärtnerei Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19920136/index.html' target = '_blank'>Übereinkommen über die Biologische Vielfalt</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-03-0302' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -4415,7 +4493,7 @@ var indikatoren = [
 			"Stadtgärtnerei Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-03-0305' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -4452,7 +4530,8 @@ var indikatoren = [
 			"Bundesamt für Statistik (BFS)"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken/publikationen.assetdetail.344054.html' target = '_blank'>Landschaftszerschneidung Schweiz</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-03-0303' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -4489,7 +4568,7 @@ var indikatoren = [
 			"Planungsamt Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-09-0902' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -4527,7 +4606,8 @@ var indikatoren = [
 			"Planungsamt Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'http://www.planungsamt.bs.ch/planungsgrundlagen-konzepte/konzepte/freiraumkonzept.html' target = '_blank'>Freiraumkonzept BS</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-09-0903' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -4565,7 +4645,9 @@ var indikatoren = [
 			"Planungsamt Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19790171/index.html' target = '_blank'>Raumplanungsgesetz (RPG)</a>",
+			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?theme=20' target = '_blank'>Zonenplan BS (GeoViewer)</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-09-0901' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -4603,7 +4685,9 @@ var indikatoren = [
 			"Bundesamt für Umwelt (BAFU)"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'http://www.tiefbauamt.bs.ch/abwasser/naturgefahren.html' target = '_blank'>Hochwasserschutz Basel-Stadt</a>",
+			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?theme=320' target = '_blank'>Gefahrenkarte Basel-Stadt</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-07-0702' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -4640,7 +4724,7 @@ var indikatoren = [
 			"Amt für Wald beider Basel; Tiefbauamt Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-07-0704' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -4677,7 +4761,9 @@ var indikatoren = [
 			"Gebäudeversicherung des Kantons Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'https://www.gvbs.ch/' target = '_blank'>Gebäudeversicherung Basel-Stadt</a>",
+			"<a href = 'http://www.gesetzessammlung.bs.ch/frontend/versions/3977' target = '_blank'>Gebäudeversicherungsgesetz Basel-Stadt</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-07-0705' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -4718,9 +4804,9 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/1-bevoelkerung.html' target = '_blank'>Bevölkerungsstatistik BS</a>",
+			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/1-bevoelkerung.html' target = '_blank'>Bevölkerungsstatistik BS</a>",
 			"<a href = 'http://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html' target = '_blank'>Einwohner: Zentrale Begriffe BS</a>",
-			"<a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1702' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1702' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -4750,16 +4836,15 @@ var indikatoren = [
 		"erlaeuterungen": "Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1705' target='_blank'>Umweltbericht beider Basel</a>.",
 		"template": "dotplot",
 		"orderKey": "17_00_00_00_00_000",
-		"parentId": null,
-		"children": [
-			"6154"
-		],
+		"parentId": 6154,
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'http://www.medienmitteilungen.bs.ch/verkehrspolitisches_leitbild_juni_2015.pdf' target = '_blank'>Verkehrspolitisches Leitbild und Massnahmenplan, Juni 2015</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1705' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -4799,7 +4884,8 @@ var indikatoren = [
 			"Bundesamt für Statistik (BFS)"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='https://www.bfs.admin.ch/bfs/de/home/statistiken/bau-wohnungswesen/wohnungen/wohnverhaeltnisse.html' target='_blank'>Wohnverhältnisse Schweiz (BFS)</a></li><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1703' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
+			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/bau-wohnungswesen/wohnungen/wohnverhaeltnisse.html' target = '_blank'>Wohnverhältnisse Schweiz (BFS)</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1703' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -4836,7 +4922,8 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target='_blank'>Energiestatistik Kanton Basel-Stadt</a></li><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0607' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
+			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0607' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -4873,7 +4960,8 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target='_blank'>Energiestatistik Kanton Basel-Stadt</a></li><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0613' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
+			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0613' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -4913,7 +5001,8 @@ var indikatoren = [
 			"Bundesamt für Statistik (BFS)"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='https://www.bfs.admin.ch/bfs/de/home/statistiken/volkswirtschaft/erhebungen/bipkt.html' target='_blank'>BIP der Kantone (BFS)</a></li><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1701' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
+			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/volkswirtschaft/erhebungen/bipkt.html' target = '_blank'>BIP der Kantone (BFS)</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1701' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -4955,7 +5044,8 @@ var indikatoren = [
 			"Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle; Statistisches Amt Basel-Stadt"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.polizei.bs.ch/verkehr/motorfahrzeugkontrolle.html' target='_blank'>Motorfahrzeugkontrolle Basel-Stadt</a></li><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1704' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
+			"<a href = 'http://www.polizei.bs.ch/verkehr/motorfahrzeugkontrolle.html' target = '_blank'>Motorfahrzeugkontrolle Basel-Stadt</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1704' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -4992,7 +5082,8 @@ var indikatoren = [
 			"Bau- und Gastgewerbeinspektorat Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'https://www.bafu.admin.ch/bafu/de/home/themen/naturgefahren/fachinformationen-erdbeben/schutz-vor-erdbeben/erdbebengerechtes-bauen/erdbebensichere-neubauten.html' target = '_blank'>Erdbebensichere Neubauten (BAFU)</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-07-0703' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -5029,7 +5120,7 @@ var indikatoren = [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0106' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -5066,7 +5157,8 @@ var indikatoren = [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.aue.bs.ch/abfaelle.html' target='_blank'>Amt für Umwelt und Energie Basel-Stadt: Abfälle</a></li><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0102' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
+			"<a href = 'http://www.aue.bs.ch/abfaelle.html' target = '_blank'>Amt für Umwelt und Energie Basel-Stadt: Abfälle</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0102' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -5103,7 +5195,8 @@ var indikatoren = [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'http://www.aue.bs.ch/abfaelle/industrie-gewerbe/bauabfaelle.html' target = '_blank'>Bauabfälle (Kanton Basel-Stadt)</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0108' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -5140,7 +5233,8 @@ var indikatoren = [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'http://www.aue.bs.ch/abfaelle/industrie-gewerbe/bauabfaelle.html' target = '_blank'>Bauabfälle (Kanton Basel-Stadt)</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0109' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -5177,7 +5271,8 @@ var indikatoren = [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'https://www.iwb.ch/Ueber-uns/Kehrichtverwertung.html' target = '_blank'>KVA Basel (IWB)</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0104' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -5214,7 +5309,7 @@ var indikatoren = [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0107' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -5251,7 +5346,8 @@ var indikatoren = [
 			"Industrielle Werke Basel (IWB)"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'https://www.iwb.ch/Ueber-uns/Kehrichtverwertung/Alles-ueber-die-KVA.html' target = '_blank'>KVA Basel (IWB): Reststoffentsorgung</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0105' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -5288,7 +5384,8 @@ var indikatoren = [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.aue.bs.ch/abfaelle.html' target='_blank'>Amt für Umwelt und Energie Basel-Stadt: Abfälle</a></li><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0101' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
+			"<a href = 'http://www.aue.bs.ch/abfaelle.html' target = '_blank'>Amt für Umwelt und Energie Basel-Stadt: Abfälle</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0101' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -5325,14 +5422,15 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/9-bau-wohnungswesen.html' target = '_blank'>Bau- und Wohnungswesen BS</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0103' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
 	{
 		"title": "Anzahl Ausländer nach Art der Bewilligung seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.01.1.4339",
+		"kuerzel": "I.01.1.04339",
 		"kuerzelKunde": "1-5A",
 		"description": "Anzahl Ausländer nach Art der Bewilligung seit 2006",
 		"id": 4339,
@@ -5373,7 +5471,7 @@ var indikatoren = [
 	{
 		"title": "Anteil Ausländer nach Staatsangehörigkeit und Art der Bewilligung",
 		"subtitle": "Stand: 2015",
-		"kuerzel": "I.01.1.4340",
+		"kuerzel": "I.01.1.04340",
 		"kuerzelKunde": "1-5B",
 		"description": "Anteil Ausländer nach Staatsangehörigkeit und Art der Bewilligung",
 		"id": 4340,
@@ -5415,7 +5513,7 @@ var indikatoren = [
 	{
 		"title": "Einbürgerungsziffer nach ehemaliger Staatsangehörigkeit seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.01.6.4342",
+		"kuerzel": "I.01.6.04342",
 		"kuerzelKunde": "1-6",
 		"description": "Einbürgerungsziffer nach ehemaliger Staatsangehörigkeit seit 2006",
 		"id": 4342,
@@ -5460,7 +5558,7 @@ var indikatoren = [
 	{
 		"title": "Anzahl Personen mit und ohne Migrationshintergrund nach Staatsangehörigkeit (Schweiz / Ausland) 2010 bis 2014",
 		"subtitle": "",
-		"kuerzel": "I.01.1.4462",
+		"kuerzel": "I.01.1.04462",
 		"kuerzelKunde": "1-7",
 		"description": "Anzahl Personen mit und ohne Migrationshintergrund nach Staatsangehörigkeit (Schweiz / Ausland) 2010 bis 2014",
 		"id": 4462,
@@ -5504,7 +5602,7 @@ var indikatoren = [
 	{
 		"title": "Anteil Personen, welche zu Hause «deutsch» oder «schweizerdeutsch» sprechen nach Staatsangehörigkeit 2010 bis 2014",
 		"subtitle": "",
-		"kuerzel": "I.01.8.4463",
+		"kuerzel": "I.01.8.04463",
 		"kuerzelKunde": "1-8",
 		"description": "Anteil Personen, welche zu Hause «deutsch» oder «schweizerdeutsch» sprechen nach Staatsangehörigkeit 2010 bis 2014",
 		"id": 4463,
@@ -5548,7 +5646,7 @@ var indikatoren = [
 	{
 		"title": "Segregationsindex nach Staatsangehörigkeit seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.01.1.4465",
+		"kuerzel": "I.01.1.04465",
 		"kuerzelKunde": "2-1",
 		"description": "Segregationsindex nach Staatsangehörigkeit seit 2006",
 		"id": 4465,
@@ -5592,7 +5690,7 @@ var indikatoren = [
 	{
 		"title": "Anteil Ausländer nach Wohndauer und Zuzugsort seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.01.5.4466",
+		"kuerzel": "I.01.5.04466",
 		"kuerzelKunde": "2-2",
 		"description": "Anteil Ausländer nach Wohndauer und Zuzugsort seit 2006",
 		"id": 4466,
@@ -5638,7 +5736,7 @@ var indikatoren = [
 	{
 		"title": "Schweizer Bevölkerung nach Wohndauer und Geburtsort seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.01.1.4467",
+		"kuerzel": "I.01.1.04467",
 		"kuerzelKunde": "2-3A",
 		"description": "Schweizer Bevölkerung nach Wohndauer und Geburtsort seit 2006",
 		"id": 4467,
@@ -5683,7 +5781,7 @@ var indikatoren = [
 	{
 		"title": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeit seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.01.5.4468",
+		"kuerzel": "I.01.5.04468",
 		"kuerzelKunde": "2-4",
 		"description": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeit seit 2006",
 		"id": 4468,
@@ -5726,7 +5824,7 @@ var indikatoren = [
 	{
 		"title": "Arbeitslosenquote nach Staatsangehörigkeit seit 2010",
 		"subtitle": "",
-		"kuerzel": "I.03.4.4469",
+		"kuerzel": "I.03.4.04469",
 		"kuerzelKunde": "3-3",
 		"description": "Arbeitslosenquote nach Staatsangehörigkeit seit 2010",
 		"id": 4469,
@@ -5773,7 +5871,7 @@ var indikatoren = [
 	{
 		"title": "Erhaltenene Hilfeleistungen",
 		"subtitle": "«Erhalten Sie oder ein anderes Haushaltsmitglied (finanzielle oder materielle) Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?»",
-		"kuerzel": "I.50.2.4716",
+		"kuerzel": "I.50.2.04716",
 		"kuerzelKunde": "1.1.01",
 		"description": "Erhaltenene Hilfeleistungen",
 		"id": 4716,
@@ -5812,7 +5910,7 @@ var indikatoren = [
 	{
 		"title": "Erhaltene materielle Hilfeleistungen",
 		"subtitle": "«Wie häufig erhalten Sie oder ein anderes Mitglied Ihres Haushaltes materielle Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?»",
-		"kuerzel": "I.50.4.4718",
+		"kuerzel": "I.50.4.04718",
 		"kuerzelKunde": "1.1.02",
 		"description": "Erhaltene materielle Hilfeleistungen",
 		"id": 4718,
@@ -5851,7 +5949,7 @@ var indikatoren = [
 	{
 		"title": "Kulturelle Bereicherung",
 		"subtitle": "«Im Kanton Basel-Stadt gibt es Menschen aus den verschiedensten Ländern. Ist das eine Bereicherung für den Kanton?»",
-		"kuerzel": "I.50.1.4719",
+		"kuerzel": "I.50.1.04719",
 		"kuerzelKunde": "1.3.01",
 		"description": "Kulturelle Bereicherung",
 		"id": 4719,
@@ -5889,7 +5987,7 @@ var indikatoren = [
 	{
 		"title": "Beurteilung des Wohnorts",
 		"subtitle": "«Wie gerne leben Sie insgesamt an Ihrem Wohnort?»",
-		"kuerzel": "I.50.1.4720",
+		"kuerzel": "I.50.1.04720",
 		"kuerzelKunde": "2.1.01",
 		"description": "Beurteilung des Wohnorts",
 		"id": 4720,
@@ -5929,7 +6027,7 @@ var indikatoren = [
 	{
 		"title": "Beurteilung des Wohnquartiers",
 		"subtitle": "«Wie gerne leben Sie in Ihrem Wohnquartier?»",
-		"kuerzel": "I.50.1.4721",
+		"kuerzel": "I.50.1.04721",
 		"kuerzelKunde": "2.1.02",
 		"description": "Beurteilung des Wohnquartiers",
 		"id": 4721,
@@ -5969,7 +6067,7 @@ var indikatoren = [
 	{
 		"title": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
 		"subtitle": "",
-		"kuerzel": "I.01.6.4722",
+		"kuerzel": "I.01.6.04722",
 		"kuerzelKunde": "2.1.03",
 		"description": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
 		"id": 4722,
@@ -6012,7 +6110,7 @@ var indikatoren = [
 	{
 		"title": "Vertretung der Anliegen der Bevölkerung durch Behörden",
 		"subtitle": "«Wie gut vertreten die Behörden, also der Regierungsrat und der Grosse Rat, die Anliegen der Bevölkerung?»",
-		"kuerzel": "I.50.1.4724",
+		"kuerzel": "I.50.1.04724",
 		"kuerzelKunde": "2.2.01",
 		"description": "Vertretung der Anliegen der Bevölkerung durch Behörden",
 		"id": 4724,
@@ -6039,7 +6137,8 @@ var indikatoren = [
 		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"5138"
+			"5138",
+			"6185"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -6053,7 +6152,7 @@ var indikatoren = [
 	{
 		"title": "Gymnasialquote nach Staatsangehörigkeit seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.15.6.4739",
+		"kuerzel": "I.15.6.04739",
 		"kuerzelKunde": "3-1",
 		"description": "Gymnasialquote nach Staatsangehörigkeit seit 2006",
 		"id": 4739,
@@ -6097,7 +6196,7 @@ var indikatoren = [
 	{
 		"title": "Lehrabbruchquote nach Staatsangehörigkeit seit 2011",
 		"subtitle": "",
-		"kuerzel": "I.15.3.4740",
+		"kuerzel": "I.15.3.04740",
 		"kuerzelKunde": "3-2",
 		"description": "Lehrabbruchquote nach Staatsangehörigkeit seit 2011",
 		"id": 4740,
@@ -6145,7 +6244,7 @@ var indikatoren = [
 	{
 		"title": "Erwerbstätigenquote nach Staatsangehörigkeit 2010 bis 2014",
 		"subtitle": "",
-		"kuerzel": "I.03.1.4741",
+		"kuerzel": "I.03.1.04741",
 		"kuerzelKunde": "3-4",
 		"description": "Erwerbstätigenquote nach Staatsangehörigkeit 2010 bis 2014",
 		"id": 4741,
@@ -6192,7 +6291,7 @@ var indikatoren = [
 	{
 		"title": "Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit seit 2008",
 		"subtitle": "",
-		"kuerzel": "I.18.3.4743",
+		"kuerzel": "I.18.3.04743",
 		"kuerzelKunde": "3-5",
 		"description": "Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit seit 2008",
 		"id": 4743,
@@ -6240,7 +6339,7 @@ var indikatoren = [
 	{
 		"title": "Sozialhilfequote",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.13.3.4822",
+		"kuerzel": "I.13.3.04822",
 		"kuerzelKunde": "GS-1.A",
 		"description": "Sozialhilfequote",
 		"id": 4822,
@@ -6281,7 +6380,7 @@ var indikatoren = [
 	{
 		"title": "Anteil Ausländer",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.1.4823",
+		"kuerzel": "I.01.1.04823",
 		"kuerzelKunde": "GS-2.A",
 		"description": "Anteil Ausländer",
 		"id": 4823,
@@ -6322,7 +6421,7 @@ var indikatoren = [
 	{
 		"title": "Anteil Personen ohne Religionszugehörigkeit",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.7.4824",
+		"kuerzel": "I.01.7.04824",
 		"kuerzelKunde": "GS-3.A",
 		"description": "Anteil Personen ohne Religionszugehörigkeit",
 		"id": 4824,
@@ -6363,7 +6462,7 @@ var indikatoren = [
 	{
 		"title": "Anteil Personen in Einpersonenhaushalten",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.2.4825",
+		"kuerzel": "I.01.2.04825",
 		"kuerzelKunde": "GS-4.A",
 		"description": "Anteil Personen in Einpersonenhaushalten",
 		"id": 4825,
@@ -6404,7 +6503,7 @@ var indikatoren = [
 	{
 		"title": "Gymnasialquote",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.15.6.4826",
+		"kuerzel": "I.15.6.04826",
 		"kuerzelKunde": "GS-5.A",
 		"description": "Gymnasialquote",
 		"id": 4826,
@@ -6446,7 +6545,7 @@ var indikatoren = [
 	{
 		"title": "Altersquotient",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.1.4827",
+		"kuerzel": "I.01.1.04827",
 		"kuerzelKunde": "GS-6.A",
 		"description": "Altersquotient",
 		"id": 4827,
@@ -6488,7 +6587,7 @@ var indikatoren = [
 	{
 		"title": "Sesshaftigkeit",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.1.4828",
+		"kuerzel": "I.01.1.04828",
 		"kuerzelKunde": "GS-7.A",
 		"description": "Sesshaftigkeit",
 		"id": 4828,
@@ -6529,7 +6628,7 @@ var indikatoren = [
 	{
 		"title": "Jugendquotient",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.1.4829",
+		"kuerzel": "I.01.1.04829",
 		"kuerzelKunde": "GS-8.A",
 		"description": "Jugendquotient",
 		"id": 4829,
@@ -6571,7 +6670,7 @@ var indikatoren = [
 	{
 		"title": "Baujahr Wohngebäude",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.09.1.4830",
+		"kuerzel": "I.09.1.04830",
 		"kuerzelKunde": "RU-1.A",
 		"description": "Baujahr Wohngebäude",
 		"id": 4830,
@@ -6613,7 +6712,7 @@ var indikatoren = [
 	{
 		"title": "Anteil Einfamilienhäuser",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.09.1.4831",
+		"kuerzel": "I.09.1.04831",
 		"kuerzelKunde": "RU-2.A",
 		"description": "Anteil Einfamilienhäuser",
 		"id": 4831,
@@ -6654,7 +6753,7 @@ var indikatoren = [
 	{
 		"title": "Anteil Grünflächen",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.02.1.4832",
+		"kuerzel": "I.02.1.04832",
 		"kuerzelKunde": "RU-3.A",
 		"description": "Anteil Grünflächen",
 		"id": 4832,
@@ -6695,7 +6794,7 @@ var indikatoren = [
 	{
 		"title": "Fläche pro Wohnung",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.09.1.4833",
+		"kuerzel": "I.09.1.04833",
 		"kuerzelKunde": "RU-4.A",
 		"description": "Fläche pro Wohnung",
 		"id": 4833,
@@ -6736,7 +6835,7 @@ var indikatoren = [
 	{
 		"title": "Wohnfläche pro Kopf",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.09.1.4834",
+		"kuerzel": "I.09.1.04834",
 		"kuerzelKunde": "RU-5.A",
 		"description": "Wohnfläche pro Kopf",
 		"id": 4834,
@@ -6778,7 +6877,7 @@ var indikatoren = [
 	{
 		"title": "Vermögenssteuer pro Veranlagung",
 		"subtitle": "Stand: Steuerjahr 2014",
-		"kuerzel": "I.18.2.4835",
+		"kuerzel": "I.18.2.04835",
 		"kuerzelKunde": "WA-1.A",
 		"description": "Vermögenssteuer pro Veranlagung",
 		"id": 4835,
@@ -6819,7 +6918,7 @@ var indikatoren = [
 	{
 		"title": "Einkommenssteuer pro Veranlagung",
 		"subtitle": "Stand: Steuerjahr 2014",
-		"kuerzel": "I.18.2.4836",
+		"kuerzel": "I.18.2.04836",
 		"kuerzelKunde": "WA-2.A",
 		"description": "Einkommenssteuer pro Veranlagung",
 		"id": 4836,
@@ -6860,7 +6959,7 @@ var indikatoren = [
 	{
 		"title": "Erwerbstätigenquote",
 		"subtitle": "Stand: gepoolte Daten 2010 - 2014",
-		"kuerzel": "I.03.1.4837",
+		"kuerzel": "I.03.1.04837",
 		"kuerzelKunde": "WA-3.A",
 		"description": "Erwerbstätigenquote",
 		"id": 4837,
@@ -6901,7 +7000,7 @@ var indikatoren = [
 	{
 		"title": "Arbeitsplätze pro Kopf",
 		"subtitle": "Stand: 2014",
-		"kuerzel": "I.03.2.4838",
+		"kuerzel": "I.03.2.04838",
 		"kuerzelKunde": "WA-4.A",
 		"description": "Arbeitsplätze pro Kopf",
 		"id": 4838,
@@ -6942,7 +7041,7 @@ var indikatoren = [
 	{
 		"title": "Arbeitslosenquote",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.03.4.4839",
+		"kuerzel": "I.03.4.04839",
 		"kuerzelKunde": "WA-5.A",
 		"description": "Arbeitslosenquote",
 		"id": 4839,
@@ -6985,7 +7084,7 @@ var indikatoren = [
 	{
 		"title": "Unterstützung von Freunden oder Nachbarn",
 		"subtitle": "«Jeder Mensch braucht in seinem Leben einmal Unterstützung oder Hilfe. Wenn Sie zurück denken, haben Sie sich in nachfolgenden Situationen auch an Freunde/Nachbarn gewendet?»",
-		"kuerzel": "I.50.2.4848",
+		"kuerzel": "I.50.2.04848",
 		"kuerzelKunde": "1.1.03",
 		"description": "Unterstützung von Freunden oder Nachbarn",
 		"id": 4848,
@@ -7025,7 +7124,7 @@ var indikatoren = [
 	{
 		"title": "Beurteilung des Verhältnisses zur Nachbarschaft",
 		"subtitle": "«Ich habe ein gutes Verhältnis mit der Mehrheit meiner Nachbarinnen und Nachbarn.»",
-		"kuerzel": "I.50.2.4849",
+		"kuerzel": "I.50.2.04849",
 		"kuerzelKunde": "1.1.04",
 		"description": "Beurteilung des Verhältnisses zur Nachbarschaft",
 		"id": 4849,
@@ -7062,7 +7161,7 @@ var indikatoren = [
 	{
 		"title": "Zusammensetzung des Freundeskreises",
 		"subtitle": "«Wie sieht Dein Freundeskreis aus?»",
-		"kuerzel": "I.50.3.4850",
+		"kuerzel": "I.50.3.04850",
 		"kuerzelKunde": "1.1.05",
 		"description": "Zusammensetzung des Freundeskreises",
 		"id": 4850,
@@ -7100,7 +7199,7 @@ var indikatoren = [
 	{
 		"title": "Zufriedenheit mit dem Austausch mit der Nachbarschaft",
 		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit dem Austausch mit den Nachbarn?»",
-		"kuerzel": "I.50.4.4851",
+		"kuerzel": "I.50.4.04851",
 		"kuerzelKunde": "1.1.06",
 		"description": "Zufriedenheit mit dem Austausch mit der Nachbarschaft",
 		"id": 4851,
@@ -7138,7 +7237,7 @@ var indikatoren = [
 	{
 		"title": "Sicherheitsgefühl im Alltag",
 		"subtitle": "«Wie sicher fühlen Sie sich ganz allgemein im Alltag?»",
-		"kuerzel": "I.50.1.4852",
+		"kuerzel": "I.50.1.04852",
 		"kuerzelKunde": "1.2.01",
 		"description": "Sicherheitsgefühl im Alltag",
 		"id": 4852,
@@ -7176,7 +7275,7 @@ var indikatoren = [
 	{
 		"title": "Bedrohungen und Angriffe",
 		"subtitle": "«Sind Sie im letzten Jahr bedroht oder angegriffen worden?»",
-		"kuerzel": "I.50.1.4853",
+		"kuerzel": "I.50.1.04853",
 		"kuerzelKunde": "1.2.02",
 		"description": "Bedrohungen und Angriffe",
 		"id": 4853,
@@ -7214,7 +7313,7 @@ var indikatoren = [
 	{
 		"title": "Sicherheitsgefühl nachts im Quartier",
 		"subtitle": "«Wenn Sie in der Nacht alleine draussen sind in Ihrem Quartier oder Ihrer Gemeinde, wie sicher fühlen Sie sich dann?»",
-		"kuerzel": "I.50.1.4854",
+		"kuerzel": "I.50.1.04854",
 		"kuerzelKunde": "1.2.03",
 		"description": "Sicherheitsgefühl nachts im Quartier",
 		"id": 4854,
@@ -7253,7 +7352,7 @@ var indikatoren = [
 	{
 		"title": "Beurteilung des Ausländeranteils",
 		"subtitle": "«Grundsätzlich gibt es einfach zu viele Menschen aus dem Ausland bei uns.»",
-		"kuerzel": "I.50.1.4855",
+		"kuerzel": "I.50.1.04855",
 		"kuerzelKunde": "1.3.02",
 		"description": "Beurteilung des Ausländeranteils",
 		"id": 4855,
@@ -7291,7 +7390,7 @@ var indikatoren = [
 	{
 		"title": "Beurteilung des Beitrags der ausländischen Bevölkerung zur Lebensqualität",
 		"subtitle": "«Ohne die Menschen aus dem Ausland würden wir nicht so gut leben.»",
-		"kuerzel": "I.50.1.4856",
+		"kuerzel": "I.50.1.04856",
 		"kuerzelKunde": "1.3.03",
 		"description": "Beurteilung des Beitrags der ausländischen Bevölkerung zur Lebensqualität",
 		"id": 4856,
@@ -7329,7 +7428,7 @@ var indikatoren = [
 	{
 		"title": "Beurteilung der Schulen in Basel-Stadt",
 		"subtitle": "«Die Schulen des Kantons Basel-Stadt bereiten die Jugendlichen gut fürs Leben vor.»",
-		"kuerzel": "I.50.1.4857",
+		"kuerzel": "I.50.1.04857",
 		"kuerzelKunde": "2.2.02",
 		"description": "Beurteilung der Schulen in Basel-Stadt",
 		"id": 4857,
@@ -7370,7 +7469,7 @@ var indikatoren = [
 	{
 		"title": "Beurteilung der Chancengleichheit",
 		"subtitle": "«Die Chancengleichheit wird von den Behörden zielstrebig vorangetrieben.»",
-		"kuerzel": "I.50.1.4858",
+		"kuerzel": "I.50.1.04858",
 		"kuerzelKunde": "2.2.03",
 		"description": "Beurteilung der Chancengleichheit",
 		"id": 4858,
@@ -7409,8 +7508,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Beurteilung der kantonalen Verwaltung",
-		"subtitle": "«Denken Sie einmal an den letzten Kontakt, wo Sie mit der kantonalen Verwaltung gehabt haben. Wie ist dieser Kontakt verlaufen?»",
-		"kuerzel": "I.50.1.4859",
+		"subtitle": "«Denken Sie einmal an den letzten Kontakt, den Sie mit der kantonalen Verwaltung gehabt haben. Wie ist dieser Kontakt verlaufen?»",
+		"kuerzel": "I.50.1.04859",
 		"kuerzelKunde": "2.2.04",
 		"description": "Beurteilung der kantonalen Verwaltung",
 		"id": 4859,
@@ -7450,7 +7549,7 @@ var indikatoren = [
 	{
 		"title": "Beurteilung der kantonalen Steuern",
 		"subtitle": "«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen, wie sie heute sind?»",
-		"kuerzel": "I.50.1.4860",
+		"kuerzel": "I.50.1.04860",
 		"kuerzelKunde": "2.3.01",
 		"description": "Beurteilung der kantonalen Steuern",
 		"id": 4860,
@@ -7490,7 +7589,7 @@ var indikatoren = [
 	{
 		"title": "Beurteilung der eigenen wirtschaftlichen Situation",
 		"subtitle": "«Wie geht es Ihnen wirtschaftlich gesehen im Moment?»",
-		"kuerzel": "I.50.1.4861",
+		"kuerzel": "I.50.1.04861",
 		"kuerzelKunde": "2.3.02",
 		"description": "Beurteilung der eigenen wirtschaftlichen Situation",
 		"id": 4861,
@@ -7528,7 +7627,7 @@ var indikatoren = [
 	{
 		"title": "Beurteilung der Bildungschancen",
 		"subtitle": "«Alle Kinder erhalten die gleichen Bildungschancen.»",
-		"kuerzel": "I.50.1.4862",
+		"kuerzel": "I.50.1.04862",
 		"kuerzelKunde": "2.3.03",
 		"description": "Beurteilung der Bildungschancen",
 		"id": 4862,
@@ -7566,7 +7665,7 @@ var indikatoren = [
 	{
 		"title": "Anteil Steuerveranlagungen mit Zuwendungen",
 		"subtitle": "",
-		"kuerzel": "I.18.2.4863",
+		"kuerzel": "I.18.2.04863",
 		"kuerzelKunde": "3.1.01",
 		"description": "Anteil Steuerveranlagungen mit Zuwendungen",
 		"id": 4863,
@@ -7604,7 +7703,7 @@ var indikatoren = [
 	{
 		"title": "Freiwillige Tätigkeit",
 		"subtitle": "«Sind Sie in Ihrer Freizeit freiwillig tätig?»",
-		"kuerzel": "I.50.1.4864",
+		"kuerzel": "I.50.1.04864",
 		"kuerzelKunde": "3.1.02",
 		"description": "Freiwillige Tätigkeit",
 		"id": 4864,
@@ -7641,7 +7740,7 @@ var indikatoren = [
 	{
 		"title": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit im Alter",
 		"subtitle": "«Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?»",
-		"kuerzel": "I.50.4.4865",
+		"kuerzel": "I.50.4.04865",
 		"kuerzelKunde": "3.1.03",
 		"description": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit im Alter",
 		"id": 4865,
@@ -7678,7 +7777,7 @@ var indikatoren = [
 	{
 		"title": "Anzahl Anzeigen, die das Strafgesetzbuch (StGB) betreffen, pro 1000 Einwohner im Alter von 18 und mehr Jahren",
 		"subtitle": "",
-		"kuerzel": "I.19.1.4866",
+		"kuerzel": "I.19.1.04866",
 		"kuerzelKunde": "3.2.01",
 		"description": "Anzahl Anzeigen, die das Strafgesetzbuch (StGB) betreffen, pro 1000 Einwohner im Alter von 18 und mehr Jahren",
 		"id": 4866,
@@ -7716,7 +7815,7 @@ var indikatoren = [
 	{
 		"title": "Anzahl Anzeigen wegen Veruntreuung und Betrug pro 1000 Einwohner im Alter von 18 und mehr Jahren",
 		"subtitle": "",
-		"kuerzel": "I.19.1.4867",
+		"kuerzel": "I.19.1.04867",
 		"kuerzelKunde": "3.2.02",
 		"description": "Anzahl Anzeigen wegen Veruntreuung und Betrug pro 1000 Einwohner im Alter von 18 und mehr Jahren",
 		"id": 4867,
@@ -7754,7 +7853,7 @@ var indikatoren = [
 	{
 		"title": "Anzahl Anzeigen wegen Diebstahl (ohne Fahrzeugdiebstahl/-entwendung) pro 1000 Einwohner im Alter von 18 und mehr Jahren",
 		"subtitle": "",
-		"kuerzel": "I.19.1.4868",
+		"kuerzel": "I.19.1.04868",
 		"kuerzelKunde": "3.2.03",
 		"description": "Anzahl Anzeigen wegen Diebstahl (ohne Fahrzeugdiebstahl/-entwendung) pro 1000 Einwohner im Alter von 18 und mehr Jahren",
 		"id": 4868,
@@ -7792,7 +7891,7 @@ var indikatoren = [
 	{
 		"title": "Anzahl Anzeigen wegen Körperverletzung pro 1000 Einwohner im Alter von 18 und mehr Jahren",
 		"subtitle": "",
-		"kuerzel": "I.19.1.4869",
+		"kuerzel": "I.19.1.04869",
 		"kuerzelKunde": "3.2.04",
 		"description": "Anzahl Anzeigen wegen Körperverletzung pro 1000 Einwohner im Alter von 18 und mehr Jahren",
 		"id": 4869,
@@ -7830,7 +7929,7 @@ var indikatoren = [
 	{
 		"title": "Engagement in Organisationen und Vereinen",
 		"subtitle": "«Engagierst Du Dich in einer Organisation, in einem Verein oder ähnlichem?»",
-		"kuerzel": "I.50.3.4870",
+		"kuerzel": "I.50.3.04870",
 		"kuerzelKunde": "3.3.01",
 		"description": "Engagement in Organisationen und Vereinen",
 		"id": 4870,
@@ -7867,7 +7966,7 @@ var indikatoren = [
 	{
 		"title": "Wahlbeteiligung bei National- und Grossratswahlen",
 		"subtitle": "",
-		"kuerzel": "I.17.3.4871",
+		"kuerzel": "I.17.3.04871",
 		"kuerzelKunde": "3.3.02",
 		"description": "Wahlbeteiligung bei National- und Grossratswahlen",
 		"id": 4871,
@@ -7904,7 +8003,7 @@ var indikatoren = [
 	{
 		"title": "Interesse an der Politik in Basel-Stadt",
 		"subtitle": "«Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?»",
-		"kuerzel": "I.50.1.4872",
+		"kuerzel": "I.50.1.04872",
 		"kuerzelKunde": "3.3.03.A",
 		"description": "Interesse an der Politik in Basel-Stadt",
 		"id": 4872,
@@ -7943,7 +8042,7 @@ var indikatoren = [
 	{
 		"title": "Politikinteresse der über 54-Jährigen",
 		"subtitle": "«Wie stark beschäftigt Sie im Moment das Thema Politik?»",
-		"kuerzel": "I.50.4.4874",
+		"kuerzel": "I.50.4.04874",
 		"kuerzelKunde": "3.3.04",
 		"description": "Politikinteresse der über 54-Jährigen",
 		"id": 4874,
@@ -7981,7 +8080,7 @@ var indikatoren = [
 	{
 		"title": "Zufriedenheit mit Sozialkontakten im Wohnumfeld",
 		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit den Sozialkontakten im Wohnumfeld/Quartier?»",
-		"kuerzel": "I.50.4.4875",
+		"kuerzel": "I.50.4.04875",
 		"kuerzelKunde": "1.1.07",
 		"description": "Zufriedenheit mit Sozialkontakten im Wohnumfeld",
 		"id": 4875,
@@ -8020,7 +8119,7 @@ var indikatoren = [
 	{
 		"title": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeitund Alter 2015",
 		"subtitle": "",
-		"kuerzel": "I.01.5.4877",
+		"kuerzel": "I.01.5.04877",
 		"kuerzelKunde": "2-5",
 		"description": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeitund Alter 2015",
 		"id": 4877,
@@ -8065,7 +8164,7 @@ var indikatoren = [
 	{
 		"title": "Ausländische Bevölkerung nach Wohndauer und Geburtsort seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.01.1.4905",
+		"kuerzel": "I.01.1.04905",
 		"kuerzelKunde": "2-3B",
 		"description": "Ausländische Bevölkerung nach Wohndauer und Geburtsort seit 2006",
 		"id": 4905,
@@ -8110,11 +8209,10 @@ var indikatoren = [
 	{
 		"title": "Bruttowertschöpfung nach Branchengruppe in Mio. Franken",
 		"subtitle": "",
-		"kuerzel": "I.04.1.0003",
+		"kuerzel": "I.04.1.04908",
 		"kuerzelKunde": "",
-		"image": "images/I.04.1.0003.jpg",
 		"description": "Bruttowertschöpfung nach Branchengruppe in Mio. Franken",
-		"id": "4908",
+		"id": 4908,
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Basler Index der Konsumentenpreise",
 		"kennzahlenset": "",
@@ -8134,19 +8232,25 @@ var indikatoren = [
 		"lesehilfe": "Die Branchengruppe Bau und Herstellung von Waren macht mit über 12,5 Mrd. Franken im Jahr 2013 wie in sämtlichen anderen Beobachtungsjahren den grössten Anteil an der Bruttowertschöpfung des Kantons Basel-Stadt aus.",
 		"erlaeuterungen": "Bau u. Herst. v. Waren umfasst: Bergbau und Gewinnung von Steinen und Erden, Herstellung von Waren, Bau; Handel und Informationsdienstl. umfasst: Handel und Reparatur von Fahrzeugen, Transport, Informationsdienstleistungen und Telekommunikation, Beherbergung und Gastronomie; Wirtschaftl. Dienstl. u. Unterhaltung umfasst: Grundstücks- und Wohnungswesen, sonstige freiberufliche, wissenschaftliche und technische Tätigkeiten, wirtschaftliche Dienstleistungen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen; Finanzen und Versicherungen umfasst: Erbringung von Finanzdienstleistungen und Versicherungen; Versorgung und Bildung umfasst: Energieversorgung, Wasserversorgung, Sammlung, Behandlung und Beseitigung von Abfällen, Erziehung und Unterricht, Gesundheitswesen; Private Haushalte umfasst: Private Haushalte als Hersteller; Landwirtschaft umfasst: Landwirtschaft, Forstwirtschaft und Fischerei.",
 		"template": "template001",
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik BFS, Volkswirtschaftliche Gesamtrechnung"
+			"Bundesamt für Statistik (BFS), Volkswirtschaftliche Gesamtrechnung"
+		],
+		"externalLinks": [
+			""
 		],
 		"visibleInPortal": true
 	},
 	{
 		"title": "Basler Index der Konsumentenpreise seit 1982 (Dez. 1982 = 100)",
 		"subtitle": "",
-		"kuerzel": "I.05.1.0001",
+		"kuerzel": "I.05.1.04909",
 		"kuerzelKunde": "",
-		"image": "images/I.05.1.0001.jpg",
 		"description": "Basler Index der Konsumentenpreise seit 1982 (Dez. 1982 = 100)",
-		"id": "4909",
+		"id": 4909,
 		"thema": "05 Preise",
 		"unterthema": "Basler Index der Konsumentenpreise",
 		"kennzahlenset": "",
@@ -8167,19 +8271,25 @@ var indikatoren = [
 		"lesehilfe": "Seit 1983 ist das Preisniveau in Basel-Stadt um 60% gestiegen.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
+		],
+		"externalLinks": [
+			""
 		],
 		"visibleInPortal": true
 	},
 	{
 		"title": "Mittlere Jahresteuerung Basel-Stadt im Vergleich zur Schweiz",
 		"subtitle": "",
-		"kuerzel": "I.05.1.0003",
+		"kuerzel": "I.05.1.04911",
 		"kuerzelKunde": "",
-		"image": "images/I.05.1.0003.jpg",
 		"description": "Mittlere Jahresteuerung Basel-Stadt im Vergleich zur Schweiz",
-		"id": "4911",
+		"id": 4911,
 		"thema": "05 Preise",
 		"unterthema": "Basler Index der Konsumentenpreise",
 		"kennzahlenset": "",
@@ -8201,20 +8311,26 @@ var indikatoren = [
 		"lesehilfe": "Seit 2000 war die Jahresteuerung sowohl in Basel-Stadt als auch in der Schweiz vier Mal negativ, letztmals 2015 mit -1,2 bzw.  -1,1 Prozent.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
-			"Bundesamt für Statistik BFS"
+			"Bundesamt für Statistik (BFS)"
+		],
+		"externalLinks": [
+			""
 		],
 		"visibleInPortal": true
 	},
 	{
 		"title": "Anzahl Betreibungen seit 1974",
 		"subtitle": "",
-		"kuerzel": "I.06.3.0001",
+		"kuerzel": "I.06.3.04912",
 		"kuerzelKunde": "",
-		"image": "images/I.06.3.0001.jpg",
 		"description": "Anzahl Betreibungen seit 1974",
-		"id": "4912",
+		"id": 4912,
 		"thema": "06 Produktion, Handel",
 		"unterthema": "Betreibungen und Konkurse",
 		"kennzahlenset": "",
@@ -8235,19 +8351,25 @@ var indikatoren = [
 		"lesehilfe": "Seit den 1990er-Jahren hat sich die Anzahl Betreibungen im Kanton Basel-Stadt von 40 000 auf knapp 80 000 Fälle im Jahr verdoppelt.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Beitreibungs- und Konkursamt Basel-Stadt"
+		],
+		"externalLinks": [
+			""
 		],
 		"visibleInPortal": true
 	},
 	{
 		"title": "Wert der Ein- und Ausfuhren nach resp. aus Basel-Stadt in 1000 Franken",
 		"subtitle": "",
-		"kuerzel": "I.06.1.0010",
+		"kuerzel": "I.06.1.04913",
 		"kuerzelKunde": "",
-		"image": "images/I.06.1.0010.jpg",
 		"description": "Wert der Ein- und Ausfuhren nach resp. aus Basel-Stadt in 1000 Franken",
-		"id": "4913",
+		"id": 4913,
 		"thema": "06 Produktion, Handel",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "",
@@ -8268,19 +8390,25 @@ var indikatoren = [
 		"lesehilfe": "Im Vergleich zu 2000 hat der Ausfuhrüberschuss markant zugenommen. 2015 betrug der Warenwert der aus Basel-Stadt exportierten Güter das Zehnfache der Einfuhren, 2000 machte der Exportwert noch das Doppelte der Importe aus.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Zollverwaltung EZV"
+		],
+		"externalLinks": [
+			""
 		],
 		"visibleInPortal": true
 	},
 	{
 		"title": "Landwirtschaftliche Nutzfläche und Anzahl Landwirtschaftsbetriebe",
 		"subtitle": "",
-		"kuerzel": "I.07.1.0001",
+		"kuerzel": "I.07.1.04914",
 		"kuerzelKunde": "",
-		"image": "images/I.07.1.0001.jpg",
 		"description": "Landwirtschaftliche Nutzfläche und Anzahl Landwirtschaftsbetriebe",
-		"id": "4914",
+		"id": 4914,
 		"thema": "07 Landwirtschaft",
 		"unterthema": "Landwirtschaft",
 		"kennzahlenset": "",
@@ -8304,19 +8432,25 @@ var indikatoren = [
 		"lesehilfe": "Sowohl die Anzahl landwirtschaftlicher Betriebe als auch die Nutzfläche sind in den letzten Jahren tendenziell rückläufig.",
 		"erlaeuterungen": "Die landwirtschaftliche Nutzfläche eines baselstädtischen Betriebes kann auch im Ausland liegen.",
 		"template": "line001",
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik BFS, Landwirtschaftliche Strukturerhebung"
+			"Bundesamt für Statistik (BFS), Landwirtschaftliche Strukturerhebung"
+		],
+		"externalLinks": [
+			""
 		],
 		"visibleInPortal": true
 	},
 	{
 		"title": "Logiernächte nach Herkunft",
 		"subtitle": "",
-		"kuerzel": "I.10.1.0004",
+		"kuerzel": "I.10.1.04915",
 		"kuerzelKunde": "",
-		"image": "images/I.10.1.0004.jpg",
 		"description": "Logiernächte nach Herkunft",
-		"id": "4915",
+		"id": 4915,
 		"thema": "10 Tourismus",
 		"unterthema": "Hotellerie",
 		"kennzahlenset": "",
@@ -8339,19 +8473,25 @@ var indikatoren = [
 		"lesehilfe": "Seit 2008 zählt Basel-Stadt jährlich über 1 Million Logiernächte. Ein Drittel geht auf das Konto von inländischen Gästen.",
 		"erlaeuterungen": "Logiernächte: Anzahl der durch die Gäste (Kinder eingeschlossen) in einem bestimmten Hotelbetrieb verbrachten Nächte.",
 		"template": "template001",
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
+		],
+		"externalLinks": [
+			""
 		],
 		"visibleInPortal": true
 	},
 	{
 		"title": "Logiernächte und Bettenzahl",
 		"subtitle": "",
-		"kuerzel": "I.10.1.0005",
+		"kuerzel": "I.10.1.04916",
 		"kuerzelKunde": "",
-		"image": "images/I.10.1.0005.jpg",
 		"description": "Logiernächte und Bettenzahl",
-		"id": "4916",
+		"id": 4916,
 		"thema": "10 Tourismus",
 		"unterthema": "Hotellerie",
 		"kennzahlenset": "",
@@ -8373,15 +8513,22 @@ var indikatoren = [
 		"lesehilfe": "Seit 1990 haben sich sowohl die verfügbaren Betten als auch die Logiernächte verdoppelt.",
 		"erlaeuterungen": "Logiernächte: Anzahl der durch die Gäste (Kinder eingeschlossen) in einem bestimmten Hotelbetrieb verbrachten Nächte.<br/>Verfügbare Betten: Anzahl der Betten in den geöffneten Betrieben, im Durchschnitt der betreffenden Periode.",
 		"template": "line001",
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
+		],
+		"externalLinks": [
+			""
 		],
 		"visibleInPortal": true
 	},
 	{
 		"title": "Privater Motorisierungsgrad",
 		"subtitle": "Private Personenwagen pro 1000 Einwohner 2015",
-		"kuerzel": "I.11.1.0040",
+		"kuerzel": "I.11.1.04917",
 		"kuerzelKunde": "",
 		"description": "Privater Motorisierungsgrad",
 		"id": 4917,
@@ -8406,6 +8553,7 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Der Motorisierungsgrad zeigt die Anzahl privater Personenwagen auf 1000 Einwohner.",
 		"template": "dotplot",
+		"orderKey": "_000",
 		"parentId": null,
 		"children": [
 			"5130"
@@ -8422,11 +8570,11 @@ var indikatoren = [
 		"visibleInPortal": true
 	},
 	{
-		"title": "Personenwagen pro Haushalt",
+		"title": "Private Personenwagen pro Haushalt",
 		"subtitle": "Stand: 2015",
-		"kuerzel": "I.11.1.0041",
+		"kuerzel": "I.11.1.04918",
 		"kuerzelKunde": "",
-		"description": "Personenwagen pro Haushalt",
+		"description": "Private Personenwagen pro Haushalt",
 		"id": 4918,
 		"thema": "11 Verkehr",
 		"unterthema": "Motorfahrzeuge",
@@ -8450,12 +8598,15 @@ var indikatoren = [
 		"lesehilfe": "In den beiden Landgemeinden besitzen die Haushalte im Schnitt am meisten Personenwagen, in der Kleinbasler Altstadt am wenigsten.",
 		"erlaeuterungen": "",
 		"template": "dotplot",
+		"orderKey": "_000",
 		"parentId": null,
 		"children": [
-			"5131"
+			"5131",
+			"5829"
 		],
 		"renderLink": [
-			"5131"
+			"5131",
+			"5829"
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"
@@ -8468,11 +8619,10 @@ var indikatoren = [
 	{
 		"title": "Grundpfandbelastung in Mio. Franken seit 1990",
 		"subtitle": "",
-		"kuerzel": "I.12.1.0001",
+		"kuerzel": "I.12.1.04919",
 		"kuerzelKunde": "",
-		"image": "images/I.12.1.0001.jpg",
 		"description": "Grundpfandbelastung in Mio. Franken seit 1990",
-		"id": "4919",
+		"id": 4919,
 		"thema": "12 Finanzmärkte",
 		"unterthema": "Grundpfandbelastung",
 		"kennzahlenset": "",
@@ -8492,19 +8642,25 @@ var indikatoren = [
 		"lesehilfe": "Seit 1990 hat sich die Summe der Grundpfandverschreibungen von 14 auf 28 Millionen verdoppelt.",
 		"erlaeuterungen": "Zur Sicherung einer Forderung kann ein Grundstück mit einem Grundpfandrecht verpfändet werden. In Basel-Stadt kann dies in Form eines Schuldbriefs oder einer Grundpfandverschreibung erfolgen.",
 		"template": "line001",
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Grundbuch- und Vermessungsamt  Basel-Stadt"
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
+		],
+		"externalLinks": [
+			""
 		],
 		"visibleInPortal": true
 	},
 	{
-		"title": "Anzahl Besucher und Besucherinnen in Basler Museen seit 2002",
+		"title": "Anzahl Besucher und Besucherinnen in Basler Museen",
 		"subtitle": "",
-		"kuerzel": "I.16.1.0005",
+		"kuerzel": "I.16.1.04920",
 		"kuerzelKunde": "",
-		"image": "images/I.16.1.0005.jpg",
-		"description": "Anzahl Besucher und Besucherinnen in Basler Museen seit 2002",
-		"id": "4920",
+		"description": "Anzahl Besucher und Besucherinnen in Basler Museen",
+		"id": 4920,
 		"thema": "16 Kultur und Sport",
 		"unterthema": "Kultureinrichtungen",
 		"kennzahlenset": "",
@@ -8526,19 +8682,25 @@ var indikatoren = [
 		"lesehilfe": "Seit 2002 besuchen jedes Jahr weit über 1 Million Personen die Basler Museen. Ausstellungen mit internationaler Strahlkraft wirken sich - wie z. B. 2004 Tutanchamun oder 2009 Van Gogh - positiv auf die Besuchszahlen aus.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Präsidialdepartement des Kantons Basel-Stadt, Abteilung Kultur"
+		],
+		"externalLinks": [
+			""
 		],
 		"visibleInPortal": true
 	},
 	{
 		"title": "Entwicklung des Frauenanteils bei den Kandidaturen und Wahlen zum Grossen Rat seit 1968",
 		"subtitle": "",
-		"kuerzel": "I.17.3.0003",
+		"kuerzel": "I.17.3.04922",
 		"kuerzelKunde": "",
-		"image": "images/I.17.3.0003.jpg",
 		"description": "Entwicklung des Frauenanteils bei den Kandidaturen und Wahlen zum Grossen Rat seit 1968",
-		"id": "4922",
+		"id": 4922,
 		"thema": "17 Politik",
 		"unterthema": "Wahlen",
 		"kennzahlenset": "",
@@ -8560,19 +8722,25 @@ var indikatoren = [
 		"lesehilfe": "Seit Einführung des Frauenstimmrechts 1966 hat sich der Frauenanteil unter den Grossratskandidierenden von anfangs einem Fünftel bis im Jahr 1996 verdoppelt und ging bis 2012 kontinuierlich zurück. Die Entwicklung der Frauenvertretung im basel-städtischen Kantonsparlament war 2012 nach einer längeren Wachstumsphase erstmals wieder rückläufig.",
 		"erlaeuterungen": "Der Grosse Rat umfasst seit den Gesamterneuerungswahlen 2008 gemäss der neuen, 2005 vom Basler Stimmvolk verabschiedeten Kantonsverfassung nur noch 100 Grossratssitze.",
 		"template": "template001",
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Staatskanzlei Basel-Stadt"
+		],
+		"externalLinks": [
+			""
 		],
 		"visibleInPortal": true
 	},
 	{
 		"title": "Anzahl Gewaltstraftaten pro 100000 Einwohner",
 		"subtitle": "",
-		"kuerzel": "I.19.3.0003",
+		"kuerzel": "I.19.3.04923",
 		"kuerzelKunde": "",
-		"image": "images/I.19.3.0003.jpg",
 		"description": "Anzahl Gewaltstraftaten pro 100000 Einwohner",
-		"id": "4923",
+		"id": 4923,
 		"thema": "19 Rechtspflege",
 		"unterthema": "Strafvollzug",
 		"kennzahlenset": "",
@@ -8592,15 +8760,22 @@ var indikatoren = [
 		"lesehilfe": "Die Zahl der Gewaltstraftaten (vorsätzliche Tötungs- und Körperverletzungsdelikte, Raub, Vergewaltigung) pro 100 000 Einwohner der mittleren Wohnbevölkerung ging von 2005 bis 2007 zurück. Danach stieg die Zahl bis zum Jahr 2011 kontinuierlich. Seither wird wieder ein Rückgang verzeichnet.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik BFS, Polizeiliche Kriminalstatistik (PKS)"
+			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
+		],
+		"externalLinks": [
+			""
 		],
 		"visibleInPortal": true
 	},
 	{
 		"title": "Gedanken über die Arbeitsstelle",
 		"subtitle": "«Machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?»",
-		"kuerzel": "I.50.1.4931",
+		"kuerzel": "I.50.1.04931",
 		"kuerzelKunde": "1.1.08.A",
 		"description": "Gedanken über die Arbeitsstelle",
 		"id": 4931,
@@ -8638,7 +8813,7 @@ var indikatoren = [
 	{
 		"title": "Gründe für Gedanken über die Arbeitsstelle",
 		"subtitle": "«Warum machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?»",
-		"kuerzel": "I.50.1.4932",
+		"kuerzel": "I.50.1.04932",
 		"kuerzelKunde": "1.1.08.B",
 		"description": "Gründe für Gedanken über die Arbeitsstelle",
 		"id": 4932,
@@ -8678,7 +8853,7 @@ var indikatoren = [
 	{
 		"title": "Politikinteresse der unter 30-Jährigen",
 		"subtitle": "«Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?» – nur Befragte im Alter zwischen 18 und 29 Jahren",
-		"kuerzel": "I.50.1.4933",
+		"kuerzel": "I.50.1.04933",
 		"kuerzelKunde": "3.3.03.B",
 		"description": "Politikinteresse der unter 30-Jährigen",
 		"id": 4933,
@@ -8717,11 +8892,10 @@ var indikatoren = [
 	{
 		"title": "Hospitalisierungen in baselstädtischen Spitälern nach Hauptbereich",
 		"subtitle": "",
-		"kuerzel": "I.14.1.0002",
+		"kuerzel": "I.14.1.04947",
 		"kuerzelKunde": "",
-		"image": "images/I.14.1.0002.jpg",
 		"description": "Hospitalisierungen in baselstädtischen Spitälern nach Hauptbereich",
-		"id": "4947",
+		"id": 4947,
 		"thema": "14 Gesundheit",
 		"unterthema": "Spitäler",
 		"kennzahlenset": "",
@@ -8741,20 +8915,26 @@ var indikatoren = [
 		"lesehilfe": "Die akutsomatischen Fälle in baselstädtischen Spitälern nahmen von 2008 bis 2015 um 16% auf 63 800 zu. Mit einer Zunahme von 39% verzeichnete der Hauptbereich Rehabilitation die grösste Veränderung im Beobachtungszeitraum.",
 		"erlaeuterungen": "Gezählt werden stationäre Austritte innerhalb eines Jahres.",
 		"template": "template001",
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gesundheitsstatistik",
-			"Bundesamt für Statistik BFS, medizinische Statistik der Krankenhäuser"
+			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik",
+			"Bundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser"
+		],
+		"externalLinks": [
+			""
 		],
 		"visibleInPortal": true
 	},
 	{
 		"title": "Pflegetage in baselstädtischen Spitälern nach Hauptbereich",
 		"subtitle": "",
-		"kuerzel": "I.14.1.0003",
+		"kuerzel": "I.14.1.04948",
 		"kuerzelKunde": "",
-		"image": "images/I.14.1.0003.jpg",
 		"description": "Pflegetage in baselstädtischen Spitälern nach Hauptbereich",
-		"id": "4948",
+		"id": 4948,
 		"thema": "14 Gesundheit",
 		"unterthema": "Spitäler",
 		"kennzahlenset": "",
@@ -8774,47 +8954,23 @@ var indikatoren = [
 		"lesehilfe": "Die Anzahl Pflegetage im Hauptbereich Geriatrie gingen von 2008 bis 2015 um über 38% auf 85 000 zurück. In den übrigen Hauptbereichen wurde im selben Zeitraum eine Zunahme der Pflegetage verzeichnet. Das grösste Plus wurde im Bereich Rehabilitation (+24%) registriert. Die Gesamtzahl der Pflegetage in Basler Spitälern betrug 2015 rund 747 600 und damit 5% weniger als noch 2008.",
 		"erlaeuterungen": "Die Berechnungsmethode wurde rückwirkend ab 2012 angepasst. Deshalb können sich die Werte von früher an dieser Stelle publizierten Werten unterscheiden. Neu werden gemäss SwissDRG bei Fallzusammenführungen (Wiedereintritt mit identischer Hauptdiagnosegruppe innerhalb von 18 Tagen) die zwischen Aus- und Wiedereintritt liegenden Tage nicht mehr als Pflegetage gezählt.",
 		"template": "template001",
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Gesundheitsstatistik",
-			"Bundesamt für Statistik BFS, medizinische Statistik der Krankenhäuser"
+			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik",
+			"Bundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser"
 		],
-		"visibleInPortal": true
-	},
-	{
-		"title": "Endenergieverbrauch nach Verbrauchergruppe in Mio. kWh",
-		"subtitle": "",
-		"kuerzel": "I.08.1.0028",
-		"kuerzelKunde": "",
-		"image": "images/I.08.1.0028.jpg",
-		"description": "Endenergieverbrauch nach Verbrauchergruppe in Mio. kWh",
-		"id": "4953",
-		"thema": "08 Energie",
-		"unterthema": "Verbrauch",
-		"kennzahlenset": "",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Umwelt"
-		],
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2014 um 16% auf 4 630 Mio. kWh abgenommen. Der Rückgang verteilt sich gleichmässig auf die Verbrauchergruppen Wohnen und Nichtwohnen und ist primär der milden Witterung geschuldet. Das Jahr 2014 hatte rund 17% weniger Heizgradtage als das Jahr 2012.",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Energiestatistik"
+		"externalLinks": [
+			""
 		],
 		"visibleInPortal": true
 	},
 	{
 		"title": "Transnationale Patentanmeldungen pro 1000 Einwohner",
 		"subtitle": "nach ausgewählten Wirtschaftsbranchen;  Stand 2010 bis 2013",
-		"kuerzel": "I.04.1.5033",
+		"kuerzel": "I.04.1.05033",
 		"kuerzelKunde": "3.6",
 		"description": "Transnationale Patentanmeldungen pro 1000 Einwohner",
 		"id": 5033,
@@ -8856,7 +9012,7 @@ var indikatoren = [
 	{
 		"title": "Neugründungen in Basel-Stadt",
 		"subtitle": "in ausgewählten Branchen",
-		"kuerzel": "I.03.2.5041",
+		"kuerzel": "I.03.2.05041",
 		"kuerzelKunde": "2.3",
 		"description": "Neugründungen in Basel-Stadt",
 		"id": 5041,
@@ -8881,7 +9037,9 @@ var indikatoren = [
 		"template": "template001",
 		"orderKey": "02_00_00_00_00_003",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6369"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
@@ -8894,7 +9052,7 @@ var indikatoren = [
 	{
 		"title": "Anteil PV-Beziehende mit Sozialhilfe und Ergänzungsleistungen an der Bevölkerung",
 		"subtitle": "",
-		"kuerzel": "I.13.2.5066",
+		"kuerzel": "I.13.2.05066",
 		"kuerzelKunde": "11.1",
 		"description": "Anteil PV-Beziehende mit Sozialhilfe und Ergänzungsleistungen an der Bevölkerung",
 		"id": 5066,
@@ -8935,7 +9093,7 @@ var indikatoren = [
 	{
 		"title": "Sozialhilfequote",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.13.3.5109",
+		"kuerzel": "I.13.3.05109",
 		"kuerzelKunde": "GS-1.B",
 		"description": "Sozialhilfequote",
 		"id": 5109,
@@ -8974,7 +9132,7 @@ var indikatoren = [
 	{
 		"title": "Anteil Ausländer",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.1.5110",
+		"kuerzel": "I.01.1.05110",
 		"kuerzelKunde": "GS-2.B",
 		"description": "Anteil Ausländer",
 		"id": 5110,
@@ -9013,7 +9171,7 @@ var indikatoren = [
 	{
 		"title": "Anteil Personen ohne Religionszugehörigkeit",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.7.5111",
+		"kuerzel": "I.01.7.05111",
 		"kuerzelKunde": "GS-3.B",
 		"description": "Anteil Personen ohne Religionszugehörigkeit",
 		"id": 5111,
@@ -9052,7 +9210,7 @@ var indikatoren = [
 	{
 		"title": "Anteil Personen in Einpersonenhaushalten",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.2.5112",
+		"kuerzel": "I.01.2.05112",
 		"kuerzelKunde": "GS-4.B",
 		"description": "Anteil Personen in Einpersonenhaushalten",
 		"id": 5112,
@@ -9091,7 +9249,7 @@ var indikatoren = [
 	{
 		"title": "Gymnasialquote",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.15.6.5113",
+		"kuerzel": "I.15.6.05113",
 		"kuerzelKunde": "GS-5.B",
 		"description": "Gymnasialquote",
 		"id": 5113,
@@ -9131,7 +9289,7 @@ var indikatoren = [
 	{
 		"title": "Altersquotient",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.1.5114",
+		"kuerzel": "I.01.1.05114",
 		"kuerzelKunde": "GS-6.B",
 		"description": "Altersquotient",
 		"id": 5114,
@@ -9171,7 +9329,7 @@ var indikatoren = [
 	{
 		"title": "Sesshaftigkeit",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.1.5115",
+		"kuerzel": "I.01.1.05115",
 		"kuerzelKunde": "GS-7.B",
 		"description": "Sesshaftigkeit",
 		"id": 5115,
@@ -9210,7 +9368,7 @@ var indikatoren = [
 	{
 		"title": "Jugendquotient",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.1.5116",
+		"kuerzel": "I.01.1.05116",
 		"kuerzelKunde": "GS-8.B",
 		"description": "Jugendquotient",
 		"id": 5116,
@@ -9250,7 +9408,7 @@ var indikatoren = [
 	{
 		"title": "Baujahr Wohngebäude",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.09.1.5117",
+		"kuerzel": "I.09.1.05117",
 		"kuerzelKunde": "RU-1.B",
 		"description": "Baujahr Wohngebäude",
 		"id": 5117,
@@ -9290,7 +9448,7 @@ var indikatoren = [
 	{
 		"title": "Anteil Einfamilienhäuser",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.09.1.5118",
+		"kuerzel": "I.09.1.05118",
 		"kuerzelKunde": "RU-2.B",
 		"description": "Anteil Einfamilienhäuser",
 		"id": 5118,
@@ -9329,7 +9487,7 @@ var indikatoren = [
 	{
 		"title": "Anteil Grünflächen",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.02.1.5119",
+		"kuerzel": "I.02.1.05119",
 		"kuerzelKunde": "RU-3.B",
 		"description": "Anteil Grünflächen",
 		"id": 5119,
@@ -9368,7 +9526,7 @@ var indikatoren = [
 	{
 		"title": "Fläche pro Wohnung",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.09.1.5120",
+		"kuerzel": "I.09.1.05120",
 		"kuerzelKunde": "RU-4.B",
 		"description": "Fläche pro Wohnung",
 		"id": 5120,
@@ -9407,7 +9565,7 @@ var indikatoren = [
 	{
 		"title": "Wohnfläche pro Kopf",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.09.1.5121",
+		"kuerzel": "I.09.1.05121",
 		"kuerzelKunde": "RU-5.B",
 		"description": "Wohnfläche pro Kopf",
 		"id": 5121,
@@ -9447,7 +9605,7 @@ var indikatoren = [
 	{
 		"title": "Vermögenssteuer pro Veranlagung",
 		"subtitle": "Stand: Steuerjahr 2014",
-		"kuerzel": "I.18.2.5122",
+		"kuerzel": "I.18.2.05122",
 		"kuerzelKunde": "WA-1.B",
 		"description": "Vermögenssteuer pro Veranlagung",
 		"id": 5122,
@@ -9486,7 +9644,7 @@ var indikatoren = [
 	{
 		"title": "Einkommenssteuer pro Veranlagung",
 		"subtitle": "Stand: Steuerjahr 2014",
-		"kuerzel": "I.18.2.5123",
+		"kuerzel": "I.18.2.05123",
 		"kuerzelKunde": "WA-2.B",
 		"description": "Einkommenssteuer pro Veranlagung",
 		"id": 5123,
@@ -9525,7 +9683,7 @@ var indikatoren = [
 	{
 		"title": "Erwerbstätigenquote",
 		"subtitle": "Stand: gepoolte Daten 2010 - 2014",
-		"kuerzel": "I.03.1.5124",
+		"kuerzel": "I.03.1.05124",
 		"kuerzelKunde": "WA-3.B",
 		"description": "Erwerbstätigenquote",
 		"id": 5124,
@@ -9564,7 +9722,7 @@ var indikatoren = [
 	{
 		"title": "Arbeitsplätze pro Kopf",
 		"subtitle": "Stand: 2014",
-		"kuerzel": "I.03.2.5125",
+		"kuerzel": "I.03.2.05125",
 		"kuerzelKunde": "WA-4.B",
 		"description": "Arbeitsplätze pro Kopf",
 		"id": 5125,
@@ -9603,7 +9761,7 @@ var indikatoren = [
 	{
 		"title": "Arbeitslosenquote",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.03.4.5126",
+		"kuerzel": "I.03.4.05126",
 		"kuerzelKunde": "WA-5.B",
 		"description": "Arbeitslosenquote",
 		"id": 5126,
@@ -9644,7 +9802,7 @@ var indikatoren = [
 	{
 		"title": "Privater Motorisierungsgrad",
 		"subtitle": "Private Personenwagen pro 1000 Einwohner 2015",
-		"kuerzel": "I.11.1.0042",
+		"kuerzel": "I.11.1.05130",
 		"kuerzelKunde": "",
 		"description": "Privater Motorisierungsgrad",
 		"id": 5130,
@@ -9669,6 +9827,7 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Der Motorisierungsgrad zeigt die Anzahl privater Personenwagen auf 1000 Einwohner.",
 		"template": "map001",
+		"orderKey": "_000",
 		"parentId": 4917,
 		"children": [],
 		"renderLink": [
@@ -9683,11 +9842,11 @@ var indikatoren = [
 		"visibleInPortal": true
 	},
 	{
-		"title": "Personenwagen pro Haushalt",
+		"title": "Private Personenwagen pro Haushalt",
 		"subtitle": "Stand: 2015",
-		"kuerzel": "I.11.1.0043",
+		"kuerzel": "I.11.1.05131",
 		"kuerzelKunde": "",
-		"description": "Personenwagen pro Haushalt",
+		"description": "Private Personenwagen pro Haushalt",
 		"id": 5131,
 		"thema": "11 Verkehr",
 		"unterthema": "Motorfahrzeuge",
@@ -9708,9 +9867,10 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "In den beiden Landgemeinden besitzen die Haushalte im Schnitt am meisten Personenwagen, in der Kleinbasler Altstadt am wenigsten.",
 		"erlaeuterungen": "",
 		"template": "map001",
+		"orderKey": "_000",
 		"parentId": 4918,
 		"children": [],
 		"renderLink": [
@@ -9718,6 +9878,9 @@ var indikatoren = [
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt; Motorfahrzeugkontrolle Basel-Stadt"
+		],
+		"externalLinks": [
+			""
 		],
 		"visibleInPortal": true
 	},
@@ -9876,7 +10039,8 @@ var indikatoren = [
 			"Amt für Wald beider Basel"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-wald/wald/waldentwicklung' target = '_blank'>Waldplanung (Amt für Wald beider Basel)</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1504' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -9913,7 +10077,8 @@ var indikatoren = [
 			"Bundesamt für Statistik (BFS)"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/arealstatistik/01.html' target='_blank'>Arealstatistik Schweiz (BFS)</a></li><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1501' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
+			"<a href = 'http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/arealstatistik/01.html' target = '_blank'>Arealstatistik Schweiz (BFS)</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1501' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -9950,7 +10115,8 @@ var indikatoren = [
 			"Bundesamt für Statistik (BFS)"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/land-forstwirtschaft/erhebungen/stru.html' target = '_blank'>Landwirtschaftliche Strukturerhebung (BFS)</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0511' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -9987,7 +10153,8 @@ var indikatoren = [
 			"Amt für Wald beider Basel"
 		],
 		"externalLinks": [
-			""
+			"Mehr unter:<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/land-forstwirtschaft/erhebungen/fs.html' target = '_blank'>Schweizerische Forststatistik (BFS)</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1503' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"visibleInPortal": false
 	},
@@ -10069,7 +10236,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"visibleInPortal": false
+		"visibleInPortal": true
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
@@ -10274,7 +10441,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Bewertung der Lebensqualität",
-		"subtitle": "",
+		"subtitle": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?»",
 		"kuerzel": "I.50.1.05821",
 		"kuerzelKunde": "ST 5-2",
 		"description": "Bewertung der Lebensqualität",
@@ -10299,8 +10466,9 @@ var indikatoren = [
 		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.<br>2003: N=1477, 2005: N=1500, 2007: N=1500, 2011: N=1513, 2015: N=1489.",
 		"template": "befragungenProzent001",
 		"orderKey": "01_02_00_00_00_002",
-		"parentId": 5037,
+		"parentId": null,
 		"children": [
+			"5165",
 			"6110",
 			"6252"
 		],
@@ -10436,7 +10604,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Kontinentale Erreichbarkeit",
-		"subtitle": "Basel im Vergleich",
+		"subtitle": "Stadt Basel im nationalen Vergleich",
 		"kuerzel": "I.11.2.05891",
 		"kuerzelKunde": "ST 8-1",
 		"description": "Kontinentale Erreichbarkeit",
@@ -10463,7 +10631,7 @@ var indikatoren = [
 		"erlaeuterungen": "Kontinentale Erreichbarkeit = Erreichbarkeit aller Regionen Europas. Bei der Kennzahl handelt es sich um einen indexierten Wert: 100 = Mittel aller einbezogenen Ursprungsregionen im Jahr 2002. Erreichbarkeit ist kein klares, lineares Konzept. Vielmehr beruht es auf einer Vielzahl von Faktoren, die unter dem Themenbereich Erreichbarkeit subsumiert werden können. Die Erreichbarkeitsmodelle von BAK Economics basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren. Zudem folgen sie dem Konzept der Erreichbarkeit «aus der Region» (outbound accessibility), d.h. es wird die Reisezeit und Frequenz herangezogen, die benötigt wird, um aus der Region andere Regionen zu erreichen. Der resultierende Indikator reflektiert das gesamte Potenzial aller Regionen ohne jegliche Limitierung der Reisezeit. Jedoch werden die Reisedestinationen über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet.",
 		"template": "line001",
 		"orderKey": "02_05_00_00_00_001",
-		"parentId": 3104,
+		"parentId": null,
 		"children": [
 			"6119",
 			"6256"
@@ -10475,7 +10643,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"visibleInPortal": false
+		"visibleInPortal": true
 	},
 	{
 		"title": "Index der Bevölkerungs- und Beschäftigtenentwicklung",
@@ -10520,7 +10688,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Verkehrsleistungsindex",
-		"subtitle": "",
+		"subtitle": "Indexwert (Basis 2010 = 100)",
 		"kuerzel": "I.02.6.06007",
 		"kuerzelKunde": "ST 6-2",
 		"description": "Verkehrsleistungsindex",
@@ -10544,7 +10712,7 @@ var indikatoren = [
 		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet.<br/> <br/>Autoverkehr: Der Index für den motorisierten Individualverkehr (MIV) berechnet sich anhand von rund 35 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamts für Strassen. Der Index umfasst die Verkehrsleistung aller Motorfahrzeuge (inkl. Lastwagen, Lieferwagen, Motorrädern), aber ohne Linienbusse, Motorfahrräder und E-Bikes.<br/><br/>Veloverkehr: Der Index für den Veloverkehr wird auf Basis von rund 20 Zählstellen des Kantons Basel-Stadt berechnet. Da der Veloverkehr stark wetterabhängig ist, wurde vom Statistischen Amt des Kantons Basel-Stadt ein Modell entwickelt, welches es zulässt, den Wettereinfluss aus der Verkehrsentwicklung herauszurechnen.<br/><br/>Fussverkehr: Der Index für den Fussverkehr basiert auf rund 17 Zählstellen. Die Daten werden erst seit dem Jahr 2013 erhoben.<br/><br/>Öffentlicher Verkehr (ÖV): Der Index des öffentlichen Verkehrs wird auf Basis der Verkehrsdaten von Tram- und Buslinien der BVB und der BLT und den S-Bahnen (nur alle zwei Jahre), abgegrenzt auf das Gebiet des Kantons Basel-Stadt, berechnet. Der Gesamtindex für den ÖV kann im jeweiligen Jahr erst im Herbst veröffentlicht werden, sobald die Daten für die S-Bahnen vorliegen.<br/> <br/>Aus der Veränderung an den Zählstellen wird die Veränderung auf dem ganzen Kantonsgebiet abgeleitet, indem jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet wird.<br/> <br/>Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1705' target='_blank'>Umweltbericht beider Basel</a>.",
 		"template": "line001",
 		"orderKey": "01_03_00_00_00_002",
-		"parentId": null,
+		"parentId": 6154,
 		"children": [
 			"6123",
 			"6258"
@@ -10556,7 +10724,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"visibleInPortal": true
+		"visibleInPortal": false
 	},
 	{
 		"title": "Leerwohnungsquote",
@@ -10582,15 +10750,15 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2017 in Bettingen verzeichnet.",
 		"erlaeuterungen": "Stichtag ist der 1. Juni.",
-		"template": "mappie001",
-		"orderKey": "08_00_00_00_00_001",
+		"template": "map001",
+		"orderKey": "_000",
 		"parentId": null,
 		"children": [
 			"5814"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Leerstandserhebung"
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
 		"externalLinks": [
 			""
@@ -10626,8 +10794,9 @@ var indikatoren = [
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"template": "line001",
 		"orderKey": "02_00_00_00_00_001",
-		"parentId": 6045,
+		"parentId": null,
 		"children": [
+			"6045",
 			"6282"
 		],
 		"renderLink": [],
@@ -10667,8 +10836,9 @@ var indikatoren = [
 		"erlaeuterungen": "Der Kantonale Wettbewerbsindikator (KWI) gibt Aufschluss über das relative längerfristige Wachstumspotenzial eines Kantons. Die Wettbewerbsfähigkeit eines Kantons beschreibt sein Potenzial für eine nachhaltige Steigerung seiner Wirtschaftsleistung. Kantone mit einer hohen relativen Wettbewerbsfähigkeit dürften längerfristig stärker wachsen als die Schweizer Gesamtwirtschaft. Hingegen ist in Kantonen mit einer tiefen relativen Wettbewerbsfähigkeit mit einem unterdurchschnittlichen Wachstum zu rechnen. Der KWI basiert auf der vergleichenden Analyse von acht Säulen mit insgesamt über 50 Variablen. Die Variablen werden gewichtet, aggregiert und normiert, sodass jeder Kanton für jede Säule eine Punktzahl zwischen 0 und 100 erhält. Zur Ermittlung des KWI wird für jeden Kanton der Durchschnitt aus den Punktzahlen der acht Säulen errechnet und so normiert, dass der höchste kantonale Durchschnittswert 100 beträgt.",
 		"template": "template001",
 		"orderKey": "01_00_00_00_00_001",
-		"parentId": 6050,
+		"parentId": null,
 		"children": [
+			"6050",
 			"6283"
 		],
 		"renderLink": [],
@@ -10722,12 +10892,12 @@ var indikatoren = [
 	{
 		"title": "Steuereinnahmen aus Quellensteuer",
 		"subtitle": "in Franken",
-		"kuerzel": "I.04.1.06128",
+		"kuerzel": "I.18.2.06128",
 		"kuerzelKunde": "1.4",
 		"description": "Steuereinnahmen aus Quellensteuer",
 		"id": 6128,
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Volkseinkommen",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -10786,7 +10956,6 @@ var indikatoren = [
 		"orderKey": "02_00_00_00_00_006",
 		"parentId": null,
 		"children": [
-			"6157",
 			"6286"
 		],
 		"renderLink": [],
@@ -10801,12 +10970,12 @@ var indikatoren = [
 	{
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
 		"subtitle": "in Franken; Kapital und Reserven: 2 Mio. Fr.; Reingewinn: 80 000 Fr.",
-		"kuerzel": "I.04.1.06130",
+		"kuerzel": "I.18.2.06130",
 		"kuerzelKunde": "2.11a",
 		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
 		"id": 6130,
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Volkseinkommen",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -10868,6 +11037,12 @@ var indikatoren = [
 		"orderKey": "02_00_00_00_00_008",
 		"parentId": null,
 		"children": [
+			"5161",
+			"5193",
+			"6138",
+			"6170",
+			"6172",
+			"6184",
 			"6288"
 		],
 		"renderLink": [],
@@ -10882,12 +11057,12 @@ var indikatoren = [
 	{
 		"title": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
 		"subtitle": "in Mio. Franken",
-		"kuerzel": "I.04.1.06132",
+		"kuerzel": "I.18.2.06132",
 		"kuerzelKunde": "2.10",
 		"description": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
 		"id": 6132,
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Volkseinkommen",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -10905,8 +11080,9 @@ var indikatoren = [
 		"erlaeuterungen": "Steuereinnahmen gemäss Jahresrechung des Kantons Basel-Stadt; direkte Steuern natürlicher und juristischer Personen. Im Gegensatz zur Steuerstatistik auf das Kalenderjahr bezogen, nicht auf das Steuerjahr.",
 		"template": "line001",
 		"orderKey": "02_00_00_00_00_010",
-		"parentId": 5162,
+		"parentId": null,
 		"children": [
+			"5162",
 			"6289"
 		],
 		"renderLink": [],
@@ -11025,8 +11201,9 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "befragungen001",
 		"orderKey": "03_00_00_00_00_004",
-		"parentId": 5191,
+		"parentId": null,
 		"children": [
+			"5191",
 			"6292"
 		],
 		"renderLink": [],
@@ -11066,8 +11243,9 @@ var indikatoren = [
 		"erlaeuterungen": "Die Arbeitslosenquote berechnet sich folgendermassen: Registrierte Arbeitslose geteilt durch Erwerbspersonen mal 100.",
 		"template": "line001",
 		"orderKey": "03_00_00_00_00_005",
-		"parentId": 6053,
+		"parentId": null,
 		"children": [
+			"6053",
 			"6293"
 		],
 		"renderLink": [],
@@ -11109,7 +11287,7 @@ var indikatoren = [
 		"erlaeuterungen": "Seit 2008 verwendet die Eidgenössischen Finanzverwaltung (EFV) wegen des Neuen Finanzausgleichs in der Finanzstatistik ein neues Sektorisierungskonzept an, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
 		"template": "template001",
 		"orderKey": "03_00_00_00_00_006",
-		"parentId": 5161,
+		"parentId": 6131,
 		"children": [
 			"6294"
 		],
@@ -11120,7 +11298,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"visibleInPortal": true
+		"visibleInPortal": false
 	},
 	{
 		"title": "Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft",
@@ -11151,8 +11329,9 @@ var indikatoren = [
 		"erlaeuterungen": "Revidierte Zahlen zu den Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft für das Jahr 2012. Die Grossregion Genferseeregion umfasst die Kantone Waadt, Wallis und Genf. Die Grossregion Nordwestschweiz beinhaltet die Kantone Basel-Stadt, Basel-Landschaft und Aargau. Die Grossregion Zürich entspricht dem Kanton Zürich. BIP = Bruttoinlandprodukt.",
 		"template": "template001",
 		"orderKey": "03_00_00_00_00_008",
-		"parentId": 6049,
+		"parentId": null,
 		"children": [
+			"6049",
 			"6295"
 		],
 		"renderLink": [],
@@ -11192,8 +11371,9 @@ var indikatoren = [
 		"erlaeuterungen": "Als innovative Branchen gelten: Herstellung von chemischen (20) und pharmazeutischen Produkten (21), Gummi- und Kunststoffwaren (22), elektronischen und optischen Produkten (26), elektrischen Ausrüstungen (27), Maschinenbau (28), sonstiger Fahrzeugbau (30), Herstellung von medizinischen und zahnmedizinischen Apparaten und Materialien (325), Reparatur und Installation von Maschinen und Ausrüstungen (33), Forschung und Entwicklung (72).",
 		"template": "template001",
 		"orderKey": "03_00_00_00_00_009",
-		"parentId": 6048,
+		"parentId": null,
 		"children": [
+			"6048",
 			"6296"
 		],
 		"renderLink": [],
@@ -11310,8 +11490,9 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "befragungen001",
 		"orderKey": "04_00_00_00_00_005",
-		"parentId": 6034,
+		"parentId": null,
 		"children": [
+			"6034",
 			"6299"
 		],
 		"renderLink": [],
@@ -11352,8 +11533,9 @@ var indikatoren = [
 		"erlaeuterungen": "Diese Ergebnisse basieren auf einer Sonderauswertung der LSE für Basel-Stadt. Die Zahlen 2012 und 2014 sind statistisch unsicher (Variationskoeffizient grösser als 5%). Grundlage ist der Median des monatlichen Bruttolohns, standardisiert, im privaten Sektor (ohne Landwirtschaft).",
 		"template": "line001",
 		"orderKey": "04_00_00_00_00_006",
-		"parentId": 6037,
+		"parentId": null,
 		"children": [
+			"6037",
 			"6300"
 		],
 		"renderLink": [],
@@ -11394,7 +11576,7 @@ var indikatoren = [
 		"erlaeuterungen": "Die Ergebnisse basieren auf der Hochrechnung einer Stichprobenerhebung von rund 1 500 in Basel-Stadt wohnhaften Personen. Bei der Interpretation der Ergebnisse muss die Unsicherheit von Stichprobenerhebungen berücksichtigt werden.",
 		"template": "line001",
 		"orderKey": "04_00_00_00_00_007",
-		"parentId": 6038,
+		"parentId": null,
 		"children": [
 			"6301"
 		],
@@ -11438,8 +11620,9 @@ var indikatoren = [
 		"erlaeuterungen": "Die Einbürgerungsziffer wird folgendermassen berechent: Anzahl ordentlich eingebürgerte Ausländer pro 1000 Ausländer der mittleren Wohnbevölkerung; jeweils für Männer und Frauen.",
 		"template": "line001",
 		"orderKey": "04_00_00_00_00_008",
-		"parentId": 6043,
+		"parentId": null,
 		"children": [
+			"6043",
 			"6302"
 		],
 		"renderLink": [],
@@ -11479,8 +11662,9 @@ var indikatoren = [
 		"erlaeuterungen": "Mittelwert und Median werden pro Veranlagung berechnet.",
 		"template": "line001",
 		"orderKey": "04_00_00_00_00_009",
-		"parentId": 6054,
+		"parentId": null,
 		"children": [
+			"6054",
 			"6303"
 		],
 		"renderLink": [],
@@ -11518,7 +11702,7 @@ var indikatoren = [
 		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "befragungen001",
 		"orderKey": "04_00_00_00_00_010",
-		"parentId": 5165,
+		"parentId": null,
 		"children": [
 			"6304"
 		],
@@ -11560,6 +11744,7 @@ var indikatoren = [
 		"orderKey": "04_00_00_00_00_014",
 		"parentId": null,
 		"children": [
+			"6078",
 			"6305"
 		],
 		"renderLink": [],
@@ -11597,8 +11782,10 @@ var indikatoren = [
 		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet.<br/> <br/>Autoverkehr: Der Index für den motorisierten Individualverkehr (MIV) berechnet sich anhand von rund 35 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamts für Strassen. Der Index umfasst die Verkehrsleistung aller Motorfahrzeuge (inkl. Lastwagen, Lieferwagen, Motorrädern), aber ohne Linienbusse, Motorfahrräder und E-Bikes.<br/><br/>Veloverkehr: Der Index für den Veloverkehr wird auf Basis von rund 20 Zählstellen des Kantons Basel-Stadt berechnet. Da der Veloverkehr stark wetterabhängig ist, wurde vom Statistischen Amt des Kantons Basel-Stadt ein Modell entwickelt, welches es zulässt, den Wettereinfluss aus der Verkehrsentwicklung herauszurechnen.<br/><br/>Fussverkehr: Der Index für den Fussverkehr basiert auf rund 17 Zählstellen. Die Daten werden erst seit dem Jahr 2013 erhoben.<br/><br/>Öffentlicher Verkehr (ÖV): Der Index des öffentlichen Verkehrs wird auf Basis der Verkehrsdaten von Tram- und Buslinien der BVB und der BLT und den S-Bahnen (nur alle zwei Jahre), abgegrenzt auf das Gebiet des Kantons Basel-Stadt, berechnet. Der Gesamtindex für den ÖV kann im jeweiligen Jahr erst im Herbst veröffentlicht werden, sobald die Daten für die S-Bahnen vorliegen.<br/> <br/>Aus der Veränderung an den Zählstellen wird die Veränderung auf dem ganzen Kantonsgebiet abgeleitet, indem jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet wird.<br/> <br/>Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1705' target='_blank'>Umweltbericht beider Basel</a>.",
 		"template": "line001",
 		"orderKey": "05_00_00_00_00_002",
-		"parentId": 4319,
+		"parentId": null,
 		"children": [
+			"4319",
+			"6007",
 			"6306"
 		],
 		"renderLink": [],
@@ -11693,7 +11880,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Luftqualität: Langzeitbelastung der Luft - Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10)",
-		"subtitle": "in Mikrogramm pro m3",
+		"subtitle": "in Mikrogramm pro m<sup>3</sup>",
 		"kuerzel": "I.02.5.06157",
 		"kuerzelKunde": "7.7",
 		"description": "Luftqualität: Langzeitbelastung der Luft - Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10)",
@@ -11713,12 +11900,13 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Sowohl die Stickstoffdioxid- als auch die Feinstaubkonzentrationen lagen 2016 mit 25 resp. 16 Mikrogramm pro Kubikmeter unter dem jeweiligen Grenzwert.",
-		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung. Stickoxide (NOx) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Sie sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und - zusammen mit flüchtigen organischen Verbindungen - von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege. Unter Feinstaub (PM10) versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, Nox, NH<sub>3</sub>, VOC). Feinstaub (PM10) ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub (PM10) 20 μg/m3. Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen im Kanton Basel-Stadt: St. Johanns-Platz (PM10, NO<sub>2</sub>), Spalenring (NO2), Dreirosenbrücke Süd (NO<sub>2</sub>). Für Details zu den Stationen siehe Link «Luftqualität in der Nordwestschweiz» unter weiterführende Informationen.",
+		"lesehilfe": "Sowohl die Stickstoffdioxid- als auch die Feinstaubkonzentrationen lagen 2016 mit 27,8 resp. 16,1 Mikrogramm pro Kubikmeter unter dem jeweiligen Grenzwert.",
+		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung. <br><br>Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Sie sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und - zusammen mit flüchtigen organischen Verbindungen - von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege. <br><br>Unter Feinstaub (PM10) versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub (PM10) ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub (PM10) 20 μg/m<sup>3</sup>. <br><br>Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen im Kanton Basel-Stadt: St. Johanns-Platz (PM10, NO<sub>2</sub>), Spalenring (NO<sub>2</sub>), Dreirosenbrücke Süd (NO<sub>2</sub>). Für Details zu den Stationen siehe Link «Luftqualität in der Nordwestschweiz».",
 		"template": "line001",
 		"orderKey": "07_00_00_00_00_007",
-		"parentId": 6129,
+		"parentId": null,
 		"children": [
+			"6029",
 			"6309"
 		],
 		"renderLink": [],
@@ -11726,7 +11914,8 @@ var indikatoren = [
 			"Lufthygieneamt beider Basel"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Indikator:<ul><li><a href='http://luft-bs-so.ch/messdaten'>Luftqualität in der Nordwestschweiz</a></li><li><a href='http://www.admin.ch/opc/de/classified-compilation/19850321/index.html'>Luftreinhalte-Verordnung (LRV)</a></li></ul>"
+			"<a href = 'https://luft-bs-so.ch/messdaten' target = '_blank'>Luftqualität in der Nordwestschweiz</a>",
+			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>"
 		],
 		"visibleInPortal": true
 	},
@@ -11758,7 +11947,7 @@ var indikatoren = [
 		"erlaeuterungen": "Die CO<sub>2</sub>-Produktion des Verkehrs berechnet sich aus der Summe der Verbräuche von Benzin und Diesel multipliziert mit den jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Zur Berechnung des Pro-Kopf-Verbrauchs wird der CO<sub>2</sub>-Verbrauch durch die mittlere Bevölkerung dividiert. Die Verbräuche von Benzin und Diesel werden im Gesamtverkehrsmodell modelliert.",
 		"template": "template001",
 		"orderKey": "05_00_00_00_00_005",
-		"parentId": 6031,
+		"parentId": null,
 		"children": [
 			"6310"
 		],
@@ -11772,14 +11961,14 @@ var indikatoren = [
 		"visibleInPortal": true
 	},
 	{
-		"title": "Anteil übermässig mit Lärm belastete Wohnbevölkerung",
+		"title": "Übermässig mit Lärm belastete Wohnbevölkerung",
 		"subtitle": "in %",
-		"kuerzel": "I.02.5.06159",
+		"kuerzel": "I.02.14.06159",
 		"kuerzelKunde": "7.8",
-		"description": "Anteil übermässig mit Lärm belastete Wohnbevölkerung",
+		"description": "Übermässig mit Lärm belastete Wohnbevölkerung",
 		"id": 6159,
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "Luftschadstoffe",
+		"unterthema": "Lärm",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -11794,12 +11983,13 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der Einwohner, welche an ihrem Wohnort in der Nacht einer Lärmbelastung von über 50 dB (A) ausgesetzt sind, betrug 2010 knapp 24%. Bei 14% der Einwohner wurde der Tagesgrenzwert überschritten, bei 16% der Grenzwert in der Nacht.",
-		"erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche an ihrem Wohnort einer Lärmbelastung über dem Immissionsgrenzwert gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Die in der LSV festgehaltenen Immissionsgrenzwerte drücken das Mass an Lärmbelastung aus, das zirka 75% der Bevölkerung erträgt, ohne sich erheblich gestört zu fühlen. Wohngebiete sind gemäss Lärmempfindlichkeitsstufenplan den Stufen II (Wohnzonen) und III (Wohn-/Gewerbezonen) mit unterschiedlichen Immissionsgrenzwerten zugeteilt: ES II: 60 dB (A) Tag, 50 dB (A) Nacht, ES III: 65 dB (A) Tag, 55 dB (A) Nacht; dB (A) ist die übliche Masseinheit zur Messung von Lärmstärke.Die angegebenen Werte beruhen auf Modellierungen. Die Lärmimmission an den Gebäuden werden in einem 3D-Oberflächenmodell (Gelände, Gebäude, Hindernisse) auf Basis des Emissionskatasters für Strassenverkehrslärm berechnet. Sobald ein Teil eines Gebäudes, z. B. eine Fassade oder die oberen Geschosse, welche nicht durch eine Lärmschutzwand geschützt werden, von Grenzwertüberschreitungen (gemäss LSV) betroffen sind, werden sämtliche Bewohner des Gebäudes als lärmbelastete Personen gezählt. Die Ausrichtung der einzelnen Wohnungen fliesst nicht in die Beurteilung ein. Weiter werden lärmempfindliche Räume in Betrieben nicht berücksichtigt.",
+		"lesehilfe": "Der Anteil der Einwohner, welche an ihrem Wohnort in der Nacht einer Lärmbelastung von über 50 dB (A) ausgesetzt sind, betrug 2008 24,6%. Bei 14,5% der Einwohner wurde der Tagesgrenzwert überschritten, bei 16,2% der Grenzwert in der Nacht.",
+		"erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche an ihrem Wohnort einer Lärmbelastung über dem Immissionsgrenzwert gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Die in der LSV festgehaltenen Immissionsgrenzwerte drücken das Mass an Lärmbelastung aus, das zirka 75% der Bevölkerung erträgt, ohne sich erheblich gestört zu fühlen. Wohngebiete sind gemäss Lärmempfindlichkeitsstufenplan den Stufen II (Wohnzonen) und III (Wohn-/Gewerbezonen) mit unterschiedlichen Immissionsgrenzwerten zugeteilt: ES II: 60 dB(A) Tag, 50 dB(A) Nacht, ES III: 65 dB(A) Tag, 55 dB(A) Nacht; dB(A) ist die übliche Masseinheit zur Messung von Lärmstärke.<br><br>Die angegebenen Werte beruhen auf Modellierungen. Die Lärmimmission an den Gebäuden werden in einem 3D-Oberflächenmodell (Gelände, Gebäude, Hindernisse) auf Basis des Emissionskatasters für Strassenverkehrslärm berechnet. Sobald ein Teil eines Gebäudes, z. B. eine Fassade oder die oberen Geschosse, welche nicht durch eine Lärmschutzwand geschützt werden, von Grenzwertüberschreitungen (gemäss LSV) betroffen sind, werden sämtliche Bewohner des Gebäudes als lärmbelastete Personen gezählt. Die Ausrichtung der einzelnen Wohnungen fliesst nicht in die Beurteilung ein. Weiter werden lärmempfindliche Räume in Betrieben nicht berücksichtigt.",
 		"template": "template001",
 		"orderKey": "07_00_00_00_00_008",
-		"parentId": 5197,
+		"parentId": null,
 		"children": [
+			"5197",
 			"6311"
 		],
 		"renderLink": [],
@@ -11812,11 +12002,11 @@ var indikatoren = [
 		"visibleInPortal": true
 	},
 	{
-		"title": "Energieverbrauch nach Verbrauchergruppe",
+		"title": "Endenergieverbrauch nach Verbrauchergruppe",
 		"subtitle": "in Mio. kWh",
 		"kuerzel": "I.08.1.06160",
 		"kuerzelKunde": "7.1",
-		"description": "Energieverbrauch nach Verbrauchergruppe",
+		"description": "Endenergieverbrauch nach Verbrauchergruppe",
 		"id": 6160,
 		"thema": "08 Energie",
 		"unterthema": "Verbrauch",
@@ -11839,6 +12029,8 @@ var indikatoren = [
 		"orderKey": "07_00_00_00_00_001",
 		"parentId": null,
 		"children": [
+			"4953",
+			"5794",
 			"6312"
 		],
 		"renderLink": [],
@@ -11874,7 +12066,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2010 lag der Anteil der erneuerbaren Energieträger bei 35,0%. Zwei Jahre später fiel der Wert mit 36,2% bereits höher aus. Im Jahr 2014  stammte 37,9% der Energie aus erneuerbaren Quellen.",
-		"erlaeuterungen": "Folgende Energieträger werden als erneuerbar berücksichtigt: Wasserkraft, Holz, Umweltwärme, thermische und fotovoltaische Sonnenenergie, Schlamm, erneuerbare Elektrizität (in Basel-Stadt stammt 100% des importierten Strommix aus erneuerbaren Quellen) und Kehricht (zu 50 % als erneuerbar taxiert).Die Summe der Verbräuche der erneuerbaren Energien wird durch den Gesamtenergieverbrauch dividiert.",
+		"erlaeuterungen": "Folgende Energieträger werden als erneuerbar berücksichtigt: Wasserkraft, Holz, Umweltwärme, thermische und fotovoltaische Sonnenenergie, Schlamm, erneuerbare Elektrizität (in Basel-Stadt stammen 100% des importierten Strommixes aus erneuerbaren Quellen) und Kehricht (zu 50% als erneuerbar taxiert).<br><br>Die Summe der Verbräuche der erneuerbaren Energien wird durch den Gesamtenergieverbrauch dividiert.",
 		"template": "template001",
 		"orderKey": "07_00_00_00_00_002",
 		"parentId": 3094,
@@ -11913,7 +12105,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Siedlungsabfälle reduzierten sich zwischen dem Jahr 2000 und 2016 von ca. 194 auf 151 kg pro Kopf. Die Recyclingquote stieg von ca. 41% auf fast 45%.",
-		"erlaeuterungen": "Die Berechnungsmethode für die Recyclingquote wurde vom Amt für Umwelt und Energie im Jahr 2016 revidiert (dezentrale Kompostierung nicht mehr eingerechnet). Dies führte zu einem tieferen Recyclinganteil.",
+		"erlaeuterungen": "Die Berechnungsmethode für die Recyclingquote wurde vom Amt für Umwelt und Energie im Jahr 2016 rückwirkend für alle abgebildeten Jahre revidiert (dezentrale Kompostierung nicht mehr eingerechnet). Dies führt zu einem tieferen Recyclinganteil im Vergleich zu früheren Berechnungen.",
 		"template": "template001",
 		"orderKey": "07_00_00_00_00_003",
 		"parentId": null,
@@ -11957,8 +12149,9 @@ var indikatoren = [
 		"erlaeuterungen": "AOX sind an Aktivkohle adsorbierbare organische Halogenverbindungen. Diese Fluor-, Chlor- und Bromverbindungen (wobei Chlorkohlenwasserstoffe in der Regel am häufigsten vorkommen) können als Verluste oder Nebenprodukte aus industriellen und gewerblichen Produktionen ins Wasser gelangen. Auch chlorhaltige Reinigungsmittel aus Haushalten tragen zur Belastung der Abwässer bei. Die AOX-Konzentration wird im gereinigten Abwasser in den Abläufen der Abwasserreinigungsanlagen (ARA) mehrmals pro Jahr in Form von Tagessammelmustern gemessen. Der Mittelwert aller Messungen eines Jahres entspricht dem Jahreswert. In der Gewässerschutzverordnung ist für die Einleitung von kommunalem Abwasser in Gewässer ein AOX-Grenzwert von 0.08 mg/l definiert. <br><br>Für die Wasserqualität ist entscheidend, wie viele Schadstoffe trotz Kläranlagen ins Wasser gelangen. Eine Zunahme des AOX-Indikators bedeutet eine unerwünschte Belastung der Gewässer, eine Abnahme entspricht einer Verbesserung der Wasserqualität. Organische Halogenverbindungen sind bereits in geringen Mengen schädlich, schwer biologisch abbaubar und reichern sich im Fettgewebe von Tieren und Menschen an. <br><br>Das Abwasser aus Basel-Stadt wird in der ARA Basel gereinigt. Deren Einzugsgebiet umfasst auch die Gemeinden Allschwil, Binningen, Birsfelden, Bottmingen, Münchenstein (Ortsteil Brüglingen), Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Neuwiller (F).",
 		"template": "line001",
 		"orderKey": "07_00_00_00_00_004",
-		"parentId": 6030,
+		"parentId": null,
 		"children": [
+			"6030",
 			"6315"
 		],
 		"renderLink": [],
@@ -12000,6 +12193,8 @@ var indikatoren = [
 		"orderKey": "07_00_00_00_00_005",
 		"parentId": null,
 		"children": [
+			"4299",
+			"6031",
 			"6316"
 		],
 		"renderLink": [],
@@ -12013,7 +12208,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wassertemperatur Grundwasser",
-		"subtitle": "",
+		"subtitle": "in °C",
 		"kuerzel": "I.02.19.06166",
 		"kuerzelKunde": "7.6",
 		"description": "Wassertemperatur Grundwasser",
@@ -12037,8 +12232,9 @@ var indikatoren = [
 		"erlaeuterungen": "In Basel-Stadt wird die Grundwassertemperatur an 82 Messstellen kontinuierlich gemessen und daraus der Mittelwert der Jahrestemperatur des Grundwassers ermittelt. Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1610' target='_blank'>Umweltbericht beider Basel</a>.",
 		"template": "line001",
 		"orderKey": "07_00_00_00_00_006",
-		"parentId": 4237,
+		"parentId": null,
 		"children": [
+			"4237",
 			"6317"
 		],
 		"renderLink": [],
@@ -12076,8 +12272,9 @@ var indikatoren = [
 		"erlaeuterungen": "In den Kategorien «Theater» und «Kleintheater» entspricht die Zahl für das Jahr 2015 der Saison 2015/2016.",
 		"template": "line001",
 		"orderKey": "08_00_00_00_00_002",
-		"parentId": 5194,
+		"parentId": null,
 		"children": [
+			"5194",
 			"6318"
 		],
 		"renderLink": [],
@@ -12120,7 +12317,7 @@ var indikatoren = [
 		"erlaeuterungen": "Seit 2008 verwendet die Eidgenössischen Finanzverwaltung (EFV) wegen des Neuen Finanzausgleichs in der Finanzstatistik ein neues Sektorisierungskonzept an, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
 		"template": "template001",
 		"orderKey": "08_00_00_00_00_003",
-		"parentId": 5161,
+		"parentId": 6131,
 		"children": [
 			"6319"
 		],
@@ -12131,7 +12328,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"visibleInPortal": true
+		"visibleInPortal": false
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -12163,7 +12360,7 @@ var indikatoren = [
 		"erlaeuterungen": "Seit 2008 verwendet die Eidgenössischen Finanzverwaltung (EFV) wegen des Neuen Finanzausgleichs in der Finanzstatistik ein neues Sektorisierungskonzept an, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
 		"template": "template001",
 		"orderKey": "09_00_00_00_00_002",
-		"parentId": 5161,
+		"parentId": 6131,
 		"children": [
 			"6320"
 		],
@@ -12174,7 +12371,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"visibleInPortal": true
+		"visibleInPortal": false
 	},
 	{
 		"title": "Anzahl Beziehende von Prämienverbilligung",
@@ -12202,8 +12399,9 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "line001",
 		"orderKey": "09_00_00_00_00_003",
-		"parentId": 2917,
+		"parentId": null,
 		"children": [
+			"2917",
 			"6321"
 		],
 		"renderLink": [],
@@ -12356,11 +12554,12 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2016 sind bei der Chemiefachberatung des Kantons 9 Alarmierungen aufgrund von ABC-Ereignissen eingegangen.",
-		"erlaeuterungen": "Der Indikator sagt aus, wie häufig die Chemiefachberatung von den kantonalen Einsatzkräften bei Ereignissen angefordert wurde. Die Häufigkeit von solchen Ereignissen mit Austritt von Chemikalien in die Umgebung ist ein Mass für die Qualität des Umgangs mit gefährlichen Stoffen. Veränderungen sind dabei besser zu erkennen, wenn man nicht nur die selten auftretenden Störfälle betrachtet. Die Anzahl der Ereignisse alleine sagt hingegen noch nichts über die Einwirkung eines Ereignisses auf die Umwelt aus und ist deshalb immer in Verbindung mit der jeweiligen Bewertung zu betrachten. Unter dem Begriff «Ereignisse» sind Alarmierungen an die Chemiefachberatung der Industriefeuerwehr Regio Basel (IRFB) zu verstehen. Es handelt sich dabei um Ereignisse mit radioaktiven, biologischen oder chemischen Gefahren. Als Störfall gilt nach Definition der Störfallverordnung (StFV) ein ausserordentliches Ereignis in einem Betrieb, auf einem Verkehrsweg oder in einer Rohrleitungsanlage, bei dem erhebliche Einwirkungen auftreten: a) ausserhalb des Betriebsareals, b) auf oder ausserhalb des Verkehrswegs, c) ausserhalb der Rohrleitungsanlage.Die eigentliche Entscheidung, ob ein Ereignis als Störfall einzustufen ist, liegt aber im Ermessen der zuständigen Fachstelle.",
+		"erlaeuterungen": "Der Indikator sagt aus, wie häufig die Chemiefachberatung von den kantonalen Einsatzkräften bei Ereignissen angefordert wurde. Die Häufigkeit von solchen Ereignissen mit Austritt von Chemikalien in die Umgebung ist ein Mass für die Qualität des Umgangs mit gefährlichen Stoffen. Veränderungen sind dabei besser zu erkennen, wenn man nicht nur die selten auftretenden Störfälle betrachtet. Die Anzahl der Ereignisse alleine sagt hingegen noch nichts über die Einwirkung eines Ereignisses auf die Umwelt aus und ist deshalb immer in Verbindung mit der jeweiligen Bewertung zu betrachten. Unter dem Begriff «Ereignisse» sind Alarmierungen an die Chemiefachberatung der Industriefeuerwehr Regio Basel (IRFB) zu verstehen. Es handelt sich dabei um Ereignisse mit radioaktiven, biologischen oder chemischen Gefahren. Als Störfall gilt nach Definition der Störfallverordnung (StFV) ein ausserordentliches Ereignis in einem Betrieb, auf einem Verkehrsweg oder in einer Rohrleitungsanlage, bei dem erhebliche Einwirkungen auftreten: a) ausserhalb des Betriebsareals, b) auf oder ausserhalb des Verkehrswegs, c) ausserhalb der Rohrleitungsanlage.<br>Die eigentliche Entscheidung, ob ein Ereignis als Störfall einzustufen ist, liegt aber im Ermessen der zuständigen Fachstelle.",
 		"template": "line001",
 		"orderKey": "10_00_00_00_00_003",
-		"parentId": 5189,
+		"parentId": null,
 		"children": [
+			"5189",
 			"6326"
 		],
 		"renderLink": [],
@@ -12398,8 +12597,9 @@ var indikatoren = [
 		"erlaeuterungen": "FAMI: Familienmietzinsbeiträge; Anteil Haushalte mit Prämienverbilligung: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt.",
 		"template": "line001",
 		"orderKey": "11_00_00_00_00_002",
-		"parentId": 5183,
+		"parentId": null,
 		"children": [
+			"5183",
 			"6327"
 		],
 		"renderLink": [],
@@ -12438,8 +12638,9 @@ var indikatoren = [
 		"erlaeuterungen": "Nur Stadt Basel, ohne Riehen und Bettingen.",
 		"template": "line001",
 		"orderKey": "11_00_00_00_00_003",
-		"parentId": 5184,
+		"parentId": null,
 		"children": [
+			"5184",
 			"6328"
 		],
 		"renderLink": [],
@@ -12478,8 +12679,9 @@ var indikatoren = [
 		"erlaeuterungen": "Nur Stadt Basel, ohne Riehen und Bettingen. Die Sozialhilfe führt Dossiers für Unterstützungseinheiten, die eine oder mehrere Personen umfassen. Als Zahlfälle gelten Unterstützungseinheiten, die entweder wirtschaftliche Sozialhilfe mit Beratung beanspruchen oder Fremdplatzierte sind. Letztere sind minderjährige Kinder, die in Pflegefamilien oder Heimen untergebracht sind und für welche die Sozialhilfe ein eigenes Dossier führt. In einem Haushalt kann es mehrere Zahlfälle geben.",
 		"template": "template001",
 		"orderKey": "11_00_00_00_00_004",
-		"parentId": 5185,
+		"parentId": null,
 		"children": [
+			"5185",
 			"6329"
 		],
 		"renderLink": [],
@@ -12522,7 +12724,7 @@ var indikatoren = [
 		"erlaeuterungen": "Seit 2008 verwendet die Eidgenössischen Finanzverwaltung (EFV) wegen des Neuen Finanzausgleichs in der Finanzstatistik ein neues Sektorisierungskonzept an, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
 		"template": "template001",
 		"orderKey": "11_00_00_00_00_005",
-		"parentId": null,
+		"parentId": 6131,
 		"children": [
 			"6330"
 		],
@@ -12533,7 +12735,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"visibleInPortal": true
+		"visibleInPortal": false
 	},
 	{
 		"title": "Vertretung der Anliegen der Bevölkerung durch Behörden",
@@ -12563,7 +12765,7 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "befragungen001",
 		"orderKey": "12_00_00_00_00_001",
-		"parentId": 5138,
+		"parentId": 4724,
 		"children": [
 			"6331"
 		],
@@ -12619,12 +12821,12 @@ var indikatoren = [
 	{
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
 		"subtitle": "in Franken; Kapital und Reserven: 2 Mio. Fr.; Reingewinn: 400 000 Fr.",
-		"kuerzel": "I.04.1.06201",
+		"kuerzel": "I.18.2.06201",
 		"kuerzelKunde": "2.11b",
 		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
 		"id": 6201,
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Volkseinkommen",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -12661,12 +12863,12 @@ var indikatoren = [
 	{
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
 		"subtitle": "in Franken; Kapital und Reserven: 2 Mio. Fr.; Reingewinn: 1 000 000 Fr.",
-		"kuerzel": "I.04.1.06202",
+		"kuerzel": "I.18.2.06202",
 		"kuerzelKunde": "2.11c",
 		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
 		"id": 6202,
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Volkseinkommen",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -13123,7 +13325,7 @@ var indikatoren = [
 		"erlaeuterungen": "2003: N=1495, 2005: N=1509, 2007: N=1505, 2011: N=1516, 2015: N=1504.",
 		"template": "befragungen001",
 		"orderKey": "01_02_00_00_00_003",
-		"parentId": 5178,
+		"parentId": null,
 		"children": [
 			"6223",
 			"6261"
@@ -13420,30 +13622,30 @@ var indikatoren = [
 	{
 		"title": "Bevölkerungsdichte",
 		"subtitle": "Anzahl Einwohner pro Hektar",
-		"kuerzel": "I.01.1.5201",
-		"kuerzelKunde": "ST 1-1",
+		"kuerzel": "I.01.1.06242",
+		"kuerzelKunde": "ST 4-2",
 		"description": "Bevölkerungsdichte",
 		"id": 6242,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Richtplan-Print",
+		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-06T14:41:09.099",
 		"schlagwort": [
 			"Bevölkerung",
 			"Wohnen"
 		],
-		"stufe1": "Strategie 1",
-		"stufe2": "",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
+		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Bis 2002 verzeichnete Basel-Stadt sinkende Bevölkerungszahlen. Seither nimmt die baselstädtische Wohnbevölkerung und mit ihr die Bevölkerungsdichte wieder zu.",
 		"erlaeuterungen": "",
 		"template": "line001_print",
-		"orderKey": "01_00_00_00_00_000",
+		"orderKey": "01_01_00_00_00_000",
 		"parentId": 5201,
 		"children": [],
 		"renderLink": [],
@@ -13458,30 +13660,30 @@ var indikatoren = [
 	{
 		"title": "Bevölkerungsdichte",
 		"subtitle": "Anzahl Einwohner pro Hektar nach Wohnviertel",
-		"kuerzel": "I.01.1.5202",
-		"kuerzelKunde": "ST 1-2",
+		"kuerzel": "I.01.1.06243",
+		"kuerzelKunde": "ST 4-3",
 		"description": "Bevölkerungsdichte",
 		"id": 6243,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Richtplan-Print",
+		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-08-17T16:15:02.022",
 		"schlagwort": [
 			"Bevölkerung",
 			"Wohnen"
 		],
-		"stufe1": "Strategie 1",
-		"stufe2": "",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
+		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit 267,5 Einwohner pro ha wies das Matthäusviertel am Jahresende 2016 die höchste Bevölkerungsdichte auf. Ebenfalls hohe Bevölkerungsdichten wiesen die Wohnviertel Gundeldingen, Iselin und Clara auf. Im Vergleich zu 1997 am stärksten zugenommen hat die Bevölkerungsdichte im Rosentalviertel.",
+		"lesehilfe": "Mit 267,5 Einwohner pro ha wies das Matthäusviertel am Jahresende 2016 die höchste Bevölkerungsdichte auf. Ebenfalls hohe Bevölkerungsdichten wiesen die Wohnviertel Gundeldingen, Iselin und Clara auf. Die Bevölkerungsdichte nimmt in den Wohnvierteln des Zentrums am stärksten zu. Im Vergleich zu 1997 am stärksten zugenommen hat die Bevölkerungsdichte im Rosentalviertel, hier ist das neue Quartier Erlenmatt entstanden.",
 		"erlaeuterungen": "",
 		"template": "mappie001_print",
-		"orderKey": "01_00_00_00_00_000",
+		"orderKey": "01_01_00_00_00_000",
 		"parentId": 5202,
 		"children": [],
 		"renderLink": [],
@@ -13494,15 +13696,15 @@ var indikatoren = [
 		"visibleInPortal": false
 	},
 	{
-		"title": "Anzahl Wegpendler nach Ziel",
+		"title": "Zu- und Wegpendler nach Herkunft und Ziel",
 		"subtitle": "",
-		"kuerzel": "I.11.5.05203",
-		"kuerzelKunde": "ST 1-3",
-		"description": "Anzahl Wegpendler nach Ziel",
+		"kuerzel": "I.11.5.06244",
+		"kuerzelKunde": "ST 4-12",
+		"description": "Zu- und Wegpendler nach Herkunft und Ziel",
 		"id": 6244,
 		"thema": "11 Verkehr",
 		"unterthema": "Pendler",
-		"kennzahlenset": "Richtplan-Print",
+		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -13510,15 +13712,15 @@ var indikatoren = [
 		"schlagwort": [
 			"Pendler"
 		],
-		"stufe1": "Strategie 1",
-		"stufe2": "",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
+		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund 24 400 Personen aus der baselstädtischen Wohnbevölkerung pendelten 2015 in andere Kantone, um einer Erwerbstätigkeit nachzugehen. Etwa 300 pendelten dafür ins Ausland.",
+		"lesehilfe": "Im Jahr 2015 pendeln gut 100 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen, rund zwei Drittel von ihnen aus der Schweiz. Etwas mehr als 24 000 Wegpendler stehen dem gegenüber. Dies ergibt einen Zupendlerüberschuss von rund 76 000 Personen - der höchste in der beobachteten Zeitspanne.",
 		"erlaeuterungen": "",
 		"template": "template001_print",
-		"orderKey": "01_00_00_00_00_000",
+		"orderKey": "01_01_00_00_00_000",
 		"parentId": 5203,
 		"children": [],
 		"renderLink": [],
@@ -13532,30 +13734,30 @@ var indikatoren = [
 	},
 	{
 		"title": "Leerwohnungsquote",
-		"subtitle": "",
-		"kuerzel": "I.09.1.05813",
-		"kuerzelKunde": "ST 4-4",
+		"subtitle": "in Prozent",
+		"kuerzel": "I.09.2.06245",
+		"kuerzelKunde": "ST 4-5",
 		"description": "Leerwohnungsquote",
 		"id": 6245,
 		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Richtplan-Print",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-06-26T16:51:11.1111",
 		"schlagwort": [
 			"Wohnung"
 		],
-		"stufe1": "Strategie 4",
-		"stufe2": "",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
+		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Leerwohnungsquote sank seit 2006 kontinuierlich und erreichte 2014 mit 0,2% den tiefsten Wert. Seither steigt sie wieder leicht an.",
 		"erlaeuterungen": "Stichtag ist der 1. Juni. Nur Wohnungen, die für den eigentlichen Wohnungsmarkt in Betracht kommen; also ohne leere Wohnungen, die für den Abbruch oder Umbau bestimmt sind. Prozentangaben beziehen sich auf den Leerwohnungsbestand am Gesamtwohnungsbestand.",
 		"template": "line001_print",
-		"orderKey": "04_00_00_00_00_000",
+		"orderKey": "01_01_00_00_00_000",
 		"parentId": 5813,
 		"children": [],
 		"renderLink": [],
@@ -13569,30 +13771,30 @@ var indikatoren = [
 	},
 	{
 		"title": "Leerwohnungsquote",
-		"subtitle": "nach Wohnviertel",
-		"kuerzel": "I.09.1.05814",
-		"kuerzelKunde": "ST 4-5",
+		"subtitle": "nach Wohnviertel in Prozent",
+		"kuerzel": "I.09.2.06246",
+		"kuerzelKunde": "ST 4-6",
 		"description": "Leerwohnungsquote",
 		"id": 6246,
 		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Richtplan-Print",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-04T09:44:27.2727",
 		"schlagwort": [
 			"Wohnung"
 		],
-		"stufe1": "Strategie 4",
-		"stufe2": "",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
+		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2015 wie auch 2016 in Bettingen verzeichnet.",
+		"lesehilfe": "Die höchsten Leerwohnungsquote wurden 2016 im Hirzbrunnen, im St. Alban sowie in der Gemeinde Bettingen verzeichnet. Die überwiegende Mehrheit der Wohnviertel erfuhr einen Rückgang der Leerwohnungsquote seit 1998.",
 		"erlaeuterungen": "Stichtag ist der 1. Juni.",
 		"template": "mappie001_print",
-		"orderKey": "04_00_00_00_00_000",
+		"orderKey": "01_01_00_00_00_000",
 		"parentId": 5814,
 		"children": [],
 		"renderLink": [],
@@ -13607,29 +13809,29 @@ var indikatoren = [
 	{
 		"title": "Mittlere Wohnfläche pro Person",
 		"subtitle": "",
-		"kuerzel": "I.09.1.05815",
-		"kuerzelKunde": "ST 4-6",
+		"kuerzel": "I.09.1.06247",
+		"kuerzelKunde": "ST 4-7",
 		"description": "Mittlere Wohnfläche pro Person",
 		"id": 6247,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Richtplan-Print",
+		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-05T09:32:06.066",
 		"schlagwort": [
 			"Wohnen"
 		],
-		"stufe1": "Strategie 4",
-		"stufe2": "",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
+		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Wohnfläche pro Kopf nahm von 1980 bis 2010 um sechs Quadratmeter zu. Seither ist ein leichter Rückgang zu verzeichnen. Der Wert 2016 beträgt 41,3 Quadratmeter.",
+		"lesehilfe": "Die Wohnfläche pro Kopf nahm von 1997 bis 2010 um knapp 2 m² zu. Seither ist ein Rückgang zu verzeichnen. Der Wert 2016 beträgt 41,3 m².",
 		"erlaeuterungen": "Alle Berechnungen beziehen sich auf das Jahresende und berücksichtigen rückwirkend wo immer möglich die aktuell gültigen Definitionen gemäss Gesetzgebung zu Registerharmonisierung und Volkszählung. Ab 2012 handelt es sich um kantonale Registerauswertungen, frühere Werte wurden auf Basis der Volkszählungen 1980, 1990 und 2000 berechnet.",
 		"template": "line001_print",
-		"orderKey": "04_00_00_00_00_000",
+		"orderKey": "01_01_00_00_00_000",
 		"parentId": 5815,
 		"children": [],
 		"renderLink": [],
@@ -13645,13 +13847,13 @@ var indikatoren = [
 	{
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "",
-		"kuerzel": "I.09.1.05816",
-		"kuerzelKunde": "ST 4-7",
+		"kuerzel": "I.09.1.06248",
+		"kuerzelKunde": "ST 4-8",
 		"description": "Nettowohnungsproduktion",
 		"id": 6248,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Richtplan-Print",
+		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -13659,15 +13861,15 @@ var indikatoren = [
 		"schlagwort": [
 			"Wohnen"
 		],
-		"stufe1": "Strategie 4",
-		"stufe2": "",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
+		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2016 war die Nettowohnungsproduktion überdurchschnittlich hoch. Dazu beigetragen hat eine hohe Neubauproduktion, ein positiver Umbausaldo und eine niedrige Anzahl von Abbrüchen.",
+		"lesehilfe": "Seit 2014 war die Nettowohnungsproduktion überdurchschnittlich hoch. Dazu beigetragen hat eine hohe Neubauproduktion, ein positiver Umbausaldo und mit Ausnahme von 2015 eine niedrige Anzahl von Abbrüchen.",
 		"erlaeuterungen": "",
 		"template": "line001_print",
-		"orderKey": "04_00_00_00_00_000",
+		"orderKey": "01_01_00_00_00_000",
 		"parentId": 5816,
 		"children": [],
 		"renderLink": [],
@@ -13682,29 +13884,29 @@ var indikatoren = [
 	{
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "nach Wohnviertel von 2007 bis 2016",
-		"kuerzel": "I.09.1.05817",
-		"kuerzelKunde": "ST 4-8",
+		"kuerzel": "I.09.1.06249",
+		"kuerzelKunde": "ST 4-9",
 		"description": "Nettowohnungsproduktion",
 		"id": 6249,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Richtplan-Print",
+		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-06-22T11:48:21.2121",
+		"aktualisierungsdatum": "2017-07-05T09:38:45.4545",
 		"schlagwort": [
 			"Wohnung"
 		],
-		"stufe1": "Strategie 4",
-		"stufe2": "",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
+		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Nettoproduktion war in den letzten zehn Jahren im Wohnviertel Rosental besonders hoch. Auf dieses Wohnviertel entfielen rund 30% der gesamtkantonalen Nettoproduktion in diesem Zeitraum.",
+		"lesehilfe": "Die Nettoproduktion war in den letzten zehn Jahren im Wohnviertel Rosental besonders hoch. Auf dieses Wohnviertel entfielen rund 30% der gesamtkantonalen Nettoproduktion. Die Nettowohnungsproduktion ist vor allem auf grosse Arealentwicklungen zurückzuführen und im kleineren Masse auf Erneuerungen bzw. Verdichtungen im Bestand.",
 		"erlaeuterungen": "",
 		"template": "template001_print",
-		"orderKey": "04_00_00_00_00_000",
+		"orderKey": "01_01_00_00_00_000",
 		"parentId": 5817,
 		"children": [],
 		"renderLink": [],
@@ -13717,15 +13919,15 @@ var indikatoren = [
 		"visibleInPortal": false
 	},
 	{
-		"title": "Bruttogeschossfläche Wohnen",
-		"subtitle": "",
-		"kuerzel": "I.09.1.05818",
-		"kuerzelKunde": "ST 4-9",
-		"description": "Bruttogeschossfläche Wohnen",
+		"title": "Bruttogeschossfläche Wohnen nach Wohnviertel",
+		"subtitle": "in Quadratmetern",
+		"kuerzel": "I.09.1.06250",
+		"kuerzelKunde": "ST 4-10",
+		"description": "Bruttogeschossfläche Wohnen nach Wohnviertel",
 		"id": 6250,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Richtplan-Print",
+		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -13733,15 +13935,15 @@ var indikatoren = [
 		"schlagwort": [
 			"Wohnung"
 		],
-		"stufe1": "Strategie 4",
-		"stufe2": "",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
+		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Bruttogeschossfläche im Bereich Wohnen nahm zwischen 2010 und 2015 in allen Wohnviertel zu, mit Ausnahme der Altstadt Grossbasel. Am stärksten sind die Anstiege in den Wohnvierteln Wettstein (4,7%), St. Alban (4,8%), Kleinhüningen (12,4%) sowie Rosental (27,7%).",
+		"lesehilfe": "Die stärkste Zunahme der für Wohnen genutzten Bruttogeschossfläche (BGF) von 1995 bis 2015 ergab sich - neben der Gemeinde Riehen - dank der Überbauung des Erlenmattareals im Wohviertel Rosental. Nach Riehen weisen die Wohnviertel Gundeldingen und St. Johann im Jahr 2015 die höchsten Werte der BGF Wohnen auf.",
 		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche werden fünfjährlich aktualisiert, letztmals 2015.",
 		"template": "mappie001_print",
-		"orderKey": "04_00_00_00_00_000",
+		"orderKey": "01_01_00_00_00_000",
 		"parentId": 5818,
 		"children": [],
 		"renderLink": [],
@@ -13756,13 +13958,13 @@ var indikatoren = [
 	{
 		"title": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
 		"subtitle": "«Wie zufrieden sind Sie mit den Grünanlagen und Parks in Ihrem Wohnort?»",
-		"kuerzel": "I.50.1.05819",
+		"kuerzel": "I.50.1.06251",
 		"kuerzelKunde": "ST 5-1",
 		"description": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
 		"id": 6251,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Richtplan-Print",
+		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -13770,15 +13972,15 @@ var indikatoren = [
 		"schlagwort": [
 			"Grünflächen"
 		],
-		"stufe1": "Strategie 5",
-		"stufe2": "",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
+		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": ": Über 90% der Befragten sind 2015 mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden. Dieser Wert ist seit 2005 jeweils leicht angestiegen.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Über 90% der Befragten sind 2015 mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden. Dieser Wert ist seit 2005 jeweils leicht angestiegen.",
+		"erlaeuterungen": "2003: N=1495, 2005: N=1509, 2007: N=1505, 2011: N=1516, 2015: N=1504.",
 		"template": "befragungen001_print",
-		"orderKey": "05_00_00_00_00_000",
+		"orderKey": "01_02_00_00_00_000",
 		"parentId": 5819,
 		"children": [],
 		"renderLink": [],
@@ -13792,14 +13994,14 @@ var indikatoren = [
 	},
 	{
 		"title": "Bewertung der Lebensqualität",
-		"subtitle": "",
-		"kuerzel": "I.50.1.05821",
-		"kuerzelKunde": "ST 5-3",
+		"subtitle": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?»",
+		"kuerzel": "I.50.1.06252",
+		"kuerzelKunde": "ST 5-2",
 		"description": "Bewertung der Lebensqualität",
 		"id": 6252,
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Richtplan-Print",
+		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Wohnviertel",
 			"Kanton"
@@ -13808,15 +14010,15 @@ var indikatoren = [
 		"schlagwort": [
 			"Zufriedenheit"
 		],
-		"stufe1": "Strategie 5",
-		"stufe2": "",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
+		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. 2015 vergeben die Bewohnerinnen und Bewohner im Durchschnitt der Lebensqualität im Stadtkanton eine 7,7.",
-		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
+		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. 2015 vergeben die Bewohnerinnen und Bewohner im Durchschnitt der Lebensqualität im Stadtkanton eine 7,7. 2003 betrug die Durchschnittsnote 7,4.",
+		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.<br>2003: N=1477, 2005: N=1500, 2007: N=1500, 2011: N=1513, 2015: N=1489.",
 		"template": "befragungen001_print",
-		"orderKey": "05_00_00_00_00_000",
+		"orderKey": "01_02_00_00_00_000",
 		"parentId": 5821,
 		"children": [],
 		"renderLink": [],
@@ -13831,35 +14033,34 @@ var indikatoren = [
 	{
 		"title": "Anteil Einwohner pro ÖV-Güteklasse",
 		"subtitle": "",
-		"kuerzel": "I.11.2.05822",
+		"kuerzel": "I.11.2.06253",
 		"kuerzelKunde": "ST 6-1",
 		"description": "Anteil Einwohner pro ÖV-Güteklasse",
 		"id": 6253,
 		"thema": "11 Verkehr",
 		"unterthema": "Öffentlicher Verkehr",
-		"kennzahlenset": "Richtplan-Print",
+		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-06-26T14:00:15.1515",
 		"schlagwort": [
 			"ÖV"
 		],
-		"stufe1": "Strategie 6",
-		"stufe2": "",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
+		"stufe2": "Strategie 6: Erschliessungsqualität",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Über zwei Drittel der Einwohner in Basel-Stadt wohnen in einem Gebiet der ÖV-Güteklasse A und damit in einer Zone mit sehr guter Anbindung an den öffentlichen Verkehr. Gut 30% in einem Gebiet der Güteklasse B.",
-		"erlaeuterungen": "Die ÖV-Güteklassen sind ein Mass für die räumliche Erschliessungsqualität. Die Güteklassen werden zweistufig bestimmt: Die Art der Verkehrsmittel und das Kursintervall weisen jeder Haltestelle eine bestimmte Kategorie zu. Die Haltestellenkategorie in Verbindung mit der Distanz des Wohnorts einer Person zur Haltestelle ergeben dann die ÖV-Güteklasse für eine bestimmte Person. Folgender Link gibt detailliertere Auskunft zu den ÖV-Güteklassen: http://www.stadtplan.bs.ch/geoviewer/index.php?theme=340&cps=2614062.08,1267869.42,50000&nodefault&layers=stadtplan_grau_osm_50000,gueteklassen. Dieser Link zeigt die räumliche Verteilung der Güteklassen: http://map.geo.bs.ch/main/wsgi/file_proxy/GO_GueteklassenOeV/Definition_Gueteklassen_oeffentlicher_Verkehr.pdf",
+		"erlaeuterungen": "Die ÖV-Güteklassen sind ein Mass für die räumliche Erschliessungsqualität durch den öffentlichen Verkehr. Die Güteklassen werden zweistufig bestimmt: Die Art der Verkehrsmittel und das Kursintervall weisen jeder Haltestelle eine bestimmte Kategorie zu. Die Haltestellenkategorie in Verbindung mit der Distanz des Wohnorts einer Person zur Haltestelle ergibt dann die ÖV-Güteklasse für eine bestimmte Person.",
 		"template": "pie001_print",
-		"orderKey": "06_00_00_00_00_000",
+		"orderKey": "01_03_00_00_00_000",
 		"parentId": 5822,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Amt für Mobilität Basel-Stadt",
-			"Bau- und Verkehrsdepartement des Kantons Basel-Stadt"
+			"Amt für Mobilität Basel-Stadt"
 		],
 		"externalLinks": [
 			""
@@ -13869,29 +14070,29 @@ var indikatoren = [
 	{
 		"title": "Beschäftigtendichte",
 		"subtitle": "Anzahl Beschäftigte pro Hektar",
-		"kuerzel": "I.03.2.05823",
-		"kuerzelKunde": "ST 7-1",
+		"kuerzel": "I.03.2.06254",
+		"kuerzelKunde": "ST 7-2",
 		"description": "Beschäftigtendichte",
 		"id": 6254,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
-		"kennzahlenset": "Richtplan-Print",
+		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-06-26T14:38:43.4343",
 		"schlagwort": [
 			"Beschäftigte"
 		],
-		"stufe1": "Strategie 7",
-		"stufe2": "",
+		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
+		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Kanton Basel-Stadt arbeiteten 2014 rund 151 800 Beschäftigte. Daraus resultiert eine Beschäftigtendichte von etwa 41 Beschäftigten pro Hektar. Dieser Wert lag 2011 noch bei 40 Beschäftigten.",
 		"erlaeuterungen": "",
 		"template": "line001_print",
-		"orderKey": "07_00_00_00_00_000",
+		"orderKey": "02_04_00_00_00_000",
 		"parentId": 5823,
 		"children": [],
 		"renderLink": [],
@@ -13904,31 +14105,31 @@ var indikatoren = [
 		"visibleInPortal": false
 	},
 	{
-		"title": "Bruttogeschossfläche Industrie und Gewerbe",
-		"subtitle": "",
-		"kuerzel": "I.09.1.05825",
+		"title": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
+		"subtitle": "in Quadratmetern",
+		"kuerzel": "I.09.1.06255",
 		"kuerzelKunde": "ST 7-3",
-		"description": "Bruttogeschossfläche Industrie und Gewerbe",
+		"description": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
 		"id": 6255,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Richtplan-Print",
+		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-04T18:50:03.033",
 		"schlagwort": [
 			"Gebäude"
 		],
-		"stufe1": "Strategie 7",
-		"stufe2": "",
+		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
+		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Bruttogeschossfläche im Bereich Arbeiten (Industrie und Gewerbe) ist zwischen 2010 und 2015 im Kanton Basel-Stadt leicht rückläufig. Die grössten Rückgänge verzeichnen die Wohnviertel Hirzbrunnen (-8,0%) und Breite (-5,6%). Hingegen sind Zunahmen in den Wohnvierteln Am Ring (3,7%) und Wettstein (6,9%) feststellbar.",
-		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche werden fünfjährlich aktualisiert, letztmals 2015.",
+		"lesehilfe": "Die meiste für Arbeiten genutzte Bruttogeschossfläche (BGF) findet man 2015 in den Wohnvierteln St. Alban und St. Johann. Während das Wohnviertel St. Johann einen Rückgang der BGF Arbeiten seit 1995 verzeichnete, weist das St. Alban-Quartier den stärksten Zuwachs aus.",
+		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche werden fünfjährlich aktualisiert, letztmals 2015.<br> Der Rückgang im Wohnviertel St. Johann kann geht mit einer gleichzeitigen Zunahme der BGF Wohnen einher. Grund dafür waren Neubau-Projekte wie Volta West, Volta Mitte und Volta Zentrum sowie Umnutzungen generell.",
 		"template": "mappie001_print",
-		"orderKey": "07_00_00_00_00_000",
+		"orderKey": "02_04_00_00_00_000",
 		"parentId": 5825,
 		"children": [],
 		"renderLink": [],
@@ -13941,39 +14142,39 @@ var indikatoren = [
 		"visibleInPortal": false
 	},
 	{
-		"title": "Externe und interne Erreichbarkeit",
+		"title": "Kontinentale Erreichbarkeit",
 		"subtitle": "Basel-Stadt im Vergleich",
-		"kuerzel": "I.11.2.05908",
+		"kuerzel": "I.11.2.06256",
 		"kuerzelKunde": "ST 8-1",
-		"description": "Externe und interne Erreichbarkeit",
+		"description": "Kontinentale Erreichbarkeit",
 		"id": 6256,
 		"thema": "11 Verkehr",
 		"unterthema": "Beschäftigte ",
-		"kennzahlenset": "Richtplan-Print",
+		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-06-23T16:07:34.3434",
+		"aktualisierungsdatum": "2017-08-17T16:31:38.3838",
 		"schlagwort": [
 			"EuroAirport",
 			"Auto",
 			"Standort",
 			"Kantonsvergleich"
 		],
-		"stufe1": "Strategie 8",
-		"stufe2": "",
+		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
+		"stufe2": "Strategie 8: Qualität für Wirtschaft und Bildung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die kontinentale Erreichbarkeit der Stadt Basel hat sich zwischen 2000 und 2014 verbessert. Die Entwicklung bei den anderen Schweizer Städte verläuft im gleichen Zeitraum identisch. Die Stadt Zürich bewegt sich auf einem höheren Niveau als Basel und Genf, die Stadt Bern liegt darunter. Die Entwicklung bei der globalen Erreichbarkeit verläuft bei allen Städten parallel und über die Jahre auf gleichbleibendem Niveau. Basel bewegt sich auch bei diesem indikator zusammen mit Genf wiederum zwischen dem Level von Zürich und Bern.",
-		"erlaeuterungen": "Kontinentale Erreichbarkeit = Erreichbarkeit aller Regionen Europas. Erreichbarkeit ist kein klares, lineares Konzept. Vielmehr beruht es auf einer Vielzahl von Faktoren, die unter dem Themenbereich Erreichbarkeit subsumiert werden können. Die Erreichbarkeitsmodelle von BAKBASEL basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren. Zudem folgen sie dem Konzept der Erreichbarkeit «aus der Region» (outbound accessibility), d.h. es wird die Reisezeit und Frequenz herangezogen, die benötigt wird, um aus der Region andere Regionen zu erreichen. Der resultierende Indikator reflektiert das gesamte Potenzial aller Regionen ohne jegliche Limitierung der Reisezeit. Jedoch werden die Reisedestinationen über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet.",
+		"lesehilfe": "Die kontinentale Erreichbarkeit der Stadt Basel hat sich zwischen 1996 und 2014 verbessert. Die Entwicklung bei den anderen Schweizer Städten verläuft im gleichen Zeitraum ähnlich. Die Stadt Zürich bewegt sich auf einem leicht höheren Niveau als Basel und Genf, die Erreichbarkeit der Stadt Bern liegt etwas darunter.",
+		"erlaeuterungen": "Kontinentale Erreichbarkeit = Erreichbarkeit aller Regionen Europas. Erreichbarkeit ist kein klares, lineares Konzept. Vielmehr beruht es auf einer Vielzahl von Faktoren, die unter dem Themenbereich Erreichbarkeit subsumiert werden können. Die Erreichbarkeitsmodelle von BAK Economics basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren. Zudem folgen sie dem Konzept der Erreichbarkeit «aus der Region» (outbound accessibility), d.h. es wird die Reisezeit und Frequenz herangezogen, die benötigt wird, um aus der Region andere Regionen zu erreichen. Der resultierende Indikator reflektiert das gesamte Potenzial aller Regionen ohne jegliche Limitierung der Reisezeit. Jedoch werden die Reisedestinationen über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet.",
 		"template": "line001_print",
-		"orderKey": "08_00_00_00_00_000",
+		"orderKey": "02_05_00_00_00_000",
 		"parentId": 5891,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"BAK Basel Economics"
+			"BAK Economics"
 		],
 		"externalLinks": [
 			""
@@ -13983,13 +14184,13 @@ var indikatoren = [
 	{
 		"title": "Index der Bevölkerungs- und Beschäftigtenentwicklung",
 		"subtitle": "Werte 2005 = 100",
-		"kuerzel": "I.03.2.05901",
-		"kuerzelKunde": "ST4-10",
+		"kuerzel": "I.03.2.06257",
+		"kuerzelKunde": "ST 4-11",
 		"description": "Index der Bevölkerungs- und Beschäftigtenentwicklung",
 		"id": 6257,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
-		"kennzahlenset": "Richtplan-Print",
+		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Schweiz"
 		],
@@ -13997,19 +14198,20 @@ var indikatoren = [
 		"schlagwort": [
 			"Index"
 		],
-		"stufe1": "Strategie 4",
-		"stufe2": "",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
+		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Wohnbevölkerung ist im Kanton Basel-Stadt zwischen 2005 und 2014 von 187463 auf 196471 gestiegen, was einem Anstieg von etwa 4,8% entspricht. Demgegenüber stieg die Zahl der Beschäftigten von 171743 auf 191441, eine Steigerung von 11,5%.",
+		"lesehilfe": "Die Wohnbevölkerung ist im Kanton Basel-Stadt zwischen 2005 und 2014 von 187 463 auf 196 471 gestiegen, was einem Anstieg um etwa 4,8% entspricht. Demgegenüber stieg die Zahl der Beschäftigten um 11,5% von 171 743 auf 191 441.",
 		"erlaeuterungen": "",
 		"template": "line001_print",
-		"orderKey": "04_00_00_00_00_000",
+		"orderKey": "01_01_00_00_00_000",
 		"parentId": 5901,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
 		"externalLinks": [
@@ -14020,13 +14222,13 @@ var indikatoren = [
 	{
 		"title": "Verkehrsleistungsindex",
 		"subtitle": "",
-		"kuerzel": "I.02.6.06007",
-		"kuerzelKunde": "ST 08-2",
+		"kuerzel": "I.02.6.06258",
+		"kuerzelKunde": "ST 6-2",
 		"description": "Verkehrsleistungsindex",
 		"id": 6258,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Mobilitätsverhalten",
-		"kennzahlenset": "Richtplan-Print",
+		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -14034,15 +14236,15 @@ var indikatoren = [
 		"schlagwort": [
 			"Lärm"
 		],
-		"stufe1": "Strategie 8",
-		"stufe2": "",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
+		"stufe2": "Strategie 6: Erschliessungsqualität",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Von 2010 bis 2016 haben vor allem die Verkehrsmittel Velo und ÖV BVB/BLT einen Anstieg erfahren. Während demselben Zeitraum hat die Nutzung des Verkehrsmittel MIV Stadtstrassennetz abgenommen. Die Daten sind indexiert (Basis 2010 = 100).",
-		"erlaeuterungen": "Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1705' target='_blank'>Umweltbericht beider Basel</a>.",
+		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Die Veränderung gegenüber dem Referenzjahr 2010 wird in Prozent dargestellt (indexiert, 2010 = 100). Autoverkehr (MIV):Der Index für den motorisierten Individualverkehr berechnet sich anhand von rund 35 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamts für Strassen. Der Index umfasst die Verkehrsleistung aller Motorfahrzeuge (inkl. Lastwagen, Lieferwagen, Motorrädern), aber ohne Linienbusse, Motorfahrräder und E-Bikes.Veloverkehr:Der Index für den Veloverkehr wird auf Basis von rund 20 Zählstellen des Kantons Basel-Stadt berechnet. Da der Veloverkehr stark wetterabhängig ist, wurde vom Statistischen Amt des Kantons Basel-Stadt ein Modell entwickelt, welches es zulässt, den Wettereinfluss aus der Verkehrsentwicklung herauszurechnen.Fussverkehr:Der Index für den Fussverkehr basiert auf rund 17 Zählstellen. Die Daten werden erst seit dem Jahr 2013 erhoben.Öffentlicher Verkehr (ÖV):Der Index des öffentlichen Verkehrs wird auf Basis der Verkehrsdaten von Tram- und Buslinien der BVB und der BLT und den S-Bahnen, abgegrenzt auf das Gebiet des Kantons Basel-Stadt, berechnet. Der Gesamtindex für den ÖV kann im jeweiligen Jahr erst im Herbst veröffentlicht werden, sobald die Daten für die S-Bahnen vorliegen.Aus der Veränderung an den Zählstellen wird die Veränderung auf dem ganzen Kantonsgebiet abgeleitet, indem jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet wird. Der Index kann alle fünf Jahre durch die Auswertung des «Mikrozensus Verkehr» überprüft werden.Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1705' target='_blank'>Umweltbericht beider Basel</a>.",
 		"template": "line001_print",
-		"orderKey": "08_00_00_00_00_000",
+		"orderKey": "01_03_00_00_00_000",
 		"parentId": 6007,
 		"children": [],
 		"renderLink": [],
@@ -14057,13 +14259,13 @@ var indikatoren = [
 	{
 		"title": "Bevölkerung am Jahresende und Anzahl Wohnungen",
 		"subtitle": "",
-		"kuerzel": "I.01.1.05809",
+		"kuerzel": "I.01.1.06259",
 		"kuerzelKunde": "ST 4-1",
-		"description": "Bevölkerung am Jahresende nach Herkunft",
+		"description": "Bevölkerung am Jahresende und Anzahl Wohnungen",
 		"id": 6259,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Richtplan-Print",
+		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -14071,21 +14273,20 @@ var indikatoren = [
 		"schlagwort": [
 			"Bevölkerung"
 		],
-		"stufe1": "Strategie 4",
-		"stufe2": "",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
+		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die schweizerische Bevölkerung nahm von 1997 bis 2016 von gut 142 000 auf etwa 127 000 Personen ab. Dies entspricht einem Rückgang um rund 10%. Die ausländische Bevölkerung nahm im gleichen Zeitraum von knapp 52 000 auf leicht unter 71 000 Personen zu, was einem Zuwachs um 36% gleichkommt.",
+		"lesehilfe": "Die Wohnbevölkerung in Basel-Stadt liegt 2016 mit rund 198 000 Personen tiefer als noch 1960 (228 000 Personen). Demgegenüber steht ein Ansteig der Anzahl Wohnungen auf gut 108 000 Wohnungen (+30 000) über denselben Zeitraum. Der Höchststand der Bevölkerungszahl innerhalb des Beobachtungszeitraums lag 1969 bei über 238 000 Personen – seit dem Teifstwert 2006 (187 190) kann eine kontinuierliche Zunahme registriert werden.",
 		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister.",
 		"template": "template001_print",
-		"orderKey": "04_00_00_00_00_001",
-		"parentId": 2265,
-		"children": [
-			"5870"
-		],
+		"orderKey": "01_01_00_00_00_000",
+		"parentId": 6214,
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
@@ -14095,14 +14296,14 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
-		"subtitle": "",
-		"kuerzel": "I.01.1.05809",
-		"kuerzelKunde": "ST 4-1",
-		"description": "Bevölkerung am Jahresende nach Herkunft",
+		"subtitle": "Stand: 2017",
+		"kuerzel": "I.01.9.06260",
+		"kuerzelKunde": "ST 4-4",
+		"description": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
 		"id": 6260,
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Richtplan-Print",
+		"unterthema": "Szenarien",
+		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -14110,22 +14311,20 @@ var indikatoren = [
 		"schlagwort": [
 			"Bevölkerung"
 		],
-		"stufe1": "Strategie 4",
-		"stufe2": "",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
+		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die schweizerische Bevölkerung nahm von 1997 bis 2016 von gut 142 000 auf etwa 127 000 Personen ab. Dies entspricht einem Rückgang um rund 10%. Die ausländische Bevölkerung nahm im gleichen Zeitraum von knapp 52 000 auf leicht unter 71 000 Personen zu, was einem Zuwachs um 36% gleichkommt.",
-		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister.",
+		"lesehilfe": "Ende 2016 umfasste die baselstädtische Wohnbevölkerung rund 198 200 Personen. Das Mittlere Szenario der aktuellen Bevölkerungsszenarien des Kantons Basel-Stadt geht davon aus, dass sich die Zahl der in Basel-Stadt wohnhaften Personen bis 2035 auf etwa 212 600 erhöht.",
+		"erlaeuterungen": "Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der < href=\"http://www.statistik.bs.ch/zahlen/analysen/bevoelkerungsszenarien.html.\">Internetseite des Statistischen Amtes</a>",
 		"template": "template001_print",
-		"orderKey": "04_00_00_00_00_001",
-		"parentId": 2265,
-		"children": [
-			"5870"
-		],
+		"orderKey": "01_01_00_00_00_000",
+		"parentId": 6215,
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
 		"externalLinks": [
 			""
@@ -14133,38 +14332,37 @@ var indikatoren = [
 		"visibleInPortal": false
 	},
 	{
-		"title": "Zufiredenzeit mit verschiedenen Aspekten und Angeboten am Wohnort",
-		"subtitle": "",
-		"kuerzel": "I.01.1.05809",
-		"kuerzelKunde": "ST 4-1",
-		"description": "Bevölkerung am Jahresende nach Herkunft",
+		"title": "Zufriedenheit mit verschiedenen Aspekten und Angeboten am Wohnort",
+		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» Stand: 2015",
+		"kuerzel": "I.50.1.06261",
+		"kuerzelKunde": "ST 5-3",
+		"description": "Zufriedenheit mit verschiedenen Aspekten und Angeboten am Wohnort",
 		"id": 6261,
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Richtplan-Print",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
 		"schlagwort": [
+			"Zufriedenheit",
 			"Bevölkerung"
 		],
-		"stufe1": "Strategie 4",
-		"stufe2": "",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
+		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die schweizerische Bevölkerung nahm von 1997 bis 2016 von gut 142 000 auf etwa 127 000 Personen ab. Dies entspricht einem Rückgang um rund 10%. Die ausländische Bevölkerung nahm im gleichen Zeitraum von knapp 52 000 auf leicht unter 71 000 Personen zu, was einem Zuwachs um 36% gleichkommt.",
-		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister.",
+		"lesehilfe": "2015 hatten die befragten Personen die Gelegenheit verschiedene Punkte, die für den Wohnort wichtig sind, einzuschätzen. Am zufriedensten sind die befragten Einwohnerinnen und Einwohner mit den Öffentlichen Verkehrsmitteln, gefolgt von den Grünanlagen. Am wenigsten zufrieden sind Sie mit den Parkplätzen und dem Angebot an Wohnungen.",
+		"erlaeuterungen": "2003: N=1495, 2005: N=1509, 2007: N=1505, 2011: N=1516, 2015: N=1504.",
 		"template": "befragungen001_print",
-		"orderKey": "04_00_00_00_00_001",
-		"parentId": 2265,
-		"children": [
-			"5870"
-		],
+		"orderKey": "01_02_00_00_00_000",
+		"parentId": 6216,
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+			"Bevölkerungsbefragung Basel-Stadt 2015, Frage F6"
 		],
 		"externalLinks": [
 			""
@@ -14172,15 +14370,15 @@ var indikatoren = [
 		"visibleInPortal": false
 	},
 	{
-		"title": "Leerstehende Industrie- und Gewerberäume",
-		"subtitle": "",
-		"kuerzel": "I.09.2.06217",
-		"kuerzelKunde": "ST 7-3",
-		"description": "Leerstehende Industrie- und Gewerberäume",
+		"title": "Leerstehende Industrie- und Gewerbeflächen",
+		"subtitle": "in Quadratmetern",
+		"kuerzel": "I.09.2.06262",
+		"kuerzelKunde": "ST 7-4",
+		"description": "Leerstehende Industrie- und Gewerbeflächen",
 		"id": 6262,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
-		"kennzahlenset": "Richtplan-Print",
+		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -14188,19 +14386,21 @@ var indikatoren = [
 		"schlagwort": [
 			"Gebäude"
 		],
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
+		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Die Büroflächen machen mit gut 54 000 m<sup>2</sup> über die Hälfte aller leeren Geschäftsflächen aus. Der Leerstand von Industrie- und Gewerbeflächen errreichte 2011 mit total knapp 170 000 m<sup>2</sup> den Höchststand in den letzten 20 Jahren.",
 		"erlaeuterungen": "",
 		"template": "line001_print",
-		"orderKey": "_000",
-		"parentId": null,
+		"orderKey": "02_04_00_00_00_000",
+		"parentId": 6217,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"SVIT beider Basel"
+		],
 		"externalLinks": [
 			""
 		],
@@ -14209,36 +14409,34 @@ var indikatoren = [
 	{
 		"title": "Bevölkerung ab 15 Jahren nach Ausbildungsniveau",
 		"subtitle": "",
-		"kuerzel": "I.09.1.05816",
-		"kuerzelKunde": "ST 4-7",
-		"description": "Nettowohnungsproduktion",
+		"kuerzel": "I.15.6.06263",
+		"kuerzelKunde": "ST 8-2",
+		"description": "Bevölkerung ab 15 Jahren nach Ausbildungsniveau",
 		"id": 6263,
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Richtplan-Print",
+		"thema": "15 Bildung",
+		"unterthema": "Bildungsniveau",
+		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
 		"schlagwort": [
-			"Wohnen"
+			"Bildung"
 		],
-		"stufe1": "Strategie 4",
-		"stufe2": "",
+		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
+		"stufe2": "Strategie 8: Qualität für Wirtschaft und Bildung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 2014 war die Nettowohnungsproduktion überdurchschnittlich hoch. Dazu beigetragen hat eine hohe Neubauproduktion, ein positiver Umbausaldo und mit Ausnahme von 2015 eine niedrige Anzahl von Abbrüchen.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Seit 1990 hat sich der Anteil der Personen mit einer Ausbildung auf Tertiärstufe kontinuierlich erhöht. 2015 beträgt dieser Anteil 38%. Ebenfalls 38% der baselstädtischen Wohnbevölkerung besitzt eine höchste abgeschlossene Ausbildung auf Niveau Sekundarstufe 2 und 24% auf Niveau Sekundarstufe 1.",
+		"erlaeuterungen": "Die Sekundarstufe I umfasst Ausbildungen bis maximal der obligatorischen Schule. Unter Sekundarstufe II ist die berufliche Grundbildung, z. B. eine Berufslehre, sowie die allgemeinbildende Schule, z. B. die gymnasiale Maturität, zusammengefasst. Die Tertiärstufe umfasst die höhere Berufsbildung, z. B. die höhere Fachschule für Technik oder Wirtschaft, sowie Ausbildungen an Hochschulen, wie z. B. ein Bachelor- oder Masterstudium.",
 		"template": "template001_print",
-		"orderKey": "04_00_00_00_00_007",
-		"parentId": 4135,
-		"children": [
-			"5876"
-		],
+		"orderKey": "02_05_00_00_00_000",
+		"parentId": 6218,
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
 		"externalLinks": [
 			""
@@ -14246,38 +14444,37 @@ var indikatoren = [
 		"visibleInPortal": false
 	},
 	{
-		"title": "Haushalte",
+		"title": "Indexierter Verlauf der Haushalte in Begegnungszonen",
 		"subtitle": "",
-		"kuerzel": "I.09.1.05816",
-		"kuerzelKunde": "ST 4-7",
-		"description": "Nettowohnungsproduktion",
+		"kuerzel": "I.01.2.06264",
+		"kuerzelKunde": "ST 5-4",
+		"description": "Indexierter Verlauf der Haushalte in Begegnungszonen",
 		"id": 6264,
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Richtplan-Print",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Haushalte",
+		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
 		"schlagwort": [
-			"Wohnen"
+			"Haushalt"
 		],
-		"stufe1": "Strategie 4",
-		"stufe2": "",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
+		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 2014 war die Nettowohnungsproduktion überdurchschnittlich hoch. Dazu beigetragen hat eine hohe Neubauproduktion, ein positiver Umbausaldo und mit Ausnahme von 2015 eine niedrige Anzahl von Abbrüchen.",
+		"lesehilfe": "Die Anzahl Privathaushalte in Begegnungszonen ist von 2011 bis 2016 prozentual stärker angestiegen als das Total der Privathaushalte in der Stadt Basel. Ende 2016 gibt es 6 954 Privathaushalte in Begegnungszonen.",
 		"erlaeuterungen": "",
 		"template": "line001_print",
-		"orderKey": "04_00_00_00_00_007",
-		"parentId": 4135,
-		"children": [
-			"5876"
-		],
+		"orderKey": "01_02_00_00_00_000",
+		"parentId": 6220,
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Planungsamt Basel-Stadt"
 		],
 		"externalLinks": [
 			""
@@ -14287,13 +14484,13 @@ var indikatoren = [
 	{
 		"title": "Anzahl Beschäftigte nach Branche",
 		"subtitle": "",
-		"kuerzel": "I.03.2.06236",
-		"kuerzelKunde": "",
+		"kuerzel": "I.03.2.06265",
+		"kuerzelKunde": "ST 7-1",
 		"description": "Anzahl Beschäftigte nach Branche",
-		"id": 6245,
+		"id": 6265,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
-		"kennzahlenset": "Richtplan-Print",
+		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -14302,16 +14499,16 @@ var indikatoren = [
 			"Arbeit",
 			"Angestellte"
 		],
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
+		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "",
+		"lesehilfe": "Im Jahr 2015 sind in Basel-Stadt 190 753 Personen beschäftigt. Das sind 821 Personen weniger als im Vorjahr.  Den grössten Beschäftigungsrückgang verzeichnet die Branchengruppe Handel und Verkehr mit einer Abnahme um 1512 Personen, während im Gesundheits- und Sozialwesen mit 549 zusätzlichen Beschäftigten der grösste Zuwachs zu beobachten ist.",
+		"erlaeuterungen": "Unternehmens-DL, Freiberufe umfasst: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen, Erbringung von sonstigen wirtschaftlichen Dienstleistungen; Übrige Branchen umfasst: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Beherbergung und Gastronomie, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches  die STATENT-Methode für die entsprechenden Jahre simuliert.",
 		"template": "template001_print",
-		"orderKey": "_000",
-		"parentId": null,
+		"orderKey": "02_04_00_00_00_000",
+		"parentId": 6236,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
@@ -15835,11 +16032,11 @@ var indikatoren = [
 		"visibleInPortal": false
 	},
 	{
-		"title": "Energieverbrauch nach Verbrauchergruppe in Mio. kWh",
+		"title": "Endenergieverbrauch nach Verbrauchergruppe",
 		"subtitle": "in Mio. kWh",
 		"kuerzel": "I.08.1.06312",
 		"kuerzelKunde": "7.1",
-		"description": "Energieverbrauch nach Verbrauchergruppe in Mio. kWh",
+		"description": "Endenergieverbrauch nach Verbrauchergruppe",
 		"id": 6312,
 		"thema": "08 Energie",
 		"unterthema": "Verbrauch",
@@ -17082,7 +17279,9 @@ var indikatoren = [
 		"template": "line001",
 		"orderKey": "09_00_00_00_00_001",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6370"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Gesundheit (BAG)",
@@ -17121,7 +17320,9 @@ var indikatoren = [
 		"template": "template001",
 		"orderKey": "02_00_00_00_00_005",
 		"parentId": 6236,
-		"children": [],
+		"children": [
+			"6371"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -17158,7 +17359,9 @@ var indikatoren = [
 		"template": "template001",
 		"orderKey": "01_00_00_00_00_002",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6372"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Credit Suisse Group AG"

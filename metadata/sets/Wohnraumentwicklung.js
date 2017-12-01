@@ -2,7 +2,7 @@ var indikatorensetData = [
 	{
 		"title": "Zufriedenheit mit dem Wohnungsangebot",
 		"subtitle": "«Wie zufrieden sind sie mit dem Wohnungsangebot?»",
-		"kuerzel": "I.50.1.4127",
+		"kuerzel": "I.50.1.04127",
 		"kuerzelKunde": "0.1.A",
 		"description": "Zufriedenheit mit dem Wohnungsangebot",
 		"id": 4127,
@@ -40,7 +40,7 @@ var indikatorensetData = [
 	{
 		"title": "Mietpreisentwicklung",
 		"subtitle": "nach Zimmerzahl",
-		"kuerzel": "I.09.3.4128",
+		"kuerzel": "I.09.3.04128",
 		"kuerzelKunde": "0.1.B-1",
 		"description": "Mietpreisentwicklung",
 		"id": 4128,
@@ -77,7 +77,7 @@ var indikatorensetData = [
 	{
 		"title": "Mietpreisentwicklung der Leerwohnungen",
 		"subtitle": "nach Zimmerzahl",
-		"kuerzel": "I.09.2.4129",
+		"kuerzel": "I.09.2.04129",
 		"kuerzelKunde": "0.1.B-2",
 		"description": "Mietpreisentwicklung der Leerwohnungen",
 		"id": 4129,
@@ -151,7 +151,7 @@ var indikatorensetData = [
 	{
 		"title": "Wohnungsbelegung",
 		"subtitle": "nach Belegungsart",
-		"kuerzel": "I.09.1.4131",
+		"kuerzel": "I.09.1.04131",
 		"kuerzelKunde": "0.1.C",
 		"description": "Wohnungsbelegung",
 		"id": 4131,
@@ -186,11 +186,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Bevölkerung am Jahresende",
+		"title": "Bevölkerungsbestand am Jahresende",
 		"subtitle": "",
-		"kuerzel": "I.01.1.4132",
+		"kuerzel": "I.01.1.04132",
 		"kuerzelKunde": "1.1.A",
-		"description": "Bevölkerung am Jahresende",
+		"description": "Bevölkerungsbestand am Jahresende",
 		"id": 4132,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
@@ -228,7 +228,7 @@ var indikatorensetData = [
 	{
 		"title": "Anzahl Wohnungen",
 		"subtitle": "nach Zimmerzahl",
-		"kuerzel": "I.09.1.4133",
+		"kuerzel": "I.09.1.04133",
 		"kuerzelKunde": "1.2.A",
 		"description": "Anzahl Wohnungen",
 		"id": 4133,
@@ -265,7 +265,7 @@ var indikatorensetData = [
 	{
 		"title": "Anteile am Wohnungsbestand",
 		"subtitle": "nach Zimmerzahl und Wohnflächenkategorie, Stand 2016",
-		"kuerzel": "I.09.1.4134",
+		"kuerzel": "I.09.1.04134",
 		"kuerzelKunde": "1.2.B",
 		"description": "Anteile am Wohnungsbestand",
 		"id": 4134,
@@ -302,7 +302,7 @@ var indikatorensetData = [
 	{
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "",
-		"kuerzel": "I.09.1.4135",
+		"kuerzel": "I.09.1.04135",
 		"kuerzelKunde": "1.2.C-1",
 		"description": "Nettowohnungsproduktion",
 		"id": 4135,
@@ -341,7 +341,7 @@ var indikatorensetData = [
 	{
 		"title": "Umbausaldo",
 		"subtitle": "nach Art des Umbaus",
-		"kuerzel": "I.09.1.4136",
+		"kuerzel": "I.09.1.04136",
 		"kuerzelKunde": "1.2.C-2",
 		"description": "Umbausaldo",
 		"id": 4136,
@@ -378,7 +378,7 @@ var indikatorensetData = [
 	{
 		"title": "Anzahl neu erstellte Wohnungen",
 		"subtitle": "",
-		"kuerzel": "I.09.1.4137",
+		"kuerzel": "I.09.1.04137",
 		"kuerzelKunde": "1.2.E",
 		"description": "Anzahl neu erstellte Wohnungen",
 		"id": 4137,
@@ -415,7 +415,7 @@ var indikatorensetData = [
 	{
 		"title": "Anzahl Leerwohnungen und Leerwohnungsquote",
 		"subtitle": "nach Zimmerzahl",
-		"kuerzel": "I.09.2.4138",
+		"kuerzel": "I.09.2.04138",
 		"kuerzelKunde": "1.2.F-1",
 		"description": "Anzahl Leerwohnungen und Leerwohnungsquote",
 		"id": 4138,
@@ -490,7 +490,7 @@ var indikatorensetData = [
 	{
 		"title": "Mittlere Wohnfläche pro Person",
 		"subtitle": "",
-		"kuerzel": "I.09.1.4140",
+		"kuerzel": "I.09.1.04140",
 		"kuerzelKunde": "1.3.A",
 		"description": "Mittlere Wohnfläche pro Person",
 		"id": 4140,
@@ -529,7 +529,7 @@ var indikatorensetData = [
 	{
 		"title": "Anteile der Haushalte",
 		"subtitle": "nach Art des Haushalts",
-		"kuerzel": "I.01.2.4141",
+		"kuerzel": "I.01.2.04141",
 		"kuerzelKunde": "1.4.A1",
 		"description": "Anteile der Haushalte",
 		"id": 4141,
@@ -566,7 +566,7 @@ var indikatorensetData = [
 	{
 		"title": "Anteile der Familienhaushalte",
 		"subtitle": "nach Art der Zusammensetzung",
-		"kuerzel": "I.01.2.4142",
+		"kuerzel": "I.01.2.04142",
 		"kuerzelKunde": "1.4.A2",
 		"description": "Anteile der Familienhaushalte",
 		"id": 4142,
@@ -603,7 +603,7 @@ var indikatorensetData = [
 	{
 		"title": "Anzahl Genossenschaftswohnungen und Anteil am Bestand",
 		"subtitle": "",
-		"kuerzel": "I.09.1.4143",
+		"kuerzel": "I.09.1.04143",
 		"kuerzelKunde": "1.4.B",
 		"description": "Anzahl Genossenschaftswohnungen und Anteil am Bestand",
 		"id": 4143,
@@ -640,7 +640,7 @@ var indikatorensetData = [
 	{
 		"title": "Zufriedenheit mit dem Wohnungsangebot - nur Familien",
 		"subtitle": "«Wie zufrieden sind sie mit dem Wohnungsangebot?»",
-		"kuerzel": "I.50.1.4144",
+		"kuerzel": "I.50.1.04144",
 		"kuerzelKunde": "1.4.C",
 		"description": "Zufriedenheit mit dem Wohnungsangebot - nur Familien",
 		"id": 4144,
@@ -677,7 +677,7 @@ var indikatorensetData = [
 	{
 		"title": "Wohneigentumsquote",
 		"subtitle": "",
-		"kuerzel": "I.09.1.4145",
+		"kuerzel": "I.09.1.04145",
 		"kuerzelKunde": "1.6.A",
 		"description": "Wohneigentumsquote",
 		"id": 4145,
@@ -714,7 +714,7 @@ var indikatorensetData = [
 	{
 		"title": "Anzahl und Anteil Wohnungen mit 4 oder mehr Zimmern",
 		"subtitle": "",
-		"kuerzel": "I.09.1.4146",
+		"kuerzel": "I.09.1.04146",
 		"kuerzelKunde": "2.1.A",
 		"description": "Anzahl und Anteil Wohnungen mit 4 oder mehr Zimmern",
 		"id": 4146,
@@ -751,7 +751,7 @@ var indikatorensetData = [
 	{
 		"title": "Saldo des Steuerertrages von Zu- und Wegzügern",
 		"subtitle": "",
-		"kuerzel": "I.18.2.4147",
+		"kuerzel": "I.18.2.04147",
 		"kuerzelKunde": "2.1.B",
 		"description": "Saldo des Steuerertrages von Zu- und Wegzügern",
 		"id": 4147,
@@ -788,7 +788,7 @@ var indikatorensetData = [
 	{
 		"title": "Erwachsene Einwohner mit Hauptwohnsitz in Basel-Stadt",
 		"subtitle": "",
-		"kuerzel": "I.01.1.4148",
+		"kuerzel": "I.01.1.04148",
 		"kuerzelKunde": "2.2.A",
 		"description": "Erwachsene Einwohner mit Hauptwohnsitz in Basel-Stadt",
 		"id": 4148,
@@ -825,7 +825,7 @@ var indikatorensetData = [
 	{
 		"title": "Freiraumfläche und Anteil an der Gesamtfläche",
 		"subtitle": "",
-		"kuerzel": "I.02.1.4149",
+		"kuerzel": "I.02.1.04149",
 		"kuerzelKunde": "3.2.A",
 		"description": "Freiraumfläche und Anteil an der Gesamtfläche",
 		"id": 4149,
@@ -862,7 +862,7 @@ var indikatorensetData = [
 	{
 		"title": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
 		"subtitle": "«Wie zufrieden sind Sie mit den Grünanlagen und Parks in Ihrem Wohnort?»",
-		"kuerzel": "I.50.1.4150",
+		"kuerzel": "I.50.1.04150",
 		"kuerzelKunde": "3.2.B",
 		"description": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
 		"id": 4150,
@@ -902,7 +902,7 @@ var indikatorensetData = [
 	{
 		"title": "Zufriedenheit mit Gestaltung und Erhaltung von Gebäuden und Strassenbild",
 		"subtitle": "«Wie zufrieden sind Sie mit der Gestaltung und Erhaltung von Gebäuden und Strassenbild?»",
-		"kuerzel": "I.50.1.4151",
+		"kuerzel": "I.50.1.04151",
 		"kuerzelKunde": "3.3.A",
 		"description": "Zufriedenheit mit Gestaltung und Erhaltung von Gebäuden und Strassenbild",
 		"id": 4151,
@@ -939,7 +939,7 @@ var indikatorensetData = [
 	{
 		"title": "Haushalte mit Familienmietzinsbeiträgen",
 		"subtitle": "",
-		"kuerzel": "I.13.2.4152",
+		"kuerzel": "I.13.2.04152",
 		"kuerzelKunde": "4.1.A",
 		"description": "Haushalte mit Familienmietzinsbeiträgen",
 		"id": 4152,
@@ -975,7 +975,7 @@ var indikatorensetData = [
 	{
 		"title": "Ausbezahlte Familienmietzinsbeiträge",
 		"subtitle": "",
-		"kuerzel": "I.13.2.4153",
+		"kuerzel": "I.13.2.04153",
 		"kuerzelKunde": "4.1.B",
 		"description": "Ausbezahlte Familienmietzinsbeiträge",
 		"id": 4153,
@@ -1049,7 +1049,7 @@ var indikatorensetData = [
 	{
 		"title": "Zufriedenheit mit Einrichtungen und Angeboten für behinderte Menschen",
 		"subtitle": "«Wie zufrieden sind Sie mit den Einrichtungen und Angeboten für behinderte Menschen?»",
-		"kuerzel": "I.50.1.4155",
+		"kuerzel": "I.50.1.04155",
 		"kuerzelKunde": "4.2.A",
 		"description": "Zufriedenheit mit Einrichtungen und Angeboten für behinderte Menschen",
 		"id": 4155,
@@ -1085,7 +1085,7 @@ var indikatorensetData = [
 	{
 		"title": "Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
 		"subtitle": "«Wie zufrieden sind Sie mit der altersangepassten Einrichtung des Wohngebäudes?»",
-		"kuerzel": "I.50.4.4156",
+		"kuerzel": "I.50.4.04156",
 		"kuerzelKunde": "4.2.C",
 		"description": "Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
 		"id": 4156,

@@ -1434,11 +1434,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Energieverbrauch nach Verbrauchergruppe in Mio. kWh",
+		"title": "Endenergieverbrauch nach Verbrauchergruppe",
 		"subtitle": "in Mio. kWh",
 		"kuerzel": "I.08.1.06312",
 		"kuerzelKunde": "7.1",
-		"description": "Energieverbrauch nach Verbrauchergruppe in Mio. kWh",
+		"description": "Endenergieverbrauch nach Verbrauchergruppe",
 		"id": 6312,
 		"thema": "08 Energie",
 		"unterthema": "Verbrauch",
