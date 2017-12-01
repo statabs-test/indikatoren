@@ -158,16 +158,16 @@
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
-    <text x="295" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="172" opacity="1">
+    <text x="295" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="170" opacity="1">
       <tspan>0%</tspan>
     </text>
-    <text x="295" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="136" opacity="1">
+    <text x="295" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="134" opacity="1">
       <tspan>10%</tspan>
     </text>
-    <text x="295" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="100" opacity="1">
+    <text x="295" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="99" opacity="1">
       <tspan>20%</tspan>
     </text>
-    <text x="295" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="65" opacity="1">
+    <text x="295" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="63" opacity="1">
       <tspan>30%</tspan>
     </text>
   </g>

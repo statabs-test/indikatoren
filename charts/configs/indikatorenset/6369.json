@@ -358,16 +358,17 @@
     "title": {
       "style": {
         "color": "#000000",
-        "fontSize": null
+        "fontSize": 10
       },
-      "text": null
+      "text": ""
     },
     "labels": {
       "style": {
         "fontSize": 10,
         "color": "#000000"
       },
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f}",
+      "y": 3
     },
     "tickAmount": 7
   },
