@@ -21,7 +21,7 @@
           194979.25868184
         ]
       ],
-      "name": "Verkehr",
+      "name": "Verkehr total",
       "turboThreshold": 0
     },
     {
@@ -48,7 +48,7 @@
           0.99435583714207
         ]
       ],
-      "name": "pro Kopf",
+      "name": "Verkehr pro Kopf",
       "turboThreshold": 0
     }
   ],

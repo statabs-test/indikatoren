@@ -15396,50 +15396,6 @@
 		]
 	},
 	{
-		"title": "Kantonale Durchschnittsprämien je versicherte Person in Franken, Basel-Stadt im Vergleich zu BL, AG und SO",
-		"subtitle": "",
-		"kuerzel": "I.14.4.5065",
-		"kuerzelKunde": "9.1",
-		"description": "Kantonale Durchschnittsprämien je versicherte Person in Franken, Basel-Stadt im Vergleich zu BL, AG und SO",
-		"id": 6280,
-		"thema": "14 Gesundheit",
-		"unterthema": "Prävention, Praxen, Rettung",
-		"kennzahlenset": "Legislaturplan (Print)",
-		"raeumlicheGliederung": [
-			"Kanton",
-			"Schweiz"
-		],
-		"aktualisierungsdatum": "2017-03-02T13:21:53.5353",
-		"schlagwort": [
-			"Bevölkerung",
-			"Spital",
-			"Kantonsvergleich"
-		],
-		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die kantonale Durchschnittsprämie lag 2015 in Basel-Stadt bei 4 515 Franken pro Person und damit gut 1 200 Franken über dem landesweiten Mittel. Der relative Anstieg seit 2006 beträgt in Basel-Stadt 26% und damit ein Prozent weniger als in der gesamten Schweiz. Der Kanton Solothurn verzeichnete in den vergangenen 10 Jahren mit gut 38% den höchsten Anstieg.",
-		"erlaeuterungen": "Für alle Versicherten für alle Versicherungsformen.",
-		"template": "line001_print",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": false,
-		"orderKey": "09_00_00_00_00_000",
-		"parentId": 5065,
-		"children": [],
-		"renderLink": [
-			""
-		],
-		"quellenangabe": [
-			"Bundesamt für Gesundheit (BAG)"
-		],
-		"externalLinks": [
-			""
-		]
-	},
-	{
 		"title": "Anteil PV-Beziehende mit Sozialhilfe und Ergänzungsleistungen an der Bevölkerung",
 		"subtitle": "",
 		"kuerzel": "I.13.2.06281",
@@ -17210,49 +17166,6 @@
 		"renderLink": [],
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
-		],
-		"externalLinks": [
-			""
-		]
-	},
-	{
-		"title": "Sicherheitsempfinden im Alltag nach Geschlecht",
-		"subtitle": "«Wie sicher fühlen Sie sich ganz allgemein im Alltag?»",
-		"kuerzel": "I.50.1.06178",
-		"kuerzelKunde": "10.4",
-		"description": "Sicherheitsempfinden im Alltag nach Geschlecht",
-		"id": 6325,
-		"thema": "50 Befragungen",
-		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Legislaturplan (Print)",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Verbrechen",
-			"Gefühl"
-		],
-		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Mit einem Anteil von 42,2% fühlte sich weniger als die Hälfte der Befragten im Alltag sehr sicher und 49,0% fühlten sich eher sicher. Im Vergleich zu den vorherigen Befragungen fühlten sich dieBefragten im Alltag weniger sicher. Am höchsten war dasSicherheitsempfinden 2003 als der Anteil derjenigen, die sichgrundsätzlich sehr sicher fühlen, über 55% lag.",
-		"erlaeuterungen": "",
-		"template": "befragungen001_print",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": false,
-		"orderKey": "10_00_00_00_00_000",
-		"parentId": 6178,
-		"children": [],
-		"renderLink": [
-			""
-		],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9"
 		],
 		"externalLinks": [
 			""

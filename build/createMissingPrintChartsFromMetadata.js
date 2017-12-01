@@ -11,12 +11,23 @@ files.forEach(function(filepath){
     fs.writeFileSync(filepath, fileContentsStripped);
     var indikator = JSON.parse(fileContentsStripped);
     
-    if ((indikator.visible == undefined || indikator.visible == true) && indikator.kennzahlenset.toLowerCase().includes('print')) {
+    if ((indikator.visible == undefined || indikator.visible == true) && indikator.kennzahlenset.toLowerCase().includes('legislaturplan (print)')) {
         console.log(filepath + ' is visible and in a print kennzahlenset, checking for data and chart definition...');
         //parent must be present
         if (indikator.parentId){
-          copyFile('data/' + indikator.parentId + '.tsv', 'data/' + indikator.id + '.tsv');
-          copyFile('charts/templates/' + indikator.parentId + '.js', 'charts/templates/' + indikator.id + '.js');
+          var sourceCsvPath = 'data/' + indikator.parentId + '.tsv';
+          var targetCsvPath = 'data/' + indikator.id + '.tsv';
+          copyFileIfNotExists('data/' + indikator.parentId + '.tsv', 'data/' + indikator.id + '.tsv');
+          //overwrite tsv files
+          /*
+          try{
+            fs.writeFileSync(targetCsvPath, fs.readFileSync(sourceCsvPath));
+          }
+          catch (err){
+            console.log(err);
+          }
+          */
+          copyFileIfNotExists('charts/templates/' + indikator.parentId + '.js', 'charts/templates/' + indikator.id + '.js');
         }
     }
     else {
@@ -25,8 +36,8 @@ files.forEach(function(filepath){
 });
 
 
-//if destination file does not exist, copy source from file 
-function copyFile(sourceFilePath, destinationFilePath){
+//only if destination file does not exist, copy source from file 
+function copyFileIfNotExists(sourceFilePath, destinationFilePath){
   fs.open(destinationFilePath, 'r', (err, fd) => {
     if (err) {
       if (err.code === 'ENOENT') {
@@ -43,3 +54,4 @@ function copyFile(sourceFilePath, destinationFilePath){
     }
   });        
 }
+
