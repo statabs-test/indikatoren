@@ -11,7 +11,7 @@ files.forEach(function(filepath){
     fs.writeFileSync(filepath, fileContentsStripped);
     var indikator = JSON.parse(fileContentsStripped);
     
-    if ((indikator.visible == undefined || indikator.visible == true) && indikator.kennzahlenset.toLowerCase().includes('legislaturplan (print)')) {
+    if ((indikator.visible == undefined || indikator.visible == true) && indikator.kennzahlenset.toLowerCase().includes('print')) {
         console.log(filepath + ' is visible and in a print kennzahlenset, checking for data and chart definition...');
         //parent must be present
         if (indikator.parentId){
