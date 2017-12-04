@@ -14,35 +14,35 @@
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   },
   "series": [
-    {"color": "#b00000 ",
+    {"color": "#71A3B5 ",
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     
     }, /* rot */
-	{"color": "#672773",
+	{"color": "#B00000",
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* violett */
-  	{"color": "#007a2f",
+  	{"color": "#FF8028",
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     },/* grün  */
-    {"color": "#7F5F1A",
+    {"color": "#CD9C00",
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     },/* braun  */
-    {"color": "#E6E600",
+    {"color": "#923F8D",
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     },/* gelb  */
-    {"color": "#008AC3",
+    {"color": "#999999",
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     },/* blau  */
   ],

@@ -29,9 +29,9 @@
                     text: null
                 },
                 "labels": {
-                      formatter: function () {
-                        return Math.abs(this.value);
-                        },
+                    formatter: function () {
+                    	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ");
+                	},
                     "style": {
                         "color": "#000000"
                     }

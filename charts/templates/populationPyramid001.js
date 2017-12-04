@@ -81,8 +81,8 @@
                 }, 
                 //Display absolute value
                 formatter: function () {
-                    return Math.abs(this.value);
-                }
+                    return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ");
+                },
             },
          /*xAxis:[{
                         title: {
@@ -125,7 +125,7 @@
         },
         tooltip: {
             pointFormatter: function () {
-                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Math.abs(this.y) + '</b><br/>';
+                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( Math.abs(this.y), 0, ",", " ") + '</b><br/>';
             }
         },
         customFunctions: {

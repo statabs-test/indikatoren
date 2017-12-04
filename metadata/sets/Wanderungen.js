@@ -347,7 +347,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wanderungs- und Umzugssaldo pro 100 Einwohner",
-		"subtitle": "Stand: 0",
+		"subtitle": "Stand: 2016",
 		"kuerzel": "I.01.5.06022",
 		"kuerzelKunde": "1-12",
 		"description": "Wanderungs- und Umzugssaldo pro 100 Einwohner",

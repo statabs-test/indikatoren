@@ -20,14 +20,12 @@
       plotOptions: {
         pie: {
          colors: [
-           '#007A2F', 
-           '#68AB2B ',
-           '#73B97C',
-           '#990300',
-           '#6F6F6F',
-           '#3C3C3C',
-           '#008AC3'
-         ],
+           '#71A3B5', 
+           '#B00000 ',
+           '#FF8028',
+           '#CD9C00',
+           '#923F8D',
+           '#999999'         ],
 		dataLabels: {
 		                enabled: true,
 		                format: '{point.percentage:.0f}%',
