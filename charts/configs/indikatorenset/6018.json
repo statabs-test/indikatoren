@@ -289,16 +289,19 @@
     "renderTo": "container-6018"
   },
   "plotOptions": {
+    "bar": {
+      "grouping": false
+    },
     "series": {
       "stacking": null,
+      "pointPadding": 0,
+      "borderWidth": 0,
+      "groupPadding": 0,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
-      },
-      "pointPadding": 0,
-      "borderWidth": 0,
-      "pointWidth": 16
+      }
     }
   },
   "title": {

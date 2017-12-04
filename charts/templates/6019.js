@@ -85,14 +85,6 @@
               //pointWidth: 15
             }
 	    ],
-	    plotOptions: {
-            series: {
-                stacking: null,
-                pointPadding: 0,
-                borderWidth: 0,
-                pointWidth: 16
-            }
-   },
         "legend": {
             "enabled": true,
             "layout": "horizontal",

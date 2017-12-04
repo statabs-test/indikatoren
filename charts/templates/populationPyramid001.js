@@ -40,8 +40,14 @@
             }, 
         },    
         plotOptions: {
+        	bar: {
+        		grouping: false
+        	},
             series: {
-            	stacking: 'normal',
+            	stacking: null,
+	            pointPadding: 0,
+	            borderWidth: 0,
+	            groupPadding: 0,            	
                 dataLabels: {
                     style: {
                         fontSize: "10px"
