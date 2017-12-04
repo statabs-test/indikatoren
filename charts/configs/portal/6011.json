@@ -538,9 +538,6 @@
       },
       "format": "{value:,.0f}"
     },
-    "min": -16000,
-    "max": 16000,
-    "tickInterval": 4000,
     "plotLines": [
       {
         "value": 0,

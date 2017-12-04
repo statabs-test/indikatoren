@@ -1,9 +1,9 @@
 {
   "series": [
     {
-      "color": "#b00000 ",
+      "color": "#71A3B5 ",
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
@@ -50,9 +50,9 @@
       "name": "Deutschland"
     },
     {
-      "color": "#672773",
+      "color": "#B00000",
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
@@ -99,9 +99,9 @@
       "name": "Italien"
     },
     {
-      "color": "#007a2f",
+      "color": "#FF8028",
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
@@ -148,9 +148,9 @@
       "name": "Frankreich"
     },
     {
-      "color": "#7F5F1A",
+      "color": "#CD9C00",
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
@@ -197,9 +197,9 @@
       "name": "USA"
     },
     {
-      "color": "#E6E600",
+      "color": "#923F8D",
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
@@ -246,9 +246,9 @@
       "name": "UK"
     },
     {
-      "color": "#008AC3",
+      "color": "#999999",
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
