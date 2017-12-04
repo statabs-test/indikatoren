@@ -43,16 +43,16 @@
   </g>
   <g class="highcharts-series-group">
     <g class="highcharts-series highcharts-series-0 highcharts-column-series " transform="translate(62,143) scale(1 1)" clip-path="url(#a)">
-      <rect x="16" y="44" width="15" height="1" fill="#83038" class="highcharts-point"/>
-      <rect x="57" y="35" width="15" height="1" fill="#83038" class="highcharts-point"/>
-      <rect x="98" y="40" width="15" height="1" fill="#83038" class="highcharts-point"/>
-      <rect x="138" y="39" width="15" height="1" fill="#83038" class="highcharts-point"/>
-      <rect x="179" y="34" width="15" height="2" fill="#83038" class="highcharts-point"/>
-      <rect x="219" y="35" width="15" height="2" fill="#83038" class="highcharts-point"/>
-      <rect x="260" y="29" width="15" height="1" fill="#83038" class="highcharts-point"/>
-      <rect x="300" y="39" width="15" height="0" fill="#83038" class="highcharts-point"/>
-      <rect x="341" y="35" width="15" height="0" fill="#83038" class="highcharts-point"/>
-      <rect x="382" y="31" width="15" height="1" fill="#83038" class="highcharts-point"/>
+      <rect x="16" y="44" width="15" height="1" fill="#083038" class="highcharts-point"/>
+      <rect x="57" y="35" width="15" height="1" fill="#083038" class="highcharts-point"/>
+      <rect x="98" y="40" width="15" height="1" fill="#083038" class="highcharts-point"/>
+      <rect x="138" y="39" width="15" height="1" fill="#083038" class="highcharts-point"/>
+      <rect x="179" y="34" width="15" height="2" fill="#083038" class="highcharts-point"/>
+      <rect x="219" y="35" width="15" height="2" fill="#083038" class="highcharts-point"/>
+      <rect x="260" y="29" width="15" height="1" fill="#083038" class="highcharts-point"/>
+      <rect x="300" y="39" width="15" height="0" fill="#083038" class="highcharts-point"/>
+      <rect x="341" y="35" width="15" height="0" fill="#083038" class="highcharts-point"/>
+      <rect x="382" y="31" width="15" height="1" fill="#083038" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-column-series " transform="translate(62,143) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-1 highcharts-column-series " transform="translate(62,143) scale(1 1)" clip-path="url(#a)">
@@ -166,7 +166,7 @@
           <text x="21" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
             <tspan>Zuzugsort: unbekannt</tspan>
           </text>
-          <rect x="2" y="4" width="12" height="12" fill="#83038" class="highcharts-point"/>
+          <rect x="2" y="4" width="12" height="12" fill="#083038" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4" transform="translate(208,3)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
@@ -200,13 +200,13 @@
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3" transform="translate(8,60)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Zuzugsort: schweizer Aggl…</tspan><title>Zuzugsort: schweizer Agglo BS</title>
+            <tspan>Zuzugsort: Schweizer Aggl…</tspan><title>Zuzugsort: Schweizer Agglo BS</title>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#A8C3CA" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-7" transform="translate(208,60)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Wegzugsort: schweizer Ag…</tspan><title>Wegzugsort: schweizer Agglo BS</title>
+            <tspan>Wegzugsort: Schweizer Ag…</tspan><title>Wegzugsort: Schweizer Agglo BS</title>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#D7E8D2" class="highcharts-point"/>
         </g>

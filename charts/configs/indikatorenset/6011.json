@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#83038",
+      "color": "#083038",
       "type": "column",
       "pointWidth": "15",
       "legendIndex": 0,
@@ -194,7 +194,7 @@
           3101
         ]
       ],
-      "name": "Zuzugsort: schweizer Agglo BS"
+      "name": "Zuzugsort: Schweizer Agglo BS"
     },
     {
       "color": "#007A2F",
@@ -390,7 +390,7 @@
           -4483
         ]
       ],
-      "name": "Wegzugsort: schweizer Agglo BS"
+      "name": "Wegzugsort: Schweizer Agglo BS"
     },
     {
       "color": "#000000",
