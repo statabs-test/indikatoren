@@ -48,7 +48,8 @@
   },
   "series": [
     {
-      "color": "#2B0099", // dunkelblau -Zuzug_Unbekannt
+      "color": "#083038", // dunkelblau -Zuzug_Unbekannt
+      //"color": "#83038", // dunkelblau -Zuzug_Unbekannt
       //"index": 0,
       "type": "column",
       "pointWidth": "15",
