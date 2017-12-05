@@ -444,6 +444,18 @@ var templatesById = {
 	"6370": "line001_print",
 	"6371": "template001_print",
 	"6372": "template001_print",
+	"6373": "map001",
+	"6374": "map001",
+	"6375": "mappie001",
+	"6376": "mappie001",
+	"6377": "mappie001",
+	"6378": "mappie001",
+	"6379": "mappie001",
+	"6380": "mappie001",
+	"6381": "mappie001",
+	"6382": "map001",
+	"6383": "mappie001",
+	"6384": "mappie001",
 	"9998": "pie001",
 	"9999": "mappie002"
 };
