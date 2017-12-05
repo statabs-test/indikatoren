@@ -277,7 +277,7 @@
     <tspan>Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100</tspan><tspan dy="17" x="10">Einwohner</tspan><title>Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner</title>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="57">
-    <tspan>Stand: &amp;jahrvon%</tspan>
+    <tspan>Stand: 2016</tspan>
   </text>
   <g class="highcharts-data-labels highcharts-series-5 highcharts-mapline-series " visibility="visible" transform="translate(10,72) scale(1 1)" clip-path="url(#a)">
     <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(86,231)">
