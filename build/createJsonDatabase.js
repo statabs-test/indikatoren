@@ -51,32 +51,38 @@ files.forEach(function(filepath){
 
 //handle visibleInPortal
 allIndikatoren.forEach((element, i, arr) => {
-	//if (element.id == 6138){
 	//is chart member of a print kennzahlenset?
 	if (element.kennzahlenset.toLowerCase().includes('print') || element.kennzahlenset == "Umwelt" || element.kennzahlenset == "Test" ) {
-		console.log(element.id + ' is in Umwelt, Test or a print kennzahlenset, setting visibleInPortal to false...');
+		console.log(element.id + ' is in Umwelt, Test or a print kennzahlenset [' + element.kennzahlenset + '], setting visibleInPortal to false...');
 		element.visibleInPortal = false;
 	}
 	else {
 		//does chart have a mother?
 		if (!element["parentId"]){
-			console.log(element.id + ' does not have a mother, setting visibleInPortal to true...');
+			console.log(element.id + ' does not have a parent, setting visibleInPortal to true...');
 			element.visibleInPortal = true;
 		}
 		else {
 			//is mother chart available? 
-			if (arr.find(obj => obj.id == element.parentId)){
-				console.log(element.id + ' has a mother with an available metadata file, setting visibleInPortal to false...');
-				element.visibleInPortal = false;
+			var mother = arr.find(obj => obj.id == element.parentId);
+			if (mother){
+				//is mother also in renderLink, so that both need to be displayed?
+				if (element.renderLink.indexOf(String(mother.id)) > -1){
+					console.log(element.id + ' has a parent which is also defined in renderLink, setting visibleInPortal to true...');
+					element.visibleInPortal = true;
+				}
+				else {
+					console.log(element.id + ' has a parent with an available metadata file, setting visibleInPortal to false...');
+					element.visibleInPortal = false;
+				}
 			}
 			//mother chart must be in an unpublished kennzahlenset
 			else {
-				console.log(element.id + ' does not have a mother with an available metadata file, setting visibleInPortal to true...');
+				console.log(element.id + ' does not have a parent with an available metadata file, setting visibleInPortal to true...');
 				element.visibleInPortal = true;
 			}
 		}
 	}
-	//}
 	if (element.visibleInPortal) {
 		indikatorenInPortal.push(element);
 	}
