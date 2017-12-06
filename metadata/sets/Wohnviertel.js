@@ -2,7 +2,7 @@ var indikatorensetData = [
 	{
 		"title": "Sozialhilfequote",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.13.3.4822",
+		"kuerzel": "I.13.3.04822",
 		"kuerzelKunde": "GS-1.A",
 		"description": "Sozialhilfequote",
 		"id": 4822,
@@ -45,7 +45,7 @@ var indikatorensetData = [
 	{
 		"title": "Anteil Ausländer",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.1.4823",
+		"kuerzel": "I.01.1.04823",
 		"kuerzelKunde": "GS-2.A",
 		"description": "Anteil Ausländer",
 		"id": 4823,
@@ -88,7 +88,7 @@ var indikatorensetData = [
 	{
 		"title": "Anteil Personen ohne Religionszugehörigkeit",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.7.4824",
+		"kuerzel": "I.01.7.04824",
 		"kuerzelKunde": "GS-3.A",
 		"description": "Anteil Personen ohne Religionszugehörigkeit",
 		"id": 4824,
@@ -131,7 +131,7 @@ var indikatorensetData = [
 	{
 		"title": "Anteil Personen in Einpersonenhaushalten",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.2.4825",
+		"kuerzel": "I.01.2.04825",
 		"kuerzelKunde": "GS-4.A",
 		"description": "Anteil Personen in Einpersonenhaushalten",
 		"id": 4825,
@@ -174,7 +174,7 @@ var indikatorensetData = [
 	{
 		"title": "Gymnasialquote",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.15.6.4826",
+		"kuerzel": "I.15.6.04826",
 		"kuerzelKunde": "GS-5.A",
 		"description": "Gymnasialquote",
 		"id": 4826,
@@ -218,7 +218,7 @@ var indikatorensetData = [
 	{
 		"title": "Altersquotient",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.1.4827",
+		"kuerzel": "I.01.1.04827",
 		"kuerzelKunde": "GS-6.A",
 		"description": "Altersquotient",
 		"id": 4827,
@@ -262,7 +262,7 @@ var indikatorensetData = [
 	{
 		"title": "Sesshaftigkeit",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.1.4828",
+		"kuerzel": "I.01.1.04828",
 		"kuerzelKunde": "GS-7.A",
 		"description": "Sesshaftigkeit",
 		"id": 4828,
@@ -305,7 +305,7 @@ var indikatorensetData = [
 	{
 		"title": "Jugendquotient",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.1.4829",
+		"kuerzel": "I.01.1.04829",
 		"kuerzelKunde": "GS-8.A",
 		"description": "Jugendquotient",
 		"id": 4829,
@@ -349,7 +349,7 @@ var indikatorensetData = [
 	{
 		"title": "Baujahr Wohngebäude",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.09.1.4830",
+		"kuerzel": "I.09.1.04830",
 		"kuerzelKunde": "RU-1.A",
 		"description": "Baujahr Wohngebäude",
 		"id": 4830,
@@ -393,7 +393,7 @@ var indikatorensetData = [
 	{
 		"title": "Anteil Einfamilienhäuser",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.09.1.4831",
+		"kuerzel": "I.09.1.04831",
 		"kuerzelKunde": "RU-2.A",
 		"description": "Anteil Einfamilienhäuser",
 		"id": 4831,
@@ -436,7 +436,7 @@ var indikatorensetData = [
 	{
 		"title": "Anteil Grünflächen",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.02.1.4832",
+		"kuerzel": "I.02.1.04832",
 		"kuerzelKunde": "RU-3.A",
 		"description": "Anteil Grünflächen",
 		"id": 4832,
@@ -479,7 +479,7 @@ var indikatorensetData = [
 	{
 		"title": "Fläche pro Wohnung",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.09.1.4833",
+		"kuerzel": "I.09.1.04833",
 		"kuerzelKunde": "RU-4.A",
 		"description": "Fläche pro Wohnung",
 		"id": 4833,
@@ -522,7 +522,7 @@ var indikatorensetData = [
 	{
 		"title": "Wohnfläche pro Kopf",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.09.1.4834",
+		"kuerzel": "I.09.1.04834",
 		"kuerzelKunde": "RU-5.A",
 		"description": "Wohnfläche pro Kopf",
 		"id": 4834,
@@ -566,7 +566,7 @@ var indikatorensetData = [
 	{
 		"title": "Vermögenssteuer pro Veranlagung",
 		"subtitle": "Stand: Steuerjahr 2014",
-		"kuerzel": "I.18.2.4835",
+		"kuerzel": "I.18.2.04835",
 		"kuerzelKunde": "WA-1.A",
 		"description": "Vermögenssteuer pro Veranlagung",
 		"id": 4835,
@@ -609,7 +609,7 @@ var indikatorensetData = [
 	{
 		"title": "Einkommenssteuer pro Veranlagung",
 		"subtitle": "Stand: Steuerjahr 2014",
-		"kuerzel": "I.18.2.4836",
+		"kuerzel": "I.18.2.04836",
 		"kuerzelKunde": "WA-2.A",
 		"description": "Einkommenssteuer pro Veranlagung",
 		"id": 4836,
@@ -652,7 +652,7 @@ var indikatorensetData = [
 	{
 		"title": "Erwerbstätigenquote",
 		"subtitle": "Stand: gepoolte Daten 2010 - 2014",
-		"kuerzel": "I.03.1.4837",
+		"kuerzel": "I.03.1.04837",
 		"kuerzelKunde": "WA-3.A",
 		"description": "Erwerbstätigenquote",
 		"id": 4837,
@@ -695,7 +695,7 @@ var indikatorensetData = [
 	{
 		"title": "Arbeitsplätze pro Kopf",
 		"subtitle": "Stand: 2014",
-		"kuerzel": "I.03.2.4838",
+		"kuerzel": "I.03.2.04838",
 		"kuerzelKunde": "WA-4.A",
 		"description": "Arbeitsplätze pro Kopf",
 		"id": 4838,
@@ -738,7 +738,7 @@ var indikatorensetData = [
 	{
 		"title": "Arbeitslosenquote",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.03.4.4839",
+		"kuerzel": "I.03.4.04839",
 		"kuerzelKunde": "WA-5.A",
 		"description": "Arbeitslosenquote",
 		"id": 4839,
@@ -783,7 +783,7 @@ var indikatorensetData = [
 	{
 		"title": "Sozialhilfequote",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.13.3.5109",
+		"kuerzel": "I.13.3.05109",
 		"kuerzelKunde": "GS-1.B",
 		"description": "Sozialhilfequote",
 		"id": 5109,
@@ -824,7 +824,7 @@ var indikatorensetData = [
 	{
 		"title": "Anteil Ausländer",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.1.5110",
+		"kuerzel": "I.01.1.05110",
 		"kuerzelKunde": "GS-2.B",
 		"description": "Anteil Ausländer",
 		"id": 5110,
@@ -865,7 +865,7 @@ var indikatorensetData = [
 	{
 		"title": "Anteil Personen ohne Religionszugehörigkeit",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.7.5111",
+		"kuerzel": "I.01.7.05111",
 		"kuerzelKunde": "GS-3.B",
 		"description": "Anteil Personen ohne Religionszugehörigkeit",
 		"id": 5111,
@@ -906,7 +906,7 @@ var indikatorensetData = [
 	{
 		"title": "Anteil Personen in Einpersonenhaushalten",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.2.5112",
+		"kuerzel": "I.01.2.05112",
 		"kuerzelKunde": "GS-4.B",
 		"description": "Anteil Personen in Einpersonenhaushalten",
 		"id": 5112,
@@ -947,7 +947,7 @@ var indikatorensetData = [
 	{
 		"title": "Gymnasialquote",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.15.6.5113",
+		"kuerzel": "I.15.6.05113",
 		"kuerzelKunde": "GS-5.B",
 		"description": "Gymnasialquote",
 		"id": 5113,
@@ -989,7 +989,7 @@ var indikatorensetData = [
 	{
 		"title": "Altersquotient",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.1.5114",
+		"kuerzel": "I.01.1.05114",
 		"kuerzelKunde": "GS-6.B",
 		"description": "Altersquotient",
 		"id": 5114,
@@ -1031,7 +1031,7 @@ var indikatorensetData = [
 	{
 		"title": "Sesshaftigkeit",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.1.5115",
+		"kuerzel": "I.01.1.05115",
 		"kuerzelKunde": "GS-7.B",
 		"description": "Sesshaftigkeit",
 		"id": 5115,
@@ -1072,7 +1072,7 @@ var indikatorensetData = [
 	{
 		"title": "Jugendquotient",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.1.5116",
+		"kuerzel": "I.01.1.05116",
 		"kuerzelKunde": "GS-8.B",
 		"description": "Jugendquotient",
 		"id": 5116,
@@ -1114,7 +1114,7 @@ var indikatorensetData = [
 	{
 		"title": "Baujahr Wohngebäude",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.09.1.5117",
+		"kuerzel": "I.09.1.05117",
 		"kuerzelKunde": "RU-1.B",
 		"description": "Baujahr Wohngebäude",
 		"id": 5117,
@@ -1156,7 +1156,7 @@ var indikatorensetData = [
 	{
 		"title": "Anteil Einfamilienhäuser",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.09.1.5118",
+		"kuerzel": "I.09.1.05118",
 		"kuerzelKunde": "RU-2.B",
 		"description": "Anteil Einfamilienhäuser",
 		"id": 5118,
@@ -1197,7 +1197,7 @@ var indikatorensetData = [
 	{
 		"title": "Anteil Grünflächen",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.02.1.5119",
+		"kuerzel": "I.02.1.05119",
 		"kuerzelKunde": "RU-3.B",
 		"description": "Anteil Grünflächen",
 		"id": 5119,
@@ -1238,7 +1238,7 @@ var indikatorensetData = [
 	{
 		"title": "Fläche pro Wohnung",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.09.1.5120",
+		"kuerzel": "I.09.1.05120",
 		"kuerzelKunde": "RU-4.B",
 		"description": "Fläche pro Wohnung",
 		"id": 5120,
@@ -1279,7 +1279,7 @@ var indikatorensetData = [
 	{
 		"title": "Wohnfläche pro Kopf",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.09.1.5121",
+		"kuerzel": "I.09.1.05121",
 		"kuerzelKunde": "RU-5.B",
 		"description": "Wohnfläche pro Kopf",
 		"id": 5121,
@@ -1321,7 +1321,7 @@ var indikatorensetData = [
 	{
 		"title": "Vermögenssteuer pro Veranlagung",
 		"subtitle": "Stand: Steuerjahr 2014",
-		"kuerzel": "I.18.2.5122",
+		"kuerzel": "I.18.2.05122",
 		"kuerzelKunde": "WA-1.B",
 		"description": "Vermögenssteuer pro Veranlagung",
 		"id": 5122,
@@ -1362,7 +1362,7 @@ var indikatorensetData = [
 	{
 		"title": "Einkommenssteuer pro Veranlagung",
 		"subtitle": "Stand: Steuerjahr 2014",
-		"kuerzel": "I.18.2.5123",
+		"kuerzel": "I.18.2.05123",
 		"kuerzelKunde": "WA-2.B",
 		"description": "Einkommenssteuer pro Veranlagung",
 		"id": 5123,
@@ -1403,7 +1403,7 @@ var indikatorensetData = [
 	{
 		"title": "Erwerbstätigenquote",
 		"subtitle": "Stand: gepoolte Daten 2010 - 2014",
-		"kuerzel": "I.03.1.5124",
+		"kuerzel": "I.03.1.05124",
 		"kuerzelKunde": "WA-3.B",
 		"description": "Erwerbstätigenquote",
 		"id": 5124,
@@ -1444,7 +1444,7 @@ var indikatorensetData = [
 	{
 		"title": "Arbeitsplätze pro Kopf",
 		"subtitle": "Stand: 2014",
-		"kuerzel": "I.03.2.5125",
+		"kuerzel": "I.03.2.05125",
 		"kuerzelKunde": "WA-4.B",
 		"description": "Arbeitsplätze pro Kopf",
 		"id": 5125,
@@ -1485,7 +1485,7 @@ var indikatorensetData = [
 	{
 		"title": "Arbeitslosenquote",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.03.4.5126",
+		"kuerzel": "I.03.4.05126",
 		"kuerzelKunde": "WA-5.B",
 		"description": "Arbeitslosenquote",
 		"id": 5126,

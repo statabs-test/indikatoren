@@ -2,7 +2,7 @@ var indikatorensetData = [
 	{
 		"title": "Ausländeranteil nach Staatsangehörigkeit seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.01.1.4200",
+		"kuerzel": "I.01.1.04200",
 		"kuerzelKunde": "1-1",
 		"description": "Ausländeranteil nach Staatsangehörigkeit seit 2006",
 		"id": 4200,
@@ -45,7 +45,7 @@ var indikatorensetData = [
 	{
 		"title": "Altersquotient nach Staatsangehörigkeit",
 		"subtitle": "Stand: 2015",
-		"kuerzel": "I.01.1.4203",
+		"kuerzel": "I.01.1.04203",
 		"kuerzelKunde": "1-2",
 		"description": "Altersquotient nach Staatsangehörigkeit",
 		"id": 4203,
@@ -88,7 +88,7 @@ var indikatorensetData = [
 	{
 		"title": "Jugendquotient nach Staatsangehörigkeit",
 		"subtitle": "Stand: 2015",
-		"kuerzel": "I.01.1.4218",
+		"kuerzel": "I.01.1.04218",
 		"kuerzelKunde": "1-3",
 		"description": "Jugendquotient nach Staatsangehörigkeit",
 		"id": 4218,
@@ -131,7 +131,7 @@ var indikatorensetData = [
 	{
 		"title": "Anzahl Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.01.1.4219",
+		"kuerzel": "I.01.1.04219",
 		"kuerzelKunde": "1-4A",
 		"description": "Anzahl Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit seit 2006",
 		"id": 4219,
@@ -172,7 +172,7 @@ var indikatorensetData = [
 	{
 		"title": "Anteil Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit 2006 und 2015",
 		"subtitle": "",
-		"kuerzel": "I.01.1.4220",
+		"kuerzel": "I.01.1.04220",
 		"kuerzelKunde": "1-4B",
 		"description": "Anteil Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit 2006 und 2015",
 		"id": 4220,
@@ -215,7 +215,7 @@ var indikatorensetData = [
 	{
 		"title": "Anzahl Ausländer nach Art der Bewilligung seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.01.1.4339",
+		"kuerzel": "I.01.1.04339",
 		"kuerzelKunde": "1-5A",
 		"description": "Anzahl Ausländer nach Art der Bewilligung seit 2006",
 		"id": 4339,
@@ -258,7 +258,7 @@ var indikatorensetData = [
 	{
 		"title": "Anteil Ausländer nach Staatsangehörigkeit und Art der Bewilligung",
 		"subtitle": "Stand: 2015",
-		"kuerzel": "I.01.1.4340",
+		"kuerzel": "I.01.1.04340",
 		"kuerzelKunde": "1-5B",
 		"description": "Anteil Ausländer nach Staatsangehörigkeit und Art der Bewilligung",
 		"id": 4340,
@@ -302,7 +302,7 @@ var indikatorensetData = [
 	{
 		"title": "Einbürgerungsziffer nach ehemaliger Staatsangehörigkeit seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.01.6.4342",
+		"kuerzel": "I.01.6.04342",
 		"kuerzelKunde": "1-6",
 		"description": "Einbürgerungsziffer nach ehemaliger Staatsangehörigkeit seit 2006",
 		"id": 4342,
@@ -349,7 +349,7 @@ var indikatorensetData = [
 	{
 		"title": "Anzahl Personen mit und ohne Migrationshintergrund nach Staatsangehörigkeit (Schweiz / Ausland) 2010 bis 2014",
 		"subtitle": "",
-		"kuerzel": "I.01.1.4462",
+		"kuerzel": "I.01.1.04462",
 		"kuerzelKunde": "1-7",
 		"description": "Anzahl Personen mit und ohne Migrationshintergrund nach Staatsangehörigkeit (Schweiz / Ausland) 2010 bis 2014",
 		"id": 4462,
@@ -395,7 +395,7 @@ var indikatorensetData = [
 	{
 		"title": "Anteil Personen, welche zu Hause «deutsch» oder «schweizerdeutsch» sprechen nach Staatsangehörigkeit 2010 bis 2014",
 		"subtitle": "",
-		"kuerzel": "I.01.8.4463",
+		"kuerzel": "I.01.8.04463",
 		"kuerzelKunde": "1-8",
 		"description": "Anteil Personen, welche zu Hause «deutsch» oder «schweizerdeutsch» sprechen nach Staatsangehörigkeit 2010 bis 2014",
 		"id": 4463,
@@ -441,7 +441,7 @@ var indikatorensetData = [
 	{
 		"title": "Segregationsindex nach Staatsangehörigkeit seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.01.1.4465",
+		"kuerzel": "I.01.1.04465",
 		"kuerzelKunde": "2-1",
 		"description": "Segregationsindex nach Staatsangehörigkeit seit 2006",
 		"id": 4465,
@@ -487,7 +487,7 @@ var indikatorensetData = [
 	{
 		"title": "Anteil Ausländer nach Wohndauer und Zuzugsort seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.01.5.4466",
+		"kuerzel": "I.01.5.04466",
 		"kuerzelKunde": "2-2",
 		"description": "Anteil Ausländer nach Wohndauer und Zuzugsort seit 2006",
 		"id": 4466,
@@ -535,7 +535,7 @@ var indikatorensetData = [
 	{
 		"title": "Schweizer Bevölkerung nach Wohndauer und Geburtsort seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.01.1.4467",
+		"kuerzel": "I.01.1.04467",
 		"kuerzelKunde": "2-3A",
 		"description": "Schweizer Bevölkerung nach Wohndauer und Geburtsort seit 2006",
 		"id": 4467,
@@ -582,7 +582,7 @@ var indikatorensetData = [
 	{
 		"title": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeit seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.01.5.4468",
+		"kuerzel": "I.01.5.04468",
 		"kuerzelKunde": "2-4",
 		"description": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeit seit 2006",
 		"id": 4468,
@@ -627,7 +627,7 @@ var indikatorensetData = [
 	{
 		"title": "Arbeitslosenquote nach Staatsangehörigkeit seit 2010",
 		"subtitle": "",
-		"kuerzel": "I.03.4.4469",
+		"kuerzel": "I.03.4.04469",
 		"kuerzelKunde": "3-3",
 		"description": "Arbeitslosenquote nach Staatsangehörigkeit seit 2010",
 		"id": 4469,
@@ -676,7 +676,7 @@ var indikatorensetData = [
 	{
 		"title": "Gymnasialquote nach Staatsangehörigkeit seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.15.6.4739",
+		"kuerzel": "I.15.6.04739",
 		"kuerzelKunde": "3-1",
 		"description": "Gymnasialquote nach Staatsangehörigkeit seit 2006",
 		"id": 4739,
@@ -722,7 +722,7 @@ var indikatorensetData = [
 	{
 		"title": "Lehrabbruchquote nach Staatsangehörigkeit seit 2011",
 		"subtitle": "",
-		"kuerzel": "I.15.3.4740",
+		"kuerzel": "I.15.3.04740",
 		"kuerzelKunde": "3-2",
 		"description": "Lehrabbruchquote nach Staatsangehörigkeit seit 2011",
 		"id": 4740,
@@ -772,7 +772,7 @@ var indikatorensetData = [
 	{
 		"title": "Erwerbstätigenquote nach Staatsangehörigkeit 2010 bis 2014",
 		"subtitle": "",
-		"kuerzel": "I.03.1.4741",
+		"kuerzel": "I.03.1.04741",
 		"kuerzelKunde": "3-4",
 		"description": "Erwerbstätigenquote nach Staatsangehörigkeit 2010 bis 2014",
 		"id": 4741,
@@ -821,7 +821,7 @@ var indikatorensetData = [
 	{
 		"title": "Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit seit 2008",
 		"subtitle": "",
-		"kuerzel": "I.18.3.4743",
+		"kuerzel": "I.18.3.04743",
 		"kuerzelKunde": "3-5",
 		"description": "Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit seit 2008",
 		"id": 4743,
@@ -871,7 +871,7 @@ var indikatorensetData = [
 	{
 		"title": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeitund Alter 2015",
 		"subtitle": "",
-		"kuerzel": "I.01.5.4877",
+		"kuerzel": "I.01.5.04877",
 		"kuerzelKunde": "2-5",
 		"description": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeitund Alter 2015",
 		"id": 4877,
@@ -918,7 +918,7 @@ var indikatorensetData = [
 	{
 		"title": "Ausländische Bevölkerung nach Wohndauer und Geburtsort seit 2006",
 		"subtitle": "",
-		"kuerzel": "I.01.1.4905",
+		"kuerzel": "I.01.1.04905",
 		"kuerzelKunde": "2-3B",
 		"description": "Ausländische Bevölkerung nach Wohndauer und Geburtsort seit 2006",
 		"id": 4905,

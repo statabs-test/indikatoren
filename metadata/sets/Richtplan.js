@@ -424,7 +424,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bewertung der Lebensqualität",
-		"subtitle": "",
+		"subtitle": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?»",
 		"kuerzel": "I.50.1.05821",
 		"kuerzelKunde": "ST 5-2",
 		"description": "Bewertung der Lebensqualität",
@@ -450,10 +450,11 @@ var indikatorensetData = [
 		"template": "befragungenProzent001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "01_02_00_00_00_002",
-		"parentId": 5037,
+		"parentId": null,
 		"children": [
+			"5165",
 			"6110",
 			"6252"
 		],
@@ -594,7 +595,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Kontinentale Erreichbarkeit",
-		"subtitle": "Basel im Vergleich",
+		"subtitle": "Stadt Basel im nationalen Vergleich",
 		"kuerzel": "I.11.2.05891",
 		"kuerzelKunde": "ST 8-1",
 		"description": "Kontinentale Erreichbarkeit",
@@ -622,9 +623,9 @@ var indikatorensetData = [
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "02_05_00_00_00_001",
-		"parentId": 3104,
+		"parentId": null,
 		"children": [
 			"6119",
 			"6256"
@@ -682,7 +683,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Verkehrsleistungsindex",
-		"subtitle": "",
+		"subtitle": "Indexwert (Basis 2010 = 100)",
 		"kuerzel": "I.02.6.06007",
 		"kuerzelKunde": "ST 6-2",
 		"description": "Verkehrsleistungsindex",
@@ -707,9 +708,9 @@ var indikatorensetData = [
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "01_03_00_00_00_002",
-		"parentId": null,
+		"parentId": 6154,
 		"children": [
 			"6123",
 			"6258"
@@ -835,9 +836,9 @@ var indikatorensetData = [
 		"template": "befragungen001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "01_02_00_00_00_003",
-		"parentId": 5178,
+		"parentId": null,
 		"children": [
 			"6223",
 			"6261"

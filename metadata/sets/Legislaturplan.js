@@ -91,7 +91,7 @@ var indikatorensetData = [
 	{
 		"title": "Zufriedenheit mit dem Kulturangebot nach Geschlecht, Herkunft und Altersgruppe",
 		"subtitle": "«Wie zufrieden sind Sie mit dem Kulturangebot?»",
-		"kuerzel": "I.50.1.2953",
+		"kuerzel": "I.50.1.02953",
 		"kuerzelKunde": "8.1",
 		"description": "Zufriedenheit mit dem Kulturangebot nach Geschlecht, Herkunft und Altersgruppe",
 		"id": 2953,
@@ -138,7 +138,7 @@ var indikatorensetData = [
 	{
 		"title": "Zufriedenheit mit der Gesundheitsversorgung nach Geschlecht, Herkunft und Altersgruppe",
 		"subtitle": "«Wie zufrieden sind Sie mit der Gesundheitsversorgung?»",
-		"kuerzel": "I.50.1.2956",
+		"kuerzel": "I.50.1.02956",
 		"kuerzelKunde": "9.4",
 		"description": "Zufriedenheit mit der Gesundheitsversorgung nach Geschlecht, Herkunft und Altersgruppe",
 		"id": 2956,
@@ -182,7 +182,7 @@ var indikatorensetData = [
 	{
 		"title": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
 		"subtitle": "nach Geschlecht",
-		"kuerzel": "I.15.7.3051",
+		"kuerzel": "I.15.7.03051",
 		"kuerzelKunde": "3.1b",
 		"description": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
 		"id": 3051,
@@ -226,7 +226,7 @@ var indikatorensetData = [
 	{
 		"title": "Durch BaselArea unterstützte internationale Ansiedlungen",
 		"subtitle": "in BS, BL, JU",
-		"kuerzel": "I.04.1.3086",
+		"kuerzel": "I.04.1.03086",
 		"kuerzelKunde": "2.4",
 		"description": "Durch BaselArea unterstützte internationale Ansiedlungen",
 		"id": 3086,
@@ -257,7 +257,9 @@ var indikatorensetData = [
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_004",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6368"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BaselArea"
@@ -301,7 +303,6 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [
 			"5016",
-			"5891",
 			"6278"
 		],
 		"renderLink": [],
@@ -315,7 +316,7 @@ var indikatorensetData = [
 	{
 		"title": "Transnationale Patentanmeldungen pro 1000 Einwohner",
 		"subtitle": "nach ausgewählten Wirtschaftsbranchen;  Stand 2010 bis 2013",
-		"kuerzel": "I.04.1.5033",
+		"kuerzel": "I.04.1.05033",
 		"kuerzelKunde": "3.6",
 		"description": "Transnationale Patentanmeldungen pro 1000 Einwohner",
 		"id": 5033,
@@ -359,7 +360,7 @@ var indikatorensetData = [
 	{
 		"title": "Neugründungen in Basel-Stadt",
 		"subtitle": "in ausgewählten Branchen",
-		"kuerzel": "I.03.2.5041",
+		"kuerzel": "I.03.2.05041",
 		"kuerzelKunde": "2.3",
 		"description": "Neugründungen in Basel-Stadt",
 		"id": 5041,
@@ -387,7 +388,9 @@ var indikatorensetData = [
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_003",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6369"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
@@ -399,7 +402,7 @@ var indikatorensetData = [
 	{
 		"title": "Anteil PV-Beziehende mit Sozialhilfe und Ergänzungsleistungen an der Bevölkerung",
 		"subtitle": "",
-		"kuerzel": "I.13.2.5066",
+		"kuerzel": "I.13.2.05066",
 		"kuerzelKunde": "11.1",
 		"description": "Anteil PV-Beziehende mit Sozialhilfe und Ergänzungsleistungen an der Bevölkerung",
 		"id": 5066,
@@ -469,10 +472,11 @@ var indikatorensetData = [
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_001",
-		"parentId": 6045,
+		"parentId": null,
 		"children": [
+			"6045",
 			"6282"
 		],
 		"renderLink": [],
@@ -512,10 +516,11 @@ var indikatorensetData = [
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_001",
-		"parentId": 6050,
+		"parentId": null,
 		"children": [
+			"6050",
 			"6283"
 		],
 		"renderLink": [],
@@ -570,12 +575,12 @@ var indikatorensetData = [
 	{
 		"title": "Steuereinnahmen aus Quellensteuer",
 		"subtitle": "in Franken",
-		"kuerzel": "I.04.1.06128",
+		"kuerzel": "I.18.2.06128",
 		"kuerzelKunde": "1.4",
 		"description": "Steuereinnahmen aus Quellensteuer",
 		"id": 6128,
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Volkseinkommen",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -639,7 +644,6 @@ var indikatorensetData = [
 		"orderKey": "02_00_00_00_00_006",
 		"parentId": null,
 		"children": [
-			"6157",
 			"6286"
 		],
 		"renderLink": [],
@@ -653,12 +657,12 @@ var indikatorensetData = [
 	{
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
 		"subtitle": "in Franken; Kapital und Reserven: 2 Mio. Fr.; Reingewinn: 80 000 Fr.",
-		"kuerzel": "I.04.1.06130",
+		"kuerzel": "I.18.2.06130",
 		"kuerzelKunde": "2.11a",
 		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
 		"id": 6130,
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Volkseinkommen",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -725,6 +729,12 @@ var indikatorensetData = [
 		"orderKey": "02_00_00_00_00_008",
 		"parentId": null,
 		"children": [
+			"5161",
+			"5193",
+			"6138",
+			"6170",
+			"6172",
+			"6184",
 			"6288"
 		],
 		"renderLink": [],
@@ -738,12 +748,12 @@ var indikatorensetData = [
 	{
 		"title": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
 		"subtitle": "in Mio. Franken",
-		"kuerzel": "I.04.1.06132",
+		"kuerzel": "I.18.2.06132",
 		"kuerzelKunde": "2.10",
 		"description": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
 		"id": 6132,
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Volkseinkommen",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -762,10 +772,11 @@ var indikatorensetData = [
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_010",
-		"parentId": 5162,
+		"parentId": null,
 		"children": [
+			"5162",
 			"6289"
 		],
 		"renderLink": [],
@@ -888,10 +899,11 @@ var indikatorensetData = [
 		"template": "befragungen001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_004",
-		"parentId": 5191,
+		"parentId": null,
 		"children": [
+			"5191",
 			"6292"
 		],
 		"renderLink": [],
@@ -931,10 +943,11 @@ var indikatorensetData = [
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_005",
-		"parentId": 6053,
+		"parentId": null,
 		"children": [
+			"6053",
 			"6293"
 		],
 		"renderLink": [],
@@ -978,7 +991,7 @@ var indikatorensetData = [
 		"visible": true,
 		"visibleInPortal": false,
 		"orderKey": "03_00_00_00_00_006",
-		"parentId": 5161,
+		"parentId": 6131,
 		"children": [
 			"6294"
 		],
@@ -1020,10 +1033,11 @@ var indikatorensetData = [
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_008",
-		"parentId": 6049,
+		"parentId": null,
 		"children": [
+			"6049",
 			"6295"
 		],
 		"renderLink": [],
@@ -1063,10 +1077,11 @@ var indikatorensetData = [
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_009",
-		"parentId": 6048,
+		"parentId": null,
 		"children": [
+			"6048",
 			"6296"
 		],
 		"renderLink": [],
@@ -1187,10 +1202,11 @@ var indikatorensetData = [
 		"template": "befragungen001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_005",
-		"parentId": 6034,
+		"parentId": null,
 		"children": [
+			"6034",
 			"6299"
 		],
 		"renderLink": [],
@@ -1231,10 +1247,11 @@ var indikatorensetData = [
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_006",
-		"parentId": 6037,
+		"parentId": null,
 		"children": [
+			"6037",
 			"6300"
 		],
 		"renderLink": [],
@@ -1275,9 +1292,9 @@ var indikatorensetData = [
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_007",
-		"parentId": 6038,
+		"parentId": null,
 		"children": [
 			"6301"
 		],
@@ -1321,10 +1338,11 @@ var indikatorensetData = [
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_008",
-		"parentId": 6043,
+		"parentId": null,
 		"children": [
+			"6043",
 			"6302"
 		],
 		"renderLink": [],
@@ -1364,10 +1382,11 @@ var indikatorensetData = [
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_009",
-		"parentId": 6054,
+		"parentId": null,
 		"children": [
+			"6054",
 			"6303"
 		],
 		"renderLink": [],
@@ -1405,9 +1424,9 @@ var indikatorensetData = [
 		"template": "befragungen001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_010",
-		"parentId": 5165,
+		"parentId": null,
 		"children": [
 			"6304"
 		],
@@ -1451,6 +1470,7 @@ var indikatorensetData = [
 		"orderKey": "04_00_00_00_00_014",
 		"parentId": null,
 		"children": [
+			"6078",
 			"6305"
 		],
 		"renderLink": [],
@@ -1488,10 +1508,12 @@ var indikatorensetData = [
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "05_00_00_00_00_002",
-		"parentId": 4319,
+		"parentId": null,
 		"children": [
+			"4319",
+			"6007",
 			"6306"
 		],
 		"renderLink": [],
@@ -1614,10 +1636,11 @@ var indikatorensetData = [
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "07_00_00_00_00_007",
-		"parentId": 6129,
+		"parentId": null,
 		"children": [
+			"6029",
 			"6309"
 		],
 		"renderLink": [],
@@ -1658,9 +1681,9 @@ var indikatorensetData = [
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "05_00_00_00_00_005",
-		"parentId": 6031,
+		"parentId": null,
 		"children": [
 			"6310"
 		],
@@ -1673,14 +1696,14 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Anteil übermässig mit Lärm belastete Wohnbevölkerung",
+		"title": "Übermässig mit Lärm belastete Wohnbevölkerung",
 		"subtitle": "in %",
-		"kuerzel": "I.02.5.06159",
+		"kuerzel": "I.02.14.06159",
 		"kuerzelKunde": "7.8",
-		"description": "Anteil übermässig mit Lärm belastete Wohnbevölkerung",
+		"description": "Übermässig mit Lärm belastete Wohnbevölkerung",
 		"id": 6159,
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "Luftschadstoffe",
+		"unterthema": "Lärm",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -1695,15 +1718,16 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der Einwohner, welche an ihrem Wohnort in der Nacht einer Lärmbelastung von über 50 dB (A) ausgesetzt sind, betrug 2010 knapp 24%. Bei 14% der Einwohner wurde der Tagesgrenzwert überschritten, bei 16% der Grenzwert in der Nacht.",
-		"erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche an ihrem Wohnort einer Lärmbelastung über dem Immissionsgrenzwert gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Die in der LSV festgehaltenen Immissionsgrenzwerte drücken das Mass an Lärmbelastung aus, das zirka 75% der Bevölkerung erträgt, ohne sich erheblich gestört zu fühlen. Wohngebiete sind gemäss Lärmempfindlichkeitsstufenplan den Stufen II (Wohnzonen) und III (Wohn-/Gewerbezonen) mit unterschiedlichen Immissionsgrenzwerten zugeteilt: ES II: 60 dB (A) Tag, 50 dB (A) Nacht, ES III: 65 dB (A) Tag, 55 dB (A) Nacht; dB (A) ist die übliche Masseinheit zur Messung von Lärmstärke.Die angegebenen Werte beruhen auf Modellierungen. Die Lärmimmission an den Gebäuden werden in einem 3D-Oberflächenmodell (Gelände, Gebäude, Hindernisse) auf Basis des Emissionskatasters für Strassenverkehrslärm berechnet. Sobald ein Teil eines Gebäudes, z. B. eine Fassade oder die oberen Geschosse, welche nicht durch eine Lärmschutzwand geschützt werden, von Grenzwertüberschreitungen (gemäss LSV) betroffen sind, werden sämtliche Bewohner des Gebäudes als lärmbelastete Personen gezählt. Die Ausrichtung der einzelnen Wohnungen fliesst nicht in die Beurteilung ein. Weiter werden lärmempfindliche Räume in Betrieben nicht berücksichtigt.",
+		"lesehilfe": "Der Anteil der Einwohner, welche an ihrem Wohnort in der Nacht einer Lärmbelastung von über 50 dB (A) ausgesetzt sind, betrug 2008 24,6%. Bei 14,5% der Einwohner wurde der Tagesgrenzwert überschritten, bei 16,2% der Grenzwert in der Nacht.",
+		"erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche an ihrem Wohnort einer Lärmbelastung über dem Immissionsgrenzwert gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Die in der LSV festgehaltenen Immissionsgrenzwerte drücken das Mass an Lärmbelastung aus, das zirka 75% der Bevölkerung erträgt, ohne sich erheblich gestört zu fühlen. Wohngebiete sind gemäss Lärmempfindlichkeitsstufenplan den Stufen II (Wohnzonen) und III (Wohn-/Gewerbezonen) mit unterschiedlichen Immissionsgrenzwerten zugeteilt: ES II: 60 dB(A) Tag, 50 dB(A) Nacht, ES III: 65 dB(A) Tag, 55 dB(A) Nacht; dB(A) ist die übliche Masseinheit zur Messung von Lärmstärke.<br><br>Die angegebenen Werte beruhen auf Modellierungen. Die Lärmimmission an den Gebäuden werden in einem 3D-Oberflächenmodell (Gelände, Gebäude, Hindernisse) auf Basis des Emissionskatasters für Strassenverkehrslärm berechnet. Sobald ein Teil eines Gebäudes, z. B. eine Fassade oder die oberen Geschosse, welche nicht durch eine Lärmschutzwand geschützt werden, von Grenzwertüberschreitungen (gemäss LSV) betroffen sind, werden sämtliche Bewohner des Gebäudes als lärmbelastete Personen gezählt. Die Ausrichtung der einzelnen Wohnungen fliesst nicht in die Beurteilung ein. Weiter werden lärmempfindliche Räume in Betrieben nicht berücksichtigt.",
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "07_00_00_00_00_008",
-		"parentId": 5197,
+		"parentId": null,
 		"children": [
+			"5197",
 			"6311"
 		],
 		"renderLink": [],
@@ -1715,11 +1739,11 @@ var indikatorensetData = [
 		]
 	},
 	{
-		"title": "Energieverbrauch nach Verbrauchergruppe",
+		"title": "Endenergieverbrauch nach Verbrauchergruppe",
 		"subtitle": "in Mio. kWh",
 		"kuerzel": "I.08.1.06160",
 		"kuerzelKunde": "7.1",
-		"description": "Energieverbrauch nach Verbrauchergruppe",
+		"description": "Endenergieverbrauch nach Verbrauchergruppe",
 		"id": 6160,
 		"thema": "08 Energie",
 		"unterthema": "Verbrauch",
@@ -1745,6 +1769,8 @@ var indikatorensetData = [
 		"orderKey": "07_00_00_00_00_001",
 		"parentId": null,
 		"children": [
+			"4953",
+			"5794",
 			"6312"
 		],
 		"renderLink": [],
@@ -1779,7 +1805,7 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2010 lag der Anteil der erneuerbaren Energieträger bei 35,0%. Zwei Jahre später fiel der Wert mit 36,2% bereits höher aus. Im Jahr 2014  stammte 37,9% der Energie aus erneuerbaren Quellen.",
-		"erlaeuterungen": "Folgende Energieträger werden als erneuerbar berücksichtigt: Wasserkraft, Holz, Umweltwärme, thermische und fotovoltaische Sonnenenergie, Schlamm, erneuerbare Elektrizität (in Basel-Stadt stammt 100% des importierten Strommix aus erneuerbaren Quellen) und Kehricht (zu 50% als erneuerbar taxiert).<br><br>Die Summe der Verbräuche der erneuerbaren Energien wird durch den Gesamtenergieverbrauch dividiert.",
+		"erlaeuterungen": "Folgende Energieträger werden als erneuerbar berücksichtigt: Wasserkraft, Holz, Umweltwärme, thermische und fotovoltaische Sonnenenergie, Schlamm, erneuerbare Elektrizität (in Basel-Stadt stammen 100% des importierten Strommixes aus erneuerbaren Quellen) und Kehricht (zu 50% als erneuerbar taxiert).<br><br>Die Summe der Verbräuche der erneuerbaren Energien wird durch den Gesamtenergieverbrauch dividiert.",
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
@@ -1820,7 +1846,7 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Siedlungsabfälle reduzierten sich zwischen dem Jahr 2000 und 2016 von ca. 194 auf 151 kg pro Kopf. Die Recyclingquote stieg von ca. 41% auf fast 45%.",
-		"erlaeuterungen": "Die Berechnungsmethode für die Recyclingquote wurde vom Amt für Umwelt und Energie im Jahr 2016 revidiert (dezentrale Kompostierung nicht mehr eingerechnet). Dies führte zu einem tieferen Recyclinganteil.",
+		"erlaeuterungen": "Die Berechnungsmethode für die Recyclingquote wurde vom Amt für Umwelt und Energie im Jahr 2016 rückwirkend für alle abgebildeten Jahre revidiert (dezentrale Kompostierung nicht mehr eingerechnet). Dies führt zu einem tieferen Recyclinganteil im Vergleich zu früheren Berechnungen.",
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
@@ -1867,10 +1893,11 @@ var indikatorensetData = [
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "07_00_00_00_00_004",
-		"parentId": 6030,
+		"parentId": null,
 		"children": [
+			"6030",
 			"6315"
 		],
 		"renderLink": [],
@@ -1914,6 +1941,8 @@ var indikatorensetData = [
 		"orderKey": "07_00_00_00_00_005",
 		"parentId": null,
 		"children": [
+			"4299",
+			"6031",
 			"6316"
 		],
 		"renderLink": [],
@@ -1926,7 +1955,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wassertemperatur Grundwasser",
-		"subtitle": "",
+		"subtitle": "in °C",
 		"kuerzel": "I.02.19.06166",
 		"kuerzelKunde": "7.6",
 		"description": "Wassertemperatur Grundwasser",
@@ -1951,10 +1980,11 @@ var indikatorensetData = [
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "07_00_00_00_00_006",
-		"parentId": 4237,
+		"parentId": null,
 		"children": [
+			"4237",
 			"6317"
 		],
 		"renderLink": [],
@@ -1992,10 +2022,11 @@ var indikatorensetData = [
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "08_00_00_00_00_002",
-		"parentId": 5194,
+		"parentId": null,
 		"children": [
+			"5194",
 			"6318"
 		],
 		"renderLink": [],
@@ -2040,7 +2071,7 @@ var indikatorensetData = [
 		"visible": true,
 		"visibleInPortal": false,
 		"orderKey": "08_00_00_00_00_003",
-		"parentId": 5161,
+		"parentId": 6131,
 		"children": [
 			"6319"
 		],
@@ -2085,7 +2116,7 @@ var indikatorensetData = [
 		"visible": true,
 		"visibleInPortal": false,
 		"orderKey": "09_00_00_00_00_002",
-		"parentId": 5161,
+		"parentId": 6131,
 		"children": [
 			"6320"
 		],
@@ -2124,10 +2155,11 @@ var indikatorensetData = [
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "09_00_00_00_00_003",
-		"parentId": 2917,
+		"parentId": null,
 		"children": [
+			"2917",
 			"6321"
 		],
 		"renderLink": [],
@@ -2285,14 +2317,15 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2016 sind bei der Chemiefachberatung des Kantons 9 Alarmierungen aufgrund von ABC-Ereignissen eingegangen.",
-		"erlaeuterungen": "Der Indikator sagt aus, wie häufig die Chemiefachberatung von den kantonalen Einsatzkräften bei Ereignissen angefordert wurde. Die Häufigkeit von solchen Ereignissen mit Austritt von Chemikalien in die Umgebung ist ein Mass für die Qualität des Umgangs mit gefährlichen Stoffen. Veränderungen sind dabei besser zu erkennen, wenn man nicht nur die selten auftretenden Störfälle betrachtet. Die Anzahl der Ereignisse alleine sagt hingegen noch nichts über die Einwirkung eines Ereignisses auf die Umwelt aus und ist deshalb immer in Verbindung mit der jeweiligen Bewertung zu betrachten. Unter dem Begriff «Ereignisse» sind Alarmierungen an die Chemiefachberatung der Industriefeuerwehr Regio Basel (IRFB) zu verstehen. Es handelt sich dabei um Ereignisse mit radioaktiven, biologischen oder chemischen Gefahren. Als Störfall gilt nach Definition der Störfallverordnung (StFV) ein ausserordentliches Ereignis in einem Betrieb, auf einem Verkehrsweg oder in einer Rohrleitungsanlage, bei dem erhebliche Einwirkungen auftreten: a) ausserhalb des Betriebsareals, b) auf oder ausserhalb des Verkehrswegs, c) ausserhalb der Rohrleitungsanlage.Die eigentliche Entscheidung, ob ein Ereignis als Störfall einzustufen ist, liegt aber im Ermessen der zuständigen Fachstelle.",
+		"erlaeuterungen": "Der Indikator sagt aus, wie häufig die Chemiefachberatung von den kantonalen Einsatzkräften bei Ereignissen angefordert wurde. Die Häufigkeit von solchen Ereignissen mit Austritt von Chemikalien in die Umgebung ist ein Mass für die Qualität des Umgangs mit gefährlichen Stoffen. Veränderungen sind dabei besser zu erkennen, wenn man nicht nur die selten auftretenden Störfälle betrachtet. Die Anzahl der Ereignisse alleine sagt hingegen noch nichts über die Einwirkung eines Ereignisses auf die Umwelt aus und ist deshalb immer in Verbindung mit der jeweiligen Bewertung zu betrachten. Unter dem Begriff «Ereignisse» sind Alarmierungen an die Chemiefachberatung der Industriefeuerwehr Regio Basel (IRFB) zu verstehen. Es handelt sich dabei um Ereignisse mit radioaktiven, biologischen oder chemischen Gefahren. Als Störfall gilt nach Definition der Störfallverordnung (StFV) ein ausserordentliches Ereignis in einem Betrieb, auf einem Verkehrsweg oder in einer Rohrleitungsanlage, bei dem erhebliche Einwirkungen auftreten: a) ausserhalb des Betriebsareals, b) auf oder ausserhalb des Verkehrswegs, c) ausserhalb der Rohrleitungsanlage.<br>Die eigentliche Entscheidung, ob ein Ereignis als Störfall einzustufen ist, liegt aber im Ermessen der zuständigen Fachstelle.",
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "10_00_00_00_00_003",
-		"parentId": 5189,
+		"parentId": null,
 		"children": [
+			"5189",
 			"6326"
 		],
 		"renderLink": [],
@@ -2330,10 +2363,11 @@ var indikatorensetData = [
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "11_00_00_00_00_002",
-		"parentId": 5183,
+		"parentId": null,
 		"children": [
+			"5183",
 			"6327"
 		],
 		"renderLink": [],
@@ -2372,10 +2406,11 @@ var indikatorensetData = [
 		"template": "line001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "11_00_00_00_00_003",
-		"parentId": 5184,
+		"parentId": null,
 		"children": [
+			"5184",
 			"6328"
 		],
 		"renderLink": [],
@@ -2414,10 +2449,11 @@ var indikatorensetData = [
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "11_00_00_00_00_004",
-		"parentId": 5185,
+		"parentId": null,
 		"children": [
+			"5185",
 			"6329"
 		],
 		"renderLink": [],
@@ -2460,9 +2496,9 @@ var indikatorensetData = [
 		"template": "template001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "11_00_00_00_00_005",
-		"parentId": null,
+		"parentId": 6131,
 		"children": [
 			"6330"
 		],
@@ -2505,7 +2541,7 @@ var indikatorensetData = [
 		"visible": true,
 		"visibleInPortal": false,
 		"orderKey": "12_00_00_00_00_001",
-		"parentId": 5138,
+		"parentId": 4724,
 		"children": [
 			"6331"
 		],
@@ -2562,12 +2598,12 @@ var indikatorensetData = [
 	{
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
 		"subtitle": "in Franken; Kapital und Reserven: 2 Mio. Fr.; Reingewinn: 400 000 Fr.",
-		"kuerzel": "I.04.1.06201",
+		"kuerzel": "I.18.2.06201",
 		"kuerzelKunde": "2.11b",
 		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
 		"id": 6201,
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Volkseinkommen",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -2606,12 +2642,12 @@ var indikatorensetData = [
 	{
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
 		"subtitle": "in Franken; Kapital und Reserven: 2 Mio. Fr.; Reingewinn: 1 000 000 Fr.",
-		"kuerzel": "I.04.1.06202",
+		"kuerzel": "I.18.2.06202",
 		"kuerzelKunde": "2.11c",
 		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
 		"id": 6202,
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Volkseinkommen",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -3093,7 +3129,9 @@ var indikatorensetData = [
 		"visibleInPortal": true,
 		"orderKey": "09_00_00_00_00_001",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6370"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Gesundheit (BAG)",
@@ -3134,7 +3172,9 @@ var indikatorensetData = [
 		"visibleInPortal": false,
 		"orderKey": "02_00_00_00_00_005",
 		"parentId": 6236,
-		"children": [],
+		"children": [
+			"6371"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -3173,7 +3213,9 @@ var indikatorensetData = [
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_002",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6372"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Credit Suisse Group AG"
