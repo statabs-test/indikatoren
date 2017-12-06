@@ -27,6 +27,9 @@ var indikatoren = [
 		"lesehilfe": "Das reale Wertschöpfungswachstum in der Branche Life Sciences war im Jahr 2016 in Basel-Stadt sowie in der Gesamtschweiz stärker als in den anderen Branchen (+4,3%). Auch die freiberuflichen und wissenschaftlichen Dienstleistungen in Basel-Stadt verzeichneten eine überduchschnittliche Wachstumsrate von 3,3%. In der chemischen Industrie entwickelte sich die reale Wertschöpfung 2016 in Basel-Stadt hingegen rückläufig (-8,5%).",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_002",
 		"parentId": null,
 		"children": [
@@ -39,8 +42,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Beurteilung der Vereinbarkeit von Familie und Beruf nach Geschlecht, Herkunft und Altersgruppe",
@@ -69,6 +71,9 @@ var indikatoren = [
 		"lesehilfe": "45,4% der Befragten sind der Meinung, dass es in Basel gute Teilzeitstellen gibt, sodass Väter und Mütter Beruf und Familie vereinbaren können. Männer stimmen dieser Aussage mit 49,5% häufiger zu als Frauen mit 41,9%. Seit 2003 ist die Zustimmung zu dieser Aussage kontinuierlich gestiegen: 2003 waren 36,8% sehr oder eher einverstanden mit der Aussage, 2015 liegt die Zustimmung bei 45,4%.",
 		"erlaeuterungen": "Antwortkategorien «Sehr einverstanden» und «Eher einverstanden» werden zusammengefasst. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_003",
 		"parentId": null,
 		"children": [
@@ -81,8 +86,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Zufriedenheit mit dem Kulturangebot nach Geschlecht, Herkunft und Altersgruppe",
@@ -114,6 +118,9 @@ var indikatoren = [
 		"lesehilfe": "Fast 95% der Befragten sind zufrieden mit dem Kulturangebot in Basel-Stadt. Seit 2007 hat die Zufriedenheit mit dem Kulturangebot zugenommen. Die Zufriedenheit mit dem Kulturangebot unterscheidet sich nach Alter. Während bei den 18- bis 29-Jährigen die Zufriedenheit bei 88,0% liegt, sind die Befragten, die älter als 69 Jahre sind, mit 97,4% zufriedener.",
 		"erlaeuterungen": "Für die Zufriedenheit werden die Antwortkategorien «Sehr zufrieden» und «Eher zufrieden» zusammengefasst. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "08_00_00_00_00_001",
 		"parentId": null,
 		"children": [
@@ -126,8 +133,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Zufriedenheit mit der Gesundheitsversorgung nach Geschlecht, Herkunft und Altersgruppe",
@@ -157,6 +163,9 @@ var indikatoren = [
 		"lesehilfe": "96,6% der Befragten sind sehr oder eher zufrieden mit der Gesundheitsversorgung. Die Zufriedenheit mit der Gesundheitsversorgung unterscheidet sich nach Geschlecht und Herkunft nicht. Ein Unterschied besteht bei den Altersgruppen. Bei den 30- bis 39-Jährigen ist die Zufriedenheit mit 91,3% am tiefsten.",
 		"erlaeuterungen": "Für die Zufriedenheit werden die Antwortkategorien \"Sehr zufrieden\" und \"Eher zufrieden\" zusammengefasst. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "09_00_00_00_00_004",
 		"parentId": null,
 		"children": [
@@ -168,8 +177,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
@@ -198,6 +206,9 @@ var indikatoren = [
 		"lesehilfe": "Die Jugendlichen der Abschlussklassen der Sekundarstufe I werden jeweils Ende Schuljahr schriftlich über ihren nächsten Ausbildungsschritt befragt. Die Mädchen weisen nur gerade im Jahr 2012 einen höheren Anteil Schulabgängerinnen ohne Anschlusslösung aus als die Knaben. Die Werte 2017 deuten darauf hin, dass die Jugendlichen wieder mehr Mühe haben, eine für sie passende Anschlusslösung zu finden. Unruhiger Kurvenverlauf aufgrund der vergleichsweise geringen Zahl an Beobachtungen.",
 		"erlaeuterungen": "Datengrundlage bildet die jährliche Befragung der Schulabgängerinnen und Schulabgänger durch die Bildungsstatistikstelle des Bereichs Mittelschulen und Berufsbildung im Basler Erziehungsdepartement. Die Weiterbildungsschule wurde per Ende Schuljahr 2016/17 aufgelöst.",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_002",
 		"parentId": null,
 		"children": [
@@ -210,8 +221,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Durch BaselArea unterstützte internationale Ansiedlungen",
@@ -242,6 +252,9 @@ var indikatoren = [
 		"lesehilfe": "Die Anzahl von durch BaselArea unterstützte internationale Ansiedlungen ist von 2012 bis 2015 rückläufig. 2016 werden mit 31 Ansiedlungen die meisten innerhalb des Beobachtungszeitraums gezählt.",
 		"erlaeuterungen": "Die Anzahl von durch BaselArea unterstützten internationalen Ansiedlungen beinhalten seit 2013 auch ausländische Firmengründungen im Kanton Jura.",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_004",
 		"parentId": null,
 		"children": [
@@ -253,8 +266,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Globale und kontinentale Erreichbarkeit",
@@ -284,6 +296,9 @@ var indikatoren = [
 		"lesehilfe": "Die kontinentale Erreichbarkeit der Stadt Basel hat sich zwischen 2000 und 2014 verbessert. Die Entwicklung bei den anderen Schweizer Städte verläuft im gleichen Zeitraum identisch. Die Stadt Zürich bewegt sich auf einem höheren Niveau als Basel und Genf, die Stadt Bern liegt darunter. Die Entwicklung bei der globalen Erreichbarkeit verläuft bei allen Städten parallel und über die Jahre auf gleichbleibendem Niveau. Basel bewegt sich bei diesem indikator zusammen mit Genf zwischen dem Level von Zürich und Bern.",
 		"erlaeuterungen": "Bei der Kennzahl handelt es sich um einen indexierten Wert: 100 = Mittel aller einbezogenen Ursprungsregionen im Jahr 2002; globale Erreichbarkeit = Erreichbarkeit von Regionen ausserhalb Europas; kontinentale Erreichbarkeit = Erreichbarkeit aller Regionen Europas. Erreichbarkeit ist kein klares, lineares Konzept. Vielmehr beruht es auf einer Vielzahl von Faktoren, die unter dem Themenbereich Erreichbarkeit subsumiert werden können. Die Erreichbarkeitsmodelle von BAK Economics basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren. Ihnen liegen Strassenerreichbarkeit, Bahnfahr- und Flugpläne zugrunde. Zudem folgen sie dem Konzept der Erreichbarkeit «aus der Region» (outbound accessibility), d.h. es wird die Reisezeit und Frequenz herangezogen, die benötigt wird, um aus der Region andere Regionen zu erreichen. Der resultierende Indikator reflektiert das gesamte Potenzial aller Regionen ohne jegliche Limitierung der Reisezeit. Jedoch werden die Reisedestinationen über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet.",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "05_00_00_00_00_001",
 		"parentId": null,
 		"children": [
@@ -296,8 +311,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Zufriedenheit mit dem Wohnungsangebot",
@@ -326,6 +340,9 @@ var indikatoren = [
 		"lesehilfe": "Die Hälfte der Befragten ist mit dem Wohnungsangebot «eher zufrieden» oder «sehr zufrieden». Seit der ersten Bevölkerungsbefragung 2003 ist der Anteil der Zufriedenen bis 2011 stetig angewachsen, bevor 2015 ein Rückgang erfolgte.",
 		"erlaeuterungen": "",
 		"template": "befragungen001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -335,8 +352,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Mietpreisentwicklung",
@@ -364,6 +380,9 @@ var indikatoren = [
 		"lesehilfe": "Seit 2008 ist bei allen Zimmerkategorien eine steigende Tendenz der Mietpreise (Nettomieten) zu beobachten.",
 		"erlaeuterungen": "Es handelt sich hier im Gegensatz zu den Mietpreisen der Leerwohnungen um Bestandsmieten.<br/>Die Mietpreisangaben stützen sich auf systematische Stichprobenerhebungen, die 5% der Miet- und Genossenschaftswohnungen umfassen. Einzelne Mittelwerte basieren deshalb nur auf wenigen Mietpreisangaben.",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -373,8 +392,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Mietpreisentwicklung der Leerwohnungen",
@@ -402,6 +420,9 @@ var indikatoren = [
 		"lesehilfe": "Die Mietpreisentwicklung der Leerwohnungen ist im Zehnjahresvergleich leicht ansteigend. Da es grundsätzlich wenige leerstehende 5-Zimmerwohnungen gibt, sind die ausgewiesenen Durchschnittsmieten in dieser Kategorie grösseren Schwankungen unterworfen bzw. können wie im Jahr 2014 aufgrund zu kleiner Stichprobe gar nicht berechnet werden.",
 		"erlaeuterungen": "Bei den Mietpreisen für Leerwohnungen handelt es sich um Angebotsmieten, nicht um Bestandsmieten. 2014 kann keine Durchschnittsmiete für leerstehende 5-Zimmerwohnungen angegeben werden, weil in dieser Kategorie zu wenige Beobachtungen vorlagen.",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -411,8 +432,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Mietpreisentwicklung der 3-Zimmer-Wohnungen",
@@ -440,6 +460,9 @@ var indikatoren = [
 		"lesehilfe": "Die Nettomietpreise der Genossenschaftswohnungen sind in den letzten 10 Jahren im Durchschnitt ein Drittel günstiger als die Mietpreise der übrigen Mietwohnungen.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -449,8 +472,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Wohnungsbelegung",
@@ -478,6 +500,9 @@ var indikatoren = [
 		"lesehilfe": "Der Anteil der selbstgenutzten Eigentümerwohnungen, das heisst Wohnungen, welche vom Wohnungs- bzw. Gebäudeeigentümer bewohnt werden, ist nahezu unverändert.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -487,8 +512,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Bevölkerungsbestand am Jahresende",
@@ -517,6 +541,9 @@ var indikatoren = [
 		"lesehilfe": "In der 10-Jahresspanne von 2007 bis 2016 nahm die Bevölkerung in Basel-Stadt von 187 684 auf 198 206 Personen zu. Dies entspricht einer Steigerung um 5,6%.",
 		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774 - 1847: Kantonale Volkszählungen; 1850 - 1900: Eidgenössische Volkszählungen; 1901 - 2011: Fortschreibung der kantonalen Bevölkerungsstatistik; Ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 		"template": "stock001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_01_00_00_00_000",
 		"parentId": null,
 		"children": [
@@ -528,8 +555,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anzahl Wohnungen",
@@ -557,6 +583,9 @@ var indikatoren = [
 		"lesehilfe": "Seit 2008 steigt der gesamte Wohnungsbestand leicht und stetig an. Am stärksten war das Wachstum bei den Fünfzimmerwohnungen (+12% seit 2006). Rückläufig bzw. nahezu unverändert war dagegen die Entwicklung bei den Ein- und Zweizimmerwohnungen (-7% bzw. +0,6%).",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -566,8 +595,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anteile am Wohnungsbestand",
@@ -595,6 +623,9 @@ var indikatoren = [
 		"lesehilfe": "Am zahlreichsten sind 2016 nach Zimmerzahl betrachtet die 3-Zimmerwohnungen (37%) und nach Wohnungsflächenkategorie Logis zwischen 70 und 99 Quadratmetern (35%).",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -604,8 +635,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Nettowohnungsproduktion",
@@ -633,6 +663,9 @@ var indikatoren = [
 		"lesehilfe": "2016 war die Nettowohnungsproduktion überdurchschnittlich hoch. Dazu beigetragen hat eine hohe Neubauproduktion, ein positiver Umbausaldo und eine niedrige Anzahl von Abbrüchen.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [
@@ -644,8 +677,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Umbausaldo",
@@ -673,6 +705,9 @@ var indikatoren = [
 		"lesehilfe": "Seit 2011 ist der Umbausaldo positiv. Der sprunghafte Anstieg 2014 ist auf die grosse Anzahl Umnutzungen gewerblich genutzter Räume (Büros) zu Wohnungen zurückzuführen. Ansonsten trägt der Dachstockausbau zum positiven Umbausaldo bei.",
 		"erlaeuterungen": "Die prozentualen Anteile im Tooltip beziehen sich auf das Total der Zugänge resp. das Total der Abgänge.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -682,8 +717,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anzahl neu erstellte Wohnungen",
@@ -711,6 +745,9 @@ var indikatoren = [
 		"lesehilfe": "Mit 412 Einheiten war 2016 die Neubauproduktion überdurchschnittlich, aber erwartungsgemäss nicht mehr so hoch wie im Vorjahr.",
 		"erlaeuterungen": "Es werden nur neu erstellte Wohnungen in Neubauten berücksichtigt. Neue Wohnungen aus Umbauten sind demnach nicht enthalten.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -720,8 +757,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anzahl Leerwohnungen und Leerwohnungsquote",
@@ -749,6 +785,9 @@ var indikatoren = [
 		"lesehilfe": "Mit Ausnahme der grössten Wohnungskategorie (5 und mehr Zimmer) erreichten die Leerwohnungsquoten aller Wohnungsgrössen im Jahr 2014 ihren Tiefstwert innerhalb des Beobachtungszeitraums. Die kantonale Leerwohnungsquote lag 2017 bei 0,5%.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -758,8 +797,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anzahl Leerwohnungen und Leerwohnungsquote",
@@ -787,6 +825,9 @@ var indikatoren = [
 		"lesehilfe": "Im Jahr 2017 weisen Wohnungen mit einer Fläche von weniger als 30m² die höchste Leerwohnungsquote auf. Der tiefste Wert wird mit knapp 0,4% bei Wohnungen ab 150 m² gemessen. Diese hatten 2015 mit gut 0,5% noch den höchsten Wert erreicht.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -797,8 +838,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
@@ -826,6 +866,9 @@ var indikatoren = [
 		"lesehilfe": "Die Wohnfläche pro Kopf nahm von 1980 bis 2010 um sechs Quadratmeter zu. Seither ist ein leichter Rückgang zu verzeichnen.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_03_00_00_00_000",
 		"parentId": null,
 		"children": [
@@ -837,8 +880,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anteile der Haushalte",
@@ -866,6 +908,9 @@ var indikatoren = [
 		"lesehilfe": "Die Haushaltsstruktur weist in den letzten Jahren keine grossen Veränderungen auf. Einpersonenhaushalte machen 2016 rund 47% aus.",
 		"erlaeuterungen": "Nichtfamilienhaushalte sind Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind. Die übrigen Mehrpersonenhaushalte werden zu den Familienhaushalten gezählt.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_04_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -875,8 +920,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anteile der Familienhaushalte",
@@ -904,6 +948,9 @@ var indikatoren = [
 		"lesehilfe": "Der Anteil kinderloser Familien an allen Familien sank von 41,3% im Jahr 2011 auf 39,1% im Jahr 2014. 2015 stieg er wieder auf 41,0%. Im Jahr 2016 gab es einen erneuten Rückgang und der Anteil kinderloser Familien lag noch bei 38,4%.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_04_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -913,8 +960,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anzahl Genossenschaftswohnungen und Anteil am Bestand",
@@ -942,6 +988,9 @@ var indikatoren = [
 		"lesehilfe": "Der Anteil der Genossenschaftswohnungen am Gesamtbestand beträgt 2016 rund 10%.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_04_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -951,8 +1000,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Zufriedenheit mit dem Wohnungsangebot - nur Familien",
@@ -980,6 +1028,9 @@ var indikatoren = [
 		"lesehilfe": "Knapp die Hälfte der befragten Familien ist mit dem Wohnungsangebot im Kanton Basel-Stadt sehr oder eher zufrieden. Seit der ersten Bevölkerungsbefragung im Jahr 2003 ist der Anteil der Zufriedenen bis 2011 stetig angewachsen, bevor 2015 ein Rückgang erfolgte.",
 		"erlaeuterungen": "",
 		"template": "befragungen001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_04_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -989,8 +1040,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Wohneigentumsquote",
@@ -1018,6 +1068,9 @@ var indikatoren = [
 		"lesehilfe": "Die Eigentumsquote stieg bis ins Jahr 2014 an und blieb anschliessend stabil bei rund 15%.",
 		"erlaeuterungen": "Die Wohneigentumsquote wird als Anteil Wohnungen, welche durch den Gebäude- oder Wohnungseigentümer selber bewohnt sind, and den bewohnten Wohnungen berechnet.",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_06_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -1027,8 +1080,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anzahl und Anteil Wohnungen mit 4 oder mehr Zimmern",
@@ -1056,6 +1108,9 @@ var indikatoren = [
 		"lesehilfe": "Der Anteil Wohnungen mit 4 oder mehr Zimmern stieg zum einen in der Dekade der 1970er-Jahre, und zwar um 2,6 Prozentpunkte. Zum anderen nimmt der Anteil seit 2010 wieder zu. Dazwischen war kaum oder nur ein marginales Wachstum zu verzeichnen.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "03_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -1065,8 +1120,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Saldo des Steuerertrages von Zu- und Wegzügern",
@@ -1094,6 +1148,9 @@ var indikatoren = [
 		"lesehilfe": "Seit 2009 ist der Saldo des Steuerertrages bei den Zugezogenen höher als bei den Wegzügern. Bei den Weggezogenen wurden die Steuerdaten des jeweiligen Vorjahres verwendet. Zugezogene Ausländer wurden ab Vorliegen einer Niederlassungsbewilligung mitberücksichtigt.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "03_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -1103,8 +1160,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"Siehe <a href='http://www.statistik.bs.ch/zahlen/analysen/steuerstatistik.html' target='_blank'>Weiterführende Informationen zur Steuerstatistik und zur Methodik</a>."
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Erwachsene Einwohner mit Hauptwohnsitz in Basel-Stadt",
@@ -1132,6 +1188,9 @@ var indikatoren = [
 		"lesehilfe": "Die Anzahl volljähriger Personen mit Hauptwohnsitz in Basel-Stadt nimmt stetig leicht zu. Diese Personen versteuern ihr Einkommen oder ihre Vermögenswerte, falls vorhanden, in der Regel in Basel-Stadt.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "03_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -1141,8 +1200,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Freiraumfläche und Anteil an der Gesamtfläche",
@@ -1170,6 +1228,9 @@ var indikatoren = [
 		"lesehilfe": "Die Freiraumflächen reduzierten sich aufgrund von Schulhauserweiterungen auf Kosten von Sportanlagen sowie der Umgestaltung der Voltamatte vorübergehend auf rund 840 000 Quadratmeter. Die Öffnung des Schwarzparks für die Bevölkerung sorgte 2014 für einen Sprung auf rund 885 000 Quadratmeter.",
 		"erlaeuterungen": "Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der Amtlichen Vermessung des Kantons Basel-Stadt.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "04_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -1179,8 +1240,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
@@ -1209,6 +1269,9 @@ var indikatoren = [
 		"lesehilfe": "Über 90% der Befragten sind mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden. Dieser Wert ist seit 2005 jeweils leicht angestiegen.",
 		"erlaeuterungen": "",
 		"template": "befragungen001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "04_02_00_00_00_000",
 		"parentId": null,
 		"children": [
@@ -1220,8 +1283,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Zufriedenheit mit Gestaltung und Erhaltung von Gebäuden und Strassenbild",
@@ -1249,6 +1311,9 @@ var indikatoren = [
 		"lesehilfe": "Die Gesamtzufriedenheit (eher und sehr zufrieden) der Bevölkerung mit der Gestaltung und Erhaltung von Gebäuden und Strassenbild erreicht 2015 mit 84% den höchsten Wert seit Befragungsbeginn 2003.",
 		"erlaeuterungen": "",
 		"template": "befragungen001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "04_03_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -1258,8 +1323,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Haushalte mit Familienmietzinsbeiträgen",
@@ -1286,6 +1350,9 @@ var indikatoren = [
 		"lesehilfe": "Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte ist im gesamten Beobachtungszeitraum stark angestiegen.",
 		"erlaeuterungen": "FAMI = Familienmietzinsbeiträge",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "05_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -1295,8 +1362,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Ausbezahlte Familienmietzinsbeiträge",
@@ -1324,6 +1390,9 @@ var indikatoren = [
 		"lesehilfe": "Die ausbezahlten Familienmietzinsbeiträge sind seit 2007 stark angestiegen. Der durchschnittliche Beitrag pro Haushalt wuchs in diesem Zeitraum von knapp 3 000 Franken auf rund 4 700 Franken. Seit 2013 verflachte der Anstieg. 2016 war erstmals ein Rückgang des durchschnittlichen Beitrags zu beobachten.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "05_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -1333,8 +1402,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Bestand an Notwohnungen und ihre Belegung",
@@ -1362,6 +1430,9 @@ var indikatoren = [
 		"lesehilfe": "Die wenigen Notwohnungen – 2016 machten sie 0,13% des Wohnungsbestandes aus – waren immer zu rund 90% belegt. In den Jahren 2013 und 2014 betrug die Belegung sogar mehr als 95%. Durch Aufstockungen bestehender Blockrandsiedlungen konnte das Angebot seit 2013 um 50 Logis erhöht werden.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "05_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -1371,8 +1442,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Zufriedenheit mit Einrichtungen und Angeboten für behinderte Menschen",
@@ -1399,6 +1469,9 @@ var indikatoren = [
 		"lesehilfe": "Fast 60% der Befragten sind 2015 mit den Einrichtungen und dem Angebot für Behinderte eher bis sehr zufrieden. Dieser Wert lag 2007 noch bei 40%.",
 		"erlaeuterungen": "",
 		"template": "befragungen001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "05_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -1408,8 +1481,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
@@ -1438,6 +1510,9 @@ var indikatoren = [
 		"lesehilfe": "Sowohl 2011 als auch 2015 sind gut zwei Drittel der Befragten mit der altersangepassten Einrichtung des Wohngebäudes eher bis sehr zufrieden.",
 		"erlaeuterungen": "",
 		"template": "befragungen001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "05_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -1447,8 +1522,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Ausländeranteil nach Staatsangehörigkeit seit 2006",
@@ -1479,6 +1553,9 @@ var indikatoren = [
 		"lesehilfe": "Die grösste Ausländergruppe stammt in allen beobachteten Jahren aus Deutschland. Der Anteil der Deutschen an allen Ausländern betrug 2015 knapp 23%. Die Kategorie «übriges Ausland» enthält 2015 über 100 Staatsangehörigkeiten, die grössten Gruppen sind die Portugiesen (3 343), Personen aus dem Vereinigten Königreich (2 189) sowie die Franzosen (1 980).",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_010",
 		"parentId": null,
 		"children": [],
@@ -1488,8 +1565,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Altersquotient nach Staatsangehörigkeit",
@@ -1520,6 +1596,9 @@ var indikatoren = [
 		"lesehilfe": "2015 liegt der Altersquotient der Schweizer bei 46%. Ebenso überdurchschnittlich hoch ist der Wert bei den Italienern mit 35%. Der kleinste Wert wird bei der Bevölkerung aus Süd- und Mittelamerika beobachtet.",
 		"erlaeuterungen": "Der Altersquotient wird wie folgt berechnet: Anzahl Personen im Alter über 64 Jahren geteilt durch Anzahl Personen im Alter zwischen 20 und 64 Jahren.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_020",
 		"parentId": null,
 		"children": [],
@@ -1529,8 +1608,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Jugendquotient nach Staatsangehörigkeit",
@@ -1561,6 +1639,9 @@ var indikatoren = [
 		"lesehilfe": "Der Jugendquotient für Personen aus dem ehemaligen Jugoslawien und aus der Türkei liegt über der 30%-Grenze und damit über dem Jugendquotient der Schweizer (27%)  Die kleinsten Anteile an 0- bis 19-Jährigen weisen Personen aus den EU-Oststaaten und Deutschland auf.",
 		"erlaeuterungen": "Der Jugendquotient wird wie folgt berechnet: Anzahl Personen im Alter von 0 bis 19 Jahren geteilt durch Anzahl Personen im Alter zwischen 20 und 64 Jahren.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_030",
 		"parentId": null,
 		"children": [],
@@ -1570,8 +1651,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anzahl Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit seit 2006",
@@ -1600,6 +1680,9 @@ var indikatoren = [
 		"lesehilfe": "Im Jahr 2015 sind im Kanton Basel-Stadt 40 481 Ausländer im Besitz eines Niederlassungsausweises. Dieser Wert stieg seit 2008 kontinuierlich, wobei vor allem bei Personen aus Deutschland eine Zunahme von über 4 000 Niederlassungsbewilligungen in den letzten 10 Jahren zu verzeichnen ist.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_040",
 		"parentId": null,
 		"children": [],
@@ -1609,8 +1692,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anteil Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit 2006 und 2015",
@@ -1641,6 +1723,9 @@ var indikatoren = [
 		"lesehilfe": "58% der Ausländer im Kanton Basel-Stadt besitzen 2015 eine Niederlassungsbewilligung. 2006 lag der Wert mit 63% leicht höher. Nach Bevölkerungsgruppe ist der Anteil bei den türkischen Staatsangehörigen mit 84% am grössten. Ähnlich hoch ist der Anteil bei den Personen aus dem ehemaligen Jugoslawien (82%) und Italien (76%). Bei letzeren hat der Anteil im Vergeich zum Jahr 2006 um 15 Prozentpunkte abgenommen. Eine höhere Abnahme seit 2006 weisen nur noch die Spanier auf (minus 29 Prozentpunkte).",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_050",
 		"parentId": null,
 		"children": [],
@@ -1650,8 +1735,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anzahl Ausländer nach Art der Bewilligung seit 2006",
@@ -1682,6 +1766,9 @@ var indikatoren = [
 		"lesehilfe": "Der Grossteil der ausländischen Einwohner im Kanton Basel-Stadt ist im Besitz einer zeitlich unbeschränkten und an keine Bedingungen geknüpfte sogenannte Niederlassungsbewilligung. Gut halb so viele Ausländer besitzen eine Aufenthaltsbewilligung. Rückläufig war in den letzten 10 Jahren die Anzahl der ausgestellten Kurzaufenthaltsbewilligungen. Die Anzahl der vorläufig Aufgenommenen beträgt 2015 gut 650 Personen, die Anzahl Personen mit einer N-Bewilligung (Asylsuchende) liegt bei gut 400.",
 		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_060",
 		"parentId": null,
 		"children": [],
@@ -1691,8 +1778,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anteil Ausländer nach Staatsangehörigkeit und Art der Bewilligung",
@@ -1724,6 +1810,9 @@ var indikatoren = [
 		"lesehilfe": "Bei Personen aus der Türkei, Italien und dem ehemaligen Jugoslawien ist der Anteil Personen mit Niederlassungsausweis überdurchschnittlich hoch. Dagegen ist bei Personen aus den EU-Oststaaten mit 18% der Anteil an Niederlassungsbewilligungen unterdurchschnittlich, der Anteil an Kurzaufenthaltsbewilligungen mit 11% im Vergleich zu den anderen ausgewählten Nationen hoch. Der Anteil Personen mit L-Bewilligungen ist bei den EU-Oststaaten höher als bei den anderen Ländern, den höchsten Anteil Asylsuchende weist die Gruppe Maghreb und Ägypten auf.",
 		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_070",
 		"parentId": null,
 		"children": [],
@@ -1733,8 +1822,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Einbürgerungsziffer nach ehemaliger Staatsangehörigkeit seit 2006",
@@ -1769,6 +1857,9 @@ var indikatoren = [
 		"lesehilfe": "In Basel-Stadt wurden im Jahr 2015 pro 1000 Ausländer 16,8 eingebürgert (ordentliche und erleichterte Einbürgerungen). 2006 hatte diese Einbürgerungsziffer noch bei 19,4 gelegen. 2015 wiesen die Personen aus dem Maghreb und aus Ägypten die höchste Einbürgerungsziffer auf (35,3).  Insgesamt sind die Einbürgerungsziffern im Vergleich zu 2006 zurückgegangen.",
 		"erlaeuterungen": "Für eine ordentliche Einbürgerung muss eine Person u. a. zwölf Jahre in der Schweiz gewohnt haben. Eine erleichterte Einbürgerung kommt für ausländische Ehepartner von Schweizern in Frage, die insgesamt fünf Jahre in der Schweiz gelebt haben und seit drei Jahren verheiratet sind. Ehepartner, die nicht in der Schweiz leben, müssen sechs Jahre verheiratet sein und eng mit der Schweiz verbunden sein.",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_080",
 		"parentId": null,
 		"children": [],
@@ -1778,8 +1869,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anzahl Personen mit und ohne Migrationshintergrund nach Staatsangehörigkeit (Schweiz / Ausland) 2010 bis 2014",
@@ -1813,6 +1903,9 @@ var indikatoren = [
 		"lesehilfe": "2014 sind in Basel-Stadt rund 75'000 Personen über 15 Jahren Schweizer ohne Migrationshintergrund. Etwa 29'000 Personen sind Schweizer mit Migrationshintergrund und insgesamt 55'000 Personen sind ausländischer Herkunft. Von den Ausländern sind die meisten Ausländer der ersten Generation. Rund 4'000 Personen sind Ausländer der zweiten Generation und nur etwa 200 sind Ausländer der dritten Generation, also Ausländer ohne Migrationshintergrund.",
 		"erlaeuterungen": "Ausländer der 1. Generation: Im Ausland geboren; Ausländer der 2. Generation: Mindestens 1 Elternteil im Ausland geboren; Ausländer der 3. Generation: Beide Elternteile in der Schweiz geboren. Wenn mindestens 1 Elternteil das Schweizer Bürgerrecht besitzt, geht dieses bei Geburt automatisch auf das Kind über.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_090",
 		"parentId": null,
 		"children": [],
@@ -1822,8 +1915,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anteil Personen, welche zu Hause «deutsch» oder «schweizerdeutsch» sprechen nach Staatsangehörigkeit 2010 bis 2014",
@@ -1857,6 +1949,9 @@ var indikatoren = [
 		"lesehilfe": "Die Grafik zeigt den Anteil der Bevölkerung über 15 Jahre in Basel-Stadt, der zu Hause Deutsch spricht, gruppiert nach verschiedenen Herkunftsländern. Rund 94% der Schweizer in Basel-Stadt geben im Jahr 2014 an, zu Hause unter anderem deutsch zu sprechen (die Angabe von mehreren Sprachen ist möglich). Bei den Personen aus Deutschland, Österreich und Liechtenstein sind es etwa 97%. 42% der Personen aus anderen Herkunftsländern sprechen zu Hause deutsch.",
 		"erlaeuterungen": "Die Strukturerhebung ist eine Stichprobenerhebung bei rund 5 000 in Basel-Stadt wohnhaften Personen im Alter über 15 Jahren.",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_100",
 		"parentId": null,
 		"children": [],
@@ -1866,8 +1961,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Segregationsindex nach Staatsangehörigkeit seit 2006",
@@ -1901,6 +1995,9 @@ var indikatoren = [
 		"lesehilfe": "2015 war die ausländische Bevölkerung weniger stark auf einzelne Gemeinden und Wohnviertel konzentriert als noch 2006. Der Segregationsindex, ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen, sank für die Ausländer zwischen 2006 und 2015 von 24,5 auf 18,7. Von den hier ausgewählten Bevölkerungsgruppen wiesen Ende 2015 Personen aus dem ehemaligen Jugoslawien und Türken die höchsten Segregationsindices auf (32,7 und 30,8). Der niedrigste Index ergab sich für die Deutschen (7,7).",
 		"erlaeuterungen": "Der Segregationsindex misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betracheten Gruppe interpretieren, der umziehen müsste, um gleich über ein Gebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 würde bedeuten, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross wäre.",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_110",
 		"parentId": null,
 		"children": [],
@@ -1910,8 +2007,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anteil Ausländer nach Wohndauer und Zuzugsort seit 2006",
@@ -1947,6 +2043,9 @@ var indikatoren = [
 		"lesehilfe": "Knapp 60% aller Ausländer leben weniger als 12 Jahre ununterbrochen in Basel-Stadt. Ein Blick auf die Zeitreihe zeigt, dass sich in den letzten 10 Jahren der Anteil derer, die seit mindestens 12 Jahrenin Basel-Stadt wohnen, kontinuierlich verringert hat. Dagegen hat der Anteil Ausländer, der  weniger als 12 Jahre hier lebt, zugenommen. Knapp 12% der Ausländer sind in Basel-Stadt geboren und leben seither ununterbrochen im Kanton. Insgesamt sind 2015 knapp 17% aller in Basel-Stadt wohnhaften Ausländer in Basel-Stadt geboren.",
 		"erlaeuterungen": "Die Kategorie «Geboren in Basel-Stadt ohne Wegzug» umfasst Personen, welche in Basel-Stadt geboren wurden und seit Geburt immer in Basel-Stadt wohnhaft waren.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_120",
 		"parentId": null,
 		"children": [],
@@ -1956,8 +2055,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Schweizer Bevölkerung nach Wohndauer und Geburtsort seit 2006",
@@ -1992,6 +2090,9 @@ var indikatoren = [
 		"lesehilfe": "Knapp 50% aller in Basel-Stadt wohnhaften Schweizer lebt seit mindestens 12 Jahren ununterbrochen im selben Quartier. Die Anzahl Schweizer insgesamt nahm in den letzten Jahren leicht ab (rechte Skala).",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_130",
 		"parentId": null,
 		"children": [],
@@ -2001,8 +2102,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeit seit 2006",
@@ -2035,6 +2135,9 @@ var indikatoren = [
 		"lesehilfe": "Im Jahr 2015 wiesen die Deutschen die höchste Rückwanderungsquote ins Herkunftsland auf. Die niedrigsten Quoten ergaben sich für Personen aus dem ehemaligen Jugoslawien und aus der Türkei. Seit 2006 am stärksten zugenommen hat die Rückwanderungsquote der Deutschen, am stärksten abgenommen jene der Spanier. Die Rückwanderungsquote der Ausländer insgesamt ist von 2006 bis 2015 von 51,6 auf 58,6 gestiegen.",
 		"erlaeuterungen": "Die Rückwanderungsquote ist wie folgt definiert: Anzahl Personen, welche ins Land ihrer Herkunft (nicht in das Land, aus dem sie zugezogen sind) resp. in die entsprechende Ländergruppe abwandern pro 1000 Personen einer Ländergruppe. Die Rückwanderungsquote «Ausland», also von allen Ausländern zusammen, ist definiert als die Anzahl der ins Ausland (egal, ob Herkunftsland oder nicht) weggezogenen Ausländer pro 1000 Personen der ausländischen Wohnbevölkerung, Aus diesem Grund liegt die Rückwanderungsquote «Ausland» auch vergleichsweise hoch.",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_140",
 		"parentId": null,
 		"children": [],
@@ -2044,8 +2147,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Arbeitslosenquote nach Staatsangehörigkeit seit 2010",
@@ -2081,6 +2183,9 @@ var indikatoren = [
 		"lesehilfe": "Die Arbeitslosigkeit betrifft die ausländische Bevölkerung stärker als die Schweizer. Die Arbeitslosenquote der Ausländer liegt in Basel-Stadt seit 2011 im Jahresdurchschnitt relativ konstant bei rund 4,5%, während die Arbeitslosenquote der Schweizer bei rund 2,8% liegt.  Die höchsten Quoten werden bei den Personen aus der Türkei und aus den EU-Ost-Ländern registriert, die tiefsten bei Personen aus Deutschland.",
 		"erlaeuterungen": "Um die Zuverlässigkeit der Berechnung der Arbeitslosenquote nach Ländergruppen zu gewährleisten, sind hier im Nenner die Erwerbspersonen aus den gepoolten Daten der Sturkturerhebungen 2010-2014 verwendet worden. Damit sind diese Ergebnisse nicht direkt mit den offiziellen Arbeitslosenquoten vergleichbar, die vom seco (Staatssekretariat für Wirtschaft) und vom Statistischen Amt des Kantons Basel-Stadt veröffentlicht werden und welche im Nenner die Erwerbspersonen des Jahres 2010 verwenden.",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_195",
 		"parentId": null,
 		"children": [],
@@ -2091,8 +2196,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Erhaltenene Hilfeleistungen",
@@ -2121,6 +2225,9 @@ var indikatoren = [
 		"lesehilfe": "2013 erhielten 39,7% der Befragten von Freunden oder Bekannten Hilfeleistungen (2009: 46,2%), 28,5% von den Nachbarn (2009: 34,1%). Von den Arbeitskollegen Hilfeleistungen zu bekommen, bejahten 2013 12,1% der Befragten, 2009 waren es 13,3%.",
 		"erlaeuterungen": "2013: N=3119; 2009: N=2231",
 		"template": "befragungen001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -2130,8 +2237,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Erhaltene materielle Hilfeleistungen",
@@ -2160,6 +2266,9 @@ var indikatoren = [
 		"lesehilfe": "Von den Befragten erhielten 2015 rund ein Viertel materielle Hilfeleistungen von Freunden und Bekannten oder von Nachbarn (2011: jeweils rund 16%). Tiefer liegt der Wert bei den Arbeitskollegen: von diesen bekamen 5,2% der Befragten materielle Hilfeleistungen (2011: 2,8%). Jeweils rund 20% der Befragten machten 2015 keine Angaben zu diesen Fragen. Auf die Frage nach Hilfeleistungen durch Arbeitskollegen konnten weitere rund 21% nicht antworten, weil sie nicht mehr erwerbstätig sind.",
 		"erlaeuterungen": "2015: N=1427; 2011: N=1689<br/>Materielle Hilfeleistungen: Garten- und Reinigungsarbeiten, Einkaufshilfe, Füttern von Tieren, Hüte- und Pflegeeinsätze etc.",
 		"template": "befragungen001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -2169,8 +2278,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Kulturelle Bereicherung",
@@ -2198,6 +2306,9 @@ var indikatoren = [
 		"lesehilfe": "Drei Viertel der Befragten empfanden 2015 den multikulturellen Charakter Basel-Stadts als eine sehr oder eher grosse Bereicherung für die Stadt. Die Zustimmung zu dieser Frage liegt seit 2003 jeweils über 68%.",
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_03_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -2207,8 +2318,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Beurteilung des Wohnorts",
@@ -2238,6 +2348,9 @@ var indikatoren = [
 		"lesehilfe": "71,7% der befragten Personen lebten 2015 sehr gerne an ihrem Wohnort, ein Viertel eher gerne. Insgesamt sind 96,9% der Befragten mit ihrem gegenwärtigen Wohnort zufrieden. Die insgesamte Zufriedenheit (eher und sehr gerne) mit dem Wohnort liegt seit 2003 stets bei über 95%.",
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -2247,8 +2360,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Beurteilung des Wohnquartiers",
@@ -2278,6 +2390,9 @@ var indikatoren = [
 		"lesehilfe": "Mit einem Anteil von 96,9% wohnten 2015 mehr Leute sehr oder eher gerne in ihrem Wohnquartier als 2011 (94,8%). Am tiefsten lag die insgesamte Zustimmung (eher und sehr gerne) 2005 mit 91%.",
 		"erlaeuterungen": "Gefragt wurden nur Personen, die in der Stadt Basel wohnen.",
 		"template": "befragungenProzent001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -2287,8 +2402,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
@@ -2321,6 +2435,9 @@ var indikatoren = [
 		"lesehilfe": "Die Zahl der Einbürgerungen unterlag in den vergangenen zehn Jahren diversen Schwankungen. Die Höchstwerte wurden 2007 und 2008 mit 2 023 und 1 798 eingebürgerten Ausländern erreicht. Danach gingen die Einbürgerungen zurück, 2011 erwarben noch 835 Ausländer die Schweizer Staatsangehörigkeit. Seit 2012 nimmt die Zahl der Eingebürgerungen tendeziell wieder zu, im Jahr 2015 erhielten 1 166 Personen das Schweizer Bürgerrecht. Die Einbürgerungsziffer verläuft entsprechdend den absoluten Werten und liegt 2015 bei 16,8.",
 		"erlaeuterungen": "Voraussetzung für eine ordentliche Einbürgerung ist u. a. eine 12-jährige Wohndauer in der Schweiz. Eine erleichterte Einbürgerung kommt für ausländische Ehepartner von Schweizern in Frage, die 5 Jahre in der Schweiz gelebt haben und die seit 3 Jahren verheiratet sind. Die Einbürgerungsziffer wird als Anzahl Einbürgerungen pro 1000 Ausländer am Jahresende berechnet.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -2330,8 +2447,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Vertretung der Anliegen der Bevölkerung durch Behörden",
@@ -2360,6 +2476,9 @@ var indikatoren = [
 		"lesehilfe": "2015 fühlten sich 68,2% der befragten Personen sehr oder eher gut von den Behörden vertreten. Im Vergleich zu 2011 entspricht dies einem Rückgang um 2,2 Prozentpunkte. In den vorhergehenden Befragungsjahren lag die Zufriedenheit mit der Vertretung durch die Behörden jeweils deutlich unter derjenigen von 2011 und 2015 und die Frage konnte deutlich häufiger nicht beantwortet werden.",
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [
@@ -2372,8 +2491,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Gymnasialquote nach Staatsangehörigkeit seit 2006",
@@ -2407,6 +2525,9 @@ var indikatoren = [
 		"lesehilfe": "Mit Ausnahme von 2014 liegt die Gymnasialquote der Schweizer mindestens doppelt so hoch wie diejenige der Ausländer; tendenziell nähern sich die beiden Quoten allerdings an. Die Quote der Schüler mit deutscher Staatsbürgerschaft liegt deutlich höher als diejenige der Schweizer. Der Abstand verringerte sich seit 2014 allerdings deutlich. Die übrigen Staatsangehörigkeiten, deren Schülerzahl eine noch aussagekräftige Berechnungsbasis bildet, folgen mit grossem Abstand nach Deutschland und der Schweiz.",
 		"erlaeuterungen": "Die Gymnasialquote weist den Anteil Gymnasiasten an allen Schülern des 8. und 9. Schuljahres (nach HarmoS-Zählweise der Stufen 10 und 11) aus. Es werden nur Jugendliche berücksichtigt, deren Eltern im Kanton Basel-Stadt wohnen. Für einzelne Ländergruppen konnte aufgrund zu kleiner Fallzahlen keine Gymnasialquote errechnet werden. Jährliche Schwankungen (Bsp. Spanien) können zum Teil ebenfalls damit begründet werden.",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_180",
 		"parentId": null,
 		"children": [],
@@ -2416,8 +2537,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Lehrabbruchquote nach Staatsangehörigkeit seit 2011",
@@ -2455,6 +2575,9 @@ var indikatoren = [
 		"lesehilfe": "Die Lehrabbruchquote zeigt den Anteil der Lehrvertragsauflösungen an den Basler Berufsfachschulen gemessen an allen abgeschlossenen Lehrverträgen. Im Zeitraum zwischen 2011 und 2015 liegt die Quote bei Lernenden mit ausländischem Pass stehts höher als die Quote der Schweizerinnen und Schweizer, wobei sämtliche Quoten generell relativ nahe beieinander liegen.",
 		"erlaeuterungen": "Es handelt sich um Personen mit Lehrverträgen an Basler Berufsfachschulen, unabhängig vom Wohnort der Lehrabsolventen.",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_190",
 		"parentId": null,
 		"children": [],
@@ -2464,8 +2587,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Erwerbstätigenquote nach Staatsangehörigkeit 2010 bis 2014",
@@ -2502,6 +2624,9 @@ var indikatoren = [
 		"lesehilfe": "Insgesamt sind im Mittel der Jahre 2010 bis 2014 etwa 73% der Personen im erwerbsfähigen Alter (19 bis 64 Jahre) in Basel-Stadt erwerbstätig. Während Schweizer in 74% der Fälle erwerbstätig sind, liegt dieser Anteil bei Ausländern bei rund 71%. Grössere Unterschiede offenbaren sich zwischen verschiedenen Ausländergruppen: Während Personen aus Deutschland in 87% der Fälle erwerbstätig sind, liegen Personen aus den östlichen EU-Staaten sowie Spanier bei 75%.  Die Zahlen basieren allerdings auf Schätzungen. Vor allem die Ergebnisse für kleinere Personengruppen sind mit einer gewissen Unsicherheit behaftet. Die schwarzen Linien geben jeweils die Konfidenzintervalle auf dem 95%-Niveau an.",
 		"erlaeuterungen": "Konfidenzintervall 95%: Mit einer Wahrschenilchkeit von 95% befindet sich der wahre Wert zwischen der oberen und der unteren Grenze des Intervalls.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_200",
 		"parentId": null,
 		"children": [],
@@ -2511,8 +2636,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit seit 2008",
@@ -2550,6 +2674,9 @@ var indikatoren = [
 		"lesehilfe": "Der Anteil Angestellte in der kantonalen Verwaltung liegt zwischen 2008 und 2015 beim Personal mit Schweizer Pass stets mindestens viermal so hoch wie bei den ausländischen Verwaltungsangestellten. In der zweiten Hälfte des Beobachtungszeitraums hat sich dieses Ungleichgewicht sogar leicht verstärkt. Nach Staatsangehörigkeit betrachtet, sind die Deutschen (Tendenz zunehmend) sowie die Italiener (Tendenz abnehmend) und die Spanier (ebenfalls abnehmend) am besten vertreten.",
 		"erlaeuterungen": "Die Angestelltenquote zeigt den Anteil der Kantonsangestellten mit Wohnsitz in Basel-Stadt an allen Personen einer jeweilgen Bevölkerungsgruppe im erwerbsfähigen Alter (15- bis 64-Jährige).",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_210",
 		"parentId": null,
 		"children": [],
@@ -2559,8 +2686,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Sozialhilfequote",
@@ -2587,6 +2713,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger an der Wohnbevölkerung des Wohnviertels.",
 		"template": "dotplot",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_001",
 		"parentId": null,
 		"children": [
@@ -2600,8 +2729,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anteil Ausländer",
@@ -2628,6 +2756,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil der ausländischen Wohnbevölkerung an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"template": "dotplot",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_003",
 		"parentId": null,
 		"children": [
@@ -2641,8 +2772,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anteil Personen ohne Religionszugehörigkeit",
@@ -2669,6 +2799,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil Personen ohne Religionszugehörigkeit an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"template": "dotplot",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_005",
 		"parentId": null,
 		"children": [
@@ -2682,8 +2815,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anteil Personen in Einpersonenhaushalten",
@@ -2710,6 +2842,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil Personen in Einpersonenhaushalten an allen Personen in Privathaushalten des Wohnviertels in Prozent.",
 		"template": "dotplot",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_007",
 		"parentId": null,
 		"children": [
@@ -2723,8 +2858,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Gymnasialquote",
@@ -2752,6 +2886,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil der Gymnasiasten sowie seit 2016/2017 der Sek P Schüler an allen Schülern der 10. und 11. Schulstufe des Wohnviertels an öffentlichen Schulen und mit Elternwohnort Basel-Stadt (Schulstufen einschliesslich zweier obligatorischer Kindergartenstufen gezählt).",
 		"template": "dotplot",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_009",
 		"parentId": null,
 		"children": [
@@ -2765,8 +2902,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Altersquotient",
@@ -2794,6 +2930,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil der über 64-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent.",
 		"template": "dotplot",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_011",
 		"parentId": null,
 		"children": [
@@ -2807,8 +2946,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Sesshaftigkeit",
@@ -2835,6 +2973,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil der seit mindestens 10 Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"template": "dotplot",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_013",
 		"parentId": null,
 		"children": [
@@ -2848,8 +2989,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Jugendquotient",
@@ -2877,6 +3017,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil der unter 20-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent:",
 		"template": "dotplot",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_015",
 		"parentId": null,
 		"children": [
@@ -2890,8 +3033,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Baujahr Wohngebäude",
@@ -2919,6 +3061,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Mittleres Baujahr der Wohngebäude des Wohnviertels (ungewichtetes arithmetisches Mittel des Baujahres über alle Wohngebäude).",
 		"template": "dotplot",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_001",
 		"parentId": null,
 		"children": [
@@ -2932,8 +3077,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anteil Einfamilienhäuser",
@@ -2960,6 +3104,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil der Einfamilienhäuser an allen bewohnbaren Gebäuden des Wohnviertels in Prozent.",
 		"template": "dotplot",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_003",
 		"parentId": null,
 		"children": [
@@ -2973,8 +3120,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anteil Grünflächen",
@@ -3001,6 +3147,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil der Grünflächen an der gesamten Fläche der Wohnviertel. Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m2 geführt werden. Diese werden in einem Turnus von 6–12 Jahren mit einer periodischen Nachführung aktualisiert. Ausnahme: Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst.",
 		"template": "dotplot",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_005",
 		"parentId": null,
 		"children": [
@@ -3014,8 +3163,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Fläche pro Wohnung",
@@ -3042,6 +3190,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Mittlere Fläche der Wohnungen im Wohnviertel (ungewichtetes arithmetisches Mittel über alle Wohnungen) in Quadratmeter.",
 		"template": "dotplot",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_007",
 		"parentId": null,
 		"children": [
@@ -3055,8 +3206,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Wohnfläche pro Kopf",
@@ -3083,6 +3233,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Mittlere Wohnfläche pro Einwohner im Wohnviertel (gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen geteilt durch das Total der dort wohnenden Personen) in Quadratmeter.",
 		"template": "dotplot",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_009",
 		"parentId": null,
 		"children": [
@@ -3097,8 +3250,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Vermögenssteuer pro Veranlagung",
@@ -3125,6 +3277,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Mittlere Vermögenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Vermögenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
 		"template": "dotplot",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_001",
 		"parentId": null,
 		"children": [
@@ -3138,8 +3293,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Einkommenssteuer pro Veranlagung",
@@ -3166,6 +3320,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Mittlere Einkommenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Einkommenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
 		"template": "dotplot",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_003",
 		"parentId": null,
 		"children": [
@@ -3179,8 +3336,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Erwerbstätigenquote",
@@ -3207,6 +3363,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet, was zum selben Wert für die beiden Gemeinden führt.",
 		"template": "dotplot",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_005",
 		"parentId": null,
 		"children": [
@@ -3220,8 +3379,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Arbeitsplätze pro Kopf",
@@ -3248,6 +3406,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte, die in Basel-Stadt arbeiten, in Vollzeitäquivalenten) an der gesamten Wohnbevölkerung des Wohnviertels.<br> Im Wohnvietel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
 		"template": "dotplot",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_007",
 		"parentId": null,
 		"children": [
@@ -3261,8 +3422,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Arbeitslosenquote",
@@ -3290,6 +3450,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil als arbeitslos gemeldeter Personen am Total der Erwerbspersonen (15 bis 64 Jahre) in Prozent, jeweils Ende Jahr. Erwerbspersonen aus den Jahren 2010 - 2014, Hochrechnung auf Basis einer Stichprobe von 5 000 Personen pro Jahr. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet.",
 		"template": "dotplot",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_009",
 		"parentId": null,
 		"children": [
@@ -3304,8 +3467,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Unterstützung von Freunden oder Nachbarn",
@@ -3335,6 +3497,9 @@ var indikatoren = [
 		"lesehilfe": "Knapp die Hälfte der Befragten haben 2009 und 2013 angegeben, sich bei Erziehungsfragen schon einmal an Freunde oder Nachbarn gewendet zu haben. Im Vergleich zu den anderen Lebenssituationen, in welchen die Befragten Hilfe in Anspruch nehmen, ist dies der deutlich grösste Anteil.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -3344,8 +3509,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Beurteilung des Verhältnisses zur Nachbarschaft",
@@ -3372,6 +3536,9 @@ var indikatoren = [
 		"lesehilfe": "2009 gaben 90,4% und 2013 89,6% der Familien an, ein gutes Verhältnis zu ihren Nachbarinnen und Nachbarn zu pflegen.",
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -3381,8 +3548,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Zusammensetzung des Freundeskreises",
@@ -3410,6 +3576,9 @@ var indikatoren = [
 		"lesehilfe": "2013 gaben 78,7% der befragten Jugendlichen an, sowohl Mädchen als auch Jungen in ihrem Freundeskreis zu haben. 0,8% gaben an, keinen Freundeskreis zu haben. Weitere 3,9% machten keine Angabe. Im Jahr 2009 weichen die Angaben der Jugendlichen bei allen Antwortkategorien um weniger als 2 Prozentpunkte von den Werten des Jahres 2015 ab.",
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -3419,8 +3588,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Zufriedenheit mit dem Austausch mit der Nachbarschaft",
@@ -3448,6 +3616,9 @@ var indikatoren = [
 		"lesehilfe": "2011 waren 85,3% der Befragten zufrieden mit dem Austausch mit den Nachbarn, 2015 betrug die Zufriedenheit 87,8%, wobei der Anteil sehr zufriedener Personen im Vergleich zu 2011 um 4,2 Prozentpunkte höher lag. Gleichzeitig reduzierte sich der Anteil derjenigen Personen, die keine Antwort geben konnten oder wollten, von 2011 auf 2015 um 2,5 Prozentpunkte.",
 		"erlaeuterungen": "Gefragt wurde: «Wie zufrieden sind Sie am aktuellen Wohnort mit dem Austausch mit den Nachbarn?»",
 		"template": "befragungenProzent001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -3457,8 +3628,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Sicherheitsgefühl im Alltag",
@@ -3486,6 +3656,9 @@ var indikatoren = [
 		"lesehilfe": "Mit einem Anteil von 42,2% fühlten sich 2015 weniger als die Hälfte der Befragten im Alltag sehr sicher und 49,0% fühlten sich eher sicher. Im Vergleich zu den vorherigen Befragungen fühlten sich die Befragten im Alltag weniger sicher. Am höchsten war das Sicherheitsempfinden 2005, als der Anteil Personen, die sich sehr sicher fühlten, bei 56,0% und die insgesamte Sicherheit bei 94,6% lag.",
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -3495,8 +3668,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Bedrohungen und Angriffe",
@@ -3524,6 +3696,9 @@ var indikatoren = [
 		"lesehilfe": "2015 gaben 6,2% der Befragten an, im letzten Jahr bedroht oder angegriffen worden zu sein. Dieser Anteil ist im Vergleich mit den Vorjahren um zwischen 1,4 (2011) bis 2,8 (2005) Prozentpunkte geringer.",
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -3533,8 +3708,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Sicherheitsgefühl nachts im Quartier",
@@ -3563,6 +3737,9 @@ var indikatoren = [
 		"lesehilfe": "2015 wurde die Sicherheit nachts draussen im Vergleich zu den Vorjahren kritischer bewertet: 62,4% fühlten sich nachts im Quartier sehr oder eher sicher, das sind 1,1 Prozentpunkte weniger als 2011. Der Anteil der Befragten, die sich sehr sicher fühlten, ging im selben Zeitraum von 28,8% auf 24,5% zurück und seit 2003 um insgesamt mehr als 9 Prozentpunkte.",
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -3572,8 +3749,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Beurteilung des Ausländeranteils",
@@ -3601,6 +3777,9 @@ var indikatoren = [
 		"lesehilfe": "2011 waren 53,1% der Befragten der Meinung, es gäbe grundsätzlich zu viele Menschen aus dem Ausland im Kanton Basel-Stadt. Dieser Wert hat sich 2015 auf 46,7% reduziert.",
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_03_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -3610,8 +3789,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Beurteilung des Beitrags der ausländischen Bevölkerung zur Lebensqualität",
@@ -3639,6 +3817,9 @@ var indikatoren = [
 		"lesehilfe": "Der Behauptung, ohne Menschen aus dem Ausland würden wir nicht so gut leben, stimmten 2015 76,4% der Befragten sehr oder eher zu, mehr als in den Vorjahren (2011: 72,4%; 2007: 61,9%; 2005: 66,9%).",
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_03_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -3648,8 +3829,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Beurteilung der Schulen in Basel-Stadt",
@@ -3680,6 +3860,9 @@ var indikatoren = [
 		"lesehilfe": "Dass die Schulen im Kanton Basel-Stadt eine gute Vorbereitung fürs Leben im Allgemeinen sind, bejahten 2015 rund 43,6% der Befragten. Im Vergleich zum Jahr 2011 bedeutet dies einen Rückgang um 4,4 Prozentpunkte. Insbesondere bei der starken Zustimmung zu dieser Aussage gab es eine deutliche Abnahme von 2011 auf 2015.",
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -3689,8 +3872,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Beurteilung der Chancengleichheit",
@@ -3720,6 +3902,9 @@ var indikatoren = [
 		"lesehilfe": "2015 zeigten sich 51,9% der Befragten mit der Aussage, dass die kantonalen Behörden die Chancengleichheit von Männern und Frauen zielstrebig vorantreiben, eher oder sehr einverstanden. Somit ist die Zustimmung seit 2007 (44,5% eher oder sehr Einverstandene) beständig gestiegen.",
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -3729,8 +3914,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Beurteilung der kantonalen Verwaltung",
@@ -3758,6 +3942,9 @@ var indikatoren = [
 		"lesehilfe": "73,7% der befragten Personen schätzten 2015 ihren letzten Kontakt, den sie mit der Verwaltung des Kantons Basel-Stadt hatten, als positiv ein. Das sind 3,8 Prozentpunkte weniger als 2011, aber mehr als in der Befragung von 2007 (64,4%).",
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [
@@ -3769,8 +3956,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Beurteilung der kantonalen Steuern",
@@ -3798,6 +3984,9 @@ var indikatoren = [
 		"lesehilfe": "2015 gaben mit 56,4% mehr als die Hälfte der Befragten an, dass die kantonalen Steuern und Gebühren beibehalten werden sollten. Dieser Anteil fällt im Vergleich zu den Vorjahren deutlich höher aus (2011: 45,6%, 2007: 30,0%).",
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_03_00_00_00_000",
 		"parentId": null,
 		"children": [
@@ -3809,8 +3998,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Beurteilung der eigenen wirtschaftlichen Situation",
@@ -3838,6 +4026,9 @@ var indikatoren = [
 		"lesehilfe": "89,7% der befragten Personen ging es 2015 wirtschaftlich gesehen sehr gut oder eher gut. Im Vergleich zu 2011 entspricht dies einem Anstieg um 2,5 Prozentpunkte. Für diese Frage wurde die Stichprobe der Bevölkerungsbefragung zugunsten der Vergleichbarkeit für den Städtevergleich ab 2005 gesplittet bzw. reduziert, weshalb ab 2005 weniger Antworten vorliegen.",
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_03_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -3847,8 +4038,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Beurteilung der Bildungschancen",
@@ -3876,6 +4066,9 @@ var indikatoren = [
 		"lesehilfe": "Mit der Aussage, dass alle Kinder dieselben Bildungschancen erhalten würden, zeigten sich im Jahr 2015 46,9% der Befragten einverstanden, während 42,6% nicht dieser Meinung waren. Seit 2005 hat ich der Anteil der eher oder sehr mit dieser Aussage einverstandenen Befragten stetig vergrössert.",
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_03_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -3885,8 +4078,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anteil Steuerveranlagungen mit Zuwendungen",
@@ -3914,6 +4106,9 @@ var indikatoren = [
 		"lesehilfe": "19,3% der Steuerveranlagungen im Jahr 2013 enthielten Zuwendungen. Seit 2006 ist dieser Anteil tendenziell steigend.",
 		"erlaeuterungen": "Grundlage sind die Daten der Steuererklärungen der ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, ohne Wochenaufenthalter, Unterjährige und Auswärtige. Enthalten sind auch Quellenbesteuerte, die nachträglich ordentlich veranlagt wurden; dies ist zum Beispiel bei Einkünften von über 120 000 Franken pro Kalenderjahr der Fall. Eine Veranlagung kann zwei Personen umfassen, zum Beispiel bei Verheirateten.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "03_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -3923,8 +4118,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Freiwillige Tätigkeit",
@@ -3951,6 +4145,9 @@ var indikatoren = [
 		"lesehilfe": "41,0% der Befragten gaben an, in ihrer Freizeit freiwillig tätig zu sein. Die Frage nach der Freiwilligen Tätigkeit wurde 2015 zum ersten Mal im Rahmen der Bevölkerungsbefragung erhoben.",
 		"erlaeuterungen": "Freiwilligenarbeit ist ein unbezahlter Beitrag an Mitmenschen und/oder Umwelt und findet ausserhalb des eigenen Haushalts statt.",
 		"template": "befragungenProzent001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "03_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -3960,8 +4157,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit im Alter",
@@ -3988,6 +4184,9 @@ var indikatoren = [
 		"lesehilfe": "2015 gaben 27,5% der Befragten an, sich in ihrer Freizeit ehrenamtlich zu betätigen, 2011 waren es 21,7%. Der Anteil Befragter, welche keine Angabe zu dieser Frage machten, nahm von 18,1% im Jahr 2011 auf 8,1% im Jahr 2015 ab.",
 		"erlaeuterungen": "Die Fragestellung hat sich leicht verändert von «Sind Sie in Ihrer Freizeit ehrenamtlich tätig?» im Jahr 2011 zu «Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?» im Jahr 2015",
 		"template": "befragungenProzent001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "03_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -3997,8 +4196,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anzahl Anzeigen, die das Strafgesetzbuch (StGB) betreffen, pro 1000 Einwohner im Alter von 18 und mehr Jahren",
@@ -4025,6 +4223,9 @@ var indikatoren = [
 		"lesehilfe": "Die Zahl der angezeigten Straftaten pro 1000 Einwohner ab 18 Jahren war von 2008 bis 2010 relativ stabil, sie bewegte sich zwischen 121,2 und 125,3. Danach stieg die Quote und erreichte 2012 163,5. Die beiden letzten Jahre zeigen nun wieder einen Rückgang der Anzahl Straftaten pro 1000 Einwohner.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "03_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -4035,8 +4236,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anzahl Anzeigen wegen Veruntreuung und Betrug pro 1000 Einwohner im Alter von 18 und mehr Jahren",
@@ -4063,6 +4263,9 @@ var indikatoren = [
 		"lesehilfe": "Die Quote erhöhte sich zwischen 2008 und 2009 von 4,5 auf 5,5. In den beiden folgenden Jahre ging sie zurück. Seit 2012 steigt sie in der Tendenz erneut, 2014 wurden pro 1000 18-Jährige und Ältere 6,6 Anzeigen wegen Veruntreuung und Betrug erfasst.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "03_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -4073,8 +4276,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anzahl Anzeigen wegen Diebstahl (ohne Fahrzeugdiebstahl/-entwendung) pro 1000 Einwohner im Alter von 18 und mehr Jahren",
@@ -4101,6 +4303,9 @@ var indikatoren = [
 		"lesehilfe": "Die Quote bewegte sich in den Jahren 2008 bis 2011 zwischen rund 61 und 66. 2012 wurden mit 86 deutlich mehr Anzeigen pro 1000 18-jährige und ältere Einwohner erfasst. Danach ging die Anzeigenquote wegen Diebstahl wieder zurück, im Jahr 2014 lag sie noch bei etwa 63.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "03_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -4111,8 +4316,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anzahl Anzeigen wegen Körperverletzung pro 1000 Einwohner im Alter von 18 und mehr Jahren",
@@ -4139,6 +4343,9 @@ var indikatoren = [
 		"lesehilfe": "Die Zahl der Anzeigen wegen Körperverletzung pro 1000 Einwohner ab 18 Jahren erhöhte sich von 2008 bis 2011 kontinuierlich auf 3,9. In der Folge sank diese Quote wieder, 2014 lag sie bei 3,0.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "03_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -4149,8 +4356,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Engagement in Organisationen und Vereinen",
@@ -4177,6 +4383,9 @@ var indikatoren = [
 		"lesehilfe": "2013 gaben ein Viertel der Befragten Jugendlichen an, dass sie sich in einer Organisation, in einem Verein oder ähnlichem engagieren, 2011 lag dieser Wert noch bei 12,0%.",
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "03_03_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -4186,8 +4395,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Wahlbeteiligung bei National- und Grossratswahlen",
@@ -4214,6 +4422,9 @@ var indikatoren = [
 		"lesehilfe": "Bei nationalen Wahlen liegt die Wahlbeteiligung im Stadtkanton rund 10 Prozentpunkte höher als bei den Wahlen ins kantonale Parlament.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "03_03_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -4223,8 +4434,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Interesse an der Politik in Basel-Stadt",
@@ -4253,6 +4463,9 @@ var indikatoren = [
 		"lesehilfe": "29,6% der befragten Personen interessierten sich 2015 sehr stark für die Politik im Kanton Basel-Stadt. Das sind 1,4 Prozentpunkte mehr als 2011 und auch mehr als in den vergangenen Befragungen seit 2003.",
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "03_03_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -4262,8 +4475,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Politikinteresse der über 54-Jährigen",
@@ -4291,6 +4503,9 @@ var indikatoren = [
 		"lesehilfe": "2011 gaben 69,7% und 2015 76,7% der Befragten an, das Thema Politik beschäftige sie eher oder sehr stark. Der Anteil Befragter, welche keine Angabe zu dieser Frage machen konnten, ging von 8,8% im Jahr 2011 auf 3,9% im Jahr 2015 zurück.",
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "03_03_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -4300,8 +4515,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Zufriedenheit mit Sozialkontakten im Wohnumfeld",
@@ -4330,6 +4544,9 @@ var indikatoren = [
 		"lesehilfe": "2015 gaben 80,0% der Befragten an, mit den Sozialkontakten im Wohnumfeld/Quartier zufrieden zu sein. 2011 waren 78% sehr oder eher zufrieden. Gleichzeitig reduzierte sich der Anteil derjenigen Personen, die keine Antwort geben konnten oder wollten, von 2011 auf 2015 um fast 3 Prozentpunkte.",
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -4339,8 +4556,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeitund Alter 2015",
@@ -4375,6 +4591,9 @@ var indikatoren = [
 		"lesehilfe": "2015 überstiegen bei Deutschen und Italienern die Rückwanderungsquoten der 15- bis 64-Jährigen jene der 65-Jährigen und Älteren. Bei Spaniern, Türken und Personen aus dem ehemaligen Jugoslawien verhielt es sich umgekehrt. Die Zahl älterer Maghrebiner und Ägypter, älterer Personen aus den EU-Oststaaten sowie älterer Mittel- und Südamerikaner ist sehr gering, sodass die Rückwanderungsquoten dieser Ausländergruppen kaum Aussagen zu deren Wanderungsverhalten zulassen.",
 		"erlaeuterungen": "Die Rückwanderungsquote ist wie folgt definiert: Anzahl Personen, welche ins Land ihrer Herkunft (nicht in das Land, aus dem sie zugezogen sind) resp. in die entsprechende Ländergruppe abwandern pro 1000 Personen einer Ländergruppe. Die Rückwanderungsquote «Ausland», also von allen Ausländern zusammen, ist definiert als die Anzahl der ins Ausland (egal, ob Herkunftsland oder nicht) weggezogenen Ausländer pro 1000 Personen der ausländischen Wohnbevölkerung, Aus diesem Grund liegt die Rückwanderungsquote «Ausland» auch vergleichsweise hoch.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_150",
 		"parentId": null,
 		"children": [],
@@ -4384,8 +4603,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Ausländische Bevölkerung nach Wohndauer und Geburtsort seit 2006",
@@ -4420,6 +4638,9 @@ var indikatoren = [
 		"lesehilfe": "Rund 20% der Ausländer wohnen seit mindestens 12 Jahren im selben Wohnviertel resp. derselben Landgemeinde.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_135",
 		"parentId": null,
 		"children": [],
@@ -4429,8 +4650,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Bruttowertschöpfung nach Branchengruppe in Mio. Franken",
@@ -4458,6 +4678,9 @@ var indikatoren = [
 		"lesehilfe": "Die Branchengruppe Bau und Herstellung von Waren macht mit über 12,5 Mrd. Franken im Jahr 2013 wie in sämtlichen anderen Beobachtungsjahren den grössten Anteil an der Bruttowertschöpfung des Kantons Basel-Stadt aus.",
 		"erlaeuterungen": "Bau u. Herst. v. Waren umfasst: Bergbau und Gewinnung von Steinen und Erden, Herstellung von Waren, Bau; Handel und Informationsdienstl. umfasst: Handel und Reparatur von Fahrzeugen, Transport, Informationsdienstleistungen und Telekommunikation, Beherbergung und Gastronomie; Wirtschaftl. Dienstl. u. Unterhaltung umfasst: Grundstücks- und Wohnungswesen, sonstige freiberufliche, wissenschaftliche und technische Tätigkeiten, wirtschaftliche Dienstleistungen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen; Finanzen und Versicherungen umfasst: Erbringung von Finanzdienstleistungen und Versicherungen; Versorgung und Bildung umfasst: Energieversorgung, Wasserversorgung, Sammlung, Behandlung und Beseitigung von Abfällen, Erziehung und Unterricht, Gesundheitswesen; Private Haushalte umfasst: Private Haushalte als Hersteller; Landwirtschaft umfasst: Landwirtschaft, Forstwirtschaft und Fischerei.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [],
@@ -4467,8 +4690,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Basler Index der Konsumentenpreise seit 1982 (Dez. 1982 = 100)",
@@ -4497,6 +4719,9 @@ var indikatoren = [
 		"lesehilfe": "Seit 1983 ist das Preisniveau in Basel-Stadt um 60% gestiegen.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [],
@@ -4506,8 +4731,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Mittlere Jahresteuerung Basel-Stadt im Vergleich zur Schweiz",
@@ -4537,6 +4761,9 @@ var indikatoren = [
 		"lesehilfe": "Seit 2000 war die Jahresteuerung sowohl in Basel-Stadt als auch in der Schweiz vier Mal negativ, letztmals 2015 mit -1,2 bzw.  -1,1 Prozent.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [],
@@ -4547,8 +4774,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anzahl Betreibungen seit 1974",
@@ -4577,6 +4803,9 @@ var indikatoren = [
 		"lesehilfe": "Seit den 1990er-Jahren hat sich die Anzahl Betreibungen im Kanton Basel-Stadt von 40 000 auf knapp 80 000 Fälle im Jahr verdoppelt.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [],
@@ -4586,8 +4815,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Wert der Ein- und Ausfuhren nach resp. aus Basel-Stadt in 1000 Franken",
@@ -4616,6 +4844,9 @@ var indikatoren = [
 		"lesehilfe": "Im Vergleich zu 2000 hat der Ausfuhrüberschuss markant zugenommen. 2015 betrug der Warenwert der aus Basel-Stadt exportierten Güter das Zehnfache der Einfuhren, 2000 machte der Exportwert noch das Doppelte der Importe aus.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [],
@@ -4625,8 +4856,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Landwirtschaftliche Nutzfläche und Anzahl Landwirtschaftsbetriebe",
@@ -4658,6 +4888,9 @@ var indikatoren = [
 		"lesehilfe": "Sowohl die Anzahl landwirtschaftlicher Betriebe als auch die Nutzfläche sind in den letzten Jahren tendenziell rückläufig.",
 		"erlaeuterungen": "Die landwirtschaftliche Nutzfläche eines baselstädtischen Betriebes kann auch im Ausland liegen.",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [],
@@ -4667,8 +4900,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Logiernächte nach Herkunft",
@@ -4699,6 +4931,9 @@ var indikatoren = [
 		"lesehilfe": "Seit 2008 zählt Basel-Stadt jährlich über 1 Million Logiernächte. Ein Drittel geht auf das Konto von inländischen Gästen.",
 		"erlaeuterungen": "Logiernächte: Anzahl der durch die Gäste (Kinder eingeschlossen) in einem bestimmten Hotelbetrieb verbrachten Nächte.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [],
@@ -4708,8 +4943,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Logiernächte und Bettenzahl",
@@ -4739,6 +4973,9 @@ var indikatoren = [
 		"lesehilfe": "Seit 1990 haben sich sowohl die verfügbaren Betten als auch die Logiernächte verdoppelt.",
 		"erlaeuterungen": "Logiernächte: Anzahl der durch die Gäste (Kinder eingeschlossen) in einem bestimmten Hotelbetrieb verbrachten Nächte.<br/>Verfügbare Betten: Anzahl der Betten in den geöffneten Betrieben, im Durchschnitt der betreffenden Periode.",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [],
@@ -4748,8 +4985,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Privater Motorisierungsgrad",
@@ -4779,6 +5015,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Der Motorisierungsgrad zeigt die Anzahl privater Personenwagen auf 1000 Einwohner.",
 		"template": "dotplot",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [
@@ -4792,8 +5031,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Private Personenwagen pro Haushalt",
@@ -4824,6 +5062,9 @@ var indikatoren = [
 		"lesehilfe": "In den beiden Landgemeinden besitzen die Haushalte im Schnitt am meisten Personenwagen, in der Kleinbasler Altstadt am wenigsten.",
 		"erlaeuterungen": "",
 		"template": "dotplot",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [
@@ -4839,8 +5080,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Grundpfandbelastung in Mio. Franken seit 1990",
@@ -4868,6 +5108,9 @@ var indikatoren = [
 		"lesehilfe": "Seit 1990 hat sich die Summe der Grundpfandverschreibungen von 14 auf 28 Millionen verdoppelt.",
 		"erlaeuterungen": "Zur Sicherung einer Forderung kann ein Grundstück mit einem Grundpfandrecht verpfändet werden. In Basel-Stadt kann dies in Form eines Schuldbriefs oder einer Grundpfandverschreibung erfolgen.",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [],
@@ -4877,8 +5120,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anzahl Besucher und Besucherinnen in Basler Museen",
@@ -4908,6 +5150,9 @@ var indikatoren = [
 		"lesehilfe": "Seit 2002 besuchen jedes Jahr weit über 1 Million Personen die Basler Museen. Ausstellungen mit internationaler Strahlkraft wirken sich - wie z. B. 2004 Tutanchamun oder 2009 Van Gogh - positiv auf die Besuchszahlen aus.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [],
@@ -4917,8 +5162,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Entwicklung des Frauenanteils bei den Kandidaturen und Wahlen zum Grossen Rat seit 1968",
@@ -4948,6 +5192,9 @@ var indikatoren = [
 		"lesehilfe": "Seit Einführung des Frauenstimmrechts 1966 hat sich der Frauenanteil unter den Grossratskandidierenden von anfangs einem Fünftel bis im Jahr 1996 verdoppelt und ging bis 2012 kontinuierlich zurück. Die Entwicklung der Frauenvertretung im basel-städtischen Kantonsparlament war 2012 nach einer längeren Wachstumsphase erstmals wieder rückläufig.",
 		"erlaeuterungen": "Der Grosse Rat umfasst seit den Gesamterneuerungswahlen 2008 gemäss der neuen, 2005 vom Basler Stimmvolk verabschiedeten Kantonsverfassung nur noch 100 Grossratssitze.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [],
@@ -4957,8 +5204,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anzahl Gewaltstraftaten pro 100000 Einwohner",
@@ -4986,6 +5232,9 @@ var indikatoren = [
 		"lesehilfe": "Die Zahl der Gewaltstraftaten (vorsätzliche Tötungs- und Körperverletzungsdelikte, Raub, Vergewaltigung) pro 100 000 Einwohner der mittleren Wohnbevölkerung ging von 2005 bis 2007 zurück. Danach stieg die Zahl bis zum Jahr 2011 kontinuierlich. Seither wird wieder ein Rückgang verzeichnet.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [],
@@ -4995,8 +5244,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Gedanken über die Arbeitsstelle",
@@ -5024,6 +5272,9 @@ var indikatoren = [
 		"lesehilfe": "2015 machten sich zwei Drittel der befragten erwerbstätigen Personen Gedanken über ihre Arbeitsstelle. Seit 2007 ist der Anteil von 58,2% auf 67,8% angestiegen.",
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -5033,8 +5284,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Gründe für Gedanken über die Arbeitsstelle",
@@ -5064,6 +5314,9 @@ var indikatoren = [
 		"lesehilfe": "Wenn sich die 2015 befragten Personen Gedanken zu ihrer Arbeitsstelle machen, dann am häufigsten wegen ihren persönlichen Entwicklungsperspektiven (63,0%). Die Beschäftigung mit dem Betriebsklima erfuhr von 2011 auf 2015 einen Anstieg von 26,1% auf 47,2%.",
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -5073,8 +5326,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Politikinteresse der unter 30-Jährigen",
@@ -5103,6 +5355,9 @@ var indikatoren = [
 		"lesehilfe": "Von den Befragten im Alter von 18 bis 29 Jahren interessierten sich 2015 61,9% eher oder sehr stark für die Politik im Kanton Basel-Stadt. Gegenüber 2007 entspricht dies einer Zunahme um 17,1 Prozentpunkte. Auch die Ergebnisse der Jugendbefragungen von 2009 und 2013 (nicht abgebildet) zeigen auf, dass sich jüngere Befragte weniger für Politik interessieren als ältere: 2013 gaben 14,1% der 11-14-Jährigen (N=482), 18,8% der 15-17-Jährigen (N=448) und 27,1% der über 18-Jährigen (N=92) an, sich eher oder sehr für Politik zu interessieren.",
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "03_03_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -5112,8 +5367,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Hospitalisierungen in baselstädtischen Spitälern nach Hauptbereich",
@@ -5141,6 +5395,9 @@ var indikatoren = [
 		"lesehilfe": "Die akutsomatischen Fälle in baselstädtischen Spitälern nahmen von 2008 bis 2015 um 16% auf 63 800 zu. Mit einer Zunahme von 39% verzeichnete der Hauptbereich Rehabilitation die grösste Veränderung im Beobachtungszeitraum.",
 		"erlaeuterungen": "Gezählt werden stationäre Austritte innerhalb eines Jahres.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [],
@@ -5151,8 +5408,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Pflegetage in baselstädtischen Spitälern nach Hauptbereich",
@@ -5180,6 +5436,9 @@ var indikatoren = [
 		"lesehilfe": "Die Anzahl Pflegetage im Hauptbereich Geriatrie gingen von 2008 bis 2015 um über 38% auf 85 000 zurück. In den übrigen Hauptbereichen wurde im selben Zeitraum eine Zunahme der Pflegetage verzeichnet. Das grösste Plus wurde im Bereich Rehabilitation (+24%) registriert. Die Gesamtzahl der Pflegetage in Basler Spitälern betrug 2015 rund 747 600 und damit 5% weniger als noch 2008.",
 		"erlaeuterungen": "Die Berechnungsmethode wurde rückwirkend ab 2012 angepasst. Deshalb können sich die Werte von früher an dieser Stelle publizierten Werten unterscheiden. Neu werden gemäss SwissDRG bei Fallzusammenführungen (Wiedereintritt mit identischer Hauptdiagnosegruppe innerhalb von 18 Tagen) die zwischen Aus- und Wiedereintritt liegenden Tage nicht mehr als Pflegetage gezählt.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [],
@@ -5190,8 +5449,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Transnationale Patentanmeldungen pro 1000 Einwohner",
@@ -5221,6 +5479,9 @@ var indikatoren = [
 		"lesehilfe": "Es werden die Patentanmeldungen pro Einwohner im Mittel über mehrere Jahre gezeigt. In Basel-Stadt werden am meisten Patente in der Pharmazeutischen Industrie angemeldet.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_007",
 		"parentId": null,
 		"children": [
@@ -5232,8 +5493,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Neugründungen in Basel-Stadt",
@@ -5261,6 +5521,9 @@ var indikatoren = [
 		"lesehilfe": "Die meisten neuen Unternehmen wurden in allen drei Jahren im Bereich der Unternehmensdienstleistungen gegründet. Das Total der Neugründungen erreichte 2014 mit 1 352 Neugründungen den Höchstwert.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_003",
 		"parentId": null,
 		"children": [
@@ -5272,8 +5535,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anteil PV-Beziehende mit Sozialhilfe und Ergänzungsleistungen an der Bevölkerung",
@@ -5301,6 +5563,9 @@ var indikatoren = [
 		"lesehilfe": "Mit rund 50 000 Beziehenden erhalten 2016 etwas mehr als ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligungen.",
 		"erlaeuterungen": "PV: Prämienverbilligungen",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "11_00_00_00_00_001",
 		"parentId": null,
 		"children": [
@@ -5313,8 +5578,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Sozialhilfequote",
@@ -5341,6 +5605,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger an der Wohnbevölkerung des Wohnviertels.",
 		"template": "map001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_002",
 		"parentId": 4822,
 		"children": [],
@@ -5352,8 +5619,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=soz_sozhilfe.soz_quote' target='_blank'>Basler Atlas</a>."
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anteil Ausländer",
@@ -5380,6 +5646,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil der ausländischen Wohnbevölkerung an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"template": "map001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_004",
 		"parentId": 4823,
 		"children": [],
@@ -5391,8 +5660,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevheim.anteil_al' target='_blank'>Basler Atlas</a>."
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anteil Personen ohne Religionszugehörigkeit",
@@ -5419,6 +5687,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil Personen ohne Religionszugehörigkeit an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"template": "map001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_006",
 		"parentId": 4824,
 		"children": [],
@@ -5430,8 +5701,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anteil Personen in Einpersonenhaushalten",
@@ -5458,6 +5728,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil Personen in Einpersonenhaushalten an allen Personen in Privathaushalten des Wohnviertels in Prozent.",
 		"template": "map001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_008",
 		"parentId": 4825,
 		"children": [],
@@ -5469,8 +5742,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Gymnasialquote",
@@ -5498,6 +5770,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil der Gymnasiasten sowie seit 2016/2017 der Sek P Schüler an allen Schülern der 10. und 11. Schulstufe des Wohnviertels an öffentlichen Schulen und mit Elternwohnort Basel-Stadt (Schulstufen einschliesslich zweier obligatorischer Kindergartenstufen gezählt).",
 		"template": "map001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_010",
 		"parentId": 4826,
 		"children": [],
@@ -5509,8 +5784,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Altersquotient",
@@ -5538,6 +5812,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil der über 64-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent.",
 		"template": "map001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_012",
 		"parentId": 4827,
 		"children": [],
@@ -5549,8 +5826,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Sesshaftigkeit",
@@ -5577,6 +5853,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil der seit mindestens 10 Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"template": "map001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_014",
 		"parentId": 4828,
 		"children": [],
@@ -5588,8 +5867,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevsess.anteil_sess10' target='_blank'>Basler Atlas</a>."
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Jugendquotient",
@@ -5617,6 +5895,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil der unter 20-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent:",
 		"template": "map001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_016",
 		"parentId": 4829,
 		"children": [],
@@ -5628,8 +5909,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Baujahr Wohngebäude",
@@ -5657,6 +5937,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Mittleres Baujahr der Wohngebäude des Wohnviertels (ungewichtetes arithmetisches Mittel des Baujahres über alle Wohngebäude).",
 		"template": "map001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_002",
 		"parentId": 4830,
 		"children": [],
@@ -5668,8 +5951,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anteil Einfamilienhäuser",
@@ -5696,6 +5978,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil der Einfamilienhäuser an allen bewohnbaren Gebäuden des Wohnviertels in Prozent.",
 		"template": "map001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_004",
 		"parentId": 4831,
 		"children": [],
@@ -5707,8 +5992,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anteil Grünflächen",
@@ -5735,6 +6019,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil der Grünflächen an der gesamten Fläche der Wohnviertel. Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m2 geführt werden. Diese werden in einem Turnus von 6–12 Jahren mit einer periodischen Nachführung aktualisiert. Ausnahme: Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst.",
 		"template": "map001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_006",
 		"parentId": 4832,
 		"children": [],
@@ -5746,8 +6033,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=ru_gruen.gruenflaeche_ant' target='_blank'>Basler Atlas</a>."
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Fläche pro Wohnung",
@@ -5774,6 +6060,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Mittlere Fläche der Wohnungen im Wohnviertel (ungewichtetes arithmetisches Mittel über alle Wohnungen) in Quadratmeter.",
 		"template": "map001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_008",
 		"parentId": 4833,
 		"children": [],
@@ -5785,8 +6074,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Wohnfläche pro Kopf",
@@ -5813,6 +6101,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Mittlere Wohnfläche pro Einwohner im Wohnviertel (gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen geteilt durch das Total der dort wohnenden Personen) in Quadratmeter.",
 		"template": "map001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_010",
 		"parentId": 4834,
 		"children": [],
@@ -5825,8 +6116,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Vermögenssteuer pro Veranlagung",
@@ -5853,6 +6143,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Mittlere Vermögenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Vermögenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
 		"template": "map001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_002",
 		"parentId": 4835,
 		"children": [],
@@ -5864,8 +6157,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_ver.vermoegen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Einkommenssteuer pro Veranlagung",
@@ -5892,6 +6184,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Mittlere Einkommenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Einkommenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
 		"template": "map001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_004",
 		"parentId": 4836,
 		"children": [],
@@ -5903,8 +6198,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_eink.einkommen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Erwerbstätigenquote",
@@ -5931,6 +6225,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet, was zum selben Wert für die beiden Gemeinden führt.",
 		"template": "map001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_006",
 		"parentId": 4837,
 		"children": [],
@@ -5942,8 +6239,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Arbeitsplätze pro Kopf",
@@ -5970,6 +6266,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte, die in Basel-Stadt arbeiten, in Vollzeitäquivalenten) an der gesamten Wohnbevölkerung des Wohnviertels.<br> Im Wohnvietel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
 		"template": "map001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_008",
 		"parentId": 4838,
 		"children": [],
@@ -5981,8 +6280,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Arbeitslosenquote",
@@ -6010,6 +6308,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil als arbeitslos gemeldeter Personen am Total der Erwerbspersonen (15 bis 64 Jahre) in Prozent, jeweils Ende Jahr. Erwerbspersonen aus den Jahren 2010 - 2014, Hochrechnung auf Basis einer Stichprobe von 5 000 Personen pro Jahr. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet.",
 		"template": "map001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_010",
 		"parentId": 4839,
 		"children": [],
@@ -6022,8 +6323,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Privater Motorisierungsgrad",
@@ -6053,6 +6353,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Der Motorisierungsgrad zeigt die Anzahl privater Personenwagen auf 1000 Einwohner.",
 		"template": "map001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": 4917,
 		"children": [],
@@ -6064,8 +6367,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=11_fahrzeuge.11_motorisierungsgrad' target='_blank'>Basler Atlas</a>."
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Private Personenwagen pro Haushalt",
@@ -6096,6 +6398,9 @@ var indikatoren = [
 		"lesehilfe": "In den beiden Landgemeinden besitzen die Haushalte im Schnitt am meisten Personenwagen, in der Kleinbasler Altstadt am wenigsten.",
 		"erlaeuterungen": "",
 		"template": "map001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": 4918,
 		"children": [],
@@ -6107,8 +6412,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Bevölkerungsdichte",
@@ -6136,6 +6440,9 @@ var indikatoren = [
 		"lesehilfe": "Bis 2002 verzeichnete Basel-Stadt sinkende Bevölkerungszahlen. Seit 2007 nimmt die baselstädtische Wohnbevölkerung und mit ihr die Bevölkerungsdichte wieder zu.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_002",
 		"parentId": null,
 		"children": [
@@ -6148,8 +6455,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Bevölkerungsdichte",
@@ -6177,6 +6483,9 @@ var indikatoren = [
 		"lesehilfe": "Mit 267,5 Einwohner pro ha wies das Matthäusviertel am Jahresende 2016 die höchste Bevölkerungsdichte auf. Ebenfalls hohe Bevölkerungsdichten wiesen die Wohnviertel Gundeldingen, Iselin und Clara auf. Die Bevölkerungsdichte nimmt in den Wohnvierteln des Zentrums am stärksten zu. Im Vergleich zu 1997 am stärksten zugenommen hat die Bevölkerungsdichte im Rosentalviertel, hier ist das neue Quartier Erlenmatt entstanden.",
 		"erlaeuterungen": "",
 		"template": "mappie001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_003",
 		"parentId": null,
 		"children": [
@@ -6189,8 +6498,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Zu- und Wegpendler nach Herkunft und Ziel",
@@ -6217,6 +6525,9 @@ var indikatoren = [
 		"lesehilfe": "Im Jahr 2015 pendeln gut 100 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen, rund zwei Drittel von ihnen aus der Schweiz. Etwas mehr als 24 000 Wegpendler stehen dem gegenüber. Dies ergibt einen Zupendlerüberschuss von rund 76 000 Personen - der höchste in der beobachteten Zeitspanne.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_012",
 		"parentId": null,
 		"children": [
@@ -6229,8 +6540,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Leerwohnungsquote",
@@ -6257,6 +6567,9 @@ var indikatoren = [
 		"lesehilfe": "Die Leerwohnungsquote sank seit 2006 kontinuierlich und erreichte 2014 mit 0,2% den tiefsten Wert. Seither steigt sie wieder leicht an.",
 		"erlaeuterungen": "Stichtag ist der 1. Juni. Nur Wohnungen, die für den eigentlichen Wohnungsmarkt in Betracht kommen; also ohne leere Wohnungen, die für den Abbruch oder Umbau bestimmt sind. Die Prozentangaben beziehen sich auf den Leerwohnungsbestand am Gesamtwohnungsbestand.",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_005",
 		"parentId": null,
 		"children": [
@@ -6269,48 +6582,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
-	},
-	{
-		"title": "Nettowohnungsproduktion",
-		"subtitle": "",
-		"kuerzel": "I.09.1.05816",
-		"kuerzelKunde": "ST 4-8",
-		"description": "Nettowohnungsproduktion",
-		"id": 5816,
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Richtplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wohnen"
-		],
-		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Seit 2014 war die Nettowohnungsproduktion überdurchschnittlich hoch. Dazu beigetragen hat eine hohe Neubauproduktion, ein positiver Umbausaldo und mit Ausnahme von 2015 eine niedrige Anzahl von Abbrüchen.",
-		"erlaeuterungen": "",
-		"template": "line001",
-		"orderKey": "01_01_00_00_00_008",
-		"parentId": 4135,
-		"children": [
-			"6106",
-			"6248"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
-		"externalLinks": [
-			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Nettowohnungsproduktion",
@@ -6337,6 +6609,9 @@ var indikatoren = [
 		"lesehilfe": "Die Nettoproduktion war in den letzten zehn Jahren im Wohnviertel Rosental besonders hoch. Auf dieses Wohnviertel entfielen rund 30% der gesamtkantonalen Nettoproduktion. Die Nettowohnungsproduktion ist vor allem auf grosse Arealentwicklungen zurückzuführen und im kleineren Masse auf Erneuerungen bzw. Verdichtungen im Bestand.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_009",
 		"parentId": null,
 		"children": [
@@ -6349,8 +6624,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Bruttogeschossfläche Wohnen nach Wohnviertel",
@@ -6377,6 +6651,9 @@ var indikatoren = [
 		"lesehilfe": "Die stärkste Zunahme der für Wohnen genutzten Bruttogeschossfläche (BGF) von 1995 bis 2015 ergab sich - neben der Gemeinde Riehen - dank der Überbauung des Erlenmattareals im Wohviertel Rosental. Nach Riehen weisen die Wohnviertel Gundeldingen und St. Johann im Jahr 2015 die höchsten Werte der BGF Wohnen auf.",
 		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche werden fünfjährlich aktualisiert, letztmals 2015.",
 		"template": "mappie001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_010",
 		"parentId": null,
 		"children": [
@@ -6389,8 +6666,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Bewertung der Lebensqualität",
@@ -6418,6 +6694,9 @@ var indikatoren = [
 		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. 2015 vergeben die Bewohnerinnen und Bewohner im Durchschnitt der Lebensqualität im Stadtkanton eine 7,7. 2003 betrug die Durchschnittsnote 7,4.",
 		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.<br>2003: N=1477, 2005: N=1500, 2007: N=1500, 2011: N=1513, 2015: N=1489.",
 		"template": "befragungenProzent001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_02_00_00_00_002",
 		"parentId": null,
 		"children": [
@@ -6431,8 +6710,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anteil Einwohner pro ÖV-Güteklasse",
@@ -6459,6 +6737,9 @@ var indikatoren = [
 		"lesehilfe": "Über zwei Drittel der Einwohner in Basel-Stadt wohnen in einem Gebiet der ÖV-Güteklasse A und damit in einer Zone mit sehr guter Anbindung an den öffentlichen Verkehr. Gut 30% in einem Gebiet der Güteklasse B.",
 		"erlaeuterungen": "Die ÖV-Güteklassen sind ein Mass für die räumliche Erschliessungsqualität durch den öffentlichen Verkehr. Die Güteklassen werden zweistufig bestimmt: Die Art der Verkehrsmittel und das Kursintervall weisen jeder Haltestelle eine bestimmte Kategorie zu. Die Haltestellenkategorie in Verbindung mit der Distanz des Wohnorts einer Person zur Haltestelle ergibt dann die ÖV-Güteklasse für eine bestimmte Person.",
 		"template": "pie001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_03_00_00_00_001",
 		"parentId": null,
 		"children": [
@@ -6472,8 +6753,7 @@ var indikatoren = [
 		"externalLinks": [
 			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/data/GO_GueteklassenOeV/Definition_Gueteklassen_oeffentlicher_Verkehr.pdf' target = '_blank'>Definition der Güteklassen des öffentlichen Verkehrs</a>",
 			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?theme=340&cps=2614062.08,1267876.03,50000&nodefault&layers=stadtplan_grau_osm_50000,gueteklassen' target = '_blank'>Karte der Güteklassen des öffentlichen Verkehrs</a>"
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Beschäftigtendichte",
@@ -6500,6 +6780,9 @@ var indikatoren = [
 		"lesehilfe": "Im Kanton Basel-Stadt arbeiteten 2014 rund 151 800 Beschäftigte. Daraus resultiert eine Beschäftigtendichte von etwa 41 Beschäftigten pro Hektar. Dieser Wert lag 2011 noch bei 40 Beschäftigten.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_04_00_00_00_002",
 		"parentId": null,
 		"children": [
@@ -6512,8 +6795,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
@@ -6540,6 +6822,9 @@ var indikatoren = [
 		"lesehilfe": "Die meiste für Arbeiten genutzte Bruttogeschossfläche (BGF) findet man 2015 in den Wohnvierteln St. Alban und St. Johann. Während das Wohnviertel St. Johann einen Rückgang der BGF Arbeiten seit 1995 verzeichnete, weist das St. Alban-Quartier den stärksten Zuwachs aus.",
 		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche werden fünfjährlich aktualisiert, letztmals 2015.<br> Der Rückgang im Wohnviertel St. Johann kann geht mit einer gleichzeitigen Zunahme der BGF Wohnen einher. Grund dafür waren Neubau-Projekte wie Volta West, Volta Mitte und Volta Zentrum sowie Umnutzungen generell.",
 		"template": "mappie001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_04_00_00_00_003",
 		"parentId": null,
 		"children": [
@@ -6552,8 +6837,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Kontinentale Erreichbarkeit",
@@ -6583,6 +6867,9 @@ var indikatoren = [
 		"lesehilfe": "Die kontinentale Erreichbarkeit der Stadt Basel hat sich zwischen 1996 und 2014 verbessert. Die Entwicklung bei den anderen Schweizer Städten verläuft im gleichen Zeitraum ähnlich. Die Stadt Zürich bewegt sich auf einem leicht höheren Niveau als Basel und Genf, die Erreichbarkeit der Stadt Bern liegt etwas darunter.",
 		"erlaeuterungen": "Kontinentale Erreichbarkeit = Erreichbarkeit aller Regionen Europas. Bei der Kennzahl handelt es sich um einen indexierten Wert: 100 = Mittel aller einbezogenen Ursprungsregionen im Jahr 2002. Erreichbarkeit ist kein klares, lineares Konzept. Vielmehr beruht es auf einer Vielzahl von Faktoren, die unter dem Themenbereich Erreichbarkeit subsumiert werden können. Die Erreichbarkeitsmodelle von BAK Economics basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren. Zudem folgen sie dem Konzept der Erreichbarkeit «aus der Region» (outbound accessibility), d.h. es wird die Reisezeit und Frequenz herangezogen, die benötigt wird, um aus der Region andere Regionen zu erreichen. Der resultierende Indikator reflektiert das gesamte Potenzial aller Regionen ohne jegliche Limitierung der Reisezeit. Jedoch werden die Reisedestinationen über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet.",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_05_00_00_00_001",
 		"parentId": null,
 		"children": [
@@ -6595,8 +6882,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Index der Bevölkerungs- und Beschäftigtenentwicklung",
@@ -6623,6 +6909,9 @@ var indikatoren = [
 		"lesehilfe": "Die Wohnbevölkerung ist im Kanton Basel-Stadt zwischen 2005 und 2014 von 187 463 auf 196 471 gestiegen, was einem Anstieg um etwa 4,8% entspricht. Demgegenüber stieg die Zahl der Beschäftigten um 11,5% von 171 743 auf 191 441.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_011",
 		"parentId": null,
 		"children": [
@@ -6636,8 +6925,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Leerwohnungsquote",
@@ -6664,6 +6952,9 @@ var indikatoren = [
 		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2017 in Bettingen verzeichnet.",
 		"erlaeuterungen": "Stichtag ist der 1. Juni.",
 		"template": "mappie001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [
@@ -6675,8 +6966,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Bruttoinlandprodukt in Franken pro Einwohner",
@@ -6706,6 +6996,9 @@ var indikatoren = [
 		"lesehilfe": "Das Bruttoinlandprodukt pro Kopf ist in Basel-Stadt seit den 1990er-Jahren stark gestiegen. Seit 2007 blieben die Werte in den Kantonen Basel-Stadt, Genf und Zürich relativ konstant.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_001",
 		"parentId": null,
 		"children": [
@@ -6718,12 +7011,11 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Kantonaler Wettbewerbsindikator (KWI)",
-		"subtitle": "Basel-Stadt im nationalen Vergleich, Stand: 2016",
+		"subtitle": "Basel-Stadt im kantonalen Vergleich, Stand: 2016",
 		"kuerzel": "I.04.2.06126",
 		"kuerzelKunde": "1.1",
 		"description": "Kantonaler Wettbewerbsindikator (KWI)",
@@ -6748,6 +7040,9 @@ var indikatoren = [
 		"lesehilfe": "Im Jahr 2016 liegt Basel-Stadt beim Kantonalen Wettbewerbsindikatorder UBS mit einem Wert von 88,4 auf Rang 3 aller Schweizer Kantone. Der Nachbarkanton Basel-Landschaft belegt Rang 9.",
 		"erlaeuterungen": "Der Kantonale Wettbewerbsindikator (KWI) gibt Aufschluss über das relative längerfristige Wachstumspotenzial eines Kantons. Die Wettbewerbsfähigkeit eines Kantons beschreibt sein Potenzial für eine nachhaltige Steigerung seiner Wirtschaftsleistung. Kantone mit einer hohen relativen Wettbewerbsfähigkeit dürften längerfristig stärker wachsen als die Schweizer Gesamtwirtschaft. Hingegen ist in Kantonen mit einer tiefen relativen Wettbewerbsfähigkeit mit einem unterdurchschnittlichen Wachstum zu rechnen. Der KWI basiert auf der vergleichenden Analyse von acht Säulen mit insgesamt über 50 Variablen. Die Variablen werden gewichtet, aggregiert und normiert, sodass jeder Kanton für jede Säule eine Punktzahl zwischen 0 und 100 erhält. Zur Ermittlung des KWI wird für jeden Kanton der Durchschnitt aus den Punktzahlen der acht Säulen errechnet und so normiert, dass der höchste kantonale Durchschnittswert 100 beträgt.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_001",
 		"parentId": null,
 		"children": [
@@ -6760,8 +7055,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Kantonales Wettbewerbsprofil",
@@ -6788,6 +7082,9 @@ var indikatoren = [
 		"lesehilfe": "Basel-Stadt übertrifft in verschiedenen Bereichen des Kantonalen Werbeindikators den Median-Kanton, so z. B. bei «Wirtschaftsstruktur», «Innovation» und «Erreichbarkeit». Die Werte des hier dargestellten «Median-Kantons» entsprechen dem Medianwert aller Kantone der jeweiligen Säule.",
 		"erlaeuterungen": "Der Kantonale Wettbewerbsindikator (KWI) gibt Aufschluss über das relative längerfristige Wachstumspotenzial eines Kantons. Die Wettbewerbsfähigkeit eines Kantons beschreibt sein Potenzial für eine nachhaltige Steigerung seiner Wirtschaftsleistung. Kantone mit einer hohen relativen Wettbewerbsfähigkeit dürften längerfristig stärker wachsen als die Schweizer Gesamtwirtschaft. Hingegen ist in Kantonen mit einer tiefen relativen Wettbewerbsfähigkeit mit einem unterdurchschnittlichen Wachstum zu rechnen. Der KWI basiert auf der vergleichenden Analyse von acht Säulen mit insgesamt über 50 Variablen. Die Variablen werden gewichtet, aggregiert und normiert, sodass jeder Kanton für jede Säule eine Punktzahl zwischen 0 und 100 erhält. Zur Ermittlung des KWI wird für jeden Kanton der Durchschnitt aus den Punktzahlen der acht Säulen errechnet und so normiert, dass der höchste kantonale Durchschnittswert 100 beträgt.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_003",
 		"parentId": null,
 		"children": [
@@ -6799,8 +7096,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Steuereinnahmen aus Quellensteuer",
@@ -6827,6 +7123,9 @@ var indikatoren = [
 		"lesehilfe": "Der Ertrag aus der Quellenbesteuerung steigt seit vielen Jahren kontinuierlich. Zuletzt lag er bei über 400 Mio. Franken.",
 		"erlaeuterungen": "Der Ertrag aus der Quellenbesteuerung ist hier gemäss Steuerstatistik Basel-Stadt nach Steuerjahr dargestellt. Er unterscheidet sich vom Ertrag nach Kalenderjahr, wie er im Jahresbericht des Kantons Basel-Stadt dargestellt ist. Enthalten ist auch der Anteil, der an den Bund fliesst.",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_004",
 		"parentId": null,
 		"children": [
@@ -6838,8 +7137,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "NFA-Ressourcenindex",
@@ -6866,6 +7164,9 @@ var indikatoren = [
 		"lesehilfe": "Der Ressourcenindex bezeichnet die fiskalisch ausschöpfbaren finanziellen Ressourcen eines Kantons. Dieser liegt im Bemessungsjahr 2018, welches auf Daten der Jahre 2012 bis 2014 beruht,  im Kanton Basel-Stadt um rund 49% über dem Schweizerischen Durchschnitt.",
 		"erlaeuterungen": "Der Ressourcenindex bildet die Grundlage für den horizontalen und vertikalen Ressoucenausgleich des Neuen Finanzausgleichs (NFA). Der Ressourcenindex soll das Ressourcenpotenzial der Kantone - d.h. die fiskalisch ausschöpfbaren finanziellen Ressourcen eines Kantons - im Vergleich zum Schweizer Durchschnitt abbilden. Zur Bemessung der fiskalisch ausschöpfbaren Ressourcen stützt sich der neue Ressourcenindex auf die Aggregierte Steuerbemessungsgrundlage (ASG). Die ASG fasst die Summe der steuerbaren Einkommen und Vermögen der natürlichen Personen sowie die Summe der Gewinne der juristischen Personen zu einer Masszahl zusammen. Die ASG pro Einwohner eines Kantons im Verhältnis zur gesamtschweizerischen ASG pro Einwohner ergibt sodann den Ressourcenindex des Kantons.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_006",
 		"parentId": null,
 		"children": [
@@ -6877,50 +7178,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
-	},
-	{
-		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
-		"subtitle": "in Franken; Kapital und Reserven: 2 Mio. Fr.; Reingewinn: 80 000 Fr.",
-		"kuerzel": "I.18.2.06130",
-		"kuerzelKunde": "2.11a",
-		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
-		"id": 6130,
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kennzahlenset": "Legislaturplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen",
-			"Erwerbstätigkeit",
-			"Angestellte",
-			"Kantonsvergleich"
-		],
-		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Werte für Basel sind in den letzten Jahren relativ konstant. Seit 2009 liegt die Steuerbelastung in Basel höher als in den anderen dargestellten Kantonshauptorten.",
-		"erlaeuterungen": "Dargestellt ist die Steuerbelastung von Aktiengesellschaften (Handels-, Industrie, Bank-AG, ohne Beteiligungen), mit einem Kapital und Reserven von 2 Mio. Franken und einem Reingewinn von 80 000 Franken; Kanton- und Gemeindesteuer, einschliesslich Kirchensteuer. Reingewinn vor Abzug der im Geschäftsjahr bezahlten Steuern. In Genf ohne Gewerbesteuer.",
-		"template": "line001",
-		"orderKey": "02_00_00_00_00_011",
-		"parentId": 3169,
-		"children": [
-			"6287"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Eidgenössische Steuerverwaltung"
-		],
-		"externalLinks": [
-			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -6947,6 +7205,9 @@ var indikatoren = [
 		"lesehilfe": "In den meisten Bereichen haben sich die Ausgaben seit 2008 erhöht. Den höchsten Anteil an den Gesamtausgaben hat die Funktion «Bildung», gefolgt von «Soziale Sicherheit» und «Gesundheit». Der hohe Wert von «Allgemeine Verwaltung» 2008 ist auf die Ausfinanzierung der Deckungslücke der Pensionskasse zurückzuführen.",
 		"erlaeuterungen": "Seit 2008 verwendet die Eidgenössischen Finanzverwaltung (EFV) wegen des Neuen Finanzausgleichs in der Finanzstatistik ein neues Sektorisierungskonzept an, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_008",
 		"parentId": null,
 		"children": [
@@ -6964,8 +7225,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
@@ -6992,6 +7252,9 @@ var indikatoren = [
 		"lesehilfe": "Die Folgen der Finanz- und Wirtschaftskrise, die 2008 begann, wurden vor allem beim Steuerertrag der juristischen Personen deutlich. 2016 betrug ihr Ertrag 837,1 Mio. Franken. Der Ertrag aus direkten Steuern natürlicher Personen betrug 2016 1,872 Mrd. Franken.",
 		"erlaeuterungen": "Steuereinnahmen gemäss Jahresrechung des Kantons Basel-Stadt; direkte Steuern natürlicher und juristischer Personen. Im Gegensatz zur Steuerstatistik auf das Kalenderjahr bezogen, nicht auf das Steuerjahr.",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_010",
 		"parentId": null,
 		"children": [
@@ -7004,48 +7267,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
-	},
-	{
-		"title": "Beurteilung der kantonalen Steuern",
-		"subtitle": "«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen, wie sie heute sind?»",
-		"kuerzel": "I.50.1.06133",
-		"kuerzelKunde": "2.13",
-		"description": "Beurteilung der kantonalen Steuern",
-		"id": 6133,
-		"thema": "50 Befragungen",
-		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Legislaturplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Verwaltung",
-			"Beurteilung"
-		],
-		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "2015 gaben mit 56,4% mehr als die Hälfte der Befragten an, dass die kantonalen Steuern und Gebühren beibehalten werden sollten. Dieser Anteil fällt im Vergleich zu den Vorjahren deutlich höher aus (2011: 45,6%, 2007: 30,0%).",
-		"erlaeuterungen": "",
-		"template": "befragungen001",
-		"orderKey": "02_00_00_00_00_017",
-		"parentId": 4860,
-		"children": [
-			"6290"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F8"
-		],
-		"externalLinks": [
-			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
@@ -7072,6 +7294,9 @@ var indikatoren = [
 		"lesehilfe": "In Basel beträgt die Steuerbelastung 2016 im ausgewählten Modellfall 6 309 Franken. In den fünf Kantonshauptorten liegt sie in Bern am höchsten, in Genf am tiefsten.",
 		"erlaeuterungen": "Die Werte zeigen die Steuerbelastung (Kantons-, Gemeinde- und Kirchensteuern) in Franken für Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von 100 000 Franken im Jahr 2016.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_014",
 		"parentId": null,
 		"children": [
@@ -7083,8 +7308,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Höchste abgeschlossene Ausbildung",
@@ -7113,6 +7337,9 @@ var indikatoren = [
 		"lesehilfe": "10,2% der Befragten haben einen obligatorischen Schulabschluss. 33,5% aller Befragten absolvierten ein Studium an einer Fachhochschule oder Universität. Ein deutlicher Unterschied zwischen den Geschlechtern ist hier zu beobachten: Bei den Männern liegt der Anteil bei 39,2%, bei den Frauen bei 28,6%.",
 		"erlaeuterungen": "",
 		"template": "befragungen001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_004",
 		"parentId": null,
 		"children": [
@@ -7125,8 +7352,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
@@ -7155,6 +7381,9 @@ var indikatoren = [
 		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im Jahresdurchschnitt 2016 auf 3,9% gestiegen. Die Jugendarbeitslosenquote liegt 2016 unverändert bei 4,5%. Die Arbeitslosenquote der Personen über 50 Jahre liegt mit 3,1% wie in den Vorjahren deutlich unterhalb des Durchschnitts.",
 		"erlaeuterungen": "Die Arbeitslosenquote berechnet sich folgendermassen: Registrierte Arbeitslose geteilt durch Erwerbspersonen mal 100.",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_005",
 		"parentId": null,
 		"children": [
@@ -7167,8 +7396,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft",
@@ -7198,6 +7426,9 @@ var indikatoren = [
 		"lesehilfe": "In der Nordwestschweiz machten 2012 die Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft 7,3% des Bruttoinlandprodukts aus. Dieser Anteil ist höher als 2008, als er noch bei 6,6% lag.",
 		"erlaeuterungen": "Revidierte Zahlen zu den Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft für das Jahr 2012. Die Grossregion Genferseeregion umfasst die Kantone Waadt, Wallis und Genf. Die Grossregion Nordwestschweiz beinhaltet die Kantone Basel-Stadt, Basel-Landschaft und Aargau. Die Grossregion Zürich entspricht dem Kanton Zürich. BIP = Bruttoinlandprodukt.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_008",
 		"parentId": null,
 		"children": [
@@ -7210,8 +7441,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anteil der Beschäftigten in innovativen Branchen an der gesamten Beschäftigung (Vollzeitäquivalente)",
@@ -7240,6 +7470,9 @@ var indikatoren = [
 		"lesehilfe": "Insgesamt waren 2015 knapp 17% der Beschäftigten (in Vollzeitäquivalenten) in Basel-Stadt in innovativen Branchen tätig, der Grossteil davon in Industriebranchen.",
 		"erlaeuterungen": "Als innovative Branchen gelten: Herstellung von chemischen (20) und pharmazeutischen Produkten (21), Gummi- und Kunststoffwaren (22), elektronischen und optischen Produkten (26), elektrischen Ausrüstungen (27), Maschinenbau (28), sonstiger Fahrzeugbau (30), Herstellung von medizinischen und zahnmedizinischen Apparaten und Materialien (325), Reparatur und Installation von Maschinen und Ausrüstungen (33), Forschung und Entwicklung (72).",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_009",
 		"parentId": null,
 		"children": [
@@ -7250,8 +7483,7 @@ var indikatoren = [
 		"quellenangabe": [],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Bevölkerung nach sozioprofessioneller Kategorie",
@@ -7278,6 +7510,9 @@ var indikatoren = [
 		"lesehilfe": "Von der baselstädtischen Wohnbevölkerung arbeiteten im Jahr 2015 rund 3 400 Personen im obersten Management.",
 		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren. Bei der Interpretation der Ergebnisse muss die Unsicherheit von Stichprobenerhebungen berücksichtigt werden.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_002",
 		"parentId": null,
 		"children": [
@@ -7289,8 +7524,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Beurteilung von gesellschaftlicher Vielfalt",
@@ -7320,6 +7554,9 @@ var indikatoren = [
 		"lesehilfe": "Drei Viertel der Befragten empfanden 2015 den multikulturellen Charakter Basel-Stadts als eine sehr oder eher grosse Bereicherung für den Kanton.",
 		"erlaeuterungen": "",
 		"template": "befragungen001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_005",
 		"parentId": null,
 		"children": [
@@ -7332,8 +7569,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Verhältnis der Löhne von Frauen und Männern in Basel-Stadt",
@@ -7363,6 +7599,9 @@ var indikatoren = [
 		"lesehilfe": "In Basel-Stadt erreichen die Löhne der Frauen seit Jahren im Durchschnitt rund 80% der Löhne der Männer. Im Jahr 2014 lag das Verhältnis bei 82%.",
 		"erlaeuterungen": "Diese Ergebnisse basieren auf einer Sonderauswertung der LSE für Basel-Stadt. Die Zahlen 2012 und 2014 sind statistisch unsicher (Variationskoeffizient grösser als 5%). Grundlage ist der Median des monatlichen Bruttolohns, standardisiert, im privaten Sektor (ohne Landwirtschaft).",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_006",
 		"parentId": null,
 		"children": [
@@ -7375,8 +7614,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anteil Arbeitnehmende in Unternehmensleitung oder Vorgesetztenfunktion nach Geschlecht",
@@ -7406,6 +7644,9 @@ var indikatoren = [
 		"lesehilfe": "Der Anteil der Arbeitnehmenden in einer Leitungsposition betrug 2016 bei den Männern etwa 38%, bei den Frauen rund 27%.",
 		"erlaeuterungen": "Die Ergebnisse basieren auf der Hochrechnung einer Stichprobenerhebung von rund 1 500 in Basel-Stadt wohnhaften Personen. Bei der Interpretation der Ergebnisse muss die Unsicherheit von Stichprobenerhebungen berücksichtigt werden.",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_007",
 		"parentId": null,
 		"children": [
@@ -7417,8 +7658,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Einbürgerungsziffer der ausländischen Bevölkerung sowie Ausländeranteil",
@@ -7450,6 +7690,9 @@ var indikatoren = [
 		"lesehilfe": "Die Einbürgerungsziffer (Anzahl ordentlich eingebürgerte Ausländer pro 1000 Ausländer der mittleren Wohnbevölkerung) unterlag in den vergangenen zehn Jahren diversen Schwankungen. Die Höchstwerte wurden 2007 und 2008 erreicht. Danach ging die Einbürgerungsziffer zurück, 2011 lag sie bei den Männern noch bei 7,3 und bei den Frauen bei 10,3. Nach einem tendenziellen Anstieg in den Jahren 2012 bis 2015 sank sie 2016 erneut auf 7,4 bei den Männern und 8,0 bei den Frauen.",
 		"erlaeuterungen": "Die Einbürgerungsziffer wird folgendermassen berechent: Anzahl ordentlich eingebürgerte Ausländer pro 1000 Ausländer der mittleren Wohnbevölkerung; jeweils für Männer und Frauen.",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_008",
 		"parentId": null,
 		"children": [
@@ -7462,8 +7705,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Mittelwert und Median des Reineinkommens in Basel-Stadt",
@@ -7492,6 +7734,9 @@ var indikatoren = [
 		"lesehilfe": "Der Mittelwert des Reineinkommens des obersten Quintils ist seit 1991 am deutlichsten gestiegen. Die übrigen Werte verlaufen relativ konstant. Über den Betrachtungszeitraum gab es zahlreiche Veränderungen in der Steuergesetzgebung, die einen Einfluss auf die Berechnung des Reineinkommens haben können, etwa durch erhöhte Abzugsmöglichkeiten (z. B. für Berufskosten).",
 		"erlaeuterungen": "Mittelwert und Median werden pro Veranlagung berechnet.",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_009",
 		"parentId": null,
 		"children": [
@@ -7504,8 +7749,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Geschlecht",
@@ -7532,6 +7776,9 @@ var indikatoren = [
 		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. Im Durchschnitt vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton eine 7,7. Frauen vergeben in allen Jahren häufiger die Note 10 als Männer dies tun.",
 		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "befragungen001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_010",
 		"parentId": null,
 		"children": [
@@ -7543,8 +7790,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Segregationsindex nach Staatsangehörigkeit",
@@ -7572,6 +7818,9 @@ var indikatoren = [
 		"lesehilfe": "2016 wiesen Personen aus dem Balkan (31,8), der Türkei (30,4), arabischen (26,7) und afrikanischen Ländern (25,6) die höchsten Segregationsindices auf. Die hohen Werte bedeuten, dass diese vier Bevölkerungsgruppen im Kanton Basel-Stadt am stärksten auf einzelne Gemeinden und Wohnviertel konzentriert waren. Der niedrigste Index ergab sich 2016 für die Deutschen (7,7). Der Segregationsindex der Schweizer lag im Jahr 2016 bei 17,9.",
 		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betracheten Gruppe interpretieren, der in eine anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_014",
 		"parentId": null,
 		"children": [
@@ -7584,8 +7833,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Verkehrsleistungsindex",
@@ -7612,6 +7860,9 @@ var indikatoren = [
 		"lesehilfe": "Die Fahrleistung des motorisierten Individualverkehrs (MIV Total) auf Kantonsgebiet liegt 2016 um 1%, diejenige des Veloverkehrs um 22,9% höher als im Jahr 2010. Der Wert für Fussgänger stieg von 2013 bis 2014 um 7 Prozentpunkte, sank dann aber bis 2016 wieder auf einen Indexwert von 102,5.",
 		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet.<br/> <br/>Autoverkehr: Der Index für den motorisierten Individualverkehr (MIV) berechnet sich anhand von rund 35 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamts für Strassen. Der Index umfasst die Verkehrsleistung aller Motorfahrzeuge (inkl. Lastwagen, Lieferwagen, Motorrädern), aber ohne Linienbusse, Motorfahrräder und E-Bikes.<br/><br/>Veloverkehr: Der Index für den Veloverkehr wird auf Basis von rund 20 Zählstellen des Kantons Basel-Stadt berechnet. Da der Veloverkehr stark wetterabhängig ist, wurde vom Statistischen Amt des Kantons Basel-Stadt ein Modell entwickelt, welches es zulässt, den Wettereinfluss aus der Verkehrsentwicklung herauszurechnen.<br/><br/>Fussverkehr: Der Index für den Fussverkehr basiert auf rund 17 Zählstellen. Die Daten werden erst seit dem Jahr 2013 erhoben.<br/><br/>Öffentlicher Verkehr (ÖV): Der Index des öffentlichen Verkehrs wird auf Basis der Verkehrsdaten von Tram- und Buslinien der BVB und der BLT und den S-Bahnen (nur alle zwei Jahre), abgegrenzt auf das Gebiet des Kantons Basel-Stadt, berechnet. Der Gesamtindex für den ÖV kann im jeweiligen Jahr erst im Herbst veröffentlicht werden, sobald die Daten für die S-Bahnen vorliegen.<br/> <br/>Aus der Veränderung an den Zählstellen wird die Veränderung auf dem ganzen Kantonsgebiet abgeleitet, indem jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet wird.<br/> <br/>Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1705' target='_blank'>Umweltbericht beider Basel</a>.",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "05_00_00_00_00_002",
 		"parentId": null,
 		"children": [
@@ -7625,8 +7876,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Transit durch die Region Basel",
@@ -7656,6 +7906,9 @@ var indikatoren = [
 		"lesehilfe": "Der Transit durch die Region Basel nimmt auf der Strasse  seit 2010 kontinuierlich ab. Der Transit auf den Schienen hat seit 2007 zugenommen.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "05_00_00_00_00_003",
 		"parentId": null,
 		"children": [
@@ -7667,8 +7920,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Jährlich durch  Stau generierte Verzögerungszeit",
@@ -7695,6 +7947,9 @@ var indikatoren = [
 		"lesehilfe": "Eine Verzögerungszeit von 27% bedeutet, dass eine durchschnittliche Reise 27% länger dauert als dies unter staufreien Bedingungen der Fall wäre.",
 		"erlaeuterungen": "Damit die urbanen Flächen für die der Index berechnet wird international vergleichbar sind, wurden sie von TomTom individuell definiert. Detaillierte Informationen zu den TomTom Staudaten und der angewandten Methodik sind hier zu finden: <br/>-  <a href=’https://www.google.ch/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwi10_XS-c_XAhVS46QKHf26CBUQFggoMAA&url=http%3A%2F%2Fwww.congres-atecitsfrance.fr%2Fwp-content%2Fuploads%2F2013%2F12%2FCOHN_com085-Atelier-A7.pdf&usg=AOvVaw2VO2AxK37y7-LebxQcI6el’ target=’_blank’>TomTom Traffic Index: Toward a Global Measure  </a> <br/> -  <a href=’https://www.tomtom.com/en_gb/trafficindex/about’ target=’_blank’>TomTom Traffic Index: About  </a> <br/>  -  TomTom Traffic Index: <a href=’https://www.tomtom.com/en_gb/trafficindex/city/basel’ target=’_blank’>Basel</a>, <a href=’https://www.tomtom.com/en_gb/trafficindex/city/GNV’ target=’_blank’>Genf</a>, <a href=’https://www.tomtom.com/en_gb/trafficindex/city/ZUR’ target=’_blank’>Zürich</a>, <a href=’https://www.tomtom.com/en_gb/trafficindex/city/bern’ target=’_blank’>Bern</a>",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "05_00_00_00_00_004",
 		"parentId": null,
 		"children": [
@@ -7706,8 +7961,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Luftqualität: Langzeitbelastung der Luft - Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10)",
@@ -7734,6 +7988,9 @@ var indikatoren = [
 		"lesehilfe": "Sowohl die Stickstoffdioxid- als auch die Feinstaubkonzentrationen lagen 2016 mit 27,8 resp. 16,1 Mikrogramm pro Kubikmeter unter dem jeweiligen Grenzwert.",
 		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung. <br><br>Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Sie sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und - zusammen mit flüchtigen organischen Verbindungen - von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege. <br><br>Unter Feinstaub (PM10) versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub (PM10) ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub (PM10) 20 μg/m<sup>3</sup>. <br><br>Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen im Kanton Basel-Stadt: St. Johanns-Platz (PM10, NO<sub>2</sub>), Spalenring (NO<sub>2</sub>), Dreirosenbrücke Süd (NO<sub>2</sub>). Für Details zu den Stationen siehe Link «Luftqualität in der Nordwestschweiz».",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "07_00_00_00_00_007",
 		"parentId": null,
 		"children": [
@@ -7747,8 +8004,7 @@ var indikatoren = [
 		"externalLinks": [
 			"<a href = 'https://luft-bs-so.ch/messdaten' target = '_blank'>Luftqualität in der Nordwestschweiz</a>",
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>"
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "CO<sub>2</sub>-Emissionen Verkehr",
@@ -7777,6 +8033,9 @@ var indikatoren = [
 		"lesehilfe": "2014 waren die durch den Verkehr verursachten CO<sub>2</sub>-Emissionen sowohl total als auch pro Kopf geringer als noch 2010.",
 		"erlaeuterungen": "Die CO<sub>2</sub>-Produktion des Verkehrs berechnet sich aus der Summe der Verbräuche von Benzin und Diesel multipliziert mit den jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Zur Berechnung des Pro-Kopf-Verbrauchs wird der CO<sub>2</sub>-Verbrauch durch die mittlere Bevölkerung dividiert. Die Verbräuche von Benzin und Diesel werden im Gesamtverkehrsmodell modelliert.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "05_00_00_00_00_005",
 		"parentId": null,
 		"children": [
@@ -7788,8 +8047,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Übermässig mit Lärm belastete Wohnbevölkerung",
@@ -7817,6 +8075,9 @@ var indikatoren = [
 		"lesehilfe": "Der Anteil der Einwohner, welche an ihrem Wohnort in der Nacht einer Lärmbelastung von über 50 dB (A) ausgesetzt sind, betrug 2008 24,6%. Bei 14,5% der Einwohner wurde der Tagesgrenzwert überschritten, bei 16,2% der Grenzwert in der Nacht.",
 		"erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche an ihrem Wohnort einer Lärmbelastung über dem Immissionsgrenzwert gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Die in der LSV festgehaltenen Immissionsgrenzwerte drücken das Mass an Lärmbelastung aus, das zirka 75% der Bevölkerung erträgt, ohne sich erheblich gestört zu fühlen. Wohngebiete sind gemäss Lärmempfindlichkeitsstufenplan den Stufen II (Wohnzonen) und III (Wohn-/Gewerbezonen) mit unterschiedlichen Immissionsgrenzwerten zugeteilt: ES II: 60 dB(A) Tag, 50 dB(A) Nacht, ES III: 65 dB(A) Tag, 55 dB(A) Nacht; dB(A) ist die übliche Masseinheit zur Messung von Lärmstärke.<br><br>Die angegebenen Werte beruhen auf Modellierungen. Die Lärmimmission an den Gebäuden werden in einem 3D-Oberflächenmodell (Gelände, Gebäude, Hindernisse) auf Basis des Emissionskatasters für Strassenverkehrslärm berechnet. Sobald ein Teil eines Gebäudes, z. B. eine Fassade oder die oberen Geschosse, welche nicht durch eine Lärmschutzwand geschützt werden, von Grenzwertüberschreitungen (gemäss LSV) betroffen sind, werden sämtliche Bewohner des Gebäudes als lärmbelastete Personen gezählt. Die Ausrichtung der einzelnen Wohnungen fliesst nicht in die Beurteilung ein. Weiter werden lärmempfindliche Räume in Betrieben nicht berücksichtigt.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "07_00_00_00_00_008",
 		"parentId": null,
 		"children": [
@@ -7829,8 +8090,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Endenergieverbrauch nach Verbrauchergruppe",
@@ -7857,6 +8117,9 @@ var indikatoren = [
 		"lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2014 um 16% auf 4 630 Mio. kWh abgenommen. Der Rückgang verteilt sich gleichmässig auf die Verbrauchergruppen Wohnen und Nichtwohnen und ist primär der milden Witterung geschuldet. Das Jahr 2014 hatte rund 17% weniger Heizgradtage als das Jahr 2012.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "07_00_00_00_00_001",
 		"parentId": null,
 		"children": [
@@ -7870,48 +8133,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
-	},
-	{
-		"title": "Anteil erneuerbare Energie am Bruttoenergieverbrauch",
-		"subtitle": "",
-		"kuerzel": "I.08.3.06161",
-		"kuerzelKunde": "7.2",
-		"description": "Anteil erneuerbare Energie am Bruttoenergieverbrauch",
-		"id": 6161,
-		"thema": "08 Energie",
-		"unterthema": "Erneuerbare",
-		"kennzahlenset": "Legislaturplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie",
-			""
-		],
-		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Jahr 2010 lag der Anteil der erneuerbaren Energieträger bei 35,0%. Zwei Jahre später fiel der Wert mit 36,2% bereits höher aus. Im Jahr 2014  stammte 37,9% der Energie aus erneuerbaren Quellen.",
-		"erlaeuterungen": "Folgende Energieträger werden als erneuerbar berücksichtigt: Wasserkraft, Holz, Umweltwärme, thermische und fotovoltaische Sonnenenergie, Schlamm, erneuerbare Elektrizität (in Basel-Stadt stammen 100% des importierten Strommixes aus erneuerbaren Quellen) und Kehricht (zu 50% als erneuerbar taxiert).<br><br>Die Summe der Verbräuche der erneuerbaren Energien wird durch den Gesamtenergieverbrauch dividiert.",
-		"template": "template001",
-		"orderKey": "07_00_00_00_00_002",
-		"parentId": 3094,
-		"children": [
-			"6313"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Energiestatistik"
-		],
-		"externalLinks": [
-			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf; Recyclingquote",
@@ -7938,6 +8160,9 @@ var indikatoren = [
 		"lesehilfe": "Die Siedlungsabfälle reduzierten sich zwischen dem Jahr 2000 und 2016 von ca. 194 auf 151 kg pro Kopf. Die Recyclingquote stieg von ca. 41% auf fast 45%.",
 		"erlaeuterungen": "Die Berechnungsmethode für die Recyclingquote wurde vom Amt für Umwelt und Energie im Jahr 2016 rückwirkend für alle abgebildeten Jahre revidiert (dezentrale Kompostierung nicht mehr eingerechnet). Dies führt zu einem tieferen Recyclinganteil im Vergleich zu früheren Berechnungen.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "07_00_00_00_00_003",
 		"parentId": null,
 		"children": [
@@ -7949,8 +8174,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Wasserqualität: AOX-Fracht",
@@ -7979,6 +8203,9 @@ var indikatoren = [
 		"lesehilfe": "Die mittlere AOX-Fracht betrug im Jahr 2016 0,046 mg/l gereinigtem Abwasser. Sie lag damit unter dem Grenzwert von 0,08 mg/l.",
 		"erlaeuterungen": "AOX sind an Aktivkohle adsorbierbare organische Halogenverbindungen. Diese Fluor-, Chlor- und Bromverbindungen (wobei Chlorkohlenwasserstoffe in der Regel am häufigsten vorkommen) können als Verluste oder Nebenprodukte aus industriellen und gewerblichen Produktionen ins Wasser gelangen. Auch chlorhaltige Reinigungsmittel aus Haushalten tragen zur Belastung der Abwässer bei. Die AOX-Konzentration wird im gereinigten Abwasser in den Abläufen der Abwasserreinigungsanlagen (ARA) mehrmals pro Jahr in Form von Tagessammelmustern gemessen. Der Mittelwert aller Messungen eines Jahres entspricht dem Jahreswert. In der Gewässerschutzverordnung ist für die Einleitung von kommunalem Abwasser in Gewässer ein AOX-Grenzwert von 0.08 mg/l definiert. <br><br>Für die Wasserqualität ist entscheidend, wie viele Schadstoffe trotz Kläranlagen ins Wasser gelangen. Eine Zunahme des AOX-Indikators bedeutet eine unerwünschte Belastung der Gewässer, eine Abnahme entspricht einer Verbesserung der Wasserqualität. Organische Halogenverbindungen sind bereits in geringen Mengen schädlich, schwer biologisch abbaubar und reichern sich im Fettgewebe von Tieren und Menschen an. <br><br>Das Abwasser aus Basel-Stadt wird in der ARA Basel gereinigt. Deren Einzugsgebiet umfasst auch die Gemeinden Allschwil, Binningen, Birsfelden, Bottmingen, Münchenstein (Ortsteil Brüglingen), Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Neuwiller (F).",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "07_00_00_00_00_004",
 		"parentId": null,
 		"children": [
@@ -7991,8 +8218,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "CO<sub>2</sub>-Emissionen",
@@ -8021,6 +8247,9 @@ var indikatoren = [
 		"lesehilfe": "Die aus dem Bruttoenergieverbrauch abgeleiteten CO<sub>2</sub>-Emissionen nahmen zwischen 2010 und 2014 von 898 113 Tonnen auf 755 095 Tonnen ab. Das entspricht einer Reduktion von 16%.",
 		"erlaeuterungen": "Die CO<sub>2</sub>-Emission berechnet sich aus der Summe der Verbräuche aller fossilen Brennstoffe sowie Abfall multipliziert mit den jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Zur Berechnung des Pro-Kopf-Verbrauchs wird der CO<sub>2</sub>-Verbrauch durch die mittlere Bevölkerung dividiert.  Erneuerbare Brennstoffe wie Holz oder Biogas sind nicht in den Emissionen eingeschlossen. Der in der Kehrichtverwertungsanalge (KVA) verbrannte Hauskehricht wird als 50% erneuerbar gezählt und ist somit nur zur Hälfte in die CO<sub>2</sub>-Emissionen eingerechnet.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "07_00_00_00_00_005",
 		"parentId": null,
 		"children": [
@@ -8034,8 +8263,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Wassertemperatur Grundwasser",
@@ -8062,6 +8290,9 @@ var indikatoren = [
 		"lesehilfe": "Die mittlere Grundwassertemperatur im Kanton Basel-Stadt betrug im Jahre 2016 14,7 °C.",
 		"erlaeuterungen": "In Basel-Stadt wird die Grundwassertemperatur an 82 Messstellen kontinuierlich gemessen und daraus der Mittelwert der Jahrestemperatur des Grundwassers ermittelt. Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1610' target='_blank'>Umweltbericht beider Basel</a>.",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "07_00_00_00_00_006",
 		"parentId": null,
 		"children": [
@@ -8074,8 +8305,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anzahl Besuche in Theater, Kinos und Museen",
@@ -8102,6 +8332,9 @@ var indikatoren = [
 		"lesehilfe": "Vor allem die Kinobesuche haben im Lauf der Zeit abgenommen; von 1,31 Mio. im Jahr 2002 auf 0,63 Mio. im Jahr 2016. Bei den Theatern und Museen blieben die Zahlen vergleichsweise konstant.",
 		"erlaeuterungen": "In den Kategorien «Theater» und «Kleintheater» entspricht die Zahl für das Jahr 2015 der Saison 2015/2016.",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "08_00_00_00_00_002",
 		"parentId": null,
 		"children": [
@@ -8115,8 +8348,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anzahl Beziehende von Prämienverbilligung",
@@ -8143,6 +8375,9 @@ var indikatoren = [
 		"lesehilfe": "2016 erhält etwas mehr als ein Viertel der in Basel-Stadtwohnhaften Personen Prämienverbilligung.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "09_00_00_00_00_003",
 		"parentId": null,
 		"children": [
@@ -8155,8 +8390,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Stationäre Fälle in Basler Spitälern",
@@ -8183,6 +8417,9 @@ var indikatoren = [
 		"lesehilfe": "Im Jahr 2016 wurden zum ersten Mal im Beobachtungszeitraum mehr ausserkantonale Patienten (40 481) behandelt als Patienten mit Wohnort im Kanton Basel-Stadt (38 585). Von den insgesamt 38 585 Fällen aus dem Stadtkanton können über 77% dem Hauptbereich der Akutsomatik zugerechnet werden. Bei den ausserkantonalen Fällen macht der Anteil der Akutsomatik hingegen über 91% aus.",
 		"erlaeuterungen": "Gezählt werden alle stationären Fälle mit Austritt im jeweiligen Erhebungsjahr (A-Fälle). Die Aufteilung in BS und Nicht-BS erfolgt anhand des Wohnorts der Patienten. Patienten mit Wohnsitz im Ausland sind in den Nicht-BS-Fällen eingeschlossen. Die Aufteilung in die Hauptbereiche erfolgt anhand der Hauptkostenstelle.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "09_00_00_00_00_005",
 		"parentId": null,
 		"children": [
@@ -8194,8 +8431,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anzahl Straftaten nach StGB pro 1000 Einwohner",
@@ -8222,6 +8458,9 @@ var indikatoren = [
 		"lesehilfe": "Die Anzahl Straftaten nach Strafgesetzbuch pro 1000 Einwohner beträgt 2016 etwas mehr als 107. Im Jahr 2012 lag der Wert über 140 und damit am höchsten innerhalb des beobachteten Zeitraums.",
 		"erlaeuterungen": "Auf die ständige Wohnbevölkerung am Hauptwohnsitz am Jahresende berechnet. Wohnbevölkerung: Vorjahreszahlen.",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "10_00_00_00_00_001",
 		"parentId": null,
 		"children": [
@@ -8234,8 +8473,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anzahl Strassenverkehrsunfälle",
@@ -8262,6 +8500,9 @@ var indikatoren = [
 		"lesehilfe": "Von 1999 bis 2012 ist die Anzahl Strassenverkehrsunfälle von knapp 3 000 auf rund 900 Unfälle gesunken. Bis 2016 ist wieder ein leichter Anstieg zu beobachten.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "10_00_00_00_00_002",
 		"parentId": null,
 		"children": [
@@ -8273,8 +8514,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anzahl Störfälle und Ereignisse",
@@ -8301,6 +8541,9 @@ var indikatoren = [
 		"lesehilfe": "2016 sind bei der Chemiefachberatung des Kantons 9 Alarmierungen aufgrund von ABC-Ereignissen eingegangen.",
 		"erlaeuterungen": "Der Indikator sagt aus, wie häufig die Chemiefachberatung von den kantonalen Einsatzkräften bei Ereignissen angefordert wurde. Die Häufigkeit von solchen Ereignissen mit Austritt von Chemikalien in die Umgebung ist ein Mass für die Qualität des Umgangs mit gefährlichen Stoffen. Veränderungen sind dabei besser zu erkennen, wenn man nicht nur die selten auftretenden Störfälle betrachtet. Die Anzahl der Ereignisse alleine sagt hingegen noch nichts über die Einwirkung eines Ereignisses auf die Umwelt aus und ist deshalb immer in Verbindung mit der jeweiligen Bewertung zu betrachten. Unter dem Begriff «Ereignisse» sind Alarmierungen an die Chemiefachberatung der Industriefeuerwehr Regio Basel (IRFB) zu verstehen. Es handelt sich dabei um Ereignisse mit radioaktiven, biologischen oder chemischen Gefahren. Als Störfall gilt nach Definition der Störfallverordnung (StFV) ein ausserordentliches Ereignis in einem Betrieb, auf einem Verkehrsweg oder in einer Rohrleitungsanlage, bei dem erhebliche Einwirkungen auftreten: a) ausserhalb des Betriebsareals, b) auf oder ausserhalb des Verkehrswegs, c) ausserhalb der Rohrleitungsanlage.<br>Die eigentliche Entscheidung, ob ein Ereignis als Störfall einzustufen ist, liegt aber im Ermessen der zuständigen Fachstelle.",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "10_00_00_00_00_003",
 		"parentId": null,
 		"children": [
@@ -8313,8 +8556,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung",
@@ -8341,6 +8583,9 @@ var indikatoren = [
 		"lesehilfe": "2,2% der baselstädtischen Haushalte erhalten 2016 Familienmietzinsbeiträge (FAMI). In 14,5% der Haushalte bezieht mindestens eine Person Prämienverbilligung.",
 		"erlaeuterungen": "FAMI: Familienmietzinsbeiträge; Anteil Haushalte mit Prämienverbilligung: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt.",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "11_00_00_00_00_002",
 		"parentId": null,
 		"children": [
@@ -8354,8 +8599,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Sozialhilfequote nach Altersgruppe",
@@ -8382,6 +8626,9 @@ var indikatoren = [
 		"lesehilfe": "Minderjährige weisen 2016 mit 13,5% die höchste Sozialhilfequote aus. Die Sozialhilfequote der 51- bis 65-Jährigen ist vergleichsweise gering, steigt aber über den gesamten Zeitverlauf kontinuierlich.",
 		"erlaeuterungen": "Nur Stadt Basel, ohne Riehen und Bettingen.",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "11_00_00_00_00_003",
 		"parentId": null,
 		"children": [
@@ -8395,8 +8642,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
@@ -8423,6 +8669,9 @@ var indikatoren = [
 		"lesehilfe": "Der Anteil Zahlfälle mit einer Bezugsdauer von mehr als 36 Monaten lag 2016 bei 47%. Seit 2011 hat sich dieser stetig erhöht.",
 		"erlaeuterungen": "Nur Stadt Basel, ohne Riehen und Bettingen. Die Sozialhilfe führt Dossiers für Unterstützungseinheiten, die eine oder mehrere Personen umfassen. Als Zahlfälle gelten Unterstützungseinheiten, die entweder wirtschaftliche Sozialhilfe mit Beratung beanspruchen oder Fremdplatzierte sind. Letztere sind minderjährige Kinder, die in Pflegefamilien oder Heimen untergebracht sind und für welche die Sozialhilfe ein eigenes Dossier führt. In einem Haushalt kann es mehrere Zahlfälle geben.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "11_00_00_00_00_004",
 		"parentId": null,
 		"children": [
@@ -8436,173 +8685,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
-	},
-	{
-		"title": "Vertretung der Anliegen der Bevölkerung durch Behörden",
-		"subtitle": "«Wie gut vertreten Ihrer Meinung nach die Behörden, also der Regierungsrat und der Grosse Rat, die Anliegen von der Bevölkerung?»",
-		"kuerzel": "I.50.1.06185",
-		"kuerzelKunde": "12.1",
-		"description": "Vertretung der Anliegen der Bevölkerung durch Behörden",
-		"id": 6185,
-		"thema": "50 Befragungen",
-		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Legislaturplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Verwaltung",
-			"Grosser Rat",
-			"Beurteilung"
-		],
-		"stufe1": "Ziel 12:  Der Service public ist modern und kundenfreundlich.",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "2015 fühlten sich 68,2% der befragten Personen sehr oder eher gut von den Behörden vertreten. Im Vergleich zu 2011 entspricht dies einem Rückgang um 2,2 Prozentpunkte. In den vorhergehenden Befragungsjahren lag die Zufriedenheit mit der Vertretung durch die Behörden jeweils deutlich unter derjenigen von 2011 und 2015, und die Frage konnte deutlich häufiger nicht beantwortet werden.",
-		"erlaeuterungen": "",
-		"template": "befragungen001",
-		"orderKey": "12_00_00_00_00_001",
-		"parentId": 4724,
-		"children": [
-			"6331"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F21a"
-		],
-		"externalLinks": [
-			""
-		],
-		"visibleInPortal": true
-	},
-	{
-		"title": "Beurteilung der kantonalen Verwaltung",
-		"subtitle": "«Denken Sie einmal an den letzten Kontakt, den Sie mit der kantonalen Verwaltung gehabt haben. Wie ist dieser Kontakt verlaufen?»",
-		"kuerzel": "I.50.1.06186",
-		"kuerzelKunde": "12.2",
-		"description": "Beurteilung der kantonalen Verwaltung",
-		"id": 6186,
-		"thema": "50 Befragungen",
-		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Legislaturplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Verwaltung",
-			"Beurteilung"
-		],
-		"stufe1": "Ziel 12:  Der Service public ist modern und kundenfreundlich.",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "73,7% der befragten Personen schätzten 2015 ihren letzten Kontakt, den sie mit der Verwaltung des Kantons Basel-Stadt hatten, als positiv ein. Das sind 3,8 Prozentpunkte weniger als 2011, aber mehr als in der Befragung von 2007 (64,4%).",
-		"erlaeuterungen": "",
-		"template": "befragungen001",
-		"orderKey": "12_00_00_00_00_002",
-		"parentId": 4859,
-		"children": [
-			"6332"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F19a"
-		],
-		"externalLinks": [
-			""
-		],
-		"visibleInPortal": true
-	},
-	{
-		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
-		"subtitle": "in Franken; Kapital und Reserven: 2 Mio. Fr.; Reingewinn: 400 000 Fr.",
-		"kuerzel": "I.18.2.06201",
-		"kuerzelKunde": "2.11b",
-		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
-		"id": 6201,
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kennzahlenset": "Legislaturplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen",
-			"Erwerbstätigkeit",
-			"Angestellte",
-			"Kantonsvergleich"
-		],
-		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Werte für Basel-Stadt sind in den letzten 4 Jahren konstant, nachdem die Steuerbelastung zuvor leicht zurückgegangen ist. Zusammen mit Genf liegt Basel an der Spitze der verglichenen Kantonshauptorte.",
-		"erlaeuterungen": "Dargestellt ist die Steuerbelastung von Aktiengesellschaften (Handels-, Industrie, Bank-AG, ohne Beteiligungen), mit einem Kapital und Reserven von 2 Mio. Franken und einem Reingewinn von 400 000 Franken; Kanton- und Gemeindesteuer, einschliesslich Kirchensteuer. Reingewinn vor Abzug der im Geschäftsjahr bezahlten Steuern. In Genf ohne Gewerbesteuer.",
-		"template": "line001",
-		"orderKey": "02_00_00_00_00_012",
-		"parentId": 5107,
-		"children": [
-			"6333"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Eidgenössische Steuerverwaltung"
-		],
-		"externalLinks": [
-			""
-		],
-		"visibleInPortal": true
-	},
-	{
-		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
-		"subtitle": "in Franken; Kapital und Reserven: 2 Mio. Fr.; Reingewinn: 1 000 000 Fr.",
-		"kuerzel": "I.18.2.06202",
-		"kuerzelKunde": "2.11c",
-		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
-		"id": 6202,
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kennzahlenset": "Legislaturplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen",
-			"Erwerbstätigkeit",
-			"Angestellte",
-			"Kantonsvergleich"
-		],
-		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Werte für Basel sind in den letzten 4 Jahren konstant, nachdem Rückgang der Steuerbelastung stattgefunden hat. Die Steuerbelastung durch Reingewinn- und Kapitalsteuern ist in Basel 2016 nach Genf am zweithöchsten unter den verglichenen Kantonshauptorten.",
-		"erlaeuterungen": "Dargestellt ist die Steuerbelastung von Aktiengesellschaften (Handels-, Industrie, Bank-AG, ohne Beteiligungen), mit einem Kapital und Reserven von 2 Mio. Franken und einem Reingewinn von 1 Mio. Franken; Kanton- und Gemeindesteuer, einschliesslich Kirchensteuer. Reingewinn vor Abzug der im Geschäftsjahr bezahlten Steuern. In Genf ohne Gewerbesteuer.",
-		"template": "line001",
-		"orderKey": "02_00_00_00_00_013",
-		"parentId": 5108,
-		"children": [
-			"6334"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Eidgenössische Steuerverwaltung"
-		],
-		"externalLinks": [
-			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anteil Haushalte mit FAMI",
@@ -8630,6 +8713,9 @@ var indikatoren = [
 		"lesehilfe": "Ende 2016 liegt der Anteil Haushalte mit Familienmietzinsbeiträgen (FAMI) an allen Haushalten bei 2,2%. 2011 lag die FAMI-Quote noch bei 1,2%. Kleinhüningen weist mit 5,2% die höchste Beitragsquote auf. Die Vorstädte verzeichnen gegenüber 2012 als einziges Wohnviertel einen Rückgang.",
 		"erlaeuterungen": "FAMI = Familienmietzinsbeiträge. Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Familienmietzinsbeiträgen an der Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.",
 		"template": "mappie001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [],
@@ -8639,8 +8725,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anteil Haushalte mit Prämienverbilligung",
@@ -8669,6 +8754,9 @@ var indikatoren = [
 		"lesehilfe": "Insgesamt liegt der Anteil der Haushalte mit reiner PV an allen Haushalten bei 14,8%. Das Klybeck weist mit 23,9% die höchste, das Bruderholz mit 8,8% die tiefste PV-Quote auf. Im Vergleich zu 2012 ist die PV-Quote in den meisten Wohnvierteln gestiegen. In der Breite ist sie hingegen um 1,3 Prozentpunkte gesunken.",
 		"erlaeuterungen": "Die Prämienverbilligungsquote errechnet sich als Quotient der Anzahl Haushalte mit Prämienverbilligungen an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Im BISS sind nur Personen mit reinen Prämienverbilligungen erfasst. Personen mit Ergänzungsleistungen zur AHV/IV oder mit Sozialhilfebezug sind deshalb nicht berücksichtigt.",
 		"template": "mappie001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [],
@@ -8678,8 +8766,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Kantonales BIP im Vergleich zu den Staatsausgaben",
@@ -8706,6 +8793,9 @@ var indikatoren = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Indexierte Werte, 1995 = 100. Nominales BIP: Zu laufenden Preisen bewertete Gesamtproduktion von Gütern und Dienstleistungen einer Volkswirtschaft.",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_009",
 		"parentId": null,
 		"children": [
@@ -8718,8 +8808,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
@@ -8748,6 +8837,9 @@ var indikatoren = [
 		"lesehilfe": "Die Jugendlichen der Abschlussklassen der Sekundarstufe I werden jeweils Ende Schuljahr schriftlich über ihren nächsten Ausbildungsschritt befragt. Die Werte 2016 und 2017 deuten darauf hin, dass die Jugendlichen wieder mehr Mühe haben, eine für sie passende Anschlusslösung zu finden. Unruhiger Kurvenverlauf aufgrund der vergleichsweise geringen Zahl an Beobachtungen.",
 		"erlaeuterungen": "Datengrundlage bildet die jährliche Befragung der Schulabgängerinnen und Schulabgänger durch die Bildungsstatistikstelle des Bereichs Mittelschulen und Berufsbildung im Basler Erziehungsdepartement. Die Weiterbildungsschule wurde per Ende Schuljahr 2016/17 aufgelöst.",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_001",
 		"parentId": null,
 		"children": [
@@ -8759,8 +8851,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anzahl Lernende an Basler Berufsfachschulen",
@@ -8787,6 +8878,9 @@ var indikatoren = [
 		"lesehilfe": "Die Gesamtzahl der Lernenden ist seit 2011 mit Ausnahme von 2014 rückläufig. Bei Lernenden ohne Schweizer Pass ist in diesem Zeitraum eine leichte Zunahme zu beobachten.",
 		"erlaeuterungen": "Dargestellt werden die Lernenden der Ausbildungsgänge EFZ (Eidgenössisches Fähigkeitszeugnis) und EBA (Eidgenössisches Berufsattest) der vier grossen Basler Berufsfachschulen Allgemeine Gewerbeschule (AGS), Berufsfachschule (BFS), Schule für Gestaltung (SfG) sowie Handelsschule KV (HKV).",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_003",
 		"parentId": null,
 		"children": [
@@ -8798,8 +8892,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anzahl Plätze in Tagesbetreuungsangeboten",
@@ -8826,6 +8919,9 @@ var indikatoren = [
 		"lesehilfe": "Das Angebot an Tagesbetreuungsplätzen wurde seit 2016 kontinuierlich ausgebaut. 2016 stehen insgesamt 4 161 Plätze zur Verfügung, davon befinden sich 90 Plätze in Tagesfamilien.",
 		"erlaeuterungen": "Stichwoche im Oktober.",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_004",
 		"parentId": null,
 		"children": [
@@ -8837,48 +8933,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
-	},
-	{
-		"title": "Nettoschuldenquote in Promille des BIP der Schweiz und Nettoschulden pro Einwohner in Franken",
-		"subtitle": "",
-		"kuerzel": "I.04.1.06211",
-		"kuerzelKunde": "2.7",
-		"description": "Nettoschuldenquote in Promille des BIP der Schweiz und Nettoschulden pro Einwohner in Franken",
-		"id": 6211,
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Volkseinkommen",
-		"kennzahlenset": "Legislaturplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"BIP",
-			"Schulden"
-		],
-		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Nettoschulden haben sich seit dem Jahr 2000 von 19 132 auf 9 950 Franken pro Kopf im Jahr 2016 reduziert. Die Nettoschuldenquote liegt 2016 bei 3,0 ‰ des schweizerischen BIP.",
-		"erlaeuterungen": "",
-		"template": "line001",
-		"orderKey": "02_00_00_00_00_007",
-		"parentId": 5160,
-		"children": [
-			"6339"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Jahresbericht des Kantons Basel-Stadt"
-		],
-		"externalLinks": [
-			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Alter",
@@ -8905,6 +8960,9 @@ var indikatoren = [
 		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. Im Durchschnitt vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton eine 7,7. In beiden dargestellten Jahren zeigt sich: Je älter die Befragten sind, desto seltener wird eine Note über 6 vergeben.",
 		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "befragungen001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_011",
 		"parentId": null,
 		"children": [
@@ -8916,8 +8974,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Bevölkerung am Jahresende und Anzahl Wohnungen",
@@ -8944,6 +9001,9 @@ var indikatoren = [
 		"lesehilfe": "Die Wohnbevölkerung in Basel-Stadt liegt 2016 mit rund 198 000 Personen tiefer als noch 1960 (228 000 Personen). Demgegenüber steht ein Ansteig der Anzahl Wohnungen auf gut 108 000 Wohnungen (+30 000) über denselben Zeitraum. Der Höchststand der Bevölkerungszahl innerhalb des Beobachtungszeitraums lag 1969 bei über 238 000 Personen – seit dem Teifstwert 2006 (187 190) kann eine kontinuierliche Zunahme registriert werden.",
 		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_001",
 		"parentId": null,
 		"children": [
@@ -8957,8 +9017,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
@@ -8985,6 +9044,9 @@ var indikatoren = [
 		"lesehilfe": "Ende 2016 umfasste die baselstädtische Wohnbevölkerung rund 198 200 Personen. Das Mittlere Szenario der aktuellen Bevölkerungsszenarien des Kantons Basel-Stadt geht davon aus, dass sich die Zahl der in Basel-Stadt wohnhaften Personen bis 2035 auf etwa 212 600 erhöht.",
 		"erlaeuterungen": "Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href=\"http://www.statistik.bs.ch/zahlen/analysen/bevoelkerungsszenarien.html\" target=\"_blank\">Internetseite des Statistischen Amtes</a>.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_004",
 		"parentId": null,
 		"children": [
@@ -8997,8 +9059,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Zufriedenheit mit verschiedenen Aspekten und Angeboten am Wohnort",
@@ -9026,6 +9087,9 @@ var indikatoren = [
 		"lesehilfe": "2015 hatten die befragten Personen die Gelegenheit verschiedene Punkte, die für den Wohnort wichtig sind, einzuschätzen. Am zufriedensten sind die befragten Einwohnerinnen und Einwohner mit den Öffentlichen Verkehrsmitteln, gefolgt von den Grünanlagen. Am wenigsten zufrieden sind Sie mit den Parkplätzen und dem Angebot an Wohnungen.",
 		"erlaeuterungen": "2003: N=1495, 2005: N=1509, 2007: N=1505, 2011: N=1516, 2015: N=1504.",
 		"template": "befragungen001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_02_00_00_00_003",
 		"parentId": null,
 		"children": [
@@ -9038,8 +9102,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Leerstehende Industrie- und Gewerbeflächen",
@@ -9066,6 +9129,9 @@ var indikatoren = [
 		"lesehilfe": "Die Büroflächen machen mit gut 54 000 m<sup>2</sup> über die Hälfte aller leeren Geschäftsflächen aus. Der Leerstand von Industrie- und Gewerbeflächen errreichte 2011 mit total knapp 170 000 m<sup>2</sup> den Höchststand in den letzten 20 Jahren.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_04_00_00_00_004",
 		"parentId": null,
 		"children": [
@@ -9078,8 +9144,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Bevölkerung ab 15 Jahren nach Ausbildungsniveau",
@@ -9106,6 +9171,9 @@ var indikatoren = [
 		"lesehilfe": "Seit 1990 hat sich der Anteil der Personen mit einer Ausbildung auf Tertiärstufe kontinuierlich erhöht. 2015 beträgt dieser Anteil 38%. Ebenfalls 38% der baselstädtischen Wohnbevölkerung besitzt eine höchste abgeschlossene Ausbildung auf Niveau Sekundarstufe 2 und 24% auf Niveau Sekundarstufe 1.",
 		"erlaeuterungen": "Die Sekundarstufe I umfasst Ausbildungen bis maximal der obligatorischen Schule. Unter Sekundarstufe II ist die berufliche Grundbildung, z. B. eine Berufslehre, sowie die allgemeinbildende Schule, z. B. die gymnasiale Maturität, zusammengefasst. Die Tertiärstufe umfasst die höhere Berufsbildung, z. B. die höhere Fachschule für Technik oder Wirtschaft, sowie Ausbildungen an Hochschulen, wie z. B. ein Bachelor- oder Masterstudium.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_05_00_00_00_002",
 		"parentId": null,
 		"children": [
@@ -9118,8 +9186,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Indexierter Verlauf der Haushalte in Begegnungszonen",
@@ -9146,6 +9213,9 @@ var indikatoren = [
 		"lesehilfe": "Die Anzahl Privathaushalte in Begegnungszonen ist von 2011 bis 2016 prozentual stärker angestiegen als das Total der Privathaushalte in der Stadt Basel. Ende 2016 gibt es 6 954 Privathaushalte in Begegnungszonen.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_02_00_00_00_004",
 		"parentId": null,
 		"children": [
@@ -9159,8 +9229,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Einkommensklasse",
@@ -9187,6 +9256,9 @@ var indikatoren = [
 		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. Im Durchschnitt vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton eine 7,7. In allen dargestellten Jahren fällt auf: Je höher das Einkommen der Befragten ist, häufiger wird eine Note über 6 vergeben.",
 		"erlaeuterungen": "",
 		"template": "befragungen001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_012",
 		"parentId": null,
 		"children": [
@@ -9198,8 +9270,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Anzahl Beschäftigte nach Branche",
@@ -9227,6 +9298,9 @@ var indikatoren = [
 		"lesehilfe": "Im Jahr 2015 sind in Basel-Stadt 190 753 Personen beschäftigt. Das sind 821 Personen weniger als im Vorjahr.  Den grössten Beschäftigungsrückgang verzeichnet die Branchengruppe Handel und Verkehr mit einer Abnahme um 1512 Personen, während im Gesundheits- und Sozialwesen mit 549 zusätzlichen Beschäftigten der grösste Zuwachs zu beobachten ist.",
 		"erlaeuterungen": "Unternehmens-DL, Freiberufe umfasst: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen, Erbringung von sonstigen wirtschaftlichen Dienstleistungen; Übrige Branchen umfasst: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Beherbergung und Gastronomie, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches  die STATENT-Methode für die entsprechenden Jahre simuliert.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_04_00_00_00_001",
 		"parentId": null,
 		"children": [
@@ -9240,8 +9314,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
@@ -9268,6 +9341,9 @@ var indikatoren = [
 		"lesehilfe": "In Basel beträgt die Steuerbelastung 2016 im ausgewählten Modellfall 9 780 Franken. In den fünf Kantonshauptorten liegt sie in Bern am höchsten, in Zürich am tiefsten.",
 		"erlaeuterungen": "Die Werte zeigen die Steuerbelastung (Kantons-, Gemeinde- und Kirchensteuern) in Franken für Doppelverdiener ohne Kinder mit einem Bruttoarbeitseinkommen von 100 000 Franken im Jahr 2016.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_015",
 		"parentId": null,
 		"children": [
@@ -9279,8 +9355,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
@@ -9307,6 +9382,9 @@ var indikatoren = [
 		"lesehilfe": "In Basel beträgt die Steuerbelastung 2016 im ausgewählten Modellfall 15 547 Franken. In den fünf Kantonshauptorten liegt sie in Liestal am höchsten, in Zürich am tiefsten.",
 		"erlaeuterungen": "Die Werte zeigen die Steuerbelastung (Kantons-, Gmeinde- und Kirchensteuern) in Franken für Ledige mit einem Bruttoarbeitseinkommen von 100 000 Franken im Jahr 2016.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_016",
 		"parentId": null,
 		"children": [
@@ -9318,8 +9396,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Herkunft",
@@ -9347,6 +9424,9 @@ var indikatoren = [
 		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. Im Durchschnitt vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton eine 7,7. In allen dargestellten Jahren zeigt sich, dass ausländische Befragte häufiger eine Note über 7 für die Lebensqualität vergeben als Schweizerinnen und Schweizer dies tun.",
 		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "befragungen001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_013",
 		"parentId": null,
 		"children": [
@@ -9358,8 +9438,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Medianprämie pro Prämienregion",
@@ -9387,6 +9466,9 @@ var indikatoren = [
 		"lesehilfe": "In den teuersten Prämienregionen aller verglichenen Kantone steigen die Medianprämien seit 2010 setig an. Basel-Stadt liegt zusammen mit Genf an der Spitze dieser Rangliste.",
 		"erlaeuterungen": "Verglichen wird der Medianwert der Standardprämien aller Versicherer in den Vergleichskantonen. Standardprämie: Monatsprämie der Obligatorischen Krankenpflegeversicherung gemäss dem Bundesgesetz über die Krankenversicherung (KVG) für Erwachsene, Franchise Fr. 300, mit Unfalldeckung, ohne besondere Versicherungsmodelle mit eingeschränkter Arztwahl gemäss Art. 62 KVG. Der Medianwert ist der Wert einer Zahlenreihe, der an der mittleren (zentralen) Stelle steht, wenn man die Werte der Größe nach sortiert.",
 		"template": "line001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "09_00_00_00_00_001",
 		"parentId": null,
 		"children": [
@@ -9399,8 +9481,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	},
 	{
 		"title": "Standortqualitätsindikator (SQI)",
@@ -9427,6 +9508,9 @@ var indikatoren = [
 		"lesehilfe": "Basel-Stadt liegt mit einem Wert von 0,84 hinter Zug, Zürich und Aargau auf dem vierten Rang aller Kantone.",
 		"erlaeuterungen": "Der Standortqualitätsindikator drückt die Attraktivität der Schweizer Kantone und Regionen als synthetischen Indikator im Vergleich zum Schweizer Durchschnitt von null aus. Werte zwischen –0.3 und +0.3 können als Mittelfeld bezeichnet werden, höhere Werte bedeuten  eine überdurchschnittliche Attraktivität, tiefere Werte eine geringere. Die Komponenten der Standortqualität sind steuerliche Attraktivität für natürliche und juristische Personen, Verfügbarkeit von Fachkräften und hochqualifizierten Personen sowie die Erreichbarkeit als Summe aller Beschäftigungs- oder Bevölkerungspotenziale im in- und ausländischen Einzugsgebiet bzw. des Passagieraufkommens am jeweiligen Flughafen.",
 		"template": "template001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_002",
 		"parentId": null,
 		"children": [
@@ -9438,7 +9522,6 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			""
-		],
-		"visibleInPortal": true
+		]
 	}
 ];

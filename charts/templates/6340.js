@@ -8,7 +8,7 @@
     },
  	"xAxis": {
         "type": "category",
-        "labels": { 
+        "labels": {
 			  	align: "left",
 	        x: -110,
 	        y: 3,

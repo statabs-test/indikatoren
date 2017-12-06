@@ -504,7 +504,8 @@
       "color": "#000000"
     },
     "text": "in Mikrogramm pro m\u003Csup\u003E3\u003C\u002Fsup\u003E",
-    "align": "left"
+    "align": "left",
+    "useHTML": true
   },
   "tooltip": {
     "shared": false,
