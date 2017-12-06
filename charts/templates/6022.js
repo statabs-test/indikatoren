@@ -167,7 +167,6 @@
 					fn.addLegendText(chart,        legendLeft-80, legendTop+60,  'Umzug positiv');
 					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+65, 10, color(-1, 1));
 					fn.addLegendText(chart,        legendLeft-80, legendTop+75 , 'Umzug negativ');
-					fn.addLegendText(chart,        legendLeft-80, legendTop+75 , 'Umzug negativ');
 					fn.addLegendTextbold(chart,    legendLeft-98, legendTop+100 , 'Bevölkerungssaldo');	
 					//fn.addLegendTextbold(chart,    legendLeft-98, legendTop+105 , 'Bewegung pro 100 Einwohner');
 					//fn.addLegendTextbold(chart,    legendLeft-98, legendTop+108 , '(Saldo total)');
