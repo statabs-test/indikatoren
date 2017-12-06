@@ -135,7 +135,7 @@
 					fn.addLegendLabel(chart, 'Schweiz', 290, 260);
 					fn.addLegendSquare(chart, 270, 285, 10, 'blue');
 					fn.addLegendLabel(chart, 'Ausland', 290, 280);
-					fn.addLegendLabelbold(chart, 'Anzahl zugezogene pro 100 Einwohner', 260, 305);
+					fn.addLegendLabelbold(chart, 'Anzahl Zugezogene pro 100 Einwohner', 260, 305);
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
