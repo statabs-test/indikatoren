@@ -65,10 +65,10 @@
 						var tooltipText = 
 							this.properties.LIBGEO + ': <br/><br/>' + 
 							'<table>'
-							+'<tr><td><span style="color:' + this.color + '">●</span></td> <td>' + this.series.name + ': </td> <td><b>' + Highcharts.numberFormat((this.value),3) + '</b></td></tr><br/>';
+							+'<tr><td><span style="color:' + this.color + '">●</span></td> <td>' + this.series.name + ': </td> <td><b>' + Highcharts.numberFormat((this.value),1) + '</b></td></tr><br/>';
 						//add a tooltip row for each column
 						Highcharts.each(columnSeries.points, function(element, index, array){
-							(columnSeries.visible) ? tooltipText += ('<tr><td><span style="color:' + element.color + '">●</span></td> <td>' + element.name + ': </td> <td><b>' + Highcharts.numberFormat((element.y)) + '</b></td></tr><br/>') : undefined ;	
+							(columnSeries.visible) ? tooltipText += ('<tr><td><span style="color:' + element.color + '">●</span></td> <td>' + element.name + ': </td> <td><b>' + Highcharts.numberFormat((element.y),1) + '</b></td></tr><br/>') : undefined ;	
 						});
 						tooltipText += '</table>';
 						return tooltipText;
@@ -150,7 +150,7 @@
                 	//Add manually drawn legend	
                 	var legendTop = 220;
                 	var legendLeft = 365;
-	                fn.addLegendTitle(chart, columnSeries[0].name, 265, 220);
+	                fn.addLegendTitle(chart, 'Wanderung/Umzug', 265, 215);
 	                
 	                fn.addLegendColumnChart(chart, legendLeft+35,  legendTop+45,  legendColumnValues, color, 'columnLegendHideOnZoom');
 	                
@@ -168,8 +168,8 @@
 					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+65, 10, color(-1, 1));
 					fn.addLegendText(chart,        legendLeft-80, legendTop+75 , 'Umzug negativ');
 					fn.addLegendText(chart,        legendLeft-80, legendTop+75 , 'Umzug negativ');
-					fn.addLegendTextbold(chart,    legendLeft-98, legendTop+93 , 'Bevölkerungssaldo infolge räumlicher');	
-					fn.addLegendTextbold(chart,    legendLeft-98, legendTop+105 , 'Bewegung pro 100 Einwohner');
+					fn.addLegendTextbold(chart,    legendLeft-98, legendTop+100 , 'Bevölkerungssaldo');	
+					//fn.addLegendTextbold(chart,    legendLeft-98, legendTop+105 , 'Bewegung pro 100 Einwohner');
 					//fn.addLegendTextbold(chart,    legendLeft-98, legendTop+108 , '(Saldo total)');
 					
 					//make sure columns are hidden upon click onto column legend
