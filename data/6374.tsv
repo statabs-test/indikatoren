@@ -1,22 +1,22 @@
-﻿wohnviertel_id	Anteil Einfamilienhäuser	Rang	wohnviertel	jahr_num
-13	0.0230769231	1	Clara	2016
-6	0.0294530154	2	Gundeldingen	2016
-16	0.0704697987	3	Rosental	2016
-17	0.0719298246	4	Matthäus	2016
-18	0.0733944954	5	Klybeck	2016
-2	0.0774907749	6	Vorstädte	2016
-12	0.1028368794	7	Altstadt Kleinbasel	2016
-1	0.103030303	8	Altstadt Grossbasel	2016
-4	0.1347305389	9	Breite	2016
-19	0.1556886228	10	Kleinhüningen	2016
-10	0.1665519615	11	Iselin	2016
-3	0.199488491	12	Am Ring	2016
-11	0.2476943347	13	St. Johann	2016
-14	0.3352272727	14	Wettstein	2016
-5	0.3403716216	15	St. Alban	2016
-9	0.3682604273	16	Gotthelf	2016
-8	0.5607028754	17	Bachletten	2016
-20	0.6608400097	18	Riehen	2016
-15	0.6965865992	19	Hirzbrunnen	2016
-7	0.7338787295	20	Bruderholz	2016
-30	0.7942122186	21	Bettingen	2016
+Wohnviertel_id	wohnviertel_name	MeanReinvermögen
+1	Altstadt Grossbasel	1015165
+2	Iselin	1392666
+3	St. Johann	435416
+4	Altstadt Kleinbasel	140160
+5	Clara	1033797
+6	Wettstein	145346
+7	Hirzbrunnen	2519406
+8	Rosental	413563
+9	Matthäus	229962
+10	Klybeck	130113
+11	Kleinhüningen	131943
+12	Vorstädte	249077
+13	Riehen	130164
+14	Am Ring	296022
+15	Bettingen	186072
+16	Breite	76964
+17	St. Alban	128623
+18	Gundeldingen	59248
+19	Bruderholz	68636
+20	Bachletten	642705
+30	Gotthelf	2359934

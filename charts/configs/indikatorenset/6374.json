@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "Anteil Einfamilienhäuser",
+      "name": "wohnviertel_name",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -3237,180 +3237,93 @@
       },
       "data": [
         [
-          13,
-          0.0230769231
-        ],
-        [
-          6,
-          0.0294530154
-        ],
-        [
-          16,
-          0.0704697987
-        ],
-        [
-          17,
-          0.0719298246
-        ],
-        [
-          18,
-          0.0733944954
+          1,
+          "Altstadt Grossbasel"
         ],
         [
           2,
-          0.0774907749
-        ],
-        [
-          12,
-          0.1028368794
-        ],
-        [
-          1,
-          0.103030303
-        ],
-        [
-          4,
-          0.1347305389
-        ],
-        [
-          19,
-          0.1556886228
-        ],
-        [
-          10,
-          0.1665519615
+          "Iselin"
         ],
         [
           3,
-          0.199488491
+          "St. Johann"
         ],
         [
-          11,
-          0.2476943347
-        ],
-        [
-          14,
-          0.3352272727
+          4,
+          "Altstadt Kleinbasel"
         ],
         [
           5,
-          0.3403716216
+          "Clara"
         ],
         [
-          9,
-          0.3682604273
-        ],
-        [
-          8,
-          0.5607028754
-        ],
-        [
-          20,
-          0.6608400097
-        ],
-        [
-          15,
-          0.6965865992
+          6,
+          "Wettstein"
         ],
         [
           7,
-          0.7338787295
+          "Hirzbrunnen"
+        ],
+        [
+          8,
+          "Rosental"
+        ],
+        [
+          9,
+          "Matthäus"
+        ],
+        [
+          10,
+          "Klybeck"
+        ],
+        [
+          11,
+          "Kleinhüningen"
+        ],
+        [
+          12,
+          "Vorstädte"
+        ],
+        [
+          13,
+          "Riehen"
+        ],
+        [
+          14,
+          "Am Ring"
+        ],
+        [
+          15,
+          "Bettingen"
+        ],
+        [
+          16,
+          "Breite"
+        ],
+        [
+          17,
+          "St. Alban"
+        ],
+        [
+          18,
+          "Gundeldingen"
+        ],
+        [
+          19,
+          "Bruderholz"
+        ],
+        [
+          20,
+          "Bachletten"
         ],
         [
           30,
-          0.7942122186
+          "Gotthelf"
         ]
       ]
     },
     {
-      "visible": false,
-      "data": [
-        [
-          1,
-          "Clara"
-        ],
-        [
-          2,
-          "Gundeldingen"
-        ],
-        [
-          3,
-          "Rosental"
-        ],
-        [
-          4,
-          "Matthäus"
-        ],
-        [
-          5,
-          "Klybeck"
-        ],
-        [
-          6,
-          "Vorstädte"
-        ],
-        [
-          7,
-          "Altstadt Kleinbasel"
-        ],
-        [
-          8,
-          "Altstadt Grossbasel"
-        ],
-        [
-          9,
-          "Breite"
-        ],
-        [
-          10,
-          "Kleinhüningen"
-        ],
-        [
-          11,
-          "Iselin"
-        ],
-        [
-          12,
-          "Am Ring"
-        ],
-        [
-          13,
-          "St. Johann"
-        ],
-        [
-          14,
-          "Wettstein"
-        ],
-        [
-          15,
-          "St. Alban"
-        ],
-        [
-          16,
-          "Gotthelf"
-        ],
-        [
-          17,
-          "Bachletten"
-        ],
-        [
-          18,
-          "Riehen"
-        ],
-        [
-          19,
-          "Hirzbrunnen"
-        ],
-        [
-          20,
-          "Bruderholz"
-        ],
-        [
-          21,
-          "Bettingen"
-        ]
-      ],
-      "name": "wohnviertel"
+      "visible": false
     },
     {
       "name": "Rhein",
