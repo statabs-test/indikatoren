@@ -1,3 +1,7 @@
+/* 
+global Highcharts
+*/
+
 (function(){
     return {
   plotOptions: {
@@ -26,7 +30,7 @@
                     value: 0,
                     color: 'white',
                     width: 2,
-                    zIndex: 4
+                    zIndex: 4 //series have zIndex 3 by default
                 }],
 
   },
@@ -53,7 +57,8 @@
       //"index": 0,
       "type": "column",
       "pointWidth": "15",
-      legendIndex: 0
+      legendIndex: 0, 
+      zIndex: 5 //small values: place above white plotLine
     },
     {
       "color": "#246370", //dunkelgrün -Zuzug_Schweiz. Agglomeration Basel
@@ -126,6 +131,31 @@
     "shared": false
   },
   "chart": {
+    events: {
+      render: function(args){
+        //Add functionality to define plotLines'zIndex between different series. Series have zIndex 3. See https://github.com/highcharts/highcharts/issues/1687 and http://jsfiddle.net/highcharts/r3Lzjjz6/1/
+        Highcharts.wrap(Highcharts.PlotLineOrBand.prototype, 'render', function (proceed) {
+        	var chart = this.axis.chart;
+            
+            proceed.call(this);
+        
+        	if (!chart.seriesGroup) {
+        		chart.seriesGroup = chart.renderer.g('series-group')
+        			.attr({ zIndex: 3 })
+        			.add();
+        	}
+        
+            if (this.svgElem.parentGroup !== chart.seriesGroup) {
+            	this.svgElem
+                	.attr({ zIndex: this.options.zIndex })
+                	.add(chart.seriesGroup);
+            }
+            return this;
+        });
+        
+
+      }
+    }
 /*    
     "marginBottom": 65,
     "type": "line",
