@@ -19,6 +19,7 @@ global FilterJS
 global JsonQuery
 global FJS
 
+global indikatorensetView
 global isIndikatorensetView
 global indikatorensetData
 global indikatorensetNames
@@ -231,7 +232,7 @@ function preparePortalView(){
   renderDropdownFromJson(indikatoren, 'unterthema', '#unterthema_filter', 'unterthema', baseQuery);
       
   //configure unterthema to be filtered correctly upon change of thema           
-  configureCascadedControls('#thema_criteria', '#unterthema_filter', "#thema_criteria :checked", 'Alle', 'thema','#unterthema_filter', 'all', 'unterthema', baseQuery);  
+  configureCascadedControls('#thema_criteria', '#unterthema_filter', "#thema_criteria :checked", 'Alle', 'thema','#unterthema_filter', 'all', 'unterthema', baseQuery, false);  
 }
 
 
@@ -255,12 +256,12 @@ function prepareIndikatorensetView(indikatorenset){
   renderDropdownFromJson(indikatoren, 'stufe2', '#stufe2_filter', 'orderKey', baseQuery);
 
   //add cascaded dropdowns functionality to stufe1 and stufe2
-  configureCascadedControls('#stufe1_filter', '#stufe2_filter', '#stufe1_filter', 'all', 'stufe1', '#stufe2_filter', 'all', 'stufe2', baseQuery); 
+  configureCascadedControls('#stufe1_filter', '#stufe2_filter', '#stufe1_filter', 'all', 'stufe1', '#stufe2_filter', 'all', 'stufe2', baseQuery, true); 
 }
 
 
 //add cascaded dropdowns functionality to level1 and level2
-function configureCascadedControls(level1Selector, level2Selector, level1ValueSelector, level1AllValue, level1Field, level2valueSelector, level2allValue, level2Field, baseQuery){  
+function configureCascadedControls(level1Selector, level2Selector, level1ValueSelector, level1AllValue, level1Field, level2valueSelector, level2allValue, level2Field, baseQuery, changeLevel1OnLevel2Change){  
 
   $(level1Selector).change(function(){    
     //save currently selected value
@@ -290,7 +291,7 @@ function configureCascadedControls(level1Selector, level2Selector, level1ValueSe
     //upon selection in level2 dropdown: if level1 is set to the first one (all), set level1 value to the single (or first) value that matches    
     var selectedValue = $(level2valueSelector).val();           
     //level2 value is not the first one in the list (all) and level1 value is the first one (all)
-    if (selectedValue !== level2allValue /*&& $(level1ValueSelector).val() === level1AllValue*/ ) {
+    if (changeLevel1OnLevel2Change && selectedValue !== level2allValue /*&& $(level1ValueSelector).val() === level1AllValue*/ ) {
       var level1QueryString = $.extend(true, {}, baseQuery);
       //extend JsonQuery object    
       level1QueryString[level2Field] = selectedValue;
@@ -495,8 +496,8 @@ var afterFilter = function(result, jQ){
     updateCountsExclusive('#raeumlicheGliederung_filter > option', 'raeumlicheGliederung', optionCountRenderFunction, result, jQ);
 
     //hide dropdowns if no specific values present, or select the single specific value
-    selectSingleEntryOrHideDropdown('#unterthema_filter');
-    selectSingleEntryOrHideDropdown('#stufe2_filter');
+    //selectSingleEntryOrHideDropdown('#unterthema_filter');
+    //selectSingleEntryOrHideDropdown('#stufe2_filter');
 
     //for multiselect dropdowns: rebuild control after select tag is updated
     $('#schlagwort_filter').multiselect('rebuild');
