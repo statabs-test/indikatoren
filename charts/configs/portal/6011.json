@@ -5,6 +5,7 @@
       "type": "column",
       "pointWidth": "15",
       "legendIndex": 0,
+      "zIndex": 5,
       "data": [
         [
           2007,
@@ -468,7 +469,30 @@
                 }
               );
             }
-          }
+          },
+      "render": function (args){
+        //Add functionality to define plotLines'zIndex between different series. Series have zIndex 3. See https://github.com/highcharts/highcharts/issues/1687 and http://jsfiddle.net/highcharts/r3Lzjjz6/1/
+        Highcharts.wrap(Highcharts.PlotLineOrBand.prototype, 'render', function (proceed) {
+        	var chart = this.axis.chart;
+            
+            proceed.call(this);
+        
+        	if (!chart.seriesGroup) {
+        		chart.seriesGroup = chart.renderer.g('series-group')
+        			.attr({ zIndex: 3 })
+        			.add();
+        	}
+        
+            if (this.svgElem.parentGroup !== chart.seriesGroup) {
+            	this.svgElem
+                	.attr({ zIndex: this.options.zIndex })
+                	.add(chart.seriesGroup);
+            }
+            return this;
+        });
+        
+
+      }
     },
     "renderTo": "container-6011"
   },
