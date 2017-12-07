@@ -1,3 +1,11 @@
+//Wohnviertel Choropleth Map with Ranks read from data file displayed in tooltip
+
+/* 
+    global Highcharts
+    global rheinDataEPSG2056
+    global scalebarDataEPSG2056
+*/
+
 (function(){
     return {
         "chart": {		

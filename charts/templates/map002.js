@@ -1,3 +1,5 @@
+//Simple Wohnviertel Choropleth Map without ranks and with simple tooltip
+
 /* 
     global Highcharts
     global rheinDataEPSG2056
