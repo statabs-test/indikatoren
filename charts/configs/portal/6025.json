@@ -3238,7 +3238,7 @@
       "tooltip": {
         "pointFormatter": function (){
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),3) + '</b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '</b><br/>';
 					}
       },
       "data": [
@@ -3861,7 +3861,7 @@
 	                        tooltip: {
 	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {point.key} </span><br/>',
 	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),3) + '</b><br/>';
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),1) + '</b><br/>';
 	                            }
 	                        },
 	                    };
@@ -3886,7 +3886,7 @@
 					fn.addLegendLabel(chart, 'Schweiz', 290, 260);
 					fn.addLegendSquare(chart, 270, 285, 10, 'blue');
 					fn.addLegendLabel(chart, 'Ausland', 290, 280);
-					fn.addLegendLabelbold(chart, 'Anzahl zugezogene pro 100 Einwohner', 260, 305);
+					fn.addLegendLabelbold(chart, 'Anzahl Zugezogene pro 100 Einwohner', 260, 305);
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
