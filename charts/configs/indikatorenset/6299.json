@@ -188,7 +188,7 @@
     "width": 320,
     "height": 208,
     "spacing": [
-      3,
+      8,
       0,
       3,
       2
@@ -199,6 +199,7 @@
     },
     "zoomType": "xy",
     "type": "column",
+    "spacingTop": 12,
     "renderTo": "container-6299"
   },
   "title": {
@@ -243,11 +244,12 @@
     "title": {
       "style": {
         "color": "#000000",
-        "fontSize": null
+        "fontSize": 10
       },
-      "text": null
+      "text": ""
     },
     "labels": {
+      "y": 3,
       "format": "{value}%",
       "style": {
         "color": "#000000",
@@ -292,6 +294,6 @@
         }
   },
   "exporting": {
-    "filename": "I.50.1.06146"
+    "filename": "I.50.1.06299"
   }
 }

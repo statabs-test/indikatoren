@@ -159,7 +159,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Energieverbrauch nach Verbrauchergruppe in Mio. kWh"
+    "text": "Endenergieverbrauch nach Verbrauchergruppe"
   },
   "subtitle": {
     "style": {
@@ -168,7 +168,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "in Mio. kWh",
     "align": "left"
   },
   "yAxis": {
@@ -178,11 +178,12 @@
     "title": {
       "style": {
         "color": "#000000",
-        "fontSize": null
+        "fontSize": 10
       },
-      "text": null
+      "text": ""
     },
     "labels": {
+      "y": 3,
       "style": {
         "fontSize": 10,
         "color": "#000000"
@@ -236,6 +237,6 @@
     "shared": true
   },
   "exporting": {
-    "filename": "I.08.1.06160"
+    "filename": "I.08.1.06312"
   }
 }
