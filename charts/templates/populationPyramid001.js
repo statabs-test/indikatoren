@@ -16,28 +16,21 @@
             },
             zoomType: "xy",
             events: {
-              load: function(){
-                this.credits.element.onclick = function() {};
-                
-                //create symmetric axis
-            	var createSymmetricAxis = function(axis){
-                    var absMax = Math.max(Math.abs(axis.min), Math.abs(axis.max));
-                    axis.setExtremes(-absMax, absMax);
-            	};
-        	    createSymmetricAxis(this.yAxis[0]);
-                
-                //for top-left legends with no x defined: move legend to x position of first yAxis
-                if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                  this.update(
-                    {
-                      legend: {
-                        x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                      }
+                load: function(){
+                    this.credits.element.onclick = function() {};
+                    
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                      this.update(
+                        {
+                          legend: {
+                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                          }
+                        }
+                      );
                     }
-                  );
-                }
-              }
-            }, 
+                },
+            }
         },    
         plotOptions: {
         	bar: {
@@ -90,22 +83,6 @@
                     return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ");
                 },
             },
-         /*xAxis:[{
-                        title: {
-                            text: null
-                        },
-                        "labels": {
-                            "style": {
-                                "color": "#000000"
-                            }
-                        },
-                         plotLines: [{
-                                value: 0,
-                                color: 'white',
-                                width: 1,
-                                zIndex: 4
-                            }],
-                }],*/
         },   
     	navigation: {
     		menuItemStyle: {
@@ -135,6 +112,10 @@
             }
         },
         customFunctions: {
+        	createSymmetricAxis: function(axis){
+                var absMax = Math.max(Math.abs(axis.min), Math.abs(axis.max));
+                axis.setExtremes(-absMax, absMax);
+        	}
         }
 	};
 }());

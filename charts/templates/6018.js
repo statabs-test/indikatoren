@@ -21,27 +21,33 @@
                 negateNumbersInColumn(1);
             }     
         },
-            yAxis:[{
-                max: 18000,
-                tickInterval: 6000,
-                min:0,
-                title: {
-                    text: null
-                },
-                "labels": {
-                    formatter: function () {
-                    	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ");
-                	},
-                    "style": {
-                        "color": "#000000"
-                    }
-                },
-                 plotLines: [{
-                        value: 0,
-                        color: 'white',
-                        width: 1,
-                        zIndex: 4
-                    }],
+        yAxis:[{
+            max: 18000,
+            tickInterval: 6000,
+            min:0,
+            title: {
+                text: null
+            },
+            "labels": {
+                formatter: function () {
+                	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ");
+            	},
+                "style": {
+                    "color": "#000000"
+                }
+            },
+            plotLines: [{
+                value: 0,
+                color: 'white',
+                width: 1,
+                zIndex: 4
+            }],
+            //create symmetric xAxis
+            events: {
+                afterSetExtremes: function(args){
+            	    this.chart.options.customFunctions.createSymmetricAxis(this);
+                }, 
+            }
         }],
         xAxis: [{
                 reversed: false,
@@ -85,15 +91,15 @@
               //pointWidth: 15
             }
 	    ],
-"legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-   	"y": 55,    
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
-  },
+    "legend": {
+        "enabled": true,
+        "layout": "horizontal",
+        "verticalAlign": "top",
+        "align": "left",
+       	"y": 55,    
+        "itemStyle": {
+          "fontWeight": "normal"
+        }
+      },
 	};
 }());
