@@ -65,7 +65,7 @@ menuItems.push(
             window.open($.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/' + $.url(1) + '/chart-details.html?id=' + this.renderTo.id.substring(10) + indikatorensetParameter + "&suppressNumberInTitle=true", '_blank'); 
         }
     });
-/*    
+
 menuItems.push(
     {
         "text": "PDF mit Details", 
@@ -73,7 +73,7 @@ menuItems.push(
             window.open('http://www.html2pdf.it/?url=' + 'https://statabs.github.io/indikatoren/chart-details.html?id=' + this.renderTo.id.substring(10) + indikatorensetParameter + "&suppressNumberInTitle=true", '_blank');
         }
     });
-*/    
+
 menuItems.push(
     {
         "text": "Einbetten", 
