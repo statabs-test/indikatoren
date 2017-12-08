@@ -1,26 +1,27 @@
-/*  global rheinData
-	global Highcharts
-	global geojson_wohnviertel
+/* 
+global Highcharts
+global geojson_wohnviertelEPSG2056 
 */
 (function(){
     return {
 		"colorAxis": {
-			"minColor": "#eff6e9",
-			"maxColor": "#4b7b1f",
+			"minColor": "#f4ebf3",
+			"maxColor": "#5b2659",
 			"labels": {
 				"formatter": function () {
-					return Highcharts.numberFormat((this.value*100),0)+'%'; 
+					return Highcharts.numberFormat((this.value/1000),0); 
 				}
+			}
+		},
+		"legend": {
+			"title": {
+				"text": "in %"
 			}
 		},
         "data": {
 		    "seriesMapping": [
 		      {
-		      	x: 0, y: 1
-		      },
-		      {
-		      	//2nd series: use x values from column 2
-		      	x: 2
+		      	x: 0, y: 2
 		      }		      
 		    ]
         },
@@ -39,10 +40,7 @@
 						"brightness": 0
 					}
 				}
-			}, 
-			{
-				"visible": false
-			}
-		]
+			}	
+		], 
 	};
 }());
