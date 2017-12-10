@@ -68,9 +68,9 @@ menuItems.push(
 
 menuItems.push(
     {
-        "text": "PDF mit Details", 
+        "text": "Einzelansicht PDF", 
         "onclick": function(){            
-            window.open('http://www.html2pdf.it/?url=' + 'https://statabs.github.io/indikatoren/chart-details.html?id=' + this.renderTo.id.substring(10) + indikatorensetParameter + "&suppressNumberInTitle=true", '_blank');
+            window.open('http://www.html2pdf.it/?url=' + $.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/' + $.url(1) + '/chart-details.html?id=' + this.renderTo.id.substring(10) + indikatorensetParameter + "&suppressNumberInTitle=true&download=true&format=A4&filename=" + this.renderTo.id.substring(10), '_blank');
         }
     });
 
