@@ -17,7 +17,7 @@
 			"maxColor": "#4b7b1f",
 			"labels": {
 				"formatter": function () {
-					return Highcharts.numberFormat((this.value/1000),0); 
+					return Highcharts.numberFormat((this.value),1); 
 				}
 			}
 		},
@@ -50,7 +50,7 @@
 				tooltip: {
 					pointFormatter: function(){
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),0) + ' m² </b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),0) + '  </b><br/>';
 					}
 				}
 			}, 
@@ -73,7 +73,7 @@
 					var pieSizeSeries = chart.series[1];
 					
 					//pie diameters in px
-					var maxPieDiameter = 0.1;
+					var maxPieDiameter = 25;
 
 					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
 					
@@ -92,7 +92,7 @@
 	                        },
 	                        tooltip: {
 	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),0) + ' m² </b><br/>';
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),0) + '  </b><br/>';
 	                            }
 	                        }
 	                    };
@@ -102,22 +102,22 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 	                
 					//pie values in legend
-	                var minValueInLegend = 3000; 
-	                var maxValueInLegend = 120000; 
+	                var minValueInLegend = 10; 
+	                var maxValueInLegend = 70; 
 	                
                 	//Add manually drawn legend	
-	                fn.addLegendTitle(chart, pieSizeSeries.name + " in m²", 265, 220);
+	                fn.addLegendTitle(chart, pieSizeSeries.name, 265, 220);
 	                
-	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
+	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#7F5F1A');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 300, 245);
-	                fn.addLegendCircle(chart, 280, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
+	                fn.addLegendCircle(chart, 280, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#7F5F1A');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 300, 270);
 
 					//fn.addLegendSquare(chart, 270, 250, 10, '#7F5F1A');
 					//fn.addLegendLabel(chart, 'Zunahme', 300, 245);
 					//fn.addLegendSquare(chart, 270, 275, 10, '#FABD24');
 					//fn.addLegendLabel(chart, 'Abnahme', 300, 270);
-					fn.addLegendTitle(chart, 'Bruttogeschossfläche in 1000 m²', 265, 300);
+					fn.addLegendTitle(chart, 'Leerwohnungsquote in %', 265, 300);
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);

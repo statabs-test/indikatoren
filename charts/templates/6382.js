@@ -9,13 +9,13 @@ global geojson_wohnviertelEPSG2056
 			"maxColor": "#5b2659",
 			"labels": {
 				"formatter": function () {
-					return Highcharts.numberFormat((this.value/1000),0); 
+					return Highcharts.numberFormat((this.value/ 1000),0); 
 				}
 			}
 		},
 		"legend": {
 			"title": {
-				"text": "in Fr."
+				"text": "Mittelwert pro Veranlagung in 1 000 Fr. "
 			}
 		},
         "data": {

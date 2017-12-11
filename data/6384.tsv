@@ -1,4 +1,4 @@
-Wohnviertel	wohnviertel	Besch100	AnzahlBeschaeftigte
+Wohnviertel_ID	Wohnviertel_Name	Beschäftigte pro 100 Einwohner	Anzahl Beschäftigte
 1	Altstadt Grossbasel	584.7368421	14443.0000000
 2	Vorstädte	569.9918897	28112.0000000
 3	Am Ring	132.1462131	14063.0000000

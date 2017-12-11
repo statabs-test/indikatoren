@@ -1,22 +1,22 @@
-Wohnviertel Id	wohnviertel	MeanReinvermögen
+Wohnviertel_ID	Wohnviertel_Name	Mittelwert pro Veranlagung in Fr. 
 1	Altstadt Grossbasel	1015165
-2	Iselin	1392666
-3	St. Johann	435416
-4	Altstadt Kleinbasel	140160
-5	Clara	1033797
-6	Wettstein	145346
-7	Hirzbrunnen	2519406
-8	Rosental	413563
-9	Matthäus	229962
-10	Klybeck	130113
-11	Kleinhüningen	131943
-12	Vorstädte	249077
-13	Riehen	130164
-14	Am Ring	296022
-15	Bettingen	186072
-16	Breite	76964
-17	St. Alban	128623
-18	Gundeldingen	59248
-19	Bruderholz	68636
-20	Bachletten	642705
-30	Gotthelf	2359934
+2	Vorstädte	1392666
+3	Am Ring	435416
+4	Breite	140160
+5	St. Alban	1033797
+6	Gundeldingen	145346
+7	Bruderholz	2519406
+8	Bachletten	413563
+9	Gotthelf	229962
+10	Iselin	130113
+11	St. Johann	131943
+12	Altstadt Kleinbasel	249077
+13	Clara	130164
+14	Wettstein	296022
+15	Hirzbrunnen	186072
+16	Rosental	76964
+17	Matthäus	128623
+18	Klybeck	59248
+19	Kleinhüningen	68636
+20	Riehen	642705
+30	Bettingen	2359934

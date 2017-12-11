@@ -108,7 +108,7 @@
     </g>
     <g class="highcharts-label highcharts-legend-title" transform="translate(5,4)">
       <text x="3" style="font-size:11px;font-weight:normal;" y="14">
-        <tspan>in Fr.</tspan>
+        <tspan>Mittelwert pro Veranlagung in Fr.</tspan>
       </text>
     </g>
   </g>

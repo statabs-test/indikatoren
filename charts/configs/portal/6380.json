@@ -3659,7 +3659,7 @@
 					var pieSizeSeries = chart.series[1];
 					
 					//pie diameters in px
-					var maxPieDiameter = 20;
+					var maxPieDiameter = 0.1;
 
 					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
 					
