@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "Seit mindestens 10 Jahren an der gleichen Adresse lebende Personen in %",
+      "name": "Mittelwert pro Veranlagung in Fr.",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -3238,87 +3238,87 @@
       "data": [
         [
           1,
-          31.53967007
+          98117
         ],
         [
           2,
-          27.51891677
+          99422
         ],
         [
           3,
-          30.66890255
+          75841
         ],
         [
           4,
-          34.46732319
+          56292
         ],
         [
           5,
-          34.5356094
+          100470
         ],
         [
           6,
-          31.08945501
+          55575
         ],
         [
           7,
-          42.06125109
+          115298
         ],
         [
           8,
-          42.21253969
+          77778
         ],
         [
           9,
-          35.71741992
+          63532
         ],
         [
           10,
-          32.78383887
+          51788
         ],
         [
           11,
-          31.77311014
+          52273
         ],
         [
           12,
-          27.52403846
+          61193
         ],
         [
           13,
-          32.33905046
+          49702
         ],
         [
           14,
-          35.49929178
+          73498
         ],
         [
           15,
-          40.53087757
+          59376
         ],
         [
           16,
-          20.8028083
+          51788
         ],
         [
           17,
-          29.08976773
+          50044
         ],
         [
           18,
-          34.19883366
+          42281
         ],
         [
           19,
-          35.15381956
+          45955
         ],
         [
           20,
-          43.24555974
+          90865
         ],
         [
           30,
-          42.60504202
+          122319
         ]
       ]
     },
@@ -3549,7 +3549,7 @@
     },
     "type": "map",
     "inverted": false,
-    "renderTo": "container-6373"
+    "renderTo": "container-6394"
   },
   "title": {
     "style": {
@@ -3559,7 +3559,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Sesshaftigkeit nach Wohnviertel"
+    "text": "Reineinkommen nach Wohnviertel"
   },
   "subtitle": {
     "style": {
@@ -3568,7 +3568,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2016",
+    "text": "Stand: 2015",
     "align": "left"
   },
   "credits": {
@@ -3584,7 +3584,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EKartengrundlate: Geodaten Kanton Basel-Stadt"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik;\u003Cbr\u002F\u003EKartengrundlate: Geodaten Kanton Basel-Stadt"
   },
   "colorAxis": {
     "min": 0,
@@ -3596,16 +3596,42 @@
         "cursor": "default",
         "fontSize": "11px",
         "textOverflow": "none"
-      },
-      "formatter": function () {
-					return Highcharts.numberFormat((this.value),0); 
-				}
+      }
     },
     "marker": {
       "color": "black"
     },
-    "minColor": "#f4ebf3",
-    "maxColor": "#5b2659"
+    "dataClassColor": "category",
+    "dataClasses": [
+      {
+        "to": 13,
+        "color": "#D7E8D2",
+        "name": "&nbsp;\u003C&nbsp;13,0"
+      },
+      {
+        "from": 13,
+        "to": 14.9,
+        "color": "#73B97C",
+        "name": "13,0 − 14,9"
+      },
+      {
+        "from": 15,
+        "to": 16.9,
+        "color": "#68AB2B",
+        "name": "15,0 − 16,9"
+      },
+      {
+        "from": 17,
+        "to": 19.9,
+        "color": "#007A2F",
+        "name": "17,0 − 19,9"
+      },
+      {
+        "from": 20,
+        "color": "#0A3B19",
+        "name": "&nbsp;≥&nbsp;20.0"
+      }
+    ]
   },
   "mapNavigation": {
     "enabled": true,
@@ -3620,10 +3646,19 @@
     "floating": true,
     "title": {
       "style": {
-        "fontWeight": "normal",
-        "fontSize": "12px"
+        "fontWeight": " normal",
+        "fontSize": "11px"
       },
-      "text": "Seit mindestens 10 Jahren an der gleichen \u003Cbr\u003E Adresse lebende Personen in %"
+      "text": "Mittelwert pro Veranlagung \u003Cbr\u003E in Fr."
+    },
+    "useHTML": true,
+    "layout": "vertical",
+    "x": 0,
+    "y": -30,
+    "itemMarginBottom": 2,
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
     }
   },
   "tooltip": {
@@ -3634,20 +3669,17 @@
         		}
                 else {
                     //Wohnviertel
+                    var this_point_index = this.series.data.indexOf(this.point);
+                    var other_series_index = this.series.index == 0 ? 1 : 0; // assuming 2 series
+                    var other_series = args.chart.series[other_series_index];
+                    var other_point = other_series.data[this_point_index];
                     return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-                        this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value),0) + '</b><br/>';
+                        this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value*100),1) + '%</b><br/>' + 
+                        'Rang <b>' + other_point.value + '</b>';
                 }
             }
   },
   "exporting": {
-    "buttons": {
-      "customButton": {
-        "text": "Kategorische Legende",
-        "onclick": function () {
-                        onclick=window.open("https://stata-test-richtplan-larafaelivrin.c9users.io//chart-details.html?id=6385&indikatorensetView=true&suppressNumberInTitle=true");
-                    }
-      }
-    },
     "filename": ""
   }
 }

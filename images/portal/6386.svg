@@ -69,8 +69,8 @@
       </text>
     </g>
   </g>
-  <g class="highcharts-legend" transform="translate(253,216)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="222" height="124" visibility="visible"/>
+  <g class="highcharts-legend" transform="translate(330,216)">
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="145" height="124" visibility="visible"/>
     <g transform="translate(0,33)">
       <g>
         <g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" transform="translate(8,3)">
@@ -107,7 +107,7 @@
     </g>
     <g class="highcharts-label highcharts-legend-title" transform="translate(5,4)">
       <text x="3" style="font-size:11px;font-weight: normal;" y="14">
-        <tspan>Seit mindestens 10 Jahren an der gleichen</tspan><tspan x="0" dy="14">Adresse lebende Personen in %</tspan>
+        <tspan>Mittelwert pro Veranlagung</tspan><tspan x="0" dy="14">in Fr.</tspan>
       </text>
     </g>
   </g>

@@ -18583,7 +18583,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "",
 		"erlaeuterungen": "",
-		"template": "mappie001",
+		"template": "mappie002",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
