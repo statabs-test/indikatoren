@@ -3238,7 +3238,7 @@
       "tooltip": {
         "pointFormatter": function (){
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),3) + '</b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '</b><br/>';
 					}
       },
       "data": [
@@ -3699,7 +3699,7 @@
 	                        },
 	                        tooltip: {
 	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),3) + '</b><br/>';
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),0) + '</b><br/>';
 	                            }
 	                        }
 	                    };
@@ -3783,32 +3783,32 @@
     "dataClassColor": "category",
     "dataClasses": [
       {
-        "to": 299999,
+        "to": 13,
         "color": "#D7E8D2",
-        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\u003C&nbsp;300 000"
+        "name": "&nbsp;\u003C&nbsp;13,0"
       },
       {
-        "from": 300000,
-        "to": 399999,
+        "from": 13,
+        "to": 14.9,
         "color": "#73B97C",
-        "name": "300 000 − 399 999"
+        "name": "13,0 − 14,9"
       },
       {
-        "from": 400000,
-        "to": 499999,
+        "from": 15,
+        "to": 16.9,
         "color": "#68AB2B",
-        "name": "400 000 − 499 999"
+        "name": "15,0 − 16,9"
       },
       {
-        "from": 500000,
-        "to": 899999,
+        "from": 17,
+        "to": 19.9,
         "color": "#007A2F",
-        "name": "500 000 − 899 999"
+        "name": "17,0 − 19,9"
       },
       {
-        "from": 900000,
+        "from": 20,
         "color": "#0A3B19",
-        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;900 000"
+        "name": "&nbsp;≥&nbsp;20.0"
       }
     ]
   },
@@ -3832,7 +3832,7 @@
     },
     "useHTML": true,
     "layout": "vertical",
-    "x": -100,
+    "x": -140,
     "y": -30,
     "itemMarginBottom": 2,
     "symbolRadius": 0,
@@ -4090,7 +4090,8 @@
     				}).add();
                 },
     "addLegendLabel": function (chart, text, x, y, cssClass, useHtml){
-    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
+    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
+    				.attr({
     					zIndex: 6,
     					class: cssClass + ' pieLegend'
     				}).add();
