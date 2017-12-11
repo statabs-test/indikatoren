@@ -152,15 +152,16 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 	                //Add manually drawn legend
-	        		fn.addLegendTitle(chart, "Anteil unter <br> 20-Jähriger in %", 245, 210);
-	                fn.addLegendTitle(chart, "Anzahl unter <br> 20-Jähriger", 385, 210);
+	        		fn.addLegendTitle(chart, "Sozialhilfequote <br> in %", 245, 210);
+	                fn.addLegendTitle(chart, "Anzahl Sozialhilfe- <br> empfänger", 365, 210);
 	                
-	               	fn.addLegendCircle(chart, 393, 266, 0.5*pieSizeCatConfig[0].diameter, 'grey');
-	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 405, 255, true);
-	                fn.addLegendCircle(chart, 393, 285, 0.5*pieSizeCatConfig[1].diameter, 'grey');
-	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 405, 275, true);
-	                fn.addLegendCircle(chart, 393, 310, 0.5*pieSizeCatConfig[2].diameter, 'grey');
-					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 405, 300, true);
+	               	fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, 'grey');
+	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 385, 255, true);
+	                fn.addLegendCircle(chart, 373, 285, 0.5*pieSizeCatConfig[1].diameter, 'grey');
+	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 385, 275, true);
+	                fn.addLegendCircle(chart, 373, 310, 0.5*pieSizeCatConfig[2].diameter, 'grey');
+					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 385, 300, true);
+					
 					
 					//fn.addLegendSquare(chart, 565, 240, 10, '#7F5F1A');
 					//fn.addLegendLabel(chart, 'Zunahme', 580, 236);
