@@ -7,7 +7,7 @@ global geojson_wohnviertelEPSG2056
 		"legend": {
     		useHTML: true,
 			"title": {
-			"text": "Seit mindestens 10 Jahren an der gleichen <br> Adresse lebende Personen in %",
+			"text": "Mittelwert pro Veranlagung <br> in Fr.",
 				style: {'fontWeight':' normal'}
 			},
 			"layout": "vertical",
@@ -24,28 +24,28 @@ global geojson_wohnviertelEPSG2056
          colorAxis: {
             dataClassColor: 'category',
                    dataClasses: [{
-                to:26.99,
+                to:13.00,
                 color: '#D7E8D2',
-                name:  "&nbsp;<&nbsp;27,0"
+                name:  "&nbsp;<&nbsp;13,0"
             }, {
-                from: 27.0,
-                to: 29.9,
+                from: 13.0,
+                to: 14.9,
                 color: '#73B97C',
-                name: "27,0 − 29,9"
+                name: "13,0 − 14,9"
             }, {
-                from: 30.0,
-                to: 32.9,
+                from: 15.0,
+                to: 16.9,
                  color: '#68AB2B',
-                 name: "30,0 − 32,9"
+                 name: "15,0 − 16,9"
             },{
-                from: 33.0,
-                to: 35.9,
+                from: 17.0,
+                to: 19.9,
                  color: '#007A2F',
-                 name: "33,0 − 35,9"
+                 name: "17,0 − 19,9"
             },{
-                from: 36.0,
+                from: 20.0,
                 color: '#0A3B19',
-                name:  "&nbsp;≥&nbsp;36.0"
+                name:  "&nbsp;≥&nbsp;20.0"
             }], 
 		},
         "data": {

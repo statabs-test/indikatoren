@@ -238,28 +238,28 @@
   </g>
   <g class="highcharts-label" transform="translate(245,210)">
     <text x="3" style="font-size:12px;font-weight:bold;" y="15">
-      <tspan>Anteil unter</tspan><tspan x="3" dy="15">20-Jähriger in %</tspan>
+      <tspan>Sozialhilfequote</tspan><tspan x="3" dy="15">in %</tspan>
     </text>
   </g>
-  <g class="highcharts-label" transform="translate(385,210)">
+  <g class="highcharts-label" transform="translate(365,210)">
     <text x="3" style="font-size:12px;font-weight:bold;" y="15">
-      <tspan>Anzahl unter</tspan><tspan x="3" dy="15">20-Jähriger</tspan>
+      <tspan>Anzahl Sozialhilfe-</tspan><tspan x="3" dy="15">empfänger</tspan>
     </text>
   </g>
-  <circle cx="393" cy="266" r="1" fill="grey" stroke="grey" stroke-width="1" class="undefined pieLegend"/>
-  <g class="true pieLegend" transform="translate(405,255)">
+  <circle cx="373" cy="266" r="1" fill="grey" stroke="grey" stroke-width="1" class="undefined pieLegend"/>
+  <g class="true pieLegend" transform="translate(385,255)">
     <text x="3" y="15">
       <tspan>&amp;nbsp;&lt; 800</tspan>
     </text>
   </g>
-  <circle cx="393" cy="285" r="4" fill="grey" stroke="grey" stroke-width="1" class="undefined pieLegend"/>
-  <g class="true pieLegend" transform="translate(405,275)">
+  <circle cx="373" cy="285" r="4" fill="grey" stroke="grey" stroke-width="1" class="undefined pieLegend"/>
+  <g class="true pieLegend" transform="translate(385,275)">
     <text x="3" y="15">
       <tspan>800 − 1 599</tspan>
     </text>
   </g>
-  <circle cx="393" cy="310" r="8" fill="grey" stroke="grey" stroke-width="1" class="undefined pieLegend"/>
-  <g class="true pieLegend" transform="translate(405,300)">
+  <circle cx="373" cy="310" r="8" fill="grey" stroke="grey" stroke-width="1" class="undefined pieLegend"/>
+  <g class="true pieLegend" transform="translate(385,300)">
     <text x="3" y="15">
       <tspan>&amp;nbsp;≥ 10600</tspan>
     </text>

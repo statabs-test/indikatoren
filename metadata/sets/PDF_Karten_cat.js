@@ -1,5 +1,85 @@
 var indikatorensetData = [
 	{
+		"title": "Sesshaftigkeit nach Wohnviertel",
+		"subtitle": "Stand: 2016",
+		"kuerzel": "",
+		"kuerzelKunde": "",
+		"description": "Sesshaftigkeit nach Wohnviertel",
+		"id": 6385,
+		"thema": "01 Bevölkerung",
+		"unterthema": "",
+		"kennzahlenset": "PDF_Karten_cat",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Wohndauer"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "map002",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "_000",
+		"parentId": 6373,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Reinvermögen nach Wohnviertel",
+		"subtitle": "Stand: 2015",
+		"kuerzel": "",
+		"kuerzelKunde": "",
+		"description": "Reinvermögen nach Wohnviertel",
+		"id": 6386,
+		"thema": "01 Bevölkerung",
+		"unterthema": "",
+		"kennzahlenset": "PDF_Karten_cat",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Steuer"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "map001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "_000",
+		"parentId": 6374,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Steuerstatistik",
+			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
 		"title": "Unter 20-Jährige nach Wohnviertel",
 		"subtitle": "Stand: 2016",
 		"kuerzel": "",

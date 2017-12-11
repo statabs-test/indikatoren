@@ -43,5 +43,18 @@ global geojson_wohnviertelEPSG2056
 				}
 			}	
 		], 
+        exporting: {
+            buttons: {
+                customButton: {
+                    text: 'Kategorische Legende',
+                      onclick: function () {
+                        onclick=window.open("https://stata-test-richtplan-larafaelivrin.c9users.io//chart-details.html?id=6385&indikatorensetView=true&suppressNumberInTitle=true");
+                    }
+                    /*onclick: function () {
+                        alert('You pressed the button!');
+                    }*/
+                }
+            }
+        }
 	};
 }());

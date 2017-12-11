@@ -23,7 +23,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "",
 		"erlaeuterungen": "",
-		"template": "map001",
+		"template": "map002",
 		"option": "options001",
 		"visible": true,
 		"visibleInPortal": false,
