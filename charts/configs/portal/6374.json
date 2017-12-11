@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "wohnviertel_name",
+      "name": "MeanReinvermögen",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -3238,92 +3238,89 @@
       "data": [
         [
           1,
-          "Altstadt Grossbasel"
+          1015165
         ],
         [
           2,
-          "Iselin"
+          1392666
         ],
         [
           3,
-          "St. Johann"
+          435416
         ],
         [
           4,
-          "Altstadt Kleinbasel"
+          140160
         ],
         [
           5,
-          "Clara"
+          1033797
         ],
         [
           6,
-          "Wettstein"
+          145346
         ],
         [
           7,
-          "Hirzbrunnen"
+          2519406
         ],
         [
           8,
-          "Rosental"
+          413563
         ],
         [
           9,
-          "Matthäus"
+          229962
         ],
         [
           10,
-          "Klybeck"
+          130113
         ],
         [
           11,
-          "Kleinhüningen"
+          131943
         ],
         [
           12,
-          "Vorstädte"
+          249077
         ],
         [
           13,
-          "Riehen"
+          130164
         ],
         [
           14,
-          "Am Ring"
+          296022
         ],
         [
           15,
-          "Bettingen"
+          186072
         ],
         [
           16,
-          "Breite"
+          76964
         ],
         [
           17,
-          "St. Alban"
+          128623
         ],
         [
           18,
-          "Gundeldingen"
+          59248
         ],
         [
           19,
-          "Bruderholz"
+          68636
         ],
         [
           20,
-          "Bachletten"
+          642705
         ],
         [
           30,
-          "Gotthelf"
+          2359934
         ]
       ]
-    },
-    {
-      "visible": false
     },
     {
       "name": "Rhein",
@@ -3601,14 +3598,14 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-					return Highcharts.numberFormat((this.value*100),0)+'%'; 
+					return Highcharts.numberFormat((this.value/1000),0); 
 				}
     },
     "marker": {
       "color": "black"
     },
-    "minColor": "#eff6e9",
-    "maxColor": "#4b7b1f"
+    "minColor": "#f4ebf3",
+    "maxColor": "#5b2659"
   },
   "mapNavigation": {
     "enabled": true,
@@ -3625,7 +3622,8 @@
       "style": {
         "fontWeight": "normal",
         "fontSize": "11px"
-      }
+      },
+      "text": "in Fr."
     }
   },
   "tooltip": {
@@ -3636,13 +3634,8 @@
         		}
                 else {
                     //Wohnviertel
-                    var this_point_index = this.series.data.indexOf(this.point);
-                    var other_series_index = this.series.index == 0 ? 1 : 0; // assuming 2 series
-                    var other_series = args.chart.series[other_series_index];
-                    var other_point = other_series.data[this_point_index];
                     return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-                        this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value*100),1) + '%</b><br/>' + 
-                        'Rang <b>' + other_point.value + '</b>';
+                        this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value),0) + '</b><br/>';
                 }
             }
   },
