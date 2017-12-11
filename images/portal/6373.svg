@@ -94,13 +94,13 @@
               0
             </text>
             <text x="66.66666666666667" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="35" opacity="1">
-              0
+              20
             </text>
             <text x="133.33333333333334" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="35" opacity="1">
-              0
+              40
             </text>
-            <text x="196.9453125" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="35" opacity="1">
-              0
+            <text x="193.890625" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="35" opacity="1">
+              60
             </text>
           </g>
         </g>
@@ -112,7 +112,7 @@
       </text>
     </g>
   </g>
-  <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="410">
-    <tspan>Quelle:</tspan>
+  <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="390">
+    <tspan>Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;</tspan><tspan x="10" dy="13">Kartengrundlate: Geodaten Kanton Basel-Stadt</tspan>
   </text>
 </svg>

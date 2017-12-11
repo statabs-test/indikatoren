@@ -6,7 +6,7 @@
 "id":6381,
 "thema":"01 Bevölkerung",
 "unterthema":"",
-"kennzahlenset":"PDF Karten",
+"kennzahlenset":"PDF_Karten_cont",
 "raeumlicheGliederung":["Wohnviertel"],
 "aktualisierungsdatum":"",
 "schlagwort":["Ausland"],
@@ -20,11 +20,11 @@
 "template":"mappie001",
 "option":"options001",
 "visible":true,
-"visibleInPortal":true,
+"visibleInPortal":false,
 "orderKey":"_000",
 "parentId":null,
-"children":[],
+"children":["6393"],
 "renderLink":[],
-"quellenangabe":[],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Kartengrundlate: Geodaten Kanton Basel-Stadt"],
 "externalLinks":[""]
 }

@@ -3238,7 +3238,7 @@
       "tooltip": {
         "pointFormatter": function (){
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),0) + ' m² </b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),0) + '  </b><br/>';
 					}
       },
       "data": [
@@ -3659,7 +3659,7 @@
 					var pieSizeSeries = chart.series[1];
 					
 					//pie diameters in px
-					var maxPieDiameter = 15;
+					var maxPieDiameter = 25;
 
 					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
 					
@@ -3678,7 +3678,7 @@
 	                        },
 	                        tooltip: {
 	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),0) + ' m² </b><br/>';
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),0) + '  </b><br/>';
 	                            }
 	                        }
 	                    };
@@ -3688,15 +3688,15 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 	                
 					//pie values in legend
-	                var minValueInLegend = 3000; 
-	                var maxValueInLegend = 120000; 
+	                var minValueInLegend = 500; 
+	                var maxValueInLegend = 30000; 
 	                
                 	//Add manually drawn legend	
 	                fn.addLegendTitle(chart, pieSizeSeries.name, 265, 220);
 	                
-	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
+	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#7F5F1A');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 300, 245);
-	                fn.addLegendCircle(chart, 280, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
+	                fn.addLegendCircle(chart, 280, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#7F5F1A');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 300, 270);
 
 					//fn.addLegendSquare(chart, 270, 250, 10, '#7F5F1A');
@@ -3742,9 +3742,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -35
     },
-    "text": "Quelle: "
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EKartengrundlate: Geodaten Kanton Basel-Stadt"
   },
   "colorAxis": {
     "min": 0,
@@ -3758,7 +3758,7 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-					return Highcharts.numberFormat((this.value/1000),0); 
+					return Highcharts.numberFormat((this.value),0); 
 				}
     },
     "marker": {

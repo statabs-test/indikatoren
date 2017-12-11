@@ -386,7 +386,8 @@
     	                
     	                
                 addLegendLabel: function(chart, text, x, y, cssClass, useHtml){
-    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
+    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
+    				.attr({
     					zIndex: 6,
     					class: cssClass + ' pieLegend'
     				}).add();

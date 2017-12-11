@@ -71,9 +71,9 @@
       </text>
     </g>
   </g>
-  <g class="highcharts-legend" transform="translate(261,304)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="214" height="66" visibility="visible"/>
-    <g transform="translate(0,19)">
+  <g class="highcharts-legend" transform="translate(261,303)">
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="214" height="67" visibility="visible"/>
+    <g transform="translate(0,20)">
       <g>
         <g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined" transform="translate(8,3)">
           <rect x="0" y="4" width="200" height="12" fill="url(#c)"/>
@@ -105,7 +105,7 @@
       </g>
     </g>
     <g class="highcharts-label highcharts-legend-title" transform="translate(5,4)">
-      <text x="3" style="font-size:11px;font-weight:normal;" y="14">
+      <text x="3" style="font-size:12px;font-weight:normal;" y="15">
         <tspan>in tausend Einheiten</tspan>
       </text>
     </g>

@@ -6,7 +6,7 @@
 "id":6384,
 "thema":"01 Bevölkerung",
 "unterthema":"",
-"kennzahlenset":"PDF Karten",
+"kennzahlenset":"PDF_Karten_cont",
 "raeumlicheGliederung":["Wohnviertel"],
 "aktualisierungsdatum":"",
 "schlagwort":["Beschäftigte"],
@@ -20,11 +20,11 @@
 "template":"mappie001",
 "option":"options001",
 "visible":true,
-"visibleInPortal":true,
+"visibleInPortal":false,
 "orderKey":"_000",
 "parentId":null,
-"children":[],
+"children":["6396"],
 "renderLink":[],
-"quellenangabe":[],
+"quellenangabe":["Statistisches Amt Basel-Stadt","Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)","Kartengrundlate: Geodaten Kanton Basel-Stadt"],
 "externalLinks":[""]
 }

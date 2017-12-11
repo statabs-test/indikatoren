@@ -8,6 +8,7 @@ var indikatorensetNames = [
 	"Richtplan",
 	"Richtplan-Print",
 	"Legislaturplan (Print)",
-	"PDF Karten",
+	"PDF_Karten_cont",
+	"PDF_Karten_cat",
 	"Test"
 ];

@@ -18232,7 +18232,7 @@ var indikatoren = [
 		"id": 6373,
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "PDF Karten",
+		"kennzahlenset": "PDF_Karten_cont",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -18247,15 +18247,20 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "",
 		"erlaeuterungen": "",
-		"template": "map002",
+		"template": "map001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6385"
+		],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
+		],
 		"externalLinks": [
 			""
 		]
@@ -18269,7 +18274,7 @@ var indikatoren = [
 		"id": 6374,
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "PDF Karten",
+		"kennzahlenset": "PDF_Karten_cont",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -18284,16 +18289,19 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "",
 		"erlaeuterungen": "",
-		"template": "map002",
+		"template": "map001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6386"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Amt für Mobilität Basel-Stadt"
+			"Statistisches Amt Basel-Stadt, Steuerstatistik",
+			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
 		],
 		"externalLinks": [
 			""
@@ -18308,7 +18316,7 @@ var indikatoren = [
 		"id": 6375,
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "PDF Karten",
+		"kennzahlenset": "PDF_Karten_cont",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -18326,12 +18334,17 @@ var indikatoren = [
 		"template": "mappie001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6387"
+		],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
+		],
 		"externalLinks": [
 			""
 		]
@@ -18345,7 +18358,7 @@ var indikatoren = [
 		"id": 6376,
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "PDF Karten",
+		"kennzahlenset": "PDF_Karten_cont",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -18363,12 +18376,17 @@ var indikatoren = [
 		"template": "mappie001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6388"
+		],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
+		],
 		"externalLinks": [
 			""
 		]
@@ -18382,7 +18400,7 @@ var indikatoren = [
 		"id": 6377,
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "PDF Karten",
+		"kennzahlenset": "PDF_Karten_cont",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -18400,12 +18418,17 @@ var indikatoren = [
 		"template": "mappie001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6389"
+		],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
+			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
+		],
 		"externalLinks": [
 			""
 		]
@@ -18419,7 +18442,7 @@ var indikatoren = [
 		"id": 6378,
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "PDF Karten",
+		"kennzahlenset": "PDF_Karten_cont",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -18437,12 +18460,17 @@ var indikatoren = [
 		"template": "mappie001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6390"
+		],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
+			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
+		],
 		"externalLinks": [
 			""
 		]
@@ -18456,7 +18484,7 @@ var indikatoren = [
 		"id": 6379,
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "PDF Karten",
+		"kennzahlenset": "PDF_Karten_cont",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -18474,12 +18502,17 @@ var indikatoren = [
 		"template": "mappie001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6391"
+		],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung",
+			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
+		],
 		"externalLinks": [
 			""
 		]
@@ -18493,7 +18526,7 @@ var indikatoren = [
 		"id": 6380,
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "PDF Karten",
+		"kennzahlenset": "PDF_Karten_cont",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -18511,12 +18544,17 @@ var indikatoren = [
 		"template": "mappie001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6392"
+		],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik",
+			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
+		],
 		"externalLinks": [
 			""
 		]
@@ -18530,7 +18568,7 @@ var indikatoren = [
 		"id": 6381,
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "PDF Karten",
+		"kennzahlenset": "PDF_Karten_cont",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -18548,12 +18586,17 @@ var indikatoren = [
 		"template": "mappie001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6393"
+		],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
+		],
 		"externalLinks": [
 			""
 		]
@@ -18567,7 +18610,7 @@ var indikatoren = [
 		"id": 6382,
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "PDF Karten",
+		"kennzahlenset": "PDF_Karten_cont",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -18582,15 +18625,20 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "",
 		"erlaeuterungen": "",
-		"template": "map002",
+		"template": "map001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6394"
+		],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Steuerstatistik",
+			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
+		],
 		"externalLinks": [
 			""
 		]
@@ -18604,7 +18652,7 @@ var indikatoren = [
 		"id": 6383,
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "PDF Karten",
+		"kennzahlenset": "PDF_Karten_cont",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -18622,12 +18670,18 @@ var indikatoren = [
 		"template": "mappie001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6395"
+		],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt",
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
+			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
+		],
 		"externalLinks": [
 			""
 		]
@@ -18641,7 +18695,7 @@ var indikatoren = [
 		"id": 6384,
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "PDF Karten",
+		"kennzahlenset": "PDF_Karten_cont",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -18659,12 +18713,58 @@ var indikatoren = [
 		"template": "mappie001",
 		"option": "options001",
 		"visible": true,
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "_000",
 		"parentId": null,
+		"children": [
+			"6396"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt",
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
+			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		]
+	},
+	{
+		"title": "Unter 20-Jährige nach Wohnviertel",
+		"subtitle": "Stand: 2016",
+		"kuerzel": "",
+		"kuerzelKunde": "",
+		"description": "Unter 20-Jährige nach Wohnviertel",
+		"id": 6387,
+		"thema": "01 Bevölkerung",
+		"unterthema": "",
+		"kennzahlenset": "PDF_Karten_cat",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Gebäude"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "mappie001",
+		"option": "options001",
+		"visible": true,
+		"visibleInPortal": false,
+		"orderKey": "_000",
+		"parentId": 6375,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
+		],
 		"externalLinks": [
 			""
 		]
