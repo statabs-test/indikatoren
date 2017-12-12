@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 208">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 208">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.0.3
   </desc>
   <defs>
     <clipPath>
@@ -37,27 +37,27 @@
     <path fill="none" class="highcharts-axis-line" d="M 38 48 L 38 179"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(38,48) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-line-series " transform="translate(38,48) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 1.9705882352924 65.5 L 26.602941176469 58.95 L 51.235294117646 55.675 L 75.867647058823 58.95 L 100.5 52.400000000000006 L 125.13235294118 45.85000000000001 L 149.76470588235 45.85000000000001 L 174.39705882353 49.125 L 199.02941176471 42.575" class="highcharts-graph" stroke="#B00000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(38,48) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(38,48) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-0 highcharts-line-series " transform="translate(38,48) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-line-series " transform="translate(38,48) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 1.9705882352924 36.025000000000006 L 26.602941176469 22.924999999999997 L 51.235294117646 13.100000000000009 L 75.867647058823 13.100000000000009 L 100.5 13.100000000000009 L 125.13235294118 9.825000000000003 L 149.76470588235 13.100000000000009 L 174.39705882353 22.924999999999997 L 199.02941176471 13.100000000000009" class="highcharts-graph" stroke="#662673" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(38,48) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined " transform="translate(38,48) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-1 highcharts-line-series " transform="translate(38,48) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-2 highcharts-line-series " transform="translate(38,48) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 1.9705882352924 45.85000000000001 L 26.602941176469 39.3 L 51.235294117646 36.025000000000006 L 75.867647058823 36.025000000000006 L 100.5 36.025000000000006 L 125.13235294118 32.75 L 149.76470588235 32.75 L 174.39705882353 36.025000000000006 L 199.02941176471 29.47500000000001" class="highcharts-graph" stroke="#008AC3" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-2 highcharts-line-series highcharts-color-undefined " transform="translate(38,48) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-3 highcharts-line-series highcharts-color-undefined " transform="translate(38,48) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-2 highcharts-line-series " transform="translate(38,48) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-3 highcharts-line-series " transform="translate(38,48) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 1.9705882352924 75.325 L 26.602941176469 65.5 L 51.235294117646 32.75 L 75.867647058823 29.47500000000001 L 100.5 58.95 L 125.13235294118 72.05000000000001 L 149.76470588235 72.05000000000001 L 174.39705882353 72.05000000000001 L 199.02941176471 65.5" class="highcharts-graph" stroke="#007A2F" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-3 highcharts-line-series highcharts-color-undefined " transform="translate(38,48) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-3 highcharts-line-series " transform="translate(38,48) scale(1 1)" clip-path="none"/>
   </g>
   <text x="3" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:10px;font-weight:bold;fill:#000000;" y="14">
     <tspan>Jährlich durch Stau generierte Verzögerungszeit</tspan>
   </text>
-  <text x="3" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:10px;font-weight:normal;font-family:arial;fill:#000000;" y="32">
+  <text x="3" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:10px;font-weight:normal;font-family:Arial;fill:#000000;" y="32">
     <tspan>Basel im nationalen Vergleich</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(251,7)">

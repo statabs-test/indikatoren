@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 208">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 208">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.0.3
   </desc>
   <defs>
     <clipPath>
@@ -41,10 +41,10 @@
     <path fill="none" class="highcharts-axis-line" d="M 35 73 L 35 179"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(35,73) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-line-series " transform="translate(35,73) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 2.7647058823549 89.919164 L 42.260504201682 91.492416 L 62.008403361346 95.701676 L 81.756302521009 92.117604 L 121.25210084034 91.95097199999998 L 160.74789915966 90.670068 L 200.24369747899 89.345916 L 239.73949579832 87.818668 L 279.23529411765 89.09384800000001" class="highcharts-graph" stroke="#B00000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(35,73) scale(1 1)" clip-path="none">
+    <g class="highcharts-markers highcharts-series-0 highcharts-line-series " transform="translate(35,73) scale(1 1)" clip-path="none">
       <path fill="#B00000" d="M 6 90 A 4 4 0 1 1 5.999998000000167 89.99600000066667 Z" class="highcharts-point"/>
       <path fill="#B00000" d="M 46 91 A 4 4 0 1 1 45.99999800000017 90.99600000066667 Z" class="highcharts-point"/>
       <path fill="#B00000" d="M 66 96 A 4 4 0 1 1 65.99999800000016 95.99600000066667 Z" class="highcharts-point"/>
@@ -55,10 +55,10 @@
       <path fill="#B00000" d="M 243 88 A 4 4 0 1 1 242.99999800000018 87.99600000066667 Z" class="highcharts-point"/>
       <path fill="#B00000" d="M 283 89 A 4 4 0 1 1 282.9999980000002 88.99600000066667 Z" class="highcharts-point"/>
     </g>
-    <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(35,73) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-1 highcharts-line-series " transform="translate(35,73) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 2.7647058823549 95.01479599999999 L 42.260504201682 97.55879599999999 L 62.008403361346 101.938716 L 81.756302521009 98.054452 L 121.25210084034 96.728604 L 160.74789915966 94.30523199999999 L 200.24369747899 92.59439199999998 L 239.73949579832 91.233564 L 279.23529411765 92.88037999999999" class="highcharts-graph" stroke="#007A2F" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(35,73) scale(1 1)" clip-path="none">
+    <g class="highcharts-markers highcharts-series-1 highcharts-line-series " transform="translate(35,73) scale(1 1)" clip-path="none">
       <path fill="#007A2F" d="M 6 95 A 4 4 0 1 1 5.999998000000167 94.99600000066667 Z" class="highcharts-point"/>
       <path fill="#007A2F" d="M 46 98 A 4 4 0 1 1 45.99999800000017 97.99600000066667 Z" class="highcharts-point"/>
       <path fill="#007A2F" d="M 66 102 A 4 4 0 1 1 65.99999800000016 101.99600000066667 Z" class="highcharts-point"/>
@@ -69,10 +69,10 @@
       <path fill="#007A2F" d="M 243 91 A 4 4 0 1 1 242.99999800000018 90.99600000066667 Z" class="highcharts-point"/>
       <path fill="#007A2F" d="M 283 93 A 4 4 0 1 1 282.9999980000002 92.99600000066667 Z" class="highcharts-point"/>
     </g>
-    <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined " transform="translate(35,73) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-2 highcharts-line-series " transform="translate(35,73) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 2.7647058823549 91.18607599999999 L 42.260504201682 92.08983199999999 L 62.008403361346 94.34233199999998 L 81.756302521009 89.433896 L 121.25210084034 89.66476400000002 L 160.74789915966 90.57742400000001 L 200.24369747899 89.193488 L 239.73949579832 88.402728 L 279.23529411765 88.041692" class="highcharts-graph" stroke="#4f81bd" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-2 highcharts-line-series highcharts-color-undefined " transform="translate(35,73) scale(1 1)" clip-path="none">
+    <g class="highcharts-markers highcharts-series-2 highcharts-line-series " transform="translate(35,73) scale(1 1)" clip-path="none">
       <path fill="#4f81bd" d="M 6 91 A 4 4 0 1 1 5.999998000000167 90.99600000066667 Z" class="highcharts-point"/>
       <path fill="#4f81bd" d="M 46 92 A 4 4 0 1 1 45.99999800000017 91.99600000066667 Z" class="highcharts-point"/>
       <path fill="#4f81bd" d="M 66 94 A 4 4 0 1 1 65.99999800000016 93.99600000066667 Z" class="highcharts-point"/>
@@ -83,10 +83,10 @@
       <path fill="#4f81bd" d="M 243 88 A 4 4 0 1 1 242.99999800000018 87.99600000066667 Z" class="highcharts-point"/>
       <path fill="#4f81bd" d="M 283 88 A 4 4 0 1 1 282.9999980000002 87.99600000066667 Z" class="highcharts-point"/>
     </g>
-    <g class="highcharts-series highcharts-series-3 highcharts-line-series highcharts-color-undefined " transform="translate(35,73) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-3 highcharts-line-series " transform="translate(35,73) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 2.7647058823549 77.13916799999998 L 42.260504201682 79.370256 L 62.008403361346 84.575916 L 81.756302521009 80.42008 L 121.25210084034 81.94817599999999 L 160.74789915966 81.824156 L 200.24369747899 79.39717999999999 L 239.73949579832 77.59306 L 279.23529411765 79.31110799999999" class="highcharts-graph" stroke="#2B0099" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-3 highcharts-line-series highcharts-color-undefined " transform="translate(35,73) scale(1 1)" clip-path="none">
+    <g class="highcharts-markers highcharts-series-3 highcharts-line-series " transform="translate(35,73) scale(1 1)" clip-path="none">
       <path fill="#2B0099" d="M 6 77 A 4 4 0 1 1 5.999998000000167 76.99600000066667 Z" class="highcharts-point"/>
       <path fill="#2B0099" d="M 46 79 A 4 4 0 1 1 45.99999800000017 78.99600000066667 Z" class="highcharts-point"/>
       <path fill="#2B0099" d="M 66 85 A 4 4 0 1 1 65.99999800000016 84.99600000066667 Z" class="highcharts-point"/>
@@ -97,27 +97,27 @@
       <path fill="#2B0099" d="M 243 78 A 4 4 0 1 1 242.99999800000018 77.99600000066667 Z" class="highcharts-point"/>
       <path fill="#2B0099" d="M 283 79 A 4 4 0 1 1 282.9999980000002 78.99600000066667 Z" class="highcharts-point"/>
     </g>
-    <g class="highcharts-series highcharts-series-4 highcharts-line-series highcharts-color-undefined " transform="translate(35,73) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-4 highcharts-line-series " transform="translate(35,73) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 2.7647058823549 49.584256 L 42.260504201682 53.20882 L 62.008403361346 68.06790000000001 L 81.756302521009 65.686292 L 121.25210084034 69.61846799999998 L 160.74789915966 31.152128000000005 L 200.24369747899 29.74508399999999 L 239.73949579832 31.29204800000001 L 279.23529411765 32.46037999999999" class="highcharts-graph" stroke="#E64900" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-4 highcharts-line-series highcharts-color-undefined " transform="translate(35,73) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-5 highcharts-line-series highcharts-color-undefined " transform="translate(35,73) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-4 highcharts-line-series " transform="translate(35,73) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-5 highcharts-line-series " transform="translate(35,73) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 2.7647058823549 88.04762799999999 L 42.260504201682 96.75446800000002 L 62.008403361346 105.520032 L 81.756302521009 103.48483199999998 L 121.25210084034 95.73156800000001 L 160.74789915966 64.38991200000001 L 200.24369747899 60.09903200000001 L 239.73949579832 53.0954 L 279.23529411765 61.72719200000001" class="highcharts-graph" stroke="#68AB2B" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-5 highcharts-line-series highcharts-color-undefined " transform="translate(35,73) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-6 highcharts-line-series highcharts-color-undefined " transform="translate(35,73) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-5 highcharts-line-series " transform="translate(35,73) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-6 highcharts-line-series " transform="translate(35,73) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 2.7647058823549 53.09221999999998 L 42.260504201682 48.115307999999985 L 62.008403361346 56.794376 L 81.756302521009 58.11428800000001 L 121.25210084034 58.851623999999994 L 160.74789915966 27.831148000000013 L 200.24369747899 29.714556 L 239.73949579832 26.395695999999973 L 279.23529411765 25.826688000000004" class="highcharts-graph" stroke="#008AC3" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-6 highcharts-line-series highcharts-color-undefined " transform="translate(35,73) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-7 highcharts-line-series highcharts-color-undefined " transform="translate(35,73) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-6 highcharts-line-series " transform="translate(35,73) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-7 highcharts-line-series " transform="translate(35,73) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 2.7647058823549 17.055611999999982 L 42.260504201682 27.260231999999988 L 62.008403361346 36.628936000000024 L 81.756302521009 37.97534800000001 L 121.25210084034 41.75106800000003 L 160.74789915966 4.180640000000011 L 200.24369747899 2.919452000000021 L 239.73949579832 3.3900919999999815 L 279.23529411765 5.177887999999982" class="highcharts-graph" stroke="#B375AB" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-7 highcharts-line-series highcharts-color-undefined " transform="translate(35,73) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-7 highcharts-line-series " transform="translate(35,73) scale(1 1)" clip-path="none"/>
   </g>
   <text x="3" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:10px;font-weight:bold;fill:#000000;" y="14">
     <tspan>Globale und kontinentale Erreichbarkeit</tspan>
   </text>
-  <text x="3" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:10px;font-weight:normal;font-family:arial;fill:#000000;" y="32">
+  <text x="3" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:10px;font-weight:normal;font-family:Arial;fill:#000000;" y="32">
     <tspan>Stadt Basel im nationalen Vergleich</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(33,7)">
