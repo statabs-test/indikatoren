@@ -82,7 +82,7 @@
             "title": {
                 "style": {
                     "fontWeight": "normal", 
-                    "fontSize": "12px"
+                    "fontSize": "11px"
                 }
             }
     	},

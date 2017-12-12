@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 208">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 208">
   <desc>
-    Created with Highstock 6.0.3
+    Created with Highstock 5.0.14
   </desc>
   <defs>
     <clipPath>
@@ -43,10 +43,10 @@
     <path fill="none" class="highcharts-axis-line" d="M 35 48 L 35 167"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-line-series " transform="translate(35,48) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(35,48) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 2.7647058823536 95.2 L 16.588235294118 97.58 L 30.411764705883 97.58 L 44.235294117647 94.01 L 58.058823529412 91.63 L 71.882352941177 82.11 L 85.705882352941 73.78 L 99.529411764706 67.83000000000001 L 113.35294117647 61.88 L 127.17647058824 53.55 L 141 47.60000000000001 L 154.82352941176 36.89 L 168.64705882353 24.99000000000001 L 182.47058823529 20.230000000000004 L 196.29411764706 22.61 L 210.11764705882 20.230000000000004 L 223.94117647059 15.469999999999999 L 237.76470588235 13.090000000000003 L 251.58823529412 15.469999999999999 L 265.41176470588 14.280000000000001 L 279.23529411765 11.900000000000006" class="highcharts-graph" stroke="#008AC3" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-line-series " transform="translate(35,48) scale(1 1)" clip-path="none">
+    <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(35,48) scale(1 1)" clip-path="none">
       <path fill="#008AC3" d="M 6 95 A 4 4 0 1 1 5.999998000000167 94.99600000066667 Z" class="highcharts-point"/>
       <path fill="#008AC3" d="M 20 98 A 4 4 0 1 1 19.99999800000017 97.99600000066667 Z" class="highcharts-point"/>
       <path fill="#008AC3" d="M 34 98 A 4 4 0 1 1 33.99999800000017 97.99600000066667 Z" class="highcharts-point"/>
@@ -69,10 +69,10 @@
       <path fill="#008AC3" d="M 269 14 A 4 4 0 1 1 268.9999980000002 13.996000000666664 Z" class="highcharts-point"/>
       <path fill="#008AC3" d="M 283 12 A 4 4 0 1 1 282.9999980000002 11.996000000666664 Z" class="highcharts-point"/>
     </g>
-    <g class="highcharts-series highcharts-series-1 highcharts-line-series " transform="translate(35,48) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(35,48) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 2.7647058823536 95.2 L 16.588235294118 89.25 L 30.411764705883 88.06 L 44.235294117647 88.06 L 58.058823529412 89.25 L 71.882352941177 83.30000000000001 L 85.705882352941 71.4 L 99.529411764706 76.16 L 113.35294117647 74.97 L 127.17647058824 77.35 L 141 72.59 L 154.82352941176 71.4 L 168.64705882353 33.32000000000001 L 182.47058823529 59.5 L 196.29411764706 76.16 L 210.11764705882 65.45 L 223.94117647059 65.45 L 237.76470588235 54.74000000000001 L 251.58823529412 53.55 L 265.41176470588 47.60000000000001 L 279.23529411765 39.27000000000001" class="highcharts-graph" stroke="#007A2F" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-1 highcharts-line-series " transform="translate(35,48) scale(1 1)" clip-path="none">
+    <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(35,48) scale(1 1)" clip-path="none">
       <path fill="#007A2F" d="M 6 95 A 4 4 0 1 1 5.999998000000167 94.99600000066667 Z" class="highcharts-point"/>
       <path fill="#007A2F" d="M 20 89 A 4 4 0 1 1 19.99999800000017 88.99600000066667 Z" class="highcharts-point"/>
       <path fill="#007A2F" d="M 34 88 A 4 4 0 1 1 33.99999800000017 87.99600000066667 Z" class="highcharts-point"/>
@@ -99,7 +99,7 @@
   <text x="3" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:10px;font-weight:bold;fill:#000000;" y="14">
     <tspan>Kantonales BIP im Vergleich zu den Staatsausgaben</tspan>
   </text>
-  <text x="3" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:10px;font-weight:normal;font-family:Arial;fill:#000000;" y="32">
+  <text x="3" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:10px;font-weight:normal;font-family:arial;fill:#000000;" y="32">
     <tspan>indexiert (1995 = 100)</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(27,7)">

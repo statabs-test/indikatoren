@@ -1,5 +1,6 @@
 var fs = require("fs");
 var glob = require("glob");
+var path = require("path");
 var indikatorensets = {};
 var indikatorensetNames = [];
 
@@ -13,6 +14,16 @@ files.forEach(function(filepath){
             indikator.orderKey = indikator.kuerzelKunde;
         }
         console.log('Adding chart ' + indikator.id + ' to Indikatorenset ' + indikator.kennzahlenset + '...');
+        //clean up
+         delete indikator.visible;
+         delete indikator.visibleInPortal;
+         delete indikator.option;        
+
+	    //retrieve id from filename instead of from file contents
+	    var idFromFileName = path.basename(filepath, path.extname(filepath));
+        delete indikator.id;
+        indikator.id = parseInt(idFromFileName, 10);
+         
         saveToIndikatorensetJson(indikator.id, indikator, console);
     }
     else {

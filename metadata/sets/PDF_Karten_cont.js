@@ -5,7 +5,6 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Sesshaftigkeit nach Wohnviertel",
-		"id": 6373,
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
 		"kennzahlenset": "PDF_Karten_cont",
@@ -24,9 +23,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "",
 		"template": "map002",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": false,
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [
@@ -39,7 +35,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6373
 	},
 	{
 		"title": "Reinvermögen nach Wohnviertel",
@@ -47,7 +44,6 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Reinvermögen nach Wohnviertel",
-		"id": 6374,
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
 		"kennzahlenset": "PDF_Karten_cont",
@@ -66,9 +62,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "",
 		"template": "map001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": false,
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [
@@ -81,7 +74,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6374
 	},
 	{
 		"title": "Unter 20-Jährige nach Wohnviertel",
@@ -89,7 +83,6 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Unter 20-Jährige nach Wohnviertel",
-		"id": 6375,
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
 		"kennzahlenset": "PDF_Karten_cont",
@@ -108,9 +101,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "",
 		"template": "mappie001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": false,
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [
@@ -123,7 +113,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6375
 	},
 	{
 		"title": "Über 64-Jährige nach Wohnviertel",
@@ -131,7 +122,6 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Über 64-Jährige nach Wohnviertel",
-		"id": 6376,
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
 		"kennzahlenset": "PDF_Karten_cont",
@@ -150,9 +140,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "",
 		"template": "mappie001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": false,
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [
@@ -165,7 +152,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6376
 	},
 	{
 		"title": "Gebäudedichte nach Wohnviertel",
@@ -173,7 +161,6 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Gebäudedichte nach Wohnviertel",
-		"id": 6377,
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
 		"kennzahlenset": "PDF_Karten_cont",
@@ -192,9 +179,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "",
 		"template": "mappie001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": false,
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [
@@ -207,7 +191,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6377
 	},
 	{
 		"title": "Wohnungsdichte nach Wohnviertel",
@@ -215,7 +200,6 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Wohnungsdichte nach Wohnviertel",
-		"id": 6378,
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
 		"kennzahlenset": "PDF_Karten_cont",
@@ -234,9 +218,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "",
 		"template": "mappie001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": false,
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [
@@ -249,7 +230,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6378
 	},
 	{
 		"title": "Leerwohnungen nach Wohnviertel",
@@ -257,7 +239,6 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Leerwohnungen nach Wohnviertel",
-		"id": 6379,
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
 		"kennzahlenset": "PDF_Karten_cont",
@@ -276,9 +257,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "",
 		"template": "mappie001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": false,
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [
@@ -291,7 +269,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6379
 	},
 	{
 		"title": "Sozialhilfe nach Wohnviertel",
@@ -299,7 +278,6 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Sozialhilfe nach Wohnviertel",
-		"id": 6380,
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
 		"kennzahlenset": "PDF_Karten_cont",
@@ -318,9 +296,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "",
 		"template": "mappie001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": false,
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [
@@ -333,7 +308,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6380
 	},
 	{
 		"title": "Ausländische Bevökerung nach Wohnviertel",
@@ -341,7 +317,6 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Ausländische Bevökerung nach Wohnviertel",
-		"id": 6381,
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
 		"kennzahlenset": "PDF_Karten_cont",
@@ -360,9 +335,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "",
 		"template": "mappie002",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": false,
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [
@@ -375,7 +347,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6381
 	},
 	{
 		"title": "Reineinkommen nach Wohnviertel",
@@ -383,7 +356,6 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Reineinkommen nach Wohnviertel",
-		"id": 6382,
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
 		"kennzahlenset": "PDF_Karten_cont",
@@ -402,9 +374,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "",
 		"template": "map001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": false,
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [
@@ -417,7 +386,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6382
 	},
 	{
 		"title": "Arbeitsstätten nach Wohnviertel",
@@ -425,7 +395,6 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Arbeitsstätten nach Wohnviertel",
-		"id": 6383,
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
 		"kennzahlenset": "PDF_Karten_cont",
@@ -444,9 +413,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "",
 		"template": "mappie001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": false,
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [
@@ -460,7 +426,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6383
 	},
 	{
 		"title": "Beschäftigte nach Wohnviertel",
@@ -468,7 +435,6 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Beschäftigte nach Wohnviertel",
-		"id": 6384,
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
 		"kennzahlenset": "PDF_Karten_cont",
@@ -487,9 +453,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "",
 		"template": "mappie001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": false,
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [
@@ -503,6 +466,7 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6384
 	}
 ];
