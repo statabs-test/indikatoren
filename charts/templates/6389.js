@@ -26,28 +26,28 @@
          colorAxis: {
             dataClassColor: 'category',
                    dataClasses: [{
-                to:13.00,
+                to:4.999,
                 color: '#D7E8D2',
-                name:  "&nbsp;<&nbsp;13,0"
+                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<&nbsp;&nbsp;&nbsp;5,0"
             }, {
-                from: 13.0,
-                to: 14.9,
+                from: 5,
+                to: 7.4999,
                 color: '#73B97C',
-                name: "13,0 − 14,9"
+                name: "&nbsp;&nbsp;5,0 −&nbsp;&nbsp;&nbsp;7,4"
             }, {
-                from: 15.0,
-                to: 16.9,
+                from: 7.5,
+                to: 9.999,
                  color: '#68AB2B',
-                 name: "15,0 − 16,9"
+                 name: "&nbsp;&nbsp;7,5 −&nbsp;&nbsp;&nbsp;9,9"
             },{
-                from: 17.0,
-                to: 19.9,
+                from: 10,
+                to: 12.499,
                  color: '#007A2F',
-                 name: "17,0 − 19,9"
+                 name: "10,0 − 12,4"
             },{
-                from: 20.0,
+                from: 12.5,
                 color: '#0A3B19',
-                name:  "&nbsp;≥&nbsp;20.0"
+                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;12,5"
             }], 
         },
         "data": {
@@ -108,20 +108,20 @@
 					var pieSizeCatConfig = 
 					[
 						{
-							name: '&nbsp;< 800',
+							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;&nbsp;&nbsp; 500',
 							from: 0,
-							to: 799, 
+							to: 499, 
 							diameter: 2
 						},
 						{
-							name: ' 800 − 1 599',
-							from: 800,
-							to: 1599,
+							name: ' 500 −&nbsp;&nbsp;&nbsp; 999',
+							from: 500,
+							to: 999,
 							diameter: 8
 						},
 						{
-							name: '&nbsp;≥  10600',
-							from: 1600,							
+							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥  1 000',
+							from: 1000,							
 							to: 1000000000,
 							diameter: 16
 						}
