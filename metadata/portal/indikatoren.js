@@ -9303,7 +9303,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "",
 		"erlaeuterungen": "",
-		"template": "map001",
+		"template": "map002",
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [
@@ -9623,7 +9623,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "",
 		"erlaeuterungen": "",
-		"template": "map001",
+		"template": "map002",
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [

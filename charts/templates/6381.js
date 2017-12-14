@@ -7,6 +7,8 @@
 
     return {
     	"legend": {
+    		"x": -25,
+			"y": 0,
 			"title": {
 				"text": ""
 			}
@@ -152,24 +154,26 @@
 	                var maxValueInLegend = 0.1; 
 	                
                 	//Add manually drawn legend	
-	                fn.addLegendTitle(chart,"Anteil Zugezogene nach Zuzugsland", 260, 215);
+	                fn.addLegendTitle(chart,"Anteil Zugezogene nach Zuzugsland", 240, 215);
 	                
 	                //fn.addLegendCircle(chart, 410, 275, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
 	                //fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),3,","," "), 430, 265);
 	                //fn.addLegendCircle(chart, 410, 300, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
 	                //fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),2,"."," "), 430, 290);
 
-					fn.addLegendSquare(chart, 270, 265, 10, 'red');
-					fn.addLegendLabel(chart, 'Schweiz', 290, 260);
-					fn.addLegendSquare(chart, 270, 285, 10, 'blue');
-					fn.addLegendLabel(chart, 'Ausland', 290, 280);
-					fn.addLegendSquare(chart, 270, 285, 10, 'blue');
-					fn.addLegendLabel(chart, 'Ausland', 290, 280);
-					fn.addLegendSquare(chart, 270, 285, 10, 'blue');
-					fn.addLegendLabel(chart, 'Ausland', 290, 280);
-					fn.addLegendSquare(chart, 270, 285, 10, 'blue');
-					fn.addLegendLabel(chart, 'Ausland', 290, 280);
-					fn.addLegendLabelbold(chart, 'Anzahl Zugezogene pro 100 Einwohner', 260, 305);
+					fn.addLegendSquare(chart, 245, 240, 10, 'red');
+					fn.addLegendLabel(chart, 'Deutschland', 255, 234);
+					fn.addLegendSquare(chart, 245, 260, 10, 'blue');
+					fn.addLegendLabel(chart, 'Italien', 255, 254);
+					fn.addLegendSquare(chart, 245, 280, 10, 'blue');
+					fn.addLegendLabel(chart, 'Spanien', 255, 274);
+					fn.addLegendSquare(chart, 330, 240, 10, 'yellow');
+					fn.addLegendLabel(chart, 'Übrige', 340, 234);
+					fn.addLegendSquare(chart, 330, 260, 10, 'yellow');
+					fn.addLegendLabel(chart, 'Türkei', 340, 254);
+					fn.addLegendSquare(chart, 330, 280, 10, 'yellow');
+					fn.addLegendLabel(chart, 'Serbien, Montenegro, <br> Kosovo', 340, 274);
+					fn.addLegendLabelbold(chart, 'Anzahl Zugezogene pro 100 Einwohner', 240, 307);
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
