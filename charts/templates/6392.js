@@ -28,7 +28,7 @@
                    dataClasses: [{
                 to:1.90,
                 color: '#D7E8D2',
-                name:  "&nbsp;<&nbsp;2,0"
+                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;2,0"
             }, {
                 from: 2.0,
                 to: 3.9,
@@ -47,7 +47,7 @@
             },{
                 from: 8.0,
                 color: '#0A3B19',
-                name:  "&nbsp;≥&nbsp;8,0"
+                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;8,0"
             }], 
         },
         "data": {
@@ -108,7 +108,7 @@
 					var pieSizeCatConfig = 
 					[
 						{
-							name: '&nbsp;< 250',
+							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< 250',
 							from: 0,
 							to: 250, 
 							diameter: 2
@@ -120,7 +120,7 @@
 							diameter: 8
 						},
 						{
-							name: '&nbsp;≥  500',
+							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥  500',
 							from: 500,							
 							to: 1000000000,
 							diameter: 16
