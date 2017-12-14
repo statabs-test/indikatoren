@@ -5,7 +5,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.5.06011",
 		"kuerzelKunde": "1-1",
 		"description": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
-		"id": 6011,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Wanderungen",
@@ -37,7 +36,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6011
 	},
 	{
 		"title": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
@@ -45,7 +45,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.5.06012",
 		"kuerzelKunde": "1-2",
 		"description": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
-		"id": 6012,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Wanderungen",
@@ -78,7 +77,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6012
 	},
 	{
 		"title": "Aus dem Ausland Zugezogene nach Zuzugsland",
@@ -86,7 +86,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.5.06013",
 		"kuerzelKunde": "1-3",
 		"description": "Aus dem Ausland Zugezogene nach Zuzugsland",
-		"id": 6013,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Wanderungen",
@@ -118,7 +117,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6013
 	},
 	{
 		"title": "Zugezogene nach Zuzugsland, bei denen die Staatsangehörigkeit dem Zuzugsland entspricht",
@@ -126,7 +126,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.5.06016",
 		"kuerzelKunde": "1-6",
 		"description": "Zugezogene nach Zuzugsland, bei denen die Staatsangehörigkeit dem Zuzugsland entspricht",
-		"id": 6016,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Wanderungen",
@@ -158,7 +157,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6016
 	},
 	{
 		"title": "Zugezogene nach Zuzugsland und Geschlecht",
@@ -166,7 +166,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.5.06017",
 		"kuerzelKunde": "1-7",
 		"description": "Zugezogene nach Zuzugsland und Geschlecht",
-		"id": 6017,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Wanderungen",
@@ -199,7 +198,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6017
 	},
 	{
 		"title": "Zuzug aus der Schweiz, Wegzug in die Schweiz und Wanderungssaldo nach Alter",
@@ -207,7 +207,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.5.06018",
 		"kuerzelKunde": "1-8",
 		"description": "Zuzug aus der Schweiz, Wegzug in die Schweiz und Wanderungssaldo nach Alter",
-		"id": 6018,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Wanderungen",
@@ -238,7 +237,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6018
 	},
 	{
 		"title": "Zuzug aus dem Ausland, Wegzug ins Ausland und Wanderungssaldo nach Alter",
@@ -246,7 +246,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.5.06019",
 		"kuerzelKunde": "1-9",
 		"description": "Zuzug aus dem Ausland, Wegzug ins Ausland und Wanderungssaldo nach Alter",
-		"id": 6019,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Wanderungen",
@@ -278,7 +277,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6019
 	},
 	{
 		"title": "Aus dem Ausland Zugezogene nach Zuzugsland sowie nach Gemeinde und Wohnviertel",
@@ -286,7 +286,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.5.06021",
 		"kuerzelKunde": "1-11",
 		"description": "Aus dem Ausland Zugezogene nach Zuzugsland sowie nach Gemeinde und Wohnviertel",
-		"id": 6021,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Wanderungen",
@@ -319,7 +318,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6021
 	},
 	{
 		"title": "Bevölkerungssaldo infolge räumlicher Bevölkerungsbewegung pro 100 Einwohner",
@@ -327,7 +327,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.5.06022",
 		"kuerzelKunde": "1-12",
 		"description": "Bevölkerungssaldo infolge räumlicher Bevölkerungsbewegung pro 100 Einwohner",
-		"id": 6022,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Wanderungen",
@@ -359,7 +358,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6022
 	},
 	{
 		"title": "Zugezogene, Weggezogene und Wanderungssaldo nach Zuzugs- und Wegzugsland 2016",
@@ -367,7 +367,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.5.06023",
 		"kuerzelKunde": "1-4",
 		"description": "Zugezogene, Weggezogene und Wanderungssaldo nach Zuzugs- und Wegzugsland 2016",
-		"id": 6023,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Wanderungen",
@@ -399,7 +398,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6023
 	},
 	{
 		"title": "Entwicklung der aus dem Ausland Zugezogenen nach Zuzugsland",
@@ -407,7 +407,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.5.06024",
 		"kuerzelKunde": "1-5",
 		"description": "Entwicklung der aus dem Ausland Zugezogenen nach Zuzugsland",
-		"id": 6024,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Wanderungen",
@@ -440,7 +439,8 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6024
 	},
 	{
 		"title": "Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner",
@@ -448,7 +448,6 @@ var indikatorensetData = [
 		"kuerzel": "I.01.5.06025",
 		"kuerzelKunde": "1-10",
 		"description": "Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner",
-		"id": 6025,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Wanderungen",
@@ -480,6 +479,7 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 6025
 	}
 ];
