@@ -17553,7 +17553,9 @@ var indikatoren = [
 		"children": [
 			"6385"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6385"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -17593,7 +17595,9 @@ var indikatoren = [
 		"children": [
 			"6386"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6386"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -17633,7 +17637,9 @@ var indikatoren = [
 		"children": [
 			"6387"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6387"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -17673,7 +17679,9 @@ var indikatoren = [
 		"children": [
 			"6388"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6388"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -17713,7 +17721,9 @@ var indikatoren = [
 		"children": [
 			"6389"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6389"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -17753,7 +17763,9 @@ var indikatoren = [
 		"children": [
 			"6390"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6390"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -17793,7 +17805,9 @@ var indikatoren = [
 		"children": [
 			"6391"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6391"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -17833,7 +17847,9 @@ var indikatoren = [
 		"children": [
 			"6392"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6392"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -17873,7 +17889,9 @@ var indikatoren = [
 		"children": [
 			"6393"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6393"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -17913,7 +17931,9 @@ var indikatoren = [
 		"children": [
 			"6394"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6394"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -17953,7 +17973,9 @@ var indikatoren = [
 		"children": [
 			"6395"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6395"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
@@ -17994,7 +18016,9 @@ var indikatoren = [
 		"children": [
 			"6396"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6396"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
@@ -18033,7 +18057,9 @@ var indikatoren = [
 		"orderKey": "_000",
 		"parentId": 6373,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6373"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -18042,7 +18068,7 @@ var indikatoren = [
 			""
 		],
 		"id": 6385,
-		"visibleInPortal": false
+		"visibleInPortal": true
 	},
 	{
 		"title": "Reinvermögen nach Wohnviertel",
@@ -18067,11 +18093,13 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "",
 		"erlaeuterungen": "",
-		"template": "map001",
+		"template": "map002",
 		"orderKey": "_000",
 		"parentId": 6374,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6386"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -18109,7 +18137,9 @@ var indikatoren = [
 		"orderKey": "_000",
 		"parentId": 6375,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6387"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -18147,7 +18177,9 @@ var indikatoren = [
 		"orderKey": "_000",
 		"parentId": 6376,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6376"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -18156,7 +18188,7 @@ var indikatoren = [
 			""
 		],
 		"id": 6388,
-		"visibleInPortal": false
+		"visibleInPortal": true
 	},
 	{
 		"title": "Gebäudedichte nach Wohnviertel",
@@ -18185,7 +18217,9 @@ var indikatoren = [
 		"orderKey": "_000",
 		"parentId": 6377,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6377"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -18194,7 +18228,7 @@ var indikatoren = [
 			""
 		],
 		"id": 6389,
-		"visibleInPortal": false
+		"visibleInPortal": true
 	},
 	{
 		"title": "Wohnungsdichte nach Wohnviertel",
@@ -18223,7 +18257,9 @@ var indikatoren = [
 		"orderKey": "_000",
 		"parentId": 6378,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6378"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -18232,7 +18268,7 @@ var indikatoren = [
 			""
 		],
 		"id": 6390,
-		"visibleInPortal": false
+		"visibleInPortal": true
 	},
 	{
 		"title": "Leerwohnungen nach Wohnviertel",
@@ -18261,7 +18297,9 @@ var indikatoren = [
 		"orderKey": "_000",
 		"parentId": 6379,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6379"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -18270,7 +18308,7 @@ var indikatoren = [
 			""
 		],
 		"id": 6391,
-		"visibleInPortal": false
+		"visibleInPortal": true
 	},
 	{
 		"title": "Sozialhilfe nach Wohnviertel",
@@ -18299,7 +18337,9 @@ var indikatoren = [
 		"orderKey": "_000",
 		"parentId": 6380,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6380"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -18308,7 +18348,7 @@ var indikatoren = [
 			""
 		],
 		"id": 6392,
-		"visibleInPortal": false
+		"visibleInPortal": true
 	},
 	{
 		"title": "Ausländische Bevökerung nach Wohnviertel",
@@ -18337,7 +18377,9 @@ var indikatoren = [
 		"orderKey": "_000",
 		"parentId": 6381,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6381"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -18346,7 +18388,7 @@ var indikatoren = [
 			""
 		],
 		"id": 6393,
-		"visibleInPortal": false
+		"visibleInPortal": true
 	},
 	{
 		"title": "Reineinkommen nach Wohnviertel",
@@ -18371,11 +18413,13 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "",
 		"erlaeuterungen": "",
-		"template": "map001",
+		"template": "map002",
 		"orderKey": "_000",
 		"parentId": 6382,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6382"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -18384,7 +18428,7 @@ var indikatoren = [
 			""
 		],
 		"id": 6394,
-		"visibleInPortal": false
+		"visibleInPortal": true
 	},
 	{
 		"title": "Arbeitsstätten nach Wohnviertel",
@@ -18413,7 +18457,9 @@ var indikatoren = [
 		"orderKey": "_000",
 		"parentId": 6383,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6383"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
@@ -18423,7 +18469,7 @@ var indikatoren = [
 			""
 		],
 		"id": 6395,
-		"visibleInPortal": false
+		"visibleInPortal": true
 	},
 	{
 		"title": "Beschäftigte nach Wohnviertel",
@@ -18452,7 +18498,9 @@ var indikatoren = [
 		"orderKey": "_000",
 		"parentId": 6384,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6384"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
@@ -18462,7 +18510,7 @@ var indikatoren = [
 			""
 		],
 		"id": 6396,
-		"visibleInPortal": false
+		"visibleInPortal": true
 	},
 	{
 		"title": "Anteil Fläche nach Art der Bodenbedeckung",

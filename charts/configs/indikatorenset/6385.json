@@ -3606,7 +3606,7 @@
       {
         "to": 26.99,
         "color": "#D7E8D2",
-        "name": "&nbsp;\u003C&nbsp;27,0"
+        "name": "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;\u003C&nbsp;27,0"
       },
       {
         "from": 27,
@@ -3629,7 +3629,7 @@
       {
         "from": 36,
         "color": "#0A3B19",
-        "name": "&nbsp;≥&nbsp;36.0"
+        "name": "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;≥&nbsp;36,0"
       }
     ]
   },
@@ -3646,15 +3646,15 @@
     "floating": true,
     "title": {
       "style": {
-        "fontWeight": " normal",
+        "fontWeight": "bold",
         "fontSize": "12px"
       },
       "text": "Seit mindestens 10 Jahren an der gleichen \u003Cbr\u003E Adresse lebende Personen in %"
     },
     "useHTML": true,
     "layout": "vertical",
-    "x": 0,
-    "y": -30,
+    "x": 30,
+    "y": -20,
     "itemMarginBottom": 2,
     "symbolRadius": 0,
     "itemStyle": {

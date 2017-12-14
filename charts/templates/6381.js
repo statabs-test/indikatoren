@@ -19,7 +19,7 @@
 			"maxColor": "#4b7b1f",
 			"labels": {
 				"formatter": function () {
-					return Highcharts.numberFormat((this.value),0); 
+					return Highcharts.numberFormat((this.value),1); 
 				}
 			}
 		},
@@ -76,7 +76,7 @@
 				tooltip: {
 					pointFormatter: function(){
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '</b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),2) + '</b><br/>';
 					}
 				}
 			}, 
@@ -156,7 +156,7 @@
 	                        tooltip: {
 	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {point.key} </span><br/>',
 	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),1) + '</b><br/>';
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),2) + '</b><br/>';
 	                            }
 	                        },
 	                    };
@@ -182,12 +182,12 @@
 					fn.addLegendSquare(chart, 245, 260, 10, '#FABD24');
 					fn.addLegendLabel(chart, 'Italien', 255, 254);
 					fn.addLegendSquare(chart, 245, 280, 10, '#E6E600');
-					fn.addLegendLabel(chart, 'Spanien', 255, 274);
-					fn.addLegendSquare(chart, 330, 240, 10, ' #68AB2B');
+					fn.addLegendLabel(chart, 'Türkei', 255, 274);
+					fn.addLegendSquare(chart, 330, 240, 10, ' #7F5F1A');
 					fn.addLegendLabel(chart, 'Übrige', 340, 234);
 					fn.addLegendSquare(chart, 330, 260, 10, '#923F8D');
-					fn.addLegendLabel(chart, 'Türkei', 340, 254);
-					fn.addLegendSquare(chart, 330, 280, 10, '#7F5F1A');
+					fn.addLegendLabel(chart, 'Spanien', 340, 254);
+					fn.addLegendSquare(chart, 330, 280, 10, '#68AB2B');
 					fn.addLegendLabel(chart, 'Serbien, Montenegro, <br> Kosovo', 340, 274);
 					fn.addLegendLabelbold(chart, 'Anzahl Zugezogene pro 100 Einwohner', 240, 307);
 					

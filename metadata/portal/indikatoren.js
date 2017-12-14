@@ -9269,7 +9269,9 @@ var indikatoren = [
 		"children": [
 			"6385"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6385"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -9309,7 +9311,9 @@ var indikatoren = [
 		"children": [
 			"6386"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6386"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -9349,7 +9353,9 @@ var indikatoren = [
 		"children": [
 			"6387"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6387"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -9389,7 +9395,9 @@ var indikatoren = [
 		"children": [
 			"6388"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6388"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -9429,7 +9437,9 @@ var indikatoren = [
 		"children": [
 			"6389"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6389"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -9469,7 +9479,9 @@ var indikatoren = [
 		"children": [
 			"6390"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6390"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -9509,7 +9521,9 @@ var indikatoren = [
 		"children": [
 			"6391"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6391"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -9549,7 +9563,9 @@ var indikatoren = [
 		"children": [
 			"6392"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6392"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -9589,7 +9605,9 @@ var indikatoren = [
 		"children": [
 			"6393"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6393"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -9629,7 +9647,9 @@ var indikatoren = [
 		"children": [
 			"6394"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6394"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -9669,7 +9689,9 @@ var indikatoren = [
 		"children": [
 			"6395"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6395"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
@@ -9710,7 +9732,9 @@ var indikatoren = [
 		"children": [
 			"6396"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6396"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
@@ -9720,6 +9744,408 @@ var indikatoren = [
 			""
 		],
 		"id": 6384,
+		"visibleInPortal": true
+	},
+	{
+		"title": "Sesshaftigkeit nach Wohnviertel",
+		"subtitle": "Stand: 2016",
+		"kuerzel": "",
+		"kuerzelKunde": "",
+		"description": "Sesshaftigkeit nach Wohnviertel",
+		"thema": "01 Bevölkerung",
+		"unterthema": "",
+		"kennzahlenset": "PDF_Karten_cat",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Wohndauer"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "map002",
+		"orderKey": "_000",
+		"parentId": 6373,
+		"children": [],
+		"renderLink": [
+			"6373"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6385,
+		"visibleInPortal": true
+	},
+	{
+		"title": "Über 64-Jährige nach Wohnviertel",
+		"subtitle": "Stand: 2016",
+		"kuerzel": "",
+		"kuerzelKunde": "",
+		"description": "Über 64-Jährige nach Wohnviertel",
+		"thema": "01 Bevölkerung",
+		"unterthema": "",
+		"kennzahlenset": "PDF_Karten_cat",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Alter"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "mappie001",
+		"orderKey": "_000",
+		"parentId": 6376,
+		"children": [],
+		"renderLink": [
+			"6376"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6388,
+		"visibleInPortal": true
+	},
+	{
+		"title": "Gebäudedichte nach Wohnviertel",
+		"subtitle": "Stand: 2016",
+		"kuerzel": "",
+		"kuerzelKunde": "",
+		"description": "Gebäudedichte nach Wohnviertel",
+		"thema": "01 Bevölkerung",
+		"unterthema": "",
+		"kennzahlenset": "PDF_Karten_cat",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Gebäude"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "mappie001",
+		"orderKey": "_000",
+		"parentId": 6377,
+		"children": [],
+		"renderLink": [
+			"6377"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
+			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6389,
+		"visibleInPortal": true
+	},
+	{
+		"title": "Wohnungsdichte nach Wohnviertel",
+		"subtitle": "Stand: 2016",
+		"kuerzel": "",
+		"kuerzelKunde": "",
+		"description": "Wohnungsdichte nach Wohnviertel",
+		"thema": "01 Bevölkerung",
+		"unterthema": "",
+		"kennzahlenset": "PDF_Karten_cat",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Gebäude"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "mappie001",
+		"orderKey": "_000",
+		"parentId": 6378,
+		"children": [],
+		"renderLink": [
+			"6378"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
+			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6390,
+		"visibleInPortal": true
+	},
+	{
+		"title": "Leerwohnungen nach Wohnviertel",
+		"subtitle": "Stand: 2017",
+		"kuerzel": "",
+		"kuerzelKunde": "",
+		"description": "Leerwohnungen nach Wohnviertel",
+		"thema": "01 Bevölkerung",
+		"unterthema": "",
+		"kennzahlenset": "PDF_Karten_cat",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Gebäude"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "mappie001",
+		"orderKey": "_000",
+		"parentId": 6379,
+		"children": [],
+		"renderLink": [
+			"6379"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung",
+			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6391,
+		"visibleInPortal": true
+	},
+	{
+		"title": "Sozialhilfe nach Wohnviertel",
+		"subtitle": "Stand: 2016",
+		"kuerzel": "",
+		"kuerzelKunde": "",
+		"description": "Sozialhilfe nach Wohnviertel",
+		"thema": "01 Bevölkerung",
+		"unterthema": "",
+		"kennzahlenset": "PDF_Karten_cat",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Hilfeleistung"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "mappie001",
+		"orderKey": "_000",
+		"parentId": 6380,
+		"children": [],
+		"renderLink": [
+			"6380"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik",
+			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6392,
+		"visibleInPortal": true
+	},
+	{
+		"title": "Ausländische Bevökerung nach Wohnviertel",
+		"subtitle": "Stand: 2016",
+		"kuerzel": "",
+		"kuerzelKunde": "",
+		"description": "Ausländische Bevökerung nach Wohnviertel",
+		"thema": "01 Bevölkerung",
+		"unterthema": "",
+		"kennzahlenset": "PDF_Karten_cat",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Ausland"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "mappie001",
+		"orderKey": "_000",
+		"parentId": 6381,
+		"children": [],
+		"renderLink": [
+			"6381"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6393,
+		"visibleInPortal": true
+	},
+	{
+		"title": "Reineinkommen nach Wohnviertel",
+		"subtitle": "Stand: 2015",
+		"kuerzel": "",
+		"kuerzelKunde": "",
+		"description": "Reineinkommen nach Wohnviertel",
+		"thema": "01 Bevölkerung",
+		"unterthema": "",
+		"kennzahlenset": "PDF_Karten_cat",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Einkommen"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "map002",
+		"orderKey": "_000",
+		"parentId": 6382,
+		"children": [],
+		"renderLink": [
+			"6382"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Steuerstatistik",
+			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6394,
+		"visibleInPortal": true
+	},
+	{
+		"title": "Arbeitsstätten nach Wohnviertel",
+		"subtitle": "Stand: 2015",
+		"kuerzel": "",
+		"kuerzelKunde": "",
+		"description": "Arbeitsstätten nach Wohnviertel",
+		"thema": "01 Bevölkerung",
+		"unterthema": "",
+		"kennzahlenset": "PDF_Karten_cat",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Arbeit"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "mappie001",
+		"orderKey": "_000",
+		"parentId": 6383,
+		"children": [],
+		"renderLink": [
+			"6383"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt",
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
+			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6395,
+		"visibleInPortal": true
+	},
+	{
+		"title": "Beschäftigte nach Wohnviertel",
+		"subtitle": "Stand: 2015",
+		"kuerzel": "",
+		"kuerzelKunde": "",
+		"description": "Beschäftigte nach Wohnviertel",
+		"thema": "01 Bevölkerung",
+		"unterthema": "",
+		"kennzahlenset": "PDF_Karten_cat",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Beschäftigte"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "mappie001",
+		"orderKey": "_000",
+		"parentId": 6384,
+		"children": [],
+		"renderLink": [
+			"6384"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt",
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
+			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6396,
 		"visibleInPortal": true
 	}
 ];

@@ -17,14 +17,14 @@
 "stufe5":"", 
 "lesehilfe":"",
 "erlaeuterungen":"",
-"template":"map001",
+"template":"map002",
 "option":"options001",
 "visible":true,
 "visibleInPortal":false,
 "orderKey":"_000",
 "parentId":6382,
 "children":[],
-"renderLink":[],
+"renderLink":["6382"],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Steuerstatistik","Kartengrundlate: Geodaten Kanton Basel-Stadt"],
 "externalLinks":[""]
 }

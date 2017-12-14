@@ -73,9 +73,9 @@
       </text>
     </g>
   </g>
-  <g class="highcharts-legend" transform="translate(241,303)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="234" height="67" visibility="visible"/>
-    <g transform="translate(0,20)">
+  <g class="highcharts-legend" transform="translate(261,288)">
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="214" height="82" visibility="visible"/>
+    <g transform="translate(0,35)">
       <g>
         <g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined" transform="translate(8,3)">
           <rect x="0" y="4" width="200" height="12" fill="url(#c)"/>
@@ -108,7 +108,7 @@
     </g>
     <g class="highcharts-label highcharts-legend-title" transform="translate(5,4)">
       <text x="3" style="font-size:12px;font-weight:bold;" y="15">
-        <tspan>Mittelwert pro Veranlagung in 1 000 Fr.</tspan>
+        <tspan>Mittelwert pro Veranlagung</tspan><tspan x="3" dy="15">in 1 000 Fr.</tspan>
       </text>
     </g>
   </g>

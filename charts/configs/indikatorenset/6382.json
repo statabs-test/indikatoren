@@ -3623,7 +3623,7 @@
         "fontWeight": "bold",
         "fontSize": "12px"
       },
-      "text": "Mittelwert pro Veranlagung in 1 000 Fr. "
+      "text": "Mittelwert pro Veranlagung \u003Cbr\u003E in 1 000 Fr. "
     }
   },
   "tooltip": {

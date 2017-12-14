@@ -1,6 +1,6 @@
-/* 
+/*
 global Highcharts
-global geojson_wohnviertelEPSG2056 
+global geojson_wohnviertelEPSG2056
 */
 (function(){
    return {
@@ -8,14 +8,13 @@ global geojson_wohnviertelEPSG2056
     		useHTML: true,
 			"title": {
 			"text": "Seit mindestens 10 Jahren an der gleichen <br> Adresse lebende Personen in %",
-				style: {'fontWeight':' normal'}
 			},
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "right",
-			"x": 0,
-			"y": -30,
-			itemMarginBottom: 2, 
+			"x": 30,
+			"y": -20,
+			itemMarginBottom: 2,
 			symbolRadius: 0,
 			itemStyle: {
 				fontWeight: 'normal'
@@ -26,7 +25,7 @@ global geojson_wohnviertelEPSG2056
                    dataClasses: [{
                 to:26.99,
                 color: '#D7E8D2',
-                name:  "&nbsp;<&nbsp;27,0"
+                name:  "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;<&nbsp;27,0"
             }, {
                 from: 27.0,
                 to: 29.9,
@@ -45,22 +44,22 @@ global geojson_wohnviertelEPSG2056
             },{
                 from: 36.0,
                 color: '#0A3B19',
-                name:  "&nbsp;≥&nbsp;36.0"
-            }], 
+                name:  "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;≥&nbsp;36,0"
+            }],
 		},
         "data": {
 		    "seriesMapping": [
 		      {
 		      	x: 0, y: 2
-		      }		      
+		      }
 		    ]
         },
 		"series": [
 			{
-				"name": "Wohnviertel", 
+				"name": "Wohnviertel",
 				"animation": true,
 				"mapData": geojson_wohnviertelEPSG2056,
-				"borderColor": "#fbfbfb",		
+				"borderColor": "#fbfbfb",
 				"joinBy": ['TXT', 'Wohnviertel Id'],
 				"keys": ['Wohnviertel Id', 'value'],
 				"states": {
@@ -70,7 +69,7 @@ global geojson_wohnviertelEPSG2056
 						"brightness": 0
 					}
 				}
-			}	
-		], 
+			}
+		],
 	};
 }());

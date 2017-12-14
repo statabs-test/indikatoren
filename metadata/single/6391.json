@@ -24,7 +24,7 @@
 "orderKey":"_000",
 "parentId":6379,
 "children":[],
-"renderLink":[],
+"renderLink":["6379"],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Leerstandserhebung","Kartengrundlate: Geodaten Kanton Basel-Stadt"],
 "externalLinks":[""]
 }

@@ -155,11 +155,11 @@
 	        		fn.addLegendTitle(chart, "Gebäude pro <br> Hektare", 245, 210);
 	                fn.addLegendTitle(chart, "Anzahl Gebäude", 365, 210);
 	                
-	            	fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, 'grey');
+	            	fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 385, 255, undefined, true);
-	                fn.addLegendCircle(chart, 373, 285, 0.5*pieSizeCatConfig[1].diameter, 'grey');
+	                fn.addLegendCircle(chart, 373, 285, 0.5*pieSizeCatConfig[1].diameter, '#7F5F1A');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 385, 275, undefined, true);
-	                fn.addLegendCircle(chart, 373, 310, 0.5*pieSizeCatConfig[2].diameter, 'grey');
+	                fn.addLegendCircle(chart, 373, 310, 0.5*pieSizeCatConfig[2].diameter, '#7F5F1A');
 					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 385, 300, undefined, true);
 					
 					//fn.addLegendSquare(chart, 565, 240, 10, '#7F5F1A');

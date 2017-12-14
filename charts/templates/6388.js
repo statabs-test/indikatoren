@@ -26,28 +26,28 @@
          colorAxis: {
             dataClassColor: 'category',
                    dataClasses: [{
-                to:13.00,
+                to:4.999,
                 color: '#D7E8D2',
-                name:  "&nbsp;<&nbsp;13,0"
+                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<&nbsp;5,0"
             }, {
-                from: 13.0,
-                to: 14.9,
+                from: 5.0,
+                to: 7.4,
                 color: '#73B97C',
-                name: "13,0 − 14,9"
+                name: "5,0 − 7,4"
             }, {
-                from: 15.0,
-                to: 16.9,
-                 color: '#68AB2B',
-                 name: "15,0 − 16,9"
-            },{
-                from: 17.0,
-                to: 19.9,
-                 color: '#007A2F',
-                 name: "17,0 − 19,9"
-            },{
                 from: 20.0,
+                to: 21.9,
+                 color: '#68AB2B',
+                 name: "7,5 − 9,9"
+            },{
+                from: 22.0,
+                to: 23.999,
+                 color: '#007A2F',
+                 name: "10,0 − 12,4"
+            },{
+                from: 24.0,
                 color: '#0A3B19',
-                name:  "&nbsp;≥&nbsp;20.0"
+                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;12,5"
             }], 
         },
         "data": {
@@ -108,20 +108,20 @@
 					var pieSizeCatConfig = 
 					[
 						{
-							name: '&nbsp;< 800',
+							name: '&nbsp&nbsp&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< 1 000',
 							from: 0,
-							to: 799, 
+							to: 999, 
 							diameter: 2
 						},
 						{
-							name: ' 800 − 1 599',
-							from: 800,
-							to: 1599,
+							name: '1 000 − 2 499',
+							from: 100,
+							to: 2499,
 							diameter: 8
 						},
 						{
-							name: '&nbsp;≥  10600',
-							from: 1600,							
+							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥  2 500',
+							from: 2500,							
 							to: 1000000000,
 							diameter: 16
 						}
@@ -155,11 +155,11 @@
 	        		fn.addLegendTitle(chart, "Anteil über <br> 64-Jähriger in %", 245, 210);
 	                fn.addLegendTitle(chart, "Anzahl über <br> 64-Jähriger", 365, 210);
 	                
-	                fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, 'grey');
+	                fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 385, 255, undefined, true);
-	                fn.addLegendCircle(chart, 373, 285, 0.5*pieSizeCatConfig[1].diameter, 'grey');
+	                fn.addLegendCircle(chart, 373, 285, 0.5*pieSizeCatConfig[1].diameter, '#7F5F1A');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 385, 275, undefined, true);
-	                fn.addLegendCircle(chart, 373, 310, 0.5*pieSizeCatConfig[2].diameter, 'grey');
+	                fn.addLegendCircle(chart, 373, 310, 0.5*pieSizeCatConfig[2].diameter, '#7F5F1A');
 					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 385, 300, undefined, true);
 					
 					

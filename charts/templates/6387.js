@@ -28,7 +28,7 @@
                    dataClasses: [{
                 to:13.00,
                 color: '#D7E8D2',
-                name:  "&nbsp;<&nbsp;13,0"
+                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;13,0"
             }, {
                 from: 13.0,
                 to: 14.9,
@@ -47,7 +47,7 @@
             },{
                 from: 20.0,
                 color: '#0A3B19',
-                name:  "&nbsp;≥&nbsp;20.0"
+                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;20.0"
             }], 
         },
         "data": {
@@ -108,7 +108,7 @@
 					var pieSizeCatConfig = 
 					[
 						{
-							name: '&nbsp;< 800',
+							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< &nbsp;&nbsp;800',
 							from: 0,
 							to: 799, 
 							diameter: 2
@@ -120,7 +120,7 @@
 							diameter: 8
 						},
 						{
-							name: '&nbsp;≥  10600',
+							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥  1 600',
 							from: 1600,							
 							to: 1000000000,
 							diameter: 16
@@ -155,11 +155,11 @@
 	        		fn.addLegendTitle(chart, "Anteil unter <br> 20-Jähriger in %", 245, 210);
 	                fn.addLegendTitle(chart, "Anzahl unter <br> 20-Jähriger", 365, 210);
 	                
-	           		fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, 'grey');
+	           		fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 385, 255, undefined, true);
-	                fn.addLegendCircle(chart, 373, 285, 0.5*pieSizeCatConfig[1].diameter, 'grey');
+	                fn.addLegendCircle(chart, 373, 285, 0.5*pieSizeCatConfig[1].diameter, '#7F5F1A');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 385, 275, undefined, true);
-	                fn.addLegendCircle(chart, 373, 310, 0.5*pieSizeCatConfig[2].diameter, 'grey');
+	                fn.addLegendCircle(chart, 373, 310, 0.5*pieSizeCatConfig[2].diameter, '#7F5F1A');
 					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 385, 300, undefined, true);
 					
 					

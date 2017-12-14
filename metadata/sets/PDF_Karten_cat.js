@@ -26,7 +26,9 @@ var indikatorensetData = [
 		"orderKey": "_000",
 		"parentId": 6373,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6373"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -59,11 +61,13 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "",
 		"erlaeuterungen": "",
-		"template": "map001",
+		"template": "map002",
 		"orderKey": "_000",
 		"parentId": 6374,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6386"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -100,7 +104,9 @@ var indikatorensetData = [
 		"orderKey": "_000",
 		"parentId": 6375,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6387"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -137,7 +143,9 @@ var indikatorensetData = [
 		"orderKey": "_000",
 		"parentId": 6376,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6376"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -174,7 +182,9 @@ var indikatorensetData = [
 		"orderKey": "_000",
 		"parentId": 6377,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6377"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -211,7 +221,9 @@ var indikatorensetData = [
 		"orderKey": "_000",
 		"parentId": 6378,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6378"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -248,7 +260,9 @@ var indikatorensetData = [
 		"orderKey": "_000",
 		"parentId": 6379,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6379"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -285,7 +299,9 @@ var indikatorensetData = [
 		"orderKey": "_000",
 		"parentId": 6380,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6380"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -322,7 +338,9 @@ var indikatorensetData = [
 		"orderKey": "_000",
 		"parentId": 6381,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6381"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -355,11 +373,13 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "",
 		"erlaeuterungen": "",
-		"template": "map001",
+		"template": "map002",
 		"orderKey": "_000",
 		"parentId": 6382,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6382"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik",
 			"Kartengrundlate: Geodaten Kanton Basel-Stadt"
@@ -396,7 +416,9 @@ var indikatorensetData = [
 		"orderKey": "_000",
 		"parentId": 6383,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6383"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
@@ -434,7 +456,9 @@ var indikatorensetData = [
 		"orderKey": "_000",
 		"parentId": 6384,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6384"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",

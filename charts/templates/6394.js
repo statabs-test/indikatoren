@@ -8,13 +8,12 @@ global geojson_wohnviertelEPSG2056
     		useHTML: true,
 			"title": {
 			"text": "Mittelwert pro Veranlagung <br> in Fr.",
-				style: {'fontWeight':' normal'}
 			},
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "right",
-			"x": 0,
-			"y": -30,
+			"x": -60,
+			"y": -20,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
 			itemStyle: {
@@ -24,28 +23,28 @@ global geojson_wohnviertelEPSG2056
          colorAxis: {
             dataClassColor: 'category',
                    dataClasses: [{
-                to:13.00,
+                to:49999,
                 color: '#D7E8D2',
-                name:  "&nbsp;<&nbsp;13,0"
+                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;50 000"
             }, {
-                from: 13.0,
-                to: 14.9,
+                from: 50000,
+                to: 59999,
                 color: '#73B97C',
-                name: "13,0 − 14,9"
+                name: "50 000 − 59 999"
             }, {
-                from: 15.0,
-                to: 16.9,
+                from: 60000,
+                to: 69999,
                  color: '#68AB2B',
-                 name: "15,0 − 16,9"
+                 name: "60 000 − 69 999"
             },{
-                from: 17.0,
-                to: 19.9,
+                from: 70000,
+                to: 79999,
                  color: '#007A2F',
-                 name: "17,0 − 19,9"
+                 name: "70 000 − 79 999"
             },{
-                from: 20.0,
+                from: 80000,
                 color: '#0A3B19',
-                name:  "&nbsp;≥&nbsp;20.0"
+                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;80 000"
             }], 
 		},
         "data": {
