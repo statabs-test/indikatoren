@@ -26,28 +26,28 @@
          colorAxis: {
             dataClassColor: 'category',
                    dataClasses: [{
-                to:13.00,
+                to:1.90,
                 color: '#D7E8D2',
-                name:  "&nbsp;<&nbsp;13,0"
+                name:  "&nbsp;<&nbsp;2,0"
             }, {
-                from: 13.0,
-                to: 14.9,
+                from: 2.0,
+                to: 3.9,
                 color: '#73B97C',
-                name: "13,0 − 14,9"
+                name: "2,0 − 3,9"
             }, {
-                from: 15.0,
-                to: 16.9,
+                from: 4.0,
+                to: 5.9,
                  color: '#68AB2B',
-                 name: "15,0 − 16,9"
+                 name: "4,0 − 5,9"
             },{
-                from: 17.0,
-                to: 19.9,
+                from: 6.0,
+                to: 7.9,
                  color: '#007A2F',
-                 name: "17,0 − 19,9"
+                 name: "6,0 − 7,9"
             },{
-                from: 20.0,
+                from: 8.0,
                 color: '#0A3B19',
-                name:  "&nbsp;≥&nbsp;20.0"
+                name:  "&nbsp;≥&nbsp;8,0"
             }], 
         },
         "data": {
@@ -108,20 +108,20 @@
 					var pieSizeCatConfig = 
 					[
 						{
-							name: '&nbsp;< 800',
+							name: '&nbsp;< 250',
 							from: 0,
-							to: 799, 
+							to: 250, 
 							diameter: 2
 						},
 						{
-							name: ' 800 − 1 599',
-							from: 800,
-							to: 1599,
+							name: ' 250 − 499',
+							from: 250,
+							to: 499,
 							diameter: 8
 						},
 						{
-							name: '&nbsp;≥  10600',
-							from: 1600,							
+							name: '&nbsp;≥  500',
+							from: 500,							
 							to: 1000000000,
 							diameter: 16
 						}
