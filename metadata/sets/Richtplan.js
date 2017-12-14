@@ -335,13 +335,12 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die stärkste Zunahme der für Wohnen genutzten Bruttogeschossfläche (BGF) von 1995 bis 2015 ergab sich - neben der Gemeinde Riehen - dank der Überbauung des Erlenmattareals im Wohviertel Rosental. Nach Riehen weisen die Wohnviertel Gundeldingen und St. Johann im Jahr 2015 die höchsten Werte der BGF Wohnen auf.",
+		"lesehilfe": "Die stärkste Zunahme der für Wohnen genutzten Bruttogeschossfläche (BGF) von 1995 bis 2015 ergab sich - neben der Gemeinde Riehen - dank der Überbauung des Erlenmattareals im Wohnviertel Rosental. Nach Riehen weisen die Wohnviertel Gundeldingen und St. Johann im Jahr 2015 die höchsten Werte der BGF Wohnen auf.",
 		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche werden fünfjährlich aktualisiert, letztmals 2015.",
 		"template": "mappie001",
 		"orderKey": "01_01_00_00_00_010",
 		"parentId": null,
 		"children": [
-			"6108",
 			"6250"
 		],
 		"renderLink": [],
@@ -376,7 +375,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Über 90% der Befragten sind 2015 mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden. Dieser Wert ist seit 2005 jeweils leicht angestiegen.",
 		"erlaeuterungen": "2003: N=1495, 2005: N=1509, 2007: N=1505, 2011: N=1516, 2015: N=1504.",
-		"template": "befragungen001",
+		"template": "befragungenProzent001",
 		"orderKey": "01_02_00_00_00_001",
 		"parentId": 4150,
 		"children": [
@@ -554,11 +553,11 @@ var indikatorensetData = [
 	{
 		"title": "Kontinentale Erreichbarkeit",
 		"subtitle": "Stadt Basel im nationalen Vergleich",
-		"kuerzel": "I.11.2.05891",
+		"kuerzel": "I.11.6.05891",
 		"kuerzelKunde": "ST 8-1",
 		"description": "Kontinentale Erreichbarkeit",
 		"thema": "11 Verkehr",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Mobilitätsverhalten",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -581,7 +580,6 @@ var indikatorensetData = [
 		"orderKey": "02_05_00_00_00_001",
 		"parentId": null,
 		"children": [
-			"6119",
 			"6256"
 		],
 		"renderLink": [],
@@ -589,7 +587,8 @@ var indikatorensetData = [
 			"BAK Economics"
 		],
 		"externalLinks": [
-			""
+			"Weiterführende Informationen <a href = 'https://www.bak-economics.com/en/solutions/regional-analysis/region-international/location-factors/erreichbarkeit/' target = '_blank'>BAK Economics</a>, und",
+			"<a href = 'http://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/erreichbarkeit.html' target = '_blank'>Amt für Mobilität</a>"
 		],
 		"id": 5891
 	},
