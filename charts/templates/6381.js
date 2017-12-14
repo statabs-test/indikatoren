@@ -138,7 +138,7 @@
 					
 					var choroplethSeries = chart.series[0];
 					var pieSizeSeries = chart.series[1];
-					var pieSeries = [chart.series[2], chart.series[3]];
+					var pieSeries = [chart.series[2], chart.series[3], chart.series[4], chart.series[5], chart.series[6], chart.series[7]];
 
 					//pie diameters in px
 					var maxPieDiameter = 15;
@@ -177,17 +177,17 @@
 	                //fn.addLegendCircle(chart, 410, 300, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
 	                //fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),2,"."," "), 430, 290);
 
-					fn.addLegendSquare(chart, 245, 240, 10, 'red');
+					fn.addLegendSquare(chart, 245, 240, 10, '#B00000 ');
 					fn.addLegendLabel(chart, 'Deutschland', 255, 234);
-					fn.addLegendSquare(chart, 245, 260, 10, 'blue');
+					fn.addLegendSquare(chart, 245, 260, 10, '#FABD24');
 					fn.addLegendLabel(chart, 'Italien', 255, 254);
-					fn.addLegendSquare(chart, 245, 280, 10, 'blue');
+					fn.addLegendSquare(chart, 245, 280, 10, '#E6E600');
 					fn.addLegendLabel(chart, 'Spanien', 255, 274);
-					fn.addLegendSquare(chart, 330, 240, 10, 'yellow');
+					fn.addLegendSquare(chart, 330, 240, 10, ' #68AB2B');
 					fn.addLegendLabel(chart, 'Übrige', 340, 234);
-					fn.addLegendSquare(chart, 330, 260, 10, 'yellow');
+					fn.addLegendSquare(chart, 330, 260, 10, '#923F8D');
 					fn.addLegendLabel(chart, 'Türkei', 340, 254);
-					fn.addLegendSquare(chart, 330, 280, 10, 'yellow');
+					fn.addLegendSquare(chart, 330, 280, 10, '#7F5F1A');
 					fn.addLegendLabel(chart, 'Serbien, Montenegro, <br> Kosovo', 340, 274);
 					fn.addLegendLabelbold(chart, 'Anzahl Zugezogene pro 100 Einwohner', 240, 307);
 					
