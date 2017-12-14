@@ -3665,20 +3665,20 @@
 					var pieSizeCatConfig = 
 					[
 						{
-							name: '&nbsp;< 800',
+							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< 3 000',
 							from: 0,
-							to: 799, 
+							to: 2999, 
 							diameter: 2
 						},
 						{
-							name: ' 800 − 1 599',
-							from: 800,
-							to: 1599,
+							name: ' 3 000 − 5 999',
+							from: 3000,
+							to: 5999,
 							diameter: 8
 						},
 						{
-							name: '&nbsp;≥  10600',
-							from: 1600,							
+							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥  6 000',
+							from: 6000,							
 							to: 1000000000,
 							diameter: 16
 						}
@@ -3712,11 +3712,11 @@
 	        		fn.addLegendTitle(chart, "Anteil unter <br> 20-Jähriger in %", 245, 210);
 	                fn.addLegendTitle(chart, "Anzahl unter <br> 20-Jähriger", 385, 210);
 	                
-	               	fn.addLegendCircle(chart, 393, 266, 0.5*pieSizeCatConfig[0].diameter, 'grey');
+	               	fn.addLegendCircle(chart, 393, 266, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 405, 255, undefined, true);
-	                fn.addLegendCircle(chart, 393, 285, 0.5*pieSizeCatConfig[1].diameter, 'grey');
+	                fn.addLegendCircle(chart, 393, 285, 0.5*pieSizeCatConfig[1].diameter, '#7F5F1A');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 405, 275, undefined, true);
-	                fn.addLegendCircle(chart, 393, 310, 0.5*pieSizeCatConfig[2].diameter, 'grey');
+	                fn.addLegendCircle(chart, 393, 310, 0.5*pieSizeCatConfig[2].diameter, '#7F5F1A');
 					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 405, 300, undefined, true);
 					
 					//fn.addLegendSquare(chart, 565, 240, 10, '#7F5F1A');
@@ -3783,32 +3783,32 @@
     "dataClassColor": "category",
     "dataClasses": [
       {
-        "to": 13,
+        "to": 19.999,
         "color": "#D7E8D2",
-        "name": "&nbsp;\u003C&nbsp;13,0"
-      },
-      {
-        "from": 13,
-        "to": 14.9,
-        "color": "#73B97C",
-        "name": "13,0 − 14,9"
-      },
-      {
-        "from": 15,
-        "to": 16.9,
-        "color": "#68AB2B",
-        "name": "15,0 − 16,9"
-      },
-      {
-        "from": 17,
-        "to": 19.9,
-        "color": "#007A2F",
-        "name": "17,0 − 19,9"
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\u003C&nbsp;13,0"
       },
       {
         "from": 20,
+        "to": 39.9,
+        "color": "#73B97C",
+        "name": "20,0 − 39,9"
+      },
+      {
+        "from": 40,
+        "to": 59.9,
+        "color": "#68AB2B",
+        "name": "40,0 − 59,9"
+      },
+      {
+        "from": 60,
+        "to": 79.9,
+        "color": "#007A2F",
+        "name": "60,0 − 79,9"
+      },
+      {
+        "from": 80,
         "color": "#0A3B19",
-        "name": "&nbsp;≥&nbsp;20.0"
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;80,0"
       }
     ]
   },

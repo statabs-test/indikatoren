@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "2016",
+      "name": "Ausländeranteil in %",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -3238,93 +3238,93 @@
       "tooltip": {
         "pointFormatter": function (){
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '</b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),2) + '</b><br/>';
 					}
       },
       "data": [
         [
           1,
-          8.9514
+          0.270620581
         ],
         [
           2,
-          9.0844
+          0.382317802
         ],
         [
           3,
-          10.2564
+          0.348798211
         ],
         [
           4,
-          15.2353
+          0.323970457
         ],
         [
           5,
-          9.0793
+          0.316354626
         ],
         [
           6,
-          15.9184
+          0.390604311
         ],
         [
           7,
-          8.8418
+          0.241529105
         ],
         [
           8,
-          10.8627
+          0.217783029
         ],
         [
           9,
-          12.5407
+          0.277607138
         ],
         [
           10,
-          16.5185
+          0.375134876
         ],
         [
           11,
-          18.4756
+          0.434001493
         ],
         [
           12,
-          14.4245
+          0.376602564
         ],
         [
           13,
-          15.4372
+          0.463335819
         ],
         [
           14,
-          11.9716
+          0.317988669
         ],
         [
           15,
-          15.2139
+          0.239978332
         ],
         [
           16,
-          17.3251
+          0.557387057
         ],
         [
           17,
-          18.9049
+          0.506214689
         ],
         [
           18,
-          23.9329
+          0.516662038
         ],
         [
           19,
-          22.4745
+          0.469063256
         ],
         [
           20,
-          9.6937
+          0.255416409
         ],
         [
           30,
-          12.3077
+          0.24789916
         ]
       ]
     },
@@ -3333,90 +3333,648 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          1.0315
+          0.1
         ],
         [
           "Vorstädte",
-          -0.1295
+          0.1
         ],
         [
           "Am Ring",
-          0.5749
+          0.1
         ],
         [
           "Breite",
-          -1.2924
+          0.1
         ],
         [
           "St. Alban",
-          0.1289
+          0.1
         ],
         [
           "Gundeldingen",
-          0.0969
+          0.1
         ],
         [
           "Bruderholz",
-          0.3894
+          0.1
         ],
         [
           "Bachletten",
-          0.1894
+          0.1
         ],
         [
           "Gotthelf",
-          0.0507
+          0.1
         ],
         [
           "Iselin",
-          0.3373
+          0.1
         ],
         [
           "St. Johann",
-          0.718
+          0.1
         ],
         [
           "Altstadt Kleinbasel",
-          -0.0728
+          0.1
         ],
         [
           "Clara",
-          -0.8116
+          0.1
         ],
         [
           "Wettstein",
-          1.0065
+          0.1
         ],
         [
           "Hirzbrunnen",
-          -0.4766
+          0.1
         ],
         [
           "Rosental",
-          -0.4633
+          0.1
         ],
         [
           "Matthäus",
-          0.1486
+          0.1
         ],
         [
           "Klybeck",
-          1.3018
+          0.1
         ],
         [
           "Kleinhüningen",
-          3.2943
+          0.1
         ],
         [
           "Riehen",
-          0.6883
+          0.1
         ],
         [
           "Bettingen",
-          2.1081
+          0.1
         ]
       ],
-      "name": "Differenz 2016 zu 2012"
+      "name": "Anzahl"
+    },
+    {
+      "visible": false,
+      "type": "pie",
+      "color": "#B00000",
+      "borderColor": "#B00000",
+      "data": [
+        [
+          1,
+          0.281567489
+        ],
+        [
+          2,
+          0.234895833
+        ],
+        [
+          3,
+          0.25667735
+        ],
+        [
+          4,
+          0.208290155
+        ],
+        [
+          5,
+          0.226283725
+        ],
+        [
+          6,
+          0.204474576
+        ],
+        [
+          7,
+          0.331384892
+        ],
+        [
+          8,
+          0.322143099
+        ],
+        [
+          9,
+          0.308219178
+        ],
+        [
+          10,
+          0.177692554
+        ],
+        [
+          11,
+          0.177496622
+        ],
+        [
+          12,
+          0.219148936
+        ],
+        [
+          13,
+          0.156652361
+        ],
+        [
+          14,
+          0.309576837
+        ],
+        [
+          15,
+          0.27268623
+        ],
+        [
+          16,
+          0.160186199
+        ],
+        [
+          17,
+          0.171378968
+        ],
+        [
+          18,
+          0.110185434
+        ],
+        [
+          19,
+          0.141488578
+        ],
+        [
+          20,
+          0.43344519
+        ],
+        [
+          30,
+          0.637288136
+        ]
+      ],
+      "name": "Deutschland"
+    },
+    {
+      "visible": false,
+      "type": "pie",
+      "color": "#FABD24",
+      "borderColor": "#FABD24",
+      "data": [
+        [
+          1,
+          0.09724238
+        ],
+        [
+          2,
+          0.1140625
+        ],
+        [
+          3,
+          0.121527778
+        ],
+        [
+          4,
+          0.127115717
+        ],
+        [
+          5,
+          0.101827676
+        ],
+        [
+          6,
+          0.12759322
+        ],
+        [
+          7,
+          0.108363309
+        ],
+        [
+          8,
+          0.129196338
+        ],
+        [
+          9,
+          0.114330875
+        ],
+        [
+          10,
+          0.143016938
+        ],
+        [
+          11,
+          0.113376735
+        ],
+        [
+          12,
+          0.107446809
+        ],
+        [
+          13,
+          0.122317597
+        ],
+        [
+          14,
+          0.118040089
+        ],
+        [
+          15,
+          0.144469526
+        ],
+        [
+          16,
+          0.089266156
+        ],
+        [
+          17,
+          0.109623016
+        ],
+        [
+          18,
+          0.151840903
+        ],
+        [
+          19,
+          0.144436256
+        ],
+        [
+          20,
+          0.098806861
+        ],
+        [
+          30,
+          0.054237288
+        ]
+      ],
+      "name": "Italien"
+    },
+    {
+      "visible": false,
+      "type": "pie",
+      "color": "#E6E600",
+      "borderColor": "#E6E600",
+      "data": [
+        [
+          1,
+          0.031930334
+        ],
+        [
+          2,
+          0.025
+        ],
+        [
+          3,
+          0.034188034
+        ],
+        [
+          4,
+          0.09119171
+        ],
+        [
+          5,
+          0.058021468
+        ],
+        [
+          6,
+          0.141152542
+        ],
+        [
+          7,
+          0.033273381
+        ],
+        [
+          8,
+          0.036283486
+        ],
+        [
+          9,
+          0.04004215
+        ],
+        [
+          10,
+          0.120166187
+        ],
+        [
+          11,
+          0.11251689
+        ],
+        [
+          12,
+          0.039361702
+        ],
+        [
+          13,
+          0.06223176
+        ],
+        [
+          14,
+          0.04844098
+        ],
+        [
+          15,
+          0.121444695
+        ],
+        [
+          16,
+          0.099123768
+        ],
+        [
+          17,
+          0.098462302
+        ],
+        [
+          18,
+          0.155334587
+        ],
+        [
+          19,
+          0.131908622
+        ],
+        [
+          20,
+          0.048657718
+        ],
+        [
+          30,
+          0.003389831
+        ]
+      ],
+      "name": "3Türkei"
+    },
+    {
+      "visible": false,
+      "type": "pie",
+      "color": "#68AB2B",
+      "borderColor": "#68AB2B",
+      "data": [
+        [
+          1,
+          0.005805515
+        ],
+        [
+          2,
+          0.017708333
+        ],
+        [
+          3,
+          0.02857906
+        ],
+        [
+          4,
+          0.064939551
+        ],
+        [
+          5,
+          0.025529446
+        ],
+        [
+          6,
+          0.090169492
+        ],
+        [
+          7,
+          0.01573741
+        ],
+        [
+          8,
+          0.026110546
+        ],
+        [
+          9,
+          0.042149631
+        ],
+        [
+          10,
+          0.06935123
+        ],
+        [
+          11,
+          0.066330918
+        ],
+        [
+          12,
+          0.045744681
+        ],
+        [
+          13,
+          0.100858369
+        ],
+        [
+          14,
+          0.022828508
+        ],
+        [
+          15,
+          0.053273138
+        ],
+        [
+          16,
+          0.073384447
+        ],
+        [
+          17,
+          0.094122024
+        ],
+        [
+          18,
+          0.098091911
+        ],
+        [
+          19,
+          0.0899042
+        ],
+        [
+          20,
+          0.032065623
+        ],
+        [
+          30,
+          0.010169492
+        ]
+      ],
+      "name": "Serbien, Montenegro, Kosovo"
+    },
+    {
+      "visible": false,
+      "type": "pie",
+      "color": "#923F8D",
+      "borderColor": "#923F8D",
+      "data": [
+        [
+          1,
+          0.059506531
+        ],
+        [
+          2,
+          0.05625
+        ],
+        [
+          3,
+          0.05582265
+        ],
+        [
+          4,
+          0.056649396
+        ],
+        [
+          5,
+          0.058311575
+        ],
+        [
+          6,
+          0.047322034
+        ],
+        [
+          7,
+          0.035971223
+        ],
+        [
+          8,
+          0.042726348
+        ],
+        [
+          9,
+          0.052160169
+        ],
+        [
+          10,
+          0.065356344
+        ],
+        [
+          11,
+          0.068050608
+        ],
+        [
+          12,
+          0.056382979
+        ],
+        [
+          13,
+          0.05472103
+        ],
+        [
+          14,
+          0.057349666
+        ],
+        [
+          15,
+          0.055530474
+        ],
+        [
+          16,
+          0.046823658
+        ],
+        [
+          17,
+          0.049107143
+        ],
+        [
+          18,
+          0.058317657
+        ],
+        [
+          19,
+          0.026529108
+        ],
+        [
+          20,
+          0.030947054
+        ],
+        [
+          30,
+          0.037288136
+        ]
+      ],
+      "name": "Spanien"
+    },
+    {
+      "visible": false,
+      "type": "pie",
+      "color": "#7F5F1A",
+      "borderColor": "#7F5F1A",
+      "data": [
+        [
+          1,
+          0.52394775
+        ],
+        [
+          2,
+          0.552083333
+        ],
+        [
+          3,
+          0.503205128
+        ],
+        [
+          4,
+          0.451813472
+        ],
+        [
+          5,
+          0.53002611
+        ],
+        [
+          6,
+          0.389288136
+        ],
+        [
+          7,
+          0.475269784
+        ],
+        [
+          8,
+          0.443540183
+        ],
+        [
+          9,
+          0.443097998
+        ],
+        [
+          10,
+          0.424416747
+        ],
+        [
+          11,
+          0.462228227
+        ],
+        [
+          12,
+          0.531914894
+        ],
+        [
+          13,
+          0.503218884
+        ],
+        [
+          14,
+          0.44376392
+        ],
+        [
+          15,
+          0.352595937
+        ],
+        [
+          16,
+          0.531215772
+        ],
+        [
+          17,
+          0.477306548
+        ],
+        [
+          18,
+          0.426229508
+        ],
+        [
+          19,
+          0.465733235
+        ],
+        [
+          20,
+          0.356077554
+        ],
+        [
+          30,
+          0.257627119
+        ]
+      ],
+      "name": "Übrige"
     },
     {
       "name": "Rhein",
@@ -3657,74 +4215,59 @@
 					
 					var choroplethSeries = chart.series[0];
 					var pieSizeSeries = chart.series[1];
-					
+					var pieSeries = [chart.series[2], chart.series[3], chart.series[4], chart.series[5], chart.series[6], chart.series[7]];
+
 					//pie diameters in px
-					var maxPieDiameter = 20;
-					
-					//configuration of categorical pie sizes
-					var pieSizeCatConfig = 
-					[
-						{
-							name: '&nbsp;< 800',
-							from: 0,
-							to: 799, 
-							diameter: 2
-						},
-						{
-							name: ' 800 − 1 599',
-							from: 800,
-							to: 1599,
-							diameter: 8
-						},
-						{
-							name: '&nbsp;≥  10600',
-							from: 1600,							
-							to: 1000000000,
-							diameter: 16
-						}
-					];
-					
-					//define different colors for positive and negative values
-	                var color = function(value){
-	                	return (value >= 0) ? '#7F5F1A' : '#FABD24';
-	                };					
-					
+					var maxPieDiameter = 15;
+
+					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
+
 					//define chart-specific details
 					var pieSeriesConfig = function(data, correspondingMapSeriesItem, color){
 						return {
 	                        sizeFormatter: function () {
 	                            var fn = this.chart.options.customFunctions;
-								//return fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
-								return fn.pieSizeCategorical(Math.abs(data.value), pieSizeCatConfig).diameter;
+								return fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
+								//return fn.pieSizeCategorical(Math.abs(data.value), pieSizeCatConfig).diameter;
 	                        },
 	                        tooltip: {
+	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {point.key} </span><br/>',
 	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),0) + '</b><br/>';
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),2) + '</b><br/>';
 	                            }
-	                        }
+	                        },
 	                    };
 					};
-					
+					var pieSizeCatConfig;
 					//put the pies / bubbles on the map
-					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
-
-	                //Add manually drawn legend
-	        		fn.addLegendTitle(chart, "Sozialhilfequote <br> in %", 245, 210);
-	                fn.addLegendTitle(chart, "Anzahl Sozialhilfe- <br> empfänger", 365, 210);
+					fn.drawPies(chart, pieSizeSeries, pieSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig);
 	                
-	               	fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, 'grey');
-	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 385, 255, undefined, true);
-	                fn.addLegendCircle(chart, 373, 285, 0.5*pieSizeCatConfig[1].diameter, 'grey');
-	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 385, 275, undefined, true);
-	                fn.addLegendCircle(chart, 373, 310, 0.5*pieSizeCatConfig[2].diameter, 'grey');
-					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 385, 300, undefined, true);
+					//pie values in legend
+	                var minValueInLegend = 0.001; 
+	                var maxValueInLegend = 0.1; 
+	                
+                	//Add manually drawn legend	
+	                fn.addLegendTitle(chart,"Anteil Zugezogene nach Zuzugsland", 240, 215);
+	                
+	                //fn.addLegendCircle(chart, 410, 275, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
+	                //fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),3,","," "), 430, 265);
+	                //fn.addLegendCircle(chart, 410, 300, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
+	                //fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),2,"."," "), 430, 290);
+
+					fn.addLegendSquare(chart, 245, 240, 10, '#B00000 ');
+					fn.addLegendLabel(chart, 'Deutschland', 255, 234);
+					fn.addLegendSquare(chart, 245, 260, 10, '#FABD24');
+					fn.addLegendLabel(chart, 'Italien', 255, 254);
+					fn.addLegendSquare(chart, 245, 280, 10, '#E6E600');
+					fn.addLegendLabel(chart, 'Türkei', 255, 274);
+					fn.addLegendSquare(chart, 330, 240, 10, ' #7F5F1A');
+					fn.addLegendLabel(chart, 'Übrige', 340, 234);
+					fn.addLegendSquare(chart, 330, 260, 10, '#923F8D');
+					fn.addLegendLabel(chart, 'Spanien', 340, 254);
+					fn.addLegendSquare(chart, 330, 280, 10, '#68AB2B');
+					fn.addLegendLabel(chart, 'Serbien, Montenegro, <br> Kosovo', 340, 274);
+					fn.addLegendLabelbold(chart, 'Anzahl Zugezogene pro 100 Einwohner', 240, 307);
 					
-					
-					//fn.addLegendSquare(chart, 565, 240, 10, '#7F5F1A');
-					//fn.addLegendLabel(chart, 'Zunahme', 580, 236);
-					//fn.addLegendSquare(chart, 565, 256, 10, '#FABD24');
-					//fn.addLegendLabel(chart, 'Abnahme', 580, 252);
-				
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
 	            }
@@ -3776,42 +4319,16 @@
         "cursor": "default",
         "fontSize": "11px",
         "textOverflow": "none"
-      }
+      },
+      "formatter": function () {
+					return Highcharts.numberFormat((this.value),1); 
+				}
     },
     "marker": {
       "color": "black"
     },
-    "dataClassColor": "category",
-    "dataClasses": [
-      {
-        "to": 13,
-        "color": "#D7E8D2",
-        "name": "&nbsp;\u003C&nbsp;13,0"
-      },
-      {
-        "from": 13,
-        "to": 14.9,
-        "color": "#73B97C",
-        "name": "13,0 − 14,9"
-      },
-      {
-        "from": 15,
-        "to": 16.9,
-        "color": "#68AB2B",
-        "name": "15,0 − 16,9"
-      },
-      {
-        "from": 17,
-        "to": 19.9,
-        "color": "#007A2F",
-        "name": "17,0 − 19,9"
-      },
-      {
-        "from": 20,
-        "color": "#0A3B19",
-        "name": "&nbsp;≥&nbsp;20.0"
-      }
-    ]
+    "minColor": "#eff6e9",
+    "maxColor": "#4b7b1f"
   },
   "mapNavigation": {
     "enabled": true,
@@ -3826,20 +4343,13 @@
     "floating": true,
     "title": {
       "style": {
-        "fontWeight": " bold",
+        "fontWeight": "normal",
         "fontSize": "11px"
       },
-      "text": null
+      "text": ""
     },
-    "useHTML": true,
-    "layout": "vertical",
-    "x": -140,
-    "y": -30,
-    "itemMarginBottom": 2,
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
+    "x": -25,
+    "y": 0
   },
   "xAxis": {
     "events": {
@@ -3876,7 +4386,7 @@
             	
             	/*
                 var yAxis = chart.yAxis[0],
-                    zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
+                    zoomFactor = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
                 */
                 
 				//Negative values: return absolute value
@@ -3888,7 +4398,7 @@
 				
 				//transform value to a number between 0 and 1, where value 0 is represented by 0 and maxAbsValue by 1
 				var relativeValue = Math.abs(value) / maxAbsValue ;
-				
+				//console.log('absVal rel: '+ Math.abs(value) + ' ' + relativeValue);
 				//infer the pie size 
 				var maxPieArea = circleAreaByDiameter(maxPieDiameter);
 				var area = relativeValue * maxPieArea;
@@ -3897,7 +4407,7 @@
 				//var area = relativeValue * (maxPieArea - minPieArea) + minPieArea;
 				
 				var diameter = circleDiameterByAre(area);
-
+				//console.log('value absValue area diameter: ' + value + ' ' + Math.abs(value) + ' ' + area + ' ' + diameter);
 				return diameter;
             },
     "defineTemplate": function (){
@@ -3913,13 +4423,6 @@
 					Highcharts.seriesType('mappie', 'pie', {
 					    center: null, // Can't be array by default anymore
 					    clip: true, // For map navigation
-					    states: {
-					        hover: {
-					            halo: {
-					                size: 5
-					            }
-					        }
-					    },
 					    dataLabels: {
 					        enabled: false
 					    }
@@ -3928,7 +4431,6 @@
 					    getCenter: function () {
 					        var options = this.options,
 					            chart = this.chart,
-					            fn = this.chart.options.customFunctions,
 					            slicingRoom = 2 * (options.slicedOffset || 0);
 					        if (!options.center) {
 					            options.center = [null, null]; // Do the default here instead
@@ -3978,10 +4480,10 @@
 					    minAbsNumber: minAbsNumber
 					};
 				},
-    "drawPies": function (chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color){
+    "drawPies": function (chart, pieSizeSeries, pieSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig){
                     
                     //iterate over each wohnviertel and draw the pies / bubbles
-	                Highcharts.each(pieSizeSeries.points, function (data) {
+	                Highcharts.each(pieSizeSeries.points, function (data, i) {
 	                    
 	                    if (!data.value) {
 	                        return; // Skip points with no data, if any
@@ -4023,23 +4525,48 @@
 									//pie Size proportional to absolute value, no categories used
 		                            return fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
 		                        },
-		                        data: [
-		                        	//Bubbles: Only one element in the array
-		                        	{
-		                        		name: pieSizeSeries.name,
-		                        		//put absolute value in y, real value in v
-		                        		y: Math.abs(data.value),
-		                        		v: data.value,
-		                        		color: color(data.value),
-		                        		borderColor: color(data.value)
-		                        	}
-		                        ],
 		                        dataLabels: {
 							        enabled: false
-							    }    	                        
+							    }, 
+							    data: [
+							    	/*
+		                        	//Pies: Two series
+		                        	{
+		                        		name: pieSeries[0].name,
+		                        		//put absolute value in y, real value in v
+		                        		y: Math.abs(pieSeries[0].points[i].y),
+		                        		v: pieSeries[0].points[i].y,
+		                        		color: pieSeries[0].userOptions.color,
+		                        		borderColor: pieSeries[0].userOptions.borderColor
+		                        	},
+		                        	{
+		                        		name: pieSeries[1].name,
+		                        		//put absolute value in y, real value in v
+		                        		y: Math.abs(pieSeries[1].points[i].y),
+		                        		v: pieSeries[1].points[i].y,
+		                        		color: pieSeries[1].userOptions.color,
+		                        		borderColor: pieSeries[1].userOptions.borderColor
+		                        	}
+		                        	*/
+						    	]
 	                        };
+	                        
+	                        //add data object to mapPieConfig: for bubbles only one, for pies several
+	                        pieSeries.forEach(function(item, index, arr){
+	                        	mapPieConfig.data.push(
+	                        		{
+		                        		name: item.name,
+		                        		//put absolute value in y, real value in v
+		                        		y: Math.abs(item.points[i].y),
+		                        		v: item.points[i].y,
+		                        		color: item.userOptions.color,
+		                        		borderColor: item.userOptions.borderColor
+		                        	}
+                        		);
+	                        });
+
 	                        //create the config handed in from the chart
-	                        var pieTemplate = config(data, correspondingMapSeriesItem, color);
+	                        var pieTemplate = config(data, correspondingMapSeriesItem);
 	                        //merge the two configs (2nd into first, see e.g. https://gist.github.com/TorsteinHonsi/f646f39d51d18b7d6bfb)
 	                        return Highcharts.merge(true, mapPieConfig, pieTemplate);
 	                    };
@@ -4091,8 +4618,7 @@
     				}).add();
                 },
     "addLegendLabel": function (chart, text, x, y, cssClass, useHtml){
-    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
-    				.attr({
+    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
     					zIndex: 6,
     					class: cssClass + ' pieLegend'
     				}).add();
@@ -4130,7 +4656,7 @@
 						//if useHTMl is true, text is in span elements within DIVs classed .pieLegend. Add the class to these spans
 						$(divIdString + ' .pieLegend>span').addClass('pieLegend').addClass('pieLegendHtmlText');
 						//toggle active state of legend elements
-						var pieLegendItems = $(divIdString + ' .pieLegend');
+						var pieLegendItems = $('.pieLegend');
 						//backup original color
 						pieLegendItems.each(function(i, v){
 							if (!$(this).attr('fill_active')) {

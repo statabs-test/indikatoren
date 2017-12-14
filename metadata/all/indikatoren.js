@@ -18373,7 +18373,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "",
 		"erlaeuterungen": "",
-		"template": "mappie001",
+		"template": "mappie002",
 		"orderKey": "_000",
 		"parentId": 6381,
 		"children": [],
