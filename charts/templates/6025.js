@@ -7,6 +7,8 @@
 
     return {
     	"legend": {
+    		"x": -10,
+			"y": 0,
 			"title": {
 				"text": ""
 			}
@@ -111,7 +113,7 @@
 	                        tooltip: {
 	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {point.key} </span><br/>',
 	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),1) + '</b><br/>';
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),1) + ' % </b><br/>';
 	                            }
 	                        },
 	                    };
@@ -125,18 +127,18 @@
 	                var maxValueInLegend = 0.1; 
 	                
                 	//Add manually drawn legend	
-	                fn.addLegendTitle(chart,"Anteil Zugezogene nach Zuzugsland", 260, 240);
+	                fn.addLegendTitle(chart,"Anteil Zugezogene nach Zuzugsland", 255, 240);
 	                
 	                //fn.addLegendCircle(chart, 410, 275, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
 	                //fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),3,","," "), 430, 265);
 	                //fn.addLegendCircle(chart, 410, 300, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
 	                //fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),2,"."," "), 430, 290);
 
-					fn.addLegendSquare(chart, 270, 265, 10, 'red');
-					fn.addLegendLabel(chart, 'Schweiz', 290, 260);
-					fn.addLegendSquare(chart, 270, 285, 10, 'blue');
-					fn.addLegendLabel(chart, 'Ausland', 290, 280);
-					fn.addLegendLabelbold(chart, 'Anzahl Zugezogene pro 100 Einwohner', 260, 305);
+					fn.addLegendSquare(chart, 258, 265, 10, 'red');
+					fn.addLegendLabel(chart, 'Schweiz', 270, 260);
+					fn.addLegendSquare(chart, 258, 285, 10, 'blue');
+					fn.addLegendLabel(chart, 'Ausland', 270, 280);
+					fn.addLegendLabelbold(chart, 'Anzahl Zugezogene pro 100 Einwohner', 255, 305);
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
