@@ -246,19 +246,19 @@
       <tspan>Anzahl</tspan><tspan x="3" dy="15">Arbeitsstätten</tspan>
     </text>
   </g>
-  <circle cx="373" cy="266" r="1" fill="grey" stroke="grey" stroke-width="1" class="undefined pieLegend"/>
+  <circle cx="373" cy="266" r="1" fill="#7F5F1A" stroke="#7F5F1A" stroke-width="1" class="undefined pieLegend"/>
   <g class="undefined pieLegend" transform="translate(385,255)">
     <text x="3" y="15">
       <tspan>&amp;nbsp;&lt; 800</tspan>
     </text>
   </g>
-  <circle cx="373" cy="285" r="4" fill="grey" stroke="grey" stroke-width="1" class="undefined pieLegend"/>
+  <circle cx="373" cy="285" r="4" fill="#7F5F1A" stroke="#7F5F1A" stroke-width="1" class="undefined pieLegend"/>
   <g class="undefined pieLegend" transform="translate(385,275)">
     <text x="3" y="15">
       <tspan>800 − 1 599</tspan>
     </text>
   </g>
-  <circle cx="373" cy="310" r="8" fill="grey" stroke="grey" stroke-width="1" class="undefined pieLegend"/>
+  <circle cx="373" cy="310" r="8" fill="#7F5F1A" stroke="#7F5F1A" stroke-width="1" class="undefined pieLegend"/>
   <g class="undefined pieLegend" transform="translate(385,300)">
     <text x="3" y="15">
       <tspan>&amp;nbsp;≥ 10600</tspan>

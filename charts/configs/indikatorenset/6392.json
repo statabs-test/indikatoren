@@ -3784,7 +3784,7 @@
     "dataClassColor": "category",
     "dataClasses": [
       {
-        "to": 1.9,
+        "to": 1.999,
         "color": "#D7E8D2",
         "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\u003C&nbsp;2,0"
       },
@@ -3802,7 +3802,7 @@
       },
       {
         "from": 6,
-        "to": 7.9,
+        "to": 7.999,
         "color": "#007A2F",
         "name": "6,0 − 7,9"
       },
