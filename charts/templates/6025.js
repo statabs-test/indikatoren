@@ -15,8 +15,8 @@
 			},
 		"colorAxis": {
 			//"min": undefined,
-			"minColor": "#eff6e9",
-			"maxColor": "#4b7b1f",
+			"minColor": "#FFDA80",
+			"maxColor": "#45381D",
 			"labels": {
 				"formatter": function () {
 					return Highcharts.numberFormat((this.value),0); 
