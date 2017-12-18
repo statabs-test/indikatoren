@@ -26,28 +26,28 @@
          colorAxis: {
             dataClassColor: 'category',
                    dataClasses: [{
-                to:4.999,
+                to:14.99,
                 color: '#D7E8D2',
-                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<&nbsp;5,0"
+                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<&nbsp;15,0"
             }, {
-                from: 5.0,
-                to: 7.4,
+                from: 15.0,
+                to: 19.999,
                 color: '#73B97C',
-                name: "5,0 − 7,4"
+                name: "15,0 − 19,0"
             }, {
                 from: 20.0,
                 to: 21.9,
                  color: '#68AB2B',
-                 name: "7,5 − 9,9"
+                 name: "20,5 − 21,9"
             },{
                 from: 22.0,
                 to: 23.999,
                  color: '#007A2F',
-                 name: "10,0 − 12,4"
+                 name: "22,0 − 23,4"
             },{
                 from: 24.0,
                 color: '#0A3B19',
-                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;12,5"
+                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;24,0"
             }], 
         },
         "data": {

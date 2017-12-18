@@ -3416,7 +3416,7 @@
           0.1
         ]
       ],
-      "name": "Anzahl"
+      "name": "Staatsangehörigkeit in %"
     },
     {
       "visible": false,
@@ -4227,13 +4227,14 @@
 						return {
 	                        sizeFormatter: function () {
 	                            var fn = this.chart.options.customFunctions;
-								return fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
+	                            var yAxis = chart.yAxis[0], zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
+								return zoom * fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
 								//return fn.pieSizeCategorical(Math.abs(data.value), pieSizeCatConfig).diameter;
 	                        },
 	                        tooltip: {
 	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {point.key} </span><br/>',
 	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),2) + '</b><br/>';
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),2) + ' % </b><br/>';
 	                            }
 	                        },
 	                    };
@@ -4257,19 +4258,19 @@
 					//fn.addLegendSquare(chart, 254, 251, 12, '#B00000 '); // Checking alignment with right legend boxes
 					//fn.addLegendSquare(chart, 254, 267, 12, '#FABD24'); //Checking alignment with right legend boxes
 					
-					fn.addLegendSquare(chart, 354, 251, 12, '#B00000', 'pieLegendHideOnZoom');
-					fn.addLegendLabel(chart, 'Deutschland', 365, 245, 'pieLegendHideOnZoom');
-					fn.addLegendSquare(chart, 354, 267, 12, '#FABD24', 'pieLegendHideOnZoom'); // !!!! Orange is behind green
-					fn.addLegendLabel(chart, 'Italien', 365, 262, 'pieLegendHideOnZoom');
-					fn.addLegendSquare(chart, 354, 283, 12, '#E6E600', 'pieLegendHideOnZoom');
-					fn.addLegendLabel(chart, 'Türkei', 365, 279, 'pieLegendHideOnZoom');
-					fn.addLegendSquare(chart, 354, 299, 12, ' #7F5F1A', 'pieLegendHideOnZoom');
-					fn.addLegendLabel(chart, 'Übrige', 365, 295, 'pieLegendHideOnZoom');
-					fn.addLegendSquare(chart, 354, 315, 12, '#923F8D', 'pieLegendHideOnZoom');
-					fn.addLegendLabel(chart, 'Spanien', 365, 310, 'pieLegendHideOnZoom');
-					fn.addLegendSquare(chart, 354, 331, 12, '#68AB2B', 'pieLegendHideOnZoom');
-					fn.addLegendLabel(chart, 'Serbien, Montenegro, <br> Kosovo', 365, 327, 'pieLegendHideOnZoom');
-					fn.addLegendLabelbold(chart, 'Anzahl Zugezogene <br> pro 100 Einwohner', 350, 215, 'pieLegendHideOnZoom');
+					fn.addLegendSquare(chart, 354, 251, 12, '#B00000');
+					fn.addLegendLabel(chart, 'Deutschland', 365, 245);
+					fn.addLegendSquare(chart, 354, 267, 12, '#FABD24'); // !!!! Orange is behind green
+					fn.addLegendLabel(chart, 'Italien', 365, 262);
+					fn.addLegendSquare(chart, 354, 283, 12, '#E6E600');
+					fn.addLegendLabel(chart, 'Türkei', 365, 279);
+					fn.addLegendSquare(chart, 354, 299, 12, ' #7F5F1A');
+					fn.addLegendLabel(chart, 'Übrige', 365, 295);
+					fn.addLegendSquare(chart, 354, 315, 12, '#923F8D');
+					fn.addLegendLabel(chart, 'Spanien', 365, 310);
+					fn.addLegendSquare(chart, 354, 331, 12, '#68AB2B');
+					fn.addLegendLabel(chart, 'Serbien, Montenegro, <br> Kosovo', 365, 327);
+					fn.addLegendLabelbold(chart, 'Staatsangehörigkeit', 350, 215);
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);

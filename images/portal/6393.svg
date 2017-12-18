@@ -463,45 +463,45 @@
       <tspan>Ausländeranteil</tspan><tspan x="3" dy="15">in %</tspan>
     </text>
   </g>
-  <rect x="354" y="251" width="12" height="12" fill="#B00000" class="pieLegendHideOnZoom pieLegend"/>
-  <g class="pieLegendHideOnZoom pieLegend" transform="translate(365,245)">
+  <rect x="354" y="251" width="12" height="12" fill="#B00000" class="undefined pieLegend"/>
+  <g class="undefined pieLegend" transform="translate(365,245)">
     <text x="3" y="15">
       Deutschland
     </text>
   </g>
-  <rect x="354" y="267" width="12" height="12" fill="#FABD24" class="pieLegendHideOnZoom pieLegend"/>
-  <g class="pieLegendHideOnZoom pieLegend" transform="translate(365,262)">
+  <rect x="354" y="267" width="12" height="12" fill="#FABD24" class="undefined pieLegend"/>
+  <g class="undefined pieLegend" transform="translate(365,262)">
     <text x="3" y="15">
       Italien
     </text>
   </g>
-  <rect x="354" y="283" width="12" height="12" fill="#E6E600" class="pieLegendHideOnZoom pieLegend"/>
-  <g class="pieLegendHideOnZoom pieLegend" transform="translate(365,279)">
+  <rect x="354" y="283" width="12" height="12" fill="#E6E600" class="undefined pieLegend"/>
+  <g class="undefined pieLegend" transform="translate(365,279)">
     <text x="3" y="15">
       Türkei
     </text>
   </g>
-  <rect x="354" y="299" width="12" height="12" fill=" #7F5F1A" class="pieLegendHideOnZoom pieLegend"/>
-  <g class="pieLegendHideOnZoom pieLegend" transform="translate(365,295)">
+  <rect x="354" y="299" width="12" height="12" fill=" #7F5F1A" class="undefined pieLegend"/>
+  <g class="undefined pieLegend" transform="translate(365,295)">
     <text x="3" y="15">
       Übrige
     </text>
   </g>
-  <rect x="354" y="315" width="12" height="12" fill="#923F8D" class="pieLegendHideOnZoom pieLegend"/>
-  <g class="pieLegendHideOnZoom pieLegend" transform="translate(365,310)">
+  <rect x="354" y="315" width="12" height="12" fill="#923F8D" class="undefined pieLegend"/>
+  <g class="undefined pieLegend" transform="translate(365,310)">
     <text x="3" y="15">
       Spanien
     </text>
   </g>
-  <rect x="354" y="331" width="12" height="12" fill="#68AB2B" class="pieLegendHideOnZoom pieLegend"/>
-  <g class="pieLegendHideOnZoom pieLegend" transform="translate(365,327)">
+  <rect x="354" y="331" width="12" height="12" fill="#68AB2B" class="undefined pieLegend"/>
+  <g class="undefined pieLegend" transform="translate(365,327)">
     <text x="3" y="15">
       <tspan>Serbien, Montenegro,</tspan><tspan x="3" dy="15">Kosovo</tspan>
     </text>
   </g>
-  <g class="pieLegendHideOnZoom pieLegend" transform="translate(350,215)">
+  <g class="undefined pieLegend" transform="translate(350,215)">
     <text x="3" style="font-weight:bold;" y="15">
-      <tspan>Anzahl Zugezogene</tspan><tspan x="3" dy="15">pro 100 Einwohner</tspan>
+      Staatsangehörigkeit
     </text>
   </g>
   <g class="highcharts-legend" transform="translate(-132,244)">

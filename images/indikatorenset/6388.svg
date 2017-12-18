@@ -236,12 +236,12 @@
       </text>
     </g>
   </g>
-  <g class="highcharts-label" transform="translate(245,210)">
+  <g class="undefined pieLegend" transform="translate(245,210)">
     <text x="3" style="font-size:12px;font-weight:bold;" y="15">
       <tspan>Anteil über</tspan><tspan x="3" dy="15">64-Jähriger in %</tspan>
     </text>
   </g>
-  <g class="highcharts-label" transform="translate(365,210)">
+  <g class="undefined pieLegend" transform="translate(365,210)">
     <text x="3" style="font-size:12px;font-weight:bold;" y="15">
       <tspan>Anzahl über</tspan><tspan x="3" dy="15">64-Jähriger</tspan>
     </text>

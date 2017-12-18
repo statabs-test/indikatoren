@@ -464,10 +464,10 @@
   </g>
   <g class="highcharts-label" transform="translate(240,215)">
     <text x="3" style="font-size:12px;font-weight:bold;" y="15">
-      <tspan>Anteil Zugezogene nach Zuzugsland</tspan>
+      Staatsangehörigkeit
     </text>
   </g>
-  <rect x="245" y="240" width="10" height="10" fill="#B00000 " class="undefined pieLegend"/>
+  <rect x="245" y="240" width="10" height="10" fill="#B00000" class="undefined pieLegend"/>
   <g class="undefined pieLegend" transform="translate(255,234)">
     <text x="3" y="15">
       Deutschland
@@ -505,7 +505,7 @@
   </g>
   <g class="undefined pieLegend" transform="translate(240,307)">
     <text x="3" style="font-weight:bold;" y="15">
-      <tspan>Anzahl Zugezogene pro 100 Einwohner</tspan>
+      <tspan>Ausländeranteil in %</tspan>
     </text>
   </g>
   <g class="highcharts-legend" transform="translate(236,323)">

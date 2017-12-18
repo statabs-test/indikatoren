@@ -4019,15 +4019,15 @@
 	                // Only redraw once all pies and connectors have been added
 	                chart.redraw();
 				},
-    "addLegendTitle": function (chart, title, x, y){
-            		return chart.renderer.label(title, x, y)
+    "addLegendTitle": function (chart, title, x, y, cssClass, useHtml){
+            		return chart.renderer.label(title, x, y, undefined, undefined, undefined, useHtml)
          				.css({
     	                    fontSize: '12px',
     	                    fontWeight: 'bold'
     	                })
     	                .attr({
     			        	zIndex: 6,
-    			        	//class: 'pieLegend'
+    			        	class: cssClass + ' pieLegend'
     			        }).add();	                
                 },
     "addLegendCircle": function (chart, x, y, radius, fill, cssClass){

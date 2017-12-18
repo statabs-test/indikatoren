@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "Leerwhgquote in %",
+      "name": "Leerwohnungsquote in %",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -3238,7 +3238,7 @@
       "tooltip": {
         "pointFormatter": function (){
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),0) + '  </b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),2) + '  </b><br/>';
 					}
       },
       "data": [
@@ -3679,7 +3679,7 @@
 	                        },
 	                        tooltip: {
 	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + ((Math.sign(this.v) == 1) ? '+' : '') + Highcharts.numberFormat((this.v), 2) + ' Prozentpunkte</b><br/>';
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),0) + '  </b><br/>';
 	                            }
 	                        }
 	                    };
@@ -4016,15 +4016,15 @@
 	                // Only redraw once all pies and connectors have been added
 	                chart.redraw();
 				},
-    "addLegendTitle": function (chart, title, x, y){
-            		return chart.renderer.label(title, x, y)
+    "addLegendTitle": function (chart, title, x, y, cssClass, useHtml){
+            		return chart.renderer.label(title, x, y, undefined, undefined, undefined, useHtml)
          				.css({
     	                    fontSize: '12px',
     	                    fontWeight: 'bold'
     	                })
     	                .attr({
     			        	zIndex: 6,
-    			        	//class: 'pieLegend'
+    			        	class: cssClass + ' pieLegend'
     			        }).add();	                
                 },
     "addLegendCircle": function (chart, x, y, radius, fill, cssClass){

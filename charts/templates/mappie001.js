@@ -362,15 +362,15 @@
 				},    		    
     		    
                 //helper functions for pie legend
-    	        addLegendTitle: function(chart, title, x, y){
-            		return chart.renderer.label(title, x, y)
+    	        addLegendTitle: function(chart, title, x, y, cssClass, useHtml){
+            		return chart.renderer.label(title, x, y, undefined, undefined, undefined, useHtml)
          				.css({
     	                    fontSize: '12px',
     	                    fontWeight: 'bold'
     	                })
     	                .attr({
     			        	zIndex: 6,
-    			        	//class: 'pieLegend'
+    			        	class: cssClass + ' pieLegendTitle'
     			        }).add();	                
                 },
     	                

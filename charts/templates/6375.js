@@ -4,9 +4,9 @@
 	global $
 */
 (function(){
-
     return {
     	"legend": {
+    		//enabled:  function(){ if (zoom == 1){return true} else {return false}}, 
 			"title": {
 				"text": ""
 			}
@@ -107,7 +107,7 @@
 	                var maxValueInLegend = 4000; 
 	                
                 	//Add manually drawn legend	
-	                fn.addLegendTitle(chart, pieSizeSeries.name, 265, 220);
+	                fn.addLegendTitle(chart, pieSizeSeries.name, 265, 220, 'pieLegendHideOnZoom');
 	                
 	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#7F5F1A', 'pieLegendHideOnZoom');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 300, 245, 'pieLegendHideOnZoom');

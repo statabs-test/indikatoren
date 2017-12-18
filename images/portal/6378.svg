@@ -240,24 +240,24 @@
       </text>
     </g>
   </g>
-  <g class="highcharts-label" transform="translate(265,220)">
+  <g class="undefined pieLegend" transform="translate(265,220)">
     <text x="3" style="font-size:12px;font-weight:bold;" y="15">
       <tspan>Anzahl Wohnungen</tspan>
     </text>
   </g>
-  <circle cx="280" cy="255" r="2.649161387046346" fill="#7F5F1A" stroke="#7F5F1A" stroke-width="1" class="undefined pieLegend"/>
-  <g class="undefined pieLegend" transform="translate(300,245)">
+  <circle cx="280" cy="255" r="2.649161387046346" fill="#7F5F1A" stroke="#7F5F1A" stroke-width="1" class="pieLegendHideOnZoom pieLegend"/>
+  <g class="pieLegendHideOnZoom pieLegend" transform="translate(300,245)">
     <text x="3" y="15">
       500
     </text>
   </g>
-  <circle cx="280" cy="280" r="11.84740988960652" fill="#7F5F1A" stroke="#7F5F1A" stroke-width="1" class="undefined pieLegend"/>
-  <g class="undefined pieLegend" transform="translate(300,270)">
+  <circle cx="280" cy="280" r="11.84740988960652" fill="#7F5F1A" stroke="#7F5F1A" stroke-width="1" class="pieLegendHideOnZoom pieLegend"/>
+  <g class="pieLegendHideOnZoom pieLegend" transform="translate(300,270)">
     <text x="3" y="15">
       <tspan>10 000</tspan>
     </text>
   </g>
-  <g class="highcharts-label" transform="translate(265,307)">
+  <g class="undefined pieLegend" transform="translate(265,307)">
     <text x="3" style="font-size:12px;font-weight:bold;" y="15">
       <tspan>Wohnungen pro Hektare</tspan>
     </text>

@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "2016",
+      "name": "Sozialhilfequote in %",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -3244,87 +3244,87 @@
       "data": [
         [
           1,
-          8.9514
+          1.924587588
         ],
         [
           2,
-          9.0844
+          2.927120669
         ],
         [
           3,
-          10.2564
+          3.586733743
         ],
         [
           4,
-          15.2353
+          5.740823635
         ],
         [
           5,
-          9.0793
+          2.973568282
         ],
         [
           6,
-          15.9184
+          7.213600975
         ],
         [
           7,
-          8.8418
+          1.552997394
         ],
         [
           8,
-          10.8627
+          2.60689757
         ],
         [
           9,
-          12.5407
+          4.402515723
         ],
         [
           10,
-          16.5185
+          9.411341566
         ],
         [
           11,
-          18.4756
+          8.748267406
         ],
         [
           12,
-          14.4245
+          7.211538462
         ],
         [
           13,
-          15.4372
+          7.97912006
         ],
         [
           14,
-          11.9716
+          4.780453258
         ],
         [
           15,
-          15.2139
+          4.74539545
         ],
         [
           16,
-          17.3251
+          10.51587302
         ],
         [
           17,
-          18.9049
+          12.00878845
         ],
         [
           18,
-          23.9329
+          13.62121633
         ],
         [
           19,
-          22.4745
+          14.31040442
         ],
         [
           20,
-          9.6937
+          3.547450121
         ],
         [
           30,
-          12.3077
+          1.260504202
         ]
       ]
     },
@@ -3333,90 +3333,90 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          1.0315
+          49
         ],
         [
           "Vorstädte",
-          -0.1295
+          147
         ],
         [
           "Am Ring",
-          0.5749
+          385
         ],
         [
           "Breite",
-          -1.2924
+          513
         ],
         [
           "St. Alban",
-          0.1289
+          324
         ],
         [
           "Gundeldingen",
-          0.0969
+          1362
         ],
         [
           "Bruderholz",
-          0.3894
+          143
         ],
         [
           "Bachletten",
-          0.1894
+          353
         ],
         [
           "Gotthelf",
-          0.0507
+          301
         ],
         [
           "Iselin",
-          0.3373
+          1570
         ],
         [
           "St. Johann",
-          0.718
+          1641
         ],
         [
           "Altstadt Kleinbasel",
-          -0.0728
+          180
         ],
         [
           "Clara",
-          -0.8116
+          321
         ],
         [
           "Wettstein",
-          1.0065
+          270
         ],
         [
           "Hirzbrunnen",
-          -0.4766
+          438
         ],
         [
           "Rosental",
-          -0.4633
+          689
         ],
         [
           "Matthäus",
-          0.1486
+          1913
         ],
         [
           "Klybeck",
-          1.3018
+          981
         ],
         [
           "Kleinhüningen",
-          3.2943
+          414
         ],
         [
           "Riehen",
-          0.6883
+          745
         ],
         [
           "Bettingen",
-          2.1081
+          15
         ]
       ],
-      "name": "Differenz 2016 zu 2012"
+      "name": "Anzahl Sozialhilfebezüger"
     },
     {
       "name": "Rhein",
@@ -4070,15 +4070,15 @@
 	                // Only redraw once all pies and connectors have been added
 	                chart.redraw();
 				},
-    "addLegendTitle": function (chart, title, x, y){
-            		return chart.renderer.label(title, x, y)
+    "addLegendTitle": function (chart, title, x, y, cssClass, useHtml){
+            		return chart.renderer.label(title, x, y, undefined, undefined, undefined, useHtml)
          				.css({
     	                    fontSize: '12px',
     	                    fontWeight: 'bold'
     	                })
     	                .attr({
     			        	zIndex: 6,
-    			        	//class: 'pieLegend'
+    			        	class: cssClass + ' pieLegend'
     			        }).add();	                
                 },
     "addLegendCircle": function (chart, x, y, radius, fill, cssClass){
