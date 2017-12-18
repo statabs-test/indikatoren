@@ -132,11 +132,11 @@
 	                //fn.addLegendCircle(chart, 410, 300, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
 	                //fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),2,"."," "), 430, 290);
 
-					fn.addLegendSquare(chart, 270, 265, 10, 'red', 'pieLegendHideOnZoom');
-					fn.addLegendLabel(chart, 'Schweiz', 290, 260, 'pieLegendHideOnZoom');
-					fn.addLegendSquare(chart, 270, 285, 10, 'blue', 'pieLegendHideOnZoom');
-					fn.addLegendLabel(chart, 'Ausland', 290, 280, 'pieLegendHideOnZoom');
-					fn.addLegendLabelbold(chart, 'Anzahl Zugezogene pro 100 Einwohner', 260, 305, 'pieLegendHideOnZoom');
+					fn.addLegendSquare(chart, 270, 265, 10, 'red');
+					fn.addLegendLabel(chart, 'Schweiz', 290, 260);
+					fn.addLegendSquare(chart, 270, 285, 10, 'blue');
+					fn.addLegendLabel(chart, 'Ausland', 290, 280);
+					fn.addLegendLabelbold(chart, 'Anzahl Zugezogene pro 100 Einwohner', 260, 305);
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
