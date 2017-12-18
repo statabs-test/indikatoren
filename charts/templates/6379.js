@@ -50,7 +50,7 @@
 				tooltip: {
 					pointFormatter: function(){
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),0) + '  </b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),2) + '  </b><br/>';
 					}
 				}
 			}, 
@@ -87,7 +87,8 @@
 						return {
 	                        sizeFormatter: function () {
 	                            var fn = this.chart.options.customFunctions;
-								return fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
+	                            var yAxis = chart.yAxis[0], zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
+								return zoom * fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
 								//return fn.pieSizeCategorical(Math.abs(data.value), pieSizeCatConfig).diameter;
 	                        },
 	                        tooltip: {
@@ -108,10 +109,10 @@
                 	//Add manually drawn legend	
 	                fn.addLegendTitle(chart, pieSizeSeries.name, 265, 220);
 	                
-	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#7F5F1A');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 300, 245);
-	                fn.addLegendCircle(chart, 280, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#7F5F1A');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 300, 270);
+	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#7F5F1A', 'pieLegendHideOnZoom');
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 300, 245, 'pieLegendHideOnZoom');
+	                fn.addLegendCircle(chart, 280, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#7F5F1A', 'pieLegendHideOnZoom');
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 300, 270, 'pieLegendHideOnZoom');
 
 					//fn.addLegendSquare(chart, 270, 250, 10, '#7F5F1A');
 					//fn.addLegendLabel(chart, 'Zunahme', 300, 245);

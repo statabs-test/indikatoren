@@ -1,4 +1,4 @@
-Wohnviertel_ID	Wohnviertel_Name	Ausländeranteil in %	Anzahl	Deutschland	Italien	3Türkei	Serbien, Montenegro, Kosovo	Spanien	Übrige
+Wohnviertel_ID	Wohnviertel_Name	Ausländeranteil in %	Staatsangehörigkeit in %	Deutschland	Italien	3Türkei	Serbien, Montenegro, Kosovo	Spanien	Übrige
 1	Altstadt Grossbasel	0.270620581	0.1	0.281567489	0.09724238	0.031930334	0.005805515	0.059506531	0.52394775
 2	Vorstädte	0.382317802	0.1	0.234895833	0.1140625	0.025	0.017708333	0.05625	0.552083333
 3	Am Ring	0.348798211	0.1	0.25667735	0.121527778	0.034188034	0.02857906	0.05582265	0.503205128

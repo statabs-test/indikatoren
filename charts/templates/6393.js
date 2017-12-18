@@ -15,8 +15,8 @@
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "right",
-			"x": -120,
-			"y": -45,
+			"x": -130,
+			"y": -35,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
 			itemStyle: {
@@ -177,13 +177,14 @@
 						return {
 	                        sizeFormatter: function () {
 	                            var fn = this.chart.options.customFunctions;
-								return fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
+	                            var yAxis = chart.yAxis[0], zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
+								return zoom * fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
 								//return fn.pieSizeCategorical(Math.abs(data.value), pieSizeCatConfig).diameter;
 	                        },
 	                        tooltip: {
 	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {point.key} </span><br/>',
 	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),2) + '</b><br/>';
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),2) + ' % </b><br/>';
 	                            }
 	                        },
 	                    };
@@ -197,26 +198,29 @@
 	                var maxValueInLegend = 0.1; 
 	                
                 	//Add manually drawn legend	
-	                fn.addLegendTitle(chart,"Ausländeranteil in %", 250, 215);
+	                fn.addLegendTitle(chart,"Ausländeranteil <br> in %", 240, 215);
 	                
 	                //fn.addLegendCircle(chart, 410, 275, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
 	                //fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),3,","," "), 430, 265);
 	                //fn.addLegendCircle(chart, 410, 300, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
 	                //fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),2,"."," "), 430, 290);
-
-					fn.addLegendSquare(chart, 380, 237, 12, '#B00000 ');
-					//fn.addLegendLabel(chart, 'Deutschland', 255, 234);
-					fn.addLegendSquare(chart, 380, 257, 12, '#FABD24'); // !!!! Orange is behind green
-					//fn.addLegendLabel(chart, 'Italien', 255, 254);
-					fn.addLegendSquare(chart, 380, 277, 12, '#E6E600');
-					//fn.addLegendLabel(chart, 'Türkei', 255, 274);
-					fn.addLegendSquare(chart, 380, 297, 12, ' #7F5F1A');
-					//fn.addLegendLabel(chart, 'Übrige', 340, 234);
-					fn.addLegendSquare(chart, 380, 317, 12, '#923F8D');
-					//fn.addLegendLabel(chart, 'Spanien', 340, 254);
-					fn.addLegendSquare(chart, 380, 337, 12, '#68AB2B');
-					//fn.addLegendLabel(chart, 'Serbien, Montenegro, <br> Kosovo', 340, 274);
-					//fn.addLegendLabelbold(chart, 'Anzahl Zugezogene pro 100 Einwohner', 240, 307);
+					
+					//fn.addLegendSquare(chart, 254, 251, 12, '#B00000 '); // Checking alignment with right legend boxes
+					//fn.addLegendSquare(chart, 254, 267, 12, '#FABD24'); //Checking alignment with right legend boxes
+					
+					fn.addLegendSquare(chart, 354, 251, 12, '#B00000');
+					fn.addLegendLabel(chart, 'Deutschland', 365, 245);
+					fn.addLegendSquare(chart, 354, 267, 12, '#FABD24'); // !!!! Orange is behind green
+					fn.addLegendLabel(chart, 'Italien', 365, 262);
+					fn.addLegendSquare(chart, 354, 283, 12, '#E6E600');
+					fn.addLegendLabel(chart, 'Türkei', 365, 279);
+					fn.addLegendSquare(chart, 354, 299, 12, ' #7F5F1A');
+					fn.addLegendLabel(chart, 'Übrige', 365, 295);
+					fn.addLegendSquare(chart, 354, 315, 12, '#923F8D');
+					fn.addLegendLabel(chart, 'Spanien', 365, 310);
+					fn.addLegendSquare(chart, 354, 331, 12, '#68AB2B');
+					fn.addLegendLabel(chart, 'Serbien, Montenegro, <br> Kosovo', 365, 327);
+					fn.addLegendLabelbold(chart, 'Staatsangehörigkeit', 350, 215);
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);

@@ -245,14 +245,14 @@
       <tspan>Anzahl leerstehende Wohnungen</tspan>
     </text>
   </g>
-  <circle cx="280" cy="255" r="4.5342265631875724" fill="#7F5F1A" stroke="#7F5F1A" stroke-width="1" class="undefined pieLegend"/>
-  <g class="undefined pieLegend" transform="translate(300,245)">
+  <circle cx="280" cy="255" r="4.5342265631875724" fill="#7F5F1A" stroke="#7F5F1A" stroke-width="1" class="pieLegendHideOnZoom pieLegend"/>
+  <g class="pieLegendHideOnZoom pieLegend" transform="translate(300,245)">
     <text x="3" y="15">
       10
     </text>
   </g>
-  <circle cx="280" cy="280" r="11.996435874217413" fill="#7F5F1A" stroke="#7F5F1A" stroke-width="1" class="undefined pieLegend"/>
-  <g class="undefined pieLegend" transform="translate(300,270)">
+  <circle cx="280" cy="280" r="11.996435874217413" fill="#7F5F1A" stroke="#7F5F1A" stroke-width="1" class="pieLegendHideOnZoom pieLegend"/>
+  <g class="pieLegendHideOnZoom pieLegend" transform="translate(300,270)">
     <text x="3" y="15">
       70
     </text>
