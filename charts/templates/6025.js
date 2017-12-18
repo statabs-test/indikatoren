@@ -104,15 +104,15 @@
 						return {
 	                        sizeFormatter: function () {
 	                            var fn = this.chart.options.customFunctions;
-								return fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
+	                            var yAxis = chart.yAxis[0], zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
+								return zoom * fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
 								//return fn.pieSizeCategorical(Math.abs(data.value), pieSizeCatConfig).diameter;
 	                        },
 	                        tooltip: {
-	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {point.key} </span><br/>',
 	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),1) + '</b><br/>';
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + ((Math.sign(this.v) == 1) ? '+' : '') + Highcharts.numberFormat((this.v), 2) + ' Prozentpunkte</b><br/>';
 	                            }
-	                        },
+	                        }
 	                    };
 					};
 					var pieSizeCatConfig;
@@ -131,11 +131,11 @@
 	                //fn.addLegendCircle(chart, 410, 300, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
 	                //fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),2,"."," "), 430, 290);
 
-					fn.addLegendSquare(chart, 270, 265, 10, 'red');
-					fn.addLegendLabel(chart, 'Schweiz', 290, 260);
-					fn.addLegendSquare(chart, 270, 285, 10, 'blue');
-					fn.addLegendLabel(chart, 'Ausland', 290, 280);
-					fn.addLegendLabelbold(chart, 'Anzahl Zugezogene pro 100 Einwohner', 260, 305);
+					fn.addLegendSquare(chart, 270, 265, 10, 'red', 'pieLegendHideOnZoom');
+					fn.addLegendLabel(chart, 'Schweiz', 290, 260, 'pieLegendHideOnZoom');
+					fn.addLegendSquare(chart, 270, 285, 10, 'blue', 'pieLegendHideOnZoom');
+					fn.addLegendLabel(chart, 'Ausland', 290, 280, 'pieLegendHideOnZoom');
+					fn.addLegendLabelbold(chart, 'Anzahl Zugezogene pro 100 Einwohner', 260, 305, 'pieLegendHideOnZoom');
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
