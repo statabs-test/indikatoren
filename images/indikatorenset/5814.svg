@@ -240,7 +240,7 @@
       </text>
     </g>
   </g>
-  <g class="undefined pieLegend" transform="translate(265,225)">
+  <g class="undefined pieLegendTitle" transform="translate(265,225)">
     <text x="3" style="font-size:12px;font-weight:bold;" y="15">
       <tspan>Differenz 2016 zu 1998</tspan>
     </text>

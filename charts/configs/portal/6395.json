@@ -4078,7 +4078,7 @@
     	                })
     	                .attr({
     			        	zIndex: 6,
-    			        	class: cssClass + ' pieLegend'
+    			        	class: cssClass + ' pieLegendTitle'
     			        }).add();	                
                 },
     "addLegendCircle": function (chart, x, y, radius, fill, cssClass){

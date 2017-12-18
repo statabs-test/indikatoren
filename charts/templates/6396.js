@@ -15,7 +15,7 @@
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "right",
-			"x": -140,
+			"x": -127,
 			"y": -30,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
@@ -26,28 +26,28 @@
          colorAxis: {
             dataClassColor: 'category',
                    dataClasses: [{
-                to:13.00,
+                to:24.999,
                 color: '#D7E8D2',
-                name:  "&nbsp;<&nbsp;13,0"
+                name:  " &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;< &nbsp;&nbsp;25,0"
             }, {
-                from: 13.0,
-                to: 14.9,
+                from: 25.0,
+                to: 49.999,
                 color: '#73B97C',
-                name: "13,0 − 14,9"
+                name: "&nbsp;&nbsp;25,0 − &nbsp;&nbsp;49,9"
             }, {
-                from: 15.0,
-                to: 16.9,
+                from: 50.0,
+                to: 99.999,
                  color: '#68AB2B',
-                 name: "15,0 − 16,9"
+                 name: "&nbsp;&nbsp;50,0 −  &nbsp;&nbsp;99,9"
             },{
-                from: 17.0,
-                to: 19.9,
+                from: 100.0,
+                to: 199.999,
                  color: '#007A2F',
-                 name: "17,0 − 19,9"
+                 name: "100,0 − 199,9"
             },{
-                from: 20.0,
+                from: 200.0,
                 color: '#0A3B19',
-                name:  "&nbsp;≥&nbsp;20.0"
+                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;200,0"
             }], 
         },
         "data": {
@@ -108,20 +108,20 @@
 					var pieSizeCatConfig = 
 					[
 						{
-							name: '&nbsp;< 800',
+							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< 3 000',
 							from: 0,
-							to: 799, 
+							to: 3000, 
 							diameter: 2
 						},
 						{
-							name: ' 800 − 1 599',
-							from: 800,
-							to: 1599,
+							name: ' 3 000 − 7 999',
+							from: 3000,
+							to: 7999,
 							diameter: 8
 						},
 						{
-							name: '&nbsp;≥  10600',
-							from: 1600,							
+							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥  8 000',
+							from: 8000,							
 							to: 1000000000,
 							diameter: 16
 						}

@@ -240,7 +240,7 @@
       </text>
     </g>
   </g>
-  <g class="undefined pieLegend" transform="translate(265,220)">
+  <g class="undefined pieLegendTitle" transform="translate(265,220)">
     <text x="3" style="font-size:12px;font-weight:bold;" y="15">
       <tspan>Differenz 2015 zu 1995 in m²</tspan>
     </text>
@@ -257,7 +257,7 @@
       <tspan>120 000</tspan>
     </text>
   </g>
-  <g class="undefined pieLegend" transform="translate(265,300)">
+  <g class="undefined pieLegendTitle" transform="translate(265,300)">
     <text x="3" style="font-size:12px;font-weight:bold;" y="15">
       <tspan>Bruttogeschossfläche in 1000 m²</tspan>
     </text>

@@ -240,7 +240,7 @@
       </text>
     </g>
   </g>
-  <g class="pieLegendHideOnZoom pieLegend" transform="translate(265,220)">
+  <g class="pieLegendHideOnZoom pieLegendTitle" transform="translate(265,220)">
     <text x="3" style="font-size:12px;font-weight:bold;" y="15">
       <tspan>Anzahl unter 20-Jähriger</tspan>
     </text>
@@ -257,7 +257,12 @@
       <tspan>4 000</tspan>
     </text>
   </g>
-  <g class="pieLegendHideOnZoom pieLegend" transform="translate(265,307)">
+  <g class="pieLegendHideOnZoom pieLegend" transform="translate(7,40)">
+    <text x="3" y="15">
+      <tspan>Kanton Basel-Stadt: 32 873 unter 20-Jährige (16,6%)</tspan>
+    </text>
+  </g>
+  <g class="undefined pieLegendTitle" transform="translate(265,307)">
     <text x="3" style="font-size:12px;font-weight:bold;" y="15">
       <tspan>Anteil unter 20-Jähriger in %</tspan>
     </text>

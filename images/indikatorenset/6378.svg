@@ -240,7 +240,7 @@
       </text>
     </g>
   </g>
-  <g class="undefined pieLegend" transform="translate(265,220)">
+  <g class="pieLegendHideOnZoom pieLegendTitle" transform="translate(265,220)">
     <text x="3" style="font-size:12px;font-weight:bold;" y="15">
       <tspan>Anzahl Wohnungen</tspan>
     </text>
@@ -257,7 +257,7 @@
       <tspan>10 000</tspan>
     </text>
   </g>
-  <g class="undefined pieLegend" transform="translate(265,307)">
+  <g class="undefined pieLegendTitle" transform="translate(265,307)">
     <text x="3" style="font-size:12px;font-weight:bold;" y="15">
       <tspan>Wohnungen pro Hektare</tspan>
     </text>

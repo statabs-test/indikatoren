@@ -462,9 +462,9 @@
       </text>
     </g>
   </g>
-  <g class="highcharts-label" transform="translate(240,215)">
+  <g class="highcharts-label" transform="translate(240,307)">
     <text x="3" style="font-size:12px;font-weight:bold;" y="15">
-      Staatsangehörigkeit
+      <tspan>Ausländeranteil in %</tspan>
     </text>
   </g>
   <rect x="245" y="240" width="10" height="10" fill="#B00000" class="undefined pieLegend"/>
@@ -503,9 +503,9 @@
       <tspan>Serbien, Montenegro,</tspan><tspan x="3" dy="15">Kosovo</tspan>
     </text>
   </g>
-  <g class="undefined pieLegend" transform="translate(240,307)">
+  <g class="undefined pieLegend" transform="translate(240,215)">
     <text x="3" style="font-weight:bold;" y="15">
-      <tspan>Ausländeranteil in %</tspan>
+      Staatsangehörigkeit
     </text>
   </g>
   <g class="highcharts-legend" transform="translate(236,323)">

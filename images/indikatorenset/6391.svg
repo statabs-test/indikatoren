@@ -236,12 +236,12 @@
       </text>
     </g>
   </g>
-  <g class="undefined pieLegend" transform="translate(250,210)">
+  <g class="undefined pieLegendTitle" transform="translate(250,210)">
     <text x="3" style="font-size:12px;font-weight:bold;" y="15">
       <tspan>Leerwohnungs-</tspan><tspan x="3" dy="15">quote in %</tspan>
     </text>
   </g>
-  <g class="undefined pieLegend" transform="translate(365,210)">
+  <g class="undefined pieLegendTitle" transform="translate(365,210)">
     <text x="3" style="font-size:12px;font-weight:bold;" y="15">
       <tspan>Anzahl leerstehende</tspan><tspan x="3" dy="15">Wohnungen</tspan>
     </text>

@@ -26,7 +26,7 @@
          colorAxis: {
             dataClassColor: 'category',
                    dataClasses: [{
-                to:1.90,
+                to:1.999,
                 color: '#D7E8D2',
                 name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;2,0"
             }, {
@@ -41,7 +41,7 @@
                  name: "4,0 − 5,9"
             },{
                 from: 6.0,
-                to: 7.9,
+                to: 7.999,
                  color: '#007A2F',
                  name: "6,0 − 7,9"
             },{
