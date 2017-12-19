@@ -8,6 +8,7 @@
       y: 3,
       "format": "{value:,.0f}",
       "style": {
+      	fontSize: 10,
         "color": "#000000"
       }
     },
@@ -28,6 +29,7 @@
       y: 3,
       "format": "{value:,.0f}",
       "style": {
+      	fontSize: 10,
         "color": "#000000"
       }
     },

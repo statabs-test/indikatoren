@@ -27,6 +27,7 @@
         "format": "{value:,.0f}",
         y: 3,
          "style": {
+         fontSize: 10,
          "color": "black"
           },
       },
@@ -41,6 +42,7 @@
         "format": "{value:,.1f}",
         y: 3,
          "style": {
+          fontSize: 10,
          "color": "black"
           },
       },

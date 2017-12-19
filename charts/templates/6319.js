@@ -19,6 +19,7 @@
   {
     "title": {
       "style": {
+      	 fontSize: 10,
         "color": "#000000",
         "fontSize": null
       },
@@ -28,6 +29,7 @@
       "format": "{value:,.0f}",
       y: 3,
       "style": {
+      	 fontSize: 10,
         "color": "#000000"
       }
     },

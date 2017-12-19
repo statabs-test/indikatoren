@@ -56,6 +56,7 @@
             },
             "labels": {
                 "style": {
+                	fontSize: 10,
                     "color": "#000000"
                 }
             },
@@ -75,6 +76,7 @@
             "labels": {
                 y: 3, 
                 "style": {
+                	fontSize: 10,
                     "color": "#000000"
                 }
             }

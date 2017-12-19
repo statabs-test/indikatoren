@@ -24,6 +24,8 @@
       "format": "{value:,.0f} kg",
       y: 3,
       "style": {
+      	"fontSize": 10,
+      	"fontFamily": "Arial",
        "color": "#000000"
         },
     },
@@ -38,6 +40,8 @@
       "format": "{value:,.0f}%",
       y: 3,
        "style": {
+       	"fontSize": 10,
+       	"fontFamily": "Arial",
        "color": "#000000"
         },
     },

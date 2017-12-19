@@ -7,6 +7,7 @@
     "labels": {
       "format": "{value:,.0f}",
       "style": {
+      	 fontSize: 10,
         "color": "#000000"
       }
     },
@@ -26,6 +27,7 @@
     "labels": {
       "format": "{value:,.0f}",
       "style": {
+      	 fontSize: 10,
         "color": "#000000"
       }
     },

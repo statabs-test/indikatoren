@@ -11,6 +11,10 @@
   "yAxis": {
     min: null,
     "labels": {
+        "style": {
+         fontSize: 10,
+           "color": "#000000"
+         },
       y: 12,
       "format": "{value}%"
     }    
