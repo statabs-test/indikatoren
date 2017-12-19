@@ -86,7 +86,7 @@
   "chart": {      
     "type": "column",
     "inverted": false,
-    width: 600
+    width: 665
     //"spacingBottom": 40
   }
 }

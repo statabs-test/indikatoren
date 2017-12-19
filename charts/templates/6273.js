@@ -46,7 +46,7 @@
   "chart": {      
     "type": "column",
     "inverted": true,
-    width: 600
+    width: 665
   },
 }
 }());
