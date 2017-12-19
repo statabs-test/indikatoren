@@ -9,7 +9,7 @@
             var last  = this.series.data[this.series.data.length - 1];
             var first  = this.series.data[0];
             if (this.point.x === first.x || this.point.x === last.x) {
-              return Highcharts.numberFormat(this.point.y, 1, ",", " ");
+              return Highcharts.numberFormat(this.point.y, 2, ",", " ");
             }
             return "";
           }

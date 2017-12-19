@@ -57,12 +57,12 @@
     <tspan>Wasserabfluss via ARA</tspan>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="40">
-    <tspan>in Kubikmeter pro Einwohner (im Einzugsgebiet der ARA Basel)</tspan>
+    <tspan>in m3 pro Einwohner (im Einzugsgebiet der ARA Basel)</tspan>
   </text>
   <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series " visibility="visible" transform="translate(43,75) scale(1 1)">
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(12,39)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(9,39)">
       <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16">
-        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">151,1</tspan><tspan x="5" y="16">151,1</tspan>
+        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">151,11</tspan><tspan x="5" y="16">151,11</tspan>
       </text>
     </g>
     <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(88,69)">
@@ -80,9 +80,9 @@
     <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(334,91)">
       <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16"/>
     </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(382,85)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(379,85)">
       <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16">
-        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">115,6</tspan><tspan x="5" y="16">115,6</tspan>
+        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">115,57</tspan><tspan x="5" y="16">115,57</tspan>
       </text>
     </g>
   </g>

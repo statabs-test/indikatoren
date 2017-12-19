@@ -48,14 +48,14 @@
     <tspan>Anzahl Plätze pro 1000 Kinder im Alter von 0-3 Jahren (in der Stadt Basel)</tspan>
   </text>
   <g class="highcharts-data-labels highcharts-series-0 highcharts-column-series " visibility="visible" transform="translate(43,75) scale(1 1)">
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(91,2)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(88,2)">
       <text x="5" style="font-size:10px;font-weight:bold;color:#000000;fill:#000000;" y="15">
-        <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">182,3</tspan><tspan x="5" y="15">182,3</tspan>
+        <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">182,29</tspan><tspan x="5" y="15">182,29</tspan>
       </text>
     </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(307,-2)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(304,-2)">
       <text x="5" style="font-size:10px;font-weight:bold;color:#000000;fill:#000000;" y="15">
-        <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">185,2</tspan><tspan x="5" y="15">185,2</tspan>
+        <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">185,15</tspan><tspan x="5" y="15">185,15</tspan>
       </text>
     </g>
   </g>

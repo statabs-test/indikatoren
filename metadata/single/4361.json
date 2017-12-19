@@ -1,6 +1,6 @@
 {"title":"Nettoverschuldungsquotient",
 "subtitle":"des Kantons Basel-Stadt",
-"kuerzel":"BI.04.04361",
+"kuerzel":"I.04.2.04361",
 "kuerzelKunde":"W10",
 "description":"Nettoverschuldungsquotient",
 "id":4361,
@@ -16,15 +16,13 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Der Nettoverschuldungsquotient des Kantons Basel-Stadt sank von 171,44% im Jahr 2003 auf 65,89% im Jahr 2015.",
-"erlaeuterungen":"Der Nettoverschuldungsquotient gibt an, welcher Anteil der jährlichen Fiskalerträge erforderlich wäre, um die Nettoschulden abzutragen. Er wird berechnet, indem die Nettoschulden I durch die Fiskalerträge dividiert werden. (Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>). Bis und mit 2011 wurde für Basel-Stadt zur Berechnung das alte Harmonisierte Rechnungslegungsmodell (HRM1) verwendet, ab 2013 das neue HRM 2 Modell.<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
+"erlaeuterungen":"Der Nettoverschuldungsquotient gibt an, welcher Anteil der jährlichen Fiskalerträge erforderlich wäre, um die Nettoschulden abzutragen. Er wird berechnet, indem die Nettoschulden I durch die Fiskalerträge dividiert werden. (Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>). Bis zum Jahr 2011 wurde für Basel-Stadt zur Berechnung das alte Harmonisierte Rechnungslegungsmodell (HRM1) verwendet, ab 2013 das neue HRM 2 Modell.<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
 "template":"template001",
-"option":"options001",
 "visible":true,
-"visibleInPortal":true,
 "orderKey":"02_28_00_00_00_400",
 "parentId":null,
 "children":[],
 "renderLink":[],
 "quellenangabe":["Finanzverwaltung Basel-Stadt"],
-"externalLinks":["Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der&nbsp<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik </a>."]
+"externalLinks":["Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der&nbsp <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik </a>."]
 }

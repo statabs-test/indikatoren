@@ -85,8 +85,9 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Kubikmeter pro Einwohner (im Einzugsgebiet der ARA Basel)",
-    "align": "left"
+    "text": "in m\u003Csup\u003E3\u003C\u002Fsup\u003E pro Einwohner (im Einzugsgebiet der ARA Basel)",
+    "align": "left",
+    "useHTML": true
   },
   "tooltip": {
     "shared": false
@@ -139,7 +140,7 @@
             var last  = this.series.data[this.series.data.length - 1];
             var first  = this.series.data[0];
             if (this.point.x === first.x || this.point.x === last.x) {
-              return Highcharts.numberFormat(this.point.y, 1, ",", " ");
+              return Highcharts.numberFormat(this.point.y, 2, ",", " ");
             }
             return "";
           }
@@ -147,6 +148,6 @@
     }
   },
   "exporting": {
-    "filename": "BI.02.04348"
+    "filename": "I.02.19.04348"
   }
 }

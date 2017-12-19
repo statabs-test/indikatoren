@@ -53,9 +53,9 @@
     <tspan>pro 1000 Einwohner (in der Stadt Basel)</tspan>
   </text>
   <g class="highcharts-data-labels highcharts-series-0 highcharts-column-series " visibility="visible" transform="translate(31,75) scale(1 1)">
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(44,36)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(41,36)">
       <text x="5" style="font-size:10px;font-weight:bold;color:#000000;fill:#000000;" y="15">
-        <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">3,9</tspan><tspan x="5" y="15">3,9</tspan>
+        <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">3,86</tspan><tspan x="5" y="15">3,86</tspan>
       </text>
     </g>
     <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(162,55)">
@@ -64,9 +64,9 @@
     <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(273,15)">
       <text x="5" style="font-size:10px;font-weight:bold;color:#000000;fill:#000000;" y="15"/>
     </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(377,40)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(374,40)">
       <text x="5" style="font-size:10px;font-weight:bold;color:#000000;fill:#000000;" y="15">
-        <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">3,8</tspan><tspan x="5" y="15">3,8</tspan>
+        <tspan x="5" y="15" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">3,79</tspan><tspan x="5" y="15">3,79</tspan>
       </text>
     </g>
   </g>
