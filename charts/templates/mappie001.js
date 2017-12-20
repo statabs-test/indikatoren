@@ -362,18 +362,17 @@
 				},    		    
     		    
                 //helper functions for pie legend
-    	        addLegendTitle: function(chart, title, x, y, cssClass, useHtml){
-            		return chart.renderer.label(title, x, y, undefined, undefined, undefined, useHtml)
+    	        addLegendTitle: function(chart, title, x, y){
+            		return chart.renderer.label(title, x, y)
          				.css({
     	                    fontSize: '12px',
     	                    fontWeight: 'bold'
     	                })
     	                .attr({
     			        	zIndex: 6,
-    			        	class: cssClass + ' pieLegendTitle'
+    			        	//class: 'pieLegend'
     			        }).add();	                
                 },
-    	                
                 addLegendCircle: function(chart, x, y, radius, fill, cssClass){
                 	return chart.renderer.circle(x, y, radius, fill).attr({
     				    fill: fill,
@@ -386,13 +385,17 @@
     	                
     	                
                 addLegendLabel: function(chart, text, x, y, cssClass, useHtml){
-    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
-    				.attr({
+    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
     					zIndex: 6,
     					class: cssClass + ' pieLegend'
     				}).add();
                 },
-                
+                addSubtitle: function(chart, text, x, y, cssClass, useHtml){
+    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
+    					zIndex: 6,
+    					class: cssClass + ' pieSubtitle'
+    				}).add();
+                },
                  addLegendLabelbold: function(chart, text, x, y, cssClass, useHtml){
     				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).
     				attr({
