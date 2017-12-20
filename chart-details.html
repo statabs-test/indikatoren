@@ -29,11 +29,10 @@
     <!--script src="assets/js/modules/html2pdf.js/dist/html2pdf.bundle.min.js"></script-->
     <script src="assets/js/modules/jspdf/dist/jspdf.min.js"></script>
     
-    <!--    
     <script type="text/javascript" src="https://canvg.github.io/canvg/rgbcolor.js"></script> 
     <script type="text/javascript" src="https://canvg.github.io/canvg/StackBlur.js"></script>
     <script type="text/javascript" src="https://canvg.github.io/canvg/canvg.js"></script>     
-    -->
+    
 
     <style type="text/css">
       
@@ -288,6 +287,29 @@
       }
       
 
+        
+      var createPdfUsingCanvg = function(){
+        //source: https://stackoverflow.com/a/33392875/5005585
+        //Seems to work fine in IE 11, Chrome 63, Safari 11
+        //png is black in Edge, see https://github.com/canvg/canvg/issues/520
+        var svg = Highcharts.charts[0].getSVG();
+        var scale = 3;
+        var imageWidth = svg.match(/^<svg[^>]*width\s*=\s*\"?(\d+)\"?[^>]*>/)[1] * scale;
+        var imageHeight = svg.match(/^<svg[^>]*height\s*=\s*\"?(\d+)\"?[^>]*>/)[1] * scale;          
+        var mycanvas = document.createElement('canvas');
+        mycanvas.width = imageWidth;
+        mycanvas.height = imageHeight;
+        var ctx = mycanvas.getContext('2d');
+        ctx.drawSvg(svg, 0, 0, imageWidth, imageHeight);
+        var dataUrl = mycanvas.toDataURL("image/png");
+        savePDF(dataUrl);
+      };
+      
+        
+      $('#export').click(createPdfUsingCanvg);        
+      
+            
+/*
       var createPdfUsingHighchartsOnline = function(){
           var options = Highcharts.charts[0].options;
           var obj = {},
@@ -310,41 +332,6 @@
               }
           });
       };
-      
-      $('#export').click(createPdfUsingHighchartsOnline);  
-
-        
-        //========================
-        
-          
-        var createPdfUsingCanvg = function(){
-          //source: https://stackoverflow.com/a/33392875/5005585
-          //Seems to work fine in IE 11, Chrome 63, Safari 11
-          //png is black in Edge, see https://github.com/canvg/canvg/issues/520
-          var svg = Highcharts.charts[0].getSVG();
-          //console.log(svg);
-          var scale = 3;
-          var imageWidth = svg.match(/^<svg[^>]*width\s*=\s*\"?(\d+)\"?[^>]*>/)[1] * scale;
-          var imageHeight = svg.match(/^<svg[^>]*height\s*=\s*\"?(\d+)\"?[^>]*>/)[1] * scale;          
-          var mycanvas = document.createElement('canvas');
-          mycanvas.width = imageWidth;
-          mycanvas.height = imageHeight;
-          var ctx = mycanvas.getContext('2d');
-          ctx.drawSvg(svg, 0, 0, imageWidth, imageHeight);
-          //canvg(mycanvas, svg);
-          console.log(mycanvas.width);
-          var dataUrl = mycanvas.toDataURL("image/png");
-          //console.log(dataUrl);
-          savePDF(dataUrl);
-        };
-        
-        
-        
-        
-
-      
-      
-            
       
       
       var createPdfUsingHighchartsOffline = function() {
@@ -373,18 +360,17 @@
               }
           };
           // First, try to get PNG by rendering on canvas
-          Highcharts.imageToDataUrl(svgurl, imageType, { /* args */ }, scale, function(imageURL) {
+          Highcharts.imageToDataUrl(svgurl, imageType, { }, scale, function(imageURL) {
                   // Success
                   try {
                       //console.log('imageToDataUrl: ');
                       //console.log(imageURL);
                       savePDF(imageURL)
                       //Highcharts.downloadURL(imageURL, filename);
-                      /*
-                      if (successCallback) {
-                          successCallback();
-                      }
-                      */
+                      
+                      //if (successCallback) {
+                      //    successCallback();
+                      //}
                   } catch (e) {
                       failCallback('failed in imageToDataUrl');
                   }
@@ -437,11 +423,6 @@
                   }
               });
         
-          /**
-           * Downloads a script and executes a callback when done.
-           * @param {String} scriptLocation
-           * @param {Function} callback
-           */
           function getScript(scriptLocation, callback) {
               var head = doc.getElementsByTagName('head')[0],
                   script = doc.createElement('script');
@@ -455,6 +436,8 @@
       
               head.appendChild(script);
           }
+          
+          
         };
         
 
@@ -481,7 +464,7 @@
       }        
         
         
-
+      */
       
     </script>
 

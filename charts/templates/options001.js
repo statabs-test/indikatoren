@@ -68,14 +68,6 @@ menuItems.push(
 
 menuItems.push(
     {
-        "text": "Einzelansicht PDF", 
-        "onclick": function(){            
-            window.open('http://www.html2pdf.it/?url=' + $.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/' + $.url(1) + '/chart-details.html?id=' + this.renderTo.id.substring(10) + indikatorensetParameter + "&suppressNumberInTitle=true&download=true&format=A4&filename=" + this.renderTo.id.substring(10), '_blank');
-        }
-    });
-
-menuItems.push(
-    {
         "text": "Einbetten", 
         "onclick": function(){            
             window.open($.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/' + $.url(1) + '/chart.html?id=' + this.renderTo.id.substring(10) + indikatorensetParameter + "&suppressNumberInTitle=true", '_blank'); 
