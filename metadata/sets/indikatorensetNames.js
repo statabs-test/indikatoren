@@ -6,6 +6,7 @@ var indikatorensetNames = [
 	"Gesellschaftlicher-Zusammenhalt",
 	"Wohnviertel",
 	"Richtplan",
+	"Integration",
 	"Richtplan (Print)",
 	"Legislaturplan (Print)",
 	"Test"
