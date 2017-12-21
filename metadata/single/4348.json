@@ -1,5 +1,5 @@
 {"title":"Wasserabfluss via ARA",
-"subtitle":"in m<sup>3</sup> pro Einwohner (im Einzugsgebiet der ARA Basel)",
+"subtitle":"in m<sup>3</sup> pro Einwohner im Einzugsgebiet der ARA Basel",
 "kuerzel":"I.02.19.04348",
 "kuerzelKunde":"U07",
 "description":"Wasserabfluss via ARA",
@@ -24,5 +24,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","ProRheno AG","Statistisches Amt Basel-Landschaft"],
-"externalLinks":["Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der&nbsp <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik </a>."]
+"externalLinks":["Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."]
 }

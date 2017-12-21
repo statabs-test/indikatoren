@@ -1320,7 +1320,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Flächenanteil wertvoller Naturräume lag in der Stadt Basel 2015 bei 12.6%.",
+		"lesehilfe": "Der Flächenanteil wertvoller Naturräume lag in der Stadt Basel 2015 bei 12,6%.",
 		"erlaeuterungen": "Summe ökologisch wertvoller Flächen in Prozent der Stadtfläche (Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>).<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
 		"template": "template001",
 		"visible": true,
@@ -1333,7 +1333,7 @@ var indikatoren = [
 			"Stadtgärtnerei Basel-Stadt"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der&nbsp <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik </a>."
+			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		]
 	},
 	{
@@ -1599,7 +1599,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wasserabfluss via ARA",
-		"subtitle": "in m<sup>3</sup> pro Einwohner (im Einzugsgebiet der ARA Basel)",
+		"subtitle": "in m<sup>3</sup> pro Einwohner im Einzugsgebiet der ARA Basel",
 		"kuerzel": "I.02.19.04348",
 		"kuerzelKunde": "U07",
 		"description": "Wasserabfluss via ARA",
@@ -1636,12 +1636,12 @@ var indikatoren = [
 			"Statistisches Amt Basel-Landschaft"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der&nbsp <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik </a>."
+			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		]
 	},
 	{
 		"title": "Ablauffracht nach ARA",
-		"subtitle": "in Belastungseinheiten pro Einwohner (im Einzugsgebiet der ARA Basel)",
+		"subtitle": "in Belastungseinheiten pro Einwohner im Einzugsgebiet der ARA Basel",
 		"kuerzel": "I.02.19.04350",
 		"kuerzelKunde": "U08",
 		"description": "Ablauffracht nach ARA",
@@ -1665,7 +1665,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Ablauffracht der ARA Basel betrug 2015 308,15 Belastungseinheiten pro Einwohner.",
-		"erlaeuterungen": "Ablauffracht nach ARA pro angeschlossenemr Einwohner auf der Basis eines aggregierten, synthetischen Schadstoff- und Nährstofffaktors aus dem Sauerstoffbedarf (Biochemischer Sauerstoffbedarf BSB<sub>5</sub>), und aus den Ammonium- und Phosphor-Konzentrationen (Jahresmittelwerte) im Verhältnis zu den entsprechenden Grenzwerten der Einleitungsbedingungen in der Gewässerschutzverordnung multipliziert mit der jährlichen Wasserzuflussmenge durch die ARA (gesamt, gemessen beim ARA Eingang). Der Indikator stellt eine mit der Schadstoff- bzw. Nährstoffbelastung gewichtete virtuell erhöhte Abflussmenge dar (Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>). <br>Das Einzugsgebiet der ARA Basel umfasst die Gemeinden Basel, Riehen, Bettingen, Neuwiller (F), Allschwil, Binningen, Birsfelden, Bottmingen, Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Münchenstein (Ortsteil Brüglingen).<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
+		"erlaeuterungen": "Ablauffracht nach ARA pro angeschlossenem Einwohner auf der Basis eines aggregierten, synthetischen Schadstoff- und Nährstofffaktors aus dem Sauerstoffbedarf (Biochemischer Sauerstoffbedarf BSB<sub>5</sub>), und aus den Ammonium- und Phosphor-Konzentrationen (Jahresmittelwerte) im Verhältnis zu den entsprechenden Grenzwerten der Einleitungsbedingungen in der Gewässerschutzverordnung, multipliziert mit der jährlichen Wasserzuflussmenge durch die ARA (gesamt, gemessen beim ARA-Eingang). Der Indikator stellt eine mit der Schadstoff- bzw. Nährstoffbelastung gewichtete virtuell erhöhte Abflussmenge dar (Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>). <br>Das Einzugsgebiet der ARA Basel umfasst die Gemeinden Basel, Riehen, Bettingen, Neuwiller (F), Allschwil, Binningen, Birsfelden, Bottmingen, Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Münchenstein (Ortsteil Brüglingen).<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
 		"template": "line001",
 		"visible": true,
 		"orderKey": "01_07_00_00_00_080",
@@ -1678,12 +1678,12 @@ var indikatoren = [
 			"Statistisches Amt Basel-Landschaft"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der&nbsp <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik </a>."
+			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		]
 	},
 	{
 		"title": "Erneuerbarer Strom",
-		"subtitle": "Anteil am gesamten Stromverbrauch (in der Stadt Basel)",
+		"subtitle": "Anteil am gesamten Stromverbrauch in der Stadt Basel",
 		"kuerzel": "I.08.3.04352",
 		"kuerzelKunde": "U03",
 		"description": "Erneuerbarer Strom",
@@ -1720,7 +1720,7 @@ var indikatoren = [
 			"Verband Schweizerischer Elektrizitätsunternehmen VSE"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der&nbsp <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik </a>."
+			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		]
 	},
 	{
@@ -1759,12 +1759,12 @@ var indikatoren = [
 			"Bundesamt für Statistik (BFS)"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der&nbsp <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik </a>."
+			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		]
 	},
 	{
 		"title": "Umbau- und Unterhaltsarbeiten",
-		"subtitle": "Anteil am Total der Bauausgaben (in der Stadt Basel)",
+		"subtitle": "Anteil am Total der Bauausgaben in der Stadt Basel",
 		"kuerzel": "I.09.1.04356",
 		"kuerzelKunde": "W04",
 		"description": "Umbau- und Unterhaltsarbeiten",
@@ -1795,15 +1795,15 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Bau- und Wohnbaustatistik (B&Wbs)"
+			"Bundesamt für Statistik (BFS), Bau- und Wohnbaustatistik"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der&nbsp <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik </a>."
+			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		]
 	},
 	{
 		"title": "Beschäftigte in Branchen mit hoher Arbeitsproduktivität",
-		"subtitle": "Anteil am Total der Beschäftigten (in der Stadt Basel)",
+		"subtitle": "Anteil am Total der Beschäftigten in der Stadt Basel",
 		"kuerzel": "I.03.2.04359",
 		"kuerzelKunde": "W08",
 		"description": "Beschäftigte in Branchen mit hoher Arbeitsproduktivität",
@@ -1837,12 +1837,12 @@ var indikatoren = [
 			"Volkswirtschaftliche Gesamtrechnung (VGR)"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der&nbsp <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik </a>."
+			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		]
 	},
 	{
 		"title": "Qualifikationsniveau",
-		"subtitle": "Anteil der 25- bis 64-Jährigen mit Ausbildung auf tertiärer Stufe (in der Stadt Basel)",
+		"subtitle": "Anteil der 25- bis 64-Jährigen mit Ausbildung auf tertiärer Stufe in der Stadt Basel",
 		"kuerzel": "I.03.2.04360",
 		"kuerzelKunde": "W09",
 		"description": "Qualifikationsniveau",
@@ -1875,7 +1875,7 @@ var indikatoren = [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der&nbsp <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik </a>."
+			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		]
 	},
 	{
@@ -1902,7 +1902,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Nettoverschuldungsquotient des Kantons Basel-Stadt sank von 171,44% im Jahr 2003 auf 65,89% im Jahr 2015.",
-		"erlaeuterungen": "Der Nettoverschuldungsquotient gibt an, welcher Anteil der jährlichen Fiskalerträge erforderlich wäre, um die Nettoschulden abzutragen. Er wird berechnet, indem die Nettoschulden I durch die Fiskalerträge dividiert werden. (Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>). Bis zum Jahr 2011 wurde für Basel-Stadt zur Berechnung das alte Harmonisierte Rechnungslegungsmodell (HRM1) verwendet, ab 2013 das neue HRM 2 Modell.<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
+		"erlaeuterungen": "Der Nettoverschuldungsquotient gibt an, welcher Anteil der jährlichen Fiskalerträge erforderlich wäre, um die Nettoschulden abzutragen. Er wird berechnet, indem die Nettoschulden I durch die Fiskalerträge dividiert werden. (Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>). Bis zum Jahr 2011 wurde für Basel-Stadt zur Berechnung das alte Harmonisierte Rechnungslegungsmodell (HRM1) verwendet, ab 2013 das neue Modell HRM2.<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
 		"template": "template001",
 		"visible": true,
 		"orderKey": "02_28_00_00_00_400",
@@ -1913,12 +1913,12 @@ var indikatoren = [
 			"Finanzverwaltung Basel-Stadt"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der&nbsp <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik </a>."
+			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		]
 	},
 	{
 		"title": "Verkehrsberuhigte Zonen",
-		"subtitle": "Anteil an der Gesamtlänge der Gemeindestrassen in den Bauzonen (in der Stadt Basel)",
+		"subtitle": "Anteil an der Gesamtlänge der Gemeindestrassen in den Bauzonen in der Stadt Basel",
 		"kuerzel": "I.11.?.04364",
 		"kuerzelKunde": "G01",
 		"description": "Verkehrsberuhigte Zonen",
@@ -1941,7 +1941,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Anteil verkehrsberuhigter Zonen in der Stadt Basel stieg von 58,63% im Jahr 2003 auf 72,65% im Jahr 2015.",
-		"erlaeuterungen": "Summe der Anteile der Tempo-30-Zonen, Begegnungszonen und Fussgängerzonen (gemäss Signalisationsverordnung SSV, Art. 22a, 22b und 22c) an der Gesamtlänge der Gemeindestrassen in den Bauzonen. Nicht gezählt werden die Nationalstrassen, die Kantonsstrassen, die Privatstrassen, die unbefestigten Strassen, die Spazier- und Radwege, sowie die Güter- und Forststrassen (Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>).<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
+		"erlaeuterungen": "Summe der Anteile der Tempo 30-Zonen, Begegnungszonen und Fussgängerzonen (gemäss Signalisationsverordnung SSV, Art. 22a, 22b und 22c) an der Gesamtlänge der Gemeindestrassen in den Bauzonen. Nicht gezählt werden die Nationalstrassen, die Kantonsstrassen, die Privatstrassen, die unbefestigten Strassen, die Spazier- und Radwege, sowie die Güter- und Forststrassen (Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>).<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
 		"template": "template001",
 		"visible": true,
 		"orderKey": "03_40_00_00_00_510",
@@ -1952,12 +1952,12 @@ var indikatoren = [
 			"Amt für Mobilität Basel-Stadt"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der&nbsp <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik </a>."
+			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		]
 	},
 	{
 		"title": "Einbruchdiebstähle",
-		"subtitle": "pro 1000 Einwohner (in der Stadt Basel)",
+		"subtitle": "pro 1000 Einwohner in der Stadt Basel",
 		"kuerzel": "I.19.3.04367",
 		"kuerzelKunde": "G04",
 		"description": "Einbruchdiebstähle",
@@ -1980,7 +1980,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Anzahl Einbruchdiebstähle in der Stadt Basel lag 2015 bei 3,79 pro 1000 Einwohnern.",
-		"erlaeuterungen": "Anzahl der von der Polizei pro 1000 Einwohnern (ständige Wohnbevölkerung am 31. Dezember) und Jahr registrierten Einbruchdiebstähle (inkl. Versuche) in Ein- und Mehrfamilienhäuser. Die Einbruchdiebstähle in Keller, Speicher und weitere Nebenräume sind eingeschlossen (Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>).<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
+		"erlaeuterungen": "Anzahl der von der Polizei pro 1000 Einwohner (ständige Wohnbevölkerung am 31.&nbsp;Dezember) und Jahr registrierten Einbruchdiebstähle (inkl. Versuche) in Ein- und Mehrfamilienhäuser. Die Einbruchdiebstähle in Keller, Speicher und weitere Nebenräume sind eingeschlossen (Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>).<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
 		"template": "template001",
 		"visible": true,
 		"orderKey": "03_43_00_00_00_540",
@@ -1993,12 +1993,12 @@ var indikatoren = [
 			"Bundesamt für Statistik (BFS), Statistik des jährlichen Bevölkerungsstandes, 1981-2010 (ESPOP)"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der&nbsp <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik </a>."
+			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		]
 	},
 	{
 		"title": "Familienergänzendes Kinderbetreuungsangebot",
-		"subtitle": "Anzahl Plätze pro 1000 Kinder im Alter von 0-3 Jahren (in der Stadt Basel)",
+		"subtitle": "Anzahl Plätze pro 1000 Kinder im Alter von 0-3 Jahren in der Stadt Basel",
 		"kuerzel": "I.13.?.04374",
 		"kuerzelKunde": "G11",
 		"description": "Familienergänzendes Kinderbetreuungsangebot",
@@ -2032,7 +2032,7 @@ var indikatoren = [
 			"Erziehungsdepartement, Fachstelle Tagesbetreuung"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der&nbsp <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik </a>."
+			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		]
 	},
 	{

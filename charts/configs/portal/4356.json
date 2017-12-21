@@ -86,7 +86,7 @@
             var last  = this.series.data[this.series.data.length - 1];
             var first  = this.series.data[0];
             if (this.point.x === first.x || this.point.x === last.x) {
-              return Highcharts.numberFormat(this.point.y, 2, ",", " ");
+              return Highcharts.numberFormat(this.point.y, 2, ",", " ") + "%";
             }
             return "";
           }
@@ -109,7 +109,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Anteil am Total der Bauausgaben (in der Stadt Basel)",
+    "text": "Anteil am Total der Bauausgaben in der Stadt Basel",
     "align": "left"
   },
   "yAxis": {
@@ -149,7 +149,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Bau- und Wohnbaustatistik (B&Wbs)"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Bau- und Wohnbaustatistik"
   },
   "legend": {
     "symbolRadius": 0,

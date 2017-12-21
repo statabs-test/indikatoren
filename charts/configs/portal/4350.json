@@ -85,7 +85,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Belastungseinheiten pro Einwohner (im Einzugsgebiet der ARA Basel)",
+    "text": "in Belastungseinheiten pro Einwohner im Einzugsgebiet der ARA Basel",
     "align": "left"
   },
   "tooltip": {

@@ -1,5 +1,5 @@
 {"title":"Umbau- und Unterhaltsarbeiten",
-"subtitle":"Anteil am Total der Bauausgaben (in der Stadt Basel)",
+"subtitle":"Anteil am Total der Bauausgaben in der Stadt Basel",
 "kuerzel":"I.09.1.04356",
 "kuerzelKunde":"W04",
 "description":"Umbau- und Unterhaltsarbeiten",
@@ -23,6 +23,6 @@
 "parentId":null,
 "children":[],
 "renderLink":[],
-"quellenangabe":["Bundesamt für Statistik (BFS), Bau- und Wohnbaustatistik (B&Wbs)"],
-"externalLinks":["Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der&nbsp <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik </a>."]
+"quellenangabe":["Bundesamt für Statistik (BFS), Bau- und Wohnbaustatistik"],
+"externalLinks":["Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."]
 }
