@@ -25,10 +25,10 @@
 		},
          colorAxis: {
             dataClassColor: 'category',
-                   dataClasses: [{
+        	dataClasses: [{
                 to:0.34999,
                 color: '#D7E8D2',
-                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;0,349"
+                name:  "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<\u00a00,349"
             }, {
                 from: 0.35,
                 to: 0.449,
@@ -47,7 +47,7 @@
             },{
                 from: 0.8,
                 color: '#0A3B19',
-                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;0,800"
+                name:  "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0≥\u00a00,800"
             }], 
         },
         "data": {
@@ -108,7 +108,7 @@
 					var pieSizeCatConfig = 
 					[
 						{
-							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< 15,0',
+							name: '\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0< 15,0',
 							from: 0,
 							to: 14.999, 
 							diameter: 2
@@ -120,7 +120,7 @@
 							diameter: 8
 						},
 						{
-							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥  30,0',
+							name: '\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0≥  30,0',
 							from: 30,							
 							to: 1000000000,
 							diameter: 16
