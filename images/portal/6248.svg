@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 208">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 208">
   <desc>
-    Created with Highstock 6.0.3
+    Created with Highstock 5.0.14
   </desc>
   <defs>
     <clipPath>
@@ -41,7 +41,7 @@
     <path fill="none" class="highcharts-axis-line" d="M 38 56 L 38 167"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series " transform="translate(38,56) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(38,56) scale(1 1)" clip-path="url(#a)">
       <rect x="8.5" y="64.5" width="15" height="10" fill="#b475ab" stroke="#b475ab" stroke-width="1" class="highcharts-point"/>
       <rect x="35.5" y="57.5" width="15" height="17" fill="#b475ab" stroke="#b475ab" stroke-width="1" class="highcharts-point"/>
       <rect x="62.5" y="36.5" width="15" height="38" fill="#b475ab" stroke="#b475ab" stroke-width="1" class="highcharts-point"/>
@@ -53,8 +53,8 @@
       <rect x="227.5" y="7.5" width="15" height="65" fill="#b475ab" stroke="#b475ab" stroke-width="1" class="highcharts-point"/>
       <rect x="254.5" y="31.5" width="15" height="34" fill="#b475ab" stroke="#b475ab" stroke-width="1" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-column-series " transform="translate(38,56) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-1 highcharts-column-series " transform="translate(38,56) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(38,56) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(38,56) scale(1 1)" clip-path="url(#a)">
       <rect x="8.5" y="80.5" width="15" height="9" fill="#a8c4cb" stroke="#a8c4cb" stroke-width="1" class="highcharts-point highcharts-negative"/>
       <rect x="35.5" y="76.5" width="15" height="11" fill="#a8c4cb" stroke="#a8c4cb" stroke-width="1" class="highcharts-point highcharts-negative"/>
       <rect x="62.5" y="75.5" width="15" height="13" fill="#a8c4cb" stroke="#a8c4cb" stroke-width="1" class="highcharts-point highcharts-negative"/>
@@ -66,8 +66,8 @@
       <rect x="227.5" y="74.5" width="15" height="15" fill="#a8c4cb" stroke="#a8c4cb" stroke-width="1" class="highcharts-point highcharts-negative"/>
       <rect x="254.5" y="74.5" width="15" height="6" fill="#a8c4cb" stroke="#a8c4cb" stroke-width="1" class="highcharts-point highcharts-negative"/>
     </g>
-    <g class="highcharts-markers highcharts-series-1 highcharts-column-series " transform="translate(38,56) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-2 highcharts-column-series " transform="translate(38,56) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(38,56) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(38,56) scale(1 1)" clip-path="url(#a)">
       <rect x="8.5" y="74.5" width="15" height="6" fill="#fabd24" stroke="#fabd24" stroke-width="1" class="highcharts-point highcharts-negative"/>
       <rect x="35.5" y="74.5" width="15" height="2" fill="#fabd24" stroke="#fabd24" stroke-width="1" class="highcharts-point highcharts-negative"/>
       <rect x="62.5" y="74.5" width="15" height="1" fill="#fabd24" stroke="#fabd24" stroke-width="1" class="highcharts-point highcharts-negative"/>
@@ -79,16 +79,15 @@
       <rect x="227.5" y="72.5" width="15" height="2" fill="#fabd24" stroke="#fabd24" stroke-width="1" class="highcharts-point"/>
       <rect x="254.5" y="65.5" width="15" height="9" fill="#fabd24" stroke="#fabd24" stroke-width="1" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-2 highcharts-column-series " transform="translate(38,56) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-3 highcharts-line-series " transform="translate(38,56) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(38,56) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-3 highcharts-line-series highcharts-color-undefined " transform="translate(38,56) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 16.169941060902 79.01555555555555 L 43.576620825146 70.05333333333334 L 70.98330058939 49.33333333333333 L 98.389980353634 56.897777777777776 L 125.79666011788 48.428888888888885 L 153.20333988212 51.8 L 180.61001964637 59.94 L 208.01669941061 33.21777777777777 L 235.42337917485 21.78888888888889 L 262.8300589391 37.57555555555555" class="highcharts-graph" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-3 highcharts-line-series " transform="translate(38,56) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-3 highcharts-line-series highcharts-color-undefined " transform="translate(38,56) scale(1 1)" clip-path="none"/>
   </g>
   <text x="3" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:10px;font-weight:bold;fill:#000000;" y="14">
     <tspan>Nettowohnungsproduktion</tspan>
   </text>
-  <text x="3" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:10px;font-weight:normal;font-family:Arial;fill:#000000;" y="32"/>
   <g class="highcharts-legend" transform="translate(28,7)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="196" height="37" visibility="visible"/>
     <g>
@@ -153,16 +152,16 @@
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
-    <text x="23" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="173" opacity="1">
+    <text x="23" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="170" opacity="1">
       <tspan>-450</tspan>
     </text>
-    <text x="23" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="136" opacity="1">
+    <text x="23" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="133" opacity="1">
       <tspan>0</tspan>
     </text>
-    <text x="23" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="99" opacity="1">
+    <text x="23" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="96" opacity="1">
       <tspan>450</tspan>
     </text>
-    <text x="23" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="62" opacity="1">
+    <text x="23" style="color:#000000;cursor:default;font-size:10;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="59" opacity="1">
       <tspan>900</tspan>
     </text>
   </g>

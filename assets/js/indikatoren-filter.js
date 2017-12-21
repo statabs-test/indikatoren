@@ -66,7 +66,17 @@ $(document).ready(function(){
           return val;
         });
       }
-      initializeFilterJS(indikatorenset);
+      
+      //determine how many chart previews to display
+      var perPage = parseInt(window.decodeURIComponent($.url('?PerPage')));
+      //parameter must be an int, see https://stackoverflow.com/a/14636652 
+      if (perPage > 0 && perPage <= 32){
+        perPage=perPage;
+      }
+      else {
+        perPage=16;
+      }
+      initializeFilterJS(indikatorenset, perPage);
   });  
 });
 
@@ -92,10 +102,10 @@ function resetPortalFilter(FJS, view){
 }
 
 
-function initializeFilterJS(indikatorenset){
+function initializeFilterJS(indikatorenset, perPage){
   var fjsConfig = {      
     template: undefined,
-    search: { ele: '#searchbox' },
+    search: { ele: '#searchbox', start_length: 1},
     callbacks: {
           afterFilter: afterFilter, 
           shortResult: sortResult
@@ -104,7 +114,7 @@ function initializeFilterJS(indikatorenset){
       container: '#pagination',
       visiblePages: 5,
       perPage: {
-        values: [16, 30, 100],
+        values: [perPage, 30, 100],
         container: '#per_page'
       },
     }
@@ -251,8 +261,8 @@ function prepareIndikatorensetView(indikatorenset){
   var baseQuery = {};
   baseQuery['kennzahlenset'] = indikatorenset;              
 
-  renderDropdownFromJson(indikatoren, 'stufe1', '#stufe1_filter', 'stufe1', baseQuery);
-  renderDropdownFromJson(indikatoren, 'stufe2', '#stufe2_filter', 'stufe2', baseQuery);
+  renderDropdownFromJson(indikatoren, 'stufe1', '#stufe1_filter', 'orderKey', baseQuery);
+  renderDropdownFromJson(indikatoren, 'stufe2', '#stufe2_filter', 'orderKey', baseQuery);
 
   //add cascaded dropdowns functionality to stufe1 and stufe2
   configureCascadedControls('#stufe1_filter', '#stufe2_filter', '#stufe1_filter', 'all', 'stufe1', '#stufe2_filter', 'all', 'stufe2', baseQuery); 

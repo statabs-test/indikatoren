@@ -548,8 +548,18 @@
     },
     "events": {
       "load": function () {
-                        this.credits.element.onclick = function() {};
-                    }
+                  this.credits.element.onclick = function() {};
+                  //for top-left legends with no x defined: move legend to x position of first yAxis
+                  if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                    this.update(
+                      {
+                        legend: {
+                          x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                        }
+                      }
+                    );
+                  }              
+                }
     },
     "type": "area",
     "renderTo": "container-4132"
@@ -574,7 +584,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Bevölkerung am Jahresende"
+    "text": "Bevölkerungsbestand am Jahresende"
   },
   "subtitle": {
     "style": {
@@ -686,6 +696,6 @@
     "csv": {
       "dateFormat": "%d.%m.%Y"
     },
-    "filename": "I.01.1.4132"
+    "filename": "I.01.1.04132"
   }
 }

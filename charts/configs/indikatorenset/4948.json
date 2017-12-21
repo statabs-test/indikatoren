@@ -189,9 +189,20 @@
     },
     "zoomType": "xy",
     "events": {
-      "load": function () {
-                    this.credits.element.onclick = function() {}
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
                 }
+              );
+            }
+          }
     },
     "marginBottom": 75,
     "marginTop": 75,
@@ -267,7 +278,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Gesundheitsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik BFS, medizinische Statistik der Krankenhäuser"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser"
   },
   "legend": {
     "symbolRadius": 0,
@@ -284,6 +295,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.14.1.0003"
+    "filename": "I.14.1.04948"
   }
 }
