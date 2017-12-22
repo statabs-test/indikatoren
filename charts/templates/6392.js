@@ -28,7 +28,7 @@
                    dataClasses: [{
                 to:1.999,
                 color: '#D7E8D2',
-                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;2,0"
+                name:  "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<\u00a02,0"
             }, {
                 from: 2.0,
                 to: 3.9,
@@ -47,7 +47,7 @@
             },{
                 from: 8.0,
                 color: '#0A3B19',
-                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;8,0"
+                name:  "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0≥\u00a08,0"
             }], 
         },
         "data": {
@@ -108,7 +108,7 @@
 					var pieSizeCatConfig = 
 					[
 						{
-							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< 250',
+							name: '\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0< 250',
 							from: 0,
 							to: 250, 
 							diameter: 2
@@ -120,7 +120,7 @@
 							diameter: 8
 						},
 						{
-							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥  500',
+							name: '\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0≥  500',
 							from: 500,							
 							to: 1000000000,
 							diameter: 16
@@ -152,8 +152,8 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 	                //Add manually drawn legend
-	        		fn.addLegendTitle(chart, "Sozialhilfequote <br> in %", 245, 210);
-	                fn.addLegendTitle(chart, "Anzahl Sozialhilfe- <br> empfänger", 365, 210);
+	        		fn.addLegendTitle(chart, "Sozialhilfequote <br/>  in %", 245, 210);
+	                fn.addLegendTitle(chart, "Anzahl Sozialhilfe- <br/>  empfänger", 365, 210);
 	                
 	              	fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 385, 255, undefined, true);
@@ -175,3 +175,4 @@
 		}
 	};
 }());
+

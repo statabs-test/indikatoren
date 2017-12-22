@@ -28,17 +28,17 @@
                    dataClasses: [{
                 to:4.999,
                 color: '#D7E8D2',
-                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<&nbsp;&nbsp;&nbsp;5,0"
+                name:  "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&nbsp<\u00a0\u00a0\u00a05,0"
             }, {
                 from: 5,
                 to: 7.4999,
                 color: '#73B97C',
-                name: "&nbsp;&nbsp;5,0 −&nbsp;&nbsp;&nbsp;7,4"
+                name: "\u00a0\u00a05,0 −\u00a0\u00a0\u00a07,4"
             }, {
                 from: 7.5,
                 to: 9.999,
                  color: '#68AB2B',
-                 name: "&nbsp;&nbsp;7,5 −&nbsp;&nbsp;&nbsp;9,9"
+                 name: "\u00a0\u00a07,5 −\u00a0\u00a0\u00a09,9"
             },{
                 from: 10,
                 to: 12.499,
@@ -47,7 +47,7 @@
             },{
                 from: 12.5,
                 color: '#0A3B19',
-                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;12,5"
+                name:  "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0≥\u00a012,5"
             }], 
         },
         "data": {
@@ -108,19 +108,19 @@
 					var pieSizeCatConfig = 
 					[
 						{
-							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;&nbsp;&nbsp; 500',
+							name: '\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<\u00a0\u00a0\u00a0 500',
 							from: 0,
 							to: 499, 
 							diameter: 2
 						},
 						{
-							name: ' 500 −&nbsp;&nbsp;&nbsp; 999',
+							name: ' 500 −\u00a0\u00a0\u00a0 999',
 							from: 500,
 							to: 999,
 							diameter: 8
 						},
 						{
-							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥  1 000',
+							name: '\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0≥  1 000',
 							from: 1000,							
 							to: 1000000000,
 							diameter: 16
@@ -152,7 +152,7 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 	                //Add manually drawn legend
-	        		fn.addLegendTitle(chart, "Gebäude pro <br> Hektare", 245, 210);
+	        		fn.addLegendTitle(chart, "Gebäude pro <br/>  Hektare", 245, 210);
 	                fn.addLegendTitle(chart, "Anzahl Gebäude", 365, 210);
 	                
 	            	fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
@@ -174,3 +174,4 @@
 		}
 	};
 }());
+

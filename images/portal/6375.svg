@@ -240,9 +240,9 @@
       </text>
     </g>
   </g>
-  <g class="pieLegendHideOnZoom pieLegendTitle" transform="translate(265,220)">
+  <g class="pieLegendHideOnZoom pieLegendTitle" transform="translate(265,307)">
     <text x="3" style="font-size:12px;font-weight:bold;" y="15">
-      <tspan>Anzahl unter 20-Jähriger</tspan>
+      <tspan>Anteil unter 20-Jähriger in %</tspan>
     </text>
   </g>
   <circle cx="280" cy="255" r="2.7520758480794387" fill="#7F5F1A" stroke="#7F5F1A" stroke-width="1" class="pieLegendHideOnZoom pieLegend"/>
@@ -257,14 +257,14 @@
       <tspan>4 000</tspan>
     </text>
   </g>
-  <g class="pieLegendHideOnZoom pieLegend" transform="translate(7,40)">
+  <g class="pieLegendHideOnZoom pieSubtitle" transform="translate(7,40)">
     <text x="3" y="15">
       <tspan>Kanton Basel-Stadt: 32 873 unter 20-Jährige (16,6%)</tspan>
     </text>
   </g>
-  <g class="undefined pieLegendTitle" transform="translate(265,307)">
-    <text x="3" style="font-size:12px;font-weight:bold;" y="15">
-      <tspan>Anteil unter 20-Jähriger in %</tspan>
+  <g class="pieLegendHideOnZoom pieLegend" transform="translate(265,220)">
+    <text x="3" style="font-weight:bold;" y="15">
+      <tspan>Anzahl unter 20-Jähriger</tspan>
     </text>
   </g>
   <g class="highcharts-legend" transform="translate(261,323)">

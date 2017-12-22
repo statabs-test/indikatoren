@@ -28,7 +28,7 @@
                    dataClasses: [{
                 to:14.99,
                 color: '#D7E8D2',
-                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<&nbsp;15,0"
+                name:  "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<\u00a015,0"
             }, {
                 from: 15.0,
                 to: 19.999,
@@ -47,7 +47,7 @@
             },{
                 from: 24.0,
                 color: '#0A3B19',
-                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;24,0"
+                name:  "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0≥\u00a024,0"
             }], 
         },
         "data": {
@@ -108,7 +108,7 @@
 					var pieSizeCatConfig = 
 					[
 						{
-							name: '&nbsp&nbsp&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< 1 000',
+							name: '\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0< 1 000',
 							from: 0,
 							to: 999, 
 							diameter: 2
@@ -120,7 +120,7 @@
 							diameter: 8
 						},
 						{
-							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥  2 500',
+							name: '\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0≥  2 500',
 							from: 2500,							
 							to: 1000000000,
 							diameter: 16
@@ -152,8 +152,8 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 	                //Add manually drawn legend
-	        		fn.addLegendTitle(chart, "Anteil über <br> 64-Jähriger in %", 245, 210);
-	                fn.addLegendTitle(chart, "Anzahl über <br> 64-Jähriger", 365, 210);
+	        		fn.addLegendTitle(chart, "Anteil über <br/>  64-Jähriger in %", 245, 210);
+	                fn.addLegendTitle(chart, "Anzahl über <br/>  64-Jähriger", 365, 210);
 	                
 	                fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 385, 255, undefined, true);
@@ -175,3 +175,4 @@
 		}
 	};
 }());
+

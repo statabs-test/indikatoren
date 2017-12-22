@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 208">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 208">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.0.3
   </desc>
   <defs>
     <clipPath>
@@ -61,7 +61,7 @@
     <path fill="none" class="highcharts-axis-line" d="M 35 48 L 35 175"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(35,48) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series " transform="translate(35,48) scale(1 1)" clip-path="url(#a)">
       <rect x="6" y="18" width="11" height="47" fill="#69929B" class="highcharts-point highcharts-color-0"/>
       <rect x="27" y="35" width="11" height="30" fill="#69929B" class="highcharts-point highcharts-color-1"/>
       <rect x="49" y="44" width="11" height="21" fill="#69929B" class="highcharts-point highcharts-color-2"/>
@@ -89,12 +89,12 @@
       <rect x="524" y="65" width="11" height="33" fill="#69929B" class="highcharts-point highcharts-negative highcharts-color-24"/>
       <rect x="546" y="65" width="11" height="38" fill="#69929B" class="highcharts-point highcharts-negative highcharts-color-25"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(35,48) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series " transform="translate(35,48) scale(1 1)" clip-path="none"/>
   </g>
   <text x="3" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:10px;font-weight:bold;fill:#000000;" y="14">
     <tspan>Standortqualitätsindikator (SQI)</tspan>
   </text>
-  <text x="3" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:10px;font-weight:normal;font-family:arial;fill:#000000;" y="32">
+  <text x="3" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:10px;font-weight:normal;font-family:Arial;fill:#000000;" y="32">
     <tspan>Basel-Stadt im kantonalen Vergleich, Stand: 2016</tspan>
   </text>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">

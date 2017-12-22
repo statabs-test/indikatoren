@@ -28,7 +28,7 @@
                    dataClasses: [{
                 to:0.34999,
                 color: '#D7E8D2',
-                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;0,349"
+                name:  "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<\u00a00,349"
             }, {
                 from: 0.35,
                 to: 0.449,
@@ -47,7 +47,7 @@
             },{
                 from: 0.8,
                 color: '#0A3B19',
-                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;0,800"
+                name:  "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0≥\u00a00,800"
             }], 
         },
         "data": {
@@ -198,7 +198,7 @@
 	                var maxValueInLegend = 0.1; 
 	                
                 	//Add manually drawn legend	
-	                fn.addLegendTitle(chart,"Ausländeranteil <br> in %", 240, 215);
+	                fn.addLegendTitle(chart,"Ausländeranteil <br/> in %", 240, 215);
 	                
 	                //fn.addLegendCircle(chart, 410, 275, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
 	                //fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),3,","," "), 430, 265);
@@ -219,7 +219,7 @@
 					fn.addLegendSquare(chart, 354, 315, 12, '#923F8D');
 					fn.addLegendLabel(chart, 'Spanien', 365, 310);
 					fn.addLegendSquare(chart, 354, 331, 12, '#68AB2B');
-					fn.addLegendLabel(chart, 'Serbien, Montenegro, <br> Kosovo', 365, 327);
+					fn.addLegendLabel(chart, 'Serbien, Montenegro, <br/> Kosovo', 365, 327);
 					fn.addLegendLabelbold(chart, 'Staatsangehörigkeit', 350, 215);
 					
 					//make sure pies are hidden upon click onto pie legend
@@ -229,3 +229,4 @@
 		}
 	};
 }());
+

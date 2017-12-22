@@ -28,7 +28,7 @@
                    dataClasses: [{
                 to:19.999,
                 color: '#D7E8D2',
-                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;13,0"
+                name:  "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<\u00a013,0"
             }, {
                 from: 20.0,
                 to: 39.9,
@@ -47,7 +47,7 @@
             },{
                 from: 80.0,
                 color: '#0A3B19',
-                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;80,0"
+                name:  "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0≥\u00a080,0"
             }], 
         },
         "data": {
@@ -108,7 +108,7 @@
 					var pieSizeCatConfig = 
 					[
 						{
-							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< 3 000',
+							name: '\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0< 3 000',
 							from: 0,
 							to: 2999, 
 							diameter: 2
@@ -120,7 +120,7 @@
 							diameter: 8
 						},
 						{
-							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥  6 000',
+							name: '\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0≥  6 000',
 							from: 6000,							
 							to: 1000000000,
 							diameter: 16
@@ -152,8 +152,8 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 	                //Add manually drawn legend
-	        		fn.addLegendTitle(chart, "Anteil unter <br> 20-Jähriger in %", 245, 210);
-	                fn.addLegendTitle(chart, "Anzahl unter <br> 20-Jähriger", 385, 210);
+	        		fn.addLegendTitle(chart, "Anteil unter <br/>  20-Jähriger in %", 245, 210);
+	                fn.addLegendTitle(chart, "Anzahl unter <br/>  20-Jähriger", 385, 210);
 	                
 	               	fn.addLegendCircle(chart, 393, 266, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 405, 255, undefined, true);
@@ -174,3 +174,4 @@
 		}
 	};
 }());
+

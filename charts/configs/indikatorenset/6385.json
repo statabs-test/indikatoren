@@ -3606,7 +3606,7 @@
       {
         "to": 26.99,
         "color": "#D7E8D2",
-        "name": "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;\u003C&nbsp;27,0"
+        "name": "        \u003C 27,0"
       },
       {
         "from": 27,
@@ -3629,7 +3629,7 @@
       {
         "from": 36,
         "color": "#0A3B19",
-        "name": "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;≥&nbsp;36,0"
+        "name": "        ≥ 36,0"
       }
     ]
   },

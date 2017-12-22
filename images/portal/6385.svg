@@ -69,13 +69,13 @@
       </text>
     </g>
   </g>
-  <g class="highcharts-legend" transform="translate(125,224)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="380" height="126" visibility="visible"/>
+  <g class="highcharts-legend" transform="translate(248,224)">
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="256" height="126" visibility="visible"/>
     <g transform="translate(0,35)">
       <g>
         <g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" transform="translate(8,3)">
           <text x="21" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
-            <tspan>&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp;&lt;&amp;nbsp;27,0</tspan>
+            <tspan>&lt; 27,0</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#D7E8D2" class="highcharts-point"/>
         </g>
@@ -99,7 +99,7 @@
         </g>
         <g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" transform="translate(8,67)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp;≥&amp;nbsp;36,0</tspan>
+            <tspan>≥ 36,0</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#0A3B19" class="highcharts-point"/>
         </g>

@@ -3665,7 +3665,7 @@
 					var pieSizeCatConfig = 
 					[
 						{
-							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< 15,0',
+							name: '\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0< 15,0',
 							from: 0,
 							to: 14.999, 
 							diameter: 2
@@ -3677,7 +3677,7 @@
 							diameter: 8
 						},
 						{
-							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥  30,0',
+							name: '\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0≥  30,0',
 							from: 30,							
 							to: 1000000000,
 							diameter: 16
@@ -3709,8 +3709,8 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 	                //Add manually drawn legend
-	        		fn.addLegendTitle(chart, "Leerwohnungs- <br> quote in %", 250, 210);
-	                fn.addLegendTitle(chart, "Anzahl leerstehende <br> Wohnungen", 365, 210);
+	        		fn.addLegendTitle(chart, "Leerwohnungs- <br/>  quote in %", 250, 210);
+	                fn.addLegendTitle(chart, "Anzahl leerstehende <br/>  Wohnungen", 365, 210);
 	                
 	               	fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A', 'pieLegendHideOnZoom');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 385, 255, undefined, true, 'pieLegendHideOnZoom');
@@ -3785,7 +3785,7 @@
       {
         "to": 0.34999,
         "color": "#D7E8D2",
-        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\u003C&nbsp;0,349"
+        "name": "          \u003C 0,349"
       },
       {
         "from": 0.35,
@@ -3808,7 +3808,7 @@
       {
         "from": 0.8,
         "color": "#0A3B19",
-        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;0,800"
+        "name": "          ≥ 0,800"
       }
     ]
   },
@@ -4090,10 +4090,15 @@
     				}).add();
                 },
     "addLegendLabel": function (chart, text, x, y, cssClass, useHtml){
-    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
-    				.attr({
+    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
     					zIndex: 6,
     					class: cssClass + ' pieLegend'
+    				}).add();
+                },
+    "addSubtitle": function (chart, text, x, y, cssClass, useHtml){
+    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
+    					zIndex: 6,
+    					class: cssClass + ' pieSubtitle'
     				}).add();
                 },
     "addLegendLabelbold": function (chart, text, x, y, cssClass, useHtml){

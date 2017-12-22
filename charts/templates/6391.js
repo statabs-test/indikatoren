@@ -152,8 +152,8 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 	                //Add manually drawn legend
-	        		fn.addLegendTitle(chart, "Leerwohnungs- <br> quote in %", 250, 210);
-	                fn.addLegendTitle(chart, "Anzahl leerstehende <br> Wohnungen", 365, 210);
+	        		fn.addLegendTitle(chart, "Leerwohnungs- <br/>  quote in %", 250, 210);
+	                fn.addLegendTitle(chart, "Anzahl leerstehende <br/>  Wohnungen", 365, 210);
 	                
 	               	fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A', 'pieLegendHideOnZoom');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 385, 255, undefined, true, 'pieLegendHideOnZoom');

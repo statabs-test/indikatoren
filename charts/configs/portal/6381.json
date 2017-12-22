@@ -4266,7 +4266,7 @@
 					fn.addLegendSquare(chart, 330, 260, 10, '#923F8D');
 					fn.addLegendLabel(chart, 'Spanien', 340, 254);
 					fn.addLegendSquare(chart, 330, 280, 10, '#68AB2B');
-					fn.addLegendLabel(chart, 'Serbien, Montenegro, <br> Kosovo', 340, 274);
+					fn.addLegendLabel(chart, 'Serbien, Montenegro, <br/> Kosovo', 340, 274);
 					fn.addLegendLabelbold(chart, 'Staatsangehörigkeit', 240, 215);
 					
 					//make sure pies are hidden upon click onto pie legend

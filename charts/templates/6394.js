@@ -7,7 +7,7 @@ global geojson_wohnviertelEPSG2056
 		"legend": {
     		useHTML: true,
 			"title": {
-			"text": "Mittelwert pro Veranlagung <br> in Fr.",
+			"text": "Mittelwert pro Veranlagung <br/> in Fr.",
 			},
 			"layout": "vertical",
 			//"verticalAlign": "middle",
@@ -25,7 +25,7 @@ global geojson_wohnviertelEPSG2056
                    dataClasses: [{
                 to:49999,
                 color: '#D7E8D2',
-                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;50 000"
+                name:  "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<\u00a050 000"
             }, {
                 from: 50000,
                 to: 59999,
@@ -44,7 +44,7 @@ global geojson_wohnviertelEPSG2056
             },{
                 from: 80000,
                 color: '#0A3B19',
-                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;80 000"
+                name:  "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0≥\u00a080 000"
             }], 
 		},
         "data": {
@@ -73,3 +73,5 @@ global geojson_wohnviertelEPSG2056
 		], 
 	};
 }());
+
+

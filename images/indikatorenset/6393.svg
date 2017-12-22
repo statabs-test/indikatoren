@@ -504,13 +504,13 @@
       Staatsangehörigkeit
     </text>
   </g>
-  <g class="highcharts-legend" transform="translate(-132,244)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="476" height="91" visibility="visible"/>
+  <g class="highcharts-legend" transform="translate(234,244)">
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="110" height="91" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" transform="translate(8,3)">
           <text x="21" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
-            <tspan>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;&amp;nbsp;0,…</tspan><title>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;&amp;nbsp;0,349</title>
+            <tspan>&lt; 0,349</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#D7E8D2" class="highcharts-point"/>
         </g>
@@ -534,7 +534,7 @@
         </g>
         <g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" transform="translate(8,67)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;≥&amp;nbsp;0,…</tspan><title>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;≥&amp;nbsp;0,800</title>
+            <tspan>≥ 0,800</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#0A3B19" class="highcharts-point"/>
         </g>

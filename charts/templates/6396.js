@@ -28,17 +28,17 @@
                    dataClasses: [{
                 to:24.999,
                 color: '#D7E8D2',
-                name:  " &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;< &nbsp;&nbsp;25,0"
+                name:  " \u00a0\u00a0 \u00a0\u00a0 \u00a0 \u00a0\u00a0< \u00a0\u00a025,0"
             }, {
                 from: 25.0,
                 to: 49.999,
                 color: '#73B97C',
-                name: "&nbsp;&nbsp;25,0 − &nbsp;&nbsp;49,9"
+                name: "\u00a0\u00a025,0 − \u00a0\u00a049,9"
             }, {
                 from: 50.0,
                 to: 99.999,
                  color: '#68AB2B',
-                 name: "&nbsp;&nbsp;50,0 −  &nbsp;&nbsp;99,9"
+                 name: "\u00a0\u00a050,0 −  \u00a0\u00a099,9"
             },{
                 from: 100.0,
                 to: 199.999,
@@ -47,7 +47,7 @@
             },{
                 from: 200.0,
                 color: '#0A3B19',
-                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;200,0"
+                name:  "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0≥\u00a0200,0"
             }], 
         },
         "data": {
@@ -108,7 +108,7 @@
 					var pieSizeCatConfig = 
 					[
 						{
-							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< 3 000',
+							name: '\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0< 3 000',
 							from: 0,
 							to: 3000, 
 							diameter: 2
@@ -120,7 +120,7 @@
 							diameter: 8
 						},
 						{
-							name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥  8 000',
+							name: '\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0≥  8 000',
 							from: 8000,							
 							to: 1000000000,
 							diameter: 16
@@ -152,8 +152,8 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 	                //Add manually drawn legend
-	        		fn.addLegendTitle(chart, "Anteil unter <br> 20-Jähriger in %", 245, 210);
-	                fn.addLegendTitle(chart, "Anzahl unter <br> 20-Jähriger", 365, 210);
+	        		fn.addLegendTitle(chart, "Anteil unter <br/> 20-Jähriger in %", 245, 210);
+	                fn.addLegendTitle(chart, "Anzahl unter <br/> 20-Jähriger", 365, 210);
 	                
 		        	fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, 'grey');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 385, 255, undefined, true);
@@ -174,3 +174,4 @@
 		}
 	};
 }());
+

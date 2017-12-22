@@ -3606,7 +3606,7 @@
       {
         "to": 99999,
         "color": "#D7E8D2",
-        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\u003C&nbsp;100 000"
+        "name": "              \u003C 100 000"
       },
       {
         "from": 100000,
@@ -3629,7 +3629,7 @@
       {
         "from": 700000,
         "color": "#0A3B19",
-        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;700 000"
+        "name": "              ≥ 700 000"
       }
     ]
   },
@@ -3649,7 +3649,7 @@
         "fontWeight": "bold",
         "fontSize": "12px"
       },
-      "text": "Mittelwert pro Veranlagung \u003Cbr\u003E in Fr."
+      "text": "Mittelwert pro Veranlagung \u003Cbr\u002F\u003E in Fr."
     },
     "useHTML": true,
     "layout": "vertical",
