@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.0.4
   </desc>
   <defs>
     <clipPath>
@@ -47,10 +47,10 @@
     <path fill="none" class="highcharts-axis-line" d="M 80 41 L 80 336"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(80,41) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-line-series " transform="translate(80,41) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 16.458333333333 272.8904875 L 49.375 276.5113420833333 L 82.291666666667 281.0131895833333 L 115.20833333333 280.62484666666666 L 148.125 247.38259958333333 L 181.04166666667 218.4340775 L 213.95833333333 190.42154125000002 L 246.875 167.63416791666668 L 279.79166666667 96.21375833333335 L 312.70833333333 75.86074958333333 L 345.625 60.82838541666666 L 378.54166666667 46.37790875000002" class="highcharts-graph" stroke="#923f8d" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(80,41) scale(1 1)" clip-path="none">
+    <g class="highcharts-markers highcharts-series-0 highcharts-line-series " transform="translate(80,41) scale(1 1)" clip-path="none">
       <path fill="#923f8d" d="M 20 273 A 4 4 0 1 1 19.99999800000017 272.99600000066664 Z" class="highcharts-point"/>
       <path fill="#923f8d" d="M 53 277 A 4 4 0 1 1 52.99999800000017 276.99600000066664 Z" class="highcharts-point"/>
       <path fill="#923f8d" d="M 86 281 A 4 4 0 1 1 85.99999800000016 280.99600000066664 Z" class="highcharts-point"/>
@@ -68,7 +68,8 @@
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Ausbezahlte Familienmietzinsbeiträge</tspan>
   </text>
-  <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined " visibility="visible" transform="translate(80,41) scale(1 1)">
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="40"/>
+  <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series " visibility="visible" transform="translate(80,41) scale(1 1)">
     <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(-5,250)">
       <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16">
         <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">899 370</tspan><tspan x="5" y="16">899 370</tspan>

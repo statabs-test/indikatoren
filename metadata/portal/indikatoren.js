@@ -29,7 +29,6 @@ var indikatoren = [
 		"orderKey": "02_00_00_00_00_002",
 		"parentId": null,
 		"children": [
-			"6125",
 			"6273"
 		],
 		"renderLink": [],
@@ -71,7 +70,6 @@ var indikatoren = [
 		"orderKey": "04_00_00_00_00_003",
 		"parentId": null,
 		"children": [
-			"6145",
 			"6274"
 		],
 		"renderLink": [],
@@ -116,7 +114,6 @@ var indikatoren = [
 		"orderKey": "08_00_00_00_00_001",
 		"parentId": null,
 		"children": [
-			"6168",
 			"6275"
 		],
 		"renderLink": [],
@@ -200,7 +197,6 @@ var indikatoren = [
 		"orderKey": "03_00_00_00_00_002",
 		"parentId": null,
 		"children": [
-			"6135",
 			"6277"
 		],
 		"renderLink": [],
@@ -1686,7 +1682,7 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt"
 		],
 		"externalLinks": [
-			"Weitere Informationen zum Indikator:  <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0603' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0603' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"id": 4221,
 		"visibleInPortal": true
@@ -1726,7 +1722,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
-			"Weitere Informationen zum Indikator:  <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0604' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0604' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"id": 4223,
 		"visibleInPortal": true
@@ -1764,7 +1760,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
-			"Weitere Informationen zum Indikator:  <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0605' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0605' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"id": 4224,
 		"visibleInPortal": true
@@ -1802,7 +1798,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"<a href = 'http://www.statistik-bs.ch/tabellen/t08' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
-			"Weitere Informationen zum Indikator:  <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0606' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0606' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"id": 4225,
 		"visibleInPortal": true
@@ -1840,7 +1836,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/raum-umwelt/ressourcen/umweltindikatorensystem/nutzung-natuerliche-ressourcen/energieeffizienz.html' target = '_blank'>Energieeffizienz Schweiz (BFS)</a>",
-			"Weitere Informationen zum Indikator:  <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0612' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0612' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"id": 4229,
 		"visibleInPortal": true
@@ -1878,47 +1874,9 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
-			"Weitere Informationen zum Indikator:  <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0602' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0602' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"id": 4230,
-		"visibleInPortal": true
-	},
-	{
-		"title": "AOX-Fracht Abwasser",
-		"subtitle": "Milligramm pro Liter",
-		"kuerzel": "I.02.19.04231",
-		"kuerzelKunde": "1604",
-		"description": "AOX-Fracht Abwasser",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Wasser",
-		"kennzahlenset": "Umwelt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wasser"
-		],
-		"stufe1": "Thema Wasser",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "AOX sind an Aktivkohle adsorbierbare organische Halogenverbindungen. Diese Fluor-, Chlor- und Bromverbindungen (wobei Chlorkohlenwasserstoffe in der Regel am häufigsten vorkommen) können als Verluste oder Nebenprodukte aus industriellen und gewerblichen Produktionen ins Wasser gelangen. Auch chlorhaltige Reinigungsmittel aus Haushalten tragen zur Belastung der Abwässer bei. Die AOX-Konzentration wird im gereinigten Abwasser in den Abläufen der Abwasserreinigungsanlagen (ARA) gemessen. <br><br>Im Auslauf der ARA wird mehrmals pro Jahr die AOX-Konzentration in Form von Tagessammelmustern gemessen. Der Mittelwert aller Messungen eines Jahres entspricht dem Jahreswert. In der Gewässerschutzverordnung ist für die Einleitung von kommunalem Abwasser in Gewässer ein AOX-Grenzwert von 0.08 mg/l definiert.Das Abwasser aus dem Kanton Basel-Stadt wird in der ARA Basel gereinigt. Deren Einzugsgebiet umfasst auch die Gemeinden Allschwil, Binningen, Birsfelden, Bottmingen, Münchenstein (Ortsteil Brüglingen), Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Neuwiller (F).",
-		"template": "dotplot",
-		"orderKey": "16_00_00_00_00_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"ProRheno AG"
-		],
-		"externalLinks": [
-			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19983281/index.html#app4' target = '_blank'>Gewässerschutzverordnung, Anhang 3.1</a>",
-			"Weitere Informationen zum Indikator:  <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1604' target = '_blank'>Umweltbericht beider Basel</a>"
-		],
-		"id": 4231,
 		"visibleInPortal": true
 	},
 	{
@@ -1953,7 +1911,7 @@ var indikatoren = [
 			"Industrielle Werke Basel (IWB)"
 		],
 		"externalLinks": [
-			"Weitere Informationen zum Indikator:  <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1605' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1605' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"id": 4233,
 		"visibleInPortal": true
@@ -1990,7 +1948,7 @@ var indikatoren = [
 			"Amt für Umwelt und Energie Basel-Stadt; Industrielle Werke Basel-Stadt (IWB)"
 		],
 		"externalLinks": [
-			"Weitere Informationen zum Indikator:  <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1606' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1606' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"id": 4234,
 		"visibleInPortal": true
@@ -2029,7 +1987,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"<a href = 'http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/arealstatistik/01.html' target = '_blank'>Arealstatistik Schweiz (Methode)</a>",
-			"Weitere Informationen zum Indikator:  <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0506' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0506' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"id": 4249,
 		"visibleInPortal": true
@@ -2069,7 +2027,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"<a href = 'http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/arealstatistik/01.html' target = '_blank'>Arealstatistik Schweiz (Methode)</a>",
-			"Weitere Informationen zum Indikator:  <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0502' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0502' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"id": 4253,
 		"visibleInPortal": true
@@ -2107,7 +2065,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/land-forstwirtschaft/landwirtschaft.html' target = '_blank'>Landwirtschaftliche Strukturerhebung (BFS)</a>",
-			"Weitere Informationen zum Indikator:  <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0503' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0503' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"id": 4254,
 		"visibleInPortal": true
@@ -2147,7 +2105,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"<a href = 'http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/arealstatistik/01.html' target = '_blank'>Arealstatistik Schweiz (Methode)</a>",
-			"Weitere Informationen zum Indikator:  <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0501' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-05-0501' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"id": 4255,
 		"visibleInPortal": true
@@ -2186,47 +2144,9 @@ var indikatoren = [
 		"externalLinks": [
 			"<a href = 'http://www.aue.bs.ch/laerm/verkehrslaerm/schallschutzfensterbeitraege.html' target = '_blank'>Schallschutzfensterbeiträge</a>",
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19860372/index.html' target = '_blank'>Lärmschutz-Verordnung (LSV)</a>",
-			"Weitere Informationen zum Indikator:  <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1004' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1004' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"id": 4268,
-		"visibleInPortal": true
-	},
-	{
-		"title": "Lärmbelastete Personen",
-		"subtitle": "Prozent (Anteil an Bevölkerung)",
-		"kuerzel": "I.02.14.04269",
-		"kuerzelKunde": "1002",
-		"description": "Lärmbelastete Personen",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Lärm",
-		"kennzahlenset": "Umwelt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Lärm"
-		],
-		"stufe1": "Thema Lärm",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Der Indikator gibt den Anteil an Personen an, die in Gebäuden wohnen, bei welchen die Immissionsgrenzwerte für Strassenverkehrslärm der schweizerischen Lärmschutz-Verordnung (LSV) überschritten werden.<br><br>Die angegebenen Werte beruhen auf Modellierungen. Die Lärmimmission an den Gebäuden werden in einem 3D-Oberflächenmodell (Gelände, Gebäude, Hindernisse) auf Basis des Emissionskatasters für Strassenverkehrslärm berechnet. Sobald ein Teil eines Gebäudes, z. B. eine Fassade oder die oberen Geschosse, welche nicht durch eine Lärmschutzwand geschützt werden, von Grenzwertüberschreitungen (gemäss LSV) betroffen sind, werden sämtliche Bewohner des Gebäudes als lärmbelastete Personen gezählt. Die Ausrichtung der einzelnen Wohnungen fliesst nicht in die Beurteilung ein. Weiter werden lärmempfindliche Räume in Betrieben nicht berücksichtigt.",
-		"template": "dotplot",
-		"orderKey": "10_00_00_00_00_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Amt für Umwelt und Energie Basel-Stadt"
-		],
-		"externalLinks": [
-			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/index.php?theme=19&cps=2612411.74,1267773.51,25000&nodefault&layers=stadtplan_grau_osm_25000,strlaermtag' target = '_blank'>Strassenlärmkataster BS</a>",
-			"Weitere Informationen zum Indikator:  <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1002' target = '_blank'>Umweltbericht beider Basel</a>"
-		],
-		"id": 4269,
 		"visibleInPortal": true
 	},
 	{
@@ -2266,7 +2186,7 @@ var indikatoren = [
 			"<a href = 'https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftreinhalteplanung/luftreinhalteplan-2010' target = '_blank'>Luftreinhalteplan beider Basel</a>",
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>",
 			"<a href = 'http://www.bafu.admin.ch/luft/index.html?lang=de' target = '_blank'>BAFU: Informationen zum Thema Luft</a>",
-			"Weitere Informationen zum Indikator:  <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1104' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1104' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"id": 4275,
 		"visibleInPortal": true
@@ -2304,7 +2224,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"<a href = 'http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/lb/01.html' target = '_blank'>Landwirtschaftliche Betriebsstrukturerhebung BFS</a>",
-			"Weitere Informationen zum Indikator:  <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1105' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1105' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"id": 4276,
 		"visibleInPortal": true
@@ -2343,7 +2263,7 @@ var indikatoren = [
 		"externalLinks": [
 			"<a href = 'http://luft-bs-so.ch/messdaten' target = '_blank'>Luftqualität in der Nordwestschweiz</a>",
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>",
-			"Weitere Informationen zum Indikator:  <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1109' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1109' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"id": 4278,
 		"visibleInPortal": true
@@ -2382,7 +2302,7 @@ var indikatoren = [
 		"externalLinks": [
 			"<a href = 'http://luft-bs-so.ch/messdaten' target = '_blank'>Luftqualität in der Nordwestschweiz</a>",
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>",
-			"Weitere Informationen zum Indikator:  <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1110' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1110' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"id": 4279,
 		"visibleInPortal": true
@@ -2421,7 +2341,7 @@ var indikatoren = [
 		"externalLinks": [
 			"<a href = 'http://luft-bs-so.ch/messdaten' target = '_blank'>Luftqualität in der Nordwestschweiz</a>",
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>",
-			"Weitere Informationen zum Indikator:  <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1111' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1111' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"id": 4281,
 		"visibleInPortal": true
@@ -2458,7 +2378,7 @@ var indikatoren = [
 			"Meteorologischer Verein der Region Basel"
 		],
 		"externalLinks": [
-			"Weitere Informationen zum Indikator:  <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0801' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0801' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"id": 4300,
 		"visibleInPortal": true
@@ -2498,7 +2418,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"<a href = 'http://www.klimabasel.ch/' target = '_blank'>Meteorologischer Verein der Region Basel</a>",
-			"Weitere Informationen zum Indikator:  <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0803' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0803' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"id": 4301,
 		"visibleInPortal": true
@@ -2582,7 +2502,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/bau-wohnungswesen/wohnungen/wohnverhaeltnisse.html' target = '_blank'>Wohnverhältnisse Schweiz (BFS)</a>",
-			"Weitere Informationen zum Indikator:  <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1703' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1703' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"id": 4320,
 		"visibleInPortal": true
@@ -2620,7 +2540,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
-			"Weitere Informationen zum Indikator:  <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0607' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0607' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"id": 4321,
 		"visibleInPortal": true
@@ -2658,7 +2578,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
-			"Weitere Informationen zum Indikator:  <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0613' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0613' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"id": 4322,
 		"visibleInPortal": true
@@ -2699,7 +2619,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/volkswirtschaft/erhebungen/bipkt.html' target = '_blank'>BIP der Kantone (BFS)</a>",
-			"Weitere Informationen zum Indikator:  <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1701' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1701' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"id": 4323,
 		"visibleInPortal": true
@@ -2742,7 +2662,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"<a href = 'http://www.polizei.bs.ch/verkehr/motorfahrzeugkontrolle.html' target = '_blank'>Motorfahrzeugkontrolle Basel-Stadt</a>",
-			"Weitere Informationen zum Indikator:  <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1704' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1704' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"id": 4325,
 		"visibleInPortal": true
@@ -2780,7 +2700,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"<a href = 'http://www.aue.bs.ch/abfaelle.html' target = '_blank'>Amt für Umwelt und Energie Basel-Stadt: Abfälle</a>",
-			"Weitere Informationen zum Indikator:  <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0102' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0102' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"id": 4331,
 		"visibleInPortal": true
@@ -2818,7 +2738,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"<a href = 'http://www.aue.bs.ch/abfaelle.html' target = '_blank'>Amt für Umwelt und Energie Basel-Stadt: Abfälle</a>",
-			"Weitere Informationen zum Indikator:  <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0101' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0101' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"id": 4337,
 		"visibleInPortal": true
@@ -3340,44 +3260,6 @@ var indikatoren = [
 			""
 		],
 		"id": 4718,
-		"visibleInPortal": true
-	},
-	{
-		"title": "Kulturelle Bereicherung",
-		"subtitle": "«Im Kanton Basel-Stadt gibt es Menschen aus den verschiedensten Ländern. Ist das eine Bereicherung für den Kanton?»",
-		"kuerzel": "I.50.1.04719",
-		"kuerzelKunde": "1.3.01",
-		"description": "Kulturelle Bereicherung",
-		"thema": "50 Befragungen",
-		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Ausland"
-		],
-		"stufe1": "Kernbereich 1: Soziale Beziehungen",
-		"stufe2": "1.3 Akzeptanz von Diversität",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Drei Viertel der Befragten empfanden 2015 den multikulturellen Charakter Basel-Stadts als eine sehr oder eher grosse Bereicherung für die Stadt. Die Zustimmung zu dieser Frage liegt seit 2003 jeweils über 68%.",
-		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
-		"orderKey": "01_03_00_00_00_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18a"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 4719,
 		"visibleInPortal": true
 	},
 	{
@@ -6366,11 +6248,11 @@ var indikatoren = [
 		"visibleInPortal": true
 	},
 	{
-		"title": "Neugründungen in Basel-Stadt",
+		"title": "Anzahl Neugründungen in Basel-Stadt",
 		"subtitle": "in ausgewählten Branchen",
 		"kuerzel": "I.03.2.05041",
 		"kuerzelKunde": "2.3",
-		"description": "Neugründungen in Basel-Stadt",
+		"description": "Anzahl Neugründungen in Basel-Stadt",
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Legislaturplan",
@@ -7268,7 +7150,6 @@ var indikatoren = [
 		"orderKey": "01_01_00_00_00_002",
 		"parentId": null,
 		"children": [
-			"6092",
 			"6242"
 		],
 		"renderLink": [],
@@ -7309,7 +7190,6 @@ var indikatoren = [
 		"orderKey": "01_01_00_00_00_003",
 		"parentId": null,
 		"children": [
-			"6093",
 			"6243"
 		],
 		"renderLink": [],
@@ -7349,7 +7229,6 @@ var indikatoren = [
 		"orderKey": "01_01_00_00_00_012",
 		"parentId": null,
 		"children": [
-			"6094",
 			"6244"
 		],
 		"renderLink": [],
@@ -7395,7 +7274,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"<a href = 'http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/arealstatistik/01.html' target = '_blank'>Arealstatistik Schweiz (BFS)</a>",
-			"Weitere Informationen zum Indikator:  <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1501' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1501' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"id": 5798,
 		"visibleInPortal": true
@@ -7427,7 +7306,6 @@ var indikatoren = [
 		"orderKey": "01_01_00_00_00_005",
 		"parentId": null,
 		"children": [
-			"6103",
 			"6245"
 		],
 		"renderLink": [],
@@ -7467,7 +7345,6 @@ var indikatoren = [
 		"orderKey": "01_01_00_00_00_009",
 		"parentId": null,
 		"children": [
-			"6107",
 			"6249"
 		],
 		"renderLink": [],
@@ -7548,7 +7425,6 @@ var indikatoren = [
 		"parentId": null,
 		"children": [
 			"5165",
-			"6110",
 			"6252"
 		],
 		"renderLink": [],
@@ -7588,7 +7464,6 @@ var indikatoren = [
 		"orderKey": "01_03_00_00_00_001",
 		"parentId": null,
 		"children": [
-			"6111",
 			"6253"
 		],
 		"renderLink": [],
@@ -7629,7 +7504,6 @@ var indikatoren = [
 		"orderKey": "02_04_00_00_00_002",
 		"parentId": null,
 		"children": [
-			"6112",
 			"6254"
 		],
 		"renderLink": [],
@@ -7669,7 +7543,6 @@ var indikatoren = [
 		"orderKey": "02_04_00_00_00_003",
 		"parentId": null,
 		"children": [
-			"6114",
 			"6255"
 		],
 		"renderLink": [],
@@ -7752,7 +7625,6 @@ var indikatoren = [
 		"orderKey": "01_01_00_00_00_011",
 		"parentId": null,
 		"children": [
-			"6120",
 			"6257"
 		],
 		"renderLink": [],
@@ -8406,8 +8278,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Basel-Stadt übertrifft in verschiedenen Bereichen des Kantonalen Werbeindikators den Median-Kanton, so z. B. bei «Wirtschaftsstruktur», «Innovation» und «Erreichbarkeit». Die Werte des hier dargestellten «Median-Kantons» entsprechen dem Medianwert aller Kantone der jeweiligen Säule.",
-		"erlaeuterungen": "Der Kantonale Wettbewerbsindikator (KWI) gibt Aufschluss über das relative längerfristige Wachstumspotenzial eines Kantons. Die Wettbewerbsfähigkeit eines Kantons beschreibt sein Potenzial für eine nachhaltige Steigerung seiner Wirtschaftsleistung. Kantone mit einer hohen relativen Wettbewerbsfähigkeit dürften längerfristig stärker wachsen als die Schweizer Gesamtwirtschaft. Hingegen ist in Kantonen mit einer tiefen relativen Wettbewerbsfähigkeit mit einem unterdurchschnittlichen Wachstum zu rechnen. Der KWI basiert auf der vergleichenden Analyse von acht Säulen mit insgesamt über 50 Variablen. Die Variablen werden gewichtet, aggregiert und normiert, sodass jeder Kanton für jede Säule eine Punktzahl zwischen 0 und 100 erhält. Zur Ermittlung des KWI wird für jeden Kanton der Durchschnitt aus den Punktzahlen der acht Säulen errechnet und so normiert, dass der höchste kantonale Durchschnittswert 100 beträgt.",
+		"lesehilfe": "Basel-Stadt übertrifft in verschiedenen Bereichen des Kantonalen Wettbewerbsindikators den «Mediankanton», so z. B. bei Wirtschaftsstruktur, Innovation und Erreichbarkeit. Die Werte des hier dargestellten Mediankantons entsprechen dem Medianwert aller Kantone der jeweiligen Säule.",
+		"erlaeuterungen": "Der Kantonale Wettbewerbsindikator (KWI) gibt Aufschluss über das relative längerfristige Wachstumspotenzial eines Kantons. Die Wettbewerbsfähigkeit eines Kantons beschreibt sein Potenzial für eine nachhaltige Steigerung seiner Wirtschaftsleistung. Kantone mit einer hohen relativen Wettbewerbsfähigkeit dürften längerfristig stärker wachsen als die Schweizer Gesamtwirtschaft. Hingegen ist in Kantonen mit einer tiefen relativen Wettbewerbsfähigkeit mit einem unterdurchschnittlichen Wachstum zu rechnen. Der KWI basiert auf der vergleichenden Analyse von acht Säulen mit insgesamt über 50 Variablen. Die Variablen werden gewichtet, aggregiert und normiert, sodass jeder Kanton für jede Säule eine Punktzahl zwischen 0 und 100 erhält. Zur Ermittlung des KWI wird für jeden Kanton der Durchschnitt aus den Punktzahlen der acht Säulen errechnet und so normiert, dass der höchste kantonale Durchschnittswert 100 beträgt. Der Mediankanton ist ein Referenzkanton, der aus den Medianwerten der jeweiligen Wettbewerbssäulen zusammengesetzt ist. Der Medianwert der jeweiligen Säule unterteiltdie Rangliste der Kantone in eine obere und eine untere Hälfte mit je 13 Kantonen. Für die Interpretation der kantonalen Wettbewerbsprofile gilt: Je höher der Wert für einen Kanton in einer Säule ist, desto besser ist seine relative Bewertung.",
 		"template": "template001",
 		"orderKey": "01_00_00_00_00_003",
 		"parentId": null,
@@ -8906,6 +8778,7 @@ var indikatoren = [
 		"orderKey": "04_00_00_00_00_005",
 		"parentId": null,
 		"children": [
+			"4719",
 			"6034",
 			"6299"
 		],
@@ -9403,6 +9276,7 @@ var indikatoren = [
 		"orderKey": "07_00_00_00_00_008",
 		"parentId": null,
 		"children": [
+			"4269",
 			"5197",
 			"6311"
 		],
@@ -9565,6 +9439,7 @@ var indikatoren = [
 		"orderKey": "07_00_00_00_00_004",
 		"parentId": null,
 		"children": [
+			"4231",
 			"6030",
 			"6315"
 		],
@@ -10449,13 +10324,12 @@ var indikatoren = [
 		"orderKey": "01_01_00_00_00_001",
 		"parentId": null,
 		"children": [
-			"6221",
 			"6259"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -10490,7 +10364,6 @@ var indikatoren = [
 		"orderKey": "01_01_00_00_00_004",
 		"parentId": null,
 		"children": [
-			"6222",
 			"6260"
 		],
 		"renderLink": [],
@@ -10531,7 +10404,6 @@ var indikatoren = [
 		"orderKey": "01_02_00_00_00_003",
 		"parentId": null,
 		"children": [
-			"6223",
 			"6261"
 		],
 		"renderLink": [],
@@ -10571,7 +10443,6 @@ var indikatoren = [
 		"orderKey": "02_04_00_00_00_004",
 		"parentId": null,
 		"children": [
-			"6224",
 			"6262"
 		],
 		"renderLink": [],
@@ -10611,7 +10482,6 @@ var indikatoren = [
 		"orderKey": "02_05_00_00_00_002",
 		"parentId": null,
 		"children": [
-			"6225",
 			"6263"
 		],
 		"renderLink": [],
@@ -10651,7 +10521,6 @@ var indikatoren = [
 		"orderKey": "01_02_00_00_00_004",
 		"parentId": null,
 		"children": [
-			"6227",
 			"6264"
 		],
 		"renderLink": [],
@@ -10732,7 +10601,6 @@ var indikatoren = [
 		"orderKey": "02_04_00_00_00_001",
 		"parentId": null,
 		"children": [
-			"6241",
 			"6265",
 			"6347"
 		],
