@@ -2,11 +2,13 @@ var indikatorensetNames = [
 	"Legislaturplan",
 	"Wohnraumentwicklung",
 	"Integration-kompakt",
+	"Cercle-Indicateurs",
 	"Umwelt",
 	"Gesellschaftlicher-Zusammenhalt",
 	"Wohnviertel",
 	"Richtplan",
-	"Richtplan-Print",
+	"Wanderungen",
+	"Richtplan (Print)",
 	"Legislaturplan (Print)",
 	"Test"
 ];

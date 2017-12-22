@@ -241,7 +241,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Externe und interne Erreichbarkeit"
+    "text": "Kontinentale Erreichbarkeit"
   },
   "subtitle": {
     "style": {
@@ -264,11 +264,12 @@
     "title": {
       "style": {
         "color": "#000000",
-        "fontSize": null
+        "fontSize": 10
       },
-      "text": null
+      "text": ""
     },
     "labels": {
+      "y": 3,
       "style": {
         "fontSize": 10,
         "color": "#000000"
@@ -302,7 +303,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: BAK Basel Economics"
+    "text": "Quelle: BAK Economics"
   },
   "legend": {
     "enabled": true,
@@ -328,6 +329,6 @@
     }
   },
   "exporting": {
-    "filename": "I.11.2.05908"
+    "filename": "I.11.2.06256"
   }
 }

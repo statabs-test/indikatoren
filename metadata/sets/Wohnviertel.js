@@ -2,10 +2,9 @@ var indikatorensetData = [
 	{
 		"title": "Sozialhilfequote",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.13.3.4822",
+		"kuerzel": "I.13.3.04822",
 		"kuerzelKunde": "GS-1.A",
 		"description": "Sozialhilfequote",
-		"id": 4822,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
 		"kennzahlenset": "Wohnviertel",
@@ -24,9 +23,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger an der Wohnbevölkerung des Wohnviertels.",
 		"template": "dotplot",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_001",
 		"parentId": null,
 		"children": [
@@ -40,15 +36,15 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4822
 	},
 	{
 		"title": "Anteil Ausländer",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.1.4823",
+		"kuerzel": "I.01.1.04823",
 		"kuerzelKunde": "GS-2.A",
 		"description": "Anteil Ausländer",
-		"id": 4823,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnviertel",
@@ -67,9 +63,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil der ausländischen Wohnbevölkerung an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"template": "dotplot",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_003",
 		"parentId": null,
 		"children": [
@@ -83,15 +76,15 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4823
 	},
 	{
 		"title": "Anteil Personen ohne Religionszugehörigkeit",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.7.4824",
+		"kuerzel": "I.01.7.04824",
 		"kuerzelKunde": "GS-3.A",
 		"description": "Anteil Personen ohne Religionszugehörigkeit",
-		"id": 4824,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Religionen",
 		"kennzahlenset": "Wohnviertel",
@@ -110,9 +103,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil Personen ohne Religionszugehörigkeit an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"template": "dotplot",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_005",
 		"parentId": null,
 		"children": [
@@ -126,15 +116,15 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4824
 	},
 	{
 		"title": "Anteil Personen in Einpersonenhaushalten",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.2.4825",
+		"kuerzel": "I.01.2.04825",
 		"kuerzelKunde": "GS-4.A",
 		"description": "Anteil Personen in Einpersonenhaushalten",
-		"id": 4825,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
 		"kennzahlenset": "Wohnviertel",
@@ -153,9 +143,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil Personen in Einpersonenhaushalten an allen Personen in Privathaushalten des Wohnviertels in Prozent.",
 		"template": "dotplot",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_007",
 		"parentId": null,
 		"children": [
@@ -169,15 +156,15 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4825
 	},
 	{
 		"title": "Gymnasialquote",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.15.6.4826",
+		"kuerzel": "I.15.6.04826",
 		"kuerzelKunde": "GS-5.A",
 		"description": "Gymnasialquote",
-		"id": 4826,
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsniveau",
 		"kennzahlenset": "Wohnviertel",
@@ -197,9 +184,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil der Gymnasiasten sowie seit 2016/2017 der Sek P Schüler an allen Schülern der 10. und 11. Schulstufe des Wohnviertels an öffentlichen Schulen und mit Elternwohnort Basel-Stadt (Schulstufen einschliesslich zweier obligatorischer Kindergartenstufen gezählt).",
 		"template": "dotplot",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_009",
 		"parentId": null,
 		"children": [
@@ -213,15 +197,15 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4826
 	},
 	{
 		"title": "Altersquotient",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.1.4827",
+		"kuerzel": "I.01.1.04827",
 		"kuerzelKunde": "GS-6.A",
 		"description": "Altersquotient",
-		"id": 4827,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnviertel",
@@ -241,9 +225,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil der über 64-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent.",
 		"template": "dotplot",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_011",
 		"parentId": null,
 		"children": [
@@ -257,15 +238,15 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4827
 	},
 	{
 		"title": "Sesshaftigkeit",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.1.4828",
+		"kuerzel": "I.01.1.04828",
 		"kuerzelKunde": "GS-7.A",
 		"description": "Sesshaftigkeit",
-		"id": 4828,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnviertel",
@@ -284,9 +265,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil der seit mindestens 10 Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"template": "dotplot",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_013",
 		"parentId": null,
 		"children": [
@@ -300,15 +278,15 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4828
 	},
 	{
 		"title": "Jugendquotient",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.1.4829",
+		"kuerzel": "I.01.1.04829",
 		"kuerzelKunde": "GS-8.A",
 		"description": "Jugendquotient",
-		"id": 4829,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnviertel",
@@ -328,9 +306,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil der unter 20-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent:",
 		"template": "dotplot",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_015",
 		"parentId": null,
 		"children": [
@@ -344,15 +319,15 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4829
 	},
 	{
 		"title": "Baujahr Wohngebäude",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.09.1.4830",
+		"kuerzel": "I.09.1.04830",
 		"kuerzelKunde": "RU-1.A",
 		"description": "Baujahr Wohngebäude",
-		"id": 4830,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnviertel",
@@ -372,9 +347,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Mittleres Baujahr der Wohngebäude des Wohnviertels (ungewichtetes arithmetisches Mittel des Baujahres über alle Wohngebäude).",
 		"template": "dotplot",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_001",
 		"parentId": null,
 		"children": [
@@ -388,15 +360,15 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4830
 	},
 	{
 		"title": "Anteil Einfamilienhäuser",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.09.1.4831",
+		"kuerzel": "I.09.1.04831",
 		"kuerzelKunde": "RU-2.A",
 		"description": "Anteil Einfamilienhäuser",
-		"id": 4831,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnviertel",
@@ -415,9 +387,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil der Einfamilienhäuser an allen bewohnbaren Gebäuden des Wohnviertels in Prozent.",
 		"template": "dotplot",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_003",
 		"parentId": null,
 		"children": [
@@ -431,15 +400,15 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4831
 	},
 	{
 		"title": "Anteil Grünflächen",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.02.1.4832",
+		"kuerzel": "I.02.1.04832",
 		"kuerzelKunde": "RU-3.A",
 		"description": "Anteil Grünflächen",
-		"id": 4832,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
 		"kennzahlenset": "Wohnviertel",
@@ -458,9 +427,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil der Grünflächen an der gesamten Fläche der Wohnviertel. Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m2 geführt werden. Diese werden in einem Turnus von 6–12 Jahren mit einer periodischen Nachführung aktualisiert. Ausnahme: Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst.",
 		"template": "dotplot",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_005",
 		"parentId": null,
 		"children": [
@@ -474,15 +440,15 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4832
 	},
 	{
 		"title": "Fläche pro Wohnung",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.09.1.4833",
+		"kuerzel": "I.09.1.04833",
 		"kuerzelKunde": "RU-4.A",
 		"description": "Fläche pro Wohnung",
-		"id": 4833,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnviertel",
@@ -501,9 +467,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Mittlere Fläche der Wohnungen im Wohnviertel (ungewichtetes arithmetisches Mittel über alle Wohnungen) in Quadratmeter.",
 		"template": "dotplot",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_007",
 		"parentId": null,
 		"children": [
@@ -517,15 +480,15 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4833
 	},
 	{
 		"title": "Wohnfläche pro Kopf",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.09.1.4834",
+		"kuerzel": "I.09.1.04834",
 		"kuerzelKunde": "RU-5.A",
 		"description": "Wohnfläche pro Kopf",
-		"id": 4834,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnviertel",
@@ -544,9 +507,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Mittlere Wohnfläche pro Einwohner im Wohnviertel (gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen geteilt durch das Total der dort wohnenden Personen) in Quadratmeter.",
 		"template": "dotplot",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_009",
 		"parentId": null,
 		"children": [
@@ -561,15 +521,15 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4834
 	},
 	{
 		"title": "Vermögenssteuer pro Veranlagung",
 		"subtitle": "Stand: Steuerjahr 2014",
-		"kuerzel": "I.18.2.4835",
+		"kuerzel": "I.18.2.04835",
 		"kuerzelKunde": "WA-1.A",
 		"description": "Vermögenssteuer pro Veranlagung",
-		"id": 4835,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Wohnviertel",
@@ -588,9 +548,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Mittlere Vermögenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Vermögenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
 		"template": "dotplot",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_001",
 		"parentId": null,
 		"children": [
@@ -604,15 +561,15 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4835
 	},
 	{
 		"title": "Einkommenssteuer pro Veranlagung",
 		"subtitle": "Stand: Steuerjahr 2014",
-		"kuerzel": "I.18.2.4836",
+		"kuerzel": "I.18.2.04836",
 		"kuerzelKunde": "WA-2.A",
 		"description": "Einkommenssteuer pro Veranlagung",
-		"id": 4836,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Wohnviertel",
@@ -631,9 +588,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Mittlere Einkommenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Einkommenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
 		"template": "dotplot",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_003",
 		"parentId": null,
 		"children": [
@@ -647,15 +601,15 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4836
 	},
 	{
 		"title": "Erwerbstätigenquote",
 		"subtitle": "Stand: gepoolte Daten 2010 - 2014",
-		"kuerzel": "I.03.1.4837",
+		"kuerzel": "I.03.1.04837",
 		"kuerzelKunde": "WA-3.A",
 		"description": "Erwerbstätigenquote",
-		"id": 4837,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Erwerbspersonen ",
 		"kennzahlenset": "Wohnviertel",
@@ -674,9 +628,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet, was zum selben Wert für die beiden Gemeinden führt.",
 		"template": "dotplot",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_005",
 		"parentId": null,
 		"children": [
@@ -690,15 +641,15 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4837
 	},
 	{
 		"title": "Arbeitsplätze pro Kopf",
 		"subtitle": "Stand: 2014",
-		"kuerzel": "I.03.2.4838",
+		"kuerzel": "I.03.2.04838",
 		"kuerzelKunde": "WA-4.A",
 		"description": "Arbeitsplätze pro Kopf",
-		"id": 4838,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Wohnviertel",
@@ -717,9 +668,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte, die in Basel-Stadt arbeiten, in Vollzeitäquivalenten) an der gesamten Wohnbevölkerung des Wohnviertels.<br> Im Wohnvietel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
 		"template": "dotplot",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_007",
 		"parentId": null,
 		"children": [
@@ -733,15 +681,15 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4838
 	},
 	{
 		"title": "Arbeitslosenquote",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.03.4.4839",
+		"kuerzel": "I.03.4.04839",
 		"kuerzelKunde": "WA-5.A",
 		"description": "Arbeitslosenquote",
-		"id": 4839,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Arbeitslose ",
 		"kennzahlenset": "Wohnviertel",
@@ -761,9 +709,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil als arbeitslos gemeldeter Personen am Total der Erwerbspersonen (15 bis 64 Jahre) in Prozent, jeweils Ende Jahr. Erwerbspersonen aus den Jahren 2010 - 2014, Hochrechnung auf Basis einer Stichprobe von 5 000 Personen pro Jahr. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet.",
 		"template": "dotplot",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_009",
 		"parentId": null,
 		"children": [
@@ -778,15 +723,15 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 4839
 	},
 	{
 		"title": "Sozialhilfequote",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.13.3.5109",
+		"kuerzel": "I.13.3.05109",
 		"kuerzelKunde": "GS-1.B",
 		"description": "Sozialhilfequote",
-		"id": 5109,
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
 		"kennzahlenset": "Wohnviertel",
@@ -805,9 +750,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger an der Wohnbevölkerung des Wohnviertels.",
 		"template": "map001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_002",
 		"parentId": 4822,
 		"children": [],
@@ -819,15 +761,15 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=soz_sozhilfe.soz_quote' target='_blank'>Basler Atlas</a>."
-		]
+		],
+		"id": 5109
 	},
 	{
 		"title": "Anteil Ausländer",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.1.5110",
+		"kuerzel": "I.01.1.05110",
 		"kuerzelKunde": "GS-2.B",
 		"description": "Anteil Ausländer",
-		"id": 5110,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnviertel",
@@ -846,9 +788,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil der ausländischen Wohnbevölkerung an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"template": "map001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_004",
 		"parentId": 4823,
 		"children": [],
@@ -860,15 +799,15 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevheim.anteil_al' target='_blank'>Basler Atlas</a>."
-		]
+		],
+		"id": 5110
 	},
 	{
 		"title": "Anteil Personen ohne Religionszugehörigkeit",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.7.5111",
+		"kuerzel": "I.01.7.05111",
 		"kuerzelKunde": "GS-3.B",
 		"description": "Anteil Personen ohne Religionszugehörigkeit",
-		"id": 5111,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Religionen",
 		"kennzahlenset": "Wohnviertel",
@@ -887,9 +826,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil Personen ohne Religionszugehörigkeit an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"template": "map001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_006",
 		"parentId": 4824,
 		"children": [],
@@ -901,15 +837,15 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5111
 	},
 	{
 		"title": "Anteil Personen in Einpersonenhaushalten",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.2.5112",
+		"kuerzel": "I.01.2.05112",
 		"kuerzelKunde": "GS-4.B",
 		"description": "Anteil Personen in Einpersonenhaushalten",
-		"id": 5112,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
 		"kennzahlenset": "Wohnviertel",
@@ -928,9 +864,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil Personen in Einpersonenhaushalten an allen Personen in Privathaushalten des Wohnviertels in Prozent.",
 		"template": "map001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_008",
 		"parentId": 4825,
 		"children": [],
@@ -942,15 +875,15 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5112
 	},
 	{
 		"title": "Gymnasialquote",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.15.6.5113",
+		"kuerzel": "I.15.6.05113",
 		"kuerzelKunde": "GS-5.B",
 		"description": "Gymnasialquote",
-		"id": 5113,
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsniveau",
 		"kennzahlenset": "Wohnviertel",
@@ -970,9 +903,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil der Gymnasiasten sowie seit 2016/2017 der Sek P Schüler an allen Schülern der 10. und 11. Schulstufe des Wohnviertels an öffentlichen Schulen und mit Elternwohnort Basel-Stadt (Schulstufen einschliesslich zweier obligatorischer Kindergartenstufen gezählt).",
 		"template": "map001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_010",
 		"parentId": 4826,
 		"children": [],
@@ -984,15 +914,15 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5113
 	},
 	{
 		"title": "Altersquotient",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.1.5114",
+		"kuerzel": "I.01.1.05114",
 		"kuerzelKunde": "GS-6.B",
 		"description": "Altersquotient",
-		"id": 5114,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnviertel",
@@ -1012,9 +942,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil der über 64-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent.",
 		"template": "map001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_012",
 		"parentId": 4827,
 		"children": [],
@@ -1026,15 +953,15 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5114
 	},
 	{
 		"title": "Sesshaftigkeit",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.1.5115",
+		"kuerzel": "I.01.1.05115",
 		"kuerzelKunde": "GS-7.B",
 		"description": "Sesshaftigkeit",
-		"id": 5115,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnviertel",
@@ -1053,9 +980,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil der seit mindestens 10 Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"template": "map001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_014",
 		"parentId": 4828,
 		"children": [],
@@ -1067,15 +991,15 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevsess.anteil_sess10' target='_blank'>Basler Atlas</a>."
-		]
+		],
+		"id": 5115
 	},
 	{
 		"title": "Jugendquotient",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.1.5116",
+		"kuerzel": "I.01.1.05116",
 		"kuerzelKunde": "GS-8.B",
 		"description": "Jugendquotient",
-		"id": 5116,
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Wohnviertel",
@@ -1095,9 +1019,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil der unter 20-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent:",
 		"template": "map001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_016",
 		"parentId": 4829,
 		"children": [],
@@ -1109,15 +1030,15 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5116
 	},
 	{
 		"title": "Baujahr Wohngebäude",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.09.1.5117",
+		"kuerzel": "I.09.1.05117",
 		"kuerzelKunde": "RU-1.B",
 		"description": "Baujahr Wohngebäude",
-		"id": 5117,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnviertel",
@@ -1137,9 +1058,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Mittleres Baujahr der Wohngebäude des Wohnviertels (ungewichtetes arithmetisches Mittel des Baujahres über alle Wohngebäude).",
 		"template": "map001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_002",
 		"parentId": 4830,
 		"children": [],
@@ -1151,15 +1069,15 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5117
 	},
 	{
 		"title": "Anteil Einfamilienhäuser",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.09.1.5118",
+		"kuerzel": "I.09.1.05118",
 		"kuerzelKunde": "RU-2.B",
 		"description": "Anteil Einfamilienhäuser",
-		"id": 5118,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnviertel",
@@ -1178,9 +1096,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil der Einfamilienhäuser an allen bewohnbaren Gebäuden des Wohnviertels in Prozent.",
 		"template": "map001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_004",
 		"parentId": 4831,
 		"children": [],
@@ -1192,15 +1107,15 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5118
 	},
 	{
 		"title": "Anteil Grünflächen",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.02.1.5119",
+		"kuerzel": "I.02.1.05119",
 		"kuerzelKunde": "RU-3.B",
 		"description": "Anteil Grünflächen",
-		"id": 5119,
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
 		"kennzahlenset": "Wohnviertel",
@@ -1219,9 +1134,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil der Grünflächen an der gesamten Fläche der Wohnviertel. Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m2 geführt werden. Diese werden in einem Turnus von 6–12 Jahren mit einer periodischen Nachführung aktualisiert. Ausnahme: Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst.",
 		"template": "map001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_006",
 		"parentId": 4832,
 		"children": [],
@@ -1233,15 +1145,15 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=ru_gruen.gruenflaeche_ant' target='_blank'>Basler Atlas</a>."
-		]
+		],
+		"id": 5119
 	},
 	{
 		"title": "Fläche pro Wohnung",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.09.1.5120",
+		"kuerzel": "I.09.1.05120",
 		"kuerzelKunde": "RU-4.B",
 		"description": "Fläche pro Wohnung",
-		"id": 5120,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnviertel",
@@ -1260,9 +1172,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Mittlere Fläche der Wohnungen im Wohnviertel (ungewichtetes arithmetisches Mittel über alle Wohnungen) in Quadratmeter.",
 		"template": "map001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_008",
 		"parentId": 4833,
 		"children": [],
@@ -1274,15 +1183,15 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5120
 	},
 	{
 		"title": "Wohnfläche pro Kopf",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.09.1.5121",
+		"kuerzel": "I.09.1.05121",
 		"kuerzelKunde": "RU-5.B",
 		"description": "Wohnfläche pro Kopf",
-		"id": 5121,
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnviertel",
@@ -1301,9 +1210,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Mittlere Wohnfläche pro Einwohner im Wohnviertel (gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen geteilt durch das Total der dort wohnenden Personen) in Quadratmeter.",
 		"template": "map001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_010",
 		"parentId": 4834,
 		"children": [],
@@ -1316,15 +1222,15 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5121
 	},
 	{
 		"title": "Vermögenssteuer pro Veranlagung",
 		"subtitle": "Stand: Steuerjahr 2014",
-		"kuerzel": "I.18.2.5122",
+		"kuerzel": "I.18.2.05122",
 		"kuerzelKunde": "WA-1.B",
 		"description": "Vermögenssteuer pro Veranlagung",
-		"id": 5122,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Wohnviertel",
@@ -1343,9 +1249,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Mittlere Vermögenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Vermögenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
 		"template": "map001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_002",
 		"parentId": 4835,
 		"children": [],
@@ -1357,15 +1260,15 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_ver.vermoegen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
-		]
+		],
+		"id": 5122
 	},
 	{
 		"title": "Einkommenssteuer pro Veranlagung",
 		"subtitle": "Stand: Steuerjahr 2014",
-		"kuerzel": "I.18.2.5123",
+		"kuerzel": "I.18.2.05123",
 		"kuerzelKunde": "WA-2.B",
 		"description": "Einkommenssteuer pro Veranlagung",
-		"id": 5123,
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Wohnviertel",
@@ -1384,9 +1287,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Mittlere Einkommenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Einkommenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
 		"template": "map001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_004",
 		"parentId": 4836,
 		"children": [],
@@ -1398,15 +1298,15 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_eink.einkommen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
-		]
+		],
+		"id": 5123
 	},
 	{
 		"title": "Erwerbstätigenquote",
 		"subtitle": "Stand: gepoolte Daten 2010 - 2014",
-		"kuerzel": "I.03.1.5124",
+		"kuerzel": "I.03.1.05124",
 		"kuerzelKunde": "WA-3.B",
 		"description": "Erwerbstätigenquote",
-		"id": 5124,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Erwerbspersonen ",
 		"kennzahlenset": "Wohnviertel",
@@ -1425,9 +1325,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet, was zum selben Wert für die beiden Gemeinden führt.",
 		"template": "map001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_006",
 		"parentId": 4837,
 		"children": [],
@@ -1439,15 +1336,15 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5124
 	},
 	{
 		"title": "Arbeitsplätze pro Kopf",
 		"subtitle": "Stand: 2014",
-		"kuerzel": "I.03.2.5125",
+		"kuerzel": "I.03.2.05125",
 		"kuerzelKunde": "WA-4.B",
 		"description": "Arbeitsplätze pro Kopf",
-		"id": 5125,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Wohnviertel",
@@ -1466,9 +1363,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte, die in Basel-Stadt arbeiten, in Vollzeitäquivalenten) an der gesamten Wohnbevölkerung des Wohnviertels.<br> Im Wohnvietel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
 		"template": "map001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_008",
 		"parentId": 4838,
 		"children": [],
@@ -1480,15 +1374,15 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5125
 	},
 	{
 		"title": "Arbeitslosenquote",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.03.4.5126",
+		"kuerzel": "I.03.4.05126",
 		"kuerzelKunde": "WA-5.B",
 		"description": "Arbeitslosenquote",
-		"id": 5126,
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Arbeitslose ",
 		"kennzahlenset": "Wohnviertel",
@@ -1508,9 +1402,6 @@ var indikatorensetData = [
 		"lesehilfe": "",
 		"erlaeuterungen": "Anteil als arbeitslos gemeldeter Personen am Total der Erwerbspersonen (15 bis 64 Jahre) in Prozent, jeweils Ende Jahr. Erwerbspersonen aus den Jahren 2010 - 2014, Hochrechnung auf Basis einer Stichprobe von 5 000 Personen pro Jahr. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet.",
 		"template": "map001",
-		"option": "options001",
-		"visible": true,
-		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_010",
 		"parentId": 4839,
 		"children": [],
@@ -1523,6 +1414,7 @@ var indikatorensetData = [
 		],
 		"externalLinks": [
 			""
-		]
+		],
+		"id": 5126
 	}
 ];
