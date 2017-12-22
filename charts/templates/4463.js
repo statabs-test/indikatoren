@@ -17,7 +17,7 @@
     "verticalAlign": "top",
     "itemMarginBottom": 5,
     "x": 35,
-    "y": 50,
+    //"y": 50,
     "align": "left"
   },
 

@@ -21,7 +21,7 @@
 		"verticalAlign": "top",
     "align": "left",
 		"floating": false,
-		"y": 20,
+		//"y": 20,
     "itemStyle": {
       "fontWeight": "normal"
     }

@@ -83,7 +83,7 @@
                 "text": null
             },
             "labels": {
-                "y": 3,
+                //"y": 3,
                 "style": {
                     "color": "#000000"
                 }

@@ -30,7 +30,6 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-	"y": 20,
 	"width": 200,
     "itemStyle": {
       "fontWeight": "normal"

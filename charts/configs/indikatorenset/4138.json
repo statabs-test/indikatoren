@@ -649,7 +649,12 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 415,
-    "spacingBottom": 28,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
     "style": {
       "fontFamily": "Arial"
     },
@@ -671,6 +676,7 @@
           }
     },
     "type": "column",
+    "spacingBottom": 28,
     "renderTo": "container-4138"
   },
   "plotOptions": {

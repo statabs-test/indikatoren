@@ -1,6 +1,6 @@
 (function(){
     return {
-    "chart": {		
+    "chart": {
         "events":{
             "load": function() {
               this.credits.element.onclick = function() {};
@@ -20,7 +20,7 @@
         "backgroundColor": "#fbfbfb",
         "width": 485,
         "height": 415,
-        "spacingBottom": 30,
+        spacing: [10, 10, 30, 10],
         "style": {
 			"fontFamily": "Arial"
         },
@@ -94,7 +94,7 @@
             "style": {
                 "color": "#000000",
                 "width": 1, 
-                "textOverflow": "none"
+                whiteSpace: 'nowrap'
             },
             "formatter": function() {
                 //add sum of observations of visible series to the axis label

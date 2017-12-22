@@ -27,7 +27,7 @@
     "svgo": "0.7.2"
   },
   "scripts": {
-    "reinstall": "rm -rf node_cache && rm -rf node_modules && export HIGHCHARTS_VERSION=6.0.4 && npm install && LC_ALL=C",
+    "reinstall": "rm -rf node_cache && rm -rf node_modules && npm run set-environment-variables && npm install",
     "build:database": "node build/createJsonDatabase",
     "build:find_changed_charts": "echo 'Comparing checksums of current files with those created after last build...' &&node build/findChangedCharts.js",
     "build:partial_databases": "node build/createKennzahlensetJsonFiles.js",
@@ -41,8 +41,8 @@
     "build:optimize_all_images": "echo 'Optimizing svg images...' && svgo --pretty --multipass -f images/portal/ && svgo --pretty --multipass -f images/indikatorenset/ && echo '...done optimizing images!'",
     "build:save_checksums": "echo 'Saving checksums of newly built charts...' && node build/saveChecksums.js",
     "build:copy_modules": "echo 'Copying required node_modules to assets/js/modules...' && copy-node-modules . assets/js -v && rm -rf assets/js/modules && mv assets/js/node_modules assets/js/modules && echo 'Manually copying filter.js...' &&  cp -r node_modules/filter.js assets/js/modules/",
-    "build": "LC_ALL=C && npm run build:database && npm run build:find_changed_charts && npm run build:partial_databases && npm run build:charts && npm run build:images  && npm run build:images_viewbox && npm run build:optimize_images && npm run build:save_checksums && npm run build:copy_modules",
-    "rebuild": "LC_ALL=C && echo 'Deleting metadat/all/hashesAfterBuild.json in order to trigger build of all charts...' && rm metadata/all/hashesAfterBuild.json & echo 'Running npm run build...' && npm run build",
+    "build": "npm run set-environment-variables && npm run build:database && npm run build:find_changed_charts && npm run build:partial_databases && npm run build:charts && npm run build:images  && npm run build:images_viewbox && npm run build:optimize_images && npm run build:save_checksums && npm run build:copy_modules",
+    "rebuild": "echo 'Deleting metadat/all/hashesAfterBuild.json in order to trigger build of all charts...' && rm metadata/all/hashesAfterBuild.json & echo 'Running npm run build...' && npm run build",
     "build:update_dependencies": "reinstall && npm prune --production=false && npm update --dev",
     "test": "echo \"No test specified\" && exit 0",
     "server": "forever start ./node_modules/http-server/bin/http-server -p 8082 -c-1 -s -o",
@@ -51,6 +51,7 @@
     "deploy:gh-pages": "gh-pages-travis",
     "deploy:ftp": "echo \"Fake uploading to FTP server...\" && exit 0",
     "deploy": "npm run deploy:gh-pages && npm run deploy:ftp && pwd",
+    "set-environment-variables": "export HIGHCHARTS_VERSION=6.0.4 && export ACCEPT_HIGHCHARTS_LICENSE=YES && export HIGHCHARTS_USE_STYLED=NO && export HIGHCHARTS_USE_MAPS=YES &&  LC_ALL=C",
     "start-export-server": "echo 'Starting highcharts-export-server using forever...' && forever start node_modules/highcharts-export-server/bin/cli.js --enableServer 1 --port 8081 --killSignal SIGINT",
     "stop-export-server": "echo 'stopping highcharts-export-server...' &&forever stop node_modules/highcharts-export-server/bin/cli.js"
   },

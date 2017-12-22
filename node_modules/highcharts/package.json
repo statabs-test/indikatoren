@@ -2,48 +2,48 @@
   "_args": [
     [
       {
-        "raw": "highcharts@5.0.7",
+        "raw": "highcharts@6.0.4",
         "scope": null,
         "escapedName": "highcharts",
         "name": "highcharts",
-        "rawSpec": "5.0.7",
-        "spec": "5.0.7",
+        "rawSpec": "6.0.4",
+        "spec": "6.0.4",
         "type": "version"
       },
       "/home/ubuntu/workspace"
     ]
   ],
-  "_from": "highcharts@5.0.7",
-  "_id": "highcharts@5.0.7",
+  "_from": "highcharts@6.0.4",
+  "_id": "highcharts@6.0.4",
   "_inCache": true,
   "_location": "/highcharts",
-  "_nodeVersion": "4.4.5",
+  "_nodeVersion": "8.7.0",
   "_npmOperationalInternal": {
-    "host": "packages-18-east.internal.npmjs.com",
-    "tmp": "tmp/highcharts-5.0.7.tgz_1484656318585_0.42274560453370214"
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/highcharts-6.0.4.tgz_1513339651315_0.886569042224437"
   },
   "_npmUser": {
     "name": "highsoft",
     "email": "torstein@highsoft.com"
   },
-  "_npmVersion": "2.15.5",
+  "_npmVersion": "5.5.1",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "highcharts@5.0.7",
+    "raw": "highcharts@6.0.4",
     "scope": null,
     "escapedName": "highcharts",
     "name": "highcharts",
-    "rawSpec": "5.0.7",
-    "spec": "5.0.7",
+    "rawSpec": "6.0.4",
+    "spec": "6.0.4",
     "type": "version"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/highcharts/-/highcharts-5.0.7.tgz",
-  "_shasum": "63ebeeee05acd56e3b2554b5b31a1224e1e05bf6",
+  "_resolved": "https://registry.npmjs.org/highcharts/-/highcharts-6.0.4.tgz",
+  "_shasum": "bb6956de2fbe24fa4b6141be7ceadc052ca2abf9",
   "_shrinkwrap": null,
-  "_spec": "highcharts@5.0.7",
+  "_spec": "highcharts@6.0.4",
   "_where": "/home/ubuntu/workspace",
   "author": {
     "name": "Highsoft AS",
@@ -58,10 +58,11 @@
   "devDependencies": {},
   "directories": {},
   "dist": {
-    "shasum": "63ebeeee05acd56e3b2554b5b31a1224e1e05bf6",
-    "tarball": "https://registry.npmjs.org/highcharts/-/highcharts-5.0.7.tgz"
+    "integrity": "sha512-NCcqc2Qu9NoBX0coVbxTckVte4eDmobfHg9mwPsqd1v92Wizs5ygYX9NvkYW2l7xMkkxkApgamNW39cNkonNmw==",
+    "shasum": "bb6956de2fbe24fa4b6141be7ceadc052ca2abf9",
+    "tarball": "https://registry.npmjs.org/highcharts/-/highcharts-6.0.4.tgz"
   },
-  "gitHead": "24cf66c34f5dd79f91b5d1867a21bc6ba071ae60",
+  "gitHead": "30ec756a1347cf7d2c5c51302777c93f1493023c",
   "homepage": "http://www.highcharts.com",
   "keywords": [
     "charts",
@@ -87,6 +88,5 @@
     "type": "git",
     "url": "git+https://github.com/highcharts/highcharts-dist.git"
   },
-  "scripts": {},
-  "version": "5.0.7"
+  "version": "6.0.4"
 }

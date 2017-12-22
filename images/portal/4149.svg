@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.0.4
   </desc>
   <defs>
     <clipPath>
@@ -54,7 +54,7 @@
     <path fill="none" class="highcharts-axis-line" d="M 444 85 L 444 364"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(74,85) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series " transform="translate(74,85) scale(1 1)" clip-path="url(#a)">
       <rect x="14" y="46" width="20" height="234" fill="#73b97c" class="highcharts-point"/>
       <rect x="95" y="43" width="20" height="237" fill="#73b97c" class="highcharts-point"/>
       <rect x="135" y="39" width="20" height="241" fill="#73b97c" class="highcharts-point"/>
@@ -64,11 +64,11 @@
       <rect x="296" y="32" width="20" height="248" fill="#73b97c" class="highcharts-point"/>
       <rect x="337" y="27" width="20" height="253" fill="#73b97c" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(74,85) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(74,85) scale(1 1)" clip-path="url(#b)">
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series " transform="translate(74,85) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-line-series " transform="translate(74,85) scale(1 1)" clip-path="url(#b)">
       <path fill="none" d="M 23.427947598251 173.31677042600427 L 104.21397379913 172.06853207167424 L 144.60698689956 170.11975605730538 L 185 171.60621973371397 L 225.39301310044 173.4024315795798 L 265.78602620087 167.63117000008128 L 306.17903930131 167.14009090022194 L 346.57205240175 165.07758698641726" class="highcharts-graph" stroke="#cd9c00" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(74,85) scale(1 1)" clip-path="none">
+    <g class="highcharts-markers highcharts-series-1 highcharts-line-series " transform="translate(74,85) scale(1 1)" clip-path="none">
       <path fill="#cd9c00" d="M 27 173 A 4 4 0 1 1 26.99999800000017 172.99600000066667 Z" class="highcharts-point"/>
       <path fill="#cd9c00" d="M 108 172 A 4 4 0 1 1 107.99999800000016 171.99600000066667 Z" class="highcharts-point"/>
       <path fill="#cd9c00" d="M 148 170 A 4 4 0 1 1 147.99999800000018 169.99600000066667 Z" class="highcharts-point"/>
@@ -82,7 +82,8 @@
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Freiraumfläche und Anteil an der Gesamtfläche</tspan>
   </text>
-  <g class="highcharts-legend" transform="translate(66,45)">
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="40"/>
+  <g class="highcharts-legend" transform="translate(66,41)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="216" height="25" visibility="visible"/>
     <g>
       <g>

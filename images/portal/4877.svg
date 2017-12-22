@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.0.4
   </desc>
   <defs>
     <clipPath>
@@ -43,7 +43,7 @@
     <path fill="none" class="highcharts-axis-line" d="M 173 350 L 475 350"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(475,350) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series " transform="translate(475,350) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
       <rect x="262" y="63" width="7" height="240" fill="#73BA7C" class="highcharts-point"/>
       <rect x="235" y="303" width="7" height="0" fill="#73BA7C" class="highcharts-point"/>
       <rect x="207" y="55" width="7" height="248" fill="#73BA7C" class="highcharts-point"/>
@@ -55,8 +55,8 @@
       <rect x="42" y="73" width="7" height="230" fill="#73BA7C" class="highcharts-point"/>
       <rect x="15" y="139" width="7" height="164" fill="#73BA7C" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(475,350) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(475,350) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series " transform="translate(475,350) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-column-series " transform="translate(475,350) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
       <rect x="254" y="216" width="7" height="87" fill="#FABD24" class="highcharts-point"/>
       <rect x="226" y="303" width="7" height="0" fill="#FABD24" class="highcharts-point"/>
       <rect x="199" y="222" width="7" height="81" fill="#FABD24" class="highcharts-point"/>
@@ -68,12 +68,13 @@
       <rect x="34" y="253" width="7" height="50" fill="#FABD24" class="highcharts-point"/>
       <rect x="6" y="192" width="7" height="111" fill="#FABD24" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(475,350) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-1 highcharts-column-series " transform="translate(475,350) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Rückwanderungsquote der Ausländer nach</tspan><tspan dy="17" x="10">Staatsangehörigkeitund Alter 2015</tspan><title>Rückwanderungsquote der Ausländer nach Staatsangehörigkeitund Alter 2015</title>
   </text>
-  <g class="highcharts-legend" transform="translate(128,45)">
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="57"/>
+  <g class="highcharts-legend" transform="translate(128,58)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="173" height="25" visibility="visible"/>
     <g>
       <g>
