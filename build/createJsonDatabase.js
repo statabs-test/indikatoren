@@ -78,6 +78,9 @@ allIndikatoren.forEach((element, i, arr) => {
 			indikatorenInPortal.push(element);
 		}
 	}
+	else {
+		console.log(element.id + ' has visibleInPortal set to false, ignoring for indikatorenInPortal');
+	}
 });
 
 

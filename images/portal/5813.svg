@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 6.0.4
+    Created with Highstock 5.0.14
   </desc>
   <defs>
     <clipPath>
@@ -42,10 +42,10 @@
     <path fill="none" class="highcharts-axis-line" d="M 40 55 L 40 349"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-line-series " transform="translate(40,55) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(40,55) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 4.2647058823544 70.67876500660498 L 27.957516339871 67.52644182236398 L 51.650326797387 101.93913076899301 L 75.343137254903 86.834345920224 L 99.035947712419 99.011365489323 L 122.72875816994 93.957833403693 L 146.42156862745 82.50946848154499 L 170.11437908497 70.63255920911399 L 193.80718954248 87.32778988424397 L 217.5 87.973764106158 L 241.19281045752 112.395501370152 L 264.88562091503 158.078512948755 L 288.57843137255 184.461371552661 L 312.27124183006 221.104668174033 L 335.96405228758 224.505654097935 L 359.6568627451 243.899453366331 L 383.34967320261 260.14017769002965 L 407.04248366013 244.529504987481 L 430.73529411765 232.734751459161" class="highcharts-graph" stroke="#83522E" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-line-series " transform="translate(40,55) scale(1 1)" clip-path="none">
+    <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(40,55) scale(1 1)" clip-path="none">
       <path fill="#83522E" d="M 8 71 A 4 4 0 1 1 7.999998000000167 70.99600000066667 Z" class="highcharts-point"/>
       <path fill="#83522E" d="M 31 68 A 4 4 0 1 1 30.99999800000017 67.99600000066667 Z" class="highcharts-point"/>
       <path fill="#83522E" d="M 55 102 A 4 4 0 1 1 54.99999800000017 101.99600000066667 Z" class="highcharts-point"/>
@@ -70,10 +70,10 @@
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Leerwohnungsquote</tspan>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="40">
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
     <tspan>in Prozent</tspan>
   </text>
-  <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series " visibility="visible" transform="translate(40,55) scale(1 1)">
+  <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined " visibility="visible" transform="translate(40,55) scale(1 1)">
     <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(-5,78)">
       <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16">
         <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">1,52</tspan><tspan x="5" y="16">1,52</tspan>

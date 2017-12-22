@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 6.0.4
+    Created with Highstock 5.0.14
   </desc>
   <defs>
     <clipPath>
@@ -41,10 +41,10 @@
     <path fill="none" class="highcharts-axis-line" d="M 37 41 L 37 349"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-line-series " transform="translate(37,41) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(37,41) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 4.2941176470577 86.24000000000001 L 123.57516339869 66.01905510496294 L 207.07189542484 60.36799999999997 L 219 58.51999999999998 L 230.92810457516 56.05600000000001 L 242.85620915033 54.77347028320551 L 362.13725490196 48.468715484216716 L 374.06535947713 49.09826658200467 L 385.99346405229 49.34667683821567 L 397.92156862745 49.25299033460345 L 409.84967320262 51.127999999999986 L 421.77777777778 52.6382363452484 L 433.70588235294 53.72062172284808" class="highcharts-graph" stroke="#008AC3" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-line-series " transform="translate(37,41) scale(1 1)" clip-path="none">
+    <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(37,41) scale(1 1)" clip-path="none">
       <path fill="#008AC3" d="M 8 86 A 4 4 0 1 1 7.999998000000167 85.99600000066667 Z" class="highcharts-point"/>
       <path fill="#008AC3" d="M 127 66 A 4 4 0 1 1 126.99999800000016 65.99600000066667 Z" class="highcharts-point"/>
       <path fill="#008AC3" d="M 211 60 A 4 4 0 1 1 210.99999800000018 59.99600000066666 Z" class="highcharts-point"/>
@@ -63,8 +63,7 @@
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Mittlere Wohnfläche pro Person</tspan>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="40"/>
-  <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series " visibility="visible" transform="translate(37,41) scale(1 1)">
+  <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined " visibility="visible" transform="translate(37,41) scale(1 1)">
     <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(-5,63)">
       <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16">
         <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">36</tspan><tspan x="5" y="16">36</tspan>
