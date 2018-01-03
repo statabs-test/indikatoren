@@ -404,7 +404,7 @@
             	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + '<br/> (' + nString + sum + ')';
             },
       "align": "left",
-      "x": -110
+      "x": -118
     }
   },
   "chart": {
@@ -433,7 +433,7 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "marginLeft": 150,
+    "marginLeft": 130,
     "inverted": true,
     "renderTo": "container-6438"
   },
