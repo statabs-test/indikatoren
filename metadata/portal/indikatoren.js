@@ -7560,6 +7560,428 @@ var indikatoren = [
 		"id": 5131
 	},
 	{
+		"title": "Wohnbevölkerung am Jahresende nach Staatsangehörigkeit",
+		"subtitle": "",
+		"kuerzel": "I.01.1.05141",
+		"kuerzelKunde": "BE1",
+		"description": "Wohnbevölkerung am Jahresende nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur ",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-03-13T10:31:41.4141",
+		"schlagwort": [
+			"Ausländer",
+			"Bevölkerung",
+			"Staatsangehörigkeit"
+		],
+		"stufe1": "Bevölkerung",
+		"stufe2": "Bevölkerung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Ende 2015 zählte der Kanton Basel-Stadt 197 204 Einwohner.Davon waren rund zwei Drittel Schweizer Staatsangehörige. Diegrösste Ausländergruppe bildeten die Deutschen, gefolgt von denItalienern, den Personen aus dem ehemaligen Jugoslawien und denTürken. Im Vergleich zu 1995 hat die Zahl der Deutschen, derFranzosen und der Portugiesen zugenommen. Gesunken isthingegen die Zahl der Italiener, der Spanier, der Türken und derPersonen aus dem ehemaligen Jugoslawien. Ebenfallszurückgegangen ist die Zahl der Schweizer.",
+		"erlaeuterungen": "Bevölkerungsstatistik Im Jahr 2010 korrigiert im Rahmen der Registerbereinigungen für die Volkszählung. Bis zum Jahr 2011 wurde dieBevölkerungszahl durch Fortschreibung ermittelt. Seit dem Jahr 2012 basiert sie direkt auf Auswertungen aus dem kantonalen Einwohnerregister. Ehem. JU fasst Staaten auf dem Gebiet des ehemaligen Jugoslawien zusammen.",
+		"template": "line001",
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5141
+	},
+	{
+		"title": "Wohnbevölkerung am Jahresende nach Alter, Geschlecht und Staatsangehörigkeit (Bevölkerungspyramide)",
+		"subtitle": "",
+		"kuerzel": "I.01.1.05142",
+		"kuerzelKunde": "BE2",
+		"description": "Wohnbevölkerung am Jahresende nach Alter, Geschlecht und Staatsangehörigkeit (Bevölkerungspyramide)",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur ",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-03-01T13:06:51.5151",
+		"schlagwort": [
+			"Geschlecht",
+			"Alter",
+			"Bevölkerung",
+			"Staatsangehörigkeit"
+		],
+		"stufe1": "Bevölkerung",
+		"stufe2": "Bevölkerung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass bei der ausländischenBevölkerung vor allem die mittleren Jahrgänge der Personen imErwerbsalter gut besetzt sind. Deutlich wird zudem, dass es in denhöheren Altersgruppen zahlreiche Schweizerinnen gibt.",
+		"erlaeuterungen": "",
+		"template": "populationPyramid001",
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5142
+	},
+	{
+		"title": "Altersquotient",
+		"subtitle": "",
+		"kuerzel": "I.01.1.05144",
+		"kuerzelKunde": "BE3",
+		"description": "Altersquotient",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur ",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-03-13T15:47:44.4444",
+		"schlagwort": [
+			"Alter",
+			"Bevölkerung"
+		],
+		"stufe1": "Bevölkerung",
+		"stufe2": "Bevölkerung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Altersquotient (Anzahl 65-Jährige und Ältere pro 100 20- bis 64-Jährige) ist zwischen 2006 und 2015 leicht gesunken. Dies istdarauf zurückzuführen, dass die Zahl der Personen im Erwerbsalterstärker zugenommen hat als diejenige der Senioren.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5144
+	},
+	{
+		"title": "Jugendquotient",
+		"subtitle": "",
+		"kuerzel": "I.01.1.05147",
+		"kuerzelKunde": "BE4",
+		"description": "Jugendquotient",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur ",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-03-13T16:34:54.5454",
+		"schlagwort": [
+			"Alter",
+			"Bevölkerung"
+		],
+		"stufe1": "Bevölkerung",
+		"stufe2": "Bevölkerung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Jugendquotient (Anzahl 0- bis 19-Jährige pro 100 20- bis 64-Jährige) ist von 2006 bis 2011 leicht zurückgegangen. Dies lagdaran, das die Zahl der Jugendlichen konstant blieb und jene derPersonen im Erwerbsalter gestiegen ist. Seit 2013 steigt derJugendquotient wieder an",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5147
+	},
+	{
+		"title": "Saldo aus Geburten und Todesfällen",
+		"subtitle": "",
+		"kuerzel": "I.01.1.05148",
+		"kuerzelKunde": "BE6",
+		"description": "Saldo aus Geburten und Todesfällen",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur ",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-03-14T12:02:20.2020",
+		"schlagwort": [
+			"Alter",
+			"Bevölkerung"
+		],
+		"stufe1": "Bevölkerung",
+		"stufe2": "Bevölkerung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "In den letzten zehn Jahren überstieg die Zahl der Gestorbenen stetsdiejenige der Geborenen. Der Sterbeüberschuss ist jedochzurückgegangen von 520 im Jahr 2006 auf noch 162 im Jahr 2015.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5148
+	},
+	{
+		"title": "Geburtenziffer nach Staatsangehörigkeit (Schweiz/Ausland)",
+		"subtitle": "",
+		"kuerzel": "I.01.1.05149",
+		"kuerzelKunde": "BE7",
+		"description": "Geburtenziffer nach Staatsangehörigkeit (Schweiz/Ausland)",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur ",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-03-14T12:14:05.055",
+		"schlagwort": [
+			"Bevölkerung"
+		],
+		"stufe1": "Bevölkerung",
+		"stufe2": "Bevölkerung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die rohe Geburtenziffer (Lebendgeborene auf 1000 Einwohner dermittleren Wohnbevölkerung) hat in den vergangenen zehn Jahrenvon 8,8 auf 10,2 zugenommen. Nach Staatsangehörigkeit betrachtet, ist die rohe Geburtenziffer der Schweizer gestiegen (von7,4 auf 9,3) und jene der Ausländer leicht gesunken (von 11,9 auf11,7).",
+		"erlaeuterungen": "Lebendgeborene auf 1000 Einwohner der mittleren Wohnbevölkerung. 2015: Provisorische Werte.",
+		"template": "line001",
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5149
+	},
+	{
+		"title": "Wanderungssaldo: Zu- und Weggezogene nach Herkunft und Ziel",
+		"subtitle": "",
+		"kuerzel": "I.01.5.05155",
+		"kuerzelKunde": "BE8.1",
+		"description": "Wanderungssaldo: Zu- und Weggezogene nach Herkunft und Ziel",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wanderungen",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Bevölkerung",
+			"Zuzug",
+			"Wanderung"
+		],
+		"stufe1": "Bevölkerung",
+		"stufe2": "Bevölkerung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2015 zogen 14 021 Personen neu in den Kanton Basel-Stadt. Dies sind mehr als im Vorjahr, jedoch deutlich weniger als 2013, als derhöchste Wert der letzten zehn Jahre erreicht wurde. Der niedrigste Wert wurde 2006 verzeichnet, zu Beginn der Beobachtungsperiode. Die Zahl der Wegzüge hat 2015 gegenüber dem Vorjahr ebenfalls zugenommen und auch der Zehnjahresvergleich zeigt einen Anstieg. Der Wanderungssaldo fiel 2015 positiv aus (731).",
+		"erlaeuterungen": "Im Jahr 2010 einschliesslich rund 1 600 nachträglicher Streichungen (zu Weggezogenen gezählt) im Rahmen der Registerbereinigungen für die Volkszählung. 2015: Provisorische Werte.",
+		"template": "template001",
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5155
+	},
+	{
+		"title": "Zufriedenheit mit verschiedenen Aspekten und Angeboten am Wohnort",
+		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» Stand: 2015",
+		"kuerzel": "I.50.1.05178",
+		"kuerzelKunde": "GW2",
+		"description": "Zufriedenheit mit verschiedenen Aspekten und Angeboten am Wohnort",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Zufriedenheit",
+			"Bevölkerung"
+		],
+		"stufe1": "Grundbedürfnisse und Wohlergehen",
+		"stufe2": "Lebensqualität",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2015 hatten die befragten Personen die Gelegenheit, 23 Punkte, die für den Wohnort wichtig sind, zu bewerten. Am zufriedensten sind siemit der generellen Vielfalt der Einkaufsmöglichkeiten in Basel, gefolgt von den öffentlichen Verkehrsmitteln und der Gesundheitsversorgung.Beim Thema Parkplätze gehen die Meinungen auseinander: Der Anteil Zufriedener und der Anteil Unzufriedener halten sich in etwa dieWaage.",
+		"erlaeuterungen": "",
+		"template": "befragungen001",
+		"visibleInPortal": true,
+		"orderKey": "03_01_00_00_00_000",
+		"parentId": null,
+		"children": [
+			"6174"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bevölkerungsbefragung Basel-Stadt 2015, Frage F6"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5178
+	},
+	{
+		"title": "Lebenserwartung bei Geburt in Jahren, nach Geschlecht",
+		"subtitle": "",
+		"kuerzel": "I.14.3.05180",
+		"kuerzelKunde": "GW3",
+		"description": "Lebenserwartung bei Geburt in Jahren, nach Geschlecht",
+		"thema": "14 Gesundheit",
+		"unterthema": "Sterblichkeit",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Alter"
+		],
+		"stufe1": "Grundbedürfnisse und Wohlergehen",
+		"stufe2": "Gesundheit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Lebenserwartung bei Geburt für Frauen liegt im gesamtenBeobachtungszeitraum über derjenigen der Männer. Die Werte2015 sind 83,9 Jahre (Frauen) und 79,7 Jahre (Männer).",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"visibleInPortal": true,
+		"orderKey": "03_02_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5180
+	},
+	{
+		"title": "Strassenverkehrsunfälle und verunfallte Personen",
+		"subtitle": "",
+		"kuerzel": "I.11.7.05186",
+		"kuerzelKunde": "GW10",
+		"description": "Strassenverkehrsunfälle und verunfallte Personen",
+		"thema": "11 Verkehr",
+		"unterthema": "Strassenverkehrsunfälle",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Auto",
+			"Sicherheit",
+			"Verkehr"
+		],
+		"stufe1": "Grundbedürfnisse und Wohlergehen",
+		"stufe2": "Sicherheit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Anzahl Unfälle und verunfallte Personen leicht gestiegen.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"visibleInPortal": true,
+		"orderKey": "03_04_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Kantonspolizei Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5186
+	},
+	{
+		"title": "Mietpreisindex",
+		"subtitle": "",
+		"kuerzel": "I.09.3.05196",
+		"kuerzelKunde": "GW18",
+		"description": "Mietpreisindex",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Mietpreise",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Wohnen"
+		],
+		"stufe1": "Grundbedürfnisse und Wohlergehen",
+		"stufe2": "Wohnen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Mietpreisindex zeigt insgesamt eine steigende Entwicklung von berechneten 80,4 Punkten im Jahr 1995 auf den aktuellen Basiswert von 100 Punkten im November 2015.",
+		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1-6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden.",
+		"template": "line001",
+		"visibleInPortal": true,
+		"orderKey": "03_06_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5196
+	},
+	{
 		"title": "Bevölkerungsdichte",
 		"subtitle": "Anzahl Einwohner pro Hektar",
 		"kuerzel": "I.01.1.05201",
