@@ -10,7 +10,7 @@
           256
         ],
         [
-          "Handelt der Situation angemessen",
+          "Handelt angemessen",
           159
         ],
         [
@@ -22,7 +22,7 @@
           221
         ],
         [
-          "Behandelt Leute mit Respekt",
+          "Respektvoll",
           235
         ],
         [
@@ -47,7 +47,7 @@
           154
         ],
         [
-          "Handelt der Situation angemessen",
+          "Handelt angemessen",
           108
         ],
         [
@@ -59,7 +59,7 @@
           127
         ],
         [
-          "Behandelt Leute mit Respekt",
+          "Respektvoll",
           144
         ],
         [
@@ -84,7 +84,7 @@
           262
         ],
         [
-          "Handelt der Situation angemessen",
+          "Handelt angemessen",
           289
         ],
         [
@@ -96,7 +96,7 @@
           274
         ],
         [
-          "Behandelt Leute mit Respekt",
+          "Respektvoll",
           241
         ],
         [
@@ -121,7 +121,7 @@
           150
         ],
         [
-          "Handelt der Situation angemessen",
+          "Handelt angemessen",
           187
         ],
         [
@@ -133,7 +133,7 @@
           172
         ],
         [
-          "Behandelt Leute mit Respekt",
+          "Respektvoll",
           160
         ],
         [
@@ -158,7 +158,7 @@
           65
         ],
         [
-          "Handelt der Situation angemessen",
+          "Handelt angemessen",
           89
         ],
         [
@@ -170,7 +170,7 @@
           81
         ],
         [
-          "Behandelt Leute mit Respekt",
+          "Respektvoll",
           79
         ],
         [
@@ -195,7 +195,7 @@
           71
         ],
         [
-          "Handelt der Situation angemessen",
+          "Handelt angemessen",
           97
         ],
         [
@@ -207,7 +207,7 @@
           88
         ],
         [
-          "Behandelt Leute mit Respekt",
+          "Respektvoll",
           82
         ],
         [
@@ -232,7 +232,7 @@
           31
         ],
         [
-          "Handelt der Situation angemessen",
+          "Handelt angemessen",
           25
         ],
         [
@@ -244,7 +244,7 @@
           25
         ],
         [
-          "Behandelt Leute mit Respekt",
+          "Respektvoll",
           28
         ],
         [
@@ -269,7 +269,7 @@
           16
         ],
         [
-          "Handelt der Situation angemessen",
+          "Handelt angemessen",
           14
         ],
         [
@@ -281,7 +281,7 @@
           10
         ],
         [
-          "Behandelt Leute mit Respekt",
+          "Respektvoll",
           21
         ],
         [
@@ -306,7 +306,7 @@
           5
         ],
         [
-          "Handelt der Situation angemessen",
+          "Handelt angemessen",
           8
         ],
         [
@@ -318,7 +318,7 @@
           6
         ],
         [
-          "Behandelt Leute mit Respekt",
+          "Respektvoll",
           12
         ],
         [
@@ -343,7 +343,7 @@
           8
         ],
         [
-          "Handelt der Situation angemessen",
+          "Handelt angemessen",
           9
         ],
         [
@@ -355,7 +355,7 @@
           12
         ],
         [
-          "Behandelt Leute mit Respekt",
+          "Respektvoll",
           11
         ],
         [
@@ -401,7 +401,9 @@
                 //use N if all series are visible, otherwise use n
                 var nString = /*(this.chart.series.length == allVisibleSeries.length) ? 'N=' : */ 'n='; 
                 //check for value that contains only spaces
-            	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
+            	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + '<br/> (' + nString + sum + ')';
+            	// replace " " with <br/>
+            	//return this.value.replace(" ", "<br/>")
             },
       "align": "left",
       "x": -110

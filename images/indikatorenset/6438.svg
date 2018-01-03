@@ -216,25 +216,25 @@
   </g>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
     <text x="40" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="75" opacity="1">
-      <tspan>Freundlich</tspan><tspan dy="14" x="40">(n=1016)</tspan><title>Freundlich (n=1016)</title>
+      <tspan>Freundlich</tspan><tspan x="40" dy="14">(n=1016)</tspan><title>Freundlich (n=1016)</title>
     </text>
-    <text x="40" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="98" opacity="1">
-      <tspan>Handelt</tspan><tspan dy="14" x="40">der</tspan><tspan dy="14" x="40">Situation</tspan><tspan dy="14" x="40">angemessen</tspan><tspan dy="14" x="40">(n=962)</tspan><title>Handelt der Situation angemessen (n=962)</title>
+    <text x="40" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="112" opacity="1">
+      <tspan>Handelt</tspan><tspan dy="14" x="40">angemessen</tspan><tspan x="40" dy="14">(n=962)</tspan><title>Handelt angemessen (n=962)</title>
     </text>
     <text x="40" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="163" opacity="1">
-      <tspan>Hilfsbereit</tspan><tspan dy="14" x="40">(n=1008)</tspan><title>Hilfsbereit (n=1008)</title>
+      <tspan>Hilfsbereit</tspan><tspan x="40" dy="14">(n=1008)</tspan><title>Hilfsbereit (n=1008)</title>
     </text>
     <text x="40" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="207" opacity="1">
-      <tspan>Sympatisch</tspan><tspan dy="14" x="40">(n=1003)</tspan><title>Sympatisch (n=1003)</title>
+      <tspan>Sympatisch</tspan><tspan x="40" dy="14">(n=1003)</tspan><title>Sympatisch (n=1003)</title>
     </text>
-    <text x="40" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="237" opacity="1">
-      <tspan>Behandelt</tspan><tspan dy="14" x="40">Leute mit</tspan><tspan dy="14" x="40">Respekt</tspan><tspan dy="14" x="40">(n=1004)</tspan><title>Behandelt Leute mit Respekt (n=1004)</title>
+    <text x="40" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="251" opacity="1">
+      <tspan>Respektvoll</tspan><tspan x="40" dy="14">(n=1004)</tspan><title>Respektvoll (n=1004)</title>
     </text>
-    <text x="40" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="267" opacity="1">
-      <tspan>Nimmt</tspan><tspan dy="14" x="40">Anliegen</tspan><tspan dy="14" x="40">der</tspan><tspan dy="14" x="40">Bevölkerung</tspan><tspan dy="14" x="40">ernst</tspan><tspan dy="14" x="40">(n=982)</tspan><title>Nimmt Anliegen der Bevölkerung ernst (n=982)</title>
+    <text x="40" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="281" opacity="1">
+      <tspan>Nimmt</tspan><tspan dy="14" x="40">Anliegen</tspan><tspan dy="14" x="40">ernst</tspan><tspan x="40" dy="14">(n=982)</tspan><title>Nimmt Anliegen ernst (n=982)</title>
     </text>
-    <text x="40" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="325" opacity="1">
-      <tspan>Hat</tspan><tspan dy="14" x="40">ausgeprägten</tspan><tspan dy="14" x="40">Gerechtigkeitssinn</tspan><tspan dy="14" x="40">(n=930)</tspan><title>Hat ausgeprägten Gerechtigkeitssinn (n=930)</title>
+    <text x="40" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="339" opacity="1">
+      <tspan>Gerecht</tspan><tspan x="40" dy="14">(n=930)</tspan><title>Gerecht (n=930)</title>
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
