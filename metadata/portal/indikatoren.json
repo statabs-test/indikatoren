@@ -7982,6 +7982,81 @@
 		"id": 5196
 	},
 	{
+		"title": "Grünfläche pro Kopf nach Wohnviertel/Gemeinde",
+		"subtitle": "in m<sup>2</sup>, 2015",
+		"kuerzel": "I.02.1.05198",
+		"kuerzelKunde": "GW20",
+		"description": "Grünfläche pro Kopf nach Wohnviertel/Gemeinde",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Wohnviertel",
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-03-16T14:52:33.3333",
+		"schlagwort": [
+			"Umwelt"
+		],
+		"stufe1": "Grundbedürfnisse und Wohlergehen",
+		"stufe2": "Wohnen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Anteil an Grünfläche pro Person variiert stark zwischen den einzelnen Wohnvierteln. Erwartungsgemäss ist dieser im dicht bewohnten Matthäusquartier (6,1 m2) und in der Basler Innenstadt (Altstadt Kleinbasel: 8,2 m2, Clara: 9,2 m2) am kleinsten. Überdurchschnittlich hoch dagegen ist der Anteil in den Wohnvierteln Hirzbrunnen (202 m2), Bruderholz (204 m2) und in den Landgemeinden Riehen (415 m2) und Bettingen (1 670 m2).",
+		"erlaeuterungen": "Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden in einem Turnus von 6–12 Jahren mit einer periodischen Nachführung aktualisiert. Ausnahme: Öffentliche Parks und Rabatten im Strassenbereich werden detaillierter erfasst. Als versiegelt gelten Gebäude und befestigte Flächen. Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Bei den Gewässern macht der Rhein (111,48 ha) einen Grossteil der Fläche aus.",
+		"template": "template001",
+		"visibleInPortal": true,
+		"orderKey": "03_06_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Baustatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5198
+	},
+	{
+		"title": "Ausgaben für Umbau- und Unterhaltsarbeiten in 1000 Franken sowie Anteil am Total der Bauausgaben",
+		"subtitle": "",
+		"kuerzel": "I.09.1.05199",
+		"kuerzelKunde": "GW21",
+		"description": "Ausgaben für Umbau- und Unterhaltsarbeiten in 1000 Franken sowie Anteil am Total der Bauausgaben",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			""
+		],
+		"stufe1": "Grundbedürfnisse und Wohlergehen",
+		"stufe2": "Infrastruktur",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Das Total der Bauausgaben steigt seit 2011 kontinuierlich an. Der Anteil Ausgaben für Umbau- und Unterhaltsarbeiten liegt in den meisten Jahren leicht unterhalb der 50%-Marke. Der tiefste Wert ergibt sich 2010 mit einem Anteil von 35% an den totalen Bauausgaben.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"visibleInPortal": true,
+		"orderKey": "03_07_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5199
+	},
+	{
 		"title": "Bevölkerungsdichte",
 		"subtitle": "Anzahl Einwohner pro Hektar",
 		"kuerzel": "I.01.1.05201",
