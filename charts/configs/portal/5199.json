@@ -227,13 +227,13 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 2
+    "tickInterval": 1
   },
   "yAxis": [
     {
       "min": 0,
-      "max": 200000,
-      "tickInterval": 50000,
+      "max": 1600000,
+      "tickInterval": 320000,
       "title": {
         "text": null,
         "color": "#000000",
@@ -247,14 +247,14 @@
       }
     },
     {
-      "min": 90,
-      "max": 120,
-      "tickInterval": 7.5,
+      "min": 0,
+      "max": 100,
+      "tickInterval": 20,
       "title": {
         "text": null
       },
       "labels": {
-        "format": "{value:,.1f}",
+        "format": "{value:,.0f}",
         "style": {
           "color": "black"
         }
@@ -293,7 +293,7 @@
     "x": 45,
     "width": 300,
     "itemMarginBottom": 5,
-    "itemWidth": 120,
+    "itemWidth": 300,
     "itemStyle": {
       "fontWeight": "normal"
     }

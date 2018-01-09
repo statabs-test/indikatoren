@@ -10667,6 +10667,46 @@ var indikatoren = [
 		"id": 5180
 	},
 	{
+		"title": "Übergewichtige Kinder nach Schulstufe, Heimat und Geschlecht",
+		"subtitle": "in %",
+		"kuerzel": "I.14.1.05182",
+		"kuerzelKunde": "GW5",
+		"description": "Übergewichtige Kinder nach Schulstufe, Heimat und Geschlecht",
+		"thema": "14 Gesundheit",
+		"unterthema": "Spitäler",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-03-13T17:07:10.1010",
+		"schlagwort": [
+			"Geschlecht",
+			"Ausländer",
+			"Alter",
+			"Schule"
+		],
+		"stufe1": "Grundbedürfnisse und Wohlergehen",
+		"stufe2": "Gesundheit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Schuljahr 2014/2015 waren 9% der Knaben im ersten Kindergartenjahr übergewichtig. Alternative Interpretation: 9% der Knaben im ersten Kindergartenjahr hatten einen BMI-Wert, der über dem Referenzwert (für ihr Alter und Geschlecht) für Übergewicht lag.",
+		"erlaeuterungen": "Die Daten werden im Rahmen der schulärztlichen Untersuchunen erhoben und nur für die dargestellten Schulstufen. Die BMI-Referenzwerte für Übergewicht variiren nach Alter und Geschlecht und werden von Zeit zu Zeit neu erhoben. Damit die Anteile vergleichbar bleiben werden stets dieselben Referenzwerte nach Tim J Cole (BMJ Vol. 320, 5/2000) verwendet.",
+		"template": "template001",
+		"visibleInPortal": true,
+		"orderKey": "03_02_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Gesundheitsdepartement Basel-Stadt, Kinder- und Jugendgesundheitsdienst"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5182
+	},
+	{
 		"title": "Strassenverkehrsunfälle und verunfallte Personen",
 		"subtitle": "",
 		"kuerzel": "I.11.7.05186",
