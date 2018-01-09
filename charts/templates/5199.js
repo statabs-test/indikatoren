@@ -17,9 +17,9 @@
     },
   },
   {
-  	//"min": 90,
-     //max: 120,
-    //"tickInterval": 7.5,
+  	"min": 0,
+    max: 100,
+    "tickInterval": 20,
     "title": {
         "style": {
         "color": "#000000",
