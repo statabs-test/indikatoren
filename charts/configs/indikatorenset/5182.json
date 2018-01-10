@@ -1,7 +1,8 @@
 {
   "series": [
     {
-      "color": "#B375AB",
+      "color": "#B00000",
+      "legendIndex": 0,
       "data": [
         [
           1980,
@@ -40,10 +41,11 @@
           18
         ]
       ],
-      "name": "3. Klasse schwe. Knaben"
+      "name": "3. Klasse schw. Knaben"
     },
     {
-      "visible": false,
+      "color": "#E64900",
+      "legendIndex": 1,
       "data": [
         [
           1980,
@@ -82,7 +84,269 @@
           21
         ]
       ],
-      "name": "3. Klasse schwe. Mädchen"
+      "name": "3. Klasse schw. Mädchen"
+    },
+    {
+      "color": "#2B0099",
+      "legendIndex": 2,
+      "data": [
+        [
+          1980,
+          20
+        ],
+        [
+          1990,
+          21
+        ],
+        [
+          2000,
+          36
+        ],
+        [
+          2010,
+          31
+        ],
+        [
+          2011,
+          33
+        ],
+        [
+          2012,
+          32
+        ],
+        [
+          2013,
+          33
+        ],
+        [
+          2014,
+          29
+        ],
+        [
+          2015,
+          31
+        ]
+      ],
+      "name": "3. Klasse ausl. Knaben"
+    },
+    {
+      "color": "#008AC3",
+      "legendIndex": 4,
+      "data": [
+        [
+          1980,
+          19
+        ],
+        [
+          1990,
+          26
+        ],
+        [
+          2000,
+          30
+        ],
+        [
+          2010,
+          28
+        ],
+        [
+          2011,
+          34
+        ],
+        [
+          2012,
+          24
+        ],
+        [
+          2013,
+          28
+        ],
+        [
+          2014,
+          25
+        ],
+        [
+          2015,
+          30
+        ]
+      ],
+      "name": "3. Klasse ausl. Mädchen"
+    },
+    {
+      "color": "#007A2F",
+      "legendIndex": 4,
+      "visible": false,
+      "data": [
+        [
+          1980,
+          7
+        ],
+        [
+          1990,
+          13
+        ],
+        [
+          2000,
+          18
+        ],
+        [
+          2010,
+          24
+        ],
+        [
+          2011,
+          28
+        ],
+        [
+          2012,
+          24
+        ],
+        [
+          2013,
+          27
+        ],
+        [
+          2014,
+          25
+        ],
+        [
+          2015,
+          23
+        ]
+      ],
+      "name": "9. Klasse schw. Knaben"
+    },
+    {
+      "color": "#68AB2B",
+      "legendIndex": 5,
+      "visible": false,
+      "data": [
+        [
+          1980,
+          10
+        ],
+        [
+          1990,
+          8
+        ],
+        [
+          2000,
+          14
+        ],
+        [
+          2010,
+          17
+        ],
+        [
+          2011,
+          18
+        ],
+        [
+          2012,
+          22
+        ],
+        [
+          2013,
+          21
+        ],
+        [
+          2014,
+          18
+        ],
+        [
+          2015,
+          18
+        ]
+      ],
+      "name": "9. Klasse schw. Mädchen"
+    },
+    {
+      "color": "#923F8D",
+      "legendIndex": 6,
+      "visible": false,
+      "data": [
+        [
+          1980,
+          11
+        ],
+        [
+          1990,
+          21
+        ],
+        [
+          2000,
+          29
+        ],
+        [
+          2010,
+          36
+        ],
+        [
+          2011,
+          39
+        ],
+        [
+          2012,
+          42
+        ],
+        [
+          2013,
+          44
+        ],
+        [
+          2014,
+          32
+        ],
+        [
+          2015,
+          33
+        ]
+      ],
+      "name": "9. Klasse ausl. Knaben"
+    },
+    {
+      "color": "#B375AB",
+      "legendIndex": 7,
+      "visible": false,
+      "data": [
+        [
+          1980,
+          9
+        ],
+        [
+          1990,
+          24
+        ],
+        [
+          2000,
+          24
+        ],
+        [
+          2010,
+          34
+        ],
+        [
+          2011,
+          29
+        ],
+        [
+          2012,
+          22
+        ],
+        [
+          2013,
+          30
+        ],
+        [
+          2014,
+          33
+        ],
+        [
+          2015,
+          24
+        ]
+      ],
+      "name": "9. Klasse ausl. Mädchen"
     }
   ],
   "chart": {
@@ -111,6 +375,7 @@
             }
           }
     },
+    "type": "scatter",
     "renderTo": "container-5182"
   },
   "plotOptions": {
@@ -120,6 +385,11 @@
         "style": {
           "fontSize": "10px"
         }
+      }
+    },
+    "scatter": {
+      "marker": {
+        "symbol": "circle"
       }
     }
   },
@@ -172,7 +442,8 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "format": "{value:,.0f}%"
     }
   },
   "navigation": {
@@ -197,7 +468,21 @@
     "text": "Quelle: Gesundheitsdepartement Basel-Stadt, Kinder- und Jugendgesundheitsdienst"
   },
   "legend": {
-    "symbolRadius": 0
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "y": 50,
+    "itemMarginBottom": 5,
+    "itemWidth": 200,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "I.14.1.05182"

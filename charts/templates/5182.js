@@ -62,7 +62,10 @@
   "chart": {
   	 type: 'scatter',
 },
-  	    
+  tooltip: {
+      headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
+      pointFormat: '<span style="color:{point.color}">●</span> {series.name}: <b>{point.y}</b><br/>'    
+    }  	    
 /*    
     "marginBottom": 65,
     "type": "line",
