@@ -1,5 +1,6 @@
 var indikatorensetNames = [
 	"Legislaturplan",
+	"Nachhaltigkeit",
 	"Wohnraumentwicklung",
 	"Integration-kompakt",
 	"Cercle-Indicateurs",

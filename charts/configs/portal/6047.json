@@ -1,0 +1,348 @@
+{
+  "series": [
+    {
+      "color": "#ffbb58",
+      "data": [
+        [
+          "Life Sciences Industrie",
+          23.6313734
+        ],
+        [
+          "Chemische Industrie",
+          3.0932764
+        ],
+        [
+          "Finanz- und Versicherungsdienstl.",
+          15.8819606
+        ],
+        [
+          "Verkehr und Lagerei",
+          5.7922115
+        ],
+        [
+          "Handel und Reparatur",
+          8.7841801
+        ],
+        [
+          "Unternehmens- und freiberufl. Dienstl.",
+          9.6130784
+        ],
+        [
+          "Grundstücks- und Wohnungswesen",
+          0.9124027
+        ],
+        [
+          "Baugewerbe",
+          3.3840053
+        ],
+        [
+          "Öffentliche Verwaltung, Bildung",
+          7.5221255
+        ],
+        [
+          "Gesundheits- und Sozialwesen",
+          6.0472884
+        ],
+        [
+          "Tourismus",
+          1.5928186
+        ],
+        [
+          "Übrige Branchen",
+          13.7452792
+        ]
+      ],
+      "name": "2000",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ff8028",
+      "data": [
+        [
+          "Life Sciences Industrie",
+          34.5619608
+        ],
+        [
+          "Chemische Industrie",
+          2.5779364
+        ],
+        [
+          "Finanz- und Versicherungsdienstl.",
+          11.3303863
+        ],
+        [
+          "Verkehr und Lagerei",
+          5.043195
+        ],
+        [
+          "Handel und Reparatur",
+          7.4199285
+        ],
+        [
+          "Unternehmens- und freiberufl. Dienstl.",
+          10.5485926
+        ],
+        [
+          "Grundstücks- und Wohnungswesen",
+          0.8275812
+        ],
+        [
+          "Baugewerbe",
+          2.4349699
+        ],
+        [
+          "Öffentliche Verwaltung, Bildung",
+          6.9902842
+        ],
+        [
+          "Gesundheits- und Sozialwesen",
+          6.0686097
+        ],
+        [
+          "Tourismus",
+          1.1917184
+        ],
+        [
+          "Übrige Branchen",
+          11.004837
+        ]
+      ],
+      "name": "2005",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#dc440e",
+      "data": [
+        [
+          "Life Sciences Industrie",
+          39.2402923
+        ],
+        [
+          "Chemische Industrie",
+          1.2708898
+        ],
+        [
+          "Finanz- und Versicherungsdienstl.",
+          10.2988085
+        ],
+        [
+          "Verkehr und Lagerei",
+          4.2680867
+        ],
+        [
+          "Handel und Reparatur",
+          8.0010193
+        ],
+        [
+          "Unternehmens- und freiberufl. Dienstl.",
+          9.9766944
+        ],
+        [
+          "Grundstücks- und Wohnungswesen",
+          0.7670152
+        ],
+        [
+          "Baugewerbe",
+          2.1466506
+        ],
+        [
+          "Öffentliche Verwaltung, Bildung",
+          6.6995373
+        ],
+        [
+          "Gesundheits- und Sozialwesen",
+          5.8655121
+        ],
+        [
+          "Tourismus",
+          1.2596568
+        ],
+        [
+          "Übrige Branchen",
+          10.205837
+        ]
+      ],
+      "name": "2010",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b00000",
+      "data": [
+        [
+          "Life Sciences Industrie",
+          37.8376439
+        ],
+        [
+          "Chemische Industrie",
+          1.2721025
+        ],
+        [
+          "Finanz- und Versicherungsdienstl.",
+          9.4441746
+        ],
+        [
+          "Verkehr und Lagerei",
+          3.8665986
+        ],
+        [
+          "Handel und Reparatur",
+          6.5877612
+        ],
+        [
+          "Unternehmens- und freiberufl. Dienstl.",
+          12.2943222
+        ],
+        [
+          "Grundstücks- und Wohnungswesen",
+          0.7352673
+        ],
+        [
+          "Baugewerbe",
+          2.2332662
+        ],
+        [
+          "Öffentliche Verwaltung, Bildung",
+          7.7042977
+        ],
+        [
+          "Gesundheits- und Sozialwesen",
+          6.7384968
+        ],
+        [
+          "Tourismus",
+          1.3590218
+        ],
+        [
+          "Übrige Branchen",
+          9.9270474
+        ]
+      ],
+      "name": "2015",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "column",
+    "inverted": true,
+    "marginLeft": 210,
+    "marginBottom": 55,
+    "marginRight": 15,
+    "renderTo": "container-6047"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Branchenanteile an der nominalen Wertschöpfung"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": null,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    }
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: BAK Economics"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "y": 30,
+    "itemWidth": 60,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "pointPadding": 0,
+      "borderWidth": 1,
+      "groupPadding": 0.15
+    }
+  },
+  "exporting": {
+    "filename": "I.04.1.06047"
+  }
+}
