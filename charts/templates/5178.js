@@ -2,7 +2,7 @@
     return {
 	plotOptions:  {
 	    series: {
-            pointPadding: 0,
+            pointPadding: 0.1,
             groupPadding: 0,
             borderWidth: 0,
             shadow: false,
@@ -33,12 +33,6 @@
             }
         } 
       },  
-      plotOptions: {
-      	column: {
-      		groupPadding: 0,
-    
-      	}
-      },
       "series": [
         {"color": "#C8C8C8", index: 1, legendIndex: 1}, /*grau*/
         {"color": "#CD9C00", index: 2, legendIndex: 2}, /*dunkelrot*/
