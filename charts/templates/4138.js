@@ -3,7 +3,9 @@
   "plotOptions": {
     "series": {
       "stacking": null,
-      "groupPadding": 0.05
+       pointPadding: 0, 
+	   groupPadding: 0.1, 
+
     }, 
     line: {
         tooltip: {
@@ -72,26 +74,31 @@
   "series": [
     {
       "color": "#ffbb58",
-      "index": 0,
-      "visible": false
-    },
-    {
-      "color": "#73b97c",
       "index": 1,
       "visible": false
     },
     {
-      "color": "#007a2f",
+      "color": "#73b97c",
       "index": 2,
       "visible": false
     },
     {
-      "color": "#689199",
-      "index": 3
+      "color": "#007a2f",
+      "index": 3,
+      "visible": false
     },
     {
       "color": "#923f8d",
-      "index": 4,
+      "index": 4
+    },
+    {
+      "color": "#689199",
+      "index": 5,
+      "visible": false
+    },
+     {
+      "color": "#8A8A8A",
+      "index": 0,
       "visible": false
     },
     {
