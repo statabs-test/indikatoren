@@ -44,7 +44,8 @@
       {"color": "#dc440e", "index": 1, "legendIndex":8}, /*rot hell */
       {"color": "#b00000", "index": 0, "legendIndex":9} /*rot dunkel */
       ],
-    "chart": {      
+    "chart": {    
+    	y: 20,
     	 marginLeft: 130,
          "inverted": true,
       },
