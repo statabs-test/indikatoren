@@ -262,6 +262,82 @@ var indikatorensetData = [
 		"id": 5155
 	},
 	{
+		"title": "Wanderungen 2006-2015 nach Staatsangehörigkeit: Schweizer",
+		"subtitle": "",
+		"kuerzel": "I.01.5.05156",
+		"kuerzelKunde": "BE8.2",
+		"description": "Wanderungen 2006-2015 nach Staatsangehörigkeit: Schweizer",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wanderungen",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Bevölkerung",
+			"Schweiz",
+			"Wanderung"
+		],
+		"stufe1": "Bevölkerung",
+		"stufe2": "Bevölkerung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Zwischen 2006 und 2015 wiesen die zu- und weggezogenenSchweizer einzig in den Fünfjahresklassen der 15- bis 19-Jährigensowie der 20- bis 24-Jährigen positive Wanderungssaldi auf.Deutlich mehr Weg- als Zuzüge verzeichneten die Schweizer imAlter zwischen 30 und 34 Jahren.",
+		"erlaeuterungen": "Im Jahr 2010 einschliesslich rund 1 600 nachträglicher Streichungen (zu Weggezogenen gezählt) im Rahmen der Registerbereinigungen für die Volkszählung. 2015: Provisorische Werte.",
+		"template": "populationPyramid001",
+		"orderKey": "01_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5156
+	},
+	{
+		"title": "Wanderungen 2006-2015 nach Staatsangehörigkeit: Ausländer",
+		"subtitle": "",
+		"kuerzel": "I.01.5.05157",
+		"kuerzelKunde": "BE8.3",
+		"description": "Wanderungen 2006-2015 nach Staatsangehörigkeit: Ausländer",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wanderungen",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Bevölkerung",
+			"Ausland",
+			"Wanderung"
+		],
+		"stufe1": "Bevölkerung",
+		"stufe2": "Bevölkerung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "In allen elf Fünfjahresklassen zwischen 0 und 54 Jahren ergabensich bei den zu- und weggezogenen ausländischen Staatsangehörigender Jahre 2006 bis 2015 Wanderungsgewinne. Amdeutlichsten zeigte sich dies bei den Ausländern im Alter zwischen25 und 29 Jahren, bei welchen der Zuzugsüberschuss 7 340 betrug.Kleine Wanderungsverluste zeigen sich in den Altersklassen ab 55Jahren.",
+		"erlaeuterungen": "Im Jahr 2010 einschliesslich rund 1 600 nachträglicher Streichungen (zu Weggezogenen gezählt) im Rahmen der Registerbereinigungen für die Volkszählung. 2015: Provisorische Werte.",
+		"template": "populationPyramid001",
+		"orderKey": "01_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5157
+	},
+	{
 		"title": "Zufriedenheit mit verschiedenen Aspekten und Angeboten am Wohnort",
 		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» Stand: 2015",
 		"kuerzel": "I.50.1.05178",
@@ -335,6 +411,42 @@ var indikatorensetData = [
 			""
 		],
 		"id": 5180
+	},
+	{
+		"title": "Empfundene gesundheitliche Verfassung: Beurteilung nach Altersgruppen und Jahren",
+		"subtitle": "",
+		"kuerzel": "I.50.1.05181",
+		"kuerzelKunde": "GW4",
+		"description": "Empfundene gesundheitliche Verfassung: Beurteilung nach Altersgruppen und Jahren",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Alter"
+		],
+		"stufe1": "Grundbedürfnisse und Wohlergehen",
+		"stufe2": "Gesundheit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "39,2% der Befragten geht es gesundheitlich sehr gut, 47,2% gut. Betrachtet nach Alter fühlen sich die über 69-Jährigen gegenüber denJüngeren zwar erwartungsgemäss häufiger nicht so gut, allerdings verschlechtert sich das Befinden der Befragten im Verlauf des Altersnicht gleichmässig. So geben 56,7% der Altersgruppe zwischen 30 und 39 Jahren an, sich sehr gut zu fühlen, bei den Jüngeren sind es mit 54,6% knapp weniger. Bei der Kategorie «Gut» verläuft die Entwicklung nahezu konträr zum Alter: So liegt der Wert mit 55,1% bei den über 69-Jährigen am höchsten. Sehr gut fühlt sich allerdings nur ein Viertel. Fasst man die Kategorien «Sehr gut» und «Gut» zusammen, schneidet die Altersgruppe zwischen 60 und 69 Jahren besser ab als die beiden jüngeren Gruppen und nahezu identisch wie die Gruppe der 30- bis 39-Jährigen. Die empundene gesundheitliche Verfassung blieb über die Jahre 2003 bis 2015 weitgehend konstant. Gut 80% der Befragten gaben an, sich gesundheitlich gut oder gar sehr gut zu fühlen.",
+		"erlaeuterungen": "",
+		"template": "befragungen001",
+		"orderKey": "03_02_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: S11"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5181
 	},
 	{
 		"title": "Übergewichtige Kinder nach Schulstufe, Heimat und Geschlecht",
