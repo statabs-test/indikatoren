@@ -17,11 +17,7 @@
 "stufe5":"", 
 "lesehilfe":"Ende 2015 zählte der Kanton Basel-Stadt 197 204 Einwohner.Davon waren rund zwei Drittel Schweizer Staatsangehörige. Diegrösste Ausländergruppe bildeten die Deutschen, gefolgt von denItalienern, den Personen aus dem ehemaligen Jugoslawien und denTürken. Im Vergleich zu 1995 hat die Zahl der Deutschen, derFranzosen und der Portugiesen zugenommen. Gesunken isthingegen die Zahl der Italiener, der Spanier, der Türken und derPersonen aus dem ehemaligen Jugoslawien. Ebenfallszurückgegangen ist die Zahl der Schweizer.",
 "erlaeuterungen":"Bevölkerungsstatistik Im Jahr 2010 korrigiert im Rahmen der Registerbereinigungen für die Volkszählung. Bis zum Jahr 2011 wurde dieBevölkerungszahl durch Fortschreibung ermittelt. Seit dem Jahr 2012 basiert sie direkt auf Auswertungen aus dem kantonalen Einwohnerregister. Ehem. JU fasst Staaten auf dem Gebiet des ehemaligen Jugoslawien zusammen.",
-<<<<<<< HEAD
-"template":"template001",
-=======
 "template":"line001",
->>>>>>> c343cf0a243dec2ec3f2b6e455a0a02f645ca579
 "visible":true,
 "visibleInPortal":true,
 "orderKey":"01_01_00_00_00_000",

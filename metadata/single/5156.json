@@ -17,11 +17,7 @@
 "stufe5":"", 
 "lesehilfe":"Zwischen 2006 und 2015 wiesen die zu- und weggezogenenSchweizer einzig in den Fünfjahresklassen der 15- bis 19-Jährigensowie der 20- bis 24-Jährigen positive Wanderungssaldi auf.Deutlich mehr Weg- als Zuzüge verzeichneten die Schweizer imAlter zwischen 30 und 34 Jahren.",
 "erlaeuterungen":"Im Jahr 2010 einschliesslich rund 1 600 nachträglicher Streichungen (zu Weggezogenen gezählt) im Rahmen der Registerbereinigungen für die Volkszählung. 2015: Provisorische Werte.",
-<<<<<<< HEAD
-"template":"line001",
-=======
 "template":"populationPyramid001",
->>>>>>> c343cf0a243dec2ec3f2b6e455a0a02f645ca579
 "visible":true,
 "visibleInPortal":true,
 "orderKey":"01_01_00_00_00_000",

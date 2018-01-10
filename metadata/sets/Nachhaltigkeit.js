@@ -15,24 +15,15 @@ var indikatorensetData = [
 		"schlagwort": [
 			"Einkommen"
 		],
-<<<<<<< HEAD
-		"stufe1": "Grundbedürfnisse und Wohlergehen",
-		"stufe2": "Gesundheit",
-=======
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
->>>>>>> c343cf0a243dec2ec3f2b6e455a0a02f645ca579
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2016 erhält etwas mehr als ein Viertel der in Basel-Stadtwohnhaften Personen Prämienverbilligung.",
 		"erlaeuterungen": "",
 		"template": "template001",
-<<<<<<< HEAD
-		"orderKey": "03_02_00_00_00_000",
-=======
 		"orderKey": "09_00_00_00_00_000",
->>>>>>> c343cf0a243dec2ec3f2b6e455a0a02f645ca579
 		"parentId": 6173,
 		"children": [],
 		"renderLink": [],
@@ -45,45 +36,6 @@ var indikatorensetData = [
 		"id": 2917
 	},
 	{
-<<<<<<< HEAD
-=======
-		"title": "Wohnbevölkerung am Jahresende nach Staatsangehörigkeit (Schweiz/Ausland)",
-		"subtitle": "",
-		"kuerzel": "I.01.1.05137",
-		"kuerzelKunde": "BE5",
-		"description": "Wohnbevölkerung am Jahresende nach Staatsangehörigkeit (Schweiz/Ausland)",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Nachhaltigkeit",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2017-03-13T16:59:13.1313",
-		"schlagwort": [
-			"Bevölkerung"
-		],
-		"stufe1": "Bevölkerung",
-		"stufe2": "Bevölkerung",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die schweizerische Bevölkerung nahm von 1997 bis 2016 von gut 142 000 auf etwa 127 000 Personen ab. Dies entspricht einem Rückgang um rund 10%. Die ausländische Bevölkerung nahm im gleichen Zeitraum von knapp 52 000 auf leicht unter 71 000 Personen zu, was einem Zuwachs um 36% gleichkommt.",
-		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister.",
-		"template": "line001",
-		"orderKey": "01_01_00_00_00_000",
-		"parentId": 5809,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 5137
-	},
-	{
->>>>>>> c343cf0a243dec2ec3f2b6e455a0a02f645ca579
 		"title": "Vertretung der Anliegen der Bevölkerung durch Behörden",
 		"subtitle": "«Wie gut vertreten die Behörden, also der Regierungsrat und der Grosse Rat, die Anliegen der Bevölkerung?»",
 		"kuerzel": "I.50.1.05138",
@@ -146,11 +98,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Ende 2015 zählte der Kanton Basel-Stadt 197 204 Einwohner.Davon waren rund zwei Drittel Schweizer Staatsangehörige. Diegrösste Ausländergruppe bildeten die Deutschen, gefolgt von denItalienern, den Personen aus dem ehemaligen Jugoslawien und denTürken. Im Vergleich zu 1995 hat die Zahl der Deutschen, derFranzosen und der Portugiesen zugenommen. Gesunken isthingegen die Zahl der Italiener, der Spanier, der Türken und derPersonen aus dem ehemaligen Jugoslawien. Ebenfallszurückgegangen ist die Zahl der Schweizer.",
 		"erlaeuterungen": "Bevölkerungsstatistik Im Jahr 2010 korrigiert im Rahmen der Registerbereinigungen für die Volkszählung. Bis zum Jahr 2011 wurde dieBevölkerungszahl durch Fortschreibung ermittelt. Seit dem Jahr 2012 basiert sie direkt auf Auswertungen aus dem kantonalen Einwohnerregister. Ehem. JU fasst Staaten auf dem Gebiet des ehemaligen Jugoslawien zusammen.",
-<<<<<<< HEAD
-		"template": "template001",
-=======
 		"template": "line001",
->>>>>>> c343cf0a243dec2ec3f2b6e455a0a02f645ca579
 		"orderKey": "01_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -364,13 +312,9 @@ var indikatorensetData = [
 		"aktualisierungsdatum": "",
 		"schlagwort": [
 			"Bevölkerung",
-<<<<<<< HEAD
-			"Zuzug",
-=======
 			"Ausland",
 			"Migration",
 			"Staatsangehörigkeit",
->>>>>>> c343cf0a243dec2ec3f2b6e455a0a02f645ca579
 			"Wanderung"
 		],
 		"stufe1": "Bevölkerung",
@@ -378,19 +322,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-<<<<<<< HEAD
-		"lesehilfe": "2015 zogen 14 021 Personen neu in den Kanton Basel-Stadt. Dies sind mehr als im Vorjahr, jedoch deutlich weniger als 2013, als derhöchste Wert der letzten zehn Jahre erreicht wurde. Der niedrigste Wert wurde 2006 verzeichnet, zu Beginn der Beobachtungsperiode. Die Zahl der Wegzüge hat 2015 gegenüber dem Vorjahr ebenfalls zugenommen und auch der Zehnjahresvergleich zeigt einen Anstieg. Der Wanderungssaldo fiel 2015 positiv aus (731).",
-		"erlaeuterungen": "Im Jahr 2010 einschliesslich rund 1 600 nachträglicher Streichungen (zu Weggezogenen gezählt) im Rahmen der Registerbereinigungen für die Volkszählung. 2015: Provisorische Werte.",
-		"template": "template001",
-		"orderKey": "01_01_00_00_00_000",
-		"parentId": null,
-=======
 		"lesehilfe": "2016 zogen 14 849 Personen neu in den Kanton Basel-Stadt. In den letzten zehn Jahren wurden lediglich 2013 mit 15 236 Personen mehr Neuzuzüger registriert. Bei den Weggezogenen wurde 2016 mit 13 947 Personen der Zehnjahresrekord erreicht. Der Wanderunggsaldo fällt seit dem Jahr 2007 stets positiv aus.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"orderKey": "01_01_00_00_00_000",
 		"parentId": 6011,
->>>>>>> c343cf0a243dec2ec3f2b6e455a0a02f645ca579
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
@@ -426,11 +362,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Zwischen 2006 und 2015 wiesen die zu- und weggezogenenSchweizer einzig in den Fünfjahresklassen der 15- bis 19-Jährigensowie der 20- bis 24-Jährigen positive Wanderungssaldi auf.Deutlich mehr Weg- als Zuzüge verzeichneten die Schweizer imAlter zwischen 30 und 34 Jahren.",
 		"erlaeuterungen": "Im Jahr 2010 einschliesslich rund 1 600 nachträglicher Streichungen (zu Weggezogenen gezählt) im Rahmen der Registerbereinigungen für die Volkszählung. 2015: Provisorische Werte.",
-<<<<<<< HEAD
-		"template": "line001",
-=======
 		"template": "populationPyramid001",
->>>>>>> c343cf0a243dec2ec3f2b6e455a0a02f645ca579
 		"orderKey": "01_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -468,11 +400,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "In allen elf Fünfjahresklassen zwischen 0 und 54 Jahren ergabensich bei den zu- und weggezogenen ausländischen Staatsangehörigender Jahre 2006 bis 2015 Wanderungsgewinne. Amdeutlichsten zeigte sich dies bei den Ausländern im Alter zwischen25 und 29 Jahren, bei welchen der Zuzugsüberschuss 7 340 betrug.Kleine Wanderungsverluste zeigen sich in den Altersklassen ab 55Jahren.",
 		"erlaeuterungen": "Im Jahr 2010 einschliesslich rund 1 600 nachträglicher Streichungen (zu Weggezogenen gezählt) im Rahmen der Registerbereinigungen für die Volkszählung. 2015: Provisorische Werte.",
-<<<<<<< HEAD
-		"template": "line001",
-=======
 		"template": "populationPyramid001",
->>>>>>> c343cf0a243dec2ec3f2b6e455a0a02f645ca579
 		"orderKey": "01_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -655,11 +583,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "2015 hatten die befragten Personen die Gelegenheit, 23 Punkte, die für den Wohnort wichtig sind, zu bewerten. Am zufriedensten sind siemit der generellen Vielfalt der Einkaufsmöglichkeiten in Basel, gefolgt von den öffentlichen Verkehrsmitteln und der Gesundheitsversorgung.Beim Thema Parkplätze gehen die Meinungen auseinander: Der Anteil Zufriedener und der Anteil Unzufriedener halten sich in etwa dieWaage.",
 		"erlaeuterungen": "",
-<<<<<<< HEAD
-		"template": "template001",
-=======
 		"template": "befragungen001",
->>>>>>> c343cf0a243dec2ec3f2b6e455a0a02f645ca579
 		"orderKey": "03_01_00_00_00_000",
 		"parentId": null,
 		"children": [
@@ -733,11 +657,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "39,2% der Befragten geht es gesundheitlich sehr gut, 47,2% gut. Betrachtet nach Alter fühlen sich die über 69-Jährigen gegenüber denJüngeren zwar erwartungsgemäss häufiger nicht so gut, allerdings verschlechtert sich das Befinden der Befragten im Verlauf des Altersnicht gleichmässig. So geben 56,7% der Altersgruppe zwischen 30 und 39 Jahren an, sich sehr gut zu fühlen, bei den Jüngeren sind es mit 54,6% knapp weniger. Bei der Kategorie «Gut» verläuft die Entwicklung nahezu konträr zum Alter: So liegt der Wert mit 55,1% bei den über 69-Jährigen am höchsten. Sehr gut fühlt sich allerdings nur ein Viertel. Fasst man die Kategorien «Sehr gut» und «Gut» zusammen, schneidet die Altersgruppe zwischen 60 und 69 Jahren besser ab als die beiden jüngeren Gruppen und nahezu identisch wie die Gruppe der 30- bis 39-Jährigen. Die empundene gesundheitliche Verfassung blieb über die Jahre 2003 bis 2015 weitgehend konstant. Gut 80% der Befragten gaben an, sich gesundheitlich gut oder gar sehr gut zu fühlen.",
 		"erlaeuterungen": "",
-<<<<<<< HEAD
-		"template": "template001",
-=======
 		"template": "befragungen001",
->>>>>>> c343cf0a243dec2ec3f2b6e455a0a02f645ca579
 		"orderKey": "03_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -776,11 +696,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Im Schuljahr 2014/2015 waren 9% der Knaben im ersten Kindergartenjahr übergewichtig. Alternative Interpretation: 9% der Knaben im ersten Kindergartenjahr hatten einen BMI-Wert, der über dem Referenzwert (für ihr Alter und Geschlecht) für Übergewicht lag.",
 		"erlaeuterungen": "Die Daten werden im Rahmen der schulärztlichen Untersuchunen erhoben und nur für die dargestellten Schulstufen. Die BMI-Referenzwerte für Übergewicht variiren nach Alter und Geschlecht und werden von Zeit zu Zeit neu erhoben. Damit die Anteile vergleichbar bleiben werden stets dieselben Referenzwerte nach Tim J Cole (BMJ Vol. 320, 5/2000) verwendet.",
-<<<<<<< HEAD
-		"template": "line001",
-=======
 		"template": "template001",
->>>>>>> c343cf0a243dec2ec3f2b6e455a0a02f645ca579
 		"orderKey": "03_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -1076,11 +992,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "22,4% der Befragten gaben 2015 an, innerhalb der letzten zwölf Monate einen Weiterbildungskurs besucht zu haben, 14,1% haben mehrere Kurse besucht. 2015 geben 63,6% der Befragten an, keinen Kurs besucht zu haben. 2003 lag dieser Wert bei 54,1%.",
 		"erlaeuterungen": "",
-<<<<<<< HEAD
-		"template": "template001",
-=======
 		"template": "befragungen001",
->>>>>>> c343cf0a243dec2ec3f2b6e455a0a02f645ca579
 		"orderKey": "03_05_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -1191,11 +1103,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "",
 		"template": "line001",
 		"orderKey": "03_06_00_00_00_000",
-<<<<<<< HEAD
-		"parentId": null,
-=======
 		"parentId": 4138,
->>>>>>> c343cf0a243dec2ec3f2b6e455a0a02f645ca579
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1353,7 +1261,6 @@ var indikatorensetData = [
 		"id": 5199
 	},
 	{
-<<<<<<< HEAD
 		"title": "Umweltverbrauch: Ökologischer Fussabdruck der Schweiz",
 		"subtitle": "in gloablen Hektaren pro Kopf",
 		"kuerzel": "I.08.1.05793",
@@ -1390,8 +1297,6 @@ var indikatorensetData = [
 		"id": 5793
 	},
 	{
-=======
->>>>>>> c343cf0a243dec2ec3f2b6e455a0a02f645ca579
 		"title": "Endenergieverbrauch nach Verbrauchergruppe",
 		"subtitle": "in Mio. kWh",
 		"kuerzel": "I.08.1.05794",
@@ -1465,7 +1370,6 @@ var indikatorensetData = [
 		"id": 5795
 	},
 	{
-<<<<<<< HEAD
 		"title": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf; Recyclingquote",
 		"subtitle": "",
 		"kuerzel": "I.09.6.05796",
@@ -1626,8 +1530,6 @@ var indikatorensetData = [
 		"id": 6028
 	},
 	{
-=======
->>>>>>> c343cf0a243dec2ec3f2b6e455a0a02f645ca579
 		"title": "Luftqualität: Langzeitbelastung der Luft - Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10)",
 		"subtitle": "in Mikrogramm pro m<sup>3</sup>",
 		"kuerzel": "I.02.5.06029",
@@ -1740,7 +1642,6 @@ var indikatorensetData = [
 		"id": 6031
 	},
 	{
-<<<<<<< HEAD
 		"title": "Anzahl Allmendbäume",
 		"subtitle": "",
 		"kuerzel": "I.02.13.06032",
@@ -1782,8 +1683,6 @@ var indikatorensetData = [
 		"id": 6032
 	},
 	{
-=======
->>>>>>> c343cf0a243dec2ec3f2b6e455a0a02f645ca579
 		"title": "Hitzetage",
 		"subtitle": "Anzahl Tage",
 		"kuerzel": "I.02.3.06033",
@@ -1872,31 +1771,14 @@ var indikatorensetData = [
 		],
 		"aktualisierungsdatum": "",
 		"schlagwort": [
-<<<<<<< HEAD
-			"Bevölkerung",
-			"Verbrechen",
-			"Gefühl"
-=======
 			"Gefühl",
 			"Sicherheit"
->>>>>>> c343cf0a243dec2ec3f2b6e455a0a02f645ca579
 		],
 		"stufe1": "Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Friedliches Zusammenleben",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-<<<<<<< HEAD
-		"lesehilfe": "Mit einem Anteil von 42,2% fühlte sich weniger als die Hälfte derBefragten im Alltag sehr sicher und 49,0% fühlten sich eher sicher.Im Vergleich zu den vorherigen Befragungen fühlten sich dieBefragten im Alltag weniger sicher. Am höchsten war dasSicherheitsempfinden 2003 als der Anteil derjenigen, die sichgrundsätzlich sehr sicher fühlen, über 55% lag.",
-		"erlaeuterungen": "",
-		"template": "line001",
-		"orderKey": "05_01_00_00_00_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9"
-=======
 		"lesehilfe": "Mit einem Anteil von 42,2% fühlten sich 2015 weniger als die Hälfte der Befragten im Alltag sehr sicher und 49,0% fühlten sich eher sicher. Im Vergleich zu den vorherigen Befragungen fühlten sich die Befragten im Alltag weniger sicher. Am höchsten war das Sicherheitsempfinden 2005, als der Anteil Personen, die sich sehr sicher fühlten, bei 56,0% und die insgesamte Sicherheit bei 94,6% lag.",
 		"erlaeuterungen": "",
 		"template": "line001",
@@ -1906,7 +1788,6 @@ var indikatorensetData = [
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9a"
->>>>>>> c343cf0a243dec2ec3f2b6e455a0a02f645ca579
 		],
 		"externalLinks": [
 			""
@@ -1914,7 +1795,6 @@ var indikatorensetData = [
 		"id": 6035
 	},
 	{
-<<<<<<< HEAD
 		"title": "Gini-Koeffizienten von Reineinkommen und Reinvermögen",
 		"subtitle": "",
 		"kuerzel": "I.18.2.06036",
@@ -1954,8 +1834,6 @@ var indikatorensetData = [
 		"id": 6036
 	},
 	{
-=======
->>>>>>> c343cf0a243dec2ec3f2b6e455a0a02f645ca579
 		"title": "Verhältnis der Löhne von Frauen und Männern in Basel-Stadt",
 		"subtitle": "",
 		"kuerzel": "I.03.3.06037",
@@ -1995,7 +1873,6 @@ var indikatorensetData = [
 		"id": 6037
 	},
 	{
-<<<<<<< HEAD
 		"title": "Übertritte nach der obligatorischen Schulzeit",
 		"subtitle": "im Schuljahr 2015/16",
 		"kuerzel": "I.15.1.06039",
@@ -2036,11 +1913,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Beteiligung der Bevölkerung an Freiwilligenarbeit",
-		"subtitle": "Anteil Befragte, die in ihrer Freizeit freiwillig tätig sind",
-=======
-		"title": "Beteiligung der Bevölkerung an Freiwilligenarbeit",
 		"subtitle": "«Sind Sie in Ihrer Freizeit freiwillig tätig?»",
->>>>>>> c343cf0a243dec2ec3f2b6e455a0a02f645ca579
 		"kuerzel": "I.50.1.06040",
 		"kuerzelKunde": "GZ7.1",
 		"description": "Beteiligung der Bevölkerung an Freiwilligenarbeit",
@@ -2052,33 +1925,18 @@ var indikatorensetData = [
 		],
 		"aktualisierungsdatum": "",
 		"schlagwort": [
-<<<<<<< HEAD
-			"Bevölkerung",
-			"Arbeit",
-			"Hilfeleistung",
-			"Beschäftigte"
-=======
 			"Arbeit"
->>>>>>> c343cf0a243dec2ec3f2b6e455a0a02f645ca579
 		],
 		"stufe1": "Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Gesellschaftliche Verantwortung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-<<<<<<< HEAD
-		"lesehilfe": "41% der Befragten gaben an, dass sie in ihrer Freizeit freiwillig tätigsind. Diese Frage war 2015 zum ersten Mal Bestandteil derBevölkerungsbefragung.",
-		"erlaeuterungen": "",
-		"template": "line001",
-		"orderKey": "05_03_00_00_00_000",
-		"parentId": null,
-=======
 		"lesehilfe": "41,0% der Befragten gaben an, in ihrer Freizeit freiwillig tätig zu sein. Die Frage nach der Freiwilligen Tätigkeit wurde 2015 zum ersten Mal im Rahmen der Bevölkerungsbefragung erhoben.",
 		"erlaeuterungen": "Freiwilligenarbeit ist ein unbezahlter Beitrag an Mitmenschen und/oder Umwelt und findet ausserhalb des eigenen Haushalts statt.",
 		"template": "line001",
 		"orderKey": "05_03_00_00_00_000",
 		"parentId": 4864,
->>>>>>> c343cf0a243dec2ec3f2b6e455a0a02f645ca579
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2090,7 +1948,6 @@ var indikatorensetData = [
 		"id": 6040
 	},
 	{
-<<<<<<< HEAD
 		"title": "Beteiligung der Bevölkerung an Freiwilligenarbeit: Tätigkeitsbereiche der freiwillig tätigen Personen",
 		"subtitle": "in %",
 		"kuerzel": "I.50.1.06041",
@@ -2131,11 +1988,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wahlbeteiligung an National- und Grossratswahlen",
-		"subtitle": "in %",
-=======
-		"title": "Wahlbeteiligung an National- und Grossratswahlen",
 		"subtitle": "",
->>>>>>> c343cf0a243dec2ec3f2b6e455a0a02f645ca579
 		"kuerzel": "I.17.3.06042",
 		"kuerzelKunde": "GZ8",
 		"description": "Wahlbeteiligung an National- und Grossratswahlen",
@@ -2147,10 +2000,6 @@ var indikatorensetData = [
 		],
 		"aktualisierungsdatum": "",
 		"schlagwort": [
-<<<<<<< HEAD
-			"Verwaltung",
-=======
->>>>>>> c343cf0a243dec2ec3f2b6e455a0a02f645ca579
 			"Grosser Rat"
 		],
 		"stufe1": "Gesellschaftlicher Zusammenhalt",
@@ -2158,17 +2007,6 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-<<<<<<< HEAD
-		"lesehilfe": "Die Analyse der letzten fünf National- und Grossratswahlen zeigt,dass die Wahlbeteiligung bei nationalen Wahlen rund 10 Prozentpunkte höher lag als bei den Wahlen ins Kantonsparlament. Die Wahlbeteiligung ist dabei sowohl bei den National- als auch bei denGrossratswahlen ziemlich stabil geblieben.",
-		"erlaeuterungen": "",
-		"template": "line001",
-		"orderKey": "05_03_00_00_00_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Staatskanzlei Basel-Stadt"
-=======
 		"lesehilfe": "Bei nationalen Wahlen liegt die Wahlbeteiligung im Stadtkanton rund 10 Prozentpunkte höher als bei den Wahlen ins kantonale Parlament.",
 		"erlaeuterungen": "",
 		"template": "line001",
@@ -2178,7 +2016,6 @@ var indikatorensetData = [
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
->>>>>>> c343cf0a243dec2ec3f2b6e455a0a02f645ca579
 		],
 		"externalLinks": [
 			""
@@ -2227,19 +2064,11 @@ var indikatorensetData = [
 		"id": 6043
 	},
 	{
-<<<<<<< HEAD
-		"title": "Frauenanteil im Grossen Rat (gemäss Wahlergebnis)",
-		"subtitle": "",
-		"kuerzel": "I.17.3.06044",
-		"kuerzelKunde": "GZ10",
-		"description": "Frauenanteil im Grossen Rat (gemäss Wahlergebnis)",
-=======
 		"title": "Frauenanteil bei Kandidaturen und Wahlen zum Grossen Rat",
 		"subtitle": "",
 		"kuerzel": "I.17.3.06044",
 		"kuerzelKunde": "GZ10",
 		"description": "Frauenanteil bei Kandidaturen und Wahlen zum Grossen Rat",
->>>>>>> c343cf0a243dec2ec3f2b6e455a0a02f645ca579
 		"thema": "17 Politik",
 		"unterthema": "Wahlen",
 		"kennzahlenset": "Nachhaltigkeit",
@@ -2249,11 +2078,8 @@ var indikatorensetData = [
 		"aktualisierungsdatum": "",
 		"schlagwort": [
 			"Geschlecht",
-<<<<<<< HEAD
-=======
 			"Quote",
 			"Verwaltung",
->>>>>>> c343cf0a243dec2ec3f2b6e455a0a02f645ca579
 			"Grosser Rat"
 		],
 		"stufe1": "Gesellschaftlicher Zusammenhalt",
@@ -2261,19 +2087,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-<<<<<<< HEAD
-		"lesehilfe": "Zwei Jahre nach Einführung des Stimm- und Wahlrechts für Frauenkonnten 1968 erstmals 14 Frauen im Grossen Rat Einsitz nehmen.Der Frauenanteil im Grossen Rat des Kantons Basel-Stadt hatseither von Wahl zu Wahl – mit Ausnahme von 1980 und 1996 – bis2008 zugenommen. Umso mehr fällt der Rückgang desParlamentarierinnen-Anteils aufgrund der Wahlergebnisse 2012 auf31% (-6% gegenüber 2008) auf.",
-		"erlaeuterungen": "",
-		"template": "line001",
-		"orderKey": "05_03_00_00_00_000",
-		"parentId": null,
-=======
 		"lesehilfe": "Seit Einführung des Frauenstimmrechts 1966 hat sich der Frauenanteil unter den Grossratskandidierenden von anfangs einem Fünftel bis im Jahr 1996 verdoppelt und ging bis 2012 kontinuierlich zurück. Die Entwicklung der Frauenvertretung im basel-städtischen Kantonsparlament war 2012 nach einer längeren Wachstumsphase erstmals wieder rückläufig.",
 		"erlaeuterungen": "Der Grosse Rat umfasst seit den Gesamterneuerungswahlen 2008 gemäss der neuen, 2005 vom Basler Stimmvolk verabschiedeten Kantonsverfassung nur noch 100 Grossratssitze.",
 		"template": "line001",
 		"orderKey": "05_03_00_00_00_000",
 		"parentId": 4922,
->>>>>>> c343cf0a243dec2ec3f2b6e455a0a02f645ca579
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2324,7 +2142,6 @@ var indikatorensetData = [
 		"id": 6045
 	},
 	{
-<<<<<<< HEAD
 		"title": "Anzahl Beschäftigte nach Sektor (Vollzeitäquivalente)",
 		"subtitle": "",
 		"kuerzel": "I.03.2.06046",
@@ -2400,8 +2217,6 @@ var indikatorensetData = [
 		"id": 6047
 	},
 	{
-=======
->>>>>>> c343cf0a243dec2ec3f2b6e455a0a02f645ca579
 		"title": "Anteil der Beschäftigten in innovativen Branchen an der gesamten Beschäftigung (Vollzeitäquivalente)",
 		"subtitle": "",
 		"kuerzel": "I.03.2.06048",
@@ -2517,7 +2332,6 @@ var indikatorensetData = [
 		"id": 6050
 	},
 	{
-<<<<<<< HEAD
 		"title": "Entkopplung von Wachstum und Umweltverbrauch: BIP des Kantons Basel-Stadt und Ökologischer Fussabdruck der Schweiz",
 		"subtitle": "in Franken pro Kopf resp. globalen Hektaren pro Kopf",
 		"kuerzel": "I.04.2.06051",
@@ -2595,8 +2409,6 @@ var indikatorensetData = [
 		"id": 6052
 	},
 	{
-=======
->>>>>>> c343cf0a243dec2ec3f2b6e455a0a02f645ca579
 		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
 		"subtitle": "",
 		"kuerzel": "I.03.4.06053",
@@ -2673,7 +2485,6 @@ var indikatorensetData = [
 		"id": 6054
 	},
 	{
-<<<<<<< HEAD
 		"title": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen",
 		"subtitle": "",
 		"kuerzel": "I.13.2.06055",
@@ -2751,8 +2562,6 @@ var indikatorensetData = [
 		"id": 6056
 	},
 	{
-=======
->>>>>>> c343cf0a243dec2ec3f2b6e455a0a02f645ca579
 		"title": "Jahresmitteltemperatur",
 		"subtitle": "°C",
 		"kuerzel": "I.02.3.06434",

@@ -6,56 +6,96 @@
       "legendIndex": 1,
       "data": [
         [
-          "ÖV-Angebot",
-          0.9
-        ],
-        [
-          "Grünanlagen",
-          0.5
-        ],
-        [
-          "Verkehrssicherheit",
-          1.1
-        ],
-        [
-          "Gebäude\u002FStrassenbild",
-          2.4
-        ],
-        [
-          "Quartierleben",
-          9.2
-        ],
-        [
-          "Bevölkerung",
-          5.6
-        ],
-        [
-          "Luftqualität",
-          2.5
-        ],
-        [
-          "Lärmsituation",
-          0.3
-        ],
-        [
-          "Öffentliche Sicherheit",
-          0.8
-        ],
-        [
-          "Schule, Bildung",
-          19.6
-        ],
-        [
-          "Arbeitsplatzangebot",
-          25.4
+          "Parkplätze",
+          10
         ],
         [
           "Wohnungsangebot",
-          14.6
+          10
         ],
         [
-          "Parkplätze",
-          27
+          "Kinderbetreuung",
+          10
+        ],
+        [
+          "Jugendeinrichtungen",
+          10
+        ],
+        [
+          "Behinderteneinrichtungen",
+          10
+        ],
+        [
+          "Arbeitsplatzangebot",
+          10
+        ],
+        [
+          "Schule, Bildung",
+          10
+        ],
+        [
+          "Senioreneinrichtungen",
+          10
+        ],
+        [
+          "Sauberkeit",
+          10
+        ],
+        [
+          "Öffentliche Sicherheit",
+          10
+        ],
+        [
+          "Lärmsituation",
+          10
+        ],
+        [
+          "Luftqualität",
+          10
+        ],
+        [
+          "Bevölkerung",
+          10
+        ],
+        [
+          "Quartierleben",
+          10
+        ],
+        [
+          "Gebäude\u002FStrassenbild",
+          10
+        ],
+        [
+          "Verkehrssicherheit",
+          10
+        ],
+        [
+          "Einkaufsmögl. im Quartier",
+          10
+        ],
+        [
+          "Kulturangebot",
+          10
+        ],
+        [
+          "Grünanlagen",
+          10
+        ],
+        [
+          "Abfallbeseitigung",
+          10
+        ],
+        [
+          "Gesundheitsversorgung",
+          10
+        ],
+        [
+          "ÖV-Angebot",
+          10
+        ],
+        [
+          "Einkaufsmögl. in Basel",
+          10
         ]
       ],
       "name": "Weiss nicht\u002Fk.A.",
@@ -67,56 +107,96 @@
       "legendIndex": 2,
       "data": [
         [
-          "ÖV-Angebot",
-          0.3
-        ],
-        [
-          "Grünanlagen",
-          0.9
-        ],
-        [
-          "Verkehrssicherheit",
-          1.5
-        ],
-        [
-          "Gebäude\u002FStrassenbild",
-          1.5
-        ],
-        [
-          "Quartierleben",
-          0.7
-        ],
-        [
-          "Bevölkerung",
-          1.4
-        ],
-        [
-          "Luftqualität",
-          2.4
-        ],
-        [
-          "Lärmsituation",
-          4.4
-        ],
-        [
-          "Öffentliche Sicherheit",
-          3.5
-        ],
-        [
-          "Schule, Bildung",
-          0.8
-        ],
-        [
-          "Arbeitsplatzangebot",
-          2
+          "Parkplätze",
+          20
         ],
         [
           "Wohnungsangebot",
-          5.8
+          20
         ],
         [
-          "Parkplätze",
-          16.4
+          "Kinderbetreuung",
+          20
+        ],
+        [
+          "Jugendeinrichtungen",
+          20
+        ],
+        [
+          "Behinderteneinrichtungen",
+          20
+        ],
+        [
+          "Arbeitsplatzangebot",
+          20
+        ],
+        [
+          "Schule, Bildung",
+          20
+        ],
+        [
+          "Senioreneinrichtungen",
+          20
+        ],
+        [
+          "Sauberkeit",
+          20
+        ],
+        [
+          "Öffentliche Sicherheit",
+          20
+        ],
+        [
+          "Lärmsituation",
+          20
+        ],
+        [
+          "Luftqualität",
+          20
+        ],
+        [
+          "Bevölkerung",
+          20
+        ],
+        [
+          "Quartierleben",
+          20
+        ],
+        [
+          "Gebäude\u002FStrassenbild",
+          20
+        ],
+        [
+          "Verkehrssicherheit",
+          20
+        ],
+        [
+          "Einkaufsmögl. im Quartier",
+          20
+        ],
+        [
+          "Kulturangebot",
+          20
+        ],
+        [
+          "Grünanlagen",
+          20
+        ],
+        [
+          "Abfallbeseitigung",
+          20
+        ],
+        [
+          "Gesundheitsversorgung",
+          20
+        ],
+        [
+          "ÖV-Angebot",
+          20
+        ],
+        [
+          "Einkaufsmögl. in Basel",
+          20
         ]
       ],
       "name": "Ganz unzufrieden",
@@ -128,56 +208,96 @@
       "legendIndex": 3,
       "data": [
         [
-          "ÖV-Angebot",
-          3.5
-        ],
-        [
-          "Grünanlagen",
-          7.3
-        ],
-        [
-          "Verkehrssicherheit",
-          11.5
-        ],
-        [
-          "Gebäude\u002FStrassenbild",
-          12.2
-        ],
-        [
-          "Quartierleben",
-          7.7
-        ],
-        [
-          "Bevölkerung",
-          10.7
-        ],
-        [
-          "Luftqualität",
-          14.6
-        ],
-        [
-          "Lärmsituation",
-          15.7
-        ],
-        [
-          "Öffentliche Sicherheit",
-          19.1
-        ],
-        [
-          "Schule, Bildung",
-          7.3
-        ],
-        [
-          "Arbeitsplatzangebot",
-          14.8
+          "Parkplätze",
+          30
         ],
         [
           "Wohnungsangebot",
-          28.9
+          30
         ],
         [
-          "Parkplätze",
-          21.3
+          "Kinderbetreuung",
+          30
+        ],
+        [
+          "Jugendeinrichtungen",
+          30
+        ],
+        [
+          "Behinderteneinrichtungen",
+          30
+        ],
+        [
+          "Arbeitsplatzangebot",
+          30
+        ],
+        [
+          "Schule, Bildung",
+          30
+        ],
+        [
+          "Senioreneinrichtungen",
+          30
+        ],
+        [
+          "Sauberkeit",
+          30
+        ],
+        [
+          "Öffentliche Sicherheit",
+          30
+        ],
+        [
+          "Lärmsituation",
+          30
+        ],
+        [
+          "Luftqualität",
+          30
+        ],
+        [
+          "Bevölkerung",
+          30
+        ],
+        [
+          "Quartierleben",
+          30
+        ],
+        [
+          "Gebäude\u002FStrassenbild",
+          30
+        ],
+        [
+          "Verkehrssicherheit",
+          30
+        ],
+        [
+          "Einkaufsmögl. im Quartier",
+          30
+        ],
+        [
+          "Kulturangebot",
+          30
+        ],
+        [
+          "Grünanlagen",
+          30
+        ],
+        [
+          "Abfallbeseitigung",
+          30
+        ],
+        [
+          "Gesundheitsversorgung",
+          30
+        ],
+        [
+          "ÖV-Angebot",
+          30
+        ],
+        [
+          "Einkaufsmögl. in Basel",
+          30
         ]
       ],
       "name": "Eher unzufrieden",
@@ -189,56 +309,96 @@
       "legendIndex": 4,
       "data": [
         [
-          "ÖV-Angebot",
-          26.4
-        ],
-        [
-          "Grünanlagen",
-          41.6
-        ],
-        [
-          "Verkehrssicherheit",
-          61.4
-        ],
-        [
-          "Gebäude\u002FStrassenbild",
-          60.7
-        ],
-        [
-          "Quartierleben",
-          55.9
-        ],
-        [
-          "Bevölkerung",
-          60.7
-        ],
-        [
-          "Luftqualität",
-          61.8
-        ],
-        [
-          "Lärmsituation",
-          50.1
-        ],
-        [
-          "Öffentliche Sicherheit",
-          55.4
-        ],
-        [
-          "Schule, Bildung",
-          43.2
-        ],
-        [
-          "Arbeitsplatzangebot",
-          46.5
+          "Parkplätze",
+          40
         ],
         [
           "Wohnungsangebot",
-          39.8
+          40
         ],
         [
-          "Parkplätze",
-          27.1
+          "Kinderbetreuung",
+          40
+        ],
+        [
+          "Jugendeinrichtungen",
+          40
+        ],
+        [
+          "Behinderteneinrichtungen",
+          40
+        ],
+        [
+          "Arbeitsplatzangebot",
+          40
+        ],
+        [
+          "Schule, Bildung",
+          40
+        ],
+        [
+          "Senioreneinrichtungen",
+          40
+        ],
+        [
+          "Sauberkeit",
+          40
+        ],
+        [
+          "Öffentliche Sicherheit",
+          40
+        ],
+        [
+          "Lärmsituation",
+          40
+        ],
+        [
+          "Luftqualität",
+          40
+        ],
+        [
+          "Bevölkerung",
+          40
+        ],
+        [
+          "Quartierleben",
+          40
+        ],
+        [
+          "Gebäude\u002FStrassenbild",
+          40
+        ],
+        [
+          "Verkehrssicherheit",
+          40
+        ],
+        [
+          "Einkaufsmögl. im Quartier",
+          40
+        ],
+        [
+          "Kulturangebot",
+          40
+        ],
+        [
+          "Grünanlagen",
+          40
+        ],
+        [
+          "Abfallbeseitigung",
+          40
+        ],
+        [
+          "Gesundheitsversorgung",
+          40
+        ],
+        [
+          "ÖV-Angebot",
+          40
+        ],
+        [
+          "Einkaufsmögl. in Basel",
+          40
         ]
       ],
       "name": "Eher zufrieden",
@@ -250,56 +410,96 @@
       "legendIndex": 5,
       "data": [
         [
-          "ÖV-Angebot",
-          68.9
-        ],
-        [
-          "Grünanlagen",
-          49.7
-        ],
-        [
-          "Verkehrssicherheit",
-          24.5
-        ],
-        [
-          "Gebäude\u002FStrassenbild",
-          23.2
-        ],
-        [
-          "Quartierleben",
-          26.6
-        ],
-        [
-          "Bevölkerung",
-          21.6
-        ],
-        [
-          "Luftqualität",
-          18.7
-        ],
-        [
-          "Lärmsituation",
-          29.5
-        ],
-        [
-          "Öffentliche Sicherheit",
-          21.1
-        ],
-        [
-          "Schule, Bildung",
-          29
-        ],
-        [
-          "Arbeitsplatzangebot",
-          11.3
+          "Parkplätze",
+          50
         ],
         [
           "Wohnungsangebot",
-          11
+          50
         ],
         [
-          "Parkplätze",
-          8.2
+          "Kinderbetreuung",
+          50
+        ],
+        [
+          "Jugendeinrichtungen",
+          50
+        ],
+        [
+          "Behinderteneinrichtungen",
+          50
+        ],
+        [
+          "Arbeitsplatzangebot",
+          50
+        ],
+        [
+          "Schule, Bildung",
+          50
+        ],
+        [
+          "Senioreneinrichtungen",
+          50
+        ],
+        [
+          "Sauberkeit",
+          50
+        ],
+        [
+          "Öffentliche Sicherheit",
+          50
+        ],
+        [
+          "Lärmsituation",
+          50
+        ],
+        [
+          "Luftqualität",
+          50
+        ],
+        [
+          "Bevölkerung",
+          50
+        ],
+        [
+          "Quartierleben",
+          50
+        ],
+        [
+          "Gebäude\u002FStrassenbild",
+          50
+        ],
+        [
+          "Verkehrssicherheit",
+          50
+        ],
+        [
+          "Einkaufsmögl. im Quartier",
+          50
+        ],
+        [
+          "Kulturangebot",
+          50
+        ],
+        [
+          "Grünanlagen",
+          50
+        ],
+        [
+          "Abfallbeseitigung",
+          50
+        ],
+        [
+          "Gesundheitsversorgung",
+          50
+        ],
+        [
+          "ÖV-Angebot",
+          50
+        ],
+        [
+          "Einkaufsmögl. in Basel",
+          50
         ]
       ],
       "name": "Sehr zufrieden",
@@ -325,8 +525,21 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-            	return this.value;
-            }
+                //add sum of observations of visible series to the axis label
+                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
+                    return val.visible;
+                });
+                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
+                    return accumulator + series.yData[indexOfCurrentValue];
+                }, 0);
+                //use N if all series are visible, otherwise use n
+                var nString = /*(this.chart.series.length == allVisibleSeries.length) ? 'N=' : */ 'n='; 
+                //check for value that contains only spaces
+            	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
+            },
+      "align": "left",
+      "x": -190
     }
   },
   "chart": {
@@ -347,14 +560,15 @@
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 485,
-    "height": 415,
+    "width": 600,
+    "height": 600,
     "spacingBottom": 30,
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
     "type": "column",
+    "marginLeft": 200,
     "inverted": true,
     "renderTo": "container-5178"
   },
@@ -389,11 +603,15 @@
           "fontSize": "10px"
         }
       },
-      "stacking": "percent"
+      "stacking": "percent",
+      "pointPadding": 0.1,
+      "groupPadding": 0,
+      "shadow": false,
+      "pointWidth": 10
     }
   },
   "yAxis": {
-    "tickInterval": 10,
+    "tickInterval": 25,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
@@ -413,8 +631,7 @@
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
-    "shared": false,
-    "valueDecimals": 1
+    "shared": false
   },
   "credits": {
     "enabled": true,
