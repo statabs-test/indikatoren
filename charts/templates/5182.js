@@ -11,7 +11,7 @@
   	//"min": -1500,
   	//"tickInterval": 10000,
     "labels": {
-      "format": "{value:,.0f}",
+      "format": "{value:,.0f}%",
     }
   },
   "xAxis": {
@@ -35,28 +35,28 @@
 
   "series": [
      {
-      "color": "#B00000", // dunkelrot 
+      "color": "#B00000", legendIndex: 0, // dunkelrot 
     },
     {
-      "color": "#007A2F", // dunkelgrün 
+      "color": "#E64900", legendIndex: 1, // hellrot 
     },
     {
-      "color": "#4f81bd", //dunkelblau 
+      "color": "#2B0099", legendIndex: 2 //dunkelblau 
     },
     {
-    "color": "#2B0099", // dunkelviolett
+    "color": "#008AC3", legendIndex: 4// hellblau
     },
       {
-      "color": "#E64900", // hellrot  
+      "color": "#007A2F", legendIndex: 4,"visible": false// dunkelgrün  
     },
     {
-      "color": "#68AB2B", //hellgrün 
+      "color": "#68AB2B",legendIndex: 5,"visible": false //hellgrün 
     },
     {
-    "color": "#008AC3", //hellblau 
+    "color": "#923F8D", legendIndex:6,"visible": false //dunkelviolett 
     },
     {
-      "color": "#B375AB", //hellviolett
+      "color": "#B375AB", legendIndex: 7,"visible": false//hellviolett
     },
   ],
   "chart": {
