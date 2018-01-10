@@ -7560,6 +7560,43 @@
 		"id": 5131
 	},
 	{
+		"title": "Wohnbevölkerung am Jahresende nach Staatsangehörigkeit (Schweiz/Ausland)",
+		"subtitle": "",
+		"kuerzel": "I.01.1.05137",
+		"kuerzelKunde": "BE5",
+		"description": "Wohnbevölkerung am Jahresende nach Staatsangehörigkeit (Schweiz/Ausland)",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur ",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-03-13T16:59:13.1313",
+		"schlagwort": [
+			"Bevölkerung"
+		],
+		"stufe1": "Bevölkerung",
+		"stufe2": "Bevölkerung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die schweizerische Bevölkerung nahm von 1997 bis 2016 von gut 142 000 auf etwa 127 000 Personen ab. Dies entspricht einem Rückgang um rund 10%. Die ausländische Bevölkerung nahm im gleichen Zeitraum von knapp 52 000 auf leicht unter 71 000 Personen zu, was einem Zuwachs um 36% gleichkommt.",
+		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister.",
+		"template": "line001",
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_000",
+		"parentId": 5809,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5137
+	},
+	{
 		"title": "Wohnbevölkerung am Jahresende nach Staatsangehörigkeit",
 		"subtitle": "",
 		"kuerzel": "I.01.1.05141",
@@ -7788,45 +7825,6 @@
 			""
 		],
 		"id": 5149
-	},
-	{
-		"title": "Wanderungssaldo: Zu- und Weggezogene nach Herkunft und Ziel",
-		"subtitle": "",
-		"kuerzel": "I.01.5.05155",
-		"kuerzelKunde": "BE8.1",
-		"description": "Wanderungssaldo: Zu- und Weggezogene nach Herkunft und Ziel",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Wanderungen",
-		"kennzahlenset": "Nachhaltigkeit",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Zuzug",
-			"Wanderung"
-		],
-		"stufe1": "Bevölkerung",
-		"stufe2": "Bevölkerung",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "2015 zogen 14 021 Personen neu in den Kanton Basel-Stadt. Dies sind mehr als im Vorjahr, jedoch deutlich weniger als 2013, als derhöchste Wert der letzten zehn Jahre erreicht wurde. Der niedrigste Wert wurde 2006 verzeichnet, zu Beginn der Beobachtungsperiode. Die Zahl der Wegzüge hat 2015 gegenüber dem Vorjahr ebenfalls zugenommen und auch der Zehnjahresvergleich zeigt einen Anstieg. Der Wanderungssaldo fiel 2015 positiv aus (731).",
-		"erlaeuterungen": "Im Jahr 2010 einschliesslich rund 1 600 nachträglicher Streichungen (zu Weggezogenen gezählt) im Rahmen der Registerbereinigungen für die Volkszählung. 2015: Provisorische Werte.",
-		"template": "template001",
-		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 5155
 	},
 	{
 		"title": "Wanderungen 2006-2015 nach Staatsangehörigkeit: Schweizer",

@@ -1,0 +1,425 @@
+{
+  "series": [
+    {
+      "index": 2,
+      "color": "#990300",
+      "legendIndex": 1,
+      "type": "column",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "1997",
+          142279
+        ],
+        [
+          "1998",
+          140223
+        ],
+        [
+          "1999",
+          137808
+        ],
+        [
+          "2000",
+          136609
+        ],
+        [
+          "2001",
+          134825
+        ],
+        [
+          "2002",
+          133730
+        ],
+        [
+          "2003",
+          132756
+        ],
+        [
+          "2004",
+          131998
+        ],
+        [
+          "2005",
+          130726
+        ],
+        [
+          "2006",
+          129216
+        ],
+        [
+          "2007",
+          129082
+        ],
+        [
+          "2008",
+          129226
+        ],
+        [
+          "2009",
+          128639
+        ],
+        [
+          "2010",
+          128213
+        ],
+        [
+          "2011",
+          127981
+        ],
+        [
+          "2012",
+          127932
+        ],
+        [
+          "2013",
+          127907
+        ],
+        [
+          "2014",
+          127692
+        ],
+        [
+          "2015",
+          127617
+        ],
+        [
+          "2016",
+          127398
+        ]
+      ],
+      "name": "Schweiz",
+      "turboThreshold": 0
+    },
+    {
+      "index": 1,
+      "color": "#71A3B5",
+      "legendIndex": 2,
+      "type": "column",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "1997",
+          51974
+        ],
+        [
+          "1998",
+          51898
+        ],
+        [
+          "1999",
+          52333
+        ],
+        [
+          "2000",
+          51972
+        ],
+        [
+          "2001",
+          52634
+        ],
+        [
+          "2002",
+          54285
+        ],
+        [
+          "2003",
+          55457
+        ],
+        [
+          "2004",
+          56479
+        ],
+        [
+          "2005",
+          57194
+        ],
+        [
+          "2006",
+          58576
+        ],
+        [
+          "2007",
+          58918
+        ],
+        [
+          "2008",
+          60330
+        ],
+        [
+          "2009",
+          62176
+        ],
+        [
+          "2010",
+          62586
+        ],
+        [
+          "2011",
+          64095
+        ],
+        [
+          "2012",
+          65527
+        ],
+        [
+          "2013",
+          67552
+        ],
+        [
+          "2014",
+          68779
+        ],
+        [
+          "2015",
+          69587
+        ],
+        [
+          "2016",
+          70808
+        ]
+      ],
+      "name": "Ausland",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#000000",
+      "type": "line",
+      "legendIndex": 3,
+      "yAxis": 1,
+      "marker": {
+        "enabled": false
+      },
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "1997",
+          26.7558287388
+        ],
+        [
+          "1998",
+          27.0131843994
+        ],
+        [
+          "1999",
+          27.5232590551
+        ],
+        [
+          "2000",
+          27.5595102369
+        ],
+        [
+          "2001",
+          28.0776063032
+        ],
+        [
+          "2002",
+          28.8726963274
+        ],
+        [
+          "2003",
+          29.4650210134
+        ],
+        [
+          "2004",
+          29.9659905452
+        ],
+        [
+          "2005",
+          30.4352916134
+        ],
+        [
+          "2006",
+          31.1919570588
+        ],
+        [
+          "2007",
+          31.3393617021
+        ],
+        [
+          "2008",
+          31.8270062672
+        ],
+        [
+          "2009",
+          32.5844404265
+        ],
+        [
+          "2010",
+          32.8020587109
+        ],
+        [
+          "2011",
+          33.3696036985
+        ],
+        [
+          "2012",
+          33.8712595433
+        ],
+        [
+          "2013",
+          34.5607007096
+        ],
+        [
+          "2014",
+          35.0072020807
+        ],
+        [
+          "2015",
+          35.2868095981
+        ],
+        [
+          "2016",
+          35.7244483012
+        ]
+      ],
+      "name": "Ausländeranteil (rechte Skala)",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 2
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "column",
+    "marginBottom": 75,
+    "marginTop": 75,
+    "renderTo": "container-5137"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Wohnbevölkerung am Jahresende nach Staatsangehörigkeit (Schweiz\u002FAusland)"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": true,
+    "headerFormat": "&nbsp;&nbsp;&nbsp;Gesamtbevölkerung: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "useHTML": true
+  },
+  "yAxis": [
+    {
+      "title": {
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0
+    },
+    {
+      "title": {
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.1f}",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "opposite": true
+    }
+  ],
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "x": 45,
+    "y": 35,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "pointWidth": 10,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "normal"
+    }
+  },
+  "exporting": {
+    "filename": "I.01.1.05137"
+  }
+}
