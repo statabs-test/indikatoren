@@ -95,58 +95,58 @@
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="40"/>
   <g class="highcharts-legend" transform="translate(55,50)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="396" height="68" visibility="visible"/>
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="386" height="68" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-area-series highcharts-color-undefined highcharts-series-0" transform="translate(8,3)">
           <text x="21" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
-            <tspan>Übriges …</tspan><title>Übriges Ausland</title>
+            <tspan>Übriges Ausland</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#b00000" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-area-series highcharts-color-undefined highcharts-series-1" transform="translate(108,3)">
+        <g class="highcharts-legend-item highcharts-area-series highcharts-color-undefined highcharts-series-1" transform="translate(138,3)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Türkei</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#ff8028" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-area-series highcharts-color-undefined highcharts-series-2" transform="translate(208,3)">
+        <g class="highcharts-legend-item highcharts-area-series highcharts-color-undefined highcharts-series-2" transform="translate(268,3)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Ehem. J…</tspan><title>Ehem. Jugoslawien2</title>
+            <tspan>Ehem. Jugosl…</tspan><title>Ehem. Jugoslawien</title>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#ffbb58" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-area-series highcharts-color-undefined highcharts-series-3" transform="translate(308,3)">
+        <g class="highcharts-legend-item highcharts-area-series highcharts-color-undefined highcharts-series-3" transform="translate(8,22)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Portugal</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#71a3b5" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-area-series highcharts-color-undefined highcharts-series-4" transform="translate(8,22)">
+        <g class="highcharts-legend-item highcharts-area-series highcharts-color-undefined highcharts-series-4" transform="translate(138,22)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Spanien</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#b9cfd7" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-area-series highcharts-color-undefined highcharts-series-5" transform="translate(108,22)">
+        <g class="highcharts-legend-item highcharts-area-series highcharts-color-undefined highcharts-series-5" transform="translate(268,22)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Italien</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#d7e9d2" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-area-series highcharts-color-undefined highcharts-series-6" transform="translate(208,22)">
+        <g class="highcharts-legend-item highcharts-area-series highcharts-color-undefined highcharts-series-6" transform="translate(8,41)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Frankreich</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#73ba7c" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-area-series highcharts-color-undefined highcharts-series-7" transform="translate(308,22)">
+        <g class="highcharts-legend-item highcharts-area-series highcharts-color-undefined highcharts-series-7" transform="translate(138,41)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Deutschl…</tspan><title>Deutschland</title>
+            <tspan>Deutschland</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#44ab2b" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-area-series highcharts-color-undefined highcharts-series-8" transform="translate(8,41)">
+        <g class="highcharts-legend-item highcharts-area-series highcharts-color-undefined highcharts-series-8" transform="translate(268,41)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Schweiz</tspan>
           </text>

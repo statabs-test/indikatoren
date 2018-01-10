@@ -11376,7 +11376,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "22,4% der Befragten gaben 2015 an, innerhalb der letzten zwölf Monate einen Weiterbildungskurs besucht zu haben, 14,1% haben mehrere Kurse besucht. 2015 geben 63,6% der Befragten an, keinen Kurs besucht zu haben. 2003 lag dieser Wert bei 54,1%.",
 		"erlaeuterungen": "",
-		"template": "template001",
+		"template": "befragungen001",
 		"visibleInPortal": true,
 		"orderKey": "03_05_00_00_00_000",
 		"parentId": null,
