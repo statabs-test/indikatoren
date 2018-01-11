@@ -11249,5 +11249,79 @@ var indikatoren = [
 			""
 		],
 		"id": 6348
+	},
+	{
+		"title": "Beurteilung der Kantonspolizei",
+		"subtitle": "Stand: 2012",
+		"kuerzel": "I.85.2.06437",
+		"kuerzelKunde": "10.4a",
+		"description": "Beurteilung der Kantonspolizei",
+		"thema": "50 Befragungen",
+		"unterthema": "Befragungen für öffentliche Organe",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Beurteilung"
+		],
+		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "87,5% der Befragten stimmen der Aussage, dass die Basler Polizistinnen und Polizisten hilfsbereit sind mit einer 7 oder mehr zu. Dass die Basler Polizistinnen und Polizisten sympathisch sind, bejahen 78,3% der Befragten. Kritisch sehen die Befragten den Aspekt Respekt. 5,5% der Befragten antworten auf diese Frage mit einer 4 oder weniger.",
+		"erlaeuterungen": "Die Kantonspolizei führt alle 3 Jahre eine Kundenbefragung durch. 2015 wurden 1026 in Basel, Riehen und Bettingen wohnhafte Personen zu verschiedenen Bereichen der Kantonspolizei befragt. Die Befragung wurde 2012 telefonisch von LINK durchgeführt. Für diesen Indikator werden Teile aus der Frage 51 verwendet: Ich lese Ihnen jetzt einige Eigenschaften vor, wo ein Polizist oder eine Polizistin im Kanton Basel-Stadt haben kann. Bitte sagen Sie mir für jede Eigenschaft, wie sehr sie auf die Basler Polizistinnen und Polizisten zutrifft. Wenn Sie finden, sie trifft voll und ganz zu, geben sie eine 10. Wenn Sie finden, sie trifft überhaupt nicht zu, geben Sie eine 1. Die Werte dazwischen erlauben Ihnen, ein differenziertes  Urteil abzugeben. Die Antwortkategorien in der Abbilung wurden abgekürzt. Die vollständigen Fragen lauten: Freundlich: Der Basler Polizist oder die Basler Polizistin ist freundlich; Handelt angemessen: Der Basler Polizist oder die Basler Polizistin handelt der Situation angemessen; Hilfsbereit: Der Basler Polizist oder die Basler Polizistin ist hilfsbereit; Sympathisch: Der Basler Polizist oder die Basler Polizistin ist sympathisch;  Respektvoll: Der Basler Polizist oder die Basler Polizistin behandelt die Leute mit Respekt; Nimmt Anliegen ernst: Der Basler Polizist oder die Basler Polizistin nimmt die Anliegen von der Bevölkerung ernst; Gerecht: Der Basler Polizist oder die Basler Polizistin hat einen ausgeprägten Sinn für Gerechtigkeit. Da einzelne Befragte die Frage nicht beantwortet haben, resultieren verschiedene n.",
+		"template": "befragungen001",
+		"visibleInPortal": true,
+		"orderKey": "10_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Justiz- und Sicherheitsdepartement Basel-Stadt, Kundenumfrage zur Kantonspolizei"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6437
+	},
+	{
+		"title": "Beurteilung der Kantonspolizei",
+		"subtitle": "Stand: 2015",
+		"kuerzel": "I.85.2.06438",
+		"kuerzelKunde": "10.4b",
+		"description": "Beurteilung der Kantonspolizei",
+		"thema": "50 Befragungen",
+		"unterthema": "Befragungen für öffentliche Organe",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Beurteilung"
+		],
+		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "87,5% der befragten Personen bewerten die Hilfsbereitschaft der Basler Polizistinnen und Polizisten mit 10, 9, 8 oder 7. Weniger einverstanden sind die befragten Personen mit der Aussage, dass Basler Polizistinnen und Polizisten einen ausgeprägten Sinn für Gerechtigkeit haben. Hier geben 72,7% der Befragten den Wert 7 oder mehr an.",
+		"erlaeuterungen": "Die Kantonspolizei führt alle 3 Jahre eine Kundenbefragung durch. 2012 wurden 1028 in Basel, Riehen und Bettingen wohnhafte Personen zu verschiedenen Bereichen der Kantonspolizei befragt. Die Befragung wurde 2012 telefonisch von LINK durchgeführt. Für diesen Indikator werden Teile aus der Frage 51 verwendet: Ich lese Ihnen jetzt einige Eigenschaften vor, wo ein Polizist oder eine Polizistin im Kanton Basel-Stadt haben kann. Bitte sagen Sie mir für jede Eigenschaft, wie sehr sie auf die Basler Polizistinnen und Polizisten zutrifft. Wenn Sie finden, sie trifft voll und ganz zu, geben sie eine 10. Wenn Sie finden, sie trifft überhaupt nicht zu, geben Sie eine 1. Die Werte dazwischen erlauben Ihnen, ein differenziertes  Urteil abzugeben. Die Antwortkategorien in der Abbilung wurden abgekürzt. Die vollständigen Fragen lauten: Freundlich: Der Basler Polizist oder die Basler Polizistin ist freundlich; Handelt angemessen: Der Basler Polizist oder die Basler Polizistin handelt der Situation angemessen; Hilfsbereit: Der Basler Polizist oder die Basler Polizistin ist hilfsbereit; Sympathisch: Der Basler Polizist oder die Basler Polizistin ist sympathisch;  Respektvoll: Der Basler Polizist oder die Basler Polizistin behandelt die Leute mit Respekt; Nimmt Anliegen ernst: Der Basler Polizist oder die Basler Polizistin nimmt die Anliegen von der Bevölkerung ernst; Gerecht: Der Basler Polizist oder die Basler Polizistin hat einen ausgeprägten Sinn für Gerechtigkeit. Da einzelne Befragte die Frage nicht beantwortet haben, resultieren verschiedene n.",
+		"template": "befragungen001",
+		"visibleInPortal": true,
+		"orderKey": "10_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Justiz- und Sicherheitsdepartement Basel-Stadt, Kundenumfrage zur Kantonspolizei"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6438
 	}
 ];
