@@ -47,7 +47,7 @@
   },
   "_requiredBy": [],
   "_resolved": "git://github.com/statabs-test/filter.js.git#e2447aaea9e5b6581a98778c4177fbdf3d1a2936",
-  "_shasum": "5d07f1e7cd4ed5e991ae602ae2a5549492052f3d",
+  "_shasum": "e4b2d87b65dae0127b6518e7867237fbeaa1b28d",
   "_shrinkwrap": null,
   "_spec": "filter-js@git://github.com/statabs-test/filter.js.git#e2447aaea9e5b6581a98778c4177fbdf3d1a2936",
   "_where": "/home/ubuntu/workspace",
