@@ -113,7 +113,7 @@ if (idByKuerzel[kuerzel] || kuerzelById[id]){
           var exportServer = window.decodeURIComponent($.url('?exportServer'));
           //load offline exporting module first if required, then invoke createThumbnail()
           (thumbnailOfflineExporting) 
-            ? $.getScript('assets/js/highcharts-offline-exporting-4.2.6.js', function(){createThumbnail(id, kuerzel, exportType, thumbnailOfflineExporting);}) 
+            ? $.getScript('assets/js/modules/highcharts/modules/offline-exporting.js', function(){createThumbnail(id, kuerzel, exportType, thumbnailOfflineExporting);}) 
             : createThumbnail(id, kuerzel, exportType, thumbnailOfflineExporting, exportServer);
           
           //add a hidden div with the contents of the svg in order for it to be captured by casperjs
