@@ -9303,7 +9303,8 @@ var indikatoren = [
 		"orderKey": "04_00_00_00_00_007",
 		"parentId": null,
 		"children": [
-			"6301"
+			"6301",
+			"6435"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -9797,6 +9798,7 @@ var indikatoren = [
 		"orderKey": "07_00_00_00_00_002",
 		"parentId": 3094,
 		"children": [
+			"5795",
 			"6313"
 		],
 		"renderLink": [],
