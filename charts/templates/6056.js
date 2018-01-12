@@ -2,7 +2,11 @@
     return {
   "plotOptions": {
     "series": {
-      "stacking": "percent"
+		"stacking": "percent",
+		pointPadding: 0, 
+		groupPadding: 0.1, 
+		borderWidth: 0
+
     }
   },
   "xAxis": {

@@ -35,6 +35,7 @@
     "series": [
       {
         "marker": {
+          enabled: false,
           "symbol": "circle"
         },     
         "color": "#008AC3",
@@ -45,6 +46,7 @@
       },
       {
         "marker": {
+          enabled: false,
           "symbol": "circle"
         },     
         "color": "#68AB2B",

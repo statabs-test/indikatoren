@@ -3,9 +3,10 @@
         "plotOptions": {
             "series": {
                 "stacking": null,
-                pointPadding: 0,
-                borderWidth: 1,
-                groupPadding: 0.15
+				pointPadding: 0, 
+				groupPadding: 0.1, 
+				borderWidth: 0
+
             }
         },
         "chart": {      
