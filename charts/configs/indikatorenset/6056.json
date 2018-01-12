@@ -30,7 +30,7 @@
           39842
         ]
       ],
-      "name": "Männer Vollzeit",
+      "name": "M�nner Vollzeit",
       "turboThreshold": 0
     },
     {
@@ -63,7 +63,7 @@
           9070
         ]
       ],
-      "name": "Männer Teilzeit",
+      "name": "M�nner Teilzeit",
       "turboThreshold": 0
     },
     {
@@ -255,7 +255,9 @@
           "fontSize": "10px"
         }
       },
-      "stacking": "percent"
+      "stacking": "percent",
+      "pointPadding": 0,
+      "groupPadding": 0.1
     }
   },
   "title": {

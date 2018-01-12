@@ -2,6 +2,7 @@
   "series": [
     {
       "marker": {
+        "enabled": false,
         "symbol": "circle"
       },
       "color": "#008AC3",
@@ -231,10 +232,11 @@
           null
         ]
       ],
-      "name": "Ökologischer Fussabdruck Schweiz (linke Skala)"
+      "name": "�kologischer Fussabdruck Schweiz (linke Skala)"
     },
     {
       "marker": {
+        "enabled": false,
         "symbol": "circle"
       },
       "color": "#68AB2B",

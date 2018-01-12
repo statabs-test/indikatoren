@@ -5,204 +5,201 @@
       "legendIndex": 2,
       "data": [
         [
+          2001,
+          17078051
+        ],
+        [
+          2002,
+          17082616
+        ],
+        [
+          2003,
+          17353073
+        ],
+        [
+          2004,
+          17345751
+        ],
+        [
           2005,
-          1912.56044
+          17027949
         ],
         [
           2006,
-          1997.721612
+          16998965
         ],
         [
           2007,
-          2101.095238
+          16984227
         ],
         [
           2008,
-          2239
+          17016684
         ],
         [
           2009,
-          2315.666667
+          17014080
         ],
         [
           2010,
-          2928
+          17004173
         ],
         [
           2011,
-          3212
+          16987339
         ],
         [
           2012,
-          3457
+          16980574
         ],
         [
           2013,
-          3560
+          16907566
         ],
         [
           2014,
-          3859
+          16887865
         ],
         [
           2015,
-          3987
+          16911934
         ]
       ],
-      "name": "Tagesbetreuung"
-    },
-    {
-      "color": "#662673",
-      "legendIndex": 2,
-      "data": [
-        [
-          2005,
-          467
-        ],
-        [
-          2006,
-          571
-        ],
-        [
-          2007,
-          752
-        ],
-        [
-          2008,
-          799
-        ],
-        [
-          2009,
-          819
-        ],
-        [
-          2010,
-          910
-        ],
-        [
-          2011,
-          802
-        ],
-        [
-          2012,
-          743
-        ],
-        [
-          2013,
-          851
-        ],
-        [
-          2014,
-          918.6
-        ],
-        [
-          2015,
-          782
-        ]
-      ],
-      "name": "Tagesstrukturen in den Quartieren"
+      "name": "Versiegelte Fläche"
     },
     {
       "color": "#008AC3",
       "legendIndex": 2,
       "data": [
         [
+          2001,
+          1332078
+        ],
+        [
+          2002,
+          1331234
+        ],
+        [
+          2003,
+          1329487
+        ],
+        [
+          2004,
+          1329539
+        ],
+        [
           2005,
-          392
+          1333492
         ],
         [
           2006,
-          394
+          1334599
         ],
         [
           2007,
-          488
+          1334164
         ],
         [
           2008,
-          620
+          1335703
         ],
         [
           2009,
-          814
+          1335107
         ],
         [
           2010,
-          1173
+          1335115
         ],
         [
           2011,
-          1510
+          1337201
         ],
         [
           2012,
-          2209
+          1336796
         ],
         [
           2013,
-          2966
+          1337427
         ],
         [
           2014,
-          3706
+          1337705
         ],
         [
           2015,
-          4096
+          1337856
         ]
       ],
-      "name": "Tagesstrukturen in den Schulen"
+      "name": "Wasserflächen"
     },
     {
       "color": "#007A2F",
       "legendIndex": 0,
       "data": [
         [
+          2001,
+          18788929
+        ],
+        [
+          2002,
+          18785226
+        ],
+        [
+          2003,
+          18516250
+        ],
+        [
+          2004,
+          18523369
+        ],
+        [
           2005,
-          null
+          18593379
         ],
         [
           2006,
-          null
+          18620295
         ],
         [
           2007,
-          null
+          18633961
         ],
         [
           2008,
-          null
+          18600649
         ],
         [
           2009,
-          152.7272727
+          18603847
         ],
         [
           2010,
-          178.1818182
+          18613697
         ],
         [
           2011,
-          176.3636364
+          18628494
         ],
         [
           2012,
-          181.8181818
+          18635667
         ],
         [
           2013,
-          192.7272727
+          18708044
         ],
         [
           2014,
-          198.1818182
+          18728382
         ],
         [
           2015,
-          198
+          18704162
         ]
       ],
-      "name": "Tagesferien"
+      "name": "Grünflächen"
     }
   ],
   "chart": {
@@ -232,7 +229,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-6055"
+    "renderTo": "container-6026"
   },
   "title": {
     "style": {
@@ -241,7 +238,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen"
+    "text": "Anteile der Bodenversiegelung, der Grünflächen und der Gewässer an der Kantonsfläche"
   },
   "subtitle": {
     "style": {
@@ -254,7 +251,8 @@
     "align": "left"
   },
   "tooltip": {
-    "shared": false
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
     "min": 0,
@@ -270,7 +268,8 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "format": "{value}"
     }
   },
   "xAxis": {
@@ -282,7 +281,7 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 1
+    "tickInterval": 2
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -298,7 +297,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt"
   },
   "legend": {
     "enabled": true,
@@ -307,7 +306,7 @@
     "align": "left",
     "symbolRadius": 0,
     "y": 35,
-    "itemWidth": 210,
+    "itemWidth": 135,
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"
@@ -322,6 +321,6 @@
     }
   },
   "exporting": {
-    "filename": "I.13.2.06055"
+    "filename": "I.02.10.06026"
   }
 }

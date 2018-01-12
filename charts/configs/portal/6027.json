@@ -1,120 +1,51 @@
 {
   "series": [
     {
-      "color": "#689199",
+      "color": "#990300",
+      "visible": true,
       "data": [
         [
-          "1995",
-          null
+          "2006",
+          42.2
         ],
         [
-          "1998",
-          null
-        ],
-        [
-          "2001",
-          170
-        ],
-        [
-          "2005",
-          57
+          "2007",
+          42.2
         ],
         [
           "2008",
-          50
+          42
+        ],
+        [
+          "2009",
+          41.9
+        ],
+        [
+          "2010",
+          42.1
         ],
         [
           "2011",
-          91
+          42
         ],
         [
           "2012",
-          88
+          42
         ],
         [
           "2013",
-          90
+          42
+        ],
+        [
+          "2014",
+          41.7
+        ],
+        [
+          "2015",
+          41.5
         ]
       ],
-      "name": "Landwirtschaft",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#ffbb58",
-      "data": [
-        [
-          "1995",
-          44104
-        ],
-        [
-          "1998",
-          35522
-        ],
-        [
-          "2001",
-          33681
-        ],
-        [
-          "2005",
-          31286
-        ],
-        [
-          "2008",
-          32366
-        ],
-        [
-          "2011",
-          34002
-        ],
-        [
-          "2012",
-          34196
-        ],
-        [
-          "2013",
-          33467
-        ]
-      ],
-      "name": "Industrie, Energie und Baugewerbe",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#dc440e",
-      "data": [
-        [
-          "1995",
-          93532
-        ],
-        [
-          "1998",
-          91901
-        ],
-        [
-          "2001",
-          98009
-        ],
-        [
-          "2005",
-          103133
-        ],
-        [
-          "2008",
-          107149
-        ],
-        [
-          "2011",
-          113030
-        ],
-        [
-          "2012",
-          114456
-        ],
-        [
-          "2013",
-          117254
-        ]
-      ],
-      "name": "Handel und Dienstleistungen",
+      "name": "Durchschnittlicher Wohnflächenverbrauch pro Kopf",
       "turboThreshold": 0
     }
   ],
@@ -152,13 +83,13 @@
     "zoomType": "xy",
     "width": 485,
     "height": 415,
-    "spacingBottom": 45,
+    "spacingBottom": 40,
     "style": {
       "fontFamily": "Arial"
     },
     "type": "column",
     "inverted": false,
-    "renderTo": "container-6046"
+    "renderTo": "container-6027"
   },
   "title": {
     "style": {
@@ -167,7 +98,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anzahl Beschäftigte nach Sektor (Vollzeitäquivalente)"
+    "text": "Durchschnittlicher Wohnflächenverbrauch pro Kopf"
   },
   "subtitle": {
     "style": {
@@ -176,13 +107,12 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": " in m\u003Csup\u003E2\u003C\u002Fsup\u003E",
     "align": "left"
   },
   "tooltip": {
-    "shared": true,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E"
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
     "min": 0,
@@ -198,7 +128,8 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "format": "{value:,.0f}"
     }
   },
   "credits": {
@@ -213,31 +144,28 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: "
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
   },
   "legend": {
-    "enabled": true,
+    "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
-    "y": 25,
-    "width": 200,
+    "x": 35,
+    "y": 35,
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 0,
-      "pointWidth": 30,
-      "stacking": "normal"
+      "pointWidth": 30
     }
   },
   "exporting": {
-    "filename": "I.03.2.06046"
+    "filename": "I.09.1.06027"
   }
 }
