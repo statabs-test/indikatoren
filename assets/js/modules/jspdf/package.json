@@ -2,18 +2,18 @@
   "_args": [
     [
       {
-        "raw": "jspdf",
+        "raw": "jspdf@1.3.5",
         "scope": null,
         "escapedName": "jspdf",
         "name": "jspdf",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
+        "rawSpec": "1.3.5",
+        "spec": "1.3.5",
+        "type": "version"
       },
       "/home/ubuntu/workspace"
     ]
   ],
-  "_from": "jspdf@latest",
+  "_from": "jspdf@1.3.5",
   "_id": "jspdf@1.3.5",
   "_inCache": true,
   "_location": "/jspdf",
@@ -29,13 +29,13 @@
   "_npmVersion": "5.3.0",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "jspdf",
+    "raw": "jspdf@1.3.5",
     "scope": null,
     "escapedName": "jspdf",
     "name": "jspdf",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
+    "rawSpec": "1.3.5",
+    "spec": "1.3.5",
+    "type": "version"
   },
   "_requiredBy": [
     "#USER",
@@ -44,7 +44,7 @@
   "_resolved": "https://registry.npmjs.org/jspdf/-/jspdf-1.3.5.tgz",
   "_shasum": "e8c9d96fe1c1f152fce430f41d5ec66f17e10f19",
   "_shrinkwrap": null,
-  "_spec": "jspdf",
+  "_spec": "jspdf@1.3.5",
   "_where": "/home/ubuntu/workspace",
   "bugs": {
     "url": "https://github.com/MrRio/jsPDF/issues"

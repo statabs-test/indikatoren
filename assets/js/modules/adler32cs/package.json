@@ -10,7 +10,7 @@
         "spec": "0.0.1",
         "type": "version"
       },
-      "/home/ubuntu/workspace/node_modules/jspdf"
+      "/home/ubuntu/workspace/node_modules/html2pdf.js/node_modules/jspdf"
     ]
   ],
   "_from": "adler32cs@0.0.1",
@@ -38,13 +38,13 @@
     "type": "version"
   },
   "_requiredBy": [
-    "/jspdf"
+    "/html2pdf.js/jspdf"
   ],
   "_resolved": "https://registry.npmjs.org/adler32cs/-/adler32cs-0.0.1.tgz",
   "_shasum": "9e29cd8087564d7055209ced1206a58d22e778eb",
   "_shrinkwrap": null,
   "_spec": "adler32cs@0.0.1",
-  "_where": "/home/ubuntu/workspace/node_modules/jspdf",
+  "_where": "/home/ubuntu/workspace/node_modules/html2pdf.js/node_modules/jspdf",
   "author": {
     "name": "chick307",
     "email": "chick307@gmail.com"
