@@ -30,7 +30,7 @@
           39842
         ]
       ],
-      "name": "M�nner Vollzeit",
+      "name": "Männer Vollzeit",
       "turboThreshold": 0
     },
     {
@@ -63,7 +63,7 @@
           9070
         ]
       ],
-      "name": "M�nner Teilzeit",
+      "name": "Männer Teilzeit",
       "turboThreshold": 0
     },
     {
@@ -338,6 +338,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.03.1.06056"
+    "filename": 6056
   }
 }

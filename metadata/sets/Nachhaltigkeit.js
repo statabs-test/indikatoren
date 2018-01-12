@@ -36,6 +36,42 @@ var indikatorensetData = [
 		"id": 2917
 	},
 	{
+		"title": "Wohnbevölkerung am Jahresende nach Staatsangehörigkeit (Schweiz/Ausland)",
+		"subtitle": "",
+		"kuerzel": "I.01.1.05137",
+		"kuerzelKunde": "BE5",
+		"description": "Wohnbevölkerung am Jahresende nach Staatsangehörigkeit (Schweiz/Ausland)",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur ",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-03-13T16:59:13.1313",
+		"schlagwort": [
+			"Bevölkerung"
+		],
+		"stufe1": "Strategie 4",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die schweizerische Bevölkerung nahm von 1997 bis 2016 von gut 142 000 auf etwa 127 000 Personen ab. Dies entspricht einem Rückgang um rund 10%. Die ausländische Bevölkerung nahm im gleichen Zeitraum von knapp 52 000 auf leicht unter 71 000 Personen zu, was einem Zuwachs um 36% gleichkommt.",
+		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister.",
+		"template": "template001",
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": 5809,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5137
+	},
+	{
 		"title": "Vertretung der Anliegen der Bevölkerung durch Behörden",
 		"subtitle": "«Wie gut vertreten die Behörden, also der Regierungsrat und der Grosse Rat, die Anliegen der Bevölkerung?»",
 		"kuerzel": "I.50.1.05138",
@@ -696,7 +732,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Im Schuljahr 2014/2015 waren 9% der Knaben im ersten Kindergartenjahr übergewichtig. Alternative Interpretation: 9% der Knaben im ersten Kindergartenjahr hatten einen BMI-Wert, der über dem Referenzwert (für ihr Alter und Geschlecht) für Übergewicht lag.",
 		"erlaeuterungen": "Die Daten werden im Rahmen der schulärztlichen Untersuchunen erhoben und nur für die dargestellten Schulstufen. Die BMI-Referenzwerte für Übergewicht variiren nach Alter und Geschlecht und werden von Zeit zu Zeit neu erhoben. Damit die Anteile vergleichbar bleiben werden stets dieselben Referenzwerte nach Tim J Cole (BMJ Vol. 320, 5/2000) verwendet.",
-		"template": "dotplot",
+		"template": "template001",
 		"orderKey": "03_02_00_00_00_000",
 		"parentId": null,
 		"children": [],

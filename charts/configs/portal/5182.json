@@ -6,6 +6,179 @@
       "data": [
         [
           1980,
+          5
+        ],
+        [
+          1990,
+          6
+        ],
+        [
+          2000,
+          9
+        ],
+        [
+          2010,
+          9
+        ],
+        [
+          2011,
+          7
+        ],
+        [
+          2012,
+          11
+        ],
+        [
+          2013,
+          8
+        ],
+        [
+          2014,
+          9
+        ],
+        [
+          2015,
+          9
+        ]
+      ],
+      "name": "1. Kl. schw. Knaben"
+    },
+    {
+      "color": "#E64900",
+      "legendIndex": 1,
+      "data": [
+        [
+          1980,
+          8
+        ],
+        [
+          1990,
+          8
+        ],
+        [
+          2000,
+          13
+        ],
+        [
+          2010,
+          11
+        ],
+        [
+          2011,
+          10
+        ],
+        [
+          2012,
+          12
+        ],
+        [
+          2013,
+          14
+        ],
+        [
+          2014,
+          11
+        ],
+        [
+          2015,
+          12
+        ]
+      ],
+      "name": "1. Kl. schw. Mädchen"
+    },
+    {
+      "color": "#2B0099",
+      "legendIndex": 2,
+      "data": [
+        [
+          1980,
+          13
+        ],
+        [
+          1990,
+          15
+        ],
+        [
+          2000,
+          16
+        ],
+        [
+          2010,
+          16
+        ],
+        [
+          2011,
+          17
+        ],
+        [
+          2012,
+          19
+        ],
+        [
+          2013,
+          16
+        ],
+        [
+          2014,
+          14
+        ],
+        [
+          2015,
+          14
+        ]
+      ],
+      "name": "1. Kl. ausl. Knaben"
+    },
+    {
+      "color": "#008AC3",
+      "legendIndex": 4,
+      "data": [
+        [
+          1980,
+          23
+        ],
+        [
+          1990,
+          17
+        ],
+        [
+          2000,
+          20
+        ],
+        [
+          2010,
+          16
+        ],
+        [
+          2011,
+          20
+        ],
+        [
+          2012,
+          20
+        ],
+        [
+          2013,
+          18
+        ],
+        [
+          2014,
+          18
+        ],
+        [
+          2015,
+          19
+        ]
+      ],
+      "name": "1. Kl. ausl. Mädchen"
+    },
+    {
+      "color": "#007A2F",
+      "legendIndex": 4,
+      "visible": false,
+      "data": [
+        [
+          1980,
           9
         ],
         [
@@ -41,11 +214,12 @@
           18
         ]
       ],
-      "name": "3. Klasse schw. Knaben"
+      "name": "3. Kl. schw. Knaben"
     },
     {
-      "color": "#E64900",
-      "legendIndex": 1,
+      "color": "#68AB2B",
+      "legendIndex": 5,
+      "visible": false,
       "data": [
         [
           1980,
@@ -84,11 +258,12 @@
           21
         ]
       ],
-      "name": "3. Klasse schw. Mädchen"
+      "name": "3. Kl. schw. Mädchen"
     },
     {
-      "color": "#2B0099",
-      "legendIndex": 2,
+      "color": "#923F8D",
+      "legendIndex": 6,
+      "visible": false,
       "data": [
         [
           1980,
@@ -127,11 +302,12 @@
           31
         ]
       ],
-      "name": "3. Klasse ausl. Knaben"
+      "name": "3. Kl. ausl. Knaben"
     },
     {
-      "color": "#008AC3",
-      "legendIndex": 4,
+      "color": "#B375AB",
+      "legendIndex": 7,
+      "visible": false,
       "data": [
         [
           1980,
@@ -170,219 +346,57 @@
           30
         ]
       ],
-      "name": "3. Klasse ausl. Mädchen"
-    },
-    {
-      "color": "#007A2F",
-      "legendIndex": 4,
-      "visible": false,
-      "data": [
-        [
-          1980,
-          7
-        ],
-        [
-          1990,
-          13
-        ],
-        [
-          2000,
-          18
-        ],
-        [
-          2010,
-          24
-        ],
-        [
-          2011,
-          28
-        ],
-        [
-          2012,
-          24
-        ],
-        [
-          2013,
-          27
-        ],
-        [
-          2014,
-          25
-        ],
-        [
-          2015,
-          23
-        ]
-      ],
-      "name": "9. Klasse schw. Knaben"
-    },
-    {
-      "color": "#68AB2B",
-      "legendIndex": 5,
-      "visible": false,
-      "data": [
-        [
-          1980,
-          10
-        ],
-        [
-          1990,
-          8
-        ],
-        [
-          2000,
-          14
-        ],
-        [
-          2010,
-          17
-        ],
-        [
-          2011,
-          18
-        ],
-        [
-          2012,
-          22
-        ],
-        [
-          2013,
-          21
-        ],
-        [
-          2014,
-          18
-        ],
-        [
-          2015,
-          18
-        ]
-      ],
-      "name": "9. Klasse schw. Mädchen"
-    },
-    {
-      "color": "#923F8D",
-      "legendIndex": 6,
-      "visible": false,
-      "data": [
-        [
-          1980,
-          11
-        ],
-        [
-          1990,
-          21
-        ],
-        [
-          2000,
-          29
-        ],
-        [
-          2010,
-          36
-        ],
-        [
-          2011,
-          39
-        ],
-        [
-          2012,
-          42
-        ],
-        [
-          2013,
-          44
-        ],
-        [
-          2014,
-          32
-        ],
-        [
-          2015,
-          33
-        ]
-      ],
-      "name": "9. Klasse ausl. Knaben"
-    },
-    {
-      "color": "#B375AB",
-      "legendIndex": 7,
-      "visible": false,
-      "data": [
-        [
-          1980,
-          9
-        ],
-        [
-          1990,
-          24
-        ],
-        [
-          2000,
-          24
-        ],
-        [
-          2010,
-          34
-        ],
-        [
-          2011,
-          29
-        ],
-        [
-          2012,
-          22
-        ],
-        [
-          2013,
-          30
-        ],
-        [
-          2014,
-          33
-        ],
-        [
-          2015,
-          24
-        ]
-      ],
-      "name": "9. Klasse ausl. Mädchen"
+      "name": "3. Kl. ausl. Mädchen"
     }
   ],
   "chart": {
-    "events": {
-      "load": function () {
-                  this.credits.element.onclick = function() {};
-                  //for top-left legends with no x defined: move legend to x position of first yAxis
-                  if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                    this.update(
-                      {
-                        legend: {
-                          x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                        }
-                      }
-                    );
-                  }              
-                }
-    },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 415,
-    "spacingBottom": 45,
+    "spacingBottom": 30,
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
     "type": "scatter",
-    "inverted": true,
     "renderTo": "container-5182"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    },
+    "scatter": {
+      "marker": {
+        "symbol": "circle"
+      }
+    }
   },
   "title": {
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
-      "fontFamily": "Arial",
       "color": "#000000"
     },
     "align": "left",
@@ -398,26 +412,21 @@
     "text": "in %",
     "align": "left"
   },
-  "plotOptions": {
-    "series": {
-      "dataLabels": {
-        "x": 5,
-        "align": "left",
-        "verticalAlign": "middle",
-        "enabled": false,
-        "style": {
-          "fontSize": "10px"
-        },
-        "formatter": function (){
-                        return Highcharts.numberFormat((this.y*100),1)+'%';                
-                    }
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
       }
     },
-    "scatter": {
-      "marker": {
-        "symbol": "circle"
+    "labels": {
+      "style": {
+        "color": "#000000"
       }
-    }
+    },
+    "tickLength": 0
   },
   "yAxis": {
     "gridLineColor": "#B9CFD7",
@@ -431,34 +440,17 @@
       "text": null
     },
     "labels": {
-      "formatter": function (){
-                    return Highcharts.numberFormat((this.value*100),0)+'%';                
-                },
       "style": {
         "color": "#000000"
       },
       "format": "{value:,.0f}%"
-    },
-    "min": 0
+    }
   },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "fontSize": "10px"
-      }
-    },
-    "tickLength": 0,
-    "tickInterval": 1,
-    "type": "category",
-    "uniqueNames": true
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
   },
   "credits": {
     "enabled": true,
@@ -476,8 +468,8 @@
     "text": "Quelle: Gesundheitsdepartement Basel-Stadt, Kinder- und Jugendgesundheitsdienst"
   },
   "legend": {
-    "enabled": true,
     "symbolRadius": 0,
+    "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
@@ -489,20 +481,10 @@
     }
   },
   "tooltip": {
-    "formatter": function (args){
-                var this_point_index = this.series.data.indexOf(this.point);
-                var other_series_index = this.series.index == 0 ? 1 : 0; // assuming 2 series
-                var other_series = args.chart.series[other_series_index];
-                var other_point = other_series.data[this_point_index];
-                return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-                    this.point.name +': <b>' + Highcharts.numberFormat((this.y*100),1) + '%</b><br/>' + 
-                    'Rang <b>' + other_point.y + '</b>';
-            },
-    "shared": true,
     "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": "I.14.1.05182"
+    "filename": 5182
   }
 }

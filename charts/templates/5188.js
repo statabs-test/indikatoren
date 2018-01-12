@@ -4,14 +4,15 @@
     "marginBottom": 75
   },
   "yAxis": {
-    "tickInterval": 50,
+    //"tickInterval": 50,
     "min": 0,
     "labels": {
       "format": "{value:,.0f}",
     },
   },
   "xAxis": {
-    "type": "category"
+    "type": "category",
+    tickInterval: 2,
   }, 
   "series": [
     {

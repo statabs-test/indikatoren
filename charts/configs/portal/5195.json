@@ -171,6 +171,7 @@
     {
       "color": "#923f8d",
       "index": 4,
+      "visible": false,
       "data": [
         [
           2006,
@@ -282,7 +283,7 @@
     {
       "color": "#8A8A8A",
       "index": 0,
-      "visible": false,
+      "visible": true,
       "data": [
         [
           2006,
@@ -333,7 +334,7 @@
           546
         ]
       ],
-      "name": "Anzahl leere Wohnungen"
+      "name": "Leerwohnungen total"
     },
     {
       "color": "#b00000",
@@ -393,7 +394,7 @@
           0.500366569
         ]
       ],
-      "name": "LWQ alle Wohnungen (rechte Skala)"
+      "name": "LWQ total (rechte Skala)"
     },
     {
       "color": "#ffbb58",
@@ -586,6 +587,7 @@
       "marker": {
         "enabled": false
       },
+      "visible": false,
       "data": [
         [
           2006,
@@ -859,6 +861,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.09.2.05195"
+    "filename": 5195
   }
 }

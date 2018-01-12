@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.0.4
   </desc>
   <defs>
     <clipPath>
@@ -56,7 +56,7 @@
     <path fill="none" class="highcharts-axis-line" d="M 200 549 L 446 549"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(446,549) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series " transform="translate(446,549) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
       <rect x="478" y="0" width="10" height="17" fill="#C8C8C8" class="highcharts-point"/>
       <rect x="457" y="0" width="10" height="17" fill="#C8C8C8" class="highcharts-point"/>
       <rect x="435" y="0" width="10" height="17" fill="#C8C8C8" class="highcharts-point"/>
@@ -81,8 +81,8 @@
       <rect x="27" y="0" width="10" height="17" fill="#C8C8C8" class="highcharts-point"/>
       <rect x="6" y="0" width="10" height="17" fill="#C8C8C8" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(446,549) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(446,549) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series " transform="translate(446,549) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-column-series " transform="translate(446,549) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
       <rect x="478" y="17" width="10" height="33" fill="#CD9C00" class="highcharts-point"/>
       <rect x="457" y="17" width="10" height="33" fill="#CD9C00" class="highcharts-point"/>
       <rect x="435" y="17" width="10" height="33" fill="#CD9C00" class="highcharts-point"/>
@@ -107,8 +107,8 @@
       <rect x="27" y="17" width="10" height="33" fill="#CD9C00" class="highcharts-point"/>
       <rect x="6" y="17" width="10" height="33" fill="#CD9C00" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(446,549) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(446,549) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-1 highcharts-column-series " transform="translate(446,549) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-2 highcharts-column-series " transform="translate(446,549) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
       <rect x="478" y="50" width="10" height="49" fill="#FABD24" class="highcharts-point"/>
       <rect x="457" y="50" width="10" height="49" fill="#FABD24" class="highcharts-point"/>
       <rect x="435" y="50" width="10" height="49" fill="#FABD24" class="highcharts-point"/>
@@ -133,8 +133,8 @@
       <rect x="27" y="50" width="10" height="49" fill="#FABD24" class="highcharts-point"/>
       <rect x="6" y="50" width="10" height="49" fill="#FABD24" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(446,549) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(446,549) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-2 highcharts-column-series " transform="translate(446,549) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-3 highcharts-column-series " transform="translate(446,549) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
       <rect x="478" y="99" width="10" height="66" fill="#73B97C" class="highcharts-point"/>
       <rect x="457" y="99" width="10" height="66" fill="#73B97C" class="highcharts-point"/>
       <rect x="435" y="99" width="10" height="66" fill="#73B97C" class="highcharts-point"/>
@@ -159,8 +159,8 @@
       <rect x="27" y="99" width="10" height="66" fill="#73B97C" class="highcharts-point"/>
       <rect x="6" y="99" width="10" height="66" fill="#73B97C" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(446,549) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined " transform="translate(446,549) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-3 highcharts-column-series " transform="translate(446,549) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-4 highcharts-column-series " transform="translate(446,549) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
       <rect x="478" y="165" width="10" height="82" fill="#007A2F" class="highcharts-point"/>
       <rect x="457" y="165" width="10" height="82" fill="#007A2F" class="highcharts-point"/>
       <rect x="435" y="165" width="10" height="82" fill="#007A2F" class="highcharts-point"/>
@@ -185,7 +185,7 @@
       <rect x="27" y="165" width="10" height="82" fill="#007A2F" class="highcharts-point"/>
       <rect x="6" y="165" width="10" height="82" fill="#007A2F" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-4 highcharts-column-series highcharts-color-undefined " transform="translate(446,549) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-4 highcharts-column-series " transform="translate(446,549) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Zufriedenheit mit verschiedenen Aspekten und Angeboten am Wohnort</tspan>
@@ -231,74 +231,74 @@
     </g>
   </g>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
-    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="70" opacity="1">
-      <tspan>Parkplätze (n=150)</tspan>
+    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="63" opacity="1">
+      <tspan>Parkplätze</tspan><tspan dy="14" x="10">(n=150)</tspan><title>Parkplätze (n=150)</title>
     </text>
-    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="92" opacity="1">
-      <tspan>Wohnungsangebot (n=150)</tspan>
+    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="85" opacity="1">
+      <tspan>Wohnungsangebot</tspan><tspan dy="14" x="10">(n=150)</tspan><title>Wohnungsangebot (n=150)</title>
     </text>
-    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="113" opacity="1">
-      <tspan>Kinderbetreuung (n=150)</tspan>
+    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="106" opacity="1">
+      <tspan>Kinderbetreuung</tspan><tspan dy="14" x="10">(n=150)</tspan><title>Kinderbetreuung (n=150)</title>
     </text>
-    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="135" opacity="1">
-      <tspan>Jugendeinrichtungen (n=150)</tspan>
+    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="128" opacity="1">
+      <tspan>Jugendeinrichtungen</tspan><tspan dy="14" x="10">(n=150)</tspan><title>Jugendeinrichtungen (n=150)</title>
     </text>
-    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="156" opacity="1">
-      <tspan>Behinderteneinrichtungen (n=150)</tspan>
+    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="149" opacity="1">
+      <tspan>Behinderteneinrichtungen</tspan><tspan dy="14" x="10">(n=150)</tspan><title>Behinderteneinrichtungen (n=150)</title>
     </text>
-    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="178" opacity="1">
-      <tspan>Arbeitsplatzangebot (n=150)</tspan>
+    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="171" opacity="1">
+      <tspan>Arbeitsplatzangebot</tspan><tspan dy="14" x="10">(n=150)</tspan><title>Arbeitsplatzangebot (n=150)</title>
     </text>
-    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="199" opacity="1">
-      <tspan>Schule, Bildung (n=150)</tspan>
+    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="185" opacity="1">
+      <tspan>Schule,</tspan><tspan dy="14" x="10">Bildung</tspan><tspan dy="14" x="10">(n=150)</tspan><title>Schule, Bildung (n=150)</title>
     </text>
-    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="221" opacity="1">
-      <tspan>Senioreneinrichtungen (n=150)</tspan>
+    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="214" opacity="1">
+      <tspan>Senioreneinrichtungen</tspan><tspan dy="14" x="10">(n=150)</tspan><title>Senioreneinrichtungen (n=150)</title>
     </text>
-    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="242" opacity="1">
-      <tspan>Sauberkeit (n=150)</tspan>
+    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="235" opacity="1">
+      <tspan>Sauberkeit</tspan><tspan dy="14" x="10">(n=150)</tspan><title>Sauberkeit (n=150)</title>
     </text>
-    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="264" opacity="1">
-      <tspan>Öffentliche Sicherheit (n=150)</tspan>
+    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="250" opacity="1">
+      <tspan>Öffentliche</tspan><tspan dy="14" x="10">Sicherheit</tspan><tspan dy="14" x="10">(n=150)</tspan><title>Öffentliche Sicherheit (n=150)</title>
     </text>
-    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="285" opacity="1">
-      <tspan>Lärmsituation (n=150)</tspan>
+    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="278" opacity="1">
+      <tspan>Lärmsituation</tspan><tspan dy="14" x="10">(n=150)</tspan><title>Lärmsituation (n=150)</title>
     </text>
-    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="307" opacity="1">
-      <tspan>Luftqualität (n=150)</tspan>
+    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="300" opacity="1">
+      <tspan>Luftqualität</tspan><tspan dy="14" x="10">(n=150)</tspan><title>Luftqualität (n=150)</title>
     </text>
-    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="328" opacity="1">
-      <tspan>Bevölkerung (n=150)</tspan>
+    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="321" opacity="1">
+      <tspan>Bevölkerung</tspan><tspan dy="14" x="10">(n=150)</tspan><title>Bevölkerung (n=150)</title>
     </text>
-    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="349" opacity="1">
-      <tspan>Quartierleben (n=150)</tspan>
+    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="342" opacity="1">
+      <tspan>Quartierleben</tspan><tspan dy="14" x="10">(n=150)</tspan><title>Quartierleben (n=150)</title>
     </text>
-    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="371" opacity="1">
-      <tspan>Gebäude/Strassenbild (n=150)</tspan>
+    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="364" opacity="1">
+      <tspan>Gebäude/Strassenbild</tspan><tspan dy="14" x="10">(n=150)</tspan><title>Gebäude/Strassenbild (n=150)</title>
     </text>
-    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="392" opacity="1">
-      <tspan>Verkehrssicherheit (n=150)</tspan>
+    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="385" opacity="1">
+      <tspan>Verkehrssicherheit</tspan><tspan dy="14" x="10">(n=150)</tspan><title>Verkehrssicherheit (n=150)</title>
     </text>
-    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="414" opacity="1">
-      <tspan>Einkaufsmögl. im Quartier (n=150)</tspan>
+    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="400" opacity="1">
+      <tspan>Einkaufsmögl.</tspan><tspan dy="14" x="10">im Quartier</tspan><tspan dy="14" x="10">(n=150)</tspan><title>Einkaufsmögl. im Quartier (n=150)</title>
     </text>
-    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="435" opacity="1">
-      <tspan>Kulturangebot (n=150)</tspan>
+    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="428" opacity="1">
+      <tspan>Kulturangebot</tspan><tspan dy="14" x="10">(n=150)</tspan><title>Kulturangebot (n=150)</title>
     </text>
-    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="457" opacity="1">
-      <tspan>Grünanlagen (n=150)</tspan>
+    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="450" opacity="1">
+      <tspan>Grünanlagen</tspan><tspan dy="14" x="10">(n=150)</tspan><title>Grünanlagen (n=150)</title>
     </text>
-    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="478" opacity="1">
-      <tspan>Abfallbeseitigung (n=150)</tspan>
+    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="471" opacity="1">
+      <tspan>Abfallbeseitigung</tspan><tspan dy="14" x="10">(n=150)</tspan><title>Abfallbeseitigung (n=150)</title>
     </text>
-    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="500" opacity="1">
-      <tspan>Gesundheitsversorgung (n=150)</tspan>
+    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="493" opacity="1">
+      <tspan>Gesundheitsversorgung</tspan><tspan dy="14" x="10">(n=150)</tspan><title>Gesundheitsversorgung (n=150)</title>
     </text>
-    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="521" opacity="1">
-      <tspan>ÖV-Angebot (n=150)</tspan>
+    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="507" opacity="1">
+      <tspan>ÖV-</tspan><tspan dy="14" x="10">Angebot</tspan><tspan dy="14" x="10">(n=150)</tspan><title>ÖV-Angebot (n=150)</title>
     </text>
-    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="543" opacity="1">
-      <tspan>Einkaufsmögl. in Basel (n=150)</tspan>
+    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="529" opacity="1">
+      <tspan>Einkaufsmögl.</tspan><tspan dy="14" x="10">in Basel</tspan><tspan dy="14" x="10">(n=150)</tspan><title>Einkaufsmögl. in Basel (n=150)</title>
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">

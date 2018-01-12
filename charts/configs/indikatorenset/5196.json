@@ -174,7 +174,7 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 1
+    "tickInterval": 2
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -217,6 +217,6 @@
     }
   },
   "exporting": {
-    "filename": "I.09.3.05196"
+    "filename": 5196
   }
 }

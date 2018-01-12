@@ -598,7 +598,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "y": 15,
+    "y": 45,
     "itemMarginBottom": 5,
     "itemWidth": 200,
     "itemStyle": {
@@ -610,6 +610,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.01.5.05155"
+    "filename": 5155
   }
 }

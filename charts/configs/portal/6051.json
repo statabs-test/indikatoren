@@ -557,7 +557,7 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 1
+    "tickInterval": 5
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -588,6 +588,6 @@
     }
   },
   "exporting": {
-    "filename": "I.04.2.06051"
+    "filename": 6051
   }
 }

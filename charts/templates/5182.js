@@ -58,6 +58,18 @@
     {
       "color": "#B375AB", legendIndex: 7,"visible": false//hellviolett
     },
+         {
+      "color": "#7F5F1A", legendIndex: 8, "visible": false// dunkelgelb 
+    },
+    {
+      "color": "#FFDA80", legendIndex: 9, "visible": false// hellgelb 
+    },
+    {
+      "color": "#999999", legendIndex: 10, "visible": false//schwarz 
+    },
+    {
+    "color": "#3C3C3C", legendIndex: 11, "visible": false// grau
+    },
   ],
   "chart": {
   	 type: 'scatter',

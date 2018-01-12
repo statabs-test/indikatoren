@@ -333,7 +333,7 @@
           546
         ]
       ],
-      "name": "Leerwohnungen total"
+      "name": "Anzahl leere Wohnungen"
     },
     {
       "color": "#b00000",
@@ -393,7 +393,7 @@
           0.500366569
         ]
       ],
-      "name": "LWQ total (rechte Skala)"
+      "name": "LWQ alle Wohnungen (rechte Skala)"
     },
     {
       "color": "#ffbb58",
@@ -851,7 +851,7 @@
     "align": "right",
     "itemStyle": {
       "fontWeight": "normal",
-      "width": 95
+      "width": 85
     }
   },
   "tooltip": {

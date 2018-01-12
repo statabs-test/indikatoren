@@ -43,7 +43,7 @@ global Highcharts
     "verticalAlign": "top",
     "align": "left",
     //"width": 50,
-	  "y": 15,
+	  "y": 45,
     "itemMarginBottom": 5,
     itemWidth: 200,
     "itemStyle": {
