@@ -56,53 +56,33 @@
     }
   ],
   "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
     "width": 485,
     "height": 415,
-    "spacingBottom": 30,
+    "spacingBottom": 45,
     "style": {
       "fontFamily": "Arial"
     },
-    "zoomType": "xy",
-    "events": {
-      "load": function (){
-            this.credits.element.onclick = function() {};
-              
-            //for top-left legends with no x defined: move legend to x position of first yAxis
-            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-              this.update(
-                {
-                  legend: {
-                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                  }
-                }
-              );
-            }
-          }
-    },
+    "type": "line",
     "renderTo": "container-2917"
-  },
-  "plotOptions": {
-    "series": {
-      "borderWidth": 0,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        },
-        "enabled": true,
-        "allowOverlap": true,
-        "y": 30,
-        "formatter": function () {
-            var last = this.series.data[this.series.data.length - 1];
-            var first = this.series.data[0];
-            if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {
-              return Highcharts.numberFormat(this.point.y, 0, ",", " ");
-            }
-            return "";
-          }
-      }
-    }
   },
   "title": {
     "style": {
@@ -123,27 +103,14 @@
     "text": "",
     "align": "left"
   },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "tickLength": 0,
-    "tickInterval": 1
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
+    "min": 0,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
-    "lineColor": "#B9CFD7",
     "title": {
       "style": {
         "color": "#000000",
@@ -158,13 +125,19 @@
       "format": "{value:,.0f}"
     }
   },
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
-    }
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
   },
   "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
     "style": {
       "color": "#000000",
@@ -180,11 +153,28 @@
     "text": "Quelle: Amt für Sozialbeiträge, Abteilung Prämienverbilligungen und Familienmietzinsbeiträge"
   },
   "legend": {
+    "enabled": false,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
     "symbolRadius": 0
   },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "enabled": true,
+        "allowOverlap": true,
+        "y": 30,
+        "formatter": function () {
+            var last = this.series.data[this.series.data.length - 1];
+            var first = this.series.data[0];
+            if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {
+              return Highcharts.numberFormat(this.point.y, 0, ",", " ");
+            }
+            return "";
+          }
+      }
+    }
   },
   "exporting": {
     "filename": "I.13.2.02917"

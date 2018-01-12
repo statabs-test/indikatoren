@@ -60,32 +60,32 @@
   </g>
   <g class="highcharts-series-group">
     <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(43,55) scale(1 1)" clip-path="url(#a)">
-      <rect x="3.5" y="-0.5" width="8" height="294" fill="#69929B" stroke="#ffffff" stroke-width="1" class="highcharts-point highcharts-color-0"/>
-      <rect x="20.5" y="10.5" width="8" height="283" fill="#69929B" stroke="#ffffff" stroke-width="1" class="highcharts-point highcharts-color-1"/>
-      <rect x="37.5" y="34.5" width="8" height="259" fill="#B00000" stroke="#ffffff" stroke-width="1" class="highcharts-point highcharts-color-2"/>
-      <rect x="53.5" y="52.5" width="8" height="241" fill="#69929B" stroke="#ffffff" stroke-width="1" class="highcharts-point highcharts-color-3"/>
-      <rect x="70.5" y="61.5" width="8" height="232" fill="#69929B" stroke="#ffffff" stroke-width="1" class="highcharts-point highcharts-color-4"/>
-      <rect x="86.5" y="66.5" width="8" height="227" fill="#69929B" stroke="#ffffff" stroke-width="1" class="highcharts-point highcharts-color-5"/>
-      <rect x="103.5" y="68.5" width="8" height="225" fill="#69929B" stroke="#ffffff" stroke-width="1" class="highcharts-point highcharts-color-6"/>
-      <rect x="120.5" y="71.5" width="8" height="222" fill="#69929B" stroke="#ffffff" stroke-width="1" class="highcharts-point highcharts-color-7"/>
-      <rect x="136.5" y="80.5" width="8" height="213" fill="#69929B" stroke="#ffffff" stroke-width="1" class="highcharts-point highcharts-color-8"/>
-      <rect x="153.5" y="87.5" width="8" height="206" fill="#69929B" stroke="#ffffff" stroke-width="1" class="highcharts-point highcharts-color-9"/>
-      <rect x="169.5" y="99.5" width="8" height="194" fill="#69929B" stroke="#ffffff" stroke-width="1" class="highcharts-point highcharts-color-10"/>
-      <rect x="186.5" y="103.5" width="8" height="190" fill="#69929B" stroke="#ffffff" stroke-width="1" class="highcharts-point highcharts-color-11"/>
-      <rect x="203.5" y="106.5" width="8" height="187" fill="#69929B" stroke="#ffffff" stroke-width="1" class="highcharts-point highcharts-color-12"/>
-      <rect x="219.5" y="106.5" width="8" height="187" fill="#69929B" stroke="#ffffff" stroke-width="1" class="highcharts-point highcharts-color-13"/>
-      <rect x="236.5" y="108.5" width="8" height="185" fill="#69929B" stroke="#ffffff" stroke-width="1" class="highcharts-point highcharts-color-14"/>
-      <rect x="253.5" y="109.5" width="8" height="184" fill="#69929B" stroke="#ffffff" stroke-width="1" class="highcharts-point highcharts-color-15"/>
-      <rect x="269.5" y="115.5" width="8" height="178" fill="#69929B" stroke="#ffffff" stroke-width="1" class="highcharts-point highcharts-color-16"/>
-      <rect x="286.5" y="118.5" width="8" height="175" fill="#69929B" stroke="#ffffff" stroke-width="1" class="highcharts-point highcharts-color-17"/>
-      <rect x="302.5" y="120.5" width="8" height="173" fill="#69929B" stroke="#ffffff" stroke-width="1" class="highcharts-point highcharts-color-18"/>
-      <rect x="319.5" y="130.5" width="8" height="163" fill="#69929B" stroke="#ffffff" stroke-width="1" class="highcharts-point highcharts-color-19"/>
-      <rect x="336.5" y="141.5" width="8" height="152" fill="#69929B" stroke="#ffffff" stroke-width="1" class="highcharts-point highcharts-color-20"/>
-      <rect x="352.5" y="147.5" width="8" height="146" fill="#69929B" stroke="#ffffff" stroke-width="1" class="highcharts-point highcharts-color-21"/>
-      <rect x="369.5" y="167.5" width="8" height="126" fill="#69929B" stroke="#ffffff" stroke-width="1" class="highcharts-point highcharts-color-22"/>
-      <rect x="385.5" y="170.5" width="8" height="123" fill="#69929B" stroke="#ffffff" stroke-width="1" class="highcharts-point highcharts-color-23"/>
-      <rect x="402.5" y="185.5" width="8" height="108" fill="#69929B" stroke="#ffffff" stroke-width="1" class="highcharts-point highcharts-color-24"/>
-      <rect x="419.5" y="187.5" width="8" height="106" fill="#69929B" stroke="#ffffff" stroke-width="1" class="highcharts-point highcharts-color-25"/>
+      <rect x="4" y="0" width="8" height="294" fill="#69929B" class="highcharts-point highcharts-color-0"/>
+      <rect x="21" y="11" width="8" height="283" fill="#69929B" class="highcharts-point highcharts-color-1"/>
+      <rect x="38" y="35" width="8" height="259" fill="#B00000" class="highcharts-point highcharts-color-2"/>
+      <rect x="54" y="53" width="8" height="241" fill="#69929B" class="highcharts-point highcharts-color-3"/>
+      <rect x="71" y="62" width="8" height="232" fill="#69929B" class="highcharts-point highcharts-color-4"/>
+      <rect x="87" y="67" width="8" height="227" fill="#69929B" class="highcharts-point highcharts-color-5"/>
+      <rect x="104" y="69" width="8" height="225" fill="#69929B" class="highcharts-point highcharts-color-6"/>
+      <rect x="121" y="72" width="8" height="222" fill="#69929B" class="highcharts-point highcharts-color-7"/>
+      <rect x="137" y="81" width="8" height="213" fill="#69929B" class="highcharts-point highcharts-color-8"/>
+      <rect x="154" y="88" width="8" height="206" fill="#69929B" class="highcharts-point highcharts-color-9"/>
+      <rect x="170" y="100" width="8" height="194" fill="#69929B" class="highcharts-point highcharts-color-10"/>
+      <rect x="187" y="104" width="8" height="190" fill="#69929B" class="highcharts-point highcharts-color-11"/>
+      <rect x="204" y="107" width="8" height="187" fill="#69929B" class="highcharts-point highcharts-color-12"/>
+      <rect x="220" y="107" width="8" height="187" fill="#69929B" class="highcharts-point highcharts-color-13"/>
+      <rect x="237" y="109" width="8" height="185" fill="#69929B" class="highcharts-point highcharts-color-14"/>
+      <rect x="254" y="110" width="8" height="184" fill="#69929B" class="highcharts-point highcharts-color-15"/>
+      <rect x="270" y="116" width="8" height="178" fill="#69929B" class="highcharts-point highcharts-color-16"/>
+      <rect x="287" y="119" width="8" height="175" fill="#69929B" class="highcharts-point highcharts-color-17"/>
+      <rect x="303" y="121" width="8" height="173" fill="#69929B" class="highcharts-point highcharts-color-18"/>
+      <rect x="320" y="131" width="8" height="163" fill="#69929B" class="highcharts-point highcharts-color-19"/>
+      <rect x="337" y="142" width="8" height="152" fill="#69929B" class="highcharts-point highcharts-color-20"/>
+      <rect x="353" y="148" width="8" height="146" fill="#69929B" class="highcharts-point highcharts-color-21"/>
+      <rect x="370" y="168" width="8" height="126" fill="#69929B" class="highcharts-point highcharts-color-22"/>
+      <rect x="386" y="171" width="8" height="123" fill="#69929B" class="highcharts-point highcharts-color-23"/>
+      <rect x="403" y="186" width="8" height="108" fill="#69929B" class="highcharts-point highcharts-color-24"/>
+      <rect x="420" y="188" width="8" height="106" fill="#69929B" class="highcharts-point highcharts-color-25"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(43,55) scale(1 1)" clip-path="none"/>
   </g>
@@ -93,7 +93,7 @@
     <tspan>Kantonaler Wettbewerbsindikator (KWI)</tspan>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
-    <tspan>Basel-Stadt im kantonalen Vergleich, Stand: 2099</tspan>
+    <tspan>Basel-Stadt im kantonalen Vergleich, Stand: 2016</tspan>
   </text>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
     <text x="54.97435897435897" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 54.97435897435897 360)" y="360" opacity="1">

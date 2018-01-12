@@ -350,53 +350,39 @@
     }
   ],
   "chart": {
+    "events": {
+      "load": function () {
+                  this.credits.element.onclick = function() {};
+                  //for top-left legends with no x defined: move legend to x position of first yAxis
+                  if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                    this.update(
+                      {
+                        legend: {
+                          x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                        }
+                      }
+                    );
+                  }              
+                }
+    },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 415,
-    "spacingBottom": 30,
+    "spacingBottom": 45,
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
-    "events": {
-      "load": function (){
-            this.credits.element.onclick = function() {};
-              
-            //for top-left legends with no x defined: move legend to x position of first yAxis
-            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-              this.update(
-                {
-                  legend: {
-                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                  }
-                }
-              );
-            }
-          }
-    },
     "type": "scatter",
+    "inverted": true,
     "renderTo": "container-5182"
-  },
-  "plotOptions": {
-    "series": {
-      "borderWidth": 0,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      }
-    },
-    "scatter": {
-      "marker": {
-        "symbol": "circle"
-      }
-    }
   },
   "title": {
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
+      "fontFamily": "Arial",
       "color": "#000000"
     },
     "align": "left",
@@ -412,21 +398,26 @@
     "text": "in %",
     "align": "left"
   },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "x": 5,
+        "align": "left",
+        "verticalAlign": "middle",
+        "enabled": false,
+        "style": {
+          "fontSize": "10px"
+        },
+        "formatter": function (){
+                        return Highcharts.numberFormat((this.y*100),1)+'%';                
+                    }
       }
     },
-    "labels": {
-      "style": {
-        "color": "#000000"
+    "scatter": {
+      "marker": {
+        "symbol": "circle"
       }
-    },
-    "tickLength": 0
+    }
   },
   "yAxis": {
     "gridLineColor": "#B9CFD7",
@@ -440,17 +431,34 @@
       "text": null
     },
     "labels": {
+      "formatter": function (){
+                    return Highcharts.numberFormat((this.value*100),0)+'%';                
+                },
       "style": {
         "color": "#000000"
       },
       "format": "{value:,.0f}%"
-    }
+    },
+    "min": 0
   },
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
-    }
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "fontSize": "10px"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1,
+    "type": "category",
+    "uniqueNames": true
   },
   "credits": {
     "enabled": true,
@@ -468,8 +476,8 @@
     "text": "Quelle: Gesundheitsdepartement Basel-Stadt, Kinder- und Jugendgesundheitsdienst"
   },
   "legend": {
-    "symbolRadius": 0,
     "enabled": true,
+    "symbolRadius": 0,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
@@ -481,6 +489,16 @@
     }
   },
   "tooltip": {
+    "formatter": function (args){
+                var this_point_index = this.series.data.indexOf(this.point);
+                var other_series_index = this.series.index == 0 ? 1 : 0; // assuming 2 series
+                var other_series = args.chart.series[other_series_index];
+                var other_point = other_series.data[this_point_index];
+                return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
+                    this.point.name +': <b>' + Highcharts.numberFormat((this.y*100),1) + '%</b><br/>' + 
+                    'Rang <b>' + other_point.y + '</b>';
+            },
+    "shared": true,
     "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },

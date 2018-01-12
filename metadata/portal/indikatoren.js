@@ -7579,7 +7579,7 @@ var indikatoren = [
 			"Bevölkerung",
 			"Staatsangehörigkeit"
 		],
-		"stufe1": "Bevölkerung",
+		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
@@ -7619,7 +7619,7 @@ var indikatoren = [
 			"Bevölkerung",
 			"Staatsangehörigkeit"
 		],
-		"stufe1": "Bevölkerung",
+		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
@@ -7657,7 +7657,7 @@ var indikatoren = [
 			"Alter",
 			"Bevölkerung"
 		],
-		"stufe1": "Bevölkerung",
+		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
@@ -7695,7 +7695,7 @@ var indikatoren = [
 			"Alter",
 			"Bevölkerung"
 		],
-		"stufe1": "Bevölkerung",
+		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
@@ -7733,7 +7733,7 @@ var indikatoren = [
 			"Alter",
 			"Bevölkerung"
 		],
-		"stufe1": "Bevölkerung",
+		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
@@ -7770,7 +7770,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Bevölkerung"
 		],
-		"stufe1": "Bevölkerung",
+		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
@@ -7809,7 +7809,7 @@ var indikatoren = [
 			"Schweiz",
 			"Wanderung"
 		],
-		"stufe1": "Bevölkerung",
+		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
@@ -7848,14 +7848,14 @@ var indikatoren = [
 			"Ausland",
 			"Wanderung"
 		],
-		"stufe1": "Bevölkerung",
+		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "In allen elf Fünfjahresklassen zwischen 0 und 54 Jahren ergabensich bei den zu- und weggezogenen ausländischen Staatsangehörigender Jahre 2006 bis 2015 Wanderungsgewinne. Amdeutlichsten zeigte sich dies bei den Ausländern im Alter zwischen25 und 29 Jahren, bei welchen der Zuzugsüberschuss 7 340 betrug.Kleine Wanderungsverluste zeigen sich in den Altersklassen ab 55Jahren.",
 		"erlaeuterungen": "Im Jahr 2010 einschliesslich rund 1 600 nachträglicher Streichungen (zu Weggezogenen gezählt) im Rahmen der Registerbereinigungen für die Volkszählung. 2015: Provisorische Werte.",
-		"template": "populationPyramid001",
+		"template": "line001",
 		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_000",
 		"parentId": null,
@@ -7886,7 +7886,7 @@ var indikatoren = [
 			"Zufriedenheit",
 			"Bevölkerung"
 		],
-		"stufe1": "Grundbedürfnisse und Wohlergehen",
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Lebensqualität",
 		"stufe3": "",
 		"stufe4": "",
@@ -7925,7 +7925,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Alter"
 		],
-		"stufe1": "Grundbedürfnisse und Wohlergehen",
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
 		"stufe4": "",
@@ -7962,7 +7962,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Alter"
 		],
-		"stufe1": "Grundbedürfnisse und Wohlergehen",
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
 		"stufe4": "",
@@ -8002,14 +8002,14 @@ var indikatoren = [
 			"Alter",
 			"Schule"
 		],
-		"stufe1": "Grundbedürfnisse und Wohlergehen",
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Schuljahr 2014/2015 waren 9% der Knaben im ersten Kindergartenjahr übergewichtig. Alternative Interpretation: 9% der Knaben im ersten Kindergartenjahr hatten einen BMI-Wert, der über dem Referenzwert (für ihr Alter und Geschlecht) für Übergewicht lag.",
 		"erlaeuterungen": "Die Daten werden im Rahmen der schulärztlichen Untersuchunen erhoben und nur für die dargestellten Schulstufen. Die BMI-Referenzwerte für Übergewicht variiren nach Alter und Geschlecht und werden von Zeit zu Zeit neu erhoben. Damit die Anteile vergleichbar bleiben werden stets dieselben Referenzwerte nach Tim J Cole (BMJ Vol. 320, 5/2000) verwendet.",
-		"template": "template001",
+		"template": "dotplot",
 		"visibleInPortal": true,
 		"orderKey": "03_02_00_00_00_000",
 		"parentId": null,
@@ -8041,7 +8041,7 @@ var indikatoren = [
 			"Sicherheit",
 			"Verkehr"
 		],
-		"stufe1": "Grundbedürfnisse und Wohlergehen",
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Sicherheit",
 		"stufe3": "",
 		"stufe4": "",
@@ -8078,7 +8078,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Bildung"
 		],
-		"stufe1": "Grundbedürfnisse und Wohlergehen",
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Bildung",
 		"stufe3": "",
 		"stufe4": "",
@@ -8115,7 +8115,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Wohnen"
 		],
-		"stufe1": "Grundbedürfnisse und Wohlergehen",
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
 		"stufe4": "",
@@ -8153,7 +8153,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Umwelt"
 		],
-		"stufe1": "Grundbedürfnisse und Wohlergehen",
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
 		"stufe4": "",
@@ -8190,7 +8190,7 @@ var indikatoren = [
 		"schlagwort": [
 			""
 		],
-		"stufe1": "Grundbedürfnisse und Wohlergehen",
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Infrastruktur",
 		"stufe3": "",
 		"stufe4": "",
@@ -8346,7 +8346,7 @@ var indikatoren = [
 		"schlagwort": [
 			"Umwelt"
 		],
-		"stufe1": "Natürliche Lebensgrundlagen",
+		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
 		"stufe4": "",
@@ -8366,43 +8366,6 @@ var indikatoren = [
 			""
 		],
 		"id": 5793
-	},
-	{
-		"title": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf; Recyclingquote",
-		"subtitle": "",
-		"kuerzel": "I.09.6.05796",
-		"kuerzelKunde": "NL4",
-		"description": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf; Recyclingquote",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Entsorgung",
-		"kennzahlenset": "Nachhaltigkeit",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Abfall"
-		],
-		"stufe1": "Natürliche Lebensgrundlagen",
-		"stufe2": "Umgang mit Energie und Ressourcen",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Siedlungsabfälle reduzierten sich zwischen dem Jahr 2000 und2014 von ca. 194 auf 165 kg pro Kopf. Die Recyclingquote stieg vonca. 46% auf fast 52%.",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"visibleInPortal": true,
-		"orderKey": "04_01_00_00_00_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Amt für Umwelt und Energie Basel-Stadt"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 5796
 	},
 	{
 		"title": "Waldfläche",
@@ -9356,7 +9319,7 @@ var indikatoren = [
 			"Biodiversität",
 			"Landschaft"
 		],
-		"stufe1": "Natürliche Lebensgrundlagen",
+		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
 		"stufe4": "",
@@ -9398,7 +9361,7 @@ var indikatoren = [
 			"Wohnen",
 			"Wohnung"
 		],
-		"stufe1": "Natürliche Lebensgrundlagen",
+		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
 		"stufe4": "",
@@ -9441,7 +9404,7 @@ var indikatoren = [
 			"ÖV",
 			"Mobilität"
 		],
-		"stufe1": "Natürliche Lebensgrundlagen",
+		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
 		"stufe4": "",
@@ -9482,7 +9445,7 @@ var indikatoren = [
 			"Biodiversität",
 			"Wald"
 		],
-		"stufe1": "Natürliche Lebensgrundlagen",
+		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
 		"stufe4": "",
@@ -9522,7 +9485,7 @@ var indikatoren = [
 			"Arbeit",
 			"Erwerb"
 		],
-		"stufe1": "Gesellschaftlicher Zusammenhalt",
+		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengerechtigkeit",
 		"stufe3": "",
 		"stufe4": "",
@@ -9563,7 +9526,7 @@ var indikatoren = [
 			"Bildung",
 			"Erwerb"
 		],
-		"stufe1": "Gesellschaftlicher Zusammenhalt",
+		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengerechtigkeit",
 		"stufe3": "",
 		"stufe4": "",
@@ -9603,7 +9566,7 @@ var indikatoren = [
 			"Hilfeleistung",
 			"Beschäftigte"
 		],
-		"stufe1": "Gesellschaftlicher Zusammenhalt",
+		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Gesellschaftliche Verantwortung",
 		"stufe3": "",
 		"stufe4": "",
@@ -9642,14 +9605,14 @@ var indikatoren = [
 			"Erwerbstätigkeit",
 			"Branche"
 		],
-		"stufe1": "Wirtschaftliche Entfaltung",
+		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Basel-Stadt zählte im Jahr 2013 rund 150 000 Beschäftigte (inVollzeitäquivalenten). Dies entspricht einer Zunahme um 12,1%gegenüber 2005. Im Jahr 2013 waren 22,2% im sekundären Sektorund 77,7% im Dienstleistersektor tätig.",
 		"erlaeuterungen": "",
-		"template": "line001",
+		"template": "template001",
 		"visibleInPortal": true,
 		"orderKey": "06_01_00_00_00_000",
 		"parentId": null,
@@ -9680,7 +9643,7 @@ var indikatoren = [
 			"BIP",
 			"Branche"
 		],
-		"stufe1": "Wirtschaftliche Entfaltung",
+		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
 		"stufe4": "",
@@ -9718,7 +9681,7 @@ var indikatoren = [
 			"Arbeit",
 			"BIP"
 		],
-		"stufe1": "Wirtschaftliche Entfaltung",
+		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
 		"stufe4": "",
@@ -9759,7 +9722,7 @@ var indikatoren = [
 			"Arbeit",
 			"Erwerb"
 		],
-		"stufe1": "Wirtschaftliche Entfaltung",
+		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Erwerbsarbeit",
 		"stufe3": "",
 		"stufe4": "",
@@ -9798,7 +9761,7 @@ var indikatoren = [
 			"Familie",
 			"Schule"
 		],
-		"stufe1": "Wirtschaftliche Entfaltung",
+		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Erwerbsarbeit",
 		"stufe3": "",
 		"stufe4": "",
@@ -9838,7 +9801,7 @@ var indikatoren = [
 			"Arbeit",
 			"Erwerbstätigkeit"
 		],
-		"stufe1": "Wirtschaftliche Entfaltung",
+		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Erwerbsarbeit",
 		"stufe3": "",
 		"stufe4": "",
@@ -12499,5 +12462,42 @@ var indikatoren = [
 			""
 		],
 		"id": 6348
+	},
+	{
+		"title": "Beurteilung der Kantonspolizei",
+		"subtitle": "Stand: 2015",
+		"kuerzel": "I.85.2.06438",
+		"kuerzelKunde": "10.4b",
+		"description": "Beurteilung der Kantonspolizei",
+		"thema": "",
+		"unterthema": "Befragungen für öffentliche Organe",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Beurteilung"
+		],
+		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "87,5% der befragten Personen bewerten die Hilfsbereitschaft der Basler Polizistinnen und Polizisten mit 10, 9, 8 oder 7. Weniger einverstanden sind die befragten Personen mit der Aussage, dass Basler Polizistinnen und Polizisten einen ausgeprägten Sinn für Gerechtigkeit haben. Hier geben 72,7% der Befragten den Wert 7 oder mehr an.",
+		"erlaeuterungen": "Die Kantonspolizei führt alle 3 Jahre eine Kundenbefragung durch. 2012 wurden 1028 in Basel, Riehen und Bettingen wohnhafte Personen zu verschiedenen Bereichen der Kantonspolizei befragt. Die Befragung wurde 2012 telefonisch von LINK durchgeführt. Für diesen Indikator werden Teile aus der Frage 51 verwendet: Ich lese Ihnen jetzt einige Eigenschaften vor, wo ein Polizist oder eine Polizistin im Kanton Basel-Stadt haben kann. Bitte sagen Sie mir für jede Eigenschaft, wie sehr sie auf die Basler Polizistinnen und Polizisten zutrifft. Wenn Sie finden, sie trifft voll und ganz zu, geben sie eine 10. Wenn Sie finden, sie trifft überhaupt nicht zu, geben Sie eine 1. Die Werte dazwischen erlauben Ihnen, ein differenziertes  Urteil abzugeben. Die Antwortkategorien in der Abbilung wurden abgekürzt. Die vollständigen Fragen lauten: Freundlich: Der Basler Polizist oder die Basler Polizistin ist freundlich; Handelt angemessen: Der Basler Polizist oder die Basler Polizistin handelt der Situation angemessen; Hilfsbereit: Der Basler Polizist oder die Basler Polizistin ist hilfsbereit; Sympathisch: Der Basler Polizist oder die Basler Polizistin ist sympathisch;  Respektvoll: Der Basler Polizist oder die Basler Polizistin behandelt die Leute mit Respekt; Nimmt Anliegen ernst: Der Basler Polizist oder die Basler Polizistin nimmt die Anliegen von der Bevölkerung ernst; Gerecht: Der Basler Polizist oder die Basler Polizistin hat einen ausgeprägten Sinn für Gerechtigkeit. Da einzelne Befragte die Frage nicht beantwortet haben, resultieren verschiedene n.",
+		"template": "befragungen001",
+		"visibleInPortal": true,
+		"orderKey": "10_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Justiz- und Sicherheitsdepartement Basel-Stadt, Kundenumfrage zur Kantonspolizei"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6438
 	}
 ];
