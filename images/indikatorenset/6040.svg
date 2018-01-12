@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 6.0.3
+    Created with Highstock 5.0.14
   </desc>
   <defs>
     <clipPath>
@@ -34,29 +34,29 @@
     <path fill="none" class="highcharts-axis-line" d="M 37 55 L 37 349"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-line-series " transform="translate(37,55) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(37,55) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 219 143.32500000000002" class="highcharts-graph" stroke="#71A3B5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-line-series " transform="translate(37,55) scale(1 1)" clip-path="none">
+    <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(37,55) scale(1 1)" clip-path="none">
       <path fill="#71A3B5" d="M 223 143 A 4 4 0 1 1 222.99999800000018 142.99600000066667 Z" class="highcharts-point"/>
     </g>
-    <g class="highcharts-series highcharts-series-1 highcharts-line-series " transform="translate(37,55) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(37,55) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 219 77.91000000000003" class="highcharts-graph" stroke="#FFBB58" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-1 highcharts-line-series " transform="translate(37,55) scale(1 1)" clip-path="none">
+    <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(37,55) scale(1 1)" clip-path="none">
       <path fill="#FFBB58" d="M 219 74 L 223 78 219 82 215 78 Z" class="highcharts-point"/>
     </g>
-    <g class="highcharts-series highcharts-series-2 highcharts-line-series " transform="translate(37,55) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined " transform="translate(37,55) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 219 293.6325" class="highcharts-graph" stroke="#8A8A8A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-2 highcharts-line-series " transform="translate(37,55) scale(1 1)" clip-path="none">
+    <g class="highcharts-markers highcharts-series-2 highcharts-line-series highcharts-color-undefined " transform="translate(37,55) scale(1 1)" clip-path="none">
       <path fill="#8A8A8A" d="M 215 290 L 223 290 223 298 215 298 Z" class="highcharts-point"/>
     </g>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Beteiligung der Bevölkerung an Freiwilligenarbeit</tspan>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="40">
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
     <tspan>«Sind Sie in Ihrer Freizeit freiwillig tätig?»</tspan>
   </text>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">

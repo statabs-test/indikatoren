@@ -68,7 +68,7 @@
     "align": "right",
     "itemStyle": {
       "fontWeight": "normal", 
-      "width": 85
+      "width": 95
     }
   },
   "series": [
