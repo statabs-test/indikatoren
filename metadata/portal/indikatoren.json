@@ -7870,6 +7870,7 @@
 		"id": 5157
 	},
 	{
+<<<<<<< HEAD
 		"title": "Zufriedenheit mit verschiedenen Aspekten und Angeboten am Wohnort",
 		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» Stand: 2015",
 		"kuerzel": "I.50.1.05178",
@@ -7878,6 +7879,16 @@
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Nachhaltigkeit",
+=======
+		"title": "Anteil Einwohner pro ÖV-Güteklasse",
+		"subtitle": "Stand 2016",
+		"kuerzel": "I.11.2.05822",
+		"kuerzelKunde": "ST 6-1",
+		"description": "Anteil Einwohner pro ÖV-Güteklasse",
+		"thema": "11 Verkehr",
+		"unterthema": "Öffentlicher Verkehr",
+		"kennzahlenset": "Richtplan",
+>>>>>>> master
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -11773,7 +11784,7 @@
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Jugendlichen der Abschlussklassen der Sekundarstufe I werden jeweils Ende Schuljahr schriftlich über ihren nächsten Ausbildungsschritt befragt. Die Werte 2016 und 2017 deuten darauf hin, dass die Jugendlichen wieder mehr Mühe haben, eine für sie passende Anschlusslösung zu finden. Unruhiger Kurvenverlauf aufgrund der vergleichsweise geringen Zahl an Beobachtungen.",
-		"erlaeuterungen": "Datengrundlage bildet die jährliche Befragung der Schulabgängerinnen und Schulabgänger durch die Bildungsstatistikstelle des Bereichs Mittelschulen und Berufsbildung im Basler Erziehungsdepartement. Die Weiterbildungsschule wurde per Ende Schuljahr 2016/17 aufgelöst.",
+		"erlaeuterungen": "Datengrundlage bildet die jährliche Befragung der Schulabgängerinnen und Schulabgänger durch die Bildungsstatistikstelle des Bereichs Mittelschulen und Berufsbildung im Basler Erziehungsdepartement. Allg. Gewerbeschule: nur Link zum Beruf und Vorkurse; Berufsfachschule: nur Vorkurse und Vorlehren. Die Weiterbildungsschule wurde per Ende Schuljahr 2016/17 aufgelöst.",
 		"template": "line001",
 		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_001",
