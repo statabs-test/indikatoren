@@ -11,75 +11,6 @@
     "#f45b5b",
     "#91e8e1"
   ],
-  "symbols": [
-    "circle",
-    "diamond",
-    "square",
-    "triangle",
-    "triangle-down"
-  ],
-  "lang": {
-    "loading": "Lädt...",
-    "months": [
-      "January",
-      "February",
-      "March",
-      "April",
-      "May",
-      "June",
-      "July",
-      "August",
-      "September",
-      "October",
-      "November",
-      "December"
-    ],
-    "shortMonths": [
-      "Jan",
-      "Feb",
-      "Mar",
-      "Apr",
-      "May",
-      "Jun",
-      "Jul",
-      "Aug",
-      "Sep",
-      "Oct",
-      "Nov",
-      "Dec"
-    ],
-    "weekdays": [
-      "Sunday",
-      "Monday",
-      "Tuesday",
-      "Wednesday",
-      "Thursday",
-      "Friday",
-      "Saturday"
-    ],
-    "decimalPoint": ",",
-    "numericSymbols": null,
-    "resetZoom": "Zoom zurücksetzen",
-    "resetZoomTitle": "Reset zoom level 1:1",
-    "thousandsSep": " ",
-    "rangeSelectorZoom": "Zoom",
-    "rangeSelectorFrom": "From",
-    "rangeSelectorTo": "To",
-    "printChart": "Drucken",
-    "downloadPNG": "PNG Export",
-    "downloadJPEG": "JPEG Export",
-    "downloadPDF": "PDF Export",
-    "downloadSVG": "SVG Export",
-    "contextButtonTitle": "Exportieren\u002FDrucken",
-    "downloadCSV": "CSV Export",
-    "downloadXLS": "XLS Export",
-    "viewData": "View data table",
-    "noData": "Keine Daten"
-  },
-  "global": {
-    "useUTC": true,
-    "VMLRadialGradientURL": "http:\u002F\u002Fcode.highcharts.com\u002F5.0.12\u002Fgfx\u002Fvml-radial-gradient.png"
-  },
   "chart": {
     "borderRadius": 0,
     "defaultSeriesType": "line",
@@ -115,96 +46,7 @@
     "zoomType": "x",
     "panning": true,
     "panKey": "shift",
-    "events": {
-      "redraw": function updateStacks() {
-			//console.log(this.userOptions.series[0].stacking)
-
-			//only if plot-type is column and stacking = percent
-			if (this.userOptions.series[0].stacking == 'percent' || this.userOptions.series[0].stacking == 'normal') {
-			  var chart = this,
-				H = Highcharts,
-				label,
-				bbox,
-				i, j=0;
-
-			  for (var stackName in chart.yAxis[0].stacks) {
-				i=0;
-				for (var itemName in chart.yAxis[0].stacks[stackName]) {
-					if (chart.yAxis[0].stacks[stackName][itemName].label){
-					  label = chart.yAxis[0].stacks[stackName][itemName].label; // get stack item
-					  bbox = label.getBBox(true); // get label's bounding box
-					  
-					  //console.log(label);
-					  
-					  //if more than 'max_labels' xAxis categories are actually shown in chart (also if zoomed)
-					  var max_labels;
-					  if (this.userOptions.series[0].stacking == 'percent') max_labels = 8;
-					  else if (this.userOptions.series[0].stacking == 'normal') max_labels = 20;
-					  
-					  if (this.xAxis[0].max - this.xAxis[0].min > max_labels) { //formally: if (this.xAxis[0].categories.length > 8) {
-						  if (i % 2 != 0) label.hide(); //hide every second label
-						  if (this.userOptions.series[0].stacking == 'percent') {
-							  if (j % 2 != 0) label.translate(-4) //move labels slightly to left or right
-							  else label.translate(4)
-						  }
-					  }
-					  
-					  // if label is outside chart (left/right + 5), hide it
-					  if (bbox.x < -5 || bbox.width + bbox.x - 5 > chart.plotWidth) {
-						label.hide();
-					  }
-					}
-				  i++;
-				}
-				j++;
-			  }
-			}
-		},
-      "load": function () {
-								var label = this.renderer.label("> Indikator-Details",null,null,null,null,null,null,true)
-								.css({
-									cursor: 'pointer'
-								})
-								.attr({
-									'padding': 0
-								})
-								.add().on('click',function(){
-									 /*window.top.location.href = "?i=1003&format=ubdb&format_menu=1";*/
-									 /*window.open("?i=1003&format=ub", "Indikator-Details");*/
-									 /*window.open("http://www.test-mag.bs.ch/umweltberichtbeiderbasel/indikatoren/TID/1003.html", "Indikator-Details");*/
-									 window.top.location.href = "http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1003", "Indikator-Details";
-								});
-						
-								label.align(Highcharts.extend(label.getBBox(), {
-									align: 'left',
-									verticalAlign: 'bottom',
-									x: 0,
-									y: 100
-								}), null, 'spacingBox');
-								
-								/*add tooltip to legend items
-								for (var i = 0, len = this.legend.allItems.length; i < len; i++) {
-									(function(i) {
-										var item = this.legend.allItems[i].legendItem;
-										item.on('mouseover', function (e) {
-											//show custom tooltip here
-											console.log("mouseover" + i);
-										}).on('mouseout', function (e) {
-											//hide tooltip
-											console.log("mouseout" + i);
-										});
-									})(i);
-								}*/
-
-								
-								/* remove link from credits */
-								if (this.credits) {
-									this.credits.element.onclick = function() {
-										//window.open("http://www.statistik.bs.ch", '_blank'); // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
-									}
-								}
-							}
-    }
+    "events": {}
   },
   "title": {
     "style": {
@@ -264,7 +106,6 @@
       },
       "dataLabels": {
         "align": "center",
-        "formatter": function () {return null===this.y?"":a.numberFormat(this.y,-1);},
         "style": {
           "fontSize": "11px",
           "fontWeight": "bold",
@@ -332,7 +173,6 @@
       },
       "dataLabels": {
         "align": "center",
-        "formatter": function () {return null===this.y?"":a.numberFormat(this.y,-1);},
         "style": {
           "fontSize": "11px",
           "fontWeight": "bold",
@@ -401,7 +241,6 @@
       },
       "dataLabels": {
         "align": "center",
-        "formatter": function () {return null===this.y?"":a.numberFormat(this.y,-1);},
         "style": {
           "fontSize": "11px",
           "fontWeight": "bold",
@@ -469,7 +308,6 @@
       },
       "dataLabels": {
         "align": "center",
-        "formatter": function () {return null===this.y?"":a.numberFormat(this.y,-1);},
         "style": {
           "fontSize": "11px",
           "fontWeight": "bold",
@@ -519,7 +357,6 @@
       },
       "dataLabels": {
         "align": null,
-        "formatter": function () {return null===this.y?"":a.numberFormat(this.y,-1);},
         "style": {
           "fontSize": "11px",
           "fontWeight": "bold",
@@ -580,7 +417,6 @@
       },
       "dataLabels": {
         "align": null,
-        "formatter": function () {return null===this.y?"":a.numberFormat(this.y,-1);},
         "style": {
           "fontSize": "11px",
           "fontWeight": "bold",
@@ -661,7 +497,6 @@
       },
       "dataLabels": {
         "align": "center",
-        "formatter": function () {return null===this.y?"":a.numberFormat(this.y,-1);},
         "style": {
           "fontSize": "11px",
           "fontWeight": "bold",
@@ -710,7 +545,6 @@
       },
       "dataLabels": {
         "align": "center",
-        "formatter": function () {return this.point.isNull?void 0:this.point.name;},
         "style": {
           "fontSize": "11px",
           "fontWeight": "bold",
@@ -776,7 +610,6 @@
       },
       "dataLabels": {
         "align": null,
-        "formatter": function () {return null===this.y?"":a.numberFormat(this.y,-1);},
         "style": {
           "fontSize": "11px",
           "fontWeight": "bold",
@@ -836,7 +669,6 @@
       },
       "dataLabels": {
         "align": null,
-        "formatter": function () {return null===this.y?"":a.numberFormat(this.y,-1);},
         "style": {
           "fontSize": "11px",
           "fontWeight": "bold",
@@ -898,7 +730,6 @@
       },
       "dataLabels": {
         "align": null,
-        "formatter": function () {return null===this.y?"":a.numberFormat(this.y,-1);},
         "style": {
           "fontSize": "11px",
           "fontWeight": "bold",
@@ -976,7 +807,6 @@
     "enabled": true,
     "align": "left",
     "layout": "horizontal",
-    "labelFormatter": function () {return this.name;},
     "borderColor": "#999999",
     "borderRadius": 0,
     "navigation": {
@@ -1006,7 +836,6 @@
     "symbolPadding": 5,
     "verticalAlign": "top",
     "x": 0,
-    "y": 30,
     "title": {
       "style": {
         "fontWeight": "bold"
@@ -1051,8 +880,8 @@
     "snap": 10,
     "backgroundColor": "rgba(247,247,247,0.85)",
     "borderWidth": 1,
-    "headerFormat": "\u003Cspan style=\"width: 80px\"\u003E\u003Cspan style=\"color:{point.color}; width: 10px; font-size: 1.8em;\"\u003E■\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 1em;\"\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan style=\"padding-left: 15px; line-height: 1.4em;\"\u003E{point.key}:",
-    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E Reklamationen\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
+    "headerFormat": "<span style=\"width: 80px\"><span style=\"color:{point.color}; width: 10px; font-size: 1.8em;\">■</span><span style=\"font-size: 1em;\"> {series.name}</span><br><span style=\"padding-left: 15px; line-height: 1.4em;\">{point.key}:",
+    "pointFormat": " <b>{point.y}</b> Reklamationen</span></span>",
     "shadow": true,
     "style": {
       "color": "#333333",
@@ -1068,15 +897,15 @@
         "fontSize": "1em"
       },
       "hideDelay": 200,
-      "headerFormat": "\u003Cspan style=\"width: 80px\"\u003E\u003Cspan style=\"color:{point.color}; width: 10px; font-size: 1.8em;\"\u003E■\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 1em;\"\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan style=\"padding-left: 15px; line-height: 1.4em;\"\u003E{point.key}:",
-      "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E Reklamationen\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
+      "headerFormat": "<span style=\"width: 80px\"><span style=\"color:{point.color}; width: 10px; font-size: 1.8em;\">■</span><span style=\"font-size: 1em;\"> {series.name}</span><br><span style=\"padding-left: 15px; line-height: 1.4em;\">{point.key}:",
+      "pointFormat": " <b>{point.y}</b> Reklamationen</span></span>",
       "footerFormat": "",
       "useHTML": true
     }
   },
   "credits": {
     "enabled": true,
-    "href": "http:\u002F\u002Fwww.highcharts.com",
+    "href": "http://www.highcharts.com",
     "position": {
       "align": "left",
       "x": 10,
@@ -1233,69 +1062,6 @@
       "color": "#ffffff"
     }
   },
-  "exporting": {
-    "type": "image\u002Fpng",
-    "url": "https:\u002F\u002Fexport.highcharts.com\u002F",
-    "printMaxWidth": 780,
-    "scale": 3,
-    "buttons": {
-      "contextButton": {
-        "className": "highcharts-contextbutton",
-        "menuClassName": "highcharts-contextmenu",
-        "symbol": "menu",
-        "_titleKey": "contextButtonTitle",
-        "menuItems": [
-          {
-            "textKey": "printChart",
-            "onclick": function () {this.print();}
-          },
-          {
-            "separator": true
-          },
-          {
-            "textKey": "downloadPNG",
-            "onclick": function () {this.exportChart();}
-          },
-          {
-            "textKey": "downloadJPEG",
-            "onclick": function () {this.exportChart({type:"image/jpeg"});}
-          },
-          {
-            "textKey": "downloadPDF",
-            "onclick": function () {this.exportChart({type:"application/pdf"});}
-          },
-          {
-            "textKey": "downloadSVG",
-            "onclick": function () {this.exportChart({type:"image/svg+xml"});}
-          },
-          {
-            "textKey": "downloadCSV",
-            "onclick": function () { this.downloadCSV(); }
-          },
-          {
-            "textKey": "downloadXLS",
-            "onclick": function () { this.downloadXLS(); }
-          },
-          {
-            "text": "Diagramm in neuem Fenster",
-            "onclick": function () {window.open("?format=chart&i=1003");}
-          },
-          {
-            "separator": true
-          },
-          {
-            "text": "Anleitung",
-            "onclick": function () {tour.start(true);}
-          }
-        ]
-      }
-    },
-    "enabled": true,
-    "filename": "Lärmreklamationen",
-    "csv": {
-      "dateFormat": " "
-    }
-  },
   "xAxis": [
     {
       "categories": [
@@ -1343,11 +1109,7 @@
         "style": {
           "fontSize": "0.9em",
           "color": "#000000"
-        },
-        "formatter": function () {
-						  /* workaround: add Suffix if necessary. get the already formatted string (e.g. thousands separator included) and add suffix. format: '{value:,.0f}' doesn't work with string-labels (e.g. 1613). BL/22.3.2017 */
-						  return this.axis.defaultLabelFormatter.call(this) + '';
-						}
+        }
       },
       "index": 0
     },

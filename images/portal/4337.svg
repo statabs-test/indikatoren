@@ -14,11 +14,6 @@
   </defs>
   <rect fill="#fbfbfb" class="highcharts-background" x="0" y="0" width="485" height="415" rx="0" ry="0"/>
   <rect fill="none" class="highcharts-plot-background" x="43" y="53" width="432" height="291"/>
-  <g class="highcharts-label" style="cursor:pointer;" transform="translate(10,451)">
-    <text x="0" y="0">
-      <tspan>&gt; Indikator-Details</tspan>
-    </text>
-  </g>
   <g class="highcharts-pane-group"/>
   <g class="highcharts-grid highcharts-xaxis-grid ">
     <path fill="none" class="highcharts-grid-line" d="M 75.5 53 L 75.5 344" opacity="1"/>

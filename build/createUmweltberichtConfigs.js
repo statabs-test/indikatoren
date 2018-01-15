@@ -1,10 +1,8 @@
 // invoke in bash using this command line: 
 // node node_modules/casperjs/bin/casperjs.js build/createUmweltberichtConfigs.js
-/* 
-    global Highcharts
-*/
 
-var charts = [];
+var serialize = require('serialize-javascript');
+
 var casper = require('casper').create();
 //var urlbase = 'http://ub.basleratlas.ch/?format=chart_export2indikatorenportal&i=';
 var urlbase = 'http://ub.basleratlas.ch/?format=stata&k=bs&i=';
@@ -62,12 +60,22 @@ while (ubFileList.length > 0) {
                     //save options of first chart into file
                     //var content = serialize(charts[0].options, {space: 2});
                     var content = casper.fetchText('#serialized_highcharts');
+                    
+                    //Adapt config to our needs
+                    var chartOptions = deserialize(content);
+                    delete chartOptions.legend.y;
+                    delete chartOptions.lang;
+                    delete chartOptions.symbols;
+                    delete chartOptions.global;
+                    delete chartOptions.exporting;
+                    var fileContent = JSON.stringify(chartOptions, null, 2);
+                    
                     var path = 'charts/configs/indikatorenset/' + id + '.json';
                     casper.echo('Saving contents to ' + path + '...');
-                    fs.write(path, content, 'w');
+                    fs.write(path, fileContent, 'w');
                     path = 'charts/configs/portal/' + id + '.json';
                     casper.echo('Saving contents to ' + path + '...');
-                    fs.write(path, content, 'w');
+                    fs.write(path, fileContent, 'w');
                     
                     var tsvContent = casper.fetchText('#data-tsv');
                     var tsvPath = 'data/' + id + '.tsv';
@@ -121,7 +129,15 @@ function getCharts() {
 }
 
 
+//from https://github.com/yahoo/serialize-javascript
+function deserialize(serializedJavascript){
+  return eval('(' + serializedJavascript + ')');
+}
+
+
 casper.run(function() {
     this.exit();
 });
+
+
 
