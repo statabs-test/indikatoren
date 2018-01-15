@@ -1,13 +1,7 @@
 {
   "series": [
     {
-<<<<<<< HEAD
-      "color": "#256370",
-      "yAxis": 0,
-      "visible": true,
-=======
       "color": "#b00000",
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "data": [
         [
           2010,
@@ -41,13 +35,7 @@
       "name": "Schweiz"
     },
     {
-<<<<<<< HEAD
-      "color": "#a8c4cb",
-      "yAxis": 0,
-      "visible": true,
-=======
       "color": "#672773",
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "data": [
         [
           2010,
@@ -81,13 +69,7 @@
       "name": "Deutschland"
     },
     {
-<<<<<<< HEAD
-      "color": "#ffbb58",
-      "yAxis": 0,
-      "visible": true,
-=======
       "color": "#007a2f",
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "data": [
         [
           2010,
@@ -121,13 +103,7 @@
       "name": "Italien"
     },
     {
-<<<<<<< HEAD
-      "color": "#b475ab",
-      "yAxis": 0,
-      "visible": true,
-=======
       "color": "#fabd24",
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "data": [
         [
           2010,
@@ -161,13 +137,7 @@
       "name": "Türkei"
     },
     {
-<<<<<<< HEAD
-      "color": "#44ab2b",
-      "yAxis": 0,
-      "visible": true,
-=======
       "color": "#b475ab",
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "data": [
         [
           2010,
@@ -198,19 +168,10 @@
           28.4
         ]
       ],
-<<<<<<< HEAD
-      "name": "EU-17 + EFTA"
-    },
-    {
-      "color": "#007a2f",
-      "yAxis": 0,
-      "visible": true,
-=======
       "name": "EU-17 & EFTA"
     },
     {
       "color": "#71a3b5",
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "data": [
         [
           2010,
@@ -244,13 +205,7 @@
       "name": "EU-Ost"
     },
     {
-<<<<<<< HEAD
-      "color": "#672773",
-      "yAxis": 0,
-      "visible": true,
-=======
       "color": "#b9cfd7",
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "data": [
         [
           2010,
@@ -284,13 +239,7 @@
       "name": "Balkan"
     },
     {
-<<<<<<< HEAD
-      "color": "#b00000",
-      "yAxis": 0,
-      "visible": true,
-=======
       "color": "#999999",
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "data": [
         [
           2010,
@@ -442,10 +391,6 @@
     }
   },
   "exporting": {
-<<<<<<< HEAD
-    "filename": "I.15.1.06080"
-=======
     "filename": 6080
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
   }
 }

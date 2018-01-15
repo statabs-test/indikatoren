@@ -1,13 +1,7 @@
 {
   "series": [
     {
-<<<<<<< HEAD
-      "color": "#256370",
-      "yAxis": 0,
-      "visible": true,
-=======
       "color": "#b00000",
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "data": [
         [
           1997,
@@ -89,20 +83,11 @@
           2016,
           25.1
         ]
-<<<<<<< HEAD
-      ]
-    },
-    {
-      "color": "#a8c4cb",
-      "yAxis": 0,
-      "visible": true,
-=======
       ],
       "name": "Schweiz"
     },
     {
       "color": "#672773",
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "data": [
         [
           1997,
@@ -185,19 +170,10 @@
           12
         ]
       ],
-<<<<<<< HEAD
-      "name": "Schweiz"
-    },
-    {
-      "color": "#ffbb58",
-      "yAxis": 0,
-      "visible": true,
-=======
       "name": "Deutschland"
     },
     {
       "color": "#007a2f",
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "data": [
         [
           1997,
@@ -280,19 +256,10 @@
           7.7
         ]
       ],
-<<<<<<< HEAD
-      "name": "Deutschland"
-    },
-    {
-      "color": "#b475ab",
-      "yAxis": 0,
-      "visible": true,
-=======
       "name": "Italien"
     },
     {
       "color": "#fabd24",
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "data": [
         [
           1997,
@@ -375,19 +342,10 @@
           5.2
         ]
       ],
-<<<<<<< HEAD
-      "name": "Italien"
-    },
-    {
-      "color": "#44ab2b",
-      "yAxis": 0,
-      "visible": true,
-=======
       "name": "Türkei"
     },
     {
       "color": "#b475ab",
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "data": [
         [
           1997,
@@ -470,19 +428,10 @@
           8.1
         ]
       ],
-<<<<<<< HEAD
-      "name": "Türkei"
-    },
-    {
-      "color": "#007a2f",
-      "yAxis": 0,
-      "visible": true,
-=======
       "name": "EU-17 & EFTA"
     },
     {
       "color": "#71a3b5",
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "data": [
         [
           1997,
@@ -565,19 +514,10 @@
           5.8
         ]
       ],
-<<<<<<< HEAD
-      "name": "EU-17 + EFTA"
-    },
-    {
-      "color": "#672773",
-      "yAxis": 0,
-      "visible": true,
-=======
       "name": "EU-Ost"
     },
     {
       "color": "#b9cfd7",
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "data": [
         [
           1997,
@@ -660,19 +600,10 @@
           5
         ]
       ],
-<<<<<<< HEAD
-      "name": "EU-Ost"
-    },
-    {
-      "color": "#b00000",
-      "yAxis": 0,
-      "visible": true,
-=======
       "name": "Balkan"
     },
     {
       "color": "#ff8028",
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "data": [
         [
           1997,
@@ -755,19 +686,10 @@
           3
         ]
       ],
-<<<<<<< HEAD
-      "name": "Balkan"
-    },
-    {
-      "color": "#ff8028",
-      "yAxis": 0,
-      "visible": true,
-=======
       "name": "Mittel- & Südamerika"
     },
     {
       "color": "#73ba7c",
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "data": [
         [
           1997,
@@ -850,19 +772,10 @@
           1.1
         ]
       ],
-<<<<<<< HEAD
-      "name": "Mittel- und Südamerika"
-    },
-    {
-      "color": "#cd9c00",
-      "yAxis": 0,
-      "visible": true,
-=======
       "name": "Arab. Länder"
     },
     {
       "color": "#9f7c5a",
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "data": [
         [
           1997,
@@ -945,19 +858,10 @@
           1.9
         ]
       ],
-<<<<<<< HEAD
-      "name": "Arab. Länder"
-    },
-    {
-      "color": "#3C3C3C",
-      "yAxis": 0,
-      "visible": true,
-=======
       "name": "Afrikan. Länder"
     },
     {
       "color": "#999999",
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "data": [
         [
           1997,
@@ -1040,97 +944,6 @@
           8.5
         ]
       ],
-<<<<<<< HEAD
-      "name": "Afrikan. Länder"
-    },
-    {
-      "color": "#000000",
-      "yAxis": 0,
-      "visible": true,
-      "data": [
-        [
-          1997,
-          null
-        ],
-        [
-          1998,
-          null
-        ],
-        [
-          1999,
-          null
-        ],
-        [
-          2000,
-          null
-        ],
-        [
-          2001,
-          null
-        ],
-        [
-          2002,
-          null
-        ],
-        [
-          2003,
-          null
-        ],
-        [
-          2004,
-          null
-        ],
-        [
-          2005,
-          null
-        ],
-        [
-          2006,
-          null
-        ],
-        [
-          2007,
-          null
-        ],
-        [
-          2008,
-          null
-        ],
-        [
-          2009,
-          null
-        ],
-        [
-          2010,
-          null
-        ],
-        [
-          2011,
-          null
-        ],
-        [
-          2012,
-          null
-        ],
-        [
-          2013,
-          null
-        ],
-        [
-          2014,
-          null
-        ],
-        [
-          2015,
-          null
-        ],
-        [
-          2016,
-          null
-        ]
-      ],
-=======
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "name": "Übrige Länder"
     }
   ],
@@ -1255,10 +1068,6 @@
     }
   },
   "exporting": {
-<<<<<<< HEAD
-    "filename": "I.15.4.06082"
-=======
     "filename": 6082
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
   }
 }

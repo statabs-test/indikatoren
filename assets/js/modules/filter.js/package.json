@@ -47,11 +47,7 @@
   },
   "_requiredBy": [],
   "_resolved": "git://github.com/statabs-test/filter.js.git#e2447aaea9e5b6581a98778c4177fbdf3d1a2936",
-<<<<<<< HEAD
-  "_shasum": "5d07f1e7cd4ed5e991ae602ae2a5549492052f3d",
-=======
-  "_shasum": "75306027b9108cb9afe3bba65c3cf150224e8c5a",
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
+  "_shasum": "3aaeb788d3feec898a978ce94be1ab09568f1da8",
   "_shrinkwrap": null,
   "_spec": "filter-js@git://github.com/statabs-test/filter.js.git#e2447aaea9e5b6581a98778c4177fbdf3d1a2936",
   "_where": "/home/ubuntu/workspace",

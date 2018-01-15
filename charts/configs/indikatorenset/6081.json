@@ -1,14 +1,8 @@
 {
   "series": [
     {
-<<<<<<< HEAD
-      "color": "#256370",
-      "yAxis": 0,
-      "visible": true,
-=======
       "color": "#b00000",
       "legendIndex": 0,
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "data": [
         [
           2010,
@@ -42,15 +36,9 @@
       "name": "Schweiz"
     },
     {
-<<<<<<< HEAD
-      "color": "#a8c4cb",
-      "yAxis": 0,
-      "visible": true,
-=======
       "color": "#661200",
       "legendIndex": 2,
       "dashStyle": "LongDash",
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "data": [
         [
           2010,
@@ -84,15 +72,9 @@
       "name": "Schweizer"
     },
     {
-<<<<<<< HEAD
-      "color": "#ffbb58",
-      "yAxis": 0,
-      "visible": true,
-=======
       "color": "#dc440e",
       "legendIndex": 4,
       "dashStyle": "LongDash",
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "data": [
         [
           2010,
@@ -126,14 +108,8 @@
       "name": "Schweizerinnen"
     },
     {
-<<<<<<< HEAD
-      "color": "#b475ab",
-      "yAxis": 0,
-      "visible": true,
-=======
       "color": "#cd9c00",
       "legendIndex": 1,
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "data": [
         [
           2010,
@@ -167,15 +143,9 @@
       "name": "Ausland"
     },
     {
-<<<<<<< HEAD
-      "color": "#44ab2b",
-      "yAxis": 0,
-      "visible": true,
-=======
       "color": "#7f5f1a",
       "legendIndex": 2,
       "dashStyle": "LongDash",
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "data": [
         [
           2010,
@@ -209,15 +179,9 @@
       "name": "Ausländer"
     },
     {
-<<<<<<< HEAD
-      "color": "#007a2f",
-      "yAxis": 0,
-      "visible": true,
-=======
       "color": "#ffda80",
       "legendIndex": 5,
       "dashStyle": "LongDash",
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "data": [
         [
           2010,
@@ -353,14 +317,9 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-<<<<<<< HEAD
-    "y": 35,
-    "itemWidth": 140,
-=======
     "symbolWidth": 30,
     "y": 35,
     "itemWidth": 160,
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"
@@ -375,10 +334,6 @@
     }
   },
   "exporting": {
-<<<<<<< HEAD
-    "filename": "I.15.1.06081"
-=======
     "filename": 6081
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
   }
 }

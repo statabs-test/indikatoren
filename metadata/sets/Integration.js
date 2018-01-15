@@ -35,8 +35,6 @@ var indikatorensetData = [
 		"id": 6059
 	},
 	{
-<<<<<<< HEAD
-=======
 		"title": "Bevölkerungspyramide Schweizer 1997",
 		"subtitle": "",
 		"kuerzel": "I.01.1.06064",
@@ -178,7 +176,6 @@ var indikatorensetData = [
 		"id": 6067
 	},
 	{
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
 		"title": "Anteil Ausländer nach Alter 1997, 2006, 2016",
 		"subtitle": "",
 		"kuerzel": "I.01.1.06070",
@@ -215,8 +212,6 @@ var indikatorensetData = [
 		"id": 6070
 	},
 	{
-<<<<<<< HEAD
-=======
 		"title": "Zusammengefasste Geburtenziffer nach Staatsangehörigkeit (Ländergruppen) Mittel der Jahre 2006-2015",
 		"subtitle": "",
 		"kuerzel": "I.01.3.06077",
@@ -252,7 +247,6 @@ var indikatorensetData = [
 		"id": 6077
 	},
 	{
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
 		"title": "Segregationsindex nach Staatsangehörigkeit",
 		"subtitle": "",
 		"kuerzel": "I.01.1.06078",
@@ -427,8 +421,6 @@ var indikatorensetData = [
 			""
 		],
 		"id": 6083
-<<<<<<< HEAD
-=======
 	},
 	{
 		"title": "Wohnbevölkerung ab 15 Jahren nach Staatsangehörigkeit (Ländergruppen) und höchster abgeschlossener Ausbildung, gepoolte Daten 2011-2015",
@@ -465,6 +457,5 @@ var indikatorensetData = [
 			""
 		],
 		"id": 6090
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
 	}
 ];

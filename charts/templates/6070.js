@@ -5,12 +5,8 @@
     endOnTick: false,
     "tickInterval": 5,
      "labels": {
-<<<<<<< HEAD
-      "rotation": -45,
-=======
      	step:1,
       "rotation": 0,
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
      }
   },
   "yAxis": {
@@ -26,17 +22,6 @@
   },
  "series": [
     {
-<<<<<<< HEAD
-		"color": "#B00000",
-    	"legendIndex": 2
-    }, /* rot */
-    {
-		"color": "#662673",
-    	"legendIndex": 2
-    }, /* violett */
-    {
-		"color": "#008AC3",
-=======
 		"color": "#fabd24", // 1997
     	"legendIndex": 2
     }, /* rot */
@@ -46,18 +31,13 @@
     }, /* violett */
     {
 		"color": "#007a2f", // 2016
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
     	"legendIndex": 2
     }, /* blau */
   ],
    "legend": {
     "enabled": true,
     //"x": 45,
-<<<<<<< HEAD
-    "y": 35,
-=======
     "y": 30,
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
     "itemWidth": 100,
     "layout": "horizontal",
     "verticalAlign": "top",

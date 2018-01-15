@@ -1980,18 +1980,6 @@
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "8a13c80e80f4461b45b3080659d0d6fcb77fb07c"
 	},
-<<<<<<< HEAD
-	"6059": {
-		"metadata": "84925784d5c3398267f922b41ab1915e0067c2e1",
-		"chartConfig": "faa77b9bbdd757c366d37bbe529d402095a3daad",
-		"data": "d4a2760f25ff9985b47a98d4b8389e305122c0ec",
-		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-		"template": "a484d4799fc876f9b1af34650015aca72256e290"
-	},
-	"6070": {
-		"metadata": "3e66d7c352079e443a80e74cb16d768f3e8112cf",
-		"chartConfig": "d5faf527e662e7cf98af297f0f32d144fa4a137b",
-=======
 	"6011": {
 		"metadata": "96cd03251b96045996777b1f70290d023ece8830",
 		"chartConfig": "6f37069248fbb3aa0ca357e7614c30826492597b",
@@ -2114,16 +2102,10 @@
 	"6070": {
 		"metadata": "3e66d7c352079e443a80e74cb16d768f3e8112cf",
 		"chartConfig": "74f6e5c7944f6d13f0fc22494a8a577e1a9e0d22",
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
 		"data": "6bc93fb060f54d5fe9e59899736cec0cc1863f48",
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "e80825213e800c3eee6ac98284b60ce7e335940c"
 	},
-<<<<<<< HEAD
-	"6078": {
-		"metadata": "eb995c125c8ad013167add7f958311e24d661940",
-		"chartConfig": "b221535e7387bece301203d6be6ed55aab8c33aa",
-=======
 	"6077": {
 		"metadata": "c2e8780676ca7063353dcbf15c0439af5036d407",
 		"chartConfig": "7a43d9a2c9c9855714672606356166250d6ea8db",
@@ -2134,55 +2116,33 @@
 	"6078": {
 		"metadata": "eb995c125c8ad013167add7f958311e24d661940",
 		"chartConfig": "6faff5650355600690b134060c81bec69228f05c",
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
 		"data": "d2206f3171d43cecefc1b9dd0c33445007f26f37",
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "e80825213e800c3eee6ac98284b60ce7e335940c"
 	},
 	"6080": {
 		"metadata": "6d8355d3ad46fcd84096d984800604fc79b26045",
-<<<<<<< HEAD
-		"chartConfig": "85545d739a7d3e736c5e1e70af3feb45e8af33d1",
-		"data": "b9923773474a056fe1fe69f30831359f51dfca9a",
-=======
 		"chartConfig": "6b62f1414305b44cce98cb8969c74714ec40aaf4",
 		"data": "6e5455cc81076adf7aeccc835fbba47ccdce8590",
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "e80825213e800c3eee6ac98284b60ce7e335940c"
 	},
 	"6081": {
 		"metadata": "c9147a0148532bfbb02ee6885a3f69b616064844",
-<<<<<<< HEAD
-		"chartConfig": "1c9cd90cb8ea548e30e9d32788cda54ab3474bd8",
-=======
 		"chartConfig": "eaecdd83f6801509cfc43c7ecf9d230499778cb6",
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
 		"data": "6e0970bd4298ccb962c86ff28e2c58f2a78fb367",
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "e80825213e800c3eee6ac98284b60ce7e335940c"
 	},
 	"6082": {
 		"metadata": "1e58bf4297acd28c304dfb8e73a9f8709b9eb046",
-<<<<<<< HEAD
-		"chartConfig": "0711ad69e4188f3ab21b535d0c9a0eb66a0aeee6",
-		"data": "d4a4943661522cce1af2f63e2c53bb6b09de3900",
-=======
 		"chartConfig": "b059b4f95c3ab58ee39c7ba6afdb51f50af8f8ff",
 		"data": "59d20e9f785a79525492fea0b4888ce421ed3da5",
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "e80825213e800c3eee6ac98284b60ce7e335940c"
 	},
 	"6083": {
 		"metadata": "8dae0cfb34c6ec5de589f382206e34e6aa9b1510",
-<<<<<<< HEAD
-		"chartConfig": "1c9cd90cb8ea548e30e9d32788cda54ab3474bd8",
-		"data": "ca824d09fd607df1b1210f23d0bebbb9f284b668",
-		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-		"template": "e80825213e800c3eee6ac98284b60ce7e335940c"
-	},
-=======
 		"chartConfig": "db1572f86196d7c7d086fe24bd877a2784659168",
 		"data": "78cd1fa48bb9c2c0b6c42bc1363a384750aa66d8",
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
@@ -2195,7 +2155,6 @@
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "a484d4799fc876f9b1af34650015aca72256e290"
 	},
->>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
 	"6124": {
 		"metadata": "dce57f24b45733546e51abce9beb4f74d1f8d7a4",
 		"chartConfig": "9dcfe7253016c0cb2eaac818807cf183ff078d84",
