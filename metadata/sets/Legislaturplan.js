@@ -90,7 +90,6 @@ var indikatorensetData = [
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
-			"Wohnviertel",
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2016-12-14T12:12:59.5959",
@@ -2561,7 +2560,7 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Jugendlichen der Abschlussklassen der Sekundarstufe I werden jeweils Ende Schuljahr schriftlich über ihren nächsten Ausbildungsschritt befragt. Die Werte 2016 und 2017 deuten darauf hin, dass die Jugendlichen wieder mehr Mühe haben, eine für sie passende Anschlusslösung zu finden. Unruhiger Kurvenverlauf aufgrund der vergleichsweise geringen Zahl an Beobachtungen.",
-		"erlaeuterungen": "Datengrundlage bildet die jährliche Befragung der Schulabgängerinnen und Schulabgänger durch die Bildungsstatistikstelle des Bereichs Mittelschulen und Berufsbildung im Basler Erziehungsdepartement. Die Weiterbildungsschule wurde per Ende Schuljahr 2016/17 aufgelöst.",
+		"erlaeuterungen": "Datengrundlage bildet die jährliche Befragung der Schulabgängerinnen und Schulabgänger durch die Bildungsstatistikstelle des Bereichs Mittelschulen und Berufsbildung im Basler Erziehungsdepartement. Allg. Gewerbeschule: nur Link zum Beruf und Vorkurse; Berufsfachschule: nur Vorkurse und Vorlehren. Die Weiterbildungsschule wurde per Ende Schuljahr 2016/17 aufgelöst.",
 		"template": "line001",
 		"orderKey": "03_00_00_00_00_001",
 		"parentId": null,
@@ -2678,7 +2677,7 @@ var indikatorensetData = [
 		"lesehilfe": "Die Nettoschulden haben sich seit dem Jahr 2000 von 19 132 auf 9 950 Franken pro Kopf im Jahr 2016 reduziert. Die Nettoschuldenquote liegt 2016 bei 3,0 ‰ des schweizerischen BIP.",
 		"erlaeuterungen": "",
 		"template": "line001",
-		"orderKey": "02_00_00_00_00_000",
+		"orderKey": "02_00_00_00_00_007",
 		"parentId": null,
 		"children": [
 			"5160",
