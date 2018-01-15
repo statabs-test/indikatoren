@@ -93,7 +93,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Stand 2016",
     "align": "left"
   },
   "tooltip": {
@@ -128,6 +128,6 @@
     "symbolRadius": 0
   },
   "exporting": {
-    "filename": "I.11.2.05822"
+    "filename": 5822
   }
 }
