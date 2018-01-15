@@ -16,6 +16,7 @@
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b>%<br/>'
   },
  "series": [
+<<<<<<< HEAD
 	{"color": "#256370",
   "yAxis": 0, visible: true}, /*blau*/
 	{"color": "#a8c4cb",
@@ -41,6 +42,19 @@
       {"color": "#000000",
   "yAxis": 0, visible: true}, /*hellbraun*/
 
+=======
+ {"color":  "#b00000"}, /*Schweiz*/
+  {"color": "#672773"}, /*Deutschland*/
+  {"color": "#007a2f"}, /*Italien*/
+  {"color": "#fabd24"}, /*Türkei*/
+  {"color": "#b475ab"}, /*EU-17 & EFTA*/
+  {"color": "#71a3b5"}, /*EU-Ost */
+  {"color": "#b9cfd7"}, /*Balkan*/
+  {"color": "#ff8028"}, /*Mittel- & Südamerika */
+  {"color": "#73ba7c"}, /*Arabische Länder */
+  {"color": "#9f7c5a"}, /*Afrikanische Länder*/
+  {"color": "#999999"}, /*Übrige Länder*/
+>>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
   ],
    "legend": {
     "enabled": true,

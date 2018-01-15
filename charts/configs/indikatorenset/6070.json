@@ -1,7 +1,11 @@
 {
   "series": [
     {
+<<<<<<< HEAD
       "color": "#B00000",
+=======
+      "color": "#fabd24",
+>>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "legendIndex": 2,
       "data": [
         [
@@ -413,7 +417,11 @@
       "turboThreshold": 0
     },
     {
+<<<<<<< HEAD
       "color": "#662673",
+=======
+      "color": "#672773",
+>>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "legendIndex": 2,
       "data": [
         [
@@ -825,7 +833,11 @@
       "turboThreshold": 0
     },
     {
+<<<<<<< HEAD
       "color": "#008AC3",
+=======
+      "color": "#007a2f",
+>>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "legendIndex": 2,
       "data": [
         [
@@ -1246,7 +1258,12 @@
       "style": {
         "color": "#000000"
       },
+<<<<<<< HEAD
       "rotation": -45
+=======
+      "step": 1,
+      "rotation": 0
+>>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
     },
     "tickLength": 0,
     "endOnTick": false,
@@ -1345,7 +1362,11 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
+<<<<<<< HEAD
     "y": 35,
+=======
+    "y": 30,
+>>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
     "itemWidth": 100,
     "itemMarginBottom": 5,
     "itemStyle": {
@@ -1361,6 +1382,10 @@
     }
   },
   "exporting": {
+<<<<<<< HEAD
     "filename": "I.01.1.06070"
+=======
+    "filename": 6070
+>>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
   }
 }

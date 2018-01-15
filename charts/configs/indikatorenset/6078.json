@@ -1,9 +1,13 @@
 {
   "series": [
     {
+<<<<<<< HEAD
       "color": "#256370",
       "yAxis": 0,
       "visible": true,
+=======
+      "color": "#b00000",
+>>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "data": [
         [
           1997,
@@ -89,9 +93,13 @@
       "name": "Schweiz"
     },
     {
+<<<<<<< HEAD
       "color": "#a8c4cb",
       "yAxis": 0,
       "visible": true,
+=======
+      "color": "#672773",
+>>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "data": [
         [
           1997,
@@ -177,9 +185,13 @@
       "name": "Deutschland"
     },
     {
+<<<<<<< HEAD
       "color": "#ffbb58",
       "yAxis": 0,
       "visible": true,
+=======
+      "color": "#007a2f",
+>>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "data": [
         [
           1997,
@@ -265,9 +277,13 @@
       "name": "Italien"
     },
     {
+<<<<<<< HEAD
       "color": "#b475ab",
       "yAxis": 0,
       "visible": true,
+=======
+      "color": "#fabd24",
+>>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "data": [
         [
           1997,
@@ -353,9 +369,13 @@
       "name": "Türkei"
     },
     {
+<<<<<<< HEAD
       "color": "#44ab2b",
       "yAxis": 0,
       "visible": true,
+=======
+      "color": "#b475ab",
+>>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "data": [
         [
           1997,
@@ -441,9 +461,13 @@
       "name": "EU-17 & EFTA"
     },
     {
+<<<<<<< HEAD
       "color": "#007a2f",
       "yAxis": 0,
       "visible": true,
+=======
+      "color": "#71a3b5",
+>>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "data": [
         [
           1997,
@@ -529,9 +553,13 @@
       "name": "EU-Ost"
     },
     {
+<<<<<<< HEAD
       "color": "#672773",
       "yAxis": 0,
       "visible": true,
+=======
+      "color": "#b9cfd7",
+>>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "data": [
         [
           1997,
@@ -617,9 +645,13 @@
       "name": "Balkan"
     },
     {
+<<<<<<< HEAD
       "color": "#b00000",
       "yAxis": 0,
       "visible": true,
+=======
+      "color": "#ff8028",
+>>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "data": [
         [
           1997,
@@ -705,9 +737,13 @@
       "name": "Mittel- & Südamerika"
     },
     {
+<<<<<<< HEAD
       "color": "#ff8028",
       "yAxis": 0,
       "visible": true,
+=======
+      "color": "#73ba7c",
+>>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "data": [
         [
           1997,
@@ -793,9 +829,13 @@
       "name": "Arabische Länder"
     },
     {
+<<<<<<< HEAD
       "color": "#cd9c00",
       "yAxis": 0,
       "visible": true,
+=======
+      "color": "#9f7c5a",
+>>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "data": [
         [
           1997,
@@ -881,9 +921,13 @@
       "name": "Afrikanische Länder"
     },
     {
+<<<<<<< HEAD
       "color": "#3C3C3C",
       "yAxis": 0,
       "visible": true,
+=======
+      "color": "#999999",
+>>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
       "data": [
         [
           1997,
@@ -1019,7 +1063,11 @@
   },
   "tooltip": {
     "shared": false,
+<<<<<<< HEAD
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E%\u003Cbr\u002F\u003E"
+=======
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+>>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
   },
   "yAxis": {
     "min": 0,
@@ -1036,9 +1084,14 @@
       "style": {
         "color": "#000000"
       },
+<<<<<<< HEAD
       "format": "{value}%"
     },
     "tickInterval": 10,
+=======
+      "format": "{value}"
+    },
+>>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
     "max": 40
   },
   "xAxis": {
@@ -1050,7 +1103,11 @@
       }
     },
     "tickLength": 0,
+<<<<<<< HEAD
     "tickInterval": 5
+=======
+    "tickInterval": 2
+>>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -1090,6 +1147,10 @@
     }
   },
   "exporting": {
+<<<<<<< HEAD
     "filename": "I.01.1.06078"
+=======
+    "filename": 6078
+>>>>>>> 366b19e459a40712a886648c90553dc06bc90f9d
   }
 }
