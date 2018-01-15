@@ -1,6 +1,11 @@
 (function(){
     return {
-  
+   title: {
+      useHTML: true
+    },
+    subtitle: {
+      useHTML: true
+    },
   "xAxis": {
     "type": "category",
     "labels": {
