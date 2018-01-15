@@ -50,6 +50,11 @@ Highcharts.setOptions({
             "fontFamily": Highcharts.SVGRenderer.prototype.getStyle().fontFamily,
             "padding": '0px 10px'
         }
+    }, 
+    chart: {
+        style: {
+            fontFamily: 'Arial'
+        }
     }
 });
 
