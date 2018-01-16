@@ -355,7 +355,7 @@ id | visible | visibleInPortal | indikatorenset
 6024 | true | true | Wanderungen
 6025 | true | true | Wanderungen
 6026 | true | true | Nachhaltigkeit
-6027 | true | true | Nachhaltigkeit
+6027 | true | false | Nachhaltigkeit
 6028 | true | true | Nachhaltigkeit
 6029 | true | false | Nachhaltigkeit
 6030 | true | false | Nachhaltigkeit

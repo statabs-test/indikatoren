@@ -1,66 +1,69 @@
 {
   "series": [
     {
-      "color": "#990300",
-      "visible": true,
+      "marker": {
+        "symbol": "circle",
+        "enabled": true
+      },
+      "index": 0,
+      "color": "#008AC3",
       "data": [
         [
-          "2006",
-          42.2
+          1980,
+          36
         ],
         [
-          "2007",
-          42.2
+          1990,
+          39.282620924519
         ],
         [
-          "2008",
-          42
+          1997,
+          40.2
         ],
         [
-          "2009",
-          41.9
+          1998,
+          40.5
         ],
         [
-          "2010",
-          42.1
+          1999,
+          40.9
         ],
         [
-          "2011",
-          42
+          2000,
+          41.108202876103
         ],
         [
-          "2012",
-          42
+          2010,
+          42.131702031783
         ],
         [
-          "2013",
-          42
+          2011,
+          42.029502178246
         ],
         [
-          "2014",
+          2012,
+          41.989175837952
+        ],
+        [
+          2013,
+          42.004384685941
+        ],
+        [
+          2014,
           41.7
         ],
         [
-          "2015",
-          41.5
+          2015,
+          41.454831762135
+        ],
+        [
+          2016,
+          41.279119850187
         ]
       ],
-      "name": "Durchschnittlicher Wohnflächenverbrauch pro Kopf",
-      "turboThreshold": 0
+      "name": "Wohnfläche in m² pro Einwohner"
     }
   ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": false,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "tickLength": 0
-  },
   "chart": {
     "events": {
       "load": function () {
@@ -83,12 +86,11 @@
     "zoomType": "xy",
     "width": 485,
     "height": 415,
-    "spacingBottom": 40,
+    "spacingBottom": 45,
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "column",
-    "inverted": false,
+    "type": "line",
     "renderTo": "container-6027"
   },
   "title": {
@@ -112,7 +114,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
     "min": 0,
@@ -132,6 +134,17 @@
       "format": "{value:,.0f}"
     }
   },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 5
+  },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
@@ -150,19 +163,24 @@
   },
   "legend": {
     "enabled": false,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    "symbolRadius": 0,
-    "x": 35,
-    "y": 35,
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "symbolRadius": 0
   },
   "plotOptions": {
     "series": {
-      "pointWidth": 30
+      "dataLabels": {
+        "enabled": true,
+        "formatter": function () {
+            var first = this.series.data[0];
+            var last  = this.series.data[this.series.data.length - 1];
+            if (this.point.y === first.y || this.point.y === last.y ) {
+              return Highcharts.numberFormat(this.point.y, 0, ",", " ");
+            }
+            return "";
+          }
+      }
     }
   },
   "exporting": {

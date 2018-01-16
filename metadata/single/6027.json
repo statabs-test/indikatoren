@@ -21,7 +21,7 @@
 "visible":true,
 "visibleInPortal":true,
 "orderKey":"04_01_00_00_00_000",
-"parentId":null,
+"parentId":4140,
 "children":[],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"],

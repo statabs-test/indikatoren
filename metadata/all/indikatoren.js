@@ -13235,9 +13235,9 @@ var indikatoren = [
 		"lesehilfe": "Der durchschnittliche Wohnflächenverbrauch pro Kopf nahm in denletzten zehn Jahren nicht mehr zu. Seit zwei Jahren ist ein leichterRückgang feststellbar.",
 		"erlaeuterungen": "",
 		"template": "line001",
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "04_01_00_00_00_000",
-		"parentId": null,
+		"parentId": 4140,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [

@@ -1513,7 +1513,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "",
 		"template": "line001",
 		"orderKey": "04_01_00_00_00_000",
-		"parentId": null,
+		"parentId": 4140,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [

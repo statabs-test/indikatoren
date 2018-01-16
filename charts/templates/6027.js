@@ -1,49 +1,44 @@
 (function(){
     return {
-  title: {
-      useHTML: true
-    },
-    subtitle: {
-      useHTML: true
-    }, 
-  "xAxis": {
-    "type": "category",
-  },
   "yAxis": {
-	//"max": 100,
     "labels": {
-      "format": "{value:,.0f}"
-    }    
+      "format": "{value:,.0f}",
+    },
+    "min": 0
+  },
+  "xAxis": {
+    "tickInterval": 5
   },
   "series": [
-  {"color": "#990300", "visible": true}, /* rot*/
-  //{"color": "#007A2F", "visible": true} /* ... */
-  ],
-  "legend": {
-    "enabled": false,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    "x": 35,
-	"y": 35,    
-    "itemStyle": {
-      "fontWeight": "normal"
+    {
+      "marker": {
+        "symbol": "circle",
+        "enabled": true
+      },
+      "index": 0,
+      "color": "#008AC3"
     }
-  },
-   tooltip: {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
+  ],
+  "tooltip": {
+    pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}</b><br/>',
     "shared": false
   },
-  "chart": {      
-    "type": "column",
-    "inverted": false,
-    "spacingBottom": 40
-  },
-   plotOptions: {
-        series: {
-           "pointWidth": 30,
-        }
-   },
-
-}
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "enabled": true,
+          //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
+          formatter: function() {
+            var first = this.series.data[0];
+            var last  = this.series.data[this.series.data.length - 1];
+            if (this.point.y === first.y || this.point.y === last.y ) {
+              return Highcharts.numberFormat(this.point.y, 0, ",", " ");
+            }
+            return "";
+          }
+      }
+    }
+  }
+	}
 }());
+
