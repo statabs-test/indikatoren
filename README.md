@@ -16,6 +16,11 @@ npm run start-export-server
 npm run stop-export-server
 ```
 
+##Review charts
+- To display all charts'SVG files open all.html. 
+- This will render one big page that contains all the SVG files that are displayed in portal or indikatorenset view. 
+- Charts for print view are excluded from this page. 
+
 ##Manually create svg thumbnails 
 - For the portal view: In Chrome, open thumbnails.html
 - For the indikatorenset view: In Chrome, open thumbnails.html?view=indikatorenset
