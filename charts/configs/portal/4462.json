@@ -269,7 +269,7 @@
     "symbolRadius": 0,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "x": 46,
+    "padding": 0,
     "itemMarginBottom": 5,
     "align": "left",
     "itemStyle": {

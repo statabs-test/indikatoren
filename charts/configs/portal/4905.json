@@ -399,8 +399,7 @@
     "symbolRadius": 0,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
-    "x": 46,
+    "itemMarginBottom": 2,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"

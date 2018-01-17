@@ -128,35 +128,35 @@
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels highcharts-navigator-yaxis"/>
   <g class="highcharts-range-selector-group" transform="translate(0,31)">
-    <g class="highcharts-range-selector-buttons" transform="translate(10,375)">
-      <text x="75" y="15" style="color:#666666;fill:#666666;">
+    <g class="highcharts-range-selector-buttons" transform="translate(-27,332)">
+      <text x="38" y="15" style="color:#666666;fill:#666666;">
         Zoom
       </text>
-      <g class="highcharts-button highcharts-button-normal" style="cursor:pointer;" transform="translate(111,0)">
+      <g class="highcharts-button highcharts-button-normal" style="cursor:pointer;" transform="translate(74,0)">
         <rect fill="#f7f7f7" class=" highcharts-button-box" x="0" y="0" width="32" height="22" rx="2" ry="2"/>
         <text x="4.6640625" style="font-weight:normal;color:#333333;fill:#333333;" y="14">
           <tspan>10 J</tspan>
         </text>
       </g>
-      <g class="highcharts-button highcharts-button-normal" style="cursor:pointer;" transform="translate(158,0)">
+      <g class="highcharts-button highcharts-button-normal" style="cursor:pointer;" transform="translate(121,0)">
         <rect fill="#f7f7f7" class=" highcharts-button-box" x="0" y="0" width="32" height="22" rx="2" ry="2"/>
         <text x="4.6640625" style="font-weight:normal;color:#333333;fill:#333333;" y="14">
           <tspan>20 J</tspan>
         </text>
       </g>
-      <g class="highcharts-button highcharts-button-pressed" style="cursor:pointer;" transform="translate(205,0)">
+      <g class="highcharts-button highcharts-button-pressed" style="cursor:pointer;" transform="translate(168,0)">
         <rect fill="#e6ebf5" class=" highcharts-button-box" x="0" y="0" width="32" height="22" rx="2" ry="2"/>
         <text x="4.6640625" style="font-weight:bold;color:#000000;fill:#000000;" y="14">
           <tspan>50 J</tspan>
         </text>
       </g>
-      <g class="highcharts-button highcharts-button-normal" style="cursor:pointer;" transform="translate(252,0)">
+      <g class="highcharts-button highcharts-button-normal" style="cursor:pointer;" transform="translate(215,0)">
         <rect fill="#f7f7f7" class=" highcharts-button-box" x="0" y="0" width="32" height="22" rx="2" ry="2"/>
         <text x="1.328125" style="font-weight:normal;color:#333333;fill:#333333;" y="14">
           <tspan>100 J</tspan>
         </text>
       </g>
-      <g class="highcharts-button highcharts-button-normal" style="cursor:pointer;" transform="translate(299,0)">
+      <g class="highcharts-button highcharts-button-normal" style="cursor:pointer;" transform="translate(262,0)">
         <rect fill="#f7f7f7" class=" highcharts-button-box" x="0" y="0" width="32" height="22" rx="2" ry="2"/>
         <text x="1.34375" style="font-weight:normal;color:#333333;fill:#333333;" y="14">
           <tspan>Alle J</tspan>

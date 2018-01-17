@@ -15,10 +15,11 @@
   },
   "legend": {
     "enabled": true,
-    "layout": "vertical",
+    "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "top",
-		//"y": 40,
+    "align": "left",
+    padding: 0,
+    margin: 6,
     "itemStyle": {
       "fontWeight": "normal"
     }

@@ -1,3 +1,7 @@
+/* 
+    global Highcharts
+*/
+
 (function(){
     return {
     "chart": {
@@ -94,7 +98,8 @@
             "style": {
                 "color": "#000000",
                 "width": 1, 
-                whiteSpace: 'nowrap'
+                whiteSpace: 'nowrap', 
+                textOverflow: 'none'
             },
             "formatter": function() {
                 //add sum of observations of visible series to the axis label
@@ -107,6 +112,7 @@
                 }, 0);
                 //use N if all series are visible, otherwise use n
                 var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
+                var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
             	return this.value.replace(" ", "<br/>") + '<br/>(' + nString + sum + ')';
             }
         }

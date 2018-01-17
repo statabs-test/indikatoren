@@ -113,8 +113,8 @@
         }, 
         "rangeSelector": {
             buttonPosition: {
-                x: 10,
-                y: 365
+                x: -27,
+                y: 322
             }
         },
         navigator: {

@@ -249,9 +249,11 @@
   "legend": {
     "symbolRadius": 0,
     "enabled": true,
-    "layout": "vertical",
+    "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "top",
+    "align": "left",
+    "padding": 0,
+    "margin": 6,
     "itemStyle": {
       "fontWeight": "normal"
     }

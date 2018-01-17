@@ -322,7 +322,8 @@
       "style": {
         "color": "#000000",
         "width": 1,
-        "whiteSpace": "nowrap"
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
       },
       "formatter": function () {
             	return this.value;

@@ -488,7 +488,7 @@
     "layout": "horizontal",
     "align": "left",
     "verticalAlign": "top",
-    "padding": 12,
+    //"padding": 12,
     "borderWidth": 0,
     "backgroundColor": "none",
     "shadow": false,
