@@ -288,28 +288,11 @@
   },
   "navigator": {
     "enabled": false,
-    "series": [
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#73B97C"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#68AB2B"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#007A2F"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#0A3B19"
-      }
-    ],
+    "series": {
+      "type": "column",
+      "stacking": "percent",
+      "includeInCSVExport": false
+    },
     "xAxis": {
       "gridLineWidth": 0,
       "labels": {

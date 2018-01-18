@@ -340,13 +340,11 @@
   },
   "navigator": {
     "enabled": true,
-    "series": [
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#73B97C"
-      }
-    ],
+    "series": {
+      "type": "column",
+      "stacking": null,
+      "includeInCSVExport": false
+    },
     "xAxis": {
       "gridLineWidth": 0,
       "labels": {

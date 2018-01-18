@@ -305,48 +305,11 @@
   },
   "navigator": {
     "enabled": true,
-    "series": [
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#FF8028"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#DC440E"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#B00000"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#661200"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#D3E2E4"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#A8C3CA"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#689199"
-      },
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#246370"
-      }
-    ],
+    "series": {
+      "type": "column",
+      "stacking": "percent",
+      "includeInCSVExport": false
+    },
     "xAxis": {
       "gridLineWidth": 0,
       "labels": {

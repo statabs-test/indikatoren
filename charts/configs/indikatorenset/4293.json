@@ -296,13 +296,11 @@
   },
   "navigator": {
     "enabled": false,
-    "series": [
-      {
-        "includeInCSVExport": false,
-        "type": "column",
-        "color": "#FF8028"
-      }
-    ],
+    "series": {
+      "type": "column",
+      "stacking": null,
+      "includeInCSVExport": false
+    },
     "xAxis": {
       "gridLineWidth": 0,
       "labels": {
