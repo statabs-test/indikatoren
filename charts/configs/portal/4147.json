@@ -9,18 +9,6 @@
       "color": "#008AC3",
       "data": [
         [
-          2002,
-          -9.7
-        ],
-        [
-          2003,
-          -12.4
-        ],
-        [
-          2004,
-          -13
-        ],
-        [
           2005,
           -13.2
         ],
@@ -55,6 +43,10 @@
         [
           2013,
           12.1
+        ],
+        [
+          2014,
+          4.1
         ]
       ],
       "name": "Saldo in Mio. Franken"
@@ -97,16 +89,7 @@
       "dataLabels": {
         "style": {
           "fontSize": "10px"
-        },
-        "enabled": true,
-        "formatter": function () {
-            var last  = this.series.data[this.series.data.length - 1];
-            var first  = this.series.data[0];
-            if (this.point.y === first.y || this.point.y === last.y ) {
-              return Highcharts.numberFormat(this.point.y, 1, ",", " ");
-            }
-            return "";
-          }
+        }
       }
     }
   },

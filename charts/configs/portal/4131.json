@@ -19,6 +19,10 @@
         [
           2016,
           16425
+        ],
+        [
+          2017,
+          16460
         ]
       ],
       "name": "Eigentümerwohnungen"
@@ -42,6 +46,10 @@
         [
           2016,
           11073
+        ],
+        [
+          2017,
+          11151
         ]
       ],
       "name": "Genossenschaftswohnungen"
@@ -65,6 +73,10 @@
         [
           2016,
           80559
+        ],
+        [
+          2017,
+          81137
         ]
       ],
       "name": "Mietwohnungen"
@@ -88,6 +100,10 @@
         [
           2016,
           733
+        ],
+        [
+          2017,
+          742
         ]
       ],
       "name": "sonstige Wohnungen"
@@ -168,7 +184,8 @@
         "color": "#000000"
       }
     },
-    "tickLength": 0
+    "tickLength": 0,
+    "tickInterval": 1
   },
   "yAxis": {
     "gridLineColor": "#B9CFD7",
