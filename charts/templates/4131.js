@@ -11,7 +11,7 @@
       }
     },
     "xAxis": {
-      tickInveval: 1,
+      tickInterval: 1,
     },
     "yAxis": {
       "labels": {
