@@ -3,7 +3,7 @@ var SVGO = require('svgo');
 var svgo = new SVGO({});
 var filePaths = [];
 
-var views = ['indikatorenset', 'portal'/*, 'print'*/];
+var views = ['portal'/*, 'print'*/];
 views.forEach(function(view){
     console.log('Starting optimization of svg images for indikatorensetView=' + view);
     var files = JSON.parse(fs.readFileSync('tmp/chartsToBuild.json'));
