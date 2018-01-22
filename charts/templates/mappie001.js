@@ -135,6 +135,39 @@
     		}
 		], 
 		customFunctions: {
+			
+			hideOnZoom: function(e, selector){
+				var divId = e['target']['chart']['renderTo']['id'] || 'dummySettingForExportServer';
+				var divIdString = '#' + divId;
+				divIdString = '';
+				//only care about zoom events, not pan
+				if (e.trigger != 'pan'){
+					//determine current zoom level
+					var zoom = (e.dataMax - e.dataMin) / (e.max - e.min);
+					$(divIdString + selector).attr('visibility', zoom == 1 ? 'inherit' : 'hidden');
+				}
+			},
+
+			legendLabelZoomFormatter: function(value){
+            	return Highcharts.numberFormat((value),1,","," ");
+            },
+			
+			
+			recalculateOnZoom: function(e, selector){
+				var divId = e['target']['chart']['renderTo']['id'] || 'dummySettingForExportServer';
+				var divIdString = '#' + divId;
+				divIdString = '';
+				var fn = e.target.chart.options.customFunctions;
+				//only care about zoom events, not pan
+				if (e.trigger != 'pan'){
+					//determine current zoom level
+					var zoom = (e.dataMax - e.dataMin) / (e.max - e.min);
+					$(divIdString + selector).each(function(){
+						var initialValue = $(this).attr('initialValue');
+						$(this).contents()[0].innerHTML = (zoom == 1) ? initialValue : 'zoom: ' + fn.legendLabelZoomFormatter(zoom); //fn.legendLabelZoomFormatter(initialValue / zoom);
+					});
+				}
+			},
 		
 			//calculate pie size using categories defined in the conf object
 			pieSizeCategorical: function(value, conf){
@@ -387,7 +420,8 @@
                 addLegendLabel: function(chart, text, x, y, cssClass, useHtml){
     				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
     					zIndex: 6,
-    					class: cssClass + ' pieLegend'
+    					class: cssClass + ' pieLegend', 
+    					initialValue: text
     				}).add();
                 },
                 addSubtitle: function(chart, text, x, y, cssClass, useHtml){
