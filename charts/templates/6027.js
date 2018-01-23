@@ -1,5 +1,11 @@
 (function(){
     return {
+	 title: {
+	      useHTML: true
+	    },
+	    subtitle: {
+	      useHTML: true
+	    },
   "yAxis": {
     "labels": {
       "format": "{value:,.0f}",
