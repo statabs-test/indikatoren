@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 6.0.4
+    Created with Highstock 5.0.14
   </desc>
   <defs>
     <clipPath>
@@ -50,7 +50,7 @@
     <path fill="none" class="highcharts-axis-line" d="M 439 75 L 439 340"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series " transform="translate(65,75) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(65,75) scale(1 1)" clip-path="url(#a)">
       <rect x="14" y="59" width="10" height="64" fill="#71A3B5" class="highcharts-point"/>
       <rect x="51" y="58" width="10" height="65" fill="#71A3B5" class="highcharts-point"/>
       <rect x="89" y="57" width="10" height="66" fill="#71A3B5" class="highcharts-point"/>
@@ -62,8 +62,8 @@
       <rect x="313" y="49" width="10" height="76" fill="#71A3B5" class="highcharts-point"/>
       <rect x="350" y="48" width="10" height="77" fill="#71A3B5" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-column-series " transform="translate(65,75) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-1 highcharts-column-series " transform="translate(65,75) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(65,75) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(65,75) scale(1 1)" clip-path="url(#a)">
       <rect x="14" y="123" width="10" height="143" fill="#990300" class="highcharts-point"/>
       <rect x="51" y="123" width="10" height="143" fill="#990300" class="highcharts-point"/>
       <rect x="89" y="123" width="10" height="143" fill="#990300" class="highcharts-point"/>
@@ -75,17 +75,16 @@
       <rect x="313" y="125" width="10" height="141" fill="#990300" class="highcharts-point"/>
       <rect x="350" y="125" width="10" height="141" fill="#990300" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-1 highcharts-column-series " transform="translate(65,75) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-2 highcharts-line-series " transform="translate(65,75) scale(1 1)" clip-path="url(#b)">
+    <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(65,75) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined " transform="translate(65,75) scale(1 1)" clip-path="url(#b)">
       <path fill="none" d="M 18.7 58.35328448544999 L 56.1 57.37672872358749 L 93.5 54.146083479799984 L 130.9 49.12808217443748 L 168.3 47.686361040287494 L 205.7 43.926375497437505 L 243.1 40.60290552563751 L 280.5 36.03535779890001 L 317.9 33.077286215362506 L 355.3 31.224886412587495" class="highcharts-graph" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-2 highcharts-line-series " transform="translate(65,75) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-2 highcharts-line-series highcharts-color-undefined " transform="translate(65,75) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Wohnbevölkerung am Jahresende nach Staatsangehörigkeit</tspan><tspan dy="17" x="10">(Schweiz/Ausland)</tspan><title>Wohnbevölkerung am Jahresende nach Staatsangehörigkeit (Schweiz/Ausland)</title>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="57"/>
-  <g class="highcharts-legend" transform="translate(55,93)">
+  <g class="highcharts-legend" transform="translate(55,45)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="367" height="30" visibility="visible"/>
     <g>
       <g>

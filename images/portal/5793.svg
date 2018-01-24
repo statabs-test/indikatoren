@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 6.0.4
+    Created with Highstock 5.0.14
   </desc>
   <defs>
     <clipPath>
@@ -44,10 +44,10 @@
     <path fill="none" class="highcharts-axis-line" d="M 31 55 L 31 349"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-line-series " transform="translate(31,55) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(31,55) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 4.3529411764706 112.69999999999999 L 13.058823529412 93.10000000000002 L 21.764705882353 98 L 30.470588235294 93.10000000000002 L 39.176470588235 98 L 47.882352941176 98 L 56.588235294118 88.19999999999999 L 65.294117647059 93.10000000000002 L 74 73.5 L 82.705882352941 53.89999999999998 L 91.411764705882 49 L 100.11764705882 44.10000000000002 L 108.82352941176 34.30000000000001 L 117.52941176471 53.89999999999998 L 126.23529411765 83.30000000000001 L 134.94117647059 78.39999999999998 L 143.64705882353 73.5 L 152.35294117647 58.80000000000001 L 161.05882352941 58.80000000000001 L 169.76470588235 53.89999999999998 L 178.47058823529 58.80000000000001 L 187.17647058824 73.5 L 195.88235294118 68.60000000000002 L 204.58823529412 58.80000000000001 L 213.29411764706 58.80000000000001 L 222 53.89999999999998 L 230.70588235294 58.80000000000001 L 239.41176470588 49 L 248.11764705882 44.10000000000002 L 256.82352941176 34.30000000000001 L 265.52941176471 49 L 274.23529411765 53.89999999999998 L 282.94117647059 63.69999999999999 L 291.64705882353 63.69999999999999 L 300.35294117647 58.80000000000001 L 309.05882352941 63.69999999999999 L 317.76470588235 63.69999999999999 L 326.47058823529 58.80000000000001 L 335.17647058824 68.60000000000002 L 343.88235294118 53.89999999999998 L 352.58823529412 68.60000000000002 L 361.29411764706 73.5 L 370 68.60000000000002 L 378.70588235294 68.60000000000002 L 387.41176470588 53.89999999999998 L 396.11764705882 44.10000000000002 L 404.82352941176 39.19999999999999 L 413.52941176471 39.19999999999999 L 422.23529411765 53.89999999999998 L 430.94117647059 44.10000000000002 L 439.64705882353 53.89999999999998" class="highcharts-graph" stroke="#8b2223" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-line-series " transform="translate(31,55) scale(1 1)" clip-path="none">
+    <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(31,55) scale(1 1)" clip-path="none">
       <path fill="#8b2223" d="M 8 113 A 4 4 0 1 1 7.999998000000167 112.99600000066667 Z" class="highcharts-point"/>
       <path fill="#8b2223" d="M 17 93 A 4 4 0 1 1 16.99999800000017 92.99600000066667 Z" class="highcharts-point"/>
       <path fill="#8b2223" d="M 25 98 A 4 4 0 1 1 24.99999800000017 97.99600000066667 Z" class="highcharts-point"/>
@@ -104,10 +104,10 @@
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Umweltverbrauch: Ökologischer Fussabdruck der Schweiz</tspan>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="40">
-    <tspan>in gloablen Hektaren pro Kopf</tspan>
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
+    <tspan>in globalen Hektaren pro Kopf</tspan>
   </text>
-  <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series " visibility="visible" transform="translate(31,55) scale(1 1)">
+  <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined " visibility="visible" transform="translate(31,55) scale(1 1)">
     <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(-5,130)">
       <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16">
         <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">3,7</tspan><tspan x="5" y="16">3,7</tspan>

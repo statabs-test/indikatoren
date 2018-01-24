@@ -100,6 +100,7 @@
       "color": "#000000"
     },
     "align": "left",
+    "useHTML": true,
     "text": "Durchschnittlicher Wohnflächenverbrauch pro Kopf"
   },
   "subtitle": {
@@ -110,7 +111,8 @@
       "color": "#000000"
     },
     "text": " in m\u003Csup\u003E2\u003C\u002Fsup\u003E",
-    "align": "left"
+    "align": "left",
+    "useHTML": true
   },
   "tooltip": {
     "shared": false,

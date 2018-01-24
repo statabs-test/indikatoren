@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 6.0.4
+    Created with Highstock 5.0.14
   </desc>
   <defs>
     <clipPath>
@@ -42,10 +42,10 @@
     <path fill="none" class="highcharts-axis-line" d="M 37 41 L 37 349"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-line-series " transform="translate(37,41) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(37,41) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 4.294117647055 56.97999999999999 L 52.006535947709 56.20999999999998 L 99.718954248364 58.52000000000001 L 147.43137254902 61.599999999999994 L 195.14379084967 62.370000000000005 L 242.85620915033 63.91 L 290.56862745098 65.44999999999999 L 338.28104575164 67.75999999999999 L 385.99346405229 68.52999999999997 L 433.70588235295 70.07" class="highcharts-graph" stroke="#8b2223" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-line-series " transform="translate(37,41) scale(1 1)" clip-path="none">
+    <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(37,41) scale(1 1)" clip-path="none">
       <path fill="#8b2223" d="M 8 57 A 4 4 0 1 1 7.999998000000167 56.99600000066666 Z" class="highcharts-point"/>
       <path fill="#8b2223" d="M 56 56 A 4 4 0 1 1 55.99999800000017 55.99600000066666 Z" class="highcharts-point"/>
       <path fill="#8b2223" d="M 103 59 A 4 4 0 1 1 102.99999800000016 58.99600000066666 Z" class="highcharts-point"/>
@@ -61,8 +61,7 @@
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Altersquotient</tspan>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="40"/>
-  <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series " visibility="visible" transform="translate(37,41) scale(1 1)">
+  <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined " visibility="visible" transform="translate(37,41) scale(1 1)">
     <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(-5,74)">
       <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16">
         <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">32,6</tspan><tspan x="5" y="16">32,6</tspan>

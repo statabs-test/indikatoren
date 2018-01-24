@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 6.0.4
+    Created with Highstock 5.0.14
   </desc>
   <defs>
     <clipPath>
@@ -40,7 +40,7 @@
     <path fill="none" class="highcharts-axis-line" d="M 110 354 L 475 354"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series " transform="translate(475,354) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(475,354) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
       <rect x="248.5" y="48.5" width="20" height="317" fill="#0F7399" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="201.5" y="196.5" width="20" height="169" fill="#0F7399" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="154.5" y="217.5" width="20" height="148" fill="#0F7399" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
@@ -48,12 +48,12 @@
       <rect x="60.5" y="315.5" width="20" height="50" fill="#0F7399" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
       <rect x="12.5" y="262.5" width="21" height="103" fill="#0F7399" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-column-series " transform="translate(475,354) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(475,354) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Beteiligung der Bevölkerung an Freiwilligenarbeit:</tspan><tspan dy="17" x="10">Tätigkeitsbereiche der freiwillig tätigen Personen</tspan><title>Beteiligung der Bevölkerung an Freiwilligenarbeit: Tätigkeitsbereiche der freiwillig tätigen Personen</title>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="57">
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="57">
     <tspan>in %</tspan>
   </text>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">

@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 6.0.4
+    Created with Highstock 5.0.14
   </desc>
   <defs>
     <clipPath>
@@ -43,10 +43,10 @@
     <path fill="none" class="highcharts-axis-line" d="M 43 41 L 43 349"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-line-series " transform="translate(43,41) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(43,41) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 4.235294117648 109.89439999999999 L 25.411764705883 106.19839999999999 L 46.588235294118 106.69120000000001 L 67.764705882354 106.19839999999999 L 88.941176470589 104.9664 L 110.11764705882 101.76319999999998 L 131.29411764706 98.06719999999999 L 152.47058823529 96.58880000000002 L 173.64705882353 95.35680000000002 L 194.82352941176 93.38560000000001 L 216 91.4144 L 237.17647058824 88.45760000000001 L 258.35294117647 83.52960000000002 L 279.52941176471 78.3552 L 300.70588235294 74.16639999999998 L 321.88235294118 71.9488 L 343.05882352941 69.4848 L 364.23529411765 68.4992 L 385.41176470588 65.78880000000001 L 406.58823529412 64.31039999999999 L 427.76470588235 61.599999999999994" class="highcharts-graph" stroke="#8b2223" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-line-series " transform="translate(43,41) scale(1 1)" clip-path="none">
+    <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(43,41) scale(1 1)" clip-path="none">
       <path fill="#8b2223" d="M 8 110 A 4 4 0 1 1 7.999998000000167 109.99600000066667 Z" class="highcharts-point"/>
       <path fill="#8b2223" d="M 29 106 A 4 4 0 1 1 28.99999800000017 105.99600000066667 Z" class="highcharts-point"/>
       <path fill="#8b2223" d="M 50 107 A 4 4 0 1 1 49.99999800000017 106.99600000066667 Z" class="highcharts-point"/>
@@ -73,8 +73,7 @@
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Mietpreisindex</tspan>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="40"/>
-  <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series " visibility="visible" transform="translate(43,41) scale(1 1)">
+  <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined " visibility="visible" transform="translate(43,41) scale(1 1)">
     <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(-5,127)">
       <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16">
         <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">80,4</tspan><tspan x="5" y="16">80,4</tspan>
