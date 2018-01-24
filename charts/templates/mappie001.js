@@ -159,14 +159,15 @@
 				divIdString = '';
 				var fn = e.target.chart.options.customFunctions;
 				//only care about zoom events, not pan
-				if (e.trigger != 'pan'){
+				//if (e.trigger != 'pan'){
 					//determine current zoom level
 					var zoom = (e.dataMax - e.dataMin) / (e.max - e.min);
 					$(divIdString + selector).each(function(){
 						var initialValue = $(this).attr('initialValue');
-						$(this).contents()[0].innerHTML = (zoom == 1) ? initialValue : 'zoom: ' + fn.legendLabelZoomFormatter(zoom); //fn.legendLabelZoomFormatter(initialValue / zoom);
+						var currentValue = (zoom == 1) ? initialValue : fn.legendLabelZoomFormatter(1.0 * initialValue / zoom / zoom); 
+						$(this).contents()[0].innerHTML = currentValue;
 					});
-				}
+				//}
 			},
 		
 			//calculate pie size using categories defined in the conf object
@@ -179,9 +180,17 @@
 			},  
 			
 			
-            //Pie size 
+			//get pie Value by pie Diameter
+			pieValue : function(size, maxAbsValue, maxPieDiameter){
+				var value = maxAbsValue * size * size / maxPieDiameter / maxPieDiameter;
+				return value;
+			},	                			
+
+
             pieSize: function(value, maxAbsValue, maxPieDiameter){
-            	
+            	var diameter = Math.sqrt(Math.abs(value) / maxAbsValue * maxPieDiameter * maxPieDiameter);
+            	return diameter;
+            	/*
             	function circleAreaByDiameter(diameter){
             		return Math.PI * diameter * diameter / 4;
             	}
@@ -190,11 +199,6 @@
             		return Math.sqrt(4 * area / Math.PI);
             	}
             	
-            	/*
-                var yAxis = chart.yAxis[0],
-                    zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
-                */
-                
 				//Negative values: return absolute value
 				//size by Area: use sqrt of value to define size
 				//var size = pieSizeMin + chart.chartWidth / 11 * pieSizeFactor *  Math.sqrt(Math.abs(value)) / maxAbsNumber; 
@@ -213,11 +217,11 @@
 				//var area = relativeValue * (maxPieArea - minPieArea) + minPieArea;
 				
 				var diameter = circleDiameterByAre(area);
-
 				return diameter;
+				*/
             }, 
 	                			
-		    
+	                			
 		    defineTemplate: function(){
 
 					//define new chart type
@@ -302,6 +306,13 @@
 				    		    
 	            //draw pies onto he map			    		    
                 drawPies: function(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color){
+                	
+                	//set publish infos to other functions
+                	var fn = chart.options.customFunctions;
+                	fn.pieSizeSeries = pieSizeSeries;
+                	fn.choroplethSeries = choroplethSeries;
+                	fn.pieSeriesConfig = pieSeriesConfig;
+                	fn.pieSizeCatConfig = pieSizeCatConfig;
                     
                     //iterate over each wohnviertel and draw the pies / bubbles
 	                Highcharts.each(pieSizeSeries.points, function (data) {
@@ -342,7 +353,7 @@
 		                        sizeFormatter: function () {
 		                            var fn = this.chart.options.customFunctions;
 									//pie diameters in px
-									var maxPieDiameter = 20;		 
+									var maxPieDiameter = fn.maxPieDiameter || 20;		 
 									//pie Size proportional to absolute value, no categories used
 		                            return fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
 		                        },

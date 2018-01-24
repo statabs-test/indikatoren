@@ -70,6 +70,7 @@ global idByKuerzel
 global kuerzelById
 global lazyRenderChartById
 global exportThumbnail
+global templatesById
 */
 
 //get kuerzel and id from url, encode to prevent xss 
@@ -78,7 +79,7 @@ var id = window.decodeURIComponent($.url('?id'));
 var suppressNumberInTitle = (window.decodeURIComponent($.url('?suppressNumberInTitle')) === 'true') ? true : false;
 
 //check if kuerzel or id is member in the list of existing charts
-if (idByKuerzel[kuerzel] || kuerzelById[id]){
+if (idByKuerzel[kuerzel] || kuerzelById[id] || templatesById[id]){
   //if no id is given, retrieve it using kuerzel (and same for kuerzel)
   if (id == 'undefined') {
     id = idByKuerzel[kuerzel];
