@@ -164,8 +164,14 @@
 					var zoom = (e.dataMax - e.dataMin) / (e.max - e.min);
 					$(divIdString + selector).each(function(){
 						var initialValue = $(this).attr('initialValue');
-						var currentValue = (zoom == 1) ? initialValue : fn.legendLabelZoomFormatter(1.0 * initialValue / zoom / zoom); 
-						$(this).contents()[0].innerHTML = currentValue;
+						//get size and data of last series in chart, this should be a pie, and check its size (diameter in px) and value to determine legend value
+						var series = e.target.chart.series;
+						var lastSeries = series[series.length-1];
+						var lastPieData = lastSeries.yData[0];
+						var lastPieSize = lastSeries.options.size;
+						var legendSize = fn.pieSize(Math.abs(initialValue), fn.getPointsExtremes(fn.pieSizeSeries.points).maxAbsNumber, fn.maxPieDiameter);
+						var legendValue = (Math.sqrt(lastPieData)*legendSize/lastPieSize) * (Math.sqrt(lastPieData)*legendSize/lastPieSize);
+						$(this).contents()[0].innerHTML = (zoom ==1)  ? initialValue : fn.legendLabelZoomFormatter(legendValue);
 					});
 				//}
 			},
