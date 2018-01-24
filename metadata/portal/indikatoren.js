@@ -8137,6 +8137,43 @@ var indikatoren = [
 		"id": 5192
 	},
 	{
+		"title": "Staatsausgaben für Kultur und Freizeit",
+		"subtitle": "pro Kopf in Franken",
+		"kuerzel": "I.18.1.05193",
+		"kuerzelKunde": "GW15",
+		"description": "Staatsausgaben für Kultur und Freizeit",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Staatsrechnung",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Steuer"
+		],
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
+		"stufe2": "Bildung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Ausgaben im Bereich Kultur, Sport und Freizeit, Kirche sindzwischen 2005 und 2013 von rund 1 030 Fr. auf ca. 1 290 Fr. proKopf und Jahr gestiegen.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"visibleInPortal": true,
+		"orderKey": "03_05_00_00_00_315",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Eidgenössische Finanzverwaltung"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5193
+	},
+	{
 		"title": "Mietpreisindex",
 		"subtitle": "",
 		"kuerzel": "I.09.3.05196",

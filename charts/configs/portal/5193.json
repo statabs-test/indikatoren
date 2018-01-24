@@ -1,459 +1,188 @@
 {
   "series": [
     {
-      "color": "#256370",
-      "index": 10,
-      "yAxis": 0,
-      "visible": true,
+      "color": "#007a2f",
+      "index": 0,
+      "legendIndex": 0,
       "data": [
         [
-          2008,
+          "2008",
           4216
         ],
         [
-          2009,
+          "2009",
           1022
         ],
         [
-          2010,
+          "2010",
           2007
         ],
         [
-          2011,
+          "2011",
           1908
         ],
         [
-          2012,
+          "2012",
           1130
         ],
         [
-          2013,
+          "2013",
           1278
         ],
         [
-          2014,
+          "2014",
           1457
         ],
         [
-          2015,
+          "2015",
           1807
         ]
       ],
-      "name": "Allg. Verwaltung"
+      "name": "Allg. Verwaltung",
+      "turboThreshold": 0
     },
     {
-      "color": "#a8c4cb",
-      "index": 9,
-      "yAxis": 0,
-      "visible": true,
+      "color": "#68ab2b",
+      "index": 1,
+      "legendIndex": 1,
       "data": [
         [
-          2008,
+          "2008",
           1869
         ],
         [
-          2009,
+          "2009",
           1762
         ],
         [
-          2010,
+          "2010",
           1806
         ],
         [
-          2011,
+          "2011",
           1895
         ],
         [
-          2012,
+          "2012",
           1997
         ],
         [
-          2013,
+          "2013",
           2153
         ],
         [
-          2014,
+          "2014",
           2174
         ],
         [
-          2015,
+          "2015",
           2181
         ]
       ],
-      "name": "Öff. Sicherheit"
+      "name": "Öff. Sicherheit",
+      "turboThreshold": 0
     },
     {
-      "color": "#ffbb58",
-      "index": 8,
-      "yAxis": 0,
-      "visible": true,
+      "color": "#923f8d",
+      "index": 2,
+      "legendIndex": 2,
       "data": [
         [
-          2008,
+          "2008",
           5872
         ],
         [
-          2009,
+          "2009",
           6056
         ],
         [
-          2010,
+          "2010",
           6169
         ],
         [
-          2011,
+          "2011",
           6333
         ],
         [
-          2012,
+          "2012",
           6842
         ],
         [
-          2013,
+          "2013",
           7068
         ],
         [
-          2014,
+          "2014",
           7437
         ],
         [
-          2015,
+          "2015",
           7803
         ]
       ],
-      "name": "Bildung"
+      "name": "Bildung",
+      "turboThreshold": 0
     },
     {
-      "color": "#b475ab",
-      "index": 7,
-      "yAxis": 0,
-      "visible": true,
+      "color": "#b375ab",
+      "index": 3,
+      "legendIndex": 3,
       "data": [
         [
-          2008,
+          "2008",
           1303
         ],
         [
-          2009,
+          "2009",
           1170
         ],
         [
-          2010,
+          "2010",
           1204
         ],
         [
-          2011,
+          "2011",
           1259
         ],
         [
-          2012,
+          "2012",
           1373
         ],
         [
-          2013,
+          "2013",
           1293
         ],
         [
-          2014,
+          "2014",
           1458
         ],
         [
-          2015,
+          "2015",
           1680
         ]
       ],
-      "name": "Kultur und Sport"
-    },
-    {
-      "color": "#44ab2b",
-      "index": 6,
-      "yAxis": 0,
-      "visible": true,
-      "data": [
-        [
-          2008,
-          3119
-        ],
-        [
-          2009,
-          3398
-        ],
-        [
-          2010,
-          3300
-        ],
-        [
-          2011,
-          3379
-        ],
-        [
-          2012,
-          4588
-        ],
-        [
-          2013,
-          3109
-        ],
-        [
-          2014,
-          3098
-        ],
-        [
-          2015,
-          3094
-        ]
-      ],
-      "name": "Gesundheit"
-    },
-    {
-      "color": "#007a2f",
-      "index": 5,
-      "yAxis": 0,
-      "visible": true,
-      "data": [
-        [
-          2008,
-          3792
-        ],
-        [
-          2009,
-          4035
-        ],
-        [
-          2010,
-          4133
-        ],
-        [
-          2011,
-          4332
-        ],
-        [
-          2012,
-          4587
-        ],
-        [
-          2013,
-          4603
-        ],
-        [
-          2014,
-          4912
-        ],
-        [
-          2015,
-          4557
-        ]
-      ],
-      "name": "Soziale Sicherheit"
-    },
-    {
-      "color": "#672773",
-      "index": 4,
-      "yAxis": 0,
-      "visible": true,
-      "data": [
-        [
-          2008,
-          800
-        ],
-        [
-          2009,
-          670
-        ],
-        [
-          2010,
-          652
-        ],
-        [
-          2011,
-          657
-        ],
-        [
-          2012,
-          923
-        ],
-        [
-          2013,
-          1596
-        ],
-        [
-          2014,
-          1313
-        ],
-        [
-          2015,
-          1440
-        ]
-      ],
-      "name": "Verkehr"
-    },
-    {
-      "color": "#b00000",
-      "index": 3,
-      "yAxis": 0,
-      "visible": true,
-      "data": [
-        [
-          2008,
-          616
-        ],
-        [
-          2009,
-          479
-        ],
-        [
-          2010,
-          495
-        ],
-        [
-          2011,
-          501
-        ],
-        [
-          2012,
-          453
-        ],
-        [
-          2013,
-          440
-        ],
-        [
-          2014,
-          420
-        ],
-        [
-          2015,
-          464
-        ]
-      ],
-      "name": "Umweltschutz"
-    },
-    {
-      "color": "#ff8028",
-      "index": 2,
-      "yAxis": 0,
-      "visible": true,
-      "data": [
-        [
-          2008,
-          240
-        ],
-        [
-          2009,
-          447
-        ],
-        [
-          2010,
-          730
-        ],
-        [
-          2011,
-          180
-        ],
-        [
-          2012,
-          88
-        ],
-        [
-          2013,
-          85
-        ],
-        [
-          2014,
-          120
-        ],
-        [
-          2015,
-          598
-        ]
-      ],
-      "name": "Volkswirtschaft"
-    },
-    {
-      "color": "#cd9c00",
-      "index": 1,
-      "yAxis": 0,
-      "visible": true,
-      "data": [
-        [
-          2008,
-          1397
-        ],
-        [
-          2009,
-          1417
-        ],
-        [
-          2010,
-          1334
-        ],
-        [
-          2011,
-          1415
-        ],
-        [
-          2012,
-          1395
-        ],
-        [
-          2013,
-          1738
-        ],
-        [
-          2014,
-          1649
-        ],
-        [
-          2015,
-          1523
-        ]
-      ],
-      "name": "Finanzen, Steuern"
-    },
-    {
-      "color": "#E6E6E6",
-      "index": 0,
-      "legendIndex": 12,
-      "type": "column",
-      "borderWidth": 0,
-      "yAxis": 1,
-      "data": [
-        [
-          2008,
-          23224
-        ],
-        [
-          2009,
-          20456
-        ],
-        [
-          2010,
-          21830
-        ],
-        [
-          2011,
-          21860
-        ],
-        [
-          2012,
-          23376
-        ],
-        [
-          2013,
-          23363
-        ],
-        [
-          2014,
-          24011
-        ],
-        [
-          2015,
-          25147
-        ]
-      ],
-      "name": "Total (rechte Skala)"
+      "name": "Kultur und Sport",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
@@ -480,6 +209,9 @@
             }
           }
     },
+    "marginBottom": 75,
+    "type": "column",
+    "inverted": false,
     "renderTo": "container-5193"
   },
   "plotOptions": {
@@ -489,14 +221,10 @@
         "style": {
           "fontSize": "10px"
         }
-      }
-    },
-    "line": {
-      "connectNulls": true,
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
+      },
+      "pointPadding": 100,
+      "pointWidth": 30,
+      "stacking": "normal"
     }
   },
   "title": {
@@ -506,7 +234,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Entwicklung der Staatsausgaben nach Funktion"
+    "text": "Staatsausgaben für Kultur und Freizeit"
   },
   "subtitle": {
     "style": {
@@ -518,53 +246,24 @@
     "text": "pro Kopf in Franken",
     "align": "left"
   },
-  "xAxis": {
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "uniqueNames": true,
     "title": {
       "style": {
-        "color": "#000000"
-      }
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
     },
     "labels": {
       "style": {
         "color": "#000000"
-      }
-    },
-    "tickLength": 0,
-    "tickInterval": 1
-  },
-  "yAxis": [
-    {
-      "labels": {
-        "format": "{value:,.0f}",
-        "style": {
-          "color": "#000000"
-        }
       },
-      "min": 0,
-      "title": ""
-    },
-    {
-      "title": {
-        "style": {
-          "color": "#000000",
-          "fontSize": null
-        },
-        "text": null
-      },
-      "labels": {
-        "format": "{value:,.0f}",
-        "style": {
-          "color": "#000000"
-        }
-      },
-      "min": 0,
-      "gridLineWidth": 0,
-      "opposite": true
+      "format": "{value:,.0f}"
     }
-  ],
+  },
   "navigation": {
     "menuItemStyle": {
       "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
@@ -589,19 +288,18 @@
   "legend": {
     "symbolRadius": 0,
     "enabled": true,
-    "y": 35,
-    "itemWidth": 200,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
     "align": "left",
+    "y": 40,
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
+    "shared": true
   },
   "exporting": {
     "filename": 5193

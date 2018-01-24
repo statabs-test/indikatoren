@@ -968,9 +968,10 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
+    "reversed": true,
     "y": 40,
     "x": 45,
-    "itemWidth": 130,
+    "itemWidth": 138,
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"

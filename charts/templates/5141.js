@@ -28,12 +28,13 @@
   },
   "legend": {
     "enabled": true,
+    "reversed": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
 	"y": 40,
 	"x": 45,
- 	itemWidth: 130,
+ 	itemWidth: 138,
 	"itemMarginBottom": 5,
     "itemStyle": {
     "fontWeight": "normal"
