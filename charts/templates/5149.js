@@ -4,31 +4,32 @@
     //"tickInterval": 2
   },
   "yAxis": {
-	"labels": {
-		"format": "{value:,.0f}"
-	}
+  	"labels": {
+  		"format": "{value:,.0f}"
+  	}
   },	
   "tooltip": {
     "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}</b><br/>'
+	  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}</b><br/>'
   },
   "series": [
-    {"color": "#008AC3",
-    legendIndex: 0,
+    {
+      "color": "#008AC3",
+      legendIndex: 0,
       "marker": {
         "enabled": false
-      }    
+      }
     }, /* grün */
-    	{"color": "#68AB2B",
-	visible:true,
-	legendIndex: 2,
+    {
+      "color": "#68AB2B",
+      legendIndex: 1,
       "marker": {
         "enabled": false
       }    
     }, /* blau */
-    	{"color": "#3C3C3C",
-	legendIndex: 1,
-	visible:true,
+    {
+      "color": "#3C3C3C",
+	    legendIndex: 2,
       "marker": {
         "enabled": true
       }    
@@ -38,10 +39,10 @@
     "enabled": true,
     //"x": 45,
     "y": 35,
-    "itemWidth": 500,
+    "itemWidth": 100,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
+    //"itemMarginBottom": 5,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
@@ -56,6 +57,6 @@
       }
     }
   }
-}
+};
 }());
  

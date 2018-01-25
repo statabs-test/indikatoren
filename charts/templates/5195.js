@@ -64,11 +64,12 @@
   "legend": {
     "layout": "vertical",
     "verticalAlign": "middle",
+    //"y": 25,
     "itemMarginBottom": 7,
     "align": "right",
     "itemStyle": {
       "fontWeight": "normal", 
-      "width": 85
+      "width": 95
     }
   },
   "series": [

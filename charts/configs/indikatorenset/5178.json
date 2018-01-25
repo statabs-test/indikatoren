@@ -1,205 +1,205 @@
 {
   "series": [
     {
-      "color": "#C8C8C8",
-      "index": 1,
+      "color": "#007A2F",
+      "index": 5,
       "legendIndex": 1,
       "data": [
         [
-          "Parkplätze",
-          10
-        ],
-        [
-          "Wohnungsangebot",
-          10
-        ],
-        [
-          "Kinderbetreuung",
-          10
-        ],
-        [
-          "Jugendeinrichtungen",
-          10
-        ],
-        [
-          "Behinderteneinrichtungen",
-          10
-        ],
-        [
-          "Arbeitsplatzangebot",
-          10
-        ],
-        [
-          "Schule, Bildung",
-          10
-        ],
-        [
-          "Senioreneinrichtungen",
-          10
-        ],
-        [
-          "Sauberkeit",
-          10
-        ],
-        [
-          "Öffentliche Sicherheit",
-          10
-        ],
-        [
-          "Lärmsituation",
-          10
-        ],
-        [
-          "Luftqualität",
-          10
-        ],
-        [
-          "Bevölkerung",
-          10
-        ],
-        [
-          "Quartierleben",
-          10
-        ],
-        [
-          "Gebäude\u002FStrassenbild",
-          10
-        ],
-        [
-          "Verkehrssicherheit",
-          10
-        ],
-        [
-          "Einkaufsmögl. im Quartier",
-          10
-        ],
-        [
-          "Kulturangebot",
-          10
-        ],
-        [
-          "Grünanlagen",
-          10
-        ],
-        [
-          "Abfallbeseitigung",
-          10
-        ],
-        [
-          "Gesundheitsversorgung",
-          10
+          "Einkaufsmögl. In Basel",
+          745
         ],
         [
           "ÖV-Angebot",
-          10
+          1035
         ],
         [
-          "Einkaufsmögl. in Basel",
-          10
+          "Gesundheitsversorgung",
+          777
+        ],
+        [
+          "Abfallbeseitigung",
+          736
+        ],
+        [
+          "Grünanlagen",
+          747
+        ],
+        [
+          "Kulturangebot",
+          650
+        ],
+        [
+          "Einkaufsmögl. Im Quartier",
+          700
+        ],
+        [
+          "Verkehrssicherheit",
+          367
+        ],
+        [
+          "Gebäude\u002FStrassenbild",
+          346
+        ],
+        [
+          "Quartierleben",
+          394
+        ],
+        [
+          "Zusammensetz. Quartier-Bevölkerung",
+          315
+        ],
+        [
+          "Luftqualität",
+          282
+        ],
+        [
+          "Lärmsituation",
+          441
+        ],
+        [
+          "Öffentliche Sicherheit",
+          317
+        ],
+        [
+          "Sauberkeit",
+          428
+        ],
+        [
+          "Senioreneinrichtungen",
+          276
+        ],
+        [
+          "Schule. Bildung",
+          388
+        ],
+        [
+          "Arbeitsplatzangebot",
+          156
+        ],
+        [
+          "Behinderteneinrichtungen",
+          188
+        ],
+        [
+          "Jugendeinrichtungen",
+          149
+        ],
+        [
+          "Kinderbetreuung",
+          179
+        ],
+        [
+          "Wohnungsangebot",
+          152
+        ],
+        [
+          "Parkplätze",
+          115
         ]
       ],
-      "name": "Weiss nicht\u002Fk.A.",
+      "name": "Sehr zufrieden",
       "turboThreshold": 0
     },
     {
-      "color": "#CD9C00",
-      "index": 2,
+      "color": "#73B97C",
+      "index": 4,
       "legendIndex": 2,
       "data": [
         [
-          "Parkplätze",
-          20
-        ],
-        [
-          "Wohnungsangebot",
-          20
-        ],
-        [
-          "Kinderbetreuung",
-          20
-        ],
-        [
-          "Jugendeinrichtungen",
-          20
-        ],
-        [
-          "Behinderteneinrichtungen",
-          20
-        ],
-        [
-          "Arbeitsplatzangebot",
-          20
-        ],
-        [
-          "Schule, Bildung",
-          20
-        ],
-        [
-          "Senioreneinrichtungen",
-          20
-        ],
-        [
-          "Sauberkeit",
-          20
-        ],
-        [
-          "Öffentliche Sicherheit",
-          20
-        ],
-        [
-          "Lärmsituation",
-          20
-        ],
-        [
-          "Luftqualität",
-          20
-        ],
-        [
-          "Bevölkerung",
-          20
-        ],
-        [
-          "Quartierleben",
-          20
-        ],
-        [
-          "Gebäude\u002FStrassenbild",
-          20
-        ],
-        [
-          "Verkehrssicherheit",
-          20
-        ],
-        [
-          "Einkaufsmögl. im Quartier",
-          20
-        ],
-        [
-          "Kulturangebot",
-          20
-        ],
-        [
-          "Grünanlagen",
-          20
-        ],
-        [
-          "Abfallbeseitigung",
-          20
-        ],
-        [
-          "Gesundheitsversorgung",
-          20
+          "Einkaufsmögl. In Basel",
+          688
         ],
         [
           "ÖV-Angebot",
-          20
+          397
         ],
         [
-          "Einkaufsmögl. in Basel",
-          20
+          "Gesundheitsversorgung",
+          644
+        ],
+        [
+          "Abfallbeseitigung",
+          645
+        ],
+        [
+          "Grünanlagen",
+          626
+        ],
+        [
+          "Kulturangebot",
+          693
+        ],
+        [
+          "Einkaufsmögl. Im Quartier",
+          631
+        ],
+        [
+          "Verkehrssicherheit",
+          922
+        ],
+        [
+          "Gebäude\u002FStrassenbild",
+          904
+        ],
+        [
+          "Quartierleben",
+          829
+        ],
+        [
+          "Zusammensetz. Quartier-Bevölkerung",
+          885
+        ],
+        [
+          "Luftqualität",
+          930
+        ],
+        [
+          "Lärmsituation",
+          750
+        ],
+        [
+          "Öffentliche Sicherheit",
+          831
+        ],
+        [
+          "Sauberkeit",
+          698
+        ],
+        [
+          "Senioreneinrichtungen",
+          802
+        ],
+        [
+          "Schule. Bildung",
+          579
+        ],
+        [
+          "Arbeitsplatzangebot",
+          643
+        ],
+        [
+          "Behinderteneinrichtungen",
+          658
+        ],
+        [
+          "Jugendeinrichtungen",
+          662
+        ],
+        [
+          "Kinderbetreuung",
+          348
+        ],
+        [
+          "Wohnungsangebot",
+          551
+        ],
+        [
+          "Parkplätze",
+          380
         ]
       ],
-      "name": "Ganz unzufrieden",
+      "name": "Eher zufrieden",
       "turboThreshold": 0
     },
     {
@@ -208,301 +208,301 @@
       "legendIndex": 3,
       "data": [
         [
-          "Parkplätze",
-          30
-        ],
-        [
-          "Wohnungsangebot",
-          30
-        ],
-        [
-          "Kinderbetreuung",
-          30
-        ],
-        [
-          "Jugendeinrichtungen",
-          30
-        ],
-        [
-          "Behinderteneinrichtungen",
-          30
-        ],
-        [
-          "Arbeitsplatzangebot",
-          30
-        ],
-        [
-          "Schule, Bildung",
-          30
-        ],
-        [
-          "Senioreneinrichtungen",
-          30
-        ],
-        [
-          "Sauberkeit",
-          30
-        ],
-        [
-          "Öffentliche Sicherheit",
-          30
-        ],
-        [
-          "Lärmsituation",
-          30
-        ],
-        [
-          "Luftqualität",
-          30
-        ],
-        [
-          "Bevölkerung",
-          30
-        ],
-        [
-          "Quartierleben",
-          30
-        ],
-        [
-          "Gebäude\u002FStrassenbild",
-          30
-        ],
-        [
-          "Verkehrssicherheit",
-          30
-        ],
-        [
-          "Einkaufsmögl. im Quartier",
-          30
-        ],
-        [
-          "Kulturangebot",
-          30
-        ],
-        [
-          "Grünanlagen",
-          30
-        ],
-        [
-          "Abfallbeseitigung",
-          30
-        ],
-        [
-          "Gesundheitsversorgung",
-          30
+          "Einkaufsmögl. In Basel",
+          48
         ],
         [
           "ÖV-Angebot",
-          30
+          53
         ],
         [
-          "Einkaufsmögl. in Basel",
-          30
+          "Gesundheitsversorgung",
+          44
+        ],
+        [
+          "Abfallbeseitigung",
+          87
+        ],
+        [
+          "Grünanlagen",
+          110
+        ],
+        [
+          "Kulturangebot",
+          69
+        ],
+        [
+          "Einkaufsmögl. Im Quartier",
+          152
+        ],
+        [
+          "Verkehrssicherheit",
+          173
+        ],
+        [
+          "Gebäude\u002FStrassenbild",
+          181
+        ],
+        [
+          "Quartierleben",
+          114
+        ],
+        [
+          "Zusammensetz. Quartier-Bevölkerung",
+          156
+        ],
+        [
+          "Luftqualität",
+          220
+        ],
+        [
+          "Lärmsituation",
+          235
+        ],
+        [
+          "Öffentliche Sicherheit",
+          287
+        ],
+        [
+          "Sauberkeit",
+          319
+        ],
+        [
+          "Senioreneinrichtungen",
+          109
+        ],
+        [
+          "Schule. Bildung",
+          98
+        ],
+        [
+          "Arbeitsplatzangebot",
+          205
+        ],
+        [
+          "Behinderteneinrichtungen",
+          189
+        ],
+        [
+          "Jugendeinrichtungen",
+          262
+        ],
+        [
+          "Kinderbetreuung",
+          70
+        ],
+        [
+          "Wohnungsangebot",
+          401
+        ],
+        [
+          "Parkplätze",
+          299
         ]
       ],
       "name": "Eher unzufrieden",
       "turboThreshold": 0
     },
     {
-      "color": "#73B97C",
-      "index": 4,
+      "color": "#CD9C00",
+      "index": 2,
       "legendIndex": 4,
       "data": [
         [
-          "Parkplätze",
-          40
-        ],
-        [
-          "Wohnungsangebot",
-          40
-        ],
-        [
-          "Kinderbetreuung",
-          40
-        ],
-        [
-          "Jugendeinrichtungen",
-          40
-        ],
-        [
-          "Behinderteneinrichtungen",
-          40
-        ],
-        [
-          "Arbeitsplatzangebot",
-          40
-        ],
-        [
-          "Schule, Bildung",
-          40
-        ],
-        [
-          "Senioreneinrichtungen",
-          40
-        ],
-        [
-          "Sauberkeit",
-          40
-        ],
-        [
-          "Öffentliche Sicherheit",
-          40
-        ],
-        [
-          "Lärmsituation",
-          40
-        ],
-        [
-          "Luftqualität",
-          40
-        ],
-        [
-          "Bevölkerung",
-          40
-        ],
-        [
-          "Quartierleben",
-          40
-        ],
-        [
-          "Gebäude\u002FStrassenbild",
-          40
-        ],
-        [
-          "Verkehrssicherheit",
-          40
-        ],
-        [
-          "Einkaufsmögl. im Quartier",
-          40
-        ],
-        [
-          "Kulturangebot",
-          40
-        ],
-        [
-          "Grünanlagen",
-          40
-        ],
-        [
-          "Abfallbeseitigung",
-          40
-        ],
-        [
-          "Gesundheitsversorgung",
-          40
+          "Einkaufsmögl. In Basel",
+          2
         ],
         [
           "ÖV-Angebot",
-          40
+          4
         ],
         [
-          "Einkaufsmögl. in Basel",
-          40
+          "Gesundheitsversorgung",
+          6
+        ],
+        [
+          "Abfallbeseitigung",
+          29
+        ],
+        [
+          "Grünanlagen",
+          14
+        ],
+        [
+          "Kulturangebot",
+          6
+        ],
+        [
+          "Einkaufsmögl. Im Quartier",
+          17
+        ],
+        [
+          "Verkehrssicherheit",
+          23
+        ],
+        [
+          "Gebäude\u002FStrassenbild",
+          22
+        ],
+        [
+          "Quartierleben",
+          10
+        ],
+        [
+          "Zusammensetz. Quartier-Bevölkerung",
+          20
+        ],
+        [
+          "Luftqualität",
+          36
+        ],
+        [
+          "Lärmsituation",
+          66
+        ],
+        [
+          "Öffentliche Sicherheit",
+          53
+        ],
+        [
+          "Sauberkeit",
+          53
+        ],
+        [
+          "Senioreneinrichtungen",
+          7
+        ],
+        [
+          "Schule. Bildung",
+          11
+        ],
+        [
+          "Arbeitsplatzangebot",
+          28
+        ],
+        [
+          "Behinderteneinrichtungen",
+          15
+        ],
+        [
+          "Jugendeinrichtungen",
+          16
+        ],
+        [
+          "Kinderbetreuung",
+          7
+        ],
+        [
+          "Wohnungsangebot",
+          80
+        ],
+        [
+          "Parkplätze",
+          230
         ]
       ],
-      "name": "Eher zufrieden",
+      "name": "Ganz unzufrieden",
       "turboThreshold": 0
     },
     {
-      "color": "#007A2F",
-      "index": 5,
+      "color": "#C8C8C8",
+      "index": 1,
       "legendIndex": 5,
       "data": [
         [
-          "Parkplätze",
-          50
-        ],
-        [
-          "Wohnungsangebot",
-          50
-        ],
-        [
-          "Kinderbetreuung",
-          50
-        ],
-        [
-          "Jugendeinrichtungen",
-          50
-        ],
-        [
-          "Behinderteneinrichtungen",
-          50
-        ],
-        [
-          "Arbeitsplatzangebot",
-          50
-        ],
-        [
-          "Schule, Bildung",
-          50
-        ],
-        [
-          "Senioreneinrichtungen",
-          50
-        ],
-        [
-          "Sauberkeit",
-          50
-        ],
-        [
-          "Öffentliche Sicherheit",
-          50
-        ],
-        [
-          "Lärmsituation",
-          50
-        ],
-        [
-          "Luftqualität",
-          50
-        ],
-        [
-          "Bevölkerung",
-          50
-        ],
-        [
-          "Quartierleben",
-          50
-        ],
-        [
-          "Gebäude\u002FStrassenbild",
-          50
-        ],
-        [
-          "Verkehrssicherheit",
-          50
-        ],
-        [
-          "Einkaufsmögl. im Quartier",
-          50
-        ],
-        [
-          "Kulturangebot",
-          50
-        ],
-        [
-          "Grünanlagen",
-          50
-        ],
-        [
-          "Abfallbeseitigung",
-          50
-        ],
-        [
-          "Gesundheitsversorgung",
-          50
+          "Einkaufsmögl. In Basel",
+          15
         ],
         [
           "ÖV-Angebot",
-          50
+          13
         ],
         [
-          "Einkaufsmögl. in Basel",
-          50
+          "Gesundheitsversorgung",
+          32
+        ],
+        [
+          "Abfallbeseitigung",
+          5
+        ],
+        [
+          "Grünanlagen",
+          7
+        ],
+        [
+          "Kulturangebot",
+          77
+        ],
+        [
+          "Einkaufsmögl. Im Quartier",
+          3
+        ],
+        [
+          "Verkehrssicherheit",
+          16
+        ],
+        [
+          "Gebäude\u002FStrassenbild",
+          36
+        ],
+        [
+          "Quartierleben",
+          136
+        ],
+        [
+          "Zusammensetz. Quartier-Bevölkerung",
+          82
+        ],
+        [
+          "Luftqualität",
+          37
+        ],
+        [
+          "Lärmsituation",
+          5
+        ],
+        [
+          "Öffentliche Sicherheit",
+          12
+        ],
+        [
+          "Sauberkeit",
+          6
+        ],
+        [
+          "Senioreneinrichtungen",
+          291
+        ],
+        [
+          "Schule. Bildung",
+          263
+        ],
+        [
+          "Arbeitsplatzangebot",
+          351
+        ],
+        [
+          "Behinderteneinrichtungen",
+          427
+        ],
+        [
+          "Jugendeinrichtungen",
+          381
+        ],
+        [
+          "Kinderbetreuung",
+          431
+        ],
+        [
+          "Wohnungsangebot",
+          202
+        ],
+        [
+          "Parkplätze",
+          378
         ]
       ],
-      "name": "Sehr zufrieden",
+      "name": "keine Angaben",
       "turboThreshold": 0
     }
   ],
@@ -560,8 +560,8 @@
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 600,
-    "height": 600,
+    "width": 485,
+    "height": 700,
     "spacingBottom": 30,
     "style": {
       "fontFamily": "Arial"
@@ -649,10 +649,10 @@
     "text": "Quelle: Bevölkerungsbefragung Basel-Stadt 2015, Frage F6"
   },
   "legend": {
-    "layout": "vertical",
-    "verticalAlign": "middle",
+    "layout": "horizontal",
+    "verticalAlign": "top",
     "itemMarginBottom": 5,
-    "align": "right",
+    "align": "left",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal"
@@ -660,7 +660,9 @@
     "symbolRadius": 0,
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
-        }
+        },
+    "y": 60,
+    "itemWidth": 130
   },
   "exporting": {
     "filename": 5178

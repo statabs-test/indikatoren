@@ -32,7 +32,7 @@
         text: null
     },
     "labels": {
-      "format": "{value:,.1f}",
+      "format": "{value:,.0f}%",
        "style": {
        "color": "#000000"
         },
@@ -69,7 +69,7 @@
         "enabled": false
     },
     "tooltip": {
-    		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}</b><br/>',
+    		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}%</b><br/>',
      }
     }
   ],

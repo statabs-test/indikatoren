@@ -32,19 +32,26 @@
             	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
             }
         } 
-      },  
-      "series": [
-        {"color": "#C8C8C8", index: 1, legendIndex: 1}, /*grau*/
-        {"color": "#CD9C00", index: 2, legendIndex: 2}, /*dunkelrot*/
+    },  
+    "series": [
+        {"color": "#007A2F", index: 5, legendIndex: 1}, /*dunkelgrün*/
+        {"color": "#73B97C", index: 4, legendIndex: 2}, /*hellgrün*/
         {"color": "#FABD24", index: 3, legendIndex: 3}, /*hellrot*/
-        {"color": "#73B97C", index: 4, legendIndex: 4}, /*hellgrün*/
-        {"color": "#007A2F", index: 5, legendIndex: 5} /*dunkelgrün*/
-      ],
+        {"color": "#CD9C00", index: 2, legendIndex: 4}, /*dunkelrot*/
+        {"color": "#C8C8C8", index: 1, legendIndex: 5} /*grau*/
+    ],
+    "legend": {
+        "layout": "horizontal",
+        "verticalAlign": "top",
+        "align": "left",
+        "y": 60,
+        "itemWidth": 130,
+    },
     "chart": {      
     	 marginLeft: 200,
          inverted: true,
-         "width": 600,
-         height: 600,
+         //"width": 600,
+         height: 700,
       },
     };
 }());

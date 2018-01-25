@@ -24,7 +24,7 @@
             }     
         },
         yAxis:[{
-            //max: 1000,
+            max: 2000,
             //tickInterval: 6000,
             min:0,
             title: {
@@ -76,31 +76,30 @@
             reversed: false,
             linkedTo: 0
         }],
-		plotOptions: {
-            column: {
-                stacking: 'normal'
-            }
-		},
 		series: [
             {
               color: "#B00000", // rot
               stacking: 'normal',
-              stack: 'male'
+              stack: 'male',
+              legendIndex: 0
             }, 
             {
               color: "#008AC3", //blau
               stacking: 'normal',
-              stack: 'male'
+              stack: 'male',
+              legendIndex: 2
             },
             {
               color: "#d00000", // rot
               stacking: 'normal',
-              stack: 'female'
+              stack: 'female',
+              legendIndex: 1
             }, 
             {
               color: "#00bAf3", //blau
               stacking: 'normal',
-              stack: 'female'
+              stack: 'female',
+              legendIndex: 3
             }
 	    ],
         "legend": {
@@ -109,7 +108,8 @@
             "verticalAlign": "top",
             "align": "left",
            	"y": 55,
-           	"itemWidth": 150,
+           	//"x": 105,
+           	"itemWidth": 140,
             "itemStyle": {
                 "fontWeight": "normal"
             }
@@ -123,7 +123,6 @@
                     var v = Math.sqrt(this.y*this.y); //make - to + again
                     s += '<span style="color:'+point.series.color+'">\u25CF</span> '+point.series.name+': <b>'+v+'</b><br/>';
                     sum += v;
-                    
                 });
                 s += 'Total: <b>'+ sum + '</b>';
                 return s;
@@ -132,6 +131,22 @@
         },
         "chart":{
          	marginRight: 15,
-        },
+            events: { // copied from resp. overwrite /charts/templates/populationPyramid001.js
+                load: function(){
+                    this.credits.element.onclick = function() {};
+                    
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top'){
+                      this.update(
+                        {
+                          legend: {
+                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding + 105 //fixed offset instead of /charts/templates/populationPyramid001.js
+                          }
+                        }
+                      );
+                    }
+                },
+            }
+        }
 	};
 }());

@@ -17,7 +17,7 @@
 "stufe5":"", 
 "lesehilfe":"",
 "erlaeuterungen":"Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat.<br><br>Die Summe der Tage eines Jahres, an denen das Maximum der Lufttemperatur über 30 °C liegt ergibt die Anzahl Hitzetage pro Jahr. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33&#039; N / 7°35&#039; E).",
-"template":"dotplot",
+"template":"line001",
 "visible":true,
 "visibleInPortal":true,
 "orderKey":"04_02_00_00_00_412",

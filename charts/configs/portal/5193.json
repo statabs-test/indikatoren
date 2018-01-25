@@ -6,122 +6,131 @@
       "legendIndex": 0,
       "data": [
         [
-          "2008",
-          4216
+          2005,
+          379.1
         ],
         [
-          "2009",
-          1022
+          2006,
+          366.5
         ],
         [
-          "2010",
-          2007
+          2007,
+          413.7
         ],
         [
-          "2011",
-          1908
+          2008,
+          426.1
         ],
         [
-          "2012",
-          1130
+          2009,
+          478.1
         ],
         [
-          "2013",
-          1278
+          2010,
+          493.3
         ],
         [
-          "2014",
-          1457
+          2011,
+          506.8
         ],
         [
-          "2015",
-          1807
+          2012,
+          572.6
+        ],
+        [
+          2013,
+          515
         ]
       ],
-      "name": "Allg. Verwaltung",
-      "turboThreshold": 0
+      "name": "Kulturerbe"
     },
     {
       "color": "#68ab2b",
       "index": 1,
-      "legendIndex": 1,
+      "legendIndex": 2,
       "data": [
         [
-          "2008",
-          1869
+          2005,
+          338.7
         ],
         [
-          "2009",
-          1762
+          2006,
+          352
         ],
         [
-          "2010",
-          1806
+          2007,
+          353.2
         ],
         [
-          "2011",
-          1895
+          2008,
+          373.1
         ],
         [
-          "2012",
-          1997
+          2009,
+          347.9
         ],
         [
-          "2013",
-          2153
+          2010,
+          344.9
         ],
         [
-          "2014",
-          2174
+          2011,
+          355.2
         ],
         [
-          "2015",
-          2181
+          2012,
+          372.5
+        ],
+        [
+          2013,
+          370.4
         ]
       ],
-      "name": "Öff. Sicherheit",
-      "turboThreshold": 0
+      "name": "Kultur, übrige"
     },
     {
       "color": "#923f8d",
       "index": 2,
-      "legendIndex": 2,
+      "legendIndex": 1,
       "data": [
         [
-          "2008",
-          5872
+          2005,
+          311.3
         ],
         [
-          "2009",
-          6056
+          2006,
+          335.8
         ],
         [
-          "2010",
-          6169
+          2007,
+          368.7
         ],
         [
-          "2011",
-          6333
+          2008,
+          504.2
         ],
         [
-          "2012",
-          6842
+          2009,
+          344.3
         ],
         [
-          "2013",
-          7068
+          2010,
+          366.1
         ],
         [
-          "2014",
-          7437
+          2011,
+          397
         ],
         [
-          "2015",
-          7803
+          2012,
+          423.9
+        ],
+        [
+          2013,
+          403.3
         ]
       ],
-      "name": "Bildung",
-      "turboThreshold": 0
+      "name": "Sport und Freizeit"
     },
     {
       "color": "#b375ab",
@@ -129,60 +138,45 @@
       "legendIndex": 3,
       "data": [
         [
-          "2008",
-          1303
+          2005,
+          0
         ],
         [
-          "2009",
-          1170
+          2006,
+          0
         ],
         [
-          "2010",
-          1204
+          2007,
+          0
         ],
         [
-          "2011",
-          1259
+          2008,
+          0
         ],
         [
-          "2012",
-          1373
+          2009,
+          0
         ],
         [
-          "2013",
-          1293
+          2010,
+          0
         ],
         [
-          "2014",
-          1458
+          2011,
+          0
         ],
         [
-          "2015",
-          1680
+          2012,
+          4.4
+        ],
+        [
+          2013,
+          4.5
         ]
       ],
-      "name": "Kultur und Sport",
-      "turboThreshold": 0
+      "name": "Kirchen, rel. Angelegenheiten"
     }
   ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": true,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "tickLength": 0,
-    "tickInterval": 1
-  },
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
@@ -246,6 +240,23 @@
     "text": "pro Kopf in Franken",
     "align": "left"
   },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
   "yAxis": {
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
@@ -292,6 +303,8 @@
     "verticalAlign": "top",
     "align": "left",
     "y": 40,
+    "itemWidth": 150,
+    "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"
     }

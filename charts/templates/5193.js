@@ -14,7 +14,6 @@
     }
   },
   "xAxis": {
-    "type": "category",
     "tickInterval": 1
   },  
   "yAxis": {
@@ -28,16 +27,17 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-	"y": 40,
-	//"width": 150,
+    "y": 40,
+    "itemWidth": 150,
+    "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
  "series": [
   {"color": "#007a2f", "index": 0, "legendIndex":0}, /*grün dunkel2*/
-  {"color": "#68ab2b", "index": 1, "legendIndex":1}, /*grün mittel*/
-  {"color": "#923f8d", "index": 2, "legendIndex":2}, 
+  {"color": "#68ab2b", "index": 1, "legendIndex":2}, /*grün mittel*/
+  {"color": "#923f8d", "index": 2, "legendIndex":1}, 
   {"color": "#b375ab", "index": 3, "legendIndex":3}, 
   ],
   "chart": {

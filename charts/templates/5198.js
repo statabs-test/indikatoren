@@ -9,7 +9,7 @@
   "xAxis": {
     "type": "category",
     "labels": {
-      "rotation": -90 
+     // "rotation": -90 
     } 
   },
   "yAxis": {
@@ -24,22 +24,14 @@
   ],
   "legend": {
     "enabled": false,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    "x": 35,
-	"y": 35,    
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
   },
    tooltip: {
     "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
     "shared": false
   },
   "chart": {      
-    "type": "column",
-    "inverted": false,
+    "type": "scatter",
+    "inverted": true,
     "spacingBottom": 40
   }
 }

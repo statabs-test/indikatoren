@@ -1,111 +1,226 @@
 {
   "series": [
     {
-      "color": "#B00000",
-      "marker": {
-        "enabled": true
-      },
+      "color": "#8b2223",
       "data": [
         [
+          1961,
+          18
+        ],
+        [
+          1962,
+          20
+        ],
+        [
+          1963,
+          9
+        ],
+        [
+          1964,
+          24
+        ],
+        [
+          1965,
+          6
+        ],
+        [
+          1966,
+          7
+        ],
+        [
+          1967,
+          12
+        ],
+        [
+          1968,
+          6
+        ],
+        [
+          1969,
+          7
+        ],
+        [
+          1970,
+          4
+        ],
+        [
+          1971,
+          14
+        ],
+        [
+          1972,
+          4
+        ],
+        [
+          1973,
+          10
+        ],
+        [
+          1974,
+          7
+        ],
+        [
+          1975,
+          11
+        ],
+        [
+          1976,
+          23
+        ],
+        [
+          1977,
+          1
+        ],
+        [
+          1978,
+          2
+        ],
+        [
+          1979,
+          7
+        ],
+        [
+          1980,
+          5
+        ],
+        [
+          1981,
+          8
+        ],
+        [
+          1982,
+          10
+        ],
+        [
+          1983,
+          23
+        ],
+        [
+          1984,
+          9
+        ],
+        [
+          1985,
+          10
+        ],
+        [
+          1986,
+          16
+        ],
+        [
+          1987,
+          12
+        ],
+        [
+          1988,
+          8
+        ],
+        [
+          1989,
+          10
+        ],
+        [
+          1990,
+          16
+        ],
+        [
+          1991,
+          16
+        ],
+        [
+          1992,
+          22
+        ],
+        [
+          1993,
+          11
+        ],
+        [
+          1994,
+          28
+        ],
+        [
+          1995,
+          20
+        ],
+        [
+          1996,
+          6
+        ],
+        [
+          1997,
+          13
+        ],
+        [
+          1998,
+          18
+        ],
+        [
+          1999,
+          7
+        ],
+        [
+          2000,
+          15
+        ],
+        [
+          2001,
+          14
+        ],
+        [
+          2002,
+          12
+        ],
+        [
+          2003,
+          43
+        ],
+        [
+          2004,
+          14
+        ],
+        [
           2005,
-          83.2
+          19
         ],
         [
           2006,
-          83.1
+          25
         ],
         [
           2007,
-          83.2
+          8
         ],
         [
           2008,
-          83.5
+          9
         ],
         [
           2009,
-          83.3
+          17
         ],
         [
           2010,
-          83.5
+          19
         ],
         [
           2011,
-          83.6
+          15
         ],
         [
           2012,
-          83.7
+          13
         ],
         [
           2013,
-          83.9
+          15
         ],
         [
           2014,
-          83.8
-        ],
-        [
-          2015,
-          83.9
+          9
         ]
       ],
-      "name": "Frauen"
-    },
-    {
-      "color": "#4f81bd",
-      "visible": true,
-      "marker": {
-        "enabled": true
-      },
-      "data": [
-        [
-          2005,
-          77.2
-        ],
-        [
-          2006,
-          77.9
-        ],
-        [
-          2007,
-          78.7
-        ],
-        [
-          2008,
-          78.2
-        ],
-        [
-          2009,
-          78.3
-        ],
-        [
-          2010,
-          78.8
-        ],
-        [
-          2011,
-          78.8
-        ],
-        [
-          2012,
-          79.1
-        ],
-        [
-          2013,
-          79.3
-        ],
-        [
-          2014,
-          79.4
-        ],
-        [
-          2015,
-          79.7
-        ]
-      ],
-      "name": "Männer"
+      "name": "Messstation Basel-Binningen"
     }
   ],
   "chart": {
@@ -134,8 +249,8 @@
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line",
-    "renderTo": "container-5180"
+    "type": "column",
+    "renderTo": "container-6033"
   },
   "title": {
     "style": {
@@ -144,7 +259,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Lebenserwartung bei Geburt in Jahren, nach Geschlecht"
+    "text": "Hitzetage"
   },
   "subtitle": {
     "style": {
@@ -153,12 +268,12 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Anzahl Tage",
     "align": "left"
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
     "min": 0,
@@ -187,7 +302,7 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 1
+    "tickInterval": 5
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -203,31 +318,16 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS)"
+    "text": "Quelle: Meteorologischer Verein der Region Basel"
   },
   "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    "symbolRadius": 0,
-    "y": 35,
-    "itemWidth": 100,
-    "itemMarginBottom": 5,
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
-  },
-  "plotOptions": {
-    "line": {
-      "connectNulls": true,
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
-    }
+    "enabled": false,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "symbolRadius": 0
   },
   "exporting": {
-    "filename": 5180
+    "filename": 6033
   }
 }

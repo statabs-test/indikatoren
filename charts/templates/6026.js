@@ -1,30 +1,39 @@
 (function(){
     return {
+  "chart": {
+    "type": "column"
+  },
+  plotOptions: {
+    column: {
+      stacking: 'normal'
+    },
+    "series": {
+      "borderWidth": 0,
+      "stacking": "percent"
+    }
+  },
   "xAxis": {
     "tickInterval": 2,
   },
   "yAxis": {
     "min": 0, 
 	  "labels": {
-		  "format": "{value}"
+		  "format": "{value}%"
 	  }
   },	
   "tooltip": {
     "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
+	  "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y} m<sup>2</sup></b> ({point.percentage:.1f}%)<br/>',
   },
  "series": [
     {
-		"color": "#B00000",
-    	"legendIndex": 2
-    }, /* rot */ 
+		"color": "#246370",
+    },
     {
 		"color": "#008AC3",
-    	"legendIndex": 2
     }, /* blau */
     {
-    	"color": "#007A2F", 
-    	"legendIndex": 0
+    	"color": "#68ab2b", 
     }, /* grün */
   ],
    "legend": {
@@ -38,14 +47,6 @@
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
-    }
-  },
-  "plotOptions": {
-    "line": {
-      "marker":{
-        "enabled": false,
-        "symbol": "circle",
-      } 
     }
   }
 }

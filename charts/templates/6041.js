@@ -4,7 +4,7 @@
   "xAxis": {
   	   "labels": {
      align: "left",
-     x: -100,
+     x: -105,
   	   },
   	tickInterval: 1,
     "type": "category",
@@ -12,7 +12,7 @@
   "yAxis": {
 	//"max": 100,
     "labels": {
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f}%"
     }    
   },
   "series": [
@@ -31,7 +31,7 @@
     }
   },
    tooltip: {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}%</b><br/>',
     "shared": false
   },
   "chart": {      

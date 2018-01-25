@@ -52,8 +52,7 @@
     },
     {
       "color": "#68AB2B",
-      "visible": true,
-      "legendIndex": 2,
+      "legendIndex": 1,
       "marker": {
         "enabled": false
       },
@@ -103,8 +102,7 @@
     },
     {
       "color": "#3C3C3C",
-      "legendIndex": 1,
-      "visible": true,
+      "legendIndex": 2,
       "marker": {
         "enabled": true
       },
@@ -256,8 +254,7 @@
     "align": "left",
     "symbolRadius": 0,
     "y": 35,
-    "itemWidth": 500,
-    "itemMarginBottom": 5,
+    "itemWidth": 100,
     "itemStyle": {
       "fontWeight": "normal"
     }

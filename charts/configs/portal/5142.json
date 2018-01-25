@@ -4,6 +4,7 @@
       "color": "#B00000",
       "stacking": "normal",
       "stack": "male",
+      "legendIndex": 0,
       "data": [
         [
           "0",
@@ -445,6 +446,7 @@
       "color": "#008AC3",
       "stacking": "normal",
       "stack": "male",
+      "legendIndex": 2,
       "data": [
         [
           "0",
@@ -886,6 +888,7 @@
       "color": "#d00000",
       "stacking": "normal",
       "stack": "female",
+      "legendIndex": 1,
       "data": [
         [
           "0",
@@ -1327,6 +1330,7 @@
       "color": "#00bAf3",
       "stacking": "normal",
       "stack": "female",
+      "legendIndex": 3,
       "data": [
         [
           "0",
@@ -1807,11 +1811,11 @@
                     this.credits.element.onclick = function() {};
                     
                     //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top'){
                       this.update(
                         {
                           legend: {
-                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding + 105 //fixed offset instead of /charts/templates/populationPyramid001.js
                           }
                         }
                       );
@@ -1835,9 +1839,6 @@
           "fontSize": "10px"
         }
       }
-    },
-    "column": {
-      "stacking": "normal"
     }
   },
   "title": {
@@ -1861,6 +1862,7 @@
   },
   "yAxis": [
     {
+      "max": 2000,
       "min": 0,
       "title": {
         "text": null
@@ -1917,7 +1919,7 @@
     "verticalAlign": "top",
     "align": "left",
     "y": 55,
-    "itemWidth": 150,
+    "itemWidth": 140,
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -1934,7 +1936,6 @@
                     var v = Math.sqrt(this.y*this.y); //make - to + again
                     s += '<span style="color:'+point.series.color+'">\u25CF</span> '+point.series.name+': <b>'+v+'</b><br/>';
                     sum += v;
-                    
                 });
                 s += 'Total: <b>'+ sum + '</b>';
                 return s;
