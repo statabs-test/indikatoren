@@ -120,11 +120,12 @@
 	                var maxValueInLegend = 70; 
 	                
                 	//Add manually drawn legend	
-	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, fn.maxPieDiameter), '#7F5F1A', 'pieLegendStayOnZoom');
-	                fn.addLegendLabel(chart, minValueInLegend, 300, 245, 'pieLegendRecalculateOnZoom');
-	                fn.addLegendCircle(chart, 280, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, fn.maxPieDiameter), '#7F5F1A', 'pieLegendStayOnZoom');
-	                fn.addLegendLabel(chart, maxValueInLegend, 300, 270, 'pieLegendRecalculateOnZoom');
-	                fn.addLegendTitle(chart, pieSizeSeries.name, 265, 220, 'pieLegend pieLegendStayOnZoom');
+                	var legendGroup = fn.addLegendFrame(chart, 260, 220, 215, 150, 'grey', 'pieLegend');
+	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, fn.maxPieDiameter), '#7F5F1A', 'pieLegendStayOnZoom', legendGroup);
+	                fn.addLegendLabel(chart, minValueInLegend, 300, 245, 'pieLegendRecalculateOnZoom', legendGroup);
+	                fn.addLegendCircle(chart, 280, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, fn.maxPieDiameter), '#7F5F1A', 'pieLegendStayOnZoom', legendGroup);
+	                fn.addLegendLabel(chart, maxValueInLegend, 300, 270, 'pieLegendRecalculateOnZoom', legendGroup);
+	                fn.addLegendTitle(chart, pieSizeSeries.name, 265, 220, 'pieLegend pieLegendStayOnZoom', legendGroup);
 
 					//fn.addLegendSquare(chart, 270, 250, 10, '#7F5F1A');
 					//fn.addLegendLabel(chart, 'Zunahme', 300, 245);
