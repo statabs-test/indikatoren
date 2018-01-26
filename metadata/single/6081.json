@@ -19,6 +19,7 @@
 "erlaeuterungen":"",
 "template":"line001",
 "visible":true,
+"visibleInPortal":true,
 "orderKey":"_000",
 "parentId":null,
 "children":[],

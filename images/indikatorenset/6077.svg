@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 5.0.14
+    Created with Highstock 6.0.4
   </desc>
   <defs>
     <clipPath>
@@ -44,7 +44,7 @@
     <path fill="none" class="highcharts-axis-line" d="M 161 354 L 475 354"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(475,354) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series " transform="translate(475,354) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
       <rect x="276" y="226" width="13" height="89" fill="#b00000" class="highcharts-point highcharts-color-0"/>
       <rect x="249" y="229" width="13" height="86" fill="#cd9c00" class="highcharts-point highcharts-color-1"/>
       <rect x="222" y="230" width="13" height="85" fill="#007a2f" class="highcharts-point highcharts-color-2"/>
@@ -57,11 +57,12 @@
       <rect x="34" y="114" width="13" height="201" fill="#9f7c5a" class="highcharts-point highcharts-color-9"/>
       <rect x="7" y="192" width="13" height="123" fill="#999999" class="highcharts-point highcharts-color-10"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(475,354) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series " transform="translate(475,354) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Zusammengefasste Geburtenziffer nach Staatsangehörigkeit</tspan><tspan dy="17" x="10">(Ländergruppen) Mittel der Jahre 2006-2015</tspan><title>Zusammengefasste Geburtenziffer nach Staatsangehörigkeit (Ländergruppen) Mittel der Jahre 2006-2015</title>
   </text>
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="57"/>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
     <text x="146" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="76" opacity="1">
       <tspan>Schweiz</tspan>
