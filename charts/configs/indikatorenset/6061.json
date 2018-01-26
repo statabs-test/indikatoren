@@ -4,44 +4,32 @@
       "name": "Anzahl",
       "data": [
         [
-          "Deutschland",
-          16066
+          "Indien",
+          1614
         ],
         [
-          "Italien",
-          8436
+          "Vereinigte Staaten von Amerika",
+          1481
         ],
         [
-          "Türkei",
-          6312
+          "Sri Lanka",
+          860
         ],
         [
-          "EU-17 + EFTA",
-          15272
+          "China",
+          489
         ],
         [
-          "EU-Ost",
-          3683
+          "Thailand",
+          427
         ],
         [
-          "Balkan",
-          8293
+          "Russland",
+          403
         ],
         [
-          "Mittel- und Südamerika",
-          1717
-        ],
-        [
-          "Arabische Länder",
-          1416
-        ],
-        [
-          "Afrikanische Länder",
-          1691
-        ],
-        [
-          "Übrige LänderAnteil",
-          7922
+          "Übrige",
+          2648
         ]
       ],
       "turboThreshold": 0
@@ -72,7 +60,7 @@
       "fontFamily": "Arial"
     },
     "type": "pie",
-    "renderTo": "container-6060"
+    "renderTo": "container-6061"
   },
   "plotOptions": {
     "pie": {
@@ -83,7 +71,7 @@
       "dataLabels": {
         "enabled": true,
         "format": "{point.percentage:.1f}%",
-        "distance": 1,
+        "distance": 10,
         "style": {
           "color": "black",
           "textOutline": "0px black",
@@ -92,16 +80,13 @@
         }
       },
       "colors": [
-        "#672773",
-        "#007a2f ",
-        "#fabd24",
-        "#b475ab",
-        "#71a3b5",
-        "#b9cfd7",
-        "#ff8028 ",
-        "#73ba7c",
-        "#9f7c5a",
-        "#999999"
+        "#B00000",
+        "#FF8028",
+        "#FABD24",
+        "#E6E600",
+        "#8AB77D",
+        "#68AB2B",
+        "#007A2F"
       ]
     }
   },
@@ -112,7 +97,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Ausländer nach Staatsangehörigkeit (Ländergruppen) 2016"
+    "text": "Übrige Ausländer nach einzenen Staatsangehörigkeiten 2016"
   },
   "subtitle": {
     "style": {
@@ -159,6 +144,6 @@
     }
   },
   "exporting": {
-    "filename": 6060
+    "filename": 6061
   }
 }

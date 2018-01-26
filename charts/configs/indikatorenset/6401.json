@@ -1,47 +1,43 @@
 {
   "series": [
     {
-      "name": "Anzahl",
+      "name": "Anzahl 829",
       "data": [
         [
-          "Deutschland",
-          16066
+          "Ungarn",
+          802
         ],
         [
-          "Italien",
-          8436
+          "Slowakei",
+          575
         ],
         [
-          "Türkei",
-          6312
+          "Rumänien",
+          535
         ],
         [
-          "EU-17 + EFTA",
-          15272
+          "Bulgarien",
+          279
         ],
         [
-          "EU-Ost",
-          3683
+          "Tschechien",
+          243
         ],
         [
-          "Balkan",
-          8293
+          "Slowenien",
+          206
         ],
         [
-          "Mittel- und Südamerika",
-          1717
+          "Litauen",
+          100
         ],
         [
-          "Arabische Länder",
-          1416
+          "Lettland",
+          82
         ],
         [
-          "Afrikanische Länder",
-          1691
-        ],
-        [
-          "Übrige LänderAnteil",
-          7922
+          "Estland",
+          32
         ]
       ],
       "turboThreshold": 0
@@ -72,7 +68,7 @@
       "fontFamily": "Arial"
     },
     "type": "pie",
-    "renderTo": "container-6060"
+    "renderTo": "container-6401"
   },
   "plotOptions": {
     "pie": {
@@ -83,7 +79,7 @@
       "dataLabels": {
         "enabled": true,
         "format": "{point.percentage:.1f}%",
-        "distance": 1,
+        "distance": 20,
         "style": {
           "color": "black",
           "textOutline": "0px black",
@@ -92,16 +88,15 @@
         }
       },
       "colors": [
-        "#672773",
-        "#007a2f ",
-        "#fabd24",
-        "#b475ab",
-        "#71a3b5",
-        "#b9cfd7",
-        "#ff8028 ",
-        "#73ba7c",
-        "#9f7c5a",
-        "#999999"
+        "#B00000",
+        "#FF8028",
+        "#FABD24",
+        "#E6E600",
+        "#8AB77D",
+        "#68AB2B",
+        "#007A2F",
+        "#A8C3CA",
+        "#008AC3"
       ]
     }
   },
@@ -112,7 +107,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Ausländer nach Staatsangehörigkeit (Ländergruppen) 2016"
+    "text": "Ausländer der Ländergruppe EU-Ost nach einzelnen StaatsangehörigkeitenAusländer der Ländergruppe EU-Ost nach einzelnen Staatsangehörigkeiten 2016"
   },
   "subtitle": {
     "style": {
@@ -126,7 +121,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} ({point.percentage:,.1f}%)\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f} ({point.percentage:,.1f}%)\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -159,6 +154,6 @@
     }
   },
   "exporting": {
-    "filename": 6060
+    "filename": 6401
   }
 }

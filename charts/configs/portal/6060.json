@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "Anteil",
+      "name": "Anzahl",
       "data": [
         [
           "Deutschland",
@@ -83,10 +83,10 @@
       "dataLabels": {
         "enabled": true,
         "format": "{point.percentage:.1f}%",
-        "distance": -20,
+        "distance": 1,
         "style": {
-          "color": "white",
-          "textOutline": "0px white",
+          "color": "black",
+          "textOutline": "0px black",
           "fontWeight": "normal",
           "fontSize": "12px"
         }
