@@ -11582,7 +11582,7 @@
 	},
 	{
 		"title": "Grünfläche pro Kopf nach Wohnviertel/Gemeinde",
-		"subtitle": "in m<sup>2</sup>, 2015",
+		"subtitle": "in m<sup>2</sup>, 2017",
 		"kuerzel": "I.02.1.05198",
 		"kuerzelKunde": "GW20",
 		"description": "Grünfläche pro Kopf nach Wohnviertel/Gemeinde",
@@ -11590,8 +11590,7 @@
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
-			"Wohnviertel",
-			"Kanton"
+			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-03-16T14:52:33.3333",
 		"schlagwort": [
@@ -11602,16 +11601,17 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil an Grünfläche pro Person variiert stark zwischen den einzelnen Wohnvierteln. Erwartungsgemäss ist dieser im dicht bewohnten Matthäusquartier (6,1 m2) und in der Basler Innenstadt (Altstadt Kleinbasel: 8,2 m2, Clara: 9,2 m2) am kleinsten. Überdurchschnittlich hoch dagegen ist der Anteil in den Wohnvierteln Hirzbrunnen (202 m2), Bruderholz (204 m2) und in den Landgemeinden Riehen (415 m2) und Bettingen (1 670 m2).",
-		"erlaeuterungen": "Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden in einem Turnus von 6–12 Jahren mit einer periodischen Nachführung aktualisiert. Ausnahme: Öffentliche Parks und Rabatten im Strassenbereich werden detaillierter erfasst. Als versiegelt gelten Gebäude und befestigte Flächen. Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Bei den Gewässern macht der Rhein (111,48 ha) einen Grossteil der Fläche aus.",
-		"template": "dotplot",
+		"lesehilfe": "Der Anteil an Grünfläche pro Person variiert stark zwischen den einzelnen Wohnvierteln resp. Landgemeinden. Erwartungsgemäss ist er im dicht bewohnten Matthäusquartier (rund 6 m<sup>2</sup>) und in der Basler Innenstadt (Altstadt Kleinbasel: 8 m<sup>2</sup>, Clara: 9 m<sup>2</sup>) am kleinsten. Überdurchschnittlich hoch dagegen ist der Anteil in den Wohnvierteln Hirzbrunnen (196 m<sup>2</sup>), Bruderholz (200 m<sup>2</sup>) und in den Landgemeinden Riehen (405 m<sup>2</sup>) und Bettingen (1 687 m<sup>2</sup>).",
+		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6–12 Jahren mit einer periodischen Nachführung aktualisiert.",
+		"template": "template001",
 		"visibleInPortal": true,
 		"orderKey": "03_06_00_00_00_320",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Baustatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
 		],
 		"externalLinks": [
 			""
@@ -13190,8 +13190,8 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Auf gut der Hälfte der Kantonsfläche (2015: 50,6%) ist der Bodenvon Grünflächen bedeckt, d.h. nicht versiegelt. Gewässer haben imKanton Basel-Stadt mit 3,6% einen nur sehr geringen Anteil an derGesamtfläche. Die Flächenanteile der drei Bodenbedeckungskategorienhaben sich über die letzten 10 Jahre kaum verändert.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Auf gut der Hälfte der Kantonsfläche (2017: 51%) ist der Boden von Grünflächen bedeckt. Gewässer haben im Kanton Basel-Stadt mit 3,6% einen nur sehr geringen Anteil an der Gesamtfläche. Die Flächenanteile der drei Bodenbedeckungskategorien verändern sich über die Zeit nur minimal.",
+		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Befestigte Flächen sind: Bahn-, Tram-, Hafen- und Fabrikareale; Strassen, Wege, Trottoirs und Verkehrsinsel; Wasserbecken und befestigtes Gewässervorland; befestigte Sportanlagen; übrige befestigte Flächen. Unter Gewässer fallen sowohl stehende als auch fliessende Gewässer. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100&nbsp;m<sup>2</sup> geführt werden (Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6–12 Jahren mit einer periodischen Nachführung aktualisiert.",
 		"template": "template001",
 		"visibleInPortal": true,
 		"orderKey": "04_01_00_00_00_405",

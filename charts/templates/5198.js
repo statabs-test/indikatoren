@@ -14,9 +14,6 @@
   },
   "yAxis": {
 	//"max": 100,
-    "labels": {
-      "format": "{value:,.0f}"
-    }    
   },
   "series": [
   {"color": "#83522E", "visible": true}, /* dunkelbraun*/
@@ -26,13 +23,14 @@
     "enabled": false,
   },
    tooltip: {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
-    "shared": false
+    "pointFormat": '<b>{point.y}</b> m<sup>2</sup> pro Einwohner<br/>',
+    //"shared": false,
+    useHTML: true
   },
   "chart": {      
     "type": "scatter",
     "inverted": true,
     "spacingBottom": 40
   }
-}
+};
 }());

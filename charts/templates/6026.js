@@ -23,24 +23,27 @@
   },	
   "tooltip": {
     "shared": false, 
-	  "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y} m<sup>2</sup></b> ({point.percentage:.1f}%)<br/>',
+	  "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y} ha</b> ({point.percentage:.1f}%)<br/>',
   },
  "series": [
     {
 		"color": "#246370",
+		"legendIndex": 3
     },
     {
 		"color": "#008AC3",
+		"legendIndex": 2
     }, /* blau */
     {
     	"color": "#68ab2b", 
+    	"legendIndex": 1
     }, /* grün */
   ],
    "legend": {
     "enabled": true,
     //"x": 45,
     "y": 35,
-    "itemWidth": 135,
+    "itemWidth": 100,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
