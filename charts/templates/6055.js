@@ -11,12 +11,12 @@
   },
  "series": [
     {
-		"color": "#B00000",
-    	"legendIndex": 2
+      "color": "#B00000",
+      "legendIndex": 1
     }, /* rot */
     {
 		"color": "#662673",
-    	"legendIndex": 2
+    	"legendIndex": 4
     }, /* violett */
     {
 		"color": "#008AC3",
@@ -24,14 +24,14 @@
     }, /* blau */
     {
     	"color": "#007A2F", 
-    	"legendIndex": 0
+    	"legendIndex": 3
     }, /* grün */
   ],
    "legend": {
     "enabled": true,
     //"x": 45,
     "y": 35,
-	"itemWidth": 210,
+    "itemWidth": 150,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
@@ -43,7 +43,7 @@
   "plotOptions": {
     "line": {
       "marker":{
-        "enabled": false,
+        "enabled": true,
         "symbol": "circle",
       } 
     }
