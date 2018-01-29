@@ -172,7 +172,7 @@
 					var legendValue = (Math.sqrt(lastPieData)*legendSize/lastPieSize) * (Math.sqrt(lastPieData)*legendSize/lastPieSize);
 					$(this).contents()[0].innerHTML = (zoom ==1)  ? initialValue : fn.legendLabelZoomFormatter(legendValue);
 				});
-			},			
+			},
 		
 			//calculate pie size using categories defined in the conf object
 			pieSizeCategorical: function(value, conf){
@@ -184,9 +184,17 @@
 			},  
 			
 			
-            //Pie size 
+			//get pie Value by pie Diameter
+			pieValue : function(size, maxAbsValue, maxPieDiameter){
+				var value = maxAbsValue * size * size / maxPieDiameter / maxPieDiameter;
+				return value;
+			},	                			
+
+
             pieSize: function(value, maxAbsValue, maxPieDiameter){
-            	
+            	var diameter = Math.sqrt(Math.abs(value) / maxAbsValue * maxPieDiameter * maxPieDiameter);
+            	return diameter;
+            	/*
             	function circleAreaByDiameter(diameter){
             		return Math.PI * diameter * diameter / 4;
             	}
@@ -195,11 +203,6 @@
             		return Math.sqrt(4 * area / Math.PI);
             	}
             	
-            	/*
-                var yAxis = chart.yAxis[0],
-                    zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
-                */
-                
 				//Negative values: return absolute value
 				//size by Area: use sqrt of value to define size
 				//var size = pieSizeMin + chart.chartWidth / 11 * pieSizeFactor *  Math.sqrt(Math.abs(value)) / maxAbsNumber; 
@@ -218,11 +221,11 @@
 				//var area = relativeValue * (maxPieArea - minPieArea) + minPieArea;
 				
 				var diameter = circleDiameterByAre(area);
-
 				return diameter;
+				*/
             }, 
 	                			
-		    
+	                			
 		    defineTemplate: function(){
 
 					//define new chart type
@@ -307,6 +310,13 @@
 				    		    
 	            //draw pies onto he map			    		    
                 drawPies: function(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color){
+                	
+                	//set publish infos to other functions
+                	var fn = chart.options.customFunctions;
+                	fn.pieSizeSeries = pieSizeSeries;
+                	fn.choroplethSeries = choroplethSeries;
+                	fn.pieSeriesConfig = pieSeriesConfig;
+                	fn.pieSizeCatConfig = pieSizeCatConfig;
                     
                     //iterate over each wohnviertel and draw the pies / bubbles
 	                Highcharts.each(pieSizeSeries.points, function (data) {
@@ -347,7 +357,7 @@
 		                        sizeFormatter: function () {
 		                            var fn = this.chart.options.customFunctions;
 									//pie diameters in px
-									var maxPieDiameter = 20;		 
+									var maxPieDiameter = fn.maxPieDiameter || 20;		 
 									//pie Size proportional to absolute value, no categories used
 		                            return fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
 		                        },
@@ -400,7 +410,7 @@
 				},    		    
     		    
                 //helper functions for pie legend
-    			addLegendTitle: function (chart, title, x, y, cssClass, useHtml){
+    			addLegendTitle: function (chart, title, x, y, cssClass, useHtml, group){
             		return chart.renderer.label(title, x, y, undefined, undefined, undefined, useHtml)
          				.css({
     	                    fontSize: '12px',
@@ -409,51 +419,64 @@
     	                .attr({
     			        	zIndex: 6,
     			        	class: cssClass + ' pieLegendTitle'
-    			        }).add();	                
+    			        }).add(group);	                
                 },
-                addLegendCircle: function(chart, x, y, radius, fill, cssClass){
+                addLegendCircle: function(chart, x, y, radius, fill, cssClass, group){
                 	return chart.renderer.circle(x, y, radius, fill).attr({
     				    fill: fill,
     				    stroke: fill,
     				    'stroke-width': 1, 
     				    zIndex: 6,
     				    class: cssClass + ' pieLegend'
-    				}).add();
+    				}).add(group);
                 },
     	                
     	                
-                addLegendLabel: function(chart, text, x, y, cssClass, useHtml){
+                addLegendLabel: function(chart, text, x, y, cssClass, useHtml, group){
     				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
     					zIndex: 6,
-    					class: cssClass + ' pieLegend'
-    				}).add();
+    					class: cssClass + ' pieLegend', 
+    					initialValue: text
+    				}).add(group);
                 },
-                addSubtitle: function(chart, text, x, y, cssClass, useHtml){
+                addSubtitle: function(chart, text, x, y, cssClass, useHtml, group){
     				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
     					zIndex: 6,
     					class: cssClass + ' pieSubtitle'
-    				}).add();
+    				}).add(group);
                 },
-                 addLegendLabelbold: function(chart, text, x, y, cssClass, useHtml){
+                 addLegendLabelbold: function(chart, text, x, y, cssClass, useHtml, group){
     				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).
     				attr({
     					zIndex: 6,
     					class: cssClass +' pieLegend'	})
     				.css({
                         fontWeight: 'bold' }).
-                     add();
+                     add(group);
                 },
                 
-                addLegendSquare: function(chart, x, y, width, fill, cssClass){
+                addLegendSquare: function(chart, x, y, width, fill, cssClass, group){
                 	return chart.renderer.rect(x, y, width, width, 0).attr({
     		            'stroke-width':0,
     		            fill: fill,
     		            zIndex: 6,
     		            class: cssClass + ' pieLegend'
-    	        	}).add();
+    	        	}).add(group);
                 },
                 
-                
+                addLegendFrame: function(chart, x, y, width, height, cssClass){
+                	var group = chart.renderer.g('pieLegendGroup').add();
+                	var visible = true;
+                	var rect =  chart.renderer.rect(x, y, width, height, 0)
+				        .attr({
+				            'stroke-width': 0,
+				            stroke: 'red',
+				            fill: 'grey',
+				            'fill-opacity': 0.1,
+				            zIndex: 5
+				        }).add(group);
+					return group;
+                }, 
 
 				//Add click handler to bubbleLegend items
 				AddPieLegendClickHandler: function(chart){
