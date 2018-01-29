@@ -307,7 +307,8 @@
 				    		    
 	            //draw pies onto he map			    		    
                 drawPies: function(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color){
-                    
+                	
+
                     //iterate over each wohnviertel and draw the pies / bubbles
 	                Highcharts.each(pieSizeSeries.points, function (data) {
 	                    
