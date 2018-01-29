@@ -1311,6 +1311,7 @@ var indikatorensetData = [
 		],
 		"aktualisierungsdatum": "",
 		"schlagwort": [
+			"Nachhaltigkeit",
 			"Umwelt"
 		],
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
@@ -1318,18 +1319,18 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der ökologische Fussabdruck misst den Verbrauch natürlicherRessourcen und drückt in globalen Hektaren die Fläche aus, die fürdie Produktion dieser Ressourcen notwendig wäre. Der ökologischeFussabdruck der Schweiz mass 2011 4,9 globale Hektaren proKopf.",
-		"erlaeuterungen": "",
+		"lesehilfe": " Der ökologische Fussabdruck der Schweiz mass 2013 5,3 globale Hektaren pro Kopf.",
+		"erlaeuterungen": "Der ökologische Fussabdruck misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre.",
 		"template": "line001",
 		"orderKey": "04_01_00_00_00_401",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik (BFS); Global Footprint Network"
+			"Global Footprint Network"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/oekologischer-fussabdruck.html' target = '_blank'>Bundesamt für Statistik: Der ökologische Fussabdruck der Schweiz</a>"
 		],
 		"id": 5793
 	},
