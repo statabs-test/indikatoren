@@ -367,7 +367,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Über 90% der Befragten sind 2015 mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden. Dieser Wert ist seit 2005 jeweils leicht angestiegen.",
 		"erlaeuterungen": "2003: N=1495, 2005: N=1509, 2007: N=1505, 2011: N=1516, 2015: N=1504.",
-		"template": "befragungen001",
+		"template": "befragungenProzent001",
 		"orderKey": "01_02_00_00_00_001",
 		"parentId": 4150,
 		"children": [
@@ -392,7 +392,6 @@ var indikatorensetData = [
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
-			"Wohnviertel",
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",

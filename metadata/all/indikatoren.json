@@ -129,7 +129,6 @@
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
-			"Wohnviertel",
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2016-12-14T12:12:59.5959",
@@ -576,7 +575,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-01-23T10:24:11.1111",
+		"aktualisierungsdatum": "2018-01-18T10:24:11.1111",
 		"schlagwort": [
 			"Gebäude",
 			"Haushalt"
@@ -586,7 +585,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 2008 steigt der gesamte Wohnungsbestand leicht und stetig an. Am stärksten war das Wachstum bei den Fünfzimmerwohnungen (+12% seit 2006). Rückläufig bzw. nahezu unverändert war dagegen die Entwicklung bei den Ein- und Zweizimmerwohnungen (-7% bzw. +0,6%).",
+		"lesehilfe": "Seit 2008 steigt der gesamte Wohnungsbestand leicht und stetig an. Am stärksten war das Wachstum bei den Fünf- bzw. Vierzimmerwohnungen (+10,9% bzw. 8,6% seit 2008). Rückläufig war dagegen die Entwicklung bei den Einzimmerwohnungen (-3,2%).",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"visibleInPortal": true,
@@ -604,7 +603,7 @@
 	},
 	{
 		"title": "Anteile am Wohnungsbestand",
-		"subtitle": "nach Zimmerzahl und Wohnflächenkategorie, Stand 2016",
+		"subtitle": "nach Zimmerzahl und Wohnflächenkategorie, Stand 2017",
 		"kuerzel": "I.09.1.04134",
 		"kuerzelKunde": "1.2.B",
 		"description": "Anteile am Wohnungsbestand",
@@ -614,7 +613,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-01-19T15:55:59.5959",
+		"aktualisierungsdatum": "2018-01-18T15:55:59.5959",
 		"schlagwort": [
 			"Gebäude",
 			"Haushalt"
@@ -624,7 +623,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am zahlreichsten sind 2016 nach Zimmerzahl betrachtet die 3-Zimmerwohnungen (37%) und nach Wohnungsflächenkategorie Logis zwischen 70 und 99 Quadratmetern (35%).",
+		"lesehilfe": "Am zahlreichsten sind 2017 nach Zimmerzahl betrachtet die 3-Zimmerwohnungen (37%) und nach Wohnungsflächenkategorie Logis zwischen 70 und 99 Quadratmetern (35%).",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"visibleInPortal": true,
@@ -652,7 +651,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-01-16T13:02:39.3939",
+		"aktualisierungsdatum": "2018-01-18T13:02:39.3939",
 		"schlagwort": [
 			"Gebäude",
 			"Haushalt"
@@ -662,7 +661,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2016 war die Nettowohnungsproduktion überdurchschnittlich hoch. Dazu beigetragen hat eine hohe Neubauproduktion, ein positiver Umbausaldo und eine niedrige Anzahl von Abbrüchen.",
+		"lesehilfe": "2017 war der Umbausaldo wiederum positiv wie stets seit 2011. Dazu beigetragen hat eine Vielzahl von Dachstockausbauten.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"visibleInPortal": true,
@@ -692,7 +691,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-01-19T16:23:33.3333",
+		"aktualisierungsdatum": "2018-01-18T16:23:33.3333",
 		"schlagwort": [
 			"Gebäude",
 			"Haushalt"
@@ -7286,8 +7285,8 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Anteil der Grünflächen an der gesamten Fläche der Wohnviertel. Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m2 geführt werden. Diese werden in einem Turnus von 6–12 Jahren mit einer periodischen Nachführung aktualisiert. Ausnahme: Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst.",
+		"lesehilfe": "Der Anteil Grünflächen ist in den beiden Landgemeinden Bettingen und Riehen am höchsten. Auch in den Wohnvierteln Bruderholz und Hirzbrunnen liegt er noch über 50%. Am geringsten ist der Anteil Grünflächen in den innenstädtischen Wohnvierteln Altstadt Grossbasel und Altstadt Kleinbasel.",
+		"erlaeuterungen": "Anteil der Grünflächen an der gesamten Fläche der Wohnviertel. Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6–12 Jahren mit einer periodischen Nachführung aktualisiert.",
 		"template": "dotplot",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_005",
@@ -9980,8 +9979,8 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Anteil der Grünflächen an der gesamten Fläche der Wohnviertel. Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m2 geführt werden. Diese werden in einem Turnus von 6–12 Jahren mit einer periodischen Nachführung aktualisiert. Ausnahme: Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst.",
+		"lesehilfe": "Der Anteil Grünflächen ist in den beiden Landgemeinden Bettingen und Riehen am höchsten. Auch in den Wohnvierteln Bruderholz und Hirzbrunnen liegt er noch über 50%. Am geringsten ist der Anteil Grünflächen in den innenstädtischen Wohnvierteln Altstadt Grossbasel und Altstadt Kleinbasel.",
+		"erlaeuterungen": "Anteil der Grünflächen an der gesamten Fläche der Wohnviertel. Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6–12 Jahren mit einer periodischen Nachführung aktualisiert.",
 		"template": "map001",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_006",
@@ -12333,7 +12332,7 @@
 		"stufe5": "",
 		"lesehilfe": "Über 90% der Befragten sind 2015 mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden. Dieser Wert ist seit 2005 jeweils leicht angestiegen.",
 		"erlaeuterungen": "2003: N=1495, 2005: N=1509, 2007: N=1505, 2011: N=1516, 2015: N=1504.",
-		"template": "befragungen001",
+		"template": "befragungenProzent001",
 		"visibleInPortal": false,
 		"orderKey": "01_02_00_00_00_001",
 		"parentId": 4150,
@@ -12359,7 +12358,6 @@
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
-			"Wohnviertel",
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
@@ -16750,7 +16748,7 @@
 		"erlaeuterungen": "",
 		"template": "line001",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_000",
+		"orderKey": "02_00_00_00_00_007",
 		"parentId": null,
 		"children": [
 			"5160",
