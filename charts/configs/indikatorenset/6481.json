@@ -1,8 +1,12 @@
 {
   "series": [
     {
-      "name": "49",
+      "name": "Anzahl",
       "data": [
+        [
+          "Schweizer ohne Migrationshintergrund",
+          49
+        ],
         [
           "Schweizer mit Migrationshintergrund",
           17
@@ -111,18 +115,18 @@
     "text": "Quelle: "
   },
   "legend": {
-    "layout": "vertical",
-    "verticalAlign": "middle",
+    "layout": "horizontal",
+    "verticalAlign": "top",
     "itemMarginBottom": 5,
-    "align": "right",
+    "align": "left",
     "useHTML": true,
     "itemStyle": {
       "fontWeight": "normal"
     },
     "symbolRadius": 0,
-    "style": {
-      "fontSize": "12px"
-    }
+    "y": 55,
+    "enabled": true,
+    "itemWidth": 1000
   },
   "exporting": {
     "filename": 6481

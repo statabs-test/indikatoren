@@ -6,20 +6,21 @@
   </desc>
   <defs>
     <clipPath>
-      <rect x="0" y="0" width="164" height="298" fill="none"/>
+      <rect x="0" y="0" width="465" height="139" fill="none"/>
     </clipPath>
   </defs>
   <rect fill="#fbfbfb" class="highcharts-background" x="0" y="0" width="485" height="415" rx="0" ry="0"/>
-  <rect fill="none" class="highcharts-plot-background" x="10" y="72" width="164" height="298"/>
+  <rect fill="none" class="highcharts-plot-background" x="10" y="231" width="465" height="139"/>
   <g class="highcharts-pane-group"/>
-  <rect fill="none" class="highcharts-plot-border" x="10" y="72" width="164" height="298"/>
+  <rect fill="none" class="highcharts-plot-border" x="10" y="231" width="465" height="139"/>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-pie-series " transform="translate(10,72) scale(1 1)">
-      <path fill="#B00000" d="M 77.99185307185219 109.00000082965548 A 40 40 0 0 1 112.65298545266795 168.97925422074567 L 78 149 A 0 0 0 0 0 78 149 Z" transform="translate(0,0)" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
-      <path fill="#FF8028" d="M 112.63298887528579 169.01389721079656 A 40 40 0 1 1 63.52087753407509 111.7125354493397 L 78 149 A 0 0 0 1 0 78 149 Z" transform="translate(0,0)" stroke-linejoin="round" class="highcharts-point highcharts-color-1"/>
-      <path fill="#FABD24" d="M 63.55817223197181 111.69807497301768 A 40 40 0 0 1 77.94444080247713 109.00003858532398 L 78 149 A 0 0 0 0 0 78 149 Z" transform="translate(0,0)" stroke-linejoin="round" class="highcharts-point highcharts-color-2"/>
+    <g class="highcharts-series highcharts-series-0 highcharts-pie-series " transform="translate(10,231) scale(1 1)">
+      <path fill="#B00000" d="M 232.98961266661155 22.000001057810742 A 51 51 0 0 1 236.25140609725213 123.89625092667191 L 233 73 A 0 0 0 0 0 233 73 Z" transform="translate(0,0)" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
+      <path fill="#FF8028" d="M 236.20050822910525 123.89947688410392 A 51 51 0 0 1 189.96952531760664 100.37477394624298 L 233 73 A 0 0 0 0 0 233 73 Z" transform="translate(0,0)" stroke-linejoin="round" class="highcharts-point highcharts-color-1"/>
+      <path fill="#FABD24" d="M 189.9421720634584 100.3317297913465 A 51 51 0 0 1 223.39879936863568 22.91190813739967 L 233 73 A 0 0 0 0 0 233 73 Z" transform="translate(0,0)" stroke-linejoin="round" class="highcharts-point highcharts-color-2"/>
+      <path fill="#E6E600" d="M 223.4488922527502 22.90233198241235 A 51 51 0 0 1 232.92916202315834 22.000049196288067 L 233 73 A 0 0 0 0 0 233 73 Z" transform="translate(0,0)" stroke-linejoin="round" class="highcharts-point highcharts-color-3"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-pie-series " transform="translate(10,72) scale(1 1)"/>
+    <g class="highcharts-markers highcharts-series-0 highcharts-pie-series " transform="translate(10,231) scale(1 1)"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Anzahl Personen mit und ohne Migrationshintergrund nach</tspan><tspan dy="17" x="10">Staatsangehörigkeit (CH/A)</tspan><title>Anzahl Personen mit und ohne Migrationshintergrund nach Staatsangehörigkeit (CH/A)</title>
@@ -27,47 +28,59 @@
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="57">
     <tspan>gepoolte Daten von 2011 bis 2015</tspan>
   </text>
-  <g class="highcharts-data-labels highcharts-series-0 highcharts-pie-series " visibility="visible" transform="translate(10,72) scale(1 1)">
-    <path fill="none" class="highcharts-data-label-connector highcharts-color-0" stroke="#B00000" stroke-width="1" d="M 125.80127018922192 124 C 120.80127018922192 124 115.6051177665153 127 113.87306695894642 128 L 112.14101615137754 129"/>
-    <path fill="none" class="highcharts-data-label-connector highcharts-color-1" stroke="#FF8028" stroke-width="1" d="M 34.52975416726467 181.53091501021214 C 39.52975416726467 181.53091501021214 44.08618366719291 177.62720520898668 45.604993500502324 176.3259686085782 L 47.123803333811736 175.0247320081697"/>
-    <path fill="none" class="highcharts-data-label-connector highcharts-color-2" stroke="#FABD24" stroke-width="1" d="M 63.31252410917148 99.85134501580491 C 68.31252410917148 99.85134501580491 69.41502121607084 105.74918361390831 69.78252025170399 107.71512981327612 L 70.15001928733713 109.68107601264393"/>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-0 " style="cursor:true;" transform="translate(131,114)">
+  <g class="highcharts-data-labels highcharts-series-0 highcharts-pie-series " visibility="visible" transform="translate(10,231) scale(1 1)">
+    <path fill="none" class="highcharts-data-label-connector highcharts-color-0" stroke="#B00000" stroke-width="1" d="M 298.46990018230963 71.08394369623417 C 293.46990018230963 71.08394369623417 287.4728608201153 71.27240825070294 285.4738476993838 71.3352297688592 L 283.4748345786523 71.39805128701545"/>
+    <path fill="none" class="highcharts-data-label-connector highcharts-color-1" stroke="#FF8028" stroke-width="1" d="M 199.80657951588765 127.35139797549044 C 204.80657951588765 127.35139797549044 207.53052251432493 122.00535883036025 208.43850351380402 120.22334578198351 L 209.34648451328312 118.44133273360677"/>
+    <path fill="none" class="highcharts-data-label-connector highcharts-color-2" stroke="#FABD24" stroke-width="1" d="M 171.51696783327714 48.77397867127838 C 176.51696783327714 48.77397867127838 182.02349558738103 51.15686601508706 183.859004838749 51.95116179635662 L 185.69451409011697 52.74545757762618"/>
+    <path fill="none" class="highcharts-data-label-connector highcharts-color-3" stroke="#E6E600" stroke-width="1" d="M 221.7593928875706 12.270720159212122 C 226.7593928875706 12.270720159212122 227.32404276748173 18.2440919468306 227.51225939411876 20.23521587603676 L 227.7004760207558 22.226339805242922"/>
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-0 " style="cursor:true;" transform="translate(303,61)">
       <text x="5" style="font-size:12px;font-weight:normal;color:black;fill:black;" y="17">
-        <tspan x="5" y="17" class="highcharts-text-outline" fill="black" stroke="black" stroke-width="0px" stroke-linejoin="round">33.…</tspan><tspan x="5" y="17">33.…</tspan><title>33.3%</title>
+        <tspan x="5" y="17" class="highcharts-text-outline" fill="black" stroke="black" stroke-width="0px" stroke-linejoin="round" style="">49.0%</tspan><tspan x="5" y="17">49.0%</tspan>
       </text>
     </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-1 " style="cursor:true;" transform="translate(-10,172)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-1 " style="cursor:true;" transform="translate(151,117)">
       <text x="5" style="font-size:12px;font-weight:normal;color:black;fill:black;" y="17">
-        <tspan x="5" y="17" class="highcharts-text-outline" fill="black" stroke="black" stroke-width="0px" stroke-linejoin="round">60.…</tspan><tspan x="5" y="17">60.…</tspan><title>60.8%</title>
+        <tspan x="5" y="17" class="highcharts-text-outline" fill="black" stroke="black" stroke-width="0px" stroke-linejoin="round">17.0%</tspan><tspan x="5" y="17">17.0%</tspan>
       </text>
     </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-2 " style="cursor:true;" transform="translate(21,90)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-2 " style="cursor:true;" transform="translate(123,39)">
       <text x="5" style="font-size:12px;font-weight:normal;color:black;fill:black;" y="17">
-        <tspan x="5" y="17" class="highcharts-text-outline" fill="black" stroke="black" stroke-width="0px" stroke-linejoin="round" style="">5.9%</tspan><tspan x="5" y="17">5.9%</tspan>
+        <tspan x="5" y="17" class="highcharts-text-outline" fill="black" stroke="black" stroke-width="0px" stroke-linejoin="round">31.0%</tspan><tspan x="5" y="17">31.0%</tspan>
+      </text>
+    </g>
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-3 " style="cursor:true;" transform="translate(179,2)">
+      <text x="5" style="font-size:12px;font-weight:normal;color:black;fill:black;" y="17">
+        <tspan x="5" y="17" class="highcharts-text-outline" fill="black" stroke="black" stroke-width="0px" stroke-linejoin="round" style="">3.0%</tspan><tspan x="5" y="17">3.0%</tspan>
       </text>
     </g>
   </g>
-  <g class="highcharts-legend" transform="translate(186,156)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="288" height="68" visibility="visible"/>
+  <g class="highcharts-legend" transform="translate(10,127)">
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="996" height="92" visibility="visible"/>
     <g>
       <g>
-        <g class="highcharts-legend-item highcharts-pie-series highcharts-color-0" transform="translate(8,3)">
+        <g class="highcharts-legend-item highcharts-pie-series highcharts-color-0" transform="translate(8,8)">
           <text x="21" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
-            <tspan>Schweizer mit Migrationshintergrund</tspan>
+            <tspan>Schweizer ohne Migrationshintergrund</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#B00000" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-pie-series highcharts-color-1" transform="translate(8,22)">
+        <g class="highcharts-legend-item highcharts-pie-series highcharts-color-1" transform="translate(8,27)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Ausländer der ersten Generation</tspan>
+            <tspan>Schweizer mit Migrationshintergrund</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#FF8028" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-pie-series highcharts-color-2" transform="translate(8,41)">
+        <g class="highcharts-legend-item highcharts-pie-series highcharts-color-2" transform="translate(8,46)">
+          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
+            <tspan>Ausländer der ersten Generation</tspan>
+          </text>
+          <rect x="2" y="4" width="12" height="12" fill="#FABD24" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-pie-series highcharts-color-3" transform="translate(8,65)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Ausländer der zweiten und höheren Generation</tspan>
           </text>
-          <rect x="2" y="4" width="12" height="12" fill="#FABD24" class="highcharts-point"/>
+          <rect x="2" y="4" width="12" height="12" fill="#E6E600" class="highcharts-point"/>
         </g>
       </g>
     </g>
