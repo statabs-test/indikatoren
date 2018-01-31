@@ -96,6 +96,25 @@
         "legend": {
     		"enabled": false,
             "symbolRadius": 0
+    	}, 
+    	plotOptions: {
+    	    bubble: {
+                dataLabels: {
+                    enabled: true,
+                    format: '{point.name}', 
+                    //align: 'center', 
+                    //verticalAlign: 'middle',
+                    y:-20,
+                    x: 30,
+                    overflow: "none",
+                    crop: false,
+                    style: {
+                        fontSize: "11px", 
+                        color: 'black', 
+                        //textOutline: undefined
+                    }
+                }
+    	    }
     	}
     };
 }());
