@@ -28,12 +28,14 @@
     "events": {
       "load": function (e){
             //set color based on country
-            e.target.series[0].setData(
-              e.target.series[0].data.map(function(val, i, arr){
-                val.color = (val.name == 'Schweiz') ? 'red': 'blue';
-                return val;
-              })
-            );
+            if (e && e.target && e.target.series && e.target.series[0]  && e.target.series[0].data){
+              e.target.series[0].setData(
+                e.target.series[0].data.map(function(val, i, arr){
+                  val.color = (val.name == 'Schweiz') ? 'red': 'blue';
+                  return val;
+                })
+              );
+            }
             
             //remove credits link
             this.credits.element.onclick = function() {};
