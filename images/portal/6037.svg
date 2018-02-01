@@ -41,45 +41,45 @@
   </g>
   <g class="highcharts-series-group">
     <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(40,41) scale(1 1)" clip-path="url(#a)">
-      <path fill="none" d="M 4.2647058823491 61.29729729729732 L 75.343137254899 60.90239904634177 L 146.42156862745 56.95495754784869 L 217.5 64.28273271184074 L 288.57843137255 59.24202524772625 L 359.6568627451 64.08387096774186 L 430.73529411765 55.6626506024096" class="highcharts-graph" stroke="#8b2223" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+      <path fill="none" d="M 4.2647058823491 63.892523364486124 L 75.343137254899 61.63016157989213 L 146.42156862745 57.69169456400442 L 217.5 56.86153846153857 L 288.57843137255 54.558139534883594 L 359.6568627451 53.05091649694512 L 430.73529411765 44.361767728674124" class="highcharts-graph" stroke="#8b2223" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(40,41) scale(1 1)" clip-path="none">
-      <path fill="#8b2223" d="M 8 61 A 4 4 0 1 1 7.999998000000167 60.99600000066666 Z" class="highcharts-point"/>
-      <path fill="#8b2223" d="M 79 61 A 4 4 0 1 1 78.99999800000016 60.99600000066666 Z" class="highcharts-point"/>
-      <path fill="#8b2223" d="M 150 57 A 4 4 0 1 1 149.99999800000018 56.99600000066666 Z" class="highcharts-point"/>
-      <path fill="#8b2223" d="M 221 64 A 4 4 0 1 1 220.99999800000018 63.99600000066666 Z" class="highcharts-point"/>
-      <path fill="#8b2223" d="M 292 59 A 4 4 0 1 1 291.9999980000002 58.99600000066666 Z" class="highcharts-point"/>
-      <path fill="#8b2223" d="M 363 64 A 4 4 0 1 1 362.9999980000002 63.99600000066666 Z" class="highcharts-point"/>
-      <path fill="#8b2223" d="M 434 56 A 4 4 0 1 1 433.9999980000002 55.99600000066666 Z" class="highcharts-point"/>
+      <path fill="#8b2223" d="M 8 64 A 4 4 0 1 1 7.999998000000167 63.99600000066666 Z" class="highcharts-point"/>
+      <path fill="#8b2223" d="M 79 62 A 4 4 0 1 1 78.99999800000016 61.99600000066666 Z" class="highcharts-point"/>
+      <path fill="#8b2223" d="M 150 58 A 4 4 0 1 1 149.99999800000018 57.99600000066666 Z" class="highcharts-point"/>
+      <path fill="#8b2223" d="M 221 57 A 4 4 0 1 1 220.99999800000018 56.99600000066666 Z" class="highcharts-point"/>
+      <path fill="#8b2223" d="M 292 55 A 4 4 0 1 1 291.9999980000002 54.99600000066666 Z" class="highcharts-point"/>
+      <path fill="#8b2223" d="M 363 53 A 4 4 0 1 1 362.9999980000002 52.99600000066666 Z" class="highcharts-point"/>
+      <path fill="#8b2223" d="M 434 44 A 4 4 0 1 1 433.9999980000002 43.99600000066666 Z" class="highcharts-point"/>
     </g>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Verhältnis der Löhne von Frauen und Männern in Basel-Stadt</tspan>
   </text>
   <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined " visibility="visible" transform="translate(40,41) scale(1 1)">
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(-5,68)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(-5,71)">
       <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16">
-        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">0,801</tspan><tspan x="5" y="16">0,801</tspan>
+        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">0,793</tspan><tspan x="5" y="16">0,793</tspan>
       </text>
     </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(70,81)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(70,82)">
       <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16"/>
     </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(141,77)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(141,78)">
       <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16"/>
     </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(213,84)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(213,77)">
       <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16"/>
     </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(284,79)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(284,75)">
       <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16"/>
     </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(355,84)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(355,73)">
       <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16"/>
     </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(403,63)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(403,51)">
       <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16">
-        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">0,819</tspan><tspan x="5" y="16">0,819</tspan>
+        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">0,856</tspan><tspan x="5" y="16">0,856</tspan>
       </text>
     </g>
   </g>

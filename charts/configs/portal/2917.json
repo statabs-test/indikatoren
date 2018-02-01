@@ -46,13 +46,9 @@
         [
           2015,
           50633
-        ],
-        [
-          2016,
-          51229
         ]
       ],
-      "name": "PV-Beziehende"
+      "name": "Anzahl Beziehende von Prämienverbilligung"
     }
   ],
   "chart": {

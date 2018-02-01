@@ -26,11 +26,11 @@
           37690
         ],
         [
-          "2014",
-          39842
+          "2015",
+          39567
         ]
       ],
-      "name": "Männer Vollzeit",
+      "name": "\"M�nnerVollzeit\"",
       "turboThreshold": 0
     },
     {
@@ -59,11 +59,11 @@
           7849
         ],
         [
-          "2014",
-          9070
+          "2015",
+          9444
         ]
       ],
-      "name": "Männer Teilzeit",
+      "name": "\"M�nnerTeilzeit\"",
       "turboThreshold": 0
     },
     {
@@ -92,11 +92,11 @@
           21125
         ],
         [
-          "2014",
-          23836
+          "2015",
+          21558
         ]
       ],
-      "name": "Frauen Vollzeit",
+      "name": "\"FrauenVollzeit\"",
       "turboThreshold": 0
     },
     {
@@ -125,11 +125,11 @@
           20593
         ],
         [
-          "2014",
-          21501
+          "2015",
+          24417
         ]
       ],
-      "name": "Frauen Teilzeit",
+      "name": "\"FrauenTeilzeit\"",
       "turboThreshold": 0
     },
     {
@@ -158,11 +158,11 @@
           58814
         ],
         [
-          "2014",
-          63678
+          "2015",
+          61124
         ]
       ],
-      "name": "Total Vollzeit",
+      "name": "\"TotalVollzeit\"",
       "turboThreshold": 0
     },
     {
@@ -191,11 +191,11 @@
           28442
         ],
         [
-          "2014",
-          30571
+          "2015",
+          33861
         ]
       ],
-      "name": "Total Teilzeit",
+      "name": "\"TotalTeilzeit\"",
       "turboThreshold": 0
     }
   ],

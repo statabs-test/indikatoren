@@ -8426,7 +8426,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": " Der ökologische Fussabdruck der Schweiz mass 2013 5,3 globale Hektaren pro Kopf.",
-		"erlaeuterungen": "Der ökologische Fussabdruck misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre.",
+		"erlaeuterungen": "Der ökologische Fussabdruck misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Er wird von Global Footprint Network berechnet. Aufgrund von Verbesserungen der Methodik und der berücksichtigten Eingangsgrössen für die Berechnung kann bei Aktualisierungen die gesamte Zeitreihe rückwirkend angepasst werden. Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden.",
 		"template": "line001",
 		"visibleInPortal": true,
 		"orderKey": "04_01_00_00_00_401",
@@ -9649,7 +9649,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
 		"externalLinks": [
 			""
 		],
@@ -9709,16 +9711,17 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "",
 		"schlagwort": [
-			"Arbeit",
-			"BIP"
+			"Nachhaltigkeit",
+			"BIP",
+			"Umwelt"
 		],
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2011 4,9 globaleHektaren pro Kopf. Das Bruttoinlandprodukt (BIP) pro Kopf desKantons Basel-Stadt stieg zwischen den 1990er Jahren und 2008stark an. Seither sind die Werte relativ konstant.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2013 5,3 globale Hektaren pro Kopf. Das Bruttoinlandprodukt (BIP) pro Kopf des Kantons Basel-Stadt ist zwischen den 90er-Jahren und 2013 stark gestiegen.",
+		"erlaeuterungen": "Der ökologische Fussabdruck misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden.",
 		"template": "line001",
 		"visibleInPortal": true,
 		"orderKey": "06_01_00_00_00_607",
@@ -9727,10 +9730,10 @@ var indikatoren = [
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics",
-			"Bundesamt für Statistik und Global Footprint Network"
+			"Global Footprint Network"
 		],
 		"externalLinks": [
-			""
+			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/oekologischer-fussabdruck.html' target = '_blank'>Bundesamt für Statistik: Der ökologische Fussabdruck der Schweiz</a>"
 		],
 		"id": 6051
 	},
@@ -9758,8 +9761,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Nettoerwerbstätigenquote bezeichnet denjenigen Anteil der Personen im erwerbsfähigen Alter (19-64 Jahre), die einer Erwerbstätigkeit nachgehen. Im Kanton Basel-Stadt lag diese Quote 2014 insgesamt bei rund 73%. Bei den Männern lag sie mit 76% über derjenigen der Frauen (69%) Seit 1970 glichen sich die Werte für Männer, Frauen, Schweizer und Ausländer stark an.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Im Kanton Basel-Stadt lag die Nettoerwerbstätigenquote 2015 insgesamt bei rund 73%. Bei den Männern lag sie mit 75% über derjenigen der Frauen (71%). Seit 1970 glichen sich die Werte für Männer, Frauen, Schweizer und Ausländer stark an.",
+		"erlaeuterungen": "Die Nettoerwerbstätigenquote bezeichnet den Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre).",
 		"template": "template001",
 		"visibleInPortal": true,
 		"orderKey": "06_02_00_00_00_608",

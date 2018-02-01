@@ -24,11 +24,11 @@
           76
         ],
         [
-          "2014",
-          76.3
+          "2015",
+          75.4
         ]
       ],
-      "name": "Männer",
+      "name": "\"M�nner\"",
       "turboThreshold": 0
     },
     {
@@ -55,11 +55,11 @@
           68.7
         ],
         [
-          "2014",
-          70.2
+          "2015",
+          71.3
         ]
       ],
-      "name": "Frauen",
+      "name": "\"Frauen\"",
       "turboThreshold": 0
     },
     {
@@ -86,11 +86,11 @@
           72.8
         ],
         [
-          "2014",
-          74
+          "2015",
+          74.2
         ]
       ],
-      "name": "Schweiz",
+      "name": "\"Schweiz\"",
       "turboThreshold": 0
     },
     {
@@ -117,11 +117,11 @@
           71.5
         ],
         [
-          "2014",
-          72.2
+          "2015",
+          72.1
         ]
       ],
-      "name": "Ausland",
+      "name": "\"Ausland\"",
       "turboThreshold": 0
     },
     {
@@ -148,11 +148,11 @@
           72.3
         ],
         [
-          "2014",
-          73.3
+          "2015",
+          73.4
         ]
       ],
-      "name": "Total",
+      "name": "\"Total\"",
       "turboThreshold": 0
     }
   ],

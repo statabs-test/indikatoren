@@ -6,19 +6,19 @@
       "legendIndex": 0,
       "data": [
         [
-          "Etappen pro Tag",
-          14.8
+          "\"Etappen\"",
+          51.117499
         ],
         [
-          "Unterwegszeit pro Tag",
-          19
+          "\"Zeit\"",
+          41.114885
         ],
         [
-          "Tagesdistanz",
-          40.9
+          "\"Distanz\"",
+          7.6795891
         ]
       ],
-      "name": "Anteil MIV",
+      "name": "\"Zu Fuss\"",
       "turboThreshold": 0
     },
     {
@@ -27,19 +27,19 @@
       "legendIndex": 1,
       "data": [
         [
-          "Etappen pro Tag",
-          24.5
+          "\"Etappen\"",
+          10.746188
         ],
         [
-          "Unterwegszeit pro Tag",
-          22.2
+          "\"Zeit\"",
+          11.735088
         ],
         [
-          "Tagesdistanz",
-          40.3
+          "\"Distanz\"",
+          6.194898
         ]
       ],
-      "name": "Anteil ÖV",
+      "name": "\"Veloverkehr\"",
       "turboThreshold": 0
     },
     {
@@ -48,19 +48,19 @@
       "legendIndex": 2,
       "data": [
         [
-          "Etappen pro Tag",
-          74.4
+          "\"Etappen\"",
+          14.590398
         ],
         [
-          "Unterwegszeit pro Tag",
-          56.9
+          "\"Zeit\"",
+          22.493035
         ],
         [
-          "Tagesdistanz",
-          17
+          "\"Distanz\"",
+          42.539444
         ]
       ],
-      "name": "Anteil Langsamverkehr",
+      "name": "\"Motorisierter Individualverkehr\"",
       "turboThreshold": 0
     },
     {
@@ -69,19 +69,19 @@
       "legendIndex": 3,
       "data": [
         [
-          "Etappen pro Tag",
-          1.1
+          "\"Etappen\"",
+          22.461751
         ],
         [
-          "Unterwegszeit pro Tag",
-          1.8
+          "\"Zeit\"",
+          23.269901
         ],
         [
-          "Tagesdistanz",
-          1.8
+          "\"Distanz\"",
+          42.599797
         ]
       ],
-      "name": "Anteil Sonstige",
+      "name": "\"�ffentlicher Verkehr\"",
       "turboThreshold": 0
     }
   ],

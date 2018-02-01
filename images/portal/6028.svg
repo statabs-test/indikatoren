@@ -38,27 +38,27 @@
   </g>
   <g class="highcharts-series-group">
     <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(53,81) scale(1 1)" clip-path="url(#a)">
-      <rect x="55" y="-37" width="30" height="38" fill="#d7e9d2" class="highcharts-point"/>
-      <rect x="196" y="0" width="30" height="50" fill="#d7e9d2" class="highcharts-point"/>
-      <rect x="337" y="0" width="30" height="107" fill="#d7e9d2" class="highcharts-point"/>
+      <rect x="55" y="4" width="30" height="132" fill="#d7e9d2" class="highcharts-point"/>
+      <rect x="196" y="5" width="30" height="106" fill="#d7e9d2" class="highcharts-point"/>
+      <rect x="337" y="4" width="30" height="19" fill="#d7e9d2" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(53,81) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(53,81) scale(1 1)" clip-path="url(#a)">
-      <rect x="55" y="0" width="30" height="64" fill="#73ba7c" class="highcharts-point"/>
-      <rect x="196" y="50" width="30" height="58" fill="#73ba7c" class="highcharts-point"/>
-      <rect x="337" y="107" width="30" height="104" fill="#73ba7c" class="highcharts-point"/>
+      <rect x="55" y="136" width="30" height="28" fill="#73ba7c" class="highcharts-point"/>
+      <rect x="196" y="111" width="30" height="30" fill="#73ba7c" class="highcharts-point"/>
+      <rect x="337" y="23" width="30" height="16" fill="#73ba7c" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(53,81) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(53,81) scale(1 1)" clip-path="url(#a)">
-      <rect x="55" y="64" width="30" height="193" fill="#44ab2b" class="highcharts-point"/>
-      <rect x="196" y="108" width="30" height="147" fill="#44ab2b" class="highcharts-point"/>
-      <rect x="337" y="211" width="30" height="44" fill="#44ab2b" class="highcharts-point"/>
+      <rect x="55" y="164" width="30" height="38" fill="#44ab2b" class="highcharts-point"/>
+      <rect x="196" y="141" width="30" height="59" fill="#44ab2b" class="highcharts-point"/>
+      <rect x="337" y="39" width="30" height="111" fill="#44ab2b" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(53,81) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(53,81) scale(1 1)" clip-path="url(#a)">
-      <rect x="55" y="257" width="30" height="3" fill="#007a2f" class="highcharts-point"/>
-      <rect x="196" y="255" width="30" height="5" fill="#007a2f" class="highcharts-point"/>
-      <rect x="337" y="255" width="30" height="5" fill="#007a2f" class="highcharts-point"/>
+      <rect x="55" y="202" width="30" height="58" fill="#007a2f" class="highcharts-point"/>
+      <rect x="196" y="200" width="30" height="60" fill="#007a2f" class="highcharts-point"/>
+      <rect x="337" y="150" width="30" height="110" fill="#007a2f" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(53,81) scale(1 1)" clip-path="none"/>
   </g>
@@ -71,25 +71,25 @@
       <g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(8,3)">
           <text x="21" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
-            <tspan>Anteil MIV</tspan>
+            <tspan>&quot;Zu Fuss&quot;</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#d7e9d2" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(208,3)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Anteil ÖV</tspan>
+            <tspan>&quot;Veloverkehr&quot;</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#73ba7c" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2" transform="translate(8,17)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Anteil Langsamverkehr</tspan>
+            <tspan>&quot;Motorisierter Individualver…</tspan><title>&quot;Motorisierter Individualverkehr&quot;</title>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#44ab2b" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3" transform="translate(208,17)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Anteil Sonstige</tspan>
+            <tspan>&quot;�ffentlicher Verkehr&quot;</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#007a2f" class="highcharts-point"/>
         </g>
@@ -98,13 +98,13 @@
   </g>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
     <text x="123.33333333333333" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="359" opacity="1">
-      <tspan>Etappen pro Tag</tspan>
+      <tspan>&quot;Etappen&quot;</tspan>
     </text>
     <text x="264" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="359" opacity="1">
-      <tspan>Unterwegszeit pro Tag</tspan>
+      <tspan>&quot;Zeit&quot;</tspan>
     </text>
     <text x="404.66666666666663" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="359" opacity="1">
-      <tspan>Tagesdistanz</tspan>
+      <tspan>&quot;Distanz&quot;</tspan>
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">

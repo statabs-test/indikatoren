@@ -218,13 +218,9 @@
         [
           2013,
           5.283186311
-        ],
-        [
-          2014,
-          null
         ]
       ],
-      "name": "Fussabdruck"
+      "name": "Ökologischer Fussabdruck Schweiz"
     }
   ],
   "chart": {
@@ -277,7 +273,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E globale Hektaren pro Kopf\u003Cbr\u002F\u003E"
   },
   "yAxis": {
     "min": 0,
