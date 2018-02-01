@@ -8,12 +8,13 @@
       "type": "MIT",
       "url": "https://github.com/jiren/filter.js/blob/master/LICENSE"
     }
-  ],
-  "keywords": [
-    "filter",
-    "json",
-    "jquery"
-  ],
+  },
+  "_requiredBy": [],
+  "_resolved": "git://github.com/statabs-test/filter.js.git#e2447aaea9e5b6581a98778c4177fbdf3d1a2936",
+  "_shasum": "ba71374fc010f11ebf363c23a3e5f813ef3bb45a",
+  "_shrinkwrap": null,
+  "_spec": "filter-js@git://github.com/statabs-test/filter.js.git#e2447aaea9e5b6581a98778c4177fbdf3d1a2936",
+  "_where": "/home/ubuntu/workspace",
   "author": {
     "name": "Jiren Patel",
     "email": "jirenpatel@gmail.com"
