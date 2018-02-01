@@ -9,6 +9,7 @@
         }
   },
   "yAxis": {
+    reversedStacks: false,
     "labels": {
       "format": "{value:,.0f}%",
     }
