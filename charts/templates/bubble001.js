@@ -97,6 +97,16 @@
     		"enabled": false,
             "symbolRadius": 0
     	}, 
+        tooltip: {
+            useHTML: true,
+            headerFormat: '<table>',
+            pointFormat: '<tr><th colspan="2"><span style="color:{point.color}">\u25CF</span> {point.name}</th></tr>' +
+                '<tr><th>X:</th><td>{point.x}</td></tr>' +
+                '<tr><th>Y:</th><td>{point.y}</td></tr>' +
+                '<tr><th>Size:</th><td>{point.z}</td></tr>',
+            footerFormat: '</table>',
+            followPointer: true
+        },    	
     	plotOptions: {
     	    bubble: {
     	        label: {

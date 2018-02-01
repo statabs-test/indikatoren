@@ -9,6 +9,13 @@
 		        {x: 1, y: 2, z: 3, name: 0}
 	        ] 
       }, 
+      xAxis:{
+        //make sure dataLabels are not cut off
+        maxPadding: 0.2, 
+        labels: {
+          format: '{value}%'
+        }
+      },
       chart: {
         events: {
           load: function(e){
