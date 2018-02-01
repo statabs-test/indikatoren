@@ -99,6 +99,9 @@
     	}, 
     	plotOptions: {
     	    bubble: {
+    	        label: {
+    	            enabled: true
+    	        },
                 dataLabels: {
                     enabled: true,
                     format: '{point.name}', 
