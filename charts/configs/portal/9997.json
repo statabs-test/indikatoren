@@ -6,19 +6,22 @@
           "x": 10,
           "y": 4,
           "z": 30,
-          "name": "Schweiz"
+          "name": "Schweiz",
+          "color": "red"
         },
         {
           "x": 20,
           "y": 3,
           "z": 100,
-          "name": "Deutschland"
+          "name": "Deutschland",
+          "color": "blue"
         },
         {
           "x": 55,
           "y": 10,
           "z": 20,
-          "name": "Österreich"
+          "name": "Österreich",
+          "color": "blue"
         }
       ],
       "name": "Land"
@@ -27,16 +30,6 @@
   "chart": {
     "events": {
       "load": function (e){
-            //set color based on country
-            if (e && e.target && e.target.series && e.target.series[0]  && e.target.series[0].data){
-              e.target.series[0].setData(
-                e.target.series[0].data.map(function(val, i, arr){
-                  val.color = (val.name == 'Schweiz') ? 'red': 'blue';
-                  return val;
-                })
-              );
-            }
-            
             //remove credits link
             this.credits.element.onclick = function() {};
     
