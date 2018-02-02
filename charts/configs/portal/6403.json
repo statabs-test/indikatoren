@@ -6,48 +6,20 @@
       "legendIndex": 0,
       "data": [
         [
-          "Schweiz",
-          93.5
+          "65 u.m. Jahre",
+          42.15
         ],
         [
-          "Deutschland",
-          99.05
+          "40-64 Jahre",
+          42.58
         ],
         [
-          "Italien",
-          40.7
+          "25-39 Jahre",
+          52.07
         ],
         [
-          "Türkei",
-          40.31
-        ],
-        [
-          "EU-17 + EFTA",
-          31.81
-        ],
-        [
-          "EU-Ost",
-          34.9
-        ],
-        [
-          "Balkan",
-          46.49
-        ],
-        [
-          "Mittel- und Südamerika",
-          29.18
-        ],
-        [
-          "Arabische Länder",
-          35.58
-        ],
-        [
-          "Afrikanische Länder",
-          33.84
-        ],
-        [
-          "Übrige Länder",
-          21.81
+          "15-24 Jahre",
+          72.42
         ]
       ],
       "name": "Deutsch oder Schweizerdeutsch",
@@ -59,48 +31,20 @@
       "legendIndex": 1,
       "data": [
         [
-          "Schweiz",
-          6.5
+          "65 u.m. Jahre",
+          57.85
         ],
         [
-          "Deutschland",
-          0.95
+          "40-64 Jahre",
+          57.42
         ],
         [
-          "Italien",
-          59.3
+          "25-39 Jahre",
+          47.93
         ],
         [
-          "Türkei",
-          59.69
-        ],
-        [
-          "EU-17 + EFTA",
-          68.19
-        ],
-        [
-          "EU-Ost",
-          65.1
-        ],
-        [
-          "Balkan",
-          53.51
-        ],
-        [
-          "Mittel- und Südamerika",
-          70.82
-        ],
-        [
-          "Arabische Länder",
-          64.42
-        ],
-        [
-          "Afrikanische Länder",
-          66.16
-        ],
-        [
-          "Übrige Länder",
-          78.19
+          "15-24 Jahre",
+          27.58
         ]
       ],
       "name": "Kein Deutsch",
@@ -152,7 +96,7 @@
             }
           }
     },
-    "renderTo": "container-6402",
+    "renderTo": "container-6403",
     "marginBottom": 75,
     "type": "column",
     "inverted": true
@@ -166,7 +110,7 @@
         }
       },
       "pointPadding": 100,
-      "pointWidth": 10,
+      "pointWidth": 30,
       "stacking": "normal"
     }
   },
@@ -177,7 +121,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil Personen mit Hauptsprache Deutsch nach Staatsangehörigkeit (Ländergruppen), gepoolte Daten 2011-2015"
+    "text": "Anteil Ausländer mit Hauptsprache Deutsch nach Alter, gepoolte Daten 2011-2015"
   },
   "subtitle": {
     "style": {
@@ -246,6 +190,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 6402
+    "filename": 6403
   }
 }
