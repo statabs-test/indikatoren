@@ -421,7 +421,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "",
 		"erlaeuterungen": "",
-		"template": "line001",
+		"template": "template001",
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [],
@@ -456,7 +456,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "",
 		"erlaeuterungen": "",
-		"template": "line001",
+		"template": "template001",
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [],
@@ -637,7 +637,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "",
 		"erlaeuterungen": "",
-		"template": "line001",
+		"template": "template002",
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [],
@@ -1059,7 +1059,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "",
 		"erlaeuterungen": "",
-		"template": "line001",
+		"template": "template001",
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [],
@@ -3423,5 +3423,73 @@ var indikatorensetData = [
 			""
 		],
 		"id": 6499
+	},
+	{
+		"title": "Ausgestellte und eingelöste Gutscheine für Gratis-Deutschkurse",
+		"subtitle": "",
+		"kuerzel": "I.15.6.06514",
+		"kuerzelKunde": "B5-1",
+		"description": "Ausgestellte und eingelöste Gutscheine für Gratis-Deutschkurse",
+		"thema": "15 Bildung",
+		"unterthema": "Bildungsniveau",
+		"kennzahlenset": "Integration",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Bildung"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		],
+		"id": 6514
+	},
+	{
+		"title": "Anteil Kinder mit Verpflichtung zur Frühdeutschförderung",
+		"subtitle": "",
+		"kuerzel": "I.15.6.06515",
+		"kuerzelKunde": "B6-1",
+		"description": "Anteil Kinder mit Verpflichtung zur Frühdeutschförderung",
+		"thema": "15 Bildung",
+		"unterthema": "Bildungsniveau",
+		"kennzahlenset": "Integration",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Bildung"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		],
+		"id": 6515
 	}
 ];
