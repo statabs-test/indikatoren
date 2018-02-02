@@ -53,19 +53,19 @@
     <tspan>Test Subtitle</tspan>
   </text>
   <g class="highcharts-data-labels highcharts-series-0 highcharts-bubble-series highcharts-color-0 " visibility="visible" transform="translate(46,55) scale(1 1)">
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-0 " transform="translate(17,168)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-0 " transform="translate(17,161)">
       <text x="5" style="font-size:11px;font-weight:bold;color:black;fill:black;" y="16">
-        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">Schweiz</tspan><tspan x="5" y="16">Schweiz</tspan>
+        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">Schweiz</tspan><tspan x="5" dy="14" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">10%</tspan><tspan x="5" y="16">Schweiz</tspan><tspan x="5" dy="14">10%</tspan>
       </text>
     </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-0 " transform="translate(81,192)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-0 " transform="translate(81,185)">
       <text x="5" style="font-size:11px;font-weight:bold;color:black;fill:black;" y="16">
-        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">Deutschland</tspan><tspan x="5" y="16">Deutschland</tspan>
+        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">Deutschland</tspan><tspan x="5" dy="14" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">20%</tspan><tspan x="5" y="16">Deutschland</tspan><tspan x="5" dy="14">20%</tspan>
       </text>
     </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-0 " transform="translate(353,27)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-0 " transform="translate(353,20)">
       <text x="5" style="font-size:11px;font-weight:bold;color:black;fill:black;" y="16">
-        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">Österreich</tspan><tspan x="5" y="16">Österreich</tspan>
+        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">Österreich</tspan><tspan x="5" dy="14" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">55%</tspan><tspan x="5" y="16">Österreich</tspan><tspan x="5" dy="14">55%</tspan>
       </text>
     </g>
   </g>

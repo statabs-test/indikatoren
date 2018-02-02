@@ -114,8 +114,8 @@
     	        },
                 dataLabels: {
                     enabled: true,
-                    format: '{point.name}', 
-                    //align: 'center', 
+                    format: '{point.name}<br/>{point.x}%', 
+                    align: 'center', 
                     //verticalAlign: 'middle',
                     y:-20,
                     x: 30,
