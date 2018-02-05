@@ -27,7 +27,7 @@
   }],
  "colors": [
   "#b00000", /*Schweiz*/
-  "#cd9c00", /*Deutschland*/
+  "#672773", /*Deutschland*/
   "#007a2f", /*Italien*/
   "#fabd24", /*Türkei*/
   "#b475ab", /*EU-17 & EFTA*/

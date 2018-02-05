@@ -1,91 +1,53 @@
 {
   "series": [
     {
-      "color": "#68AB2B",
-      "visible": true,
+      "name": "Anteil",
       "data": [
         [
+          "Schweiz",
+          20.06
+        ],
+        [
+          "Deutschland",
+          7.52
+        ],
+        [
           "Italien",
-          444
+          60
         ],
         [
           "Türkei",
-          72
+          85.71
         ],
         [
           "EU-17 + EFTA",
-          1089
+          53.85
         ],
         [
           "EU-Ost",
-          469
+          58.62
         ],
         [
           "Balkan",
-          156
+          81.63
         ],
         [
           "Mittel- und Südamerika",
-          140
+          90
         ],
         [
           "Arabische Länder",
-          67
+          86.67
         ],
         [
           "Afrikanische Länder",
-          54
+          78.79
         ],
         [
           "Übrige Länder",
-          628
+          72.55
         ]
       ],
-      "name": "Ausgestellte Gutscheine",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#E6E600",
-      "visible": true,
-      "data": [
-        [
-          "Italien",
-          167
-        ],
-        [
-          "Türkei",
-          56
-        ],
-        [
-          "EU-17 + EFTA",
-          359
-        ],
-        [
-          "EU-Ost",
-          158
-        ],
-        [
-          "Balkan",
-          105
-        ],
-        [
-          "Mittel- und Südamerika",
-          88
-        ],
-        [
-          "Arabische Länder",
-          27
-        ],
-        [
-          "Afrikanische Länder",
-          26
-        ],
-        [
-          "Übrige Länder",
-          253
-        ]
-      ],
-      "name": "Eingelöste Gutscheine",
       "turboThreshold": 0
     }
   ],
@@ -112,7 +74,7 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 415,
-    "spacingBottom": 30,
+    "spacingBottom": 40,
     "style": {
       "fontFamily": "Arial"
     },
@@ -144,9 +106,10 @@
         "style": {
           "fontSize": "10px"
         }
-      },
-      "pointPadding": 0,
-      "itemWidth": 10
+      }
+    },
+    "column": {
+      "colorByPoint": true
     }
   },
   "title": {
@@ -183,7 +146,7 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f}%"
     }
   },
   "navigation": {
@@ -209,17 +172,32 @@
   },
   "legend": {
     "symbolRadius": 0,
-    "enabled": true,
+    "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "y": 55,
+    "x": 35,
+    "y": 35,
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
+  "colors": [
+    "#b00000",
+    "#672773",
+    "#007a2f",
+    "#fabd24",
+    "#b475ab",
+    "#71a3b5",
+    "#b9cfd7",
+    "#ff8028",
+    "#73ba7c",
+    "#9f7c5a",
+    "#999999"
+  ],
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E{series.name}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {point.name}: \u003Cb\u003E{point.y:,.0f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {

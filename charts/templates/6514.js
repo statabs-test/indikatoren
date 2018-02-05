@@ -20,8 +20,8 @@
     }    
   },
   "series": [
+  {"color": "#68AB2B", "visible": true}, /* grün */
   {"color": "#E6E600", "visible": true}, /* gelb*/
-  {"color": "#68AB2B", "visible": true} /* grün */
   ],
   "legend": {
     "enabled": true,

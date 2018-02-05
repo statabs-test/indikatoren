@@ -20,7 +20,7 @@
   "yAxis": {
      //tickInterval: 60000,
     "labels": {
-      "format": "{value:,.0f}%",
+      "format": "{value:,.0f}",
     },
   },
   "legend": {
@@ -46,7 +46,7 @@
     "inverted": false
   },
   "tooltip": {
-  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>',
+  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}</b><br/>',
    "shared": false
   },
 }

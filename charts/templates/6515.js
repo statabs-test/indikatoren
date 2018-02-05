@@ -1,47 +1,66 @@
+
 (function(){
     return {
-   plotOptions: {
-        series: {
-            pointPadding: 0,
-            borderWidth: 0,
-			itemWidth: 10, 
-
-        }
-   },
-  "xAxis": {
+  "plotOptions": {
+  	   series: {
+          //pointWidth: 5, 
+        },
+    "column": {
+        "colorByPoint": true
+    }
+  },
+ "xAxis": {
     "type": "category",
     "labels": {
       "rotation": 0 
     } 
   },
   "yAxis": {
+	//"max": 100,
     "labels": {
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f}%"
     }    
   },
-  "series": [
-  {"color": "#68AB2B", "visible": true}, /* grün */
-  {"color": "#E6E600", "visible": true}, /* gelb*/
+  
+  series: [{
+    name: 'Ländergruppe'
+  }],
+ "colors": [
+  "#b00000", /*Schweiz*/
+  "#672773", /*Deutschland*/
+  "#007a2f", /*Italien*/
+  "#fabd24", /*Türkei*/
+  "#b475ab", /*EU-17 & EFTA*/
+  "#71a3b5", /*EU-Ost */
+  "#b9cfd7", /*Balkan*/
+  "#ff8028", /*Mittel- & Südamerika */
+  "#73ba7c", /*Arabische Länder */
+  "#9f7c5a", /*Afrikanische Länder*/
+  "#999999", /*Übrige Länder*/
   ],
   "legend": {
-    "enabled": true,
+    "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    //"x": 25,
-	"y": 55,    
+    "x": 35,
+	"y": 35,    
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
    tooltip: {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+    headerFormat: '<span style="font-size: 10px">{series.name}</span><br/>',
+    pointFormat: '<span style="color:{point.color}">\u25CF</span> {point.name}: <b>{point.y:,.0f}%</b><br/>',
     "shared": false
   },
   "chart": {      
     "type": "column",
     "inverted": true,
-    //"spacingTop": 100
+    "spacingBottom": 40
   }
 }
 }());
+
+
+

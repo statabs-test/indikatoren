@@ -1,22 +1,22 @@
 (function(){
     return {
   "xAxis": {
-    "tickInterval": 5,
+    "tickInterval": 1,
   },
   "yAxis": {
-    "min": 0, 
-    tickInterval: 10,
+    //"min": 0, 
+    //tickInterval: 1,
 	  "labels": {
-		  "format": "{value}%"
+		  "format": "{value}"
 	  }
   },	
   "tooltip": {
     "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b>%<br/>'
+	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   },
  "series": [
-  {"color":  "#B00000"}, /**/
-  {"color": "#CD9C00"}, /**/
+ {"color":  "#b00000"}, /**/
+  {"color": "#cd9c00"}, /**/
   ],
    "legend": {
     "enabled": true,

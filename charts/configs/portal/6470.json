@@ -1,0 +1,320 @@
+{
+  "series": [
+    {
+      "color": "#246370",
+      "visible": true,
+      "yAxis": 0,
+      "data": [
+        [
+          "Schweiz",
+          63349
+        ],
+        [
+          "Deutschland",
+          83738
+        ],
+        [
+          "Italien",
+          50529
+        ],
+        [
+          "Türkei",
+          39414
+        ],
+        [
+          "EU-17 + EFTA",
+          73255
+        ],
+        [
+          "EU-Ost",
+          43951
+        ],
+        [
+          "Balkan",
+          45131
+        ],
+        [
+          "Mittel- und Südamerika",
+          38193
+        ],
+        [
+          "Arabische Länder",
+          38537
+        ],
+        [
+          "Afrikanische Länder",
+          36239
+        ],
+        [
+          "Übrige Länder",
+          75075
+        ]
+      ],
+      "name": "Mittelwert 2005",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#A8C3CA",
+      "visible": true,
+      "yAxis": 0,
+      "data": [
+        [
+          "Schweiz",
+          65597
+        ],
+        [
+          "Deutschland",
+          93739
+        ],
+        [
+          "Italien",
+          59083
+        ],
+        [
+          "Türkei",
+          36857
+        ],
+        [
+          "EU-17 + EFTA",
+          103052
+        ],
+        [
+          "EU-Ost",
+          73641
+        ],
+        [
+          "Balkan",
+          44213
+        ],
+        [
+          "Mittel- und Südamerika",
+          51741
+        ],
+        [
+          "Arabische Länder",
+          39452
+        ],
+        [
+          "Afrikanische Länder",
+          30464
+        ],
+        [
+          "Übrige Länder",
+          128932
+        ]
+      ],
+      "name": "Mittelwert 2014",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b00000",
+      "type": "scatter",
+      "yAxis": 1,
+      "tooltip": {
+        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "Schweiz",
+          85613
+        ],
+        [
+          "Deutschland",
+          4285
+        ],
+        [
+          "Italien",
+          5396
+        ],
+        [
+          "Türkei",
+          3381
+        ],
+        [
+          "EU-17 + EFTA",
+          4906
+        ],
+        [
+          "EU-Ost",
+          383
+        ],
+        [
+          "Balkan",
+          4376
+        ],
+        [
+          "Mittel- und Südamerika",
+          529
+        ],
+        [
+          "Arabische Länder",
+          339
+        ],
+        [
+          "Afrikanische Länder",
+          504
+        ],
+        [
+          "Übrige Länder",
+          1467
+        ]
+      ],
+      "name": "Anzahl Veranlagungen 2005 (rechte Skala)",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "rotation": -45
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "type": "column",
+    "inverted": false,
+    "renderTo": "container-6470"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 0,
+      "itemWidth": 10
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Mittelwert des Reinvermögens pro Veranlagung nach Staatsangehörigkeit (Ländergruppen)"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "2005 und 2014",
+    "align": "left"
+  },
+  "yAxis": [
+    {
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "max": 350000,
+      "tickInterval": 50000,
+      "title": ""
+    },
+    {
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "max": 1000,
+      "tickInterval": 150,
+      "gridLineWidth": 0,
+      "opposite": true
+    }
+  ],
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -5
+    },
+    "text": "Quelle: "
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemWidth": 300,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "y": 55,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": 6470
+  }
+}
