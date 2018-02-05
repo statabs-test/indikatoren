@@ -26,11 +26,7 @@
   "series": [
     {
       "index": 0,
-      "tooltip": {
-        "pointFormatter": function(){
-          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b><br/>';
-        }
-      }      
+      color: "#661200"
     },
     {
       "index": 1,
@@ -38,31 +34,30 @@
     },
         {
       "index": 2,
-      "tooltip": {
-        "pointFormatter": function(){
-          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b><br/>';
-        }
-      }      
+      color: "#dc440e"
+      
     },
-   {
+   /*{
       "index": 3,
       "type": "errorbar",
-    },
+    },*/
          /*   {
       "index": 4,
-      "tooltip": {
-        "pointFormatter": function(){
-          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b><br/>';
-        }
-      }      
+      color: "#7f5f1a"
+    },*/
+    /*{
+      "index": 5,
+      "type": "errorbar",
+    },*/
+         /*   {
+      "index": 6,
+      color: "#ffda80"
+    },*/
+        /*{
+      "index": 7,
+      "type": "errorbar",
     },*/
     
-  ],  
-  "colors": [
-    "#661200",
-    "#dc440e",
-    "#7f5f1a",
-    "#ffda80"
   ],  
   "xAxis": {
     "type": "category"    
