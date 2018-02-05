@@ -187,8 +187,6 @@
   },
   "yAxis": [
     {
-      "max": 7,
-      "tickInterval": 1,
       "min": 0,
       "title": {
         "text": null
@@ -244,7 +242,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "y": 20,
+    "y": 30,
     "itemStyle": {
       "fontWeight": "normal"
     }
