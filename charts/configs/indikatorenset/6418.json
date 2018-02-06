@@ -3,6 +3,11 @@
     {
       "index": 0,
       "color": "#661200",
+      "tooltip": {
+        "pointFormatter": function (){
+          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b><br/>';
+        }
+      },
       "data": [
         [
           "1990",
@@ -23,6 +28,11 @@
     {
       "index": 1,
       "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function (){
+          return this.series.name + ': <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b><br/>';
+        }
+      },
       "data": [
         {
           "name": "1990",
@@ -46,6 +56,11 @@
     {
       "index": 2,
       "color": "#dc440e",
+      "tooltip": {
+        "pointFormatter": function (){
+          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b><br/>';
+        }
+      },
       "data": [
         [
           "1990",
@@ -66,6 +81,11 @@
     {
       "index": 3,
       "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function (){
+          return this.series.name + ': <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b><br/>';
+        }
+      },
       "data": [
         {
           "name": "1990",
@@ -89,6 +109,11 @@
     {
       "index": 4,
       "color": "#7f5f1a",
+      "tooltip": {
+        "pointFormatter": function (){
+          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b><br/>';
+        }
+      },
       "data": [
         [
           "1990",
@@ -109,6 +134,11 @@
     {
       "index": 5,
       "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function (){
+          return this.series.name + ': <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b><br/>';
+        }
+      },
       "data": [
         {
           "name": "1990",
@@ -132,6 +162,11 @@
     {
       "index": 6,
       "color": "#ffda80",
+      "tooltip": {
+        "pointFormatter": function (){
+          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b><br/>';
+        }
+      },
       "data": [
         [
           "1990",
@@ -152,6 +187,11 @@
     {
       "index": 7,
       "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function (){
+          return this.series.name + ': <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b><br/>';
+        }
+      },
       "data": [
         {
           "name": "1990",
@@ -287,9 +327,6 @@
       "pointPadding": 0,
       "borderWidth": 0
     }
-  },
-  "column": {
-    "colorByPoint": true
   },
   "exporting": {
     "filename": 6418

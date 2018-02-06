@@ -1,59 +1,59 @@
 (function(){
     return {
+"plotOptions": {
+    "series": {
+      pointPadding: 100,
+      borderWidth: 0,
+      "pointWidth": 30,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "normal"
+    }
+  },
   "xAxis": {
-    type: 'category',
-    endOnTick: false,
-    "tickInterval": 5,
-     "labels": {
-     	step:1,
-      "rotation": 0,
-     }
-  },
+  	min: 0,
+    "type": "category",
+    "tickInterval": 1
+  },  
   "yAxis": {
-    "min": 0, 
-    max: 60,
-	  "labels": {
-		  "format": "{value}%"
-	  }
-  },	
-  "tooltip": {
-    "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b>%<br/>'
+  	max: 100,
+     //tickInterval: 60000,
+    "labels": {
+      "format": "{value:,.0f}%",
+    },
   },
- "series": [
-    {
-		"color": "#fabd24", // 1997
-    	"legendIndex": 2
-    }, /* rot */
-    {
-		"color": "#672773" , // 2006
-    	"legendIndex": 2
-    }, /* violett */
-    {
-		"color": "#007a2f", // 2016
-    	"legendIndex": 2
-    }, /* blau */
-  ],
-   "legend": {
+  "legend": {
+  	"itemWidth": 50,
     "enabled": true,
-    //"x": 45,
-    "y": 30,
-    "itemWidth": 100,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
     "align": "left",
+	"y": 30,
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
-  "plotOptions": {
-    "line": {
-      "marker":{
-        "enabled": false,
-        "symbol": "circle",
-      } 
-    }
-  }
+ "series": [
+  {"color": "#246370", index: 9, legendIndex: 0}, /**/
+  {"color": "#923F8D", index: 8, legendIndex: 1}, /**/
+  {"color": "#7F5F1A", index: 7, legendIndex: 2}, /**/
+  {"color": "#CD9C00", index: 6, legendIndex: 3}, /**/
+  {"color": "#007A2F", index: 5, legendIndex: 4}, /* */
+  {"color": "#DC440E", index: 4, legendIndex: 5}, /**/
+],
+  "chart": {
+    "renderTo": 'container-I.01.1.0016', 
+    "marginBottom": 75,
+    //"marginTop": 75,
+    "type": "column",
+    "inverted": true
+  },
+  "tooltip": {
+  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>',
+   "shared": false
+  },
 }
 }());

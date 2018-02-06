@@ -16,7 +16,7 @@
   },
   "yAxis": {
     "labels": {
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f}%"
     }    
   },
   "series": [
@@ -37,7 +37,7 @@
     }
   },
    tooltip: {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}%</b><br/>',
     "shared": false
   },
   "chart": {      

@@ -9114,7 +9114,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "",
 		"erlaeuterungen": "",
-		"template": "line001",
+		"template": "template001",
 		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
@@ -9262,7 +9262,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "",
 		"erlaeuterungen": "",
-		"template": "template002",
+		"template": "template001",
 		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
@@ -12414,7 +12414,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "",
 		"erlaeuterungen": "",
-		"template": "line001",
+		"template": "mappie001",
 		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
@@ -13256,7 +13256,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "",
 		"erlaeuterungen": "",
-		"template": "line001",
+		"template": "template001",
 		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
@@ -14724,5 +14724,41 @@ var indikatoren = [
 			""
 		],
 		"id": 6515
+	},
+	{
+		"title": "Anteil Ausländer nach Alter und Art der Bewilligung",
+		"subtitle": "Stand: 2016",
+		"kuerzel": "I.01.1.06570",
+		"kuerzelKunde": "A3-4",
+		"description": "Anteil Ausländer nach Alter und Art der Bewilligung",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur ",
+		"kennzahlenset": "Integration",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Bewilligung",
+			"Staatsangehörigkeit"
+		],
+		"stufe1": "Kapitel A Bevölkerungsstruktur",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_022",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		],
+		"id": 6570
 	}
 ];

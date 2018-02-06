@@ -588,5 +588,6 @@ id | visible | visibleInPortal | indikatorenset
 6499 | true | true | Integration
 6514 | true | true | Integration
 6515 | true | true | Integration
+6570 | true | true | Integration
 9998 | true | false | Test
 9999 | true | false | Test

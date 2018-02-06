@@ -1,128 +1,131 @@
 {
   "series": [
     {
-      "index": 0,
-      "color": "#B375AB",
-      "tooltip": {
-        "pointFormatter": function (){
-          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b><br/>';
-        }
-      },
+      "color": "#661200",
+      "visible": true,
       "data": [
         [
-          "Schweiz",
-          74.13
+          "Ohne Kaderfunktion",
+          85.2
         ],
         [
-          "Deutschland",
-          87.57
+          "Unteres Fachkader",
+          95.8
         ],
         [
-          "Italien",
-          67.83
+          "Unteres Kader",
+          93.7
         ],
         [
-          "Türkei",
-          49.6
+          "Mittleres Fachkader",
+          88.5
         ],
         [
-          "EU-17 + EFTA",
-          78.53
+          "Mittleres Kader",
+          88.1
         ],
         [
-          "EU-Ost",
-          76.71
-        ],
-        [
-          "Balkan",
-          56.76
-        ],
-        [
-          "Mittel- und Südamerika",
-          57.36
-        ],
-        [
-          "Arabische Länder",
-          52.56
-        ],
-        [
-          "Afrikanische Länder",
-          59.54
-        ],
-        [
-          "Übrige Länder",
-          66.68
+          "Oberes Kader",
+          90.7
         ]
       ],
-      "name": "Erwerbstätigenquote",
+      "name": "Schweiz",
       "turboThreshold": 0
     },
     {
-      "index": 1,
-      "type": "errorbar",
-      "tooltip": {
-        "pointFormatter": function (){
-          return this.series.name + ': <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b><br/>';
-        }
-      },
+      "color": "#dc440e",
+      "visible": true,
       "data": [
-        {
-          "name": "Schweiz",
-          "low": 73.36,
-          "high": 74.9
-        },
-        {
-          "name": "Deutschland",
-          "low": 86.07,
-          "high": 89.07
-        },
-        {
-          "name": "Italien",
-          "low": 64.53,
-          "high": 71.13
-        },
-        {
-          "name": "Türkei",
-          "low": 45.86,
-          "high": 53.34
-        },
-        {
-          "name": "EU-17 + EFTA",
-          "low": 76.43,
-          "high": 80.63
-        },
-        {
-          "name": "EU-Ost",
-          "low": 71.93,
-          "high": 81.49
-        },
-        {
-          "name": "Balkan",
-          "low": 53.52,
-          "high": 60
-        },
-        {
-          "name": "Mittel- und Südamerika",
-          "low": 50.41,
-          "high": 64.31
-        },
-        {
-          "name": "Arabische Länder",
-          "low": 42.56,
-          "high": 62.56
-        },
-        {
-          "name": "Afrikanische Länder",
-          "low": 50.96,
-          "high": 68.12
-        },
-        {
-          "name": "Übrige Länder",
-          "low": 63.22,
-          "high": 70.14
-        }
+        [
+          "Ohne Kaderfunktion",
+          31.9
+        ],
+        [
+          "Unteres Fachkader",
+          61.9
+        ],
+        [
+          "Unteres Kader",
+          55.1
+        ],
+        [
+          "Mittleres Fachkader",
+          38.5
+        ],
+        [
+          "Mittleres Kader",
+          55
+        ],
+        [
+          "Oberes Kader",
+          61.3
+        ]
       ],
-      "name": "95 Vertrauensintervall",
+      "name": "Schweizer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#7f5f1a",
+      "visible": true,
+      "data": [
+        [
+          "Ohne Kaderfunktion",
+          53.3
+        ],
+        [
+          "Unteres Fachkader",
+          33.9
+        ],
+        [
+          "Unteres Kader",
+          38.6
+        ],
+        [
+          "Mittleres Fachkader",
+          50
+        ],
+        [
+          "Mittleres Kader",
+          33.2
+        ],
+        [
+          "Oberes Kader",
+          29.3
+        ]
+      ],
+      "name": "Schweizerinnen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ffda80",
+      "visible": true,
+      "data": [
+        [
+          "Ohne Kaderfunktion",
+          14.8
+        ],
+        [
+          "Unteres Fachkader",
+          4.2
+        ],
+        [
+          "Unteres Kader",
+          6.3
+        ],
+        [
+          "Mittleres Fachkader",
+          11.5
+        ],
+        [
+          "Mittleres Kader",
+          11.9
+        ],
+        [
+          "Oberes Kader",
+          9.3
+        ]
+      ],
+      "name": "Ausland",
       "turboThreshold": 0
     }
   ],
@@ -139,7 +142,8 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "rotation": -45
     },
     "tickLength": 0
   },
@@ -169,11 +173,9 @@
             }
           }
     },
-    "marginBottom": 65,
-    "marginTop": 75,
     "type": "column",
-    "inverted": true,
-    "renderTo": "container-6416"
+    "inverted": false,
+    "renderTo": "container-6422"
   },
   "plotOptions": {
     "series": {
@@ -183,7 +185,8 @@
           "fontSize": "10px"
         }
       },
-      "pointPadding": 0
+      "pointPadding": 0,
+      "itemWidth": 10
     }
   },
   "title": {
@@ -193,7 +196,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Erwerbstätigenquote nach Staatsangehörigkeit (Ländergruppen), gepoolte Daten 2011-2015"
+    "text": "Anteil Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit (CH\u002FA), Geschlecht und Kaderstufe 2016"
   },
   "subtitle": {
     "style": {
@@ -220,9 +223,7 @@
       "style": {
         "color": "#000000"
       },
-      "formatter": function (){
-            return Highcharts.numberFormat((this.value),0)+'%';                
-        }
+      "format": "{value:,.0f}%"
     }
   },
   "navigation": {
@@ -248,9 +249,20 @@
   },
   "legend": {
     "symbolRadius": 0,
-    "enabled": false
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "y": 55,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "exporting": {
-    "filename": 6416
+    "filename": 6422
   }
 }

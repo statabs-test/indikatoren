@@ -8,19 +8,19 @@
           29.3
         ],
         [
-          "18-24 Jahre",
+          "25-34 Jahre",
           25
         ],
         [
-          "18-24 Jahre",
+          "35-44 Jahre",
           23
         ],
         [
-          "18-24 Jahre",
+          "45-59 Jahre",
           14.9
         ],
         [
-          "18-24 Jahre",
+          "ab 60 Jahre",
           4.9
         ]
       ],
@@ -35,19 +35,19 @@
           8.2
         ],
         [
-          "18-24 Jahre",
+          "25-34 Jahre",
           5.8
         ],
         [
-          "18-24 Jahre",
+          "35-44 Jahre",
           8.5
         ],
         [
-          "18-24 Jahre",
+          "45-59 Jahre",
           4.4
         ],
         [
-          "18-24 Jahre",
+          "ab 60 Jahre",
           0.9
         ]
       ],
@@ -62,19 +62,19 @@
           60.7
         ],
         [
-          "18-24 Jahre",
+          "25-34 Jahre",
           31.4
         ],
         [
-          "18-24 Jahre",
+          "35-44 Jahre",
           31.5
         ],
         [
-          "18-24 Jahre",
+          "45-59 Jahre",
           16
         ],
         [
-          "18-24 Jahre",
+          "ab 60 Jahre",
           5.9
         ]
       ],
@@ -89,19 +89,19 @@
           12.3
         ],
         [
-          "18-24 Jahre",
+          "25-34 Jahre",
           8.3
         ],
         [
-          "18-24 Jahre",
+          "35-44 Jahre",
           9
         ],
         [
-          "18-24 Jahre",
+          "45-59 Jahre",
           6.2
         ],
         [
-          "18-24 Jahre",
+          "ab 60 Jahre",
           2.7
         ]
       ],
@@ -232,7 +232,7 @@
     "verticalAlign": "top",
     "align": "left",
     "y": 70,
-    "itemWidth": 100,
+    "itemWidth": 300,
     "itemStyle": {
       "fontWeight": "normal"
     }

@@ -2,27 +2,127 @@
   "series": [
     {
       "index": 0,
-      "color": "#661200",
+      "color": "#B375AB",
+      "tooltip": {
+        "pointFormatter": function (){
+          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b><br/>';
+        }
+      },
       "data": [
         [
-          "74.13%",
-          "73.36%"
+          "Schweiz",
+          74.13
+        ],
+        [
+          "Deutschland",
+          87.57
+        ],
+        [
+          "Italien",
+          67.83
+        ],
+        [
+          "Türkei",
+          49.6
+        ],
+        [
+          "EU-17 + EFTA",
+          78.53
+        ],
+        [
+          "EU-Ost",
+          76.71
+        ],
+        [
+          "Balkan",
+          56.76
+        ],
+        [
+          "Mittel- und Südamerika",
+          57.36
+        ],
+        [
+          "Arabische Länder",
+          52.56
+        ],
+        [
+          "Afrikanische Länder",
+          59.54
+        ],
+        [
+          "Übrige Länder",
+          66.68
         ]
       ],
-      "name": "95% Vertrauensintervall",
+      "name": "Erwerbstätigenquote",
       "turboThreshold": 0
     },
     {
       "index": 1,
       "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function (){
+          return this.series.name + ': <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b><br/>';
+        }
+      },
       "data": [
         {
-          "name": "74.13%",
-          "low": "74.90%",
-          "high": "87.57%"
+          "name": "Schweiz",
+          "low": 73.36,
+          "high": 74.9
+        },
+        {
+          "name": "Deutschland",
+          "low": 86.07,
+          "high": 89.07
+        },
+        {
+          "name": "Italien",
+          "low": 64.53,
+          "high": 71.13
+        },
+        {
+          "name": "Türkei",
+          "low": 45.86,
+          "high": 53.34
+        },
+        {
+          "name": "EU-17 + EFTA",
+          "low": 76.43,
+          "high": 80.63
+        },
+        {
+          "name": "EU-Ost",
+          "low": 71.93,
+          "high": 81.49
+        },
+        {
+          "name": "Balkan",
+          "low": 53.52,
+          "high": 60
+        },
+        {
+          "name": "Mittel- und Südamerika",
+          "low": 50.41,
+          "high": 64.31
+        },
+        {
+          "name": "Arabische Länder",
+          "low": 42.56,
+          "high": 62.56
+        },
+        {
+          "name": "Afrikanische Länder",
+          "low": 50.96,
+          "high": 68.12
+        },
+        {
+          "name": "Übrige Länder",
+          "low": 63.22,
+          "high": 70.14
         }
       ],
-      "name": "95% Vertrauensintervall Obergrenze",
+      "name": "95 Vertrauensintervall",
       "turboThreshold": 0
     }
   ],
@@ -72,7 +172,7 @@
     "marginBottom": 65,
     "marginTop": 75,
     "type": "column",
-    "inverted": false,
+    "inverted": true,
     "renderTo": "container-6416"
   },
   "plotOptions": {
@@ -149,9 +249,6 @@
   "legend": {
     "symbolRadius": 0,
     "enabled": false
-  },
-  "column": {
-    "colorByPoint": true
   },
   "exporting": {
     "filename": 6416
