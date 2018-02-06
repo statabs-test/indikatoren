@@ -37,64 +37,64 @@
   </g>
   <g class="highcharts-series-group">
     <g class="highcharts-series highcharts-series-0 highcharts-column-series " transform="translate(53,75) scale(1 1)" clip-path="url(#a)">
-      <rect x="28" y="38" width="21" height="238" fill="#661200" class="highcharts-point"/>
-      <rect x="169" y="47" width="21" height="229" fill="#661200" class="highcharts-point"/>
-      <rect x="309" y="56" width="22" height="220" fill="#661200" class="highcharts-point"/>
+      <rect x="28" y="43" width="21" height="233" fill="#661200" class="highcharts-point"/>
+      <rect x="169" y="58" width="21" height="218" fill="#661200" class="highcharts-point"/>
+      <rect x="309" y="68" width="22" height="208" fill="#661200" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-column-series " transform="translate(53,75) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-1 highcharts-errorbar-series " transform="translate(53,75) scale(1 1)" clip-path="url(#a)">
       <g class="highcharts-point">
-        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 320.5 57 L 320.5 52 M 320.5 57 L 320.5 57"/>
-        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 315 52.5 L 326 52.5 M 315 57.5 L 326 57.5"/>
+        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 320.5 69 L 320.5 63 M 320.5 69 L 320.5 69"/>
+        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 315 63.5 L 326 63.5 M 315 69.5 L 326 69.5"/>
         <path fill="none" class="highcharts-boxplot-median" stroke="#000000" stroke-width="2" d="M 0 0"/>
       </g>
     </g>
     <g class="highcharts-markers highcharts-series-1 highcharts-errorbar-series " transform="translate(53,75) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-2 highcharts-column-series " transform="translate(53,75) scale(1 1)" clip-path="url(#a)">
-      <rect x="49" y="108" width="21" height="168" fill="#dc440e" class="highcharts-point"/>
-      <rect x="190" y="81" width="21" height="195" fill="#dc440e" class="highcharts-point"/>
-      <rect x="331" y="68" width="21" height="208" fill="#dc440e" class="highcharts-point"/>
+      <rect x="49" y="112" width="21" height="164" fill="#dc440e" class="highcharts-point"/>
+      <rect x="190" y="90" width="21" height="186" fill="#dc440e" class="highcharts-point"/>
+      <rect x="331" y="76" width="21" height="200" fill="#dc440e" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-2 highcharts-column-series " transform="translate(53,75) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-3 highcharts-errorbar-series " transform="translate(53,75) scale(1 1)" clip-path="url(#a)">
       <g class="highcharts-point">
-        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 342.5 69 L 342.5 63 M 342.5 69 L 342.5 69"/>
-        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 337 63.5 L 348 63.5 M 337 69.5 L 348 69.5"/>
+        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 342.5 78 L 342.5 72 M 342.5 78 L 342.5 78"/>
+        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 337 72.5 L 348 72.5 M 337 78.5 L 348 78.5"/>
         <path fill="none" class="highcharts-boxplot-median" stroke="#000000" stroke-width="2" d="M 0 0"/>
       </g>
     </g>
     <g class="highcharts-markers highcharts-series-3 highcharts-errorbar-series " transform="translate(53,75) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-4 highcharts-column-series " transform="translate(53,75) scale(1 1)" clip-path="url(#a)">
-      <rect x="70" y="31" width="21" height="245" fill="#7f5f1a" class="highcharts-point"/>
-      <rect x="211" y="46" width="21" height="230" fill="#7f5f1a" class="highcharts-point"/>
-      <rect x="352" y="42" width="21" height="234" fill="#7f5f1a" class="highcharts-point"/>
+      <rect x="70" y="39" width="21" height="237" fill="#7f5f1a" class="highcharts-point"/>
+      <rect x="211" y="61" width="21" height="215" fill="#7f5f1a" class="highcharts-point"/>
+      <rect x="352" y="66" width="21" height="210" fill="#7f5f1a" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-4 highcharts-column-series " transform="translate(53,75) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-5 highcharts-errorbar-series " transform="translate(53,75) scale(1 1)" clip-path="url(#a)">
       <g class="highcharts-point">
-        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 363.5 45 L 363.5 37 M 363.5 45 L 363.5 45"/>
-        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 358 37.5 L 369 37.5 M 358 45.5 L 369 45.5"/>
+        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 363.5 68 L 363.5 60 M 363.5 68 L 363.5 68"/>
+        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 358 60.5 L 369 60.5 M 358 68.5 L 369 68.5"/>
         <path fill="none" class="highcharts-boxplot-median" stroke="#000000" stroke-width="2" d="M 0 0"/>
       </g>
     </g>
     <g class="highcharts-markers highcharts-series-5 highcharts-errorbar-series " transform="translate(53,75) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-6 highcharts-column-series " transform="translate(53,75) scale(1 1)" clip-path="url(#a)">
-      <rect x="91" y="96" width="22" height="180" fill="#ffda80" class="highcharts-point"/>
-      <rect x="232" y="76" width="21" height="200" fill="#ffda80" class="highcharts-point"/>
-      <rect x="373" y="79" width="21" height="197" fill="#ffda80" class="highcharts-point"/>
+      <rect x="91" y="105" width="22" height="171" fill="#ffda80" class="highcharts-point"/>
+      <rect x="232" y="99" width="21" height="177" fill="#ffda80" class="highcharts-point"/>
+      <rect x="373" y="96" width="21" height="180" fill="#ffda80" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-6 highcharts-column-series " transform="translate(53,75) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-7 highcharts-errorbar-series " transform="translate(53,75) scale(1 1)" clip-path="url(#a)">
       <g class="highcharts-point">
-        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 384.5 82 L 384.5 73 M 384.5 82 L 384.5 82"/>
-        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 379 73.5 L 390 73.5 M 379 82.5 L 390 82.5"/>
+        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 384.5 99 L 384.5 90 M 384.5 99 L 384.5 99"/>
+        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 379 90.5 L 390 90.5 M 379 99.5 L 390 99.5"/>
         <path fill="none" class="highcharts-boxplot-median" stroke="#000000" stroke-width="2" d="M 0 0"/>
       </g>
     </g>
     <g class="highcharts-markers highcharts-series-7 highcharts-errorbar-series " transform="translate(53,75) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Erwerbsquote nach Staatsangehörigkeit (CH/A) und</tspan><tspan dy="17" x="10">Geschlecht 1990, 2000 und gepoolte Daten 2011-2015</tspan><title>Erwerbsquote nach Staatsangehörigkeit (CH/A) und Geschlecht 1990, 2000 und gepoolte Daten 2011-2015</title>
+    <tspan>Erwerbstätigenquote nach Staatsangehörigkeit (CH/A) und</tspan><tspan dy="17" x="10">Geschlecht 1990, 2000 und gepoolte Daten 2011-2015</tspan><title>Erwerbstätigenquote nach Staatsangehörigkeit (CH/A) und Geschlecht 1990, 2000 und gepoolte Daten 2011-2015</title>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="57"/>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">

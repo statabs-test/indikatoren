@@ -6,9 +6,6 @@
             borderWidth: 0
         }
     },
-  "data":{
-  	"switchRowsAndColumns": true
-  },
   "xAxis": {
     "type": "category"
   },

@@ -6,9 +6,6 @@
             borderWidth: 0
         }
     },
-  "data":{
-  	"switchRowsAndColumns": true
-  },
   "xAxis": {
     "type": "category"
   },
@@ -32,7 +29,7 @@
     "align": "left",
     //"x": 25,
 	"y": 70,  
-	"itemWidth": 100,
+	"itemWidth": 300,
     "itemStyle": {
       "fontWeight": "normal"
     }

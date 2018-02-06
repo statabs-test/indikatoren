@@ -1,5 +1,6 @@
-Alter	18-24 Jahre	18-24 Jahre	18-24 Jahre	18-24 Jahre	18-24 Jahre
-Schweizer	38.3	20.0	19.5	14.8	4.8
-Schweizerin	7.9	6.7	6.7	4.8	1.7
-Ausländer	73.1	32.5	25.1	14.2	9.0
-Ausländerin	17.1	7.6	7.7	6.9	4.0
+Alter	Schweizer	Schweizerin	Ausländer	Ausländerin
+18-24 Jahre	38.3	7.9	73.1	17.1
+25-34 Jahre	20	6.7	32.5	7.6
+35-44 Jahre	19.5	6.7	25.1	7.7
+45-59 Jahre	14.8	4.8	14.2	6.9
+ab 60 Jahre	4.8	1.7	9	4

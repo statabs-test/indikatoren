@@ -6,15 +6,15 @@
       "data": [
         [
           "1990",
-          86.61
+          84.67
         ],
         [
           "2000",
-          83.11
+          79.31
         ],
         [
           "2011-2015",
-          79.96
+          75.69
         ]
       ],
       "name": "Schweizer",
@@ -36,11 +36,11 @@
         },
         {
           "name": "2011-2015",
-          "low": 78.93,
-          "high": 80.99
+          "low": 74.58,
+          "high": 76.8
         }
       ],
-      "name": "95 Vertrauensintervall",
+      "name": "95% Vertrauensintervall",
       "turboThreshold": 0
     },
     {
@@ -49,15 +49,15 @@
       "data": [
         [
           "1990",
-          61.12
+          59.48
         ],
         [
           "2000",
-          70.88
+          67.61
         ],
         [
           "2011-2015",
-          75.72
+          72.66
         ]
       ],
       "name": "Schweizerinnen",
@@ -79,11 +79,11 @@
         },
         {
           "name": "2011-2015",
-          "low": 74.68,
-          "high": 76.76
+          "low": 71.58,
+          "high": 73.74
         }
       ],
-      "name": "95 Vertrauensintervall",
+      "name": "95% Vertrauensintervall",
       "turboThreshold": 0
     },
     {
@@ -92,15 +92,15 @@
       "data": [
         [
           "1990",
-          89.05
+          86.24
         ],
         [
           "2000",
-          83.75
+          78.03
         ],
         [
           "2011-2015",
-          84.93
+          76.5
         ]
       ],
       "name": "Ausländer",
@@ -122,11 +122,11 @@
         },
         {
           "name": "2011-2015",
-          "low": 83.42,
-          "high": 86.44
+          "low": 75.11,
+          "high": 77.89
         }
       ],
-      "name": "95 Vertrauensintervall",
+      "name": "95% Vertrauensintervall",
       "turboThreshold": 0
     },
     {
@@ -135,15 +135,15 @@
       "data": [
         [
           "1990",
-          65.49
+          62.36
         ],
         [
           "2000",
-          72.86
+          64.19
         ],
         [
           "2011-2015",
-          71.61
+          65.57
         ]
       ],
       "name": "Ausländerinnen",
@@ -165,19 +165,24 @@
         },
         {
           "name": "2011-2015",
-          "low": 70.1,
-          "high": 73.12
+          "low": 63.98,
+          "high": 67.16
         }
       ],
-      "name": "95 Vertrauensintervall",
+      "name": "95% Vertrauensintervall",
       "turboThreshold": 0
     }
   ],
   "xAxis": {
     "type": "category",
-    "uniqueNames": false,
+    "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
     "labels": {
       "style": {
         "color": "#000000"
@@ -186,36 +191,47 @@
     "tickLength": 0
   },
   "chart": {
-    "events": {
-      "load": function () {
-              this.credits.element.onclick = function() {};
-              
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                    }
-                  }
-                );
-              }              
-          }
-    },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
     "width": 485,
     "height": 415,
-    "spacingBottom": 45,
+    "spacingBottom": 30,
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "column",
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
     "marginBottom": 65,
     "marginTop": 75,
+    "type": "column",
     "inverted": false,
-    "renderTo": "container-6418"
+    "renderTo": "container-6415"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 0
+    }
   },
   "title": {
     "style": {
@@ -224,7 +240,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Erwerbsquote nach Staatsangehörigkeit (CH\u002FA) und Geschlecht 1990, 2000 und gepoolte Daten 2011-2015"
+    "text": "Erwerbstätigenquote nach Staatsangehörigkeit (CH\u002FA) und Geschlecht 1990, 2000 und gepoolte Daten 2011-2015"
   },
   "subtitle": {
     "style": {
@@ -236,13 +252,10 @@
     "text": "",
     "align": "left"
   },
-  "tooltip": {
-    "shared": false
-  },
   "yAxis": {
-    "min": 0,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
     "title": {
       "style": {
         "color": "#000000",
@@ -259,8 +272,13 @@
         }
     }
   },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
   "credits": {
-    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
     "style": {
       "color": "#000000",
@@ -276,22 +294,13 @@
     "text": "Quelle: "
   },
   "legend": {
-    "enabled": false,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
-    "symbolRadius": 0
-  },
-  "plotOptions": {
-    "series": {
-      "pointPadding": 0,
-      "borderWidth": 0
-    }
+    "symbolRadius": 0,
+    "enabled": false
   },
   "column": {
     "colorByPoint": true
   },
   "exporting": {
-    "filename": 6418
+    "filename": 6415
   }
 }

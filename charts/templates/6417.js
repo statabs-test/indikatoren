@@ -51,7 +51,7 @@
       "tooltip": {
         "pointFormatter": function(){
           return this.series.name + ': <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b><br/>';
-        },
+        }
       }
     },
         {
