@@ -11,7 +11,7 @@
   "xAxis": {
     "type": "category",
     "labels": {
-      "rotation": 0 
+      "rotation": -45 
     } 
   },
   "yAxis": {
@@ -20,8 +20,10 @@
     }    
   },
   "series": [
-  {"color": "#007A2F", "visible": true}, /* grüm*/
-  {"color": "#DC440E", "visible": true} /* orange */
+  {"color": "#661200", "visible": true}, /* */
+  {"color": "#dc440e", "visible": true}, /*  */
+  {"color": "#7f5f1a", "visible": true}, /* */
+  {"color": "#ffda80", "visible": true} /*  */
   ],
   "legend": {
     "enabled": true,
@@ -40,7 +42,7 @@
   },
   "chart": {      
     "type": "column",
-    "inverted": true,
+    "inverted": false,
     //"spacingTop": 100
   }
 }

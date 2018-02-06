@@ -243,13 +243,13 @@
       <tspan>Zunahme seit 1997 in Prozentpunkten</tspan>
     </text>
   </g>
-  <circle cx="280" cy="255" r="2.4320176569014085" fill="grey" stroke="grey" stroke-width="1" class="undefined pieLegend"/>
+  <circle cx="280" cy="255" r="2.4320176569014085" fill="#7F5F1A" stroke="#7F5F1A" stroke-width="1" class="undefined pieLegend"/>
   <g class="undefined pieLegend" transform="translate(300,245)">
     <text x="3" y="15">
       1
     </text>
   </g>
-  <circle cx="280" cy="280" r="9.419163882861538" fill="grey" stroke="grey" stroke-width="1" class="undefined pieLegend"/>
+  <circle cx="280" cy="280" r="9.419163882861538" fill="#7F5F1A" stroke="#7F5F1A" stroke-width="1" class="undefined pieLegend"/>
   <g class="undefined pieLegend" transform="translate(300,270)">
     <text x="3" y="15">
       15
@@ -257,7 +257,7 @@
   </g>
   <g class="highcharts-label" transform="translate(265,300)">
     <text x="3" style="font-size:12px;font-weight:bold;" y="15">
-      <tspan>Bruttogeschossfläche in 1000</tspan>
+      <tspan>Ausländeranteil 2016 in %</tspan>
     </text>
   </g>
   <g class="highcharts-legend" transform="translate(261,323)">
@@ -281,13 +281,13 @@
               0
             </text>
             <text x="66.66666666666667" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="35" opacity="1">
-              0
+              20
             </text>
             <text x="133.33333333333334" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="35" opacity="1">
-              0
+              40
             </text>
-            <text x="196.9453125" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="35" opacity="1">
-              0
+            <text x="193.890625" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="35" opacity="1">
+              60
             </text>
           </g>
         </g>

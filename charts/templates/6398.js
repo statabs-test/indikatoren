@@ -93,7 +93,7 @@
 	                        tooltip: {
 	                            pointFormatter: function () {
 	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),1) + '  </b><br/>';
-	                            }
+	                            
 	                        }
 	                    };
 					};

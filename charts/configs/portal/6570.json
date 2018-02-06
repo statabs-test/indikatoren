@@ -1,99 +1,201 @@
 {
   "series": [
     {
-      "color": "#007A2F",
-      "visible": true,
+      "color": "#246370",
+      "index": 9,
+      "legendIndex": 0,
       "data": [
         [
-          "Deutschland",
-          5.2
+          "0-4 Jahre",
+          58.5
         ],
         [
-          "Italien",
-          16.4
+          "5-14 Jahre",
+          67.2
         ],
         [
-          "Türkei",
-          15.9
+          "15-24 Jahre",
+          51.9
         ],
         [
-          "EU-17 + EFTA",
+          "25-39 Jahre",
+          37.5
+        ],
+        [
+          "40-64 Jahre",
+          70.4
+        ],
+        [
+          "\u003E 64 Jahre",
+          95.8
+        ]
+      ],
+      "name": "C",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#923F8D",
+      "index": 8,
+      "legendIndex": 1,
+      "data": [
+        [
+          "0-4 Jahre",
+          34.3
+        ],
+        [
+          "5-14 Jahre",
+          27.1
+        ],
+        [
+          "15-24 Jahre",
+          35.4
+        ],
+        [
+          "25-39 Jahre",
+          54.5
+        ],
+        [
+          "40-64 Jahre",
+          25.7
+        ],
+        [
+          "\u003E 64 Jahre",
+          3.5
+        ]
+      ],
+      "name": "B",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#7F5F1A",
+      "index": 7,
+      "legendIndex": 2,
+      "data": [
+        [
+          "0-4 Jahre",
+          2.2
+        ],
+        [
+          "5-14 Jahre",
+          2.1
+        ],
+        [
+          "15-24 Jahre",
+          2.5
+        ],
+        [
+          "25-39 Jahre",
+          0.9
+        ],
+        [
+          "40-64 Jahre",
+          0.5
+        ],
+        [
+          "\u003E 64 Jahre",
+          0.3
+        ]
+      ],
+      "name": "F",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#CD9C00",
+      "index": 6,
+      "legendIndex": 3,
+      "data": [
+        [
+          "0-4 Jahre",
+          2.3
+        ],
+        [
+          "5-14 Jahre",
+          1.2
+        ],
+        [
+          "15-24 Jahre",
+          5.7
+        ],
+        [
+          "25-39 Jahre",
           5
         ],
         [
-          "EU-Ost",
-          3.3
+          "40-64 Jahre",
+          1.1
         ],
         [
-          "Balkan",
-          15.5
-        ],
-        [
-          "Mittel- und Südamerika",
-          5.9
-        ],
-        [
-          "Arabische Länder",
-          3.7
-        ],
-        [
-          "Afrikanische Länder",
-          5.6
-        ],
-        [
-          "Übrige Länder",
-          4.1
+          "\u003E 64 Jahre",
+          0.1
         ]
       ],
-      "name": "Basel-Stadt",
+      "name": "L",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007A2F",
+      "index": 5,
+      "legendIndex": 4,
+      "data": [
+        [
+          "0-4 Jahre",
+          1
+        ],
+        [
+          "5-14 Jahre",
+          0.7
+        ],
+        [
+          "15-24 Jahre",
+          2.6
+        ],
+        [
+          "25-39 Jahre",
+          0.6
+        ],
+        [
+          "40-64 Jahre",
+          0.2
+        ],
+        [
+          "\u003E 64 Jahre",
+          0
+        ]
+      ],
+      "name": "N",
       "turboThreshold": 0
     },
     {
       "color": "#DC440E",
-      "visible": true,
+      "index": 4,
+      "legendIndex": 5,
       "data": [
         [
-          "Deutschland",
-          7
+          "0-4 Jahre",
+          1.7
         ],
         [
-          "Italien",
-          25
+          "5-14 Jahre",
+          1.6
         ],
         [
-          "Türkei",
-          19.6
+          "15-24 Jahre",
+          1.9
         ],
         [
-          "EU-17 + EFTA",
-          6.5
+          "25-39 Jahre",
+          1.5
         ],
         [
-          "EU-Ost",
-          3.8
+          "40-64 Jahre",
+          2
         ],
         [
-          "Balkan",
-          18.2
-        ],
-        [
-          "Mittel- und Südamerika",
-          7.4
-        ],
-        [
-          "Arabische Länder",
-          9
-        ],
-        [
-          "Afrikanische Länder",
-          8.2
-        ],
-        [
-          "Übrige Länder",
-          5.4
+          "\u003E 64 Jahre",
+          0.2
         ]
       ],
-      "name": "Schweiz",
+      "name": "Übrige",
       "turboThreshold": 0
     }
   ],
@@ -110,10 +212,11 @@
     "labels": {
       "style": {
         "color": "#000000"
-      },
-      "rotation": 0
+      }
     },
-    "tickLength": 0
+    "tickLength": 0,
+    "min": 0,
+    "tickInterval": 1
   },
   "chart": {
     "borderColor": "#fbfbfb",
@@ -141,9 +244,10 @@
             }
           }
     },
+    "renderTo": "container-6570",
+    "marginBottom": 75,
     "type": "column",
-    "inverted": true,
-    "renderTo": "container-6074"
+    "inverted": true
   },
   "plotOptions": {
     "series": {
@@ -153,8 +257,9 @@
           "fontSize": "10px"
         }
       },
-      "pointPadding": 0,
-      "itemWidth": 10
+      "pointPadding": 100,
+      "pointWidth": 30,
+      "stacking": "normal"
     }
   },
   "title": {
@@ -164,7 +269,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Median der Aufenthaltsdauer der Ausländer nach Staatsangehörigkeit (Ländergruppen) in der Schweiz \u002F in Basel-Stadt 2016"
+    "text": "Anteil Ausländer nach Alter und Art der Bewilligung"
   },
   "subtitle": {
     "style": {
@@ -173,7 +278,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Stand: 2016",
     "align": "left"
   },
   "yAxis": {
@@ -191,8 +296,9 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}"
-    }
+      "format": "{value:,.0f}%"
+    },
+    "max": 100
   },
   "navigation": {
     "menuItemStyle": {
@@ -217,20 +323,21 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "itemWidth": 50,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "y": 55,
+    "y": 30,
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
-    "filename": 6074
+    "filename": 6570
   }
 }

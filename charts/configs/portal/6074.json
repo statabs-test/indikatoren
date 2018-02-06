@@ -1,131 +1,99 @@
 {
   "series": [
     {
-      "color": "#661200",
+      "color": "#007A2F",
       "visible": true,
       "data": [
         [
-          "Ohne Kaderfunktion",
-          3874
+          "Deutschland",
+          5.2
         ],
         [
-          "Unteres Fachkader",
-          113
+          "Italien",
+          16.4
         ],
         [
-          "Unteres Kader",
-          194
+          "Türkei",
+          15.9
         ],
         [
-          "Mittleres Fachkader",
-          92
-        ],
-        [
-          "Mittleres Kader",
-          178
-        ],
-        [
-          "Oberes Kader",
-          68
-        ]
-      ],
-      "name": "Schweiz",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#dc440e",
-      "visible": true,
-      "data": [
-        [
-          "Ohne Kaderfunktion",
-          1450
-        ],
-        [
-          "Unteres Fachkader",
-          73
-        ],
-        [
-          "Unteres Kader",
-          114
-        ],
-        [
-          "Mittleres Fachkader",
-          40
-        ],
-        [
-          "Mittleres Kader",
-          111
-        ],
-        [
-          "Oberes Kader",
-          46
-        ]
-      ],
-      "name": "Schweizer",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#7f5f1a",
-      "visible": true,
-      "data": [
-        [
-          "Ohne Kaderfunktion",
-          2424
-        ],
-        [
-          "Unteres Fachkader",
-          40
-        ],
-        [
-          "Unteres Kader",
-          80
-        ],
-        [
-          "Mittleres Fachkader",
-          52
-        ],
-        [
-          "Mittleres Kader",
-          67
-        ],
-        [
-          "Oberes Kader",
-          22
-        ]
-      ],
-      "name": "Schweizerinnen",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#ffda80",
-      "visible": true,
-      "data": [
-        [
-          "Ohne Kaderfunktion",
-          674
-        ],
-        [
-          "Unteres Fachkader",
+          "EU-17 + EFTA",
           5
         ],
         [
-          "Unteres Kader",
-          13
+          "EU-Ost",
+          3.3
         ],
         [
-          "Mittleres Fachkader",
-          12
+          "Balkan",
+          15.5
         ],
         [
-          "Mittleres Kader",
-          24
+          "Mittel- und Südamerika",
+          5.9
         ],
         [
-          "Oberes Kader",
-          7
+          "Arabische Länder",
+          3.7
+        ],
+        [
+          "Afrikanische Länder",
+          5.6
+        ],
+        [
+          "Übrige Länder",
+          4.1
         ]
       ],
-      "name": "Ausland",
+      "name": "Basel-Stadt",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#DC440E",
+      "visible": true,
+      "data": [
+        [
+          "Deutschland",
+          7
+        ],
+        [
+          "Italien",
+          25
+        ],
+        [
+          "Türkei",
+          19.6
+        ],
+        [
+          "EU-17 + EFTA",
+          6.5
+        ],
+        [
+          "EU-Ost",
+          3.8
+        ],
+        [
+          "Balkan",
+          18.2
+        ],
+        [
+          "Mittel- und Südamerika",
+          7.4
+        ],
+        [
+          "Arabische Länder",
+          9
+        ],
+        [
+          "Afrikanische Länder",
+          8.2
+        ],
+        [
+          "Übrige Länder",
+          5.4
+        ]
+      ],
+      "name": "Schweiz",
       "turboThreshold": 0
     }
   ],
@@ -143,7 +111,7 @@
       "style": {
         "color": "#000000"
       },
-      "rotation": -45
+      "rotation": 0
     },
     "tickLength": 0
   },
@@ -174,7 +142,7 @@
           }
     },
     "type": "column",
-    "inverted": false,
+    "inverted": true,
     "renderTo": "container-6074"
   },
   "plotOptions": {

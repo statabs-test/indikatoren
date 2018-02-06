@@ -1,0 +1,253 @@
+{
+  "series": [
+    {
+      "color": "#661200",
+      "visible": true,
+      "data": [
+        [
+          "Ohne Kaderfunktion",
+          3874
+        ],
+        [
+          "Unteres Fachkader",
+          113
+        ],
+        [
+          "Unteres Kader",
+          194
+        ],
+        [
+          "Mittleres Fachkader",
+          92
+        ],
+        [
+          "Mittleres Kader",
+          178
+        ],
+        [
+          "Oberes Kader",
+          68
+        ]
+      ],
+      "name": "Schweiz",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#dc440e",
+      "visible": true,
+      "data": [
+        [
+          "Ohne Kaderfunktion",
+          1450
+        ],
+        [
+          "Unteres Fachkader",
+          73
+        ],
+        [
+          "Unteres Kader",
+          114
+        ],
+        [
+          "Mittleres Fachkader",
+          40
+        ],
+        [
+          "Mittleres Kader",
+          111
+        ],
+        [
+          "Oberes Kader",
+          46
+        ]
+      ],
+      "name": "Schweizer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#7f5f1a",
+      "visible": true,
+      "data": [
+        [
+          "Ohne Kaderfunktion",
+          2424
+        ],
+        [
+          "Unteres Fachkader",
+          40
+        ],
+        [
+          "Unteres Kader",
+          80
+        ],
+        [
+          "Mittleres Fachkader",
+          52
+        ],
+        [
+          "Mittleres Kader",
+          67
+        ],
+        [
+          "Oberes Kader",
+          22
+        ]
+      ],
+      "name": "Schweizerinnen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ffda80",
+      "visible": true,
+      "data": [
+        [
+          "Ohne Kaderfunktion",
+          674
+        ],
+        [
+          "Unteres Fachkader",
+          5
+        ],
+        [
+          "Unteres Kader",
+          13
+        ],
+        [
+          "Mittleres Fachkader",
+          12
+        ],
+        [
+          "Mittleres Kader",
+          24
+        ],
+        [
+          "Oberes Kader",
+          7
+        ]
+      ],
+      "name": "Ausland",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "rotation": -45
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "column",
+    "inverted": false,
+    "renderTo": "container-6423"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Anzahl Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit (CH\u002FA), Geschlecht und Kaderstufe 2016"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -5
+    },
+    "text": "Quelle: "
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "y": 55,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "pointPadding": 0,
+      "borderWidth": 0,
+      "itemWidth": 10
+    }
+  },
+  "exporting": {
+    "filename": 6423
+  }
+}
