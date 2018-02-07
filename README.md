@@ -139,6 +139,17 @@ npm run reinstall
 - Run application on c9: Click "Run", "New Run Configuration...", click "Runner", click "Apache httpd". Click into the field "Run Config Name" and type "Apache http" to give this configuration a name. Now click Run, then click the url displayed in the console log: ```https://<c9-vm-name>-<c9-username>.c9users.io```
 - To make this runner configuration the default, right-click the green "Run" button, click "Manage...", click "Set as Default". Now, this runner is always invoked when you click the green "Run" button.
 
+
+## How to create new charts
+- Upload the new metadata json file to metadata/single/[id].json
+- Upload the tsv file to data/[id].json
+- Copy an existing chart definition file to charts/tenplates/[id].js, or create a new chart definition file that contains:
+    - a [self-invoking javascript function](https://en.wikipedia.org/wiki/Immediately-invoked_function_expression) that returns a javascript object, which contains:
+    - an array named "series" which contains one object for each column in the tsv that needs to be used in the chart (starting with the 2nd column in the data file, no object necessary for the first column),
+    - all deviations from the chart template file that is defined in the chart's metadata file. 
+- Edit chart-dev.html to use the chart id and template file for your current chart
+
+
 ##Licensing
 [Highcharts] (http://www.highcharts.com/) is free for personal, school or non-profit projects under the Creative Commons Attribution - Non Commercial 3.0 License.
 For commercial and governmental websites and projects, you need to buy a license. See [License and Pricing] (http://shop.highsoft.com/highcharts.html).
