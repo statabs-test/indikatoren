@@ -81,7 +81,7 @@ npm run build:init_print_charts
 - This is an excellent starting point to refine charts for printing. 
 
 
-### Build Application Locally  
+### Build Application Locally
 To build the application,  create the json config files and the svg images of the charts that have changed since the last build: 
 ```javascript
 npm run build
@@ -148,6 +148,9 @@ npm run reinstall
     - an array named "series" which contains one object for each column in the tsv that needs to be used in the chart (starting with the 2nd column in the data file, no object necessary for the first column),
     - all deviations from the chart template file that is defined in the chart's metadata file. 
 - Edit chart-dev.html to use the chart id and template file for your current chart
+- Load chart-dev.html in the browser, and check if it matches your requirements. If not: 
+- Adapt your chart definition file [id].js until it matches your requirements by following the [Highcharts API Documentation](https://api.highcharts.com/)
+- To add the chart to portal and/or indikatorenset View: [Build the application](#build-application-locally) 
 
 
 ##Licensing
