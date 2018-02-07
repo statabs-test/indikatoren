@@ -492,6 +492,7 @@ id | visible | visibleInPortal | indikatorenset
 6372 | true | false | Legislaturplan (Print)
 6502 | true | true | 
 6537 | true | true | Tourismus
+6538 | true | true | Tourismus
 9997 | true | false | 
 9998 | true | false | Test
 9999 | true | false | Test

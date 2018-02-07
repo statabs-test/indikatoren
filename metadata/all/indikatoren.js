@@ -18560,6 +18560,45 @@ var indikatoren = [
 		"id": 6537
 	},
 	{
+		"title": "Durchschnittliche Betriebsgrösse (Zimmer je Betrieb)",
+		"subtitle": "",
+		"kuerzel": "I.10.1.06538",
+		"kuerzelKunde": "2-2",
+		"description": "Durchschnittliche Betriebsgrösse (Zimmer je Betrieb)",
+		"thema": "10 Tourismus",
+		"unterthema": "Hotellerie",
+		"kennzahlenset": "Tourismus",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Übernachtung",
+			"Gäste",
+			"Hotelbetten"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6538
+	},
+	{
 		"title": "Test Title",
 		"subtitle": "Test Subtitle",
 		"kuerzel": "I.04.1.09997",
