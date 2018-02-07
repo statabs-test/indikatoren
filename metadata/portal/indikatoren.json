@@ -7760,7 +7760,7 @@
 	},
 	{
 		"title": "Nettowohnungsproduktion",
-		"subtitle": "nach Wohnviertel von 2007 bis 2016",
+		"subtitle": "nach Wohnviertel von 2008 bis 2017",
 		"kuerzel": "I.09.1.05817",
 		"kuerzelKunde": "ST 4-9",
 		"description": "Nettowohnungsproduktion",
@@ -10758,7 +10758,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Wohnbevölkerung in Basel-Stadt liegt 2016 mit rund 198 000 Personen tiefer als noch 1960 (228 000 Personen). Demgegenüber steht ein Ansteig der Anzahl Wohnungen auf gut 108 000 Wohnungen (+30 000) über denselben Zeitraum. Der Höchststand der Bevölkerungszahl innerhalb des Beobachtungszeitraums lag 1969 bei über 238 000 Personen – seit dem Teifstwert 2006 (187 190) kann eine kontinuierliche Zunahme registriert werden.",
+		"lesehilfe": "Die Wohnbevölkerung in Basel-Stadt liegt 2017 mit rund 199 000 Personen tiefer als noch 1960 (228 000 Personen). Demgegenüber steht ein Ansteig der Anzahl Wohnungen auf gut 109 000 Wohnungen (+30 000) über denselben Zeitraum. Der Höchststand der Bevölkerungszahl innerhalb des Beobachtungszeitraums lag 1969 bei über 238 000 Personen – seit dem Teifstwert 2006 (187 190) kann eine kontinuierliche Zunahme registriert werden.",
 		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister.",
 		"template": "template001",
 		"visibleInPortal": true,
