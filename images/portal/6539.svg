@@ -1,0 +1,169 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+  <desc>
+    Created with Highstock 5.0.14
+  </desc>
+  <defs>
+    <clipPath>
+      <rect x="0" y="0" width="389" height="268" fill="none"/>
+    </clipPath>
+    <clipPath id="a">
+      <rect x="0" y="0" width="389" height="268" fill="none"/>
+    </clipPath>
+    <clipPath id="b">
+      <rect x="0" y="0" width="389" height="268" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect fill="#fbfbfb" class="highcharts-background" x="0" y="0" width="485" height="415" rx="0" ry="0"/>
+  <rect fill="none" class="highcharts-plot-background" x="49" y="96" width="389" height="268"/>
+  <g class="highcharts-pane-group"/>
+  <g class="highcharts-grid highcharts-xaxis-grid ">
+    <path fill="none" class="highcharts-grid-line" d="M 145.5 96 L 145.5 364" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 243.5 96 L 243.5 364" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 340.5 96 L 340.5 364" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 437.5 96 L 437.5 364" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 48.5 96 L 48.5 364" opacity="1"/>
+  </g>
+  <g class="highcharts-grid highcharts-yaxis-grid ">
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 49 364.25 L 438 364.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 49 297.25 L 438 297.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 49 230.25 L 438 230.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 49 163.25 L 438 163.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 49 95.75 L 438 95.75" opacity="1"/>
+  </g>
+  <g class="highcharts-grid highcharts-yaxis-grid ">
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 49 364.25 L 438 364.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 49 297.25 L 438 297.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 49 230.25 L 438 230.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 49 163.25 L 438 163.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 49 95.75 L 438 95.75" opacity="1"/>
+  </g>
+  <rect fill="none" class="highcharts-plot-border" x="49" y="96" width="389" height="268"/>
+  <g class="highcharts-axis highcharts-xaxis ">
+    <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width="0.5" d="M 49 364.25 L 438 364.25"/>
+  </g>
+  <g class="highcharts-axis highcharts-yaxis ">
+    <path fill="none" class="highcharts-axis-line" d="M 49 96 L 49 364"/>
+  </g>
+  <g class="highcharts-axis highcharts-yaxis ">
+    <path fill="none" class="highcharts-axis-line" d="M 438 96 L 438 364"/>
+  </g>
+  <g class="highcharts-series-group">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(49,96) scale(1 1)" clip-path="url(#a)">
+      <rect x="22" y="227" width="24" height="42" fill="rgb(231, 207, 226)" class="highcharts-point"/>
+      <rect x="120" y="115" width="24" height="154" fill="rgb(231, 207, 226)" class="highcharts-point"/>
+      <rect x="217" y="52" width="24" height="217" fill="rgb(231, 207, 226)" class="highcharts-point"/>
+      <rect x="314" y="230" width="24" height="39" fill="rgb(231, 207, 226)" class="highcharts-point"/>
+    </g>
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(49,96) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(49,96) scale(1 1)" clip-path="url(#a)">
+      <rect x="52" y="170" width="24" height="99" fill="rgb(180, 117, 171)" class="highcharts-point"/>
+      <rect x="149" y="52" width="24" height="217" fill="rgb(180, 117, 171)" class="highcharts-point"/>
+      <rect x="246" y="48" width="24" height="221" fill="rgb(180, 117, 171)" class="highcharts-point"/>
+      <rect x="343" y="223" width="24" height="46" fill="rgb(180, 117, 171)" class="highcharts-point"/>
+    </g>
+    <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(49,96) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-2 highcharts-scatter-series highcharts-color-undefined " transform="translate(49,96) scale(1 1)" clip-path="url(#b)"/>
+    <g class="highcharts-markers highcharts-series-2 highcharts-scatter-series highcharts-color-undefined " transform="translate(49,96) scale(1 1)" clip-path="none">
+      <path fill="rgb(220, 68, 14)" d="M 34 38 L 42 46 34 54 26 46 Z" class="highcharts-point"/>
+      <path fill="rgb(220, 68, 14)" d="M 131 37 L 139 45 131 53 123 45 Z" class="highcharts-point"/>
+      <path fill="rgb(220, 68, 14)" d="M 228 34 L 236 42 228 50 220 42 Z" class="highcharts-point"/>
+      <path fill="rgb(220, 68, 14)" d="M 325 126 L 333 134 325 142 317 134 Z" class="highcharts-point"/>
+    </g>
+    <g class="highcharts-series highcharts-series-3 highcharts-scatter-series highcharts-color-undefined " transform="translate(49,96) scale(1 1)" clip-path="url(#b)"/>
+    <g class="highcharts-markers highcharts-series-3 highcharts-scatter-series highcharts-color-undefined " transform="translate(49,96) scale(1 1)" clip-path="none">
+      <path fill="rgb(139, 34, 35)" d="M 63 94 L 71 102 63 110 55 102 Z" class="highcharts-point"/>
+      <path fill="rgb(139, 34, 35)" d="M 160 47 L 168 55 160 63 152 55 Z" class="highcharts-point"/>
+      <path fill="rgb(139, 34, 35)" d="M 257 44 L 265 52 257 60 249 52 Z" class="highcharts-point"/>
+      <path fill="rgb(139, 34, 35)" d="M 354 59 L 362 67 354 75 346 67 Z" class="highcharts-point"/>
+    </g>
+  </g>
+  <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
+    <tspan>Zimmerangebot und Auslastung 2008 und 2017 nach</tspan><tspan dy="17" x="10">Hotelkategorie</tspan><title>Zimmerangebot und Auslastung 2008 und 2017 nach Hotelkategorie</title>
+  </text>
+  <g class="highcharts-legend" transform="translate(41,35)">
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="338" height="49" visibility="visible"/>
+    <g>
+      <g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(8,3)">
+          <text x="21" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
+            <tspan>Angebotene Zimmer 2008</tspan>
+          </text>
+          <rect x="2" y="4" width="12" height="12" fill="rgb(231, 207, 226)" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(187.65625,3)">
+          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
+            <tspan>2017</tspan>
+          </text>
+          <rect x="2" y="4" width="12" height="12" fill="rgb(180, 117, 171)" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-scatter-series highcharts-color-undefined highcharts-series-2" transform="translate(8,22)">
+          <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph"/>
+          <path fill="rgb(220, 68, 14)" d="M 8 5 L 14 11 8 17 2 11 Z" class="highcharts-point"/>
+          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
+            <tspan>Nettozimmerauslastung (rechte Skala) 2008</tspan>
+          </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-scatter-series highcharts-color-undefined highcharts-series-3" transform="translate(282.921875,22)">
+          <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph"/>
+          <path fill="rgb(139, 34, 35)" d="M 8 5 L 14 11 8 17 2 11 Z" class="highcharts-point"/>
+          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
+            <tspan>2017</tspan>
+          </text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g class="highcharts-axis-labels highcharts-xaxis-labels ">
+    <text x="97.625" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="383" opacity="1">
+      <tspan>1- und 2-Sterne</tspan>
+    </text>
+    <text x="194.875" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="383" opacity="1">
+      <tspan>3-Sterne</tspan>
+    </text>
+    <text x="292.125" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="383" opacity="1">
+      <tspan>4- und 5-Sterne</tspan>
+    </text>
+    <text x="389.375" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="383" opacity="1">
+      <tspan>Nicht klassiert</tspan>
+    </text>
+  </g>
+  <g class="highcharts-axis-labels highcharts-yaxis-labels ">
+    <text x="34" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="369" opacity="1">
+      <tspan>0</tspan>
+    </text>
+    <text x="34" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="302" opacity="1">
+      <tspan>500</tspan>
+    </text>
+    <text x="34" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="235" opacity="1">
+      <tspan>1000</tspan>
+    </text>
+    <text x="34" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="168" opacity="1">
+      <tspan>1500</tspan>
+    </text>
+    <text x="34" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="101" opacity="1">
+      <tspan>2000</tspan>
+    </text>
+  </g>
+  <g class="highcharts-axis-labels highcharts-yaxis-labels ">
+    <text x="453" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="369" opacity="1">
+      <tspan>0%</tspan>
+    </text>
+    <text x="453" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="302" opacity="1">
+      <tspan>20%</tspan>
+    </text>
+    <text x="453" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="235" opacity="1">
+      <tspan>40%</tspan>
+    </text>
+    <text x="453" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="168" opacity="1">
+      <tspan>60%</tspan>
+    </text>
+    <text x="453" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="101" opacity="1">
+      <tspan>80%</tspan>
+    </text>
+  </g>
+  <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="400">
+    <tspan>Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik</tspan>
+  </text>
+</svg>

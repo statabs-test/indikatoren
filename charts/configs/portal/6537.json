@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "rgb(138, 138, 138)",
+      "color": "rgb(237, 226, 208)",
       "data": [
         [
           "2008",
@@ -16,7 +16,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "rgb(159, 124, 90)",
+      "color": "rgb(197, 171, 146)",
       "data": [
         [
           "2008",
@@ -31,7 +31,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "rgb(197, 171, 146)",
+      "color": "rgb(159, 124, 90)",
       "data": [
         [
           "2008",
@@ -46,7 +46,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "rgb(237, 226, 208)",
+      "color": "rgb(138, 138, 138)",
       "data": [
         [
           "2008",
@@ -112,8 +112,11 @@
       "borderWidth": 0,
       "dataLabels": {
         "style": {
-          "fontSize": "10px"
-        }
+          "fontSize": "11px",
+          "color": "black",
+          "fontWeight": "normal"
+        },
+        "enabled": true
       },
       "stacking": "normal"
     }
@@ -152,7 +155,8 @@
       "style": {
         "color": "#000000"
       }
-    }
+    },
+    "reversedStacks": false
   },
   "navigation": {
     "menuItemStyle": {
@@ -177,6 +181,7 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "reversed": true,
     "layout": "vertical",
     "verticalAlign": "middle",
     "itemMarginBottom": 5,

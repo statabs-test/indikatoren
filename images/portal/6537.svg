@@ -36,54 +36,102 @@
   </g>
   <g class="highcharts-series-group">
     <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(37,41) scale(1 1)" clip-path="url(#a)">
-      <rect x="40" y="70" width="74" height="28" fill="rgb(138, 138, 138)" class="highcharts-point"/>
-      <rect x="193" y="62" width="74" height="40" fill="rgb(138, 138, 138)" class="highcharts-point"/>
+      <rect x="40" y="296" width="74" height="28" fill="rgb(237, 226, 208)" class="highcharts-point"/>
+      <rect x="193" y="284" width="74" height="40" fill="rgb(237, 226, 208)" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(37,41) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(37,41) scale(1 1)" clip-path="url(#a)">
-      <rect x="40" y="98" width="74" height="97" fill="rgb(159, 124, 90)" class="highcharts-point"/>
-      <rect x="193" y="102" width="74" height="105" fill="rgb(159, 124, 90)" class="highcharts-point"/>
+      <rect x="40" y="199" width="74" height="97" fill="rgb(197, 171, 146)" class="highcharts-point"/>
+      <rect x="193" y="179" width="74" height="105" fill="rgb(197, 171, 146)" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(37,41) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(37,41) scale(1 1)" clip-path="url(#a)">
-      <rect x="40" y="195" width="74" height="56" fill="rgb(197, 171, 146)" class="highcharts-point"/>
-      <rect x="193" y="207" width="74" height="69" fill="rgb(197, 171, 146)" class="highcharts-point"/>
+      <rect x="40" y="142" width="74" height="57" fill="rgb(159, 124, 90)" class="highcharts-point"/>
+      <rect x="193" y="110" width="74" height="69" fill="rgb(159, 124, 90)" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(37,41) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(37,41) scale(1 1)" clip-path="url(#a)">
-      <rect x="40" y="251" width="74" height="73" fill="rgb(237, 226, 208)" class="highcharts-point"/>
-      <rect x="193" y="276" width="74" height="48" fill="rgb(237, 226, 208)" class="highcharts-point"/>
+      <rect x="40" y="70" width="74" height="72" fill="rgb(138, 138, 138)" class="highcharts-point"/>
+      <rect x="193" y="62" width="74" height="48" fill="rgb(138, 138, 138)" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(37,41) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Geöffnete Betriebe nach Hotelkategorie</tspan>
   </text>
+  <g class="highcharts-data-labels highcharts-series-0 highcharts-column-series highcharts-color-undefined " visibility="visible" transform="translate(37,41) scale(1 1)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(69,298)">
+      <text x="5" style="font-size:11px;font-weight:normal;color:black;fill:black;" y="16">
+        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">7</tspan><tspan x="5" y="16">7</tspan>
+      </text>
+    </g>
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(219,292)">
+      <text x="5" style="font-size:11px;font-weight:normal;color:black;fill:black;" y="16">
+        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">10</tspan><tspan x="5" y="16">10</tspan>
+      </text>
+    </g>
+  </g>
+  <g class="highcharts-data-labels highcharts-series-1 highcharts-column-series highcharts-color-undefined " visibility="visible" transform="translate(37,41) scale(1 1)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(66,236)">
+      <text x="5" style="font-size:11px;font-weight:normal;color:black;fill:black;" y="16">
+        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">24</tspan><tspan x="5" y="16">24</tspan>
+      </text>
+    </g>
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(219,220)">
+      <text x="5" style="font-size:11px;font-weight:normal;color:black;fill:black;" y="16">
+        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">26</tspan><tspan x="5" y="16">26</tspan>
+      </text>
+    </g>
+  </g>
+  <g class="highcharts-data-labels highcharts-series-2 highcharts-column-series highcharts-color-undefined " visibility="visible" transform="translate(37,41) scale(1 1)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(66,159)">
+      <text x="5" style="font-size:11px;font-weight:normal;color:black;fill:black;" y="16">
+        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">14</tspan><tspan x="5" y="16">14</tspan>
+      </text>
+    </g>
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(219,133)">
+      <text x="5" style="font-size:11px;font-weight:normal;color:black;fill:black;" y="16">
+        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">17</tspan><tspan x="5" y="16">17</tspan>
+      </text>
+    </g>
+  </g>
+  <g class="highcharts-data-labels highcharts-series-3 highcharts-column-series highcharts-color-undefined " visibility="visible" transform="translate(37,41) scale(1 1)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(66,95)">
+      <text x="5" style="font-size:11px;font-weight:normal;color:black;fill:black;" y="16">
+        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">18</tspan><tspan x="5" y="16">18</tspan>
+      </text>
+    </g>
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(219,75)">
+      <text x="5" style="font-size:11px;font-weight:normal;color:black;fill:black;" y="16">
+        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">12</tspan><tspan x="5" y="16">12</tspan>
+      </text>
+    </g>
+  </g>
   <g class="highcharts-legend" transform="translate(355,154)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="120" height="87" visibility="visible"/>
     <g>
       <g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(8,3)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3" transform="translate(8,3)">
           <text x="21" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
-            <tspan>1- und 2-Sterne</tspan>
+            <tspan>Nicht klassiert</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="rgb(138, 138, 138)" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(8,22)">
-          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>3-Sterne</tspan>
-          </text>
-          <rect x="2" y="4" width="12" height="12" fill="rgb(159, 124, 90)" class="highcharts-point"/>
-        </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2" transform="translate(8,41)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2" transform="translate(8,22)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>4- und 5-Sterne</tspan>
           </text>
+          <rect x="2" y="4" width="12" height="12" fill="rgb(159, 124, 90)" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(8,41)">
+          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
+            <tspan>3-Sterne</tspan>
+          </text>
           <rect x="2" y="4" width="12" height="12" fill="rgb(197, 171, 146)" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3" transform="translate(8,60)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(8,60)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Nicht klassiert</tspan>
+            <tspan>1- und 2-Sterne</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="rgb(237, 226, 208)" class="highcharts-point"/>
         </g>
