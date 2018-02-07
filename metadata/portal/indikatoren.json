@@ -8102,12 +8102,12 @@
 	},
 	{
 		"title": "Besuchte Weiterbildungen und Kurse in den letzten zwölf Monaten",
-		"subtitle": "",
-		"kuerzel": "I.15.6.05192",
+		"subtitle": "«Haben Sie in den letzten 12 Monaten eine Veranstaltung oder einen Kurs besucht oder machen Sie zurzeit eine Weiterbildung?»",
+		"kuerzel": "I.50.1.05192",
 		"kuerzelKunde": "GW14",
 		"description": "Besuchte Weiterbildungen und Kurse in den letzten zwölf Monaten",
-		"thema": "15 Bildung",
-		"unterthema": "Bildungsniveau",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -8158,7 +8158,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Ausgaben im Bereich Kultur, Sport und Freizeit, Kirche sindzwischen 2005 und 2013 von rund 1 030 Fr. auf ca. 1 290 Fr. proKopf und Jahr gestiegen.",
+		"lesehilfe": "Die Ausgaben im Bereich Kultur, Sport und Freizeit, Kirche sind zwischen 2005 und 2013 von rund 1 030 Fr. auf ca. 1 290 Fr. pro Kopf und Jahr gestiegen.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"visibleInPortal": true,
@@ -9442,8 +9442,8 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil des Langsamverkehrs lag 2010 in Basel-Stadt gemessenan den pro Tag getätigten Etappen bei rund 74%, gemessen an derUnterwegszeit pro Tag noch bei etwa 57%. Bezüglich derzurückgelegten Strecke macht der Langsamverkehr allerdings nur17% aus. Der Grossteil der Strecken wurde mit Verkehrsmitteln desmotorisierten Individualverkehrs (41%) und des öffentlichenVerkehrs (40%) bewältigt.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Der Anteil der zu Fuss zurückgelegten Etappen liegt 2015 in Basel-Stadt bei rund 51%, gemessen an der Tagesunterwegszeit bei etwa 41%. Rund 8% der Tagesdistanz werden zu Fuss zurückgelegt. Rund 43% der täglich zurückgelegten Distanz wird mit dem motorisierten Individualverkehrs (MIV), also mit dem Auto oder mit motorisierten Zweirädern bewältigt. Der öffentliche Verkehr (Bahn, Bus, Tram, Postauto) kommt ebenfalls auf einen Anteil von 43%.",
+		"erlaeuterungen": "Die Ergebnisse von 2015 basieren auf der Hochrechnung einer Stichprobenerhebung von 1 241 Zielpersonen (2010: 1 253 Zielpersonen) mit Wohnort im Kanton Basel-Stadt. Eine Etappe beginnt mit jedem Verkehrsmittelwechsel (auch beim Umsteigen) oder bei einem neuen Verkehrszweck. Bei der Tagesunterwegszeit werden Warte- und Umsteigezeiten nicht mitgerechnet.",
 		"template": "line001",
 		"visibleInPortal": true,
 		"orderKey": "04_01_00_00_00_407",
@@ -9451,7 +9451,8 @@
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+			"Bundesamt für Statistik (BFS) und Bundesamt für Raumentwicklung (ARE), Mikrozensus Mobilität und Verkehr (MZMV)",
+			"Bundesamt für Sozialversicherungen"
 		],
 		"externalLinks": [
 			""
@@ -9542,7 +9543,7 @@
 	},
 	{
 		"title": "Übertritte nach der obligatorischen Schulzeit",
-		"subtitle": "im Schuljahr 2015/16",
+		"subtitle": "im Schuljahr 2016/17",
 		"kuerzel": "I.15.1.06039",
 		"kuerzelKunde": "GZ6",
 		"description": "Übertritte nach der obligatorischen Schulzeit",
@@ -9564,8 +9565,8 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am Ende der obligatorischen Schulzeit traten im Schuljahr 2015/16rund 45% der Schüler in eine weiterführende Schule ein, diemeisten davon ins Gymnasium. Viele Lernende fanden erst nacheinem Brückenangebot den Weg in die berufliche Grundbildung:Während nur 17% direkt nach der obligatorischen Schulzeit eineLehre begannen, nahmen 31% ein Brückenangebot in Anspruch.Rund 6% wählten einen anderen Weg (Arbeit, Privatschule etc.)oder zogen weg.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Nach wie vor treten Schülerinnen nach der obligatorischen Schulzeit deutlich häufiger ins Gymnasium oder eine weiterführende Schule ein als Schüler, letztere besuchen danach hingegen häufiger eine berufliche Grundbildung. Noch deutlicher sind die Unterschiede, wenn die Schülerinnen und Schüler nach Staatsangehörigkeit oder Erstsprache gruppiert werden.",
+		"erlaeuterungen": "Jährliche Befragung von Schulabgängerinnen und Schulabgängern durch das Erziehungsdepartement Basel-Stadt. Das Statistische Amt Basel-Stadt erhält die Daten in aggregierter Form.",
 		"template": "line001",
 		"visibleInPortal": true,
 		"orderKey": "05_02_00_00_00_506",
@@ -9763,8 +9764,8 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Kanton Basel-Stadt lag die Nettoerwerbstätigenquote 2015 insgesamt bei rund 73%. Bei den Männern lag sie mit 75% über derjenigen der Frauen (71%). Seit 1970 glichen sich die Werte für Männer, Frauen, Schweizer und Ausländer stark an.",
-		"erlaeuterungen": "Die Nettoerwerbstätigenquote bezeichnet den Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre).",
+		"lesehilfe": "Im Kanton Basel-Stadt lag die Nettoerwerbstätigenquote 2016 insgesamt bei rund 74%. Bei den Männern lag sie mit 77% über derjenigen der Frauen (72%). Seit 1970 glichen sich die Werte für Männer, Frauen, Schweizer und Ausländer stark an.",
+		"erlaeuterungen": "Hochrechnungen aufgrund eines Stichprobenumfangs für Basel-Stadt von rund 5 000 Personen. Die Nettoerwerbstätigenquote bezeichnet den Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre).",
 		"template": "template001",
 		"visibleInPortal": true,
 		"orderKey": "06_02_00_00_00_608",
@@ -9772,7 +9773,7 @@
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik, Volkszählung (bis 2000) und Strukturerhebung (ab 2010)"
+			"Bundesamt für Statistik (BFS), Volkszählung (bis 2000) und Strukturerhebung (ab 2010)"
 		],
 		"externalLinks": [
 			""
@@ -9842,8 +9843,8 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund 19% der erwerbstätigen Männer gingen 2014 einer Teilzeitbeschäftigung nach; 1970 waren es noch 4%. Bei den Frauen lag der Anteil an Erwerbstätigen mit Teilzeitpensum 2014 bei 47%.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Rund 19% der erwerbstätigen Männer gingen 2015 einer Teilzeitbeschäftigung nach; 1970 waren es noch 4%. Bei den Frauen lag der Anteil an Erwerbstätigen mit Teilzeitpensum 2015 bei 53%.",
+		"erlaeuterungen": "Hochrechnungen aufgrund eines Stichprobenumfangs für Basel-Stadt von rund 5 000 Personen. Die Grundgesamtheit umfasst alle Personen der ständigen Wohnbevölkerung am Hauptwohnsitz ab vollendetem 15. Altersjahr, die in Privathaushalten leben, ohne Diplomaten, internationale Funktionäre und deren Angehörige.",
 		"template": "template001",
 		"visibleInPortal": true,
 		"orderKey": "06_02_00_00_00_612",
@@ -9851,7 +9852,7 @@
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik, Volkszählung (bis 2000) und Strukturerhebung (ab 2010)"
+			"Bundesamt für Statistik (BFS), Volkszählung (bis 2000) und Strukturerhebung (ab 2010)"
 		],
 		"externalLinks": [
 			""
@@ -12498,6 +12499,45 @@
 			""
 		],
 		"id": 6348
+	},
+	{
+		"title": "Jahresmitteltemperatur",
+		"subtitle": "°C",
+		"kuerzel": "I.02.3.06434",
+		"kuerzelKunde": "NL13",
+		"description": "Jahresmitteltemperatur",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Witterung",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Biodiversität",
+			"Klima",
+			"Wasser"
+		],
+		"stufe1": "Bereich Natürliche Lebensgrundlagen",
+		"stufe2": "Klimawandel",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Das Mittel der Lufttemperatur am Standort Basel-Binningen betrug im Jahr 2017 11,5 °C.",
+		"erlaeuterungen": "Die Jahresmitteltemperatur entspricht dem Mittelwert der über ein Jahr hinweg gemessenen Lufttemperatur. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M; 47°33&#039; N / 7°35&#039; E).",
+		"template": "line001",
+		"visibleInPortal": true,
+		"orderKey": "04_02_00_00_00_413",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Meteorologischer Verein der Region Basel"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6434
 	},
 	{
 		"title": "Beurteilung der Kantonspolizei",

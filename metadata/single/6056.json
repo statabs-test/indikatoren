@@ -15,8 +15,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Rund 19% der erwerbstätigen Männer gingen 2014 einer Teilzeitbeschäftigung nach; 1970 waren es noch 4%. Bei den Frauen lag der Anteil an Erwerbstätigen mit Teilzeitpensum 2014 bei 47%.",
-"erlaeuterungen":"",
+"lesehilfe":"Rund 19% der erwerbstätigen Männer gingen 2015 einer Teilzeitbeschäftigung nach; 1970 waren es noch 4%. Bei den Frauen lag der Anteil an Erwerbstätigen mit Teilzeitpensum 2015 bei 53%.",
+"erlaeuterungen":"Hochrechnungen aufgrund eines Stichprobenumfangs für Basel-Stadt von rund 5 000 Personen. Die Grundgesamtheit umfasst alle Personen der ständigen Wohnbevölkerung am Hauptwohnsitz ab vollendetem 15. Altersjahr, die in Privathaushalten leben, ohne Diplomaten, internationale Funktionäre und deren Angehörige.",
 "template":"template001",
 "visible":true,
 "visibleInPortal":true,
@@ -24,6 +24,6 @@
 "parentId":null,
 "children":[],
 "renderLink":[],
-"quellenangabe":["Bundesamt für Statistik, Volkszählung (bis 2000) und Strukturerhebung (ab 2010)"],
+"quellenangabe":["Bundesamt für Statistik (BFS), Volkszählung (bis 2000) und Strukturerhebung (ab 2010)"],
 "externalLinks":[""]
 }

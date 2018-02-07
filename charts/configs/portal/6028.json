@@ -6,16 +6,36 @@
       "legendIndex": 0,
       "data": [
         [
-          "\"Etappen\"",
-          51.117499
+          "\"2010: Etappen pro Tag\"",
+          3.2526782
         ],
         [
-          "\"Zeit\"",
-          41.114885
+          "\"2015: Etappen pro Tag\"",
+          2.9214036
         ],
         [
-          "\"Distanz\"",
-          7.6795891
+          "\".\"",
+          "\"\""
+        ],
+        [
+          "\"2010: Tagesunterwegszeit\"",
+          38.444439
+        ],
+        [
+          "\"2015: Tagesunterwegszeit\"",
+          31.35447
+        ],
+        [
+          "\"..\"",
+          "\"\""
+        ],
+        [
+          "\"2010: Tagesdistanz\"",
+          2.4660112
+        ],
+        [
+          "\"2015: Tagesdistanz\"",
+          2.0930536
         ]
       ],
       "name": "\"Zu Fuss\"",
@@ -27,19 +47,39 @@
       "legendIndex": 1,
       "data": [
         [
-          "\"Etappen\"",
-          10.746188
+          "\"2010: Etappen pro Tag\"",
+          0.6109837
         ],
         [
-          "\"Zeit\"",
-          11.735088
+          "\"2015: Etappen pro Tag\"",
+          0.6141527
         ],
         [
-          "\"Distanz\"",
-          6.194898
+          "\".\"",
+          "\"\""
+        ],
+        [
+          "\"2010: Tagesunterwegszeit\"",
+          8.3670952
+        ],
+        [
+          "\"2015: Tagesunterwegszeit\"",
+          8.9492522
+        ],
+        [
+          "\"..\"",
+          "\"\""
+        ],
+        [
+          "\"2010: Tagesdistanz\"",
+          1.7253601
+        ],
+        [
+          "\"2015: Tagesdistanz\"",
+          1.6884046
         ]
       ],
-      "name": "\"Veloverkehr\"",
+      "name": "\"Velo\"",
       "turboThreshold": 0
     },
     {
@@ -48,19 +88,39 @@
       "legendIndex": 2,
       "data": [
         [
-          "\"Etappen\"",
-          14.590398
+          "\"2010: Etappen pro Tag\"",
+          0.7656544
         ],
         [
-          "\"Zeit\"",
-          22.493035
+          "\"2015: Etappen pro Tag\"",
+          0.8338522
         ],
         [
-          "\"Distanz\"",
-          42.539444
+          "\".\"",
+          "\"\""
+        ],
+        [
+          "\"2010: Tagesunterwegszeit\"",
+          15.563063
+        ],
+        [
+          "\"2015: Tagesunterwegszeit\"",
+          17.15333
+        ],
+        [
+          "\"..\"",
+          "\"\""
+        ],
+        [
+          "\"2010: Tagesdistanz\"",
+          10.058921
+        ],
+        [
+          "\"2015: Tagesdistanz\"",
+          11.594023
         ]
       ],
-      "name": "\"Motorisierter Individualverkehr\"",
+      "name": "\"MIV\"",
       "turboThreshold": 0
     },
     {
@@ -69,19 +129,39 @@
       "legendIndex": 3,
       "data": [
         [
-          "\"Etappen\"",
-          22.461751
+          "\"2010: Etappen pro Tag\"",
+          1.2702954
         ],
         [
-          "\"Zeit\"",
-          23.269901
+          "\"2015: Etappen pro Tag\"",
+          1.283706
         ],
         [
-          "\"Distanz\"",
-          42.599797
+          "\".\"",
+          "\"\""
+        ],
+        [
+          "\"2010: Tagesunterwegszeit\"",
+          18.169132
+        ],
+        [
+          "\"2015: Tagesunterwegszeit\"",
+          17.745773
+        ],
+        [
+          "\"..\"",
+          "\"\""
+        ],
+        [
+          "\"2010: Tagesdistanz\"",
+          9.922729
+        ],
+        [
+          "\"2015: Tagesdistanz\"",
+          11.610472
         ]
       ],
-      "name": "\"�ffentlicher Verkehr\"",
+      "name": "\"ÖV\"",
       "turboThreshold": 0
     }
   ],
@@ -184,9 +264,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+    "text": "Quelle: Bundesamt für Statistik (BFS) und Bundesamt für Raumentwicklung (ARE), Mikrozensus Mobilität und Verkehr (MZMV);\u003Cbr\u002F\u003EBundesamt für Sozialversicherungen"
   },
   "legend": {
     "enabled": true,

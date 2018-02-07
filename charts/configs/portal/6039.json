@@ -6,35 +6,47 @@
       "legendIndex": 0,
       "data": [
         [
-          "Gymnasium",
-          0.352559480894016
+          "Alle",
+          36.2007168458781
         ],
         [
-          "Andere weiterführende Schulen",
-          0.0922855082912761
+          " ",
+          null
         ],
         [
-          "Brückenangebote\u002F12. Schuljahr",
-          0.30930064888248
+          "Männl.",
+          32.8358208955224
         ],
         [
-          "Berufliche Grundbildung",
-          0.171593366979092
+          "Weibl.",
+          39.9696048632219
         ],
         [
-          "Andere Lösung\u002FUnbekannt",
-          0.0598413842826244
+          " ",
+          null
         ],
         [
-          "Keine Lösung",
-          0.0144196106705119
+          "Deutsch",
+          51.7492711370262
         ],
         [
-          "Total",
-          1
+          "Fremdsp.",
+          21.1565585331453
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Schweiz",
+          44.8275862068966
+        ],
+        [
+          "Ausland",
+          21.7557251908397
         ]
       ],
-      "name": "Alle",
+      "name": "Gynasium",
       "turboThreshold": 0
     },
     {
@@ -43,35 +55,47 @@
       "legendIndex": 1,
       "data": [
         [
-          "Gymnasium",
-          0.172314347512617
+          "Alle",
+          8.17204301075269
         ],
         [
-          "Andere weiterführende Schulen",
-          0.030281182408075
+          " ",
+          null
         ],
         [
-          "Brückenangebote\u002F12. Schuljahr",
-          0.167988464311464
+          "Männl.",
+          5.83446404341927
         ],
         [
-          "Berufliche Grundbildung",
-          0.112472963229993
+          "Weibl.",
+          10.790273556231
         ],
         [
-          "Andere Lösung\u002FUnbekannt",
-          0.0237923576063446
+          " ",
+          null
         ],
         [
-          "Keine Lösung",
-          0.00793078586878154
+          "Deutsch",
+          8.89212827988338
         ],
         [
-          "Total",
-          1
+          "Fremdsp.",
+          7.475317348378
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Schweiz",
+          8.85057471264368
+        ],
+        [
+          "Ausland",
+          7.06106870229008
         ]
       ],
-      "name": "Männl.",
+      "name": "Andere weiterführende Schulen",
       "turboThreshold": 0
     },
     {
@@ -80,35 +104,47 @@
       "legendIndex": 2,
       "data": [
         [
-          "Gymnasium",
-          0.180245133381399
+          "Alle",
+          31.9713261648746
         ],
         [
-          "Andere weiterführende Schulen",
-          0.0620043258832012
+          " ",
+          null
         ],
         [
-          "Brückenangebote\u002F12. Schuljahr",
-          0.141312184571017
+          "Männl.",
+          33.5142469470828
         ],
         [
-          "Berufliche Grundbildung",
-          0.0591204037490988
+          "Weibl.",
+          30.2431610942249
         ],
         [
-          "Andere Lösung\u002FUnbekannt",
-          0.0360490266762797
+          " ",
+          null
         ],
         [
-          "Keine Lösung",
-          0.00648882480173035
+          "Deutsch",
+          16.9096209912536
         ],
         [
-          "Total",
-          1
+          "Fremdsp.",
+          46.5444287729196
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Schweiz",
+          23.3333333333333
+        ],
+        [
+          "Ausland",
+          46.3740458015267
         ]
       ],
-      "name": "Weibl.",
+      "name": "Brückenangebote\u002F12. Schuljahr",
       "turboThreshold": 0
     },
     {
@@ -117,35 +153,47 @@
       "legendIndex": 3,
       "data": [
         [
-          "Gymnasium",
-          0.236481614996395
+          "Alle",
+          14.6953405017921
         ],
         [
-          "Andere weiterführende Schulen",
-          0.056957462148522
+          " ",
+          null
         ],
         [
-          "Brückenangebote\u002F12. Schuljahr",
-          0.0930064888248017
+          "Männl.",
+          19.2672998643148
         ],
         [
-          "Berufliche Grundbildung",
-          0.0807498197548666
+          "Weibl.",
+          9.57446808510638
         ],
         [
-          "Andere Lösung\u002FUnbekannt",
-          0.0295602018745494
+          " ",
+          null
         ],
         [
-          "Keine Lösung",
-          0.00504686373467916
+          "Deutsch",
+          14.4314868804665
         ],
         [
-          "Total",
-          1
+          "Fremdsp.",
+          14.950634696756
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Schweiz",
+          15.5172413793103
+        ],
+        [
+          "Ausland",
+          13.3587786259542
         ]
       ],
-      "name": "Deutsch",
+      "name": "Berufliche Grundbildung",
       "turboThreshold": 0
     },
     {
@@ -154,35 +202,47 @@
       "legendIndex": 4,
       "data": [
         [
-          "Gymnasium",
-          0.236481614996395
+          "Alle",
+          7.95698924731183
         ],
         [
-          "Andere weiterführende Schulen",
-          0.056957462148522
+          " ",
+          null
         ],
         [
-          "Brückenangebote\u002F12. Schuljahr",
-          0.0930064888248017
+          "Männl.",
+          7.05563093622795
         ],
         [
-          "Berufliche Grundbildung",
-          0.0807498197548666
+          "Weibl.",
+          8.96656534954407
         ],
         [
-          "Andere Lösung\u002FUnbekannt",
-          0.0295602018745494
+          " ",
+          null
         ],
         [
-          "Keine Lösung",
-          0.00504686373467916
+          "Deutsch",
+          7.5801749271137
         ],
         [
-          "Total",
-          1
+          "Fremdsp.",
+          8.32157968970381
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Schweiz",
+          7.01149425287356
+        ],
+        [
+          "Ausland",
+          9.54198473282443
         ]
       ],
-      "name": "Fremdspr.",
+      "name": "Andere Lösung\u002FUnbekannt",
       "turboThreshold": 0
     },
     {
@@ -191,35 +251,47 @@
       "legendIndex": 5,
       "data": [
         [
-          "Gymnasium",
-          0.274693583273252
+          "Alle",
+          1.00358422939068
         ],
         [
-          "Andere weiterführende Schulen",
-          0.0620043258832012
+          " ",
+          null
         ],
         [
-          "Brückenangebote\u002F12. Schuljahr",
-          0.144917087238645
+          "Männl.",
+          1.49253731343284
         ],
         [
-          "Berufliche Grundbildung",
-          0.108868060562365
+          "Weibl.",
+          0.455927051671732
         ],
         [
-          "Andere Lösung\u002FUnbekannt",
-          0.0310021629416006
+          " ",
+          null
         ],
         [
-          "Keine Lösung",
-          0.00576784426820476
+          "Deutsch",
+          0.43731778425656
         ],
         [
-          "Total",
-          1
+          "Fremdsp.",
+          1.55148095909732
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Schweiz",
+          0.459770114942529
+        ],
+        [
+          "Ausland",
+          1.90839694656489
         ]
       ],
-      "name": "Schweiz",
+      "name": "Keine Lösung",
       "turboThreshold": 0
     }
   ],
@@ -265,10 +337,10 @@
       "fontFamily": "Arial"
     },
     "type": "column",
-    "renderTo": "container-6039",
     "marginBottom": 75,
     "inverted": true,
-    "marginLeft": 110
+    "marginLeft": 110,
+    "renderTo": "container-6039"
   },
   "title": {
     "style": {
@@ -286,7 +358,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "im Schuljahr 2015\u002F16",
+    "text": "im Schuljahr 2016\u002F17",
     "align": "left"
   },
   "tooltip": {
@@ -310,7 +382,6 @@
       },
       "format": "{value:,.0f}%"
     },
-    "max": 100,
     "tickInterval": 20
   },
   "credits": {

@@ -22,7 +22,7 @@
     "tickInterval": 1
   },  
   "yAxis": {
-  	 max: 100,
+  	 //max: 100,
      tickInterval: 20,
     "labels": {
       "format": "{value:,.0f}%",
@@ -48,7 +48,7 @@
   {"color": "#FABD24", "index": 5, "legendIndex":5}, /*blau5*/
   ],
   "chart": {
-    "renderTo": 'container-I.01.1.0016', 
+    //"renderTo": 'container-I.01.1.0016', 
     "marginBottom": 75,
     //"marginTop": 75,
     "type": "column",

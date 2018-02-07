@@ -45,7 +45,7 @@
       <rect x="148" y="42" width="11" height="236" fill="#b375ab" class="highcharts-point"/>
       <rect x="218" y="59" width="11" height="219" fill="#b375ab" class="highcharts-point"/>
       <rect x="288" y="67" width="12" height="211" fill="#b375ab" class="highcharts-point"/>
-      <rect x="359" y="69" width="11" height="209" fill="#b375ab" class="highcharts-point"/>
+      <rect x="359" y="66" width="11" height="212" fill="#b375ab" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(53,87) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(53,87) scale(1 1)" clip-path="url(#a)">
@@ -72,7 +72,7 @@
       <rect x="181" y="67" width="12" height="211" fill="#cd9c00" class="highcharts-point"/>
       <rect x="252" y="79" width="11" height="199" fill="#cd9c00" class="highcharts-point"/>
       <rect x="322" y="80" width="11" height="198" fill="#cd9c00" class="highcharts-point"/>
-      <rect x="392" y="78" width="12" height="200" fill="#cd9c00" class="highcharts-point"/>
+      <rect x="392" y="74" width="12" height="204" fill="#cd9c00" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(53,87) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined " transform="translate(53,87) scale(1 1)" clip-path="url(#a)">
@@ -81,7 +81,7 @@
       <rect x="193" y="77" width="11" height="201" fill="#C8C8C8" class="highcharts-point"/>
       <rect x="263" y="77" width="11" height="201" fill="#C8C8C8" class="highcharts-point"/>
       <rect x="333" y="78" width="12" height="200" fill="#C8C8C8" class="highcharts-point"/>
-      <rect x="404" y="75" width="11" height="203" fill="#C8C8C8" class="highcharts-point"/>
+      <rect x="404" y="73" width="11" height="205" fill="#C8C8C8" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-4 highcharts-column-series highcharts-color-undefined " transform="translate(53,87) scale(1 1)" clip-path="none"/>
   </g>
@@ -94,7 +94,7 @@
       <g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(8,3)">
           <text x="21" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
-            <tspan>&quot;M�…</tspan><title>&quot;M�nner&quot;</title>
+            <tspan>&quot;Mä…</tspan><title>&quot;Männer&quot;</title>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#b375ab" class="highcharts-point"/>
         </g>
@@ -142,7 +142,7 @@
       2010
     </text>
     <text x="439.8333333333333" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="383" opacity="1">
-      2015
+      2016
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
@@ -163,6 +163,6 @@
     </text>
   </g>
   <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="400">
-    <tspan>Quelle: Bundesamt für Statistik, Volkszählung (bis 2000) und Strukturerhebung (ab 2010)</tspan>
+    <tspan>Quelle: Bundesamt für Statistik (BFS), Volkszählung (bis 2000) und Strukturerhebung (ab 2010)</tspan>
   </text>
 </svg>

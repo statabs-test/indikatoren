@@ -26,11 +26,11 @@
           37690
         ],
         [
-          "2015",
-          39567
+          "2014",
+          39842
         ]
       ],
-      "name": "\"M�nnerVollzeit\"",
+      "name": "Vollzeit Männer",
       "turboThreshold": 0
     },
     {
@@ -59,11 +59,11 @@
           7849
         ],
         [
-          "2015",
-          9444
+          "2014",
+          9070
         ]
       ],
-      "name": "\"M�nnerTeilzeit\"",
+      "name": "Teilzeit Männer",
       "turboThreshold": 0
     },
     {
@@ -92,11 +92,11 @@
           21125
         ],
         [
-          "2015",
-          21558
+          "2014",
+          23836
         ]
       ],
-      "name": "\"FrauenVollzeit\"",
+      "name": "Vollzeit Frauen",
       "turboThreshold": 0
     },
     {
@@ -118,18 +118,18 @@
         ],
         [
           "2000",
-          18767
+          20593
         ],
         [
           "2010",
           20593
         ],
         [
-          "2015",
-          24417
+          "2014",
+          21501
         ]
       ],
-      "name": "\"FrauenTeilzeit\"",
+      "name": "Teilzeit Frauen",
       "turboThreshold": 0
     },
     {
@@ -155,14 +155,14 @@
         ],
         [
           "2010",
-          58814
+          58815
         ],
         [
-          "2015",
-          61124
+          "2014",
+          63678
         ]
       ],
-      "name": "\"TotalVollzeit\"",
+      "name": "Vollzeit Total",
       "turboThreshold": 0
     },
     {
@@ -184,18 +184,18 @@
         ],
         [
           "2000",
-          25002
+          26828
         ],
         [
           "2010",
           28442
         ],
         [
-          "2015",
-          33861
+          "2014",
+          30571
         ]
       ],
-      "name": "\"TotalTeilzeit\"",
+      "name": "Teilzeit Total",
       "turboThreshold": 0
     }
   ],
@@ -317,7 +317,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Bundesamt für Statistik, Volkszählung (bis 2000) und Strukturerhebung (ab 2010)"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Volkszählung (bis 2000) und Strukturerhebung (ab 2010)"
   },
   "legend": {
     "symbolRadius": 0,

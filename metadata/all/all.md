@@ -559,7 +559,7 @@ id | visible | visibleInPortal | indikatorenset
 6370 | true | false | Legislaturplan (Print)
 6371 | true | false | Legislaturplan (Print)
 6372 | true | false | Legislaturplan (Print)
-6434 | true | false | Nachhaltigkeit
+6434 | true | true | Nachhaltigkeit
 6435 | true | false | Nachhaltigkeit
 6438 | true | true | Legislaturplan
 9998 | true | false | Test

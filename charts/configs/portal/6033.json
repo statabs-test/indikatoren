@@ -218,9 +218,21 @@
         [
           2014,
           9
+        ],
+        [
+          2015,
+          32
+        ],
+        [
+          2016,
+          13
+        ],
+        [
+          2017,
+          28
         ]
       ],
-      "name": "Messstation Basel-Binningen"
+      "name": "Anzahl Hitzetage"
     }
   ],
   "chart": {

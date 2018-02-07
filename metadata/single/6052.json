@@ -15,8 +15,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Im Kanton Basel-Stadt lag die Nettoerwerbstätigenquote 2015 insgesamt bei rund 73%. Bei den Männern lag sie mit 75% über derjenigen der Frauen (71%). Seit 1970 glichen sich die Werte für Männer, Frauen, Schweizer und Ausländer stark an.",
-"erlaeuterungen":"Die Nettoerwerbstätigenquote bezeichnet den Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre).",
+"lesehilfe":"Im Kanton Basel-Stadt lag die Nettoerwerbstätigenquote 2016 insgesamt bei rund 74%. Bei den Männern lag sie mit 77% über derjenigen der Frauen (72%). Seit 1970 glichen sich die Werte für Männer, Frauen, Schweizer und Ausländer stark an.",
+"erlaeuterungen":"Hochrechnungen aufgrund eines Stichprobenumfangs für Basel-Stadt von rund 5 000 Personen. Die Nettoerwerbstätigenquote bezeichnet den Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre).",
 "template":"template001",
 "visible":true,
 "visibleInPortal":true,
@@ -24,6 +24,6 @@
 "parentId":null,
 "children":[],
 "renderLink":[],
-"quellenangabe":["Bundesamt für Statistik, Volkszählung (bis 2000) und Strukturerhebung (ab 2010)"],
+"quellenangabe":["Bundesamt für Statistik (BFS), Volkszählung (bis 2000) und Strukturerhebung (ab 2010)"],
 "externalLinks":[""]
 }

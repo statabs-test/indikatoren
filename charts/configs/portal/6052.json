@@ -24,11 +24,11 @@
           76
         ],
         [
-          "2015",
-          75.4
+          "2016",
+          76.5
         ]
       ],
-      "name": "\"M�nner\"",
+      "name": "\"Männer\"",
       "turboThreshold": 0
     },
     {
@@ -55,8 +55,8 @@
           68.7
         ],
         [
-          "2015",
-          71.3
+          "2016",
+          71.6
         ]
       ],
       "name": "\"Frauen\"",
@@ -86,8 +86,8 @@
           72.8
         ],
         [
-          "2015",
-          74.2
+          "2016",
+          74.4
         ]
       ],
       "name": "\"Schweiz\"",
@@ -117,8 +117,8 @@
           71.5
         ],
         [
-          "2015",
-          72.1
+          "2016",
+          73.5
         ]
       ],
       "name": "\"Ausland\"",
@@ -148,8 +148,8 @@
           72.3
         ],
         [
-          "2015",
-          73.4
+          "2016",
+          74
         ]
       ],
       "name": "\"Total\"",
@@ -272,7 +272,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Bundesamt für Statistik, Volkszählung (bis 2000) und Strukturerhebung (ab 2010)"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Volkszählung (bis 2000) und Strukturerhebung (ab 2010)"
   },
   "legend": {
     "symbolRadius": 0,

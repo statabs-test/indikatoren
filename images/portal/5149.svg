@@ -40,15 +40,15 @@
   </g>
   <g class="highcharts-series-group">
     <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(37,82) scale(1 1)" clip-path="url(#a)">
-      <path fill="none" d="M 4.294117647055 134.4999039818 L 52.006535947709 129.7397704344 L 99.718954248364 129.94143113779998 L 147.43137254902 122.9072546388 L 195.14379084967 113.63040945040001 L 242.85620915033 119.21888191099998 L 290.56862745098 112.14000000000001 L 338.28104575164 115.71536485320001 L 385.99346405229 111.54209246419998 L 433.70588235295 100.9047165934" class="highcharts-graph" stroke="#008AC3" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+      <path fill="none" d="M 4.294117647055 134.4999039754276 L 52.006535947709 129.7397704379066 L 99.718954248364 129.9414311336526 L 147.43137254902 122.907254631858 L 195.14379084967 113.63040944760539 L 242.85620915033 119.2188819140616 L 290.56862745098 112.70571790027802 L 338.28104575164 115.71536484575958 L 385.99346405229 111.5420924650366 L 433.70588235295 97.97334723867078" class="highcharts-graph" stroke="#008AC3" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(37,82) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(37,82) scale(1 1)" clip-path="url(#a)">
-      <path fill="none" d="M 4.294117647055 55.29162807199998 L 52.006535947709 64.71694932599999 L 99.718954248364 58.68564164799997 L 147.43137254902 55.895034899999985 L 195.14379084967 41.530330770000006 L 242.85620915033 43.160311123999975 L 290.56862745098 42.72 L 338.28104575164 33.55562549999999 L 385.99346405229 47.988135881999995 L 433.70588235295 58.192578621999985" class="highcharts-graph" stroke="#68AB2B" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+      <path fill="none" d="M 4.294117647055 55.2916280506756 L 52.006535947709 64.716949354391 L 99.718954248364 58.68564157514459 L 147.43137254902 55.895034814880376 L 195.14379084967 41.530330824218794 L 242.85620915033 43.16031108882717 L 290.56862745098 41.91287049317518 L 338.28104575164 33.55562558147059 L 385.99346405229 47.98813591635397 L 433.70588235295 48.19899244332959" class="highcharts-graph" stroke="#68AB2B" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
     <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(37,82) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined " transform="translate(37,82) scale(1 1)" clip-path="url(#a)">
-      <path fill="none" d="M 4.294117647055 110.00868706039998 L 52.006535947709 109.44525625560001 L 99.718954248364 107.43262111360002 L 147.43137254902 101.45999999999998 L 195.14379084967 89.877267571 L 242.85620915033 93.9776348446 L 290.56862745098 89 L 338.28104575164 87.58719263999998 L 385.99346405229 89.44117376539998 L 433.70588235295 85.44" class="highcharts-graph" stroke="#3C3C3C" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+      <path fill="none" d="M 4.294117647055 110.00868706917538 L 52.006535947709 109.4452562496192 L 99.718954248364 107.4326211127634 L 147.43137254902 101.30528314156578 L 195.14379084967 89.87726756484119 L 242.85620915033 93.97763485175557 L 290.56862745098 88.90772420944938 L 338.28104575164 87.5871927256002 L 385.99346405229 89.44117377070438 L 433.70588235295 80.4209791629788" class="highcharts-graph" stroke="#3C3C3C" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
     <g class="highcharts-markers highcharts-series-2 highcharts-line-series highcharts-color-undefined " transform="translate(37,82) scale(1 1)" clip-path="none">
       <path fill="#3C3C3C" d="M 8 110 A 4 4 0 1 1 7.999998000000167 109.99600000066667 Z" class="highcharts-point"/>
@@ -60,7 +60,7 @@
       <path fill="#3C3C3C" d="M 294 89 A 4 4 0 1 1 293.9999980000002 88.99600000066667 Z" class="highcharts-point"/>
       <path fill="#3C3C3C" d="M 342 88 A 4 4 0 1 1 341.9999980000002 87.99600000066667 Z" class="highcharts-point"/>
       <path fill="#3C3C3C" d="M 389 89 A 4 4 0 1 1 388.9999980000002 88.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#3C3C3C" d="M 437 85 A 4 4 0 1 1 436.9999980000002 84.99600000066667 Z" class="highcharts-point"/>
+      <path fill="#3C3C3C" d="M 437 80 A 4 4 0 1 1 436.9999980000002 79.99600000066667 Z" class="highcharts-point"/>
     </g>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
