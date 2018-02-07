@@ -494,6 +494,7 @@ id | visible | visibleInPortal | indikatorenset
 6537 | true | true | Tourismus
 6538 | true | true | Tourismus
 6539 | true | true | Tourismus
+6540 | true | true | Tourismus
 9997 | true | false | 
 9998 | true | false | Test
 9999 | true | false | Test
