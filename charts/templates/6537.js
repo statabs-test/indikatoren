@@ -2,27 +2,40 @@
     return {
     series: [
         {
-            color: "rgb(138, 138, 138)",
-        },
-        {
-            color: "rgb(159, 124, 90)",
+            color: "rgb(237, 226, 208)",
         },
         {
             color: "rgb(197, 171, 146)",
         },
         {
-            color: "rgb(237, 226, 208)",
-        }        
+            color: "rgb(159, 124, 90)",
+        },
+        {
+            color: "rgb(138, 138, 138)",
+        }
   ],
-  "xAxis": {
-      "type": "category"
+  xAxis: {
+      type: "category"
+  },
+  yAxis: {
+      reversedStacks: false
   },
   plotOptions: {
     series: {
-        stacking: 'normal'
+        stacking: 'normal', 
+        dataLabels: {
+            enabled: true,
+            style: {
+                fontSize: "11px", 
+                color: 'black', 
+                fontWeight: 'normal',
+                textOutline: undefined
+            }
+        }
     }
   },
   legend: {
+        reversed: true,
         layout: "vertical",
         verticalAlign: "middle",
         itemMarginBottom: 5,     
@@ -33,6 +46,7 @@
         },
         symbolRadius: 0,
   },
+  
   data: {
       //only keep first and last year
       parsed: function(columns){
