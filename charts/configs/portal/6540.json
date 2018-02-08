@@ -300,7 +300,10 @@
                     }
                   }
                 );
-              }              
+              }
+              //move legend title
+              var title = this.legend.title;
+              title.translate(-250, 40);
           }
     },
     "borderColor": "#fbfbfb",
@@ -391,16 +394,26 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left",
+    "align": "right",
     "symbolRadius": 0,
-    "y": 35,
+    "useHTML": true,
     "itemMarginBottom": 5,
+    "width": 210,
+    "itemWidth": 70,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "width": 40
+    },
+    "title": {
+      "text": "Effektiv:\u003Cbr\u002F\u003EAuf Basis Zimmerzahl 2008:",
+      "style": {
+        "fontWeight": "normal"
+      }
     },
     "labelFormatter": function (){
         //remove text before year on each item with odd index
-        return (this.index % 3 != 0) ? this.name.slice(-5) : this.name;
+        //return (this.index % 3 != 0) ? this.name.slice(-5) : this.name;
+        return this.name.slice(-5);
     }
   },
   "plotOptions": {

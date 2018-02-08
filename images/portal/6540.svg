@@ -100,23 +100,23 @@
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
     <tspan>Effektiv und auf Basis der Zimmerzahl von 2008</tspan>
   </text>
-  <g class="highcharts-legend" transform="translate(45,45)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="373" height="49" visibility="visible"/>
-    <g>
+  <g class="highcharts-legend" transform="translate(257,10)">
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="218" height="84" visibility="visible"/>
+    <g transform="translate(0,35)">
       <g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0" transform="translate(8,3)">
           <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="rgb(220, 68, 14)" stroke-width="2"/>
           <text x="21" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
-            <tspan>Effektiv: Mo-Do</tspan>
+            <tspan>Mo-Do</tspan>
           </text>
         </g>
-        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1" transform="translate(130.9375,3)">
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1" transform="translate(78,3)">
           <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="rgb(68, 141, 43)" stroke-width="2"/>
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Fr-So</tspan>
           </text>
         </g>
-        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-2" transform="translate(201.90625,3)">
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-2" transform="translate(148,3)">
           <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="rgb(250, 189, 36)" stroke-width="2"/>
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Mo-So</tspan>
@@ -126,17 +126,17 @@
           <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="rgb(220, 68, 14)" stroke-width="2"/>
           <path fill="#FFFFFF" d="M 12 11 A 4 4 0 1 1 11.999998000000167 10.996000000666664 Z" class="highcharts-point" stroke="rgb(220, 68, 14)" stroke-width="2"/>
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Auf Basis Zimmerzahl 2008: Mo-Do</tspan>
+            <tspan>Mo-Do</tspan>
           </text>
         </g>
-        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-4" transform="translate(238.234375,22)">
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-4" transform="translate(78,22)">
           <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="rgb(68, 141, 43)" stroke-width="2"/>
           <path fill="#FFFFFF" d="M 12 11 A 4 4 0 1 1 11.999998000000167 10.996000000666664 Z" class="highcharts-point" stroke="rgb(68, 141, 43)" stroke-width="2"/>
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Fr-So</tspan>
           </text>
         </g>
-        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-5" transform="translate(309.203125,22)">
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-5" transform="translate(148,22)">
           <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="rgb(250, 189, 36)" stroke-width="2"/>
           <path fill="#FFFFFF" d="M 12 11 A 4 4 0 1 1 11.999998000000167 10.996000000666664 Z" class="highcharts-point" stroke="rgb(250, 189, 36)" stroke-width="2"/>
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
@@ -144,6 +144,11 @@
           </text>
         </g>
       </g>
+    </g>
+    <g class="highcharts-label highcharts-legend-title" transform="translate(-250,40)">
+      <text x="3" style="font-weight:normal;" y="15">
+        <tspan>Effektiv:</tspan><tspan x="0" dy="15">Auf Basis Zimmerzahl 2008:</tspan>
+      </text>
     </g>
   </g>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
