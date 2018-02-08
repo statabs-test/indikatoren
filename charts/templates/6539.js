@@ -89,20 +89,31 @@
     }
   },
   legend: {
-    y: 25,
+    useHTML: true,
+    //y: 25,
     layout: "horizontal",
     verticalAlign: "top",
     itemMarginBottom: 5,     
-    align: "left",
-    useHTML: false,
+    align: "right",
     itemStyle: {
-        fontWeight: "normal"
+        fontWeight: "normal",
+        width: 40        
     },
+    width: 200,
+    itemWidth: 70,    
     symbolRadius: 0,
     labelFormatter: function(){
         //remove text before year on each item with odd index
-        return (this.index % 2 != 0) ? this.name.slice(-4) : this.name;
-    }
+        //return (this.index % 2 != 0) ? this.name.slice(-4) : this.name;
+        return this.name.slice(-4);
+    }, 
+    title: {
+    	text: 'Angebotene Zimmer:<br/>Nettozimmerauslastung (rechte Skala):', 
+    	style: {
+    	  fontWeight: 'normal'
+    	}
+    },
+
   },
   data: {
       switchRowsAndColumns: true
@@ -112,7 +123,26 @@
     "shared": false
   },
   chart: {
-      type: 'column',
+        type: 'column',
+        events: {
+          load: function(){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+            //move legend title
+            var title = this.legend.title;
+            title.translate(-250, 40);
+          }
+        }              
  }
 	};
 }());
