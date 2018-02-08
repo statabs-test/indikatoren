@@ -112,7 +112,8 @@
       },
       "plotOptions": {
         "series": {
-          "stacking": "percent"
+          "stacking": "percent",
+          fillOpacity: 1
         }, 
         "area": {
           "lineWidth": 0,

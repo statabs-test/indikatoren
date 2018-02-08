@@ -18998,6 +18998,47 @@
 		"id": 6548
 	},
 	{
+		"title": "Wachstumsbeiträge der Top - Märkte",
+		"subtitle": "",
+		"kuerzel": "I.10.1.06549",
+		"kuerzelKunde": "3-1",
+		"description": "Wachstumsbeiträge der Top - Märkte",
+		"thema": "10 Tourismus",
+		"unterthema": "Hotellerie",
+		"kennzahlenset": "Tourismus",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Ausländer",
+			"Ausland",
+			"Übernachtung",
+			"Gäste",
+			"Hotelbetten"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "bubble001",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6549
+	},
+	{
 		"title": "Test Title",
 		"subtitle": "Test Subtitle",
 		"kuerzel": "I.04.1.09997",

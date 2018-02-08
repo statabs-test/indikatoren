@@ -136,7 +136,7 @@
           136263
         ]
       ],
-      "name": "USA"
+      "name": "Vereinigte Staaten"
     },
     {
       "color": "rgb(180, 117, 171)",
@@ -182,7 +182,7 @@
           98282
         ]
       ],
-      "name": "UK"
+      "name": "Vereinigtes Königreich"
     },
     {
       "color": "rgb(8, 161, 217)",
@@ -536,7 +536,8 @@
   },
   "plotOptions": {
     "series": {
-      "stacking": "normal"
+      "stacking": "normal",
+      "fillOpacity": 1
     },
     "area": {
       "lineWidth": 0,

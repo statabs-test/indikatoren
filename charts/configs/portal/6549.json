@@ -3,28 +3,70 @@
     {
       "data": [
         {
-          "x": 10,
-          "y": 4,
-          "z": 30,
+          "x": 22.91,
+          "y": 424,
+          "z": 31.9,
           "name": "Schweiz",
-          "color": "red"
+          "color": "rgb(176, 0, 0)"
         },
         {
-          "x": 20,
-          "y": 3,
-          "z": 100,
+          "x": 3.7,
+          "y": 192,
+          "z": 14.5,
           "name": "Deutschland",
-          "color": "blue"
+          "color": "rgb(250, 189, 36)"
         },
         {
-          "x": 55,
-          "y": 10,
-          "z": 20,
-          "name": "Österreich",
-          "color": "blue"
+          "x": 23.1,
+          "y": 136,
+          "z": 10.3,
+          "name": "Vereinigte Staaten",
+          "color": "rgb(250, 189, 36)"
+        },
+        {
+          "x": 12.1,
+          "y": 98,
+          "z": 7.4,
+          "name": "Vereinigtes Königreich",
+          "color": "rgb(115, 186, 124)"
+        },
+        {
+          "x": 16,
+          "y": 58,
+          "z": 4.4,
+          "name": "Frankreich",
+          "color": "rgb(180, 117, 171)"
+        },
+        {
+          "x": 12.8,
+          "y": 50,
+          "z": 3.8,
+          "name": "Italien",
+          "color": "rgb(8, 161, 217)"
+        },
+        {
+          "x": 28.8,
+          "y": 33,
+          "z": 2.5,
+          "name": "Spanien",
+          "color": "rgb(131, 82, 46)"
+        },
+        {
+          "x": 5.4,
+          "y": 30,
+          "z": 2.3,
+          "name": "Niederlande",
+          "color": "rgb(143, 176, 140)"
+        },
+        {
+          "x": 28.6,
+          "y": 22,
+          "z": 1.7,
+          "name": "China, Hongkong, Taiwan",
+          "color": "rgb(255, 232, 70)"
         }
       ],
-      "name": "Land"
+      "name": "Herkunftsland"
     }
   ],
   "chart": {
@@ -53,7 +95,7 @@
     },
     "zoomType": "xy",
     "type": "bubble",
-    "renderTo": "container-9997"
+    "renderTo": "container-6549"
   },
   "title": {
     "style": {
@@ -63,7 +105,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Test Title"
+    "text": "Wachstumsbeiträge der Top - Märkte"
   },
   "subtitle": {
     "style": {
@@ -72,7 +114,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Test Subtitle",
+    "text": "",
     "align": "left"
   },
   "yAxis": {
@@ -84,7 +126,7 @@
         "color": "black",
         "fontSize": "10px"
       },
-      "text": null
+      "text": "Logiernächte 2017 in Tausend"
     },
     "labels": {
       "style": {
@@ -100,7 +142,8 @@
       "style": {
         "color": "black",
         "fontSize": "10px"
-      }
+      },
+      "text": "Veränderung 2017 gegenüber dem Mittelwert 2008-2017"
     },
     "labels": {
       "style": {
@@ -110,7 +153,7 @@
       "format": "{value}%"
     },
     "tickLength": 0,
-    "maxPadding": 0.2
+    "min": 0
   },
   "credits": {
     "enabled": true,
@@ -125,16 +168,16 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Test Quelle"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik"
   },
   "legend": {
     "enabled": false,
     "symbolRadius": 0
   },
   "tooltip": {
-    "useHTML": true,
+    "useHTML": false,
     "headerFormat": "\u003Ctable\u003E",
-    "pointFormat": "\u003Ctr\u003E\u003Cth colspan=\"2\"\u003E\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {point.name}\u003C\u002Fth\u003E\u003C\u002Ftr\u003E\u003Ctr\u003E\u003Cth\u003EX:\u003C\u002Fth\u003E\u003Ctd\u003E{point.x}\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003Ctr\u003E\u003Cth\u003EY:\u003C\u002Fth\u003E\u003Ctd\u003E{point.y}\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003Ctr\u003E\u003Cth\u003ESize:\u003C\u002Fth\u003E\u003Ctd\u003E{point.z}\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E \u003Cspan style=\"font-size: 10px\"\u003E {point.name}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003EVeränderung 2017 gegenüber dem Mittelwert 2008-2017:\u003Cb\u003E {point.x}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003ELogiernächte 2017 in Tausend:\u003Cb\u003E {point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003EMarktanteil 2017:\u003Cb\u003E {point.z}%\u003C\u002Fb\u003E",
     "footerFormat": "\u003C\u002Ftable\u003E",
     "followPointer": true
   },
@@ -168,6 +211,6 @@
     }
   },
   "exporting": {
-    "filename": 9997
+    "filename": 6549
   }
 }
