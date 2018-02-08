@@ -32,7 +32,7 @@
       },
       "series": [
         {
-            color: 'rgb(220, 68, 14)'
+            color: 'rgb(176, 0, 0)'
         },
         {
             color: 'rgb(168, 196, 203)'

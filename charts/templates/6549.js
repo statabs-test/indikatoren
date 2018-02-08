@@ -28,13 +28,13 @@
               switch (val){
               	case 'Schweiz': val = 'rgb(176, 0, 0)'; break;
               	case 'Deutschland': val = 'rgb(250, 189, 36)'; break;
-              	case 'Vereinigte Staaten': val = 'rgb(250, 189, 36)'; break;
-              	case 'Vereinigtes Königreich': val = 'rgb(115, 186, 124)'; break;
-              	case 'Frankreich': val = 'rgb(180, 117, 171)'; break;
-              	case 'Italien': val = 'rgb(8, 161, 217)'; break;
-              	case 'Spanien': val = 'rgb(131, 82, 46)'; break;
+              	case 'Vereinigte Staaten': val = 'rgb(115, 186, 124)'; break;
+              	case 'Vereinigtes Königreich': val = 'rgb(180, 117, 171)'; break;
+              	case 'Frankreich': val = 'rgb(8, 161, 217)'; break;
+              	case 'Italien': val = 'rgb(131, 82, 46)'; break;
+              	case 'Spanien': val = 'rgb(255, 232, 70)'; break;
               	case 'Niederlande': val = 'rgb(143, 176, 140)'; break;
-              	case 'China, Hongkong, Taiwan': val = 'rgb(255, 232, 70)'; break;
+              	case 'China, Hongkong, Taiwan': val = 'rgb(255, 133, 43)'; break;
               	//default: val = 'black';
           		}
           	}

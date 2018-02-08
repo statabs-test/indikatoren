@@ -48,13 +48,13 @@
     <g class="highcharts-series highcharts-series-0 highcharts-bubble-series highcharts-color-0 " transform="translate(66,41) scale(1 1)" clip-path="url(#a)">
       <path fill="rgb(176, 0, 0)" d="M 344 44 A 29 29 0 1 1 343.99998550000123 43.971000004833314 Z" stroke="rgb(176, 0, 0)" stroke-width="1" class="highcharts-point highcharts-color-0"/>
       <path fill="rgb(250, 189, 36)" d="M 71 178.5 A 20.5 20.5 0 1 1 70.99998975000085 178.47950000341666 Z" stroke="rgb(250, 189, 36)" stroke-width="1" class="highcharts-point highcharts-color-0"/>
-      <path fill="rgb(250, 189, 36)" d="M 336 211.5 A 17.5 17.5 0 1 1 335.99999125000073 211.48250000291665 Z" stroke="rgb(250, 189, 36)" stroke-width="1" class="highcharts-point highcharts-color-0"/>
-      <path fill="rgb(115, 186, 124)" d="M 181 233 A 15 15 0 1 1 180.99999250000062 232.9850000025 Z" stroke="rgb(115, 186, 124)" stroke-width="1" class="highcharts-point highcharts-color-0"/>
-      <path fill="rgb(180, 117, 171)" d="M 232 256.5 A 11.5 11.5 0 1 1 231.99999425000047 256.48850000191663 Z" stroke="rgb(180, 117, 171)" stroke-width="1" class="highcharts-point highcharts-color-0"/>
-      <path fill="rgb(8, 161, 217)" d="M 187 261 A 11 11 0 1 1 186.99999450000047 260.98900000183335 Z" stroke="rgb(8, 161, 217)" stroke-width="1" class="highcharts-point highcharts-color-0"/>
-      <path fill="rgb(131, 82, 46)" d="M 405 270.5 A 8.5 8.5 0 1 1 404.9999957500004 270.4915000014167 Z" stroke="rgb(131, 82, 46)" stroke-width="1" class="highcharts-point highcharts-color-0"/>
+      <path fill="rgb(115, 186, 124)" d="M 336 211.5 A 17.5 17.5 0 1 1 335.99999125000073 211.48250000291665 Z" stroke="rgb(115, 186, 124)" stroke-width="1" class="highcharts-point highcharts-color-0"/>
+      <path fill="rgb(180, 117, 171)" d="M 181 233 A 15 15 0 1 1 180.99999250000062 232.9850000025 Z" stroke="rgb(180, 117, 171)" stroke-width="1" class="highcharts-point highcharts-color-0"/>
+      <path fill="rgb(8, 161, 217)" d="M 232 256.5 A 11.5 11.5 0 1 1 231.99999425000047 256.48850000191663 Z" stroke="rgb(8, 161, 217)" stroke-width="1" class="highcharts-point highcharts-color-0"/>
+      <path fill="rgb(131, 82, 46)" d="M 187 261 A 11 11 0 1 1 186.99999450000047 260.98900000183335 Z" stroke="rgb(131, 82, 46)" stroke-width="1" class="highcharts-point highcharts-color-0"/>
+      <path fill="rgb(255, 232, 70)" d="M 405 270.5 A 8.5 8.5 0 1 1 404.9999957500004 270.4915000014167 Z" stroke="rgb(255, 232, 70)" stroke-width="1" class="highcharts-point highcharts-color-0"/>
       <path fill="rgb(143, 176, 140)" d="M 82 273 A 8 8 0 1 1 81.99999600000034 272.99200000133334 Z" stroke="rgb(143, 176, 140)" stroke-width="1" class="highcharts-point highcharts-color-0"/>
-      <path fill="rgb(255, 232, 70)" d="M 397 277 A 4 4 0 1 1 396.9999980000002 276.99600000066664 Z" stroke="rgb(255, 232, 70)" stroke-width="1" class="highcharts-point highcharts-color-0"/>
+      <path fill="rgb(255, 133, 43)" d="M 397 277 A 4 4 0 1 1 396.9999980000002 276.99600000066664 Z" stroke="rgb(255, 133, 43)" stroke-width="1" class="highcharts-point highcharts-color-0"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-bubble-series highcharts-color-0 " transform="translate(66,41) scale(1 1)" clip-path="none"/>
   </g>
