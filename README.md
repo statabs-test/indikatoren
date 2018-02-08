@@ -143,13 +143,14 @@ npm run reinstall
 ## How to create new charts
 - Upload the new metadata json file to metadata/single/[id].json
 - Upload the tsv file to data/[id].json
-- Copy an existing chart definition file to charts/tenplates/[id].js, or create a new chart definition file that contains:
+- Copy an existing chart definition file to charts/templates/[id].js, or create a new chart definition file that contains:
     - a [self-invoking javascript function](https://en.wikipedia.org/wiki/Immediately-invoked_function_expression) that returns a javascript object, which contains:
     - an array named "series" which contains one object for each column in the tsv that needs to be used in the chart (starting with the 2nd column in the data file, no object necessary for the first column),
     - all deviations from the chart template file that is defined in the chart's metadata file. 
 - Edit chart-dev.html to use the chart id and template file for your current chart
 - Load chart-dev.html in the browser, and check if it matches your requirements. If not: 
 - Adapt your chart definition file [id].js until it matches your requirements by following the [Highcharts API Documentation](https://api.highcharts.com/)
+- To see which charts are based on which templates: check metadata/all/templatesById.json
 - To add the chart to portal and/or indikatorenset View: [Build the application](#build-application-locally) 
 
 
