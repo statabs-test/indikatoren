@@ -226,5 +226,44 @@ var indikatorensetData = [
 			""
 		],
 		"id": 6542
+	},
+	{
+		"title": "Entwicklung der Aufenthaltsdauer seit 1937 in Tagen",
+		"subtitle": "",
+		"kuerzel": "I.10.1.06543",
+		"kuerzelKunde": "2-7",
+		"description": "Entwicklung der Aufenthaltsdauer seit 1937 in Tagen",
+		"thema": "10 Tourismus",
+		"unterthema": "Hotellerie",
+		"kennzahlenset": "Tourismus",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Ausländer",
+			"Übernachtung",
+			"Gäste",
+			"Hotelbetten"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6543
 	}
 ];
