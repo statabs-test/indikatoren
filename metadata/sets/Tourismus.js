@@ -267,11 +267,11 @@ var indikatorensetData = [
 		"id": 6543
 	},
 	{
-		"title": "Saisonale Aufenthaltsdaue",
+		"title": "Saisonale Aufenthaltsdauer",
 		"subtitle": "in Tagen, Stand: 2017",
 		"kuerzel": "I.10.1.06544",
 		"kuerzelKunde": "2-8",
-		"description": "Saisonale Aufenthaltsdaue",
+		"description": "Saisonale Aufenthaltsdauer",
 		"thema": "10 Tourismus",
 		"unterthema": "Hotellerie",
 		"kennzahlenset": "Tourismus",

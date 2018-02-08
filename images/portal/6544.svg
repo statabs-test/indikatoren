@@ -56,7 +56,7 @@
     <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(40,87) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Saisonale Aufenthaltsdaue</tspan>
+    <tspan>Saisonale Aufenthaltsdauer</tspan>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
     <tspan>in Tagen, Stand: 2017</tspan>
