@@ -11725,5 +11725,46 @@ var indikatoren = [
 			""
 		],
 		"id": 6547
+	},
+	{
+		"title": "Entwicklung der Logiernächte der Top Märkte",
+		"subtitle": "",
+		"kuerzel": "I.10.1.06548",
+		"kuerzelKunde": "2-12",
+		"description": "Entwicklung der Logiernächte der Top Märkte",
+		"thema": "10 Tourismus",
+		"unterthema": "Hotellerie",
+		"kennzahlenset": "Tourismus",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Ausländer",
+			"Ausland",
+			"Übernachtung",
+			"Gäste",
+			"Hotelbetten"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "area001",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6548
 	}
 ];
