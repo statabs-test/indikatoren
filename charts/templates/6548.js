@@ -32,7 +32,12 @@
         enabled: true, 
         reversed: true, 
         margin: 5, 
-        padding: 5
+        padding: 5, 
+        labelFormatter: function(){
+          return this.name
+            .replace("Vereinigtes ", "Vereinigtes<br/>")
+            .replace("Vereinigte ", "Vereinigte<br/>");
+        }
       },
      tooltip: {
          pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y} ({point.percentage:.1f}%)</b><br/>'

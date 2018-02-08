@@ -697,7 +697,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Entwicklung der Aufenthaltsdauer seit 1937 in Tagen"
+    "text": "Entwicklung der Aufenthaltsdauer"
   },
   "subtitle": {
     "style": {
@@ -706,7 +706,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "in Tagen",
     "align": "left"
   },
   "tooltip": {
@@ -772,7 +772,7 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "y": 20,
+    "y": 30,
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"

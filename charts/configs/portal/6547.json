@@ -129,7 +129,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Logiernächte nach Herkunft der Gäste (2008 = 100)"
+    "text": "Logiernächte nach Herkunft der Gäste"
   },
   "subtitle": {
     "style": {
@@ -138,7 +138,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "indexiert (2008 = 100)",
     "align": "left"
   },
   "tooltip": {
@@ -195,7 +195,7 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "y": 20,
+    "y": 35,
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"

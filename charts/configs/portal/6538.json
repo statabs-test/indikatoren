@@ -155,7 +155,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Durchschnittliche Betriebsgrösse (Zimmer je Betrieb)"
+    "text": "Durchschnittliche Betriebsgrösse"
   },
   "subtitle": {
     "style": {
@@ -164,7 +164,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Zimmer pro Betrieb",
     "align": "left"
   },
   "yAxis": {
@@ -207,7 +207,7 @@
   },
   "legend": {
     "symbolRadius": 0,
-    "y": 25,
+    "y": 35,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,

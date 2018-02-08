@@ -322,7 +322,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Nettozimmerauslastung seit 2008"
+    "text": "Nettozimmerauslastung"
   },
   "subtitle": {
     "style": {
@@ -331,7 +331,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Effektiv und auf Basis der Zimmerzahl von 2008",
     "align": "left"
   },
   "tooltip": {

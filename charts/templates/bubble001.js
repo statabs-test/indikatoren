@@ -53,13 +53,14 @@
             "title": {
                 "style": {
                     "color": "black",
-                    "fontSize": "10px"
+                    "fontSize": "11px"
                 },
                 "text": null
             },
             "labels": {
                 "style": {
-                    "color": "black"
+                    "color": "black",
+                    "fontSize": "11px"
                 }
             }, 
             "min": 0
@@ -70,13 +71,13 @@
             "title": {
                 "style": {
                     "color": "black",
-                    "fontSize": "10px"
+                    "fontSize": "11px"
                 }
             },
             "labels": {
                 "style": {
                     "color": "black",
-                    "fontSize": "10px"
+                    "fontSize": "11px"
                 }
             },
             "tickLength": 0,

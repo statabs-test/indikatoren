@@ -29,7 +29,7 @@
     }
   },
   legend: {
-    y: 25,
+    y: 35,
     layout: "horizontal",
     verticalAlign: "top",
     itemMarginBottom: 5,     

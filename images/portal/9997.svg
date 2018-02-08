@@ -70,22 +70,22 @@
     </g>
   </g>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
-    <text x="59.4574780058651" style="color:black;cursor:default;font-size:10px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="367" opacity="1">
+    <text x="59.4574780058651" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
       <tspan>10%</tspan>
     </text>
-    <text x="135.36493971977842" style="color:black;cursor:default;font-size:10px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="367" opacity="1">
+    <text x="135.36493971977842" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
       <tspan>20%</tspan>
     </text>
-    <text x="211.27240143369175" style="color:black;cursor:default;font-size:10px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="367" opacity="1">
+    <text x="211.27240143369175" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
       <tspan>30%</tspan>
     </text>
-    <text x="287.1798631476051" style="color:black;cursor:default;font-size:10px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="367" opacity="1">
+    <text x="287.1798631476051" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
       <tspan>40%</tspan>
     </text>
-    <text x="363.0873248615184" style="color:black;cursor:default;font-size:10px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="367" opacity="1">
+    <text x="363.0873248615184" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
       <tspan>50%</tspan>
     </text>
-    <text x="438.99478657543176" style="color:black;cursor:default;font-size:10px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="367" opacity="1">
+    <text x="438.99478657543176" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
       <tspan>60%</tspan>
     </text>
   </g>

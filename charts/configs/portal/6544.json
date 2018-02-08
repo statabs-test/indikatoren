@@ -163,7 +163,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Saisonale Aufenthaltsdauer 2017 in Tagen"
+    "text": "Saisonale Aufenthaltsdaue"
   },
   "subtitle": {
     "style": {
@@ -172,7 +172,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "in Tagen, Stand: 2017",
     "align": "left"
   },
   "tooltip": {
@@ -220,7 +220,7 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "y": 20,
+    "y": 35,
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"

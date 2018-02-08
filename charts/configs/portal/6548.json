@@ -532,7 +532,12 @@
     },
     "reversed": true,
     "margin": 5,
-    "padding": 5
+    "padding": 5,
+    "labelFormatter": function (){
+          return this.name
+            .replace("Vereinigtes ", "Vereinigtes<br/>")
+            .replace("Vereinigte ", "Vereinigte<br/>");
+        }
   },
   "plotOptions": {
     "series": {

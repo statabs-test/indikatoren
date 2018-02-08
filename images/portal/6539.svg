@@ -80,7 +80,7 @@
     </g>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Zimmerangebot und Auslastung 2008 und 2017 nach</tspan><tspan dy="17" x="10">Hotelkategorie</tspan><title>Zimmerangebot und Auslastung 2008 und 2017 nach Hotelkategorie</title>
+    <tspan>Zimmerangebot und Auslastung nach Hotelkategorie</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(41,35)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="338" height="49" visibility="visible"/>

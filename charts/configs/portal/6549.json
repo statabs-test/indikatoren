@@ -124,13 +124,14 @@
     "title": {
       "style": {
         "color": "black",
-        "fontSize": "10px"
+        "fontSize": "11px"
       },
       "text": "Logiernächte 2017 in Tausend"
     },
     "labels": {
       "style": {
-        "color": "black"
+        "color": "black",
+        "fontSize": "11px"
       }
     },
     "min": 0
@@ -141,14 +142,14 @@
     "title": {
       "style": {
         "color": "black",
-        "fontSize": "10px"
+        "fontSize": "11px"
       },
       "text": "Veränderung 2017 gegenüber dem Mittelwert 2008-2017"
     },
     "labels": {
       "style": {
         "color": "black",
-        "fontSize": "10px"
+        "fontSize": "11px"
       },
       "format": "{value}%"
     },
