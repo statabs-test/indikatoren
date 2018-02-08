@@ -1,0 +1,195 @@
+{
+  "series": [
+    {
+      "color": "rgb(237, 226, 208)",
+      "data": [
+        [
+          "2008",
+          435.420765
+        ],
+        [
+          "2017",
+          1747.126027
+        ]
+      ],
+      "name": "1- und 2-Sterne",
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(197, 171, 146)",
+      "data": [
+        [
+          "2008",
+          1861.860656
+        ],
+        [
+          "2017",
+          3123.682192
+        ]
+      ],
+      "name": "3-Sterne",
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(159, 124, 90)",
+      "data": [
+        [
+          "2008",
+          2423.243169
+        ],
+        [
+          "2017",
+          3027.632877
+        ]
+      ],
+      "name": "4- und 5-Sterne",
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(138, 138, 138)",
+      "data": [
+        [
+          "2008",
+          623.2786885
+        ],
+        [
+          "2017",
+          793.9753425
+        ]
+      ],
+      "name": "Nicht klassiert",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "reversed": false
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "bar",
+    "renderTo": "container-6542"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Angebotene Betten nach Hotelkategorie"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "reversedStacks": false,
+    "max": 9000,
+    "tickInterval": 1800
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik"
+  },
+  "legend": {
+    "enabled": false,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "reversed": false,
+    "itemDistance": 12,
+    "itemMarginBottom": 5,
+    "y": 15,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "stacking": "normal",
+      "dataLabels": {
+        "enabled": true,
+        "format": "{point.y:,.0f}",
+        "style": {
+          "fontSize": "11px",
+          "color": "black",
+          "fontWeight": "normal"
+        }
+      }
+    }
+  },
+  "exporting": {
+    "filename": 6542
+  }
+}
