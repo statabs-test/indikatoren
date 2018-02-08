@@ -29,10 +29,11 @@
   </g>
   <g class="highcharts-grid highcharts-yaxis-grid ">
     <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 43 349.25 L 475 349.25" opacity="1"/>
-    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 43 294.25 L 475 294.25" opacity="1"/>
-    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 43 238.25 L 475 238.25" opacity="1"/>
-    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 43 183.25 L 475 183.25" opacity="1"/>
-    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 43 127.25 L 475 127.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 43 303.25 L 475 303.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 43 257.25 L 475 257.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 43 211.25 L 475 211.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 43 164.25 L 475 164.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 43 118.25 L 475 118.25" opacity="1"/>
     <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 43 71.75 L 475 71.75" opacity="1"/>
   </g>
   <rect fill="none" class="highcharts-plot-border" x="43" y="72" width="432" height="277"/>
@@ -44,11 +45,11 @@
   </g>
   <g class="highcharts-series-group">
     <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(43,72) scale(1 1)" clip-path="url(#a)">
-      <path fill="none" d="M 4.2352941176433 277 L 51.294117647056 248.92428551 L 98.352941176468 268.204907628 L 145.41176470588 262.927852094 L 192.47058823529 250.07719330399996 L 239.52941176471 232.726116068 L 286.58823529412 156.76024331200003 L 333.64705882353 92.95550820400001 L 380.70588235294 78.09560165999997 L 427.76470588236 44.62420472400001" class="highcharts-graph" stroke="rgb(176, 0, 0)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+      <path fill="none" d="M 4.2352941176433 230.83333333333334 L 51.294117647056 207.43690459166666 L 98.352941176468 223.50408969 L 145.41176470588 219.10654341166665 L 192.47058823529 208.39766108666663 L 239.52941176471 193.93843005666668 L 286.58823529412 130.63353609333336 L 333.64705882353 77.46292350333337 L 380.70588235294 65.07966804999998 L 427.76470588236 37.18683727000001" class="highcharts-graph" stroke="rgb(176, 0, 0)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(43,72) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(43,72) scale(1 1)" clip-path="url(#a)">
-      <path fill="none" d="M 4.2352941176433 277 L 51.294117647056 272.09845674599995 L 98.352941176468 232.19558849400002 L 145.41176470588 228.00173370400003 L 192.47058823529 231.37944455800002 L 239.52941176471 219.99244656599996 L 286.58823529412 207.43663100799998 L 333.64705882353 203.97621349400004 L 380.70588235294 197.84031170399996 L 427.76470588236 125.81368752599997" class="highcharts-graph" stroke="rgb(105, 146, 155)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+      <path fill="none" d="M 4.2352941176433 230.83333333333334 L 51.294117647056 226.74871395499997 L 98.352941176468 193.49632374500004 L 145.41176470588 190.00144475333337 L 192.47058823529 192.81620379833333 L 239.52941176471 183.32703880499997 L 286.58823529412 172.8638591733333 L 333.64705882353 169.98017791166671 L 380.70588235294 164.86692641999997 L 427.76470588236 104.844739605" class="highcharts-graph" stroke="rgb(105, 146, 155)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
     <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(43,72) scale(1 1)" clip-path="none"/>
   </g>
@@ -108,18 +109,21 @@
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
     <text x="28" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="354" opacity="1">
+      <tspan>90</tspan>
+    </text>
+    <text x="28" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="307" opacity="1">
       <tspan>100</tspan>
     </text>
-    <text x="28" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="298" opacity="1">
+    <text x="28" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="261" opacity="1">
       <tspan>110</tspan>
     </text>
-    <text x="28" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="243" opacity="1">
+    <text x="28" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="215" opacity="1">
       <tspan>120</tspan>
     </text>
-    <text x="28" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="187" opacity="1">
+    <text x="28" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="169" opacity="1">
       <tspan>130</tspan>
     </text>
-    <text x="28" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="132" opacity="1">
+    <text x="28" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="123" opacity="1">
       <tspan>140</tspan>
     </text>
     <text x="28" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="77" opacity="1">
