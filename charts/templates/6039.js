@@ -1,3 +1,4 @@
+
 (function(){
     return {
 "plotOptions": {
@@ -40,7 +41,7 @@
     }
   },
  "series": [
-  {"color": "#83038", "index": 0, "legendIndex":0}, /*gelb*/
+  {"color": "#083038", "index": 0, "legendIndex":0}, /*gelb*/
   {"color": "#246370", "index": 1, "legendIndex":1}, /*blau1*/
   {"color": "#689199", "index": 2, "legendIndex":2}, /*blau2*/
   {"color": "#A8C3CA", "index": 3, "legendIndex":3}, /*blau3*/
