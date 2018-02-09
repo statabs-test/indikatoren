@@ -841,8 +841,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#ff8028",
-      "visible": true,
+      "color": "#689199",
+      "visible": false,
       "data": [
         [
           "Life Sciences Industrie",
@@ -894,6 +894,62 @@
         ]
       ],
       "name": "2015",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ff8028",
+      "visible": true,
+      "data": [
+        [
+          "Life Sciences Industrie",
+          36.2629799458759
+        ],
+        [
+          "Chemische Industrie",
+          0.893447250041893
+        ],
+        [
+          "Finanz- und Versicherungsdienstl.",
+          10.2604923147009
+        ],
+        [
+          "Verkehr und Lagerei",
+          4.19524821626592
+        ],
+        [
+          "Handel und Reparatur",
+          6.89693058388959
+        ],
+        [
+          "Unternehmens- und freiberufl. Dienstl.",
+          12.6992949767718
+        ],
+        [
+          "Grundstücks- und Wohnungswesen",
+          3.47288374146681
+        ],
+        [
+          "Baugewerbe",
+          2.23633105911935
+        ],
+        [
+          "Öffentliche Verwaltung",
+          7.00471985146473
+        ],
+        [
+          "Gesundheits- und Sozialwesen",
+          6.65672704914105
+        ],
+        [
+          "Tourismus",
+          1.35292478653075
+        ],
+        [
+          "Übrige Branchen",
+          7.1745729746894
+        ]
+      ],
+      "name": "2016",
       "turboThreshold": 0
     }
   ],

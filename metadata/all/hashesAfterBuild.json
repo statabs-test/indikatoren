@@ -2479,7 +2479,7 @@
 	},
 	"6047": {
 		"metadata": "70b09ec9bd8c5ef98c3a83e3bea1ae08e14e0857",
-		"chartConfig": "65e5eca6cd486820bac070f22cab688ea596b3b8",
+		"chartConfig": "344e3f2d98d26b76471fb25bcaae2480335b3a99",
 		"data": "91258c69591477adcf98e1899161160fd0b420d0",
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "e80825213e800c3eee6ac98284b60ce7e335940c"
@@ -3778,6 +3778,13 @@
 		"data": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "7be5a12e1fb3b7d99f7fbdea657f5287c4eabc4d"
+	},
+	"6574": {
+		"metadata": "73d686a7fe2f4d71e61b8e5c9e3e5cb367edfdeb",
+		"chartConfig": "999c2de016eb5fe99fee5826857bbc4c9368551a",
+		"data": "022257dc1c85cfa2a9b9bfdc452f8951f46238e7",
+		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+		"template": "a484d4799fc876f9b1af34650015aca72256e290"
 	},
 	"9998": {
 		"metadata": "4c28ecd2507bcfe8d85dfe049d547c39ad70349b",

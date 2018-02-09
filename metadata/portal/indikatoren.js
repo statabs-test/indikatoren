@@ -12575,5 +12575,47 @@ var indikatoren = [
 			""
 		],
 		"id": 6438
+	},
+	{
+		"title": "Akkumulierter Saldo der Allmendbäume",
+		"subtitle": "",
+		"kuerzel": "I.02.13.06574",
+		"kuerzelKunde": "NL11",
+		"description": "Akkumulierter Saldo der Allmendbäume",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Landschaft",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Gemeinde"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Nachhaltigkeit",
+			"Grünflächen",
+			"Boden",
+			"Biodiversität",
+			"Wald"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Jahre 2017 betrug der akkumulierte Saldo 2 294 Bäume. Im selben Jahr wurden leicht mehr Bäume gefällt (398) als gepflanzt (392).",
+		"erlaeuterungen": "Der ausgewiesene Auszug aus dem Baumkataster umfasst den durch die Stadtgärtnerei Basel gepflegten Baumbestand in der Gemeinde Basel.",
+		"template": "template001",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Grundbuch- und Vermessungsamt Basel-Stadt",
+			"Stadtgärtnerei Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6574
 	}
 ];

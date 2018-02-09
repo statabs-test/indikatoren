@@ -562,5 +562,6 @@ id | visible | visibleInPortal | indikatorenset
 6434 | true | true | Nachhaltigkeit
 6435 | true | false | Nachhaltigkeit
 6438 | true | true | Legislaturplan
+6574 | true | true | Nachhaltigkeit
 9998 | true | false | Test
 9999 | true | false | Test
