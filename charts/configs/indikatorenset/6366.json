@@ -1,0 +1,343 @@
+{
+  "series": [
+    {
+      "color": "#B00000",
+      "data": [
+        [
+          "0",
+          -23.58
+        ],
+        [
+          "1-4",
+          -24.2
+        ],
+        [
+          "5-9",
+          -25.21
+        ],
+        [
+          "10-14",
+          -26.36
+        ],
+        [
+          "15-19",
+          -27.53
+        ],
+        [
+          "20-24",
+          -31.08
+        ],
+        [
+          "25-29",
+          -35.65
+        ],
+        [
+          "30-34",
+          -37.82
+        ],
+        [
+          "35-39",
+          -37.53
+        ],
+        [
+          "40-44",
+          -37.84
+        ],
+        [
+          "45-49",
+          -40.71
+        ],
+        [
+          "50-54",
+          -42.11
+        ],
+        [
+          "55-59",
+          -44.12
+        ],
+        [
+          "60-64",
+          -45.43
+        ],
+        [
+          "65-69",
+          -46.88
+        ],
+        [
+          "70-74",
+          -49.22
+        ],
+        [
+          "75-79",
+          -49.64
+        ],
+        [
+          "80-84",
+          -50.27
+        ],
+        [
+          "85-89",
+          -53.38
+        ],
+        [
+          "90 u.m",
+          -59.61
+        ]
+      ],
+      "name": "Männlich",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "data": [
+        [
+          "0",
+          23.6
+        ],
+        [
+          "1-4",
+          24.62
+        ],
+        [
+          "5-9",
+          25.26
+        ],
+        [
+          "10-14",
+          25.98
+        ],
+        [
+          "15-19",
+          27.28
+        ],
+        [
+          "20-24",
+          30.71
+        ],
+        [
+          "25-29",
+          36.19
+        ],
+        [
+          "30-34",
+          36.84
+        ],
+        [
+          "35-39",
+          35.86
+        ],
+        [
+          "40-44",
+          36.55
+        ],
+        [
+          "45-49",
+          39.54
+        ],
+        [
+          "50-54",
+          43.9
+        ],
+        [
+          "55-59",
+          47.95
+        ],
+        [
+          "60-64",
+          48.86
+        ],
+        [
+          "65-69",
+          52.05
+        ],
+        [
+          "70-74",
+          56.42
+        ],
+        [
+          "75-79",
+          57.97
+        ],
+        [
+          "80-84",
+          58.9
+        ],
+        [
+          "85-89",
+          61.83
+        ],
+        [
+          "90 u.m",
+          69.58
+        ]
+      ],
+      "name": "Weiblich",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": [
+    {
+      "reversed": false,
+      "type": "category",
+      "labels": {
+        "step": 1,
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "tickLength": 0,
+      "title": {
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "tickColor": "#FFFFFF"
+    },
+    {
+      "type": "category",
+      "visible": false,
+      "opposite": true,
+      "reversed": false,
+      "linkedTo": 0
+    }
+  ],
+  "chart": {
+    "type": "bar",
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 30,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+                    this.credits.element.onclick = function() {};
+                    
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                      this.update(
+                        {
+                          legend: {
+                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                          }
+                        }
+                      );
+                    }
+                }
+    },
+    "renderTo": "container-6366"
+  },
+  "plotOptions": {
+    "bar": {
+      "grouping": false
+    },
+    "series": {
+      "stacking": null,
+      "pointPadding": 0,
+      "borderWidth": 0,
+      "groupPadding": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Mittlere Wohnfläche nach Alter und Geschlecht"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "yAxis": [
+    {
+      "min": 0,
+      "title": {
+        "text": null
+      },
+      "labels": {
+        "formatter": function () {
+                	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ");
+            	},
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "plotLines": [
+        {
+          "value": 0,
+          "color": "white",
+          "width": 1,
+          "zIndex": 4
+        }
+      ],
+      "events": {
+        "afterSetExtremes": function (args){
+            	    this.chart.options.customFunctions.createSymmetricAxis(this);
+                }
+      }
+    }
+  ],
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -5
+    },
+    "text": "Quelle: "
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "y": 55,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormatter": function () {
+                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( Math.abs(this.y), 0, ",", " ") + '</b><br/>';
+            }
+  },
+  "customFunctions": {
+    "createSymmetricAxis": function (axis){
+                var absMax = Math.max(Math.abs(axis.min), Math.abs(axis.max));
+                axis.setExtremes(-absMax, absMax);
+        	}
+  },
+  "exporting": {
+    "filename": ""
+  }
+}
