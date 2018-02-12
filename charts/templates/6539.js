@@ -46,6 +46,7 @@
             text: null
         },
         labels: {
+        	format: "{value:,.0f}",
             style: {
             color: "#000000"
             }
@@ -83,7 +84,7 @@
         tooltip: {
           headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
           pointFormatter: function(){ 
-              return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 0, ",", " ") + '%</b><br/>';
+              return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';
           }
         }
     }

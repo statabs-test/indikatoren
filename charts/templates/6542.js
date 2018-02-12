@@ -21,7 +21,11 @@
   yAxis: {
       reversedStacks: false, 
       max: 9000,
-      tickInterval: 1800
+      tickInterval: 1800,
+      labels: { 
+      	format: "{value:,.0f}", 
+      	style:{ color: "black", },
+      },
   },
   plotOptions: {
     series: {

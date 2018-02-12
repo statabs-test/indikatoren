@@ -101,7 +101,7 @@ global Highcharts
     line: {
       marker:{
         symbol: 'circle', 
-        fillColor: '#FFFFFF',
+        //fillColor: '#FFFFFF',
         lineWidth: 2,
         lineColor: null // inherit from series
       }

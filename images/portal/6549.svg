@@ -59,7 +59,7 @@
     <g class="highcharts-markers highcharts-series-0 highcharts-bubble-series highcharts-color-0 " transform="translate(66,41) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;font-family:arial;fill:#000000;" y="21">
-    <tspan>Wachstumsbeiträge der Top - Märkte</tspan>
+    <tspan>Wachstumsbeiträge der Top-Märkte</tspan>
   </text>
   <g class="highcharts-data-labels highcharts-series-0 highcharts-bubble-series highcharts-color-0 " visibility="visible" transform="translate(66,41) scale(1 1)">
     <g class="highcharts-label highcharts-data-label highcharts-data-label-color-0 " style="text-shadow:none;" transform="translate(297,-1)">

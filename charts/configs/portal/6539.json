@@ -169,7 +169,7 @@
       "tooltip": {
         "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
         "pointFormatter": function (){ 
-              return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 0, ",", " ") + '%</b><br/>';
+              return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';
           }
       }
     }
@@ -206,6 +206,7 @@
         "text": null
       },
       "labels": {
+        "format": "{value:,.0f}",
         "style": {
           "color": "#000000"
         }

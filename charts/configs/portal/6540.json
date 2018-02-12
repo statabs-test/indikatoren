@@ -325,7 +325,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Nettozimmerauslastung"
+    "text": "Nettozimmerauslastung nach Wochentag"
   },
   "subtitle": {
     "style": {
@@ -420,7 +420,6 @@
     "line": {
       "marker": {
         "symbol": "circle",
-        "fillColor": "#FFFFFF",
         "lineWidth": 2,
         "lineColor": null
       }

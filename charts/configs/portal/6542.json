@@ -155,8 +155,9 @@
     },
     "labels": {
       "style": {
-        "color": "#000000"
-      }
+        "color": "black"
+      },
+      "format": "{value:,.0f}"
     },
     "reversedStacks": false,
     "max": 9000,

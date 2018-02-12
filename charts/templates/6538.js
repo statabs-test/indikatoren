@@ -16,7 +16,7 @@
             },
             tooltip: {
               headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
-              pointFormat: '<span style="color:{point.color}">●</span> {series.name}: <b>{point.y:,.1f}</b><br/>'    
+              pointFormat: '<span style="color:{point.color}">●</span> {series.name}: <b>{point.y:,.0f}</b><br/>'    
             }
         }        
   ],
@@ -48,7 +48,7 @@
       }
   },
    tooltip: {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
     "shared": false
   },
   chart: {
