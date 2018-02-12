@@ -18286,43 +18286,8 @@ var indikatoren = [
 		"id": 6348
 	},
 	{
-		"title": "Mittlere Wohnfläche Pro Person",
-		"subtitle": "",
-		"kuerzel": "",
-		"kuerzelKunde": "",
-		"description": "Mittlere Wohnfläche Pro Person",
-		"thema": "01 Bevölkerung",
-		"unterthema": "",
-		"kennzahlenset": "IntProj",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wohnen"
-		],
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "",
-		"template": "line001",
-		"visibleInPortal": true,
-		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [],
-		"externalLinks": [
-			""
-		],
-		"id": 6362
-	},
-	{
 		"title": "Mittlere Wohnfläche pro Haushaltstyp",
-		"subtitle": "",
+		"subtitle": "in m<sup>2</sup>",
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Mittlere Wohnfläche pro Haushaltstyp",
@@ -18357,7 +18322,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Anzahl Personen im Haushalt",
-		"subtitle": "",
+		"subtitle": "in m<sup>2</sup>",
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Mittlere Wohnfläche pro Anzahl Personen im Haushalt",
@@ -18392,7 +18357,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Mittlere Wohnfläche nach Herkunft und Geschlecht",
-		"subtitle": "",
+		"subtitle": "in m<sup>2</sup>",
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Mittlere Wohnfläche nach Herkunft und Geschlecht",
@@ -18427,7 +18392,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Mittlere Wohnfläche nach Alter und Geschlecht",
-		"subtitle": "",
+		"subtitle": "in m<sup>2</sup>",
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Mittlere Wohnfläche nach Alter und Geschlecht",
@@ -18459,41 +18424,6 @@ var indikatoren = [
 			""
 		],
 		"id": 6366
-	},
-	{
-		"title": "Mittlere Wohnfläche nach Wohnviertel",
-		"subtitle": "",
-		"kuerzel": "",
-		"kuerzelKunde": "",
-		"description": "Mittlere Wohnfläche nach Wohnviertel",
-		"thema": "01 Bevölkerung",
-		"unterthema": "",
-		"kennzahlenset": "IntProj",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wohnen"
-		],
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "",
-		"template": "map001",
-		"visibleInPortal": true,
-		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [],
-		"externalLinks": [
-			""
-		],
-		"id": 6367
 	},
 	{
 		"title": "Durch BaselArea unterstützte internationale Ansiedlungen",

@@ -1,5 +1,11 @@
 (function(){
     return {
+   title: {
+      useHTML: true
+    },
+    subtitle: {
+      useHTML: true
+    },
    plotOptions: {
         series: {
             pointPadding: 0,
@@ -31,14 +37,14 @@
     "verticalAlign": "top",
     "align": "left",
     //"x": 25,
-	y: 25,   
+	y: 35,   
 	itemWidth: 300, 
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
    tooltip: {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}  m²</b><br/>',
     "shared": false
   },
   "chart": {      

@@ -4,6 +4,12 @@
 
 (function(){
     return {
+  title: {
+      useHTML: true
+    },
+    subtitle: {
+      useHTML: true
+    },
         data: {
             parsed: function (columns) {
                 //Negate the numbers in the the 2nd column to create the left side of the population pyramid
@@ -91,10 +97,15 @@
             "layout": "horizontal",
             "verticalAlign": "top",
             "align": "left",
-           	"y": 25,    
+           	"y": 35,    
             "itemStyle": {
               "fontWeight": "normal"
             }
           },
+            tooltip: {
+            pointFormatter: function () {
+                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( Math.abs(this.y), 0, ",", " ") + " m²" + '</b><br/>';
+            }
+            },
 	};
 }());

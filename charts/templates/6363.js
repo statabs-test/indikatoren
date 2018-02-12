@@ -1,6 +1,11 @@
 (function(){
     return {
-  
+    title: {
+      useHTML: true
+    },
+    subtitle: {
+      useHTML: true
+    },
   "xAxis": {
     "type": "category",
     "labels": {
@@ -46,10 +51,14 @@
       "fontWeight": "normal"
     }
   },
-   tooltip: {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
+    /*tooltip: {
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}  m²</b><br/>',
     "shared": false
-  },
+  },*/
+      tooltip: {
+      headerFormat: '',
+      pointFormat: '<span style="color:{point.color}">●</span> {point.name}: <b>{point.y}</b><br/>'    
+    },
   "chart": {     
      marginLeft:250,
     "type": "column",
