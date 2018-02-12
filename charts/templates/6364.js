@@ -1,53 +1,50 @@
 (function(){
     return {
+   plotOptions: {
+        series: {
+            pointPadding: 0,
+            borderWidth: 0,
+			itemWidth: 10, 
+
+        }
+   },
   "xAxis": {
-    "tickInterval": 1
+    "type": "category",
+    "labels": {
+      "rotation": 0 
+    } 
   },
   "yAxis": {
-    "min": undefined, 
-	"labels": {
-		"format": "{value:,.0f}"
-	}
-  },	
-  "tooltip": {
-    "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>'
+	"max": 100,
+    "labels": {
+      "format": "{value:,.0f}"
+    }    
   },
-  "series": [
-    {"color": "#b00000 ",
-      "marker": {
-        "enabled": true
-      }    
-    
-    }, /* rot */
-	{"color": "#672773",
-      "marker": {
-        "enabled": true
-      }    
-    },/* blau  */
+ "series": [
+  {"color": "#b00000 "}, /* rot */
+	{"color": "#2B0099"},/* blau  */
+	{"color": "#007A2F"},/* grüm  */
   ],
   "legend": {
     "enabled": true,
-    "x": 25,
-    //"y": 25,
-    "itemWidth": 200,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
     "align": "left",
+    //"x": 25,
+	y: 25,   
+	itemWidth: 300, 
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
-  "plotOptions": {
-    "line": {
-	  "connectNulls": true,
-      "marker":{
-        "enabled": false,
-        "symbol": "circle",
-      }
-    }
+   tooltip: {
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+    "shared": false
+  },
+  "chart": {      
+    "type": "column",
+    "inverted": false,
+    //"spacingTop": 100
   }
 }
 }());
- 
