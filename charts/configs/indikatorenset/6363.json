@@ -130,6 +130,7 @@
       "color": "#000000"
     },
     "align": "left",
+    "useHTML": true,
     "text": "Mittlere Wohnfläche pro Haushaltstyp"
   },
   "subtitle": {
@@ -139,8 +140,9 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
-    "align": "left"
+    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E",
+    "align": "left",
+    "useHTML": true
   },
   "yAxis": {
     "gridLineColor": "#B9CFD7",
@@ -207,8 +209,8 @@
     "#007A2F"
   ],
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
+    "headerFormat": "",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {point.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": ""

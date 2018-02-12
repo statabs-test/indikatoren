@@ -114,6 +114,7 @@
       "color": "#000000"
     },
     "align": "left",
+    "useHTML": true,
     "text": "Mittlere Wohnfläche nach Herkunft und Geschlecht"
   },
   "subtitle": {
@@ -123,8 +124,9 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
-    "align": "left"
+    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E",
+    "align": "left",
+    "useHTML": true
   },
   "yAxis": {
     "gridLineColor": "#B9CFD7",
@@ -172,14 +174,14 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "y": 45,
+    "y": 35,
     "itemWidth": 300,
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.3f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f} m²\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {

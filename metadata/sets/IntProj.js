@@ -1,7 +1,7 @@
 var indikatorensetData = [
 	{
 		"title": "Mittlere Wohnfläche pro Haushaltstyp",
-		"subtitle": "in m2",
+		"subtitle": "in m<sup>2</sup>",
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Mittlere Wohnfläche pro Haushaltstyp",
@@ -35,7 +35,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Anzahl Personen im Haushalt",
-		"subtitle": "in m2",
+		"subtitle": "in m<sup>2</sup>",
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Mittlere Wohnfläche pro Anzahl Personen im Haushalt",
@@ -69,7 +69,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Mittlere Wohnfläche nach Herkunft und Geschlecht",
-		"subtitle": "in m2",
+		"subtitle": "in m<sup>2</sup>",
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Mittlere Wohnfläche nach Herkunft und Geschlecht",
@@ -103,7 +103,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Mittlere Wohnfläche nach Alter und Geschlecht",
-		"subtitle": "in m2",
+		"subtitle": "in m<sup>2</sup>",
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Mittlere Wohnfläche nach Alter und Geschlecht",

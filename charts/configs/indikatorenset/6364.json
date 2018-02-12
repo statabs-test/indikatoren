@@ -2,9 +2,6 @@
   "series": [
     {
       "color": "#b00000 ",
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           "1 Pers.",
@@ -31,10 +28,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#672773",
-      "marker": {
-        "enabled": true
-      },
+      "color": "#2B0099",
       "data": [
         [
           "1 Pers.",
@@ -59,6 +53,33 @@
       ],
       "name": "Familienhaushalte",
       "turboThreshold": 0
+    },
+    {
+      "color": "#007A2F",
+      "data": [
+        [
+          "1 Pers.",
+          null
+        ],
+        [
+          "2 Pers.",
+          39.54
+        ],
+        [
+          "3 Pers.",
+          28.42
+        ],
+        [
+          "4 Pers.",
+          24.59
+        ],
+        [
+          "5 u. m. Pers.",
+          21.12
+        ]
+      ],
+      "name": "Nichtfamilienhaushalt",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -74,10 +95,10 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "rotation": 0
     },
-    "tickLength": 0,
-    "tickInterval": 1
+    "tickLength": 0
   },
   "chart": {
     "borderColor": "#fbfbfb",
@@ -105,6 +126,8 @@
             }
           }
     },
+    "type": "column",
+    "inverted": false,
     "renderTo": "container-6364"
   },
   "plotOptions": {
@@ -114,14 +137,9 @@
         "style": {
           "fontSize": "10px"
         }
-      }
-    },
-    "line": {
-      "connectNulls": true,
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
+      },
+      "pointPadding": 0,
+      "itemWidth": 10
     }
   },
   "title": {
@@ -131,6 +149,7 @@
       "color": "#000000"
     },
     "align": "left",
+    "useHTML": true,
     "text": "Mittlere Wohnfläche pro Anzahl Personen im Haushalt"
   },
   "subtitle": {
@@ -140,8 +159,9 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
-    "align": "left"
+    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E",
+    "align": "left",
+    "useHTML": true
   },
   "yAxis": {
     "gridLineColor": "#B9CFD7",
@@ -159,7 +179,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "max": 100
   },
   "navigation": {
     "menuItemStyle": {
@@ -185,19 +206,18 @@
   "legend": {
     "symbolRadius": 0,
     "enabled": true,
-    "x": 25,
-    "itemWidth": 200,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
     "align": "left",
+    "y": 35,
+    "itemWidth": 300,
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}  m²\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "exporting": {
     "filename": ""
