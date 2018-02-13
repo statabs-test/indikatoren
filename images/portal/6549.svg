@@ -47,14 +47,14 @@
   <g class="highcharts-series-group">
     <g class="highcharts-series highcharts-series-0 highcharts-bubble-series highcharts-color-0 " transform="translate(66,41) scale(1 1)" clip-path="url(#a)">
       <path fill="rgb(176, 0, 0)" d="M 344 44 A 29 29 0 1 1 343.99998550000123 43.971000004833314 Z" stroke="rgb(176, 0, 0)" stroke-width="1" class="highcharts-point highcharts-color-0"/>
-      <path fill="rgb(250, 189, 36)" d="M 71 178.5 A 20.5 20.5 0 1 1 70.99998975000085 178.47950000341666 Z" stroke="rgb(250, 189, 36)" stroke-width="1" class="highcharts-point highcharts-color-0"/>
+      <path fill="rgb(255, 128, 40)" d="M 71 178.5 A 20.5 20.5 0 1 1 70.99998975000085 178.47950000341666 Z" stroke="rgb(255, 128, 40)" stroke-width="1" class="highcharts-point highcharts-color-0"/>
       <path fill="rgb(115, 186, 124)" d="M 336 211.5 A 17.5 17.5 0 1 1 335.99999125000073 211.48250000291665 Z" stroke="rgb(115, 186, 124)" stroke-width="1" class="highcharts-point highcharts-color-0"/>
       <path fill="rgb(180, 117, 171)" d="M 181 233 A 15 15 0 1 1 180.99999250000062 232.9850000025 Z" stroke="rgb(180, 117, 171)" stroke-width="1" class="highcharts-point highcharts-color-0"/>
       <path fill="rgb(8, 161, 217)" d="M 232 256.5 A 11.5 11.5 0 1 1 231.99999425000047 256.48850000191663 Z" stroke="rgb(8, 161, 217)" stroke-width="1" class="highcharts-point highcharts-color-0"/>
       <path fill="rgb(131, 82, 46)" d="M 187 261 A 11 11 0 1 1 186.99999450000047 260.98900000183335 Z" stroke="rgb(131, 82, 46)" stroke-width="1" class="highcharts-point highcharts-color-0"/>
       <path fill="rgb(255, 232, 70)" d="M 405 270.5 A 8.5 8.5 0 1 1 404.9999957500004 270.4915000014167 Z" stroke="rgb(255, 232, 70)" stroke-width="1" class="highcharts-point highcharts-color-0"/>
-      <path fill="rgb(143, 176, 140)" d="M 82 273 A 8 8 0 1 1 81.99999600000034 272.99200000133334 Z" stroke="rgb(143, 176, 140)" stroke-width="1" class="highcharts-point highcharts-color-0"/>
-      <path fill="rgb(255, 133, 43)" d="M 397 277 A 4 4 0 1 1 396.9999980000002 276.99600000066664 Z" stroke="rgb(255, 133, 43)" stroke-width="1" class="highcharts-point highcharts-color-0"/>
+      <path fill="rgb(60, 60, 60)" d="M 82 273 A 8 8 0 1 1 81.99999600000034 272.99200000133334 Z" stroke="rgb(60, 60, 60)" stroke-width="1" class="highcharts-point highcharts-color-0"/>
+      <path fill="rgb(103, 39, 115)" d="M 397 277 A 4 4 0 1 1 396.9999980000002 276.99600000066664 Z" stroke="rgb(103, 39, 115)" stroke-width="1" class="highcharts-point highcharts-color-0"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-bubble-series highcharts-color-0 " transform="translate(66,41) scale(1 1)" clip-path="none"/>
   </g>
@@ -62,49 +62,49 @@
     <tspan>Wachstumsbeiträge der Top-Märkte</tspan>
   </text>
   <g class="highcharts-data-labels highcharts-series-0 highcharts-bubble-series highcharts-color-0 " visibility="visible" transform="translate(66,41) scale(1 1)">
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-0 " style="text-shadow:none;" transform="translate(297,-1)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-0 " style="text-shadow:none;" transform="translate(288,4)">
       <text x="0" style="font-size:10;font-weight:normal;color:black;fill:black;" y="10">
-        <tspan x="0" y="10" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">Schweiz</tspan><tspan x="0" y="10">Schweiz</tspan>
+        <tspan x="0" y="10" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">CH</tspan><tspan x="0" y="10">CH</tspan>
       </text>
     </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-0 " style="text-shadow:none;" transform="translate(23,142)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-0 " style="text-shadow:none;" transform="translate(24,147)">
       <text x="0" style="font-size:10;font-weight:normal;color:black;fill:black;" y="10">
-        <tspan x="0" y="10" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">Deutschland</tspan><tspan x="0" y="10">Deutschland</tspan>
+        <tspan x="0" y="10" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">DE</tspan><tspan x="0" y="10">DE</tspan>
       </text>
     </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-0 " style="text-shadow:none;" transform="translate(296,170)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-0 " style="text-shadow:none;" transform="translate(291,182)">
       <text x="0" style="font-size:10;font-weight:normal;color:black;fill:black;" y="10">
-        <tspan x="0" y="10" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">Vereinigte</tspan><tspan x="0" dy="15" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">Staaten</tspan><tspan x="0" y="10">Vereinigte</tspan><tspan x="0" dy="15">Staaten</tspan>
+        <tspan x="0" y="10" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">US</tspan><tspan x="0" y="10">US</tspan>
       </text>
     </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-0 " style="text-shadow:none;" transform="translate(142,194)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-0 " style="text-shadow:none;" transform="translate(139,207)">
       <text x="0" style="font-size:10;font-weight:normal;color:black;fill:black;" y="10">
-        <tspan x="0" y="10" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">Vereinigtes</tspan><tspan x="0" dy="15" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">Königreich</tspan><tspan x="0" y="10">Vereinigtes</tspan><tspan x="0" dy="15">Königreich</tspan>
+        <tspan x="0" y="10" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">GB</tspan><tspan x="0" y="10">GB</tspan>
       </text>
     </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-0 " style="text-shadow:none;" transform="translate(197,228)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-0 " style="text-shadow:none;" transform="translate(194,233)">
       <text x="0" style="font-size:10;font-weight:normal;color:black;fill:black;" y="10">
-        <tspan x="0" y="10" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">Frankreich</tspan><tspan x="0" y="10">Frankreich</tspan>
+        <tspan x="0" y="10" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">FR</tspan><tspan x="0" y="10">FR</tspan>
       </text>
     </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-0 " style="text-shadow:none;" transform="translate(163,234)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-0 " style="text-shadow:none;" transform="translate(152,239)">
       <text x="0" style="font-size:10;font-weight:normal;color:black;fill:black;" y="10">
-        <tspan x="0" y="10" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">Italien</tspan><tspan x="0" y="10">Italien</tspan>
+        <tspan x="0" y="10" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">IT</tspan><tspan x="0" y="10">IT</tspan>
       </text>
     </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-0 " style="text-shadow:none;" transform="translate(378,246)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-0 " style="text-shadow:none;" transform="translate(370,251)">
       <text x="0" style="font-size:10;font-weight:normal;color:black;fill:black;" y="10">
-        <tspan x="0" y="10" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">Spanien</tspan><tspan x="0" y="10">Spanien</tspan>
+        <tspan x="0" y="10" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">ES</tspan><tspan x="0" y="10">ES</tspan>
       </text>
     </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-0 " style="text-shadow:none;" transform="translate(47,248)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-0 " style="text-shadow:none;" transform="translate(48,253)">
       <text x="0" style="font-size:10;font-weight:normal;color:black;fill:black;" y="10">
-        <tspan x="0" y="10" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">Niederlande</tspan><tspan x="0" y="10">Niederlande</tspan>
+        <tspan x="0" y="10" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">NL</tspan><tspan x="0" y="10">NL</tspan>
       </text>
     </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-0 " style="text-shadow:none;" transform="translate(352,249)" opacity="0" visibility="hidden">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-0 " style="text-shadow:none;" transform="translate(367,262)">
       <text x="0" style="font-size:10;font-weight:normal;color:black;fill:black;" y="10">
-        <tspan x="0" y="10" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">China,</tspan><tspan x="0" dy="15" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">Hongkong, Taiwan</tspan><tspan x="0" y="10">China,</tspan><tspan x="0" dy="15">Hongkong, Taiwan</tspan>
+        <tspan x="0" y="10" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">CN</tspan><tspan x="0" y="10">CN</tspan>
       </text>
     </g>
   </g>

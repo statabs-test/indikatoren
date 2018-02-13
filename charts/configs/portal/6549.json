@@ -6,64 +6,64 @@
           "x": 22.91,
           "y": 424,
           "z": 31.9,
-          "name": "Schweiz",
+          "name": "CH",
           "color": "rgb(176, 0, 0)"
         },
         {
           "x": 3.7,
           "y": 192,
           "z": 14.5,
-          "name": "Deutschland",
-          "color": "rgb(250, 189, 36)"
+          "name": "DE",
+          "color": "rgb(255, 128, 40)"
         },
         {
           "x": 23.1,
           "y": 136,
           "z": 10.3,
-          "name": "Vereinigte Staaten",
+          "name": "US",
           "color": "rgb(115, 186, 124)"
         },
         {
           "x": 12.1,
           "y": 98,
           "z": 7.4,
-          "name": "Vereinigtes Königreich",
+          "name": "GB",
           "color": "rgb(180, 117, 171)"
         },
         {
           "x": 16,
           "y": 58,
           "z": 4.4,
-          "name": "Frankreich",
+          "name": "FR",
           "color": "rgb(8, 161, 217)"
         },
         {
           "x": 12.8,
           "y": 50,
           "z": 3.8,
-          "name": "Italien",
+          "name": "IT",
           "color": "rgb(131, 82, 46)"
         },
         {
           "x": 28.8,
           "y": 33,
           "z": 2.5,
-          "name": "Spanien",
+          "name": "ES",
           "color": "rgb(255, 232, 70)"
         },
         {
           "x": 5.4,
           "y": 30,
           "z": 2.3,
-          "name": "Niederlande",
-          "color": "rgb(143, 176, 140)"
+          "name": "NL",
+          "color": "rgb(60, 60, 60)"
         },
         {
           "x": 28.6,
           "y": 22,
           "z": 1.7,
-          "name": "China, Hongkong, Taiwan",
-          "color": "rgb(255, 133, 43)"
+          "name": "CN",
+          "color": "rgb(103, 39, 115)"
         }
       ],
       "name": "Herkunftsland"
@@ -203,11 +203,13 @@
                         return this.key.replace(" ", "<br/>");// + ': ' + this.point.z + '%';
                     },
         "inside": false,
-        "y": -10,
+        "y": -5,
         "padding": 0,
         "overflow": false,
         "crop": false,
-        "enabled": true
+        "enabled": true,
+        "x": -20,
+        "allowOverlap": true
       }
     }
   },
