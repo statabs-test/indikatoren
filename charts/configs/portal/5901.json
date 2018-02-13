@@ -296,7 +296,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "marginBottom": 65,
+    "marginBottom": 75,
     "alignTicks": false,
     "renderTo": "container-5901"
   },
@@ -368,7 +368,7 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 2
+    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
