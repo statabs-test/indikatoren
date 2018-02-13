@@ -145,7 +145,8 @@
           "fontSize": "10px"
         }
       },
-      "stacking": null
+      "stacking": null,
+      "pointPadding": 0
     }
   },
   "title": {

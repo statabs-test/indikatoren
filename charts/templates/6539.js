@@ -6,10 +6,10 @@
     return {
     series: [
         {
-            color: "rgb(231, 207, 226)",
+            color: "rgb(255, 218, 128)",
         },
         {
-            color: "rgb(180, 117, 171)",
+            color: "rgb(186, 168, 90)",
         },
         {
             color: "rgb(220, 68, 14)",
@@ -77,7 +77,11 @@
     ],
   plotOptions: {
     series: {
-        stacking: null
+        stacking: null,
+        pointPadding: 0,
+        borderWidth: 0,
+        //pointWidth: 10, 
+
     }, 
     scatter: {
         yAxis: 1,

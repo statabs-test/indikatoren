@@ -24,9 +24,12 @@
       "type": "category"
   },
   plotOptions: {
-    series: {
-        stacking: null
-    }
+     series: {
+        stacking: null,
+        pointPadding: 0,
+        borderWidth: 0,
+        //pointWidth: 10, 
+    }, 
   },
   legend: {
     y: 35,

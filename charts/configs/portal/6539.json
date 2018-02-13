@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "rgb(231, 207, 226)",
+      "color": "rgb(255, 218, 128)",
       "data": [
         [
           "1- und 2-Sterne",
@@ -24,7 +24,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "rgb(180, 117, 171)",
+      "color": "rgb(186, 168, 90)",
       "data": [
         [
           "1- und 2-Sterne",
@@ -162,7 +162,8 @@
           "fontSize": "10px"
         }
       },
-      "stacking": null
+      "stacking": null,
+      "pointPadding": 0
     },
     "scatter": {
       "yAxis": 1,

@@ -40,19 +40,19 @@
   </g>
   <g class="highcharts-series-group">
     <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(43,87) scale(1 1)" clip-path="url(#a)">
-      <rect x="20" y="179" width="21" height="99" fill="rgb(231, 207, 226)" class="highcharts-point"/>
-      <rect x="106" y="172" width="21" height="106" fill="rgb(231, 207, 226)" class="highcharts-point"/>
-      <rect x="193" y="21" width="21" height="257" fill="rgb(231, 207, 226)" class="highcharts-point"/>
-      <rect x="279" y="242" width="21" height="36" fill="rgb(231, 207, 226)" class="highcharts-point"/>
-      <rect x="365" y="159" width="21" height="119" fill="rgb(231, 207, 226)" class="highcharts-point"/>
+      <rect x="17" y="179" width="26" height="99" fill="rgb(231, 207, 226)" class="highcharts-point"/>
+      <rect x="104" y="172" width="26" height="106" fill="rgb(231, 207, 226)" class="highcharts-point"/>
+      <rect x="190" y="21" width="26" height="257" fill="rgb(231, 207, 226)" class="highcharts-point"/>
+      <rect x="276" y="242" width="26" height="36" fill="rgb(231, 207, 226)" class="highcharts-point"/>
+      <rect x="363" y="159" width="26" height="119" fill="rgb(231, 207, 226)" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(43,87) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(43,87) scale(1 1)" clip-path="url(#a)">
-      <rect x="46" y="115" width="21" height="163" fill="rgb(180, 117, 171)" class="highcharts-point"/>
-      <rect x="132" y="140" width="21" height="138" fill="rgb(180, 117, 171)" class="highcharts-point"/>
-      <rect x="219" y="63" width="21" height="215" fill="rgb(180, 117, 171)" class="highcharts-point"/>
-      <rect x="305" y="214" width="21" height="64" fill="rgb(180, 117, 171)" class="highcharts-point"/>
-      <rect x="391" y="129" width="21" height="149" fill="rgb(180, 117, 171)" class="highcharts-point"/>
+      <rect x="43" y="115" width="26" height="163" fill="rgb(180, 117, 171)" class="highcharts-point"/>
+      <rect x="130" y="140" width="26" height="138" fill="rgb(180, 117, 171)" class="highcharts-point"/>
+      <rect x="216" y="63" width="26" height="215" fill="rgb(180, 117, 171)" class="highcharts-point"/>
+      <rect x="302" y="214" width="26" height="64" fill="rgb(180, 117, 171)" class="highcharts-point"/>
+      <rect x="389" y="129" width="26" height="149" fill="rgb(180, 117, 171)" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(43,87) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-2 highcharts-scatter-series highcharts-color-undefined " transform="translate(43,87) scale(1 1)" clip-path="url(#a)"/>

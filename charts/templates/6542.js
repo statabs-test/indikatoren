@@ -57,10 +57,10 @@
   },
   
   data: {
-      //only keep first and last year
+      //only keep second last and last year
       parsed: function(columns){
             columns.forEach(function(column, i, arr){
-                column.splice(2, column.length-3);
+                column.splice(1, column.length-3);
             });
       }
   },

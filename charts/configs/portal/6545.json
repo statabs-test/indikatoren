@@ -278,7 +278,8 @@
         "style": {
           "fontSize": "10px"
         }
-      }
+      },
+      "pointPadding": 0
     },
     "column": {
       "stacking": "normal"

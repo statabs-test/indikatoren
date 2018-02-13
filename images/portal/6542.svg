@@ -37,22 +37,22 @@
   </g>
   <g class="highcharts-series-group">
     <g class="highcharts-series highcharts-series-0 highcharts-bar-series highcharts-color-undefined " transform="translate(475,364) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
-      <rect x="36" y="406" width="67" height="21" fill="rgb(237, 226, 208)" class="highcharts-point"/>
+      <rect x="36" y="355" width="67" height="72" fill="rgb(237, 226, 208)" class="highcharts-point"/>
       <rect x="175" y="344" width="67" height="83" fill="rgb(237, 226, 208)" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-bar-series highcharts-color-undefined " transform="translate(475,364) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-1 highcharts-bar-series highcharts-color-undefined " transform="translate(475,364) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
-      <rect x="36" y="318" width="67" height="88" fill="rgb(197, 171, 146)" class="highcharts-point"/>
+      <rect x="36" y="228" width="67" height="127" fill="rgb(197, 171, 146)" class="highcharts-point"/>
       <rect x="175" y="196" width="67" height="148" fill="rgb(197, 171, 146)" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-1 highcharts-bar-series highcharts-color-undefined " transform="translate(475,364) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-2 highcharts-bar-series highcharts-color-undefined " transform="translate(475,364) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
-      <rect x="36" y="204" width="67" height="114" fill="rgb(159, 124, 90)" class="highcharts-point"/>
+      <rect x="36" y="90" width="67" height="138" fill="rgb(159, 124, 90)" class="highcharts-point"/>
       <rect x="175" y="53" width="67" height="143" fill="rgb(159, 124, 90)" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-2 highcharts-bar-series highcharts-color-undefined " transform="translate(475,364) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-3 highcharts-bar-series highcharts-color-undefined " transform="translate(475,364) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
-      <rect x="36" y="174" width="67" height="30" fill="rgb(138, 138, 138)" class="highcharts-point"/>
+      <rect x="36" y="70" width="67" height="20" fill="rgb(138, 138, 138)" class="highcharts-point"/>
       <rect x="175" y="16" width="67" height="37" fill="rgb(138, 138, 138)" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-3 highcharts-bar-series highcharts-color-undefined " transform="translate(475,364) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
@@ -61,9 +61,9 @@
     <tspan>Angebotene Betten nach Hotelkategorie</tspan>
   </text>
   <g class="highcharts-data-labels highcharts-series-0 highcharts-bar-series highcharts-color-undefined " visibility="visible" transform="translate(49,86) scale(1 1)">
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(-4,197)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(17,197)">
       <text x="5" style="font-size:11px;font-weight:normal;color:black;fill:black;" y="16">
-        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">435</tspan><tspan x="5" y="16">435</tspan>
+        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">1 528</tspan><tspan x="5" y="16">1 528</tspan>
       </text>
     </g>
     <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(22,58)">
@@ -73,9 +73,9 @@
     </g>
   </g>
   <g class="highcharts-data-labels highcharts-series-1 highcharts-bar-series highcharts-color-undefined " visibility="visible" transform="translate(49,86) scale(1 1)">
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(45,197)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(116,197)">
       <text x="5" style="font-size:11px;font-weight:normal;color:black;fill:black;" y="16">
-        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">1 862</tspan><tspan x="5" y="16">1 862</tspan>
+        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">2 678</tspan><tspan x="5" y="16">2 678</tspan>
       </text>
     </g>
     <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(137,58)">
@@ -85,9 +85,9 @@
     </g>
   </g>
   <g class="highcharts-data-labels highcharts-series-2 highcharts-bar-series highcharts-color-undefined " visibility="visible" transform="translate(49,86) scale(1 1)">
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(146,197)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(248,197)">
       <text x="5" style="font-size:11px;font-weight:normal;color:black;fill:black;" y="16">
-        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">2 423</tspan><tspan x="5" y="16">2 423</tspan>
+        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">2 913</tspan><tspan x="5" y="16">2 913</tspan>
       </text>
     </g>
     <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(283,58)">
@@ -97,9 +97,9 @@
     </g>
   </g>
   <g class="highcharts-data-labels highcharts-series-3 highcharts-bar-series highcharts-color-undefined " visibility="visible" transform="translate(49,86) scale(1 1)">
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(223,197)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(332,197)">
       <text x="5" style="font-size:11px;font-weight:normal;color:black;fill:black;" y="16">
-        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">623</tspan><tspan x="5" y="16">623</tspan>
+        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">423</tspan><tspan x="5" y="16">423</tspan>
       </text>
     </g>
     <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(377,58)">
@@ -141,7 +141,7 @@
   </g>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
     <text x="34" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="299" opacity="1">
-      <tspan>2008</tspan>
+      <tspan>2016</tspan>
     </text>
     <text x="34" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="160" opacity="1">
       <tspan>2017</tspan>
