@@ -14,8 +14,8 @@
   },
   yAxis: 
     {
-      min: 1.25, 
-      max: 3.25,
+      min: 0, 
+      //max: 3.25,
       gridLineColor: '#B9CFD7', 
       gridLineWidth: 0.5,
       title: {
@@ -26,7 +26,7 @@
         text: null
       },
       labels: {
-  		  format: "{value:,.1f}", 
+  		  format: "{value:,.0f}", 
         style: {
           color: "#000000"
         }
