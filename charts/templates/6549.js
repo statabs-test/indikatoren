@@ -26,15 +26,27 @@
           	//column value
           	else {
               switch (val){
-              	case 'Schweiz': val = 'rgb(176, 0, 0)'; break;
-              	case 'Deutschland': val = 'rgb(250, 189, 36)'; break;
+              	/*case 'Schweiz': val = 'rgb(176, 0, 0)'; break;
+              	case 'Deutschland': val = 'rgb(255, 128, 40)'; break;
               	case 'Vereinigte Staaten': val = 'rgb(115, 186, 124)'; break;
               	case 'Vereinigtes Königreich': val = 'rgb(180, 117, 171)'; break;
               	case 'Frankreich': val = 'rgb(8, 161, 217)'; break;
               	case 'Italien': val = 'rgb(131, 82, 46)'; break;
               	case 'Spanien': val = 'rgb(255, 232, 70)'; break;
-              	case 'Niederlande': val = 'rgb(143, 176, 140)'; break;
-              	case 'China, Hongkong, Taiwan': val = 'rgb(255, 133, 43)'; break;
+              	case 'Niederlande': val = 'rgb(60, 60, 60)'; break;
+              	case 'China, Hongkong, Taiwan': val = 'rgb(103, 39, 115)'; break;*/
+              	
+              	case 'CH': val = 'rgb(176, 0, 0)'; break;
+              	case 'DE': val = 'rgb(255, 128, 40)'; break;
+              	case 'US': val = 'rgb(115, 186, 124)'; break;
+              	case 'GB': val = 'rgb(180, 117, 171)'; break;
+              	case 'FR': val = 'rgb(8, 161, 217)'; break;
+              	case 'IT': val = 'rgb(131, 82, 46)'; break;
+              	case 'ES': val = 'rgb(255, 232, 70)'; break;
+              	case 'NL': val = 'rgb(60, 60, 60)'; break;
+              	case 'Grosschina': val = 'rgb(103, 39, 115)'; break;
+              	
+              	
               	//default: val = 'black';
           		}
           	}
@@ -56,7 +68,32 @@
       	title: {
       		text: 'Logiernächte 2017 in Tausend'
       	}
-      }
+      },
+	plotOptions: {
+    	    series: {
+
+    	    },
+    	    bubble: {
+    	        label: {
+    	            enabled: true
+    	        },
+                dataLabels: {
+                	x:-20,
+                	y:-5,
+                	allowOverlap: true,
+                	//padding: 50,
+                	//borderRadius:100,
+                	//overflow: "none",
+                	//crop: false,
+                    style: {
+                        fontSize: 10,
+                        color: 'black',
+                        fontWeight: 'normal',
+                        textShadow: 'none',
+                        },
+                },
+    	   },
+    },
     };
 }());
 
