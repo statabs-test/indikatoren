@@ -50,9 +50,9 @@
             color: 'rgb(168, 196, 203)', index: 0,legendIndex:1,
         }
   ],  
-  "tooltip": {
-    //"shared": true
-  },
+     tooltip: {
+         pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y} ({point.percentage:.1f}%)</b><br/>'
+     }, 
 };
 }());
 
