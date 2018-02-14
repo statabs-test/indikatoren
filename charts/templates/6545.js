@@ -53,6 +53,10 @@
       },
       "chart": {      
         "type": "column"
-      }
+      },
+	tooltip: {
+           //headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
+           pointFormat: '<span style="color:{point.color}">●</span> {series.name}: <b>{point.y:,.0f}</b><br/>'    
+            }
 	};
 }());
