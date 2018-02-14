@@ -78,8 +78,14 @@
     	            enabled: true
     	        },
                 dataLabels: {
+               /*formatter: function() {
+               //only return last word
+    		   return this.name.split(" ").slice(-1);
+    		   //return Highcharts.numberFormat(this.point.y, 0, ",", " ") // I dont't want to display a number but a character
+        		},*/
                 	x:-20,
                 	y:-5,
+                	
                 	allowOverlap: true,
                 	//padding: 50,
                 	//borderRadius:100,
