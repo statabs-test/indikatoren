@@ -119,7 +119,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil Kinder mit Verpflichtung zur Frühdeutschförderung"
+    "text": "Anteil Kinder mit Verpflichtung zur Frühdeutschförderung nach Staatsangehörigkeit (Ländergruppen)"
   },
   "subtitle": {
     "style": {
@@ -128,7 +128,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Ländergruppen, Stand: 2016",
     "align": "left"
   },
   "yAxis": {
@@ -166,9 +166,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -25
     },
-    "text": "Quelle: "
+    "text": "Quelle: Bevölkerungsdienste und Migration Basel-Stadt;\u003Cbr\u002F\u003EZentrale Informatikdienste Basel-Stadt ZID"
   },
   "legend": {
     "symbolRadius": 0,

@@ -98,7 +98,7 @@
     <tspan>Mittelwert des Reinvermögens pro Veranlagung nach</tspan><tspan dy="17" x="10">Staatsangehörigkeit (Ländergruppen)</tspan><title>Mittelwert des Reinvermögens pro Veranlagung nach Staatsangehörigkeit (Ländergruppen)</title>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="57">
-    <tspan>2005 und 2014</tspan>
+    <tspan>Ländergruppen</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(57,65)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="296" height="53" visibility="visible"/>
@@ -186,7 +186,7 @@
       <tspan>1 800</tspan>
     </text>
   </g>
-  <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="410">
-    <tspan>Quelle:</tspan>
+  <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="400">
+    <tspan>Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik</tspan>
   </text>
 </svg>

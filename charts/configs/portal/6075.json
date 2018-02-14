@@ -897,7 +897,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil der in der Schweiz geborenen Ausländer nach Staatsangehörigkeit (Ländergruppen) 1997-2016"
+    "text": "Anteil der in der Schweiz geborenen Ausländer nach Staatsangehörigkeit (Ländergruppen)"
   },
   "subtitle": {
     "style": {
@@ -906,7 +906,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Ländergruppen",
     "align": "left"
   },
   "tooltip": {

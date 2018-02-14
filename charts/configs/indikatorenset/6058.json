@@ -231,7 +231,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Bevölkerung nach Staatsangehörigkeit (CH\u002FA) 1997-2016"
+    "text": "Bevölkerung nach Staatsangehörigkeit (CH\u002FA)"
   },
   "subtitle": {
     "style": {
@@ -240,7 +240,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Schweiz vs. Ausland",
     "align": "left"
   },
   "tooltip": {
@@ -276,9 +276,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: "
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
   },
   "legend": {
     "enabled": true,

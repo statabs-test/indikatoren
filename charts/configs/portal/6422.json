@@ -196,7 +196,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit (CH\u002FA), Geschlecht und Kaderstufe 2016"
+    "text": "Anteil Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit (CH\u002FA), Geschlecht und Kaderstufe"
   },
   "subtitle": {
     "style": {
@@ -205,7 +205,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Schweiz vs. Ausland, Stand: 2016",
     "align": "left"
   },
   "yAxis": {
@@ -243,9 +243,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -25
     },
-    "text": "Quelle: "
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EFinanzdepartement Basel-Stadt, Zentraler Personaldienst"
   },
   "legend": {
     "symbolRadius": 0,

@@ -305,7 +305,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "2002 - 2014, 3-Jahres-Pooling",
+    "text": "Schweiz vs. Ausland, 2002 bis 2014, 3-Jahres-Pooling",
     "align": "left"
   },
   "yAxis": {
@@ -345,9 +345,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: "
+    "text": "Quelle: Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)"
   },
   "legend": {
     "symbolRadius": 0,

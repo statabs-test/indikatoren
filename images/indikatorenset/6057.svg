@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 6.0.4
+    Created with Highstock 5.0.14
   </desc>
   <defs>
     <clipPath>
@@ -52,10 +52,10 @@
     <path fill="none" class="highcharts-axis-line" d="M 37 41 L 37 336"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-line-series " transform="translate(37,41) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(37,41) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 4.29411764706 98.035875 L 26.894736842106 96.28800000000001 L 49.495356037153 92.32762499999998 L 72.095975232199 91.77449999999999 L 94.696594427245 88.33775 L 117.29721362229 82.14275 L 139.89783281734 77.94637499999999 L 162.49845201238 74.23675 L 185.09907120743 70.600875 L 207.69969040248 65.35725 L 230.30030959752 64.44274999999999 L 252.90092879257 61.035499999999985 L 275.50154798762 55.65174999999999 L 298.10216718266 54.25050000000002 L 320.70278637771 48.89625000000001 L 343.30340557275 45.201374999999985 L 365.9040247678 40.11262500000001 L 388.50464396285 36.823375 L 411.10526315789 34.758375 L 433.70588235294 31.535500000000013" class="highcharts-graph" stroke="#cd9c00" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-line-series " transform="translate(37,41) scale(1 1)" clip-path="none">
+    <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(37,41) scale(1 1)" clip-path="none">
       <path fill="#cd9c00" d="M 8 98 A 4 4 0 1 1 7.999998000000167 97.99600000066667 Z" class="highcharts-point"/>
       <path fill="#cd9c00" d="M 30 96 A 4 4 0 1 1 29.99999800000017 95.99600000066667 Z" class="highcharts-point"/>
       <path fill="#cd9c00" d="M 53 92 A 4 4 0 1 1 52.99999800000017 91.99600000066667 Z" class="highcharts-point"/>
@@ -79,10 +79,9 @@
     </g>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Ausländeranteil seit 1997</tspan>
+    <tspan>Ausländeranteil</tspan>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="40"/>
-  <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series " visibility="visible" transform="translate(37,41) scale(1 1)">
+  <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined " visibility="visible" transform="translate(37,41) scale(1 1)">
     <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(-5,115)">
       <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16">
         <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">26,7</tspan><tspan x="5" y="16">26,7</tspan>
@@ -227,7 +226,7 @@
       <tspan>40</tspan>
     </text>
   </g>
-  <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="410">
-    <tspan>Quelle:</tspan>
+  <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="400">
+    <tspan>Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik</tspan>
   </text>
 </svg>

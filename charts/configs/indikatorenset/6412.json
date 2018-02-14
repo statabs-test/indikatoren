@@ -1312,7 +1312,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Monatlich ausgesteuerte Schweizer nach Geschlecht 2004-2016"
+    "text": "Monatlich ausgesteuerte Schweizer nach Geschlecht"
   },
   "subtitle": {
     "style": {
@@ -1358,9 +1358,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: "
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
   },
   "legend": {
     "enabled": true,

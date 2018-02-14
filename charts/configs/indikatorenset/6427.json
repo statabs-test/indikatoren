@@ -807,7 +807,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Sozialhilfequote nach Staatsangehörigkeit (Ländergruppen) 2001-2016"
+    "text": "Sozialhilfequote nach Staatsangehörigkeit (Ländergruppen)"
   },
   "subtitle": {
     "style": {
@@ -816,7 +816,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Ländergruppen",
     "align": "left"
   },
   "tooltip": {
@@ -864,9 +864,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: "
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
   },
   "legend": {
     "enabled": true,

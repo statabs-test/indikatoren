@@ -568,9 +568,9 @@ id | visible | visibleInPortal | indikatorenset
 6476 | true | true | Integration
 6477 | true | true | Integration
 6478 | true | true | Integration
-6479 | true | true | Integration
+6479 | true | false | Integration
 6480 | true | true | Integration
-6481 | true | true | Integration
+6481 | false |  | Integration
 6482 | true | true | Integration
 6483 | true | true | Integration
 6484 | true | true | Integration
@@ -583,11 +583,21 @@ id | visible | visibleInPortal | indikatorenset
 6492 | true | true | Integration
 6493 | true | true | Integration
 6494 | true | true | Integration
-6495 | true | false | Integration
-6496 | true | false | Integration
+6495 | true | true | Integration
+6496 | true | true | Integration
 6499 | true | true | Integration
+6504 | true | true | Integration
+6507 | true | true | Integration
+6508 | true | true | Integration
+6509 | true | true | Integration
+6510 | true | true | Integration
+6511 | true | true | Integration
+6512 | true | true | Integration
+6513 | true | true | Integration
 6514 | true | true | Integration
 6515 | true | true | Integration
+6516 | true | true | Integration
+6517 | true | true | Integration
 6570 | true | true | Integration
 9998 | true | false | Test
 9999 | true | false | Test

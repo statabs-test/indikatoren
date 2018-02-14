@@ -97,7 +97,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Übrige Ausländer nach einzenen Staatsangehörigkeiten 2016"
+    "text": "Übrige Ausländer nach einzenen Staatsangehörigkeiten"
   },
   "subtitle": {
     "style": {
@@ -106,7 +106,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "nach einzelnen Staatsangehörigkeiten, Stand: 2016",
     "align": "left"
   },
   "tooltip": {
@@ -125,9 +125,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: "
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
   },
   "legend": {
     "layout": "vertical",

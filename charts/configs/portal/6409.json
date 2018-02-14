@@ -173,7 +173,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Bevölkerungspyramide der Arbeitslosenquote der Ausländer nach Geschlecht 2016"
+    "text": "Bevölkerungspyramide der Arbeitslosenquote der Ausländer nach Geschlecht"
   },
   "subtitle": {
     "style": {
@@ -182,7 +182,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Stand: 2016",
     "align": "left"
   },
   "yAxis": [
@@ -232,9 +232,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -25
     },
-    "text": "Quelle: "
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
   },
   "legend": {
     "symbolRadius": 0,

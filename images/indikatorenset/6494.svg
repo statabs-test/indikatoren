@@ -144,6 +144,9 @@
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Anerkannte Religionen nach Staatsangehörigkeit</tspan><tspan dy="17" x="10">(Ländergruppen)</tspan><title>Anerkannte Religionen nach Staatsangehörigkeit (Ländergruppen)</title>
   </text>
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="57">
+    <tspan>Ländergruppen, Stand: 2016</tspan>
+  </text>
   <g class="highcharts-legend" transform="translate(45,40)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="286" height="67" visibility="visible"/>
     <g>
@@ -239,7 +242,7 @@
       <tspan>100%</tspan>
     </text>
   </g>
-  <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="410">
-    <tspan>Quelle:</tspan>
+  <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="400">
+    <tspan>Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik</tspan>
   </text>
 </svg>

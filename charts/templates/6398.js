@@ -94,8 +94,9 @@
 	                            pointFormatter: function () {
 	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),1) + '  </b><br/>';
 	                            
-	                        }
-	                    };
+	                        },
+	                    },
+					}
 					};
 					 var pieSizeCatConfig;
 					//put the pies / bubbles on the map

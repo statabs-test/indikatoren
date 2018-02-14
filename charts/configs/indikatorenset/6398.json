@@ -3679,9 +3679,10 @@
 	                        tooltip: {
 	                            pointFormatter: function () {
 	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),1) + '  </b><br/>';
-	                            }
-	                        }
-	                    };
+	                            
+	                        },
+	                    },
+					}
 					};
 					 var pieSizeCatConfig;
 					//put the pies / bubbles on the map
@@ -3719,7 +3720,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Ausländeranteil nach Gemeinde\u002FWohnviertel 2016 und Veränderung seit 1997"
+    "text": "Ausländeranteil nach Gemeinde und Wohnviertel"
   },
   "subtitle": {
     "style": {
@@ -3728,7 +3729,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Stand: 2016 und Veränderung seit 1997",
     "align": "left"
   },
   "credits": {
@@ -3742,9 +3743,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: "
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
   },
   "colorAxis": {
     "min": 0,

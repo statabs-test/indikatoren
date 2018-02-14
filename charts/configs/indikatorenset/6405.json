@@ -113,7 +113,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Bei der Arbeit gesprochene Sprachen nach Migrationsstatus, gepoolte Daten 2011-2015Kürzel"
+    "text": "Bei der Arbeit gesprochene Sprachen nach Migrationsstatus"
   },
   "subtitle": {
     "style": {
@@ -122,7 +122,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "gepoolte Daten 2011 \u002F-2015",
     "align": "left"
   },
   "yAxis": {
@@ -161,9 +161,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: "
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
   },
   "legend": {
     "symbolRadius": 0,

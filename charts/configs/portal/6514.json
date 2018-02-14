@@ -156,7 +156,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Ausgestellte und eingelöste Gutscheine für Gratis-Deutschkurse"
+    "text": "Ausgestellte und eingelöste Gutscheine für Gratis-Deutschkurse nach Staatsangehörigkeit (Ländergruppen)"
   },
   "subtitle": {
     "style": {
@@ -165,7 +165,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Ländergruppen, Stand: 2016",
     "align": "left"
   },
   "yAxis": {
@@ -203,9 +203,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -25
     },
-    "text": "Quelle: "
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Erwachsenenbildung;\u003Cbr\u002F\u003EBevölkerungsdienste und Migration Basel-Stadt"
   },
   "legend": {
     "symbolRadius": 0,

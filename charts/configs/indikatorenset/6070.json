@@ -1289,7 +1289,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil Ausländer nach Alter 1997, 2006, 2016"
+    "text": "Anteil Ausländer nach Alter"
   },
   "subtitle": {
     "style": {
@@ -1336,9 +1336,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: "
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik"
   },
   "legend": {
     "enabled": true,

@@ -457,7 +457,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "IV-Quote nach Staatsangehörigkeit (Top 6 der IV-Bezüger) 2001-2016"
+    "text": "IV-Quote nach Staatsangehörigkeit (Top 6 der IV-Bezüger)"
   },
   "subtitle": {
     "style": {
@@ -466,7 +466,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Top 6 der IV-Bezüger",
     "align": "left"
   },
   "tooltip": {
@@ -515,9 +515,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -25
     },
-    "text": "Quelle: "
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Sozialversicherungen"
   },
   "legend": {
     "enabled": true,

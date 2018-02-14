@@ -181,7 +181,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "2005 und 2015",
+    "text": "Ländergruppen",
     "align": "left"
   },
   "yAxis": {
@@ -221,9 +221,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: "
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik"
   },
   "legend": {
     "symbolRadius": 0,

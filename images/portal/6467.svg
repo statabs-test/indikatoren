@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 6.0.4
+    Created with Highstock 5.0.14
   </desc>
   <defs>
     <clipPath>
@@ -42,7 +42,7 @@
     <path fill="none" class="highcharts-axis-line" d="M 125 340 L 379 340"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series " transform="translate(379,340) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(379,340) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
       <rect x="243" y="0" width="20" height="39" fill="#008AC3" class="highcharts-point"/>
       <rect x="213" y="0" width="20" height="44" fill="#008AC3" class="highcharts-point"/>
       <rect x="184" y="0" width="20" height="52" fill="#008AC3" class="highcharts-point"/>
@@ -52,8 +52,8 @@
       <rect x="35" y="0" width="20" height="49" fill="#008AC3" class="highcharts-point"/>
       <rect x="5" y="0" width="20" height="48" fill="#008AC3" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-column-series " transform="translate(379,340) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-1 highcharts-column-series " transform="translate(379,340) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(379,340) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(379,340) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
       <rect x="243" y="39" width="20" height="34" fill="#FABD24" class="highcharts-point"/>
       <rect x="213" y="44" width="20" height="37" fill="#FABD24" class="highcharts-point"/>
       <rect x="184" y="52" width="20" height="41" fill="#FABD24" class="highcharts-point"/>
@@ -63,8 +63,8 @@
       <rect x="35" y="49" width="20" height="46" fill="#FABD24" class="highcharts-point"/>
       <rect x="5" y="48" width="20" height="47" fill="#FABD24" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-1 highcharts-column-series " transform="translate(379,340) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-2 highcharts-column-series " transform="translate(379,340) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(379,340) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(379,340) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
       <rect x="243" y="73" width="20" height="50" fill="#CD9C00" class="highcharts-point"/>
       <rect x="213" y="81" width="20" height="42" fill="#CD9C00" class="highcharts-point"/>
       <rect x="184" y="93" width="20" height="43" fill="#CD9C00" class="highcharts-point"/>
@@ -74,8 +74,8 @@
       <rect x="35" y="95" width="20" height="54" fill="#CD9C00" class="highcharts-point"/>
       <rect x="5" y="95" width="20" height="51" fill="#CD9C00" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-2 highcharts-column-series " transform="translate(379,340) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-3 highcharts-column-series " transform="translate(379,340) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(379,340) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(379,340) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
       <rect x="243" y="123" width="20" height="59" fill="#E7CEE2" class="highcharts-point"/>
       <rect x="213" y="123" width="20" height="58" fill="#E7CEE2" class="highcharts-point"/>
       <rect x="184" y="136" width="20" height="49" fill="#E7CEE2" class="highcharts-point"/>
@@ -85,8 +85,8 @@
       <rect x="35" y="149" width="20" height="53" fill="#E7CEE2" class="highcharts-point"/>
       <rect x="5" y="146" width="20" height="51" fill="#E7CEE2" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-3 highcharts-column-series " transform="translate(379,340) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-4 highcharts-column-series " transform="translate(379,340) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(379,340) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined " transform="translate(379,340) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
       <rect x="243" y="182" width="20" height="73" fill="#923F8D" class="highcharts-point"/>
       <rect x="213" y="181" width="20" height="74" fill="#923F8D" class="highcharts-point"/>
       <rect x="184" y="185" width="20" height="70" fill="#923F8D" class="highcharts-point"/>
@@ -96,13 +96,13 @@
       <rect x="35" y="202" width="20" height="53" fill="#923F8D" class="highcharts-point"/>
       <rect x="5" y="197" width="20" height="58" fill="#923F8D" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-4 highcharts-column-series " transform="translate(379,340) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-4 highcharts-column-series highcharts-color-undefined " transform="translate(379,340) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Quintilsverteilung des Äquivalenz-Haushaltseinkommens nach</tspan><tspan dy="17" x="10">Staatsangehörigkeit (CH/A)</tspan><title>Quintilsverteilung des Äquivalenz-Haushaltseinkommens nach Staatsangehörigkeit (CH/A)</title>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="57">
-    <tspan>2002 - 2014, 3-Jahres-Pooling</tspan>
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="57">
+    <tspan>Schweiz vs. Ausland, 2002 bis 2014, 3-Jahres-Pooling</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(391,145)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="84" height="106" visibility="visible"/>
@@ -185,7 +185,7 @@
       <tspan>100</tspan>
     </text>
   </g>
-  <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="410">
-    <tspan>Quelle:</tspan>
+  <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="400">
+    <tspan>Quelle: Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)</tspan>
   </text>
 </svg>

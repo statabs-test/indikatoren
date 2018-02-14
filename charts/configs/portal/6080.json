@@ -309,7 +309,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Gymnasialquoten nach Staatsangehörigkeit (Ländergruppen) 2010-2016"
+    "text": "Gymnasialquoten nach Staatsangehörigkeit (Ländergruppen)"
   },
   "subtitle": {
     "style": {
@@ -318,7 +318,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Ländergruppen",
     "align": "left"
   },
   "tooltip": {
@@ -365,9 +365,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -25
     },
-    "text": "Quelle: "
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bildungsstatistik"
   },
   "legend": {
     "enabled": true,

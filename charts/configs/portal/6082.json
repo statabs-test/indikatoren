@@ -983,7 +983,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Hochschulquote nach Staatsangehörigkeit (Ländergruppen) 2002-2016"
+    "text": "Hochschulquote nach Staatsangehörigkeit (Ländergruppen)"
   },
   "subtitle": {
     "style": {
@@ -992,7 +992,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Ländergruppen",
     "align": "left"
   },
   "tooltip": {
@@ -1042,9 +1042,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -35
     },
-    "text": "Quelle: "
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bildungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS)"
   },
   "legend": {
     "enabled": true,
