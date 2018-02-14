@@ -1,5 +1,64 @@
 (function(){
     return {
+   "chart": {
+    "type": "area",
+   },
+  plotOptions: {
+        /*series: {
+        	"stacking": "normal",
+			pointPadding: 0,
+            borderWidth: 0,
+            pointWidth: 10, 
+
+        }*/
+         area: {
+            stacking: 'normal',
+            //lineColor: '#666666',
+            lineWidth: 0,
+
+        }
+  },
+  "yAxis": {
+    "labels": {
+      "format": "{value:,.0f}",
+    }
+  },
+  "xAxis": {
+  	"type": "category",
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+	"y": 40,
+ 	itemWidth: 100,
+ 	labelFormatter: function(){
+    //only return last word
+    return this.name.split(" ").slice(-1);
+        },
+	"itemMarginBottom": 5,
+    "itemStyle": {
+    "fontWeight": "normal"
+    }
+  },
+  "series": [
+		{
+            color: 'rgb(176, 0, 0)', index: 1, legendIndex:0,
+        },
+        {
+            color: 'rgb(168, 196, 203)', index: 0,legendIndex:1,
+        }
+  ],  
+  "tooltip": {
+    //"shared": true
+  },
+};
+}());
+
+
+/*(function(){
+    return {
       "plotOptions": {
           column: {
               stacking: 'normal'
@@ -59,4 +118,4 @@
         "type": "column"
       }
 	};
-}());
+}());*/

@@ -344,7 +344,7 @@
 	  }
   },
   "yAxis": {
-    "min": 0.4,
+    "min": 0,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "title": {

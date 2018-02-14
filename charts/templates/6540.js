@@ -29,7 +29,7 @@ global Highcharts
     tickInterval: 1
   },
   yAxis: {
-    min: 0.4,
+    min: 0,
   	labels: {
       formatter: function() {
          return 100 * this.value + "%";
