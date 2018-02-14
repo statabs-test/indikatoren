@@ -6,51 +6,47 @@
       "yAxis": 0,
       "data": [
         [
-          "Schweiz",
-          63349
+          "USA",
+          319202
         ],
         [
-          "Deutschland",
-          83738
+          "Australien",
+          195009
         ],
         [
-          "Italien",
-          50529
+          "Belgien",
+          177394
         ],
         [
-          "Türkei",
-          39414
+          "Kanada",
+          167807
         ],
         [
-          "EU-17 + EFTA",
-          73255
+          "Irland",
+          160185
         ],
         [
-          "EU-Ost",
-          43951
+          "Grossbritannien",
+          154168
         ],
         [
-          "Balkan",
-          45131
+          "Schweden",
+          145658
         ],
         [
-          "Mittel- und Südamerika",
-          38193
+          "Dänemark",
+          138331
         ],
         [
-          "Arabische Länder",
-          38537
+          "Frankreich",
+          135615
         ],
         [
-          "Afrikanische Länder",
-          36239
-        ],
-        [
-          "Übrige Länder",
-          75075
+          "Österreich",
+          126791
         ]
       ],
-      "name": "Mittelwert 2005",
+      "name": "Mittelwert",
       "turboThreshold": 0
     },
     {
@@ -59,51 +55,47 @@
       "yAxis": 0,
       "data": [
         [
-          "Schweiz",
-          65597
+          "USA",
+          159179
         ],
         [
-          "Deutschland",
-          93739
+          "Australien",
+          133692
         ],
         [
-          "Italien",
-          59083
+          "Belgien",
+          106479
         ],
         [
-          "Türkei",
-          36857
+          "Kanada",
+          128250
         ],
         [
-          "EU-17 + EFTA",
-          103052
+          "Irland",
+          134629
         ],
         [
-          "EU-Ost",
-          73641
+          "Grossbritannien",
+          128401
         ],
         [
-          "Balkan",
-          44213
+          "Schweden",
+          87110
         ],
         [
-          "Mittel- und Südamerika",
-          51741
+          "Dänemark",
+          86217
         ],
         [
-          "Arabische Länder",
-          39452
+          "Frankreich",
+          72042
         ],
         [
-          "Afrikanische Länder",
-          30464
-        ],
-        [
-          "Übrige Länder",
-          128932
+          "Österreich",
+          57494
         ]
       ],
-      "name": "Mittelwert 2014",
+      "name": "Median",
       "turboThreshold": 0
     },
     {
@@ -116,51 +108,47 @@
       },
       "data": [
         [
-          "Schweiz",
-          85613
+          "USA",
+          526
         ],
         [
-          "Deutschland",
-          4285
+          "Australien",
+          62
         ],
         [
-          "Italien",
-          5396
+          "Belgien",
+          108
         ],
         [
-          "Türkei",
-          3381
+          "Kanada",
+          115
         ],
         [
-          "EU-17 + EFTA",
-          4906
+          "Irland",
+          100
         ],
         [
-          "EU-Ost",
-          383
+          "Grossbritannien",
+          1010
         ],
         [
-          "Balkan",
-          4376
+          "Schweden",
+          126
         ],
         [
-          "Mittel- und Südamerika",
-          529
+          "Dänemark",
+          85
         ],
         [
-          "Arabische Länder",
-          339
+          "Frankreich",
+          798
         ],
         [
-          "Afrikanische Länder",
-          504
-        ],
-        [
-          "Übrige Länder",
-          1467
+          "Österreich",
+          617
         ]
       ],
-      "name": "Anzahl Veranlagungen 2005 (rechte Skala)",
+      "name": "Anzahl Veranlagungen (rechte Skala)",
       "turboThreshold": 0
     }
   ],

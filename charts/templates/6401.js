@@ -29,8 +29,8 @@
            '#007A2F',
            '#A8C3CA', 
            '#008AC3',
-            '#3C3C3C',
-           //'#923F8D',
+           '#3C3C3C',
+           '#923F8D',
            ],
 		dataLabels: {
 		                enabled: true,

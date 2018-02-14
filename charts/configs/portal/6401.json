@@ -1,8 +1,12 @@
 {
   "series": [
     {
-      "name": "Anzahl 829",
+      "name": "Anzahl",
       "data": [
+        [
+          "Polen",
+          829
+        ],
         [
           "Ungarn",
           802
@@ -96,7 +100,9 @@
         "#68AB2B",
         "#007A2F",
         "#A8C3CA",
-        "#008AC3"
+        "#008AC3",
+        "#3C3C3C",
+        "#923F8D"
       ]
     }
   },

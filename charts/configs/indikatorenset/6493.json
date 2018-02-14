@@ -418,7 +418,7 @@
           }
     },
     "renderTo": "container-6493",
-    "marginBottom": 75,
+    "marginBottom": 120,
     "type": "column",
     "inverted": false
   },

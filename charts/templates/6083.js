@@ -20,6 +20,7 @@
   {"color": "#ffda80", legendIndex: 5, dashStyle: 'LongDash'}, /*Ausländerinnnen*/
   ],
    "legend": {
+   	symbolWidth: 30,
     "enabled": true,
     //"x": 45,
     "y": 35,
