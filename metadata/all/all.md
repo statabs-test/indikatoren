@@ -365,7 +365,7 @@ id | visible | visibleInPortal | indikatorenset
 6034 | true | false | Nachhaltigkeit
 6035 | true | false | Nachhaltigkeit
 6036 | true | true | Nachhaltigkeit
-6037 | true | false | Nachhaltigkeit
+6037 | true | true | Nachhaltigkeit
 6039 | true | true | Nachhaltigkeit
 6040 | true | false | Nachhaltigkeit
 6041 | true | true | Nachhaltigkeit

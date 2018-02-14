@@ -264,9 +264,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS) und Bundesamt für Raumentwicklung (ARE), Mikrozensus Mobilität und Verkehr (MZMV);\u003Cbr\u002F\u003EBundesamt für Sozialversicherungen"
+    "text": "Quelle: Bundesamt für Statistik (BFS) und Bundesamt für Raumentwicklung (ARE), Mikrozensus Mobilität und Verkehr (MZMV)"
   },
   "legend": {
     "enabled": true,
