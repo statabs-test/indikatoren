@@ -14323,7 +14323,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-07T00:00:00.000",
 		"schlagwort": [
 			"Geschlecht",
 			"Bevölkerung",
@@ -14335,7 +14335,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund 19% der erwerbstätigen Männer gingen 2015 einer Teilzeitbeschäftigung nach; 1970 waren es noch 4%. Bei den Frauen lag der Anteil an Erwerbstätigen mit Teilzeitpensum 2015 bei 53%.",
+		"lesehilfe": "Rund 25% der erwerbstätigen Männer gingen 2016 einer Teilzeitbeschäftigung nach; 1970 waren es noch 4%. Bei den Frauen lag der Anteil an Erwerbstätigen mit Teilzeitpensum 2016 bei 52%.",
 		"erlaeuterungen": "Hochrechnungen aufgrund eines Stichprobenumfangs für Basel-Stadt von rund 5 000 Personen. Die Grundgesamtheit umfasst alle Personen der ständigen Wohnbevölkerung am Hauptwohnsitz ab vollendetem 15. Altersjahr, die in Privathaushalten leben, ohne Diplomaten, internationale Funktionäre und deren Angehörige.",
 		"template": "template001",
 		"visibleInPortal": true,
@@ -21268,11 +21268,11 @@ var indikatoren = [
 		"id": 6438
 	},
 	{
-		"title": "Akkumulierter Saldo der Allmendbäume",
+		"title": "Saldo Anzahl Allmendbäume",
 		"subtitle": "",
 		"kuerzel": "I.02.13.06574",
 		"kuerzelKunde": "NL11",
-		"description": "Akkumulierter Saldo der Allmendbäume",
+		"description": "Saldo Anzahl Allmendbäume",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Landschaft",
 		"kennzahlenset": "Nachhaltigkeit",
@@ -21293,7 +21293,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Jahre 2017 betrug der akkumulierte Saldo 2 294 Bäume. Im selben Jahr wurden leicht mehr Bäume gefällt (398) als gepflanzt (392).",
-		"erlaeuterungen": "Der ausgewiesene Auszug aus dem Baumkataster umfasst den durch die Stadtgärtnerei Basel gepflegten Baumbestand in der Gemeinde Basel.",
+		"erlaeuterungen": "Der Baumkataster umfasst den durch die Stadtgärtnerei Basel gepflegten Baumbestand in der Gemeinde Basel. Die Fäll- und Baumersatzliste zeigt die Bäume, die gefällt, ersetzt und neu gepflanzt werden müsen.",
 		"template": "template001",
 		"visibleInPortal": true,
 		"orderKey": "_000",

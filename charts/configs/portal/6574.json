@@ -434,7 +434,7 @@
           2294
         ]
       ],
-      "name": "Akkumulierter Saldo",
+      "name": "Kumulierter Saldo",
       "turboThreshold": 0
     }
   ],
@@ -506,7 +506,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Akkumulierter Saldo der Allmendbäume"
+    "text": "Saldo Anzahl Allmendbäume"
   },
   "subtitle": {
     "style": {

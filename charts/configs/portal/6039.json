@@ -46,7 +46,7 @@
           21.7557251908397
         ]
       ],
-      "name": "Gynasium",
+      "name": "Gymnasium",
       "turboThreshold": 0
     },
     {
@@ -382,6 +382,7 @@
       },
       "format": "{value:,.0f}%"
     },
+    "max": 100,
     "tickInterval": 20
   },
   "credits": {

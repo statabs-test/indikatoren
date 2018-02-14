@@ -26,11 +26,11 @@
           37690
         ],
         [
-          "2014",
-          39842
+          "2016",
+          40022
         ]
       ],
-      "name": "Vollzeit Männer",
+      "name": "\"Vollzeit Männer\"",
       "turboThreshold": 0
     },
     {
@@ -59,11 +59,11 @@
           7849
         ],
         [
-          "2014",
-          9070
+          "2016",
+          9831
         ]
       ],
-      "name": "Teilzeit Männer",
+      "name": "\"Teilzeit Männer\"",
       "turboThreshold": 0
     },
     {
@@ -92,11 +92,11 @@
           21125
         ],
         [
-          "2014",
-          23836
+          "2016",
+          22274
         ]
       ],
-      "name": "Vollzeit Frauen",
+      "name": "\"Vollzeit Frauen\"",
       "turboThreshold": 0
     },
     {
@@ -118,18 +118,18 @@
         ],
         [
           "2000",
-          20593
+          18767
         ],
         [
           "2010",
           20593
         ],
         [
-          "2014",
-          21501
+          "2016",
+          24510
         ]
       ],
-      "name": "Teilzeit Frauen",
+      "name": "\"Teilzeit Frauen\"",
       "turboThreshold": 0
     },
     {
@@ -155,14 +155,14 @@
         ],
         [
           "2010",
-          58815
+          58814
         ],
         [
-          "2014",
-          63678
+          "2016",
+          62296
         ]
       ],
-      "name": "Vollzeit Total",
+      "name": "\"Vollzeit Total\"",
       "turboThreshold": 0
     },
     {
@@ -184,18 +184,18 @@
         ],
         [
           "2000",
-          26828
+          25002
         ],
         [
           "2010",
           28442
         ],
         [
-          "2014",
-          30571
+          "2016",
+          34341
         ]
       ],
-      "name": "Teilzeit Total",
+      "name": "\"Teilzeit Total\"",
       "turboThreshold": 0
     }
   ],
