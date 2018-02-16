@@ -11492,7 +11492,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Mit Ausnahme der grössten Wohnungskategorie (5 und mehr Zimmer) erreichten die Leerwohnungsquoten aller Wohnungsgrössen im Jahr 2014 ihren Tiefstwert innerhalb des Beobachtungszeitraums. Die kantonale Leerwohnungsquote lag 2017 bei 0,5%.",
-		"erlaeuterungen": "LWG = Leerwohnungsquote",
+		"erlaeuterungen": "LWQ = Leerwohnungsquote",
 		"template": "template001",
 		"visibleInPortal": false,
 		"orderKey": "03_06_00_00_00_317",

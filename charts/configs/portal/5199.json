@@ -122,7 +122,7 @@
           1855800
         ]
       ],
-      "name": "Ges. Bauausgaben"
+      "name": "Gesamte Bauausgaben"
     },
     {
       "color": "#246370",
@@ -186,7 +186,7 @@
           50.966591227503
         ]
       ],
-      "name": "Anteil (rechte Skala)"
+      "name": "Anteil am Total der Bausgaben (rechte Skala)"
     }
   ],
   "chart": {
@@ -287,7 +287,11 @@
       "max": 100,
       "tickInterval": 20,
       "title": {
-        "text": null
+        "text": null,
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        }
       },
       "labels": {
         "format": "{value:,.0f}",
