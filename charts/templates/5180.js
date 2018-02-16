@@ -1,7 +1,12 @@
 (function(){
     return {
   "xAxis": {
-    "tickInterval": 1
+    "tickInterval": 1,
+		 labels: { 
+				style: { 
+					textOverflow: 'none' // prevents ellipsis
+		} 
+	} 
   },
   "yAxis": {
 	"labels": {
