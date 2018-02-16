@@ -151,7 +151,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wohnbevölkerung am Jahresende nach Alter, Geschlecht und Staatsangehörigkeit (Bevölkerungspyramide)",
-		"subtitle": "",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "I.01.1.05142",
 		"kuerzelKunde": "BE2",
 		"description": "Wohnbevölkerung am Jahresende nach Alter, Geschlecht und Staatsangehörigkeit (Bevölkerungspyramide)",
