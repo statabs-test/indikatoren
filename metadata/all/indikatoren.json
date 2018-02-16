@@ -11187,7 +11187,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Zahlfälle mit einer Bezugsdauer von mehr als 36 Monaten lag 2016 bei 47%. Seit 2011 hat sich dieser stetig erhöht.",
+		"lesehilfe": "Der Anteil Zahlfälle mit einer Bezugsdauer von mehr als 36 Monaten lag 2016 bei 46%. Seit 2011 hat sich dieser stetig erhöht.",
 		"erlaeuterungen": "Nur Stadt Basel, ohne Riehen und Bettingen. Die Sozialhilfe führt Dossiers für Unterstützungseinheiten, die eine oder mehrere Personen umfassen. Als Zahlfälle gelten Unterstützungseinheiten, die entweder wirtschaftliche Sozialhilfe mit Beratung beanspruchen oder Fremdplatzierte sind. Letztere sind minderjährige Kinder, die in Pflegefamilien oder Heimen untergebracht sind und für welche die Sozialhilfe ein eigenes Dossier führt. In einem Haushalt kann es mehrere Zahlfälle geben.",
 		"template": "template001",
 		"visibleInPortal": false,
@@ -11528,7 +11528,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Mietpreisindex zeigt insgesamt eine steigende Entwicklung von berechneten 80,4 Punkten im Jahr 1995 auf den aktuellen Basiswert von 100 Punkten im November 2015.",
+		"lesehilfe": "Der Mietpreisindex zeigt insgesamt eine steigende Entwicklung von berechneten 80,4 Punkten im Jahr 1995 auf den aktuellen Wert von 102,8 im November 2017.",
 		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1-6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden.",
 		"template": "line001",
 		"visibleInPortal": true,
@@ -11632,7 +11632,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-16T00:00:00.000",
 		"schlagwort": [
 			""
 		],
@@ -11641,7 +11641,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Total der Bauausgaben steigt seit 2011 kontinuierlich an. Der Anteil Ausgaben für Umbau- und Unterhaltsarbeiten liegt in den meisten Jahren leicht unterhalb der 50%-Marke. Der tiefste Wert ergibt sich 2010 mit einem Anteil von 35% an den totalen Bauausgaben.",
+		"lesehilfe": "Das Total der Bauausgaben stieg seit 2011 bis 2015 kontinuierlich an. Der Anteil Ausgaben für Umbau- und Unterhaltsarbeiten lag in den meisten Jahren leicht unterhalb oder oberhalb der 50%-Marke. Der tiefste Wert ergab sich 2010 mit einem Anteil von 35% an den totalen Bauausgaben.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"visibleInPortal": true,

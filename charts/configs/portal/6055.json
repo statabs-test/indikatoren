@@ -47,6 +47,10 @@
         [
           2015,
           3987
+        ],
+        [
+          2016,
+          4161
         ]
       ],
       "name": "Tagesbetreuung"
@@ -98,6 +102,10 @@
         [
           2015,
           782
+        ],
+        [
+          2016,
+          832
         ]
       ],
       "name": "Tagesstrukturen in den Quartieren"
@@ -149,6 +157,10 @@
         [
           2015,
           4096
+        ],
+        [
+          2016,
+          4272
         ]
       ],
       "name": "Tagesstrukturen in den Schulen"
@@ -200,6 +212,10 @@
         [
           2015,
           198
+        ],
+        [
+          2016,
+          195
         ]
       ],
       "name": "Tagesferien"
