@@ -21,15 +21,12 @@
      max: 100,
     "tickInterval": 20,
     "title": {
+    	text: null,
         "style": {
         "color": "#000000",
         "fontSize": null
       },
-      "text": null
-    },
-    title: {
-        text: null
-    },
+	},
     "labels": {
       "format": "{value:,.0f}",
        style:{
