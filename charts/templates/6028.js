@@ -1,56 +1,38 @@
 (function(){
     return {
-"plotOptions": {
-    "series": {
-      pointPadding: 100,
-      borderWidth: 0,
-      "pointWidth": 30,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      },
-      "stacking": "normal"
-    }
-  },
-  "xAxis": {
-    "type": "category",
-    "tickInterval": 1
-  },  
-  "yAxis": {
-  	 max: 100,
-     tickInterval: 20,
-    "labels": {
-      "format": "{value:,.0f}%",
+    "yAxis":{
+    tickInterval:25,
     },
+ 	"xAxis": {
+        "type": "category",
+        "labels": {
+           align: "left",
+            x: -140,
+            "formatter": function() {
+                  	 return this.value.replace("  ", "<br/>");
+            }
+        } 
+  },  
+  plotOptions: {
+  	column: {
+  		groupPadding: 0,
+
+  	}
   },
-  "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-	"y": 20,
-	"itemWidth": 200,
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
+    "series": [
+      {"color": "#007a2f", "index": 9, "legendIndex":0}, /*grün dunkel2*/
+      {"color": "#44ab2b", "index": 8, "legendIndex":1}, /*grün mittel*/
+      {"color": "#73ba7c", "index": 7, "legendIndex":2}, /*grün dunkel1*/
+      {"color": "#d7e9d2", "index": 6, "legendIndex":3}, /*grün hell*/
+      {"color": "#999999", "index": 5, "legendIndex":4}, /*blau hell */
+      ],
+"chart": {     
+	 marginLeft: 150, 
+     "inverted": true,
   },
- "series": [
-  {"color": "#d7e9d2", "index": 0, "legendIndex":0}, /*grün dunkel2*/
-  {"color": "#73ba7c", "index": 1, "legendIndex":1}, /*grün mittel*/
-  {"color": "#44ab2b", "index": 2, "legendIndex":2}, /*grün dunkel1*/
-  {"color": "#007a2f", "index": 3, "legendIndex":3}, /*grün hell*/
-  ],
-  "chart": {
-    "renderTo": 'container-I.01.1.0016', 
-    "marginBottom": 75,
-    //"marginTop": 75,
-    "type": "column",
-    "inverted": false
-  },
-  "tooltip": {
-  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>',
-   "shared": false
-  },
+      tooltip: {
+        valueDecimals: 1
+      },
 }
 }());
+
