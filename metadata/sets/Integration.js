@@ -3821,7 +3821,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "2009 und 2013 gaben jeweils 83% der befragten Jugendlichen mit einem Freundeskreis an, dass im Freundeskreis am häufigsten Deutsch gesprochen wird. 2009 haben 10% und 2013 8% eine andere Sprache angegeben.",
 		"erlaeuterungen": "Die Jugendbefragung gehört in die Reihe der regelmässig durchgeführten kantonalen Befragungen von spezifischen Bevölkerungsgruppen, welche das Statistikgesetz vorsieht. Durch die Befragung der Jugendlichen im Alter zwischen 12 und 17 Jahren können deren Bedürfnisse und Ansprüche an die Wohnumgebung und die Lebenswelt erhoben werden.",
-		"template": "template001",
+		"template": "befragungen001",
 		"orderKey": "04_00_00_00_00_030",
 		"parentId": null,
 		"children": [],

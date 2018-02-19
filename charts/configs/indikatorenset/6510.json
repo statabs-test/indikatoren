@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#007a2f",
+      "color": "#246370",
       "index": 4,
       "legendIndex": 4,
       "data": [
@@ -86,7 +86,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#68ab2b",
+      "color": "#A8C3CA",
       "index": 3,
       "legendIndex": 3,
       "data": [
@@ -171,7 +171,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#ffbb58",
+      "color": "#FABD24",
       "index": 2,
       "legendIndex": 2,
       "data": [
@@ -256,9 +256,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#dc440e",
-      "index": 1,
-      "legendIndex": 1,
+      "color": "#999999",
+      "index": 0,
+      "legendIndex": 0,
       "data": [
         [
           "2015 Total",
@@ -337,13 +337,8 @@
           0
         ]
       ],
-      "name": "Weiss nicht  \u002Fkeine Angabe",
+      "name": "Weiss nicht \u002F keine Angabe",
       "turboThreshold": 0
-    },
-    {
-      "color": "#999999",
-      "index": 0,
-      "legendIndex": 0
     }
   ],
   "xAxis": {
