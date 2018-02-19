@@ -45,6 +45,22 @@
     { "color": "#dc440e", index: 1, legendIndex: 1}, // rot
     { "color": "#999999", index: 0, legendIndex: 0}, // grau
   ],
+  "legend": { 
+  	x: -5,
+     y: 60,
+    "enabled": true,
+    "layout": "horizontal",
+   "itemWidth": 1000,
+    "verticalAlign": "top",
+    "align": "left",
+    "labelFormatter": function () {
+            return this.name;
+        },
+    "itemStyle": {
+    "fontWeight": "normal"
+    }
+  },
+
 "chart": {     
 	 marginLeft: 140, 
 	 //marginBottom: 100,
