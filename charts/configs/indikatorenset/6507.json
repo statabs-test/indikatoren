@@ -7,15 +7,15 @@
       "data": [
         [
           "2015 Total",
-          313
+          1080
         ],
         [
           "2015 Schweiz",
-          276
+          968
         ],
         [
           "2015 Ausland",
-          37
+          112
         ],
         [
           " ",
@@ -23,15 +23,15 @@
         ],
         [
           "2011 Total",
-          318
+          1145
         ],
         [
           "2011 Schweiz",
-          283
+          982
         ],
         [
           "2011 Ausland",
-          35
+          163
         ],
         [
           "  ",
@@ -39,15 +39,15 @@
         ],
         [
           "2007 Total",
-          151
+          959
         ],
         [
           "2007 Schweiz",
-          136
+          850
         ],
         [
           "2007 Ausland",
-          15
+          109
         ],
         [
           "   ",
@@ -55,15 +55,15 @@
         ],
         [
           "2005 Total",
-          145
+          942
         ],
         [
           "2005 Schweiz",
-          122
+          807
         ],
         [
           "2005 Ausland",
-          23
+          135
         ],
         [
           "    ",
@@ -71,18 +71,18 @@
         ],
         [
           "2003 Total",
-          314
+          967
         ],
         [
-          "2003 Schweiz",
-          288
+          "2003  Schweiz",
+          849
         ],
         [
           "2003 Ausland",
-          26
+          118
         ]
       ],
-      "name": "Sehr gut",
+      "name": "Sehr gerne",
       "turboThreshold": 0
     },
     {
@@ -92,15 +92,15 @@
       "data": [
         [
           "2015 Total",
-          585
+          379
         ],
         [
           "2015 Schweiz",
-          522
+          325
         ],
         [
           "2015 Ausland",
-          63
+          54
         ],
         [
           " ",
@@ -108,15 +108,15 @@
         ],
         [
           "2011 Total",
-          562
+          341
         ],
         [
           "2011 Schweiz",
-          485
+          291
         ],
         [
           "2011 Ausland",
-          77
+          50
         ],
         [
           "  ",
@@ -124,15 +124,15 @@
         ],
         [
           "2007 Total",
-          499
+          485
         ],
         [
           "2007 Schweiz",
-          433
+          424
         ],
         [
           "2007 Ausland",
-          66
+          61
         ],
         [
           "   ",
@@ -140,15 +140,15 @@
         ],
         [
           "2005 Total",
-          513
+          508
         ],
         [
           "2005 Schweiz",
-          454
+          440
         ],
         [
           "2005 Ausland",
-          59
+          68
         ],
         [
           "    ",
@@ -156,18 +156,18 @@
         ],
         [
           "2003 Total",
-          926
+          467
         ],
         [
-          "2003 Schweiz",
-          792
+          "2003  Schweiz",
+          392
         ],
         [
           "2003 Ausland",
-          134
+          75
         ]
       ],
-      "name": "Eher gut",
+      "name": "Eher gerne",
       "turboThreshold": 0
     },
     {
@@ -177,15 +177,15 @@
       "data": [
         [
           "2015 Total",
-          87
+          30
         ],
         [
           "2015 Schweiz",
-          74
+          25
         ],
         [
           "2015 Ausland",
-          13
+          5
         ],
         [
           " ",
@@ -193,15 +193,15 @@
         ],
         [
           "2011 Total",
-          97
+          19
         ],
         [
           "2011 Schweiz",
-          81
+          18
         ],
         [
           "2011 Ausland",
-          16
+          1
         ],
         [
           "  ",
@@ -209,15 +209,15 @@
         ],
         [
           "2007 Total",
-          98
+          53
         ],
         [
           "2007 Schweiz",
-          80
+          45
         ],
         [
           "2007 Ausland",
-          18
+          8
         ],
         [
           "   ",
@@ -225,15 +225,15 @@
         ],
         [
           "2005 Total",
-          100
+          48
         ],
         [
           "2005 Schweiz",
-          79
+          41
         ],
         [
           "2005 Ausland",
-          21
+          7
         ],
         [
           "    ",
@@ -241,18 +241,18 @@
         ],
         [
           "2003 Total",
-          212
+          51
         ],
         [
-          "2003 Schweiz",
-          178
+          "2003  Schweiz",
+          40
         ],
         [
           "2003 Ausland",
-          34
+          11
         ]
       ],
-      "name": "Eher nicht so gut",
+      "name": "Eher ungern",
       "turboThreshold": 0
     },
     {
@@ -266,11 +266,11 @@
         ],
         [
           "2015 Schweiz",
-          7
+          10
         ],
         [
           "2015 Ausland",
-          4
+          1
         ],
         [
           " ",
@@ -278,15 +278,15 @@
         ],
         [
           "2011 Total",
-          29
+          9
         ],
         [
           "2011 Schweiz",
-          22
+          9
         ],
         [
           "2011 Ausland",
-          7
+          0
         ],
         [
           "  ",
@@ -294,15 +294,15 @@
         ],
         [
           "2007 Total",
-          12
+          7
         ],
         [
           "2007 Schweiz",
-          8
+          7
         ],
         [
           "2007 Ausland",
-          4
+          0
         ],
         [
           "   ",
@@ -310,15 +310,15 @@
         ],
         [
           "2005 Total",
-          21
+          11
         ],
         [
           "2005 Schweiz",
-          18
+          11
         ],
         [
           "2005 Ausland",
-          3
+          0
         ],
         [
           "    ",
@@ -326,18 +326,18 @@
         ],
         [
           "2003 Total",
-          31
+          9
         ],
         [
-          "2003 Schweiz",
-          24
+          "2003  Schweiz",
+          7
         ],
         [
           "2003 Ausland",
-          7
+          2
         ]
       ],
-      "name": "Gar nicht gut",
+      "name": "Ganz ungern",
       "turboThreshold": 0
     },
     {
@@ -347,7 +347,7 @@
       "data": [
         [
           "2015 Total",
-          5
+          6
         ],
         [
           "2015 Schweiz",
@@ -355,7 +355,7 @@
         ],
         [
           "2015 Ausland",
-          0
+          1
         ],
         [
           " ",
@@ -363,7 +363,7 @@
         ],
         [
           "2011 Total",
-          3
+          2
         ],
         [
           "2011 Schweiz",
@@ -371,7 +371,7 @@
         ],
         [
           "2011 Ausland",
-          1
+          0
         ],
         [
           "  ",
@@ -379,11 +379,11 @@
         ],
         [
           "2007 Total",
-          2
+          5
         ],
         [
           "2007 Schweiz",
-          2
+          5
         ],
         [
           "2007 Ausland",
@@ -395,15 +395,15 @@
         ],
         [
           "2005 Total",
-          3
+          1
         ],
         [
           "2005 Schweiz",
-          2
+          1
         ],
         [
           "2005 Ausland",
-          1
+          0
         ],
         [
           "    ",
@@ -411,15 +411,15 @@
         ],
         [
           "2003 Total",
-          14
+          3
         ],
         [
-          "2003 Schweiz",
-          9
+          "2003  Schweiz",
+          3
         ],
         [
           "2003 Ausland",
-          5
+          0
         ]
       ],
       "name": "Weiss nicht \u002F keine Angabe",
@@ -490,7 +490,7 @@
     "type": "column",
     "marginLeft": 140,
     "inverted": true,
-    "renderTo": "container-6473"
+    "renderTo": "container-6507"
   },
   "title": {
     "style": {
@@ -499,7 +499,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Einschätzung der wirtschaftlichen Lage"
+    "text": "Beurteilung des Wohnorts nach Heimat"
   },
   "subtitle": {
     "style": {
@@ -507,7 +507,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Darf ich Sie fragen, wie es Ihnen wirtschaftlich gesehen im Moment geht?»"
+    "text": "«Wie gerne leben Sie insgesamt an Ihrem Wohnort?»"
   },
   "navigation": {
     "menuItemStyle": {
@@ -568,7 +568,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F14b"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F1c"
   },
   "legend": {
     "layout": "vertical",
@@ -585,6 +585,6 @@
         }
   },
   "exporting": {
-    "filename": 6473
+    "filename": 6507
   }
 }

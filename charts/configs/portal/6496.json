@@ -7,15 +7,15 @@
       "data": [
         [
           "2015 Total",
-          313
+          355
         ],
         [
           "2015 Schweiz",
-          276
+          284
         ],
         [
           "2015 Ausland",
-          37
+          71
         ],
         [
           " ",
@@ -23,15 +23,15 @@
         ],
         [
           "2011 Total",
-          318
+          391
         ],
         [
           "2011 Schweiz",
-          283
+          305
         ],
         [
           "2011 Ausland",
-          35
+          86
         ],
         [
           "  ",
@@ -39,15 +39,15 @@
         ],
         [
           "2007 Total",
-          151
+          295
         ],
         [
           "2007 Schweiz",
-          136
+          254
         ],
         [
           "2007 Ausland",
-          15
+          41
         ],
         [
           "   ",
@@ -55,15 +55,15 @@
         ],
         [
           "2005 Total",
-          145
+          351
         ],
         [
           "2005 Schweiz",
-          122
+          268
         ],
         [
           "2005 Ausland",
-          23
+          83
         ],
         [
           "    ",
@@ -71,18 +71,18 @@
         ],
         [
           "2003 Total",
-          314
+          339
         ],
         [
           "2003 Schweiz",
-          288
+          269
         ],
         [
           "2003 Ausland",
-          26
+          70
         ]
       ],
-      "name": "Sehr gut",
+      "name": "Sehr grosse Bereicherung",
       "turboThreshold": 0
     },
     {
@@ -92,15 +92,15 @@
       "data": [
         [
           "2015 Total",
-          585
+          788
         ],
         [
           "2015 Schweiz",
-          522
+          701
         ],
         [
           "2015 Ausland",
-          63
+          87
         ],
         [
           " ",
@@ -108,15 +108,15 @@
         ],
         [
           "2011 Total",
-          562
+          705
         ],
         [
           "2011 Schweiz",
-          485
+          600
         ],
         [
           "2011 Ausland",
-          77
+          105
         ],
         [
           "  ",
@@ -124,15 +124,15 @@
         ],
         [
           "2007 Total",
-          499
+          746
         ],
         [
           "2007 Schweiz",
-          433
+          648
         ],
         [
           "2007 Ausland",
-          66
+          98
         ],
         [
           "   ",
@@ -140,15 +140,15 @@
         ],
         [
           "2005 Total",
-          513
+          713
         ],
         [
           "2005 Schweiz",
-          454
+          620
         ],
         [
           "2005 Ausland",
-          59
+          93
         ],
         [
           "    ",
@@ -156,18 +156,18 @@
         ],
         [
           "2003 Total",
-          926
+          682
         ],
         [
           "2003 Schweiz",
-          792
+          582
         ],
         [
           "2003 Ausland",
-          134
+          100
         ]
       ],
-      "name": "Eher gut",
+      "name": "Eher grosse Bereicherung",
       "turboThreshold": 0
     },
     {
@@ -177,15 +177,15 @@
       "data": [
         [
           "2015 Total",
-          87
+          258
         ],
         [
           "2015 Schweiz",
-          74
+          249
         ],
         [
           "2015 Ausland",
-          13
+          9
         ],
         [
           " ",
@@ -193,15 +193,15 @@
         ],
         [
           "2011 Total",
-          97
+          302
         ],
         [
           "2011 Schweiz",
-          81
+          284
         ],
         [
           "2011 Ausland",
-          16
+          18
         ],
         [
           "  ",
@@ -209,15 +209,15 @@
         ],
         [
           "2007 Total",
-          98
+          303
         ],
         [
           "2007 Schweiz",
-          80
+          278
         ],
         [
           "2007 Ausland",
-          18
+          25
         ],
         [
           "   ",
@@ -225,15 +225,15 @@
         ],
         [
           "2005 Total",
-          100
+          314
         ],
         [
           "2005 Schweiz",
-          79
+          292
         ],
         [
           "2005 Ausland",
-          21
+          22
         ],
         [
           "    ",
@@ -241,18 +241,18 @@
         ],
         [
           "2003 Total",
-          212
+          322
         ],
         [
           "2003 Schweiz",
-          178
+          301
         ],
         [
           "2003 Ausland",
-          34
+          21
         ]
       ],
-      "name": "Eher nicht so gut",
+      "name": "Eher nicht so grosse Bereicherung",
       "turboThreshold": 0
     },
     {
@@ -262,15 +262,15 @@
       "data": [
         [
           "2015 Total",
-          11
+          54
         ],
         [
           "2015 Schweiz",
-          7
+          53
         ],
         [
           "2015 Ausland",
-          4
+          1
         ],
         [
           " ",
@@ -278,15 +278,15 @@
         ],
         [
           "2011 Total",
-          29
+          79
         ],
         [
           "2011 Schweiz",
-          22
+          78
         ],
         [
           "2011 Ausland",
-          7
+          1
         ],
         [
           "  ",
@@ -294,15 +294,15 @@
         ],
         [
           "2007 Total",
-          12
+          81
         ],
         [
           "2007 Schweiz",
-          8
+          79
         ],
         [
           "2007 Ausland",
-          4
+          2
         ],
         [
           "   ",
@@ -310,11 +310,11 @@
         ],
         [
           "2005 Total",
-          21
+          78
         ],
         [
           "2005 Schweiz",
-          18
+          75
         ],
         [
           "2005 Ausland",
@@ -326,18 +326,18 @@
         ],
         [
           "2003 Total",
-          31
+          89
         ],
         [
           "2003 Schweiz",
-          24
+          84
         ],
         [
           "2003 Ausland",
-          7
+          5
         ]
       ],
-      "name": "Gar nicht gut",
+      "name": "Gar keine Bereicherung",
       "turboThreshold": 0
     },
     {
@@ -347,15 +347,15 @@
       "data": [
         [
           "2015 Total",
-          5
+          51
         ],
         [
           "2015 Schweiz",
-          5
+          46
         ],
         [
           "2015 Ausland",
-          0
+          5
         ],
         [
           " ",
@@ -363,15 +363,15 @@
         ],
         [
           "2011 Total",
-          3
+          39
         ],
         [
           "2011 Schweiz",
-          2
+          35
         ],
         [
           "2011 Ausland",
-          1
+          4
         ],
         [
           "  ",
@@ -379,15 +379,15 @@
         ],
         [
           "2007 Total",
-          2
+          84
         ],
         [
           "2007 Schweiz",
-          2
+          72
         ],
         [
           "2007 Ausland",
-          0
+          12
         ],
         [
           "   ",
@@ -395,15 +395,15 @@
         ],
         [
           "2005 Total",
-          3
+          54
         ],
         [
           "2005 Schweiz",
-          2
+          45
         ],
         [
           "2005 Ausland",
-          1
+          9
         ],
         [
           "    ",
@@ -411,15 +411,15 @@
         ],
         [
           "2003 Total",
-          14
+          65
         ],
         [
           "2003 Schweiz",
-          9
+          55
         ],
         [
           "2003 Ausland",
-          5
+          10
         ]
       ],
       "name": "Weiss nicht \u002F keine Angabe",
@@ -454,7 +454,7 @@
                     return accumulator + series.yData[indexOfCurrentValue];
                 }, 0);
                 //use N if all series are visible, otherwise use n
-                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
+                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' :'n='; 
                 //check for value that contains only spaces
             	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
             },
@@ -490,7 +490,7 @@
     "type": "column",
     "marginLeft": 140,
     "inverted": true,
-    "renderTo": "container-6473"
+    "renderTo": "container-6496"
   },
   "title": {
     "style": {
@@ -499,7 +499,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Einschätzung der wirtschaftlichen Lage"
+    "text": "Beurteilung von gesellschaftlicher Vielfalt"
   },
   "subtitle": {
     "style": {
@@ -507,7 +507,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Darf ich Sie fragen, wie es Ihnen wirtschaftlich gesehen im Moment geht?»"
+    "text": "«Im Kanton Basel-Stadt gibt es Menschen aus den verschiedensten Ländern. Bitte geben Sie mir an, ob das eine sehr grosse, eher grosse, eher nicht so grosse oder gar keine Bereicherung für den Kanton Basel-Stadt ist.»"
   },
   "navigation": {
     "menuItemStyle": {
@@ -568,23 +568,27 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F14b"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18"
   },
   "legend": {
-    "layout": "vertical",
-    "verticalAlign": "middle",
+    "layout": "horizontal",
+    "verticalAlign": "top",
     "itemMarginBottom": 5,
-    "align": "right",
+    "align": "left",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal"
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
-        }
+            return this.name;
+        },
+    "x": -5,
+    "y": 60,
+    "enabled": true,
+    "itemWidth": 1000
   },
   "exporting": {
-    "filename": 6473
+    "filename": 6496
   }
 }

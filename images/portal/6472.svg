@@ -189,53 +189,53 @@
   </g>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="68" opacity="1">
-      <tspan>2015 Total (n=1383)</tspan>
+      <tspan>2015 Total (N=1383)</tspan>
     </text>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="84" opacity="1">
-      <tspan>2015 Schweiz (n=1220)</tspan>
+      <tspan>2015 Schweiz (N=1220)</tspan>
     </text>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="100" opacity="1">
-      <tspan>2015 Ausland (n=163)</tspan>
+      <tspan>2015 Ausland (N=163)</tspan>
     </text>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="123" opacity="1"/>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="133" opacity="1">
-      <tspan>2011 Total (n=1470)</tspan>
+      <tspan>2011 Total (N=1470)</tspan>
     </text>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="149" opacity="1">
-      <tspan>2011 Schweiz (n=1260)</tspan>
+      <tspan>2011 Schweiz (N=1260)</tspan>
     </text>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="165" opacity="1">
-      <tspan>2011 Ausland (n=210)</tspan>
+      <tspan>2011 Ausland (N=210)</tspan>
     </text>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="188" opacity="1"/>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="198" opacity="1">
-      <tspan>2007 Total (n=1461)</tspan>
+      <tspan>2007 Total (N=1461)</tspan>
     </text>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="214" opacity="1">
-      <tspan>2007 Schweiz (n=1289)</tspan>
+      <tspan>2007 Schweiz (N=1289)</tspan>
     </text>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="230" opacity="1">
-      <tspan>2007 Ausland (n=172)</tspan>
+      <tspan>2007 Ausland (N=172)</tspan>
     </text>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="253" opacity="1"/>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="263" opacity="1">
-      <tspan>2005 Total (n=1475)</tspan>
+      <tspan>2005 Total (N=1475)</tspan>
     </text>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="279" opacity="1">
-      <tspan>2005 Schweiz (n=1272)</tspan>
+      <tspan>2005 Schweiz (N=1272)</tspan>
     </text>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="295" opacity="1">
-      <tspan>2005 Ausland (n=203)</tspan>
+      <tspan>2005 Ausland (N=203)</tspan>
     </text>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="318" opacity="1"/>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="328" opacity="1">
-      <tspan>2003 Total (n=1441)</tspan>
+      <tspan>2003 Total (N=1441)</tspan>
     </text>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="344" opacity="1">
-      <tspan>2003 Schweiz (n=1240)</tspan>
+      <tspan>2003 Schweiz (N=1240)</tspan>
     </text>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="360" opacity="1">
-      <tspan>2003 Ausland (n=201)</tspan>
+      <tspan>2003 Ausland (N=201)</tspan>
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
