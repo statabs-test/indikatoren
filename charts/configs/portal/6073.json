@@ -164,7 +164,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil Ausländer nach Staatsangehörigkeit (Ländergruppen) mit Niederlassungsbewilligung"
+    "text": "Anteil Ausländer mit Niederlassungsbewilligung nach Staatsangehörigkeit"
   },
   "subtitle": {
     "style": {
@@ -173,7 +173,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "1997 \u002F 2016",
+    "text": "Ländergruppen; 1997 \u002F 2016",
     "align": "left"
   },
   "yAxis": {

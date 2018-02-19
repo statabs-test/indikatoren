@@ -78,10 +78,10 @@
     <g class="highcharts-markers highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(53,102) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Anteil Angestellte in der kantonalen Verwaltung nach</tspan><tspan dy="17" x="10">Staatsangehörigkeit (CH/A), Geschlecht und Kaderstufe</tspan><title>Anteil Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit (CH/A), Geschlecht und Kaderstufe</title>
+    <tspan>Anteil Angestellte in der kantonalen Verwaltung nach</tspan><tspan dy="17" x="10">Staatsangehörigkeit, Geschlecht und Kaderstufe</tspan><title>Anteil Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit, Geschlecht und Kaderstufe</title>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="57">
-    <tspan>Schweiz vs. Ausland, Stand: 2016</tspan>
+    <tspan>Schweiz/Ausland, Stand: 2016</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(45,65)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="387" height="25" visibility="visible"/>

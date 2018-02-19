@@ -665,7 +665,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Lebendgeborene nach Staatsangehörigkeit (Ländergruppen)"
+    "text": "Lebendgeborene nach Staatsangehörigkeit"
   },
   "subtitle": {
     "style": {
@@ -674,7 +674,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Ländergruppen",
     "align": "left"
   },
   "tooltip": {

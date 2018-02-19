@@ -59,7 +59,7 @@
     <g class="highcharts-markers highcharts-series-2 highcharts-area-series highcharts-color-undefined " transform="translate(52,92) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Beschuldigte Ausländer (Wohnkanton BS) ab 18 Jahren nach</tspan><tspan dy="17" x="10">Aufenthaltsstatus (B- und C-Bew., Übrige)</tspan><title>Beschuldigte Ausländer (Wohnkanton BS) ab 18 Jahren nach Aufenthaltsstatus (B- und C-Bew., Übrige)</title>
+    <tspan>Beschuldigte Ausländer ab 18 Jahren nach Aufenthaltsstatus</tspan><tspan dy="17" x="10">(B- und C-Bew., Übrige)</tspan><title>Beschuldigte Ausländer ab 18 Jahren nach Aufenthaltsstatus (B- und C-Bew., Übrige)</title>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="57">
     <tspan>B-Bewilligung, C-Bewilligung, Übrige</tspan>

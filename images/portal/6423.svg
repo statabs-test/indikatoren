@@ -81,7 +81,7 @@
     <tspan>Anzahl Angestellte in der kantonalen Verwaltung nach</tspan><tspan dy="17" x="10">Staatsangehörigkeit (CH/A), Geschlecht und Kaderstufe</tspan><title>Anzahl Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit (CH/A), Geschlecht und Kaderstufe</title>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="57">
-    <tspan>Schweiz vs. Ausland, Stand: 2016</tspan>
+    <tspan>Schweiz/Ausland, Stand: 2016</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(44,65)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="387" height="25" visibility="visible"/>

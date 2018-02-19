@@ -172,7 +172,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Jugendquotient nach Staatsangehörigkeit (Ländergruppen)"
+    "text": "Jugendquotient nach Staatsangehörigkeit"
   },
   "subtitle": {
     "style": {
@@ -181,7 +181,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Ländergruppen",
     "align": "left"
   },
   "yAxis": {

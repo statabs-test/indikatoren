@@ -184,10 +184,10 @@
     <g class="highcharts-markers highcharts-series-7 highcharts-errorbar-series highcharts-color-undefined " transform="translate(53,75) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Erwerbstätigenquote nach Staatsangehörigkeit (CH/A),</tspan><tspan dy="17" x="10">Altersklassen und Geschlecht</tspan><title>Erwerbstätigenquote nach Staatsangehörigkeit (CH/A), Altersklassen und Geschlecht</title>
+    <tspan>Erwerbstätigenquote nach Staatsangehörigkeit, Altersklassen</tspan><tspan dy="17" x="10">und Geschlecht</tspan><title>Erwerbstätigenquote nach Staatsangehörigkeit, Altersklassen und Geschlecht</title>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="57">
-    <tspan>Schweiz vs. Ausland, gepoolte Daten, 2011 bis 2015</tspan>
+    <tspan>Schweiz/Ausland, gepoolte Daten, 2011 bis 2015</tspan>
   </text>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
     <text x="95.2" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="369" opacity="1">

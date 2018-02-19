@@ -74,7 +74,7 @@
     <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(475,364) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Mittelwert und Median des Reineinkommens pro Veranlagung</tspan><tspan dy="17" x="10">nach Staatsangehörigkeit (Top 10 der Mittelwerte)</tspan><title>Mittelwert und Median des Reineinkommens pro Veranlagung nach Staatsangehörigkeit (Top 10 der Mittelwerte)</title>
+    <tspan>Mittelwert und Median des Reineinkommens pro Veranlagung</tspan><tspan dy="17" x="10">nach Staatsangehörigkeit</tspan><title>Mittelwert und Median des Reineinkommens pro Veranlagung nach Staatsangehörigkeit</title>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="57">
     <tspan>Top 10 der Mittelwerte, Steuerjahr 2014</tspan>

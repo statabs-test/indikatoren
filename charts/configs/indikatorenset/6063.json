@@ -563,7 +563,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Durchschnittsalter nach Staatsangehörigkeit (CH\u002FA) und Geschlecht"
+    "text": "Durchschnittsalter der Wohnbevölkerung"
   },
   "subtitle": {
     "style": {
@@ -572,7 +572,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Schweiz vs. Ausland",
+    "text": "nach Staatsangehörigkeit (Schweiz\u002FAusland) und Geschlecht",
     "align": "left"
   },
   "tooltip": {

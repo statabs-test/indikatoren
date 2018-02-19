@@ -126,7 +126,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Beschuldigte Jugendliche (Wohnkanton BS) zwischen 10 bis 17 Jahren pro 1 000 Jugendliche (10 - 17 J.) nach Staatsangehörigkeit (CH\u002FA), Geschlecht und Alter"
+    "text": "Beschuldigte Jugendliche pro 1000 Jugendliche nach Staatsangehörigkeit, Geschlecht und Alter"
   },
   "subtitle": {
     "style": {
@@ -135,7 +135,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Schweiz vs. Ausland",
+    "text": "Schweiz\u002FAusland, Jugendliche zwischen 10 und 17 Jahren",
     "align": "left"
   },
   "yAxis": {

@@ -67,10 +67,10 @@
     <g class="highcharts-markers highcharts-series-5 highcharts-column-series highcharts-color-undefined " transform="translate(53,125) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Beschuldigte Jugendliche (Wohnkanton BS) zwischen 10 und</tspan><tspan dy="17" x="10">17 Jahren nach Staatsangehörigkeit (CH/A) und</tspan><tspan dy="17" x="10">Straftatbestand</tspan><title>Beschuldigte Jugendliche (Wohnkanton BS) zwischen 10 und 17 Jahren nach Staatsangehörigkeit (CH/A) und Straftatbestand</title>
+    <tspan>Beschuldigte Jugendliche nach Staatsangehörigkeit und</tspan><tspan dy="17" x="10">Straftatbestand</tspan><title>Beschuldigte Jugendliche nach Staatsangehörigkeit und Straftatbestand</title>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="74">
-    <tspan>Schweiz vs. Ausland, Stand: 2016</tspan>
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="57">
+    <tspan>Schweiz/Ausland, Jugendliche zwischen 10 und 17 Jahren; Stand: 2016</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(45,60)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="316" height="53" visibility="visible"/>

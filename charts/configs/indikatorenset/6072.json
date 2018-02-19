@@ -365,7 +365,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil Ausländer nach Staatsangehörigkeit (Ländergruppen) nach Art der Bewilligung"
+    "text": "Anteil Ausländer nach Staatsangehörigkeit nach Art der Bewilligung"
   },
   "subtitle": {
     "style": {
@@ -374,7 +374,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2016",
+    "text": "Ländergruppen; Stand: 2016",
     "align": "left"
   },
   "yAxis": {

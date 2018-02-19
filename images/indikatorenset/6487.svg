@@ -65,9 +65,9 @@
     <g class="highcharts-markers highcharts-series-6 highcharts-line-series highcharts-color-undefined " transform="translate(37,155) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Beschuldigte Jugendliche (Wohnkanton BS) zwischen 10 und</tspan><tspan dy="17" x="10">17 Jahren pro 1 000 Jugendliche (10 - 17 J.) nach</tspan><tspan dy="17" x="10">Staatsangehörigkeit (Ländergruppen)</tspan><title>Beschuldigte Jugendliche (Wohnkanton BS) zwischen 10 und 17 Jahren pro 1 000 Jugendliche (10 - 17 J.) nach Staatsangehörigkeit (Ländergruppen)</title>
+    <tspan>Beschuldigte Jugendliche pro 1000 Jugendliche nach</tspan><tspan dy="17" x="10">Staatsangehörigkeit</tspan><title>Beschuldigte Jugendliche pro 1000 Jugendliche nach Staatsangehörigkeit</title>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="74">
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="57">
     <tspan>Ländergruppe, 2011 bis 2016</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(29,75)">

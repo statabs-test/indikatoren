@@ -152,7 +152,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Arbeitslose nach Staatsangehörigkeit (CH\u002FA) in ausgewählten Berufsgruppen"
+    "text": "Arbeitslose nach Staatsangehörigkeit in ausgewählten Berufsgruppen"
   },
   "subtitle": {
     "style": {
@@ -161,7 +161,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2016",
+    "text": "Schweiz\u002FAusland; Stand: 2016",
     "align": "left"
   },
   "yAxis": {

@@ -99,10 +99,10 @@
     <g class="highcharts-markers highcharts-series-4 highcharts-column-series highcharts-color-undefined " transform="translate(379,340) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Quintilsverteilung des Äquivalenz-Haushaltseinkommens nach</tspan><tspan dy="17" x="10">Staatsangehörigkeit (CH/A)</tspan><title>Quintilsverteilung des Äquivalenz-Haushaltseinkommens nach Staatsangehörigkeit (CH/A)</title>
+    <tspan>Quintilsverteilung des Äquivalenz-Haushaltseinkommens nach</tspan><tspan dy="17" x="10">Staatsangehörigkeit</tspan><title>Quintilsverteilung des Äquivalenz-Haushaltseinkommens nach Staatsangehörigkeit</title>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="57">
-    <tspan>Schweiz vs. Ausland, 2002 bis 2014, 3-Jahres-Pooling</tspan>
+    <tspan>Schweiz/Ausland, 2002 bis 2014, 3-Jahres-Pooling</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(391,145)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="84" height="106" visibility="visible"/>

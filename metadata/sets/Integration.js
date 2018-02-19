@@ -37,11 +37,11 @@ var indikatorensetData = [
 		"id": 6057
 	},
 	{
-		"title": "Bevölkerung nach Staatsangehörigkeit (CH/A)",
-		"subtitle": "Schweiz vs. Ausland",
+		"title": "Bevölkerung nach Staatsangehörigkeit",
+		"subtitle": "Schweiz/Ausland",
 		"kuerzel": "I.01.1.06058",
 		"kuerzelKunde": "A1-2",
-		"description": "Bevölkerung nach Staatsangehörigkeit (CH/A)",
+		"description": "Bevölkerung nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration",
@@ -74,11 +74,11 @@ var indikatorensetData = [
 		"id": 6058
 	},
 	{
-		"title": "Ausländer nach Staatsangehörigkeit (Ländergruppen)",
+		"title": "Ausländer nach Staatsangehörigkeit",
 		"subtitle": "Ländergruppen",
 		"kuerzel": "I.01.1.06059",
 		"kuerzelKunde": "A1-4",
-		"description": "Ausländer nach Staatsangehörigkeit (Ländergruppen)",
+		"description": "Ausländer nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration",
@@ -111,11 +111,11 @@ var indikatorensetData = [
 		"id": 6059
 	},
 	{
-		"title": "Ausländer nach Staatsangehörigkeit (Ländergruppen)",
+		"title": "Ausländer nach Staatsangehörigkeit",
 		"subtitle": "Ländergruppen, Stand: 2016",
 		"kuerzel": "I.01.1.06060",
 		"kuerzelKunde": "A1-5",
-		"description": "Ausländer nach Staatsangehörigkeit (Ländergruppen)",
+		"description": "Ausländer nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration",
@@ -149,11 +149,11 @@ var indikatorensetData = [
 		"id": 6060
 	},
 	{
-		"title": "Übrige Ausländer nach einzenen Staatsangehörigkeiten",
+		"title": "Übrige Ausländer",
 		"subtitle": "nach einzelnen Staatsangehörigkeiten, Stand: 2016",
 		"kuerzel": "I.01.1.06061",
 		"kuerzelKunde": "A1-8",
-		"description": "Übrige Ausländer nach einzenen Staatsangehörigkeiten",
+		"description": "Übrige Ausländer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration",
@@ -187,11 +187,11 @@ var indikatorensetData = [
 		"id": 6061
 	},
 	{
-		"title": "Ausländer nach Staatsangehörigkeit (Ländergruppen) und Geschlecht",
+		"title": "Ausländer nach Staatsangehörigkeit und Geschlecht",
 		"subtitle": "Ländergruppen, Stand: 2016",
 		"kuerzel": "I.01.1.06062",
 		"kuerzelKunde": "A1-9",
-		"description": "Ausländer nach Staatsangehörigkeit (Ländergruppen) und Geschlecht",
+		"description": "Ausländer nach Staatsangehörigkeit und Geschlecht",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration",
@@ -226,11 +226,11 @@ var indikatorensetData = [
 		"id": 6062
 	},
 	{
-		"title": "Durchschnittsalter nach Staatsangehörigkeit (CH/A) und Geschlecht",
-		"subtitle": "Schweiz vs. Ausland",
+		"title": "Durchschnittsalter der Wohnbevölkerung",
+		"subtitle": "nach Staatsangehörigkeit (Schweiz/Ausland) und Geschlecht",
 		"kuerzel": "I.01.1.06063",
 		"kuerzelKunde": "A2-1",
-		"description": "Durchschnittsalter nach Staatsangehörigkeit (CH/A) und Geschlecht",
+		"description": "Durchschnittsalter der Wohnbevölkerung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration",
@@ -265,11 +265,11 @@ var indikatorensetData = [
 		"id": 6063
 	},
 	{
-		"title": "Bevölkerungspyramide Schweizer",
+		"title": "Bevölkerungspyramide der Schweizerinnen und Schweizer",
 		"subtitle": "Stand: 1997",
 		"kuerzel": "I.01.1.06064",
 		"kuerzelKunde": "A2-2",
-		"description": "Bevölkerungspyramide Schweizer",
+		"description": "Bevölkerungspyramide der Schweizerinnen und Schweizer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration",
@@ -303,11 +303,11 @@ var indikatorensetData = [
 		"id": 6064
 	},
 	{
-		"title": "Bevölkerungspyramide Ausländer",
+		"title": "Bevölkerungspyramide der Ausländerinnen und Ausländer",
 		"subtitle": "Stand: 1997",
 		"kuerzel": "I.01.1.06065",
 		"kuerzelKunde": "A2-3",
-		"description": "Bevölkerungspyramide Ausländer",
+		"description": "Bevölkerungspyramide der Ausländerinnen und Ausländer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration",
@@ -342,11 +342,11 @@ var indikatorensetData = [
 		"id": 6065
 	},
 	{
-		"title": "Bevölkerungspyramide Schweizer",
+		"title": "Bevölkerungspyramide der Schweizerinnen und Schweizer",
 		"subtitle": "Stand: 2016",
 		"kuerzel": "I.01.1.06066",
 		"kuerzelKunde": "A2-4",
-		"description": "Bevölkerungspyramide Schweizer",
+		"description": "Bevölkerungspyramide der Schweizerinnen und Schweizer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration",
@@ -380,11 +380,11 @@ var indikatorensetData = [
 		"id": 6066
 	},
 	{
-		"title": "Bevölkerungspyramide Ausländer",
+		"title": "Bevölkerungspyramide der Ausländerinnen und Ausländer",
 		"subtitle": "Stand: 2016",
 		"kuerzel": "I.01.1.06067",
 		"kuerzelKunde": "A2-5",
-		"description": "Bevölkerungspyramide Ausländer",
+		"description": "Bevölkerungspyramide der Ausländerinnen und Ausländer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration",
@@ -418,11 +418,11 @@ var indikatorensetData = [
 		"id": 6067
 	},
 	{
-		"title": "Jugendquotient nach Staatsangehörigkeit (Ländergruppen)",
-		"subtitle": "",
+		"title": "Jugendquotient nach Staatsangehörigkeit",
+		"subtitle": "Ländergruppen",
 		"kuerzel": "I.01.1.06068",
 		"kuerzelKunde": "A2-6",
-		"description": "Jugendquotient nach Staatsangehörigkeit (Ländergruppen)",
+		"description": "Jugendquotient nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration",
@@ -455,11 +455,11 @@ var indikatorensetData = [
 		"id": 6068
 	},
 	{
-		"title": "Altersquotient nach Staatsangehörigkeit (Ländergruppen)",
-		"subtitle": "",
+		"title": "Altersquotient nach Staatsangehörigkeit",
+		"subtitle": "Ländergruppen",
 		"kuerzel": "I.01.1.06069",
 		"kuerzelKunde": "A2-7",
-		"description": "Altersquotient nach Staatsangehörigkeit (Ländergruppen)",
+		"description": "Altersquotient nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration",
@@ -492,11 +492,11 @@ var indikatorensetData = [
 		"id": 6069
 	},
 	{
-		"title": "Anteil Ausländer nach Alter",
+		"title": "Ausländeranteil nach Alter",
 		"subtitle": "",
 		"kuerzel": "I.01.1.06070",
 		"kuerzelKunde": "A2-8",
-		"description": "Anteil Ausländer nach Alter",
+		"description": "Ausländeranteil nach Alter",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration",
@@ -568,11 +568,11 @@ var indikatorensetData = [
 		"id": 6071
 	},
 	{
-		"title": "Anteil Ausländer nach Staatsangehörigkeit (Ländergruppen) nach Art der Bewilligung",
-		"subtitle": "Stand: 2016",
+		"title": "Anteil Ausländer nach Staatsangehörigkeit nach Art der Bewilligung",
+		"subtitle": "Ländergruppen; Stand: 2016",
 		"kuerzel": "I.01.1.06072",
 		"kuerzelKunde": "A3-2",
-		"description": "Anteil Ausländer nach Staatsangehörigkeit (Ländergruppen) nach Art der Bewilligung",
+		"description": "Anteil Ausländer nach Staatsangehörigkeit nach Art der Bewilligung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration",
@@ -606,11 +606,11 @@ var indikatorensetData = [
 		"id": 6072
 	},
 	{
-		"title": "Anteil Ausländer nach Staatsangehörigkeit (Ländergruppen) mit Niederlassungsbewilligung",
-		"subtitle": "1997 / 2016",
+		"title": "Anteil Ausländer mit Niederlassungsbewilligung nach Staatsangehörigkeit",
+		"subtitle": "Ländergruppen; 1997 / 2016",
 		"kuerzel": "I.01.1.06073",
 		"kuerzelKunde": "A3-3",
-		"description": "Anteil Ausländer nach Staatsangehörigkeit (Ländergruppen) mit Niederlassungsbewilligung",
+		"description": "Anteil Ausländer mit Niederlassungsbewilligung nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration",
@@ -644,11 +644,11 @@ var indikatorensetData = [
 		"id": 6073
 	},
 	{
-		"title": "Median der Aufenthaltsdauer der Ausländer nach Staatsangehörigkeit (Ländergruppen) in der Schweiz / in Basel-Stadt",
-		"subtitle": "Stand: 2016",
+		"title": "Median der Aufenthaltsdauer der Ausländer in der Schweiz / in Basel-Stadt  nach Staatsangehörigkeit",
+		"subtitle": "Ländergruppen; Stand: 2016",
 		"kuerzel": "I.01.1.06074",
 		"kuerzelKunde": "A3-5",
-		"description": "Median der Aufenthaltsdauer der Ausländer nach Staatsangehörigkeit (Ländergruppen) in der Schweiz / in Basel-Stadt",
+		"description": "Median der Aufenthaltsdauer der Ausländer in der Schweiz / in Basel-Stadt  nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration",
@@ -683,11 +683,11 @@ var indikatorensetData = [
 		"id": 6074
 	},
 	{
-		"title": "Anteil der in der Schweiz geborenen Ausländer nach Staatsangehörigkeit (Ländergruppen)",
+		"title": "Anteil der in der Schweiz geborenen Ausländer nach Staatsangehörigkeit",
 		"subtitle": "Ländergruppen",
 		"kuerzel": "I.01.3.06075",
 		"kuerzelKunde": "A4-1",
-		"description": "Anteil der in der Schweiz geborenen Ausländer nach Staatsangehörigkeit (Ländergruppen)",
+		"description": "Anteil der in der Schweiz geborenen Ausländer nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Geburten und Todesfälle",
 		"kennzahlenset": "Integration",
@@ -718,11 +718,11 @@ var indikatorensetData = [
 		"id": 6075
 	},
 	{
-		"title": "Lebendgeborene nach Staatsangehörigkeit (Ländergruppen)",
-		"subtitle": "",
+		"title": "Lebendgeborene nach Staatsangehörigkeit",
+		"subtitle": "Ländergruppen",
 		"kuerzel": "I.01.3.06076",
 		"kuerzelKunde": "A4-2",
-		"description": "Lebendgeborene nach Staatsangehörigkeit (Ländergruppen)",
+		"description": "Lebendgeborene nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Geburten und Todesfälle",
 		"kennzahlenset": "Integration",
@@ -752,11 +752,11 @@ var indikatorensetData = [
 		"id": 6076
 	},
 	{
-		"title": "Zusammengefasste Geburtenziffer nach Staatsangehörigkeit (Ländergruppen)",
+		"title": "Zusammengefasste Geburtenziffer nach Staatsangehörigkeit",
 		"subtitle": "Ländergruppen, arithmetisches Mittel der Jahre 2006 sbi 2016",
 		"kuerzel": "I.01.3.06077",
 		"kuerzelKunde": "A4-3",
-		"description": "Zusammengefasste Geburtenziffer nach Staatsangehörigkeit (Ländergruppen)",
+		"description": "Zusammengefasste Geburtenziffer nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Geburten und Todesfälle",
 		"kennzahlenset": "Integration",
@@ -864,11 +864,11 @@ var indikatorensetData = [
 		"id": 6079
 	},
 	{
-		"title": "Gymnasialquoten nach Staatsangehörigkeit (Ländergruppen)",
+		"title": "Gymnasialquoten nach Staatsangehörigkeit",
 		"subtitle": "Ländergruppen",
 		"kuerzel": "I.15.1.06080",
 		"kuerzelKunde": "B1-1",
-		"description": "Gymnasialquoten nach Staatsangehörigkeit (Ländergruppen)",
+		"description": "Gymnasialquoten nach Staatsangehörigkeit",
 		"thema": "15 Bildung",
 		"unterthema": "Schulen und Schulpersonal",
 		"kennzahlenset": "Integration",
@@ -902,11 +902,11 @@ var indikatorensetData = [
 		"id": 6080
 	},
 	{
-		"title": "Gymnasialquoten nach Staatsangehörigkeit (CH/A) und Geschlecht",
-		"subtitle": "Schweiz vs. Ausland",
+		"title": "Gymnasialquoten nach Staatsangehörigkeit und Geschlecht",
+		"subtitle": "Schweiz/Ausland",
 		"kuerzel": "I.15.1.06081",
 		"kuerzelKunde": "B1-2",
-		"description": "Gymnasialquoten nach Staatsangehörigkeit (CH/A) und Geschlecht",
+		"description": "Gymnasialquoten nach Staatsangehörigkeit und Geschlecht",
 		"thema": "15 Bildung",
 		"unterthema": "Schulen und Schulpersonal",
 		"kennzahlenset": "Integration",
@@ -941,11 +941,11 @@ var indikatorensetData = [
 		"id": 6081
 	},
 	{
-		"title": "Hochschulquote nach Staatsangehörigkeit (Ländergruppen)",
+		"title": "Hochschulquote nach Staatsangehörigkeit",
 		"subtitle": "Ländergruppen",
 		"kuerzel": "I.15.4.06082",
 		"kuerzelKunde": "B2-1",
-		"description": "Hochschulquote nach Staatsangehörigkeit (Ländergruppen)",
+		"description": "Hochschulquote nach Staatsangehörigkeit",
 		"thema": "15 Bildung",
 		"unterthema": "Hochschulen",
 		"kennzahlenset": "Integration",
@@ -980,11 +980,11 @@ var indikatorensetData = [
 		"id": 6082
 	},
 	{
-		"title": "Hochschulquote nach Staatsangehörigkeit (CH/A) und Geschlecht",
-		"subtitle": "Schweiz vs. Ausland",
+		"title": "Hochschulquote nach Staatsangehörigkeit und Geschlecht",
+		"subtitle": "Schweiz/Ausland",
 		"kuerzel": "I.15.4.06083",
 		"kuerzelKunde": "B2-2",
-		"description": "Hochschulquote nach Staatsangehörigkeit (CH/A) und Geschlecht",
+		"description": "Hochschulquote nach Staatsangehörigkeit und Geschlecht",
 		"thema": "15 Bildung",
 		"unterthema": "Hochschulen",
 		"kennzahlenset": "Integration",
@@ -1020,11 +1020,11 @@ var indikatorensetData = [
 		"id": 6083
 	},
 	{
-		"title": "Lernendenquote nach Staatsangehörigkeit (Ländergruppen)",
+		"title": "Lernendenquote nach Staatsangehörigkeit",
 		"subtitle": "Ländergruppen",
 		"kuerzel": "I.15.3.06084",
 		"kuerzelKunde": "B3-1",
-		"description": "Lernendenquote nach Staatsangehörigkeit (Ländergruppen)",
+		"description": "Lernendenquote nach Staatsangehörigkeit",
 		"thema": "15 Bildung",
 		"unterthema": "Berufsfachschulen",
 		"kennzahlenset": "Integration",
@@ -1058,11 +1058,11 @@ var indikatorensetData = [
 		"id": 6084
 	},
 	{
-		"title": "Lernendenquote nach Staatsangehörigkeit (CH/A) und Geschlecht",
-		"subtitle": "Schweiz vs. Ausland",
+		"title": "Lernendenquote nach Staatsangehörigkeit und Geschlecht",
+		"subtitle": "Schweiz/Ausland",
 		"kuerzel": "I.15.3.06085",
 		"kuerzelKunde": "B3-2",
-		"description": "Lernendenquote nach Staatsangehörigkeit (CH/A) und Geschlecht",
+		"description": "Lernendenquote nach Staatsangehörigkeit und Geschlecht",
 		"thema": "15 Bildung",
 		"unterthema": "Berufsfachschulen",
 		"kennzahlenset": "Integration",
@@ -1097,11 +1097,11 @@ var indikatorensetData = [
 		"id": 6085
 	},
 	{
-		"title": "Anteil Erwachsene mit höchstem Abschluss Sekundarstufe I nach Staatsangehörigkeit (CH/A)",
-		"subtitle": "Schweiz vs. Ausland, gepoolte Daten 2011 bis 2015",
+		"title": "Anteil Erwachsene mit höchstem Abschluss Sekundarstufe I nach Staatsangehörigkeit",
+		"subtitle": "Schweiz/Ausland, gepoolte Daten 2011 bis 2015",
 		"kuerzel": "I.15.6.06088",
 		"kuerzelKunde": "B4-1",
-		"description": "Anteil Erwachsene mit höchstem Abschluss Sekundarstufe I nach Staatsangehörigkeit (CH/A)",
+		"description": "Anteil Erwachsene mit höchstem Abschluss Sekundarstufe I nach Staatsangehörigkeit",
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsniveau",
 		"kennzahlenset": "Integration",
@@ -1134,11 +1134,11 @@ var indikatorensetData = [
 		"id": 6088
 	},
 	{
-		"title": "Wohnbevölkerung ab 15 Jahren nach Staatsangehörigkeit (Ländergruppen) und höchster abgeschlossener Ausbildung",
+		"title": "Wohnbevölkerung ab 15 Jahren nach Staatsangehörigkeit und höchster abgeschlossener Ausbildung",
 		"subtitle": "Ländergruppen, gepoolte Daten 2011 bis 2015",
 		"kuerzel": "I.15.7.06090",
 		"kuerzelKunde": "B4-2",
-		"description": "Wohnbevölkerung ab 15 Jahren nach Staatsangehörigkeit (Ländergruppen) und höchster abgeschlossener Ausbildung",
+		"description": "Wohnbevölkerung ab 15 Jahren nach Staatsangehörigkeit und höchster abgeschlossener Ausbildung",
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsabschlüsse",
 		"kennzahlenset": "Integration",
@@ -1286,11 +1286,11 @@ var indikatorensetData = [
 		"id": 6399
 	},
 	{
-		"title": "Ausländer der Ländergruppe EU-17+EFTA nach einzelnen Staatsangehörigkeiten",
+		"title": "Ausländer der Ländergruppe EU-17+EFTA",
 		"subtitle": "nach einzelnen Staatsangehörigkeiten 2016, Stand: 2016",
 		"kuerzel": "I.01.1.06400",
 		"kuerzelKunde": "A1-6",
-		"description": "Ausländer der Ländergruppe EU-17+EFTA nach einzelnen Staatsangehörigkeiten",
+		"description": "Ausländer der Ländergruppe EU-17+EFTA",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration",
@@ -1324,11 +1324,11 @@ var indikatorensetData = [
 		"id": 6400
 	},
 	{
-		"title": "Ausländer der Ländergruppe EU-Ost nach einzelnen StaatsangehörigkeitenAusländer der Ländergruppe EU-Ost nach einzelnen Staatsangehörigkeiten 2016",
+		"title": "Ausländer der Ländergruppe EU-OstAusländer der Ländergruppe EU-Ost nach einzelnen Staatsangehörigkeiten 2016",
 		"subtitle": "nach einzelnen Staatsangehörigkeiten, Stand: 2016",
 		"kuerzel": "I.01.1.06401",
 		"kuerzelKunde": "A1-7",
-		"description": "Ausländer der Ländergruppe EU-Ost nach einzelnen StaatsangehörigkeitenAusländer der Ländergruppe EU-Ost nach einzelnen Staatsangehörigkeiten 2016",
+		"description": "Ausländer der Ländergruppe EU-OstAusländer der Ländergruppe EU-Ost nach einzelnen Staatsangehörigkeiten 2016",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration",
@@ -1362,11 +1362,11 @@ var indikatorensetData = [
 		"id": 6401
 	},
 	{
-		"title": "Anteil Personen mit Hauptsprache Deutsch nach Staatsangehörigkeit (Ländergruppen)",
+		"title": "Anteil Personen mit Hauptsprache Deutsch nach Staatsangehörigkeit",
 		"subtitle": "Ländergruppen, gepoolte Daten 2011 bis 2015",
 		"kuerzel": "I.01.8.06402",
 		"kuerzelKunde": "A6-1",
-		"description": "Anteil Personen mit Hauptsprache Deutsch nach Staatsangehörigkeit (Ländergruppen)",
+		"description": "Anteil Personen mit Hauptsprache Deutsch nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Sprachen",
 		"kennzahlenset": "Integration",
@@ -1511,11 +1511,11 @@ var indikatorensetData = [
 		"id": 6405
 	},
 	{
-		"title": "Arbeitslosenquote nach Staatsangehörigkeit (Ländergruppen)",
+		"title": "Arbeitslosenquote nach Staatsangehörigkeit",
 		"subtitle": "Ländergruppen",
 		"kuerzel": "I.03.4.06406",
 		"kuerzelKunde": "C1-1",
-		"description": "Arbeitslosenquote nach Staatsangehörigkeit (Ländergruppen)",
+		"description": "Arbeitslosenquote nach Staatsangehörigkeit",
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Arbeitslose ",
 		"kennzahlenset": "Integration",
@@ -1706,11 +1706,11 @@ var indikatorensetData = [
 		"id": 6410
 	},
 	{
-		"title": "Arbeitslose nach Staatsangehörigkeit (CH/A) in ausgewählten Berufsgruppen",
-		"subtitle": "Stand: 2016",
+		"title": "Arbeitslose nach Staatsangehörigkeit in ausgewählten Berufsgruppen",
+		"subtitle": "Schweiz/Ausland; Stand: 2016",
 		"kuerzel": "I.03.4.06411",
 		"kuerzelKunde": "C1-6",
-		"description": "Arbeitslose nach Staatsangehörigkeit (CH/A) in ausgewählten Berufsgruppen",
+		"description": "Arbeitslose nach Staatsangehörigkeit in ausgewählten Berufsgruppen",
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Arbeitslose ",
 		"kennzahlenset": "Integration",
@@ -1819,11 +1819,11 @@ var indikatorensetData = [
 		"id": 6413
 	},
 	{
-		"title": "Erwerbstätigenquote nach Staatsangehörigkeit (CH/A) und Geschlecht",
-		"subtitle": "Schweiz vs. Ausland, geopplte Daten 2011 und 2015",
+		"title": "Erwerbstätigenquote nach Staatsangehörigkeit und Geschlecht",
+		"subtitle": "Schweiz/Ausland, geopplte Daten 2011 und 2015",
 		"kuerzel": "I.03.1.06415",
 		"kuerzelKunde": "C2-1",
-		"description": "Erwerbstätigenquote nach Staatsangehörigkeit (CH/A) und Geschlecht",
+		"description": "Erwerbstätigenquote nach Staatsangehörigkeit und Geschlecht",
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Erwerbspersonen ",
 		"kennzahlenset": "Integration",
@@ -1856,11 +1856,11 @@ var indikatorensetData = [
 		"id": 6415
 	},
 	{
-		"title": "Erwerbstätigenquote nach Staatsangehörigkeit (Ländergruppen)",
+		"title": "Erwerbstätigenquote nach Staatsangehörigkeit",
 		"subtitle": "Ländergruppen, gepoolte Daten, 2011 bis 2015",
 		"kuerzel": "I.03.1.06416",
 		"kuerzelKunde": "C2-2",
-		"description": "Erwerbstätigenquote nach Staatsangehörigkeit (Ländergruppen)",
+		"description": "Erwerbstätigenquote nach Staatsangehörigkeit",
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Erwerbspersonen ",
 		"kennzahlenset": "Integration",
@@ -1892,11 +1892,11 @@ var indikatorensetData = [
 		"id": 6416
 	},
 	{
-		"title": "Erwerbstätigenquote nach Staatsangehörigkeit (CH/A), Altersklassen und Geschlecht",
-		"subtitle": "Schweiz vs. Ausland, gepoolte Daten, 2011 bis 2015",
+		"title": "Erwerbstätigenquote nach Staatsangehörigkeit, Altersklassen und Geschlecht",
+		"subtitle": "Schweiz/Ausland, gepoolte Daten, 2011 bis 2015",
 		"kuerzel": "I.03.1.06417",
 		"kuerzelKunde": "C2-3",
-		"description": "Erwerbstätigenquote nach Staatsangehörigkeit (CH/A), Altersklassen und Geschlecht",
+		"description": "Erwerbstätigenquote nach Staatsangehörigkeit, Altersklassen und Geschlecht",
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Erwerbspersonen ",
 		"kennzahlenset": "Integration",
@@ -1930,11 +1930,11 @@ var indikatorensetData = [
 		"id": 6417
 	},
 	{
-		"title": "Erwerbsquote nach Staatsangehörigkeit (CH/A) und Geschlecht",
-		"subtitle": "Schweiz vs. Ausland, gepoolte Daten, 2011 bis 2015",
+		"title": "Erwerbsquote nach Staatsangehörigkeit und Geschlecht",
+		"subtitle": "Schweiz/Ausland, gepoolte Daten, 2011 bis 2015",
 		"kuerzel": "I.03.1.06418",
 		"kuerzelKunde": "C2-4",
-		"description": "Erwerbsquote nach Staatsangehörigkeit (CH/A) und Geschlecht",
+		"description": "Erwerbsquote nach Staatsangehörigkeit und Geschlecht",
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Erwerbspersonen ",
 		"kennzahlenset": "Integration",
@@ -1967,11 +1967,11 @@ var indikatorensetData = [
 		"id": 6418
 	},
 	{
-		"title": "Anteil der Staatsangestellten nach Staatsangehörigkeit (Ländergruppen)",
+		"title": "Anteil der Staatsangestellten nach Staatsangehörigkeit",
 		"subtitle": "Ländergruppen",
 		"kuerzel": "I.18.3.06419",
 		"kuerzelKunde": "C3-1",
-		"description": "Anteil der Staatsangestellten nach Staatsangehörigkeit (Ländergruppen)",
+		"description": "Anteil der Staatsangestellten nach Staatsangehörigkeit",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Staatspersonal",
 		"kennzahlenset": "Integration",
@@ -2084,11 +2084,11 @@ var indikatorensetData = [
 		"id": 6421
 	},
 	{
-		"title": "Anteil Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit (CH/A), Geschlecht und Kaderstufe",
-		"subtitle": "Schweiz vs. Ausland, Stand: 2016",
+		"title": "Anteil Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit, Geschlecht und Kaderstufe",
+		"subtitle": "Schweiz/Ausland, Stand: 2016",
 		"kuerzel": "I.18.3.06422",
 		"kuerzelKunde": "C3-4",
-		"description": "Anteil Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit (CH/A), Geschlecht und Kaderstufe",
+		"description": "Anteil Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit, Geschlecht und Kaderstufe",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Staatspersonal",
 		"kennzahlenset": "Integration",
@@ -2124,7 +2124,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anzahl Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit (CH/A), Geschlecht und Kaderstufe",
-		"subtitle": "Schweiz vs. Ausland, Stand: 2016",
+		"subtitle": "Schweiz/Ausland, Stand: 2016",
 		"kuerzel": "I.18.3.06423",
 		"kuerzelKunde": "C3-5",
 		"description": "Anzahl Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit (CH/A), Geschlecht und Kaderstufe",
@@ -2241,11 +2241,11 @@ var indikatorensetData = [
 		"id": 6425
 	},
 	{
-		"title": "Sozialhilfebeziehende nach Staatsangehörigkeit (Ländergruppen)",
+		"title": "Sozialhilfebeziehende nach Staatsangehörigkeit",
 		"subtitle": "Ländergruppen",
 		"kuerzel": "I.13.3.06426",
 		"kuerzelKunde": "C4-1",
-		"description": "Sozialhilfebeziehende nach Staatsangehörigkeit (Ländergruppen)",
+		"description": "Sozialhilfebeziehende nach Staatsangehörigkeit",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
 		"kennzahlenset": "Integration",
@@ -2278,11 +2278,11 @@ var indikatorensetData = [
 		"id": 6426
 	},
 	{
-		"title": "Sozialhilfequote nach Staatsangehörigkeit (Ländergruppen)",
+		"title": "Sozialhilfequote nach Staatsangehörigkeit",
 		"subtitle": "Ländergruppen",
 		"kuerzel": "I.13.3.06427",
 		"kuerzelKunde": "C4-2",
-		"description": "Sozialhilfequote nach Staatsangehörigkeit (Ländergruppen)",
+		"description": "Sozialhilfequote nach Staatsangehörigkeit",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
 		"kennzahlenset": "Integration",
@@ -2393,11 +2393,11 @@ var indikatorensetData = [
 		"id": 6429
 	},
 	{
-		"title": "IV-Quote nach Staatsangehörigkeit (Ländergruppen)",
+		"title": "IV-Quote nach Staatsangehörigkeit",
 		"subtitle": "Ländergruppen",
 		"kuerzel": "I.13.1.06430",
 		"kuerzelKunde": "C5-1",
-		"description": "IV-Quote nach Staatsangehörigkeit (Ländergruppen)",
+		"description": "IV-Quote nach Staatsangehörigkeit",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialversicherungen",
 		"kennzahlenset": "Integration",
@@ -2469,11 +2469,11 @@ var indikatorensetData = [
 		"id": 6431
 	},
 	{
-		"title": "IV-Quote nach Staatsangehörigkeit (CH/A) und Alter",
-		"subtitle": "Schweiz vs. Ausland, Stand: 2016",
+		"title": "IV-Quote nach Staatsangehörigkeit und Alter",
+		"subtitle": "Schweiz/Ausland, Stand: 2016",
 		"kuerzel": "I.13.1.06432",
 		"kuerzelKunde": "C5-3",
-		"description": "IV-Quote nach Staatsangehörigkeit (CH/A) und Alter",
+		"description": "IV-Quote nach Staatsangehörigkeit und Alter",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialversicherungen",
 		"kennzahlenset": "Integration",
@@ -2507,11 +2507,11 @@ var indikatorensetData = [
 		"id": 6432
 	},
 	{
-		"title": "Quintilsverteilung des Äquivalenz-Haushaltseinkommens nach Staatsangehörigkeit (CH/A)",
-		"subtitle": "Schweiz vs. Ausland, 2002 bis 2014, 3-Jahres-Pooling",
+		"title": "Quintilsverteilung des Äquivalenz-Haushaltseinkommens nach Staatsangehörigkeit",
+		"subtitle": "Schweiz/Ausland, 2002 bis 2014, 3-Jahres-Pooling",
 		"kuerzel": "I.03.3.06467",
 		"kuerzelKunde": "C6-1",
-		"description": "Quintilsverteilung des Äquivalenz-Haushaltseinkommens nach Staatsangehörigkeit (CH/A)",
+		"description": "Quintilsverteilung des Äquivalenz-Haushaltseinkommens nach Staatsangehörigkeit",
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Löhne ",
 		"kennzahlenset": "Integration",
@@ -2544,11 +2544,11 @@ var indikatorensetData = [
 		"id": 6467
 	},
 	{
-		"title": "Mittelwert des Reineinkommens pro Veranlagung nach Staatsangehörigkeit (Ländergruppen)",
+		"title": "Mittelwert des Reineinkommens pro Veranlagung nach Staatsangehörigkeit",
 		"subtitle": "Ländergruppen",
 		"kuerzel": "I.18.2.06468",
 		"kuerzelKunde": "C6-2",
-		"description": "Mittelwert des Reineinkommens pro Veranlagung nach Staatsangehörigkeit (Ländergruppen)",
+		"description": "Mittelwert des Reineinkommens pro Veranlagung nach Staatsangehörigkeit",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Integration",
@@ -2581,11 +2581,11 @@ var indikatorensetData = [
 		"id": 6468
 	},
 	{
-		"title": "Median des Reineinkommens pro Veranlagung nach Staatsangehörigkeit (Ländergruppen)",
+		"title": "Median des Reineinkommens pro Veranlagung nach Staatsangehörigkeit",
 		"subtitle": "Ländergruppen",
 		"kuerzel": "I.18.2.06469",
 		"kuerzelKunde": "C6-3",
-		"description": "Median des Reineinkommens pro Veranlagung nach Staatsangehörigkeit (Ländergruppen)",
+		"description": "Median des Reineinkommens pro Veranlagung nach Staatsangehörigkeit",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Integration",
@@ -2618,11 +2618,11 @@ var indikatorensetData = [
 		"id": 6469
 	},
 	{
-		"title": "Mittelwert des Reinvermögens pro Veranlagung nach Staatsangehörigkeit (Ländergruppen)",
+		"title": "Mittelwert des Reinvermögens pro Veranlagung nach Staatsangehörigkeit",
 		"subtitle": "Ländergruppen",
 		"kuerzel": "I.18.2.06470",
 		"kuerzelKunde": "C6-5",
-		"description": "Mittelwert des Reinvermögens pro Veranlagung nach Staatsangehörigkeit (Ländergruppen)",
+		"description": "Mittelwert des Reinvermögens pro Veranlagung nach Staatsangehörigkeit",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Integration",
@@ -2655,11 +2655,11 @@ var indikatorensetData = [
 		"id": 6470
 	},
 	{
-		"title": "Mittelwert und Median des Reineinkommens pro Veranlagung nach Staatsangehörigkeit (Top 10 der Mittelwerte)",
+		"title": "Mittelwert und Median des Reineinkommens pro Veranlagung nach Staatsangehörigkeit",
 		"subtitle": "Top 10 der Mittelwerte, Steuerjahr 2014",
 		"kuerzel": "I.18.2.06471",
 		"kuerzelKunde": "C6-4",
-		"description": "Mittelwert und Median des Reineinkommens pro Veranlagung nach Staatsangehörigkeit (Top 10 der Mittelwerte)",
+		"description": "Mittelwert und Median des Reineinkommens pro Veranlagung nach Staatsangehörigkeit",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Integration",
@@ -2766,11 +2766,11 @@ var indikatorensetData = [
 		"id": 6473
 	},
 	{
-		"title": "Familienmietzinsbeitragsquote nach Staatsangehörigkeit (CH/A)",
-		"subtitle": "Schweiz vs. Ausland",
+		"title": "Familienmietzinsbeitragsquote nach Staatsangehörigkeit",
+		"subtitle": "Schweiz/Ausland",
 		"kuerzel": "I.13.2.06474",
 		"kuerzelKunde": "D1-1",
-		"description": "Familienmietzinsbeitragsquote nach Staatsangehörigkeit (CH/A)",
+		"description": "Familienmietzinsbeitragsquote nach Staatsangehörigkeit",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Integration",
@@ -2803,11 +2803,11 @@ var indikatorensetData = [
 		"id": 6474
 	},
 	{
-		"title": "Mittlere Wohnfläche pro Person (m2) nach Staatsangehörigkeit (CH/A)",
-		"subtitle": "Schweiz vs. Ausland",
+		"title": "Mittlere Wohnfläche pro Person (m2) nach Staatsangehörigkeit",
+		"subtitle": "Schweiz/Ausland",
 		"kuerzel": "I.09.1.06475",
 		"kuerzelKunde": "D2-1",
-		"description": "Mittlere Wohnfläche pro Person (m2) nach Staatsangehörigkeit (CH/A)",
+		"description": "Mittlere Wohnfläche pro Person (m2) nach Staatsangehörigkeit",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Integration",
@@ -2842,11 +2842,11 @@ var indikatorensetData = [
 		"id": 6475
 	},
 	{
-		"title": "Mittlere Wohnfläche pro Person (m2) nach Staatsangehörigkeit (Ländergruppen)",
+		"title": "Mittlere Wohnfläche pro Person (m2) nach Staatsangehörigkeit",
 		"subtitle": "Ländergruppen, Stand: 2016",
 		"kuerzel": "I.09.1.06476",
 		"kuerzelKunde": "D2-2",
-		"description": "Mittlere Wohnfläche pro Person (m2) nach Staatsangehörigkeit (Ländergruppen)",
+		"description": "Mittlere Wohnfläche pro Person (m2) nach Staatsangehörigkeit",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Integration",
@@ -2880,11 +2880,11 @@ var indikatorensetData = [
 		"id": 6476
 	},
 	{
-		"title": "Mittlere Anzahl Personen pro Haushalt nach Staatsangehörigkeit (Ländergruppen)",
+		"title": "Mittlere Anzahl Personen pro Haushalt nach Staatsangehörigkeit",
 		"subtitle": "Ländergruppen, Stand: 2016",
 		"kuerzel": "I.01.2.06477",
 		"kuerzelKunde": "D2-3",
-		"description": "Mittlere Anzahl Personen pro Haushalt nach Staatsangehörigkeit (Ländergruppen)",
+		"description": "Mittlere Anzahl Personen pro Haushalt nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
 		"kennzahlenset": "Integration",
@@ -2918,11 +2918,11 @@ var indikatorensetData = [
 		"id": 6477
 	},
 	{
-		"title": "Mittlere Wohnfläche pro Person (m2) nach Staatsangehörigkeit (Ländergruppen) und Haushaltsgrösse",
+		"title": "Mittlere Wohnfläche pro Person (m2) nach Staatsangehörigkeit und Haushaltsgrösse",
 		"subtitle": "Ländergruppen, Stand: 2016",
 		"kuerzel": "I.01.2.06478",
 		"kuerzelKunde": "D2-4",
-		"description": "Mittlere Wohnfläche pro Person (m2) nach Staatsangehörigkeit (Ländergruppen) und Haushaltsgrösse",
+		"description": "Mittlere Wohnfläche pro Person (m2) nach Staatsangehörigkeit und Haushaltsgrösse",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
 		"kennzahlenset": "Integration",
@@ -3036,11 +3036,11 @@ var indikatorensetData = [
 		"id": 6480
 	},
 	{
-		"title": "Beschuldigte (Wohnkanton BS) ab 18 Jahren pro 1 000 Erwachsene nach Staatsangehörigkeit (Ländergruppen)",
+		"title": "Beschuldigte ab 18 Jahren pro 1000 Erwachsene nach Staatsangehörigkeit (Ländergruppen)",
 		"subtitle": "Ländergruppen",
 		"kuerzel": "I.19.1.06482",
 		"kuerzelKunde": "D4-1",
-		"description": "Beschuldigte (Wohnkanton BS) ab 18 Jahren pro 1 000 Erwachsene nach Staatsangehörigkeit (Ländergruppen)",
+		"description": "Beschuldigte ab 18 Jahren pro 1000 Erwachsene nach Staatsangehörigkeit (Ländergruppen)",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Integration",
@@ -3074,11 +3074,11 @@ var indikatorensetData = [
 		"id": 6482
 	},
 	{
-		"title": " Beschuldigte (Wohnkanton BS) ab 18 Jahren pro 1 000 Erwachsene nach Staatsangehörigkeit (CH/A), Geschlecht und Alter",
+		"title": "Beschuldigte ab 18 Jahren pro 1000 Erwachsene nach Staatsangehörigkeit (CH/A), Geschlecht und Alter",
 		"subtitle": "Schweiz vs. Ausöand, Stand: 2009",
 		"kuerzel": "I.19.1.06483",
 		"kuerzelKunde": "D4-2",
-		"description": " Beschuldigte (Wohnkanton BS) ab 18 Jahren pro 1 000 Erwachsene nach Staatsangehörigkeit (CH/A), Geschlecht und Alter",
+		"description": "Beschuldigte ab 18 Jahren pro 1000 Erwachsene nach Staatsangehörigkeit (CH/A), Geschlecht und Alter",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Integration",
@@ -3098,7 +3098,7 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Männer werden häufiger einer Straftat beschuldigt als Frauen; ebenso ausländische Einwohnerinnen und Einwohner häufiger als solche mit Schweizer Pass. Mit zunehmendem Alter nimmt die Anzahl Beschuldigter pro 1 000 Personen der entsprechenden Altersgruppe tendenziell ab. 2009 wiesen die jungen ausländischen Männer zwischen 18 und 24 Jahren mit 60,7 Beschuldigten pro 1 000 Personen die höchste Beschuldigtenrate auf.",
-		"erlaeuterungen": "Die Rate wird berechnet, in dem die Anzahl Beschuldigte durch die Anzahl Einwohner der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder dem Betäubungsmittelgesetz (BetmG) beschuldigt.",
+		"erlaeuterungen": "Die Rate wird berechnet, in dem die Anzahl Beschuldigte durch die Anzahl Einwohner der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder dem Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"template": "line001",
 		"orderKey": "04_00_00_00_00_011",
 		"parentId": null,
@@ -3114,11 +3114,11 @@ var indikatorensetData = [
 		"id": 6483
 	},
 	{
-		"title": "Beschuldigte (Wohnkanton BS) ab 18 Jahren nach Staatsangehörigkeit (CH/A), Geschlecht und Alter",
-		"subtitle": "Schweiz vs. Ausland, Stand: 2016",
+		"title": "Beschuldigte ab 18 Jahren nach Staatsangehörigkeit, Geschlecht und Alter",
+		"subtitle": "Schweiz/Ausland, Stand: 2016",
 		"kuerzel": "I.19.1.06484",
 		"kuerzelKunde": "D4-3",
-		"description": "Beschuldigte (Wohnkanton BS) ab 18 Jahren nach Staatsangehörigkeit (CH/A), Geschlecht und Alter",
+		"description": "Beschuldigte ab 18 Jahren nach Staatsangehörigkeit, Geschlecht und Alter",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Integration",
@@ -3138,7 +3138,7 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2016 ergab sich die höchste Beschuldigtenrate mit 73,1 bei den ausländischen Männern zwischen 18 und 24 Jahren. Bei den Schweizer Männern dieser Altersgruppe lag die Rate bei 38,3.",
-		"erlaeuterungen": "Die Rate wird berechnet, in dem die Anzahl Beschuldigte durch die Anzahl Einwohner der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder dem Betäubungsmittelgesetz (BetmG) beschuldigt.",
+		"erlaeuterungen": "Die Rate wird berechnet, in dem die Anzahl Beschuldigte durch die Anzahl Einwohner der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder dem Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"template": "template001",
 		"orderKey": "04_00_00_00_00_012",
 		"parentId": null,
@@ -3154,11 +3154,11 @@ var indikatorensetData = [
 		"id": 6484
 	},
 	{
-		"title": "Beschuldigte Ausländer (Wohnkanton BS) ab 18 Jahren nach Aufenthaltsstatus (B- und C-Bew., Übrige)",
+		"title": "Beschuldigte Ausländer ab 18 Jahren nach Aufenthaltsstatus (B- und C-Bew., Übrige)",
 		"subtitle": "B-Bewilligung, C-Bewilligung, Übrige",
 		"kuerzel": "I.19.1.06485",
 		"kuerzelKunde": "D4-4",
-		"description": "Beschuldigte Ausländer (Wohnkanton BS) ab 18 Jahren nach Aufenthaltsstatus (B- und C-Bew., Übrige)",
+		"description": "Beschuldigte Ausländer ab 18 Jahren nach Aufenthaltsstatus (B- und C-Bew., Übrige)",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Integration",
@@ -3177,7 +3177,7 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Von 2009 bis 2016 sank die Anzahl der in Basel-Stadt wohnhaften beschuldigten Ausländerinnen und Ausländer mit einer C-Bewilligung von 530 auf 503. Die Anzahl beschuldigter Ausländerinnen und Ausländer mit einer B-Bewilligung stiegt dagegen leicht von 267 auf 271 Personen.",
-		"erlaeuterungen": "Bewilligunsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
+		"erlaeuterungen": "Bewilligunsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder dem Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"template": "line001",
 		"orderKey": "04_00_00_00_00_013",
 		"parentId": null,
@@ -3193,11 +3193,11 @@ var indikatorensetData = [
 		"id": 6485
 	},
 	{
-		"title": "Beschuldigte Jugendliche (Wohnkanton BS) zwischen 10 und 17 Jahren pro 1 000 Jugendliche (10 - 17 J.) nach Staatsangehörigkeit (Ländergruppen)",
+		"title": "Beschuldigte Jugendliche pro 1000 Jugendliche nach Staatsangehörigkeit",
 		"subtitle": "Ländergruppe, 2011 bis 2016",
 		"kuerzel": "I.19.1.06487",
 		"kuerzelKunde": "D5-1",
-		"description": "Beschuldigte Jugendliche (Wohnkanton BS) zwischen 10 und 17 Jahren pro 1 000 Jugendliche (10 - 17 J.) nach Staatsangehörigkeit (Ländergruppen)",
+		"description": "Beschuldigte Jugendliche pro 1000 Jugendliche nach Staatsangehörigkeit",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Integration",
@@ -3215,7 +3215,7 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2016 wurden von 1 000 im Kanton Basel-Stadt wohnhaften 10- bis 17-jährigen Schweizer Jugendlichen 13,5 einer Straftat beschuldigt. Im Jahr 2015 waren es 14,7. Weniger Beschuldigte wurden mit 11,9 pro 1 000 Personen im Jahr 2015 und mit 12,7 pro 1 000 Personen im Jahr 2016 bei Jugendlichen aus den EU-17 und EFTA-Ländern registriert. Von 2011 bis 2016 sank die Rate der beschuldigten türkischen Jugendlichen von 21,5 auf 18,3. Der Wert für deutsche Jugendliche lag fast über den gesamten Zeitraum unter den Vergleichswerten der anderen Länder und Ländergruppen.",
-		"erlaeuterungen": "Die Strafmündigkeit beginnt bei Kindern ab dem Alter von 10 Jahren. Die Auswertung beginnt mit dem Jahr des Inkraftretens der Schweizerischen Jugendstrafprozessordnung am 1. Januar 2011. Die berücksichtigten beschuldigten Jugendlichen wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder dem Betäubungsmittelgesetz (BetmG) beschuldigt.",
+		"erlaeuterungen": "Die Strafmündigkeit beginnt bei Kindern ab dem Alter von 10 Jahren. Die Auswertung beginnt mit dem Jahr des Inkraftretens der Schweizerischen Jugendstrafprozessordnung am 1. Januar 2011. Die berücksichtigten beschuldigten Jugendlichen wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder dem Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"template": "line001",
 		"orderKey": "04_00_00_00_00_014",
 		"parentId": null,
@@ -3231,11 +3231,11 @@ var indikatorensetData = [
 		"id": 6487
 	},
 	{
-		"title": "Beschuldigte Jugendliche (Wohnkanton BS) zwischen 10 bis 17 Jahren pro 1 000 Jugendliche (10 - 17 J.) nach Staatsangehörigkeit (CH/A), Geschlecht und Alter",
-		"subtitle": "Schweiz vs. Ausland",
+		"title": "Beschuldigte Jugendliche pro 1000 Jugendliche nach Staatsangehörigkeit, Geschlecht und Alter",
+		"subtitle": "Schweiz/Ausland, Jugendliche zwischen 10 und 17 Jahren",
 		"kuerzel": "I.19.1.06488",
 		"kuerzelKunde": "D5-2",
-		"description": "Beschuldigte Jugendliche (Wohnkanton BS) zwischen 10 bis 17 Jahren pro 1 000 Jugendliche (10 - 17 J.) nach Staatsangehörigkeit (CH/A), Geschlecht und Alter",
+		"description": "Beschuldigte Jugendliche pro 1000 Jugendliche nach Staatsangehörigkeit, Geschlecht und Alter",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Integration",
@@ -3255,7 +3255,7 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2011 wurden sowohl in der Altersgruppe der 10- bis 14-Jährigen wie auch der 15- bis 17-Jährigen Schweizer Jugendliche seltener einer Straftat beschuldigt als ausländische Jugendliche.",
-		"erlaeuterungen": "Die Strafmündigkeit beginnt bei Kindern ab dem Alter von 10 Jahren. Die Auswertung beginnt mit dem Jahr des Inkraftretens der Schweizerischen Jugendstrafprozessordnung am 1. Januar 2011. Die berücksichtigten beschuldigten Jugendlichen wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder dem Betäubungsmittelgesetz (BetmG) beschuldigt.",
+		"erlaeuterungen": "Die Strafmündigkeit beginnt bei Kindern ab dem Alter von 10 Jahren. Die Auswertung beginnt mit dem Jahr des Inkraftretens der Schweizerischen Jugendstrafprozessordnung am 1. Januar 2011. Die berücksichtigten beschuldigten Jugendlichen wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder dem Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"template": "template001",
 		"orderKey": "04_00_00_00_00_015",
 		"parentId": null,
@@ -3271,11 +3271,11 @@ var indikatorensetData = [
 		"id": 6488
 	},
 	{
-		"title": "Beschuldigte Jugendliche (Wohnkanton BS) zwischen 10 bis 17 Jahren pro 1 000 Jugendliche (10 - 17 J.) nach Staatsangehörigkeit (CH/A), Geschlecht und Alter",
-		"subtitle": "Schweiz vs. Ausland",
+		"title": "Beschuldigte Jugendliche pro 1000 Jugendliche nach Staatsangehörigkeit, Geschlecht und Alter",
+		"subtitle": "Schweiz/Ausland, Jugendliche im Alter zwischen 10 und 17 Jahren",
 		"kuerzel": "I.19.1.06489",
 		"kuerzelKunde": "D5-3",
-		"description": "Beschuldigte Jugendliche (Wohnkanton BS) zwischen 10 bis 17 Jahren pro 1 000 Jugendliche (10 - 17 J.) nach Staatsangehörigkeit (CH/A), Geschlecht und Alter",
+		"description": "Beschuldigte Jugendliche pro 1000 Jugendliche nach Staatsangehörigkeit, Geschlecht und Alter",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Integration",
@@ -3295,7 +3295,7 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Wie schon 2011 wurden auch im Jahr 2016 Schweizer Jugendliche seltener einer Straftat beschuldigt als ausländische Jugendliche.",
-		"erlaeuterungen": "Die Strafmündigkeit beginnt bei Kindern ab dem Alter von 10 Jahren. Die Auswertung beginnt mit dem Jahr des Inkraftretens der Schweizerischen Jugendstrafprozessordnung am 1. Januar 2011. Die berücksichtigten beschuldigten Jugendlichen wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder dem Betäubungsmittelgesetz (BetmG) beschuldigt.",
+		"erlaeuterungen": "Die Strafmündigkeit beginnt bei Kindern ab dem Alter von 10 Jahren. Die Auswertung beginnt mit dem Jahr des Inkraftretens der Schweizerischen Jugendstrafprozessordnung am 1. Januar 2011. Die berücksichtigten beschuldigten Jugendlichen wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder dem Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"template": "template001",
 		"orderKey": "04_00_00_00_00_016",
 		"parentId": null,
@@ -3311,11 +3311,11 @@ var indikatorensetData = [
 		"id": 6489
 	},
 	{
-		"title": "Beschuldigte ausländische Jugendliche (Wohnkanton BS) zwischen 10 und 17 Jahren nach Aufenthaltsstatus (B- und C-Bew., Übrige)",
-		"subtitle": "",
+		"title": "Beschuldigte ausländische Jugendliche nach Aufenthaltsstatus (B- und C-Bew., Übrige)",
+		"subtitle": "Jugendliche zwischen 10 und 17 Jahren",
 		"kuerzel": "I.19.1.06490",
 		"kuerzelKunde": "D5-4",
-		"description": "Beschuldigte ausländische Jugendliche (Wohnkanton BS) zwischen 10 und 17 Jahren nach Aufenthaltsstatus (B- und C-Bew., Übrige)",
+		"description": "Beschuldigte ausländische Jugendliche nach Aufenthaltsstatus (B- und C-Bew., Übrige)",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Integration",
@@ -3335,7 +3335,7 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Von 2011 bis 2016 sank die Anzahl der in Basel-Stadt wohnhaften beschuldigten ausländischen Jugendlichen zwischen 10 und 17 Jahren mit einer C-Bewilligung von 57 auf 49. Die Anzahl ausländischer Jugendlichen mit einer B-Bewilligung sank ebenfalls von 16 auf 9 Personen.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Die berücksichtigten beschuldigten Jugendlichen wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder dem Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"template": "line001",
 		"orderKey": "04_00_00_00_00_017",
 		"parentId": null,
@@ -3351,11 +3351,11 @@ var indikatorensetData = [
 		"id": 6490
 	},
 	{
-		"title": "Beschuldigte Jugendliche (Wohnkanton BS) zwischen 10 und 17 Jahren nach Staatsangehörigkeit (CH/A) und Straftatbestand",
-		"subtitle": "Schweiz vs. Ausland, Stand: 2016",
+		"title": "Beschuldigte Jugendliche nach Staatsangehörigkeit und Straftatbestand",
+		"subtitle": "Schweiz/Ausland, Jugendliche zwischen 10 und 17 Jahren; Stand: 2016",
 		"kuerzel": "I.19.1.06491",
 		"kuerzelKunde": "D5-5",
-		"description": "Beschuldigte Jugendliche (Wohnkanton BS) zwischen 10 und 17 Jahren nach Staatsangehörigkeit (CH/A) und Straftatbestand",
+		"description": "Beschuldigte Jugendliche nach Staatsangehörigkeit und Straftatbestand",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Integration",
@@ -3373,7 +3373,7 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Diebstahl und Betäubungsmittelkonsum sind die häufigsten Delikte, die Jugendliche begehen. Bei 4 von 10 der beschuldigten Jugendlichen zwischen 10 und 17 Jahren ging es im Jahr 2016 um einen dieser Straftatbestände. Dies gilt für Schweizer und ausländische Jugendliche.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Die berücksichtigten beschuldigten Jugendlichen wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder dem Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"template": "template001",
 		"orderKey": "04_00_00_00_00_018",
 		"parentId": null,
@@ -3387,7 +3387,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Beteiligung an Freiwilligenarbeit nach Staatsangehörigkeit",
-		"subtitle": "Schweiz vs. Ausland",
+		"subtitle": "Schweiz/Ausland",
 		"kuerzel": "I.03.2.06492",
 		"kuerzelKunde": "D6-1",
 		"description": "Beteiligung an Freiwilligenarbeit nach Staatsangehörigkeit",
@@ -3423,11 +3423,11 @@ var indikatorensetData = [
 		"id": 6492
 	},
 	{
-		"title": "Anerkannte Religionen nach Staatsangehörigkeit (Ländergruppen)",
+		"title": "Anerkannte Religionen nach Staatsangehörigkeit",
 		"subtitle": "Ländergruppen",
 		"kuerzel": "I.01.7.06493",
 		"kuerzelKunde": "D7-1",
-		"description": "Anerkannte Religionen nach Staatsangehörigkeit (Ländergruppen)",
+		"description": "Anerkannte Religionen nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Religionen",
 		"kennzahlenset": "Integration",
@@ -3460,11 +3460,11 @@ var indikatorensetData = [
 		"id": 6493
 	},
 	{
-		"title": "Anerkannte Religionen nach Staatsangehörigkeit (Ländergruppen)",
+		"title": "Anerkannte Religionen nach Staatsangehörigkeit",
 		"subtitle": "Ländergruppen, Stand: 2016",
 		"kuerzel": "I.01.7.06494",
 		"kuerzelKunde": "D7-2",
-		"description": "Anerkannte Religionen nach Staatsangehörigkeit (Ländergruppen)",
+		"description": "Anerkannte Religionen nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Religionen",
 		"kennzahlenset": "Integration",
@@ -3907,11 +3907,11 @@ var indikatorensetData = [
 		"id": 6513
 	},
 	{
-		"title": "Ausgestellte und eingelöste Gutscheine für Gratis-Deutschkurse nach Staatsangehörigkeit (Ländergruppen)",
+		"title": "Ausgestellte und eingelöste Gutscheine für Gratis-Deutschkurse nach Staatsangehörigkeit",
 		"subtitle": "Ländergruppen, Stand: 2016",
 		"kuerzel": "I.15.6.06514",
 		"kuerzelKunde": "B5-1",
-		"description": "Ausgestellte und eingelöste Gutscheine für Gratis-Deutschkurse nach Staatsangehörigkeit (Ländergruppen)",
+		"description": "Ausgestellte und eingelöste Gutscheine für Gratis-Deutschkurse nach Staatsangehörigkeit",
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsniveau",
 		"kennzahlenset": "Integration",

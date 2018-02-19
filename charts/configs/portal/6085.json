@@ -227,7 +227,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Lernendenquote nach Staatsangehörigkeit (CH\u002FA) und Geschlecht"
+    "text": "Lernendenquote nach Staatsangehörigkeit und Geschlecht"
   },
   "subtitle": {
     "style": {
@@ -236,7 +236,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Schweiz vs. Ausland",
+    "text": "Schweiz\u002FAusland",
     "align": "left"
   },
   "tooltip": {

@@ -296,7 +296,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Quintilsverteilung des Äquivalenz-Haushaltseinkommens nach Staatsangehörigkeit (CH\u002FA)"
+    "text": "Quintilsverteilung des Äquivalenz-Haushaltseinkommens nach Staatsangehörigkeit"
   },
   "subtitle": {
     "style": {
@@ -305,7 +305,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Schweiz vs. Ausland, 2002 bis 2014, 3-Jahres-Pooling",
+    "text": "Schweiz\u002FAusland, 2002 bis 2014, 3-Jahres-Pooling",
     "align": "left"
   },
   "yAxis": {

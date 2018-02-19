@@ -140,7 +140,7 @@
     <g class="highcharts-markers highcharts-series-10 highcharts-pie-series highcharts-color-undefined " transform="translate(10,224) scale(1 1)"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Beschuldigte (Wohnkanton BS) ab 18 Jahren pro 1 000</tspan><tspan dy="17" x="10">Erwachsene nach Staatsangehörigkeit (Ländergruppen)</tspan><title>Beschuldigte (Wohnkanton BS) ab 18 Jahren pro 1 000 Erwachsene nach Staatsangehörigkeit (Ländergruppen)</title>
+    <tspan>Beschuldigte ab 18 Jahren pro 1000 Erwachsene nach</tspan><tspan dy="17" x="10">Staatsangehörigkeit (Ländergruppen)</tspan><title>Beschuldigte ab 18 Jahren pro 1000 Erwachsene nach Staatsangehörigkeit (Ländergruppen)</title>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="57">
     <tspan>Ländergruppen</tspan>

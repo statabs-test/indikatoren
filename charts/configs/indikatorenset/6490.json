@@ -157,7 +157,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Beschuldigte ausländische Jugendliche (Wohnkanton BS) zwischen 10 und 17 Jahren nach Aufenthaltsstatus (B- und C-Bew., Übrige)"
+    "text": "Beschuldigte ausländische Jugendliche nach Aufenthaltsstatus (B- und C-Bew., Übrige)"
   },
   "subtitle": {
     "style": {
@@ -166,7 +166,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Jugendliche zwischen 10 und 17 Jahren",
     "align": "left"
   },
   "tooltip": {

@@ -280,7 +280,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Erwerbsquote nach Staatsangehörigkeit (CH\u002FA) und Geschlecht"
+    "text": "Erwerbsquote nach Staatsangehörigkeit und Geschlecht"
   },
   "subtitle": {
     "style": {
@@ -289,7 +289,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Schweiz vs. Ausland, gepoolte Daten, 2011 bis 2015",
+    "text": "Schweiz\u002FAusland, gepoolte Daten, 2011 bis 2015",
     "align": "left"
   },
   "yAxis": {

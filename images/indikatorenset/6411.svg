@@ -66,10 +66,10 @@
     <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(475,340) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Arbeitslose nach Staatsangehörigkeit (CH/A) in ausgewählten</tspan><tspan dy="17" x="10">Berufsgruppen</tspan><title>Arbeitslose nach Staatsangehörigkeit (CH/A) in ausgewählten Berufsgruppen</title>
+    <tspan>Arbeitslose nach Staatsangehörigkeit in ausgewählten</tspan><tspan dy="17" x="10">Berufsgruppen</tspan><title>Arbeitslose nach Staatsangehörigkeit in ausgewählten Berufsgruppen</title>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="57">
-    <tspan>Stand: 2016</tspan>
+    <tspan>Schweiz/Ausland; Stand: 2016</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(163,70)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="226" height="25" visibility="visible"/>

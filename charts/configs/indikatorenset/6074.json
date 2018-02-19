@@ -164,7 +164,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Median der Aufenthaltsdauer der Ausländer nach Staatsangehörigkeit (Ländergruppen) in der Schweiz \u002F in Basel-Stadt"
+    "text": "Median der Aufenthaltsdauer der Ausländer in der Schweiz \u002F in Basel-Stadt  nach Staatsangehörigkeit"
   },
   "subtitle": {
     "style": {
@@ -173,7 +173,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2016",
+    "text": "Ländergruppen; Stand: 2016",
     "align": "left"
   },
   "yAxis": {

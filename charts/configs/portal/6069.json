@@ -172,7 +172,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Altersquotient nach Staatsangehörigkeit (Ländergruppen)"
+    "text": "Altersquotient nach Staatsangehörigkeit"
   },
   "subtitle": {
     "style": {
@@ -181,7 +181,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Ländergruppen",
     "align": "left"
   },
   "yAxis": {

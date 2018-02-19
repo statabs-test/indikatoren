@@ -57,7 +57,10 @@
     <g class="highcharts-markers highcharts-series-2 highcharts-area-series highcharts-color-undefined " transform="translate(43,112) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Beschuldigte ausländische Jugendliche (Wohnkanton BS)</tspan><tspan dy="17" x="10">zwischen 10 und 17 Jahren nach Aufenthaltsstatus (B- und C-</tspan><tspan dy="17" x="10">Bew., Übrige)</tspan><title>Beschuldigte ausländische Jugendliche (Wohnkanton BS) zwischen 10 und 17 Jahren nach Aufenthaltsstatus (B- und C-Bew., Übrige)</title>
+    <tspan>Beschuldigte ausländische Jugendliche nach</tspan><tspan dy="17" x="10">Aufenthaltsstatus (B- und C-Bew., Übrige)</tspan><title>Beschuldigte ausländische Jugendliche nach Aufenthaltsstatus (B- und C-Bew., Übrige)</title>
+  </text>
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="57">
+    <tspan>Jugendliche zwischen 10 und 17 Jahren</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(35,70)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="296" height="30" visibility="visible"/>
