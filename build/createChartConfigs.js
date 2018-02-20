@@ -43,7 +43,7 @@ var geojson_scalebarEPSG2056 = JSON.parse(fs.readFileSync('geojson/scalebar_EPSG
         //if (error) { throw error; }
 
         //var views = [true, false];
-        var views = ['indikatorenset', 'portal'/*, 'print'*/];
+        var views = ['portal'/*, 'print'*/];
         views.forEach(function(view){
             console.log('Starting creation of chart config for indikatorensetView=' + view);
 
@@ -52,7 +52,7 @@ var geojson_scalebarEPSG2056 = JSON.parse(fs.readFileSync('geojson/scalebar_EPSG
                 var indikator = JSON.parse(fs.readFileSync('metadata/single/' + id + '.json'));
                 //only create json files if indikator is visible and not from kennzahlenset "Umwelt"
                 if ((indikator.visible == undefined || indikator.visible) && indikator.kennzahlenset != "Umwelt"){
-                    console.log('Creating config for chart ' + indikator.id + ', indikatorensetView=' + view +'...');
+                    console.log('Creating config for chart ' + indikator.id + ', view=' + view +'...');
                     saveChartConfig(indikator, view, console);
                 }
                 else {
@@ -115,6 +115,8 @@ function saveChartConfig(indikator, view, console){
 
     try{
         var csv = (fs.readFileSync('data/' + indikator.id + '.tsv', 'utf8'));
+        //remove quotes from data
+        var dataWithoutQuotes = csv.replace(/"/g, "");
         var result = execute('charts/templates/' + indikator.id + '.js', {Highcharts: Highcharts, geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056, rheinDataEPSG2056: rheinDataEPSG2056, scalebarDataEPSG2056: scalebarDataEPSG2056, console: console});
         var options = (result.result || {} );
     
@@ -127,8 +129,8 @@ function saveChartConfig(indikator, view, console){
         var template = result.result;
     
         var ctx = execute("assets/js/indikatoren-highcharts.js", {Highcharts: Highcharts, chartOptions: {},  geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056, rheinDataEPSG2056: rheinDataEPSG2056, scalebarDataEPSG2056: scalebarDataEPSG2056, console: console}).context;
-    
-        ctx.createChartConfig(csv, options, template, indikator, view, true, function(options){
+        
+        ctx.createChartConfig(dataWithoutQuotes, options, template, indikator, view, true, function(options){
             var stringifiedOptions = serialize(options, {space: 2});
             var filePath = 'charts/configs/' + view + '/';
             //var filePath = (isIndikatorensetView(view)) ? 'charts/configs/indikatorenset/' : 'charts/configs/portal/';

@@ -208,7 +208,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der 10-Jahresspanne von 2007 bis 2016 nahm die Bevölkerung in Basel-Stadt von 187 684 auf 198 206 Personen zu. Dies entspricht einer Steigerung um 5,6%.",
+		"lesehilfe": "In der 10-Jahresspanne von 2008 bis 2017 nahm die Bevölkerung in Basel-Stadt von 188 556 auf 198 988 Personen zu. Dies entspricht einem Wachstum um 5,0%.",
 		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774 - 1847: Kantonale Volkszählungen; 1850 - 1900: Eidgenössische Volkszählungen; 1901 - 2011: Fortschreibung der kantonalen Bevölkerungsstatistik; Ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 		"template": "stock001",
 		"orderKey": "02_01_00_00_00_000",
@@ -237,7 +237,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-01-23T10:24:11.1111",
+		"aktualisierungsdatum": "2018-01-18T10:24:11.1111",
 		"schlagwort": [
 			"Gebäude",
 			"Haushalt"
@@ -247,7 +247,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 2008 steigt der gesamte Wohnungsbestand leicht und stetig an. Am stärksten war das Wachstum bei den Fünfzimmerwohnungen (+12% seit 2006). Rückläufig bzw. nahezu unverändert war dagegen die Entwicklung bei den Ein- und Zweizimmerwohnungen (-7% bzw. +0,6%).",
+		"lesehilfe": "Seit 2008 steigt der gesamte Wohnungsbestand leicht und stetig an. Am stärksten war das Wachstum bei den Fünf- bzw. Vierzimmerwohnungen (+10,9% bzw. 8,6% seit 2008). Rückläufig war dagegen die Entwicklung bei den Einzimmerwohnungen (-3,2%).",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"orderKey": "02_02_00_00_00_000",
@@ -264,7 +264,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anteile am Wohnungsbestand",
-		"subtitle": "nach Zimmerzahl und Wohnflächenkategorie, Stand 2016",
+		"subtitle": "nach Zimmerzahl und Wohnflächenkategorie, Stand 2017",
 		"kuerzel": "I.09.1.04134",
 		"kuerzelKunde": "1.2.B",
 		"description": "Anteile am Wohnungsbestand",
@@ -274,7 +274,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-01-19T15:55:59.5959",
+		"aktualisierungsdatum": "2018-01-18T15:55:59.5959",
 		"schlagwort": [
 			"Gebäude",
 			"Haushalt"
@@ -284,7 +284,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am zahlreichsten sind 2016 nach Zimmerzahl betrachtet die 3-Zimmerwohnungen (37%) und nach Wohnungsflächenkategorie Logis zwischen 70 und 99 Quadratmetern (35%).",
+		"lesehilfe": "Am zahlreichsten sind 2017 nach Zimmerzahl betrachtet die 3-Zimmerwohnungen (37%) und nach Wohnungsflächenkategorie Logis zwischen 70 und 99 Quadratmetern (35%).",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"orderKey": "02_02_00_00_00_000",
@@ -311,7 +311,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-01-16T13:02:39.3939",
+		"aktualisierungsdatum": "2018-01-18T13:02:39.3939",
 		"schlagwort": [
 			"Gebäude",
 			"Haushalt"
@@ -321,7 +321,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2016 war die Nettowohnungsproduktion überdurchschnittlich hoch. Dazu beigetragen hat eine hohe Neubauproduktion, ein positiver Umbausaldo und eine niedrige Anzahl von Abbrüchen.",
+		"lesehilfe": "2017 war der Umbausaldo wiederum positiv wie stets seit 2011. Dazu beigetragen hat eine Vielzahl von Dachstockausbauten.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"orderKey": "02_02_00_00_00_000",
@@ -350,7 +350,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-01-19T16:23:33.3333",
+		"aktualisierungsdatum": "2018-01-18T16:23:33.3333",
 		"schlagwort": [
 			"Gebäude",
 			"Haushalt"
@@ -387,7 +387,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-20T14:31:47.4747",
+		"aktualisierungsdatum": "2018-01-18T14:31:47.4747",
 		"schlagwort": [
 			"Gebäude",
 			"Haushalt"
@@ -397,8 +397,8 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit 412 Einheiten war 2016 die Neubauproduktion überdurchschnittlich, aber erwartungsgemäss nicht mehr so hoch wie im Vorjahr.",
-		"erlaeuterungen": "Es werden nur neu erstellte Wohnungen in Neubauten berücksichtigt. Neue Wohnungen aus Umbauten sind demnach nicht enthalten.",
+		"lesehilfe": "Mit 369 Einheiten blieb die Nettoproduktion 2017 wiederum auf einem relativ hohen Niveau. Einzig im Jahre 2015 war sie deutlich höher, was auf die Fertigstellung grosser Neubauprojekte auf dem Erlenmattareal zurückzuführen war.",
+		"erlaeuterungen": "Es werden nur neu erstellte Wohnungen in Neubauten berücksichtigt. Neue Wohnungen aus Umbauten sind nicht enthalten. Die Neubauprognose wird aufgrund der baubegonnenen Projekte und der voraussichtlichen Baudauer hochgerechnet. Der Durchschnitt der Neubauproduktion errechnet sich aus dem arithmetischen Mittel der Neubauten der dargestellten Jahre (exklusive Neubauprognose).",
 		"template": "template001",
 		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
@@ -499,7 +499,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-01-24T12:33:26.2626",
+		"aktualisierungsdatum": "2018-01-18T12:33:26.2626",
 		"schlagwort": [
 			"Gebäude",
 			"Haushalt"
@@ -515,7 +515,9 @@ var indikatorensetData = [
 		"orderKey": "02_03_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"5815"
+			"5815",
+			"6027",
+			"6362"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -723,7 +725,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-02-02T16:59:21.2121",
+		"aktualisierungsdatum": "2018-01-18T16:59:21.2121",
 		"schlagwort": [
 			"Gebäude",
 			"Haushalt"
@@ -733,7 +735,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Wohnungen mit 4 oder mehr Zimmern stieg zum einen in der Dekade der 1970er-Jahre, und zwar um 2,6 Prozentpunkte. Zum anderen nimmt der Anteil seit 2010 wieder zu. Dazwischen war kaum oder nur ein marginales Wachstum zu verzeichnen.",
+		"lesehilfe": "Der Anteil Wohnungen mit 4 oder mehr Zimmern stieg zum einen in der Dekade der 1970er-Jahre, und zwar um 2,6 Prozentpunkte. Zum anderen nahm er von 2005 bis 2014 (1,9 Prozentpunkte) zu. Dazwischen war kaum oder nur ein marginales Wachstum zu verzeichnen.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"orderKey": "03_01_00_00_00_000",
@@ -807,8 +809,8 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl volljähriger Personen mit Hauptwohnsitz in Basel-Stadt nimmt stetig leicht zu. Diese Personen versteuern ihr Einkommen oder ihre Vermögenswerte, falls vorhanden, in der Regel in Basel-Stadt.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Die Anzahl volljähriger Personen mit Hauptwohnsitz in Basel-Stadt nimmt stetig zu. Diese Personen versteuern ihr Einkommen oder ihre Vermögenswerte, falls vorhanden, in der Regel in Basel-Stadt.",
+		"erlaeuterungen": "Für den Indikator werden die Personen ab 18 Jahren mit dem Meldeverhältnis Hauptwohnsitz in Basel-Stadt und dem Bevölkerungstyp Nichtständige Wohnbevölkerung oder Ständige Wohnbevölkerung berücksichtigt.",
 		"template": "line001",
 		"orderKey": "03_02_00_00_00_000",
 		"parentId": null,
@@ -1021,7 +1023,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-06-19T11:56:25.2525",
+		"aktualisierungsdatum": "2018-01-18T11:56:25.2525",
 		"schlagwort": [
 			"Gebäude",
 			"Haushalt"
@@ -1031,8 +1033,8 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die wenigen Notwohnungen – 2016 machten sie 0,13% des Wohnungsbestandes aus – waren immer zu rund 90% belegt. In den Jahren 2013 und 2014 betrug die Belegung sogar mehr als 95%. Durch Aufstockungen bestehender Blockrandsiedlungen konnte das Angebot seit 2013 um 50 Logis erhöht werden.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Die wenigen Notwohnungen – 2017 machten sie 0,13% des Wohnungsbestandes aus – waren immer zu mindestens 86% belegt. In den Jahren 2013 und 2014 betrug die Belegung sogar mehr als 95%. Durch Aufstockungen bestehender Blockrandsiedlungen konnte das Angebot seit 2013 um 50 Logis erhöht werden.",
+		"erlaeuterungen": "Die Belegung wird Ende Jahr gemäss den Einträgen im Einwohnerregister gemessen.",
 		"template": "template001",
 		"orderKey": "05_01_00_00_00_000",
 		"parentId": null,
