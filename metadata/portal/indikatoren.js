@@ -8058,7 +8058,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Wohnbevölkerung ist im Kanton Basel-Stadt zwischen 2005 und 2015 von 187 920 auf 198 988 gestiegen, was einem Anstieg um etwa 4,9% entspricht. Demgegenüber stieg die Zahl der Beschäftigten um 11,1% von 171 743 auf 190 753.",
+		"lesehilfe": "Die Wohnbevölkerung ist im Kanton Basel-Stadt zwischen 2005 und 2015 von 187 920 auf 197 204 gestiegen, was einem Anstieg um etwa 4,9% entspricht. Demgegenüber stieg die Zahl der Beschäftigten um 11,1% von 171 743 auf 190 753.",
 		"erlaeuterungen": "Es ist jeweils der Bevölkerungsbestand Ende Jahr abgebildet. Referenzperiode für die Beschäftigten ist jeweils der Dezember. Beschäftigte werden berücksichtigt, sofern sie aufgrund eines Mindesteinkommens von 2 300 Franken im Jahr AHV-Beiträge zahlen müssen.",
 		"template": "line001",
 		"visibleInPortal": true,
