@@ -11,7 +11,7 @@
   "xAxis": {
     "type": "category",
     "labels": {
-      "rotation": -45 
+      "rotation": 0 
     } 
   },
   "yAxis": {
@@ -42,8 +42,8 @@
   },
   "chart": {      
     "type": "column",
-    "inverted": false,
-    //"spacingTop": 100
+    "inverted": true,
+    "spacingBottom": 50
   }
 }
 }());

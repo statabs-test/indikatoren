@@ -167,7 +167,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Schweiz vs. Ausöand, Stand: 2009",
+    "text": "Schweiz vs. Ausland, Stand: 2009",
     "align": "left"
   },
   "tooltip": {
@@ -214,8 +214,8 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "y": 70,
-    "itemWidth": 300,
+    "y": 50,
+    "itemWidth": 150,
     "itemStyle": {
       "fontWeight": "normal"
     }

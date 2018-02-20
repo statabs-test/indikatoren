@@ -89,6 +89,7 @@
             }
           }
     },
+    "marginBottom": 75,
     "type": "column",
     "inverted": false,
     "renderTo": "container-6475"
@@ -111,7 +112,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Mittlere Wohnfläche pro Person (m2) nach Staatsangehörigkeit"
+    "text": "Mittlere Wohnfläche pro Person (m²) nach Staatsangehörigkeit"
   },
   "subtitle": {
     "style": {
@@ -168,7 +169,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "y": 55,
+    "y": 35,
     "itemWidth": 300,
     "itemStyle": {
       "fontWeight": "normal"

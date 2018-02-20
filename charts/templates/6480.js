@@ -24,7 +24,7 @@
     },
   },
   "legend": {
-  	"itemWidth": 200,
+  	"itemWidth": 100,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
@@ -46,6 +46,7 @@
     "inverted": false
   },
   "tooltip": {
+    headerFormat: '<style="font-size: 10px">Alter: {point.key}</span><br/>',
   "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}</b><br/>',
    "shared": false
   },

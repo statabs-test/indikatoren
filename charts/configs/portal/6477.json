@@ -20,7 +20,7 @@
           2.686572684
         ],
         [
-          "EU-17 + EFTA",
+          "EU-17 & EFTA",
           2.094175806
         ],
         [
@@ -32,7 +32,7 @@
           2.799970783
         ],
         [
-          "Mittel- und Südamerika",
+          "Mittel- & Südamerika",
           2.220171885
         ],
         [
@@ -146,7 +146,7 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}"
+      "format": "{value:,.1f}"
     }
   },
   "navigation": {

@@ -122,7 +122,7 @@
     <tspan>Erwerbstätigenquote nach Staatsangehörigkeit</tspan>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
-    <tspan>Ländergruppen, gepoolte Daten, 2011 bis 2015</tspan>
+    <tspan>Ländergruppen, gepoolte Daten 2011 bis 2015</tspan>
   </text>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
     <text x="123" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="92" opacity="1">

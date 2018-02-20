@@ -85,7 +85,7 @@
           46.1
         ]
       ],
-      "name": "Schweizerinnen u. Schweizer"
+      "name": "Schweiz"
     },
     {
       "color": "#661200",
@@ -348,7 +348,7 @@
           36.9
         ]
       ],
-      "name": "Ausländerinnen u. Ausländer"
+      "name": "Ausland"
     },
     {
       "color": "#7f5f1a",
@@ -563,7 +563,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Durchschnittsalter der Wohnbevölkerung"
+    "text": "Durchschnittsalter der Wohnbevölkerung nach Geschlecht"
   },
   "subtitle": {
     "style": {

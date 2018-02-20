@@ -1312,7 +1312,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Monatlich ausgesteuerte Ausländer nach Geschlecht"
+    "text": "Anzahl monatlich ausgesteuerte Ausländer nach Geschlecht"
   },
   "subtitle": {
     "style": {
@@ -1368,7 +1368,7 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "y": 35,
+    "y": 20,
     "itemWidth": 140,
     "itemMarginBottom": 5,
     "itemStyle": {

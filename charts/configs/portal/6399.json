@@ -977,7 +977,7 @@
           }
     },
     "renderTo": "container-6399",
-    "marginBottom": 75,
+    "marginBottom": 90,
     "type": "column",
     "inverted": false
   },
@@ -1060,7 +1060,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "y": 50,
+    "y": 60,
     "itemStyle": {
       "fontWeight": "normal"
     }

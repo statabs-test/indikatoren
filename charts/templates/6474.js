@@ -1,11 +1,11 @@
 (function(){
     return {
   "xAxis": {
-    "tickInterval": 5,
+    //"tickInterval": 5,
   },
   "yAxis": {
     "min": 0, 
-    tickInterval: 10,
+    //tickInterval: 10,
 	  "labels": {
 		  "format": "{value}%"
 	  }

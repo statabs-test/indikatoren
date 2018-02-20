@@ -6,11 +6,11 @@
       "legendIndex": 0,
       "data": [
         [
-          "Schweizer\u002F-innnen seit Geburt",
+          "Schweizer\u002F-innnen  seit Geburt",
           98.22
         ],
         [
-          "Eingebürgerte Schweizer\u002F-innen",
+          "Eingebürgerte  Schweizer\u002F-innen",
           79.66
         ],
         [
@@ -27,11 +27,11 @@
       "legendIndex": 1,
       "data": [
         [
-          "Schweizer\u002F-innnen seit Geburt",
+          "Schweizer\u002F-innnen  seit Geburt",
           1.78
         ],
         [
-          "Eingebürgerte Schweizer\u002F-innen",
+          "Eingebürgerte  Schweizer\u002F-innen",
           20.34
         ],
         [
@@ -56,7 +56,10 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "formatter": function () {
+            	return this.value.replace("  ", "<br/>");
+            }
     },
     "tickLength": 0,
     "min": 0,
@@ -172,7 +175,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "y": 30,
+    "y": 40,
     "itemStyle": {
       "fontWeight": "normal"
     }

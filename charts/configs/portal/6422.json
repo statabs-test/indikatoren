@@ -143,7 +143,7 @@
       "style": {
         "color": "#000000"
       },
-      "rotation": -45
+      "rotation": 0
     },
     "tickLength": 0
   },
@@ -152,7 +152,7 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 415,
-    "spacingBottom": 30,
+    "spacingBottom": 50,
     "style": {
       "fontFamily": "Arial"
     },
@@ -174,7 +174,7 @@
           }
     },
     "type": "column",
-    "inverted": false,
+    "inverted": true,
     "renderTo": "container-6422"
   },
   "plotOptions": {

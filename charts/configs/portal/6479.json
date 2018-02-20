@@ -497,7 +497,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Einbürgerungsziffer nach ehemaliger Staatsangehörigkeit (Ländergruppen)"
+    "text": "Einbürgerungsziffer nach ehemaliger Staatsangehörigkeit"
   },
   "subtitle": {
     "style": {
@@ -506,7 +506,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Ländergruppen",
     "align": "left"
   },
   "tooltip": {

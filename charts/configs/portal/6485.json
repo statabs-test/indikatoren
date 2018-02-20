@@ -190,7 +190,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "B-Bewilligung, C-Bewilligung, Übrige",
+    "text": "ab 18 Jahre",
     "align": "left"
   },
   "tooltip": {
@@ -236,7 +236,7 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "y": 40,
+    "y": 60,
     "itemWidth": 100,
     "itemMarginBottom": 5,
     "itemStyle": {

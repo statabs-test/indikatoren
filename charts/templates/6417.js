@@ -121,12 +121,20 @@
         },
     } 
   },    
-  "legend": {
-    "enabled": false
+   "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    //"x": 25,
+	"y": 60,    
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
   },
   "chart": {    
     "marginBottom": 65,
-    "marginTop": 75,
+    //"marginTop": 75,
     "type": "column",
     "inverted": false
   }

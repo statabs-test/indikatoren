@@ -461,7 +461,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Beschuldigte ab 18 Jahren pro 1000 Erwachsene nach Staatsangehörigkeit (Ländergruppen)"
+    "text": "Beschuldigte ab 18 Jahren pro 1000 Erwachsene nach Staatsangehörigkeit"
   },
   "subtitle": {
     "style": {
@@ -513,7 +513,7 @@
     },
     "symbolRadius": 0,
     "enabled": true,
-    "y": 35,
+    "y": 50,
     "itemWidth": 140
   },
   "yAxis": {

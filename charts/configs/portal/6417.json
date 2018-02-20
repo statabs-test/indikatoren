@@ -329,7 +329,6 @@
           }
     },
     "marginBottom": 65,
-    "marginTop": 75,
     "type": "column",
     "inverted": false,
     "renderTo": "container-6417"
@@ -361,7 +360,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Schweiz\u002FAusland, gepoolte Daten, 2011 bis 2015",
+    "text": "Schweiz\u002FAusland, gepoolte Daten 2011 bis 2015",
     "align": "left"
   },
   "yAxis": {
@@ -407,7 +406,14 @@
   },
   "legend": {
     "symbolRadius": 0,
-    "enabled": false
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "y": 60,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
   },
   "exporting": {
     "filename": 6417

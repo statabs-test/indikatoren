@@ -27,7 +27,7 @@
     "verticalAlign": "top",
     "align": "left",
     //"x": 25,
-	"y": 55,  
+	"y": 35,  
 	"itemWidth": 300,
     "itemStyle": {
       "fontWeight": "normal"
@@ -37,7 +37,8 @@
     pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}</b><br/>',
     shared: false
   },  
-  "chart": {      
+  "chart": {
+    "marginBottom": 75,
     "type": "column",
     "inverted": false
   }

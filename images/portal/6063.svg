@@ -61,7 +61,7 @@
     <g class="highcharts-markers highcharts-series-5 highcharts-line-series highcharts-color-undefined " transform="translate(47,140) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Durchschnittsalter der Wohnbevölkerung</tspan>
+    <tspan>Durchschnittsalter der Wohnbevölkerung nach Geschlecht</tspan>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
     <tspan>nach Staatsangehörigkeit (Schweiz/Ausland) und Geschlecht</tspan>
@@ -73,13 +73,13 @@
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0" transform="translate(8,3)">
           <path fill="none" d="M 0 11 L 30 11" class="highcharts-graph" stroke="#b00000" stroke-width="2"/>
           <text x="35" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
-            <tspan>Schweizerinnen u. Schwei…</tspan><title>Schweizerinnen u. Schweizer</title>
+            <tspan>Schweiz</tspan>
           </text>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-3" transform="translate(218,3)">
           <path fill="none" d="M 0 11 L 30 11" class="highcharts-graph" stroke="#cd9c00" stroke-width="2"/>
           <text x="35" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Ausländerinnen u. Ausländer</tspan>
+            <tspan>Ausland</tspan>
           </text>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1" transform="translate(8,22)">

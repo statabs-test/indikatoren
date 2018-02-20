@@ -16,7 +16,12 @@
   "xAxis": {
   	min: 0,
     "type": "category",
-    "tickInterval": 1
+    "tickInterval": 1,
+    labels:{
+    	 "formatter": function() {
+            	return this.value.replace("  ", "<br/>");
+            }
+    }
   },  
   "yAxis": {
   	 max: 100,
