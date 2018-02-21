@@ -1,15 +1,16 @@
 (function(){
     return {
   "xAxis": {
+  	tickInterval: 1,
   },
   "yAxis": {
 	  "labels": {
-		  "format": "{value}%"
+		  "format": "{value}"
 	  }
   },	
   "tooltip": {
-    "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b>%<br/>'
+    headerFormat: '<span style="font-size: 10px">{point.key}</span><br/>',
+	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y} Jahre</b><br/>'
   },
  "series": [
   {"color": "#b00000", legendIndex: 0}, /*Schweiz*/

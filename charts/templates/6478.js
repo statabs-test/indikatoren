@@ -43,7 +43,7 @@
   "chart": {      
     "type": "column",
     "inverted": true,
-    //"spacingTop": 100
+    "spacingBottom": 50
   }
 }
 }());

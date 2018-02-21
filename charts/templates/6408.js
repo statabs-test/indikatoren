@@ -112,5 +112,8 @@
                 return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( Math.abs(this.y),1, ",", " ") + '%</b><br/>';
             }
         },
+        chart:{
+        	spacingBottom: 50,
+        }
 	};
 }());

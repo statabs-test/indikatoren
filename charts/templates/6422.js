@@ -17,7 +17,8 @@
   "yAxis": {
     "labels": {
       "format": "{value:,.0f}%"
-    }    
+    },
+    max: 100,
   },
   "series": [
   {"color": "#661200", "visible": true}, /* */

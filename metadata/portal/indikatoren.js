@@ -14311,7 +14311,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2016 wurden von 1 000 erwachsenen, in Basel-Stadt wohnhaften Schweizern 9,3 Personen mindestens einer Straftat beschuldigt. Im Jahr 2015 waren es 9,1 Personen. Niedrigere Beschuldigtenraten wiesen in diesen beiden Jahren die Deutschen (2015: 7,6; 2016:6,6) auf. In den übrigen Ländergruppen lag die Zahl der Beschuldigten pro 1 000 Einwohner höher.",
 		"erlaeuterungen": "Die Rate wird berechnet, in dem die Anzahl Beschuldigte durch die Anzahl Einwohner der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder dem Betäubungsmittelgesetz (BetmG) beschuldigt.",
-		"template": "pie001",
+		"template": "template001",
 		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_010",
 		"parentId": null,

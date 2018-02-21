@@ -1,18 +1,18 @@
 (function(){
     return {
   "xAxis": {
-    "tickInterval": 2,
+    "tickInterval": 1,
   },
   "yAxis": {
     "min": 0, 
     //tickInterval: 10,
 	  "labels": {
-		  "format": "{value}"
+		  "format": "{value}%"
 	  }
   },	
   "tooltip": {
     "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
+	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>'
   },
  "series": [
   {"color": "#b00000"}, /*Schweiz*/

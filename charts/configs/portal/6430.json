@@ -348,7 +348,7 @@
           3.1
         ]
       ],
-      "name": "EU-17 + EFTA"
+      "name": "EU-17 & EFTA"
     },
     {
       "color": "#71a3b5",
@@ -558,7 +558,7 @@
           1.4
         ]
       ],
-      "name": "Mittel- und Südamerika"
+      "name": "Mittel- & Südamerika"
     },
     {
       "color": "#73ba7c",
@@ -839,8 +839,7 @@
         "color": "#000000"
       },
       "format": "{value}%"
-    },
-    "tickInterval": 10
+    }
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -851,7 +850,7 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 5
+    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",

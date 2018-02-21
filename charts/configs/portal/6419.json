@@ -228,7 +228,7 @@
           0.9
         ]
       ],
-      "name": "EU-17 + EFTA"
+      "name": "EU-17 & EFTA"
     },
     {
       "color": "#71a3b5",
@@ -366,7 +366,7 @@
           1.1
         ]
       ],
-      "name": "Mittel- und Südamerika"
+      "name": "Mittel- & Südamerika"
     },
     {
       "color": "#73ba7c",
@@ -557,7 +557,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
     "min": 0,
@@ -574,7 +574,7 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value}"
+      "format": "{value}%"
     }
   },
   "xAxis": {
@@ -586,7 +586,7 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 2
+    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",

@@ -39,12 +39,14 @@
     }
   },
   "series": [
-   {"color":"#cd9c00", "index": 0, "marker": {"enabled": false}}, //rot
-   {"color":"#b00000", "index": 1, "marker": {"enabled": false}}, //orange
+   {"color":"#cd9c00", "index": 0, "marker": {"enabled": false}, legendIndex: 1}, //rot
+   {"color":"#b00000", "index": 1, "marker": {"enabled": false}, legendIndex: 0}, //orange
 
   ],  
   "tooltip": {
-    //"shared": true
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
+    "footerFormat": 'Total: <b>{point.total:,.0f}</b>',
+   "shared": true
   },
 };
 }());

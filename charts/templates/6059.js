@@ -58,8 +58,8 @@
   },
   "tooltip": {
   "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
-  "footerFormat": 'Total: <b>{point.total:,.0f}</b>',
-   "shared": true
+  //"footerFormat": 'Total: <b>{point.total:,.0f}</b>',
+   "shared": false
   },
 }
 }());

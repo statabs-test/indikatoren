@@ -1,6 +1,7 @@
 (function(){
     return {
   "xAxis": {
+  	tickInterval: 1,
   },
   "yAxis": {
 	  "labels": {
@@ -40,6 +41,9 @@
         "symbol": "circle",
       } 
     }
+  },
+  chart:{
+  	spacingBottom: 60,
   }
 }
 }());
