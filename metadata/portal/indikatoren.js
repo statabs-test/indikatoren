@@ -13631,11 +13631,11 @@ var indikatoren = [
 		"id": 6428
 	},
 	{
-		"title": "Bevölkerungspyramide der Sozialhilfequote der Schweizer nach Geschlecht",
+		"title": "Bevölkerungspyramide der Sozialhilfequote der Schweizer",
 		"subtitle": "nach Geschlecht, Stand: 2016",
 		"kuerzel": "I.13.2.06429",
 		"kuerzelKunde": "C4-4",
-		"description": "Bevölkerungspyramide der Sozialhilfequote der Schweizer nach Geschlecht",
+		"description": "Bevölkerungspyramide der Sozialhilfequote der Schweizer",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Integration",
