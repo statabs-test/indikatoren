@@ -94,7 +94,7 @@
     <tspan>Bevölkerungspyramide der Sozialhilfequote der Schweizer</tspan><tspan dy="17" x="10">nach Geschlecht</tspan><title>Bevölkerungspyramide der Sozialhilfequote der Schweizer nach Geschlecht</title>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="57">
-    <tspan>Stand: 2016</tspan>
+    <tspan>nach Geschlecht, Stand: 2016</tspan>
   </text>
   <g class="highcharts-plot-lines-4">
     <path fill="none" stroke="white" stroke-width="1" d="M 263.5 97 L 263.5 364" visibility="visible"/>

@@ -61,10 +61,10 @@
     <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(475,354) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Mittlere Wohnfläche pro Person (m²) nach Staatsangehörigkeit</tspan>
+    <tspan>Mittlere Wohnfläche pro Person (m²)</tspan>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
-    <tspan>Stand: 2016</tspan>
+    <tspan>nach Staatsangehörigkeit, Stand: 2016</tspan>
   </text>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
     <text x="123" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="73" opacity="1">

@@ -96,9 +96,9 @@
     <g class="highcharts-markers highcharts-series-5 highcharts-column-series highcharts-color-undefined " transform="translate(475,344) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Anzahl Angestellte in der kantonalen Verwaltung nach</tspan><tspan dy="17" x="10">Staatsangehörigkeit, Geschlecht und Kaderstufe</tspan><title>Anzahl Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit, Geschlecht und Kaderstufe</title>
+    <tspan>Anzahl Angestellte in der kantonalen Verwaltung</tspan>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="57">
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
     <tspan>Stand: 2016</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(115,65)">

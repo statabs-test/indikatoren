@@ -172,7 +172,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Mittelwert des Reineinkommens pro Veranlagung nach Staatsangehörigkeit"
+    "text": "Mittelwert des Reineinkommens pro Veranlagung"
   },
   "subtitle": {
     "style": {
@@ -181,7 +181,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "nach Staatsangehörigkeit",
     "align": "left"
   },
   "yAxis": {

@@ -897,7 +897,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil der in der Schweiz geborenen Ausländer nach Staatsangehörigkeit"
+    "text": "Anteil der in der Schweiz geborenen Ausländer"
   },
   "subtitle": {
     "style": {
@@ -906,7 +906,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "nach Staatsangehörigkeit",
     "align": "left"
   },
   "tooltip": {

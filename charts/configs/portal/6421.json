@@ -461,7 +461,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anzahl angestellte Schweizer in der kantonalen Verwaltung nach Kaderstufe"
+    "text": "Anzahl angestellte Schweizer in der kantonalen Verwaltung"
   },
   "subtitle": {
     "style": {
@@ -470,7 +470,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "nach Kaderstufe",
     "align": "left"
   },
   "yAxis": {

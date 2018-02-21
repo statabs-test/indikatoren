@@ -248,7 +248,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anzahl ordentlich Eingebürgerte nach Geschlecht und Altersgruppen"
+    "text": "Anzahl ordentlich Eingebürgerte"
   },
   "subtitle": {
     "style": {
@@ -257,7 +257,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Aufsummiert von 2006 bis 2016",
+    "text": "nach Geschlecht und Altersgruppe, Aufsummiert von 2006 bis 2016",
     "align": "left"
   },
   "yAxis": {

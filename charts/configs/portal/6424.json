@@ -390,7 +390,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anzahl Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit und Kaderstufe"
+    "text": "Anzahl Angestellte in der kantonalen Verwaltung"
   },
   "subtitle": {
     "style": {
@@ -399,7 +399,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2009",
+    "text": " nach Staatsangehörigkeit und Kaderstufe, Stand: 2009",
     "align": "left"
   },
   "yAxis": {

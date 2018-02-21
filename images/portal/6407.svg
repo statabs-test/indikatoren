@@ -73,10 +73,10 @@
     <g class="highcharts-markers highcharts-series-1 highcharts-bar-series highcharts-color-undefined " transform="translate(475,344) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Bevölkerungspyramide der Arbeitslosenquote der Ausländer</tspan><tspan dy="17" x="10">nach Geschlecht</tspan><title>Bevölkerungspyramide der Arbeitslosenquote der Ausländer nach Geschlecht</title>
+    <tspan>Bevölkerungspyramide der Arbeitslosenquote</tspan>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="57">
-    <tspan>Stand: 1997</tspan>
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
+    <tspan>Arbeitslosenquote der Ausländer nach Geschlecht, Stand: 1997</tspan>
   </text>
   <g class="highcharts-plot-lines-4">
     <path fill="none" stroke="white" stroke-width="1" d="M 263.5 97 L 263.5 344" visibility="visible"/>

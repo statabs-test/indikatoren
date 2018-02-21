@@ -164,7 +164,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil Ausländer mit Niederlassungsbewilligung nach Staatsangehörigkeit"
+    "text": "Anteil Ausländer mit Niederlassungsbewilligung"
   },
   "subtitle": {
     "style": {
@@ -173,7 +173,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": " nach Staatsangehörigkeit",
     "align": "left"
   },
   "yAxis": {

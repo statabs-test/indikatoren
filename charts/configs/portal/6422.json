@@ -260,7 +260,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit, Geschlecht und Kaderstufe"
+    "text": "Anteil Angestellte in der kantonalen Verwaltung"
   },
   "subtitle": {
     "style": {
@@ -269,7 +269,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": " Stand: 2016",
+    "text": " nach Staatsangehörigkeit, Geschlecht und Kaderstufe, Stand: 2016",
     "align": "left"
   },
   "yAxis": {

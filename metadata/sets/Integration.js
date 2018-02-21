@@ -568,11 +568,11 @@ var indikatorensetData = [
 		"id": 6071
 	},
 	{
-		"title": "Anteil Ausländer nach Staatsangehörigkeit und Art der Bewilligung",
-		"subtitle": "Stand: 2016",
+		"title": "Anteil Ausländer",
+		"subtitle": " nach Staatsangehörigkeit und Art der Bewilligung, Stand: 2016",
 		"kuerzel": "I.01.1.06072",
 		"kuerzelKunde": "A3-2",
-		"description": "Anteil Ausländer nach Staatsangehörigkeit und Art der Bewilligung",
+		"description": "Anteil Ausländer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration",
@@ -606,11 +606,11 @@ var indikatorensetData = [
 		"id": 6072
 	},
 	{
-		"title": "Anteil Ausländer mit Niederlassungsbewilligung nach Staatsangehörigkeit",
-		"subtitle": "",
+		"title": "Anteil Ausländer mit Niederlassungsbewilligung",
+		"subtitle": " nach Staatsangehörigkeit",
 		"kuerzel": "I.01.1.06073",
 		"kuerzelKunde": "A3-3",
-		"description": "Anteil Ausländer mit Niederlassungsbewilligung nach Staatsangehörigkeit",
+		"description": "Anteil Ausländer mit Niederlassungsbewilligung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration",
@@ -644,11 +644,11 @@ var indikatorensetData = [
 		"id": 6073
 	},
 	{
-		"title": "Median der Aufenthaltsdauer der Ausländer in der Schweiz / in Basel-Stadt  nach Staatsangehörigkeit",
+		"title": "Median der Aufenthaltsdauer der Ausländer",
 		"subtitle": "In Jahren, Stand: 2016",
 		"kuerzel": "I.01.1.06074",
 		"kuerzelKunde": "A3-5",
-		"description": "Median der Aufenthaltsdauer der Ausländer in der Schweiz / in Basel-Stadt  nach Staatsangehörigkeit",
+		"description": "Median der Aufenthaltsdauer der Ausländer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration",
@@ -683,11 +683,11 @@ var indikatorensetData = [
 		"id": 6074
 	},
 	{
-		"title": "Anteil der in der Schweiz geborenen Ausländer nach Staatsangehörigkeit",
-		"subtitle": "",
+		"title": "Anteil der in der Schweiz geborenen Ausländer",
+		"subtitle": "nach Staatsangehörigkeit",
 		"kuerzel": "I.01.3.06075",
 		"kuerzelKunde": "A4-1",
-		"description": "Anteil der in der Schweiz geborenen Ausländer nach Staatsangehörigkeit",
+		"description": "Anteil der in der Schweiz geborenen Ausländer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Geburten und Todesfälle",
 		"kennzahlenset": "Integration",
@@ -752,11 +752,11 @@ var indikatorensetData = [
 		"id": 6076
 	},
 	{
-		"title": "Zusammengefasste Geburtenziffer nach Staatsangehörigkeit",
+		"title": "Zusammengefasste Geburtenziffer",
 		"subtitle": "Arithmetisches Mittel der Jahre 2006 bis 2016",
 		"kuerzel": "I.01.3.06077",
 		"kuerzelKunde": "A4-3",
-		"description": "Zusammengefasste Geburtenziffer nach Staatsangehörigkeit",
+		"description": "Zusammengefasste Geburtenziffer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Geburten und Todesfälle",
 		"kennzahlenset": "Integration",
@@ -902,11 +902,11 @@ var indikatorensetData = [
 		"id": 6080
 	},
 	{
-		"title": "Gymnasialquoten nach Staatsangehörigkeit und Geschlecht",
+		"title": "Gymnasialquoten nach Staatsangehörigkeit & Geschlecht",
 		"subtitle": "",
 		"kuerzel": "I.15.1.06081",
 		"kuerzelKunde": "B1-2",
-		"description": "Gymnasialquoten nach Staatsangehörigkeit und Geschlecht",
+		"description": "Gymnasialquoten nach Staatsangehörigkeit & Geschlecht",
 		"thema": "15 Bildung",
 		"unterthema": "Schulen und Schulpersonal",
 		"kennzahlenset": "Integration",
@@ -980,11 +980,11 @@ var indikatorensetData = [
 		"id": 6082
 	},
 	{
-		"title": "Hochschulquote nach Staatsangehörigkeit und Geschlecht",
+		"title": "Hochschulquote nach Staatsangehörigkeit & Geschlecht",
 		"subtitle": "",
 		"kuerzel": "I.15.4.06083",
 		"kuerzelKunde": "B2-2",
-		"description": "Hochschulquote nach Staatsangehörigkeit und Geschlecht",
+		"description": "Hochschulquote nach Staatsangehörigkeit & Geschlecht",
 		"thema": "15 Bildung",
 		"unterthema": "Hochschulen",
 		"kennzahlenset": "Integration",
@@ -1097,11 +1097,11 @@ var indikatorensetData = [
 		"id": 6085
 	},
 	{
-		"title": "Anteil Erwachsene mit höchstem Abschluss Sekundarstufe I nach Staatsangehörigkeit",
+		"title": "Anteil Erwachsene mit höchstem Abschluss Sek I",
 		"subtitle": "Gepoolte Daten 2011 bis 2015",
 		"kuerzel": "I.15.6.06088",
 		"kuerzelKunde": "B4-1",
-		"description": "Anteil Erwachsene mit höchstem Abschluss Sekundarstufe I nach Staatsangehörigkeit",
+		"description": "Anteil Erwachsene mit höchstem Abschluss Sek I",
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsniveau",
 		"kennzahlenset": "Integration",
@@ -1249,11 +1249,11 @@ var indikatorensetData = [
 		"id": 6398
 	},
 	{
-		"title": "Ausländer nach Staatsangehörigkeit und Gemeinde/Wohnviertel",
+		"title": "Anteil Ausländer",
 		"subtitle": "Stand: 2016",
 		"kuerzel": "I.01.1.06399",
 		"kuerzelKunde": "A1-10",
-		"description": "Ausländer nach Staatsangehörigkeit und Gemeinde/Wohnviertel",
+		"description": "Anteil Ausländer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration",
@@ -1287,7 +1287,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anteil Ausländer der Ländergruppe EU-17+EFTA",
-		"subtitle": "nach einzelnen Staatsangehörigkeiten 2016, Stand: 2016",
+		"subtitle": "nach einzelnen Staatsangehörigkeiten, Stand: 2016",
 		"kuerzel": "I.01.1.06400",
 		"kuerzelKunde": "A1-6",
 		"description": "Anteil Ausländer der Ländergruppe EU-17+EFTA",
@@ -1324,11 +1324,11 @@ var indikatorensetData = [
 		"id": 6400
 	},
 	{
-		"title": "Anteil Ausländer der Ländergruppe EU-OstAusländer der Ländergruppe EU-Ost",
+		"title": "Anteil Ausländer der Ländergruppe EU-Ost",
 		"subtitle": "nach einzelnen Staatsangehörigkeiten, Stand: 2016",
 		"kuerzel": "I.01.1.06401",
 		"kuerzelKunde": "A1-7",
-		"description": "Anteil Ausländer der Ländergruppe EU-OstAusländer der Ländergruppe EU-Ost",
+		"description": "Anteil Ausländer der Ländergruppe EU-Ost",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration",
@@ -1362,11 +1362,11 @@ var indikatorensetData = [
 		"id": 6401
 	},
 	{
-		"title": "Anteil Personen mit Hauptsprache Deutsch nach Staatsangehörigkeit",
-		"subtitle": "Gepoolte Daten 2011 bis 2015",
+		"title": "Anteil Personen mit Hauptsprache Deutsch",
+		"subtitle": "nach Staatsangehörigkeit. Gepoolte Daten 2011 bis 2015",
 		"kuerzel": "I.01.8.06402",
 		"kuerzelKunde": "A6-1",
-		"description": "Anteil Personen mit Hauptsprache Deutsch nach Staatsangehörigkeit",
+		"description": "Anteil Personen mit Hauptsprache Deutsch",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Sprachen",
 		"kennzahlenset": "Integration",
@@ -1474,11 +1474,11 @@ var indikatorensetData = [
 		"id": 6404
 	},
 	{
-		"title": "Bei der Arbeit gesprochene Sprachen nach Migrationsstatus",
-		"subtitle": "Gepoolte Daten 2011 /-2015",
+		"title": "Bei der Arbeit gesprochene Sprachen",
+		"subtitle": "nach Migrationsstatus, gepoolte Daten 2011 /-2015",
 		"kuerzel": "I.01.8.06405",
 		"kuerzelKunde": "A6-4",
-		"description": "Bei der Arbeit gesprochene Sprachen nach Migrationsstatus",
+		"description": "Bei der Arbeit gesprochene Sprachen",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Sprachen",
 		"kennzahlenset": "Integration",
@@ -1549,11 +1549,11 @@ var indikatorensetData = [
 		"id": 6406
 	},
 	{
-		"title": "Bevölkerungspyramide der Arbeitslosenquote der Ausländer nach Geschlecht",
-		"subtitle": "Stand: 1997",
+		"title": "Bevölkerungspyramide der Arbeitslosenquote",
+		"subtitle": " Arbeitslosenquote der Ausländer nach Geschlecht, Stand: 1997",
 		"kuerzel": "I.03.4.06407",
 		"kuerzelKunde": "C1-2",
-		"description": "Bevölkerungspyramide der Arbeitslosenquote der Ausländer nach Geschlecht",
+		"description": "Bevölkerungspyramide der Arbeitslosenquote",
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Arbeitslose ",
 		"kennzahlenset": "Integration",
@@ -1589,11 +1589,11 @@ var indikatorensetData = [
 		"id": 6407
 	},
 	{
-		"title": "Bevölkerungspyramide der Arbeitslosenquote der Schweizer nach Geschlecht",
+		"title": "Bevölkerungspyramide der Arbeitslosenquote",
 		"subtitle": "Stand: 1997",
 		"kuerzel": "I.03.4.06408",
 		"kuerzelKunde": "C1-3",
-		"description": "Bevölkerungspyramide der Arbeitslosenquote der Schweizer nach Geschlecht",
+		"description": "Bevölkerungspyramide der Arbeitslosenquote",
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Arbeitslose ",
 		"kennzahlenset": "Integration",
@@ -1628,11 +1628,11 @@ var indikatorensetData = [
 		"id": 6408
 	},
 	{
-		"title": "Bevölkerungspyramide der Arbeitslosenquote der Ausländer nach Geschlecht",
-		"subtitle": "Stand: 2016",
+		"title": "Bevölkerungspyramide der Arbeitslosenquote",
+		"subtitle": "Ausländer, Stand: 2016",
 		"kuerzel": "I.03.4.06409",
 		"kuerzelKunde": "C1-4",
-		"description": "Bevölkerungspyramide der Arbeitslosenquote der Ausländer nach Geschlecht",
+		"description": "Bevölkerungspyramide der Arbeitslosenquote",
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Arbeitslose ",
 		"kennzahlenset": "Integration",
@@ -1667,11 +1667,11 @@ var indikatorensetData = [
 		"id": 6409
 	},
 	{
-		"title": "Bevölkerungspyramide der Arbeitslosenquote der Schweizer nach Geschlecht",
-		"subtitle": "Stand: 2016",
+		"title": "Bevölkerungspyramide der Arbeitslosenquote",
+		"subtitle": "Schweizer, nach Geschlecht, Stand: 2016",
 		"kuerzel": "I.03.4.06410",
 		"kuerzelKunde": "C1-5",
-		"description": "Bevölkerungspyramide der Arbeitslosenquote der Schweizer nach Geschlecht",
+		"description": "Bevölkerungspyramide der Arbeitslosenquote",
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Arbeitslose ",
 		"kennzahlenset": "Integration",
@@ -1706,11 +1706,11 @@ var indikatorensetData = [
 		"id": 6410
 	},
 	{
-		"title": "Anteil Arbeitslose nach Staatsangehörigkeit in ausgewählten Berufsgruppen",
-		"subtitle": "Stand: 2016",
+		"title": "Anteil Arbeitslose in ausgewählten Berufsgruppen",
+		"subtitle": " nach Staatsangehörigkeit, Stand: 2016",
 		"kuerzel": "I.03.4.06411",
 		"kuerzelKunde": "C1-6",
-		"description": "Anteil Arbeitslose nach Staatsangehörigkeit in ausgewählten Berufsgruppen",
+		"description": "Anteil Arbeitslose in ausgewählten Berufsgruppen",
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Arbeitslose ",
 		"kennzahlenset": "Integration",
@@ -1744,11 +1744,11 @@ var indikatorensetData = [
 		"id": 6411
 	},
 	{
-		"title": "Anzahl monatlich ausgesteuerte Schweizer nach Geschlecht",
-		"subtitle": "",
+		"title": "Anzahl monatlich ausgesteuerte Schweizer",
+		"subtitle": "nach Geschlecht",
 		"kuerzel": "I.03.4.06412",
 		"kuerzelKunde": "C1-7",
-		"description": "Anzahl monatlich ausgesteuerte Schweizer nach Geschlecht",
+		"description": "Anzahl monatlich ausgesteuerte Schweizer",
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Arbeitslose ",
 		"kennzahlenset": "Integration",
@@ -1781,11 +1781,11 @@ var indikatorensetData = [
 		"id": 6412
 	},
 	{
-		"title": "Anzahl monatlich ausgesteuerte Ausländer nach Geschlecht",
+		"title": "Anzahl monatlich ausgesteuerte Ausländer",
 		"subtitle": "",
 		"kuerzel": "I.03.4.06413",
 		"kuerzelKunde": "C1-8",
-		"description": "Anzahl monatlich ausgesteuerte Ausländer nach Geschlecht",
+		"description": "Anzahl monatlich ausgesteuerte Ausländer",
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Arbeitslose ",
 		"kennzahlenset": "Integration",
@@ -1819,11 +1819,11 @@ var indikatorensetData = [
 		"id": 6413
 	},
 	{
-		"title": "Erwerbstätigenquote nach Staatsangehörigkeit und Geschlecht",
+		"title": "Erwerbstätigenquote",
 		"subtitle": "Schweiz/Ausland, gepoolte Daten 2011 bis 2015",
 		"kuerzel": "I.03.1.06415",
 		"kuerzelKunde": "C2-1",
-		"description": "Erwerbstätigenquote nach Staatsangehörigkeit und Geschlecht",
+		"description": "Erwerbstätigenquote",
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Erwerbspersonen ",
 		"kennzahlenset": "Integration",
@@ -1892,11 +1892,11 @@ var indikatorensetData = [
 		"id": 6416
 	},
 	{
-		"title": "Erwerbstätigenquote nach Staatsangehörigkeit, Altersklassen und Geschlecht",
-		"subtitle": "Gepoolte Daten 2011 bis 2015",
+		"title": "Erwerbstätigenquote",
+		"subtitle": " nach Staatsangehörigkeit, Alter & Geschlecht, gepoolte Daten 2011 bis 2015",
 		"kuerzel": "I.03.1.06417",
 		"kuerzelKunde": "C2-3",
-		"description": "Erwerbstätigenquote nach Staatsangehörigkeit, Altersklassen und Geschlecht",
+		"description": "Erwerbstätigenquote",
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Erwerbspersonen ",
 		"kennzahlenset": "Integration",
@@ -2006,11 +2006,11 @@ var indikatorensetData = [
 		"id": 6419
 	},
 	{
-		"title": "Anzahl angestellte Ausländer in der kantonalen Verwaltung nach Kaderstufe",
-		"subtitle": "",
+		"title": "Anzahl angestellte Ausländer in der kantonalen Verwaltung",
+		"subtitle": "nach Kaderstufe",
 		"kuerzel": "I.18.3.06420",
 		"kuerzelKunde": "C3-2",
-		"description": "Anzahl angestellte Ausländer in der kantonalen Verwaltung nach Kaderstufe",
+		"description": "Anzahl angestellte Ausländer in der kantonalen Verwaltung",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Staatspersonal",
 		"kennzahlenset": "Integration",
@@ -2045,11 +2045,11 @@ var indikatorensetData = [
 		"id": 6420
 	},
 	{
-		"title": "Anzahl angestellte Schweizer in der kantonalen Verwaltung nach Kaderstufe",
-		"subtitle": "",
+		"title": "Anzahl angestellte Schweizer in der kantonalen Verwaltung",
+		"subtitle": "nach Kaderstufe",
 		"kuerzel": "I.18.3.06421",
 		"kuerzelKunde": "C3-3",
-		"description": "Anzahl angestellte Schweizer in der kantonalen Verwaltung nach Kaderstufe",
+		"description": "Anzahl angestellte Schweizer in der kantonalen Verwaltung",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Staatspersonal",
 		"kennzahlenset": "Integration",
@@ -2084,11 +2084,11 @@ var indikatorensetData = [
 		"id": 6421
 	},
 	{
-		"title": "Anteil Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit, Geschlecht und Kaderstufe",
-		"subtitle": " Stand: 2016",
+		"title": "Anteil Angestellte in der kantonalen Verwaltung",
+		"subtitle": " nach Staatsangehörigkeit, Geschlecht und Kaderstufe, Stand: 2016",
 		"kuerzel": "I.18.3.06422",
 		"kuerzelKunde": "C3-4",
-		"description": "Anteil Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit, Geschlecht und Kaderstufe",
+		"description": "Anteil Angestellte in der kantonalen Verwaltung",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Staatspersonal",
 		"kennzahlenset": "Integration",
@@ -2123,11 +2123,11 @@ var indikatorensetData = [
 		"id": 6422
 	},
 	{
-		"title": "Anzahl Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit, Geschlecht und Kaderstufe",
+		"title": "Anzahl Angestellte in der kantonalen Verwaltung",
 		"subtitle": "Stand: 2016",
 		"kuerzel": "I.18.3.06423",
 		"kuerzelKunde": "C3-5",
-		"description": "Anzahl Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit, Geschlecht und Kaderstufe",
+		"description": "Anzahl Angestellte in der kantonalen Verwaltung",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Staatspersonal",
 		"kennzahlenset": "Integration",
@@ -2163,11 +2163,11 @@ var indikatorensetData = [
 		"id": 6423
 	},
 	{
-		"title": "Anzahl Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit und Kaderstufe",
-		"subtitle": "Stand: 2009",
+		"title": "Anzahl Angestellte in der kantonalen Verwaltung",
+		"subtitle": " nach Staatsangehörigkeit und Kaderstufe, Stand: 2009",
 		"kuerzel": "I.18.3.06424",
 		"kuerzelKunde": "C3-6",
-		"description": "Anzahl Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit und Kaderstufe",
+		"description": "Anzahl Angestellte in der kantonalen Verwaltung",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Staatspersonal",
 		"kennzahlenset": "Integration",
@@ -2202,11 +2202,11 @@ var indikatorensetData = [
 		"id": 6424
 	},
 	{
-		"title": "Anzahl Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit und Kaderstufe",
+		"title": "Anzahl Angestellte in der kantonalen Verwaltung",
 		"subtitle": "Stand: 2016",
 		"kuerzel": "I.18.3.06425",
 		"kuerzelKunde": "C3-7",
-		"description": "Anzahl Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit und Kaderstufe",
+		"description": "Anzahl Angestellte in der kantonalen Verwaltung",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Staatspersonal",
 		"kennzahlenset": "Integration",
@@ -2315,11 +2315,11 @@ var indikatorensetData = [
 		"id": 6427
 	},
 	{
-		"title": "Bevölkerungspyramide der Sozialhilfequote der Ausländer nach Geschlecht",
-		"subtitle": "Stand: 2016",
+		"title": "Bevölkerungspyramide der Sozialhilfequote der Ausländer",
+		"subtitle": " nach Geschlecht, Stand: 2016",
 		"kuerzel": "I.13.3.06428",
 		"kuerzelKunde": "C4-3",
-		"description": "Bevölkerungspyramide der Sozialhilfequote der Ausländer nach Geschlecht",
+		"description": "Bevölkerungspyramide der Sozialhilfequote der Ausländer",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
 		"kennzahlenset": "Integration",
@@ -2355,7 +2355,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bevölkerungspyramide der Sozialhilfequote der Schweizer nach Geschlecht",
-		"subtitle": "Stand: 2016",
+		"subtitle": "nach Geschlecht, Stand: 2016",
 		"kuerzel": "I.13.2.06429",
 		"kuerzelKunde": "C4-4",
 		"description": "Bevölkerungspyramide der Sozialhilfequote der Schweizer nach Geschlecht",
@@ -2507,11 +2507,11 @@ var indikatorensetData = [
 		"id": 6432
 	},
 	{
-		"title": "Quintilsverteilung des Äquivalenz-Haushaltseinkommens nach Staatsangehörigkeit",
-		"subtitle": "2002 bis 2014, 3-Jahres-Pooling",
+		"title": "Quintilsverteilung des Äquivalenz-Haushaltseinkommens",
+		"subtitle": "nach Staatsangehörigkeit, 2002 bis 2014, 3-Jahres-Pooling",
 		"kuerzel": "I.03.3.06467",
 		"kuerzelKunde": "C6-1",
-		"description": "Quintilsverteilung des Äquivalenz-Haushaltseinkommens nach Staatsangehörigkeit",
+		"description": "Quintilsverteilung des Äquivalenz-Haushaltseinkommens",
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Löhne ",
 		"kennzahlenset": "Integration",
@@ -2544,11 +2544,11 @@ var indikatorensetData = [
 		"id": 6467
 	},
 	{
-		"title": "Mittelwert des Reineinkommens pro Veranlagung nach Staatsangehörigkeit",
-		"subtitle": "",
+		"title": "Mittelwert des Reineinkommens pro Veranlagung",
+		"subtitle": "nach Staatsangehörigkeit",
 		"kuerzel": "I.18.2.06468",
 		"kuerzelKunde": "C6-2",
-		"description": "Mittelwert des Reineinkommens pro Veranlagung nach Staatsangehörigkeit",
+		"description": "Mittelwert des Reineinkommens pro Veranlagung",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Integration",
@@ -2581,11 +2581,11 @@ var indikatorensetData = [
 		"id": 6468
 	},
 	{
-		"title": "Median des Reineinkommens pro Veranlagung nach Staatsangehörigkeit",
-		"subtitle": "",
+		"title": "Median des Reineinkommens pro Veranlagung",
+		"subtitle": "nach Staatsangehörigkeit",
 		"kuerzel": "I.18.2.06469",
 		"kuerzelKunde": "C6-3",
-		"description": "Median des Reineinkommens pro Veranlagung nach Staatsangehörigkeit",
+		"description": "Median des Reineinkommens pro Veranlagung",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Integration",
@@ -2618,11 +2618,11 @@ var indikatorensetData = [
 		"id": 6469
 	},
 	{
-		"title": "Mittelwert und Median des Reinvermögens pro Veranlagung nach Staatsangehörigkeit",
+		"title": "Mittelwert & Median des Reinvermögens pro Veranlagung",
 		"subtitle": "",
 		"kuerzel": "I.18.2.06470",
 		"kuerzelKunde": "C6-4",
-		"description": "Mittelwert und Median des Reinvermögens pro Veranlagung nach Staatsangehörigkeit",
+		"description": "Mittelwert & Median des Reinvermögens pro Veranlagung",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Integration",
@@ -2655,11 +2655,11 @@ var indikatorensetData = [
 		"id": 6470
 	},
 	{
-		"title": "Mittelwert des Reineinkommens pro Veranlagung nach Staatsangehörigkeit",
-		"subtitle": "Top 10 der Mittelwerte, Steuerjahr 2014",
+		"title": "Mittelwert des Reineinkommens pro Veranlagung",
+		"subtitle": "nach Staatsangehörigkeit, Top 10 der Mittelwerte, Steuerjahr 2014",
 		"kuerzel": "I.18.2.06471",
 		"kuerzelKunde": "C6-5",
-		"description": "Mittelwert des Reineinkommens pro Veranlagung nach Staatsangehörigkeit",
+		"description": "Mittelwert des Reineinkommens pro Veranlagung",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Integration",
@@ -2803,11 +2803,11 @@ var indikatorensetData = [
 		"id": 6474
 	},
 	{
-		"title": "Mittlere Wohnfläche pro Person (m²) nach Staatsangehörigkeit",
-		"subtitle": "",
+		"title": "Mittlere Wohnfläche pro Person (m²)",
+		"subtitle": "nach Staatsangehörigkeit",
 		"kuerzel": "I.09.1.06475",
 		"kuerzelKunde": "D2-1",
-		"description": "Mittlere Wohnfläche pro Person (m²) nach Staatsangehörigkeit",
+		"description": "Mittlere Wohnfläche pro Person (m²)",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Integration",
@@ -2842,11 +2842,11 @@ var indikatorensetData = [
 		"id": 6475
 	},
 	{
-		"title": "Mittlere Wohnfläche pro Person (m²) nach Staatsangehörigkeit",
-		"subtitle": "Stand: 2016",
+		"title": "Mittlere Wohnfläche pro Person (m²)",
+		"subtitle": "nach Staatsangehörigkeit, Stand: 2016",
 		"kuerzel": "I.09.1.06476",
 		"kuerzelKunde": "D2-2",
-		"description": "Mittlere Wohnfläche pro Person (m²) nach Staatsangehörigkeit",
+		"description": "Mittlere Wohnfläche pro Person (m²)",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Integration",
@@ -2880,11 +2880,11 @@ var indikatorensetData = [
 		"id": 6476
 	},
 	{
-		"title": "Mittlere Anzahl Personen pro Haushalt nach Staatsangehörigkeit",
-		"subtitle": "Stand: 2016",
+		"title": "Mittlere Anzahl Personen pro Haushalt",
+		"subtitle": "nach Staatsangehörigkeit und Haushaltsgrösse, Stand: 2016",
 		"kuerzel": "I.01.2.06477",
 		"kuerzelKunde": "D2-3",
-		"description": "Mittlere Anzahl Personen pro Haushalt nach Staatsangehörigkeit",
+		"description": "Mittlere Anzahl Personen pro Haushalt",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
 		"kennzahlenset": "Integration",
@@ -2918,11 +2918,11 @@ var indikatorensetData = [
 		"id": 6477
 	},
 	{
-		"title": "Mittlere Wohnfläche pro Person (m²) nach Staatsangehörigkeit und Haushaltsgrösse",
+		"title": "Mittlere Wohnfläche pro Person (m²)",
 		"subtitle": " Stand: 2016",
 		"kuerzel": "I.01.2.06478",
 		"kuerzelKunde": "D2-4",
-		"description": "Mittlere Wohnfläche pro Person (m²) nach Staatsangehörigkeit und Haushaltsgrösse",
+		"description": "Mittlere Wohnfläche pro Person (m²)",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
 		"kennzahlenset": "Integration",
@@ -2998,11 +2998,11 @@ var indikatorensetData = [
 		"id": 6479
 	},
 	{
-		"title": "Anzahl ordentlich Eingebürgerte nach Geschlecht und Altersgruppen",
-		"subtitle": "Aufsummiert von 2006 bis 2016",
+		"title": "Anzahl ordentlich Eingebürgerte",
+		"subtitle": "nach Geschlecht und Altersgruppe, Aufsummiert von 2006 bis 2016",
 		"kuerzel": "I.01.6.06480",
 		"kuerzelKunde": "D3-2",
-		"description": "Anzahl ordentlich Eingebürgerte nach Geschlecht und Altersgruppen",
+		"description": "Anzahl ordentlich Eingebürgerte",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Einbürgerungen",
 		"kennzahlenset": "Integration",
@@ -3036,11 +3036,11 @@ var indikatorensetData = [
 		"id": 6480
 	},
 	{
-		"title": "Beschuldigte ab 18 Jahren pro 1000 Erwachsene nach Staatsangehörigkeit",
+		"title": "Beschuldigte ab 18 Jahren pro 1000 Erwachsene",
 		"subtitle": "",
 		"kuerzel": "I.19.1.06482",
 		"kuerzelKunde": "D4-1",
-		"description": "Beschuldigte ab 18 Jahren pro 1000 Erwachsene nach Staatsangehörigkeit",
+		"description": "Beschuldigte ab 18 Jahren pro 1000 Erwachsene",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Integration",
@@ -3154,11 +3154,11 @@ var indikatorensetData = [
 		"id": 6484
 	},
 	{
-		"title": "Anzahl beschuldigte ausländische Erwachsene nach Aufenthaltsstatus",
-		"subtitle": "ab 18 Jahre",
+		"title": "Anzahl beschuldigte ausländische Erwachsene",
+		"subtitle": "nach Aufenthaltsstatus, ab 18 Jahre",
 		"kuerzel": "I.19.1.06485",
 		"kuerzelKunde": "D4-4",
-		"description": "Anzahl beschuldigte ausländische Erwachsene nach Aufenthaltsstatus",
+		"description": "Anzahl beschuldigte ausländische Erwachsene",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Integration",
@@ -3193,11 +3193,11 @@ var indikatorensetData = [
 		"id": 6485
 	},
 	{
-		"title": "Beschuldigte Jugendliche pro 1000 Jugendliche nach Staatsangehörigkeit",
+		"title": "Beschuldigte Jugendliche pro 1000 Jugendliche",
 		"subtitle": "2011 bis 2016",
 		"kuerzel": "I.19.1.06487",
 		"kuerzelKunde": "D5-1",
-		"description": "Beschuldigte Jugendliche pro 1000 Jugendliche nach Staatsangehörigkeit",
+		"description": "Beschuldigte Jugendliche pro 1000 Jugendliche",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Integration",
@@ -3388,11 +3388,11 @@ var indikatorensetData = [
 		"id": 6491
 	},
 	{
-		"title": "Anteil beteiligung an Freiwilligenarbeit nach Staatsangehörigkeit",
-		"subtitle": "",
+		"title": "Anteil beteiligung an Freiwilligenarbeit",
+		"subtitle": "nach Staatsangehörigkeit",
 		"kuerzel": "I.03.2.06492",
 		"kuerzelKunde": "D6-1",
-		"description": "Anteil beteiligung an Freiwilligenarbeit nach Staatsangehörigkeit",
+		"description": "Anteil beteiligung an Freiwilligenarbeit",
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Integration",
@@ -3426,7 +3426,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anteil anerkannte Religionen nach Staatsangehörigkeit",
-		"subtitle": "Stand: %Jahrbis",
+		"subtitle": "Stand: 2006",
 		"kuerzel": "I.01.7.06493",
 		"kuerzelKunde": "D7-1",
 		"description": "Anteil anerkannte Religionen nach Staatsangehörigkeit",
@@ -3909,11 +3909,11 @@ var indikatorensetData = [
 		"id": 6513
 	},
 	{
-		"title": "Anzahl ausgestellte und eingelöste Gutscheine für Gratis-Deutschkurse nach Staatsangehörigkeit",
-		"subtitle": "Stand: 2016",
+		"title": "Anzahl Gutscheine für Gratis-Deutschkurse",
+		"subtitle": "nach Staatsangehörigkeit Stand: 2016",
 		"kuerzel": "I.15.6.06514",
 		"kuerzelKunde": "B5-1",
-		"description": "Anzahl ausgestellte und eingelöste Gutscheine für Gratis-Deutschkurse nach Staatsangehörigkeit",
+		"description": "Anzahl Gutscheine für Gratis-Deutschkurse",
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsniveau",
 		"kennzahlenset": "Integration",
@@ -3946,11 +3946,11 @@ var indikatorensetData = [
 		"id": 6514
 	},
 	{
-		"title": "Anteil Kinder mit Verpflichtung zur Frühdeutschförderung nach Staatsangehörigkeit",
-		"subtitle": "Stand: 2016",
+		"title": "Anteil Kinder mit Verpflichtung zur Frühdeutschförderung",
+		"subtitle": " nach Staatsangehörigkeit, Stand: 2016",
 		"kuerzel": "I.15.6.06515",
 		"kuerzelKunde": "B6-1",
-		"description": "Anteil Kinder mit Verpflichtung zur Frühdeutschförderung nach Staatsangehörigkeit",
+		"description": "Anteil Kinder mit Verpflichtung zur Frühdeutschförderung",
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsniveau",
 		"kennzahlenset": "Integration",

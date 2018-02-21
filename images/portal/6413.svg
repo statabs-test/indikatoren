@@ -55,7 +55,7 @@
     <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(43,82) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Anzahl monatlich ausgesteuerte Ausländer nach Geschlecht</tspan>
+    <tspan>Anzahl monatlich ausgesteuerte Ausländer</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(35,40)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="276" height="30" visibility="visible"/>

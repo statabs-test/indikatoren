@@ -32,7 +32,7 @@
     <tspan>Anteil Ausländer der Ländergruppe EU-17+EFTA</tspan>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
-    <tspan>nach einzelnen Staatsangehörigkeiten 2016, Stand: 2016</tspan>
+    <tspan>nach einzelnen Staatsangehörigkeiten, Stand: 2016</tspan>
   </text>
   <g class="highcharts-data-labels highcharts-series-0 highcharts-pie-series highcharts-color-undefined " visibility="visible" transform="translate(10,55) scale(1 1)">
     <path fill="none" class="highcharts-data-label-connector highcharts-color-0" stroke="#B00000" stroke-width="1" d="M 245.34150120442743 85.37316065542899 C 240.34150120442743 85.37316065542899 231.76404161475963 93.76525139538262 228.90488841820368 96.56261497536715 L 226.04573522164773 99.35997855535169"/>

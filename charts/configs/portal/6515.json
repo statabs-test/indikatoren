@@ -119,7 +119,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil Kinder mit Verpflichtung zur Frühdeutschförderung nach Staatsangehörigkeit"
+    "text": "Anteil Kinder mit Verpflichtung zur Frühdeutschförderung"
   },
   "subtitle": {
     "style": {
@@ -128,7 +128,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2016",
+    "text": " nach Staatsangehörigkeit, Stand: 2016",
     "align": "left"
   },
   "yAxis": {

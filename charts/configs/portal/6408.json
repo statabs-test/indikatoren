@@ -177,7 +177,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Bevölkerungspyramide der Arbeitslosenquote der Schweizer nach Geschlecht"
+    "text": "Bevölkerungspyramide der Arbeitslosenquote"
   },
   "subtitle": {
     "style": {
@@ -201,7 +201,8 @@
                 	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ")+"%";
             	},
         "style": {
-          "color": "#000000"
+          "color": "#000000",
+          "textOverflow": "none"
         }
       },
       "plotLines": [

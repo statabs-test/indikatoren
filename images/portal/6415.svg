@@ -94,9 +94,9 @@
     <g class="highcharts-markers highcharts-series-7 highcharts-errorbar-series highcharts-color-undefined " transform="translate(53,121) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Erwerbstätigenquote nach Staatsangehörigkeit und</tspan><tspan dy="17" x="10">Geschlecht</tspan><title>Erwerbstätigenquote nach Staatsangehörigkeit und Geschlecht</title>
+    <tspan>Erwerbstätigenquote</tspan>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="57">
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
     <tspan>Schweiz/Ausland, gepoolte Daten 2011 bis 2015</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(45,70)">

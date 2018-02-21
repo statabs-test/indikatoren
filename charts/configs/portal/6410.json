@@ -177,7 +177,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Bevölkerungspyramide der Arbeitslosenquote der Schweizer nach Geschlecht"
+    "text": "Bevölkerungspyramide der Arbeitslosenquote"
   },
   "subtitle": {
     "style": {
@@ -186,7 +186,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2016",
+    "text": "Schweizer, nach Geschlecht, Stand: 2016",
     "align": "left"
   },
   "yAxis": [

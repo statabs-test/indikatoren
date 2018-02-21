@@ -85,7 +85,7 @@
     <g class="highcharts-markers highcharts-series-10 highcharts-line-series highcharts-color-undefined " transform="translate(43,159) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Beschuldigte ab 18 Jahren pro 1000 Erwachsene nach</tspan><tspan dy="17" x="10">Staatsangehörigkeit</tspan><title>Beschuldigte ab 18 Jahren pro 1000 Erwachsene nach Staatsangehörigkeit</title>
+    <tspan>Beschuldigte ab 18 Jahren pro 1000 Erwachsene</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(35,60)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="416" height="87" visibility="visible"/>

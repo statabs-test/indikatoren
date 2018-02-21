@@ -181,7 +181,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anzahl beschuldigte ausländische Erwachsene nach Aufenthaltsstatus"
+    "text": "Anzahl beschuldigte ausländische Erwachsene"
   },
   "subtitle": {
     "style": {
@@ -190,7 +190,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "ab 18 Jahre",
+    "text": "nach Aufenthaltsstatus, ab 18 Jahre",
     "align": "left"
   },
   "tooltip": {

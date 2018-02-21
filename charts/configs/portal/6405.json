@@ -116,7 +116,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Bei der Arbeit gesprochene Sprachen nach Migrationsstatus"
+    "text": "Bei der Arbeit gesprochene Sprachen"
   },
   "subtitle": {
     "style": {
@@ -125,7 +125,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Gepoolte Daten 2011 \u002F-2015",
+    "text": "nach Migrationsstatus, gepoolte Daten 2011 \u002F-2015",
     "align": "left"
   },
   "yAxis": {
