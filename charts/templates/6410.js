@@ -33,7 +33,8 @@
                 	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ")+"%";
             	},
                 "style": {
-                    "color": "#000000"
+                    "color": "#000000",
+                    textOverflow: 'none' // prevents ellipsis
                 }
             },
             plotLines: [{
@@ -55,7 +56,8 @@
                 labels: {
     	        	step: 1,
 	                style: {
-	                    color: "#000000"
+	                    color: "#000000",
+	                    //textOverflow: 'none' // prevents ellipsis
 	                }
                 }, 
                 tickLength: 0, 

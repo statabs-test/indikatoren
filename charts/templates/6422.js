@@ -21,12 +21,15 @@
     max: 100,
   },
   "series": [
-  {"color": "#661200", "visible": true}, /* */
-  {"color": "#dc440e", "visible": true}, /*  */
+  {"color": "#b00000", "visible": true}, /* */
+  {"color": "#661200", "visible": true}, /*  */
+  {"color": "#dc440e", "visible": true}, /* */
+  {"color": "#cd9c00", "visible": true}, /*  */
   {"color": "#7f5f1a", "visible": true}, /* */
   {"color": "#ffda80", "visible": true} /*  */
   ],
   "legend": {
+  	    itemWidth: 100,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",

@@ -122,6 +122,7 @@
     } 
   },    
   "legend": {
+  	 itemWidth: 150,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
