@@ -173,7 +173,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Beschuldigte Jugendliche nach Staatsangehörigkeit und Straftatbestand"
+    "text": "Anteil beschuldigte Jugendliche nach Staatsangehörigkeit und Straftatbestand"
   },
   "subtitle": {
     "style": {
@@ -221,9 +221,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: "
+    "text": "Quelle: Polizeiliche Kriminalitätsstatistk (PKS)"
   },
   "legend": {
     "symbolRadius": 0,

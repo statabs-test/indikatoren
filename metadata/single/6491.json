@@ -1,8 +1,8 @@
-{"title":"Beschuldigte Jugendliche nach Staatsangehörigkeit und Straftatbestand",
+{"title":"Anteil beschuldigte Jugendliche nach Staatsangehörigkeit und Straftatbestand",
 "subtitle":"Schweiz/Ausland, Jugendliche zwischen 10 und 17 Jahren, Stand: 2016",
 "kuerzel":"I.19.1.06491",
 "kuerzelKunde":"D5-5",
-"description":"Beschuldigte Jugendliche nach Staatsangehörigkeit und Straftatbestand",
+"description":"Anteil beschuldigte Jugendliche nach Staatsangehörigkeit und Straftatbestand",
 "id":6491,
 "thema":"19 Rechtspflege",
 "unterthema":"Polizei",
@@ -24,6 +24,6 @@
 "parentId":null,
 "children":[],
 "renderLink":[],
-"quellenangabe":[],
+"quellenangabe":["Polizeiliche Kriminalitätsstatistk (PKS)"],
 "externalLinks":[""]
 }

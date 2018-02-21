@@ -43,106 +43,106 @@
   </g>
   <g class="highcharts-series-group">
     <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(53,119) scale(1 1)" clip-path="url(#a)">
-      <rect x="9" y="0" width="20" height="8" fill="#999999" class="highcharts-point"/>
-      <rect x="48" y="0" width="20" height="8" fill="#999999" class="highcharts-point"/>
-      <rect x="86" y="0" width="20" height="7" fill="#999999" class="highcharts-point"/>
-      <rect x="124" y="0" width="20" height="3" fill="#999999" class="highcharts-point"/>
-      <rect x="163" y="0" width="20" height="10" fill="#999999" class="highcharts-point"/>
-      <rect x="201" y="0" width="20" height="5" fill="#999999" class="highcharts-point"/>
-      <rect x="239" y="0" width="20" height="11" fill="#999999" class="highcharts-point"/>
-      <rect x="278" y="0" width="20" height="4" fill="#999999" class="highcharts-point"/>
-      <rect x="316" y="0" width="20" height="5" fill="#999999" class="highcharts-point"/>
-      <rect x="354" y="0" width="20" height="8" fill="#999999" class="highcharts-point"/>
-      <rect x="393" y="0" width="20" height="6" fill="#999999" class="highcharts-point"/>
+      <rect x="9" y="0" width="20" height="9" fill="#999999" class="highcharts-point"/>
+      <rect x="48" y="0" width="20" height="4" fill="#999999" class="highcharts-point"/>
+      <rect x="86" y="0" width="20" height="9" fill="#999999" class="highcharts-point"/>
+      <rect x="124" y="0" width="20" height="4" fill="#999999" class="highcharts-point"/>
+      <rect x="163" y="0" width="20" height="8" fill="#999999" class="highcharts-point"/>
+      <rect x="201" y="0" width="20" height="6" fill="#999999" class="highcharts-point"/>
+      <rect x="239" y="0" width="20" height="10" fill="#999999" class="highcharts-point"/>
+      <rect x="278" y="0" width="20" height="8" fill="#999999" class="highcharts-point"/>
+      <rect x="316" y="0" width="20" height="13" fill="#999999" class="highcharts-point"/>
+      <rect x="354" y="0" width="20" height="13" fill="#999999" class="highcharts-point"/>
+      <rect x="393" y="0" width="20" height="5" fill="#999999" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(53,119) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(53,119) scale(1 1)" clip-path="url(#a)">
-      <rect x="9" y="8" width="20" height="68" fill="#fabd24" class="highcharts-point"/>
-      <rect x="48" y="8" width="20" height="81" fill="#fabd24" class="highcharts-point"/>
-      <rect x="86" y="7" width="20" height="114" fill="#fabd24" class="highcharts-point"/>
-      <rect x="124" y="3" width="20" height="7" fill="#fabd24" class="highcharts-point"/>
-      <rect x="163" y="10" width="20" height="110" fill="#fabd24" class="highcharts-point"/>
-      <rect x="201" y="5" width="20" height="84" fill="#fabd24" class="highcharts-point"/>
-      <rect x="239" y="11" width="20" height="19" fill="#fabd24" class="highcharts-point"/>
-      <rect x="278" y="4" width="20" height="102" fill="#fabd24" class="highcharts-point"/>
-      <rect x="316" y="5" width="20" height="12" fill="#fabd24" class="highcharts-point"/>
-      <rect x="354" y="8" width="20" height="56" fill="#fabd24" class="highcharts-point"/>
-      <rect x="393" y="6" width="20" height="57" fill="#fabd24" class="highcharts-point"/>
+      <rect x="9" y="9" width="20" height="77" fill="#fabd24" class="highcharts-point"/>
+      <rect x="48" y="4" width="20" height="98" fill="#fabd24" class="highcharts-point"/>
+      <rect x="86" y="9" width="20" height="112" fill="#fabd24" class="highcharts-point"/>
+      <rect x="124" y="4" width="20" height="12" fill="#fabd24" class="highcharts-point"/>
+      <rect x="163" y="8" width="20" height="125" fill="#fabd24" class="highcharts-point"/>
+      <rect x="201" y="6" width="20" height="100" fill="#fabd24" class="highcharts-point"/>
+      <rect x="239" y="10" width="20" height="20" fill="#fabd24" class="highcharts-point"/>
+      <rect x="278" y="8" width="20" height="109" fill="#fabd24" class="highcharts-point"/>
+      <rect x="316" y="13" width="20" height="13" fill="#fabd24" class="highcharts-point"/>
+      <rect x="354" y="13" width="20" height="35" fill="#fabd24" class="highcharts-point"/>
+      <rect x="393" y="5" width="20" height="67" fill="#fabd24" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(53,119) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(53,119) scale(1 1)" clip-path="url(#a)">
-      <rect x="9" y="76" width="20" height="12" fill="#E7CEE2" class="highcharts-point"/>
-      <rect x="48" y="89" width="20" height="10" fill="#E7CEE2" class="highcharts-point"/>
-      <rect x="86" y="121" width="20" height="4" fill="#E7CEE2" class="highcharts-point"/>
-      <rect x="124" y="10" width="20" height="157" fill="#E7CEE2" class="highcharts-point"/>
-      <rect x="163" y="120" width="20" height="12" fill="#E7CEE2" class="highcharts-point"/>
-      <rect x="201" y="89" width="20" height="25" fill="#E7CEE2" class="highcharts-point"/>
-      <rect x="239" y="30" width="20" height="125" fill="#E7CEE2" class="highcharts-point"/>
-      <rect x="278" y="106" width="20" height="6" fill="#E7CEE2" class="highcharts-point"/>
-      <rect x="316" y="17" width="20" height="148" fill="#E7CEE2" class="highcharts-point"/>
-      <rect x="354" y="64" width="20" height="59" fill="#E7CEE2" class="highcharts-point"/>
-      <rect x="393" y="63" width="20" height="87" fill="#E7CEE2" class="highcharts-point"/>
+      <rect x="9" y="86" width="20" height="19" fill="#E7CEE2" class="highcharts-point"/>
+      <rect x="48" y="102" width="20" height="18" fill="#E7CEE2" class="highcharts-point"/>
+      <rect x="86" y="121" width="20" height="9" fill="#E7CEE2" class="highcharts-point"/>
+      <rect x="124" y="16" width="20" height="151" fill="#E7CEE2" class="highcharts-point"/>
+      <rect x="163" y="133" width="20" height="15" fill="#E7CEE2" class="highcharts-point"/>
+      <rect x="201" y="106" width="20" height="30" fill="#E7CEE2" class="highcharts-point"/>
+      <rect x="239" y="30" width="20" height="127" fill="#E7CEE2" class="highcharts-point"/>
+      <rect x="278" y="117" width="20" height="13" fill="#E7CEE2" class="highcharts-point"/>
+      <rect x="316" y="26" width="20" height="140" fill="#E7CEE2" class="highcharts-point"/>
+      <rect x="354" y="48" width="20" height="94" fill="#E7CEE2" class="highcharts-point"/>
+      <rect x="393" y="72" width="20" height="85" fill="#E7CEE2" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(53,119) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(53,119) scale(1 1)" clip-path="url(#a)">
-      <rect x="9" y="88" width="20" height="1" fill="#73ba7c" class="highcharts-point"/>
-      <rect x="48" y="99" width="20" height="1" fill="#73ba7c" class="highcharts-point"/>
-      <rect x="86" y="125" width="20" height="0" fill="#73ba7c" class="highcharts-point"/>
+      <rect x="9" y="105" width="20" height="1" fill="#73ba7c" class="highcharts-point"/>
+      <rect x="48" y="120" width="20" height="1" fill="#73ba7c" class="highcharts-point"/>
+      <rect x="86" y="130" width="20" height="0" fill="#73ba7c" class="highcharts-point"/>
       <rect x="124" y="167" width="20" height="0" fill="#73ba7c" class="highcharts-point"/>
-      <rect x="163" y="132" width="20" height="1" fill="#73ba7c" class="highcharts-point"/>
-      <rect x="201" y="114" width="20" height="1" fill="#73ba7c" class="highcharts-point"/>
-      <rect x="239" y="155" width="20" height="0" fill="#73ba7c" class="highcharts-point"/>
-      <rect x="278" y="112" width="20" height="0" fill="#73ba7c" class="highcharts-point"/>
-      <rect x="316" y="165" width="20" height="0" fill="#73ba7c" class="highcharts-point"/>
-      <rect x="354" y="123" width="20" height="0" fill="#73ba7c" class="highcharts-point"/>
-      <rect x="393" y="150" width="20" height="2" fill="#73ba7c" class="highcharts-point"/>
+      <rect x="163" y="148" width="20" height="0" fill="#73ba7c" class="highcharts-point"/>
+      <rect x="201" y="136" width="20" height="1" fill="#73ba7c" class="highcharts-point"/>
+      <rect x="239" y="157" width="20" height="0" fill="#73ba7c" class="highcharts-point"/>
+      <rect x="278" y="130" width="20" height="0" fill="#73ba7c" class="highcharts-point"/>
+      <rect x="316" y="166" width="20" height="0" fill="#73ba7c" class="highcharts-point"/>
+      <rect x="354" y="142" width="20" height="0" fill="#73ba7c" class="highcharts-point"/>
+      <rect x="393" y="157" width="20" height="1" fill="#73ba7c" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(53,119) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined " transform="translate(53,119) scale(1 1)" clip-path="url(#a)">
-      <rect x="9" y="89" width="20" height="1" fill="#ff8028" class="highcharts-point"/>
-      <rect x="48" y="100" width="20" height="0" fill="#ff8028" class="highcharts-point"/>
-      <rect x="86" y="125" width="20" height="1" fill="#ff8028" class="highcharts-point"/>
+      <rect x="9" y="106" width="20" height="1" fill="#ff8028" class="highcharts-point"/>
+      <rect x="48" y="121" width="20" height="0" fill="#ff8028" class="highcharts-point"/>
+      <rect x="86" y="130" width="20" height="1" fill="#ff8028" class="highcharts-point"/>
       <rect x="124" y="167" width="20" height="0" fill="#ff8028" class="highcharts-point"/>
-      <rect x="163" y="133" width="20" height="0" fill="#ff8028" class="highcharts-point"/>
-      <rect x="201" y="115" width="20" height="0" fill="#ff8028" class="highcharts-point"/>
-      <rect x="239" y="155" width="20" height="0" fill="#ff8028" class="highcharts-point"/>
-      <rect x="278" y="112" width="20" height="0" fill="#ff8028" class="highcharts-point"/>
-      <rect x="316" y="165" width="20" height="0" fill="#ff8028" class="highcharts-point"/>
-      <rect x="354" y="123" width="20" height="0" fill="#ff8028" class="highcharts-point"/>
-      <rect x="393" y="152" width="20" height="1" fill="#ff8028" class="highcharts-point"/>
+      <rect x="163" y="148" width="20" height="1" fill="#ff8028" class="highcharts-point"/>
+      <rect x="201" y="137" width="20" height="2" fill="#ff8028" class="highcharts-point"/>
+      <rect x="239" y="157" width="20" height="0" fill="#ff8028" class="highcharts-point"/>
+      <rect x="278" y="130" width="20" height="1" fill="#ff8028" class="highcharts-point"/>
+      <rect x="316" y="166" width="20" height="0" fill="#ff8028" class="highcharts-point"/>
+      <rect x="354" y="142" width="20" height="0" fill="#ff8028" class="highcharts-point"/>
+      <rect x="393" y="158" width="20" height="0" fill="#ff8028" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-4 highcharts-column-series highcharts-color-undefined " transform="translate(53,119) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-5 highcharts-column-series highcharts-color-undefined " transform="translate(53,119) scale(1 1)" clip-path="url(#a)">
-      <rect x="9" y="90" width="20" height="32" fill="#672773" class="highcharts-point"/>
-      <rect x="48" y="100" width="20" height="34" fill="#672773" class="highcharts-point"/>
-      <rect x="86" y="126" width="20" height="40" fill="#672773" class="highcharts-point"/>
+      <rect x="9" y="107" width="20" height="25" fill="#672773" class="highcharts-point"/>
+      <rect x="48" y="121" width="20" height="26" fill="#672773" class="highcharts-point"/>
+      <rect x="86" y="131" width="20" height="35" fill="#672773" class="highcharts-point"/>
       <rect x="124" y="167" width="20" height="0" fill="#672773" class="highcharts-point"/>
-      <rect x="163" y="133" width="20" height="30" fill="#672773" class="highcharts-point"/>
-      <rect x="201" y="115" width="20" height="47" fill="#672773" class="highcharts-point"/>
-      <rect x="239" y="155" width="20" height="12" fill="#672773" class="highcharts-point"/>
-      <rect x="278" y="112" width="20" height="50" fill="#672773" class="highcharts-point"/>
-      <rect x="316" y="165" width="20" height="1" fill="#672773" class="highcharts-point"/>
-      <rect x="354" y="123" width="20" height="30" fill="#672773" class="highcharts-point"/>
-      <rect x="393" y="153" width="20" height="12" fill="#672773" class="highcharts-point"/>
+      <rect x="163" y="149" width="20" height="16" fill="#672773" class="highcharts-point"/>
+      <rect x="201" y="139" width="20" height="25" fill="#672773" class="highcharts-point"/>
+      <rect x="239" y="157" width="20" height="10" fill="#672773" class="highcharts-point"/>
+      <rect x="278" y="131" width="20" height="32" fill="#672773" class="highcharts-point"/>
+      <rect x="316" y="166" width="20" height="1" fill="#672773" class="highcharts-point"/>
+      <rect x="354" y="142" width="20" height="19" fill="#672773" class="highcharts-point"/>
+      <rect x="393" y="158" width="20" height="7" fill="#672773" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-5 highcharts-column-series highcharts-color-undefined " transform="translate(53,119) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-6 highcharts-column-series highcharts-color-undefined " transform="translate(53,119) scale(1 1)" clip-path="url(#a)">
-      <rect x="9" y="122" width="20" height="45" fill="#71a3b5" class="highcharts-point"/>
-      <rect x="48" y="134" width="20" height="33" fill="#71a3b5" class="highcharts-point"/>
+      <rect x="9" y="132" width="20" height="35" fill="#71a3b5" class="highcharts-point"/>
+      <rect x="48" y="147" width="20" height="20" fill="#71a3b5" class="highcharts-point"/>
       <rect x="86" y="166" width="20" height="1" fill="#71a3b5" class="highcharts-point"/>
       <rect x="124" y="167" width="20" height="0" fill="#71a3b5" class="highcharts-point"/>
-      <rect x="163" y="163" width="20" height="4" fill="#71a3b5" class="highcharts-point"/>
-      <rect x="201" y="162" width="20" height="5" fill="#71a3b5" class="highcharts-point"/>
+      <rect x="163" y="165" width="20" height="2" fill="#71a3b5" class="highcharts-point"/>
+      <rect x="201" y="164" width="20" height="3" fill="#71a3b5" class="highcharts-point"/>
       <rect x="239" y="167" width="20" height="0" fill="#71a3b5" class="highcharts-point"/>
-      <rect x="278" y="162" width="20" height="5" fill="#71a3b5" class="highcharts-point"/>
-      <rect x="316" y="166" width="20" height="1" fill="#71a3b5" class="highcharts-point"/>
-      <rect x="354" y="153" width="20" height="14" fill="#71a3b5" class="highcharts-point"/>
+      <rect x="278" y="163" width="20" height="4" fill="#71a3b5" class="highcharts-point"/>
+      <rect x="316" y="167" width="20" height="0" fill="#71a3b5" class="highcharts-point"/>
+      <rect x="354" y="161" width="20" height="6" fill="#71a3b5" class="highcharts-point"/>
       <rect x="393" y="165" width="20" height="2" fill="#71a3b5" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-6 highcharts-column-series highcharts-color-undefined " transform="translate(53,119) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Anerkannte Religionen nach Staatsangehörigkeit</tspan>
+    <tspan>Anteil anerkannte Religionen nach Staatsangehörigkeit</tspan>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
     <tspan>Ländergruppen, Stand: 2016</tspan>
@@ -210,7 +210,7 @@
       <tspan>Türkei</tspan>
     </text>
     <text x="228.22908850071434" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 228.22908850071434 301)" y="301" opacity="1">
-      <tspan>EU-17 &amp; EFTA</tspan>
+      <tspan>EU-17 + EFTA</tspan>
     </text>
     <text x="266.5927248643507" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 266.5927248643507 301)" y="301" opacity="1">
       <tspan>EU-Ost</tspan>
@@ -219,7 +219,7 @@
       <tspan>Balkan</tspan>
     </text>
     <text x="343.3199975916234" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 343.3199975916234 301)" y="301" opacity="1">
-      <tspan>Mittel- &amp; Südamerika</tspan>
+      <tspan>Mittel- und Südamerika</tspan>
     </text>
     <text x="381.6836339552598" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 381.6836339552598 301)" y="301" opacity="1">
       <tspan>Arabische Länder</tspan>

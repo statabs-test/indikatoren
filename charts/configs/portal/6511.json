@@ -130,7 +130,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Welche Sprache wird in Deinem Freundeskreis am häufigs-ten gesprochen?»"
+    "text": "«Welche Sprache wird in Deinem Freundeskreis am häufigsten gesprochen?»"
   },
   "navigation": {
     "menuItemStyle": {
@@ -207,7 +207,7 @@
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
         },
-    "y": 30,
+    "y": 40,
     "enabled": true,
     "itemWidth": 1000
   },

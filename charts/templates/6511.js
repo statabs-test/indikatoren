@@ -49,7 +49,7 @@
     { "color": "#999999", index: 0, legendIndex: 0}, // 
   ],
    "legend": { 
-     y: 30,
+     y: 40,
     "enabled": true,
     "layout": "horizontal",
    "itemWidth": 1000,

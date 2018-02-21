@@ -150,7 +150,7 @@
     <g class="highcharts-markers highcharts-series-5 highcharts-column-series highcharts-color-undefined " transform="translate(52,105) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Angestellte Schweizer in der kantonalen Verwaltung nach</tspan><tspan dy="17" x="10">Kaderstufe</tspan><title>Angestellte Schweizer in der kantonalen Verwaltung nach Kaderstufe</title>
+    <tspan>Anzahl angestellte Schweizer in der kantonalen Verwaltung</tspan><tspan dy="17" x="10">nach Kaderstufe</tspan><title>Anzahl angestellte Schweizer in der kantonalen Verwaltung nach Kaderstufe</title>
   </text>
   <g class="highcharts-legend" transform="translate(44,40)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="276" height="53" visibility="visible"/>

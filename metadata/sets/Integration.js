@@ -226,11 +226,11 @@ var indikatorensetData = [
 		"id": 6062
 	},
 	{
-		"title": "Durchschnittsalter der Wohnbevölkerung nach Geschlecht",
+		"title": "Durchschnittsalter der Wohnbevölkerung",
 		"subtitle": "nach Staatsangehörigkeit (Schweiz/Ausland) und Geschlecht",
 		"kuerzel": "I.01.1.06063",
 		"kuerzelKunde": "A2-1",
-		"description": "Durchschnittsalter der Wohnbevölkerung nach Geschlecht",
+		"description": "Durchschnittsalter der Wohnbevölkerung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration",
@@ -568,11 +568,11 @@ var indikatorensetData = [
 		"id": 6071
 	},
 	{
-		"title": "Anteil Ausländer nach Staatsangehörigkeit nach Art der Bewilligung",
+		"title": "Anteil Ausländer nach Staatsangehörigkeit und Art der Bewilligung",
 		"subtitle": "Ländergruppen, Stand: 2016",
 		"kuerzel": "I.01.1.06072",
 		"kuerzelKunde": "A3-2",
-		"description": "Anteil Ausländer nach Staatsangehörigkeit nach Art der Bewilligung",
+		"description": "Anteil Ausländer nach Staatsangehörigkeit und Art der Bewilligung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration",
@@ -1134,11 +1134,11 @@ var indikatorensetData = [
 		"id": 6088
 	},
 	{
-		"title": "Wohnbevölkerung ab 15 Jahren nach Staatsangehörigkeit und höchster abgeschlossener Ausbildung",
+		"title": "Anteil Wohnbevölkerung ab 15 Jahren nach Staatsangehörigkeit und höchster abgeschlossener Ausbildung",
 		"subtitle": "Ländergruppen, gepoolte Daten 2011 bis 2015",
 		"kuerzel": "I.15.7.06090",
 		"kuerzelKunde": "B4-2",
-		"description": "Wohnbevölkerung ab 15 Jahren nach Staatsangehörigkeit und höchster abgeschlossener Ausbildung",
+		"description": "Anteil Wohnbevölkerung ab 15 Jahren nach Staatsangehörigkeit und höchster abgeschlossener Ausbildung",
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsabschlüsse",
 		"kennzahlenset": "Integration",
@@ -1172,11 +1172,11 @@ var indikatorensetData = [
 		"id": 6090
 	},
 	{
-		"title": "Wohnbevölkerung ab 15 Jahren nach Migrationsstatus und höchster abgeschlossener Ausbildung",
+		"title": "Anteil Wohnbevölkerung ab 15 Jahren nach Migrationsstatus und höchster abgeschlossener Ausbildung",
 		"subtitle": "gepoolte Daten 2011 bis 2015",
 		"kuerzel": "I.15.7.06091",
 		"kuerzelKunde": "B4-3",
-		"description": "Wohnbevölkerung ab 15 Jahren nach Migrationsstatus und höchster abgeschlossener Ausbildung",
+		"description": "Anteil Wohnbevölkerung ab 15 Jahren nach Migrationsstatus und höchster abgeschlossener Ausbildung",
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsabschlüsse",
 		"kennzahlenset": "Integration",
@@ -1249,11 +1249,11 @@ var indikatorensetData = [
 		"id": 6398
 	},
 	{
-		"title": "Ausländer nach Staatsangehörigkeit (Ländergruppen) und Gemeinde/Wohnviertel",
+		"title": "Ausländer nach Staatsangehörigkeit und Gemeinde/Wohnviertel",
 		"subtitle": "Ländergruppen, Stand: 2016",
 		"kuerzel": "I.01.1.06399",
 		"kuerzelKunde": "A1-10",
-		"description": "Ausländer nach Staatsangehörigkeit (Ländergruppen) und Gemeinde/Wohnviertel",
+		"description": "Ausländer nach Staatsangehörigkeit und Gemeinde/Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration",
@@ -1706,11 +1706,11 @@ var indikatorensetData = [
 		"id": 6410
 	},
 	{
-		"title": "Arbeitslose nach Staatsangehörigkeit in ausgewählten Berufsgruppen",
+		"title": "Anteil Arbeitslose nach Staatsangehörigkeit in ausgewählten Berufsgruppen",
 		"subtitle": "Schweiz/Ausland, Stand: 2016",
 		"kuerzel": "I.03.4.06411",
 		"kuerzelKunde": "C1-6",
-		"description": "Arbeitslose nach Staatsangehörigkeit in ausgewählten Berufsgruppen",
+		"description": "Anteil Arbeitslose nach Staatsangehörigkeit in ausgewählten Berufsgruppen",
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Arbeitslose ",
 		"kennzahlenset": "Integration",
@@ -2006,11 +2006,11 @@ var indikatorensetData = [
 		"id": 6419
 	},
 	{
-		"title": "Angestellte Ausländer in der kantonalen Verwaltung nach Kaderstufe",
+		"title": "Anzahl angestellte Ausländer in der kantonalen Verwaltung nach Kaderstufe",
 		"subtitle": "",
 		"kuerzel": "I.18.3.06420",
 		"kuerzelKunde": "C3-2",
-		"description": "Angestellte Ausländer in der kantonalen Verwaltung nach Kaderstufe",
+		"description": "Anzahl angestellte Ausländer in der kantonalen Verwaltung nach Kaderstufe",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Staatspersonal",
 		"kennzahlenset": "Integration",
@@ -2045,11 +2045,11 @@ var indikatorensetData = [
 		"id": 6420
 	},
 	{
-		"title": "Angestellte Schweizer in der kantonalen Verwaltung nach Kaderstufe",
+		"title": "Anzahl angestellte Schweizer in der kantonalen Verwaltung nach Kaderstufe",
 		"subtitle": "",
 		"kuerzel": "I.18.3.06421",
 		"kuerzelKunde": "C3-3",
-		"description": "Angestellte Schweizer in der kantonalen Verwaltung nach Kaderstufe",
+		"description": "Anzahl angestellte Schweizer in der kantonalen Verwaltung nach Kaderstufe",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Staatspersonal",
 		"kennzahlenset": "Integration",
@@ -2163,11 +2163,11 @@ var indikatorensetData = [
 		"id": 6423
 	},
 	{
-		"title": "Anzahl Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit (Ländergruppen) und Kaderstufe",
+		"title": "Anzahl Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit und Kaderstufe",
 		"subtitle": "Ländergruppen, Stand: 2009",
 		"kuerzel": "I.18.3.06424",
 		"kuerzelKunde": "C3-6",
-		"description": "Anzahl Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit (Ländergruppen) und Kaderstufe",
+		"description": "Anzahl Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit und Kaderstufe",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Staatspersonal",
 		"kennzahlenset": "Integration",
@@ -2241,11 +2241,11 @@ var indikatorensetData = [
 		"id": 6425
 	},
 	{
-		"title": "Sozialhilfebeziehende nach Staatsangehörigkeit",
+		"title": "Anzahl Sozialhilfebeziehende nach Staatsangehörigkeit",
 		"subtitle": "Ländergruppen",
 		"kuerzel": "I.13.3.06426",
 		"kuerzelKunde": "C4-1",
-		"description": "Sozialhilfebeziehende nach Staatsangehörigkeit",
+		"description": "Anzahl Sozialhilfebeziehende nach Staatsangehörigkeit",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
 		"kennzahlenset": "Integration",
@@ -2621,7 +2621,7 @@ var indikatorensetData = [
 		"title": "Mittelwert und Median des Reinvermögens pro Veranlagung nach Staatsangehörigkeit",
 		"subtitle": "Ländergruppen",
 		"kuerzel": "I.18.2.06470",
-		"kuerzelKunde": "C6-5",
+		"kuerzelKunde": "C6-4",
 		"description": "Mittelwert und Median des Reinvermögens pro Veranlagung nach Staatsangehörigkeit",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
@@ -2658,7 +2658,7 @@ var indikatorensetData = [
 		"title": "Mittelwert des Reineinkommens pro Veranlagung nach Staatsangehörigkeit",
 		"subtitle": "Top 10 der Mittelwerte, Steuerjahr 2014",
 		"kuerzel": "I.18.2.06471",
-		"kuerzelKunde": "C6-4",
+		"kuerzelKunde": "C6-5",
 		"description": "Mittelwert des Reineinkommens pro Veranlagung nach Staatsangehörigkeit",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
@@ -2918,11 +2918,11 @@ var indikatorensetData = [
 		"id": 6477
 	},
 	{
-		"title": "Mittlere Wohnfläche pro Person (m2) nach Staatsangehörigkeit und Haushaltsgrösse",
+		"title": "Mittlere Wohnfläche pro Person (m²) nach Staatsangehörigkeit und Haushaltsgrösse",
 		"subtitle": "Ländergruppen, Stand: 2016",
 		"kuerzel": "I.01.2.06478",
 		"kuerzelKunde": "D2-4",
-		"description": "Mittlere Wohnfläche pro Person (m2) nach Staatsangehörigkeit und Haushaltsgrösse",
+		"description": "Mittlere Wohnfläche pro Person (m²) nach Staatsangehörigkeit und Haushaltsgrösse",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
 		"kennzahlenset": "Integration",
@@ -3154,11 +3154,11 @@ var indikatorensetData = [
 		"id": 6484
 	},
 	{
-		"title": "Beschuldigte Ausländer ab 18 Jahren nach Aufenthaltsstatus (B- und C-Bew., Übrige)",
+		"title": "Anzahl beschuldigte ausländische Erwachsene nach Aufenthaltsstatus",
 		"subtitle": "ab 18 Jahre",
 		"kuerzel": "I.19.1.06485",
 		"kuerzelKunde": "D4-4",
-		"description": "Beschuldigte Ausländer ab 18 Jahren nach Aufenthaltsstatus (B- und C-Bew., Übrige)",
+		"description": "Anzahl beschuldigte ausländische Erwachsene nach Aufenthaltsstatus",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Integration",
@@ -3351,11 +3351,11 @@ var indikatorensetData = [
 		"id": 6490
 	},
 	{
-		"title": "Beschuldigte Jugendliche nach Staatsangehörigkeit und Straftatbestand",
+		"title": "Anteil beschuldigte Jugendliche nach Staatsangehörigkeit und Straftatbestand",
 		"subtitle": "Schweiz/Ausland, Jugendliche zwischen 10 und 17 Jahren, Stand: 2016",
 		"kuerzel": "I.19.1.06491",
 		"kuerzelKunde": "D5-5",
-		"description": "Beschuldigte Jugendliche nach Staatsangehörigkeit und Straftatbestand",
+		"description": "Anteil beschuldigte Jugendliche nach Staatsangehörigkeit und Straftatbestand",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Integration",
@@ -3379,18 +3379,20 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Polizeiliche Kriminalitätsstatistk (PKS)"
+		],
 		"externalLinks": [
 			""
 		],
 		"id": 6491
 	},
 	{
-		"title": "Beteiligung an Freiwilligenarbeit nach Staatsangehörigkeit",
+		"title": "Anteil beteiligung an Freiwilligenarbeit nach Staatsangehörigkeit",
 		"subtitle": "Schweiz/Ausland",
 		"kuerzel": "I.03.2.06492",
 		"kuerzelKunde": "D6-1",
-		"description": "Beteiligung an Freiwilligenarbeit nach Staatsangehörigkeit",
+		"description": "Anteil beteiligung an Freiwilligenarbeit nach Staatsangehörigkeit",
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Integration",
@@ -3423,11 +3425,11 @@ var indikatorensetData = [
 		"id": 6492
 	},
 	{
-		"title": "Anerkannte Religionen nach Staatsangehörigkeit",
-		"subtitle": "Ländergruppen",
+		"title": "Anteil anerkannte Religionen nach Staatsangehörigkeit",
+		"subtitle": "Ländergruppen, Stand: %Jahrbis",
 		"kuerzel": "I.01.7.06493",
 		"kuerzelKunde": "D7-1",
-		"description": "Anerkannte Religionen nach Staatsangehörigkeit",
+		"description": "Anteil anerkannte Religionen nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Religionen",
 		"kennzahlenset": "Integration",
@@ -3460,11 +3462,11 @@ var indikatorensetData = [
 		"id": 6493
 	},
 	{
-		"title": "Anerkannte Religionen nach Staatsangehörigkeit",
+		"title": "Anteil anerkannte Religionen nach Staatsangehörigkeit",
 		"subtitle": "Ländergruppen, Stand: 2016",
 		"kuerzel": "I.01.7.06494",
 		"kuerzelKunde": "D7-2",
-		"description": "Anerkannte Religionen nach Staatsangehörigkeit",
+		"description": "Anteil anerkannte Religionen nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Religionen",
 		"kennzahlenset": "Integration",
@@ -3799,7 +3801,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Sprachen im Freundeskreis",
-		"subtitle": "«Welche Sprache wird in Deinem Freundeskreis am häufigs-ten gesprochen?»",
+		"subtitle": "«Welche Sprache wird in Deinem Freundeskreis am häufigsten gesprochen?»",
 		"kuerzel": "I.50.1.06511",
 		"kuerzelKunde": "D11-1",
 		"description": "Sprachen im Freundeskreis",
@@ -3944,11 +3946,11 @@ var indikatorensetData = [
 		"id": 6514
 	},
 	{
-		"title": "Anteil Kinder mit Verpflichtung zur Frühdeutschförderung nach Staatsangehörigkeit (Ländergruppen)",
+		"title": "Anteil Kinder mit Verpflichtung zur Frühdeutschförderung nach Staatsangehörigkeit",
 		"subtitle": "Ländergruppen, Stand: 2016",
 		"kuerzel": "I.15.6.06515",
 		"kuerzelKunde": "B6-1",
-		"description": "Anteil Kinder mit Verpflichtung zur Frühdeutschförderung nach Staatsangehörigkeit (Ländergruppen)",
+		"description": "Anteil Kinder mit Verpflichtung zur Frühdeutschförderung nach Staatsangehörigkeit",
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsniveau",
 		"kennzahlenset": "Integration",

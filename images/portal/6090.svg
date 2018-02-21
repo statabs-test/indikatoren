@@ -89,9 +89,9 @@
     <g class="highcharts-markers highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(475,340) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Wohnbevölkerung ab 15 Jahren nach Staatsangehörigkeit und</tspan><tspan dy="17" x="10">höchster abgeschlossener Ausbildung</tspan><title>Wohnbevölkerung ab 15 Jahren nach Staatsangehörigkeit und höchster abgeschlossener Ausbildung</title>
+    <tspan>Anteil Wohnbevölkerung ab 15 Jahren nach</tspan><tspan dy="17" x="10">Staatsangehörigkeit und höchster abgeschlossener</tspan><tspan dy="17" x="10">Ausbildung</tspan><title>Anteil Wohnbevölkerung ab 15 Jahren nach Staatsangehörigkeit und höchster abgeschlossener Ausbildung</title>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="57">
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="74">
     <tspan>Ländergruppen, gepoolte Daten 2011 bis 2015</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(119,70)">

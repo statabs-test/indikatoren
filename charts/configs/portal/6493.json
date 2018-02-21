@@ -442,7 +442,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anerkannte Religionen nach Staatsangehörigkeit"
+    "text": "Anteil anerkannte Religionen nach Staatsangehörigkeit"
   },
   "subtitle": {
     "style": {
@@ -451,7 +451,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ländergruppen",
+    "text": "Ländergruppen, Stand: %Jahrbis",
     "align": "left"
   },
   "yAxis": {
