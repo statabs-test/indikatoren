@@ -239,8 +239,8 @@ id | visible | visibleInPortal | indikatorenset
 4912 | true | true | 
 4913 | true | true | 
 4914 | true | true | 
-4915 | true | true | 
-4916 | true | true | 
+4915 | false |  | Archiv
+4916 | false |  | Archiv
 4917 | true | true | 
 4918 | true | true | 
 4919 | true | true | 

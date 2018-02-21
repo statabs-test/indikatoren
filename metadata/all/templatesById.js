@@ -225,8 +225,6 @@ var templatesById = {
 	"4912": "line001",
 	"4913": "line001",
 	"4914": "line001",
-	"4915": "template001",
-	"4916": "line001",
 	"4917": "dotplot",
 	"4918": "dotplot",
 	"4919": "line001",

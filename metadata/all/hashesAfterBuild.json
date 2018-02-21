@@ -1581,20 +1581,6 @@
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "e80825213e800c3eee6ac98284b60ce7e335940c"
 	},
-	"4915": {
-		"metadata": "287bd467cb7a9e5f3d3c53616d550728688ae88b",
-		"chartConfig": "c12ac3693321e3d5c55deeb327c2bce26d3ad943",
-		"data": "072bda98dd526ca20e39d2f3fa0722471f169482",
-		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-		"template": "a484d4799fc876f9b1af34650015aca72256e290"
-	},
-	"4916": {
-		"metadata": "2e4e3a639467f4df0d768ab8912251ee9b73f523",
-		"chartConfig": "7d028ee86486c2ff908428d5527f445aea786a29",
-		"data": "08c0a8ee34dddd6a042ce59c2f2d005a251be058",
-		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-		"template": "e80825213e800c3eee6ac98284b60ce7e335940c"
-	},
 	"4917": {
 		"metadata": "1258547911f556bd57f44618931a119e4e516971",
 		"chartConfig": "9f4ad44d1518112120e0f1f7e3e10f2c36c0c3e4",
