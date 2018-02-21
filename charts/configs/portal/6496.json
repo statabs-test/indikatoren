@@ -82,7 +82,7 @@
           70
         ]
       ],
-      "name": "Sehr grosse Bereicherung",
+      "name": "Sehr grosse",
       "turboThreshold": 0
     },
     {
@@ -167,7 +167,7 @@
           100
         ]
       ],
-      "name": "Eher grosse Bereicherung",
+      "name": "Eher grosse",
       "turboThreshold": 0
     },
     {
@@ -252,7 +252,7 @@
           21
         ]
       ],
-      "name": "Eher nicht so grosse Bereicherung",
+      "name": "Eher nicht so grosse",
       "turboThreshold": 0
     },
     {
@@ -337,7 +337,7 @@
           5
         ]
       ],
-      "name": "Gar keine Bereicherung",
+      "name": "Gar keine",
       "turboThreshold": 0
     },
     {
@@ -454,7 +454,7 @@
                     return accumulator + series.yData[indexOfCurrentValue];
                 }, 0);
                 //use N if all series are visible, otherwise use n
-                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' :'n='; 
+                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
                 //check for value that contains only spaces
             	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
             },
@@ -571,22 +571,18 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18"
   },
   "legend": {
-    "layout": "horizontal",
-    "verticalAlign": "top",
+    "layout": "vertical",
+    "verticalAlign": "middle",
     "itemMarginBottom": 5,
-    "align": "left",
+    "align": "right",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal"
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
-            return this.name;
-        },
-    "x": -5,
-    "y": 60,
-    "enabled": true,
-    "itemWidth": 1000
+            return this.name.replace('/ ', '/<br/>');
+        }
   },
   "exporting": {
     "filename": 6496

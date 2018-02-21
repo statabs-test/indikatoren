@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#661200",
+      "color": "#b00000",
       "visible": true,
       "data": [
         [
@@ -33,7 +33,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#dc440e",
+      "color": "#661200",
       "visible": true,
       "data": [
         [
@@ -65,7 +65,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#7f5f1a",
+      "color": "#dc440e",
       "visible": true,
       "data": [
         [
@@ -97,7 +97,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#ffda80",
+      "color": "#cd9c00",
       "visible": true,
       "data": [
         [
@@ -126,6 +126,70 @@
         ]
       ],
       "name": "Ausland",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#7f5f1a",
+      "visible": true,
+      "data": [
+        [
+          "Ohne Kaderfunktion",
+          6
+        ],
+        [
+          "Unteres Fachkader",
+          1.7
+        ],
+        [
+          "Unteres Kader",
+          4.3
+        ],
+        [
+          "Mittleres Fachkader",
+          4.8
+        ],
+        [
+          "Mittleres Kader",
+          7.4
+        ],
+        [
+          "Oberes Kader",
+          2.7
+        ]
+      ],
+      "name": "Ausländer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ffda80",
+      "visible": true,
+      "data": [
+        [
+          "Ohne Kaderfunktion",
+          8.9
+        ],
+        [
+          "Unteres Fachkader",
+          2.5
+        ],
+        [
+          "Unteres Kader",
+          1.9
+        ],
+        [
+          "Mittleres Fachkader",
+          6.7
+        ],
+        [
+          "Mittleres Kader",
+          4.5
+        ],
+        [
+          "Oberes Kader",
+          6.7
+        ]
+      ],
+      "name": "Ausländerinnen",
       "turboThreshold": 0
     }
   ],
@@ -205,7 +269,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Schweiz\u002FAusland, Stand: 2016",
+    "text": " Stand: 2016",
     "align": "left"
   },
   "yAxis": {
@@ -250,6 +314,7 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "itemWidth": 100,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
@@ -260,7 +325,7 @@
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {

@@ -77,7 +77,7 @@
     <tspan>Mittlere Wohnfläche pro Person (m²) nach Staatsangehörigkeit</tspan><tspan dy="17" x="10">und Haushaltsgrösse</tspan><title>Mittlere Wohnfläche pro Person (m²) nach Staatsangehörigkeit und Haushaltsgrösse</title>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="57">
-    <tspan>Ländergruppen, Stand: 2016</tspan>
+    <tspan>Stand: 2016</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(130,65)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="307" height="25" visibility="visible"/>

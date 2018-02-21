@@ -257,7 +257,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "aufsummiert von 2006 bis 2016",
+    "text": "Aufsummiert von 2006 bis 2016",
     "align": "left"
   },
   "yAxis": {
@@ -313,7 +313,7 @@
   },
   "tooltip": {
     "headerFormat": "\u003Cstyle=\"font-size: 10px\"\u003EAlter: {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {

@@ -305,7 +305,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Schweiz\u002FAusland, 2002 bis 2014, 3-Jahres-Pooling",
+    "text": "2002 bis 2014, 3-Jahres-Pooling",
     "align": "left"
   },
   "yAxis": {
@@ -361,7 +361,7 @@
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": 6467

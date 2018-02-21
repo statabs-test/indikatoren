@@ -156,7 +156,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Ausgestellte und eingelöste Gutscheine für Gratis-Deutschkurse nach Staatsangehörigkeit"
+    "text": "Anzahl ausgestellte und eingelöste Gutscheine für Gratis-Deutschkurse nach Staatsangehörigkeit"
   },
   "subtitle": {
     "style": {
@@ -165,7 +165,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ländergruppen, Stand: 2016",
+    "text": "Stand: 2016",
     "align": "left"
   },
   "yAxis": {

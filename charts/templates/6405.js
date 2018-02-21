@@ -36,7 +36,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-	"y": 30,
+	"y": 50,
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -53,7 +53,7 @@
     "inverted": false
   },
   "tooltip": {
-  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>',
+  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.0f}%</b><br/>',
    "shared": false
   },
 }

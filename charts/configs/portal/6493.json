@@ -451,7 +451,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ländergruppen, Stand: %Jahrbis",
+    "text": "Stand: %Jahrbis",
     "align": "left"
   },
   "yAxis": {

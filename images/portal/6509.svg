@@ -66,6 +66,7 @@
       <rect x="94" y="0" width="13" height="10" fill="#999999" class="highcharts-point"/>
       <rect x="78" y="0" width="13" height="10" fill="#999999" class="highcharts-point"/>
       <rect x="63" y="0" width="13" height="13" fill="#999999" class="highcharts-point"/>
+      <rect x="32" y="0" width="13" height="10" fill="#999999" class="highcharts-point"/>
       <rect x="17" y="0" width="13" height="9" fill="#999999" class="highcharts-point"/>
       <rect x="2" y="0" width="13" height="18" fill="#999999" class="highcharts-point"/>
     </g>
@@ -83,7 +84,7 @@
       <rect x="94" y="10" width="13" height="7" fill="#dc440e" class="highcharts-point"/>
       <rect x="78" y="10" width="13" height="6" fill="#dc440e" class="highcharts-point"/>
       <rect x="63" y="13" width="13" height="5" fill="#dc440e" class="highcharts-point"/>
-      <rect x="32" y="0" width="13" height="13" fill="#dc440e" class="highcharts-point"/>
+      <rect x="32" y="10" width="13" height="5" fill="#dc440e" class="highcharts-point"/>
       <rect x="17" y="9" width="13" height="5" fill="#dc440e" class="highcharts-point"/>
       <rect x="2" y="18" width="13" height="4" fill="#dc440e" class="highcharts-point"/>
     </g>
@@ -101,7 +102,7 @@
       <rect x="94" y="17" width="13" height="30" fill="#ffbb58" class="highcharts-point"/>
       <rect x="78" y="16" width="13" height="31" fill="#ffbb58" class="highcharts-point"/>
       <rect x="63" y="18" width="13" height="24" fill="#ffbb58" class="highcharts-point"/>
-      <rect x="32" y="13" width="13" height="6" fill="#ffbb58" class="highcharts-point"/>
+      <rect x="32" y="15" width="13" height="26" fill="#ffbb58" class="highcharts-point"/>
       <rect x="17" y="14" width="13" height="28" fill="#ffbb58" class="highcharts-point"/>
       <rect x="2" y="22" width="13" height="14" fill="#ffbb58" class="highcharts-point"/>
     </g>
@@ -119,7 +120,7 @@
       <rect x="94" y="47" width="13" height="101" fill="#68ab2b" class="highcharts-point"/>
       <rect x="78" y="47" width="13" height="101" fill="#68ab2b" class="highcharts-point"/>
       <rect x="63" y="42" width="13" height="106" fill="#68ab2b" class="highcharts-point"/>
-      <rect x="32" y="19" width="13" height="33" fill="#68ab2b" class="highcharts-point"/>
+      <rect x="32" y="41" width="13" height="104" fill="#68ab2b" class="highcharts-point"/>
       <rect x="17" y="42" width="13" height="103" fill="#68ab2b" class="highcharts-point"/>
       <rect x="2" y="36" width="13" height="108" fill="#68ab2b" class="highcharts-point"/>
     </g>
@@ -137,7 +138,7 @@
       <rect x="94" y="148" width="13" height="34" fill="#007a2f" class="highcharts-point"/>
       <rect x="78" y="148" width="13" height="34" fill="#007a2f" class="highcharts-point"/>
       <rect x="63" y="148" width="13" height="34" fill="#007a2f" class="highcharts-point"/>
-      <rect x="32" y="52" width="13" height="130" fill="#007a2f" class="highcharts-point"/>
+      <rect x="32" y="145" width="13" height="37" fill="#007a2f" class="highcharts-point"/>
       <rect x="17" y="145" width="13" height="37" fill="#007a2f" class="highcharts-point"/>
       <rect x="2" y="144" width="13" height="38" fill="#007a2f" class="highcharts-point"/>
     </g>
@@ -228,7 +229,7 @@
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="321" opacity="1"/>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="330" opacity="1">
-      <tspan>2003 Total 301 (N=1171)</tspan>
+      <tspan>2003 (N=1472)</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="345" opacity="1">
       <tspan>2003 Schweiz (N=1269)</tspan>

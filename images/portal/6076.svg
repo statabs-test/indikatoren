@@ -100,10 +100,7 @@
     <g class="highcharts-markers highcharts-series-10 highcharts-area-series highcharts-color-undefined " transform="translate(52,187) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Lebendgeborene nach Staatsangehörigkeit</tspan>
-  </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
-    <tspan>Ländergruppen</tspan>
+    <tspan>Anzahl Lebendgeborene nach Staatsangehörigkeit</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(44,50)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="276" height="125" visibility="visible"/>

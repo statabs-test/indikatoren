@@ -60,7 +60,7 @@
     <tspan>Anteil Wohnbevölkerung ab 15 Jahren nach Migrationsstatus</tspan><tspan dy="17" x="10">und höchster abgeschlossener Ausbildung</tspan><title>Anteil Wohnbevölkerung ab 15 Jahren nach Migrationsstatus und höchster abgeschlossener Ausbildung</title>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="57">
-    <tspan>gepoolte Daten 2011 bis 2015</tspan>
+    <tspan>Gepoolte Daten 2011 bis 2015</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(172,70)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="196" height="53" visibility="visible"/>

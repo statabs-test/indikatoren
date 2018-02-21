@@ -288,7 +288,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Schweiz\u002FAusland, gepoolte Daten 2011 bis 2015",
+    "text": "Gepoolte Daten 2011 bis 2015",
     "align": "left"
   },
   "yAxis": {
@@ -334,6 +334,7 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "itemWidth": 150,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",

@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#661200",
+      "color": "#b00000",
       "visible": true,
       "data": [
         [
@@ -33,7 +33,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#dc440e",
+      "color": "#661200",
       "visible": true,
       "data": [
         [
@@ -65,7 +65,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#7f5f1a",
+      "color": "#dc440e",
       "visible": true,
       "data": [
         [
@@ -97,7 +97,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#ffda80",
+      "color": "#cd9c00",
       "visible": true,
       "data": [
         [
@@ -126,6 +126,70 @@
         ]
       ],
       "name": "Ausland",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#7f5f1a",
+      "visible": true,
+      "data": [
+        [
+          "Ohne Kaderfunktion",
+          271
+        ],
+        [
+          "Unteres Fachkader",
+          2
+        ],
+        [
+          "Unteres Kader",
+          9
+        ],
+        [
+          "Mittleres Fachkader",
+          5
+        ],
+        [
+          "Mittleres Kader",
+          15
+        ],
+        [
+          "Oberes Kader",
+          2
+        ]
+      ],
+      "name": "Ausländer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ffda80",
+      "visible": true,
+      "data": [
+        [
+          "Ohne Kaderfunktion",
+          403
+        ],
+        [
+          "Unteres Fachkader",
+          3
+        ],
+        [
+          "Unteres Kader",
+          4
+        ],
+        [
+          "Mittleres Fachkader",
+          7
+        ],
+        [
+          "Mittleres Kader",
+          9
+        ],
+        [
+          "Oberes Kader",
+          5
+        ]
+      ],
+      "name": "Ausländerinnen",
       "turboThreshold": 0
     }
   ],
@@ -205,7 +269,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Schweiz\u002FAusland, Stand: 2016",
+    "text": "Stand: 2016",
     "align": "left"
   },
   "yAxis": {
@@ -250,6 +314,7 @@
   "legend": {
     "symbolRadius": 0,
     "enabled": true,
+    "itemWidth": 100,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",

@@ -84,9 +84,6 @@
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Anteil der in der Schweiz geborenen Ausländer nach</tspan><tspan dy="17" x="10">Staatsangehörigkeit</tspan><title>Anteil der in der Schweiz geborenen Ausländer nach Staatsangehörigkeit</title>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="57">
-    <tspan>Ländergruppen</tspan>
-  </text>
   <g class="highcharts-legend" transform="translate(39,60)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="286" height="106" visibility="visible"/>
     <g>

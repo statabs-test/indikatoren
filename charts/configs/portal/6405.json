@@ -125,7 +125,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "gepoolte Daten 2011 \u002F-2015",
+    "text": "Gepoolte Daten 2011 \u002F-2015",
     "align": "left"
   },
   "yAxis": {
@@ -175,13 +175,13 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "y": 30,
+    "y": 50,
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.0f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {

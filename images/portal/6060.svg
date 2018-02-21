@@ -32,7 +32,7 @@
     <tspan>Ausländer nach Staatsangehörigkeit</tspan>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
-    <tspan>Ländergruppen, Stand: 2016</tspan>
+    <tspan>Stand: 2016</tspan>
   </text>
   <g class="highcharts-data-labels highcharts-series-0 highcharts-pie-series highcharts-color-undefined " visibility="visible" transform="translate(10,55) scale(1 1)">
     <path fill="none" class="highcharts-data-label-connector highcharts-color-0" stroke="#672773" stroke-width="1" d="M 213.64564182683284 86.76485678543749 C 208.64564182683284 86.76485678543749 208.25326337660718 87.2187721429641 208.1224705598653 87.37007726213963 L 207.9916777431234 87.52138238131516"/>

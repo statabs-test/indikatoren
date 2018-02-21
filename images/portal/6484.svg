@@ -75,7 +75,7 @@
     <tspan>Beschuldigte ab 18 Jahren nach Staatsangehörigkeit pro 1 000</tspan><tspan dy="17" x="10">Erwachsene nach Geschlecht und Alter</tspan><title>Beschuldigte ab 18 Jahren nach Staatsangehörigkeit pro 1 000 Erwachsene nach Geschlecht und Alter</title>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="57">
-    <tspan>Schweiz/Ausland, Stand: 2016</tspan>
+    <tspan>Stand: 2016</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(35,60)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="296" height="39" visibility="visible"/>

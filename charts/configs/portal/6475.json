@@ -121,7 +121,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Schweiz\u002FAusland",
+    "text": "",
     "align": "left"
   },
   "yAxis": {
@@ -169,7 +169,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "y": 35,
+    "y": 45,
     "itemWidth": 300,
     "itemStyle": {
       "fontWeight": "normal"

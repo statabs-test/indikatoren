@@ -61,7 +61,7 @@
     <tspan>Beschuldigte Jugendliche pro 1000 Jugendliche nach</tspan><tspan dy="17" x="10">Staatsangehörigkeit, Geschlecht und Alter</tspan><title>Beschuldigte Jugendliche pro 1000 Jugendliche nach Staatsangehörigkeit, Geschlecht und Alter</title>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="57">
-    <tspan>Schweiz/Ausland, Jugendliche im Alter zwischen 10 und 17 Jahren</tspan>
+    <tspan>Jugendliche im Alter zwischen 10 und 17 Jahren</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(29,60)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="296" height="39" visibility="visible"/>
