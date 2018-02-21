@@ -29,7 +29,7 @@
     <g class="highcharts-markers highcharts-series-0 highcharts-pie-series highcharts-color-undefined " transform="translate(10,72) scale(1 1)"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Ausländer der Ländergruppe EU-OstAusländer der</tspan><tspan dy="17" x="10">Ländergruppe EU-Ost</tspan><title>Ausländer der Ländergruppe EU-OstAusländer der Ländergruppe EU-Ost</title>
+    <tspan>Anteil Ausländer der Ländergruppe EU-OstAusländer der</tspan><tspan dy="17" x="10">Ländergruppe EU-Ost</tspan><title>Anteil Ausländer der Ländergruppe EU-OstAusländer der Ländergruppe EU-Ost</title>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="57">
     <tspan>nach einzelnen Staatsangehörigkeiten, Stand: 2016</tspan>

@@ -284,7 +284,7 @@
     <g class="highcharts-markers highcharts-series-9 highcharts-column-series highcharts-color-undefined " transform="translate(59,143) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Ausländer nach Staatsangehörigkeit</tspan>
+    <tspan>Anzahl Ausländer nach Staatsangehörigkeit</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(51,50)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="276" height="81" visibility="visible"/>

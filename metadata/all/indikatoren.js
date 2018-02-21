@@ -11759,11 +11759,11 @@ var indikatoren = [
 		"id": 6058
 	},
 	{
-		"title": "Ausländer nach Staatsangehörigkeit",
+		"title": "Anzahl Ausländer nach Staatsangehörigkeit",
 		"subtitle": "",
 		"kuerzel": "I.01.1.06059",
 		"kuerzelKunde": "A1-4",
-		"description": "Ausländer nach Staatsangehörigkeit",
+		"description": "Anzahl Ausländer nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration",
@@ -11797,11 +11797,11 @@ var indikatoren = [
 		"id": 6059
 	},
 	{
-		"title": "Ausländer nach Staatsangehörigkeit",
+		"title": "Anteil Ausländer nach Staatsangehörigkeit",
 		"subtitle": "Stand: 2016",
 		"kuerzel": "I.01.1.06060",
 		"kuerzelKunde": "A1-5",
-		"description": "Ausländer nach Staatsangehörigkeit",
+		"description": "Anteil Ausländer nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration",
@@ -11836,11 +11836,11 @@ var indikatoren = [
 		"id": 6060
 	},
 	{
-		"title": "Übrige Ausländer",
+		"title": "Anteil Übrige Ausländer",
 		"subtitle": "nach einzelnen Staatsangehörigkeiten, Stand: 2016",
 		"kuerzel": "I.01.1.06061",
 		"kuerzelKunde": "A1-8",
-		"description": "Übrige Ausländer",
+		"description": "Anteil Übrige Ausländer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration",
@@ -11875,11 +11875,11 @@ var indikatoren = [
 		"id": 6061
 	},
 	{
-		"title": "Ausländer nach Staatsangehörigkeit und Geschlecht",
+		"title": "Anteil Ausländer nach Staatsangehörigkeit und Geschlecht",
 		"subtitle": "Stand: 2016",
 		"kuerzel": "I.01.1.06062",
 		"kuerzelKunde": "A1-9",
-		"description": "Ausländer nach Staatsangehörigkeit und Geschlecht",
+		"description": "Anteil Ausländer nach Staatsangehörigkeit und Geschlecht",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration",
@@ -19803,11 +19803,11 @@ var indikatoren = [
 		"id": 6399
 	},
 	{
-		"title": "Ausländer der Ländergruppe EU-17+EFTA",
+		"title": "Anteil Ausländer der Ländergruppe EU-17+EFTA",
 		"subtitle": "nach einzelnen Staatsangehörigkeiten 2016, Stand: 2016",
 		"kuerzel": "I.01.1.06400",
 		"kuerzelKunde": "A1-6",
-		"description": "Ausländer der Ländergruppe EU-17+EFTA",
+		"description": "Anteil Ausländer der Ländergruppe EU-17+EFTA",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration",
@@ -19842,11 +19842,11 @@ var indikatoren = [
 		"id": 6400
 	},
 	{
-		"title": "Ausländer der Ländergruppe EU-OstAusländer der Ländergruppe EU-Ost",
+		"title": "Anteil Ausländer der Ländergruppe EU-OstAusländer der Ländergruppe EU-Ost",
 		"subtitle": "nach einzelnen Staatsangehörigkeiten, Stand: 2016",
 		"kuerzel": "I.01.1.06401",
 		"kuerzelKunde": "A1-7",
-		"description": "Ausländer der Ländergruppe EU-OstAusländer der Ländergruppe EU-Ost",
+		"description": "Anteil Ausländer der Ländergruppe EU-OstAusländer der Ländergruppe EU-Ost",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration",
