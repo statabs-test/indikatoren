@@ -19,6 +19,7 @@
       },
       plotOptions: {
         pie: {
+         size: '75%',
          colors: [
     	   '#B00000', 
            '#FF8028',
