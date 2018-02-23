@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#672773",
+      "color": "rgb(103,39,115)",
       "index": 2,
       "legendIndex": 0,
       "data": [
@@ -54,7 +54,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#b475ab",
+      "color": "rgb(180,117,171)",
       "index": 1,
       "legendIndex": 1,
       "data": [
@@ -107,7 +107,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#fabd24",
+      "color": "rgb(231,207,226)",
       "index": 0,
       "legendIndex": 2,
       "data": [
