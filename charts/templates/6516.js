@@ -7,7 +7,7 @@
         "type": "category",
         "labels": {
            align: "left",
-            x: -180,
+            x: -160,
             "formatter": function() {
                 //add sum of observations of visible series to the axis label
                 var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
@@ -39,14 +39,16 @@
   	}
   },
   "series": [
-    { "color": "#007a2f", index: 4, legendIndex: 4}, // dunkelgrün
-    { "color": "#68ab2b", index: 3, legendIndex: 3}, // grün
-    { "color": "#ffbb58", index: 2, legendIndex: 2}, // orange
-    { "color": "#dc440e", index: 1, legendIndex: 1}, // rot
-    { "color": "#999999", index: 0, legendIndex: 0}, // grau
+    { "color": "#007a2f", index: 6, legendIndex: 0}, // dunkelgrün
+    { "color": "#68ab2b", index: 5, legendIndex: 1}, // grün
+    { "color": "#FABD24", index: 4, legendIndex: 2}, // gelb
+    { "color": "#DC440E", index: 3, legendIndex: 3}, // orange
+    { "color": "#C8C8C8", index: 1, legendIndex: 5}, // hellgrau
+    { "color": "#6F6F6F", index: 0, legendIndex: 6}, // dunkelgrau
+
   ],
 "chart": {     
-	 marginLeft: 170, 
+	 marginLeft: 175, 
 	 //marginBottom: 100,
      "inverted": true,
   },

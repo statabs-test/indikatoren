@@ -3999,7 +3999,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2013 stimmten 41% der befragten Familien dieser Aussage mindestens eher zu. Familien, welche nur eine andere Sprache als deutsch sprechen, stimmen mit 49% deutlich häufiger zu als Familien, welche nur deutsch (37%) bzw. deutsch und eine andere Sprache (44%) sprechen.",
 		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2009 und 2013 vor. Von insgesamt 5000 zufällig ermittelten und angeschriebenen Familien haben 2013 mehr als 2200 Familien an der schriftlichen Befragung teilgenommen.",
-		"template": "line001",
+		"template": "befragungen001",
 		"orderKey": "02_00_00_00_00_012",
 		"parentId": null,
 		"children": [],

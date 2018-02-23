@@ -195,10 +195,10 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F36"
   },
   "legend": {
-    "layout": "horizontal",
-    "verticalAlign": "top",
+    "layout": "vertical",
+    "verticalAlign": "middle",
     "itemMarginBottom": 5,
-    "align": "left",
+    "align": "right",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal"
@@ -207,9 +207,7 @@
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
         },
-    "y": 40,
-    "enabled": true,
-    "itemWidth": 1000
+    "enabled": true
   },
   "exporting": {
     "filename": 6511
