@@ -396,7 +396,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
+    "height": 500,
     "spacingBottom": 30,
     "style": {
       "fontFamily": "Arial"
@@ -486,18 +486,22 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F17a"
   },
   "legend": {
-    "layout": "vertical",
-    "verticalAlign": "middle",
+    "layout": "horizontal",
+    "verticalAlign": "top",
     "itemMarginBottom": 5,
-    "align": "right",
+    "align": "left",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal"
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
-        }
+            return this.name;
+        },
+    "x": -5,
+    "y": 60,
+    "enabled": true,
+    "itemWidth": 200
   },
   "exporting": {
     "filename": 6510

@@ -44,10 +44,27 @@
     { "color": "#FABD24", index: 2, legendIndex: 2}, // 
     { "color": "#999999", index: 0, legendIndex: 0}, // 
   ],
+  "legend": { 
+  	 x:-5,
+     y: 60,
+    "enabled": true,
+    "layout": "horizontal",
+   "itemWidth": 200,
+    "verticalAlign": "top",
+    "align": "left",
+     "labelFormatter": function () {
+            return this.name;
+        },
+    "itemStyle": {
+    "fontWeight": "normal"
+    }
+  },
+
 "chart": {     
 	 marginLeft: 150, 
 	 //marginBottom: 100,
      "inverted": true,
+      "height": 500,
   },
 }
 }());
