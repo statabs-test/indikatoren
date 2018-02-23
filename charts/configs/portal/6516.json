@@ -3,22 +3,22 @@
     {
       "color": "#007a2f",
       "index": 6,
-      "legendIndex": 6,
+      "legendIndex": 0,
       "data": [
         [
-          "2009 Total (N=3 319)",
+          "2009 Total",
           310
         ],
         [
-          "2009 nur andere Sprache(n) (n=467)",
+          "2009 Kein dt.",
           88
         ],
         [
-          "2009 ch\u002Fdt + and. Sprache(n) (n=985)",
+          "2009 Dt. und weitere",
           125
         ],
         [
-          "2009 ch\u002Fdt (n=1 667)",
+          "2009 Nur dt.",
           97
         ],
         [
@@ -26,19 +26,19 @@
           null
         ],
         [
-          "2013 Total (N=2 231)",
+          "2013 Total",
           269
         ],
         [
-          "2013 nur andere Sprache(n) n=329)",
+          "2013 Kein dt.",
           65
         ],
         [
-          "2013 ch\u002Fdt + and. Sprache(n) (n=693)",
+          "2013 Dt. und weitere",
           112
         ],
         [
-          "2013 ch\u002Fdt (n=1 190)",
+          "2013 Nur dt.",
           92
         ]
       ],
@@ -48,22 +48,22 @@
     {
       "color": "#68ab2b",
       "index": 5,
-      "legendIndex": 5,
+      "legendIndex": 1,
       "data": [
         [
-          "2009 Total (N=3 319)",
+          "2009 Total",
           924
         ],
         [
-          "2009 nur andere Sprache(n) (n=467)",
+          "2009 Kein dt.",
           119
         ],
         [
-          "2009 ch\u002Fdt + and. Sprache(n) (n=985)",
+          "2009 Dt. und weitere",
           276
         ],
         [
-          "2009 ch\u002Fdt (n=1 667)",
+          "2009 Nur dt.",
           529
         ],
         [
@@ -71,19 +71,19 @@
           null
         ],
         [
-          "2013 Total (N=2 231)",
+          "2013 Total",
           636
         ],
         [
-          "2013 nur andere Sprache(n) n=329)",
+          "2013 Kein dt.",
           95
         ],
         [
-          "2013 ch\u002Fdt + and. Sprache(n) (n=693)",
+          "2013 Dt. und weitere",
           192
         ],
         [
-          "2013 ch\u002Fdt (n=1 190)",
+          "2013 Nur dt.",
           349
         ]
       ],
@@ -91,24 +91,24 @@
       "turboThreshold": 0
     },
     {
-      "color": "#68ab2b",
+      "color": "#FABD24",
       "index": 4,
-      "legendIndex": 4,
+      "legendIndex": 2,
       "data": [
         [
-          "2009 Total (N=3 319)",
+          "2009 Total",
           762
         ],
         [
-          "2009 nur andere Sprache(n) (n=467)",
+          "2009 Kein dt.",
           83
         ],
         [
-          "2009 ch\u002Fdt + and. Sprache(n) (n=985)",
+          "2009 Dt. und weitere",
           219
         ],
         [
-          "2009 ch\u002Fdt (n=1 667)",
+          "2009 Nur dt.",
           460
         ],
         [
@@ -116,19 +116,19 @@
           null
         ],
         [
-          "2013 Total (N=2 231)",
+          "2013 Total",
           487
         ],
         [
-          "2013 nur andere Sprache(n) n=329)",
+          "2013 Kein dt.",
           52
         ],
         [
-          "2013 ch\u002Fdt + and. Sprache(n) (n=693)",
+          "2013 Dt. und weitere",
           150
         ],
         [
-          "2013 ch\u002Fdt (n=1 190)",
+          "2013 Nur dt.",
           285
         ]
       ],
@@ -136,24 +136,24 @@
       "turboThreshold": 0
     },
     {
-      "color": "#ffbb58",
+      "color": "#DC440E",
       "index": 3,
       "legendIndex": 3,
       "data": [
         [
-          "2009 Total (N=3 319)",
+          "2009 Total",
           348
         ],
         [
-          "2009 nur andere Sprache(n) (n=467)",
+          "2009 Kein dt.",
           42
         ],
         [
-          "2009 ch\u002Fdt + and. Sprache(n) (n=985)",
+          "2009 Dt. und weitere",
           133
         ],
         [
-          "2009 ch\u002Fdt (n=1 667)",
+          "2009 Nur dt.",
           173
         ],
         [
@@ -161,19 +161,19 @@
           null
         ],
         [
-          "2013 Total (N=2 231)",
+          "2013 Total",
           204
         ],
         [
-          "2013 nur andere Sprache(n) n=329)",
+          "2013 Kein dt.",
           26
         ],
         [
-          "2013 ch\u002Fdt + and. Sprache(n) (n=693)",
+          "2013 Dt. und weitere",
           53
         ],
         [
-          "2013 ch\u002Fdt (n=1 190)",
+          "2013 Nur dt.",
           125
         ]
       ],
@@ -181,24 +181,24 @@
       "turboThreshold": 0
     },
     {
-      "color": "#dc440e",
-      "index": 2,
-      "legendIndex": 2,
+      "color": "#C8C8C8",
+      "index": 1,
+      "legendIndex": 5,
       "data": [
         [
-          "2009 Total (N=3 319)",
+          "2009 Total",
           582
         ],
         [
-          "2009 nur andere Sprache(n) (n=467)",
+          "2009 Kein dt.",
           98
         ],
         [
-          "2009 ch\u002Fdt + and. Sprache(n) (n=985)",
+          "2009 Dt. und weitere",
           174
         ],
         [
-          "2009 ch\u002Fdt (n=1 667)",
+          "2009 Nur dt.",
           310
         ],
         [
@@ -206,19 +206,19 @@
           null
         ],
         [
-          "2013 Total (N=2 231)",
+          "2013 Total",
           506
         ],
         [
-          "2013 nur andere Sprache(n) n=329)",
+          "2013 Kein dt.",
           73
         ],
         [
-          "2013 ch\u002Fdt + and. Sprache(n) (n=693)",
+          "2013 Dt. und weitere",
           143
         ],
         [
-          "2013 ch\u002Fdt (n=1 190)",
+          "2013 Nur dt.",
           290
         ]
       ],
@@ -226,24 +226,24 @@
       "turboThreshold": 0
     },
     {
-      "color": "#C8C8C8",
-      "index": 1,
-      "legendIndex": 1,
+      "color": "#6F6F6F",
+      "index": 0,
+      "legendIndex": 6,
       "data": [
         [
-          "2009 Total (N=3 319)",
+          "2009 Total",
           193
         ],
         [
-          "2009 nur andere Sprache(n) (n=467)",
+          "2009 Kein dt.",
           37
         ],
         [
-          "2009 ch\u002Fdt + and. Sprache(n) (n=985)",
+          "2009 Dt. und weitere",
           58
         ],
         [
-          "2009 ch\u002Fdt (n=1 667)",
+          "2009 Nur dt.",
           98
         ],
         [
@@ -251,68 +251,23 @@
           null
         ],
         [
-          "2013 Total (N=2 231)",
+          "2013 Total",
           110
         ],
         [
-          "2013 nur andere Sprache(n) n=329)",
+          "2013 Kein dt.",
           18
         ],
         [
-          "2013 ch\u002Fdt + and. Sprache(n) (n=693)",
+          "2013 Dt. und weitere",
           43
         ],
         [
-          "2013 ch\u002Fdt (n=1 190)",
+          "2013 Nur dt.",
           49
         ]
       ],
       "name": "Keine Angabe",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#6F6F6F",
-      "index": 0,
-      "legendIndex": 0,
-      "data": [
-        [
-          "2009 Total (N=3 319)",
-          3119
-        ],
-        [
-          "2009 nur andere Sprache(n) (n=467)",
-          467
-        ],
-        [
-          "2009 ch\u002Fdt + and. Sprache(n) (n=985)",
-          985
-        ],
-        [
-          "2009 ch\u002Fdt (n=1 667)",
-          1667
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2013 Total (N=2 231)",
-          2212
-        ],
-        [
-          "2013 nur andere Sprache(n) n=329)",
-          329
-        ],
-        [
-          "2013 ch\u002Fdt + and. Sprache(n) (n=693)",
-          693
-        ],
-        [
-          "2013 ch\u002Fdt (n=1 190)",
-          1190
-        ]
-      ],
-      "name": "Anzahl",
       "turboThreshold": 0
     }
   ],
@@ -349,7 +304,7 @@
             	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
             },
       "align": "left",
-      "x": -140
+      "x": -160
     }
   },
   "chart": {
@@ -378,7 +333,7 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "marginLeft": 150,
+    "marginLeft": 175,
     "inverted": true,
     "renderTo": "container-6516"
   },

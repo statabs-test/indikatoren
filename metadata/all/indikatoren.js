@@ -11716,11 +11716,11 @@ var indikatoren = [
 		"id": 6059
 	},
 	{
-		"title": "Anteil Ausländer nach Staatsangehörigkeit",
+		"title": "Ausländer nach Staatsangehörigkeit",
 		"subtitle": "Stand: 2016",
 		"kuerzel": "I.01.1.06060",
 		"kuerzelKunde": "A1-5",
-		"description": "Anteil Ausländer nach Staatsangehörigkeit",
+		"description": "Ausländer nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration",
@@ -11755,11 +11755,11 @@ var indikatoren = [
 		"id": 6060
 	},
 	{
-		"title": "Anteil Übrige Ausländer",
+		"title": "Übrige Ausländer",
 		"subtitle": "nach einzelnen Staatsangehörigkeiten, Stand: 2016",
 		"kuerzel": "I.01.1.06061",
 		"kuerzelKunde": "A1-8",
-		"description": "Anteil Übrige Ausländer",
+		"description": "Übrige Ausländer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration",
@@ -11794,11 +11794,11 @@ var indikatoren = [
 		"id": 6061
 	},
 	{
-		"title": "Anteil Ausländer nach Staatsangehörigkeit und Geschlecht",
+		"title": "Ausländer nach Staatsangehörigkeit und Geschlecht",
 		"subtitle": "Stand: 2016",
 		"kuerzel": "I.01.1.06062",
 		"kuerzelKunde": "A1-9",
-		"description": "Anteil Ausländer nach Staatsangehörigkeit und Geschlecht",
+		"description": "Ausländer nach Staatsangehörigkeit und Geschlecht",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration",
@@ -11835,7 +11835,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Durchschnittsalter der Wohnbevölkerung",
-		"subtitle": "nach Staatsangehörigkeit (Schweiz/Ausland) und Geschlecht",
+		"subtitle": "nach Staatsangehörigkeit und Geschlecht",
 		"kuerzel": "I.01.1.06063",
 		"kuerzelKunde": "A2-1",
 		"description": "Durchschnittsalter der Wohnbevölkerung",
@@ -12185,11 +12185,11 @@ var indikatoren = [
 		"id": 6071
 	},
 	{
-		"title": "Ausländer nach Staatsangehörigkeit und Art der Bewilligung",
-		"subtitle": "Stand: 2016",
+		"title": "Ausländer nach Art der Bewilligung",
+		"subtitle": "nach Staatsangehörigkeit, Stand: 2016",
 		"kuerzel": "I.01.1.06072",
 		"kuerzelKunde": "A3-2",
-		"description": "Ausländer nach Staatsangehörigkeit und Art der Bewilligung",
+		"description": "Ausländer nach Art der Bewilligung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Integration",
@@ -12225,7 +12225,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil Ausländer mit Niederlassungsbewilligung",
-		"subtitle": " nach Staatsangehörigkeit",
+		"subtitle": "nach Staatsangehörigkeit",
 		"kuerzel": "I.01.1.06073",
 		"kuerzelKunde": "A3-3",
 		"description": "Anteil Ausländer mit Niederlassungsbewilligung",
@@ -12264,7 +12264,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Median der Aufenthaltsdauer der Ausländer",
-		"subtitle": "In Jahren, Stand: 2016",
+		"subtitle": "in Jahren, Stand: 2016",
 		"kuerzel": "I.01.1.06074",
 		"kuerzelKunde": "A3-5",
 		"description": "Median der Aufenthaltsdauer der Ausländer",
@@ -12451,7 +12451,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Veränderung des Segregationsindex",
-		"subtitle": "2016 gegenüber 1997",
+		"subtitle": "2016 gegenüber 1997, nach Staatsangehörigkeit",
 		"kuerzel": "I.01.1.06079",
 		"kuerzelKunde": "A5-2",
 		"description": "Veränderung des Segregationsindex",
@@ -12727,11 +12727,11 @@ var indikatoren = [
 		"id": 6085
 	},
 	{
-		"title": "Anteil Erwachsene mit höchstem Abschluss Sekundarstufe I",
+		"title": "Erwachsene mit höchstem Abschluss Sekundarstufe I",
 		"subtitle": "Gepoolte Daten 2011 bis 2015",
 		"kuerzel": "I.15.6.06088",
 		"kuerzelKunde": "B4-1",
-		"description": "Anteil Erwachsene mit höchstem Abschluss Sekundarstufe I",
+		"description": "Erwachsene mit höchstem Abschluss Sekundarstufe I",
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsniveau",
 		"kennzahlenset": "Integration",
@@ -12765,11 +12765,11 @@ var indikatoren = [
 		"id": 6088
 	},
 	{
-		"title": "Wohnbevölkerung nach höchster abgeschlossener Ausbildung",
-		"subtitle": "Personen ab 15 Jahren nach Staatsangehörigkeit, gepoolte Daten 2011 bis 2015",
+		"title": "Bevölkerung nach höchster abgeschlossener Ausbildung",
+		"subtitle": "Personen ab 15 Jahren nach Staatsangehörigkeit, gepoolte Daten 2011 - 2015",
 		"kuerzel": "I.15.7.06090",
 		"kuerzelKunde": "B4-2",
-		"description": "Wohnbevölkerung nach höchster abgeschlossener Ausbildung",
+		"description": "Bevölkerung nach höchster abgeschlossener Ausbildung",
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsabschlüsse",
 		"kennzahlenset": "Integration",
@@ -12804,11 +12804,11 @@ var indikatoren = [
 		"id": 6090
 	},
 	{
-		"title": "Wohnbevölkerung nach höchster abgeschlossener Ausbildung",
-		"subtitle": "Personen ab 15 Jahren nach Migrationsstatus, gepoolte Daten 2011 bis 2015",
+		"title": "Bevölkerung nach höchster abgeschlossener Ausbildung",
+		"subtitle": "Personen ab 15 Jahren nach Migrationsstatus, gepoolte Daten 2011 - 2015",
 		"kuerzel": "I.15.7.06091",
 		"kuerzelKunde": "B4-3",
-		"description": "Wohnbevölkerung nach höchster abgeschlossener Ausbildung",
+		"description": "Bevölkerung nach höchster abgeschlossener Ausbildung",
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsabschlüsse",
 		"kennzahlenset": "Integration",
@@ -19683,7 +19683,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Ausländer nach Staatsangehörigkeit",
-		"subtitle": "Stand: 2016",
+		"subtitle": "nach Gemeinde und Wohnviertel, Stand: 2016",
 		"kuerzel": "I.01.1.06399",
 		"kuerzelKunde": "A1-10",
 		"description": "Ausländer nach Staatsangehörigkeit",
@@ -19876,7 +19876,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Gesprochene Hauptsprachen nach Migrationsstatus",
-		"subtitle": "Gepoolte Daten 2011 /-2015",
+		"subtitle": "Gepoolte Daten 2011 bis 2015",
 		"kuerzel": "I.01.8.06404",
 		"kuerzelKunde": "A6-3",
 		"description": "Gesprochene Hauptsprachen nach Migrationsstatus",
@@ -20342,7 +20342,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Erwerbstätigenquote",
-		"subtitle": "nach Staatsangehörigkeit, Alter und Geschlecht, gepoolte Daten 2011 bis 2015",
+		"subtitle": "nach Staatsangehörigkeit, Alter und Geschlecht, gepoolte Daten 2011 - 2015",
 		"kuerzel": "I.03.1.06417",
 		"kuerzelKunde": "C2-3",
 		"description": "Erwerbstätigenquote",
@@ -21275,11 +21275,11 @@ var indikatoren = [
 		"id": 6474
 	},
 	{
-		"title": "Mittlere Wohnfläche pro Person (m²)",
-		"subtitle": "nach Staatsangehörigkeit",
+		"title": "Mittlere Wohnfläche pro Person",
+		"subtitle": "in m<sup>2</sup> nach Staatsangehörigkeit",
 		"kuerzel": "I.09.1.06475",
 		"kuerzelKunde": "D2-1",
-		"description": "Mittlere Wohnfläche pro Person (m²)",
+		"description": "Mittlere Wohnfläche pro Person",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Integration",
@@ -21315,11 +21315,11 @@ var indikatoren = [
 		"id": 6475
 	},
 	{
-		"title": "Mittlere Wohnfläche pro Person (m²)",
-		"subtitle": "nach Staatsangehörigkeit, Stand: 2016",
+		"title": "Mittlere Wohnfläche pro Person",
+		"subtitle": "in m<sup>2</sup> nach Staatsangehörigkeit, Stand: 2016",
 		"kuerzel": "I.09.1.06476",
 		"kuerzelKunde": "D2-2",
-		"description": "Mittlere Wohnfläche pro Person (m²)",
+		"description": "Mittlere Wohnfläche pro Person",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Integration",
@@ -21393,11 +21393,11 @@ var indikatoren = [
 		"id": 6477
 	},
 	{
-		"title": "Mittlere Wohnfläche pro Person (m²)",
-		"subtitle": "nach Staatsangehörigkeit, Stand: 2016",
+		"title": "Mittlere Wohnfläche pro Person",
+		"subtitle": "in m<sup>2</sup> nach Staatsangehörigkeit, Stand: 2016",
 		"kuerzel": "I.01.2.06478",
 		"kuerzelKunde": "D2-4",
-		"description": "Mittlere Wohnfläche pro Person (m²)",
+		"description": "Mittlere Wohnfläche pro Person",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
 		"kennzahlenset": "Integration",
@@ -21635,11 +21635,11 @@ var indikatoren = [
 		"id": 6484
 	},
 	{
-		"title": "Anzahl beschuldigte ausländische Erwachsene",
+		"title": "Beschuldigte ausländische Erwachsene",
 		"subtitle": "Personen ab 18 Jahren nach Aufenthaltsstatus",
 		"kuerzel": "I.19.1.06485",
 		"kuerzelKunde": "D4-4",
-		"description": "Anzahl beschuldigte ausländische Erwachsene",
+		"description": "Beschuldigte ausländische Erwachsene",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Integration",
@@ -22581,7 +22581,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2013 stimmten 41% der befragten Familien dieser Aussage mindestens eher zu. Familien, welche nur eine andere Sprache als deutsch sprechen, stimmen mit 48% deutlich häufiger zu als Familien, welche nur deutsch (36%) bzw. deutsch und eine andere Sprache (45%) sprechen.",
 		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2009 und 2013 vor. Von insgesamt 5000 zufällig ermittelten und angeschriebenen Familien haben 2013 mehr als 2200 Familien an der schriftlichen Befragung teilgenommen.",
-		"template": "line001",
+		"template": "befragungen001",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_013",
 		"parentId": null,

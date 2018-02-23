@@ -572,7 +572,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit (Schweiz\u002FAusland) und Geschlecht",
+    "text": "nach Staatsangehörigkeit und Geschlecht",
     "align": "left"
   },
   "tooltip": {

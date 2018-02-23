@@ -63,7 +63,7 @@
     <tspan>Veränderung des Segregationsindex</tspan>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
-    <tspan>2016 gegenüber 1997</tspan>
+    <tspan>2016 gegenüber 1997, nach Staatsangehörigkeit</tspan>
   </text>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
     <text x="63.3199975916234" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 63.3199975916234 302)" y="302" opacity="1">

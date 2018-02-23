@@ -229,7 +229,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Wohnbevölkerung nach höchster abgeschlossener Ausbildung"
+    "text": "Bevölkerung nach höchster abgeschlossener Ausbildung"
   },
   "subtitle": {
     "style": {
@@ -238,7 +238,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Personen ab 15 Jahren nach Staatsangehörigkeit, gepoolte Daten 2011 bis 2015",
+    "text": "Personen ab 15 Jahren nach Staatsangehörigkeit, gepoolte Daten 2011 - 2015",
     "align": "left"
   },
   "yAxis": {

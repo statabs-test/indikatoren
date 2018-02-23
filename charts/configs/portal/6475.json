@@ -112,7 +112,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Mittlere Wohnfläche pro Person (m²)"
+    "text": "Mittlere Wohnfläche pro Person"
   },
   "subtitle": {
     "style": {
@@ -121,7 +121,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit",
+    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E nach Staatsangehörigkeit",
     "align": "left"
   },
   "yAxis": {
