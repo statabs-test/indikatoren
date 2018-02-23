@@ -30,7 +30,7 @@
   	labels:{
   		"type": "category",
   		rotation: 0,
-  		style:{
+  			style:{
   			 textOverflow: 'none' // prevents ellipsis
   		}
   	}
@@ -56,7 +56,7 @@
      "inverted": true,
   },
   "legend": { 
-     y: 60,
+     y: 90,
      x: -5,
     "enabled": true,
     "layout": "horizontal",

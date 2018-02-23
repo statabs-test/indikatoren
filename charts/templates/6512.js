@@ -47,7 +47,6 @@
     { "color": "#FABD24", index: 4, legendIndex: 2}, // gelb
     { "color": "#DC440E", index: 3, legendIndex: 3}, // orange
     { "color": "#C8C8C8", index: 1, legendIndex: 5}, // hellgrau
-    { "color": "#6F6F6F", index: 0, legendIndex: 6}, // dunkelgrau
 
   ],
 "chart": {     
@@ -56,11 +55,11 @@
      "inverted": true,
   },
   "legend": { 
-     y: 60,
+     y: 80,
      x: -5,
     "enabled": true,
     "layout": "horizontal",
-   "itemWidth": 150,
+   "itemWidth": 160,
     "verticalAlign": "top",
     "align": "left",
     "itemStyle": {
