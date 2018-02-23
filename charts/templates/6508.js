@@ -39,16 +39,33 @@
   	}
   },
   "series": [
-    { "color": "#007a2f", index: 4, legendIndex: 4}, // dunkelgrün
-    { "color": "#68ab2b", index: 3, legendIndex: 3}, // grün
+    { "color": "#007a2f", index: 4, legendIndex: 0}, // dunkelgrün
+    { "color": "#68ab2b", index: 3, legendIndex: 1}, // grün
     { "color": "#ffbb58", index: 2, legendIndex: 2}, // orange
-    { "color": "#dc440e", index: 1, legendIndex: 1}, // rot
-    { "color": "#999999", index: 0, legendIndex: 0}, // grau
+    { "color": "#dc440e", index: 1, legendIndex: 3}, // rot
+    { "color": "#999999", index: 0, legendIndex: 4}, // grau
   ],
+  "legend": { 
+  	 x:-5,
+     y: 45,
+    "enabled": true,
+    "layout": "horizontal",
+   "itemWidth": 200,
+    "verticalAlign": "top",
+    "align": "left",
+     "labelFormatter": function () {
+            return this.name;
+        },
+    "itemStyle": {
+    "fontWeight": "normal"
+    }
+  },
+
 "chart": {     
 	 marginLeft: 150, 
 	 //marginBottom: 100,
      "inverted": true,
+      "height": 500,
   },
 }
 }());
