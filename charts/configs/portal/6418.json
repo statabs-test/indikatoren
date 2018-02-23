@@ -279,7 +279,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Erwerbsquote nach Staatsangehörigkeit und Geschlecht"
+    "text": "Erwerbsquote"
   },
   "subtitle": {
     "style": {
@@ -288,7 +288,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Gepoolte Daten 2011 bis 2015",
+    "text": "nach Staatsangehörigkeit und Geschlecht, gepoolte Daten 2011 bis 2015",
     "align": "left"
   },
   "yAxis": {

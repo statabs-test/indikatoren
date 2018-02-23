@@ -158,7 +158,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Beschuldigte ab 18 Jahren pro 1000 Erwachsene nach Staatsangehörigkeit (CH\u002FA), Geschlecht und Alter"
+    "text": "Beschuldigte ab 18 Jahren pro 1000 Erwachsene"
   },
   "subtitle": {
     "style": {
@@ -167,7 +167,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2009",
+    "text": "nach Staatsangehörigkeit, Geschlecht und Alter, Stand: 2009",
     "align": "left"
   },
   "tooltip": {

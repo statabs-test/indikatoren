@@ -177,7 +177,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Bevölkerungspyramide der Arbeitslosenquote"
+    "text": "Pyramide der Arbeitslosenquote der Ausländer"
   },
   "subtitle": {
     "style": {
@@ -186,7 +186,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausländer, Stand: 2016",
+    "text": "nach Geschlecht, Stand: 2016",
     "align": "left"
   },
   "yAxis": [

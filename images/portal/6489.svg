@@ -58,10 +58,10 @@
     <g class="highcharts-markers highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(37,111) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Beschuldigte Jugendliche pro 1000 Jugendliche nach</tspan><tspan dy="17" x="10">Staatsangehörigkeit, Geschlecht und Alter</tspan><title>Beschuldigte Jugendliche pro 1000 Jugendliche nach Staatsangehörigkeit, Geschlecht und Alter</title>
+    <tspan>Beschuldigte Jugendliche pro 1000 Jugendliche</tspan>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="57">
-    <tspan>Jugendliche im Alter zwischen 10 und 17 Jahren</tspan>
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
+    <tspan>Jugendliche zwischen 10 und 17 Jahren nach Staatsaneghörigkeit, Geschlecht</tspan><tspan dy="15" x="10">und Alter, Stand: 2016</tspan><title>Jugendliche zwischen 10 und 17 Jahren nach Staatsaneghörigkeit, Geschlecht und Alter, Stand: 2016</title>
   </text>
   <g class="highcharts-legend" transform="translate(29,60)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="296" height="39" visibility="visible"/>

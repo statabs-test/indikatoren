@@ -57,10 +57,10 @@
     <g class="highcharts-markers highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(475,340) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Anteil Wohnbevölkerung ab 15 Jahren nach Migrationsstatus</tspan><tspan dy="17" x="10">und höchster abgeschlossener Ausbildung</tspan><title>Anteil Wohnbevölkerung ab 15 Jahren nach Migrationsstatus und höchster abgeschlossener Ausbildung</title>
+    <tspan>Wohnbevölkerung nach höchster abgeschlossener Ausbildung</tspan>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="57">
-    <tspan>Gepoolte Daten 2011 bis 2015</tspan>
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
+    <tspan>Personen ab 15 Jahren nach Migrationsstatus, gepoolte Daten 2011 bis 2015</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(172,70)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="196" height="53" visibility="visible"/>

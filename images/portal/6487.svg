@@ -71,7 +71,7 @@
     <tspan>Beschuldigte Jugendliche pro 1000 Jugendliche</tspan>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
-    <tspan>2011 bis 2016</tspan>
+    <tspan>nach Staatsangehörigkeit</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(29,75)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="416" height="68" visibility="visible"/>

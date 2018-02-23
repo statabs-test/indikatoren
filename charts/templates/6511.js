@@ -48,15 +48,14 @@
     { "color": "#FABD24", index: 2, legendIndex: 2}, // 
     { "color": "#999999", index: 0, legendIndex: 0}, // 
   ],
-   "legend": { 
-     y: 40,
-    "enabled": true,
-    "layout": "horizontal",
-   "itemWidth": 1000,
-    "verticalAlign": "top",
-    "align": "left",
+   "legend": {
+    enabled:true,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5, // space between legend boxes
+    "align": "right",
     "itemStyle": {
-    "fontWeight": "normal"
+      "fontWeight": "normal"
     }
   },
 "chart": {     

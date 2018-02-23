@@ -64,7 +64,7 @@
     <g class="highcharts-markers highcharts-series-5 highcharts-line-series highcharts-color-undefined " transform="translate(47,125) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Gymnasialquoten nach Staatsangehörigkeit &amp; Geschlecht</tspan>
+    <tspan>Gymnasialquote nach Staatsangehörigkeit und Geschlecht</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(39,45)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="316" height="68" visibility="visible"/>

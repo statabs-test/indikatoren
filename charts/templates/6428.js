@@ -31,7 +31,7 @@
             "labels": {
             	step: 1,
                 formatter: function () {
-                	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ")+"";
+                	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ")+"%";
             	},
                 "style": {
                     "color": "#000000"
@@ -110,7 +110,7 @@
         },
         tooltip: {
             pointFormatter: function () {
-                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( Math.abs(this.y),1, ",", " ") + '</b><br/>';
+                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( Math.abs(this.y),1, ",", " ") + '%</b><br/>';
             }
         },
 	};

@@ -127,7 +127,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Beschuldigte Jugendliche pro 1000 Jugendliche nach Staatsangehörigkeit, Geschlecht und Alter"
+    "text": "Beschuldigte Jugendliche pro 1000 Jugendliche"
   },
   "subtitle": {
     "style": {
@@ -136,7 +136,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Jugendliche im Alter zwischen 10 und 17 Jahren",
+    "text": "Jugendliche zwischen 10 und 17 Jahren nach Staatsaneghörigkeit, Geschlecht und Alter, Stand: 2016",
     "align": "left"
   },
   "yAxis": {
