@@ -33,15 +33,15 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-	"y": 60,
+	"y": 40,
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
  "series": [
-  {"color": "#672773", index: 2, legendIndex: 0}, /*Sek1*/
-  {"color": "#b475ab", index: 1, legendIndex: 1}, /*Sek2*/
-  {"color": "#fabd24", index: 0, legendIndex:2}, /*Tert.*/
+  {"color": "rgb(103,39,115)", index: 2, legendIndex: 0}, /*Sek1*/
+  {"color": "rgb(180,117,171)", index: 1, legendIndex: 1}, /*Sek2*/
+  {"color": "rgb(231,207,226)", index: 0, legendIndex:2}, /*Tert.*/
 ],
   "chart": {
   	 marginLeft: 180,

@@ -26,12 +26,12 @@
     },
   },
   "legend": {
-  	"itemWidth": 145,
+  	"itemWidth": 180,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-	"y": 30,
+	"y": 40,
     "itemStyle": {
       "fontWeight": "normal"
     }
