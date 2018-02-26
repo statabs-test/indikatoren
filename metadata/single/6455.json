@@ -18,7 +18,7 @@
 "lesehilfe":"Auf Vollzeitstellen umgerechnet entsprechen die 190 800 Beschäftigten aus dem Jahr 2015 rund 151 600 VZÄ. Daraus resultiert ein duchschnittlicher Beschäftigungsgrad von 79%. Der durchschnittliche Beschäftigungsgrad der Männer liegt im Jahr 2015 bei 88%, während er bei den Frauen 70% beträgt.",
 "erlaeuterungen":"Die Beschäftigung in Vollzeitäquivalente (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen.",
 "template":"line001",
-"visible":false,
+"visible":true,
 "visibleInPortal":true,
 "orderKey":"02_02_00_00_00_000",
 "parentId":null,

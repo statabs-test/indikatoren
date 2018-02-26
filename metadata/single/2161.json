@@ -18,7 +18,7 @@
 "lesehilfe":"In den abgebildeten Branchen blieb die Zahl der Grenzgänger in den letzten zehn Jahren relativ konstant. Beim Baugewerbe fällt das aussergewöhnliche Jahr 2008 auf (Fussballeuropameisterschaft). In der Branche Chemie und Pharma wurden zum Ende des dritten Quartals 2007 6 972 Grenzgänger gezählt, 3,1% weniger als ein Jahr zuvor.",
 "erlaeuterungen":"",
 "template":"line001",
-"visible":false,
+"visible":true,
 "visibleInPortal":true,
 "orderKey":"02_04_03_00_00_000",
 "parentId":null,

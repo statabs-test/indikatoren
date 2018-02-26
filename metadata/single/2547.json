@@ -18,7 +18,7 @@
 "lesehilfe":"Die Beschäftigung in Basel-Stadt liegt 2015 bei rund 190 800 Beschäftigten, was umgerechnet 151 600 VZÄ entspricht. Dies entspricht einem Rückgang der VZÄ um 0,4% gegenüber dem Vorjahr. Die Vergleichskantone verzeichnen alle einen Anstieg der Beschäftigung in VZÄ. Einzig im Kanton Zürich liegt das Wachstum mit 0,7% über dem Schweizer Durchschnitt (+0,5%).",
 "erlaeuterungen":"Die Beschäftigung in Vollzeitäquivalente (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode für die entsprechenden Jahre simuliert.",
 "template":"line001",
-"visible":false,
+"visible":true,
 "visibleInPortal":true,
 "orderKey":"02_02_00_00_00_000",
 "parentId":null,

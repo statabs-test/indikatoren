@@ -1,41 +1,41 @@
 id | visible | visibleInPortal | indikatorenset
 --- | --- | --- | ---
-2151 | false |  | Arbeitsmarkt
-2152 | false |  | Arbeitsmarkt
-2153 | false |  | Arbeitsmarkt
-2161 | false |  | Arbeitsmarkt
-2163 | false |  | Arbeitsmarkt
-2173 | false |  | Arbeitsmarkt
-2400 | false |  | Arbeitsmarkt
-2401 | false |  | Arbeitsmarkt
-2402 | false |  | Arbeitsmarkt
-2404 | false |  | Arbeitsmarkt
-2405 | false |  | Arbeitsmarkt
-2423 | false |  | Arbeitsmarkt
-2424 | false |  | Arbeitsmarkt
-2426 | false |  | Arbeitsmarkt
-2428 | false |  | Arbeitsmarkt
-2429 | false |  | Arbeitsmarkt
-2459 | false |  | Arbeitsmarkt
-2461 | false |  | Arbeitsmarkt
-2462 | false |  | Arbeitsmarkt
-2463 | false |  | Arbeitsmarkt
-2464 | false |  | Arbeitsmarkt
-2465 | false |  | Arbeitsmarkt
-2466 | false |  | Arbeitsmarkt
+2151 | true | true | Arbeitsmarkt
+2152 | true | true | Arbeitsmarkt
+2153 | true | true | Arbeitsmarkt
+2161 | true | true | Arbeitsmarkt
+2163 | true | true | Arbeitsmarkt
+2173 | true | true | Arbeitsmarkt
+2400 | true | true | Arbeitsmarkt
+2401 | true | true | Arbeitsmarkt
+2402 | true | true | Arbeitsmarkt
+2404 | true | true | Arbeitsmarkt
+2405 | true | true | Arbeitsmarkt
+2423 | true | true | Arbeitsmarkt
+2424 | true | true | Arbeitsmarkt
+2426 | true | true | Arbeitsmarkt
+2428 | true | true | Arbeitsmarkt
+2429 | true | true | Arbeitsmarkt
+2459 | true | true | Arbeitsmarkt
+2461 | true | true | Arbeitsmarkt
+2462 | true | true | Arbeitsmarkt
+2463 | true | true | Arbeitsmarkt
+2464 | true | true | Arbeitsmarkt
+2465 | true | true | Arbeitsmarkt
+2466 | true | true | Arbeitsmarkt
 2501 | true | true | Legislaturplan
-2528 | false |  | Arbeitsmarkt
-2529 | false |  | Arbeitsmarkt
-2547 | false |  | Arbeitsmarkt
+2528 | true | true | Arbeitsmarkt
+2529 | true | true | Arbeitsmarkt
+2547 | true | true | Arbeitsmarkt
 2952 | true | true | Legislaturplan
 2953 | true | true | Legislaturplan
 2956 | true | true | Legislaturplan
-3027 | false |  | Arbeitsmarkt
-3028 | false |  | Arbeitsmarkt
-3029 | false |  | Arbeitsmarkt
-3030 | false |  | Arbeitsmarkt
-3031 | false |  | Arbeitsmarkt
-3032 | false |  | Arbeitsmarkt
+3027 | true | true | Arbeitsmarkt
+3028 | true | true | Arbeitsmarkt
+3029 | true | true | Arbeitsmarkt
+3030 | true | true | Arbeitsmarkt
+3031 | true | true | Arbeitsmarkt
+3032 | true | true | Arbeitsmarkt
 3051 | true | true | Legislaturplan
 3086 | true | true | Legislaturplan
 3104 | true | true | Legislaturplan
@@ -522,31 +522,33 @@ id | visible | visibleInPortal | indikatorenset
 6370 | true | false | Legislaturplan (Print)
 6371 | true | false | Legislaturplan (Print)
 6372 | true | false | Legislaturplan (Print)
-6448 | false |  | Arbeitsmarkt
-6449 | false |  | Arbeitsmarkt
-6454 | false |  | Arbeitsmarkt
-6455 | false |  | Arbeitsmarkt
-6456 | false |  | Arbeitsmarkt
-6457 | false |  | Arbeitsmarkt
+6448 | true | true | Arbeitsmarkt
+6449 | true | true | Arbeitsmarkt
+6452 | true | true | Arbeitsmarkt
+6453 | true | true | Arbeitsmarkt
+6454 | true | true | Arbeitsmarkt
+6455 | true | true | Arbeitsmarkt
+6456 | true | true | Arbeitsmarkt
+6457 | true | true | Arbeitsmarkt
 6459 | true | true | Arbeitsmarkt
-6460 | false |  | Arbeitsmarkt
-6461 | false |  | Arbeitsmarkt
-6462 | false |  | Arbeitsmarkt
-6463 | false |  | Arbeitsmarkt
-6464 | false |  | Arbeitsmarkt
+6460 | true | true | Arbeitsmarkt
+6461 | true | true | Arbeitsmarkt
+6462 | true | true | Arbeitsmarkt
+6463 | true | true | Arbeitsmarkt
+6464 | true | true | Arbeitsmarkt
 6502 | true | true | 
-6505 | false |  | Arbeitsmarkt
-6506 | false |  | Arbeitsmarkt
-6521 | false |  | Arbeitsmarkt
-6522 | false |  | Arbeitsmarkt
-6523 | false |  | Arbeitsmarkt
-6524 | false |  | Arbeitsmarkt
-6525 | false |  | Arbeitsmarkt
-6526 | false |  | Arbeitsmarkt
-6527 | false |  | Arbeitsmarkt
-6528 | false |  | Arbeitsmarkt
-6529 | false |  | Arbeitsmarkt
-6531 | false |  | Arbeitsmarkt
+6505 | true | true | Arbeitsmarkt
+6506 | true | true | Arbeitsmarkt
+6521 | true | true | Arbeitsmarkt
+6522 | true | true | Arbeitsmarkt
+6523 | true | true | Arbeitsmarkt
+6524 | true | true | Arbeitsmarkt
+6525 | true | true | Arbeitsmarkt
+6526 | true | true | Arbeitsmarkt
+6527 | true | true | Arbeitsmarkt
+6528 | true | true | Arbeitsmarkt
+6529 | true | true | Arbeitsmarkt
+6531 | true | true | Arbeitsmarkt
 6537 | true | true | Tourismus
 6538 | true | true | Tourismus
 6539 | true | true | Tourismus

@@ -1,4 +1,5 @@
 var indikatorensetNames = [
+	"Arbeitsmarkt",
 	"Legislaturplan",
 	"Wohnraumentwicklung",
 	"Integration-kompakt",
@@ -10,7 +11,6 @@ var indikatorensetNames = [
 	"Wanderungen",
 	"Richtplan (Print)",
 	"Legislaturplan (Print)",
-	"Arbeitsmarkt",
 	"Tourismus",
 	"Test"
 ];

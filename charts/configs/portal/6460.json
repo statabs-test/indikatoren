@@ -1,204 +1,216 @@
 {
   "series": [
     {
-      "color": "#A8C3CA",
+      "color": "#FFBB58",
       "data": [
         [
           "Industrie (exkl. Chemie, Pharma)",
-          8176
+          0.054
         ],
         [
           "Chemie, Pharma",
-          18295
+          0.026
         ],
         [
           "Baugewerbe",
-          7318
+          0.121
         ],
         [
           "Handel, Reparatur",
-          12700
+          0.039
         ],
         [
           "Verkehr, Lagerei",
-          10916
+          0.047
         ],
         [
           "Gastgewerbe",
-          7163
+          0.086
         ],
         [
           "Information, Kommunikation",
-          4437
+          0.035
         ],
         [
           "Finanz-, Versicherungs-DL",
-          10121
+          0.03
         ],
         [
           "Beratung, Planung, Forschung, Immobilien",
-          18830
+          0.033
         ],
         [
           "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
-          5728
+          0.07
         ],
         [
           "Personalvermittlung, -überlassung",
-          6594
+          0.026
         ],
         [
           "Öffentliche Verwaltung, Sozialversicherungen",
-          5093
+          0.027
         ],
         [
           "Erziehung, Unterricht",
-          7669
+          0.021
         ],
         [
           "Gesundheits-, Sozialwesen",
-          20373
+          0.026
         ],
         [
           "Kultur, Unterhaltung, pers. DL",
-          7289
-        ]
-      ],
-      "name": "2013",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#689199",
-      "data": [
-        [
-          "Industrie (exkl. Chemie, Pharma)",
-          8075
+          0.039
         ],
         [
-          "Chemie, Pharma",
-          18483
-        ],
-        [
-          "Baugewerbe",
-          7739
-        ],
-        [
-          "Handel, Reparatur",
-          12563
-        ],
-        [
-          "Verkehr, Lagerei",
-          10716
-        ],
-        [
-          "Gastgewerbe",
-          7327
-        ],
-        [
-          "Information, Kommunikation",
-          4227
-        ],
-        [
-          "Finanz-, Versicherungs-DL",
-          10186
-        ],
-        [
-          "Beratung, Planung, Forschung, Immobilien",
-          19292
-        ],
-        [
-          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
-          5863
-        ],
-        [
-          "Personalvermittlung, -überlassung",
-          6484
-        ],
-        [
-          "Öffentliche Verwaltung, Sozialversicherungen",
-          5172
-        ],
-        [
-          "Erziehung, Unterricht",
-          8010
-        ],
-        [
-          "Gesundheits-, Sozialwesen",
-          20700
-        ],
-        [
-          "Kultur, Unterhaltung, pers. DL",
-          7384
-        ]
-      ],
-      "name": "2014",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#246370",
-      "data": [
-        [
-          "Industrie (exkl. Chemie, Pharma)",
-          8208
-        ],
-        [
-          "Chemie, Pharma",
-          18844
-        ],
-        [
-          "Baugewerbe",
-          7800
-        ],
-        [
-          "Handel, Reparatur",
-          12404
-        ],
-        [
-          "Verkehr, Lagerei",
-          9760
-        ],
-        [
-          "Gastgewerbe",
-          7400
-        ],
-        [
-          "Information, Kommunikation",
-          4029
-        ],
-        [
-          "Finanz-, Versicherungs-DL",
-          10074
-        ],
-        [
-          "Beratung, Planung, Forschung, Immobilien",
-          19171
-        ],
-        [
-          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
-          5915
-        ],
-        [
-          "Personalvermittlung, -überlassung",
-          6041
-        ],
-        [
-          "Öffentliche Verwaltung, Sozialversicherungen",
-          5214
-        ],
-        [
-          "Erziehung, Unterricht",
-          7852
-        ],
-        [
-          "Gesundheits-, Sozialwesen",
-          21312
-        ],
-        [
-          "Kultur, Unterhaltung, pers. DL",
-          7527
+          "Total",
+          0.037
         ]
       ],
       "name": "2015",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "data": [
+        [
+          "Industrie (exkl. Chemie, Pharma)",
+          0.065
+        ],
+        [
+          "Chemie, Pharma",
+          0.026
+        ],
+        [
+          "Baugewerbe",
+          0.127
+        ],
+        [
+          "Handel, Reparatur",
+          0.04
+        ],
+        [
+          "Verkehr, Lagerei",
+          0.046
+        ],
+        [
+          "Gastgewerbe",
+          0.079
+        ],
+        [
+          "Information, Kommunikation",
+          0.036
+        ],
+        [
+          "Finanz-, Versicherungs-DL",
+          0.032
+        ],
+        [
+          "Beratung, Planung, Forschung, Immobilien",
+          0.036
+        ],
+        [
+          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
+          0.074
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          0.022
+        ],
+        [
+          "Öffentliche Verwaltung, Sozialversicherungen",
+          0.026
+        ],
+        [
+          "Erziehung, Unterricht",
+          0.022
+        ],
+        [
+          "Gesundheits-, Sozialwesen",
+          0.027
+        ],
+        [
+          "Kultur, Unterhaltung, pers. DL",
+          0.039
+        ],
+        [
+          "Total",
+          0.039
+        ]
+      ],
+      "name": "2016",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#DC440E",
+      "data": [
+        [
+          "Industrie (exkl. Chemie, Pharma)",
+          0.054
+        ],
+        [
+          "Chemie, Pharma",
+          0.022
+        ],
+        [
+          "Baugewerbe",
+          0.111
+        ],
+        [
+          "Handel, Reparatur",
+          0.042
+        ],
+        [
+          "Verkehr, Lagerei",
+          0.05
+        ],
+        [
+          "Gastgewerbe",
+          0.081
+        ],
+        [
+          "Information, Kommunikation",
+          0.034
+        ],
+        [
+          "Finanz-, Versicherungs-DL",
+          0.032
+        ],
+        [
+          "Beratung, Planung, Forschung, Immobilien",
+          0.032
+        ],
+        [
+          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
+          0.065
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          0.032
+        ],
+        [
+          "Öffentliche Verwaltung, Sozialversicherungen",
+          0.027
+        ],
+        [
+          "Erziehung, Unterricht",
+          0.021
+        ],
+        [
+          "Gesundheits-, Sozialwesen",
+          0.03
+        ],
+        [
+          "Kultur, Unterhaltung, pers. DL",
+          0.036
+        ],
+        [
+          "Total",
+          0.038
+        ]
+      ],
+      "name": "2017",
       "turboThreshold": 0
     }
   ],
@@ -254,7 +266,7 @@
     "marginLeft": 200,
     "type": "column",
     "inverted": true,
-    "renderTo": "container-6459"
+    "renderTo": "container-6460"
   },
   "plotOptions": {
     "series": {
@@ -274,7 +286,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Beschäftigung nach Branche"
+    "text": "Arbeitslosenquote nach Branche"
   },
   "subtitle": {
     "style": {
@@ -283,7 +295,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, in Vollzeitäquivalenten, 2013 bis 2015",
+    "text": "Basel-Stadt, in Prozent, 2015 bis 2017",
     "align": "left"
   },
   "yAxis": {
@@ -324,7 +336,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
   },
   "legend": {
     "symbolRadius": 0,
@@ -339,10 +351,10 @@
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.3f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
-    "filename": 6459
+    "filename": 6460
   }
 }

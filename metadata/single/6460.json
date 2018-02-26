@@ -18,7 +18,7 @@
 "lesehilfe":"Die mittlere jährliche Arbeitslosenquote ist 2017 mit 10,8% im Baugewerbe am höchsten. Im Vergleich zum Vorjahr (12,7%) ist sie hingegen etwas gesunken. Ebenfalls hohe Arbeitslosenquoten finden sich 2017 im Gastgewerbe mit 8,1%, in der Dienstleistungssammelkategorie Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen, in der z.B. auch das Reinigungsgewerbe sowie der Gartenbau enthalten ist, mit 6,6% sowie in der Industrie (exkl. Chemie und Pharma) mit 5,5%. Am tiefsten sind die Arbeitslosenquoten in den Branchen Erziehung und Unterricht (2,1%), Chemie und Pharma (2,2%) sowie Öffentliche Verwaltung (2,7%).",
 "erlaeuterungen":"Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich mit der Anzahl Arbeitslosen geteilt durch die Erwerbspersonen.",
 "template":"template001",
-"visible":false,
+"visible":true,
 "visibleInPortal":true,
 "orderKey":"01_00_00_00_00_000",
 "parentId":null,

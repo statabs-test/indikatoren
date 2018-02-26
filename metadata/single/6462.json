@@ -18,7 +18,7 @@
 "lesehilfe":"Die Abbildung zeigt die jährlich eingewanderten Erwerbstätigen mit Arbeitsort Basel-Stadt im Vergleich zur bestehenden Beschäftigung im Kanton (Beschäftigungsstand: 2015). Dabei sind Dauer- und Kurzaufenthalter berücksichtigt. In der Branche Chemie und Pharma wanderten 2017 etwas über sieben erwerbstätige ausländische Personen auf 100 existierende Stellen in Basel-Stadt in dieser Branche ein (Quote von 0,07). Noch etwas höher ist diese Quote mit 0,08 in der Sammelbranche Beratung, Planung, Forschung, Immobilien, IT und andere Dienstleistungen. Am geringsten ist die Zuwanderung im Vergleich zur bestehenden Beschäftigung in der Finanz- und Versicherungsbranche sowie in der öffentlichen Verwaltung mit jeweils klar unter 1%.",
 "erlaeuterungen":"Zugewanderte Erwerbstätige: Arbeitnehmende und Selbstständige mit Aufenthaltsbewilligung in der Schweiz (Kurz- und Daueraufenthalter). Beschäftigte (besetzte Stelle): Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 "template":"template001",
-"visible":false,
+"visible":true,
 "visibleInPortal":true,
 "orderKey":"01_00_00_00_00_000",
 "parentId":null,

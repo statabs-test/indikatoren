@@ -18,7 +18,7 @@
 "lesehilfe":"Die höchsten Medianlöhne werden auf dem Arbeitsmarkt der Nordwestschweiz mit einem Bruttolohn von rund 10 900 Franken in der Pharmazeutischen Industrie gezahlt. Auch in den Finanz- und Versicherungsdienstleistungen (8 500 Franken), dem Bereich Information und Kommunikation (8 200 Franken), Beratung, Planung, Forschung (8 000) und der Öffentlichen Verwaltung (7 400) werden übrrdurchschnittliche Löhne bezahlt. Die tiefsten Löhne werden im Mittel im Gastgewerbe mit 4 300 Franken bezahlt. Sie liegen damit bei etwa zwei Drittel des Medianlohnes über alle Branchen der Nordwestschweiz von 6 600 Franken.",
 "erlaeuterungen":"Dargestellt ist der Medianlohn auf Ebene Grossregion.",
 "template":"template001",
-"visible":false,
+"visible":true,
 "visibleInPortal":true,
 "orderKey":"01_00_00_00_00_000",
 "parentId":null,

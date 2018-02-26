@@ -18,7 +18,7 @@
 "lesehilfe":"Alle betrachteten Kantone verzeichneten in den letzten zehn Jahren einen Anstieg an ausländischen Grenzgängern. In Basel-Stadt beträgt der Zuwachs 19,6%, von ca. 30 000 auf fast 36 000 Personen. Gegenüber dem Vorjahr betrug der Zuwachs 0,1%. In der gesamten Schweiz arbeiteten zum Ende des dritten Quartals 2017 über 317 000 Grenzgänger, 63,3% mehr als 2007.",
 "erlaeuterungen":"",
 "template":"line001",
-"visible":false,
+"visible":true,
 "visibleInPortal":true,
 "orderKey":"02_04_03_00_00_000",
 "parentId":null,

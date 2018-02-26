@@ -18,7 +18,7 @@
 "lesehilfe":"",
 "erlaeuterungen":"Die Ausländerstatistik liefert Informationen über die Zuwanderung in die erwerbstätige, ausländische Bevölkerung (erfasst im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst.",
 "template":"line001",
-"visible":false,
+"visible":true,
 "visibleInPortal":true,
 "orderKey":"02_04_01_00_00_000",
 "parentId":null,
