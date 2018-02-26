@@ -8,7 +8,7 @@
           1614
         ],
         [
-          "Vereinigte Staaten von Amerika",
+          "Vereinigte Staaten",
           1481
         ],
         [
@@ -79,7 +79,6 @@
           "fontSize": "12px"
         }
       },
-      "size": "75%",
       "colors": [
         "#B00000",
         "#FF8028",
