@@ -23,20 +23,19 @@
   	//"min": 0,
   	//"max": 0.5,
     "labels": {
-    rotation: 0,
+      "format": "{value}%" ,
+        style: { 
+			textOverflow: 'none' // prevents ellipsis
+		},
     "formatter": function(){
         return Highcharts.numberFormat((this.value*100),1)+'%'; 
       }, 
-     "format": "{value}*100%" ,
-     style: { 
-			textOverflow: 'none' // prevents ellipsis
-		} 
     }    
   },
   "series": [
-  {"color": "#FFBB58"},
-  {"color": "#FF8028"}, 
-  {"color": "#DC440E"}, 
+  {"color": "#C9D6DB"},
+  {"color": "#71A3B5"}, 
+  {"color": "#008AC3"}, 
   ],
   "legend": {
     "enabled": true,
@@ -54,9 +53,10 @@
   "pointFormatter": function(){
       return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ':<br/><b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>' 
     },
-  },  
+  },   
   "chart": {  
   	marginLeft: 200,
+  	marginBottom: 70,
   	"height": 650,        
     "type": "column",
     "inverted": true

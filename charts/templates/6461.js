@@ -26,13 +26,16 @@
       "format": "{value}%" ,
         style: { 
 			textOverflow: 'none' // prevents ellipsis
-		} 
+		},
+	"formatter": function(){
+        return Highcharts.numberFormat((this.value*100),0)+'%'; 
+      }, 
     }    
   },
   "series": [
   {"color": "#D7E8D2"},
   {"color": "#73B97C"}, 
-  {"color": "#007A2F	"}, 
+  {"color": "#007A2F"}, 
   ],
   "legend": {
     "enabled": true,
@@ -47,8 +50,9 @@
     },
   },
   tooltip: {
-    pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.3f}%</b><br/>',
-    shared: false
+  "pointFormatter": function(){
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ':<br/><b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>' 
+    },
   },  
   "chart": {  
   	marginLeft: 200,
