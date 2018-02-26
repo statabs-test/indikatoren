@@ -1,216 +1,216 @@
 {
   "series": [
     {
-      "color": "#FFBB58",
+      "color": "#ECE1D0",
       "data": [
         [
-          "Industrie (exkl. Chemie, Pharma)",
-          0.054
+          "Industrie (inkl. Pharma, exkl. Energie, Wasser)",
+          6988
         ],
         [
-          "Chemie, Pharma",
-          0.026
+          "Pharma",
+          9912
         ],
         [
           "Baugewerbe",
-          0.121
+          5889
         ],
         [
           "Handel, Reparatur",
-          0.039
+          5379
         ],
         [
           "Verkehr, Lagerei",
-          0.047
+          5697
         ],
         [
           "Gastgewerbe",
-          0.086
+          4163
         ],
         [
           "Information, Kommunikation",
-          0.035
+          7876
         ],
         [
-          "Finanz-, Versicherungs-DL",
-          0.03
+          "Finanz- und Versicherungs-DL",
+          7976
         ],
         [
-          "Beratung, Planung, Forschung, Immobilien",
-          0.033
+          "Beratung, Planung, Forschung",
+          7619
         ],
         [
           "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
-          0.07
+          5170
         ],
         [
           "Personalvermittlung, -überlassung",
-          0.026
+          5738
         ],
         [
-          "Öffentliche Verwaltung, Sozialversicherungen",
-          0.027
+          "öfentliche Verwaltung",
+          7467
         ],
         [
           "Erziehung, Unterricht",
-          0.021
+          8673
         ],
         [
           "Gesundheits-, Sozialwesen",
-          0.026
+          6173
         ],
         [
-          "Kultur, Unterhaltung, pers. DL",
-          0.039
+          "Kunst und Unterhaltung",
+          5936
         ],
         [
           "Total",
-          0.037
+          6447
         ]
       ],
-      "name": "2015",
+      "name": "2010",
       "turboThreshold": 0
     },
     {
-      "color": "#FF8028",
+      "color": "#9E7C59",
       "data": [
         [
-          "Industrie (exkl. Chemie, Pharma)",
-          0.065
+          "Industrie (inkl. Pharma, exkl. Energie, Wasser)",
+          6930
         ],
         [
-          "Chemie, Pharma",
-          0.026
+          "Pharma",
+          10832
         ],
         [
           "Baugewerbe",
-          0.127
+          6105
         ],
         [
           "Handel, Reparatur",
-          0.04
+          5553
         ],
         [
           "Verkehr, Lagerei",
-          0.046
+          5885
         ],
         [
           "Gastgewerbe",
-          0.079
+          4365
         ],
         [
           "Information, Kommunikation",
-          0.036
+          8156
         ],
         [
-          "Finanz-, Versicherungs-DL",
-          0.032
+          "Finanz- und Versicherungs-DL",
+          8411
         ],
         [
-          "Beratung, Planung, Forschung, Immobilien",
-          0.036
+          "Beratung, Planung, Forschung",
+          7897
         ],
         [
           "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
-          0.074
+          4727
         ],
         [
           "Personalvermittlung, -überlassung",
-          0.022
+          5496
         ],
         [
-          "Öffentliche Verwaltung, Sozialversicherungen",
-          0.026
+          "öfentliche Verwaltung",
+          7411
         ],
         [
           "Erziehung, Unterricht",
-          0.022
+          8323
         ],
         [
           "Gesundheits-, Sozialwesen",
-          0.027
+          6187
         ],
         [
-          "Kultur, Unterhaltung, pers. DL",
-          0.039
+          "Kunst und Unterhaltung",
+          5922
         ],
         [
           "Total",
-          0.039
+          6653
         ]
       ],
-      "name": "2016",
+      "name": "2012",
       "turboThreshold": 0
     },
     {
-      "color": "#DC440E",
+      "color": "#3A2012",
       "data": [
         [
-          "Industrie (exkl. Chemie, Pharma)",
-          0.054
+          "Industrie (inkl. Pharma, exkl. Energie, Wasser)",
+          6827
         ],
         [
-          "Chemie, Pharma",
-          0.022
+          "Pharma",
+          10866
         ],
         [
           "Baugewerbe",
-          0.111
+          6068
         ],
         [
           "Handel, Reparatur",
-          0.042
+          5722
         ],
         [
           "Verkehr, Lagerei",
-          0.05
+          6210
         ],
         [
           "Gastgewerbe",
-          0.081
+          4333
         ],
         [
           "Information, Kommunikation",
-          0.034
+          8165
         ],
         [
-          "Finanz-, Versicherungs-DL",
-          0.032
+          "Finanz- und Versicherungs-DL",
+          8461
         ],
         [
-          "Beratung, Planung, Forschung, Immobilien",
-          0.032
+          "Beratung, Planung, Forschung",
+          7975
         ],
         [
           "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
-          0.065
+          5299
         ],
         [
           "Personalvermittlung, -überlassung",
-          0.032
+          5599
         ],
         [
-          "Öffentliche Verwaltung, Sozialversicherungen",
-          0.027
+          "öfentliche Verwaltung",
+          7369
         ],
         [
           "Erziehung, Unterricht",
-          0.021
+          6569
         ],
         [
           "Gesundheits-, Sozialwesen",
-          0.03
+          6259
         ],
         [
-          "Kultur, Unterhaltung, pers. DL",
-          0.036
+          "Kunst und Unterhaltung",
+          6315
         ],
         [
           "Total",
-          0.038
+          6578
         ]
       ],
-      "name": "2017",
+      "name": "2014",
       "turboThreshold": 0
     }
   ],
@@ -230,9 +230,9 @@
         "textOverflow": "none"
       },
       "align": "left",
-      "x": -180,
+      "x": -185,
       "formatter": function () {
-            return this.value.replace("/", "<br/>")
+            return this.value//.replace("        ", "<br/>")
         }
     },
     "tickLength": 0
@@ -264,10 +264,9 @@
           }
     },
     "marginLeft": 200,
-    "marginRight": 18,
     "type": "column",
     "inverted": true,
-    "renderTo": "container-6460"
+    "renderTo": "container-6464"
   },
   "plotOptions": {
     "series": {
@@ -287,7 +286,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Arbeitslosenquote nach Branche"
+    "text": "Löhne nach Branche"
   },
   "subtitle": {
     "style": {
@@ -296,7 +295,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, in Prozent, 2015 bis 2017",
+    "text": "Nordwestschweiz, Median in Franken, 2010 bis 2014",
     "align": "left"
   },
   "yAxis": {
@@ -315,13 +314,9 @@
         "color": "#000000",
         "textOverflow": "none"
       },
-      "rotation": 0,
-      "formatter": function (){
-        return Highcharts.numberFormat((this.value*100),0)+'%'; 
-      },
-      "format": "{value}*100%"
+      "format": "{value:,.0f}"
     },
-    "tickInterval": 0.02
+    "tickInterval": 3000
   },
   "navigation": {
     "menuItemStyle": {
@@ -342,7 +337,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
   },
   "legend": {
     "symbolRadius": 0,
@@ -357,11 +352,10 @@
     }
   },
   "tooltip": {
-    "pointFormatter": function (){
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ':<br/><b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>' 
-    }
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "exporting": {
-    "filename": 6460
+    "filename": 6464
   }
 }

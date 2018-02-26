@@ -187,19 +187,19 @@
       0
     </text>
     <text x="255" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="618" opacity="1">
-      5000
+      <tspan>5 000</tspan>
     </text>
     <text x="310" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="618" opacity="1">
-      10000
+      <tspan>10 000</tspan>
     </text>
     <text x="365" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="618" opacity="1">
-      15000
+      <tspan>15 000</tspan>
     </text>
     <text x="420" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="618" opacity="1">
-      20000
+      <tspan>20 000</tspan>
     </text>
     <text x="461.25" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="618" opacity="1">
-      <tspan>25000</tspan>
+      <tspan>25</tspan><tspan dy="14" x="461.25">000</tspan><title>25 000</title>
     </text>
   </g>
   <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="635">

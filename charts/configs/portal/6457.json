@@ -1,0 +1,328 @@
+{
+  "series": [
+    {
+      "color": "#C8C8C8",
+      "data": [
+        [
+          2005,
+          5002.9728
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          4577.7436
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          4783.1192
+        ],
+        [
+          2012,
+          4996.6658
+        ],
+        [
+          2013,
+          5092.808
+        ],
+        [
+          2014,
+          5172.4693
+        ],
+        [
+          2015,
+          5213.7553
+        ]
+      ],
+      "name": "Öffentliche Verwaltung, Sozialversicherungen"
+    },
+    {
+      "color": "#008AC3",
+      "data": [
+        [
+          2005,
+          7011.5492
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          7499.0397
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          7602.2543
+        ],
+        [
+          2012,
+          7717.1058
+        ],
+        [
+          2013,
+          7668.5695
+        ],
+        [
+          2014,
+          8010.3509
+        ],
+        [
+          2015,
+          7851.7071
+        ]
+      ],
+      "name": "Erziehung, Unterricht"
+    },
+    {
+      "color": "#6F6F6F",
+      "data": [
+        [
+          2005,
+          16357.829
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          17160.299
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          19388.595
+        ],
+        [
+          2012,
+          19185.7
+        ],
+        [
+          2013,
+          20372.638
+        ],
+        [
+          2014,
+          20700.077
+        ],
+        [
+          2015,
+          21312.152
+        ]
+      ],
+      "name": "Gesundheits-, Sozialwesen"
+    },
+    {
+      "color": "#2B0099",
+      "data": [
+        [
+          2005,
+          5564.1538
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          5686.8856
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          7070.4517
+        ],
+        [
+          2012,
+          7025.542
+        ],
+        [
+          2013,
+          7289.2383
+        ],
+        [
+          2014,
+          7384.494
+        ],
+        [
+          2015,
+          7526.6154
+        ]
+      ],
+      "name": "Kultur, Unterhaltung, pers. DL"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-6457"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Beschäftigungsentwicklung im Dienstleistungssektor (III)"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Anzahl Vollzeitäquivalente, 2005 bis 2015",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 2
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "y": 55,
+    "itemWidth": 250,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    },
+    "series": {
+      "connectNulls": true
+    }
+  },
+  "exporting": {
+    "filename": 6457
+  }
+}

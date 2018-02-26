@@ -1,0 +1,328 @@
+{
+  "series": [
+    {
+      "color": "#D7E8D2",
+      "data": [
+        [
+          2005,
+          13262.773
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          13322.528
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          13162.868
+        ],
+        [
+          2012,
+          12968.645
+        ],
+        [
+          2013,
+          12699.818
+        ],
+        [
+          2014,
+          12563.024
+        ],
+        [
+          2015,
+          12403.858
+        ]
+      ],
+      "name": "Handel, Reparatur"
+    },
+    {
+      "color": "#73B97C",
+      "data": [
+        [
+          2005,
+          11948.608
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          11966.692
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          11303.415
+        ],
+        [
+          2012,
+          11188.497
+        ],
+        [
+          2013,
+          10916.356
+        ],
+        [
+          2014,
+          10715.607
+        ],
+        [
+          2015,
+          9760.4789
+        ]
+      ],
+      "name": "Verkehr, Lagerei"
+    },
+    {
+      "color": "#007A2F",
+      "data": [
+        [
+          2005,
+          6196.6747
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          6337.9943
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          6585.9696
+        ],
+        [
+          2012,
+          6693.0789
+        ],
+        [
+          2013,
+          7163.4276
+        ],
+        [
+          2014,
+          7326.6867
+        ],
+        [
+          2015,
+          7400.3098
+        ]
+      ],
+      "name": "Gastgewerbe"
+    },
+    {
+      "color": "#0A3B19",
+      "data": [
+        [
+          2005,
+          4043.6442
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          4212.4284
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          4022.1692
+        ],
+        [
+          2012,
+          4488.998
+        ],
+        [
+          2013,
+          4437.2955
+        ],
+        [
+          2014,
+          4227.1106
+        ],
+        [
+          2015,
+          4028.9675
+        ]
+      ],
+      "name": "Information, Kommunikation"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-2529"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Beschäftigungsentwicklung im Dienstleistungssektor (I)"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Anzahl Vollzeitäquivalente, 2005 bis 2015",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 2
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "y": 55,
+    "itemWidth": 150,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    },
+    "series": {
+      "connectNulls": true
+    }
+  },
+  "exporting": {
+    "filename": 2529
+  }
+}

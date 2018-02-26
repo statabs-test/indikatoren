@@ -20,12 +20,11 @@
     },
   },
   "yAxis": {
-  	//"min": 0,
-  	//"max": 0.5,
+  	tickInterval: 0.02,
     "labels": {
-    rotation: 0,
+     rotation: 0,
     "formatter": function(){
-        return Highcharts.numberFormat((this.value*100),1)+'%'; 
+        return Highcharts.numberFormat((this.value*100),0)+'%'; 
       }, 
      "format": "{value}*100%" ,
      style: { 
@@ -57,6 +56,7 @@
   },  
   "chart": {  
   	marginLeft: 200,
+  	marginRight: 18,
   	"height": 650,        
     "type": "column",
     "inverted": true

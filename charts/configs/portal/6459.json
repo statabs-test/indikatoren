@@ -302,7 +302,7 @@
         "color": "#000000",
         "textOverflow": "none"
       },
-      "format": "{value}"
+      "format": "{value:,.0f}"
     }
   },
   "navigation": {

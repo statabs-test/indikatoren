@@ -22,6 +22,7 @@
   "yAxis": {
   	//"min": 0,
   	//"max": 0.5,
+  	tickInterval: 3000,
     "labels": {
       "format": "{value:,.0f}" ,
         style: { 

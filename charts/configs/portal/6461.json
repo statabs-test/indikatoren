@@ -143,7 +143,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#68AB2B",
+      "color": "#007A2F",
       "data": [
         [
           "Industrie (exkl. Chemie, Pharma)",
@@ -264,6 +264,7 @@
           }
     },
     "marginLeft": 200,
+    "marginBottom": 70,
     "type": "column",
     "inverted": true,
     "renderTo": "container-6461"
@@ -314,7 +315,10 @@
         "color": "#000000",
         "textOverflow": "none"
       },
-      "format": "{value}"
+      "format": "{value}%",
+      "formatter": function (){
+        return Highcharts.numberFormat((this.value*100),0)+'%'; 
+      }
     }
   },
   "navigation": {
@@ -351,8 +355,9 @@
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.3f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
+    "pointFormatter": function (){
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ':<br/><b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>' 
+    }
   },
   "exporting": {
     "filename": 6461
