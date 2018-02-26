@@ -18402,6 +18402,43 @@ var indikatoren = [
 		"id": 6372
 	},
 	{
+		"title": "Beschäftigung nach Branche",
+		"subtitle": "Basel-Stadt, in Vollzeitäquivalenten, 2013 bis 2015",
+		"kuerzel": "I.03.2.06459",
+		"kuerzelKunde": "2.1-01",
+		"description": "Beschäftigung nach Branche",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Beschäftigte ",
+		"kennzahlenset": "Arbeitsmarkt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Beschäftigte"
+		],
+		"stufe1": "Übersicht Basler Arbeitsmarkt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Rund 21 000 Beschäftigte in Vollzeitäquivalenten (VZÄ) sind in Basel-Stadt 2015 im Gesundheit- und Sozialwesen tätig, das sind etwa 14% der Gesamtbeschäftigung und eine Steigerung von 3,0% zum Vorjahr. Je 19 000 VZÄ oder 12% der Gesamtbeschäftigung arbeiten in der Dienstleistungsgruppe Beratung, Planung, Forschung, Immobilenwesen sowie in der Branche der Chemischen und Pharmazeutischen Industrie. Dabei ist Letztere mit 2,0% im Vergleich zum Vorjahr wie schon in den Jahren zuvor weiter gewachsen.Ebenfalls über 1,0% Wachstum verzeichneten die Branchen Kultur, Unterhaltung und persönliche Dienstleistungen (+1,9%), Industrie (ohne Chemie und Pharma, +1,6%) sowie Gastgewerbe (+1,0%). Geschrumpft sind insbesondere die Branchen Verkehr und Lagerei (-8,9%), Personalvermittlung und -überlassung (-6,8%), Information und Kommunikation (-4,7%), Erziehung und Unterricht (-2,0%), Handel und Reparatur (-1,3%) sowie Finanz- und Versicherungsdienstleistungen (-1,0%).",
+		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Zahl der Vollzeitäquivalente wird daraus mit einem Modell bestimmt. Die Referenzperiode ist jeweils der Dezember des Jahres.",
+		"template": "template001",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6459
+	},
+	{
 		"title": "Bevölkerungsbestand am Jahresende",
 		"subtitle": "nach Altersklasse und Wohnviertel; Stand: 2017",
 		"kuerzel": "I.01.1.06502",

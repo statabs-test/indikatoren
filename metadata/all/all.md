@@ -1,9 +1,41 @@
 id | visible | visibleInPortal | indikatorenset
 --- | --- | --- | ---
+2151 | false |  | Arbeitsmarkt
+2152 | false |  | Arbeitsmarkt
+2153 | false |  | Arbeitsmarkt
+2161 | false |  | Arbeitsmarkt
+2163 | false |  | Arbeitsmarkt
+2173 | false |  | Arbeitsmarkt
+2400 | false |  | Arbeitsmarkt
+2401 | false |  | Arbeitsmarkt
+2402 | false |  | Arbeitsmarkt
+2404 | false |  | Arbeitsmarkt
+2405 | false |  | Arbeitsmarkt
+2423 | false |  | Arbeitsmarkt
+2424 | false |  | Arbeitsmarkt
+2426 | false |  | Arbeitsmarkt
+2428 | false |  | Arbeitsmarkt
+2429 | false |  | Arbeitsmarkt
+2459 | false |  | Arbeitsmarkt
+2461 | false |  | Arbeitsmarkt
+2462 | false |  | Arbeitsmarkt
+2463 | false |  | Arbeitsmarkt
+2464 | false |  | Arbeitsmarkt
+2465 | false |  | Arbeitsmarkt
+2466 | false |  | Arbeitsmarkt
 2501 | true | true | Legislaturplan
+2528 | false |  | Arbeitsmarkt
+2529 | false |  | Arbeitsmarkt
+2547 | false |  | Arbeitsmarkt
 2952 | true | true | Legislaturplan
 2953 | true | true | Legislaturplan
 2956 | true | true | Legislaturplan
+3027 | false |  | Arbeitsmarkt
+3028 | false |  | Arbeitsmarkt
+3029 | false |  | Arbeitsmarkt
+3030 | false |  | Arbeitsmarkt
+3031 | false |  | Arbeitsmarkt
+3032 | false |  | Arbeitsmarkt
 3051 | true | true | Legislaturplan
 3086 | true | true | Legislaturplan
 3104 | true | true | Legislaturplan
@@ -490,7 +522,31 @@ id | visible | visibleInPortal | indikatorenset
 6370 | true | false | Legislaturplan (Print)
 6371 | true | false | Legislaturplan (Print)
 6372 | true | false | Legislaturplan (Print)
+6448 | false |  | Arbeitsmarkt
+6449 | false |  | Arbeitsmarkt
+6454 | false |  | Arbeitsmarkt
+6455 | false |  | Arbeitsmarkt
+6456 | false |  | Arbeitsmarkt
+6457 | false |  | Arbeitsmarkt
+6459 | true | true | Arbeitsmarkt
+6460 | false |  | Arbeitsmarkt
+6461 | false |  | Arbeitsmarkt
+6462 | false |  | Arbeitsmarkt
+6463 | false |  | Arbeitsmarkt
+6464 | false |  | Arbeitsmarkt
 6502 | true | true | 
+6505 | false |  | Arbeitsmarkt
+6506 | false |  | Arbeitsmarkt
+6521 | false |  | Arbeitsmarkt
+6522 | false |  | Arbeitsmarkt
+6523 | false |  | Arbeitsmarkt
+6524 | false |  | Arbeitsmarkt
+6525 | false |  | Arbeitsmarkt
+6526 | false |  | Arbeitsmarkt
+6527 | false |  | Arbeitsmarkt
+6528 | false |  | Arbeitsmarkt
+6529 | false |  | Arbeitsmarkt
+6531 | false |  | Arbeitsmarkt
 6537 | true | true | Tourismus
 6538 | true | true | Tourismus
 6539 | true | true | Tourismus
