@@ -6,182 +6,182 @@
   </desc>
   <defs>
     <clipPath>
-      <rect x="0" y="0" width="422" height="229" fill="none"/>
+      <rect x="0" y="0" width="422" height="243" fill="none"/>
     </clipPath>
     <clipPath id="a">
-      <rect x="0" y="0" width="422" height="229" fill="none"/>
+      <rect x="0" y="0" width="422" height="243" fill="none"/>
     </clipPath>
   </defs>
   <rect fill="#fbfbfb" class="highcharts-background" x="0" y="0" width="485" height="415" rx="0" ry="0"/>
-  <rect fill="none" class="highcharts-plot-background" x="53" y="121" width="422" height="229"/>
+  <rect fill="none" class="highcharts-plot-background" x="53" y="107" width="422" height="243"/>
   <g class="highcharts-pane-group"/>
   <g class="highcharts-grid highcharts-xaxis-grid ">
-    <path fill="none" class="highcharts-grid-line" d="M 136.5 121 L 136.5 350" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 221.5 121 L 221.5 350" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 305.5 121 L 305.5 350" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 390.5 121 L 390.5 350" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 474.5 121 L 474.5 350" opacity="1"/>
-    <path fill="none" class="highcharts-grid-line" d="M 52.5 121 L 52.5 350" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 136.5 107 L 136.5 350" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 221.5 107 L 221.5 350" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 305.5 107 L 305.5 350" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 390.5 107 L 390.5 350" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 474.5 107 L 474.5 350" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 52.5 107 L 52.5 350" opacity="1"/>
   </g>
   <g class="highcharts-grid highcharts-yaxis-grid ">
     <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 53 350.25 L 475 350.25" opacity="1"/>
-    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 53 293.25 L 475 293.25" opacity="1"/>
-    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 53 236.25 L 475 236.25" opacity="1"/>
-    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 53 178.25 L 475 178.25" opacity="1"/>
-    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 53 120.75 L 475 120.75" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 53 289.25 L 475 289.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 53 229.25 L 475 229.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 53 168.25 L 475 168.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 53 107.25 L 475 107.25" opacity="1"/>
   </g>
-  <rect fill="none" class="highcharts-plot-border" x="53" y="121" width="422" height="229"/>
+  <rect fill="none" class="highcharts-plot-border" x="53" y="107" width="422" height="243"/>
   <g class="highcharts-axis highcharts-xaxis ">
     <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width="0.5" d="M 53 350.25 L 475 350.25"/>
   </g>
   <g class="highcharts-axis highcharts-yaxis ">
-    <path fill="none" class="highcharts-axis-line" d="M 53 121 L 53 350"/>
+    <path fill="none" class="highcharts-axis-line" d="M 53 107 L 53 350"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(53,121) scale(1 1)" clip-path="url(#a)">
-      <rect x="17" y="125" width="13" height="105" fill="#661200" class="highcharts-point"/>
-      <rect x="101" y="34" width="13" height="196" fill="#661200" class="highcharts-point"/>
-      <rect x="186" y="28" width="12" height="202" fill="#661200" class="highcharts-point"/>
-      <rect x="270" y="37" width="13" height="193" fill="#661200" class="highcharts-point"/>
-      <rect x="354" y="70" width="13" height="160" fill="#661200" class="highcharts-point"/>
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(53,107) scale(1 1)" clip-path="url(#a)">
+      <rect x="17" y="133" width="13" height="111" fill="#661200" class="highcharts-point"/>
+      <rect x="101" y="36" width="13" height="208" fill="#661200" class="highcharts-point"/>
+      <rect x="186" y="29" width="12" height="215" fill="#661200" class="highcharts-point"/>
+      <rect x="270" y="39" width="13" height="205" fill="#661200" class="highcharts-point"/>
+      <rect x="354" y="74" width="13" height="170" fill="#661200" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(53,121) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-1 highcharts-errorbar-series highcharts-color-undefined " transform="translate(53,121) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(53,107) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-errorbar-series highcharts-color-undefined " transform="translate(53,107) scale(1 1)" clip-path="url(#a)">
       <g class="highcharts-point">
-        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 24.5 131 L 24.5 116 M 24.5 131 L 24.5 131"/>
-        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 21 116.5 L 28 116.5 M 21 131.5 L 28 131.5"/>
+        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 24.5 139 L 24.5 124 M 24.5 139 L 24.5 139"/>
+        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 21 124.5 L 28 124.5 M 21 139.5 L 28 139.5"/>
         <path fill="none" class="highcharts-boxplot-median" stroke="#000000" stroke-width="2" d="M 0 0"/>
       </g>
       <g class="highcharts-point">
-        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 108.5 37 L 108.5 27 M 108.5 37 L 108.5 37"/>
-        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 105 27.5 L 112 27.5 M 105 37.5 L 112 37.5"/>
+        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 108.5 39 L 108.5 29 M 108.5 39 L 108.5 39"/>
+        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 105 29.5 L 112 29.5 M 105 39.5 L 112 39.5"/>
         <path fill="none" class="highcharts-boxplot-median" stroke="#000000" stroke-width="2" d="M 0 0"/>
       </g>
       <g class="highcharts-point">
-        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 192.5 31 L 192.5 22 M 192.5 31 L 192.5 31"/>
-        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 189.5 22.5 L 195.5 22.5 M 189.5 31.5 L 195.5 31.5"/>
+        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 192.5 33 L 192.5 23 M 192.5 33 L 192.5 33"/>
+        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 189.5 23.5 L 195.5 23.5 M 189.5 33.5 L 195.5 33.5"/>
         <path fill="none" class="highcharts-boxplot-median" stroke="#000000" stroke-width="2" d="M 0 0"/>
       </g>
       <g class="highcharts-point">
-        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 277.5 40 L 277.5 31 M 277.5 40 L 277.5 40"/>
-        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 274 31.5 L 281 31.5 M 274 40.5 L 281 40.5"/>
+        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 277.5 42 L 277.5 33 M 277.5 42 L 277.5 42"/>
+        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 274 33.5 L 281 33.5 M 274 42.5 L 281 42.5"/>
         <path fill="none" class="highcharts-boxplot-median" stroke="#000000" stroke-width="2" d="M 0 0"/>
       </g>
       <g class="highcharts-point">
-        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 361.5 74 L 361.5 62 M 361.5 74 L 361.5 74"/>
-        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 358 62.5 L 365 62.5 M 358 74.5 L 365 74.5"/>
-        <path fill="none" class="highcharts-boxplot-median" stroke="#000000" stroke-width="2" d="M 0 0"/>
-      </g>
-    </g>
-    <g class="highcharts-markers highcharts-series-1 highcharts-errorbar-series highcharts-color-undefined " transform="translate(53,121) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(53,121) scale(1 1)" clip-path="url(#a)">
-      <rect x="30" y="114" width="12" height="116" fill="#dc440e" class="highcharts-point"/>
-      <rect x="114" y="38" width="13" height="192" fill="#dc440e" class="highcharts-point"/>
-      <rect x="198" y="41" width="13" height="189" fill="#dc440e" class="highcharts-point"/>
-      <rect x="283" y="43" width="12" height="187" fill="#dc440e" class="highcharts-point"/>
-      <rect x="367" y="90" width="13" height="140" fill="#dc440e" class="highcharts-point"/>
-    </g>
-    <g class="highcharts-markers highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(53,121) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-3 highcharts-errorbar-series highcharts-color-undefined " transform="translate(53,121) scale(1 1)" clip-path="url(#a)">
-      <g class="highcharts-point">
-        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 36.5 119 L 36.5 105 M 36.5 119 L 36.5 119"/>
-        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 33.5 105.5 L 39.5 105.5 M 33.5 119.5 L 39.5 119.5"/>
-        <path fill="none" class="highcharts-boxplot-median" stroke="#000000" stroke-width="2" d="M 0 0"/>
-      </g>
-      <g class="highcharts-point">
-        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 121.5 40 L 121.5 32 M 121.5 40 L 121.5 40"/>
-        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 118 32.5 L 125 32.5 M 118 40.5 L 125 40.5"/>
-        <path fill="none" class="highcharts-boxplot-median" stroke="#000000" stroke-width="2" d="M 0 0"/>
-      </g>
-      <g class="highcharts-point">
-        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 205.5 44 L 205.5 34 M 205.5 44 L 205.5 44"/>
-        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 202 34.5 L 209 34.5 M 202 44.5 L 209 44.5"/>
-        <path fill="none" class="highcharts-boxplot-median" stroke="#000000" stroke-width="2" d="M 0 0"/>
-      </g>
-      <g class="highcharts-point">
-        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 289.5 46 L 289.5 37 M 289.5 46 L 289.5 46"/>
-        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 286.5 37.5 L 292.5 37.5 M 286.5 46.5 L 292.5 46.5"/>
-        <path fill="none" class="highcharts-boxplot-median" stroke="#000000" stroke-width="2" d="M 0 0"/>
-      </g>
-      <g class="highcharts-point">
-        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 374.5 94 L 374.5 83 M 374.5 94 L 374.5 94"/>
-        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 371 83.5 L 378 83.5 M 371 94.5 L 378 94.5"/>
+        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 361.5 78 L 361.5 66 M 361.5 78 L 361.5 78"/>
+        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 358 66.5 L 365 66.5 M 358 78.5 L 365 78.5"/>
         <path fill="none" class="highcharts-boxplot-median" stroke="#000000" stroke-width="2" d="M 0 0"/>
       </g>
     </g>
-    <g class="highcharts-markers highcharts-series-3 highcharts-errorbar-series highcharts-color-undefined " transform="translate(53,121) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined " transform="translate(53,121) scale(1 1)" clip-path="url(#a)">
-      <rect x="42" y="122" width="13" height="108" fill="#7f5f1a" class="highcharts-point"/>
-      <rect x="127" y="29" width="12" height="201" fill="#7f5f1a" class="highcharts-point"/>
-      <rect x="211" y="39" width="13" height="191" fill="#7f5f1a" class="highcharts-point"/>
-      <rect x="295" y="47" width="13" height="183" fill="#7f5f1a" class="highcharts-point"/>
-      <rect x="380" y="105" width="12" height="125" fill="#7f5f1a" class="highcharts-point"/>
+    <g class="highcharts-markers highcharts-series-1 highcharts-errorbar-series highcharts-color-undefined " transform="translate(53,107) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(53,107) scale(1 1)" clip-path="url(#a)">
+      <rect x="30" y="121" width="12" height="123" fill="#dc440e" class="highcharts-point"/>
+      <rect x="114" y="40" width="13" height="204" fill="#dc440e" class="highcharts-point"/>
+      <rect x="198" y="43" width="13" height="201" fill="#dc440e" class="highcharts-point"/>
+      <rect x="283" y="45" width="12" height="199" fill="#dc440e" class="highcharts-point"/>
+      <rect x="367" y="96" width="13" height="148" fill="#dc440e" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-4 highcharts-column-series highcharts-color-undefined " transform="translate(53,121) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-5 highcharts-errorbar-series highcharts-color-undefined " transform="translate(53,121) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-markers highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(53,107) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-3 highcharts-errorbar-series highcharts-color-undefined " transform="translate(53,107) scale(1 1)" clip-path="url(#a)">
       <g class="highcharts-point">
-        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 49.5 133 L 49.5 108 M 49.5 133 L 49.5 133"/>
-        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 46 108.5 L 53 108.5 M 46 133.5 L 53 133.5"/>
+        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 36.5 127 L 36.5 111 M 36.5 127 L 36.5 127"/>
+        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 33.5 111.5 L 39.5 111.5 M 33.5 127.5 L 39.5 127.5"/>
         <path fill="none" class="highcharts-boxplot-median" stroke="#000000" stroke-width="2" d="M 0 0"/>
       </g>
       <g class="highcharts-point">
-        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 133.5 33 L 133.5 23 M 133.5 33 L 133.5 33"/>
-        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 130.5 23.5 L 136.5 23.5 M 130.5 33.5 L 136.5 33.5"/>
+        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 121.5 43 L 121.5 34 M 121.5 43 L 121.5 43"/>
+        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 118 34.5 L 125 34.5 M 118 43.5 L 125 43.5"/>
         <path fill="none" class="highcharts-boxplot-median" stroke="#000000" stroke-width="2" d="M 0 0"/>
       </g>
       <g class="highcharts-point">
-        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 218.5 43 L 218.5 33 M 218.5 43 L 218.5 43"/>
-        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 215 33.5 L 222 33.5 M 215 43.5 L 222 43.5"/>
+        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 205.5 47 L 205.5 36 M 205.5 47 L 205.5 47"/>
+        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 202 36.5 L 209 36.5 M 202 47.5 L 209 47.5"/>
         <path fill="none" class="highcharts-boxplot-median" stroke="#000000" stroke-width="2" d="M 0 0"/>
       </g>
       <g class="highcharts-point">
-        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 302.5 52 L 302.5 39 M 302.5 52 L 302.5 52"/>
-        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 299 39.5 L 306 39.5 M 299 52.5 L 306 52.5"/>
+        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 289.5 48 L 289.5 39 M 289.5 48 L 289.5 48"/>
+        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 286.5 39.5 L 292.5 39.5 M 286.5 48.5 L 292.5 48.5"/>
         <path fill="none" class="highcharts-boxplot-median" stroke="#000000" stroke-width="2" d="M 0 0"/>
       </g>
       <g class="highcharts-point">
-        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 386.5 114 L 386.5 94 M 386.5 114 L 386.5 114"/>
-        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 383.5 94.5 L 389.5 94.5 M 383.5 114.5 L 389.5 114.5"/>
-        <path fill="none" class="highcharts-boxplot-median" stroke="#000000" stroke-width="2" d="M 0 0"/>
-      </g>
-    </g>
-    <g class="highcharts-markers highcharts-series-5 highcharts-errorbar-series highcharts-color-undefined " transform="translate(53,121) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-6 highcharts-column-series highcharts-color-undefined " transform="translate(53,121) scale(1 1)" clip-path="url(#a)">
-      <rect x="55" y="132" width="13" height="98" fill="#ffda80" class="highcharts-point"/>
-      <rect x="139" y="60" width="13" height="170" fill="#ffda80" class="highcharts-point"/>
-      <rect x="224" y="63" width="12" height="167" fill="#ffda80" class="highcharts-point"/>
-      <rect x="308" y="77" width="13" height="153" fill="#ffda80" class="highcharts-point"/>
-      <rect x="392" y="133" width="13" height="97" fill="#ffda80" class="highcharts-point"/>
-    </g>
-    <g class="highcharts-markers highcharts-series-6 highcharts-column-series highcharts-color-undefined " transform="translate(53,121) scale(1 1)" clip-path="none"/>
-    <g class="highcharts-series highcharts-series-7 highcharts-errorbar-series highcharts-color-undefined " transform="translate(53,121) scale(1 1)" clip-path="url(#a)">
-      <g class="highcharts-point">
-        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 62.5 143 L 62.5 118 M 62.5 143 L 62.5 143"/>
-        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 59 118.5 L 66 118.5 M 59 143.5 L 66 143.5"/>
-        <path fill="none" class="highcharts-boxplot-median" stroke="#000000" stroke-width="2" d="M 0 0"/>
-      </g>
-      <g class="highcharts-point">
-        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 146.5 65 L 146.5 52 M 146.5 65 L 146.5 65"/>
-        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 143 52.5 L 150 52.5 M 143 65.5 L 150 65.5"/>
-        <path fill="none" class="highcharts-boxplot-median" stroke="#000000" stroke-width="2" d="M 0 0"/>
-      </g>
-      <g class="highcharts-point">
-        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 230.5 67 L 230.5 55 M 230.5 67 L 230.5 67"/>
-        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 227.5 55.5 L 233.5 55.5 M 227.5 67.5 L 233.5 67.5"/>
-        <path fill="none" class="highcharts-boxplot-median" stroke="#000000" stroke-width="2" d="M 0 0"/>
-      </g>
-      <g class="highcharts-point">
-        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 315.5 83 L 315.5 67 M 315.5 83 L 315.5 83"/>
-        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 312 67.5 L 319 67.5 M 312 83.5 L 319 83.5"/>
-        <path fill="none" class="highcharts-boxplot-median" stroke="#000000" stroke-width="2" d="M 0 0"/>
-      </g>
-      <g class="highcharts-point">
-        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 399.5 142 L 399.5 121 M 399.5 142 L 399.5 142"/>
-        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 396 121.5 L 403 121.5 M 396 142.5 L 403 142.5"/>
+        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 374.5 100 L 374.5 88 M 374.5 100 L 374.5 100"/>
+        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 371 88.5 L 378 88.5 M 371 100.5 L 378 100.5"/>
         <path fill="none" class="highcharts-boxplot-median" stroke="#000000" stroke-width="2" d="M 0 0"/>
       </g>
     </g>
-    <g class="highcharts-markers highcharts-series-7 highcharts-errorbar-series highcharts-color-undefined " transform="translate(53,121) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-3 highcharts-errorbar-series highcharts-color-undefined " transform="translate(53,107) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined " transform="translate(53,107) scale(1 1)" clip-path="url(#a)">
+      <rect x="42" y="130" width="13" height="114" fill="#7f5f1a" class="highcharts-point"/>
+      <rect x="127" y="31" width="12" height="213" fill="#7f5f1a" class="highcharts-point"/>
+      <rect x="211" y="42" width="13" height="202" fill="#7f5f1a" class="highcharts-point"/>
+      <rect x="295" y="50" width="13" height="194" fill="#7f5f1a" class="highcharts-point"/>
+      <rect x="380" y="112" width="12" height="132" fill="#7f5f1a" class="highcharts-point"/>
+    </g>
+    <g class="highcharts-markers highcharts-series-4 highcharts-column-series highcharts-color-undefined " transform="translate(53,107) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-5 highcharts-errorbar-series highcharts-color-undefined " transform="translate(53,107) scale(1 1)" clip-path="url(#a)">
+      <g class="highcharts-point">
+        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 49.5 141 L 49.5 115 M 49.5 141 L 49.5 141"/>
+        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 46 115.5 L 53 115.5 M 46 141.5 L 53 141.5"/>
+        <path fill="none" class="highcharts-boxplot-median" stroke="#000000" stroke-width="2" d="M 0 0"/>
+      </g>
+      <g class="highcharts-point">
+        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 133.5 35 L 133.5 24 M 133.5 35 L 133.5 35"/>
+        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 130.5 24.5 L 136.5 24.5 M 130.5 35.5 L 136.5 35.5"/>
+        <path fill="none" class="highcharts-boxplot-median" stroke="#000000" stroke-width="2" d="M 0 0"/>
+      </g>
+      <g class="highcharts-point">
+        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 218.5 46 L 218.5 35 M 218.5 46 L 218.5 46"/>
+        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 215 35.5 L 222 35.5 M 215 46.5 L 222 46.5"/>
+        <path fill="none" class="highcharts-boxplot-median" stroke="#000000" stroke-width="2" d="M 0 0"/>
+      </g>
+      <g class="highcharts-point">
+        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 302.5 55 L 302.5 42 M 302.5 55 L 302.5 55"/>
+        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 299 42.5 L 306 42.5 M 299 55.5 L 306 55.5"/>
+        <path fill="none" class="highcharts-boxplot-median" stroke="#000000" stroke-width="2" d="M 0 0"/>
+      </g>
+      <g class="highcharts-point">
+        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 386.5 121 L 386.5 100 M 386.5 121 L 386.5 121"/>
+        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 383.5 100.5 L 389.5 100.5 M 383.5 121.5 L 389.5 121.5"/>
+        <path fill="none" class="highcharts-boxplot-median" stroke="#000000" stroke-width="2" d="M 0 0"/>
+      </g>
+    </g>
+    <g class="highcharts-markers highcharts-series-5 highcharts-errorbar-series highcharts-color-undefined " transform="translate(53,107) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-6 highcharts-column-series highcharts-color-undefined " transform="translate(53,107) scale(1 1)" clip-path="url(#a)">
+      <rect x="55" y="140" width="13" height="104" fill="#ffda80" class="highcharts-point"/>
+      <rect x="139" y="64" width="13" height="180" fill="#ffda80" class="highcharts-point"/>
+      <rect x="224" y="66" width="12" height="178" fill="#ffda80" class="highcharts-point"/>
+      <rect x="308" y="81" width="13" height="163" fill="#ffda80" class="highcharts-point"/>
+      <rect x="392" y="141" width="13" height="103" fill="#ffda80" class="highcharts-point"/>
+    </g>
+    <g class="highcharts-markers highcharts-series-6 highcharts-column-series highcharts-color-undefined " transform="translate(53,107) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-7 highcharts-errorbar-series highcharts-color-undefined " transform="translate(53,107) scale(1 1)" clip-path="url(#a)">
+      <g class="highcharts-point">
+        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 62.5 151 L 62.5 125 M 62.5 151 L 62.5 151"/>
+        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 59 125.5 L 66 125.5 M 59 151.5 L 66 151.5"/>
+        <path fill="none" class="highcharts-boxplot-median" stroke="#000000" stroke-width="2" d="M 0 0"/>
+      </g>
+      <g class="highcharts-point">
+        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 146.5 69 L 146.5 56 M 146.5 69 L 146.5 69"/>
+        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 143 56.5 L 150 56.5 M 143 69.5 L 150 69.5"/>
+        <path fill="none" class="highcharts-boxplot-median" stroke="#000000" stroke-width="2" d="M 0 0"/>
+      </g>
+      <g class="highcharts-point">
+        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 230.5 72 L 230.5 58 M 230.5 72 L 230.5 72"/>
+        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 227.5 58.5 L 233.5 58.5 M 227.5 72.5 L 233.5 72.5"/>
+        <path fill="none" class="highcharts-boxplot-median" stroke="#000000" stroke-width="2" d="M 0 0"/>
+      </g>
+      <g class="highcharts-point">
+        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 315.5 88 L 315.5 71 M 315.5 88 L 315.5 88"/>
+        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 312 71.5 L 319 71.5 M 312 88.5 L 319 88.5"/>
+        <path fill="none" class="highcharts-boxplot-median" stroke="#000000" stroke-width="2" d="M 0 0"/>
+      </g>
+      <g class="highcharts-point">
+        <path fill="none" class="highcharts-boxplot-stem" stroke="#000000" stroke-width="1" d="M 399.5 151 L 399.5 128 M 399.5 151 L 399.5 151"/>
+        <path fill="none" class="highcharts-boxplot-whisker" stroke="#000000" stroke-width="1" d="M 396 128.5 L 403 128.5 M 396 151.5 L 403 151.5"/>
+        <path fill="none" class="highcharts-boxplot-median" stroke="#000000" stroke-width="2" d="M 0 0"/>
+      </g>
+    </g>
+    <g class="highcharts-markers highcharts-series-7 highcharts-errorbar-series highcharts-color-undefined " transform="translate(53,107) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Erwerbstätigenquote</tspan>
@@ -190,7 +190,7 @@
     <tspan>nach Staatsangehörigkeit, Alter und Geschlecht, gepoolte Daten 2011 - 2015</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(45,70)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="296" height="39" visibility="visible"/>
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="413" height="25" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(8,3)">
@@ -199,19 +199,19 @@
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#661200" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2" transform="translate(158,3)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2" transform="translate(96.3125,3)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Schweizerinnen</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#dc440e" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4" transform="translate(8,17)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4" transform="translate(213.96875,3)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Ausländer</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#7f5f1a" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-6" transform="translate(158,17)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-6" transform="translate(300.96875,3)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Ausländerinnen</tspan>
           </text>
@@ -241,16 +241,16 @@
     <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="355" opacity="1">
       <tspan>0%</tspan>
     </text>
-    <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="297" opacity="1">
+    <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="294" opacity="1">
       <tspan>25%</tspan>
     </text>
-    <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="240" opacity="1">
+    <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="233" opacity="1">
       <tspan>50%</tspan>
     </text>
-    <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="183" opacity="1">
+    <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="172" opacity="1">
       <tspan>75%</tspan>
     </text>
-    <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="126" opacity="1">
+    <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="111" opacity="1">
       <tspan>100%</tspan>
     </text>
   </g>

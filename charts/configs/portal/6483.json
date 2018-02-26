@@ -215,7 +215,7 @@
     "align": "left",
     "symbolRadius": 0,
     "y": 50,
-    "itemWidth": 150,
+    "itemDistance": 12,
     "itemStyle": {
       "fontWeight": "normal"
     }

@@ -123,7 +123,7 @@
   },    
    "legend": {
     "enabled": true,
-     itemWidth: 150,
+     itemDistance: 12,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
