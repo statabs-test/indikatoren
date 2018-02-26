@@ -19914,7 +19914,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Bei der Arbeit gesprochene Sprachen",
-		"subtitle": "nach Migrationsstatus, gepoolte Daten 2011 /-2015",
+		"subtitle": "nach Migrationsstatus, gepoolte Daten 2011 bis 2015",
 		"kuerzel": "I.01.8.06405",
 		"kuerzelKunde": "A6-4",
 		"description": "Bei der Arbeit gesprochene Sprachen",

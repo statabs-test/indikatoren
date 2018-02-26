@@ -122,7 +122,7 @@
           "high": 70.14
         }
       ],
-      "name": "95 Vertrauensintervall",
+      "name": "95%-Vertrauensintervall",
       "turboThreshold": 0
     }
   ],

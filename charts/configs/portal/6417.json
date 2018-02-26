@@ -68,7 +68,7 @@
           "high": 72.54
         }
       ],
-      "name": "95 Vertrauensintervall",
+      "name": "95%-Vertrauensintervall",
       "turboThreshold": 0
     },
     {
@@ -139,7 +139,7 @@
           "high": 63.41
         }
       ],
-      "name": "95 Vertrauensintervall",
+      "name": "95%-Vertrauensintervall",
       "turboThreshold": 0
     },
     {
@@ -210,7 +210,7 @@
           "high": 58.7
         }
       ],
-      "name": "95 Vertrauensintervall",
+      "name": "95%-Vertrauensintervall",
       "turboThreshold": 0
     },
     {
@@ -281,7 +281,7 @@
           "high": 47.14
         }
       ],
-      "name": "95 Vertrauensintervall",
+      "name": "95%-Vertrauensintervall",
       "turboThreshold": 0
     }
   ],
