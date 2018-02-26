@@ -10,9 +10,9 @@
     "type": "category",
     "labels": {
 		  align: "left",
-          x: -180,
+          x: -185,
           "formatter": function() {
-            return this.value.replace("/", "<br/>")
+            return this.value//.replace("        ", "<br/>")
         },
         style: { 
 			textOverflow: 'none' // prevents ellipsis
@@ -23,13 +23,10 @@
   	//"min": 0,
   	//"max": 0.5,
     "labels": {
-      "format": "{value}%" ,
+      "format": "{value:,.0f}" ,
         style: { 
 			textOverflow: 'none' // prevents ellipsis
-		},
-    "formatter": function(){
-        return Highcharts.numberFormat((this.value*100),0)+'%'; 
-      }, 
+		} 
     }    
   },
   "series": [
@@ -50,18 +47,14 @@
     },
   },
   tooltip: {
-  "pointFormatter": function(){
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ':<br/><b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>' 
-    },
-  },   
+    pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+    shared: false
+  },  
   "chart": {  
   	marginLeft: 200,
-  	marginBottom: 70,
   	"height": 650,        
     "type": "column",
     "inverted": true
   }
 }
 }());
-
- 
