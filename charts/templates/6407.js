@@ -97,7 +97,8 @@
         //itemWidth: 210,
         "layout": "horizontal",
         "verticalAlign": "top",
-        "align": "left",
+        "align": "center",
+        x: 10,
        	"y": 50,    
         "itemStyle": {
           "fontWeight": "normal"

@@ -56,7 +56,7 @@
      "inverted": true,
   },
   "legend": { 
-     y: 60,
+     y: 45,
      x: -5,
     "enabled": true,
     "layout": "horizontal",

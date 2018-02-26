@@ -30,11 +30,11 @@
    "legend": {
     "enabled": true,
     //"x": 45,
-    "y": 50,
+    "y": 30,
     "itemWidth": 145,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
+    //"itemMarginBottom": 5,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"

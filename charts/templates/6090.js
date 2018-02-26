@@ -30,7 +30,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-	"y": 60,
+	  "y": 45,
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -51,5 +51,5 @@
   "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>',
    "shared": false
   },
-}
+};
 }());
