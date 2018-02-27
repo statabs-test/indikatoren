@@ -1,216 +1,243 @@
 {
   "series": [
     {
-      "color": "#D7E8D2",
+      "color": "#A8C3CA",
+      "index": 2,
       "data": [
         [
-          "Industrie (exkl. Chemie, Pharma)",
-          0.277
+          "2007",
+          0.046
         ],
         [
-          "Chemie, Pharma",
-          0.36
+          "2008",
+          0.037
         ],
         [
-          "Baugewerbe",
-          0.252
+          "2009",
+          -0.022
         ],
         [
-          "Handel, Reparatur",
-          0.225
+          "2010",
+          0.012
         ],
         [
-          "Verkehr, Lagerei",
-          0.111
+          "2011",
+          0.012
         ],
         [
-          "Gastgewerbe",
-          0.101
+          "2012",
+          0.003
         ],
         [
-          "Information, Kommunikation",
-          0.249
+          "2013",
+          0.019
         ],
         [
-          "Finanz-, Versicherungs-DL",
-          0.096
+          "2014",
+          0.011
         ],
         [
-          "Beratung, Planung, Forschung, Immobilien",
-          0.225
+          "2015",
+          0.002
         ],
         [
-          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
-          0.24
-        ],
-        [
-          "Personalvermittlung, -überlassung",
-          0.261
-        ],
-        [
-          "Öffentliche Verwaltung, Sozialversicherungen",
-          0.082
-        ],
-        [
-          "Erziehung, Unterricht",
-          0.06
-        ],
-        [
-          "Gesundheits-, Sozialwesen",
-          0.111
-        ],
-        [
-          "Kultur, Unterhaltung, pers. DL",
-          0.075
-        ],
-        [
-          "Total",
-          0.183
+          "2016",
+          0.017
         ]
       ],
-      "name": "2015",
+      "name": "AG",
       "turboThreshold": 0
     },
     {
-      "color": "#73B97C",
+      "color": "#FF8028",
+      "index": 1,
       "data": [
         [
-          "Industrie (exkl. Chemie, Pharma)",
-          0.289
+          "2007",
+          0.039
         ],
         [
-          "Chemie, Pharma",
-          0.367
+          "2008",
+          0.027
         ],
         [
-          "Baugewerbe",
-          0.233
+          "2009",
+          -0.016
         ],
         [
-          "Handel, Reparatur",
-          0.219
+          "2010",
+          0.027
         ],
         [
-          "Verkehr, Lagerei",
-          0.099
+          "2011",
+          0.013
         ],
         [
-          "Gastgewerbe",
-          0.1
+          "2012",
+          -0.015
         ],
         [
-          "Information, Kommunikation",
-          0.261
+          "2013",
+          0.011
         ],
         [
-          "Finanz-, Versicherungs-DL",
-          0.088
+          "2014",
+          0.033
         ],
         [
-          "Beratung, Planung, Forschung, Immobilien",
-          0.251
+          "2015",
+          0
         ],
         [
-          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
-          0.254
-        ],
-        [
-          "Personalvermittlung, -überlassung",
-          0.294
-        ],
-        [
-          "Öffentliche Verwaltung, Sozialversicherungen",
-          0.088
-        ],
-        [
-          "Erziehung, Unterricht",
-          0.055
-        ],
-        [
-          "Gesundheits-, Sozialwesen",
-          0.118
-        ],
-        [
-          "Kultur, Unterhaltung, pers. DL",
-          0.075
-        ],
-        [
-          "Total",
-          0.188
+          "2016",
+          0.008
         ]
       ],
-      "name": "2016",
+      "name": "BL",
       "turboThreshold": 0
     },
     {
-      "color": "#007A2F",
+      "color": "#6F6F6F",
+      "index": 0,
       "data": [
         [
-          "Industrie (exkl. Chemie, Pharma)",
-          0.283
+          "2007",
+          0.043
         ],
         [
-          "Chemie, Pharma",
-          0.355
+          "2008",
+          0.026
         ],
         [
-          "Baugewerbe",
-          0.224
+          "2009",
+          -0.028
         ],
         [
-          "Handel, Reparatur",
-          0.21
+          "2010",
+          0.024
         ],
         [
-          "Verkehr, Lagerei",
-          0.097
+          "2011",
+          0.037
         ],
         [
-          "Gastgewerbe",
-          0.095
+          "2012",
+          0.023
         ],
         [
-          "Information, Kommunikation",
-          0.274
+          "2013",
+          -0.004
         ],
         [
-          "Finanz-, Versicherungs-DL",
-          0.081
+          "2014",
+          0.013
         ],
         [
-          "Beratung, Planung, Forschung, Immobilien",
-          0.264
+          "2015",
+          0.013
         ],
         [
-          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
-          0.282
-        ],
-        [
-          "Personalvermittlung, -überlassung",
-          0.3
-        ],
-        [
-          "Öffentliche Verwaltung, Sozialversicherungen",
-          0.09
-        ],
-        [
-          "Erziehung, Unterricht",
-          0.051
-        ],
-        [
-          "Gesundheits-, Sozialwesen",
-          0.121
-        ],
-        [
-          "Kultur, Unterhaltung, pers. DL",
-          0.075
-        ],
-        [
-          "Total",
-          0.188
+          "2016",
+          0.023
         ]
       ],
-      "name": "2017",
+      "name": "BS",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#990300",
+      "index": 4,
+      "data": [
+        [
+          "2007",
+          0.041
+        ],
+        [
+          "2008",
+          0.023
+        ],
+        [
+          "2009",
+          -0.021
+        ],
+        [
+          "2010",
+          0.03
+        ],
+        [
+          "2011",
+          0.018
+        ],
+        [
+          "2012",
+          0.01
+        ],
+        [
+          "2013",
+          0.018
+        ],
+        [
+          "2014",
+          0.02
+        ],
+        [
+          "2015",
+          0.008
+        ],
+        [
+          "2016",
+          0.013
+        ]
+      ],
+      "name": "CH",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "index": 3,
+      "data": [
+        [
+          "2007",
+          0.049
+        ],
+        [
+          "2008",
+          0.011
+        ],
+        [
+          "2009",
+          -0.025
+        ],
+        [
+          "2010",
+          0.009
+        ],
+        [
+          "2011",
+          0.012
+        ],
+        [
+          "2012",
+          0.012
+        ],
+        [
+          "2013",
+          0.024
+        ],
+        [
+          "2014",
+          0.028
+        ],
+        [
+          "2015",
+          0
+        ],
+        [
+          "2016",
+          0.01
+        ]
+      ],
+      "name": "ZH",
       "turboThreshold": 0
     }
   ],
@@ -226,14 +253,8 @@
     },
     "labels": {
       "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      },
-      "align": "left",
-      "x": -180,
-      "formatter": function () {
-            return this.value.replace("/", "<br/>")
-        }
+        "color": "#000000"
+      }
     },
     "tickLength": 0
   },
@@ -241,7 +262,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 650,
+    "height": 415,
     "spacingBottom": 30,
     "style": {
       "fontFamily": "Arial"
@@ -263,11 +284,9 @@
             }
           }
     },
-    "marginLeft": 200,
-    "marginBottom": 70,
     "type": "column",
-    "inverted": true,
-    "renderTo": "container-6461"
+    "inverted": false,
+    "renderTo": "container-2401"
   },
   "plotOptions": {
     "series": {
@@ -287,7 +306,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Grenzgänger pro Beschäftigen nach Branche"
+    "text": "Wachstumsrate des realen BIP nach Kanton"
   },
   "subtitle": {
     "style": {
@@ -296,7 +315,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, pro besetzter Stelle, 2015 bis 2017",
+    "text": "Veränderungsrate gegenüber Vorjahr in %; Stand: 2016",
     "align": "left"
   },
   "yAxis": {
@@ -312,13 +331,12 @@
     },
     "labels": {
       "style": {
-        "color": "#000000",
-        "textOverflow": "none"
+        "color": "#000000"
       },
-      "format": "{value}%",
       "formatter": function (){
         return Highcharts.numberFormat((this.value*100),0)+'%'; 
-      }
+      },
+      "format": "{value}"
     }
   },
   "navigation": {
@@ -338,9 +356,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
+    "text": "Quelle: BAK Economics"
   },
   "legend": {
     "symbolRadius": 0,
@@ -349,7 +367,7 @@
     "verticalAlign": "top",
     "align": "left",
     "y": 55,
-    "itemWidth": 70,
+    "itemWidth": 300,
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -360,6 +378,6 @@
     }
   },
   "exporting": {
-    "filename": 6461
+    "filename": 2401
   }
 }
