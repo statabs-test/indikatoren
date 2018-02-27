@@ -1,8 +1,10 @@
 {
   "series": [
     {
-      "color": "#A8C3CA",
-      "index": 2,
+      "color": "#6F6F6F",
+      "marker": {
+        "enabled": true
+      },
       "data": [
         [
           2007,
@@ -49,7 +51,6 @@
     },
     {
       "color": "#FF8028",
-      "index": 1,
       "data": [
         [
           2007,
@@ -95,11 +96,7 @@
       "name": "BL"
     },
     {
-      "color": "#6F6F6F",
-      "index": 0,
-      "marker": {
-        "enabled": true
-      },
+      "color": "#A8C3CA",
       "data": [
         [
           2007,
@@ -145,8 +142,7 @@
       "name": "AG"
     },
     {
-      "color": "#990300",
-      "index": 4,
+      "color": "#008AC3",
       "data": [
         [
           2007,
@@ -192,8 +188,7 @@
       "name": "ZH"
     },
     {
-      "color": "#008AC3",
-      "index": 3,
+      "color": "#990300",
       "data": [
         [
           2007,
@@ -307,7 +302,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickInterval": 25000
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -318,7 +314,7 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 2
+    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",

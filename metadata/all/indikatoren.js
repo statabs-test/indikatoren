@@ -336,7 +336,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Der kantonale Vergleich zeigt die sehr grosse Bedeutung der Pharmazeutischen Industrie in Basel-Stadt. Ihr Anteil an der kantonalen Wertschöpfung beträgt im Jahr 2015 fast 37%. An zweiter Stelle folgt der Bereich Freiberufliche, technische, wissenschaftliche Dienstleistungen und Immobilien mit einem Anteil von knapp 10%. Die Finanz- und Versicherungsdienstleistungen kommen auf etwa 9%. Der grösste Bereich in der gesamten Schweiz ist die Industrie (inkl. Energie, Wasser, exkl. Pharma) mit über 16%, gefolgt von Handel und Reparatur mit fast 14%.",
 		"erlaeuterungen": "",
-		"template": "befragungen001",
+		"template": "template001",
 		"visibleInPortal": true,
 		"orderKey": "02_01_00_00_00_000",
 		"parentId": null,

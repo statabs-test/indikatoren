@@ -1,9 +1,10 @@
 (function(){
     return {
  "xAxis": {
-    "tickInterval": 2,
+    "tickInterval": 1,
   },
   "yAxis": {
+  	tickInterval: 25000,
 	"labels": {
 		"format": "{value:,.0f}"
 	}
@@ -13,14 +14,14 @@
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   },
  "series": [
- 	{"color": "#A8C3CA", "index": 2}, /*AG*/
- 	{"color": "#FF8028","index": 1}, /*BL*/
-	{"color": "#6F6F6F", "index": 0,	  
+	{"color": "#6F6F6F",	  
 	"marker": {
         "enabled": true
     }}, /*BS*/
-	{"color": "#990300", "index": 4}, /*CH*/
-	{"color": "#008AC3", "index": 3}, /*ZH*/
+ 	{"color": "#FF8028"}, /*BL*/
+ 	{"color": "#A8C3CA"}, /*AG*/
+	{"color": "#008AC3"}, /*ZH*/
+	{"color": "#990300"}, /*CH*/
 	  ],
   "legend": {
     "enabled": true,

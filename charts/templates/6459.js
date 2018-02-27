@@ -22,6 +22,7 @@
   "yAxis": {
   	//"min": 0,
   	//"max": 0.5,
+  //tickInterval: 10000,
     "labels": {
       "format": "{value:,.0f}" ,
         style: { 
@@ -40,7 +41,7 @@
     "verticalAlign": "top",
     "align": "left",
     //"x": 25,
-	"y": 55,  
+	"y": 45,  
 	"itemWidth": 70,
     "itemStyle": {
       "fontWeight": "normal"
@@ -51,6 +52,7 @@
     shared: false
   },  
   "chart": {  
+  	marginRight: 50,
   	marginLeft: 200,
   	"height": 650,        
     "type": "column",

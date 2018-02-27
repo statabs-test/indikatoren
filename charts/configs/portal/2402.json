@@ -370,40 +370,21 @@
     "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
-    "tickLength": 0,
     "title": {
       "style": {
         "color": "#000000"
       }
     },
     "labels": {
-      "rotation": 0,
       "style": {
-        "color": "#000000",
-        "width": 1,
-        "textOverflow": "none"
+        "color": "#000000"
       },
-      "formatter": function () {
-                  	 return this.value;
-            }
-    }
+      "step": 1
+    },
+    "tickLength": 0,
+    "tickInterval": 1
   },
   "chart": {
-    "events": {
-      "load": function () {
-              this.credits.element.onclick = function() {};
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                    }
-                  }
-                );
-              }              
-            }
-    },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
@@ -413,9 +394,37 @@
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
     "type": "column",
     "inverted": false,
     "renderTo": "container-2402"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "normal",
+      "groupPadding": 0
+    }
   },
   "title": {
     "style": {
@@ -429,33 +438,14 @@
   "subtitle": {
     "style": {
       "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
       "color": "#000000"
     },
-    "align": "left",
-    "text": "Anteil in Prozent, Stand: 2016"
-  },
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
-    }
-  },
-  "plotOptions": {
-    "series": {
-      "borderWidth": 0,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      },
-      "stacking": "percent"
-    },
-    "column": {
-      "groupPadding": 0
-    }
+    "text": "Anteil in Prozent, Stand: 2016",
+    "align": "left"
   },
   "yAxis": {
-    "tickInterval": 25,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
@@ -467,16 +457,21 @@
       "text": null
     },
     "labels": {
-      "format": "{value}%",
       "style": {
         "color": "#000000"
+      },
+      "format": "{value:,.0f}",
+      "formatter": function (){
+        return Highcharts.numberFormat((this.value*100),0)+'%'; 
       }
-    }
+    },
+    "max": 1
   },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
-    "shared": false,
-    "valueDecimals": 0
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
   },
   "credits": {
     "enabled": true,
@@ -494,21 +489,21 @@
     "text": "Quelle: BAK Economics"
   },
   "legend": {
+    "symbolRadius": 0,
+    "y": 45,
+    "enabled": true,
     "layout": "horizontal",
+    "itemWidth": 1000,
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
     "align": "left",
-    "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal"
-    },
-    "symbolRadius": 0,
-    "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
-        },
-    "y": 30,
-    "enabled": true,
-    "itemWidth": 1000
+    }
+  },
+  "tooltip": {
+    "pointFormatter": function (){
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>' 
+    }
   },
   "exporting": {
     "filename": 2402

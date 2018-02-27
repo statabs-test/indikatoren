@@ -1,43 +1,34 @@
 (function(){
     return {
-    "yAxis":{
-    tickInterval:25,
-    },
-   
- 	"xAxis": {
-        "type": "category",
-        "labels": {
-            "formatter": function() {
-                  	 return this.value;
-            }
-        } 
-  },  
   plotOptions: {
-  	column: {
-  		groupPadding: 0,
-
-  	}
+        series: {
+        	"stacking": "normal",
+             groupPadding: 0,
+        }
   },
- "series": [
-	 {"color": "#8B2223", "index": 14}, /*dunkelrot */
-	 {"color": "#DC440E", "index": 13}, /*hellrot */
-	 {"color": "#FF8028", "index": 12}, /*dunkelorange */
-	 {"color": "#FFBB58", "index": 11}, /*dunkelgelb */
-	 {"color": "#FFDA80", "index": 10}, /*hellgelb */
-	 {"color": "#007A2F", "index": 9}, /*dunkelgrün */
-	 {"color": "#D7E8D2", "index": 8}, /*hellgrün1 */
-	 {"color": "#73BA7C", "index": 7}, /*hellgrün2 */
-	 {"color": "#2B0099", "index": 6}, /*dunkelblau1 */
-	 {"color": "#008AC3", "index": 5}, /*dunkelblau2 */
-	 {"color": "#B9CFD7", "index": 4}, /*hellblau */
-	 {"color": "#672773", "index": 3},  /*dunkelpink */
-	 {"color": "#E7CEE2", "index": 2},  /*hellpink */
-     ],
-  "legend": { 
-     y: 30,
+  "yAxis": {
+  	max: 1,
+    "labels": {
+      "format": "{value:,.0f}",
+       "formatter": function(){
+        return Highcharts.numberFormat((this.value*100),0)+'%'; 
+      }, 
+    }
+  },
+  "xAxis": {
+  	"type": "category",
+   "tickInterval": 1,
+          "labels": {
+          	step: 1,
+            //"rotation": 0,
+            //"rotation": -90,
+        }  
+  },
+ "legend": { 
+     y: 45,
     "enabled": true,
     "layout": "horizontal",
-    "itemWidth": 1000,
+   "itemWidth": 1000,
     "verticalAlign": "top",
     "align": "left",
     "itemStyle": {
@@ -45,12 +36,39 @@
     }
   },
 
-"chart": {  
-	height: 600,
-     "inverted": false,
-  },
-      tooltip: {
-        valueDecimals: 0
-      },
-}
+
+ "series": [
+	 {"color": "#E7CEE2", index: 15}, /* */
+	 {"color": "#923F8D", index: 14}, /* */
+	 {"color": "#662673", index: 13}, /* */
+	 {"color": "#73B97C", index: 12}, /* */
+	 {"color": "#B6CFD7", index: 11}, /* */
+	 {"color": "#007A2F", index: 10}, /* */
+	 {"color": "#0A3B19", index: 9}, /* */
+	 {"color": "#FFDA80", index: 8}, /* */
+	 {"color": "#FFBB58", index: 7}, /* */
+	 {"color": "#FF8028", index: 6}, /* */
+   	 {"color": "#B00000", index: 5}, /* */
+	 {"color": "#A0BEC8", index: 4}, /* */
+	 {"color": "#008AC3", index: 3},  /* */
+	 {"color": "#C8C8C8", index: 2},  /* */
+	 {"color": "#2B0099", index: 1}, /* */
+	 {"color": "#8A8A8A", index: 0}, /* */
+  ],
+ tooltip: {
+  "pointFormatter": function(){
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>' 
+    },
+  },  
+  "chart": {
+  	height: 600,
+  	type: "column",
+    "inverted": false,
+  }
+};
 }());
+
+
+
+
+

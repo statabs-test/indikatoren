@@ -1,8 +1,7 @@
 {
   "series": [
     {
-      "color": "#A8C3CA",
-      "index": 2,
+      "color": "#6F6F6F",
       "data": [
         [
           "2007",
@@ -50,7 +49,6 @@
     },
     {
       "color": "#FF8028",
-      "index": 1,
       "data": [
         [
           "2007",
@@ -97,8 +95,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#6F6F6F",
-      "index": 0,
+      "color": "#A8C3CA",
       "data": [
         [
           "2007",
@@ -145,8 +142,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#990300",
-      "index": 4,
+      "color": "#008AC3",
       "data": [
         [
           "2007",
@@ -193,8 +189,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#008AC3",
-      "index": 3,
+      "color": "#990300",
       "data": [
         [
           "2007",
@@ -367,14 +362,14 @@
     "verticalAlign": "top",
     "align": "left",
     "y": 55,
-    "itemWidth": 300,
+    "itemWidth": 50,
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
   "tooltip": {
     "pointFormatter": function (){
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ':<b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>' 
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>' 
     }
   },
   "exporting": {
