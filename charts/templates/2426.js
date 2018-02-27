@@ -12,22 +12,27 @@
   "yAxis": {
 	"labels": {
 		"format": "{value:,.0f}",
+		"formatter": function(){
+        return Highcharts.numberFormat((this.value),0)+''; 
+      },
 	}
   },	
-  "tooltip": {
-    "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
+  tooltip: {
+  "pointFormatter": function(){
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ':<b>' + Highcharts.numberFormat((this.y),1) + '</b><br/><b>' 
+    },
   },
  "series": [
-  {"color": "#FFBB58"},
-  {"color": "#FF8028"}, 
-  {"color": "#DC440E"}, 
-  {"color": "#B00000"}, 
+ 	{"color": "#B00000"},/**/
+	{"color": "#008AC3"}, /**/	  
+	{"color": "#083038"}, /**/
+	{"color": "#FF8028"}, /**/
+
+
 	  ],
   "legend": {
     "enabled": true,
     "y": 55,
-    itemWidth: 250,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,

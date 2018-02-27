@@ -2,29 +2,39 @@
     return {
  "xAxis": {
     "tickInterval": 12,
+     "type": "category",
+     labels:{
+     		"formatter": function() {
+   			 return this.value.split("-").slice(0, -1);
+		},
+     }
   },
   "yAxis": {
 	"labels": {
-		"format": "{value:,.0f}"
+		"format": "{value:,.0f}",
+		"formatter": function(){
+        return Highcharts.numberFormat((this.value*100),0)+'%'; 
+      },
 	}
   },	
-  "tooltip": {
-    "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
+  tooltip: {
+  "pointFormatter": function(){
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ':<b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>' 
+    },
   },
  "series": [
- 	{"color": "#A8C3CA", "index": 2}, /*AG*/
- 	{"color": "#FF8028","index": 1}, /*BL*/
-	{"color": "#6F6F6F", "index": 0,	  
-	"marker": {
-        "enabled": true
+ 	 {"color": "#6F6F6F", "index": 2,	
+ 	 "marker": {
+        "enabled": false
     }}, /*BS*/
-	{"color": "#990300", "index": 4}, /*CH*/
-	{"color": "#008AC3", "index": 3}, /*ZH*/
+ 	{"color": "#FF8028","index": 1}, /*BL*/
+	{"color": "#A8C3CA", "index": 0}, /*AG*/	  
+	{"color": "#008AC3", "index": 4}, /*ZH*/
+	{"color": "#990300", "index": 3}, /*CH*/
+ 
 	  ],
   "legend": {
     "enabled": true,
-    "x": 45,
     "y": 55,
     "layout": "horizontal",
     "verticalAlign": "top",

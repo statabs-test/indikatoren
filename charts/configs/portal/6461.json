@@ -147,51 +147,51 @@
       "data": [
         [
           "Industrie (exkl. Chemie, Pharma)",
-          0.283
-        ],
-        [
-          "Chemie, Pharma",
-          0.355
-        ],
-        [
-          "Baugewerbe",
-          0.224
-        ],
-        [
-          "Handel, Reparatur",
-          0.21
-        ],
-        [
-          "Verkehr, Lagerei",
-          0.097
-        ],
-        [
-          "Gastgewerbe",
-          0.095
-        ],
-        [
-          "Information, Kommunikation",
-          0.274
-        ],
-        [
-          "Finanz-, Versicherungs-DL",
-          0.081
-        ],
-        [
-          "Beratung, Planung, Forschung, Immobilien",
-          0.264
-        ],
-        [
-          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
           0.282
         ],
         [
+          "Chemie, Pharma",
+          0.351
+        ],
+        [
+          "Baugewerbe",
+          0.222
+        ],
+        [
+          "Handel, Reparatur",
+          0.208
+        ],
+        [
+          "Verkehr, Lagerei",
+          0.095
+        ],
+        [
+          "Gastgewerbe",
+          0.094
+        ],
+        [
+          "Information, Kommunikation",
+          0.276
+        ],
+        [
+          "Finanz-, Versicherungs-DL",
+          0.078
+        ],
+        [
+          "Beratung, Planung, Forschung, Immobilien",
+          0.271
+        ],
+        [
+          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
+          0.277
+        ],
+        [
           "Personalvermittlung, -überlassung",
-          0.3
+          0.307
         ],
         [
           "Öffentliche Verwaltung, Sozialversicherungen",
-          0.09
+          0.092
         ],
         [
           "Erziehung, Unterricht",

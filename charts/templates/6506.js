@@ -1,11 +1,17 @@
 (function(){
     return {
  "xAxis": {
-    "tickInterval": 2,
+    "tickInterval": 12,
+     "type": "category",
+     labels:{
+     		"formatter": function() {
+   			 return this.value.split("-").slice(0, -1);
+		},
+     }
   },
   "yAxis": {
 	"labels": {
-		"format": "{value:,.0f}"
+		"format": "{value:,.0f}",
 	}
   },	
   "tooltip": {

@@ -5,24 +5,24 @@
       "index": 14,
       "data": [
         [
-          "AG",
-          9226242743
+          "BS",
+          0.047
         ],
         [
           "BL",
-          2923517028
+          0.152
         ],
         [
-          "BS",
-          1673320205
-        ],
-        [
-          "CH",
-          96181989548
+          "AG",
+          0.241
         ],
         [
           "ZH",
-          12596909309
+          0.096
+        ],
+        [
+          "CH",
+          0.153
         ]
       ],
       "name": "Industrie (exkl. Chemie, Pharma)",
@@ -33,24 +33,24 @@
       "index": 13,
       "data": [
         [
-          "AG",
-          3857694430
+          "BS",
+          0.36
         ],
         [
           "BL",
-          1800735115
+          0.094
         ],
         [
-          "BS",
-          12876131447
-        ],
-        [
-          "CH",
-          30161797424
+          "AG",
+          0.101
         ],
         [
           "ZH",
-          825527998
+          0.006
+        ],
+        [
+          "CH",
+          0.048
         ]
       ],
       "name": "Chemie, Pharma",
@@ -61,24 +61,24 @@
       "index": 12,
       "data": [
         [
-          "AG",
-          2650561975
+          "BS",
+          0.022
         ],
         [
           "BL",
-          1125389127
+          0.059
         ],
         [
-          "BS",
-          799267374
-        ],
-        [
-          "CH",
-          33742321149
+          "AG",
+          0.069
         ],
         [
           "ZH",
-          5311971835
+          0.04
+        ],
+        [
+          "CH",
+          0.054
         ]
       ],
       "name": "Baugewerbe",
@@ -89,24 +89,24 @@
       "index": 11,
       "data": [
         [
-          "AG",
-          6352615083
+          "BS",
+          0.069
         ],
         [
           "BL",
-          3608940431
+          0.188
         ],
         [
-          "BS",
-          2464971175
-        ],
-        [
-          "CH",
-          88653932063
+          "AG",
+          0.166
         ],
         [
           "ZH",
-          18389994885
+          0.139
+        ],
+        [
+          "CH",
+          0.141
         ]
       ],
       "name": "Handel, Reparatur",
@@ -117,24 +117,24 @@
       "index": 10,
       "data": [
         [
-          "AG",
-          1475547227
+          "BS",
+          0.042
         ],
         [
           "BL",
-          957612939
+          0.05
         ],
         [
-          "BS",
-          1499386691
-        ],
-        [
-          "CH",
-          26724618762
+          "AG",
+          0.039
         ],
         [
           "ZH",
-          5719739260
+          0.043
+        ],
+        [
+          "CH",
+          0.042
         ]
       ],
       "name": "Verkehr, Lagerei",
@@ -145,24 +145,24 @@
       "index": 9,
       "data": [
         [
-          "AG",
-          378485775
+          "BS",
+          0.014
         ],
         [
           "BL",
-          144308707
+          0.008
         ],
         [
-          "BS",
-          483536924
-        ],
-        [
-          "CH",
-          10808931334
+          "AG",
+          0.01
         ],
         [
           "ZH",
-          2293325281
+          0.017
+        ],
+        [
+          "CH",
+          0.017
         ]
       ],
       "name": "Gastgewerbe",
@@ -173,24 +173,24 @@
       "index": 8,
       "data": [
         [
-          "AG",
-          1024811022
+          "BS",
+          0.02
         ],
         [
           "BL",
-          376791772
+          0.02
         ],
         [
-          "BS",
-          717324558
-        ],
-        [
-          "CH",
-          26520833591
+          "AG",
+          0.027
         ],
         [
           "ZH",
-          9677495114
+          0.073
+        ],
+        [
+          "CH",
+          0.042
         ]
       ],
       "name": "Information, Kommunikation",
@@ -201,24 +201,24 @@
       "index": 7,
       "data": [
         [
-          "AG",
-          1711468056
+          "BS",
+          0.103
         ],
         [
           "BL",
-          694787485
+          0.036
         ],
         [
-          "BS",
-          3667112128
-        ],
-        [
-          "CH",
-          60582310229
+          "AG",
+          0.045
         ],
         [
           "ZH",
-          25022414667
+          0.19
+        ],
+        [
+          "CH",
+          0.096
         ]
       ],
       "name": "Finanz-, Versicherungs-DL",
@@ -229,24 +229,24 @@
       "index": 6,
       "data": [
         [
-          "AG",
-          2530691238
+          "BS",
+          0.128
         ],
         [
           "BL",
-          3304663289
+          0.172
         ],
         [
-          "BS",
-          4583361125
-        ],
-        [
-          "CH",
-          95706853649
+          "AG",
+          0.066
         ],
         [
           "ZH",
-          21043037881
+          0.16
+        ],
+        [
+          "CH",
+          0.152
         ]
       ],
       "name": "Beratung, Planung, Forschung, Immobilien",
@@ -257,24 +257,24 @@
       "index": 5,
       "data": [
         [
-          "AG",
-          474849075
+          "BS",
+          0.014
         ],
         [
           "BL",
-          273838935
+          0.014
         ],
         [
-          "BS",
-          488614263
-        ],
-        [
-          "CH",
-          9055493601
+          "AG",
+          0.012
         ],
         [
           "ZH",
-          2208353232
+          0.017
+        ],
+        [
+          "CH",
+          0.014
         ]
       ],
       "name": "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
@@ -285,24 +285,24 @@
       "index": 4,
       "data": [
         [
-          "AG",
-          570745902
+          "BS",
+          0.02
         ],
         [
           "BL",
-          201824588
+          0.011
         ],
         [
-          "BS",
-          707980477
-        ],
-        [
-          "CH",
-          8592248088
+          "AG",
+          0.015
         ],
         [
           "ZH",
-          1511298056
+          0.011
+        ],
+        [
+          "CH",
+          0.014
         ]
       ],
       "name": "Personalvermittlung, -überlassung",
@@ -313,24 +313,24 @@
       "index": 3,
       "data": [
         [
-          "AG",
-          3511165405
+          "BS",
+          0.07
         ],
         [
           "BL",
-          1691062503
+          0.088
         ],
         [
-          "BS",
-          2503495187
-        ],
-        [
-          "CH",
-          68963656374
+          "AG",
+          0.092
         ],
         [
           "ZH",
-          13653081562
+          0.104
+        ],
+        [
+          "CH",
+          0.109
         ]
       ],
       "name": "Öffentliche Verwaltung, Sozialversicherungen",
@@ -341,24 +341,24 @@
       "index": 2,
       "data": [
         [
-          "AG",
-          191636533
+          "BS",
+          0.003
         ],
         [
           "BL",
-          101144456
+          0.005
         ],
         [
-          "BS",
-          124880713
-        ],
-        [
-          "CH",
-          3845115570
+          "AG",
+          0.005
         ],
         [
           "ZH",
-          821743319
+          0.006
+        ],
+        [
+          "CH",
+          0.006
         ]
       ],
       "name": "Erziehung, Unterricht",
@@ -384,10 +384,8 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-                  	 return this.value.replace("  ", "<br/>");
-            },
-      "align": "left",
-      "x": -140
+                  	 return this.value;
+            }
     }
   },
   "chart": {
@@ -409,15 +407,14 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
+    "height": 600,
     "spacingBottom": 30,
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
     "type": "column",
-    "marginLeft": 150,
-    "inverted": true,
+    "inverted": false,
     "renderTo": "container-2402"
   },
   "title": {
@@ -479,7 +476,7 @@
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
     "shared": false,
-    "valueDecimals": 1
+    "valueDecimals": 0
   },
   "credits": {
     "enabled": true,
@@ -497,10 +494,10 @@
     "text": "Quelle: BAK Economics"
   },
   "legend": {
-    "layout": "vertical",
-    "verticalAlign": "middle",
+    "layout": "horizontal",
+    "verticalAlign": "top",
     "itemMarginBottom": 5,
-    "align": "right",
+    "align": "left",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal"
@@ -508,7 +505,10 @@
     "symbolRadius": 0,
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
-        }
+        },
+    "y": 30,
+    "enabled": true,
+    "itemWidth": 1000
   },
   "exporting": {
     "filename": 2402

@@ -46,8 +46,7 @@
   },
 
 "chart": {  
-	itemMarginTop: 100,
-	height: 550,
+	height: 600,
      "inverted": false,
   },
       tooltip: {
