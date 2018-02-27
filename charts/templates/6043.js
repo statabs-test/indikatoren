@@ -1,87 +1,96 @@
 (function(){
     return {
-    "yAxis": [{
-    "labels": {
-      "format": "{value:,.0f}",
-      "style": {
-        "color": "#000000"
+  "plotOptions": {
+    "series": {
+      "stacking": "normal",
+      /*"pointWidth": 35,*/
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
       }
-    },
-    "min": 0,
-    "max": undefined,
-    "title": ""
+    }
   },
-  {
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
-      },
-      "text": null
-    },
-    "labels": {
-      "format": "{value:,.1f}",
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "min": 0,
-    "max": undefined,
-    "gridLineWidth": 0,
-    "opposite": true
-  }
-  ],
   "xAxis": {
-	"tickInterval": 1,
-  },
-  "series": [
+    "type": "category"    
+  },  
+  "yAxis": [
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },     
-      "color": "#008AC3",
-      "yAxis": 0,
-	 "tooltip": {
-		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
-	 },
+      gridLineColor: '#B9CFD7', 
+      gridLineWidth: 0.5,
+      "title": {
+          "style": {
+              "color": "#000000",
+              "fontSize": null
+          },
+          "text": null
+      },
+      "labels": {
+          "style": {
+          "color": "#000000"
+          },
+          "format": "{value}",
+      },
+      "reversedStacks": true
     },
-        {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },     
-      "color": "#68AB2B",
-      "yAxis": 0,
-	 "tooltip": {
-		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
-	 },
-    },
-            {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },     
-      "color": "#662673",
-      "yAxis": 1,
-	 "tooltip": {
-		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}</b><br/>',
-	 },
+    {
+      gridLineColor: '#B9CFD7', 
+      gridLineWidth: 0.5,
+      "min": 0,
+      "title": {
+          "style": {
+              "color": "#000000",
+              "fontSize": null
+          },
+          "text": null
+      },      
+      "labels": {
+        "format": "{value:,0f}",
+        "style": {
+          "color": "#000000"
+        }              
+      },
+      "opposite": true
     }
   ],
+  "tooltip": {    
+    "shared": false,
+    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.0f}</b><br/>'
+  },  
   "legend": {
-    "enabled": true,
-    //"x": 25,
-    "y": 25,
-    "itemWidth": 500,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
+    "x": 43,
+    "y": 35,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
-}
+  "series": [
+    {
+      "color": "#FABD24",
+      "type": "column", 
+      "legendIndex": 1
+    },
+    {
+      "color": "#008AC3",
+      "type": "column", 
+      "legendIndex": 0
+    },
+    {
+      "color": "#9F7C5A",
+      "type": "line",
+      "yAxis": 1,
+      "stacking": null, 
+      "legendIndex": 4
+    }    
+  ],
+  "chart": {
+    "marginBottom": 65,
+    "marginTop": 100,
+    "type": "column"
+  }
+	}
 }());
-
