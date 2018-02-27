@@ -8485,11 +8485,11 @@
 		"description": "Wahlbeteiligung bei National- und Grossratswahlen",
 		"thema": "17 Politik",
 		"unterthema": "Wahlen",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-01-18T00:00:00.000",
 		"schlagwort": [
 			"Grosser Rat"
 		],
@@ -8499,12 +8499,14 @@
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Bei nationalen Wahlen liegt die Wahlbeteiligung im Stadtkanton rund 10 Prozentpunkte höher als bei den Wahlen ins kantonale Parlament.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Parlamentswahlen auf kantonaler (Grossrat) und nationaler (Nationalrat) Ebene finden in Basel-Stadt alle 4 Jahre statt, die Nationalratswahlen jeweils ein Jahr vor den Grossratswahlen. Die Wahlbeteiligung zeigt den Prozentanteil der Wahlberechtigten, der tatsächlich wählen ging.",
 		"template": "template001",
 		"visibleInPortal": true,
 		"orderKey": "03_03_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6042"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -11634,7 +11636,7 @@
 		],
 		"aktualisierungsdatum": "2018-02-16T00:00:00.000",
 		"schlagwort": [
-			""
+			"Bau"
 		],
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Infrastruktur",
@@ -11865,8 +11867,7 @@
 		],
 		"aktualisierungsdatum": "",
 		"schlagwort": [
-			"Energie",
-			""
+			"Energie"
 		],
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
@@ -13282,7 +13283,7 @@
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik (BFS) und Bundesamt für Raumentwicklung (ARE), Mikrozensus Mobilität und Verkehr (MZMV)"
+			"Bundesamt für Statistik und Bundesamt für Raumentwicklung, Mikrozensus Mobilität und Verkehr"
 		],
 		"externalLinks": [
 			""
@@ -14021,7 +14022,7 @@
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Insgesamt waren 2015 knapp 17% der Beschäftigten (in Vollzeitäquivalenten) in Basel-Stadt in innovativen Branchen tätig, der Grossteil davon in Industriebranchen.",
-		"erlaeuterungen": "Als innovative Branchen gelten: Herstellung von chemischen (20) und pharmazeutischen Produkten (21), Gummi- und Kunststoffwaren (22), elektronischen und optischen Produkten (26), elektrischen Ausrüstungen (27), Maschinenbau (28), sonstiger Fahrzeugbau (30), Herstellung von medizinischen und zahnmedizinischen Apparaten und Materialien (325), Reparatur und Installation von Maschinen und Ausrüstungen (33), Forschung und Entwicklung (72).",
+		"erlaeuterungen": "Als innovative Branchen gelten (NOGA 2-Steller in Klammer): Herstellung von chemischen (20) und pharmazeutischen Produkten (21), Gummi- und Kunststoffwaren (22), elektronischen und optischen Produkten (26), elektrischen Ausrüstungen (27), Maschinenbau (28), sonstiger Fahrzeugbau (30), Herstellung von medizinischen und zahnmedizinischen Apparaten und Materialien (325), Reparatur und Installation von Maschinen und Ausrüstungen (33), Forschung und Entwicklung (72).",
 		"template": "template001",
 		"visibleInPortal": false,
 		"orderKey": "06_01_00_00_00_604",

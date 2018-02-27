@@ -30,11 +30,11 @@
           "\"\""
         ],
         [
-          "\"2010: Tagesdistanz   in Kilometern\"",
+          "\"2010: Tagesdistanz   in Kilometer\"",
           2.4660112
         ],
         [
-          "\"2015: Tagesdistanz   in Kilometern\"",
+          "\"2015: Tagesdistanz   in Kilometer\"",
           2.0930536
         ]
       ],
@@ -71,11 +71,11 @@
           "\"\""
         ],
         [
-          "\"2010: Tagesdistanz   in Kilometern\"",
+          "\"2010: Tagesdistanz   in Kilometer\"",
           1.7253601
         ],
         [
-          "\"2015: Tagesdistanz   in Kilometern\"",
+          "\"2015: Tagesdistanz   in Kilometer\"",
           1.6884046
         ]
       ],
@@ -112,11 +112,11 @@
           "\"\""
         ],
         [
-          "\"2010: Tagesdistanz   in Kilometern\"",
+          "\"2010: Tagesdistanz   in Kilometer\"",
           10.058921
         ],
         [
-          "\"2015: Tagesdistanz   in Kilometern\"",
+          "\"2015: Tagesdistanz   in Kilometer\"",
           11.594023
         ]
       ],
@@ -153,11 +153,11 @@
           "\"\""
         ],
         [
-          "\"2010: Tagesdistanz   in Kilometern\"",
+          "\"2010: Tagesdistanz   in Kilometer\"",
           9.922729
         ],
         [
-          "\"2015: Tagesdistanz   in Kilometern\"",
+          "\"2015: Tagesdistanz   in Kilometer\"",
           11.610472
         ]
       ],
@@ -194,11 +194,11 @@
           "\"\""
         ],
         [
-          "\"2010: Tagesdistanz   in Kilometern\"",
+          "\"2010: Tagesdistanz   in Kilometer\"",
           0.4428068
         ],
         [
-          "\"2015: Tagesdistanz   in Kilometern\"",
+          "\"2015: Tagesdistanz   in Kilometer\"",
           0.268806
         ]
       ],
@@ -335,7 +335,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS) und Bundesamt für Raumentwicklung (ARE), Mikrozensus Mobilität und Verkehr (MZMV)"
+    "text": "Quelle: Bundesamt für Statistik und Bundesamt für Raumentwicklung, Mikrozensus Mobilität und Verkehr"
   },
   "legend": {
     "layout": "vertical",

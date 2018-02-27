@@ -147,10 +147,10 @@
       <tspan>&quot;..&quot;</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="301" opacity="1">
-      <tspan>&quot;2010: Tagesdistanz</tspan><tspan x="10" dy="14">in Kilometern&quot;</tspan>
+      <tspan>&quot;2010: Tagesdistanz</tspan><tspan x="10" dy="14">in Kilometer&quot;</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="341" opacity="1">
-      <tspan>&quot;2015: Tagesdistanz</tspan><tspan x="10" dy="14">in Kilometern&quot;</tspan>
+      <tspan>&quot;2015: Tagesdistanz</tspan><tspan x="10" dy="14">in Kilometer&quot;</tspan>
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
@@ -171,6 +171,6 @@
     </text>
   </g>
   <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="400">
-    <tspan>Quelle: Bundesamt für Statistik (BFS) und Bundesamt für Raumentwicklung (ARE), Mikrozensus Mobilität und Verkehr (MZMV)</tspan>
+    <tspan>Quelle: Bundesamt für Statistik und Bundesamt für Raumentwicklung, Mikrozensus Mobilität und Verkehr</tspan>
   </text>
 </svg>

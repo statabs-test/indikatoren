@@ -36,6 +36,44 @@ var indikatorensetData = [
 		"id": 2917
 	},
 	{
+		"title": "Wahlbeteiligung bei National- und Grossratswahlen",
+		"subtitle": "",
+		"kuerzel": "I.17.3.04871",
+		"kuerzelKunde": "3.3.02",
+		"description": "Wahlbeteiligung bei National- und Grossratswahlen",
+		"thema": "17 Politik",
+		"unterthema": "Wahlen",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2018-01-18T00:00:00.000",
+		"schlagwort": [
+			"Grosser Rat"
+		],
+		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
+		"stufe2": "3.3 Gesellschaftliche Teilhabe",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Bei nationalen Wahlen liegt die Wahlbeteiligung im Stadtkanton rund 10 Prozentpunkte höher als bei den Wahlen ins kantonale Parlament.",
+		"erlaeuterungen": "Parlamentswahlen auf kantonaler (Grossrat) und nationaler (Nationalrat) Ebene finden in Basel-Stadt alle 4 Jahre statt, die Nationalratswahlen jeweils ein Jahr vor den Grossratswahlen. Die Wahlbeteiligung zeigt den Prozentanteil der Wahlberechtigten, der tatsächlich wählen ging.",
+		"template": "template001",
+		"orderKey": "03_03_00_00_00_000",
+		"parentId": null,
+		"children": [
+			"6042"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 4871
+	},
+	{
 		"title": "Wohnbevölkerung am Jahresende nach Staatsangehörigkeit (Schweiz/Ausland)",
 		"subtitle": "",
 		"kuerzel": "I.01.1.05137",
@@ -1276,7 +1314,7 @@ var indikatorensetData = [
 		],
 		"aktualisierungsdatum": "2018-02-16T00:00:00.000",
 		"schlagwort": [
-			""
+			"Bau"
 		],
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Infrastruktur",
@@ -1385,8 +1423,7 @@ var indikatorensetData = [
 		],
 		"aktualisierungsdatum": "",
 		"schlagwort": [
-			"Energie",
-			""
+			"Energie"
 		],
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
@@ -1557,7 +1594,7 @@ var indikatorensetData = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik (BFS) und Bundesamt für Raumentwicklung (ARE), Mikrozensus Mobilität und Verkehr (MZMV)"
+			"Bundesamt für Statistik und Bundesamt für Raumentwicklung, Mikrozensus Mobilität und Verkehr"
 		],
 		"externalLinks": [
 			""
@@ -2278,7 +2315,7 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Insgesamt waren 2015 knapp 17% der Beschäftigten (in Vollzeitäquivalenten) in Basel-Stadt in innovativen Branchen tätig, der Grossteil davon in Industriebranchen.",
-		"erlaeuterungen": "Als innovative Branchen gelten: Herstellung von chemischen (20) und pharmazeutischen Produkten (21), Gummi- und Kunststoffwaren (22), elektronischen und optischen Produkten (26), elektrischen Ausrüstungen (27), Maschinenbau (28), sonstiger Fahrzeugbau (30), Herstellung von medizinischen und zahnmedizinischen Apparaten und Materialien (325), Reparatur und Installation von Maschinen und Ausrüstungen (33), Forschung und Entwicklung (72).",
+		"erlaeuterungen": "Als innovative Branchen gelten (NOGA 2-Steller in Klammer): Herstellung von chemischen (20) und pharmazeutischen Produkten (21), Gummi- und Kunststoffwaren (22), elektronischen und optischen Produkten (26), elektrischen Ausrüstungen (27), Maschinenbau (28), sonstiger Fahrzeugbau (30), Herstellung von medizinischen und zahnmedizinischen Apparaten und Materialien (325), Reparatur und Installation von Maschinen und Ausrüstungen (33), Forschung und Entwicklung (72).",
 		"template": "template001",
 		"orderKey": "06_01_00_00_00_604",
 		"parentId": 6141,
