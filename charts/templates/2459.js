@@ -19,23 +19,23 @@
   },	
   tooltip: {
   "pointFormatter": function(){
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ':<b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>' 
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>' 
     },
   },
  "series": [
- 	 {"color": "#6F6F6F", "index": 2,	
+ 	 {"color": "#6F6F6F", "index": 1,	
  	 "marker": {
         "enabled": false
     }}, /*BS*/
- 	{"color": "#FF8028","index": 1}, /*BL*/
-	{"color": "#A8C3CA", "index": 0}, /*AG*/	  
-	{"color": "#008AC3", "index": 4}, /*ZH*/
-	{"color": "#990300", "index": 3}, /*CH*/
+ 	{"color": "#FF8028","index": 2}, /*BL*/
+	{"color": "#A8C3CA", "index": 3}, /*AG*/	  
+	{"color": "#008AC3", "index": 0}, /*ZH*/
+	{"color": "#990300", "index": 4}, /*CH*/
  
 	  ],
   "legend": {
     "enabled": true,
-    "y": 55,
+    "y": 45,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,

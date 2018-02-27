@@ -1,7 +1,7 @@
 (function(){
     return {
  "xAxis": {
-    "tickInterval": 2,
+    "tickInterval": 1,
   },
   "yAxis": {
 	"labels": {
@@ -20,7 +20,7 @@
   "legend": {
   	itemWidth: 300,
     "enabled": true,
-    "y": 55,
+    "y": 45,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,

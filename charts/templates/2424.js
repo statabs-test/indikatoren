@@ -19,7 +19,7 @@
   },	
   tooltip: {
   "pointFormatter": function(){
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ':<b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>' 
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>' 
     },
   },
  "series": [
@@ -32,7 +32,8 @@
 	  ],
   "legend": {
     "enabled": true,
-    "y": 55,
+    "y": 45,
+    itemWidth: 150,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,

@@ -1,7 +1,7 @@
 (function(){
     return {
  "xAxis": {
-    "tickInterval": 2,
+    "tickInterval": 1,
   },
   "yAxis": {
 	"labels": {
@@ -14,13 +14,13 @@
   },
  "series": [
   {"color": "#D7E8D2"},
-  {"color": "#73B97C"}, 
+  {"color": "#8A8A8A"}, 
   {"color": "#007A2F"}, 
   {"color": "#0A3B19"}, 
 	  ],
   "legend": {
     "enabled": true,
-    "y": 55,
+    "y": 45,
     itemWidth: 150,
     "layout": "horizontal",
     "verticalAlign": "top",
