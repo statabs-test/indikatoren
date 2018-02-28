@@ -218,7 +218,7 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 2
+    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -242,7 +242,7 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "y": 55,
+    "y": 45,
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"

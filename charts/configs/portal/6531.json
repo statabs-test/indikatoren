@@ -3,23 +3,27 @@
     {
       "color": "#83038",
       "index": 3,
-      "legendIndex": 3,
+      "legendIndex": 0,
       "data": [
         [
-          "Basel-Stadt",
-          27811.8349348
+          "BS",
+          27812
         ],
         [
-          "Basel-Landschaft",
-          32796.394509
+          "BL",
+          32796
         ],
         [
-          "Aargau",
-          77220.7895696
+          "AG",
+          77221
         ],
         [
-          "Zürich",
-          195964.0180844
+          "ZH",
+          195964
+        ],
+        [
+          "CH",
+          1176210
         ]
       ],
       "name": "bis 9 VZÄ",
@@ -28,23 +32,27 @@
     {
       "color": "#2F656B",
       "index": 2,
-      "legendIndex": 2,
+      "legendIndex": 1,
       "data": [
         [
-          "Basel-Stadt",
-          31906.1623746
+          "BS",
+          31906
         ],
         [
-          "Basel-Landschaft",
-          33304.0655438
+          "BL",
+          33304
         ],
         [
-          "Aargau",
-          71528.7202486
+          "AG",
+          71529
         ],
         [
-          "Zürich",
-          205147.8597
+          "ZH",
+          205148
+        ],
+        [
+          "CH",
+          1102929
         ]
       ],
       "name": "10 bis 49 VZÄ",
@@ -53,23 +61,27 @@
     {
       "color": "#689199",
       "index": 1,
-      "legendIndex": 1,
+      "legendIndex": 2,
       "data": [
         [
-          "Basel-Stadt",
-          38328.1335709
+          "BS",
+          38328
         ],
         [
-          "Basel-Landschaft",
-          35915.8928478
+          "BL",
+          35916
         ],
         [
-          "Aargau",
-          66456.2792196
+          "AG",
+          66456
         ],
         [
-          "Zürich",
-          203100.4909524
+          "ZH",
+          203100
+        ],
+        [
+          "CH",
+          1020688
         ]
       ],
       "name": "50 bis 249 VZÄ",
@@ -78,23 +90,27 @@
     {
       "color": "#D3E2E4",
       "index": 0,
-      "legendIndex": 0,
+      "legendIndex": 3,
       "data": [
         [
-          "Basel-Stadt",
-          53586.3695299
+          "BS",
+          53586
         ],
         [
-          "Basel-Landschaft",
-          15269.7040447
+          "BL",
+          15270
         ],
         [
-          "Aargau",
-          46542.9369272
+          "AG",
+          46543
         ],
         [
-          "Zürich",
-          184285.5377442
+          "ZH",
+          184286
+        ],
+        [
+          "CH",
+          699381
         ]
       ],
       "name": "250 VZÄ u.m.",

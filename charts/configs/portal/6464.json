@@ -4,7 +4,11 @@
       "color": "#ECE1D0",
       "data": [
         [
-          "Industrie (inkl. Pharma, exkl. Energie, Wasser)",
+          "Industrie",
+          null
+        ],
+        [
+          "(inkl. Pharma, exkl. Energie, Wasser)",
           6988
         ],
         [
@@ -28,35 +32,63 @@
           4163
         ],
         [
-          "Information, Kommunikation",
+          "Information,",
+          null
+        ],
+        [
+          "Kommunikation",
           7876
         ],
         [
-          "Finanz- und Versicherungs-DL",
+          "Finanz- und",
+          null
+        ],
+        [
+          "Versicherungs-DL",
           7976
         ],
         [
-          "Beratung, Planung, Forschung",
+          "Beratung, Planung,",
+          null
+        ],
+        [
+          "Forschung",
           7619
         ],
         [
-          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
+          "Geb�udebetreuung, Sicherheit, sonst. wirtsch. DL",
           5170
         ],
         [
-          "Personalvermittlung, -üerlassung",
+          "Personalvermittlung,",
+          null
+        ],
+        [
+          "-�berlassung",
           5738
         ],
         [
-          "Öffentliche Verwaltung",
+          "�ffentliche",
+          null
+        ],
+        [
+          "Verwaltung",
           7467
         ],
         [
-          "Erziehung, Unterricht",
+          "Erziehung,",
+          null
+        ],
+        [
+          "Unterricht",
           8673
         ],
         [
-          "Gesundheits-, Sozialwesen",
+          "Gesundheits-,",
+          null
+        ],
+        [
+          "Sozialwesen",
           6173
         ],
         [
@@ -75,7 +107,11 @@
       "color": "#9E7C59",
       "data": [
         [
-          "Industrie (inkl. Pharma, exkl. Energie, Wasser)",
+          "Industrie",
+          null
+        ],
+        [
+          "(inkl. Pharma, exkl. Energie, Wasser)",
           6930
         ],
         [
@@ -99,35 +135,63 @@
           4365
         ],
         [
-          "Information, Kommunikation",
+          "Information,",
+          null
+        ],
+        [
+          "Kommunikation",
           8156
         ],
         [
-          "Finanz- und Versicherungs-DL",
+          "Finanz- und",
+          null
+        ],
+        [
+          "Versicherungs-DL",
           8411
         ],
         [
-          "Beratung, Planung, Forschung",
+          "Beratung, Planung,",
+          null
+        ],
+        [
+          "Forschung",
           7897
         ],
         [
-          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
+          "Geb�udebetreuung, Sicherheit, sonst. wirtsch. DL",
           4727
         ],
         [
-          "Personalvermittlung, -üerlassung",
+          "Personalvermittlung,",
+          null
+        ],
+        [
+          "-�berlassung",
           5496
         ],
         [
-          "Öffentliche Verwaltung",
+          "�ffentliche",
+          null
+        ],
+        [
+          "Verwaltung",
           7411
         ],
         [
-          "Erziehung, Unterricht",
+          "Erziehung,",
+          null
+        ],
+        [
+          "Unterricht",
           8323
         ],
         [
-          "Gesundheits-, Sozialwesen",
+          "Gesundheits-,",
+          null
+        ],
+        [
+          "Sozialwesen",
           6187
         ],
         [
@@ -146,7 +210,11 @@
       "color": "#3A2012",
       "data": [
         [
-          "Industrie (inkl. Pharma, exkl. Energie, Wasser)",
+          "Industrie",
+          null
+        ],
+        [
+          "(inkl. Pharma, exkl. Energie, Wasser)",
           6827
         ],
         [
@@ -170,35 +238,63 @@
           4333
         ],
         [
-          "Information, Kommunikation",
+          "Information,",
+          null
+        ],
+        [
+          "Kommunikation",
           8165
         ],
         [
-          "Finanz- und Versicherungs-DL",
+          "Finanz- und",
+          null
+        ],
+        [
+          "Versicherungs-DL",
           8461
         ],
         [
-          "Beratung, Planung, Forschung",
+          "Beratung, Planung,",
+          null
+        ],
+        [
+          "Forschung",
           7975
         ],
         [
-          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
+          "Geb�udebetreuung, Sicherheit, sonst. wirtsch. DL",
           5299
         ],
         [
-          "Personalvermittlung, -üerlassung",
+          "Personalvermittlung,",
+          null
+        ],
+        [
+          "-�berlassung",
           5599
         ],
         [
-          "Öffentliche Verwaltung",
+          "�ffentliche",
+          null
+        ],
+        [
+          "Verwaltung",
           7369
         ],
         [
-          "Erziehung, Unterricht",
+          "Erziehung,",
+          null
+        ],
+        [
+          "Unterricht",
           6569
         ],
         [
-          "Gesundheits-, Sozialwesen",
+          "Gesundheits-,",
+          null
+        ],
+        [
+          "Sozialwesen",
           6259
         ],
         [

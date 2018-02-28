@@ -136,7 +136,7 @@
           129.1
         ]
       ],
-      "name": "Personalvermittlung, Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL"
+      "name": "Gebäudebet., Sicherh., sonst. wirtsch. DL (inkl. Pers.verm., -überl.)"
     },
     {
       "color": "#B00000",
@@ -264,7 +264,7 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 2
+    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -288,7 +288,7 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "y": 55,
+    "y": 45,
     "itemWidth": 250,
     "itemMarginBottom": 5,
     "itemStyle": {

@@ -1571,7 +1571,7 @@
     "align": "left",
     "symbolRadius": 0,
     "itemWidth": 300,
-    "y": 55,
+    "y": 45,
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"

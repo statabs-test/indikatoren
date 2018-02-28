@@ -1,8 +1,8 @@
 {
   "series": [
     {
-      "color": "#8B2223",
-      "index": 14,
+      "color": "#E7CEE2",
+      "index": 15,
       "data": [
         [
           "BS",
@@ -29,8 +29,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#DC440E",
-      "index": 13,
+      "color": "#923F8D",
+      "index": 14,
       "data": [
         [
           "BS",
@@ -57,8 +57,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FF8028",
-      "index": 12,
+      "color": "#662673",
+      "index": 13,
       "data": [
         [
           "BS",
@@ -85,8 +85,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FFBB58",
-      "index": 11,
+      "color": "#73B97C",
+      "index": 12,
       "data": [
         [
           "BS",
@@ -113,8 +113,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FFDA80",
-      "index": 10,
+      "color": "#B6CFD7",
+      "index": 11,
       "data": [
         [
           "BS",
@@ -142,7 +142,7 @@
     },
     {
       "color": "#007A2F",
-      "index": 9,
+      "index": 10,
       "data": [
         [
           "BS",
@@ -169,8 +169,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#D7E8D2",
-      "index": 8,
+      "color": "#0A3B19",
+      "index": 9,
       "data": [
         [
           "BS",
@@ -197,8 +197,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#73BA7C",
-      "index": 7,
+      "color": "#FFDA80",
+      "index": 8,
       "data": [
         [
           "BS",
@@ -225,8 +225,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#2B0099",
-      "index": 6,
+      "color": "#FFBB58",
+      "index": 7,
       "data": [
         [
           "BS",
@@ -253,8 +253,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#008AC3",
-      "index": 5,
+      "color": "#FF8028",
+      "index": 6,
       "data": [
         [
           "BS",
@@ -281,8 +281,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#B9CFD7",
-      "index": 4,
+      "color": "#B00000",
+      "index": 5,
       "data": [
         [
           "BS",
@@ -309,8 +309,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#672773",
-      "index": 3,
+      "color": "#A0BEC8",
+      "index": 4,
       "data": [
         [
           "BS",
@@ -337,8 +337,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#E7CEE2",
-      "index": 2,
+      "color": "#008AC3",
+      "index": 3,
       "data": [
         [
           "BS",
@@ -362,6 +362,90 @@
         ]
       ],
       "name": "Erziehung, Unterricht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "index": 2,
+      "data": [
+        [
+          "BS",
+          0.067
+        ],
+        [
+          "BL",
+          0.081
+        ],
+        [
+          "AG",
+          0.081
+        ],
+        [
+          "ZH",
+          0.07
+        ],
+        [
+          "CH",
+          0.081
+        ]
+      ],
+      "name": "Gesundheits-, Sozialwesen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#2B0099",
+      "index": 1,
+      "data": [
+        [
+          "BS",
+          0.02
+        ],
+        [
+          "BL",
+          0.015
+        ],
+        [
+          "AG",
+          0.019
+        ],
+        [
+          "ZH",
+          0.021
+        ],
+        [
+          "CH",
+          0.021
+        ]
+      ],
+      "name": "Kultur, Unterhaltung, pers. DL",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#8A8A8A",
+      "index": 0,
+      "data": [
+        [
+          "BS",
+          0.001
+        ],
+        [
+          "BL",
+          0.008
+        ],
+        [
+          "AG",
+          0.011
+        ],
+        [
+          "ZH",
+          0.005
+        ],
+        [
+          "CH",
+          0.01
+        ]
+      ],
+      "name": "Übrige Branchen",
       "turboThreshold": 0
     }
   ],
