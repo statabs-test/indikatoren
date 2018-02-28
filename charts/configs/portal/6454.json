@@ -159,7 +159,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Beschäftigungsentwicklung nach Geschlecht"
+    "text": "Beschäftigung nach Geschlecht"
   },
   "subtitle": {
     "style": {
@@ -168,7 +168,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Anzahl Stellen und Vollzeitäquivalente, 2011 bis 2015",
+    "text": "Anzahl Beschäftigte und Vollzeitäquivalente, 2011 bis 2015",
     "align": "left"
   },
   "xAxis": {
