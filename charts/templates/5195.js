@@ -64,12 +64,11 @@
   "legend": {
     "layout": "vertical",
     "verticalAlign": "middle",
-    //"y": 25,
     "itemMarginBottom": 7,
     "align": "right",
     "itemStyle": {
       "fontWeight": "normal", 
-      "width": 95
+      "width": 85
     }
   },
   "series": [
@@ -90,8 +89,7 @@
     },
     {
       "color": "#923f8d",
-      "index": 4,
-      "visible": false
+      "index": 4
     },
     {
       "color": "#689199",
@@ -101,7 +99,7 @@
      {
       "color": "#8A8A8A",
       "index": 0,
-      "visible": true
+      "visible": false
     },
     {
       "color": "#b00000",
@@ -149,9 +147,7 @@
       "yAxis": 1,
       "marker": {
 				"enabled": false
-			},
-		"visible": false
-
+			}
     },
     {
       "color": "#923f8d",
