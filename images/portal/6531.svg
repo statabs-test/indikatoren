@@ -63,11 +63,11 @@
     </g>
     <g class="highcharts-markers highcharts-series-2 highcharts-column-series " transform="translate(53,161) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-3 highcharts-column-series " transform="translate(53,161) scale(1 1)" clip-path="url(#a)">
-      <rect x="8" y="179" width="68" height="40" fill="#83038" class="highcharts-point"/>
-      <rect x="93" y="158" width="68" height="61" fill="#83038" class="highcharts-point"/>
-      <rect x="177" y="155" width="68" height="64" fill="#83038" class="highcharts-point"/>
-      <rect x="262" y="165" width="68" height="54" fill="#83038" class="highcharts-point"/>
-      <rect x="346" y="155" width="68" height="64" fill="#83038" class="highcharts-point"/>
+      <rect x="8" y="179" width="68" height="40" fill="#083038" class="highcharts-point"/>
+      <rect x="93" y="158" width="68" height="61" fill="#083038" class="highcharts-point"/>
+      <rect x="177" y="155" width="68" height="64" fill="#083038" class="highcharts-point"/>
+      <rect x="262" y="165" width="68" height="54" fill="#083038" class="highcharts-point"/>
+      <rect x="346" y="155" width="68" height="64" fill="#083038" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-3 highcharts-column-series " transform="translate(53,161) scale(1 1)" clip-path="none"/>
   </g>
@@ -85,7 +85,7 @@
           <text x="21" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
             <tspan>bis 9 VZÄ</tspan>
           </text>
-          <rect x="2" y="4" width="12" height="12" fill="#83038" class="highcharts-point"/>
+          <rect x="2" y="4" width="12" height="12" fill="#083038" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2" transform="translate(113,3)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">

@@ -18,7 +18,7 @@
   	}
   },
  "series": [
-	 {"color": "#83038", index: 3, legendIndex: 0}, /* */
+	 {"color": "#083038", index: 3, legendIndex: 0}, /* */
 	 {"color": "#2F656B", index:  2, legendIndex: 1}, /* */
 	 {"color": "#689199", index: 1, legendIndex: 2},  /* */
 	 {"color": "#D3E2E4", index: 0, legendIndex: 3},  /* */
