@@ -28,7 +28,7 @@
           76.5
         ]
       ],
-      "name": "\"Männer\"",
+      "name": "Männer",
       "turboThreshold": 0
     },
     {
@@ -59,7 +59,7 @@
           71.6
         ]
       ],
-      "name": "\"Frauen\"",
+      "name": "Frauen",
       "turboThreshold": 0
     },
     {
@@ -90,7 +90,7 @@
           74.4
         ]
       ],
-      "name": "\"Schweiz\"",
+      "name": "Schweiz",
       "turboThreshold": 0
     },
     {
@@ -121,7 +121,7 @@
           73.5
         ]
       ],
-      "name": "\"Ausland\"",
+      "name": "Ausland",
       "turboThreshold": 0
     },
     {
@@ -152,7 +152,7 @@
           74
         ]
       ],
-      "name": "\"Total\"",
+      "name": "Total",
       "turboThreshold": 0
     }
   ],
