@@ -80,19 +80,19 @@
       <g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(8,3)">
           <text x="21" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
-            <tspan>&quot;Handel und Dienstleistung…</tspan><title>&quot;Handel und Dienstleistungen&quot;</title>
+            <tspan>Handel und Dienstleistungen</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#689199" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(8,22)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>&quot;Industrie, Energie und Bau…</tspan><title>&quot;Industrie, Energie und Baugewerbe&quot;</title>
+            <tspan>Industrie, Energie und Bau…</tspan><title>Industrie, Energie und Baugewerbe</title>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#ffbb58" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2" transform="translate(8,41)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>&quot;Land- und Forstwirtschaft&quot;</tspan>
+            <tspan>Land- und Forstwirtschaft</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#dc440e" class="highcharts-point"/>
         </g>

@@ -94,31 +94,31 @@
       <g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(8,3)">
           <text x="21" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
-            <tspan>&quot;Mä…</tspan><title>&quot;Männer&quot;</title>
+            <tspan>Män…</tspan><title>Männer</title>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#b375ab" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(88,3)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>&quot;Fra…</tspan><title>&quot;Frauen&quot;</title>
+            <tspan>Frauen</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#923f8d" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2" transform="translate(168,3)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>&quot;Sch…</tspan><title>&quot;Schweiz&quot;</title>
+            <tspan>Sch…</tspan><title>Schweiz</title>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#fabd24" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3" transform="translate(248,3)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>&quot;Aus…</tspan><title>&quot;Ausland&quot;</title>
+            <tspan>Ausl…</tspan><title>Ausland</title>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#cd9c00" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4" transform="translate(328,3)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>&quot;Total&quot;</tspan>
+            <tspan>Total</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#C8C8C8" class="highcharts-point"/>
         </g>

@@ -25,7 +25,7 @@
           14.842948
         ]
       ],
-      "name": "\"Industrie\"",
+      "name": "Industrie",
       "turboThreshold": 0
     },
     {
@@ -53,7 +53,7 @@
           1.7449017
         ]
       ],
-      "name": "\"Dienstleistungen\"",
+      "name": "Dienstleistungen",
       "turboThreshold": 0
     }
   ],
