@@ -7,7 +7,7 @@
       useHTML: true
     },
   "xAxis": {
-    //"tickInterval": 1
+    "tickInterval": 2
   },
   "yAxis": {
 	"labels": {
