@@ -1015,9 +1015,7 @@
         "color": "#000000"
       },
       "format": "{value}%"
-    },
-    "tickInterval": 10,
-    "max": 40
+    }
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -1052,7 +1050,7 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "y": 35,
+    "y": 15,
     "itemWidth": 140,
     "itemMarginBottom": 5,
     "itemStyle": {
