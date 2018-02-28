@@ -15,7 +15,10 @@
             stacking: 'normal',
             //lineColor: '#666666',
             lineWidth: 0,
-
+            "marker": {
+            "enabled": false,
+            "symbol": "circle"
+          },
         }
   },
   "yAxis": {
@@ -24,7 +27,7 @@
     }
   },
   "xAxis": {
-  	"type": "category",
+  	"type": "linear",
   },
   "legend": {
     "enabled": true,
