@@ -2,7 +2,6 @@
     return {
    "yAxis": {
    	min: undefined,
-   	max: 0,
     "labels": {
       "format": "{value:,.0f}",
     }

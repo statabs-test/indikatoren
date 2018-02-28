@@ -437,7 +437,7 @@
     }
   },
   "tooltip": {
-    "headerFormat": "&nbsp;&nbsp;&nbsp;Gesamtbevölkerung: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "headerFormat": "{point.x}:&nbsp;&nbsp;&nbsp;Gesamtbevölkerung: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": true,
     "useHTML": true
   },

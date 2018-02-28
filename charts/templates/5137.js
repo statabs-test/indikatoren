@@ -75,7 +75,7 @@
   ],
    "tooltip": {
     //"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
-    "headerFormat": '&nbsp;&nbsp;&nbsp;Gesamtbevölkerung: <b>{point.total:,.0f}</b><br/>',
+    "headerFormat": '{point.x}:&nbsp;&nbsp;&nbsp;Gesamtbevölkerung: <b>{point.total:,.0f}</b><br/>',
     "shared": true, 
     useHTML: true
   }, 
