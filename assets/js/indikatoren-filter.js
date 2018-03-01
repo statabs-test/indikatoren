@@ -47,6 +47,24 @@ $(document).ready(function(){
     jsonDatabaseUrl = 'metadata/sets/'+ indikatorenset + '.js';
   }
   
+  //dynamically change filterColumns in indikatorenset view only, see http://jsfiddle.net/KyleMit/pgt6tczj/
+  var maxStufe = +window.decodeURIComponent($.url('?stufe')) || 2;
+  if (view){
+    //change width of columns
+    var $myCols = $('#indikatorensetFilterControls');
+    var visibleCols = maxStufe + 1; //add the search box as a column
+    var div = Math.floor(12 / visibleCols);
+    var rem = 12 % visibleCols;
+    var colSize = (rem === 0) ? div : 2;
+    $myCols.children().removeClass().addClass('col-xs-'+colSize);
+    //hide columns to the right of maxStufe
+    $myCols.children().each(function(i, element){
+      if (i >= visibleCols){
+        $(element).hide();
+      }
+    });
+  }
+  
   //load data
   $.when(    
     $.getScript(jsonDatabaseUrl),
