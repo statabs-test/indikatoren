@@ -6,7 +6,7 @@
 "id":6363,
 "thema":"01 Bevölkerung",
 "unterthema":"",
-"kennzahlenset":"IntProj",
+"kennzahlenset":"",
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
 "schlagwort":["Wohnen"],
@@ -24,6 +24,6 @@
 "parentId":null,
 "children":[],
 "renderLink":[],
-"quellenangabe":[],
+"quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"],
 "externalLinks":[""]
 }

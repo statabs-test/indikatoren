@@ -1,32 +1,32 @@
 {
   "series": [
     {
-      "color": "#B00000",
+      "color": "#73B97C",
       "visible": true,
       "data": [
         [
           "Ausland",
-          36.84
+          33.78
         ],
         [
           "Schweiz",
-          45.31
+          43.18
         ]
       ],
       "name": "Männlich",
       "turboThreshold": 0
     },
     {
-      "color": "#008AC3",
+      "color": "#E6E600",
       "visible": true,
       "data": [
         [
           "Ausland",
-          39.51
+          34.33
         ],
         [
           "Schweiz",
-          50.21
+          47.21
         ]
       ],
       "name": "Weiblich",
@@ -38,11 +38,11 @@
       "data": [
         [
           "Ausland",
-          38.19
+          34.05
         ],
         [
           "Schweiz",
-          47.8
+          45.33
         ]
       ],
       "name": "Total",
@@ -71,7 +71,7 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 415,
-    "spacingBottom": 30,
+    "spacingBottom": 50,
     "style": {
       "fontFamily": "Arial"
     },
@@ -164,9 +164,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -25
     },
-    "text": "Quelle: "
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
   },
   "legend": {
     "symbolRadius": 0,
@@ -181,7 +181,7 @@
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f} m²\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}m²\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {

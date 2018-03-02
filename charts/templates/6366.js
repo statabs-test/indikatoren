@@ -83,12 +83,12 @@
 		series: [
             {
               color: "#73B97C", // grün
-              //borderWidth: 0,
+              borderWidth: 0.5,
               //pointWidth: 15
             }, 
             {
               color: "#E6E600", //gelb
-              //borderWidth: 0,
+              borderWidth: 0-5,
               //pointWidth: 15
             },
 	    ],
@@ -107,5 +107,8 @@
                 return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( Math.abs(this.y), 1, ",", " ") + "m²" + '</b><br/>';
             }
             },
+  "chart": {      
+    "spacingBottom": 50
+  }
 	};
 }());

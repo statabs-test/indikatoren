@@ -8,7 +8,7 @@
         ],
         [
           "Familienhaushalte",
-          30.67
+          32.6
         ],
         [
           "&nbsp;&nbsp;&nbsp;&nbsp;Verheiratete\u002Fregistrierte Paare ohne Kinder",
@@ -16,7 +16,7 @@
         ],
         [
           "&nbsp;&nbsp;&nbsp;&nbsp;Paare mit minderjährigen Kindern",
-          25.84
+          25.08
         ],
         [
           "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Verheiratete Paare mit Kindern",
@@ -28,7 +28,7 @@
         ],
         [
           "&nbsp;&nbsp;&nbsp;&nbsp;Einelternhaushalte mit minderjährigen Kindern",
-          27.89
+          30.03
         ],
         [
           "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ohne weitere Personen",
@@ -47,10 +47,11 @@
           33.22
         ],
         [
-          "Nichtfamilienhaushalt",
+          "Nichtfamilienhaushalte",
           36.52
         ]
       ],
+      "name": "Mittlere Wohnfläche",
       "turboThreshold": 0
     }
   ],
@@ -83,7 +84,7 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 415,
-    "spacingBottom": 40,
+    "spacingBottom": 50,
     "style": {
       "fontFamily": "Arial"
     },
@@ -179,9 +180,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -25
     },
-    "text": "Quelle: "
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
   },
   "legend": {
     "symbolRadius": 0,
@@ -210,7 +211,7 @@
   ],
   "tooltip": {
     "headerFormat": "",
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {point.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {point.name}: \u003Cb\u003E{point.y:.1f}m²\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": ""

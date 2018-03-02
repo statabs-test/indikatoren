@@ -63,7 +63,7 @@
      marginLeft:250,
     "type": "column",
     "inverted": true,
-    "spacingBottom": 40
+    "spacingBottom": 50
   },
   "plotOptions": {
     "series": {

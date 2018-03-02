@@ -11258,7 +11258,7 @@
 		"description": "Mittlere Wohnfläche pro Person",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "IntProj",
+		"kennzahlenset": "",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -11279,7 +11279,10 @@
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
 		"externalLinks": [
 			""
 		],
@@ -11293,7 +11296,7 @@
 		"description": "Mittlere Wohnfläche pro Person",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "IntProj",
+		"kennzahlenset": "",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -11314,7 +11317,10 @@
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
 		"externalLinks": [
 			""
 		],
@@ -11328,7 +11334,7 @@
 		"description": "Mittlere Wohnfläche pro Person",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "IntProj",
+		"kennzahlenset": "",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -11349,7 +11355,10 @@
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
 		"externalLinks": [
 			""
 		],
@@ -11363,7 +11372,7 @@
 		"description": "Mittlere Wohnfläche pro Person",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "IntProj",
+		"kennzahlenset": "",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -11384,7 +11393,10 @@
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
 		"externalLinks": [
 			""
 		],

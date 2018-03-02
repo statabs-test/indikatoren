@@ -36,19 +36,19 @@
         ],
         [
           "2 Pers.",
-          42.85
+          46.35
         ],
         [
           "3 Pers.",
-          30.01
+          31.28
         ],
         [
           "4 Pers.",
-          24.77
+          26.05
         ],
         [
           "5 u. m. Pers.",
-          19.68
+          20.2
         ]
       ],
       "name": "Familienhaushalte",
@@ -75,10 +75,10 @@
         ],
         [
           "5 u. m. Pers.",
-          21.12
+          20.5
         ]
       ],
-      "name": "Nichtfamilienhaushalt",
+      "name": "Nichtfamilienhaushalte",
       "turboThreshold": 0
     }
   ],
@@ -105,7 +105,7 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 415,
-    "spacingBottom": 30,
+    "spacingBottom": 50,
     "style": {
       "fontFamily": "Arial"
     },
@@ -199,9 +199,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -25
     },
-    "text": "Quelle: "
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
   },
   "legend": {
     "symbolRadius": 0,
@@ -216,7 +216,7 @@
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}  m²\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}m²\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {

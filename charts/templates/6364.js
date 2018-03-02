@@ -50,7 +50,7 @@
   "chart": {      
     "type": "column",
     "inverted": false,
-    //"spacingTop": 100
+    "spacingBottom": 50
   }
 }
 }());
