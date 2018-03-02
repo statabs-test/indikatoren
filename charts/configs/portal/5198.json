@@ -136,6 +136,7 @@
             }
           }
     },
+    "marginRight": 18,
     "type": "scatter",
     "inverted": true,
     "renderTo": "container-5198"
@@ -184,7 +185,8 @@
     },
     "labels": {
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "textOverflow": "none"
       }
     }
   },
@@ -214,6 +216,7 @@
     "enabled": false
   },
   "tooltip": {
+    "headerFormat": "{point.x}:\u003Cbr\u002F\u003E",
     "pointFormat": "\u003Cb\u003E{point.y}\u003C\u002Fb\u003E m\u003Csup\u003E2\u003C\u002Fsup\u003E pro Einwohner\u003Cbr\u002F\u003E",
     "useHTML": true
   },
