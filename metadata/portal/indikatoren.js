@@ -11356,11 +11356,11 @@ var indikatoren = [
 		"id": 6365
 	},
 	{
-		"title": "Mittlere Wohnfläche pro Person nach Alter und Geschlecht",
+		"title": "Mittlere Wohnfläche pro Person",
 		"subtitle": "nach Alter und Geschlecht in m<sup>2</sup>",
 		"kuerzel": "",
 		"kuerzelKunde": "",
-		"description": "Mittlere Wohnfläche pro Person nach Alter und Geschlecht",
+		"description": "Mittlere Wohnfläche pro Person",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
 		"kennzahlenset": "IntProj",

@@ -57,7 +57,7 @@
   },*/
       tooltip: {
       headerFormat: '',
-      pointFormat: '<span style="color:{point.color}">●</span> {point.name}: <b>{point.y:.1f}</b><br/>'    
+      pointFormat: '<span style="color:{point.color}">●</span> {point.name}: <b>{point.y:.1f}m²</b><br/>'    
     },
   "chart": {     
      marginLeft:250,

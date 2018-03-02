@@ -82,12 +82,12 @@
         ],                
 		series: [
             {
-              color: "#B00000", // rot
+              color: "#73B97C", // grün
               //borderWidth: 0,
               //pointWidth: 15
             }, 
             {
-              color: "#008AC3", //blau
+              color: "#E6E600", //gelb
               //borderWidth: 0,
               //pointWidth: 15
             },
@@ -104,7 +104,7 @@
           },
             tooltip: {
             pointFormatter: function () {
-                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( Math.abs(this.y), 1, ",", " ") + " m²" + '</b><br/>';
+                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( Math.abs(this.y), 1, ",", " ") + "m²" + '</b><br/>';
             }
             },
 	};

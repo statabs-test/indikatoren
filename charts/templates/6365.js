@@ -25,8 +25,8 @@
     }    
   },
   "series": [
-  {"color": "#B00000", "visible": true}, /* rot*/
-  {"color": "#008AC3", "visible": true}, /* blau */
+  {"color": "#73B97C", "visible": true}, /* grün*/
+  {"color": "#E6E600", "visible": true}, /* gelb */
   {"color": "#3C3C3C", "visible": true} /* schwarz */
   ],
   "legend": {
@@ -42,7 +42,7 @@
     }
   },
   tooltip: {
-    pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f} m²</b><br/>',
+    pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}m²</b><br/>',
     shared: false
   },  
   "chart": {      
