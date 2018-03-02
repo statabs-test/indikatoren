@@ -89,7 +89,8 @@
     },
     {
       "color": "#923f8d",
-      "index": 4
+      "index": 4,
+      "visible": false
     },
     {
       "color": "#689199",
@@ -99,7 +100,7 @@
      {
       "color": "#8A8A8A",
       "index": 0,
-      "visible": false
+      "visible": true
     },
     {
       "color": "#b00000",
@@ -147,7 +148,8 @@
       "yAxis": 1,
       "marker": {
 				"enabled": false
-			}
+			},
+      "visible": false
     },
     {
       "color": "#923f8d",

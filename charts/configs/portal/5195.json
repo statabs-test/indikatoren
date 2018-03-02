@@ -171,6 +171,7 @@
     {
       "color": "#923f8d",
       "index": 4,
+      "visible": false,
       "data": [
         [
           2006,
@@ -282,7 +283,7 @@
     {
       "color": "#8A8A8A",
       "index": 0,
-      "visible": false,
+      "visible": true,
       "data": [
         [
           2006,
@@ -586,6 +587,7 @@
       "marker": {
         "enabled": false
       },
+      "visible": false,
       "data": [
         [
           2006,
