@@ -171,7 +171,6 @@
     {
       "color": "#923f8d",
       "index": 4,
-      "visible": false,
       "data": [
         [
           2006,
@@ -283,7 +282,7 @@
     {
       "color": "#8A8A8A",
       "index": 0,
-      "visible": true,
+      "visible": false,
       "data": [
         [
           2006,
@@ -587,7 +586,6 @@
       "marker": {
         "enabled": false
       },
-      "visible": false,
       "data": [
         [
           2006,
@@ -745,7 +743,7 @@
     },
     "line": {
       "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
         "shared": false
       },
       "shadow": true
