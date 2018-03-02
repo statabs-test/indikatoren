@@ -115,7 +115,7 @@
     },
     "align": "left",
     "useHTML": true,
-    "text": "Mittlere Wohnfläche nach Herkunft und Geschlecht"
+    "text": "Mittlere Wohnfläche pro Person"
   },
   "subtitle": {
     "style": {
@@ -124,7 +124,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E",
+    "text": "nach Staatsangehörigkeit und Geschlecht in m\u003Csup\u003E2\u003C\u002Fsup\u003E",
     "align": "left",
     "useHTML": true
   },
