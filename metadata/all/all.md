@@ -570,7 +570,7 @@ id | visible | visibleInPortal | indikatorenset
 6478 | true | true | Integration
 6479 | true | false | Integration
 6480 | true | true | Integration
-6481 | false |  | Integration
+6481 | true | true | Integration
 6482 | true | true | Integration
 6483 | true | true | Integration
 6484 | true | true | Integration

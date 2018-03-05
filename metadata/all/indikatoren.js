@@ -12755,7 +12755,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Mittel der Jahre 2011 bis 2015 haben 19,6% der Schweizer Staatsangehörigen als höchsten Abschluss die Sekundarstufe 1, während dieser Anteil bei den ausländischen Staatsangehörigen bei 34,2% liegt. Vor allem bei den Ausländern ist der Anteil im Vergleich zu den Jahren 2000 (45,1%) und 1990 (54,0%) deutlich tiefer.",
-		"erlaeuterungen": "Sekundarstufe 1: keine abgeschlossene Ausbildung, obligatorische Schule, 1-jährige Vorlehre, 1-jährige allgemeinbildende Schule, 10. Schuljahr, 1-jährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote.Sekundarstufe 2:  Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe:  Höhere Fachschule, Fachhochschule, Universität.",
+		"erlaeuterungen": "Sekundarstufe 1: keine abgeschlossene Ausbildung, obligatorische Schule, 1-jährige Vorlehre, 1-jährige allgemeinbildende Schule, 10. Schuljahr, 1-jährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe 2:  Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe:  Höhere Fachschule, Fachhochschule, Universität.",
 		"template": "template001",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_007",
@@ -12794,7 +12794,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Bei Personen aus Deutschland (68%), EU-Ost (53%), EU-17 + EFTA (50%) und Mittel- und Südamerika (39%) ist der Anteil Personen mit Tertiärausbildung grösser als bei den Schweizer Staatsangehörigen (33%). Geringe Anteile der Tertiärausbildung weisen Personen aus der Türkei und dem Balkan (je 11%) auf.",
-		"erlaeuterungen": "Sekundarstufe 1: keine abgeschlossene Ausbildung, obligatorische Schule, 1-jährige Vorlehre, 1-jährige allgemeinbildende Schule, 10. Schuljahr, 1-jährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote.Sekundarstufe 2:  Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe:  Höhere Fachschule, Fachhochschule, Universität.",
+		"erlaeuterungen": "Sekundarstufe 1: keine abgeschlossene Ausbildung, obligatorische Schule, 1-jährige Vorlehre, 1-jährige allgemeinbildende Schule, 10. Schuljahr, 1-jährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe 2:  Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe:  Höhere Fachschule, Fachhochschule, Universität.",
 		"template": "template001",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_008",
@@ -12834,7 +12834,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Den grössten Anteil Personen mit Tertiärausbildung (42%) weisen die Ausländerinnen und Ausländer auf, auch der Anteil Personen mit Sekundarstufe 1 (34%) ist am grössten.",
-		"erlaeuterungen": "Sekundarstufe 1: keine abgeschlossene Ausbildung, obligatorische Schule, 1-jährige Vorlehre, 1-jährige allgemeinbildende Schule, 10. Schuljahr, 1-jährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote.Sekundarstufe 2:  Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe:  Höhere Fachschule, Fachhochschule, Universität.",
+		"erlaeuterungen": "Sekundarstufe 1: keine abgeschlossene Ausbildung, obligatorische Schule, 1-jährige Vorlehre, 1-jährige allgemeinbildende Schule, 10. Schuljahr, 1-jährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe 2:  Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe:  Höhere Fachschule, Fachhochschule, Universität.",
 		"template": "template001",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_009",
@@ -19864,7 +19864,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil deutschsprachiger Ausländerinnen und Ausländer ist bei den 15-bis 24-Jährigen (72,4%) am grössten, während er bei den 40- bis 64-Jährigen (42,6%) und den über 65-Jährigen (42,2%) besonders gering ist.",
+		"lesehilfe": "Der Anteil deutschsprachiger Ausländerinnen und Ausländer ist bei den 15-bis 24-Jährigen (72,4%) am grössten, während er bei den 40- bis  64-Jährigen (45,9%) und den über 65-Jährigen (42,6%) besonders gering ist.",
 		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst.",
 		"template": "template001",
 		"visibleInPortal": true,
@@ -21282,7 +21282,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "in m<sup>2</sup> nach Staatsangehörigkeit",
+		"subtitle": "in m² nach Staatsangehörigkeit",
 		"kuerzel": "I.09.1.06475",
 		"kuerzelKunde": "D2-1",
 		"description": "Mittlere Wohnfläche pro Person",
@@ -21322,7 +21322,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "in m<sup>2</sup> nach Staatsangehörigkeit, Stand: 2016",
+		"subtitle": "in m² nach Staatsangehörigkeit, Stand: 2016",
 		"kuerzel": "I.09.1.06476",
 		"kuerzelKunde": "D2-2",
 		"description": "Mittlere Wohnfläche pro Person",
@@ -21400,7 +21400,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "in m<sup>2</sup> nach Staatsangehörigkeit, Stand: 2016",
+		"subtitle": "in m² nach Staatsangehörigkeit, Stand: 2016",
 		"kuerzel": "I.01.2.06478",
 		"kuerzelKunde": "D2-4",
 		"description": "Mittlere Wohnfläche pro Person",
@@ -21421,7 +21421,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Vergleicht man Personen in Einpersonenhaushalten oder Vierpersonenhaushalten nach Ländergruppen miteinander, sind die Unterschiede geringer. Es zeigt sich jedoch ein ähnliches Bild wie im Indikator D2-2.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Die Wohnfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.",
 		"template": "template001",
 		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_006",
@@ -21518,6 +21518,44 @@ var indikatoren = [
 			""
 		],
 		"id": 6480
+	},
+	{
+		"title": "Anteil Personen mit und ohne Migrationshintergrund nach Staatsangehörigkeit",
+		"subtitle": "Gepoolte Daten von 2011 bis 2015",
+		"kuerzel": "I.01.1.06481",
+		"kuerzelKunde": "D3-3",
+		"description": "Anteil Personen mit und ohne Migrationshintergrund nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur ",
+		"kennzahlenset": "Integration",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Migration",
+			"Staatsangehörigkeit"
+		],
+		"stufe1": "Kapitel D Politik und Zusammenleben",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Mittel der Jahre 2011 bis 2015 sind in Basel-Stadt rund 49% aller Personen über 15 Jahren Schweizer ohne Migrationshintergrund. Etwa 17% sind Schweizer mit Migrationshintergrund und 31% Ausländer der ersten Generation. Lediglich 3% sind Ausländer zweiter oder höherer Generation.",
+		"erlaeuterungen": "",
+		"template": "pie001",
+		"visibleInPortal": true,
+		"orderKey": "04_00_00_00_00_009",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6481
 	},
 	{
 		"title": "Beschuldigte ab 18 Jahren pro 1000 Erwachsene",

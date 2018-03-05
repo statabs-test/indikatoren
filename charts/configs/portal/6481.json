@@ -82,7 +82,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anzahl Personen mit und ohne Migrationshintergrund nach Staatsangehörigkeit (CH\u002FA)"
+    "text": "Anteil Personen mit und ohne Migrationshintergrund nach Staatsangehörigkeit"
   },
   "subtitle": {
     "style": {
@@ -91,7 +91,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "gepoolte Daten von 2011 bis 2015",
+    "text": "Gepoolte Daten von 2011 bis 2015",
     "align": "left"
   },
   "tooltip": {
@@ -110,9 +110,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: "
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
   },
   "legend": {
     "layout": "horizontal",
