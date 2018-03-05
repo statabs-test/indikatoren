@@ -38,14 +38,14 @@
   <g class="highcharts-series-group">
     <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(41,102) scale(1 1)" clip-path="url(#a)">
       <rect x="29" y="204" width="43" height="59" fill="#CD9C00" class="highcharts-point"/>
-      <rect x="174" y="46" width="43" height="217" fill="#CD9C00" class="highcharts-point"/>
-      <rect x="318" y="238" width="44" height="25" fill="#CD9C00" class="highcharts-point"/>
+      <rect x="174" y="47" width="43" height="216" fill="#CD9C00" class="highcharts-point"/>
+      <rect x="318" y="237" width="44" height="26" fill="#CD9C00" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(41,102) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(41,102) scale(1 1)" clip-path="url(#a)">
-      <rect x="72" y="213" width="44" height="50" fill="#83522E" class="highcharts-point"/>
-      <rect x="217" y="25" width="43" height="238" fill="#83522E" class="highcharts-point"/>
-      <rect x="362" y="228" width="43" height="35" fill="#83522E" class="highcharts-point"/>
+      <rect x="72" y="214" width="44" height="49" fill="#83522E" class="highcharts-point"/>
+      <rect x="217" y="27" width="43" height="236" fill="#83522E" class="highcharts-point"/>
+      <rect x="362" y="227" width="43" height="36" fill="#83522E" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(41,102) scale(1 1)" clip-path="none"/>
   </g>
@@ -56,16 +56,16 @@
     <tspan>Anteil am BIP</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(33,65)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="131" height="25" visibility="visible"/>
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="134" height="25" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(8,3)">
           <text x="21" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
-            <tspan>2008</tspan>
+            <tspan>2 008</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#CD9C00" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(75.6875,3)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(79.015625,3)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>2012</tspan>
           </text>
