@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#CD9C00",
+      "color": "#FABD24",
       "visible": true,
       "data": [
         [
@@ -21,7 +21,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#83522E",
+      "color": "#CD9C00",
       "visible": true,
       "data": [
         [
@@ -38,6 +38,26 @@
         ]
       ],
       "name": "2012",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#83522E",
+      "visible": true,
+      "data": [
+        [
+          "Genferseeregion",
+          1.7
+        ],
+        [
+          "Nordwestschweiz",
+          8
+        ],
+        [
+          "Zürich",
+          1.2
+        ]
+      ],
+      "name": "2015",
       "turboThreshold": 0
     }
   ],

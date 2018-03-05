@@ -59,33 +59,33 @@
   </g>
   <g class="highcharts-series-group">
     <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(49,100) scale(1 1)" clip-path="url(#a)">
-      <rect x="8.5" y="132.5" width="16" height="26" fill="#FABD24" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="41.5" y="39.5" width="16" height="21" fill="#FABD24" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="74.5" y="63.5" width="16" height="21" fill="#FABD24" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="107.5" y="127.5" width="16" height="17" fill="#FABD24" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="141.5" y="160.5" width="16" height="16" fill="#FABD24" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="174.5" y="163.5" width="16" height="29" fill="#FABD24" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="207.5" y="160.5" width="16" height="22" fill="#FABD24" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="240.5" y="141.5" width="16" height="18" fill="#FABD24" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="274.5" y="148.5" width="16" height="24" fill="#FABD24" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="307.5" y="128.5" width="16" height="22" fill="#FABD24" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="340.5" y="172.5" width="16" height="22" fill="#FABD24" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="373.5" y="119.5" width="16" height="23" fill="#FABD24" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="9" y="133" width="16" height="26" fill="#FABD24" class="highcharts-point"/>
+      <rect x="42" y="40" width="16" height="21" fill="#FABD24" class="highcharts-point"/>
+      <rect x="75" y="64" width="16" height="21" fill="#FABD24" class="highcharts-point"/>
+      <rect x="108" y="128" width="16" height="17" fill="#FABD24" class="highcharts-point"/>
+      <rect x="142" y="161" width="16" height="16" fill="#FABD24" class="highcharts-point"/>
+      <rect x="175" y="164" width="16" height="29" fill="#FABD24" class="highcharts-point"/>
+      <rect x="208" y="161" width="16" height="22" fill="#FABD24" class="highcharts-point"/>
+      <rect x="241" y="142" width="16" height="18" fill="#FABD24" class="highcharts-point"/>
+      <rect x="275" y="149" width="16" height="24" fill="#FABD24" class="highcharts-point"/>
+      <rect x="308" y="129" width="16" height="22" fill="#FABD24" class="highcharts-point"/>
+      <rect x="341" y="173" width="16" height="22" fill="#FABD24" class="highcharts-point"/>
+      <rect x="374" y="120" width="16" height="23" fill="#FABD24" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(49,100) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(49,100) scale(1 1)" clip-path="url(#a)">
-      <rect x="8.5" y="158.5" width="16" height="92" fill="#008AC3" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="41.5" y="60.5" width="16" height="190" fill="#008AC3" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="74.5" y="84.5" width="16" height="166" fill="#008AC3" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="107.5" y="144.5" width="16" height="106" fill="#008AC3" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="141.5" y="176.5" width="16" height="74" fill="#008AC3" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="174.5" y="192.5" width="16" height="58" fill="#008AC3" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="207.5" y="182.5" width="16" height="68" fill="#008AC3" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="240.5" y="159.5" width="16" height="91" fill="#008AC3" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="274.5" y="172.5" width="16" height="78" fill="#008AC3" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="307.5" y="150.5" width="16" height="100" fill="#008AC3" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="340.5" y="194.5" width="16" height="56" fill="#008AC3" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
-      <rect x="373.5" y="142.5" width="16" height="108" fill="#008AC3" stroke="#ffffff" stroke-width="1" class="highcharts-point"/>
+      <rect x="9" y="159" width="16" height="92" fill="#008AC3" class="highcharts-point"/>
+      <rect x="42" y="61" width="16" height="190" fill="#008AC3" class="highcharts-point"/>
+      <rect x="75" y="85" width="16" height="166" fill="#008AC3" class="highcharts-point"/>
+      <rect x="108" y="145" width="16" height="106" fill="#008AC3" class="highcharts-point"/>
+      <rect x="142" y="177" width="16" height="74" fill="#008AC3" class="highcharts-point"/>
+      <rect x="175" y="193" width="16" height="58" fill="#008AC3" class="highcharts-point"/>
+      <rect x="208" y="183" width="16" height="68" fill="#008AC3" class="highcharts-point"/>
+      <rect x="241" y="160" width="16" height="91" fill="#008AC3" class="highcharts-point"/>
+      <rect x="275" y="173" width="16" height="78" fill="#008AC3" class="highcharts-point"/>
+      <rect x="308" y="151" width="16" height="100" fill="#008AC3" class="highcharts-point"/>
+      <rect x="341" y="195" width="16" height="56" fill="#008AC3" class="highcharts-point"/>
+      <rect x="374" y="143" width="16" height="108" fill="#008AC3" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(49,100) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined " transform="translate(49,100) scale(1 1)" clip-path="url(#b)">
@@ -109,6 +109,32 @@
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Einbürgerungsziffer der ausländischen Bevölkerung sowie</tspan><tspan dy="17" x="10">Ausländeranteil</tspan><title>Einbürgerungsziffer der ausländischen Bevölkerung sowie Ausländeranteil</title>
   </text>
+  <g class="highcharts-legend" transform="translate(53,45)">
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="343" height="49" visibility="visible"/>
+    <g>
+      <g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(8,3)">
+          <text x="21" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
+            <tspan>Ordentlich Eingebürgerte</tspan>
+          </text>
+          <rect x="2" y="4" width="12" height="12" fill="#008AC3" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(182.296875,3)">
+          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
+            <tspan>Erleichtert Eingebürgerte</tspan>
+          </text>
+          <rect x="2" y="4" width="12" height="12" fill="#FABD24" class="highcharts-point"/>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-2" transform="translate(8,22)">
+          <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#9F7C5A" stroke-width="2"/>
+          <path fill="#9F7C5A" d="M 12 11 A 4 4 0 1 1 11.999998000000167 10.996000000666664 Z" class="highcharts-point"/>
+          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
+            <tspan>Einbürgerungsziffer</tspan>
+          </text>
+        </g>
+      </g>
+    </g>
+  </g>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
     <text x="68.21772486435067" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 68.21772486435067 366)" y="366" opacity="1">
       <tspan>2006</tspan>
