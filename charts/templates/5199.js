@@ -2,8 +2,8 @@
     return {
   "yAxis": [{
   	"min": 0,
-    "max": 1600000,
-     "tickInterval": 320000,
+    "max": 2000000,
+     "tickInterval": 400000,
   	title: {
         text: null,
         "color": "#000000",
