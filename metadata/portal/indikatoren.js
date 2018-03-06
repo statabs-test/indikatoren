@@ -92,7 +92,6 @@ var indikatoren = [
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
-			"Wohnviertel",
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2016-12-14T12:12:59.5959",
@@ -509,7 +508,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der 10-Jahresspanne von 2007 bis 2016 nahm die Bevölkerung in Basel-Stadt von 187 684 auf 198 206 Personen zu. Dies entspricht einer Steigerung um 5,6%.",
+		"lesehilfe": "In der 10-Jahresspanne von 2008 bis 2017 nahm die Bevölkerung in Basel-Stadt von 188 556 auf 198 988 Personen zu. Dies entspricht einem Wachstum um 5,0%.",
 		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774 - 1847: Kantonale Volkszählungen; 1850 - 1900: Eidgenössische Volkszählungen; 1901 - 2011: Fortschreibung der kantonalen Bevölkerungsstatistik; Ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 		"template": "stock001",
 		"visibleInPortal": true,
@@ -539,7 +538,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-01-23T10:24:11.1111",
+		"aktualisierungsdatum": "2018-01-18T10:24:11.1111",
 		"schlagwort": [
 			"Gebäude",
 			"Haushalt"
@@ -549,7 +548,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 2008 steigt der gesamte Wohnungsbestand leicht und stetig an. Am stärksten war das Wachstum bei den Fünfzimmerwohnungen (+12% seit 2006). Rückläufig bzw. nahezu unverändert war dagegen die Entwicklung bei den Ein- und Zweizimmerwohnungen (-7% bzw. +0,6%).",
+		"lesehilfe": "Seit 2008 steigt der gesamte Wohnungsbestand leicht und stetig an. Am stärksten war das Wachstum bei den Fünf- bzw. Vierzimmerwohnungen (+10,9% bzw. 8,6% seit 2008). Rückläufig war dagegen die Entwicklung bei den Einzimmerwohnungen (-3,2%).",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"visibleInPortal": true,
@@ -567,7 +566,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteile am Wohnungsbestand",
-		"subtitle": "nach Zimmerzahl und Wohnflächenkategorie, Stand 2016",
+		"subtitle": "nach Zimmerzahl und Wohnflächenkategorie, Stand 2017",
 		"kuerzel": "I.09.1.04134",
 		"kuerzelKunde": "1.2.B",
 		"description": "Anteile am Wohnungsbestand",
@@ -577,7 +576,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-01-19T15:55:59.5959",
+		"aktualisierungsdatum": "2018-01-18T15:55:59.5959",
 		"schlagwort": [
 			"Gebäude",
 			"Haushalt"
@@ -587,7 +586,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am zahlreichsten sind 2016 nach Zimmerzahl betrachtet die 3-Zimmerwohnungen (37%) und nach Wohnungsflächenkategorie Logis zwischen 70 und 99 Quadratmetern (35%).",
+		"lesehilfe": "Am zahlreichsten sind 2017 nach Zimmerzahl betrachtet die 3-Zimmerwohnungen (37%) und nach Wohnungsflächenkategorie Logis zwischen 70 und 99 Quadratmetern (35%).",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"visibleInPortal": true,
@@ -615,7 +614,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-01-16T13:02:39.3939",
+		"aktualisierungsdatum": "2018-01-18T13:02:39.3939",
 		"schlagwort": [
 			"Gebäude",
 			"Haushalt"
@@ -625,7 +624,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2016 war die Nettowohnungsproduktion überdurchschnittlich hoch. Dazu beigetragen hat eine hohe Neubauproduktion, ein positiver Umbausaldo und eine niedrige Anzahl von Abbrüchen.",
+		"lesehilfe": "2017 war der Umbausaldo wiederum positiv wie stets seit 2011. Dazu beigetragen hat eine Vielzahl von Dachstockausbauten.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"visibleInPortal": true,
@@ -655,7 +654,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-01-19T16:23:33.3333",
+		"aktualisierungsdatum": "2018-01-18T16:23:33.3333",
 		"schlagwort": [
 			"Gebäude",
 			"Haushalt"
@@ -693,7 +692,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-20T14:31:47.4747",
+		"aktualisierungsdatum": "2018-01-18T14:31:47.4747",
 		"schlagwort": [
 			"Gebäude",
 			"Haushalt"
@@ -703,8 +702,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit 412 Einheiten war 2016 die Neubauproduktion überdurchschnittlich, aber erwartungsgemäss nicht mehr so hoch wie im Vorjahr.",
-		"erlaeuterungen": "Es werden nur neu erstellte Wohnungen in Neubauten berücksichtigt. Neue Wohnungen aus Umbauten sind demnach nicht enthalten.",
+		"lesehilfe": "Mit 369 Einheiten blieb die Nettoproduktion 2017 wiederum auf einem relativ hohen Niveau. Einzig im Jahre 2015 war sie deutlich höher, was auf die Fertigstellung grosser Neubauprojekte auf dem Erlenmattareal zurückzuführen war.",
+		"erlaeuterungen": "Es werden nur neu erstellte Wohnungen in Neubauten berücksichtigt. Neue Wohnungen aus Umbauten sind nicht enthalten. Die Neubauprognose wird aufgrund der baubegonnenen Projekte und der voraussichtlichen Baudauer hochgerechnet. Der Durchschnitt der Neubauproduktion errechnet sich aus dem arithmetischen Mittel der Neubauten der dargestellten Jahre (exklusive Neubauprognose).",
 		"template": "template001",
 		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_000",
@@ -808,7 +807,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-01-24T12:33:26.2626",
+		"aktualisierungsdatum": "2018-01-18T12:33:26.2626",
 		"schlagwort": [
 			"Gebäude",
 			"Haushalt"
@@ -825,10 +824,13 @@ var indikatoren = [
 		"orderKey": "02_03_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"5815"
+			"5815",
+			"6027",
+			"6362"
 		],
 		"renderLink": [],
 		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
@@ -1038,7 +1040,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-02-02T16:59:21.2121",
+		"aktualisierungsdatum": "2018-01-18T16:59:21.2121",
 		"schlagwort": [
 			"Gebäude",
 			"Haushalt"
@@ -1048,7 +1050,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Wohnungen mit 4 oder mehr Zimmern stieg zum einen in der Dekade der 1970er-Jahre, und zwar um 2,6 Prozentpunkte. Zum anderen nimmt der Anteil seit 2010 wieder zu. Dazwischen war kaum oder nur ein marginales Wachstum zu verzeichnen.",
+		"lesehilfe": "Der Anteil Wohnungen mit 4 oder mehr Zimmern stieg zum einen in der Dekade der 1970er-Jahre, und zwar um 2,6 Prozentpunkte. Zum anderen nahm er von 2005 bis 2014 (1,9 Prozentpunkte) zu. Dazwischen war kaum oder nur ein marginales Wachstum zu verzeichnen.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"visibleInPortal": true,
@@ -1124,8 +1126,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl volljähriger Personen mit Hauptwohnsitz in Basel-Stadt nimmt stetig leicht zu. Diese Personen versteuern ihr Einkommen oder ihre Vermögenswerte, falls vorhanden, in der Regel in Basel-Stadt.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Die Anzahl volljähriger Personen mit Hauptwohnsitz in Basel-Stadt nimmt stetig zu. Diese Personen versteuern ihr Einkommen oder ihre Vermögenswerte, falls vorhanden, in der Regel in Basel-Stadt.",
+		"erlaeuterungen": "Für den Indikator werden die Personen ab 18 Jahren mit dem Meldeverhältnis Hauptwohnsitz in Basel-Stadt und dem Bevölkerungstyp Nichtständige Wohnbevölkerung oder Ständige Wohnbevölkerung berücksichtigt.",
 		"template": "line001",
 		"visibleInPortal": true,
 		"orderKey": "03_02_00_00_00_000",
@@ -1344,7 +1346,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-06-19T11:56:25.2525",
+		"aktualisierungsdatum": "2018-01-18T11:56:25.2525",
 		"schlagwort": [
 			"Gebäude",
 			"Haushalt"
@@ -1354,8 +1356,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die wenigen Notwohnungen – 2016 machten sie 0,13% des Wohnungsbestandes aus – waren immer zu rund 90% belegt. In den Jahren 2013 und 2014 betrug die Belegung sogar mehr als 95%. Durch Aufstockungen bestehender Blockrandsiedlungen konnte das Angebot seit 2013 um 50 Logis erhöht werden.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Die wenigen Notwohnungen – 2017 machten sie 0,13% des Wohnungsbestandes aus – waren immer zu mindestens 86% belegt. In den Jahren 2013 und 2014 betrug die Belegung sogar mehr als 95%. Durch Aufstockungen bestehender Blockrandsiedlungen konnte das Angebot seit 2013 um 50 Logis erhöht werden.",
+		"erlaeuterungen": "Die Belegung wird Ende Jahr gemäss den Einträgen im Einwohnerregister gemessen.",
 		"template": "template001",
 		"visibleInPortal": true,
 		"orderKey": "05_01_00_00_00_000",
@@ -4094,7 +4096,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil Ausländer",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "I.01.1.04823",
 		"kuerzelKunde": "GS-2.A",
 		"description": "Anteil Ausländer",
@@ -4104,7 +4106,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-03-16T16:49:57.5757",
+		"aktualisierungsdatum": "2018-02-20T16:49:57.5757",
 		"schlagwort": [
 			"Ausländer"
 		],
@@ -4113,7 +4115,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Der Ausländeranteil ist im Wohnviertel Bachletten mit 22% am geringsten, im Wohnviertel Rosental mit 56% am höchsten.",
 		"erlaeuterungen": "Anteil der ausländischen Wohnbevölkerung an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"template": "dotplot",
 		"visibleInPortal": true,
@@ -4217,7 +4219,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Gymnasialquote",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "I.15.6.04826",
 		"kuerzelKunde": "GS-5.A",
 		"description": "Gymnasialquote",
@@ -4227,7 +4229,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-05-05T13:01:58.5858",
+		"aktualisierungsdatum": "2018-02-20T13:01:58.5858",
 		"schlagwort": [
 			"Quote",
 			"Bildung"
@@ -4237,8 +4239,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Anteil der Gymnasiasten sowie seit 2016/2017 der Sek P Schüler an allen Schülern der 10. und 11. Schulstufe des Wohnviertels an öffentlichen Schulen und mit Elternwohnort Basel-Stadt (Schulstufen einschliesslich zweier obligatorischer Kindergartenstufen gezählt).",
+		"lesehilfe": "Die Gymnasialquote ist im Wohnviertel Bachletten am höchsten, im Wohnviertel Klybeck am niedrigsten.",
+		"erlaeuterungen": "Seit 2016/2017 Anteil der Sek P Schüler (Jahre davor: Anteil der Gymnasiasten) an allen Schülern der 10. und 11. Schulstufe des Wohnviertels an öffentlichen Schulen und mit Elternwohnort Basel-Stadt (Schulstufen einschliesslich zweier obligatorischer Kindergartenstufen gezählt).",
 		"template": "dotplot",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_009",
@@ -4259,7 +4261,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Altersquotient",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "I.01.1.04827",
 		"kuerzelKunde": "GS-6.A",
 		"description": "Altersquotient",
@@ -4269,7 +4271,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-03-16T17:35:44.4444",
+		"aktualisierungsdatum": "2018-02-20T17:35:44.4444",
 		"schlagwort": [
 			"Alter",
 			"Alter"
@@ -4279,7 +4281,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Der Altersquotient ist im Wohnviertel Rosental am geringsten, im Wohnviertel Riehen am höchsten.",
 		"erlaeuterungen": "Anteil der über 64-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent.",
 		"template": "dotplot",
 		"visibleInPortal": true,
@@ -4342,7 +4344,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Jugendquotient",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "I.01.1.04829",
 		"kuerzelKunde": "GS-8.A",
 		"description": "Jugendquotient",
@@ -4352,7 +4354,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-03-17T13:48:14.1414",
+		"aktualisierungsdatum": "2018-02-20T13:48:14.1414",
 		"schlagwort": [
 			"Alter",
 			"Jugend"
@@ -4362,8 +4364,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Anteil der unter 20-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent:",
+		"lesehilfe": "Den höchsten Jugendquotient weist das Wohnviertel Bruderholz auf, den niederigsten das Wohnviertel Altstadt Grossbasel.",
+		"erlaeuterungen": "Anteil der unter 20-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent.",
 		"template": "dotplot",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_015",
@@ -4384,7 +4386,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Baujahr Wohngebäude",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "I.09.1.04830",
 		"kuerzelKunde": "RU-1.A",
 		"description": "Baujahr Wohngebäude",
@@ -4394,7 +4396,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-05-04T16:18:00.000",
+		"aktualisierungsdatum": "2018-02-20T16:18:00.000",
 		"schlagwort": [
 			"Gebäude",
 			"Alter"
@@ -4404,7 +4406,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Das Wohnviertel Altstadt Grossbasel verfügt über die älteste Bausubstanz, die Gemeinde Bettingen über die modernste.",
 		"erlaeuterungen": "Mittleres Baujahr der Wohngebäude des Wohnviertels (ungewichtetes arithmetisches Mittel des Baujahres über alle Wohngebäude).",
 		"template": "dotplot",
 		"visibleInPortal": true,
@@ -4426,7 +4428,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil Einfamilienhäuser",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "I.09.1.04831",
 		"kuerzelKunde": "RU-2.A",
 		"description": "Anteil Einfamilienhäuser",
@@ -4436,7 +4438,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-05-04T16:26:13.1313",
+		"aktualisierungsdatum": "2018-02-20T16:26:13.1313",
 		"schlagwort": [
 			"Gebäude"
 		],
@@ -4445,7 +4447,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Der Anteil Einfamilienhäuser ist in Bettingen am höchsten, im Wohnviertel Clara am niedrigsten.",
 		"erlaeuterungen": "Anteil der Einfamilienhäuser an allen bewohnbaren Gebäuden des Wohnviertels in Prozent.",
 		"template": "dotplot",
 		"visibleInPortal": true,
@@ -4467,7 +4469,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil Grünflächen",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "I.02.1.04832",
 		"kuerzelKunde": "RU-3.A",
 		"description": "Anteil Grünflächen",
@@ -4486,8 +4488,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Anteil der Grünflächen an der gesamten Fläche der Wohnviertel. Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m2 geführt werden. Diese werden in einem Turnus von 6–12 Jahren mit einer periodischen Nachführung aktualisiert. Ausnahme: Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst.",
+		"lesehilfe": "Der Anteil Grünflächen ist in den beiden Landgemeinden Bettingen und Riehen am höchsten. Auch in den Wohnvierteln Bruderholz und Hirzbrunnen liegt er noch über 50%. Am geringsten ist der Anteil Grünflächen in den innenstädtischen Wohnvierteln Altstadt Grossbasel und Altstadt Kleinbasel.",
+		"erlaeuterungen": "Anteil der Grünflächen an der gesamten Fläche des jeweiligen Wohnviertels. Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6–12 Jahren mit einer periodischen Nachführung aktualisiert.",
 		"template": "dotplot",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_005",
@@ -4508,7 +4510,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Fläche pro Wohnung",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "I.09.1.04833",
 		"kuerzelKunde": "RU-4.A",
 		"description": "Fläche pro Wohnung",
@@ -4518,7 +4520,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-05-04T17:29:58.5858",
+		"aktualisierungsdatum": "2018-02-20T17:29:58.5858",
 		"schlagwort": [
 			"Gebäude"
 		],
@@ -4527,7 +4529,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Im Wohnviertel Klybeck sind die Wohnungen im Durchschnitt am kleinsten, in der Gemeinde Bettingen am grössten.",
 		"erlaeuterungen": "Mittlere Fläche der Wohnungen im Wohnviertel (ungewichtetes arithmetisches Mittel über alle Wohnungen) in Quadratmeter.",
 		"template": "dotplot",
 		"visibleInPortal": true,
@@ -4549,7 +4551,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnfläche pro Kopf",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "I.09.1.04834",
 		"kuerzelKunde": "RU-5.A",
 		"description": "Wohnfläche pro Kopf",
@@ -4559,7 +4561,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-05-04T16:35:49.4949",
+		"aktualisierungsdatum": "2018-02-20T16:35:49.4949",
 		"schlagwort": [
 			"Gebäude"
 		],
@@ -4568,14 +4570,15 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Im Wohnviertel Klybeck verfügen die Bewohner mit 32m<sup>2</sup> durchschnittlich über die geringste Wohnfläche pro Kopf, in der Gemeinde Bettingen mit 53m<sup>2</sup> über die höchste.",
 		"erlaeuterungen": "Mittlere Wohnfläche pro Einwohner im Wohnviertel (gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen geteilt durch das Total der dort wohnenden Personen) in Quadratmeter.",
 		"template": "dotplot",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_009",
 		"parentId": null,
 		"children": [
-			"5121"
+			"5121",
+			"5903"
 		],
 		"renderLink": [
 			"5121"
@@ -4632,7 +4635,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Einkommenssteuer pro Veranlagung",
-		"subtitle": "Stand: Steuerjahr 2014",
+		"subtitle": "Stand: Steuerjahr 2015",
 		"kuerzel": "I.18.2.04836",
 		"kuerzelKunde": "WA-2.A",
 		"description": "Einkommenssteuer pro Veranlagung",
@@ -4642,7 +4645,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2016-06-30T00:00:00.000",
+		"aktualisierungsdatum": "2018-02-20T00:00:00.000",
 		"schlagwort": [
 			"Bevölkerung"
 		],
@@ -4651,7 +4654,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Das Wohnviertel Bruderholz verzeichnet im Durchschnitt die höchste Einkommenssteuer pro Veranlagung, die niedrigsten Werte weist das Wohnviertel Klybeck auf.",
 		"erlaeuterungen": "Mittlere Einkommenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Einkommenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
 		"template": "dotplot",
 		"visibleInPortal": true,
@@ -4673,7 +4676,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Erwerbstätigenquote",
-		"subtitle": "Stand: gepoolte Daten 2010 - 2014",
+		"subtitle": "Stand: gepoolte Daten 2011-2015",
 		"kuerzel": "I.03.1.04837",
 		"kuerzelKunde": "WA-3.A",
 		"description": "Erwerbstätigenquote",
@@ -4683,7 +4686,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-20T00:00:00.000",
 		"schlagwort": [
 			"Erwerb"
 		],
@@ -4692,7 +4695,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Im Mittel der Jahre 2011 bis 2015 ist die Erwerbstätigenquote im Wohnviertel Klybeck am tiefsten (60,9%) und im Wohnviertel Altstadt Grossbasel am grössten (83,3%)",
 		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet, was zum selben Wert für die beiden Gemeinden führt.",
 		"template": "dotplot",
 		"visibleInPortal": true,
@@ -4714,7 +4717,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Arbeitsplätze pro Kopf",
-		"subtitle": "Stand: 2014",
+		"subtitle": "Stand: 2015",
 		"kuerzel": "I.03.2.04838",
 		"kuerzelKunde": "WA-4.A",
 		"description": "Arbeitsplätze pro Kopf",
@@ -4724,7 +4727,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2016-06-30T00:00:00.000",
+		"aktualisierungsdatum": "2018-02-06T00:00:00.000",
 		"schlagwort": [
 			"Erwerb"
 		],
@@ -4733,7 +4736,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Im Wohnviertel Breite gibt es die wenigsten Arbeitsplätze pro Kopf, im Wohnviertel Vorstädte die meisten.",
 		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte, die in Basel-Stadt arbeiten, in Vollzeitäquivalenten) an der gesamten Wohnbevölkerung des Wohnviertels.<br> Im Wohnvietel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
 		"template": "dotplot",
 		"visibleInPortal": true,
@@ -5690,7 +5693,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-01-18T00:00:00.000",
 		"schlagwort": [
 			"Grosser Rat"
 		],
@@ -5700,12 +5703,14 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Bei nationalen Wahlen liegt die Wahlbeteiligung im Stadtkanton rund 10 Prozentpunkte höher als bei den Wahlen ins kantonale Parlament.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Parlamentswahlen auf kantonaler (Grossrat) und nationaler (Nationalrat) Ebene finden in Basel-Stadt alle 4 Jahre statt, die Nationalratswahlen jeweils ein Jahr vor den Grossratswahlen. Die Wahlbeteiligung zeigt den Prozentanteil der Wahlberechtigten, der tatsächlich wählen ging.",
 		"template": "template001",
 		"visibleInPortal": true,
 		"orderKey": "03_03_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6042"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -6160,87 +6165,6 @@ var indikatoren = [
 		"id": 4914
 	},
 	{
-		"title": "Logiernächte nach Herkunft",
-		"subtitle": "",
-		"kuerzel": "I.10.1.04915",
-		"kuerzelKunde": "",
-		"description": "Logiernächte nach Herkunft",
-		"thema": "10 Tourismus",
-		"unterthema": "Hotellerie",
-		"kennzahlenset": "",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"EuroAirport",
-			"Ausland",
-			"Gäste",
-			"Hotelbetten"
-		],
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Seit 2008 zählt Basel-Stadt jährlich über 1 Million Logiernächte. Ein Drittel geht auf das Konto von inländischen Gästen.",
-		"erlaeuterungen": "Logiernächte: Anzahl der durch die Gäste (Kinder eingeschlossen) in einem bestimmten Hotelbetrieb verbrachten Nächte.",
-		"template": "template001",
-		"visibleInPortal": true,
-		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 4915
-	},
-	{
-		"title": "Logiernächte und Bettenzahl",
-		"subtitle": "",
-		"kuerzel": "I.10.1.04916",
-		"kuerzelKunde": "",
-		"description": "Logiernächte und Bettenzahl",
-		"thema": "10 Tourismus",
-		"unterthema": "Hotellerie",
-		"kennzahlenset": "",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"EuroAirport",
-			"Ausland",
-			"Gäste",
-			"Hotelbetten"
-		],
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Seit 1990 haben sich sowohl die verfügbaren Betten als auch die Logiernächte verdoppelt.",
-		"erlaeuterungen": "Logiernächte: Anzahl der durch die Gäste (Kinder eingeschlossen) in einem bestimmten Hotelbetrieb verbrachten Nächte.<br/>Verfügbare Betten: Anzahl der Betten in den geöffneten Betrieben, im Durchschnitt der betreffenden Periode.",
-		"template": "line001",
-		"visibleInPortal": true,
-		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 4916
-	},
-	{
 		"title": "Privater Motorisierungsgrad",
 		"subtitle": "Private Personenwagen pro 1000 Einwohner 2015",
 		"kuerzel": "I.11.1.04917",
@@ -6370,11 +6294,11 @@ var indikatoren = [
 		"id": 4919
 	},
 	{
-		"title": "Entwicklung des Frauenanteils bei den Kandidaturen und Wahlen zum Grossen Rat seit 1968",
+		"title": "Entwicklung des Frauenanteils im grossen Rat",
 		"subtitle": "",
 		"kuerzel": "I.17.3.04922",
 		"kuerzelKunde": "",
-		"description": "Entwicklung des Frauenanteils bei den Kandidaturen und Wahlen zum Grossen Rat seit 1968",
+		"description": "Entwicklung des Frauenanteils im grossen Rat",
 		"thema": "17 Politik",
 		"unterthema": "Wahlen",
 		"kennzahlenset": "",
@@ -6393,13 +6317,15 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit Einführung des Frauenstimmrechts 1966 hat sich der Frauenanteil unter den Grossratskandidierenden von anfangs einem Fünftel bis im Jahr 1996 verdoppelt und ging bis 2012 kontinuierlich zurück. Die Entwicklung der Frauenvertretung im basel-städtischen Kantonsparlament war 2012 nach einer längeren Wachstumsphase erstmals wieder rückläufig.",
-		"erlaeuterungen": "Der Grosse Rat umfasst seit den Gesamterneuerungswahlen 2008 gemäss der neuen, 2005 vom Basler Stimmvolk verabschiedeten Kantonsverfassung nur noch 100 Grossratssitze.",
+		"lesehilfe": "Seit Einführung des Frauenstimmrechts 1966 hat sich der Frauenanteil unter den Grossratskandidierenden von anfangs einem Fünftel bis im Jahr 1996 verdoppelt und ging bis 2012 kontinuierlich zurück. Die Entwicklung der Frauenvertretung im basel-städtischen Kantonsparlament war 2012 nach einer längeren Wachstumsphase erstmals wieder rückläufig und verharrt auch 2016 bei 31%.",
+		"erlaeuterungen": "Der Grosse Rat umfasst seit den Gesamterneuerungswahlen 2008 gemäss der neuen, 2005 vom Basler Stimmvolk verabschiedeten Kantonsverfassung nur noch 100 Grossratssitze. Die in der Grafik dargestellten Anteile beziehen sich auf das am Wahlsonntag erzielte Ergebnis. Der tatsächliche Frauenanteil kann infolge personeller Wechsel während einer Legislaturperiode mehrmals ändern.",
 		"template": "template001",
 		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6044"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatskanzlei Basel-Stadt"
@@ -6806,7 +6732,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil Ausländer",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "I.01.1.05110",
 		"kuerzelKunde": "GS-2.B",
 		"description": "Anteil Ausländer",
@@ -6825,7 +6751,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Der Ausländeranteil ist im Wohnviertel Bachletten mit 22% am geringsten, im Wohnviertel Rosental mit 56% am höchsten.",
 		"erlaeuterungen": "Anteil der ausländischen Wohnbevölkerung an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"template": "map001",
 		"visibleInPortal": true,
@@ -6923,7 +6849,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Gymnasialquote",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "I.15.6.05113",
 		"kuerzelKunde": "GS-5.B",
 		"description": "Gymnasialquote",
@@ -6943,8 +6869,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Anteil der Gymnasiasten sowie seit 2016/2017 der Sek P Schüler an allen Schülern der 10. und 11. Schulstufe des Wohnviertels an öffentlichen Schulen und mit Elternwohnort Basel-Stadt (Schulstufen einschliesslich zweier obligatorischer Kindergartenstufen gezählt).",
+		"lesehilfe": "Die Gymnasialquote ist im Wohnviertel Bachletten am höchsten, im Wohnviertel Klybeck am niedrigsten.",
+		"erlaeuterungen": "Seit 2016/2017 Anteil der Sek P Schüler (Jahre davor: Anteil der Gymnasiasten) an allen Schülern der 10. und 11. Schulstufe des Wohnviertels an öffentlichen Schulen und mit Elternwohnort Basel-Stadt (Schulstufen einschliesslich zweier obligatorischer Kindergartenstufen gezählt).",
 		"template": "map001",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_010",
@@ -6963,7 +6889,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Altersquotient",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "I.01.1.05114",
 		"kuerzelKunde": "GS-6.B",
 		"description": "Altersquotient",
@@ -6983,7 +6909,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Der Altersquotient ist im Wohnviertel Rosental am geringsten, im Wohnviertel Riehen am höchsten.",
 		"erlaeuterungen": "Anteil der über 64-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent.",
 		"template": "map001",
 		"visibleInPortal": true,
@@ -7042,7 +6968,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Jugendquotient",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "I.01.1.05116",
 		"kuerzelKunde": "GS-8.B",
 		"description": "Jugendquotient",
@@ -7062,8 +6988,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Anteil der unter 20-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent:",
+		"lesehilfe": "Den höchsten Jugendquotient weist das Wohnviertel Bruderholz auf, den niederigsten das Wohnviertel Altstadt Grossbasel.",
+		"erlaeuterungen": "Anteil der unter 20-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent.",
 		"template": "map001",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_016",
@@ -7082,7 +7008,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Baujahr Wohngebäude",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "I.09.1.05117",
 		"kuerzelKunde": "RU-1.B",
 		"description": "Baujahr Wohngebäude",
@@ -7102,7 +7028,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Das Wohnviertel Altstadt Grossbasel verfügt über die älteste Bausubstanz, die Gemeinde Bettingen über die modernste.",
 		"erlaeuterungen": "Mittleres Baujahr der Wohngebäude des Wohnviertels (ungewichtetes arithmetisches Mittel des Baujahres über alle Wohngebäude).",
 		"template": "map001",
 		"visibleInPortal": true,
@@ -7122,7 +7048,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil Einfamilienhäuser",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "I.09.1.05118",
 		"kuerzelKunde": "RU-2.B",
 		"description": "Anteil Einfamilienhäuser",
@@ -7141,7 +7067,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Der Anteil Einfamilienhäuser ist in Bettingen am höchsten, im Wohnviertel Clara am niedrigsten.",
 		"erlaeuterungen": "Anteil der Einfamilienhäuser an allen bewohnbaren Gebäuden des Wohnviertels in Prozent.",
 		"template": "map001",
 		"visibleInPortal": true,
@@ -7161,7 +7087,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil Grünflächen",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "I.02.1.05119",
 		"kuerzelKunde": "RU-3.B",
 		"description": "Anteil Grünflächen",
@@ -7180,8 +7106,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Anteil der Grünflächen an der gesamten Fläche der Wohnviertel. Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m2 geführt werden. Diese werden in einem Turnus von 6–12 Jahren mit einer periodischen Nachführung aktualisiert. Ausnahme: Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst.",
+		"lesehilfe": "Der Anteil Grünflächen ist in den beiden Landgemeinden Bettingen und Riehen am höchsten. Auch in den Wohnvierteln Bruderholz und Hirzbrunnen liegt er noch über 50%. Am geringsten ist der Anteil Grünflächen in den innenstädtischen Wohnvierteln Altstadt Grossbasel und Altstadt Kleinbasel.",
+		"erlaeuterungen": "Anteil der Grünflächen an der gesamten Fläche des jeweiligen Wohnviertels. Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6–12 Jahren mit einer periodischen Nachführung aktualisiert.",
 		"template": "map001",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_006",
@@ -7239,7 +7165,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnfläche pro Kopf",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "I.09.1.05121",
 		"kuerzelKunde": "RU-5.B",
 		"description": "Wohnfläche pro Kopf",
@@ -7258,13 +7184,15 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Im Wohnviertel Klybeck verfügen die Bewohner mit 32m<sup>2</sup> durchschnittlich über die geringste Wohnfläche pro Kopf, in der Gemeinde Bettingen mit 53m<sup>2</sup> über die höchste.",
 		"erlaeuterungen": "Mittlere Wohnfläche pro Einwohner im Wohnviertel (gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen geteilt durch das Total der dort wohnenden Personen) in Quadratmeter.",
 		"template": "map001",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_010",
 		"parentId": 4834,
-		"children": [],
+		"children": [
+			"6367"
+		],
 		"renderLink": [
 			"4834"
 		],
@@ -7279,7 +7207,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Vermögenssteuer pro Veranlagung",
-		"subtitle": "Stand: Steuerjahr 2014",
+		"subtitle": "Stand: Steuerjahr 2015",
 		"kuerzel": "I.18.2.05122",
 		"kuerzelKunde": "WA-1.B",
 		"description": "Vermögenssteuer pro Veranlagung",
@@ -7298,7 +7226,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Im Wohnviertel Bruderholz wird der höchste Wert pro Veranlagung verzeichnet, im Wohnviertel Klybeck der niedrigste.",
 		"erlaeuterungen": "Mittlere Vermögenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Vermögenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
 		"template": "map001",
 		"visibleInPortal": true,
@@ -7318,7 +7246,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Einkommenssteuer pro Veranlagung",
-		"subtitle": "Stand: Steuerjahr 2014",
+		"subtitle": "Stand: Steuerjahr 2015",
 		"kuerzel": "I.18.2.05123",
 		"kuerzelKunde": "WA-2.B",
 		"description": "Einkommenssteuer pro Veranlagung",
@@ -7337,7 +7265,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Das Wohnviertel Bruderholz verzeichnet im Durchschnitt die höchste Einkommenssteuer pro Veranlagung, die niedrigsten Werte weist das Wohnviertel Klybeck auf.",
 		"erlaeuterungen": "Mittlere Einkommenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Einkommenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
 		"template": "map001",
 		"visibleInPortal": true,
@@ -7357,7 +7285,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Erwerbstätigenquote",
-		"subtitle": "Stand: gepoolte Daten 2010 - 2014",
+		"subtitle": "Stand: gepoolte Daten 2011-2015",
 		"kuerzel": "I.03.1.05124",
 		"kuerzelKunde": "WA-3.B",
 		"description": "Erwerbstätigenquote",
@@ -7367,7 +7295,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-05-12T14:43:49.4949",
+		"aktualisierungsdatum": "2018-02-20T14:43:49.4949",
 		"schlagwort": [
 			"Erwerb"
 		],
@@ -7376,7 +7304,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Im Mittel der Jahre 2011 bis 2015 ist die Erwerbstätigenquote im Wohnviertel Klybeck am tiefsten (60,9%) und im Wohnviertel Altstadt Grossbasel am grössten (83,3%)",
 		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet, was zum selben Wert für die beiden Gemeinden führt.",
 		"template": "map001",
 		"visibleInPortal": true,
@@ -7396,7 +7324,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Arbeitsplätze pro Kopf",
-		"subtitle": "Stand: 2014",
+		"subtitle": "Stand: 2015",
 		"kuerzel": "I.03.2.05125",
 		"kuerzelKunde": "WA-4.B",
 		"description": "Arbeitsplätze pro Kopf",
@@ -7406,7 +7334,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-05-12T15:25:19.1919",
+		"aktualisierungsdatum": "2018-02-20T15:25:19.1919",
 		"schlagwort": [
 			"Erwerb"
 		],
@@ -7415,7 +7343,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Im Wohnviertel Breite gibt es die wenigsten Arbeitsplätze pro Kopf, im Wohnviertel Vorstädte die meisten.",
 		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte, die in Basel-Stadt arbeiten, in Vollzeitäquivalenten) an der gesamten Wohnbevölkerung des Wohnviertels.<br> Im Wohnvietel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
 		"template": "map001",
 		"visibleInPortal": true,
@@ -7621,7 +7549,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit 267,5 Einwohner pro ha wies das Matthäusviertel am Jahresende 2016 die höchste Bevölkerungsdichte auf. Ebenfalls hohe Bevölkerungsdichten wiesen die Wohnviertel Gundeldingen, Iselin und Clara auf. Die Bevölkerungsdichte nimmt in den Wohnvierteln des Zentrums am stärksten zu. Im Vergleich zu 1997 am stärksten zugenommen hat die Bevölkerungsdichte im Rosentalviertel, hier ist das neue Quartier Erlenmatt entstanden.",
+		"lesehilfe": "Mit 266,5 Einwohner pro Hektar wies das Matthäusviertel am Jahresende 2017 die höchste Bevölkerungsdichte auf. Ebenfalls hohe Bevölkerungsdichten wiesen die Wohnviertel Gundeldingen, Iselin und Clara auf. Im Vergleich zu 1998 am stärksten zugenommen hat die Bevölkerungsdichte im Rosentalviertel aufgrund der Bebauung des Erlenmattareals. Ebenfalls deutlich höher als noch 1998 sind die Bevölkerungsdichten in den Wohnvierteln Clara, Altstadt Grossbasel und Iselin.",
 		"erlaeuterungen": "",
 		"template": "mappie001",
 		"visibleInPortal": true,
@@ -7757,7 +7685,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Nettowohnungsproduktion",
-		"subtitle": "nach Wohnviertel von 2007 bis 2016",
+		"subtitle": "nach Wohnviertel von 2008 bis 2017",
 		"kuerzel": "I.09.1.05817",
 		"kuerzelKunde": "ST 4-9",
 		"description": "Nettowohnungsproduktion",
@@ -7843,7 +7771,6 @@ var indikatoren = [
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
-			"Wohnviertel",
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
@@ -7876,7 +7803,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil Einwohner pro ÖV-Güteklasse",
-		"subtitle": "",
+		"subtitle": "Stand 2016",
 		"kuerzel": "I.11.2.05822",
 		"kuerzelKunde": "ST 6-1",
 		"description": "Anteil Einwohner pro ÖV-Güteklasse",
@@ -7935,8 +7862,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Kanton Basel-Stadt arbeiteten 2014 rund 151 800 Beschäftigte. Daraus resultiert eine Beschäftigtendichte von etwa 41 Beschäftigten pro Hektar. Dieser Wert lag 2011 noch bei 40 Beschäftigten.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Im Kanton Basel-Stadt arbeiteten 2015 in Vollzeitäquivalente (VZÄ) umgerechnet rund 151 600 Beschäftigte. Daraus resultiert eine Beschäftigtendichte von etwa 41 Beschäftigten (VZÄ) pro Hektar. Dieser Wert hat sich in den letzten Jahren kaum verändert.",
+		"erlaeuterungen": "Die Unternehmensstatistik (STATENT) basiert auf den AHV-Registerdaten. Als beschäftigt gilt jede Person mit AHV-pflichtigem Einkommen. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus einer Schätzung basierend auf den Beschäftigtenzahlen.",
 		"template": "line001",
 		"visibleInPortal": true,
 		"orderKey": "02_04_00_00_00_002",
@@ -8056,8 +7983,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Wohnbevölkerung ist im Kanton Basel-Stadt zwischen 2005 und 2014 von 187 463 auf 196 471 gestiegen, was einem Anstieg um etwa 4,8% entspricht. Demgegenüber stieg die Zahl der Beschäftigten um 11,5% von 171 743 auf 191 441.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Die Wohnbevölkerung ist im Kanton Basel-Stadt zwischen 2005 und 2015 von 187&nbsp;920 auf 197&nbsp;204 gestiegen, was einem Anstieg um etwa 4,9% entspricht. Demgegenüber stieg die Zahl der Beschäftigten um 11,1% von 171&nbsp;743 auf 190&nbsp;753.",
+		"erlaeuterungen": "Es ist jeweils der Bevölkerungsbestand Ende Jahr abgebildet. Referenzperiode für die Beschäftigten ist jeweils der Dezember. Beschäftigte werden berücksichtigt, sofern sie aufgrund eines Mindesteinkommens von 2 300 Franken im Jahr AHV-Beiträge zahlen müssen.",
 		"template": "line001",
 		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_011",
@@ -8486,11 +8413,11 @@ var indikatoren = [
 		"id": 6022
 	},
 	{
-		"title": "Zugezogene, Weggezogene und Wanderungssaldo nach Zuzugs- und Wegzugsland 2016",
-		"subtitle": "Stand: 2016",
+		"title": "Zugezogene, Weggezogene und Wanderungssaldo",
+		"subtitle": "nach Zuzugs- und Wegzugsland; Stand: 2016",
 		"kuerzel": "I.01.5.06023",
 		"kuerzelKunde": "1-4",
-		"description": "Zugezogene, Weggezogene und Wanderungssaldo nach Zuzugs- und Wegzugsland 2016",
+		"description": "Zugezogene, Weggezogene und Wanderungssaldo",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Wanderungen",
@@ -8527,11 +8454,11 @@ var indikatoren = [
 		"id": 6023
 	},
 	{
-		"title": "Entwicklung der aus dem Ausland Zugezogenen nach Zuzugsland",
-		"subtitle": "Indexiert (Wert 2007 = 100)",
+		"title": "Entwicklung der aus dem Ausland Zugezogenen",
+		"subtitle": "nach Zuzugsland, indexiert (Wert 2007 = 100)",
 		"kuerzel": "I.01.5.06024",
 		"kuerzelKunde": "1-5",
-		"description": "Entwicklung der aus dem Ausland Zugezogenen nach Zuzugsland",
+		"description": "Entwicklung der aus dem Ausland Zugezogenen",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Wanderungen",
@@ -10560,7 +10487,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Jugendlichen der Abschlussklassen der Sekundarstufe I werden jeweils Ende Schuljahr schriftlich über ihren nächsten Ausbildungsschritt befragt. Die Werte 2016 und 2017 deuten darauf hin, dass die Jugendlichen wieder mehr Mühe haben, eine für sie passende Anschlusslösung zu finden. Unruhiger Kurvenverlauf aufgrund der vergleichsweise geringen Zahl an Beobachtungen.",
-		"erlaeuterungen": "Datengrundlage bildet die jährliche Befragung der Schulabgängerinnen und Schulabgänger durch die Bildungsstatistikstelle des Bereichs Mittelschulen und Berufsbildung im Basler Erziehungsdepartement. Die Weiterbildungsschule wurde per Ende Schuljahr 2016/17 aufgelöst.",
+		"erlaeuterungen": "Datengrundlage bildet die jährliche Befragung der Schulabgängerinnen und Schulabgänger durch die Bildungsstatistikstelle des Bereichs Mittelschulen und Berufsbildung im Basler Erziehungsdepartement. Allg. Gewerbeschule: nur Link zum Beruf und Vorkurse; Berufsfachschule: nur Vorkurse und Vorlehren. Die Weiterbildungsschule wurde per Ende Schuljahr 2016/17 aufgelöst.",
 		"template": "line001",
 		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_001",
@@ -10681,7 +10608,7 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "line001",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_000",
+		"orderKey": "02_00_00_00_00_007",
 		"parentId": null,
 		"children": [
 			"5160",
@@ -10756,7 +10683,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Wohnbevölkerung in Basel-Stadt liegt 2016 mit rund 198 000 Personen tiefer als noch 1960 (228 000 Personen). Demgegenüber steht ein Ansteig der Anzahl Wohnungen auf gut 108 000 Wohnungen (+30 000) über denselben Zeitraum. Der Höchststand der Bevölkerungszahl innerhalb des Beobachtungszeitraums lag 1969 bei über 238 000 Personen – seit dem Teifstwert 2006 (187 190) kann eine kontinuierliche Zunahme registriert werden.",
+		"lesehilfe": "Die Wohnbevölkerung in Basel-Stadt liegt 2017 mit rund 199 000 Personen tiefer als noch 1960 (228 000 Personen). Demgegenüber steht ein Anstieg der Anzahl Wohnungen auf gut 109 000 Wohnungen (+30 000) über denselben Zeitraum. Der Höchststand der Bevölkerungszahl innerhalb des Beobachtungszeitraums lag 1970 bei knapp 235 000 Personen. Seit 2006 kann eine kontinuierliche Zunahme registriert werden.",
 		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister.",
 		"template": "template001",
 		"visibleInPortal": true,
@@ -11401,5 +11328,600 @@ var indikatoren = [
 			""
 		],
 		"id": 6366
+	},
+	{
+		"title": "Bevölkerungsbestand am Jahresende",
+		"subtitle": "nach Altersklasse und Wohnviertel; Stand: 2017",
+		"kuerzel": "I.01.1.06502",
+		"kuerzelKunde": "",
+		"description": "Bevölkerungsbestand am Jahresende",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur ",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Wohnviertel",
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2018-02-01T00:00:00.000",
+		"schlagwort": [
+			"Bevölkerung"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Am Jahresende 2017 wiesen das Wohnviertel Bruderholz und die Gemeinde Riehen die höchsten Anteile an Kinder und Jugendlichen uner 20 Jahren auf. Besonders viele junge Erwachsene zwischen 20 und 39 Jahren leben in den Wohnvierteln Gundeldingen, Altstadt Kleinbasel, Rosental und Matthäus. Die Anteile der Senioren ab 80 Jahren hingegen sind im St. Albanviertel und in der Gemeinde Riehen am höchsten.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6502
+	},
+	{
+		"title": "Geöffnete Betriebe nach Hotelkategorie",
+		"subtitle": "",
+		"kuerzel": "I.10.1.06537",
+		"kuerzelKunde": "2-1",
+		"description": "Geöffnete Betriebe nach Hotelkategorie",
+		"thema": "10 Tourismus",
+		"unterthema": "Hotellerie",
+		"kennzahlenset": "Tourismus",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Übernachtung",
+			"Gäste",
+			"Hotelbetten"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Jahr 2017 gehören von den total 65 geöffneten Betrieben 17 Betriebe zur Kategorie der 4- oder 5-Sterne-Hotels, 26 Betriebe zur Kategorie der 3-Sterne-Hotels, 10 Betriebe zu den 1- und 2-Sterne-Hotels sowie 12 Betriebe zur nicht klassierten Kategorie. Im Vergleich zu 2008 hat die durchschnittliche Zahl geöffneter Betriebe im Jahr 2017 um 2 Betriebe zugenommen.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"visibleInPortal": true,
+		"orderKey": "_001",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6537
+	},
+	{
+		"title": "Durchschnittliche Betriebsgrösse",
+		"subtitle": "Zimmer pro Betrieb",
+		"kuerzel": "I.10.1.06538",
+		"kuerzelKunde": "2-2",
+		"description": "Durchschnittliche Betriebsgrösse",
+		"thema": "10 Tourismus",
+		"unterthema": "Hotellerie",
+		"kennzahlenset": "Tourismus",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Übernachtung",
+			"Gäste",
+			"Hotelbetten"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Nach Hotelkategorie betrachtet fallen im Jahr 2017 durchschnittlich 97 Zimmer auf die Betriebe mit 4- oder 5-Sternen, 62 auf die 3-Sterne-Hotels, 74 Zimmer auf 1- und 2-Sterne-Hotels sowie 29 Zimmer auf die nicht klassierten Kategorien. Im selben Zeitraum gibt es im Total 67 Zimmer pro Betrieb.",
+		"erlaeuterungen": "Als durchschnittliche Betriebsgrösse wird die Anzahl Zimmer je Betrieb bezeichnet.",
+		"template": "template001",
+		"visibleInPortal": true,
+		"orderKey": "_002",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6538
+	},
+	{
+		"title": "Zimmerangebot und Auslastung nach Hotelkategorie",
+		"subtitle": "",
+		"kuerzel": "I.10.1.06539",
+		"kuerzelKunde": "2-3",
+		"description": "Zimmerangebot und Auslastung nach Hotelkategorie",
+		"thema": "10 Tourismus",
+		"unterthema": "Hotellerie",
+		"kennzahlenset": "Tourismus",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Übernachtung",
+			"Gäste",
+			"Hotelbetten"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Von den total 4 357 Zimmern fallen 1 652 Zimmer auf die Betriebe mit 4- oder 5-Sternen, 1 623 Zimmer auf die 3-Sterne-Hotels, 736 Zimmer auf 1- und 2-Sterne-Hotels sowie 346 Zimmer auf die nicht klassierte Kategorie. Bei den nicht klassierten Betrieben hat die durchschnittliche Nettozimmerauslastung im Vergleich zu 2008 um 20 Prozentpunkte auf 60,1% zugenommen, bei den 1- bis 5-Sterne-Hotels hat die Nettozimmerauslastung abgenommen.",
+		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
+		"template": "template001",
+		"visibleInPortal": true,
+		"orderKey": "_003",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6539
+	},
+	{
+		"title": "Nettozimmerauslastung nach Wochentag",
+		"subtitle": "Effektiv und auf Basis der Zimmerzahl von 2008",
+		"kuerzel": "I.10.1.06540",
+		"kuerzelKunde": "2-4",
+		"description": "Nettozimmerauslastung nach Wochentag",
+		"thema": "10 Tourismus",
+		"unterthema": "Hotellerie",
+		"kennzahlenset": "Tourismus",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Übernachtung",
+			"Gäste",
+			"Hotelbetten"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2017 lag die durchschnittliche Nettozimmerauslastung von Montag bis Sonntag bei 61,2%. 2017 waren die Zimmer von Montag bis Donnerstag zu 68,7% ausgelastet, von Freitag bis Sonntag zu 51,2%. Auf Basis der Anzahl verfügbare Zimmer 2008 hat die Nettozimmerauslastung 2017 jedoch sowohl an Werktagen als auch am Wochenende um 15,0 bzw. 13,5 Prozentpunkte zugenommen.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"visibleInPortal": true,
+		"orderKey": "_004",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6540
+	},
+	{
+		"title": "Entwicklung der Betriebsstruktur",
+		"subtitle": "",
+		"kuerzel": "I.10.1.06541",
+		"kuerzelKunde": "2-5",
+		"description": "Entwicklung der Betriebsstruktur",
+		"thema": "10 Tourismus",
+		"unterthema": "Hotellerie",
+		"kennzahlenset": "Tourismus",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Übernachtung",
+			"Gäste",
+			"Hotelbetten"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2017 standen den Gästen in den 65 Hotelbetrieben 8 692 Betten zur Verfügung. Im Vergleich zum Vorjahr entspricht dies einer Zunahme um 1,6% bzw. 1 Betrieb und um 15,2% bzw. 1 150 Betten.",
+		"erlaeuterungen": "Seit 2016 werden bei allen Hotels die Doppelbetten, welche eine Schlafgelegenheit für zwei Personen anbieten, als zwei Betten in der Statistik aufgeführt. Deshalb ist die Bettenzahl ab 2016 mit den früher publizierten Daten der vergangenen Jahre nicht vergleichbar.",
+		"template": "line001",
+		"visibleInPortal": true,
+		"orderKey": "_005",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6541
+	},
+	{
+		"title": "Angebotene Betten nach Hotelkategorie",
+		"subtitle": "",
+		"kuerzel": "I.10.1.06542",
+		"kuerzelKunde": "2-6",
+		"description": "Angebotene Betten nach Hotelkategorie",
+		"thema": "10 Tourismus",
+		"unterthema": "Hotellerie",
+		"kennzahlenset": "Tourismus",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Übernachtung",
+			"Gäste",
+			"Hotelbetten"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2017 standen den Gästen im Kanton Basel-Stadt 8 692 Betten zur Verfügung, dies entspricht im Vergleich zu 2016 einer Zunahme um 15,2% bzw. 1 150 Betten. Von den total 8 692 Betten fallen 3 028 Betten auf die Betriebe mit 4- oder 5-Sternen, 3 124 auf die 3-Sterne-Hotels, 1 747 Betten auf 1- und 2-Sterne-Hotels sowie 794 Betten auf die nicht klassierten Betriebe.",
+		"erlaeuterungen": "Seit 2016 werden bei allen Hotels die Doppelbetten, welche eine Schlafgelegenheit für zwei Personen anbieten, als zwei Betten in der Statistik aufgeführt. Deshalb ist die Bettenzahl ab 2016 mit den früher publizierten Daten der vergangenen Jahre nicht vergleichbar.",
+		"template": "template001",
+		"visibleInPortal": true,
+		"orderKey": "_006",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6542
+	},
+	{
+		"title": "Entwicklung der mittleren Aufenthaltsdauer",
+		"subtitle": "in Tagen",
+		"kuerzel": "I.10.1.06543",
+		"kuerzelKunde": "2-7",
+		"description": "Entwicklung der mittleren Aufenthaltsdauer",
+		"thema": "10 Tourismus",
+		"unterthema": "Hotellerie",
+		"kennzahlenset": "Tourismus",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Ausländer",
+			"Übernachtung",
+			"Gäste",
+			"Hotelbetten"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Aufenthaltsdauer der Übernachtungsgäste lag 2017 durchschnittlich bei 1,84 Tagen. Die Verweildauer nimmt jedoch bei den Schweizer Gästen seit den 1980er-Jahren kontinuierlich ab. 2017 betrug die durchschnittliche Aufenthaltsdauer bei den inländischen Gästen 1,62 Tage. Bei den ausländischen Gästen ist seit 2007 – nachdem die Verweildauer bis zum Jahr 2006 stetig zugenommen hat – eine Stabilisierung erfolgt. 2017 buchten die ausländischen Besucher im Schnitt 1,97 Übernachtungen in den Basler Hotels.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"visibleInPortal": true,
+		"orderKey": "_007",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6543
+	},
+	{
+		"title": "Aufenthaltsdauer im Monatsmittel",
+		"subtitle": "in Tagen, Stand: 2017",
+		"kuerzel": "I.10.1.06544",
+		"kuerzelKunde": "2-8",
+		"description": "Aufenthaltsdauer im Monatsmittel",
+		"thema": "10 Tourismus",
+		"unterthema": "Hotellerie",
+		"kennzahlenset": "Tourismus",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Ausländer",
+			"Übernachtung",
+			"Gäste",
+			"Hotelbetten"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Bei den ausländischen Gästen wurde im August mit 1,81 Tagen die kürzeste Aufenthaltsdauer verzeichnet, bei den Schweizer Gästen im Dezember mit einer durchschnittlichen Aufenthaltsdauer von 1,47 Tagen.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"visibleInPortal": true,
+		"orderKey": "_008",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6544
+	},
+	{
+		"title": "Logiernächte nach Monat und Herkunft",
+		"subtitle": "Werte 2017 im Vergleich mit dem Mittelwert 2008 bis 2017",
+		"kuerzel": "I.10.1.06545",
+		"kuerzelKunde": "2-10",
+		"description": "Logiernächte nach Monat und Herkunft",
+		"thema": "10 Tourismus",
+		"unterthema": "Hotellerie",
+		"kennzahlenset": "Tourismus",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Ausländer",
+			"Ausland",
+			"Übernachtung",
+			"Gäste",
+			"Hotelbetten"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Auswertung der Übernachtungen nach Monat zeigt, dass die Nachfragespitze im Juni mit 126 741 Übernachtungen erreicht worden ist. Im Vergleich zum Mittelwert der letzten zehn Jahre entspricht dies einer Zunahme um 16,9% bzw. 18 334 Übernachtungen.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"visibleInPortal": true,
+		"orderKey": "_010",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6545
+	},
+	{
+		"title": "Entwicklung der Logiernächte nach Herkunft der Gäste",
+		"subtitle": "",
+		"kuerzel": "I.10.1.06546",
+		"kuerzelKunde": "2-11",
+		"description": "Entwicklung der Logiernächte nach Herkunft der Gäste",
+		"thema": "10 Tourismus",
+		"unterthema": "Hotellerie",
+		"kennzahlenset": "Tourismus",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Ausländer",
+			"Ausland",
+			"Übernachtung",
+			"Gäste",
+			"Hotelbetten"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Mit 1 328 047 Logiernächten konnte die Basler Hotellerie gegenüber dem Vorjahr eine Zunahme um 110 370 (+9,1%) verzeichnen. 2017 lag die Inlandnachfrage bei 424 254 Logiernächten (+18 058 Übernachtungen bzw. +4,4% gegenüber dem Vorjahr), die ausländischen Gäste generierten 902 793 Logiernächte und damit eine Zunahme um 92 312 (+11,4%).",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"visibleInPortal": true,
+		"orderKey": "_011",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6546
+	},
+	{
+		"title": "Logiernächte nach Herkunft der Gäste",
+		"subtitle": "indexiert (2008 = 100)",
+		"kuerzel": "I.10.1.06547",
+		"kuerzelKunde": "2-12",
+		"description": "Logiernächte nach Herkunft der Gäste",
+		"thema": "10 Tourismus",
+		"unterthema": "Hotellerie",
+		"kennzahlenset": "Tourismus",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Ausländer",
+			"Übernachtung",
+			"Gäste",
+			"Hotelbetten"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Seit dem Jahr 2008 ist Anzahl Logiernächte der inländischen Gäste um 41,9% gewachsen. Die ausländischen Besucher verzeichnen seit 2008 einen Zuwachs der Übernachtungen um 27,3%.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"visibleInPortal": true,
+		"orderKey": "_012",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6547
+	},
+	{
+		"title": "Entwicklung der Logiernächte der Top-Märkte",
+		"subtitle": "",
+		"kuerzel": "I.10.1.06548",
+		"kuerzelKunde": "2-13",
+		"description": "Entwicklung der Logiernächte der Top-Märkte",
+		"thema": "10 Tourismus",
+		"unterthema": "Hotellerie",
+		"kennzahlenset": "Tourismus",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Ausländer",
+			"Ausland",
+			"Übernachtung",
+			"Gäste",
+			"Hotelbetten"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der wichtigste Markt der Basler Hotellerie ist die Schweiz. Seit 2008 hat die Anzahl der Übernachtungen der Schweizer Gäste um 41,9% bzw. 125 368 auf 424 254 zugenommen. Der wichtigste ausländische Markt ist weiterhin Deutschland mit 192 042 Übernachtungen.",
+		"erlaeuterungen": "",
+		"template": "area001",
+		"visibleInPortal": true,
+		"orderKey": "_013",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6548
+	},
+	{
+		"title": "Wachstumsbeiträge der Top-Märkte",
+		"subtitle": "",
+		"kuerzel": "I.10.1.06549",
+		"kuerzelKunde": "3-1",
+		"description": "Wachstumsbeiträge der Top-Märkte",
+		"thema": "10 Tourismus",
+		"unterthema": "Hotellerie",
+		"kennzahlenset": "Tourismus",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Ausländer",
+			"Ausland",
+			"Übernachtung",
+			"Gäste",
+			"Hotelbetten"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2017 erhöht sich die Zahl der Logiernächte in Basel um 9,1% auf 1 328 047. Bei Inländern beträgt der Zuwachs 4,4% und bei den ausländischen Gästen 11,4%. Der Auslandanteil an allen Übernachtungen beläuft sich auf 68,1%.",
+		"erlaeuterungen": "Die Kreisgrösse symbolisiert den Marktanteil. Kreise mit einer doppelt so grossen Fläche haben einen doppelt so hohen Marktanteil. Die Kreisfarbe symbolisiert die verschiedenen Nationalitäten.",
+		"template": "bubble001",
+		"visibleInPortal": true,
+		"orderKey": "_014",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6549
+	},
+	{
+		"title": "Ankünfte nach Monat und Herkunft",
+		"subtitle": "",
+		"kuerzel": "I.10.1.06576",
+		"kuerzelKunde": "2-9",
+		"description": "Ankünfte nach Monat und Herkunft",
+		"thema": "10 Tourismus",
+		"unterthema": "Hotellerie",
+		"kennzahlenset": "Tourismus",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Übernachtung",
+			"Gäste",
+			"Hotelbetten"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Insgesamt 719 857 Gäste haben 2017 in den baselstädtischen Hotelbetrieben übernachtet.  Die Zahl der Ankünfte hat sich im Vergleich zu 2016 um 10,9% bzw. 70 755 erhöht.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"visibleInPortal": true,
+		"orderKey": "_009",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6576
 	}
 ];
