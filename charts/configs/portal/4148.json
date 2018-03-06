@@ -31,6 +31,10 @@
         [
           2015,
           165796
+        ],
+        [
+          2016,
+          166234
         ]
       ],
       "name": "Einwohner mit Hauptwohnsitz ab 18 Jahren"
@@ -156,6 +160,6 @@
     }
   },
   "exporting": {
-    "filename": "I.01.1.04148"
+    "filename": 4148
   }
 }
