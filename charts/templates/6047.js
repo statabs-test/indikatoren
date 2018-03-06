@@ -43,8 +43,8 @@
       //{"color": "#45381d", "visible": false},
       //{"color": "#ffda80", "visible": false},
       //{"color": "#923f8d", "visible": false},
-      {"color": "#689199", "visible": true}, //2015
-      {"color": "#ff8028", "visible": true}, //2016
+      {"color": "#ff8028", "visible": true}, //2015
+      {"color": "#689199", "visible": true}, //2016
       //{"color": "#7f5f1a", "visible": true} //2017
     ],
     "legend": {

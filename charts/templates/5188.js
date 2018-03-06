@@ -7,7 +7,7 @@
     //"tickInterval": 50,
     "min": 0,
     "labels": {
-      "format": "{value:,.0f}",
+      "format": "{value:,.0f}"
     },
   },
   "xAxis": {
@@ -24,6 +24,9 @@
       "color": "#B375AB"
     }
   ],
+  "tooltip": {
+	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>'
+  },
   "plotOptions": {
     "series": {
       "dataLabels": {

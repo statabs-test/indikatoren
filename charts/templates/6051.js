@@ -30,7 +30,7 @@
       }
     ],
     "xAxis": {
-  	  "tickInterval": 5,
+  	  "tickInterval": 2
     },
     "series": [
       {
