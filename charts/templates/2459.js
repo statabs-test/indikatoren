@@ -27,10 +27,10 @@
  	 "marker": {
         "enabled": false
     }}, /*BS*/
- 	{"color": "#FF8028","index": 2}, /*BL*/
-	{"color": "#A8C3CA", "index": 3}, /*AG*/	  
-	{"color": "#008AC3", "index": 0}, /*ZH*/
-	{"color": "#990300", "index": 4}, /*CH*/
+ 	{"color": "#FF8028","index": 0}, /*BL*/
+	{"color": "#A8C3CA", "index": 1}, /*AG*/	  
+	{"color": "#008AC3", "index": 2}, /*ZH*/
+	{"color": "#990300", "index": 3}, /*CH*/
  
 	  ],
   "legend": {
