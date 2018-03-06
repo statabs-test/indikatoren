@@ -59,7 +59,7 @@
   <g class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-undefined " visibility="visible" transform="translate(40,58) scale(1 1)">
     <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(-5,67)">
       <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16">
-        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">0,793</tspan><tspan x="5" y="16">0,793</tspan>
+        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round" style="">0,79</tspan><tspan x="5" y="16">0,79</tspan>
       </text>
     </g>
     <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(70,78)">
@@ -77,9 +77,9 @@
     <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(355,70)">
       <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16"/>
     </g>
-    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(403,49)">
+    <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(409,49)">
       <text x="5" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16">
-        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">0,856</tspan><tspan x="5" y="16">0,856</tspan>
+        <tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">0,86</tspan><tspan x="5" y="16">0,86</tspan>
       </text>
     </g>
   </g>

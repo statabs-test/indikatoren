@@ -89,7 +89,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.3f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
     "min": 0,
@@ -153,7 +153,7 @@
             var last = this.series.data[this.series.data.length - 1];
             var first = this.series.data[0];
             if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {
-              return Highcharts.numberFormat(this.point.y, 3, ",", " ");
+              return Highcharts.numberFormat(this.point.y, 2, ",", " ");
             }
             return "";
           }
