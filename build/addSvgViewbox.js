@@ -10,7 +10,7 @@ views.forEach(function(view){
     var files = JSON.parse(fs.readFileSync('tmp/chartsToBuild.json'));
     files.forEach(function(id){
         try{
-            if (id != 6363){
+            if (id != 0000){
                 var fileContents = fs.readFileSync('metadata/single/' + id + '.json');
                 var indikator = JSON.parse(fileContents);
                 if (indikator.visible == undefined || indikator.visible) {                  
@@ -25,7 +25,7 @@ views.forEach(function(view){
                 }
             }
             else {
-                console.log('Ignoring ViewBox for chart 6363...!');
+                console.log('Ignoring ViewBox for chart 0000...!');
             }
         }
         catch(error){
