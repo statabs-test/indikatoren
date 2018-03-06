@@ -11179,44 +11179,6 @@
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "nach Haushaltstyp in m<sup>2</sup>",
-		"kuerzel": "",
-		"kuerzelKunde": "",
-		"description": "Mittlere Wohnfläche pro Person",
-		"thema": "01 Bevölkerung",
-		"unterthema": "",
-		"kennzahlenset": "",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wohnen"
-		],
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der durschnittliche Wohnflächenverbrauch pro Kopf ist bei Personen, welche in Einpersonenhaushalten leben, am höchsten (60,7m² ). Der tiefste Wert der Wohnfläche pro Kopf ist bei Personen zu finden, welche im Haushaltstyp \"Verheiratete Paare mit Kindern\" leben (24,9m² ).",
-		"erlaeuterungen": "Die Wohnungsfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.<br>Minderjährige Kinder: unter 18 Jahre, volljährige Kinder: 18 Jahre und älter. <br>Beim Haushaltstyp \"Unverheiratete Paare mit Kindern\" ist mindestens ein gemeinsames Kind vorhanden. Nichtfamilienhaushalte sind zum Beispiel Wohngemeinschaften oder unverheriratete Paare ohne mindestens ein gemeinsames Kind",
-		"template": "template001",
-		"visibleInPortal": true,
-		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 6363
-	},
-	{
-		"title": "Mittlere Wohnfläche pro Person",
 		"subtitle": "nach Haushaltsgrösse und Haushaltstyp in m<sup>2</sup>",
 		"kuerzel": "",
 		"kuerzelKunde": "",
