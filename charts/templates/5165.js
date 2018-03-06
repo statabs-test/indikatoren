@@ -10,7 +10,7 @@
         reversed: false
       },
       tooltip: {
-        valueDecimals: 1
+        valueDecimals: 0
       },
       series: [
         {"color": "#007a2f", index:9}, /*grün dunkel2*/
