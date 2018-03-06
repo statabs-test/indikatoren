@@ -55,9 +55,9 @@
     "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}  m²</b><br/>',
     "shared": false
   },*/
-      tooltip: {
+    tooltip: {  
       headerFormat: '',
-      pointFormat: '<span style="color:{point.color}">●</span> {point.name}: <b>{point.y:.1f}m²</b><br/>'    
+      pointFormat: '<span style="color:{point.color}">● </span> <b> {point.y:.1f} m²</b><br/>'  
     },
   "chart": {     
      marginLeft:250,
@@ -70,8 +70,11 @@
       "pointWidth": 10,
       },
     "column": {
-            "colorByPoint": true
-        }
-}
-}
+            "colorByPoint": true 
+        } 
+  },
+  exporting: {
+    allowHTML: true
+  }
+};
 }());

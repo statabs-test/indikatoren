@@ -211,9 +211,10 @@
   ],
   "tooltip": {
     "headerFormat": "",
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {point.name}: \u003Cb\u003E{point.y:.1f}m²\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E● \u003C\u002Fspan\u003E \u003Cb\u003E {point.y:.1f} m²\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
+    "allowHTML": true,
     "filename": 6363
   }
 }
