@@ -11,7 +11,7 @@
         ],
         [
           "2008 (GR)",
-          39
+          null
         ],
         [
           "2011 (NR)",
@@ -19,7 +19,7 @@
         ],
         [
           "2012 (GR)",
-          41.6
+          null
         ],
         [
           "2015 (NR)",
@@ -27,16 +27,44 @@
         ],
         [
           "2016 (GR)",
-          41.7
+          null
         ]
       ],
-      "name": "Wahlbeteiligung",
+      "name": "NR",
       "turboThreshold": 0
     },
     {
       "color": "#B6CFD7",
       "pointPlacement": -0.15,
-      "pointWidth": 20
+      "pointWidth": 20,
+      "data": [
+        [
+          "2007 (NR)",
+          null
+        ],
+        [
+          "2008 (GR)",
+          39
+        ],
+        [
+          "2011 (NR)",
+          null
+        ],
+        [
+          "2012 (GR)",
+          41.6
+        ],
+        [
+          "2015 (NR)",
+          null
+        ],
+        [
+          "2016 (GR)",
+          41.7
+        ]
+      ],
+      "name": "GR",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
