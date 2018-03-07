@@ -18239,7 +18239,7 @@ var indikatoren = [
 		"lesehilfe": "Der durschnittliche Wohnflächenverbrauch pro Kopf ist bei Personen, welche in Einpersonenhaushalten leben, am höchsten (60,7&nbsp;m²). Der tiefste Wert der Wohnfläche pro Kopf ist bei Personen zu finden, welche im Haushaltstyp \"Verheiratete Paare mit Kindern\" leben (24,9&nbsp;m²).",
 		"erlaeuterungen": "Die Wohnungsfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.<br>Minderjährige Kinder: unter 18 Jahre, volljährige Kinder: 18 Jahre und älter. <br>Beim Haushaltstyp \"Unverheiratete Paare mit Kindern\" ist mindestens ein gemeinsames Kind vorhanden. Nichtfamilienhaushalte sind zum Beispiel Wohngemeinschaften oder unverheiratete Paare ohne mindestens ein gemeinsames Kind.",
 		"template": "template001",
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [],
