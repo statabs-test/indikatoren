@@ -200,19 +200,19 @@
   </g>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
     <text x="86.1" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="341" opacity="1">
-      <tspan>2003</tspan><tspan x="86.1" dy="14">(� 7,4)</tspan><tspan x="86.1" dy="14">(N=1477)</tspan>
+      <tspan>2003</tspan><tspan x="86.1" dy="14">(Ø 7,4)</tspan><tspan x="86.1" dy="14">(N=1477)</tspan>
     </text>
     <text x="152.3" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="341" opacity="1">
-      <tspan>2005</tspan><tspan x="152.3" dy="14">(� 7,3)</tspan><tspan x="152.3" dy="14">(N=1500)</tspan>
+      <tspan>2005</tspan><tspan x="152.3" dy="14">(Ø 7,3)</tspan><tspan x="152.3" dy="14">(N=1500)</tspan>
     </text>
     <text x="218.5" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="341" opacity="1">
-      <tspan>2007</tspan><tspan x="218.5" dy="14">(� 7,4)</tspan><tspan x="218.5" dy="14">(N=1500)</tspan>
+      <tspan>2007</tspan><tspan x="218.5" dy="14">(Ø 7,4)</tspan><tspan x="218.5" dy="14">(N=1500)</tspan>
     </text>
     <text x="284.7" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="341" opacity="1">
-      <tspan>2011</tspan><tspan x="284.7" dy="14">(� 7,7)</tspan><tspan x="284.7" dy="14">(N=1513)</tspan>
+      <tspan>2011</tspan><tspan x="284.7" dy="14">(Ø 7,7)</tspan><tspan x="284.7" dy="14">(N=1513)</tspan>
     </text>
     <text x="350.90000000000003" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="341" opacity="1">
-      <tspan>2015</tspan><tspan x="350.90000000000003" dy="14">(� 7,8)</tspan><tspan x="350.90000000000003" dy="14">(N=1489)</tspan>
+      <tspan>2015</tspan><tspan x="350.90000000000003" dy="14">(Ø 7,8)</tspan><tspan x="350.90000000000003" dy="14">(N=1489)</tspan>
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
