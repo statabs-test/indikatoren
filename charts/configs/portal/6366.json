@@ -229,7 +229,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Alter und Geschlecht in m\u003Csup\u003E2\u003C\u002Fsup\u003E",
+    "text": "nach Alter und Geschlecht in m²",
     "align": "left",
     "useHTML": true
   },
@@ -296,7 +296,7 @@
   },
   "tooltip": {
     "pointFormatter": function () {
-                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( Math.abs(this.y), 1, ",", " ") + "m²" + '</b><br/>';
+                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( Math.abs(this.y), 1, ",", " ") + " m²" + '</b><br/>';
             }
   },
   "customFunctions": {

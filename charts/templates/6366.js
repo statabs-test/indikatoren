@@ -104,7 +104,7 @@
           },
             tooltip: {
             pointFormatter: function () {
-                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( Math.abs(this.y), 1, ",", " ") + "m²" + '</b><br/>';
+                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( Math.abs(this.y), 1, ",", " ") + " m²" + '</b><br/>';
             }
             },
   "chart": {      
