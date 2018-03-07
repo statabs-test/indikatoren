@@ -36,7 +36,6 @@
         "tooltip": {
             useHTML: true,
             "formatter": function(args){
-                console.log(this);
                 return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.key + ':</span><br/>' + 
                     '<b>' + Highcharts.numberFormat(this.y, 1) + '</b> m<sup>2</sup> pro Einwohner';
             },        
