@@ -1,11 +1,35 @@
 (function(){
     return {
 	plotOptions: {
-        series: {
-            pointPadding: 0,
-            borderWidth: 0
+    series: {
+        pointPadding: 0,
+        borderWidth: 0,
+        events: {
+          //make sure the bars are properly aligned when a series is hidden
+          hide: function(event){
+            this.chart.update(
+              {
+                "series": [
+                    {pointPlacement: null},
+                    {pointPlacement: null}, 
+                  ]              
+              }
+            );
+          },
+          show: function(event){
+            this.chart.update(
+              {
+                "series": [
+                    {pointPlacement: 0.15},
+                    {pointPlacement: -0.15}, 
+                  ]              
+              }
+            );
+          }
+          
         }
-    },
+    }
+  },
   "xAxis": {
     "type": "category"
   },
@@ -15,8 +39,8 @@
     }    
   },
   "series": [
-  {"color": "#008AC3", pointPlacement: 0.15, pointWidth: 20},
-  {"color": "#B6CFD7", pointPlacement: -0.15, pointWidth: 20}, 
+    {"color": "#008AC3", pointPlacement: 0.15, pointWidth: 20},
+    {"color": "#B6CFD7", pointPlacement: -0.15, pointWidth: 20}, 
   ],
   "legend": {
     "enabled": true,
@@ -36,9 +60,9 @@
   },  
   "chart": {      
     "type": "column",
-    "inverted": false
-  }
-}
+    "inverted": false, 
+  },  
+};
 }());
 
  
