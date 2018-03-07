@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:9pt;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:arial;font-size:9pt;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 6.0.7
+    Created with Highstock 5.0.14
   </desc>
   <defs>
     <clipPath>
@@ -58,7 +58,7 @@
     <path fill="none" class="highcharts-axis-line" d="M 475 53 L 475 331"/>
   </g>
   <g class="highcharts-series-group">
-    <g class="highcharts-series highcharts-series-0 highcharts-column-series " transform="translate(31,53) scale(1 1)" clip-path="url(#a)">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(31,53) scale(1 1)" clip-path="url(#a)">
       <rect x="7" y="244" width="14" height="35" fill="#FF8028" class="highcharts-point"/>
       <rect x="35" y="244" width="14" height="35" fill="#FF8028" class="highcharts-point"/>
       <rect x="63" y="210" width="14" height="69" fill="#FF8028" class="highcharts-point"/>
@@ -76,7 +76,7 @@
       <rect x="396" y="71" width="14" height="208" fill="#FF8028" class="highcharts-point"/>
       <rect x="423" y="71" width="14" height="208" fill="#FF8028" class="highcharts-point"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-column-series " transform="translate(31,53) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(31,53) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:1.1em;font-weight:bold;fill:#000000;" y="20">
     <tspan>Hochsicherheitslaboratorien in Biotechnologiebetrieben</tspan>
@@ -92,69 +92,69 @@
   </g>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
     <text x="47.46772486435067" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 47.46772486435067 347)" y="347" opacity="1">
-      2001
+      <tspan>2001</tspan>
     </text>
     <text x="75.21772486435067" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 75.21772486435067 347)" y="347" opacity="1">
-      2002
+      <tspan>2002</tspan>
     </text>
     <text x="102.96772486435067" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 102.96772486435067 347)" y="347" opacity="1">
-      2003
+      <tspan>2003</tspan>
     </text>
     <text x="130.71772486435069" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 130.71772486435069 347)" y="347" opacity="1">
-      2004
+      <tspan>2004</tspan>
     </text>
     <text x="158.46772486435069" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 158.46772486435069 347)" y="347" opacity="1">
-      2005
+      <tspan>2005</tspan>
     </text>
     <text x="186.21772486435069" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 186.21772486435069 347)" y="347" opacity="1">
-      2006
+      <tspan>2006</tspan>
     </text>
     <text x="213.96772486435069" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 213.96772486435069 347)" y="347" opacity="1">
-      2007
+      <tspan>2007</tspan>
     </text>
     <text x="241.71772486435069" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 241.71772486435069 347)" y="347" opacity="1">
-      2008
+      <tspan>2008</tspan>
     </text>
     <text x="269.46772486435066" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 269.46772486435066 347)" y="347" opacity="1">
-      2009
+      <tspan>2009</tspan>
     </text>
     <text x="297.21772486435066" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 297.21772486435066 347)" y="347" opacity="1">
-      2010
+      <tspan>2010</tspan>
     </text>
     <text x="324.96772486435066" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 324.96772486435066 347)" y="347" opacity="1">
-      2011
+      <tspan>2011</tspan>
     </text>
     <text x="352.71772486435066" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 352.71772486435066 347)" y="347" opacity="1">
-      2012
+      <tspan>2012</tspan>
     </text>
     <text x="380.46772486435066" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 380.46772486435066 347)" y="347" opacity="1">
-      2013
+      <tspan>2013</tspan>
     </text>
     <text x="408.21772486435066" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 408.21772486435066 347)" y="347" opacity="1">
-      2014
+      <tspan>2014</tspan>
     </text>
     <text x="435.96772486435066" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 435.96772486435066 347)" y="347" opacity="1">
-      2015
+      <tspan>2015</tspan>
     </text>
     <text x="463.71772486435066" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-45 463.71772486435066 347)" y="347" opacity="1">
-      2016
+      <tspan>2016</tspan>
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
     <text x="16" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="336" opacity="1">
-      0
+      <tspan>0</tspan>
     </text>
     <text x="16" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="266" opacity="1">
-      2
+      <tspan>2</tspan>
     </text>
     <text x="16" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="197" opacity="1">
-      4
+      <tspan>4</tspan>
     </text>
     <text x="16" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="127" opacity="1">
-      6
+      <tspan>6</tspan>
     </text>
     <text x="16" style="color:#000000;cursor:default;font-size:0.9em;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="58" opacity="1">
-      8
+      <tspan>8</tspan>
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels "/>
