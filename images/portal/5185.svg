@@ -31,9 +31,10 @@
   </g>
   <g class="highcharts-grid highcharts-yaxis-grid ">
     <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 53 349.25 L 475 349.25" opacity="1"/>
-    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 53 286.25 L 475 286.25" opacity="1"/>
-    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 53 223.25 L 475 223.25" opacity="1"/>
-    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 53 159.25 L 475 159.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 53 298.25 L 475 298.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 53 248.25 L 475 248.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 53 197.25 L 475 197.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 53 147.25 L 475 147.25" opacity="1"/>
     <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 53 96.25 L 475 96.25" opacity="1"/>
   </g>
   <rect fill="none" class="highcharts-plot-border" x="53" y="96" width="422" height="253"/>
@@ -174,14 +175,17 @@
     <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="354" opacity="1">
       <tspan>0%</tspan>
     </text>
-    <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="290" opacity="1">
-      <tspan>25%</tspan>
+    <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="303" opacity="1">
+      <tspan>20%</tspan>
     </text>
-    <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="227" opacity="1">
-      <tspan>50%</tspan>
+    <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="252" opacity="1">
+      <tspan>40%</tspan>
     </text>
-    <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="164" opacity="1">
-      <tspan>75%</tspan>
+    <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="202" opacity="1">
+      <tspan>60%</tspan>
+    </text>
+    <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="151" opacity="1">
+      <tspan>80%</tspan>
     </text>
     <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="101" opacity="1">
       <tspan>100%</tspan>

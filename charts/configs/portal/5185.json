@@ -303,7 +303,7 @@
     }
   },
   "yAxis": {
-    "tickInterval": 25,
+    "tickInterval": 20,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
