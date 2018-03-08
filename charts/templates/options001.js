@@ -65,6 +65,7 @@ menuItems.push(
             window.open($.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/' + $.url(1) + '/data/' + this.renderTo.id.substring(10) + ".tsv", '_blank'); 
         }
     });
+menuItems.push({separator: true});
 menuItems.push(
     {
         "text": "Einbinden - Grafik", 
@@ -79,8 +80,6 @@ menuItems.push(
             window.open($.url('protocol') + '://' + $.url('hostname') + ':' + $.url('port') + '/' + $.url(1) + '/chart-details.html?id=' + this.renderTo.id.substring(10), '_blank'); 
         }
     });
-
-
 					    
 //define new chart type, necessary contents are added later on in the chart's template
 Highcharts.seriesType('mappie', 'pie', {}, {});
