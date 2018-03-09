@@ -1,6 +1,6 @@
 var templatesById = {
 	"2151": "line001",
-	"2152": "line001",
+	"2152": "template001",
 	"2153": "line001",
 	"2161": "line001",
 	"2163": "line001",

@@ -25,7 +25,7 @@
  "series": [
  	 {"color": "#6F6F6F", "index": 0,	
  	 "marker": {
-        "enabled": false
+        "enabled": true
     }}, /*BS*/
  	{"color": "#FF8028","index": 1}, /*BL*/
 	{"color": "#A8C3CA", "index": 1}, /*AG*/	  
