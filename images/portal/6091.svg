@@ -38,21 +38,21 @@
   </g>
   <g class="highcharts-series-group">
     <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(475,340) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
-      <rect x="186" y="0" width="30" height="126" fill="rgb(231,207,226)" class="highcharts-point"/>
-      <rect x="106" y="0" width="30" height="85" fill="rgb(231,207,226)" class="highcharts-point"/>
-      <rect x="25" y="0" width="30" height="104" fill="rgb(231,207,226)" class="highcharts-point"/>
+      <rect x="186" y="-182427" width="30" height="82428" fill="rgb(231,207,226)" class="highcharts-point"/>
+      <rect x="106" y="-113187" width="30" height="13188" fill="rgb(231,207,226)" class="highcharts-point"/>
+      <rect x="25" y="-302200" width="30" height="202201" fill="rgb(231,207,226)" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(475,340) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(475,340) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
-      <rect x="186" y="126" width="30" height="69" fill="rgb(180,117,171)" class="highcharts-point"/>
-      <rect x="106" y="85" width="30" height="124" fill="rgb(180,117,171)" class="highcharts-point"/>
-      <rect x="25" y="104" width="30" height="145" fill="rgb(180,117,171)" class="highcharts-point"/>
+      <rect x="186" y="-107952" width="30" height="7953" fill="rgb(180,117,171)" class="highcharts-point"/>
+      <rect x="106" y="-47530" width="30" height="999" fill="rgb(180,117,171)" class="highcharts-point"/>
+      <rect x="25" y="-75174" width="30" height="999" fill="rgb(180,117,171)" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(475,340) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(475,340) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
-      <rect x="186" y="195" width="30" height="101" fill="rgb(103,39,115)" class="highcharts-point"/>
-      <rect x="106" y="209" width="30" height="87" fill="rgb(103,39,115)" class="highcharts-point"/>
-      <rect x="25" y="249" width="30" height="47" fill="rgb(103,39,115)" class="highcharts-point"/>
+      <rect x="186" y="-1293" width="30" height="1589" fill="rgb(103,39,115)" class="highcharts-point"/>
+      <rect x="106" y="-1293" width="30" height="1589" fill="rgb(103,39,115)" class="highcharts-point"/>
+      <rect x="25" y="-1293" width="30" height="1589" fill="rgb(103,39,115)" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-2 highcharts-column-series highcharts-color-undefined " transform="translate(475,340) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
   </g>
@@ -63,18 +63,18 @@
     <tspan>Personen ab 15 Jahren nach Migrationsstatus, gepoolte Daten 2011 - 2015</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(172,50)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="224" height="37" visibility="visible"/>
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="220" height="37" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2" transform="translate(8,3)">
           <text x="21" style="color:#333333;font-size:11px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="14">
-            <tspan>Sekundarstufe 1</tspan>
+            <tspan>Sekundarstufe I</tspan>
           </text>
           <rect x="2.5" y="4" width="11" height="11" fill="rgb(103,39,115)" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(115,3)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(111.9375,3)">
           <text x="21" y="14" style="color:#333333;font-size:11px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Sekundarstufe 2</tspan>
+            <tspan>Sekundarstufe II</tspan>
           </text>
           <rect x="2.5" y="4" width="11" height="11" fill="rgb(180,117,171)" class="highcharts-point"/>
         </g>

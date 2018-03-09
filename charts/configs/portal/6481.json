@@ -1,23 +1,15 @@
 {
   "series": [
     {
-      "name": "Anzahl",
+      "name": "Schweiz ohne Migrationshintergrund",
       "data": [
         [
-          "Schweizer ohne Migrationshintergrund",
-          49
+          "Anzahl",
+          78605
         ],
         [
-          "Schweizer mit Migrationshintergrund",
-          17
-        ],
-        [
-          "Ausländer der ersten Generation",
-          31
-        ],
-        [
-          "Ausländer der zweiten und höheren Generation",
-          3
+          "+\u002F-",
+          926
         ]
       ],
       "turboThreshold": 0

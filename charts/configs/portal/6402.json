@@ -7,47 +7,47 @@
       "data": [
         [
           "Schweiz",
-          93.5
+          99533.983526
         ],
         [
           "Deutschland",
-          99.05
+          13142.745023
         ],
         [
           "Italien",
-          40.7
+          2738.773973
         ],
         [
           "Türkei",
-          40.31
+          2121.110335
         ],
         [
           "EU-17 + EFTA",
-          31.81
+          3437.568094
         ],
         [
           "EU-Ost",
-          34.9
+          758.309725
         ],
         [
           "Balkan",
-          46.49
+          3195.348071
         ],
         [
           "Mittel- und Südamerika",
-          29.18
+          439.804202
         ],
         [
           "Arabische Länder",
-          35.58
+          263.160317
         ],
         [
           "Afrikanische Länder",
-          33.84
+          329.514372
         ],
         [
           "Übrige Länder",
-          21.81
+          1180.150475
         ]
       ],
       "name": "Deutsch oder Schweizerdeutsch",
@@ -60,47 +60,47 @@
       "data": [
         [
           "Schweiz",
-          6.5
+          6914.816474
         ],
         [
           "Deutschland",
-          0.95
+          126.376706
         ],
         [
           "Italien",
-          59.3
+          3990.211753
         ],
         [
           "Türkei",
-          59.69
+          3141.285637
         ],
         [
           "EU-17 + EFTA",
-          68.19
+          7370.425227
         ],
         [
           "EU-Ost",
-          65.1
+          1414.66665
         ],
         [
           "Balkan",
-          53.51
+          3678.048652
         ],
         [
           "Mittel- und Südamerika",
-          70.82
+          1067.413203
         ],
         [
           "Arabische Länder",
-          64.42
+          476.400467
         ],
         [
           "Afrikanische Länder",
-          66.16
+          644.242045
         ],
         [
           "Übrige Länder",
-          78.19
+          4230.645073
         ]
       ],
       "name": "Kein Deutsch",

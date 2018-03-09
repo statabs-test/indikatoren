@@ -7,18 +7,18 @@
       "data": [
         [
           "Ausländer\u002F-innen",
-          34.18
+          36694.114282
         ],
         [
           "Eingebürgerte Schweizer\u002F-innen",
-          29.56
+          15873.445861
         ],
         [
           "Schweizer\u002F-innnen seit Geburt",
-          16.06
+          25244.264834
         ]
       ],
-      "name": "Sekundarstufe 1",
+      "name": "Sekundarstufe I",
       "turboThreshold": 0
     },
     {
@@ -28,18 +28,18 @@
       "data": [
         [
           "Ausländer\u002F-innen",
-          23.52
+          25245.790682
         ],
         [
           "Eingebürgerte Schweizer\u002F-innen",
-          42.08
+          22595.240907
         ],
         [
           "Schweizer\u002F-innnen seit Geburt",
-          49.17
+          77296.643307
         ]
       ],
-      "name": "Sekundarstufe 2",
+      "name": "Sekundarstufe II",
       "turboThreshold": 0
     },
     {
@@ -49,15 +49,15 @@
       "data": [
         [
           "Ausländer\u002F-innen",
-          42.3
+          45402.604846
         ],
         [
           "Eingebürgerte Schweizer\u002F-innen",
-          28.36
+          15232.238046
         ],
         [
           "Schweizer\u002F-innnen seit Geburt",
-          34.77
+          54669.007708
         ]
       ],
       "name": "Tertiärstufe",

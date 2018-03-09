@@ -37,15 +37,15 @@
   </g>
   <g class="highcharts-series-group">
     <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(53,97) scale(1 1)" clip-path="url(#a)">
-      <rect x="45" y="0" width="50" height="3" fill="#E7CEE2" class="highcharts-point"/>
-      <rect x="186" y="0" width="50" height="6" fill="#E7CEE2" class="highcharts-point"/>
-      <rect x="327" y="0" width="50" height="45" fill="#E7CEE2" class="highcharts-point"/>
+      <rect x="45" y="-103828" width="50" height="3829" fill="#E7CEE2" class="highcharts-point"/>
+      <rect x="186" y="-34749" width="50" height="761" fill="#E7CEE2" class="highcharts-point"/>
+      <rect x="327" y="-71196" width="50" height="999" fill="#E7CEE2" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(53,97) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(53,97) scale(1 1)" clip-path="url(#a)">
-      <rect x="45" y="3" width="50" height="241" fill="#923F8D" class="highcharts-point"/>
-      <rect x="186" y="6" width="50" height="238" fill="#923F8D" class="highcharts-point"/>
-      <rect x="327" y="45" width="50" height="199" fill="#923F8D" class="highcharts-point"/>
+      <rect x="45" y="-1241" width="50" height="1485" fill="#923F8D" class="highcharts-point"/>
+      <rect x="186" y="-1241" width="50" height="1485" fill="#923F8D" class="highcharts-point"/>
+      <rect x="327" y="-1241" width="50" height="1485" fill="#923F8D" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(53,97) scale(1 1)" clip-path="none"/>
   </g>
@@ -76,10 +76,10 @@
   </g>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
     <text x="123.33333333333333" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="359" opacity="1">
-      <tspan>Schweizer/-innnen</tspan><tspan x="123.33333333333333" dy="14">seit Geburt</tspan>
+      <tspan>Schweizer/-innnen seit</tspan><tspan dy="14" x="123.33333333333333">Geburt</tspan><title>Schweizer/-innnen seit Geburt</title>
     </text>
     <text x="264" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="359" opacity="1">
-      <tspan>Eingebürgerte</tspan><tspan x="264" dy="14">Schweizer/-innen</tspan>
+      <tspan>Eingebürgerte Schweizer/-</tspan><tspan dy="14" x="264">innen</tspan><title>Eingebürgerte Schweizer/-innen</title>
     </text>
     <text x="404.66666666666663" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="359" opacity="1">
       <tspan>Ausländer/-innen</tspan>

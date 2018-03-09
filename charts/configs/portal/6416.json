@@ -11,47 +11,47 @@
       "data": [
         [
           "Schweiz",
-          74.13
+          0.741
         ],
         [
           "Deutschland",
-          87.57
+          0.876
         ],
         [
           "Italien",
-          67.83
+          0.678
         ],
         [
           "Türkei",
-          49.6
+          0.496
         ],
         [
           "EU-17 + EFTA",
-          78.53
+          0.785
         ],
         [
           "EU-Ost",
-          76.71
+          0.767
         ],
         [
           "Balkan",
-          56.76
+          0.568
         ],
         [
           "Mittel- und Südamerika",
-          57.36
+          0.574
         ],
         [
           "Arabische Länder",
-          52.56
+          0.526
         ],
         [
           "Afrikanische Länder",
-          59.54
+          0.595
         ],
         [
           "Übrige Länder",
-          66.68
+          0.667
         ]
       ],
       "name": "Erwerbstätigenquote",
@@ -68,61 +68,61 @@
       "data": [
         {
           "name": "Schweiz",
-          "low": 73.36,
-          "high": 74.9
+          "low": 0.734,
+          "high": 0.749
         },
         {
           "name": "Deutschland",
-          "low": 86.07,
-          "high": 89.07
+          "low": 0.861,
+          "high": 0.891
         },
         {
           "name": "Italien",
-          "low": 64.53,
-          "high": 71.13
+          "low": 0.645,
+          "high": 0.711
         },
         {
           "name": "Türkei",
-          "low": 45.86,
-          "high": 53.34
+          "low": 0.459,
+          "high": 0.533
         },
         {
           "name": "EU-17 + EFTA",
-          "low": 76.43,
-          "high": 80.63
+          "low": 0.764,
+          "high": 0.806
         },
         {
           "name": "EU-Ost",
-          "low": 71.93,
-          "high": 81.49
+          "low": 0.719,
+          "high": 0.815
         },
         {
           "name": "Balkan",
-          "low": 53.52,
-          "high": 60
+          "low": 0.535,
+          "high": 0.6
         },
         {
           "name": "Mittel- und Südamerika",
-          "low": 50.41,
-          "high": 64.31
+          "low": 0.504,
+          "high": 0.643
         },
         {
           "name": "Arabische Länder",
-          "low": 42.56,
-          "high": 62.56
+          "low": 0.426,
+          "high": 0.626
         },
         {
           "name": "Afrikanische Länder",
-          "low": 50.96,
-          "high": 68.12
+          "low": 0.51,
+          "high": 0.681
         },
         {
           "name": "Übrige Länder",
-          "low": 63.22,
-          "high": 70.14
+          "low": 0.632,
+          "high": 0.701
         }
       ],
-      "name": "95%-Vertrauensintervall",
+      "name": "95% Vertrauensintervall",
       "turboThreshold": 0
     }
   ],

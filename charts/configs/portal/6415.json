@@ -11,18 +11,18 @@
       "data": [
         [
           "1990",
-          84.67
+          0.862
         ],
         [
           "2000",
-          79.31
+          0.78
         ],
         [
           "2011-2015",
-          75.69
+          0.765
         ]
       ],
-      "name": "Schweizer",
+      "name": "Ausländer",
       "turboThreshold": 0
     },
     {
@@ -46,11 +46,11 @@
         },
         {
           "name": "2011-2015",
-          "low": 74.58,
-          "high": 76.8
+          "low": 0.751,
+          "high": 0.779
         }
       ],
-      "name": "95%-Vertrauensintervall",
+      "name": "Ausländer 95% Vertrauensintervall",
       "turboThreshold": 0
     },
     {
@@ -64,18 +64,18 @@
       "data": [
         [
           "1990",
-          59.48
+          0.624
         ],
         [
           "2000",
-          67.61
+          0.642
         ],
         [
           "2011-2015",
-          72.66
+          0.656
         ]
       ],
-      "name": "Schweizerinnen",
+      "name": "Ausländerinnen",
       "turboThreshold": 0
     },
     {
@@ -99,11 +99,11 @@
         },
         {
           "name": "2011-2015",
-          "low": 71.58,
-          "high": 73.74
+          "low": 0.64,
+          "high": 0.672
         }
       ],
-      "name": "95%-Vertrauensintervall",
+      "name": "Ausländerinnen 95% Vertrauensintervall",
       "turboThreshold": 0
     },
     {
@@ -117,18 +117,18 @@
       "data": [
         [
           "1990",
-          86.24
+          0.847
         ],
         [
           "2000",
-          78.03
+          0.793
         ],
         [
           "2011-2015",
-          76.5
+          0.757
         ]
       ],
-      "name": "Ausländer",
+      "name": "Schweizer",
       "turboThreshold": 0
     },
     {
@@ -152,11 +152,11 @@
         },
         {
           "name": "2011-2015",
-          "low": 75.11,
-          "high": 77.89
+          "low": 0.746,
+          "high": 0.768
         }
       ],
-      "name": "95%-Vertrauensintervall",
+      "name": "Schweizer 95% Vertrauensintervall",
       "turboThreshold": 0
     },
     {
@@ -170,18 +170,18 @@
       "data": [
         [
           "1990",
-          62.36
+          0.595
         ],
         [
           "2000",
-          64.19
+          0.676
         ],
         [
           "2011-2015",
-          65.57
+          0.727
         ]
       ],
-      "name": "Ausländerinnen",
+      "name": "Schweizerinnen",
       "turboThreshold": 0
     },
     {
@@ -205,11 +205,11 @@
         },
         {
           "name": "2011-2015",
-          "low": 63.98,
-          "high": 67.16
+          "low": 0.716,
+          "high": 0.737
         }
       ],
-      "name": "95%-Vertrauensintervall",
+      "name": "Schweizerinnen 95% Vertrauensintervall",
       "turboThreshold": 0
     }
   ],
