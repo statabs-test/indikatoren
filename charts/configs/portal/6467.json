@@ -272,7 +272,6 @@
           }
     },
     "renderTo": "container-6467",
-    "marginBottom": 75,
     "type": "column",
     "inverted": true
   },
@@ -323,10 +322,11 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}"
+      "formatter": function (){
+        return Highcharts.numberFormat(100 * this.value, 0, ",", " ") + '%';
+      }
     },
-    "max": 100,
-    "tickInterval": 25
+    "max": 1
   },
   "navigation": {
     "menuItemStyle": {
@@ -352,16 +352,21 @@
   "legend": {
     "symbolRadius": 0,
     "enabled": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 5,
-    "align": "right",
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "y": 55,
+    "margin": 3,
+    "symbolPadding": 1,
+    "itemWidth": 70,
+    "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormatter": function (){
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';
+    }
   },
   "exporting": {
     "filename": 6467

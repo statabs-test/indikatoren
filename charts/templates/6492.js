@@ -18,7 +18,9 @@
   	//max: 140000,
   	//tickInterval: 40000,
     "labels": {
-      "format": "{value:,.0f}%"
+      formatter: function(){
+        return Highcharts.numberFormat(100 * this.value, 0, ",", " ") + '%';
+      }
     }    
   },
   "series": [
@@ -37,7 +39,9 @@
     }
   },
    tooltip: {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}%</b><br/>',
+    pointFormatter: function(){
+      return '<span style="color:'+ this.series.color+'">\u25CF</span> '+ this.series.name + ': <b>'+ Highcharts.numberFormat(100 * this.y, 1, ",", " ") +'%</b><br/>';
+      },
     "shared": false
   },
   "chart": {      
@@ -45,5 +49,5 @@
     "inverted": true,
     //"spacingTop": 100
   }
-}
+};
 }());

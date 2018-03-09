@@ -19,19 +19,26 @@
     "tickInterval": 1
   },  
   "yAxis": {
-  	max: 100,
+  	 max: 1,
   	 //max: 120000,
-     tickInterval: 25,
+     //tickInterval: 25,
     "labels": {
-      "format": "{value:,.0f}",
+      formatter: function(){
+        return Highcharts.numberFormat(100 * this.value, 0, ",", " ") + '%';
+      },
+      //"format": "{value:,.0f}",
     },
   },
 "legend": {
     enabled:true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 5, // space between legend boxes
-    "align": "right",
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    //"itemMarginBottom": 5, // space between legend boxes
+    y: 55,
+    margin: 3,
+    symbolPadding: 1,
+    itemWidth: 70,
+    "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -45,13 +52,16 @@
 ],
   "chart": {
     "renderTo": 'container-I.01.1.0016', 
-    "marginBottom": 75,
+    //"marginBottom": 75,
     //"marginTop": 75,
     "type": "column",
     "inverted": true
   },
   "tooltip": {
-  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}</b><br/>',
+    pointFormatter: function(){
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';
+    },
+    //"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}</b><br/>',
   },
-}
+};
 }());

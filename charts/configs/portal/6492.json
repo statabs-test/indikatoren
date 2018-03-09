@@ -199,7 +199,9 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}%"
+      "formatter": function (){
+        return Highcharts.numberFormat(100 * this.value, 0, ",", " ") + '%';
+      }
     }
   },
   "navigation": {
@@ -235,7 +237,9 @@
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormatter": function (){
+      return '<span style="color:'+ this.series.color+'">\u25CF</span> '+ this.series.name + ': <b>'+ Highcharts.numberFormat(100 * this.y, 1, ",", " ") +'%</b><br/>';
+      },
     "shared": false
   },
   "exporting": {
