@@ -489,7 +489,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickAmount": 5
   },
   "navigation": {
     "menuItemStyle": {

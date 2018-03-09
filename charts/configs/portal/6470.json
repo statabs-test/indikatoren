@@ -240,8 +240,7 @@
         }
       },
       "min": 0,
-      "max": 350000,
-      "tickInterval": 50000,
+      "tickAmount": 7,
       "title": ""
     },
     {
@@ -259,8 +258,7 @@
         }
       },
       "min": 0,
-      "max": 1000,
-      "tickInterval": 150,
+      "tickAmount": 7,
       "gridLineWidth": 0,
       "opposite": true
     }
@@ -288,12 +286,12 @@
   },
   "legend": {
     "symbolRadius": 0,
-    "itemWidth": 300,
+    "padding": 0,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "y": 55,
+    "y": 60,
     "itemStyle": {
       "fontWeight": "normal"
     }

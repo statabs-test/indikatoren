@@ -127,6 +127,7 @@ global Highcharts
   },    
    "legend": {
     "enabled": true,
+    "useHTML": false,
      itemDistance: 12,
     "layout": "horizontal",
     "verticalAlign": "top",

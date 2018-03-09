@@ -22,6 +22,7 @@
   	 //max: 120000,
      //tickInterval: 60000,
      //max: 750,
+     tickAmount: 5,
     "labels": {
       "format": "{value:,.0f}",
     },
