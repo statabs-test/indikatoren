@@ -4,6 +4,7 @@
         series: {
         	"stacking": "normal",
              groupPadding: 0,
+             borderWidth: 0,
         }
   },
   "yAxis": {
@@ -49,7 +50,7 @@
 	 {"color": "#FFBB58", index: 7}, /* */
 	 {"color": "#FF8028", index: 6}, /* */
    	 {"color": "#B00000", index: 5}, /* */
-	 {"color": "#A0BEC8", index: 4}, /* */
+	 {"color": "#689199", index: 4}, /* */
 	 {"color": "#008AC3", index: 3},  /* */
 	 {"color": "#C8C8C8", index: 2},  /* */
 	 {"color": "#2B0099", index: 1}, /* */

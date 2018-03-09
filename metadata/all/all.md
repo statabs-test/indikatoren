@@ -524,6 +524,8 @@ id | visible | visibleInPortal | indikatorenset
 6372 | true | false | Legislaturplan (Print)
 6448 | true | true | Arbeitsmarkt
 6449 | true | true | Arbeitsmarkt
+6450 | true | true | Arbeitsmarkt
+6451 | true | true | Arbeitsmarkt
 6452 | true | true | Arbeitsmarkt
 6453 | true | true | Arbeitsmarkt
 6454 | true | true | Arbeitsmarkt
@@ -539,6 +541,7 @@ id | visible | visibleInPortal | indikatorenset
 6502 | true | true | 
 6505 | true | true | Arbeitsmarkt
 6506 | true | true | Arbeitsmarkt
+6520 | true | true | Arbeitsmarkt
 6521 | true | true | Arbeitsmarkt
 6522 | true | true | Arbeitsmarkt
 6523 | true | true | Arbeitsmarkt

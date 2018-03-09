@@ -71,11 +71,11 @@
     </g>
     <g class="highcharts-markers highcharts-series-3 highcharts-column-series highcharts-color-undefined " transform="translate(53,302) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-4 highcharts-column-series highcharts-color-undefined " transform="translate(53,302) scale(1 1)" clip-path="url(#a)">
-      <rect x="8" y="23" width="68" height="18" fill="#A0BEC8" class="highcharts-point"/>
-      <rect x="93" y="28" width="68" height="21" fill="#A0BEC8" class="highcharts-point"/>
-      <rect x="177" y="30" width="68" height="23" fill="#A0BEC8" class="highcharts-point"/>
-      <rect x="262" y="27" width="68" height="25" fill="#A0BEC8" class="highcharts-point"/>
-      <rect x="346" y="30" width="68" height="27" fill="#A0BEC8" class="highcharts-point"/>
+      <rect x="8" y="23" width="68" height="18" fill="#689199" class="highcharts-point"/>
+      <rect x="93" y="28" width="68" height="21" fill="#689199" class="highcharts-point"/>
+      <rect x="177" y="30" width="68" height="23" fill="#689199" class="highcharts-point"/>
+      <rect x="262" y="27" width="68" height="25" fill="#689199" class="highcharts-point"/>
+      <rect x="346" y="30" width="68" height="27" fill="#689199" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-4 highcharts-column-series highcharts-color-undefined " transform="translate(53,302) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-5 highcharts-column-series highcharts-color-undefined " transform="translate(53,302) scale(1 1)" clip-path="url(#a)">
@@ -205,7 +205,7 @@
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Öffentliche Verwaltung, Sozialversicherungen</tspan>
           </text>
-          <rect x="2" y="4" width="12" height="12" fill="#A0BEC8" class="highcharts-point"/>
+          <rect x="2" y="4" width="12" height="12" fill="#689199" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-5" transform="translate(8,73)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
