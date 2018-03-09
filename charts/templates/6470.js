@@ -22,8 +22,8 @@
       }
     },
     "min": 0,
-    "max": 350000,
-    tickInterval: 50000,
+    //"max": 350000,
+    tickAmount: 7,
     "title": ""
   },
   {
@@ -41,8 +41,9 @@
       }
     },
     "min": 0,
-    "max": 1000,
-    tickInterval: 150,
+    //"max": 1000,
+    //tickInterval: 150,
+    tickAmount: 7,
     "gridLineWidth": 0,
     "opposite": true
   }
@@ -61,13 +62,14 @@
   },
   ],
   "legend": {
-  	itemWidth: 300,
+  	//itemWidth: 300,
+  	padding: 0,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
     //"x": 25,
-	"y": 55,    
+	  "y": 60,    
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -78,8 +80,7 @@
   },
   "chart": {      
     "type": "column",
-    "inverted": false,
-    //"spacingTop": 100
+    "inverted": false
   }
 }
 }());

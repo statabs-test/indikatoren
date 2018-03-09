@@ -21,10 +21,11 @@
   "yAxis": {
   	 //max: 120000,
      //tickInterval: 60000,
+     tickAmount: 6,
     "labels": {
       "format": "{value:,.0f}",
     },
-	"max": undefined
+	  //"max": undefined
   },
 "legend": {
     enabled:true,
