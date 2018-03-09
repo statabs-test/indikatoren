@@ -82,7 +82,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil Personen mit und ohne Migrationshintergrund nach Staatsangehörigkeit"
+    "text": "Anteil Personen mit und ohne Migrationshintergrund"
   },
   "subtitle": {
     "style": {
@@ -91,7 +91,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Gepoolte Daten von 2011 bis 2015",
+    "text": "nach Staatsangehörigkeit, gepoolte Daten von 2011 bis 2015",
     "align": "left"
   },
   "tooltip": {

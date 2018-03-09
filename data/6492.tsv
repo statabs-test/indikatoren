@@ -1,12 +1,13 @@
-Jahr 	 Schweizer	 Ausländer
-institutionalisiert: 2004	29.9	9.6
-institutionalisiert: 2007	25.0	8.9
-institutionalisiert: 2010	23.4	17.4
-institutionalisiert: 2013	23.0	10.4
-institutionalisiert: 2016	26.1	8.8
-.
-informell: 2004	23.5	12.9
-informell: 2007	19.0	13.6
-informell: 2010	21.2	10.6
-informell: 2013	19.7	11.3
-informell: 2016	39.1	18.1
+﻿"Jahr"	"Schweizer"	"Ausländer"
+"institutionalisiert: 2004"	0.299	0.096
+"institutionalisiert: 2007"	0.250	0.089
+"institutionalisiert: 2010"	0.234	0.174
+"institutionalisiert: 2013"	0.230	0.104
+"institutionalisiert: 2016"	0.261	0.088
+"."	""	""
+"informell: 2004"	0.235	0.129
+"informell: 2007"	0.190	0.136
+"informell: 2010"	0.212	0.106
+"informell: 2013"	0.197	0.113
+"informell: 2016"	0.391	0.181
+
