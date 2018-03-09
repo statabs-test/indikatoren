@@ -203,7 +203,7 @@
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4" transform="translate(8,59)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Öffentliche Verwaltung, Sozialversicherungen</tspan>
+            <tspan>Öffentliche Verwaltung, Sozialversicherungen (inkl. staatl. Schulen)</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#689199" class="highcharts-point"/>
         </g>

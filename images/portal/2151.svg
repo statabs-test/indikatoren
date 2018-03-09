@@ -225,7 +225,7 @@
       <g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(8,3)">
           <text x="21" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
-            <tspan>Übrige Branchen</tspan>
+            <tspan>Übrige</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#8A8A8A" class="highcharts-point"/>
         </g>

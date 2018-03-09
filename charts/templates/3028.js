@@ -1,7 +1,7 @@
 (function(){
     return {
  "xAxis": {
-    "tickInterval": 12,
+    "tickInterval": 4,
      "type": "category",
      labels:{
      		"formatter": function() {

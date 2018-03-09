@@ -301,7 +301,7 @@
           0.442
         ]
       ],
-      "name": "- bei den Arbeitnehmenden",
+      "name": "Frauenanteil bei den Arbeitnehmenden",
       "turboThreshold": 0
     },
     {
@@ -453,7 +453,7 @@
           0.132
         ]
       ],
-      "name": "- bei den Selbstständigerwerbenden",
+      "name": "Frauenanteil bei den Selbstständigerwerbenden",
       "turboThreshold": 0
     },
     {
@@ -605,7 +605,7 @@
           0.133
         ]
       ],
-      "name": "- bei den Entsandten",
+      "name": "Frauenanteil bei den Entsandten",
       "turboThreshold": 0
     }
   ],
