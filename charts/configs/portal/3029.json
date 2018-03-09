@@ -623,7 +623,7 @@
 		}
     },
     "tickLength": 0,
-    "tickInterval": 12
+    "tickInterval": 4
   },
   "chart": {
     "events": {
