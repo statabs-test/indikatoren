@@ -41,7 +41,7 @@
       color: "#661200",
        "tooltip": {
         "pointFormatter": function(){
-          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b><br/>';
+          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100*this.y),1) + '%</b><br/>';
         }
       }   
     },
@@ -50,7 +50,7 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function(){
-          return this.series.name + ': <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b><br/>';
+          return this.series.name + ': <b>' + Highcharts.numberFormat((100*this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100*this.high),1) + '%</b><br/>';
         },
       }
     },
@@ -59,7 +59,7 @@
       color: "#dc440e",
        "tooltip": {
         "pointFormatter": function(){
-          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b><br/>';
+          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100*this.y),1) + '%</b><br/>';
         }
       }   
       
@@ -69,7 +69,7 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function(){
-          return this.series.name + ': <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b><br/>';
+          return this.series.name + ': <b>' + Highcharts.numberFormat((100*this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100*this.high),1) + '%</b><br/>';
         }
       }
     },
@@ -78,7 +78,7 @@
       color: "#7f5f1a",
        "tooltip": {
         "pointFormatter": function(){
-          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b><br/>';
+          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100*this.y),1) + '%</b><br/>';
         }
       }   
     },
@@ -87,7 +87,7 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function(){
-          return this.series.name + ': <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b><br/>';
+          return this.series.name + ': <b>' + Highcharts.numberFormat((100*this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100*this.high),1) + '%</b><br/>';
         }
       }
     },
@@ -96,7 +96,7 @@
       color: "#ffda80",
        "tooltip": {
         "pointFormatter": function(){
-          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b><br/>';
+          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100*this.y),1) + '%</b><br/>';
         }
       }   
     },
@@ -105,7 +105,7 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function(){
-          return this.series.name + ': <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b><br/>';
+          return this.series.name + ': <b>' + Highcharts.numberFormat((100*this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100*this.high),1) + '%</b><br/>';
         }
       }
     },
@@ -117,7 +117,7 @@
   "yAxis": {
     "labels": {
         "formatter": function(){
-            return Highcharts.numberFormat((this.value),0)+'%';                
+            return Highcharts.numberFormat((100*this.value),0)+'%';                
         },
     } 
   },    
