@@ -24,14 +24,15 @@
     }
   },
   "xAxis": {
-  	"type": "category",
+  	"type": "linear",
+  	tickInterval: 1
   },
   "legend": {
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-	"y": 60,
+	"y": 45,
  	itemWidth: 100,
 	"itemMarginBottom": 5,
     "itemStyle": {

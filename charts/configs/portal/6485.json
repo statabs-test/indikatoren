@@ -9,40 +9,39 @@
       },
       "data": [
         [
-          "2009",
+          2009,
           530
         ],
         [
-          "2010",
+          2010,
           559
         ],
         [
-          "2011",
+          2011,
           602
         ],
         [
-          "2012",
+          2012,
           505
         ],
         [
-          "2013",
+          2013,
           483
         ],
         [
-          "2014",
+          2014,
           506
         ],
         [
-          "2015",
+          2015,
           525
         ],
         [
-          "2016",
+          2016,
           503
         ]
       ],
-      "name": "C-Bew.",
-      "turboThreshold": 0
+      "name": "C-Bew."
     },
     {
       "color": "#923F8D",
@@ -53,40 +52,39 @@
       },
       "data": [
         [
-          "2009",
+          2009,
           267
         ],
         [
-          "2010",
+          2010,
           246
         ],
         [
-          "2011",
+          2011,
           264
         ],
         [
-          "2012",
+          2012,
           251
         ],
         [
-          "2013",
+          2013,
           236
         ],
         [
-          "2014",
+          2014,
           236
         ],
         [
-          "2015",
+          2015,
           269
         ],
         [
-          "2016",
+          2016,
           271
         ]
       ],
-      "name": "B-Bew.",
-      "turboThreshold": 0
+      "name": "B-Bew."
     },
     {
       "color": "#FF8028",
@@ -97,54 +95,41 @@
       },
       "data": [
         [
-          "2009",
+          2009,
           132
         ],
         [
-          "2010",
+          2010,
           152
         ],
         [
-          "2011",
+          2011,
           300
         ],
         [
-          "2012",
+          2012,
           224
         ],
         [
-          "2013",
+          2013,
           199
         ],
         [
-          "2014",
+          2014,
           164
         ],
         [
-          "2015",
+          2015,
           140
         ],
         [
-          "2016",
+          2016,
           216
         ]
       ],
-      "name": "Übrige",
-      "turboThreshold": 0
+      "name": "Übrige"
     }
   ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": false,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "tickLength": 0
-  },
   "chart": {
     "events": {
       "load": function () {
@@ -214,6 +199,18 @@
       "format": "{value:,.0f}"
     }
   },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "type": "linear",
+    "tickInterval": 1
+  },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
@@ -236,7 +233,7 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "y": 60,
+    "y": 45,
     "itemWidth": 100,
     "itemMarginBottom": 5,
     "itemStyle": {

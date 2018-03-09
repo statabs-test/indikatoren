@@ -24,7 +24,7 @@
     }
   },
   "xAxis": {
-  	"type": "category",
+  	"type": "linear",
   },
   "legend": {
     "enabled": true,

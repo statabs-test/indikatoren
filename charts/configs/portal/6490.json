@@ -9,32 +9,31 @@
       },
       "data": [
         [
-          "2011",
+          2011,
           57
         ],
         [
-          "2012",
+          2012,
           68
         ],
         [
-          "2013",
+          2013,
           66
         ],
         [
-          "2014",
+          2014,
           47
         ],
         [
-          "2015",
+          2015,
           53
         ],
         [
-          "2016",
+          2016,
           49
         ]
       ],
-      "name": "C-Bew.",
-      "turboThreshold": 0
+      "name": "C-Bew."
     },
     {
       "color": "#923F8D",
@@ -45,32 +44,31 @@
       },
       "data": [
         [
-          "2011",
+          2011,
           16
         ],
         [
-          "2012",
+          2012,
           15
         ],
         [
-          "2013",
+          2013,
           20
         ],
         [
-          "2014",
+          2014,
           23
         ],
         [
-          "2015",
+          2015,
           14
         ],
         [
-          "2016",
+          2016,
           9
         ]
       ],
-      "name": "B-Bew.",
-      "turboThreshold": 0
+      "name": "B-Bew."
     },
     {
       "color": "#FF8028",
@@ -81,46 +79,33 @@
       },
       "data": [
         [
-          "2011",
+          2011,
           14
         ],
         [
-          "2012",
+          2012,
           20
         ],
         [
-          "2013",
+          2013,
           12
         ],
         [
-          "2014",
+          2014,
           11
         ],
         [
-          "2015",
+          2015,
           6
         ],
         [
-          "2016",
+          2016,
           11
         ]
       ],
-      "name": "Übrige",
-      "turboThreshold": 0
+      "name": "Übrige"
     }
   ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": false,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "tickLength": 0
-  },
   "chart": {
     "events": {
       "load": function () {
@@ -189,6 +174,17 @@
       },
       "format": "{value:,.0f}"
     }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "type": "linear"
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
