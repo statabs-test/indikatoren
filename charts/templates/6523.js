@@ -6,21 +6,50 @@
             borderWidth: 0,
         }
    },
+ "data":{
+  	"switchRowsAndColumns": true
+  },
 
   "xAxis": {
     "type": "category"
   },
-  "yAxis": {
-  	//"min": 0,
-  	//"max": 0.5,
+     "yAxis": [{
     "labels": {
-      "format": "{value}%"
-    }    
+      "format": "{value:,.0f}",
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "min": 0,
+    "max": undefined,
+    "title": ""
   },
+  {
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "format": "{value:,.1f}",
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "min": 0,
+    "max": undefined,
+    "gridLineWidth": 0,
+    "opposite": true
+  }
+  ],
   "series": [
-  {"color": "#b00000"},
-  {"color": "#6F6F6F"}, 
-  {"color": "#008AC3"}  
+  {"color": "#b00000", "yAxis": 0},
+  {"color": "#6F6F6F", "yAxis": 0}, 
+  {"color": "#008AC3", "yAxis": 0},  
+  {"color": "#000000", "yAxis": 1, "type": "line", marker:{enabled: false}}  
+
   ],
   "legend": {
     "enabled": true,
