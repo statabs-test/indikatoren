@@ -384,8 +384,9 @@
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
         },
-    "y": 80,
+    "y": 70,
     "x": -5,
+    "margin": 3,
     "enabled": true,
     "itemWidth": 160
   },

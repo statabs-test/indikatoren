@@ -45,7 +45,7 @@
     { "color": "#FABD24", index: 2, legendIndex: 2}, // 
     { "color": "#999999", index: 0, legendIndex: 0}, // 
   ],
-   "legend": {
+  legend: {
     enabled:true,
     "layout": "vertical",
     "verticalAlign": "middle",
@@ -56,9 +56,7 @@
     }
   },
 "chart": {     
-	 //marginLeft: 140, 
-	 //marginBottom: 100,
      "inverted": false,
   },
-}
+};
 }());

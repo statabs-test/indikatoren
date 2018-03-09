@@ -52,8 +52,9 @@
      "inverted": true,
   },
   "legend": { 
-     y: 80,
+     y: 70,
      x: -5,
+     margin: 3,
     "enabled": true,
     "layout": "horizontal",
    "itemWidth": 160,

@@ -5,21 +5,21 @@
       "color": "#661200",
       "tooltip": {
         "pointFormatter": function (){
-          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b><br/>';
+          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100 * this.y),1) + '%</b><br/>';
         }
       },
       "data": [
         [
           "1990",
-          86.61
+          0.866
         ],
         [
           "2000",
-          83.11
+          0.831
         ],
         [
           "2011-2015",
-          79.96
+          0.8
         ]
       ],
       "name": "Schweizer",
@@ -30,7 +30,7 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function (){
-          return this.series.name + ': <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b><br/>';
+          return this.series.name + ': <b>' + Highcharts.numberFormat((100 * this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100 * this.high),1) + '%</b><br/>';
         }
       },
       "data": [
@@ -46,11 +46,11 @@
         },
         {
           "name": "2011-2015",
-          "low": 78.93,
-          "high": 80.99
+          "low": 0.789,
+          "high": 0.81
         }
       ],
-      "name": "95%-Vertrauensintervall",
+      "name": "Schweizer 95% Vertrauensintervall",
       "turboThreshold": 0
     },
     {
@@ -58,21 +58,21 @@
       "color": "#dc440e",
       "tooltip": {
         "pointFormatter": function (){
-          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b><br/>';
+          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100 * this.y),1) + '%</b><br/>';
         }
       },
       "data": [
         [
           "1990",
-          61.12
+          0.611
         ],
         [
           "2000",
-          70.88
+          0.709
         ],
         [
           "2011-2015",
-          75.72
+          0.757
         ]
       ],
       "name": "Schweizerinnen",
@@ -83,7 +83,7 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function (){
-          return this.series.name + ': <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b><br/>';
+          return this.series.name + ': <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100 * this.high),1) + '%</b><br/>';
         }
       },
       "data": [
@@ -99,11 +99,11 @@
         },
         {
           "name": "2011-2015",
-          "low": 74.68,
-          "high": 76.76
+          "low": 0.747,
+          "high": 0.768
         }
       ],
-      "name": "95%-Vertrauensintervall",
+      "name": "Schweizerinnen 95% Vertrauensintervall",
       "turboThreshold": 0
     },
     {
@@ -111,21 +111,21 @@
       "color": "#7f5f1a",
       "tooltip": {
         "pointFormatter": function (){
-          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b><br/>';
+          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100 * this.y),1) + '%</b><br/>';
         }
       },
       "data": [
         [
           "1990",
-          89.05
+          0.89
         ],
         [
           "2000",
-          83.75
+          0.837
         ],
         [
           "2011-2015",
-          84.93
+          0.849
         ]
       ],
       "name": "Ausländer",
@@ -136,7 +136,7 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function (){
-          return this.series.name + ': <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b><br/>';
+          return this.series.name + ': <b>' + Highcharts.numberFormat((100 * this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100 * this.high),1) + '%</b><br/>';
         }
       },
       "data": [
@@ -152,11 +152,11 @@
         },
         {
           "name": "2011-2015",
-          "low": 83.42,
-          "high": 86.44
+          "low": 0.838,
+          "high": 0.861
         }
       ],
-      "name": "95%- Vertrauensintervall",
+      "name": "Ausländer 95% Vertrauensintervall",
       "turboThreshold": 0
     },
     {
@@ -164,21 +164,21 @@
       "color": "#ffda80",
       "tooltip": {
         "pointFormatter": function (){
-          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b><br/>';
+          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100 * this.y),1) + '%</b><br/>';
         }
       },
       "data": [
         [
           "1990",
-          65.49
+          0.655
         ],
         [
           "2000",
-          72.86
+          0.729
         ],
         [
           "2011-2015",
-          71.61
+          0.716
         ]
       ],
       "name": "Ausländerinnen",
@@ -189,7 +189,7 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function (){
-          return this.series.name + ': <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b><br/>';
+          return this.series.name + ': <b>' + Highcharts.numberFormat((100 * this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100 * this.high),1) + '%</b><br/>';
         }
       },
       "data": [
@@ -205,11 +205,11 @@
         },
         {
           "name": "2011-2015",
-          "low": 70.1,
-          "high": 73.12
+          "low": 0.701,
+          "high": 0.731
         }
       ],
-      "name": "95%-Vertrauensintervall",
+      "name": "Ausländerinnen 95% Vertrauensintervall",
       "turboThreshold": 0
     }
   ],
@@ -307,7 +307,7 @@
         "color": "#000000"
       },
       "formatter": function (){
-            return Highcharts.numberFormat((this.value),0)+'%';                
+            return Highcharts.numberFormat((100 * this.value),0)+'%';                
         }
     }
   },
@@ -334,12 +334,12 @@
   },
   "legend": {
     "symbolRadius": 0,
-    "itemDistance": 12,
     "enabled": true,
+    "itemDistance": 12,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "y": 40,
+    "y": 45,
     "itemStyle": {
       "fontWeight": "normal"
     }
