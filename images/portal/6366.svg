@@ -96,7 +96,7 @@
   <g class="highcharts-plot-lines-4">
     <path fill="none" stroke="white" stroke-width="1" d="M 268.5 82 L 268.5 344" visibility="visible"/>
   </g>
-  <g class="highcharts-legend" transform="translate(54,45)">
+  <g class="highcharts-legend" transform="translate(172,45)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="171" height="25" visibility="visible"/>
     <g>
       <g>

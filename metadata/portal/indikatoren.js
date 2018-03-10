@@ -11198,7 +11198,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Je mehr Personen in einem Haushalt wohnen, desto kleiner ist die Wohnfläche pro Kopf. In einem Einpersonen-Haushalt beträgt diese 67,0&nbsp;m². In einem Familienhaushalt mit 5 Personen beträgt die Wohnfläche pro Kopf  20,2&nbsp;m².",
-		"erlaeuterungen": "Die Wohnungsfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung. Informationen zu den Haushaltstypen sind hier zu finden: <br/>-  <a href=’https:http://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html>Häufig Gefragt: Einwohner",
+		"erlaeuterungen": "Die Wohnungsfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung. Informationen zu den Haushaltstypen sind hier zu finden: <br/>-  <a href='http://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html' target='_blank'>Häufig Gefragt: Einwohner",
 		"template": "template001",
 		"visibleInPortal": true,
 		"orderKey": "_000",
