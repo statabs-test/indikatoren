@@ -103,6 +103,7 @@ $(document).ready(function(){
 function resetPortalFilter(FJS, view){
   if (isIndikatorensetView(view)){
     $('#searchbox').val('');
+    $("#stufe3_filter").prop('selectedIndex', 0);
     $("#stufe2_filter").prop('selectedIndex', 0);
     $("#stufe1_filter").prop('selectedIndex', 0);
     FJS.filter();
@@ -151,6 +152,7 @@ function initializeFilterJS(indikatorenset, perPage){
     FJS.addCriteria({field: "kennzahlenset", ele: "#kennzahlenset_filter", all: "all"});
     FJS.addCriteria({field: "stufe1", ele: "#stufe1_filter", all: "all"});
     FJS.addCriteria({field: "stufe2", ele: "#stufe2_filter", all: "all"});
+    FJS.addCriteria({field: "stufe3", ele: "#stufe3_filter", all: "all"});
   }  
   else {
     //Portal view
@@ -281,9 +283,11 @@ function prepareIndikatorensetView(indikatorenset){
 
   renderDropdownFromJson(indikatoren, 'stufe1', '#stufe1_filter', 'orderKey', baseQuery);
   renderDropdownFromJson(indikatoren, 'stufe2', '#stufe2_filter', 'orderKey', baseQuery);
+  renderDropdownFromJson(indikatoren, 'stufe3', '#stufe3_filter', 'orderKey', baseQuery);
 
   //add cascaded dropdowns functionality to stufe1 and stufe2
   configureCascadedControls('#stufe1_filter', '#stufe2_filter', '#stufe1_filter', 'all', 'stufe1', '#stufe2_filter', 'all', 'stufe2', baseQuery, 'orderKey'); 
+  configureCascadedControls('#stufe2_filter', '#stufe3_filter', '#stufe2_filter', 'all', 'stufe2', '#stufe3_filter', 'all', 'stufe3', baseQuery, 'orderKey'); 
 }
 
 
@@ -313,12 +317,13 @@ function configureCascadedControls(level1Selector, level2Selector, level1ValueSe
     }
   });
 
-
+  /*
   $(level2Selector).change(function(){
     //upon selection in level2 dropdown: if level1 is set to the first one (all), set level1 value to the single (or first) value that matches    
     var selectedValue = $(level2valueSelector).val();           
     //level2 value is not the first one in the list (all) and level1 value is the first one (all)
-    if (selectedValue !== level2allValue /*&& $(level1ValueSelector).val() === level1AllValue*/ ) {
+    if (selectedValue !== level2allValue // && $(level1ValueSelector).val() === level1AllValue
+      ) {
       var level1QueryString = $.extend(true, {}, baseQuery);
       //extend JsonQuery object    
       level1QueryString[level2Field] = selectedValue;
@@ -337,6 +342,7 @@ function configureCascadedControls(level1Selector, level2Selector, level1ValueSe
       }
     }
   });
+  */
 }
 
 
