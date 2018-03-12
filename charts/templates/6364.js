@@ -8,10 +8,8 @@
     },
    plotOptions: {
         series: {
-            pointPadding: 0,
-            borderWidth: 0,
-			itemWidth: 10, 
-
+          pointPadding: 0,
+          borderWidth: 0,
         }
    },
   "xAxis": {
