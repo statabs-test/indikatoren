@@ -661,7 +661,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Arbeitstage von Meldepflichtigen nach Geschlecht"
+    "text": "Anteil der weiblichen Meldepflichtigen nach Erwerbsstatus"
   },
   "subtitle": {
     "style": {
@@ -670,7 +670,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "2008 bis 2017",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {

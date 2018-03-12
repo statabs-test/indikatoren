@@ -333,7 +333,7 @@
           0.109
         ]
       ],
-      "name": "Öffentliche Verwaltung, Sozialversicherungen (inkl. staatl. Schulen)",
+      "name": "Öffentliche Verwaltung, Sozialversicherungen (inkl. staatl. Bildungsinstitutionen)",
       "turboThreshold": 0
     },
     {
@@ -526,7 +526,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Anteil in Prozent, Stand: 2016",
+    "text": "Stand: 2016",
     "align": "left"
   },
   "yAxis": {

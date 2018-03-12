@@ -142,7 +142,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Medianlohn in der Nordwestschweiz im Dienstleistungssektor (II)"
+    "text": "Medianlohn im Dienstleistungssektor (II)"
   },
   "subtitle": {
     "style": {
@@ -151,7 +151,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Median in Franken, 2010 bis 2014",
+    "text": "Median in Franken, Nordwestschweiz",
     "align": "left"
   },
   "yAxis": {

@@ -228,6 +228,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
+    "marginRight": 18,
     "renderTo": "container-6457"
   },
   "title": {
@@ -246,7 +247,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Anzahl Vollzeitäquivalente, 2005 bis 2015",
+    "text": "Anzahl Vollzeitäquivalente, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {

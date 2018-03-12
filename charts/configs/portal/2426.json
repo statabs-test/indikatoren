@@ -971,7 +971,7 @@
           1044
         ]
       ],
-      "name": "EU15EFTA",
+      "name": "EU\u002FEFTA",
       "turboThreshold": 0
     },
     {
@@ -2010,7 +2010,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "2008 bis 2017",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {

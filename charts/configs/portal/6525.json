@@ -84,7 +84,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Medianlohn in der Nordwestschweiz (Privatwirtschaft) nach Bewilligungsart 2014"
+    "text": "Medianlohn in der Privatwirtschaft nach Bewilligungsart"
   },
   "subtitle": {
     "style": {
@@ -93,7 +93,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Median in Franken, 2010 bis 2014",
+    "text": "In Franken, Nordwestschweiz, Stand: 2014",
     "align": "left"
   },
   "tooltip": {
