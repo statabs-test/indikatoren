@@ -15,8 +15,8 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Je mehr Personen in einem Haushalt wohnen, desto kleiner ist die Wohnfläche pro Kopf. In einem Einpersonen-Haushalt beträgt diese 67,0&nbsp;m². In einem Familienhaushalt mit 5 Personen beträgt die Wohnfläche pro Kopf  20,2&nbsp;m².",
-"erlaeuterungen":"Die Wohnungsfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung. Informationen zu den Haushaltstypen sind hier zu finden: <br/>-  <a href='http://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html' target='_blank'>Häufig Gefragt: Einwohner",
+"lesehilfe":"Je mehr Personen in einem Haushalt wohnen, desto kleiner ist die Wohnfläche pro Kopf. In einem Einpersonen-Haushalt beträgt diese 67,0m². In einem Familienhaushalt mit 5 Personen beträgt die Wohnfläche pro Kopf  20,2m².",
+"erlaeuterungen":"Die Wohnungsfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.",
 "template":"template001",
 "visible":true,
 "visibleInPortal":true,
@@ -25,5 +25,5 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"],
-"externalLinks":[""]
+"externalLinks":["Informationen zu den Haushaltstypen sind hier zu finden: <a href = 'http://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html' target = '_blank'>Häufig gefragt: Einwohner</a>."]
 }
