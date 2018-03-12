@@ -61,50 +61,59 @@
     pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
     shared: false
   },
-  "legend": {
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 7,
-    "align": "right",
+  "legend": { 
+  	//x:-5,
+     y: 45,
+    "enabled": true,
+    "layout": "horizontal",
+     "itemWidth": 210,
+    "verticalAlign": "top",
+    "align": "left",
     "itemStyle": {
-      "fontWeight": "normal", 
-      "width": 85
-    }
+    "fontWeight": "normal",
   },
+},
   "series": [
     {
       "color": "#ffbb58",
       "index": 1,
+      legendIndex: 2, // 1 zimmer
       "visible": false
     },
     {
       "color": "#73b97c",
-      "index": 2,
+      "index": 2, // 2 Zimmer
+      legendIndex: 4, 
       "visible": false
     },
     {
       "color": "#007a2f",
-      "index": 3,
+      "index": 3, //3 Zimmer
+       legendIndex: 6, 
       "visible": false
     },
     {
       "color": "#923f8d",
-      "index": 4,
+      "index": 4,//4 Zimmer
+       legendIndex: 8, 
       "visible": false
     },
     {
       "color": "#689199",
-      "index": 5,
+      "index": 5,//5 Zimmer
+       legendIndex: 10, 
       "visible": false
     },
      {
       "color": "#8A8A8A",
-      "index": 0,
+      "index": 0, // Alle
+       legendIndex: 0, 
       "visible": true
     },
     {
       "color": "#b00000",
-      "index": 5,
+      "index": 5, // Alle
+       legendIndex: 0, 
       "type": "line",
       "yAxis": 1,
       "marker": {
@@ -113,7 +122,8 @@
     },
     {
       "color": "#ffbb58",
-      "index": 6,
+      "index": 6, // 1 zimmer
+       legendIndex: 3, 
       "type": "line",
       "yAxis": 1,
       "marker": {
@@ -125,6 +135,7 @@
       "color": "#73b97c",
       "index": 7,
       "type": "line",
+      legendIndex: 5,  // 2 zimmer
       "yAxis": 1,
       "marker": {
 				"enabled": false
@@ -133,7 +144,8 @@
     },
     {
       "color": "#007a2f",
-      "index": 8,
+      "index": 8, // 3 zimmer
+      legendIndex: 7, 
       "type": "line",
       "yAxis": 1,
       "marker": {
@@ -144,6 +156,7 @@
     {
       "color": "#689199",
       "index": 9,
+      legendIndex: 9,  // 4 zimmer
       "type": "line",
       "yAxis": 1,
       "marker": {
@@ -154,6 +167,7 @@
     {
       "color": "#923f8d",
       "index": 10,
+      legendIndex: 11, // 5 zimmer
       "type": "line",
       "yAxis": 1,
       "marker": {
