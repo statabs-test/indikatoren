@@ -310,6 +310,7 @@ function renderDropdownFromJson(data, field, selector, sortKey, filterQueryStrin
     sortOptions[sortKey] = 'asc';
     JQ=JQ.order(sortOptions);
   }
+
   var allValues = JQ.pluck(field).all;
   //get unique values and filter out empty string 
   var uniqueValues = allValues.filter(function(item, i, ar){ return ar.indexOf(item) === i && item != ""; }); 
@@ -460,6 +461,10 @@ function getIndexByFid(fid){
 }
 
 
+function queryWithoutField(field){
+  
+}
+
 //after filtering is done: update dropdonws and their counts, create all carousel components
 var afterFilter = function(result, jQ){
     //$('#total_indikatoren').text(result.length);    
@@ -476,11 +481,45 @@ var afterFilter = function(result, jQ){
     //selectSingleEntryOrHideDropdown('#unterthema_filter');
     //selectSingleEntryOrHideDropdown('#stufe2_filter');
     
-    //populate dropdowns with filtered data
-    renderDropdownFromJson(result, 'unterthema', '#unterthema_filter', 'unterthema');
-    renderDropdownFromJson(result, 'stufe1', '#stufe1_filter', 'orderKey');
-    renderDropdownFromJson(result, 'stufe2', '#stufe2_filter', 'orderKey');
-    renderDropdownFromJson(result, 'stufe3', '#stufe3_filter', 'orderKey');
+  
+    function lastQueryWithoutField(field){
+      //get last Query JsonQuery Object of last filter event and remove the current filter value from it
+      try{
+        //deep copy object to preserve original
+        var jsonQ = $.extend(true, {}, window.FJS.last_query);        
+        delete jsonQ.where().criteria.where[field + '.$in'];
+        //if any of the where criteria contains an empty array as filter item: remove the clause to make jsonQuery work
+        $.each(jsonQ.where().criteria.where, function(index, value){
+          if (value === undefined){
+            delete jsonQ.where().criteria.where[index];
+          }
+        });
+        
+        /*
+        //handle full text search if it is defined in FJS
+        if(window.FJS.has_search){                
+          //only do full text search with minimum number of search characters               
+          if (window.FJS.search_text.length > window.FJS.opts.search.start_length){
+            var result = window.FJS.search(window.FJS.search_text, jsonQ.all);
+            return result;
+          }                
+        } 
+        */
+        return jsonQ;
+      }
+      catch(e){
+        //no filter after first page load, thus no criteria. Silently dismiss exception. 
+        //console.log(e);
+      }
+  }
+
+    
+    
+    
+    renderDropdownFromJson(indikatoren, 'unterthema', '#unterthema_filter', 'unterthema', lastQueryWithoutField('unterthema'));
+    renderDropdownFromJson(indikatoren, 'stufe1', '#stufe1_filter', 'orderKey', lastQueryWithoutField('stufe1'));
+    renderDropdownFromJson(indikatoren, 'stufe2', '#stufe2_filter', 'orderKey', lastQueryWithoutField('stufe2'));
+    renderDropdownFromJson(indikatoren, 'stufe3', '#stufe3_filter', 'orderKey', lastQueryWithoutField('stufe3'));
     
 
     //for multiselect dropdowns: rebuild control after select tag is updated
@@ -500,6 +539,7 @@ var afterFilter = function(result, jQ){
           //iterate over each displayed value of the criterion 
           items.each(function(){            
             var c = $(this), count = 0;           
+            
             //get last Query JsonQuery Object of last filter event and remove the current filter value from it
             try{
               var jsonQ = window.FJS.last_query;           
