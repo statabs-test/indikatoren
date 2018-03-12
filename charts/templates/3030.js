@@ -10,23 +10,24 @@
      }
   },
   "yAxis": {
-	"labels": {
+		"labels": {
 		"format": "{value:,.0f}",
 		"formatter": function(){
-        return Highcharts.numberFormat((this.value),0)+''; 
-      },
+        return Highcharts.numberFormat((this.value*100),0)+'%'; 
+      }, 
 	}
+
   },	
   tooltip: {
   "pointFormatter": function(){
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + ' </b><br/><b>' 
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + ' </b><br/><b>' 
     },
   },
  "series": [
  	 {"color": "#000000", "index": 0}, /**/
  	{"color": "#FABD24","index": 1}, /**/
-	{"color": "#007A2F", "index": 1}, /**/	  
-	{"color": "#923F8D", "index": 2}, /**/
+	{"color": "#923F8D", "index": 2}, /**/	  
+	{"color": "#007A2F", "index": 3}, /**/
 	  ],
   "legend": {
     "enabled": true,

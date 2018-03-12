@@ -45,11 +45,26 @@
   }
   ],
   "series": [
-  {"color": "#b00000", "yAxis": 0},
-  {"color": "#6F6F6F", "yAxis": 0}, 
-  {"color": "#008AC3", "yAxis": 0},  
-  {"color": "#000000", "yAxis": 1, "type": "line", marker:{enabled: false}}  
-
+  {"color": "#b00000", "yAxis": 0,
+  	tooltip: {
+    pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+	},  
+  },
+  {"color": "#6F6F6F", "yAxis": 0,
+  	tooltip: {
+    pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+	},  
+  }, 
+  {"color": "#008AC3", "yAxis": 0,
+  	tooltip: {
+    pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+	},  
+  },  
+  {"color": "#000000", "yAxis": 1, "type": "line", marker:{enabled: false},
+  	tooltip: {
+    pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
+	},  
+  },   
   ],
   "legend": {
     "enabled": true,
@@ -63,10 +78,6 @@
       "fontWeight": "normal"
     }
   },
-  tooltip: {
-    pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}</b><br/>',
-    shared: true
-  },  
   "chart": {      
     "type": "column",
     "inverted": false

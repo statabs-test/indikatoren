@@ -20,9 +20,8 @@
   },
  "series": [
   {"color": "#FF8028"}, 
-  {"color": "#DC440E"}, 
-  {"color": "#B00000"}, 
-	  ],
+  {"color": "#DC440E"}
+  ],
   "legend": {
     "enabled": true,
     "y": 45,

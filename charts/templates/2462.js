@@ -19,12 +19,12 @@
   },	
   tooltip: {
   "pointFormatter": function(){
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + ' </b><br/><b>' 
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + ' </b><br/><b>' 
     },
   },
  "series": [
- 	{"color": "#008AC3","index": 1}, /**/
-	{"color": "#923F8D", "index": 1}, /**/	  
+ 	{"color": "#923F8D","index": 1}, /**/
+	{"color": "#008AC3", "index": 1}, /**/	  
 	  ],
   "legend": {
     "enabled": true,
