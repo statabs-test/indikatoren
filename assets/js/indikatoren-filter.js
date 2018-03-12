@@ -286,11 +286,41 @@ function prepareIndikatorensetView(indikatorenset){
   renderDropdownFromJson(indikatoren, 'stufe3', '#stufe3_filter', 'orderKey', baseQuery);
 
   //add cascaded dropdowns functionality to stufe1 and stufe2
-  configureCascadedControls('#stufe1_filter', '#stufe2_filter', '#stufe1_filter', 'all', 'stufe1', '#stufe2_filter', 'all', 'stufe2', baseQuery, 'orderKey'); 
-  configureCascadedControls('#stufe2_filter', '#stufe3_filter', '#stufe2_filter', 'all', 'stufe2', '#stufe3_filter', 'all', 'stufe3', baseQuery, 'orderKey'); 
+  //configureCascadedControls('#stufe1_filter', '#stufe2_filter', '#stufe1_filter', 'all', 'stufe1', '#stufe2_filter', 'all', 'stufe2', baseQuery, 'orderKey'); 
+  //configureCascadedControls('#stufe2_filter', '#stufe3_filter', '#stufe2_filter', 'all', 'stufe2', '#stufe3_filter', 'all', 'stufe3', baseQuery, 'orderKey'); 
+  configureCascadedControls2(['#stufe1_filter', '#stufe2_filter'], ['#stufe2_filter','#stufe3_filter'], ['all', 'all'], ['stufe1', 'stufe2'], baseQuery, ['orderKey', 'orderKey']); 
 }
 
-
+function configureCascadedControls2(selectors, valueSelectors, allValues, fields, baseQuery, sortKeys){
+  //iterate over controls: first to 2nd last
+  for (var i = 0; i < selectors.length-1; i++){
+    $(selectors[i]).change(function(){    
+      //iterate over controls: current + 1 to last
+      for (var j = i+1; j< selectors.length; j++){
+        //save currently selected value
+        var currentLevel2Value = $(selectors[j]).val(); 
+        //set 2nd level dropdown to first (all)
+        $(selectors[j] + ' :nth-child(1)').prop('selected', true);
+        $(selectors[j]).change();
+        //filter 2nd level to include only values that occur together with selected 1st level value
+        var level2QueryString = $.extend(true, {}, baseQuery); 
+        var selectedValue = $(valueSelectors[i]).val();
+        if (selectedValue !== allValues[i]) {
+          level2QueryString[fields[i]] = selectedValue;
+        }
+        renderDropdownFromJson(indikatoren, fields[j], selectors[j], sortKeys[j], level2QueryString);
+        //re-set previously selected value if level 1 is not "all"
+        if (selectedValue !== allValues[i]){
+          $(selectors[j]).val(currentLevel2Value);
+        }
+        //if no item is selected now, select the first one
+        if (!$(selectors[j]).val()){
+          $(selectors[j] + ' :nth-child(1)').prop('selected', true);
+        }
+      }
+    });  
+  }
+}
 //add cascaded dropdowns functionality to level1 and level2
 function configureCascadedControls(level1Selector, level2Selector, level1ValueSelector, level1AllValue, level1Field, level2valueSelector, level2allValue, level2Field, baseQuery, level2SortKey){  
 
