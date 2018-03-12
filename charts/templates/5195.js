@@ -75,13 +75,13 @@
 },
   "series": [
     {
-      "color": "#ffbb58",
+      "color": "#B00000",
       "index": 1,
       legendIndex: 2, // 1 zimmer
       "visible": false
     },
     {
-      "color": "#73b97c",
+      "color": "#ffbb58",
       "index": 2, // 2 Zimmer
       legendIndex: 4, 
       "visible": false
@@ -99,7 +99,7 @@
       "visible": false
     },
     {
-      "color": "#689199",
+      "color": "#2B0099",
       "index": 5,//5 Zimmer
        legendIndex: 10, 
       "visible": false
@@ -111,7 +111,7 @@
       "visible": true
     },
     {
-      "color": "#b00000",
+      "color": "#000000",
       "index": 5, // Alle
        legendIndex: 0, 
       "type": "line",
@@ -121,7 +121,7 @@
 			}
     },
     {
-      "color": "#ffbb58",
+      "color": "#B00000",
       "index": 6, // 1 zimmer
        legendIndex: 3, 
       "type": "line",
@@ -132,7 +132,7 @@
       "visible": false
     },
     {
-      "color": "#73b97c",
+      "color": "#ffbb58",
       "index": 7,
       "type": "line",
       legendIndex: 5,  // 2 zimmer
@@ -154,7 +154,7 @@
       "visible": false
     },
     {
-      "color": "#689199",
+      "color": "#923f8d",
       "index": 9,
       legendIndex: 9,  // 4 zimmer
       "type": "line",
@@ -165,7 +165,7 @@
       "visible": false
     },
     {
-      "color": "#923f8d",
+      "color": "#2B0099",
       "index": 10,
       legendIndex: 11, // 5 zimmer
       "type": "line",
