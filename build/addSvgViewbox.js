@@ -29,7 +29,7 @@ views.forEach(function(view){
             }
         }
         catch(error){
-            console.log('Exception in ' + indikator.id + ': ' + error);
+            console.log('Exception in ' + id + ': ' + error);
         }
     });
 });
