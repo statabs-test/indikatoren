@@ -6,7 +6,7 @@
       "legendIndex": 1,
       "type": "column",
       "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} kg\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f} kg\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
         [
@@ -78,7 +78,7 @@
           150.719460808585
         ]
       ],
-      "name": "Siedlungsabfälle (linke skala; Hauskehricht und Sperrgut)",
+      "name": "Siedlungsabfälle (Hauskehricht und Sperrgut)",
       "turboThreshold": 0
     },
     {
@@ -87,7 +87,7 @@
       "legendIndex": 2,
       "type": "column",
       "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} kg\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f} kg\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
         [
@@ -159,7 +159,7 @@
           122.642229924315
         ]
       ],
-      "name": "Wertstoffsammlungen (linke Skala)",
+      "name": "Wertstoffsammlungen",
       "turboThreshold": 0
     },
     {
@@ -331,7 +331,7 @@
         "text": null
       },
       "labels": {
-        "format": "{value:,.0f} kg",
+        "format": "{value:,.0f}",
         "style": {
           "color": "#000000"
         }

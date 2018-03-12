@@ -105,7 +105,7 @@
     },
     "align": "left",
     "useHTML": true,
-    "text": "Durchschnittlicher Wohnflächenverbrauch pro Kopf"
+    "text": "Mittlere Wohnfläche pro Kopf"
   },
   "subtitle": {
     "style": {
@@ -163,9 +163,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
   },
   "legend": {
     "enabled": false,

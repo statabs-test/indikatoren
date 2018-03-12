@@ -51,7 +51,7 @@
         //"legendIndex": 2,
         "type": "column",
         "tooltip": {
-      		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+      		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f} Tonnen</b><br/>',
          }
       }, // Blau
       {
@@ -63,7 +63,7 @@
           "enabled": false
       },
       "tooltip": {
-      		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}</b><br/>',
+      		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f} Tonnen</b><br/>',
        }
       }
     ],

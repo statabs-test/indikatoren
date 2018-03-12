@@ -5,7 +5,7 @@
       "color": "#71A3B5",
       "type": "column",
       "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} Tonnen\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
         [
@@ -21,7 +21,7 @@
           755094.785461333
         ]
       ],
-      "name": "CO2-Emissionen in Tonnen total (linke Skala)",
+      "name": "CO2-Emissionen Total",
       "turboThreshold": 0
     },
     {
@@ -32,7 +32,7 @@
         "enabled": false
       },
       "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f} Tonnen\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
         [
@@ -48,7 +48,7 @@
           3.85083476363092
         ]
       ],
-      "name": "CO2-Emissionen in Tonnen pro Kopf (rechte Skala)",
+      "name": "CO2-Emissionen pro Kopf (rechte Skala)",
       "turboThreshold": 0
     }
   ],

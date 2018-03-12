@@ -21,7 +21,7 @@
         text: null
     },
     "labels": {
-      "format": "{value:,.0f} kg",
+      "format": "{value:,.0f}",
        "style": {
        "color": "#000000"
         },
@@ -48,7 +48,7 @@
       "legendIndex": 1,
       "type": "column",
        "tooltip": {
-    		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f} kg</b><br/>',
+    		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f} kg</b><br/>',
        }
     }, // Rot
     {
@@ -57,7 +57,7 @@
       "legendIndex": 2,
       "type": "column",
       "tooltip": {
-    		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f} kg</b><br/>',
+    		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f} kg</b><br/>',
        }
     }, // Blau
     {
