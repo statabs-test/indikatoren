@@ -1,3 +1,7 @@
+/*
+global Highcharts
+*/
+
 (function(){
     return {
 	plotOptions: {
@@ -30,22 +34,22 @@
     "verticalAlign": "top",
     "align": "left",
     //"x": 25,
-	"y": 55,  
-	"itemWidth": 50,
+	  "y": 55,  
+	  //"itemWidth": 50,
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
  tooltip: {
   "pointFormatter": function(){
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>' 
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>'; 
     },
   },  
   "chart": {      
     "type": "column",
     "inverted": false
   }
-}
+};
 }());
 
  
