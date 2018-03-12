@@ -3,6 +3,9 @@
     {
       "color": "#b00000",
       "yAxis": 0,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
       "data": [
         [
           "2010",
@@ -23,6 +26,9 @@
     {
       "color": "#6F6F6F",
       "yAxis": 0,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
       "data": [
         [
           "2010",
@@ -43,6 +49,9 @@
     {
       "color": "#008AC3",
       "yAxis": 0,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
       "data": [
         [
           "2010",
@@ -66,6 +75,9 @@
       "type": "line",
       "marker": {
         "enabled": false
+      },
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
         [
@@ -224,10 +236,6 @@
     "itemStyle": {
       "fontWeight": "normal"
     }
-  },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": true
   },
   "exporting": {
     "filename": 6523
