@@ -16,7 +16,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Die Anzahl volljähriger Personen mit Hauptwohnsitz in Basel-Stadt nimmt stetig zu. Diese Personen versteuern ihr Einkommen oder ihre Vermögenswerte, falls vorhanden, in der Regel in Basel-Stadt.",
-"erlaeuterungen":"Für den Indikator werden die Personen ab 18 Jahren mit HWS (Bevölkerungstyp: Nichtständige Wohnbevölkerung und Ständige Wohnbevölkerung) berücksichtigt.",
+"erlaeuterungen":"Für den Indikator werden die Personen ab 18 Jahren mit dem Meldeverhältnis Hauptwohnsitz in Basel-Stadt und dem Bevölkerungstyp Nichtständige Wohnbevölkerung oder Ständige Wohnbevölkerung berücksichtigt.",
 "template":"line001",
 "visible":true,
 "visibleInPortal":true,

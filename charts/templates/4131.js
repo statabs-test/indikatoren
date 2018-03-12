@@ -10,8 +10,8 @@
         "stacking": "percent"
       }
     },
-    "xAxis": {
-      tickInterval: 1,
+    xAxis: {
+      tickInterval: 1
     },
     "yAxis": {
       "labels": {
