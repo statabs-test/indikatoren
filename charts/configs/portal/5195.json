@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#ffbb58",
+      "color": "#B00000",
       "index": 1,
       "legendIndex": 2,
       "visible": false,
@@ -58,7 +58,7 @@
       "name": "1-Zimmer"
     },
     {
-      "color": "#73b97c",
+      "color": "#ffbb58",
       "index": 2,
       "legendIndex": 4,
       "visible": false,
@@ -229,7 +229,7 @@
       "name": "4-Zimmer"
     },
     {
-      "color": "#689199",
+      "color": "#2B0099",
       "index": 5,
       "legendIndex": 10,
       "visible": false,
@@ -343,7 +343,7 @@
       "name": "Anzahl leere Wohnungen"
     },
     {
-      "color": "#b00000",
+      "color": "#000000",
       "index": 5,
       "legendIndex": 0,
       "type": "line",
@@ -404,7 +404,7 @@
       "name": "LWQ alle Wohnungen (rechte Skala)"
     },
     {
-      "color": "#ffbb58",
+      "color": "#B00000",
       "index": 6,
       "legendIndex": 3,
       "type": "line",
@@ -466,7 +466,7 @@
       "name": "LWQ 1-Zimmer"
     },
     {
-      "color": "#73b97c",
+      "color": "#ffbb58",
       "index": 7,
       "type": "line",
       "legendIndex": 5,
@@ -590,7 +590,7 @@
       "name": "LWQ 3-Zimmer"
     },
     {
-      "color": "#689199",
+      "color": "#923f8d",
       "index": 9,
       "legendIndex": 9,
       "type": "line",
@@ -652,7 +652,7 @@
       "name": "LWQ 4-Zimmer"
     },
     {
-      "color": "#923f8d",
+      "color": "#2B0099",
       "index": 10,
       "legendIndex": 11,
       "type": "line",
