@@ -86,12 +86,9 @@ $(document).ready(function(){
       }
       
       //determine how many chart previews to display
-      var perPage = parseInt(window.decodeURIComponent($.url('?PerPage')));
+      var perPage = parseInt(window.decodeURIComponent($.url('?PerPage')), 10);
       //parameter must be an int, see https://stackoverflow.com/a/14636652 
-      if (perPage > 0 && perPage <= 32){
-        perPage=perPage;
-      }
-      else {
+      if (!(perPage > 0 && perPage <= 32)){
         perPage=16;
       }
       initializeFilterJS(indikatorenset, perPage);
@@ -259,9 +256,6 @@ function preparePortalView(){
   var baseQuery = {};
   //render unterthema dropdown for the first time   
   renderDropdownFromJson(indikatoren, 'unterthema', '#unterthema_filter', 'unterthema', baseQuery);
-      
-  //configure unterthema to be filtered correctly upon change of thema           
-  configureCascadedControls('#thema_criteria', '#unterthema_filter', "#thema_criteria :checked", 'Alle', 'thema','#unterthema_filter', 'all', 'unterthema', baseQuery, 'unterthema');  
 }
 
 
@@ -284,95 +278,6 @@ function prepareIndikatorensetView(indikatorenset){
   renderDropdownFromJson(indikatoren, 'stufe1', '#stufe1_filter', 'orderKey', baseQuery);
   renderDropdownFromJson(indikatoren, 'stufe2', '#stufe2_filter', 'orderKey', baseQuery);
   renderDropdownFromJson(indikatoren, 'stufe3', '#stufe3_filter', 'orderKey', baseQuery);
-
-  //add cascaded dropdowns functionality to stufe1 and stufe2
-  //configureCascadedControls('#stufe1_filter', '#stufe2_filter', '#stufe1_filter', 'all', 'stufe1', '#stufe2_filter', 'all', 'stufe2', baseQuery, 'orderKey'); 
-  //configureCascadedControls('#stufe2_filter', '#stufe3_filter', '#stufe2_filter', 'all', 'stufe2', '#stufe3_filter', 'all', 'stufe3', baseQuery, 'orderKey'); 
-  configureCascadedControls2(['#stufe1_filter', '#stufe2_filter'], ['#stufe2_filter','#stufe3_filter'], ['all', 'all'], ['stufe1', 'stufe2'], baseQuery, ['orderKey', 'orderKey']); 
-}
-
-function configureCascadedControls2(selectors, valueSelectors, allValues, fields, baseQuery, sortKeys){
-  //iterate over controls: first to 2nd last
-  for (var i = 0; i < selectors.length-1; i++){
-    $(selectors[i]).change(function(){    
-      //iterate over controls: current + 1 to last
-      for (var j = i+1; j< selectors.length; j++){
-        //save currently selected value
-        var currentLevel2Value = $(selectors[j]).val(); 
-        //set 2nd level dropdown to first (all)
-        $(selectors[j] + ' :nth-child(1)').prop('selected', true);
-        $(selectors[j]).change();
-        //filter 2nd level to include only values that occur together with selected 1st level value
-        var level2QueryString = $.extend(true, {}, baseQuery); 
-        var selectedValue = $(valueSelectors[i]).val();
-        if (selectedValue !== allValues[i]) {
-          level2QueryString[fields[i]] = selectedValue;
-        }
-        renderDropdownFromJson(indikatoren, fields[j], selectors[j], sortKeys[j], level2QueryString);
-        //re-set previously selected value if level 1 is not "all"
-        if (selectedValue !== allValues[i]){
-          $(selectors[j]).val(currentLevel2Value);
-        }
-        //if no item is selected now, select the first one
-        if (!$(selectors[j]).val()){
-          $(selectors[j] + ' :nth-child(1)').prop('selected', true);
-        }
-      }
-    });  
-  }
-}
-//add cascaded dropdowns functionality to level1 and level2
-function configureCascadedControls(level1Selector, level2Selector, level1ValueSelector, level1AllValue, level1Field, level2valueSelector, level2allValue, level2Field, baseQuery, level2SortKey){  
-
-  $(level1Selector).change(function(){    
-    //save currently selected value
-    var currentLevel2Value = $(level2Selector).val(); 
-    //set 2nd level dropdown to first (all)
-    $(level2Selector + ' :nth-child(1)').prop('selected', true);
-    $(level2Selector).change();
-    //filter 2nd level to include only values that occur together with selected 1st level value
-    var level2QueryString = $.extend(true, {}, baseQuery); 
-    var selectedValue = $(level1ValueSelector).val();
-    if (selectedValue !== level1AllValue) {
-      level2QueryString[level1Field] = selectedValue;
-    }
-    renderDropdownFromJson(indikatoren, level2Field, level2Selector, level2SortKey, level2QueryString);
-    //re-set previously selected value if level 1 is not "all"
-    if (selectedValue !== level1AllValue){
-      $(level2Selector).val(currentLevel2Value);
-    }
-    //if no item is selected now, select the first one
-    if (!$(level2Selector).val()){
-      $(level2Selector + ' :nth-child(1)').prop('selected', true);
-    }
-  });
-
-  /*
-  $(level2Selector).change(function(){
-    //upon selection in level2 dropdown: if level1 is set to the first one (all), set level1 value to the single (or first) value that matches    
-    var selectedValue = $(level2valueSelector).val();           
-    //level2 value is not the first one in the list (all) and level1 value is the first one (all)
-    if (selectedValue !== level2allValue // && $(level1ValueSelector).val() === level1AllValue
-      ) {
-      var level1QueryString = $.extend(true, {}, baseQuery);
-      //extend JsonQuery object    
-      level1QueryString[level2Field] = selectedValue;
-      //find first level1 value that matches the selected level2 value
-      var result = JsonQuery(indikatoren).where(level1QueryString).all[0][level1Field];
-      //set level1 to the found value
-      if (level1ValueSelector.indexOf('checked') > -1) {
-        //for radios: 
-        $(level1Selector).find('[value="' + result + '"]').prop('checked', true);
-        $(level1Selector).change();
-      }
-      else {
-        //for dropdown: 
-        $(level1Selector).val([result]);
-        $(level1Selector).change();
-      }
-    }
-  });
-  */
 }
 
 
@@ -411,6 +316,9 @@ function renderDropdownFromJson(data, field, selector, sortKey, filterQueryStrin
   var html = $('#option-template').html();
   var templateFunction = FilterJS.templateBuilder(html);
   var container = $(selector);
+  
+  //save the currently selected value first
+  var currentValue = $(selector).val(); 
   //remove options if any are present, but leave the first one
   var optionsToRemove = selector+' > option:gt(0)';  
   $(optionsToRemove).remove();
@@ -418,6 +326,12 @@ function renderDropdownFromJson(data, field, selector, sortKey, filterQueryStrin
   $.each(uniqueValues, function(i, c){
     container.append(templateFunction({ key: c, value: c }));
   });
+  //re-set previously selected value 
+  $(selector).val(currentValue);
+  //if no item is selected now, select the first one
+  if (!$(selector).val()){
+    $(selector + ' :nth-child(1)').prop('selected', true);
+  }
 }
 
 
@@ -546,7 +460,7 @@ function getIndexByFid(fid){
 }
 
 
-//after filtering is done: update counts in dropdowns and create all carousel components
+//after filtering is done: update dropdonws and their counts, create all carousel components
 var afterFilter = function(result, jQ){
     //$('#total_indikatoren').text(result.length);    
 
@@ -559,8 +473,15 @@ var afterFilter = function(result, jQ){
     updateCountsExclusive('#raeumlicheGliederung_filter > option', 'raeumlicheGliederung', optionCountRenderFunction, result, jQ);
 
     //hide dropdowns if no specific values present, or select the single specific value
-    selectSingleEntryOrHideDropdown('#unterthema_filter');
-    selectSingleEntryOrHideDropdown('#stufe2_filter');
+    //selectSingleEntryOrHideDropdown('#unterthema_filter');
+    //selectSingleEntryOrHideDropdown('#stufe2_filter');
+    
+    //populate dropdowns with filtered data
+    renderDropdownFromJson(result, 'unterthema', '#unterthema_filter', 'unterthema');
+    renderDropdownFromJson(result, 'stufe1', '#stufe1_filter', 'orderKey');
+    renderDropdownFromJson(result, 'stufe2', '#stufe2_filter', 'orderKey');
+    renderDropdownFromJson(result, 'stufe3', '#stufe3_filter', 'orderKey');
+    
 
     //for multiselect dropdowns: rebuild control after select tag is updated
     $('#schlagwort_filter').multiselect('rebuild');
@@ -660,7 +581,7 @@ var afterFilter = function(result, jQ){
     function createCarousel(result){            
       //add a carousel-inner div for each thumbnail
       //build template function using template from DOM
-      var template = (isIndikatorensetView(indikatorensetView)) ? '#indikator-template-modal-indikatorenset' : '#indikator-template-modal-portal';
+      var template = (isIndikatorensetView(view)) ? '#indikator-template-modal-indikatorenset' : '#indikator-template-modal-portal';
       var html = $(template).html();
       var templateFunction = FilterJS.templateBuilder(html);
       var container = $('#carousel-inner');
