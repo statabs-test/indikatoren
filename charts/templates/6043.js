@@ -57,17 +57,18 @@
     "shared": false,
     "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.0f}</b><br/>'
   },  
-  "legend": {
+  "legend": { 
+     y: 35,
+    "enabled": true,
     "layout": "horizontal",
+    "itemWidth": 1000,
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
-    "x": 43,
-    "y": 35,
     "align": "left",
     "itemStyle": {
-      "fontWeight": "normal"
-    }
+    "fontWeight": "normal"
+    
   },
+},
   "series": [
     {
       "color": "#FABD24",
@@ -77,19 +78,18 @@
     {
       "color": "#008AC3",
       "type": "column", 
-      "legendIndex": 0
+      "legendIndex": 1
     },
     {
       "color": "#9F7C5A",
       "type": "line",
       "yAxis": 1,
       "stacking": null, 
-      "legendIndex": 4
+      "legendIndex": 0
     }    
   ],
   "chart": {
     "marginBottom": 65,
-    "marginTop": 100,
     "type": "column"
   }
 	}
