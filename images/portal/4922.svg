@@ -47,52 +47,52 @@
   </g>
   <g class="highcharts-series-group">
     <g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(47,75) scale(1 1)" clip-path="url(#a)">
-      <rect x="11" y="217" width="8" height="59" fill="#FABD24" class="highcharts-point"/>
-      <rect x="44" y="187" width="8" height="89" fill="#FABD24" class="highcharts-point"/>
-      <rect x="76" y="183" width="8" height="93" fill="#FABD24" class="highcharts-point"/>
-      <rect x="108" y="187" width="8" height="89" fill="#FABD24" class="highcharts-point"/>
-      <rect x="141" y="141" width="8" height="135" fill="#FABD24" class="highcharts-point"/>
-      <rect x="173" y="128" width="8" height="148" fill="#FABD24" class="highcharts-point"/>
-      <rect x="205" y="115" width="8" height="161" fill="#FABD24" class="highcharts-point"/>
-      <rect x="238" y="107" width="8" height="169" fill="#FABD24" class="highcharts-point"/>
-      <rect x="270" y="86" width="8" height="190" fill="#FABD24" class="highcharts-point"/>
-      <rect x="302" y="77" width="8" height="199" fill="#FABD24" class="highcharts-point"/>
-      <rect x="335" y="73" width="8" height="203" fill="#FABD24" class="highcharts-point"/>
-      <rect x="367" y="106" width="8" height="170" fill="#FABD24" class="highcharts-point"/>
-      <rect x="399" y="106" width="8" height="170" fill="#FABD24" class="highcharts-point"/>
+      <rect x="7" y="217" width="13" height="59" fill="#FABD24" class="highcharts-point"/>
+      <rect x="39" y="187" width="13" height="89" fill="#FABD24" class="highcharts-point"/>
+      <rect x="72" y="183" width="13" height="93" fill="#FABD24" class="highcharts-point"/>
+      <rect x="104" y="187" width="13" height="89" fill="#FABD24" class="highcharts-point"/>
+      <rect x="136" y="141" width="13" height="135" fill="#FABD24" class="highcharts-point"/>
+      <rect x="169" y="128" width="13" height="148" fill="#FABD24" class="highcharts-point"/>
+      <rect x="201" y="115" width="13" height="161" fill="#FABD24" class="highcharts-point"/>
+      <rect x="233" y="107" width="13" height="169" fill="#FABD24" class="highcharts-point"/>
+      <rect x="266" y="86" width="13" height="190" fill="#FABD24" class="highcharts-point"/>
+      <rect x="298" y="77" width="13" height="199" fill="#FABD24" class="highcharts-point"/>
+      <rect x="330" y="73" width="13" height="203" fill="#FABD24" class="highcharts-point"/>
+      <rect x="363" y="106" width="13" height="170" fill="#FABD24" class="highcharts-point"/>
+      <rect x="395" y="106" width="13" height="170" fill="#FABD24" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(47,75) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(47,75) scale(1 1)" clip-path="url(#a)">
-      <rect x="21" y="165" width="8" height="111" fill="#923F8D" class="highcharts-point"/>
-      <rect x="53" y="169" width="8" height="107" fill="#923F8D" class="highcharts-point"/>
-      <rect x="86" y="144" width="8" height="132" fill="#923F8D" class="highcharts-point"/>
-      <rect x="118" y="133" width="8" height="143" fill="#923F8D" class="highcharts-point"/>
-      <rect x="150" y="114" width="8" height="162" fill="#923F8D" class="highcharts-point"/>
-      <rect x="183" y="85" width="8" height="191" fill="#923F8D" class="highcharts-point"/>
-      <rect x="215" y="87" width="8" height="189" fill="#923F8D" class="highcharts-point"/>
-      <rect x="247" y="62" width="8" height="214" fill="#923F8D" class="highcharts-point"/>
-      <rect x="280" y="75" width="8" height="201" fill="#923F8D" class="highcharts-point"/>
-      <rect x="312" y="77" width="8" height="199" fill="#923F8D" class="highcharts-point"/>
-      <rect x="344" y="85" width="8" height="191" fill="#923F8D" class="highcharts-point"/>
-      <rect x="377" y="89" width="8" height="187" fill="#923F8D" class="highcharts-point"/>
-      <rect x="409" y="83" width="8" height="193" fill="#923F8D" class="highcharts-point"/>
+      <rect x="20" y="165" width="13" height="111" fill="#923F8D" class="highcharts-point"/>
+      <rect x="52" y="169" width="13" height="107" fill="#923F8D" class="highcharts-point"/>
+      <rect x="85" y="144" width="13" height="132" fill="#923F8D" class="highcharts-point"/>
+      <rect x="117" y="133" width="13" height="143" fill="#923F8D" class="highcharts-point"/>
+      <rect x="149" y="114" width="13" height="162" fill="#923F8D" class="highcharts-point"/>
+      <rect x="182" y="85" width="13" height="191" fill="#923F8D" class="highcharts-point"/>
+      <rect x="214" y="87" width="13" height="189" fill="#923F8D" class="highcharts-point"/>
+      <rect x="246" y="62" width="13" height="214" fill="#923F8D" class="highcharts-point"/>
+      <rect x="279" y="75" width="13" height="201" fill="#923F8D" class="highcharts-point"/>
+      <rect x="311" y="77" width="13" height="199" fill="#923F8D" class="highcharts-point"/>
+      <rect x="343" y="85" width="13" height="191" fill="#923F8D" class="highcharts-point"/>
+      <rect x="376" y="89" width="13" height="187" fill="#923F8D" class="highcharts-point"/>
+      <rect x="408" y="83" width="13" height="193" fill="#923F8D" class="highcharts-point"/>
     </g>
     <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(47,75) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Entwicklung des Frauenanteils im grossen Rat</tspan>
   </text>
-  <g class="highcharts-legend" transform="translate(128,45)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="239" height="25" visibility="visible"/>
+  <g class="highcharts-legend" transform="translate(39,45)">
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="200" height="25" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(8,3)">
           <text x="21" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
-            <tspan>Grossratswahlen</tspan>
+            <tspan>Gewählte</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#FABD24" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(138.96875,3)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(99.65625,3)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Kandidaturen</tspan>
           </text>

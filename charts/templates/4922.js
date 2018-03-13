@@ -1,7 +1,10 @@
 (function(){
     return {
   "plotOptions": {
-    "series": {      
+    "series": {    
+    	pointPadding: 0, 
+		groupPadding: 0.1, 
+		borderWidth: 0,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -33,8 +36,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 118,
-		"y": 35,    
+	"y": 35,    
     "itemStyle": {
       "fontWeight": "normal"
     }

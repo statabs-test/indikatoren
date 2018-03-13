@@ -5690,7 +5690,7 @@ var indikatoren = [
 		"description": "Wahlbeteiligung bei National- und Grossratswahlen",
 		"thema": "17 Politik",
 		"unterthema": "Wahlen",
-		"kennzahlenset": "Nachhaltigkeit",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -5714,7 +5714,7 @@ var indikatoren = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt"
+			"Staatskanzlei Basel-Stadt"
 		],
 		"externalLinks": [
 			""

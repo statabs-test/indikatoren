@@ -63,13 +63,13 @@
       <g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(8,3)">
           <text x="21" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
-            <tspan>NR</tspan>
+            <tspan>Nationalrat</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#008AC3" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(8,17)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>GR</tspan>
+            <tspan>Grossrat</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#B6CFD7" class="highcharts-point"/>
         </g>
@@ -78,22 +78,22 @@
   </g>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
     <text x="82.66666666666666" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="383" opacity="1">
-      <tspan>2007 (NR)</tspan>
+      2007
     </text>
     <text x="154" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="383" opacity="1">
-      <tspan>2008 (GR)</tspan>
+      2008
     </text>
     <text x="225.33333333333334" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="383" opacity="1">
-      <tspan>2011 (NR)</tspan>
+      2011
     </text>
     <text x="296.66666666666663" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="383" opacity="1">
-      <tspan>2012 (GR)</tspan>
+      2012
     </text>
     <text x="368" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="383" opacity="1">
-      <tspan>2015 (NR)</tspan>
+      2015
     </text>
     <text x="439.3333333333333" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="383" opacity="1">
-      <tspan>2016 (GR)</tspan>
+      2016
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">

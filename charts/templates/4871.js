@@ -1,38 +1,68 @@
 (function(){
     return {
-  "plotOptions": {
-    "series": {
-      "dataLabels": {
-        "enabled": true,
-        "format": "{y:,.1f}%"
-      }
+	plotOptions: {
+    series: {
+        pointPadding: 0,
+        borderWidth: 0,
+        events: {
+          //make sure the bars are properly aligned when a series is hidden
+          hide: function(event){
+            this.chart.update(
+              {
+                "series": [
+                    {pointPlacement: null},
+                    {pointPlacement: null}, 
+                  ]              
+              }
+            );
+          },
+          show: function(event){
+            this.chart.update(
+              {
+                "series": [
+                    {pointPlacement: 0.15},
+                    {pointPlacement: -0.15}, 
+                  ]              
+              }
+            );
+          }
+          
+        }
     }
+  },
+  "xAxis": {
+    "type": "category"
   },
   "yAxis": {
     "labels": {
-      "format": "{value:,.0f}%"
-    },
-  },
-  "xAxis": {
-    "type": "category",
-    "tickInterval": 1
-  },
-  "legend": {
-    "enabled": false
+      "format": "{value}%" 
+    }    
   },
   "series": [
-    {
-    "color": "#0070C0"
-    }
+    {"color": "#008AC3", pointPlacement: 0.15, pointWidth: 20},
+    {"color": "#B6CFD7", pointPlacement: -0.15, pointWidth: 20}, 
   ],
-  "tooltip": {
-    "shared": false,
-    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>'
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    //"x": 25,
+	"y": 35,  
+	"itemWidth": 300,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
   },
-  "chart": {
-    "marginBottom": 65,
-    "marginTop": 75,
-    "type": "column"
-  }
-	}
+  tooltip: {
+    pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>',
+    shared: false
+  },  
+  "chart": {      
+    "type": "column",
+    "inverted": false, 
+  },  
+};
 }());
+
+ 
