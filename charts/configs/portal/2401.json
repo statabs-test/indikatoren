@@ -310,7 +310,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Veränderungsrate gegenüber Vorjahr; Stand: 2016",
+    "text": "Veränderungsrate gegenüber Vorjahr",
     "align": "left"
   },
   "yAxis": {

@@ -241,7 +241,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Nominales Bruttoinlandprodukt pro Kopf nach Kanton",
-		"subtitle": "In Franken; Stand: 2016",
+		"subtitle": "In Franken",
 		"kuerzel": "I.04.2.02400",
 		"kuerzelKunde": "3.1-01",
 		"description": "Nominales Bruttoinlandprodukt pro Kopf nach Kanton",
@@ -279,7 +279,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wachstumsrate des realen BIP nach Kanton",
-		"subtitle": "Veränderungsrate gegenüber Vorjahr; Stand: 2016",
+		"subtitle": "Veränderungsrate gegenüber Vorjahr",
 		"kuerzel": "I.04.2.02401",
 		"kuerzelKunde": "3.1-02",
 		"description": "Wachstumsrate des realen BIP nach Kanton",
