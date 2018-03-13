@@ -40,8 +40,7 @@
     series: {
        connectNulls: true
     }
-  }
-,
+  },
  "chart": {  
     	marginRight: 18,
    }
