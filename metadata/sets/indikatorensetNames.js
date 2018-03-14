@@ -1,4 +1,5 @@
 var indikatorensetNames = [
+	"Arbeitsmarkt",
 	"Legislaturplan",
 	"Nachhaltigkeit",
 	"Wohnraumentwicklung",
