@@ -574,6 +574,7 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "x": -1,
     "y": 45,
     "enabled": true,
     "layout": "horizontal",
