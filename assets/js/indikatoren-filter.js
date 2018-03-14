@@ -32,6 +32,7 @@ var sortOptions = {};
 
 var indikatoren;
 var view = false;
+var perPage=16;
 
 $(document).ready(function(){
   //Render page differently depending on url query string 'Indikatorenset'
@@ -86,10 +87,11 @@ $(document).ready(function(){
       }
       
       //determine how many chart previews to display
-      var perPage = parseInt(window.decodeURIComponent($.url('?PerPage')), 10);
+      var perPageParam = parseInt(window.decodeURIComponent($.url('?PerPage')), 10);
       //parameter must be an int, see https://stackoverflow.com/a/14636652 
-      if (!(perPage > 0 && perPage <= 32)){
-        perPage=16;
+      if (perPageParam > 0 && perPageParam <= 32){
+        //perPage defined globally with a default value
+        perPage=perPageParam;
       }
       initializeFilterJS(indikatorenset, perPage);
   });  
@@ -329,9 +331,10 @@ function renderDropdownFromJson(data, field, selector, sortKey, filterQueryStrin
   });
   //re-set previously selected value 
   $(selector).val(currentValue);
-  //if no item is selected now, select the first one
+  //if no item is selected now, select the first one, and trigger a change event so that filtering is updated 
   if (!$(selector).val()){
     $(selector + ' :nth-child(1)').prop('selected', true);
+    $(selector).change();
   }
 }
 
@@ -461,12 +464,10 @@ function getIndexByFid(fid){
 }
 
 
-function queryWithoutField(field){
-  
-}
 
 //after filtering is done: update dropdonws and their counts, create all carousel components
 var afterFilter = function(result, jQ){
+
     //$('#total_indikatoren').text(result.length);    
 
     //define how counts in dropdowns or checkboxes are rendered 
@@ -481,53 +482,29 @@ var afterFilter = function(result, jQ){
     //selectSingleEntryOrHideDropdown('#unterthema_filter');
     //selectSingleEntryOrHideDropdown('#stufe2_filter');
     
-  
-    function lastQueryWithoutField(field){
-      //get last Query JsonQuery Object of last filter event and remove the current filter value from it
-      try{
-        //deep copy object to preserve original
-        var jsonQ = $.extend(true, {}, window.FJS.last_query);        
-        delete jsonQ.where().criteria.where[field + '.$in'];
-        //if any of the where criteria contains an empty array as filter item: remove the clause to make jsonQuery work
-        $.each(jsonQ.where().criteria.where, function(index, value){
-          if (value === undefined){
-            delete jsonQ.where().criteria.where[index];
-          }
-        });
-        
-        /*
-        //handle full text search if it is defined in FJS
-        if(window.FJS.has_search){                
-          //only do full text search with minimum number of search characters               
-          if (window.FJS.search_text.length > window.FJS.opts.search.start_length){
-            var result = window.FJS.search(window.FJS.search_text, jsonQ.all);
-            return result;
-          }                
-        } 
-        */
-        return jsonQ;
-      }
-      catch(e){
-        //no filter after first page load, thus no criteria. Silently dismiss exception. 
-        //console.log(e);
-      }
-  }
 
+    //prepare query String object for filtering stufe1 - stufe5
+    var query = (window['FJS'] && window['FJS']['last_query'] ? window.FJS.last_query : undefined);
+    var baseQuery = (query ? (query.criteria ? query.criteria.where : undefined) : undefined);
+    //deep copy so that changes have no effect on filtering charts, only dropdowns
+    var baseQueryCopy = $.extend(true, {}, baseQuery);
+    //start from the right: remove field of dropdown and render dropdown. This way, stufe3 selection does not filter stufe2 dropdown options, and so on.
+    if (baseQueryCopy) {delete baseQueryCopy['stufe3' + '.$in'];}
+    renderDropdownFromJson(indikatoren, 'stufe3', '#stufe3_filter', 'orderKey', baseQueryCopy);
+    if (baseQueryCopy) {delete baseQueryCopy['stufe2' + '.$in'];}
+    renderDropdownFromJson(indikatoren, 'stufe2', '#stufe2_filter', 'orderKey', baseQueryCopy);
+    if (baseQueryCopy) {delete baseQueryCopy['stufe1' + '.$in'];}
+    renderDropdownFromJson(indikatoren, 'stufe1', '#stufe1_filter', 'orderKey', baseQueryCopy);    
     
+    var baseQueryCopyUnterthema = $.extend(true, {}, baseQuery);
+    renderDropdownFromJson(indikatoren, 'unterthema', '#unterthema_filter', 'unterthema', baseQueryCopyUnterthema);
     
-    
-    renderDropdownFromJson(indikatoren, 'unterthema', '#unterthema_filter', 'unterthema', lastQueryWithoutField('unterthema'));
-    renderDropdownFromJson(indikatoren, 'stufe1', '#stufe1_filter', 'orderKey', lastQueryWithoutField('stufe1'));
-    renderDropdownFromJson(indikatoren, 'stufe2', '#stufe2_filter', 'orderKey', lastQueryWithoutField('stufe2'));
-    renderDropdownFromJson(indikatoren, 'stufe3', '#stufe3_filter', 'orderKey', lastQueryWithoutField('stufe3'));
-    
-
     //for multiselect dropdowns: rebuild control after select tag is updated
     $('#schlagwort_filter').multiselect('rebuild');
     $('#raeumlicheGliederung_filter').multiselect('rebuild');
     
     //if results fit in a single page: hide pagination, use bootstrap invisible class to leave row height intact    
-    (result.length <= 16) ? $('#pagination').addClass('invisible') : $('#pagination').removeClass('invisible');
+    (result.length <= perPage) ? $('#pagination').addClass('invisible') : $('#pagination').removeClass('invisible');
 
     createCarousel(result);
     
