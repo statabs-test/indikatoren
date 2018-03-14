@@ -26,12 +26,17 @@
     },
   },
   "legend": {
-  	"itemWidth": 180,
+  	//"itemWidth": 145,
     "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-	"y": 40,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    reversed: true,
+    itemMarginBottom: 5,
+    labelFormatter: function(){
+      return this.name.replace(" ", "<br/>").replace("-", "<br/>");
+    },
+	  //"y": 30,
     "itemStyle": {
       "fontWeight": "normal"
     }
