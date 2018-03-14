@@ -86,7 +86,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Beteiligung der Bevölkerung an Freiwilligenarbeit: Tätigkeitsbereiche der freiwillig tätigen Personen"
+    "text": "Beteiligung der Bevölkerung an Freiwilligenarbeit"
   },
   "subtitle": {
     "style": {
@@ -95,7 +95,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in %",
+    "text": "Tätigkeitsbereiche der freiwillig tätigen Personen in %",
     "align": "left"
   },
   "tooltip": {

@@ -75,7 +75,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Verhältnis der Löhne von Frauen und Männern in der Nordwestschweiz"
+    "text": "Verhältnis der Löhne von Frauen und Männern"
   },
   "subtitle": {
     "style": {
@@ -84,7 +84,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "in der Nordwestschweiz",
     "align": "left"
   },
   "tooltip": {

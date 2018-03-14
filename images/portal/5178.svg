@@ -188,9 +188,9 @@
     <g class="highcharts-markers highcharts-series-4 highcharts-column-series highcharts-color-undefined " transform="translate(475,649) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Zufriedenheit mit verschiedenen Aspekten und Angeboten am</tspan><tspan dy="17" x="10">Wohnort</tspan><title>Zufriedenheit mit verschiedenen Aspekten und Angeboten am Wohnort</title>
+    <tspan>Zufriedenheit mit verschiedenen Aspekten am Wohnort</tspan>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;fill:#000000;" y="57">
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;fill:#000000;" y="40">
     <tspan>«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?»</tspan><tspan dy="15" x="10">Stand: 2015</tspan><title>«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» Stand: 2015</title>
   </text>
   <g class="highcharts-legend" transform="translate(192,70)">
@@ -232,7 +232,7 @@
   </g>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="165" opacity="1">
-      <tspan>Einkaufsmögl. In Basel (n=1498)</tspan>
+      <tspan>Einkaufsmögl. in Basel (n=1498)</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="187" opacity="1">
       <tspan>ÖV-Angebot (n=1502)</tspan>

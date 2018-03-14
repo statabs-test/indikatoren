@@ -6,7 +6,7 @@
 "id":4871,
 "thema":"17 Politik",
 "unterthema":"Wahlen",
-"kennzahlenset":"Gesellschaftlicher-Zusammenhalt",
+"kennzahlenset":"Nachhaltigkeit",
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"2018-01-18T00:00:00.000",
 "schlagwort":["Grosser Rat"],
@@ -24,6 +24,6 @@
 "parentId":null,
 "children":["6042"],
 "renderLink":[],
-"quellenangabe":["Staatskanzlei Basel-Stadt"],
+"quellenangabe":["Statistisches Amt Basel-Stadt"],
 "externalLinks":[""]
 }

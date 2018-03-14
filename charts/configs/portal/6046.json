@@ -172,7 +172,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anzahl Beschäftigte nach Sektor (Vollzeitäquivalente)"
+    "text": "Anzahl Beschäftigte nach Sektor"
   },
   "subtitle": {
     "style": {
@@ -181,7 +181,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "in Vollzeitäquivalente",
     "align": "left"
   },
   "yAxis": {

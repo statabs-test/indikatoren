@@ -9731,7 +9731,7 @@ var indikatoren = [
 		"description": "Wahlbeteiligung bei National- und Grossratswahlen",
 		"thema": "17 Politik",
 		"unterthema": "Wahlen",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -9755,7 +9755,7 @@ var indikatoren = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Staatskanzlei Basel-Stadt"
+			"Statistisches Amt Basel-Stadt"
 		],
 		"externalLinks": [
 			""
@@ -11530,45 +11530,6 @@ var indikatoren = [
 		"id": 5131
 	},
 	{
-		"title": "Wohnbevölkerung am Jahresende nach Staatsangehörigkeit (Schweiz/Ausland)",
-		"subtitle": "",
-		"kuerzel": "I.01.1.05137",
-		"kuerzelKunde": "BE5",
-		"description": "Wohnbevölkerung am Jahresende nach Staatsangehörigkeit (Schweiz/Ausland)",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Nachhaltigkeit",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2017-03-13T16:59:13.1313",
-		"schlagwort": [
-			"Bevölkerung"
-		],
-		"stufe1": "Bereich Bevölkerung",
-		"stufe2": "Bevölkerung",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die schweizerische Bevölkerung nahm von 1998 bis 2017 von gut 140 000 auf etwa 127 000 Personen ab. Dies entspricht einem Rückgang um rund 9%. Die ausländische Bevölkerung nahm im gleichen Zeitraum von knapp 52 000 auf leicht unter 72 000 Personen zu, was einem Zuwachs um 38% gleichkommt.",
-		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister.",
-		"template": "template001",
-		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_105",
-		"parentId": null,
-		"children": [
-			"5809"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 5137
-	},
-	{
 		"title": "Vertretung der Anliegen der Bevölkerung durch Behörden",
 		"subtitle": "«Wie gut vertreten die Behörden, also der Regierungsrat und der Grosse Rat, die Anliegen der Bevölkerung?»",
 		"kuerzel": "I.50.1.05138",
@@ -11608,50 +11569,11 @@ var indikatoren = [
 		"id": 5138
 	},
 	{
-		"title": "Wohnbevölkerung am Jahresende nach Staatsangehörigkeit",
-		"subtitle": "",
-		"kuerzel": "I.01.1.05141",
-		"kuerzelKunde": "BE1",
-		"description": "Wohnbevölkerung am Jahresende nach Staatsangehörigkeit",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
-		"kennzahlenset": "Nachhaltigkeit",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2017-03-13T10:31:41.4141",
-		"schlagwort": [
-			"Ausländer",
-			"Bevölkerung",
-			"Staatsangehörigkeit"
-		],
-		"stufe1": "Bereich Bevölkerung",
-		"stufe2": "Bevölkerung",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Ende 2017 zählte der Kanton Basel-Stadt 198 988 Einwohner. Davon waren rund zwei Drittel Schweizer Staatsangehörige. Die grösste Ausländergruppe bildeten die Deutschen, gefolgt von den Italienern, den Personen aus dem ehemaligen Jugoslawien und den Türken. Im Vergleich zu 1995 hat die Zahl der Deutschen, der Franzosen und der Portugiesen zugenommen. Gesunken ist hingegen die Zahl der Italiener, der Spanier, der Türken und der Personen aus dem ehemaligen Jugoslawien. Ebenfalls zurückgegangen ist die Zahl der Schweizer.",
-		"erlaeuterungen": "Bevölkerungsstatistik im Jahr 2010 korrigiert im Rahmen der Registerbereinigungen für die Volkszählung. Bis zum Jahr 2011 wurde die Bevölkerungszahl durch Fortschreibung ermittelt. Seit dem Jahr 2012 basiert sie direkt auf Auswertungen aus dem kantonalen Einwohnerregister. Ehem. Jugoslawien fasst Staaten auf dem Gebiet des ehemaligen Jugoslawien zusammen.",
-		"template": "line001",
-		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_101",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 5141
-	},
-	{
-		"title": "Wohnbevölkerung am Jahresende nach Alter, Geschlecht und Staatsangehörigkeit (Bevölkerungspyramide)",
+		"title": "Bevölkerungspyramide am Jahresende nach Staatsangehörigkeit",
 		"subtitle": "Stand: 2017",
 		"kuerzel": "I.01.1.05142",
 		"kuerzelKunde": "BE2",
-		"description": "Wohnbevölkerung am Jahresende nach Alter, Geschlecht und Staatsangehörigkeit (Bevölkerungspyramide)",
+		"description": "Bevölkerungspyramide am Jahresende nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Nachhaltigkeit",
@@ -11788,7 +11710,7 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "line001",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_106",
+		"orderKey": "01_01_00_00_00_107",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -11801,11 +11723,11 @@ var indikatoren = [
 		"id": 5148
 	},
 	{
-		"title": "Geburtenziffer nach Staatsangehörigkeit (Schweiz/Ausland)",
+		"title": "Geburtenziffer nach Staatsangehörigkeit",
 		"subtitle": "",
 		"kuerzel": "I.01.1.05149",
 		"kuerzelKunde": "BE7",
-		"description": "Geburtenziffer nach Staatsangehörigkeit (Schweiz/Ausland)",
+		"description": "Geburtenziffer nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur ",
 		"kennzahlenset": "Nachhaltigkeit",
@@ -11825,7 +11747,7 @@ var indikatoren = [
 		"erlaeuterungen": "Lebendgeborene auf 1000 Einwohner der mittleren Wohnbevölkerung.",
 		"template": "line001",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_107",
+		"orderKey": "01_01_00_00_00_109",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -11838,11 +11760,11 @@ var indikatoren = [
 		"id": 5149
 	},
 	{
-		"title": "Zu- und Weggezogene nach Zuzugsort und Ziel",
+		"title": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
 		"subtitle": "",
 		"kuerzel": "I.01.5.05155",
 		"kuerzelKunde": "BE8.1",
-		"description": "Zu- und Weggezogene nach Zuzugsort und Ziel",
+		"description": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Nachhaltigkeit",
@@ -11866,7 +11788,7 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "template001",
 		"visibleInPortal": false,
-		"orderKey": "01_01_00_00_00_108",
+		"orderKey": "01_01_00_00_00_109",
 		"parentId": 6011,
 		"children": [],
 		"renderLink": [],
@@ -11879,11 +11801,11 @@ var indikatoren = [
 		"id": 5155
 	},
 	{
-		"title": "Wanderungen 2006-2015 nach Staatsangehörigkeit: Schweizer",
-		"subtitle": "",
+		"title": "Wanderungen: Schweizer",
+		"subtitle": "Stand: 2006 bis Stand: 2017",
 		"kuerzel": "I.01.5.05156",
 		"kuerzelKunde": "BE8.2",
-		"description": "Wanderungen 2006-2015 nach Staatsangehörigkeit: Schweizer",
+		"description": "Wanderungen: Schweizer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Nachhaltigkeit",
@@ -11905,7 +11827,7 @@ var indikatoren = [
 		"erlaeuterungen": "Im Jahr 2010 einschliesslich rund 1 600 nachträglicher Streichungen (zu Weggezogenen gezählt) im Rahmen der Registerbereinigungen für die Volkszählung.",
 		"template": "populationPyramid001",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_109",
+		"orderKey": "01_01_00_00_00_110",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -11918,11 +11840,11 @@ var indikatoren = [
 		"id": 5156
 	},
 	{
-		"title": "Wanderungen 2006-2015 nach Staatsangehörigkeit: Ausländer",
-		"subtitle": "",
+		"title": "Wanderungen: Ausländer",
+		"subtitle": "Stand: 2006 bis Stand: 2017",
 		"kuerzel": "I.01.5.05157",
 		"kuerzelKunde": "BE8.3",
-		"description": "Wanderungen 2006-2015 nach Staatsangehörigkeit: Ausländer",
+		"description": "Wanderungen: Ausländer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Nachhaltigkeit",
@@ -11944,7 +11866,7 @@ var indikatoren = [
 		"erlaeuterungen": "Im Jahr 2010 einschliesslich rund 1 600 nachträglicher Streichungen (zu Weggezogenen gezählt) im Rahmen der Registerbereinigungen für die Volkszählung. 2015: Provisorische Werte.",
 		"template": "populationPyramid001",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_110",
+		"orderKey": "01_01_00_00_00_111",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -12106,11 +12028,11 @@ var indikatoren = [
 		"id": 5165
 	},
 	{
-		"title": "Zufriedenheit mit verschiedenen Aspekten und Angeboten am Wohnort",
+		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort",
 		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» Stand: 2015",
 		"kuerzel": "I.50.1.05178",
 		"kuerzelKunde": "GW2",
-		"description": "Zufriedenheit mit verschiedenen Aspekten und Angeboten am Wohnort",
+		"description": "Zufriedenheit mit verschiedenen Aspekten am Wohnort",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Nachhaltigkeit",
@@ -12134,7 +12056,9 @@ var indikatoren = [
 		"orderKey": "03_01_00_00_00_302",
 		"parentId": null,
 		"children": [
-			"6174"
+			"6174",
+			"6216",
+			"6261"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -12146,11 +12070,11 @@ var indikatoren = [
 		"id": 5178
 	},
 	{
-		"title": "Lebenserwartung bei Geburt in Jahren, nach Geschlecht",
-		"subtitle": "",
+		"title": "Lebenserwartung bei Geburt",
+		"subtitle": "in Jahren nach Geschlecht",
 		"kuerzel": "I.14.3.05180",
 		"kuerzelKunde": "GW3",
-		"description": "Lebenserwartung bei Geburt in Jahren, nach Geschlecht",
+		"description": "Lebenserwartung bei Geburt",
 		"thema": "14 Gesundheit",
 		"unterthema": "Sterblichkeit",
 		"kennzahlenset": "Nachhaltigkeit",
@@ -12183,11 +12107,11 @@ var indikatoren = [
 		"id": 5180
 	},
 	{
-		"title": "Empfundene gesundheitliche Verfassung: Beurteilung nach Altersgruppen und Jahren",
-		"subtitle": "«Und darf ich fragen, wie es Ihnen zur Zeit gsundheitlich geht?» nach Alter",
+		"title": "Empfundene gesundheitliche Verfassung",
+		"subtitle": "nach Altersgruppen <br> «Und darf ich fragen, wie es Ihnen zur Zeit gsundheitlich geht?» nach Alter",
 		"kuerzel": "I.50.1.05181",
 		"kuerzelKunde": "GW4",
-		"description": "Empfundene gesundheitliche Verfassung: Beurteilung nach Altersgruppen und Jahren",
+		"description": "Empfundene gesundheitliche Verfassung",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Nachhaltigkeit",
@@ -12220,11 +12144,11 @@ var indikatoren = [
 		"id": 5181
 	},
 	{
-		"title": "Übergewichtige Kinder nach Schulstufe, Heimat und Geschlecht",
-		"subtitle": "in %",
+		"title": "Übergewichtige Kinder",
+		"subtitle": "nach Schulstufe, Heimat und Geschlecht in %",
 		"kuerzel": "I.14.1.05182",
 		"kuerzelKunde": "GW5",
-		"description": "Übergewichtige Kinder nach Schulstufe, Heimat und Geschlecht",
+		"description": "Übergewichtige Kinder",
 		"thema": "14 Gesundheit",
 		"unterthema": "Spitäler",
 		"kennzahlenset": "Nachhaltigkeit",
@@ -12577,14 +12501,14 @@ var indikatoren = [
 		],
 		"aktualisierungsdatum": "",
 		"schlagwort": [
-			"Steuer"
+			"Kultur"
 		],
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Bildung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Ausgaben im Bereich Kultur, Sport und Freizeit, Kirche sind zwischen 2005 und 2013 von rund 1 030 Fr. auf ca. 1 290 Fr. pro Kopf und Jahr gestiegen.",
+		"lesehilfe": "Die Ausgaben im Bereich Kultur, Sport und Freizeit, Kirche sind zwischen 2008 und 2015 von rund 1 300 Fr. auf ca. 1 680 Fr. pro Kopf gestiegen.",
 		"erlaeuterungen": "Ausgaben nach Funktion berechnet von der Eidgenössischen Finanzverwaltung; pro Kopf der mittleren Wohnvbevölkerung Basel-Stadt.",
 		"template": "template001",
 		"visibleInPortal": true,
@@ -12639,11 +12563,11 @@ var indikatoren = [
 		"id": 5194
 	},
 	{
-		"title": "Anzahl leerstehender Wohnungen und Leerstandsquote",
+		"title": "Anzahl Leerwohnungen und Leerwohnungsquote",
 		"subtitle": "nach Zimmerzahl",
 		"kuerzel": "I.09.2.05195",
 		"kuerzelKunde": "GW17",
-		"description": "Anzahl leerstehender Wohnungen und Leerstandsquote",
+		"description": "Anzahl Leerwohnungen und Leerwohnungsquote",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Nachhaltigkeit",
@@ -12752,11 +12676,11 @@ var indikatoren = [
 		"id": 5197
 	},
 	{
-		"title": "Grünfläche pro Kopf nach Wohnviertel/Gemeinde",
+		"title": "Grünfläche pro Kopf nach Wohnviertel",
 		"subtitle": "in m<sup>2</sup>, 2017",
 		"kuerzel": "I.02.1.05198",
 		"kuerzelKunde": "GW20",
-		"description": "Grünfläche pro Kopf nach Wohnviertel/Gemeinde",
+		"description": "Grünfläche pro Kopf nach Wohnviertel",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
 		"kennzahlenset": "Nachhaltigkeit",
@@ -12790,11 +12714,11 @@ var indikatoren = [
 		"id": 5198
 	},
 	{
-		"title": "Ausgaben für Umbau- und Unterhaltsarbeiten in 1000 Franken sowie Anteil am Total der Bauausgaben",
-		"subtitle": "",
+		"title": "Ausgaben für Umbau- und Unterhaltsarbeiten",
+		"subtitle": "in 1000 Franken sowie Anteil am Total der Bauausgaben",
 		"kuerzel": "I.09.1.05199",
 		"kuerzelKunde": "GW21",
-		"description": "Ausgaben für Umbau- und Unterhaltsarbeiten in 1000 Franken sowie Anteil am Total der Bauausgaben",
+		"description": "Ausgaben für Umbau- und Unterhaltsarbeiten",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Nachhaltigkeit",
@@ -13042,7 +12966,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2010 lag der Anteil der erneuerbaren Energieträger bei 35,0%. Zwei Jahre später fiel der Wert mit 36,2% bereits höher aus. Im Jahr 2014  stammte 37,9% der Energie aus erneuerbaren Quellen.",
-		"erlaeuterungen": "Folgende Energieträger werden als erneuerbar berücksichtigt: Wasserkraft, Holz, Umweltwärme, thermische und fotovoltaische Sonnenenergie, Schlamm, erneuerbare Elektrizität (in Basel-Stadt stammen 100% des importierten Strommixes aus erneuerbaren Quellen) und Kehricht (zu 50% als erneuerbar taxiert).<br><br><br><br>Die Summe der Verbräuche der erneuerbaren Energien wird durch den Gesamtenergieverbrauch dividiert.",
+		"erlaeuterungen": "Folgende Energieträger werden als erneuerbar berücksichtigt: Wasserkraft, Holz, Umweltwärme, thermische und fotovoltaische Sonnenenergie, Schlamm, erneuerbare Elektrizität (in Basel-Stadt stammen 100% des importierten Strommixes aus erneuerbaren Quellen) und Kehricht (zu 50% als erneuerbar taxiert).<br><br>Die Summe der Verbräuche der erneuerbaren Energien wird durch den Gesamtenergieverbrauch dividiert.",
 		"template": "template001",
 		"visibleInPortal": false,
 		"orderKey": "04_01_00_00_00_403",
@@ -13058,11 +12982,11 @@ var indikatoren = [
 		"id": 5795
 	},
 	{
-		"title": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf; Recyclingquote",
-		"subtitle": "",
+		"title": "Siedlungsabfälle, Wertstoffsammlungen und Recyclingquote",
+		"subtitle": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf",
 		"kuerzel": "I.09.6.05796",
 		"kuerzelKunde": "NL4",
-		"description": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf; Recyclingquote",
+		"description": "Siedlungsabfälle, Wertstoffsammlungen und Recyclingquote",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Entsorgung",
 		"kennzahlenset": "Nachhaltigkeit",
@@ -14379,7 +14303,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Kopf",
-		"subtitle": "",
+		"subtitle": "in m²",
 		"kuerzel": "I.09.1.06027",
 		"kuerzelKunde": "NL6",
 		"description": "Mittlere Wohnfläche pro Kopf",
@@ -14460,11 +14384,11 @@ var indikatoren = [
 		"id": 6028
 	},
 	{
-		"title": "Luftqualität: Langzeitbelastung der Luft - Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10)",
-		"subtitle": "in Mikrogramm pro m<sup>3</sup>",
+		"title": "Luftqualität: Langzeitbelastung der Luft",
+		"subtitle": "Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10) in Mikrogramm pro m<sup>3</sup>",
 		"kuerzel": "I.02.5.06029",
 		"kuerzelKunde": "NL8",
-		"description": "Luftqualität: Langzeitbelastung der Luft - Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10)",
+		"description": "Luftqualität: Langzeitbelastung der Luft",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Luftschadstoffe",
 		"kennzahlenset": "Nachhaltigkeit",
@@ -14481,7 +14405,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Sowohl die Stickstoffdioxid- als auch die Feinstaubkonzentrationen lagen 2016 mit 27,8 resp. 16,1 Mikrogramm pro Kubikmeter unter dem jeweiligen Grenzwert.",
-		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung. Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen im Kanton Basel-Stadt: St. Johanns-Platz (PM10, NO<sub>2</sub>), Spalenring (NO<sub>2</sub>), Dreirosenbrücke Süd (NO<sub>2</sub>). Für Details zu den Stationen siehe Link «Luftqualität in der Nordwestschweiz».<br><br>Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Sie sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und - zusammen mit flüchtigen organischen Verbindungen - von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.<br><br>Unter Feinstaub (PM10) versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub (PM10) ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub (PM10) 20 μg/m<sup>3</sup>.",
+		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung. Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen im Kanton Basel-Stadt: St. Johanns-Platz (PM10, NO<sub>2</sub>), Spalenring (NO<sub>2</sub>), Dreirosenbrücke Süd (NO<sub>2</sub>).<br><br>Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Sie sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und - zusammen mit flüchtigen organischen Verbindungen - von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.<br><br>Unter Feinstaub (PM10) versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub (PM10) ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub (PM10) 20 μg/m<sup>3</sup>.",
 		"template": "line001",
 		"visibleInPortal": false,
 		"orderKey": "04_01_00_00_00_408",
@@ -14498,7 +14422,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wasserqualität: AOX-Konzentration",
-		"subtitle": "in Milligramm pro Liter",
+		"subtitle": "in Milligramm pro Liter gereinigtem Abwasser",
 		"kuerzel": "I.02.19.06030",
 		"kuerzelKunde": "NL9",
 		"description": "Wasserqualität: AOX-Konzentration",
@@ -14575,48 +14499,6 @@ var indikatoren = [
 		"id": 6031
 	},
 	{
-		"title": "Anzahl Allmendbäume",
-		"subtitle": "",
-		"kuerzel": "I.02.13.06032",
-		"kuerzelKunde": "NL11",
-		"description": "Anzahl Allmendbäume",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Landschaft",
-		"kennzahlenset": "Nachhaltigkeit",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"Grünflächen",
-			"Boden",
-			"Biodiversität",
-			"Wald"
-		],
-		"stufe1": "Bereich Natürliche Lebensgrundlagen",
-		"stufe2": "Klimawandel",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Anzahl Bäume auf öffentlichem Boden ist seit 2003 kontinuierlich auf 27 844 Bäume im Jahr 2015 angestiegen.",
-		"erlaeuterungen": "",
-		"template": "line001",
-		"visibleInPortal": true,
-		"orderKey": "04_02_00_00_00_411",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Grundbuch- und Vermessungsamt Basel-Stadt",
-			"Stadtgärtnerei Basel-Stadt"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 6032
-	},
-	{
 		"title": "Hitzetage",
 		"subtitle": "Anzahl Tage",
 		"kuerzel": "I.02.3.06033",
@@ -14638,7 +14520,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2017 wurden 28 Hitzetage verzeichnet. Das Maximum innerhalb des dargestellten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
-		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat.<br><br><br><br>Die Summe der Tage eines Jahres, an denen das Maximum der Lufttemperatur über 30 °C liegt ergibt die Anzahl Hitzetage pro Jahr. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33&#039; N / 7°35&#039; E).<br>",
+		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat.<br><b<br>Die Summe der Tage eines Jahres, an denen das Maximum der Lufttemperatur über 30 °C liegt ergibt die Anzahl Hitzetage pro Jahr. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33&#039; N / 7°35&#039; E).",
 		"template": "line001",
 		"visibleInPortal": false,
 		"orderKey": "04_02_00_00_00_412",
@@ -14694,11 +14576,11 @@ var indikatoren = [
 		"id": 6034
 	},
 	{
-		"title": "Sicherheitsempfinden im Alltag",
+		"title": "Sicherheitsgefühl im Alltag",
 		"subtitle": "«Wie sicher fühlen Sie sich ganz allgemein im Alltag?»",
 		"kuerzel": "I.50.1.06035",
 		"kuerzelKunde": "GZ2",
-		"description": "Sicherheitsempfinden im Alltag",
+		"description": "Sicherheitsgefühl im Alltag",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Nachhaltigkeit",
@@ -14772,11 +14654,11 @@ var indikatoren = [
 		"id": 6036
 	},
 	{
-		"title": "Verhältnis der Löhne von Frauen und Männern in der Nordwestschweiz",
-		"subtitle": "",
+		"title": "Verhältnis der Löhne von Frauen und Männern",
+		"subtitle": "in der Nordwestschweiz",
 		"kuerzel": "I.03.3.06037",
 		"kuerzelKunde": "GZ4",
-		"description": "Verhältnis der Löhne von Frauen und Männern in der Nordwestschweiz",
+		"description": "Verhältnis der Löhne von Frauen und Männern",
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Löhne ",
 		"kennzahlenset": "Nachhaltigkeit",
@@ -14852,11 +14734,11 @@ var indikatoren = [
 		"id": 6039
 	},
 	{
-		"title": "Beteiligung der Bevölkerung an Freiwilligenarbeit",
+		"title": "Freiwillige Tätigkeit",
 		"subtitle": "«Sind Sie in Ihrer Freizeit freiwillig tätig?»",
 		"kuerzel": "I.50.1.06040",
 		"kuerzelKunde": "GZ7.1",
-		"description": "Beteiligung der Bevölkerung an Freiwilligenarbeit",
+		"description": "Freiwillige Tätigkeit",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Nachhaltigkeit",
@@ -14889,11 +14771,11 @@ var indikatoren = [
 		"id": 6040
 	},
 	{
-		"title": "Beteiligung der Bevölkerung an Freiwilligenarbeit: Tätigkeitsbereiche der freiwillig tätigen Personen",
-		"subtitle": "in %",
+		"title": "Beteiligung der Bevölkerung an Freiwilligenarbeit",
+		"subtitle": "Tätigkeitsbereiche der freiwillig tätigen Personen in %",
 		"kuerzel": "I.50.1.06041",
 		"kuerzelKunde": "GZ7.2",
-		"description": "Beteiligung der Bevölkerung an Freiwilligenarbeit: Tätigkeitsbereiche der freiwillig tätigen Personen",
+		"description": "Beteiligung der Bevölkerung an Freiwilligenarbeit",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Nachhaltigkeit",
@@ -14966,11 +14848,11 @@ var indikatoren = [
 		"id": 6042
 	},
 	{
-		"title": "Einbürgerungsziffer der ausländischen Bevölkerung sowie Ausländeranteil",
+		"title": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
 		"subtitle": "",
 		"kuerzel": "I.01.6.06043",
 		"kuerzelKunde": "GZ9",
-		"description": "Einbürgerungsziffer der ausländischen Bevölkerung sowie Ausländeranteil",
+		"description": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Einbürgerungen",
 		"kennzahlenset": "Nachhaltigkeit",
@@ -15009,11 +14891,11 @@ var indikatoren = [
 		"id": 6043
 	},
 	{
-		"title": "Frauenanteil bei Kandidaturen und Wahlen zum Grossen Rat",
+		"title": "Entwicklung des Frauenanteils im grossen Rat",
 		"subtitle": "",
 		"kuerzel": "I.17.3.06044",
 		"kuerzelKunde": "GZ10",
-		"description": "Frauenanteil bei Kandidaturen und Wahlen zum Grossen Rat",
+		"description": "Entwicklung des Frauenanteils im grossen Rat",
 		"thema": "17 Politik",
 		"unterthema": "Wahlen",
 		"kennzahlenset": "Nachhaltigkeit",
@@ -15038,7 +14920,9 @@ var indikatoren = [
 		"visibleInPortal": false,
 		"orderKey": "05_03_00_00_00_510",
 		"parentId": 4922,
-		"children": [],
+		"children": [
+			"4922"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatskanzlei Basel-Stadt"
@@ -15089,11 +14973,11 @@ var indikatoren = [
 		"id": 6045
 	},
 	{
-		"title": "Anzahl Beschäftigte nach Sektor (Vollzeitäquivalente)",
-		"subtitle": "",
+		"title": "Anzahl Beschäftigte nach Sektor",
+		"subtitle": "in Vollzeitäquivalente",
 		"kuerzel": "I.03.2.06046",
 		"kuerzelKunde": "WE2",
-		"description": "Anzahl Beschäftigte nach Sektor (Vollzeitäquivalente)",
+		"description": "Anzahl Beschäftigte nach Sektor",
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Nachhaltigkeit",
@@ -15168,11 +15052,11 @@ var indikatoren = [
 		"id": 6047
 	},
 	{
-		"title": "Anteil der Beschäftigten in innovativen Branchen an der gesamten Beschäftigung (Vollzeitäquivalente)",
+		"title": "Anteil der Beschäftigten in innovativen Branchen",
 		"subtitle": "an der gesamten Beschäftigung (in Vollzeitäquivalenten)",
 		"kuerzel": "I.03.2.06048",
 		"kuerzelKunde": "WE4",
-		"description": "Anteil der Beschäftigten in innovativen Branchen an der gesamten Beschäftigung (Vollzeitäquivalente)",
+		"description": "Anteil der Beschäftigten in innovativen Branchen",
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte ",
 		"kennzahlenset": "Nachhaltigkeit",
@@ -15207,11 +15091,11 @@ var indikatoren = [
 		"id": 6048
 	},
 	{
-		"title": "Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft",
-		"subtitle": "Anteil am BIP",
+		"title": "Aufwendungen für Forschung und Entwicklung",
+		"subtitle": "in der Privatwirtschaft; Anteil am BIP",
 		"kuerzel": "I.04.2.06049",
 		"kuerzelKunde": "WE5",
-		"description": "Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft",
+		"description": "Aufwendungen für Forschung und Entwicklung",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
 		"kennzahlenset": "Nachhaltigkeit",
@@ -15286,11 +15170,11 @@ var indikatoren = [
 		"id": 6050
 	},
 	{
-		"title": "Entkopplung von Wachstum und Umweltverbrauch: BIP des Kantons Basel-Stadt und Ökologischer Fussabdruck der Schweiz",
-		"subtitle": "in Franken pro Kopf resp. globalen Hektaren pro Kopf",
+		"title": "Entkopplung von Wachstum und Umweltverbrauch",
+		"subtitle": "BIP des Kantons Basel-Stadt in Fr. und ökologischer Fussabdruck in globalen Hektaren pro Kopf",
 		"kuerzel": "I.04.2.06051",
 		"kuerzelKunde": "WE7",
-		"description": "Entkopplung von Wachstum und Umweltverbrauch: BIP des Kantons Basel-Stadt und Ökologischer Fussabdruck der Schweiz",
+		"description": "Entkopplung von Wachstum und Umweltverbrauch",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
 		"kennzahlenset": "Nachhaltigkeit",
@@ -22476,7 +22360,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Jahresmitteltemperatur",
-		"subtitle": "°C",
+		"subtitle": "in °C",
 		"kuerzel": "I.02.3.06434",
 		"kuerzelKunde": "NL13",
 		"description": "Jahresmitteltemperatur",
@@ -24276,7 +24160,7 @@ var indikatoren = [
 		"erlaeuterungen": "Der ausgewiesene Auszug aus dem Baumkataster umfasst den durch die Stadtgärtnerei Basel gepflegten Baumbestand in der Gemeinde Basel.",
 		"template": "template001",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "_411",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -24327,6 +24211,126 @@ var indikatoren = [
 			""
 		],
 		"id": 6576
+	},
+	{
+		"title": "Bevölkerung nach Staatsangehörigkeit",
+		"subtitle": "",
+		"kuerzel": "I.01.1.06592",
+		"kuerzelKunde": "BE5.1",
+		"description": "Bevölkerung nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur ",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Bevölkerung",
+			"Staatsangehörigkeit"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Ende 2016 lebten im Kanton Basel-Stadt 127 398 Schweizerinnen und Schweizer und 70 808 Ausländerinnen und Ausländer. Während die Zahl der ausländischen Personen seit Ende 1997 um 18 925 anstieg, sank die Anzahl Personen mit Schweizer Staatsangehörigkeit im gleichen Zeitraum um 14 927.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"visibleInPortal": true,
+		"orderKey": "_105",
+		"parentId": null,
+		"children": [
+			"6058"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6592
+	},
+	{
+		"title": " Ausländeranteil",
+		"subtitle": "",
+		"kuerzel": "I.01.1.06597",
+		"kuerzelKunde": "BE5.2",
+		"description": " Ausländeranteil",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur ",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Bevölkerung",
+			"Ausland"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Von 1997 bis 2016 stieg der Anteil der ausländischen Personen an der Bevölkerung von 26,7% auf 35,7%. Der stärkste Anstieg um über 0,8 Prozentpunkte wurde 2002 verzeichnet. In diesem Jahr traten die bilateralen Verträge zwischen der Schweiz und der EU in Kraft, welche den Aufenthalt von EU- und EFTA-Staatsangehörigen erleichterten. Lediglich geringfügige Anstiege waren in den Jahren 2000, 2007 und 2010 zu beobachten.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"visibleInPortal": true,
+		"orderKey": "_106",
+		"parentId": null,
+		"children": [
+			"6057"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6597
+	},
+	{
+		"title": "Anzahl Ausländer nach Staatsangehörigkeit",
+		"subtitle": "",
+		"kuerzel": "I.01.1.06599",
+		"kuerzelKunde": "BE1",
+		"description": "Anzahl Ausländer nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur ",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"schlagwort": [
+			"Bevölkerung",
+			"Staatsangehörigkeit"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Ende 2016 bildeten die Deutschen mit 16 066 Personen die grösste Bevölkerungsgruppe im Kanton. Ihre Anzahl ist seit 2002 kontinuierlich gestiegen. Diesem Anstieg steht ein Rückgang der Anzahl Italiener, Türken und Personen aus dem Balkan gegenüber, wobei die Anzahl Italiener seit 2013 wieder leicht zunahm.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"visibleInPortal": true,
+		"orderKey": "_101",
+		"parentId": null,
+		"children": [
+			"6059"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6599
 	},
 	{
 		"title": "Test Title",

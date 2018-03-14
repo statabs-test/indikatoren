@@ -259,7 +259,7 @@ id | visible | visibleInPortal | indikatorenset
 4868 | true | true | Gesellschaftlicher-Zusammenhalt
 4869 | true | true | Gesellschaftlicher-Zusammenhalt
 4870 | true | true | Gesellschaftlicher-Zusammenhalt
-4871 | true | true | Gesellschaftlicher-Zusammenhalt
+4871 | true | true | Nachhaltigkeit
 4872 | true | true | Gesellschaftlicher-Zusammenhalt
 4874 | true | true | Gesellschaftlicher-Zusammenhalt
 4875 | true | true | Gesellschaftlicher-Zusammenhalt
@@ -309,9 +309,7 @@ id | visible | visibleInPortal | indikatorenset
 5126 | true | true | Wohnviertel
 5130 | true | true | 
 5131 | true | true | 
-5137 | true | true | Nachhaltigkeit
 5138 | true | false | Nachhaltigkeit
-5141 | true | true | Nachhaltigkeit
 5142 | true | true | Nachhaltigkeit
 5144 | true | true | Nachhaltigkeit
 5147 | true | true | Nachhaltigkeit
@@ -392,7 +390,6 @@ id | visible | visibleInPortal | indikatorenset
 6029 | true | false | Nachhaltigkeit
 6030 | true | false | Nachhaltigkeit
 6031 | true | false | Nachhaltigkeit
-6032 | true | true | Nachhaltigkeit
 6033 | true | false | Nachhaltigkeit
 6034 | true | false | Nachhaltigkeit
 6035 | true | false | Nachhaltigkeit
@@ -643,6 +640,9 @@ id | visible | visibleInPortal | indikatorenset
 6549 | true | true | Tourismus
 6574 | true | true | Nachhaltigkeit
 6576 | true | true | Tourismus
+6592 | true | true | Nachhaltigkeit
+6597 | true | true | Nachhaltigkeit
+6599 | true | true | Nachhaltigkeit
 9997 | true | false | 
 9998 | true | false | Test
 9999 | true | false | Test

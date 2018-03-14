@@ -344,7 +344,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Wanderungen 2006-2015 nach Staatsangehörigkeit: Schweizer"
+    "text": "Wanderungen: Schweizer"
   },
   "subtitle": {
     "style": {
@@ -353,7 +353,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Stand: 2006 bis Stand: 2017",
     "align": "left"
   },
   "yAxis": [

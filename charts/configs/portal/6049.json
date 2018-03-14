@@ -128,7 +128,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft"
+    "text": "Aufwendungen für Forschung und Entwicklung"
   },
   "subtitle": {
     "style": {
@@ -137,7 +137,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Anteil am BIP",
+    "text": "in der Privatwirtschaft; Anteil am BIP",
     "align": "left"
   },
   "yAxis": {

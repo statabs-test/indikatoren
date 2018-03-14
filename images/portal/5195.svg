@@ -125,7 +125,7 @@
     <g class="highcharts-markers highcharts-series-11 highcharts-line-series highcharts-color-undefined " visibility="hidden" transform="translate(52,237) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Anzahl leerstehender Wohnungen und Leerstandsquote</tspan>
+    <tspan>Anzahl Leerwohnungen und Leerwohnungsquote</tspan>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
     <tspan>nach Zimmerzahl</tspan>

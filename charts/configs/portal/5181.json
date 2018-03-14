@@ -359,7 +359,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Empfundene gesundheitliche Verfassung: Beurteilung nach Altersgruppen und Jahren"
+    "text": "Empfundene gesundheitliche Verfassung"
   },
   "subtitle": {
     "style": {
@@ -367,7 +367,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Und darf ich fragen, wie es Ihnen zur Zeit gsundheitlich geht?» nach Alter"
+    "text": "nach Altersgruppen \u003Cbr\u003E «Und darf ich fragen, wie es Ihnen zur Zeit gsundheitlich geht?» nach Alter"
   },
   "navigation": {
     "menuItemStyle": {

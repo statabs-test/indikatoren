@@ -64,10 +64,10 @@
     <g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-undefined " transform="translate(31,146) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Entkopplung von Wachstum und Umweltverbrauch: BIP des</tspan><tspan dy="17" x="10">Kantons Basel-Stadt und Ökologischer Fussabdruck der</tspan><tspan dy="17" x="10">Schweiz</tspan><title>Entkopplung von Wachstum und Umweltverbrauch: BIP des Kantons Basel-Stadt und Ökologischer Fussabdruck der Schweiz</title>
+    <tspan>Entkopplung von Wachstum und Umweltverbrauch</tspan>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="74">
-    <tspan>in Franken pro Kopf resp. globalen Hektaren pro Kopf</tspan>
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
+    <tspan>BIP des Kantons Basel-Stadt in Fr. und ökologischer Fussabdruck in globalen</tspan><tspan dy="15" x="10">Hektaren pro Kopf</tspan><title>BIP des Kantons Basel-Stadt in Fr. und ökologischer Fussabdruck in globalen Hektaren pro Kopf</title>
   </text>
   <g class="highcharts-legend" transform="translate(23,85)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="296" height="49" visibility="visible"/>

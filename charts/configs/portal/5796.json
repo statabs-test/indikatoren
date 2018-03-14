@@ -313,7 +313,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf; Recyclingquote"
+    "text": "Siedlungsabfälle, Wertstoffsammlungen und Recyclingquote"
   },
   "subtitle": {
     "style": {
@@ -322,7 +322,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf",
     "align": "left"
   },
   "yAxis": [

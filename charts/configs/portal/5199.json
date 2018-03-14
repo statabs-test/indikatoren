@@ -236,7 +236,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Ausgaben für Umbau- und Unterhaltsarbeiten in 1000 Franken sowie Anteil am Total der Bauausgaben"
+    "text": "Ausgaben für Umbau- und Unterhaltsarbeiten"
   },
   "subtitle": {
     "style": {
@@ -245,7 +245,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "in 1000 Franken sowie Anteil am Total der Bauausgaben",
     "align": "left"
   },
   "xAxis": {

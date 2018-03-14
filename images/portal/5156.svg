@@ -126,7 +126,10 @@
     <g class="highcharts-markers highcharts-series-2 highcharts-bar-series highcharts-color-undefined " transform="translate(475,364) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Wanderungen 2006-2015 nach Staatsangehörigkeit: Schweizer</tspan>
+    <tspan>Wanderungen: Schweizer</tspan>
+  </text>
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
+    <tspan>Stand: 2006 bis Stand: 2017</tspan>
   </text>
   <g class="highcharts-plot-lines-4">
     <path fill="none" stroke="white" stroke-width="1" d="M 263.5 87 L 263.5 364" visibility="visible"/>

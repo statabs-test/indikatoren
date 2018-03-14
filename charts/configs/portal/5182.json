@@ -1108,7 +1108,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Übergewichtige Kinder nach Schulstufe, Heimat und Geschlecht"
+    "text": "Übergewichtige Kinder"
   },
   "subtitle": {
     "style": {
@@ -1117,7 +1117,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in %",
+    "text": "nach Schulstufe, Heimat und Geschlecht in %",
     "align": "left"
   },
   "yAxis": {

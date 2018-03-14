@@ -280,7 +280,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "°C",
+    "text": "in °C",
     "align": "left"
   },
   "tooltip": {

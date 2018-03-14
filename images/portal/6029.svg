@@ -62,10 +62,10 @@
     <g class="highcharts-markers highcharts-series-3 highcharts-line-series highcharts-color-undefined " transform="translate(37,174) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Luftqualität: Langzeitbelastung der Luft - Jahresmittelwerte für</tspan><tspan dy="17" x="0">Stickstoffdioxid (NO2) und Feinstaub (PM10)</tspan><title>Luftqualität: Langzeitbelastung der Luft - Jahresmittelwerte für Stickstoffdioxid (NO2) und Feinstaub (PM10)</title>
+    <tspan>Luftqualität: Langzeitbelastung der Luft</tspan>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="57">
-    <tspan>in Mikrogramm pro m3</tspan>
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
+    <tspan>Jahresmittelwerte für Stickstoffdioxid (NO2) und Feinstaub (PM10) in</tspan><tspan dy="15" x="0">Mikrogramm pro m3</tspan><title>Jahresmittelwerte für Stickstoffdioxid (NO2) und Feinstaub (PM10) in Mikrogramm pro m3</title>
   </text>
   <g class="highcharts-legend" transform="translate(29,75)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="216" height="87" visibility="visible"/>

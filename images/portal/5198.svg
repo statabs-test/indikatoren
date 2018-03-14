@@ -84,7 +84,7 @@
     </g>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Grünfläche pro Kopf nach Wohnviertel/Gemeinde</tspan>
+    <tspan>Grünfläche pro Kopf nach Wohnviertel</tspan>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
     <tspan>in m2, 2017</tspan>

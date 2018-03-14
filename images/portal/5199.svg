@@ -108,7 +108,10 @@
     </g>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Ausgaben für Umbau- und Unterhaltsarbeiten in 1000 Franken</tspan><tspan dy="17" x="10">sowie Anteil am Total der Bauausgaben</tspan><title>Ausgaben für Umbau- und Unterhaltsarbeiten in 1000 Franken sowie Anteil am Total der Bauausgaben</title>
+    <tspan>Ausgaben für Umbau- und Unterhaltsarbeiten</tspan>
+  </text>
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
+    <tspan>in 1000 Franken sowie Anteil am Total der Bauausgaben</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(55,50)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="308" height="68" visibility="visible"/>

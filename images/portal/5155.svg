@@ -153,7 +153,7 @@
     <g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-undefined " transform="translate(62,173) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Zu- und Weggezogene nach Zuzugsort und Ziel</tspan>
+    <tspan>Zu- und Weggezogene nach Zuzugsort und Wegzugsort</tspan>
   </text>
   <g class="highcharts-plot-lines-4"/>
   <g class="highcharts-legend" transform="translate(54,55)">
