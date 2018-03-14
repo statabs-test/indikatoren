@@ -26,6 +26,7 @@
         }  
   },
  "legend": { 
+ 	x: -1,
      y: 45,
     "enabled": true,
     "layout": "horizontal",
