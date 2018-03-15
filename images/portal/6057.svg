@@ -55,28 +55,7 @@
     <g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(47,41) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 4.1960784313737 97.67576305128361 L 26.280701754387 95.77776505432175 L 48.3653250774 92.01596446847523 L 70.449948400414 89.414115876842 L 92.534571723427 87.9276535135755 L 114.61919504644 82.06386458527749 L 136.70381836945 77.69547002598324 L 158.78844169247 74.00081972867062 L 180.87306501548 70.53972435079149 L 202.95768833849 64.95931669081162 L 225.04231166151 63.87220744681338 L 247.12693498452 60.275828778832135 L 269.21155830753 54.68975185389135 L 291.29618163055 50.792679731030404 L 313.38080495356 47.906205799151394 L 335.46542827657 45.199460867683115 L 357.55005159959 40.11483226661889 L 379.6346749226 36.82188465473422 L 401.71929824561 34.75977921340774 L 423.80392156863 31.53219377819272" class="highcharts-graph" stroke="#cd9c00" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(47,41) scale(1 1)" clip-path="none">
-      <path fill="#cd9c00" d="M 8 98 A 4 4 0 1 1 7.999998000000167 97.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#cd9c00" d="M 30 96 A 4 4 0 1 1 29.99999800000017 95.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#cd9c00" d="M 52 92 A 4 4 0 1 1 51.99999800000017 91.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#cd9c00" d="M 74 89 A 4 4 0 1 1 73.99999800000016 88.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#cd9c00" d="M 96 88 A 4 4 0 1 1 95.99999800000016 87.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#cd9c00" d="M 118 82 A 4 4 0 1 1 117.99999800000016 81.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#cd9c00" d="M 140 78 A 4 4 0 1 1 139.99999800000018 77.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#cd9c00" d="M 162 74 A 4 4 0 1 1 161.99999800000018 73.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#cd9c00" d="M 184 71 A 4 4 0 1 1 183.99999800000018 70.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#cd9c00" d="M 206 65 A 4 4 0 1 1 205.99999800000018 64.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#cd9c00" d="M 229 64 A 4 4 0 1 1 228.99999800000018 63.99600000066666 Z" class="highcharts-point"/>
-      <path fill="#cd9c00" d="M 251 60 A 4 4 0 1 1 250.99999800000018 59.99600000066666 Z" class="highcharts-point"/>
-      <path fill="#cd9c00" d="M 273 55 A 4 4 0 1 1 272.9999980000002 54.99600000066666 Z" class="highcharts-point"/>
-      <path fill="#cd9c00" d="M 295 51 A 4 4 0 1 1 294.9999980000002 50.99600000066666 Z" class="highcharts-point"/>
-      <path fill="#cd9c00" d="M 317 48 A 4 4 0 1 1 316.9999980000002 47.99600000066666 Z" class="highcharts-point"/>
-      <path fill="#cd9c00" d="M 339 45 A 4 4 0 1 1 338.9999980000002 44.99600000066666 Z" class="highcharts-point"/>
-      <path fill="#cd9c00" d="M 361 40 A 4 4 0 1 1 360.9999980000002 39.99600000066666 Z" class="highcharts-point"/>
-      <path fill="#cd9c00" d="M 383 37 A 4 4 0 1 1 382.9999980000002 36.99600000066666 Z" class="highcharts-point"/>
-      <path fill="#cd9c00" d="M 405 35 A 4 4 0 1 1 404.9999980000002 34.99600000066666 Z" class="highcharts-point"/>
-      <path fill="#cd9c00" d="M 427 32 A 4 4 0 1 1 426.9999980000002 31.996000000666665 Z" class="highcharts-point"/>
-    </g>
+    <g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-undefined " transform="translate(47,41) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Ausländeranteil</tspan>

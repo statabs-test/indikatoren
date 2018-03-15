@@ -12,7 +12,7 @@
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },     
       "color": "#cd9c00"
     }
