@@ -503,10 +503,9 @@
     "labelFormatter": function () {
             return this.name;
         },
-    "x": -5,
     "y": 45,
     "enabled": true,
-    "itemWidth": 200
+    "itemWidth": 150
   },
   "exporting": {
     "filename": 6507

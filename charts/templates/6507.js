@@ -43,11 +43,10 @@
     { "color": "#999999", index: 0, legendIndex: 4}, // grau
   ],
   "legend": { 
-  	 x:-5,
      y: 45,
     "enabled": true,
     "layout": "horizontal",
-   "itemWidth": 200,
+   "itemWidth": 150,
     "verticalAlign": "top",
     "align": "left",
      "labelFormatter": function () {

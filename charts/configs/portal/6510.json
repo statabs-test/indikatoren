@@ -498,10 +498,9 @@
     "labelFormatter": function () {
             return this.name;
         },
-    "x": -5,
     "y": 60,
     "enabled": true,
-    "itemWidth": 200
+    "reversed": true
   },
   "exporting": {
     "filename": 6510
