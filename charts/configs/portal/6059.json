@@ -949,8 +949,6 @@
           "fontSize": "10px"
         }
       },
-      "pointPadding": 100,
-      "pointWidth": 10,
       "stacking": "normal"
     }
   },
@@ -1014,7 +1012,7 @@
   },
   "legend": {
     "symbolRadius": 0,
-    "itemWidth": 140,
+    "itemWidth": 138,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",

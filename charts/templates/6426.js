@@ -2,9 +2,9 @@
     return {
 "plotOptions": {
     "series": {
-      pointPadding: 100,
+      //pointPadding: 100,
       borderWidth: 0,
-      "pointWidth": 10,
+      //"pointWidth": 10,
       "dataLabels": {
         "style": {
           "fontSize": "10px"

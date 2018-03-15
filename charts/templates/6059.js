@@ -2,9 +2,9 @@
     return {
 "plotOptions": {
     "series": {
-      pointPadding: 100,
+      //pointPadding: 100,
       borderWidth: 0,
-      "pointWidth": 10,
+      //"pointWidth": 10,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -27,7 +27,7 @@
 	"max": undefined
   },
   "legend": {
-  	"itemWidth": 140,
+  	"itemWidth": 138,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
