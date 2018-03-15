@@ -4,10 +4,14 @@
   	type: 'category',
     "tickInterval": 12,
     labels: { 
-		style: { 
-		//textOverflow: 'none' 
-		} 
-	} 
+      rotation: -45,
+      formatter: function(){
+        return this.value.split(" ")[0];
+      },
+  		style: { 
+  		//textOverflow: 'none' 
+  		} 
+  	} 
   },
   "yAxis": {
     "min": 0, 
