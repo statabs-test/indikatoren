@@ -10815,8 +10815,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2013 5,3 globale Hektaren pro Kopf. Das Bruttoinlandprodukt (BIP) pro Kopf des Kantons Basel-Stadt ist zwischen den 90er-Jahren und 2013 stark gestiegen.",
-		"erlaeuterungen": "Der ökologische Fussabdruck misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden.",
+		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2013 5,3 globale Hektaren pro Kopf. Das Bruttoinlandprodukt (BIP; Stand der Daten: Juli 2017) pro Kopf des Kantons Basel-Stadt ist zwischen den 90er-Jahren und 2013 stark gestiegen.",
+		"erlaeuterungen": "Der ökologische Fussabdruck misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Das Bruttoinlandprodukt (BIP; Stand der Daten: Juli 2017) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden.",
 		"template": "line001",
 		"visibleInPortal": true,
 		"orderKey": "06_01_00_00_00_607",
@@ -15547,10 +15547,8 @@ var indikatoren = [
 		"template": "line001",
 		"visibleInPortal": true,
 		"orderKey": "_105",
-		"parentId": null,
-		"children": [
-			"6058"
-		],
+		"parentId": 6058,
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -15587,10 +15585,8 @@ var indikatoren = [
 		"template": "line001",
 		"visibleInPortal": true,
 		"orderKey": "_106",
-		"parentId": null,
-		"children": [
-			"6057"
-		],
+		"parentId": 6057,
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"

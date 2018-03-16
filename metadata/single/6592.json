@@ -21,8 +21,8 @@
 "visible":true,
 "visibleInPortal":true,
 "orderKey":"_105",
-"parentId":null,
-"children":["6058"],
+"parentId":6058,
+"children":[],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
 "externalLinks":[""]
