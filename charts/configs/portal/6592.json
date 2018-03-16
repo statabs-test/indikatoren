@@ -300,7 +300,10 @@
   "plotOptions": {
     "area": {
       "stacking": "normal",
-      "lineWidth": 0
+      "lineWidth": 0,
+      "marker": {
+        "symbol": "circle"
+      }
     }
   },
   "exporting": {

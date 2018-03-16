@@ -11743,7 +11743,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die rohe Geburtenziffe hat in den vergangenen zehn Jahren von 8,9 auf 11,0 zugenommen. Nach Staatsangehörigkeit betrachtet zeigt sich, dass sowohl die rohe Geburtenziffer der Schweizer (von 7,7 auf 9,5) wie auch jene der Ausländer (von 11,5 auf 13,7) gestiegen ist.",
+		"lesehilfe": "Die rohe Geburtenziffe hat in den vergangenen zehn Jahren von 8,9 auf 11,0 zugenommen. Nach Staatsangehörigkeit betrachtet zeigt sich, dass sowohl die rohe Geburtenziffer der Schweizer (von 7,7 auf 9,5) wie auch jene der Ausländer (von 11,4 auf 13,7) gestiegen ist.",
 		"erlaeuterungen": "Lebendgeborene auf 1000 Einwohner der mittleren Wohnbevölkerung.",
 		"template": "line001",
 		"visibleInPortal": true,
@@ -12602,7 +12602,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Mietpreisindex",
-		"subtitle": "",
+		"subtitle": "Indexwert (Basis 2015 = 100)",
 		"kuerzel": "I.09.3.05196",
 		"kuerzelKunde": "GW18",
 		"description": "Mietpreisindex",
@@ -12715,7 +12715,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Ausgaben für Umbau- und Unterhaltsarbeiten",
-		"subtitle": "in 1000 Franken sowie Anteil am Total der Bauausgaben",
+		"subtitle": "in 1 000 Franken sowie Anteil am Total der Bauausgaben",
 		"kuerzel": "I.09.1.05199",
 		"kuerzelKunde": "GW21",
 		"description": "Ausgaben für Umbau- und Unterhaltsarbeiten",
@@ -12870,11 +12870,11 @@ var indikatoren = [
 		"id": 5203
 	},
 	{
-		"title": "Umweltverbrauch: Ökologischer Fussabdruck der Schweiz",
+		"title": "Ökologischer Fussabdruck der Schweiz",
 		"subtitle": "in globalen Hektaren pro Kopf",
 		"kuerzel": "I.08.1.05793",
 		"kuerzelKunde": "NL1",
-		"description": "Umweltverbrauch: Ökologischer Fussabdruck der Schweiz",
+		"description": "Ökologischer Fussabdruck der Schweiz",
 		"thema": "08 Energie",
 		"unterthema": "Verbrauch",
 		"kennzahlenset": "Nachhaltigkeit",
@@ -24165,7 +24165,6 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Grundbuch- und Vermessungsamt Basel-Stadt",
 			"Stadtgärtnerei Basel-Stadt"
 		],
 		"externalLinks": [
@@ -24272,7 +24271,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von 1997 bis 2016 stieg der Anteil der ausländischen Personen an der Bevölkerung von 26,7% auf 35,7%. Der stärkste Anstieg um über 0,8 Prozentpunkte wurde 2002 verzeichnet. In diesem Jahr traten die bilateralen Verträge zwischen der Schweiz und der EU in Kraft, welche den Aufenthalt von EU- und EFTA-Staatsangehörigen erleichterten. Lediglich geringfügige Anstiege waren in den Jahren 2000, 2007 und 2010 zu beobachten.",
+		"lesehilfe": "Von 1997 bis 2016 stieg der Anteil der ausländischen Personen an der Bevölkerung von 26,8% auf 35,7%. Der stärkste Anstieg um über 0,8 Prozentpunkte wurde 2002 verzeichnet. In diesem Jahr traten die bilateralen Verträge zwischen der Schweiz und der EU in Kraft, welche den Aufenthalt von EU- und EFTA-Staatsangehörigen erleichterten. Lediglich geringfügige Anstiege waren in den Jahren 2000, 2007 und 2010 zu beobachten.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"visibleInPortal": true,

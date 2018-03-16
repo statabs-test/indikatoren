@@ -40,7 +40,7 @@
   },
   tooltip: {
     pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>',
-    shared: true
+    shared: false
   },  
   "chart": {      
     "type": "column",

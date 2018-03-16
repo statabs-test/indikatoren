@@ -27,7 +27,7 @@
   },
  "series": [
     {
-		"color": "#246370",
+		"color": "#8A8A8A",
 		"legendIndex": 3
     },
     {

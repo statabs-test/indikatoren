@@ -3,9 +3,12 @@
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },
       "color": "#008AC3",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
       "data": [
         [
           2000,
@@ -81,9 +84,12 @@
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },
       "color": "#68AB2B",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
       "yAxis": 1,
       "data": [
         [
@@ -207,13 +213,12 @@
     "align": "left"
   },
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "shared": false
   },
   "yAxis": [
     {
       "labels": {
-        "format": "{value:,.0f}‰",
+        "format": "{value:,.0f}",
         "style": {
           "color": "#000000"
         }
@@ -230,7 +235,7 @@
         "text": null
       },
       "labels": {
-        "format": "{value:,.0f} Fr.",
+        "format": "{value:,.0f}",
         "style": {
           "color": "#000000"
         }

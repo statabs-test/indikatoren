@@ -15,8 +15,10 @@
             stacking: 'normal',
             //lineColor: '#666666',
             lineWidth: 0,
-
+            marker: {
+            	symbol: "circle"
         }
+  },
   },
   "yAxis": {
     "labels": {
