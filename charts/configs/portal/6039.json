@@ -310,7 +310,7 @@
         "color": "#000000"
       },
       "align": "left",
-      "x": -50
+      "x": -60
     },
     "tickLength": 0,
     "tickInterval": 1
@@ -344,7 +344,7 @@
     "marginBottom": 75,
     "type": "column",
     "inverted": true,
-    "marginLeft": 60,
+    "marginLeft": 70,
     "renderTo": "container-6039"
   },
   "plotOptions": {

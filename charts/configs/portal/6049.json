@@ -5,19 +5,19 @@
       "visible": true,
       "data": [
         [
-          "Genferseeregion",
-          1.8
+          "2008",
+          1.78879750478065
         ],
         [
-          "Nordwestschweiz",
-          6.6
+          "2012",
+          1.45814927879779
         ],
         [
-          "Zürich",
-          0.8
+          "2015",
+          0
         ]
       ],
-      "name": "2 008",
+      "name": "Genferseeregion",
       "turboThreshold": 0
     },
     {
@@ -25,19 +25,19 @@
       "visible": true,
       "data": [
         [
-          "Genferseeregion",
-          1.5
+          "2008",
+          6.62524914620074
         ],
         [
-          "Nordwestschweiz",
-          7.2
+          "2012",
+          5.82063452410692
         ],
         [
-          "Zürich",
-          1.1
+          "2015",
+          0
         ]
       ],
-      "name": "2012",
+      "name": "Nordwestschweiz",
       "turboThreshold": 0
     },
     {
@@ -45,19 +45,19 @@
       "visible": true,
       "data": [
         [
-          "Genferseeregion",
-          1.7
+          "2008",
+          0.776258844542145
         ],
         [
-          "Nordwestschweiz",
-          8
+          "2012",
+          1.07593996136127
         ],
         [
-          "Zürich",
-          1.2
+          "2015",
+          0
         ]
       ],
-      "name": "2015",
+      "name": "Zürich",
       "turboThreshold": 0
     }
   ],

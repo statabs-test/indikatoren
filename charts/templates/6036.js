@@ -16,13 +16,13 @@
   "series": [
     {"color": "#008AC3",
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* dunkelrot */
     	{"color": "#007A2F",
 	visible:true,
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* dunkelgrün */
   ],

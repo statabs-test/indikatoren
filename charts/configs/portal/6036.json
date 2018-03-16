@@ -3,7 +3,7 @@
     {
       "color": "#008AC3",
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
@@ -97,6 +97,14 @@
         [
           2013,
           0.505
+        ],
+        [
+          2014,
+          0.513
+        ],
+        [
+          2015,
+          0.512
         ]
       ],
       "name": "Reineinkommen"
@@ -105,7 +113,7 @@
       "color": "#007A2F",
       "visible": true,
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
@@ -199,9 +207,17 @@
         [
           2013,
           0.926
+        ],
+        [
+          2014,
+          0.928
+        ],
+        [
+          2015,
+          0.92
         ]
       ],
-      "name": "Reinvermögen"
+      "name": "Reinvermöen"
     }
   ],
   "chart": {

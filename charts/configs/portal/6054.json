@@ -4,7 +4,7 @@
       "color": "#b00000 ",
       "legendIndex": 1,
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
@@ -102,6 +102,10 @@
         [
           2014,
           68538.4845758132
+        ],
+        [
+          2015,
+          68248
         ]
       ],
       "name": "Mittelwert"
@@ -110,7 +114,7 @@
       "color": "#672773",
       "legendIndex": 2,
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
@@ -208,6 +212,10 @@
         [
           2014,
           49044
+        ],
+        [
+          2015,
+          49142
         ]
       ],
       "name": "Median"
@@ -216,7 +224,7 @@
       "color": "#007a2f",
       "legendIndex": 0,
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
@@ -314,6 +322,10 @@
         [
           2014,
           184561.531913051
+        ],
+        [
+          2015,
+          183185
         ]
       ],
       "name": "Mittelwert oberstes Quintil"
@@ -322,7 +334,7 @@
       "color": "#008AC3",
       "legendIndex": 3,
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
@@ -420,6 +432,10 @@
         [
           2014,
           6709.11604745821
+        ],
+        [
+          2015,
+          6536
         ]
       ],
       "name": "Mittelwert unterstes Quintil"

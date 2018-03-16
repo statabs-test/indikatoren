@@ -76,7 +76,7 @@
     },
     "type": "column",
     "inverted": true,
-    "marginLeft": 110,
+    "marginLeft": 120,
     "renderTo": "container-6041"
   },
   "title": {
