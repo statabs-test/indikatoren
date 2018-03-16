@@ -5,7 +5,7 @@
     "series": {
       //pointPadding: 0,
       borderWidth: 0,
-      pointWidth: 10,
+      pointWidth: 20,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -17,7 +17,7 @@
   "xAxis": {
     "labels": {
      align: "left",
-     x: -50,
+     x: -60,
   	   },
     "type": "category",
     "tickInterval": 1
@@ -54,7 +54,7 @@
     //"marginTop": 75,
     "type": "column",
     "inverted": true,
-     marginLeft: 110, 
+     marginLeft: 70, 
 
   },
   "tooltip": {

@@ -8,6 +8,9 @@
 
         }
    },
+ "data":{
+  	"switchRowsAndColumns": true
+  },
   "xAxis": {
     "type": "category",
     "labels": {

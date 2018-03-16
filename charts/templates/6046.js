@@ -24,7 +24,7 @@
     "itemMarginBottom": 5,
     "align": "left",
     //"x": 20,
-    "y": 25,
+    "y": 35,
     "width": 200,
     "itemStyle": {
       "fontWeight": "normal"

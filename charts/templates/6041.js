@@ -38,7 +38,7 @@
     "type": "column",
     "inverted": true,
     "spacingBottom": 40,
-     marginLeft: 110, 
+     marginLeft: 120, 
 
   },
    plotOptions: {

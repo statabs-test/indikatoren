@@ -2,17 +2,35 @@
   "series": [
     {
       "color": "#71A3B5",
-      "data": [],
+      "data": [
+        [
+          "2015 (N=1506)",
+          41
+        ]
+      ],
+      "name": "Ja",
       "turboThreshold": 0
     },
     {
       "color": "#FFBB58",
-      "data": [],
+      "data": [
+        [
+          "2015 (N=1506)",
+          58.8
+        ]
+      ],
+      "name": "Nein",
       "turboThreshold": 0
     },
     {
       "color": "#8A8A8A",
-      "data": [],
+      "data": [
+        [
+          "2015 (N=1506)",
+          0.1
+        ]
+      ],
+      "name": "Weiss nicht",
       "turboThreshold": 0
     }
   ],
