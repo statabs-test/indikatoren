@@ -452,7 +452,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Stand: 2015"
+    "text": "«Wie würden Sie die folgenden Eigenschaften der Basler Polizistinnen und Polizisten bewerten?», Stand: 2015"
   },
   "navigation": {
     "menuItemStyle": {
@@ -510,7 +510,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Justiz- und Sicherheitsdepartement Basel-Stadt, Kundenumfrage zur Kantonspolizei"
+    "text": "Quelle: Justiz- und Sicherheitsdepartment des Kantons Basel-Stadt, Kundenbefragungen 2015, F 51"
   },
   "legend": {
     "layout": "vertical",
