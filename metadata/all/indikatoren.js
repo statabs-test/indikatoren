@@ -21503,6 +21503,44 @@ var indikatoren = [
 	{
 		"title": "Test Title",
 		"subtitle": "Test Subtitle",
+		"kuerzel": "I.04.1.09996",
+		"kuerzelKunde": "1.0",
+		"description": "Test Spider",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton",
+			"Schweiz"
+		],
+		"aktualisierungsdatum": "2017-09-26T00:00:00.000",
+		"schlagwort": [
+			"Test"
+		],
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Test Lesehilfe",
+		"erlaeuterungen": "",
+		"template": "spider001",
+		"visibleInPortal": false,
+		"orderKey": "0",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Test Quelle"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 9996
+	},
+	{
+		"title": "Test Title",
+		"subtitle": "Test Subtitle",
 		"kuerzel": "I.04.1.09997",
 		"kuerzelKunde": "1.0",
 		"description": "Test Bubble",
