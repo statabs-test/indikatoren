@@ -70,7 +70,7 @@
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1" transform="translate(8,27)">
           <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#007A2F" stroke-width="2"/>
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Reinvermöen</tspan>
+            <tspan>Reinvermögen</tspan>
           </text>
         </g>
       </g>
@@ -134,7 +134,7 @@
       <tspan>1.0</tspan>
     </text>
   </g>
-  <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="390">
-    <tspan>Quelle: Statistisches Amt Basel-Stadt;</tspan><tspan x="10" dy="13">Steuerverwaltung Basel-Stadt</tspan>
+  <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="400">
+    <tspan>Quelle: Steuerstatistik Basel-Stadt</tspan>
   </text>
 </svg>

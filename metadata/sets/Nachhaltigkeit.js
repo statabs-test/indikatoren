@@ -1783,8 +1783,7 @@ var indikatorensetData = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt",
-			"Steuerverwaltung Basel-Stadt"
+			"Steuerstatistik Basel-Stadt"
 		],
 		"externalLinks": [
 			""
