@@ -79,7 +79,7 @@
           3
         ]
       ],
-      "name": "Nettoschuldenquote in ‰ (linke Skala)"
+      "name": "Nettoschuldenquote"
     },
     {
       "marker": {
@@ -161,7 +161,7 @@
           9950
         ]
       ],
-      "name": "Nettoschulden pro Kopf in Franken (rechte Skala)"
+      "name": "Nettoschulden pro Kopf (rechte Skala)"
     }
   ],
   "chart": {
@@ -200,7 +200,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Nettoschuldenquote in Promille des BIP der Schweiz und Nettoschulden pro Einwohner in Franken"
+    "text": "Nettoschuldenquote und Nettoschulden pro Kopf"
   },
   "subtitle": {
     "style": {
@@ -209,7 +209,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Nettoschuldenquote in Promille des BIP der Schweiz und Nettoschulden pro Kopf in Franken",
     "align": "left"
   },
   "tooltip": {
@@ -278,7 +278,7 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "y": 35,
+    "y": 45,
     "itemWidth": 500,
     "itemMarginBottom": 5,
     "itemStyle": {

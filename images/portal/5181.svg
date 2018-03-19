@@ -161,38 +161,38 @@
   </g>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="87" opacity="1">
-      <tspan>18-29 (n=97)</tspan>
+      <tspan>18-29 (N=97)</tspan>
     </text>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="111" opacity="1">
-      <tspan>30-39 (n=120)</tspan>
+      <tspan>30-39 (N=120)</tspan>
     </text>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="136" opacity="1">
-      <tspan>40-49 (n=174)</tspan>
+      <tspan>40-49 (N=174)</tspan>
     </text>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="160" opacity="1">
-      <tspan>50-59 (n=273)</tspan>
+      <tspan>50-59 (N=273)</tspan>
     </text>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="185" opacity="1">
-      <tspan>60-69 (n=334)</tspan>
+      <tspan>60-69 (N=334)</tspan>
     </text>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="209" opacity="1">
-      <tspan>70 u.m. (n=508)</tspan>
+      <tspan>70 u.m. (N=508)</tspan>
     </text>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="240" opacity="1"/>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="258" opacity="1">
-      <tspan>2003 (n=1497)</tspan>
+      <tspan>2003 (N=1497)</tspan>
     </text>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="283" opacity="1">
-      <tspan>2005 (n=1510)</tspan>
+      <tspan>2005 (N=1510)</tspan>
     </text>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="307" opacity="1">
-      <tspan>2007 (n=1509)</tspan>
+      <tspan>2007 (N=1509)</tspan>
     </text>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="332" opacity="1">
-      <tspan>2011 (n=1516)</tspan>
+      <tspan>2011 (N=1516)</tspan>
     </text>
     <text x="15" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="356" opacity="1">
-      <tspan>2015 (n=1506)</tspan>
+      <tspan>2015 (N=1506)</tspan>
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
