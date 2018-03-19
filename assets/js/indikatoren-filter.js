@@ -35,6 +35,16 @@ var view = false;
 var perPage=16;
 
 $(document).ready(function(){
+  
+  //display header if requested
+  var showHeader = window.decodeURIComponent($.url('?showHeader')) === 'true';
+  if (showHeader) { 
+    $('#header').removeClass('hidden'); 
+  }
+  
+  //pre-populate searchbox
+  $("#searchbox").val(window.decodeURIComponent($.url('?search')));
+  
   //Render page differently depending on url query string 'Indikatorenset'
   //var indikatorenset = $.url('?Indikatorenset');
   var indikatorenset = window.decodeURIComponent($.url('?Indikatorenset'));
@@ -260,6 +270,9 @@ function preparePortalView(){
   var baseQuery = {};
   //render unterthema dropdown for the first time   
   renderDropdownFromJson(indikatoren, 'unterthema', '#unterthema_filter', 'unterthema', baseQuery);
+  //pre-populate fields with url parameter values
+  $("#thema_criteria :radio").filter("[value='" + window.decodeURIComponent($.url('?thema')) + "']").prop("checked", true);
+  $("#unterthema_filter").val(window.decodeURIComponent($.url('?unterthema')));
 }
 
 
