@@ -316,7 +316,6 @@
     },
     {
       "gridLineColor": "#B9CFD7",
-      "gridLineWidth": 0,
       "min": 0,
       "title": {
         "style": {
@@ -331,6 +330,7 @@
           "color": "#000000"
         }
       },
+      "gridLineWidth": 0,
       "opposite": true
     }
   ],
@@ -370,6 +370,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "I.09.2.04139"
+    "filename": 4139
   }
 }

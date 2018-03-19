@@ -65,15 +65,6 @@
     "rangeSelectorZoom": "Zoom",
     "rangeSelectorFrom": "From",
     "rangeSelectorTo": "To",
-    "printChart": "Drucken",
-    "downloadPNG": "PNG Export",
-    "downloadJPEG": "JPEG Export",
-    "downloadPDF": "PDF Export",
-    "downloadSVG": "SVG Export",
-    "contextButtonTitle": "Exportieren\u002FDrucken",
-    "downloadCSV": "CSV Export",
-    "downloadXLS": "XLS Export",
-    "viewData": "View data table",
     "noData": "Keine Daten"
   },
   "global": {
@@ -226,7 +217,7 @@
       "fill": "#000000",
       "width": "421px"
     },
-    "text": "Anzahl Personen",
+    "text": "Anzahl Personen (der mittleren Wohnbevölkerung)",
     "align": "left",
     "widthAdjust": -44
   },
@@ -1052,7 +1043,7 @@
     "backgroundColor": "rgba(247,247,247,0.85)",
     "borderWidth": 1,
     "headerFormat": "\u003Cspan style=\"width: 80px\"\u003E\u003Cspan style=\"color:{point.color}; width: 10px; font-size: 1.8em;\"\u003E■\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 1em;\"\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan style=\"padding-left: 15px; line-height: 1.4em;\"\u003E{point.key}:",
-    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E Pers.\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
+    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E Pers. \u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
     "shadow": true,
     "style": {
       "color": "#333333",
@@ -1069,7 +1060,7 @@
       },
       "hideDelay": 200,
       "headerFormat": "\u003Cspan style=\"width: 80px\"\u003E\u003Cspan style=\"color:{point.color}; width: 10px; font-size: 1.8em;\"\u003E■\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 1em;\"\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan style=\"padding-left: 15px; line-height: 1.4em;\"\u003E{point.key}:",
-      "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E Pers.\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
+      "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E Pers. \u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
       "footerFormat": "",
       "useHTML": true
     }
@@ -1222,7 +1213,6 @@
       "padding": "5px 0"
     },
     "menuItemStyle": {
-      "padding": "3px 12px",
       "background": "none",
       "color": "#333333",
       "fontSize": "11px",
@@ -1238,58 +1228,6 @@
     "url": "https:\u002F\u002Fexport.highcharts.com\u002F",
     "printMaxWidth": 780,
     "scale": 3,
-    "buttons": {
-      "contextButton": {
-        "className": "highcharts-contextbutton",
-        "menuClassName": "highcharts-contextmenu",
-        "symbol": "menu",
-        "_titleKey": "contextButtonTitle",
-        "menuItems": [
-          {
-            "textKey": "printChart",
-            "onclick": function () {this.print();}
-          },
-          {
-            "separator": true
-          },
-          {
-            "textKey": "downloadPNG",
-            "onclick": function () {this.exportChart();}
-          },
-          {
-            "textKey": "downloadJPEG",
-            "onclick": function () {this.exportChart({type:"image/jpeg"});}
-          },
-          {
-            "textKey": "downloadPDF",
-            "onclick": function () {this.exportChart({type:"application/pdf"});}
-          },
-          {
-            "textKey": "downloadSVG",
-            "onclick": function () {this.exportChart({type:"image/svg+xml"});}
-          },
-          {
-            "textKey": "downloadCSV",
-            "onclick": function () { this.downloadCSV(); }
-          },
-          {
-            "textKey": "downloadXLS",
-            "onclick": function () { this.downloadXLS(); }
-          },
-          {
-            "text": "Diagramm in neuem Fenster",
-            "onclick": function () {window.open("?format=chart&i=1702");}
-          },
-          {
-            "separator": true
-          },
-          {
-            "text": "Anleitung",
-            "onclick": function () {tour.start(true);}
-          }
-        ]
-      }
-    },
     "enabled": true,
     "filename": "Bevölkerung",
     "csv": {
@@ -1422,7 +1360,7 @@
       "name": "Bevölkerung",
       "color": "#FF8028",
       "id": "BS1702_1",
-      "valueSuffix": "Anzahl Personen",
+      "valueSuffix": "Anzahl Personen (der mittleren Wohnbevölkerung)",
       "data": [
         238292,
         235606,

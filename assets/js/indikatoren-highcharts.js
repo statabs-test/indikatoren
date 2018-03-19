@@ -107,7 +107,7 @@ function injectMetadataToChartConfig(options, data, view, suppressNumberInTitle)
   options['credits']['position']['y'] = (options['credits']['position']['y'] || -5) + (-10 * data.quellenangabe.length);
   //make sure node exists before deferencing it
   options['exporting'] = (options['exporting'] || {});
-  options['exporting']['filename'] = data.kuerzel;
+  options['exporting']['filename'] = data.id;
   
   //for print, remove, title, subtitle, and credits, and set the scale
   if (view == "print"){
@@ -167,7 +167,9 @@ function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, chartMetaD
         
         //load csv and draw chart            
         $.get(csvUrl, function(data){
-          drawChartFromData(data, chartOptions, template, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn);
+          //remove quotes from data
+          var dataWithoutQuotes = data.replace(/"/g, "");
+          drawChartFromData(dataWithoutQuotes, chartOptions, template, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn);
         });
       }
     ).fail(function(jqXHR, textStatus, errorThrown){
@@ -273,7 +275,9 @@ function deserialize(serializedJavascript){
 
 
 //create chart as image
-function exportThumbnail(id, exportType, offline, exportServer){    
+function exportThumbnail(id, exportType, offline, exportServer, filename){
+  //define default filename
+  filename = filename || id;
   var chart = $(escapeCssChars('#container-' + id)).highcharts();
   //remove callback - otherwise end up in infinite loop
   delete chart.callback;
@@ -286,25 +290,26 @@ function exportThumbnail(id, exportType, offline, exportServer){
   //set exportServer
   if (exportServer) {
     chart.options.exporting.url =  exportServer;
+    chart.options.filename = filename;
   }
   
   if (offline){     
     chart.exportChartLocal({
       type: exportType, 
-      filename: id
+      filename: filename
     });  
   }
   else {
     chart.exportChart({
       type: exportType, 
-      filename: id
+      filename: filename
     });      
   }
 }
 
 
 //render the html required for links to other chart, kennzahlenset or external resources
-function renderLinksHTML(kennzahlenset, renderLink, externalLinks, view, stufe1, renderLinkDisplayMode){
+function renderLinksHTML(kennzahlenset, renderLink, externalLinks, view, stufe1, renderLinkDisplayMode, hideLinks, hideLinksTitle){
   var returnText = "";
   var displayLinkToIndikatorenset = kennzahlenset;
   //renderLink: Link to different view of same data
@@ -313,8 +318,8 @@ function renderLinksHTML(kennzahlenset, renderLink, externalLinks, view, stufe1,
   //any of the links need to be present 
   if (displayLinkToIndikatorenset || displayRenderLink || displayExternalLinks ) {
     returnText = " \
-        <div> \
-          <h1>Links</h1> \
+        <div id='links'" + (hideLinks ? "class='hidden'" : '')  + "> \
+          <div><h1 id='linksTitle' " + (hideLinksTitle ? "class='hidden'" : '') + ">Links</h1></div> \
           <div class='lesehilfe'> \
             <ul class='list-unstyled'>\
         ";
@@ -335,11 +340,11 @@ function renderLinksHTML(kennzahlenset, renderLink, externalLinks, view, stufe1,
     if (displayRenderLink) {
       if (renderLinkDisplayMode == 'slide' || renderLinkDisplayMode === undefined){
         //we're in carousel mode, slide to other chart
-        returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/><a href='javascript:javascript:slideToLinkedChart(" + renderLink[0] + ", window.FJS, " + isIndikatorensetView(view) + ")'>Andere Darstellungsform</a> dieser Daten</li>";
+        returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/><a href='javascript:javascript:slideToLinkedChart(" + renderLink[0] + ", window.FJS, " + isIndikatorensetView(view) + ")'>Andere Darstellungsform</a> dieser Daten.</li>";
       }
       else{
         //we're in chart-detail.html, open link to other chart
-        returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/><a href='chart-details.html?id=" + renderLink[0] + "'>Andere Darstellungsform</a> dieser Daten</li>";
+        returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/><a href='chart-details.html?id=" + renderLink[0] + "'>Andere Darstellungsform</a> dieser Daten.</li>";
       }
     }
     if (displayExternalLinks) {

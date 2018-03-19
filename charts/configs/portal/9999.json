@@ -3623,7 +3623,7 @@
         "fontWeight": "normal",
         "fontSize": "11px"
       },
-      "text": "in tausend Einheiten"
+      "text": ""
     }
   },
   "tooltip": {
@@ -3640,6 +3640,6 @@
             }
   },
   "exporting": {
-    "filename": "I.01.1.09999"
+    "filename": 9999
   }
 }

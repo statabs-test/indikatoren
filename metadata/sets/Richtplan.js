@@ -27,7 +27,6 @@ var indikatorensetData = [
 		"orderKey": "01_01_00_00_00_002",
 		"parentId": null,
 		"children": [
-			"6092",
 			"6242"
 		],
 		"renderLink": [],
@@ -61,13 +60,12 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit 267,5 Einwohner pro ha wies das Matthäusviertel am Jahresende 2016 die höchste Bevölkerungsdichte auf. Ebenfalls hohe Bevölkerungsdichten wiesen die Wohnviertel Gundeldingen, Iselin und Clara auf. Die Bevölkerungsdichte nimmt in den Wohnvierteln des Zentrums am stärksten zu. Im Vergleich zu 1997 am stärksten zugenommen hat die Bevölkerungsdichte im Rosentalviertel, hier ist das neue Quartier Erlenmatt entstanden.",
+		"lesehilfe": "Mit 266,5 Einwohner pro Hektar wies das Matthäusviertel am Jahresende 2017 die höchste Bevölkerungsdichte auf. Ebenfalls hohe Bevölkerungsdichten wiesen die Wohnviertel Gundeldingen, Iselin und Clara auf. Im Vergleich zu 1998 am stärksten zugenommen hat die Bevölkerungsdichte im Rosentalviertel aufgrund der Bebauung des Erlenmattareals. Ebenfalls deutlich höher als noch 1998 sind die Bevölkerungsdichten in den Wohnvierteln Clara, Altstadt Grossbasel und Iselin.",
 		"erlaeuterungen": "",
 		"template": "mappie001",
 		"orderKey": "01_01_00_00_00_003",
 		"parentId": null,
 		"children": [
-			"6093",
 			"6243"
 		],
 		"renderLink": [],
@@ -106,7 +104,6 @@ var indikatorensetData = [
 		"orderKey": "01_01_00_00_00_012",
 		"parentId": null,
 		"children": [
-			"6094",
 			"6244"
 		],
 		"renderLink": [],
@@ -145,7 +142,6 @@ var indikatorensetData = [
 		"orderKey": "01_01_00_00_00_005",
 		"parentId": null,
 		"children": [
-			"6103",
 			"6245"
 		],
 		"renderLink": [],
@@ -184,7 +180,6 @@ var indikatorensetData = [
 		"orderKey": "01_01_00_00_00_006",
 		"parentId": 6009,
 		"children": [
-			"6104",
 			"6246"
 		],
 		"renderLink": [],
@@ -198,7 +193,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "",
+		"subtitle": "in m²",
 		"kuerzel": "I.09.1.05815",
 		"kuerzelKunde": "ST 4-7",
 		"description": "Mittlere Wohnfläche pro Person",
@@ -210,22 +205,20 @@ var indikatorensetData = [
 		],
 		"aktualisierungsdatum": "2017-07-05T09:32:06.066",
 		"schlagwort": [
-			"Wohnen"
+			"Gebäude",
+			"Haushalt"
 		],
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Wohnfläche pro Kopf nahm von 1997 bis 2010 um knapp 2 m² zu. Seither ist ein Rückgang zu verzeichnen. Der Wert 2016 beträgt 41,3 m².",
+		"lesehilfe": "Die Wohnfläche pro Kopf nahm von 1980 bis 2010 um sechs Quadratmeter zu. Seither ist ein leichter Rückgang zu verzeichnen.",
 		"erlaeuterungen": "Alle Berechnungen beziehen sich auf das Jahresende und berücksichtigen rückwirkend wo immer möglich die aktuell gültigen Definitionen gemäss Gesetzgebung zu Registerharmonisierung und Volkszählung. Ab 2012 handelt es sich um kantonale Registerauswertungen, frühere Werte wurden auf Basis der Volkszählungen 1980, 1990 und 2000 berechnet.",
 		"template": "line001",
 		"orderKey": "01_01_00_00_00_007",
 		"parentId": 4140,
-		"children": [
-			"6105",
-			"6247"
-		],
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -263,7 +256,6 @@ var indikatorensetData = [
 		"orderKey": "01_01_00_00_00_008",
 		"parentId": 4135,
 		"children": [
-			"6106",
 			"6248"
 		],
 		"renderLink": [],
@@ -277,7 +269,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Nettowohnungsproduktion",
-		"subtitle": "nach Wohnviertel von 2007 bis 2016",
+		"subtitle": "nach Wohnviertel von 2008 bis 2017",
 		"kuerzel": "I.09.1.05817",
 		"kuerzelKunde": "ST 4-9",
 		"description": "Nettowohnungsproduktion",
@@ -302,7 +294,6 @@ var indikatorensetData = [
 		"orderKey": "01_01_00_00_00_009",
 		"parentId": null,
 		"children": [
-			"6107",
 			"6249"
 		],
 		"renderLink": [],
@@ -379,7 +370,6 @@ var indikatorensetData = [
 		"orderKey": "01_02_00_00_00_001",
 		"parentId": 4150,
 		"children": [
-			"6109",
 			"6251"
 		],
 		"renderLink": [],
@@ -401,7 +391,6 @@ var indikatorensetData = [
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
-			"Wohnviertel",
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
@@ -420,7 +409,6 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [
 			"5165",
-			"6110",
 			"6252"
 		],
 		"renderLink": [],
@@ -434,7 +422,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anteil Einwohner pro ÖV-Güteklasse",
-		"subtitle": "",
+		"subtitle": "Stand 2016",
 		"kuerzel": "I.11.2.05822",
 		"kuerzelKunde": "ST 6-1",
 		"description": "Anteil Einwohner pro ÖV-Güteklasse",
@@ -459,7 +447,6 @@ var indikatorensetData = [
 		"orderKey": "01_03_00_00_00_001",
 		"parentId": null,
 		"children": [
-			"6111",
 			"6253"
 		],
 		"renderLink": [],
@@ -493,13 +480,12 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Kanton Basel-Stadt arbeiteten 2014 rund 151 800 Beschäftigte. Daraus resultiert eine Beschäftigtendichte von etwa 41 Beschäftigten pro Hektar. Dieser Wert lag 2011 noch bei 40 Beschäftigten.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Im Kanton Basel-Stadt arbeiteten 2015 in Vollzeitäquivalente (VZÄ) umgerechnet rund 151 600 Beschäftigte. Daraus resultiert eine Beschäftigtendichte von etwa 41 Beschäftigten (VZÄ) pro Hektar. Dieser Wert hat sich in den letzten Jahren kaum verändert.",
+		"erlaeuterungen": "Die Unternehmensstatistik (STATENT) basiert auf den AHV-Registerdaten. Als beschäftigt gilt jede Person mit AHV-pflichtigem Einkommen. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus einer Schätzung basierend auf den Beschäftigtenzahlen.",
 		"template": "line001",
 		"orderKey": "02_04_00_00_00_002",
 		"parentId": null,
 		"children": [
-			"6112",
 			"6254"
 		],
 		"renderLink": [],
@@ -538,7 +524,6 @@ var indikatorensetData = [
 		"orderKey": "02_04_00_00_00_003",
 		"parentId": null,
 		"children": [
-			"6114",
 			"6255"
 		],
 		"renderLink": [],
@@ -613,13 +598,12 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Wohnbevölkerung ist im Kanton Basel-Stadt zwischen 2005 und 2014 von 187 463 auf 196 471 gestiegen, was einem Anstieg um etwa 4,8% entspricht. Demgegenüber stieg die Zahl der Beschäftigten um 11,5% von 171 743 auf 191 441.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Die Wohnbevölkerung ist im Kanton Basel-Stadt zwischen 2005 und 2015 von 187&nbsp;920 auf 197&nbsp;204 gestiegen, was einem Anstieg um etwa 4,9% entspricht. Demgegenüber stieg die Zahl der Beschäftigten um 11,1% von 171&nbsp;743 auf 190&nbsp;753.",
+		"erlaeuterungen": "Es ist jeweils der Bevölkerungsbestand Ende Jahr abgebildet. Referenzperiode für die Beschäftigten ist jeweils der Dezember. Beschäftigte werden berücksichtigt, sofern sie aufgrund eines Mindesteinkommens von 2 300 Franken im Jahr AHV-Beiträge zahlen müssen.",
 		"template": "line001",
 		"orderKey": "01_01_00_00_00_011",
 		"parentId": null,
 		"children": [
-			"6120",
 			"6257"
 		],
 		"renderLink": [],
@@ -659,7 +643,6 @@ var indikatorensetData = [
 		"orderKey": "01_03_00_00_00_002",
 		"parentId": 6154,
 		"children": [
-			"6123",
 			"6258"
 		],
 		"renderLink": [],
@@ -692,19 +675,18 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Wohnbevölkerung in Basel-Stadt liegt 2016 mit rund 198 000 Personen tiefer als noch 1960 (228 000 Personen). Demgegenüber steht ein Ansteig der Anzahl Wohnungen auf gut 108 000 Wohnungen (+30 000) über denselben Zeitraum. Der Höchststand der Bevölkerungszahl innerhalb des Beobachtungszeitraums lag 1969 bei über 238 000 Personen – seit dem Teifstwert 2006 (187 190) kann eine kontinuierliche Zunahme registriert werden.",
+		"lesehilfe": "Die Wohnbevölkerung in Basel-Stadt liegt 2017 mit rund 199 000 Personen tiefer als noch 1960 (228 000 Personen). Demgegenüber steht ein Anstieg der Anzahl Wohnungen auf gut 109 000 Wohnungen (+30 000) über denselben Zeitraum. Der Höchststand der Bevölkerungszahl innerhalb des Beobachtungszeitraums lag 1970 bei knapp 235 000 Personen. Seit 2006 kann eine kontinuierliche Zunahme registriert werden.",
 		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister.",
 		"template": "template001",
 		"orderKey": "01_01_00_00_00_001",
 		"parentId": null,
 		"children": [
-			"6221",
 			"6259"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -738,7 +720,6 @@ var indikatorensetData = [
 		"orderKey": "01_01_00_00_00_004",
 		"parentId": null,
 		"children": [
-			"6222",
 			"6260"
 		],
 		"renderLink": [],
@@ -778,7 +759,6 @@ var indikatorensetData = [
 		"orderKey": "01_02_00_00_00_003",
 		"parentId": null,
 		"children": [
-			"6223",
 			"6261"
 		],
 		"renderLink": [],
@@ -817,7 +797,6 @@ var indikatorensetData = [
 		"orderKey": "02_04_00_00_00_004",
 		"parentId": null,
 		"children": [
-			"6224",
 			"6262"
 		],
 		"renderLink": [],
@@ -856,7 +835,6 @@ var indikatorensetData = [
 		"orderKey": "02_05_00_00_00_002",
 		"parentId": null,
 		"children": [
-			"6225",
 			"6263"
 		],
 		"renderLink": [],
@@ -895,7 +873,6 @@ var indikatorensetData = [
 		"orderKey": "01_02_00_00_00_004",
 		"parentId": null,
 		"children": [
-			"6227",
 			"6264"
 		],
 		"renderLink": [],
@@ -936,7 +913,6 @@ var indikatorensetData = [
 		"orderKey": "02_04_00_00_00_001",
 		"parentId": null,
 		"children": [
-			"6241",
 			"6265",
 			"6347"
 		],

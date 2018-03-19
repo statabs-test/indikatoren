@@ -3238,87 +3238,87 @@
       "data": [
         [
           4,
-          0.1190652515
+          0.1260591
         ],
         [
           7,
-          0.1331406422
+          0.1361308
         ],
         [
           10,
-          0.1582150751
+          0.1564077
         ],
         [
           20,
-          0.164299291
+          0.1686329
         ],
         [
           17,
-          0.1814616525
+          0.1825223
         ],
         [
           8,
-          0.1872961595
+          0.2139096
         ],
         [
           30,
-          0.2839533422
+          0.2922295
         ],
         [
           9,
-          0.2945914104
+          0.295796
         ],
         [
           15,
-          0.3392960807
+          0.3361932
         ],
         [
           6,
-          0.6218140788
+          0.5846537
         ],
         [
           13,
-          0.6749574129
+          0.6670431
         ],
         [
           18,
-          0.8165756242
-        ],
-        [
-          11,
-          0.9990028404
-        ],
-        [
-          3,
-          1.0166387112
+          0.7963974
         ],
         [
           16,
-          1.050800448
+          0.8699138
+        ],
+        [
+          11,
+          0.9785721
+        ],
+        [
+          3,
+          1.0218276
         ],
         [
           12,
-          1.5517414754
+          1.6536017
         ],
         [
           14,
-          1.8098230986
+          1.8984669
         ],
         [
           19,
-          2.0479528603
+          2.1589777
         ],
         [
           5,
-          2.1513247105
-        ],
-        [
-          2,
-          4.577539286
+          2.23059
         ],
         [
           1,
-          4.595664635
+          4.3204681
+        ],
+        [
+          2,
+          4.422659
         ]
       ]
     },
@@ -3375,15 +3375,15 @@
         ],
         [
           13,
-          "St. Johann"
+          "Rosental"
         ],
         [
           14,
-          "Am Ring"
+          "St. Johann"
         ],
         [
           15,
-          "Rosental"
+          "Am Ring"
         ],
         [
           16,
@@ -3403,14 +3403,14 @@
         ],
         [
           20,
-          "Vorstädte"
+          "Altstadt Grossbasel"
         ],
         [
           21,
-          "Altstadt Grossbasel"
+          "Vorstädte"
         ]
       ],
-      "name": "wohnviertel"
+      "name": "Wohnviertel"
     },
     {
       "name": "Rhein",
@@ -3658,7 +3658,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2014",
+    "text": "Stand: 2015",
     "align": "left"
   },
   "credits": {
@@ -3728,12 +3728,12 @@
                     var other_series = args.chart.series[other_series_index];
                     var other_point = other_series.data[this_point_index];
                     return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-                        this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value*100),1) + '%</b><br/>' + 
+                        this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value),3) + '</b><br/>' + 
                         'Rang <b>' + other_point.value + '</b>';
                 }
             }
   },
   "exporting": {
-    "filename": "I.03.2.05125"
+    "filename": 5125
   }
 }
