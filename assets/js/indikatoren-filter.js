@@ -273,6 +273,17 @@ function preparePortalView(){
   //pre-populate fields with url parameter values
   $("#thema_criteria :radio").filter("[value='" + window.decodeURIComponent($.url('?thema')) + "']").prop("checked", true);
   $("#unterthema_filter").val(window.decodeURIComponent($.url('?unterthema')));
+  var schlagwortUrlParameterValue = window.decodeURIComponent($.url('?schlagwort'));
+  if (schlagwortUrlParameterValue != undefined){setMultiselectValue("#schlagwort_filter", schlagwortUrlParameterValue);}  
+  var raeumlicheGliederungUrlParameterValue = window.decodeURIComponent($.url('?raeumlicheGliederung'));
+  if (raeumlicheGliederungUrlParameterValue != undefined){setMultiselectValue("#raeumlicheGliederung_filter", raeumlicheGliederungUrlParameterValue);}  
+}
+
+
+//set a multiselect dropdown value and trigger a change event
+function setMultiselectValue(selector, value){
+  $(selector + " option").prop('selected', false);
+  $(selector).multiselect('deselectAll', false).multiselect('select', value).multiselect('updateButtonText');
 }
 
 
