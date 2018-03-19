@@ -49,7 +49,7 @@
   "plotOptions": {
     "line": {
       "marker":{
-        "enabled": true,
+        "enabled": false,
         "symbol": "circle",
       } 
     }
