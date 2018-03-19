@@ -43,7 +43,8 @@ $(document).ready(function(){
   }
   
   //pre-populate searchbox
-  $("#searchbox").val(window.decodeURIComponent($.url('?search')));
+  var searchUrlParamValue = window.decodeURIComponent($.url('?search'));
+  if (searchUrlParamValue != "undefined"){$("#searchbox").val(searchUrlParamValue);}
   
   //Render page differently depending on url query string 'Indikatorenset'
   //var indikatorenset = $.url('?Indikatorenset');
