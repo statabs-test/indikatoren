@@ -7,34 +7,34 @@
       "data": [
         [
           "Freundlich",
-          301
+          282
         ],
         [
           "Handelt angemessen",
-          175
+          162
         ],
         [
           "Hilfsbereit",
-          322
+          305
         ],
         [
           "Sympatisch",
-          234
+          216
         ],
         [
           "Respektvoll",
-          266
+          255
         ],
         [
           "Nimmt Anliegen ernst",
-          215
+          205
         ],
         [
           "Gerecht",
-          203
+          192
         ]
       ],
-      "name": "10",
+      "name": "Note 10",
       "turboThreshold": 0
     },
     {
@@ -44,34 +44,34 @@
       "data": [
         [
           "Freundlich",
-          161
+          158
         ],
         [
           "Handelt angemessen",
-          128
+          132
         ],
         [
           "Hilfsbereit",
-          180
+          178
         ],
         [
           "Sympatisch",
-          143
+          142
         ],
         [
           "Respektvoll",
-          154
+          150
         ],
         [
           "Nimmt Anliegen ernst",
-          152
+          154
         ],
         [
           "Gerecht",
-          138
+          141
         ]
       ],
-      "name": "9",
+      "name": "Note 9",
       "turboThreshold": 0
     },
     {
@@ -81,11 +81,11 @@
       "data": [
         [
           "Freundlich",
-          263
+          260
         ],
         [
           "Handelt angemessen",
-          295
+          285
         ],
         [
           "Hilfsbereit",
@@ -93,22 +93,22 @@
         ],
         [
           "Sympatisch",
-          276
+          265
         ],
         [
           "Respektvoll",
-          242
+          237
         ],
         [
           "Nimmt Anliegen ernst",
-          283
+          275
         ],
         [
           "Gerecht",
-          263
+          255
         ]
       ],
-      "name": "8",
+      "name": "Note 8",
       "turboThreshold": 0
     },
     {
@@ -118,19 +118,19 @@
       "data": [
         [
           "Freundlich",
-          136
+          145
         ],
         [
           "Handelt angemessen",
-          185
+          189
         ],
         [
           "Hilfsbereit",
-          123
+          129
         ],
         [
           "Sympatisch",
-          142
+          150
         ],
         [
           "Respektvoll",
@@ -138,14 +138,14 @@
         ],
         [
           "Nimmt Anliegen ernst",
-          159
+          171
         ],
         [
           "Gerecht",
-          155
+          159
         ]
       ],
-      "name": "7",
+      "name": "Note 7",
       "turboThreshold": 0
     },
     {
@@ -155,34 +155,34 @@
       "data": [
         [
           "Freundlich",
-          69
+          80
         ],
         [
           "Handelt angemessen",
-          70
+          80
         ],
         [
           "Hilfsbereit",
-          57
+          67
         ],
         [
           "Sympatisch",
-          86
+          96
         ],
         [
           "Respektvoll",
-          71
+          75
         ],
         [
           "Nimmt Anliegen ernst",
-          76
+          81
         ],
         [
           "Gerecht",
-          76
+          84
         ]
       ],
-      "name": "6",
+      "name": "Note 6",
       "turboThreshold": 0
     },
     {
@@ -192,34 +192,34 @@
       "data": [
         [
           "Freundlich",
-          54
+          55
         ],
         [
           "Handelt angemessen",
-          64
+          68
         ],
         [
           "Hilfsbereit",
-          36
+          38
         ],
         [
           "Sympatisch",
-          84
+          89
         ],
         [
           "Respektvoll",
-          64
+          71
         ],
         [
           "Nimmt Anliegen ernst",
-          63
+          65
         ],
         [
           "Gerecht",
-          59
+          65
         ]
       ],
-      "name": "5",
+      "name": "Note 5",
       "turboThreshold": 0
     },
     {
@@ -229,34 +229,34 @@
       "data": [
         [
           "Freundlich",
-          16
+          18
         ],
         [
           "Handelt angemessen",
-          21
+          24
         ],
         [
           "Hilfsbereit",
-          16
+          20
         ],
         [
           "Sympatisch",
-          14
+          17
         ],
         [
           "Respektvoll",
-          30
+          35
         ],
         [
           "Nimmt Anliegen ernst",
-          14
+          16
         ],
         [
           "Gerecht",
-          22
+          27
         ]
       ],
-      "name": "4",
+      "name": "Note 4",
       "turboThreshold": 0
     },
     {
@@ -266,23 +266,23 @@
       "data": [
         [
           "Freundlich",
-          7
+          9
         ],
         [
           "Handelt angemessen",
-          14
+          19
         ],
         [
           "Hilfsbereit",
-          6
+          8
         ],
         [
           "Sympatisch",
-          12
+          15
         ],
         [
           "Respektvoll",
-          14
+          17
         ],
         [
           "Nimmt Anliegen ernst",
@@ -293,7 +293,7 @@
           6
         ]
       ],
-      "name": "3",
+      "name": "Note 3",
       "turboThreshold": 0
     },
     {
@@ -303,11 +303,11 @@
       "data": [
         [
           "Freundlich",
-          8
+          10
         ],
         [
           "Handelt angemessen",
-          4
+          5
         ],
         [
           "Hilfsbereit",
@@ -315,22 +315,22 @@
         ],
         [
           "Sympatisch",
-          11
+          13
         ],
         [
           "Respektvoll",
-          8
+          10
         ],
         [
           "Nimmt Anliegen ernst",
-          7
+          9
         ],
         [
           "Gerecht",
-          4
+          6
         ]
       ],
-      "name": "2",
+      "name": "Note 2",
       "turboThreshold": 0
     },
     {
@@ -344,7 +344,7 @@
         ],
         [
           "Handelt angemessen",
-          6
+          7
         ],
         [
           "Hilfsbereit",
@@ -352,22 +352,22 @@
         ],
         [
           "Sympatisch",
-          1
+          2
         ],
         [
           "Respektvoll",
-          4
+          6
         ],
         [
           "Nimmt Anliegen ernst",
-          5
+          6
         ],
         [
           "Gerecht",
-          4
+          6
         ]
       ],
-      "name": "1",
+      "name": "Note 1",
       "turboThreshold": 0
     }
   ],
@@ -399,7 +399,7 @@
                     return accumulator + series.yData[indexOfCurrentValue];
                 }, 0);
                 //use N if all series are visible, otherwise use n
-                var nString = /*(this.chart.series.length == allVisibleSeries.length) ? 'N=' : */ 'n='; 
+                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
                 //check for value that contains only spaces
             	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + '<br/> (' + nString + sum + ')';
             },
