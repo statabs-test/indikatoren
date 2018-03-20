@@ -6933,7 +6933,7 @@
 		"description": "Wahlbeteiligung bei National- und Grossratswahlen",
 		"thema": "17 Politik",
 		"unterthema": "Wahlen",
-		"kennzahlenset": "Nachhaltigkeit",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
@@ -6957,7 +6957,7 @@
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt"
+			"Staatskanzlei Basel-Stadt"
 		],
 		"externalLinks": [
 			""
@@ -8949,7 +8949,7 @@
 		"erlaeuterungen": "Im Jahr 2010 einschliesslich rund 1 600 nachträglicher Streichungen (zu Weggezogenen gezählt) im Rahmen der Registerbereinigungen für die Volkszählung.",
 		"template": "populationPyramid001",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_110",
+		"orderKey": "01_01_00_00_00_111",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -8988,7 +8988,7 @@
 		"erlaeuterungen": "Im Jahr 2010 einschliesslich rund 1 600 nachträglicher Streichungen (zu Weggezogenen gezählt) im Rahmen der Registerbereinigungen für die Volkszählung. 2015: Provisorische Werte.",
 		"template": "populationPyramid001",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_111",
+		"orderKey": "01_01_00_00_00_112",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -10658,7 +10658,7 @@
 		"stufe5": "",
 		"lesehilfe": "Nach wie vor treten Schülerinnen nach der obligatorischen Schulzeit deutlich häufiger ins Gymnasium oder eine weiterführende Schule ein als Schüler, letztere besuchen danach hingegen häufiger eine berufliche Grundbildung. Noch deutlicher sind die Unterschiede, wenn die Schülerinnen und Schüler nach Staatsangehörigkeit oder Erstsprache gruppiert werden.",
 		"erlaeuterungen": "Jährliche Befragung von Schulabgängerinnen und Schulabgängern durch das Erziehungsdepartement Basel-Stadt.",
-		"template": "template001",
+		"template": "befragungen001",
 		"visibleInPortal": true,
 		"orderKey": "05_02_00_00_00_506",
 		"parentId": null,
@@ -15458,8 +15458,8 @@
 			"Biodiversität",
 			"Wald"
 		],
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "Bereich Natürliche Lebensgrundlagen",
+		"stufe2": "Klimawandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -15467,7 +15467,7 @@
 		"erlaeuterungen": "Der ausgewiesene Auszug aus dem Baumkataster umfasst den durch die Stadtgärtnerei Basel gepflegten Baumbestand in der Gemeinde Basel.",
 		"template": "template001",
 		"visibleInPortal": true,
-		"orderKey": "_411",
+		"orderKey": "04_02_00_00_00_411",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -15535,8 +15535,8 @@
 			"Bevölkerung",
 			"Staatsangehörigkeit"
 		],
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "Bereich Bevölkerung",
+		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -15544,7 +15544,7 @@
 		"erlaeuterungen": "",
 		"template": "line001",
 		"visibleInPortal": true,
-		"orderKey": "_105",
+		"orderKey": "01_01_00_00_00_105",
 		"parentId": 6058,
 		"children": [],
 		"renderLink": [],
@@ -15573,8 +15573,8 @@
 			"Bevölkerung",
 			"Ausland"
 		],
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "Bereich Bevölkerung",
+		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -15582,7 +15582,7 @@
 		"erlaeuterungen": "",
 		"template": "line001",
 		"visibleInPortal": true,
-		"orderKey": "_106",
+		"orderKey": "01_01_00_00_00_106",
 		"parentId": 6057,
 		"children": [],
 		"renderLink": [],
@@ -15611,8 +15611,8 @@
 			"Bevölkerung",
 			"Staatsangehörigkeit"
 		],
-		"stufe1": "",
-		"stufe2": "",
+		"stufe1": "Bereich Bevölkerung",
+		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -15620,7 +15620,7 @@
 		"erlaeuterungen": "",
 		"template": "line001",
 		"visibleInPortal": true,
-		"orderKey": "_101",
+		"orderKey": "01_01_00_00_00_101",
 		"parentId": null,
 		"children": [
 			"6059"
