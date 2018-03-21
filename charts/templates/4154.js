@@ -4,10 +4,8 @@
     "series": {
       "dataLabels": {
         "enabled": false
-      },
-	    pointPadding: 0,
-        borderWidth: 0,
-    },
+      }
+    }
   },
   "yAxis": [{
     "min": 0,

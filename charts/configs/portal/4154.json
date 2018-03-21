@@ -153,8 +153,7 @@
           "fontSize": "10px"
         },
         "enabled": false
-      },
-      "pointPadding": 0
+      }
     }
   },
   "title": {

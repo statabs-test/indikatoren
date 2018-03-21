@@ -11,7 +11,6 @@
       }
     },
     "xAxis": {
-      tickInterval: 2,
       "type": "category"    
     },
     tooltip: {
