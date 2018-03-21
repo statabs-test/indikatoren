@@ -3,7 +3,13 @@
         "chart": {		
             "events":{
                 "load": function() {
-                  this.credits.element.onclick = function() {};
+                    this.credits.element.onclick = function() {};
+                    //draw spider backgrounds
+                    this.renderer.arc(200, 150, 100, 50, -Math.PI, 0).attr({
+                        fill: '#FCFFC5',
+                        stroke: 'black',
+                        'stroke-width': 1
+                    }).add();
                 }
             },
             "borderColor": "#fbfbfb",
@@ -15,7 +21,7 @@
                 "fontFamily": "Arial"
             },
             "zoomType": "xy",
-            "type": "area",
+            type: "area",
             polar: true,
         },
         "title": {
@@ -39,6 +45,11 @@
         },
         "plotOptions": {
             "series": {
+                lineWidth: 1,
+                color: 'grey',
+                marker: {
+                    enabled: false
+                },
                 "dataLabels": {
                     "x": 5,
                     "align": "left",
@@ -62,18 +73,21 @@
                 "text": null
             },
             "labels": {
+                y: 10,
+                overflow: 'justified',
                 "style": {
                     "color": "#000000", 
                     textOverflow: 'none'
                 }
             }, 
-            "min": 1, 
+            min: 1, 
             max: 21, 
             tickInterval: 7, 
+            showFirstLabel: false,
+            showLastLabel: true
         },
         "xAxis": {
             lineColor: '#B9CFD7',
-            lineWidth: 0.5,
             "title": {
                 "style": {
                     "color": "#000000"
@@ -86,9 +100,12 @@
                 }
             },
             "tickLength": 0,
-            "tickInterval": 1,
-            "type": "category",
-            "uniqueNames": true        
+            tickmarkPlacement: 'on',
+            lineWidth: 0,
+            
+            //"tickInterval": 1,
+            //"type": "category",
+            //"uniqueNames": true        
         },
         "credits": {
             "enabled": true,

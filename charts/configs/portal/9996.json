@@ -77,9 +77,8 @@
   ],
   "xAxis": {
     "type": "category",
-    "uniqueNames": true,
+    "uniqueNames": false,
     "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
     "title": {
       "style": {
         "color": "#000000"
@@ -92,7 +91,8 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 1
+    "tickmarkPlacement": "on",
+    "lineWidth": 0
   },
   "chart": {
     "events": {
@@ -135,6 +135,11 @@
   },
   "plotOptions": {
     "series": {
+      "lineWidth": 1,
+      "color": "grey",
+      "marker": {
+        "enabled": false
+      },
       "dataLabels": {
         "x": 5,
         "align": "left",
@@ -158,6 +163,8 @@
       "text": null
     },
     "labels": {
+      "y": 10,
+      "overflow": "justified",
       "style": {
         "color": "#000000",
         "textOverflow": "none"
@@ -165,7 +172,9 @@
     },
     "min": 1,
     "max": 21,
-    "tickInterval": 7
+    "tickInterval": 7,
+    "showFirstLabel": false,
+    "showLastLabel": true
   },
   "credits": {
     "enabled": true,
