@@ -376,8 +376,7 @@
         "color": "#000000"
       }
     },
-    "tickLength": 0,
-    "tickInterval": 2
+    "tickLength": 0
   },
   "chart": {
     "borderColor": "#fbfbfb",
