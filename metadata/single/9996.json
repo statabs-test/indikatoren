@@ -1,5 +1,5 @@
-{"title":"Test Title",
-"subtitle":"Test Subtitle",
+{"title":"Quartierraddar Altstadt Grossbasel",
+"subtitle":"Stand 2016",
 "kuerzel":"I.04.1.09996",
 "kuerzelKunde":"1.0",
 "description":"Test Spider",
@@ -24,6 +24,6 @@
 "parentId":null,
 "children":[],
 "renderLink":[],
-"quellenangabe":["Test Quelle"],
+"quellenangabe":["Statistisches Amt Basel-Stadt"],
 "externalLinks":[""]
 }

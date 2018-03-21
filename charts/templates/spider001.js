@@ -5,6 +5,7 @@
                 "load": function() {
                     this.credits.element.onclick = function() {};
                     //draw spider backgrounds
+                    //colors of StatA Bereiche: violett3 #923F8D, gruen3 #68AB2B, blau3 #689199
                     var top = -Math.PI/2;
                     var startPurple = top;
                     var endPurple = top + 2*Math.PI/18*8;
@@ -47,6 +48,9 @@
             type: "area",
             polar: true,
         },
+        pane: {
+            //size: '60%'
+        },
         "title": {
             "style": {
             "fontSize": "14px",
@@ -69,6 +73,7 @@
         "plotOptions": {
             area: {
                 lineColor: 'white',
+                lineWidth: 0.5,
             },
             "series": {
                 lineWidth: 1,
@@ -113,26 +118,30 @@
             showLastLabel: true
         },
         "xAxis": {
-            //gridLineColor: '#white', 
-            //gridLineWidth: 0.5, 
+            type: 'category',
             "title": {
                 "style": {
                     "color": "#000000"
                 }
             },
             "labels": {
+                //distance: 20,
                 "style": {
                     "color": "#000000",
                     "fontSize": "10px"
+                }, 
+                
+                useHTML: true,
+                //replace . by no-break-space
+                formatter: function(){
+                    console.log(typeof(this.value));
+                    return (this.value + "").replace(/\./g, "&nbsp;");
                 }
             },
             "tickLength": 0,
             tickmarkPlacement: 'on',
             lineWidth: 0.5,
-            
-            //"tickInterval": 1,
-            //"type": "category",
-            //"uniqueNames": true        
+            "tickInterval": 1,
         },
         "credits": {
             "enabled": true,
@@ -152,9 +161,20 @@
             "symbolRadius": 0
     	},
         "tooltip": {
-            shared: true
-        }
+            padding: 0,
+            useHTML: true,
+            //fix html xAxis labels rendered above tooltip, see http://jsfiddle.net/g2j344z4/19/ 
+            formatter: function() {
+                return `
+                <div class="tev" style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">
+                  <span style="font-size: 10px">` + this.key + `</span><br/>
+                  <span style="color:` + this.point.color + `">\u25CF</span> ` + this.series.name + `: <b>` + this.point.y + `</b><br/>
+                </div>`;
+            }
+            //backgroundColor: 'white',
+        },
+    	exporting: {
+    	    allowHTML: true, 
+    	}        
     };
 }());
-
-//Colors of StatA Bereiche: violett3 #923F8D, gruen3 #68AB2B, blau3 #689199

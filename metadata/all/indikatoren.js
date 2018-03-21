@@ -21501,8 +21501,8 @@ var indikatoren = [
 		"id": 6576
 	},
 	{
-		"title": "Test Title",
-		"subtitle": "Test Subtitle",
+		"title": "Quartierraddar Altstadt Grossbasel",
+		"subtitle": "Stand 2016",
 		"kuerzel": "I.04.1.09996",
 		"kuerzelKunde": "1.0",
 		"description": "Test Spider",
@@ -21531,7 +21531,7 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Test Quelle"
+			"Statistisches Amt Basel-Stadt"
 		],
 		"externalLinks": [
 			""

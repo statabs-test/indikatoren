@@ -3,72 +3,76 @@
     {
       "data": [
         [
-          "Sozialhilfeanteil",
+          "Anteil.Sozialhilfeempfänger",
           3
         ],
         [
-          "Auslaenderanteil",
+          "Anteil.Ausländer",
           6
         ],
         [
-          "Anteilkonfessionslose",
-          18
+          "Anteil.Personen.ohne Religionszugehörigkeit",
+          19
         ],
         [
-          "Anteileinpersonenhaushalte",
+          "Anteil.Personen.in Einpersonen-haushalten",
           19
         ],
         [
           "Gymnasialquote",
-          21
+          20
         ],
         [
           "Altersquotient",
           9
         ],
         [
-          "Anteilsesshafte",
-          7
+          "Anteil.Sesshafte",
+          10
         ],
         [
           "Jugendquotient",
           1
         ],
         [
-          "Baujahrwohngebaeude",
+          "Baujahr.Wohngebaeude",
           1
         ],
         [
-          "Anteileinfamilienhaeuser",
-          8
+          "Anteil Einfamilienhäuser",
+          7
         ],
         [
-          "Gruenflaechenanteil",
+          "Anteil.Grünfläche",
           1
         ],
         [
-          "Flaecheprowohnung",
+          "Fläche.pro.Wohnung",
           16
         ],
         [
-          "Vermoegenssteuer",
+          "Wohnfläche.pro.Kopf",
+          21
+        ],
+        [
+          "Vermögenssteuer",
           19
         ],
         [
           "Einkommenssteuer",
-          19
+          20
         ],
         [
-          "Erwerbstaetigenquote",
+          "Erwerbstätigenquote",
           21
         ],
         [
-          "Arbeitsplaetzeprokopf",
-          21
+          "Arbeitsplätze.pro.Kopf",
+          20
         ],
         [
           "Arbeitslosenquote",
-          6
+          1
         ]
       ],
       "name": "Rang",
@@ -78,7 +82,6 @@
   "xAxis": {
     "type": "category",
     "uniqueNames": false,
-    "lineColor": "#B9CFD7",
     "title": {
       "style": {
         "color": "#000000"
@@ -88,16 +91,52 @@
       "style": {
         "color": "#000000",
         "fontSize": "10px"
-      }
+      },
+      "useHTML": true,
+      "formatter": function (){
+                    console.log(typeof(this.value));
+                    return (this.value + "").replace(/\./g, "&nbsp;");
+                }
     },
     "tickLength": 0,
     "tickmarkPlacement": "on",
-    "lineWidth": 0
+    "lineWidth": 0.5,
+    "tickInterval": 1
   },
   "chart": {
     "events": {
       "load": function () {
-                  this.credits.element.onclick = function() {};
+                    this.credits.element.onclick = function() {};
+                    //draw spider backgrounds
+                    //colors of StatA Bereiche: violett3 #923F8D, gruen3 #68AB2B, blau3 #689199
+                    var top = -Math.PI/2;
+                    var startPurple = top;
+                    var endPurple = top + 2*Math.PI/18*8;
+                    var startGreen = endPurple;
+                    var endGreen = endPurple + 2*Math.PI/18*5;
+                    var startBlue = endGreen;
+                    var endBlue = top;
+                    var centerX = 242.5;
+                    var centerY = 212.5;
+                    var radius = 136;
+                    this.renderer.arc(centerX, centerY, radius, 0, startPurple, endPurple).attr({
+                        fill: '#923F8D',
+                        stroke: '#923F8D',
+                        'stroke-width': 0,
+                        'fill-opacity': 0.5
+                    }).add();
+                    this.renderer.arc(centerX, centerY, radius, 0, startGreen, endGreen).attr({
+                        fill: '#68AB2B',
+                        stroke: '#68AB2B',
+                        'stroke-width': 0,
+                        'fill-opacity': 0.5
+                    }).add();
+                    this.renderer.arc(centerX, centerY, radius, 0, startBlue, endBlue).attr({
+                        fill: '#689199',
+                        stroke: '#689199',
+                        'stroke-width': 0, 
+                        'fill-opacity': 0.5
+                    }).add();
                 }
     },
     "borderColor": "#fbfbfb",
@@ -113,6 +152,7 @@
     "polar": true,
     "renderTo": "container-9996"
   },
+  "pane": {},
   "title": {
     "style": {
       "fontSize": "14px",
@@ -121,7 +161,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Test Title"
+    "text": "Quartierraddar Altstadt Grossbasel"
   },
   "subtitle": {
     "style": {
@@ -130,10 +170,14 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Test Subtitle",
+    "text": "Stand 2016",
     "align": "left"
   },
   "plotOptions": {
+    "area": {
+      "lineColor": "white",
+      "lineWidth": 0.5
+    },
     "series": {
       "lineWidth": 1,
       "color": "grey",
@@ -152,8 +196,6 @@
     }
   },
   "yAxis": {
-    "gridLineColor": "#B9CFD7",
-    "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
     "title": {
       "style": {
@@ -166,7 +208,7 @@
       "y": 10,
       "overflow": "justified",
       "style": {
-        "color": "#000000",
+        "color": "white",
         "textOverflow": "none"
       }
     },
@@ -189,14 +231,14 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Test Quelle"
+    "text": "Quelle: Statistisches Amt Basel-Stadt"
   },
   "legend": {
     "enabled": false,
     "symbolRadius": 0
   },
   "tooltip": {
-    "shared": true
+    "useHTML": true
   },
   "exporting": {
     "filename": 9996
