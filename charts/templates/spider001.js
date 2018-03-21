@@ -90,7 +90,7 @@
             }
         },
         "yAxis": {
-            lineColor: '#B9CFD7',
+            lineColor: 'white',
             "title": {
                 "style": {
                     "color": "#000000",
@@ -99,18 +99,23 @@
                 "text": null
             },
             "labels": {
-                y: 10,
+                y: 11,
+                x: 0,
                 overflow: 'justified',
                 "style": {
                     "color": "white", 
-                    textOverflow: 'none'
+                    textOverflow: 'none', 
+                    fontSize: '10px',
                 }
             }, 
             min: 1, 
             max: 21, 
             tickInterval: 7, 
             showFirstLabel: false,
-            showLastLabel: true
+            showLastLabel: true,
+            gridLineInterpolation: 'polygon',
+            lineWidth: 0,
+            gridLineColor: 'white',
         },
         "xAxis": {
             type: 'category',
@@ -133,8 +138,9 @@
             },
             "tickLength": 0,
             tickmarkPlacement: 'on',
-            lineWidth: 0.5,
+            lineWidth: 0,
             "tickInterval": 1,
+            gridLineColor: 'white',
         },
         "credits": {
             "enabled": true,
