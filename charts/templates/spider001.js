@@ -5,10 +5,10 @@
                 "load": function() {
                     this.credits.element.onclick = function() {};
                     //draw spider backgrounds
-                    this.renderer.arc(200, 150, 100, 50, -Math.PI, 0).attr({
-                        fill: '#FCFFC5',
-                        stroke: 'black',
-                        'stroke-width': 1
+                    this.renderer.arc(242.5, 212.5, 136, 0, -Math.PI/2, -Math.PI/2 + 2*Math.PI/20*8).attr({
+                        fill: '#923F8D',
+                        stroke: '#923F8D',
+                        'stroke-width': 0
                     }).add();
                 }
             },
@@ -62,8 +62,8 @@
             }
         },
         "yAxis": {
-            gridLineColor: '#B9CFD7', 
-            gridLineWidth: 0.5, 
+            //gridLineColor: '#white', 
+            //gridLineWidth: 0.5, 
             lineColor: '#B9CFD7',
             "title": {
                 "style": {
@@ -76,7 +76,7 @@
                 y: 10,
                 overflow: 'justified',
                 "style": {
-                    "color": "#000000", 
+                    "color": "white", 
                     textOverflow: 'none'
                 }
             }, 
@@ -87,7 +87,8 @@
             showLastLabel: true
         },
         "xAxis": {
-            lineColor: '#B9CFD7',
+            //gridLineColor: '#white', 
+            //gridLineWidth: 0.5, 
             "title": {
                 "style": {
                     "color": "#000000"
@@ -101,7 +102,7 @@
             },
             "tickLength": 0,
             tickmarkPlacement: 'on',
-            lineWidth: 0,
+            lineWidth: 0.5,
             
             //"tickInterval": 1,
             //"type": "category",
