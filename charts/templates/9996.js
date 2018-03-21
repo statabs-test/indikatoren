@@ -6,7 +6,7 @@
       ], 
       data: {
 		    seriesMapping: [
-		        {x: 5, y: 8/*, Wert: 4*/}
+		        {x: 5, y: 9/*, Wert: 4*/}
         ],  
       }, 
     };
