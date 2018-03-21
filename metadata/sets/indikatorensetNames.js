@@ -10,6 +10,7 @@ var indikatorensetNames = [
 	"Wohnviertel",
 	"Richtplan",
 	"Wanderungen",
+	"Integration",
 	"Richtplan (Print)",
 	"Legislaturplan (Print)",
 	"Tourismus",
