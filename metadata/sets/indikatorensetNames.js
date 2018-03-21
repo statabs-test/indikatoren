@@ -1,4 +1,5 @@
 var indikatorensetNames = [
+	"Arbeitsmarkt",
 	"Legislaturplan",
 	"Wohnraumentwicklung",
 	"Integration-kompakt",
@@ -8,6 +9,7 @@ var indikatorensetNames = [
 	"Wohnviertel",
 	"Richtplan",
 	"Wanderungen",
+	"Integration",
 	"Richtplan (Print)",
 	"Legislaturplan (Print)",
 	"Tourismus",

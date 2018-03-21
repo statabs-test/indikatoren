@@ -489,7 +489,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "",
+		"subtitle": "in m²",
 		"kuerzel": "I.09.1.04140",
 		"kuerzelKunde": "1.3.A",
 		"description": "Mittlere Wohnfläche pro Person",
@@ -510,13 +510,14 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Wohnfläche pro Kopf nahm von 1980 bis 2010 um sechs Quadratmeter zu. Seither ist ein leichter Rückgang zu verzeichnen.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Alle Berechnungen beziehen sich auf das Jahresende und berücksichtigen rückwirkend wo immer möglich die aktuell gültigen Definitionen gemäss Gesetzgebung zu Registerharmonisierung und Volkszählung. Ab 2012 handelt es sich um kantonale Registerauswertungen, frühere Werte wurden auf Basis der Volkszählungen 1980, 1990 und 2000 berechnet.",
 		"template": "line001",
 		"orderKey": "02_03_00_00_00_000",
 		"parentId": null,
 		"children": [
 			"5815",
 			"6027",
+			"6247",
 			"6362"
 		],
 		"renderLink": [],
@@ -753,7 +754,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Saldo des Steuerertrages von Zu- und Wegzügern",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt, in Mio. Franken",
 		"kuerzel": "I.18.2.04147",
 		"kuerzelKunde": "2.1.B",
 		"description": "Saldo des Steuerertrages von Zu- und Wegzügern",
@@ -976,7 +977,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Ausbezahlte Familienmietzinsbeiträge",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt, in Franken",
 		"kuerzel": "I.13.2.04153",
 		"kuerzelKunde": "4.1.B",
 		"description": "Ausbezahlte Familienmietzinsbeiträge",
@@ -996,8 +997,8 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die ausbezahlten Familienmietzinsbeiträge sind seit 2007 stark angestiegen. Der durchschnittliche Beitrag pro Haushalt wuchs in diesem Zeitraum von knapp 3 000 Franken auf rund 4 700 Franken. Seit 2013 verflachte der Anstieg. 2016 war erstmals ein Rückgang des durchschnittlichen Beitrags zu beobachten.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Die ausbezahlten Familienmietzinsbeiträge sind seit 2008 stark gestiegen und betragen 2017 rund 10,7 Mio. Franken.",
+		"erlaeuterungen": "Die Leistungen nach Wohnraumfördergesetz liefen per Ende 2008 aus. Das Gesetz wurde per 1.1.2009 aufgehoben. Dies hatte einen Einfluss auf die Anzahl unterstützter Mietverhältnisse nach Mietbeitragsgesetz.",
 		"template": "line001",
 		"orderKey": "05_01_00_00_00_000",
 		"parentId": null,
