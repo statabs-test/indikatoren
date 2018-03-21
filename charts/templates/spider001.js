@@ -5,10 +5,33 @@
                 "load": function() {
                     this.credits.element.onclick = function() {};
                     //draw spider backgrounds
-                    this.renderer.arc(242.5, 212.5, 136, 0, -Math.PI/2, -Math.PI/2 + 2*Math.PI/20*8).attr({
+                    var top = -Math.PI/2;
+                    var startPurple = top;
+                    var endPurple = top + 2*Math.PI/18*8;
+                    var startGreen = endPurple;
+                    var endGreen = endPurple + 2*Math.PI/18*5;
+                    var startBlue = endGreen;
+                    var endBlue = top;
+                    var centerX = 242.5;
+                    var centerY = 212.5;
+                    var radius = 136;
+                    this.renderer.arc(centerX, centerY, radius, 0, startPurple, endPurple).attr({
                         fill: '#923F8D',
                         stroke: '#923F8D',
-                        'stroke-width': 0
+                        'stroke-width': 0,
+                        'fill-opacity': 0.5
+                    }).add();
+                    this.renderer.arc(centerX, centerY, radius, 0, startGreen, endGreen).attr({
+                        fill: '#68AB2B',
+                        stroke: '#68AB2B',
+                        'stroke-width': 0,
+                        'fill-opacity': 0.5
+                    }).add();
+                    this.renderer.arc(centerX, centerY, radius, 0, startBlue, endBlue).attr({
+                        fill: '#689199',
+                        stroke: '#689199',
+                        'stroke-width': 0, 
+                        'fill-opacity': 0.5
                     }).add();
                 }
             },
@@ -44,6 +67,9 @@
             "align": "left"
         },
         "plotOptions": {
+            area: {
+                lineColor: 'white',
+            },
             "series": {
                 lineWidth: 1,
                 color: 'grey',
