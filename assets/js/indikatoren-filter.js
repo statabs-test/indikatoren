@@ -47,7 +47,6 @@ $(document).ready(function(){
   if (searchUrlParamValue != "undefined"){$("#searchbox").val(searchUrlParamValue);}
   
   //Render page differently depending on url query string 'Indikatorenset'
-  //var indikatorenset = $.url('?Indikatorenset');
   var indikatorenset = window.decodeURIComponent($.url('?Indikatorenset'));
   //defines if portal or indikatorenset view is to be shown
   view = false;
@@ -266,8 +265,13 @@ function preparePortalView(){
   var baseQuery = {};
   //render unterthema dropdown for the first time   
   renderDropdownFromJson(indikatoren, 'unterthema', '#unterthema_filter', 'unterthema', baseQuery);
+  
   //pre-populate fields with url parameter values
-  $("#thema_criteria :radio").filter("[value='" + window.decodeURIComponent($.url('?thema')) + "']").prop("checked", true);
+  var themaUrlParameterVal = window.decodeURIComponent($.url('?thema'));
+  //check if thema is valid
+  if (indikatoren.find(function(element){return element['thema'] === themaUrlParameterVal;})) {
+    $("#thema_criteria :radio").filter("[value='" + themaUrlParameterVal + "']").prop("checked", true);
+  }
   setDropdownValFromUrlParameter('unterthema');
   var raeumlicheGliederungUrlParameterValue = window.decodeURIComponent($.url('?raeumlicheGliederung'));
   if (raeumlicheGliederungUrlParameterValue != undefined){setMultiselectValue("#raeumlicheGliederung_filter", raeumlicheGliederungUrlParameterValue);}  

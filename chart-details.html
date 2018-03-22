@@ -183,8 +183,7 @@
       */
       
       
-      //get kuerzel and id from url, encode to prevent xss 
-      var id = window.decodeURIComponent($.url('?id'));
+      var id = parseInt(window.decodeURIComponent($.url('?id')), 10);
       
       var indikatorensetView = (window.decodeURIComponent($.url('?indikatorensetView')) === 'true') ? true : false;
       var view = window.decodeURIComponent($.url('?view'));
