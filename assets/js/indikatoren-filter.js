@@ -274,6 +274,13 @@ function preparePortalView(){
   if (schlagwortUrlParameterValue != undefined){setMultiselectValue("#schlagwort_filter", schlagwortUrlParameterValue);}  
   var raeumlicheGliederungUrlParameterValue = window.decodeURIComponent($.url('?raeumlicheGliederung'));
   if (raeumlicheGliederungUrlParameterValue != undefined){setMultiselectValue("#raeumlicheGliederung_filter", raeumlicheGliederungUrlParameterValue);}  
+  //hide elements upon request
+  if (window.decodeURIComponent($.url('?hideSidebar')) === 'true'){$('#sidebar-element').hide()}
+  if (window.decodeURIComponent($.url('?hideUnterthema')) === 'true'){$('#unterthema_criteria').hide()}
+  if (window.decodeURIComponent($.url('?hideSearch')) === 'true'){$('#search').hide()}
+  if (window.decodeURIComponent($.url('?hideResetButton')) === 'true'){$('#portal-reset-button').hide()}
+  if (window.decodeURIComponent($.url('?hideThema')) === 'true'){$('#thema').hide()}
+  if (window.decodeURIComponent($.url('?hideRaeumlicheGliederung')) === 'true'){$('#raeumlicheGliederung').hide()}
 }
 
 

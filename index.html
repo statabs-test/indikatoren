@@ -61,7 +61,7 @@
   
       <div id='bs-nav' style='background-color: rgb(29, 78, 44); height: 45px; padding: 15px 0px 10px 50px; margin-bottom: 30px;'>
         <a style='color: white; font-size: 13px; font-weight: 700; text-shadow: rgb(23, 62, 35) 0px -1px 0px; text-decoration: none;' href='http://www.statistik.bs.ch/zahlen/indikatoren/portal.html'>
-          Indikatoren
+          Indikatorenportal
         </a>
       </div>
     </div>    
@@ -108,7 +108,7 @@
           </div>
           -->
 
-          <div>
+          <div id='search'>
             <label class="sr-only" for="searchbox">Search</label>
             <input type="search" class="form-control" id="searchbox" placeholder="Suche&hellip;">
           </div>
@@ -116,7 +116,7 @@
           <button class="btn btn-block well" id="portal-reset-button">Zurücksetzen</button>
           
 
-          <div class="well">
+          <div class="well" id="thema">
             <form role="form" id="thema_criteria">
               <legend>Thema</legend>              
               <!-- Radio Buttons are dynamically added here -->         
@@ -124,7 +124,7 @@
           </div>
 
 
-          <div class="well">
+          <div class="well" id="raeumlicheGliederung">
             <fieldset id="raeumlicheGliederung_criteria" >
               <legend>Räumliche Gliederung</legend>
               <select class="form-control" id="raeumlicheGliederung_filter"  multiple="multiple">
