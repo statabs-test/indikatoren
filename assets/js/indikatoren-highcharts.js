@@ -104,7 +104,17 @@ function injectMetadataToChartConfig(options, data, view, suppressNumberInTitle)
   options['chart']['renderTo'] = 'container-' + data.id;
   options['credits']['text'] = 'Quelle: ' + data.quellenangabe.join(';<br/>');
   //add 10 px space for each line of credits plus -5px for the first line (if not stated otherwise)
-  options['credits']['position']['y'] = (options['credits']['position']['y'] || -5) + (-10 * data.quellenangabe.length);
+  var numberOfCreditsLines = data.quellenangabe.length;
+  var aktDatum = Date.parse(data["aktualisierungsdatum"]);
+  //if valid aktualisierungsdatum: construct last entry in credits
+  if (isNaN(aktDatum) == false)
+  {
+    var aktDatumText = 'Zuletzt geändert: ' + (new Date(aktDatum)).toLocaleDateString('de-CH');
+    numberOfCreditsLines += 1;
+    options['credits']['text'] += ("<br/>" + aktDatumText);
+  }
+  
+  options['credits']['position']['y'] = (options['credits']['position']['y'] || -5) + (-10 * numberOfCreditsLines);
   //make sure node exists before deferencing it
   options['exporting'] = (options['exporting'] || {});
   options['exporting']['filename'] = data.id;
