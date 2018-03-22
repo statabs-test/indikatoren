@@ -51,7 +51,6 @@ $(document).ready(function(){
   var indikatorenset = window.decodeURIComponent($.url('?Indikatorenset'));
   //defines if portal or indikatorenset view is to be shown
   view = false;
-  
   var jsonDatabaseUrl = 'metadata/portal/indikatoren.js';
   //determine if valid indikaorenset name
   if (indikatorensetNames.indexOf(indikatorenset) > -1){
@@ -60,7 +59,7 @@ $(document).ready(function(){
   }
   
   //dynamically change filterColumns in indikatorenset view only, see http://jsfiddle.net/KyleMit/pgt6tczj/
-  var stufeParameter = +window.decodeURIComponent($.url('?stufe')); 
+  var stufeParameter = parseInt(window.decodeURIComponent($.url('?stufe')), 10); 
   var maxStufe = (stufeParameter >= 0 && stufeParameter <= 5 ? stufeParameter : 2);
   if (isIndikatorensetView(view)){
     //change width of columns
@@ -269,9 +268,7 @@ function preparePortalView(){
   renderDropdownFromJson(indikatoren, 'unterthema', '#unterthema_filter', 'unterthema', baseQuery);
   //pre-populate fields with url parameter values
   $("#thema_criteria :radio").filter("[value='" + window.decodeURIComponent($.url('?thema')) + "']").prop("checked", true);
-  $("#unterthema_filter").val(window.decodeURIComponent($.url('?unterthema')));
-  var schlagwortUrlParameterValue = window.decodeURIComponent($.url('?schlagwort'));
-  if (schlagwortUrlParameterValue != undefined){setMultiselectValue("#schlagwort_filter", schlagwortUrlParameterValue);}  
+  setDropdownValFromUrlParameter('unterthema');
   var raeumlicheGliederungUrlParameterValue = window.decodeURIComponent($.url('?raeumlicheGliederung'));
   if (raeumlicheGliederungUrlParameterValue != undefined){setMultiselectValue("#raeumlicheGliederung_filter", raeumlicheGliederungUrlParameterValue);}  
   //hide elements upon request
@@ -312,9 +309,17 @@ function prepareIndikatorensetView(indikatorenset){
   renderDropdownFromJson(indikatoren, 'stufe3', '#stufe3_filter', 'orderKey', baseQuery);
   
   //pre-populate fields with url parameter values
-  $("#stufe1_filter").val(window.decodeURIComponent($.url('?stufe1')));
-  $("#stufe2_filter").val(window.decodeURIComponent($.url('?stufe2')));
-  $("#stufe3_filter").val(window.decodeURIComponent($.url('?stufe3')));
+  setDropdownValFromUrlParameter('stufe1');
+  setDropdownValFromUrlParameter('stufe2');
+  setDropdownValFromUrlParameter('stufe3');
+}
+
+//check if field value exists before setting value of dropdown  
+function setDropdownValFromUrlParameter(field){
+  var urlParameterValue = window.decodeURIComponent($.url('?' + field));
+  if (indikatoren.find(function(element){return element[field] === urlParameterValue;})) {
+    $("#" + field + "_filter").val(urlParameterValue);
+  }
 }
 
 
