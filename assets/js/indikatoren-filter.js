@@ -35,12 +35,21 @@ var view = false;
 var perPage=16;
 
 $(document).ready(function(){
+  
+  //display header if requested
+  var showHeader = window.decodeURIComponent($.url('?showHeader')) === 'true';
+  if (showHeader) { 
+    $('#header').removeClass('hidden'); 
+  }
+  
+  //pre-populate searchbox
+  var searchUrlParamValue = window.decodeURIComponent($.url('?search'));
+  if (searchUrlParamValue != "undefined"){$("#searchbox").val(searchUrlParamValue);}
+  
   //Render page differently depending on url query string 'Indikatorenset'
-  //var indikatorenset = $.url('?Indikatorenset');
   var indikatorenset = window.decodeURIComponent($.url('?Indikatorenset'));
   //defines if portal or indikatorenset view is to be shown
   view = false;
-  
   var jsonDatabaseUrl = 'metadata/portal/indikatoren.js';
   //determine if valid indikaorenset name
   if (indikatorensetNames.indexOf(indikatorenset) > -1){
@@ -49,7 +58,7 @@ $(document).ready(function(){
   }
   
   //dynamically change filterColumns in indikatorenset view only, see http://jsfiddle.net/KyleMit/pgt6tczj/
-  var stufeParameter = +window.decodeURIComponent($.url('?stufe')); 
+  var stufeParameter = parseInt(window.decodeURIComponent($.url('?stufe')), 10); 
   var maxStufe = (stufeParameter >= 0 && stufeParameter <= 5 ? stufeParameter : 2);
   if (isIndikatorensetView(view)){
     //change width of columns
@@ -114,8 +123,6 @@ function resetPortalFilter(FJS, view){
     $('#searchbox').val('');
     $("#thema_criteria :radio:first()").prop('checked', true);
     $("#unterthema_filter").prop('selectedIndex', 0);
-    $("#schlagwort_filter option").prop('selected', true);
-    $("#schlagwort_filter").multiselect('selectAll', false).multiselect('updateButtonText');      
     $("#raeumlicheGliederung_filter").multiselect('selectAll', false).multiselect('updateButtonText');
     FJS.filter();
   }
@@ -165,7 +172,6 @@ function initializeFilterJS(indikatorenset, perPage){
     FJS = FilterJS(indikatoren, '#indikatoren', fjsConfig);
     FJS.addCriteria({field: "thema", ele: "#thema_criteria input:radio", all: "Alle"});
     FJS.addCriteria({field: "unterthema", ele: "#unterthema_filter", all: "all"});
-    FJS.addCriteria({field: "schlagwort", ele: "#schlagwort_filter", all: "all"});
     FJS.addCriteria({field: "raeumlicheGliederung", ele: "#raeumlicheGliederung_filter", all: "all"});      
 
     //reset all filter criteria
@@ -253,13 +259,36 @@ function getSortOptions(name){
 function preparePortalView(){
   $("#main-control-element-indikatorenset").remove();    
   renderThema();
-  renderMultiselectDropdownFromJson(indikatoren, 'schlagwort', '#schlagwort_filter', true);    
   renderMultiselectDropdownFromJson(["Schweiz", "Kanton", "Gemeinde", "Wohnviertel", "Bezirk", "Block", "Blockseite"], '', '#raeumlicheGliederung_filter', false);
 
   //prepare query String object for filtering thema and unterthema
   var baseQuery = {};
   //render unterthema dropdown for the first time   
   renderDropdownFromJson(indikatoren, 'unterthema', '#unterthema_filter', 'unterthema', baseQuery);
+  
+  //pre-populate fields with url parameter values
+  var themaUrlParameterVal = window.decodeURIComponent($.url('?thema'));
+  //check if thema is valid
+  if (indikatoren.find(function(element){return element['thema'] === themaUrlParameterVal;})) {
+    $("#thema_criteria :radio").filter("[value='" + themaUrlParameterVal + "']").prop("checked", true);
+  }
+  setDropdownValFromUrlParameter('unterthema');
+  var raeumlicheGliederungUrlParameterValue = window.decodeURIComponent($.url('?raeumlicheGliederung'));
+  if (raeumlicheGliederungUrlParameterValue != undefined){setMultiselectValue("#raeumlicheGliederung_filter", raeumlicheGliederungUrlParameterValue);}  
+  //hide elements upon request
+  if (window.decodeURIComponent($.url('?hideSidebar')) === 'true'){$('#sidebar-element').hide()}
+  if (window.decodeURIComponent($.url('?hideUnterthema')) === 'true'){$('#unterthema_criteria').hide()}
+  if (window.decodeURIComponent($.url('?hideSearch')) === 'true'){$('#search').hide()}
+  if (window.decodeURIComponent($.url('?hideResetButton')) === 'true'){$('#portal-reset-button').hide()}
+  if (window.decodeURIComponent($.url('?hideThema')) === 'true'){$('#thema').hide()}
+  if (window.decodeURIComponent($.url('?hideRaeumlicheGliederung')) === 'true'){$('#raeumlicheGliederung').hide()}
+}
+
+
+//set a multiselect dropdown value and trigger a change event
+function setMultiselectValue(selector, value){
+  $(selector + " option").prop('selected', false);
+  $(selector).multiselect('deselectAll', false).multiselect('select', value).multiselect('updateButtonText');
 }
 
 
@@ -284,9 +313,17 @@ function prepareIndikatorensetView(indikatorenset){
   renderDropdownFromJson(indikatoren, 'stufe3', '#stufe3_filter', 'orderKey', baseQuery);
   
   //pre-populate fields with url parameter values
-  $("#stufe1_filter").val(window.decodeURIComponent($.url('?stufe1')));
-  $("#stufe2_filter").val(window.decodeURIComponent($.url('?stufe2')));
-  $("#stufe3_filter").val(window.decodeURIComponent($.url('?stufe3')));
+  setDropdownValFromUrlParameter('stufe1');
+  setDropdownValFromUrlParameter('stufe2');
+  setDropdownValFromUrlParameter('stufe3');
+}
+
+//check if field value exists before setting value of dropdown  
+function setDropdownValFromUrlParameter(field){
+  var urlParameterValue = window.decodeURIComponent($.url('?' + field));
+  if (indikatoren.find(function(element){return element[field] === urlParameterValue;})) {
+    $("#" + field + "_filter").val(urlParameterValue);
+  }
 }
 
 
@@ -482,7 +519,6 @@ var afterFilter = function(result, jQ){
     var checkboxCountRenderFunction = function(c, count){c.next().text(c.val() + ' (' + count + ')')};
     //render new counts after each control
     updateCountsExclusive('#thema_criteria :input:gt(0)', 'thema', checkboxCountRenderFunction, result, jQ);        
-    updateCountsExclusive('#schlagwort_filter > option', 'schlagwort', optionCountRenderFunction, result, jQ);
     updateCountsExclusive('#raeumlicheGliederung_filter > option', 'raeumlicheGliederung', optionCountRenderFunction, result, jQ);
 
     //hide dropdowns if no specific values present, or select the single specific value
@@ -507,7 +543,6 @@ var afterFilter = function(result, jQ){
     renderDropdownFromJson(indikatoren, 'unterthema', '#unterthema_filter', 'unterthema', baseQueryCopyUnterthema);
     
     //for multiselect dropdowns: rebuild control after select tag is updated
-    $('#schlagwort_filter').multiselect('rebuild');
     $('#raeumlicheGliederung_filter').multiselect('rebuild');
     
     //if results fit in a single page: hide pagination, use bootstrap invisible class to leave row height intact    
@@ -647,3 +682,49 @@ var afterFilter = function(result, jQ){
   }
 };//afterFilter
 
+
+
+// https://tc39.github.io/ecma262/#sec-array.prototype.find
+if (!Array.prototype.find) {
+  Object.defineProperty(Array.prototype, 'find', {
+    value: function(predicate) {
+     // 1. Let O be ? ToObject(this value).
+      if (this == null) {
+        throw new TypeError('"this" is null or not defined');
+      }
+
+      var o = Object(this);
+
+      // 2. Let len be ? ToLength(? Get(O, "length")).
+      var len = o.length >>> 0;
+
+      // 3. If IsCallable(predicate) is false, throw a TypeError exception.
+      if (typeof predicate !== 'function') {
+        throw new TypeError('predicate must be a function');
+      }
+
+      // 4. If thisArg was supplied, let T be thisArg; else let T be undefined.
+      var thisArg = arguments[1];
+
+      // 5. Let k be 0.
+      var k = 0;
+
+      // 6. Repeat, while k < len
+      while (k < len) {
+        // a. Let Pk be ! ToString(k).
+        // b. Let kValue be ? Get(O, Pk).
+        // c. Let testResult be ToBoolean(? Call(predicate, T, « kValue, k, O »)).
+        // d. If testResult is true, return kValue.
+        var kValue = o[k];
+        if (predicate.call(thisArg, kValue, k, o)) {
+          return kValue;
+        }
+        // e. Increase k by 1.
+        k++;
+      }
+
+      // 7. Return undefined.
+      return undefined;
+    }
+  });
+}
