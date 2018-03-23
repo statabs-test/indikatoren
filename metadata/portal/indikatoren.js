@@ -9377,7 +9377,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Nach wie vor treten Schülerinnen nach der obligatorischen Schulzeit deutlich häufiger ins Gymnasium oder eine weiterführende Schule ein als Schüler, letztere besuchen danach hingegen häufiger eine berufliche Grundbildung. Noch deutlicher sind die Unterschiede, wenn die Schülerinnen und Schüler nach Staatsangehörigkeit oder Erstsprache gruppiert werden.",
 		"erlaeuterungen": "Jährliche Befragung von Schulabgängerinnen und Schulabgängern durch das Erziehungsdepartement Basel-Stadt.",
-		"template": "befragungen001",
+		"template": "template001",
 		"visibleInPortal": true,
 		"orderKey": "05_02_00_00_00_506",
 		"parentId": null,

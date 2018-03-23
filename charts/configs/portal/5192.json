@@ -113,7 +113,7 @@
           2
         ]
       ],
-      "name": "Weiss nicht\u002Fkeine Angabe",
+      "name": "Weiss nicht\u002FKeine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -261,9 +261,8 @@
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
-        },
-    "reversed": false
+            return this.name.replace('/', '/<br/>');
+        }
   },
   "exporting": {
     "filename": 5192

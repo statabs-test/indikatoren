@@ -41,5 +41,19 @@
     	 marginLeft: 125,
          "inverted": true,
       },
+    "legend": {
+        "layout": "vertical",
+        "verticalAlign": "middle",
+        "itemMarginBottom": 5,     
+        "align": "right",
+        "useHTML": false,
+        "itemStyle": {
+            "fontWeight": "normal"
+        },
+        "symbolRadius": 0,
+        "labelFormatter": function () {
+            return this.name.replace('/', '/<br/>');
+        }
+    }
     };
 }());

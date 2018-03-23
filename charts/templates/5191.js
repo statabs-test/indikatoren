@@ -3,17 +3,20 @@
       chart: {
         inverted: true
       },
-      "legend": {
-        "enabled": true,
-        "layout": "horizontal",
-        "verticalAlign": "top",
-        "align": "left",
-    	  "y": 40,
-    	  itemWidth: 150, 
+    "legend": {
+        "layout": "vertical",
+        "verticalAlign": "middle",
+        "itemMarginBottom": 5,     
+        "align": "right",
+        "useHTML": false,
         "itemStyle": {
-          "fontWeight": "normal"
+            "fontWeight": "normal"
+        },
+        "symbolRadius": 0,
+        "labelFormatter": function () {
+            return this.name.replace('/', '/<br/>');
         }
-      },
+    },
       xAxis: {
         labels: {
             "formatter": function() {
