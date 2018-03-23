@@ -12,9 +12,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen"
-		],
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
@@ -48,11 +45,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-03-13T17:10:38.3838",
-		"schlagwort": [
-			"Verwaltung",
-			"Grosser Rat",
-			"Beurteilung"
-		],
 		"stufe1": "Bereich Staatliches Handeln",
 		"stufe2": "Dynamische Verwaltung",
 		"stufe3": "",
@@ -80,18 +72,12 @@ var indikatorensetData = [
 		"kuerzelKunde": "BE2",
 		"description": "Bevölkerungspyramide am Jahresende nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-03-01T13:06:51.5151",
-		"schlagwort": [
-			"Geschlecht",
-			"Alter",
-			"Bevölkerung",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -119,16 +105,12 @@ var indikatorensetData = [
 		"kuerzelKunde": "BE3",
 		"description": "Altersquotient",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-03-13T15:47:44.4444",
-		"schlagwort": [
-			"Alter",
-			"Bevölkerung"
-		],
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -156,16 +138,12 @@ var indikatorensetData = [
 		"kuerzelKunde": "BE4",
 		"description": "Jugendquotient",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-03-13T16:34:54.5454",
-		"schlagwort": [
-			"Alter",
-			"Bevölkerung"
-		],
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -193,16 +171,12 @@ var indikatorensetData = [
 		"kuerzelKunde": "BE6",
 		"description": "Saldo aus Geburten und Todesfällen",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-03-14T12:02:20.2020",
-		"schlagwort": [
-			"Alter",
-			"Bevölkerung"
-		],
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -230,15 +204,12 @@ var indikatorensetData = [
 		"kuerzelKunde": "BE7",
 		"description": "Geburtenziffer nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-03-14T12:14:05.055",
-		"schlagwort": [
-			"Bevölkerung"
-		],
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -272,13 +243,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Ausland",
-			"Migration",
-			"Staatsangehörigkeit",
-			"Wanderung"
-		],
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -312,11 +276,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Schweiz",
-			"Wanderung"
-		],
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -350,11 +309,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Ausland",
-			"Wanderung"
-		],
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -388,10 +342,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"BIP",
-			"Schulden"
-		],
 		"stufe1": "Bereich Staatliches Handeln",
 		"stufe2": "Finanzhaushalt",
 		"stufe3": "",
@@ -425,9 +375,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-03-13T17:07:19.1919",
-		"schlagwort": [
-			"Steuer"
-		],
 		"stufe1": "Bereich Staatliches Handeln",
 		"stufe2": "Finanzhaushalt",
 		"stufe3": "",
@@ -461,9 +408,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Steuer"
-		],
 		"stufe1": "Bereich Staatliches Handeln",
 		"stufe2": "Finanzhaushalt",
 		"stufe3": "",
@@ -497,9 +441,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-03-14T14:05:05.055",
-		"schlagwort": [
-			"Zufriedenheit"
-		],
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Lebensqualität",
 		"stufe3": "",
@@ -533,10 +474,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Zufriedenheit",
-			"Bevölkerung"
-		],
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Lebensqualität",
 		"stufe3": "",
@@ -574,9 +511,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Alter"
-		],
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
@@ -610,9 +544,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Alter"
-		],
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
@@ -646,12 +577,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-03-13T17:07:10.1010",
-		"schlagwort": [
-			"Geschlecht",
-			"Ausländer",
-			"Alter",
-			"Schule"
-		],
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
@@ -685,9 +610,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen"
-		],
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Existenzsicherung",
 		"stufe3": "",
@@ -722,9 +644,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen"
-		],
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Existenzsicherung",
 		"stufe3": "",
@@ -759,9 +678,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen"
-		],
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Existenzsicherung",
 		"stufe3": "",
@@ -796,11 +712,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Auto",
-			"Sicherheit",
-			"Verkehr"
-		],
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Sicherheit",
 		"stufe3": "",
@@ -834,10 +745,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-03-14T14:15:17.1717",
-		"schlagwort": [
-			"Bevölkerung",
-			"Verbrechen"
-		],
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Sicherheit",
 		"stufe3": "",
@@ -871,9 +778,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Sicherheit"
-		],
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Sicherheit",
 		"stufe3": "",
@@ -907,11 +811,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Alter",
-			"Bildung"
-		],
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Bildung",
 		"stufe3": "",
@@ -945,9 +844,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bildung"
-		],
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Bildung",
 		"stufe3": "",
@@ -981,9 +877,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Kultur"
-		],
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Bildung",
 		"stufe3": "",
@@ -1017,9 +910,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Kunst"
-		],
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Bildung",
 		"stufe3": "",
@@ -1054,10 +944,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
@@ -1091,9 +977,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wohnen"
-		],
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
@@ -1127,10 +1010,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-03-13T17:03:27.2727",
-		"schlagwort": [
-			"Bevölkerung",
-			"Umwelt"
-		],
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
@@ -1164,9 +1043,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2017-03-16T14:52:33.3333",
-		"schlagwort": [
-			"Umwelt"
-		],
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
@@ -1201,9 +1077,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-02-16T00:00:00.000",
-		"schlagwort": [
-			"Bau"
-		],
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Infrastruktur",
 		"stufe3": "",
@@ -1237,16 +1110,12 @@ var indikatorensetData = [
 			"Schweiz"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"Umwelt"
-		],
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": " Der ökologische Fussabdruck der Schweiz mass 2013 5,3 globale Hektaren pro Kopf.",
+		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2013 5,3 globale Hektaren pro Kopf.",
 		"erlaeuterungen": "Der ökologische Fussabdruck misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Er wird von Global Footprint Network berechnet. Aufgrund von Verbesserungen der Methodik und der berücksichtigten Eingangsgrössen für die Berechnung kann bei Aktualisierungen die gesamte Zeitreihe rückwirkend angepasst werden.",
 		"template": "line001",
 		"orderKey": "04_01_00_00_00_401",
@@ -1274,9 +1143,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie"
-		],
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -1310,9 +1176,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Energie"
-		],
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -1346,9 +1209,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Abfall"
-		],
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -1382,14 +1242,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"Grünflächen",
-			"Boden",
-			"Umwelt",
-			"Biodiversität",
-			"Landschaft"
-		],
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -1423,10 +1275,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -1461,15 +1309,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Auto",
-			"Verkehr",
-			"Zug",
-			"Pendler",
-			"Personenwagen",
-			"ÖV",
-			"Mobilität"
-		],
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -1503,9 +1342,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Luft"
-		],
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -1539,11 +1375,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"Umwelt",
-			"Wasser"
-		],
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -1577,11 +1408,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"Umwelt",
-			"Luft"
-		],
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
@@ -1615,9 +1441,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Klima"
-		],
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
@@ -1651,12 +1474,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Bevölkerung",
-			"Ausland",
-			"Geburtsort"
-		],
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Friedliches Zusammenleben",
 		"stufe3": "",
@@ -1690,10 +1507,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Gefühl",
-			"Sicherheit"
-		],
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Friedliches Zusammenleben",
 		"stufe3": "",
@@ -1727,11 +1540,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen",
-			"Arbeit",
-			"Erwerb"
-		],
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengerechtigkeit",
 		"stufe3": "",
@@ -1759,18 +1567,12 @@ var indikatorensetData = [
 		"kuerzelKunde": "GZ4",
 		"description": "Verhältnis der Löhne von Frauen und Männern",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Löhne ",
+		"unterthema": "Löhne",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Arbeit",
-			"Erwerb",
-			"Löhne"
-		],
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengerechtigkeit",
 		"stufe3": "",
@@ -1804,12 +1606,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Alter",
-			"Jugend",
-			"Bildung",
-			"Erwerb"
-		],
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengerechtigkeit",
 		"stufe3": "",
@@ -1843,9 +1639,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeit"
-		],
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Gesellschaftliche Verantwortung",
 		"stufe3": "",
@@ -1879,12 +1672,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Arbeit",
-			"Hilfeleistung",
-			"Beschäftigte"
-		],
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Gesellschaftliche Verantwortung",
 		"stufe3": "",
@@ -1918,9 +1705,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Grosser Rat"
-		],
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Gesellschaftliche Verantwortung",
 		"stufe3": "",
@@ -1954,15 +1738,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Bevölkerung",
-			"Ausland",
-			"Niederlassung",
-			"Einbürgerung",
-			"Migrationshintergrund",
-			"Zuzug"
-		],
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Gesellschaftliche Verantwortung",
 		"stufe3": "",
@@ -1996,12 +1771,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Quote",
-			"Verwaltung",
-			"Grosser Rat"
-		],
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Gesellschaftliche Verantwortung",
 		"stufe3": "",
@@ -2037,12 +1806,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen",
-			"Arbeit",
-			"BIP",
-			"Beschäftigte"
-		],
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
@@ -2070,17 +1833,12 @@ var indikatorensetData = [
 		"kuerzelKunde": "WE2",
 		"description": "Anzahl Beschäftigte nach Sektor",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeit",
-			"Erwerbstätigkeit",
-			"Branche"
-		],
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
@@ -2114,12 +1872,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeit",
-			"Erwerbstätigkeit",
-			"BIP",
-			"Branche"
-		],
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
@@ -2147,17 +1899,12 @@ var indikatorensetData = [
 		"kuerzelKunde": "WE4",
 		"description": "Anteil der Beschäftigten in innovativen Branchen",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeit",
-			"Erwerbstätigkeit",
-			"Branche"
-		],
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
@@ -2191,12 +1938,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bildung",
-			"BIP",
-			"Standort",
-			"Branche"
-		],
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
@@ -2230,11 +1971,6 @@ var indikatorensetData = [
 			"Schweiz"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Schweiz",
-			"Standort",
-			"Kantonsvergleich"
-		],
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
@@ -2268,11 +2004,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"BIP",
-			"Umwelt"
-		],
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
@@ -2301,18 +2032,12 @@ var indikatorensetData = [
 		"kuerzelKunde": "WE8",
 		"description": "Nettoerwerbstätigenquote nach Geschlecht und Heimat",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Erwerbspersonen ",
+		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-02-07T00:00:00.000",
-		"schlagwort": [
-			"Geschlecht",
-			"Alter",
-			"Arbeit",
-			"Erwerb"
-		],
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Erwerbsarbeit",
 		"stufe3": "",
@@ -2340,17 +2065,12 @@ var indikatorensetData = [
 		"kuerzelKunde": "WE9",
 		"description": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Alter",
-			"Arbeit",
-			"Erwerbstätigkeit"
-		],
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Erwerbsarbeit",
 		"stufe3": "",
@@ -2384,11 +2104,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeit",
-			"Erwerbstätigkeit",
-			"Beschäftigte"
-		],
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Erwerbsarbeit",
 		"stufe3": "",
@@ -2422,11 +2137,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Alter",
-			"Familie",
-			"Schule"
-		],
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Erwerbsarbeit",
 		"stufe3": "",
@@ -2454,18 +2164,12 @@ var indikatorensetData = [
 		"kuerzelKunde": "WE12",
 		"description": "Anteil Voll- und Teilzeiterwerbstätige nach Geschlecht",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Erwerbspersonen ",
+		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-02-07T00:00:00.000",
-		"schlagwort": [
-			"Geschlecht",
-			"Bevölkerung",
-			"Arbeit",
-			"Erwerbstätigkeit"
-		],
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Erwerbsarbeit",
 		"stufe3": "",
@@ -2499,11 +2203,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Biodiversität",
-			"Klima",
-			"Wasser"
-		],
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
@@ -2531,18 +2230,12 @@ var indikatorensetData = [
 		"kuerzelKunde": "GZ5",
 		"description": "Anteil Arbeitnehmende in Unternehmensleitung oder mit Vorgesetztenfunktion nach Geschlecht",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte ",
+		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Arbeit",
-			"Erwerb",
-			"Beschäftigte"
-		],
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengerechtigkeit",
 		"stufe3": "",
@@ -2576,13 +2269,6 @@ var indikatorensetData = [
 			"Gemeinde"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Nachhaltigkeit",
-			"Grünflächen",
-			"Boden",
-			"Biodiversität",
-			"Wald"
-		],
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
@@ -2610,16 +2296,12 @@ var indikatorensetData = [
 		"kuerzelKunde": "BE5.1",
 		"description": "Bevölkerung nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -2641,22 +2323,18 @@ var indikatorensetData = [
 		"id": 6592
 	},
 	{
-		"title": " Ausländeranteil",
+		"title": "Ausländeranteil",
 		"subtitle": "",
 		"kuerzel": "I.01.1.06597",
 		"kuerzelKunde": "BE5.2",
-		"description": " Ausländeranteil",
+		"description": "Ausländeranteil",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Ausland"
-		],
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -2684,16 +2362,12 @@ var indikatorensetData = [
 		"kuerzelKunde": "BE1",
 		"description": "Anzahl Ausländer nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
