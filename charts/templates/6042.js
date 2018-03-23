@@ -49,7 +49,7 @@
     "align": "left",
     //"x": 25,
 	"y": 35,  
-	"itemWidth": 300,
+	"itemWidth": 100,
     "itemStyle": {
       "fontWeight": "normal"
     }

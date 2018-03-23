@@ -1,5 +1,10 @@
 (function(){
     return {
+"plotOptions": {
+    "series": {
+      "pointWidth": 100,
+      },
+},
     "series": [
         {
             "color": "#71A3B5"

@@ -31,7 +31,7 @@
       "color": "#3C3C3C",
 	    legendIndex: 2,
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* scharz */
   ],

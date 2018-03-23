@@ -29,7 +29,7 @@
           "style": {
           "color": "#000000"
           },
-          "format": "{value}",
+          "format": "{value:,.0f}",
       },
       "reversedStacks": true
     },
@@ -55,7 +55,7 @@
   ],
   "tooltip": {    
     "shared": false,
-    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.0f}</b><br/>'
+    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>'
   },  
   "legend": { 
      y: 35,

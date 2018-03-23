@@ -15,7 +15,7 @@
   "series": [
     {"color": "#B00000",
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* dunkelrot */
     	{"color": "#007A2F",
@@ -41,7 +41,7 @@
     "enabled": true,
     "x": 45,
     "y": 35,
-    "itemWidth": 300,
+    "itemWidth": 135,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,

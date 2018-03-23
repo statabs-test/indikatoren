@@ -9,7 +9,10 @@
 	}
   },
   "yAxis": {
-    "min": 0
+    "min": 0,
+      "labels": {
+      "format": "{value:,.0f}",
+      },
   },	
   "tooltip": {
     "shared": false,

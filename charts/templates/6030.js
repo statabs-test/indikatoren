@@ -10,7 +10,7 @@
   },	
   "tooltip": {
     "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
+	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.3f} mg/l</b><br/>'
   },
   "series": [
     {"color": "#CD9C00",
@@ -30,8 +30,8 @@
   	symbolWidth: 30,
     "enabled": true,
     //"x": 45,
-    "y": 35,
-    "itemWidth": 500,
+    "y": 45,
+    "itemWidth": 100,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
