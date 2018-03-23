@@ -191,7 +191,7 @@
     <tspan>Zufriedenheit mit verschiedenen Aspekten am Wohnort</tspan>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;fill:#000000;" y="40">
-    <tspan>«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?»</tspan><tspan dy="15" x="10">Stand: 2015</tspan><title>«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» Stand: 2015</title>
+    <tspan>Stand: 2015</tspan><tspan x="10" dy="15">«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?»</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(192,70)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="256" height="68" visibility="visible"/>

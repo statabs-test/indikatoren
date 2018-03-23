@@ -1,8 +1,8 @@
 {
   "series": [
     {
-      "color": "#008AC3",
-      "legendIndex": 0,
+      "color": "#3C3C3C",
+      "legendIndex": 1,
       "marker": {
         "enabled": false
       },
@@ -113,7 +113,7 @@
     {
       "color": "#68AB2B",
       "visible": true,
-      "legendIndex": 2,
+      "legendIndex": 0,
       "marker": {
         "enabled": false
       },
@@ -222,11 +222,11 @@
       "name": "15-24 Jahre"
     },
     {
-      "color": "#3C3C3C",
-      "legendIndex": 1,
+      "color": "#008AC3",
+      "legendIndex": 2,
       "visible": true,
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [

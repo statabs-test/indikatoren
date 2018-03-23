@@ -47,18 +47,7 @@
     <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined " transform="translate(37,82) scale(1 1)" clip-path="url(#a)">
       <path fill="none" d="M 4.294117647055 109.4452562496192 L 52.006535947709 107.4326211127634 L 99.718954248364 101.30528314156578 L 147.43137254902 89.87726756484119 L 195.14379084967 93.97763485175557 L 242.85620915033 88.90772420944938 L 290.56862745098 87.5871927256002 L 338.28104575164 89.44117377070438 L 385.99346405229 80.4209791629788 L 433.70588235295 71.6663904691678" class="highcharts-graph" stroke="#3C3C3C" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
-    <g class="highcharts-markers highcharts-series-2 highcharts-line-series highcharts-color-undefined " transform="translate(37,82) scale(1 1)" clip-path="none">
-      <path fill="#3C3C3C" d="M 8 109 A 4 4 0 1 1 7.999998000000167 108.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#3C3C3C" d="M 56 107 A 4 4 0 1 1 55.99999800000017 106.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#3C3C3C" d="M 103 101 A 4 4 0 1 1 102.99999800000016 100.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#3C3C3C" d="M 151 90 A 4 4 0 1 1 150.99999800000018 89.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#3C3C3C" d="M 199 94 A 4 4 0 1 1 198.99999800000018 93.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#3C3C3C" d="M 246 89 A 4 4 0 1 1 245.99999800000018 88.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#3C3C3C" d="M 294 88 A 4 4 0 1 1 293.9999980000002 87.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#3C3C3C" d="M 342 89 A 4 4 0 1 1 341.9999980000002 88.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#3C3C3C" d="M 389 80 A 4 4 0 1 1 388.9999980000002 79.99600000066667 Z" class="highcharts-point"/>
-      <path fill="#3C3C3C" d="M 437 72 A 4 4 0 1 1 436.9999980000002 71.99600000066667 Z" class="highcharts-point"/>
-    </g>
+    <g class="highcharts-markers highcharts-series-2 highcharts-line-series highcharts-color-undefined " transform="translate(37,82) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
     <tspan>Geburtenziffer nach Staatsangehörigkeit</tspan>
@@ -81,7 +70,6 @@
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-2" transform="translate(208,3)">
           <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#3C3C3C" stroke-width="2"/>
-          <path fill="#3C3C3C" d="M 12 11 A 4 4 0 1 1 11.999998000000167 10.996000000666664 Z" class="highcharts-point"/>
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Total</tspan>
           </text>

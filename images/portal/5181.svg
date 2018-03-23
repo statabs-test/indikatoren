@@ -120,7 +120,7 @@
     <tspan>Empfundene gesundheitliche Verfassung</tspan>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;fill:#000000;" y="40">
-    <tspan>nach Altersgruppen</tspan><tspan x="10" dy="15">«Und darf ich fragen, wie es Ihnen zur Zeit gsundheitlich geht?» nach Alter</tspan>
+    <tspan>nach Altersgruppe</tspan><tspan x="10" dy="15">«Und darf ich fragen, wie es Ihnen zur Zeit gsundheitlich geht?»</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(348,137)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="126" height="121" visibility="visible"/>

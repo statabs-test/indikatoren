@@ -126,7 +126,8 @@
           "fontSize": "10px"
         }
       },
-      "stacking": "percent"
+      "stacking": "percent",
+      "pointWidth": 100
     }
   },
   "yAxis": {

@@ -2,7 +2,7 @@
   "series": [
     {
       "color": "#b00000 ",
-      "legendIndex": 1,
+      "legendIndex": 0,
       "marker": {
         "enabled": false
       },
@@ -112,7 +112,7 @@
     },
     {
       "color": "#672773",
-      "legendIndex": 2,
+      "legendIndex": 1,
       "marker": {
         "enabled": false
       },
@@ -222,7 +222,7 @@
     },
     {
       "color": "#007a2f",
-      "legendIndex": 0,
+      "legendIndex": 2,
       "marker": {
         "enabled": false
       },
@@ -544,7 +544,7 @@
     "align": "left",
     "symbolRadius": 0,
     "y": 45,
-    "itemWidth": 1000,
+    "itemWidth": 200,
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"

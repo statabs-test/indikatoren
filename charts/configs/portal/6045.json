@@ -3,7 +3,7 @@
     {
       "color": "#B00000",
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
@@ -399,7 +399,7 @@
     "symbolRadius": 0,
     "x": 45,
     "y": 35,
-    "itemWidth": 300,
+    "itemWidth": 135,
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"
