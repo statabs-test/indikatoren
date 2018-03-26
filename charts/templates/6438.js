@@ -46,5 +46,9 @@
     	 marginLeft: 130,
          "inverted": true,
       },
+    "tooltip": {
+        "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> ({point.percentage:.0f}%)<br/>',
+        "shared": false
+    },
     };
 }());
