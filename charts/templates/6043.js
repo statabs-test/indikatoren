@@ -54,8 +54,9 @@
     }
   ],
   "tooltip": {    
-    "shared": false,
-    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>'
+    "shared": true,
+    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+    //"footerFormat": 'Total: <b>{point.total:,.0f}</b>',
   },  
   "legend": { 
      y: 35,
@@ -78,7 +79,7 @@
     {
       "color": "#008AC3",
       "type": "column", 
-      "legendIndex": 1
+      "legendIndex": 2
     },
     {
       "color": "#9F7C5A",
