@@ -152,7 +152,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Lebenserwartung bei Geburt nach Geschlecht"
+    "text": "Lebenserwartung bei Geburt"
   },
   "subtitle": {
     "style": {
@@ -161,7 +161,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Jahren",
+    "text": "nach Geschlecht in Jahren",
     "align": "left"
   },
   "tooltip": {

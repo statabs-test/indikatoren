@@ -81,25 +81,29 @@
               color: "#B00000", // rot
               stacking: 'normal',
               stack: 'male',
-              legendIndex: 0
+              legendIndex: 0,
+              index: 1
             }, 
             {
               color: "#008AC3", //blau
               stacking: 'normal',
               stack: 'male',
-              legendIndex: 2
+              legendIndex: 2,
+              index:0
             },
             {
               color: "#d00000", // rot
               stacking: 'normal',
               stack: 'female',
-              legendIndex: 1
+              legendIndex: 1,
+              index:3
             }, 
             {
               color: "#00bAf3", //blau
               stacking: 'normal',
               stack: 'female',
-              legendIndex: 3
+              legendIndex: 3,
+              index: 2
             }
 	    ],
         "legend": {

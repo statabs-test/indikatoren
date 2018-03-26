@@ -7687,11 +7687,11 @@ var indikatoren = [
 		"id": 5131
 	},
 	{
-		"title": "Bevölkerungspyramide am Jahresende nach Staatsangehörigkeit",
-		"subtitle": "Stand: 2017",
+		"title": "Bevölkerungspyramide am Jahresende",
+		"subtitle": "nach Staatsangehörigkeit und Geschlecht, Stand: 2017",
 		"kuerzel": "I.01.1.05142",
 		"kuerzelKunde": "BE2",
-		"description": "Bevölkerungspyramide am Jahresende nach Staatsangehörigkeit",
+		"description": "Bevölkerungspyramide am Jahresende",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Nachhaltigkeit",
@@ -7963,11 +7963,11 @@ var indikatoren = [
 		"id": 5178
 	},
 	{
-		"title": "Lebenserwartung bei Geburt nach Geschlecht",
-		"subtitle": "in Jahren",
+		"title": "Lebenserwartung bei Geburt",
+		"subtitle": "nach Geschlecht in Jahren",
 		"kuerzel": "I.14.3.05180",
 		"kuerzelKunde": "GW3",
-		"description": "Lebenserwartung bei Geburt nach Geschlecht",
+		"description": "Lebenserwartung bei Geburt",
 		"thema": "14 Gesundheit",
 		"unterthema": "Sterblichkeit",
 		"kennzahlenset": "Nachhaltigkeit",
@@ -17330,11 +17330,11 @@ var indikatoren = [
 		"id": 6570
 	},
 	{
-		"title": "Anzahl Allmendbäume",
-		"subtitle": "Saldo aus Baumpflanzungen und -fällungen",
+		"title": "Saldo aus Anzahl Baumpflanzungen und -fällungen",
+		"subtitle": "",
 		"kuerzel": "I.02.13.06574",
 		"kuerzelKunde": "NL11",
-		"description": "Anzahl Allmendbäume",
+		"description": "Saldo aus Anzahl Baumpflanzungen und -fällungen",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Landschaft",
 		"kennzahlenset": "Nachhaltigkeit",
@@ -17348,7 +17348,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Jahre 2017 betrug der kumulierte Saldo 2 294 Bäume. Im selben Jahr wurden leicht mehr Bäume gefällt (398) als gepflanzt (392).",
-		"erlaeuterungen": "Der ausgewiesene Auszug aus dem Baumkataster umfasst den durch die Stadtgärtnerei Basel gepflegten Baumbestand in der Gemeinde Basel.",
+		"erlaeuterungen": "Der ausgewiesene Auszug aus dem Baumkataster umfasst den durch die Stadtgärtnerei Basel gepflegten Allmendbaumbestand in der Stadt Basel.",
 		"template": "template001",
 		"visibleInPortal": true,
 		"orderKey": "04_02_00_00_00_411",

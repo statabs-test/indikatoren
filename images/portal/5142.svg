@@ -596,10 +596,10 @@
     <g class="highcharts-markers highcharts-series-3 highcharts-bar-series highcharts-color-undefined " transform="translate(470,364) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Bevölkerungspyramide am Jahresende nach</tspan><tspan dy="17" x="10">Staatsangehörigkeit</tspan><title>Bevölkerungspyramide am Jahresende nach Staatsangehörigkeit</title>
+    <tspan>Bevölkerungspyramide am Jahresende</tspan>
   </text>
-  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="57">
-    <tspan>Stand: 2017</tspan>
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
+    <tspan>nach Staatsangehörigkeit und Geschlecht, Stand: 2017</tspan>
   </text>
   <g class="highcharts-plot-lines-4">
     <path fill="none" stroke="white" stroke-width="1" d="M 256.5 116 L 256.5 364" visibility="visible"/>
