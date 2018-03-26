@@ -1,6 +1,6 @@
 var indikatorensetData = [
 	{
-		"title": "Anzahl Beziehende von Prämienverbilligung",
+		"title": "Bezügerinnen und Bezüger von Prämienverbilligung",
 		"subtitle": "",
 		"kuerzel": "I.13.2.02917",
 		"kuerzelKunde": "GW6",
