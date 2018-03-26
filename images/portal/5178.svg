@@ -232,73 +232,73 @@
   </g>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="165" opacity="1">
-      <tspan>Einkaufsmögl. in Basel (n=1498)</tspan>
+      <tspan>Einkaufsmögl. in Basel (N=1498)</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="187" opacity="1">
-      <tspan>ÖV-Angebot (n=1502)</tspan>
+      <tspan>ÖV-Angebot (N=1502)</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="209" opacity="1">
-      <tspan>Gesundheitsversorgung (n=1503)</tspan>
+      <tspan>Gesundheitsversorgung (N=1503)</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="230" opacity="1">
-      <tspan>Abfallbeseitigung (n=1502)</tspan>
+      <tspan>Abfallbeseitigung (N=1502)</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="252" opacity="1">
-      <tspan>Grünanlagen (n=1504)</tspan>
+      <tspan>Grünanlagen (N=1504)</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="274" opacity="1">
-      <tspan>Kulturangebot (n=1495)</tspan>
+      <tspan>Kulturangebot (N=1495)</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="296" opacity="1">
-      <tspan>Einkaufsmögl. im Quartier (n=1503)</tspan>
+      <tspan>Einkaufsmögl. im Quartier (N=1503)</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="317" opacity="1">
-      <tspan>Verkehrssicherheit (n=1501)</tspan>
+      <tspan>Verkehrssicherheit (N=1501)</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="339" opacity="1">
-      <tspan>Gebäude/Strassenbild (n=1489)</tspan>
+      <tspan>Gebäude/Strassenbild (N=1489)</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="361" opacity="1">
-      <tspan>Quartierleben (n=1483)</tspan>
+      <tspan>Quartierleben (N=1483)</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="382" opacity="1">
-      <tspan>Zusammensetz. Bev. (n=1458)</tspan>
+      <tspan>Zusammensetz. Bev. (N=1458)</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="404" opacity="1">
-      <tspan>Luftqualität (n=1505)</tspan>
+      <tspan>Luftqualität (N=1505)</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="426" opacity="1">
-      <tspan>Lärmsituation (n=1497)</tspan>
+      <tspan>Lärmsituation (N=1497)</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="447" opacity="1">
-      <tspan>Öffentliche Sicherheit (n=1500)</tspan>
+      <tspan>Öffentliche Sicherheit (N=1500)</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="469" opacity="1">
-      <tspan>Sauberkeit (n=1504)</tspan>
+      <tspan>Sauberkeit (N=1504)</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="491" opacity="1">
-      <tspan>Senioreneinrichtungen (n=1485)</tspan>
+      <tspan>Senioreneinrichtungen (N=1485)</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="512" opacity="1">
-      <tspan>Schule, Bildung (n=1339)</tspan>
+      <tspan>Schule, Bildung (N=1339)</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="534" opacity="1">
-      <tspan>Arbeitsplatzangebot (n=1383)</tspan>
+      <tspan>Arbeitsplatzangebot (N=1383)</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="556" opacity="1">
-      <tspan>Behinderteneinrichtungen (n=1477)</tspan>
+      <tspan>Behinderteneinrichtungen (N=1477)</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="578" opacity="1">
-      <tspan>Jugendeinrichtungen (n=1470)</tspan>
+      <tspan>Jugendeinrichtungen (N=1470)</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="599" opacity="1">
-      <tspan>Kinderbetreuung (n=1035)</tspan>
+      <tspan>Kinderbetreuung (N=1035)</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="621" opacity="1">
-      <tspan>Wohnungsangebot (n=1386)</tspan>
+      <tspan>Wohnungsangebot (N=1386)</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="643" opacity="1">
-      <tspan>Parkplätze (n=1402)</tspan>
+      <tspan>Parkplätze (N=1402)</tspan>
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
