@@ -3034,7 +3034,7 @@ var indikatorensetData = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Justiz- und Sicherheitsdepartment des Kantons Basel-Stadt, Kundenbefragungen 2012, F 51"
+			"Justiz- und Sicherheitsdepartement des Kantons Basel-Stadt, Kundenbefragung 2012, F 51"
 		],
 		"externalLinks": [
 			"Der Ergebnisbericht von 2015 ist auf der <a href = 'http://www.polizei.bs.ch/ueber-uns/kundenbefragungen.html' target = '_blank'>Internetseite der Kantonspolizei</a> publiziert."
@@ -3072,7 +3072,7 @@ var indikatorensetData = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Justiz- und Sicherheitsdepartment des Kantons Basel-Stadt, Kundenbefragungen 2015, F 51"
+			"Justiz- und Sicherheitsdepartement des Kantons Basel-Stadt, Kundenbefragung 2015, F 51"
 		],
 		"externalLinks": [
 			"Der Ergebnisbericht von 2015 ist auf der <a href = 'http://www.polizei.bs.ch/ueber-uns/kundenbefragungen.html' target = '_blank'>Internetseite der Kantonspolizei</a> publiziert."
