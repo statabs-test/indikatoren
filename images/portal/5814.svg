@@ -246,30 +246,30 @@
     </text>
   </g>
   <circle cx="355" cy="255" r="0.8105293597610782" fill="grey" stroke="grey" stroke-width="1" class="undefined pieLegend"/>
-  <g class="undefined pieLegend" transform="translate(370,245)">
+  <g class="undefined pieLegend" initialValue="0,02 Prozentpunkte" transform="translate(370,245)">
     <text x="3" y="15">
       <tspan>0,02 Prozentpunkte</tspan>
     </text>
   </g>
   <circle cx="355" cy="280" r="9.926916764796886" fill="grey" stroke="grey" stroke-width="1" class="undefined pieLegend"/>
-  <g class="undefined pieLegend" transform="translate(370,270)">
+  <g class="undefined pieLegend" initialValue="3,00 Prozentpunkte" transform="translate(370,270)">
     <text x="3" y="15">
       <tspan>3,00 Prozentpunkte</tspan>
     </text>
   </g>
   <rect x="270" y="250" width="10" height="10" fill="#7F5F1A" class="undefined pieLegend"/>
-  <g class="undefined pieLegend" transform="translate(280,245)">
+  <g class="undefined pieLegend" initialValue="Zunahme" transform="translate(280,245)">
     <text x="3" y="15">
       Zunahme
     </text>
   </g>
   <rect x="270" y="275" width="10" height="10" fill="#FABD24" class="undefined pieLegend"/>
-  <g class="undefined pieLegend" transform="translate(280,270)">
+  <g class="undefined pieLegend" initialValue="Abnahme" transform="translate(280,270)">
     <text x="3" y="15">
       Abnahme
     </text>
   </g>
-  <g class="undefined pieLegend" transform="translate(265,300)">
+  <g class="undefined pieLegend" initialValue="Leerwohnungsquote" transform="translate(265,300)">
     <text x="3" style="font-weight:bold;" y="15">
       Leerwohnungsquote
     </text>

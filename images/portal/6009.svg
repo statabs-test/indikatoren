@@ -246,25 +246,25 @@
     </text>
   </g>
   <circle cx="365" cy="275" r="4.070957813977838" fill="grey" stroke="grey" stroke-width="1" class="pieLegendHideOnZoom pieLegend"/>
-  <g class="pieLegendHideOnZoom pieLegend" transform="translate(380,265)">
+  <g class="pieLegendHideOnZoom pieLegend" initialValue="0,5 Prozentpunkte" transform="translate(380,265)">
     <text x="3" y="15">
       <tspan>0,5 Prozentpunkte</tspan>
     </text>
   </g>
   <circle cx="365" cy="300" r="9.971769408641743" fill="grey" stroke="grey" stroke-width="1" class="pieLegendHideOnZoom pieLegend"/>
-  <g class="pieLegendHideOnZoom pieLegend" transform="translate(380,290)">
+  <g class="pieLegendHideOnZoom pieLegend" initialValue="3.0 Prozentpunkte" transform="translate(380,290)">
     <text x="3" y="15">
       <tspan>3.0 Prozentpunkte</tspan>
     </text>
   </g>
   <rect x="270" y="270" width="10" height="10" fill="grey" class="undefined pieLegend"/>
-  <g class="undefined pieLegend" transform="translate(290,265)">
+  <g class="undefined pieLegend" initialValue="Zunahme" transform="translate(290,265)">
     <text x="3" y="15">
       Zunahme
     </text>
   </g>
   <rect x="270" y="295" width="10" height="10" fill="salmon" class="undefined pieLegend"/>
-  <g class="undefined pieLegend" transform="translate(290,290)">
+  <g class="undefined pieLegend" initialValue="Abnahme" transform="translate(290,290)">
     <text x="3" y="15">
       Abnahme
     </text>

@@ -246,13 +246,13 @@
     </text>
   </g>
   <circle cx="280" cy="255" r="1.0224863355200127" fill="grey" stroke="grey" stroke-width="1" class="pieLegendHideOnZoom pieLegend"/>
-  <g class="pieLegendHideOnZoom pieLegend" transform="translate(300,245)">
+  <g class="pieLegendHideOnZoom pieLegend" initialValue="20" transform="translate(300,245)">
     <text x="3" y="15">
       20
     </text>
   </g>
   <circle cx="280" cy="280" r="10.224863355200126" fill="grey" stroke="grey" stroke-width="1" class="pieLegendHideOnZoom pieLegend"/>
-  <g class="pieLegendHideOnZoom pieLegend" transform="translate(300,270)">
+  <g class="pieLegendHideOnZoom pieLegend" initialValue="2 000" transform="translate(300,270)">
     <text x="3" y="15">
       <tspan>2 000</tspan>
     </text>

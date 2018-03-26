@@ -68,7 +68,6 @@
 						fn.hideOnZoom(e, '.pieLegendHideOnZoom');
 					}
 				}
-				
     		}
 		},
 		chart: {

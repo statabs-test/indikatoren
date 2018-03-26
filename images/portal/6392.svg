@@ -247,19 +247,19 @@
     </text>
   </g>
   <circle cx="373" cy="266" r="1" fill="#7F5F1A" stroke="#7F5F1A" stroke-width="1" class="undefined pieLegend"/>
-  <g class="undefined pieLegend" transform="translate(385,255)">
+  <g class="undefined pieLegend" initialValue="       &lt; 250" transform="translate(385,255)">
     <text x="3" y="15">
       <tspan>&lt; 250</tspan>
     </text>
   </g>
   <circle cx="373" cy="285" r="4" fill="#7F5F1A" stroke="#7F5F1A" stroke-width="1" class="undefined pieLegend"/>
-  <g class="undefined pieLegend" transform="translate(385,275)">
+  <g class="undefined pieLegend" initialValue=" 250 − 499" transform="translate(385,275)">
     <text x="3" y="15">
       <tspan>250 − 499</tspan>
     </text>
   </g>
   <circle cx="373" cy="310" r="8" fill="#7F5F1A" stroke="#7F5F1A" stroke-width="1" class="undefined pieLegend"/>
-  <g class="undefined pieLegend" transform="translate(385,300)">
+  <g class="undefined pieLegend" initialValue="       ≥  500" transform="translate(385,300)">
     <text x="3" y="15">
       <tspan>≥ 500</tspan>
     </text>

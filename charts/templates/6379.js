@@ -58,6 +58,18 @@
 				"visible": false
 			}
 		],
+		xAxis: {
+    		events: {
+				//hide svg elements on zoom
+				afterSetExtremes: function(e){
+					if (this.chart){
+						var fn = this.chart.options.customFunctions;
+						fn.recalculateOnZoom(e, '.pieLegendRecalculateOnZoom');
+						fn.hideOnZoom(e, '.pieLegendHideOnZoom');
+					}
+				}
+    		}
+		},
 		chart: {
 			events: {
 	            load: function (e) {
@@ -73,7 +85,7 @@
 					var pieSizeSeries = chart.series[1];
 					
 					//pie diameters in px
-					var maxPieDiameter = 25;
+					fn.maxPieDiameter = 25;
 
 					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
 					
@@ -88,8 +100,8 @@
 	                        sizeFormatter: function () {
 	                            var fn = this.chart.options.customFunctions;
 	                            var yAxis = chart.yAxis[0], zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
-								return zoom * fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
-								//return fn.pieSizeCategorical(Math.abs(data.value), pieSizeCatConfig).diameter;
+	                            var size = zoom * fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, fn.maxPieDiameter);
+								return size;
 	                        },
 	                        tooltip: {
 	                            pointFormatter: function () {
@@ -109,10 +121,10 @@
                 	//Add manually drawn legend	
 	                fn.addLegendTitle(chart, pieSizeSeries.name, 265, 220, 'pieLegendHideOnZoom');
 	                
-	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#7F5F1A', 'pieLegendHideOnZoom');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 300, 245, 'pieLegendHideOnZoom');
-	                fn.addLegendCircle(chart, 280, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#7F5F1A', 'pieLegendHideOnZoom');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 300, 270, 'pieLegendHideOnZoom');
+	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, fn.maxPieDiameter), '#7F5F1A', 'pieLegendStzyOnZoom');
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 300, 245, 'pieLegendRecalculateOnZoom');
+	                fn.addLegendCircle(chart, 280, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, fn.maxPieDiameter), '#7F5F1A', 'pieLegendStzyOnZoom');
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 300, 270, 'pieLegendRecalculateOnZoom');
 
 					//fn.addLegendSquare(chart, 270, 250, 10, '#7F5F1A');
 					//fn.addLegendLabel(chart, 'Zunahme', 300, 245);
@@ -121,7 +133,7 @@
 					fn.addLegendTitle(chart, 'Leerwohnungsquote in %', 265, 307);
 					
 					//make sure pies are hidden upon click onto pie legend
-					fn.AddPieLegendClickHandler(chart);
+					fn.AddPieLegendClickHandler(chart); 
 	            }
 			}
 		}

@@ -3659,7 +3659,7 @@
 					var pieSizeSeries = chart.series[1];
 					
 					//pie diameters in px
-					var maxPieDiameter = 25;
+					fn.maxPieDiameter = 25;
 
 					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
 					
@@ -3674,8 +3674,8 @@
 	                        sizeFormatter: function () {
 	                            var fn = this.chart.options.customFunctions;
 	                            var yAxis = chart.yAxis[0], zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
-								return zoom * fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
-								//return fn.pieSizeCategorical(Math.abs(data.value), pieSizeCatConfig).diameter;
+	                            var size = zoom * fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, fn.maxPieDiameter);
+								return size;
 	                        },
 	                        tooltip: {
 	                            pointFormatter: function () {
@@ -3695,10 +3695,10 @@
                 	//Add manually drawn legend	
 	                fn.addLegendTitle(chart, pieSizeSeries.name, 265, 220, 'pieLegendHideOnZoom');
 	                
-	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#7F5F1A', 'pieLegendHideOnZoom');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 300, 245, 'pieLegendHideOnZoom');
-	                fn.addLegendCircle(chart, 280, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#7F5F1A', 'pieLegendHideOnZoom');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 300, 270, 'pieLegendHideOnZoom');
+	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, fn.maxPieDiameter), '#7F5F1A', 'pieLegendStzyOnZoom');
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 300, 245, 'pieLegendRecalculateOnZoom');
+	                fn.addLegendCircle(chart, 280, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, fn.maxPieDiameter), '#7F5F1A', 'pieLegendStzyOnZoom');
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 300, 270, 'pieLegendRecalculateOnZoom');
 
 					//fn.addLegendSquare(chart, 270, 250, 10, '#7F5F1A');
 					//fn.addLegendLabel(chart, 'Zunahme', 300, 245);
@@ -3707,7 +3707,7 @@
 					fn.addLegendTitle(chart, 'Leerwohnungsquote in %', 265, 307);
 					
 					//make sure pies are hidden upon click onto pie legend
-					fn.AddPieLegendClickHandler(chart);
+					fn.AddPieLegendClickHandler(chart); 
 	            }
     },
     "renderTo": "container-6379"
@@ -3790,14 +3790,10 @@
   "xAxis": {
     "events": {
       "afterSetExtremes": function (e){
-					var divId = e['target']['chart']['renderTo']['id'] || 'dummySettingForExportServer';
-					var divIdString = '#' + divId;
-					divIdString = '';
-					//only care about zoom events, not pan
-					if (e.trigger != 'pan'){
-						//determine current zoom level
-						var zoom = (e.dataMax - e.dataMin) / (e.max - e.min);
-						$(divIdString + ' .pieLegendHideOnZoom').attr('visibility', zoom == 1 ? 'inherit' : 'hidden');
+					if (this.chart){
+						var fn = this.chart.options.customFunctions;
+						fn.recalculateOnZoom(e, '.pieLegendRecalculateOnZoom');
+						fn.hideOnZoom(e, '.pieLegendHideOnZoom');
 					}
 				}
     }
@@ -3844,8 +3840,14 @@
 					}
 				}
 			},
+    "pieValue": function (size, maxAbsValue, maxPieDiameter){
+				var value = maxAbsValue * size * size / maxPieDiameter / maxPieDiameter;
+				return value;
+			},
     "pieSize": function (value, maxAbsValue, maxPieDiameter){
-            	
+            	var diameter = Math.sqrt(Math.abs(value) / maxAbsValue * maxPieDiameter * maxPieDiameter);
+            	return diameter;
+            	/*
             	function circleAreaByDiameter(diameter){
             		return Math.PI * diameter * diameter / 4;
             	}
@@ -3854,11 +3856,6 @@
             		return Math.sqrt(4 * area / Math.PI);
             	}
             	
-            	/*
-                var yAxis = chart.yAxis[0],
-                    zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
-                */
-                
 				//Negative values: return absolute value
 				//size by Area: use sqrt of value to define size
 				//var size = pieSizeMin + chart.chartWidth / 11 * pieSizeFactor *  Math.sqrt(Math.abs(value)) / maxAbsNumber; 
@@ -3877,8 +3874,8 @@
 				//var area = relativeValue * (maxPieArea - minPieArea) + minPieArea;
 				
 				var diameter = circleDiameterByAre(area);
-
 				return diameter;
+				*/
             },
     "defineTemplate": function (){
 
@@ -3959,7 +3956,13 @@
 					};
 				},
     "drawPies": function (chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color){
-                	
+
+                	//set publish infos to other functions
+                	var fn = chart.options.customFunctions;
+                	fn.pieSizeSeries = pieSizeSeries;
+                	fn.choroplethSeries = choroplethSeries;
+                	fn.pieSeriesConfig = pieSeriesConfig;
+                	fn.pieSizeCatConfig = pieSizeCatConfig;
 
                     //iterate over each wohnviertel and draw the pies / bubbles
 	                Highcharts.each(pieSizeSeries.points, function (data) {
@@ -4000,7 +4003,7 @@
 		                        sizeFormatter: function () {
 		                            var fn = this.chart.options.customFunctions;
 									//pie diameters in px
-									var maxPieDiameter = 20;		 
+									var maxPieDiameter = fn.maxPieDiameter || 20;		 
 									//pie Size proportional to absolute value, no categories used
 		                            return fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
 		                        },
@@ -4074,7 +4077,8 @@
     "addLegendLabel": function (chart, text, x, y, cssClass, useHtml){
     				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
     					zIndex: 6,
-    					class: cssClass + ' pieLegend'
+    					class: cssClass + ' pieLegend', 
+    					initialValue: text
     				}).add();
                 },
     "addSubtitle": function (chart, text, x, y, cssClass, useHtml){
@@ -4087,7 +4091,9 @@
     				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).
     				attr({
     					zIndex: 6,
-    					class: cssClass +' pieLegend'	})
+    					class: cssClass +' pieLegend',
+    					initialValue: text
+    					})
     				.css({
                         fontWeight: 'bold' }).
                      add();

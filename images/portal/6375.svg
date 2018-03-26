@@ -246,13 +246,13 @@
     </text>
   </g>
   <circle cx="280" cy="255" r="2.7520758480794387" fill="#7F5F1A" stroke="#7F5F1A" stroke-width="1" class="pieLegendHideOnZoom pieLegend"/>
-  <g class="pieLegendHideOnZoom pieLegend" transform="translate(300,245)">
+  <g class="pieLegendHideOnZoom pieLegend" initialValue="200" transform="translate(300,245)">
     <text x="3" y="15">
       200
     </text>
   </g>
   <circle cx="280" cy="280" r="12.307657351082018" fill="#7F5F1A" stroke="#7F5F1A" stroke-width="1" class="pieLegendHideOnZoom pieLegend"/>
-  <g class="pieLegendHideOnZoom pieLegend" transform="translate(300,270)">
+  <g class="pieLegendHideOnZoom pieLegend" initialValue="4 000" transform="translate(300,270)">
     <text x="3" y="15">
       <tspan>4 000</tspan>
     </text>
@@ -262,7 +262,7 @@
       <tspan>Kanton Basel-Stadt: 32 873 unter 20-Jährige (16,6%)</tspan>
     </text>
   </g>
-  <g class="pieLegendHideOnZoom pieLegend" transform="translate(265,220)">
+  <g class="pieLegendHideOnZoom pieLegend" initialValue="Anzahl unter 20-Jähriger" transform="translate(265,220)">
     <text x="3" style="font-weight:bold;" y="15">
       <tspan>Anzahl unter 20-Jähriger</tspan>
     </text>
