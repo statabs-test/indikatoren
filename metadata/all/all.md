@@ -679,6 +679,7 @@ id | visible | visibleInPortal | indikatorenset
 6549 | true | true | Tourismus
 6570 | true | true | Integration
 6576 | true | true | Tourismus
+9996 | true | false | 
 9997 | true | false | 
 9998 | true | false | Test
 9999 | true | false | Test
