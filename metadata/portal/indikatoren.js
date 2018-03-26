@@ -9581,7 +9581,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Anzahl angebotener Plätze in der Tagesbetreuung (Tagesheime oder Tagesfamilien) sowie in den Tagesstrukturen der Schulen erfuhr in den letzten Jahren ein stetiges Wachstum. In der Stichwoche 2016 lag diese bei 4 161, respektive 4 272. In den Tagesstrukturen der Quartiere wurden 2016 832 Plätze angeboten, in den Tagesferien 195.",
-		"erlaeuterungen": "Tagesstrukturen: Stichwoche im September, bei den Tagesferien handelt es sich um die durchschnittliche Anzahl angebotener Plätze innerhalb eines Kalenderjahres.; Tagesbetreung: Stichwoche im Oktober.",
+		"erlaeuterungen": "Tagesstrukturen: Stichwoche im September, bei den Tagesferien handelt es sich um die durchschnittliche Anzahl angebotener Plätze innerhalb eines Kalenderjahres.<br>Tagesbetreung: Stichwoche im Oktober.",
 		"template": "line001",
 		"visibleInPortal": true,
 		"orderKey": "06_02_00_00_00_611",
@@ -17331,7 +17331,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anzahl Allmendbäume",
-		"subtitle": "Saldo aus Baumpflanzungen- und fällungen",
+		"subtitle": "Saldo aus Baumpflanzungen und -fällungen",
 		"kuerzel": "I.02.13.06574",
 		"kuerzelKunde": "NL11",
 		"description": "Anzahl Allmendbäume",

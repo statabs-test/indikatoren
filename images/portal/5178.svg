@@ -250,7 +250,7 @@
       <tspan>Kulturangebot (n=1495)</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="296" opacity="1">
-      <tspan>Einkaufsmögl. Im Quartier (n=1503)</tspan>
+      <tspan>Einkaufsmögl. im Quartier (n=1503)</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="317" opacity="1">
       <tspan>Verkehrssicherheit (n=1501)</tspan>
@@ -261,8 +261,8 @@
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="361" opacity="1">
       <tspan>Quartierleben (n=1483)</tspan>
     </text>
-    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="375" opacity="1">
-      <tspan>Zusammensetz. Quartier-</tspan><tspan dy="14" x="10">Bevölkerung (n=1458)</tspan><title>Zusammensetz. Quartier-Bevölkerung (n=1458)</title>
+    <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="382" opacity="1">
+      <tspan>Zusammensetz. Bev. (n=1458)</tspan>
     </text>
     <text x="10" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="404" opacity="1">
       <tspan>Luftqualität (n=1505)</tspan>
