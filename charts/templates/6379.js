@@ -1,7 +1,6 @@
 /*  
 	global Highcharts
 	global geojson_wohnviertelEPSG2056 
-	global $
 */
 (function(){
 
@@ -49,7 +48,6 @@
 				}, 
 				tooltip: {
 					pointFormatter: function(){
-						//console.log(this);
 						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),2) + '  </b><br/>';
 					}
 				}
@@ -64,7 +62,8 @@
 				afterSetExtremes: function(e){
 					if (this.chart){
 						var fn = this.chart.options.customFunctions;
-						fn.recalculateOnZoom(e, '.pieLegendRecalculateOnZoom');
+						console.log('fn: ', fn);
+						//fn.recalculateOnZoom(e, '.pieLegendRecalculateOnZoom');
 						fn.hideOnZoom(e, '.pieLegendHideOnZoom');
 					}
 				}
@@ -84,8 +83,10 @@
 					var choroplethSeries = chart.series[0];
 					var pieSizeSeries = chart.series[1];
 					
+					//todo: set fn.pieSizeSeries to be used in recalculateOnZoom (mappie001.js) so that exportServer runs through
+					
 					//pie diameters in px
-					fn.maxPieDiameter = 25;
+					var maxPieDiameter = 25;
 
 					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
 					
@@ -100,7 +101,7 @@
 	                        sizeFormatter: function () {
 	                            var fn = this.chart.options.customFunctions;
 	                            var yAxis = chart.yAxis[0], zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
-	                            var size = zoom * fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, fn.maxPieDiameter);
+	                            var size = zoom * fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter);
 								return size;
 	                        },
 	                        tooltip: {
@@ -110,7 +111,7 @@
 	                        }
 	                    };
 					};
-					 var pieSizeCatConfig;
+					var pieSizeCatConfig;
 					//put the pies / bubbles on the map
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 	                
@@ -121,9 +122,9 @@
                 	//Add manually drawn legend	
 	                fn.addLegendTitle(chart, pieSizeSeries.name, 265, 220, 'pieLegendHideOnZoom');
 	                
-	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, fn.maxPieDiameter), '#7F5F1A', 'pieLegendStzyOnZoom');
+	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#7F5F1A', 'pieLegendStayOnZoom');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 300, 245, 'pieLegendRecalculateOnZoom');
-	                fn.addLegendCircle(chart, 280, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, fn.maxPieDiameter), '#7F5F1A', 'pieLegendStzyOnZoom');
+	                fn.addLegendCircle(chart, 280, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#7F5F1A', 'pieLegendStayOnZoom');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 300, 270, 'pieLegendRecalculateOnZoom');
 
 					//fn.addLegendSquare(chart, 270, 250, 10, '#7F5F1A');

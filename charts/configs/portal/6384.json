@@ -3823,21 +3823,29 @@
 				var divId = e['target']['chart']['renderTo']['id'] || 'dummySettingForExportServer';
 				var divIdString = '#' + divId;
 				divIdString = '';
-				var fn = e.target.chart.options.customFunctions;
-				//only care about zoom events, not pan: if (e.trigger != 'pan'){
-				//determine current zoom level
-				var zoom = (e.dataMax - e.dataMin) / (e.max - e.min);
-				$(divIdString + selector).each(function(){
-					var initialValue = $(this).attr('initialValue');
-					//get size and data of last series in chart, this should be a pie, and check its size (diameter in px) and value to determine legend value
-					var series = e.target.chart.series;
-					var lastSeries = series[series.length-1];
-					var lastPieData = lastSeries.yData[0];
-					var lastPieSize = lastSeries.options.size;
-					var legendSize = fn.pieSize(Math.abs(initialValue), fn.getPointsExtremes(fn.pieSizeSeries.points).maxAbsNumber, fn.maxPieDiameter);
-					var legendValue = (Math.sqrt(lastPieData)*legendSize/lastPieSize) * (Math.sqrt(lastPieData)*legendSize/lastPieSize);
-					$(this).contents()[0].innerHTML = (zoom ==1)  ? initialValue : fn.legendLabelZoomFormatter(legendValue);
-				});
+				//var fn = e.target.chart.options.customFunctions;
+				var fn = this;
+				console.log('fn in recalculate: ', fn);
+				try{
+					//only care about zoom events, not pan: if (e.trigger != 'pan'){
+					//determine current zoom level
+					var zoom = (e.dataMax - e.dataMin) / (e.max - e.min);
+					$(divIdString + selector).each(function(){
+						var initialValue = $(this).attr('initialValue');
+						//get size and data of last series in chart, this should be a pie, and check its size (diameter in px) and value to determine legend value
+						var series = e.target.chart.series;
+						var lastSeries = series[series.length-1];
+						var lastPieData = lastSeries.yData[0];
+						var lastPieSize = lastSeries.options.size;
+						console.log('fn in recalculate: ', fn);
+						var legendSize = fn.pieSize(Math.abs(initialValue), fn.getPointsExtremes(fn.pieSizeSeries.points).maxAbsNumber, fn.maxPieDiameter);
+						var legendValue = (Math.sqrt(lastPieData)*legendSize/lastPieSize) * (Math.sqrt(lastPieData)*legendSize/lastPieSize);
+						$(this).contents()[0].innerHTML = (zoom ==1)  ? initialValue : fn.legendLabelZoomFormatter(legendValue);
+					});
+				}
+				catch(error){
+					console.log(error);
+				}
 			},
     "pieSizeCategorical": function (value, conf){
 				for (var i=0; i < conf.length; i++ ){
@@ -3911,7 +3919,7 @@
 					    getCenter: function () {
 					        var options = this.options,
 					            chart = this.chart,
-					            fn = this.chart.options.customFunctions,
+					            //fn = this.chart.options.customFunctions,
 					            slicingRoom = 2 * (options.slicedOffset || 0);
 					        if (!options.center) {
 					            options.center = [null, null]; // Do the default here instead
@@ -3962,13 +3970,6 @@
 					};
 				},
     "drawPies": function (chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color){
-
-                	//set publish infos to other functions
-                	var fn = chart.options.customFunctions;
-                	fn.pieSizeSeries = pieSizeSeries;
-                	fn.choroplethSeries = choroplethSeries;
-                	fn.pieSeriesConfig = pieSeriesConfig;
-                	fn.pieSizeCatConfig = pieSizeCatConfig;
 
                     //iterate over each wohnviertel and draw the pies / bubbles
 	                Highcharts.each(pieSizeSeries.points, function (data) {

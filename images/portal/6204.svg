@@ -67,11 +67,11 @@
     </g>
     <g class="highcharts-markers highcharts-series-5 highcharts-mappie-series highcharts-color-undefined " transform="translate(10,55) scale(1 1)"/>
     <g class="highcharts-series highcharts-series-6 highcharts-mappie-series highcharts-color-undefined " transform="translate(10,55) scale(1 1)">
-      <path fill="grey" d="M 120.23792001818394 178.37501116820886 A 4.177481941480907 4.177481941480907 0 1 1 120.23296842070597 178.37501511129943 M 120.23877085931434 182.55249302304298 A 0 0 0 1 0 120.23877085931434 182.55249302304298 " transform="translate(0,0)" stroke="grey" stroke-width="1" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
+      <path fill="grey" d="M 120.23792001818394 178.37501116820886 A 4.177481941480906 4.177481941480906 0 1 1 120.23296842070597 178.37501511129943 M 120.23877085931434 182.55249302304298 A 0 0 0 1 0 120.23877085931434 182.55249302304298 " transform="translate(0,0)" stroke="grey" stroke-width="1" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
     </g>
     <g class="highcharts-markers highcharts-series-6 highcharts-mappie-series highcharts-color-undefined " transform="translate(10,55) scale(1 1)"/>
     <g class="highcharts-series highcharts-series-7 highcharts-mappie-series highcharts-color-undefined " transform="translate(10,55) scale(1 1)">
-      <path fill="salmon" d="M 209.47550605542423 169.42883060934076 A 6.263497400843581 6.263497400843581 0 1 1 209.46808188977425 169.42883652140404 M 209.4767817620062 175.6923278802707 A 0 0 0 1 0 209.4767817620062 175.6923278802707 " transform="translate(0,0)" stroke="salmon" stroke-width="1" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
+      <path fill="salmon" d="M 209.47550605542423 169.42883060934076 A 6.26349740084358 6.26349740084358 0 1 1 209.46808188977425 169.42883652140404 M 209.4767817620062 175.6923278802707 A 0 0 0 1 0 209.4767817620062 175.6923278802707 " transform="translate(0,0)" stroke="salmon" stroke-width="1" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
     </g>
     <g class="highcharts-markers highcharts-series-7 highcharts-mappie-series highcharts-color-undefined " transform="translate(10,55) scale(1 1)"/>
     <g class="highcharts-series highcharts-series-8 highcharts-mappie-series highcharts-color-undefined " transform="translate(10,55) scale(1 1)">
@@ -95,7 +95,7 @@
     </g>
     <g class="highcharts-markers highcharts-series-12 highcharts-mappie-series highcharts-color-undefined " transform="translate(10,55) scale(1 1)"/>
     <g class="highcharts-series highcharts-series-13 highcharts-mappie-series highcharts-color-undefined " transform="translate(10,55) scale(1 1)">
-      <path fill="grey" d="M 78.2507472950925 148.65949079713775 A 3.1998277281133833 3.1998277281133833 0 1 1 78.2469545177375 148.65949381742863 M 78.25139901425715 151.85931845888226 A 0 0 0 1 0 78.25139901425715 151.85931845888226 " transform="translate(0,0)" stroke="grey" stroke-width="1" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
+      <path fill="grey" d="M 78.2507472950925 148.65949079713775 A 3.199827728113383 3.199827728113383 0 1 1 78.2469545177375 148.65949381742863 M 78.25139901425715 151.85931845888226 A 0 0 0 1 0 78.25139901425715 151.85931845888226 " transform="translate(0,0)" stroke="grey" stroke-width="1" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
     </g>
     <g class="highcharts-markers highcharts-series-13 highcharts-mappie-series highcharts-color-undefined " transform="translate(10,55) scale(1 1)"/>
     <g class="highcharts-series highcharts-series-14 highcharts-mappie-series highcharts-color-undefined " transform="translate(10,55) scale(1 1)">
@@ -151,11 +151,11 @@
     </g>
     <g class="highcharts-markers highcharts-series-26 highcharts-mappie-series highcharts-color-undefined " transform="translate(10,55) scale(1 1)"/>
     <g class="highcharts-series highcharts-series-27 highcharts-mappie-series highcharts-color-undefined highcharts-tracker" transform="translate(10,55) scale(1 1)">
-      <path fill="grey" d="M 119.9991491588696 178.82251814516587 A 4.177481941480907 4.177481941480907 0 1 1 119.99419756139163 178.82252208825645 M 120 183 A 0 0 0 1 0 120 183 " transform="translate(0,0)" stroke="grey" stroke-width="1" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
+      <path fill="grey" d="M 119.9991491588696 178.82251814516587 A 4.177481941480906 4.177481941480906 0 1 1 119.99419756139163 178.82252208825645 M 120 183 A 0 0 0 1 0 120 183 " transform="translate(0,0)" stroke="grey" stroke-width="1" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
     </g>
     <g class="highcharts-markers highcharts-series-27 highcharts-mappie-series highcharts-color-undefined " transform="translate(10,55) scale(1 1)"/>
     <g class="highcharts-series highcharts-series-28 highcharts-mappie-series highcharts-color-undefined highcharts-tracker" transform="translate(10,55) scale(1 1)">
-      <path fill="salmon" d="M 208.99872429341804 169.73650272907005 A 6.263497400843581 6.263497400843581 0 1 1 208.99130012776806 169.73650864113333 M 209 176 A 0 0 0 1 0 209 176 " transform="translate(0,0)" stroke="salmon" stroke-width="1" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
+      <path fill="salmon" d="M 208.99872429341804 169.73650272907005 A 6.26349740084358 6.26349740084358 0 1 1 208.99130012776806 169.73650864113333 M 209 176 A 0 0 0 1 0 209 176 " transform="translate(0,0)" stroke="salmon" stroke-width="1" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
     </g>
     <g class="highcharts-markers highcharts-series-28 highcharts-mappie-series highcharts-color-undefined " transform="translate(10,55) scale(1 1)"/>
     <g class="highcharts-series highcharts-series-29 highcharts-mappie-series highcharts-color-undefined highcharts-tracker" transform="translate(10,55) scale(1 1)">
@@ -179,7 +179,7 @@
     </g>
     <g class="highcharts-markers highcharts-series-33 highcharts-mappie-series highcharts-color-undefined " transform="translate(10,55) scale(1 1)"/>
     <g class="highcharts-series highcharts-series-34 highcharts-mappie-series highcharts-color-undefined highcharts-tracker" transform="translate(10,55) scale(1 1)">
-      <path fill="grey" d="M 77.99934828083535 148.8001723382555 A 3.1998277281133833 3.1998277281133833 0 1 1 77.99555550348036 148.80017535854637 M 78 152 A 0 0 0 1 0 78 152 " transform="translate(0,0)" stroke="grey" stroke-width="1" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
+      <path fill="grey" d="M 77.99934828083535 148.8001723382555 A 3.199827728113383 3.199827728113383 0 1 1 77.99555550348036 148.80017535854637 M 78 152 A 0 0 0 1 0 78 152 " transform="translate(0,0)" stroke="grey" stroke-width="1" stroke-linejoin="round" class="highcharts-point highcharts-color-0"/>
     </g>
     <g class="highcharts-markers highcharts-series-34 highcharts-mappie-series highcharts-color-undefined " transform="translate(10,55) scale(1 1)"/>
     <g class="highcharts-series highcharts-series-35 highcharts-mappie-series highcharts-color-undefined highcharts-tracker" transform="translate(10,55) scale(1 1)">
@@ -245,13 +245,13 @@
       <tspan>Differenz 2016 zu 2012</tspan>
     </text>
   </g>
-  <circle cx="365" cy="275" r="1.7422819078860534" fill="grey" stroke="grey" stroke-width="1" class="pieLegendHideOnZoom pieLegend"/>
+  <circle cx="365" cy="275" r="1.7422819078860536" fill="grey" stroke="grey" stroke-width="1" class="pieLegendHideOnZoom pieLegend"/>
   <g class="pieLegendHideOnZoom pieLegend" initialValue="0,1 Prozentpunkte" transform="translate(380,265)">
     <text x="3" y="15">
       <tspan>0,1 Prozentpunkte</tspan>
     </text>
   </g>
-  <circle cx="365" cy="300" r="9.542871024823295" fill="grey" stroke="grey" stroke-width="1" class="pieLegendHideOnZoom pieLegend"/>
+  <circle cx="365" cy="300" r="9.542871024823294" fill="grey" stroke="grey" stroke-width="1" class="pieLegendHideOnZoom pieLegend"/>
   <g class="pieLegendHideOnZoom pieLegend" initialValue="3.0 Prozentpunkte" transform="translate(380,290)">
     <text x="3" y="15">
       <tspan>3.0 Prozentpunkte</tspan>
