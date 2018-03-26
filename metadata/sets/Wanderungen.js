@@ -12,13 +12,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Ausland",
-			"Migration",
-			"Staatsangehörigkeit",
-			"Wanderung"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -52,14 +45,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Bevölkerung",
-			"Migration",
-			"Geburtsort",
-			"Staatsangehörigkeit",
-			"Wanderung"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -93,13 +78,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Ausländer",
-			"Migration",
-			"Zuzug",
-			"Geburtsort"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -133,13 +111,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Bevölkerung",
-			"Ausland",
-			"Migration",
-			"Zuzug"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -173,14 +144,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Geschlecht",
-			"Ausländer",
-			"Ausland",
-			"Migration",
-			"Geburtsort",
-			"Wanderung"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -214,12 +177,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Alter",
-			"Bevölkerung",
-			"Migration",
-			"Wanderung"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -253,13 +210,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Alter",
-			"Bevölkerung",
-			"Migration",
-			"Wanderung"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -294,13 +244,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Bevölkerung",
-			"Migration",
-			"Wanderung",
-			"Quartier"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -335,12 +278,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Migration",
-			"Wanderung",
-			"Quartier"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -362,11 +299,11 @@ var indikatorensetData = [
 		"id": 6022
 	},
 	{
-		"title": "Zugezogene, Weggezogene und Wanderungssaldo nach Zuzugs- und Wegzugsland 2016",
-		"subtitle": "Stand: 2016",
+		"title": "Zugezogene, Weggezogene und Wanderungssaldo",
+		"subtitle": "nach Zuzugs- und Wegzugsland; Stand: 2016",
 		"kuerzel": "I.01.5.06023",
 		"kuerzelKunde": "1-4",
-		"description": "Zugezogene, Weggezogene und Wanderungssaldo nach Zuzugs- und Wegzugsland 2016",
+		"description": "Zugezogene, Weggezogene und Wanderungssaldo",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Wanderungen",
@@ -374,13 +311,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Bevölkerung",
-			"Ausland",
-			"Migration",
-			"Wanderung"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -402,11 +332,11 @@ var indikatorensetData = [
 		"id": 6023
 	},
 	{
-		"title": "Entwicklung der aus dem Ausland Zugezogenen nach Zuzugsland",
-		"subtitle": "Indexiert (Wert 2007 = 100)",
+		"title": "Entwicklung der aus dem Ausland Zugezogenen",
+		"subtitle": "nach Zuzugsland, indexiert (Wert 2007 = 100)",
 		"kuerzel": "I.01.5.06024",
 		"kuerzelKunde": "1-5",
-		"description": "Entwicklung der aus dem Ausland Zugezogenen nach Zuzugsland",
+		"description": "Entwicklung der aus dem Ausland Zugezogenen",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Wanderungen",
@@ -414,14 +344,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Bevölkerung",
-			"Migration",
-			"Zuzug",
-			"Geburtsort",
-			"Wanderung"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -456,12 +378,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Migration",
-			"Wanderung",
-			"Quartier"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",

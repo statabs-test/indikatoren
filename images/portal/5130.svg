@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 6.0.4
+    Created with Highstock 6.0.7
   </desc>
   <defs>
     <linearGradient x1="0" y1="0" x2="1" y2="0" id="c">
@@ -95,10 +95,10 @@
             <text x="3.0546875" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="35" opacity="1">
               0
             </text>
-            <text x="66.66666666666666" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="35" opacity="1">
+            <text x="66.666666666667" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="35" opacity="1">
               200
             </text>
-            <text x="133.33333333333331" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="35" opacity="1">
+            <text x="133.33333333333" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="35" opacity="1">
               400
             </text>
             <text x="190.8359375" style="color:black;cursor:default;font-size:11px;fill:black;" text-anchor="middle" transform="translate(0,0)" y="35" opacity="1">

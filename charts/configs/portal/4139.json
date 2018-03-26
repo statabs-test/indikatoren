@@ -321,7 +321,6 @@
     },
     {
       "gridLineColor": "#B9CFD7",
-      "gridLineWidth": 0,
       "min": 0,
       "title": {
         "style": {
@@ -336,6 +335,7 @@
           "color": "#000000"
         }
       },
+      "gridLineWidth": 0,
       "opposite": true
     }
   ],

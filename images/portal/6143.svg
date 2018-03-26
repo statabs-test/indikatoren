@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 6.0.4
+    Created with Highstock 6.0.7
   </desc>
   <defs>
     <clipPath>
@@ -34,7 +34,7 @@
     <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 65 280.25 L 475 280.25" opacity="1"/>
     <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 65 212.25 L 475 212.25" opacity="1"/>
     <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 65 144.25 L 475 144.25" opacity="1"/>
-    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 65 76.25 L 475 76.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 65 75.75 L 475 75.75" opacity="1"/>
   </g>
   <g class="highcharts-grid highcharts-yaxis-grid highcharts-navigator-yaxis">
     <path fill="none" class="highcharts-grid-line" d="M 79 340.5 L 461 340.5" opacity="1"/>
@@ -85,36 +85,36 @@
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="40"/>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
-    <text x="89.62738870941247" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="299" opacity="1">
-      <tspan>1970</tspan>
+    <text x="89.627388709412" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="299" opacity="1">
+      1970
     </text>
-    <text x="171.6139188523244" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="299" opacity="1">
-      <tspan>1980</tspan>
+    <text x="171.61391885232" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="299" opacity="1">
+      1980
     </text>
-    <text x="253.62289875704977" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="299" opacity="1">
-      <tspan>1990</tspan>
+    <text x="253.62289875705" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="299" opacity="1">
+      1990
     </text>
-    <text x="335.6094288999617" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="299" opacity="1">
-      <tspan>2000</tspan>
+    <text x="335.60942889996" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="299" opacity="1">
+      2000
     </text>
-    <text x="417.6184088046871" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="299" opacity="1">
-      <tspan>2010</tspan>
+    <text x="417.61840880469" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="299" opacity="1">
+      2010
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-xaxis-labels highcharts-navigator-xaxis">
-    <text x="121.46672097206667" style="color:#999999;cursor:default;font-size:11px;fill:#999999;" text-anchor="start" transform="translate(0,0)" y="337" opacity="1">
-      <tspan>1800</tspan>
+    <text x="121.46672097207" style="color:#999999;cursor:default;font-size:11px;fill:#999999;" text-anchor="start" transform="translate(0,0)" y="337" opacity="1">
+      1800
     </text>
-    <text x="279.31631764133544" style="color:#999999;cursor:default;font-size:11px;fill:#999999;" text-anchor="start" transform="translate(0,0)" y="337" opacity="1">
-      <tspan>1900</tspan>
+    <text x="279.31631764134" style="color:#999999;cursor:default;font-size:11px;fill:#999999;" text-anchor="start" transform="translate(0,0)" y="337" opacity="1">
+      1900
     </text>
-    <text x="437.16591431060425" style="color:#999999;cursor:default;font-size:11px;fill:#999999;" text-anchor="start" transform="translate(0,0)" y="337" opacity="1">
-      <tspan>2000</tspan>
+    <text x="437.1659143106" style="color:#999999;cursor:default;font-size:11px;fill:#999999;" text-anchor="start" transform="translate(0,0)" y="337" opacity="1">
+      2000
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
     <text x="50" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="278" opacity="1">
-      <tspan>0</tspan>
+      0
     </text>
     <text x="50" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="210" opacity="1">
       <tspan>100 000</tspan>

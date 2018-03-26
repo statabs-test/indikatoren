@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 312">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 6.0.4
+    Created with Highstock 6.0.7
   </desc>
   <defs>
     <clipPath id="a">
@@ -305,27 +305,27 @@
         <div style="position: absolute; left: 0px; top: 0px; opacity: 1;">
           <div style="position: absolute; left: 0px; top: 0px; opacity: 1;">
             <div class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" style="position: absolute; left: 8px; top: 3px; opacity: 1;">
-              <span style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(51, 51, 51); font-weight: normal; text-overflow: ellipsis; cursor: pointer; overflow: hidden; margin-left: 0px; margin-top: 0px; left: 21px; top: 3px; fill: #333333;" transform="translate(0,0)">
+              <span transform="translate(0,0)" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(51, 51, 51); font-weight: normal; text-overflow: ellipsis; cursor: pointer; overflow: hidden; margin-left: 0px; margin-top: 0px; left: 21px; top: 3px; fill: #333333;">
                 &lt; 35,0
               </span>
             </div>
             <div class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" style="position: absolute; left: 8px; top: 18px; opacity: 1;">
-              <span style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(51, 51, 51); font-weight: normal; text-overflow: ellipsis; cursor: pointer; overflow: hidden; margin-left: 0px; margin-top: 0px; left: 21px; top: 3px; fill: #333333;" transform="translate(0,0)">
+              <span transform="translate(0,0)" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(51, 51, 51); font-weight: normal; text-overflow: ellipsis; cursor: pointer; overflow: hidden; margin-left: 0px; margin-top: 0px; left: 21px; top: 3px; fill: #333333;">
                 35,0 − 79,9
               </span>
             </div>
             <div class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" style="position: absolute; left: 8px; top: 33px; opacity: 1;">
-              <span style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(51, 51, 51); font-weight: normal; text-overflow: ellipsis; cursor: pointer; overflow: hidden; margin-left: 0px; margin-top: 0px; left: 21px; top: 3px; fill: #333333;" transform="translate(0,0)">
+              <span transform="translate(0,0)" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(51, 51, 51); font-weight: normal; text-overflow: ellipsis; cursor: pointer; overflow: hidden; margin-left: 0px; margin-top: 0px; left: 21px; top: 3px; fill: #333333;">
                 80,0 − 99,9
               </span>
             </div>
             <div class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" style="position: absolute; left: 8px; top: 48px; opacity: 1;">
-              <span style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(51, 51, 51); font-weight: normal; text-overflow: ellipsis; cursor: pointer; overflow: hidden; margin-left: 0px; margin-top: 0px; left: 21px; top: 3px; fill: #333333;" transform="translate(0,0)">
+              <span transform="translate(0,0)" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(51, 51, 51); font-weight: normal; text-overflow: ellipsis; cursor: pointer; overflow: hidden; margin-left: 0px; margin-top: 0px; left: 21px; top: 3px; fill: #333333;">
                 100,0 − 149,9
               </span>
             </div>
             <div class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" style="position: absolute; left: 8px; top: 63px; opacity: 1;">
-              <span style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(51, 51, 51); font-weight: normal; text-overflow: ellipsis; cursor: pointer; overflow: hidden; margin-left: 0px; margin-top: 0px; left: 21px; top: 3px; fill: #333333;" transform="translate(0,0)">
+              <span transform="translate(0,0)" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(51, 51, 51); font-weight: normal; text-overflow: ellipsis; cursor: pointer; overflow: hidden; margin-left: 0px; margin-top: 0px; left: 21px; top: 3px; fill: #333333;">
                 ≥ 150,0
               </span>
             </div>

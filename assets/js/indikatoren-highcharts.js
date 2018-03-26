@@ -168,7 +168,9 @@ function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, chartMetaD
         
         //load csv and draw chart            
         $.get(csvUrl, function(data){
-          drawChartFromData(data, chartOptions, template, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn);
+          //remove quotes from data
+          var dataWithoutQuotes = data.replace(/"/g, "");
+          drawChartFromData(dataWithoutQuotes, chartOptions, template, chartMetaData, indikatorensetView, suppressNumberInTitle, callbackFn);
         });
       }
     ).fail(function(jqXHR, textStatus, errorThrown){
@@ -308,7 +310,7 @@ function exportThumbnail(id, exportType, offline, exportServer, filename){
 
 
 //render the html required for links to other chart, kennzahlenset or external resources
-function renderLinksHTML(kennzahlenset, renderLink, externalLinks, view, stufe1, renderLinkDisplayMode){
+function renderLinksHTML(kennzahlenset, renderLink, externalLinks, view, stufe1, renderLinkDisplayMode, hideLinks, hideLinksTitle){
   var returnText = "";
   var displayLinkToIndikatorenset = kennzahlenset;
   //renderLink: Link to different view of same data
@@ -317,8 +319,8 @@ function renderLinksHTML(kennzahlenset, renderLink, externalLinks, view, stufe1,
   //any of the links need to be present 
   if (displayLinkToIndikatorenset || displayRenderLink || displayExternalLinks ) {
     returnText = " \
-        <div> \
-          <h1>Links</h1> \
+        <div id='links'" + (hideLinks ? "class='hidden'" : '')  + "> \
+          <div><h1 id='linksTitle' " + (hideLinksTitle ? "class='hidden'" : '') + ">Links</h1></div> \
           <div class='lesehilfe'> \
             <ul class='list-unstyled'>\
         ";
@@ -339,11 +341,11 @@ function renderLinksHTML(kennzahlenset, renderLink, externalLinks, view, stufe1,
     if (displayRenderLink) {
       if (renderLinkDisplayMode == 'slide' || renderLinkDisplayMode === undefined){
         //we're in carousel mode, slide to other chart
-        returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/><a href='javascript:javascript:slideToLinkedChart(" + renderLink[0] + ", window.FJS, " + isIndikatorensetView(view) + ")'>Andere Darstellungsform</a> dieser Daten</li>";
+        returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/><a href='javascript:javascript:slideToLinkedChart(" + renderLink[0] + ", window.FJS, " + isIndikatorensetView(view) + ")'>Andere Darstellungsform</a> dieser Daten.</li>";
       }
       else{
         //we're in chart-detail.html, open link to other chart
-        returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/><a href='chart-details.html?id=" + renderLink[0] + "'>Andere Darstellungsform</a> dieser Daten</li>";
+        returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/><a href='chart-details.html?id=" + renderLink[0] + "'>Andere Darstellungsform</a> dieser Daten.</li>";
       }
     }
     if (displayExternalLinks) {

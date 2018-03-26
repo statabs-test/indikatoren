@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 6.0.4
+    Created with Highstock 6.0.7
   </desc>
   <defs>
     <clipPath>
@@ -256,68 +256,68 @@
     </g>
   </g>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
-    <text x="66.25757575757576" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 66.25757575757576 333)" y="333" opacity="1">
+    <text x="66.25757575757558" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 66.25757575757558 333)" y="333" opacity="1">
       <tspan>Altstadt GB</tspan>
     </text>
-    <text x="85.43939393939395" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 85.43939393939395 333)" y="333" opacity="1">
-      <tspan>Vorstädte</tspan>
+    <text x="85.43939393939358" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 85.43939393939358 333)" y="333" opacity="1">
+      Vorstädte
     </text>
-    <text x="104.62121212121214" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 104.62121212121214 333)" y="333" opacity="1">
+    <text x="104.62121212120758" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 104.62121212120758 333)" y="333" opacity="1">
       <tspan>Am Ring</tspan>
     </text>
-    <text x="123.80303030303031" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 123.80303030303031 333)" y="333" opacity="1">
-      <tspan>Breite</tspan>
+    <text x="123.80303030302755" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 123.80303030302755 333)" y="333" opacity="1">
+      Breite
     </text>
-    <text x="142.9848484848485" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 142.9848484848485 333)" y="333" opacity="1">
+    <text x="142.98484848484756" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 142.98484848484756 333)" y="333" opacity="1">
       <tspan>St. Alban</tspan>
     </text>
-    <text x="162.16666666666669" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 162.16666666666669 333)" y="333" opacity="1">
-      <tspan>Gundeld.</tspan>
+    <text x="162.16666666666757" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 162.16666666666757 333)" y="333" opacity="1">
+      Gundeld.
     </text>
-    <text x="181.34848484848484" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 181.34848484848484 333)" y="333" opacity="1">
-      <tspan>Bruderholz</tspan>
+    <text x="181.34848484848757" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 181.34848484848757 333)" y="333" opacity="1">
+      Bruderholz
     </text>
-    <text x="200.53030303030303" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 200.53030303030303 333)" y="333" opacity="1">
-      <tspan>Bachletten</tspan>
+    <text x="200.53030303030755" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 200.53030303030755 333)" y="333" opacity="1">
+      Bachletten
     </text>
-    <text x="219.71212121212122" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 219.71212121212122 333)" y="333" opacity="1">
-      <tspan>Gotthelf</tspan>
+    <text x="219.71212121211755" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 219.71212121211755 333)" y="333" opacity="1">
+      Gotthelf
     </text>
-    <text x="238.8939393939394" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 238.8939393939394 333)" y="333" opacity="1">
-      <tspan>Iselin</tspan>
+    <text x="238.89393939393756" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 238.89393939393756 333)" y="333" opacity="1">
+      Iselin
     </text>
     <text x="258.0757575757576" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 258.0757575757576 333)" y="333" opacity="1">
       <tspan>St. Johann</tspan>
     </text>
-    <text x="277.25757575757586" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 277.25757575757586 333)" y="333" opacity="1">
+    <text x="277.2575757575776" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 277.2575757575776 333)" y="333" opacity="1">
       <tspan>Altstadt KB</tspan>
     </text>
-    <text x="296.439393939394" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 296.439393939394 333)" y="333" opacity="1">
-      <tspan>Clara</tspan>
+    <text x="296.43939393939763" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 296.43939393939763 333)" y="333" opacity="1">
+      Clara
     </text>
-    <text x="315.6212121212122" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 315.6212121212122 333)" y="333" opacity="1">
-      <tspan>Wettstein</tspan>
+    <text x="315.62121212120763" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 315.62121212120763 333)" y="333" opacity="1">
+      Wettstein
     </text>
-    <text x="334.80303030303037" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 334.80303030303037 333)" y="333" opacity="1">
-      <tspan>Hirzbr.</tspan>
+    <text x="334.80303030302764" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 334.80303030302764 333)" y="333" opacity="1">
+      Hirzbr.
     </text>
-    <text x="353.98484848484856" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 353.98484848484856 333)" y="333" opacity="1">
-      <tspan>Rosental</tspan>
+    <text x="353.98484848484765" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 353.98484848484765 333)" y="333" opacity="1">
+      Rosental
     </text>
-    <text x="373.1666666666667" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 373.1666666666667 333)" y="333" opacity="1">
-      <tspan>Matthäus</tspan>
+    <text x="373.1666666666676" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 373.1666666666676 333)" y="333" opacity="1">
+      Matthäus
     </text>
-    <text x="392.3484848484849" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 392.3484848484849 333)" y="333" opacity="1">
-      <tspan>Klybeck</tspan>
+    <text x="392.3484848484876" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 392.3484848484876 333)" y="333" opacity="1">
+      Klybeck
     </text>
-    <text x="411.53030303030306" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 411.53030303030306 333)" y="333" opacity="1">
-      <tspan>Kleinh.</tspan>
+    <text x="411.5303030303076" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 411.5303030303076 333)" y="333" opacity="1">
+      Kleinh.
     </text>
-    <text x="430.71212121212125" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 430.71212121212125 333)" y="333" opacity="1">
-      <tspan>Riehen</tspan>
+    <text x="430.7121212121176" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 430.7121212121176 333)" y="333" opacity="1">
+      Riehen
     </text>
-    <text x="449.89393939393943" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 449.89393939393943 333)" y="333" opacity="1">
-      <tspan>Bettingen</tspan>
+    <text x="449.8939393939376" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 449.8939393939376 333)" y="333" opacity="1">
+      Bettingen
     </text>
     <text x="469.0757575757576" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 469.0757575757576 333)" y="333" opacity="1">
       <tspan>Kanton BS</tspan>
@@ -325,19 +325,19 @@
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
     <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="326" opacity="1">
-      <tspan>0%</tspan>
+      0%
     </text>
     <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="279" opacity="1">
-      <tspan>25%</tspan>
+      25%
     </text>
     <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="232" opacity="1">
-      <tspan>50%</tspan>
+      50%
     </text>
     <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="185" opacity="1">
-      <tspan>75%</tspan>
+      75%
     </text>
     <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="138" opacity="1">
-      <tspan>100%</tspan>
+      100%
     </text>
   </g>
   <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="400">

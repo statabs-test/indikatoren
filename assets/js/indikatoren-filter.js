@@ -32,20 +32,50 @@ var sortOptions = {};
 
 var indikatoren;
 var view = false;
+var perPage=16;
 
 $(document).ready(function(){
+  
+  //display header if requested
+  var showHeader = window.decodeURIComponent($.url('?showHeader')) === 'true';
+  if (showHeader) { 
+    $('#header').removeClass('hidden'); 
+  }
+  
+  //pre-populate searchbox
+  var searchUrlParamValue = window.decodeURIComponent($.url('?search'));
+  if (searchUrlParamValue != "undefined"){$("#searchbox").val(searchUrlParamValue);}
+  
   //Render page differently depending on url query string 'Indikatorenset'
-  //var indikatorenset = $.url('?Indikatorenset');
   var indikatorenset = window.decodeURIComponent($.url('?Indikatorenset'));
   //defines if portal or indikatorenset view is to be shown
   view = false;
-  
   var jsonDatabaseUrl = 'metadata/portal/indikatoren.js';
   //determine if valid indikaorenset name
   if (indikatorensetNames.indexOf(indikatorenset) > -1){
     view = true;
     jsonDatabaseUrl = 'metadata/sets/'+ indikatorenset + '.js';
   }
+  
+  //dynamically change filterColumns in indikatorenset view only, see http://jsfiddle.net/KyleMit/pgt6tczj/
+  var stufeParameter = parseInt(window.decodeURIComponent($.url('?stufe')), 10); 
+  var maxStufe = (stufeParameter >= 0 && stufeParameter <= 5 ? stufeParameter : 2);
+  if (isIndikatorensetView(view)){
+    //change width of columns
+    var $myCols = $('#indikatorensetFilterControls');
+    var visibleCols = maxStufe + 1; //add the search box as a column
+    var div = Math.floor(12 / visibleCols);
+    var rem = 12 % visibleCols;
+    var colSize = (rem === 0) ? div : 2;
+    $myCols.children().removeClass().addClass('col-xs-'+colSize);
+    //hide columns to the right of maxStufe
+    $myCols.children().each(function(i, element){
+      if (i >= visibleCols){
+        $(element).hide();
+      }
+    });
+  }
+  
   
   //load data
   $.when(    
@@ -68,13 +98,11 @@ $(document).ready(function(){
       }
       
       //determine how many chart previews to display
-      var perPage = parseInt(window.decodeURIComponent($.url('?PerPage')));
+      var perPageParam = parseInt(window.decodeURIComponent($.url('?PerPage')), 10);
       //parameter must be an int, see https://stackoverflow.com/a/14636652 
-      if (perPage > 0 && perPage <= 32){
-        perPage=perPage;
-      }
-      else {
-        perPage=16;
+      if (perPageParam > 0 && perPageParam <= 32){
+        //perPage defined globally with a default value
+        perPage=perPageParam;
       }
       initializeFilterJS(indikatorenset, perPage);
   });  
@@ -85,6 +113,7 @@ $(document).ready(function(){
 function resetPortalFilter(FJS, view){
   if (isIndikatorensetView(view)){
     $('#searchbox').val('');
+    $("#stufe3_filter").prop('selectedIndex', 0);
     $("#stufe2_filter").prop('selectedIndex', 0);
     $("#stufe1_filter").prop('selectedIndex', 0);
     FJS.filter();
@@ -94,8 +123,6 @@ function resetPortalFilter(FJS, view){
     $('#searchbox').val('');
     $("#thema_criteria :radio:first()").prop('checked', true);
     $("#unterthema_filter").prop('selectedIndex', 0);
-    $("#schlagwort_filter option").prop('selected', true);
-    $("#schlagwort_filter").multiselect('selectAll', false).multiselect('updateButtonText');      
     $("#raeumlicheGliederung_filter").multiselect('selectAll', false).multiselect('updateButtonText');
     FJS.filter();
   }
@@ -133,6 +160,7 @@ function initializeFilterJS(indikatorenset, perPage){
     FJS.addCriteria({field: "kennzahlenset", ele: "#kennzahlenset_filter", all: "all"});
     FJS.addCriteria({field: "stufe1", ele: "#stufe1_filter", all: "all"});
     FJS.addCriteria({field: "stufe2", ele: "#stufe2_filter", all: "all"});
+    FJS.addCriteria({field: "stufe3", ele: "#stufe3_filter", all: "all"});
   }  
   else {
     //Portal view
@@ -144,7 +172,6 @@ function initializeFilterJS(indikatorenset, perPage){
     FJS = FilterJS(indikatoren, '#indikatoren', fjsConfig);
     FJS.addCriteria({field: "thema", ele: "#thema_criteria input:radio", all: "Alle"});
     FJS.addCriteria({field: "unterthema", ele: "#unterthema_filter", all: "all"});
-    FJS.addCriteria({field: "schlagwort", ele: "#schlagwort_filter", all: "all"});
     FJS.addCriteria({field: "raeumlicheGliederung", ele: "#raeumlicheGliederung_filter", all: "all"});      
 
     //reset all filter criteria
@@ -232,16 +259,36 @@ function getSortOptions(name){
 function preparePortalView(){
   $("#main-control-element-indikatorenset").remove();    
   renderThema();
-  renderMultiselectDropdownFromJson(indikatoren, 'schlagwort', '#schlagwort_filter', true);    
   renderMultiselectDropdownFromJson(["Schweiz", "Kanton", "Gemeinde", "Wohnviertel", "Bezirk", "Block", "Blockseite"], '', '#raeumlicheGliederung_filter', false);
 
   //prepare query String object for filtering thema and unterthema
   var baseQuery = {};
   //render unterthema dropdown for the first time   
   renderDropdownFromJson(indikatoren, 'unterthema', '#unterthema_filter', 'unterthema', baseQuery);
-      
-  //configure unterthema to be filtered correctly upon change of thema           
-  configureCascadedControls('#thema_criteria', '#unterthema_filter', "#thema_criteria :checked", 'Alle', 'thema','#unterthema_filter', 'all', 'unterthema', baseQuery);  
+  
+  //pre-populate fields with url parameter values
+  var themaUrlParameterVal = window.decodeURIComponent($.url('?thema'));
+  //check if thema is valid
+  if (indikatoren.find(function(element){return element['thema'] === themaUrlParameterVal;})) {
+    $("#thema_criteria :radio").filter("[value='" + themaUrlParameterVal + "']").prop("checked", true);
+  }
+  setDropdownValFromUrlParameter('unterthema');
+  var raeumlicheGliederungUrlParameterValue = window.decodeURIComponent($.url('?raeumlicheGliederung'));
+  if (raeumlicheGliederungUrlParameterValue != undefined){setMultiselectValue("#raeumlicheGliederung_filter", raeumlicheGliederungUrlParameterValue);}  
+  //hide elements upon request
+  if (window.decodeURIComponent($.url('?hideSidebar')) === 'true'){$('#sidebar-element').hide()}
+  if (window.decodeURIComponent($.url('?hideUnterthema')) === 'true'){$('#unterthema_criteria').hide()}
+  if (window.decodeURIComponent($.url('?hideSearch')) === 'true'){$('#search').hide()}
+  if (window.decodeURIComponent($.url('?hideResetButton')) === 'true'){$('#portal-reset-button').hide()}
+  if (window.decodeURIComponent($.url('?hideThema')) === 'true'){$('#thema').hide()}
+  if (window.decodeURIComponent($.url('?hideRaeumlicheGliederung')) === 'true'){$('#raeumlicheGliederung').hide()}
+}
+
+
+//set a multiselect dropdown value and trigger a change event
+function setMultiselectValue(selector, value){
+  $(selector + " option").prop('selected', false);
+  $(selector).multiselect('deselectAll', false).multiselect('select', value).multiselect('updateButtonText');
 }
 
 
@@ -263,62 +310,20 @@ function prepareIndikatorensetView(indikatorenset){
 
   renderDropdownFromJson(indikatoren, 'stufe1', '#stufe1_filter', 'orderKey', baseQuery);
   renderDropdownFromJson(indikatoren, 'stufe2', '#stufe2_filter', 'orderKey', baseQuery);
-
-  //add cascaded dropdowns functionality to stufe1 and stufe2
-  configureCascadedControls('#stufe1_filter', '#stufe2_filter', '#stufe1_filter', 'all', 'stufe1', '#stufe2_filter', 'all', 'stufe2', baseQuery); 
+  renderDropdownFromJson(indikatoren, 'stufe3', '#stufe3_filter', 'orderKey', baseQuery);
+  
+  //pre-populate fields with url parameter values
+  setDropdownValFromUrlParameter('stufe1');
+  setDropdownValFromUrlParameter('stufe2');
+  setDropdownValFromUrlParameter('stufe3');
 }
 
-
-//add cascaded dropdowns functionality to level1 and level2
-function configureCascadedControls(level1Selector, level2Selector, level1ValueSelector, level1AllValue, level1Field, level2valueSelector, level2allValue, level2Field, baseQuery){  
-
-  $(level1Selector).change(function(){    
-    //save currently selected value
-    var currentLevel2Value = $(level2Selector).val(); 
-    //set 2nd level dropdown to first (all)
-    $(level2Selector + ' :nth-child(1)').prop('selected', true);
-    $(level2Selector).change();
-    //filter 2nd level to include only values that occur together with selected 1st level value
-    var level2QueryString = $.extend(true, {}, baseQuery); 
-    var selectedValue = $(level1ValueSelector).val();
-    if (selectedValue !== level1AllValue) {
-      level2QueryString[level1Field] = selectedValue;
-    }
-    renderDropdownFromJson(indikatoren, level2Field, level2Selector, level2Field, level2QueryString);
-    //re-set previously selected value if level 1 is not "all"
-    if (selectedValue !== level1AllValue){
-      $(level2Selector).val(currentLevel2Value);
-    }
-    //if no item is selected now, select the first one
-    if (!$(level2Selector).val()){
-      $(level2Selector + ' :nth-child(1)').prop('selected', true);
-    }
-  });
-
-
-  $(level2Selector).change(function(){
-    //upon selection in level2 dropdown: if level1 is set to the first one (all), set level1 value to the single (or first) value that matches    
-    var selectedValue = $(level2valueSelector).val();           
-    //level2 value is not the first one in the list (all) and level1 value is the first one (all)
-    if (selectedValue !== level2allValue /*&& $(level1ValueSelector).val() === level1AllValue*/ ) {
-      var level1QueryString = $.extend(true, {}, baseQuery);
-      //extend JsonQuery object    
-      level1QueryString[level2Field] = selectedValue;
-      //find first level1 value that matches the selected level2 value
-      var result = JsonQuery(indikatoren).where(level1QueryString).all[0][level1Field];
-      //set level1 to the found value
-      if (level1ValueSelector.indexOf('checked') > -1) {
-        //for radios: 
-        $(level1Selector).find('[value="' + result + '"]').prop('checked', true);
-        $(level1Selector).change();
-      }
-      else {
-        //for dropdown: 
-        $(level1Selector).val([result]);
-        $(level1Selector).change();
-      }
-    }
-  });
+//check if field value exists before setting value of dropdown  
+function setDropdownValFromUrlParameter(field){
+  var urlParameterValue = window.decodeURIComponent($.url('?' + field));
+  if (indikatoren.find(function(element){return element[field] === urlParameterValue;})) {
+    $("#" + field + "_filter").val(urlParameterValue);
+  }
 }
 
 
@@ -351,12 +356,16 @@ function renderDropdownFromJson(data, field, selector, sortKey, filterQueryStrin
     sortOptions[sortKey] = 'asc';
     JQ=JQ.order(sortOptions);
   }
+
   var allValues = JQ.pluck(field).all;
   //get unique values and filter out empty string 
   var uniqueValues = allValues.filter(function(item, i, ar){ return ar.indexOf(item) === i && item != ""; }); 
   var html = $('#option-template').html();
   var templateFunction = FilterJS.templateBuilder(html);
   var container = $(selector);
+  
+  //save the currently selected value first
+  var currentValue = $(selector).val(); 
   //remove options if any are present, but leave the first one
   var optionsToRemove = selector+' > option:gt(0)';  
   $(optionsToRemove).remove();
@@ -364,6 +373,13 @@ function renderDropdownFromJson(data, field, selector, sortKey, filterQueryStrin
   $.each(uniqueValues, function(i, c){
     container.append(templateFunction({ key: c, value: c }));
   });
+  //re-set previously selected value 
+  $(selector).val(currentValue);
+  //if no item is selected now, select the first one, and trigger a change event so that filtering is updated 
+  if (!$(selector).val()){
+    $(selector + ' :nth-child(1)').prop('selected', true);
+    $(selector).change();
+  }
 }
 
 
@@ -492,8 +508,10 @@ function getIndexByFid(fid){
 }
 
 
-//after filtering is done: update counts in dropdowns and create all carousel components
+
+//after filtering is done: update dropdonws and their counts, create all carousel components
 var afterFilter = function(result, jQ){
+
     //$('#total_indikatoren').text(result.length);    
 
     //define how counts in dropdowns or checkboxes are rendered 
@@ -501,19 +519,34 @@ var afterFilter = function(result, jQ){
     var checkboxCountRenderFunction = function(c, count){c.next().text(c.val() + ' (' + count + ')')};
     //render new counts after each control
     updateCountsExclusive('#thema_criteria :input:gt(0)', 'thema', checkboxCountRenderFunction, result, jQ);        
-    updateCountsExclusive('#schlagwort_filter > option', 'schlagwort', optionCountRenderFunction, result, jQ);
     updateCountsExclusive('#raeumlicheGliederung_filter > option', 'raeumlicheGliederung', optionCountRenderFunction, result, jQ);
 
     //hide dropdowns if no specific values present, or select the single specific value
-    selectSingleEntryOrHideDropdown('#unterthema_filter');
-    selectSingleEntryOrHideDropdown('#stufe2_filter');
+    //selectSingleEntryOrHideDropdown('#unterthema_filter');
+    //selectSingleEntryOrHideDropdown('#stufe2_filter');
+    
 
+    //prepare query String object for filtering stufe1 - stufe5
+    var query = (window['FJS'] && window['FJS']['last_query'] ? window.FJS.last_query : undefined);
+    var baseQuery = (query ? (query.criteria ? query.criteria.where : undefined) : undefined);
+    //deep copy so that changes have no effect on filtering charts, only dropdowns
+    var baseQueryCopy = $.extend(true, {}, baseQuery);
+    //start from the right: remove field of dropdown and render dropdown. This way, stufe3 selection does not filter stufe2 dropdown options, and so on.
+    if (baseQueryCopy) {delete baseQueryCopy['stufe3' + '.$in'];}
+    renderDropdownFromJson(indikatoren, 'stufe3', '#stufe3_filter', 'orderKey', baseQueryCopy);
+    if (baseQueryCopy) {delete baseQueryCopy['stufe2' + '.$in'];}
+    renderDropdownFromJson(indikatoren, 'stufe2', '#stufe2_filter', 'orderKey', baseQueryCopy);
+    if (baseQueryCopy) {delete baseQueryCopy['stufe1' + '.$in'];}
+    renderDropdownFromJson(indikatoren, 'stufe1', '#stufe1_filter', 'orderKey', baseQueryCopy);    
+    
+    var baseQueryCopyUnterthema = $.extend(true, {}, baseQuery);
+    renderDropdownFromJson(indikatoren, 'unterthema', '#unterthema_filter', 'unterthema', baseQueryCopyUnterthema);
+    
     //for multiselect dropdowns: rebuild control after select tag is updated
-    $('#schlagwort_filter').multiselect('rebuild');
     $('#raeumlicheGliederung_filter').multiselect('rebuild');
     
     //if results fit in a single page: hide pagination, use bootstrap invisible class to leave row height intact    
-    (result.length <= 16) ? $('#pagination').addClass('invisible') : $('#pagination').removeClass('invisible');
+    (result.length <= perPage) ? $('#pagination').addClass('invisible') : $('#pagination').removeClass('invisible');
 
     createCarousel(result);
     
@@ -525,6 +558,7 @@ var afterFilter = function(result, jQ){
           //iterate over each displayed value of the criterion 
           items.each(function(){            
             var c = $(this), count = 0;           
+            
             //get last Query JsonQuery Object of last filter event and remove the current filter value from it
             try{
               var jsonQ = window.FJS.last_query;           
@@ -606,7 +640,7 @@ var afterFilter = function(result, jQ){
     function createCarousel(result){            
       //add a carousel-inner div for each thumbnail
       //build template function using template from DOM
-      var template = (isIndikatorensetView(indikatorensetView)) ? '#indikator-template-modal-indikatorenset' : '#indikator-template-modal-portal';
+      var template = (isIndikatorensetView(view)) ? '#indikator-template-modal-indikatorenset' : '#indikator-template-modal-portal';
       var html = $(template).html();
       var templateFunction = FilterJS.templateBuilder(html);
       var container = $('#carousel-inner');
@@ -648,3 +682,49 @@ var afterFilter = function(result, jQ){
   }
 };//afterFilter
 
+
+
+// https://tc39.github.io/ecma262/#sec-array.prototype.find
+if (!Array.prototype.find) {
+  Object.defineProperty(Array.prototype, 'find', {
+    value: function(predicate) {
+     // 1. Let O be ? ToObject(this value).
+      if (this == null) {
+        throw new TypeError('"this" is null or not defined');
+      }
+
+      var o = Object(this);
+
+      // 2. Let len be ? ToLength(? Get(O, "length")).
+      var len = o.length >>> 0;
+
+      // 3. If IsCallable(predicate) is false, throw a TypeError exception.
+      if (typeof predicate !== 'function') {
+        throw new TypeError('predicate must be a function');
+      }
+
+      // 4. If thisArg was supplied, let T be thisArg; else let T be undefined.
+      var thisArg = arguments[1];
+
+      // 5. Let k be 0.
+      var k = 0;
+
+      // 6. Repeat, while k < len
+      while (k < len) {
+        // a. Let Pk be ! ToString(k).
+        // b. Let kValue be ? Get(O, Pk).
+        // c. Let testResult be ToBoolean(? Call(predicate, T, « kValue, k, O »)).
+        // d. If testResult is true, return kValue.
+        var kValue = o[k];
+        if (predicate.call(thisArg, kValue, k, o)) {
+          return kValue;
+        }
+        // e. Increase k by 1.
+        k++;
+      }
+
+      // 7. Return undefined.
+      return undefined;
+    }
+  });
+}

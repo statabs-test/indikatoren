@@ -1,0 +1,133 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+  <desc>
+    Created with Highstock 6.0.7
+  </desc>
+  <defs>
+    <clipPath>
+      <rect x="0" y="0" width="309" height="225" fill="none"/>
+    </clipPath>
+    <clipPath id="a">
+      <rect x="0" y="0" width="309" height="225" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect fill="#fbfbfb" class="highcharts-background" x="0" y="0" width="485" height="415" rx="0" ry="0"/>
+  <rect fill="none" class="highcharts-plot-background" x="250" y="55" width="225" height="309"/>
+  <g class="highcharts-pane-group"/>
+  <g class="highcharts-grid highcharts-xaxis-grid ">
+    <path fill="none" class="highcharts-grid-line" d="M 250 81.5 L 475 81.5" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 250 107.5 L 475 107.5" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 250 132.5 L 475 132.5" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 250 158.5 L 475 158.5" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 250 184.5 L 475 184.5" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 250 210.5 L 475 210.5" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 250 235.5 L 475 235.5" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 250 261.5 L 475 261.5" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 250 287.5 L 475 287.5" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 250 313.5 L 475 313.5" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 250 338.5 L 475 338.5" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 250 364.5 L 475 364.5" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 250 55.5 L 475 55.5" opacity="1"/>
+  </g>
+  <g class="highcharts-grid highcharts-yaxis-grid ">
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 249.75 55 L 249.75 364" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 305.75 55 L 305.75 364" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 362.75 55 L 362.75 364" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 418.75 55 L 418.75 364" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 475.25 55 L 475.25 364" opacity="1"/>
+  </g>
+  <rect fill="none" class="highcharts-plot-border" x="250" y="55" width="225" height="309"/>
+  <g class="highcharts-axis highcharts-xaxis ">
+    <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width="0.5" d="M 249.75 55 L 249.75 364"/>
+  </g>
+  <g class="highcharts-axis highcharts-yaxis ">
+    <path fill="none" class="highcharts-axis-line" d="M 250 364 L 475 364"/>
+  </g>
+  <g class="highcharts-series-group">
+    <g class="highcharts-series highcharts-series-0 highcharts-column-series " transform="translate(475,364) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)">
+      <rect x="291" y="38" width="10" height="188" fill="#B00000" class="highcharts-point highcharts-color-0"/>
+      <rect x="265" y="134" width="10" height="92" fill="#2B0099" class="highcharts-point highcharts-color-1"/>
+      <rect x="240" y="96" width="10" height="130" fill="#008AC3" class="highcharts-point highcharts-color-2"/>
+      <rect x="214" y="155" width="10" height="71" fill="#008AC3" class="highcharts-point highcharts-color-3"/>
+      <rect x="188" y="156" width="10" height="70" fill="#B6CFD7" class="highcharts-point highcharts-color-4"/>
+      <rect x="162" y="151" width="10" height="75" fill="#B6CFD7" class="highcharts-point highcharts-color-5"/>
+      <rect x="137" y="142" width="10" height="84" fill="#008AC3" class="highcharts-point highcharts-color-6"/>
+      <rect x="111" y="134" width="10" height="92" fill="#B6CFD7" class="highcharts-point highcharts-color-7"/>
+      <rect x="85" y="155" width="10" height="71" fill="#B6CFD7" class="highcharts-point highcharts-color-8"/>
+      <rect x="59" y="154" width="10" height="72" fill="#B6CFD7" class="highcharts-point highcharts-color-9"/>
+      <rect x="34" y="133" width="10" height="93" fill="#008AC3" class="highcharts-point highcharts-color-10"/>
+      <rect x="8" y="123" width="10" height="103" fill="#007A2F" class="highcharts-point highcharts-color-11"/>
+    </g>
+    <g class="highcharts-markers highcharts-series-0 highcharts-column-series " transform="translate(475,364) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
+  </g>
+  <g class="highcharts-axis-labels highcharts-xaxis-labels "/>
+  <g class="highcharts-axis-labels highcharts-yaxis-labels ">
+    <text x="250" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="383" opacity="1">
+      0
+    </text>
+    <text x="306.25" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="383" opacity="1">
+      20
+    </text>
+    <text x="362.5" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="383" opacity="1">
+      40
+    </text>
+    <text x="418.75" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="383" opacity="1">
+      60
+    </text>
+    <text x="468.890625" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="383" opacity="1">
+      80
+    </text>
+  </g>
+  <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="390">
+    <tspan>Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;</tspan><tspan x="10" dy="13">Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik</tspan>
+  </text>
+  <foreignObject x="0" y="0" width="485" height="415">
+    <body xmlns="http://www.w3.org/1999/xhtml">
+      <span class="highcharts-title" transform="translate(0,0)" style="font-family: Arial; font-size: 14px; position: absolute; white-space: nowrap; margin-left: 0px; margin-top: 0px; left: 10px; top: 7px; color: rgb(0, 0, 0); font-weight: bold;">
+        Mittlere Wohnfläche pro Person
+      </span>
+      <span class="highcharts-subtitle" transform="translate(0,0)" style="font-family: Arial; font-size: 12px; position: absolute; white-space: nowrap; margin-left: 0px; margin-top: 0px; left: 10px; top: 28px; color: rgb(0, 0, 0); font-weight: normal;">
+        nach Haushaltstyp in m², Stand: 2016
+      </span>
+      <div class="highcharts-axis-labels highcharts-xaxis-labels " style="position: absolute; left: 0px; top: 0px; opacity: 1;">
+        <span transform="translate(0,0)" opacity="1" style="font-family: Arial; font-size: 11px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 10px; top: 61px; opacity: 1;">
+          Einpersonenhaushalte
+        </span>
+        <span transform="translate(0,0)" opacity="1" style="font-family: Arial; font-size: 11px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 10px; top: 87px; opacity: 1;">
+          Familienhaushalte
+        </span>
+        <span transform="translate(0,0)" opacity="1" style="font-family: Arial; font-size: 11px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 10px; top: 113px; opacity: 1;">
+          Verheiratete/registrierte Paare ohne Kinder
+        </span>
+        <span transform="translate(0,0)" opacity="1" style="font-family: Arial; font-size: 11px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 10px; top: 139px; opacity: 1;">
+          Paare mit minderjährigen Kindern
+        </span>
+        <span transform="translate(0,0)" opacity="1" style="font-family: Arial; font-size: 11px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 10px; top: 164px; opacity: 1;">
+          Verheiratete Paare mit Kindern
+        </span>
+        <span transform="translate(0,0)" opacity="1" style="font-family: Arial; font-size: 11px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 10px; top: 190px; opacity: 1;">
+          Unverheiratete Paare mit Kindern
+        </span>
+        <span transform="translate(0,0)" opacity="1" style="font-family: Arial; font-size: 11px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 10px; top: 216px; opacity: 1;">
+          Einelternhaushalte mit minderjährigen Kindern
+        </span>
+        <span transform="translate(0,0)" opacity="1" style="font-family: Arial; font-size: 11px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 10px; top: 242px; opacity: 1;">
+          Ohne weitere Personen
+        </span>
+        <span transform="translate(0,0)" opacity="1" style="font-family: Arial; font-size: 11px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 10px; top: 267px; opacity: 1;">
+          Mit Grosseltern(-teil)
+        </span>
+        <span transform="translate(0,0)" opacity="1" style="font-family: Arial; font-size: 11px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 10px; top: 293px; opacity: 1;">
+          Mit weiteren Personen
+        </span>
+        <span transform="translate(0,0)" opacity="1" style="font-family: Arial; font-size: 11px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 10px; top: 319px; opacity: 1;">
+          Eltern(-teil) mit nur volljährigen Kindern
+        </span>
+        <span transform="translate(0,0)" opacity="1" style="font-family: Arial; font-size: 11px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 10px; top: 345px; opacity: 1;">
+          Nichtfamilienhaushalte
+        </span>
+      </div>
+    </body>
+  </foreignObject>
+</svg>

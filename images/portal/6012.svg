@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 6.0.4
+    Created with Highstock 6.0.7
   </desc>
   <defs>
     <clipPath>
@@ -33,7 +33,7 @@
     <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 56 186.25 L 475 186.25" opacity="1"/>
     <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 56 160.25 L 475 160.25" opacity="1"/>
     <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 56 135.25 L 475 135.25" opacity="1"/>
-    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 56 109.25 L 475 109.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 56 108.75 L 475 108.75" opacity="1"/>
   </g>
   <rect fill="none" class="highcharts-plot-border" x="56" y="109" width="419" height="255"/>
   <g class="highcharts-axis highcharts-xaxis ">
@@ -98,16 +98,16 @@
   </g>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
     <text x="108.375" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="383" opacity="1">
-      <tspan>Schweiz</tspan>
+      Schweiz
     </text>
     <text x="213.125" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="383" opacity="1">
-      <tspan>Ausland</tspan>
+      Ausland
     </text>
     <text x="317.875" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="383" opacity="1">
-      <tspan>Unbekannt</tspan>
+      Unbekannt
     </text>
     <text x="422.625" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="383" opacity="1">
-      <tspan>Total</tspan>
+      Total
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
@@ -118,13 +118,13 @@
       <tspan>-1 000</tspan>
     </text>
     <text x="41" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="318" opacity="1">
-      <tspan>-500</tspan>
+      -500
     </text>
     <text x="41" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="292" opacity="1">
-      <tspan>0</tspan>
+      0
     </text>
     <text x="41" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="267" opacity="1">
-      <tspan>500</tspan>
+      500
     </text>
     <text x="41" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="241" opacity="1">
       <tspan>1 000</tspan>

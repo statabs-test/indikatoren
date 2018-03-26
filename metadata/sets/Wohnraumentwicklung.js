@@ -12,11 +12,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-01-19T14:07:53.5353",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt",
-			"Zufriedenheit"
-		],
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
@@ -50,10 +45,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-03-20T14:42:08.088",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
@@ -87,10 +78,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-01-19T15:46:38.3838",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
@@ -124,10 +111,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-05-22T08:59:06.066",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
@@ -160,18 +143,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-01-19T10:57:22.2222",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
+		"aktualisierungsdatum": "2018-01-18T10:57:22.2222",
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der selbstgenutzten Eigentümerwohnungen, das heisst Wohnungen, welche vom Wohnungs- bzw. Gebäudeeigentümer bewohnt werden, ist nahezu unverändert.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Der Anteil der Genossenschaftswohnungen ist seit 2013 leicht angestiegen.",
+		"erlaeuterungen": "Die Daten beziehen sich auf die belegten Wohnungen (Haushalte). Unter sonstigen Wohnungen werden Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen gezählt.",
 		"template": "template001",
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
@@ -192,23 +171,18 @@ var indikatorensetData = [
 		"kuerzelKunde": "1.1.A",
 		"description": "Bevölkerungsbestand am Jahresende",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Wohnraumentwicklung",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-03-22T18:38:03.033",
-		"schlagwort": [
-			"Heimat",
-			"Bevölkerung",
-			"Niederlassung"
-		],
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.1 Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der 10-Jahresspanne von 2007 bis 2016 nahm die Bevölkerung in Basel-Stadt von 187 684 auf 198 206 Personen zu. Dies entspricht einer Steigerung um 5,6%.",
+		"lesehilfe": "In der 10-Jahresspanne von 2008 bis 2017 nahm die Bevölkerung in Basel-Stadt von 188 556 auf 198 988 Personen zu. Dies entspricht einem Wachstum um 5,0%.",
 		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774 - 1847: Kantonale Volkszählungen; 1850 - 1900: Eidgenössische Volkszählungen; 1901 - 2011: Fortschreibung der kantonalen Bevölkerungsstatistik; Ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 		"template": "stock001",
 		"orderKey": "02_01_00_00_00_000",
@@ -237,17 +211,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-01-23T10:24:11.1111",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
+		"aktualisierungsdatum": "2018-01-18T10:24:11.1111",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 2008 steigt der gesamte Wohnungsbestand leicht und stetig an. Am stärksten war das Wachstum bei den Fünfzimmerwohnungen (+12% seit 2006). Rückläufig bzw. nahezu unverändert war dagegen die Entwicklung bei den Ein- und Zweizimmerwohnungen (-7% bzw. +0,6%).",
+		"lesehilfe": "Seit 2008 steigt der gesamte Wohnungsbestand leicht und stetig an. Am stärksten war das Wachstum bei den Fünf- bzw. Vierzimmerwohnungen (+10,9% bzw. 8,6% seit 2008). Rückläufig war dagegen die Entwicklung bei den Einzimmerwohnungen (-3,2%).",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"orderKey": "02_02_00_00_00_000",
@@ -264,7 +234,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anteile am Wohnungsbestand",
-		"subtitle": "nach Zimmerzahl und Wohnflächenkategorie, Stand 2016",
+		"subtitle": "nach Zimmerzahl und Wohnflächenkategorie, Stand 2017",
 		"kuerzel": "I.09.1.04134",
 		"kuerzelKunde": "1.2.B",
 		"description": "Anteile am Wohnungsbestand",
@@ -274,17 +244,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-01-19T15:55:59.5959",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
+		"aktualisierungsdatum": "2018-01-18T15:55:59.5959",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am zahlreichsten sind 2016 nach Zimmerzahl betrachtet die 3-Zimmerwohnungen (37%) und nach Wohnungsflächenkategorie Logis zwischen 70 und 99 Quadratmetern (35%).",
+		"lesehilfe": "Am zahlreichsten sind 2017 nach Zimmerzahl betrachtet die 3-Zimmerwohnungen (37%) und nach Wohnungsflächenkategorie Logis zwischen 70 und 99 Quadratmetern (35%).",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"orderKey": "02_02_00_00_00_000",
@@ -311,17 +277,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-01-16T13:02:39.3939",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
+		"aktualisierungsdatum": "2018-01-18T13:02:39.3939",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2016 war die Nettowohnungsproduktion überdurchschnittlich hoch. Dazu beigetragen hat eine hohe Neubauproduktion, ein positiver Umbausaldo und eine niedrige Anzahl von Abbrüchen.",
+		"lesehilfe": "2017 war der Umbausaldo wiederum positiv wie stets seit 2011. Dazu beigetragen hat eine Vielzahl von Dachstockausbauten.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"orderKey": "02_02_00_00_00_000",
@@ -350,11 +312,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-01-19T16:23:33.3333",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
+		"aktualisierungsdatum": "2018-01-18T16:23:33.3333",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
@@ -387,18 +345,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-20T14:31:47.4747",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
+		"aktualisierungsdatum": "2018-01-18T14:31:47.4747",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit 412 Einheiten war 2016 die Neubauproduktion überdurchschnittlich, aber erwartungsgemäss nicht mehr so hoch wie im Vorjahr.",
-		"erlaeuterungen": "Es werden nur neu erstellte Wohnungen in Neubauten berücksichtigt. Neue Wohnungen aus Umbauten sind demnach nicht enthalten.",
+		"lesehilfe": "Mit 369 Einheiten blieb die Nettoproduktion 2017 wiederum auf einem relativ hohen Niveau. Einzig im Jahre 2015 war sie deutlich höher, was auf die Fertigstellung grosser Neubauprojekte auf dem Erlenmattareal zurückzuführen war.",
+		"erlaeuterungen": "Es werden nur neu erstellte Wohnungen in Neubauten berücksichtigt. Neue Wohnungen aus Umbauten sind nicht enthalten. Die Neubauprognose wird aufgrund der baubegonnenen Projekte und der voraussichtlichen Baudauer hochgerechnet. Der Durchschnitt der Neubauproduktion errechnet sich aus dem arithmetischen Mittel der Neubauten der dargestellten Jahre (exklusive Neubauprognose).",
 		"template": "template001",
 		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
@@ -425,10 +379,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
@@ -462,10 +412,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-08-18T09:23:29.2929",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
@@ -489,7 +435,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "",
+		"subtitle": "in m²",
 		"kuerzel": "I.09.1.04140",
 		"kuerzelKunde": "1.3.A",
 		"description": "Mittlere Wohnfläche pro Person",
@@ -499,26 +445,26 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-01-24T12:33:26.2626",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
+		"aktualisierungsdatum": "2018-01-18T12:33:26.2626",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.3 Wohnraumnutzung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Wohnfläche pro Kopf nahm von 1980 bis 2010 um sechs Quadratmeter zu. Seither ist ein leichter Rückgang zu verzeichnen.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Alle Berechnungen beziehen sich auf das Jahresende und berücksichtigen rückwirkend wo immer möglich die aktuell gültigen Definitionen gemäss Gesetzgebung zu Registerharmonisierung und Volkszählung. Ab 2012 handelt es sich um kantonale Registerauswertungen, frühere Werte wurden auf Basis der Volkszählungen 1980, 1990 und 2000 berechnet.",
 		"template": "line001",
 		"orderKey": "02_03_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"5815"
+			"5815",
+			"6027",
+			"6247",
+			"6362"
 		],
 		"renderLink": [],
 		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
@@ -539,10 +485,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-03-20T10:44:40.4040",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
@@ -576,10 +518,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-03-20T10:46:00.000",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
@@ -612,17 +550,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-01-24T12:49:29.2929",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
+		"aktualisierungsdatum": "2018-01-18T12:49:29.2929",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der Genossenschaftswohnungen am Gesamtbestand beträgt 2016 rund 10%.",
+		"lesehilfe": "Der Anteil der Genossenschaftswohnungen am Gesamtbestand beträgt 2017 rund 10%.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"orderKey": "02_04_00_00_00_000",
@@ -650,10 +584,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-01-24T13:33:44.4444",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
@@ -686,11 +616,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-01-24T13:50:12.1212",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
+		"aktualisierungsdatum": "2018-01-18T13:50:12.1212",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.6 Förderung von Wohneigentum",
 		"stufe3": "",
@@ -723,17 +649,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-02-02T16:59:21.2121",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
+		"aktualisierungsdatum": "2018-01-18T16:59:21.2121",
 		"stufe1": "Ziel 2: Fiskalpolitik",
 		"stufe2": "2.1 Grosszügiger Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Wohnungen mit 4 oder mehr Zimmern stieg zum einen in der Dekade der 1970er-Jahre, und zwar um 2,6 Prozentpunkte. Zum anderen nimmt der Anteil seit 2010 wieder zu. Dazwischen war kaum oder nur ein marginales Wachstum zu verzeichnen.",
+		"lesehilfe": "Der Anteil Wohnungen mit 4 oder mehr Zimmern stieg zum einen in der Dekade der 1970er-Jahre, und zwar um 2,6 Prozentpunkte. Zum anderen nahm er von 2005 bis 2014 (1,9 Prozentpunkte) zu. Dazwischen war kaum oder nur ein marginales Wachstum zu verzeichnen.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"orderKey": "03_01_00_00_00_000",
@@ -750,7 +672,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Saldo des Steuerertrages von Zu- und Wegzügern",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt, in Mio. Franken",
 		"kuerzel": "I.18.2.04147",
 		"kuerzelKunde": "2.1.B",
 		"description": "Saldo des Steuerertrages von Zu- und Wegzügern",
@@ -760,18 +682,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-04-03T14:12:18.1818",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
+		"aktualisierungsdatum": "2018-01-10T16:04:02.022",
 		"stufe1": "Ziel 2: Fiskalpolitik",
 		"stufe2": "2.1 Grosszügiger Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Seit 2009 ist der Saldo des Steuerertrages bei den Zugezogenen höher als bei den Wegzügern. Bei den Weggezogenen wurden die Steuerdaten des jeweiligen Vorjahres verwendet. Zugezogene Ausländer wurden ab Vorliegen einer Niederlassungsbewilligung mitberücksichtigt.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Die Analyse der Effekte auf den Ertrag aus Einkommens- und Vermögenssteuer durch Zu- und Abwanderung im Kanton Basel-Stadt wird durch verschiedene methodische Aspekte erschwert. Seit der eidgenössischen Steuerharmonisierung im Jahr 2002 ist für die Steuerpflicht innerhalb der Schweiz der Wohnsitz am 31. Dezember massgebend. Es liegen daher in Basel-Stadt in der Regel keine Daten zur Einkommens- und Vermögenssituation im Jahr des Wegzugs vor. Für die Steuerstatistik der Wegzügerinnen und Wegzüger wurden daher die Steuerdaten des jeweiligen Vorjahres verwendet. Für die Zugezogenen und die ganzjährig Niedergelassenen sind die Steuerdaten des Berichtsjahres vorhanden und wurden für die Analyse verwendet. Bei der Definition der Zuzüger wurde berücksichtigt, dass Ausländer ohne Niederlassungsbewilligung in der Regel an der Quelle veranlagt werden. Aus diesem Grund wurde ein Zuzug erst bei einer Niederlassung als solcher gezählt.",
 		"template": "template001",
 		"orderKey": "03_01_00_00_00_000",
 		"parentId": null,
@@ -792,23 +710,19 @@ var indikatorensetData = [
 		"kuerzelKunde": "2.2.A",
 		"description": "Erwachsene Einwohner mit Hauptwohnsitz in Basel-Stadt",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Wohnraumentwicklung",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-01-24T15:08:06.066",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 2: Fiskalpolitik",
 		"stufe2": "2.2 Anteil an Hauptwohnsitznehmern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl volljähriger Personen mit Hauptwohnsitz in Basel-Stadt nimmt stetig leicht zu. Diese Personen versteuern ihr Einkommen oder ihre Vermögenswerte, falls vorhanden, in der Regel in Basel-Stadt.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Die Anzahl volljähriger Personen mit Hauptwohnsitz in Basel-Stadt nimmt stetig zu. Diese Personen versteuern ihr Einkommen oder ihre Vermögenswerte, falls vorhanden, in der Regel in Basel-Stadt.",
+		"erlaeuterungen": "Für den Indikator werden die Personen ab 18 Jahren mit dem Meldeverhältnis Hauptwohnsitz in Basel-Stadt und dem Bevölkerungstyp Nichtständige Wohnbevölkerung oder Ständige Wohnbevölkerung berücksichtigt.",
 		"template": "line001",
 		"orderKey": "03_02_00_00_00_000",
 		"parentId": null,
@@ -835,17 +749,13 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-01-18T09:58:14.1414",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
 		"stufe1": "Ziel 3: Raumplanung",
 		"stufe2": "3.2 Freiräume",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Freiraumflächen reduzierten sich aufgrund von Schulhauserweiterungen auf Kosten von Sportanlagen sowie der Umgestaltung der Voltamatte vorübergehend auf rund 840 000 Quadratmeter. Die Öffnung des Schwarzparks für die Bevölkerung sorgte 2014 für einen Sprung auf rund 885 000 Quadratmeter.",
-		"erlaeuterungen": "Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der Amtlichen Vermessung des Kantons Basel-Stadt.",
+		"lesehilfe": "Im Jahr 2017 betrug der Anteil der Freiraumflächen an der Fläche des Kantons 2,44%. Die Freiraumflächen reduzierten sich aufgrund von Schulhauserweiterungen auf Kosten von Sportanlagen sowie der Umgestaltung der Voltamatte vorübergehend bis auf rund 840 000 Quadratmeter im Jahr 2013. Die Öffnung des Schwarzparks für die Bevölkerung sorgte 2014 für einen Sprung auf rund 885 000 Quadratmeter.",
+		"erlaeuterungen": "Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der Amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6–12 Jahren mit einer periodischen Nachführung aktualisiert.",
 		"template": "template001",
 		"orderKey": "04_02_00_00_00_000",
 		"parentId": null,
@@ -872,11 +782,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-01-24T15:09:53.5353",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt",
-			"Zufriedenheit"
-		],
 		"stufe1": "Ziel 3: Raumplanung",
 		"stufe2": "3.2 Freiräume",
 		"stufe3": "",
@@ -912,10 +817,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-01-19T13:52:21.2121",
-		"schlagwort": [
-			"Gebäude",
-			"Zufriedenheit"
-		],
 		"stufe1": "Ziel 3: Raumplanung",
 		"stufe2": "3.3 Städtebauliche Qualität",
 		"stufe3": "",
@@ -949,9 +850,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-03-22T17:53:45.4545",
-		"schlagwort": [
-			"Familie"
-		],
 		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.1 Unterstützung Benachteiligter",
 		"stufe3": "",
@@ -974,7 +872,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Ausbezahlte Familienmietzinsbeiträge",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt, in Franken",
 		"kuerzel": "I.13.2.04153",
 		"kuerzelKunde": "4.1.B",
 		"description": "Ausbezahlte Familienmietzinsbeiträge",
@@ -985,17 +883,13 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-01-24T15:24:49.4949",
-		"schlagwort": [
-			"Familie",
-			"Wohnen"
-		],
 		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.1 Unterstützung Benachteiligter",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die ausbezahlten Familienmietzinsbeiträge sind seit 2007 stark angestiegen. Der durchschnittliche Beitrag pro Haushalt wuchs in diesem Zeitraum von knapp 3 000 Franken auf rund 4 700 Franken. Seit 2013 verflachte der Anstieg. 2016 war erstmals ein Rückgang des durchschnittlichen Beitrags zu beobachten.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Die ausbezahlten Familienmietzinsbeiträge sind seit 2008 stark gestiegen und betragen 2017 rund 10,7 Mio. Franken.",
+		"erlaeuterungen": "Die Leistungen nach Wohnraumfördergesetz liefen per Ende 2008 aus. Das Gesetz wurde per 1.1.2009 aufgehoben. Dies hatte einen Einfluss auf die Anzahl unterstützter Mietverhältnisse nach Mietbeitragsgesetz.",
 		"template": "line001",
 		"orderKey": "05_01_00_00_00_000",
 		"parentId": null,
@@ -1021,18 +915,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-06-19T11:56:25.2525",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt"
-		],
+		"aktualisierungsdatum": "2018-01-18T11:56:25.2525",
 		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.1 Unterstützung Benachteiligter",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die wenigen Notwohnungen – 2016 machten sie 0,13% des Wohnungsbestandes aus – waren immer zu rund 90% belegt. In den Jahren 2013 und 2014 betrug die Belegung sogar mehr als 95%. Durch Aufstockungen bestehender Blockrandsiedlungen konnte das Angebot seit 2013 um 50 Logis erhöht werden.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Die wenigen Notwohnungen – 2017 machten sie 0,13% des Wohnungsbestandes aus – waren immer zu mindestens 86% belegt. In den Jahren 2013 und 2014 betrug die Belegung sogar mehr als 95%. Durch Aufstockungen bestehender Blockrandsiedlungen konnte das Angebot seit 2013 um 50 Logis erhöht werden.",
+		"erlaeuterungen": "Die Belegung wird Ende Jahr gemäss den Einträgen im Einwohnerregister gemessen.",
 		"template": "template001",
 		"orderKey": "05_01_00_00_00_000",
 		"parentId": null,
@@ -1059,9 +949,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-01-24T15:35:33.3333",
-		"schlagwort": [
-			"Zufriedenheit"
-		],
 		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.2 Wohnraum für Betagte und Behinderte",
 		"stufe3": "",
@@ -1095,11 +982,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-02-17T12:40:52.5252",
-		"schlagwort": [
-			"Gebäude",
-			"Haushalt",
-			"Zufriedenheit"
-		],
 		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.2 Wohnraum für Betagte und Behinderte",
 		"stufe3": "",

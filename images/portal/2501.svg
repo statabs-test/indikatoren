@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 6.0.4
+    Created with Highstock 6.0.7
   </desc>
   <defs>
     <clipPath>
@@ -124,7 +124,7 @@
       <tspan>Herst. von chem. Erzeugn.</tspan>
     </text>
     <text x="154" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="207" opacity="1">
-      <tspan>Baugewerbe</tspan>
+      Baugewerbe
     </text>
     <text x="154" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="228" opacity="1">
       <tspan>Handel und Garagengewerbe</tspan>
@@ -133,7 +133,7 @@
       <tspan>Verkehr und Lagerei</tspan>
     </text>
     <text x="154" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="270" opacity="1">
-      <tspan>Gastgewerbe</tspan>
+      Gastgewerbe
     </text>
     <text x="154" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="290" opacity="1">
       <tspan>Finanz- u. Versicherungsdl.</tspan>
@@ -145,7 +145,7 @@
       <tspan>Sonstige wirtschaftl. Dienstl.</tspan>
     </text>
     <text x="154" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="352" opacity="1">
-      <tspan>Verwaltung</tspan>
+      Verwaltung
     </text>
     <text x="154" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="373" opacity="1">
       <tspan>Gesundheits- u. Sozialwesen</tspan>

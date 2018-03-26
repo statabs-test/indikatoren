@@ -14,7 +14,7 @@
   },
   {
     gridLineColor: '#B9CFD7', 
-    gridLineWidth: 0.5,
+    //gridLineWidth: 0.5,
     "title": {
       "style": {
         "color": "#000000",
@@ -24,7 +24,6 @@
     },
     "labels": {
       "format": "{value:,.0f}%",
-      "step": 2,
       "style": {
         "color": "#000000"
       }

@@ -2,7 +2,7 @@
 Find and display statistical indicators from the canton of Basel-Stadt, Switzerland. See live version [here](http://www.statistik.bs.ch/zahlen/indikatoren/).  
 
 
-##Create png files of each chart within an indikatorenset
+## Create png files of each chart within an indikatorenset
 - In a terminal window within c9.io, run the following command: 
 ```javascript
 npm run start-export-server
@@ -16,12 +16,7 @@ npm run start-export-server
 npm run stop-export-server
 ```
 
-##Review charts
-- To display all charts'SVG files open all.html. 
-- This will render one big page that contains all the SVG files that are displayed in portal or indikatorenset view. 
-- Charts for print view are excluded from this page. 
-
-##Manually create svg thumbnails 
+## Manually create svg thumbnails 
 - For the portal view: In Chrome, open thumbnails.html
 - For the indikatorenset view: In Chrome, open thumbnails.html?view=indikatorenset
 This will download all svg files to the local downloads directory. You can then manually move them to their respective directory below /images/.
@@ -33,15 +28,12 @@ Install [node.js](https://nodejs.org), then run the following command in the con
 npm install
 ```
 
+
 ## Getting Started
 Locally build, start http server, open browser:
 ```javascript
 npm start
 ```
-
-## Get png files for usage in print publications
-- In the Chrome browser: Open print.html?Indikatorenset=_indikatorensetname_
-- All charts in the given Indikatorenset are rendered in the browser, then locally exported to png files. These are saved by the browser to the "Downloads" folder. 
 
 
 ## Get Charts from "Umweltbericht beider Basel"
@@ -54,6 +46,44 @@ npm run build:umwelt_charts
 ```javascript
 npm run build
 ```
+
+
+## URL Parameters
+
+- Most of the URL Paramaters outlibned below can be used in combination. 
+- Use ? to separate server + document from the list of parameters, then & before 2nd, 3rd (and so on) oparameter in the URL. See examples for stufe below. 
+- Filter parameters can be used even if the respective filter element is hidden. 
+- Url encoding of filter parameter values is automatically performed by the browser, just type in the value in the browser's url bar and hit enter. 
+
+| Parameter | View | Example | Default | Description | 
+|---------- | ---- | ------- | ------- | ----------- |
+| indikatorenset | Indikatorenset | [Example](https://statabs.github.io/indikatoren/?Indikatorenset=Wohnviertel) | | Switches to Indikatorenset view: Hides sidebar, thema filter, räumliche Gliederung filter, but adds stufe1 and stufe2 filter. Additionally, kuerzelKunde is displayed instead of kuerzel.  
+| stufe | Indikatorenset | [Example](https://statabs.github.io/indikatoren/?Indikatorenset=Arbeitsmarkt&stufe=3) | 2 | Sets the maximum stufe ('Kapitel' / 'Unterkapitel') to be displayed as a dropdown filter control. 
+| showHeader | Portal | [Example](https://statabs.github.io/indikatoren/?showHeader=true) | false | Displays header containing bs.ch logo, StatA text and Link to Indikatorenportal. 
+| PerPage | Portal, Indikatorenset | [Example](https://statabs.github.io/indikatoren/?PerPage=32) | 16 | Sets the number of charts to be displayd per page. 
+| search | Portal, Indikatorenset | [Example](https://statabs.github.io/indikatoren/?search=nominal) |  | Pre-populates the full-text search field. 
+| thema | Portal, Indikatorenset | [Example](https://statabs.github.io/indikatoren/?thema=14%20Gesundheit) |  | Pre-populates the thema filter. 
+| unterthema | Portal, Indikatorenset | [Example](https://statabs.github.io/indikatoren/?thema=14%20Gesundheit&unterthema=Spit%C3%A4ler) |  | Pre-populates the thema filter. 
+| raeumlicheGliederung | Portal, Indikatorenset | [Example](https://statabs.github.io/indikatoren/?raeumlicheGliederung=Kanton) |  | Pre-populates the raeumlicheGliederung filter.  
+| stufe1, stufe2, stufe3 | Portal, Indikatorenset | [Example](https://statabs.github.io/indikatoren/?Indikatorenset=Arbeitsmarkt&stufe=3&stufe1=Monitoring%20Basler%20Arbeitsmarkt&stufe2=Bruttoinlandprodukt%20und%20Wertsch%C3%B6pfung) |  | Pre-populates the filter for stufe1, stufe2 and stufe3. 
+| hideSidebar | Portal | [Example](https://statabs.github.io/indikatoren/?hideSidebar=true) | false | Hides the sidebar that contains full text search text box, reset button, thema filter, and räumliche Gliederung filter. 
+| hideSearch | Portal | [Example](https://statabs.github.io/indikatoren/?hideSearch=true) | false | Hides the full text search text box. 
+| hideResetButton | Portal | [Example](https://statabs.github.io/indikatoren/?hideResetButton=true) | false | Hides the filter reset button. 
+| hideThema | Portal | [Example](https://statabs.github.io/indikatoren/?hideThema=true) | false | Hides the Thema filter control. 
+| hideUnterthema | Portal | [Example](https://statabs.github.io/indikatoren/?hideUnterthema=true) | false | Hides the Unterthema filter control. 
+| hideRaeumlicheGliederung | Portal | [Example](https://statabs.github.io/indikatoren/?hideRaeumlicheGliederung=true) | false | Hides the Räumliche Gliederung filter control. 
+| id | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401) |  | Defines the id of the chart to be displayed. 
+| hideHeaeder | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideHeader=true) | false | Hides the header containing bs.ch logo, StatA text and Link to Indikatorenportal, decreases left margin. 
+| hideTitle | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideTitle=true) | false | Hides the chart Title in the html text below the chart. 
+| hideLesehilfe | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideLesehilfe=true) | false | Hides the Lesehilfe title and text. 
+| hideLesehilfeTitle | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideLesehilfeTitle=true) | false | Hides the Lesehilfe Title but leaves the Lesehilfe text. 
+| hideErlaeuterungen | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideErlaeuterungen=true) | false | Hides the Erlaeuterungen title and text. 
+| hideErlaeuterungenTitle | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideErlaeuterungenTitle=true) | false | Hides the Erlaeuterungen Title but leaves the Lesehilfe text. 
+| hideLinks | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideLinks=true) | false | Hides the Links title and list. 
+| hideLinksTitle | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideLinksTitle=true) | false | Hides the Links Title but leaves the Link list. 
+
+
+
 
 ## Development
 ### Add or Update Data
@@ -86,7 +116,7 @@ npm run build:init_print_charts
 - This is an excellent starting point to refine charts for printing. 
 
 
-### Build Application Locally  
+### Build Application Locally
 To build the application,  create the json config files and the svg images of the charts that have changed since the last build: 
 ```javascript
 npm run build
@@ -144,6 +174,53 @@ npm run reinstall
 - Run application on c9: Click "Run", "New Run Configuration...", click "Runner", click "Apache httpd". Click into the field "Run Config Name" and type "Apache http" to give this configuration a name. Now click Run, then click the url displayed in the console log: ```https://<c9-vm-name>-<c9-username>.c9users.io```
 - To make this runner configuration the default, right-click the green "Run" button, click "Manage...", click "Set as Default". Now, this runner is always invoked when you click the green "Run" button.
 
-##Licensing
-[Highcharts] (http://www.highcharts.com/) is free for personal, school or non-profit projects under the Creative Commons Attribution - Non Commercial 3.0 License.
-For commercial and governmental websites and projects, you need to buy a license. See [License and Pricing] (http://shop.highsoft.com/highcharts.html).
+
+## How to create new charts
+- Upload the new metadata json file to metadata/single/[id].json
+- Upload the tsv file to data/[id].json
+- Copy an existing chart definition file to charts/templates/[id].js, or create a new chart definition file that contains:
+    - a [self-invoking javascript function](https://en.wikipedia.org/wiki/Immediately-invoked_function_expression) that returns a javascript object, which contains:
+    - an array named "series" which contains one object for each column in the tsv that needs to be used in the chart (starting with the 2nd column in the data file, no object necessary for the first column),
+    - all deviations from the chart template file that is defined in the chart's metadata file. 
+- Edit chart-dev.html to use the chart id and template file for your current chart
+- Load chart-dev.html in the browser, and check if it matches your requirements. If not: 
+- Adapt your chart definition file [id].js until it matches your requirements by following the [Highcharts API Documentation](https://api.highcharts.com/). 
+- To get ideas check e.g. [this book](https://www.amazon.com/Learning-Highcharts-Joe-Kuan/dp/1849519080). 
+- To see which charts are based on which templates: check metadata/all/templatesById.json
+- To add the chart to portal and/or indikatorenset View: [Build the application](#build-application-locally) 
+- If you decide not to copy and adapt an existing chart, choose from the following existing templates (click onto image to open interactive chart): 
+    - area001: e.g. 6548: 
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6548" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6548.svg"></a>
+    - befragungen001: Use for survey results if numbers are given as counts:
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6266" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6266.svg"></a>  
+    - befragungenProzent001: Use for survey rsults if numbers are given in percentages:
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=5821" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/5821.svg"></a>
+    - bubble001: 
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6549" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6549.svg"></a>
+    - dotplot: 
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=4839" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/4839.svg"></a>  
+    - line001: 
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=5813" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/5813.svg"></a>
+    - map001: Wohnviertel Choropleth Map with Ranks read from data file displayed in tooltip
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=5109" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/5109.svg"></a>
+    - map002: Simple Wohnviertel Choropleth Map without ranks and with simple tooltip
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=9999" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/9999.svg"></a> 
+    - mapcolumn002: 
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6022" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6022.svg"></a> 
+    - mappie001: 
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6009" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6009.svg"></a>
+    - pie001: 
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6013" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6013.svg"></a> 
+    - populationPyramid001
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6018" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6018.svg"></a>
+    - stock001: Time axis, mini chart to filter, e.g. 4132:
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=4132" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/4132.svg"></a>
+    - template001: General Purpose template to create your own charts. Most bar, column or combination charts are based on this template. 
+        <a href="https://statabs.github.io/indikatoren/chart-details.html?id=6011" target="_blank"><img src="https://statabs.github.io/indikatoren/images/portal/6011.svg"></a>
+
+
+
+
+## Licensing
+[Highcharts](http://www.highcharts.com/) is free for personal, school or non-profit projects under the Creative Commons Attribution - Non Commercial 3.0 License.
+For commercial and governmental websites and projects, you need to buy a license. See [License and Pricing](http://shop.highsoft.com/highcharts.html).

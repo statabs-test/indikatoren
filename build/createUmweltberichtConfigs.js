@@ -61,21 +61,7 @@ while (ubFileList.length > 0) {
                     //var content = serialize(charts[0].options, {space: 2});
                     var content = casper.fetchText('#serialized_highcharts');
                     
-                    /*
-                    //Adapt config to our needs -- now done by Umweltbericht code in file template_ub_chart.txt
-                    var chartOptions = deserialize(content);
-                    delete chartOptions.legend.y;
-                    delete chartOptions.lang;
-                    delete chartOptions.symbols;
-                    delete chartOptions.global;
-                    delete chartOptions.exporting;
-                    var fileContent = JSON.stringify(chartOptions, null, 2);
-                    */
-                    
-                    var path = 'charts/configs/indikatorenset/' + id + '.json';
-                    casper.echo('Saving contents to ' + path + '...');
-                    fs.write(path, content, 'w');
-                    path = 'charts/configs/portal/' + id + '.json';
+                    var path = 'charts/configs/portal/' + id + '.json';
                     casper.echo('Saving contents to ' + path + '...');
                     fs.write(path, content, 'w');
                     

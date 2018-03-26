@@ -161,7 +161,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Zugezogene, Weggezogene und Wanderungssaldo nach Zuzugs- und Wegzugsland 2016"
+    "text": "Zugezogene, Weggezogene und Wanderungssaldo"
   },
   "subtitle": {
     "style": {
@@ -170,7 +170,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2016",
+    "text": "nach Zuzugs- und Wegzugsland; Stand: 2016",
     "align": "left"
   },
   "yAxis": {

@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 6.0.4
+    Created with Highstock 6.0.7
   </desc>
   <defs>
     <clipPath>
@@ -111,55 +111,55 @@
     </g>
   </g>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
-    <text x="75.84848484848486" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 75.84848484848486 348)" y="348" opacity="1">
-      <tspan>Schweiz</tspan>
+    <text x="75.84848484848449" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 75.84848484848449 348)" y="348" opacity="1">
+      Schweiz
     </text>
-    <text x="114.21212121212122" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 114.21212121212122 348)" y="348" opacity="1">
-      <tspan>Ausland</tspan>
+    <text x="114.21212121211846" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 114.21212121211846 348)" y="348" opacity="1">
+      Ausland
     </text>
-    <text x="152.5757575757576" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 152.5757575757576 348)" y="348" opacity="1">
+    <text x="152.57575757575847" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 152.57575757575847 348)" y="348" opacity="1">
       <tspan>18-29 J.</tspan>
     </text>
-    <text x="190.93939393939394" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 190.93939393939394 348)" y="348" opacity="1">
+    <text x="190.93939393939846" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 190.93939393939846 348)" y="348" opacity="1">
       <tspan>30-39 J.</tspan>
     </text>
-    <text x="229.3030303030303" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 229.3030303030303 348)" y="348" opacity="1">
+    <text x="229.30303030302846" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 229.30303030302846 348)" y="348" opacity="1">
       <tspan>40-49 J.</tspan>
     </text>
-    <text x="267.66666666666674" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 267.66666666666674 348)" y="348" opacity="1">
+    <text x="267.6666666666685" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 267.6666666666685 348)" y="348" opacity="1">
       <tspan>50-59 J.</tspan>
     </text>
-    <text x="306.03030303030306" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 306.03030303030306 348)" y="348" opacity="1">
+    <text x="306.0303030302985" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 306.0303030302985 348)" y="348" opacity="1">
       <tspan>60-69 J.</tspan>
     </text>
-    <text x="344.39393939393943" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 344.39393939393943 348)" y="348" opacity="1">
+    <text x="344.3939393939385" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 344.3939393939385 348)" y="348" opacity="1">
       <tspan>&gt;69 J.</tspan>
     </text>
-    <text x="382.7575757575758" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 382.7575757575758 348)" y="348" opacity="1">
-      <tspan>Männer</tspan>
+    <text x="382.7575757575785" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 382.7575757575785 348)" y="348" opacity="1">
+      Männer
     </text>
-    <text x="421.1212121212122" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 421.1212121212122 348)" y="348" opacity="1">
-      <tspan>Frauen</tspan>
+    <text x="421.1212121212085" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 421.1212121212085 348)" y="348" opacity="1">
+      Frauen
     </text>
-    <text x="459.48484848484856" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 459.48484848484856 348)" y="348" opacity="1">
-      <tspan>Total</tspan>
+    <text x="459.4848484848485" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0) rotate(-90 459.4848484848485 348)" y="348" opacity="1">
+      Total
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
     <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="341" opacity="1">
-      <tspan>0%</tspan>
+      0%
     </text>
     <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="284" opacity="1">
-      <tspan>25%</tspan>
+      25%
     </text>
     <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="227" opacity="1">
-      <tspan>50%</tspan>
+      50%
     </text>
     <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="170" opacity="1">
-      <tspan>75%</tspan>
+      75%
     </text>
     <text x="38" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="114" opacity="1">
-      <tspan>100%</tspan>
+      100%
     </text>
   </g>
   <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="400">
