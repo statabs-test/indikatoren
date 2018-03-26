@@ -1545,7 +1545,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Gini-Koeffizient des Reineinkommens nimmt im Zeitablauf insgesamt leicht zu. Derjenige des Reinvermögens zeigt sich etwas konstanter auf höherem Niveau. Für das Reinvermögen liegt für das Jahr 1999 aufgrund von Gesetzesänderungen kein Wert vor.",
+		"lesehilfe": "Der Gini-Koeffizient des Reineinkommens nimmt im Zeitablauf insgesamt leicht zu. Derjenige des Reinvermögens zeigt sich etwas konstanter auf höherem Niveau. Für das Reinvermögen liegt für das Jahr 2000 aufgrund von Gesetzesänderungen kein Wert vor.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"orderKey": "05_02_00_00_00_503",
