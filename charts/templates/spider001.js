@@ -165,11 +165,11 @@
             //fix html xAxis labels rendered above tooltip, see http://jsfiddle.net/g2j344z4/19/ 
             //replcae . by &nbsp; and - by empty string to beautify series names
             formatter: function() {
-                return `
-                <div class="tev" style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">
-                  <span style="font-size: 10px">` + this.key.replace(/\./g, "&nbsp;").replace(/-/g, "") + `</span><br/>
-                  <span style="color:` + this.point.color + `">\u25CF</span> ` + this.series.name + `: <b>` + this.point.y + `</b><br/>
-                </div>`;
+                return "" + 
+                '<div class="tev" style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">'+ 
+                  '<span style="font-size: 10px">' + this.key.replace(/\./g, "&nbsp;").replace(/-/g, "") + '</span><br/>'+
+                  '<span style="color:' + this.point.color + '">\u25CF</span> ' + this.series.name + ': <b>' + this.point.y + '</b><br/>' + 
+                '</div>';
             }
         },
     	exporting: {
