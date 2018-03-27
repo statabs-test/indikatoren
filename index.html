@@ -20,7 +20,7 @@
     <script src="assets/js/modules/jquery/dist/jquery.min.js" type="text/javascript"></script>    
     <script src="assets/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
     <script src="assets/js/modules/bootstrap-multiselect/dist/js/bootstrap-multiselect.js" type="text/javascript"></script>
-    <script src="assets/js/modules/filter.js/dist/filter.js" type="text/javascript"></script>
+    <script src="assets/js/modules/@statabs/statabs-filter/dist/filter.js" type="text/javascript"></script>
     <script src="assets/js/url-min.js" type="text/javascript"></script>
     <script src="metadata/sets/indikatorensetNames.js" type="text/javascript"></script>
     <script src="metadata/all/templatesById.js" type="text/javascript"></script>
@@ -30,7 +30,7 @@
     <script src="assets/js/modules/highcharts/modules/stock.js" type="text/javascript"></script>
     <script src="assets/js/modules/highcharts/modules/data.js" type="text/javascript"></script>
     <script src="assets/js/modules/highcharts/modules/map.js" type="text/javascript"></script>
-	  <script src="assets/js/modules/highcharts/modules/exporting.js" type="text/javascript"></script>    
+	  <script src="assets/js/modules/highcharts/modules/exporting.js" type="text/javascript"></script>
     <!-- if highcharts-offline-exporting is used, exporting will be done locally: http://www.highcharts.com/docs/export-module/client-side-export -->
     <!--script src="assets/js/modules/highcharts/modules/offline-exporting.js" type="text/javascript"></script-->    
     <script src="charts/templates/options001.js" type="text/javascript"></script>
@@ -47,6 +47,24 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KGK459"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+    
+    <div id='header' class='hidden'>
+      <div id="bs-logo">
+      	<a class='bs-logo-link' style='display: block; font-family: Arial, sans-serif; color: black; text-decoration: none; padding: 10px 0px 10px 0px;' href="http://www.statistik.bs.ch" title="Startseite">
+      		<img class='bs-logo-img' style='float: left; padding: 0px 20px;' src="assets/img/logo-print.png" alt="Logo Kanton Basel-Stadt"/>
+      		<div class='bs-logo-title' style='padding-top: 17px; font-size: 11px'>Präsidialdepartement des Kantons Basel-Stadt</div>
+      		<div class='bs-logo-text' style='padding-top: 3px; font-weight: 700; font-size: 15px'>Statistisches Amt</div>
+      	</a>
+    	</div>
+  
+      <div style='clear: both;'></div>
+  
+      <div id='bs-nav' style='background-color: rgb(29, 78, 44); height: 45px; padding: 15px 0px 10px 50px; margin-bottom: 30px;'>
+        <a style='color: white; font-size: 13px; font-weight: 700; text-shadow: rgb(23, 62, 35) 0px -1px 0px; text-decoration: none;' href='http://www.statistik.bs.ch/zahlen/indikatoren/portal.html'>
+          Indikatorenportal
+        </a>
+      </div>
+    </div>    
     
     <div class="container"> 
       <div class="modal fade carousel slide" id="lightbox" data-interval="false" data-backdrop='true'>
@@ -90,7 +108,7 @@
           </div>
           -->
 
-          <div>
+          <div id='search'>
             <label class="sr-only" for="searchbox">Search</label>
             <input type="search" class="form-control" id="searchbox" placeholder="Suche&hellip;">
           </div>
@@ -98,22 +116,15 @@
           <button class="btn btn-block well" id="portal-reset-button">Zurücksetzen</button>
           
 
-          <div class="well">
+          <div class="well" id="thema">
             <form role="form" id="thema_criteria">
               <legend>Thema</legend>              
               <!-- Radio Buttons are dynamically added here -->         
             </form>
           </div>
 
-          <div class="well">
-            <fieldset id="schlagwort_criteria">
-              <legend>Schlagwort</legend>
-              <select class="form-control" id="schlagwort_filter" multiple="multiple">
-              </select>
-            </fieldset>
-          </div>
 
-          <div class="well">
+          <div class="well" id="raeumlicheGliederung">
             <fieldset id="raeumlicheGliederung_criteria" >
               <legend>Räumliche Gliederung</legend>
               <select class="form-control" id="raeumlicheGliederung_filter"  multiple="multiple">
@@ -179,23 +190,30 @@
                     <div id="pagination" class="indikatoren-pagination col-xs-12 pull-right"></div>
                   </form>
                 </div>     
-                <div class="row">                
-                    <div class="col-xs-4">
+                <div class="row" id="indikatorensetFilterControls">                
+                    <div class="col-xs-3">
                       <label class="sr-only" for="searchbox">Search</label>
                       <input type="search" class="form-control" id="searchbox" placeholder="Suche&hellip;">
                     </div>
                   
-                    <div class="col-xs-4" id="stufe1_criteria">                          
+                    <div class="col-xs-3" id="stufe1_criteria">                          
                       <select class="form-control" id="stufe1_filter">
                         <option value="all">Kapitel: Alle</option>  
                       </select>
                     </div>
                     
-                    <div class="col-xs-4" id="stufe2_criteria" >
+                    <div class="col-xs-3" id="stufe2_criteria" >
                       <select class="form-control" id="stufe2_filter">
                         <option value="all">Unterkapitel: Alle</option>
                       </select>
                     </div>               
+
+                    <div class="col-xs-3" id="stufe3_criteria" >
+                      <select class="form-control" id="stufe3_filter">
+                        <option value="all">Unterkapitel: Alle</option>
+                      </select>
+                    </div>               
+                    
                 </div> 
               </div>
             </div>

@@ -12,9 +12,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Wohndauer"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -53,9 +50,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Steuer"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -94,9 +88,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Gebäude"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -135,9 +126,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Alter"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -176,9 +164,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Gebäude"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -217,9 +202,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Gebäude"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -258,9 +240,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Gebäude"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -299,9 +278,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Hilfeleistung"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -340,9 +316,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausland"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -381,9 +354,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Einkommen"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -422,9 +392,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Arbeit"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -464,9 +431,6 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Beschäftigte"
-		],
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",

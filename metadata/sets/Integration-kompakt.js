@@ -6,19 +6,12 @@ var indikatorensetData = [
 		"kuerzelKunde": "1-1",
 		"description": "Ausländeranteil nach Staatsangehörigkeit seit 2006",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Ausländer",
-			"Quote",
-			"Bevölkerung",
-			"Ausland"
-		],
 		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -46,19 +39,12 @@ var indikatorensetData = [
 		"kuerzelKunde": "1-2",
 		"description": "Altersquotient nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Alter",
-			"Quote",
-			"Ausland",
-			"Alter",
-			"Schweiz"
-		],
 		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -86,19 +72,12 @@ var indikatorensetData = [
 		"kuerzelKunde": "1-3",
 		"description": "Jugendquotient nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-02-16T15:42:27.2727",
-		"schlagwort": [
-			"Alter",
-			"Quote",
-			"Ausland",
-			"Alter",
-			"Schweiz"
-		],
 		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -126,17 +105,12 @@ var indikatorensetData = [
 		"kuerzelKunde": "1-4A",
 		"description": "Anzahl Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit seit 2006",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausland",
-			"Bewilligung",
-			"Niederlassung"
-		],
 		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -164,19 +138,12 @@ var indikatorensetData = [
 		"kuerzelKunde": "1-4B",
 		"description": "Anteil Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit 2006 und 2015",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Quote",
-			"Ausland",
-			"Bewilligung",
-			"Niederlassung",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -204,19 +171,12 @@ var indikatorensetData = [
 		"kuerzelKunde": "1-5A",
 		"description": "Anzahl Ausländer nach Art der Bewilligung seit 2006",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Bevölkerung",
-			"Ausland",
-			"Bewilligung",
-			"Niederlassung",
-			"Migration"
-		],
 		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -244,20 +204,12 @@ var indikatorensetData = [
 		"kuerzelKunde": "1-5B",
 		"description": "Anteil Ausländer nach Staatsangehörigkeit und Art der Bewilligung",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Quote",
-			"Ausland",
-			"Bewilligung",
-			"Niederlassung",
-			"Migration",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -291,17 +243,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Ausländer",
-			"Quote",
-			"Bevölkerung",
-			"Ausland",
-			"Einbürgerung",
-			"Migrationshintergrund",
-			"Migration",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -329,22 +270,12 @@ var indikatorensetData = [
 		"kuerzelKunde": "1-7",
 		"description": "Anzahl Personen mit und ohne Migrationshintergrund nach Staatsangehörigkeit (Schweiz / Ausland) 2010 bis 2014",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Ausländer",
-			"Ausland",
-			"Einbürgerung",
-			"Schweiz",
-			"Geburtsort",
-			"Staatsangehörigkeit",
-			"Wanderung"
-		],
 		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -378,16 +309,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Haushalt",
-			"Ausländer",
-			"Quote",
-			"Ausland",
-			"Migrationshintergrund",
-			"Migration",
-			"Deutsch"
-		],
 		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -415,22 +336,12 @@ var indikatorensetData = [
 		"kuerzelKunde": "2-1",
 		"description": "Segregationsindex nach Staatsangehörigkeit seit 2006",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Bevölkerung",
-			"Ausland",
-			"Migration",
-			"Segregation",
-			"Index",
-			"Schweiz",
-			"Wanderung"
-		],
 		"stufe1": "Themenbereich 2: Wohnortwahl",
 		"stufe2": "",
 		"stufe3": "",
@@ -464,18 +375,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Ausländer",
-			"Quote",
-			"Bevölkerung",
-			"Ausland",
-			"Niederlassung",
-			"Wohndauer",
-			"Zuzug",
-			"Schweiz",
-			"Geburtsort"
-		],
 		"stufe1": "Themenbereich 2: Wohnortwahl",
 		"stufe2": "",
 		"stufe3": "",
@@ -503,23 +402,12 @@ var indikatorensetData = [
 		"kuerzelKunde": "2-3A",
 		"description": "Schweizer Bevölkerung nach Wohndauer und Geburtsort seit 2006",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Ausländer",
-			"Bevölkerung",
-			"Ausland",
-			"Niederlassung",
-			"Migration",
-			"Wohndauer",
-			"Geburtsort",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Themenbereich 2: Wohnortwahl",
 		"stufe2": "",
 		"stufe3": "",
@@ -553,15 +441,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Ausländer",
-			"Quote",
-			"Ausland",
-			"Migration",
-			"Staatsangehörigkeit",
-			"Wanderung"
-		],
 		"stufe1": "Themenbereich 2: Wohnortwahl",
 		"stufe2": "",
 		"stufe3": "",
@@ -589,24 +468,12 @@ var indikatorensetData = [
 		"kuerzelKunde": "3-3",
 		"description": "Arbeitslosenquote nach Staatsangehörigkeit seit 2010",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose ",
+		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Ausländer",
-			"Quote",
-			"Ausland",
-			"Migration",
-			"Staatsangehörigkeit",
-			"Arbeit",
-			"Arbeitslosigkeit",
-			"Erwerb",
-			"Erwerbstätigkeit"
-		],
 		"stufe1": "Themenbereich 3: Bildung und Erwerbstätigkeit",
 		"stufe2": "",
 		"stufe3": "",
@@ -641,16 +508,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Ausländer",
-			"Quote",
-			"Ausland",
-			"Staatsangehörigkeit",
-			"Bildung",
-			"Gymnasium",
-			"Gymnasialquote",
-			"Schule"
-		],
 		"stufe1": "Themenbereich 3: Bildung und Erwerbstätigkeit",
 		"stufe2": "",
 		"stufe3": "",
@@ -684,20 +541,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Ausländer",
-			"Quote",
-			"Ausland",
-			"Schweiz",
-			"Staatsangehörigkeit",
-			"Bildung",
-			"Arbeit",
-			"Arbeitslosigkeit",
-			"Erwerbstätigkeit",
-			"Angestellte",
-			"Schule"
-		],
 		"stufe1": "Themenbereich 3: Bildung und Erwerbstätigkeit",
 		"stufe2": "",
 		"stufe3": "",
@@ -725,25 +568,12 @@ var indikatorensetData = [
 		"kuerzelKunde": "3-4",
 		"description": "Erwerbstätigenquote nach Staatsangehörigkeit 2010 bis 2014",
 		"thema": "03 Erwerbsleben",
-		"unterthema": "Erwerbspersonen ",
+		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Einkommen",
-			"Ausländer",
-			"Quote",
-			"Ausland",
-			"Migration",
-			"Schweiz",
-			"Arbeit",
-			"Arbeitslosigkeit",
-			"Erwerb",
-			"Erwerbstätigkeit"
-		],
 		"stufe1": "Themenbereich 3: Bildung und Erwerbstätigkeit",
 		"stufe2": "",
 		"stufe3": "",
@@ -777,20 +607,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Personal",
-			"Einkommen",
-			"Ausländer",
-			"Quote",
-			"Ausland",
-			"Migration",
-			"Staatsangehörigkeit",
-			"Erwerb",
-			"Erwerbstätigkeit",
-			"Angestellte",
-			"Verwaltung"
-		],
 		"stufe1": "Themenbereich 3: Bildung und Erwerbstätigkeit",
 		"stufe2": "",
 		"stufe3": "",
@@ -824,17 +640,6 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Ausländer",
-			"Alter",
-			"Quote",
-			"Ausland",
-			"Migration",
-			"Staatsangehörigkeit",
-			"Wanderung",
-			"Rückwanderung"
-		],
 		"stufe1": "Themenbereich 2: Wohnortwahl",
 		"stufe2": "",
 		"stufe3": "",
@@ -862,23 +667,12 @@ var indikatorensetData = [
 		"kuerzelKunde": "2-3B",
 		"description": "Ausländische Bevölkerung nach Wohndauer und Geburtsort seit 2006",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur ",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration-kompakt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"schlagwort": [
-			"Heimat",
-			"Bevölkerung",
-			"Ausland",
-			"Niederlassung",
-			"Migration",
-			"Wohndauer",
-			"Schweiz",
-			"Geburtsort",
-			"Staatsangehörigkeit"
-		],
 		"stufe1": "Themenbereich 2: Wohnortwahl",
 		"stufe2": "",
 		"stufe3": "",

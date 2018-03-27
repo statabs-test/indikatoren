@@ -1,4 +1,5 @@
 var indikatorensetNames = [
+	"Arbeitsmarkt",
 	"Legislaturplan",
 	"Wohnraumentwicklung",
 	"Integration-kompakt",
@@ -8,9 +9,11 @@ var indikatorensetNames = [
 	"Wohnviertel",
 	"Richtplan",
 	"Wanderungen",
+	"Integration",
 	"Richtplan (Print)",
 	"Legislaturplan (Print)",
 	"PDF_Karten_cont",
 	"PDF_Karten_cat",
+	"Tourismus",
 	"Test"
 ];
