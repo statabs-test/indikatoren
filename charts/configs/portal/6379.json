@@ -3666,6 +3666,11 @@
 	                var color = function(value){
 	                	return (value >= 0) ? '#7F5F1A' : '#FABD24';
 	                };					
+	                
+	                //define number format in zoomed legend labels
+	                fn.legendLabelZoomFormatter = function(value){
+	                	return Highcharts.numberFormat((value),1,","," ");
+	                };
 					
 					//define chart-specific details
 					var pieSeriesConfig = function(data, correspondingMapSeriesItem, color){
@@ -3693,6 +3698,7 @@
 	                var maxValueInLegend = 70; 
 	                
                 	//Add manually drawn legend	
+                	fn.addLegendRectangle(chart, 250, 220, 230, 150, 'rgba(192, 192, 192, 0.75)');
 	                fn.addLegendTitle(chart, pieSizeSeries.name, 265, 220, 'pieLegendStayOnZoom');
 	                
 	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#7F5F1A', 'pieLegendStayOnZoom');
@@ -4105,6 +4111,14 @@
     		            fill: fill,
     		            zIndex: 6,
     		            class: cssClass + ' pieLegend'
+    	        	}).add();
+                },
+    "addLegendRectangle": function (chart, x, y, width, height, fill, cssClass){
+                	return chart.renderer.rect(x, y, width, height).attr({
+    		            'stroke-width':0,
+    		            fill: fill,
+    		            zIndex: 6,
+    		            class: cssClass + ' pieLegendRectangle'
     	        	}).add();
                 },
     "AddPieLegendClickHandler": function (chart){

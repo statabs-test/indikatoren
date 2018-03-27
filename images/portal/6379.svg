@@ -240,6 +240,7 @@
       </text>
     </g>
   </g>
+  <rect x="250" y="220" width="230" height="150" fill="rgb(192, 192, 192)" fill-opacity=" 0.75" class="undefined pieLegendRectangle"/>
   <g class="pieLegendStayOnZoom pieLegendTitle" transform="translate(265,220)">
     <text x="3" style="font-size:12px;font-weight:bold;" y="15">
       <tspan>Anzahl leerstehende Wohnungen</tspan>
