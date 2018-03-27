@@ -317,7 +317,10 @@
 				    		    
 	            //draw pies onto he map			    		    
                 drawPies: function(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color){
-
+            		var fn = chart.userOptions.customFunctions;
+        			fn["pieSizeSeries"] = pieSizeSeries ;
+        			fn["maxPieDiameter"] = fn["maxPieDiameter"]  ? fn["maxPieDiameter"] : 20;
+					console.log('fn in drawPies: ', fn);
                     //iterate over each wohnviertel and draw the pies / bubbles
 	                Highcharts.each(pieSizeSeries.points, function (data) {
 	                    

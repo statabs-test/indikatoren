@@ -61,9 +61,8 @@
 				//hide svg elements on zoom
 				afterSetExtremes: function(e){
 					if (this.chart){
-						var fn = this.chart.options.customFunctions;
-						console.log('fn: ', fn);
-						//fn.recalculateOnZoom(e, '.pieLegendRecalculateOnZoom');
+						var fn = this.chart.userOptions.customFunctions;
+						fn.recalculateOnZoom(e, '.pieLegendRecalculateOnZoom');
 						fn.hideOnZoom(e, '.pieLegendHideOnZoom');
 					}
 				}
@@ -83,10 +82,10 @@
 					var choroplethSeries = chart.series[0];
 					var pieSizeSeries = chart.series[1];
 					
-					//todo: set fn.pieSizeSeries to be used in recalculateOnZoom (mappie001.js) so that exportServer runs through
+					//todo: set fn.pieSizeSeries to be used in recalculateOnZoom (mappie001.js) -- so that exportServer runs through
 					
 					//pie diameters in px
-					var maxPieDiameter = 25;
+					var maxPieDiameter = 25; 
 
 					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
 					
