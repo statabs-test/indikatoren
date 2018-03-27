@@ -3319,7 +3319,7 @@
 	},
 	"6379": {
 		"metadata": "47ecfc8f4a9b4758ebb9aa23ee0234041b9a38d4",
-		"chartConfig": "52fbf53f7219d5d4dbc491c99ccfa34c8058f3b5",
+		"chartConfig": "9095e2dcbde42c35724c9fe87a45c17df99097b8",
 		"data": "689237764f8a33a9f2f17a0b4eb39d397eabb575",
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "13cb161ef1c5ceed385c1854f5e5aed872c88160"

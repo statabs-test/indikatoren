@@ -58,7 +58,7 @@
 		],
 		xAxis: {
     		events: {
-				//hide svg elements on zoom
+				//recalculate and hide svg elements on zoom
 				afterSetExtremes: function(e){
 					if (this.chart){
 						var fn = this.chart.userOptions.customFunctions;
@@ -82,8 +82,6 @@
 					var choroplethSeries = chart.series[0];
 					var pieSizeSeries = chart.series[1];
 					
-					//todo: set fn.pieSizeSeries to be used in recalculateOnZoom (mappie001.js) -- so that exportServer runs through
-					
 					//pie diameters in px
 					var maxPieDiameter = 25; 
 
@@ -98,8 +96,9 @@
 					var pieSeriesConfig = function(data, correspondingMapSeriesItem, color){
 						return {
 	                        sizeFormatter: function () {
-	                            var fn = this.chart.userOptions.customFunctions;
-	                            var yAxis = chart.yAxis[0], zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
+	                            var yAxis = chart.yAxis[0];
+	                            var zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
+	                            //size of pies depend on zoom level
 	                            var size = zoom * fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter);
 								return size;
 	                        },
