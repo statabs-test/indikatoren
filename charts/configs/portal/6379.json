@@ -3650,7 +3650,7 @@
 	            	this.credits.element.onclick = function() {};
 
 	                var chart = this;
-	                var fn = this.options.customFunctions;
+	                var fn = this.userOptions.customFunctions;
 	                //define new Highcharts template "mappie"
 					fn.defineTemplate();
 					
@@ -3673,7 +3673,7 @@
 					var pieSeriesConfig = function(data, correspondingMapSeriesItem, color){
 						return {
 	                        sizeFormatter: function () {
-	                            var fn = this.chart.options.customFunctions;
+	                            var fn = this.chart.userOptions.customFunctions;
 	                            var yAxis = chart.yAxis[0], zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
 	                            var size = zoom * fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter);
 								return size;
@@ -3694,7 +3694,7 @@
 	                var maxValueInLegend = 70; 
 	                
                 	//Add manually drawn legend	
-	                fn.addLegendTitle(chart, pieSizeSeries.name, 265, 220, 'pieLegendHideOnZoom');
+	                fn.addLegendTitle(chart, pieSizeSeries.name, 265, 220, 'pieLegendStayOnZoom');
 	                
 	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#7F5F1A', 'pieLegendStayOnZoom');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 300, 245, 'pieLegendRecalculateOnZoom');
@@ -3818,9 +3818,8 @@
 				var divId = e['target']['chart']['renderTo']['id'] || 'dummySettingForExportServer';
 				var divIdString = '#' + divId;
 				divIdString = '';
-				//var fn = e.target.chart.options.customFunctions;
+				//var fn = e.target.chart.userOptions.customFunctions;
 				var fn = this;
-				console.log('fn in recalculate: ', fn);
 				try{
 					//only care about zoom events, not pan: if (e.trigger != 'pan'){
 					//determine current zoom level
@@ -3832,7 +3831,6 @@
 						var lastSeries = series[series.length-1];
 						var lastPieData = lastSeries.yData[0];
 						var lastPieSize = lastSeries.options.size;
-						console.log('fn in recalculate: ', fn);
 						var legendSize = fn.pieSize(Math.abs(initialValue), fn.getPointsExtremes(fn.pieSizeSeries.points).maxAbsNumber, fn.maxPieDiameter);
 						var legendValue = (Math.sqrt(lastPieData)*legendSize/lastPieSize) * (Math.sqrt(lastPieData)*legendSize/lastPieSize);
 						$(this).contents()[0].innerHTML = (zoom ==1)  ? initialValue : fn.legendLabelZoomFormatter(legendValue);
@@ -3914,7 +3912,6 @@
 					    getCenter: function () {
 					        var options = this.options,
 					            chart = this.chart,
-					            //fn = this.chart.options.customFunctions,
 					            slicingRoom = 2 * (options.slicedOffset || 0);
 					        if (!options.center) {
 					            options.center = [null, null]; // Do the default here instead
@@ -3968,7 +3965,7 @@
             		var fn = chart.userOptions.customFunctions;
         			fn["pieSizeSeries"] = pieSizeSeries ;
         			fn["maxPieDiameter"] = fn["maxPieDiameter"]  ? fn["maxPieDiameter"] : 20;
-					console.log('fn in drawPies: ', fn);
+        			
                     //iterate over each wohnviertel and draw the pies / bubbles
 	                Highcharts.each(pieSizeSeries.points, function (data) {
 	                    
@@ -4006,7 +4003,7 @@
     	                        
     	                        //defaults that are normally overwritten
 		                        sizeFormatter: function () {
-		                            var fn = this.chart.options.customFunctions;
+		                            var fn = this.chart.userOptions.customFunctions;
 									//pie diameters in px
 									var maxPieDiameter = fn.maxPieDiameter || 20;		 
 									//pie Size proportional to absolute value, no categories used

@@ -75,7 +75,7 @@
 	            	this.credits.element.onclick = function() {};
 
 	                var chart = this;
-	                var fn = this.options.customFunctions;
+	                var fn = this.userOptions.customFunctions;
 	                //define new Highcharts template "mappie"
 					fn.defineTemplate();
 					
@@ -98,7 +98,7 @@
 					var pieSeriesConfig = function(data, correspondingMapSeriesItem, color){
 						return {
 	                        sizeFormatter: function () {
-	                            var fn = this.chart.options.customFunctions;
+	                            var fn = this.chart.userOptions.customFunctions;
 	                            var yAxis = chart.yAxis[0], zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
 	                            var size = zoom * fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter);
 								return size;
@@ -119,7 +119,7 @@
 	                var maxValueInLegend = 70; 
 	                
                 	//Add manually drawn legend	
-	                fn.addLegendTitle(chart, pieSizeSeries.name, 265, 220, 'pieLegendHideOnZoom');
+	                fn.addLegendTitle(chart, pieSizeSeries.name, 265, 220, 'pieLegendStayOnZoom');
 	                
 	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#7F5F1A', 'pieLegendStayOnZoom');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 300, 245, 'pieLegendRecalculateOnZoom');
