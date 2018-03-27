@@ -410,17 +410,27 @@
 				},    		    
     		    
                 //helper functions for pie legend
-    			addLegendTitle: function (chart, title, x, y, cssClass, useHtml){
-            		return chart.renderer.label(title, x, y, undefined, undefined, undefined, useHtml)
+    			addLegendTitle: function (chart, text, x, y, cssClass, useHtml){
+            		return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
+    	                .attr({
+    			        	zIndex: 6,
+    			        	class: cssClass + ' pieLegendTitle'
+    			        })
          				.css({
     	                    fontSize: '12px',
     	                    fontWeight: 'bold'
     	                })
-    	                .attr({
-    			        	zIndex: 6,
-    			        	class: cssClass + ' pieLegendTitle'
-    			        }).add();	                
+    			        .add();	                
                 },
+
+
+				addSubtitle: function(chart, text, x, y, cssClass, useHtml){
+    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
+    					zIndex: 6,
+    					class: cssClass + ' pieSubtitle'
+    				}).add();
+                },                
+                
                 addLegendCircle: function(chart, x, y, radius, fill, cssClass){
                 	return chart.renderer.circle(x, y, radius, fill).attr({
     				    fill: fill,
@@ -439,15 +449,10 @@
     					initialValue: text
     				}).add();
                 },
-                addSubtitle: function(chart, text, x, y, cssClass, useHtml){
-    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
-    					zIndex: 6,
-    					class: cssClass + ' pieSubtitle'
-    				}).add();
-                },
-                 addLegendLabelbold: function(chart, text, x, y, cssClass, useHtml){
-    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).
-    				attr({
+                
+                addLegendLabelbold: function(chart, text, x, y, cssClass, useHtml){
+    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
+    				.attr({
     					zIndex: 6,
     					class: cssClass +' pieLegend',
     					initialValue: text
@@ -472,11 +477,12 @@
     		            'stroke-width':0,
     		            fill: fill,
     		            zIndex: 6,
-    		            class: cssClass + ' pieLegendRectangle'
+    		            class: cssClass + ' pieLegend'
     	        	}).add();
                 },
 
-                
+
+
 				//Add click handler to bubbleLegend items
 				AddPieLegendClickHandler: function(chart){
 					var divId = chart['renderTo']['id'] || 'dummySettingForExportServer';
@@ -499,25 +505,37 @@
 						pieLegendItems.each(function(i, v){
 							if (!$(this).attr('fill_active')) {
 								//if no fill color is defined, set to  black
-								$(this).attr('fill_active', $(this).attr('fill') || 'black');	
+								$(this).attr('fill_active', $(this).attr('fill') || 'black');
+								$(this).attr('fill', $(this).attr('fill') || 'black');	
 							}
 							if (!$(this).attr('stroke_active')) {
-								$(this).attr('stroke_active', $(this).attr('stroke') || null);	
+								$(this).attr('stroke_active', $(this).attr('stroke') || null);
+								$(this).attr('stroke', $(this).attr('stroke') || null);	
 							}
 						});
 						//toggle color
+						
+						var whiteTransp = 'rgba(255,255,255, 0)';
+						var grey = '#cccccc';
+						
 						if (pieLegendItems.attr('fill') == pieLegendItems.attr('fill_active')){
-							//set all to grey
-							pieLegendItems.attr('fill', '#cccccc');
-							//if stroke is present, toggle it
+							//set all to grey or the predefined color
+							
+							//if fill is present, toggle it
 							pieLegendItems.each(function(i, v){
-								//if stroke_active is present, set it to grey
-								if ($(this).attr('stroke_active')) {
-									$(this).attr('stroke', '#cccccc');
+								//if fill_active is present, set it to transparent white
+								if ($(this).attr('fill_active')) {
+									$(this).attr('fill', $(this).attr('fill_passive') || whiteTransp);
 								}
+								//if stroke_active is present, set it to transparent white
+								if ($(this).attr('stroke_active')) {
+									$(this).attr('stroke', whiteTransp);
+								}
+
 							});
+							
 							//same for html text spans
-							$(divIdString + ' .pieLegendHtmlText').css('color', '#cccccc');
+							$(divIdString + ' .pieLegendHtmlText').css('color', whiteTransp);
 						} 
 						else {
 							pieLegendItems.each(function(i, v){

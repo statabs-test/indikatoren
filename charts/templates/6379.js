@@ -123,8 +123,8 @@
 	                var maxValueInLegend = 70; 
 	                
                 	//Add manually drawn legend	
-                	fn.addLegendRectangle(chart, 250, 220, 230, 150, 'rgba(192, 192, 192, 0.75)');
-	                fn.addLegendTitle(chart, pieSizeSeries.name, 265, 220, 'pieLegendStayOnZoom');
+                	fn.addLegendRectangle(chart, 250, 220, 230, 150, 'rgba(222, 222, 222, 0.5)', 'rgba(255,255,255, 0)');
+	                fn.addLegendTitle(chart, pieSizeSeries.name, 265, 220, 'pieLegend pieLegendStayOnZoom');
 	                
 	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#7F5F1A', 'pieLegendStayOnZoom');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 300, 245, 'pieLegendRecalculateOnZoom');
