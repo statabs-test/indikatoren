@@ -6869,7 +6869,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Drei Viertel der Befragten empfanden 2015 den multikulturellen Charakter Basel-Stadts als eine sehr oder eher grosse Bereicherung für den Kanton.",
 		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
+		"template": "befragungen001",
 		"visibleInPortal": false,
 		"orderKey": "01_03_00_00_00_000",
 		"parentId": 6146,
