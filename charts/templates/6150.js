@@ -15,27 +15,27 @@
   },
   "series": [
     {"color": "#b00000 ",
-    legendIndex: 1,
+    legendIndex: 0,
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* rot */
 	{"color": "#672773",
-    legendIndex: 2,
+    legendIndex: 1,
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* violett */
   	{"color": "#007a2f",
-    legendIndex: 0,
+    legendIndex: 2,
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     },/* grün  */
     {"color": "#008AC3",
     legendIndex: 3,
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     },/* blau  */
   ],
@@ -43,7 +43,7 @@
     "enabled": true,
     //"x": 30,
     "y": 45,
-    "itemWidth": 1000,
+    "itemWidth": 200,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
