@@ -24,7 +24,7 @@
     "align": "left",
     //"x": 20,
 	"y": 45,
-	"width": 200,
+	"itemWidth": 120,
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -41,8 +41,8 @@
     "inverted": false
   },
   "tooltip": {
-  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>',
-  "footerFormat": 'Total: <b>{point.total:,.2f}%</b>',
+  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>',
+  "footerFormat": 'Total: <b>{point.total:,.1f}%</b>',
    "shared": true
   },
 }
