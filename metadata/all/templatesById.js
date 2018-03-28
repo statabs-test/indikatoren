@@ -227,7 +227,7 @@ var templatesById = {
 	"4849": "befragungenProzent001",
 	"4850": "befragungenProzent001",
 	"4851": "befragungenProzent001",
-	"4852": "befragungenProzent001",
+	"4852": "befragungen001",
 	"4853": "befragungenProzent001",
 	"4854": "befragungenProzent001",
 	"4855": "befragungenProzent001",
