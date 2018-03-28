@@ -189,13 +189,13 @@
       <tspan>18 000</tspan>
     </text>
     <text x="53" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="383" opacity="1">
-      <tspan>18 000</tspan>
+      18 000
     </text>
     <text x="123.33333333333333" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="383" opacity="1">
-      <tspan>12 000</tspan>
+      12 000
     </text>
     <text x="193.66666666666666" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="383" opacity="1">
-      <tspan>6 000</tspan>
+      6 000
     </text>
   </g>
   <g class="highcharts-legend" transform="translate(45,65)">
