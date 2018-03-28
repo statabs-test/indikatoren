@@ -28,12 +28,13 @@
             title: {
                 text: null
             },
-            "labels": {
+            labels: {
                 formatter: function () {
-                	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ");
+                	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", "\u00a0");
             	},
-                "style": {
-                    "color": "#000000"
+                style: {
+                    color: "#000000", 
+                    textOverflow: 'none',
                 }
             },
             plotLines: [{
@@ -55,13 +56,15 @@
                 labels: {
     	        	step: 1,
 	                style: {
-	                    color: "#000000"
+	                    color: "#000000",
+	                    textOverflow: 'none',
 	                }
                 }, 
                 tickLength: 0, 
 	            title: {
 	                style: {
-	                    color: "#000000"
+	                    color: "#000000",
+	                    textOverflow: 'none',
 	                }
 	            },
 	            tickColor: "#FFFFFF"
