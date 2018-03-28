@@ -6051,11 +6051,11 @@ var indikatoren = [
 		"id": 4870
 	},
 	{
-		"title": "Wahlbeteiligung bei National- und Grossratswahlen",
+		"title": "Wahlbeteiligung an National- und Grossratswahlen",
 		"subtitle": "",
 		"kuerzel": "I.17.3.04871",
 		"kuerzelKunde": "3.3.02",
-		"description": "Wahlbeteiligung bei National- und Grossratswahlen",
+		"description": "Wahlbeteiligung an National- und Grossratswahlen",
 		"thema": "17 Politik",
 		"unterthema": "Wahlen",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
