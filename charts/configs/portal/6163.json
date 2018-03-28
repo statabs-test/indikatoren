@@ -78,7 +78,7 @@
           150.719270435326
         ]
       ],
-      "name": "Siedlungsabfälle (linke skala; Hauskehricht und Sperrgut)",
+      "name": "Siedlungsabfälle (Hauskehricht und Sperrgut)",
       "turboThreshold": 0
     },
     {
@@ -159,7 +159,7 @@
           122.642075015315
         ]
       ],
-      "name": "Wertstoffsammlungen (linke Skala)",
+      "name": "Wertstoffsammlungen",
       "turboThreshold": 0
     },
     {
@@ -313,7 +313,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf; Recyclingquote"
+    "text": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote"
   },
   "subtitle": {
     "style": {
@@ -322,7 +322,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf",
     "align": "left"
   },
   "yAxis": [

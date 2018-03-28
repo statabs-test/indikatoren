@@ -11767,11 +11767,11 @@ var indikatoren = [
 		"id": 6161
 	},
 	{
-		"title": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf; Recyclingquote",
-		"subtitle": "",
+		"title": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
+		"subtitle": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf",
 		"kuerzel": "I.02.6.06163",
 		"kuerzelKunde": "7.3",
-		"description": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf; Recyclingquote",
+		"description": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Entsorgung",
 		"kennzahlenset": "Legislaturplan",
@@ -11791,6 +11791,7 @@ var indikatoren = [
 		"orderKey": "07_00_00_00_00_003",
 		"parentId": null,
 		"children": [
+			"5796",
 			"6314"
 		],
 		"renderLink": [],

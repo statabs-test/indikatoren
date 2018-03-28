@@ -100,7 +100,10 @@
     <g class="highcharts-markers highcharts-series-2 highcharts-line-series highcharts-color-undefined " transform="translate(58,130) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf;</tspan><tspan dy="17" x="10">Recyclingquote</tspan><title>Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf; Recyclingquote</title>
+    <tspan>Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote</tspan>
+  </text>
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="40">
+    <tspan>Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(50,45)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="496" height="73" visibility="visible"/>
@@ -108,13 +111,13 @@
       <g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(8,8)">
           <text x="21" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
-            <tspan>Siedlungsabfälle (linke skala; Hauskehricht und Sperrgut)</tspan>
+            <tspan>Siedlungsabfälle (Hauskehricht und Sperrgut)</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#990300" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(8,27)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Wertstoffsammlungen (linke Skala)</tspan>
+            <tspan>Wertstoffsammlungen</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#71A3B5" class="highcharts-point"/>
         </g>
