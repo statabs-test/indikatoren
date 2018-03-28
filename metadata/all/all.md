@@ -151,7 +151,7 @@ id | visible | visibleInPortal | indikatorenset
 4297 | false |  | Umwelt
 4298 | true | false | Umwelt
 4299 | true | false | Umwelt
-4300 | true | true | Umwelt
+4300 | true | false | Umwelt
 4301 | true | true | Umwelt
 4302 | true | false | Umwelt
 4303 | true | false | Umwelt
