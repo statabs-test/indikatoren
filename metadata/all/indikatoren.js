@@ -15982,11 +15982,11 @@ var indikatoren = [
 		"id": 6163
 	},
 	{
-		"title": "Wasserqualität: AOX-Fracht",
-		"subtitle": "in Milligramm pro Liter",
+		"title": "Wasserqualität: AOX-Konzentration",
+		"subtitle": "in Milligramm pro Liter gereinigtem Abwasser",
 		"kuerzel": "I.02.19.06164",
 		"kuerzelKunde": "7.4",
-		"description": "Wasserqualität: AOX-Fracht",
+		"description": "Wasserqualität: AOX-Konzentration",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Wasser",
 		"kennzahlenset": "Legislaturplan",
