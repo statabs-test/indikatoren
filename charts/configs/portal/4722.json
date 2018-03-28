@@ -56,7 +56,7 @@
     {
       "color": "#008AC3",
       "type": "column",
-      "legendIndex": 1,
+      "legendIndex": 2,
       "data": [
         [
           "2006",
@@ -158,7 +158,7 @@
           10.620268896169
         ]
       ],
-      "name": "Einbürgerungsziffer",
+      "name": "Einbürgerungsziffer (rechte Skala)",
       "turboThreshold": 0
     }
   ],
@@ -254,7 +254,7 @@
         "style": {
           "color": "#000000"
         },
-        "format": "{value}"
+        "format": "{value:,.0f}"
       },
       "reversedStacks": true
     },
@@ -302,9 +302,9 @@
   "legend": {
     "symbolRadius": 0,
     "y": 35,
+    "itemMarginBottom": 5,
     "enabled": true,
     "layout": "horizontal",
-    "itemWidth": 1000,
     "verticalAlign": "top",
     "align": "left",
     "itemStyle": {
@@ -312,8 +312,8 @@
     }
   },
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "shared": true,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": 4722
