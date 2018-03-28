@@ -16895,11 +16895,11 @@ var indikatoren = [
 		"id": 6210
 	},
 	{
-		"title": "Nettoschuldenquote in Promille des BIP der Schweiz und Nettoschulden pro Einwohner in Franken",
-		"subtitle": "",
+		"title": "Nettoschuldenquote und Nettoschulden pro Kopf",
+		"subtitle": "Nettoschuldenquote in Promille des BIP der Schweiz und Nettoschulden pro Kopf in Franken",
 		"kuerzel": "I.04.1.06211",
 		"kuerzelKunde": "2.7",
-		"description": "Nettoschuldenquote in Promille des BIP der Schweiz und Nettoschulden pro Einwohner in Franken",
+		"description": "Nettoschuldenquote und Nettoschulden pro Kopf",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan",

@@ -2,7 +2,7 @@
     return {
     "yAxis": [{
     "labels": {
-      "format": "{value:,.f}‰",
+      "format": "{value:,.f}",
       "style": {
         "color": "#000000"
       }
@@ -20,7 +20,7 @@
       "text": null
     },
     "labels": {
-      "format": "{value:,.0f} Fr.",
+      "format": "{value:,.f}",
       "style": {
         "color": "#000000"
       }
@@ -38,28 +38,31 @@
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },     
-      "color": "#008AC3"
+      "color": "#008AC3",
+        "tooltip": {
+				"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
+		},
     },
         {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },     
       "color": "#68AB2B",
+        "tooltip": {
+				"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+		},
       "yAxis": 1
     }
   ],
-  "tooltip": {
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
-    "shared": false
-  },
+
   "legend": {
     "enabled": true,
     //"x": 25,
-    "y": 35,
-    "itemWidth": 500,
+    "y": 55,
+    "itemWidth": 150,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
