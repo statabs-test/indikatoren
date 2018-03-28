@@ -60,7 +60,7 @@
       <rect x="51" y="49" width="10" height="73" fill="#71A3B5" class="highcharts-point"/>
       <rect x="73" y="55" width="10" height="73" fill="#71A3B5" class="highcharts-point"/>
       <rect x="96" y="53" width="10" height="74" fill="#71A3B5" class="highcharts-point"/>
-      <rect x="118" y="53" width="10" height="77" fill="#71A3B5" class="highcharts-point"/>
+      <rect x="118" y="52" width="10" height="78" fill="#71A3B5" class="highcharts-point"/>
       <rect x="140" y="53" width="10" height="77" fill="#71A3B5" class="highcharts-point"/>
       <rect x="163" y="54" width="10" height="77" fill="#71A3B5" class="highcharts-point"/>
       <rect x="185" y="52" width="10" height="83" fill="#71A3B5" class="highcharts-point"/>
@@ -95,7 +95,7 @@
     </g>
     <g class="highcharts-markers highcharts-series-1 highcharts-column-series highcharts-color-undefined " transform="translate(58,130) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-undefined " transform="translate(58,130) scale(1 1)" clip-path="url(#b)">
-      <path fill="none" d="M 11.176470588235 36.07499999999999 L 33.529411764706 36.07499999999999 L 55.882352941176 41.4375 L 78.235294117647 37.05000000000001 L 100.58823529412 35.10000000000002 L 122.94117647059 28.274999999999977 L 145.29411764706 27.30000000000001 L 167.64705882353 26.32499999999999 L 190 13.649999999999977 L 212.35294117647 29.25 L 234.70588235294 24.86250000000001 L 257.05882352941 19.98750000000001 L 279.41176470588 16.087499999999977 L 301.76470588235 19.5 L 324.11764705882 21.9375 L 346.47058823529 19.5 L 368.82352941176 15.285786871569314" class="highcharts-graph" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+      <path fill="none" d="M 11.176470588235 36.103100571822864 L 33.529411764706 35.9276555409603 L 55.882352941176 41.21734130980488 L 78.235294117647 36.80769865542996 L 100.58823529412 35.00587530261802 L 122.94117647059 28.144013684366286 L 145.29411764706 27.012629475607923 L 167.64705882353 26.171184954702454 L 190 13.566562422470838 L 212.35294117647 29.087879253097753 L 234.70588235294 24.653273766988406 L 257.05882352941 20.080188879870576 L 279.41176470588 16.235595825291398 L 301.76470588235 19.43231048836887 L 324.11764705882 21.928942951263565 L 346.47058823529 19.4294457841726 L 368.82352941176 15.285786871569314" class="highcharts-graph" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
     </g>
     <g class="highcharts-markers highcharts-series-2 highcharts-line-series highcharts-color-undefined " transform="translate(58,130) scale(1 1)" clip-path="none"/>
   </g>
