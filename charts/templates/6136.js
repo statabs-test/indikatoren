@@ -3,33 +3,36 @@
       chart: {
         inverted: true
       },
-      "legend": {
-        "enabled": true,
-        "layout": "horizontal",
-        "verticalAlign": "top",
-        "align": "left",
-    	  "y": 40,
-    	  itemWidth: 150, 
+    "legend": {
+        "layout": "vertical",
+        "verticalAlign": "middle",
+        "itemMarginBottom": 5,     
+        "align": "right",
+        "useHTML": false,
         "itemStyle": {
-          "fontWeight": "normal"
+            "fontWeight": "normal"
+        },
+        "symbolRadius": 0,
+        "labelFormatter": function () {
+            return this.name.replace('/', '/<br/>');
         }
-      },
+    },
       xAxis: {
         labels: {
-          formatter: function(a, b, c) {
-              //console.log(this);
-              //add sum of observations of visible series to the axis label
-              var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
-                  return val.visible;
-              });
-              var indexOfCurrentValue = this.axis.names.indexOf(this.value);
-              var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
-                  return accumulator + series.yData[indexOfCurrentValue];
-              }, 0);
-              //use N if all series are visible, otherwise use n
-              var nString = (this.chart.series.length == allVisibleSeries.length && this.value == 'Total') ? 'N=' : 'n='; 
-          	return this.value + ' (' + nString + sum + ')';
-          }
+            "formatter": function() {
+                //add sum of observations of visible series to the axis label
+                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
+                    return val.visible;
+                });
+                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
+                    return accumulator + series.yData[indexOfCurrentValue];
+                }, 0);
+                //use N if all series are visible, otherwise use n
+                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
+                //check for value that contains only spaces
+            	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
+            }
         }
       },
       yAxis: {

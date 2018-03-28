@@ -15133,7 +15133,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Höchste abgeschlossene Ausbildung",
-		"subtitle": "«Welches ist Ihre höchste abgeschlossene Schul- und Berufsbildung?»",
+		"subtitle": "Nach Geschlecht, Staatsangehörigkeit und Altersklasse, Stand: 2015 <br>«Welches ist Ihre höchste abgeschlossene Schul- und Berufsbildung?»",
 		"kuerzel": "I.50.1.06136",
 		"kuerzelKunde": "3.3",
 		"description": "Höchste abgeschlossene Ausbildung",
@@ -15149,7 +15149,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "10,2% der Befragten haben einen obligatorischen Schulabschluss. 33,5% aller Befragten absolvierten ein Studium an einer Fachhochschule oder Universität. Ein deutlicher Unterschied zwischen den Geschlechtern ist hier zu beobachten: Bei den Männern liegt der Anteil bei 39,2%, bei den Frauen bei 28,6%.",
+		"lesehilfe": "<Bitte hier die neue Lesehilfe eingeben>",
 		"erlaeuterungen": "",
 		"template": "befragungen001",
 		"visibleInPortal": true,
