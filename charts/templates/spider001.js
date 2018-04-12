@@ -130,10 +130,10 @@
                     "fontSize": "10px"
                 }, 
                 
-                useHTML: true,
-                //replace . by no-break-space to control line break
+                useHTML: false,
+                //replace "&nbsp;" by its unicode "\u00A0" no-break-space to control line breaks
                 formatter: function(){
-                    return (this.value + "").replace(/\./g, "&nbsp;");
+                    return (this.value + "").replace(/&nbsp;/g, "\u00A0");
                 }
             },
             "tickLength": 0,
@@ -163,17 +163,17 @@
             padding: 0,
             useHTML: true,
             //fix html xAxis labels rendered above tooltip, see http://jsfiddle.net/g2j344z4/19/ 
-            //replcae . by &nbsp; and - by empty string to beautify series names
+            //replace "&nbsp;" by "\u00A0" to control line breaks in SVG without using html
             formatter: function() {
                 return "" + 
                 '<div class="tev" style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">'+ 
-                  '<span style="font-size: 10px">' + this.key.replace(/\./g, "&nbsp;").replace(/-/g, "") + '</span><br/>'+
+                  '<span style="font-size: 10px">' + this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + '</span><br/>'+
                   '<span style="color:' + this.point.color + '">\u25CF</span> ' + this.series.name + ': <b>' + this.point.y + '</b><br/>' + 
                 '</div>';
             }
         },
     	exporting: {
-    	    allowHTML: true, 
+    	    allowHTML: false, 
     	}        
     };
 }());
