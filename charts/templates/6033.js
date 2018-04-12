@@ -6,6 +6,7 @@
         "yAxis": {
             showLastLabel: true,
             endOnTick: true,
+            tickAmount: 6,
             labels: {
                 format: "{value:,.0f}",
             }, 
@@ -54,11 +55,6 @@
                       type: 'year',
                       text: '50 J'
     	            }, 
-    	            {
-                      count: 100,
-                      type: 'year',
-                      text: '100 J'
-    	            },
     	            {
                       type: 'all',
                       text: 'Alle J'

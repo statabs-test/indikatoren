@@ -294,7 +294,6 @@
   "xAxis": {
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
-    "uniqueNames": true,
     "ordinal": false,
     "title": {
       "style": {
@@ -334,6 +333,7 @@
     },
     "showLastLabel": true,
     "endOnTick": true,
+    "tickAmount": 6,
     "opposite": false
   },
   "navigation": {
@@ -380,11 +380,6 @@
         "count": 50,
         "type": "year",
         "text": "50 J"
-      },
-      {
-        "count": 100,
-        "type": "year",
-        "text": "100 J"
       },
       {
         "type": "all",
