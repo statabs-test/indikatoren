@@ -27,6 +27,7 @@ id | visible | visibleInPortal | indikatorenset
 2528 | true | true | Arbeitsmarkt
 2529 | true | true | Arbeitsmarkt
 2547 | true | true | Arbeitsmarkt
+2917 | true | false | Nachhaltigkeit
 2952 | true | true | Legislaturplan
 2953 | true | true | Legislaturplan
 2956 | true | true | Legislaturplan
@@ -69,12 +70,12 @@ id | visible | visibleInPortal | indikatorenset
 4154 | true | true | Wohnraumentwicklung
 4155 | true | true | Wohnraumentwicklung
 4156 | true | true | Wohnraumentwicklung
-4200 | true | true | Integration-kompakt
-4203 | true | true | Integration-kompakt
+4200 | false |  | Integration-kompakt
+4203 | false |  | Integration-kompakt
 4211 | true | true | Cercle-Indicateurs
-4218 | true | true | Integration-kompakt
-4219 | true | true | Integration-kompakt
-4220 | true | true | Integration-kompakt
+4218 | false |  | Integration-kompakt
+4219 | false |  | Integration-kompakt
+4220 | false |  | Integration-kompakt
 4221 | true | true | Umwelt
 4222 | true | false | Umwelt
 4223 | true | true | Umwelt
@@ -150,7 +151,7 @@ id | visible | visibleInPortal | indikatorenset
 4297 | false |  | Umwelt
 4298 | true | false | Umwelt
 4299 | true | false | Umwelt
-4300 | true | true | Umwelt
+4300 | true | false | Umwelt
 4301 | true | true | Umwelt
 4302 | true | false | Umwelt
 4303 | true | false | Umwelt
@@ -185,9 +186,9 @@ id | visible | visibleInPortal | indikatorenset
 4336 | true | false | Umwelt
 4337 | true | true | Umwelt
 4338 | true | false | Umwelt
-4339 | true | true | Integration-kompakt
-4340 | true | true | Integration-kompakt
-4342 | true | true | Integration-kompakt
+4339 | true | true | 
+4340 | false |  | Integration-kompakt
+4342 | false |  | Integration-kompakt
 4348 | true | true | Cercle-Indicateurs
 4350 | true | true | Cercle-Indicateurs
 4352 | true | true | Cercle-Indicateurs
@@ -199,13 +200,13 @@ id | visible | visibleInPortal | indikatorenset
 4364 | true | true | Cercle-Indicateurs
 4367 | true | true | Cercle-Indicateurs
 4374 | true | true | Cercle-Indicateurs
-4462 | true | true | Integration-kompakt
-4463 | true | true | Integration-kompakt
-4465 | true | true | Integration-kompakt
-4466 | true | true | Integration-kompakt
-4467 | true | true | Integration-kompakt
-4468 | true | true | Integration-kompakt
-4469 | true | true | Integration-kompakt
+4462 | true | true | 
+4463 | true | true | 
+4465 | false |  | Integration-kompakt
+4466 | false |  | Integration-kompakt
+4467 | false |  | Integration-kompakt
+4468 | false |  | Integration-kompakt
+4469 | false |  | Integration-kompakt
 4716 | true | true | Gesellschaftlicher-Zusammenhalt
 4718 | true | true | Gesellschaftlicher-Zusammenhalt
 4719 | true | false | Gesellschaftlicher-Zusammenhalt
@@ -213,10 +214,10 @@ id | visible | visibleInPortal | indikatorenset
 4721 | true | true | Gesellschaftlicher-Zusammenhalt
 4722 | true | true | Gesellschaftlicher-Zusammenhalt
 4724 | true | true | Gesellschaftlicher-Zusammenhalt
-4739 | true | true | Integration-kompakt
-4740 | true | true | Integration-kompakt
-4741 | true | true | Integration-kompakt
-4743 | true | true | Integration-kompakt
+4739 | false |  | Integration-kompakt
+4740 | false |  | Integration-kompakt
+4741 | false |  | Integration-kompakt
+4743 | false |  | Integration-kompakt
 4822 | true | true | Wohnviertel
 4823 | true | true | Wohnviertel
 4824 | true | true | Wohnviertel
@@ -262,8 +263,8 @@ id | visible | visibleInPortal | indikatorenset
 4872 | true | true | Gesellschaftlicher-Zusammenhalt
 4874 | true | true | Gesellschaftlicher-Zusammenhalt
 4875 | true | true | Gesellschaftlicher-Zusammenhalt
-4877 | true | true | Integration-kompakt
-4905 | true | true | Integration-kompakt
+4877 | false |  | Integration-kompakt
+4905 | false |  | Integration-kompakt
 4906 | false |  | 
 4908 | true | true | 
 4909 | true | true | 
@@ -308,9 +309,45 @@ id | visible | visibleInPortal | indikatorenset
 5126 | true | true | Wohnviertel
 5130 | true | true | 
 5131 | true | true | 
+5138 | true | false | Nachhaltigkeit
+5142 | true | true | Nachhaltigkeit
+5144 | true | true | Nachhaltigkeit
+5147 | true | true | Nachhaltigkeit
+5148 | true | true | Nachhaltigkeit
+5149 | true | true | Nachhaltigkeit
+5155 | true | false | Nachhaltigkeit
+5156 | true | true | Nachhaltigkeit
+5157 | true | true | Nachhaltigkeit
+5160 | true | false | Nachhaltigkeit
+5161 | true | false | Nachhaltigkeit
+5162 | true | false | Nachhaltigkeit
+5165 | true | false | Nachhaltigkeit
+5178 | true | true | Nachhaltigkeit
+5180 | true | true | Nachhaltigkeit
+5181 | true | true | Nachhaltigkeit
+5182 | true | true | Nachhaltigkeit
+5183 | true | false | Nachhaltigkeit
+5184 | true | false | Nachhaltigkeit
+5185 | true | false | Nachhaltigkeit
+5186 | true | true | Nachhaltigkeit
+5188 | true | false | Nachhaltigkeit
+5189 | true | false | Nachhaltigkeit
+5191 | true | false | Nachhaltigkeit
+5192 | true | true | Nachhaltigkeit
+5193 | true | true | Nachhaltigkeit
+5194 | true | false | Nachhaltigkeit
+5195 | true | false | Nachhaltigkeit
+5196 | true | true | Nachhaltigkeit
+5197 | true | false | Nachhaltigkeit
+5198 | true | true | Nachhaltigkeit
+5199 | true | true | Nachhaltigkeit
 5201 | true | true | Richtplan
 5202 | true | true | Richtplan
 5203 | true | true | Richtplan
+5793 | true | true | Nachhaltigkeit
+5794 | true | false | Nachhaltigkeit
+5795 | true | false | Nachhaltigkeit
+5796 | true | false | Nachhaltigkeit
 5797 | true | false | Umwelt
 5798 | true | true | Umwelt
 5799 | true | false | Umwelt
@@ -347,6 +384,35 @@ id | visible | visibleInPortal | indikatorenset
 6023 | true | true | Wanderungen
 6024 | true | true | Wanderungen
 6025 | true | true | Wanderungen
+6026 | true | true | Nachhaltigkeit
+6027 | true | false | Nachhaltigkeit
+6028 | true | true | Nachhaltigkeit
+6029 | true | false | Nachhaltigkeit
+6030 | true | false | Nachhaltigkeit
+6031 | true | false | Nachhaltigkeit
+6033 | true | true | Nachhaltigkeit
+6034 | true | false | Nachhaltigkeit
+6035 | true | false | Nachhaltigkeit
+6036 | true | true | Nachhaltigkeit
+6037 | true | true | Nachhaltigkeit
+6039 | true | true | Nachhaltigkeit
+6040 | true | false | Nachhaltigkeit
+6041 | true | true | Nachhaltigkeit
+6042 | true | false | Nachhaltigkeit
+6043 | true | false | Nachhaltigkeit
+6044 | true | false | Nachhaltigkeit
+6045 | true | false | Nachhaltigkeit
+6046 | true | true | Nachhaltigkeit
+6047 | true | true | Nachhaltigkeit
+6048 | true | false | Nachhaltigkeit
+6049 | true | false | Nachhaltigkeit
+6050 | true | false | Nachhaltigkeit
+6051 | true | true | Nachhaltigkeit
+6052 | true | true | Nachhaltigkeit
+6053 | true | true | Nachhaltigkeit
+6054 | true | false | Nachhaltigkeit
+6055 | true | true | Nachhaltigkeit
+6056 | true | true | Nachhaltigkeit
 6057 | true | true | Integration
 6058 | true | true | Integration
 6059 | true | true | Integration
@@ -390,7 +456,7 @@ id | visible | visibleInPortal | indikatorenset
 6133 | true | false | Legislaturplan
 6134 | true | true | Legislaturplan
 6136 | true | true | Legislaturplan
-6137 | true | true | Legislaturplan
+6137 | false |  | Legislaturplan
 6138 | true | false | Legislaturplan
 6140 | true | true | Legislaturplan
 6141 | true | true | Legislaturplan
@@ -549,7 +615,7 @@ id | visible | visibleInPortal | indikatorenset
 6346 | true | true | Legislaturplan
 6347 | true | false | Legislaturplan
 6348 | true | true | Legislaturplan
-6363 | true | false | 
+6363 | true | true | 
 6364 | true | true | 
 6365 | true | true | 
 6366 | true | true | 
@@ -616,6 +682,10 @@ id | visible | visibleInPortal | indikatorenset
 6430 | true | true | Integration
 6431 | true | true | Integration
 6432 | true | true | Integration
+6434 | true | true | Nachhaltigkeit
+6435 | true | false | Nachhaltigkeit
+6437 | true | true | Legislaturplan
+6438 | true | true | Legislaturplan
 6448 | true | true | Arbeitsmarkt
 6449 | true | true | Arbeitsmarkt
 6450 | true | true | Arbeitsmarkt
@@ -702,7 +772,12 @@ id | visible | visibleInPortal | indikatorenset
 6548 | true | true | Tourismus
 6549 | true | true | Tourismus
 6570 | true | true | Integration
+6574 | true | true | Nachhaltigkeit
 6576 | true | true | Tourismus
+6592 | true | false | Nachhaltigkeit
+6597 | true | false | Nachhaltigkeit
+6599 | true | true | Nachhaltigkeit
+9996 | true | false | 
 9997 | true | false | 
 9998 | true | false | Test
 9999 | true | false | Test
