@@ -75,7 +75,10 @@
       "step": 1,
       "rotation": 0,
       "x": -240,
-      "padding": -100
+      "padding": -100,
+      "formatter": function (){
+              return (this.value + "").replace(/&nbsp;/g, "\u00A0");
+          }
     },
     "tickLength": 0
   },
@@ -214,7 +217,7 @@
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E● \u003C\u002Fspan\u003E \u003Cb\u003E {point.y:.1f} m²\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "allowHTML": true,
+    "allowHTML": false,
     "filename": 6363
   }
 }

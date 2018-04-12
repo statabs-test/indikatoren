@@ -18,6 +18,10 @@
           padding: -100,
           style: {
                   textOverflow: 'none'
+          },
+          //replace "&nbsp;" by its unicode "\u00A0" no-break-space to control line breaks
+          formatter: function(){
+              return (this.value + "").replace(/&nbsp;/g, "\u00A0");
           }
        },  
 },
@@ -74,7 +78,7 @@
         } 
   },
   exporting: {
-    allowHTML: true
+    allowHTML: false
   }
 };
 }());
