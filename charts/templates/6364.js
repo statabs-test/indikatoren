@@ -34,7 +34,7 @@
     "verticalAlign": "top",
     "align": "left",
     //"x": 25,
-	  y: 35,   
+	  //y: 35,   
 	  itemDistance: 8,
 	  //itemWidth: 300, 
     "itemStyle": {

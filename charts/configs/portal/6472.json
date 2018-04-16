@@ -589,7 +589,6 @@
     "labelFormatter": function () {
             return this.name;
         },
-    "y": 35,
     "enabled": true,
     "itemWidth": 160
   },

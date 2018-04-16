@@ -306,7 +306,6 @@
     "labelFormatter": function () {
             return this.name;
         },
-    "y": 45,
     "enabled": true,
     "itemWidth": 150
   },

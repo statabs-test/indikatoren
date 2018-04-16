@@ -359,7 +359,6 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "y": 45,
     "margin": 3,
     "symbolPadding": 1,
     "itemWidth": 70,

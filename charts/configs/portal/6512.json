@@ -390,7 +390,6 @@
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
         },
-    "y": 80,
     "x": -5,
     "enabled": true,
     "itemWidth": 160

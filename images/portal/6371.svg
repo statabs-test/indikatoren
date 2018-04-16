@@ -135,7 +135,7 @@
     <tspan>Anzahl Beschäftigte nach Branche</tspan>
   </text>
   <text x="3" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:10px;font-weight:normal;font-family:Arial;fill:#000000;" y="32"/>
-  <g class="highcharts-legend" transform="translate(142,14)">
+  <g class="highcharts-legend" transform="translate(142,17)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="174" height="173" visibility="visible"/>
     <g>
       <g>

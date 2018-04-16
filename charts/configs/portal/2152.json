@@ -1143,7 +1143,6 @@
   },
   "legend": {
     "symbolRadius": 0,
-    "y": 45,
     "enabled": true,
     "layout": "horizontal",
     "itemWidth": 200,

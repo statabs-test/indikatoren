@@ -589,7 +589,6 @@
     "labelFormatter": function () {
             return this.name;
         },
-    "y": 45,
     "enabled": true
   },
   "exporting": {

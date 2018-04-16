@@ -49,7 +49,7 @@
         verticalAlign: "top",
         itemMarginBottom: 5,     
         align: "left",
-        y: 15,
+        //y: 15,
         itemStyle: {
             fontWeight: "normal"
         },

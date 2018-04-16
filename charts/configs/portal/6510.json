@@ -504,7 +504,6 @@
     "labelFormatter": function () {
             return this.name;
         },
-    "y": 60,
     "enabled": true,
     "reversed": true
   },

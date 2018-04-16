@@ -30,7 +30,7 @@
    "legend": {
     "enabled": true,
     //"x": 45,
-    "y": 15,
+    //"y": 15,
     "itemWidth": 140,
     "layout": "horizontal",
     "verticalAlign": "top",

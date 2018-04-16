@@ -30,7 +30,7 @@
   	symbolWidth: 30,
     "enabled": true,
     //"x": 45,
-    "y": 45,
+    //"y": 45,
     "itemWidth": 100,
     "layout": "horizontal",
     "verticalAlign": "top",
