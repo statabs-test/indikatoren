@@ -18,7 +18,10 @@ fs.readdirSync(pathBase).forEach(file => {
                 fs.writeFileSync(pathBase + file, changedFile);
             }
             else {
-                if (pointYCount > 1){
+                if (pointYCount > 0){
+                    console.log('found point.y, leaving file alone. ');
+                }
+                if (count > 1){
                     console.log('found more than 1 occurence of "y:", thus leaving file alone. ');
                 }
             }
