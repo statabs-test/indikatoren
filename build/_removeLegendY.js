@@ -17,6 +17,11 @@ fs.readdirSync(pathBase).forEach(file => {
                 var changedFile = configFileContents.replace(/y:/g, "//y:").replace(/"y":/g, "//y:").replace(/'y':/g, "//y:");
                 fs.writeFileSync(pathBase + file, changedFile);
             }
+            else {
+                if (pointYCount > 1){
+                    console.log('found more than 1 occurence of "y:", thus leaving file alone. ');
+                }
+            }
         }
     }
     catch (error){
