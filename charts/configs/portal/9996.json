@@ -3,19 +3,19 @@
     {
       "data": [
         [
-          "Anteil.Sozialhilfeempfänger",
+          "Anteil&nbsp;Sozialhilfeempfänger",
           3
         ],
         [
-          "Anteil.Ausländer",
+          "Anteil&nbsp;Ausländer",
           6
         ],
         [
-          "Anteil.Personen.ohne Religionszugehörigkeit",
+          "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
           19
         ],
         [
-          "Anteil.Personen.in Einpersonen-haushalten",
+          "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           19
         ],
         [
@@ -27,7 +27,7 @@
           9
         ],
         [
-          "Anteil.Sesshafte",
+          "Anteil&nbsp;Sesshafte",
           10
         ],
         [
@@ -35,7 +35,7 @@
           1
         ],
         [
-          "Baujahr.Wohngebaeude",
+          "Baujahr&nbsp;Wohngebaeude",
           1
         ],
         [
@@ -43,15 +43,15 @@
           7
         ],
         [
-          "Anteil.Grünfläche",
+          "Anteil&nbsp;Grünfläche",
           1
         ],
         [
-          "Fläche.pro.Wohnung",
+          "Fläche&nbsp;pro&nbsp;Wohnung",
           16
         ],
         [
-          "Wohnfläche.pro.Kopf",
+          "Wohnfläche&nbsp;pro&nbsp;Kopf",
           21
         ],
         [
@@ -67,7 +67,7 @@
           21
         ],
         [
-          "Arbeitsplätze.pro.Kopf",
+          "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           20
         ],
         [
@@ -92,9 +92,9 @@
         "color": "#000000",
         "fontSize": "10px"
       },
-      "useHTML": true,
+      "useHTML": false,
       "formatter": function (){
-                    return (this.value + "").replace(/\./g, "&nbsp;");
+                    return (this.value + "").replace(/&nbsp;/g, "\u00A0");
                 }
     },
     "tickLength": 0,
@@ -245,13 +245,13 @@
     "formatter": function () {
                 return "" + 
                 '<div class="tev" style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">'+ 
-                  '<span style="font-size: 10px">' + this.key.replace(/\./g, "&nbsp;").replace(/-/g, "") + '</span><br/>'+
+                  '<span style="font-size: 10px">' + this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + '</span><br/>'+
                   '<span style="color:' + this.point.color + '">\u25CF</span> ' + this.series.name + ': <b>' + this.point.y + '</b><br/>' + 
                 '</div>';
             }
   },
   "exporting": {
-    "allowHTML": true,
+    "allowHTML": false,
     "filename": 9996
   }
 }

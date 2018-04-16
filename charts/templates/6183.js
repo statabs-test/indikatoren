@@ -1,57 +1,46 @@
 (function(){
     return {
-"plotOptions": {
-    "series": {
-      pointPadding: 100,
-      borderWidth: 0,
-      "pointWidth": 30,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      },
-      "stacking": "normal"
-    }
-  },
-  "xAxis": {
-    "type": "category",
-    "tickInterval": 1
-  },  
-  "yAxis": {
-  	 //max: 120000,
-     //tickInterval: 60000,
-    "labels": {
-      "format": "{value:,.0f}",
+    "yAxis":{
+    tickInterval:20,
     },
-	"max": undefined
-  },
-  "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-	"width": 200,
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
+   
+ 	"xAxis": {
+        "type": "category",
+        "labels": {
+            "formatter": function() {
+                  	 return this.value;
+            }
+        } 
+  },  
+  plotOptions: {
+  	column: {
+  		groupPadding: 0,
+  	}
   },
  "series": [
-  {"color": "#d7e9d2", "index": 0, "legendIndex":0}, /*grün dunkel2*/
-  {"color": "#73ba7c", "index": 1, "legendIndex":1}, /*grün mittel*/
-  {"color": "#44ab2b", "index": 2, "legendIndex":2}, /*grün dunkel1*/
-  {"color": "#007a2f", "index": 3, "legendIndex":3}, /*grün hell*/
-  ],
-  "chart": {
-    "renderTo": 'container-I.01.1.0016', 
-    "marginBottom": 75,
-    //"marginTop": 75,
-    "type": "column",
-    "inverted": false
+	 {"color": "#D3E2E4", index: 0, legendIndex: 0}, /* */
+	 {"color": "#689199", index: 1, legendIndex: 1}, /* */
+	 {"color": "#2F656B", index: 2, legendIndex: 2},  /* */
+	 {"color": "#083038", index: 3, legendIndex: 3},  /* */
+     ],
+  "legend": { 
+     y: 25,
+    "enabled": true,
+    "layout": "horizontal",
+    "itemWidth": 200,
+    "verticalAlign": "top",
+    "align": "left",
+
+    "itemStyle": {
+    "fontWeight": "normal"
+    }
   },
-  "tooltip": {
-  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
-  "footerFormat": 'Total: <b>{point.total:,.0f}</b>',
-   "shared": true
+"chart": {  
+	spacingBottom: 45,
+     "inverted": false,
   },
+      tooltip: {
+        valueDecimals: 0
+      },
 }
 }());

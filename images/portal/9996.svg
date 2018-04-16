@@ -68,7 +68,65 @@
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="40">
     <tspan>Stand 2016</tspan>
   </text>
-  <g class="highcharts-axis-labels highcharts-xaxis-labels "/>
+  <g class="highcharts-axis-labels highcharts-xaxis-labels ">
+    <text x="268.35187245016425" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" transform="translate(0,0)" text-anchor="start" y="69.38674577030753" opacity="1">
+      <tspan>Anteil Sozialhilfeempfänger</tspan>
+    </text>
+    <text x="316.9375" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" transform="translate(0,0)" text-anchor="start" y="87.07046801159169" opacity="1">
+      <tspan>Anteil Ausländer</tspan>
+    </text>
+    <text x="356.5448664693379" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" transform="translate(0,0)" text-anchor="start" y="113.80499460791647" opacity="1">
+      <tspan>Anteil Personen ohne</tspan><tspan dy="13" x="356.5448664693379">Religionszugehörigkeit</tspan><title>Anteil Personen ohne Religionszugehörigkeit</title>
+    </text>
+    <text x="382.3967389195021" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" transform="translate(0,0)" text-anchor="start" y="152.08175116239107" opacity="1">
+      <tspan>Anteil Personen in</tspan><tspan dy="13" x="382.3967389195021">Einpersonen-</tspan><tspan dy="13" x="382.3967389195021">haushalten</tspan><title>Anteil Personen in Einpersonen-haushalten</title>
+    </text>
+    <text x="391.375" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" transform="translate(0,0)" text-anchor="start" y="216" opacity="1">
+      <tspan>Gymnasialquote</tspan>
+    </text>
+    <text x="382.3967389195021" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" transform="translate(0,0)" text-anchor="start" y="266.9182488376089" opacity="1">
+      <tspan>Altersquotient</tspan>
+    </text>
+    <text x="356.5448664693379" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" transform="translate(0,0)" text-anchor="start" y="311.6950053920835" opacity="1">
+      <tspan>Anteil Sesshafte</tspan>
+    </text>
+    <text x="316.93750000000006" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" transform="translate(0,0)" text-anchor="start" y="344.92953198840826" opacity="1">
+      <tspan>Jugendquotient</tspan>
+    </text>
+    <text x="268.3518724501643" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" transform="translate(0,0)" text-anchor="start" y="362.6132542296925" opacity="1">
+      <tspan>Baujahr Wohngebaeude</tspan>
+    </text>
+    <text x="216.64812754983578" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" transform="translate(0,0)" text-anchor="end" y="356.1132542296925" opacity="1">
+      <tspan>Anteil</tspan><tspan dy="13" x="216.64812754983578">Einfamilienhäuser</tspan><title>Anteil Einfamilienhäuser</title>
+    </text>
+    <text x="168.06250000000003" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" transform="translate(0,0)" text-anchor="end" y="344.9295319884083" opacity="1">
+      <tspan>Anteil Grünfläche</tspan>
+    </text>
+    <text x="128.45513353066218" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" transform="translate(0,0)" text-anchor="end" y="311.69500539208354" opacity="1">
+      <tspan>Fläche pro Wohnung</tspan>
+    </text>
+    <text x="102.60326108049793" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" transform="translate(0,0)" text-anchor="end" y="266.91824883760904" opacity="1">
+      <tspan>Wohnfläche pro Kopf</tspan>
+    </text>
+    <text x="93.625" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" transform="translate(0,0)" text-anchor="end" y="216.00000000000003" opacity="1">
+      <tspan>Vermögenssteuer</tspan>
+    </text>
+    <text x="102.60326108049787" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" transform="translate(0,0)" text-anchor="end" y="165.08175116239113" opacity="1">
+      <tspan>Einkommenssteuer</tspan>
+    </text>
+    <text x="128.45513353066215" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" transform="translate(0,0)" text-anchor="end" y="120.30499460791647" opacity="1">
+      <tspan>Erwerbstätigenquote</tspan>
+    </text>
+    <text x="168.06249999999994" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" transform="translate(0,0)" text-anchor="end" y="87.07046801159174" opacity="1">
+      <tspan>Arbeitsplätze pro Kopf</tspan>
+    </text>
+    <text x="216.6481275498356" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" transform="translate(0,0)" text-anchor="end" y="69.38674577030756" opacity="1">
+      <tspan>Arbeitslosenquote</tspan>
+    </text>
+    <text x="0" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" transform="translate(0,0)" text-anchor="middle" y="-9999">
+      18
+    </text>
+  </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
     <text x="0" style="color:white;cursor:default;font-size:10px;fill:white;" text-anchor="end" transform="translate(0,0)" y="-9999">
       0
@@ -86,67 +144,4 @@
   <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="400">
     <tspan>Quelle: Statistisches Amt Basel-Stadt</tspan>
   </text>
-  <foreignObject x="0" y="0" width="485" height="415">
-    <body xmlns="http://www.w3.org/1999/xhtml">
-      <div class="highcharts-axis-labels highcharts-xaxis-labels " style="position: absolute; left: 0px; top: 0px; opacity: 1;">
-        <span opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 268.35187245016425px; top: 59.38674577030753px; opacity: 1;">
-          Anteil Sozialhilfeempfänger
-        </span>
-        <span opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 316.9375px; top: 77.07046801159169px; opacity: 1;">
-          Anteil Ausländer
-        </span>
-        <span opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: normal; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 356.5448664693379px; top: 103.80499460791647px; width: 31px; display: block; opacity: 1;">
-          Anteil Personen ohne Religionszugehörigkeit
-        </span>
-        <span opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: normal; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 382.3967389195021px; top: 142.08175116239107px; width: 31px; display: block; opacity: 1;">
-          Anteil Personen in Einpersonen-haushalten
-        </span>
-        <span opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 391.375px; top: 206px; opacity: 1;">
-          Gymnasialquote
-        </span>
-        <span opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 382.3967389195021px; top: 256.9182488376089px; opacity: 1;">
-          Altersquotient
-        </span>
-        <span opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 356.5448664693379px; top: 301.6950053920835px; opacity: 1;">
-          Anteil Sesshafte
-        </span>
-        <span opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 316.93750000000006px; top: 334.92953198840826px; opacity: 1;">
-          Jugendquotient
-        </span>
-        <span opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 268.3518724501643px; top: 352.6132542296925px; opacity: 1;">
-          Baujahr Wohngebaeude
-        </span>
-        <span opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: normal; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 201.14812754983578px; top: 346.1132542296925px; width: 31px; display: block; opacity: 1;">
-          Anteil Einfamilienhäuser
-        </span>
-        <span opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 91.06250000000003px; top: 334.9295319884083px; opacity: 1;">
-          Anteil Grünfläche
-        </span>
-        <span opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 36.45513353066218px; top: 301.69500539208354px; opacity: 1;">
-          Fläche pro Wohnung
-        </span>
-        <span opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 9.60326108049793px; top: 256.91824883760904px; opacity: 1;">
-          Wohnfläche pro Kopf
-        </span>
-        <span opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 15.625px; top: 206.00000000000003px; opacity: 1;">
-          Vermögenssteuer
-        </span>
-        <span opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 17.603261080497873px; top: 155.08175116239113px; opacity: 1;">
-          Einkommenssteuer
-        </span>
-        <span opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 36.45513353066215px; top: 110.30499460791647px; opacity: 1;">
-          Erwerbstätigenquote
-        </span>
-        <span opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 70.06249999999994px; top: 77.07046801159174px; opacity: 1;">
-          Arbeitsplätze pro Kopf
-        </span>
-        <span opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 136.6481275498356px; top: 59.386745770307556px; opacity: 1;">
-          Arbeitslosenquote
-        </span>
-        <span style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: -5.5px; top: -10009px;">
-          18
-        </span>
-      </div>
-    </body>
-  </foreignObject>
 </svg>

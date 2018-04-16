@@ -1,0 +1,551 @@
+{
+  "series": [
+    {
+      "color": "#008AC3",
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          null,
+          null
+        ],
+        [
+          1991,
+          0.432
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          1992,
+          0.428
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          1993,
+          0.428
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          1994,
+          0.426
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          1995,
+          0.429
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          1996,
+          0.443
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          1997,
+          0.445
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          1998,
+          0.455
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          1999,
+          0.459
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          2000,
+          0.466
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          2001,
+          0.46
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          2002,
+          0.45
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          2003,
+          0.455
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          2004,
+          0.459
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          2005,
+          0.471
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          2006,
+          0.476
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          2007,
+          0.482
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          2008,
+          0.502
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          2009,
+          0.5
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          2010,
+          0.503
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          2011,
+          0.494
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          2012,
+          0.496
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          2013,
+          0.505
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          2014,
+          0.513
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          2015,
+          0.512
+        ]
+      ],
+      "name": "Reineinkommen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007A2F",
+      "visible": true,
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          null,
+          null
+        ],
+        [
+          1991,
+          0.937
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          1992,
+          0.866
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          1993,
+          0.864
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          1994,
+          0.869
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          1995,
+          0.872
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          1996,
+          0.891
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          1997,
+          0.901
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          1998,
+          0.91
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          1999,
+          0.912
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          2000,
+          null
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          2001,
+          0.912
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          2002,
+          0.906
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          2003,
+          0.911
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          2004,
+          0.914
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          2005,
+          0.925
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          2006,
+          0.928
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          2007,
+          0.927
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          2008,
+          0.921
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          2009,
+          0.923
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          2010,
+          0.919
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          2011,
+          0.913
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          2012,
+          0.916
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          2013,
+          0.926
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          2014,
+          0.928
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          2015,
+          0.92
+        ]
+      ],
+      "name": "Reinvermögen",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 2
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-6036"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Gini-Koeffizienten von Reineinkommen und Reinvermögen"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.3f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.1f}"
+    },
+    "tickInterval": 0.2
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Steuerstatistik Basel-Stadt"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "y": 35,
+    "itemWidth": 120,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "filename": 6036
+  }
+}

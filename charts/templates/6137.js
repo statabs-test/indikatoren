@@ -1,36 +1,40 @@
 (function(){
     return {
   "xAxis": {
-    //"tickInterval": 2
+    "tickInterval": 2
   },
   "yAxis": {
 	"labels": {
-		"format": "{value:,.0f}"
+		"format": "{value:,.0f}",
+		"formatter": function(){
+        return Highcharts.numberFormat((this.value*100),0)+'%'; 
+      }, 
 	}
   },	
   "tooltip": {
-    "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
+    "pointFormatter": function(){
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>' 
+    },
   },
   "series": [
-    {"color": "#008AC3",
-    legendIndex: 0,
+    {"color": "#3C3C3C",
+    legendIndex: 1,
       "marker": {
         "enabled": false
       }    
     }, /* grün */
     	{"color": "#68AB2B",
 	visible:true,
-	legendIndex: 2,
+	legendIndex: 0,
       "marker": {
         "enabled": false
       }    
     }, /* blau */
-    	{"color": "#3C3C3C",
-	legendIndex: 1,
+    	{"color": "#008AC3",
+	legendIndex: 2,
 	visible:true,
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* scharz */
   ],

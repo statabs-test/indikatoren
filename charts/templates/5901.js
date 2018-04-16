@@ -15,51 +15,7 @@
          		color: "black",
          },
       },
-<<<<<<< HEAD
-      "text": null
-    },
-    title: {
-        text: null
-    },
-    "labels": {
-      "format": "{value:,.1f}",
-       style:{
-       		color: "black",
-       },
-    },
-    "opposite": true
-  }
-  ],
-  "xAxis": {
-    "tickInterval": 2
-  },
-  "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-	//"y": 40,
-	"x": 45,
-	"width": 300,
-	"itemMarginBottom": 5,
-    "itemWidth": 120, 
-    "itemStyle": {
-    "fontWeight": "normal"
-    }
-  },
-  "series": [
-    {
-      "color": "#FFBB58", // Bevölkerung
-      "index": 0,
-      "type": "column",
-      pointPadding: 0,
-      borderWidth: 0,
-      legendIndex: 1,
-    	"tooltip": {
-  		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
-		   },
-=======
->>>>>>> master
+
     },
     {
     	"min": 90,

@@ -1,0 +1,143 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
+  <desc>
+    Created with Highstock 6.1.0
+  </desc>
+  <defs>
+    <clipPath>
+      <rect x="0" y="0" width="434" height="188" fill="none"/>
+    </clipPath>
+    <clipPath id="a">
+      <rect x="0" y="0" width="434" height="188" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect fill="#fbfbfb" class="highcharts-background" x="0" y="0" width="485" height="415" rx="0" ry="0"/>
+  <rect fill="none" class="highcharts-plot-background" x="41" y="161" width="434" height="188"/>
+  <g class="highcharts-pane-group"/>
+  <g class="highcharts-grid highcharts-xaxis-grid ">
+    <path fill="none" class="highcharts-grid-line" d="M 62.5 161 L 62.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 97.5 161 L 97.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 133.5 161 L 133.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 168.5 161 L 168.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 204.5 161 L 204.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 239.5 161 L 239.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 275.5 161 L 275.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 310.5 161 L 310.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 346.5 161 L 346.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 381.5 161 L 381.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 417.5 161 L 417.5 349" opacity="1"/>
+    <path fill="none" class="highcharts-grid-line" d="M 452.5 161 L 452.5 349" opacity="1"/>
+  </g>
+  <g class="highcharts-grid highcharts-yaxis-grid ">
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 41 349.25 L 475 349.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 41 286.25 L 475 286.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 41 224.25 L 475 224.25" opacity="1"/>
+    <path fill="none" stroke="#B9CFD7" stroke-width="0.5" class="highcharts-grid-line" d="M 41 160.75 L 475 160.75" opacity="1"/>
+  </g>
+  <rect fill="none" class="highcharts-plot-border" x="41" y="161" width="434" height="188"/>
+  <g class="highcharts-axis highcharts-xaxis ">
+    <path fill="none" class="highcharts-axis-line" stroke="#B9CFD7" stroke-width="0.5" d="M 41 349.25 L 475 349.25"/>
+  </g>
+  <g class="highcharts-axis highcharts-yaxis ">
+    <path fill="none" class="highcharts-axis-line" d="M 41 161 L 41 349"/>
+  </g>
+  <g class="highcharts-series-group">
+    <g class="highcharts-series highcharts-series-0 highcharts-line-series " transform="translate(41,161) scale(1 1)" clip-path="url(#a)">
+      <path fill="none" d="M 4.2549019607845 48.945173333333315 L 21.983660130719 44.07973333333331 L 39.712418300654 64.74719999999999 L 57.441176470588 71.18181333333332 L 75.169934640523 64.86501333333332 L 92.898692810458 94.21557333333331 L 110.62745098039 126.09536 L 128.35620915033 135.32490666666666 L 146.08496732026 133.8184 L 163.8137254902 112.73984 L 181.54248366013 81.18090666666666 L 199.27124183007 73.30496 L 217 86.17418666666666 L 234.72875816993 94.45119999999999 L 252.45751633987 106.82661333333331 L 270.1862745098 112.90527999999999 L 287.91503267974 92.81935999999999 L 305.64379084967 83.31909333333333 L 323.37254901961 96.45402666666666 L 341.10130718954 96.44399999999999 L 358.83006535948 94.60661333333333 L 376.55882352941 102.95631999999999 L 394.28758169935 96.43898666666666 L 412.01633986928 91.07221333333332 L 429.74509803922 93.75936" class="highcharts-graph" stroke="#3C3C3C" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+    <g class="highcharts-markers highcharts-series-0 highcharts-line-series " transform="translate(41,161) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-1 highcharts-line-series " transform="translate(41,161) scale(1 1)" clip-path="url(#a)">
+      <path fill="none" d="M 4.2549019607845 36.79285333333331 L 21.983660130719 33.596853333333314 L 39.712418300654 61.909653333333324 L 57.441176470588 68.50218666666666 L 75.169934640523 52.81797333333333 L 92.898692810458 97.03056 L 110.62745098039 126.62426666666666 L 128.35620915033 124.36074666666666 L 146.08496732026 120.508 L 163.8137254902 84.08111999999998 L 181.54248366013 30.69162666666662 L 199.27124183007 14.799359999999979 L 217 33.99541333333332 L 234.72875816993 54.324479999999994 L 252.45751633987 85.30186666666665 L 270.1862745098 98.64735999999999 L 287.91503267974 68.91077333333331 L 305.64379084967 31.985066666666654 L 323.37254901961 59.001919999999984 L 341.10130718954 75.09472 L 358.83006535948 72.30229333333331 L 376.55882352941 76.55109333333331 L 394.28758169935 74.35274666666665 L 412.01633986928 75.39551999999999 L 429.74509803922 83.04085333333332" class="highcharts-graph" stroke="#68AB2B" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+    <g class="highcharts-markers highcharts-series-1 highcharts-line-series " transform="translate(41,161) scale(1 1)" clip-path="none"/>
+    <g class="highcharts-series highcharts-series-2 highcharts-line-series " transform="translate(41,161) scale(1 1)" clip-path="url(#a)">
+      <path fill="none" d="M 4.2549019607845 98.87797333333332 L 21.983660130719 87.31471999999998 L 39.712418300654 102.29205333333333 L 57.441176470588 111.08042666666665 L 75.169934640523 105.71365333333331 L 92.898692810458 121.43045333333332 L 110.62745098039 143.57685333333333 L 128.35620915033 150.10672 L 146.08496732026 151.13445333333334 L 163.8137254902 137.33525333333333 L 181.54248366013 120.49546666666666 L 199.27124183007 109.15781333333332 L 217 112.72981333333333 L 234.72875816993 116.10629333333333 L 252.45751633987 120.35258666666665 L 270.1862745098 123.15002666666665 L 287.91503267974 112.50922666666666 L 305.64379084967 111.02026666666666 L 323.37254901961 116.70037333333332 L 341.10130718954 116.96106666666665 L 358.83006535948 114.27141333333331 L 376.55882352941 117.72309333333332 L 394.28758169935 114.55466666666666 L 412.01633986928 109.47365333333332 L 429.74509803922 111.42383999999998" class="highcharts-graph" stroke="#008AC3" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+    <g class="highcharts-markers highcharts-series-2 highcharts-line-series " transform="translate(41,161) scale(1 1)" clip-path="none"/>
+  </g>
+  <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
+    <tspan>Arbeitslosenquote im Jahresmittel nach Altersgruppe</tspan>
+  </text>
+  <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="40"/>
+  <g class="highcharts-legend" transform="translate(33,76)">
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="496" height="73" visibility="visible"/>
+    <g>
+      <g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1" transform="translate(8,8)">
+          <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#68AB2B" stroke-width="2"/>
+          <text x="21" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
+            <tspan>15-24 Jahre</tspan>
+          </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0" transform="translate(8,27)">
+          <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#3C3C3C" stroke-width="2"/>
+          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
+            <tspan>Total</tspan>
+          </text>
+        </g>
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-2" transform="translate(8,46)">
+          <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#008AC3" stroke-width="2"/>
+          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
+            <tspan>50 Jahre und mehr</tspan>
+          </text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g class="highcharts-axis-labels highcharts-xaxis-labels ">
+    <text x="62.983660130719" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      1994
+    </text>
+    <text x="98.441176470588" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      1996
+    </text>
+    <text x="133.89869281046" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      1998
+    </text>
+    <text x="169.35620915033" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      2000
+    </text>
+    <text x="204.8137254902" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      2002
+    </text>
+    <text x="240.27124183007" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      2004
+    </text>
+    <text x="275.72875816993" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      2006
+    </text>
+    <text x="311.1862745098" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      2008
+    </text>
+    <text x="346.64379084967" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      2010
+    </text>
+    <text x="382.10130718954" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      2012
+    </text>
+    <text x="417.55882352941" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      2014
+    </text>
+    <text x="453.01633986928" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="368" opacity="1">
+      2016
+    </text>
+  </g>
+  <g class="highcharts-axis-labels highcharts-yaxis-labels ">
+    <text x="26" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="354" opacity="1">
+      0%
+    </text>
+    <text x="26" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="291" opacity="1">
+      3%
+    </text>
+    <text x="26" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="228" opacity="1">
+      5%
+    </text>
+    <text x="26" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="end" transform="translate(0,0)" y="166" opacity="1">
+      8%
+    </text>
+  </g>
+  <text x="10" class="highcharts-credits" text-anchor="start" style="cursor:default;color:#000000;font-size:10px;fill:#000000;" y="400">
+    <tspan>Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik</tspan>
+  </text>
+</svg>
