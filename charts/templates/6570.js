@@ -26,7 +26,7 @@
     },
   },
   "legend": {
-  	"itemWidth": 50,
+  	//"itemWidth": 50,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
