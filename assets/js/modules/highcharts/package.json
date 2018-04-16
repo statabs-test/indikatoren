@@ -1,26 +1,49 @@
 {
-  "_from": "highcharts@6.0.7",
-  "_id": "highcharts@6.0.7",
-  "_inBundle": false,
-  "_integrity": "sha512-LR1gArvVqegc0Gf1bAESm6scmCV5CuyIS0UZTqXKQs5mxMXYXES+xJl5htV3P2GqzleDrp1dsTqDdL9u4DF5Qw==",
+  "_args": [
+    [
+      {
+        "raw": "highcharts@6.1.0",
+        "scope": null,
+        "escapedName": "highcharts",
+        "name": "highcharts",
+        "rawSpec": "6.1.0",
+        "spec": "6.1.0",
+        "type": "version"
+      },
+      "/home/ubuntu/workspace"
+    ]
+  ],
+  "_from": "highcharts@6.1.0",
+  "_id": "highcharts@6.1.0",
+  "_inCache": true,
   "_location": "/highcharts",
+  "_nodeVersion": "8.7.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/highcharts_6.1.0_1523609909620_0.1658956893356729"
+  },
+  "_npmUser": {
+    "name": "highsoft",
+    "email": "torstein@highsoft.com"
+  },
+  "_npmVersion": "5.5.1",
   "_phantomChildren": {},
   "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "highcharts@6.0.7",
-    "name": "highcharts",
+    "raw": "highcharts@6.1.0",
+    "scope": null,
     "escapedName": "highcharts",
-    "rawSpec": "6.0.7",
-    "saveSpec": null,
-    "fetchSpec": "6.0.7"
+    "name": "highcharts",
+    "rawSpec": "6.1.0",
+    "spec": "6.1.0",
+    "type": "version"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/highcharts/-/highcharts-6.0.7.tgz",
-  "_shasum": "fd5c4f24fdc61a04ae155a5b70830a96c8f70919",
-  "_spec": "highcharts@6.0.7",
+  "_resolved": "https://registry.npmjs.org/highcharts/-/highcharts-6.1.0.tgz",
+  "_shasum": "115a6ee10ad36a53d9913f1030c6d46da16c7cb5",
+  "_shrinkwrap": null,
+  "_spec": "highcharts@6.1.0",
   "_where": "/home/ubuntu/workspace",
   "author": {
     "name": "Highsoft AS",
@@ -30,9 +53,18 @@
   "bugs": {
     "url": "https://github.com/highcharts/highcharts/issues"
   },
-  "bundleDependencies": false,
-  "deprecated": false,
+  "dependencies": {},
   "description": "JavaScript charting framework",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-YZotALyZD1xJixB8pNOKqBpmxV/NrOpMHQ3l7/CMB1hn5U7KRSviaeyv8/1MT7/rTgEFPOW85mdaFKFr2EfeAw==",
+    "shasum": "115a6ee10ad36a53d9913f1030c6d46da16c7cb5",
+    "tarball": "https://registry.npmjs.org/highcharts/-/highcharts-6.1.0.tgz",
+    "fileCount": 968,
+    "unpackedSize": 28313802
+  },
+  "gitHead": "ae31661a82256a3653ffbf8ac75f63d805fc716d",
   "homepage": "http://www.highcharts.com",
   "keywords": [
     "charts",
@@ -45,10 +77,18 @@
   ],
   "license": "https://www.highcharts.com/license",
   "main": "highcharts.js",
+  "maintainers": [
+    {
+      "name": "highsoft",
+      "email": "torstein@highsoft.com"
+    }
+  ],
   "name": "highcharts",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/highcharts/highcharts-dist.git"
   },
-  "version": "6.0.7"
+  "version": "6.1.0"
 }

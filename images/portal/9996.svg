@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="highcharts-root" style="font-family:Arial;font-size:12px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 415">
   <desc>
-    Created with Highstock 6.0.7
+    Created with Highstock 6.1.0
   </desc>
   <defs>
     <clipPath>
@@ -14,6 +14,9 @@
   </defs>
   <rect fill="#fbfbfb" class="highcharts-background" x="0" y="0" width="485" height="415" rx="0" ry="0"/>
   <rect fill="none" class="highcharts-plot-background" x="10" y="55" width="465" height="315"/>
+  <path fill="#923F8D" d="M 243 77 A 136 136 0 0 1 289.64251441005035 340.7516177960508 L 243 213 A 0 0 0 0 0 243 213 Z" fill-opacity="0.5"/>
+  <path fill="#68AB2B" d="M 289.51473949229097 340.7981964268835 A 136 136 0 0 1 109.089828705488 236.75007418671476 L 243 213 A 0 0 0 0 0 243 213 Z" fill-opacity="0.5"/>
+  <path fill="#689199" d="M 109.06614559033972 236.61615216270252 A 136 136 0 0 1 242.8640000226667 77.00006799999434 L 243 213 A 0 0 0 0 0 243 213 Z" fill-opacity="0.5"/>
   <path fill="#923F8D" d="M 243 77 A 136 136 0 0 1 289.64251441005035 340.7516177960508 L 243 213 A 0 0 0 0 0 243 213 Z" fill-opacity="0.5"/>
   <path fill="#68AB2B" d="M 289.51473949229097 340.7981964268835 A 136 136 0 0 1 109.089828705488 236.75007418671476 L 243 213 A 0 0 0 0 0 243 213 Z" fill-opacity="0.5"/>
   <path fill="#689199" d="M 109.06614559033972 236.61615216270252 A 136 136 0 0 1 242.8640000226667 77.00006799999434 L 243 213 A 0 0 0 0 0 243 213 Z" fill-opacity="0.5"/>
@@ -86,61 +89,61 @@
   <foreignObject x="0" y="0" width="485" height="415">
     <body xmlns="http://www.w3.org/1999/xhtml">
       <div class="highcharts-axis-labels highcharts-xaxis-labels " style="position: absolute; left: 0px; top: 0px; opacity: 1;">
-        <span transform="translate(0,0)" opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 268.35187245016425px; top: 59.38674577030753px; opacity: 1;">
+        <span opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 268.35187245016425px; top: 59.38674577030753px; opacity: 1;">
           Anteil Sozialhilfeempfänger
         </span>
-        <span transform="translate(0,0)" opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 316.9375px; top: 77.07046801159169px; opacity: 1;">
+        <span opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 316.9375px; top: 77.07046801159169px; opacity: 1;">
           Anteil Ausländer
         </span>
-        <span transform="translate(0,0)" opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: normal; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 356.5448664693379px; top: 110.30499460791647px; width: 44px; display: block; opacity: 1;">
+        <span opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: normal; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 356.5448664693379px; top: 103.80499460791647px; width: 31px; display: block; opacity: 1;">
           Anteil Personen ohne Religionszugehörigkeit
         </span>
-        <span transform="translate(0,0)" opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: normal; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 382.3967389195021px; top: 155.08175116239107px; width: 44px; display: block; opacity: 1;">
+        <span opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: normal; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 382.3967389195021px; top: 142.08175116239107px; width: 31px; display: block; opacity: 1;">
           Anteil Personen in Einpersonen-haushalten
         </span>
-        <span transform="translate(0,0)" opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 391.375px; top: 206px; opacity: 1;">
+        <span opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 391.375px; top: 206px; opacity: 1;">
           Gymnasialquote
         </span>
-        <span transform="translate(0,0)" opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 382.3967389195021px; top: 256.9182488376089px; opacity: 1;">
+        <span opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 382.3967389195021px; top: 256.9182488376089px; opacity: 1;">
           Altersquotient
         </span>
-        <span transform="translate(0,0)" opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 356.5448664693379px; top: 301.6950053920835px; opacity: 1;">
+        <span opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 356.5448664693379px; top: 301.6950053920835px; opacity: 1;">
           Anteil Sesshafte
         </span>
-        <span transform="translate(0,0)" opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 316.93750000000006px; top: 334.92953198840826px; opacity: 1;">
+        <span opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 316.93750000000006px; top: 334.92953198840826px; opacity: 1;">
           Jugendquotient
         </span>
-        <span transform="translate(0,0)" opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 268.3518724501643px; top: 352.6132542296925px; opacity: 1;">
+        <span opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 268.3518724501643px; top: 352.6132542296925px; opacity: 1;">
           Baujahr Wohngebaeude
         </span>
-        <span transform="translate(0,0)" opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: normal; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 109.64812754983578px; top: 352.6132542296925px; width: 44px; display: block; opacity: 1;">
+        <span opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: normal; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 201.14812754983578px; top: 346.1132542296925px; width: 31px; display: block; opacity: 1;">
           Anteil Einfamilienhäuser
         </span>
-        <span transform="translate(0,0)" opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 91.06250000000003px; top: 334.9295319884083px; opacity: 1;">
+        <span opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 91.06250000000003px; top: 334.9295319884083px; opacity: 1;">
           Anteil Grünfläche
         </span>
-        <span transform="translate(0,0)" opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 36.45513353066218px; top: 301.69500539208354px; opacity: 1;">
+        <span opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 36.45513353066218px; top: 301.69500539208354px; opacity: 1;">
           Fläche pro Wohnung
         </span>
-        <span transform="translate(0,0)" opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 9.60326108049793px; top: 256.91824883760904px; opacity: 1;">
+        <span opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 9.60326108049793px; top: 256.91824883760904px; opacity: 1;">
           Wohnfläche pro Kopf
         </span>
-        <span transform="translate(0,0)" opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 15.625px; top: 206.00000000000003px; opacity: 1;">
+        <span opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 15.625px; top: 206.00000000000003px; opacity: 1;">
           Vermögenssteuer
         </span>
-        <span transform="translate(0,0)" opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 17.603261080497873px; top: 155.08175116239113px; opacity: 1;">
+        <span opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 17.603261080497873px; top: 155.08175116239113px; opacity: 1;">
           Einkommenssteuer
         </span>
-        <span transform="translate(0,0)" opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 36.45513353066215px; top: 110.30499460791647px; opacity: 1;">
+        <span opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 36.45513353066215px; top: 110.30499460791647px; opacity: 1;">
           Erwerbstätigenquote
         </span>
-        <span transform="translate(0,0)" opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 70.06249999999994px; top: 77.07046801159174px; opacity: 1;">
+        <span opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 70.06249999999994px; top: 77.07046801159174px; opacity: 1;">
           Arbeitsplätze pro Kopf
         </span>
-        <span transform="translate(0,0)" opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 136.6481275498356px; top: 59.386745770307556px; opacity: 1;">
+        <span opacity="1" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: 136.6481275498356px; top: 59.386745770307556px; opacity: 1;">
           Arbeitslosenquote
         </span>
-        <span transform="translate(0,0)" style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: -5.5px; top: -10009px;">
+        <span style="font-family: Arial; font-size: 10px; position: absolute; white-space: nowrap; color: rgb(0, 0, 0); cursor: default; margin-left: 0px; margin-top: 0px; left: -5.5px; top: -10009px;">
           18
         </span>
       </div>
