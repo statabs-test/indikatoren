@@ -132,7 +132,7 @@ global Highcharts
     "verticalAlign": "top",
     "align": "left",
     //"x": 25,
-	  "y": 45,    
+	  //"y": 45,    
     "itemStyle": {
       "fontWeight": "normal"
     }

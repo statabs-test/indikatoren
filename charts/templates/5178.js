@@ -44,7 +44,7 @@
         "layout": "horizontal",
         "verticalAlign": "top",
         "align": "left",
-        "y": 60,
+        //"y": 60,
          //x:-5,
         "itemWidth": 130,
     },

@@ -121,7 +121,6 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "marginTop": 120,
     "renderTo": "container-4463"
   },
   "title": {

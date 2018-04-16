@@ -1001,7 +1001,6 @@
     "align": "left",
     "symbolRadius": 0,
     "itemWidth": 140,
-    "y": 20,
     "itemStyle": {
       "fontWeight": "normal"
     }

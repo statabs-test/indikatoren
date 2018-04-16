@@ -7,208 +7,107 @@
       },
       "data": [
         [
-          null,
-          null
-        ],
-        [
           1991,
           0.432
-        ],
-        [
-          null,
-          null
         ],
         [
           1992,
           0.428
         ],
         [
-          null,
-          null
-        ],
-        [
           1993,
           0.428
-        ],
-        [
-          null,
-          null
         ],
         [
           1994,
           0.426
         ],
         [
-          null,
-          null
-        ],
-        [
           1995,
           0.429
-        ],
-        [
-          null,
-          null
         ],
         [
           1996,
           0.443
         ],
         [
-          null,
-          null
-        ],
-        [
           1997,
           0.445
-        ],
-        [
-          null,
-          null
         ],
         [
           1998,
           0.455
         ],
         [
-          null,
-          null
-        ],
-        [
           1999,
           0.459
-        ],
-        [
-          null,
-          null
         ],
         [
           2000,
           0.466
         ],
         [
-          null,
-          null
-        ],
-        [
           2001,
           0.46
-        ],
-        [
-          null,
-          null
         ],
         [
           2002,
           0.45
         ],
         [
-          null,
-          null
-        ],
-        [
           2003,
           0.455
-        ],
-        [
-          null,
-          null
         ],
         [
           2004,
           0.459
         ],
         [
-          null,
-          null
-        ],
-        [
           2005,
           0.471
-        ],
-        [
-          null,
-          null
         ],
         [
           2006,
           0.476
         ],
         [
-          null,
-          null
-        ],
-        [
           2007,
           0.482
-        ],
-        [
-          null,
-          null
         ],
         [
           2008,
           0.502
         ],
         [
-          null,
-          null
-        ],
-        [
           2009,
           0.5
-        ],
-        [
-          null,
-          null
         ],
         [
           2010,
           0.503
         ],
         [
-          null,
-          null
-        ],
-        [
           2011,
           0.494
-        ],
-        [
-          null,
-          null
         ],
         [
           2012,
           0.496
         ],
         [
-          null,
-          null
-        ],
-        [
           2013,
           0.505
-        ],
-        [
-          null,
-          null
         ],
         [
           2014,
           0.513
         ],
         [
-          null,
-          null
-        ],
-        [
           2015,
           0.512
         ]
       ],
-      "name": "Reineinkommen",
-      "turboThreshold": 0
+      "name": "Reineinkommen"
     },
     {
       "color": "#007A2F",
@@ -218,87 +117,43 @@
       },
       "data": [
         [
-          null,
-          null
-        ],
-        [
           1991,
           0.937
-        ],
-        [
-          null,
-          null
         ],
         [
           1992,
           0.866
         ],
         [
-          null,
-          null
-        ],
-        [
           1993,
           0.864
-        ],
-        [
-          null,
-          null
         ],
         [
           1994,
           0.869
         ],
         [
-          null,
-          null
-        ],
-        [
           1995,
           0.872
-        ],
-        [
-          null,
-          null
         ],
         [
           1996,
           0.891
         ],
         [
-          null,
-          null
-        ],
-        [
           1997,
           0.901
-        ],
-        [
-          null,
-          null
         ],
         [
           1998,
           0.91
         ],
         [
-          null,
-          null
-        ],
-        [
           1999,
           0.912
         ],
         [
-          null,
-          null
-        ],
-        [
           2000,
-          null
-        ],
-        [
-          null,
           null
         ],
         [
@@ -306,136 +161,65 @@
           0.912
         ],
         [
-          null,
-          null
-        ],
-        [
           2002,
           0.906
-        ],
-        [
-          null,
-          null
         ],
         [
           2003,
           0.911
         ],
         [
-          null,
-          null
-        ],
-        [
           2004,
           0.914
-        ],
-        [
-          null,
-          null
         ],
         [
           2005,
           0.925
         ],
         [
-          null,
-          null
-        ],
-        [
           2006,
           0.928
-        ],
-        [
-          null,
-          null
         ],
         [
           2007,
           0.927
         ],
         [
-          null,
-          null
-        ],
-        [
           2008,
           0.921
-        ],
-        [
-          null,
-          null
         ],
         [
           2009,
           0.923
         ],
         [
-          null,
-          null
-        ],
-        [
           2010,
           0.919
-        ],
-        [
-          null,
-          null
         ],
         [
           2011,
           0.913
         ],
         [
-          null,
-          null
-        ],
-        [
           2012,
           0.916
-        ],
-        [
-          null,
-          null
         ],
         [
           2013,
           0.926
         ],
         [
-          null,
-          null
-        ],
-        [
           2014,
           0.928
-        ],
-        [
-          null,
-          null
         ],
         [
           2015,
           0.92
         ]
       ],
-      "name": "Reinvermögen",
-      "turboThreshold": 0
+      "name": "Reinvermögen"
     }
   ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": false,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickLength": 0,
-    "tickInterval": 2
-  },
   "chart": {
     "events": {
       "load": function () {
@@ -507,6 +291,18 @@
     },
     "tickInterval": 0.2
   },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 2
+  },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
@@ -529,7 +325,6 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemWidth": 120,
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"

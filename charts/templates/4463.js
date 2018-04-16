@@ -54,7 +54,7 @@
     "shared": false
   },  
   "chart": {    
-    "marginTop": 120
+    //"marginTop": 120
   },  
   "plotOptions": {
     "series": {
