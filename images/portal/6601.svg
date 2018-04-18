@@ -65,7 +65,7 @@
     <tspan>Mietpreisunterschiede nach Wohnviertel gemäss</tspan><tspan dy="17" x="10">Mietpreisraster</tspan><title>Mietpreisunterschiede nach Wohnviertel gemäss Mietpreisraster</title>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:arial;fill:#000000;" y="57">
-    <tspan>Abweichungen der Nettomiete vom Referenzwohnviertel Iselin pro m² in</tspan><tspan dy="15" x="10">Prozent, Stand: November 2017</tspan><title>Abweichungen der Nettomiete vom Referenzwohnviertel Iselin pro m² in Prozent, Stand: November 2017</title>
+    <tspan>Abweichungen der Nettomiete vom Referenzwohnviertel Iselin pro m² in</tspan><tspan dy="15" x="10">Prozent, November 2017</tspan><title>Abweichungen der Nettomiete vom Referenzwohnviertel Iselin pro m² in Prozent, November 2017</title>
   </text>
   <g class="highcharts-data-labels highcharts-series-2 highcharts-mapline-series highcharts-color-undefined " visibility="visible" transform="translate(10,87) scale(1 1)" clip-path="url(#b)">
     <g class="highcharts-label highcharts-data-label highcharts-data-label-color-undefined " transform="translate(93,219)">
