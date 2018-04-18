@@ -59,7 +59,7 @@ global geojson_wohnviertelEPSG2056
                     //Wohnviertel
                     return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
                     	//special case for Riehen and Bettingen together in this chart
-                        ((this.point.properties.TXT == "20" || this.point.properties.TXT == "30") ? "Riehen und Bettingen" : this.point.properties.LIBGEO) +': <b>' + Highcharts.numberFormat((this.point.value),1) + '</b><br/>';
+                        ((this.point.properties.TXT == "20" || this.point.properties.TXT == "30") ? "Riehen und Bettingen" : this.point.properties.LIBGEO) +': <b>' + Highcharts.numberFormat((this.point.value),1) + '%</b><br/>';
                 }
             }
         },
