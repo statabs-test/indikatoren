@@ -430,7 +430,8 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "itemWidth": 200,
+    "itemDistance": 0,
+    "padding": 0,
     "itemStyle": {
       "fontWeight": "normal"
     }

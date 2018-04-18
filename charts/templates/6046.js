@@ -25,7 +25,7 @@
     "align": "left",
     //"x": 20,
     //64"y": 35,
-    "width": 200,
+    //"width": 200,
     "itemStyle": {
       "fontWeight": "normal"
     }

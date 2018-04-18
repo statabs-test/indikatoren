@@ -391,9 +391,13 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemWidth": 60,
+    "itemDistance": 7,
+    "symbolPadding": 2,
+    "padding": 0,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": null,
+      "whitspace": "nowrap"
     }
   },
   "plotOptions": {

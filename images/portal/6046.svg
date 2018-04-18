@@ -78,7 +78,7 @@
     <tspan>in Vollzeitäquivalenten</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(41,55)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="208" height="68" visibility="visible"/>
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="224" height="68" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(8,3)">
@@ -89,7 +89,7 @@
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(8,22)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Industrie, Energie und Bau…</tspan><title>Industrie, Energie und Baugewerbe</title>
+            <tspan>Industrie, Energie und Baugewerbe</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#ffbb58" class="highcharts-point"/>
         </g>

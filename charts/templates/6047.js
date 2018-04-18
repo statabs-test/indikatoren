@@ -54,9 +54,14 @@
       "align": "left",
       //"x": 155,
       //"y": 30,   
-      "itemWidth": 60,
+      //"itemWidth": 60,
+      itemDistance: 7,
+      symbolPadding: 2,
+      padding: 0,
       "itemStyle": {
-        "fontWeight": "normal"
+        "fontWeight": "normal",
+        textOverflow: null,
+        whitspace: 'nowrap'
       }
     },
     tooltip: {
