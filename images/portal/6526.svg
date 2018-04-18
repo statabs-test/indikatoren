@@ -63,12 +63,12 @@
     <tspan>Median in Franken, Nordwestschweiz</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(51,55)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="296" height="53" visibility="visible"/>
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="327" height="53" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(8,3)">
           <text x="21" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
-            <tspan>Industrie (inkl. Chemie/Pharma, ohne Energie/…</tspan><title>Industrie (inkl. Chemie/Pharma, ohne Energie/Wasser)</title>
+            <tspan>Industrie (inkl. Chemie/Pharma, ohne Energie/Wasser)</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#E7CEE2" class="highcharts-point"/>
         </g>
