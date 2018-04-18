@@ -460,7 +460,7 @@
             	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
             },
       "align": "left",
-      "x": -140
+      "x": -130
     }
   },
   "chart": {
@@ -494,7 +494,7 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "marginLeft": 150,
+    "marginLeft": 140,
     "inverted": true,
     "renderTo": "container-6496"
   },
@@ -591,7 +591,9 @@
             return this.name;
         },
     "enabled": true,
-    "itemWidth": 150
+    "itemDistance": 5,
+    "padding": 0,
+    "alignColumns": false
   },
   "exporting": {
     "filename": 6496

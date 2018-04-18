@@ -503,10 +503,13 @@
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
-            return this.name;
+            return this.name.replace('/ ', '/<br/>');
         },
     "enabled": true,
-    "reversed": true
+    "reversed": true,
+    "_labelFormatter": function () {
+            return this.name;
+        }
   },
   "exporting": {
     "filename": 6510

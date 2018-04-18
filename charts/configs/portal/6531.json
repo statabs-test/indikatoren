@@ -265,7 +265,7 @@
             return this.name.replace('/ ', '/<br/>');
         },
     "enabled": true,
-    "itemWidth": 105
+    "itemDistance": 10
   },
   "exporting": {
     "filename": 6531

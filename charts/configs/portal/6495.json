@@ -584,13 +584,16 @@
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
-      "textOverflow": null
+      "textOverflow": null,
+      "whitespace": "nowrap"
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
-            return this.name;
-        },
-    "enabled": true
+        return this.name;
+    },
+    "enabled": true,
+    "alignColumns": false,
+    "itemDistance": 15
   },
   "exporting": {
     "filename": 6495
