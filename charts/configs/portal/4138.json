@@ -867,10 +867,13 @@
     "symbolRadius": 0,
     "enabled": true,
     "layout": "horizontal",
+    "itemDistance": -10,
     "verticalAlign": "top",
     "align": "left",
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": null,
+      "whitespace": "nowrap"
     }
   },
   "tooltip": {
