@@ -25385,7 +25385,7 @@
 	},
 	{
 		"title": "Mietpreisunterschiede nach Wohnviertel gemäss Mietpreisraster",
-		"subtitle": "Abweichungen der Nettomiete pro m²  in Prozent",
+		"subtitle": "Abweichungen der Nettomiete vom Referenzwohnviertel Iselin pro m²  in Prozent, Stand: November 2017",
 		"kuerzel": "I.09.3.06601",
 		"kuerzelKunde": "",
 		"description": "Mietpreisunterschiede nach Wohnviertel gemäss Mietpreisraster",
@@ -25402,7 +25402,7 @@
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Nettomieten pro m² der Wohnviertel werden im Vergleich zum Referenz-Wohnviertel Iselin dargestellt. Die beiden teuersten Wohnviertel sind demnach Altstadt Grossbasel und Bruderholz mit einer Abweichung zum Referenz-Wohnviertel von 20% bzw. 11%. Die günstigsten Wohnviertel sind Klybeck (-7%), Kleinhüningen (-6%) und Rosental (-5%).",
-		"erlaeuterungen": "Die ausgewiesenen Abweichungen basieren auf dem Mietpreisraster Basel-Stadt. Dieser wird mittels Regressionsmodell berechnet. Damit wird insbesondere der Einfluss von Wohnviertel, Zimmerzahl und Gebäudealter auf den Nettomietpreis pro Quadratmeter berechnet. Die ausgewiesenen Abweichungen der Nettomietpreise sind somit bereinigt von Unterschieden in der Grösse der Wohnungen und dem Alter der Gebäude zwischen den Wohnvierteln. Der Mietpreisraster basiert auf Nettomieten der Mietpreiserhebung Basel-Stadt vom November 2017 sowie den Nettomieten der Strukturerhebung für Basel-Stadt aus den Jahren 2010 bis 2015.",
+		"erlaeuterungen": "Die ausgewiesenen Abweichungen basieren auf dem Mietpreisraster Basel-Stadt. Mittels Regressionsmodell wird dabei insbesondere der Einfluss von Wohnviertel, Zimmerzahl und Gebäudealter auf den Nettomietpreis pro Quadratmeter berechnet. Die ausgewiesenen Abweichungen der Nettomietpreise sind somit bereinigt von Unterschieden in der Grösse der Wohnungen und dem Alter der Gebäude zwischen den Wohnvierteln. Der Mietpreisraster basiert auf Nettomieten der Mietpreiserhebung Basel-Stadt vom November 2017 sowie den Nettomieten der Strukturerhebung für Basel-Stadt aus den Jahren 2010 bis 2015, die auf November 2017 indexiert wurden.",
 		"template": "map002",
 		"visibleInPortal": false,
 		"orderKey": "_000",
