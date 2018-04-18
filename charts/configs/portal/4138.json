@@ -867,7 +867,6 @@
     "symbolRadius": 0,
     "enabled": true,
     "layout": "horizontal",
-    "itemWidth": 210,
     "verticalAlign": "top",
     "align": "left",
     "itemStyle": {

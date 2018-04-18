@@ -92,7 +92,7 @@
     <tspan>pro Kopf in Franken</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(44,55)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="296" height="49" visibility="visible"/>
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="392" height="49" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(8,3)">
@@ -101,7 +101,7 @@
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#007a2f" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2" transform="translate(158,3)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2" transform="translate(206.3125,3)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Sport und Freizeit</tspan>
           </text>
@@ -113,9 +113,9 @@
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#68ab2b" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3" transform="translate(158,22)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3" transform="translate(206.3125,22)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Kirchen, rel. Ange…</tspan><title>Kirchen, rel. Angelegenheiten</title>
+            <tspan>Kirchen, rel. Angelegenheiten</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#b375ab" class="highcharts-point"/>
         </g>

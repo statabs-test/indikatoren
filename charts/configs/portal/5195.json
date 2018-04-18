@@ -401,7 +401,7 @@
           0.500366568914
         ]
       ],
-      "name": "LWQ alle Wohnungen (rechte Skala)"
+      "name": "LWQ alle Whg. (rechte Skala)"
     },
     {
       "color": "#B00000",
@@ -867,7 +867,7 @@
     "symbolRadius": 0,
     "enabled": true,
     "layout": "horizontal",
-    "itemWidth": 210,
+    "itemDistance": 5,
     "verticalAlign": "top",
     "align": "left",
     "itemStyle": {

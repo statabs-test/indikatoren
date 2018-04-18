@@ -220,7 +220,7 @@
     <tspan>Jährlich erteilte Bewilligungen, Basel-Stadt</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(44,55)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="206" height="193" visibility="visible"/>
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="222" height="193" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(8,3)">
@@ -249,13 +249,13 @@
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4" transform="translate(8,59)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Öffentliche Verwaltung, Sozi…</tspan><title>Öffentliche Verwaltung, Sozialvers.</title>
+            <tspan>Öffentliche Verwaltung, Sozialvers.</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#689199" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-5" transform="translate(8,73)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Berat., Plan., Forsch., Immob…</tspan><title>Berat., Plan., Forsch., Immob., IT</title>
+            <tspan>Berat., Plan., Forsch., Immob., IT</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#FFBB58" class="highcharts-point"/>
         </g>
@@ -273,7 +273,7 @@
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-8" transform="translate(8,115)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Verkehr, Lagerei, Kommunik…</tspan><title>Verkehr, Lagerei, Kommunikation</title>
+            <tspan>Verkehr, Lagerei, Kommunikation</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#B6CFD7" class="highcharts-point"/>
         </g>
@@ -297,7 +297,7 @@
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-12" transform="translate(8,171)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Industrie (exkl. Chemie, Phar…</tspan><title>Industrie (exkl. Chemie, Pharma)</title>
+            <tspan>Industrie (exkl. Chemie, Pharma)</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#E7CEE2" class="highcharts-point"/>
         </g>

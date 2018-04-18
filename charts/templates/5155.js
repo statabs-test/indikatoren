@@ -45,9 +45,12 @@ global Highcharts
     //"width": 50,
 	  //"y": 45,
     "itemMarginBottom": 5,
-    itemWidth: 200,
+    itemDistance: 0,
+    //itemWidth: 200,
     "itemStyle": {
-    "fontWeight": "normal"
+      "fontWeight": "normal",
+      textOverflow: null
+      
     }
   },
   "series": [

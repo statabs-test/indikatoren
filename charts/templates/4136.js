@@ -27,7 +27,8 @@
     "align": "right",
     "itemStyle": {
       "fontWeight": "normal",
-      "width": 111
+      "width": 111, 
+      textOverflow: null
     }
   },
   "series": [

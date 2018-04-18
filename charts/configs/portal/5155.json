@@ -604,9 +604,10 @@
     "verticalAlign": "top",
     "align": "left",
     "itemMarginBottom": 5,
-    "itemWidth": 200,
+    "itemDistance": 0,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": null
     }
   },
   "tooltip": {

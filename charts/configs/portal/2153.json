@@ -1519,7 +1519,7 @@
     "verticalAlign": "top",
     "align": "left",
     "x": 45,
-    "itemWidth": 100,
+    "itemDistance": 10,
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"

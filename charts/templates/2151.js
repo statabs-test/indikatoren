@@ -28,7 +28,6 @@
      //y: 45,
     "enabled": true,
     "layout": "horizontal",
-   "itemWidth": 210,
     "verticalAlign": "top",
     "align": "left",
     "itemStyle": {

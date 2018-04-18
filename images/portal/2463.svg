@@ -284,7 +284,7 @@
     <tspan>Kurz- und Daueraufenthalter, Basel-Stadt</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(44,55)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="206" height="95" visibility="visible"/>
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="211" height="95" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(8,3)">
@@ -295,7 +295,7 @@
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(8,17)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Dienstleistungserbringer bis …</tspan><title>Dienstleistungserbringer bis 4 M.</title>
+            <tspan>Dienstleistungserbringer bis 4 M.</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#FFBB58" class="highcharts-point"/>
         </g>

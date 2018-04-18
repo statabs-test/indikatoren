@@ -70,7 +70,7 @@
     <tspan>Nettoschuldenquote in Promille des BIP der Schweiz und Nettoschulden pro</tspan><tspan dy="15" x="10">Kopf in Franken</tspan><title>Nettoschuldenquote in Promille des BIP der Schweiz und Nettoschulden pro Kopf in Franken</title>
   </text>
   <g class="highcharts-legend" transform="translate(32,70)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="296" height="30" visibility="visible"/>
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="387" height="30" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0" transform="translate(8,3)">
@@ -79,10 +79,10 @@
             <tspan>Nettoschuldenquote</tspan>
           </text>
         </g>
-        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1" transform="translate(158,3)">
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1" transform="translate(155.6875,3)">
           <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#68AB2B" stroke-width="2"/>
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Nettoschulden pr…</tspan><title>Nettoschulden pro Kopf (rechte Skala)</title>
+            <tspan>Nettoschulden pro Kopf (rechte Skala)</tspan>
           </text>
         </g>
       </g>
