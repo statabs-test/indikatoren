@@ -40,11 +40,11 @@
     "enabled": true,
     //"x": 45,
     //"y": 35,
-    "itemWidth": 150,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
     "align": "left",
+    itemDistance: 0,
     "itemStyle": {
       "fontWeight": "normal"
     }

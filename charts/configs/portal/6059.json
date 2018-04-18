@@ -1016,7 +1016,6 @@
   },
   "legend": {
     "symbolRadius": 0,
-    "itemWidth": 138,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",

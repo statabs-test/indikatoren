@@ -286,7 +286,6 @@
     "verticalAlign": "top",
     "itemMarginBottom": 5,
     "align": "left",
-    "itemWidth": 80,
     "itemStyle": {
       "fontWeight": "normal"
     }

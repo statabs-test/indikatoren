@@ -46,9 +46,7 @@
   ],
   "legend": {
     "enabled": true,
-    //"x": 45,
-    //"y": 35,
-    "itemWidth": 200,
+    itemDistance: 5,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,

@@ -27,7 +27,6 @@
 	"max": undefined
   },
   "legend": {
-  	"itemWidth": 138,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
