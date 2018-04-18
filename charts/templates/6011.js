@@ -47,7 +47,9 @@ global Highcharts
     "itemMarginBottom": 5,
     itemWidth: 200,
     "itemStyle": {
-    "fontWeight": "normal"
+      "fontWeight": "normal",
+      textOverflow: null,
+      whiteSpace: 'nowrap'
     }
   },
   "series": [

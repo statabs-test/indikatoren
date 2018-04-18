@@ -220,7 +220,6 @@
     "verticalAlign": "top",
     "align": "left",
     "itemMarginBottom": 5,
-    "itemWidth": 110,
     "itemStyle": {
       "fontWeight": "normal"
     }

@@ -241,7 +241,7 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 415,
-    "spacingBottom": 60,
+    "spacingBottom": 30,
     "style": {
       "fontFamily": "Arial"
     },
@@ -360,10 +360,8 @@
     "symbolRadius": 0
   },
   "rangeSelector": {
-    "buttonPosition": {
-      "x": -27,
-      "y": 322
-    },
+    "verticalAlign": "bottom",
+    "buttonPosition": {},
     "buttons": [
       {
         "count": 10,

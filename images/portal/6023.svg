@@ -71,7 +71,7 @@
     <tspan>nach Zuzugs- und Wegzugsland; Stand: 2016</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(48,55)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="326" height="30" visibility="visible"/>
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="293" height="30" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(8,3)">
@@ -80,13 +80,13 @@
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#71A3B5" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(118,3)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(115.703125,3)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Weggezo…</tspan><title>Weggezogene</title>
+            <tspan>Weggezogene</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#73B97C" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-scatter-series highcharts-color-undefined highcharts-series-2" transform="translate(228,3)">
+        <g class="highcharts-legend-item highcharts-scatter-series highcharts-color-undefined highcharts-series-2" transform="translate(234.0625,3)">
           <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph"/>
           <path fill="#000000" d="M 12 11 A 4 4 0 1 1 11.999998000000167 10.996000000666664 Z" class="highcharts-point"/>
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">

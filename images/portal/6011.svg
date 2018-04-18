@@ -162,56 +162,56 @@
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(8,3)">
-          <text x="21" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
+          <text x="21" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;white-space:nowrap;fill:#333333;" text-anchor="start" y="15">
             <tspan>Zuzugsort: unbekannt</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#083038" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4" transform="translate(208,3)">
-          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
+          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;white-space:nowrap;fill:#333333;" text-anchor="start">
             <tspan>Wegzugsort: unbekannt</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#007A2F" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(8,22)">
-          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
+          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;white-space:nowrap;fill:#333333;" text-anchor="start">
             <tspan>Zuzugsort: Ausland</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#246370" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-5" transform="translate(208,22)">
-          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
+          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;white-space:nowrap;fill:#333333;" text-anchor="start">
             <tspan>Wegzugsort: Ausland</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#68AB2B" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2" transform="translate(8,41)">
-          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
+          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;white-space:nowrap;fill:#333333;" text-anchor="start">
             <tspan>Zuzugsort: übrige Schweiz</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#689199" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-6" transform="translate(208,41)">
-          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
+          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;white-space:nowrap;fill:#333333;" text-anchor="start">
             <tspan>Wegzugsort: übrige Schweiz</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#73B97C" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3" transform="translate(8,60)">
-          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Zuzugsort: Schweizer Aggl…</tspan><title>Zuzugsort: Schweizer Agglo BS</title>
+          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;white-space:nowrap;fill:#333333;" text-anchor="start">
+            <tspan>Zuzugsort: Schweizer Agglo BS</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#A8C3CA" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-7" transform="translate(208,60)">
-          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Wegzugsort: Schweizer Ag…</tspan><title>Wegzugsort: Schweizer Agglo BS</title>
+          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;white-space:nowrap;fill:#333333;" text-anchor="start">
+            <tspan>Wegzugsort: Schweizer Agglo BS</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#D7E8D2" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-8" transform="translate(8,79)">
           <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#000000" stroke-width="2"/>
-          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
+          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;white-space:nowrap;fill:#333333;" text-anchor="start">
             <tspan>Saldo</tspan>
           </text>
         </g>

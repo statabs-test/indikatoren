@@ -69,7 +69,7 @@
     <tspan>in Milligramm pro Liter gereinigtem Abwasser</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(44,55)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="196" height="30" visibility="visible"/>
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="215" height="30" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0" transform="translate(8,3)">
@@ -79,10 +79,10 @@
             <tspan>AOX</tspan>
           </text>
         </g>
-        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1" transform="translate(108,3)">
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1" transform="translate(88.328125,3)">
           <path fill="none" d="M 0 11 L 30 11" class="highcharts-graph" stroke-dasharray="16,6" stroke="#3C3C3C" stroke-width="2"/>
           <text x="35" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>AOX …</tspan><title>AOX Grenzwert</title>
+            <tspan>AOX Grenzwert</tspan>
           </text>
         </g>
       </g>

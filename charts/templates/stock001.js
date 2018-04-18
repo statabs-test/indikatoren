@@ -7,7 +7,7 @@
             "backgroundColor": "#fbfbfb",
             "width": 485,
             "height": 415,        
-            "spacingBottom": 60,
+            "spacingBottom": 30,
             "style": {
                 "fontFamily": "Arial"
             },
@@ -112,9 +112,11 @@
             "symbolRadius": 0
         }, 
         "rangeSelector": {
+            verticalAlign: 'bottom',
             buttonPosition: {
-                x: -27,
-                y: 322
+                //x: -27,
+                //y: 312
+                
             }
         },
         navigator: {
