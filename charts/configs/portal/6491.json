@@ -232,7 +232,6 @@
   },
   "legend": {
     "symbolRadius": 0,
-    "itemWidth": 160,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",

@@ -359,9 +359,9 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "margin": 3,
+    "margin": 0,
     "symbolPadding": 1,
-    "itemWidth": 70,
+    "itemDistance": 3,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"

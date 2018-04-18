@@ -930,8 +930,8 @@
   },
   "legend": {
     "symbolRadius": 0,
-    "itemWidth": 140,
     "enabled": true,
+    "itemDistance": 3,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",

@@ -712,8 +712,8 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
+    "itemDistance": 15,
     "itemMarginBottom": 5,
-    "itemWidth": 70,
     "itemStyle": {
       "fontWeight": "normal"
     }
