@@ -25384,11 +25384,11 @@
 		"id": 6599
 	},
 	{
-		"title": "Mietpreisunterschiede nach Wohnviertel",
-		"subtitle": "Abweichungen der Nettomiete pro m2 in Prozent",
+		"title": "Mietpreisunterschiede nach Wohnviertel gemäss Mietpreisraster",
+		"subtitle": "Abweichungen der Nettomiete pro m²  in Prozent",
 		"kuerzel": "I.09.3.06601",
 		"kuerzelKunde": "",
-		"description": "Mietpreisunterschiede nach Wohnviertel",
+		"description": "Mietpreisunterschiede nach Wohnviertel gemäss Mietpreisraster",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Mietpreise",
 		"kennzahlenset": "",
@@ -25401,19 +25401,20 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Nettomieten pro m2 der Wohnviertel werden im Vergleich zum Referenz-Wohnviertel Iselin dargestellt. Die beiden teuersten Wohnviertel sind demnach Altstadt Grossbasel und Bruderholz mit einer Abweichung zum Referenz-Wohnviertel von 20% bzw. 11%. Die günstigsten Wohnviertel sind Klybeck (-7%), Kleinhüningen (-6%) und Rosental (-5%).",
-		"erlaeuterungen": "",
+		"lesehilfe": "Die Nettomieten pro m² der Wohnviertel werden im Vergleich zum Referenz-Wohnviertel Iselin dargestellt. Die beiden teuersten Wohnviertel sind demnach Altstadt Grossbasel und Bruderholz mit einer Abweichung zum Referenz-Wohnviertel von 20% bzw. 11%. Die günstigsten Wohnviertel sind Klybeck (-7%), Kleinhüningen (-6%) und Rosental (-5%).",
+		"erlaeuterungen": "Die ausgewiesenen Abweichungen basieren auf dem Mietpreisraster Basel-Stadt. Dieser wird mittels Regressionsmodell berechnet. Damit wird insbesondere der Einfluss von Wohnviertel, Zimmerzahl und Gebäudealter auf den Nettomietpreis pro Quadratmeter berechnet. Die ausgewiesenen Abweichungen der Nettomietpreise sind somit bereinigt von Unterschieden in der Grösse der Wohnungen und dem Alter der Gebäude zwischen den Wohnvierteln. Der Mietpreisraster basiert auf Nettomieten der Mietpreiserhebung Basel-Stadt vom November 2017 sowie den Nettomieten der Strukturerhebung für Basel-Stadt aus den Jahren 2010 bis 2015.",
 		"template": "map002",
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt"
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
+			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
 		],
 		"externalLinks": [
-			""
+			"Weitere Informationen zum Indikator: <a href = 'http://www.statistik.bs.ch/zahlen/tabellen/9-bau-wohnungswesen/mietpreise.html' target = '_blank'>Mietpreisraster Basel-Stadt</a>"
 		],
 		"id": 6601
 	},

@@ -17437,39 +17437,5 @@
 			""
 		],
 		"id": 6599
-	},
-	{
-		"title": "Mietpreisunterschiede nach Wohnviertel",
-		"subtitle": "Abweichungen der Nettomiete pro m2 in Prozent",
-		"kuerzel": "I.09.3.06601",
-		"kuerzelKunde": "",
-		"description": "Mietpreisunterschiede nach Wohnviertel",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Mietpreise",
-		"kennzahlenset": "",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2018-02-01T00:00:00.000",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Nettomieten pro m2 der Wohnviertel werden im Vergleich zum Referenz-Wohnviertel Iselin dargestellt. Die beiden teuersten Wohnviertel sind demnach Altstadt Grossbasel und Bruderholz mit einer Abweichung zum Referenz-Wohnviertel von 20% bzw. 11%. Die günstigsten Wohnviertel sind Klybeck (-7%), Kleinhüningen (-6%) und Rosental (-5%).",
-		"erlaeuterungen": "",
-		"template": "map002",
-		"visibleInPortal": true,
-		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 6601
 	}
 ]

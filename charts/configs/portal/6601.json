@@ -3559,7 +3559,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Mietpreisunterschiede nach Wohnviertel"
+    "text": "Mietpreisunterschiede nach Wohnviertel gemäss Mietpreisraster"
   },
   "subtitle": {
     "style": {
@@ -3568,7 +3568,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Abweichungen der Nettomiete pro m2 in Prozent",
+    "text": "Abweichungen der Nettomiete pro m²  in Prozent",
     "align": "left"
   },
   "credits": {
@@ -3582,12 +3582,12 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Mietpreiserhebung"
   },
   "colorAxis": {
-    "min": 0,
+    "min": -10,
     "gridLineColor": "#fbfbfb",
     "gridLineWidth": 1,
     "labels": {
@@ -3598,14 +3598,27 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-					return Highcharts.numberFormat((this.value/1000),0); 
+					return Highcharts.numberFormat((this.value),0); 
 				}
     },
     "marker": {
       "color": "black"
     },
-    "minColor": "#f4ebf3",
-    "maxColor": "#5b2659"
+    "stops": [
+      [
+        0,
+        "#CD9C00"
+      ],
+      [
+        0.25,
+        "#F2F2F2"
+      ],
+      [
+        0.9,
+        "#007A2F"
+      ]
+    ],
+    "max": 30
   },
   "mapNavigation": {
     "enabled": true,
@@ -3623,7 +3636,7 @@
         "fontWeight": "normal",
         "fontSize": "11px"
       },
-      "text": ""
+      "text": "Durchschnittliche Abweichung vom \u003Cbr\u003E Referenzwohnviertel Iselin"
     }
   },
   "tooltip": {
@@ -3635,7 +3648,7 @@
                 else {
                     //Wohnviertel
                     return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-                        this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value),0) + '</b><br/>';
+                        this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value),1) + '</b><br/>';
                 }
             }
   },
