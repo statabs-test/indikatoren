@@ -29,8 +29,8 @@
   {"color": "#ffda80", "visible": true} /*  */
   ],
   "legend": {
-  	 itemWidth: 100,
     "enabled": true,
+    itemDistance: 5,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",

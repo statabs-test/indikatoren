@@ -88,7 +88,7 @@
   </text>
   <text x="3" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:10px;font-weight:normal;font-family:Arial;fill:#000000;" y="26"/>
   <g class="highcharts-legend" transform="translate(28,29)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="212" height="81" visibility="visible"/>
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="254" height="81" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0" transform="translate(1,-4)">
@@ -97,7 +97,7 @@
             <tspan>Schweiz</tspan>
           </text>
         </g>
-        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1" transform="translate(116,-4)">
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1" transform="translate(129.609375,-4)">
           <path fill="none" d="M 0 10 L 16 10" class="highcharts-graph" stroke="#007A2F" stroke-width="2"/>
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Deutschland</tspan>
@@ -109,7 +109,7 @@
             <tspan>Italien</tspan>
           </text>
         </g>
-        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-3" transform="translate(116,10)">
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-3" transform="translate(129.609375,10)">
           <path fill="none" d="M 0 10 L 16 10" class="highcharts-graph" stroke="#662673" stroke-width="2"/>
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Türkei</tspan>
@@ -121,7 +121,7 @@
             <tspan>EU-17 + EFTA</tspan>
           </text>
         </g>
-        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-5" transform="translate(116,24)">
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-5" transform="translate(129.609375,24)">
           <path fill="none" d="M 0 10 L 16 10" class="highcharts-graph" stroke="#FABD24" stroke-width="2"/>
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>EU-Ost</tspan>
@@ -133,22 +133,22 @@
             <tspan>Balkan</tspan>
           </text>
         </g>
-        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-7" transform="translate(116,38)">
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-7" transform="translate(129.609375,38)">
           <path fill="none" d="M 0 10 L 16 10" class="highcharts-graph" stroke="#2B0099" stroke-width="2"/>
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Mittel- und Sü…</tspan><title>Mittel- und Südamerika</title>
+            <tspan>Mittel- und Südamerika</tspan>
           </text>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-8" transform="translate(1,52)">
           <path fill="none" d="M 0 10 L 16 10" class="highcharts-graph" stroke="#E7CEE2" stroke-width="2"/>
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Arabische Län…</tspan><title>Arabische Länder</title>
+            <tspan>Arabische Länder</tspan>
           </text>
         </g>
-        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-9" transform="translate(116,52)">
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-9" transform="translate(129.609375,52)">
           <path fill="none" d="M 0 10 L 16 10" class="highcharts-graph" stroke="#A8C3CA" stroke-width="2"/>
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Afrikanische L…</tspan><title>Afrikanische Länder</title>
+            <tspan>Afrikanische Länder</tspan>
           </text>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-10" transform="translate(1,66)">

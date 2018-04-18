@@ -61,7 +61,7 @@
     <tspan>nach Geschlecht</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(35,55)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="276" height="30" visibility="visible"/>
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="273" height="30" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0" transform="translate(8,3)">
@@ -70,10 +70,10 @@
             <tspan>Schweizer Frauen</tspan>
           </text>
         </g>
-        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1" transform="translate(148,3)">
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1" transform="translate(145.640625,3)">
           <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#B00000" stroke-width="2"/>
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Schweizer Män…</tspan><title>Schweizer Männer</title>
+            <tspan>Schweizer Männer</tspan>
           </text>
         </g>
       </g>

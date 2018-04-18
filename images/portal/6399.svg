@@ -300,7 +300,7 @@
     <tspan>nach Gemeinde und Wohnviertel, Stand: 2016</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(45,55)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="410" height="67" visibility="visible"/>
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="422" height="67" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-9" transform="translate(8,3)">
@@ -309,13 +309,13 @@
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#672773" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-8" transform="translate(146,3)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-8" transform="translate(145.25,3)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Italien</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#007a2f" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-7" transform="translate(284,3)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-7" transform="translate(282.5,3)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Türkei</tspan>
           </text>
@@ -327,13 +327,13 @@
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#b475ab" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-5" transform="translate(146,17)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-5" transform="translate(145.25,17)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>EU-Ost</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#71a3b5" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4" transform="translate(284,17)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4" transform="translate(282.5,17)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Balkan</tspan>
           </text>
@@ -341,19 +341,19 @@
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3" transform="translate(8,31)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Mittel- &amp; Süda…</tspan><title>Mittel- &amp; Südamerika</title>
+            <tspan>Mittel- &amp; Südamerika</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#ff8028" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2" transform="translate(146,31)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2" transform="translate(145.25,31)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Arabische Länder</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#73ba7c" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(284,31)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(282.5,31)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Afrikanische Lä…</tspan><title>Afrikanische Länder</title>
+            <tspan>Afrikanische Länder</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#9f7c5a" class="highcharts-point"/>
         </g>

@@ -520,11 +520,11 @@
   },
   "legend": {
     "symbolRadius": 0,
-    "itemWidth": 140,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
+    "itemDistance": 10,
     "itemStyle": {
       "fontWeight": "normal"
     }

@@ -59,37 +59,37 @@
       </text>
     </g>
   </g>
-  <g class="highcharts-legend" transform="translate(62,35)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="196" height="50" visibility="visible"/>
+  <g class="highcharts-legend" transform="translate(61,35)">
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="197" height="50" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-pie-series highcharts-color-0" transform="translate(8,3)">
           <text x="21" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="13">
-            <tspan>Güteklass…</tspan><title>Güteklasse A</title>
+            <tspan>Güteklasse A</tspan>
           </text>
           <rect x="3" y="4" width="10" height="10" fill="#B00000" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-pie-series highcharts-color-1" transform="translate(108,3)">
+        <g class="highcharts-legend-item highcharts-pie-series highcharts-color-1" transform="translate(108.921875,3)">
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Güteklass…</tspan><title>Güteklasse B</title>
+            <tspan>Güteklasse B</tspan>
           </text>
           <rect x="3" y="4" width="10" height="10" fill="#FF8028" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-pie-series highcharts-color-2" transform="translate(8,16)">
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Güteklass…</tspan><title>Güteklasse C</title>
+            <tspan>Güteklasse C</tspan>
           </text>
           <rect x="3" y="4" width="10" height="10" fill="#E6E600" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-pie-series highcharts-color-3" transform="translate(108,16)">
+        <g class="highcharts-legend-item highcharts-pie-series highcharts-color-3" transform="translate(108.921875,16)">
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Güteklass…</tspan><title>Güteklasse D</title>
+            <tspan>Güteklasse D</tspan>
           </text>
           <rect x="3" y="4" width="10" height="10" fill="#68AB2B " class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-pie-series highcharts-color-4" transform="translate(8,29)">
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Güteklass…</tspan><title>Güteklasse E</title>
+            <tspan>Güteklasse E</tspan>
           </text>
           <rect x="3" y="4" width="10" height="10" fill="#008AC3" class="highcharts-point"/>
         </g>

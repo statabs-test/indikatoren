@@ -61,19 +61,19 @@
     <tspan>nach Geschlecht</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(35,55)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="276" height="30" visibility="visible"/>
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="306" height="30" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0" transform="translate(8,3)">
           <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#FABD24" stroke-width="2"/>
           <text x="21" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
-            <tspan>Ausländische Fr…</tspan><title>Ausländische Frauen</title>
+            <tspan>Ausländische Frauen</tspan>
           </text>
         </g>
-        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1" transform="translate(148,3)">
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1" transform="translate(161.671875,3)">
           <path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#7F5F1A" stroke-width="2"/>
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Ausländische M…</tspan><title>Ausländische Männer</title>
+            <tspan>Ausländische Männer</tspan>
           </text>
         </g>
       </g>

@@ -61,8 +61,8 @@
   <text x="3" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:10px;font-weight:normal;font-family:Arial;fill:#000000;" y="32">
     <tspan>Basel-Stadt im kantonalen Vergleich; in Franken.</tspan>
   </text>
-  <g class="highcharts-legend" transform="translate(32,48)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="176" height="65" visibility="visible"/>
+  <g class="highcharts-legend" transform="translate(27,48)">
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="232" height="65" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-2" transform="translate(8,3)">
@@ -71,7 +71,7 @@
             <tspan>Zürich</tspan>
           </text>
         </g>
-        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-4" transform="translate(98,3)">
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-4" transform="translate(126.109375,3)">
           <path fill="none" d="M 0 10 L 16 10" class="highcharts-graph" stroke="#E6E600" stroke-width="2"/>
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Bern</tspan>
@@ -83,16 +83,16 @@
             <tspan>Genf</tspan>
           </text>
         </g>
-        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0" transform="translate(98,21)">
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0" transform="translate(126.109375,21)">
           <path fill="none" d="M 0 10 L 16 10" class="highcharts-graph" stroke="#B00000" stroke-width="2"/>
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Basel-St…</tspan><title>Basel-Stadt</title>
+            <tspan>Basel-Stadt</tspan>
           </text>
         </g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1" transform="translate(8,39)">
           <path fill="none" d="M 0 10 L 16 10" class="highcharts-graph" stroke="#662673" stroke-width="2"/>
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Basel-L…</tspan><title>Basel-Landschaft</title>
+            <tspan>Basel-Landschaft</tspan>
           </text>
         </g>
       </g>

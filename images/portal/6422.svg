@@ -102,7 +102,7 @@
     <tspan>nach Staatsangehörigkeit, Geschlecht und Kaderstufe, Stand: 2016</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(115,55)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="296" height="39" visibility="visible"/>
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="342" height="39" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(8,3)">
@@ -111,15 +111,15 @@
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#b00000" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(108,3)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(118.65625,3)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Schweizer</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#661200" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2" transform="translate(208,3)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2" transform="translate(229.3125,3)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Schweiz…</tspan><title>Schweizerinnen</title>
+            <tspan>Schweizerinnen</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#dc440e" class="highcharts-point"/>
         </g>
@@ -129,15 +129,15 @@
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#cd9c00" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4" transform="translate(108,17)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4" transform="translate(118.65625,17)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Ausländer</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#7f5f1a" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-5" transform="translate(208,17)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-5" transform="translate(229.3125,17)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Ausländ…</tspan><title>Ausländerinnen</title>
+            <tspan>Ausländerinnen</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#ffda80" class="highcharts-point"/>
         </g>

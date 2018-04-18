@@ -78,8 +78,8 @@
   <text x="3" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:10px;font-weight:normal;font-family:Arial;fill:#000000;" y="32">
     <tspan>Stand: 2017</tspan>
   </text>
-  <g class="highcharts-legend" transform="translate(48,48)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="476" height="29" visibility="visible"/>
+  <g class="highcharts-legend" transform="translate(46,48)">
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="412" height="29" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0" transform="translate(8,3)">
@@ -88,19 +88,19 @@
             <tspan>Effektiv</tspan>
           </text>
         </g>
-        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1" transform="translate(128,3)">
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1" transform="translate(81.71875,3)">
           <path fill="none" d="M 0 10 L 16 10" class="highcharts-graph" stroke="#b00000 " stroke-width="2"/>
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Hohes Szenario</tspan>
           </text>
         </g>
-        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-2" transform="translate(248,3)">
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-2" transform="translate(193.734375,3)">
           <path fill="none" d="M 0 10 L 16 10" class="highcharts-graph" stroke="#672773" stroke-width="2"/>
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Mittleres Szena…</tspan><title>Mittleres Szenario</title>
+            <tspan>Mittleres Szenario</tspan>
           </text>
         </g>
-        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-3" transform="translate(368,3)">
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-3" transform="translate(314.609375,3)">
           <path fill="none" d="M 0 10 L 16 10" class="highcharts-graph" stroke="#008AC3" stroke-width="2"/>
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Tiefes Szenario</tspan>

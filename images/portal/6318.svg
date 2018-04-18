@@ -141,7 +141,7 @@
   </text>
   <text x="3" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:10px;font-weight:normal;font-family:Arial;fill:#000000;" y="32"/>
   <g class="highcharts-legend" transform="translate(54,35)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="196" height="65" visibility="visible"/>
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="208" height="65" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-0" transform="translate(8,3)">
@@ -151,7 +151,7 @@
             <tspan>Theater</tspan>
           </text>
         </g>
-        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1" transform="translate(108,3)">
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-1" transform="translate(114.4375,3)">
           <path fill="none" d="M 0 10 L 16 10" class="highcharts-graph" stroke="#007A2F" stroke-width="2"/>
           <path fill="#007A2F" d="M 12 10 A 4 4 0 1 1 11.999998000000167 9.996000000666664 Z" class="highcharts-point"/>
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
@@ -165,7 +165,7 @@
             <tspan>Kinos</tspan>
           </text>
         </g>
-        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-3" transform="translate(108,21)">
+        <g class="highcharts-legend-item highcharts-line-series highcharts-color-undefined highcharts-series-3" transform="translate(114.4375,21)">
           <path fill="none" d="M 0 10 L 16 10" class="highcharts-graph" stroke="#662673" stroke-width="2"/>
           <path fill="#662673" d="M 12 10 A 4 4 0 1 1 11.999998000000167 9.996000000666664 Z" class="highcharts-point"/>
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
@@ -176,7 +176,7 @@
           <path fill="none" d="M 0 10 L 16 10" class="highcharts-graph" stroke="#FABD24" stroke-width="2"/>
           <path fill="#FABD24" d="M 12 10 A 4 4 0 1 1 11.999998000000167 9.996000000666664 Z" class="highcharts-point"/>
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Stadtbiblio…</tspan><title>Stadtbibliothek</title>
+            <tspan>Stadtbibliothek</tspan>
           </text>
         </g>
       </g>
