@@ -156,7 +156,6 @@
             }
           }
     },
-    "marginTop": 150,
     "type": "column",
     "renderTo": "container-4142"
   },
@@ -252,8 +251,6 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "padding": 0,
-    "margin": 6,
     "itemStyle": {
       "fontWeight": "normal"
     }

@@ -588,10 +588,9 @@
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
-            return this.name;
+            return this.name.replace('/ ', '/<br/>');
         },
-    "enabled": true,
-    "itemWidth": 160
+    "enabled": true
   },
   "exporting": {
     "filename": 6472

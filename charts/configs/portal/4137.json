@@ -227,7 +227,6 @@
             }
           }
     },
-    "marginBottom": 65,
     "type": "column",
     "renderTo": "container-4137"
   },

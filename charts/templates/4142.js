@@ -18,8 +18,6 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    padding: 0,
-    margin: 6,
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -47,7 +45,6 @@
     "shared": false
   },
   "chart": {
-    "marginTop": 150,
     "type": "column"
   }
 	}

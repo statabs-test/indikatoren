@@ -60,8 +60,6 @@
     }
   ],
   "chart": {
-    "marginBottom": 65,
-    "marginTop": 75,
     "zoomType": "xy",
     "type": "column"
   }

@@ -75,10 +75,5 @@
   "tooltip": {
     "shared": true
   },
-  /*"chart": {
-    "marginBottom": 65,
-    "type": "line",
-    "alignTicks": false
-  }*/
 };
 }());
