@@ -25,7 +25,8 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    itemDistance: 15, 
+    itemDistance: 10, 
+    padding: 0,
 	  "itemMarginBottom": 5,
     "itemStyle": {
     "fontWeight": "normal"

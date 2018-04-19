@@ -213,7 +213,9 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "itemDistance": 8,
+    "itemDistance": 3,
+    "symbolPadding": 3,
+    "padding": 0,
     "itemStyle": {
       "fontWeight": "normal"
     }
