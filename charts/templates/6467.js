@@ -33,8 +33,6 @@
     enabled:true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    //"itemMarginBottom": 5, // space between legend boxes
-    margin: 0,
     symbolPadding: 1,
     itemDistance: 1, 
     padding: 0,

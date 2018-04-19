@@ -359,7 +359,6 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "margin": 0,
     "symbolPadding": 1,
     "itemDistance": 1,
     "padding": 0,
