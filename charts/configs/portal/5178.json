@@ -668,7 +668,8 @@
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
         },
-    "itemWidth": 130
+    "padding": 0,
+    "itemDistance": 5
   },
   "exporting": {
     "filename": 5178
