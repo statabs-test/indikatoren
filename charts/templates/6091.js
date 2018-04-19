@@ -9,7 +9,7 @@
     "inverted": true
   }, 
   legend: {
-    itemDistance: 15,
+    itemDistance: 5,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",

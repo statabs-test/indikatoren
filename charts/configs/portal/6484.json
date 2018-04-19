@@ -237,7 +237,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "itemDistance": 12,
+    "itemDistance": 5,
     "itemStyle": {
       "fontWeight": "normal"
     }

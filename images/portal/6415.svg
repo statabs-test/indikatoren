@@ -100,7 +100,7 @@
     <tspan>nach Staatsangehörigkeit und Geschlecht, gepoolte Daten 2011 bis 2015</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(45,55)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="413" height="25" visibility="visible"/>
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="392" height="25" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(8,3)">
@@ -109,19 +109,19 @@
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#661200" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2" transform="translate(96.3125,3)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2" transform="translate(89.3125,3)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Schweizerinnen</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#dc440e" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4" transform="translate(213.96875,3)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4" transform="translate(199.96875,3)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Ausländer</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#7f5f1a" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-6" transform="translate(300.96875,3)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-6" transform="translate(279.96875,3)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Ausländerinnen</tspan>
           </text>

@@ -339,7 +339,7 @@
   },
   "legend": {
     "symbolRadius": 0,
-    "itemDistance": 12,
+    "itemDistance": 5,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",

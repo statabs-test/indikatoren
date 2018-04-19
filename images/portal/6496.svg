@@ -151,35 +151,35 @@
     <tspan>«Im Kanton Basel-Stadt gibt es Menschen aus den verschiedensten Ländern.</tspan><tspan dy="15" x="10">Bitte geben Sie mir an, ob das eine sehr grosse, eher grosse, eher nicht so</tspan><tspan dy="15" x="10">grosse oder gar keine Bereicherung für den Kanton Basel-Stadt ist.»</tspan><title>«Im Kanton Basel-Stadt gibt es Menschen aus den verschiedensten Ländern. Bitte geben Sie mir an, ob das eine sehr grosse, eher grosse, eher nicht so grosse oder gar keine Bereicherung für den Kanton Basel-Stadt ist.»</title>
   </text>
   <g class="highcharts-legend" transform="translate(140,85)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="311" height="33" visibility="visible"/>
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="305" height="33" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4" transform="translate(0,-5)">
-          <text x="21" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
+          <text x="19" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
             <tspan>Sehr grosse</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#007a2f" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3" transform="translate(90.65625,-5)">
-          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3" transform="translate(88.65625,-5)">
+          <text x="19" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Eher grosse</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#68ab2b" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2" transform="translate(181.3125,-5)">
-          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2" transform="translate(177.3125,-5)">
+          <text x="19" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Eher nicht so grosse</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#ffbb58" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(0,14)">
-          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
+          <text x="19" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Gar keine</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#dc440e" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(77.984375,14)">
-          <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(75.984375,14)">
+          <text x="19" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Weiss nicht / keine Angabe</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#999999" class="highcharts-point"/>

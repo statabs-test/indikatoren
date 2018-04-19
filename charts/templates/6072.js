@@ -29,6 +29,7 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
+    itemDistance: 15,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"

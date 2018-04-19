@@ -208,7 +208,7 @@
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
         },
-    "itemDistance": 15,
+    "itemDistance": 5,
     "enabled": true
   },
   "exporting": {

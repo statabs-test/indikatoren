@@ -63,7 +63,7 @@
     <tspan>Personen ab 15 Jahren nach Migrationsstatus, gepoolte Daten 2011 - 2015</tspan>
   </text>
   <g class="highcharts-legend" transform="translate(107,55)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="340" height="30" visibility="visible"/>
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="320" height="30" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2" transform="translate(8,3)">
@@ -72,13 +72,13 @@
           </text>
           <rect x="2" y="4" width="12" height="12" fill="rgb(103,39,115)" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(128,3)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" transform="translate(118,3)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Sekundarstufe II</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="rgb(180,117,171)" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(251.328125,3)">
+        <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" transform="translate(231.328125,3)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Tertiärstufe</tspan>
           </text>

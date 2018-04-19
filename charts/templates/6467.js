@@ -36,7 +36,8 @@
     //"itemMarginBottom": 5, // space between legend boxes
     margin: 0,
     symbolPadding: 1,
-    itemDistance: 3, 
+    itemDistance: 1, 
+    padding: 0,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"

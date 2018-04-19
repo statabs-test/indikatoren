@@ -391,9 +391,10 @@
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
         },
-    "x": -5,
     "enabled": true,
-    "itemWidth": 160
+    "alignColumns": false,
+    "itemDistance": 5,
+    "padding": 0
   },
   "exporting": {
     "filename": 6512
