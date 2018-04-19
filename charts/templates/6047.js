@@ -55,8 +55,8 @@
       //"x": 155,
       //"y": 30,   
       //"itemWidth": 60,
-      itemDistance: 7,
-      symbolPadding: 2,
+      itemDistance: 5,
+      symbolPadding: 1,
       padding: 0,
       "itemStyle": {
         "fontWeight": "normal",

@@ -228,6 +228,7 @@
       "formatter": function () {
                   	 return this.value.replace("  ", "<br/>");
             },
+      "useHTML": true,
       "align": "left",
       "x": -140
     }
@@ -359,6 +360,7 @@
         }
   },
   "exporting": {
+    "allowHTML": true,
     "filename": 6028
   }
 }

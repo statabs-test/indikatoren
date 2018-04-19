@@ -42,10 +42,9 @@ global Highcharts
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    //"width": 50,
-	  //"y": 45,
     "itemMarginBottom": 5,
     itemDistance: 0,
+    padding: 0,
     //itemWidth: 200,
     "itemStyle": {
       "fontWeight": "normal",
