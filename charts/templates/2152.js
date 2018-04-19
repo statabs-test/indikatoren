@@ -46,7 +46,7 @@
     },
   },  
   "chart": {
-  	height: 600,
+  	//height: 600,
   	type: "column",
     "inverted": false,
   }

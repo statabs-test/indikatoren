@@ -26,7 +26,7 @@
         text: null
       },
       labels: {
-  		  format: "{value:,.0f}", 
+  		  format: "{value:,.f}", 
         style: {
           color: "#000000"
         }
