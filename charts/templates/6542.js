@@ -44,7 +44,7 @@
   },
   legend: {
         reversed: false,
-        itemDistance: 10,
+        itemDistance: 5,
         layout: "horizontal",
         verticalAlign: "top",
         itemMarginBottom: 5,     

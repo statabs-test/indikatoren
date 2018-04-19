@@ -110,7 +110,7 @@
     </g>
   </g>
   <g class="highcharts-legend" transform="translate(41,41)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="417" height="30" visibility="visible"/>
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="402" height="30" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-bar-series highcharts-color-undefined highcharts-series-0" transform="translate(8,3)">
@@ -119,19 +119,19 @@
           </text>
           <rect x="2" y="4" width="12" height="12" fill="rgb(237, 226, 208)" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-bar-series highcharts-color-undefined highcharts-series-1" transform="translate(122.3125,3)">
+        <g class="highcharts-legend-item highcharts-bar-series highcharts-color-undefined highcharts-series-1" transform="translate(117.3125,3)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>3-Sterne</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="rgb(197, 171, 146)" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-bar-series highcharts-color-undefined highcharts-series-2" transform="translate(199.296875,3)">
+        <g class="highcharts-legend-item highcharts-bar-series highcharts-color-undefined highcharts-series-2" transform="translate(189.296875,3)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>4- und 5-Sterne</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="rgb(159, 124, 90)" class="highcharts-point"/>
         </g>
-        <g class="highcharts-legend-item highcharts-bar-series highcharts-color-undefined highcharts-series-3" transform="translate(313.609375,3)">
+        <g class="highcharts-legend-item highcharts-bar-series highcharts-color-undefined highcharts-series-3" transform="translate(298.609375,3)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
             <tspan>Nicht klassiert</tspan>
           </text>

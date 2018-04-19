@@ -65,6 +65,8 @@
     "enabled": true,
     "layout": "horizontal",
     itemDistance: -10, 
+    padding: 0,
+    symbolPadding: 3,
     "verticalAlign": "top",
     "align": "left",
     "itemStyle": {
