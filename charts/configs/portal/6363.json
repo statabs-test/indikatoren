@@ -180,7 +180,11 @@
               var index = this.axis.names.indexOf(this.value);
               //check if there's data at this index. if not, suppress axis label
               return this.axis.series[0].yData[index] ? this.value : "";
-            }
+            },
+        "style": {
+          "color": "#000000",
+          "fontSize": "10px"
+        }
       }
     },
     {
@@ -196,7 +200,11 @@
               var index = this.axis.names.indexOf(this.value);
               //check if there's data at this index. if not, suppress axis label
               return this.axis.series[0].yData[index] ? this.value : "";
-            }
+            },
+        "style": {
+          "color": "#000000",
+          "fontSize": "10px"
+        }
       }
     },
     {
@@ -212,7 +220,11 @@
               var index = this.axis.names.indexOf(this.value);
               //check if there's data at this index. if not, suppress axis label
               return this.axis.series[0].yData[index] ? this.value : "";
-            }
+            },
+        "style": {
+          "color": "#000000",
+          "fontSize": "10px"
+        }
       }
     }
   ],

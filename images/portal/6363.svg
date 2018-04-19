@@ -116,70 +116,70 @@
     <tspan>nach Haushaltstyp in m², Stand: 2016</tspan>
   </text>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
-    <text x="10" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="start" transform="translate(0,0)" y="72" opacity="1">
+    <text x="10" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="71" opacity="1">
       Einpersonenhaushalte
     </text>
-    <text x="10" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="start" transform="translate(0,0)" y="96" opacity="1">
+    <text x="10" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="95" opacity="1">
       Familienhaushalte
     </text>
-    <text x="10" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="start" transform="translate(0,0)" y="126" opacity="1"/>
-    <text x="10" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="start" transform="translate(0,0)" y="150" opacity="1"/>
-    <text x="10" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="start" transform="translate(0,0)" y="174" opacity="1"/>
-    <text x="10" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="start" transform="translate(0,0)" y="198" opacity="1"/>
-    <text x="10" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="start" transform="translate(0,0)" y="223" opacity="1"/>
-    <text x="10" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="start" transform="translate(0,0)" y="247" opacity="1"/>
-    <text x="10" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="start" transform="translate(0,0)" y="271" opacity="1"/>
-    <text x="10" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="start" transform="translate(0,0)" y="295" opacity="1"/>
-    <text x="10" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="start" transform="translate(0,0)" y="319" opacity="1"/>
-    <text x="10" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="start" transform="translate(0,0)" y="336" opacity="1">
+    <text x="10" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="125" opacity="1"/>
+    <text x="10" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="149" opacity="1"/>
+    <text x="10" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="173" opacity="1"/>
+    <text x="10" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="197" opacity="1"/>
+    <text x="10" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="222" opacity="1"/>
+    <text x="10" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="246" opacity="1"/>
+    <text x="10" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="270" opacity="1"/>
+    <text x="10" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="294" opacity="1"/>
+    <text x="10" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="318" opacity="1"/>
+    <text x="10" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="335" opacity="1">
       Nichtfamilienhaushalte
     </text>
   </g>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
-    <text x="30" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="start" transform="translate(0,0)" y="78" opacity="1"/>
-    <text x="30" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="start" transform="translate(0,0)" y="102" opacity="1"/>
-    <text x="30" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="start" transform="translate(0,0)" y="120" opacity="1">
+    <text x="30" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="77" opacity="1"/>
+    <text x="30" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="101" opacity="1"/>
+    <text x="30" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="119" opacity="1">
       <tspan>Verheiratete/registrierte Paare ohne Kinder</tspan>
     </text>
-    <text x="30" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="start" transform="translate(0,0)" y="144" opacity="1">
+    <text x="30" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="143" opacity="1">
       <tspan>Paare mit minderjährigen Kindern</tspan>
     </text>
-    <text x="30" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="start" transform="translate(0,0)" y="174" opacity="1"/>
-    <text x="30" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="start" transform="translate(0,0)" y="198" opacity="1"/>
-    <text x="30" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="start" transform="translate(0,0)" y="216" opacity="1">
+    <text x="30" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="173" opacity="1"/>
+    <text x="30" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="197" opacity="1"/>
+    <text x="30" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="215" opacity="1">
       <tspan>Einelternhaushalte mit minderj. Kindern</tspan>
     </text>
-    <text x="30" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="start" transform="translate(0,0)" y="247" opacity="1"/>
-    <text x="30" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="start" transform="translate(0,0)" y="271" opacity="1"/>
-    <text x="30" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="start" transform="translate(0,0)" y="295" opacity="1"/>
-    <text x="30" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="start" transform="translate(0,0)" y="312" opacity="1">
+    <text x="30" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="246" opacity="1"/>
+    <text x="30" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="270" opacity="1"/>
+    <text x="30" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="294" opacity="1"/>
+    <text x="30" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="311" opacity="1">
       <tspan>Eltern(-teil) mit nur volljährigen Kindern</tspan>
     </text>
-    <text x="30" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="start" transform="translate(0,0)" y="343" opacity="1"/>
+    <text x="30" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="342" opacity="1"/>
   </g>
   <g class="highcharts-axis-labels highcharts-xaxis-labels ">
-    <text x="50" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="start" transform="translate(0,0)" y="78" opacity="1"/>
-    <text x="50" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="start" transform="translate(0,0)" y="102" opacity="1"/>
-    <text x="50" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="start" transform="translate(0,0)" y="126" opacity="1"/>
-    <text x="50" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="start" transform="translate(0,0)" y="150" opacity="1"/>
-    <text x="50" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="start" transform="translate(0,0)" y="168" opacity="1">
+    <text x="50" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="77" opacity="1"/>
+    <text x="50" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="101" opacity="1"/>
+    <text x="50" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="125" opacity="1"/>
+    <text x="50" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="149" opacity="1"/>
+    <text x="50" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="167" opacity="1">
       <tspan>Verheiratete Paare mit Kindern</tspan>
     </text>
-    <text x="50" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="start" transform="translate(0,0)" y="192" opacity="1">
+    <text x="50" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="191" opacity="1">
       <tspan>Unverheiratete Paare mit Kindern</tspan>
     </text>
-    <text x="50" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="start" transform="translate(0,0)" y="223" opacity="1"/>
-    <text x="50" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="start" transform="translate(0,0)" y="240" opacity="1">
+    <text x="50" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="222" opacity="1"/>
+    <text x="50" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="239" opacity="1">
       <tspan>Ohne weitere Personen</tspan>
     </text>
-    <text x="50" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="start" transform="translate(0,0)" y="264" opacity="1">
+    <text x="50" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="263" opacity="1">
       <tspan>Mit Grosseltern(-teil)</tspan>
     </text>
-    <text x="50" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="start" transform="translate(0,0)" y="288" opacity="1">
+    <text x="50" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="287" opacity="1">
       <tspan>Mit weiteren Personen</tspan>
     </text>
-    <text x="50" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="start" transform="translate(0,0)" y="319" opacity="1"/>
-    <text x="50" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="start" transform="translate(0,0)" y="343" opacity="1"/>
+    <text x="50" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="318" opacity="1"/>
+    <text x="50" style="color:#000000;cursor:default;font-size:10px;fill:#000000;" text-anchor="start" transform="translate(0,0)" y="342" opacity="1"/>
   </g>
   <g class="highcharts-axis-labels highcharts-yaxis-labels ">
     <text x="250" style="color:#000000;cursor:default;font-size:11px;fill:#000000;" text-anchor="middle" transform="translate(0,0)" y="363" opacity="1">
