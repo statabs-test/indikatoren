@@ -2064,6 +2064,7 @@
     "align": "left",
     "symbolRadius": 0,
     "itemMarginBottom": 5,
+    "itemDistance": 10,
     "itemStyle": {
       "fontWeight": "normal"
     }
