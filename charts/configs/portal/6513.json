@@ -393,8 +393,7 @@
         },
     "x": -5,
     "margin": 3,
-    "enabled": true,
-    "itemWidth": 160
+    "enabled": true
   },
   "exporting": {
     "filename": 6513

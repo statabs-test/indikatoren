@@ -57,7 +57,6 @@
      margin: 3,
     "enabled": true,
     "layout": "horizontal",
-   "itemWidth": 160,
     "verticalAlign": "top",
     "align": "left",
     "itemStyle": {
