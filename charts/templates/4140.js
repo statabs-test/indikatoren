@@ -6,7 +6,7 @@ global Highcharts
     return {
    "yAxis": {
       "labels": {
-      "format": "{value:,.0f} m²",
+      "format": "{value:,.f}",
     }
   },
   "xAxis": {
