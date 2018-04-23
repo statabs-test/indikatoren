@@ -25,7 +25,7 @@ global geojson_wohnviertelEPSG2056
                    dataClasses: [{
                 to:26.99,
                 color: '#D7E8D2',
-                name:  "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<\u00a027,0"
+                name:  "<span style='color: rgba(0,0,0,0)'>27,0</span> < 27,0"
             }, {
                 from: 27.0,
                 to: 29.9,
@@ -44,7 +44,7 @@ global geojson_wohnviertelEPSG2056
             },{
                 from: 36.0,
                 color: '#0A3B19',
-                name:  "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0≥\u00a036,0" 
+                name:  "<span style='color: rgba(0,0,0,0)'>36,0</span> ≥ 36,0" 
             }],
 		},
         "data": {

@@ -4333,7 +4333,7 @@
       {
         "to": 0.34999,
         "color": "#D7E8D2",
-        "name": "          \u003C 0,349"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0,000\u003C\u002Fspan\u003E \u003C 0,349"
       },
       {
         "from": 0.35,
@@ -4356,7 +4356,7 @@
       {
         "from": 0.8,
         "color": "#0A3B19",
-        "name": "          ≥ 0,800"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0,000\u003C\u002Fspan\u003E ≥ 0,800"
       }
     ]
   },

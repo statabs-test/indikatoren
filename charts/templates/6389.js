@@ -28,17 +28,17 @@
                    dataClasses: [{
                 to:4.999,
                 color: '#D7E8D2',
-                name:  "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&nbsp<\u00a0\u00a0\u00a05,0"
+                name:  "<span style='color: rgba(0,0,0,0)'>12,5</span> < <span style='color: rgba(0,0,0,0)'>0</span>5,0"
             }, {
                 from: 5,
                 to: 7.4999,
                 color: '#73B97C',
-                name: "\u00a0\u00a05,0 −\u00a0\u00a0\u00a07,4"
+                name: "<span style='color: rgba(0,0,0,0)'>0</span>5,0 − <span style='color: rgba(0,0,0,0)'>0</span>7,4"
             }, {
                 from: 7.5,
                 to: 9.999,
                  color: '#68AB2B',
-                 name: "\u00a0\u00a07,5 −\u00a0\u00a0\u00a09,9"
+                 name: "<span style='color: rgba(0,0,0,0)'>0</span>7,5 − <span style='color: rgba(0,0,0,0)'>0</span>9,9"
             },{
                 from: 10,
                 to: 12.499,
@@ -47,7 +47,7 @@
             },{
                 from: 12.5,
                 color: '#0A3B19',
-                name:  "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0≥\u00a012,5"
+                name:  "<span style='color: rgba(0,0,0,0)'>12,5</span> ≥ 15,5"
             }], 
         },
         "data": {
@@ -108,19 +108,19 @@
 					var pieSizeCatConfig = 
 					[
 						{
-							name: '\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<\u00a0\u00a0\u00a0 500',
+							name: "<span style='color: rgba(0,0,0,0)'>500</span> < <span style='color: rgba(0,0,0,0)'>0</span> 500",
 							from: 0,
 							to: 499, 
 							diameter: 2
 						},
 						{
-							name: ' 500 −\u00a0\u00a0\u00a0 999',
+							name: "500 − <span style='color: rgba(0,0,0,0)'>0</span> 999",
 							from: 500,
 							to: 999,
 							diameter: 8
 						},
 						{
-							name: '\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0≥  1 000',
+							name: "<span style='color: rgba(0,0,0,0)'>500</span> ≥  1 000",
 							from: 1000,							
 							to: 1000000000,
 							diameter: 16

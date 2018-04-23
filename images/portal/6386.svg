@@ -75,7 +75,7 @@
       <g>
         <g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" transform="translate(8,3)">
           <text x="21" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
-            <tspan>&lt; 100 000</tspan>
+            <tspan style="fill: rgba(0,0,0,0)">000 000</tspan><tspan dx="0"> &lt; 100 000</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#D7E8D2" class="highcharts-point"/>
         </g>
@@ -99,7 +99,7 @@
         </g>
         <g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" transform="translate(8,67)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>≥ 700 000</tspan>
+            <tspan style="fill: rgba(0,0,0,0)">000 000</tspan><tspan dx="0"> ≥ 700 000</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#0A3B19" class="highcharts-point"/>
         </g>

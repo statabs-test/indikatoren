@@ -28,17 +28,17 @@
                    dataClasses: [{
                 to:24.999,
                 color: '#D7E8D2',
-                name:  " \u00a0\u00a0 \u00a0\u00a0 \u00a0 \u00a0\u00a0< \u00a0\u00a025,0"
+                name:  "<span style='color: rgba(0,0,0,0)'>000,0</span> < <span style='color: rgba(0,0,0,0)'>0</span>25,0"
             }, {
                 from: 25.0,
                 to: 49.999,
                 color: '#73B97C',
-                name: "\u00a0\u00a025,0 − \u00a0\u00a049,9"
+                name: "<span style='color: rgba(0,0,0,0)'>0</span>25,0 − <span style='color: rgba(0,0,0,0)'>0</span>49,9"
             }, {
                 from: 50.0,
                 to: 99.999,
                  color: '#68AB2B',
-                 name: "\u00a0\u00a050,0 −  \u00a0\u00a099,9"
+                 name: "<span style='color: rgba(0,0,0,0)'>0</span>50,0 − <span style='color: rgba(0,0,0,0)'>0</span>99,9"
             },{
                 from: 100.0,
                 to: 199.999,
@@ -47,7 +47,7 @@
             },{
                 from: 200.0,
                 color: '#0A3B19',
-                name:  "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0≥\u00a0200,0"
+                name:  "<span style='color: rgba(0,0,0,0)'>000,0</span> ≥ 200,0"
             }], 
         },
         "data": {
@@ -108,19 +108,19 @@
 					var pieSizeCatConfig = 
 					[
 						{
-							name: '\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0< 3 000',
+							name: "<span style='color: rgba(0,0,0,0)'>0 000</span> < 3 000",
 							from: 0,
 							to: 3000, 
 							diameter: 2
 						},
 						{
-							name: ' 3 000 − 7 999',
+							name: "3 000 − 7 999",
 							from: 3000,
 							to: 7999,
 							diameter: 8
 						},
 						{
-							name: '\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0≥  8 000',
+							name: "<span style='color: rgba(0,0,0,0)'>0 000</span> ≥  8 000",
 							from: 8000,							
 							to: 1000000000,
 							diameter: 16

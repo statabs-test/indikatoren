@@ -3606,7 +3606,7 @@
       {
         "to": 49999,
         "color": "#D7E8D2",
-        "name": "            \u003C 50 000"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E00 000\u003C\u002Fspan\u003E \u003C 50 000"
       },
       {
         "from": 50000,
@@ -3629,7 +3629,7 @@
       {
         "from": 80000,
         "color": "#0A3B19",
-        "name": "            ≥ 80 000"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E00 000\u003C\u002Fspan\u003E ≥ 80 000"
       }
     ]
   },

@@ -3665,19 +3665,19 @@
 					var pieSizeCatConfig = 
 					[
 						{
-							name: '\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<\u00a0\u00a0\u00a0 500',
+							name: "<span style='color: rgba(0,0,0,0)'>500</span> < <span style='color: rgba(0,0,0,0)'>0</span> 500",
 							from: 0,
 							to: 499, 
 							diameter: 2
 						},
 						{
-							name: ' 500 −\u00a0\u00a0\u00a0 999',
+							name: "500 − <span style='color: rgba(0,0,0,0)'>0</span> 999",
 							from: 500,
 							to: 999,
 							diameter: 8
 						},
 						{
-							name: '\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0≥  1 000',
+							name: "<span style='color: rgba(0,0,0,0)'>500</span> ≥  1 000",
 							from: 1000,							
 							to: 1000000000,
 							diameter: 16
@@ -3785,19 +3785,19 @@
       {
         "to": 4.999,
         "color": "#D7E8D2",
-        "name": "       &nbsp\u003C   5,0"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E12,5\u003C\u002Fspan\u003E \u003C \u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E5,0"
       },
       {
         "from": 5,
         "to": 7.4999,
         "color": "#73B97C",
-        "name": "  5,0 −   7,4"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E5,0 − \u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E7,4"
       },
       {
         "from": 7.5,
         "to": 9.999,
         "color": "#68AB2B",
-        "name": "  7,5 −   9,9"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E7,5 − \u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E9,9"
       },
       {
         "from": 10,
@@ -3808,7 +3808,7 @@
       {
         "from": 12.5,
         "color": "#0A3B19",
-        "name": "        ≥ 12,5"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E12,5\u003C\u002Fspan\u003E ≥ 15,5"
       }
     ]
   },

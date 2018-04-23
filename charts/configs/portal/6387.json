@@ -3665,7 +3665,7 @@
 					var pieSizeCatConfig = 
 					[
 						{
-							name: '\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0< \u00a0\u00a0800',
+							name: "<span style='color: rgba(0,0,0,0)'>1 800</span> <  800",
 							from: 0,
 							to: 799, 
 							diameter: 2
@@ -3677,7 +3677,7 @@
 							diameter: 8
 						},
 						{
-							name: '\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0≥  1 600',
+							name: "<span style='color: rgba(0,0,0,0)'>600</span> ≥  1 600",
 							from: 1600,							
 							to: 1000000000,
 							diameter: 16
@@ -3786,7 +3786,7 @@
       {
         "to": 13,
         "color": "#D7E8D2",
-        "name": "        \u003C 13,0"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E13,0\u003C\u002Fspan\u003E \u003C 13,0"
       },
       {
         "from": 13,
@@ -3809,7 +3809,7 @@
       {
         "from": 20,
         "color": "#0A3B19",
-        "name": "        ≥ 20.0"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E20,0\u003C\u002Fspan\u003E ≥ 20.0"
       }
     ]
   },

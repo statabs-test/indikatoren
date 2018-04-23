@@ -331,21 +331,21 @@
     </text>
   </g>
   <circle cx="373" cy="266" r="1" fill="#7F5F1A" stroke="#7F5F1A" stroke-width="1" class="undefined pieLegend"/>
-  <g class="undefined pieLegend" initialValue=" &lt; 800" transform="translate(385,255)">
+  <g class="undefined pieLegend" initialValue="&lt;span style='color: rgba(0,0,0,0)'&gt;000&lt;/span&gt; &lt; &lt;span style='color: rgba(0,0,0,0)'&gt;00&lt;/span&gt; 800" transform="translate(385,255)">
     <text x="3" y="15">
-      <tspan>&lt; 800</tspan>
+      <tspan style="fill: rgba(0,0,0,0)">000</tspan><tspan dx="0"> &lt; </tspan><tspan style="fill: rgba(0,0,0,0)" dx="0">00</tspan><tspan dx="0"> 800</tspan>
     </text>
   </g>
   <circle cx="373" cy="285" r="4" fill="#7F5F1A" stroke="#7F5F1A" stroke-width="1" class="undefined pieLegend"/>
-  <g class="undefined pieLegend" initialValue=" 800 − 1 599" transform="translate(385,275)">
+  <g class="undefined pieLegend" initialValue="800 − &lt;span style='color: rgba(0,0,0,0)'&gt;0&lt;/span&gt;1 599" transform="translate(385,275)">
     <text x="3" y="15">
-      <tspan>800 − 1 599</tspan>
+      <tspan>800 − </tspan><tspan style="fill: rgba(0,0,0,0)" dx="0">0</tspan><tspan dx="0">1 599</tspan>
     </text>
   </g>
   <circle cx="373" cy="310" r="8" fill="#7F5F1A" stroke="#7F5F1A" stroke-width="1" class="undefined pieLegend"/>
-  <g class="undefined pieLegend" initialValue=" ≥  10600" transform="translate(385,300)">
+  <g class="undefined pieLegend" initialValue="&lt;span style='color: rgba(0,0,0,0)'&gt;000&lt;/span&gt; ≥  10 600" transform="translate(385,300)">
     <text x="3" y="15">
-      <tspan>≥ 10600</tspan>
+      <tspan style="fill: rgba(0,0,0,0)">000</tspan><tspan dx="0"> ≥ 10 600</tspan>
     </text>
   </g>
   <g class="undefined pieLegendTitle" transform="translate(245,210)">
@@ -359,21 +359,21 @@
     </text>
   </g>
   <circle cx="373" cy="266" r="1" fill="#7F5F1A" stroke="#7F5F1A" stroke-width="1" class="undefined pieLegend"/>
-  <g class="undefined pieLegend" initialValue=" &lt; 800" transform="translate(385,255)">
+  <g class="undefined pieLegend" initialValue="&lt;span style='color: rgba(0,0,0,0)'&gt;000&lt;/span&gt; &lt; &lt;span style='color: rgba(0,0,0,0)'&gt;00&lt;/span&gt; 800" transform="translate(385,255)">
     <text x="3" y="15">
-      <tspan>&lt; 800</tspan>
+      <tspan style="fill: rgba(0,0,0,0)">000</tspan><tspan dx="0"> &lt; </tspan><tspan style="fill: rgba(0,0,0,0)" dx="0">00</tspan><tspan dx="0"> 800</tspan>
     </text>
   </g>
   <circle cx="373" cy="285" r="4" fill="#7F5F1A" stroke="#7F5F1A" stroke-width="1" class="undefined pieLegend"/>
-  <g class="undefined pieLegend" initialValue=" 800 − 1 599" transform="translate(385,275)">
+  <g class="undefined pieLegend" initialValue="800 − &lt;span style='color: rgba(0,0,0,0)'&gt;0&lt;/span&gt;1 599" transform="translate(385,275)">
     <text x="3" y="15">
-      <tspan>800 − 1 599</tspan>
+      <tspan>800 − </tspan><tspan style="fill: rgba(0,0,0,0)" dx="0">0</tspan><tspan dx="0">1 599</tspan>
     </text>
   </g>
   <circle cx="373" cy="310" r="8" fill="#7F5F1A" stroke="#7F5F1A" stroke-width="1" class="undefined pieLegend"/>
-  <g class="undefined pieLegend" initialValue=" ≥  10600" transform="translate(385,300)">
+  <g class="undefined pieLegend" initialValue="&lt;span style='color: rgba(0,0,0,0)'&gt;000&lt;/span&gt; ≥  10 600" transform="translate(385,300)">
     <text x="3" y="15">
-      <tspan>≥ 10600</tspan>
+      <tspan style="fill: rgba(0,0,0,0)">000</tspan><tspan dx="0"> ≥ 10 600</tspan>
     </text>
   </g>
   <g class="highcharts-legend" transform="translate(238,249)">
@@ -382,7 +382,7 @@
       <g>
         <g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" transform="translate(8,3)">
           <text x="21" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
-            <tspan>&lt; 13,0</tspan>
+            <tspan style="fill: rgba(0,0,0,0)">00,0</tspan><tspan dx="0"> &lt; 13,0</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#D7E8D2" class="highcharts-point"/>
         </g>
@@ -406,13 +406,13 @@
         </g>
         <g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" transform="translate(8,67)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>≥ 20.0</tspan>
+            <tspan style="fill: rgba(0,0,0,0)">00,0</tspan><tspan dx="0"> ≥ 20.0</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#0A3B19" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" transform="translate(8,3)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>&lt; 13,0</tspan>
+            <tspan style="fill: rgba(0,0,0,0)">00,0</tspan><tspan dx="0"> &lt; 13,0</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#D7E8D2" class="highcharts-point"/>
         </g>
@@ -436,13 +436,13 @@
         </g>
         <g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" transform="translate(8,67)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>≥ 20.0</tspan>
+            <tspan style="fill: rgba(0,0,0,0)">00,0</tspan><tspan dx="0"> ≥ 20.0</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#0A3B19" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" transform="translate(8,3)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>&lt; 13,0</tspan>
+            <tspan style="fill: rgba(0,0,0,0)">00,0</tspan><tspan dx="0"> &lt; 13,0</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#D7E8D2" class="highcharts-point"/>
         </g>
@@ -466,7 +466,7 @@
         </g>
         <g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" transform="translate(8,67)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>≥ 20.0</tspan>
+            <tspan style="fill: rgba(0,0,0,0)">00,0</tspan><tspan dx="0"> ≥ 20.0</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#0A3B19" class="highcharts-point"/>
         </g>

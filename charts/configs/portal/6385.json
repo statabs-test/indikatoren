@@ -3606,7 +3606,7 @@
       {
         "to": 26.99,
         "color": "#D7E8D2",
-        "name": "        \u003C 27,0"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E27,0\u003C\u002Fspan\u003E \u003C 27,0"
       },
       {
         "from": 27,
@@ -3629,7 +3629,7 @@
       {
         "from": 36,
         "color": "#0A3B19",
-        "name": "        ≥ 36,0"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E36,0\u003C\u002Fspan\u003E ≥ 36,0"
       }
     ]
   },

@@ -28,7 +28,7 @@
                    dataClasses: [{
                 to:0.34999,
                 color: '#D7E8D2',
-                name:  "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<\u00a00,349"
+                name:  "<span style='color: rgba(0,0,0,0)'>0,000</span> < 0,349"
             }, {
                 from: 0.35,
                 to: 0.449,
@@ -47,7 +47,7 @@
             },{
                 from: 0.8,
                 color: '#0A3B19',
-                name:  "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0≥\u00a00,800"
+                name:  "<span style='color: rgba(0,0,0,0)'>0,000</span> ≥ 0,800"
             }], 
         },
         "data": {
