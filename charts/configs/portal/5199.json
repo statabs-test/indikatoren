@@ -193,7 +193,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -222,7 +222,8 @@
     },
     "marginBottom": 65,
     "alignTicks": false,
-    "renderTo": "container-5199"
+    "renderTo": "container-5199",
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -324,9 +325,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)\u003Cbr\u002F\u003EZuletzt geändert: 2\u002F16\u002F2018"
   },
   "legend": {
     "symbolRadius": 0,

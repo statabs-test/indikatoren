@@ -252,7 +252,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -266,7 +266,8 @@
     "type": "column",
     "marginLeft": 150,
     "inverted": true,
-    "renderTo": "container-6028"
+    "renderTo": "container-6028",
+    "spacingBottom": 40
   },
   "title": {
     "style": {
@@ -340,9 +341,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik und Bundesamt für Raumentwicklung, Mikrozensus Mobilität und Verkehr"
+    "text": "Quelle: Bundesamt für Statistik und Bundesamt für Raumentwicklung, Mikrozensus Mobilität und Verkehr\u003Cbr\u002F\u003EZuletzt geändert: 4\u002F3\u002F2018"
   },
   "legend": {
     "layout": "vertical",
