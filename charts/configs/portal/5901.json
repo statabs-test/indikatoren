@@ -296,7 +296,6 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "marginBottom": 75,
     "alignTicks": false,
     "renderTo": "container-5901"
   },

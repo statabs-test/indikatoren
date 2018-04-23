@@ -141,7 +141,6 @@
             }
           }
     },
-    "marginBottom": 65,
     "type": "line",
     "alignTicks": false,
     "renderTo": "container-5066",

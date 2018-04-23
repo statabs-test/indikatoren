@@ -209,8 +209,6 @@
             }
           }
     },
-    "marginBottom": 75,
-    "marginTop": 75,
     "type": "column",
     "renderTo": "container-4947",
     "spacingBottom": 50

@@ -220,7 +220,6 @@
             }
           }
     },
-    "marginBottom": 65,
     "alignTicks": false,
     "renderTo": "container-5199",
     "spacingBottom": 40
@@ -335,8 +334,6 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 45,
-    "width": 300,
     "itemMarginBottom": 5,
     "itemWidth": 300,
     "itemStyle": {

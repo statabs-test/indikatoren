@@ -94,7 +94,6 @@
             }
           }
     },
-    "marginBottom": 75,
     "type": "column",
     "inverted": false,
     "renderTo": "container-6475",

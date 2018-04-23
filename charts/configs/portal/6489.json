@@ -109,7 +109,6 @@
             }
           }
     },
-    "marginBottom": 60,
     "type": "column",
     "inverted": false,
     "renderTo": "container-6489",
