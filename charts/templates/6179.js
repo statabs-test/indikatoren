@@ -9,7 +9,8 @@
         }
    },
   "xAxis": {
-    "type": "category",
+    "type": "linear",
+    tickInterval: 2,
     "labels": {
       "rotation": 0 
     } 
@@ -29,7 +30,7 @@
     "verticalAlign": "top",
     "align": "left",
     //"x": 25,
-	"y": 25,    
+	//"y": 25,    
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -38,7 +39,7 @@
     "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
     "shared": false
   },
-  "chart": {      
+  "chart": { 
     "type": "column",
     "inverted": false,
     //"spacingTop": 100

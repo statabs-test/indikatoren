@@ -29,7 +29,7 @@
           "style": {
           "color": "#000000"
           },
-          "format": "{value}",
+          "format": "{value:,.0f}",
       },
       "reversedStacks": true
     },
@@ -54,20 +54,23 @@
     }
   ],
   "tooltip": {    
-    "shared": false,
-    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.0f}</b><br/>'
+    "shared": true,
+    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+    //"footerFormat": 'Total: <b>{point.total:,.0f}</b>',
   },  
-  "legend": {
+  "legend": { 
+     //y: 35,
+     itemMarginBottom: 5,
+    "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
-    "x": 43,
-    "y": 35,
+
     "align": "left",
     "itemStyle": {
-      "fontWeight": "normal"
-    }
+    "fontWeight": "normal"
+    
   },
+},
   "series": [
     {
       "color": "#FABD24",
@@ -77,19 +80,18 @@
     {
       "color": "#008AC3",
       "type": "column", 
-      "legendIndex": 0
+      "legendIndex": 2
     },
     {
       "color": "#9F7C5A",
       "type": "line",
       "yAxis": 1,
       "stacking": null, 
-      "legendIndex": 4
+      "legendIndex": 0
     }    
   ],
   "chart": {
     "marginBottom": 65,
-    "marginTop": 100,
     "type": "column"
   }
 	}

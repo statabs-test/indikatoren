@@ -228,7 +228,6 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "marginRight": 18,
     "renderTo": "container-2529"
   },
   "title": {
@@ -277,7 +276,8 @@
     "lineWidth": 0.5,
     "labels": {
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "textOverflow": "none"
       }
     },
     "tickLength": 0,
@@ -305,8 +305,6 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "y": 45,
-    "itemWidth": 150,
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"

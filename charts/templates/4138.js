@@ -3,11 +3,13 @@
   "plotOptions": {
     "series": {
       "stacking": null,
-      "groupPadding": 0.05
+       pointPadding: 0, 
+	   groupPadding: 0.1, 
+
     }, 
     line: {
         tooltip: {
-          pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
+          pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}%</b><br/>',
           shared: false
         },
         shadow: true
@@ -59,44 +61,61 @@
     pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
     shared: false
   },
-  "legend": {
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 7,
-    "align": "right",
+  "legend": { 
+    "enabled": true,
+    "layout": "horizontal",
+    itemDistance: -10, 
+    padding: 0,
+    symbolPadding: 3,
+    "verticalAlign": "top",
+    "align": "left",
     "itemStyle": {
-      "fontWeight": "normal", 
-      "width": 85
-    }
+      "fontWeight": "normal",
+      textOverflow: null,
+      whitespace: 'nowrap'
+    },
   },
   "series": [
     {
-      "color": "#ffbb58",
-      "index": 0,
+      "color": "#B00000",
+      "index": 1,
+      legendIndex: 2, // 1 zimmer
       "visible": false
     },
     {
-      "color": "#73b97c",
-      "index": 1,
+      "color": "#ffbb58",
+      "index": 2, // 2 Zimmer
+      legendIndex: 4, 
       "visible": false
     },
     {
       "color": "#007a2f",
-      "index": 2,
+      "index": 3, //3 Zimmer
+       legendIndex: 6, 
       "visible": false
-    },
-    {
-      "color": "#689199",
-      "index": 3
     },
     {
       "color": "#923f8d",
-      "index": 4,
+      "index": 4,//4 Zimmer
+       legendIndex: 8, 
       "visible": false
     },
     {
-      "color": "#b00000",
-      "index": 5,
+      "color": "#2B0099",
+      "index": 5,//5 Zimmer
+       legendIndex: 10, 
+      "visible": false
+    },
+     {
+      "color": "#8A8A8A",
+      "index": 0, // Alle
+       legendIndex: 0, 
+      "visible": true
+    },
+    {
+      "color": "#000000",
+      "index": 5, // Alle
+       legendIndex: 0, 
       "type": "line",
       "yAxis": 1,
       "marker": {
@@ -104,8 +123,9 @@
 			}
     },
     {
-      "color": "#ffbb58",
-      "index": 6,
+      "color": "#B00000",
+      "index": 6, // 1 zimmer
+       legendIndex: 3, 
       "type": "line",
       "yAxis": 1,
       "marker": {
@@ -114,9 +134,10 @@
       "visible": false
     },
     {
-      "color": "#73b97c",
+      "color": "#ffbb58",
       "index": 7,
       "type": "line",
+      legendIndex: 5,  // 2 zimmer
       "yAxis": 1,
       "marker": {
 				"enabled": false
@@ -125,7 +146,8 @@
     },
     {
       "color": "#007a2f",
-      "index": 8,
+      "index": 8, // 3 zimmer
+      legendIndex: 7, 
       "type": "line",
       "yAxis": 1,
       "marker": {
@@ -134,17 +156,20 @@
       "visible": false
     },
     {
-      "color": "#689199",
+      "color": "#923f8d",
       "index": 9,
+      legendIndex: 9,  // 4 zimmer
       "type": "line",
       "yAxis": 1,
       "marker": {
 				"enabled": false
-			}
+			},
+      "visible": false
     },
     {
-      "color": "#923f8d",
+      "color": "#2B0099",
       "index": 10,
+      legendIndex: 11, // 5 zimmer
       "type": "line",
       "yAxis": 1,
       "marker": {

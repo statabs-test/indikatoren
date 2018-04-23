@@ -11,8 +11,10 @@ global templatesById
 //parse csv and configure HighCharts object
 function parseData(chartOptions, data, completeHandler) {
     try {
+      //create data options, guess delimiter
       var dataOptions = Highcharts.merge(chartOptions.data, {
-          csv: data
+          csv: data,
+          itemDelimiter: (data.indexOf('\t') !== -1 ? '\t' : ',')
       });
       
       //delete data node in chartOptions after merging into dataOptions
@@ -23,7 +25,6 @@ function parseData(chartOptions, data, completeHandler) {
       Highcharts.data(dataOptions, chartOptions);
     } 
     catch (error) {
-      console.log(error);
       completeHandler(undefined);
     }      
 }
@@ -333,7 +334,7 @@ function renderLinksHTML(kennzahlenset, renderLink, externalLinks, view, stufe1,
           <div class='lesehilfe'> \
             <ul class='list-unstyled'>\
         ";
-    // Only display Link to Indikatorenset if not already in Indikatorenset View
+    //Only display Link to Indikatorenset if not already in Indikatorenset View
     if (displayLinkToIndikatorenset) {
       returnText += "<li><img src='assets/img/icon-link.png' class='link-icon'/>Dieser Indikator ist Bestandteil des Indikatorensets <a href='http://www.statistik.bs.ch/zahlen/indikatoren/sets/"+ kennzahlenset.toLowerCase().replace(" ", "-") + ".html' target='_blank'>" + kennzahlenset.replace('-', ' ') + "</a>";
       //in indikatorenset View, add the stufe1 text here

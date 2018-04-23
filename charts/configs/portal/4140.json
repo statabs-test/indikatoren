@@ -134,7 +134,7 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f} m²"
+      "format": "{value:,.f}"
     }
   },
   "xAxis": {
@@ -142,7 +142,8 @@
     "lineWidth": 0.5,
     "labels": {
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "textOverflow": "none"
       }
     },
     "tickLength": 0,

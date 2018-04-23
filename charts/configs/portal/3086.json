@@ -52,7 +52,8 @@
     "lineWidth": 0.5,
     "labels": {
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "textOverflow": "none"
       },
       "rotation": 0
     },
@@ -150,9 +151,8 @@
     "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left",
+    "align": "right",
     "symbolRadius": 0,
-    "y": 55,
     "itemStyle": {
       "fontWeight": "normal"
     }

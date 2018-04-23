@@ -28,12 +28,13 @@
             title: {
                 text: null
             },
-            "labels": {
+            labels: {
                 formatter: function () {
-                	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ");
+                	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", "\u00a0");
             	},
-                "style": {
-                    "color": "#000000"
+                style: {
+                    color: "#000000",
+                    textOverflow: 'none'
                 }
             },
             plotLines: [{
@@ -96,7 +97,7 @@
         "layout": "horizontal",
         "verticalAlign": "top",
         "align": "left",
-       	"y": 55,    
+       	//"y": 55,    
         "itemStyle": {
           "fontWeight": "normal"
         }

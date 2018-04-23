@@ -262,7 +262,8 @@
     "lineWidth": 0.5,
     "labels": {
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "textOverflow": "none"
       }
     },
     "tickLength": 0,
@@ -291,7 +292,6 @@
     "align": "left",
     "symbolRadius": 0,
     "x": 20,
-    "y": 35,
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"

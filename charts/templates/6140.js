@@ -8,6 +8,9 @@
 
         }
    },
+ "data":{
+  	"switchRowsAndColumns": true
+  },
   "xAxis": {
     "type": "category",
     "labels": {
@@ -21,7 +24,8 @@
     }    
   },
   "series": [
-  {"color": "#CD9C00", "visible": true}, /* hellbraun*/
+  {"color": "#FABD24", "visible": true}, /* hellbraun1*/
+  {"color": "#CD9C00", "visible": true}, /* hellbraun2*/
   {"color": "#83522E", "visible": true} /* dunkelbraun */
   ],
   "legend": {
@@ -30,7 +34,7 @@
     "verticalAlign": "top",
     "align": "left",
     //"x": 25,
-	"y": 55,    
+	//"y": 55,    
     "itemStyle": {
       "fontWeight": "normal"
     }

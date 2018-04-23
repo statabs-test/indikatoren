@@ -1956,7 +1956,8 @@
     "lineWidth": 0.5,
     "labels": {
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "textOverflow": "none"
       },
       "formatter": function () {
    			 return this.value.split("-").slice(0, -1);
@@ -2057,8 +2058,6 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "y": 45,
-    "itemWidth": 250,
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"
