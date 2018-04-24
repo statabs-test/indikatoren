@@ -147,7 +147,7 @@
   </g>
   <g class="highcharts-series-group">
     <g class="highcharts-series highcharts-series-0 highcharts-bar-series " transform="translate(470,364) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)" width="427" height="258">
-      <rect x="0" y="277" width="2" height="41" fill="#008AC3" class="highcharts-point highcharts-negative"/>
+      <rect x="0" y="452" width="2" height="12" fill="#008AC3" class="highcharts-point highcharts-negative"/>
       <rect x="2" y="274" width="3" height="47" fill="#008AC3" class="highcharts-point highcharts-negative"/>
       <rect x="5" y="277" width="2" height="42" fill="#008AC3" class="highcharts-point highcharts-negative"/>
       <rect x="7" y="274" width="2" height="44" fill="#008AC3" class="highcharts-point highcharts-negative"/>
@@ -259,7 +259,7 @@
     </g>
     <g class="highcharts-markers highcharts-series-0 highcharts-bar-series " transform="translate(470,364) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-1 highcharts-bar-series " transform="translate(470,364) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)" width="427" height="258">
-      <rect x="0" y="215" width="2" height="62" fill="#B00000" class="highcharts-point highcharts-negative"/>
+      <rect x="0" y="215" width="2" height="237" fill="#B00000" class="highcharts-point highcharts-negative"/>
       <rect x="2" y="215" width="3" height="59" fill="#B00000" class="highcharts-point highcharts-negative"/>
       <rect x="5" y="215" width="2" height="62" fill="#B00000" class="highcharts-point highcharts-negative"/>
       <rect x="7" y="215" width="2" height="59" fill="#B00000" class="highcharts-point highcharts-negative"/>
@@ -371,7 +371,7 @@
     </g>
     <g class="highcharts-markers highcharts-series-1 highcharts-bar-series " transform="translate(470,364) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-2 highcharts-bar-series " transform="translate(470,364) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)" width="427" height="258">
-      <rect x="0" y="116" width="2" height="38" fill="#00bAf3" class="highcharts-point"/>
+      <rect x="0" y="141" width="2" height="38" fill="#00bAf3" class="highcharts-point"/>
       <rect x="2" y="103" width="3" height="47" fill="#00bAf3" class="highcharts-point"/>
       <rect x="5" y="113" width="2" height="43" fill="#00bAf3" class="highcharts-point"/>
       <rect x="7" y="122" width="2" height="41" fill="#00bAf3" class="highcharts-point"/>
@@ -483,7 +483,7 @@
     </g>
     <g class="highcharts-markers highcharts-series-2 highcharts-bar-series " transform="translate(470,364) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
     <g class="highcharts-series highcharts-series-3 highcharts-bar-series " transform="translate(470,364) rotate(90) scale(-1,1) scale(1 1)" clip-path="url(#a)" width="427" height="258">
-      <rect x="0" y="154" width="2" height="61" fill="#d00000" class="highcharts-point"/>
+      <rect x="0" y="179" width="2" height="36" fill="#d00000" class="highcharts-point"/>
       <rect x="2" y="150" width="3" height="65" fill="#d00000" class="highcharts-point"/>
       <rect x="5" y="156" width="2" height="59" fill="#d00000" class="highcharts-point"/>
       <rect x="7" y="163" width="2" height="52" fill="#d00000" class="highcharts-point"/>
@@ -596,7 +596,7 @@
     <g class="highcharts-markers highcharts-series-3 highcharts-bar-series " transform="translate(470,364) rotate(90) scale(-1,1) scale(1 1)" clip-path="none"/>
   </g>
   <text x="10" text-anchor="start" class="highcharts-title" style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;" y="21">
-    <tspan>Bevölkerungspyramide am Jahresende test</tspan>
+    <tspan>hallo - Bevölkerungspyramide am Jahresende</tspan>
   </text>
   <text x="10" text-anchor="start" class="highcharts-subtitle" style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;" y="40">
     <tspan>nach Staatsangehörigkeit und Geschlecht, Stand: 2017</tspan>
@@ -986,7 +986,7 @@
         </g>
         <g class="highcharts-legend-item highcharts-bar-series highcharts-color-undefined highcharts-series-2" transform="translate(148,17)">
           <text x="21" y="15" style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>Ausländerinnen</tspan>
+            <tspan>Basler</tspan>
           </text>
           <rect x="2" y="4" width="12" height="12" fill="#00bAf3" class="highcharts-point"/>
         </g>

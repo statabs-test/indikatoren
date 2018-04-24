@@ -9,7 +9,7 @@
       "data": [
         [
           "0",
-          -586
+          -2222
         ],
         [
           "1",
@@ -456,7 +456,7 @@
       "data": [
         [
           "0",
-          -384
+          -111
         ],
         [
           "1",
@@ -903,7 +903,7 @@
       "data": [
         [
           "0",
-          570
+          333
         ],
         [
           "1",
@@ -1785,7 +1785,7 @@
           0
         ]
       ],
-      "name": "Ausländerinnen",
+      "name": "Basler",
       "turboThreshold": 0
     }
   ],
@@ -1843,7 +1843,7 @@
                 }
     },
     "marginRight": 15,
-    "renderTo": "container-5142"
+    "renderTo": "container-8888"
   },
   "plotOptions": {
     "bar": {
@@ -1868,7 +1868,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Bevölkerungspyramide am Jahresende test"
+    "text": "hallo - Bevölkerungspyramide am Jahresende"
   },
   "subtitle": {
     "style": {
@@ -1967,6 +1967,6 @@
         	}
   },
   "exporting": {
-    "filename": 5142
+    "filename": 8888
   }
 }
