@@ -8,13 +8,13 @@
   },
   "xAxis": {
       "min": 1982,
-	  "tickInterval": 5
+	  "tickInterval": 2
   },
   "series": [
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },
       "index": 0,
       "color": "#000000"
