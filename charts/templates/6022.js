@@ -13,8 +13,15 @@
 			},
 		"colorAxis": {
 			//"min": undefined,
-			"minColor": "#eff6e9",
-			"maxColor": "#4b7b1f",
+			//"minColor": "#eff6e9",
+			//"maxColor": "#4b7b1f",
+			stops: [
+	            [0, 'rgb(0,135,135)'],
+	            [0.25, 'rgb(230,230,230)'],
+	            [0.9, 'rgb(103,39,115)']
+	        ],
+	        min: -1,
+			max: 5,
 			"labels": {
 				"formatter": function () {
 					return Highcharts.numberFormat((this.value),0); 

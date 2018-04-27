@@ -66,7 +66,7 @@
 		*/
         "title": {
             "style": {
-                "fontSize": "14px",
+                "fontSize": "10px",
                 "fontWeight": "bold",
                 "fontFamily": "Arial",
                 "color": "#000000"
@@ -75,7 +75,7 @@
         },
         "subtitle": {
             "style": {
-                "fontSize": "12px",
+                "fontSize": "10px",
                 "fontWeight": "normal",
                 "fontFamily": "Arial",
                 "color": "#000000"
@@ -129,10 +129,11 @@
     		"enabled": true, 
             "align": "right",
             "floating": true,
+             itemStyle: {fontSize: "10px"},
             "title": {
                 "style": {
                     "fontWeight": "normal", 
-                    "fontSize": "11px"
+                    "fontSize": "10px"
                 }
             }
     	}, 
@@ -167,7 +168,7 @@
 					formatter: function(){
 						return '1 km';
 					}, 
-					style: {fontSize: "12px", fontWeight: "normal", color: 'black'},
+					style: {fontSize: "10px", fontWeight: "normal", color: 'black'},
 					y: -10
 				}
     		}
@@ -334,7 +335,7 @@
 	        addLegendTitle: function(chart, title, x, y){
         		return chart.renderer.label(title, x, y)
      				.css({
-	                    fontSize: '12px',
+	                    fontSize: '10px',
 	                    fontWeight: 'bold'
 	                })
 	                .attr({
@@ -356,6 +357,9 @@
 	                
             addLegendText: function(chart, x, y, text, color, cssClass, useHtml){
 				return chart.renderer.text(text, x, y, undefined, undefined, undefined, useHtml)
+					.css({
+	                    fontSize: '10px',
+	                })
 					.attr({
 						zIndex: 6,
 						fill: color,
@@ -363,6 +367,8 @@
 					})
 					.add();
             },
+
+
             addLegendTextbold: function(chart, x, y, text, color, cssClass, useHtml){
 				return chart.renderer.text(text, x, y, undefined, undefined, undefined, useHtml)
 					.attr({
@@ -370,7 +376,8 @@
 						fill: color,
 						class: cssClass + ' columnLegend'})
 					.css({
-                        fontWeight: 'bold' }).
+                        fontWeight: 'bold', 
+						fontSize: '10px'}),
                      add();
             },
           

@@ -15,7 +15,7 @@
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "right",
-			"x": -195,
+			"x": -210,
 			"y":  5,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
@@ -27,27 +27,27 @@
             dataClassColor: 'category',
                    dataClasses: [{
                 to: -0.75999,
-                color: '#D7E8D2',
-                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;-0,76"
+                color: 'rgb(0,135,135)',
+                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;-0,760"
             }, {
                 from: -0.76,
                 to:  -0.15,
-                color: '#73B97C',
+                color: 'rgb(168,196,203)',
                 name: "-0,760 − -0,150"
             }, {
                 from: -0.14999,
                 to: 0.149999,
-                 color: '#68AB2B',
-                 name: "-0,149 − &nbsp;&nbsp;0,149"
+                 color: 'rgb(230,230,230)',
+                 name: "-0,149 − &nbsp;0,149"
             },{
                 from: 0.150,
                 to: 1.99,
-                 color: '#007A2F',
-                 name: "&nbsp;0,150 − &nbsp;&nbsp;0,199"
+                 color: 'rgb(231,207,226)',
+                 name: "&nbsp;0,150 − &nbsp;0,199"
             },{
                 from: 2.0,
-                color: '#0A3B19',
-                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;&nbsp;&nbsp;2,000"
+                color: 'rgb(103,39,115)',
+                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;&nbsp;2,000"
             }], 
         },
         "data": {
@@ -177,20 +177,17 @@
 					var legendColumnValues = [5, 2.5]; 
 
                 	//Add manually drawn legend	
-                	var legendTop = 211;
+                	var legendTop = 230;
                 	var legendLeft = 596;
-	                //fn.addLegendTitle(chart, 'Bevölkerungssaldo infolge <br> räumliche Bewerbung <br> pro 100 Einwohner (Saldo total)', 330, 160);
-	                
-	                fn.addLegendColumnChart(chart, legendLeft+35,  legendTop+45,  legendColumnValues, color, 'columnLegendHideOnZoom');
-	                fn.addLegendText(chart,        legendLeft+50, legendTop+45,  Highcharts.numberFormat(legendColumnValues[0], 0,","," "), color(legendColumnValues[0], 0), 'columnLegendHideOnZoom');
-	                //fn.addLegendText(chart,        legendLeft+71, legendTop+45,  ',', undefined, 'columnLegendHideOnZoom');
-	                fn.addLegendText(chart,        legendLeft+63, legendTop+45,  Highcharts.numberFormat(legendColumnValues[1], 1,","," "), color(legendColumnValues[1], 1), 'columnLegendHideOnZoom');
 
+	                fn.addLegendColumnChart(chart, legendLeft-95,  legendTop+10,  legendColumnValues, color, 'columnLegendHideOnZoom');
+	                fn.addLegendText(chart,        legendLeft-50, legendTop+10,  Highcharts.numberFormat(legendColumnValues[0], 0,","," "), color(legendColumnValues[0], 0), 'columnLegendHideOnZoom');
+	                fn.addLegendText(chart,        legendLeft-75, legendTop+10,  Highcharts.numberFormat(legendColumnValues[1], 1,","," "), color(legendColumnValues[1], 1), 'columnLegendHideOnZoom');
+					
 					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+20,  10, color(1, 0));
 					fn.addLegendText(chart,        legendLeft-80, legendTop+30,  'Wanderung positiv');
 					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+35,  10, color(-1, 0));
 					fn.addLegendText(chart,        legendLeft-80, legendTop+45,  'Wanderung negativ');
-					
 					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+50,  10, color(1, 1));
 					fn.addLegendText(chart,        legendLeft-80, legendTop+60,  'Umzug positiv');
 					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+65, 10, color(-1, 1));
