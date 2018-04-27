@@ -17,9 +17,13 @@
         "enabled": false
       },
       "index": 0,
-      "color": "#000000"
+      "color": "rgb(111,111,111)"
     }
   ],
+  tooltip: {
+    pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>',
+    shared: false
+  }, 
   "plotOptions": {
     "series": {
       "dataLabels": {
@@ -30,7 +34,7 @@
             var first = this.series.data[0];
             var last  = this.series.data[this.series.data.length - 1];
             if (this.x === first.x || this.x === last.x) {
-              return Highcharts.numberFormat(this.y, 0  , ",", " ");
+              return Highcharts.numberFormat(this.y, 1  , ",", " ");
             }
           }
       }
