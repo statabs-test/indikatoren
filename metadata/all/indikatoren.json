@@ -8266,11 +8266,11 @@
 		"id": 4908
 	},
 	{
-		"title": "Basler Index der Konsumentenpreise seit 1982 (Dez. 1982 = 100)",
-		"subtitle": "",
+		"title": "Basler Index der Konsumentenpreise",
+		"subtitle": "indexiert (1982 = 100), Kt. Basel-Stadt",
 		"kuerzel": "I.05.1.04909",
 		"kuerzelKunde": "",
-		"description": "Basler Index der Konsumentenpreise seit 1982 (Dez. 1982 = 100)",
+		"description": "Basler Index der Konsumentenpreise",
 		"thema": "05 Preise",
 		"unterthema": "Basler Index der Konsumentenpreise",
 		"kennzahlenset": "",
@@ -8292,7 +8292,8 @@
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt"
+			"Statistisches Amt Basel-Stadt",
+			"Bundesamt für Statistik (BFS)"
 		],
 		"externalLinks": [
 			""
@@ -8317,7 +8318,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 2000 war die Jahresteuerung sowohl in Basel-Stadt als auch in der Schweiz vier Mal negativ, letztmals 2015 mit -1,2 bzw.  -1,1 Prozent.",
+		"lesehilfe": "Seit 2000 war die Jahresteuerung sowohl in Basel-Stadt als auch in der Schweiz fünf  Mal negativ, letztmals 2016 mit -0,2 bzw. -0,4 Prozent.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"visibleInPortal": true,
