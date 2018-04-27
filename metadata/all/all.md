@@ -757,3 +757,4 @@ id | visible | visibleInPortal | indikatorenset
 9997 | true | false | 
 9998 | true | false | Test
 9999 | true | false | Test
+60221 | true | true | Wanderungen
