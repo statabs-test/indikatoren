@@ -714,5 +714,6 @@ var templatesById = {
 	"9997": "bubble001",
 	"9998": "pie001",
 	"9999": "map002",
-	"60221": "mapcolumn002_print"
+	"60221": "mapcolumn002_print",
+	"60251": "mappie002_print"
 };
