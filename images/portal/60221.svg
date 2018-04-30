@@ -576,7 +576,7 @@
   <text x="500" y="170" style="font-size:10px;" class="undefined columnLegend">
     <tspan>Saldo pro 100 Einwohner</tspan>
   </text>
-  <g class="highcharts-legend" transform="translate(323,229)">
+  <g class="highcharts-legend" transform="translate(323,226)">
     <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="105" height="86" visibility="visible"/>
     <g>
       <g>
@@ -693,7 +693,7 @@
   </text>
   <foreignObject x="0" y="0" width="640" height="312">
     <body xmlns="http://www.w3.org/1999/xhtml">
-      <div class="highcharts-legend" style="position: absolute; left: 323px; top: 229px; opacity: 1;">
+      <div class="highcharts-legend" style="position: absolute; left: 323px; top: 226px; opacity: 1;">
         <div style="position: absolute; left: 0px; top: 0px; opacity: 1;">
           <div style="position: absolute; left: 0px; top: 0px; opacity: 1;">
             <div class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" style="position: absolute; left: 8px; top: 3px; opacity: 1;">

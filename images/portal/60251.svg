@@ -415,97 +415,97 @@
   <text x="500" y="170" style="font-size:10px;" class="undefined columnLegend">
     <tspan>Anteil Zugezogene</tspan><tspan x="500" dy="13">nach Zuzugsland</tspan>
   </text>
-  <g class="highcharts-legend" transform="translate(84,186)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="336" height="86" visibility="visible"/>
+  <g class="highcharts-legend" transform="translate(326,184)">
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="81" height="86" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" transform="translate(8,3)">
           <text x="21" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start" y="13">
-            <tspan>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;&amp;nbsp;&amp;nbsp;&amp;nbsp;5,0</tspan>
+            <tspan style="fill: rgba(0,0,0,0)">7,0</tspan><tspan dx="0">&lt;</tspan><tspan style="fill: rgba(0,0,0,0)" dx="0">11</tspan><tspan dx="0">5,0</tspan>
           </text>
           <rect x="3" y="4" width="10" height="10" fill="rgb(242,242,242)" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" transform="translate(8,18)">
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>5,0 −&amp;nbsp;&amp;nbsp; 6,9</tspan>
+            <tspan>5,0−</tspan><tspan style="fill: rgba(0,0,0,0)" dx="0">11</tspan><tspan dx="0">6,9</tspan>
           </text>
           <rect x="3" y="4" width="10" height="10" fill="rgb(230,230,230)" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" transform="translate(8,33)">
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>7,0 −&amp;nbsp;&amp;nbsp; 8,9</tspan>
+            <tspan>7,0−</tspan><tspan style="fill: rgba(0,0,0,0)" dx="0">11</tspan><tspan dx="0">8,9</tspan>
           </text>
           <rect x="3" y="4" width="10" height="10" fill="rgb(200,200,200)" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" transform="translate(8,48)">
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>9,0 −&amp;nbsp;11,0</tspan>
+            <tspan>9,0−</tspan><tspan style="fill: rgba(0,0,0,0)" dx="0">1</tspan><tspan dx="0">11,0</tspan>
           </text>
           <rect x="3" y="4" width="10" height="10" fill="rgb(153,153,153)" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" transform="translate(8,63)">
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;≥&amp;nbsp;11,0</tspan>
+            <tspan style="fill: rgba(0,0,0,0)">7,0</tspan><tspan dx="0">≥</tspan><tspan style="fill: rgba(0,0,0,0)" dx="0">1</tspan><tspan dx="0">11,0</tspan>
           </text>
           <rect x="3" y="4" width="10" height="10" fill="rgb(60,60,60)" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" transform="translate(8,3)">
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;&amp;nbsp;&amp;nbsp;&amp;nbsp;5,0</tspan>
+            <tspan style="fill: rgba(0,0,0,0)">7,0</tspan><tspan dx="0">&lt;</tspan><tspan style="fill: rgba(0,0,0,0)" dx="0">11</tspan><tspan dx="0">5,0</tspan>
           </text>
           <rect x="3" y="4" width="10" height="10" fill="rgb(242,242,242)" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" transform="translate(8,18)">
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>5,0 −&amp;nbsp;&amp;nbsp; 6,9</tspan>
+            <tspan>5,0−</tspan><tspan style="fill: rgba(0,0,0,0)" dx="0">11</tspan><tspan dx="0">6,9</tspan>
           </text>
           <rect x="3" y="4" width="10" height="10" fill="rgb(230,230,230)" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" transform="translate(8,33)">
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>7,0 −&amp;nbsp;&amp;nbsp; 8,9</tspan>
+            <tspan>7,0−</tspan><tspan style="fill: rgba(0,0,0,0)" dx="0">11</tspan><tspan dx="0">8,9</tspan>
           </text>
           <rect x="3" y="4" width="10" height="10" fill="rgb(200,200,200)" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" transform="translate(8,48)">
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>9,0 −&amp;nbsp;11,0</tspan>
+            <tspan>9,0−</tspan><tspan style="fill: rgba(0,0,0,0)" dx="0">1</tspan><tspan dx="0">11,0</tspan>
           </text>
           <rect x="3" y="4" width="10" height="10" fill="rgb(153,153,153)" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" transform="translate(8,63)">
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;≥&amp;nbsp;11,0</tspan>
+            <tspan style="fill: rgba(0,0,0,0)">7,0</tspan><tspan dx="0">≥</tspan><tspan style="fill: rgba(0,0,0,0)" dx="0">1</tspan><tspan dx="0">11,0</tspan>
           </text>
           <rect x="3" y="4" width="10" height="10" fill="rgb(60,60,60)" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" transform="translate(8,3)">
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;&amp;nbsp;&amp;nbsp;&amp;nbsp;5,0</tspan>
+            <tspan style="fill: rgba(0,0,0,0)">7,0</tspan><tspan dx="0">&lt;</tspan><tspan style="fill: rgba(0,0,0,0)" dx="0">11</tspan><tspan dx="0">5,0</tspan>
           </text>
           <rect x="3" y="4" width="10" height="10" fill="rgb(242,242,242)" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" transform="translate(8,18)">
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>5,0 −&amp;nbsp;&amp;nbsp; 6,9</tspan>
+            <tspan>5,0−</tspan><tspan style="fill: rgba(0,0,0,0)" dx="0">11</tspan><tspan dx="0">6,9</tspan>
           </text>
           <rect x="3" y="4" width="10" height="10" fill="rgb(230,230,230)" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" transform="translate(8,33)">
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>7,0 −&amp;nbsp;&amp;nbsp; 8,9</tspan>
+            <tspan>7,0−</tspan><tspan style="fill: rgba(0,0,0,0)" dx="0">11</tspan><tspan dx="0">8,9</tspan>
           </text>
           <rect x="3" y="4" width="10" height="10" fill="rgb(200,200,200)" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" transform="translate(8,48)">
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>9,0 −&amp;nbsp;11,0</tspan>
+            <tspan>9,0−</tspan><tspan style="fill: rgba(0,0,0,0)" dx="0">1</tspan><tspan dx="0">11,0</tspan>
           </text>
           <rect x="3" y="4" width="10" height="10" fill="rgb(153,153,153)" class="highcharts-point"/>
         </g>
         <g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" transform="translate(8,63)">
           <text x="21" y="13" style="color:#333333;font-size:10px;font-weight:normal;cursor:pointer;fill:#333333;" text-anchor="start">
-            <tspan>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;≥&amp;nbsp;11,0</tspan>
+            <tspan style="fill: rgba(0,0,0,0)">7,0</tspan><tspan dx="0">≥</tspan><tspan style="fill: rgba(0,0,0,0)" dx="0">1</tspan><tspan dx="0">11,0</tspan>
           </text>
           <rect x="3" y="4" width="10" height="10" fill="rgb(60,60,60)" class="highcharts-point"/>
         </g>

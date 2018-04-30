@@ -458,7 +458,10 @@
           <div style="position: absolute; left: 0px; top: 0px; opacity: 1;">
             <div class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" style="position: absolute; left: 8px; top: 3px; opacity: 1;">
               <span style="font-family: Arial; font-size: 9px; position: absolute; white-space: nowrap; color: rgb(51, 51, 51); font-weight: normal; text-overflow: ellipsis; cursor: pointer; overflow: hidden; margin-left: 0px; margin-top: 0px; left: 21px; top: 2px; fill: #333333;">
-                &lt; 0,30
+                <span style="color: rgba(0,0,0,0)">
+                  27,0
+                </span>
+                &lt;;0,30
               </span>
             </div>
             <div class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" style="position: absolute; left: 8px; top: 16px; opacity: 1;">
@@ -478,12 +481,18 @@
             </div>
             <div class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" style="position: absolute; left: 8px; top: 55px; opacity: 1;">
               <span style="font-family: Arial; font-size: 9px; position: absolute; white-space: nowrap; color: rgb(51, 51, 51); font-weight: normal; text-overflow: ellipsis; cursor: pointer; overflow: hidden; margin-left: 0px; margin-top: 0px; left: 21px; top: 2px; fill: #333333;">
+                <span style="color: rgba(0,0,0,0)">
+                  27,0
+                </span>
                 ≥ 0,60
               </span>
             </div>
             <div class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" style="position: absolute; left: 8px; top: 3px; opacity: 1;">
               <span style="font-family: Arial; font-size: 9px; position: absolute; white-space: nowrap; color: rgb(51, 51, 51); font-weight: normal; text-overflow: ellipsis; cursor: pointer; overflow: hidden; margin-left: 0px; margin-top: 0px; left: 21px; top: 2px; fill: #333333;">
-                &lt; 0,30
+                <span style="color: rgba(0,0,0,0)">
+                  27,0
+                </span>
+                &lt;;0,30
               </span>
             </div>
             <div class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" style="position: absolute; left: 8px; top: 16px; opacity: 1;">
@@ -503,12 +512,18 @@
             </div>
             <div class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" style="position: absolute; left: 8px; top: 55px; opacity: 1;">
               <span style="font-family: Arial; font-size: 9px; position: absolute; white-space: nowrap; color: rgb(51, 51, 51); font-weight: normal; text-overflow: ellipsis; cursor: pointer; overflow: hidden; margin-left: 0px; margin-top: 0px; left: 21px; top: 2px; fill: #333333;">
+                <span style="color: rgba(0,0,0,0)">
+                  27,0
+                </span>
                 ≥ 0,60
               </span>
             </div>
             <div class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" style="position: absolute; left: 8px; top: 3px; opacity: 1;">
               <span style="font-family: Arial; font-size: 9px; position: absolute; white-space: nowrap; color: rgb(51, 51, 51); font-weight: normal; text-overflow: ellipsis; cursor: pointer; overflow: hidden; margin-left: 0px; margin-top: 0px; left: 21px; top: 2px; fill: #333333;">
-                &lt; 0,30
+                <span style="color: rgba(0,0,0,0)">
+                  27,0
+                </span>
+                &lt;;0,30
               </span>
             </div>
             <div class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" style="position: absolute; left: 8px; top: 16px; opacity: 1;">
@@ -528,6 +543,9 @@
             </div>
             <div class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" style="position: absolute; left: 8px; top: 55px; opacity: 1;">
               <span style="font-family: Arial; font-size: 9px; position: absolute; white-space: nowrap; color: rgb(51, 51, 51); font-weight: normal; text-overflow: ellipsis; cursor: pointer; overflow: hidden; margin-left: 0px; margin-top: 0px; left: 21px; top: 2px; fill: #333333;">
+                <span style="color: rgba(0,0,0,0)">
+                  27,0
+                </span>
                 ≥ 0,60
               </span>
             </div>

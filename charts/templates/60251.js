@@ -15,8 +15,8 @@
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "right",
-			"x": -210,
-			"y":  5,
+			"x": -222,
+			"y":  3,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
 			itemStyle: {
@@ -28,26 +28,26 @@
 		                   dataClasses: [{
 		                to: 4.999,
 		                color: 'rgb(242,242,242)',
-		                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;&nbsp;&nbsp;5,0"
+		                name:  "<span style='color: rgba(0,0,0,0)'>7,0</span><<span style='color: rgba(0,0,0,0)'>11</span>5,0"
 		            }, {
 		                from: 5,
 		                to:  6.999,
 		                color: 'rgb(230,230,230)',
-		                name: "5,0 −&nbsp;&nbsp; 6,9"
+		                name: "5,0−<span style='color: rgba(0,0,0,0)'>11</span>6,9"
 		            }, {
 		                from: 7,
 		                to:8.999,
 		                 color: 'rgb(200,200,200)',
-		                 name: "7,0 −&nbsp;&nbsp; 8,9"
+		                 name: "7,0−<span style='color: rgba(0,0,0,0)'>11</span>8,9"
 		            },{
 		                from: 9,
 		                to: 11.00,
 		                 color: 'rgb(153,153,153)',
-		                 name: "9,0 −&nbsp;11,0"
+		                 name: "9,0−<span style='color: rgba(0,0,0,0)'>1</span>11,0"
 		            },{
 		                from: 11.001,
 		                color: 'rgb(60,60,60)',
-		                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;11,0"
+		                name: "<span style='color: rgba(0,0,0,0)'>7,0</span>≥<span style='color: rgba(0,0,0,0)'>1</span>11,0"
 		            }], 
         },
         "data": {

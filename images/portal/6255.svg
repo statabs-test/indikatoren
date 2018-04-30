@@ -376,8 +376,8 @@
       Abnahme
     </text>
   </g>
-  <g class="highcharts-legend" transform="translate(341,234)">
-    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="112" height="76" visibility="visible"/>
+  <g class="highcharts-legend" transform="translate(78,234)">
+    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="375" height="76" visibility="visible"/>
     <g>
       <g>
         <g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" transform="translate(8,3)">
@@ -433,12 +433,12 @@
   </text>
   <foreignObject x="0" y="0" width="640" height="312">
     <body xmlns="http://www.w3.org/1999/xhtml">
-      <div class="highcharts-legend" style="position: absolute; left: 341px; top: 234px; opacity: 1;">
+      <div class="highcharts-legend" style="position: absolute; left: 78px; top: 234px; opacity: 1;">
         <div style="position: absolute; left: 0px; top: 0px; opacity: 1;">
           <div style="position: absolute; left: 0px; top: 0px; opacity: 1;">
             <div class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" style="position: absolute; left: 8px; top: 3px; opacity: 1;">
               <span style="font-family: Arial; font-size: 9px; position: absolute; white-space: nowrap; color: rgb(51, 51, 51); font-weight: normal; text-overflow: ellipsis; cursor: pointer; overflow: hidden; margin-left: 0px; margin-top: 0px; left: 21px; top: 2px; fill: #333333;">
-                &lt; 100 000
+                00a000a000a000a000a000a000a000a000a000a000a000a000a000a0&lt;00a0100 000
               </span>
             </div>
             <div class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" style="position: absolute; left: 8px; top: 16px; opacity: 1;">
@@ -458,12 +458,12 @@
             </div>
             <div class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" style="position: absolute; left: 8px; top: 55px; opacity: 1;">
               <span style="font-family: Arial; font-size: 9px; position: absolute; white-space: nowrap; color: rgb(51, 51, 51); font-weight: normal; text-overflow: ellipsis; cursor: pointer; overflow: hidden; margin-left: 0px; margin-top: 0px; left: 21px; top: 2px; fill: #333333;">
-                ≥ 800 000
+                00a000a000a000a000a000a000a000a000a000a000a000a000a000a0≥00a0800 000
               </span>
             </div>
             <div class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" style="position: absolute; left: 8px; top: 3px; opacity: 1;">
               <span style="font-family: Arial; font-size: 9px; position: absolute; white-space: nowrap; color: rgb(51, 51, 51); font-weight: normal; text-overflow: ellipsis; cursor: pointer; overflow: hidden; margin-left: 0px; margin-top: 0px; left: 21px; top: 2px; fill: #333333;">
-                &lt; 100 000
+                00a000a000a000a000a000a000a000a000a000a000a000a000a000a0&lt;00a0100 000
               </span>
             </div>
             <div class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" style="position: absolute; left: 8px; top: 16px; opacity: 1;">
@@ -483,12 +483,12 @@
             </div>
             <div class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" style="position: absolute; left: 8px; top: 55px; opacity: 1;">
               <span style="font-family: Arial; font-size: 9px; position: absolute; white-space: nowrap; color: rgb(51, 51, 51); font-weight: normal; text-overflow: ellipsis; cursor: pointer; overflow: hidden; margin-left: 0px; margin-top: 0px; left: 21px; top: 2px; fill: #333333;">
-                ≥ 800 000
+                00a000a000a000a000a000a000a000a000a000a000a000a000a000a0≥00a0800 000
               </span>
             </div>
             <div class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" style="position: absolute; left: 8px; top: 3px; opacity: 1;">
               <span style="font-family: Arial; font-size: 9px; position: absolute; white-space: nowrap; color: rgb(51, 51, 51); font-weight: normal; text-overflow: ellipsis; cursor: pointer; overflow: hidden; margin-left: 0px; margin-top: 0px; left: 21px; top: 2px; fill: #333333;">
-                &lt; 100 000
+                00a000a000a000a000a000a000a000a000a000a000a000a000a000a0&lt;00a0100 000
               </span>
             </div>
             <div class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" style="position: absolute; left: 8px; top: 16px; opacity: 1;">
@@ -508,7 +508,7 @@
             </div>
             <div class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined" style="position: absolute; left: 8px; top: 55px; opacity: 1;">
               <span style="font-family: Arial; font-size: 9px; position: absolute; white-space: nowrap; color: rgb(51, 51, 51); font-weight: normal; text-overflow: ellipsis; cursor: pointer; overflow: hidden; margin-left: 0px; margin-top: 0px; left: 21px; top: 2px; fill: #333333;">
-                ≥ 800 000
+                00a000a000a000a000a000a000a000a000a000a000a000a000a000a0≥00a0800 000
               </span>
             </div>
           </div>
@@ -516,7 +516,7 @@
       </div>
       <div class="pieLegend" style="position: absolute; left: 485px; top: 236px; opacity: 1;">
         <span style="font-family: Arial; font-size: 9px; position: absolute; white-space: nowrap; margin-left: 0px; margin-top: 0px; left: 3px; top: 3px;">
-          &lt; 4 000
+          00a000a000a000a000a000a000a000a000a000a0&lt;00a000a0 4 000
         </span>
       </div>
       <div class="pieLegend" style="position: absolute; left: 485px; top: 253px; opacity: 1;">
@@ -526,12 +526,12 @@
       </div>
       <div class="pieLegend" style="position: absolute; left: 485px; top: 270px; opacity: 1;">
         <span style="font-family: Arial; font-size: 9px; position: absolute; white-space: nowrap; margin-left: 0px; margin-top: 0px; left: 3px; top: 3px;">
-          ≥ 30 000
+          00a000a000a000a000a000a000a000a0 ≥ 30 000
         </span>
       </div>
       <div class="pieLegend" style="position: absolute; left: 485px; top: 236px; opacity: 1;">
         <span style="font-family: Arial; font-size: 9px; position: absolute; white-space: nowrap; margin-left: 0px; margin-top: 0px; left: 3px; top: 3px;">
-          &lt; 4 000
+          00a000a000a000a000a000a000a000a000a000a0&lt;00a000a0 4 000
         </span>
       </div>
       <div class="pieLegend" style="position: absolute; left: 485px; top: 253px; opacity: 1;">
@@ -541,7 +541,7 @@
       </div>
       <div class="pieLegend" style="position: absolute; left: 485px; top: 270px; opacity: 1;">
         <span style="font-family: Arial; font-size: 9px; position: absolute; white-space: nowrap; margin-left: 0px; margin-top: 0px; left: 3px; top: 3px;">
-          ≥ 30 000
+          00a000a000a000a000a000a000a000a0 ≥ 30 000
         </span>
       </div>
     </body>

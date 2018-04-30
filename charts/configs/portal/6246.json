@@ -3798,7 +3798,7 @@
       {
         "to": 0.2999,
         "color": "#D7E8D2",
-        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\u003C&nbsp;0,30"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E27,0\u003C\u002Fspan\u003E \u003C;0,30"
       },
       {
         "from": 0.3,
@@ -3821,7 +3821,7 @@
       {
         "from": 0.6,
         "color": "#0A3B19",
-        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;0,60"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E27,0\u003C\u002Fspan\u003E ≥ 0,60"
       }
     ]
   },
