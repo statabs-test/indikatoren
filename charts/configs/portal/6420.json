@@ -261,7 +261,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#71a3b5",
+      "color": "rgb(12,128,128)",
       "index": 5,
       "legendIndex": 4,
       "data": [
