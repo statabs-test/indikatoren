@@ -6,23 +6,50 @@
 (function(){
 
     return {
-    	"legend": {
-    		"x": -10,
-			"y": 0,
+    		"legend": {
+    		useHTML: true,
 			"title": {
-				"text": ""
-			}
+				"text": null, 
+				style: {'fontWeight':' bold'}
 			},
-		"colorAxis": {
-			//"min": undefined,
-			"minColor": "#FFDA80",
-			"maxColor": "#45381D",
-			"labels": {
-				"formatter": function () {
-					return Highcharts.numberFormat((this.value),0); 
+			"layout": "vertical",
+			//"verticalAlign": "middle",
+			"align": "right",
+			"x": -210,
+			"y":  5,
+			itemMarginBottom: 2, 
+			symbolRadius: 0,
+			itemStyle: {
+				fontWeight: 'normal'
 				}
-			}
 		},
+		colorAxis: {
+		            dataClassColor: 'category',
+		                   dataClasses: [{
+		                to: 4.999,
+		                color: 'rgb(242,242,242)',
+		                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;&nbsp;&nbsp;5,0"
+		            }, {
+		                from: 5,
+		                to:  6.999,
+		                color: 'rgb(230,230,230)',
+		                name: "5,0 −&nbsp;&nbsp; 6,9"
+		            }, {
+		                from: 7,
+		                to:8.999,
+		                 color: 'rgb(200,200,200)',
+		                 name: "7,0 −&nbsp;&nbsp; 8,9"
+		            },{
+		                from: 9,
+		                to: 11.00,
+		                 color: 'rgb(153,153,153)',
+		                 name: "9,0 −&nbsp;11,0"
+		            },{
+		                from: 11.001,
+		                color: 'rgb(60,60,60)',
+		                name:  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;11,0"
+		            }], 
+        },
         "data": {
 		    "seriesMapping": [
 		      {
@@ -122,27 +149,19 @@
 					//put the pies / bubbles on the map
 					fn.drawPies(chart, pieSizeSeries, pieSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig);
 	                
-					//pie values in legend
-	                var minValueInLegend = 0.001; 
-	                var maxValueInLegend = 0.1; 
-	                
+
                 	//Add manually drawn legend	
-	                fn.addLegendTitle(chart,"Anzahl Zugezogene pro 100 Einwohner", 255, 305);
-	                
-	                //fn.addLegendCircle(chart, 410, 275, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
-	                //fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),3,","," "), 430, 265);
-	                //fn.addLegendCircle(chart, 410, 300, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
-	                //fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),2,"."," "), 430, 290);
-
-					fn.addLegendSquare(chart, 258, 265, 10, 'red');
-					fn.addLegendLabel(chart, 'Schweiz', 270, 260);
-					fn.addLegendSquare(chart, 258, 285, 10, 'blue');
-					fn.addLegendLabel(chart, 'Ausland', 270, 280);
-
-					fn.addLegendLabelbold(chart, 'Anteil Zugezogene nach Zuzugsland', 255, 240);					
-					//make sure pies are hidden upon click onto pie legend
-					fn.AddPieLegendClickHandler(chart);
-	            }
+                	
+                	var legendTop = 180;
+                	var legendLeft = 596;;
+                	
+					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+20,  10, "#B00000");
+					fn.addLegendText(chart,        legendLeft-80, legendTop+30,  'Schweiz positiv');
+					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+35,  10, "#008AC3");
+					fn.addLegendText(chart,        legendLeft-80, legendTop+45,  'Ausland');
+					fn.addLegendText(chart,     330, 170 , 'Anzahl Zugezogene <br> pro 100 Einwohner <br>');
+					fn.addLegendText(chart,     500, 170 , 'Anteil Zugezogene <br> nach Zuzugsland');
+				}
 			}
 		}
 	};

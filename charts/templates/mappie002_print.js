@@ -12,8 +12,8 @@
         "chart": {		
             "borderColor": "#fbfbfb",
             "backgroundColor": "#fbfbfb",
-            "width": 485,
-            "height": 415,
+             "width": 640,
+            "height": 312,
             "spacingBottom": 45,
             "style": {
                 "fontFamily": "Arial"
@@ -23,7 +23,7 @@
         },
         "title": {
             "style": {
-                "fontSize": "14px",
+                "fontSize": "10px",
                 "fontWeight": "bold",
                 "fontFamily": "Arial",
                 "color": "#000000"
@@ -32,7 +32,7 @@
         },
         "subtitle": {
             "style": {
-                "fontSize": "12px",
+                "fontSize": "10px",
                 "fontWeight": "normal",
                 "fontFamily": "Arial",
                 "color": "#000000"
@@ -73,15 +73,21 @@
         },
         "legend": {
     		"enabled": true, 
+    		itemStyle: {fontSize: "10px"},
             "align": "right",
             "floating": true,
             "title": {
                 "style": {
                     "fontWeight": "normal", 
-                    "fontSize": "11px"
+                    "fontSize": "10px"
                 }
             }
     	}, 
+    	plotOptions:{
+    		series:{
+    			animation:false
+    		}
+    	},
     	xAxis: {
     		events: {
 				//hide svg elements on zoom
@@ -103,7 +109,7 @@
 		"afterSeries": [
 			{
 				"name": "Rhein",
-				"animation": true,
+				"animation": false,
 				"data": rheinDataEPSG2056, 
 				"color": "#008AC3",    
 				"borderColor": "#fbfbfb",
@@ -116,7 +122,7 @@
 			}, 
 			{
 				name: 'Massstab', 
-				animation: true,
+				animation: false,
 				type: 'mapline',
 				data: scalebarDataEPSG2056,
 				color: 'black', 
@@ -130,7 +136,7 @@
 					formatter: function(){
 						return '1 km';
 					}, 
-					style: {fontSize: "12px", fontWeight: "normal", color: 'black'},
+					style: {fontSize: "10px", fontWeight: "normal", color: 'black'},
 					y: -10
 				}
     		}
@@ -383,7 +389,7 @@
     	        addLegendTitle: function(chart, title, x, y){
             		return chart.renderer.label(title, x, y)
          				.css({
-    	                    fontSize: '12px',
+    	                    fontSize: '10px',
     	                    fontWeight: 'bold'
     	                })
     	                .attr({
@@ -403,23 +409,29 @@
                 },
     	                
     	                
-                addLegendLabel: function(chart, text, x, y, cssClass, useHtml){
-    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
-    					zIndex: 6,
-    					class: cssClass + ' pieLegend'
-    				}).add();
-                },
-                
-                 addLegendLabelbold: function(chart, text, x, y, cssClass, useHtml){
-    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).
-    				attr({
-    					zIndex: 6,
-    					class: cssClass +' pieLegend'	})
-    				.css({
-                        fontWeight: 'bold' }).
+			addLegendText: function(chart, x, y, text, color, cssClass, useHtml){
+							return chart.renderer.text(text, x, y, undefined, undefined, undefined, useHtml)
+								.css({
+				                    fontSize: '10px',
+				                })
+								.attr({
+									zIndex: 6,
+									fill: color,
+									class: cssClass + ' columnLegend'
+								})
+								.add();
+			            },
+            addLegendTextbold: function(chart, x, y, text, color, cssClass, useHtml){
+				return chart.renderer.text(text, x, y, undefined, undefined, undefined, useHtml)
+					.attr({
+						zIndex: 6,
+						fill: color,
+						class: cssClass + ' columnLegend'})
+					.css({
+                        fontWeight: 'bold', 
+						fontSize: '10px'}),
                      add();
-                },
-                
+            },
                 addLegendSquare: function(chart, x, y, width, fill, cssClass){
                 	return chart.renderer.rect(x, y, width, width, 0).attr({
     		            'stroke-width':0,

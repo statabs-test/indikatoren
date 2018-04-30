@@ -181,8 +181,8 @@
                 	var legendLeft = 596;
 
 	                fn.addLegendColumnChart(chart, legendLeft-95,  legendTop+10,  legendColumnValues, color, 'columnLegendHideOnZoom');
-	                fn.addLegendText(chart,        legendLeft-50, legendTop+10,  Highcharts.numberFormat(legendColumnValues[0], 0,","," "), color(legendColumnValues[0], 0), 'columnLegendHideOnZoom');
-	                fn.addLegendText(chart,        legendLeft-75, legendTop+10,  Highcharts.numberFormat(legendColumnValues[1], 1,","," "), color(legendColumnValues[1], 1), 'columnLegendHideOnZoom');
+	                fn.addLegendText(chart,        legendLeft-75, legendTop+10,  Highcharts.numberFormat(legendColumnValues[0], 0,","," "), color(legendColumnValues[0], 0), 'columnLegendHideOnZoom');
+	                fn.addLegendText(chart,        legendLeft-60, legendTop+10,  Highcharts.numberFormat(legendColumnValues[1], 1,","," "), color(legendColumnValues[1], 1), 'columnLegendHideOnZoom');
 					
 					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+20,  10, color(1, 0));
 					fn.addLegendText(chart,        legendLeft-80, legendTop+30,  'Wanderung positiv');
