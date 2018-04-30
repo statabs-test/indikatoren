@@ -3912,7 +3912,7 @@
                 	//Add manually drawn legend	
                 	var legendTop = 220;
                 	var legendLeft = 365;
-	                fn.addLegendTitle(chart, 'Wanderung/Umzug', 265, 215);
+	                fn.addLegendTitle(chart, 'Wanderung/Umzug', 265, 215); 
 	                
 	                fn.addLegendColumnChart(chart, legendLeft+35,  legendTop+45,  legendColumnValues, color, 'columnLegendHideOnZoom');
 	                
