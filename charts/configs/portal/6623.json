@@ -313,6 +313,7 @@
                 }
     },
     "type": "area",
+    "marginTop": 60,
     "renderTo": "container-6623"
   },
   "plotOptions": {
