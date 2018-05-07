@@ -1,7 +1,8 @@
 (function(){
     return {
         chart: {
-        	type: 'area'
+        	type: 'area',
+        	marginTop: 60,
         },
         xAxis: {
             endOnTick: true,    
