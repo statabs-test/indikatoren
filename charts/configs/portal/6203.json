@@ -3768,7 +3768,7 @@
     "maxColor": "#5b2659"
   },
   "mapNavigation": {
-    "enabled": false,
+    "enabled": true,
     "enableButtons": true,
     "buttonOptions": {
       "align": "left",
@@ -3826,23 +3826,21 @@
 				try{
 					//only care about zoom events, not pan: 
 					if (e.trigger != 'pan'){
-						//determine current zoom level
-						var zoom = (e.dataMax - e.dataMin) / (e.max - e.min);
-						$(divIdString + selector).each(function(){
-							var initialValue = $(this).attr('initialValue');
-							console.log('zoom: ', zoom, ', initialValue: ', initialValue);
-							/*
-							//get size and data of last series in chart, this should be a pie, and check its size (diameter in px) and value to determine legend value
-							var series = e.target.chart.series;
-							var lastSeries = series[series.length-1];
-							var lastPieData = lastSeries.yData[0];
-							var lastPieSize = lastSeries.options.size;
-							var legendSize = fn.pieSize(Math.abs(initialValue), fn.getPointsExtremes(fn.pieSizeSeries.points).maxAbsNumber, fn.maxPieDiameter);
-							var legendValue = (Math.sqrt(lastPieData)*legendSize/lastPieSize) * (Math.sqrt(lastPieData)*legendSize/lastPieSize);
-							*/
-							var legendValue = initialValue / zoom / zoom;
-							$(this).contents()[0].innerHTML = (zoom ==1)  ? initialValue : fn.legendLabelZoomFormatter(legendValue);
-						});
+						//wait for zoom animation to be finished before attempting calculation of zoom
+						setTimeout(function(){
+							//determine current zoom level
+							if (e.target.chart){
+								var yAxis = e.target.chart.yAxis[0];
+								if(yAxis){
+									var zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
+									$(divIdString + selector).each(function(){
+										var initialValue = $(this).attr('initialValue');
+										var legendValue = initialValue / zoom / zoom;
+										$(this).contents()[0].innerHTML = (zoom ==1)  ? initialValue : fn.legendLabelZoomFormatter(legendValue);
+									});
+								}
+							}
+						}, 750);
 					}
 				}
 				catch(error){
