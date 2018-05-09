@@ -11,7 +11,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
@@ -242,7 +242,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -275,7 +275,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -308,7 +308,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -341,7 +341,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Staatliches Handeln",
 		"stufe2": "Finanzhaushalt",
 		"stufe3": "",
@@ -407,7 +407,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Staatliches Handeln",
 		"stufe2": "Finanzhaushalt",
 		"stufe3": "",
@@ -473,7 +473,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Lebensqualität",
 		"stufe3": "",
@@ -510,7 +510,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
@@ -543,7 +543,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
@@ -609,7 +609,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Existenzsicherung",
 		"stufe3": "",
@@ -643,7 +643,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Existenzsicherung",
 		"stufe3": "",
@@ -677,7 +677,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Existenzsicherung",
 		"stufe3": "",
@@ -711,7 +711,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Sicherheit",
 		"stufe3": "",
@@ -777,7 +777,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Sicherheit",
 		"stufe3": "",
@@ -810,7 +810,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Bildung",
 		"stufe3": "",
@@ -843,7 +843,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Bildung",
 		"stufe3": "",
@@ -876,7 +876,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Bildung",
 		"stufe3": "",
@@ -909,7 +909,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Bildung",
 		"stufe3": "",
@@ -943,7 +943,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
@@ -976,7 +976,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
@@ -1042,7 +1042,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-03-16T14:52:33.3333",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.0000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
@@ -1115,8 +1115,8 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2013 5,3 globale Hektaren pro Kopf.",
-		"erlaeuterungen": "Der ökologische Fussabdruck misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Er wird von Global Footprint Network berechnet. Aufgrund von Verbesserungen der Methodik und der berücksichtigten Eingangsgrössen für die Berechnung kann bei Aktualisierungen die gesamte Zeitreihe rückwirkend angepasst werden.",
+		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2014 4,9 globale Hektaren pro Kopf.",
+		"erlaeuterungen": "Der ökologische Fussabdruck misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Er wird durch die Non-Profit Organisation \"Global Footprint Network\" für alle Länder weltweit berechnet. Aufgrund von Verbesserungen der Methodik und der berücksichtigten Eingangsgrössen für die Berechnung kann bei Aktualisierungen die gesamte Zeitreihe rückwirkend angepasst werden.",
 		"template": "line001",
 		"orderKey": "04_01_00_00_00_401",
 		"parentId": null,
@@ -1126,7 +1126,8 @@ var indikatorensetData = [
 			"Global Footprint Network"
 		],
 		"externalLinks": [
-			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/oekologischer-fussabdruck.html' target = '_blank'>Bundesamt für Statistik: Der ökologische Fussabdruck der Schweiz</a>"
+			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/oekologischer-fussabdruck.html' target = '_blank'>Bundesamt für Statistik: Der ökologische Fussabdruck der Schweiz</a>",
+			"Aktuelle Daten des <a href = 'http://data.footprintnetwork.org/#/countryTrends?cn=211&type=BCpc,EFCpc' target = '_blank'>Global Footprint Network</a>"
 		],
 		"id": 5793
 	},
@@ -1142,7 +1143,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -1175,7 +1176,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -1208,7 +1209,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -1241,7 +1242,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -1274,7 +1275,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -1308,7 +1309,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -1341,7 +1342,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -1374,7 +1375,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -1407,7 +1408,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
@@ -1440,7 +1441,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
@@ -1473,7 +1474,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Friedliches Zusammenleben",
 		"stufe3": "",
@@ -1506,7 +1507,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Friedliches Zusammenleben",
 		"stufe3": "",
@@ -1539,7 +1540,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengerechtigkeit",
 		"stufe3": "",
@@ -1572,7 +1573,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengerechtigkeit",
 		"stufe3": "",
@@ -1605,7 +1606,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengerechtigkeit",
 		"stufe3": "",
@@ -1638,7 +1639,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Gesellschaftliche Verantwortung",
 		"stufe3": "",
@@ -1671,7 +1672,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Gesellschaftliche Verantwortung",
 		"stufe3": "",
@@ -1704,7 +1705,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Gesellschaftliche Verantwortung",
 		"stufe3": "",
@@ -1737,7 +1738,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Gesellschaftliche Verantwortung",
 		"stufe3": "",
@@ -1770,7 +1771,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Gesellschaftliche Verantwortung",
 		"stufe3": "",
@@ -1805,7 +1806,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
@@ -1838,7 +1839,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
@@ -1871,7 +1872,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
@@ -1904,7 +1905,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
@@ -1937,7 +1938,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
@@ -1970,7 +1971,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
@@ -2003,7 +2004,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
@@ -2070,7 +2071,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Erwerbsarbeit",
 		"stufe3": "",
@@ -2103,7 +2104,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Erwerbsarbeit",
 		"stufe3": "",
@@ -2136,7 +2137,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Erwerbsarbeit",
 		"stufe3": "",
@@ -2202,7 +2203,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
@@ -2235,7 +2236,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengerechtigkeit",
 		"stufe3": "",
@@ -2268,7 +2269,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
@@ -2301,7 +2302,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -2334,7 +2335,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -2367,7 +2368,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
