@@ -3769,7 +3769,8 @@
     "maxColor": "#4b7b1f"
   },
   "mapNavigation": {
-    "enabled": true,
+    "enabled": false,
+    "enableButtons": true,
     "buttonOptions": {
       "align": "left",
       "verticalAlign": "bottom"

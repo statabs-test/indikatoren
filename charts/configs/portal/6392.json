@@ -3814,7 +3814,8 @@
     ]
   },
   "mapNavigation": {
-    "enabled": true,
+    "enabled": false,
+    "enableButtons": true,
     "buttonOptions": {
       "align": "left",
       "verticalAlign": "bottom"
