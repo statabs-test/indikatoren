@@ -477,7 +477,7 @@
     		            'stroke-width':0,
     		            fill: fill,
     		            zIndex: 6,
-    		            class: cssClass + ' pieLegend'
+    		            class: cssClass
     	        	}).add();
                 },
 
