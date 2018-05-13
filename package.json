@@ -22,7 +22,7 @@
     "highcharts-export-server": "2.0.12",
     "http-server": "0.11.1",
     "jsdom": "9.12.0",
-    "jsondiffpatch": "0.2.5",
+    "jsondiffpatch": "0.3.10",
     "rimraf": "2.6.2",
     "serialize-javascript": "1.5.0",
     "svgo": "1.0.0"
