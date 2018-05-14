@@ -4,71 +4,71 @@
       "data": [
         [
           "Anteil&nbsp;Sozialhilfeempfänger",
-          3
+          8
         ],
         [
           "Anteil&nbsp;Ausländer",
-          6
+          5
         ],
         [
           "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
-          19
-        ],
-        [
-          "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
-          19
-        ],
-        [
-          "Gymnasialquote",
-          20
-        ],
-        [
-          "Altersquotient",
-          9
-        ],
-        [
-          "Anteil&nbsp;Sesshafte",
           10
         ],
         [
+          "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
+          3
+        ],
+        [
+          "Gymnasialquote",
+          14
+        ],
+        [
+          "Altersquotient",
+          21
+        ],
+        [
+          "Anteil&nbsp;Sesshafte",
+          20
+        ],
+        [
           "Jugendquotient",
-          1
+          20
         ],
         [
           "Baujahr&nbsp;Wohngebaeude",
-          1
+          20
         ],
         [
           "Anteil Einfamilienhäuser",
-          7
+          18
         ],
         [
           "Anteil&nbsp;Grünfläche",
-          1
+          20
         ],
         [
           "Fläche&nbsp;pro&nbsp;Wohnung",
-          16
-        ],
-        [
-          "Wohnfläche&nbsp;pro&nbsp;Kopf",
-          21
-        ],
-        [
-          "Vermögenssteuer",
           19
         ],
         [
+          "Wohnfläche&nbsp;pro&nbsp;Kopf",
+          16
+        ],
+        [
+          "Vermögenssteuer",
+          16
+        ],
+        [
           "Einkommenssteuer",
-          20
+          16
         ],
         [
           "Erwerbstätigenquote",
-          21
+          13
         ],
         [
           "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
-          20
+          4
         ],
         [
           "Arbeitslosenquote",
@@ -139,8 +139,8 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
-    "spacingBottom": 45,
+    "height": 428,
+    "spacingBottom": 55,
     "style": {
       "fontFamily": "Arial"
     },
@@ -231,9 +231,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt"
+    "text": "Quelle: Statistisches Amt Basel-Stadt\u003Cbr\u002F\u003EZuletzt geändert: 9\u002F26\u002F2017"
   },
   "legend": {
     "enabled": false,

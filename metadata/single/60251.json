@@ -19,7 +19,7 @@
 "erlaeuterungen":"",
 "template":"mappie002_print",
 "visible":true,
-"visibleInPortal":true,
+"visibleInPortal":false,
 "orderKey":"_010",
 "parentId":null,
 "children":[],
