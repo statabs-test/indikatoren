@@ -192,7 +192,7 @@
 					fn.addLegendText(chart,        legendLeft-80, legendTop+60,  'Umzug positiv');
 					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+65, 10, color(-1, 1));
 					fn.addLegendText(chart,        legendLeft-80, legendTop+75 , 'Umzug negativ');
-					fn.addLegendText(chart,     330, 170 , 'Bevölkerungssaldo infolge <br> räumliche Bewerbung <br> pro 100 Einwohner <br>(Saldo total)');
+					fn.addLegendText(chart,     330, 170 , 'Bevölkerungssaldo infolge <br> räumlicher Bewegung <br> pro 100 Einwohner <br>(Saldo total)');
 					fn.addLegendText(chart,     500, 170 , 'Saldo pro 100 Einwohner');
 
 					
