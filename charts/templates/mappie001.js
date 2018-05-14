@@ -188,7 +188,7 @@
 									});
 								}
 							}
-						}, 750);
+						}, 750); //default jQuery animmation is 500 ms, see https://api.highcharts.com/highmaps/chart.animation 
 					}
 				}
 				catch(error){
