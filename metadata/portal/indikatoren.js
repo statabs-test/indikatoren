@@ -8474,41 +8474,6 @@ var indikatoren = [
 		"id": 6022
 	},
 	{
-		"title": "Bevölkerungssaldo infolge räumlicher Bevölkerungsbewegung pro 100 Einwohner",
-		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.5.06022",
-		"kuerzelKunde": "1-121",
-		"description": "Bevölkerungssaldo infolge räumlicher Bevölkerungsbewegung pro 100 Einwohner",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Wanderungen",
-		"kennzahlenset": "Wanderungen",
-		"raeumlicheGliederung": [
-			"Wohnviertel",
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Wanderungssaldo pro 100 Einwohner illustriert, in welche baselstädtische Wohnviertel mehr Personen von ausserhalb des Kantons zuziehen als von dort abwandern. Im Jahr 2016 verbuchten die Wohnviertel Altstadt Grossbasel, Vorstädte und Rosental die höchsten Wanderungsgewinne. Deutliche Wanderungsverluste ergaben sich hingegen für die Wohnviertel St. Alban, Iselin, St. Johann und Klybeck sowie für die Gemeinden Bettingen. Betrachtet man die Umzüge von Personen, die innerhalb des Kantons ihr Domizil wechselten, wiesen das Breite-, das Bruderholz- und das Hirzbrunnenquartier die stärksten Umzugsgewinne auf. Hohe Umzugsverluste kamen hingegen in den Wohnvierteln Am Ring, Wettstein und Matthäus zustande.",
-		"erlaeuterungen": "",
-		"template": "mapcolumn002_print",
-		"visibleInPortal": true,
-		"orderKey": "_012",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 60221
-	},
-	{
 		"title": "Zugezogene, Weggezogene und Wanderungssaldo",
 		"subtitle": "nach Zuzugs- und Wegzugsland; Stand: 2016",
 		"kuerzel": "I.01.5.06023",
@@ -8610,41 +8575,6 @@ var indikatoren = [
 			""
 		],
 		"id": 6025
-	},
-	{
-		"title": "Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner",
-		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.5.06025",
-		"kuerzelKunde": "1-101",
-		"description": "Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Wanderungen",
-		"kennzahlenset": "Wanderungen",
-		"raeumlicheGliederung": [
-			"Wohnviertel",
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Breite lassen sich mehr Neuzuzüger aus der Schweiz als aus dem Ausland nieder: 2016 kamen im Breiteviertel 55% der Zugezogenen aus der Schweiz. Gesamtkantonal kamen 44% der Neuzuzüger aus der Schweiz. In den Quartieren Gundeldingen, Bruderholz, Bachletten und Hirzbrunnen liegt der Anteil der Zuzüger, die bereits zuvor in der Schweiz gelebt haben, ebenfalls über dem kantonalen Durchschnitt. Überdurchschnittlich viele Zuzüger aus dem Ausland gibt es hingegen in den Wohnvierteln Rosental, Matthäus, Klybeck und Kleinhüningen.",
-		"erlaeuterungen": "",
-		"template": "mappie002_print",
-		"visibleInPortal": true,
-		"orderKey": "_010",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 60251
 	},
 	{
 		"title": "Anteile der Bodenbedeckungsarten an der Kantonsfläche",

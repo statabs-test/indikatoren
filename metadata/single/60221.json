@@ -19,7 +19,7 @@
 "erlaeuterungen":"",
 "template":"mapcolumn002_print",
 "visible":true,
-"visibleInPortal":true,
+"visibleInPortal":false,
 "orderKey":"_012",
 "parentId":null,
 "children":[],
