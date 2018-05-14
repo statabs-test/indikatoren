@@ -3948,7 +3948,8 @@
 					fn.AddColumnLegendClickHandler(chart);
 	            }
     },
-    "renderTo": "container-60221"
+    "renderTo": "container-60221",
+    "spacingBottom": 2
   },
   "title": {
     "style": {
