@@ -3878,14 +3878,14 @@
                 	var legendLeft = 596;;
                 	
 					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+20,  10, "#B00000");
-					fn.addLegendText(chart,        legendLeft-80, legendTop+30,  'Schweiz positiv');
+					fn.addLegendText(chart,        legendLeft-80, legendTop+30,  'Schweiz');
 					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+35,  10, "#008AC3");
 					fn.addLegendText(chart,        legendLeft-80, legendTop+45,  'Ausland');
 					fn.addLegendText(chart,     330, 170 , 'Anzahl Zugezogene <br> pro 100 Einwohner <br>');
 					fn.addLegendText(chart,     500, 170 , 'Anteil Zugezogene <br> nach Zuzugsland');
 				}
     },
-    "renderTo": "container-60251"
+    "renderTo": "container-6774"
   },
   "title": {
     "style": {
@@ -3942,30 +3942,30 @@
       {
         "to": 4.999,
         "color": "rgb(242,242,242)",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E7,0\u003C\u002Fspan\u003E\u003C\u003Cspan style='color: rgba(0,0,0,0)'\u003E11\u003C\u002Fspan\u003E5,0"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E7,0\u003C\u002Fspan\u003E \u003C\u003Cspan style='color: rgba(0,0,0,0)'\u003E11\u003C\u002Fspan\u003E5,0"
       },
       {
         "from": 5,
         "to": 6.999,
         "color": "rgb(230,230,230)",
-        "name": "5,0−\u003Cspan style='color: rgba(0,0,0,0)'\u003E11\u003C\u002Fspan\u003E6,9"
+        "name": "5,0 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E11\u003C\u002Fspan\u003E6,9"
       },
       {
         "from": 7,
         "to": 8.999,
         "color": "rgb(200,200,200)",
-        "name": "7,0−\u003Cspan style='color: rgba(0,0,0,0)'\u003E11\u003C\u002Fspan\u003E8,9"
+        "name": "7,0 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E11\u003C\u002Fspan\u003E8,9"
       },
       {
         "from": 9,
         "to": 11,
         "color": "rgb(153,153,153)",
-        "name": "9,0−\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E11,0"
+        "name": "9,0 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E11,0"
       },
       {
         "from": 11.001,
         "color": "rgb(60,60,60)",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E7,0\u003C\u002Fspan\u003E≥\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E11,0"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E7,0\u003C\u002Fspan\u003E ≥\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E11,0"
       }
     ]
   },
@@ -4354,6 +4354,6 @@
 				}
   },
   "exporting": {
-    "filename": 60251
+    "filename": 6774
   }
 }

@@ -754,9 +754,9 @@ id | visible | visibleInPortal | indikatorenset
 6597 | true | false | Nachhaltigkeit
 6599 | true | true | Nachhaltigkeit
 6623 | true | true | 
+6771 | true | false | Wanderungen (Print)
+6774 | true | false | Wanderungen (Print)
 9996 | true | false | 
 9997 | true | false | 
 9998 | true | false | Test
 9999 | true | false | Test
-60221 | true | false | Wanderungen
-60251 | true | false | Wanderungen
