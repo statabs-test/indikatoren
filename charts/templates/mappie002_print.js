@@ -14,7 +14,7 @@
             "backgroundColor": "#fbfbfb",
              "width": 640,
             "height": 312,
-            "spacingBottom": 45,
+            spacing: [2,2,2,2],
             "style": {
                 "fontFamily": "Arial"
             },

@@ -3825,7 +3825,12 @@
     "backgroundColor": "#fbfbfb",
     "width": 640,
     "height": 312,
-    "spacingBottom": 45,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
     "style": {
       "fontFamily": "Arial"
     },
@@ -3885,7 +3890,8 @@
 					fn.addLegendText(chart,     500, 170 , 'Anteil Zugezogene <br> nach Zuzugsland');
 				}
     },
-    "renderTo": "container-6774"
+    "renderTo": "container-6774",
+    "spacingBottom": 2
   },
   "title": {
     "style": {
@@ -3993,8 +3999,8 @@
     },
     "useHTML": true,
     "layout": "vertical",
-    "x": -222,
-    "y": 3,
+    "x": -235,
+    "y": -35,
     "itemMarginBottom": 2,
     "symbolRadius": 0
   },
