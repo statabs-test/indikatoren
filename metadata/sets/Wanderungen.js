@@ -366,7 +366,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "I.01.5.06025",
 		"kuerzelKunde": "1-10",
 		"description": "Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner",
