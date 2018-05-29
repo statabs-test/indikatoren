@@ -3604,8 +3604,8 @@
     "marker": {
       "color": "black"
     },
-    "minColor": "#f4ebf3",
-    "maxColor": "#5b2659"
+    "minColor": "#ECE1D0",
+    "maxColor": "#3A2012"
   },
   "mapNavigation": {
     "enabled": true,
@@ -3618,9 +3618,12 @@
     "enabled": true,
     "align": "right",
     "floating": true,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
     "title": {
       "style": {
-        "fontWeight": "bold",
+        "fontWeight": "normal",
         "fontSize": "12px"
       },
       "text": "Seit mindestens 10 Jahren an der gleichen \u003Cbr\u002F\u003E Adresse lebende Personen in %"

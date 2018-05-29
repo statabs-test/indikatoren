@@ -58,6 +58,18 @@
 				"visible": false
 			}
 		],
+		xAxis: {
+    		events: {
+				//recalculate and hide svg elements on zoom
+				afterSetExtremes: function(e){
+					if (this.chart){
+						var fn = this.chart.userOptions.customFunctions;
+						fn.recalculateOnZoom(e, '.pieLegendRecalculateOnZoom');
+						fn.hideOnZoom(e, '.pieLegendHideOnZoom');
+					}
+				}
+    		}
+		},
 		chart: {
 			events: {
 	            load: function (e) {
@@ -81,7 +93,10 @@
 	                var color = function(value){
 	                	return (value >= 0) ? '#C9D6DB' : '#C9D6DB';
 	                };					
-					
+					//define number format in zoomed legend labels
+	                fn.legendLabelZoomFormatter = function(value){
+	                	return Highcharts.numberFormat((value),3,","," ");
+	                };
 					//define chart-specific details
 					var pieSeriesConfig = function(data, correspondingMapSeriesItem, color){
 						return {
@@ -107,7 +122,9 @@
 	                var maxValueInLegend = 4000; 
 	                
                 	//Add manually drawn legend	
-	                fn.addLegendTitle(chart, "Anteil unter 20-Jähriger in %", 265, 307, 'pieLegendHideOnZoom');
+                	fn.addLegendRectangle(chart, 250, 220, 230, 77, 'rgba(222, 222, 222, 0.5)', 'pieLegend');
+                	fn.addLegendRectangle(chart, 250, 300, 230, 60, 'rgba(222, 222, 222, 0.5)');
+	                fn.addLegendTitle(chart, "Anteil unter 20-Jähriger in %", 265, 300, 'pieLegendHideOnZoom');
 	                
 	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#C9D6DB', 'pieLegendHideOnZoom');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 300, 245, 'pieLegendHideOnZoom');

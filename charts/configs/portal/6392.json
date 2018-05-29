@@ -3627,8 +3627,10 @@
 					},
         "style": {
           "fontSize": "12px",
+          "fontFamily": "Arial",
           "fontWeight": "normal",
-          "color": "black"
+          "fontStyle": "normal",
+          "color": "#000000"
         },
         "y": -10
       }
@@ -3785,30 +3787,30 @@
     "dataClasses": [
       {
         "to": 1.999,
-        "color": "#D7E8D2",
+        "color": "#D3E2E4",
         "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0,0\u003C\u002Fspan\u003E \u003C 2,0"
       },
       {
         "from": 2,
         "to": 3.9,
-        "color": "#73B97C",
+        "color": "#A8C3CA",
         "name": "2,0 − 3,9"
       },
       {
         "from": 4,
         "to": 5.9,
-        "color": "#68AB2B",
+        "color": "#689199",
         "name": "4,0 − 5,9"
       },
       {
         "from": 6,
         "to": 7.999,
-        "color": "#007A2F",
+        "color": "#246370",
         "name": "6,0 − 7,9"
       },
       {
         "from": 8,
-        "color": "#0A3B19",
+        "color": "#083038",
         "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0,0\u003C\u002Fspan\u003E ≥ 8,0"
       }
     ]
@@ -3825,10 +3827,15 @@
     "enabled": true,
     "align": "right",
     "floating": true,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "fontSize": 12,
+      "fontfamily": "Arial"
+    },
     "title": {
       "style": {
         "fontWeight": " bold",
-        "fontSize": "11px"
+        "fontSize": "12px"
       },
       "text": null
     },
@@ -3837,10 +3844,7 @@
     "x": -140,
     "y": -30,
     "itemMarginBottom": 2,
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
+    "symbolRadius": 0
   },
   "xAxis": {
     "events": {
@@ -4137,7 +4141,8 @@
     				}).add();
                 },
     "addLegendCircle": function (chart, x, y, radius, fill, cssClass){
-                	return chart.renderer.circle(x, y, radius, fill).attr({
+                	return chart.renderer.circle(x, y, radius, fill)
+                	.attr({
     				    fill: fill,
     				    stroke: fill,
     				    'stroke-width': 1, 
@@ -4146,7 +4151,11 @@
     				}).add();
                 },
     "addLegendLabel": function (chart, text, x, y, cssClass, useHtml){
-    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
+    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
+                	.css({
+					style: {fontSize: "12px", fontFamily: "Arial", fontWeight: 'normal', fontStyle: "normal", color: "#000000"},
+                	})    				
+    				.attr({
     					zIndex: 6,
     					class: cssClass + ' pieLegend', 
     					initialValue: text

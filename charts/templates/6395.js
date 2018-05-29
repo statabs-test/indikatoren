@@ -16,12 +16,9 @@
 			//"verticalAlign": "middle",
 			"align": "right",
 			"x": -140,
-			"y": -30,
+			"y": -15,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
-			itemStyle: {
-				fontWeight: 'normal'
-				}
 		},
          colorAxis: {
             dataClassColor: 'category',
@@ -129,7 +126,7 @@
 					
 					//define different colors for positive and negative values
 	                var color = function(value){
-	                	return (value >= 0) ? '#71A3B5' : '#71A3B5';
+	                	return (value >= 0) ? '#007A2F' : '#007A2F';
 	                };					
 					
 					//define chart-specific details
@@ -155,11 +152,11 @@
 	        		fn.addLegendTitle(chart, "Arbeitsstätten pro <br/> 100 Einwohner", 245, 210);
 	                fn.addLegendTitle(chart, "Anzahl <br/> Arbeitsstätten", 365, 210);
 	                
-	              	fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, '#71A3B5');
+	              	fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, '#007A2F');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 385, 255, undefined, true);
-	                fn.addLegendCircle(chart, 373, 285, 0.5*pieSizeCatConfig[1].diameter, '#71A3B5');
+	                fn.addLegendCircle(chart, 373, 285, 0.5*pieSizeCatConfig[1].diameter, '#007A2F');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 385, 275, undefined, true);
-	                fn.addLegendCircle(chart, 373, 310, 0.5*pieSizeCatConfig[2].diameter, '#71A3B5');
+	                fn.addLegendCircle(chart, 373, 310, 0.5*pieSizeCatConfig[2].diameter, '#007A2F');
 					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 385, 300, undefined, true);
 					
 					

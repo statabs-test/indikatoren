@@ -3604,8 +3604,8 @@
     "marker": {
       "color": "black"
     },
-    "minColor": "#f4ebf3",
-    "maxColor": "#5b2659"
+    "minColor": "#D3E2E4",
+    "maxColor": "#083038"
   },
   "mapNavigation": {
     "enabled": true,
@@ -3618,9 +3618,12 @@
     "enabled": true,
     "align": "right",
     "floating": true,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
     "title": {
       "style": {
-        "fontWeight": "bold",
+        "fontWeight": "normal",
         "fontSize": "12px"
       },
       "text": "Mittelwert pro Veranlagung \u003Cbr\u002F\u003E in 1 000 Fr. "

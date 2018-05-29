@@ -16,7 +16,7 @@
             "height": 415,
             "spacingBottom": 45,
             "style": {
-                "fontFamily": "Arial"
+                "fontFamily": "Arial",
             },
             "type": "map",
     		"inverted": false
@@ -53,17 +53,17 @@
                 "x": 10
             }
         },
-        "colorAxis": {
-    		"min": 0,
-    		"gridLineColor": "#fbfbfb",	
-            "gridLineWidth": 1,
-            "labels": {	
-    		    "style": {"color": "black", "cursor": "default", "fontSize": "11px", "textOverflow": "none"}
-    		},
-    		"marker": {
-                    "color": "black"
-            }
-    	},    
+	"colorAxis": {
+	    		"min": 0,
+	    		"gridLineColor": "#fbfbfb",	
+	            "gridLineWidth": 1,
+	            "labels": {	
+	    		    "style": {"color": "black", "cursor": "default", "fontSize": "11px", "textOverflow": "none"}
+	    		},
+	    		"marker": {
+	                    "color": "black"
+	            }
+	    	},        
         "mapNavigation": {
             enabled: true,
             enableButtons: true,
@@ -83,17 +83,20 @@
             */
             
         },
-        "legend": {
+       "legend": {
     		"enabled": true, 
             "align": "right",
             "floating": true,
+           itemStyle: {
+				fontWeight: 'normal', fontSize: 12, fontfamily: "Arial"
+			},
             "title": {
                 "style": {
                     "fontWeight": "normal", 
-                    "fontSize": "11px"
+                    "fontSize": "12px"
                 }
             }
-    	}, 
+    	},
     	xAxis: {
     		events: {
 				//hide svg elements on zoom
@@ -141,7 +144,7 @@
 					formatter: function(){
 						return '1 km';
 					}, 
-					style: {fontSize: "12px", fontWeight: "normal", color: 'black'},
+					style: {fontSize: "12px", fontFamily: "Arial", fontWeight: 'normal', fontStyle: "normal", color: "#000000"},
 					y: -10
 				}
     		}
@@ -448,7 +451,8 @@
                 },                
                 
                 addLegendCircle: function(chart, x, y, radius, fill, cssClass){
-                	return chart.renderer.circle(x, y, radius, fill).attr({
+                	return chart.renderer.circle(x, y, radius, fill)
+                	.attr({
     				    fill: fill,
     				    stroke: fill,
     				    'stroke-width': 1, 
@@ -459,7 +463,11 @@
     	                
     	                
                 addLegendLabel: function(chart, text, x, y, cssClass, useHtml){
-    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
+    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
+                	.css({
+					style: {fontSize: "12px", fontFamily: "Arial", fontWeight: 'normal', fontStyle: "normal", color: "#000000"},
+                	})    				
+    				.attr({
     					zIndex: 6,
     					class: cssClass + ' pieLegend', 
     					initialValue: text

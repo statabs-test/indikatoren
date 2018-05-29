@@ -16,7 +16,7 @@
 			//"verticalAlign": "middle",
 			"align": "right",
 			"x": -130,
-			"y": -35,
+			"y": -10,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
 			itemStyle: {

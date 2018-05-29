@@ -3627,8 +3627,10 @@
 					},
         "style": {
           "fontSize": "12px",
+          "fontFamily": "Arial",
           "fontWeight": "normal",
-          "color": "black"
+          "fontStyle": "normal",
+          "color": "#000000"
         },
         "y": -10
       }
@@ -4133,10 +4135,15 @@
     "enabled": true,
     "align": "right",
     "floating": true,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "fontSize": 12,
+      "fontfamily": "Arial"
+    },
     "title": {
       "style": {
         "fontWeight": "normal",
-        "fontSize": "11px"
+        "fontSize": "12px"
       },
       "text": ""
     }
@@ -4436,7 +4443,8 @@
     				}).add();
                 },
     "addLegendCircle": function (chart, x, y, radius, fill, cssClass){
-                	return chart.renderer.circle(x, y, radius, fill).attr({
+                	return chart.renderer.circle(x, y, radius, fill)
+                	.attr({
     				    fill: fill,
     				    stroke: fill,
     				    'stroke-width': 1, 
@@ -4445,7 +4453,11 @@
     				}).add();
                 },
     "addLegendLabel": function (chart, text, x, y, cssClass, useHtml){
-    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
+    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
+                	.css({
+					style: {fontSize: "12px", fontFamily: "Arial", fontWeight: 'normal', fontStyle: "normal", color: "#000000"},
+                	})    				
+    				.attr({
     					zIndex: 6,
     					class: cssClass + ' pieLegend', 
     					initialValue: text

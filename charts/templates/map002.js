@@ -79,9 +79,12 @@
     		"enabled": true, 
             "align": "right",
             "floating": true,
+           itemStyle: {
+				fontWeight: 'normal'
+			},
             "title": {
                 "style": {
-                    "fontWeight": "bold", 
+                    "fontWeight": "normal", 
                     "fontSize": "12px"
                 }
             }

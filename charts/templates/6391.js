@@ -19,9 +19,6 @@
 			"y": -30,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
-			itemStyle: {
-				fontWeight: 'normal'
-				}
 		},
          colorAxis: {
             dataClassColor: 'category',

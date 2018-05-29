@@ -16,7 +16,7 @@
 			//"verticalAlign": "middle",
 			"align": "right",
 			"x": -127,
-			"y": -30,
+			"y": -15,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
 			itemStyle: {
@@ -27,26 +27,26 @@
             dataClassColor: 'category',
                    dataClasses: [{
                 to:24.999,
-                color: '#D7E8D2',
+                color: '#FFDA80',
                 name:  "<span style='color: rgba(0,0,0,0)'>000,0</span> < <span style='color: rgba(0,0,0,0)'>0</span>25,0"
             }, {
                 from: 25.0,
                 to: 49.999,
-                color: '#73B97C',
+                color: '#FABD24',
                 name: "<span style='color: rgba(0,0,0,0)'>0</span>25,0 − <span style='color: rgba(0,0,0,0)'>0</span>49,9"
             }, {
                 from: 50.0,
                 to: 99.999,
-                 color: '#68AB2B',
+                 color: '#CD9C00',
                  name: "<span style='color: rgba(0,0,0,0)'>0</span>50,0 − <span style='color: rgba(0,0,0,0)'>0</span>99,9"
             },{
                 from: 100.0,
                 to: 199.999,
-                 color: '#007A2F',
+                 color: '#7F5F1A',
                  name: "100,0 − 199,9"
             },{
                 from: 200.0,
-                color: '#0A3B19',
+                color: '#45381D',
                 name:  "<span style='color: rgba(0,0,0,0)'>000,0</span> ≥ 200,0"
             }], 
         },
@@ -129,7 +129,7 @@
 					
 					//define different colors for positive and negative values
 	                var color = function(value){
-	                	return (value >= 0) ? '#7F5F1A' : '#FABD24';
+	                	return (value >= 0) ? '#007A2F' : '#007A2F';
 	                };					
 					
 					//define chart-specific details
@@ -155,11 +155,11 @@
 	        		fn.addLegendTitle(chart, "Anteil unter <br/> 20-Jähriger in %", 245, 210);
 	                fn.addLegendTitle(chart, "Anzahl unter <br/> 20-Jähriger", 365, 210);
 	                
-		        	fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, 'grey');
+		        	fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, '#007A2F');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 385, 255, undefined, true);
-	                fn.addLegendCircle(chart, 373, 285, 0.5*pieSizeCatConfig[1].diameter, 'grey');
+	                fn.addLegendCircle(chart, 373, 285, 0.5*pieSizeCatConfig[1].diameter, '#007A2F');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 385, 275, undefined, true);
-	                fn.addLegendCircle(chart, 373, 310, 0.5*pieSizeCatConfig[2].diameter, 'grey');
+	                fn.addLegendCircle(chart, 373, 310, 0.5*pieSizeCatConfig[2].diameter, '#007A2F');
 					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 385, 300, undefined, true);
 					
 					//fn.addLegendSquare(chart, 565, 240, 10, '#7F5F1A');

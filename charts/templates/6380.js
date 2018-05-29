@@ -58,6 +58,18 @@
 				"visible": false
 			}
 		],
+		xAxis: {
+    		events: {
+				//recalculate and hide svg elements on zoom
+				afterSetExtremes: function(e){
+					if (this.chart){
+						var fn = this.chart.userOptions.customFunctions;
+						fn.recalculateOnZoom(e, '.pieLegendRecalculateOnZoom');
+						fn.hideOnZoom(e, '.pieLegendHideOnZoom');
+					}
+				}
+    		}
+		},
 		chart: {
 			events: {
 	            load: function (e) {
@@ -76,7 +88,10 @@
 					var maxPieDiameter = 20;
 
 					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
-					
+					//define number format in zoomed legend labels
+	                fn.legendLabelZoomFormatter = function(value){
+	                	return Highcharts.numberFormat((value),3,","," ");
+	                };					
 					//define different colors for positive and negative values
 	                var color = function(value){
 	                	return (value >= 0) ? '#7F5F1A' : '#FABD24';
@@ -106,7 +121,9 @@
 	                var minValueInLegend = 20; 
 	                var maxValueInLegend = 2000; 
 	                
-                	//Add manually drawn legend	
+                	//Add manually drawn legend		
+                	fn.addLegendRectangle(chart, 250, 220, 230, 77, 'rgba(222, 222, 222, 0.5)', 'pieLegend');
+                	fn.addLegendRectangle(chart, 250, 300, 230, 60, 'rgba(222, 222, 222, 0.5)');
 	                fn.addLegendTitle(chart, pieSizeSeries.name + "", 265, 220, 'pieLegendHideOnZoom');
 	                
 	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey', 'pieLegendHideOnZoom');
@@ -118,7 +135,7 @@
 					//fn.addLegendLabel(chart, 'Zunahme', 300, 245);
 					//fn.addLegendSquare(chart, 270, 275, 10, '#FABD24');
 					//fn.addLegendLabel(chart, 'Abnahme', 300, 270);
-					fn.addLegendTitle(chart, 'Sozialhilfequote in %', 265, 307);
+					fn.addLegendTitle(chart, 'Sozialhilfequote in %', 265, 300);
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);

@@ -16,9 +16,6 @@ global geojson_wohnviertelEPSG2056
 			"y": -20,
 			itemMarginBottom: 2,
 			symbolRadius: 0,
-			itemStyle: {
-				fontWeight: 'normal'
-				}
 		},
          colorAxis: {
             dataClassColor: 'category',

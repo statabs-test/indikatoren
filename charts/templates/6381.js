@@ -8,7 +8,7 @@
     return {
     	"legend": {
     		"x": -25,
-			"y": 0,
+			"y": 10,
 			"title": {
 				"text": ""
 			}
