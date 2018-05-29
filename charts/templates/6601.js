@@ -22,7 +22,7 @@ global geojson_wohnviertelEPSG2056
 		},
 		"legend": {
 			"title": {
-				"text": "Durchschnittliche Abweichung vom <br> Referenzwohnviertel Iselin"
+				"text": "Durchschnittliche Abweichung vom <br> Referenzwohnviertel Iselin in %"
 			}
 		},
         "data": {
