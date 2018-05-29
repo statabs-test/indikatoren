@@ -24,26 +24,26 @@ global geojson_wohnviertelEPSG2056
             dataClassColor: 'category',
                    dataClasses: [{
                 to:99999,
-                color: '#D7E8D2',
+                color: '#E7CEE2',
                 name:  "<span style='color: rgba(0,0,0,0)'>000 000</span> < 100 000"
             }, {
                 from: 100000,
                 to: 299999,
-                color: '#73B97C',
+                color: '#B375AB',
                 name: "100 000 − 299 999"
             }, {
                 from: 300000,
                 to: 499999,
-                 color: '#68AB2B',
+                 color: '#923F8D',
                  name: "300 000 − 499 999"
             },{
                 from: 500000,
                 to:699999,
-                 color: '#007A2F',
+                 color: '#662673',
                  name: "500 000 − 699 999"
             },{
                 from: 700000,
-                color: '#0A3B19',
+                color: '#2E1435',
                 name:  "<span style='color: rgba(0,0,0,0)'>000 000</span> ≥ 700 000"
             }], 
 		},

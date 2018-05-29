@@ -13,8 +13,8 @@
 			},
 		"colorAxis": {
 			//"min": undefined,
-			"minColor": "#eff6e9",
-			"maxColor": "#4b7b1f",
+			"minColor": "#ECE1D0",
+			"maxColor": "#3A2012",
 			"labels": {
 				"formatter": function () {
 					return Highcharts.numberFormat((this.value),0); 
@@ -79,7 +79,7 @@
 					
 					//define different colors for positive and negative values
 	                var color = function(value){
-	                	return (value >= 0) ? '#7F5F1A' : '#FABD24';
+	                	return (value >= 0) ? '#C9D6DB' : '#C9D6DB';
 	                };					
 					
 					//define chart-specific details
@@ -109,9 +109,9 @@
                 	//Add manually drawn legend	
 	                fn.addLegendTitle(chart, "Anteil unter 20-Jähriger in %", 265, 307, 'pieLegendHideOnZoom');
 	                
-	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#7F5F1A', 'pieLegendHideOnZoom');
+	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#C9D6DB', 'pieLegendHideOnZoom');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 300, 245, 'pieLegendHideOnZoom');
-	                fn.addLegendCircle(chart, 280, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#7F5F1A', 'pieLegendHideOnZoom');
+	                fn.addLegendCircle(chart, 280, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#C9D6DB', 'pieLegendHideOnZoom');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 300, 270, 'pieLegendHideOnZoom');
 	                
 	                fn.addSubtitle(chart, "Kanton Basel-Stadt: 32 873 unter 20-Jährige (16,6%)", 7, 40, 'pieLegendHideOnZoom')

@@ -5,8 +5,8 @@ global geojson_wohnviertelEPSG2056
 (function(){
     return {
 		"colorAxis": {
-			"minColor": "#f4ebf3",
-			"maxColor": "#5b2659",
+			"minColor": "#D3E2E4",
+			"maxColor": "#083038",
 			"labels": {
 				"formatter": function () {
 					return Highcharts.numberFormat((this.value/ 1000),0); 

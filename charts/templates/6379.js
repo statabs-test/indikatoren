@@ -13,7 +13,7 @@
 		"colorAxis": {
 			//"min": undefined,
 			"minColor": "#eff6e9",
-			"maxColor": "#4b7b1f",
+			"maxColor": "#0A3B19",
 			"labels": {
 				"formatter": function () {
 					return Highcharts.numberFormat((this.value),1); 
