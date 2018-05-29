@@ -3,6 +3,7 @@
     {
       "color": "#672773",
       "index": 14,
+      "legendIndex": 0,
       "data": [
         [
           "2016",
@@ -19,6 +20,7 @@
     {
       "color": "#E7CEE2",
       "index": 13,
+      "legendIndex": 1,
       "data": [
         [
           "2016",
@@ -35,6 +37,7 @@
     {
       "color": "#007A2F",
       "index": 12,
+      "legendIndex": 2,
       "data": [
         [
           "2016",
@@ -51,6 +54,7 @@
     {
       "color": "#73BA7C",
       "index": 11,
+      "legendIndex": 3,
       "data": [
         [
           "2016",
@@ -67,6 +71,7 @@
     {
       "color": "#FFBB58",
       "index": 10,
+      "legendIndex": 4,
       "data": [
         [
           "2016",
@@ -155,7 +160,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Stand 2017"
+    "text": "Basel-Stadt"
   },
   "navigation": {
     "menuItemStyle": {
@@ -174,7 +179,8 @@
       "stacking": "percent"
     },
     "column": {
-      "groupPadding": 0
+      "groupPadding": 0,
+      "pointWidth": 90
     }
   },
   "yAxis": {
