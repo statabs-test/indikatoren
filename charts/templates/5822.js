@@ -15,6 +15,8 @@
   plotOptions: {
   	column: {
   		groupPadding: 0,
+  		"pointWidth": 90,
+
   	}
   },
  "series": [
