@@ -718,8 +718,13 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
-    "spacingBottom": 28,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
     "style": {
       "fontFamily": "Arial"
     },
@@ -741,6 +746,7 @@
           }
     },
     "type": "column",
+    "spacingBottom": 38,
     "renderTo": "container-4138"
   },
   "plotOptions": {
@@ -853,20 +859,23 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-28"
   },
   "legend": {
     "symbolRadius": 0,
-    "y": 45,
     "enabled": true,
     "layout": "horizontal",
-    "itemWidth": 210,
+    "itemDistance": -10,
+    "padding": 0,
+    "symbolPadding": 3,
     "verticalAlign": "top",
     "align": "left",
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": null,
+      "whitespace": "nowrap"
     }
   },
   "tooltip": {

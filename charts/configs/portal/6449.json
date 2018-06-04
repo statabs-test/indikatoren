@@ -44,7 +44,7 @@
           114.5
         ]
       ],
-      "name": "Öffentliche Verwaltung, Sozialversicherungen (inkl. staatl. Bildungsinstitutionen)"
+      "name": "Öffentliche Verwaltung, Sozialversicherungen \u003Cbr\u002F\u003E(inkl. staatl. Bildungsinstitutionen)"
     },
     {
       "color": "#008AC3",
@@ -206,8 +206,8 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 415,
-    "spacingBottom": 45,
+    "height": 428,
+    "spacingBottom": 55,
     "style": {
       "fontFamily": "Arial"
     },
@@ -279,9 +279,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: BAK Economics"
+    "text": "Quelle: BAK Economics\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
   },
   "legend": {
     "enabled": true,
@@ -289,8 +289,7 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "y": 45,
-    "itemWidth": 250,
+    "symbolPadding": 3,
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"

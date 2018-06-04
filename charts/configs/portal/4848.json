@@ -94,8 +94,13 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
-    "spacingBottom": 30,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
     "style": {
       "fontFamily": "Arial"
     },
@@ -118,7 +123,8 @@
     },
     "type": "column",
     "inverted": true,
-    "renderTo": "container-4848"
+    "renderTo": "container-4848",
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -184,9 +190,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F72a-g"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F72a-g\u003Cbr\u002F\u003EZuletzt geändert: 2016-9-21"
   },
   "legend": {
     "symbolRadius": 0,
@@ -195,7 +201,6 @@
     "verticalAlign": "top",
     "align": "left",
     "x": 143,
-    "y": 65,
     "itemStyle": {
       "fontWeight": "normal"
     }

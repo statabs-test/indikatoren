@@ -166,7 +166,8 @@
     },
     "type": "column",
     "inverted": false,
-    "renderTo": "container-6372"
+    "renderTo": "container-6372",
+    "spacingBottom": 8
   },
   "plotOptions": {
     "series": {
@@ -255,8 +256,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 35,
-    "y": 35
+    "x": 35
   },
   "dataLabels": {
     "enabled": false,

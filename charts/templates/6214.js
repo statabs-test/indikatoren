@@ -50,7 +50,7 @@ plotOptions: {
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-	"y": 20,
+	//"y": 20,
 	"x": 45,
 	"itemMarginBottom": 5,
     "itemWidth": 500, 
@@ -96,7 +96,6 @@ plotOptions: {
   		"shared": true
 		   },
   "chart": {
-    "marginBottom": 75,
     "alignTicks": false
   }
 }

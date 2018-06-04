@@ -522,6 +522,7 @@
       "style": {
         "color": "#000000",
         "width": 1,
+        "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
       "formatter": function () {
@@ -561,8 +562,13 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 700,
-    "spacingBottom": 30,
+    "height": 713,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
     "style": {
       "fontFamily": "Arial"
     },
@@ -570,7 +576,8 @@
     "type": "column",
     "marginLeft": 200,
     "inverted": true,
-    "renderTo": "container-5178"
+    "renderTo": "container-5178",
+    "spacingBottom": 40
   },
   "title": {
     "style": {
@@ -644,9 +651,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Bevölkerungsbefragung Basel-Stadt 2015, Frage F6"
+    "text": "Quelle: Bevölkerungsbefragung Basel-Stadt 2015, Frage F6\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-3"
   },
   "legend": {
     "layout": "horizontal",
@@ -655,14 +662,15 @@
     "align": "left",
     "useHTML": false,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": null
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
         },
-    "y": 60,
-    "itemWidth": 130
+    "padding": 0,
+    "itemDistance": 5
   },
   "exporting": {
     "filename": 5178

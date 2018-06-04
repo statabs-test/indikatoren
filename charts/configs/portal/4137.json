@@ -200,8 +200,13 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
-    "spacingBottom": 30,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
     "style": {
       "fontFamily": "Arial"
     },
@@ -222,9 +227,9 @@
             }
           }
     },
-    "marginBottom": 65,
     "type": "column",
-    "renderTo": "container-4137"
+    "renderTo": "container-4137",
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -308,16 +313,15 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik\u003Cbr\u002F\u003EZuletzt geändert: 2018-1-18"
   },
   "legend": {
     "symbolRadius": 0,
     "verticalAlign": "top",
     "align": "left",
     "floating": false,
-    "y": 20,
     "itemStyle": {
       "fontWeight": "normal"
     }

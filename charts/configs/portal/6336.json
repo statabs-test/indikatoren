@@ -291,7 +291,8 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-6336"
+    "renderTo": "container-6336",
+    "spacingBottom": 8
   },
   "title": {
     "style": {
@@ -374,7 +375,9 @@
     "symbolRadius": 0,
     "itemStyle": {
       "fontSize": "10px",
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": null,
+      "whiteSpace": "nowrap"
     },
     "itemWidth": 130,
     "itemMarginBottom": 5

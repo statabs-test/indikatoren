@@ -382,7 +382,8 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-6318"
+    "renderTo": "container-6318",
+    "spacingBottom": 18
   },
   "title": {
     "style": {
@@ -467,7 +468,6 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "itemWidth": 100,
     "itemMarginBottom": 5
   },
   "plotOptions": {

@@ -229,8 +229,13 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 650,
-    "spacingBottom": 30,
+    "height": 663,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
     "style": {
       "fontFamily": "Arial"
     },
@@ -255,7 +260,8 @@
     "marginBottom": 70,
     "type": "column",
     "inverted": true,
-    "renderTo": "container-6463"
+    "renderTo": "container-6463",
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -326,9 +332,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
   },
   "legend": {
     "symbolRadius": 0,
@@ -336,8 +342,6 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "y": 55,
-    "itemWidth": 70,
     "itemStyle": {
       "fontWeight": "normal"
     }
