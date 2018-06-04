@@ -6,11 +6,11 @@
       ], 
       data: {
 		    seriesMapping: [
-		        {x: 5, y: 9/*, Wert: 4*/}
+		        {x: 5, Wohnviertel: 8, y: 9, Wert: 4}
         ],  
         parsed: function(columns){
           //define which wohnviertel to display
-          var filterValue = 20;
+          var filterValue = 1;
           
           //define which column (zero-based index) should be filtered with above value 
           var filterColumnIndex = 7;
@@ -23,8 +23,21 @@
               }
             }
           }
-        }
-      }, 
+        },
+      },
+      tooltip: {
+          padding: 0,
+          useHTML: true,
+          //fix html xAxis labels rendered above tooltip, see http://jsfiddle.net/g2j344z4/19/ 
+          //replace "&nbsp;" by "\u00A0" to control line breaks in SVG without using html
+          formatter: function() {
+              return "" + 
+              '<div class="tev" style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">'+ 
+                '<span style="font-size: 10px">' + this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + '</span><br/>'+
+                '<span style="color:' + this.point.color + '">\u25CF</span> ' + this.point.Wohnviertel + ': Rang' + ' <b>' + this.point.y + '</b><br/>' + 
+              '</div>';
+          }
+      },      
     };
 }());
 

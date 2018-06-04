@@ -2,80 +2,116 @@
   "series": [
     {
       "data": [
-        [
-          "Anteil&nbsp;Sozialhilfeempfänger",
-          8
-        ],
-        [
-          "Anteil&nbsp;Ausländer",
-          5
-        ],
-        [
-          "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
-          10
-        ],
-        [
-          "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
-          3
-        ],
-        [
-          "Gymnasialquote",
-          14
-        ],
-        [
-          "Altersquotient",
-          21
-        ],
-        [
-          "Anteil&nbsp;Sesshafte",
-          20
-        ],
-        [
-          "Jugendquotient",
-          20
-        ],
-        [
-          "Baujahr&nbsp;Wohngebaeude",
-          20
-        ],
-        [
-          "Anteil Einfamilienhäuser",
-          18
-        ],
-        [
-          "Anteil&nbsp;Grünfläche",
-          20
-        ],
-        [
-          "Fläche&nbsp;pro&nbsp;Wohnung",
-          19
-        ],
-        [
-          "Wohnfläche&nbsp;pro&nbsp;Kopf",
-          16
-        ],
-        [
-          "Vermögenssteuer",
-          16
-        ],
-        [
-          "Einkommenssteuer",
-          16
-        ],
-        [
-          "Erwerbstätigenquote",
-          13
-        ],
-        [
-          "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
-          4
-        ],
-        [
-          "Arbeitslosenquote",
-          1
-        ]
+        {
+          "name": "Anteil&nbsp;Sozialhilfeempfänger",
+          "Wohnviertel": "Riehen",
+          "y": 8,
+          "Wert": 0.0369328834
+        },
+        {
+          "name": "Anteil&nbsp;Ausländer",
+          "Wohnviertel": "Riehen",
+          "y": 5,
+          "Wert": 0.2609673791
+        },
+        {
+          "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
+          "Wohnviertel": "Riehen",
+          "y": 10,
+          "Wert": 0.4805961755
+        },
+        {
+          "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
+          "Wohnviertel": "Riehen",
+          "y": 3,
+          "Wert": 0.1628540045
+        },
+        {
+          "name": "Gymnasialquote",
+          "Wohnviertel": "Riehen",
+          "y": 14,
+          "Wert": 0.5512820513
+        },
+        {
+          "name": "Altersquotient",
+          "Wohnviertel": "Riehen",
+          "y": 21,
+          "Wert": 0.4815329799
+        },
+        {
+          "name": "Anteil&nbsp;Sesshafte",
+          "Wohnviertel": "Riehen",
+          "y": 20,
+          "Wert": 0.4280089989
+        },
+        {
+          "name": "Jugendquotient",
+          "Wohnviertel": "Riehen",
+          "y": 20,
+          "Wert": 0.3726427392
+        },
+        {
+          "name": "Baujahr&nbsp;Wohngebäude",
+          "Wohnviertel": "Riehen",
+          "y": 20,
+          "Wert": 1957.6253324
+        },
+        {
+          "name": "Anteil Einfamilienhäuser",
+          "Wohnviertel": "Riehen",
+          "y": 18,
+          "Wert": 0.6565143824
+        },
+        {
+          "name": "Anteil&nbsp;Grünfläche",
+          "Wohnviertel": "Riehen",
+          "y": 20,
+          "Wert": 0.7956226483
+        },
+        {
+          "name": "Fläche&nbsp;pro&nbsp;Wohnung",
+          "Wohnviertel": "Riehen",
+          "y": 19,
+          "Wert": 102.73655706
+        },
+        {
+          "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
+          "Wohnviertel": "Riehen",
+          "y": 16,
+          "Wert": 47.494001816
+        },
+        {
+          "name": "Vermögenssteuer",
+          "Wohnviertel": "Riehen",
+          "y": 16,
+          "Wert": 3075.9103589
+        },
+        {
+          "name": "Einkommenssteuer",
+          "Wohnviertel": "Riehen",
+          "y": 16,
+          "Wert": 13428.811448
+        },
+        {
+          "name": "Erwerbstätigenquote",
+          "Wohnviertel": "Riehen",
+          "y": 13,
+          "Wert": 0.74117237
+        },
+        {
+          "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
+          "Wohnviertel": "Riehen",
+          "y": 4,
+          "Wert": 0.1686329241
+        },
+        {
+          "name": "Arbeitslosenquote",
+          "Wohnviertel": "Riehen",
+          "y": 1,
+          "Wert": 0.0193855888
+        }
       ],
-      "name": "Rang",
+      "name": "Wert",
       "turboThreshold": 0
     }
   ],
@@ -243,12 +279,12 @@
     "padding": 0,
     "useHTML": true,
     "formatter": function () {
-                return "" + 
-                '<div class="tev" style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">'+ 
-                  '<span style="font-size: 10px">' + this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + '</span><br/>'+
-                  '<span style="color:' + this.point.color + '">\u25CF</span> ' + this.series.name + ': <b>' + this.point.y + '</b><br/>' + 
-                '</div>';
-            }
+              return "" + 
+              '<div class="tev" style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">'+ 
+                '<span style="font-size: 10px">' + this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + '</span><br/>'+
+                '<span style="color:' + this.point.color + '">\u25CF</span> ' + this.point.Wohnviertel + ': Rang' + ': <b>' + this.point.y + '</b><br/>' + 
+              '</div>';
+          }
   },
   "exporting": {
     "allowHTML": false,
