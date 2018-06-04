@@ -8,7 +8,7 @@
     return {
     	"legend": {
     		"x": -25,
-			"y": 10,
+			"y": 20,
 			"title": {
 				"text": ""
 			}
@@ -171,7 +171,9 @@
 	                var maxValueInLegend = 0.1; 
 	                
                 	//Add manually drawn legend	
-	                fn.addLegendTitle(chart,"Ausländeranteil in %", 240, 307);
+                	fn.addLegendRectangle(chart, 243, 210, 230, 100, 'rgba(222, 222, 222, 0.5)', 'pieLegend');
+                	fn.addLegendRectangle(chart, 243, 320, 230, 60, 'rgba(222, 222, 222, 0.5)');
+	                fn.addLegendTitle(chart,"Ausländeranteil in %", 240, 320);
 	                
 	                //fn.addLegendCircle(chart, 410, 275, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
 	                //fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),3,","," "), 430, 265);
@@ -190,7 +192,7 @@
 					fn.addLegendLabel(chart, 'Spanien', 340, 254);
 					fn.addLegendSquare(chart, 330, 280, 10, '#68AB2B');
 					fn.addLegendLabel(chart, 'Serbien, Montenegro, <br/> Kosovo', 340, 274);
-					fn.addLegendLabelbold(chart, 'Staatsangehörigkeit', 240, 215);
+					fn.addLegendLabelbold(chart, 'Staatsangehörigkeit', 240, 210);
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);

@@ -88,7 +88,7 @@
             "align": "right",
             "floating": true,
            itemStyle: {
-				fontWeight: 'normal', fontSize: 12, fontfamily: "Arial"
+				fontSize: "12px", fontFamily: "Arial", fontWeight: 'normal', fontStyle: "normal", color: "#000000"
 			},
             "title": {
                 "style": {
@@ -465,7 +465,7 @@
                 addLegendLabel: function(chart, text, x, y, cssClass, useHtml){
     				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
                 	.css({
-					style: {fontSize: "12px", fontFamily: "Arial", fontWeight: 'normal', fontStyle: "normal", color: "#000000"},
+					 fontSize: "12px", fontFamily: "Arial", fontWeight: 'normal', fontStyle: "normal", color: "#000000",
                 	})    				
     				.attr({
     					zIndex: 6,
