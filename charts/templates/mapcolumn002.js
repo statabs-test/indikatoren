@@ -99,6 +99,7 @@
     	},    
         "mapNavigation": {
             "enabled": true,
+            enableDoubleClickZoom: false, 
             "buttonOptions": {
                 "align": "left",
                 "verticalAlign": 'bottom'
