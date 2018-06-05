@@ -8,6 +8,7 @@ global geojson_wohnviertelEPSG2056
     		useHTML: true,
 			"title": {
 			"text": "Mittelwert pro Veranlagung <br/> in Fr.",
+				style: {'fontWeight':' bold'} 
 			},
 			"layout": "vertical",
 			//"verticalAlign": "middle",

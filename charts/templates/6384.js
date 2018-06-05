@@ -126,7 +126,7 @@
                 	//Add manually drawn legend		
                 	fn.addLegendRectangle(chart, 250, 220, 230, 77, 'rgba(222, 222, 222, 0.5)', 'pieLegend');
                 	fn.addLegendRectangle(chart, 250, 300, 230, 60, 'rgba(222, 222, 222, 0.5)');
-	                fn.addLegendTitle(chart, pieSizeSeries.name, 265, 220, 'pieLegendHideOnZoom').attr({
+	                fn.addLegendTitle(chart, pieSizeSeries.name, 265, 220, 'pieLegend pieLegendHideOnZoom').attr({
     			        	//class: cssClass + ' pieLegendTitle',
     			        }).add();;
 	                

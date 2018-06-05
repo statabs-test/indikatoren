@@ -4269,7 +4269,7 @@
 					fn.addLegendSquare(chart, 354, 315, 12, '#923F8D');
 					fn.addLegendLabel(chart, 'Spanien', 365, 310);
 					fn.addLegendSquare(chart, 354, 331, 12, '#68AB2B');
-					fn.addLegendLabel(chart, 'Serbien, Montenegro, <br/> Kosovo', 365, 327);
+					fn.addLegendLabel(chart, 'Serbien, Monte-<br/>negro, Kosovo', 365, 327);
 					fn.addLegendLabelbold(chart, 'Staatsangehörigkeit', 350, 215);
 					
 					//make sure pies are hidden upon click onto pie legend
@@ -4362,6 +4362,7 @@
   },
   "mapNavigation": {
     "enabled": true,
+    "enableDoubleClickZoom": false,
     "buttonOptions": {
       "align": "left",
       "verticalAlign": "bottom"

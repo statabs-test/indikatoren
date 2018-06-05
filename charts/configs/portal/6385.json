@@ -3649,15 +3649,15 @@
     },
     "title": {
       "style": {
-        "fontWeight": "normal",
+        "fontWeight": " bold",
         "fontSize": "12px"
       },
-      "text": "Seit mindestens 10 Jahren an der gleichen \u003Cbr\u003E Adresse lebende Personen in %"
+      "text": "Seit mindestens 10 Jahren an der \u003Cbr\u003E gleichen Adresse lebende Personen \u003Cbr\u003E in %"
     },
     "useHTML": true,
     "layout": "vertical",
-    "x": 30,
-    "y": -20,
+    "x": -5,
+    "y": -10,
     "itemMarginBottom": 2,
     "symbolRadius": 0
   },

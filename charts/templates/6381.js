@@ -7,7 +7,7 @@
 
     return {
     	"legend": {
-    		"x": -10,
+    		"x": -15,
 			"y": 20,
 			"title": {
 				"text": ""
@@ -173,27 +173,28 @@
                 	//Add manually drawn legend	
                 	fn.addLegendRectangle(chart, 243, 210, 230, 100, 'rgba(222, 222, 222, 0.5)', 'pieLegend');
                 	fn.addLegendRectangle(chart, 243, 320, 230, 60, 'rgba(222, 222, 222, 0.5)');
-	                fn.addLegendTitle(chart,"Ausländeranteil in %", 240, 320);
+	                fn.addLegendTitle(chart,"Ausländeranteil in %", 250, 320);
 	                
 	                //fn.addLegendCircle(chart, 410, 275, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
 	                //fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),3,","," "), 430, 265);
 	                //fn.addLegendCircle(chart, 410, 300, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
 	                //fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),2,"."," "), 430, 290);
-
-					fn.addLegendSquare(chart, 245, 240, 10, '#B00000');
-					fn.addLegendLabel(chart, 'Deutschland', 255, 234);
-					fn.addLegendSquare(chart, 245, 260, 10, '#FABD24');
-					fn.addLegendLabel(chart, 'Italien', 255, 254);
-					fn.addLegendSquare(chart, 245, 280, 10, '#E6E600');
-					fn.addLegendLabel(chart, 'Türkei', 255, 274);
-					fn.addLegendSquare(chart, 330, 240, 10, ' #7F5F1A');
-					fn.addLegendLabel(chart, 'Übrige', 340, 234);
-					fn.addLegendSquare(chart, 330, 260, 10, '#923F8D');
-					fn.addLegendLabel(chart, 'Spanien', 340, 254);
-					fn.addLegendSquare(chart, 330, 280, 10, '#68AB2B');
-					fn.addLegendLabel(chart, 'Serbien, Montenegro, <br/> Kosovo', 340, 274);
-					fn.addLegendLabelbold(chart, 'Staatsangehörigkeit', 240, 210);
+					fn.addLegendLabelbold(chart, 'Staatsangehörigkeit', 250, 210);
+					fn.addLegendSquare(chart, 255, 240, 10, '#B00000');
+					fn.addLegendLabel(chart, 'Deutschland', 265, 234);
+					fn.addLegendSquare(chart, 255, 260, 10, '#FABD24');
+					fn.addLegendLabel(chart, 'Italien', 265, 254);
+					fn.addLegendSquare(chart, 255, 280, 10, '#68AB2B');
+					fn.addLegendLabel(chart, 'Serbien, Monte-<br/>negro,  Kosovo', 265, 274);
+					fn.addLegendSquare(chart, 360, 240, 10, '#E6E600');
+					fn.addLegendLabel(chart, 'Türkei', 370, 234);
+					fn.addLegendSquare(chart, 360, 260, 10, '#923F8D');
+					fn.addLegendLabel(chart, 'Spanien', 370, 254);
+					fn.ad001dLegendSquare(chart, 360, 280, 10, '#7F5F1A');
+					fn.addLegendLabel(chart, 'Übrige', 370, 274);
 					
+
+
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
 	            }

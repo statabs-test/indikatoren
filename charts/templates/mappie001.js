@@ -466,7 +466,7 @@
                 addLegendLabel: function(chart, text, x, y, cssClass, useHtml){
     				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
                 	.css({
-					 fontSize: "12px", fontFamily: "Arial", fontWeight: 'normal', fontStyle: "normal", color: "#000000"
+					 fontSize: "12px", fontFamily: "Arial", fontWeight: 'normal', fontStyle: "normal"
                 	})    				
     				.attr({
     					zIndex: 6,

@@ -95,7 +95,7 @@
 	                };					
 					//define number format in zoomed legend labels
 	                fn.legendLabelZoomFormatter = function(value){
-	                	return Highcharts.numberFormat((value),3,","," ");
+	                	return Highcharts.numberFormat((value),0,","," ");
 	                };
 					//define chart-specific details
 					var pieSeriesConfig = function(data, correspondingMapSeriesItem, color){
@@ -124,16 +124,16 @@
                 	//Add manually drawn legend	
                 	fn.addLegendRectangle(chart, 250, 220, 230, 77, 'rgba(222, 222, 222, 0.5)', 'pieLegend');
                 	fn.addLegendRectangle(chart, 250, 300, 230, 60, 'rgba(222, 222, 222, 0.5)');
-	                fn.addLegendTitle(chart, "Anteil unter 20-Jähriger in %", 265, 300, 'pieLegendHideOnZoom');
+	                fn.addLegendTitle(chart, "Anteil unter 20-Jähriger in %", 265, 300, 'pieLegendStayOnZoom');
 	                
-	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#C9D6DB', 'pieLegendHideOnZoom');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 300, 245, 'pieLegendHideOnZoom');
-	                fn.addLegendCircle(chart, 280, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#C9D6DB', 'pieLegendHideOnZoom');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 300, 270, 'pieLegendHideOnZoom');
+	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#C9D6DB', 'pieLegendStayeOnZoom');
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 300, 245, 'pieLegendRecalculateOnZoom');
+	                fn.addLegendCircle(chart, 280, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#C9D6DB', 'pieLegendStayeOnZoom');
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 300, 270, 'pieLegendRecalculateOnZoom');
 	                
-	                fn.addSubtitle(chart, "Kanton Basel-Stadt: 32 873 unter 20-Jährige (16,6%)", 7, 40, 'pieLegendHideOnZoom')
+	                //fn.addSubtitle(chart, "Kanton Basel-Stadt: 32 873 unter 20-Jährige (16,6%)", 7, 40, 'pieLegendHideOnZoom')
 	                
-					fn.addLegendLabelbold(chart, pieSizeSeries.name, 265, 220, 'pieLegendHideOnZoom');
+					fn.addLegendLabelbold(chart, pieSizeSeries.name, 265, 220, 'pieLegendStayeOnZoom');
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);

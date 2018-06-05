@@ -16,7 +16,7 @@
 			//"verticalAlign": "middle",
 			"align": "right",
 			"x": -140,
-			"y": -30,
+			"y": -20,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
 			itemStyle: {
@@ -152,8 +152,8 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 	                //Add manually drawn legend
-	        		fn.addLegendTitle(chart, "Anteil unter <br/>  20-Jähriger in %", 245, 210);
-	                fn.addLegendTitle(chart, "Anzahl unter <br/>  20-Jähriger", 365, 210);
+	        		fn.addLegendTitle(chart, "Wohnungen pro <br/>  Hektare", 245, 210);
+	                fn.addLegendTitle(chart, "Anzahl<br/>  Wohnungen", 365, 210);
 	                
 	           		fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, '#C9D6DB');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 385, 255, undefined, true);
