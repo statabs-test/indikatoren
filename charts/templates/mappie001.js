@@ -67,6 +67,7 @@
         "mapNavigation": {
             enabled: true,
             enableButtons: true,
+            enableDoubleClickZoom: false, 
             "buttonOptions": {
                 "align": "left",
                 "verticalAlign": 'bottom'
