@@ -15,7 +15,8 @@ global geojson_wohnviertelEPSG2056
 		},
 		"legend": {
 			"title": {
-				"text": "Seit mindestens 10 Jahren an der gleichen <br/> Adresse lebende Personen in %"
+				"text": "Seit mindestens 10 Jahren an der gleichen <br/> Adresse lebende Personen in %",
+					style: {'fontWeight':' bold'} 
 			}
 		},
         "data": {

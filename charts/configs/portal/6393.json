@@ -4381,7 +4381,7 @@
     "useHTML": true,
     "layout": "vertical",
     "x": -130,
-    "y": -35,
+    "y": -10,
     "itemMarginBottom": 2,
     "symbolRadius": 0,
     "itemStyle": {
@@ -4675,6 +4675,14 @@
     		            fill: fill,
     		            zIndex: 6,
     		            class: cssClass + ' pieLegend'
+    	        	}).add();
+                },
+    "addLegendRectangle": function (chart, x, y, width, height, fill, cssClass){
+                	return chart.renderer.rect(x, y, width, height).attr({
+    		            'stroke-width':0,
+    		            fill: fill,
+    		            zIndex: 6,
+    		            class: cssClass
     	        	}).add();
                 },
     "AddPieLegendClickHandler": function (chart){
