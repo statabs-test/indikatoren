@@ -4,111 +4,111 @@
       "data": [
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
-          "Wohnviertel": "Riehen",
-          "y": 8,
-          "Wert": 0.0369328834
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 2,
+          "Wert": 0.0166023166
         },
         {
           "name": "Anteil&nbsp;Ausländer",
-          "Wohnviertel": "Riehen",
-          "y": 5,
-          "Wert": 0.2609673791
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 7,
+          "Wert": 0.2841698842
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
-          "Wohnviertel": "Riehen",
-          "y": 10,
-          "Wert": 0.4805961755
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 18,
+          "Wert": 0.5196911197
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
-          "Wohnviertel": "Riehen",
-          "y": 3,
-          "Wert": 0.1628540045
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 19,
+          "Wert": 0.2922636103
         },
         {
           "name": "Gymnasialquote",
-          "Wohnviertel": "Riehen",
-          "y": 14,
-          "Wert": 0.5512820513
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 19,
+          "Wert": 0.6666666667
         },
         {
           "name": "Altersquotient",
-          "Wohnviertel": "Riehen",
-          "y": 21,
-          "Wert": 0.4815329799
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 8,
+          "Wert": 0.2812328013
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
-          "Wohnviertel": "Riehen",
-          "y": 20,
-          "Wert": 0.4280089989
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 6,
+          "Wert": 0.3111969112
         },
         {
           "name": "Jugendquotient",
-          "Wohnviertel": "Riehen",
-          "y": 20,
-          "Wert": 0.3726427392
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 1,
+          "Wert": 0.1441937259
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
-          "Wohnviertel": "Riehen",
-          "y": 20,
-          "Wert": 1957.6253324
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 1,
+          "Wert": 1822.9739479
         },
         {
           "name": "Anteil Einfamilienhäuser",
-          "Wohnviertel": "Riehen",
-          "y": 18,
-          "Wert": 0.6565143824
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 8,
+          "Wert": 0.1022044088
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
-          "Wohnviertel": "Riehen",
-          "y": 20,
-          "Wert": 0.7956226483
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 1,
+          "Wert": 0.0672594599
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
-          "Wohnviertel": "Riehen",
-          "y": 19,
-          "Wert": 102.73655706
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 16,
+          "Wert": 89.982578397
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
-          "Wohnviertel": "Riehen",
-          "y": 16,
-          "Wert": 47.494001816
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 20,
+          "Wert": 52.670028818
         },
         {
           "name": "Vermögenssteuer",
-          "Wohnviertel": "Riehen",
-          "y": 16,
-          "Wert": 3075.9103589
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 17,
+          "Wert": 5514.6161194
         },
         {
           "name": "Einkommenssteuer",
-          "Wohnviertel": "Riehen",
-          "y": 16,
-          "Wert": 13428.811448
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 19,
+          "Wert": 16657.376716
         },
         {
           "name": "Erwerbstätigenquote",
-          "Wohnviertel": "Riehen",
-          "y": 13,
-          "Wert": 0.74117237
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 21,
+          "Wert": 0.8563773753
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
-          "Wohnviertel": "Riehen",
-          "y": 4,
-          "Wert": 0.1686329241
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 20,
+          "Wert": 4.3204680878
         },
         {
           "name": "Arbeitslosenquote",
-          "Wohnviertel": "Riehen",
-          "y": 1,
-          "Wert": 0.0193855888
+          "Wohnviertel": "Altstadt Grossbasel",
+          "y": 6,
+          "Wert": 0.0257474605
         }
       ],
       "name": "Wert",
@@ -282,7 +282,7 @@
               return "" + 
               '<div class="tev" style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">'+ 
                 '<span style="font-size: 10px">' + this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + '</span><br/>'+
-                '<span style="color:' + this.point.color + '">\u25CF</span> ' + this.point.Wohnviertel + ': Rang' + ': <b>' + this.point.y + '</b><br/>' + 
+                '<span style="color:' + this.point.color + '">\u25CF</span> ' + this.point.Wohnviertel + ': Rang' + ' <b>' + this.point.y + '</b><br/>' + 
               '</div>';
           }
   },

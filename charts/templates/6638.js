@@ -10,10 +10,10 @@
         ],  
         parsed: function(columns){
           //define which wohnviertel to display
-          var filterValue = 1;
+          var filterValue = 15;
           
           //define which column (zero-based index) should be filtered with above value 
-          var filterColumnIndex = 9;
+          var filterColumnIndex = 7;
           //go backwards through the column with the values to filter (because we remove values at the end of the array and want to retain the index)
           for (var i = columns[0].length; i > 0; i--){
             if (columns[filterColumnIndex][i] != filterValue){
