@@ -203,7 +203,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen \u003Cfont color=\"923F8D\"\u003E Gesellschaft und Soziales \u003C\u002Ffont\u003E,  \u003Cfont color=\"68AB2B\"\u003ERaum und Umwelt\u003C\u002Ffont\u003E sowie \u003Cfont color=\"689199\"\u003E Wirtschaft und Arbeit \u003C\u002Ffont\u003Ezugeordnet. \u003Cbr\u003EAusgabe 2018",
     "align": "left"
   },
   "plotOptions": {
