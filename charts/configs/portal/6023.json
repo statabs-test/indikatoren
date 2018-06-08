@@ -7,23 +7,23 @@
       "data": [
         [
           "Deutschland",
-          2080
+          1956
         ],
         [
           "Italien",
-          595
-        ],
-        [
-          "Frankreich",
-          520
+          526
         ],
         [
           "USA",
-          517
+          512
+        ],
+        [
+          "Frankreich",
+          431
         ],
         [
           "UK",
-          415
+          431
         ]
       ],
       "name": "Zugezogene",
@@ -36,23 +36,23 @@
       "data": [
         [
           "Deutschland",
-          -1348
+          -1268
         ],
         [
           "Italien",
-          -228
-        ],
-        [
-          "Frankreich",
-          -454
+          -252
         ],
         [
           "USA",
-          -480
+          -401
+        ],
+        [
+          "Frankreich",
+          -452
         ],
         [
           "UK",
-          -256
+          -232
         ]
       ],
       "name": "Weggezogene",
@@ -68,23 +68,23 @@
       "data": [
         [
           "Deutschland",
-          732
+          688
         ],
         [
           "Italien",
-          367
-        ],
-        [
-          "Frankreich",
-          66
+          274
         ],
         [
           "USA",
-          37
+          111
+        ],
+        [
+          "Frankreich",
+          -21
         ],
         [
           "UK",
-          159
+          199
         ]
       ],
       "name": "Saldo",
@@ -212,7 +212,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik\u003Cbr\u002F\u003EZuletzt geändert: 2017-12-19"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik\u003Cbr\u002F\u003EZuletzt geändert: 12\u002F19\u002F2017"
   },
   "legend": {
     "symbolRadius": 0,
