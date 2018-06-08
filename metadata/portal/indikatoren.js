@@ -8530,7 +8530,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Entwicklung der aus dem Ausland Zugezogenen",
-		"subtitle": "nach Zuzugsland, indexiert (Wert 2008 = 100)",
+		"subtitle": "nach Zuzugsland, indexiert (Wert 2007 = 100)",
 		"kuerzel": "I.01.5.06024",
 		"kuerzelKunde": "1-5",
 		"description": "Entwicklung der aus dem Ausland Zugezogenen",
