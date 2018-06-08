@@ -11665,7 +11665,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-12-19T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -11677,7 +11677,10 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "_001",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"5155",
+			"6760"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -11689,7 +11692,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "I.01.5.06012",
 		"kuerzelKunde": "1-2",
 		"description": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
@@ -11699,7 +11702,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-12-19T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -11711,7 +11714,9 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "_002",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6761"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -11723,7 +11728,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Aus dem Ausland Zugezogene nach Zuzugsland",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "I.01.5.06013",
 		"kuerzelKunde": "1-3",
 		"description": "Aus dem Ausland Zugezogene nach Zuzugsland",
@@ -11733,7 +11738,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-12-19T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -11745,7 +11750,9 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "_003",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6762"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -11767,7 +11774,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-12-19T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -11779,7 +11786,9 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "_006",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6765"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -11791,7 +11800,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Zugezogene nach Zuzugsland und Geschlecht",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "I.01.5.06017",
 		"kuerzelKunde": "1-7",
 		"description": "Zugezogene nach Zuzugsland und Geschlecht",
@@ -11801,7 +11810,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-12-19T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -11813,7 +11822,9 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "_007",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6766"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -11825,7 +11836,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Zuzug aus der Schweiz, Wegzug in die Schweiz und Wanderungssaldo nach Alter",
-		"subtitle": "2007 - 2016 zusammengefasst",
+		"subtitle": "2008 - 2017 zusammengefasst",
 		"kuerzel": "I.01.5.06018",
 		"kuerzelKunde": "1-8",
 		"description": "Zuzug aus der Schweiz, Wegzug in die Schweiz und Wanderungssaldo nach Alter",
@@ -11835,7 +11846,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-12-19T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -11847,7 +11858,9 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "_008",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6767"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -11859,7 +11872,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Zuzug aus dem Ausland, Wegzug ins Ausland und Wanderungssaldo nach Alter",
-		"subtitle": "2007 - 2016 zusammengefasst",
+		"subtitle": "2008 - 2017 zusammengefasst",
 		"kuerzel": "I.01.5.06019",
 		"kuerzelKunde": "1-9",
 		"description": "Zuzug aus dem Ausland, Wegzug ins Ausland und Wanderungssaldo nach Alter",
@@ -11869,7 +11882,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-12-19T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -11881,7 +11894,9 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "_009",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6768"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -11893,7 +11908,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Aus dem Ausland Zugezogene nach Zuzugsland sowie nach Gemeinde und Wohnviertel",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "I.01.5.06021",
 		"kuerzelKunde": "1-11",
 		"description": "Aus dem Ausland Zugezogene nach Zuzugsland sowie nach Gemeinde und Wohnviertel",
@@ -11904,7 +11919,7 @@ var indikatoren = [
 			"Wohnviertel",
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-12-19T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -11916,7 +11931,9 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "_011",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6770"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -11928,7 +11945,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Bevölkerungssaldo infolge räumlicher Bevölkerungsbewegung pro 100 Einwohner",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "I.01.5.06022",
 		"kuerzelKunde": "1-12",
 		"description": "Bevölkerungssaldo infolge räumlicher Bevölkerungsbewegung pro 100 Einwohner",
@@ -11939,7 +11956,7 @@ var indikatoren = [
 			"Wohnviertel",
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-12-19T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -11951,7 +11968,9 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "_012",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6771"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -11963,7 +11982,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Zugezogene, Weggezogene und Wanderungssaldo",
-		"subtitle": "nach Zuzugs- und Wegzugsland; Stand: 2016",
+		"subtitle": "nach Zuzugs- und Wegzugsland; Stand: 2017",
 		"kuerzel": "I.01.5.06023",
 		"kuerzelKunde": "1-4",
 		"description": "Zugezogene, Weggezogene und Wanderungssaldo",
@@ -11973,7 +11992,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-12-19T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -11985,7 +12004,9 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "_004",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6772"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -11997,7 +12018,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Entwicklung der aus dem Ausland Zugezogenen",
-		"subtitle": "nach Zuzugsland, indexiert (Wert 2007 = 100)",
+		"subtitle": "nach Zuzugsland, indexiert (Wert 2008 = 100)",
 		"kuerzel": "I.01.5.06024",
 		"kuerzelKunde": "1-5",
 		"description": "Entwicklung der aus dem Ausland Zugezogenen",
@@ -12007,7 +12028,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-12-19T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -12019,7 +12040,9 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "_005",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6773"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -12031,7 +12054,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "I.01.5.06025",
 		"kuerzelKunde": "1-10",
 		"description": "Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner",
@@ -12042,7 +12065,7 @@ var indikatoren = [
 			"Wohnviertel",
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-12-19T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -12054,7 +12077,9 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "_010",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6774"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
