@@ -463,7 +463,7 @@
                 },
     	                
     	                
-                addLegendLabel: function(chart, text, x, y, cssClass, useHtml){
+                addLegendLabel: function(chart, text, x, y, cssClass, useHtml, initialValue){
     				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
                 	.css({
 					 fontSize: "12px", fontFamily: "Arial", fontWeight: 'normal', fontStyle: "normal"
@@ -471,16 +471,16 @@
     				.attr({
     					zIndex: 6,
     					class: cssClass + ' pieLegend', 
-    					initialValue: text
+    					initialValue: initialValue
     				}).add();
                 },
                 
-                addLegendLabelbold: function(chart, text, x, y, cssClass, useHtml){
+                addLegendLabelbold: function(chart, text, x, y, cssClass, useHtml, initialValue){
     				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
     				.attr({
     					zIndex: 6,
     					class: cssClass +' pieLegend',
-    					initialValue: text
+    					initialValue: initialValue
     					})
     				.css({
                         fontWeight: 'bold' }).

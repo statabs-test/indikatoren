@@ -3746,7 +3746,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Planungsamt Basel-Stadt\u003Cbr\u002F\u003EZuletzt geändert: 10\u002F27\u002F2017"
+    "text": "Quelle: Planungsamt Basel-Stadt\u003Cbr\u002F\u003EZuletzt geändert: 2017-10-27"
   },
   "colorAxis": {
     "min": 0,
@@ -4101,7 +4101,7 @@
     				    class: cssClass + ' pieLegend'
     				}).add();
                 },
-    "addLegendLabel": function (chart, text, x, y, cssClass, useHtml){
+    "addLegendLabel": function (chart, text, x, y, cssClass, useHtml, initialValue){
     				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
                 	.css({
 					 fontSize: "12px", fontFamily: "Arial", fontWeight: 'normal', fontStyle: "normal"
@@ -4109,15 +4109,15 @@
     				.attr({
     					zIndex: 6,
     					class: cssClass + ' pieLegend', 
-    					initialValue: text
+    					initialValue: initialValue
     				}).add();
                 },
-    "addLegendLabelbold": function (chart, text, x, y, cssClass, useHtml){
+    "addLegendLabelbold": function (chart, text, x, y, cssClass, useHtml, initialValue){
     				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
     				.attr({
     					zIndex: 6,
     					class: cssClass +' pieLegend',
-    					initialValue: text
+    					initialValue: initialValue
     					})
     				.css({
                         fontWeight: 'bold' }).
