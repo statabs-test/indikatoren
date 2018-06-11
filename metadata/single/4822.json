@@ -14,7 +14,7 @@
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"<Bitte neue Lesehilfe erfassen>",
+"lesehilfe":"Der Anteil Sozialhilfeempfänger ist in Kleinhüningen am höchsten, in Bettingen am niedrigsten.",
 "erlaeuterungen":"Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger an der Wohnbevölkerung des Wohnviertels.",
 "template":"dotplot",
 "visible":true,
