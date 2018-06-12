@@ -155,12 +155,12 @@
                 	var legendTop = 180;
                 	var legendLeft = 596;;
                 	
-					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+20,  10, "#B00000");
-					fn.addLegendText(chart,        legendLeft-80, legendTop+30,  'Schweiz');
-					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+35,  10, "#008AC3");
-					fn.addLegendText(chart,        legendLeft-80, legendTop+45,  'Ausland');
+					fn.addLegendSquare(chart,      legendLeft-145,  legendTop+20,  10, "#B00000");
+					fn.addLegendText(chart,        legendLeft-120, legendTop+30,  'Schweiz');
+					fn.addLegendSquare(chart,      legendLeft-145,  legendTop+35,  10, "#008AC3");
+					fn.addLegendText(chart,        legendLeft-120, legendTop+45,  'Ausland');
 					fn.addLegendText(chart,     330, 170 , 'Anzahl Zugezogene <br> pro 100 Einwohner <br>');
-					fn.addLegendText(chart,     500, 170 , 'Anteil Zugezogene <br> nach Zuzugsland');
+					fn.addLegendText(chart,     450, 170 , 'Anteil Zugezogene <br> nach Zuzugsland');
 				}
 			}
 		}
