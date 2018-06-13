@@ -26,8 +26,9 @@
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
 "externalLinks":[""],
 "delimiter": "\t",
+"publishLod": true,
 "tableSchema": {
-     "aboutUrl": "http://ld.data-bs.ch/dataset/6623/observation/{Jahr}-Raum0",
+     "aboutUrl": "http://ld.data-bs.ch/dataset/6623/observation/{Jahr}-Gemeinde2701",
      "columns": [
        {
          "titles": "Jahr",
@@ -41,7 +42,7 @@
        {
          "virtual": true,
          "propertyUrl": "http://ld.data-bs.ch/property/raum",
-         "valueUrl": "http://ld.data-bs.ch/code/raum/Raum0"
+         "valueUrl": "http://ld.data-bs.ch/code/raum/Gemeinde2701"
        }
      ]
    }
