@@ -170,6 +170,9 @@
 				
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
+					
+					//remove double legend items: workaround Highcharts 6.1 bug
+					fn.removeDoubleLegendItems(6388);										
 	            }
 			}
 		}

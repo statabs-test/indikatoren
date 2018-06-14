@@ -190,7 +190,7 @@
 					fn.addLegendLabel(chart, 'Türkei', 370, 234);
 					fn.addLegendSquare(chart, 360, 260, 10, '#923F8D');
 					fn.addLegendLabel(chart, 'Spanien', 370, 254);
-					fn.ad001dLegendSquare(chart, 360, 280, 10, '#7F5F1A');
+					fn.addLegendSquare(chart, 360, 280, 10, '#7F5F1A');
 					fn.addLegendLabel(chart, 'Übrige', 370, 274);
 					
 
