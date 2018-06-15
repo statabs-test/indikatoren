@@ -46,13 +46,13 @@
       "index": 4
     },
       {
-      "color": "#FF8028", //orange
+      "color": "#CD9C00", //orange
       "type": "column",
       "pointWidth": "15",
       "index": 2
     },
      {
-      "color": "#CD9C00", // braun
+      "color": "#FF8028", // braun
       "type": "column",
       "pointWidth": "15",
       "index": 3
