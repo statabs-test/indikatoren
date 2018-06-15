@@ -3606,7 +3606,7 @@
     },
     {
       "name": "Rhein",
-      "animation": true,
+      "animation": false,
       "data": [
         {
           "path": [
@@ -3766,7 +3766,7 @@
     },
     {
       "name": "Massstab",
-      "animation": true,
+      "animation": false,
       "type": "mapline",
       "data": [
         {
@@ -3812,7 +3812,7 @@
 						return '1 km';
 					},
         "style": {
-          "fontSize": "12px",
+          "fontSize": "10px",
           "fontWeight": "normal",
           "color": "black"
         },
@@ -3823,9 +3823,14 @@
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 485,
-    "height": 415,
-    "spacingBottom": 45,
+    "width": 640,
+    "height": 312,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
     "style": {
       "fontFamily": "Arial"
     },
@@ -3871,33 +3876,26 @@
 					//put the pies / bubbles on the map
 					fn.drawPies(chart, pieSizeSeries, pieSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig);
 	                
-					//pie values in legend
-	                var minValueInLegend = 0.001; 
-	                var maxValueInLegend = 0.1; 
-	                
+
                 	//Add manually drawn legend	
-	                fn.addLegendTitle(chart,"Anzahl Zugezogene pro 100 Einwohner", 255, 305);
-	                
-	                //fn.addLegendCircle(chart, 410, 275, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
-	                //fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),3,","," "), 430, 265);
-	                //fn.addLegendCircle(chart, 410, 300, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
-	                //fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),2,"."," "), 430, 290);
-
-					fn.addLegendSquare(chart, 258, 265, 10, 'red');
-					fn.addLegendLabel(chart, 'Schweiz', 270, 260);
-					fn.addLegendSquare(chart, 258, 285, 10, 'blue');
-					fn.addLegendLabel(chart, 'Ausland', 270, 280);
-
-					fn.addLegendLabelbold(chart, 'Anteil Zugezogene nach Zuzugsland', 255, 240);					
-					//make sure pies are hidden upon click onto pie legend
-					fn.AddPieLegendClickHandler(chart);
-	            }
+                	
+                	var legendTop = 180;
+                	var legendLeft = 596;;
+                	
+					fn.addLegendSquare(chart,      legendLeft-145,  legendTop+20,  10, "#B00000");
+					fn.addLegendText(chart,        legendLeft-120, legendTop+30,  'Schweiz');
+					fn.addLegendSquare(chart,      legendLeft-145,  legendTop+35,  10, "#008AC3");
+					fn.addLegendText(chart,        legendLeft-120, legendTop+45,  'Ausland');
+					fn.addLegendText(chart,     330, 170 , 'Anzahl Zugezogene <br> pro 100 Einwohner <br>');
+					fn.addLegendText(chart,     450, 170 , 'Anteil Zugezogene <br> nach Zuzugsland');
+				}
     },
-    "renderTo": "container-6025"
+    "renderTo": "container-6774",
+    "spacingBottom": 2
   },
   "title": {
     "style": {
-      "fontSize": "14px",
+      "fontSize": "10px",
       "fontWeight": "bold",
       "fontFamily": "Arial",
       "color": "#000000"
@@ -3907,12 +3905,12 @@
   },
   "subtitle": {
     "style": {
-      "fontSize": "12px",
+      "fontSize": "10px",
       "fontWeight": "normal",
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2017",
+    "text": "Stand: 2016",
     "align": "left"
   },
   "credits": {
@@ -3940,16 +3938,42 @@
         "cursor": "default",
         "fontSize": "11px",
         "textOverflow": "none"
-      },
-      "formatter": function () {
-					return Highcharts.numberFormat((this.value),0); 
-				}
+      }
     },
     "marker": {
       "color": "black"
     },
-    "minColor": "#FFDA80",
-    "maxColor": "#45381D"
+    "dataClassColor": "category",
+    "dataClasses": [
+      {
+        "to": 4.999,
+        "color": "rgb(242,242,242)",
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E7,0\u003C\u002Fspan\u003E \u003C\u003Cspan style='color: rgba(0,0,0,0)'\u003E11\u003C\u002Fspan\u003E5,0"
+      },
+      {
+        "from": 5,
+        "to": 6.999,
+        "color": "rgb(230,230,230)",
+        "name": "5,0 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E11\u003C\u002Fspan\u003E6,9"
+      },
+      {
+        "from": 7,
+        "to": 8.999,
+        "color": "rgb(200,200,200)",
+        "name": "7,0 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E11\u003C\u002Fspan\u003E8,9"
+      },
+      {
+        "from": 9,
+        "to": 11,
+        "color": "rgb(153,153,153)",
+        "name": "9,0 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E11,0"
+      },
+      {
+        "from": 11.001,
+        "color": "rgb(60,60,60)",
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E7,0\u003C\u002Fspan\u003E ≥\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E11,0"
+      }
+    ]
   },
   "mapNavigation": {
     "enabled": true,
@@ -3960,17 +3984,30 @@
   },
   "legend": {
     "enabled": true,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
     "align": "right",
     "floating": true,
     "title": {
       "style": {
-        "fontWeight": "normal",
-        "fontSize": "11px"
+        "fontWeight": " bold",
+        "fontSize": "10px"
       },
-      "text": ""
+      "text": null
     },
-    "x": -10,
-    "y": 0
+    "useHTML": true,
+    "layout": "vertical",
+    "x": -235,
+    "y": -35,
+    "itemMarginBottom": 2,
+    "symbolRadius": 0
+  },
+  "plotOptions": {
+    "series": {
+      "animation": false
+    }
   },
   "xAxis": {
     "events": {
@@ -4221,7 +4258,7 @@
     "addLegendTitle": function (chart, title, x, y){
             		return chart.renderer.label(title, x, y)
          				.css({
-    	                    fontSize: '12px',
+    	                    fontSize: '10px',
     	                    fontWeight: 'bold'
     	                })
     	                .attr({
@@ -4238,21 +4275,29 @@
     				    class: cssClass + ' pieLegend'
     				}).add();
                 },
-    "addLegendLabel": function (chart, text, x, y, cssClass, useHtml){
-    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
-    					zIndex: 6,
-    					class: cssClass + ' pieLegend'
-    				}).add();
-                },
-    "addLegendLabelbold": function (chart, text, x, y, cssClass, useHtml){
-    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).
-    				attr({
-    					zIndex: 6,
-    					class: cssClass +' pieLegend'	})
-    				.css({
-                        fontWeight: 'bold' }).
+    "addLegendText": function (chart, x, y, text, color, cssClass, useHtml){
+							return chart.renderer.text(text, x, y, undefined, undefined, undefined, useHtml)
+								.css({
+				                    fontSize: '10px',
+				                })
+								.attr({
+									zIndex: 6,
+									fill: color,
+									class: cssClass + ' columnLegend'
+								})
+								.add();
+			            },
+    "addLegendTextbold": function (chart, x, y, text, color, cssClass, useHtml){
+				return chart.renderer.text(text, x, y, undefined, undefined, undefined, useHtml)
+					.attr({
+						zIndex: 6,
+						fill: color,
+						class: cssClass + ' columnLegend'})
+					.css({
+                        fontWeight: 'bold', 
+						fontSize: '10px'}),
                      add();
-                },
+            },
     "addLegendSquare": function (chart, x, y, width, fill, cssClass){
                 	return chart.renderer.rect(x, y, width, width, 0).attr({
     		            'stroke-width':0,
@@ -4315,6 +4360,6 @@
 				}
   },
   "exporting": {
-    "filename": 6025
+    "filename": 6774
   }
 }

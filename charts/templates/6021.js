@@ -49,13 +49,13 @@
       "color": "#FF8028", //orange
       "type": "column",
       "pointWidth": "15",
-      "index": 3
+      "index": 2
     },
      {
       "color": "#CD9C00", // braun
       "type": "column",
       "pointWidth": "15",
-      "index": 2
+      "index": 3
     },
       {
       "color": "#923F8D", // violett

@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#E6E600",
+      "color": "#008AC3",
       "index": 1,
       "type": "column",
       "pointWidth": "15",
@@ -44,7 +44,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#73B97C",
+      "color": "#B00000",
       "index": 0,
       "type": "column",
       "pointWidth": "15",

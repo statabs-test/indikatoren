@@ -6,19 +6,19 @@
       "data": [
         [
           "Schweiz",
-          62
+          -210
         ],
         [
           "Ausland",
-          -109
+          -93
         ],
         [
           "Unbekannt",
-          -322
+          -321
         ],
         [
           "Total",
-          -369
+          -624
         ]
       ],
       "name": "Schweizer",
@@ -30,19 +30,19 @@
       "data": [
         [
           "Schweiz",
-          -1053
+          -797
         ],
         [
           "Ausland",
-          3396
+          2905
         ],
         [
           "Unbekannt",
-          -1072
+          -906
         ],
         [
           "Total",
-          1271
+          1202
         ]
       ],
       "name": "Ausländer",
@@ -54,19 +54,19 @@
       "data": [
         [
           "Schweiz",
-          -991
+          -1007
         ],
         [
           "Ausland",
-          3287
+          2812
         ],
         [
           "Unbekannt",
-          -1394
+          -1227
         ],
         [
           "Total",
-          902
+          578
         ]
       ],
       "name": "Total",

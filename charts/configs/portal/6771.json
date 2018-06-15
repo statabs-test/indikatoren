@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "Anzahl Zugezogene pro 100 Einwohner",
+      "name": "Saldo",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -3236,95 +3236,108 @@
         }
       },
       "tooltip": {
+        "headerFormat": "",
+        "useHTML": true,
         "pointFormatter": function (){
-						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '</b><br/>';
+						var columnSeriesIndex = this.index + 6; // 6 series statically defined in this chart incl. afterSeries (rhein and massstab)
+						var columnSeries = this.series.chart.series[columnSeriesIndex];
+						//put together html for tooltip
+						var tooltipText = 
+							this.properties.LIBGEO + ': <br/><br/>' + 
+							'<table>'
+							+'<tr><td><span style="color:' + this.color + '">●</span></td> <td>' + this.series.name + ': </td> <td><b>' + Highcharts.numberFormat((this.value),2) + '</b></td></tr><br/>';
+						//add a tooltip row for each column
+						Highcharts.each(columnSeries.points, function(element, index, array){
+							(columnSeries.visible) ? tooltipText += ('<tr><td><span style="color:' + element.color + '">●</span></td> <td>' + element.name + ': </td> <td><b>' + Highcharts.numberFormat((element.y),2) + '</b></td></tr><br/>') : undefined ;	
+						});
+						tooltipText += '</table>';
+						return tooltipText;
 					}
       },
       "data": [
         [
           1,
-          9.3
+          1.66023166
         ],
         [
           2,
-          11.4
+          0.877367896
         ],
         [
           3,
-          11
+          1.026827012
         ],
         [
           4,
-          6.3
+          -0.235849057
         ],
         [
           5,
-          7.1
+          2.410826313
         ],
         [
           6,
-          8.5
+          -0.935225039
         ],
         [
           7,
-          3.9
+          0.55164954
         ],
         [
           8,
-          4.4
+          -0.251367736
         ],
         [
           9,
-          6.3
+          0.623369092
         ],
         [
           10,
-          5.9
+          0.53415633
         ],
         [
           11,
-          7.6
+          -0.717344754
         ],
         [
           12,
-          9
+          -0.36525974
         ],
         [
           13,
-          9.3
+          2.252693438
         ],
         [
           14,
-          7.6
+          -2.441229656
         ],
         [
           15,
-          3.6
+          1.191498497
         ],
         [
           16,
-          13.4
+          -0.015144631
         ],
         [
           17,
-          8.1
+          -1.360972844
         ],
         [
           18,
-          6.2
+          0.509993108
         ],
         [
           19,
-          5.8
+          -1.828410689
         ],
         [
           20,
-          3.7
+          2.146606674
         ],
         [
           30,
-          6.2
+          0.587741394
         ]
       ]
     },
@@ -3332,91 +3345,91 @@
       "visible": false,
       "data": [
         [
-          "Altstadt GB",
-          0.1
+          "Altstadt Grossbasel",
+          0.9
         ],
         [
           "Vorstädte",
-          0.1
+          1.6
         ],
         [
           "Am Ring",
-          0.1
+          2.2
         ],
         [
           "Breite",
-          0.1
+          -0.5
         ],
         [
           "St. Alban",
-          0.1
+          0.9
         ],
         [
           "Gundeldingen",
-          0.1
+          0.7
         ],
         [
           "Bruderholz",
-          0.1
+          -0.8
         ],
         [
           "Bachletten",
-          0.1
+          -0.7
         ],
         [
           "Gotthelf",
-          0.1
+          0.7
         ],
         [
           "Iselin",
-          0.1
+          -0.6
         ],
         [
           "St. Johann",
-          0.1
+          -0.2
         ],
         [
-          "Altstadt KB",
-          0.1
+          "Altstadt Kleinbasel",
+          0.6
         ],
         [
           "Clara",
-          0.1
+          1.5
         ],
         [
           "Wettstein",
-          0.1
+          0.8
         ],
         [
           "Hirzbrunnen",
-          0.1
+          -0.4
         ],
         [
           "Rosental",
-          0.1
+          1.9
         ],
         [
           "Matthäus",
-          0.1
+          0.2
         ],
         [
           "Klybeck",
-          0.1
+          0.4
         ],
         [
           "Kleinhüningen",
-          0.1
+          -1.1
         ],
         [
           "Riehen",
-          0.1
+          0.4
         ],
         [
           "Bettingen",
-          0.1
+          -0.9
         ]
       ],
-      "name": "Anzahl"
+      "name": "Wanderung"
     },
     {
       "visible": false,
@@ -3426,90 +3439,90 @@
       "data": [
         [
           1,
-          39
+          0.9
         ],
         [
           2,
-          35
+          1.6
         ],
         [
           3,
-          37
+          2.2
         ],
         [
           4,
-          58
+          -0.5
         ],
         [
           5,
-          47
+          0.9
         ],
         [
           6,
-          50
+          0.7
         ],
         [
           7,
-          53
+          -0.8
         ],
         [
           8,
-          55
+          -0.7
         ],
         [
           9,
-          47
+          0.7
         ],
         [
           10,
-          50.1
+          -0.6
         ],
         [
           11,
-          39
+          -0.2
         ],
         [
           12,
-          43
+          0.6
         ],
         [
           13,
-          36
+          1.5
         ],
         [
           14,
-          39
+          0.8
         ],
         [
           15,
-          56
+          -0.4
         ],
         [
           16,
-          25
+          1.9
         ],
         [
           17,
-          38
+          0.2
         ],
         [
           18,
-          43
+          0.4
         ],
         [
           19,
-          29
+          -1.1
         ],
         [
           20,
-          56
+          0.4
         ],
         [
           30,
-          54
+          -0.9
         ]
       ],
-      "name": "Anteil Zugezogene nach Zuzugsland: Schweiz"
+      "name": "Wanderung"
     },
     {
       "visible": false,
@@ -3519,90 +3532,90 @@
       "data": [
         [
           1,
-          60
+          0.8
         ],
         [
           2,
-          65.3
+          -0.7
         ],
         [
           3,
-          63
+          -1.1
         ],
         [
           4,
-          42
+          0.2
         ],
         [
           5,
-          53
+          1.6
         ],
         [
           6,
-          50
+          -1.6
         ],
         [
           7,
-          47
+          1.4
         ],
         [
           8,
-          45
+          0.5
         ],
         [
           9,
-          53
+          -0.1
         ],
         [
           10,
-          50
+          1.1
         ],
         [
           11,
-          60
+          -0.5
         ],
         [
           12,
-          57
+          -1
         ],
         [
           13,
-          64
+          0.7
         ],
         [
           14,
-          61
+          -3.2
         ],
         [
           15,
-          44
+          1.6
         ],
         [
           16,
-          75
+          -1.9
         ],
         [
           17,
-          62
+          -1.6
         ],
         [
           18,
-          57
+          0.1
         ],
         [
           19,
-          71
+          -0.8
         ],
         [
           20,
-          44
+          1.8
         ],
         [
           30,
-          46
+          1.5
         ]
       ],
-      "name": "Anteil Zugezogene nach Zuzugsland: Ausland"
+      "name": "Umzug"
     },
     {
       "name": "Rhein",
@@ -3812,7 +3825,7 @@
 						return '1 km';
 					},
         "style": {
-          "fontSize": "12px",
+          "fontSize": "10px",
           "fontWeight": "normal",
           "color": "black"
         },
@@ -3820,99 +3833,142 @@
       }
     }
   ],
+  "exporting": {
+    "allowHTML": true,
+    "chartOptions": {
+      "plotOptions": {
+        "series": {
+          "animation": false
+        }
+      }
+    },
+    "filename": 6771
+  },
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 485,
-    "height": 415,
-    "spacingBottom": 45,
+    "width": 640,
+    "height": 312,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
     "style": {
       "fontFamily": "Arial"
     },
     "type": "map",
     "inverted": false,
     "events": {
+      "redraw": function () {
+					//position column charts on the map
+					var fn = this.options.customFunctions;
+			    	if (fn.redrawEnabled) {
+			        	fn.redrawEnabled = false;
+			        	fn.positionColumnSeries(this, fn.columnChartConfiguration.chartWidth, fn.columnChartConfiguration.chartHeight);
+			        	fn.redrawEnabled = true;
+			        }
+			    },
       "load": function (e) {
 	            	
 	            	this.credits.element.onclick = function() {};
-
+					
 	                var chart = this;
 	                var fn = this.options.customFunctions;
-	                //define new Highcharts template "mappie"
-					fn.defineTemplate();
+	                //define new Highcharts template "mapcolumn"
+					//fn.defineTemplate();
 					
 					var choroplethSeries = chart.series[0];
-					var pieSizeSeries = chart.series[1];
-					var pieSeries = [chart.series[2], chart.series[3]];
+					var columnSeries = [chart.series[2], chart.series[3]];
 
-					//pie diameters in px
-					var maxPieDiameter = 15;
-
-					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
+					//var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
 
 					//define chart-specific details
-					var pieSeriesConfig = function(data, correspondingMapSeriesItem, color){
+					var columnSeriesConfig = function(correspondingMapSeriesItem, color){
 						return {
-	                        sizeFormatter: function () {
-	                            var fn = this.chart.options.customFunctions;
-	                            var yAxis = chart.yAxis[0], zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
-								return zoom * fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
-								//return fn.pieSizeCategorical(Math.abs(data.value), pieSizeCatConfig).diameter;
-	                        },
+							enableMouseTracking: false,
+							/*
 	                        tooltip: {
 	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {point.key} </span><br/>',
 	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),1) + ' % </b><br/>';
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),3) + '</b><br/>';
 	                            }
 	                        },
+	                        */
 	                    };
 					};
-					var pieSizeCatConfig;
-					//put the pies / bubbles on the map
-					fn.drawPies(chart, pieSizeSeries, pieSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig);
+					
+					//define different colors for positive and negative values
+                    var color = function(value, index){
+						//add polyfill for ie, see https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Math/sign                    	
+                    	if (!Math.sign) {
+						  Math.sign = function(x) {
+						    return ((x > 0) - (x < 0)) || +x;
+						  };
+						}
+                    	
+                    	var colors = {
+                    		'1': ['#ffaa00','#38a800'],
+                    		'-1': ['#a87000', '#267300']
+                    	};
+						return colors[''+Math.sign(value)][index];
+                    };
+                    var chartHeight = 72;
+                    var columnWidth = 5;
+					
+					//put the columns on the map
+					fn.drawColumns(chart, columnSeries, choroplethSeries, columnSeriesConfig, color, chartHeight, columnWidth);
+
 	                
-					//pie values in legend
-	                var minValueInLegend = 0.001; 
-	                var maxValueInLegend = 0.1; 
-	                
+					//column values in legend
+					var legendColumnValues = [5, 2.5]; 
+
                 	//Add manually drawn legend	
-	                fn.addLegendTitle(chart,"Anzahl Zugezogene pro 100 Einwohner", 255, 305);
-	                
-	                //fn.addLegendCircle(chart, 410, 275, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
-	                //fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),3,","," "), 430, 265);
-	                //fn.addLegendCircle(chart, 410, 300, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
-	                //fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),2,"."," "), 430, 290);
+                	var legendTop = 230;
+                	var legendLeft = 596;
 
-					fn.addLegendSquare(chart, 258, 265, 10, 'red');
-					fn.addLegendLabel(chart, 'Schweiz', 270, 260);
-					fn.addLegendSquare(chart, 258, 285, 10, 'blue');
-					fn.addLegendLabel(chart, 'Ausland', 270, 280);
+	                fn.addLegendColumnChart(chart, legendLeft-125,  legendTop+10,  legendColumnValues, color, 'columnLegendHideOnZoom');
+	                fn.addLegendText(chart,        legendLeft-100, legendTop+10,  Highcharts.numberFormat(legendColumnValues[0], 0,","," "), color(legendColumnValues[0], 0), 'columnLegendHideOnZoom');
+	                fn.addLegendText(chart,        legendLeft-90, legendTop+10,  Highcharts.numberFormat(legendColumnValues[1], 1,","," "), color(legendColumnValues[1], 1), 'columnLegendHideOnZoom');
+					
+					fn.addLegendSquare(chart,      legendLeft-125,  legendTop+20,  10, color(1, 0));
+					fn.addLegendText(chart,        legendLeft-100, legendTop+30,  'Wanderung positiv');
+					fn.addLegendSquare(chart,      legendLeft-125,  legendTop+35,  10, color(-1, 0));
+					fn.addLegendText(chart,        legendLeft-100, legendTop+45,  'Wanderung negativ');
+					fn.addLegendSquare(chart,      legendLeft-125,  legendTop+50,  10, color(1, 1));
+					fn.addLegendText(chart,        legendLeft-100, legendTop+60,  'Umzug positiv');
+					fn.addLegendSquare(chart,      legendLeft-125,  legendTop+65, 10, color(-1, 1));
+					fn.addLegendText(chart,        legendLeft-100, legendTop+75 , 'Umzug negativ');
+					fn.addLegendText(chart,     330, 170 , 'Bevölkerungssaldo infolge <br> räumlicher Bewegung <br> pro 100 Einwohner <br>(Saldo total)');
+					fn.addLegendText(chart,     470, 170 , 'Saldo pro 100 Einwohner');
 
-					fn.addLegendLabelbold(chart, 'Anteil Zugezogene nach Zuzugsland', 255, 240);					
-					//make sure pies are hidden upon click onto pie legend
-					fn.AddPieLegendClickHandler(chart);
+					
+					//make sure columns are hidden upon click onto column legend
+					fn.AddColumnLegendClickHandler(chart);
 	            }
     },
-    "renderTo": "container-6025"
+    "renderTo": "container-6771",
+    "spacingBottom": 2
   },
   "title": {
     "style": {
-      "fontSize": "14px",
+      "fontSize": "10px",
       "fontWeight": "bold",
       "fontFamily": "Arial",
       "color": "#000000"
     },
     "align": "left",
-    "text": "Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner"
+    "text": "Bevölkerungssaldo infolge räumlicher Bevölkerungsbewegung pro 100 Einwohner"
   },
   "subtitle": {
     "style": {
-      "fontSize": "12px",
+      "fontSize": "10px",
       "fontWeight": "normal",
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2017",
+    "text": "Stand: 2016",
     "align": "left"
   },
   "credits": {
@@ -3938,18 +3994,44 @@
       "style": {
         "color": "black",
         "cursor": "default",
-        "fontSize": "11px",
+        "fontSize": "10px",
         "textOverflow": "none"
-      },
-      "formatter": function () {
-					return Highcharts.numberFormat((this.value),0); 
-				}
+      }
     },
     "marker": {
       "color": "black"
     },
-    "minColor": "#FFDA80",
-    "maxColor": "#45381D"
+    "dataClassColor": "category",
+    "dataClasses": [
+      {
+        "to": -0.75999,
+        "color": "rgb(0,135,135)",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\u003C&nbsp;-0,760"
+      },
+      {
+        "from": -0.76,
+        "to": -0.15,
+        "color": "rgb(168,196,203)",
+        "name": "-0,760 − -0,150"
+      },
+      {
+        "from": -0.14999,
+        "to": 0.149999,
+        "color": "rgb(230,230,230)",
+        "name": "-0,149 − &nbsp;0,149"
+      },
+      {
+        "from": 0.15,
+        "to": 1.99,
+        "color": "rgb(231,207,226)",
+        "name": "&nbsp;0,150 − &nbsp;0,199"
+      },
+      {
+        "from": 2,
+        "color": "rgb(103,39,115)",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≥&nbsp;&nbsp;2,000"
+      }
+    ]
   },
   "mapNavigation": {
     "enabled": true,
@@ -3962,359 +4044,337 @@
     "enabled": true,
     "align": "right",
     "floating": true,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
     "title": {
       "style": {
-        "fontWeight": "normal",
-        "fontSize": "11px"
+        "fontWeight": " bold",
+        "fontSize": "10px"
       },
-      "text": ""
+      "text": null
     },
-    "x": -10,
-    "y": 0
+    "useHTML": true,
+    "layout": "vertical",
+    "x": -210,
+    "y": 2,
+    "itemMarginBottom": 2,
+    "symbolRadius": 0
   },
   "xAxis": {
     "events": {
       "afterSetExtremes": function (e){
-					var divId = e['target']['chart']['renderTo']['id'] || 'dummySettingForExportServer';
+					var divId = e['target']['chart']['renderTo']['id'] || 'dummySttingForExportServer';
 					var divIdString = '#' + divId;
 					divIdString = '';
 					//only care about zoom events, not pan
 					if (e.trigger != 'pan'){
 						//determine current zoom level
 						var zoom = (e.dataMax - e.dataMin) / (e.max - e.min);
-						$(divIdString + ' .pieLegendHideOnZoom').attr('visibility', zoom == 1 ? 'inherit' : 'hidden');
+						$(divIdString + ' .columnLegendHideOnZoom').attr('visibility', zoom == 1 ? 'inherit' : 'hidden');
 					}
 				}
     }
   },
   "customFunctions": {
-    "pieSizeCategorical": function (value, conf){
-				for (var i=0; i < conf.length; i++ ){
-					if (value >= conf[i].from && value < conf[i].to) {
-						return conf[i];
-					}
-				}
+    "redrawEnabled": true,
+    "columnChartConfiguration": {},
+    "positionColumnSeries": function (chart, chartWidth, chartHeight){
+			  var mapXAxis = chart.xAxis[0];
+			  var mapYAxis = chart.yAxis[0];
+			  var zoomRatio = (mapXAxis.dataMax - mapXAxis.dataMin) / (mapXAxis.max - mapXAxis.min);
+			
+			  Highcharts.each(chart.series[0].points, function(state) {
+			    var stateCenterX = mapXAxis.toPixels(state.series.mapData[state.index].properties.POINT_X),
+			      stateCenterY = mapYAxis.toPixels(-state.series.mapData[state.index].properties.POINT_Y),
+			      chartWidthZoomed = chartWidth * zoomRatio || 10, // stateWidth / 6,
+			      chartHeightZoomed = chartHeight * zoomRatio || 50,// stateHeight / 2,
+			      axisIndex = state.index + 1,
+			      xAxis = chart.xAxis[axisIndex],
+			      yAxis = chart.yAxis[axisIndex];
+				
+				/*
+			    // applay minimum column plot dimensions if needed
+			    if (chartWidth < minColumnWidth) {
+			      chartWidth = minColumnWidth;
+			    }
+			    if (chartHeight < minColumnHeight) {
+			      chartHeight = minColumnHeight;
+			    }
+			    */
+			
+			    var left = stateCenterX - (chartWidthZoomed / 2),
+			      top = stateCenterY - chartHeightZoomed / 2;
+			
+			    // hide series which don't fit in the plot area
+				if (left  < 0 || left  > chart.plotWidth || top  < 0 || top > chart.plotHeight + chart.plotTop) {		    	
+			      xAxis.series.forEach(function(s) {
+			        s.setVisible(false, false);
+			      });
+			    // show and position series that fit in the plot area
+			    } else {
+			      xAxis.series.forEach(function(s) {
+			      	//if series must be hidden due to clicking on legend: hide despite ok position
+			        s.setVisible(true && !s._hide, false);
+			        //define column width here and increase with zooming
+			        s.update({pointWidth: s.options.columnWidth * zoomRatio}, false);
+			      });
+			
+			      xAxis.update({
+			        left: left, // + 'px'
+			        width: chartWidthZoomed
+			      }, false);
+			
+			      yAxis.update({
+			        top: top, // + 'px'
+			        height: chartHeightZoomed
+			      }, false);
+			    }
+			  });
+			
+			  chart.redraw();
 			},
-    "pieSize": function (value, maxAbsValue, maxPieDiameter){
-            	
-            	function circleAreaByDiameter(diameter){
-            		return Math.PI * diameter * diameter / 4;
-            	}
-            	
-            	function circleDiameterByAre(area){	                		
-            		return Math.sqrt(4 * area / Math.PI);
-            	}
-            	
-            	/*
-                var yAxis = chart.yAxis[0],
-                    zoomFactor = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
-                */
-                
-				//Negative values: return absolute value
-				//size by Area: use sqrt of value to define size
-				//var size = pieSizeMin + chart.chartWidth / 11 * pieSizeFactor *  Math.sqrt(Math.abs(value)) / maxAbsNumber; 
+    "drawColumns": function (chart, columnSeries, choroplethSeries, columnSeriesConfig, color, chartHeight, columnWidth){
+				var fn = chart.options.customFunctions;
+				var conf = fn.columnChartConfiguration;
+				//get all y Data into array in order to get max and min            	
+            	var allYData = Array.prototype.concat.apply(
+						[], columnSeries.map(
+							function(val, i, arr){
+			            		return val.yData;
+			            	}
+		            	)
+            	);
+				var yMax = Math.max.apply(null, allYData);
+				var yMin = Math.min.apply(null, allYData);
+				var mapXAxis = chart.xAxis[0];
+				var zoom = (mapXAxis.dataMax - mapXAxis.dataMin) / (mapXAxis.max - mapXAxis.min);
 				
-				//transform value to a number between 0 and 1 representing its relation to the min and max values
-				//var relativeValue = (Math.abs(value) - minAbsValue) / (maxAbsValue - minAbsValue);
+				conf.chartHeight = chartHeight;
+				conf.chartWidth = columnWidth * columnSeries.length;
+				conf.columnWidth = columnWidth;
+				conf.columnCount = columnSeries.length;
+				conf.yMax = yMax;
+				conf.yMin = yMin;
 				
-				//transform value to a number between 0 and 1, where value 0 is represented by 0 and maxAbsValue by 1
-				var relativeValue = Math.abs(value) / maxAbsValue ;
-				//console.log('absVal rel: '+ Math.abs(value) + ' ' + relativeValue);
-				//infer the pie size 
-				var maxPieArea = circleAreaByDiameter(maxPieDiameter);
-				var area = relativeValue * maxPieArea;
-				
-				//var minPieArea = circleAreaByDiameter(minPieDiameter);
-				//var area = relativeValue * (maxPieArea - minPieArea) + minPieArea;
-				
-				var diameter = circleDiameterByAre(area);
-				//console.log('value absValue area diameter: ' + value + ' ' + Math.abs(value) + ' ' + area + ' ' + diameter);
-				return diameter;
-            },
-    "defineTemplate": function (){
-
-					//define new chart type
-					// source: https://www.highcharts.com/blog/data-journalism/effectively-visualizing-us-election-results/, 
-					//  which displays  http://jsfiddle.net/gh/get/library/pure/highcharts/highcharts/tree/master/samples/maps/demo/map-pies/
+				//see https://forum.highcharts.com/highmaps-usage-f14/how-to-make-world-map-with-with-overlaid-column-charts-t39522/ and http://jsfiddle.net/kkulig/d0dku2c2/
+				Highcharts.each(choroplethSeries.points, function(state, i, array) {
+					var correspondingMapSeriesItem = choroplethSeries.points[i];
 					
-					    
-					// New map-pie series type that also allows lat/lon as center option.
-					// Also adds a sizeFormatter option to the series, to allow dynamic sizing
-					// of the pies.
-					Highcharts.seriesType('mappie', 'pie', {
-					    center: null, // Can't be array by default anymore
-					    clip: true, // For map navigation
-					    dataLabels: {
-					        enabled: false
-					    }
-					    
-					}, {
-					    getCenter: function () {
-					        var options = this.options,
-					            chart = this.chart,
-					            slicingRoom = 2 * (options.slicedOffset || 0);
-					        if (!options.center) {
-					            options.center = [null, null]; // Do the default here instead
-					        }
-					        // Handle lat/lon support
-					        if (options.center.lat !== undefined) {
-					            var point = chart.fromLatLonToPoint(options.center);
-					            options.center = [
-					                chart.xAxis[0].toPixels(point.x, true),
-					                chart.yAxis[0].toPixels(point.y, true)
-					            ];
-					        }
-					        // Handle dynamic size
-					        if (options.sizeFormatter) {
-					            options.size = options.sizeFormatter.call(this);
-					        }
-					        // Call parent function
-					        var result = Highcharts.seriesTypes.pie.prototype.getCenter.call(this);
-					        // Must correct for slicing room to get exact pixel pos
-					        result[0] -= slicingRoom;
-					        result[1] -= slicingRoom;
-					        return result;
-					    },
-					    translate: function (p) {
-					        this.options.center = this.userOptions.center;
-					        this.center = this.getCenter();
-					        return Highcharts.seriesTypes.pie.prototype.translate.call(this, p);
-					    }
-					});
-
-    		    },
-    "getPointsExtremes": function (points){
-	                var maxNumber = Number.NEGATIVE_INFINITY;
-	                var maxAbsNumber = Number.NEGATIVE_INFINITY;
-	                var minNumber = Number.POSITIVE_INFINITY;
-	                var minAbsNumber = Number.POSITIVE_INFINITY;
-					Highcharts.each(points, function (point) {
-					    maxNumber = Math.max(maxNumber, point.value);
-					    maxAbsNumber = Math.max(maxAbsNumber, Math.abs(point.value));
-					    minNumber = Math.min(minNumber, point.value);
-					    minAbsNumber = Math.min(minAbsNumber, Math.abs(point.value));
-					});
-					return {
-					    maxNumber: maxNumber,
-					    maxAbsNumber: maxAbsNumber,
-					    minNumber: minNumber,
-					    minAbsNumber: minAbsNumber
+					// create axes separate axes for each column plot    
+					chart.addAxis({
+						visible: false, 
+						width: conf.chartWidth * zoom
+					}, true, false);
+					
+					chart.addAxis({
+						visible: false,
+						height: conf.chartHeight * zoom,
+						min: yMin, 
+						max: yMax
+					}, false, false);
+					
+					var mapColumnSeries = {
+						type: 'column',
+						showInLegend: false,
+						xAxis: state.index + 1,
+						yAxis: state.index + 1,
+						pointPadding: 0,
+						columnWidth: columnWidth,
+						groupPadding: 0,
+						borderWidth: 0,		
+						data: [], 
 					};
-				},
-    "drawPies": function (chart, pieSizeSeries, pieSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig){
-                    
-                    //iterate over each wohnviertel and draw the pies / bubbles
-	                Highcharts.each(pieSizeSeries.points, function (data, i) {
-	                    
-	                    if (!data.value) {
-	                        return; // Skip points with no data, if any
-	                    }
-	                    
-	                	var correspondingMapSeriesItem = choroplethSeries.points[data.index];
-	                	
-	                	//define where to place the pies on the map
-	                    var pieOffset = correspondingMapSeriesItem.pieOffset || {},
-	                        centerLat = parseFloat(correspondingMapSeriesItem.properties.lat),
-	                        centerLon = parseFloat(correspondingMapSeriesItem.properties.lon);
-	                	
-                        //create the highcharts pie chart config
-	                    var currentPieSeries = function(config){
-	                        //define default properties
-	                        var mapPieConfig = {
-    	                        type: 'mappie',
-    	                        name: data.series.name,
-    	                        wohnviertel_Name: data["hc-key"],
-    	                        wohnviertel_Id : correspondingMapSeriesItem.wohnviertel_Id,
-    	                        zIndex: 6, // Keep pies above connector lines
-    	                        borderWidth: 1,
-    	                        tooltip: {
-	                        	    headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {series.name} </span><br/>',
-		                            pointFormatter: function () {
-		                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),3) + '</b><br/>';
-		                            }
-    	                        },
-	                            center: {
-    	                            lat: centerLat + (pieOffset.lat || 0),
-    	                            lon: centerLon + (pieOffset.lon || 0)
-    	                        }, 
-    	                        
-    	                        //defaults that are normally overwritten
-		                        sizeFormatter: function () {
-		                            var fn = this.chart.options.customFunctions;
-									//pie diameters in px
-									var maxPieDiameter = 20;		 
-									//pie Size proportional to absolute value, no categories used
-		                            return fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
-		                        },
-		                        dataLabels: {
-							        enabled: false
-							    }, 
-							    data: [
-							    	/*
-		                        	//Pies: Two series
-		                        	{
-		                        		name: pieSeries[0].name,
-		                        		//put absolute value in y, real value in v
-		                        		y: Math.abs(pieSeries[0].points[i].y),
-		                        		v: pieSeries[0].points[i].y,
-		                        		color: pieSeries[0].userOptions.color,
-		                        		borderColor: pieSeries[0].userOptions.borderColor
-		                        	},
-		                        	{
-		                        		name: pieSeries[1].name,
-		                        		//put absolute value in y, real value in v
-		                        		y: Math.abs(pieSeries[1].points[i].y),
-		                        		v: pieSeries[1].points[i].y,
-		                        		color: pieSeries[1].userOptions.color,
-		                        		borderColor: pieSeries[1].userOptions.borderColor
-		                        	}
-		                        	*/
-						    	]
-	                        };
-	                        
-	                        //add data object to mapPieConfig: for bubbles only one, for pies several
-	                        pieSeries.forEach(function(item, index, arr){
-	                        	mapPieConfig.data.push(
-	                        		{
-		                        		name: item.name,
-		                        		//put absolute value in y, real value in v
-		                        		y: Math.abs(item.points[i].y),
-		                        		v: item.points[i].y,
-		                        		color: item.userOptions.color,
-		                        		borderColor: item.userOptions.borderColor
-		                        	}
-                        		);
-	                        });
-
-	                        //create the config handed in from the chart
-	                        var pieTemplate = config(data, correspondingMapSeriesItem);
-	                        //merge the two configs (2nd into first, see e.g. https://gist.github.com/TorsteinHonsi/f646f39d51d18b7d6bfb)
-	                        return Highcharts.merge(true, mapPieConfig, pieTemplate);
-	                    };
-	                    
-	                    // Add the pie for this wohnviertel to the chart
-	                    chart.addSeries(currentPieSeries(pieSeriesConfig), false);
-	                    
-	                    /*
-	                    // Draw connector to wohnviertel center if the pie has been offset
-	                    if (pieOffset.drawConnector !== false) {
-	                        var centerPoint = chart.fromLatLonToPoint({
-	                                lat: centerLat,
-	                                lon: centerLon
-	                            }),
-	                            offsetPoint = chart.fromLatLonToPoint({
-	                                lat: centerLat + (pieOffset.lat || 0),
-	                                lon: centerLon + (pieOffset.lon || 0)
-	                            });
-	                        pieSizeSeries.addPoint({
-	                            name: wohnviertel.id,
-	                            path: 'M' + offsetPoint.x + ' ' + offsetPoint.y +
-	                                'L' + centerPoint.x + ' ' + centerPoint.y
-	                        }, false);
-	                    }
-	                    */
-	                    
-	                });
-	                // Only redraw once all pies and connectors have been added
-	                chart.redraw();
-				},
+					
+					Highcharts.each(columnSeries, function(item, i, arr){
+						var value = item.yData[state.index];
+						mapColumnSeries.data.push(
+							{
+							y: value, 
+							v: value,
+							name: item.name,
+							color: color(value, i),
+							borderColor: color(value, i)
+							}
+						);
+					});
+					
+					//create the config handed in from the chart
+					var columnTemplate = columnSeriesConfig(correspondingMapSeriesItem, color);
+					//merge the two configs (2nd into first, see e.g. https://gist.github.com/TorsteinHonsi/f646f39d51d18b7d6bfb)
+					var mergedColumnConfig = Highcharts.merge(true, mapColumnSeries, columnTemplate);
+					
+					chart.addSeries(mergedColumnConfig, false);
+				});
+				//chart.redraw();
+				fn.positionColumnSeries(chart);
+			},
     "addLegendTitle": function (chart, title, x, y){
-            		return chart.renderer.label(title, x, y)
-         				.css({
-    	                    fontSize: '12px',
-    	                    fontWeight: 'bold'
-    	                })
-    	                .attr({
-    			        	zIndex: 6,
-    			        	//class: 'pieLegend'
-    			        }).add();	                
-                },
-    "addLegendCircle": function (chart, x, y, radius, fill, cssClass){
-                	return chart.renderer.circle(x, y, radius, fill).attr({
-    				    fill: fill,
-    				    stroke: fill,
-    				    'stroke-width': 1, 
-    				    zIndex: 6,
-    				    class: cssClass + ' pieLegend'
-    				}).add();
-                },
-    "addLegendLabel": function (chart, text, x, y, cssClass, useHtml){
-    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
-    					zIndex: 6,
-    					class: cssClass + ' pieLegend'
-    				}).add();
-                },
-    "addLegendLabelbold": function (chart, text, x, y, cssClass, useHtml){
-    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).
-    				attr({
-    					zIndex: 6,
-    					class: cssClass +' pieLegend'	})
-    				.css({
-                        fontWeight: 'bold' }).
+        		return chart.renderer.label(title, x, y)
+     				.css({
+	                    fontSize: '10px',
+	                    fontWeight: 'bold'
+	                })
+	                .attr({
+			        	zIndex: 6,
+			        	//class: 'columnLegend' 
+			        }).add();	                
+            },
+    "addLegendCircle": function (chart, x, y, radius, fill){
+            	return chart.renderer.circle(x, y, radius, fill).attr({
+				    fill: fill,
+				    stroke: fill,
+				    'stroke-width': 1, 
+				    zIndex: 6,
+				    class: 'columnLegend'
+				}).add();
+            },
+    "addLegendText": function (chart, x, y, text, color, cssClass, useHtml){
+				return chart.renderer.text(text, x, y, undefined, undefined, undefined, useHtml)
+					.css({
+	                    fontSize: '10px',
+	                })
+					.attr({
+						zIndex: 6,
+						fill: color,
+						class: cssClass + ' columnLegend'
+					})
+					.add();
+            },
+    "addLegendTextbold": function (chart, x, y, text, color, cssClass, useHtml){
+				return chart.renderer.text(text, x, y, undefined, undefined, undefined, useHtml)
+					.attr({
+						zIndex: 6,
+						fill: color,
+						class: cssClass + ' columnLegend'})
+					.css({
+                        fontWeight: 'bold', 
+						fontSize: '10px'}),
                      add();
-                },
-    "addLegendSquare": function (chart, x, y, width, fill, cssClass){
-                	return chart.renderer.rect(x, y, width, width, 0).attr({
-    		            'stroke-width':0,
-    		            fill: fill,
-    		            zIndex: 6,
-    		            class: cssClass + ' pieLegend'
-    	        	}).add();
-                },
-    "AddPieLegendClickHandler": function (chart){
-					var divId = chart['renderTo']['id'] || 'dummySettingForExportServer';
-					var divIdString = '#' + divId;
-				    $(divIdString + ' .pieLegend').click(function(){
-						//Toggle visible of mappies
-						Highcharts.each(chart.series, function (series) {
-							if (series.userOptions.type == 'mappie'){
-								series.setVisible(!series.visible, false);
-							}
-						});
-						chart.redraw();
-						
-						
-						//if useHTMl is true, text is in span elements within DIVs classed .pieLegend. Add the class to these spans
-						$(divIdString + ' .pieLegend>span').addClass('pieLegend').addClass('pieLegendHtmlText');
-						//toggle active state of legend elements
-						var pieLegendItems = $('.pieLegend');
-						//backup original color
-						pieLegendItems.each(function(i, v){
-							if (!$(this).attr('fill_active')) {
-								//if no fill color is defined, set to  black
-								$(this).attr('fill_active', $(this).attr('fill') || 'black');	
-							}
-							if (!$(this).attr('stroke_active')) {
-								$(this).attr('stroke_active', $(this).attr('stroke') || null);	
-							}
-						});
-						//toggle color
-						if (pieLegendItems.attr('fill') == pieLegendItems.attr('fill_active')){
-							//set all to grey
-							pieLegendItems.attr('fill', '#cccccc');
-							//if stroke is present, toggle it
-							pieLegendItems.each(function(i, v){
-								//if stroke_active is present, set it to grey
-								if ($(this).attr('stroke_active')) {
-									$(this).attr('stroke', '#cccccc');
-								}
-							});
-							//same for html text spans
-							$(divIdString + ' .pieLegendHtmlText').css('color', '#cccccc');
-						} 
-						else {
-							pieLegendItems.each(function(i, v){
-								//set each to its fill_active color
-								$(this).attr('fill', $(this).attr('fill_active'));	
-								$(this).attr('stroke', $(this).attr('stroke_active'));	
-							});
-							//same for html text spans
-							$(divIdString + ' .pieLegendHtmlText').css('color', 'black');
+            },
+    "addLegendSquare": function (chart, x, y, width, fill){
+            	return chart.renderer.rect(x, y, width, width, 0)
+	            	.attr({
+			            'stroke-width':0,
+			            fill: fill,
+			            zIndex: 6,
+			            class: 'columnLegend'
+		        	})
+		        	.add();
+            },
+    "addLegendColumnChart": function (chart, x, y, values, color, cssClass){
+            	var fn = chart.options.customFunctions;
+            	var conf = fn.columnChartConfiguration;
+				values.forEach(function(value, i, arr){
+					var height = value * conf.chartHeight / (conf.yMax - conf.yMin);
+	            	chart.renderer.rect(x + i * conf.columnWidth, y - height, conf.columnWidth, height, 0).attr({
+			            'stroke-width':0,
+			            fill: color(values[0], i),
+			            zIndex: 6,
+			            class: cssClass + ' columnLegend'
+		        	}).add();
+				});
+            	/*
+				var axis = chart.yAxis[0];            	
+				
+				chart.addAxis({
+					visible: false, 
+					width: fn.columnChartConfiguration.columnWidth * values.length, 
+					left: x
+				}, true, false);
+				chart.addAxis({
+					visible: false,
+					height: fn.columnChartConfiguration.chartHeight,
+					min: fn.columnChartConfiguration.yMin, 
+					max: fn.columnChartConfiguration.yMax, 
+					top: 250
+				}, false, false);
+				
+				var mapColumnSeries = {
+					type: 'column',
+					name: 'mapColumnLegend',
+					id: 'mapColumnLegend',
+					showInLegend: false,
+					xAxis: chart.xAxis.length-1,
+					yAxis: chart.yAxis.length-1,
+					pointPadding: 0,
+					groupPadding: 0,
+					borderWidth: 0,		
+					tooltip: {
+						enabled: false
+					},
+					data: []
+				};
+				
+				
+				Highcharts.each(values, function(item, i, arr){
+				  mapColumnSeries.data.push(
+				  	{
+				  		y: item, 
+				  		v: item,
+				  		color: color(item, i),
+				  		borderColor: color(item, i)
+				  	}
+				  );
+				});
+				
+				chart.addSeries(mapColumnSeries, true);
+				*/				
+            },
+    "AddColumnLegendClickHandler": function (chart){
+				var divId = chart['renderTo']['id'] || 'dummySttingForExportServer';
+				var divIdString = '#' + divId;
+				divIdString = '';
+			    $(divIdString + ' .columnLegend').click(function(){
+					//Toggle visible of mapcolumns
+					Highcharts.each(chart.series, function (series) {
+						if (series.userOptions.type == 'column'){
+							//series.setVisible(!series.visible, false);
+							series._hide = !series._hide;
 						}
 					});
-				}
-  },
-  "exporting": {
-    "filename": 6025
+					chart.redraw();
+					
+					
+					//if useHTMl is true, text is in span elements within DIVs classed .columnLegend. Add the class to these spans
+					$(divIdString + ' .columnLegend>span').addClass('columnLegend').addClass('columnLegendHtmlText');
+					//toggle active state of legend elements
+					var columnLegendItems = $(divIdString + ' .columnLegend');
+					//backup original color
+					columnLegendItems.each(function(i, v){
+						if (!$(this).attr('fill_active')) {
+							//if no fill color is defined, set to  black
+							$(this).attr('fill_active', $(this).attr('fill') || 'black');	
+						}
+						if (!$(this).attr('stroke_active')) {
+							$(this).attr('stroke_active', $(this).attr('stroke') || null);	
+						}
+					});
+					//toggle color
+					if (columnLegendItems.attr('fill') == columnLegendItems.attr('fill_active')){
+						//set all to grey
+						columnLegendItems.attr('fill', '#cccccc');
+						//if stroke is present, toggle it
+						columnLegendItems.each(function(i, v){
+							//if stroke_active is present, set it to grey
+							if ($(this).attr('stroke_active')) {
+								$(this).attr('stroke', '#cccccc');
+							}
+						});
+						//same for html text spans
+						$(divIdString + ' .columnLegendHtmlText').css('color', '#cccccc');
+					} 
+					else {
+						columnLegendItems.each(function(i, v){
+							//set each to its fill_active color
+							$(this).attr('fill', $(this).attr('fill_active'));	
+							$(this).attr('stroke', $(this).attr('stroke_active'));	
+						});
+						//same for html text spans
+						$(divIdString + ' .columnLegendHtmlText').css('color', 'black');
+					}
+				});
+			}
   }
 }
