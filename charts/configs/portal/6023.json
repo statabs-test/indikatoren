@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#71A3B5",
+      "color": "#73B97C",
       "type": "column",
       "pointWidth": "15",
       "data": [
@@ -30,7 +30,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#73B97C",
+      "color": "#71A3B5",
       "type": "column",
       "pointWidth": "15",
       "data": [

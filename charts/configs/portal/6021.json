@@ -197,7 +197,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FF8028",
+      "color": "#CD9C00",
       "type": "column",
       "pointWidth": "15",
       "index": 2,
@@ -295,7 +295,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#CD9C00",
+      "color": "#FF8028",
       "type": "column",
       "pointWidth": "15",
       "index": 3,
