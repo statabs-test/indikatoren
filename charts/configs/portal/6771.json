@@ -3928,20 +3928,20 @@
                 	var legendTop = 230;
                 	var legendLeft = 596;
 
-	                fn.addLegendColumnChart(chart, legendLeft-95,  legendTop+10,  legendColumnValues, color, 'columnLegendHideOnZoom');
-	                fn.addLegendText(chart,        legendLeft-75, legendTop+10,  Highcharts.numberFormat(legendColumnValues[0], 0,","," "), color(legendColumnValues[0], 0), 'columnLegendHideOnZoom');
-	                fn.addLegendText(chart,        legendLeft-60, legendTop+10,  Highcharts.numberFormat(legendColumnValues[1], 1,","," "), color(legendColumnValues[1], 1), 'columnLegendHideOnZoom');
+	                fn.addLegendColumnChart(chart, legendLeft-125,  legendTop+10,  legendColumnValues, color, 'columnLegendHideOnZoom');
+	                fn.addLegendText(chart,        legendLeft-100, legendTop+10,  Highcharts.numberFormat(legendColumnValues[0], 0,","," "), color(legendColumnValues[0], 0), 'columnLegendHideOnZoom');
+	                fn.addLegendText(chart,        legendLeft-90, legendTop+10,  Highcharts.numberFormat(legendColumnValues[1], 1,","," "), color(legendColumnValues[1], 1), 'columnLegendHideOnZoom');
 					
-					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+20,  10, color(1, 0));
-					fn.addLegendText(chart,        legendLeft-80, legendTop+30,  'Wanderung positiv');
-					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+35,  10, color(-1, 0));
-					fn.addLegendText(chart,        legendLeft-80, legendTop+45,  'Wanderung negativ');
-					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+50,  10, color(1, 1));
-					fn.addLegendText(chart,        legendLeft-80, legendTop+60,  'Umzug positiv');
-					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+65, 10, color(-1, 1));
-					fn.addLegendText(chart,        legendLeft-80, legendTop+75 , 'Umzug negativ');
+					fn.addLegendSquare(chart,      legendLeft-125,  legendTop+20,  10, color(1, 0));
+					fn.addLegendText(chart,        legendLeft-100, legendTop+30,  'Wanderung positiv');
+					fn.addLegendSquare(chart,      legendLeft-125,  legendTop+35,  10, color(-1, 0));
+					fn.addLegendText(chart,        legendLeft-100, legendTop+45,  'Wanderung negativ');
+					fn.addLegendSquare(chart,      legendLeft-125,  legendTop+50,  10, color(1, 1));
+					fn.addLegendText(chart,        legendLeft-100, legendTop+60,  'Umzug positiv');
+					fn.addLegendSquare(chart,      legendLeft-125,  legendTop+65, 10, color(-1, 1));
+					fn.addLegendText(chart,        legendLeft-100, legendTop+75 , 'Umzug negativ');
 					fn.addLegendText(chart,     330, 170 , 'Bevölkerungssaldo infolge <br> räumlicher Bewegung <br> pro 100 Einwohner <br>(Saldo total)');
-					fn.addLegendText(chart,     500, 170 , 'Saldo pro 100 Einwohner');
+					fn.addLegendText(chart,     470, 170 , 'Saldo pro 100 Einwohner');
 
 					
 					//make sure columns are hidden upon click onto column legend
