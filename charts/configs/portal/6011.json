@@ -46,6 +46,10 @@
         [
           2016,
           31
+        ],
+        [
+          2017,
+          25
         ]
       ],
       "name": "Zuzugsort: unbekannt"
@@ -95,6 +99,10 @@
         [
           2016,
           8291
+        ],
+        [
+          2017,
+          7697
         ]
       ],
       "name": "Zuzugsort: Ausland"
@@ -144,6 +152,10 @@
         [
           2016,
           3426
+        ],
+        [
+          2017,
+          3158
         ]
       ],
       "name": "Zuzugsort: übrige Schweiz"
@@ -193,6 +205,10 @@
         [
           2016,
           3101
+        ],
+        [
+          2017,
+          2856
         ]
       ],
       "name": "Zuzugsort: Schweizer Agglo BS"
@@ -242,6 +258,10 @@
         [
           2016,
           -1425
+        ],
+        [
+          2017,
+          -1252
         ]
       ],
       "name": "Wegzugsort: unbekannt"
@@ -291,6 +311,10 @@
         [
           2016,
           -5004
+        ],
+        [
+          2017,
+          -4885
         ]
       ],
       "name": "Wegzugsort: Ausland"
@@ -340,6 +364,10 @@
         [
           2016,
           -3035
+        ],
+        [
+          2017,
+          -2952
         ]
       ],
       "name": "Wegzugsort: übrige Schweiz"
@@ -389,6 +417,10 @@
         [
           2016,
           -4483
+        ],
+        [
+          2017,
+          -4069
         ]
       ],
       "name": "Wegzugsort: Schweizer Agglo BS"
@@ -440,6 +472,10 @@
         [
           2016,
           902
+        ],
+        [
+          2017,
+          578
         ]
       ],
       "name": "Saldo"
@@ -449,7 +485,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
+    "height": 415,
     "spacing": [
       10,
       10,
@@ -500,7 +536,7 @@
       }
     },
     "renderTo": "container-6011",
-    "spacingBottom": 40
+    "spacingBottom": 30
   },
   "plotOptions": {
     "series": {
@@ -594,9 +630,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik\u003Cbr\u002F\u003EZuletzt geändert: 2017-12-19"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
   },
   "legend": {
     "symbolRadius": 0,
