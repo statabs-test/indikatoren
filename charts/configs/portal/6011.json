@@ -211,7 +211,7 @@
           2856
         ]
       ],
-      "name": "Zuzugsort: Schweizer Agglo BS"
+      "name": "Zuzugsort: Schweizer Agglo. BS"
     },
     {
       "color": "#007A2F",
@@ -423,7 +423,7 @@
           -4069
         ]
       ],
-      "name": "Wegzugsort: Schweizer Agglo BS"
+      "name": "Wegzugsort: Schweizer Agglo. BS"
     },
     {
       "color": "#000000",
@@ -485,7 +485,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
+    "height": 415,
     "spacing": [
       10,
       10,
@@ -536,7 +536,7 @@
       }
     },
     "renderTo": "container-6011",
-    "spacingBottom": 40
+    "spacingBottom": 30
   },
   "plotOptions": {
     "series": {
@@ -567,7 +567,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "xAxis": {
@@ -630,9 +630,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-27"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
   },
   "legend": {
     "symbolRadius": 0,
