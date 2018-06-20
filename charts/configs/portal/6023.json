@@ -112,7 +112,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -140,7 +140,7 @@
           }
     },
     "renderTo": "container-6023",
-    "spacingBottom": 30
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -171,7 +171,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, nach Zuzugs- und Wegzugsland, 2017",
+    "text": "nach Zuzugs- und Wegzugsland, Basel-Stadt, 2017",
     "align": "left"
   },
   "yAxis": {
@@ -210,9 +210,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik\u003Cbr\u002F\u003EZuletzt geändert: 2018-6-20"
   },
   "legend": {
     "symbolRadius": 0,
