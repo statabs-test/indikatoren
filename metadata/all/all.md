@@ -799,6 +799,8 @@ id | visible | visibleInPortal | indikatorenset
 6757 | true | true | Wohnviertel
 6758 | true | true | Wohnviertel
 6759 | true | true | Wohnviertel
+6771 | true | false | Wanderungen (Print)
+6774 | true | false | Wanderungen (Print)
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

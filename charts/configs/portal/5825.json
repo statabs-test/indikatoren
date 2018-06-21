@@ -4202,15 +4202,6 @@
 							$(divIdString + ' .pieLegendHtmlText').css('color', 'black');
 						}
 					});
-				},
-    "removeDoubleLegendItems": function (id){
-					removeHalfOf('#container-'+id + ' div.highcharts-legend-item');
-					removeHalfOf('#container-'+id + 'g.highcharts-legend-item');
-
-					function removeHalfOf(selector){
-						var items = $(selector);
-						items.slice(items.length / 2).remove();
-					}
 				}
   },
   "exporting": {

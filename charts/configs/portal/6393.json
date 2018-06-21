@@ -4274,9 +4274,6 @@
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
-					
-					//remove double legend items: workaround Highcharts 6.1 bug
-					fn.removeDoubleLegendItems(6393);										
 	            }
     },
     "renderTo": "container-6393"
@@ -4740,15 +4737,6 @@
 							$(divIdString + ' .pieLegendHtmlText').css('color', 'black');
 						}
 					});
-				},
-    "removeDoubleLegendItems": function (id){
-					removeHalfOf('#container-'+id + ' div.highcharts-legend-item');
-					removeHalfOf('#container-'+id + 'g.highcharts-legend-item');
-
-					function removeHalfOf(selector){
-						var items = $(selector);
-						items.slice(items.length / 2).remove();
-					}
 				}
   },
   "exporting": {

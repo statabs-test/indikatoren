@@ -15,5 +15,6 @@ var indikatorensetNames = [
 	"PDF_Karten_cont",
 	"PDF_Karten_cat",
 	"Tourismus",
+	"Wanderungen (Print)",
 	"Test"
 ];
