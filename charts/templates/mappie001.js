@@ -573,17 +573,6 @@
 						}
 					});
 				},
-				
-				//temporary workaround for Highcharts 6.1 bug that draws legend items twice, see https://forum.highcharts.com/highmaps-usage-f14/double-coloraxis-t40713/
-				removeDoubleLegendItems: function(id){
-					removeHalfOf('#container-'+id + ' div.highcharts-legend-item');
-					removeHalfOf('#container-'+id + 'g.highcharts-legend-item');
-
-					function removeHalfOf(selector){
-						var items = $(selector);
-						items.slice(items.length / 2).remove();
-					}
-				}						
 		}
     };
     }()
