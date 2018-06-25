@@ -3332,87 +3332,87 @@
       "visible": false,
       "data": [
         [
-          1,
+          "Altstadt Grossbasel",
           499
         ],
         [
-          2,
+          "Vorstädte",
           541
         ],
         [
-          3,
+          "Am Ring",
           1176
         ],
         [
-          4,
+          "Breite",
           667
         ],
         [
-          5,
+          "St. Alban",
           1189
         ],
         [
-          6,
+          "Gundeldingen",
           1430
         ],
         [
-          7,
+          "Bruderholz",
           2077
         ],
         [
-          8,
+          "Bachletten",
           2503
         ],
         [
-          9,
+          "Gotthelf",
           980
         ],
         [
-          10,
+          "Iselin",
           1454
         ],
         [
-          11,
+          "St. Johann",
           1517
         ],
         [
-          12,
+          "Altstadt Kleinbasel",
           281
         ],
         [
-          13,
+          "Clara",
           262
         ],
         [
-          14,
+          "Wettstein",
           704
         ],
         [
-          15,
+          "Hirzbrunnen",
           1582
         ],
         [
-          16,
+          "Rosental",
           301
         ],
         [
-          17,
+          "Matthäus",
           1141
         ],
         [
-          18,
+          "Klybeck",
           435
         ],
         [
-          19,
+          "Kleinhüningen",
           167
         ],
         [
-          20,
+          "Riehen",
           4137
         ],
         [
-          30,
+          "Bettingen",
           311
         ]
       ],
@@ -3711,8 +3711,8 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 	                //Add manually drawn legend
-	        		fn.addLegendTitle(chart, "Gebäude pro <br/>  Hektare", 245, 210);
-	                fn.addLegendTitle(chart, "Anzahl Gebäude", 365, 210);
+	        		//fn.addLegendTitle(chart, "Gebäude pro <br/>  Hektare", 245, 210);
+	                //fn.addLegendTitle(chart, "Anzahl Gebäude", 365, 210);
 	                
 	            	fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 385, 255, undefined, true);

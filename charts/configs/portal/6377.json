@@ -3334,87 +3334,87 @@
       "colorAxis": false,
       "data": [
         [
-          1,
+          "Altstadt Grossbasel",
           499
         ],
         [
-          2,
+          "Vorstädte",
           541
         ],
         [
-          3,
+          "Am Ring",
           1176
         ],
         [
-          4,
+          "Breite",
           667
         ],
         [
-          5,
+          "St. Alban",
           1189
         ],
         [
-          6,
+          "Gundeldingen",
           1430
         ],
         [
-          7,
+          "Bruderholz",
           2077
         ],
         [
-          8,
+          "Bachletten",
           2503
         ],
         [
-          9,
+          "Gotthelf",
           980
         ],
         [
-          10,
+          "Iselin",
           1454
         ],
         [
-          11,
+          "St. Johann",
           1517
         ],
         [
-          12,
+          "Altstadt Kleinbasel",
           281
         ],
         [
-          13,
+          "Clara",
           262
         ],
         [
-          14,
+          "Wettstein",
           704
         ],
         [
-          15,
+          "Hirzbrunnen",
           1582
         ],
         [
-          16,
+          "Rosental",
           301
         ],
         [
-          17,
+          "Matthäus",
           1141
         ],
         [
-          18,
+          "Klybeck",
           435
         ],
         [
-          19,
+          "Kleinhüningen",
           167
         ],
         [
-          20,
+          "Riehen",
           4137
         ],
         [
-          30,
+          "Bettingen",
           311
         ]
       ],
@@ -3663,7 +3663,7 @@
 					var pieSizeSeries = chart.series[1];
 					
 					//pie diameters in px
-					var maxPieDiameter = 25;
+					var maxPieDiameter = 25
 
 					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
 					//define number format in zoomed legend labels

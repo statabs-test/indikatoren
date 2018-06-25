@@ -87,7 +87,7 @@
 					var pieSizeSeries = chart.series[1];
 					
 					//pie diameters in px
-					var maxPieDiameter = 25;
+					var maxPieDiameter = 25
 
 					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
 					//define number format in zoomed legend labels

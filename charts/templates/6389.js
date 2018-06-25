@@ -110,13 +110,13 @@
 						{
 							name: "<span style='color: rgba(0,0,0,0)'>500</span> < <span style='color: rgba(0,0,0,0)'>0</span> 500",
 							from: 0,
-							to: 499, 
+							to: 499.9, 
 							diameter: 2
 						},
 						{
 							name: "500 − <span style='color: rgba(0,0,0,0)'>0</span> 999",
 							from: 500,
-							to: 999,
+							to: 999.9,
 							diameter: 8
 						},
 						{

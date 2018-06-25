@@ -140,6 +140,7 @@
 					//fn.addLegendSquare(chart, 270, 275, 10, '#FABD24');
 					//fn.addLegendLabel(chart, 'Abnahme', 300, 270);
 					fn.addLegendTitle(chart, 'Anteil 64-Jähriger in %', 265, 300);
+					fn.addLegendLabelbold(chart, 'Gebäude pro Hektare', 265, 220);
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
