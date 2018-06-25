@@ -624,30 +624,29 @@ id | visible | visibleInPortal | indikatorenset
 6370 | true | false | Legislaturplan (Print)
 6371 | true | false | Legislaturplan (Print)
 6372 | true | false | Legislaturplan (Print)
-6373 | true | false | PDF_Karten_cont
-6374 | true | false | PDF_Karten_cont
-6375 | true | false | PDF_Karten_cont
-6376 | true | false | PDF_Karten_cont
-6377 | true | false | PDF_Karten_cont
-6378 | true | false | PDF_Karten_cont
-6379 | true | false | PDF_Karten_cont
-6380 | true | false | PDF_Karten_cont
-6381 | true | false | PDF_Karten_cont
-6382 | true | false | PDF_Karten_cont
-6383 | true | false | PDF_Karten_cont
-6384 | true | false | PDF_Karten_cont
-6385 | true | false | PDF_Karten_cat
-6386 | true | false | PDF_Karten_cat
-6387 | true | false | PDF_Karten_cat
-6388 | true | false | PDF_Karten_cat
-6389 | true | false | PDF_Karten_cat
-6390 | true | false | PDF_Karten_cat
-6391 | true | false | PDF_Karten_cat
-6392 | true | false | PDF_Karten_cat
-6393 | true | false | PDF_Karten_cat
-6394 | true | false | PDF_Karten_cat
-6395 | true | false | PDF_Karten_cat
-6396 | true | false | PDF_Karten_cat
+6373 | true | true | GIS PDF kontinuierlich
+6374 | true | true | GIS PDF kontinuierlich
+6375 | true | true | GIS PDF kontinuierlich
+6376 | true | true | GIS PDF kontinuierlich
+6377 | true | true | GIS PDF kontinuierlich
+6378 | true | true | GIS PDF kontinuierlich
+6379 | true | true | GIS PDF kontinuierlich
+6380 | true | true | GIS PDF kontinuierlich
+6381 | true | true | GIS PDF kontinuierlich
+6382 | true | true | GIS PDF kontinuierlich
+6383 | true | true | GIS PDF kontinuierlich
+6384 | true | true | GIS PDF kontinuierlich
+6385 | true | false | GIS PDF kategoriell
+6386 | true | false | GIS PDF kategoriell
+6387 | true | false | GIS PDF kategoriell
+6388 | true | false | GIS PDF kategoriell
+6389 | true | false | GIS PDF kategoriell
+6390 | true | false | GIS PDF kategoriell
+6391 | true | false | GIS PDF kategoriell
+6392 | true | false | GIS PDF kategoriell
+6394 | true | false | GIS PDF kategoriell
+6395 | true | false | GIS PDF kategoriell
+6396 | true | false | GIS PDF kategoriell
 6398 | true | true | Integration
 6399 | true | true | Integration
 6400 | true | true | Integration
@@ -801,6 +800,7 @@ id | visible | visibleInPortal | indikatorenset
 6759 | true | true | Wohnviertel
 6771 | true | false | Wanderungen (Print)
 6774 | true | false | Wanderungen (Print)
+6778 | true | false | GIS PDF kategoriell
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

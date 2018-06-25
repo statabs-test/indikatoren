@@ -3330,6 +3330,8 @@
     },
     {
       "visible": false,
+      "showInLegend": false,
+      "colorAxis": false,
       "data": [
         [
           "Altstadt Grossbasel",
@@ -3754,7 +3756,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik;\u003Cbr\u002F\u003EKartengrundlate: Geodaten Kanton Basel-Stadt"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt"
   },
   "colorAxis": {
     "min": 0,

@@ -12,8 +12,8 @@ var indikatorensetNames = [
 	"Integration",
 	"Richtplan (Print)",
 	"Legislaturplan (Print)",
-	"PDF_Karten_cont",
-	"PDF_Karten_cat",
+	"GIS PDF kontinuierlich",
+	"GIS PDF kategoriell",
 	"Tourismus",
 	"Wanderungen (Print)",
 	"Test"

@@ -3244,55 +3244,55 @@
       "data": [
         [
           1,
-          63.92712551
+          63.927125506
         ],
         [
           2,
-          40.61232766
+          40.612327656
         ],
         [
           3,
-          14.20785567
+          14.207855666
         ],
         [
           4,
-          4.272151899
+          4.2721518987
         ],
         [
           5,
-          16.82097351
+          16.820973508
         ],
         [
           6,
-          8.303287381
+          8.3032873807
         ],
         [
           7,
-          5.074462217
+          5.0744622173
         ],
         [
           8,
-          6.666175061
+          6.6661750608
         ],
         [
           9,
-          7.148077766
+          7.1480777664
         ],
         [
           10,
-          4.098360656
+          4.0983606557
         ],
         [
           11,
-          6.278575226
+          6.2785752259
         ],
         [
           12,
-          22.09445585
+          22.094455852
         ],
         [
           13,
-          10.15140233
+          10.151402333
         ],
         [
           14,
@@ -3300,11 +3300,11 @@
         ],
         [
           15,
-          3.520657486
+          3.5206574856
         ],
         [
           16,
-          4.859873643
+          4.8598736433
         ],
         [
           17,
@@ -3312,24 +3312,26 @@
         ],
         [
           18,
-          4.779563247
+          4.7795632468
         ],
         [
           19,
-          11.48275862
+          11.482758621
         ],
         [
           20,
-          4.815755427
+          4.8157554267
         ],
         [
           30,
-          4.401993355
+          4.4019933555
         ]
       ]
     },
     {
       "visible": false,
+      "showInLegend": false,
+      "colorAxis": false,
       "data": [
         [
           "Altstadt Grossbasel",
@@ -3753,7 +3755,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EKartengrundlate: Geodaten Kanton Basel-Stadt"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt"
   },
   "colorAxis": {
     "min": 0,

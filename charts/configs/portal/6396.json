@@ -3244,7 +3244,7 @@
       "data": [
         [
           1,
-          584.7368421
+          584.73684211
         ],
         [
           2,
@@ -3252,11 +3252,11 @@
         ],
         [
           3,
-          132.1462131
+          132.14621312
         ],
         [
           4,
-          17.50678119
+          17.506781193
         ],
         [
           5,
@@ -3264,23 +3264,23 @@
         ],
         [
           6,
-          74.88865323
+          74.888653234
         ],
         [
           7,
-          19.84555985
+          19.845559846
         ],
         [
           8,
-          30.101025
+          30.101024998
         ],
         [
           9,
-          38.50314282
+          38.503142815
         ],
         [
           10,
-          21.07642237
+          21.076422372
         ],
         [
           11,
@@ -3288,15 +3288,15 @@
         ],
         [
           12,
-          217.9055441
+          217.90554415
         ],
         [
           13,
-          87.68925292
+          87.689252916
         ],
         [
           14,
-          215.980025
+          215.98002497
         ],
         [
           15,
@@ -3304,11 +3304,11 @@
         ],
         [
           16,
-          101.1825693
+          101.18256925
         ],
         [
           17,
-          24.41256493
+          24.412564927
         ],
         [
           18,
@@ -3320,11 +3320,11 @@
         ],
         [
           20,
-          23.97335761
+          23.973357612
         ],
         [
           30,
-          43.60465116
+          43.604651163
         ]
       ]
     },
@@ -3765,7 +3765,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EKartengrundlate: Geodaten Kanton Basel-Stadt"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt"
   },
   "colorAxis": {
     "min": 0,
