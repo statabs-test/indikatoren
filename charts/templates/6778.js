@@ -26,28 +26,28 @@
          colorAxis: {
             dataClassColor: 'category',
                    dataClasses: [{
-                to:0.34999,
+                to:0.2499,
                 color: '#D7E8D2',
-                name:  "<span style='color: rgba(0,0,0,0)'>0,000</span> < 0,349"
+                name:  "<span style='color: rgba(0,0,0,0)'>0,000</span> < 0,250"
             }, {
-                from: 0.35,
-                to: 0.449,
+                from: 0.25,
+                to: 0.3199,
                 color: '#73B97C',
-                name: "0,350 −  0,449"
+                name: "0,350 −  0,319"
             }, {
-                from: 0.45,
-                to: 0.699,
+                from: 0.32,
+                to: 0.3799,
                  color: '#68AB2B',
-                 name: "0,450 − 0,699"
+                 name: "0,320 − 0,379"
             },{
-                from: 0.7,
-                to: 0.799,
+                from: 0.38,
+                to: 0.449,
                  color: '#007A2F',
-                 name: "0,700 − 0,799"
+                 name: "0,380 − 0,449"
             },{
-                from: 0.8,
+                from: 0.45,
                 color: '#0A3B19',
-                name:  "<span style='color: rgba(0,0,0,0)'>0,000</span> ≥ 0,800"
+                name:  "<span style='color: rgba(0,0,0,0)'>0,000</span> ≥ 0,450"
             }], 
         },
         "data": {

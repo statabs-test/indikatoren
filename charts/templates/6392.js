@@ -26,14 +26,14 @@
          colorAxis: {
             dataClassColor: 'category',
                    dataClasses: [{
-                to:1.999,
+                to:2.599,
                 color: '#D3E2E4',
-                name:  "<span style='color: rgba(0,0,0,0)'>0,0</span> < 2,0"
+                name:  "<span style='color: rgba(0,0,0,0)'>0,0</span> < 2,6"
             }, {
-                from: 2.0,
+                from: 2.6,
                 to: 3.9,
                 color: '#A8C3CA',
-                name: "2,0 − 3,9"
+                name: "2,6 − 3,9"
             }, {
                 from: 4.0,
                 to: 5.9,
@@ -41,13 +41,13 @@
                  name: "4,0 − 5,9"
             },{
                 from: 6.0,
-                to: 7.999,
+                to: 8.999,
                  color: '#246370',
-                 name: "6,0 − 7,9"
+                 name: "6,0 − 8,9"
             },{
-                from: 8.0,
+                from: 9.0,
                 color: '#083038',
-                name:  "<span style='color: rgba(0,0,0,0)'>0,0</span> ≥ 8,0"
+                name:  "<span style='color: rgba(0,0,0,0)'>0,0</span> ≥ 9,0"
             }], 
         },
         "data": {
@@ -108,14 +108,14 @@
 					var pieSizeCatConfig = 
 					[
 						{
-							name: "<span style='color: rgba(0,0,0,0)'>000</span> < 250",
+							name: "<span style='color: rgba(0,0,0,0)'>000</span> < 300",
 							from: 0,
-							to: 250, 
+							to: 300, 
 							diameter: 2
 						},
 						{
-							name: ' 250 − 499',
-							from: 250,
+							name: ' 300 − 499',
+							from: 300,
 							to: 499,
 							diameter: 8
 						},

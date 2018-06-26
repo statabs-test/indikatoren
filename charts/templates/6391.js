@@ -25,26 +25,26 @@
         	dataClasses: [{
                 to:0.34999,
                 color: '#D7E8D2',
-                name:  "<span style='color: rgba(0,0,0,0)'>0,349</span> < 0,349"
+                name:  "<span style='color: rgba(0,0,0,0)'>0,34</span> < 0,35"
             }, {
                 from: 0.35,
-                to: 0.449,
+                to: 0.399,
                 color: '#73B97C',
-                name: "0,350 −  0,449"
+                name: "0,35 −  0,39"
             }, {
-                from: 0.45,
-                to: 0.699,
+                from: 0.40,
+                to: 0.599,
                  color: '#68AB2B',
-                 name: "0,450 − 0,699"
+                 name: "0,40 − 0,59"
             },{
-                from: 0.7,
+                from: 0.6,
                 to: 0.799,
                  color: '#007A2F',
-                 name: "0,700 − 0,799"
+                 name: "0,60 − 0,79"
             },{
                 from: 0.8,
                 color: '#0A3B19',
-                name:  "<span style='color: rgba(0,0,0,0)'>0,800</span> ≥ 0,800"
+                name:  "<span style='color: rgba(0,0,0,0)'>0,80</span> ≥ 0,80"
             }], 
         },
         "data": {
@@ -111,14 +111,14 @@
 							diameter: 2
 						},
 						{
-							name: ' 15,0 − 29,9',
+							name: ' 15,0 − 19,9',
 							from: 15,
-							to: 29.999,
+							to: 19.999,
 							diameter: 8
 						},
 						{
-							name: "<span style='color: rgba(0,0,0,0)'>30,0</span> ≥  30,0",
-							from: 30,							
+							name: "<span style='color: rgba(0,0,0,0)'>30,0</span> ≥  20,0",
+							from: 20,							
 							to: 1000000000,
 							diameter: 16
 						}
