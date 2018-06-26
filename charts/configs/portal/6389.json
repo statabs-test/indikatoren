@@ -3669,13 +3669,13 @@
 						{
 							name: "<span style='color: rgba(0,0,0,0)'>500</span> < <span style='color: rgba(0,0,0,0)'>0</span> 500",
 							from: 0,
-							to: 499, 
+							to: 499.9, 
 							diameter: 2
 						},
 						{
 							name: "500 − <span style='color: rgba(0,0,0,0)'>0</span> 999",
 							from: 500,
-							to: 999,
+							to: 999.9,
 							diameter: 8
 						},
 						{
@@ -3711,8 +3711,8 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 	                //Add manually drawn legend
-	        		//fn.addLegendTitle(chart, "Gebäude pro <br/>  Hektare", 245, 210);
-	                //fn.addLegendTitle(chart, "Anzahl Gebäude", 365, 210);
+	        		fn.addLegendTitle(chart, "Gebäude pro <br/>  Hektare", 245, 210);
+	                fn.addLegendTitle(chart, "Anzahl Gebäude", 365, 210);
 	                
 	            	fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 385, 255, undefined, true);

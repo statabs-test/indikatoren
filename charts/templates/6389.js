@@ -26,28 +26,28 @@
          colorAxis: {
             dataClassColor: 'category',
                    dataClasses: [{
-                to:4.999,
+                to:3.999,
                 color: '#D7E8D2',
-                name:  "<span style='color: rgba(0,0,0,0)'>12,5</span> < <span style='color: rgba(0,0,0,0)'>0</span>5,0"
+                name:  "<span style='color: rgba(0,0,0,0)'>12,5</span> < <span style='color: rgba(0,0,0,0)'>0</span>4,0"
             }, {
-                from: 5,
-                to: 7.4999,
+                from: 4,
+                to: 5.9999,
                 color: '#73B97C',
-                name: "<span style='color: rgba(0,0,0,0)'>0</span>5,0 − <span style='color: rgba(0,0,0,0)'>0</span>7,4"
+                name: "<span style='color: rgba(0,0,0,0)'>0</span>4,0 − <span style='color: rgba(0,0,0,0)'>0</span>5,9"
             }, {
-                from: 7.5,
+                from: 6.0,
                 to: 9.999,
                  color: '#68AB2B',
-                 name: "<span style='color: rgba(0,0,0,0)'>0</span>7,5 − <span style='color: rgba(0,0,0,0)'>0</span>9,9"
+                 name: "<span style='color: rgba(0,0,0,0)'>0</span>6,0 − <span style='color: rgba(0,0,0,0)'>0</span>9,9"
             },{
                 from: 10,
-                to: 12.499,
+                to: 12.99,
                  color: '#007A2F',
-                 name: "10,0 − 12,4"
+                 name: "10,0 − 12,9"
             },{
-                from: 12.5,
+                from: 13.0,
                 color: '#0A3B19',
-                name:  "<span style='color: rgba(0,0,0,0)'>12,5</span> ≥ 15,5"
+                name:  "<span style='color: rgba(0,0,0,0)'>12,5</span> ≥ 13,0"
             }], 
         },
         "data": {
@@ -114,14 +114,14 @@
 							diameter: 2
 						},
 						{
-							name: "500 − <span style='color: rgba(0,0,0,0)'>0</span> 999",
+							name: "500 − <span style='color: rgba(0,0,0,0)'>0</span> 1 199",
 							from: 500,
-							to: 999.9,
+							to: 1199.9,
 							diameter: 8
 						},
 						{
-							name: "<span style='color: rgba(0,0,0,0)'>500</span> ≥  1 000",
-							from: 1000,							
+							name: "<span style='color: rgba(0,0,0,0)'>500</span> ≥  1 200",
+							from: 1200,							
 							to: 1000000000,
 							diameter: 16
 						}
