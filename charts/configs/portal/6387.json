@@ -3667,20 +3667,20 @@
 					var pieSizeCatConfig = 
 					[
 						{
-							name: "<span style='color: rgba(0,0,0,0)'>1 800</span> <  800",
+							name: "<span style='color: rgba(0,0,0,0)'>1 899</span> <  800",
 							from: 0,
 							to: 799, 
 							diameter: 2
 						},
 						{
-							name: ' 800 − 1 599',
+							name: ' 800 − 1 899',
 							from: 800,
-							to: 1599,
+							to: 1899,
 							diameter: 8
 						},
 						{
-							name: "<span style='color: rgba(0,0,0,0)'>600</span> ≥  1 600",
-							from: 1600,							
+							name: "<span style='color: rgba(0,0,0,0)'>600</span> ≥  1 900",
+							from: 1900,							
 							to: 1000000000,
 							diameter: 16
 						}
@@ -3750,7 +3750,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2016",
+    "text": "Stand: 2017",
     "align": "left"
   },
   "credits": {
@@ -3788,30 +3788,30 @@
       {
         "to": 13,
         "color": "#ECE1D0",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E13,0\u003C\u002Fspan\u003E \u003C 13,0"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E13,00\u003C\u002Fspan\u003E \u003C 13,00"
       },
       {
         "from": 13,
         "to": 14.9,
         "color": "#C4AB91",
-        "name": "13,0 − 14,9"
+        "name": "13,00 − 14,90"
       },
       {
         "from": 15,
         "to": 16.9,
         "color": "#9E7C59",
-        "name": "15,0 − 16,9"
+        "name": "15,00 − 16,90"
       },
       {
         "from": 17,
-        "to": 19.9,
+        "to": 19.49,
         "color": "#67401E",
-        "name": "17,0 − 19,9"
+        "name": "17,00 − 19,49"
       },
       {
-        "from": 20,
+        "from": 19.5,
         "color": "#3A2012",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E20,0\u003C\u002Fspan\u003E ≥ 20.0"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E20,00\u003C\u002Fspan\u003E ≥ 19.50"
       }
     ]
   },
@@ -3844,7 +3844,7 @@
     },
     "useHTML": true,
     "layout": "vertical",
-    "x": -140,
+    "x": -125,
     "y": -20,
     "itemMarginBottom": 2,
     "symbolRadius": 0

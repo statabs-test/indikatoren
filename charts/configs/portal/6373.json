@@ -3568,7 +3568,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2016",
+    "text": "Stand: 2017",
     "align": "left"
   },
   "credits": {
@@ -3638,7 +3638,7 @@
                 else {
                     //Wohnviertel
                     return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-                        this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value),0) + '</b><br/>';
+                        this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value),1) + '</b><br/>';
                 }
             }
   },

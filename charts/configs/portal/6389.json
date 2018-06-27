@@ -3667,20 +3667,20 @@
 					var pieSizeCatConfig = 
 					[
 						{
-							name: "<span style='color: rgba(0,0,0,0)'>500</span> < <span style='color: rgba(0,0,0,0)'>0</span> 500",
+							name: "<span style='color: rgba(0,0,0,0)'>500</span> < <span style='color: rgba(0,0,0,0)'>1</span> 500",
 							from: 0,
 							to: 499.9, 
 							diameter: 2
 						},
 						{
-							name: "500 − <span style='color: rgba(0,0,0,0)'>0</span> 999",
+							name: "500 − 1 199",
 							from: 500,
-							to: 999.9,
+							to: 1199.9,
 							diameter: 8
 						},
 						{
-							name: "<span style='color: rgba(0,0,0,0)'>500</span> ≥  1 000",
-							from: 1000,							
+							name: "<span style='color: rgba(0,0,0,0)'>500</span> ≥  1 200",
+							from: 1200,							
 							to: 1000000000,
 							diameter: 16
 						}
@@ -3749,7 +3749,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2016",
+    "text": "Stand: 2017",
     "align": "left"
   },
   "credits": {
@@ -3785,32 +3785,32 @@
     "dataClassColor": "category",
     "dataClasses": [
       {
-        "to": 4.999,
+        "to": 3.999,
         "color": "#D7E8D2",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E12,5\u003C\u002Fspan\u003E \u003C \u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E5,0"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E12,5\u003C\u002Fspan\u003E \u003C \u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E4,0"
       },
       {
-        "from": 5,
-        "to": 7.4999,
+        "from": 4,
+        "to": 5.9999,
         "color": "#73B97C",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E5,0 − \u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E7,4"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E4,0 − \u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E5,9"
       },
       {
-        "from": 7.5,
+        "from": 6,
         "to": 9.999,
         "color": "#68AB2B",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E7,5 − \u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E9,9"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E6,0 − \u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E9,9"
       },
       {
         "from": 10,
-        "to": 12.499,
+        "to": 12.99,
         "color": "#007A2F",
-        "name": "10,0 − 12,4"
+        "name": "10,0 − 12,9"
       },
       {
-        "from": 12.5,
+        "from": 13,
         "color": "#0A3B19",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E12,5\u003C\u002Fspan\u003E ≥ 15,5"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E12,5\u003C\u002Fspan\u003E ≥ 13,0"
       }
     ]
   },

@@ -3244,87 +3244,87 @@
       "data": [
         [
           1,
-          1.924587588
+          1.7
         ],
         [
           2,
-          2.927120669
+          3.6
         ],
         [
           3,
-          3.586733743
+          3.7
         ],
         [
           4,
-          5.740823635
+          5.9
         ],
         [
           5,
-          2.973568282
+          4
         ],
         [
           6,
-          7.213600975
+          7.1
         ],
         [
           7,
-          1.552997394
+          1.8
         ],
         [
           8,
-          2.60689757
+          2.5
         ],
         [
           9,
-          4.402515723
+          4.6
         ],
         [
           10,
-          9.411341566
+          9.7
         ],
         [
           11,
-          8.748267406
+          8.9
         ],
         [
           12,
-          7.211538462
+          8
         ],
         [
           13,
-          7.97912006
+          8.4
         ],
         [
           14,
-          4.780453258
+          3.6
         ],
         [
           15,
-          4.74539545
+          4.9
         ],
         [
           16,
-          10.51587302
+          11.2
         ],
         [
           17,
-          12.00878845
+          11.7
         ],
         [
           18,
-          13.62121633
+          13.9
         ],
         [
           19,
-          14.31040442
+          13.3
         ],
         [
           20,
-          3.547450121
+          3.7
         ],
         [
           30,
-          1.260504202
+          1.6
         ]
       ]
     },
@@ -3335,87 +3335,87 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          49
+          43
         ],
         [
           "Vorstädte",
-          147
+          182
         ],
         [
           "Am Ring",
-          385
+          399
         ],
         [
           "Breite",
-          513
+          528
         ],
         [
           "St. Alban",
-          324
+          446
         ],
         [
           "Gundeldingen",
-          1362
+          1345
         ],
         [
           "Bruderholz",
-          143
+          166
         ],
         [
           "Bachletten",
-          353
+          334
         ],
         [
           "Gotthelf",
-          301
+          320
         ],
         [
           "Iselin",
-          1570
+          1636
         ],
         [
           "St. Johann",
-          1641
+          1660
         ],
         [
           "Altstadt Kleinbasel",
-          180
+          197
         ],
         [
           "Clara",
-          321
+          345
         ],
         [
           "Wettstein",
-          270
+          199
         ],
         [
           "Hirzbrunnen",
-          438
+          454
         ],
         [
           "Rosental",
-          689
+          738
         ],
         [
           "Matthäus",
-          1913
+          1860
         ],
         [
           "Klybeck",
-          981
+          1012
         ],
         [
           "Kleinhüningen",
-          414
+          379
         ],
         [
           "Riehen",
-          745
+          788
         ],
         [
           "Bettingen",
-          15
+          17
         ]
       ],
       "name": "Anzahl Sozialhilfebezüger"
@@ -3703,7 +3703,7 @@
                 	//Add manually drawn legend		
                 	fn.addLegendRectangle(chart, 250, 220, 230, 77, 'rgba(222, 222, 222, 0.5)', 'pieLegend');
                 	fn.addLegendRectangle(chart, 250, 300, 230, 60, 'rgba(222, 222, 222, 0.5)');
-	                fn.addLegendTitle(chart, pieSizeSeries.name + "", 265, 220, 'pieLegend pieLegendHideOnZoom');
+	                //fn.addLegendTitle(chart, pieSizeSeries.name + "", 265, 220, 'pieLegend pieLegendHideOnZoom');
 
 	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#7F5F1A', 'pieLegendStayeOnZoom');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 300, 245, 'pieLegendRecalculateOnZoom', false, minValueInLegend);
@@ -3715,6 +3715,7 @@
 					//fn.addLegendLabel(chart, 'Zunahme', 300, 245);
 					//fn.addLegendSquare(chart, 270, 275, 10, '#FABD24');
 					//fn.addLegendLabel(chart, 'Abnahme', 300, 270);
+					fn.addLegendLabelbold(chart, 'Anzahl Sozialhilfebezüger', 265, 220, 'pieLegendStayeOnZoom');
 					fn.addLegendTitle(chart, 'Sozialhilfequote in %', 265, 300);
 					
 					//make sure pies are hidden upon click onto pie legend
@@ -3740,7 +3741,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2016",
+    "text": "Stand: 2017",
     "align": "left"
   },
   "credits": {

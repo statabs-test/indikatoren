@@ -3238,7 +3238,7 @@
       "tooltip": {
         "pointFormatter": function (){
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),2) + '</b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value*100),1) + '</b><br/>';
 					}
       },
       "data": [
@@ -4295,7 +4295,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2016",
+    "text": "Stand: 2017",
     "align": "left"
   },
   "credits": {
@@ -4331,32 +4331,32 @@
     "dataClassColor": "category",
     "dataClasses": [
       {
-        "to": 0.34999,
+        "to": 0.2499,
         "color": "#D7E8D2",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0,000\u003C\u002Fspan\u003E \u003C 0,349"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0,000\u003C\u002Fspan\u003E \u003C 0,250"
       },
       {
-        "from": 0.35,
-        "to": 0.449,
+        "from": 0.25,
+        "to": 0.3199,
         "color": "#73B97C",
-        "name": "0,350 −  0,449"
+        "name": "0,350 −  0,319"
+      },
+      {
+        "from": 0.32,
+        "to": 0.3799,
+        "color": "#68AB2B",
+        "name": "0,320 − 0,379"
+      },
+      {
+        "from": 0.38,
+        "to": 0.449,
+        "color": "#007A2F",
+        "name": "0,380 − 0,449"
       },
       {
         "from": 0.45,
-        "to": 0.699,
-        "color": "#68AB2B",
-        "name": "0,450 − 0,699"
-      },
-      {
-        "from": 0.7,
-        "to": 0.799,
-        "color": "#007A2F",
-        "name": "0,700 − 0,799"
-      },
-      {
-        "from": 0.8,
         "color": "#0A3B19",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0,000\u003C\u002Fspan\u003E ≥ 0,800"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0,000\u003C\u002Fspan\u003E ≥ 0,450"
       }
     ]
   },
@@ -4714,15 +4714,25 @@
 							}
 						});
 						//toggle color
+						//toggle color
+						
+						var whiteTransp = 'rgba(255,255,255, 0)';
+						var grey = '#cccccc';
+						
 						if (pieLegendItems.attr('fill') == pieLegendItems.attr('fill_active')){
-							//set all to grey
-							pieLegendItems.attr('fill', '#cccccc');
-							//if stroke is present, toggle it
+							//set all to grey or the predefined color
+							
+							//if fill is present, toggle it
 							pieLegendItems.each(function(i, v){
-								//if stroke_active is present, set it to grey
-								if ($(this).attr('stroke_active')) {
-									$(this).attr('stroke', '#cccccc');
+								//if fill_active is present, set it to transparent white
+								if ($(this).attr('fill_active')) {
+									$(this).attr('fill', $(this).attr('fill_passive') || whiteTransp);
 								}
+								//if stroke_active is present, set it to transparent white
+								if ($(this).attr('stroke_active')) {
+									$(this).attr('stroke', whiteTransp);
+								}
+
 							});
 							//same for html text spans
 							$(divIdString + ' .pieLegendHtmlText').css('color', '#cccccc');

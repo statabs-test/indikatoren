@@ -3243,87 +3243,87 @@
       "data": [
         [
           1,
-          0.616016427
+          0.8
         ],
         [
           2,
-          0.547183351
+          1.2
         ],
         [
           3,
-          0.796359499
+          0.3
         ],
         [
           4,
-          0.395927602
+          0.4
         ],
         [
           5,
-          0.276586917
+          0.8
         ],
         [
           6,
-          1.177163037
+          0.5
         ],
         [
           7,
-          0.846859562
+          0.6
         ],
         [
           8,
-          0.302644154
+          0.3
         ],
         [
           9,
-          0.339393939
+          0.3
         ],
         [
           10,
-          0.383022774
+          0.4
         ],
         [
           11,
-          0.377358491
+          0.4
         ],
         [
           12,
-          0.712435233
+          0.7
         ],
         [
           13,
-          0.851788756
+          0.9
         ],
         [
           14,
-          0.429843414
+          0.4
         ],
         [
           15,
-          0.384204909
+          0.4
         ],
         [
           16,
-          0.661278472
+          0.5
         ],
         [
           17,
-          0.32059845
+          0.3
         ],
         [
           18,
-          0.464171744
+          0.3
         ],
         [
           19,
-          0.294217495
+          0.7
         ],
         [
           20,
-          0.740163615
+          0.7
         ],
         [
           30,
-          0.846859562
+          1.2
         ]
       ]
     },
@@ -3334,15 +3334,15 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          27
+          12
         ],
         [
           "Vorstädte",
-          61
+          40
         ],
         [
           "Am Ring",
-          49
+          19
         ],
         [
           "Breite",
@@ -3350,19 +3350,19 @@
         ],
         [
           "St. Alban",
-          20
+          49
         ],
         [
           "Gundeldingen",
-          40
+          61
         ],
         [
           "Bruderholz",
-          12
+          27
         ],
         [
           "Bachletten",
-          19
+          20
         ],
         [
           "Gotthelf",
@@ -3394,19 +3394,19 @@
         ],
         [
           "Rosental",
-          9
-        ],
-        [
-          "Matthäus",
-          12
-        ],
-        [
-          "Klybeck",
           16
         ],
         [
-          "Kleinhüningen",
+          "Matthäus",
           26
+        ],
+        [
+          "Klybeck",
+          12
+        ],
+        [
+          "Kleinhüningen",
+          9
         ],
         [
           "Riehen",
@@ -3703,7 +3703,7 @@
 	                
                 	//Add manually drawn legend	
                 	fn.addLegendRectangle(chart, 250, 220, 230, 77, 'rgba(222, 222, 222, 0.5)', 'pieLegend');
-	                fn.addLegendTitle(chart, pieSizeSeries.name, 265, 220, 'pieLegend pieLegendHideOnZoom');
+	                //fn.addLegendTitle(chart, pieSizeSeries.name, 265, 220, 'pieLegend pieLegendHideOnZoom');
 
 					fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#7F5F1A', 'pieLegendStayeOnZoom');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 300, 245, 'pieLegendRecalculateOnZoom', false, minValueInLegend);
@@ -3716,6 +3716,7 @@
 					//fn.addLegendSquare(chart, 270, 275, 10, '#FABD24');
 					//fn.addLegendLabel(chart, 'Abnahme', 300, 270);
 					fn.addLegendRectangle(chart, 250, 300, 230, 60, 'rgba(222, 222, 222, 0.5)');
+					fn.addLegendLabelbold(chart, 'Anzahl leerstehende Wohnungen', 265, 220, 'pieLegendStayeOnZoom');
 					fn.addLegendTitle(chart, 'Leerwohnungsquote in %', 265, 300);
 					
 					//make sure pies are hidden upon click onto pie legend

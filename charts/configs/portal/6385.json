@@ -3568,7 +3568,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2016",
+    "text": "Stand: 2017",
     "align": "left"
   },
   "credits": {
@@ -3604,32 +3604,32 @@
     "dataClassColor": "category",
     "dataClasses": [
       {
-        "to": 26.99,
+        "to": 29.99,
         "color": "#ECE1D0",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E27,0\u003C\u002Fspan\u003E \u003C 27,0"
-      },
-      {
-        "from": 27,
-        "to": 29.9,
-        "color": "#C4AB91",
-        "name": "27,0 − 29,9"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E30,0\u003C\u002Fspan\u003E \u003C 30,0"
       },
       {
         "from": 30,
-        "to": 32.9,
+        "to": 31.9999,
+        "color": "#C4AB91",
+        "name": "30,0 − 31,9"
+      },
+      {
+        "from": 32,
+        "to": 34.9,
         "color": "#9E7C59",
-        "name": "30,0 − 32,9"
+        "name": "32,0 − 34,9"
       },
       {
-        "from": 33,
-        "to": 35.9,
+        "from": 35,
+        "to": 39.9,
         "color": "#67401E",
-        "name": "33,0 − 35,9"
+        "name": "35,0 − 39,9"
       },
       {
-        "from": 36,
+        "from": 40,
         "color": "#3A2012",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E36,0\u003C\u002Fspan\u003E ≥ 36,0"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E40,0\u003C\u002Fspan\u003E ≥ 40,0"
       }
     ]
   },
@@ -3670,7 +3670,7 @@
                 else {
                     //Wohnviertel
                     return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-                        this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value),0) + '</b><br/>';
+                        this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value),1) + '</b><br/>';
                 }
             }
   },

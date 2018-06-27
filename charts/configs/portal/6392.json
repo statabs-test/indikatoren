@@ -3244,87 +3244,87 @@
       "data": [
         [
           1,
-          1.924587588
+          1.7
         ],
         [
           2,
-          2.927120669
+          3.6
         ],
         [
           3,
-          3.586733743
+          3.7
         ],
         [
           4,
-          5.740823635
+          5.9
         ],
         [
           5,
-          2.973568282
+          4
         ],
         [
           6,
-          7.213600975
+          7.1
         ],
         [
           7,
-          1.552997394
+          1.8
         ],
         [
           8,
-          2.60689757
+          2.5
         ],
         [
           9,
-          4.402515723
+          4.6
         ],
         [
           10,
-          9.411341566
+          9.7
         ],
         [
           11,
-          8.748267406
+          8.9
         ],
         [
           12,
-          7.211538462
+          8
         ],
         [
           13,
-          7.97912006
+          8.4
         ],
         [
           14,
-          4.780453258
+          3.6
         ],
         [
           15,
-          4.74539545
+          4.9
         ],
         [
           16,
-          10.51587302
+          11.2
         ],
         [
           17,
-          12.00878845
+          11.7
         ],
         [
           18,
-          13.62121633
+          13.9
         ],
         [
           19,
-          14.31040442
+          13.3
         ],
         [
           20,
-          3.547450121
+          3.7
         ],
         [
           30,
-          1.260504202
+          1.6
         ]
       ]
     },
@@ -3333,87 +3333,87 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          49
+          43
         ],
         [
           "Vorstädte",
-          147
+          182
         ],
         [
           "Am Ring",
-          385
+          399
         ],
         [
           "Breite",
-          513
+          528
         ],
         [
           "St. Alban",
-          324
+          446
         ],
         [
           "Gundeldingen",
-          1362
+          1345
         ],
         [
           "Bruderholz",
-          143
+          166
         ],
         [
           "Bachletten",
-          353
+          334
         ],
         [
           "Gotthelf",
-          301
+          320
         ],
         [
           "Iselin",
-          1570
+          1636
         ],
         [
           "St. Johann",
-          1641
+          1660
         ],
         [
           "Altstadt Kleinbasel",
-          180
+          197
         ],
         [
           "Clara",
-          321
+          345
         ],
         [
           "Wettstein",
-          270
+          199
         ],
         [
           "Hirzbrunnen",
-          438
+          454
         ],
         [
           "Rosental",
-          689
+          738
         ],
         [
           "Matthäus",
-          1913
+          1860
         ],
         [
           "Klybeck",
-          981
+          1012
         ],
         [
           "Kleinhüningen",
-          414
+          379
         ],
         [
           "Riehen",
-          745
+          788
         ],
         [
           "Bettingen",
-          15
+          17
         ]
       ],
       "name": "Anzahl Sozialhilfebezüger"
@@ -3667,14 +3667,14 @@
 					var pieSizeCatConfig = 
 					[
 						{
-							name: "<span style='color: rgba(0,0,0,0)'>000</span> < 250",
+							name: "<span style='color: rgba(0,0,0,0)'>000</span> < 300",
 							from: 0,
-							to: 250, 
+							to: 300, 
 							diameter: 2
 						},
 						{
-							name: ' 250 − 499',
-							from: 250,
+							name: ' 300 − 499',
+							from: 300,
 							to: 499,
 							diameter: 8
 						},
@@ -3750,7 +3750,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2016",
+    "text": "Stand: 2017",
     "align": "left"
   },
   "credits": {
@@ -3786,15 +3786,15 @@
     "dataClassColor": "category",
     "dataClasses": [
       {
-        "to": 1.999,
+        "to": 2.599,
         "color": "#D3E2E4",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0,0\u003C\u002Fspan\u003E \u003C 2,0"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0,0\u003C\u002Fspan\u003E \u003C 2,6"
       },
       {
-        "from": 2,
+        "from": 2.6,
         "to": 3.9,
         "color": "#A8C3CA",
-        "name": "2,0 − 3,9"
+        "name": "2,6 − 3,9"
       },
       {
         "from": 4,
@@ -3804,14 +3804,14 @@
       },
       {
         "from": 6,
-        "to": 7.999,
+        "to": 8.999,
         "color": "#246370",
-        "name": "6,0 − 7,9"
+        "name": "6,0 − 8,9"
       },
       {
-        "from": 8,
+        "from": 9,
         "color": "#083038",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0,0\u003C\u002Fspan\u003E ≥ 8,0"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0,0\u003C\u002Fspan\u003E ≥ 9,0"
       }
     ]
   },

@@ -1,7 +1,7 @@
 var indikatorensetData = [
 	{
 		"title": "Sesshaftigkeit nach Wohnviertel",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Sesshaftigkeit nach Wohnviertel",
@@ -71,7 +71,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Unter 20-Jährige nach Wohnviertel",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Unter 20-Jährige nach Wohnviertel",
@@ -106,7 +106,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Über 64-Jährige nach Wohnviertel",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Über 64-Jährige nach Wohnviertel",
@@ -141,7 +141,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Gebäudedichte nach Wohnviertel",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Gebäudedichte nach Wohnviertel",
@@ -176,7 +176,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wohnungsdichte nach Wohnviertel",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Wohnungsdichte nach Wohnviertel",
@@ -246,7 +246,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Sozialhilfe nach Wohnviertel",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Sozialhilfe nach Wohnviertel",
@@ -388,7 +388,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Ausländische Bevökerung nach Wohnviertel",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "I.01.1.06778",
 		"kuerzelKunde": "",
 		"description": "Ausländische Bevökerung nach Wohnviertel",
