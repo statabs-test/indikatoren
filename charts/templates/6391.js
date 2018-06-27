@@ -15,30 +15,25 @@
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "right",
-			"x": -120,
-			"y": -20,
+			"x": -132,
+			"y": -35,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
 		},
          colorAxis: {
             dataClassColor: 'category',
         	dataClasses: [{
-                to:0.34999,
+                to:0.39,
                 color: '#D7E8D2',
-                name:  "<span style='color: rgba(0,0,0,0)'>0,34</span> < 0,35"
+                name:  "<span style='color: rgba(0,0,0,0)'>0,34</span> < 0,40"
             }, {
-                from: 0.35,
-                to: 0.399,
+                from: 0.4,
+                to: 0.59,
                 color: '#73B97C',
-                name: "0,35 −  0,39"
-            }, {
-                from: 0.40,
-                to: 0.599,
-                 color: '#68AB2B',
-                 name: "0,40 − 0,59"
+                name: "0,40 −  0,59"
             },{
-                from: 0.6,
-                to: 0.799,
+                from: 0.60,
+                to: 0.79,
                  color: '#007A2F',
                  name: "0,60 − 0,79"
             },{

@@ -25,17 +25,17 @@
                    dataClasses: [{
                 to:4.49,
                 color: '#FFDA80',
-                name:  "<span style='color: rgba(0,0,0,0)'>0,0</span> < <span style='color: rgba(0,0,0,0)'1</span> 4,5"
+                name:  "<span style='color: rgba(0,0,0,0)'>0,0</span> <<span style='color: rgba(0,0,0,0)'>0</span> 4,5"
             }, {
                 from: 4.5,
                 to: 4.9,
                 color: '#FABD24',
-                name: "4,5 − 4,9"
+                name: "4,5 −<span style='color: rgba(0,0,0,0)'>0</span> 4,9"
             }, {
                 from: 5.0,
                 to: 6.9,
                  color: '#CD9C00',
-                 name: "8,0 − 6,9"
+                 name: "5,0 −<span style='color: rgba(0,0,0,0)'>0</span> 6,9"
             },{
                 from: 7.0,
                 to: 11.9,
@@ -44,7 +44,7 @@
             },{
                 from: 12.0,
                 color: '#45381D',
-                name:  "<span style='color: rgba(0,0,0,0)'>0,0</span> ≥ 12.0"
+                name:  "<span style='color: rgba(0,0,0,0)'>0,0</span> ≥ 12,0"
             }], 
         },
         "data": {
@@ -105,13 +105,13 @@
 					var pieSizeCatConfig = 
 					[
 						{
-							name: "<span style='color: rgba(0,0,0,0)'>000</span> < <span style='color: rgba(0,0,0,0)'>00</span> 400",
+							name: "<span style='color: rgba(0,0,0,0)'>000</span> <<span style='color: rgba(0,0,0,0)'>00</span>400",
 							from: 0,
 							to: 399, 
 							diameter: 2
 						},
 						{
-							name: "400 − <span style='color: rgba(0,0,0,0)'>0</span>999",
+							name: "400 −<span style='color: rgba(0,0,0,0)'>00</span>999",
 							from: 400,
 							to: 999,
 							diameter: 8

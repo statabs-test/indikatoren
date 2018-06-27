@@ -7,7 +7,7 @@ global geojson_wohnviertelEPSG2056
 		"legend": {
     		useHTML: true,
 			"title": {
-			"text": "Mittelwert pro Veranlagung <br/> in Fr.",
+			"text": "Median pro Veranlagung <br/> in Fr.",
 				style: {'fontWeight':' bold'} 
 			},
 			"layout": "vertical",
@@ -24,28 +24,28 @@ global geojson_wohnviertelEPSG2056
          colorAxis: {
             dataClassColor: 'category',
                    dataClasses: [{
-                to:129999,
+                to:4999.999,
                 color: '#E7CEE2',
-                name:  "<span style='color: rgba(0,0,0,0)'>000 000</span> < 130 000"
+                name:  "<span style='color: rgba(0,0,0,0)'>5 0000</span> < <span style='color: rgba(0,0,0,0)'>0</span>5 000"
             }, {
-                from: 130000,
-                to: 149999,
+                from: 5000,
+                to: 9999.999,
                 color: '#B375AB',
-                name: "130 000 − 149 999"
+                name: "<span style='color: rgba(0,0,0,0)'>0</span>5 000 − <span style='color: rgba(0,0,0,0)'>0</span>9 999"
             }, {
-                from: 150000,
-                to: 299999,
+                from: 10000,
+                to: 29999.999,
                  color: '#923F8D',
-                 name: "150 000 − 299 999"
+                 name: "10 000 − 29 999"
             },{
-                from: 300000,
-                to:999999,
+                from: 30000,
+                to:39999.999,
                  color: '#662673',
-                 name: "300 000 − 999 999"
+                 name: "30 000 − 39 999"
             },{
-                from: 999999,
+                from: 40000,
                 color: '#2E1435',
-                name:  "<span style='color: rgba(0,0,0,0)'>100 000</span> ≥ 100 000"
+                name:  "<span style='color: rgba(0,0,0,0)'>100 00</span> ≥ 40 000"
             }], 
 		},
         "data": {

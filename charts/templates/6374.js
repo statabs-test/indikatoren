@@ -15,7 +15,7 @@ global geojson_wohnviertelEPSG2056
 		},
 		"legend": {
 			"title": {
-				"text": "Mittelwert pro Veranlagung <br/> in 1 000 Fr.",
+				"text": "Median pro Veranlagung <br/> in 1 000 Fr.",
 					style: {'fontWeight':' bold'} 
 			}
 		},

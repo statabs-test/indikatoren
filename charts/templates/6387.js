@@ -15,7 +15,7 @@
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "right",
-			"x": -140,
+			"x": -125,
 			"y": -20,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
@@ -28,26 +28,26 @@
                    dataClasses: [{
                 to:13.00,
                 color: '#ECE1D0',
-                name:  "<span style='color: rgba(0,0,0,0)'>13,0</span> < 13,0"
+                name:  "<span style='color: rgba(0,0,0,0)'>13,00</span> < 13,00"
             }, {
                 from: 13.0,
                 to: 14.9,
                 color: '#C4AB91',
-                name: "13,0 − 14,9"
+                name: "13,00 − 14,90"
             }, {
                 from: 15.0,
                 to: 16.9,
                  color: '#9E7C59',
-                 name: "15,0 − 16,9"
+                 name: "15,00 − 16,90"
             },{
                 from: 17.0,
-                to: 19.9,
+                to: 19.49,
                  color: '#67401E',
-                 name: "17,0 − 19,9"
+                 name: "17,00 − 19,49"
             },{
-                from: 20.0,
+                from: 19.5,
                 color: '#3A2012',
-                name:  "<span style='color: rgba(0,0,0,0)'>20,0</span> ≥ 20.0"
+                name:  "<span style='color: rgba(0,0,0,0)'>20,00</span> ≥ 19.50"
             }], 
         },
         "data": {

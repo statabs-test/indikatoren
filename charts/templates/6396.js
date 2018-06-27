@@ -31,23 +31,23 @@
                 name:  "<span style='color: rgba(0,0,0,0)'>000,0</span> < <span style='color: rgba(0,0,0,0)'>0</span>25,0"
             }, {
                 from: 25.0,
-                to: 49.999,
+                to: 44.999,
                 color: '#FABD24',
-                name: "<span style='color: rgba(0,0,0,0)'>0</span>25,0 − <span style='color: rgba(0,0,0,0)'>0</span>49,9"
+                name: "<span style='color: rgba(0,0,0,0)'>0</span>25,0 − <span style='color: rgba(0,0,0,0)'>0</span>44,9"
             }, {
-                from: 50.0,
-                to: 99.999,
+                from: 45.0,
+                to: 109.999,
                  color: '#CD9C00',
-                 name: "<span style='color: rgba(0,0,0,0)'>0</span>50,0 − <span style='color: rgba(0,0,0,0)'>0</span>99,9"
+                 name: "<span style='color: rgba(0,0,0,0)'>0</span>45,0 − <span style='color: rgba(0,0,0,0)'></span>109,9"
             },{
-                from: 100.0,
-                to: 199.999,
+                from: 110.0,
+                to: 249.999,
                  color: '#7F5F1A',
-                 name: "100,0 − 199,9"
+                 name: "110,0 − 249,9"
             },{
-                from: 200.0,
+                from: 250.0,
                 color: '#45381D',
-                name:  "<span style='color: rgba(0,0,0,0)'>000,0</span> ≥ 200,0"
+                name:  "<span style='color: rgba(0,0,0,0)'>000,0</span> ≥ 250,0"
             }], 
         },
         "data": {
@@ -108,14 +108,14 @@
 					var pieSizeCatConfig = 
 					[
 						{
-							name: "<span style='color: rgba(0,0,0,0)'>0 000</span> < 3 000",
+							name: "<span style='color: rgba(0,0,0,0)'>0 000</span> < 4 000",
 							from: 0,
-							to: 3000, 
+							to: 3999, 
 							diameter: 2
 						},
 						{
-							name: "3 000 − 7 999",
-							from: 3000,
+							name: "4 000 − 7 999",
+							from: 4000,
 							to: 7999,
 							diameter: 8
 						},

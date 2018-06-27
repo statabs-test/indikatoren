@@ -467,15 +467,25 @@
 							}
 						});
 						//toggle color
+						//toggle color
+						
+						var whiteTransp = 'rgba(255,255,255, 0)';
+						var grey = '#cccccc';
+						
 						if (pieLegendItems.attr('fill') == pieLegendItems.attr('fill_active')){
-							//set all to grey
-							pieLegendItems.attr('fill', '#cccccc');
-							//if stroke is present, toggle it
+							//set all to grey or the predefined color
+							
+							//if fill is present, toggle it
 							pieLegendItems.each(function(i, v){
-								//if stroke_active is present, set it to grey
-								if ($(this).attr('stroke_active')) {
-									$(this).attr('stroke', '#cccccc');
+								//if fill_active is present, set it to transparent white
+								if ($(this).attr('fill_active')) {
+									$(this).attr('fill', $(this).attr('fill_passive') || whiteTransp);
 								}
+								//if stroke_active is present, set it to transparent white
+								if ($(this).attr('stroke_active')) {
+									$(this).attr('stroke', whiteTransp);
+								}
+
 							});
 							//same for html text spans
 							$(divIdString + ' .pieLegendHtmlText').css('color', '#cccccc');
