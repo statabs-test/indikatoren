@@ -152,6 +152,8 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 	                //Add manually drawn legend
+	                fn.addLegendRectangle(chart, 243, 212, 105, 130, 'rgba(222, 222, 222, 0.5)');
+	                fn.addLegendRectangle(chart, 355, 212, 120, 130, 'rgba(222, 222, 222, 0.5)');
 	        		fn.addLegendTitle(chart, "Gebäude pro <br/>  Hektare", 245, 210);
 	                fn.addLegendTitle(chart, "Anzahl Gebäude", 365, 210);
 	                

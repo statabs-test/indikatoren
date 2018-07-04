@@ -3886,8 +3886,8 @@
     {
       "visible": false,
       "type": "pie",
-      "color": "#7F5F1A",
-      "borderColor": "#7F5F1A",
+      "color": "#A8C3CA",
+      "borderColor": "#A8C3CA",
       "data": [
         [
           1,
@@ -4264,7 +4264,7 @@
 					fn.addLegendLabel(chart, 'Italien', 365, 262);
 					fn.addLegendSquare(chart, 354, 283, 12, '#E6E600');
 					fn.addLegendLabel(chart, 'Türkei', 365, 279);
-					fn.addLegendSquare(chart, 354, 299, 12, ' #7F5F1A');
+					fn.addLegendSquare(chart, 354, 299, 12, ' #A8C3CA');
 					fn.addLegendLabel(chart, 'Übrige', 365, 295);
 					fn.addLegendSquare(chart, 354, 315, 12, '#923F8D');
 					fn.addLegendLabel(chart, 'Spanien', 365, 310);
@@ -4332,30 +4332,30 @@
     "dataClasses": [
       {
         "to": 0.2499,
-        "color": "#D7E8D2",
+        "color": "#ECE1D0",
         "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0,00\u003C\u002Fspan\u003E \u003C 25,0"
       },
       {
         "from": 0.25,
         "to": 0.3199,
-        "color": "#73B97C",
+        "color": "#C4AB91",
         "name": "25,0 −  31,9"
       },
       {
         "from": 0.32,
         "to": 0.3799,
-        "color": "#68AB2B",
+        "color": "#9E7C59",
         "name": "32,0 − 37,9"
       },
       {
         "from": 0.38,
         "to": 0.449,
-        "color": "#007A2F",
+        "color": "#67401E",
         "name": "38,0 − 44,9"
       },
       {
         "from": 0.45,
-        "color": "#0A3B19",
+        "color": "#3A2012",
         "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0,00\u003C\u002Fspan\u003E ≥ 45,0"
       }
     ]

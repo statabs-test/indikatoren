@@ -3670,19 +3670,19 @@
 							name: "<span style='color: rgba(0,0,0,0)'>000</span> <<span style='color: rgba(0,0,0,0)'>00</span>400",
 							from: 0,
 							to: 399, 
-							diameter: 2
+							diameter: 5
 						},
 						{
 							name: "400 −<span style='color: rgba(0,0,0,0)'>00</span>999",
 							from: 400,
 							to: 999,
-							diameter: 8
+							diameter: 10
 						},
 						{
 							name: "<span style='color: rgba(0,0,0,0)'>000</span> ≥  1 000",
 							from: 1000,							
 							to: 1000000000,
-							diameter: 16
+							diameter: 20
 						}
 					];
 					
@@ -3711,6 +3711,8 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 	                //Add manually drawn legend
+	                fn.addLegendRectangle(chart, 240, 212, 115, 125, 'rgba(222, 222, 222, 0.5)');
+	                fn.addLegendRectangle(chart, 360, 212, 105, 125, 'rgba(222, 222, 222, 0.5)');	                
 	        		fn.addLegendTitle(chart, "Arbeitsstätten pro <br/> 100 Einwohner", 245, 210);
 	                fn.addLegendTitle(chart, "Anzahl <br/> Arbeitsstätten", 365, 210);
 	                

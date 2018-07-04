@@ -3670,19 +3670,19 @@
 							name: "<span style='color: rgba(0,0,0,0)'>000</span> < 300",
 							from: 0,
 							to: 300, 
-							diameter: 2
+							diameter: 5
 						},
 						{
 							name: ' 300 − 499',
 							from: 300,
 							to: 499,
-							diameter: 8
+							diameter: 10
 						},
 						{
 							name: "<span style='color: rgba(0,0,0,0)'>000</span> ≥  500",
 							from: 500,							
 							to: 1000000000,
-							diameter: 16
+							diameter: 20
 						}
 					];
 					
@@ -3711,8 +3711,10 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 	                //Add manually drawn legend
+	                fn.addLegendRectangle(chart, 243, 212, 105, 130, 'rgba(222, 222, 222, 0.5)');
+	                fn.addLegendRectangle(chart, 355, 212, 120, 130, 'rgba(222, 222, 222, 0.5)');	                
 	        		fn.addLegendTitle(chart, "Sozialhilfequote <br/>  in %", 245, 210);
-	                fn.addLegendTitle(chart, "Anzahl Sozialhilfe- <br/>  empfänger", 365, 210);
+	                fn.addLegendTitle(chart, "Anzahl Sozialhilfe- <br/>  empfänger", 355, 210);
 	                
 	              	fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 385, 255, undefined, true);

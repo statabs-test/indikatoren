@@ -152,15 +152,17 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 	                //Add manually drawn legend
+	                fn.addLegendRectangle(chart, 243, 212, 105, 130, 'rgba(222, 222, 222, 0.5)');
+	                fn.addLegendRectangle(chart, 355, 212, 110, 130, 'rgba(222, 222, 222, 0.5)');	                
 	        		fn.addLegendTitle(chart, "Wohnungen pro  <br/> Hektare", 245, 210);
-	                fn.addLegendTitle(chart, "Anzahl <br/> Wohnungen", 375, 210);
+	                fn.addLegendTitle(chart, "Anzahl <br/> Wohnungen", 360, 210);
 	                
-	               	fn.addLegendCircle(chart, 380, 266, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
-	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 395, 255, undefined, true);
-	                fn.addLegendCircle(chart, 380, 285, 0.5*pieSizeCatConfig[1].diameter, '#7F5F1A');
-	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 395, 275, undefined, true);
-	                fn.addLegendCircle(chart, 380, 310, 0.5*pieSizeCatConfig[2].diameter, '#7F5F1A');
-					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 395, 300, undefined, true);
+	               	fn.addLegendCircle(chart, 370, 266, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
+	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 385, 255, undefined, true);
+	                fn.addLegendCircle(chart, 370, 285, 0.5*pieSizeCatConfig[1].diameter, '#7F5F1A');
+	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 385, 275, undefined, true);
+	                fn.addLegendCircle(chart, 370, 310, 0.5*pieSizeCatConfig[2].diameter, '#7F5F1A');
+					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 385, 300, undefined, true);
 					
 					//fn.addLegendSquare(chart, 565, 240, 10, '#7F5F1A');
 					//fn.addLegendLabel(chart, 'Zunahme', 580, 236);

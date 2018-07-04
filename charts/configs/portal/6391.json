@@ -3670,19 +3670,19 @@
 							name: "<span style='color: rgba(0,0,0,0)'>15,0</span> < 15,0",
 							from: 0,
 							to: 14.999, 
-							diameter: 2
+							diameter: 5
 						},
 						{
 							name: ' 15,0 − 19,9',
 							from: 15,
 							to: 19.999,
-							diameter: 8
+							diameter: 10
 						},
 						{
 							name: "<span style='color: rgba(0,0,0,0)'>30,0</span> ≥  20,0",
 							from: 20,							
 							to: 1000000000,
-							diameter: 16
+							diameter: 20
 						}
 					];
 					
@@ -3711,8 +3711,11 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 	                //Add manually drawn legend
+	                fn.addLegendRectangle(chart, 250, 210, 100, 120, 'rgba(222, 222, 222, 0.5)');
+	                fn.addLegendRectangle(chart, 355, 210, 130, 120, 'rgba(222, 222, 222, 0.5)');
+
 	        		fn.addLegendTitle(chart, "Leerwohnungs- <br/>  quote in %", 250, 210);
-	                fn.addLegendTitle(chart, "Anzahl leerstehende <br/>  Wohnungen", 365, 210);
+	                fn.addLegendTitle(chart, "Anzahl leerstehende <br/>  Wohnungen", 360, 210);
 	                
 	               	fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A', 'pieLegendHideOnZoom');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 385, 255, undefined, true, 'pieLegendHideOnZoom');

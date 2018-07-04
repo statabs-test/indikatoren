@@ -3807,7 +3807,8 @@
         "fontSize": "12px"
       },
       "text": ""
-    }
+    },
+    "y": 5
   },
   "xAxis": {
     "events": {

@@ -3670,19 +3670,19 @@
 							name: "<span style='color: rgba(0,0,0,0)'>1 000</span> < 1 000",
 							from: 0,
 							to: 999.9, 
-							diameter: 2
+							diameter: 5
 						},
 						{
 							name: '1 000 − 2 299',
 							from: 1000,
 							to: 2299.9,
-							diameter: 8
+							diameter: 10
 						},
 						{
 							name: "<span style='color: rgba(0,0,0,0)'>2 500</span> ≥  2 300",
 							from: 2300,							
 							to: 1000000000,
-							diameter: 16
+							diameter: 20
 						}
 					];
 					
@@ -3711,6 +3711,8 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 	                //Add manually drawn legend
+	                fn.addLegendRectangle(chart, 243, 212, 105, 130, 'rgba(222, 222, 222, 0.5)');
+	                fn.addLegendRectangle(chart, 355, 212, 120, 130, 'rgba(222, 222, 222, 0.5)');
 	        		fn.addLegendTitle(chart, "Anteil über <br/>  64-Jähriger in %", 245, 210);
 	                fn.addLegendTitle(chart, "Anzahl über <br/>  64-Jähriger", 365, 210);
 	                

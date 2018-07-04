@@ -3886,8 +3886,8 @@
     {
       "visible": false,
       "type": "pie",
-      "color": "#7F5F1A",
-      "borderColor": "#7F5F1A",
+      "color": "#A8C3CA",
+      "borderColor": "#A8C3CA",
       "data": [
         [
           1,
@@ -4267,7 +4267,7 @@
 					fn.addLegendLabel(chart, 'Türkei', 370, 234);
 					fn.addLegendSquare(chart, 360, 260, 10, '#923F8D');
 					fn.addLegendLabel(chart, 'Spanien', 370, 254);
-					fn.addLegendSquare(chart, 360, 280, 10, '#7F5F1A');
+					fn.addLegendSquare(chart, 360, 280, 10, '#A8C3CA');
 					fn.addLegendLabel(chart, 'Übrige', 370, 274);
 					
 
@@ -4331,8 +4331,8 @@
     "marker": {
       "color": "black"
     },
-    "minColor": "#eff6e9",
-    "maxColor": "#4b7b1f"
+    "minColor": "#ECE1D0",
+    "maxColor": "#3A2012"
   },
   "mapNavigation": {
     "enabled": true,
@@ -4354,7 +4354,7 @@
       "text": ""
     },
     "x": -15,
-    "y": 20
+    "y": 25
   },
   "xAxis": {
     "events": {

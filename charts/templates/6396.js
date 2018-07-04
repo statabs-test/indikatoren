@@ -152,8 +152,10 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 	                //Add manually drawn legend
+	                fn.addLegendRectangle(chart, 243, 212, 105, 120, 'rgba(222, 222, 222, 0.5)');
+	                fn.addLegendRectangle(chart, 355, 212, 110, 120, 'rgba(222, 222, 222, 0.5)');	 	                
 	        		fn.addLegendTitle(chart, "Beschäftigte pro <br/> 100 Einwohner", 245, 210);
-	                fn.addLegendTitle(chart, "Anzahl <br/> Beschäftigte", 365, 210);
+	                fn.addLegendTitle(chart, "Anzahl <br/> Beschäftigte", 355, 210);
 	                
 		        	fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, '#007A2F');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 385, 255, undefined, true);
