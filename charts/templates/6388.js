@@ -152,10 +152,10 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 	                //Add manually drawn legend
-	                fn.addLegendRectangle(chart, 243, 212, 105, 130, 'rgba(222, 222, 222, 0.5)');
-	                fn.addLegendRectangle(chart, 355, 212, 120, 130, 'rgba(222, 222, 222, 0.5)');
+	                fn.addLegendRectangle(chart, 243, 212, 105, 125, 'rgba(222, 222, 222, 0.5)');
+	                fn.addLegendRectangle(chart, 355, 212, 115, 125, 'rgba(222, 222, 222, 0.5)');
 	        		fn.addLegendTitle(chart, "Anteil über <br/>  64-Jähriger in %", 245, 210);
-	                fn.addLegendTitle(chart, "Anzahl über <br/>  64-Jähriger", 365, 210);
+	                fn.addLegendTitle(chart, "Anzahl über <br/>  64-Jähriger", 355, 210);
 	                
 	                fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 385, 255, undefined, true);
