@@ -4,6 +4,7 @@ global geojson_wohnviertelEPSG2056
 */
 (function(){
     return {
+    	
 		"colorAxis": {
 			"minColor": "#ECE1D0",
 			"maxColor": "#3A2012",
@@ -55,7 +56,8 @@ global geojson_wohnviertelEPSG2056
                         this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value),1) + '</b><br/>';
                 }
             }
-        },		
+        },
+
        /*exporting: {
             buttons: {
                 customButton: {

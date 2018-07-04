@@ -33,7 +33,7 @@
                 from: 16.0,
                 to: 19.999,
                 color: '#73B97C',
-                name: "16,0 − 19,0"
+                name: "16,0 − 19,9"
             }, {
                 from: 20.0,
                 to: 21.9,
@@ -111,19 +111,19 @@
 							name: "<span style='color: rgba(0,0,0,0)'>1 000</span> < 1 000",
 							from: 0,
 							to: 999.9, 
-							diameter: 2
+							diameter: 5
 						},
 						{
 							name: '1 000 − 2 299',
 							from: 1000,
 							to: 2299.9,
-							diameter: 8
+							diameter: 10
 						},
 						{
 							name: "<span style='color: rgba(0,0,0,0)'>2 500</span> ≥  2 300",
 							from: 2300,							
 							to: 1000000000,
-							diameter: 16
+							diameter: 20
 						}
 					];
 					

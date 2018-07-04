@@ -111,19 +111,19 @@
 							name: "<span style='color: rgba(0,0,0,0)'>1 899</span> <  800",
 							from: 0,
 							to: 799, 
-							diameter: 2
+							diameter: 5
 						},
 						{
 							name: ' 800 − 1 899',
 							from: 800,
 							to: 1899,
-							diameter: 8
+							diameter: 10
 						},
 						{
 							name: "<span style='color: rgba(0,0,0,0)'>600</span> ≥  1 900",
 							from: 1900,							
 							to: 1000000000,
-							diameter: 16
+							diameter: 20
 						}
 					];
 					
@@ -152,8 +152,8 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 	                //Add manually drawn legend
-	        		fn.addLegendTitle(chart, "Wohnungen pro <br/>  Hektare", 245, 210);
-	                fn.addLegendTitle(chart, "Anzahl<br/>  Wohnungen", 365, 210);
+	        		fn.addLegendTitle(chart, "Anteil unter <br/>  20-Jähriger in %", 245, 210);
+	                fn.addLegendTitle(chart, "Anzahl unter <br/>  20-Jähriger", 365, 210);
 	                
 	           		fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, '#C9D6DB');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 385, 255, undefined, true);

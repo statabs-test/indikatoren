@@ -27,27 +27,27 @@
             dataClassColor: 'category',
                    dataClasses: [{
                 to:0.2499,
-                color: '#D7E8D2',
-                name:  "<span style='color: rgba(0,0,0,0)'>0,000</span> < 0,250"
+                color: '#ECE1D0',
+                name:  "<span style='color: rgba(0,0,0,0)'>0,00</span> < 25,0"
             }, {
                 from: 0.25,
                 to: 0.3199,
-                color: '#73B97C',
-                name: "0,350 −  0,319"
+                color: '#C4AB91',
+                name: "25,0 −  31,9"
             }, {
                 from: 0.32,
                 to: 0.3799,
-                 color: '#68AB2B',
-                 name: "0,320 − 0,379"
+                 color: '#9E7C59',
+                 name: "32,0 − 37,9"
             },{
                 from: 0.38,
                 to: 0.449,
-                 color: '#007A2F',
-                 name: "0,380 − 0,449"
+                color: '#67401E',
+                name: "38,0 − 44,9"
             },{
                 from: 0.45,
-                color: '#0A3B19',
-                name:  "<span style='color: rgba(0,0,0,0)'>0,000</span> ≥ 0,450"
+                color: '#3A2012',
+                name:  "<span style='color: rgba(0,0,0,0)'>0,00</span> ≥ 45,0"
             }], 
         },
         "data": {
@@ -103,7 +103,7 @@
 				tooltip: {
 					pointFormatter: function(){
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value*100),1) + '</b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value*100),1) + ' </b><br/>';
 					}
 				}
 			}, 
@@ -148,8 +148,8 @@
 			{
 				visible: false,
 				type: 'pie',
-        		color: '#7F5F1A',
-        		borderColor: '#7F5F1A'
+        		color: '#A8C3CA',
+        		borderColor: '#A8C3CA'
 			}
 		],
 		chart: {
@@ -198,7 +198,7 @@
 	                var maxValueInLegend = 0.1; 
 	                
                 	//Add manually drawn legend	
-	                fn.addLegendTitle(chart,"Ausländeranteil <br/> in %", 240, 215);
+	                fn.addLegendTitle(chart,"Ausländeranteil <br/> in %", 253, 215);
 	                
 	                //fn.addLegendCircle(chart, 410, 275, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
 	                //fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),3,","," "), 430, 265);
@@ -214,7 +214,7 @@
 					fn.addLegendLabel(chart, 'Italien', 365, 262);
 					fn.addLegendSquare(chart, 354, 283, 12, '#E6E600');
 					fn.addLegendLabel(chart, 'Türkei', 365, 279);
-					fn.addLegendSquare(chart, 354, 299, 12, ' #7F5F1A');
+					fn.addLegendSquare(chart, 354, 299, 12, ' #A8C3CA');
 					fn.addLegendLabel(chart, 'Übrige', 365, 295);
 					fn.addLegendSquare(chart, 354, 315, 12, '#923F8D');
 					fn.addLegendLabel(chart, 'Spanien', 365, 310);

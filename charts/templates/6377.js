@@ -7,6 +7,7 @@
 
     return {
     	"legend": {
+		y:5,
 			"title": {
 				"text": ""
 			}

@@ -103,19 +103,19 @@
 							name: "<span style='color: rgba(0,0,0,0)'>15,0</span> < 15,0",
 							from: 0,
 							to: 14.999, 
-							diameter: 2
+							diameter: 5
 						},
 						{
 							name: ' 15,0 − 19,9',
 							from: 15,
 							to: 19.999,
-							diameter: 8
+							diameter: 10
 						},
 						{
 							name: "<span style='color: rgba(0,0,0,0)'>30,0</span> ≥  20,0",
 							from: 20,							
 							to: 1000000000,
-							diameter: 16
+							diameter: 20
 						}
 					];
 					

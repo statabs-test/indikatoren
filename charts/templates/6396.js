@@ -111,19 +111,19 @@
 							name: "<span style='color: rgba(0,0,0,0)'>0 000</span> < 4 000",
 							from: 0,
 							to: 3999, 
-							diameter: 2
+							diameter: 5
 						},
 						{
 							name: "4 000 − 7 999",
 							from: 4000,
 							to: 7999,
-							diameter: 8
+							diameter: 10
 						},
 						{
 							name: "<span style='color: rgba(0,0,0,0)'>0 000</span> ≥  8 000",
 							from: 8000,							
 							to: 1000000000,
-							diameter: 16
+							diameter: 20
 						}
 					];
 					
@@ -152,8 +152,8 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 	                //Add manually drawn legend
-	        		fn.addLegendTitle(chart, "Anteil unter <br/> 20-Jähriger in %", 245, 210);
-	                fn.addLegendTitle(chart, "Anzahl unter <br/> 20-Jähriger", 365, 210);
+	        		fn.addLegendTitle(chart, "Beschäftigte pro <br/> 100 Einwohner", 245, 210);
+	                fn.addLegendTitle(chart, "Anzahl <br/> Beschäftigte", 365, 210);
 	                
 		        	fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, '#007A2F');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 385, 255, undefined, true);

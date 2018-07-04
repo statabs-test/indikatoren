@@ -6,6 +6,7 @@
 (function(){
     return {
     	"legend": {
+    		y: 5,
     		//enabled:  function(){ if (zoom == 1){return true} else {return false}}, 
 			"title": {
 				"text": ""

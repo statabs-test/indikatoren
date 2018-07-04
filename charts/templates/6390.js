@@ -111,19 +111,19 @@
 							name: "<span style='color: rgba(0,0,0,0)'>0 000</span> < 3 500",
 							from: 0,
 							to: 3499, 
-							diameter: 2
+							diameter: 5
 						},
 						{
 							name: ' 3 500 − 5 999',
 							from: 3500,
 							to: 5999,
-							diameter: 8
+							diameter: 10
 						},
 						{
 							name: "<span style='color: rgba(0,0,0,0)'>0 000</span> ≥  6 000",
 							from: 6000,							
 							to: 1000000000,
-							diameter: 16
+							diameter: 20
 						}
 					];
 					

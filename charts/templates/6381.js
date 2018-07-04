@@ -8,18 +8,18 @@
     return {
     	"legend": {
     		"x": -15,
-			"y": 20,
+			"y": 25,
 			"title": {
 				"text": ""
 			}
 			},
 		"colorAxis": {
 			//"min": undefined,
-			"minColor": "#eff6e9",
-			"maxColor": "#4b7b1f",
+			"minColor": "#ECE1D0",
+			"maxColor": "#3A2012",
 			"labels": {
 				"formatter": function () {
-					return Highcharts.numberFormat((this.value),1); 
+					return Highcharts.numberFormat((this.value*100),0); 
 				}
 			}
 		},
@@ -121,8 +121,8 @@
 			{
 				visible: false,
 				type: 'pie',
-        		color: '#7F5F1A',
-        		borderColor: '#7F5F1A'
+        		color: '#A8C3CA',
+        		borderColor: '#A8C3CA'
 			}
 		],
 		chart: {
@@ -190,7 +190,7 @@
 					fn.addLegendLabel(chart, 'Türkei', 370, 234);
 					fn.addLegendSquare(chart, 360, 260, 10, '#923F8D');
 					fn.addLegendLabel(chart, 'Spanien', 370, 254);
-					fn.addLegendSquare(chart, 360, 280, 10, '#7F5F1A');
+					fn.addLegendSquare(chart, 360, 280, 10, '#A8C3CA');
 					fn.addLegendLabel(chart, 'Übrige', 370, 274);
 					
 
