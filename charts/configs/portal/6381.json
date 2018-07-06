@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "Auslaenderanteil",
+      "name": "Ausländeranteil",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -4286,7 +4286,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Ausländische Bevökerung nach Wohnviertel"
+    "text": "Ausländische Bevölkerung nach Wohnviertel"
   },
   "subtitle": {
     "style": {

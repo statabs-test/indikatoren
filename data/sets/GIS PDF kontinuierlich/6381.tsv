@@ -1,4 +1,4 @@
-﻿"Wohnviertel_ID"	"wohnviertel_name_new"	"Auslaenderanteil"	"Staatsangehörigkeit"	"Deutschland"	"Italien"	"Türkei"	"Serbien, Montenegro, Kosovo"	"Spanien"	"Übrige"
+﻿"Wohnviertel_ID"	"wohnviertel_name_new"	"Ausländeranteil"	"Staatsangehörigkeit"	"Deutschland"	"Italien"	"Türkei"	"Serbien, Montenegro, Kosovo"	"Spanien"	"Übrige"
 1	Altstadt Grossbasel	0.3088235294	0.1	0.3125	0.0892857143	0.0163690476	0.005952381	0.0535714286	0.5223214286
 2	Vorstädte	0.3840478564	0.1	0.2310488058	0.1142263759	0.023364486	0.0176531672	0.0633437175	0.5503634476
 3	Am Ring	0.3619745755	0.1	0.2519866701	0.1176621379	0.0284542425	0.0251217637	0.0566521405	0.5201230454

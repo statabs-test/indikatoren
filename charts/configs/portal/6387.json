@@ -3712,9 +3712,9 @@
 
 	                //Add manually drawn legend
 	                fn.addLegendRectangle(chart, 245, 210, 105, 130, 'rgba(222, 222, 222, 0.5)');
-	                fn.addLegendRectangle(chart, 355, 210, 110, 130, 'rgba(222, 222, 222, 0.5)');
+	                fn.addLegendRectangle(chart, 355, 210, 105, 130, 'rgba(222, 222, 222, 0.5)');
 	        		fn.addLegendTitle(chart, "Anteil unter <br/>  20-Jähriger in %", 245, 210);
-	                fn.addLegendTitle(chart, "Anzahl unter <br/>  20-Jähriger", 365, 210);
+	                fn.addLegendTitle(chart, "Anzahl unter <br/>  20-Jähriger", 355, 210);
 	                
 	           		fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, '#C9D6DB');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 385, 255, undefined, true);
@@ -3794,15 +3794,15 @@
       },
       {
         "from": 13,
-        "to": 14.9,
+        "to": 14.99,
         "color": "#C4AB91",
-        "name": "13,00 − 14,90"
+        "name": "13,00 − 14,99"
       },
       {
         "from": 15,
-        "to": 16.9,
+        "to": 16.99,
         "color": "#9E7C59",
-        "name": "15,00 − 16,90"
+        "name": "15,00 − 16,99"
       },
       {
         "from": 17,

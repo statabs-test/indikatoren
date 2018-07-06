@@ -387,7 +387,7 @@ var indikatorensetData = [
 		"id": 6396
 	},
 	{
-		"title": "Ausländische Bevökerung nach Wohnviertel",
+		"title": "Ausländische Bevölkerung nach Wohnviertel",
 		"subtitle": "Stand: 2017",
 		"kuerzel": "I.01.1.06778",
 		"kuerzelKunde": "",

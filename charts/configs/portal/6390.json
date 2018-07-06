@@ -3714,7 +3714,7 @@
 	                fn.addLegendRectangle(chart, 243, 212, 105, 130, 'rgba(222, 222, 222, 0.5)');
 	                fn.addLegendRectangle(chart, 355, 212, 110, 130, 'rgba(222, 222, 222, 0.5)');	                
 	        		fn.addLegendTitle(chart, "Wohnungen pro  <br/> Hektare", 245, 210);
-	                fn.addLegendTitle(chart, "Anzahl <br/> Wohnungen", 360, 210);
+	                fn.addLegendTitle(chart, "Anzahl <br/> Wohnungen", 355, 210);
 	                
 	               	fn.addLegendCircle(chart, 370, 266, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 385, 255, undefined, true);

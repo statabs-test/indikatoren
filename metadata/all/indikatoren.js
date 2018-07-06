@@ -20729,7 +20729,7 @@ var indikatoren = [
 		"id": 6380
 	},
 	{
-		"title": "Ausländische Bevökerung nach Wohnviertel",
+		"title": "Ausländische Bevölkerung nach Wohnviertel",
 		"subtitle": "Stand: 2017",
 		"kuerzel": "",
 		"kuerzelKunde": "",
@@ -26550,7 +26550,7 @@ var indikatoren = [
 		"id": 6774
 	},
 	{
-		"title": "Ausländische Bevökerung nach Wohnviertel",
+		"title": "Ausländische Bevölkerung nach Wohnviertel",
 		"subtitle": "Stand: 2017",
 		"kuerzel": "I.01.1.06778",
 		"kuerzelKunde": "",
