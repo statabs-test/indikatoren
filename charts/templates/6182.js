@@ -67,7 +67,7 @@
     "enabled": true,
     "itemMarginBottom": 5,
 		labelFormatter: function () {
-      return this.name.slice(0, -7);
+      return this.name.slice(0, this.name.indexOf('(Stadt)'));
     },
     "itemStyle": {
       "fontWeight": "normal"
