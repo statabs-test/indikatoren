@@ -58,10 +58,62 @@
         "enabled": true
       }    
     }, /* schwarz */
+    {"color": "#B00000",
+    visible:true,
+    showInLegend: false,
+      "marker": {
+        "enabled": true
+      }    
+    }, /* dunkelrot */
+    	{"color": "#007A2F",
+	visible:true,
+	 showInLegend: false,
+      "marker": {
+        "enabled": true
+      }    
+    }, /* dunkelgrün */
+    	{"color": "#4f81bd",
+	visible:true,
+	 showInLegend: false,
+      "marker": {
+        "enabled": true
+      }    
+    }, /* dunkelblau */
+    	{"color": "#662673",
+	visible:true,
+	 showInLegend: false,
+      "marker": {
+        "enabled": true
+      }    
+    }, /* dunkelviolett */
+        {"color": "#7F5F1A",
+        visible:true,
+         showInLegend: false,
+      "marker": {
+        "enabled": true
+      }    
+    }, /* dunkelbraun */
+    	{"color": "#FABD24",
+	visible:true,
+	 showInLegend: false,
+      "marker": {
+        "enabled": true
+      }    
+    }, /* dunkelgelb */
+    	{"color": "#3C3C3C",
+	visible:true,
+	 showInLegend: false,
+      "marker": {
+        "enabled": true
+      }    
+    }, /* schwarz */
   ],
   "legend": {
     "enabled": true,
     "itemMarginBottom": 5,
+		labelFormatter: function () {
+                return this.name.slice(0, -7)
+            },
     "itemStyle": {
       "fontWeight": "normal"
     }

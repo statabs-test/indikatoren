@@ -26,8 +26,22 @@
   {"color": "#73ba7c"}, /*Arabische Länder */
   {"color": "#9f7c5a"}, /*Afrikanische Länder*/
   {"color": "#999999"}, /*Übrige Länder*/
+  {"color": "#b00000",showInLegend: false}, /*Schweiz*/
+  {"color": "#672773",showInLegend: false}, /*Deutschland*/
+  {"color": "#007a2f",showInLegend: false}, /*Italien*/
+  {"color": "#fabd24",showInLegend: false}, /*Türkei*/
+  {"color": "#b475ab",showInLegend: false}, /*EU-17 & EFTA*/
+  {"color": "#71a3b5",showInLegend: false}, /*EU-Ost */
+  {"color": "#b9cfd7",showInLegend: false}, /*Balkan*/
+  {"color": "#ff8028",showInLegend: false}, /*Mittel- & Südamerika */
+  {"color": "#73ba7c",showInLegend: false}, /*Arabische Länder */
+  {"color": "#9f7c5a",showInLegend: false}, /*Afrikanische Länder*/
+  {"color": "#999999",showInLegend: false}, /*Übrige Länder*/
   ],
    "legend": {
+   		labelFormatter: function () {
+                return this.name.slice(0, -7)
+            },
     "enabled": true,
     itemDistance: 5, 
     "layout": "horizontal",
