@@ -59,6 +59,9 @@
         "symbol": "circle",
       } 
     }
+  },
+  chart:{
+  	   "height": 500,    
   }
 }
 }());

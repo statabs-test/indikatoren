@@ -55,7 +55,7 @@
     	{"color": "#3C3C3C",
 	visible:true,
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* schwarz */
     {"color": "#B00000",
