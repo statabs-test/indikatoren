@@ -3652,9 +3652,8 @@
         "fontWeight": " bold",
         "fontSize": "12px"
       },
-      "text": "Seit mindestens 10 Jahren an der \u003Cbr\u003E gleichen Adresse lebende Personen \u003Cbr\u003E in %"
+      "text": "Seit mindestens 10 Jahren an der\u003Cbr\u002F\u003Egleichen Adresse lebende Personen\u003Cbr\u002F\u003Ein %"
     },
-    "useHTML": true,
     "layout": "vertical",
     "x": -5,
     "y": -10,
@@ -3672,6 +3671,16 @@
                     return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
                         this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value),1) + '</b><br/>';
                 }
+            }
+  },
+  "customFunctions": {
+    "addLegendRectangle": function (chart, x, y, width, height, fill, cssClass){
+            	return chart.renderer.rect(x, y, width, height).attr({
+    	            'stroke-width':0,
+    	            fill: fill,
+    	            zIndex: 6,
+    	            class: cssClass
+            	}).add();
             }
   },
   "exporting": {

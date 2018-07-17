@@ -132,6 +132,17 @@
                 }
             }
         },
+        
+        customFunctions: {
+            addLegendRectangle: function(chart, x, y, width, height, fill, cssClass){
+            	return chart.renderer.rect(x, y, width, height).attr({
+    	            'stroke-width':0,
+    	            fill: fill,
+    	            zIndex: 6,
+    	            class: cssClass
+            	}).add();
+            },
+        }
 
     };
     }()
