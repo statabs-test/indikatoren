@@ -26,17 +26,17 @@
   {"color": "#73ba7c"}, /*Arabische Länder */
   {"color": "#9f7c5a"}, /*Afrikanische Länder*/
   {"color": "#999999"}, /*Übrige Länder*/
-  {"color": "#b00000",showInLegend: false}, /*Schweiz*/
-  {"color": "#672773",showInLegend: false}, /*Deutschland*/
-  {"color": "#007a2f",showInLegend: false}, /*Italien*/
-  {"color": "#fabd24",showInLegend: false}, /*Türkei*/
-  {"color": "#b475ab",showInLegend: false}, /*EU-17 & EFTA*/
-  {"color": "#71a3b5",showInLegend: false}, /*EU-Ost */
-  {"color": "#b9cfd7",showInLegend: false}, /*Balkan*/
-  {"color": "#ff8028",showInLegend: false}, /*Mittel- & Südamerika */
-  {"color": "#73ba7c",showInLegend: false}, /*Arabische Länder */
-  {"color": "#9f7c5a",showInLegend: false}, /*Afrikanische Länder*/
-  {"color": "#999999",showInLegend: false}, /*Übrige Länder*/
+  {"color": "#b00000",showInLegend: false, "marker": { "enabled": true }}, /*Schweiz*/
+  {"color": "#672773",showInLegend: false, "marker": { "enabled": true }}, /*Deutschland*/
+  {"color": "#007a2f",showInLegend: false,"marker": { "enabled": true }}, /*Italien*/
+  {"color": "#fabd24",showInLegend: false,"marker": { "enabled": true }}, /*Türkei*/
+  {"color": "#b475ab",showInLegend: false,"marker": { "enabled": true }}, /*EU-17 & EFTA*/
+  {"color": "#71a3b5",showInLegend: false,"marker": { "enabled": true }}, /*EU-Ost */
+  {"color": "#b9cfd7",showInLegend: false,"marker": { "enabled": true }}, /*Balkan*/
+  {"color": "#ff8028",showInLegend: false,"marker": { "enabled": true }}, /*Mittel- & Südamerika */
+  {"color": "#73ba7c",showInLegend: false,"marker": { "enabled": true }}, /*Arabische Länder */
+  {"color": "#9f7c5a",showInLegend: false,"marker": { "enabled": true }}, /*Afrikanische Länder*/
+  {"color": "#999999",showInLegend: false,"marker": { "enabled": true }}, /*Übrige Länder*/
   ],
    "legend": {
    		labelFormatter: function () {
