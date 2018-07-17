@@ -65,10 +65,10 @@
         ],
         [
           2016,
-          4.53539302
+          null
         ]
       ],
-      "name": "Schweiz"
+      "name": "Schweiz (Stadt)"
     },
     {
       "color": "#672773",
@@ -135,10 +135,10 @@
         ],
         [
           2016,
-          2.427486618
+          null
         ]
       ],
-      "name": "Deutschland"
+      "name": "Deutschland (Stadt)"
     },
     {
       "color": "#007a2f",
@@ -205,10 +205,10 @@
         ],
         [
           2016,
-          5.879563774
+          null
         ]
       ],
-      "name": "Italien"
+      "name": "Italien (Stadt)"
     },
     {
       "color": "#fabd24",
@@ -275,10 +275,10 @@
         ],
         [
           2016,
-          21.0234474
+          null
         ]
       ],
-      "name": "Türkei"
+      "name": "Türkei (Stadt)"
     },
     {
       "color": "#b475ab",
@@ -345,10 +345,10 @@
         ],
         [
           2016,
-          4.400209534
+          null
         ]
       ],
-      "name": "EU-17 & EFTA"
+      "name": "EU-17 & EFTA (Stadt)"
     },
     {
       "color": "#71a3b5",
@@ -415,10 +415,10 @@
         ],
         [
           2016,
-          8.851479772
+          null
         ]
       ],
-      "name": "EU-Ost"
+      "name": "EU-Ost (Stadt)"
     },
     {
       "color": "#b9cfd7",
@@ -485,10 +485,10 @@
         ],
         [
           2016,
-          11.35897745
+          null
         ]
       ],
-      "name": "Balkan"
+      "name": "Balkan (Stadt)"
     },
     {
       "color": "#ff8028",
@@ -555,10 +555,10 @@
         ],
         [
           2016,
-          18.05474665
+          null
         ]
       ],
-      "name": "Mittel- & Südamerika"
+      "name": "Mittel- & Südamerika (Stadt)"
     },
     {
       "color": "#73ba7c",
@@ -625,10 +625,10 @@
         ],
         [
           2016,
-          62.71186441
+          null
         ]
       ],
-      "name": "Arabische Länder"
+      "name": "Arabische Länder (Stadt)"
     },
     {
       "color": "#9f7c5a",
@@ -695,10 +695,10 @@
         ],
         [
           2016,
-          54.70136014
+          null
         ]
       ],
-      "name": "Afrikanische Länder"
+      "name": "Afrikanische Länder (Stadt)"
     },
     {
       "color": "#999999",
@@ -765,10 +765,824 @@
         ],
         [
           2016,
+          null
+        ]
+      ],
+      "name": "Übrige Länder (Stadt)"
+    },
+    {
+      "color": "#b00000",
+      "showInLegend": false,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2001,
+          null
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2003,
+          null
+        ],
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          4.53539302
+        ]
+      ],
+      "name": "Schweiz (Kanton)"
+    },
+    {
+      "color": "#672773",
+      "showInLegend": false,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2001,
+          null
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2003,
+          null
+        ],
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          2.427486618
+        ]
+      ],
+      "name": "Deutschland (Kanton)"
+    },
+    {
+      "color": "#007a2f",
+      "showInLegend": false,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2001,
+          null
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2003,
+          null
+        ],
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          5.879563774
+        ]
+      ],
+      "name": "Italien (Kanton)"
+    },
+    {
+      "color": "#fabd24",
+      "showInLegend": false,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2001,
+          null
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2003,
+          null
+        ],
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          21.0234474
+        ]
+      ],
+      "name": "Türkei (Kanton)"
+    },
+    {
+      "color": "#b475ab",
+      "showInLegend": false,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2001,
+          null
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2003,
+          null
+        ],
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          4.400209534
+        ]
+      ],
+      "name": "EU-17 & EFTA (Kanton)"
+    },
+    {
+      "color": "#71a3b5",
+      "showInLegend": false,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2001,
+          null
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2003,
+          null
+        ],
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          8.851479772
+        ]
+      ],
+      "name": "EU-Ost (Kanton)"
+    },
+    {
+      "color": "#b9cfd7",
+      "showInLegend": false,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2001,
+          null
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2003,
+          null
+        ],
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          11.35897745
+        ]
+      ],
+      "name": "Balkan (Kanton)"
+    },
+    {
+      "color": "#ff8028",
+      "showInLegend": false,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2001,
+          null
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2003,
+          null
+        ],
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          18.05474665
+        ]
+      ],
+      "name": "Mittel- & Südamerika (Kanton)"
+    },
+    {
+      "color": "#73ba7c",
+      "showInLegend": false,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2001,
+          null
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2003,
+          null
+        ],
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          62.71186441
+        ]
+      ],
+      "name": "Arabische Länder (Kanton)"
+    },
+    {
+      "color": "#9f7c5a",
+      "showInLegend": false,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2001,
+          null
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2003,
+          null
+        ],
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          54.70136014
+        ]
+      ],
+      "name": "Afrikanische Länder (Kanton)"
+    },
+    {
+      "color": "#999999",
+      "showInLegend": false,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2001,
+          null
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2003,
+          null
+        ],
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
           10.03534461
         ]
       ],
-      "name": "Übrige Länder"
+      "name": "Übrige Länder (Kanton)"
     }
   ],
   "chart": {
@@ -792,7 +1606,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 428,
+    "height": 513,
     "spacingBottom": 55,
     "style": {
       "fontFamily": "Arial"
@@ -839,7 +1653,8 @@
         "color": "#000000"
       },
       "format": "{value}%"
-    }
+    },
+    "tickInterval": 10
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -875,6 +1690,9 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
+    "labelFormatter": function () {
+        return this.name.slice(0, -7);
+      },
     "itemDistance": 5,
     "itemMarginBottom": 5,
     "itemStyle": {
@@ -920,7 +1738,8 @@
     "line": {
       "marker": {
         "enabled": false,
-        "symbol": "circle"
+        "symbol": "circle",
+        "radius": 2
       }
     }
   },

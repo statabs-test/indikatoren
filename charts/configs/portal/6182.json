@@ -2,10 +2,6 @@
   "series": [
     {
       "color": "#B00000",
-      "visible": true,
-      "marker": {
-        "enabled": false
-      },
       "data": [
         [
           2006,
@@ -53,17 +49,13 @@
         ],
         [
           2017,
-          13.79243753
+          null
         ]
       ],
-      "name": "0 bis 17"
+      "name": "0 bis 17 (Stadt)"
     },
     {
       "color": "#007A2F",
-      "visible": true,
-      "marker": {
-        "enabled": false
-      },
       "data": [
         [
           2006,
@@ -111,17 +103,13 @@
         ],
         [
           2017,
-          10.24962179
+          null
         ]
       ],
-      "name": "18 bis 25"
+      "name": "18 bis 25 (Stadt)"
     },
     {
       "color": "#4f81bd",
-      "visible": true,
-      "marker": {
-        "enabled": false
-      },
       "data": [
         [
           2006,
@@ -169,17 +157,13 @@
         ],
         [
           2017,
-          7.457627119
+          null
         ]
       ],
-      "name": "26 bis 35"
+      "name": "26 bis 35 (Stadt)"
     },
     {
       "color": "#662673",
-      "visible": true,
-      "marker": {
-        "enabled": false
-      },
       "data": [
         [
           2006,
@@ -227,17 +211,13 @@
         ],
         [
           2017,
-          8.614044351
+          null
         ]
       ],
-      "name": "36 bis 50"
+      "name": "36 bis 50 (Stadt)"
     },
     {
       "color": "#7F5F1A",
-      "visible": true,
-      "marker": {
-        "enabled": false
-      },
       "data": [
         [
           2006,
@@ -285,17 +265,13 @@
         ],
         [
           2017,
-          6.474190726
+          null
         ]
       ],
-      "name": "51 bis 65"
+      "name": "51 bis 65 (Stadt)"
     },
     {
       "color": "#FABD24",
-      "visible": true,
-      "marker": {
-        "enabled": false
-      },
       "data": [
         [
           2006,
@@ -343,17 +319,13 @@
         ],
         [
           2017,
-          0.217746326
+          null
         ]
       ],
-      "name": "66 u.m."
+      "name": "66 u.m. (Stadt)"
     },
     {
       "color": "#3C3C3C",
-      "visible": true,
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2006,
@@ -401,10 +373,413 @@
         ],
         [
           2017,
+          null
+        ]
+      ],
+      "name": "Total (Stadt)"
+    },
+    {
+      "color": "#B00000",
+      "showInLegend": false,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          13.79243753
+        ]
+      ],
+      "name": "0 bis 17 (Kanton)"
+    },
+    {
+      "color": "#007A2F",
+      "showInLegend": false,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          10.24962179
+        ]
+      ],
+      "name": "18 bis 25 (Kanton)"
+    },
+    {
+      "color": "#4f81bd",
+      "showInLegend": false,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          7.457627119
+        ]
+      ],
+      "name": "26 bis 35 (Kanton)"
+    },
+    {
+      "color": "#662673",
+      "showInLegend": false,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          8.614044351
+        ]
+      ],
+      "name": "36 bis 50 (Kanton)"
+    },
+    {
+      "color": "#7F5F1A",
+      "showInLegend": false,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          6.474190726
+        ]
+      ],
+      "name": "51 bis 65 (Kanton)"
+    },
+    {
+      "color": "#FABD24",
+      "showInLegend": false,
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          0.217746326
+        ]
+      ],
+      "name": "66 u.m. (Kanton)"
+    },
+    {
+      "color": "#3C3C3C",
+      "showInLegend": false,
+      "data": [
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
           7.420336505
         ]
       ],
-      "name": "Total"
+      "name": "Total (Kanton)"
     }
   ],
   "chart": {
@@ -513,6 +888,9 @@
     "align": "right",
     "symbolRadius": 0,
     "itemMarginBottom": 5,
+    "labelFormatter": function () {
+      return this.name.slice(0, -7);
+    },
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -554,10 +932,10 @@
   },
   "plotOptions": {
     "line": {
-      "connectNulls": true,
       "marker": {
         "enabled": false,
-        "symbol": "circle"
+        "symbol": "circle",
+        "radius": 2
       }
     }
   },

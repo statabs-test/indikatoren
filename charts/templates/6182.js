@@ -16,114 +16,69 @@
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}%</b><br/>'
   },
   "series": [
-    {"color": "#B00000",
-    visible:true,
-      "marker": {
-        "enabled": false
+    {color: "#B00000"}, /* dunkelrot */
+  	{color: "#007A2F"}, /* dunkelgrün */
+  	{color: "#4f81bd"}, /* dunkelblau */
+  	{color: "#662673"}, /* dunkelviolett */
+    {color: "#7F5F1A"}, /* dunkelbraun */
+  	{color: "#FABD24"}, /* dunkelgelb */
+  	{color: "#3C3C3C"}, /* schwarz */
+    { color: "#B00000", /* dunkelrot */
+      showInLegend: false,
+        marker: {
+          enabled: true,
+        }    
+    }, 
+    { color: "#007A2F", /* dunkelgrün */
+	    showInLegend: false,
+      marker: {
+        enabled: true,
       }    
-    }, /* dunkelrot */
-    	{"color": "#007A2F",
-	visible:true,
-      "marker": {
-        "enabled": false
+    }, 
+    { color: "#4f81bd", /* dunkelblau */
+	    showInLegend: false,
+        marker: {
+        enabled: true,
       }    
-    }, /* dunkelgrün */
-    	{"color": "#4f81bd",
-	visible:true,
-      "marker": {
-        "enabled": false
+    }, 
+  	{ color: "#662673", /* dunkelviolett */
+	    showInLegend: false,
+      marker: {
+        enabled: true,
       }    
-    }, /* dunkelblau */
-    	{"color": "#662673",
-	visible:true,
-      "marker": {
-        "enabled": false
+    }, 
+    { color: "#7F5F1A", /* dunkelbraun */
+      showInLegend: false,
+      marker: {
+        enabled: true,
       }    
-    }, /* dunkelviolett */
-        {"color": "#7F5F1A",
-        visible:true,
-      "marker": {
-        "enabled": false
+    }, 
+  	{ color: "#FABD24", /* dunkelgelb */
+	    showInLegend: false,
+      marker: {
+        enabled: true, 
       }    
-    }, /* dunkelbraun */
-    	{"color": "#FABD24",
-	visible:true,
-      "marker": {
-        "enabled": false
-      }    
-    }, /* dunkelgelb */
-    	{"color": "#3C3C3C",
-	visible:true,
-      "marker": {
-        "enabled": false
-      }    
-    }, /* schwarz */
-    {"color": "#B00000",
-    visible:true,
-    showInLegend: false,
-      "marker": {
-        "enabled": true
-      }    
-    }, /* dunkelrot */
-    	{"color": "#007A2F",
-	visible:true,
-	 showInLegend: false,
-      "marker": {
-        "enabled": true
-      }    
-    }, /* dunkelgrün */
-    	{"color": "#4f81bd",
-	visible:true,
-	 showInLegend: false,
-      "marker": {
-        "enabled": true
-      }    
-    }, /* dunkelblau */
-    	{"color": "#662673",
-	visible:true,
-	 showInLegend: false,
-      "marker": {
-        "enabled": true
-      }    
-    }, /* dunkelviolett */
-        {"color": "#7F5F1A",
-        visible:true,
-         showInLegend: false,
-      "marker": {
-        "enabled": true
-      }    
-    }, /* dunkelbraun */
-    	{"color": "#FABD24",
-	visible:true,
-	 showInLegend: false,
-      "marker": {
-        "enabled": true
-      }    
-    }, /* dunkelgelb */
-    	{"color": "#3C3C3C",
-	visible:true,
-	 showInLegend: false,
-      "marker": {
-        "enabled": true
-      }    
-    }, /* schwarz */
+    }, 
+  	{ color: "#3C3C3C", /* schwarz */
+	    showInLegend: false,
+    }, 
   ],
   "legend": {
     "enabled": true,
     "itemMarginBottom": 5,
 		labelFormatter: function () {
-                return this.name.slice(0, -7)
-            },
+      return this.name.slice(0, -7);
+    },
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
   "plotOptions": {
     "line": {
-	  "connectNulls": true,
       "marker":{
         "enabled": false,
         "symbol": "circle",
+        radius: 2
       }
     }
   }
