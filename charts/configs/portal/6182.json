@@ -729,6 +729,9 @@
     {
       "color": "#3C3C3C",
       "showInLegend": false,
+      "marker": {
+        "enabled": true
+      },
       "data": [
         [
           2006,

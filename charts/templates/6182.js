@@ -61,6 +61,9 @@
     }, 
   	{ color: "#3C3C3C", /* schwarz */
 	    showInLegend: false,
+      marker: {
+        enabled: true, 
+      }    
     }, 
   ],
   "legend": {
