@@ -66,12 +66,16 @@
       }    
     }, 
   ],
-  "legend": {
+   "legend": {
+   		labelFormatter: function () {
+        return this.name.slice(0, this.name.indexOf('(Stadt)'));
+      },
     "enabled": true,
+    itemDistance: 5, 
+    "layout": "horizontal",
+    "verticalAlign": "top",
     "itemMarginBottom": 5,
-		labelFormatter: function () {
-      return this.name.slice(0, this.name.indexOf('(Stadt)'));
-    },
+    "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
     }
