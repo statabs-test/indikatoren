@@ -7,7 +7,7 @@
 
        return {
 		"legend": {
-    		useHTML: true,
+    		useHTML: false,
 			"title": {
 				"text": null, 
 				style: {'fontWeight':' bold'}

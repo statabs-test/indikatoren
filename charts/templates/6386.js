@@ -5,7 +5,7 @@ global geojson_wohnviertelEPSG2056
 (function(){
    return {
 		"legend": {
-    		useHTML: true,
+    		useHTML: false,
 			"title": {
 			"text": "Median pro Veranlagung <br/> in Fr.",
 				style: {'fontWeight':' bold'} 

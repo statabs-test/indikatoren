@@ -5,7 +5,7 @@ global geojson_wohnviertelEPSG2056
 (function(){
    return {
 		"legend": {
-    		useHTML: true,
+    		useHTML: false,
 			"title": {
 			"text": "Median pro Veranlagung <br/> in Fr.",
 				style: {'fontWeight':' bold'} 
@@ -72,6 +72,18 @@ global geojson_wohnviertelEPSG2056
 				}
 			}	
 		], 
+	chart: {
+			events: {
+	            load: function (e) {
+	            	
+	            	this.credits.element.onclick = function() {};
+	                var chart = this;
+	                var fn = this.options.customFunctions;
+	                //define new Highcharts template "mappie"
+	                fn.addLegendRectangle(chart, -100, 0, 10, 12, 'rgba(222, 222, 222, 0.5)');
+	            }
+			}
+		}		
 	};
 }());
 

@@ -76,6 +76,7 @@
             }
         },
         "legend": {
+			useHTML: false,
     		"enabled": true, 
             "align": "right",
             "floating": true,

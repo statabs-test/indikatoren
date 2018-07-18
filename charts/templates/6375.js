@@ -131,9 +131,9 @@
 	                fn.addLegendTitle(chart, "Anteil unter 20-Jähriger in %", 265, 300, 'pieLegendStayOnZoom');
 	                
 	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#C9D6DB', 'pieLegendStayeOnZoom');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 300, 245, 'pieLegendRecalculateOnZoom', false, minValueInLegend);
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend), 0, ",", " "), 300, 245, 'pieLegendRecalculateOnZoom', false, minValueInLegend);
 	                fn.addLegendCircle(chart, 280, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#C9D6DB', 'pieLegendStayeOnZoom');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 300, 270, 'pieLegendRecalculateOnZoom', false, maxValueInLegend);
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend), 0, ",", " "), 300, 270, 'pieLegendRecalculateOnZoom', false, maxValueInLegend);
 	                
 	                //fn.addSubtitle(chart, "Kanton Basel-Stadt: 32 873 unter 20-Jährige (16,6%)", 7, 40, 'pieLegendHideOnZoom')
 	                

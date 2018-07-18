@@ -5,6 +5,7 @@ global geojson_wohnviertelEPSG2056
 (function(){
    return {
 		"legend": {
+			useHTML: false,
 			"title": {
 			"text": "Seit mindestens 10 Jahren an der<br/>gleichen Adresse lebende Personen<br/>in %",
 			style: {'fontWeight':' bold'} 
