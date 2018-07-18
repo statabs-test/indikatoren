@@ -75,12 +75,11 @@ global geojson_wohnviertelEPSG2056
 	chart: {
 			events: {
 	            load: function (e) {
-	            	
 	            	this.credits.element.onclick = function() {};
 	                var chart = this;
 	                var fn = this.options.customFunctions;
 	                //define new Highcharts template "mappie"
-	                fn.addLegendRectangle(chart, -100, 0, 10, 12, 'rgba(222, 222, 222, 0.5)');
+	                fn.addLegendRectangle(chart, 260, 220, 160, 120, 'rgba(222, 222, 222, 0.5)');
 	            }
 			}
 		}		
