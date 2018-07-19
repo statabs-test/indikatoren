@@ -455,18 +455,19 @@
 						//if useHTMl is true, text is in span elements within DIVs classed .pieLegend. Add the class to these spans
 						$(divIdString + ' .pieLegend>span').addClass('pieLegend').addClass('pieLegendHtmlText');
 						//toggle active state of legend elements
-						var pieLegendItems = $('.pieLegend');
+						var pieLegendItems = $(divIdString + ' .pieLegend');
 						//backup original color
 						pieLegendItems.each(function(i, v){
 							if (!$(this).attr('fill_active')) {
 								//if no fill color is defined, set to  black
-								$(this).attr('fill_active', $(this).attr('fill') || 'black');	
+								$(this).attr('fill_active', $(this).attr('fill') || 'black');
+								$(this).attr('fill', $(this).attr('fill') || 'black');	
 							}
 							if (!$(this).attr('stroke_active')) {
-								$(this).attr('stroke_active', $(this).attr('stroke') || null);	
+								$(this).attr('stroke_active', $(this).attr('stroke') || null);
+								$(this).attr('stroke', $(this).attr('stroke') || null);	
 							}
 						});
-						//toggle color
 						//toggle color
 						
 						var whiteTransp = 'rgba(255,255,255, 0)';
@@ -487,8 +488,9 @@
 								}
 
 							});
+							
 							//same for html text spans
-							$(divIdString + ' .pieLegendHtmlText').css('color', '#cccccc');
+							$(divIdString + ' .pieLegendHtmlText').css('color', whiteTransp);
 						} 
 						else {
 							pieLegendItems.each(function(i, v){
@@ -497,7 +499,10 @@
 								$(this).attr('stroke', $(this).attr('stroke_active'));	
 							});
 							//same for html text spans
-							$(divIdString + ' .pieLegendHtmlText').css('color', 'black');
+							//$(divIdString + ' .pieLegendHtmlText').css('color', $(this).attr('color_active') || 'black');
+							$(divIdString + ' .pieLegendHtmlText').each(function(i,v){
+								$(this).css('color', $(this).attr('color_active') || 'black');
+							});
 						}
 					});
 				},

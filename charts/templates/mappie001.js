@@ -187,8 +187,9 @@
 									var zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
 									$(divIdString + selector).each(function(){
 										var initialValue = $(this).attr('initialValue');
+										var initialText = $(this).attr('initialText');
 										var legendValue = initialValue / zoom / zoom;
-										$(this).contents()[0].innerHTML = (zoom ==1)  ? initialValue : fn.legendLabelZoomFormatter(legendValue);
+										$(this).contents()[0].innerHTML = (zoom ==1)  ? initialText : fn.legendLabelZoomFormatter(legendValue);
 									});
 								}
 							}
@@ -471,7 +472,8 @@
     				.attr({
     					zIndex: 6,
     					class: cssClass + ' pieLegend', 
-    					initialValue: initialValue
+    					initialValue: initialValue, 
+    					initialText: text
     				}).add();
                 },
                 
@@ -480,7 +482,8 @@
     				.attr({
     					zIndex: 6,
     					class: cssClass +' pieLegend',
-    					initialValue: initialValue
+    					initialValue: initialValue,
+    					initialText: text
     					})
     				.css({
                         fontWeight: 'bold' }).
@@ -569,7 +572,10 @@
 								$(this).attr('stroke', $(this).attr('stroke_active'));	
 							});
 							//same for html text spans
-							$(divIdString + ' .pieLegendHtmlText').css('color', 'black');
+							//$(divIdString + ' .pieLegendHtmlText').css('color', $(this).attr('color_active') || 'black');
+							$(divIdString + ' .pieLegendHtmlText').each(function(i,v){
+								$(this).css('color', $(this).attr('color_active') || 'black');
+							});
 						}
 					});
 				},
