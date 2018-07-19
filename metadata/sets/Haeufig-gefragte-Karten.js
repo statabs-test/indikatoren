@@ -7,7 +7,7 @@ var indikatorensetData = [
 		"description": "Sesshaftigkeit nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Haeufig-gefragte-Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -44,7 +44,7 @@ var indikatorensetData = [
 		"description": "Reinvermögen nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Haeufig-gefragte-Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -81,7 +81,7 @@ var indikatorensetData = [
 		"description": "Unter 20-Jährige nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Haeufig-gefragte-Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -118,7 +118,7 @@ var indikatorensetData = [
 		"description": "Über 64-Jährige nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Haeufig-gefragte-Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -155,7 +155,7 @@ var indikatorensetData = [
 		"description": "Gebäudedichte nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Haeufig-gefragte-Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -192,7 +192,7 @@ var indikatorensetData = [
 		"description": "Wohnungsdichte nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Haeufig-gefragte-Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -229,7 +229,7 @@ var indikatorensetData = [
 		"description": "Leerwohnungen nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Haeufig-gefragte-Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -266,7 +266,7 @@ var indikatorensetData = [
 		"description": "Sozialhilfe nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Haeufig-gefragte-Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -303,7 +303,7 @@ var indikatorensetData = [
 		"description": "Ausländische Bevölkerung nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Haeufig-gefragte-Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -340,7 +340,7 @@ var indikatorensetData = [
 		"description": "Reineinkommen nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Haeufig-gefragte-Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -377,7 +377,7 @@ var indikatorensetData = [
 		"description": "Arbeitsstätten nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Haeufig-gefragte-Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -415,7 +415,7 @@ var indikatorensetData = [
 		"description": "Beschäftigte nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Haeufig-gefragte-Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -453,7 +453,7 @@ var indikatorensetData = [
 		"description": "Sesshaftigkeit nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Haeufig-gefragte-Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -488,7 +488,7 @@ var indikatorensetData = [
 		"description": "Reinvermögen nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Haeufig-gefragte-Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -523,7 +523,7 @@ var indikatorensetData = [
 		"description": "Unter 20-Jährige nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Haeufig-gefragte-Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -558,7 +558,7 @@ var indikatorensetData = [
 		"description": "Über 64-Jährige nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Haeufig-gefragte-Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -593,7 +593,7 @@ var indikatorensetData = [
 		"description": "Gebäudedichte nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Haeufig-gefragte-Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -628,7 +628,7 @@ var indikatorensetData = [
 		"description": "Wohnungsdichte nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Haeufig-gefragte-Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -663,7 +663,7 @@ var indikatorensetData = [
 		"description": "Leerwohnungen nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Haeufig-gefragte-Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -698,7 +698,7 @@ var indikatorensetData = [
 		"description": "Sozialhilfe nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Haeufig-gefragte-Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -733,7 +733,7 @@ var indikatorensetData = [
 		"description": "Reineinkommen nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Haeufig-gefragte-Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -768,7 +768,7 @@ var indikatorensetData = [
 		"description": "Arbeitsstätten nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Haeufig-gefragte-Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -804,7 +804,7 @@ var indikatorensetData = [
 		"description": "Beschäftigte nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Haeufig-gefragte-Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
@@ -840,7 +840,7 @@ var indikatorensetData = [
 		"description": "Ausländische Bevölkerung nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Haeufig-gefragte-Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],

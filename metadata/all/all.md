@@ -624,29 +624,29 @@ id | visible | visibleInPortal | indikatorenset
 6370 | true | false | Legislaturplan (Print)
 6371 | true | false | Legislaturplan (Print)
 6372 | true | false | Legislaturplan (Print)
-6373 | true | true | Häufig gefragte Karten
-6374 | true | true | Häufig gefragte Karten
-6375 | true | true | Häufig gefragte Karten
-6376 | true | true | Häufig gefragte Karten
-6377 | true | true | Häufig gefragte Karten
-6378 | true | true | Häufig gefragte Karten
-6379 | true | true | Häufig gefragte Karten
-6380 | true | true | Häufig gefragte Karten
-6381 | true | true | Häufig gefragte Karten
-6382 | true | true | Häufig gefragte Karten
-6383 | true | true | Häufig gefragte Karten
-6384 | true | true | Häufig gefragte Karten
-6385 | true | false | Häufig gefragte Karten
-6386 | true | false | Häufig gefragte Karten
-6387 | true | false | Häufig gefragte Karten
-6388 | true | false | Häufig gefragte Karten
-6389 | true | false | Häufig gefragte Karten
-6390 | true | false | Häufig gefragte Karten
-6391 | true | false | Häufig gefragte Karten
-6392 | true | false | Häufig gefragte Karten
-6394 | true | false | Häufig gefragte Karten
-6395 | true | false | Häufig gefragte Karten
-6396 | true | false | Häufig gefragte Karten
+6373 | true | true | Haeufig-gefragte-Karten
+6374 | true | true | Haeufig-gefragte-Karten
+6375 | true | true | Haeufig-gefragte-Karten
+6376 | true | true | Haeufig-gefragte-Karten
+6377 | true | true | Haeufig-gefragte-Karten
+6378 | true | true | Haeufig-gefragte-Karten
+6379 | true | true | Haeufig-gefragte-Karten
+6380 | true | true | Haeufig-gefragte-Karten
+6381 | true | true | Haeufig-gefragte-Karten
+6382 | true | true | Haeufig-gefragte-Karten
+6383 | true | true | Haeufig-gefragte-Karten
+6384 | true | true | Haeufig-gefragte-Karten
+6385 | true | false | Haeufig-gefragte-Karten
+6386 | true | false | Haeufig-gefragte-Karten
+6387 | true | false | Haeufig-gefragte-Karten
+6388 | true | false | Haeufig-gefragte-Karten
+6389 | true | false | Haeufig-gefragte-Karten
+6390 | true | false | Haeufig-gefragte-Karten
+6391 | true | false | Haeufig-gefragte-Karten
+6392 | true | false | Haeufig-gefragte-Karten
+6394 | true | false | Haeufig-gefragte-Karten
+6395 | true | false | Haeufig-gefragte-Karten
+6396 | true | false | Haeufig-gefragte-Karten
 6398 | true | true | Integration
 6399 | true | true | Integration
 6400 | true | true | Integration
@@ -800,7 +800,7 @@ id | visible | visibleInPortal | indikatorenset
 6759 | true | true | Wohnviertel
 6771 | true | false | Wanderungen (Print)
 6774 | true | false | Wanderungen (Print)
-6778 | true | false | Häufig gefragte Karten
+6778 | true | false | Haeufig-gefragte-Karten
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
