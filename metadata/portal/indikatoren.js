@@ -12660,12 +12660,12 @@ var indikatoren = [
 		"description": "Sesshaftigkeit nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "GIS PDF kontinuierlich",
+		"kennzahlenset": "Häufig gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "",
+		"stufe1": "kontinuerlich",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -12675,7 +12675,7 @@ var indikatoren = [
 		"template": "map002",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "02_00_00_00_00_000",
 		"parentId": null,
 		"children": [
 			"6385"
@@ -12698,12 +12698,12 @@ var indikatoren = [
 		"description": "Reinvermögen nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "GIS PDF kontinuierlich",
+		"kennzahlenset": "Häufig gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "",
+		"stufe1": "kontinuerlich",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -12713,7 +12713,7 @@ var indikatoren = [
 		"template": "map002",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "02_00_00_00_00_000",
 		"parentId": null,
 		"children": [
 			"6386"
@@ -12736,12 +12736,12 @@ var indikatoren = [
 		"description": "Unter 20-Jährige nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "GIS PDF kontinuierlich",
+		"kennzahlenset": "Häufig gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "",
+		"stufe1": "kontinuerlich",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -12751,7 +12751,7 @@ var indikatoren = [
 		"template": "mappie001",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "02_00_00_00_00_000",
 		"parentId": null,
 		"children": [
 			"6387"
@@ -12774,12 +12774,12 @@ var indikatoren = [
 		"description": "Über 64-Jährige nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "GIS PDF kontinuierlich",
+		"kennzahlenset": "Häufig gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "",
+		"stufe1": "kontinuerlich",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -12789,7 +12789,7 @@ var indikatoren = [
 		"template": "mappie001",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "02_00_00_00_00_000",
 		"parentId": null,
 		"children": [
 			"6388"
@@ -12812,12 +12812,12 @@ var indikatoren = [
 		"description": "Gebäudedichte nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "GIS PDF kontinuierlich",
+		"kennzahlenset": "Häufig gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "",
+		"stufe1": "kontinuerlich",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -12827,7 +12827,7 @@ var indikatoren = [
 		"template": "mappie001",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "02_00_00_00_00_000",
 		"parentId": null,
 		"children": [
 			"6389"
@@ -12850,12 +12850,12 @@ var indikatoren = [
 		"description": "Wohnungsdichte nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "GIS PDF kontinuierlich",
+		"kennzahlenset": "Häufig gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "",
+		"stufe1": "kontinuerlich",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -12865,7 +12865,7 @@ var indikatoren = [
 		"template": "mappie001",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "02_00_00_00_00_000",
 		"parentId": null,
 		"children": [
 			"6390"
@@ -12888,12 +12888,12 @@ var indikatoren = [
 		"description": "Leerwohnungen nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "GIS PDF kontinuierlich",
+		"kennzahlenset": "Häufig gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "",
+		"stufe1": "kontinuerlich",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -12903,7 +12903,7 @@ var indikatoren = [
 		"template": "mappie001",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "02_00_00_00_00_000",
 		"parentId": null,
 		"children": [
 			"6391"
@@ -12926,12 +12926,12 @@ var indikatoren = [
 		"description": "Sozialhilfe nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "GIS PDF kontinuierlich",
+		"kennzahlenset": "Häufig gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "",
+		"stufe1": "kontinuerlich",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -12941,7 +12941,7 @@ var indikatoren = [
 		"template": "mappie001",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "02_00_00_00_00_000",
 		"parentId": null,
 		"children": [
 			"6392"
@@ -12961,15 +12961,15 @@ var indikatoren = [
 		"subtitle": "Stand: 2017",
 		"kuerzel": "",
 		"kuerzelKunde": "",
-		"description": "Ausländische Bevökerung nach Wohnviertel",
+		"description": "Ausländische Bevölkerung nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "GIS PDF kontinuierlich",
+		"kennzahlenset": "Häufig gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "",
+		"stufe1": "kontinuerlich",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -12979,7 +12979,7 @@ var indikatoren = [
 		"template": "mappie002",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "02_00_00_00_00_000",
 		"parentId": null,
 		"children": [
 			"6778"
@@ -13002,12 +13002,12 @@ var indikatoren = [
 		"description": "Reineinkommen nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "GIS PDF kontinuierlich",
+		"kennzahlenset": "Häufig gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "",
+		"stufe1": "kontinuerlich",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -13017,7 +13017,7 @@ var indikatoren = [
 		"template": "map002",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "02_00_00_00_00_000",
 		"parentId": null,
 		"children": [
 			"6394"
@@ -13040,12 +13040,12 @@ var indikatoren = [
 		"description": "Arbeitsstätten nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "GIS PDF kontinuierlich",
+		"kennzahlenset": "Häufig gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "",
+		"stufe1": "kontinuerlich",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -13055,7 +13055,7 @@ var indikatoren = [
 		"template": "mappie001",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "02_00_00_00_00_000",
 		"parentId": null,
 		"children": [
 			"6395"
@@ -13079,12 +13079,12 @@ var indikatoren = [
 		"description": "Beschäftigte nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "",
-		"kennzahlenset": "GIS PDF kontinuierlich",
+		"kennzahlenset": "Häufig gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "",
+		"stufe1": "kontinuerlich",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -13094,7 +13094,7 @@ var indikatoren = [
 		"template": "mappie001",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "02_00_00_00_00_000",
 		"parentId": null,
 		"children": [
 			"6396"
