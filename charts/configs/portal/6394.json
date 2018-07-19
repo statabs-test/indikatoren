@@ -3535,9 +3535,13 @@
   ],
   "chart": {
     "events": {
-      "load": function () {                
-                    this.credits.element.onclick = function() {};
-                }
+      "load": function (e) {
+	            	this.credits.element.onclick = function() {};
+	                var chart = this;
+	                var fn = this.options.customFunctions;
+	                //define new Highcharts template "mappie"
+	                fn.addLegendRectangle(chart, 260, 220, 160, 120, 'rgba(222, 222, 222, 0.5)');
+	            }
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
@@ -3641,6 +3645,7 @@
     }
   },
   "legend": {
+    "useHTML": false,
     "enabled": true,
     "align": "right",
     "floating": true,
@@ -3654,7 +3659,6 @@
       },
       "text": "Median pro Veranlagung \u003Cbr\u002F\u003E in Fr."
     },
-    "useHTML": true,
     "layout": "vertical",
     "x": -60,
     "y": -20,

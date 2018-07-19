@@ -4379,7 +4379,7 @@
       },
       "text": null
     },
-    "useHTML": true,
+    "useHTML": false,
     "layout": "vertical",
     "x": -130,
     "y": -10,

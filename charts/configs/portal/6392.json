@@ -3844,7 +3844,7 @@
       },
       "text": null
     },
-    "useHTML": true,
+    "useHTML": false,
     "layout": "vertical",
     "x": -150,
     "y": -20,

@@ -3843,7 +3843,7 @@
       },
       "text": null
     },
-    "useHTML": true,
+    "useHTML": false,
     "layout": "vertical",
     "x": -127,
     "y": -15,
