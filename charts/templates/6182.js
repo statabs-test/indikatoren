@@ -17,50 +17,56 @@
   },
   "series": [
     {color: "#B00000"}, /* dunkelrot */
-  	{color: "#007A2F"}, /* dunkelgrün */
-  	{color: "#4f81bd"}, /* dunkelblau */
-  	{color: "#662673"}, /* dunkelviolett */
-    {color: "#7F5F1A"}, /* dunkelbraun */
-  	{color: "#FABD24"}, /* dunkelgelb */
-  	{color: "#3C3C3C"}, /* schwarz */
     { color: "#B00000", /* dunkelrot */
-      showInLegend: false,
+      linkedTo: ':previous',
         marker: {
           enabled: true,
         }    
     }, 
+  	{color: "#007A2F"}, /* dunkelgrün */
     { color: "#007A2F", /* dunkelgrün */
 	    showInLegend: false,
+	    linkedTo: ':previous',
       marker: {
         enabled: true,
       }    
     }, 
+  	{color: "#4f81bd"}, /* dunkelblau */
     { color: "#4f81bd", /* dunkelblau */
 	    showInLegend: false,
+	    linkedTo: ':previous',
         marker: {
         enabled: true,
       }    
     }, 
+  	{color: "#662673"}, /* dunkelviolett */
   	{ color: "#662673", /* dunkelviolett */
 	    showInLegend: false,
+	    linkedTo: ':previous',
       marker: {
         enabled: true,
       }    
     }, 
+    {color: "#7F5F1A"}, /* dunkelbraun */
     { color: "#7F5F1A", /* dunkelbraun */
-      showInLegend: false,
+
+      linkedTo: ':previous',
       marker: {
         enabled: true,
       }    
     }, 
+  	{color: "#FABD24"}, /* dunkelgelb */
   	{ color: "#FABD24", /* dunkelgelb */
 	    showInLegend: false,
+	    linkedTo: ':previous',
       marker: {
         enabled: true, 
       }    
     }, 
+  	{color: "#3C3C3C"}, /* schwarz */
   	{ color: "#3C3C3C", /* schwarz */
 	    showInLegend: false,
+	    linkedTo: ':previous',
       marker: {
         enabled: true, 
       }    
