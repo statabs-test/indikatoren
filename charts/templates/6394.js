@@ -24,6 +24,7 @@ global geojson_wohnviertelEPSG2056
          colorAxis: {
             dataClassColor: 'category',
                    dataClasses: [{
+               	from: 0,
                 to:41999,
                 color: '#D3E2E4',
                 name:  "<span style='color: rgba(0,0,0,0)'>00 000</span> < 42 000"
