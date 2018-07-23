@@ -53,7 +53,7 @@
                 "x": 10
             }
         },
-	"colorAxis": {
+		"colorAxis": {
 	    		"min": 0,
 	    		"gridLineColor": "#fbfbfb",	
 	            "gridLineWidth": 1,
@@ -150,6 +150,32 @@
 				}
     		}
 		], 
+		//make sure charts are exported as displayed
+		exporting: {
+			menuItemDefinitions: {
+		        downloadPNG: {
+			            onclick: function () {
+			            	this.options.customFunctions.exportCurrentSVG(this, 'image/png');
+			            },
+		        },
+		        downloadJPEG: {
+			            onclick: function () {
+			            	this.options.customFunctions.exportCurrentSVG(this, 'image/jpeg');
+			            },
+		        },
+		        downloadPDF: {
+			            onclick: function () {
+			            	this.options.customFunctions.exportCurrentSVG(this, "application/pdf");
+			            },
+		        },
+		        downloadSVG: {
+			            onclick: function () {
+			            	this.options.customFunctions.exportCurrentSVG(this, 'image/svg+xml');
+			            },
+		        },
+	        }
+		},
+		
 		customFunctions: {
 			
 			hideOnZoom: function(e, selector){
@@ -579,7 +605,22 @@
 						}
 					});
 				},
+				
+				
+				//override function getSVG to make sure charts are exported as displayed, see https://forum.highcharts.com/highcharts-usage/how-to-force-export-server-to-render-current-svg-t40838/
+				exportCurrentSVG: function(chart, type){
+					var origFn = Highcharts.Chart.prototype.getSVG;
+					Highcharts.Chart.prototype.getSVG = function() {
+						console.log("Using current SVG to export.");
+						var svg = chart.getChartHTML();
+						svg = chart.sanitizeSVG(svg);
+						return svg;
+					};		            	
+	                chart.exportChart({type: type || 'image/png'});
+	                Highcharts.Chart.prototype.getSVG = origFn;					
+				}, 
 		}
     };
+    
     }()
 );
