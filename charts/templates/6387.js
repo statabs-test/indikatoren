@@ -108,7 +108,7 @@
 					var pieSizeCatConfig = 
 					[
 						{
-							name: "<span style='color: rgba(0,0,0,0)'>1 899</span> <  800",
+							name: "<span color_active='rgba(0,0,0,0)' style='color: rgba(0,0,0,0)'>1 899</span> <  800",
 							from: 0,
 							to: 799, 
 							diameter: 5
@@ -120,7 +120,7 @@
 							diameter: 10
 						},
 						{
-							name: "<span style='color: rgba(0,0,0,0)'>600</span> ≥  1 900",
+							name: "<span color_active='rgba(0,0,0,0)' style='color: rgba(0,0,0,0)'>600</span> ≥  1 900",
 							from: 1900,							
 							to: 1000000000,
 							diameter: 20
