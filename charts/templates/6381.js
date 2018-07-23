@@ -14,7 +14,7 @@
 			}
 			},
 		"colorAxis": {
-			//"min": undefined,
+			"min": 0.2,
 			"minColor": "#ECE1D0",
 			"maxColor": "#3A2012",
 			"labels": {
