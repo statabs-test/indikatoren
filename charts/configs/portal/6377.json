@@ -3705,7 +3705,7 @@
 	                //fn.addLegendTitle(chart, pieSizeSeries.name, 265, 220, 'pieLegend pieLegendHideOnZoom');
 
 	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#7F5F1A', 'pieLegendStayeOnZoom');
-	                fn.addLegendLabel(chart, "<span style='color: rgba(0,0,0,0)'>00</span>"+Highcharts.numberFormat((minValueInLegend),0,","," "), 300, 245, 'pieLegendRecalculateOnZoom', false, minValueInLegend);
+	                fn.addLegendLabel(chart, "<tspan fill='rgba(0,0,0,0)'>00</tspan><tspan>" + Highcharts.numberFormat((minValueInLegend),0,","," ") + "</tspan>", 300, 245, 'pieLegendRecalculateOnZoom', false, minValueInLegend);
 	                fn.addLegendCircle(chart, 280, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#7F5F1A', 'pieLegendStayeOnZoom');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 300, 270, 'pieLegendRecalculateOnZoom', false, maxValueInLegend);
 	                
