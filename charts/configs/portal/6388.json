@@ -3667,7 +3667,7 @@
 					var pieSizeCatConfig = 
 					[
 						{
-							name: "<span style='color: rgba(0,0,0,0)'>1 000</span> < 1 000",
+							name: "<span color_active='rgba(0,0,0,0)' style='color: rgba(0,0,0,0)'>1 000</span> < 1 000",
 							from: 0,
 							to: 999.9, 
 							diameter: 5
@@ -3679,7 +3679,7 @@
 							diameter: 10
 						},
 						{
-							name: "<span style='color: rgba(0,0,0,0)'>2 500</span> ≥  2 300",
+							name: "<span color_active='rgba(0,0,0,0)' style='color: rgba(0,0,0,0)'>2 500</span> ≥  2 300",
 							from: 2300,							
 							to: 1000000000,
 							diameter: 20
@@ -3865,6 +3865,31 @@
 					}
 				}
     }
+  },
+  "exporting": {
+    "menuItemDefinitions": {
+      "downloadPNG": {
+        "onclick": function () {
+			            	this.options.customFunctions.exportCurrentSVG(this, 'image/png');
+			            }
+      },
+      "downloadJPEG": {
+        "onclick": function () {
+			            	this.options.customFunctions.exportCurrentSVG(this, 'image/jpeg');
+			            }
+      },
+      "downloadPDF": {
+        "onclick": function () {
+			            	this.options.customFunctions.exportCurrentSVG(this, "application/pdf");
+			            }
+      },
+      "downloadSVG": {
+        "onclick": function () {
+			            	this.options.customFunctions.exportCurrentSVG(this, 'image/svg+xml');
+			            }
+      }
+    },
+    "filename": 6388
   },
   "customFunctions": {
     "hideOnZoom": function (e, selector){
@@ -4262,9 +4287,17 @@
 							});
 						}
 					});
+				},
+    "exportCurrentSVG": function (chart, type){
+					var origFn = Highcharts.Chart.prototype.getSVG;
+					Highcharts.Chart.prototype.getSVG = function() {
+						console.log("Using current SVG to export.");
+						var svg = chart.getChartHTML();
+						svg = chart.sanitizeSVG(svg);
+						return svg;
+					};		            	
+	                chart.exportChart({type: type || 'image/png'});
+	                Highcharts.Chart.prototype.getSVG = origFn;					
 				}
-  },
-  "exporting": {
-    "filename": 6388
   }
 }

@@ -3667,19 +3667,19 @@
 					var pieSizeCatConfig = 
 					[
 						{
-							name: "<span style='color: rgba(0,0,0,0)'>000</span> <<span style='color: rgba(0,0,0,0)'>00</span>400",
+							name: "<span color_active='rgba(0,0,0,0)' style='color: rgba(0,0,0,0)'>000</span> <<span color_active='rgba(0,0,0,0)' style='color: rgba(0,0,0,0)'>00</span>400",
 							from: 0,
 							to: 399, 
 							diameter: 5
 						},
 						{
-							name: "400 −<span style='color: rgba(0,0,0,0)'>00</span>999",
+							name: "400 −<span color_active='rgba(0,0,0,0)' style='color: rgba(0,0,0,0)'>00</span>999",
 							from: 400,
 							to: 999,
 							diameter: 10
 						},
 						{
-							name: "<span style='color: rgba(0,0,0,0)'>000</span> ≥  1 000",
+							name:"<span color_active='rgba(0,0,0,0)' style='color: rgba(0,0,0,0)'>000</span> ≥  1 000",
 							from: 1000,							
 							to: 1000000000,
 							diameter: 20
@@ -3865,6 +3865,31 @@
 					}
 				}
     }
+  },
+  "exporting": {
+    "menuItemDefinitions": {
+      "downloadPNG": {
+        "onclick": function () {
+			            	this.options.customFunctions.exportCurrentSVG(this, 'image/png');
+			            }
+      },
+      "downloadJPEG": {
+        "onclick": function () {
+			            	this.options.customFunctions.exportCurrentSVG(this, 'image/jpeg');
+			            }
+      },
+      "downloadPDF": {
+        "onclick": function () {
+			            	this.options.customFunctions.exportCurrentSVG(this, "application/pdf");
+			            }
+      },
+      "downloadSVG": {
+        "onclick": function () {
+			            	this.options.customFunctions.exportCurrentSVG(this, 'image/svg+xml');
+			            }
+      }
+    },
+    "filename": 6395
   },
   "customFunctions": {
     "hideOnZoom": function (e, selector){
@@ -4262,9 +4287,17 @@
 							});
 						}
 					});
+				},
+    "exportCurrentSVG": function (chart, type){
+					var origFn = Highcharts.Chart.prototype.getSVG;
+					Highcharts.Chart.prototype.getSVG = function() {
+						console.log("Using current SVG to export.");
+						var svg = chart.getChartHTML();
+						svg = chart.sanitizeSVG(svg);
+						return svg;
+					};		            	
+	                chart.exportChart({type: type || 'image/png'});
+	                Highcharts.Chart.prototype.getSVG = origFn;					
 				}
-  },
-  "exporting": {
-    "filename": 6395
   }
 }

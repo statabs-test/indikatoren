@@ -3587,7 +3587,7 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt"
   },
   "colorAxis": {
-    "min": 0,
+    "min": 20,
     "gridLineColor": "#fbfbfb",
     "gridLineWidth": 1,
     "labels": {
