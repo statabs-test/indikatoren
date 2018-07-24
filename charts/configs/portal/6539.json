@@ -1,107 +1,105 @@
 {
   "series": [
     {
-      "color": "rgb(255, 218, 128)",
+      "color": "#923F8D",
+      "index": 0,
+      "legendIndex": 0,
       "data": [
         [
-          "1- und 2-Sterne",
+          "Angebotene Zimmer 2008",
           313
         ],
         [
-          "3-Sterne",
-          1148
-        ],
-        [
-          "4- und 5-Sterne",
-          1623
-        ],
-        [
-          "Nicht klassiert",
-          290
-        ]
-      ],
-      "name": "Angebotene Zimmer 2008",
-      "turboThreshold": 0
-    },
-    {
-      "color": "rgb(186, 168, 90)",
-      "data": [
-        [
-          "1- und 2-Sterne",
+          "Angebotene Zimmer 2017",
           736
         ],
         [
-          "3-Sterne",
-          1623
-        ],
-        [
-          "4- und 5-Sterne",
-          1652
-        ],
-        [
-          "Nicht klassiert",
-          346
-        ]
-      ],
-      "name": "Angebotene Zimmer 2017",
-      "turboThreshold": 0
-    },
-    {
-      "color": "rgb(220, 68, 14)",
-      "type": "scatter",
-      "marker": {
-        "symbol": "diamond",
-        "radius": 8
-      },
-      "pointPlacement": -0.15,
-      "data": [
-        [
-          "1- und 2-Sterne",
+          "Nettozimmerauslastung (rechte Skala) 2008",
           0.66211857
         ],
         [
-          "3-Sterne",
-          0.666619067
-        ],
-        [
-          "4- und 5-Sterne",
-          0.67476068
-        ],
-        [
-          "Nicht klassiert",
-          0.401365677
+          "Nettozimmerauslastung (rechte Skala) 2017",
+          0.494873855
         ]
       ],
-      "name": "Nettozimmerauslastung (rechte Skala) 2008",
+      "name": "1- und 2-Sterne",
       "turboThreshold": 0
     },
     {
-      "color": "rgb(139, 34, 35)",
-      "type": "scatter",
-      "marker": {
-        "symbol": "diamond",
-        "radius": 8
-      },
-      "pointPlacement": 0.15,
+      "color": "#FABD24",
+      "index": 1,
+      "legendIndex": 1,
       "data": [
         [
-          "1- und 2-Sterne",
-          0.494873855
+          "Angebotene Zimmer 2008",
+          1148
         ],
         [
-          "3-Sterne",
+          "Angebotene Zimmer 2017",
+          1623
+        ],
+        [
+          "Nettozimmerauslastung (rechte Skala) 2008",
+          0.666619067
+        ],
+        [
+          "Nettozimmerauslastung (rechte Skala) 2017",
           0.635030286
+        ]
+      ],
+      "name": "3-Sterne",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73ba7c",
+      "index": 2,
+      "legendIndex": 2,
+      "data": [
+        [
+          "Angebotene Zimmer 2008",
+          1623
         ],
         [
-          "4- und 5-Sterne",
+          "Angebotene Zimmer 2017",
+          1652
+        ],
+        [
+          "Nettozimmerauslastung (rechte Skala) 2008",
+          0.67476068
+        ],
+        [
+          "Nettozimmerauslastung (rechte Skala) 2017",
           0.643437661
+        ]
+      ],
+      "name": "4- und 5-Sterne",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#999999",
+      "legendIndex": 3,
+      "type": "column",
+      "stacking": false,
+      "borderWidth": 0,
+      "data": [
+        [
+          "Angebotene Zimmer 2008",
+          290
         ],
         [
-          "Nicht klassiert",
+          "Angebotene Zimmer 2017",
+          346
+        ],
+        [
+          "Nettozimmerauslastung (rechte Skala) 2008",
+          0.401365677
+        ],
+        [
+          "Nettozimmerauslastung (rechte Skala) 2017",
           0.601112747
         ]
       ],
-      "name": "Nettozimmerauslastung (rechte Skala) 2017",
+      "name": "Nicht klassiert",
       "turboThreshold": 0
     }
   ],
@@ -118,14 +116,16 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "step": 1
     },
-    "tickLength": 0
+    "tickLength": 0,
+    "tickInterval": 10
   },
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 485,
+    "width": 1500,
     "height": 428,
     "spacing": [
       10,
@@ -151,12 +151,10 @@
                 }
               );
             }
-            //move legend title
-            var title = this.legend.title;
-            title.translate(-215, 40);
           }
     },
     "type": "column",
+    "inverted": false,
     "renderTo": "container-6539",
     "spacingBottom": 40
   },
@@ -168,17 +166,8 @@
           "fontSize": "10px"
         }
       },
-      "stacking": null,
-      "pointPadding": 0
-    },
-    "scatter": {
-      "yAxis": 1,
-      "tooltip": {
-        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
-        "pointFormatter": function (){ 
-              return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';
-          }
-      }
+      "pointPadding": 0,
+      "stacking": "normal"
     }
   },
   "title": {
@@ -200,48 +189,24 @@
     "text": "",
     "align": "left"
   },
-  "yAxis": [
-    {
-      "gridLineColor": "#B9CFD7",
-      "gridLineWidth": 0.5,
-      "lineColor": "#B9CFD7",
-      "title": {
-        "style": {
-          "color": "#000000",
-          "fontSize": null
-        },
-        "text": null
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
       },
-      "labels": {
-        "format": "{value:,.0f}",
-        "style": {
-          "color": "#000000"
-        }
-      }
+      "text": null
     },
-    {
-      "opposite": true,
-      "min": 0,
-      "gridLineColor": "#B9CFD7",
-      "gridLineWidth": 0.5,
-      "lineColor": "#B9CFD7",
-      "title": {
-        "style": {
-          "color": "#000000",
-          "fontSize": null
-        },
-        "text": null
+    "labels": {
+      "style": {
+        "color": "#000000"
       },
-      "labels": {
-        "style": {
-          "color": "#000000"
-        },
-        "formatter": function () {
-               return 100 * this.value + "%";
-            }
-      }
+      "format": "{value:,.0f}"
     }
-  ],
+  },
   "navigation": {
     "menuItemStyle": {
       "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
@@ -265,33 +230,18 @@
   },
   "legend": {
     "symbolRadius": 0,
-    "useHTML": true,
-    "y": -40,
+    "y": 45,
+    "enabled": true,
     "layout": "horizontal",
+    "itemWidth": 1000,
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
-    "align": "right",
+    "align": "left",
     "itemStyle": {
-      "fontWeight": "normal",
-      "width": 40
-    },
-    "width": 200,
-    "itemWidth": 70,
-    "labelFormatter": function (){
-        //remove text before year on each item with odd index
-        //return (this.index % 2 != 0) ? this.name.slice(-4) : this.name;
-        return this.name.slice(-4);
-    },
-    "title": {
-      "text": "Angebotene Zimmer:\u003Cbr\u002F\u003ENettozimmerauslastung (rechte Skala):",
-      "style": {
-        "fontWeight": "normal"
-      }
+      "fontWeight": "normal"
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": 6539

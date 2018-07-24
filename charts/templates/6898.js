@@ -23,7 +23,6 @@
         }  
   },
   "legend": { 
-     y: 45,
     "enabled": true,
     "layout": "horizontal",
    "itemWidth": 1000,
@@ -35,9 +34,9 @@
   },
 },
  "series": [
-  {"color": "#923F8D", "index": 0, "legendIndex":0}, /**/
+  {"color": "#73ba7c", "index": 2, "legendIndex":0}, /**/
   {"color": "#FABD24", "index": 1, "legendIndex":1}, /**/
-  {"color": "#73ba7c", "index": 2, "legendIndex":2}, /**/
+  {"color": "#923F8D", "index": 0, "legendIndex":2}, /**/
       {
 	  "color": "#999999",
 	  //"index": 0,

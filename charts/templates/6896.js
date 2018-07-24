@@ -80,12 +80,12 @@
   },
 },
  "series": [
-  {"color": "#007A2F", "index": 0, "legendIndex":0}, /**/
-  {"color": "#083038", "index": 1, "legendIndex":1}, /**/
-  {"color": "#923F8D", "index": 2, "legendIndex":2}, /**/
-  {"color": "#FABD24", "index": 3, "legendIndex":3}, /**/
-  {"color": "#999999", "index": 4, "legendIndex":4}, /**/
-  {"color": "#008AC3", "index": 5, "legendIndex":5}, /**/
+  {"color": "#007A2F", "index": 0, "legendIndex":5}, /**/
+  {"color": "#083038", "index": 1, "legendIndex":4}, /**/
+  {"color": "#923F8D", "index": 2, "legendIndex":3}, /**/
+  {"color": "#FABD24", "index": 3, "legendIndex":2}, /**/
+  {"color": "#999999", "index": 4, "legendIndex":1}, /**/
+  {"color": "#008AC3", "index": 5, "legendIndex":0}, /**/
         {
         	index:6, legendIndex: 6,
             color: "#B00000",

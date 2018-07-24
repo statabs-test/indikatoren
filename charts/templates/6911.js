@@ -1,90 +1,127 @@
+/*
+    global Highcharts
+*/
+
 (function(){
     return {
-  "plotOptions": {
-  	   series: {
-          //pointWidth: 5, 
+    series: [
+        {
+            color: "#FABD24",
         },
-    "column": {
-        "colorByPoint": true
+        {
+            color: "#DC440E",
+        },
+        {
+            color: "#B375AB",
+            type: 'scatter',
+            marker: {
+                symbol: 'circle', 
+                radius: 3
+            },
+            pointPlacement : -0.15
+        },
+        {
+            color: "#662673",
+            type: 'scatter',
+            marker: {
+                symbol: 'circle', 
+                radius: 3
+            },
+            pointPlacement : 0.15
+        }        
+  ],
+  xAxis: {
+      type: "category",
+  "labels": {
+          	step: 1,
+              "rotation":-45,
+        }  
+
+  },
+  yAxis: [
+      {
+        gridLineColor: '#B9CFD7', 
+        gridLineWidth: 0.5,
+        lineColor: '#B9CFD7', 
+        title: {
+            style: {
+                color: "#000000",
+                fontSize: null
+            },
+            text: null
+        },
+        labels: {
+        	format: "{value:,.0f}",
+            style: {
+            color: "#000000"
+            }
+        }
+      },
+      {
+        opposite: true,
+        min: 0,
+        gridLineColor: '#B9CFD7', 
+        gridLineWidth: 0.5,
+        lineColor: '#B9CFD7', 
+        title: {
+            style: {
+                color: "#000000",
+                fontSize: null
+            },
+            text: null
+        },
+        labels: {
+        	format: "{value:,.0f}",
+            style: {
+                color: "#000000"
+            }, 
+
+        }
+      }
+    ],
+  plotOptions: {
+    series: {
+        stacking: null,
+        pointPadding: 0,
+        borderWidth: 0,
+        //pointWidth: 10, 
+
+    }, 
+    scatter: {
+        yAxis: 1,
+        tooltip: {
+          headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
+          pointFormatter: function(){ 
+              return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 0, ",", " ") + '</b><br/>';
+          }
+        }
     }
   },
- "xAxis": {
-    "type": "category",
-    "labels": {
-      "rotation": -90 
-    } 
-  },
-  "yAxis": {
-	"max": 100,
-    "labels": {
-      "format": "{value:,.0f}"
-    }    
-  },
-  
-  series: [{
-    name: 'Kanton'
-  }],
-
-  /*"series": [
-           function() {
-           var col;
-				if(this.series.data[0]=="BS"){
-		   col="#0066FF";
-				}else {
-    		col="#0066EE";
-			}
-            }, 
-  {"color": "col", "visible": true}, 
-  ],*/
-
-    "colors": [
-    "#69929B",
-    "#69929B",
-    "#B00000",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",        
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B", 
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-  ],
-  "legend": {
-    "enabled": false,
+ "legend": { 
+    "enabled": true,
     "layout": "horizontal",
+   "itemWidth": 1000,
     "verticalAlign": "top",
     "align": "left",
-    "x": 35,
-	//"y": 35,    
     "itemStyle": {
-      "fontWeight": "normal"
-    }
+    "fontWeight": "normal"
+    
+  },
+
+
+  },
+  data: {
+      switchRowsAndColumns: true
   },
    tooltip: {
-    headerFormat: '<span style="font-size: 10px">{series.name}</span><br/>',
-    pointFormat: '<span style="color:{point.color}">\u25CF</span> {point.name}: <b>{point.y:,.0f}</b><br/>',
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
     "shared": false
   },
-  "chart": {      
-    "type": "column",
-    "inverted": false,
-    "spacingBottom": 40
-  }
-}
+  chart: {
+        type: 'column',
+             
+ }
+	};
 }());
+
+ 
