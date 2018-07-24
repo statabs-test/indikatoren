@@ -17862,7 +17862,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Mittelwert und Median des Reineinkommens, Summe des Ertrags aus Einkommenssteuer",
-		"subtitle": "n Franken, Basel-Stadt",
+		"subtitle": "in Franken, Basel-Stadt",
 		"kuerzel": "I.18.2.06900",
 		"kuerzelKunde": "",
 		"description": "Mittelwert und Median des Reineinkommens, Summe des Ertrags aus Einkommenssteuer",

@@ -1,167 +1,145 @@
 {
   "series": [
     {
-      "color": "#fabd24",
-      "legendIndex": 2,
+      "color": "#A8C3CA",
       "data": [
         [
-          "2'006",
-          "62'984"
+          2006,
+          62984
         ],
         [
-          "2'007",
-          "65'318"
+          2007,
+          65318
         ],
         [
-          "2'008",
-          "64'910"
+          2008,
+          64910
         ],
         [
-          "2'009",
-          "65'107"
+          2009,
+          65107
         ],
         [
-          "2'010",
-          "65'751"
+          2010,
+          65751
         ],
         [
-          "2'011",
-          "64'818"
+          2011,
+          64818
         ],
         [
-          "2'012",
-          "65'189"
+          2012,
+          65189
         ],
         [
-          "2'013",
-          "66'943"
+          2013,
+          66943
         ],
         [
-          "2'014",
-          "68'538"
+          2014,
+          68538
         ],
         [
-          "2'015",
-          "68'248"
+          2015,
+          68248
         ]
       ],
-      "name": "Mittelwert Reineinkommen",
-      "turboThreshold": 0
+      "name": "Mittelwert Reineinkommen"
     },
     {
-      "color": "#672773",
-      "legendIndex": 2,
+      "color": "#689199",
       "data": [
         [
-          "2'006",
-          "48'563"
+          2006,
+          48563
         ],
         [
-          "2'007",
-          "49'530"
+          2007,
+          49530
         ],
         [
-          "2'008",
-          "47'442"
+          2008,
+          47442
         ],
         [
-          "2'009",
-          "47'980"
+          2009,
+          47980
         ],
         [
-          "2'010",
-          "48'072"
+          2010,
+          48072
         ],
         [
-          "2'011",
-          "48'350"
+          2011,
+          48350
         ],
         [
-          "2'012",
-          "48'409"
+          2012,
+          48409
         ],
         [
-          "2'013",
-          "48'816"
+          2013,
+          48816
         ],
         [
-          "2'014",
-          "49'044"
+          2014,
+          49044
         ],
         [
-          "2'015",
-          "49'142"
+          2015,
+          49142
         ]
       ],
-      "name": "Median Reineinkommen",
-      "turboThreshold": 0
+      "name": "Median Reineinkommen"
     },
     {
-      "color": "#007a2f",
-      "legendIndex": 2,
+      "color": "#083038",
+      "yAxis": 1,
       "data": [
         [
-          "2'006",
-          "1'023'135'594"
+          2006,
+          1023135594
         ],
         [
-          "2'007",
-          "1'069'643'932"
+          2007,
+          1069643932
         ],
         [
-          "2'008",
-          "1'041'456'578"
+          2008,
+          1041456578
         ],
         [
-          "2'009",
-          "1'058'394'894"
+          2009,
+          1058394894
         ],
         [
-          "2'010",
-          "1'088'317'926"
+          2010,
+          1088317926
         ],
         [
-          "2'011",
-          "1'057'636'852"
+          2011,
+          1057636852
         ],
         [
-          "2'012",
-          "1'065'215'842"
+          2012,
+          1065215842
         ],
         [
-          "2'013",
-          "1'084'939'722"
+          2013,
+          1084939722
         ],
         [
-          "2'014",
-          "1'115'435'105"
+          2014,
+          1115435105
         ],
         [
-          "2'015",
-          "1'115'105'002"
+          2015,
+          1115105002
         ]
       ],
-      "name": "Ertrag aus Einkommenssteuer (rechte Skala)",
-      "turboThreshold": 0
+      "name": "Ertrag aus Einkommenssteuer (rechte Skala)"
     }
   ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": false,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      },
-      "step": 1,
-      "rotation": 0
-    },
-    "tickLength": 0,
-    "endOnTick": false,
-    "tickInterval": 5
-  },
   "chart": {
     "events": {
       "load": function () {
@@ -207,32 +185,54 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "n Franken, Basel-Stadt",
+    "text": "in Franken, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
     "shared": false,
-    "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E Alter: {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E%\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
-  "yAxis": {
-    "min": 0,
-    "gridLineColor": "#B9CFD7",
-    "gridLineWidth": 0.5,
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
+  "yAxis": [
+    {
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
       },
-      "text": null
+      "min": 0,
+      "title": ""
     },
+    {
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "gridLineWidth": 0,
+      "opposite": true
+    }
+  ],
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
     "labels": {
       "style": {
-        "color": "#000000"
-      },
-      "format": "{value}%"
+        "color": "#000000",
+        "textOverflow": "none"
+      }
     },
-    "max": 60
+    "tickLength": 0,
+    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -256,8 +256,6 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemWidth": 100,
-    "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"
     }
