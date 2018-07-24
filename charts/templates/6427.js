@@ -16,27 +16,82 @@
   },
  "series": [
   {"color": "#b00000"}, /*Schweiz*/
+   { color: "#b00000", 
+      linkedTo: ':previous',
+        marker: {
+          enabled: true,
+        }    
+    }, 
   {"color": "#672773"}, /*Deutschland*/
+     { color: "#672773", 
+      linkedTo: ':previous',
+        marker: {
+          enabled: true,
+        }    
+    }, 
   {"color": "#007a2f"}, /*Italien*/
+     { color: "#007a2f", 
+      linkedTo: ':previous',
+        marker: {
+          enabled: true,
+        }    
+    }, 
   {"color": "#fabd24"}, /*Türkei*/
+     { color: "#fabd24", 
+      linkedTo: ':previous',
+        marker: {
+          enabled: true,
+        }    
+    }, 
   {"color": "#b475ab"}, /*EU-17 & EFTA*/
+     { color: "#b475ab", 
+      linkedTo: ':previous',
+        marker: {
+          enabled: true,
+        }    
+    }, 
   {"color": "#71a3b5"}, /*EU-Ost */
+     { color: "#71a3b5", 
+      linkedTo: ':previous',
+        marker: {
+          enabled: true,
+        }    
+    }, 
   {"color": "#b9cfd7"}, /*Balkan*/
+     { color: "#b9cfd7", 
+      linkedTo: ':previous',
+        marker: {
+          enabled: true,
+        }    
+    }, 
   {"color": "#ff8028"}, /*Mittel- & Südamerika */
+     { color: "#ff8028", 
+      linkedTo: ':previous',
+        marker: {
+          enabled: true,
+        }    
+    }, 
   {"color": "#73ba7c"}, /*Arabische Länder */
+     { color: "#73ba7c", 
+      linkedTo: ':previous',
+        marker: {
+          enabled: true,
+        }    
+    }, 
   {"color": "#9f7c5a"}, /*Afrikanische Länder*/
+     { color: "#9f7c5a", 
+      linkedTo: ':previous',
+        marker: {
+          enabled: true,
+        }    
+    }, 
   {"color": "#999999"}, /*Übrige Länder*/
-  {"color": "#b00000",showInLegend: false, "marker": { "enabled": true }}, /*Schweiz*/
-  {"color": "#672773",showInLegend: false, "marker": { "enabled": true }}, /*Deutschland*/
-  {"color": "#007a2f",showInLegend: false, "marker": { "enabled": true }}, /*Italien*/
-  {"color": "#fabd24",showInLegend: false, "marker": { "enabled": true }}, /*Türkei*/
-  {"color": "#b475ab",showInLegend: false, "marker": { "enabled": true }}, /*EU-17 & EFTA*/
-  {"color": "#71a3b5",showInLegend: false, "marker": { "enabled": true }}, /*EU-Ost */
-  {"color": "#b9cfd7",showInLegend: false, "marker": { "enabled": true }}, /*Balkan*/
-  {"color": "#ff8028",showInLegend: false, "marker": { "enabled": true }}, /*Mittel- & Südamerika */
-  {"color": "#73ba7c",showInLegend: false, "marker": { "enabled": true }}, /*Arabische Länder */
-  {"color": "#9f7c5a",showInLegend: false, "marker": { "enabled": true }}, /*Afrikanische Länder*/
-  {"color": "#999999",showInLegend: false, "marker": { "enabled": true }}, /*Übrige Länder*/
+     { color: "#999999", 
+      linkedTo: ':previous',
+        marker: {
+          enabled: true,
+        }    
+    }, 
   ],
    "legend": {
    		labelFormatter: function () {
