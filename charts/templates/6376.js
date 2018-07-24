@@ -14,7 +14,7 @@
 			}
 			},
 		"colorAxis": {
-			//"min": undefined,
+			"min": 0,
 			"minColor": "#eff6e9",
 			"maxColor": "#4b7b1f",
 			"labels": {
@@ -85,8 +85,8 @@
 	                //define new Highcharts template "mappie"
 					fn.defineTemplate();
 					
-					var choroplethSeries = chart.series[0];
-					var pieSizeSeries = chart.series[1];
+					var choroplethSeries = chart.series[1];
+					var pieSizeSeries = chart.series[2];
 					
 					//pie diameters in px
 					var maxPieDiameter = 25;

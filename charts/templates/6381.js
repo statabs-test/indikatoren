@@ -136,9 +136,9 @@
 	                //define new Highcharts template "mappie"
 					fn.defineTemplate();
 					
-					var choroplethSeries = chart.series[0];
-					var pieSizeSeries = chart.series[1];
-					var pieSeries = [chart.series[2], chart.series[3], chart.series[4], chart.series[5], chart.series[6], chart.series[7]];
+					var choroplethSeries = chart.series[1];
+					var pieSizeSeries = chart.series[2];
+					var pieSeries = [chart.series[3], chart.series[4], chart.series[5], chart.series[6], chart.series[7], chart.series[8]];
 
 					//pie diameters in px
 					var maxPieDiameter = 15;

@@ -25,7 +25,8 @@
 		},
          colorAxis: {
             dataClassColor: 'category',
-                   dataClasses: [{
+        	dataClasses: [{
+               	from: 0,
                 to:24.999,
                 color: '#FFDA80',
                 name:  "<span style='color: rgba(0,0,0,0)'>000,0</span> < <span style='color: rgba(0,0,0,0)'>0</span>25,0"
@@ -98,8 +99,8 @@
 	                //define new Highcharts template "mappie"
 					fn.defineTemplate();
 					
-					var choroplethSeries = chart.series[0];
-					var pieSizeSeries = chart.series[1];
+					var choroplethSeries = chart.series[1];
+					var pieSizeSeries = chart.series[2];
 					
 					//pie diameters in px
 					var maxPieDiameter = 20;
