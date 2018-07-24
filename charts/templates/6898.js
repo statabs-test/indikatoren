@@ -6,8 +6,8 @@
         	"stacking": "normal",
         	 "borderWidth": 0,
              //groupPadding: 0,
-        }
-  },
+        },
+      },
   "yAxis": {
     "labels": {
       "format": "{value:,.0f}",
@@ -45,9 +45,7 @@
       "type": "column",
       stacking: false,
       "borderWidth": 0,
-      /*"tooltip": {
-    		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
-       }*/
+
     }, // grau
   ],
   "tooltip": {
