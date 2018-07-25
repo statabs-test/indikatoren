@@ -2,12 +2,12 @@
   "series": [
     {
       "color": "#73ba7c",
-      "index": 4,
-      "legendIndex": 7,
+      "index": 3,
+      "legendIndex": 0,
       "marker": {
         "enabled": false
       },
-      "stacking": false,
+      "stacking": true,
       "data": [
         [
           0,
@@ -478,11 +478,12 @@
     },
     {
       "color": "#FABD24",
-      "index": 3,
-      "legendIndex": 8,
+      "index": 2,
+      "legendIndex": 1,
       "marker": {
         "enabled": false
       },
+      "stacking": true,
       "data": [
         [
           0,
@@ -953,11 +954,12 @@
     },
     {
       "color": "#923F8D",
-      "index": 2,
-      "legendIndex": 9,
+      "index": 1,
+      "legendIndex": 2,
       "marker": {
         "enabled": false
       },
+      "stacking": true,
       "data": [
         [
           0,
@@ -1428,8 +1430,8 @@
     },
     {
       "color": "#999999",
-      "index": 1,
-      "legendIndex": 10,
+      "index": 0,
+      "legendIndex": 3,
       "marker": {
         "enabled": false
       },
