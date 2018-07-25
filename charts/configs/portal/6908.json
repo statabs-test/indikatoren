@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#2B0099",
+      "color": "#662673",
       "legendIndex": 6,
       "index": 6,
       "data": [
@@ -10,7 +10,7 @@
           82353
         ],
         [
-          "SummeVermögenssteuer",
+          "Summe Vermögenssteuer",
           39
         ]
       ],
@@ -18,7 +18,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#008AC3",
+      "color": "#923F8D",
       "legendIndex": 5,
       "index": 5,
       "data": [
@@ -27,7 +27,7 @@
           14807
         ],
         [
-          "SummeVermögenssteuer",
+          "Summe Vermögenssteuer",
           4138878
         ]
       ],
@@ -35,7 +35,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#A0BEC8",
+      "color": "#B375AB",
       "legendIndex": 4,
       "index": 4,
       "data": [
@@ -44,7 +44,7 @@
           7607
         ],
         [
-          "SummeVermögenssteuer",
+          "Summe Vermögenssteuer",
           10474633
         ]
       ],
@@ -52,7 +52,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#007A2F",
+      "color": "#E7CEE2",
       "legendIndex": 3,
       "index": 3,
       "data": [
@@ -61,7 +61,7 @@
           4753
         ],
         [
-          "SummeVermögenssteuer",
+          "Summe Vermögenssteuer",
           16544417
         ]
       ],
@@ -69,7 +69,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#68AB2B",
+      "color": "#DC440E",
       "legendIndex": 2,
       "index": 2,
       "data": [
@@ -78,7 +78,7 @@
           3064
         ],
         [
-          "SummeVermögenssteuer",
+          "Summe Vermögenssteuer",
           23012953
         ]
       ],
@@ -86,7 +86,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#73B97C",
+      "color": "#FABD24",
       "legendIndex": 1,
       "index": 1,
       "data": [
@@ -95,28 +95,11 @@
           2796
         ],
         [
-          "SummeVermögenssteuer",
+          "Summe Vermögenssteuer",
           215915295
         ]
       ],
       "name": "2 Mio. und mehr",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#D7E8D2",
-      "legendIndex": 0,
-      "index": 0,
-      "data": [
-        [
-          "Veranlagungen",
-          115380
-        ],
-        [
-          "SummeVermögenssteuer",
-          270086215
-        ]
-      ],
-      "name": "Total",
       "turboThreshold": 0
     }
   ],

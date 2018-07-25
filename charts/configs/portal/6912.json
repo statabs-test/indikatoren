@@ -1,7 +1,59 @@
 {
   "series": [
     {
+      "id": "dummy0",
       "color": "#FABD24",
+      "grouping": false,
+      "data": [
+        [
+          "Erwerb",
+          null
+        ],
+        [
+          "Versicherung",
+          null
+        ],
+        [
+          "Grenzgänger Deutschland",
+          null
+        ],
+        [
+          "Grenzgänger aus Frankreich",
+          null
+        ],
+        [
+          "Künstler, Sport",
+          null
+        ],
+        [
+          "Verwaltungsräte",
+          null
+        ],
+        [
+          "Renten",
+          null
+        ],
+        [
+          "Kapitalleistungen",
+          null
+        ]
+      ],
+      "name": "Ertrag 2008",
+      "turboThreshold": 0
+    },
+    {
+      "linkedTo": "dummy0",
+      "colors": [
+        "#FABD24",
+        "#FABD24",
+        "#FABD24",
+        "#ECE1D0",
+        "#FABD24",
+        "#FABD24",
+        "#FABD24",
+        "#FABD24"
+      ],
+      "colorByPoint": true,
       "data": [
         [
           "Erwerb",
@@ -40,7 +92,59 @@
       "turboThreshold": 0
     },
     {
+      "id": "dummy1",
       "color": "#7F5F1A",
+      "grouping": false,
+      "data": [
+        [
+          "Erwerb",
+          null
+        ],
+        [
+          "Versicherung",
+          null
+        ],
+        [
+          "Grenzgänger Deutschland",
+          null
+        ],
+        [
+          "Grenzgänger aus Frankreich",
+          null
+        ],
+        [
+          "Künstler, Sport",
+          null
+        ],
+        [
+          "Verwaltungsräte",
+          null
+        ],
+        [
+          "Renten",
+          null
+        ],
+        [
+          "Kapitalleistungen",
+          null
+        ]
+      ],
+      "name": "Ertrag 2016",
+      "turboThreshold": 0
+    },
+    {
+      "linkedTo": "dummy1",
+      "colors": [
+        "#7F5F1A",
+        "#7F5F1A",
+        "#7F5F1A",
+        "black",
+        "#7F5F1A",
+        "#7F5F1A",
+        "#7F5F1A",
+        "#7F5F1A"
+      ],
+      "colorByPoint": true,
       "data": [
         [
           "Erwerb",
