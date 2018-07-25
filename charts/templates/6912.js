@@ -4,15 +4,40 @@
 
 (function(){
     return {
+    //color of legend if colorByPoint is true: use additional series with linkedTo, see https://forum.highcharts.com/highcharts-usage/custom-legend-color-with-colorbypoint-t30609/
+    //to have additional lnked columns before the columns from the csv file, create two dummy columns in the data.parsed method.
+	  data: {
+	    switchRowsAndColumns: true,
+			parsed: function(columns){
+				//create two columns without data, only with the names of their linked column so that the legend item title is correct
+				columns.splice(1, 0, [columns[1][0]]);
+				columns.splice(3, 0, [columns[3][0]]);
+				//console.log(columns);
+			}
+	  },
+    
     series: [
-    	//data: [{x: "Grenzgänger aus Frankreich", color: 'ECE1D0'}], 
+    		{
+    			//used only to have a legend item wit a defined color despite colorByPoint is true
+    			id: 'dummy0',
+    			color: "#FABD24",
+    			grouping: false, 
+    		},
         {
-             //colors: ["#FABD24","#FABD24","#FABD24","#FABD24","#FABD24","#FABD24","#FABD24","#FABD24"],  
-             color: "#FABD24",
-
+					linkedTo: 'dummy0',
+					colors: ["#FABD24","#FABD24","#FABD24","#ECE1D0","#FABD24","#FABD24","#FABD24","#FABD24"],  
+					colorByPoint: true,
         },
+    		{
+    			//used only to have a legend item wit a defined color despite colorByPoint is true
+    			id: 'dummy1',
+    			color: "#7F5F1A",
+    			grouping: false, 
+    		},
         {
-            color: "#7F5F1A",
+					linkedTo: 'dummy1',
+					colors: ["#7F5F1A","#7F5F1A","#7F5F1A","black","#7F5F1A","#7F5F1A","#7F5F1A","#7F5F1A"],  
+					colorByPoint: true,
         },
         {
             color: "#FF8028",
@@ -31,7 +56,8 @@
                 radius: 3
             },
             pointPlacement : 0.15
-        }        
+        }
+
   ],
   xAxis: {
       type: "category",
@@ -115,9 +141,6 @@
   },
 
 
-  },
-  data: {
-      switchRowsAndColumns: true
   },
    tooltip: {
     "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',

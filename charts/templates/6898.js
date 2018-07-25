@@ -5,7 +5,7 @@
         	pointPadding: 0,
         	"stacking": "normal",
         	 "borderWidth": 0,
-             //groupPadding: 0,
+            groupPadding: 0,
         },
       },
   "yAxis": {
@@ -53,7 +53,7 @@
   "chart": {
   	type: "column",
     "inverted": false,
-        "width": 1500,
+        //"width": 1500,
   }
 };
 }());
