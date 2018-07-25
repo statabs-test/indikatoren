@@ -39,10 +39,10 @@
     }
   },
   "series": [
-    {"color":"#73ba7c", "index": 4,legendIndex: 7,  "marker": {"enabled": false}, stacking: false}, //
-    {"color":"#FABD24", "index": 3,legendIndex: 8,  "marker": {"enabled": false}, }, //
-    {"color":"#923F8D", "index": 2,legendIndex: 9,  "marker": {"enabled": false},}, //
-    {"color":"#999999", "index": 1,legendIndex: 10, "marker": {"enabled": false}, stacking: false}, //
+    {"color":"#73ba7c", "index": 3,legendIndex: 0,  "marker": {"enabled": false}, stacking: true}, //
+    {"color":"#FABD24", "index": 2,legendIndex: 1,  "marker": {"enabled": false}, stacking: true }, //
+    {"color":"#923F8D", "index": 1,legendIndex: 2, "marker": {"enabled": false}, stacking: true}, //
+    {"color":"#999999", "index": 0,legendIndex: 3, "marker": {"enabled": false}, stacking: false}, //
     
   ],  
   "tooltip": {
