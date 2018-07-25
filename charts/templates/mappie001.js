@@ -251,6 +251,8 @@
 				try{
 					//only care about zoom events, not pan: 
 					if (e.trigger != 'pan'){
+						
+						/*
 						//wait for zoom animation to be finished before attempting calculation of zoom
 						setTimeout(function(){
 							//determine current zoom level
@@ -267,6 +269,7 @@
 								}
 							}
 						}, 750); //default jQuery animmation is 500 ms, see https://api.highcharts.com/highmaps/chart.animation 
+						*/
 					}
 				}
 				catch(error){
@@ -537,8 +540,9 @@
                 },
     	                
     	                
-                addLegendLabel: function(chart, text, x, y, cssClass, useHtml, initialValue){
-    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
+                addLegendLabel: function(chart, text, x, y, cssClass, useHtml, initialValue, align){
+                	var label = 
+    				chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
                 	.css({
 					 fontSize: "12px", fontFamily: "Arial", fontWeight: 'normal', fontStyle: "normal"
                 	})    				
@@ -548,6 +552,11 @@
     					initialValue: initialValue, 
     					initialText: text
     				}).add();
+    				//handle right-align
+					if (align == 'right'){
+						label.attr({x: x - label.width});
+					}
+    				return label;
                 },
                 
                 addLegendLabelbold: function(chart, text, x, y, cssClass, useHtml, initialValue){
