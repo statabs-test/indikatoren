@@ -4,6 +4,7 @@
       "color": "#FFDA80",
       "index": 0,
       "type": "column",
+      "yAxis": 0,
       "pointPadding": 0,
       "borderWidth": 0,
       "legendIndex": 1,
@@ -197,13 +198,14 @@
           1235772636
         ]
       ],
-      "name": "Ertrag KTBS 2006",
+      "name": "Ertrag KTBS 2006 (rechte Skala)",
       "turboThreshold": 0
     },
     {
       "color": "#7F5F1A",
       "index": 0,
       "type": "column",
+      "yAxis": 0,
       "pointPadding": 0,
       "borderWidth": 0,
       "legendIndex": 3,
@@ -397,7 +399,7 @@
           1385191217
         ]
       ],
-      "name": "Ertrag KTBS 2015",
+      "name": "Ertrag KTBS 2015 (rechte Skala)",
       "turboThreshold": 0
     }
   ],

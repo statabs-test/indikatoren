@@ -1,62 +1,57 @@
 (function(){
     return {
+   "chart": {
+    "type": "area",
+   },
   plotOptions: {
-        series: {
-        	pointPadding: 0,
+        /*series: {
         	"stacking": "normal",
-        	 "borderWidth": 0,
-             //groupPadding: 0,
-        },
-      },
+			pointPadding: 0,
+            borderWidth: 0,
+            pointWidth: 10, 
+
+        }*/
+         area: {
+            stacking: 'normal',
+            //lineColor: '#666666',
+            lineWidth: 0,
+
+        }
+  },
   "yAxis": {
     "labels": {
       "format": "{value:,.0f}",
     }
   },
   "xAxis": {
-  	"type": "category",
-   "tickInterval": 10,
-          "labels": {
-          	step: 1,
-            //"rotation": 0,
-            //"rotation": -90,
-        }  
+  	tickInterval: 10,
+  	"type": "linear",
   },
-  "legend": { 
+  "legend": {
     "enabled": true,
     "layout": "horizontal",
-   "itemWidth": 1000,
     "verticalAlign": "top",
     "align": "left",
+    itemDistance: 0,
+    itemMarginBottom: 2,
     "itemStyle": {
     "fontWeight": "normal"
+    }
+  },
+  "series": [
+    {"color":"#73ba7c", "index": 4,legendIndex: 7,  "marker": {"enabled": false}, stacking: false}, //
+    {"color":"#FABD24", "index": 3,legendIndex: 8,  "marker": {"enabled": false}, }, //
+    {"color":"#923F8D", "index": 2,legendIndex: 9,  "marker": {"enabled": false},}, //
+    {"color":"#999999", "index": 1,legendIndex: 10, "marker": {"enabled": false}, stacking: false}, //
     
-  },
-},
- "series": [
-  {"color": "#73ba7c", "index": 2, "legendIndex":0}, /**/
-  {"color": "#FABD24", "index": 1, "legendIndex":1}, /**/
-  {"color": "#923F8D", "index": 0, "legendIndex":2}, /**/
-      {
-	  "color": "#999999",
-	  //"index": 0,
-      "legendIndex": 3,
-      "type": "column",
-      stacking: false,
-      "borderWidth": 0,
-
-    }, // grau
-  ],
+  ],  
   "tooltip": {
-    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+    //"shared": true
   },
-  "chart": {
-  	type: "column",
-    "inverted": false,
-        "width": 1500,
-  }
 };
 }());
+
+
 
 
 

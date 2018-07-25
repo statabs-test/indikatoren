@@ -189,7 +189,6 @@
         "symbol": "circle",
         "radius": 3
       },
-      "pointPlacement": -0.15,
       "data": [
         [
           "Altstadt GB",
@@ -276,7 +275,7 @@
           74
         ]
       ],
-      "name": "Anzahl Veranlagungen 2008",
+      "name": "Anzahl Veranlagungen 2008 (rechte Skala)",
       "turboThreshold": 0
     },
     {
@@ -286,7 +285,7 @@
         "symbol": "circle",
         "radius": 3
       },
-      "pointPlacement": 0.15,
+      "stacking": false,
       "data": [
         [
           "Altstadt GB",
@@ -373,7 +372,7 @@
           110
         ]
       ],
-      "name": "Anzahl Veranlagungen 2016",
+      "name": "Anzahl Veranlagungen 2016 (rechte Skala)",
       "turboThreshold": 0
     }
   ],
@@ -447,7 +446,7 @@
       "tooltip": {
         "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
         "pointFormatter": function (){ 
-              return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 0, ",", " ") + '</b><br/>';
+              return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 0, ",", " ") + '</b><br/>';
           }
       }
     }
