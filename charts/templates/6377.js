@@ -130,7 +130,6 @@
 	                	align: 'right'
 	                }); 
 	                zoomableLabels[0].label = fn.addLegendLabel(zoomableLabels[0].chart, zoomableLabels[0].text, zoomableLabels[0].x, zoomableLabels[0].y, zoomableLabels[0].cssClass, zoomableLabels[0].useHtml, zoomableLabels[0].initialValue, zoomableLabels[0].align);
-					
 	                fn.addLegendCircle(chart, 280, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#7F5F1A', 'pieLegendStayeOnZoom');
 	                zoomableLabels.push({chart: chart, text: Highcharts.numberFormat((maxValueInLegend),0,"."," "), x: 340, y: 270, cssClass: 'pieLegendRecalculateOnZoom', useHtml: false, initialValue: maxValueInLegend, align: 'right'});
 	                zoomableLabels[1].label = fn.addLegendLabel(zoomableLabels[1].chart, zoomableLabels[1].text, zoomableLabels[1].x, zoomableLabels[1].y, zoomableLabels[1].cssClass, zoomableLabels[1].useHtml, zoomableLabels[1].initialValue,zoomableLabels[1].align);
@@ -151,32 +150,11 @@
 					{
 						xAxis: {
 				    		events: {
+				    			
 								//recalculate and hide svg elements on zoom
 								afterSetExtremes: function(e){
-									if (this.chart){
-										var fn = this.chart.userOptions.customFunctions;
-										fn.hideOnZoom(e, '.pieLegendHideOnZoom');
-										
-										//wait for zoom animation to be finished before attempting calculation of zoom
-										setTimeout(function(){
-											zoomableLabels.forEach(function(v, i, a){
-											if (v.label){
-												var yAxis = e.target.chart.yAxis[0];
-												var zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
-												if (!v.initialText) {v.initialText =v.text; }
-												var legendValue = (zoom == 1 ? v.initialText : fn.legendLabelZoomFormatter(v.initialValue / zoom / zoom));
-											
-												v.label.destroy();
-												v.text = legendValue;
-												v.label = fn.addLegendLabel(v.chart, v.text, v.x, v.y, v.cssClass, v.useHtml, v.initialValue, v.align);
-												//handle right-align
-												if (v.align == 'right'){
-													v.label.attr({x: v.x - v.label.width});
-												}
-											}
-											});
-										}, 750); //default jQuery animmation is 500 ms, see https://api.highcharts.com/highmaps/chart.animation 
-									}
+									var fn = this.chart.userOptions.customFunctions;
+									fn.recalculateOnZoom(e, zoomableLabels);
 								}
 				    		}
 						}

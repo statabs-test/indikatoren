@@ -240,8 +240,38 @@
 			legendLabelZoomFormatter: function(value){
             	return Highcharts.numberFormat((value),1,","," ");
             },
+            
+            
+            
+			recalculateOnZoom: function(e, zoomableLabels){
+				if (e.target.chart){
+					var fn = e.target.chart.userOptions.customFunctions;
+					fn.hideOnZoom(e, '.pieLegendHideOnZoom');
+					
+					//wait for zoom animation to be finished before attempting calculation of zoom
+					setTimeout(function(){
+						zoomableLabels.forEach(function(v, i, a){
+						if (v.label){
+							var yAxis = e.target.chart.yAxis[0];
+							var zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
+							if (!v.initialText) {v.initialText =v.text; }
+							var legendValue = (zoom == 1 ? v.initialText : fn.legendLabelZoomFormatter(v.initialValue / zoom / zoom));
+						
+							v.label.destroy();
+							v.text = legendValue;
+							v.label = fn.addLegendLabel(v.chart, v.text, v.x, v.y, v.cssClass, v.useHtml, v.initialValue, v.align);
+							//handle right-align
+							if (v.align == 'right'){
+								v.label.attr({x: v.x - v.label.width});
+							}
+						}
+						});
+					}, 750); //default jQuery animmation is 500 ms, see https://api.highcharts.com/highmaps/chart.animation 
+				}
+			},
+            
 			
-			
+			/*
 			recalculateOnZoom: function(e, selector){
 				var divId = e['target']['chart']['renderTo']['id'] || 'dummySettingForExportServer';
 				var divIdString = '#' + divId;
@@ -252,7 +282,7 @@
 					//only care about zoom events, not pan: 
 					if (e.trigger != 'pan'){
 						
-						/*
+						
 						//wait for zoom animation to be finished before attempting calculation of zoom
 						setTimeout(function(){
 							//determine current zoom level
@@ -269,14 +299,14 @@
 								}
 							}
 						}, 750); //default jQuery animmation is 500 ms, see https://api.highcharts.com/highmaps/chart.animation 
-						*/
+						
 					}
 				}
 				catch(error){
 					console.log(error);
 				}
 			},			
-		
+			*/
 			//calculate pie size using categories defined in the conf object
 			pieSizeCategorical: function(value, conf){
 				for (var i=0; i < conf.length; i++ ){
