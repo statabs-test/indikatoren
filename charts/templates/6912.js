@@ -5,8 +5,11 @@
 (function(){
     return {
     series: [
+    	//data: [{x: "Grenzgänger aus Frankreich", color: 'ECE1D0'}], 
         {
-            color: "#FABD24",
+             //colors: ["#FABD24","#FABD24","#FABD24","#FABD24","#FABD24","#FABD24","#FABD24","#FABD24"],  
+             color: "#FABD24",
+
         },
         {
             color: "#7F5F1A",
@@ -84,7 +87,10 @@
         stacking: null,
         pointPadding: 0,
         borderWidth: 0,
-        //pointWidth: 10, 
+    "column": {
+        "colorByPoint": true
+    }        
+    //pointWidth: 10, 
 
     }, 
     scatter: {

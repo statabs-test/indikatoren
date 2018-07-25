@@ -1,403 +1,373 @@
 {
   "series": [
     {
-      "color": "#FFDA80",
-      "index": 0,
-      "type": "column",
-      "pointPadding": 0,
-      "borderWidth": 0,
-      "legendIndex": 1,
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
+      "color": "#ECE1D0",
       "data": [
         [
           "Altstadt GB",
-          32255906
+          12454669
         ],
         [
           "Vorstädte",
-          74360803
+          8011683
         ],
         [
           "Am Ring",
-          72698089
+          13716817
         ],
         [
           "Breite",
-          39726248
+          6938102
         ],
         [
           "St. Alban",
-          120578558
+          20095492
         ],
         [
           "Gundeldingen",
-          77862062
+          15998569
         ],
         [
           "Bruderholz",
-          136456786
+          9113719
         ],
         [
           "Bachletten",
-          99064759
+          8829130
         ],
         [
           "Gotthelf",
-          54193326
+          5009615
         ],
         [
           "Iselin",
-          62729570
+          9824979
         ],
         [
           "St. Johann",
-          67675445
+          11498407
         ],
         [
           "Altstadt KB",
-          14175966
+          2231840
         ],
         [
           "Clara",
-          14283442
+          3607937
         ],
         [
           "Wettstein",
-          35448240
+          5423391
         ],
         [
           "Hirzbrunnen",
-          40670874
+          1930409
         ],
         [
           "Rosental",
-          13891471
+          4366105
         ],
         [
           "Matthäus",
-          56420344
+          12837922
         ],
         [
           "Klybeck",
-          20748527
+          2961136
         ],
         [
           "Kleinhüning.",
-          8035172
+          553662
         ],
         [
           "Riehen",
-          184934207
+          14228365
         ],
         [
           "Bettingen",
-          9562841
+          906636
         ]
       ],
-      "name": "Ertrag 2006",
+      "name": "Quellensteuerertrag 2008",
       "turboThreshold": 0
     },
     {
-      "color": "#C8C8C8",
-      "index": 1,
-      "type": "line",
-      "yAxis": 1,
-      "marker": {
-        "enabled": false
-      },
-      "legendIndex": 2,
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
+      "color": "#FABD24",
       "data": [
         [
           "Altstadt GB",
-          1235772636
+          7822527
         ],
         [
           "Vorstädte",
-          1235772636
+          17464532
         ],
         [
           "Am Ring",
-          1235772636
+          20927391
         ],
         [
           "Breite",
-          1235772636
+          9477788
         ],
         [
           "St. Alban",
-          1235772636
+          24719887
         ],
         [
           "Gundeldingen",
-          1235772636
+          21974175
         ],
         [
           "Bruderholz",
-          1235772636
+          12190721
         ],
         [
           "Bachletten",
-          1235772636
+          10671509
         ],
         [
           "Gotthelf",
-          1235772636
+          7291451
         ],
         [
           "Iselin",
-          1235772636
+          14345802
         ],
         [
           "St. Johann",
-          1235772636
+          22722628
         ],
         [
           "Altstadt KB",
-          1235772636
+          4368879
         ],
         [
           "Clara",
-          1235772636
+          4854687
         ],
         [
           "Wettstein",
-          1235772636
+          10440625
         ],
         [
           "Hirzbrunnen",
-          1235772636
+          5478393
         ],
         [
           "Rosental",
-          1235772636
+          12874288
         ],
         [
           "Matthäus",
-          1235772636
+          21576967
         ],
         [
           "Klybeck",
-          1235772636
+          3807153
         ],
         [
           "Kleinhüning.",
-          1235772636
+          1499023
         ],
         [
           "Riehen",
-          1235772636
+          18370208
         ],
         [
           "Bettingen",
-          1235772636
+          598361
         ]
       ],
-      "name": "Ertrag KTBS 2006",
+      "name": "Quellensteuerertrag 2016",
       "turboThreshold": 0
     },
     {
       "color": "#7F5F1A",
-      "index": 0,
-      "type": "column",
-      "pointPadding": 0,
-      "borderWidth": 0,
-      "legendIndex": 3,
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
       "data": [
         [
           "Altstadt GB",
-          37138088
+          7822527
         ],
         [
           "Vorstädte",
-          67689183
+          17464532
         ],
         [
           "Am Ring",
-          83454761
+          20927391
         ],
         [
           "Breite",
-          42882300
+          9477788
         ],
         [
           "St. Alban",
-          141474903
+          24719887
         ],
         [
           "Gundeldingen",
-          89896864
+          21974175
         ],
         [
           "Bruderholz",
-          188296828
+          12190721
         ],
         [
           "Bachletten",
-          107663013
+          10671509
         ],
         [
           "Gotthelf",
-          40275144
+          7291451
         ],
         [
           "Iselin",
-          65881009
+          14345802
         ],
         [
           "St. Johann",
-          77282792
+          22722628
         ],
         [
           "Altstadt KB",
-          15657079
+          4368879
         ],
         [
           "Clara",
-          16177276
+          4854687
         ],
         [
           "Wettstein",
-          41807429
+          10440625
         ],
         [
           "Hirzbrunnen",
-          43705051
+          5478393
         ],
         [
           "Rosental",
-          21017570
+          12874288
         ],
         [
           "Matthäus",
-          61597864
+          21576967
         ],
         [
           "Klybeck",
-          19024020
+          3807153
         ],
         [
           "Kleinhüning.",
-          8230776
+          1499023
         ],
         [
           "Riehen",
-          194062519
+          18370208
         ],
         [
           "Bettingen",
-          21976748
+          598361
         ]
       ],
-      "name": "Ertrag 2015",
+      "name": "Quellensteuerertrag 2016",
       "turboThreshold": 0
     },
     {
-      "color": "#6F6F6F",
-      "index": 1,
-      "type": "line",
-      "yAxis": 1,
-      "legendIndex": 3,
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
+      "color": "#B00000",
+      "type": "scatter",
       "marker": {
-        "enabled": false
+        "symbol": "circle",
+        "radius": 3
       },
+      "pointPlacement": 0.15,
       "data": [
         [
           "Altstadt GB",
-          1385191217
+          229
         ],
         [
           "Vorstädte",
-          1385191217
+          543
         ],
         [
           "Am Ring",
-          1385191217
+          1222
         ],
         [
           "Breite",
-          1385191217
+          647
         ],
         [
           "St. Alban",
-          1385191217
+          847
         ],
         [
           "Gundeldingen",
-          1385191217
+          1889
         ],
         [
           "Bruderholz",
-          1385191217
+          385
         ],
         [
           "Bachletten",
-          1385191217
+          579
         ],
         [
           "Gotthelf",
-          1385191217
+          540
         ],
         [
           "Iselin",
-          1385191217
+          1300
         ],
         [
           "St. Johann",
-          1385191217
+          1879
         ],
         [
           "Altstadt KB",
-          1385191217
+          227
         ],
         [
           "Clara",
-          1385191217
+          412
         ],
         [
           "Wettstein",
-          1385191217
+          465
         ],
         [
           "Hirzbrunnen",
-          1385191217
+          259
         ],
         [
           "Rosental",
-          1385191217
+          591
         ],
         [
           "Matthäus",
-          1385191217
+          1937
         ],
         [
           "Klybeck",
-          1385191217
+          574
         ],
         [
           "Kleinhüning.",
-          1385191217
+          171
         ],
         [
           "Riehen",
-          1385191217
+          976
         ],
         [
           "Bettingen",
-          1385191217
+          74
         ]
       ],
-      "name": "Ertrag KTBS 2015",
+      "name": "Anzahl Veranlagungen 2008",
       "turboThreshold": 0
     }
   ],
@@ -414,8 +384,7 @@
       "step": 1,
       "rotation": -45
     },
-    "tickLength": 0,
-    "tickInterval": 1
+    "tickLength": 0
   },
   "chart": {
     "events": {
@@ -443,9 +412,8 @@
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line",
-    "alignTicks": false,
-    "renderTo": "container-6909"
+    "type": "column",
+    "renderTo": "container-6913"
   },
   "title": {
     "style": {
@@ -454,7 +422,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Gesamtertrag aus Einkommens- und Vermögenssteuer"
+    "text": "Quellensteuerertrag nach Status"
   },
   "subtitle": {
     "style": {
@@ -463,33 +431,18 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Franken, Basel-Stadt, 2006 und 2015",
+    "text": "in Franken, Basel-Stadt, 2016",
     "align": "left"
   },
   "tooltip": {
-    "shared": false
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": [
     {
-      "min": 0,
-      "max": 200000000,
-      "tickInterval": 50000000,
-      "title": {
-        "text": null,
-        "color": "#000000",
-        "fontSize": null
-      },
-      "labels": {
-        "format": "{value:,.0f}",
-        "style": {
-          "color": "black"
-        }
-      }
-    },
-    {
-      "min": 0,
-      "max": 2000000000,
-      "tickInterval": 500000000,
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "lineColor": "#B9CFD7",
       "title": {
         "style": {
           "color": "#000000",
@@ -500,10 +453,29 @@
       "labels": {
         "format": "{value:,.0f}",
         "style": {
-          "color": "black"
+          "color": "#000000"
         }
+      }
+    },
+    {
+      "opposite": true,
+      "min": 0,
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "lineColor": "#B9CFD7",
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
       },
-      "opposite": true
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      }
     }
   ],
   "credits": {
@@ -528,12 +500,9 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemWidth": 140,
-    "itemMarginBottom": 5,
+    "itemWidth": 1000,
     "itemStyle": {
-      "fontWeight": "normal",
-      "textOverflow": "nowrap",
-      "whiteSpace": "nowrap"
+      "fontWeight": "normal"
     }
   },
   "customFunctions": {
@@ -571,7 +540,23 @@
           }, true, true);
     }
   },
+  "plotOptions": {
+    "series": {
+      "stacking": null,
+      "pointPadding": 0,
+      "borderWidth": 0
+    },
+    "scatter": {
+      "yAxis": 1,
+      "tooltip": {
+        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
+        "pointFormatter": function (){ 
+              return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 0, ",", " ") + '</b><br/>';
+          }
+      }
+    }
+  },
   "exporting": {
-    "filename": 6909
+    "filename": 6913
   }
 }

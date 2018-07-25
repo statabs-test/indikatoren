@@ -1,8 +1,8 @@
 {
   "series": [
     {
-      "color": "#923F8D",
-      "index": 0,
+      "color": "#73ba7c",
+      "index": 2,
       "legendIndex": 0,
       "data": [
         [
@@ -947,8 +947,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#73ba7c",
-      "index": 2,
+      "color": "#923F8D",
+      "index": 0,
       "legendIndex": 2,
       "data": [
         [
@@ -2003,7 +2003,6 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "y": 45,
     "itemWidth": 1000,
     "itemStyle": {
       "fontWeight": "normal"

@@ -563,7 +563,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "",
-		"template": "line001",
+		"template": "template001",
 		"printformat": "",
 		"orderKey": "04_00_00_00_00_000",
 		"parentId": null,

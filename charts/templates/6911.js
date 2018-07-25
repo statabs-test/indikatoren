@@ -18,7 +18,7 @@
                 symbol: 'circle', 
                 radius: 3
             },
-            pointPlacement : -0.15
+            //pointPlacement : -0.15
         },
         {
             color: "#662673",
@@ -27,7 +27,8 @@
                 symbol: 'circle', 
                 radius: 3
             },
-            pointPlacement : 0.15
+            stacking: false,
+            //pointPlacement : 0.15
         }        
   ],
   xAxis: {
@@ -92,7 +93,7 @@
         tooltip: {
           headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
           pointFormatter: function(){ 
-              return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 0, ",", " ") + '</b><br/>';
+              return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 0, ",", " ") + '</b><br/>';
           }
         }
     }

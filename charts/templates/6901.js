@@ -58,7 +58,7 @@
         },
         legendIndex: 2,
   	  "tooltip": {
-    		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
+    		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
   	   },
       },
        {
@@ -80,7 +80,7 @@
         "type": "line",
         "legendIndex": 3,
         "tooltip": {
-    		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
+    		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
   	   },
         "marker": {
           "enabled": false

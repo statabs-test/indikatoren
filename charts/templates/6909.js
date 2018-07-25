@@ -62,6 +62,7 @@
         "color": "#FFDA80", // 
         "index": 0,
         "type": "column",
+         "yAxis": 0,
         pointPadding: 0,
         borderWidth: 0,
         legendIndex: 1,
@@ -86,6 +87,7 @@
         "color":  "#7F5F1A", // 
         "index": 0,
         "type": "column",
+         "yAxis": 0,
         pointPadding: 0,
         borderWidth: 0,
         //"pointWidth": "8",

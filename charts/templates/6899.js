@@ -4,7 +4,7 @@
     "tickInterval": 1,
   },
   "yAxis": {
-    "min": 0, 
+    "min": 80, 
 	  "labels": {
 		  "format": "{value:,.0f}",
 	  }

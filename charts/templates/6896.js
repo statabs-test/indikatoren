@@ -40,6 +40,8 @@
       {
         opposite: true,
         min: 0,
+        max: 45,
+        //tickInterval: 15,
         gridLineColor: '#B9CFD7', 
         gridLineWidth: 0.5,
         lineColor: '#B9CFD7', 
@@ -94,7 +96,7 @@
                 symbol: 'circle', 
                 radius: 4
             },
-            pointPlacement : -0.15,
+            //pointPlacement : -0.15,
         	yAxis: 1,
         },
         {
@@ -104,8 +106,10 @@
             marker: {
                 symbol: 'circle', 
                 radius: 4
+                
             },
-            pointPlacement : 0.15,
+            //pointPlacement : 0.15,
+            stacking: false,
         	yAxis: 1,
         } 
   //{"color": "#73ba7c", "index": 7, "legendIndex":7}, /**/  
