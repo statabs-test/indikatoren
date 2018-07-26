@@ -127,12 +127,10 @@ global Highcharts
   },    
    "legend": {
     "enabled": true,
-     itemDistance: 12,
+     itemDistance: 5,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    //"x": 25,
-	  "y": 45,    
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -142,6 +140,9 @@ global Highcharts
     //"marginTop": 75,
     "type": "column",
     "inverted": false
+  }, 
+  subtitle: {
+    useHTML: true
   }
 	};
 }());

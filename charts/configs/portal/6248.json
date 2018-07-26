@@ -238,7 +238,8 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-6248"
+    "renderTo": "container-6248",
+    "spacingBottom": 8
   },
   "title": {
     "style": {
@@ -330,8 +331,8 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "x": 25,
-    "itemWidth": 100
+    "itemDistance": 0,
+    "padding": 0
   },
   "plotOptions": {
     "series": {

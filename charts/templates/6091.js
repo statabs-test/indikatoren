@@ -8,21 +8,25 @@
   "chart": {
     "inverted": true
   }, 
+  subtitle: {
+    useHTML: true,
+  },
   legend: {
-    itemDistance: 15,
+    itemDistance: 5,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-	  "y": 45,
+	  //"y": 45,
     "itemStyle": {
       "fontWeight": "normal"
     }
   },  
   xAxis: {
     labels: {
+      useHTML: false,
       formatter: function() {
-      	return this.value.replace(" ", "<br/>");
+      	return this.value;//.replace("Eingebürgerte ", "Eingebürgerte<br/>");
       }
     }
   },

@@ -287,6 +287,7 @@
       "style": {
         "color": "#000000",
         "width": 1,
+        "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
       "formatter": function () {
@@ -326,8 +327,13 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
-    "spacingBottom": 30,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
     "style": {
       "fontFamily": "Arial"
     },
@@ -335,7 +341,8 @@
     "type": "column",
     "marginLeft": 195,
     "inverted": true,
-    "renderTo": "container-6517"
+    "renderTo": "container-6517",
+    "spacingBottom": 40
   },
   "title": {
     "style": {
@@ -412,9 +419,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F49d"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F49d\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
   },
   "legend": {
     "layout": "horizontal",
@@ -423,13 +430,13 @@
     "align": "left",
     "useHTML": false,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": null
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
         },
-    "y": 90,
     "x": -5,
     "enabled": true,
     "itemWidth": 150

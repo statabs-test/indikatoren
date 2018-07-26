@@ -14,7 +14,7 @@
           15873.445861
         ],
         [
-          "Schweizer\u002F-innnen seit Geburt",
+          "Schweizer\u002F-innen seit Geburt",
           25244.264834
         ]
       ],
@@ -35,7 +35,7 @@
           22595.240907
         ],
         [
-          "Schweizer\u002F-innnen seit Geburt",
+          "Schweizer\u002F-innen seit Geburt",
           77296.643307
         ]
       ],
@@ -56,7 +56,7 @@
           15232.238046
         ],
         [
-          "Schweizer\u002F-innnen seit Geburt",
+          "Schweizer\u002F-innen seit Geburt",
           54669.007708
         ]
       ],
@@ -80,11 +80,13 @@
       "style": {
         "color": "#000000",
         "width": 1,
+        "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
       "formatter": function () {
-      	return this.value.replace(" ", "<br/>");
-      }
+      	return this.value;//.replace("Eingebürgerte ", "Eingebürgerte<br/>");
+      },
+      "useHTML": false
     }
   },
   "chart": {
@@ -106,15 +108,21 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
-    "spacingBottom": 30,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
     "type": "column",
     "inverted": true,
-    "renderTo": "container-6091"
+    "renderTo": "container-6091",
+    "spacingBottom": 40
   },
   "title": {
     "style": {
@@ -131,6 +139,7 @@
       "color": "#000000"
     },
     "align": "left",
+    "useHTML": true,
     "text": "Personen ab 15 Jahren nach Migrationsstatus, gepoolte Daten 2011 - 2015"
   },
   "navigation": {
@@ -184,9 +193,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
   },
   "legend": {
     "layout": "horizontal",
@@ -195,15 +204,15 @@
     "align": "left",
     "useHTML": false,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": null
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
         },
-    "itemDistance": 15,
-    "enabled": true,
-    "y": 45
+    "itemDistance": 5,
+    "enabled": true
   },
   "exporting": {
     "filename": 6091

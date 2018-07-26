@@ -507,6 +507,7 @@
       "style": {
         "color": "#000000",
         "width": 1,
+        "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
       "formatter": function () {
@@ -544,15 +545,21 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
-    "spacingBottom": 30,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
     "type": "column",
     "inverted": true,
-    "renderTo": "container-6136"
+    "renderTo": "container-6136",
+    "spacingBottom": 40
   },
   "title": {
     "style": {
@@ -623,9 +630,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt des Kantons Basel-Stadt, Bevölkerungsbefragung Basel-Stadt 2015, S15A"
+    "text": "Quelle: Statistisches Amt des Kantons Basel-Stadt, Bevölkerungsbefragung Basel-Stadt 2015, S15A\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
   },
   "legend": {
     "layout": "vertical",
@@ -634,7 +641,8 @@
     "align": "right",
     "useHTML": false,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": null
     },
     "symbolRadius": 0,
     "labelFormatter": function () {

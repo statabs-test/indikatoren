@@ -23,7 +23,7 @@
     "verticalAlign": "top",
     "align": "left",
     //"width": 50,
-	"y": 40,
+	//"y": 40,
 	"itemMarginBottom": 5,
 	 itemWidth: 110,
     "itemStyle": {
@@ -32,14 +32,14 @@
   },
   "series": [
     {
-      "color": "#E6E600", // dunkelblau -Männer
+      "color": "#008AC3", // dunkelblau -Männer
      "index": 1,
       "type": "column",
       "pointWidth": "15",
       legendIndex: 0
     },
     {
-      "color": "#73B97C", //dunkelgrün - Frauen
+      "color": "#B00000", //dunkelgrün - Frauen
       "index": 0,
       "type": "column",
       "pointWidth": "15",

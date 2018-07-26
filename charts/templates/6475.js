@@ -27,8 +27,8 @@
     "verticalAlign": "top",
     "align": "left",
     //"x": 25,
-	"y": 45,  
-	//"itemWidth": 300,
+	  //"y": 45,  
+	  //"itemWidth": 300,
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -38,7 +38,6 @@
     shared: false
   },  
   "chart": {
-    "marginBottom": 75,
     "type": "column",
     "inverted": false
   }

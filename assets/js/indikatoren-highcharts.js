@@ -11,8 +11,10 @@ global templatesById
 //parse csv and configure HighCharts object
 function parseData(chartOptions, data, completeHandler) {
     try {
+      //create data options, guess delimiter
       var dataOptions = Highcharts.merge(chartOptions.data, {
-          csv: data
+          csv: data,
+          itemDelimiter: (data.indexOf('\t') !== -1 ? '\t' : ',')
       });
       
       //delete data node in chartOptions after merging into dataOptions
@@ -23,7 +25,6 @@ function parseData(chartOptions, data, completeHandler) {
       Highcharts.data(dataOptions, chartOptions);
     } 
     catch (error) {
-      console.log(error);
       completeHandler(undefined);
     }      
 }
@@ -104,7 +105,22 @@ function injectMetadataToChartConfig(options, data, view, suppressNumberInTitle)
   options['chart']['renderTo'] = 'container-' + data.id;
   options['credits']['text'] = 'Quelle: ' + data.quellenangabe.join(';<br/>');
   //add 10 px space for each line of credits plus -5px for the first line (if not stated otherwise)
-  options['credits']['position']['y'] = (options['credits']['position']['y'] || -5) + (-10 * data.quellenangabe.length);
+  var numberOfCreditsLines = data.quellenangabe.length;
+  var aktDatum = Date.parse(data["aktualisierungsdatum"]);
+  //if valid aktualisierungsdatum: construct last entry in credits
+  if (view != 'print' && isNaN(aktDatum) == false)
+  {
+    var aktDatumText = 'Zuletzt geändert: ' + (new Date(aktDatum)).toLocaleDateString('de-CH');
+    numberOfCreditsLines += 1;
+    options['credits']['text'] += ("<br/>" + aktDatumText);
+    //add 13 pixels to chart height to make space
+    options['chart']['height'] = parseInt(options['chart']['height'], 10) + 13;
+  }
+  
+  options['credits']['position']['y'] = (options['credits']['position']['y'] || -5) + (-10 * numberOfCreditsLines);
+  //increase spacingBottom to prevent overlapping xAxis.label with credits
+  options['chart']['spacingBottom'] = (options['chart']['spacingBottom'] || options['chart']['spacing'][2] || 0) + ((numberOfCreditsLines-1) * 10);
+
   //make sure node exists before deferencing it
   options['exporting'] = (options['exporting'] || {});
   options['exporting']['filename'] = data.id;
@@ -311,8 +327,7 @@ function exportThumbnail(id, exportType, offline, exportServer, filename){
 //render the html required for links to other chart, kennzahlenset or external resources
 function renderLinksHTML(kennzahlenset, renderLink, externalLinks, view, stufe1, renderLinkDisplayMode, hideLinks, hideLinksTitle){
   var returnText = "";
-  //for the moment, do not create a link for charts of kennzahlenset 'nachhaltigkeit. todo: remove this when web team is ready for a page in the cms
-  var displayLinkToIndikatorenset = kennzahlenset && kennzahlenset.toLowerCase() != 'nachhaltigkeit';
+  var displayLinkToIndikatorenset = kennzahlenset;
   //renderLink: Link to different view of same data
   var displayRenderLink = (renderLink && renderLink.length && renderLink[0].length);
   var displayExternalLinks = (externalLinks && externalLinks.length && externalLinks[0].length);

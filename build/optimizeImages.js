@@ -5,7 +5,7 @@ var filePaths = [];
 
 var views = ['portal'/*, 'print'*/];
 views.forEach(function(view){
-    console.log('Starting creation of chart config for indikatorensetView=' + view);
+    console.log('Starting optimizing svg files for indikatorensetView=' + view);
     var files = JSON.parse(fs.readFileSync('tmp/chartsToBuild.json'));
     files.forEach(function(id){        
        filePaths.push('images/' + view + '/' + id + '.svg'); 
@@ -22,7 +22,7 @@ filePaths.forEach(filePath => {
         if (err) {
             console.log('Exception reading ' + filePath);
             return;
-            //throw err;
+            throw err;
         }
     
         svgo = new SVGO({
@@ -34,13 +34,21 @@ filePaths.forEach(filePath => {
             js2svg  : { pretty: true, indent: 2 }
         });
     
-        svgo.optimize(data, function(result) {
-            fs.writeFile(filePath, result.data, (err) => {
-              if (err) throw err;
-              console.log('Optimized file ' + filePath + '...');
-            });
+        svgo.optimize(data, {
+            full    : true,
+            path: filePath,
+            plugins : 
+                [
+                    'cleanupIDs'
+                ],
+            js2svg  : { pretty: true, indent: 2 }
+        })
+        .then(function(result) {
+            console.log('Optimized file ' + filePath + '...');
+        })
+        .catch(function(error){
+            console.log(error);
         });
-    
     });
 });
 

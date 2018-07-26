@@ -70,12 +70,12 @@ id | visible | visibleInPortal | indikatorenset
 4154 | true | true | Wohnraumentwicklung
 4155 | true | true | Wohnraumentwicklung
 4156 | true | true | Wohnraumentwicklung
-4200 | true | true | Integration-kompakt
-4203 | true | true | Integration-kompakt
+4200 | false |  | Integration-kompakt
+4203 | false |  | Integration-kompakt
 4211 | true | true | Cercle-Indicateurs
-4218 | true | true | Integration-kompakt
-4219 | true | true | Integration-kompakt
-4220 | true | true | Integration-kompakt
+4218 | false |  | Integration-kompakt
+4219 | false |  | Integration-kompakt
+4220 | false |  | Integration-kompakt
 4221 | true | true | Umwelt
 4222 | true | false | Umwelt
 4223 | true | true | Umwelt
@@ -186,9 +186,9 @@ id | visible | visibleInPortal | indikatorenset
 4336 | true | false | Umwelt
 4337 | true | true | Umwelt
 4338 | true | false | Umwelt
-4339 | true | true | Integration-kompakt
-4340 | true | true | Integration-kompakt
-4342 | true | true | Integration-kompakt
+4339 | true | true | 
+4340 | false |  | Integration-kompakt
+4342 | false |  | Integration-kompakt
 4348 | true | true | Cercle-Indicateurs
 4350 | true | true | Cercle-Indicateurs
 4352 | true | true | Cercle-Indicateurs
@@ -200,13 +200,13 @@ id | visible | visibleInPortal | indikatorenset
 4364 | true | true | Cercle-Indicateurs
 4367 | true | true | Cercle-Indicateurs
 4374 | true | true | Cercle-Indicateurs
-4462 | true | true | Integration-kompakt
-4463 | true | true | Integration-kompakt
-4465 | true | true | Integration-kompakt
-4466 | true | true | Integration-kompakt
-4467 | true | true | Integration-kompakt
-4468 | true | true | Integration-kompakt
-4469 | true | true | Integration-kompakt
+4462 | true | true | 
+4463 | true | true | 
+4465 | false |  | Integration-kompakt
+4466 | false |  | Integration-kompakt
+4467 | false |  | Integration-kompakt
+4468 | false |  | Integration-kompakt
+4469 | false |  | Integration-kompakt
 4716 | true | true | Gesellschaftlicher-Zusammenhalt
 4718 | true | true | Gesellschaftlicher-Zusammenhalt
 4719 | true | false | Gesellschaftlicher-Zusammenhalt
@@ -214,10 +214,10 @@ id | visible | visibleInPortal | indikatorenset
 4721 | true | true | Gesellschaftlicher-Zusammenhalt
 4722 | true | true | Gesellschaftlicher-Zusammenhalt
 4724 | true | true | Gesellschaftlicher-Zusammenhalt
-4739 | true | true | Integration-kompakt
-4740 | true | true | Integration-kompakt
-4741 | true | true | Integration-kompakt
-4743 | true | true | Integration-kompakt
+4739 | false |  | Integration-kompakt
+4740 | false |  | Integration-kompakt
+4741 | false |  | Integration-kompakt
+4743 | false |  | Integration-kompakt
 4822 | true | true | Wohnviertel
 4823 | true | true | Wohnviertel
 4824 | true | true | Wohnviertel
@@ -263,8 +263,8 @@ id | visible | visibleInPortal | indikatorenset
 4872 | true | true | Gesellschaftlicher-Zusammenhalt
 4874 | true | true | Gesellschaftlicher-Zusammenhalt
 4875 | true | true | Gesellschaftlicher-Zusammenhalt
-4877 | true | true | Integration-kompakt
-4905 | true | true | Integration-kompakt
+4877 | false |  | Integration-kompakt
+4905 | false |  | Integration-kompakt
 4906 | false |  | 
 4908 | true | true | 
 4909 | true | true | 
@@ -390,7 +390,7 @@ id | visible | visibleInPortal | indikatorenset
 6029 | true | false | Nachhaltigkeit
 6030 | true | false | Nachhaltigkeit
 6031 | true | false | Nachhaltigkeit
-6033 | true | false | Nachhaltigkeit
+6033 | true | true | Nachhaltigkeit
 6034 | true | false | Nachhaltigkeit
 6035 | true | false | Nachhaltigkeit
 6036 | true | true | Nachhaltigkeit
@@ -409,7 +409,7 @@ id | visible | visibleInPortal | indikatorenset
 6050 | true | false | Nachhaltigkeit
 6051 | true | true | Nachhaltigkeit
 6052 | true | true | Nachhaltigkeit
-6053 | true | true | Nachhaltigkeit
+6053 | true | false | Nachhaltigkeit
 6054 | true | false | Nachhaltigkeit
 6055 | true | true | Nachhaltigkeit
 6056 | true | true | Nachhaltigkeit
@@ -456,7 +456,7 @@ id | visible | visibleInPortal | indikatorenset
 6133 | true | false | Legislaturplan
 6134 | true | true | Legislaturplan
 6136 | true | true | Legislaturplan
-6137 | false |  | Legislaturplan
+6137 | true | true | Legislaturplan
 6138 | true | false | Legislaturplan
 6140 | true | true | Legislaturplan
 6141 | true | true | Legislaturplan
@@ -615,7 +615,7 @@ id | visible | visibleInPortal | indikatorenset
 6346 | true | true | Legislaturplan
 6347 | true | false | Legislaturplan
 6348 | true | true | Legislaturplan
-6363 | true | false | 
+6363 | true | true | 
 6364 | true | true | 
 6365 | true | true | 
 6366 | true | true | 
@@ -754,6 +754,31 @@ id | visible | visibleInPortal | indikatorenset
 6597 | true | false | Nachhaltigkeit
 6599 | true | true | Nachhaltigkeit
 6601 | true | false | 
+6623 | true | true | 
+6630 | true | true | Wohnviertel
+6631 | true | true | Wohnviertel
+6632 | true | true | Wohnviertel
+6633 | true | true | Wohnviertel
+6634 | true | true | Wohnviertel
+6635 | true | true | Wohnviertel
+6636 | true | true | Wohnviertel
+6637 | true | true | Wohnviertel
+6638 | true | true | Wohnviertel
+6639 | true | true | Wohnviertel
+6640 | true | true | Wohnviertel
+6641 | true | true | Wohnviertel
+6751 | true | true | Wohnviertel
+6752 | true | true | Wohnviertel
+6753 | true | true | Wohnviertel
+6754 | true | true | Wohnviertel
+6755 | true | true | Wohnviertel
+6756 | true | true | Wohnviertel
+6757 | true | true | Wohnviertel
+6758 | true | true | Wohnviertel
+6759 | true | true | Wohnviertel
+6771 | true | false | Wanderungen (Print)
+6774 | true | false | Wanderungen (Print)
+9996 | true | false | 
 9997 | true | false | 
 9998 | true | false | Test
 9999 | true | false | Test

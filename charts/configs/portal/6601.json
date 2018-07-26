@@ -3542,8 +3542,8 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
-    "spacingBottom": 45,
+    "height": 428,
+    "spacingBottom": 65,
     "style": {
       "fontFamily": "Arial"
     },
@@ -3582,9 +3582,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Mietpreiserhebung"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Mietpreiserhebung\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-1"
   },
   "colorAxis": {
     "min": -10,
@@ -3636,7 +3636,7 @@
         "fontWeight": "normal",
         "fontSize": "11px"
       },
-      "text": "Durchschnittliche Abweichung vom \u003Cbr\u003E Referenzwohnviertel Iselin"
+      "text": "Durchschnittliche Abweichung vom \u003Cbr\u003E Referenzwohnviertel Iselin in %"
     }
   },
   "tooltip": {

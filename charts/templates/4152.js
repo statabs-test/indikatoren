@@ -56,7 +56,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-		"y": 25,
+		//"y": 25,
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -74,6 +74,9 @@
       "yAxis": 1, 
       tooltip: {
         valueDecimals: 1
+      }, 
+      marker: {
+        enabled: false
       }
     }
   ],  
@@ -81,8 +84,6 @@
     "shared": false
   },
   "chart": {
-    "marginBottom": 60,
-    "marginTop": 75,
     "type": "line"
   }
 	}

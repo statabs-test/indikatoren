@@ -24,22 +24,22 @@
     "verticalAlign": "top",
     "align": "left",
     //"width": 50,
-  	"y": 50,
+  	//"y": 50,
   	//"x": 40,
   	"itemMarginBottom": 5,
-  	 itemWidth: 110,
+  	//itemWidth: 110,
     "itemStyle": {
     "fontWeight": "normal"
     }
   },
   "series": [
     {
-      "color": "#71A3B5", // dunkelblau - Zuzug aus der Schweiz
+      "color": "#73B97C", // dunkelblau - Zuzug aus der Schweiz
       "type": "column",
       "pointWidth": "15",
     },
     {
-      "color": "#73B97C", //dunkelgrün - Wegzug in die Schweiz
+      "color": "#71A3B5", //dunkelgrün - Wegzug in die Schweiz
       "type": "column",
       "pointWidth": "15",
     },

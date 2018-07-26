@@ -162,8 +162,13 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
-    "spacingBottom": 30,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
     "style": {
       "fontFamily": "Arial"
     },
@@ -187,7 +192,8 @@
     "marginBottom": 60,
     "marginTop": 160,
     "type": "column",
-    "renderTo": "container-4462"
+    "renderTo": "container-4462",
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -197,7 +203,6 @@
           "fontSize": "10px"
         }
       },
-      "pointWidth": 50,
       "stacking": "normal"
     }
   },
@@ -256,16 +261,15 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)\u003Cbr\u002F\u003EZuletzt geändert: 2016-9-21"
   },
   "legend": {
     "symbolRadius": 0,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "x": 46,
-    "y": 45,
+    "padding": 0,
     "itemMarginBottom": 5,
     "align": "left",
     "itemStyle": {

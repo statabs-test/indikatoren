@@ -236,7 +236,8 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-6307"
+    "renderTo": "container-6307",
+    "spacingBottom": 8
   },
   "title": {
     "style": {
@@ -320,7 +321,6 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "itemWidth": 115,
     "margin": 3,
     "itemMarginBottom": 5
   },

@@ -442,6 +442,7 @@
       "style": {
         "color": "#000000",
         "width": 1,
+        "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
       "formatter": function () {
@@ -481,8 +482,13 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 500,
-    "spacingBottom": 30,
+    "height": 513,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
     "style": {
       "fontFamily": "Arial"
     },
@@ -490,7 +496,8 @@
     "type": "column",
     "marginLeft": 150,
     "inverted": true,
-    "renderTo": "container-6472"
+    "renderTo": "container-6472",
+    "spacingBottom": 40
   },
   "title": {
     "style": {
@@ -566,9 +573,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_17"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_17\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
   },
   "legend": {
     "layout": "horizontal",
@@ -577,15 +584,14 @@
     "align": "left",
     "useHTML": false,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": null
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
-            return this.name;
+            return this.name.replace('/ ', '/<br/>');
         },
-    "y": 35,
-    "enabled": true,
-    "itemWidth": 160
+    "enabled": true
   },
   "exporting": {
     "filename": 6472

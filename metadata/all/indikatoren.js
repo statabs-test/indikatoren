@@ -11,7 +11,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Grenzgänger",
@@ -45,7 +45,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Grenzgänger",
@@ -79,7 +79,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Grenzgänger",
@@ -113,7 +113,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Grenzgänger",
@@ -147,7 +147,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Grenzgänger",
@@ -181,7 +181,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Grenzgänger",
@@ -215,7 +215,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
@@ -250,7 +250,7 @@ var indikatoren = [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
@@ -285,7 +285,7 @@ var indikatoren = [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
@@ -319,7 +319,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
@@ -353,7 +353,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
@@ -387,7 +387,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Arbeitslosigkeit",
 		"stufe3": "",
@@ -421,7 +421,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Arbeitslosigkeit",
 		"stufe3": "",
@@ -455,7 +455,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Arbeitslosigkeit",
 		"stufe3": "",
@@ -489,7 +489,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Arbeitslosigkeit",
 		"stufe3": "",
@@ -523,7 +523,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Arbeitslosigkeit",
 		"stufe3": "",
@@ -558,7 +558,7 @@ var indikatoren = [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Arbeitslosigkeit",
 		"stufe3": "",
@@ -592,7 +592,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Zuwanderung",
@@ -627,7 +627,7 @@ var indikatoren = [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Zuwanderung",
@@ -661,7 +661,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Zuwanderung",
@@ -695,7 +695,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Zuwanderung",
@@ -729,7 +729,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Zuwanderung",
@@ -763,7 +763,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Zuwanderung",
@@ -834,7 +834,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
@@ -868,7 +868,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
@@ -902,7 +902,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
@@ -936,7 +936,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
@@ -1078,7 +1078,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Meldepflichtige",
@@ -1112,7 +1112,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Meldepflichtige",
@@ -1146,7 +1146,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Meldepflichtige",
@@ -1180,7 +1180,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Meldepflichtige",
@@ -1214,7 +1214,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Meldepflichtige",
@@ -1248,7 +1248,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Meldepflichtige",
@@ -1282,7 +1282,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-02-16T13:43:21.2121",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.0000",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1318,7 +1318,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2015-12-17T00:00:00.000",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1354,7 +1354,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2015-12-17T00:00:00.000",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.0000",
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1459,7 +1459,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-01-19T15:46:38.3838",
+		"aktualisierungsdatum": "2018-02-01T00:00:00.0000",
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
@@ -1561,20 +1561,21 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-22T18:38:03.033",
+		"aktualisierungsdatum": "2018-05-07T09:38:03.033",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.1 Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "In der 10-Jahresspanne von 2008 bis 2017 nahm die Bevölkerung in Basel-Stadt von 188 556 auf 198 988 Personen zu. Dies entspricht einem Wachstum um 5,0%.",
-		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774 - 1847: Kantonale Volkszählungen; 1850 - 1900: Eidgenössische Volkszählungen; 1901 - 2011: Fortschreibung der kantonalen Bevölkerungsstatistik; Ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
+		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1900: Eidgenössische Volkszählungen; 1901-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 		"template": "stock001",
 		"visibleInPortal": true,
 		"orderKey": "02_01_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"6143"
+			"6143",
+			"6297"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1769,7 +1770,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-28T00:00:00.000",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
@@ -1805,7 +1806,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-08-18T09:23:29.2929",
+		"aktualisierungsdatum": "2018-02-01T00:00:00.0000",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
@@ -2152,7 +2153,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-01-18T09:58:14.1414",
+		"aktualisierungsdatum": "2018-02-01T00:00:00.0000",
 		"stufe1": "Ziel 3: Raumplanung",
 		"stufe2": "3.2 Freiräume",
 		"stufe3": "",
@@ -2290,7 +2291,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-01-24T15:24:49.4949",
+		"aktualisierungsdatum": "2018-02-01T00:00:00.0000",
 		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.1 Unterstützung Benachteiligter",
 		"stufe3": "",
@@ -2415,74 +2416,6 @@ var indikatoren = [
 		"id": 4156
 	},
 	{
-		"title": "Ausländeranteil nach Staatsangehörigkeit seit 2006",
-		"subtitle": "",
-		"kuerzel": "I.01.1.04200",
-		"kuerzelKunde": "1-1",
-		"description": "Ausländeranteil nach Staatsangehörigkeit seit 2006",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Integration-kompakt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die grösste Ausländergruppe stammt in allen beobachteten Jahren aus Deutschland. Der Anteil der Deutschen an allen Ausländern betrug 2015 knapp 23%. Die Kategorie «übriges Ausland» enthält 2015 über 100 Staatsangehörigkeiten, die grössten Gruppen sind die Portugiesen (3 343), Personen aus dem Vereinigten Königreich (2 189) sowie die Franzosen (1 980).",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_010",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 4200
-	},
-	{
-		"title": "Altersquotient nach Staatsangehörigkeit",
-		"subtitle": "Stand: 2015",
-		"kuerzel": "I.01.1.04203",
-		"kuerzelKunde": "1-2",
-		"description": "Altersquotient nach Staatsangehörigkeit",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Integration-kompakt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "2015 liegt der Altersquotient der Schweizer bei 46%. Ebenso überdurchschnittlich hoch ist der Wert bei den Italienern mit 35%. Der kleinste Wert wird bei der Bevölkerung aus Süd- und Mittelamerika beobachtet.",
-		"erlaeuterungen": "Der Altersquotient wird wie folgt berechnet: Anzahl Personen im Alter über 64 Jahren geteilt durch Anzahl Personen im Alter zwischen 20 und 64 Jahren.",
-		"template": "template001",
-		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_020",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 4203
-	},
-	{
 		"title": "Fläche wertvoller Naturräume",
 		"subtitle": "Anteil an der Fläche der Stadt Basel",
 		"kuerzel": "I.02.1.04211",
@@ -2518,108 +2451,6 @@ var indikatoren = [
 		"id": 4211
 	},
 	{
-		"title": "Jugendquotient nach Staatsangehörigkeit",
-		"subtitle": "Stand: 2015",
-		"kuerzel": "I.01.1.04218",
-		"kuerzelKunde": "1-3",
-		"description": "Jugendquotient nach Staatsangehörigkeit",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Integration-kompakt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2017-02-16T15:42:27.2727",
-		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Jugendquotient für Personen aus dem ehemaligen Jugoslawien und aus der Türkei liegt über der 30%-Grenze und damit über dem Jugendquotient der Schweizer (27%)  Die kleinsten Anteile an 0- bis 19-Jährigen weisen Personen aus den EU-Oststaaten und Deutschland auf.",
-		"erlaeuterungen": "Der Jugendquotient wird wie folgt berechnet: Anzahl Personen im Alter von 0 bis 19 Jahren geteilt durch Anzahl Personen im Alter zwischen 20 und 64 Jahren.",
-		"template": "template001",
-		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_030",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 4218
-	},
-	{
-		"title": "Anzahl Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit seit 2006",
-		"subtitle": "",
-		"kuerzel": "I.01.1.04219",
-		"kuerzelKunde": "1-4A",
-		"description": "Anzahl Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit seit 2006",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Integration-kompakt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Jahr 2015 sind im Kanton Basel-Stadt 40 481 Ausländer im Besitz eines Niederlassungsausweises. Dieser Wert stieg seit 2008 kontinuierlich, wobei vor allem bei Personen aus Deutschland eine Zunahme von über 4 000 Niederlassungsbewilligungen in den letzten 10 Jahren zu verzeichnen ist.",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_040",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 4219
-	},
-	{
-		"title": "Anteil Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit 2006 und 2015",
-		"subtitle": "",
-		"kuerzel": "I.01.1.04220",
-		"kuerzelKunde": "1-4B",
-		"description": "Anteil Ausländer mit Niederlassungsbewilligung (Bew. C) nach Staatsangehörigkeit 2006 und 2015",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Integration-kompakt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "58% der Ausländer im Kanton Basel-Stadt besitzen 2015 eine Niederlassungsbewilligung. 2006 lag der Wert mit 63% leicht höher. Nach Bevölkerungsgruppe ist der Anteil bei den türkischen Staatsangehörigen mit 84% am grössten. Ähnlich hoch ist der Anteil bei den Personen aus dem ehemaligen Jugoslawien (82%) und Italien (76%). Bei letzeren hat der Anteil im Vergeich zum Jahr 2006 um 15 Prozentpunkte abgenommen. Eine höhere Abnahme seit 2006 weisen nur noch die Spanier auf (minus 29 Prozentpunkte).",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_050",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 4220
-	},
-	{
 		"title": "Anteil erneuerbarer Energien (ohne Mobilität)",
 		"subtitle": "Prozent",
 		"kuerzel": "I.08.3.04221",
@@ -2631,7 +2462,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -2665,7 +2496,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -2700,7 +2531,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -2735,7 +2566,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -2770,7 +2601,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -2805,7 +2636,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -2841,7 +2672,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -2876,7 +2707,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -2910,7 +2741,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -2945,7 +2776,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -2980,7 +2811,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -3015,7 +2846,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -3050,7 +2881,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -3084,7 +2915,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -3118,7 +2949,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -3153,7 +2984,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -3188,7 +3019,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -3222,7 +3053,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -3256,7 +3087,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -3291,7 +3122,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -3326,7 +3157,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -3360,7 +3191,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -3394,7 +3225,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -3429,7 +3260,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Störfälle",
 		"stufe2": "",
 		"stufe3": "",
@@ -3464,7 +3295,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Störfälle",
 		"stufe2": "",
 		"stufe3": "",
@@ -3499,7 +3330,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
@@ -3534,7 +3365,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
@@ -3569,7 +3400,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
@@ -3604,7 +3435,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
@@ -3639,7 +3470,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
@@ -3674,7 +3505,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
@@ -3709,7 +3540,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Altlasten",
 		"stufe2": "",
 		"stufe3": "",
@@ -3744,7 +3575,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Altlasten",
 		"stufe2": "",
 		"stufe3": "",
@@ -3779,7 +3610,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Altlasten",
 		"stufe2": "",
 		"stufe3": "",
@@ -3814,7 +3645,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Altlasten",
 		"stufe2": "",
 		"stufe3": "",
@@ -3849,7 +3680,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Altlasten",
 		"stufe2": "",
 		"stufe3": "",
@@ -3884,7 +3715,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Biotechnologie",
 		"stufe2": "",
 		"stufe3": "",
@@ -3919,7 +3750,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Biotechnologie",
 		"stufe2": "",
 		"stufe3": "",
@@ -3954,7 +3785,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Biotechnologie",
 		"stufe2": "",
 		"stufe3": "",
@@ -3989,7 +3820,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Biotechnologie",
 		"stufe2": "",
 		"stufe3": "",
@@ -4024,7 +3855,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Lärm",
 		"stufe2": "",
 		"stufe3": "",
@@ -4060,7 +3891,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Lärm",
 		"stufe2": "",
 		"stufe3": "",
@@ -4096,7 +3927,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Lärm",
 		"stufe2": "",
 		"stufe3": "",
@@ -4132,7 +3963,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Lärm",
 		"stufe2": "",
 		"stufe3": "",
@@ -4167,7 +3998,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Lärm",
 		"stufe2": "",
 		"stufe3": "",
@@ -4201,7 +4032,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -4238,7 +4069,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -4275,7 +4106,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -4312,7 +4143,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -4351,7 +4182,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -4386,7 +4217,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -4422,7 +4253,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -4458,7 +4289,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -4494,7 +4325,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -4531,7 +4362,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Luft",
 		"stufe2": "",
 		"stufe3": "",
@@ -4567,7 +4398,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -4601,7 +4432,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -4636,7 +4467,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -4671,7 +4502,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -4705,7 +4536,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -4740,7 +4571,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -4775,7 +4606,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -4809,7 +4640,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Stoffe und Produkte",
 		"stufe2": "",
 		"stufe3": "",
@@ -4844,7 +4675,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Stoffe und Produkte",
 		"stufe2": "",
 		"stufe3": "",
@@ -4879,7 +4710,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Stoffe und Produkte",
 		"stufe2": "",
 		"stufe3": "",
@@ -4914,7 +4745,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Klima",
 		"stufe2": "",
 		"stufe3": "",
@@ -4949,7 +4780,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Klima",
 		"stufe2": "",
 		"stufe3": "",
@@ -4984,7 +4815,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Klima",
 		"stufe2": "",
 		"stufe3": "",
@@ -5018,7 +4849,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Klima",
 		"stufe2": "",
 		"stufe3": "",
@@ -5053,7 +4884,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Klima",
 		"stufe2": "",
 		"stufe3": "",
@@ -5088,7 +4919,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wasser",
 		"stufe2": "",
 		"stufe3": "",
@@ -5123,7 +4954,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Biodiversität",
 		"stufe2": "",
 		"stufe3": "",
@@ -5158,7 +4989,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Biodiversität",
 		"stufe2": "",
 		"stufe3": "",
@@ -5193,7 +5024,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Biodiversität",
 		"stufe2": "",
 		"stufe3": "",
@@ -5227,7 +5058,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Biodiversität",
 		"stufe2": "",
 		"stufe3": "",
@@ -5262,7 +5093,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Landschaft",
 		"stufe2": "",
 		"stufe3": "",
@@ -5296,7 +5127,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Landschaft",
 		"stufe2": "",
 		"stufe3": "",
@@ -5331,7 +5162,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Landschaft",
 		"stufe2": "",
 		"stufe3": "",
@@ -5367,7 +5198,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Naturgefahren",
 		"stufe2": "",
 		"stufe3": "",
@@ -5403,7 +5234,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Naturgefahren",
 		"stufe2": "",
 		"stufe3": "",
@@ -5437,7 +5268,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Naturgefahren",
 		"stufe2": "",
 		"stufe3": "",
@@ -5473,7 +5304,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Querschnittsindikatoren",
 		"stufe2": "",
 		"stufe3": "",
@@ -5509,7 +5340,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Querschnittsindikatoren",
 		"stufe2": "",
 		"stufe3": "",
@@ -5544,7 +5375,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Querschnittsindikatoren",
 		"stufe2": "",
 		"stufe3": "",
@@ -5579,7 +5410,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -5614,7 +5445,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Energie",
 		"stufe2": "",
 		"stufe3": "",
@@ -5649,7 +5480,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Querschnittsindikatoren",
 		"stufe2": "",
 		"stufe3": "",
@@ -5685,7 +5516,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Querschnittsindikatoren",
 		"stufe2": "",
 		"stufe3": "",
@@ -5720,7 +5551,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Naturgefahren",
 		"stufe2": "",
 		"stufe3": "",
@@ -5755,7 +5586,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -5789,7 +5620,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -5824,7 +5655,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -5859,7 +5690,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -5894,7 +5725,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -5929,7 +5760,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -5963,7 +5794,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -5998,7 +5829,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -6033,7 +5864,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Abfall",
 		"stufe2": "",
 		"stufe3": "",
@@ -6064,11 +5895,11 @@ var indikatoren = [
 		"description": "Anzahl Ausländer nach Art der Bewilligung seit 2006",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Integration-kompakt",
+		"kennzahlenset": "",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -6091,74 +5922,6 @@ var indikatoren = [
 		"id": 4339
 	},
 	{
-		"title": "Anteil Ausländer nach Staatsangehörigkeit und Art der Bewilligung",
-		"subtitle": "Stand: 2015",
-		"kuerzel": "I.01.1.04340",
-		"kuerzelKunde": "1-5B",
-		"description": "Anteil Ausländer nach Staatsangehörigkeit und Art der Bewilligung",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Integration-kompakt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Bei Personen aus der Türkei, Italien und dem ehemaligen Jugoslawien ist der Anteil Personen mit Niederlassungsausweis überdurchschnittlich hoch. Dagegen ist bei Personen aus den EU-Oststaaten mit 18% der Anteil an Niederlassungsbewilligungen unterdurchschnittlich, der Anteil an Kurzaufenthaltsbewilligungen mit 11% im Vergleich zu den anderen ausgewählten Nationen hoch. Der Anteil Personen mit L-Bewilligungen ist bei den EU-Oststaaten höher als bei den anderen Ländern, den höchsten Anteil Asylsuchende weist die Gruppe Maghreb und Ägypten auf.",
-		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
-		"template": "template001",
-		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_070",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 4340
-	},
-	{
-		"title": "Einbürgerungsziffer nach ehemaliger Staatsangehörigkeit seit 2006",
-		"subtitle": "",
-		"kuerzel": "I.01.6.04342",
-		"kuerzelKunde": "1-6",
-		"description": "Einbürgerungsziffer nach ehemaliger Staatsangehörigkeit seit 2006",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Einbürgerungen",
-		"kennzahlenset": "Integration-kompakt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "In Basel-Stadt wurden im Jahr 2015 pro 1000 Ausländer 16,8 eingebürgert (ordentliche und erleichterte Einbürgerungen). 2006 hatte diese Einbürgerungsziffer noch bei 19,4 gelegen. 2015 wiesen die Personen aus dem Maghreb und aus Ägypten die höchste Einbürgerungsziffer auf (35,3).  Insgesamt sind die Einbürgerungsziffern im Vergleich zu 2006 zurückgegangen.",
-		"erlaeuterungen": "Für eine ordentliche Einbürgerung muss eine Person u. a. zwölf Jahre in der Schweiz gewohnt haben. Eine erleichterte Einbürgerung kommt für ausländische Ehepartner von Schweizern in Frage, die insgesamt fünf Jahre in der Schweiz gelebt haben und seit drei Jahren verheiratet sind. Ehepartner, die nicht in der Schweiz leben, müssen sechs Jahre verheiratet sein und eng mit der Schweiz verbunden sein.",
-		"template": "line001",
-		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_080",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 4342
-	},
-	{
 		"title": "Wasserabfluss via ARA",
 		"subtitle": "in m<sup>3</sup> pro Einwohner im Einzugsgebiet der ARA Basel",
 		"kuerzel": "I.02.19.04348",
@@ -6170,7 +5933,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-14T00:00:00.000",
 		"stufe1": "Umwelt",
 		"stufe2": "U7: Wasserhaushalt",
 		"stufe3": "",
@@ -6206,7 +5969,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-14T00:00:00.000",
 		"stufe1": "Umwelt",
 		"stufe2": "U7: Wasserhaushalt",
 		"stufe3": "",
@@ -6242,7 +6005,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-14T00:00:00.000",
 		"stufe1": "Umwelt",
 		"stufe2": "U3: Energiequalität",
 		"stufe3": "",
@@ -6278,7 +6041,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-14T00:00:00.000",
 		"stufe1": "Umwelt",
 		"stufe2": "U1: Biodiversität",
 		"stufe3": "",
@@ -6312,7 +6075,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-14T00:00:00.000",
 		"stufe1": "Wirtschaft",
 		"stufe2": "W4: Investitionen",
 		"stufe3": "",
@@ -6346,7 +6109,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-14T00:00:00.000",
 		"stufe1": "Wirtschaft",
 		"stufe2": "W8: Wirtschaftsstruktur",
 		"stufe3": "",
@@ -6381,7 +6144,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-14T00:00:00.000",
 		"stufe1": "Wirtschaft",
 		"stufe2": "W9: Know-how",
 		"stufe3": "",
@@ -6415,7 +6178,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-14T00:00:00.000",
 		"stufe1": "Wirtschaft",
 		"stufe2": "W10: Öffentlicher Haushalt",
 		"stufe3": "",
@@ -6449,7 +6212,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-14T00:00:00.000",
 		"stufe1": "Gesellschaft",
 		"stufe2": "G1: Lärm / Wohnqualität",
 		"stufe3": "",
@@ -6483,7 +6246,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-14T00:00:00.000",
 		"stufe1": "Gesellschaft",
 		"stufe2": "G4: Sicherheit",
 		"stufe3": "",
@@ -6519,7 +6282,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-14T00:00:00.000",
 		"stufe1": "Gesellschaft",
 		"stufe2": "G11: Chancengleichheit",
 		"stufe3": "",
@@ -6550,11 +6313,11 @@ var indikatoren = [
 		"description": "Anzahl Personen mit und ohne Migrationshintergrund nach Staatsangehörigkeit (Schweiz / Ausland) 2010 bis 2014",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Integration-kompakt",
+		"kennzahlenset": "",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -6584,11 +6347,11 @@ var indikatoren = [
 		"description": "Anteil Personen, welche zu Hause «deutsch» oder «schweizerdeutsch» sprechen nach Staatsangehörigkeit 2010 bis 2014",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Sprachen",
-		"kennzahlenset": "Integration-kompakt",
+		"kennzahlenset": "",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -6609,177 +6372,6 @@ var indikatoren = [
 			""
 		],
 		"id": 4463
-	},
-	{
-		"title": "Segregationsindex nach Staatsangehörigkeit seit 2006",
-		"subtitle": "",
-		"kuerzel": "I.01.1.04465",
-		"kuerzelKunde": "2-1",
-		"description": "Segregationsindex nach Staatsangehörigkeit seit 2006",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Integration-kompakt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"stufe1": "Themenbereich 2: Wohnortwahl",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "2015 war die ausländische Bevölkerung weniger stark auf einzelne Gemeinden und Wohnviertel konzentriert als noch 2006. Der Segregationsindex, ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen, sank für die Ausländer zwischen 2006 und 2015 von 24,5 auf 18,7. Von den hier ausgewählten Bevölkerungsgruppen wiesen Ende 2015 Personen aus dem ehemaligen Jugoslawien und Türken die höchsten Segregationsindices auf (32,7 und 30,8). Der niedrigste Index ergab sich für die Deutschen (7,7).",
-		"erlaeuterungen": "Der Segregationsindex misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betracheten Gruppe interpretieren, der umziehen müsste, um gleich über ein Gebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 würde bedeuten, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross wäre.",
-		"template": "line001",
-		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_110",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 4465
-	},
-	{
-		"title": "Anteil Ausländer nach Wohndauer und Zuzugsort seit 2006",
-		"subtitle": "",
-		"kuerzel": "I.01.5.04466",
-		"kuerzelKunde": "2-2",
-		"description": "Anteil Ausländer nach Wohndauer und Zuzugsort seit 2006",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Wanderungen",
-		"kennzahlenset": "Integration-kompakt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"stufe1": "Themenbereich 2: Wohnortwahl",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Knapp 60% aller Ausländer leben weniger als 12 Jahre ununterbrochen in Basel-Stadt. Ein Blick auf die Zeitreihe zeigt, dass sich in den letzten 10 Jahren der Anteil derer, die seit mindestens 12 Jahrenin Basel-Stadt wohnen, kontinuierlich verringert hat. Dagegen hat der Anteil Ausländer, der  weniger als 12 Jahre hier lebt, zugenommen. Knapp 12% der Ausländer sind in Basel-Stadt geboren und leben seither ununterbrochen im Kanton. Insgesamt sind 2015 knapp 17% aller in Basel-Stadt wohnhaften Ausländer in Basel-Stadt geboren.",
-		"erlaeuterungen": "Die Kategorie «Geboren in Basel-Stadt ohne Wegzug» umfasst Personen, welche in Basel-Stadt geboren wurden und seit Geburt immer in Basel-Stadt wohnhaft waren.",
-		"template": "template001",
-		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_120",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 4466
-	},
-	{
-		"title": "Schweizer Bevölkerung nach Wohndauer und Geburtsort seit 2006",
-		"subtitle": "",
-		"kuerzel": "I.01.1.04467",
-		"kuerzelKunde": "2-3A",
-		"description": "Schweizer Bevölkerung nach Wohndauer und Geburtsort seit 2006",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Integration-kompakt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"stufe1": "Themenbereich 2: Wohnortwahl",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Knapp 50% aller in Basel-Stadt wohnhaften Schweizer lebt seit mindestens 12 Jahren ununterbrochen im selben Quartier. Die Anzahl Schweizer insgesamt nahm in den letzten Jahren leicht ab (rechte Skala).",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_130",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 4467
-	},
-	{
-		"title": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeit seit 2006",
-		"subtitle": "",
-		"kuerzel": "I.01.5.04468",
-		"kuerzelKunde": "2-4",
-		"description": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeit seit 2006",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Wanderungen",
-		"kennzahlenset": "Integration-kompakt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"stufe1": "Themenbereich 2: Wohnortwahl",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Jahr 2015 wiesen die Deutschen die höchste Rückwanderungsquote ins Herkunftsland auf. Die niedrigsten Quoten ergaben sich für Personen aus dem ehemaligen Jugoslawien und aus der Türkei. Seit 2006 am stärksten zugenommen hat die Rückwanderungsquote der Deutschen, am stärksten abgenommen jene der Spanier. Die Rückwanderungsquote der Ausländer insgesamt ist von 2006 bis 2015 von 51,6 auf 58,6 gestiegen.",
-		"erlaeuterungen": "Die Rückwanderungsquote ist wie folgt definiert: Anzahl Personen, welche ins Land ihrer Herkunft (nicht in das Land, aus dem sie zugezogen sind) resp. in die entsprechende Ländergruppe abwandern pro 1000 Personen einer Ländergruppe. Die Rückwanderungsquote «Ausland», also von allen Ausländern zusammen, ist definiert als die Anzahl der ins Ausland (egal, ob Herkunftsland oder nicht) weggezogenen Ausländer pro 1000 Personen der ausländischen Wohnbevölkerung, Aus diesem Grund liegt die Rückwanderungsquote «Ausland» auch vergleichsweise hoch.",
-		"template": "line001",
-		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_140",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 4468
-	},
-	{
-		"title": "Arbeitslosenquote nach Staatsangehörigkeit seit 2010",
-		"subtitle": "",
-		"kuerzel": "I.03.4.04469",
-		"kuerzelKunde": "3-3",
-		"description": "Arbeitslosenquote nach Staatsangehörigkeit seit 2010",
-		"thema": "03 Erwerbsleben",
-		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Integration-kompakt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"stufe1": "Themenbereich 3: Bildung und Erwerbstätigkeit",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Arbeitslosigkeit betrifft die ausländische Bevölkerung stärker als die Schweizer. Die Arbeitslosenquote der Ausländer liegt in Basel-Stadt seit 2011 im Jahresdurchschnitt relativ konstant bei rund 4,5%, während die Arbeitslosenquote der Schweizer bei rund 2,8% liegt.  Die höchsten Quoten werden bei den Personen aus der Türkei und aus den EU-Ost-Ländern registriert, die tiefsten bei Personen aus Deutschland.",
-		"erlaeuterungen": "Um die Zuverlässigkeit der Berechnung der Arbeitslosenquote nach Ländergruppen zu gewährleisten, sind hier im Nenner die Erwerbspersonen aus den gepoolten Daten der Sturkturerhebungen 2010-2014 verwendet worden. Damit sind diese Ergebnisse nicht direkt mit den offiziellen Arbeitslosenquoten vergleichbar, die vom seco (Staatssekretariat für Wirtschaft) und vom Statistischen Amt des Kantons Basel-Stadt veröffentlicht werden und welche im Nenner die Erwerbspersonen des Jahres 2010 verwenden.",
-		"template": "line001",
-		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_195",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
-			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 4469
 	},
 	{
 		"title": "Erhaltenene Hilfeleistungen",
@@ -6827,7 +6419,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -6861,7 +6453,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.3 Akzeptanz von Diversität",
 		"stufe3": "",
@@ -6929,7 +6521,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.1 Identifikation",
 		"stufe3": "",
@@ -6963,7 +6555,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-02-28T00:00:00.000",
 		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.1 Identifikation",
 		"stufe3": "",
@@ -7026,144 +6618,8 @@ var indikatoren = [
 		"id": 4724
 	},
 	{
-		"title": "Gymnasialquote nach Staatsangehörigkeit seit 2006",
-		"subtitle": "",
-		"kuerzel": "I.15.6.04739",
-		"kuerzelKunde": "3-1",
-		"description": "Gymnasialquote nach Staatsangehörigkeit seit 2006",
-		"thema": "15 Bildung",
-		"unterthema": "Bildungsniveau",
-		"kennzahlenset": "Integration-kompakt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"stufe1": "Themenbereich 3: Bildung und Erwerbstätigkeit",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Mit Ausnahme von 2014 liegt die Gymnasialquote der Schweizer mindestens doppelt so hoch wie diejenige der Ausländer; tendenziell nähern sich die beiden Quoten allerdings an. Die Quote der Schüler mit deutscher Staatsbürgerschaft liegt deutlich höher als diejenige der Schweizer. Der Abstand verringerte sich seit 2014 allerdings deutlich. Die übrigen Staatsangehörigkeiten, deren Schülerzahl eine noch aussagekräftige Berechnungsbasis bildet, folgen mit grossem Abstand nach Deutschland und der Schweiz.",
-		"erlaeuterungen": "Die Gymnasialquote weist den Anteil Gymnasiasten an allen Schülern des 8. und 9. Schuljahres (nach HarmoS-Zählweise der Stufen 10 und 11) aus. Es werden nur Jugendliche berücksichtigt, deren Eltern im Kanton Basel-Stadt wohnen. Für einzelne Ländergruppen konnte aufgrund zu kleiner Fallzahlen keine Gymnasialquote errechnet werden. Jährliche Schwankungen (Bsp. Spanien) können zum Teil ebenfalls damit begründet werden.",
-		"template": "line001",
-		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_180",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 4739
-	},
-	{
-		"title": "Lehrabbruchquote nach Staatsangehörigkeit seit 2011",
-		"subtitle": "",
-		"kuerzel": "I.15.3.04740",
-		"kuerzelKunde": "3-2",
-		"description": "Lehrabbruchquote nach Staatsangehörigkeit seit 2011",
-		"thema": "15 Bildung",
-		"unterthema": "Berufsfachschulen",
-		"kennzahlenset": "Integration-kompakt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"stufe1": "Themenbereich 3: Bildung und Erwerbstätigkeit",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Lehrabbruchquote zeigt den Anteil der Lehrvertragsauflösungen an den Basler Berufsfachschulen gemessen an allen abgeschlossenen Lehrverträgen. Im Zeitraum zwischen 2011 und 2015 liegt die Quote bei Lernenden mit ausländischem Pass stehts höher als die Quote der Schweizerinnen und Schweizer, wobei sämtliche Quoten generell relativ nahe beieinander liegen.",
-		"erlaeuterungen": "Es handelt sich um Personen mit Lehrverträgen an Basler Berufsfachschulen, unabhängig vom Wohnort der Lehrabsolventen.",
-		"template": "line001",
-		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_190",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Erziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 4740
-	},
-	{
-		"title": "Erwerbstätigenquote nach Staatsangehörigkeit 2010 bis 2014",
-		"subtitle": "",
-		"kuerzel": "I.03.1.04741",
-		"kuerzelKunde": "3-4",
-		"description": "Erwerbstätigenquote nach Staatsangehörigkeit 2010 bis 2014",
-		"thema": "03 Erwerbsleben",
-		"unterthema": "Erwerbspersonen",
-		"kennzahlenset": "Integration-kompakt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"stufe1": "Themenbereich 3: Bildung und Erwerbstätigkeit",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Insgesamt sind im Mittel der Jahre 2010 bis 2014 etwa 73% der Personen im erwerbsfähigen Alter (19 bis 64 Jahre) in Basel-Stadt erwerbstätig. Während Schweizer in 74% der Fälle erwerbstätig sind, liegt dieser Anteil bei Ausländern bei rund 71%. Grössere Unterschiede offenbaren sich zwischen verschiedenen Ausländergruppen: Während Personen aus Deutschland in 87% der Fälle erwerbstätig sind, liegen Personen aus den östlichen EU-Staaten sowie Spanier bei 75%.  Die Zahlen basieren allerdings auf Schätzungen. Vor allem die Ergebnisse für kleinere Personengruppen sind mit einer gewissen Unsicherheit behaftet. Die schwarzen Linien geben jeweils die Konfidenzintervalle auf dem 95%-Niveau an.",
-		"erlaeuterungen": "Konfidenzintervall 95%: Mit einer Wahrschenilchkeit von 95% befindet sich der wahre Wert zwischen der oberen und der unteren Grenze des Intervalls.",
-		"template": "template001",
-		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_200",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 4741
-	},
-	{
-		"title": "Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit seit 2008",
-		"subtitle": "",
-		"kuerzel": "I.18.3.04743",
-		"kuerzelKunde": "3-5",
-		"description": "Angestellte in der kantonalen Verwaltung nach Staatsangehörigkeit seit 2008",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Staatspersonal",
-		"kennzahlenset": "Integration-kompakt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"stufe1": "Themenbereich 3: Bildung und Erwerbstätigkeit",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Anteil Angestellte in der kantonalen Verwaltung liegt zwischen 2008 und 2015 beim Personal mit Schweizer Pass stets mindestens viermal so hoch wie bei den ausländischen Verwaltungsangestellten. In der zweiten Hälfte des Beobachtungszeitraums hat sich dieses Ungleichgewicht sogar leicht verstärkt. Nach Staatsangehörigkeit betrachtet, sind die Deutschen (Tendenz zunehmend) sowie die Italiener (Tendenz abnehmend) und die Spanier (ebenfalls abnehmend) am besten vertreten.",
-		"erlaeuterungen": "Die Angestelltenquote zeigt den Anteil der Kantonsangestellten mit Wohnsitz in Basel-Stadt an allen Personen einer jeweilgen Bevölkerungsgruppe im erwerbsfähigen Alter (15- bis 64-Jährige).",
-		"template": "line001",
-		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_210",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Zentraler Personaldienst Basel-Stadt, Statistik des Staatspersonals"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 4743
-	},
-	{
 		"title": "Sozialhilfequote",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "I.13.3.04822",
 		"kuerzelKunde": "GS-1.A",
 		"description": "Sozialhilfequote",
@@ -7173,17 +6629,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-05-05T12:37:02.022",
-		"stufe1": "Bereich 1: Gesellschaft und Soziales",
-		"stufe2": "",
+		"aktualisierungsdatum": "2017-12-18T11:37:16.1616",
+		"stufe1": "Teil 2: Rang-Grafiken",
+		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Der Anteil Sozialhilfeempfänger ist im Wohnviertel Klybeck am höchsten, in Bettingen am niedrigsten.",
 		"erlaeuterungen": "Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger an der Wohnbevölkerung des Wohnviertels.",
 		"template": "dotplot",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_001",
+		"orderKey": "02_01_00_00_00_001",
 		"parentId": null,
 		"children": [
 			"5109"
@@ -7212,8 +6668,8 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-02-20T16:49:57.5757",
-		"stufe1": "Bereich 1: Gesellschaft und Soziales",
-		"stufe2": "",
+		"stufe1": "Teil 2: Rang-Grafiken",
+		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -7221,7 +6677,7 @@ var indikatoren = [
 		"erlaeuterungen": "Anteil der ausländischen Wohnbevölkerung an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"template": "dotplot",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_003",
+		"orderKey": "02_01_00_00_00_002",
 		"parentId": null,
 		"children": [
 			"5110"
@@ -7249,9 +6705,9 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-05-04T14:54:05.055",
-		"stufe1": "Bereich 1: Gesellschaft und Soziales",
-		"stufe2": "",
+		"aktualisierungsdatum": "2017-12-18T11:37:16.1616",
+		"stufe1": "Teil 2: Rang-Grafiken",
+		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -7259,7 +6715,7 @@ var indikatoren = [
 		"erlaeuterungen": "Anteil Personen ohne Religionszugehörigkeit an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"template": "dotplot",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_005",
+		"orderKey": "02_01_00_00_00_003",
 		"parentId": null,
 		"children": [
 			"5111"
@@ -7277,8 +6733,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil Personen in Einpersonenhaushalten",
-		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.2.04825",
+		"subtitle": "Stand: 2017",
+		"kuerzel": "I.01.2.4825",
 		"kuerzelKunde": "GS-4.A",
 		"description": "Anteil Personen in Einpersonenhaushalten",
 		"thema": "01 Bevölkerung",
@@ -7287,17 +6743,18 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2016-06-30T00:00:00.000",
-		"stufe1": "Bereich 1: Gesellschaft und Soziales",
-		"stufe2": "",
+		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"stufe1": "Teil 2: Rang-Grafiken",
+		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "In der Altstadt Kleinbasel ist der Anteil Personen, die in Einpersonenhaushalten leben, am höchsten, in der Gemeinde Bettingen am niedrigsten.",
 		"erlaeuterungen": "Anteil Personen in Einpersonenhaushalten an allen Personen in Privathaushalten des Wohnviertels in Prozent.",
 		"template": "dotplot",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_007",
+		"orderKey": "02_01_00_00_00_004",
 		"parentId": null,
 		"children": [
 			"5112"
@@ -7325,9 +6782,9 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-20T13:01:58.5858",
-		"stufe1": "Bereich 1: Gesellschaft und Soziales",
-		"stufe2": "",
+		"aktualisierungsdatum": "2018-02-28T10:59:29.2929",
+		"stufe1": "Teil 2: Rang-Grafiken",
+		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -7335,7 +6792,7 @@ var indikatoren = [
 		"erlaeuterungen": "Seit 2016/2017 Anteil der Sek P Schüler (Jahre davor: Anteil der Gymnasiasten) an allen Schülern der 10. und 11. Schulstufe des Wohnviertels an öffentlichen Schulen und mit Elternwohnort Basel-Stadt (Schulstufen einschliesslich zweier obligatorischer Kindergartenstufen gezählt).",
 		"template": "dotplot",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_009",
+		"orderKey": "02_01_00_00_00_005",
 		"parentId": null,
 		"children": [
 			"5113"
@@ -7354,7 +6811,7 @@ var indikatoren = [
 	{
 		"title": "Altersquotient",
 		"subtitle": "Stand: 2017",
-		"kuerzel": "I.01.1.04827",
+		"kuerzel": "I.01.1.4827",
 		"kuerzelKunde": "GS-6.A",
 		"description": "Altersquotient",
 		"thema": "01 Bevölkerung",
@@ -7363,17 +6820,18 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-20T17:35:44.4444",
-		"stufe1": "Bereich 1: Gesellschaft und Soziales",
-		"stufe2": "",
+		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"stufe1": "Teil 2: Rang-Grafiken",
+		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Altersquotient ist im Wohnviertel Rosental am geringsten, im Wohnviertel Riehen am höchsten.",
 		"erlaeuterungen": "Anteil der über 64-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent.",
 		"template": "dotplot",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_011",
+		"orderKey": "02_01_00_00_00_006",
 		"parentId": null,
 		"children": [
 			"5114"
@@ -7402,8 +6860,8 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-02-20T00:00:00.000",
-		"stufe1": "Bereich 1: Gesellschaft und Soziales",
-		"stufe2": "",
+		"stufe1": "Teil 2: Rang-Grafiken",
+		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -7411,7 +6869,7 @@ var indikatoren = [
 		"erlaeuterungen": "Anteil der seit mindestens 10 Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"template": "dotplot",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_013",
+		"orderKey": "02_01_00_00_00_007",
 		"parentId": null,
 		"children": [
 			"5115"
@@ -7439,9 +6897,9 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-20T13:48:14.1414",
-		"stufe1": "Bereich 1: Gesellschaft und Soziales",
-		"stufe2": "",
+		"aktualisierungsdatum": "2018-02-28T12:02:02.022",
+		"stufe1": "Teil 2: Rang-Grafiken",
+		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -7449,7 +6907,7 @@ var indikatoren = [
 		"erlaeuterungen": "Anteil der unter 20-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent.",
 		"template": "dotplot",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_015",
+		"orderKey": "02_01_00_00_00_008",
 		"parentId": null,
 		"children": [
 			"5116"
@@ -7477,9 +6935,9 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-20T16:18:00.000",
-		"stufe1": "Bereich 2: Raum und Umwelt",
-		"stufe2": "",
+		"aktualisierungsdatum": "2018-02-28T12:04:17.1717",
+		"stufe1": "Teil 2: Rang-Grafiken",
+		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -7487,7 +6945,7 @@ var indikatoren = [
 		"erlaeuterungen": "Mittleres Baujahr der Wohngebäude des Wohnviertels (ungewichtetes arithmetisches Mittel des Baujahres über alle Wohngebäude).",
 		"template": "dotplot",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_001",
+		"orderKey": "02_02_00_00_00_009",
 		"parentId": null,
 		"children": [
 			"5117"
@@ -7506,7 +6964,7 @@ var indikatoren = [
 	{
 		"title": "Anteil Einfamilienhäuser",
 		"subtitle": "Stand: 2017",
-		"kuerzel": "I.09.1.04831",
+		"kuerzel": "I.09.1.4831",
 		"kuerzelKunde": "RU-2.A",
 		"description": "Anteil Einfamilienhäuser",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -7515,17 +6973,18 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-20T16:26:13.1313",
-		"stufe1": "Bereich 2: Raum und Umwelt",
-		"stufe2": "",
+		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"stufe1": "Teil 2: Rang-Grafiken",
+		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Anteil Einfamilienhäuser ist in Bettingen am höchsten, im Wohnviertel Clara am niedrigsten.",
 		"erlaeuterungen": "Anteil der Einfamilienhäuser an allen bewohnbaren Gebäuden des Wohnviertels in Prozent.",
 		"template": "dotplot",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_003",
+		"orderKey": "02_02_00_00_00_010",
 		"parentId": null,
 		"children": [
 			"5118"
@@ -7544,7 +7003,7 @@ var indikatoren = [
 	{
 		"title": "Anteil Grünflächen",
 		"subtitle": "Stand: 2017",
-		"kuerzel": "I.02.1.04832",
+		"kuerzel": "I.02.1.4832",
 		"kuerzelKunde": "RU-3.A",
 		"description": "Anteil Grünflächen",
 		"thema": "02 Raum, Umwelt",
@@ -7553,17 +7012,18 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-03-17T14:11:56.5656",
-		"stufe1": "Bereich 2: Raum und Umwelt",
-		"stufe2": "",
+		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"stufe1": "Teil 2: Rang-Grafiken",
+		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Anteil Grünflächen ist in den beiden Landgemeinden Bettingen und Riehen am höchsten. Auch in den Wohnvierteln Bruderholz und Hirzbrunnen liegt er noch über 50%. Am geringsten ist der Anteil Grünflächen in den innenstädtischen Wohnvierteln Altstadt Grossbasel und Altstadt Kleinbasel.",
 		"erlaeuterungen": "Anteil der Grünflächen an der gesamten Fläche des jeweiligen Wohnviertels. Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6–12 Jahren mit einer periodischen Nachführung aktualisiert.",
 		"template": "dotplot",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_005",
+		"orderKey": "02_02_00_00_00_011",
 		"parentId": null,
 		"children": [
 			"5119"
@@ -7582,7 +7042,7 @@ var indikatoren = [
 	{
 		"title": "Fläche pro Wohnung",
 		"subtitle": "Stand: 2017",
-		"kuerzel": "I.09.1.04833",
+		"kuerzel": "I.09.1.4833",
 		"kuerzelKunde": "RU-4.A",
 		"description": "Fläche pro Wohnung",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -7591,17 +7051,18 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-20T17:29:58.5858",
-		"stufe1": "Bereich 2: Raum und Umwelt",
-		"stufe2": "",
+		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"stufe1": "Teil 2: Rang-Grafiken",
+		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Wohnviertel Klybeck sind die Wohnungen im Durchschnitt am kleinsten, in der Gemeinde Bettingen am grössten.",
 		"erlaeuterungen": "Mittlere Fläche der Wohnungen im Wohnviertel (ungewichtetes arithmetisches Mittel über alle Wohnungen) in Quadratmeter.",
 		"template": "dotplot",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_007",
+		"orderKey": "02_02_00_00_00_012",
 		"parentId": null,
 		"children": [
 			"5120"
@@ -7620,7 +7081,7 @@ var indikatoren = [
 	{
 		"title": "Wohnfläche pro Kopf",
 		"subtitle": "Stand: 2017",
-		"kuerzel": "I.09.1.04834",
+		"kuerzel": "I.09.1.4834",
 		"kuerzelKunde": "RU-5.A",
 		"description": "Wohnfläche pro Kopf",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -7629,17 +7090,18 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-20T16:35:49.4949",
-		"stufe1": "Bereich 2: Raum und Umwelt",
-		"stufe2": "",
+		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"stufe1": "Teil 2: Rang-Grafiken",
+		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Klybeck verfügen die Bewohner mit 32m<sup>2</sup> durchschnittlich über die geringste Wohnfläche pro Kopf, in der Gemeinde Bettingen mit 53m<sup>2</sup> über die höchste.",
-		"erlaeuterungen": "Mittlere Wohnfläche pro Einwohner im Wohnviertel (gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen geteilt durch das Total der dort wohnenden Personen) in Quadratmeter.",
+		"lesehilfe": "Im Wohnviertel Klybeck verfügen die Bewohner mit 32&nbsp;m<sup>2</sup> durchschnittlich über die geringste Wohnfläche pro Kopf, in der Gemeinde Bettingen mit 53&nbsp;m<sup>2</sup> über die höchste.",
+		"erlaeuterungen": "Die mittlere Wohnfläche pro Kopf wird folgendermassen definiert: Gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen geteilt durch das Total der dort wohnenden Personen.",
 		"template": "dotplot",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_009",
+		"orderKey": "02_02_00_00_00_013",
 		"parentId": null,
 		"children": [
 			"5121",
@@ -7660,7 +7122,7 @@ var indikatoren = [
 	{
 		"title": "Vermögenssteuer pro Veranlagung",
 		"subtitle": "Stand: Steuerjahr 2015",
-		"kuerzel": "I.18.2.04835",
+		"kuerzel": "I.18.2.4835",
 		"kuerzelKunde": "WA-1.A",
 		"description": "Vermögenssteuer pro Veranlagung",
 		"thema": "18 Öffentliche Finanzen",
@@ -7669,17 +7131,18 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-20T14:15:03.033",
-		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
-		"stufe2": "",
+		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"stufe1": "Teil 2: Rang-Grafiken",
+		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Wohnviertel Bruderholz wird der höchste Wert pro Veranlagung verzeichnet, im Wohnviertel Klybeck der niedrigste.",
 		"erlaeuterungen": "Mittlere Vermögenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Vermögenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
 		"template": "dotplot",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_001",
+		"orderKey": "02_03_00_00_00_014",
 		"parentId": null,
 		"children": [
 			"5122"
@@ -7707,9 +7170,9 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-20T00:00:00.000",
-		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
-		"stufe2": "",
+		"aktualisierungsdatum": "2018-02-28T11:35:52.5252",
+		"stufe1": "Teil 2: Rang-Grafiken",
+		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -7717,7 +7180,7 @@ var indikatoren = [
 		"erlaeuterungen": "Mittlere Einkommenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Einkommenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
 		"template": "dotplot",
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_003",
+		"orderKey": "02_03_00_00_00_015",
 		"parentId": null,
 		"children": [
 			"5123"
@@ -7735,8 +7198,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Erwerbstätigenquote",
-		"subtitle": "Stand: gepoolte Daten 2011-2015",
-		"kuerzel": "I.03.1.04837",
+		"subtitle": "Stand: gepoolte Daten 2012-2016",
+		"kuerzel": "I.03.1.4837",
 		"kuerzelKunde": "WA-3.A",
 		"description": "Erwerbstätigenquote",
 		"thema": "03 Erwerbsleben",
@@ -7745,17 +7208,18 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-20T00:00:00.000",
-		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
-		"stufe2": "",
+		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"stufe1": "Teil 2: Rang-Grafiken",
+		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Mittel der Jahre 2011 bis 2015 ist die Erwerbstätigenquote im Wohnviertel Klybeck am tiefsten (60,9%) und im Wohnviertel Altstadt Grossbasel am grössten (83,3%)",
+		"lesehilfe": "Im Mittel der Jahre 2012 bis 2016 ist die Erwerbstätigenquote im Wohnviertel Klybeck am tiefsten (61,5%) und im Wohnviertel Altstadt Grossbasel am grössten (85,6%)",
 		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet, was zum selben Wert für die beiden Gemeinden führt.",
 		"template": "dotplot",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_005",
+		"orderKey": "02_03_00_00_00_016",
 		"parentId": null,
 		"children": [
 			"5124"
@@ -7783,9 +7247,9 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-06T00:00:00.000",
-		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
-		"stufe2": "",
+		"aktualisierungsdatum": "2018-02-27T11:06:15.1515",
+		"stufe1": "Teil 2: Rang-Grafiken",
+		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -7793,7 +7257,7 @@ var indikatoren = [
 		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte, die in Basel-Stadt arbeiten, in Vollzeitäquivalenten) an der gesamten Wohnbevölkerung des Wohnviertels.<br> Im Wohnvietel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
 		"template": "dotplot",
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_007",
+		"orderKey": "02_03_00_00_00_017",
 		"parentId": null,
 		"children": [
 			"5125"
@@ -7812,7 +7276,7 @@ var indikatoren = [
 	{
 		"title": "Arbeitslosenquote",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.03.4.04839",
+		"kuerzel": "I.03.4.4839",
 		"kuerzelKunde": "WA-5.A",
 		"description": "Arbeitslosenquote",
 		"thema": "03 Erwerbsleben",
@@ -7821,17 +7285,18 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-05-12T15:13:10.1010",
-		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
-		"stufe2": "",
+		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"stufe1": "Teil 2: Rang-Grafiken",
+		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Anteil als arbeitslos gemeldeter Personen am Total der Erwerbspersonen (15 bis 64 Jahre) in Prozent, jeweils Ende Jahr. Erwerbspersonen aus den Jahren 2010 - 2014, Hochrechnung auf Basis einer Stichprobe von 5 000 Personen pro Jahr. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet.",
+		"lesehilfe": "Die Gemeinden Riehen und Bettingen verzeichnen die niedrigsten Arbeitslosenquoten, das Wohnviertel Klybeck die höchste.",
+		"erlaeuterungen": "Anteil als arbeitslos gemeldeter Personen am Total der Erwerbspersonen (15 bis 64 Jahre) in Prozent, jeweils Ende Jahr. Erwerbspersonen aus den Jahren 2010-2014, Hochrechnung auf Basis einer Stichprobe von 5 000 Personen pro Jahr. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet.",
 		"template": "dotplot",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_009",
+		"orderKey": "02_03_00_00_00_018",
 		"parentId": null,
 		"children": [
 			"5126"
@@ -7860,7 +7325,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -7894,7 +7359,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -7928,7 +7393,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -7962,7 +7427,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -8098,7 +7563,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.3 Akzeptanz von Diversität",
 		"stufe3": "",
@@ -8132,7 +7597,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.3 Akzeptanz von Diversität",
 		"stufe3": "",
@@ -8166,7 +7631,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.2 Vertrauen in Institutionen",
 		"stufe3": "",
@@ -8200,7 +7665,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.2 Vertrauen in Institutionen",
 		"stufe3": "",
@@ -8306,7 +7771,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.3 Gerechtigkeitsempfinden",
 		"stufe3": "",
@@ -8340,7 +7805,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.3 Gerechtigkeitsempfinden",
 		"stufe3": "",
@@ -8374,7 +7839,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-02-28T00:00:00.000",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.1 Solidarität und Hilfsbereitschaft",
 		"stufe3": "",
@@ -8408,7 +7873,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.1 Solidarität und Hilfsbereitschaft",
 		"stufe3": "",
@@ -8442,7 +7907,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.1 Solidarität und Hilfsbereitschaft",
 		"stufe3": "",
@@ -8476,7 +7941,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
@@ -8511,7 +7976,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
@@ -8546,7 +8011,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
@@ -8581,7 +8046,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
@@ -8616,7 +8081,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
@@ -8686,7 +8151,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
@@ -8720,7 +8185,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
@@ -8754,7 +8219,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -8777,74 +8242,6 @@ var indikatoren = [
 		"id": 4875
 	},
 	{
-		"title": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeitund Alter 2015",
-		"subtitle": "",
-		"kuerzel": "I.01.5.04877",
-		"kuerzelKunde": "2-5",
-		"description": "Rückwanderungsquote der Ausländer nach Staatsangehörigkeitund Alter 2015",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Wanderungen",
-		"kennzahlenset": "Integration-kompakt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"stufe1": "Themenbereich 2: Wohnortwahl",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "2015 überstiegen bei Deutschen und Italienern die Rückwanderungsquoten der 15- bis 64-Jährigen jene der 65-Jährigen und Älteren. Bei Spaniern, Türken und Personen aus dem ehemaligen Jugoslawien verhielt es sich umgekehrt. Die Zahl älterer Maghrebiner und Ägypter, älterer Personen aus den EU-Oststaaten sowie älterer Mittel- und Südamerikaner ist sehr gering, sodass die Rückwanderungsquoten dieser Ausländergruppen kaum Aussagen zu deren Wanderungsverhalten zulassen.",
-		"erlaeuterungen": "Die Rückwanderungsquote ist wie folgt definiert: Anzahl Personen, welche ins Land ihrer Herkunft (nicht in das Land, aus dem sie zugezogen sind) resp. in die entsprechende Ländergruppe abwandern pro 1000 Personen einer Ländergruppe. Die Rückwanderungsquote «Ausland», also von allen Ausländern zusammen, ist definiert als die Anzahl der ins Ausland (egal, ob Herkunftsland oder nicht) weggezogenen Ausländer pro 1000 Personen der ausländischen Wohnbevölkerung, Aus diesem Grund liegt die Rückwanderungsquote «Ausland» auch vergleichsweise hoch.",
-		"template": "template001",
-		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_150",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 4877
-	},
-	{
-		"title": "Ausländische Bevölkerung nach Wohndauer und Geburtsort seit 2006",
-		"subtitle": "",
-		"kuerzel": "I.01.1.04905",
-		"kuerzelKunde": "2-3B",
-		"description": "Ausländische Bevölkerung nach Wohndauer und Geburtsort seit 2006",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Integration-kompakt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"stufe1": "Themenbereich 2: Wohnortwahl",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Rund 20% der Ausländer wohnen seit mindestens 12 Jahren im selben Wohnviertel resp. derselben Landgemeinde.",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_135",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 4905
-	},
-	{
 		"title": "Bruttowertschöpfung nach Branchengruppe in Mio. Franken",
 		"subtitle": "",
 		"kuerzel": "I.04.1.04908",
@@ -8856,7 +8253,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -8890,7 +8287,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -8924,7 +8321,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -8959,7 +8356,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -8993,7 +8390,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -9027,7 +8424,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -9062,7 +8459,7 @@ var indikatoren = [
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -9101,7 +8498,7 @@ var indikatoren = [
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -9141,7 +8538,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -9175,7 +8572,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -9211,7 +8608,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -9245,7 +8642,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -9279,7 +8676,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -9313,7 +8710,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
@@ -9347,7 +8744,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -9382,7 +8779,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -9453,7 +8850,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-12-07T15:07:33.3333",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.0000",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -9516,7 +8913,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Sozialhilfequote",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "I.13.3.05109",
 		"kuerzelKunde": "GS-1.B",
 		"description": "Sozialhilfequote",
@@ -9526,17 +8923,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-05-05T12:36:27.2727",
-		"stufe1": "Bereich 1: Gesellschaft und Soziales",
-		"stufe2": "",
+		"aktualisierungsdatum": "2017-12-18T11:37:16.1616",
+		"stufe1": "Teil 3: Karten",
+		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "Der Anteil Sozialhilfeempfänger ist im Wohnviertel Klybeck am höchsten, in Bettingen am niedrigsten.",
 		"erlaeuterungen": "Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger an der Wohnbevölkerung des Wohnviertels.",
 		"template": "map001",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_002",
+		"orderKey": "03_01_00_00_00_001",
 		"parentId": 4822,
 		"children": [],
 		"renderLink": [
@@ -9562,9 +8959,9 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-03-17T14:09:23.2323",
-		"stufe1": "Bereich 1: Gesellschaft und Soziales",
-		"stufe2": "",
+		"aktualisierungsdatum": "2018-02-28T10:53:24.2424",
+		"stufe1": "Teil 3: Karten",
+		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -9572,7 +8969,7 @@ var indikatoren = [
 		"erlaeuterungen": "Anteil der ausländischen Wohnbevölkerung an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"template": "map001",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_004",
+		"orderKey": "03_01_00_00_00_002",
 		"parentId": 4823,
 		"children": [],
 		"renderLink": [
@@ -9598,9 +8995,9 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-05-04T14:56:38.3838",
-		"stufe1": "Bereich 1: Gesellschaft und Soziales",
-		"stufe2": "",
+		"aktualisierungsdatum": "2017-12-18T11:37:16.1616",
+		"stufe1": "Teil 3: Karten",
+		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -9608,7 +9005,7 @@ var indikatoren = [
 		"erlaeuterungen": "Anteil Personen ohne Religionszugehörigkeit an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"template": "map001",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_006",
+		"orderKey": "03_01_00_00_00_003",
 		"parentId": 4824,
 		"children": [],
 		"renderLink": [
@@ -9624,8 +9021,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil Personen in Einpersonenhaushalten",
-		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.2.05112",
+		"subtitle": "Stand: 2017",
+		"kuerzel": "I.01.2.5112",
 		"kuerzelKunde": "GS-4.B",
 		"description": "Anteil Personen in Einpersonenhaushalten",
 		"thema": "01 Bevölkerung",
@@ -9634,17 +9031,18 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-05-04T14:12:33.3333",
-		"stufe1": "Bereich 1: Gesellschaft und Soziales",
-		"stufe2": "",
+		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"stufe1": "Teil 3: Karten",
+		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
+		"lesehilfe": "In der Altstadt Kleinbasel ist der Anteil Personen, die in Einpersonenhaushalten leben, am höchsten, in der Gemeinde Bettingen am niedrigsten.",
 		"erlaeuterungen": "Anteil Personen in Einpersonenhaushalten an allen Personen in Privathaushalten des Wohnviertels in Prozent.",
 		"template": "map001",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_008",
+		"orderKey": "03_01_00_00_00_004",
 		"parentId": 4825,
 		"children": [],
 		"renderLink": [
@@ -9670,9 +9068,9 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-05-05T13:02:23.2323",
-		"stufe1": "Bereich 1: Gesellschaft und Soziales",
-		"stufe2": "",
+		"aktualisierungsdatum": "2018-02-28T10:56:50.5050",
+		"stufe1": "Teil 3: Karten",
+		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -9680,7 +9078,7 @@ var indikatoren = [
 		"erlaeuterungen": "Seit 2016/2017 Anteil der Sek P Schüler (Jahre davor: Anteil der Gymnasiasten) an allen Schülern der 10. und 11. Schulstufe des Wohnviertels an öffentlichen Schulen und mit Elternwohnort Basel-Stadt (Schulstufen einschliesslich zweier obligatorischer Kindergartenstufen gezählt).",
 		"template": "map001",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_010",
+		"orderKey": "03_01_00_00_00_005",
 		"parentId": 4826,
 		"children": [],
 		"renderLink": [
@@ -9697,7 +9095,7 @@ var indikatoren = [
 	{
 		"title": "Altersquotient",
 		"subtitle": "Stand: 2017",
-		"kuerzel": "I.01.1.05114",
+		"kuerzel": "I.01.1.5114",
 		"kuerzelKunde": "GS-6.B",
 		"description": "Altersquotient",
 		"thema": "01 Bevölkerung",
@@ -9706,17 +9104,18 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
-		"stufe1": "Bereich 1: Gesellschaft und Soziales",
-		"stufe2": "",
+		"aktualisierungsdatum": "2018-06-14T09:46:36.3636",
+		"stufe1": "Teil 3: Karten",
+		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Altersquotient ist im Wohnviertel Rosental am geringsten, im Wohnviertel Riehen am höchsten.",
 		"erlaeuterungen": "Anteil der über 64-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent.",
 		"template": "map001",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_012",
+		"orderKey": "03_01_00_00_00_006",
 		"parentId": 4827,
 		"children": [],
 		"renderLink": [
@@ -9742,9 +9141,9 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-03-17T13:42:16.1616",
-		"stufe1": "Bereich 1: Gesellschaft und Soziales",
-		"stufe2": "",
+		"aktualisierungsdatum": "2017-12-18T11:37:16.1616",
+		"stufe1": "Teil 3: Karten",
+		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -9752,7 +9151,7 @@ var indikatoren = [
 		"erlaeuterungen": "Anteil der seit mindestens 10 Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"template": "map001",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_014",
+		"orderKey": "03_01_00_00_00_007",
 		"parentId": 4828,
 		"children": [],
 		"renderLink": [
@@ -9778,9 +9177,9 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-03-17T14:09:43.4343",
-		"stufe1": "Bereich 1: Gesellschaft und Soziales",
-		"stufe2": "",
+		"aktualisierungsdatum": "2018-02-28T12:00:42.4242",
+		"stufe1": "Teil 3: Karten",
+		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -9788,7 +9187,7 @@ var indikatoren = [
 		"erlaeuterungen": "Anteil der unter 20-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent.",
 		"template": "map001",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_016",
+		"orderKey": "03_01_00_00_00_008",
 		"parentId": 4829,
 		"children": [],
 		"renderLink": [
@@ -9814,9 +9213,9 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-05-05T10:27:49.4949",
-		"stufe1": "Bereich 2: Raum und Umwelt",
-		"stufe2": "",
+		"aktualisierungsdatum": "2018-02-28T12:03:09.099",
+		"stufe1": "Teil 3: Karten",
+		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -9824,7 +9223,7 @@ var indikatoren = [
 		"erlaeuterungen": "Mittleres Baujahr der Wohngebäude des Wohnviertels (ungewichtetes arithmetisches Mittel des Baujahres über alle Wohngebäude).",
 		"template": "map001",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_002",
+		"orderKey": "03_02_00_00_00_009",
 		"parentId": 4830,
 		"children": [],
 		"renderLink": [
@@ -9841,7 +9240,7 @@ var indikatoren = [
 	{
 		"title": "Anteil Einfamilienhäuser",
 		"subtitle": "Stand: 2017",
-		"kuerzel": "I.09.1.05118",
+		"kuerzel": "I.09.1.5118",
 		"kuerzelKunde": "RU-2.B",
 		"description": "Anteil Einfamilienhäuser",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -9850,17 +9249,18 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-05-05T13:03:41.4141",
-		"stufe1": "Bereich 2: Raum und Umwelt",
-		"stufe2": "",
+		"aktualisierungsdatum": "2018-06-14T09:46:36.3636",
+		"stufe1": "Teil 3: Karten",
+		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Anteil Einfamilienhäuser ist in Bettingen am höchsten, im Wohnviertel Clara am niedrigsten.",
 		"erlaeuterungen": "Anteil der Einfamilienhäuser an allen bewohnbaren Gebäuden des Wohnviertels in Prozent.",
 		"template": "map001",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_004",
+		"orderKey": "03_02_00_00_00_010",
 		"parentId": 4831,
 		"children": [],
 		"renderLink": [
@@ -9877,7 +9277,7 @@ var indikatoren = [
 	{
 		"title": "Anteil Grünflächen",
 		"subtitle": "Stand: 2017",
-		"kuerzel": "I.02.1.05119",
+		"kuerzel": "I.02.1.5119",
 		"kuerzelKunde": "RU-3.B",
 		"description": "Anteil Grünflächen",
 		"thema": "02 Raum, Umwelt",
@@ -9886,17 +9286,18 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-03-17T14:12:26.2626",
-		"stufe1": "Bereich 2: Raum und Umwelt",
-		"stufe2": "",
+		"aktualisierungsdatum": "2018-06-14T09:46:36.3636",
+		"stufe1": "Teil 3: Karten",
+		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Anteil Grünflächen ist in den beiden Landgemeinden Bettingen und Riehen am höchsten. Auch in den Wohnvierteln Bruderholz und Hirzbrunnen liegt er noch über 50%. Am geringsten ist der Anteil Grünflächen in den innenstädtischen Wohnvierteln Altstadt Grossbasel und Altstadt Kleinbasel.",
 		"erlaeuterungen": "Anteil der Grünflächen an der gesamten Fläche des jeweiligen Wohnviertels. Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6–12 Jahren mit einer periodischen Nachführung aktualisiert.",
 		"template": "map001",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_006",
+		"orderKey": "03_02_00_00_00_011",
 		"parentId": 4832,
 		"children": [],
 		"renderLink": [
@@ -9913,7 +9314,7 @@ var indikatoren = [
 	{
 		"title": "Fläche pro Wohnung",
 		"subtitle": "Stand: 2017",
-		"kuerzel": "I.09.1.05120",
+		"kuerzel": "I.09.1.5120",
 		"kuerzelKunde": "RU-4.B",
 		"description": "Fläche pro Wohnung",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -9922,17 +9323,18 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-05-04T17:27:32.3232",
-		"stufe1": "Bereich 2: Raum und Umwelt",
-		"stufe2": "",
+		"aktualisierungsdatum": "2018-06-14T09:46:36.3636",
+		"stufe1": "Teil 3: Karten",
+		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Wohnviertel Klybeck sind die Wohnungen im Durchschnitt am kleinsten, in der Gemeinde Bettingen am grössten.",
 		"erlaeuterungen": "Mittlere Fläche der Wohnungen im Wohnviertel (ungewichtetes arithmetisches Mittel über alle Wohnungen) in Quadratmeter.",
 		"template": "map001",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_008",
+		"orderKey": "03_02_00_00_00_012",
 		"parentId": 4833,
 		"children": [],
 		"renderLink": [
@@ -9949,7 +9351,7 @@ var indikatoren = [
 	{
 		"title": "Wohnfläche pro Kopf",
 		"subtitle": "Stand: 2017",
-		"kuerzel": "I.09.1.05121",
+		"kuerzel": "I.09.1.5121",
 		"kuerzelKunde": "RU-5.B",
 		"description": "Wohnfläche pro Kopf",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -9958,21 +9360,20 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-05-04T17:31:03.033",
-		"stufe1": "Bereich 2: Raum und Umwelt",
-		"stufe2": "",
+		"aktualisierungsdatum": "2018-06-14T09:46:36.3636",
+		"stufe1": "Teil 3: Karten",
+		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Wohnviertel Klybeck verfügen die Bewohner mit 32&nbsp;m<sup>2</sup> durchschnittlich über die geringste Wohnfläche pro Kopf, in der Gemeinde Bettingen mit 53&nbsp;m<sup>2</sup> über die höchste.",
 		"erlaeuterungen": "Die mittlere Wohnfläche pro Kopf wird folgendermassen definiert: Gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen geteilt durch das Total der dort wohnenden Personen.",
 		"template": "map001",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_010",
+		"orderKey": "03_02_00_00_00_013",
 		"parentId": 4834,
-		"children": [
-			"6367"
-		],
+		"children": [],
 		"renderLink": [
 			"4834"
 		],
@@ -9988,7 +9389,7 @@ var indikatoren = [
 	{
 		"title": "Vermögenssteuer pro Veranlagung",
 		"subtitle": "Stand: Steuerjahr 2015",
-		"kuerzel": "I.18.2.05122",
+		"kuerzel": "I.18.2.5122",
 		"kuerzelKunde": "WA-1.B",
 		"description": "Vermögenssteuer pro Veranlagung",
 		"thema": "18 Öffentliche Finanzen",
@@ -9997,17 +9398,18 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
-		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
-		"stufe2": "",
+		"aktualisierungsdatum": "2018-06-14T09:46:36.3636",
+		"stufe1": "Teil 3: Karten",
+		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Wohnviertel Bruderholz wird der höchste Wert pro Veranlagung verzeichnet, im Wohnviertel Klybeck der niedrigste.",
 		"erlaeuterungen": "Mittlere Vermögenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Vermögenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
 		"template": "map001",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_002",
+		"orderKey": "03_03_00_00_00_014",
 		"parentId": 4835,
 		"children": [],
 		"renderLink": [
@@ -10033,9 +9435,9 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
-		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
-		"stufe2": "",
+		"aktualisierungsdatum": "2018-02-28T11:34:18.1818",
+		"stufe1": "Teil 3: Karten",
+		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -10043,7 +9445,7 @@ var indikatoren = [
 		"erlaeuterungen": "Mittlere Einkommenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Einkommenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
 		"template": "map001",
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_004",
+		"orderKey": "03_03_00_00_00_015",
 		"parentId": 4836,
 		"children": [],
 		"renderLink": [
@@ -10059,8 +9461,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Erwerbstätigenquote",
-		"subtitle": "Stand: gepoolte Daten 2011-2015",
-		"kuerzel": "I.03.1.05124",
+		"subtitle": "Stand: gepoolte Daten 2012-2016",
+		"kuerzel": "I.03.1.5124",
 		"kuerzelKunde": "WA-3.B",
 		"description": "Erwerbstätigenquote",
 		"thema": "03 Erwerbsleben",
@@ -10069,17 +9471,18 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-20T14:43:49.4949",
-		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
-		"stufe2": "",
+		"aktualisierungsdatum": "2018-06-14T09:46:36.3636",
+		"stufe1": "Teil 3: Karten",
+		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Mittel der Jahre 2011 bis 2015 ist die Erwerbstätigenquote im Wohnviertel Klybeck am tiefsten (60,9%) und im Wohnviertel Altstadt Grossbasel am grössten (83,3%)",
+		"lesehilfe": "Im Mittel der Jahre 2012 bis 2016 ist die Erwerbstätigenquote im Wohnviertel Klybeck am tiefsten (61,5%) und im Wohnviertel Altstadt Grossbasel am grössten (85,6%)",
 		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet, was zum selben Wert für die beiden Gemeinden führt.",
 		"template": "map001",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_006",
+		"orderKey": "03_03_00_00_00_016",
 		"parentId": 4837,
 		"children": [],
 		"renderLink": [
@@ -10105,9 +9508,9 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-20T15:25:19.1919",
-		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
-		"stufe2": "",
+		"aktualisierungsdatum": "2018-02-28T12:43:32.3232",
+		"stufe1": "Teil 3: Karten",
+		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -10115,7 +9518,7 @@ var indikatoren = [
 		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte, die in Basel-Stadt arbeiten, in Vollzeitäquivalenten) an der gesamten Wohnbevölkerung des Wohnviertels.<br> Im Wohnvietel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
 		"template": "map001",
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_008",
+		"orderKey": "03_03_00_00_00_017",
 		"parentId": 4838,
 		"children": [],
 		"renderLink": [
@@ -10132,7 +9535,7 @@ var indikatoren = [
 	{
 		"title": "Arbeitslosenquote",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.03.4.05126",
+		"kuerzel": "I.03.4.5126",
 		"kuerzelKunde": "WA-5.B",
 		"description": "Arbeitslosenquote",
 		"thema": "03 Erwerbsleben",
@@ -10141,17 +9544,18 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-05-12T15:25:34.3434",
-		"stufe1": "Bereich 3: Wirtschaft und Arbeit",
-		"stufe2": "",
+		"aktualisierungsdatum": "2018-06-14T09:46:36.3636",
+		"stufe1": "Teil 3: Karten",
+		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Anteil als arbeitslos gemeldeter Personen am Total der Erwerbspersonen (15 bis 64 Jahre) in Prozent, jeweils Ende Jahr. Erwerbspersonen aus den Jahren 2010 - 2014, Hochrechnung auf Basis einer Stichprobe von 5 000 Personen pro Jahr. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet.",
+		"lesehilfe": "Die Gemeinden Riehen und Bettingen verzeichnen die niedrigsten Arbeitslosenquoten, das Wohnviertel Klybeck die höchste.",
+		"erlaeuterungen": "Anteil als arbeitslos gemeldeter Personen am Total der Erwerbspersonen (15 bis 64 Jahre) in Prozent, jeweils Ende Jahr. Erwerbspersonen aus den Jahren 2010-2014, Hochrechnung auf Basis einer Stichprobe von 5 000 Personen pro Jahr. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet.",
 		"template": "map001",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_010",
+		"orderKey": "03_03_00_00_00_018",
 		"parentId": 4839,
 		"children": [],
 		"renderLink": [
@@ -10179,7 +9583,7 @@ var indikatoren = [
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -10216,7 +9620,7 @@ var indikatoren = [
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -10456,7 +9860,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -10490,7 +9894,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -10524,7 +9928,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -10558,7 +9962,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Staatliches Handeln",
 		"stufe2": "Finanzhaushalt",
 		"stufe3": "",
@@ -10626,7 +10030,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Staatliches Handeln",
 		"stufe2": "Finanzhaushalt",
 		"stufe3": "",
@@ -10694,7 +10098,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Lebensqualität",
 		"stufe3": "",
@@ -10732,7 +10136,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
@@ -10756,7 +10160,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Empfundene gesundheitliche Verfassung",
-		"subtitle": "nach Altersgruppe <br> «Und darf ich fragen, wie es Ihnen zur Zeit gsundheitlich geht?»",
+		"subtitle": "nach Altersgruppe <br> «Und darf ich fragen, wie es Ihnen zur Zeit gesundheitlich geht?»",
 		"kuerzel": "I.50.1.05181",
 		"kuerzelKunde": "GW4",
 		"description": "Empfundene gesundheitliche Verfassung",
@@ -10766,7 +10170,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
@@ -10834,7 +10238,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Existenzsicherung",
 		"stufe3": "",
@@ -10869,7 +10273,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Existenzsicherung",
 		"stufe3": "",
@@ -10904,7 +10308,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Existenzsicherung",
 		"stufe3": "",
@@ -10939,7 +10343,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Sicherheit",
 		"stufe3": "",
@@ -11007,7 +10411,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Sicherheit",
 		"stufe3": "",
@@ -11041,7 +10445,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Bildung",
 		"stufe3": "",
@@ -11075,7 +10479,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Bildung",
 		"stufe3": "",
@@ -11109,7 +10513,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Bildung",
 		"stufe3": "",
@@ -11143,7 +10547,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Bildung",
 		"stufe3": "",
@@ -11178,7 +10582,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
@@ -11212,7 +10616,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
@@ -11280,7 +10684,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-03-16T14:52:33.3333",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.0000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
@@ -11349,7 +10753,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-07-06T14:41:09.099",
+		"aktualisierungsdatum": "2018-01-16T00:00:00.000",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -11385,7 +10789,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-08-17T16:15:02.022",
+		"aktualisierungsdatum": "2018-01-16T00:00:00.000",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -11463,8 +10867,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2013 5,3 globale Hektaren pro Kopf.",
-		"erlaeuterungen": "Der ökologische Fussabdruck misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Er wird von Global Footprint Network berechnet. Aufgrund von Verbesserungen der Methodik und der berücksichtigten Eingangsgrössen für die Berechnung kann bei Aktualisierungen die gesamte Zeitreihe rückwirkend angepasst werden.",
+		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2014 4,9 globale Hektaren pro Kopf.",
+		"erlaeuterungen": "Der ökologische Fussabdruck misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Er wird durch die Non-Profit Organisation \"Global Footprint Network\" für alle Länder weltweit berechnet. Aufgrund von Verbesserungen der Methodik und der berücksichtigten Eingangsgrössen für die Berechnung kann bei Aktualisierungen die gesamte Zeitreihe rückwirkend angepasst werden.",
 		"template": "line001",
 		"visibleInPortal": true,
 		"orderKey": "04_01_00_00_00_401",
@@ -11475,7 +10879,8 @@ var indikatoren = [
 			"Global Footprint Network"
 		],
 		"externalLinks": [
-			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/oekologischer-fussabdruck.html' target = '_blank'>Bundesamt für Statistik: Der ökologische Fussabdruck der Schweiz</a>"
+			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/oekologischer-fussabdruck.html' target = '_blank'>Bundesamt für Statistik: Der ökologische Fussabdruck der Schweiz</a>",
+			"Aktuelle Daten des <a href = 'http://data.footprintnetwork.org/#/countryTrends?cn=211&type=BCpc,EFCpc' target = '_blank'>Global Footprint Network</a>"
 		],
 		"id": 5793
 	},
@@ -11491,7 +10896,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -11525,7 +10930,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -11559,7 +10964,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -11593,7 +10998,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -11628,7 +11033,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -11663,7 +11068,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Boden",
 		"stufe2": "",
 		"stufe3": "",
@@ -11698,7 +11103,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
 		"stufe1": "Thema Wald",
 		"stufe2": "",
 		"stufe3": "",
@@ -11805,7 +11210,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-07-05T09:32:06.066",
+		"aktualisierungsdatum": "2018-01-16T00:00:00.000",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -11840,7 +11245,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-10-27T00:00:00.000",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -11876,7 +11281,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-07-05T09:38:45.4545",
+		"aktualisierungsdatum": "2018-01-16T00:00:00.000",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -11912,7 +11317,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-10-27T00:00:00.000",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -11948,7 +11353,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-10-27T00:00:00.000",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -11984,7 +11389,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-10-27T00:00:00.000",
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
@@ -12101,7 +11506,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die meiste für Arbeiten genutzte Bruttogeschossfläche (BGF) findet man 2015 in den Wohnvierteln St. Alban und St. Johann. Während das Wohnviertel St. Johann einen Rückgang der BGF Arbeiten seit 1995 verzeichnete, weist das St. Alban-Quartier den stärksten Zuwachs aus.",
-		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche werden fünfjährlich aktualisiert, letztmals 2015.<br> Der Rückgang im Wohnviertel St. Johann kann geht mit einer gleichzeitigen Zunahme der BGF Wohnen einher. Grund dafür waren Neubau-Projekte wie Volta West, Volta Mitte und Volta Zentrum sowie Umnutzungen generell.",
+		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche werden fünfjährlich aktualisiert, letztmals 2015.<br> Der Rückgang im Wohnviertel St. Johann geht mit einer gleichzeitigen Zunahme der BGF Wohnen einher. Grund dafür waren Neubau-Projekte wie Volta West, Volta Mitte und Volta Zentrum sowie Umnutzungen generell.",
 		"template": "mappie001",
 		"visibleInPortal": true,
 		"orderKey": "02_04_00_00_00_003",
@@ -12167,7 +11572,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2017-07-19T16:15:08.088",
+		"aktualisierungsdatum": "2018-01-16T00:00:00.000",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -12204,7 +11609,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-10-27T00:00:00.000",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 6: Erschliessungsqualität",
 		"stufe3": "",
@@ -12266,8 +11671,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
-		"subtitle": "",
-		"kuerzel": "I.01.5.06011",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.01.5.6011",
 		"kuerzelKunde": "1-1",
 		"description": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
 		"thema": "01 Bevölkerung",
@@ -12276,19 +11681,22 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-06-20T16:34:59.5959",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2016 zogen 14 849 Personen neu in den Kanton Basel-Stadt. In den letzten zehn Jahren wurden lediglich 2013 mit 15 236 Personen mehr Neuzuzüger registriert. Bei den Weggezogenen wurde 2016 mit 13 947 Personen der Zehnjahresrekord erreicht. Der Wanderunggsaldo fällt seit dem Jahr 2007 stets positiv aus.",
+		"lesehilfe": "2017 zogen 13 736 Personen neu in den Kanton Basel-Stadt. Betrachtet man die vergangenen zehn Jahre, wurden 2013 die meisten Neuzuzüger – nämlich 15 236 – registriert. 13 158 Personen verliessen den Kanton im Jahr 2017. Ein Jahr zuvor wurde mit 13 947 Weggezogenen der Zehnjahreshöchststand erreicht. Der Wanderungssaldo fiel zwischen 2008 und 2017 stets positiv aus.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"visibleInPortal": true,
 		"orderKey": "_001",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"5155",
+			"6760"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -12300,8 +11708,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
-		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.5.06012",
+		"subtitle": "Basel-Stadt, 2017",
+		"kuerzel": "I.01.5.6012",
 		"kuerzelKunde": "1-2",
 		"description": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
 		"thema": "01 Bevölkerung",
@@ -12310,19 +11718,21 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-06-20T16:34:59.5959",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Für das Jahr 2016 ergibt sich ein Wanderungsgewinn von 902 Personen. Er kommt hauptsächlich dadurch zustande, dass mehr ausländische Staatsangehörige aus dem Ausland nach Basel-Stadt zuziehen als den Kanton in Richtung Ausland verlassen (+3 396). Leicht positiv ist auch die Wanderungsbilanz der Schweizer gegenüber schweizerischen Gebieten ausserhalb des Kantons Basel-Stadt (+62).",
+		"lesehilfe": "2017 ergibt sich für den Kanton ein Wanderungsgewinn von 578 Personen. Er kommt dadurch zustande, dass mehr ausländische Staatsangehörige aus dem Ausland nach Basel-Stadt zuziehen als den Kanton in Richtung Ausland verlassen (+2 812). Die Rubrik «Unbekannt» ist vor allem auf Wegzüger zurückzuführen, die ihre neue Adresse nicht angeben oder ohne Abmeldung wegziehen.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"visibleInPortal": true,
 		"orderKey": "_002",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6761"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -12334,8 +11744,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Aus dem Ausland Zugezogene nach Zuzugsland",
-		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.5.06013",
+		"subtitle": "Basel-Stadt, 2017",
+		"kuerzel": "I.01.5.6013",
 		"kuerzelKunde": "1-3",
 		"description": "Aus dem Ausland Zugezogene nach Zuzugsland",
 		"thema": "01 Bevölkerung",
@@ -12344,19 +11754,21 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-06-20T16:34:59.5959",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Grafik zeigt die fünf wichtigsten ausländischen Zuzugsländer des Jahres 2016. Die grösste Gruppe der aus dem Ausland Zugewanderten kommt aus Deutschland (2 080 Personen), danach folgen Personen aus Italien (595), Frankreich (520), den Vereinigten Staaten von Amerika (517) und dem Vereinigten Königreich (415). Die übrigen 4 164 Zuzüger aus dem Ausland kommen aus 126 verschiedenen Ländern.",
+		"lesehilfe": "Die Grafik zeigt die fünf wichtigsten ausländischen Zuzugsländer des Jahres 2017. Die grösste Gruppe der aus dem Ausland Zugewanderten kommt aus Deutschland (1 956 Personen), danach folgen Personen aus Italien (526) und den Vereinigten Staaten von Amerika (512). Aus Frankreich und dem Vereinigten Königreich kommen gleichviele Personen (je 431). Die übrigen 3 841 Zuzüger verteilen sich auf 128 verschiedene Länder.",
 		"erlaeuterungen": "",
 		"template": "pie001",
 		"visibleInPortal": true,
 		"orderKey": "_003",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6762"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -12368,8 +11780,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Zugezogene nach Zuzugsland, bei denen die Staatsangehörigkeit dem Zuzugsland entspricht",
-		"subtitle": "",
-		"kuerzel": "I.01.5.06016",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.01.5.6016",
 		"kuerzelKunde": "1-6",
 		"description": "Zugezogene nach Zuzugsland, bei denen die Staatsangehörigkeit dem Zuzugsland entspricht",
 		"thema": "01 Bevölkerung",
@@ -12378,19 +11790,21 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-06-20T16:34:59.5959",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "57% der Personen, die 2016 aus der Schweiz nach Basel-Stadt zuzogen, sind Schweizer Staatsangehörige. Der Anteil der deutschen Staatsangehörigen an allen aus Deutschland Zugewanderten betrug 77%, derjenige der italienischen Staatsangehörigen an allen aus Italien Zugewanderten 84%.",
+		"lesehilfe": "Bei 55% der Personen, die 2017 aus der Schweiz nach Basel-Stadt zuzogen, handelte es sich um Schweizer Staatsangehörige. Der Anteil der deutschen Staatsangehörigen an allen aus Deutschland Zugewanderten betrug knapp 75%, derjenige der italienischen Staatsangehörigen an allen aus Italien Zugewanderten 84%.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"visibleInPortal": true,
 		"orderKey": "_006",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6765"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -12402,8 +11816,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Zugezogene nach Zuzugsland und Geschlecht",
-		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.5.06017",
+		"subtitle": "Basel-Stadt, 2017",
+		"kuerzel": "I.01.5.6017",
 		"kuerzelKunde": "1-7",
 		"description": "Zugezogene nach Zuzugsland und Geschlecht",
 		"thema": "01 Bevölkerung",
@@ -12412,19 +11826,21 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-06-20T16:34:59.5959",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Knapp die Hälfte aller nach Basel-Stadt zugezogenen Personen sind Frauen. Höhere Frauenanteile weisen die Zugezogenen aus Frankreich und den Vereinigten Staaten auf, niedrigere jene aus Deutschland, Italien und dem Vereinigten Königreich.",
+		"lesehilfe": "Gut die Hälfte (50,2%) aller nach Basel-Stadt zugezogenen Personen sind Frauen. Leicht höhere Frauenanteile weisen die Zugezogenen aus der Schweiz (51,8%) und aus den Vereinigten Staaten (50,8%) auf, niedrigere jene aus Deutschland (48,2%), Frankreich (47,3%), dem Vereinigten Königreich (47,3%) und Italien (41,1%).",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"visibleInPortal": true,
 		"orderKey": "_007",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6766"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -12436,8 +11852,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Zuzug aus der Schweiz, Wegzug in die Schweiz und Wanderungssaldo nach Alter",
-		"subtitle": "2007 - 2016 zusammengefasst",
-		"kuerzel": "I.01.5.06018",
+		"subtitle": "Basel-Stadt, 2008 - 2017 zusammengefasst",
+		"kuerzel": "I.01.5.6018",
 		"kuerzelKunde": "1-8",
 		"description": "Zuzug aus der Schweiz, Wegzug in die Schweiz und Wanderungssaldo nach Alter",
 		"thema": "01 Bevölkerung",
@@ -12446,19 +11862,21 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-06-20T16:34:59.5959",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Wanderungsbilanz zwischen den aus der Schweiz Zugezogenen und den in die Schweiz Weggezogenen war einzig bei den Fünfjahresklassen der 15- bis 19-Jährigen sowie der 20- bis 24-Jährigen positiv.",
+		"lesehilfe": "Zwischen 2008 und 2017 war die Wanderungsbilanz zwischen den aus der Schweiz Zugezogenen und den in die Schweiz Weggezogenen nur bei den 15- bis 19-Jährigen sowie den 20- bis 24-Jährigen positiv.",
 		"erlaeuterungen": "",
 		"template": "populationPyramid001",
 		"visibleInPortal": true,
 		"orderKey": "_008",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6767"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -12470,8 +11888,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Zuzug aus dem Ausland, Wegzug ins Ausland und Wanderungssaldo nach Alter",
-		"subtitle": "2007 - 2016 zusammengefasst",
-		"kuerzel": "I.01.5.06019",
+		"subtitle": "Basel-Stadt, 2008 - 2017 zusammengefasst",
+		"kuerzel": "I.01.5.6019",
 		"kuerzelKunde": "1-9",
 		"description": "Zuzug aus dem Ausland, Wegzug ins Ausland und Wanderungssaldo nach Alter",
 		"thema": "01 Bevölkerung",
@@ -12480,19 +11898,21 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-06-20T16:34:59.5959",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei den aus dem Ausland Zu- bzw. Weggezogenen ergeben sich für alle Fünfjahresklassen zwischen 0 und 59 Jahren Wanderungsgewinne. In den Altersgruppen der 60-Jährigen und Älteren überstieg hingegen die Zahl der Wegzüger jene der Zuzüger.",
+		"lesehilfe": "Der Wanderunsgsaldo der aus dem Ausland Zu- bzw. Weggezogenen fällt für alle Fünfjahresklassen zwischen 0 und 59 Jahren positiv aus. In den Altersgruppen der 60-Jährigen und Älteren übersteigt hingegen die Zahl der Wegzüger jene der Zuzüger.",
 		"erlaeuterungen": "",
 		"template": "populationPyramid001",
 		"visibleInPortal": true,
 		"orderKey": "_009",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6768"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -12504,8 +11924,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Aus dem Ausland Zugezogene nach Zuzugsland sowie nach Gemeinde und Wohnviertel",
-		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.5.06021",
+		"subtitle": "Stand: 2017",
+		"kuerzel": "I.01.5.6021",
 		"kuerzelKunde": "1-11",
 		"description": "Aus dem Ausland Zugezogene nach Zuzugsland sowie nach Gemeinde und Wohnviertel",
 		"thema": "01 Bevölkerung",
@@ -12515,19 +11935,21 @@ var indikatoren = [
 			"Wohnviertel",
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-06-20T16:34:59.5959",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2016 kamen 25% aller Neuzuzüger, die nach Basel-Stadt zuzogen, aus Deutschland. In der Gemeinde Bettingen ist deren Anteil mit 69% deutlich höher als im Kantonsdurchschnitt. Dasselbe gilt für die Wohnviertel Gotthelf und Hirzbrunnen sowie die Gemeinde Riehen. Zuwanderer aus Italien finden ihr erstes baselstädisches Domizil überproportional häufig in den Quartieren Klybeck, Breite und Iselin. Neuzuzüger aus Frankreich lassen sich besonders oft in den Vorstädten sowie in den Wohnvierteln Bruderholz und Bachletten nieder.",
+		"lesehilfe": "Im Jahr 2017 kamen 25% aller Neuzuzüger, die sich in Basel-Stadt niederliessen, aus Deutschland. In der Gemeinde Bettingen ist deren Anteil mit 68% deutlich höher. Ebenfalls überdurchschittlich hoch ist der Anteil der Personen, die zuvor in Deutschland gelebt haben, im Wohnviertel Hirzbrunnen sowie in der Gemeinde Riehen. Die Quartiere Matthäus, Klybeck und Kleinhüningen sind im Vergleich zum Gesamtkanton überproportional häufig erstes baselstädtisches Domizil für Zuwandererer aus Italien. In der Grossbasler Altstadt sowie in den Wohnvierteln Bachletten und Wettstein lassen sich Neuzuzüger aus den Vereinigten Staaten im Vergleich zum Gesamtkanton besonders oft nieder, in den Quartieren Bachletten, Altstadt Kleinbasel und Klybeck Personen aus Frankreich. Die Wohnviertel Bruderholz, Gotthelf und Kleinhüningen verzeichnen im Vergleich zum Gesamtkanton überdurchschnittlich hohe Anteile von Personen aus dem Vereinigten Königreich.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"visibleInPortal": true,
 		"orderKey": "_011",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6770"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -12539,8 +11961,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Bevölkerungssaldo infolge räumlicher Bevölkerungsbewegung pro 100 Einwohner",
-		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.5.06022",
+		"subtitle": "Stand: 2017",
+		"kuerzel": "I.01.5.6022",
 		"kuerzelKunde": "1-12",
 		"description": "Bevölkerungssaldo infolge räumlicher Bevölkerungsbewegung pro 100 Einwohner",
 		"thema": "01 Bevölkerung",
@@ -12550,19 +11972,21 @@ var indikatoren = [
 			"Wohnviertel",
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-06-20T16:34:59.5959",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Wanderungssaldo pro 100 Einwohner illustriert, in welche baselstädtische Wohnviertel mehr Personen von ausserhalb des Kantons zuziehen als von dort abwandern. Im Jahr 2016 verbuchten die Wohnviertel Altstadt Grossbasel, Vorstädte und Rosental die höchsten Wanderungsgewinne. Deutliche Wanderungsverluste ergaben sich hingegen für die Wohnviertel St. Alban, Iselin, St. Johann und Klybeck sowie für die Gemeinden Bettingen. Betrachtet man die Umzüge von Personen, die innerhalb des Kantons ihr Domizil wechselten, wiesen das Breite-, das Bruderholz- und das Hirzbrunnenquartier die stärksten Umzugsgewinne auf. Hohe Umzugsverluste kamen hingegen in den Wohnvierteln Am Ring, Wettstein und Matthäus zustande.",
+		"lesehilfe": "Der Wanderungssaldo pro 100 Einwohner illustriert, in welche baselstädtische Wohnviertel mehr Personen aus anderen Kantonen oder aus dem Ausland zuziehen als von dort abwandern. Im Jahr 2017 verbuchten die Wohnviertel Vorstädte, Am Ring und Rosental die höchsten Wanderungsgewinne. Deutliche Wanderungsverluste ergaben sich hingegen für die Wohnviertel Bruderholz und Kleinhüningen sowie für die Gemeinde Bettingen. Betrachtet man die Umzüge von Personen, die innerhalb des Kantons ihr Domizil wechselten, wiesen das St. Alban- und das Hirzbrunnenquartier sowie die Gemeinde Riehen die stärksten Umzugsgewinne auf. Hohe Umzugsverluste kamen hingegen in den Wohnvierteln Gundeldingen, Wettstein, Rosental und Matthäus zustande.",
 		"erlaeuterungen": "",
 		"template": "mapcolumn002",
 		"visibleInPortal": true,
 		"orderKey": "_012",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6771"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -12574,8 +11998,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Zugezogene, Weggezogene und Wanderungssaldo",
-		"subtitle": "nach Zuzugs- und Wegzugsland; Stand: 2016",
-		"kuerzel": "I.01.5.06023",
+		"subtitle": "nach Zuzugs- und Wegzugsland, Basel-Stadt, 2017",
+		"kuerzel": "I.01.5.6023",
 		"kuerzelKunde": "1-4",
 		"description": "Zugezogene, Weggezogene und Wanderungssaldo",
 		"thema": "01 Bevölkerung",
@@ -12584,19 +12008,21 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-06-20T16:34:59.5959",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Betrachtet man die fünf wichtigsten ausländischen Zuzugsländer, verbuchte Basel-Stadt 2016 den grössten Zuzugsüberschuss gegenüber Deutschland (+732). Danach folgen Italien (+367), das Vereinigte Königreich (+159), Frankreich (+66) und die Vereinigten Staaten (+37).",
+		"lesehilfe": "Betrachtet man die fünf wichtigsten ausländischen Zuzugsländer, verbuchte Basel-Stadt 2017 den grössten Zuzugsüberschuss gegenüber Deutschland (+688). Den zweiten Rang belegte Italien (+274), den dritten das Vereinigte Königreich (+199). Danach folgten die Vereinigten Staaten (+111). Die Wanderungsbilanz mit Frankreich fiel negativ aus (-21).",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"visibleInPortal": true,
 		"orderKey": "_004",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6772"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -12608,8 +12034,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Entwicklung der aus dem Ausland Zugezogenen",
-		"subtitle": "nach Zuzugsland, indexiert (Wert 2007 = 100)",
-		"kuerzel": "I.01.5.06024",
+		"subtitle": "nach Zuzugsland, Basel-Stadt, indexiert (Wert 2008 = 100)",
+		"kuerzel": "I.01.5.6024",
 		"kuerzelKunde": "1-5",
 		"description": "Entwicklung der aus dem Ausland Zugezogenen",
 		"thema": "01 Bevölkerung",
@@ -12618,19 +12044,21 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-06-20T16:34:59.5959",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zuwanderung aus Italien ist 2016 gegenüber 2007 um 142% (2007=100 Punkte) gestiegen. Zugenommen hat auch der Zuzug aus Frankreich (40%), aus den Vereinigten Staaten (23%) und aus dem Vereinigten Königreich (6%). Weniger Personen als 2007 kamen aus Deutschland. Hier nahm die Zahl der Zuzüger um 19% ab.",
+		"lesehilfe": "Die Zuwanderung aus Italien ist 2017 gegenüber 2008 um 77% auf 177 Punkte stark gestiegen. Auch der Zuzug aus Frankreich hat um 19% zugenommen. Die höchsten Zuzügerzahlen aus diesen Ländern wurden 2014 bis 2016 verbucht. Zwischen 2008 und 2017 ist die Zuwanderung aus den Vereinigten Staaten um 11% gestiegen. Aus Deutschland kamen weniger Personen als noch 2008 (-24%), ebenso aus dem Vereinigten Königreich (-5%).",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"visibleInPortal": true,
 		"orderKey": "_005",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6773"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -12642,8 +12070,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner",
-		"subtitle": "Stand: 2016",
-		"kuerzel": "I.01.5.06025",
+		"subtitle": "Stand: 2017",
+		"kuerzel": "I.01.5.6025",
 		"kuerzelKunde": "1-10",
 		"description": "Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner",
 		"thema": "01 Bevölkerung",
@@ -12653,19 +12081,21 @@ var indikatoren = [
 			"Wohnviertel",
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-06-20T16:34:59.5959",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Breite lassen sich mehr Neuzuzüger aus der Schweiz als aus dem Ausland nieder: 2016 kamen im Breiteviertel 55% der Zugezogenen aus der Schweiz. Gesamtkantonal kamen 44% der Neuzuzüger aus der Schweiz. In den Quartieren Gundeldingen, Bruderholz, Bachletten und Hirzbrunnen liegt der Anteil der Zuzüger, die bereits zuvor in der Schweiz gelebt haben, ebenfalls über dem kantonalen Durchschnitt. Überdurchschnittlich viele Zuzüger aus dem Ausland gibt es hingegen in den Wohnvierteln Rosental, Matthäus, Klybeck und Kleinhüningen.",
+		"lesehilfe": "44% der Neuzuzüger kommen aus der Schweiz, 56% ziehen aus dem Ausland zu (Jahr 2017). Im Wohnviertel Breite lassen sich mehr Neuzuzüger aus der Schweiz (58%) als aus dem Ausland (42%) nieder. In den Quartieren Bruderholz, Bachletten, Iselin und Hirzbrunnen sowie in den Gemeinden Riehen und Bettingen liegt der Anteil der Zuzüger, die bereits zuvor in der Schweiz gelebt haben, ebenfalls deutlich über dem kantonalen Durchschnitt. Überdurchschnittlich viele Zuzüger aus dem Ausland hingegen gibt es in den Wohnvierteln Rosental, Kleinhüningen und Vorstädte mit einem Anteil von jeweils über 65%.",
 		"erlaeuterungen": "",
 		"template": "mappie002",
 		"visibleInPortal": true,
 		"orderKey": "_010",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6774"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -12687,7 +12117,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -12721,7 +12151,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -12756,7 +12186,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -12790,7 +12220,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -12824,7 +12254,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -12858,7 +12288,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
@@ -12892,7 +12322,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
@@ -12900,8 +12330,8 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2017 wurden 28 Hitzetage verzeichnet. Das Maximum innerhalb des dargestellten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
 		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat.<br><b<br>Die Summe der Tage eines Jahres, an denen das Maximum der Lufttemperatur über 30&nbsp;°C liegt, ergibt die Anzahl Hitzetage pro Jahr. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33&#039; N / 7°35&#039; E).",
-		"template": "line001",
-		"visibleInPortal": false,
+		"template": "stock001",
+		"visibleInPortal": true,
 		"orderKey": "04_02_00_00_00_412",
 		"parentId": 4300,
 		"children": [],
@@ -12926,7 +12356,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Friedliches Zusammenleben",
 		"stufe3": "",
@@ -12960,7 +12390,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Friedliches Zusammenleben",
 		"stufe3": "",
@@ -12994,7 +12424,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengerechtigkeit",
 		"stufe3": "",
@@ -13028,7 +12458,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengerechtigkeit",
 		"stufe3": "",
@@ -13062,7 +12492,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengerechtigkeit",
 		"stufe3": "",
@@ -13096,7 +12526,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Gesellschaftliche Verantwortung",
 		"stufe3": "",
@@ -13130,7 +12560,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Gesellschaftliche Verantwortung",
 		"stufe3": "",
@@ -13164,7 +12594,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Gesellschaftliche Verantwortung",
 		"stufe3": "",
@@ -13198,7 +12628,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Gesellschaftliche Verantwortung",
 		"stufe3": "",
@@ -13232,7 +12662,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Gesellschaftliche Verantwortung",
 		"stufe3": "",
@@ -13268,7 +12698,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
@@ -13302,7 +12732,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
@@ -13336,7 +12766,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
@@ -13370,7 +12800,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
@@ -13404,7 +12834,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
@@ -13438,7 +12868,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
@@ -13472,7 +12902,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
@@ -13541,7 +12971,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Erwerbsarbeit",
 		"stufe3": "",
@@ -13550,7 +12980,7 @@ var indikatoren = [
 		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im Jahresdurchschnitt 2017 auf 3,8% gesunken. Die Jugendarbeitslosenquote reduzierte sich 2017 auf 4,2%. Die Arbeitslosenquote der Personen über 50 Jahre lag mit 3,1% wie in den Vorjahren deutlich unterhalb des Durchschnitts.",
 		"erlaeuterungen": "Die Arbeitslosenquote berechnet sich folgendermassen: Registrierte Arbeitslose geteilt durch Erwerbspersonen mal 100.",
 		"template": "line001",
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "06_02_00_00_00_609",
 		"parentId": 6137,
 		"children": [],
@@ -13575,7 +13005,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Erwerbsarbeit",
 		"stufe3": "",
@@ -13609,7 +13039,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Erwerbsarbeit",
 		"stufe3": "",
@@ -13677,7 +13107,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -13711,7 +13141,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -13745,7 +13175,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -13779,7 +13209,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -13813,7 +13243,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -13847,7 +13277,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -13881,7 +13311,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -13915,7 +13345,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -13949,7 +13379,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -13983,7 +13413,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -14017,7 +13447,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -14051,7 +13481,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -14085,7 +13515,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -14119,7 +13549,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -14153,7 +13583,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -14187,7 +13617,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -14221,7 +13651,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -14256,7 +13686,7 @@ var indikatoren = [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -14290,7 +13720,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -14324,7 +13754,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -14358,7 +13788,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -14392,7 +13822,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -14426,7 +13856,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -14460,7 +13890,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -14495,7 +13925,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -14530,7 +13960,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -14566,7 +13996,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -14602,7 +14032,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -14637,7 +14067,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -14672,7 +14102,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -14706,7 +14136,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -14740,7 +14170,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -14774,7 +14204,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -14811,7 +14241,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
@@ -14848,7 +14278,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
@@ -14884,7 +14314,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
@@ -14920,7 +14350,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -14956,7 +14386,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -14992,7 +14422,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15034,7 +14464,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15071,7 +14501,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15107,7 +14537,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15143,7 +14573,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15169,6 +14599,43 @@ var indikatoren = [
 		"id": 6136
 	},
 	{
+		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
+		"subtitle": "",
+		"kuerzel": "I.03.4.06137",
+		"kuerzelKunde": "3.4",
+		"description": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Arbeitslose",
+		"kennzahlenset": "Legislaturplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im Jahresdurchschnitt 2017 auf 3,8% gesunken. Die Jugendarbeitslosenquote reduzierte sich 2017 auf 4,2%. Die Arbeitslosenquote der Personen über 50 Jahre lag mit 3,1% wie in den Vorjahren deutlich unterhalb des Durchschnitts.",
+		"erlaeuterungen": "Die Arbeitslosenquote berechnet sich folgendermassen: Registrierte Arbeitslose geteilt durch Erwerbspersonen mal 100.",
+		"template": "line001",
+		"visibleInPortal": true,
+		"orderKey": "03_00_00_00_00_005",
+		"parentId": null,
+		"children": [
+			"6053",
+			"6293"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6137
+	},
+	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
 		"subtitle": "pro Kopf in Franken",
 		"kuerzel": "I.04.1.06138",
@@ -15180,7 +14647,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15216,7 +14683,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15253,7 +14720,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15296,15 +14763,13 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der 10-Jahresspanne von 2007 bis 2016 nahm die Bevölkerung in Basel-Stadt von 187 684 auf 198 206 Personen zu. Dies entspricht einer Steigerung um 5,6%.",
-		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister.",
+		"lesehilfe": "In der 10-Jahresspanne von 2008 bis 2017 nahm die Bevölkerung in Basel-Stadt von 188 556 auf 198 988 Personen zu. Dies entspricht einem Wachstum um 5,0%.",
+		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1900: Eidgenössische Volkszählungen; 1901-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 		"template": "stock001",
 		"visibleInPortal": false,
 		"orderKey": "04_00_00_00_00_001",
 		"parentId": 4132,
-		"children": [
-			"6297"
-		],
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -15326,7 +14791,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15362,7 +14827,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15400,7 +14865,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15437,7 +14902,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15474,7 +14939,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15511,7 +14976,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15548,7 +15013,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15584,7 +15049,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15621,7 +15086,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15660,7 +15125,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15696,7 +15161,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15732,7 +15197,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15770,7 +15235,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15806,7 +15271,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15844,7 +15309,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15882,7 +15347,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15919,7 +15384,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15956,7 +15421,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
@@ -15994,7 +15459,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16032,7 +15497,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16069,7 +15534,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 8: Das Kulturangebot ist vielfältig und erstklassig.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16107,7 +15572,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 8: Das Kulturangebot ist vielfältig und erstklassig.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16143,7 +15608,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16179,7 +15644,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16216,7 +15681,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16252,7 +15717,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16289,7 +15754,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16325,7 +15790,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16362,7 +15827,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16400,7 +15865,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16438,7 +15903,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16476,7 +15941,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16512,7 +15977,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 12:  Der Service public ist modern und kundenfreundlich.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16548,7 +16013,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 12:  Der Service public ist modern und kundenfreundlich.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16584,7 +16049,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16620,7 +16085,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16656,7 +16121,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -16690,7 +16155,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -16724,7 +16189,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16761,7 +16226,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16797,7 +16262,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16833,7 +16298,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16869,7 +16334,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16906,7 +16371,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16942,7 +16407,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-01-16T00:00:00.000",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -16979,7 +16444,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-10-27T00:00:00.000",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -17015,7 +16480,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-10-27T00:00:00.000",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -17051,7 +16516,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-10-27T00:00:00.000",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
@@ -17087,7 +16552,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-10-27T00:00:00.000",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 8: Qualität für Wirtschaft und Bildung",
 		"stufe3": "",
@@ -17123,7 +16588,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-10-27T00:00:00.000",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -17160,7 +16625,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -17196,7 +16661,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-10-27T00:00:00.000",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
@@ -17233,7 +16698,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -17269,7 +16734,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -18126,7 +17591,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -18300,7 +17765,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-02-16T13:43:21.2121",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.0000",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -18947,7 +18412,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.0000",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -20551,7 +20016,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
@@ -20588,7 +20053,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -20624,7 +20089,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
@@ -20660,7 +20125,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -20669,7 +20134,7 @@ var indikatoren = [
 		"lesehilfe": "Der durchschnittliche Wohnflächenverbrauch pro Kopf ist bei Personen, welche in Einpersonenhaushalten leben, am höchsten (60,7&nbsp;m²). Der tiefste Wert der Wohnfläche pro Kopf ist bei Personen zu finden, welche im Haushaltstyp «Verheiratete Paare mit Kindern» leben (24,9&nbsp;m²).",
 		"erlaeuterungen": "Die Wohnfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.<br>Minderjährige Kinder: unter 18 Jahre, volljährige Kinder: 18 Jahre und älter. <br>Beim Haushaltstyp «Unverheiratete Paare mit Kindern» ist mindestens ein gemeinsames Kind vorhanden. Nichtfamilienhaushalte sind zum Beispiel Wohngemeinschaften oder unverheiratete Paare ohne mindestens ein gemeinsames Kind.",
 		"template": "template001",
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [],
@@ -20695,7 +20160,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -20730,7 +20195,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -20765,7 +20230,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -20800,7 +20265,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2015-12-17T00:00:00.000",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -20971,7 +20436,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -21005,7 +20470,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -21039,7 +20504,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -21073,7 +20538,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -21107,7 +20572,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -21141,7 +20606,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -21175,7 +20640,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -21209,7 +20674,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -21243,7 +20708,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21278,7 +20743,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21313,7 +20778,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21348,7 +20813,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21383,7 +20848,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21418,7 +20883,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21452,7 +20917,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21486,7 +20951,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21520,7 +20985,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21554,7 +21019,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21588,7 +21053,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21622,7 +21087,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21656,7 +21121,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21691,7 +21156,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21726,7 +21191,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21761,7 +21226,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21796,7 +21261,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21831,7 +21296,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21866,7 +21331,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21901,7 +21366,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21935,7 +21400,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21969,7 +21434,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -22003,7 +21468,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -22037,7 +21502,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -22072,7 +21537,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -22107,7 +21572,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -22142,7 +21607,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
@@ -22176,7 +21641,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengerechtigkeit",
 		"stufe3": "",
@@ -22210,7 +21675,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
 		"stufe2": "",
 		"stufe3": "",
@@ -22220,7 +21685,7 @@ var indikatoren = [
 		"erlaeuterungen": "Die Antwortkategorien in der Abbildung wurden abgekürzt. Die vollständigen Fragen lauten: Freundlich: Der Basler Polizist oder die Basler Polizistin ist freundlich; Handelt angemessen: Der Basler Polizist oder die Basler Polizistin handelt der Situation angemessen; Hilfsbereit: Der Basler Polizist oder die Basler Polizistin ist hilfsbereit; Sympathisch: Der Basler Polizist oder die Basler Polizistin ist sympathisch;  Respektvoll: Der Basler Polizist oder die Basler Polizistin behandelt die Leute mit Respekt; Nimmt Anliegen ernst: Der Basler Polizist oder die Basler Polizistin nimmt die Anliegen der Bevölkerung ernst; Gerecht: Der Basler Polizist oder die Basler Polizistin hat einen ausgeprägten Sinn für Gerechtigkeit. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "befragungen001",
 		"visibleInPortal": true,
-		"orderKey": "10_00_00_00_00_000",
+		"orderKey": "10_00_00_00_00_004",
 		"parentId": null,
 		"children": [
 			"6442"
@@ -22246,7 +21711,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
 		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
 		"stufe2": "",
 		"stufe3": "",
@@ -22256,7 +21721,7 @@ var indikatoren = [
 		"erlaeuterungen": "Die Antwortkategorien in der Abbildung wurden abgekürzt. Die vollständigen Fragen lauten: Freundlich: Der Basler Polizist oder die Basler Polizistin ist freundlich; Handelt angemessen: Der Basler Polizist oder die Basler Polizistin handelt der Situation angemessen; Hilfsbereit: Der Basler Polizist oder die Basler Polizistin ist hilfsbereit; Sympathisch: Der Basler Polizist oder die Basler Polizistin ist sympathisch;  Respektvoll: Der Basler Polizist oder die Basler Polizistin behandelt die Leute mit Respekt; Nimmt Anliegen ernst: Der Basler Polizist oder die Basler Polizistin nimmt die Anliegen von der Bevölkerung ernst; Gerecht: Der Basler Polizist oder die Basler Polizistin hat einen ausgeprägten Sinn für Gerechtigkeit. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "befragungen001",
 		"visibleInPortal": true,
-		"orderKey": "10_00_00_00_00_000",
+		"orderKey": "10_00_00_00_00_005",
 		"parentId": null,
 		"children": [
 			"6443"
@@ -22282,7 +21747,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
@@ -22316,7 +21781,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
@@ -22350,7 +21815,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Grenzgänger",
@@ -22384,7 +21849,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Grenzgänger",
@@ -22418,7 +21883,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Meldepflichtige",
@@ -22452,7 +21917,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Meldepflichtige",
@@ -22486,7 +21951,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
@@ -22520,7 +21985,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
@@ -22554,7 +22019,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
@@ -22588,7 +22053,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
@@ -22622,7 +22087,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Übersicht Basler Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
@@ -22656,7 +22121,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Übersicht Basler Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
@@ -22690,7 +22155,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Übersicht Basler Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
@@ -22725,7 +22190,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Übersicht Basler Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
@@ -22759,7 +22224,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Übersicht Basler Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
@@ -22793,7 +22258,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Übersicht Basler Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
@@ -22827,7 +22292,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -22861,7 +22326,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -22895,7 +22360,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -22918,26 +22383,27 @@ var indikatoren = [
 		"id": 6469
 	},
 	{
-		"title": "Mittelwert und Median des Reinvermögens pro Veranlagung",
-		"subtitle": "Stand: Steuerjahr 2014",
-		"kuerzel": "I.18.2.06470",
+		"title": "Mittelwert und Median des Reineinkommens pro Veranlagung",
+		"subtitle": "nach Staatsangehörigkeit, Top 10 der Mittelwerte in Basel-Stadt,<br/>Steuerjahr 2014",
+		"kuerzel": "I.18.2.6470",
 		"kuerzelKunde": "C6-4",
-		"description": "Mittelwert und Median des Reinvermögens pro Veranlagung",
+		"description": "Mittelwert und Median des Reineinkommens pro Veranlagung",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T13:51:38.3838",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der höchste Mittelwert des Reinvermögens liegt sowohl 2005 wie auch 2014 für die Gruppe der Schweizer vor. 2005 beträgt er 489 000 Franken, im jahr 2014 614 000 Franken pro Veranlagung. Den kleinsten Wert verzeichnen in beiden verglichenen Jahren Personen aus der Türkei mit knapp 5 300 Franken im Jahr 2005 resp. gut 12 700 Franken pro Veranlagung im Jahr 2014. Die Ländergruppen «EU-Ost» und «Türkei» verzeichnen den höchsten relativen Anstieg innerhalb der beobachteten Zeitspanne.",
-		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahre 2005 und 2014; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen; Beispiel Steuerpaket ab 1.1.2008. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst",
+		"lesehilfe": "Den höchsten Mittelwert des Reineinkommens pro Veranlagung weisen im Steuerjahr 2014 Personen aus den USA aus, der Wert beträgt über 319 000 Franken. Von ihnen liegen 2014 insgesamt 526 Veranlagungen vor. Es folgen Australien (195 000 Franken, 62 Veranlagungen) und Belgien (177 000 Franken, 108 Veranlagungen).",
+		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2014; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"template": "template001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_030",
 		"parentId": null,
@@ -22952,30 +22418,34 @@ var indikatoren = [
 		"id": 6470
 	},
 	{
-		"title": "Mittelwert des Reineinkommens pro Veranlagung",
-		"subtitle": "nach Staatsangehörigkeit, Top 10 der Mittelwerte",
-		"kuerzel": "I.18.2.06471",
+		"title": "Mittelwert des Reinvermögens pro Veranlagung",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
+		"kuerzel": "I.18.2.6471",
 		"kuerzelKunde": "C6-5",
-		"description": "Mittelwert des Reineinkommens pro Veranlagung",
+		"description": "Mittelwert des Reinvermögens pro Veranlagung",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T13:51:38.3838",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Den höchsten Mittelwert des Reineinkommens pro Veranlagung weisen im Steuerjahr 2014 Personen aus den USA aus, der Wert beträgt über 319 000 Franken. Von ihnen liegen 2014 insgesamt 526 Veranlagungen vor. Es folgen Australien (195 000 Franken, 62 Veranlagungen) und Belgien (177 000 Franken, 108 Veranlagungen).",
+		"lesehilfe": "Der höchste Mittelwert des Reinvermögens liegt sowohl 2005 wie auch 2014 für die Gruppe der Schweizer vor. 2005 beträgt er 489 000 Franken, im jahr 2014 614 000 Franken pro Veranlagung. Den kleinsten Wert verzeichnen in beiden verglichenen Jahren Personen aus der Türkei mit knapp 5 300 Franken im Jahr 2005 resp. gut 12 700 Franken pro Veranlagung im Jahr 2014. Die Ländergruppen «EU-Ost» und «Türkei» verzeichnen den höchsten relativen Anstieg innerhalb der beobachteten Zeitspanne.",
 		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahre 2005 und 2014; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen; Beispiel Steuerpaket ab 1.1.2008. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"template": "template001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_031",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6711",
+			"6712"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -22997,7 +22467,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -23031,7 +22501,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -23065,7 +22535,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23099,7 +22569,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23135,7 +22605,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23170,7 +22640,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23205,7 +22675,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23240,13 +22710,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Einbürgerungen unterlag in den vergangenen Jahren diversen Schwankungen. Die Höchstwerte wurden 2007  mit 2 023 und 2008  mit 1 798 eingebürgerten Ausländern erreicht. Danach gingen die Einbürgerungen zurück, 2011 erwarben noch 835 Ausländer die Schweizer Staatsangehörigkeit. Zwischen 2012 und 2015 nahm die Zahl der Eingebürgerungen tendeziell wieder zu, im Jahr 2015 erhielten 1 170 Personen das Schweizer Bürgerrecht. 2016 liessen sich 752 Ausländer einbürgern, dies ist der tiefste Wert der letzten zehn Jahre. Die Einbürgerungsziffer verläuft entsprechdend den absoluten Werten und lag 2016 bei 10,6.",
+		"lesehilfe": "Pro 1000 Personen liessen sich 2016 knapp 30 Personen aus arabischen Ländern ordentlich oder erleichtert einbürgern. 2006 hatten Personen aus diesen Ländern noch seltener das Schweizer Bürgerrecht erworben. Vergleichsweise hohe Einbürgerungs&shy;ziffern verzeichneten 2016 auch Personen aus Mittel- und Südamerika (18,6), aus dem Balkan (16,5) sowie aus der Türkei (13,1). Die Einbürgerungsziffern dieser drei Gruppen sind im Vergleich zu 2006 zurückgegangen. Auffällig sind die sehr hohen Ein&shy;bür&shy;ge&shy;rungs&shy;ziffern der Personen aus dem Balkan in den Jahren 2007 und 2008. Diese Spitzen lassen sich u. a. damit erklären, dass damals viele Zugewanderte aus dem ehemaligen Jugoslawien, die Mitte der 1990er-Jahre in die Schweiz gekommen waren, die für eine ordentliche Einbürgerung verlangte zwölfjährige Aufenthaltsdauer erreicht hatten und den Schweizer Pass beantragten.",
 		"erlaeuterungen": "Voraussetzung für eine ordentliche Einbürgerung ist u. a. eine 12-jährige Wohndauer in der Schweiz. Eine erleichterte Einbürgerung kommt für ausländische Ehepartner von Schweizern in Frage, die 5 Jahre in der Schweiz gelebt haben und die seit 3 Jahren verheiratet sind. Die Einbürgerungsziffer wird als Anzahl Einbürgerungen (ordentliche und erleichterte) pro 1000 Ausländer am Jahresende berechnet.",
 		"template": "line001",
 		"visibleInPortal": false,
@@ -23274,7 +22744,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23308,7 +22778,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23342,7 +22812,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23377,7 +22847,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23412,7 +22882,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23447,7 +22917,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23482,7 +22952,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23517,7 +22987,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23552,7 +23022,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23587,7 +23057,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23622,7 +23092,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23656,7 +23126,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23690,7 +23160,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23724,7 +23194,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23758,7 +23228,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23792,7 +23262,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23826,7 +23296,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23895,7 +23365,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -23929,7 +23399,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Arbeitslosigkeit",
 		"stufe3": "",
@@ -23963,7 +23433,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Arbeitslosigkeit",
 		"stufe3": "",
@@ -23997,7 +23467,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -24031,7 +23501,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -24065,7 +23535,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -24099,7 +23569,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -24133,7 +23603,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -24167,7 +23637,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -24201,7 +23671,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -24235,7 +23705,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -24270,7 +23740,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -24305,7 +23775,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -24339,7 +23809,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -24373,7 +23843,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Zuwanderung",
@@ -24407,7 +23877,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Zuwanderung",
@@ -24441,7 +23911,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Löhne",
 		"stufe3": "",
@@ -24475,7 +23945,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Löhne",
 		"stufe3": "",
@@ -24509,7 +23979,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Löhne",
 		"stufe3": "",
@@ -24543,7 +24013,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Löhne",
 		"stufe3": "",
@@ -24577,7 +24047,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Löhne",
 		"stufe3": "",
@@ -24611,7 +24081,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Löhne",
 		"stufe3": "",
@@ -24645,7 +24115,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Löhne",
 		"stufe3": "",
@@ -24679,7 +24149,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Löhne",
 		"stufe3": "",
@@ -24713,7 +24183,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
@@ -24747,7 +24217,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -24781,7 +24251,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -24815,7 +24285,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -24849,7 +24319,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -24883,7 +24353,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -24917,7 +24387,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -24951,7 +24421,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -24985,7 +24455,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25019,7 +24489,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25053,7 +24523,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25087,7 +24557,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25121,7 +24591,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25155,7 +24625,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25189,7 +24659,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-03-21T00:00:00.000",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -25223,7 +24693,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
@@ -25257,7 +24727,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25291,7 +24761,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -25325,7 +24795,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -25359,7 +24829,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -25417,6 +24887,886 @@ var indikatoren = [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.statistik.bs.ch/zahlen/tabellen/9-bau-wohnungswesen/mietpreise.html' target = '_blank'>Mietpreisraster Basel-Stadt</a>"
 		],
 		"id": 6601
+	},
+	{
+		"title": "Bevölkerungsbestand am Jahresende",
+		"subtitle": "Stadt Basel",
+		"kuerzel": "I.01.1.06623",
+		"kuerzelKunde": "",
+		"description": "Bevölkerungsbestand am Jahresende",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Gemeinde"
+		],
+		"aktualisierungsdatum": "2018-05-07T09:38:03.033",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "In den 1970er-Jahren begann die Einwohnerzahl der Stadt Basel deutlich zu sinken. Seit 2003 nimmt die Einwohnerzahl der Stadt Basel wieder zu und lag am Jahresende 2017 bei 176 461.",
+		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1970: Eidgenössische Volkszählungen; 1971-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
+		"template": "stock001",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"delimiter": "",
+		"properties": [
+			"http://ld.data-bs.ch/property/jahr",
+			"http://ld.data-bs.ch/property/raum",
+			"http://ld.data-bs.ch/property/bevolkerung"
+		],
+		"id": 6623
+	},
+	{
+		"title": "Quartierradar Altstadt Grossbasel",
+		"subtitle": "Ausgabe 2018",
+		"kuerzel": "I.02.1.6630",
+		"kuerzelKunde": "",
+		"description": "Quartierradar Altstadt Grossbasel",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"stufe1": "Teil 1: Radar-Grafiken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Wohnviertel Altstadt Grossbasel leben sehr viele Personen in Einpersonenhaushalten und der Anteil Personen ohne Religionszugehörigkeit ist hoch, ebenso die Gymnasialquote. Die Bausubstanz ist die älteste im ganzen Kanton. Die durchschnittliche Wohnfläche pro Einwohner ist gross. Ausserdem gibt es im Wohnviertel die zweitmeisten Arbeitsplätze pro Einwohner und die höchste Erwerbstätigenquote.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"template": "spider001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_001",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6630
+	},
+	{
+		"title": "Quartierradar Vorstädte",
+		"subtitle": "Ausgabe 2018",
+		"kuerzel": "I.02.1.6631",
+		"kuerzelKunde": "",
+		"description": "Quartierradar Vorstädte",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"stufe1": "Teil 1: Radar-Grafiken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Wohnviertel Vorstädte leben sehr viele Personen in Einpersonenhaushalten und der Anteil Personen ohne Religionszugehörigkeit ist hoch. Die Bausubstanz ist eine der ältesten im Kanton. Die durchschnittliche Wohnfläche pro Einwohner ist gross. Ausserdem verfügt das Wohnviertel über die meisten Arbeitsplätzen pro Kopf, eine hohe Erwerbstätigenquote sowie hohe Vermögens- und Einkommenssteuerwerte.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"template": "spider001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_002",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6631
+	},
+	{
+		"title": "Quartierradar Am Ring",
+		"subtitle": "Ausgabe 2018",
+		"kuerzel": "I.02.1.6632",
+		"kuerzelKunde": "",
+		"description": "Quartierradar Am Ring",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"stufe1": "Teil 1: Radar-Grafiken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Wohnviertel Am Ring leben viele Personen ohne Religionszugehörigkeit und der Anteil Personen, die in Einpersonenhaushalten wohnen, ist hoch. Die Bausubstanz zählt zu den ältesten im Kanton. Ausserdem ist die Erwerbstätigenquote sehr hoch und die Arbeitslosenquote eher niedrig.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"template": "spider001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_003",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6632
+	},
+	{
+		"title": "Quartierradar Breite",
+		"subtitle": "Ausgabe 2018",
+		"kuerzel": "I.02.1.6633",
+		"kuerzelKunde": "",
+		"description": "Quartierradar Breite",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"stufe1": "Teil 1: Radar-Grafiken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Beim Wohnviertel Breite sticht der Anteil Personen, die in Einpersonenhaushalten leben, etwas hervor, ebenso der Anteil Grünflächen und das mittlere Baujahr der Gebäude. Einfamilienhäuser gibt es wenige und die Wohnungen sind eher klein. Ausserdem weist das Wohnviertel bei den Arbeitsplätzen pro Kopf den geringsten Anteil auf.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"template": "spider001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_004",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6633
+	},
+	{
+		"title": "Quartierradar St. Alban",
+		"subtitle": "Ausgabe 2018",
+		"kuerzel": "I.02.1.6634",
+		"kuerzelKunde": "",
+		"description": "Quartierradar St. Alban",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"stufe1": "Teil 1: Radar-Grafiken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Beim Wohnviertel St. Alban sticht der zweithöchste Altersquotient hervor, wobei der Jugendquotient auch im oberen Drittel rangiert. Die Wohnungen sind überdurchschnittlich gross, ebenso die Wohnfläche pro Kopf. Ausserdem zeichnet sich das Wohnviertel durch einen sehr hohen Anteil Arbeitsplätzen pro Einwohner aus. Ebenfalls hoch sind die Werte der Einkommens- und Vermögenssteuer.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"template": "spider001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_005",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6634
+	},
+	{
+		"title": "Quartierradar Gundeldingen",
+		"subtitle": "Ausgabe 2018",
+		"kuerzel": "I.02.1.6635",
+		"kuerzelKunde": "",
+		"description": "Quartierradar Gundeldingen",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"stufe1": "Teil 1: Radar-Grafiken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Das Wohnviertel Gundeldingen verzeichnet einen hohen Ausländeranteil. Ausserdem leben dort viele Personen in Einpersonenhaushalten. Die Gymnasialquote ist die zweitniedrigste im Kanton. Einfamilienhäuser gibt es im Wohnviertel wenige. Die Erwerbstätigenquote hingegen ist hoch.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"template": "spider001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_006",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6635
+	},
+	{
+		"title": "Quartierradar Bruderholz",
+		"subtitle": "Ausgabe 2018",
+		"kuerzel": "I.02.1.6636",
+		"kuerzelKunde": "",
+		"description": "Quartierradar Bruderholz",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"stufe1": "Teil 1: Radar-Grafiken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Das Wohnviertel Bruderholz hat einen geringen Anteil Ausländer und Sozialhilfeempfänger. Sowohl der Jugend- als auch der Altersquotient sind sehr hoch und die Sesshaftigkeit ist ausgeprägt. Der Anteil Grünflächen ist gross und es gibt viele Einfamilienhäuser sowie grosse Wohnungen. Ausserdem sind die Erträge aus Vermögens- und Einkommenssteuer die höchsten im ganzen Kanton.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"template": "spider001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_007",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6636
+	},
+	{
+		"title": "Quartierradar Bachletten",
+		"subtitle": "Ausgabe 2018",
+		"kuerzel": "I.02.1.6637",
+		"kuerzelKunde": "",
+		"description": "Quartierradar Bachletten",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"stufe1": "Teil 1: Radar-Grafiken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Wohnviertel Bachletten wohnen anteilsmässig die wenigsten Ausländer. Die Sesshaftigkeit ist stark ausgeprägt und die Gymnasialquote die höchste im Kanton. Das Wohnviertel hat einen hohen Anteil Einfamilienhäusern und Grünflächen. Ausserdem ist die Erwerbstätigenquote im Wohnviertel hoch, die Anzahl Arbeitsplätze pro Kopf dagegen gering.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"template": "spider001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_008",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6637
+	},
+	{
+		"title": "Quartierradar Gotthelf",
+		"subtitle": "Ausgabe 2018",
+		"kuerzel": "I.02.1.6638",
+		"kuerzelKunde": "",
+		"description": "Quartierradar Gotthelf",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"stufe1": "Teil 1: Radar-Grafiken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Beim Wohnviertel Gotthelf sticht der Anteil der Personen, die in Einpersonenhaushalten leben, etwas hervor. Auch der Anteil Personen ohne Religionszugehörigkeit und die Gymnasialquote liegen im oberen Drittel. Das Wohnviertel verfügt über einen relativ grossen Anteil Einfamilienhäuser und Grünflächen sowie eine alte Bausubstanz. Die Erwerbstätigenquote ist relativ hoch.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"template": "spider001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_009",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6638
+	},
+	{
+		"title": "Quartierradar Iselin",
+		"subtitle": "Ausgabe 2018",
+		"kuerzel": "I.02.1.6639",
+		"kuerzelKunde": "",
+		"description": "Quartierradar Iselin",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"stufe1": "Teil 1: Radar-Grafiken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Wohnviertel Iselin sticht der hohe Anteil Sozialhilfeempfänger hervor. Personen ohne Religionszugehörigkeit leben wenige im Wohnviertel. Der Anteil Grünflächen ist ausgeprägt. Die durchschnittliche Fläche pro Wohnung gehört mit zu den geringsten im Kanton. Ausserdem verfügt das Wohnviertel über wenige Arbeitsplätze pro Kopf sowie eine geringe Erwerbstätigenquote.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"template": "spider001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_010",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6639
+	},
+	{
+		"title": "Quartierradar St. Johann",
+		"subtitle": "Ausgabe 2018",
+		"kuerzel": "I.02.1.6640",
+		"kuerzelKunde": "",
+		"description": "Quartierradar St. Johann",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"stufe1": "Teil 1: Radar-Grafiken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Das Wohnviertel St. Johann verzeichnet einen hohen Anteil Ausländer und Sozialhilfeempfänger. Der Altersquotient ist niedrig. Die Wohnfläche pro Wohnung und die Wohnfläche pro Kopf sind vergleichsweise gering. Der Anteil Einfamilienhäuser sticht etwas hervor. Die Erwerbstätigenquote ist tief, ebenso die Erträge aus der Einkommenssteuer.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"template": "spider001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_011",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6640
+	},
+	{
+		"title": "Quartierradar Altstadt Kleinbasel",
+		"subtitle": "Ausgabe 2018",
+		"kuerzel": "I.02.1.6641",
+		"kuerzelKunde": "",
+		"description": "Quartierradar Altstadt Kleinbasel",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"stufe1": "Teil 1: Radar-Grafiken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Wohnviertel Altstadt Kleinbasel leben die meisten Personen ohne Religionszugehörigkeit und der Anteil Personen, die in Einpersonenhaushalten wohnen, ist der höchste. Der Jugendquotient ist der zweitniedrigste im ganzen Kanton. Die Bausubstanz ist sehr alt und der Anteil Grünflächen gering. Ausserdem verfügt das Wohnviertel über einen relativ hohen Anteil Arbeitsplätzen pro Kopf sowie eine hohe Arbeitslosenquote.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"template": "spider001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_012",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6641
+	},
+	{
+		"title": "Quartierradar Clara",
+		"subtitle": "Ausgabe 2018",
+		"kuerzel": "I.02.1.6751",
+		"kuerzelKunde": "",
+		"description": "Quartierradar Clara",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-06-14T09:46:37.3737",
+		"stufe1": "Teil 1: Radar-Grafiken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Das Wohnviertel Clara verzeichnet einen hohen Anteil Ausländer und Sozialhilfeempfänger. Der Jugendquotient und die Gymnasialquote sind niedrig. Der Anteil Einfamilienhäusern ist der niedrigste im ganzen Kanton. Ausserdem ist die Erwerbstätigenquote sehr gering. Die Arbeitslosenquote hingegen liegt im oberen Drittel.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"template": "spider001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_013",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6751
+	},
+	{
+		"title": "Quartierradar Wettstein",
+		"subtitle": "Ausgabe 2018",
+		"kuerzel": "I.02.1.6752",
+		"kuerzelKunde": "",
+		"description": "Quartierradar Wettstein",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-06-14T09:46:38.3838",
+		"stufe1": "Teil 1: Radar-Grafiken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Wohnviertel Wettstein ist der Anteil Personen ohne Religionszugehörigkeit einer der höchsten im ganzen Kanton. Die Sesshaftigkeit ist ausgeprägt und die Gymnasialquote hoch. Der Jugendquotient und der Anteil Ausländer sind dagegen niedrig. Die Wohnungen sind im Durchschnitt relativ gross. Ausserdem verzeichnet das Wohnviertel einen hohen Anteil Arbeitsplätze pro Kopf sowie eine sehr hohe Erwerbstätigenquote.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"template": "spider001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_014",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6752
+	},
+	{
+		"title": "Quartierradar Hirzbrunnen",
+		"subtitle": "Ausgabe 2018",
+		"kuerzel": "I.02.1.6753",
+		"kuerzelKunde": "",
+		"description": "Quartierradar Hirzbrunnen",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-06-14T09:46:38.3838",
+		"stufe1": "Teil 1: Radar-Grafiken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Wohnviertel Hirzbrunnen ist die Sesshaftigkeit ausgeprägt. Ebenfalls mit zu den höchsten Werten im Kanton zählen sowohl der Jugend- als auch der Altersquotient. Dagegen leben wenige Personen in Einpersonenhaushalten und auch der Ausländeranteil ist gering. Das Wohnviertel zeichnet sich durch einen hohen Anteil Grünflächen und Einfamilienhäusern aus. Ausserdem verzeichnet das Wohnviertel eine Erwerbstätigenquote und einen Anteil Arbeitsplätzen pro Kopf, die im unteren Mittelfeld liegen, ebenso wie die Arbeitslosenquote und die Steuererträge.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"template": "spider001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_015",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6753
+	},
+	{
+		"title": "Quartierradar Rosental",
+		"subtitle": "Ausgabe 2018",
+		"kuerzel": "I.02.1.6754",
+		"kuerzelKunde": "",
+		"description": "Quartierradar Rosental",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-06-14T09:46:38.3838",
+		"stufe1": "Teil 1: Radar-Grafiken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Wohnviertel Rosental sind die Einwohner am wenigsten sesshaft. Der Altersquotient ist der tiefste im ganzen Kanton, der Anteil Ausländer dagegen der höchste. Das Wohnviertel weist einen niedrigen Anteil Einfamilienhäusern aus und verfügt mit der Erlenmatt-Siedlung über relativ viele Neubauten. Ausserdem verzeichnet das Wohnviertel eine der höchsten Arbeitslosenquoten. Die Steuererträge sind vergleichsweise gering.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"template": "spider001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_016",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6754
+	},
+	{
+		"title": "Quartierradar Matthäus",
+		"subtitle": "Ausgabe 2018",
+		"kuerzel": "I.02.1.6755",
+		"kuerzelKunde": "",
+		"description": "Quartierradar Matthäus",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-06-14T09:46:38.3838",
+		"stufe1": "Teil 1: Radar-Grafiken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Das Wohnviertel Matthäus verzeichnet einen hohen Anteil Ausländer und Sozialhilfeempfänger. Der Altersquotient ist der zweitniedrigste im Kanton. Die Wohnungen gehören zu den kleinsten im Kantonsgebiet, die Wohnfläche pro Kopf ist ebenso wie der Anteil Einfamilienhäuser tief. Das Wohnviertel weist wenige Arbeitsplätze pro Kopf und geringe Steuererträge auf. Die Arbeitslosenquote ist eine der höchsten im Kanton.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"template": "spider001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_017",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6755
+	},
+	{
+		"title": "Quartierradar Klybeck",
+		"subtitle": "Ausgabe 2018",
+		"kuerzel": "I.02.1.6756",
+		"kuerzelKunde": "",
+		"description": "Quartierradar Klybeck",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-06-14T09:46:38.3838",
+		"stufe1": "Teil 1: Radar-Grafiken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Das Wohnviertel Klybeck verzeichnet den höchsten Anteil Sozialhilfeempfänger und einen hohen Ausländeranteil. Altersquotient und Anteil Personen ohne Religionszugehörigkeit sind dagegen niedrig. Die Wohnungen und die Wohnfläche pro Kopf sind die kleinsten im Kanton. Das Wohnviertel weist die niedrigsten Steuererträge und die geringste Erwerbstätigenquote auf. Die Arbeitslosenquote ist die höchste im Kanton.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"template": "spider001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_018",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6756
+	},
+	{
+		"title": "Quartierradar Kleinhüningen",
+		"subtitle": "Ausgabe 2018",
+		"kuerzel": "I.02.1.6757",
+		"kuerzelKunde": "",
+		"description": "Quartierradar Kleinhüningen",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-06-14T09:46:38.3838",
+		"stufe1": "Teil 1: Radar-Grafiken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Beim Wohnviertel Kleinhüningen sticht der zweithöchste Anteil Sozialhilfeempfänger hervor. Der Anteil Personen ohne Religionszugehörigkeit ist dagegen der niedrigste im Kanton. Die Bauten im Wohnviertel sind neueren Datums, die Wohnfläche pro Kopf eine der kleinsten im Kanton. Ausserdem verzeichnet das Wohnviertel eine der höchsten Arbeitslosenquoten und die Steuererträge gehören mit zu den niedrigsten im Kanton.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"template": "spider001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_019",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6757
+	},
+	{
+		"title": "Quartierradar Riehen",
+		"subtitle": "Ausgabe 2018",
+		"kuerzel": "I.02.1.6758",
+		"kuerzelKunde": "",
+		"description": "Quartierradar Riehen",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-06-14T09:46:38.3838",
+		"stufe1": "Teil 1: Radar-Grafiken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Alters- und der Jugendquotient sowie der Anteil Sesshafter sind in der Gemeinde Riehen stark ausgeprägt. Der Anteil Einpersonenhaushalte dagegen ist gering. Die Gemeinde verfügt über einen hohen Anteil Grünflächen und Einfamilienhäusern sowie grosse Wohnungen und viel Wohnfläche pro Kopf. Ausserdem liegen die Erträge aus Einkommens- und Vermögenssteuer im oberen Drittel.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"template": "spider001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_020",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6758
+	},
+	{
+		"title": "Quartierradar Bettingen",
+		"subtitle": "Ausgabe 2018",
+		"kuerzel": "I.02.1.6759",
+		"kuerzelKunde": "",
+		"description": "Quartierradar Bettingen",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-06-14T09:46:38.3838",
+		"stufe1": "Teil 1: Radar-Grafiken",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Alters- und der Jugendquotient sowie der Anteil Sesshafter sind in der Gemeinde Bettingen stark ausgeprägt. Der Anteil Sozialhilfeempfänger und der Anteil Einpersonenhaushalte sind der tiefste im ganzen Kanton. Bettingen verfügt über den grössten Grünflächen- und Einfamilienhausanteil sowie die grössten Wohnungen und die meiste Wohnfläche pro Kopf. Ausserdem ist die Arbeitslosenquote niedrig.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales</font>,  <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\"> Wirtschaft und Arbeit </font>zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"template": "spider001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_021",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6759
+	},
+	{
+		"title": "Bevölkerungssaldo infolge räumlicher Bevölkerungsbewegung pro 100 Einwohner",
+		"subtitle": "Stand: 2016",
+		"kuerzel": "I.01.5.06022",
+		"kuerzelKunde": "1-12",
+		"description": "Bevölkerungssaldo infolge räumlicher Bevölkerungsbewegung pro 100 Einwohner",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wanderungen",
+		"kennzahlenset": "Wanderungen (Print)",
+		"raeumlicheGliederung": [
+			"Wohnviertel",
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "mapcolumn002_print",
+		"visibleInPortal": false,
+		"orderKey": "_000",
+		"parentId": 6022,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6771
+	},
+	{
+		"title": "Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner",
+		"subtitle": "Stand: 2016",
+		"kuerzel": "I.01.5.06025",
+		"kuerzelKunde": "1-10",
+		"description": "Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wanderungen",
+		"kennzahlenset": "Wanderungen (Print)",
+		"raeumlicheGliederung": [
+			"Wohnviertel",
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "mappie002_print",
+		"visibleInPortal": false,
+		"orderKey": "_000",
+		"parentId": 6025,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6774
+	},
+	{
+		"title": "Quartierradar Altstadt Grossbasel",
+		"subtitle": "Stand 2016",
+		"kuerzel": "I.04.1.09996",
+		"kuerzelKunde": "1.0",
+		"description": "Test Spider",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton",
+			"Schweiz"
+		],
+		"aktualisierungsdatum": "2017-09-26T00:00:00.000",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Test Lesehilfe",
+		"erlaeuterungen": "",
+		"template": "spider001",
+		"visibleInPortal": false,
+		"orderKey": "0",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 9996
 	},
 	{
 		"title": "Test Title",

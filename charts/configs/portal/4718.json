@@ -251,6 +251,7 @@
       "style": {
         "color": "#000000",
         "width": 1,
+        "whiteSpace": "nowrap",
         "textOverflow": "none"
       }
     }
@@ -274,15 +275,21 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
-    "spacingBottom": 30,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
     "type": "column",
     "inverted": true,
-    "renderTo": "container-4718"
+    "renderTo": "container-4718",
+    "spacingBottom": 40
   },
   "title": {
     "style": {
@@ -353,9 +360,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F54e"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F54e\u003Cbr\u002F\u003EZuletzt geändert: 2016-9-21"
   },
   "legend": {
     "layout": "horizontal",
@@ -364,13 +371,13 @@
     "align": "left",
     "useHTML": false,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": null
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
         },
-    "y": 70,
     "itemWidth": 150
   },
   "exporting": {

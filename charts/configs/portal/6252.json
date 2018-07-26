@@ -344,7 +344,8 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "renderTo": "container-6252"
+    "renderTo": "container-6252",
+    "spacingBottom": 8
   },
   "title": {
     "style": {
@@ -436,8 +437,7 @@
     "symbolRadius": 0,
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
-        },
-    "y": -6
+        }
   },
   "exporting": {
     "filename": 6252

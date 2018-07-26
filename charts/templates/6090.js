@@ -8,13 +8,15 @@
   "chart": {
     "inverted": true
   }, 
+  subtitle: {
+    useHTML: true,
+  },
   legend: {
-    itemDistance: 15,
+    itemDistance: 5,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-	  "y": 45,
     "itemStyle": {
       "fontWeight": "normal"
     }
