@@ -3,7 +3,7 @@
     {
       "color": "#B00000",
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
@@ -57,7 +57,7 @@
       "color": "#4f81bd",
       "visible": true,
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [

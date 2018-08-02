@@ -1,10 +1,10 @@
 {
   "series": [
     {
-      "color": "#B00000",
+      "color": "#6F6F6F",
       "legendIndex": 1,
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
@@ -51,7 +51,7 @@
       "legendIndex": 3,
       "visible": true,
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
@@ -94,11 +94,11 @@
       "name": "BE global"
     },
     {
-      "color": "#4f81bd",
+      "color": "#2B0099",
       "legendIndex": 5,
       "visible": true,
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
@@ -141,11 +141,11 @@
       "name": "GE global"
     },
     {
-      "color": "#2B0099",
+      "color": "#B00000",
       "legendIndex": 7,
       "visible": true,
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
@@ -188,11 +188,11 @@
       "name": "ZH global"
     },
     {
-      "color": "#E64900",
+      "color": "#C8C8C8",
       "visible": false,
       "legendIndex": 2,
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
@@ -235,11 +235,11 @@
       "name": "BS kontinental"
     },
     {
-      "color": "#68AB2B",
+      "color": "#73B97C",
       "legendIndex": 4,
       "visible": false,
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
@@ -286,7 +286,7 @@
       "legendIndex": 6,
       "visible": false,
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
@@ -329,11 +329,11 @@
       "name": "GE kontinental"
     },
     {
-      "color": "#B375AB",
+      "color": "#FF8028",
       "legendIndex": 8,
       "visible": false,
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
