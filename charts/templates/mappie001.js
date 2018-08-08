@@ -249,24 +249,26 @@
 					fn.hideOnZoom(e, '.pieLegendHideOnZoom');
 					
 					//wait for zoom animation to be finished before attempting calculation of zoom
-					setTimeout(function(){
-						zoomableLabels.forEach(function(v, i, a){
-						if (v.label){
-							var yAxis = e.target.chart.yAxis[0];
-							var zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
-							if (!v.initialText) {v.initialText =v.text; }
-							var legendValue = (zoom == 1 ? v.initialText : fn.legendLabelZoomFormatter(v.initialValue / zoom / zoom));
-						
-							v.label.destroy();
-							v.text = legendValue;
-							v.label = fn.addLegendLabel(v.chart, v.text, v.x, v.y, v.cssClass, v.useHtml, v.initialValue, v.align);
-							//handle right-align
-							if (v.align == 'right'){
-								v.label.attr({x: v.x - v.label.width});
+					if (Array.isArray(zoomableLabels)){
+						setTimeout(function(){
+							zoomableLabels.forEach(function(v, i, a){
+							if (v.label){
+								var yAxis = e.target.chart.yAxis[0];
+								var zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
+								if (!v.initialText) {v.initialText =v.text; }
+								var legendValue = (zoom == 1 ? v.initialText : fn.legendLabelZoomFormatter(v.initialValue / zoom / zoom));
+							
+								v.label.destroy();
+								v.text = legendValue;
+								v.label = fn.addLegendLabel(v.chart, v.text, v.x, v.y, v.cssClass, v.useHtml, v.initialValue, v.align);
+								//handle right-align
+								if (v.align == 'right'){
+									v.label.attr({x: v.x - v.label.width});
+								}
 							}
-						}
-						});
-					}, 750); //default jQuery animmation is 500 ms, see https://api.highcharts.com/highmaps/chart.animation 
+							});
+						}, 750); //default jQuery animmation is 500 ms, see https://api.highcharts.com/highmaps/chart.animation 
+					}
 				}
 			},
             
