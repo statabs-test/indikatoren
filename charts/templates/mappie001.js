@@ -236,11 +236,12 @@
 					$(divIdString + selector).attr('visibility', zoom == 1 ? 'inherit' : 'hidden');
 				}
 			},
-
+			
+			/*
 			legendLabelZoomFormatter: function(value){
             	return Highcharts.numberFormat((value),1,","," ");
             },
-            
+            */
             
             
 			recalculateOnZoom: function(e, zoomableLabels){
@@ -255,12 +256,12 @@
 							if (v.label){
 								var yAxis = e.target.chart.yAxis[0];
 								var zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
-								if (!v.initialText) {v.initialText =v.text; }
-								var legendValue = (zoom == 1 ? v.initialText : fn.legendLabelZoomFormatter(v.initialValue / zoom / zoom));
+								if (!v.initialText) {v.initialText = v.text; }
+								var legendValue = (zoom == 1 ? v.initialText : v.legendLabelZoomFormatter(v.initialValue / zoom / zoom));
 							
 								v.label.destroy();
 								v.text = legendValue;
-								v.label = fn.addLegendLabel(v.chart, v.text, v.x, v.y, v.cssClass, v.useHtml, v.initialValue, v.align);
+								v.label = fn.addLegendLabel(e.target.chart, v.text, v.x, v.y, v.cssClass, v.useHtml, v.initialValue, v.align);
 								//handle right-align
 								if (v.align == 'right'){
 									v.label.attr({x: v.x - v.label.width});
@@ -572,7 +573,7 @@
                 },
     	                
     	                
-                addLegendLabel: function(chart, text, x, y, cssClass, useHtml, initialValue, align){
+                addLegendLabel: function(chart, text, x, y, cssClass, useHtml, align){
                 	var label = 
     				chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
                 	.css({
@@ -581,8 +582,6 @@
     				.attr({
     					zIndex: 6,
     					class: cssClass + ' pieLegend', 
-    					initialValue: initialValue, 
-    					initialText: text
     				}).add();
     				//handle right-align
 					if (align == 'right'){

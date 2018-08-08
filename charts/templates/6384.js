@@ -62,18 +62,6 @@
     			colorAxis: false
 			}
 		],
-		xAxis: {
-    		events: {
-				//recalculate and hide svg elements on zoom
-				afterSetExtremes: function(e){
-					if (this.chart){
-						var fn = this.chart.userOptions.customFunctions;
-						fn.recalculateOnZoom(e, '.pieLegendRecalculateOnZoom');
-						fn.hideOnZoom(e, '.pieLegendHideOnZoom');
-					}
-				}
-    		}
-		},
 		chart: {
 			events: {
 	            load: function (e) {
@@ -92,17 +80,14 @@
 					var maxPieDiameter = 25;
 
 					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
-					//define number format in zoomed legend labels
-	                fn.legendLabelZoomFormatter = function(value){
-	                	return Highcharts.numberFormat((value),3,","," ");
-	                };					
+
 					//define different colors for positive and negative values
 	                var color = function(value){
 	                	return (value >= 0) ? '#007A2F' : '#007A2F';
 	                };					
 					
 					//define chart-specific details
-				var pieSeriesConfig = function(data, correspondingMapSeriesItem, color){
+					var pieSeriesConfig = function(data, correspondingMapSeriesItem, color){
 						return {
 	                        sizeFormatter: function () {
 	                            var fn = this.chart.options.customFunctions;
@@ -128,25 +113,54 @@
                 	//Add manually drawn legend		
                 	fn.addLegendRectangle(chart, 250, 220, 230, 77, 'rgba(222, 222, 222, 0.5)', 'pieLegend');
                 	fn.addLegendRectangle(chart, 250, 300, 230, 60, 'rgba(222, 222, 222, 0.5)');
-	                //fn.addLegendTitle(chart, pieSizeSeries.name, 265, 220, 'pieLegend pieLegendHideOnZoom').attr({
-    			        	//class: cssClass + ' pieLegendTitle',
-    			    //    }).add();;
 
 	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#007A2F', 'pieLegendStayeOnZoom');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 300, 245, 'pieLegendRecalculateOnZoom', false, minValueInLegend);
+	                //fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 300, 245, 'pieLegendRecalculateOnZoom', false, minValueInLegend);
 	                fn.addLegendCircle(chart, 280, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#007A2F', 'pieLegendStayeOnZoom');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 300, 270, 'pieLegendRecalculateOnZoom', false, maxValueInLegend);
+	                //fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 300, 270, 'pieLegendRecalculateOnZoom', false, maxValueInLegend);
 	                
-
-					//fn.addLegendSquare(chart, 270, 250, 10, '#7F5F1A');
-					//fn.addLegendLabel(chart, 'Zunahme', 300, 245);
-					//fn.addLegendSquare(chart, 270, 275, 10, '#FABD24');
-					//fn.addLegendLabel(chart, 'Abnahme', 300, 270);
+					var zoomableLabels = [];
+	                zoomableLabels.push({
+	                	chart: chart, 
+	                	text: Highcharts.numberFormat((minValueInLegend),0,","," "), 
+	                	x: 345, 
+	                	y: 245, 
+	                	cssClass: 'pieLegendRecalculateOnZoom', 
+	                	useHtml: false, 
+	                	initialValue: minValueInLegend,
+	                	align: 'right',
+	                	legendLabelZoomFormatter: function(value){
+	                		return Highcharts.numberFormat((value), 1, ",", " ");
+	                	},					
+	                }); 
+	                zoomableLabels[0].label = fn.addLegendLabel(zoomableLabels[0].chart, zoomableLabels[0].text, zoomableLabels[0].x, zoomableLabels[0].y, zoomableLabels[0].cssClass, zoomableLabels[0].useHtml, zoomableLabels[0].align);
+	                //copy first label but overwrite some properties
+	                zoomableLabels.push($.extend({}, zoomableLabels[0], {
+	                	text: Highcharts.numberFormat((maxValueInLegend),0,"."," "),
+	                	y: 270,
+	                	initialValue: maxValueInLegend,
+	                }));
+	                zoomableLabels[1].label = fn.addLegendLabel(zoomableLabels[1].chart, zoomableLabels[1].text, zoomableLabels[1].x, zoomableLabels[1].y, zoomableLabels[1].cssClass, zoomableLabels[1].useHtml, zoomableLabels[1].align);						                	                
+	                
 					fn.addLegendLabelbold(chart, 'Anzahl Beschäftigte', 265, 220, 'pieLegendStayeOnZoom');
 					fn.addLegendTitle(chart, 'Beschäftigte pro 100 Einwohner', 265, 300);
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
+					
+					chart.update(
+					{
+						xAxis: {
+				    		events: {
+								//recalculate and hide svg elements on zoom
+								afterSetExtremes: function(e){
+									var fn = this.chart.userOptions.customFunctions;
+									fn.recalculateOnZoom(e, zoomableLabels);
+								}
+				    		}
+						}
+					});
+					
 	            }
 			}
 		}
