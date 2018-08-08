@@ -253,7 +253,7 @@
 					if (Array.isArray(zoomableLabels)){
 						setTimeout(function(){
 							zoomableLabels.forEach(function(v, i, a){
-							if (v.label){
+							try {
 								var yAxis = e.target.chart.yAxis[0];
 								var zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
 								if (!v.initialText) {v.initialText = v.text; }
@@ -267,6 +267,7 @@
 									v.label.attr({x: v.x - v.label.width});
 								}
 							}
+							catch(e){console.log(e)}
 							});
 						}, 750); //default jQuery animmation is 500 ms, see https://api.highcharts.com/highmaps/chart.animation 
 					}

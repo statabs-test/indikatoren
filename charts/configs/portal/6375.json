@@ -6996,10 +6996,6 @@
 	                var color = function(value){
 	                	return (value >= 0) ? '#C9D6DB' : '#C9D6DB';
 	                };					
-					//define number format in zoomed legend labels
-	                fn.legendLabelZoomFormatter = function(value){
-	                	return Highcharts.numberFormat((value),0,","," ");
-	                };
 					//define chart-specific details
 					var pieSeriesConfig = function(data, correspondingMapSeriesItem, color){
 						return {
@@ -7030,9 +7026,30 @@
 	                fn.addLegendTitle(chart, "Anteil unter 20-Jähriger in %", 265, 300, 'pieLegendStayOnZoom');
 	                
 	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#C9D6DB', 'pieLegendStayeOnZoom');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend), 0, ",", " "), 300, 245, 'pieLegendRecalculateOnZoom', false, minValueInLegend);
 	                fn.addLegendCircle(chart, 280, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#C9D6DB', 'pieLegendStayeOnZoom');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend), 0, ",", " "), 300, 270, 'pieLegendRecalculateOnZoom', false, maxValueInLegend);
+	                
+	                var zoomableLabels = [];
+	                zoomableLabels.push({
+	                	chart: chart, 
+	                	text: Highcharts.numberFormat((minValueInLegend),0,","," "), 
+	                	x: 340, 
+	                	y: 245, 
+	                	cssClass: 'pieLegendRecalculateOnZoom', 
+	                	useHtml: false, 
+	                	initialValue: minValueInLegend,
+	                	align: 'right',
+	                	legendLabelZoomFormatter: function(value){
+	                		return Highcharts.numberFormat((value), 1, ",", " ");
+	                	},					
+	                }); 
+	                zoomableLabels[0].label = fn.addLegendLabel(zoomableLabels[0].chart, zoomableLabels[0].text, zoomableLabels[0].x, zoomableLabels[0].y, zoomableLabels[0].cssClass, zoomableLabels[0].useHtml, zoomableLabels[0].align);
+	                //copy first label but overwrite some properties
+	                zoomableLabels.push($.extend({}, zoomableLabels[0], {
+	                	text: Highcharts.numberFormat((maxValueInLegend),0,"."," "),
+	                	y: 270,
+	                	initialValue: maxValueInLegend,
+	                }));
+	                zoomableLabels[1].label = fn.addLegendLabel(zoomableLabels[1].chart, zoomableLabels[1].text, zoomableLabels[1].x, zoomableLabels[1].y, zoomableLabels[1].cssClass, zoomableLabels[1].useHtml, zoomableLabels[1].align);	                
 	                
 	                //fn.addSubtitle(chart, "Kanton Basel-Stadt: 32 873 unter 20-Jährige (16,6%)", 7, 40, 'pieLegendHideOnZoom')
 	                
@@ -7040,6 +7057,20 @@
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
+					
+					chart.update(
+					{
+						xAxis: {
+				    		events: {
+								//recalculate and hide svg elements on zoom
+								afterSetExtremes: function(e){
+									var fn = this.chart.userOptions.customFunctions;
+									fn.recalculateOnZoom(e, zoomableLabels);
+								}
+				    		}
+						}
+					});
+					
 	            }
     },
     "renderTo": "container-6375"
@@ -7132,10 +7163,14 @@
   "xAxis": {
     "events": {
       "afterSetExtremes": function (e){
-					if (this.chart){
-						var fn = this.chart.userOptions.customFunctions;
-						fn.recalculateOnZoom(e, '.pieLegendRecalculateOnZoom');
-						fn.hideOnZoom(e, '.pieLegendHideOnZoom');
+					var divId = e['target']['chart']['renderTo']['id'] || 'dummySettingForExportServer';
+					var divIdString = '#' + divId;
+					divIdString = '';
+					//only care about zoom events, not pan
+					if (e.trigger != 'pan'){
+						//determine current zoom level
+						var zoom = (e.dataMax - e.dataMin) / (e.max - e.min);
+						$(divIdString + ' .pieLegendHideOnZoom').attr('visibility', zoom == 1 ? 'inherit' : 'hidden');
 					}
 				}
     }
@@ -7177,38 +7212,33 @@
 					$(divIdString + selector).attr('visibility', zoom == 1 ? 'inherit' : 'hidden');
 				}
 			},
-    "legendLabelZoomFormatter": function (value){
-            	return Highcharts.numberFormat((value),1,","," ");
-            },
-    "recalculateOnZoom": function (e, selector){
-				var divId = e['target']['chart']['renderTo']['id'] || 'dummySettingForExportServer';
-				var divIdString = '#' + divId;
-				divIdString = '';
-				//var fn = e.target.chart.userOptions.customFunctions;
-				var fn = this;
-				try{
-					//only care about zoom events, not pan: 
-					if (e.trigger != 'pan'){
-						//wait for zoom animation to be finished before attempting calculation of zoom
+    "recalculateOnZoom": function (e, zoomableLabels){
+				if (e.target.chart){
+					var fn = e.target.chart.userOptions.customFunctions;
+					fn.hideOnZoom(e, '.pieLegendHideOnZoom');
+					
+					//wait for zoom animation to be finished before attempting calculation of zoom
+					if (Array.isArray(zoomableLabels)){
 						setTimeout(function(){
-							//determine current zoom level
-							if (e.target.chart){
+							zoomableLabels.forEach(function(v, i, a){
+							try {
 								var yAxis = e.target.chart.yAxis[0];
-								if(yAxis){
-									var zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
-									$(divIdString + selector).each(function(){
-										var initialValue = $(this).attr('initialValue');
-										var initialText = $(this).attr('initialText');
-										var legendValue = initialValue / zoom / zoom;
-										$(this).contents()[0].innerHTML = (zoom ==1)  ? initialText : fn.legendLabelZoomFormatter(legendValue);
-									});
+								var zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
+								if (!v.initialText) {v.initialText = v.text; }
+								var legendValue = (zoom == 1 ? v.initialText : v.legendLabelZoomFormatter(v.initialValue / zoom / zoom));
+							
+								v.label.destroy();
+								v.text = legendValue;
+								v.label = fn.addLegendLabel(e.target.chart, v.text, v.x, v.y, v.cssClass, v.useHtml, v.initialValue, v.align);
+								//handle right-align
+								if (v.align == 'right'){
+									v.label.attr({x: v.x - v.label.width});
 								}
 							}
+							catch(e){console.log(e)}
+							});
 						}, 750); //default jQuery animmation is 500 ms, see https://api.highcharts.com/highmaps/chart.animation 
 					}
-				}
-				catch(error){
-					console.log(error);
 				}
 			},
     "pieSizeCategorical": function (value, conf){
@@ -7455,17 +7485,21 @@
     				    class: cssClass + ' pieLegend'
     				}).add();
                 },
-    "addLegendLabel": function (chart, text, x, y, cssClass, useHtml, initialValue){
-    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
+    "addLegendLabel": function (chart, text, x, y, cssClass, useHtml, align){
+                	var label = 
+    				chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
                 	.css({
 					 fontSize: "12px", fontFamily: "Arial", fontWeight: 'normal', fontStyle: "normal"
                 	})    				
     				.attr({
     					zIndex: 6,
     					class: cssClass + ' pieLegend', 
-    					initialValue: initialValue, 
-    					initialText: text
     				}).add();
+    				//handle right-align
+					if (align == 'right'){
+						label.attr({x: x - label.width});
+					}
+    				return label;
                 },
     "addLegendLabelbold": function (chart, text, x, y, cssClass, useHtml, initialValue){
     				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
