@@ -251,17 +251,20 @@
 					
 					//wait for zoom animation to be finished before attempting calculation of zoom
 					if (Array.isArray(zoomableLabels)){
-						setTimeout(function(){
+						setTimeout(function(context){
 							zoomableLabels.forEach(function(v, i, a){
+							//catch exception that occurs only in Highcharts Export Server for 6379
 							try {
 								var yAxis = e.target.chart.yAxis[0];
 								var zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
 								if (!v.initialText) {v.initialText = v.text; }
 								var legendValue = (zoom == 1 ? v.initialText : v.legendLabelZoomFormatter(v.initialValue / zoom / zoom));
-							
-								v.label.destroy();
+								//silently dismiss errors in destroy() - in Highcharts 6.1.1. an error occurs: renderer is undefined
+								try{ v.label.destroy(); } catch(e){ /* console.log(e) */ }
+								//in portal view zoomable legend labels are somehow rendered twice, remove if they are already present
+								$('#zoomableLegendLabel' + i).remove();
 								v.text = legendValue;
-								v.label = fn.addLegendLabel(e.target.chart, v.text, v.x, v.y, v.cssClass, v.useHtml, v.initialValue, v.align);
+								v.label = fn.addLegendLabel(e.target.chart, v.text, v.x, v.y, v.cssClass, v.useHtml, v.align, 'zoomableLegendLabel' + i);
 								//handle right-align
 								if (v.align == 'right'){
 									v.label.attr({x: v.x - v.label.width});
@@ -574,7 +577,7 @@
                 },
     	                
     	                
-                addLegendLabel: function(chart, text, x, y, cssClass, useHtml, align){
+                addLegendLabel: function(chart, text, x, y, cssClass, useHtml, align, id){
                 	var label = 
     				chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
                 	.css({
@@ -583,6 +586,7 @@
     				.attr({
     					zIndex: 6,
     					class: cssClass + ' pieLegend', 
+    					id: id
     				}).add();
     				//handle right-align
 					if (align == 'right'){

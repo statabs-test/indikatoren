@@ -1,6 +1,7 @@
 /*  
 	global Highcharts
 	global geojson_wohnviertelEPSG2056 
+	global $
 */
 (function(){
 
@@ -129,14 +130,14 @@
 	                		return Highcharts.numberFormat((value), 1, ",", " ");
 	                	},					
 	                }); 
-	                zoomableLabels[0].label = fn.addLegendLabel(zoomableLabels[0].chart, zoomableLabels[0].text, zoomableLabels[0].x, zoomableLabels[0].y, zoomableLabels[0].cssClass, zoomableLabels[0].useHtml, zoomableLabels[0].align);
+	                zoomableLabels[0].label = fn.addLegendLabel(zoomableLabels[0].chart, zoomableLabels[0].text, zoomableLabels[0].x, zoomableLabels[0].y, zoomableLabels[0].cssClass, zoomableLabels[0].useHtml, zoomableLabels[0].align, 'zoomableLegendLabel' + 0);
 	                //copy first label but overwrite some properties
 	                zoomableLabels.push($.extend({}, zoomableLabels[0], {
 	                	text: Highcharts.numberFormat((maxValueInLegend),0,"."," "),
 	                	y: 270,
 	                	initialValue: maxValueInLegend,
 	                }));
-	                zoomableLabels[1].label = fn.addLegendLabel(zoomableLabels[1].chart, zoomableLabels[1].text, zoomableLabels[1].x, zoomableLabels[1].y, zoomableLabels[1].cssClass, zoomableLabels[1].useHtml, zoomableLabels[1].align);					
+	                zoomableLabels[1].label = fn.addLegendLabel(zoomableLabels[1].chart, zoomableLabels[1].text, zoomableLabels[1].x, zoomableLabels[1].y, zoomableLabels[1].cssClass, zoomableLabels[1].useHtml, zoomableLabels[1].align, 'zoomableLegendLabel' + 1);					
 					
 					//fn.addLegendSquare(chart, 270, 250, 10, '#7F5F1A');
 					//fn.addLegendLabel(chart, 'Zunahme', 300, 245);
@@ -154,9 +155,12 @@
 						xAxis: {
 				    		events: {
 								//recalculate and hide svg elements on zoom
+								//only care about zoom events, not pan
 								afterSetExtremes: function(e){
-									var fn = this.chart.userOptions.customFunctions;
-									fn.recalculateOnZoom(e, zoomableLabels);
+									if (e.trigger != 'pan'){
+										var fn = this.chart.userOptions.customFunctions;
+										fn.recalculateOnZoom(e, zoomableLabels);
+									}
 								}
 				    		}
 						}
