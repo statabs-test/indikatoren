@@ -258,8 +258,6 @@ function lazyRenderChartById(id, chartMetaData, view, suppressNumberInTitle, cal
   dataLayer.push({'event': 'LazyRenderChart', 'chartId': id, 'view': view});
 
   var container = $(escapeCssChars('#container-' + id));
-  //check if a highcharts-container below the container is already present. 
-  //no highcharts container yet: load data and draw chart. 
   var chartUrls = getChartUrls(id);
   //get template for requested chart 
   (chartMetaData === undefined) ? chartMetaData = findChartById(indikatoren, id) : chartMetaData;
@@ -267,11 +265,10 @@ function lazyRenderChartById(id, chartMetaData, view, suppressNumberInTitle, cal
   if (container.find('div.highcharts-container').length) {     
     //find chart in highchart's array of charts
     var chartIndex = container.attr("data-highcharts-chart");
-    //destroy and redraw in order to get nice animation
+    //destroy and redraw in order to get nice animation. Lazy loading no longer performed, because of problems with mappie tooltips starting with Highcharts 6.1.1. 
     Highcharts.charts[chartIndex].destroy();
   }
   renderChart(chartUrls['optionsUrl'], chartUrls['templateUrl'], chartUrls['chartUrl'], chartUrls['csvUrl'], chartMetaData, view, suppressNumberInTitle, callbackFn);
-
 }
 
 
