@@ -7534,7 +7534,7 @@
     		            class: cssClass
     	        	}).add();
                 },
-    "AddPieLegendClickHandler": function (chart){
+    "AddPieLegendClickHandler": function (chart, colorPassive){
 					var divId = chart['renderTo']['id'] || 'dummySettingForExportServer';
 					var divIdString = '#' + divId;
 				    $(divIdString + ' .pieLegend').click(function(){
@@ -7567,6 +7567,8 @@
 						
 						var whiteTransp = 'rgba(255,255,255, 0)';
 						var grey = '#cccccc';
+						//if no passiveColor is given, default to white transparent
+						var passiveColor = colorPassive || whiteTransp;
 						
 						if (pieLegendItems.attr('fill') == pieLegendItems.attr('fill_active')){
 							//set all to grey or the predefined color
@@ -7575,17 +7577,16 @@
 							pieLegendItems.each(function(i, v){
 								//if fill_active is present, set it to transparent white
 								if ($(this).attr('fill_active')) {
-									$(this).attr('fill', $(this).attr('fill_passive') || whiteTransp);
+									$(this).attr('fill', $(this).attr('fill_passive') || passiveColor);
 								}
 								//if stroke_active is present, set it to transparent white
 								if ($(this).attr('stroke_active')) {
-									$(this).attr('stroke', whiteTransp);
+									$(this).attr('stroke', $(this).attr('fill_passive') || passiveColor);
 								}
-
 							});
 							
 							//same for html text spans
-							$(divIdString + ' .pieLegendHtmlText').css('color', whiteTransp);
+							$(divIdString + ' .pieLegendHtmlText').css('color', passiveColor);
 						} 
 						else {
 							pieLegendItems.each(function(i, v){

@@ -6992,19 +6992,19 @@
 					var pieSizeCatConfig = 
 					[
 						{
-							name: "<span color_active='rgba(0,0,0,0)' style='color: rgba(0,0,0,0)'>000</span> <<span color_active='rgba(0,0,0,0)' style='color: rgba(0,0,0,0)'>00</span>400",
+							name: " < \u00A0\u00A0 400",
 							from: 0,
 							to: 399, 
 							diameter: 5
 						},
 						{
-							name: "400 −<span color_active='rgba(0,0,0,0)' style='color: rgba(0,0,0,0)'>00</span>999",
+							name: "400 − \u00A0\u00A0 999",
 							from: 400,
 							to: 999,
 							diameter: 10
 						},
 						{
-							name:"<span color_active='rgba(0,0,0,0)' style='color: rgba(0,0,0,0)'>000</span> ≥  1 000",
+							name:"≥  1 000",
 							from: 1000,							
 							to: 1000000000,
 							diameter: 20
@@ -7042,11 +7042,11 @@
 	                fn.addLegendTitle(chart, "Anzahl <br/> Arbeitsstätten", 365, 210);
 	                
 	              	fn.addLegendCircle(chart, 378, 266, 0.5*pieSizeCatConfig[0].diameter, '#007A2F');
-	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 390, 255, undefined, true);
+	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 460, 255, undefined, true, 'right');
 	                fn.addLegendCircle(chart, 378, 285, 0.5*pieSizeCatConfig[1].diameter, '#007A2F');
-	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 390, 275, undefined, true);
+	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 460, 275, undefined, true, 'right');
 	                fn.addLegendCircle(chart, 378, 310, 0.5*pieSizeCatConfig[2].diameter, '#007A2F');
-					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 390, 300, undefined, true);
+					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 460, 300, undefined, true, 'right');
 					
 					
 					//fn.addLegendSquare(chart, 565, 240, 10, '#7F5F1A');
@@ -7055,7 +7055,7 @@
 					//fn.addLegendLabel(chart, 'Abnahme', 580, 252);
 				
 					//make sure pies are hidden upon click onto pie legend
-					fn.AddPieLegendClickHandler(chart);
+					fn.AddPieLegendClickHandler(chart, '#cccccc');
 	            }
     },
     "renderTo": "container-6395"
@@ -7546,7 +7546,7 @@
     		            class: cssClass
     	        	}).add();
                 },
-    "AddPieLegendClickHandler": function (chart){
+    "AddPieLegendClickHandler": function (chart, colorPassive){
 					var divId = chart['renderTo']['id'] || 'dummySettingForExportServer';
 					var divIdString = '#' + divId;
 				    $(divIdString + ' .pieLegend').click(function(){
@@ -7579,6 +7579,8 @@
 						
 						var whiteTransp = 'rgba(255,255,255, 0)';
 						var grey = '#cccccc';
+						//if no passiveColor is given, default to white transparent
+						var passiveColor = colorPassive || whiteTransp;
 						
 						if (pieLegendItems.attr('fill') == pieLegendItems.attr('fill_active')){
 							//set all to grey or the predefined color
@@ -7587,17 +7589,16 @@
 							pieLegendItems.each(function(i, v){
 								//if fill_active is present, set it to transparent white
 								if ($(this).attr('fill_active')) {
-									$(this).attr('fill', $(this).attr('fill_passive') || whiteTransp);
+									$(this).attr('fill', $(this).attr('fill_passive') || passiveColor);
 								}
 								//if stroke_active is present, set it to transparent white
 								if ($(this).attr('stroke_active')) {
-									$(this).attr('stroke', whiteTransp);
+									$(this).attr('stroke', $(this).attr('fill_passive') || passiveColor);
 								}
-
 							});
 							
 							//same for html text spans
-							$(divIdString + ' .pieLegendHtmlText').css('color', whiteTransp);
+							$(divIdString + ' .pieLegendHtmlText').css('color', passiveColor);
 						} 
 						else {
 							pieLegendItems.each(function(i, v){
