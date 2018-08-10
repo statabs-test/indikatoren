@@ -110,8 +110,8 @@
             "floating": true,
             "title": {
                 "style": {
-                    "fontWeight": "normal", 
-                    "fontSize": "11px"
+                    "fontWeight": "bold", 
+                    "fontSize": "12px"
                 }
             }
     	}, 
@@ -313,8 +313,8 @@
 		    
 		    
             //helper functions for column legend
-	        addLegendTitle: function(chart, title, x, y){
-        		return chart.renderer.label(title, x, y)
+	        addLegendTitle: function(chart, x, y, text){
+        		return chart.renderer.label(text, x, y)
      				.css({
 	                    fontSize: '12px',
 	                    fontWeight: 'bold'
@@ -341,16 +341,17 @@
 					.attr({
 						zIndex: 6,
 						fill: color,
-						class: cssClass + ' columnLegend'
+						class: (cssClass || "") + ' columnLegend'
 					})
 					.add();
             },
+            
             addLegendTextbold: function(chart, x, y, text, color, cssClass, useHtml){
 				return chart.renderer.text(text, x, y, undefined, undefined, undefined, useHtml)
 					.attr({
 						zIndex: 6,
 						fill: color,
-						class: cssClass + ' columnLegend'})
+						class: (cssClass || "") + ' columnLegend'})
 					.css({
                         fontWeight: 'bold' }).
                      add();
