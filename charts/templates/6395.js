@@ -106,19 +106,19 @@
 					var pieSizeCatConfig = 
 					[
 						{
-							name: "<span color_active='rgba(0,0,0,0)' style='color: rgba(0,0,0,0)'>000</span> <<span color_active='rgba(0,0,0,0)' style='color: rgba(0,0,0,0)'>00</span>400",
+							name: " < \u00A0\u00A0 400",
 							from: 0,
 							to: 399, 
 							diameter: 5
 						},
 						{
-							name: "400 −<span color_active='rgba(0,0,0,0)' style='color: rgba(0,0,0,0)'>00</span>999",
+							name: "400 − \u00A0\u00A0 999",
 							from: 400,
 							to: 999,
 							diameter: 10
 						},
 						{
-							name:"<span color_active='rgba(0,0,0,0)' style='color: rgba(0,0,0,0)'>000</span> ≥  1 000",
+							name:"≥  1 000",
 							from: 1000,							
 							to: 1000000000,
 							diameter: 20
@@ -156,11 +156,11 @@
 	                fn.addLegendTitle(chart, "Anzahl <br/> Arbeitsstätten", 365, 210);
 	                
 	              	fn.addLegendCircle(chart, 378, 266, 0.5*pieSizeCatConfig[0].diameter, '#007A2F');
-	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 390, 255, undefined, true);
+	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 460, 255, undefined, true, 'right');
 	                fn.addLegendCircle(chart, 378, 285, 0.5*pieSizeCatConfig[1].diameter, '#007A2F');
-	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 390, 275, undefined, true);
+	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 460, 275, undefined, true, 'right');
 	                fn.addLegendCircle(chart, 378, 310, 0.5*pieSizeCatConfig[2].diameter, '#007A2F');
-					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 390, 300, undefined, true);
+					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 460, 300, undefined, true, 'right');
 					
 					
 					//fn.addLegendSquare(chart, 565, 240, 10, '#7F5F1A');
@@ -169,7 +169,7 @@
 					//fn.addLegendLabel(chart, 'Abnahme', 580, 252);
 				
 					//make sure pies are hidden upon click onto pie legend
-					fn.AddPieLegendClickHandler(chart);
+					fn.AddPieLegendClickHandler(chart, '#cccccc');
 	            }
 			}
 		}

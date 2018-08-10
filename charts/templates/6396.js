@@ -109,7 +109,7 @@
 					var pieSizeCatConfig = 
 					[
 						{
-							name: "<span color_active='rgba(0,0,0,0)' style='color: rgba(0,0,0,0)'>0 000</span> < 4 000",
+							name: "< 4 000",
 							from: 0,
 							to: 3999, 
 							diameter: 5
@@ -121,7 +121,7 @@
 							diameter: 10
 						},
 						{
-							name: "<span color_active='rgba(0,0,0,0)' style='color: rgba(0,0,0,0)'>0 000</span> ≥  8 000",
+							name: "≥  8 000",
 							from: 8000,							
 							to: 1000000000,
 							diameter: 20
@@ -159,19 +159,19 @@
 	                fn.addLegendTitle(chart, "Anzahl <br/> Beschäftigte", 355, 210);
 	                
 		        	fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, '#007A2F');
-	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 385, 255, undefined, true);
+	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 460, 255, undefined, false, 'right');
 	                fn.addLegendCircle(chart, 373, 285, 0.5*pieSizeCatConfig[1].diameter, '#007A2F');
-	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 385, 275, undefined, true);
+	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 460, 275, undefined, false, 'right');
 	                fn.addLegendCircle(chart, 373, 310, 0.5*pieSizeCatConfig[2].diameter, '#007A2F');
-					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 385, 300, undefined, true);
+					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 460, 300, undefined, false, 'right');
 					
 					//fn.addLegendSquare(chart, 565, 240, 10, '#7F5F1A');
 					//fn.addLegendLabel(chart, 'Zunahme', 580, 236);
 					//fn.addLegendSquare(chart, 565, 256, 10, '#FABD24');
 					//fn.addLegendLabel(chart, 'Abnahme', 580, 252);
 				
-					//make sure pies are hidden upon click onto pie legend
-					fn.AddPieLegendClickHandler(chart);
+					//make sure pies are greyed out upon click onto pie legend
+					fn.AddPieLegendClickHandler(chart, '#cccccc');
 	            }
 			}
 		}
