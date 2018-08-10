@@ -214,7 +214,7 @@
 			    } else {
 			      xAxis.series.forEach(function(s) {
 			      	//if series must be hidden due to clicking on legend: hide despite ok position
-			        s.setVisible(true && !s._hide, false);
+			        s.setVisible(true && !s.userOptions._hide, false);
 			        //define column width here and increase with zooming
 			        s.update({pointWidth: s.options.columnWidth * zoomRatio}, false);
 			      });
@@ -438,8 +438,7 @@
 					//Toggle visible of mapcolumns
 					Highcharts.each(chart.series, function (series) {
 						if (series.userOptions.type == 'column'){
-							//series.setVisible(!series.visible, false);
-							series._hide = !series._hide;
+							series.userOptions._hide = !series.userOptions._hide;
 						}
 					});
 					chart.redraw();
