@@ -25737,6 +25737,37 @@ var indikatoren = [
 		"id": 6774
 	},
 	{
+		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit und Wohnviertel",
+		"subtitle": "Altstadt Grossbasel",
+		"kuerzel": "I.01.1.06933",
+		"kuerzelKunde": "",
+		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit und Wohnviertel",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [],
+		"aktualisierungsdatum": "",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Staatsangehörigkeit",
+		"stufe3": "Gesellschaft und Soziales",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "area001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_02_02_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"externalLinks": [
+			""
+		],
+		"id": 6933
+	},
+	{
 		"title": "Quartierradar Altstadt Grossbasel",
 		"subtitle": "Stand 2016",
 		"kuerzel": "I.04.1.09996",
