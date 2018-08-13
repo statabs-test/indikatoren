@@ -6992,7 +6992,7 @@
 					var pieSizeCatConfig = 
 					[
 						{
-							name: "<span color_active='rgba(0,0,0,0)' style='color: rgba(0,0,0,0)'>15,0</span> < 15,0",
+							name: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 < 15,0",
 							from: 0,
 							to: 14.999, 
 							diameter: 5
@@ -7004,7 +7004,7 @@
 							diameter: 10
 						},
 						{
-							name: "<span color_active='rgba(0,0,0,0)' style='color: rgba(0,0,0,0)'>30,0</span> ≥  20,0",
+							name: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 ≥  20,0",
 							from: 20,							
 							to: 1000000000,
 							diameter: 20
@@ -7055,7 +7055,7 @@
 					//fn.addLegendLabel(chart, 'Abnahme', 580, 252);
 				
 					//make sure pies are hidden upon click onto pie legend
-					fn.AddPieLegendClickHandler(chart);
+					fn.AddPieLegendClickHandler(chart, '#cccccc');
 	            }
     },
     "renderTo": "container-6391"
