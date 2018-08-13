@@ -123,7 +123,7 @@
 	                zoomableLabels.push({
 	                	chart: chart, 
 	                	text: Highcharts.numberFormat((minValueInLegend),0,","," "), 
-	                	x: 330, 
+	                	x: 350, 
 	                	y: 245, 
 	                	cssClass: 'pieLegendRecalculateOnZoom', 
 	                	useHtml: false, 
