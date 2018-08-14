@@ -9,7 +9,7 @@
     "highcharts": "6.1.1",
     "jquery": "3.2.0",
     "proj4": "2.4.3",
-    "seedrandom": "2.4.3"
+    "seedrandom": "2.4.4"
   },
   "devDependencies": {
     "casperjs": "1.1.4",
