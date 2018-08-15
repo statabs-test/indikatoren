@@ -38,7 +38,7 @@
   "series": [
     {
       "index": 0,
-      color: "#661200",
+      color: "#ff8028",
        "tooltip": {
         "pointFormatter": function(){
           return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100*this.y),1) + '%</b><br/>';
@@ -56,7 +56,7 @@
     },
         {
       "index": 2,
-      color: "#dc440e",
+      color: "#b00000",
        "tooltip": {
         "pointFormatter": function(){
           return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100*this.y),1) + '%</b><br/>';
