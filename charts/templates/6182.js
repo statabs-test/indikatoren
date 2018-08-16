@@ -16,57 +16,84 @@
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}%</b><br/>'
   },
   "series": [
-    {color: "#B00000"}, /* dunkelrot */
-    { color: "#B00000", /* dunkelrot */
-      linkedTo: ':previous',
+    { 
+      color: "#B00000", 
+      id: '0',
+    }, /* dunkelrot */
+  	{
+  	  color: "#007A2F",
+  	  id: '1',
+  	}, /* dunkelgrün */
+    {
+  	  color: "#4f81bd",
+  	  id: '2',
+  	}, /* dunkelblau */
+  	{
+  	  color: "#662673", 
+  	  id: '3', 
+  	}, /* dunkelviolett */
+  	{
+      color: "#7F5F1A", 
+      id: '4'
+    }, /* dunkelbraun */
+    {
+  	  color: "#FABD24", 
+  	  id: '5'
+  	}, /* dunkelgelb */
+  	{
+  	  color: "#3C3C3C", 
+  	  id: '6'
+  	}, /* schwarz */
+    { 
+      color: "#B00000", /* dunkelrot */
+      linkedTo: '0',
         marker: {
           enabled: true,
         }    
     }, 
-  	{color: "#007A2F"}, /* dunkelgrün */
-    { color: "#007A2F", /* dunkelgrün */
+    { 
+      color: "#007A2F", /* dunkelgrün */
 	    showInLegend: false,
-	    linkedTo: ':previous',
+	    linkedTo: '1',
       marker: {
         enabled: true,
       }    
     }, 
-  	{color: "#4f81bd"}, /* dunkelblau */
-    { color: "#4f81bd", /* dunkelblau */
+    { 
+      color: "#4f81bd", /* dunkelblau */
 	    showInLegend: false,
-	    linkedTo: ':previous',
+	    linkedTo: '2',
         marker: {
         enabled: true,
       }    
     }, 
-  	{color: "#662673"}, /* dunkelviolett */
-  	{ color: "#662673", /* dunkelviolett */
+  	{ 
+  	  color: "#662673", /* dunkelviolett */
 	    showInLegend: false,
-	    linkedTo: ':previous',
+	    linkedTo: '3',
       marker: {
         enabled: true,
       }    
     }, 
-    {color: "#7F5F1A"}, /* dunkelbraun */
-    { color: "#7F5F1A", /* dunkelbraun */
-
-      linkedTo: ':previous',
+    { 
+      color: "#7F5F1A", /* dunkelbraun */
+      linkedTo: '4',
       marker: {
         enabled: true,
       }    
     }, 
-  	{color: "#FABD24"}, /* dunkelgelb */
-  	{ color: "#FABD24", /* dunkelgelb */
+  	{ 
+  	  color: "#FABD24", /* dunkelgelb */
 	    showInLegend: false,
-	    linkedTo: ':previous',
+	    linkedTo: '5',
       marker: {
         enabled: true, 
       }    
     }, 
-  	{color: "#3C3C3C"}, /* schwarz */
-  	{ color: "#3C3C3C", /* schwarz */
+  	{ 
+  	  color: "#3C3C3C", /* schwarz */
 	    showInLegend: false,
-	    linkedTo: ':previous',
+	    linkedTo: '6',
       marker: {
         enabled: true, 
       }    
