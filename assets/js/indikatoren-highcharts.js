@@ -179,6 +179,17 @@ function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, chartMetaD
         //get returned script, evaluate it, save returned object to variable. 
         //var globalOptions = eval(optionsReturnData[0]);
         var chartOptions = eval(chartReturnData[0]);
+        //add custom filter to chart options if present in metadata
+        if (chartMetaData["filter"]){
+          //ensure customFunctions is in template
+          if ("customFunctions" in chartOptions) { 
+            chartOptions["customFunctions"]["filter"] = chartMetaData["filter"];
+          } 
+          else {
+            chartOptions["customFunctions"] = {"filter": chartMetaData["filter"]};
+          }
+          chartOptions["customFunctions"]["data-id"] = chartMetaData["data-id"];
+        }
         var template = eval(templateReturnData[0]);
         
         //load csv and draw chart            
@@ -240,9 +251,10 @@ function findIdByKuerzel(data, kuerzel){
   }
 }
 
-function getChartUrls(id){
-  var chartUrl = 'charts/templates/' + id + '.js';
-  var csvUrl = 'data/' + id + '.tsv';
+
+function getChartUrls(id, chartMetaData){
+  var chartUrl = 'charts/templates/' + (chartMetaData["chart-id"] || id) + '.js';
+  var csvUrl = 'data/' + (chartMetaData["data-id"] || id) + '.tsv';
   var templateUrl = 'charts/templates/' + templatesById[id] + '.js';
   return {
     "chartUrl": chartUrl, 
@@ -257,10 +269,12 @@ function lazyRenderChartById(id, chartMetaData, view, suppressNumberInTitle, cal
   //fire GTM event
   dataLayer.push({'event': 'LazyRenderChart', 'chartId': id, 'view': view});
 
-  var container = $(escapeCssChars('#container-' + id));
-  var chartUrls = getChartUrls(id);
   //get template for requested chart 
   (chartMetaData === undefined) ? chartMetaData = findChartById(indikatoren, id) : chartMetaData;
+  
+  var container = $(escapeCssChars('#container-' + id));
+  var chartUrls = getChartUrls(id, chartMetaData);
+  
   //highcharts container exists already: delete chart 
   if (container.find('div.highcharts-container').length) {     
     //find chart in highchart's array of charts

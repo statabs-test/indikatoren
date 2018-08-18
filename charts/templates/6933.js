@@ -38,11 +38,12 @@
 		        {x: 0, y: 18},
 		        {x: 0, y: 19},
         ],
-        parsed: function(columns){
+        parsed: function(columns){ 
           //define which wohnviertel to display
-          var filterValue = 1;
+          //var filterValue = 1;
+          var filterValue = this.chartOptions.customFunctions.filter;
           
-          //define which column (zero-based index) should be filtered with above value 
+          //define which column (zero-based index) should be filtered 
           var filterColumnIndex = 1;
           //go backwards through the column with the values to filter (because we remove values at the end of the array and want to retain the index)
           for (var i = columns[0].length; i > 0; i--){
@@ -97,6 +98,9 @@
           stacking: "normal"
         }
      },
+     customFunctions: {
+       filter: 1
+     }
     };
 }());
  

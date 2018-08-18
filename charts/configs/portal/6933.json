@@ -1202,6 +1202,9 @@
       }
     }
   },
+  "customFunctions": {
+    "filter": 1
+  },
   "exporting": {
     "filename": 6933
   }
