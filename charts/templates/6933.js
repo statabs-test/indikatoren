@@ -6,7 +6,7 @@
           reversedStacks: false,
           labels: {
               x: -5, 
-              format: "{value:,.0f}"
+              format: "{value:,.0f}" 
           }
       },
       xAxis: {

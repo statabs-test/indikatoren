@@ -1127,7 +1127,8 @@
       "style": {
         "color": "#000000"
       },
-      "x": -5
+      "x": -5,
+      "format": "{value:,.0f}"
     },
     "reversedStacks": false
   },
