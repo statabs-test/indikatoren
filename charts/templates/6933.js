@@ -5,7 +5,8 @@
           max: null, 
           reversedStacks: false,
           labels: {
-              x: -5
+              x: -5, 
+              format: "{value:,.0f}"
           }
       },
       xAxis: {
