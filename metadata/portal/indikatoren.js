@@ -17741,7 +17741,9 @@ var indikatoren = [
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Wohnviertel",
-		"raeumlicheGliederung": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
 		"aktualisierungsdatum": "",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
@@ -17772,7 +17774,9 @@ var indikatoren = [
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Wohnviertel",
-		"raeumlicheGliederung": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
 		"aktualisierungsdatum": "",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
