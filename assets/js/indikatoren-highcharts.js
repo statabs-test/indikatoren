@@ -31,6 +31,16 @@ function parseData(chartOptions, data, completeHandler) {
 
 //merge series with all options
 function createChartConfig(data, chartOptions, template, chartMetaData, view, suppressNumberInTitle, callbackFn){  
+  //add custom filter to chart options if present in metadata
+  if (chartMetaData["filter"]){
+    //ensure customFunctions is in template
+    if (!("customFunctions" in chartOptions)) { 
+      chartOptions["customFunctions"] = {};
+    } 
+    chartOptions["customFunctions"]["filter"] = chartMetaData["filter"];
+    chartOptions["customFunctions"]["data-id"] = chartMetaData["data-id"];
+  }  
+
   parseData(chartOptions, data, function (dataOptions) {
     // Merge series configs
     if (chartOptions.series && dataOptions) {
@@ -179,17 +189,6 @@ function renderChart(globalOptionsUrl, templateUrl, chartUrl, csvUrl, chartMetaD
         //get returned script, evaluate it, save returned object to variable. 
         //var globalOptions = eval(optionsReturnData[0]);
         var chartOptions = eval(chartReturnData[0]);
-        //add custom filter to chart options if present in metadata
-        if (chartMetaData["filter"]){
-          //ensure customFunctions is in template
-          if ("customFunctions" in chartOptions) { 
-            chartOptions["customFunctions"]["filter"] = chartMetaData["filter"];
-          } 
-          else {
-            chartOptions["customFunctions"] = {"filter": chartMetaData["filter"]};
-          }
-          chartOptions["customFunctions"]["data-id"] = chartMetaData["data-id"];
-        }
         var template = eval(templateReturnData[0]);
         
         //load csv and draw chart            

@@ -1,9 +1,9 @@
 {"title":"Ausländische Bevölkerung nach Staatsangehörigkeit und Wohnviertel",
-"subtitle":"Vorstädte",
-"kuerzel":"I.01.1.06934",
+"subtitle":"Bruderholz",
+"kuerzel":"I.01.1.06940",
 "kuerzelKunde":"",
 "description":"Ausländische Bevölkerung nach Staatsangehörigkeit und Wohnviertel",
-"id": 6934,
+"id":6940,
 "thema":"01 Bevölkerung",
 "unterthema":"Bestand und Struktur ",
 "kennzahlenset":"Wohnviertel",
@@ -21,12 +21,12 @@
 "visible":true,
 "visibleInPortal":true,
 "orderKey":"04_02_02_00_00_000",
-"parentId":null, 
+"parentId":null,
 "children":[],
 "renderLink":[],
 "quellenangabe":[],
-"externalLinks":[""], 
+"externalLinks":[""],
 "data-id": 6933,
 "chart-id": 6933,
-"filter": "2" 
+"filter" :"7"
 }

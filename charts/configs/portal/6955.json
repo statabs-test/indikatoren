@@ -1,0 +1,1212 @@
+{
+  "series": [
+    {
+      "color": "rgb(176, 0, 0)",
+      "data": [
+        [
+          2004,
+          157
+        ],
+        [
+          2005,
+          173
+        ],
+        [
+          2006,
+          190
+        ],
+        [
+          2007,
+          197
+        ],
+        [
+          2008,
+          209
+        ],
+        [
+          2009,
+          230
+        ],
+        [
+          2010,
+          232
+        ],
+        [
+          2011,
+          210
+        ],
+        [
+          2012,
+          204
+        ],
+        [
+          2013,
+          205
+        ],
+        [
+          2014,
+          228
+        ],
+        [
+          2015,
+          196
+        ],
+        [
+          2016,
+          188
+        ],
+        [
+          2017,
+          169
+        ]
+      ],
+      "name": "Deutschland"
+    },
+    {
+      "color": "rgb(255, 128, 40)",
+      "data": [
+        [
+          2004,
+          5
+        ],
+        [
+          2005,
+          4
+        ],
+        [
+          2006,
+          5
+        ],
+        [
+          2007,
+          5
+        ],
+        [
+          2008,
+          8
+        ],
+        [
+          2009,
+          5
+        ],
+        [
+          2010,
+          6
+        ],
+        [
+          2011,
+          10
+        ],
+        [
+          2012,
+          11
+        ],
+        [
+          2013,
+          12
+        ],
+        [
+          2014,
+          17
+        ],
+        [
+          2015,
+          15
+        ],
+        [
+          2016,
+          16
+        ],
+        [
+          2017,
+          18
+        ]
+      ],
+      "name": "Italien"
+    },
+    {
+      "color": "rgb(115, 186, 124)",
+      "data": [
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          1
+        ],
+        [
+          2010,
+          1
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          1
+        ],
+        [
+          2013,
+          1
+        ],
+        [
+          2014,
+          1
+        ],
+        [
+          2015,
+          1
+        ],
+        [
+          2016,
+          1
+        ],
+        [
+          2017,
+          1
+        ]
+      ],
+      "name": "Türkei"
+    },
+    {
+      "color": "rgb(180, 117, 171)",
+      "data": [
+        [
+          2004,
+          2
+        ],
+        [
+          2005,
+          3
+        ],
+        [
+          2006,
+          3
+        ],
+        [
+          2007,
+          5
+        ],
+        [
+          2008,
+          8
+        ],
+        [
+          2009,
+          6
+        ],
+        [
+          2010,
+          1
+        ],
+        [
+          2011,
+          1
+        ],
+        [
+          2012,
+          2
+        ],
+        [
+          2013,
+          6
+        ],
+        [
+          2014,
+          9
+        ],
+        [
+          2015,
+          9
+        ],
+        [
+          2016,
+          11
+        ],
+        [
+          2017,
+          6
+        ]
+      ],
+      "name": "Spanien"
+    },
+    {
+      "color": "rgb(8, 161, 217)",
+      "data": [
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          2
+        ],
+        [
+          2016,
+          2
+        ],
+        [
+          2017,
+          2
+        ]
+      ],
+      "name": "Portugal"
+    },
+    {
+      "color": "rgb(131, 82, 46)",
+      "data": [
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          null
+        ]
+      ],
+      "name": "Mazedonien"
+    },
+    {
+      "color": "rgb(255, 232, 70)",
+      "data": [
+        [
+          2004,
+          3
+        ],
+        [
+          2005,
+          3
+        ],
+        [
+          2006,
+          4
+        ],
+        [
+          2007,
+          4
+        ],
+        [
+          2008,
+          4
+        ],
+        [
+          2009,
+          3
+        ],
+        [
+          2010,
+          2
+        ],
+        [
+          2011,
+          2
+        ],
+        [
+          2012,
+          3
+        ],
+        [
+          2013,
+          3
+        ],
+        [
+          2014,
+          4
+        ],
+        [
+          2015,
+          3
+        ],
+        [
+          2016,
+          3
+        ],
+        [
+          2017,
+          3
+        ]
+      ],
+      "name": "Serbien, Montenegro, Kosovo"
+    },
+    {
+      "color": "rgb(60, 60, 60)",
+      "data": [
+        [
+          2004,
+          2
+        ],
+        [
+          2005,
+          2
+        ],
+        [
+          2006,
+          1
+        ],
+        [
+          2007,
+          1
+        ],
+        [
+          2008,
+          1
+        ],
+        [
+          2009,
+          1
+        ],
+        [
+          2010,
+          1
+        ],
+        [
+          2011,
+          1
+        ],
+        [
+          2012,
+          1
+        ],
+        [
+          2013,
+          1
+        ],
+        [
+          2014,
+          1
+        ],
+        [
+          2015,
+          1
+        ],
+        [
+          2016,
+          1
+        ],
+        [
+          2017,
+          2
+        ]
+      ],
+      "name": "Bosnien und Herzegowina"
+    },
+    {
+      "color": "rgb(200, 200, 200)",
+      "data": [
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          null
+        ]
+      ],
+      "name": "Slowenien"
+    },
+    {
+      "color": "rgb(176, 0, 0)",
+      "data": [
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          null
+        ]
+      ],
+      "name": "Kroatien"
+    },
+    {
+      "color": "rgb(255, 128, 40)",
+      "data": [
+        [
+          2004,
+          8
+        ],
+        [
+          2005,
+          7
+        ],
+        [
+          2006,
+          17
+        ],
+        [
+          2007,
+          13
+        ],
+        [
+          2008,
+          12
+        ],
+        [
+          2009,
+          15
+        ],
+        [
+          2010,
+          14
+        ],
+        [
+          2011,
+          17
+        ],
+        [
+          2012,
+          14
+        ],
+        [
+          2013,
+          19
+        ],
+        [
+          2014,
+          18
+        ],
+        [
+          2015,
+          14
+        ],
+        [
+          2016,
+          11
+        ],
+        [
+          2017,
+          11
+        ]
+      ],
+      "name": "Vereinigtes Königreich"
+    },
+    {
+      "color": "rgb(115, 186, 124)",
+      "data": [
+        [
+          2004,
+          3
+        ],
+        [
+          2005,
+          4
+        ],
+        [
+          2006,
+          3
+        ],
+        [
+          2007,
+          3
+        ],
+        [
+          2008,
+          3
+        ],
+        [
+          2009,
+          5
+        ],
+        [
+          2010,
+          5
+        ],
+        [
+          2011,
+          6
+        ],
+        [
+          2012,
+          3
+        ],
+        [
+          2013,
+          2
+        ],
+        [
+          2014,
+          1
+        ],
+        [
+          2015,
+          1
+        ],
+        [
+          2016,
+          1
+        ],
+        [
+          2017,
+          2
+        ]
+      ],
+      "name": "Frankreich"
+    },
+    {
+      "color": "rgb(180, 117, 171)",
+      "data": [
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          1
+        ],
+        [
+          2013,
+          1
+        ],
+        [
+          2014,
+          1
+        ],
+        [
+          2015,
+          1
+        ],
+        [
+          2016,
+          1
+        ],
+        [
+          2017,
+          4
+        ]
+      ],
+      "name": "Indien"
+    },
+    {
+      "color": "rgb(8, 161, 217)",
+      "data": [
+        [
+          2004,
+          9
+        ],
+        [
+          2005,
+          5
+        ],
+        [
+          2006,
+          8
+        ],
+        [
+          2007,
+          8
+        ],
+        [
+          2008,
+          13
+        ],
+        [
+          2009,
+          18
+        ],
+        [
+          2010,
+          16
+        ],
+        [
+          2011,
+          16
+        ],
+        [
+          2012,
+          14
+        ],
+        [
+          2013,
+          6
+        ],
+        [
+          2014,
+          8
+        ],
+        [
+          2015,
+          9
+        ],
+        [
+          2016,
+          6
+        ],
+        [
+          2017,
+          6
+        ]
+      ],
+      "name": "Vereinigte Staaten"
+    },
+    {
+      "color": "rgb(131, 82, 46)",
+      "data": [
+        [
+          2004,
+          3
+        ],
+        [
+          2005,
+          3
+        ],
+        [
+          2006,
+          3
+        ],
+        [
+          2007,
+          3
+        ],
+        [
+          2008,
+          1
+        ],
+        [
+          2009,
+          2
+        ],
+        [
+          2010,
+          4
+        ],
+        [
+          2011,
+          3
+        ],
+        [
+          2012,
+          5
+        ],
+        [
+          2013,
+          5
+        ],
+        [
+          2014,
+          7
+        ],
+        [
+          2015,
+          3
+        ],
+        [
+          2016,
+          5
+        ],
+        [
+          2017,
+          6
+        ]
+      ],
+      "name": "Österreich"
+    },
+    {
+      "color": "rgb(255, 232, 70)",
+      "data": [
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          1
+        ],
+        [
+          2017,
+          1
+        ]
+      ],
+      "name": "Sri Lanka"
+    },
+    {
+      "color": "rgb(60, 60, 60)",
+      "data": [
+        [
+          2004,
+          44
+        ],
+        [
+          2005,
+          46
+        ],
+        [
+          2006,
+          34
+        ],
+        [
+          2007,
+          28
+        ],
+        [
+          2008,
+          26
+        ],
+        [
+          2009,
+          30
+        ],
+        [
+          2010,
+          30
+        ],
+        [
+          2011,
+          37
+        ],
+        [
+          2012,
+          41
+        ],
+        [
+          2013,
+          35
+        ],
+        [
+          2014,
+          48
+        ],
+        [
+          2015,
+          48
+        ],
+        [
+          2016,
+          48
+        ],
+        [
+          2017,
+          57
+        ]
+      ],
+      "name": "Übrige"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+            this.credits.element.onclick = function() {};
+
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }              
+
+                  
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacing": [
+      10,
+      10,
+      45,
+      10
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "area",
+    "renderTo": "container-6955",
+    "spacingBottom": 35
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Ausländische Bevölkerung nach Staatsangehörigkeit und Wohnviertel"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Gemeinde Bettingen",
+    "align": "left"
+  },
+  "yAxis": {
+    "min": 0,
+    "max": null,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "x": -5
+    },
+    "reversedStacks": false
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "step": 1,
+      "rotation": -45,
+      "formatter": function (){
+                return this.value;
+            }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -5
+    },
+    "text": "Quelle: "
+  },
+  "tooltip": {
+    "shared": true,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f} ({point.percentage:.1f}%)\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "symbolRadius": 0,
+    "itemMarginBottom": 2,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "reversed": true,
+    "margin": 5,
+    "padding": 5,
+    "labelFormatter": function (){
+          return this.name
+            .replace("Bosnien und ", "Bosnien und<br/>")
+            .replace("Montenegro", "Monte-<br/>negro")
+            .replace("Vereinigtes ", "Vereinigtes<br/>")
+            .replace("Vereinigte ", "Vereinigte<br/>");
+        }
+  },
+  "plotOptions": {
+    "series": {
+      "stacking": "normal",
+      "fillOpacity": 1
+    },
+    "area": {
+      "lineWidth": 0,
+      "itemMarginBottom": 5,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "customFunctions": {
+    "filter": "30",
+    "data-id": 6933
+  },
+  "exporting": {
+    "filename": 6955
+  }
+}

@@ -779,7 +779,26 @@ id | visible | visibleInPortal | indikatorenset
 6771 | true | false | Wanderungen (Print)
 6774 | true | false | Wanderungen (Print)
 6933 | true | true | Wohnviertel
-6934 | true | true | Wohnviertel
+6935 | true | true | Wohnviertel
+6936 | true | true | Wohnviertel
+6937 | true | true | Wohnviertel
+6938 | true | true | Wohnviertel
+6939 | true | true | Wohnviertel
+6940 | true | true | Wohnviertel
+6941 | true | true | Wohnviertel
+6942 | true | true | Wohnviertel
+6943 | true | true | Wohnviertel
+6944 | true | true | Wohnviertel
+6945 | true | true | Wohnviertel
+6946 | true | true | Wohnviertel
+6947 | true | true | Wohnviertel
+6948 | true | true | Wohnviertel
+6949 | true | true | Wohnviertel
+6951 | true | true | Wohnviertel
+6952 | true | true | Wohnviertel
+6953 | true | true | Wohnviertel
+6954 | true | true | Wohnviertel
+6955 | true | true | Wohnviertel
 9996 | true | false | 
 9997 | true | false | 
 9998 | true | false | Test

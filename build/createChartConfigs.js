@@ -130,10 +130,6 @@ function saveChartConfig(indikator, view, console){
     
         var ctx = execute("assets/js/indikatoren-highcharts.js", {Highcharts: Highcharts, chartOptions: {},  geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056, rheinDataEPSG2056: rheinDataEPSG2056, scalebarDataEPSG2056: scalebarDataEPSG2056, console: console}).context;
         
-        if (indikator.id == 6344){
-            console.log('6934: csv: ', csv);
-            console.log('6934: options: ', options);
-        }
         ctx.createChartConfig(dataWithoutQuotes, options, template, indikator, view, true, function(options){
             var stringifiedOptions = serialize(options, {space: 2});
             var filePath = 'charts/configs/' + view + '/';
