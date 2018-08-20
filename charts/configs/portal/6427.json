@@ -1694,8 +1694,8 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 513,
-    "spacingBottom": 55,
+    "height": 500,
+    "spacingBottom": 45,
     "style": {
       "fontFamily": "Arial"
     },
@@ -1718,7 +1718,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Stadt Basel (bis 2016) resp. Kanton Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -1768,9 +1768,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
   },
   "legend": {
     "enabled": true,
