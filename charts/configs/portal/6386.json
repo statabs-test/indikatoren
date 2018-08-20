@@ -6865,14 +6865,14 @@
 	                var chart = this;
 	                var fn = this.options.customFunctions;
 	                //define new Highcharts template "mappie"
-	                fn.addLegendRectangle(chart, 260, 220, 160, 120, 'rgba(222, 222, 222, 0.5)');
+	                fn.addLegendRectangle(chart, 260, 240, 160, 120, 'rgba(222, 222, 222, 0.5)');
 	            }
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 415,
-    "spacingBottom": 55,
+    "spacingBottom": 35,
     "style": {
       "fontFamily": "Arial"
     },
@@ -6911,9 +6911,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -5
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt"
+    "text": "Quelle: "
   },
   "colorAxis": {
     "min": 0,
