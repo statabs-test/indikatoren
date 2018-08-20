@@ -49,6 +49,10 @@
         [
           2016,
           1872
+        ],
+        [
+          2017,
+          1808.4
         ]
       ],
       "name": "Direkte Steuern natürliche Personen"
@@ -103,6 +107,10 @@
         [
           2016,
           837.1
+        ],
+        [
+          2017,
+          816.9
         ]
       ],
       "name": "Direkte Steuern juristische Personen"
@@ -129,8 +137,8 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 428,
-    "spacingBottom": 55,
+    "height": 415,
+    "spacingBottom": 45,
     "style": {
       "fontFamily": "Arial"
     },
@@ -202,9 +210,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt"
   },
   "legend": {
     "enabled": true,

@@ -4,7 +4,7 @@
       "color": "#FABD24",
       "legendIndex": 0,
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
@@ -55,7 +55,7 @@
       "legendIndex": 2,
       "visible": true,
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
@@ -106,7 +106,7 @@
       "legendIndex": 1,
       "visible": true,
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
@@ -157,7 +157,7 @@
       "legendIndex": 3,
       "visible": true,
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
@@ -225,8 +225,8 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 428,
-    "spacingBottom": 55,
+    "height": 415,
+    "spacingBottom": 45,
     "style": {
       "fontFamily": "Arial"
     },
@@ -298,9 +298,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Eidgenössische Zollverwaltung EZV\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: Eidgenössische Zollverwaltung EZV"
   },
   "legend": {
     "enabled": true,

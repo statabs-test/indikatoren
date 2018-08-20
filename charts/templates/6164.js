@@ -10,12 +10,12 @@
   },	
   "tooltip": {
     "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
+	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.3f}</b><br/>'
   },
   "series": [
     {"color": "#CD9C00",
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* gelb */
     	{"color": "#3C3C3C",
