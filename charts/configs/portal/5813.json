@@ -3,7 +3,7 @@
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },
       "color": "#83522E",
       "data": [
@@ -82,6 +82,14 @@
         [
           2016,
           0.416770398237
+        ],
+        [
+          2017,
+          0.500366568914
+        ],
+        [
+          2018,
+          0.711174164916
         ]
       ],
       "name": "Leerwohnungsquote in %"
@@ -132,7 +140,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Prozent",
+    "text": "in Prozent, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
