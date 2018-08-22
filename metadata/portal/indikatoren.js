@@ -12682,7 +12682,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am höchsten sind die Anteile der Personen, die seit 10 oder mehr Jahren an der gleichen Adresse wohnen, in den Wohnvierteln Bruderholz (43%) und Gotthelf (42%) sowie in den Gemeinden Riehen und Bettingen (je 43%). Am wenigsten sesshafte Personen gibt es hingegen in den Wohnvierteln Vorstädte (28%), Altstdt Kleinbasel (27%) und Rosental (21%).",
+		"lesehilfe": "Am höchsten sind die Anteile der Personen, die seit 10 oder mehr Jahren an der gleichen Adresse wohnen, in den Wohnvierteln Bruderholz (43%) und Bachletten (42%) sowie in den Gemeinden Riehen und Bettingen (je 43%). Am wenigsten sesshafte Personen gibt es hingegen in den Wohnvierteln Vorstädte (28%), Altstadt Kleinbasel (27%) und Rosental (21%).",
 		"erlaeuterungen": "Exkl. Personen an administrativen Meldeadressen.",
 		"template": "map002",
 		"printformat": "",
@@ -12705,11 +12705,11 @@ var indikatoren = [
 	{
 		"title": "Reinvermögen nach Wohnviertel",
 		"subtitle": "Stand: 2015",
-		"kuerzel": "",
+		"kuerzel": "I.18.2.06374",
 		"kuerzelKunde": "",
 		"description": "Reinvermögen nach Wohnviertel",
-		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
 		"kennzahlenset": "Häufig gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -12819,11 +12819,11 @@ var indikatoren = [
 	{
 		"title": "Gebäudedichte nach Wohnviertel",
 		"subtitle": "Stand: 2017",
-		"kuerzel": "",
+		"kuerzel": "I.09.2.06377",
 		"kuerzelKunde": "",
 		"description": "Gebäudedichte nach Wohnviertel",
-		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
 		"kennzahlenset": "Häufig gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -12834,7 +12834,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die grösste Gebäudedichte verzeichnet das Wohnviertel Gotthelf mit rund 20 bewohnbaren Gebäuden pro Hektare. Am geringsten fällt sie im Wohnviertel Kleinhüningen mit rund 2 Einheiten aus. Ein hoher Anteil von Reiheneinfamilienhäusern im Gotthelfquartier, wie ein hoher Anteil grosser Mehrfamilienhäuser und ein hoher Anteil von Industire- und Gewerbebauten sind die Hauptgründe.",
+		"lesehilfe": "Die grösste Gebäudedichte verzeichnet das Wohnviertel Gotthelf mit rund 20 bewohnbaren Gebäuden pro Hektare. Am geringsten fällt sie im Wohnviertel Kleinhüningen mit gut einer Einheit aus. Ein hoher Anteil von Reiheneinfamilienhäusern im Gotthelfquartier, wie ein hoher Anteil grosser Mehrfamilienhäuser und ein hoher Anteil von Industire- und Gewerbebauten im Wohnviertel Kleinhüningen sind die Hauptgründe.",
 		"erlaeuterungen": "",
 		"template": "mappie001",
 		"printformat": "",
@@ -12857,11 +12857,11 @@ var indikatoren = [
 	{
 		"title": "Wohnungsdichte nach Wohnviertel",
 		"subtitle": "Stand: 2017",
-		"kuerzel": "",
+		"kuerzel": "I.09.2.06378",
 		"kuerzelKunde": "",
 		"description": "Wohnungsdichte nach Wohnviertel",
-		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
 		"kennzahlenset": "Häufig gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -12895,11 +12895,11 @@ var indikatoren = [
 	{
 		"title": "Leerwohnungen nach Wohnviertel",
 		"subtitle": "Stand: 2017",
-		"kuerzel": "",
+		"kuerzel": "I.09.2.06379",
 		"kuerzelKunde": "",
 		"description": "Leerwohnungen nach Wohnviertel",
-		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
 		"kennzahlenset": "Häufig gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -12933,11 +12933,11 @@ var indikatoren = [
 	{
 		"title": "Sozialhilfe nach Wohnviertel",
 		"subtitle": "Stand: 2017",
-		"kuerzel": "",
+		"kuerzel": "I.13.3.06380",
 		"kuerzelKunde": "",
 		"description": "Sozialhilfe nach Wohnviertel",
-		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialhilfe und Notwohnen",
 		"kennzahlenset": "Häufig gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -12986,7 +12986,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2017 waren die Ausländeranteil in den Wohnvierteln Rosental (56%), Matthäus (50%) und Klybeck (52%) am höchsten. Die niedrigsten Ausländeranteile wiesen die Wohnviertel Bruderholz (24%) und Bachletten (21%) sowie die Gemeinde Riehen auf (24%). In den Wohnvierteln Klybeck und Kleinhüningen bildeteten die Italiener die grösste ausländische Bevölkerungsgruppe, in den übrigen Gemeinden und Wohnvierteln sind es die Deutschen.",
+		"lesehilfe": "Ende 2017 waren die Ausländeranteil in den Wohnvierteln Rosental (56%), Matthäus (50%) und Klybeck (52%) am höchsten. Die niedrigsten Ausländeranteile wiesen die Wohnviertel Bruderholz (24%) und Bachletten (21%) sowie die Gemeinde Bettingen auf (24%). In den Wohnvierteln Klybeck und Kleinhüningen bildeteten die Italiener die grösste ausländische Bevölkerungsgruppe, in den übrigen Gemeinden und Wohnvierteln sind es die Deutschen.",
 		"erlaeuterungen": "Exkl. Personen an administrativen Meldeadressen.",
 		"template": "mappie002",
 		"printformat": "",
@@ -13009,11 +13009,11 @@ var indikatoren = [
 	{
 		"title": "Reineinkommen nach Wohnviertel",
 		"subtitle": "Stand: 2015",
-		"kuerzel": "",
+		"kuerzel": "I.18.2.06382",
 		"kuerzelKunde": "",
 		"description": "Reineinkommen nach Wohnviertel",
-		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
 		"kennzahlenset": "Häufig gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"

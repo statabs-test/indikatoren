@@ -150,7 +150,7 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 	                //Add manually drawn legend
-	                fn.addLegendRectangle(chart, 240, 212, 115, 120, 'rgba(222, 222, 222, 0.5)');
+	                fn.addLegendRectangle(chart, 245, 212, 110, 120, 'rgba(222, 222, 222, 0.5)');
 	                fn.addLegendRectangle(chart, 360, 212, 105, 120, 'rgba(222, 222, 222, 0.5)');	                
 	        		fn.addLegendTitle(chart, "Arbeitsstätten pro <br/> 100 Einwohner", 245, 210);
 	                fn.addLegendTitle(chart, "Anzahl <br/> Arbeitsstätten", 365, 210);
