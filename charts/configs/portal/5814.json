@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "Leerstandsquote 2018",
+      "name": "2018",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -3723,7 +3723,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Leerwohnungsquote"
+    "text": "Leerwohnungsquote nach Gemeinde und Wohnviertel"
   },
   "subtitle": {
     "style": {
@@ -3732,7 +3732,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "credits": {
@@ -3748,7 +3748,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2017-8-14"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-8-22"
   },
   "colorAxis": {
     "min": 0,
