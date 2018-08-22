@@ -24929,9 +24929,9 @@ var indikatoren = [
 		],
 		"delimiter": "",
 		"properties": [
-			"http://ld.data-bs.ch/property/jahr",
-			"http://ld.data-bs.ch/property/raum",
-			"http://ld.data-bs.ch/property/bevolkerung"
+			"https://ld.data-bs.ch/property/jahr",
+			"https://ld.data-bs.ch/property/raum",
+			"https://ld.data-bs.ch/property/bevolkerung"
 		],
 		"id": 6623
 	},
