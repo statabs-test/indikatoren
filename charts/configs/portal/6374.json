@@ -6929,6 +6929,8 @@
     "marker": {
       "color": "black"
     },
+    "max": 80000,
+    "tickInterval": 20000,
     "minColor": "#E7CEE2",
     "maxColor": "#2E1435"
   },
