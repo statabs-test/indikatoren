@@ -55,7 +55,7 @@
           117
         ]
       ],
-      "name": "1-Zimmer"
+      "name": "1 Zimmer"
     },
     {
       "color": "#ffbb58",
@@ -112,7 +112,7 @@
           251
         ]
       ],
-      "name": "2-Zimmer"
+      "name": "2 Zimmer"
     },
     {
       "color": "#007a2f",
@@ -169,7 +169,7 @@
           267
         ]
       ],
-      "name": "3-Zimmer"
+      "name": "3 Zimmer"
     },
     {
       "color": "#923f8d",
@@ -226,7 +226,7 @@
           99
         ]
       ],
-      "name": "4-Zimmer"
+      "name": "4 Zimmer"
     },
     {
       "color": "#2B0099",
@@ -283,7 +283,7 @@
           48
         ]
       ],
-      "name": "5+-Zimmer"
+      "name": "5+ Zimmer"
     },
     {
       "color": "#8A8A8A",
@@ -463,7 +463,7 @@
           1.044176706827
         ]
       ],
-      "name": "LWQ 1-Zimmer"
+      "name": "LWQ 1 Zimmer"
     },
     {
       "color": "#ffbb58",
@@ -525,7 +525,7 @@
           0.977376270394
         ]
       ],
-      "name": "LWQ 2-Zimmer"
+      "name": "LWQ 2 Zimmer"
     },
     {
       "color": "#007a2f",
@@ -587,7 +587,7 @@
           0.65263621031
         ]
       ],
-      "name": "LWQ 3-Zimmer"
+      "name": "LWQ 3 Zimmer"
     },
     {
       "color": "#923f8d",
@@ -649,7 +649,7 @@
           0.513485477178
         ]
       ],
-      "name": "LWQ 4-Zimmer"
+      "name": "LWQ 4 Zimmer"
     },
     {
       "color": "#2B0099",
@@ -711,7 +711,7 @@
           0.3726129483
         ]
       ],
-      "name": "LWQ 5+-Zimmer"
+      "name": "LWQ 5+ Zimmer"
     }
   ],
   "chart": {

@@ -57,7 +57,7 @@
           928
         ]
       ],
-      "name": "1-Zimmer",
+      "name": "1 Zimmer",
       "turboThreshold": 0
     },
     {
@@ -117,7 +117,7 @@
           1367
         ]
       ],
-      "name": "2-Zimmer",
+      "name": "2 Zimmer",
       "turboThreshold": 0
     },
     {
@@ -177,7 +177,7 @@
           1589
         ]
       ],
-      "name": "3-Zimmer",
+      "name": "3 Zimmer",
       "turboThreshold": 0
     },
     {
@@ -237,7 +237,7 @@
           2175
         ]
       ],
-      "name": "4-Zimmer",
+      "name": "4 Zimmer",
       "turboThreshold": 0
     },
     {
@@ -294,10 +294,10 @@
         ],
         [
           "2018",
-          3039
+          2985
         ]
       ],
-      "name": "5-Zimmer",
+      "name": "5 Zimmer",
       "turboThreshold": 0
     }
   ],
