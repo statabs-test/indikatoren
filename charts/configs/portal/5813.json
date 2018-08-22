@@ -8,10 +8,6 @@
       "color": "#83522E",
       "data": [
         [
-          1998,
-          1.519192074785
-        ],
-        [
           1999,
           1.540636450188
         ],
@@ -238,7 +234,7 @@
   "plotOptions": {
     "series": {
       "dataLabels": {
-        "enabled": true,
+        "enabled": false,
         "allowOverlap": true,
         "y": 30,
         "formatter": function () {
