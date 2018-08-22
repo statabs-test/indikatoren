@@ -3,26 +3,110 @@
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },
       "color": "#8b2223",
-      "data": [],
-      "turboThreshold": 0
+      "data": [
+        [
+          1994,
+          13.80048
+        ],
+        [
+          1995,
+          13.91751
+        ],
+        [
+          1996,
+          13.68646
+        ],
+        [
+          1997,
+          13.62674
+        ],
+        [
+          1998,
+          13.60893
+        ],
+        [
+          1999,
+          13.71587
+        ],
+        [
+          2000,
+          13.79591
+        ],
+        [
+          2001,
+          13.8645
+        ],
+        [
+          2002,
+          13.86005
+        ],
+        [
+          2003,
+          14.02129
+        ],
+        [
+          2004,
+          14.16306
+        ],
+        [
+          2005,
+          14.06938
+        ],
+        [
+          2006,
+          13.93354
+        ],
+        [
+          2007,
+          14.0182
+        ],
+        [
+          2008,
+          13.97718
+        ],
+        [
+          2009,
+          13.95817
+        ],
+        [
+          2010,
+          14.29422
+        ],
+        [
+          2011,
+          14.30248
+        ],
+        [
+          2012,
+          14.54477
+        ],
+        [
+          2013,
+          14.47147
+        ],
+        [
+          2014,
+          14.58597
+        ],
+        [
+          2015,
+          14.72809
+        ],
+        [
+          2016,
+          14.7222
+        ],
+        [
+          2017,
+          14.83439
+        ]
+      ],
+      "name": "1610_1"
     }
   ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": false,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickLength": 0
-  },
   "chart": {
     "events": {
       "load": function () {
@@ -93,6 +177,17 @@
       "format": "{value:,.0f} °C"
     }
   },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0
+  },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
@@ -154,7 +249,7 @@
   "plotOptions": {
     "series": {
       "dataLabels": {
-        "enabled": true,
+        "enabled": false,
         "allowOverlap": true,
         "y": 30,
         "formatter": function () {
