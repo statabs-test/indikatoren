@@ -171,8 +171,8 @@
 	                var maxValueInLegend = 0.1; 
 	                
                 	//Add manually drawn legend	
-                	fn.addLegendRectangle(chart, 243, 210, 230, 100, 'rgba(222, 222, 222, 0.5)', 'pieLegend');
-                	fn.addLegendRectangle(chart, 243, 320, 230, 60, 'rgba(222, 222, 222, 0.5)');
+                	fn.addLegendRectangle(chart, 243, 210, 230, 100, '#fbfbfb', 'pieLegend');
+                	fn.addLegendRectangle(chart, 243, 320, 230, 60, '#fbfbfb');
 	                fn.addLegendTitle(chart,"Ausländeranteil in %", 250, 320);
 	                
 	                //fn.addLegendCircle(chart, 410, 275, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');

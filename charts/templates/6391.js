@@ -145,8 +145,8 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 	                //Add manually drawn legend
-	                fn.addLegendRectangle(chart, 250, 210, 100, 120, 'rgba(222, 222, 222, 0.5)');
-	                fn.addLegendRectangle(chart, 355, 210, 125, 120, 'rgba(222, 222, 222, 0.5)');
+	                fn.addLegendRectangle(chart, 250, 210, 100, 120, '#fbfbfb');
+	                fn.addLegendRectangle(chart, 355, 210, 125, 120, '#fbfbfb');
 
 	        		fn.addLegendTitle(chart, "Leerwohnungs- <br/>  quote in %", 250, 210);
 	                fn.addLegendTitle(chart, "Anzahl leerstehende <br/>  Wohnungen", 355, 210);

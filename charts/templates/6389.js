@@ -153,8 +153,8 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 	                //Add manually drawn legend
-	                fn.addLegendRectangle(chart, 243, 212, 105, 125, 'rgba(222, 222, 222, 0.5)');
-	                fn.addLegendRectangle(chart, 355, 212, 105, 125, 'rgba(222, 222, 222, 0.5)');
+	                fn.addLegendRectangle(chart, 243, 212, 105, 125, '#fbfbfb');
+	                fn.addLegendRectangle(chart, 355, 212, 105, 125, '#fbfbfb');
 	        		fn.addLegendTitle(chart, choroplethSeries.name.replace("pro", "pro<br/>"), 245, 210);
 	                fn.addLegendTitle(chart, pieSizeSeries.name, 355, 210);
 	                
