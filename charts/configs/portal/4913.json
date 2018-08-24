@@ -1,7 +1,10 @@
 {
   "series": [
     {
-      "color": "#923F8D",
+      "color": "#FABD24 ",
+      "marker": {
+        "enabled": false
+      },
       "data": [
         [
           2000,
@@ -71,7 +74,10 @@
       "name": "Einfuhren"
     },
     {
-      "color": "#FABD24",
+      "color": "#923F8D",
+      "marker": {
+        "enabled": false
+      },
       "data": [
         [
           2000,
@@ -190,10 +196,10 @@
     "align": "left"
   },
   "tooltip": {
-    "shared": false
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
-    "min": 0,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "title": {
@@ -207,7 +213,7 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}"
+      "format": "{value:,.f}"
     }
   },
   "xAxis": {
@@ -220,7 +226,7 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 2
+    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -239,11 +245,15 @@
     "text": "Quelle: Eidgenössische Zollverwaltung EZV\u003Cbr\u002F\u003EZuletzt geändert: 2016-9-21"
   },
   "legend": {
-    "enabled": false,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
-    "symbolRadius": 0
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString){
@@ -282,21 +292,10 @@
   },
   "plotOptions": {
     "line": {
+      "connectNulls": true,
       "marker": {
-        "enabled": false
-      }
-    },
-    "series": {
-      "dataLabels": {
-        "enabled": true,
-        "allowOverlap": true,
-        "formatter": function () {
-            var last  = this.series.data[this.series.data.length - 1];
-            if (this.point.category === last.category  && this.point.y === last.y) {
-              return this.series.name;
-            }
-            return "";
-          }
+        "enabled": false,
+        "symbol": "circle"
       }
     }
   },
