@@ -6993,7 +6993,7 @@
 					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
 					//define different colors for positive and negative values
 	                var color = function(value){
-	                	return (value >= 0) ? '#7F5F1A' : '#FABD24';
+	                	return (value >= 0) ? '#C9D6DB' : '#C9D6DB';
 	                };					
 					
 					//define chart-specific details
@@ -7024,8 +7024,8 @@
                 	fn.addLegendRectangle(chart, 250, 220, 230, 77, 'rgba(222, 222, 222, 0.5)', 'pieLegend');
                 	fn.addLegendRectangle(chart, 250, 300, 230, 60, 'rgba(222, 222, 222, 0.5)');
 
-	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#7F5F1A', 'pieLegendStayeOnZoom');
-	                fn.addLegendCircle(chart, 280, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#7F5F1A', 'pieLegendStayeOnZoom');
+	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#C9D6DB', 'pieLegendStayeOnZoom');
+	                fn.addLegendCircle(chart, 280, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#C9D6DB', 'pieLegendStayeOnZoom');
 
 	                var zoomableLabels = [];
 	                zoomableLabels.push({
@@ -7126,8 +7126,8 @@
     "marker": {
       "color": "black"
     },
-    "minColor": "#eff6e9",
-    "maxColor": "#4b7b1f"
+    "minColor": "#ECE1D0",
+    "maxColor": "#3A2012"
   },
   "mapNavigation": {
     "enabled": true,
