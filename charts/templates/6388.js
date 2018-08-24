@@ -28,26 +28,26 @@
             dataClasses: [{
             	from: 0,
                 to:15.99,
-                color: '#D7E8D2',
+                color: '#ECE1D0',
                 name:  "<span style='color: rgba(0,0,0,0)'>15,0</span> < 16,0"
             }, {
                 from: 16.0,
                 to: 19.999,
-                color: '#73B97C',
+                color: '#C4AB91',
                 name: "16,0 − 19,9"
             }, {
                 from: 20.0,
                 to: 21.9,
-                 color: '#68AB2B',
+                 color: '#9E7C59',
                  name: "20,0 − 21,9"
             },{
                 from: 22.0,
                 to: 23.999,
-                 color: '#007A2F',
+                 color: '#67401E',
                  name: "22,0 − 23,9"
             },{
                 from: 24.0,
-                color: '#0A3B19',
+                color: '#3A2012',
                 name:  "<span style='color: rgba(0,0,0,0)'>24,0</span> ≥ 24,0"
             }], 
         },
@@ -130,8 +130,7 @@
 					
 					//define different colors for positive and negative values
 	                var color = function(value){
-	                	return (value >= 0) ? '#7F5F1A' : '#FABD24';
-	                };					
+					return (value >= 0) ? '#C9D6DB' : '#C9D6DB';	                };					
 					
 					//define chart-specific details
 					var pieSeriesConfig = function(data, correspondingMapSeriesItem, color){
@@ -158,11 +157,11 @@
 	        		fn.addLegendTitle(chart, "Anteil über <br/>  64-Jähriger in %", 245, 210);
 	                fn.addLegendTitle(chart, "Anzahl über <br/>  64-Jähriger", 355, 210);
 	                
-	                fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
+	                fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, '#C9D6DB');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 465, 255, undefined, false, 'right');
-	                fn.addLegendCircle(chart, 373, 285, 0.5*pieSizeCatConfig[1].diameter, '#7F5F1A');
+	                fn.addLegendCircle(chart, 373, 285, 0.5*pieSizeCatConfig[1].diameter, '#C9D6DB');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 465, 275, undefined, false, 'right');
-	                fn.addLegendCircle(chart, 373, 310, 0.5*pieSizeCatConfig[2].diameter, '#7F5F1A');
+	                fn.addLegendCircle(chart, 373, 310, 0.5*pieSizeCatConfig[2].diameter, '#C9D6DB');
 					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 465, 300, undefined, false, 'right');
 					
 					
