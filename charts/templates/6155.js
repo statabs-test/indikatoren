@@ -39,7 +39,14 @@
       "marker": {
         "enabled": false
       }    
-    }, /* dunkelblau */
+    	}, /* dunkelblau */
+    	/*{"color": "#B00000",
+     legendIndex: 4,
+	visible:true,
+      "marker": {
+        "enabled": false
+      }    
+    },  */
   ],
   "legend": {
     "enabled": true,
