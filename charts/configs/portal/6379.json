@@ -7051,7 +7051,7 @@
 	                }));
 	                zoomableLabels[1].label = fn.addLegendLabel(zoomableLabels[1].chart, zoomableLabels[1].text, zoomableLabels[1].x, zoomableLabels[1].y, zoomableLabels[1].cssClass, zoomableLabels[1].useHtml, zoomableLabels[1].align);					
 					
-					//fn.addLegendSquare(chart, 270, 250, 10, '#7F5F1A');
+					//fn.addLegendSquare(chart, 270, 250, 10, '');
 					//fn.addLegendLabel(chart, 'Zunahme', 300, 245);
 					//fn.addLegendSquare(chart, 270, 275, 10, '#FABD24');
 					//fn.addLegendLabel(chart, 'Abnahme', 300, 270);
