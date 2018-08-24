@@ -8,7 +8,7 @@
     "bootstrap-multiselect": "0.9.13-1",
     "highcharts": "6.1.1",
     "jquery": "3.2.0",
-    "proj4": "2.4.3",
+    "proj4": "2.5.0",
     "seedrandom": "2.4.3"
   },
   "devDependencies": {
