@@ -29,7 +29,7 @@
                 name:  "<span style='color: rgba(0,0,0,0)'>0,0</span> <<span style='color: rgba(0,0,0,0)'>0</span> 4,5"
             }, {
                 from: 4.5,
-                to: 4.9,
+                to: 4.999,
                 color: '#FABD24',
                 name: "4,5 −<span style='color: rgba(0,0,0,0)'>0</span> 4,9"
             }, {
