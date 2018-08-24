@@ -214,17 +214,17 @@
 					//fn.addLegendSquare(chart, 254, 267, 12, '#FABD24'); //Checking alignment with right legend boxes
 					
 					fn.addLegendSquare(chart, 359, 251, 12, '#B00000');
-					fn.addLegendLabel(chart, 'Deutschland', 370, 245);
+					fn.addLegendLabel(chart, 'Deutschland', 375, 245);
 					fn.addLegendSquare(chart, 359, 267, 12, '#FABD24'); // !!!! Orange is behind green
-					fn.addLegendLabel(chart, 'Italien', 370, 262);
+					fn.addLegendLabel(chart, 'Italien', 375, 262);
 					fn.addLegendSquare(chart, 359, 283, 12, '#E6E600');
-					fn.addLegendLabel(chart, 'Türkei', 370, 279);
+					fn.addLegendLabel(chart, 'Türkei', 375, 279);
 					fn.addLegendSquare(chart, 359, 299, 12, ' #A8C3CA');
-					fn.addLegendLabel(chart, 'Übrige', 370, 295);
+					fn.addLegendLabel(chart, 'Übrige', 375, 295);
 					fn.addLegendSquare(chart, 359, 315, 12, '#923F8D');
-					fn.addLegendLabel(chart, 'Spanien', 370, 310);
+					fn.addLegendLabel(chart, 'Spanien', 375, 310);
 					fn.addLegendSquare(chart, 359, 331, 12, '#68AB2B');
-					fn.addLegendLabel(chart, 'Serbien, Monte-<br/>negro, Kosovo', 370, 327);
+					fn.addLegendLabel(chart, 'Serbien, Monte-<br/>negro, Kosovo', 375, 327);
 			
 					
 					//make sure pies are hidden upon click onto pie legend

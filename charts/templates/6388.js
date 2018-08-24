@@ -159,11 +159,11 @@
 	                fn.addLegendTitle(chart, "Anzahl über <br/>  64-Jähriger", 355, 210);
 	                
 	                fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
-	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 460, 255, undefined, false, 'right');
+	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 465, 255, undefined, false, 'right');
 	                fn.addLegendCircle(chart, 373, 285, 0.5*pieSizeCatConfig[1].diameter, '#7F5F1A');
-	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 460, 275, undefined, false, 'right');
+	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 465, 275, undefined, false, 'right');
 	                fn.addLegendCircle(chart, 373, 310, 0.5*pieSizeCatConfig[2].diameter, '#7F5F1A');
-					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 460, 300, undefined, false, 'right');
+					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 465, 300, undefined, false, 'right');
 					
 					
 					//fn.addLegendSquare(chart, 565, 240, 10, '#7F5F1A');
