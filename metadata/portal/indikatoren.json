@@ -12668,7 +12668,7 @@
 	},
 	{
 		"title": "Sesshaftigkeit nach Wohnviertel",
-		"subtitle": "Stand: 2017",
+		"subtitle": "Basel-Stadt, Stand: 2017",
 		"kuerzel": "I.01.1.06373",
 		"kuerzelKunde": "",
 		"description": "Sesshaftigkeit nach Wohnviertel",
@@ -12706,7 +12706,7 @@
 	},
 	{
 		"title": "Reinvermögen nach Wohnviertel",
-		"subtitle": "Stand: 2015",
+		"subtitle": "Basel-Stadt, Stand: 2015",
 		"kuerzel": "I.18.2.06374",
 		"kuerzelKunde": "",
 		"description": "Reinvermögen nach Wohnviertel",
@@ -12744,7 +12744,7 @@
 	},
 	{
 		"title": "Unter 20-Jährige nach Wohnviertel",
-		"subtitle": "Stand: 2017",
+		"subtitle": "Basel-Stadt, Stand: 2017",
 		"kuerzel": "I.01.1.06375",
 		"kuerzelKunde": "",
 		"description": "Unter 20-Jährige nach Wohnviertel",
@@ -12782,7 +12782,7 @@
 	},
 	{
 		"title": "Über 64-Jährige nach Wohnviertel",
-		"subtitle": "Stand: 2017",
+		"subtitle": "Basel-Stadt, Stand: 2017",
 		"kuerzel": "I.01.1.06376",
 		"kuerzelKunde": "",
 		"description": "Über 64-Jährige nach Wohnviertel",
@@ -12820,7 +12820,7 @@
 	},
 	{
 		"title": "Gebäudedichte nach Wohnviertel",
-		"subtitle": "Stand: 2017",
+		"subtitle": "Basel-Stadt, Stand: 2017",
 		"kuerzel": "I.09.2.06377",
 		"kuerzelKunde": "",
 		"description": "Gebäudedichte nach Wohnviertel",
@@ -12858,7 +12858,7 @@
 	},
 	{
 		"title": "Wohnungsdichte nach Wohnviertel",
-		"subtitle": "Stand: 2017",
+		"subtitle": "Basel-Stadt, Stand: 2017",
 		"kuerzel": "I.09.2.06378",
 		"kuerzelKunde": "",
 		"description": "Wohnungsdichte nach Wohnviertel",
@@ -12896,7 +12896,7 @@
 	},
 	{
 		"title": "Leerwohnungen nach Wohnviertel",
-		"subtitle": "Stand: 2017",
+		"subtitle": "Basel-Stadt, Stand: 2017",
 		"kuerzel": "I.09.2.06379",
 		"kuerzelKunde": "",
 		"description": "Leerwohnungen nach Wohnviertel",
@@ -12934,7 +12934,7 @@
 	},
 	{
 		"title": "Sozialhilfe nach Wohnviertel",
-		"subtitle": "Stand: 2017",
+		"subtitle": "Basel-Stadt, Stand: 2017",
 		"kuerzel": "I.13.3.06380",
 		"kuerzelKunde": "",
 		"description": "Sozialhilfe nach Wohnviertel",
@@ -12972,7 +12972,7 @@
 	},
 	{
 		"title": "Ausländische Bevölkerung nach Wohnviertel",
-		"subtitle": "Stand: 2017",
+		"subtitle": "Basel-Stadt, Stand: 2017",
 		"kuerzel": "I.01.1.06381",
 		"kuerzelKunde": "",
 		"description": "Ausländische Bevölkerung nach Wohnviertel",
@@ -13010,7 +13010,7 @@
 	},
 	{
 		"title": "Reineinkommen nach Wohnviertel",
-		"subtitle": "Stand: 2015",
+		"subtitle": "Basel-Stadt, Stand: 2015",
 		"kuerzel": "I.18.2.06382",
 		"kuerzelKunde": "",
 		"description": "Reineinkommen nach Wohnviertel",
@@ -13048,7 +13048,7 @@
 	},
 	{
 		"title": "Arbeitsstätten nach Wohnviertel",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Basel-Stadt, Stand: 2016",
 		"kuerzel": "I.03.2.06383",
 		"kuerzelKunde": "",
 		"description": "Arbeitsstätten nach Wohnviertel",
@@ -13087,7 +13087,7 @@
 	},
 	{
 		"title": "Beschäftigte nach Wohnviertel",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Basel-Stadt, Stand: 2016",
 		"kuerzel": "I.03.2.06384",
 		"kuerzelKunde": "",
 		"description": "Beschäftigte nach Wohnviertel",
