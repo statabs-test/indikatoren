@@ -40,13 +40,13 @@
         "enabled": false
       }    
     	}, /* dunkelblau */
-    	/*{"color": "#B00000",
+    	{"color": "#B00000",
      legendIndex: 4,
 	visible:true,
       "marker": {
         "enabled": false
       }    
-    },  */
+    },  
   ],
   "legend": {
     "enabled": true,
