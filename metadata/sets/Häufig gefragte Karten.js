@@ -223,7 +223,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Leerwohnungen nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.09.2.06379",
 		"kuerzelKunde": "",
 		"description": "Leerwohnungen nach Wohnviertel",
@@ -657,7 +657,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Leerwohnungen nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.09.2.06391",
 		"kuerzelKunde": "",
 		"description": "Leerwohnungen nach Wohnviertel",
