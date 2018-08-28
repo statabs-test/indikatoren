@@ -1,8 +1,8 @@
 {
   "series": [
     {
-      "color": "#B00000",
-      "legendIndex": 2,
+      "color": "#474747",
+      "legendIndex": 0,
       "data": [
         [
           2010,
@@ -45,7 +45,7 @@
     },
     {
       "color": "#662673",
-      "legendIndex": 2,
+      "legendIndex": 1,
       "data": [
         [
           2010,
@@ -131,7 +131,7 @@
     },
     {
       "color": "#007A2F",
-      "legendIndex": 0,
+      "legendIndex": 3,
       "data": [
         [
           2010,
@@ -174,7 +174,7 @@
     },
     {
       "color": "#E6E600",
-      "legendIndex": 0,
+      "legendIndex": 4,
       "data": [
         [
           2010,
