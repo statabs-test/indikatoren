@@ -6,9 +6,9 @@
 "id":6384,
 "thema":"03 Erwerbsleben",
 "unterthema":"Beschäftigte ",
-"kennzahlenset":"Häufig gefragte Karten",
+"kennzahlenset":"Gefragte Karten",
 "raeumlicheGliederung":["Wohnviertel"],
-"aktualisierungsdatum":"",
+"aktualisierungsdatum":"2018-08-30T10:31:45.4545",
 "stufe1":"Kontinuierlich",
 "stufe2":"",
 "stufe3":"",
@@ -23,7 +23,7 @@
 "orderKey":"02_00_00_00_00_000",
 "parentId":null,
 "children":["6396"],
-"renderLink":[],
+"renderLink":["6396"],
 "quellenangabe":["Statistisches Amt Basel-Stadt","Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)","Kartengrundlage: Geodaten Kanton Basel-Stadt"],
 "externalLinks":[""]
 }

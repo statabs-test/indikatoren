@@ -20411,11 +20411,11 @@ var indikatoren = [
 		"description": "Sesshaftigkeit nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
 		"stufe1": "Kontinuierlich",
 		"stufe2": "",
 		"stufe3": "",
@@ -20431,7 +20431,9 @@ var indikatoren = [
 		"children": [
 			"6385"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6385"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -20449,11 +20451,11 @@ var indikatoren = [
 		"description": "Reinvermögen nach Wohnviertel",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
 		"stufe1": "Kontinuierlich",
 		"stufe2": "",
 		"stufe3": "",
@@ -20469,7 +20471,9 @@ var indikatoren = [
 		"children": [
 			"6386"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6386"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -20487,11 +20491,11 @@ var indikatoren = [
 		"description": "Unter 20-Jährige nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
 		"stufe1": "Kontinuierlich",
 		"stufe2": "",
 		"stufe3": "",
@@ -20507,7 +20511,9 @@ var indikatoren = [
 		"children": [
 			"6387"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6387"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -20525,11 +20531,11 @@ var indikatoren = [
 		"description": "Über 64-Jährige nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
 		"stufe1": "Kontinuierlich",
 		"stufe2": "",
 		"stufe3": "",
@@ -20545,7 +20551,9 @@ var indikatoren = [
 		"children": [
 			"6388"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6388"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -20563,11 +20571,11 @@ var indikatoren = [
 		"description": "Gebäudedichte nach Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
 		"stufe1": "Kontinuierlich",
 		"stufe2": "",
 		"stufe3": "",
@@ -20583,7 +20591,9 @@ var indikatoren = [
 		"children": [
 			"6389"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6389"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -20601,11 +20611,11 @@ var indikatoren = [
 		"description": "Wohnungsdichte nach Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
 		"stufe1": "Kontinuierlich",
 		"stufe2": "",
 		"stufe3": "",
@@ -20621,7 +20631,9 @@ var indikatoren = [
 		"children": [
 			"6390"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6390"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -20639,11 +20651,11 @@ var indikatoren = [
 		"description": "Leerwohnungen nach Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
 		"stufe1": "Kontinuierlich",
 		"stufe2": "",
 		"stufe3": "",
@@ -20659,7 +20671,9 @@ var indikatoren = [
 		"children": [
 			"6391"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6391"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -20677,11 +20691,11 @@ var indikatoren = [
 		"description": "Sozialhilfe nach Wohnviertel",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
 		"stufe1": "Kontinuierlich",
 		"stufe2": "",
 		"stufe3": "",
@@ -20697,7 +20711,9 @@ var indikatoren = [
 		"children": [
 			"6392"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6392"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -20715,11 +20731,11 @@ var indikatoren = [
 		"description": "Ausländische Bevölkerung nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
 		"stufe1": "Kontinuierlich",
 		"stufe2": "",
 		"stufe3": "",
@@ -20735,7 +20751,9 @@ var indikatoren = [
 		"children": [
 			"6778"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6778"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -20753,11 +20771,11 @@ var indikatoren = [
 		"description": "Reineinkommen nach Wohnviertel",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
 		"stufe1": "Kontinuierlich",
 		"stufe2": "",
 		"stufe3": "",
@@ -20773,7 +20791,9 @@ var indikatoren = [
 		"children": [
 			"6394"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6394"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -20791,11 +20811,11 @@ var indikatoren = [
 		"description": "Arbeitsstätten nach Wohnviertel",
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
 		"stufe1": "Kontinuierlich",
 		"stufe2": "",
 		"stufe3": "",
@@ -20811,7 +20831,9 @@ var indikatoren = [
 		"children": [
 			"6395"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6395"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
@@ -20830,11 +20852,11 @@ var indikatoren = [
 		"description": "Beschäftigte nach Wohnviertel",
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
 		"stufe1": "Kontinuierlich",
 		"stufe2": "",
 		"stufe3": "",
@@ -20850,7 +20872,9 @@ var indikatoren = [
 		"children": [
 			"6396"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6396"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
@@ -20869,11 +20893,11 @@ var indikatoren = [
 		"description": "Sesshaftigkeit nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
 		"stufe1": "Kategoriell",
 		"stufe2": "",
 		"stufe3": "",
@@ -20883,11 +20907,13 @@ var indikatoren = [
 		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
 		"template": "map002",
 		"printformat": "",
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": 6373,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6373"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -20905,11 +20931,11 @@ var indikatoren = [
 		"description": "Reinvermögen nach Wohnviertel",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-08-30T10:31:44.4444",
 		"stufe1": "Kategoriell",
 		"stufe2": "",
 		"stufe3": "",
@@ -20919,11 +20945,13 @@ var indikatoren = [
 		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2015; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
 		"template": "map002",
 		"printformat": "",
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": 6374,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6374"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -20941,11 +20969,11 @@ var indikatoren = [
 		"description": "Unter 20-Jährige nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-08-30T10:31:44.4444",
 		"stufe1": "Kategoriell",
 		"stufe2": "",
 		"stufe3": "",
@@ -20955,11 +20983,13 @@ var indikatoren = [
 		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
 		"template": "mappie001",
 		"printformat": "",
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": 6375,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6375"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -20977,11 +21007,11 @@ var indikatoren = [
 		"description": "Über 64-Jährige nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-08-30T10:31:44.4444",
 		"stufe1": "Kategoriell",
 		"stufe2": "",
 		"stufe3": "",
@@ -20991,11 +21021,13 @@ var indikatoren = [
 		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
 		"template": "mappie001",
 		"printformat": "",
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": 6376,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6376"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -21013,11 +21045,11 @@ var indikatoren = [
 		"description": "Gebäudedichte nach Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-08-30T10:31:44.4444",
 		"stufe1": "Kategoriell",
 		"stufe2": "",
 		"stufe3": "",
@@ -21027,11 +21059,13 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "mappie001",
 		"printformat": "",
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": 6377,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6377"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -21049,11 +21083,11 @@ var indikatoren = [
 		"description": "Wohnungsdichte nach Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-08-30T10:31:44.4444",
 		"stufe1": "Kategoriell",
 		"stufe2": "",
 		"stufe3": "",
@@ -21063,11 +21097,13 @@ var indikatoren = [
 		"erlaeuterungen": "",
 		"template": "mappie001",
 		"printformat": "",
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": 6378,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6378"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -21085,11 +21121,11 @@ var indikatoren = [
 		"description": "Leerwohnungen nach Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-08-30T10:31:44.4444",
 		"stufe1": "Kategoriell",
 		"stufe2": "",
 		"stufe3": "",
@@ -21099,11 +21135,13 @@ var indikatoren = [
 		"erlaeuterungen": "Stichtag ist der 1. Juni.",
 		"template": "mappie001",
 		"printformat": "",
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": 6379,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6379"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -21121,11 +21159,11 @@ var indikatoren = [
 		"description": "Sozialhilfe nach Wohnviertel",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-08-30T10:31:44.4444",
 		"stufe1": "Kategoriell",
 		"stufe2": "",
 		"stufe3": "",
@@ -21135,11 +21173,13 @@ var indikatoren = [
 		"erlaeuterungen": "Die Sozialhilfequote wird als Anteil der Anzahl Sozialhilfebezüger an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Als Sozialhilfebezüger sind alle Personen erfasst, die im Verlaufe des jeweiligen Jahres mindestens einmal eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Seit Anfang 2013 sind rückwirkend alle Dossiertypen ausser Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE/NE) berücksichtigt. Asylsuchende erhalten Nothilfe und nicht Sozialhilfe.",
 		"template": "mappie001",
 		"printformat": "",
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": 6380,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6380"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -21157,11 +21197,11 @@ var indikatoren = [
 		"description": "Reineinkommen nach Wohnviertel",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-08-30T10:31:44.4444",
 		"stufe1": "Kategoriell",
 		"stufe2": "",
 		"stufe3": "",
@@ -21171,11 +21211,13 @@ var indikatoren = [
 		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2015; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
 		"template": "map002",
 		"printformat": "",
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": 6382,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6382"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -21193,11 +21235,11 @@ var indikatoren = [
 		"description": "Arbeitsstätten nach Wohnviertel",
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-08-30T10:31:44.4444",
 		"stufe1": "Kategoriell",
 		"stufe2": "",
 		"stufe3": "",
@@ -21207,11 +21249,13 @@ var indikatoren = [
 		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z.B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2300 Franken Jahreslohn).",
 		"template": "mappie001",
 		"printformat": "",
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": 6383,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6383"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
@@ -21230,11 +21274,11 @@ var indikatoren = [
 		"description": "Beschäftigte nach Wohnviertel",
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-08-30T10:31:44.4444",
 		"stufe1": "Kategoriell",
 		"stufe2": "",
 		"stufe3": "",
@@ -21244,11 +21288,13 @@ var indikatoren = [
 		"erlaeuterungen": "Beschäftigte werden berücksichtigt, sofern sie aufgrund eines Mindesteinkommens von 2300 Franken im Jahr AHV-Beiträge zahlen müssen. Im Wohnviertel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
 		"template": "mappie001",
 		"printformat": "",
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": 6384,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6384"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
@@ -26579,11 +26625,11 @@ var indikatoren = [
 		"description": "Ausländische Bevölkerung nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Häufig gefragte Karten",
+		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-08-30T10:31:44.4444",
 		"stufe1": "Kategoriell",
 		"stufe2": "",
 		"stufe3": "",
@@ -26593,11 +26639,13 @@ var indikatoren = [
 		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
 		"template": "mappie002",
 		"printformat": "",
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": 6381,
 		"children": [],
-		"renderLink": [],
+		"renderLink": [
+			"6381"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
