@@ -12,7 +12,7 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
-		"stufe1": "Kontinuierlich",
+		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -51,7 +51,7 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
-		"stufe1": "Kontinuierlich",
+		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -90,7 +90,7 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
-		"stufe1": "Kontinuierlich",
+		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -129,7 +129,7 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
-		"stufe1": "Kontinuierlich",
+		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -168,7 +168,7 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
-		"stufe1": "Kontinuierlich",
+		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -207,7 +207,7 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
-		"stufe1": "Kontinuierlich",
+		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -246,7 +246,7 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
-		"stufe1": "Kontinuierlich",
+		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -285,7 +285,7 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
-		"stufe1": "Kontinuierlich",
+		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -324,7 +324,7 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
-		"stufe1": "Kontinuierlich",
+		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -363,7 +363,7 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
-		"stufe1": "Kontinuierlich",
+		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -402,7 +402,7 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
-		"stufe1": "Kontinuierlich",
+		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -442,7 +442,7 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
-		"stufe1": "Kontinuierlich",
+		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -482,7 +482,7 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
-		"stufe1": "Kategoriell",
+		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -519,7 +519,7 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-08-30T10:31:44.4444",
-		"stufe1": "Kategoriell",
+		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -556,7 +556,7 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-08-30T10:31:44.4444",
-		"stufe1": "Kategoriell",
+		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -593,7 +593,7 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-08-30T10:31:44.4444",
-		"stufe1": "Kategoriell",
+		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -630,7 +630,7 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-08-30T10:31:44.4444",
-		"stufe1": "Kategoriell",
+		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -667,7 +667,7 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-08-30T10:31:44.4444",
-		"stufe1": "Kategoriell",
+		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -704,7 +704,7 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-08-30T10:31:44.4444",
-		"stufe1": "Kategoriell",
+		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -741,7 +741,7 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-08-30T10:31:44.4444",
-		"stufe1": "Kategoriell",
+		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -778,7 +778,7 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-08-30T10:31:44.4444",
-		"stufe1": "Kategoriell",
+		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -815,7 +815,7 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-08-30T10:31:44.4444",
-		"stufe1": "Kategoriell",
+		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -853,7 +853,7 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-08-30T10:31:44.4444",
-		"stufe1": "Kategoriell",
+		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -891,7 +891,7 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"aktualisierungsdatum": "2018-08-30T10:31:44.4444",
-		"stufe1": "Kategoriell",
+		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
