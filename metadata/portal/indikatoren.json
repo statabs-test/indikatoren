@@ -1414,34 +1414,33 @@
 		"id": 4128
 	},
 	{
-		"title": "Mietpreisentwicklung der Leerwohnungen",
-		"subtitle": "nach Zimmerzahl",
-		"kuerzel": "I.09.2.04129",
+		"title": "Mietpreisentwicklung der Leerwohnungen nach Zimmerzahl",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.09.2.4129",
 		"kuerzelKunde": "0.1.B-2",
-		"description": "Mietpreisentwicklung der Leerwohnungen",
+		"description": "Mietpreisentwicklung der Leerwohnungen nach Zimmerzahl",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Wohnraumentwicklung",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-02-01T00:00:00.0000",
+		"aktualisierungsdatum": "2018-08-22T15:38:57.5757",
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Mietpreisentwicklung der Leerwohnungen ist im Zehnjahresvergleich leicht ansteigend. Da es grundsätzlich wenige leerstehende 5-Zimmerwohnungen gibt, sind die ausgewiesenen Durchschnittsmieten in dieser Kategorie grösseren Schwankungen unterworfen bzw. können wie im Jahr 2014 aufgrund zu kleiner Stichprobe gar nicht berechnet werden.",
-		"erlaeuterungen": "Bei den Mietpreisen für Leerwohnungen handelt es sich um Angebotsmieten, nicht um Bestandsmieten. 2014 kann keine Durchschnittsmiete für leerstehende 5-Zimmerwohnungen angegeben werden, weil in dieser Kategorie zu wenige Beobachtungen vorlagen.",
+		"erlaeuterungen": "Ohne Wohnungen in Einfamilienhäusern, ohne Wohnungen mit Zwischennutzung (eingeschränkte Mieterrechte, besonders günstig), ohne möblierte Wohnungen (besonders teuer) und mit Genossenschaftswohnungen.",
 		"template": "line001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
-		],
+		"quellenangabe": [],
 		"externalLinks": [
 			""
 		],
@@ -1726,8 +1725,8 @@
 	},
 	{
 		"title": "Anzahl Leerwohnungen und Leerwohnungsquote",
-		"subtitle": "nach Zimmerzahl",
-		"kuerzel": "I.09.2.04138",
+		"subtitle": "nach Zimmerzahl, Basel-Stadt",
+		"kuerzel": "I.09.2.4138",
 		"kuerzelKunde": "1.2.F-1",
 		"description": "Anzahl Leerwohnungen und Leerwohnungsquote",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -1736,15 +1735,16 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-02-28T00:00:00.000",
+		"aktualisierungsdatum": "2018-08-22T15:37:12.1212",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Leerwohnungsquoten erreichten im Jahr 2014 mit 0,2% ihren Tiefstwert innerhalb des Beobachtungszeitraums. Danach ist die Leerwohnungsquote stetig angestiegen und lag 2017 bei 0,5%.",
-		"erlaeuterungen": "LWQ = Leerwohnungsquote",
+		"lesehilfe": "Die Leerwohnungsquote erreichte im Jahr 2014 mit 0,2% ihren Tiefstwert innerhalb des Beobachtungszeitraums. Danach ist die Leerwohnungsquote stetig angestiegen und liegt 2018 bei 0,7%.",
+		"erlaeuterungen": "LWQ = Leerwohnungsquote.",
 		"template": "template001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
@@ -1762,8 +1762,8 @@
 	},
 	{
 		"title": "Anzahl Leerwohnungen und Leerwohnungsquote",
-		"subtitle": "nach Wohnflächenkategorie, Stand 2015 bis 2017",
-		"kuerzel": "I.09.2.04139",
+		"subtitle": "nach Grösse der Wohnung, Basel-Stadt",
+		"kuerzel": "I.09.2.4139",
 		"kuerzelKunde": "1.2.F-2",
 		"description": "Anzahl Leerwohnungen und Leerwohnungsquote",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -1772,15 +1772,16 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-02-01T00:00:00.0000",
+		"aktualisierungsdatum": "2018-08-22T15:38:32.3232",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 weisen Wohnungen mit einer Fläche von weniger als 30m² die höchste Leerwohnungsquote auf. Der tiefste Wert wird mit knapp 0,4% bei Wohnungen ab 150 m² gemessen. Diese hatten 2015 mit gut 0,5% noch den höchsten Wert erreicht.",
+		"lesehilfe": "Im Jahr 2018 weisen Wohnungen mit einer Fläche von weniger als 30m² die höchste Leerwohnungsquote auf. Der tiefste Wert wird mit knapp 0,5% bei Wohnungen ab 150 m² gemessen.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
@@ -1837,8 +1838,8 @@
 	},
 	{
 		"title": "Anteile der Haushalte",
-		"subtitle": "nach Art des Haushalts",
-		"kuerzel": "I.01.2.04141",
+		"subtitle": "nach Art des Haushalts, Basel-Stadt",
+		"kuerzel": "I.01.2.4141",
 		"kuerzelKunde": "1.4.A1",
 		"description": "Anteile der Haushalte",
 		"thema": "01 Bevölkerung",
@@ -1847,15 +1848,16 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-20T10:44:40.4040",
+		"aktualisierungsdatum": "2018-08-21T08:45:07.077",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Haushaltsstruktur weist in den letzten Jahren keine grossen Veränderungen auf. Einpersonenhaushalte machen 2016 rund 47% aus.",
+		"lesehilfe": "Die Haushaltsstruktur weist in den letzten Jahren keine grossen Veränderungen auf. Einpersonenhaushalte machen 2017 46% aus, 41% sind Familienhaushalte und 13% werden den Nichtfamilienhaushalten zugeordnet.",
 		"erlaeuterungen": "Nichtfamilienhaushalte sind Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind. Die übrigen Mehrpersonenhaushalte werden zu den Familienhaushalten gezählt.",
 		"template": "template001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_04_00_00_00_000",
 		"parentId": null,
@@ -3958,8 +3960,8 @@
 	},
 	{
 		"title": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
-		"subtitle": "",
-		"kuerzel": "I.01.6.04722",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.01.6.4722",
 		"kuerzelKunde": "2.1.03",
 		"description": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
 		"thema": "01 Bevölkerung",
@@ -3968,21 +3970,21 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-02-28T00:00:00.000",
+		"aktualisierungsdatum": "2018-08-21T08:41:47.4747",
 		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.1 Identifikation",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Einbürgerungen unterlag in den vergangenen Jahren diversen Schwankungen. Die Höchstwerte wurden 2007  mit 2 023 und 2008  mit 1 798 eingebürgerten Ausländern erreicht. Danach gingen die Einbürgerungen zurück, 2011 erwarben noch 835 Ausländer die Schweizer Staatsangehörigkeit. Zwischen 2012 und 2015 nahm die Zahl der Eingebürgerungen tendenziell wieder zu, im Jahr 2015 erhielten 1 170 Personen das Schweizer Bürgerrecht. 2016 liessen sich 752 Ausländer einbürgern, dies ist der tiefste Wert der letzten zehn Jahre. Die Einbürgerungsziffer verläuft entsprechdend den absoluten Werten und lag 2016 bei 10,6.",
+		"lesehilfe": "Die Zahl der Einbürgerungen unterlag in den vergangenen Jahren diversen Schwankungen. Der Höchstwert wurde 2008 mit 1 798 eingebürgerten Ausländern erreicht. Danach gingen die Einbürgerungen zurück, 2011 erwarben noch 835 Ausländer die Schweizer Staatsangehörigkeit. Zwischen 2012 und 2015 nahm die Zahl der Eingebürgerungen tendenziell wieder zu, im Jahr 2015 erhielten 1 170 Personen das Schweizer Bürgerrecht. 2016 liessen sich 752 Ausländer einbürgern, dies ist der tiefste Wert der letzten zehn Jahre. 2017 lag die Zahl der Eingebürgerten wieder bei 1 282, dies ist der höchste Wert der letzten zehn Jahre. Die Einbürgerungsziffer verläuft entsprechend den absoluten Werten und liegt 2017 bei 17,9.",
 		"erlaeuterungen": "Voraussetzung für eine ordentliche Einbürgerung ist u. a. eine 12-jährige Wohndauer in der Schweiz. Eine erleichterte Einbürgerung kommt für ausländische Ehepartner von Schweizern in Frage, die 5 Jahre in der Schweiz gelebt haben und die seit 3 Jahren verheiratet sind. Die Einbürgerungsziffer wird als Anzahl Einbürgerungen (ordentliche und erleichterte) pro 1000 Ausländer am Jahresende berechnet.",
 		"template": "template001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_01_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"6043",
-			"6479"
+			"6043"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -5655,26 +5657,27 @@
 		"id": 4875
 	},
 	{
-		"title": "Bruttowertschöpfung nach Branchengruppe in Mio. Franken",
-		"subtitle": "",
-		"kuerzel": "I.04.1.04908",
+		"title": "Bruttowertschöpfung nach Branchengruppe",
+		"subtitle": "in Mio. Franken, Basel-Stadt",
+		"kuerzel": "I.04.1.4908",
 		"kuerzelKunde": "",
-		"description": "Bruttowertschöpfung nach Branchengruppe in Mio. Franken",
+		"description": "Bruttowertschöpfung nach Branchengruppe",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Basler Index der Konsumentenpreise",
 		"kennzahlenset": "",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
+		"aktualisierungsdatum": "2018-08-22T13:37:50.5050",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Branchengruppe Bau und Herstellung von Waren macht mit über 12,5 Mrd. Franken im Jahr 2013 wie in sämtlichen anderen Beobachtungsjahren den grössten Anteil an der Bruttowertschöpfung des Kantons Basel-Stadt aus.",
-		"erlaeuterungen": "Bau u. Herst. v. Waren umfasst: Bergbau und Gewinnung von Steinen und Erden, Herstellung von Waren, Bau; Handel und Informationsdienstl. umfasst: Handel und Reparatur von Fahrzeugen, Transport, Informationsdienstleistungen und Telekommunikation, Beherbergung und Gastronomie; Wirtschaftl. Dienstl. u. Unterhaltung umfasst: Grundstücks- und Wohnungswesen, sonstige freiberufliche, wissenschaftliche und technische Tätigkeiten, wirtschaftliche Dienstleistungen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen; Finanzen und Versicherungen umfasst: Erbringung von Finanzdienstleistungen und Versicherungen; Versorgung und Bildung umfasst: Energieversorgung, Wasserversorgung, Sammlung, Behandlung und Beseitigung von Abfällen, Erziehung und Unterricht, Gesundheitswesen; Private Haushalte umfasst: Private Haushalte als Hersteller; Landwirtschaft umfasst: Landwirtschaft, Forstwirtschaft und Fischerei.",
+		"lesehilfe": "Die Branchengruppe Bau und Herstellung von Waren macht mit über 12,3 Mrd. Franken im Jahr 2015 wie in sämtlichen anderen Beobachtungsjahren den grössten Anteil an der Bruttowertschöpfung des Kantons Basel-Stadt aus.",
+		"erlaeuterungen": "2015 provisorisch. Die Bezeichnung der Branchengruppen sind in den meisten Fällen in der Legende verkürzt dargestellt. Im Detail umfassen sie &nbsp;folgenden Untergruppen: «Landwirtschaft etc.»: Landwirtschaft, Forstwirtschaft und Fischerei; «Bau, Herstellung von Waren»: Bergbau und Gewinnung von Steinen und Erden, Herstellung von Waren, Bau; «Versorgung und Bildung»: Energieversorgung, Wasserversorgung, Sammlung, Behandlung und Beseitigung von Abfällen, Erziehung und Unterricht, Gesundheitswesen; «Fahrzeuge, Transport, IT, Gastronomie»: Handel und Reparatur von Fahrzeugen, Transport, Informationsdienstleistungen und Telekommunikation, Beherbergung und Gastronomie; «Finanzen und Versicherungen»: Erbringung von Finanzdienstleistungen und Versicherungen; «Wirtsch. Dienstl. U. Unterhaltung»: Grundstücks- und Wohnungswesen, sonstige freiberufliche, wissenschaftliche und technische Tätigkeiten, wirtschaftliche Dienstleistungen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen.",
 		"template": "template001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
@@ -6256,24 +6259,25 @@
 	{
 		"title": "Anzahl Neugründungen in Basel-Stadt",
 		"subtitle": "in ausgewählten Branchen",
-		"kuerzel": "I.03.2.05041",
+		"kuerzel": "I.06.2.5041",
 		"kuerzelKunde": "2.3",
 		"description": "Anzahl Neugründungen in Basel-Stadt",
-		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte",
+		"thema": "06 Produktion, Handel",
+		"unterthema": "Neugründungen",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.0000",
+		"aktualisierungsdatum": "2018-08-17T08:58:32.3232",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die meisten neuen Unternehmen wurden in allen drei Jahren im Bereich der Unternehmensdienstleistungen gegründet. Das Total der Neugründungen erreichte 2014 mit 1 352 Neugründungen den Höchstwert.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Im Jahr 2015 wurden in Basel-Stadt 1 146 neue Unternehmen gegründet, 206 weniger als im Jahr 2014. Knapp 30% der neuen Unternehmen wurden 2015 im Bereich der Unternehmensdienstleistungen (freiberufliche, technische und wirtschaftliche Dienstleistungen) gegründet.",
+		"erlaeuterungen": "Unter Neugründungen sind Unternehmen gemeint, die effektiv neugegründet wurden. Die Statistik der Neugründungen basiert auf der Grundgesamtheit der Statistik der Unternehmensstruktur (STATENT).",
 		"template": "template001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_003",
 		"parentId": null,
@@ -7824,8 +7828,8 @@
 	},
 	{
 		"title": "Leerwohnungsquote",
-		"subtitle": "in Prozent",
-		"kuerzel": "I.09.2.05813",
+		"subtitle": "in Prozent, Basel-Stadt",
+		"kuerzel": "I.09.2.5813",
 		"kuerzelKunde": "ST 4-5",
 		"description": "Leerwohnungsquote",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -7834,7 +7838,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-06-26T16:51:11.1111",
+		"aktualisierungsdatum": "2018-08-22T15:39:14.1414",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -7843,12 +7847,11 @@
 		"lesehilfe": "Die Leerwohnungsquote sank seit 2006 kontinuierlich und erreichte 2014 mit 0,2% den tiefsten Wert. Seither steigt sie wieder leicht an.",
 		"erlaeuterungen": "Stichtag ist der 1. Juni. Nur Wohnungen, die für den eigentlichen Wohnungsmarkt in Betracht kommen; also ohne leere Wohnungen, die für den Abbruch oder Umbau bestimmt sind. Die Prozentangaben beziehen sich auf den Leerwohnungsbestand am Gesamtwohnungsbestand.",
 		"template": "line001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_005",
 		"parentId": null,
-		"children": [
-			"6245"
-		],
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -7857,6 +7860,41 @@
 			""
 		],
 		"id": 5813
+	},
+	{
+		"title": "Leerwohnungsquote nach Gemeinde und Wohnviertel",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.09.2.05814",
+		"kuerzelKunde": "ST 4-6",
+		"description": "Leerwohnungsquote nach Gemeinde und Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-08-22T15:36:05.055",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
+		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2018 im Wohnviertel Vorstädte verzeichnet.",
+		"erlaeuterungen": "Stichtag ist der 1. Juni.",
+		"template": "mappie001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_006",
+		"parentId": 6009,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5814
 	},
 	{
 		"title": "Nettowohnungsproduktion",
@@ -8151,42 +8189,6 @@
 			""
 		],
 		"id": 5901
-	},
-	{
-		"title": "Leerwohnungsquote",
-		"subtitle": "nach Wohnviertel",
-		"kuerzel": "I.09.2.06009",
-		"kuerzelKunde": "",
-		"description": "Leerwohnungsquote",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Leerstand",
-		"kennzahlenset": "",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2017-08-14T15:31:35.3535",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2017 in Bettingen verzeichnet.",
-		"erlaeuterungen": "Stichtag ist der 1. Juni.",
-		"template": "mappie001",
-		"visibleInPortal": true,
-		"orderKey": "_000",
-		"parentId": null,
-		"children": [
-			"5814"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 6009
 	},
 	{
 		"title": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
@@ -11172,8 +11174,8 @@
 	},
 	{
 		"title": "Anteil erneuerbare Energie am Bruttoenergieverbrauch",
-		"subtitle": "",
-		"kuerzel": "I.08.3.06161",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.08.3.6161",
 		"kuerzelKunde": "7.2",
 		"description": "Anteil erneuerbare Energie am Bruttoenergieverbrauch",
 		"thema": "08 Energie",
@@ -11182,18 +11184,19 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-08-17T09:27:17.1717",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2010 lag der Anteil der erneuerbaren Energieträger bei 35,0%. Zwei Jahre später fiel der Wert mit 36,2% bereits höher aus. Im Jahr 2014  stammte 37,9% der Energie aus erneuerbaren Quellen.",
+		"lesehilfe": "Im Jahr 2010 lag der Anteil der erneuerbaren Energieträger bei 34,5%. Zwei Jahre später fiel der Wert mit 36,1% bereits höher aus. Im Jahr 2014  stammte 37,8% der Energie aus erneuerbaren Quellen, 2016 waren es bereits 38,8%.",
 		"erlaeuterungen": "Folgende Energieträger werden als erneuerbar berücksichtigt: Wasserkraft, Holz, Umweltwärme, thermische und fotovoltaische Sonnenenergie, Schlamm, erneuerbare Elektrizität (in Basel-Stadt stammen 100% des importierten Strommixes aus erneuerbaren Quellen) und Kehricht (zu 50% als erneuerbar taxiert).<br><br>Die Summe der Verbräuche der erneuerbaren Energien wird durch den Gesamtenergieverbrauch dividiert.",
 		"template": "template001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "07_00_00_00_00_002",
-		"parentId": 3094,
+		"parentId": null,
 		"children": [
 			"5795",
 			"6313"
@@ -12164,8 +12167,8 @@
 	},
 	{
 		"title": "Leerstehende Industrie- und Gewerbeflächen",
-		"subtitle": "in Quadratmetern",
-		"kuerzel": "I.09.2.06217",
+		"subtitle": "in Quadratmetern, Basel-Stadt",
+		"kuerzel": "I.09.2.6217",
 		"kuerzelKunde": "ST 7-4",
 		"description": "Leerstehende Industrie- und Gewerbeflächen",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -12174,19 +12177,21 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-10-27T00:00:00.000",
+		"aktualisierungsdatum": "2018-08-22T15:38:02.022",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Büroflächen machen mit gut 54 000 m<sup>2</sup> über die Hälfte aller leeren Geschäftsflächen aus. Der Leerstand von Industrie- und Gewerbeflächen errreichte 2011 mit total knapp 170 000 m<sup>2</sup> den Höchststand in den letzten 20 Jahren.",
+		"lesehilfe": "Die Büroflächen machen mit rund 58 000 m² über die Hälfte aller leeren Geschäftsflächen aus. Der Leerstand von Industrie- und Gewerbeflächen errreichte 2011 mit total knapp 170 000 m² den Höchststand in den letzten 20 Jahren.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_04_00_00_00_004",
 		"parentId": null,
 		"children": [
+			"6245",
 			"6262"
 		],
 		"renderLink": [],
@@ -12664,6 +12669,908 @@
 			""
 		],
 		"id": 6366
+	},
+	{
+		"title": "Sesshaftigkeit nach Wohnviertel",
+		"subtitle": "Basel-Stadt, 2017",
+		"kuerzel": "I.01.1.06373",
+		"kuerzelKunde": "",
+		"description": "Sesshaftigkeit nach Wohnviertel",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Gefragte Karten",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
+		"stufe1": "kontinuierlich klassifiziert",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Am höchsten ist der Anteil der Personen, die seit 10 oder mehr Jahren an der gleichen Adresse wohnen, in den Wohnvierteln Bruderholz (43%) und Bachletten (42%) sowie in den Gemeinden Riehen und Bettingen (je 43%). Am wenigsten sesshafte Personen gibt es hingegen in den Wohnvierteln Vorstädte (28%), Altstadt Kleinbasel (27%) und Rosental (21%).",
+		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
+		"template": "map002",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_000",
+		"parentId": null,
+		"children": [
+			"6385"
+		],
+		"renderLink": [
+			"6385"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6373
+	},
+	{
+		"title": "Reinvermögen nach Wohnviertel",
+		"subtitle": "Basel-Stadt, 2015",
+		"kuerzel": "I.18.2.06374",
+		"kuerzelKunde": "",
+		"description": "Reinvermögen nach Wohnviertel",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Gefragte Karten",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
+		"stufe1": "kontinuierlich klassifiziert",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der höchste Median des Reinvermögens pro Veranlagung liegt in der Einwohnergemeinde Bettingen vor und beträgt über 78 500 Franken. Klybeck verzeichnet mit 1 500 Franken den kleinsten Wert.",
+		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2015; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
+		"template": "map002",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_000",
+		"parentId": null,
+		"children": [
+			"6386"
+		],
+		"renderLink": [
+			"6386"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Steuerstatistik",
+			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6374
+	},
+	{
+		"title": "Unter 20-Jährige nach Wohnviertel",
+		"subtitle": "Basel-Stadt, 2017",
+		"kuerzel": "I.01.1.06375",
+		"kuerzelKunde": "",
+		"description": "Unter 20-Jährige nach Wohnviertel",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Gefragte Karten",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
+		"stufe1": "kontinuierlich klassifiziert",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Am niedrigsten ist der Anteil der Personen unter 20 Jahren an der Gesamtbevölkerung in den Wohnvierteln Altstadt Grossbasel, Vorstädte, Altstadt Kleinbasel (je 11%) und Clara (12%). Am höchsten ist der Anteil der Kinder und Jugendlichen in den Wohnvierteln Bruderholz (21%), Rosental (20%) und Kleinhüningen (20%) sowie in der Gemeinde Riehen (20%).",
+		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
+		"template": "mappie001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_000",
+		"parentId": null,
+		"children": [
+			"6387"
+		],
+		"renderLink": [
+			"6387"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6375
+	},
+	{
+		"title": "Über 64-Jährige nach Wohnviertel",
+		"subtitle": "Basel-Stadt, 2017",
+		"kuerzel": "I.01.1.06376",
+		"kuerzelKunde": "",
+		"description": "Über 64-Jährige nach Wohnviertel",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Gefragte Karten",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
+		"stufe1": "kontinuierlich klassifiziert",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Am niedrigsten ist der Anteil der 65-Jährigen und Älteren an der Gesamtbevölkerung in den Wohnvierteln Rosental (9%), Matthäus (13%) und Klybeck (14%). Der höchste Anteil 65-Jähriger und Älterer weisen die Wohnviertel Vorstädte (24%), St. Alban (26%) und Hirzbrunnen (24%) sowie die Gemeinden Riehen (26%) und Bettingen (24%) auf. &nbsp;",
+		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
+		"template": "mappie001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_000",
+		"parentId": null,
+		"children": [
+			"6388"
+		],
+		"renderLink": [
+			"6388"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6376
+	},
+	{
+		"title": "Gebäudedichte nach Wohnviertel",
+		"subtitle": "Basel-Stadt, 2017",
+		"kuerzel": "I.09.2.06377",
+		"kuerzelKunde": "",
+		"description": "Gebäudedichte nach Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Gefragte Karten",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
+		"stufe1": "kontinuierlich klassifiziert",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die grösste Gebäudedichte verzeichnet das Wohnviertel Gotthelf mit rund 20 bewohnbaren Gebäuden pro Hektare. Am geringsten fällt sie im Wohnviertel Kleinhüningen mit gut einem Gebäude pro Hektar aus. Ein hoher Anteil von Reiheneinfamilienhäusern im Gotthelfquartier, wie ein hoher Anteil grosser Mehrfamilienhäuser und ein hoher Anteil von Industrie- und Gewerbebauten im Wohnviertel Kleinhüningen sind die Hauptgründe.",
+		"erlaeuterungen": "",
+		"template": "mappie001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_000",
+		"parentId": null,
+		"children": [
+			"6389"
+		],
+		"renderLink": [
+			"6389"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
+			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6377
+	},
+	{
+		"title": "Wohnungsdichte nach Wohnviertel",
+		"subtitle": "Basel-Stadt, 2017",
+		"kuerzel": "I.09.2.06378",
+		"kuerzelKunde": "",
+		"description": "Wohnungsdichte nach Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Gefragte Karten",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
+		"stufe1": "kontinuierlich klassifiziert",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Das Wohnviertel Matthäus weist mit knapp 150 Wohnungen pro Hektare die höchste Wohnungsdichte auf. In der Landgemeinde Bettingen ist sie mit gut 2 Wohnungen pro Hektare am geringsten.",
+		"erlaeuterungen": "",
+		"template": "mappie001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_000",
+		"parentId": null,
+		"children": [
+			"6390"
+		],
+		"renderLink": [
+			"6390"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
+			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6378
+	},
+	{
+		"title": "Leerwohnungen nach Wohnviertel",
+		"subtitle": "Basel-Stadt, 2018",
+		"kuerzel": "I.09.2.06379",
+		"kuerzelKunde": "",
+		"description": "Leerwohnungen nach Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Gefragte Karten",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
+		"stufe1": "kontinuierlich klassifiziert",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2018 im Wohnviertel Vorstädte sowie in der Gemeinde Bettingen verzeichnet.",
+		"erlaeuterungen": "Stichtag ist der 1. Juni.",
+		"template": "mappie001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_000",
+		"parentId": null,
+		"children": [
+			"6391"
+		],
+		"renderLink": [
+			"6391"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung",
+			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6379
+	},
+	{
+		"title": "Sozialhilfe nach Wohnviertel",
+		"subtitle": "Basel-Stadt, 2017",
+		"kuerzel": "I.13.3.06380",
+		"kuerzelKunde": "",
+		"description": "Sozialhilfe nach Wohnviertel",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialhilfe und Notwohnen",
+		"kennzahlenset": "Gefragte Karten",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
+		"stufe1": "kontinuierlich klassifiziert",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die tiefste Sozialhilfequote im Kanton Basel-Stadt weist Bettingen mit 1,6% auf. Die Altstadt Grossbasel weist mit 1,7% die tiefste Quote in der Stadt Basel auf. Auf dem Bruderholz liegt sie bei 1,8%, Klybeck und Kleinhüningen sind mit 13,9% respektive 13,3% die Wohnviertel mit der höchsten Sozialhilfequote.",
+		"erlaeuterungen": "Die Sozialhilfequote wird als Anteil der Anzahl Sozialhilfebezüger an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Als Sozialhilfebezüger sind alle Personen erfasst, die im Verlaufe des jeweiligen Jahres mindestens einmal eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Seit Anfang 2013 sind rückwirkend alle Dossiertypen ausser Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE/NE) berücksichtigt. Asylsuchende erhalten Nothilfe und nicht Sozialhilfe.",
+		"template": "mappie001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_000",
+		"parentId": null,
+		"children": [
+			"6392"
+		],
+		"renderLink": [
+			"6392"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik",
+			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6380
+	},
+	{
+		"title": "Ausländische Bevölkerung nach Wohnviertel",
+		"subtitle": "Basel-Stadt, 2017",
+		"kuerzel": "I.01.1.06381",
+		"kuerzelKunde": "",
+		"description": "Ausländische Bevölkerung nach Wohnviertel",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Gefragte Karten",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
+		"stufe1": "kontinuierlich klassifiziert",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Ende 2017 war der Ausländeranteil in den Wohnvierteln Rosental (56%), Matthäus (50%) und Klybeck (52%) am höchsten. Den niedrigsten Ausländeranteil wiesen die Wohnviertel Bruderholz (24%) und Bachletten (21%) sowie die Gemeinde Bettingen auf (24%). In den Wohnvierteln Klybeck und Kleinhüningen bildeteten die Italiener die grösste ausländische Bevölkerungsgruppe, in den übrigen Gemeinden und Wohnvierteln sind es die Deutschen.",
+		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
+		"template": "mappie002",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_000",
+		"parentId": null,
+		"children": [
+			"6778"
+		],
+		"renderLink": [
+			"6778"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6381
+	},
+	{
+		"title": "Reineinkommen nach Wohnviertel",
+		"subtitle": "Basel-Stadt, 2015",
+		"kuerzel": "I.18.2.06382",
+		"kuerzelKunde": "",
+		"description": "Reineinkommen nach Wohnviertel",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Gefragte Karten",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
+		"stufe1": "kontinuierlich klassifiziert",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der höchste Median des Reineinkommens 2015 liegt in der Einwohnergemeinde Bettingen vor und beträgt über 68 500 Franken. Mit 37 400 Franken verzeichnet das Wohnviertel Klybeck den kleinsten Wert.",
+		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2015; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
+		"template": "map002",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_000",
+		"parentId": null,
+		"children": [
+			"6394"
+		],
+		"renderLink": [
+			"6394"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Steuerstatistik",
+			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6382
+	},
+	{
+		"title": "Arbeitsstätten nach Wohnviertel",
+		"subtitle": "Basel-Stadt, 2016",
+		"kuerzel": "I.03.2.06383",
+		"kuerzelKunde": "",
+		"description": "Arbeitsstätten nach Wohnviertel",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Beschäftigte",
+		"kennzahlenset": "Gefragte Karten",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
+		"stufe1": "kontinuierlich klassifiziert",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Das Wohnviertel Altstadt Grossbasel weist mit rund 61 Arbeitsstätten pro 100 Einwohner den höchsten Wert auf, während der Wert im Wohnviertel Hirzbrunnen mit rund 3 Arbeitsstätten pro 100 Einwohner am tiefsten ausfällt.",
+		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z.B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2300 Franken Jahreslohn).",
+		"template": "mappie001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_000",
+		"parentId": null,
+		"children": [
+			"6395"
+		],
+		"renderLink": [
+			"6395"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt",
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
+			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6383
+	},
+	{
+		"title": "Beschäftigte nach Wohnviertel",
+		"subtitle": "Basel-Stadt, 2016",
+		"kuerzel": "I.03.2.06384",
+		"kuerzelKunde": "",
+		"description": "Beschäftigte nach Wohnviertel",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Beschäftigte",
+		"kennzahlenset": "Gefragte Karten",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
+		"stufe1": "kontinuierlich klassifiziert",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Das Wohnviertel Vorstädte weist mit rund 560 Beschäftigten pro 100 Einwohner den höchsten Wert auf, während der Wert im Wohnviertel Breite mit rund 18 Beschäftigten pro 100 Einwohner am tiefsten ausfällt.",
+		"erlaeuterungen": "Beschäftigte werden berücksichtigt, sofern sie aufgrund eines Mindesteinkommens von 2300 Franken im Jahr AHV-Beiträge zahlen müssen. Im Wohnviertel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
+		"template": "mappie001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_000",
+		"parentId": null,
+		"children": [
+			"6396"
+		],
+		"renderLink": [
+			"6396"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt",
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
+			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6384
+	},
+	{
+		"title": "Sesshaftigkeit nach Wohnviertel",
+		"subtitle": "Basel-Stadt, 2017",
+		"kuerzel": "I.01.1.06385",
+		"kuerzelKunde": "",
+		"description": "Sesshaftigkeit nach Wohnviertel",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Gefragte Karten",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-08-30T10:31:45.4545",
+		"stufe1": "kategoriell klassifiziert",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Am höchsten ist der Anteil der Personen, die seit 10 oder mehr Jahren an der gleichen Adresse wohnen, in den Wohnvierteln Bruderholz (43%) und Bachletten (42%) sowie in den Gemeinden Riehen und Bettingen (je 43%). Am wenigsten sesshafte Personen gibt es hingegen in den Wohnvierteln Vorstädte (28%), Altstadt Kleinbasel (27%) und Rosental (21%).",
+		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
+		"template": "map002",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": 6373,
+		"children": [],
+		"renderLink": [
+			"6373"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6385
+	},
+	{
+		"title": "Reinvermögen nach Wohnviertel",
+		"subtitle": "Basel-Stadt, 2015",
+		"kuerzel": "I.18.2.06386",
+		"kuerzelKunde": "",
+		"description": "Reinvermögen nach Wohnviertel",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Gefragte Karten",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-08-30T10:31:44.4444",
+		"stufe1": "kategoriell klassifiziert",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der höchste Median des Reinvermögens pro Veranlagung liegt in der Einwohnergemeinde Bettingen vor und beträgt über 78 500 Franken. Klybeck verzeichnet mit 1 500 Franken den kleinsten Wert.",
+		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2015; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
+		"template": "map002",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": 6374,
+		"children": [],
+		"renderLink": [
+			"6374"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Steuerstatistik",
+			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6386
+	},
+	{
+		"title": "Unter 20-Jährige nach Wohnviertel",
+		"subtitle": "Basel-Stadt, 2017",
+		"kuerzel": "I.01.1.06387",
+		"kuerzelKunde": "",
+		"description": "Unter 20-Jährige nach Wohnviertel",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Gefragte Karten",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-08-30T10:31:44.4444",
+		"stufe1": "kategoriell klassifiziert",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Am niedrigsten ist der Anteil der Personen unter 20 Jahren an der Gesamtbevölkerung in den Wohnvierteln Altstadt Grossbasel, Vorstädte, Altstadt Kleinbasel (je 11%) und Clara (12%). Am höchsten ist der Anteil der Kinder und Jugendlichen in den Wohnvierteln Bruderholz (21%), Rosental (20%) und Kleinhüningen (20%) sowie in der Gemeinde Riehen (20%).",
+		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
+		"template": "mappie001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": 6375,
+		"children": [],
+		"renderLink": [
+			"6375"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6387
+	},
+	{
+		"title": "Über 64-Jährige nach Wohnviertel",
+		"subtitle": "Basel-Stadt, 2017",
+		"kuerzel": "I.01.1.06388",
+		"kuerzelKunde": "",
+		"description": "Über 64-Jährige nach Wohnviertel",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Gefragte Karten",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-08-30T10:31:44.4444",
+		"stufe1": "kategoriell klassifiziert",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Am niedrigsten ist der Anteil der 65-Jährigen und Älteren an der Gesamtbevölkerung in den Wohnvierteln Rosental (9%), Matthäus (13%) und Klybeck (14%). Der höchste Anteil 65-Jähriger und Älterer weisen die Wohnviertel Vorstädte (24%), St. Alban (26%) und Hirzbrunnen (24%) sowie die Gemeinden Riehen (26%) und Bettingen (24%) auf. &nbsp;",
+		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
+		"template": "mappie001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": 6376,
+		"children": [],
+		"renderLink": [
+			"6376"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6388
+	},
+	{
+		"title": "Gebäudedichte nach Wohnviertel",
+		"subtitle": "Basel-Stadt, 2017",
+		"kuerzel": "I.09.2.06389",
+		"kuerzelKunde": "",
+		"description": "Gebäudedichte nach Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Gefragte Karten",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-08-30T10:31:44.4444",
+		"stufe1": "kategoriell klassifiziert",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die grösste Gebäudedichte verzeichnet das Wohnviertel Gotthelf mit rund 20 bewohnbaren Gebäuden pro Hektare. Am geringsten fällt sie im Wohnviertel Kleinhüningen mit gut einem Gebäude pro Hektar aus. Ein hoher Anteil von Reiheneinfamilienhäusern im Gotthelfquartier, wie ein hoher Anteil grosser Mehrfamilienhäuser und ein hoher Anteil von Industrie- und Gewerbebauten im Wohnviertel Kleinhüningen sind die Hauptgründe.",
+		"erlaeuterungen": "",
+		"template": "mappie001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": 6377,
+		"children": [],
+		"renderLink": [
+			"6377"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
+			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6389
+	},
+	{
+		"title": "Wohnungsdichte nach Wohnviertel",
+		"subtitle": "Basel-Stadt, 2017",
+		"kuerzel": "I.09.2.06390",
+		"kuerzelKunde": "",
+		"description": "Wohnungsdichte nach Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Gefragte Karten",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-08-30T10:31:44.4444",
+		"stufe1": "kategoriell klassifiziert",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Das Wohnviertel Matthäus weist mit knapp 150 Wohnungen pro Hektare die höchste Wohnungsdichte auf. In der Landgemeinde Bettingen ist sie mit gut 2 Wohnungen pro Hektare am geringsten.",
+		"erlaeuterungen": "",
+		"template": "mappie001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": 6378,
+		"children": [],
+		"renderLink": [
+			"6378"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
+			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6390
+	},
+	{
+		"title": "Leerwohnungen nach Wohnviertel",
+		"subtitle": "Basel-Stadt, 2018",
+		"kuerzel": "I.09.2.06391",
+		"kuerzelKunde": "",
+		"description": "Leerwohnungen nach Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kennzahlenset": "Gefragte Karten",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-08-30T10:31:44.4444",
+		"stufe1": "kategoriell klassifiziert",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2018 im Wohnviertel Vorstädte sowie in der Gemeinde Bettingen verzeichnet.",
+		"erlaeuterungen": "Stichtag ist der 1. Juni.",
+		"template": "mappie001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": 6379,
+		"children": [],
+		"renderLink": [
+			"6379"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung",
+			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6391
+	},
+	{
+		"title": "Sozialhilfe nach Wohnviertel",
+		"subtitle": "Basel-Stadt, 2017",
+		"kuerzel": "I.13.3.06392",
+		"kuerzelKunde": "",
+		"description": "Sozialhilfe nach Wohnviertel",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialhilfe und Notwohnen",
+		"kennzahlenset": "Gefragte Karten",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-08-30T10:31:44.4444",
+		"stufe1": "kategoriell klassifiziert",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die tiefste Sozialhilfequote im Kanton Basel-Stadt weist Bettingen mit 1,6% auf. Die Altstadt Grossbasel weist mit 1,7% die tiefste Quote in der Stadt Basel auf. Auf dem Bruderholz liegt sie bei 1,8%, Klybeck und Kleinhüningen sind mit 13,9% respektive 13,3% die Wohnviertel mit der höchsten Sozialhilfequote.",
+		"erlaeuterungen": "Die Sozialhilfequote wird als Anteil der Anzahl Sozialhilfebezüger an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Als Sozialhilfebezüger sind alle Personen erfasst, die im Verlaufe des jeweiligen Jahres mindestens einmal eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Seit Anfang 2013 sind rückwirkend alle Dossiertypen ausser Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE/NE) berücksichtigt. Asylsuchende erhalten Nothilfe und nicht Sozialhilfe.",
+		"template": "mappie001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": 6380,
+		"children": [],
+		"renderLink": [
+			"6380"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik",
+			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6392
+	},
+	{
+		"title": "Reineinkommen nach Wohnviertel",
+		"subtitle": "Basel-Stadt, 2015",
+		"kuerzel": "I.18.2.06394",
+		"kuerzelKunde": "",
+		"description": "Reineinkommen nach Wohnviertel",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Gefragte Karten",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-08-30T10:31:44.4444",
+		"stufe1": "kategoriell klassifiziert",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der höchste Median des Reineinkommens 2015 liegt in der Einwohnergemeinde Bettingen vor und beträgt über 68 500 Franken. Mit 37 400 Franken verzeichnet das Wohnviertel Klybeck den kleinsten Wert.",
+		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2015; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
+		"template": "map002",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": 6382,
+		"children": [],
+		"renderLink": [
+			"6382"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Steuerstatistik",
+			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6394
+	},
+	{
+		"title": "Arbeitsstätten nach Wohnviertel",
+		"subtitle": "Basel-Stadt, 2016",
+		"kuerzel": "I.03.2.06395",
+		"kuerzelKunde": "",
+		"description": "Arbeitsstätten nach Wohnviertel",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Beschäftigte",
+		"kennzahlenset": "Gefragte Karten",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-08-30T10:31:44.4444",
+		"stufe1": "kategoriell klassifiziert",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Das Wohnviertel Altstadt Grossbasel weist mit rund 61 Arbeitsstätten pro 100 Einwohner den höchsten Wert auf, während der Wert im Wohnviertel Hirzbrunnen mit rund 3 Arbeitsstätten pro 100 Einwohner am tiefsten ausfällt.",
+		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z.B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2300 Franken Jahreslohn).",
+		"template": "mappie001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": 6383,
+		"children": [],
+		"renderLink": [
+			"6383"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt",
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
+			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6395
+	},
+	{
+		"title": "Beschäftigte nach Wohnviertel",
+		"subtitle": "Basel-Stadt, 2016",
+		"kuerzel": "I.03.2.06396",
+		"kuerzelKunde": "",
+		"description": "Beschäftigte nach Wohnviertel",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Beschäftigte",
+		"kennzahlenset": "Gefragte Karten",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-08-30T10:31:44.4444",
+		"stufe1": "kategoriell klassifiziert",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Das Wohnviertel Vorstädte weist mit rund 560 Beschäftigten pro 100 Einwohner den höchsten Wert auf, während der Wert im Wohnviertel Breite mit rund 18 Beschäftigten pro 100 Einwohner am tiefsten ausfällt.",
+		"erlaeuterungen": "Beschäftigte werden berücksichtigt, sofern sie aufgrund eines Mindesteinkommens von 2300 Franken im Jahr AHV-Beiträge zahlen müssen. Im Wohnviertel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
+		"template": "mappie001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": 6384,
+		"children": [],
+		"renderLink": [
+			"6384"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt",
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
+			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6396
 	},
 	{
 		"title": "Ausländeranteil nach Gemeinde und Wohnviertel",
@@ -16995,9 +17902,9 @@
 		],
 		"delimiter": "",
 		"properties": [
-			"http://ld.data-bs.ch/property/jahr",
-			"http://ld.data-bs.ch/property/raum",
-			"http://ld.data-bs.ch/property/bevolkerung"
+			"https://ld.data-bs.ch/property/jahr",
+			"https://ld.data-bs.ch/property/raum",
+			"https://ld.data-bs.ch/property/bevolkerung"
 		],
 		"id": 6623
 	},
@@ -17735,5 +18642,43 @@
 			""
 		],
 		"id": 6759
+	},
+	{
+		"title": "Ausländische Bevölkerung nach Wohnviertel",
+		"subtitle": "Basel-Stadt, 2017",
+		"kuerzel": "I.01.1.06778",
+		"kuerzelKunde": "",
+		"description": "Ausländische Bevölkerung nach Wohnviertel",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Gefragte Karten",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2018-08-30T10:31:44.4444",
+		"stufe1": "kategoriell klassifiziert",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Ende 2017 war der Ausländeranteil in den Wohnvierteln Rosental (56%), Matthäus (50%) und Klybeck (52%) am höchsten. Den niedrigsten Ausländeranteil wiesen die Wohnviertel Bruderholz (24%) und Bachletten (21%) sowie die Gemeinde Bettingen auf (24%). In den Wohnvierteln Klybeck und Kleinhüningen bildeteten die Italiener die grösste ausländische Bevölkerungsgruppe, in den übrigen Gemeinden und Wohnvierteln sind es die Deutschen.",
+		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
+		"template": "mappie002",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": 6381,
+		"children": [],
+		"renderLink": [
+			"6381"
+		],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6778
 	}
 ]
