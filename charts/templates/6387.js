@@ -48,7 +48,7 @@
             },{
                 from: 19.5,
                 color: '#3A2012',
-                name:  "<span style='color: rgba(0,0,0,0)'>20,00</span> ≥ 19.50"
+                name:  "<span style='color: rgba(0,0,0,0)'>20,00</span> ≥ 19,50"
             }], 
         },
         "data": {
