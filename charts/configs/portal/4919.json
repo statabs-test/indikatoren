@@ -145,8 +145,8 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 415,
-    "spacingBottom": 45,
+    "height": 428,
+    "spacingBottom": 55,
     "style": {
       "fontFamily": "Arial"
     },
@@ -202,8 +202,7 @@
         "textOverflow": "none"
       }
     },
-    "tickLength": 0,
-    "tickInterval": 5
+    "tickLength": 0
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -217,16 +216,19 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt."
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-3"
   },
   "legend": {
     "enabled": false,
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",
-    "symbolRadius": 0
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString){
