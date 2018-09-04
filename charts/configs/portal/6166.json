@@ -202,14 +202,17 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt"
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt."
   },
   "legend": {
     "enabled": false,
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",
-    "symbolRadius": 0
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString){

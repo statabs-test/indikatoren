@@ -71,8 +71,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zu- und Wegpendler nach Herkunft und Ziel",
-		"subtitle": "",
-		"kuerzel": "I.11.5.05203",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.11.5.5203",
 		"kuerzelKunde": "ST 4-12",
 		"description": "Zu- und Wegpendler nach Herkunft und Ziel",
 		"thema": "11 Verkehr",
@@ -81,15 +81,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-06-12T14:43:40.4040",
+		"aktualisierungsdatum": "2018-09-03T17:28:17.1717",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2015 pendeln gut 100 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen, rund zwei Drittel von ihnen aus der Schweiz. Etwas mehr als 24 000 Wegpendler stehen dem gegenüber. Dies ergibt einen Zupendlerüberschuss von rund 76 000 Personen - der höchste in der beobachteten Zeitspanne.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Im Jahr 2016 pendeln gut 102 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen, rund zwei Drittel von ihnen aus der Schweiz. Etwas weniger als 25 000 Wegpendler stehen dem gegenüber. Dies ergibt einen Zupendlerüberschuss von rund 77 000 Personen - der höchste in der beobachteten Zeitspanne.",
+		"erlaeuterungen": "Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Die Zahl der Zupendler aus dem Ausland basiert bis 2000 auf den gültigen Grenzgängerbewilligungen Ende November (2000: Ende Dezember) gemäss Bundesamt für Migration und seit 2010 auf der Grenzgängerstatistik des Bundesamtes für Statistik (4. Quartal).",
 		"template": "template001",
+		"printformat": "",
 		"orderKey": "01_01_00_00_00_012",
 		"parentId": null,
 		"children": [
@@ -97,7 +98,8 @@ var indikatorensetData = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
+			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
 		],
 		"externalLinks": [
 			""
@@ -106,8 +108,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Leerwohnungsquote",
-		"subtitle": "in Prozent",
-		"kuerzel": "I.09.2.05813",
+		"subtitle": "in Prozent, Basel-Stadt",
+		"kuerzel": "I.09.2.5813",
 		"kuerzelKunde": "ST 4-5",
 		"description": "Leerwohnungsquote",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -116,7 +118,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-06-26T16:51:11.1111",
+		"aktualisierungsdatum": "2018-08-22T15:39:14.1414",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -125,11 +127,10 @@ var indikatorensetData = [
 		"lesehilfe": "Die Leerwohnungsquote sank seit 2006 kontinuierlich und erreichte 2014 mit 0,2% den tiefsten Wert. Seither steigt sie wieder leicht an.",
 		"erlaeuterungen": "Stichtag ist der 1. Juni. Nur Wohnungen, die für den eigentlichen Wohnungsmarkt in Betracht kommen; also ohne leere Wohnungen, die für den Abbruch oder Umbau bestimmt sind. Die Prozentangaben beziehen sich auf den Leerwohnungsbestand am Gesamtwohnungsbestand.",
 		"template": "line001",
+		"printformat": "",
 		"orderKey": "01_01_00_00_00_005",
 		"parentId": null,
-		"children": [
-			"6245"
-		],
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -140,31 +141,30 @@ var indikatorensetData = [
 		"id": 5813
 	},
 	{
-		"title": "Leerwohnungsquote",
-		"subtitle": "nach Wohnviertel in Prozent",
+		"title": "Leerwohnungsquote nach Gemeinde und Wohnviertel",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.09.2.05814",
 		"kuerzelKunde": "ST 4-6",
-		"description": "Leerwohnungsquote",
+		"description": "Leerwohnungsquote nach Gemeinde und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2017-07-04T09:44:27.2727",
+		"aktualisierungsdatum": "2018-08-22T15:36:05.055",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die höchsten Leerwohnungsquote wurden 2016 im Hirzbrunnen, im St. Alban sowie in der Gemeinde Bettingen verzeichnet. Die überwiegende Mehrheit der Wohnviertel erfuhr einen Rückgang der Leerwohnungsquote seit 1998.",
+		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2018 im Wohnviertel Vorstädte verzeichnet.",
 		"erlaeuterungen": "Stichtag ist der 1. Juni.",
 		"template": "mappie001",
+		"printformat": "",
 		"orderKey": "01_01_00_00_00_006",
 		"parentId": 6009,
-		"children": [
-			"6246"
-		],
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -351,7 +351,7 @@ var indikatorensetData = [
 	{
 		"title": "Bewertung der Lebensqualität",
 		"subtitle": "«Wie zufrieden sind Sie mit Parks und Grünanlagen am Wohnort?»",
-		"kuerzel": "I.50.1.05821",
+		"kuerzel": "I.50.1.5821",
 		"kuerzelKunde": "ST 5-2",
 		"description": "Bewertung der Lebensqualität",
 		"thema": "50 Befragungen",
@@ -361,15 +361,16 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2017-10-27T00:00:00.000",
-		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
-		"stufe2": "",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
+		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. 2015 vergeben die Bewohnerinnen und Bewohner im Durchschnitt der Lebensqualität im Stadtkanton eine 7,8. 2003 betrug die Durchschnittsnote 7,4.",
-		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt. Da im Datensatz nicht für alle statistischen Wohnviertel genügend Beobachtungen vorliegen, wurden einzelne Wohnviertel zu grösseren Gebietseinheiten zusammengefasst. Es sind dies: Innenstadt = Altstadt Grossbasel, Vorstädte, Altstadt Kleinbasel; Am Ring West = Am Ring, Bachletten, Gotthelf, Iselin; Unteres Kleinbasel = Clara, Rosental, Matthäus, Klybeck, Kleinhüningen; Oberes Kleinbasel = Wettstein, Hirzbrunnen.",
+		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. 2015 geben die Bewohnerinnen und Bewohner im Durchschnitt der Lebensqualität im Stadtkanton eine 7,8. 2003 betrug die Durchschnittsnote 7,4.",
+		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, welche die Frage mit &quot;Weiss nicht&quot; oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "befragungen001",
-		"orderKey": "05_00_00_00_00_002",
+		"printformat": "",
+		"orderKey": "01_02_00_00_00_002",
 		"parentId": null,
 		"children": [
 			"5165",
@@ -493,7 +494,7 @@ var indikatorensetData = [
 	{
 		"title": "Kontinentale Erreichbarkeit",
 		"subtitle": "Stadt Basel im nationalen Vergleich",
-		"kuerzel": "I.11.6.05891",
+		"kuerzel": "I.11.6.5891",
 		"kuerzelKunde": "ST 8-1",
 		"description": "Kontinentale Erreichbarkeit",
 		"thema": "11 Verkehr",
@@ -502,15 +503,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-08-17T16:31:38.3838",
+		"aktualisierungsdatum": "2018-09-03T17:38:43.4343",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 8: Qualität für Wirtschaft und Bildung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die kontinentale Erreichbarkeit der Stadt Basel hat sich zwischen 1996 und 2014 verbessert. Die Entwicklung bei den anderen Schweizer Städten verläuft im gleichen Zeitraum ähnlich. Die Stadt Zürich bewegt sich auf einem leicht höheren Niveau als Basel und Genf, die Erreichbarkeit der Stadt Bern liegt etwas darunter.",
+		"lesehilfe": "Die kontinentale Erreichbarkeit der Stadt Basel und der anderen Schweizer Städte hat sich zwischen 1996 und 2016 verbessert, wobei sie in den letzten Jahren eher unverändert blieb. Die Stadt Zürich bewegt sich auf einem leicht höheren Niveau als Basel und Genf, die Erreichbarkeit der Stadt Bern liegt etwas darunter.",
 		"erlaeuterungen": "Kontinentale Erreichbarkeit = Erreichbarkeit aller Regionen Europas. Bei der Kennzahl handelt es sich um einen indexierten Wert: 100 = Mittel aller einbezogenen Ursprungsregionen im Jahr 2002. Erreichbarkeit ist kein klares, lineares Konzept. Vielmehr beruht es auf einer Vielzahl von Faktoren, die unter dem Themenbereich Erreichbarkeit subsumiert werden können. Die Erreichbarkeitsmodelle von BAK Economics basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren. Zudem folgen sie dem Konzept der Erreichbarkeit «aus der Region» (outbound accessibility), d.h. es wird die Reisezeit und Frequenz herangezogen, die benötigt wird, um aus der Region andere Regionen zu erreichen. Der resultierende Indikator reflektiert das gesamte Potenzial aller Regionen ohne jegliche Limitierung der Reisezeit. Jedoch werden die Reisedestinationen über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet.",
 		"template": "line001",
+		"printformat": "",
 		"orderKey": "02_05_00_00_00_001",
 		"parentId": null,
 		"children": [
@@ -635,8 +637,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
-		"subtitle": "Stand: 2017",
-		"kuerzel": "I.01.9.06215",
+		"subtitle": "Basel-Stadt, 2018",
+		"kuerzel": "I.01.9.6215",
 		"kuerzelKunde": "ST 4-4",
 		"description": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
 		"thema": "01 Bevölkerung",
@@ -645,15 +647,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-10-27T00:00:00.000",
+		"aktualisierungsdatum": "2018-08-15T12:00:00.0000",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2016 umfasste die baselstädtische Wohnbevölkerung rund 198 200 Personen. Das Mittlere Szenario der aktuellen Bevölkerungsszenarien des Kantons Basel-Stadt geht davon aus, dass sich die Zahl der in Basel-Stadt wohnhaften Personen bis 2035 auf etwa 212 600 erhöht.",
-		"erlaeuterungen": "Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href=\"http://www.statistik.bs.ch/zahlen/analysen/bevoelkerungsszenarien.html\" target=\"_blank\">Internetseite des Statistischen Amtes</a>.",
+		"lesehilfe": "Bis zum Jahr 2040 erhöht sich die kantonale Wohnbevölkerung im Mittleren Szenario von rund 199 000 am Ende des Jahres 2017 um 10% auf rund 219 000 Einwohner, was etwa dem Bevölkerungsbestand Mitte der 1970er-Jahre entspricht.",
+		"erlaeuterungen": "Prognosen sind zwangsläufig mit Unsicherheit behaftet. Daher wurden drei Prognoseszenarien erarbeitet, die einen plausiblen Bereich der möglichen zukünftigen Bevölkerungsentwicklung abdecken können. Die Berechnung der vorliegenden Bevölkerungsszenarien erfolgt für den Prognosezeitraum 2018 bis 2040. Das Rechenmodell basiert auf folgender demografischer Grundgleichung: Die Bevölkerung am Ende jedes Jahres entspricht dem Anfangsbestand, zuzüglich der Geburten und Zuwanderungen, abzüglich der Sterbefälle und Abwanderungen. Die Hypothesen, welche für diese vier demografischen Komponenten angenommen werden, bestimmen rechnerisch das Prognoseergebnis, und zwar unter der zentralen Nebenbedingung des vorhandenen Wohnraumes: In einem Stadtkanton wie Basel-Stadt ohne grössere Landreserven bestimmen der vorhandene Wohnraum bzw. die geplanten Wohnraumentwicklungen, insbesondere der grossen Areale, die mögliche Bevölkerungszahl.",
 		"template": "template001",
+		"printformat": "",
 		"orderKey": "01_01_00_00_00_004",
 		"parentId": null,
 		"children": [
@@ -664,7 +667,7 @@ var indikatorensetData = [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
 		"externalLinks": [
-			""
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'http://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>."
 		],
 		"id": 6215
 	},
@@ -705,8 +708,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Leerstehende Industrie- und Gewerbeflächen",
-		"subtitle": "in Quadratmetern",
-		"kuerzel": "I.09.2.06217",
+		"subtitle": "in Quadratmetern, Basel-Stadt",
+		"kuerzel": "I.09.2.6217",
 		"kuerzelKunde": "ST 7-4",
 		"description": "Leerstehende Industrie- und Gewerbeflächen",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -715,18 +718,20 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-10-27T00:00:00.000",
+		"aktualisierungsdatum": "2018-08-22T15:38:02.022",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Büroflächen machen mit gut 54 000 m<sup>2</sup> über die Hälfte aller leeren Geschäftsflächen aus. Der Leerstand von Industrie- und Gewerbeflächen errreichte 2011 mit total knapp 170 000 m<sup>2</sup> den Höchststand in den letzten 20 Jahren.",
+		"lesehilfe": "Die Büroflächen machen mit rund 58 000 m² über die Hälfte aller leeren Geschäftsflächen aus. Der Leerstand von Industrie- und Gewerbeflächen errreichte 2011 mit total knapp 170 000 m² den Höchststand in den letzten 20 Jahren.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"printformat": "",
 		"orderKey": "02_04_00_00_00_004",
 		"parentId": null,
 		"children": [
+			"6245",
 			"6262"
 		],
 		"renderLink": [],

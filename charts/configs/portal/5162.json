@@ -2,9 +2,6 @@
   "series": [
     {
       "color": "#B00000",
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2006,
@@ -55,10 +52,6 @@
     },
     {
       "color": "#4f81bd",
-      "visible": true,
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2006,
@@ -204,7 +197,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-3"
+    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-3"
   },
   "legend": {
     "enabled": true,
@@ -212,10 +205,10 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "itemMarginBottom": 5
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString){

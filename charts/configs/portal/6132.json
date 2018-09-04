@@ -212,7 +212,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt"
+    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt."
   },
   "legend": {
     "enabled": true,
@@ -220,11 +220,11 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemWidth": 300,
-    "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "itemWidth": 300,
+    "itemMarginBottom": 5
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString){
