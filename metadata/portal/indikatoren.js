@@ -10763,7 +10763,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Einbürgerungsziffer der ausländischen Bevölkerung sowie Ausländeranteil",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.01.6.6149",
 		"kuerzelKunde": "4.8",
 		"description": "Einbürgerungsziffer der ausländischen Bevölkerung sowie Ausländeranteil",
