@@ -391,8 +391,8 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 415,
-    "spacingBottom": 55,
+    "height": 428,
+    "spacingBottom": 65,
     "style": {
       "fontFamily": "Arial"
     },
@@ -464,9 +464,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Jeweilige Institutionen;\u003Cbr\u002F\u003EProCinema."
+    "text": "Quelle: Jeweilige Institutionen;\u003Cbr\u002F\u003EProCinema.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
   },
   "legend": {
     "enabled": true,
