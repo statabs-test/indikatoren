@@ -397,7 +397,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-06-26T14:00:15.1515",
+		"aktualisierungsdatum": "2018-09-06T13:11:21.2121",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 6: Erschliessungsqualität",
 		"stufe3": "",
