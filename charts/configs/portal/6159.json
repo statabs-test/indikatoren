@@ -5,15 +5,15 @@
       "data": [
         [
           "2000",
-          13.375231521790752
+          13.3752315217908
         ],
         [
           "2003",
-          14.912066697780984
+          14.912066697781
         ],
         [
           "2008",
-          14.47376771736831
+          14.4737677173683
         ]
       ],
       "name": "Über Grenzwert am Tag",
@@ -24,15 +24,15 @@
       "data": [
         [
           "2000",
-          17.040003799331952
+          17.040003799332
         ],
         [
           "2003",
-          19.401014043871186
+          19.4010140438712
         ],
         [
           "2008",
-          16.23545589168606
+          16.2354558916861
         ]
       ],
       "name": "Über Grenzwert in der Nacht",
@@ -43,18 +43,18 @@
       "data": [
         [
           "2000",
-          25.957352498852284
+          25.9573524988523
         ],
         [
           "2003",
-          25.63112563112563
+          25.6311256311256
         ],
         [
           "2008",
-          24.56579225724561
+          24.5657922572456
         ]
       ],
-      "name": "Über 50 dB(A) in der Nacht",
+      "name": "Über 50 dB (A) in der Nacht",
       "turboThreshold": 0
     }
   ],
@@ -79,7 +79,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -109,7 +109,7 @@
     "type": "column",
     "inverted": false,
     "renderTo": "container-6159",
-    "spacingBottom": 30
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -176,9 +176,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster."
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
   },
   "legend": {
     "symbolRadius": 0,

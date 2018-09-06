@@ -6,19 +6,19 @@
       "data": [
         [
           2007,
-          3.8
+          3
         ],
         [
           2008,
-          3.4
+          2.8
         ],
         [
           2009,
-          3.9
+          2
         ],
         [
           2010,
-          4.3
+          3.5
         ],
         [
           2011,
@@ -43,6 +43,10 @@
         [
           2016,
           3.9
+        ],
+        [
+          2017,
+          4.9
         ]
       ],
       "name": "Mädchen"
@@ -53,19 +57,19 @@
       "data": [
         [
           2007,
-          3
+          3.8
         ],
         [
           2008,
-          2.8
+          3.4
         ],
         [
           2009,
-          2
+          3.9
         ],
         [
           2010,
-          3.5
+          4.3
         ],
         [
           2011,
@@ -90,6 +94,10 @@
         [
           2016,
           5.9
+        ],
+        [
+          2017,
+          6.4
         ]
       ],
       "name": "Knaben"
@@ -140,6 +148,10 @@
         [
           2016,
           5
+        ],
+        [
+          2017,
+          5.8
         ]
       ],
       "name": "Total"
@@ -241,7 +253,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2017-2-16"
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
   },
   "legend": {
     "enabled": true,

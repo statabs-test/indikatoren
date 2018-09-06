@@ -46,6 +46,10 @@
         [
           2015,
           164520
+        ],
+        [
+          2016,
+          164520
         ]
       ],
       "name": "Basel"
@@ -92,6 +96,10 @@
         ],
         [
           2015,
+          146744
+        ],
+        [
+          2016,
           146744
         ]
       ],
@@ -140,6 +148,10 @@
         [
           2015,
           178506
+        ],
+        [
+          2016,
+          178506
         ]
       ],
       "name": "Genf"
@@ -186,6 +198,10 @@
         ],
         [
           2015,
+          138874
+        ],
+        [
+          2016,
           138874
         ]
       ],
@@ -234,6 +250,10 @@
         [
           2015,
           147400
+        ],
+        [
+          2016,
+          147394
         ]
       ],
       "name": "Zürich"
@@ -260,8 +280,8 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 415,
-    "spacingBottom": 45,
+    "height": 428,
+    "spacingBottom": 55,
     "style": {
       "fontFamily": "Arial"
     },
@@ -333,9 +353,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Eidgenössische Steuerverwaltung."
+    "text": "Quelle: Eidgenössische Steuerverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
   },
   "legend": {
     "enabled": true,

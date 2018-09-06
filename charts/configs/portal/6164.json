@@ -3,52 +3,52 @@
     {
       "color": "#CD9C00",
       "marker": {
-        "enabled": false
+        "enabled": true
       },
       "data": [
         [
           2004,
-          0.09216667
+          0.092
         ],
         [
           2005,
-          0.06425
+          0.064
         ],
         [
           2006,
-          0.05583333
+          0.056
         ],
         [
           2007,
-          0.04825
+          0.048
         ],
         [
           2008,
-          0.04116667
+          0.041
         ],
         [
           2009,
-          0.05558333
+          0.056
         ],
         [
           2010,
-          0.04975
+          0.05
         ],
         [
           2011,
-          0.05708333
+          0.057
         ],
         [
           2012,
-          0.04233333
+          0.042
         ],
         [
           2013,
-          0.04258334
+          0.043
         ],
         [
           2014,
-          0.04960791
+          0.05
         ],
         [
           2015,
@@ -57,10 +57,6 @@
         [
           2016,
           0.046
-        ],
-        [
-          2017,
-          0.035
         ]
       ],
       "name": "AOX"
@@ -124,13 +120,9 @@
         [
           2016,
           0.08
-        ],
-        [
-          2017,
-          0.08
         ]
       ],
-      "name": "AOX Grenzwert"
+      "name": "AOX-Grenzwert"
     }
   ],
   "chart": {
@@ -154,8 +146,8 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 415,
-    "spacingBottom": 45,
+    "height": 428,
+    "spacingBottom": 55,
     "style": {
       "fontFamily": "Arial"
     },
@@ -183,7 +175,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.3f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
     "min": 0,
@@ -226,9 +218,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt."
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
   },
   "legend": {
     "enabled": true,
