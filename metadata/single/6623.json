@@ -28,22 +28,27 @@
 "delimiter": "\t",
 "publishLod": true,
 "tableSchema": {
-     "aboutUrl": "http://ld.data-bs.ch/dataset/6623/observation/{Jahr}-Kanton",
+     "aboutUrl": "https://ld.data-bs.ch/dataset/6623/observation/{Jahr}-Gemeinde2701",
      "columns": [
        {
          "titles": "Jahr",
-         "propertyUrl": "http://ld.data-bs.ch/property/jahr",
+         "propertyUrl": "https://ld.data-bs.ch/property/jahr",
          "datatype": "date"
        },
        {
          "titles": "Bevölkerung Stadt Basel",
-         "propertyUrl": "http://ld.data-bs.ch/property/bevolkerung-stadt-basel"
+         "propertyUrl": "https://ld.data-bs.ch/property/bevolkerung"
        },
        {
          "virtual": true,
-         "propertyUrl": "http://ld.data-bs.ch/property/raum",
-         "valueUrl": "http://ld.data-bs.ch/code/raum/Kanton"
+         "propertyUrl": "https://ld.data-bs.ch/property/raum",
+         "valueUrl": "https://ld.data-bs.ch/code/raum/Gemeinde2701"
        }
      ]
-   }
+   },
+"properties": [
+  "https://ld.data-bs.ch/property/jahr",
+  "https://ld.data-bs.ch/property/raum",
+  "https://ld.data-bs.ch/property/bevolkerung"
+]
 }

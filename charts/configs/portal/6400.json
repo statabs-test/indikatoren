@@ -1,7 +1,6 @@
 {
   "series": [
     {
-      "name": "Anzahl",
       "data": [
         [
           "Spanien",
@@ -48,6 +47,7 @@
           604
         ]
       ],
+      "name": "Anzahl",
       "turboThreshold": 0
     }
   ],
@@ -147,7 +147,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik\u003Cbr\u002F\u003EZuletzt geändert: 3\u002F21\u002F2018"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
   },
   "legend": {
     "layout": "vertical",
