@@ -423,7 +423,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Beschäftigtendichte",
-		"subtitle": "Anzahl Beschäftigte pro Hektar",
+		"subtitle": "Anzahl Beschäftigte pro Hektar, Basel-Stadt",
 		"kuerzel": "I.03.2.5823",
 		"kuerzelKunde": "ST 7-2",
 		"description": "Beschäftigtendichte",
