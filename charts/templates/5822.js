@@ -28,13 +28,14 @@
      ],
   "legend": { 
     "enabled": true,
-    "layout": "horizontal",
-     "itemWidth": 110,
-     itemDistance: 5, 
-    "verticalAlign": "top",
-    "align": "left",
+    "layout": "vertical",
+    reversed: true,
+     //"itemWidth": 110,
+     //itemDistance: 5, 
+    "verticalAlign": "middle",
+    "align": "right",
     "itemStyle": {
-    "fontWeight": "normal"
+        "fontWeight": "normal"
     }
   },
  "data":{
@@ -46,5 +47,5 @@
 "tooltip": {
         "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> ({point.percentage:.1f}%)<br/>',
     },
-}
+};
 }());

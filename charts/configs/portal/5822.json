@@ -222,10 +222,10 @@
     "text": "Quelle: Amt für Mobilität Basel-Stadt\u003Cbr\u002F\u003EZuletzt geändert: 2017-6-26"
   },
   "legend": {
-    "layout": "horizontal",
-    "verticalAlign": "top",
+    "layout": "vertical",
+    "verticalAlign": "middle",
     "itemMarginBottom": 5,
-    "align": "left",
+    "align": "right",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
@@ -236,8 +236,7 @@
             return this.name.replace('/ ', '/<br/>');
         },
     "enabled": true,
-    "itemWidth": 110,
-    "itemDistance": 5
+    "reversed": true
   },
   "exporting": {
     "filename": 5822
