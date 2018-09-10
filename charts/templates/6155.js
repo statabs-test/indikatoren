@@ -16,30 +16,37 @@
     {"color": "#FABD24",
     legendIndex: 0,
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* hellgelb */
     	{"color": "#7F5F1A",
    legendIndex: 2,
 	visible:true,
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* dunkelgelb */
     	{"color": "#008AC3",
      legendIndex: 1,
 	visible:true,
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* hellblau */
     	{"color": "#2B0099",
      legendIndex: 3,
 	visible:true,
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* dunkelblau */
+      	{"color": "#68AB2B",
+     legendIndex: 5,
+	visible:true,
+      "marker": {
+        "enabled": false
+      }    
+    }, /* violett */
   ],
   "legend": {
     "enabled": true,
