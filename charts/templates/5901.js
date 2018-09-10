@@ -18,8 +18,8 @@
 
     },
     {
-    	"min": 95,
-       max: 115,
+    	//"min": 95,
+       //max: 115,
       "tickInterval": 5,
       "title": {
           "style": {
