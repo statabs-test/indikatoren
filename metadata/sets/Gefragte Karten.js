@@ -36,7 +36,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6373
+		"id": 6373,
+		"darstellungsart": "Karte"
 	},
 	{
 		"title": "Reinvermögen nach Wohnviertel",
@@ -75,7 +76,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6374
+		"id": 6374,
+		"darstellungsart": "Karte"
 	},
 	{
 		"title": "Unter 20-Jährige nach Wohnviertel",
@@ -114,7 +116,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6375
+		"id": 6375,
+		"darstellungsart": "Karte"
 	},
 	{
 		"title": "Über 64-Jährige nach Wohnviertel",
@@ -153,7 +156,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6376
+		"id": 6376,
+		"darstellungsart": "Karte"
 	},
 	{
 		"title": "Gebäudedichte nach Wohnviertel",
@@ -192,7 +196,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6377
+		"id": 6377,
+		"darstellungsart": "Karte"
 	},
 	{
 		"title": "Wohnungsdichte nach Wohnviertel",
@@ -231,7 +236,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6378
+		"id": 6378,
+		"darstellungsart": "Karte"
 	},
 	{
 		"title": "Leerwohnungen nach Wohnviertel",
@@ -270,7 +276,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6379
+		"id": 6379,
+		"darstellungsart": "Karte"
 	},
 	{
 		"title": "Sozialhilfe nach Wohnviertel",
@@ -309,7 +316,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6380
+		"id": 6380,
+		"darstellungsart": "Karte"
 	},
 	{
 		"title": "Ausländische Bevölkerung nach Wohnviertel",
@@ -348,7 +356,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6381
+		"id": 6381,
+		"darstellungsart": "Karte"
 	},
 	{
 		"title": "Reineinkommen nach Wohnviertel",
@@ -387,7 +396,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6382
+		"id": 6382,
+		"darstellungsart": "Karte"
 	},
 	{
 		"title": "Arbeitsstätten nach Wohnviertel",
@@ -427,7 +437,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6383
+		"id": 6383,
+		"darstellungsart": "Karte"
 	},
 	{
 		"title": "Beschäftigte nach Wohnviertel",
@@ -467,7 +478,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6384
+		"id": 6384,
+		"darstellungsart": "Karte"
 	},
 	{
 		"title": "Sesshaftigkeit nach Wohnviertel",
@@ -504,7 +516,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6385
+		"id": 6385,
+		"darstellungsart": "Karte"
 	},
 	{
 		"title": "Reinvermögen nach Wohnviertel",
@@ -541,7 +554,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6386
+		"id": 6386,
+		"darstellungsart": "Karte"
 	},
 	{
 		"title": "Unter 20-Jährige nach Wohnviertel",
@@ -578,7 +592,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6387
+		"id": 6387,
+		"darstellungsart": "Karte"
 	},
 	{
 		"title": "Über 64-Jährige nach Wohnviertel",
@@ -615,7 +630,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6388
+		"id": 6388,
+		"darstellungsart": "Karte"
 	},
 	{
 		"title": "Gebäudedichte nach Wohnviertel",
@@ -652,7 +668,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6389
+		"id": 6389,
+		"darstellungsart": "Karte"
 	},
 	{
 		"title": "Wohnungsdichte nach Wohnviertel",
@@ -689,7 +706,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6390
+		"id": 6390,
+		"darstellungsart": "Karte"
 	},
 	{
 		"title": "Leerwohnungen nach Wohnviertel",
@@ -726,7 +744,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6391
+		"id": 6391,
+		"darstellungsart": "Karte"
 	},
 	{
 		"title": "Sozialhilfe nach Wohnviertel",
@@ -763,7 +782,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6392
+		"id": 6392,
+		"darstellungsart": "Karte"
 	},
 	{
 		"title": "Reineinkommen nach Wohnviertel",
@@ -800,7 +820,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6394
+		"id": 6394,
+		"darstellungsart": "Karte"
 	},
 	{
 		"title": "Arbeitsstätten nach Wohnviertel",
@@ -838,7 +859,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6395
+		"id": 6395,
+		"darstellungsart": "Karte"
 	},
 	{
 		"title": "Beschäftigte nach Wohnviertel",
@@ -876,7 +898,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6396
+		"id": 6396,
+		"darstellungsart": "Karte"
 	},
 	{
 		"title": "Ausländische Bevölkerung nach Wohnviertel",
@@ -913,6 +936,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6778
+		"id": 6778,
+		"darstellungsart": "Karte"
 	}
 ];
