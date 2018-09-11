@@ -116,6 +116,7 @@ function resetPortalFilter(FJS, view){
     $("#stufe3_filter").prop('selectedIndex', 0);
     $("#stufe2_filter").prop('selectedIndex', 0);
     $("#stufe1_filter").prop('selectedIndex', 0);
+    $("#darstellungsart_filter").multiselect('selectAll', false).multiselect('updateButtonText');
     FJS.filter();
   }
   //portal view
