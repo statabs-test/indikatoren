@@ -729,7 +729,7 @@ var indikatorensetData = [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=soz_sozhilfe.soz_quote' target='_blank'>Basler Atlas</a>."
 		],
 		"id": 5109,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Anteil Ausländer",
@@ -765,7 +765,7 @@ var indikatorensetData = [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevheim.anteil_al' target='_blank'>Basler Atlas</a>."
 		],
 		"id": 5110,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Anteil Personen ohne Religionszugehörigkeit",
@@ -801,7 +801,7 @@ var indikatorensetData = [
 			""
 		],
 		"id": 5111,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Anteil Personen in Einpersonenhaushalten",
@@ -838,7 +838,7 @@ var indikatorensetData = [
 			""
 		],
 		"id": 5112,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Gymnasialquote",
@@ -874,7 +874,7 @@ var indikatorensetData = [
 			""
 		],
 		"id": 5113,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Altersquotient",
@@ -911,7 +911,7 @@ var indikatorensetData = [
 			""
 		],
 		"id": 5114,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Sesshaftigkeit",
@@ -947,7 +947,7 @@ var indikatorensetData = [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevsess.anteil_sess10' target='_blank'>Basler Atlas</a>."
 		],
 		"id": 5115,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Jugendquotient",
@@ -983,7 +983,7 @@ var indikatorensetData = [
 			""
 		],
 		"id": 5116,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Baujahr Wohngebäude",
@@ -1019,7 +1019,7 @@ var indikatorensetData = [
 			""
 		],
 		"id": 5117,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Anteil Einfamilienhäuser",
@@ -1056,7 +1056,7 @@ var indikatorensetData = [
 			""
 		],
 		"id": 5118,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Anteil Grünflächen",
@@ -1093,7 +1093,7 @@ var indikatorensetData = [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=ru_gruen.gruenflaeche_ant' target='_blank'>Basler Atlas</a>."
 		],
 		"id": 5119,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Fläche pro Wohnung",
@@ -1130,7 +1130,7 @@ var indikatorensetData = [
 			""
 		],
 		"id": 5120,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Wohnfläche pro Kopf",
@@ -1168,7 +1168,7 @@ var indikatorensetData = [
 			""
 		],
 		"id": 5121,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Vermögenssteuer pro Veranlagung",
@@ -1205,7 +1205,7 @@ var indikatorensetData = [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_ver.vermoegen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
 		],
 		"id": 5122,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Einkommenssteuer pro Veranlagung",
@@ -1241,7 +1241,7 @@ var indikatorensetData = [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_eink.einkommen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
 		],
 		"id": 5123,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Erwerbstätigenquote",
@@ -1278,7 +1278,7 @@ var indikatorensetData = [
 			""
 		],
 		"id": 5124,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Arbeitsplätze pro Kopf",
@@ -1314,7 +1314,7 @@ var indikatorensetData = [
 			""
 		],
 		"id": 5125,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Arbeitslosenquote",
@@ -1352,7 +1352,7 @@ var indikatorensetData = [
 			""
 		],
 		"id": 5126,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Quartierradar Altstadt Grossbasel",

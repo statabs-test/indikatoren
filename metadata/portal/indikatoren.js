@@ -6555,7 +6555,7 @@ var indikatoren = [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=soz_sozhilfe.soz_quote' target='_blank'>Basler Atlas</a>."
 		],
 		"id": 5109,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Anteil Ausländer",
@@ -6592,7 +6592,7 @@ var indikatoren = [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevheim.anteil_al' target='_blank'>Basler Atlas</a>."
 		],
 		"id": 5110,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Anteil Personen ohne Religionszugehörigkeit",
@@ -6629,7 +6629,7 @@ var indikatoren = [
 			""
 		],
 		"id": 5111,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Anteil Personen in Einpersonenhaushalten",
@@ -6667,7 +6667,7 @@ var indikatoren = [
 			""
 		],
 		"id": 5112,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Gymnasialquote",
@@ -6704,7 +6704,7 @@ var indikatoren = [
 			""
 		],
 		"id": 5113,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Altersquotient",
@@ -6742,7 +6742,7 @@ var indikatoren = [
 			""
 		],
 		"id": 5114,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Sesshaftigkeit",
@@ -6779,7 +6779,7 @@ var indikatoren = [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevsess.anteil_sess10' target='_blank'>Basler Atlas</a>."
 		],
 		"id": 5115,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Jugendquotient",
@@ -6816,7 +6816,7 @@ var indikatoren = [
 			""
 		],
 		"id": 5116,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Baujahr Wohngebäude",
@@ -6853,7 +6853,7 @@ var indikatoren = [
 			""
 		],
 		"id": 5117,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Anteil Einfamilienhäuser",
@@ -6891,7 +6891,7 @@ var indikatoren = [
 			""
 		],
 		"id": 5118,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Anteil Grünflächen",
@@ -6929,7 +6929,7 @@ var indikatoren = [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=ru_gruen.gruenflaeche_ant' target='_blank'>Basler Atlas</a>."
 		],
 		"id": 5119,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Fläche pro Wohnung",
@@ -6967,7 +6967,7 @@ var indikatoren = [
 			""
 		],
 		"id": 5120,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Wohnfläche pro Kopf",
@@ -7006,7 +7006,7 @@ var indikatoren = [
 			""
 		],
 		"id": 5121,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Vermögenssteuer pro Veranlagung",
@@ -7044,7 +7044,7 @@ var indikatoren = [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_ver.vermoegen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
 		],
 		"id": 5122,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Einkommenssteuer pro Veranlagung",
@@ -7081,7 +7081,7 @@ var indikatoren = [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_eink.einkommen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
 		],
 		"id": 5123,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Erwerbstätigenquote",
@@ -7119,7 +7119,7 @@ var indikatoren = [
 			""
 		],
 		"id": 5124,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Arbeitsplätze pro Kopf",
@@ -7156,7 +7156,7 @@ var indikatoren = [
 			""
 		],
 		"id": 5125,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Arbeitslosenquote",
@@ -7195,7 +7195,7 @@ var indikatoren = [
 			""
 		],
 		"id": 5126,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Privater Motorisierungsgrad",
@@ -7233,7 +7233,7 @@ var indikatoren = [
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=11_fahrzeuge.11_motorisierungsgrad' target='_blank'>Basler Atlas</a>."
 		],
 		"id": 5130,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Private Personenwagen pro Haushalt",
@@ -7271,7 +7271,7 @@ var indikatoren = [
 			""
 		],
 		"id": 5131,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Bevölkerungspyramide am Jahresende",
@@ -7945,7 +7945,7 @@ var indikatoren = [
 			""
 		],
 		"id": 5202,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Zu- und Wegpendler nach Herkunft und Ziel",
@@ -8128,7 +8128,7 @@ var indikatoren = [
 			""
 		],
 		"id": 5814,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Nettowohnungsproduktion",
@@ -8202,7 +8202,7 @@ var indikatoren = [
 			""
 		],
 		"id": 5818,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Bewertung der Lebensqualität",
@@ -8355,7 +8355,7 @@ var indikatoren = [
 			""
 		],
 		"id": 5825,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Kontinentale Erreichbarkeit",
@@ -8768,7 +8768,7 @@ var indikatoren = [
 			""
 		],
 		"id": 6022,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Zugezogene, Weggezogene und Wanderungssaldo",
@@ -8880,7 +8880,7 @@ var indikatoren = [
 			""
 		],
 		"id": 6025,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Anteile der Bodenbedeckungsarten an der Kantonsfläche",
@@ -12129,7 +12129,7 @@ var indikatoren = [
 			""
 		],
 		"id": 6203,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Anteil Haushalte mit Prämienverbilligung",
@@ -12165,7 +12165,7 @@ var indikatoren = [
 			""
 		],
 		"id": 6204,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Kantonales BIP im Vergleich zu den Staatsausgaben",
@@ -13067,7 +13067,7 @@ var indikatoren = [
 			""
 		],
 		"id": 6373,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Reinvermögen nach Wohnviertel",
@@ -13108,7 +13108,7 @@ var indikatoren = [
 			""
 		],
 		"id": 6374,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Unter 20-Jährige nach Wohnviertel",
@@ -13149,7 +13149,7 @@ var indikatoren = [
 			""
 		],
 		"id": 6375,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Über 64-Jährige nach Wohnviertel",
@@ -13190,7 +13190,7 @@ var indikatoren = [
 			""
 		],
 		"id": 6376,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Gebäudedichte nach Wohnviertel",
@@ -13231,7 +13231,7 @@ var indikatoren = [
 			""
 		],
 		"id": 6377,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Wohnungsdichte nach Wohnviertel",
@@ -13272,7 +13272,7 @@ var indikatoren = [
 			""
 		],
 		"id": 6378,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Leerwohnungen nach Wohnviertel",
@@ -13313,7 +13313,7 @@ var indikatoren = [
 			""
 		],
 		"id": 6379,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Sozialhilfe nach Wohnviertel",
@@ -13354,7 +13354,7 @@ var indikatoren = [
 			""
 		],
 		"id": 6380,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Ausländische Bevölkerung nach Wohnviertel",
@@ -13395,7 +13395,7 @@ var indikatoren = [
 			""
 		],
 		"id": 6381,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Reineinkommen nach Wohnviertel",
@@ -13436,7 +13436,7 @@ var indikatoren = [
 			""
 		],
 		"id": 6382,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Arbeitsstätten nach Wohnviertel",
@@ -13478,7 +13478,7 @@ var indikatoren = [
 			""
 		],
 		"id": 6383,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Beschäftigte nach Wohnviertel",
@@ -13520,7 +13520,7 @@ var indikatoren = [
 			""
 		],
 		"id": 6384,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Sesshaftigkeit nach Wohnviertel",
@@ -13558,8 +13558,8 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 6385,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kategoriell",
+		"id": 6385
 	},
 	{
 		"title": "Reinvermögen nach Wohnviertel",
@@ -13597,8 +13597,8 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 6386,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kategoriell",
+		"id": 6386
 	},
 	{
 		"title": "Unter 20-Jährige nach Wohnviertel",
@@ -13636,8 +13636,8 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 6387,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kategoriell",
+		"id": 6387
 	},
 	{
 		"title": "Über 64-Jährige nach Wohnviertel",
@@ -13675,8 +13675,8 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 6388,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kategoriell",
+		"id": 6388
 	},
 	{
 		"title": "Gebäudedichte nach Wohnviertel",
@@ -13714,8 +13714,8 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 6389,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kategoriell",
+		"id": 6389
 	},
 	{
 		"title": "Wohnungsdichte nach Wohnviertel",
@@ -13753,8 +13753,8 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 6390,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kategoriell",
+		"id": 6390
 	},
 	{
 		"title": "Leerwohnungen nach Wohnviertel",
@@ -13792,8 +13792,8 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 6391,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kategoriell",
+		"id": 6391
 	},
 	{
 		"title": "Sozialhilfe nach Wohnviertel",
@@ -13831,8 +13831,8 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 6392,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kategoriell",
+		"id": 6392
 	},
 	{
 		"title": "Reineinkommen nach Wohnviertel",
@@ -13870,8 +13870,8 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 6394,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kategoriell",
+		"id": 6394
 	},
 	{
 		"title": "Arbeitsstätten nach Wohnviertel",
@@ -13910,8 +13910,8 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 6395,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kategoriell",
+		"id": 6395
 	},
 	{
 		"title": "Beschäftigte nach Wohnviertel",
@@ -13950,8 +13950,8 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 6396,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kategoriell",
+		"id": 6396
 	},
 	{
 		"title": "Ausländeranteil nach Gemeinde und Wohnviertel",
@@ -13986,7 +13986,7 @@ var indikatoren = [
 			""
 		],
 		"id": 6398,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Ausländer nach Staatsangehörigkeit",
@@ -19207,7 +19207,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 6778,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kategoriell",
+		"id": 6778
 	}
 ];

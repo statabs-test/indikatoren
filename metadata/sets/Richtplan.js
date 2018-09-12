@@ -69,7 +69,7 @@ var indikatorensetData = [
 			""
 		],
 		"id": 5202,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Zu- und Wegpendler nach Herkunft und Ziel",
@@ -177,7 +177,7 @@ var indikatorensetData = [
 			""
 		],
 		"id": 5814,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
@@ -320,7 +320,7 @@ var indikatorensetData = [
 			""
 		],
 		"id": 5818,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
@@ -505,7 +505,7 @@ var indikatorensetData = [
 			""
 		],
 		"id": 5825,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Kontinentale Erreichbarkeit",

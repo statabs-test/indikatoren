@@ -324,7 +324,7 @@ var indikatorensetData = [
 			""
 		],
 		"id": 6022,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Zugezogene, Weggezogene und Wanderungssaldo",
@@ -433,6 +433,6 @@ var indikatorensetData = [
 			""
 		],
 		"id": 6025,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	}
 ];

@@ -9218,7 +9218,7 @@
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=soz_sozhilfe.soz_quote' target='_blank'>Basler Atlas</a>."
 		],
 		"id": 5109,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Anteil Ausländer",
@@ -9255,7 +9255,7 @@
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevheim.anteil_al' target='_blank'>Basler Atlas</a>."
 		],
 		"id": 5110,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Anteil Personen ohne Religionszugehörigkeit",
@@ -9292,7 +9292,7 @@
 			""
 		],
 		"id": 5111,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Anteil Personen in Einpersonenhaushalten",
@@ -9330,7 +9330,7 @@
 			""
 		],
 		"id": 5112,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Gymnasialquote",
@@ -9367,7 +9367,7 @@
 			""
 		],
 		"id": 5113,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Altersquotient",
@@ -9405,7 +9405,7 @@
 			""
 		],
 		"id": 5114,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Sesshaftigkeit",
@@ -9442,7 +9442,7 @@
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=bevsess.anteil_sess10' target='_blank'>Basler Atlas</a>."
 		],
 		"id": 5115,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Jugendquotient",
@@ -9479,7 +9479,7 @@
 			""
 		],
 		"id": 5116,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Baujahr Wohngebäude",
@@ -9516,7 +9516,7 @@
 			""
 		],
 		"id": 5117,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Anteil Einfamilienhäuser",
@@ -9554,7 +9554,7 @@
 			""
 		],
 		"id": 5118,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Anteil Grünflächen",
@@ -9592,7 +9592,7 @@
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=ru_gruen.gruenflaeche_ant' target='_blank'>Basler Atlas</a>."
 		],
 		"id": 5119,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Fläche pro Wohnung",
@@ -9630,7 +9630,7 @@
 			""
 		],
 		"id": 5120,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Wohnfläche pro Kopf",
@@ -9669,7 +9669,7 @@
 			""
 		],
 		"id": 5121,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Vermögenssteuer pro Veranlagung",
@@ -9707,7 +9707,7 @@
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_ver.vermoegen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
 		],
 		"id": 5122,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Einkommenssteuer pro Veranlagung",
@@ -9744,7 +9744,7 @@
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_eink.einkommen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
 		],
 		"id": 5123,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Erwerbstätigenquote",
@@ -9782,7 +9782,7 @@
 			""
 		],
 		"id": 5124,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Arbeitsplätze pro Kopf",
@@ -9819,7 +9819,7 @@
 			""
 		],
 		"id": 5125,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Arbeitslosenquote",
@@ -9858,7 +9858,7 @@
 			""
 		],
 		"id": 5126,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Privater Motorisierungsgrad",
@@ -9896,7 +9896,7 @@
 			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=11_fahrzeuge.11_motorisierungsgrad' target='_blank'>Basler Atlas</a>."
 		],
 		"id": 5130,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Private Personenwagen pro Haushalt",
@@ -9934,7 +9934,7 @@
 			""
 		],
 		"id": 5131,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Vertretung der Anliegen der Bevölkerung durch Behörden",
@@ -11142,7 +11142,7 @@
 			""
 		],
 		"id": 5202,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Zu- und Wegpendler nach Herkunft und Ziel",
@@ -11539,7 +11539,7 @@
 			""
 		],
 		"id": 5814,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
@@ -11686,7 +11686,7 @@
 			""
 		],
 		"id": 5818,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
@@ -11876,7 +11876,7 @@
 			""
 		],
 		"id": 5825,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Kontinentale Erreichbarkeit",
@@ -12326,7 +12326,7 @@
 			""
 		],
 		"id": 6022,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Zugezogene, Weggezogene und Wanderungssaldo",
@@ -12438,7 +12438,7 @@
 			""
 		],
 		"id": 6025,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Anteile der Bodenbedeckungsarten an der Kantonsfläche",
@@ -16617,7 +16617,7 @@
 			""
 		],
 		"id": 6203,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Anteil Haushalte mit Prämienverbilligung",
@@ -16653,7 +16653,7 @@
 			""
 		],
 		"id": 6204,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Kantonales BIP im Vergleich zu den Staatsausgaben",
@@ -17326,7 +17326,7 @@
 			""
 		],
 		"id": 6243,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Zu- und Wegpendler nach Herkunft und Ziel",
@@ -17431,7 +17431,7 @@
 			""
 		],
 		"id": 6246,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
@@ -17572,7 +17572,7 @@
 			""
 		],
 		"id": 6250,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
@@ -17748,7 +17748,7 @@
 			""
 		],
 		"id": 6255,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Kontinentale Erreichbarkeit",
@@ -21071,7 +21071,7 @@
 			""
 		],
 		"id": 6373,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Reinvermögen nach Wohnviertel",
@@ -21112,7 +21112,7 @@
 			""
 		],
 		"id": 6374,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Unter 20-Jährige nach Wohnviertel",
@@ -21153,7 +21153,7 @@
 			""
 		],
 		"id": 6375,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Über 64-Jährige nach Wohnviertel",
@@ -21194,7 +21194,7 @@
 			""
 		],
 		"id": 6376,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Gebäudedichte nach Wohnviertel",
@@ -21235,7 +21235,7 @@
 			""
 		],
 		"id": 6377,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Wohnungsdichte nach Wohnviertel",
@@ -21276,7 +21276,7 @@
 			""
 		],
 		"id": 6378,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Leerwohnungen nach Wohnviertel",
@@ -21317,7 +21317,7 @@
 			""
 		],
 		"id": 6379,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Sozialhilfe nach Wohnviertel",
@@ -21358,7 +21358,7 @@
 			""
 		],
 		"id": 6380,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Ausländische Bevölkerung nach Wohnviertel",
@@ -21399,7 +21399,7 @@
 			""
 		],
 		"id": 6381,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Reineinkommen nach Wohnviertel",
@@ -21440,7 +21440,7 @@
 			""
 		],
 		"id": 6382,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Arbeitsstätten nach Wohnviertel",
@@ -21482,7 +21482,7 @@
 			""
 		],
 		"id": 6383,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Beschäftigte nach Wohnviertel",
@@ -21524,7 +21524,7 @@
 			""
 		],
 		"id": 6384,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Sesshaftigkeit nach Wohnviertel",
@@ -21562,8 +21562,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6385,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kategoriell",
+		"id": 6385
 	},
 	{
 		"title": "Reinvermögen nach Wohnviertel",
@@ -21601,8 +21601,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6386,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kategoriell",
+		"id": 6386
 	},
 	{
 		"title": "Unter 20-Jährige nach Wohnviertel",
@@ -21640,8 +21640,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6387,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kategoriell",
+		"id": 6387
 	},
 	{
 		"title": "Über 64-Jährige nach Wohnviertel",
@@ -21679,8 +21679,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6388,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kategoriell",
+		"id": 6388
 	},
 	{
 		"title": "Gebäudedichte nach Wohnviertel",
@@ -21718,8 +21718,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6389,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kategoriell",
+		"id": 6389
 	},
 	{
 		"title": "Wohnungsdichte nach Wohnviertel",
@@ -21757,8 +21757,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6390,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kategoriell",
+		"id": 6390
 	},
 	{
 		"title": "Leerwohnungen nach Wohnviertel",
@@ -21796,8 +21796,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6391,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kategoriell",
+		"id": 6391
 	},
 	{
 		"title": "Sozialhilfe nach Wohnviertel",
@@ -21835,8 +21835,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6392,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kategoriell",
+		"id": 6392
 	},
 	{
 		"title": "Reineinkommen nach Wohnviertel",
@@ -21874,8 +21874,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6394,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kategoriell",
+		"id": 6394
 	},
 	{
 		"title": "Arbeitsstätten nach Wohnviertel",
@@ -21914,8 +21914,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6395,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kategoriell",
+		"id": 6395
 	},
 	{
 		"title": "Beschäftigte nach Wohnviertel",
@@ -21954,8 +21954,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6396,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kategoriell",
+		"id": 6396
 	},
 	{
 		"title": "Ausländeranteil nach Gemeinde und Wohnviertel",
@@ -21990,7 +21990,7 @@
 			""
 		],
 		"id": 6398,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Ausländer nach Staatsangehörigkeit",
@@ -26553,7 +26553,7 @@
 			"Weitere Informationen zum Indikator: <a href = 'http://www.statistik.bs.ch/zahlen/tabellen/9-bau-wohnungswesen/mietpreise.html' target = '_blank'>Mietpreisraster Basel-Stadt</a>"
 		],
 		"id": 6601,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Bevölkerungsbestand am Jahresende",
@@ -27386,7 +27386,7 @@
 			""
 		],
 		"id": 6771,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner",
@@ -27422,7 +27422,7 @@
 			""
 		],
 		"id": 6774,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Ausländische Bevölkerung nach Wohnviertel",
@@ -27460,8 +27460,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 6778,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kategoriell",
+		"id": 6778
 	},
 	{
 		"title": "Test Daten",
@@ -27500,7 +27500,7 @@
 			""
 		],
 		"id": 9995,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Quartierradar Altstadt Grossbasel",
@@ -27646,6 +27646,6 @@
 			""
 		],
 		"id": 9999,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	}
 ]

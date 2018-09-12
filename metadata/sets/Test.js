@@ -70,6 +70,6 @@ var indikatorensetData = [
 			""
 		],
 		"id": 9999,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	}
 ];

@@ -1129,7 +1129,7 @@ var indikatorensetData = [
 			""
 		],
 		"id": 6398,
-		"darstellungsart": "Karte"
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Ausländer nach Staatsangehörigkeit",
