@@ -1,13 +1,9 @@
 (function(){
     return {
   "yAxis": [{
-    gridLineColor: '#B9CFD7', 
-    gridLineWidth: 0.5,
+   // gridLineColor: '#B9CFD7', 
+  //  gridLineWidth: 0.5,
     "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
-      },
       "text": null
     },
     "labels": {
@@ -16,16 +12,11 @@
         "color": "#000000"
       }
     },
-    "min": 0
+    "min": 0,
+    "max": 30
   },
   {
-    gridLineColor: '#B9CFD7', 
-    gridLineWidth: 0.5,
     "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
-      },
       "text": null
     },
     "labels": {
@@ -54,22 +45,21 @@
     {
       "color": "#cd9c00",
       "index": 0,
-      "type": "line",
-      "pointWidth": "10"
+      "type": "column",
+      //"pointWidth": "10"
     },
     {
       "color": "#73b97c",
       "index": 1,
-      "type": "line",
+      "type": "column",
       "yAxis": 1
     }
   ],  
   "tooltip": {
-    "shared": true
+    "shared": false
   },
   "chart": {
-    "marginBottom": 65,
-    "type": "line"
+    "marginBottom": 65
   }
 	}
 }());
