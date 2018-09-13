@@ -20,7 +20,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#4f81bd",
+      "color": "#923f8d",
       "data": [
         [
           "2000",
@@ -39,7 +39,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#9A86A6",
+      "color": "#b375ab",
       "data": [
         [
           "2000",
@@ -79,7 +79,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
+    "height": 415,
     "spacing": [
       10,
       10,
@@ -109,7 +109,7 @@
     "type": "column",
     "inverted": false,
     "renderTo": "container-6159",
-    "spacingBottom": 40
+    "spacingBottom": 30
   },
   "plotOptions": {
     "series": {
@@ -138,7 +138,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in %",
+    "text": "",
     "align": "left"
   },
   "yAxis": {
@@ -176,9 +176,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster."
   },
   "legend": {
     "symbolRadius": 0,

@@ -1,5 +1,5 @@
 /**
- * @license  Highcharts JS v6.1.1 (2018-06-27)
+ * @license  Highcharts JS v6.1.0 (2018-04-13)
  *
  * Indicator series type for Highstock
  *
@@ -24,7 +24,6 @@
 
 
 		var isArray = H.isArray,
-		    reduce = H.reduce,
 		    seriesType = H.seriesType;
 
 		// Utils:
@@ -42,7 +41,7 @@
 		    var denominator = (pLen + 1) / 2 * pLen;
 
 		    // reduce VS loop => reduce
-		    return reduce(array, function (prev, cur, i) {
+		    return array.reduce(function (prev, cur, i) {
 		        return [null, prev[1] + cur[1] * (i + 1)];
 		    })[1] / denominator;
 		}
@@ -155,8 +154,4 @@
 		 */
 
 	}(Highcharts));
-	return (function () {
-
-
-	}());
 }));

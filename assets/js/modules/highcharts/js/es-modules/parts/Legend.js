@@ -56,19 +56,6 @@ Highcharts.Legend.prototype = {
             addEvent(this.chart, 'endResize', function () {
                 this.legend.positionCheckboxes();
             });
-
-            if (this.proximate) {
-                this.unchartrender = addEvent(
-                    this.chart,
-                    'render',
-                    function () {
-                        this.legend.proximatePositions();
-                        this.legend.positionItems();
-                    }
-                );
-            } else if (this.unchartrender) {
-                this.unchartrender();
-            }
         }
     },
 
@@ -84,7 +71,6 @@ Highcharts.Legend.prototype = {
         this.initialItemY = padding - 5; // 5 is pixels above the text
         this.symbolWidth = pick(options.symbolWidth, 16);
         this.pages = [];
-        this.proximate = options.layout === 'proximate' && !this.chart.inverted;
 
     },
 
@@ -131,17 +117,6 @@ Highcharts.Legend.prototype = {
         fireEvent(this, 'afterColorizeItem', { item: item, visible: visible });
     },
 
-    positionItems: function () {
-
-        // Now that the legend width and height are established, put the items
-        // in the final position
-        each(this.allItems, this.positionItem, this);
-
-        if (!this.chart.isResizing) {
-            this.positionCheckboxes();
-        }
-    },
-
     /**
      * Position the legend item.
      *
@@ -161,12 +136,12 @@ Highcharts.Legend.prototype = {
             legendGroup = item.legendGroup;
 
         if (legendGroup && legendGroup.element) {
-            legendGroup[defined(legendGroup.translateY) ? 'animate' : 'attr']({
-                translateX: ltr ?
+            legendGroup.translate(
+                ltr ?
                     itemX :
                     legend.legendWidth - itemX - 2 * symbolPadding - 4,
-                translateY: itemY
-            });
+                itemY
+            );
         }
 
         if (checkbox) {
@@ -414,7 +389,7 @@ Highcharts.Legend.prototype = {
                     options.itemWidth ||
                     options.width ||
                     chart.spacingBox.width
-                ) - itemExtraWidth
+                ) -    itemExtraWidth
             });
         
 
@@ -508,7 +483,7 @@ Highcharts.Legend.prototype = {
      * Get all items, which is one item per series for most series and one
      * item per point for pie series and its derivatives.
      *
-     * @return {Array<Series|Point>}
+     * @return {Array.<Series|Point>}
      *         The current items in the legend.
      */
     getAllItems: function () {
@@ -552,9 +527,6 @@ Highcharts.Legend.prototype = {
 
         // Use the first letter of each alignment option in order to detect
         // the side. (#4189 - use charAt(x) notation instead of [x] for IE7)
-        if (this.proximate) {
-            return options.align.charAt(0) + 'tv';
-        }
         return options.floating ? '' : (
             options.align.charAt(0) +
             options.verticalAlign.charAt(0) +
@@ -609,47 +581,6 @@ Highcharts.Legend.prototype = {
                 }
             });
         }
-    },
-
-    proximatePositions: function () {
-        var chart = this.chart,
-            boxes = [],
-            alignLeft = this.options.align === 'left';
-
-        each(this.allItems, function (item) {
-            var lastPoint,
-                height,
-                useFirstPoint = alignLeft;
-
-            if (item.xAxis && item.points) {
-
-                if (item.xAxis.options.reversed) {
-                    useFirstPoint = !useFirstPoint;
-                }
-                lastPoint = H.find(
-                    useFirstPoint ?
-                        item.points :
-                        item.points.slice(0).reverse(),
-                    function (item) {
-                        return H.isNumber(item.plotY);
-                    }
-                );
-                height = item.legendGroup.getBBox().height;
-                boxes.push({
-                    target: item.visible ?
-                        lastPoint.plotY - 0.3 * height :
-                        chart.plotHeight,
-                    size: height,
-                    item: item
-                });
-            }
-        }, this);
-        H.distribute(boxes, chart.plotHeight);
-        each(boxes, function (box) {
-            box.item._legendItemPos[1] =
-                chart.plotTop - chart.spacing[0] + box.pos;
-        });
-
     },
 
     /**
@@ -762,6 +693,10 @@ Highcharts.Legend.prototype = {
         legend.legendWidth = legendWidth;
         legend.legendHeight = legendHeight;
 
+        // Now that the legend width and height are established, put the items
+        // in the final position
+        each(allItems, legend.positionItem, legend);
+
         if (display) {
             // If aligning to the top and the layout is horizontal, adjust for
             // the title (#7428)
@@ -775,13 +710,12 @@ Highcharts.Legend.prototype = {
 
             legendGroup.align(merge(options, {
                 width: legendWidth,
-                height: legendHeight,
-                verticalAlign: this.proximate ? 'top' : options.verticalAlign
+                height: legendHeight
             }), true, alignTo);
         }
 
-        if (!this.proximate) {
-            this.positionItems();
+        if (!chart.isResizing) {
+            this.positionCheckboxes();
         }
     },
 
@@ -1080,7 +1014,7 @@ H.LegendSymbolMixin = {
         .add(legendItemGroup);
 
         // Draw the marker
-        if (markerOptions && markerOptions.enabled !== false && symbolWidth) {
+        if (markerOptions && markerOptions.enabled !== false) {
 
             // Do not allow the marker to be larger than the symbolHeight
             radius = Math.min(

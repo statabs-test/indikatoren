@@ -1,5 +1,5 @@
 /**
- * @license Highcharts JS v6.1.1 (2018-06-27)
+ * @license Highcharts JS v6.1.0 (2018-04-13)
  * Data module
  *
  * (c) 2012-2017 Torstein Honsi
@@ -471,7 +471,7 @@
 		 * @sample highcharts/data/livedata-columns
 		 *           Categorized bar chart with CSV and live polling
 		 *
-		 * @type {Boolean}
+		 * @type {Bool}
 		 * @default false
 		 * @apioption data.enablePolling
 		 */
@@ -587,20 +587,6 @@
 		            individualCounts = [],
 		            seriesBuilders = [],
 		            seriesIndex = 0,
-
-		            // If no series mapping is defined, check if the series array is
-		            // defined with types.
-		            seriesMapping = (
-		                (options && options.seriesMapping) ||
-		                (
-		                    chartOptions &&
-		                    chartOptions.series &&
-		                    Highcharts.map(chartOptions.series, function () {
-		                        return { x: 0 };
-		                    })
-		                ) ||
-		                []
-		            ),
 		            i;
 
 		        each((chartOptions && chartOptions.series) || [], function (series) {
@@ -608,7 +594,7 @@
 		        });
 
 		        // Collect the x-column indexes from seriesMapping
-		        each(seriesMapping, function (mapping) {
+		        each((options && options.seriesMapping) || [], function (mapping) {
 		            xColumns.push(mapping.x || 0);
 		        });
 
@@ -620,7 +606,7 @@
 
 		        // Loop all seriesMappings and constructs SeriesBuilders from
 		        // the mapping options.
-		        each(seriesMapping, function (mapping) {
+		        each((options && options.seriesMapping) || [], function (mapping) {
 		            var builder = new SeriesBuilder(),
 		                numberOfValueColumnsNeeded = individualCounts[seriesIndex] ||
 		                    getValueCount(globalType),
@@ -672,6 +658,7 @@
 		     * input, continue with other operations.
 		     */
 		    dataFound: function () {
+
 		        if (this.options.switchRowsAndColumns) {
 		            this.columns = this.rowsToColumns(this.columns);
 		        }
@@ -1352,8 +1339,7 @@
 		     * Parse a Google spreadsheet.
 		     */
 		    parseGoogleSpreadsheet: function () {
-		        var data = this,
-		            options = this.options,
+		        var options = this.options,
 		            googleSpreadsheetKey = options.googleSpreadsheetKey,
 		            chart = this.chart,
 		            // use sheet 1 as the default rather than od6
@@ -1488,9 +1474,6 @@
 		                            columns: columns
 		                        }
 		                    });
-		                } else { // #8245
-		                    data.columns = columns;
-		                    data.dataFound();
 		                }
 		            });
 		        }
@@ -2243,8 +2226,4 @@
 		};
 
 	}(Highcharts));
-	return (function () {
-
-
-	}());
 }));

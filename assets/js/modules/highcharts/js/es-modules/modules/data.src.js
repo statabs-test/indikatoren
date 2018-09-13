@@ -367,7 +367,7 @@ var addEvent = Highcharts.addEvent,
  * @sample highcharts/data/livedata-columns
  *           Categorized bar chart with CSV and live polling
  *
- * @type {Boolean}
+ * @type {Bool}
  * @default false
  * @apioption data.enablePolling
  */
@@ -483,20 +483,6 @@ Highcharts.extend(Data.prototype, {
             individualCounts = [],
             seriesBuilders = [],
             seriesIndex = 0,
-
-            // If no series mapping is defined, check if the series array is
-            // defined with types.
-            seriesMapping = (
-                (options && options.seriesMapping) ||
-                (
-                    chartOptions &&
-                    chartOptions.series &&
-                    Highcharts.map(chartOptions.series, function () {
-                        return { x: 0 };
-                    })
-                ) ||
-                []
-            ),
             i;
 
         each((chartOptions && chartOptions.series) || [], function (series) {
@@ -504,7 +490,7 @@ Highcharts.extend(Data.prototype, {
         });
 
         // Collect the x-column indexes from seriesMapping
-        each(seriesMapping, function (mapping) {
+        each((options && options.seriesMapping) || [], function (mapping) {
             xColumns.push(mapping.x || 0);
         });
 
@@ -516,7 +502,7 @@ Highcharts.extend(Data.prototype, {
 
         // Loop all seriesMappings and constructs SeriesBuilders from
         // the mapping options.
-        each(seriesMapping, function (mapping) {
+        each((options && options.seriesMapping) || [], function (mapping) {
             var builder = new SeriesBuilder(),
                 numberOfValueColumnsNeeded = individualCounts[seriesIndex] ||
                     getValueCount(globalType),
@@ -568,6 +554,7 @@ Highcharts.extend(Data.prototype, {
      * input, continue with other operations.
      */
     dataFound: function () {
+
         if (this.options.switchRowsAndColumns) {
             this.columns = this.rowsToColumns(this.columns);
         }
@@ -1248,8 +1235,7 @@ Highcharts.extend(Data.prototype, {
      * Parse a Google spreadsheet.
      */
     parseGoogleSpreadsheet: function () {
-        var data = this,
-            options = this.options,
+        var options = this.options,
             googleSpreadsheetKey = options.googleSpreadsheetKey,
             chart = this.chart,
             // use sheet 1 as the default rather than od6
@@ -1384,9 +1370,6 @@ Highcharts.extend(Data.prototype, {
                             columns: columns
                         }
                     });
-                } else { // #8245
-                    data.columns = columns;
-                    data.dataFound();
                 }
             });
         }

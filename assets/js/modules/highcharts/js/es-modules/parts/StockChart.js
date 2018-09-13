@@ -52,7 +52,7 @@ var addEvent = H.addEvent,
  *
  * @type {String}
  * @see [compareBase](#plotOptions.series.compareBase),
- *      [Axis.setCompare()](/class-reference/Highcharts.Axis#setCompare)
+ *      [Axis.setCompare()](#Axis.setCompare())
  * @sample {highstock} stock/plotoptions/series-compare-percent/ Percent
  * @sample {highstock} stock/plotoptions/series-compare-value/ Value
  * @default undefined
@@ -95,7 +95,7 @@ var addEvent = H.addEvent,
  * Chart} object with different default options than the basic Chart.
  *
  * @function #stockChart
- * @memberof Highcharts
+ * @memberOf Highcharts
  *
  * @param  {String|HTMLDOMElement} renderTo
  *         The DOM element to render to, or its id.
@@ -662,7 +662,7 @@ seriesProto.init = function () {
  * series.
  *
  * @function setCompare
- * @memberof Series.prototype
+ * @memberOf Series.prototype
  *
  * @param  {String} compare
  *         Can be one of `null`, `"percent"` or `"value"`.
@@ -792,7 +792,7 @@ wrap(seriesProto, 'getExtremes', function (proceed) {
  *         Chart#redraw},
  *
  * @function setCompare
- * @memberof Axis.prototype
+ * @memberOf Axis.prototype
  *
  * @see    {@link https://api.highcharts.com/highstock/series.plotOptions.compare|
  *         series.plotOptions.compare}
@@ -840,7 +840,6 @@ Point.prototype.tooltipFormatter = function (pointFormat) {
  * this feature (#2754).
  */
 wrap(Series.prototype, 'render', function (proceed) {
-    var clipHeight;
     // Only do this on not 3d (#2939, #5904) nor polar (#6057) charts, and only
     // if the series type handles clipping in the animate method (#2975).
     if (
@@ -849,27 +848,23 @@ wrap(Series.prototype, 'render', function (proceed) {
         this.xAxis &&
         !this.xAxis.isRadial // Gauge, #6192
     ) {
-        // Include xAxis line width, #8031
-        clipHeight = this.yAxis.len - (this.xAxis.axisLine ?
-            Math.floor(this.xAxis.axisLine.strokeWidth() / 2) :
-            0);
 
         // First render, initial clip box
         if (!this.clipBox && this.animate) {
             this.clipBox = merge(this.chart.clipBox);
             this.clipBox.width = this.xAxis.len;
-            this.clipBox.height = clipHeight;
+            this.clipBox.height = this.yAxis.len;
 
         // On redrawing, resizing etc, update the clip rectangle
         } else if (this.chart[this.sharedClipKey]) {
             this.chart[this.sharedClipKey].attr({
                 width: this.xAxis.len,
-                height: clipHeight
+                height: this.yAxis.len
             });
         // #3111
         } else if (this.clipBox) {
             this.clipBox.width = this.xAxis.len;
-            this.clipBox.height = clipHeight;
+            this.clipBox.height = this.yAxis.len;
         }
     }
     proceed.call(this);

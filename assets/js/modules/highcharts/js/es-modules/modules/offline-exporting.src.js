@@ -12,8 +12,7 @@ import '../parts/Chart.js';
 import '../parts/Options.js';
 /* global MSBlobBuilder */
 
-var addEvent = Highcharts.addEvent,
-    merge = Highcharts.merge,
+var merge = Highcharts.merge,
     win = Highcharts.win,
     nav = win.navigator,
     doc = win.document,
@@ -335,7 +334,7 @@ Highcharts.downloadSVGLocal = function (
                 successCallback();
             }
         } catch (e) {
-            failCallback(e);
+            failCallback();
         }
     }
 
@@ -356,7 +355,7 @@ Highcharts.downloadSVGLocal = function (
                 successCallback();
             }
         } catch (e) {
-            failCallback(e);
+            failCallback();
         }
     } else if (imageType === 'application/pdf') {
         if (win.jsPDF && win.svg2pdf) {
@@ -397,7 +396,7 @@ Highcharts.downloadSVGLocal = function (
                         successCallback();
                     }
                 } catch (e) {
-                    failCallback(e);
+                    failCallback();
                 }
             }, function () {
                 // Failed due to tainted canvas
@@ -423,7 +422,7 @@ Highcharts.downloadSVGLocal = function (
                                 successCallback();
                             }
                         } catch (e) {
-                            failCallback(e);
+                            failCallback();
                         } finally {
                             finallyHandler();
                         }
@@ -500,11 +499,20 @@ Highcharts.Chart.prototype.getSVGForLocalExport = function (
             }
         };
 
-    // Hook into getSVG to get a copy of the chart copy's container (#8273)
-    chart.unbindGetSVG = addEvent(chart, 'getSVG', function (e) {
-        chartCopyOptions = e.chartCopy.options;
-        chartCopyContainer = e.chartCopy.container.cloneNode(true);
-    });
+    // Hook into getSVG to get a copy of the chart copy's container
+    Highcharts.wrap(
+        Highcharts.Chart.prototype,
+        'getChartHTML',
+        function (proceed) {
+            var ret = proceed.apply(
+                this,
+                Array.prototype.slice.call(arguments, 1)
+            );
+            chartCopyOptions = this.options;
+            chartCopyContainer = this.container.cloneNode(true);
+            return ret;
+        }
+    );
 
     // Trigger hook to get chart copy
     chart.getSVGForExport(options, chartOptions);
@@ -535,11 +543,8 @@ Highcharts.Chart.prototype.getSVGForLocalExport = function (
             );
         }
     } catch (e) {
-        failCallback(e);
+        failCallback();
     }
-
-    // Clean up
-    chart.unbindGetSVG();
 };
 
 /**
@@ -560,12 +565,12 @@ Highcharts.Chart.prototype.exportChartLocal = function (
 ) {
     var chart = this,
         options = Highcharts.merge(chart.options.exporting, exportingOptions),
-        fallbackToExportServer = function (err) {
+        fallbackToExportServer = function () {
             if (options.fallbackToExportServer === false) {
                 if (options.error) {
-                    options.error(options, err);
+                    options.error(options);
                 } else {
-                    Highcharts.error(28, true); // Fallback disabled
+                    throw 'Fallback to export server disabled';
                 }
             } else {
                 chart.exportChart(options);
@@ -578,9 +583,7 @@ Highcharts.Chart.prototype.exportChartLocal = function (
                 svg.indexOf('<foreignObject') > -1 &&
                 options.type !== 'image/svg+xml'
             ) {
-                fallbackToExportServer(
-                    'Image type not supported for charts with embedded HTML'
-                );
+                fallbackToExportServer();
             } else {
                 Highcharts.downloadSVGLocal(
                     svg,
@@ -644,9 +647,7 @@ Highcharts.Chart.prototype.exportChartLocal = function (
             chart.container.getElementsByTagName('image').length
         )
     ) {
-        fallbackToExportServer(
-            'Image type not supported for this chart/browser.'
-        );
+        fallbackToExportServer();
         return;
     }
 

@@ -1,5 +1,5 @@
 /**
- * @license  Highcharts JS v6.1.1 (2018-06-27)
+ * @license  Highcharts JS v6.1.0 (2018-04-13)
  *
  * Parabolic SAR Indicator for Highstock
  *
@@ -133,6 +133,7 @@
 		            }
 		        },
 		        /**
+		         * @excluding index
 		         * @excluding period
 		         */
 		        params: {
@@ -214,10 +215,6 @@
 		                prevPrevHigh,
 		                newExtremePoint,
 		                high, low, ind;
-
-		            if (index >= yVal.length) {
-		                return false;
-		            }
 
 		            for (ind = 0; ind < index; ind++) {
 		                extremePoint = Math.max(yVal[ind][1], extremePoint);
@@ -337,8 +334,4 @@
 		 */
 
 	}(Highcharts));
-	return (function () {
-
-
-	}());
 }));

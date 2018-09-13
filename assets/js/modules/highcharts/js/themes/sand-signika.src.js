@@ -1,5 +1,5 @@
 /**
- * @license Highcharts JS v6.1.1 (2018-06-27)
+ * @license Highcharts JS v6.1.0 (2018-04-13)
  *
  * (c) 2009-2017 Torstein Honsi
  *
@@ -35,7 +35,7 @@
 		Highcharts.wrap(Highcharts.Chart.prototype, 'getContainer', function (proceed) {
 		    proceed.call(this);
 		    this.container.style.background =
-		        'url(https://www.highcharts.com/samples/graphics/sand.png)';
+		        'url(http://www.highcharts.com/samples/graphics/sand.png)';
 		});
 
 
@@ -126,8 +126,4 @@
 		Highcharts.setOptions(Highcharts.theme);
 
 	}(Highcharts));
-	return (function () {
-
-
-	}());
 }));

@@ -790,8 +790,7 @@ extend(Point.prototype, /** @lends Highcharts.Point.prototype */ {
             halo.attr({
                 'class': 'highcharts-halo highcharts-color-' +
                     pick(point.colorIndex, series.colorIndex) +
-                    (point.className ? ' ' + point.className : ''),
-                'zIndex': -1 // #4929, #8276
+                    (point.className ? ' ' + point.className : '')
             });
             halo.point = point; // #6055
 
@@ -1020,12 +1019,11 @@ extend(Series.prototype, /** @lends Highcharts.Series.prototype */ {
         if (ignoreHiddenSeries) {
             chart.isDirtyBox = true;
         }
-
-        fireEvent(series, showOrHide);
-
         if (redraw !== false) {
             chart.redraw();
         }
+
+        fireEvent(series, showOrHide);
     },
 
     /**

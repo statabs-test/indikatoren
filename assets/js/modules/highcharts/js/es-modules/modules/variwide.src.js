@@ -31,8 +31,6 @@ var addEvent = H.addEvent,
  * @product highcharts
  * @sample {highcharts} highcharts/demo/variwide/
  *         Variwide chart
- * @sample {highcharts} highcharts/series-variwide/inverted/
- *         Inverted variwide chart
  * @since 6.0.0
  * @optionparent plotOptions.variwide
  */
@@ -51,24 +49,18 @@ seriesType('variwide', 'column', {
     pointArrayMap: ['y', 'z'],
     parallelArrays: ['x', 'y', 'z'],
     processData: function () {
+        var series = this;
         this.totalZ = 0;
         this.relZ = [];
         seriesTypes.column.prototype.processData.call(this);
 
-        each(
-            this.xAxis.reversed ?
-                this.zData.slice().reverse() :
-                this.zData,
-            function (z, i) {
-                this.relZ[i] = this.totalZ;
-                this.totalZ += z;
-            },
-            this
-        );
+        each(this.zData, function (z, i) {
+            series.relZ[i] = series.totalZ;
+            series.totalZ += z;
+        });
 
         if (this.xAxis.categories) {
             this.xAxis.variwide = true;
-            this.xAxis.zData = this.zData; // Used for label rank
         }
     },
 
@@ -79,25 +71,19 @@ seriesType('variwide', 'column', {
      * @param  {Number} x The X pixel position in undistorted axis pixels
      * @return {Number}   Distorted X position
      */
-    postTranslate: function (index, x, point) {
+    postTranslate: function (index, x) {
 
         var axis = this.xAxis,
             relZ = this.relZ,
-            i = axis.reversed ? relZ.length - index : index,
-            goRight = axis.reversed ? -1 : 1,
+            i = index,
             len = axis.len,
             totalZ = this.totalZ,
             linearSlotLeft = i / relZ.length * len,
-            linearSlotRight = (i + goRight) / relZ.length * len,
+            linearSlotRight = (i + 1) / relZ.length * len,
             slotLeft = (pick(relZ[i], totalZ) / totalZ) * len,
-            slotRight = (pick(relZ[i + goRight], totalZ) / totalZ) * len,
+            slotRight = (pick(relZ[i + 1], totalZ) / totalZ) * len,
             xInsideLinearSlot = x - linearSlotLeft,
             ret;
-
-        // Set crosshairWidth for every point (#8173)
-        if (point) {
-            point.crosshairWidth = slotRight - slotLeft;
-        }
 
         ret = slotLeft +
             xInsideLinearSlot * (slotRight - slotLeft) /
@@ -127,8 +113,7 @@ seriesType('variwide', 'column', {
         each(this.points, function (point, i) {
             var left = this.postTranslate(
                     i,
-                    point.shapeArgs.x,
-                    point
+                    point.shapeArgs.x
                 ),
                 right = this.postTranslate(
                     i,
@@ -145,18 +130,12 @@ seriesType('variwide', 'column', {
 
             // Crosshair position (#8083)
             point.plotX = (left + right) / 2;
+            point.crosshairWidth = right - left;
 
-            if (!inverted) {
-                point.tooltipPos[0] = this.postTranslate(
-                    i,
-                    point.tooltipPos[0]
-                );
-            } else {
-                point.tooltipPos[1] = this.xAxis.len - this.postTranslate(
-                    i,
-                    this.xAxis.len - point.tooltipPos[1]
-                );
-            }
+            point.tooltipPos[inverted ? 1 : 0] = this.postTranslate(
+                i,
+                point.tooltipPos[inverted ? 1 : 0]
+            );
         }, this);
     }
 
@@ -168,38 +147,14 @@ seriesType('variwide', 'column', {
 });
 
 H.Tick.prototype.postTranslate = function (xy, xOrY, index) {
-    var axis = this.axis,
-        pos = xy[xOrY] - axis.pos;
-
-    if (!axis.horiz) {
-        pos = axis.len - pos;
-    }
-    pos = axis.series[0].postTranslate(index, pos);
-
-    if (!axis.horiz) {
-        pos = axis.len - pos;
-    }
-    xy[xOrY] = axis.pos + pos;
+    xy[xOrY] = this.axis.pos +
+        this.axis.series[0].postTranslate(index, xy[xOrY] - this.axis.pos);
 };
 
-// Same width as the category (#8083)
+// Same width as the point itself (#8083)
 addEvent(H.Axis, 'afterDrawCrosshair', function (e) {
-    if (this.variwide && this.cross) {
-        this.cross.attr('stroke-width', e.point && e.point.crosshairWidth);
-    }
-});
-
-// On a vertical axis, apply anti-collision logic to the labels.
-addEvent(H.Axis, 'afterRender', function () {
-    var axis = this;
-    if (!this.horiz && this.variwide) {
-        this.chart.labelCollectors.push(function () {
-            return H.map(axis.tickPositions, function (pos, i) {
-                var label = axis.ticks[pos].label;
-                label.labelrank = axis.zData[i];
-                return label;
-            });
-        });
+    if (this.variwide) {
+        this.cross.attr('stroke-width', e.point && e.point.shapeArgs.width);
     }
 });
 

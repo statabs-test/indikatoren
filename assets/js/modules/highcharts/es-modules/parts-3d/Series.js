@@ -48,14 +48,10 @@ H.Series.prototype.translate3dPoints = function () {
             rawPoint.plotZ = 0;
         }
 
-        rawPoint.axisXpos = rawPoint.plotX;
-        rawPoint.axisYpos = rawPoint.plotY;
-        rawPoint.axisZpos = rawPoint.plotZ;
-
         rawPoints.push({
-            x: rawPoint.plotX,
-            y: rawPoint.plotY,
-            z: rawPoint.plotZ
+            x: pick(rawPoint.plotXold, rawPoint.plotX),
+            y: pick(rawPoint.plotYold, rawPoint.plotY),
+            z: pick(rawPoint.plotZold, rawPoint.plotZ)
         });
     }
 
@@ -64,6 +60,10 @@ H.Series.prototype.translate3dPoints = function () {
     for (i = 0; i < series.data.length; i++) {
         rawPoint = series.data[i];
         projectedPoint = projectedPoints[i];
+
+        rawPoint.plotXold = rawPoint.plotX;
+        rawPoint.plotYold = rawPoint.plotY;
+        rawPoint.plotZold = rawPoint.plotZ;
 
         rawPoint.plotX = projectedPoint.x;
         rawPoint.plotY = projectedPoint.y;

@@ -39,8 +39,7 @@ var addEvent = H.addEvent,
  * the `groupPixelWidth` option.
  *
  * If data grouping is applied, the grouping information of grouped
- * points can be read from the [Point.dataGroup](
- * /class-reference/Highcharts.Point#.dataGroup).
+ * points can be read from the [Point.dataGroup](#Point.dataGroup).
  *
  * @product highstock
  * @apioption plotOptions.series.dataGrouping
@@ -961,7 +960,7 @@ Axis.prototype.getGroupPixelWidth = function () {
  *         Chart#redraw}.
  *
  * @function setDataGrouping
- * @memberof Axis.prototype
+ * @memberOf Axis.prototype
  */
 Axis.prototype.setDataGrouping = function (dataGrouping, redraw) {
     var i;

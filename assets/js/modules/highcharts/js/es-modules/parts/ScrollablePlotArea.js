@@ -52,7 +52,7 @@ addEvent(Chart, 'afterSetChartSize', function (e) {
             scrollablePlotArea && scrollablePlotArea.minWidth,
         scrollablePixels;
 
-    if (scrollableMinWidth && !this.renderer.forExport) {
+    if (scrollableMinWidth) {
 
         // The amount of pixels to scroll, the difference between chart
         // width and scrollable width
@@ -129,11 +129,10 @@ Chart.prototype.setUpScrolling = function () {
 Chart.prototype.applyFixed = function () {
     var container = this.container,
         fixedRenderer,
-        scrollableWidth,
-        firstTime = !this.fixedDiv;
+        scrollableWidth;
 
     // First render
-    if (firstTime) {
+    if (!this.fixedDiv) {
 
         this.fixedDiv = H.createElement(
             'div',
@@ -205,12 +204,10 @@ Chart.prototype.applyFixed = function () {
     });
 
     // Set scroll position
-    if (firstTime) {
-        var options = this.options.chart.scrollablePlotArea;
-        if (options.scrollPositionX) {
-            this.scrollingContainer.scrollLeft =
-                this.scrollablePixels * options.scrollPositionX;
-        }
+    var options = this.options.chart.scrollablePlotArea;
+    if (options.scrollPositionX) {
+        this.scrollingContainer.scrollLeft =
+            this.scrollablePixels * options.scrollPositionX;
     }
 
     // Mask behind the left and right side

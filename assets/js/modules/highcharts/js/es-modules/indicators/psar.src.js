@@ -126,6 +126,7 @@ H.seriesType('psar', 'sma',
             }
         },
         /**
+         * @excluding index
          * @excluding period
          */
         params: {
@@ -207,10 +208,6 @@ H.seriesType('psar', 'sma',
                 prevPrevHigh,
                 newExtremePoint,
                 high, low, ind;
-
-            if (index >= yVal.length) {
-                return false;
-            }
 
             for (ind = 0; ind < index; ind++) {
                 extremePoint = Math.max(yVal[ind][1], extremePoint);

@@ -1,5 +1,5 @@
 /**
- * @license Highcharts JS v6.1.1 (2018-06-27)
+ * @license Highcharts JS v6.1.0 (2018-04-13)
  *
  * (c) 2009-2016 Torstein Honsi
  *
@@ -200,7 +200,7 @@
 
 		    /**
 		     * An array of background items for the pane.
-		     * @type {Array<Object>}
+		     * @type Array.<Object>
 		     * @sample {highcharts} highcharts/demo/gauge-speedometer/
 		     *         Speedometer gauge with multiple backgrounds
 		     * @optionparent pane.background
@@ -479,8 +479,6 @@
 		            if (!options.plotBands) {
 		                options.plotBands = [];
 		            }
-
-		            H.fireEvent(this, 'afterSetOptions');
 
 		        },
 
@@ -899,7 +897,7 @@
 		            this.startAngleRad = (paneOptions.startAngle - 90) * Math.PI / 180;
 		            this.endAngleRad = (
 		                pick(paneOptions.endAngle, paneOptions.startAngle + 360) - 90
-		            ) * Math.PI / 180; // Gauges
+		            ) *    Math.PI / 180; // Gauges
 		            this.offset = options.offset || 0;
 
 		        }
@@ -3521,8 +3519,6 @@
 		 *
 		 * @sample       highcharts/demo/waterfall/
 		 *               Waterfall chart
-		 * @sample       highcharts/plotoptions/waterfall-inverted/
-		 *               Horizontal (inverted) waterfall
 		 * @sample       highcharts/plotoptions/waterfall-stacked/
 		 *               Stacked waterfall chart
 		 * @extends      {plotOptions.column}
@@ -3626,32 +3622,6 @@
 		    showLine: true,
 
 		    /**
-		     * After generating points, set y-values for all sums.
-		     */
-		    generatePoints: function () {
-		        var previousIntermediate = this.options.threshold,
-		            point,
-		            len,
-		            i,
-		            y;
-		        // Parent call:
-		        seriesTypes.column.prototype.generatePoints.apply(this);
-
-		        for (i = 0, len = this.points.length; i < len; i++) {
-		            point = this.points[i];
-		            y = this.processedYData[i];
-		            // override point value for sums
-		            // #3710 Update point does not propagate to sum
-		            if (point.isSum) {
-		                point.y = correctFloat(y);
-		            } else if (point.isIntermediateSum) {
-		                point.y = correctFloat(y - previousIntermediate); // #3840
-		                previousIntermediate = y;
-		            }
-		        }
-		    },
-
-		    /**
 		     * Translate data points from raw values
 		     */
 		    translate: function () {
@@ -3704,6 +3674,13 @@
 		                [0, yValue]
 		            );
 
+		            // override point value for sums
+		            // #3710 Update point does not propagate to sum
+		            if (point.isSum) {
+		                point.y = correctFloat(yValue);
+		            } else if (point.isIntermediateSum) {
+		                point.y = correctFloat(yValue - previousIntermediate); // #3840
+		            }
 		            // up points
 		            y = Math.max(previousY, previousY + point.y) + range[0];
 		            shapeArgs.y = yAxis.translate(y, 0, 1, 0, 1);
@@ -3714,7 +3691,7 @@
 		                shapeArgs.height = Math.min(
 		                        yAxis.translate(range[0], 0, 1, 0, 1),
 		                        yAxis.len
-		                    ) - shapeArgs.y; // #4256
+		                    ) -    shapeArgs.y; // #4256
 
 		            } else if (point.isIntermediateSum) {
 		                shapeArgs.y = yAxis.translate(range[1], 0, 1, 0, 1);
@@ -4546,7 +4523,7 @@
 		                zMin = 0;
 		            }
 
-		            if (!isNumber(value)) {
+		            if (value === null) {
 		                radius = null;
 		            // Issue #4419 - if value is less than zMin, push a radius that's
 		            // always smaller than the minimum size
@@ -4720,7 +4697,7 @@
 		                series.maxPxSize = Math.max(extremes.maxSize, extremes.minSize);
 
 		                // Find the min and max Z
-		                zData = H.grep(series.zData, H.isNumber);
+		                zData = series.zData;
 		                if (zData.length) { // #1735
 		                    zMin = pick(seriesOptions.zMin, Math.min(
 		                        zMin,
@@ -5170,7 +5147,7 @@
 		                );
 		            }
 		        }
-		    }, { order: 2 }); // Run after translation of ||-coords
+		    });
 
 		    /**
 		     * Extend getSegmentPath to allow connecting ends across 0 to provide a
@@ -5509,8 +5486,4 @@
 		}
 
 	}(Highcharts));
-	return (function () {
-
-
-	}());
 }));

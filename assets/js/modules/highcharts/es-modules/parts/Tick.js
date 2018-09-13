@@ -126,8 +126,7 @@ H.Tick.prototype = {
      * edge, or hide them if they collide into the neighbour label.
      */
     handleOverflow: function (xy) {
-        var tick = this,
-            axis = this.axis,
+        var axis = this.axis,
             labelOptions = axis.options.labels,
             pxPos = xy.x,
             chartWidth = axis.chart.chartWidth,
@@ -146,7 +145,7 @@ H.Tick.prototype = {
                 axis.labelAlign || label.attr('align')
             ],
             labelWidth = label.getBBox().width,
-            slotWidth = axis.getSlotWidth(tick),
+            slotWidth = axis.getSlotWidth(),
             modifiedSlotWidth = slotWidth,
             xCorrection = factor,
             goRight = 1,

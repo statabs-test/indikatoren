@@ -115,7 +115,7 @@ H.setOptions({
                  * An array of boxes to avoid when laying out the labels. Each
                  * item has a `left`, `right`, `top` and `bottom` property.
                  *
-                 * @type {Array<Object>}
+                 * @type {Array.<Object>}
                  */
                 boxesToAvoid: []
             }
@@ -144,10 +144,10 @@ function intersectLine(x1, y1, x2, y2, x3, y3, x4, y4) {
  */
 function boxIntersectLine(x, y, w, h, x1, y1, x2, y2) {
     return (
-        intersectLine(x, y, x + w, y, x1, y1, x2, y2) || // top of label
+        intersectLine(x, y, x + w, y,         x1, y1, x2, y2) || // top of label
         intersectLine(x + w, y, x + w, y + h, x1, y1, x2, y2) || // right
         intersectLine(x, y + h, x + w, y + h, x1, y1, x2, y2) || // bottom
-        intersectLine(x, y, x, y + h, x1, y1, x2, y2)   // left of label
+        intersectLine(x, y, x, y + h,         x1, y1, x2, y2)   // left of label
     );
 }
 
@@ -271,7 +271,7 @@ Series.prototype.getPointsOnGraph = function () {
                 point.chartCenterY = paneTop + (
                     point.plotY +
                     pick(point.yBottom, translatedThreshold)
-                ) / 2;
+                ) /    2;
             }
 
             // Add interpolated points
@@ -549,12 +549,6 @@ Chart.prototype.drawSeriesLabels = function () {
                 y >= paneTop && y <= paneTop + paneHeight - bBox.height;
         }
 
-        function destroyLabel() {
-            if (label) {
-                series.labelBySeries = label.destroy();
-            }
-        }
-
         if (series.visible && !series.isSeriesBoosting && points) {
             if (!label) {
                 series.labelBySeries = label = chart.renderer
@@ -753,11 +747,9 @@ Chart.prototype.drawSeriesLabels = function () {
 
                 }
 
-            } else {
-                destroyLabel();
+            } else if (label) {
+                series.labelBySeries = label.destroy();
             }
-        } else {
-            destroyLabel();
         }
     });
     // console.timeEnd('drawSeriesLabels');

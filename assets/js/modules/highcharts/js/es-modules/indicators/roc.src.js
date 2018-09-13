@@ -67,6 +67,7 @@ seriesType('roc', 'sma',
      * @optionparent plotOptions.roc
      */
     {
+        name: 'Rate of Change (9)',
         params: {
             index: 3,
             period: 9

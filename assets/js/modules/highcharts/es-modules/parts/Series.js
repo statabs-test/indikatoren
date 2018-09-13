@@ -137,7 +137,8 @@ H.Series = H.seriesType('line', null, { // base series options
      * Allow this series' points to be selected by clicking on the graphic
      * (columns, point markers, pie slices, map areas etc).
      *
-     * @see [Chart#getSelectedPoints](Highcharts.Chart#getSelectedPoints).
+     * @see [Chart#getSelectedPoints]
+     *      (../class-reference/Highcharts.Chart#getSelectedPoints).
      *
      * @type {Boolean}
      * @sample {highcharts} highcharts/plotoptions/series-allowpointselect-line/
@@ -225,8 +226,8 @@ H.Series = H.seriesType('line', null, { // base series options
     },
 
     /**
-     * An additional class name to apply to the series' graphical elements. This
-     * option does not replace default class names of the graphical element.
+     * A class name to apply to the series' graphical elements.
+     *
      * @type {String}
      * @since 5.0.0
      * @apioption plotOptions.series.className
@@ -1871,7 +1872,7 @@ H.Series = H.seriesType('line', null, { // base series options
 
 
         /**
-         * The x position offset of the label relative to the point in pixels.
+         * The x position offset of the label relative to the point.
          *
          * @type {Number}
          * @sample {highcharts}
@@ -1883,7 +1884,7 @@ H.Series = H.seriesType('line', null, { // base series options
 
 
         /**
-         * The y position offset of the label relative to the point in pixels.
+         * The y position offset of the label relative to the point.
          *
          * @type {Number}
          * @sample {highcharts}
@@ -2210,8 +2211,7 @@ H.Series = H.seriesType('line', null, { // base series options
     /**
      * An array defining zones within a series. Zones can be applied to
      * the X axis, Y axis or Z axis for bubbles, according to the `zoneAxis`
-     * option. The zone definitions have to be in ascending order regarding to
-     * the value.
+     * option.
      *
      * In styled mode, the color zones are styled with the
      * `.highcharts-zone-{n}` class, or custom classed from the `className`
@@ -2325,7 +2325,7 @@ H.Series = H.seriesType('line', null, { // base series options
          * Read only. The chart that the series belongs to.
          *
          * @name chart
-         * @memberof Series
+         * @memberOf Series
          * @type {Chart}
          */
         series.chart = chart;
@@ -2336,7 +2336,7 @@ H.Series = H.seriesType('line', null, { // base series options
          * Series#update}.
          *
          * @name type
-         * @memberof Series
+         * @memberOf Series
          * @type String
          */
 
@@ -2345,7 +2345,7 @@ H.Series = H.seriesType('line', null, { // base series options
          * Series#update}.
          *
          * @name options
-         * @memberof Series
+         * @memberOf Series
          * @type SeriesOptions
          */
         series.options = options = series.setOptions(options);
@@ -2361,7 +2361,7 @@ H.Series = H.seriesType('line', null, { // base series options
              * "Series {n}".
              *
              * @name name
-             * @memberof Series
+             * @memberOf Series
              * @type {String}
              */
             name: options.name,
@@ -2372,7 +2372,7 @@ H.Series = H.seriesType('line', null, { // base series options
              * configuration.
              *
              * @name visible
-             * @memberof Series
+             * @memberOf Series
              * @type {Boolean}
              */
             visible: options.visible !== false, // true by default
@@ -2381,7 +2381,7 @@ H.Series = H.seriesType('line', null, { // base series options
              * Highcharts.Series#select}.
              *
              * @name selected
-             * @memberof Series
+             * @memberOf Series
              * @type {Boolean}
              */
             selected: options.selected === true // false by default
@@ -2438,7 +2438,7 @@ H.Series = H.seriesType('line', null, { // base series options
      * option. Used internally when adding series.
      *
      * @private
-     * @param   {Array<Series>} collection
+     * @param   {Array.<Series>} collection
      *          A collection of series, like `chart.series` or `xAxis.series`.
      * @returns {Number} The index of the series in the collection.
      */
@@ -2511,7 +2511,7 @@ H.Series = H.seriesType('line', null, { // base series options
                      * series.
                      *
                      * @name xAxis
-                     * @memberof Series
+                     * @memberOf Series
                      * @type Axis
                      */
                     /**
@@ -2519,7 +2519,7 @@ H.Series = H.seriesType('line', null, { // base series options
                      * series.
                      *
                      * @name yAxis
-                     * @memberof Series
+                     * @memberOf Series
                      * @type Axis
                      */
                     series[AXIS] = axis;
@@ -3322,7 +3322,7 @@ H.Series = H.seriesType('line', null, { // base series options
                  * - `dataGroup.length` is the amount of points in the group.
                  *
                  * @name dataGroup
-                 * @memberof Point
+                 * @memberOf Point
                  * @type {Object}
                  *
                  */
@@ -3370,9 +3370,9 @@ H.Series = H.seriesType('line', null, { // base series options
          * {@link Highcharts.Point#update}.
          *
          * @name data
-         * @memberof Highcharts.Series
+         * @memberOf Highcharts.Series
          * @see  Series.points
-         * @type {Array<Point>}
+         * @type {Array.<Highcharts.Point>}
          */
         series.data = data;
 
@@ -3386,7 +3386,7 @@ H.Series = H.seriesType('line', null, { // base series options
          * Highcharts.Point#update}.
          * @name points
          * @memberof Series
-         * @type {Array<Point>}
+         * @type {Array.<Point>}
          */
         series.points = points;
     },
@@ -3395,7 +3395,7 @@ H.Series = H.seriesType('line', null, { // base series options
      * Calculate Y extremes for the visible data. The result is set as
      * `dataMin` and `dataMax` on the Series item.
      *
-     * @param  {Array<Number>} [yData]
+     * @param  {Array.<Number>} [yData]
      *         The data to inspect. Defaults to the current data within the
      *         visible range.
      *
@@ -3646,13 +3646,13 @@ H.Series = H.seriesType('line', null, { // base series options
     /**
      * Return the series points with null points filtered out.
      *
-     * @param  {Array<Point>} [points]
+     * @param  {Array.<Point>} [points]
      *         The points to inspect, defaults to {@link Series.points}.
      * @param  {Boolean} [insideOnly=false]
      *         Whether to inspect only the points that are inside the visible
      *         view.
      *
-     * @return {Array<Point>}
+     * @return {Array.<Point>}
      *         The valid points.
      */
     getValidPoints: function (points, insideOnly) {

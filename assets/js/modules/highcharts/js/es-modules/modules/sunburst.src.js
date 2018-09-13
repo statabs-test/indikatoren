@@ -147,17 +147,13 @@ var layoutAlgorithm = function layoutAlgorithm(parent, children, options) {
         x = parent.x,
         y = parent.y,
         radius = (
-            (
-                options &&
-                isObject(options.levelSize) &&
-                isNumber(options.levelSize.value)
-            ) ?
+            isObject(options.levelSize) && isNumber(options.levelSize.value) ?
             options.levelSize.value :
             0
         ),
         innerRadius = parent.r,
         outerRadius = innerRadius + radius,
-        slicedOffset = options && isNumber(options.slicedOffset) ?
+        slicedOffset = isNumber(options.slicedOffset) ?
             options.slicedOffset :
             0;
 
@@ -183,8 +179,7 @@ var layoutAlgorithm = function layoutAlgorithm(parent, children, options) {
 
 var getDlOptions = function getDlOptions(params) {
     // Set options to new object to avoid problems with scope
-    var point = params.point,
-        shape = isObject(params.shapeArgs) ? params.shapeArgs : {},
+    var shape = isObject(params.shapeArgs) ? params.shapeArgs : {},
         optionsPoint = (
             isObject(params.optionsPoint) ?
             params.optionsPoint.dataLabels :
@@ -196,74 +191,29 @@ var getDlOptions = function getDlOptions(params) {
             {}
         ),
         options = merge({
-            style: {}
+            rotationMode: 'perpendicular',
+            style: {
+                width: shape.radius
+            }
         }, optionsLevel, optionsPoint),
         rotationRad,
-        rotation,
-        rotationMode = options.rotationMode;
-
+        rotation;
     if (!isNumber(options.rotation)) {
-        if (rotationMode === 'auto') {
-            if (
-                point.innerArcLength < 1 &&
-                point.outerArcLength > shape.radius
-            ) {
-                rotationRad = 0;
-            } else if (
-                point.innerArcLength > 1 &&
-                point.outerArcLength > 1.5 * shape.radius
-            ) {
-                rotationMode = 'parallel';
-            } else {
-                rotationMode = 'perpendicular';
-            }
-        }
-
-        if (rotationMode !== 'auto') {
-            rotationRad = (shape.end - (shape.end - shape.start) / 2);
-        }
-
-        if (rotationMode === 'parallel') {
-            options.style.width = Math.min(
-                shape.radius * 1.5,
-                (point.outerArcLength + point.innerArcLength) / 2
-            );
-        } else {
-            options.style.width = shape.radius;
-        }
-
-        if (
-            rotationMode === 'perpendicular' &&
-            point.series.chart.renderer.fontMetrics(options.style.fontSize).h >
-            point.outerArcLength
-        ) {
-            options.style.width = 1;
-        }
-
-        // Apply padding (#8515)
-        options.style.width = Math.max(
-            options.style.width - 2 * (options.padding || 0),
-            1
-        );
-
+        rotationRad = (shape.end - (shape.end - shape.start) / 2);
         rotation = (rotationRad * rad2deg) % 180;
-        if (rotationMode === 'parallel') {
+        if (options.rotationMode === 'parallel') {
             rotation -= 90;
         }
-
-        // Prevent text from rotating upside down
+        // Data labels should not rotate beyond 90 degrees, for readability.
         if (rotation > 90) {
             rotation -= 180;
-        } else if (rotation < -90) {
-            rotation += 180;
         }
-
         options.rotation = rotation;
     }
     // NOTE: alignDataLabel positions the data label differntly when rotation is
     // 0. Avoiding this by setting rotation to a small number.
     if (options.rotation === 0) {
-        options.rotation = 0.001;
+        options.rotation =  0.001;
     }
     return options;
 };
@@ -511,23 +461,19 @@ var sunburstOptions = {
      * @excluding align,allowOverlap,staggerLines,step
      */
     dataLabels: {
-        allowOverlap: true,
         defer: true,
         style: {
             textOverflow: 'ellipsis'
         },
         /**
-         * Decides how the data label will be rotated relative to the perimeter
-         * of the sunburst. Valid values are `auto`, `parallel` and
-         * `perpendicular`. When `auto`, the best fit will be computed for the
-         * point.
-         *
-         * The `series.rotation` option takes precedence over `rotationMode`.
-         *
+         * Decides how the data label will be rotated according to the perimeter
+         * of the sunburst. It can either be parallel or perpendicular to the
+         * perimeter.
+         * `series.rotation` takes precedence over `rotationMode`.
          * @since 6.0.0
-         * @validvalue ["auto", "perpendicular", "parallel"]
+         * @validvalue ["perpendicular", "parallel"]
          */
-        rotationMode: 'auto'
+        rotationMode: 'perpendicular'
     },
     /**
      * Which point to use as a root in the visualization.
@@ -593,7 +539,7 @@ var sunburstSeries = {
             shapeRoot = series.shapeRoot,
             group = series.group,
             hasRendered = series.hasRendered,
-            idRoot = series.rootNode,
+            idRoot = series.rootId,
             idPreviousRoot = series.idPreviousRoot,
             nodeMap = series.nodeMap,
             nodePreviousRoot = nodeMap[idPreviousRoot],
@@ -676,7 +622,6 @@ var sunburstSeries = {
                 isNull: !visible // used for dataLabels & point.draw
             });
             point.dlOptions = getDlOptions({
-                point: point,
                 level: level,
                 optionsPoint: point.options,
                 shapeArgs: shape
