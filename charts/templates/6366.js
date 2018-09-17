@@ -82,12 +82,12 @@
         ],                
 		series: [
             {
-              color: "#73B97C", // grün
+              color: "#008AC3", // blau
               borderWidth: 0.5,
               //pointWidth: 15
             }, 
             {
-              color: "#E6E600", //gelb
+              color: "#B00000", //rot
               borderWidth: 0-5,
               //pointWidth: 15
             },
