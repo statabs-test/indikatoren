@@ -88,7 +88,7 @@
             }, 
             {
               color: "#B00000", //rot
-              borderWidth: 0-5,
+              borderWidth: 0.5,
               //pointWidth: 15
             },
 	    ],
