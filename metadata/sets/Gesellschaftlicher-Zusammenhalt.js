@@ -30,7 +30,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4716
+		"id": 4716,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Erhaltene materielle Hilfeleistungen",
@@ -63,7 +64,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4718
+		"id": 4718,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung von gesellschaftlicher Vielfalt",
@@ -96,7 +98,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4719
+		"id": 4719,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung des Wohnorts",
@@ -129,7 +132,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4720
+		"id": 4720,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung des Wohnquartiers",
@@ -162,7 +166,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4721
+		"id": 4721,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
@@ -198,12 +203,13 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4722
+		"id": 4722,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Vertretung der Anliegen der Bevölkerung durch Behörden",
-		"subtitle": "«Wie gut vertreten die Behörden, also der Regierungsrat und der Grosse Rat, die Anliegen der Bevölkerung?»",
-		"kuerzel": "I.50.1.04724",
+		"subtitle": "«Wie gut vertreten Ihrer Meinung nach die Behörden, also der Regierungsrat und der Grosse Rat, die Anliegen der Bevölkerung?»",
+		"kuerzel": "I.50.1.4724",
 		"kuerzelKunde": "2.2.01",
 		"description": "Vertretung der Anliegen der Bevölkerung durch Behörden",
 		"thema": "50 Befragungen",
@@ -218,14 +224,17 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2015 fühlten sich 68,2% der befragten Personen sehr oder eher gut von den Behörden vertreten. Im Vergleich zu 2011 entspricht dies einem Rückgang um 2,2 Prozentpunkte. In den vorhergehenden Befragungsjahren lag die Zufriedenheit mit der Vertretung durch die Behörden jeweils deutlich unter derjenigen von 2011 und 2015 und die Frage konnte deutlich häufiger nicht beantwortet werden.",
+		"lesehilfe": "2015 fühlten sich 68% der befragten Personen sehr oder eher gut von den Behörden vertreten. Im Vergleich zu 2011 entspricht dies einem Rückgang um 2 Prozentpunkte. In den vorhergehenden Befragungsjahren lag die Zufriedenheit mit der Vertretung durch die Behörden jeweils deutlich unter derjenigen von 2011 und 2015 und die Frage konnte deutlich häufiger nicht beantwortet werden.",
 		"erlaeuterungen": "",
-		"template": "befragungen001",
+		"template": "befragungenProzent001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [
 			"5138",
-			"6185"
+			"6185",
+			"6331"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -267,7 +276,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4848
+		"id": 4848,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung des Verhältnisses zur Nachbarschaft",
@@ -300,7 +310,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4849
+		"id": 4849,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zusammensetzung des Freundeskreises",
@@ -335,7 +346,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4850
+		"id": 4850,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit dem Austausch mit der Nachbarschaft",
@@ -368,7 +380,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4851
+		"id": 4851,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Sicherheitsgefühl im Alltag",
@@ -401,7 +414,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4852
+		"id": 4852,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bedrohungen und Angriffe",
@@ -434,7 +448,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4853
+		"id": 4853,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Sicherheitsgefühl nachts im Quartier",
@@ -467,7 +482,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4854
+		"id": 4854,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung des Ausländeranteils",
@@ -500,7 +516,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4855
+		"id": 4855,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung des Beitrags der ausländischen Bevölkerung zur Lebensqualität",
@@ -533,7 +550,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4856
+		"id": 4856,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der Schulen in Basel-Stadt",
@@ -566,7 +584,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4857
+		"id": 4857,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der Chancengleichheit",
@@ -599,7 +618,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4858
+		"id": 4858,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der kantonalen Verwaltung",
@@ -634,7 +654,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4859
+		"id": 4859,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der kantonalen Steuern",
@@ -669,7 +690,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4860
+		"id": 4860,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der eigenen wirtschaftlichen Situation",
@@ -702,7 +724,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4861
+		"id": 4861,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der Bildungschancen",
@@ -735,7 +758,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4862
+		"id": 4862,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Steuerveranlagungen mit Zuwendungen",
@@ -768,7 +792,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4863
+		"id": 4863,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Freiwillige Tätigkeit",
@@ -801,7 +826,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4864
+		"id": 4864,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit im Alter",
@@ -834,7 +860,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4865
+		"id": 4865,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Anzeigen, die das Strafgesetzbuch (StGB) betreffen, pro 1000 Einwohner im Alter von 18 und mehr Jahren",
@@ -868,7 +895,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4866
+		"id": 4866,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Anzeigen wegen Veruntreuung und Betrug pro 1000 Einwohner im Alter von 18 und mehr Jahren",
@@ -902,7 +930,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4867
+		"id": 4867,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Anzeigen wegen Diebstahl (ohne Fahrzeugdiebstahl/-entwendung) pro 1000 Einwohner im Alter von 18 und mehr Jahren",
@@ -936,7 +965,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4868
+		"id": 4868,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Anzeigen wegen Körperverletzung pro 1000 Einwohner im Alter von 18 und mehr Jahren",
@@ -970,7 +1000,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4869
+		"id": 4869,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Engagement in Organisationen und Vereinen",
@@ -1005,7 +1036,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4870
+		"id": 4870,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wahlbeteiligung an National- und Grossratswahlen",
@@ -1040,7 +1072,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4871
+		"id": 4871,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Interesse an der Politik in Basel-Stadt",
@@ -1073,7 +1106,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4872
+		"id": 4872,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Politikinteresse der über 54-Jährigen",
@@ -1106,7 +1140,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4874
+		"id": 4874,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit Sozialkontakten im Wohnumfeld",
@@ -1139,7 +1174,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4875
+		"id": 4875,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Gedanken über die Arbeitsstelle",
@@ -1172,7 +1208,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4931
+		"id": 4931,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Gründe für Gedanken über die Arbeitsstelle",
@@ -1205,7 +1242,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4932
+		"id": 4932,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Politikinteresse der unter 30-Jährigen",
@@ -1238,6 +1276,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4933
+		"id": 4933,
+		"darstellungsart": "Grafik"
 	}
 ];

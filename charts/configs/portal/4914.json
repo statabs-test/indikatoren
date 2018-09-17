@@ -78,7 +78,7 @@
           13
         ]
       ],
-      "name": "Anzahl Betriebe (linke Achse)"
+      "name": "Anzahl Betriebe"
     },
     {
       "color": "#73b97c",
@@ -255,7 +255,7 @@
         }
       },
       "min": 0,
-      "max": 30
+      "max": 50
     },
     {
       "title": {

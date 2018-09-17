@@ -33,7 +33,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2501
+		"id": 2501,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der Vereinbarkeit von Familie und Beruf nach Geschlecht, Herkunft und Altersgruppe",
@@ -68,7 +69,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2952
+		"id": 2952,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit dem Kulturangebot nach Geschlecht, Herkunft und Altersgruppe",
@@ -103,7 +105,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2953
+		"id": 2953,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit der Gesundheitsversorgung nach Geschlecht, Herkunft und Altersgruppe",
@@ -138,7 +141,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2956
+		"id": 2956,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
@@ -173,7 +177,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 3051
+		"id": 3051,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Durch BaselArea unterstützte internationale Ansiedlungen",
@@ -208,7 +213,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 3086
+		"id": 3086,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Globale und kontinentale Erreichbarkeit",
@@ -245,7 +251,8 @@ var indikatorensetData = [
 			"Weiterführende Informationen: <a href = 'https://www.bak-economics.com/en/solutions/regional-analysis/region-international/location-factors/erreichbarkeit/' target = '_blank'>BAK Economics</a> und",
 			"<a href = 'http://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/erreichbarkeit.html' target = '_blank'>Amt für Mobilität</a>"
 		],
-		"id": 3104
+		"id": 3104,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Transnationale Patentanmeldungen pro 1000 Einwohner",
@@ -280,7 +287,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5033
+		"id": 5033,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Neugründungen in Basel-Stadt",
@@ -316,7 +324,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5041
+		"id": 5041,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bezüger von Prämienverbilligungen",
@@ -353,7 +362,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5066
+		"id": 5066,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bruttoinlandprodukt in Franken pro Einwohner",
@@ -389,7 +399,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6124
+		"id": 6124,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Kantonaler Wettbewerbsindikator (KWI)",
@@ -425,7 +436,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6126
+		"id": 6126,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Kantonales Wettbewerbsprofil",
@@ -460,7 +472,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6127
+		"id": 6127,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Steuereinnahmen aus Quellensteuer",
@@ -495,7 +508,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6128
+		"id": 6128,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "NFA-Ressourcenindex",
@@ -530,7 +544,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6129
+		"id": 6129,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
@@ -565,7 +580,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6130
+		"id": 6130,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -606,7 +622,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6131
+		"id": 6131,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
@@ -643,7 +660,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6132
+		"id": 6132,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der kantonalen Steuern",
@@ -678,7 +696,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6133
+		"id": 6133,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
@@ -714,7 +733,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6134
+		"id": 6134,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Höchste abgeschlossene Ausbildung",
@@ -750,7 +770,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6136
+		"id": 6136,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
@@ -786,7 +807,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6137
+		"id": 6137,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -821,7 +843,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6138
+		"id": 6138,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Aufwendungen für Forschung und Entwicklung",
@@ -857,7 +880,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6140
+		"id": 6140,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil der Beschäftigten in innovativen Branchen",
@@ -894,7 +918,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6141
+		"id": 6141,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerungsbestand am Jahresende",
@@ -927,7 +952,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6143
+		"id": 6143,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerung nach sozioprofessioneller Kategorie",
@@ -963,7 +989,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6144
+		"id": 6144,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung von gesellschaftlicher Vielfalt",
@@ -1000,7 +1027,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6146
+		"id": 6146,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Verhältnis der Löhne von Frauen und Männern",
@@ -1034,7 +1062,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6147
+		"id": 6147,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Arbeitnehmende in Leitungsfunktionen",
@@ -1071,7 +1100,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6148
+		"id": 6148,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Einbürgerungsziffer der ausländischen Bevölkerung sowie Ausländeranteil",
@@ -1107,7 +1137,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6149
+		"id": 6149,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mittelwert und Median des Reineinkommens",
@@ -1144,7 +1175,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6150
+		"id": 6150,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Geschlecht",
@@ -1179,7 +1211,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6151
+		"id": 6151,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Segregationsindex nach Staatsangehörigkeit",
@@ -1217,11 +1250,12 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6152
+		"id": 6152,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Verkehrsleistungsindex",
-		"subtitle": "Indexwert (Basis 2010 = 100)",
+		"subtitle": "Indexwert (Basis 2010 = 100), Basel-Stadt",
 		"kuerzel": "I.11.6.6154",
 		"kuerzelKunde": "5.2",
 		"description": "Verkehrsleistungsindex",
@@ -1240,6 +1274,7 @@ var indikatorensetData = [
 		"lesehilfe": "Die Fahrleistung des motorisierten Individualverkehrs (MIV Total) auf Kantonsgebiet liegt 2017 um 0,2%, diejenige des Veloverkehrs um 25,6% höher als im Jahr 2010. Der Wert für Fussgänger stieg von 2013 bis 2014 um 7 Prozentpunkte, sank dann aber wieder und liegt 2017 bei einen Indexwert von 103,7.",
 		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Die Veränderung gegenüber dem Referenzjahr 2010 wird in Prozent dargestellt (indexiert, 2010 = 100). <br/><br/>Autoverkehr:<br/> Der Index für den motorisierten Individualverkehr berechnet sich anhand von rund 40 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamts für Strassen. Der Index umfasst die Verkehrsleistung aller Motorfahrzeuge (inkl. Lastwagen, Lieferwagen, Motorrädern), aber ohne Linienbusse, Motorfahrräder und E-Bikes auf baselstädtischem Kantonsgebiet. <br/><br/>Veloverkehr: <br/>Der Index für den Veloverkehr wird auf Basis von rund 20 Zählstellen des Kantons Basel-Stadt berechnet. Da der Veloverkehr stark wetterabhängig ist, wurde vom Statistischen Amt des Kantons Basel-Stadt ein Modell entwickelt, welches es zulässt, den Wettereinfluss aus der Verkehrsentwicklung herauszurechnen. <br/> <br/>Fussverkehr:<br/>Der Index für den Fussverkehr basiert auf rund 17 Zählstellen. Die Daten werden erst seit dem Jahr 2013 erhoben. <br/><br/>Öffentlicher Verkehr: <br/>Der Index des öffentlichen Verkehrs wird auf Basis der Verkehrsdaten von Tram- und Buslinien der BVB, der BLT und Aagl und den S-Bahnen, abgegrenzt auf das Gebiet des Kantons Basel-Stadt, berechnet.<br/> <br/>Für den Auto- und Veloverkehr werden aus der Veränderung an den Zählstellen die Veränderung auf dem ganzen Kantonsgebiet abgeleitet, indem jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet wird. Der Zählstellen des Fussverkehrs werden über den «Mikrozensus Verkehr» gewichtet.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "05_00_00_00_00_002",
 		"parentId": null,
@@ -1261,7 +1296,7 @@ var indikatorensetData = [
 	{
 		"title": "Transit durch die Region Basel",
 		"subtitle": "in Brutto-Tonnen nach Verkehrsträger",
-		"kuerzel": "I.06.4.06155",
+		"kuerzel": "I.06.4.6155",
 		"kuerzelKunde": "5.3",
 		"description": "Transit durch die Region Basel",
 		"thema": "06 Produktion, Handel",
@@ -1270,15 +1305,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-12T14:00:02.022",
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Transit durch die Region Basel nimmt auf der Strasse  seit 2010 kontinuierlich ab. Der Transit auf den Schienen hat seit 2007 zugenommen.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Der Transit durch die Region Basel nimmt auf der Strasse seit 2010 kontinuierlich ab. Auch der Transit auf  Schienen ist nach einer längeren Wachstumsphase seit 2015 rückläufig.",
+		"erlaeuterungen": "Die Region Basel besteht aus den Zollzonen Basel rechts, Basel links, Flughafen Basel-Mülhausen und Rheinhafen BS/BL. Mit Transit wird die Ware gemeint, welche die Schweiz durchquert. Am jeweiligen Zollamt wird die Ware registriert, welche in die resp. aus der Region transportiert wird. Für die Pipeline wird nur der Eingang angezeigt, da keine Waren aus der Region durch die Pipeline transportiert werden.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "05_00_00_00_00_003",
 		"parentId": null,
 		"children": [
@@ -1326,11 +1363,12 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6156
+		"id": 6156,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Luftqualität: Langzeitbelastung der Luft",
-		"subtitle": "Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10) in Mikrogramm pro m<sup>3</sup>",
+		"subtitle": "Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10) in Mikrogramm pro m<sup>3</sup>, Basel-Stadt",
 		"kuerzel": "I.02.5.6157",
 		"kuerzelKunde": "7.7",
 		"description": "Luftqualität: Langzeitbelastung der Luft",
@@ -1349,6 +1387,7 @@ var indikatorensetData = [
 		"lesehilfe": "Sowohl die Stickstoffdioxid- als auch die Feinstaubkonzentrationen lagen 2016 mit 27,8 resp. 16,1 Mikrogramm pro Kubikmeter unter dem jeweiligen Grenzwert.",
 		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung. Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen im Kanton Basel-Stadt: St. Johanns-Platz (PM10, NO<sub>2</sub>), Spalenring (NO<sub>2</sub>), Dreirosenbrücke Süd (NO<sub>2</sub>).<br><br>Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Sie sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und - zusammen mit flüchtigen organischen Verbindungen - von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.<br><br>Unter Feinstaub (PM10) versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub (PM10) ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. <br>Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub (PM10) 20 μg/m<sup>3</sup>.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "07_00_00_00_00_007",
 		"parentId": null,
@@ -1400,11 +1439,12 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6158
+		"id": 6158,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Übermässig mit Lärm belastete Wohnbevölkerung",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.02.14.6159",
 		"kuerzelKunde": "7.8",
 		"description": "Übermässig mit Lärm belastete Wohnbevölkerung",
@@ -1423,6 +1463,7 @@ var indikatorensetData = [
 		"lesehilfe": "Der Anteil der Einwohner, welche an ihrem Wohnort in der Nacht einer Lärmbelastung von über 50 dB(A) ausgesetzt sind, betrug 2008 24,6%. Bei 14,5% der Einwohner wurde der Tagesgrenzwert überschritten, bei 16,2% der Grenzwert in der Nacht.",
 		"erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche an ihrem Wohnort einer Lärmbelastung über dem Immissionsgrenzwert gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Die in der LSV festgehaltenen Immissionsgrenzwerte drücken das Mass an Lärmbelastung aus, das zirka 75% der Bevölkerung erträgt, ohne sich erheblich gestört zu fühlen. Wohngebiete sind gemäss Lärmempfindlichkeits&shy;stufen&shy;plan den Stufen II (Wohnzonen) und III (Wohn-/Gewerbezonen) mit unterschiedlichen Immissionsgrenzwerten zugeteilt: ES II: 60 dB(A) Tag, 50 dB(A) Nacht, ES III: 65 dB(A) Tag, 55 dB(A) Nacht; dB(A) ist die übliche Masseinheit zur Messung von Lärmstärke.<br><br>Die angegebenen Werte beruhen auf Modellierungen. Die Lärmimmission an den Gebäuden werden in einem 3D-Oberflächenmodell (Gelände, Gebäude, Hindernisse) auf Basis des Emissionskatasters für Strassenverkehrslärm berechnet. Sobald ein Teil eines Gebäudes, z. B. eine Fassade oder die oberen Geschosse, welche nicht durch eine Lärmschutzwand geschützt werden, von Grenzwertüberschreitungen (gemäss LSV) betroffen sind, werden sämtliche Bewohner des Gebäudes als lärmbelastete Personen gezählt. Die Ausrichtung der einzelnen Wohnungen fliesst nicht in die Beurteilung ein. Weiter werden lärmempfindliche Räume in Betrieben nicht berücksichtigt.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "07_00_00_00_00_008",
 		"parentId": null,
@@ -1476,7 +1517,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6160
+		"id": 6160,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil erneuerbare Energie am Bruttoenergieverbrauch",
@@ -1513,7 +1555,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6161
+		"id": 6161,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
@@ -1550,11 +1593,12 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6163
+		"id": 6163,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wasserqualität: AOX-Konzentration",
-		"subtitle": "in Milligramm pro Liter gereinigtem Abwasser",
+		"subtitle": "in Milligramm pro Liter gereinigtem Abwasser in der ARA Basel",
 		"kuerzel": "I.02.19.6164",
 		"kuerzelKunde": "7.4",
 		"description": "Wasserqualität: AOX-Konzentration",
@@ -1573,6 +1617,7 @@ var indikatorensetData = [
 		"lesehilfe": "Die mittlere AOX-Fracht betrug im Jahr 2017 0,035 mg/l gereinigtem Abwasser. Sie lag damit unter dem Grenzwert von 0,08 mg/l.",
 		"erlaeuterungen": "AOX sind an Aktivkohle adsorbierbare organische Halogenverbindungen. Diese Fluor-, Chlor- und Bromverbindungen (wobei Chlorkohlenwasserstoffe in der Regel am häufigsten vorkommen) können als Verluste oder Nebenprodukte aus industriellen und gewerblichen Produktionen ins Wasser gelangen. Auch chlorhaltige Reinigungsmittel aus Haushalten tragen zur Belastung der Abwässer bei. Die AOX-Konzentration wird im gereinigten Abwasser in den Abläufen der Abwasserreinigungsanlagen (ARA) gemessen. Der Indikator zeigt den Jahresmittelwert in Milligramm AOX pro Liter. <br><br>Im Auslauf der ARA wird mehrmals pro Jahr die AOX-Konzentration in Form von Tagessammelmustern gemessen. Der Mittelwert aller Messungen eines Jahres entspricht dem Jahreswert. In der Gewässerschutzverordnung ist für die Einleitung von kommunalem Abwasser in Gewässer ein AOX-Grenzwert von 0.08 mg/l definiert.<br><br>Das Abwasser aus Basel-Stadt wird in der ARA Basel gereinigt. Deren Einzugsgebiet umfasst auch die Gemeinden Allschwil, Binningen, Birsfelden, Bottmingen, Münchenstein (Ortsteil Brüglingen), Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Neuwiller (F).",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "07_00_00_00_00_004",
 		"parentId": null,
@@ -1626,7 +1671,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6165
+		"id": 6165,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wassertemperatur Grundwasser",
@@ -1663,7 +1709,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6166
+		"id": 6166,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Besuche in Theater, Kinos und Museen",
@@ -1701,7 +1748,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6169
+		"id": 6169,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -1736,7 +1784,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6170
+		"id": 6170,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -1771,7 +1820,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6172
+		"id": 6172,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bezügerinnen und Bezüger von Prämienverbilligung",
@@ -1808,7 +1858,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6173
+		"id": 6173,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Stationäre Fälle in Basler Spitälern",
@@ -1843,7 +1894,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6175
+		"id": 6175,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Straftaten nach StGB pro 1000 Einwohner",
@@ -1880,7 +1932,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6176
+		"id": 6176,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Strassenverkehrsunfälle",
@@ -1916,7 +1969,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6177
+		"id": 6177,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Störfälle und Ereignisse",
@@ -1953,7 +2007,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6179
+		"id": 6179,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung",
@@ -1990,7 +2045,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6181
+		"id": 6181,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Sozialhilfequote nach Altersgruppe",
@@ -2028,7 +2084,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6182
+		"id": 6182,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
@@ -2066,7 +2123,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6183
+		"id": 6183,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -2101,11 +2159,12 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6184
+		"id": 6184,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Vertretung der Anliegen der Bevölkerung durch Behörden",
-		"subtitle": "«Wie gut vertreten Ihrer Meinung nach die Behörden, also der Regierungsrat und der Grosse Rat, die Anliegen von der Bevölkerung?»",
+		"subtitle": "«Wie gut vertreten Ihrer Meinung nach die Behörden, also der Regierungsrat und der Grosse Rat, die Anliegen der Bevölkerung?»",
 		"kuerzel": "I.50.1.06185",
 		"kuerzelKunde": "12.1",
 		"description": "Vertretung der Anliegen der Bevölkerung durch Behörden",
@@ -2115,20 +2174,20 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2017-03-13T17:10:58.5858",
 		"stufe1": "Ziel 12:  Der Service public ist modern und kundenfreundlich.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2015 fühlten sich 68,2% der befragten Personen sehr oder eher gut von den Behörden vertreten. Im Vergleich zu 2011 entspricht dies einem Rückgang um 2,2 Prozentpunkte. In den vorhergehenden Befragungsjahren lag die Zufriedenheit mit der Vertretung durch die Behörden jeweils deutlich unter derjenigen von 2011 und 2015, und die Frage konnte deutlich häufiger nicht beantwortet werden.",
+		"lesehilfe": "2015 fühlten sich 68% der befragten Personen sehr oder eher gut von den Behörden vertreten. Im Vergleich zu 2011 entspricht dies einem Rückgang um 2 Prozentpunkte. In den vorhergehenden Befragungsjahren lag die Zufriedenheit mit der Vertretung durch die Behörden jeweils deutlich unter derjenigen von 2011 und 2015 und die Frage konnte deutlich häufiger nicht beantwortet werden.",
 		"erlaeuterungen": "",
-		"template": "befragungen001",
+		"template": "befragungenProzent001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "12_00_00_00_00_001",
 		"parentId": 4724,
-		"children": [
-			"6331"
-		],
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F21a"
@@ -2171,7 +2230,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6186
+		"id": 6186,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
@@ -2206,7 +2266,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6201
+		"id": 6201,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
@@ -2241,7 +2302,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6202
+		"id": 6202,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Kantonales BIP im Vergleich zu den Staatsausgaben",
@@ -2277,7 +2339,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6205
+		"id": 6205,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
@@ -2312,7 +2375,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6206
+		"id": 6206,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Lernende an Basler Berufsfachschulen",
@@ -2347,7 +2411,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6209
+		"id": 6209,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Plätze in Tagesbetreuungsangeboten",
@@ -2382,7 +2447,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6210
+		"id": 6210,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Nettoschuldenquote und Nettoschulden pro Kopf",
@@ -2419,7 +2485,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6211
+		"id": 6211,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Alter",
@@ -2454,7 +2521,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6213
+		"id": 6213,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Einkommensklasse",
@@ -2489,7 +2557,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6228
+		"id": 6228,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
@@ -2524,7 +2593,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6239
+		"id": 6239,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
@@ -2559,7 +2629,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6240
+		"id": 6240,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Herkunft",
@@ -2594,7 +2665,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6266
+		"id": 6266,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Medianprämie pro Prämienregion",
@@ -2631,7 +2703,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6346
+		"id": 6346,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Beschäftigte nach Branche",
@@ -2665,7 +2738,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6347
+		"id": 6347,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Standortqualitätsindikator (SQI)",
@@ -2701,7 +2775,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6348
+		"id": 6348,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der Kantonspolizei",
@@ -2736,7 +2811,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Der Ergebnisbericht von 2015 ist auf der <a href = 'http://www.polizei.bs.ch/ueber-uns/kundenbefragungen.html' target = '_blank'>Internetseite der Kantonspolizei</a> publiziert."
 		],
-		"id": 6437
+		"id": 6437,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der Kantonspolizei",
@@ -2771,6 +2847,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Der Ergebnisbericht von 2015 ist auf der <a href = 'http://www.polizei.bs.ch/ueber-uns/kundenbefragungen.html' target = '_blank'>Internetseite der Kantonspolizei</a> publiziert."
 		],
-		"id": 6438
+		"id": 6438,
+		"darstellungsart": "Grafik"
 	}
 ];

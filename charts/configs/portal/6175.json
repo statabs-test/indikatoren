@@ -99,7 +99,7 @@
           34347
         ],
         [
-          "         ",
+          "        ",
           null
         ],
         [
@@ -109,9 +109,21 @@
         [
           "2016 Nicht-BS",
           36999
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "2017 BS",
+          28361
+        ],
+        [
+          "2017 Nicht-BS",
+          40050
         ]
       ],
-      "name": "Akutsomatik",
+      "name": "Wohnort",
       "turboThreshold": 0
     },
     {
@@ -213,7 +225,7 @@
           857
         ],
         [
-          "         ",
+          "        ",
           null
         ],
         [
@@ -223,9 +235,21 @@
         [
           "2016 Nicht-BS",
           927
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "2017 BS",
+          3117
+        ],
+        [
+          "2017 Nicht-BS",
+          1962
         ]
       ],
-      "name": "Geriatrie",
+      "name": "Akutsomatik",
       "turboThreshold": 0
     },
     {
@@ -327,7 +351,7 @@
           1012
         ],
         [
-          "         ",
+          "        ",
           null
         ],
         [
@@ -337,9 +361,21 @@
         [
           "2016 Nicht-BS",
           1023
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "2017 BS",
+          2288
+        ],
+        [
+          "2017 Nicht-BS",
+          1441
         ]
       ],
-      "name": "Psychiatrie",
+      "name": "Geriatrie",
       "turboThreshold": 0
     },
     {
@@ -441,7 +477,7 @@
           1456
         ],
         [
-          "         ",
+          "        ",
           null
         ],
         [
@@ -451,9 +487,21 @@
         [
           "2016 Nicht-BS",
           1532
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "2017 BS",
+          1736
+        ],
+        [
+          "2017 Nicht-BS",
+          1825
         ]
       ],
-      "name": "Rehabilitation",
+      "name": "Psychiatrie",
       "turboThreshold": 0
     }
   ],
