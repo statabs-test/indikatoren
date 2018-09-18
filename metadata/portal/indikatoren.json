@@ -7599,8 +7599,8 @@
 	},
 	{
 		"title": "Übergewichtige Kinder",
-		"subtitle": "nach Schulstufe, Heimat und Geschlecht in %",
-		"kuerzel": "I.14.1.05182",
+		"subtitle": "nach Schulstufe, Heimat und Geschlecht in %, Basel-Stadt",
+		"kuerzel": "I.14.1.5182",
 		"kuerzelKunde": "GW5",
 		"description": "Übergewichtige Kinder",
 		"thema": "14 Gesundheit",
@@ -7615,9 +7615,10 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Schuljahr 2014/2015 waren 19% der Schweizer Mädchen in der neunten Klasse übergewichtig, d.h. sie hatten einen BMI-Wert, der über dem Referenzwert für Übergewicht für ihr Alter und Geschlecht lag.",
+		"lesehilfe": "Im Schuljahr 2015/2016 waren 23% der Schweizer Mädchen in der neunten Klasse übergewichtig, d.h. sie hatten einen BMI-Wert, der über dem Referenzwert für Übergewicht für ihr Alter und Geschlecht lag.",
 		"erlaeuterungen": "Die Daten werden im Rahmen der schulärztlichen Untersuchunen und nur für die dargestellten Schulstufen erhoben. Die BMI-Referenzwerte für Übergewicht variieren nach Alter und Geschlecht und werden von Zeit zu Zeit neu erhoben. Damit die Anteile vergleichbar bleiben, werden stets dieselben Referenzwerte nach Tim J Cole (BMJ Vol. 320, 5/2000) verwendet.",
 		"template": "template001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_02_00_00_00_305",
 		"parentId": null,
@@ -7665,6 +7666,44 @@
 			""
 		],
 		"id": 5186,
+		"darstellungsart": "Grafik"
+	},
+	{
+		"title": "Anzahl Gewaltstraftaten pro 100 000 Einwohner",
+		"subtitle": "",
+		"kuerzel": "I.19.1.5188",
+		"kuerzelKunde": "GW11",
+		"description": "Anzahl Gewaltstraftaten pro 100 000 Einwohner",
+		"thema": "19 Rechtspflege",
+		"unterthema": "Polizei",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2017-03-14T14:15:17.1717",
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
+		"stufe2": "Sicherheit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Zahl der Gewaltstraftaten (vorsätzliche Tötungs- und Körperverletzungsdelikte, Raub, Vergewaltigung) pro 100 000 Einwohner der mittleren Wohnbevölkerung ging von 2004 bis 2007 zurück, bevor bis 2011 wieder ein Anstieg auf 464 Delikte folgte. Nach einem erneuten Rückgang bis 2015 folgte ein leichter Anstieg auf 358 Gewaltstraftaten pro 100 000 Einwohner im Jahr 2016.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "03_04_00_00_00_311",
+		"parentId": null,
+		"children": [
+			"4923"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 5188,
 		"darstellungsart": "Grafik"
 	},
 	{
@@ -8926,24 +8965,25 @@
 	{
 		"title": "Hitzetage",
 		"subtitle": "Anzahl Tage",
-		"kuerzel": "I.02.3.06033",
+		"kuerzel": "I.02.12.06033",
 		"kuerzelKunde": "NL12",
 		"description": "Hitzetage",
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "Witterung",
+		"unterthema": "Klima",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2017 wurden 28 Hitzetage verzeichnet. Das Maximum innerhalb des dargestellten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
-		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat.<br><b<br>Die Summe der Tage eines Jahres, an denen das Maximum der Lufttemperatur über 30&nbsp;°C liegt, ergibt die Anzahl Hitzetage pro Jahr. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33&#039; N / 7°35&#039; E).",
-		"template": "stock001",
+		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht. <br>Die Summe der Tage eines Jahres, an denen das Maximum der Lufttemperatur über 30&nbsp;°C liegt, ergibt die Anzahl Hitzetage pro Jahr. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33&#039; N / 7°35&#039; E).",
+		"template": "line001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_02_00_00_00_412",
 		"parentId": 4300,
@@ -11919,8 +11959,8 @@
 	},
 	{
 		"title": "Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung",
-		"subtitle": "",
-		"kuerzel": "I.13.2.06181",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.13.2.6181",
 		"kuerzelKunde": "11.2",
 		"description": "Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung",
 		"thema": "13 Soziale Sicherheit",
@@ -11929,7 +11969,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-16T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-18T16:01:08.088",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
@@ -11938,6 +11978,7 @@
 		"lesehilfe": "2,3% der baselstädtischen Haushalte erhalten Ende 2017 Familienmietzinsbeiträge. In 14,7% der Haushalte bezieht mindestens eine Person reine Prämienverbilligung.",
 		"erlaeuterungen": "FAMI: Familienmietzinsbeiträge<br>Anteil Haushalte mit Prämienverbilligung: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
 		"template": "line001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "11_00_00_00_00_002",
 		"parentId": null,

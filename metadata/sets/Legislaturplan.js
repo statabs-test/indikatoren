@@ -2013,8 +2013,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung",
-		"subtitle": "",
-		"kuerzel": "I.13.2.06181",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.13.2.6181",
 		"kuerzelKunde": "11.2",
 		"description": "Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung",
 		"thema": "13 Soziale Sicherheit",
@@ -2023,7 +2023,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-16T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-18T16:01:08.088",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2032,6 +2032,7 @@ var indikatorensetData = [
 		"lesehilfe": "2,3% der baselstädtischen Haushalte erhalten Ende 2017 Familienmietzinsbeiträge. In 14,7% der Haushalte bezieht mindestens eine Person reine Prämienverbilligung.",
 		"erlaeuterungen": "FAMI: Familienmietzinsbeiträge<br>Anteil Haushalte mit Prämienverbilligung: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
 		"template": "line001",
+		"printformat": "",
 		"orderKey": "11_00_00_00_00_002",
 		"parentId": null,
 		"children": [

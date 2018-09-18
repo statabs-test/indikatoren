@@ -1,10 +1,7 @@
 {
   "series": [
     {
-      "color": "#b00000 ",
-      "marker": {
-        "enabled": true
-      },
+      "color": "#b00000",
       "data": [
         [
           2010,
@@ -33,15 +30,16 @@
         [
           2016,
           97.2
+        ],
+        [
+          2017,
+          95.2
         ]
       ],
       "name": "MIV Stadtstrassennetz"
     },
     {
       "color": "#672773",
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2010,
@@ -69,16 +67,17 @@
         ],
         [
           2016,
-          101
+          101.4
+        ],
+        [
+          2017,
+          100.2
         ]
       ],
       "name": "MIV Total"
     },
     {
       "color": "#007a2f",
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2010,
@@ -86,73 +85,37 @@
         ],
         [
           2011,
-          103.0994
+          102.5897
         ],
         [
           2012,
-          106.8235
+          104.2585
         ],
         [
           2013,
-          null
+          104.7428
         ],
         [
           2014,
-          106.5139
+          106.158
         ],
         [
           2015,
-          null
+          109.5414
         ],
         [
           2016,
-          null
+          108.7326
+        ],
+        [
+          2017,
+          107.515
         ]
       ],
       "name": "ÖV"
     },
     {
       "color": "#7F5F1A",
-      "marker": {
-        "enabled": true
-      },
-      "data": [
-        [
-          2010,
-          100
-        ],
-        [
-          2011,
-          102.6173
-        ],
-        [
-          2012,
-          104.1737
-        ],
-        [
-          2013,
-          105.2624
-        ],
-        [
-          2014,
-          105.538
-        ],
-        [
-          2015,
-          109.0357
-        ],
-        [
-          2016,
-          108.4
-        ]
-      ],
-      "name": "ÖV BVB\u002FBLT"
-    },
-    {
-      "color": "#E6E600",
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2010,
@@ -181,15 +144,16 @@
         [
           2016,
           122.9
+        ],
+        [
+          2017,
+          125.6
         ]
       ],
       "name": "Velo (wetterbereinigt)"
     },
     {
-      "color": "#008AC3",
-      "marker": {
-        "enabled": true
-      },
+      "color": "#E6E600",
       "data": [
         [
           2010,
@@ -218,6 +182,10 @@
         [
           2016,
           102.5
+        ],
+        [
+          2017,
+          103.7
         ]
       ],
       "name": "Fussgänger"
@@ -225,37 +193,28 @@
   ],
   "chart": {
     "events": {
-      "load": function () {
-              this.credits.element.onclick = function() {};
-              
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                    }
-                  }
-                );
-              }              
-          }
+      "load": function () {                
+                    this.credits.element.onclick = function() {}
+                }
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
-    "width": 485,
-    "height": 428,
-    "spacingBottom": 55,
+    "width": 641,
+    "height": 415,
+    "spacingBottom": 45,
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line",
+    "zoomType": "xy",
+    "type": "scatter",
+    "inverted": true,
     "renderTo": "container-6007"
   },
   "title": {
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
+      "fontFamily": "Arial",
       "color": "#000000"
     },
     "align": "left",
@@ -268,24 +227,49 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Indexwert (Basis 2010 = 100)",
+    "text": "Indexwert (Basis 2010 = 100), Basel-Stadt",
     "align": "left"
   },
-  "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "x": 5,
+        "align": "left",
+        "verticalAlign": "middle",
+        "enabled": false,
+        "style": {
+          "fontSize": "10px"
+        },
+        "formatter": function (){
+                        return Highcharts.numberFormat((this.y*100),1)+'%';                
+                    }
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle",
+        "radius": 3
+      }
+    }
   },
   "yAxis": {
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
     "title": {
       "style": {
         "color": "#000000",
-        "fontSize": null
+        "fontSize": 10
       },
-      "text": null
+      "text": ""
     },
     "labels": {
+      "y": 3,
+      "formatter": function (){
+                    return Highcharts.numberFormat((this.value*100),0)+'%';                
+                },
       "style": {
         "color": "#000000"
       },
@@ -295,17 +279,23 @@
   "xAxis": {
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
     "labels": {
       "style": {
         "color": "#000000",
-        "textOverflow": "none"
+        "fontSize": "10px"
       }
     },
     "tickLength": 0,
-    "tickInterval": 1
+    "tickInterval": 1,
+    "type": "category",
+    "uniqueNames": true
   },
   "credits": {
-    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
     "style": {
       "color": "#000000",
@@ -316,71 +306,35 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2017-10-27"
+    "text": "Quelle: Amt für Mobilität Basel-Stadt."
   },
   "legend": {
     "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
     "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    },
     "x": 30,
     "itemWidth": 200,
-    "itemMarginBottom": 5
-  },
-  "plotOptions": {
-    "series": {
-      "marker": {
-        "enabled": false
-      }
-    },
-    "line": {
-      "connectNulls": true,
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left",
+    "itemStyle": {
+      "fontWeight": "normal"
     }
   },
-  "customFunctions": {
-    "optimalAxisLabelDecimals": function (axis, formatString){
-          
-          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-        	//function checks how many decimal places has a number
-          var countDecimals = function(value) {
-            if ((value % 1) != 0)
-              return value.toString().split(".")[1].length;
-            return 0;
-          };
-          
-          var ticks = axis.tickPositions;
-          var howManyDecimals = 0;
-					
-          //loop looks for the the largest number of decimal places
-          ticks.forEach(function(tick) {
-            if (countDecimals(tick) > howManyDecimals) {
-              howManyDecimals = countDecimals(tick);
-            }
-          });
-					
-					
-          //update labels so they have the same number of decimal places
-          axis.chart.update({
-            yAxis: [{
-              labels: {
-                //format: '{value:,.' + howManyDecimals + 'f}',
-                format: formatString.replace('howManyDecimals', howManyDecimals),
-              }
-            }, {
-            	//second yAxis, if present
-            }]
-          }, true, true);
-    }
+  "tooltip": {
+    "formatter": function (args){
+                var this_point_index = this.series.data.indexOf(this.point);
+                var other_series_index = this.series.index == 0 ? 1 : 0; // assuming 2 series
+                var other_series = args.chart.series[other_series_index];
+                var other_point = other_series.data[this_point_index];
+                return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
+                    this.point.name +': <b>' + Highcharts.numberFormat((this.y*100),1) + '%</b><br/>' + 
+                    'Rang <b>' + other_point.y + '</b>';
+            },
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": 6007
