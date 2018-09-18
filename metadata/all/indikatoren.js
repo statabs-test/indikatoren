@@ -10664,7 +10664,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Übermässig mit Lärm belastete Wohnbevölkerung",
-		"subtitle": "in %",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.02.14.05197",
 		"kuerzelKunde": "GW19",
 		"description": "Übermässig mit Lärm belastete Wohnbevölkerung",
@@ -10674,15 +10674,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-13T17:03:27.2727",
+		"aktualisierungsdatum": "",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Anteil der Einwohner, welche an ihrem Wohnort in der Nacht einer Lärmbelastung von über 50 dB(A) ausgesetzt sind, betrug 2008 24,6%. Bei 14,5% der Einwohner wurde der Tagesgrenzwert überschritten, bei 16,2% der Grenzwert in der Nacht.",
-		"erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche an ihrem Wohnort einer Lärmbelastung über dem Immissionsgrenzwert gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Die in der LSV festgehaltenen Immissionsgrenzwerte drücken das Mass an Lärmbelastung aus, das zirka 75% der Bevölkerung erträgt, ohne sich erheblich gestört zu fühlen. Wohngebiete sind gemäss Lärmempfindlichkeitsstufenplan den Stufen II (Wohnzonen) und III (Wohn-/Gewerbezonen) mit unterschiedlichen Immissionsgrenzwerten zugeteilt: ES II: 60 dB(A) Tag, 50 dB(A) Nacht, ES III: 65 dB(A) Tag, 55 dB(A) Nacht; dB(A) ist die übliche Masseinheit zur Messung von Lärmstärke.<br>Die angegebenen Werte beruhen auf Modellierungen. Die Lärmimmission an den Gebäuden werden in einem 3D-Oberflächenmodell (Gelände, Gebäude, Hindernisse) auf Basis des Emissionskatasters für Strassenverkehrslärm berechnet. Sobald ein Teil eines Gebäudes, z. B. eine Fassade oder die oberen Geschosse, welche nicht durch eine Lärmschutzwand geschützt werden, von Grenzwertüberschreitungen (gemäss LSV) betroffen sind, werden sämtliche Bewohner des Gebäudes als lärmbelastete Personen gezählt. Die Ausrichtung der einzelnen Wohnungen fliesst nicht in die Beurteilung ein. Weiter werden lärmempfindliche Räume in Betrieben nicht berücksichtigt.",
+		"erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche an ihrem Wohnort einer Lärmbelastung über dem Immissionsgrenzwert gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Die in der LSV festgehaltenen Immissionsgrenzwerte drücken das Mass an Lärmbelastung aus, das zirka 75% der Bevölkerung erträgt, ohne sich erheblich gestört zu fühlen. Wohngebiete sind gemäss Lärmempfindlichkeits&shy;stufen&shy;plan den Stufen II (Wohnzonen) und III (Wohn-/Gewerbezonen) mit unterschiedlichen Immissionsgrenzwerten zugeteilt: ES II: 60 dB(A) Tag, 50 dB(A) Nacht, ES III: 65 dB(A) Tag, 55 dB(A) Nacht; dB(A) ist die übliche Masseinheit zur Messung von Lärmstärke.<br><br>Die angegebenen Werte beruhen auf Modellierungen. Die Lärmimmission an den Gebäuden werden in einem 3D-Oberflächenmodell (Gelände, Gebäude, Hindernisse) auf Basis des Emissionskatasters für Strassenverkehrslärm berechnet. Sobald ein Teil eines Gebäudes, z. B. eine Fassade oder die oberen Geschosse, welche nicht durch eine Lärmschutzwand geschützt werden, von Grenzwertüberschreitungen (gemäss LSV) betroffen sind, werden sämtliche Bewohner des Gebäudes als lärmbelastete Personen gezählt. Die Ausrichtung der einzelnen Wohnungen fliesst nicht in die Beurteilung ein. Weiter werden lärmempfindliche Räume in Betrieben nicht berücksichtigt.",
 		"template": "template001",
+		"printformat": "",
 		"visibleInPortal": false,
 		"orderKey": "03_06_00_00_00_319",
 		"parentId": 6159,
@@ -12203,7 +12204,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Luftqualität: Langzeitbelastung der Luft",
-		"subtitle": "in Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10) in Mikrogramm pro m<sup>3</sup>",
+		"subtitle": "Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10) in Mikrogramm pro m<sup>3</sup>, Basel-Stadt",
 		"kuerzel": "I.02.5.06029",
 		"kuerzelKunde": "NL8",
 		"description": "Luftqualität: Langzeitbelastung der Luft",
@@ -12213,15 +12214,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Sowohl die Stickstoffdioxid- als auch die Feinstaubkonzentrationen lagen 2016 mit 27,8 resp. 16,1 Mikrogramm pro Kubikmeter unter dem jeweiligen Grenzwert.",
-		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung. Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen im Kanton Basel-Stadt: St. Johanns-Platz (PM10, NO<sub>2</sub>), Spalenring (NO<sub>2</sub>), Dreirosenbrücke Süd (NO<sub>2</sub>).<br><br>Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Sie sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und - zusammen mit flüchtigen organischen Verbindungen - von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.<br><br>Unter Feinstaub (PM10) versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub (PM10) ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub (PM10) 20 μg/m<sup>3</sup>.",
+		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung. Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen im Kanton Basel-Stadt: St. Johanns-Platz (PM10, NO<sub>2</sub>), Spalenring (NO<sub>2</sub>), Dreirosenbrücke Süd (NO<sub>2</sub>).<br><br>Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Sie sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und - zusammen mit flüchtigen organischen Verbindungen - von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.<br><br>Unter Feinstaub (PM10) versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub (PM10) ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. <br>Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub (PM10) 20 μg/m<sup>3</sup>.",
 		"template": "line001",
+		"printformat": "",
 		"visibleInPortal": false,
 		"orderKey": "04_01_00_00_00_408",
 		"parentId": 6157,
@@ -15194,7 +15196,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Luftqualität: Langzeitbelastung der Luft",
-		"subtitle": "Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10) in Mikrogramm pro m<sup>3</sup>",
+		"subtitle": "Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10) in Mikrogramm pro m<sup>3</sup>, Basel-Stadt",
 		"kuerzel": "I.02.5.6157",
 		"kuerzelKunde": "7.7",
 		"description": "Luftqualität: Langzeitbelastung der Luft",
@@ -15270,7 +15272,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Übermässig mit Lärm belastete Wohnbevölkerung",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.02.14.6159",
 		"kuerzelKunde": "7.8",
 		"description": "Übermässig mit Lärm belastete Wohnbevölkerung",

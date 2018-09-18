@@ -11011,7 +11011,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Luftqualität: Langzeitbelastung der Luft",
-		"subtitle": "Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10) in Mikrogramm pro m<sup>3</sup>",
+		"subtitle": "Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10) in Mikrogramm pro m<sup>3</sup>, Basel-Stadt",
 		"kuerzel": "I.02.5.6157",
 		"kuerzelKunde": "7.7",
 		"description": "Luftqualität: Langzeitbelastung der Luft",
@@ -11087,7 +11087,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Übermässig mit Lärm belastete Wohnbevölkerung",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.02.14.6159",
 		"kuerzelKunde": "7.8",
 		"description": "Übermässig mit Lärm belastete Wohnbevölkerung",
