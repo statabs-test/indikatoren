@@ -193,28 +193,37 @@
   ],
   "chart": {
     "events": {
-      "load": function () {                
-                    this.credits.element.onclick = function() {}
-                }
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 641,
+    "zoomType": "xy",
+    "width": 485,
     "height": 415,
     "spacingBottom": 45,
     "style": {
       "fontFamily": "Arial"
     },
-    "zoomType": "xy",
-    "type": "scatter",
-    "inverted": true,
+    "type": "line",
     "renderTo": "container-6007"
   },
   "title": {
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
-      "fontFamily": "Arial",
       "color": "#000000"
     },
     "align": "left",
@@ -230,46 +239,21 @@
     "text": "Indexwert (Basis 2010 = 100), Basel-Stadt",
     "align": "left"
   },
-  "plotOptions": {
-    "series": {
-      "dataLabels": {
-        "x": 5,
-        "align": "left",
-        "verticalAlign": "middle",
-        "enabled": false,
-        "style": {
-          "fontSize": "10px"
-        },
-        "formatter": function (){
-                        return Highcharts.numberFormat((this.y*100),1)+'%';                
-                    }
-      }
-    },
-    "line": {
-      "connectNulls": true,
-      "marker": {
-        "enabled": false,
-        "symbol": "circle",
-        "radius": 3
-      }
-    }
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
-    "lineColor": "#B9CFD7",
     "title": {
       "style": {
         "color": "#000000",
-        "fontSize": 10
+        "fontSize": null
       },
-      "text": ""
+      "text": null
     },
     "labels": {
-      "y": 3,
-      "formatter": function (){
-                    return Highcharts.numberFormat((this.value*100),0)+'%';                
-                },
       "style": {
         "color": "#000000"
       },
@@ -279,23 +263,17 @@
   "xAxis": {
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
     "labels": {
       "style": {
         "color": "#000000",
-        "fontSize": "10px"
+        "textOverflow": "none"
       }
     },
     "tickLength": 0,
-    "tickInterval": 1,
-    "type": "category",
-    "uniqueNames": true
+    "tickInterval": 1
   },
   "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
     "style": {
       "color": "#000000",
@@ -312,29 +290,66 @@
   },
   "legend": {
     "enabled": true,
-    "symbolRadius": 0,
-    "x": 30,
-    "itemWidth": 200,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
     "align": "left",
+    "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
+    },
+    "x": 30,
+    "itemWidth": 200,
+    "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle",
+        "radius": 3
+      }
     }
   },
-  "tooltip": {
-    "formatter": function (args){
-                var this_point_index = this.series.data.indexOf(this.point);
-                var other_series_index = this.series.index == 0 ? 1 : 0; // assuming 2 series
-                var other_series = args.chart.series[other_series_index];
-                var other_point = other_series.data[this_point_index];
-                return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-                    this.point.name +': <b>' + Highcharts.numberFormat((this.y*100),1) + '%</b><br/>' + 
-                    'Rang <b>' + other_point.y + '</b>';
-            },
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
+    }
   },
   "exporting": {
     "filename": 6007
