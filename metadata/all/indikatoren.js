@@ -8672,11 +8672,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik"
 	},
 	{
-		"title": "Landwirtschaftliche Nutzfläche und Anzahl Landwirtschaftsbetriebe",
-		"subtitle": "",
+		"title": "Landwirtschaft: Nutzfläche und Betriebe",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.07.1.4914",
 		"kuerzelKunde": "",
-		"description": "Landwirtschaftliche Nutzfläche und Anzahl Landwirtschaftsbetriebe",
+		"description": "Landwirtschaft: Nutzfläche und Betriebe",
 		"thema": "07 Landwirtschaft",
 		"unterthema": "Landwirtschaft",
 		"kennzahlenset": "",
@@ -10405,7 +10405,7 @@ var indikatoren = [
 	{
 		"title": "Lebenserwartung bei Geburt",
 		"subtitle": "nach Geschlecht in Jahren",
-		"kuerzel": "I.14.3.05180",
+		"kuerzel": "I.14.3.5180",
 		"kuerzelKunde": "GW3",
 		"description": "Lebenserwartung bei Geburt",
 		"thema": "14 Gesundheit",
@@ -10414,15 +10414,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Lebenserwartung bei Geburt für Frauen liegt im gesamten Beobachtungszeitraum über derjenigen der Männer. Die Werte für 2016 liegen bei 84,4 Jahren (Frauen) und 80,4 Jahren (Männer).",
+		"lesehilfe": "Die Lebenserwartung bei Geburt für Frauen liegt im gesamten Beobachtungszeitraum über derjenigen der Männer. Die Werte für 2017 liegen bei 84,4 Jahren (Frauen) und 80,9 Jahren (Männer).",
 		"erlaeuterungen": "Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben.",
 		"template": "line001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_02_00_00_00_303",
 		"parentId": null,

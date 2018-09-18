@@ -6,79 +6,84 @@
       "type": "column",
       "data": [
         [
-          1990,
+          "1990",
           47
         ],
         [
-          2000,
+          "undefined",
           null
         ],
         [
-          2001,
+          "2000",
+          null
+        ],
+        [
+          "2001",
           18
         ],
         [
-          2002,
+          "2002",
           19
         ],
         [
-          2003,
+          "2003",
           18
         ],
         [
-          2004,
+          "2004",
           17
         ],
         [
-          2005,
+          "2005",
           14
         ],
         [
-          2006,
+          "2006",
           14
         ],
         [
-          2007,
+          "2007",
           14
         ],
         [
-          2008,
+          "2008",
           14
         ],
         [
-          2009,
+          "2009",
           14
         ],
         [
-          2010,
+          "2010",
           14
         ],
         [
-          2011,
+          "2011",
           13
         ],
         [
-          2012,
+          "2012",
           13
         ],
         [
-          2013,
+          "2013",
           11
         ],
         [
-          2014,
+          "2014",
           12
         ],
         [
-          2015,
+          "2015",
           11
         ],
         [
-          2016,
+          "2016",
           13
         ]
       ],
-      "name": "Anzahl Betriebe"
+      "name": "Anzahl Betriebe",
+      "turboThreshold": 0
     },
     {
       "color": "#73b97c",
@@ -87,81 +92,104 @@
       "yAxis": 1,
       "data": [
         [
-          1990,
+          "1990",
           494.89
         ],
         [
-          2000,
+          "undefined",
+          null
+        ],
+        [
+          "2000",
           564
         ],
         [
-          2001,
+          "2001",
           476
         ],
         [
-          2002,
+          "2002",
           505
         ],
         [
-          2003,
+          "2003",
           470
         ],
         [
-          2004,
+          "2004",
           465
         ],
         [
-          2005,
+          "2005",
           463
         ],
         [
-          2006,
+          "2006",
           460
         ],
         [
-          2007,
+          "2007",
           414
         ],
         [
-          2008,
+          "2008",
           463
         ],
         [
-          2009,
+          "2009",
           463
         ],
         [
-          2010,
+          "2010",
           472
         ],
         [
-          2011,
+          "2011",
           418
         ],
         [
-          2012,
+          "2012",
           419
         ],
         [
-          2013,
+          "2013",
           424
         ],
         [
-          2014,
+          "2014",
           419
         ],
         [
-          2015,
+          "2015",
           428
         ],
         [
-          2016,
+          "2016",
           431
         ]
       ],
-      "name": "Landwirtschaftliche Nutzfläche in Hektar (rechte Achse)"
+      "name": "Landwirtschaftliche Nutzfläche in Hektar (rechte Achse)",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 2
+  },
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
@@ -214,7 +242,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Landwirtschaftliche Nutzfläche und Anzahl Landwirtschaftsbetriebe"
+    "text": "Landwirtschaft: Nutzfläche und Betriebe"
   },
   "subtitle": {
     "style": {
@@ -223,25 +251,8 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "tickLength": 0,
-    "tickInterval": 2
   },
   "yAxis": [
     {

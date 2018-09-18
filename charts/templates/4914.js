@@ -1,8 +1,6 @@
 (function(){
     return {
   "yAxis": [{
-   // gridLineColor: '#B9CFD7', 
-  //  gridLineWidth: 0.5,
     "title": {
       "text": null
     },
@@ -30,7 +28,8 @@
   }
   ],
   "xAxis": {
-    "tickInterval": 2
+    "tickInterval": 2,
+    "type": "category"
   },
   "legend": {
     "enabled": true,
