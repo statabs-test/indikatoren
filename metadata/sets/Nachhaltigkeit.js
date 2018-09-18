@@ -31,11 +31,12 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2917
+		"id": 2917,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Vertretung der Anliegen der Bevölkerung durch Behörden",
-		"subtitle": "«Wie gut vertreten die Behörden, also der Regierungsrat und der Grosse Rat, die Anliegen der Bevölkerung?»",
+		"subtitle": "«Wie gut vertreten Ihrer Meinung nach die Behörden, also der Regierungsrat und der Grosse Rat, die Anliegen der Bevölkerung?»",
 		"kuerzel": "I.50.1.05138",
 		"kuerzelKunde": "SH4",
 		"description": "Vertretung der Anliegen der Bevölkerung durch Behörden",
@@ -45,7 +46,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-13T17:10:38.3838",
+		"aktualisierungsdatum": "2017-03-13T17:10:58.5858",
 		"stufe1": "Bereich Staatliches Handeln",
 		"stufe2": "Dynamische Verwaltung",
 		"stufe3": "",
@@ -54,6 +55,8 @@ var indikatorensetData = [
 		"lesehilfe": "2015 fühlten sich 68% der befragten Personen sehr oder eher gut von den Behörden vertreten. Im Vergleich zu 2011 entspricht dies einem Rückgang um 2 Prozentpunkte. In den vorhergehenden Befragungsjahren lag die Zufriedenheit mit der Vertretung durch die Behörden jeweils deutlich unter derjenigen von 2011 und 2015 und die Frage konnte deutlich häufiger nicht beantwortet werden.",
 		"erlaeuterungen": "",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "02_02_00_00_00_204",
 		"parentId": 4724,
 		"children": [],
@@ -97,7 +100,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5142
+		"id": 5142,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Altersquotient",
@@ -130,7 +134,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5144
+		"id": 5144,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Jugendquotient",
@@ -163,7 +168,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5147
+		"id": 5147,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Saldo aus Geburten und Todesfällen",
@@ -196,7 +202,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5148
+		"id": 5148,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Geburtenziffer nach Staatsangehörigkeit",
@@ -229,7 +236,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5149
+		"id": 5149,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
@@ -262,7 +270,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5155
+		"id": 5155,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wanderungen: Schweizer",
@@ -295,7 +304,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5156
+		"id": 5156,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wanderungen: Ausländer",
@@ -328,7 +338,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5157
+		"id": 5157,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Nettoschuldenquote und Nettoschulden pro Kopf",
@@ -362,7 +373,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5160
+		"id": 5160,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -395,7 +407,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5161
+		"id": 5161,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
@@ -429,7 +442,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5162
+		"id": 5162,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bewertung der Lebensqualität",
@@ -462,7 +476,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5165
+		"id": 5165,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort",
@@ -499,7 +514,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5178
+		"id": 5178,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Lebenserwartung bei Geburt",
@@ -532,7 +548,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5180
+		"id": 5180,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Empfundene gesundheitliche Verfassung",
@@ -565,7 +582,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5181
+		"id": 5181,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Übergewichtige Kinder",
@@ -598,7 +616,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5182
+		"id": 5182,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung",
@@ -632,7 +651,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5183
+		"id": 5183,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Sozialhilfequote nach Altersgruppe",
@@ -666,7 +686,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5184
+		"id": 5184,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
@@ -700,7 +721,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5185
+		"id": 5185,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Strassenverkehrsunfälle und verunfallte Personen",
@@ -733,7 +755,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5186
+		"id": 5186,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Gewaltstraftaten pro 100 000 Einwohner",
@@ -766,7 +789,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5188
+		"id": 5188,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Störfälle und Ereignisse",
@@ -800,7 +824,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5189
+		"id": 5189,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Höchste abgeschlossene Ausbildung",
@@ -833,7 +858,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5191
+		"id": 5191,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Besuchte Weiterbildungen und Kurse in den letzten zwölf Monaten",
@@ -866,7 +892,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5192
+		"id": 5192,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Staatsausgaben für Kultur und Freizeit",
@@ -899,7 +926,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5193
+		"id": 5193,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Besuche in Theater, Kinos und Museen",
@@ -934,7 +962,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5194
+		"id": 5194,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Leerwohnungen und Leerwohnungsquote",
@@ -968,7 +997,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5195
+		"id": 5195,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mietpreisindex",
@@ -1001,7 +1031,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5196
+		"id": 5196,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Übermässig mit Lärm belastete Wohnbevölkerung",
@@ -1035,7 +1066,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5197
+		"id": 5197,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Grünfläche pro Kopf nach Wohnviertel",
@@ -1069,7 +1101,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5198
+		"id": 5198,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ausgaben für Umbau- und Unterhaltsarbeiten",
@@ -1102,7 +1135,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5199
+		"id": 5199,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ökologischer Fussabdruck der Schweiz",
@@ -1136,7 +1170,8 @@ var indikatorensetData = [
 			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/oekologischer-fussabdruck.html' target = '_blank'>Bundesamt für Statistik: Der ökologische Fussabdruck der Schweiz</a>",
 			"Aktuelle Daten des <a href = 'http://data.footprintnetwork.org/#/countryTrends?cn=211&type=BCpc,EFCpc' target = '_blank'>Global Footprint Network</a>"
 		],
-		"id": 5793
+		"id": 5793,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Endenergieverbrauch nach Verbrauchergruppe",
@@ -1169,7 +1204,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5794
+		"id": 5794,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil erneuerbarer Energien am Bruttoenergieverbrauch",
@@ -1202,7 +1238,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5795
+		"id": 5795,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
@@ -1236,7 +1273,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5796
+		"id": 5796,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteile der Bodenbedeckungsarten an der Kantonsfläche",
@@ -1269,7 +1307,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6026
+		"id": 6026,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Kopf",
@@ -1303,7 +1342,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6027
+		"id": 6027,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteile der Verkehrsmittel",
@@ -1336,7 +1376,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6028
+		"id": 6028,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Luftqualität: Langzeitbelastung der Luft",
@@ -1370,7 +1411,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6029
+		"id": 6029,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wasserqualität: AOX-Konzentration",
@@ -1403,7 +1445,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6030
+		"id": 6030,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "CO<sub>2</sub>-Emissionen",
@@ -1437,7 +1480,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6031
+		"id": 6031,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Hitzetage",
@@ -1470,7 +1514,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6033
+		"id": 6033,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung von gesellschaftlicher Vielfalt",
@@ -1503,7 +1548,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6034
+		"id": 6034,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Sicherheitsgefühl im Alltag",
@@ -1536,7 +1582,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6035
+		"id": 6035,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Gini-Koeffizienten von Reineinkommen und Reinvermögen",
@@ -1569,7 +1616,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6036
+		"id": 6036,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Verhältnis der Löhne von Frauen und Männern",
@@ -1606,7 +1654,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6037
+		"id": 6037,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Übertritte nach der obligatorischen Schulzeit",
@@ -1639,7 +1688,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6039
+		"id": 6039,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Freiwillige Tätigkeit",
@@ -1672,7 +1722,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6040
+		"id": 6040,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beteiligung der Bevölkerung an Freiwilligenarbeit",
@@ -1705,7 +1756,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6041
+		"id": 6041,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wahlbeteiligung an National- und Grossratswahlen",
@@ -1738,7 +1790,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6042
+		"id": 6042,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
@@ -1771,12 +1824,13 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6043
+		"id": 6043,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entwicklung des Frauenanteils im grossen Rat",
-		"subtitle": "",
-		"kuerzel": "I.17.3.06044",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.17.3.6044",
 		"kuerzelKunde": "GZ10",
 		"description": "Entwicklung des Frauenanteils im grossen Rat",
 		"thema": "17 Politik",
@@ -1785,7 +1839,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-17T13:46:15.1515",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Gesellschaftliche Verantwortung",
 		"stufe3": "",
@@ -1794,8 +1848,10 @@ var indikatorensetData = [
 		"lesehilfe": "Seit Einführung des Frauenstimmrechts 1966 hat sich der Frauenanteil unter den Grossratskandidierenden von anfangs einem Fünftel bis im Jahr 1996 verdoppelt und ging bis 2012 kontinuierlich zurück. Die Entwicklung der Frauenvertretung im basel-städtischen Kantonsparlament war 2012 nach einer längeren Wachstumsphase erstmals wieder rückläufig und verharrt auch 2016 bei 31%.",
 		"erlaeuterungen": "Der Grosse Rat umfasst seit den Gesamterneuerungswahlen 2008 gemäss der neuen, 2005 vom Basler Stimmvolk verabschiedeten Kantonsverfassung nur noch 100 Grossratssitze. Die in der Grafik dargestellten Anteile beziehen sich auf das am Wahlsonntag erzielte Ergebnis. Der tatsächliche Frauenanteil kann infolge personeller Wechsel während einer Legislaturperiode mehrmals ändern.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "05_03_00_00_00_511",
-		"parentId": 4922,
+		"parentId": null,
 		"children": [
 			"4922"
 		],
@@ -1839,7 +1895,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6045
+		"id": 6045,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Beschäftigte nach Sektor",
@@ -1872,7 +1929,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6046
+		"id": 6046,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Branchenanteile an der nominalen Wertschöpfung",
@@ -1905,7 +1963,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6047
+		"id": 6047,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil der Beschäftigten in innovativen Branchen",
@@ -1938,7 +1997,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6048
+		"id": 6048,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Aufwendungen für Forschung und Entwicklung",
@@ -1971,7 +2031,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6049
+		"id": 6049,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Kantonaler Wettbewerbsindikator (KWI)",
@@ -2004,7 +2065,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6050
+		"id": 6050,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entkopplung von Wachstum und Umweltverbrauch",
@@ -2039,7 +2101,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/oekologischer-fussabdruck.html' target = '_blank'>Bundesamt für Statistik: Der ökologische Fussabdruck der Schweiz</a>"
 		],
-		"id": 6051
+		"id": 6051,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Nettoerwerbstätigenquote nach Geschlecht und Heimat",
@@ -2072,7 +2135,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6052
+		"id": 6052,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
@@ -2105,7 +2169,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6053
+		"id": 6053,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mittelwert und Median des Reineinkommens in Basel-Stadt",
@@ -2138,7 +2203,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6054
+		"id": 6054,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen",
@@ -2171,7 +2237,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6055
+		"id": 6055,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Voll- und Teilzeiterwerbstätige nach Geschlecht",
@@ -2204,7 +2271,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6056
+		"id": 6056,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Jahresmitteltemperatur",
@@ -2237,7 +2305,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6434
+		"id": 6434,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Arbeitnehmende in Leitungsfunktionen",
@@ -2271,7 +2340,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6435
+		"id": 6435,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Saldo aus Anzahl Baumpflanzungen und -fällungen",
@@ -2304,7 +2374,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6574
+		"id": 6574,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerung nach Staatsangehörigkeit",
@@ -2337,7 +2408,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6592
+		"id": 6592,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ausländeranteil",
@@ -2370,7 +2442,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6597
+		"id": 6597,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Ausländer nach Staatsangehörigkeit",
@@ -2405,6 +2478,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6599
+		"id": 6599,
+		"darstellungsart": "Grafik"
 	}
 ];
