@@ -153,7 +153,7 @@
     "hideDelay": 200,
     "padding": 8,
     "headerFormat": "\u003Cspan class=\"user-tooltip\"\u003E\u003Cspan style=\"color:{point.color}; width: 10px; font-size: 1.8em;\"\u003E■\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 1em;\"\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan class=\"user-tooltip-indent\"\u003E{point.key}:",
-    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E t\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
+    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E t (von {point.stackTotal: ,2f})\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
     "footerFormat": "",
     "useHTML": true,
     "outside": false
@@ -169,10 +169,12 @@
       2012,
       2013,
       2014,
-      2015
+      2015,
+      2016,
+      2017
     ],
     "floor": 0,
-    "ceiling": 9,
+    "ceiling": 11,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -242,7 +244,7 @@
       }
     },
     "series": {
-      "stacking": null,
+      "stacking": "normal",
       "connectNulls": true,
       "stickyTracking": false,
       "borderWidth": 0,
@@ -322,7 +324,7 @@
     "enabled": false,
     "series": {
       "type": "column",
-      "stacking": null
+      "stacking": "normal"
     },
     "xAxis": {
       "gridLineWidth": 0,
@@ -334,24 +336,53 @@
   "series": [
     {
       "includeInCSVExport": true,
-      "stacking": null,
+      "stacking": "normal",
+      "stack": "BS&BL",
       "type": "column",
       "showInNavigator": true,
-      "name": "Kantone Basel-Stadt und Basel-Landschaft",
+      "name": "Schlacke",
       "color": "#73B97C",
       "id": "BS&BL0105_1",
       "valueSuffix": "Tonnen",
       "data": [
-        30421,
-        28621,
-        31642,
-        39499,
-        38282,
-        39304,
-        38433,
-        33912,
-        34889,
-        40867
+        24251.5,
+        24785.6,
+        25859,
+        25674.5,
+        25389.1,
+        25186.9,
+        25958.8,
+        25005.7,
+        26318.6,
+        26181.1,
+        28916.7,
+        26999.7
+      ],
+      "visible": true
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": "normal",
+      "stack": "BS&BL",
+      "type": "column",
+      "showInNavigator": true,
+      "name": "E-Filterstaub\u002FFilterkuchen",
+      "color": "#68AB2B",
+      "id": "BS&BL0105_2",
+      "valueSuffix": "Tonnen",
+      "data": [
+        4109.2,
+        4391.4,
+        4569.8,
+        4392.5,
+        4481.4,
+        4723.5,
+        4983.5,
+        4730,
+        4856.8,
+        4758.4,
+        4263.5,
+        4006.8
       ],
       "visible": true
     }
