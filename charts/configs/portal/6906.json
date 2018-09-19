@@ -465,7 +465,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt"
+    "text": "Quelle: Steuerstatistik Basel-Stadt."
   },
   "legend": {
     "enabled": true,
@@ -475,6 +475,15 @@
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "pointPadding": 0,
+      "borderWidth": 0
     }
   },
   "customFunctions": {
@@ -510,12 +519,6 @@
             	//second yAxis, if present
             }]
           }, true, true);
-    }
-  },
-  "plotOptions": {
-    "series": {
-      "pointPadding": 0,
-      "borderWidth": 0
     }
   },
   "exporting": {

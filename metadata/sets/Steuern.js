@@ -31,7 +31,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6896
+		"id": 6896,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zusammensetzung der Steuereinnahmen",
@@ -65,7 +66,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6897
+		"id": 6897,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Veranlagungen und Wohnbevölkerung nach Alter",
@@ -99,7 +101,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6898
+		"id": 6898,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "?Anzahl Veranlagungen, Bevölkerung und Summe von Reineinkommen, -vermögen und Steuerertrag",
@@ -133,7 +136,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6899
+		"id": 6899,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mittelwert und Median des Reineinkommens, Summe des Ertrags aus Einkommenssteuer",
@@ -167,7 +171,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6900
+		"id": 6900,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mittelwert des Reineinkommens",
@@ -201,7 +206,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6901
+		"id": 6901,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Median des Reineinkommens",
@@ -235,7 +241,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6902
+		"id": 6902,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mittelwert und Median des Reinvermögens, Summe des Ertrags aus Vermögenssteuer",
@@ -269,7 +276,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6903
+		"id": 6903,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mittelwert des Reinvermögens",
@@ -303,7 +311,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6904
+		"id": 6904,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Median des Reinvermögens",
@@ -337,7 +346,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6905
+		"id": 6905,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ertrag auf  Einkommens- und Vermögensssteuer",
@@ -371,7 +381,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6906
+		"id": 6906,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Veranlagungen und Summe Einkommenssteuer nach Stufe des steuerbaren Einkommens",
@@ -405,7 +416,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6907
+		"id": 6907,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Veranlagungen und Summe Vermögenssteuer nach Stufe des steuerbaren Vermögens",
@@ -439,7 +451,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6908
+		"id": 6908,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Gesamtertrag aus Einkommens- und Vermögenssteuer",
@@ -473,7 +486,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6909
+		"id": 6909,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Summe der Ertrags aus Einkommens- und Vermögenssteuer von Zugezogenen und Weggezogenen",
@@ -507,7 +521,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6910
+		"id": 6910,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quellensteuerertrag",
@@ -541,7 +556,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6911
+		"id": 6911,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quellensteuerertrag nach Status",
@@ -575,7 +591,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6912
+		"id": 6912,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quellensteuerertrag nach Status",
@@ -609,7 +626,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6913
+		"id": 6913,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Quellensteuerertrag nach Status",
@@ -643,6 +661,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6914
+		"id": 6914,
+		"darstellungsart": "Grafik"
 	}
 ];

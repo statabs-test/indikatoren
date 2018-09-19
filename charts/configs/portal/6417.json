@@ -367,7 +367,8 @@
       "color": "#000000"
     },
     "text": "nach Staatsangehörigkeit, Alter und Geschlecht, gepoolte Daten 2011 - 2015",
-    "align": "left"
+    "align": "left",
+    "useHTML": true
   },
   "yAxis": {
     "gridLineColor": "#B9CFD7",
@@ -408,7 +409,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
   },
   "legend": {
     "symbolRadius": 0,

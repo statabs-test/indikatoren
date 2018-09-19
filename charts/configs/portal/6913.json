@@ -492,7 +492,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt"
+    "text": "Quelle: Steuerstatistik Basel-Stadt."
   },
   "legend": {
     "enabled": true,
@@ -500,9 +500,28 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemWidth": 1000,
     "itemStyle": {
       "fontWeight": "normal"
+    },
+    "itemWidth": 1000
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "stacking": null,
+      "pointPadding": 0,
+      "borderWidth": 0
+    },
+    "scatter": {
+      "yAxis": 1,
+      "tooltip": {
+        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
+        "pointFormatter": function (){ 
+              return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 0, ",", " ") + '</b><br/>';
+          }
+      }
     }
   },
   "customFunctions": {
@@ -538,22 +557,6 @@
             	//second yAxis, if present
             }]
           }, true, true);
-    }
-  },
-  "plotOptions": {
-    "series": {
-      "stacking": null,
-      "pointPadding": 0,
-      "borderWidth": 0
-    },
-    "scatter": {
-      "yAxis": 1,
-      "tooltip": {
-        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
-        "pointFormatter": function (){ 
-              return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 0, ",", " ") + '</b><br/>';
-          }
-      }
     }
   },
   "exporting": {

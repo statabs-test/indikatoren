@@ -1043,7 +1043,7 @@
       "x": 10,
       "y": -45
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS);\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bildungsstatistik\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
+    "text": "Quelle: Bundesamt für Statistik (BFS);\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-21"
   },
   "legend": {
     "enabled": true,
@@ -1051,10 +1051,23 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemDistance": 6,
-    "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"
+    },
+    "itemDistance": 6,
+    "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
     }
   },
   "customFunctions": {
@@ -1090,14 +1103,6 @@
             	//second yAxis, if present
             }]
           }, true, true);
-    }
-  },
-  "plotOptions": {
-    "line": {
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
     }
   },
   "exporting": {

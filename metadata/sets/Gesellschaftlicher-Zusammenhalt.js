@@ -30,7 +30,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4716
+		"id": 4716,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Erhaltene materielle Hilfeleistungen",
@@ -63,7 +64,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4718
+		"id": 4718,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung von gesellschaftlicher Vielfalt",
@@ -77,15 +79,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-17T16:38:10.1010",
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.3 Akzeptanz von Diversität",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Drei Viertel der Befragten empfanden 2015 den multikulturellen Charakter Basel-Stadts als eine sehr oder eher grosse Bereicherung für den Kanton.",
+		"lesehilfe": "Drei Viertel der Befragten empfanden 2015 den multikulturellen Charakter des Kantons Basel-Stadt als eine sehr oder eher grosse Bereicherung für den Kanton.",
 		"erlaeuterungen": "",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "01_03_00_00_00_000",
 		"parentId": 6146,
 		"children": [],
@@ -129,7 +133,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4720
+		"id": 4720,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung des Wohnquartiers",
@@ -162,12 +167,13 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4721
+		"id": 4721,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
-		"subtitle": "",
-		"kuerzel": "I.01.6.04722",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.01.6.4722",
 		"kuerzelKunde": "2.1.03",
 		"description": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
 		"thema": "01 Bevölkerung",
@@ -176,20 +182,20 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-02-28T00:00:00.000",
+		"aktualisierungsdatum": "2018-08-21T08:41:47.4747",
 		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.1 Identifikation",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Einbürgerungen unterlag in den vergangenen Jahren diversen Schwankungen. Die Höchstwerte wurden 2007  mit 2 023 und 2008  mit 1 798 eingebürgerten Ausländern erreicht. Danach gingen die Einbürgerungen zurück, 2011 erwarben noch 835 Ausländer die Schweizer Staatsangehörigkeit. Zwischen 2012 und 2015 nahm die Zahl der Eingebürgerungen tendenziell wieder zu, im Jahr 2015 erhielten 1 170 Personen das Schweizer Bürgerrecht. 2016 liessen sich 752 Ausländer einbürgern, dies ist der tiefste Wert der letzten zehn Jahre. Die Einbürgerungsziffer verläuft entsprechdend den absoluten Werten und lag 2016 bei 10,6.",
+		"lesehilfe": "Die Zahl der Einbürgerungen unterlag in den vergangenen Jahren diversen Schwankungen. Der Höchstwert wurde 2008 mit 1 798 eingebürgerten Ausländern erreicht. Danach gingen die Einbürgerungen zurück, 2011 erwarben noch 835 Ausländer die Schweizer Staatsangehörigkeit. Zwischen 2012 und 2015 nahm die Zahl der Eingebürgerungen tendenziell wieder zu, im Jahr 2015 erhielten 1 170 Personen das Schweizer Bürgerrecht. 2016 liessen sich 752 Ausländer einbürgern, dies ist der tiefste Wert der letzten zehn Jahre. 2017 lag die Zahl der Eingebürgerten wieder bei 1 282, dies ist der höchste Wert der letzten zehn Jahre. Die Einbürgerungsziffer verläuft entsprechend den absoluten Werten und liegt 2017 bei 17,9.",
 		"erlaeuterungen": "Voraussetzung für eine ordentliche Einbürgerung ist u. a. eine 12-jährige Wohndauer in der Schweiz. Eine erleichterte Einbürgerung kommt für ausländische Ehepartner von Schweizern in Frage, die 5 Jahre in der Schweiz gelebt haben und die seit 3 Jahren verheiratet sind. Die Einbürgerungsziffer wird als Anzahl Einbürgerungen (ordentliche und erleichterte) pro 1000 Ausländer am Jahresende berechnet.",
 		"template": "template001",
+		"printformat": "",
 		"orderKey": "02_01_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"6043",
-			"6479"
+			"6043"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -198,7 +204,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4722
+		"id": 4722,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Vertretung der Anliegen der Bevölkerung durch Behörden",
@@ -234,7 +241,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4724
+		"id": 4724,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Unterstützung von Freunden oder Nachbarn",
@@ -267,7 +275,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4848
+		"id": 4848,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung des Verhältnisses zur Nachbarschaft",
@@ -300,12 +309,13 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4849
+		"id": 4849,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zusammensetzung des Freundeskreises",
 		"subtitle": "«Wie sieht Dein Freundeskreis aus?»",
-		"kuerzel": "I.50.3.04850",
+		"kuerzel": "I.50.3.4850",
 		"kuerzelKunde": "1.1.05",
 		"description": "Zusammensetzung des Freundeskreises",
 		"thema": "50 Befragungen",
@@ -314,15 +324,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-10T15:23:51.5151",
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2013 gaben 78,7% der befragten Jugendlichen an, sowohl Mädchen als auch Jungen in ihrem Freundeskreis zu haben. 0,8% gaben an, keinen Freundeskreis zu haben. Weitere 3,9% machten keine Angabe. Im Jahr 2009 weichen die Angaben der Jugendlichen bei allen Antwortkategorien um weniger als 2 Prozentpunkte von den Werten des Jahres 2015 ab.",
+		"lesehilfe": "2017 geben 73,5% der befragten Jugendlichen an, sowohl Mädchen als auch Jungen in ihrem Freundeskreis zu haben. Jeweils gut 9% haben entweder nur Mädchen respektive nur Jungen im Freundeskreis. 1,4% geben an, keine Freunde zu haben. 2013 betrug der Anteil gemischtgeschlechtlicher Freundeskreise 78,7%, 2009 lag er bei bei 80,6%.",
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
+		"darstellungArt": "",
+		"printformat": "",
 		"orderKey": "01_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -333,7 +345,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4850
+		"id": 4850,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit dem Austausch mit der Nachbarschaft",
@@ -366,7 +379,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4851
+		"id": 4851,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Sicherheitsgefühl im Alltag",
@@ -399,7 +413,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4852
+		"id": 4852,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bedrohungen und Angriffe",
@@ -432,7 +447,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4853
+		"id": 4853,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Sicherheitsgefühl nachts im Quartier",
@@ -465,7 +481,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4854
+		"id": 4854,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung des Ausländeranteils",
@@ -498,7 +515,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4855
+		"id": 4855,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung des Beitrags der ausländischen Bevölkerung zur Lebensqualität",
@@ -531,7 +549,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4856
+		"id": 4856,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der Schulen in Basel-Stadt",
@@ -564,7 +583,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4857
+		"id": 4857,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der Chancengleichheit",
@@ -597,7 +617,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4858
+		"id": 4858,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der kantonalen Verwaltung",
@@ -632,7 +653,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4859
+		"id": 4859,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der kantonalen Steuern",
@@ -667,7 +689,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4860
+		"id": 4860,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der eigenen wirtschaftlichen Situation",
@@ -700,7 +723,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4861
+		"id": 4861,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der Bildungschancen",
@@ -733,7 +757,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4862
+		"id": 4862,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Steuerveranlagungen mit Zuwendungen",
@@ -766,7 +791,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4863
+		"id": 4863,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Freiwillige Tätigkeit",
@@ -799,7 +825,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4864
+		"id": 4864,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit im Alter",
@@ -832,7 +859,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4865
+		"id": 4865,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Anzeigen, die das Strafgesetzbuch (StGB) betreffen, pro 1000 Einwohner im Alter von 18 und mehr Jahren",
@@ -866,7 +894,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4866
+		"id": 4866,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Anzeigen wegen Veruntreuung und Betrug pro 1000 Einwohner im Alter von 18 und mehr Jahren",
@@ -900,7 +929,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4867
+		"id": 4867,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Anzeigen wegen Diebstahl (ohne Fahrzeugdiebstahl/-entwendung) pro 1000 Einwohner im Alter von 18 und mehr Jahren",
@@ -934,7 +964,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4868
+		"id": 4868,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Anzeigen wegen Körperverletzung pro 1000 Einwohner im Alter von 18 und mehr Jahren",
@@ -968,12 +999,13 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4869
+		"id": 4869,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Engagement in Organisationen und Vereinen",
 		"subtitle": "«Engagierst Du Dich in einer Organisation, in einem Verein oder ähnlichem?»",
-		"kuerzel": "I.50.3.04870",
+		"kuerzel": "I.50.3.4870",
 		"kuerzelKunde": "3.3.01",
 		"description": "Engagement in Organisationen und Vereinen",
 		"thema": "50 Befragungen",
@@ -982,15 +1014,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-10T15:24:29.2929",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2013 gaben ein Viertel der Befragten Jugendlichen an, dass sie sich in einer Organisation, in einem Verein oder ähnlichem engagieren, 2011 lag dieser Wert noch bei 12,0%.",
+		"lesehilfe": "2017 geben 25,5% der Jugendlichen an, sich in einer Organisation, in einem Verein oder Ähnlichem zu engagieren, exakt gleich viele wie in der Befragung von 2013. 2009 lag dieser Wert bei 12,0%.",
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
+		"darstellungArt": "",
+		"printformat": "",
 		"orderKey": "03_03_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -1001,7 +1035,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4870
+		"id": 4870,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wahlbeteiligung an National- und Grossratswahlen",
@@ -1036,7 +1071,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4871
+		"id": 4871,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Interesse an der Politik in Basel-Stadt",
@@ -1069,7 +1105,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4872
+		"id": 4872,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Politikinteresse der über 54-Jährigen",
@@ -1102,7 +1139,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4874
+		"id": 4874,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit Sozialkontakten im Wohnumfeld",
@@ -1135,7 +1173,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4875
+		"id": 4875,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Gedanken über die Arbeitsstelle",
@@ -1168,7 +1207,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4931
+		"id": 4931,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Gründe für Gedanken über die Arbeitsstelle",
@@ -1201,7 +1241,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4932
+		"id": 4932,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Politikinteresse der unter 30-Jährigen",
@@ -1234,6 +1275,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4933
+		"id": 4933,
+		"darstellungsart": "Grafik"
 	}
 ];
