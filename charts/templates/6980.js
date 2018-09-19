@@ -15,6 +15,7 @@
 			},
 		"colorAxis": {
 			min: 0,
+			max: 40000,
 			"minColor": "#FFDA80",
 			"maxColor": "#45381D",
 			"labels": {
@@ -97,7 +98,7 @@
 					var pieSeries = [chart.series[3], chart.series[4]];
 
 					//pie diameters in px
-					var maxPieDiameter = 15;
+					var maxPieDiameter = 30;
 
 					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
 
@@ -127,7 +128,7 @@
 	                var maxValueInLegend = 0.1; 
 	                
                 	//Add manually drawn legend	
-	                fn.addLegendTitle(chart,"Anzahl Zugezogene pro 100 Einwohner", 255, 305);
+	                fn.addLegendTitle(chart, choroplethSeries.name, 255, 305);
 	                
 	                //fn.addLegendCircle(chart, 410, 275, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
 	                //fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),3,","," "), 430, 265);
@@ -139,7 +140,7 @@
 					fn.addLegendSquare(chart, 258, 285, 10, 'blue');
 					fn.addLegendLabel(chart, 'Ausland', 270, 280);
 
-					fn.addLegendLabelbold(chart, 'Anteil Zugezogene nach Zuzugsland', 255, 240);					
+					fn.addLegendLabelbold(chart, pieSizeSeries.name.replace(" pro", "<br/>pro"), 255, 240);					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
 	            }
