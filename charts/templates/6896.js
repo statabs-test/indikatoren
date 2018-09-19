@@ -76,10 +76,12 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
+    labelFormatter: function(){
+        return this.name.replace("und ", "und<br/>");
+    },
     "itemStyle": {
-    "fontWeight": "normal"
-    
-  },
+        "fontWeight": "normal"
+    },
 },
  "series": [
   {"color": "#007A2F", "index": 0, "legendIndex":5}, /**/

@@ -18,7 +18,7 @@
     
     series: [
     		{
-    			//used only to have a legend item wit a defined color despite colorByPoint is true
+    			//used only to have a legend item with a defined color despite colorByPoint is true
     			id: 'dummy0',
     			color: "#FABD24",
     			grouping: false, 
@@ -29,7 +29,7 @@
 					colorByPoint: true,
         },
     		{
-    			//used only to have a legend item wit a defined color despite colorByPoint is true
+    			//used only to have a legend item with a defined color despite colorByPoint is true
     			id: 'dummy1',
     			color: "#7F5F1A",
     			grouping: false, 
@@ -132,7 +132,6 @@
  "legend": { 
     "enabled": true,
     "layout": "horizontal",
-   "itemWidth": 1000,
     "verticalAlign": "top",
     "align": "left",
     "itemStyle": {

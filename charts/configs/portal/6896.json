@@ -540,6 +540,9 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
+    "labelFormatter": function (){
+        return this.name.replace("und ", "und<br/>");
+    },
     "itemStyle": {
       "fontWeight": "normal"
     }

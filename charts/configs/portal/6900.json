@@ -218,6 +218,7 @@
         }
       },
       "min": 0,
+      "max": 1500000000,
       "gridLineWidth": 0,
       "opposite": true
     }

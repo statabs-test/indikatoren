@@ -99,17 +99,16 @@
     }
   },
  "legend": { 
+     labelFormatter: function(){
+         return this.name.replace(' (', '<br/>(');
+     },
     "enabled": true,
     "layout": "horizontal",
-   "itemWidth": 1000,
     "verticalAlign": "top",
     "align": "left",
     "itemStyle": {
-    "fontWeight": "normal"
-    
-  },
-
-
+        "fontWeight": "normal"
+    },
   },
   data: {
       switchRowsAndColumns: true
@@ -120,7 +119,6 @@
   },
   chart: {
         type: 'column',
-             
  }
 	};
 }());

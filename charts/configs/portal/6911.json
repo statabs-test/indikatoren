@@ -533,9 +533,11 @@
   },
   "legend": {
     "symbolRadius": 0,
+    "labelFormatter": function (){
+         return this.name.replace(' (', '<br/>(');
+     },
     "enabled": true,
     "layout": "horizontal",
-    "itemWidth": 1000,
     "verticalAlign": "top",
     "align": "left",
     "itemStyle": {

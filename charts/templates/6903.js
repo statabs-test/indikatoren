@@ -29,7 +29,7 @@
       }
     },
     "min": 0,
-    "max": undefined,
+    "max": 450000000,
     "gridLineWidth": 0,
     "opposite": true
   }

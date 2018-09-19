@@ -140,6 +140,7 @@
     },
     {
       "color": "#67401E",
+      "legendIndex": 4,
       "data": [
         [
           2006,
@@ -336,6 +337,9 @@
     "align": "left",
     "symbolRadius": 0,
     "itemDistance": 5,
+    "labelFormatter": function (){
+      return this.name.replace("und ", "und<br/>");
+    },
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontWeight": "normal"
