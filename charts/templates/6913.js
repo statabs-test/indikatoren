@@ -18,6 +18,7 @@
             color: "#B00000",
             type: 'scatter',
             marker: {
+                enabld: true,
                 symbol: 'circle', 
                 radius: 3
             },
@@ -26,7 +27,7 @@
   ],
   xAxis: {
       type: "category",
-  "labels": {
+        "labels": {
           	step: 1,
               "rotation":-45,
         }  

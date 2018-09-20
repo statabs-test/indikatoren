@@ -43,6 +43,7 @@
             color: "#FF8028",
             type: 'scatter',
             marker: {
+            		enabled: true,
                 symbol: 'circle', 
                 radius: 3
             },
@@ -52,6 +53,7 @@
             color: "#68AB2B",
             type: 'scatter',
             marker: {
+            		enabled: true,
                 symbol: 'circle', 
                 radius: 3
             },
