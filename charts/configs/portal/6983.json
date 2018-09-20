@@ -1,0 +1,337 @@
+{
+  "series": [
+    {
+      "color": "#2B0099",
+      "legendIndex": 6,
+      "index": 6,
+      "data": [
+        [
+          "Veranlagungen",
+          6290
+        ],
+        [
+          "Summe Einkommenssteuer",
+          34779487
+        ]
+      ],
+      "name": "0",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "legendIndex": 5,
+      "index": 5,
+      "data": [
+        [
+          "Veranlagungen",
+          948
+        ],
+        [
+          "Summe Einkommenssteuer",
+          1394740
+        ]
+      ],
+      "name": "1 bis 4 999",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#A0BEC8",
+      "legendIndex": 4,
+      "index": 4,
+      "data": [
+        [
+          "Veranlagungen",
+          506
+        ],
+        [
+          "Summe Einkommenssteuer",
+          1123222
+        ]
+      ],
+      "name": "5 000 bis 9 999",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007A2F",
+      "legendIndex": 3,
+      "index": 3,
+      "data": [
+        [
+          "Veranlagungen",
+          521
+        ],
+        [
+          "Summe Einkommenssteuer",
+          1857922
+        ]
+      ],
+      "name": "10 000 bis 19 999",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#68AB2B",
+      "legendIndex": 2,
+      "index": 2,
+      "data": [
+        [
+          "Veranlagungen",
+          734
+        ],
+        [
+          "Summe Einkommenssteuer",
+          5336132
+        ]
+      ],
+      "name": "20 000 bis 49 999",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73B97C",
+      "legendIndex": 1,
+      "index": 1,
+      "data": [
+        [
+          "Veranlagungen",
+          460
+        ],
+        [
+          "Summe Einkommenssteuer",
+          6518169
+        ]
+      ],
+      "name": "50 000 bis 99 999",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#D7E8D2",
+      "legendIndex": 0,
+      "index": 0,
+      "data": [
+        [
+          "Veranlagungen",
+          988
+        ],
+        [
+          "Summe Einkommenssteuer",
+          42523484
+        ]
+      ],
+      "name": "100 000 bis 999 999",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "formatter": function () {
+                  	 return this.value;
+            }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+        //draw lines between stacks of stacked columns
+        this.customSvgLines = this.options.customFunctions.drawLinesBetweenStacks.call(this);
+        //remove credits link
+        this.credits.element.onclick = function() {};
+        //for top-left legends with no x defined: move legend to x position of first yAxis
+        if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+        this.update(
+          {
+            legend: {
+              x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+            }
+          }
+        );
+        }              
+        
+      },
+      "redraw": function () {
+        if (this.customSvgLines !== undefined) {
+          this.customSvgLines.forEach(function(line) {
+            line.destroy();
+          });
+        }
+        this.customSvgLines = this.options.customFunctions.drawLinesBetweenStacks.call(this);
+      }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 35,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "inverted": false,
+    "renderTo": "container-6983"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Steuerertrag juristischer Personen nach Stufen des steuersatzbestimmenden Gewinns"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickInterval": 25
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -5
+    },
+    "text": "Quelle: ."
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemDistance": 5
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "column": {
+      "pointWidth": 50,
+      "groupPadding": 0
+    }
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
+    },
+    "drawLinesBetweenStacks": function (){
+          function drawLine(points) {
+            return this.renderer.path(['M', points.x1, points.y1, 'L', points.x2, points.y2])
+              .attr({
+                'stroke-width': 1,
+                stroke: 'black',
+                zIndex: 3
+              })
+              .add();
+          }
+        
+          var chart = this;
+          var lines = [];
+          var firstSeriesVisibleIndex = 0;
+        
+          for (var s = 0; s < chart.series.length; s++) {
+            if (chart.series[s].visible) {
+              firstSeriesVisibleIndex = s;
+              break;
+            }
+          }
+        
+          for (var i = firstSeriesVisibleIndex + 1; i < chart.series.length; i++) {
+            var series = chart.series[i];
+            if (series.visible) {
+              for (var j = 0; j < series.points.length - 1; j++) {
+                var point1 = series.points[j];
+                var point2 = series.points[j + 1];
+                lines.push(drawLine.call(chart, {
+                  x1: point1.plotX + chart.plotLeft + point1.pointWidth / 2,
+                  y1: point1.plotY + chart.plotTop,
+                  x2: point2.plotX + chart.plotLeft - point1.pointWidth / 2,
+                  y2: point2.plotY + chart.plotTop
+                }));
+              }
+            }
+          }
+        
+          return lines;
+        }
+  },
+  "exporting": {
+    "filename": 6983
+  }
+}
