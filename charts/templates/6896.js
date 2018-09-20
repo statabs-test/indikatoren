@@ -95,6 +95,7 @@
             color: "#B00000",
             type: 'scatter',
             marker: {
+                enabled: true,
                 symbol: 'circle', 
                 radius: 4
             },
@@ -106,6 +107,7 @@
             color: "#662673",
             type: 'scatter',
             marker: {
+                enabled: true,
                 symbol: 'circle', 
                 radius: 4
                 

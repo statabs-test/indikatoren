@@ -819,7 +819,6 @@ id | visible | visibleInPortal | indikatorenset
 6911 | true | true | Steuern
 6912 | true | true | Steuern
 6913 | true | true | Steuern
-6914 | true | true | Steuern
 6980 | true | true | Steuern
 6981 | true | true | Steuern
 9995 | true | false | 

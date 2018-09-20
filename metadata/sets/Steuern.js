@@ -404,7 +404,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "",
-		"template": "line001",
+		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "02_00_00_00_00_000",
@@ -439,7 +439,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "",
-		"template": "line001",
+		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "02_00_00_00_00_000",
@@ -579,7 +579,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "",
-		"template": "line001",
+		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "04_00_00_00_00_000",
@@ -614,7 +614,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "",
-		"template": "line001",
+		"template": "template001",
 		"printformat": "",
 		"orderKey": "05_00_00_00_00_000",
 		"parentId": null,
@@ -627,41 +627,6 @@ var indikatorensetData = [
 			""
 		],
 		"id": 6913,
-		"darstellungsart": "Grafik"
-	},
-	{
-		"title": "Quellensteuerertrag nach Status",
-		"subtitle": "in Franken, Basel-Stadt, 2016",
-		"kuerzel": "I.18.2.06914",
-		"kuerzelKunde": "",
-		"description": "Quellensteuerertrag nach Status",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kennzahlenset": "Steuern",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"stufe1": "Jurstische Personen",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
-		"template": "line001",
-		"printformat": "",
-		"orderKey": "05_00_00_00_00_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Steuerstatistik Basel-Stadt"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 6914,
 		"darstellungsart": "Grafik"
 	},
 	{
