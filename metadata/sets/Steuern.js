@@ -698,5 +698,40 @@ var indikatorensetData = [
 			""
 		],
 		"id": 6980
+	},
+	{
+		"title": "Gewinn- und Kapitalsteuer",
+		"subtitle": "",
+		"kuerzel": "I.18.2.06981",
+		"kuerzelKunde": "5-1",
+		"description": "Gewinn- und Kapitalsteuer",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Steuern",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6981
 	}
 ];
