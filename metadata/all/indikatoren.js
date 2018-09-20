@@ -28086,42 +28086,6 @@ var indikatoren = [
 		"darstellungsart": "Grafik"
 	},
 	{
-		"title": "Quellensteuerertrag nach Status",
-		"subtitle": "in Franken, Basel-Stadt, 2016",
-		"kuerzel": "I.18.2.06914",
-		"kuerzelKunde": "",
-		"description": "Quellensteuerertrag nach Status",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kennzahlenset": "Steuern",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"stufe1": "Jurstische Personen",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
-		"template": "line001",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "05_00_00_00_00_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Steuerstatistik Basel-Stadt"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 6914,
-		"darstellungsart": "Grafik"
-	},
-	{
 		"title": "Mittelwert des Gesamtsteuerertrag sowie Anteil von Einkommens- und Vermögenssteuerertrag",
 		"subtitle": "",
 		"kuerzel": "I.18.2.06980",
