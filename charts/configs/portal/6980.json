@@ -6563,7 +6563,7 @@
       "tooltip": {
         "pointFormatter": function (){
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '</b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat(this.value, 0) + '</b><br/>';
 					}
       },
       "data": [
@@ -6649,7 +6649,7 @@
         ],
         [
           30,
-          34995
+          40000
         ]
       ]
     },
@@ -6657,7 +6657,7 @@
       "visible": false,
       "data": [
         [
-          "Altstadt GB",
+          "Altstadt Grossbasel",
           37138088
         ],
         [
@@ -6701,7 +6701,7 @@
           77282792
         ],
         [
-          "Altstadt KB",
+          "Altstadt Kleinbasel",
           15657079
         ],
         [
@@ -6746,8 +6746,8 @@
     {
       "visible": false,
       "type": "pie",
-      "color": "red",
-      "borderColor": "red",
+      "color": "#B00000",
+      "borderColor": "#B00000",
       "data": [
         [
           1,
@@ -6839,8 +6839,8 @@
     {
       "visible": false,
       "type": "pie",
-      "color": "blue",
-      "borderColor": "blue",
+      "color": "#FABD24",
+      "borderColor": "#FABD24",
       "data": [
         [
           1,
@@ -6927,7 +6927,7 @@
           9752939
         ]
       ],
-      "name": "SummeVermögenssteuerbetrag"
+      "name": "Summe Vermögenssteuerbetrag"
     },
     {
       "name": "Rhein",
@@ -7168,7 +7168,7 @@
 					
 					var choroplethSeries = chart.series[1];
 					var pieSizeSeries = chart.series[2];
-					var pieSeries = [chart.series[3], chart.series[4]];
+					var pieSeries = [chart.series[3], chart.series[4], ];
 
 					//pie diameters in px
 					var maxPieDiameter = 30;
@@ -7187,7 +7187,7 @@
 	                        tooltip: {
 	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {point.key} </span><br/>',
 	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),1) + ' % </b><br/>';
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),0) + '</b><br/>';
 	                            }
 	                        },
 	                    };
@@ -7201,19 +7201,17 @@
 	                var maxValueInLegend = 0.1; 
 	                
                 	//Add manually drawn legend	
-	                fn.addLegendTitle(chart, choroplethSeries.name, 255, 305);
-	                
-	                //fn.addLegendCircle(chart, 410, 275, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
-	                //fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),3,","," "), 430, 265);
-	                //fn.addLegendCircle(chart, 410, 300, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
-	                //fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),2,"."," "), 430, 290);
+                	fn.addLegendRectangle(chart, 243, 211, 230, 104, '#fbfbfb', 'pieLegend');
+                	fn.addLegendRectangle(chart, 243, 320, 230, 50, '#fbfbfb');
 
-					fn.addLegendSquare(chart, 258, 265, 10, 'red');
-					fn.addLegendLabel(chart, 'Schweiz', 270, 260);
-					fn.addLegendSquare(chart, 258, 285, 10, 'blue');
-					fn.addLegendLabel(chart, 'Ausland', 270, 280);
+                	fn.addLegendLabelbold(chart, pieSizeSeries.name, 250, 208, undefined, true);
+					fn.addLegendSquare(chart, 255, 227, 10, '#B00000');
+					fn.addLegendLabel(chart, 'Summe<br/>Einkommens-<br/>steuerbetrag', 265, 221);
+					fn.addLegendSquare(chart, 255, 270, 10, '#FABD24');
+					fn.addLegendLabel(chart, 'Summe<br/>Vermögens-<br/>steuerbetrag', 265, 264);
+					
+					fn.addLegendTitle(chart, choroplethSeries.name.replace(" pro", "<br/>pro"), 250, 320);
 
-					fn.addLegendLabelbold(chart, pieSizeSeries.name.replace(" pro", "<br/>pro"), 255, 240);					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
 	            }
@@ -7267,15 +7265,16 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-					return Highcharts.numberFormat((this.value),0); 
+					return Highcharts.numberFormat(this.value,0); 
 				}
     },
     "marker": {
       "color": "black"
     },
     "max": 40000,
-    "minColor": "#FFDA80",
-    "maxColor": "#45381D"
+    "tickInterval": 20000,
+    "minColor": "#ECE1D0",
+    "maxColor": "#3A2012"
   },
   "mapNavigation": {
     "enabled": true,
@@ -7296,8 +7295,8 @@
       },
       "text": ""
     },
-    "x": -10,
-    "y": 0
+    "x": -15,
+    "y": 25
   },
   "xAxis": {
     "events": {

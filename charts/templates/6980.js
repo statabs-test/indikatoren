@@ -14,14 +14,17 @@
 			}
 			},
 		"colorAxis": {
-			"min": 0.2,
+			min: 0,
+			max: 40000,
+			tickInterval: 20000,
 			"minColor": "#ECE1D0",
 			"maxColor": "#3A2012",
-			"labels": {
-				"formatter": function () {
-					return Highcharts.numberFormat((this.value*100),0); 
-				}
+			labels: {
+				formatter: function () {
+					return Highcharts.numberFormat(this.value,0); 
+				}, 
 			}
+			
 		},
         "data": {
 		    "seriesMapping": [
@@ -40,22 +43,6 @@
 		      	x: 0, 
 		      	y: 5
 		      },
-		      {
-		      	x: 0, 
-		      	y: 6
-		      },
-		      {
-		      	x: 0, 
-		      	y: 7
-		      },
-		      {
-		      	x: 0, 
-		      	y: 8
-		      },
-		      {
-		      	x: 0, 
-		      	y: 9
-		      }
 		    ]
         },
 		"series": [
@@ -76,7 +63,7 @@
 				tooltip: {
 					pointFormatter: function(){
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value*100),1) + '</b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat(this.value, 0) + '</b><br/>';
 					}
 				}
 			}, 
@@ -97,33 +84,6 @@
 				borderColor: '#FABD24'
 
 			}, 
-				{
-				visible: false,
-				type: 'pie',
-				color: '#E6E600',
-				borderColor: '#E6E600'
-
-			}, 
-				{
-				visible: false,
-				type: 'pie',
-				color: '#68AB2B',
-				borderColor: '#68AB2B'
-
-			}, 
-				{
-				visible: false,
-				type: 'pie',
-				color: '#923F8D',
-				borderColor: '#923F8D'
-
-			}, 
-			{
-				visible: false,
-				type: 'pie',
-        		color: '#A8C3CA',
-        		borderColor: '#A8C3CA'
-			}
 		],
 		chart: {
 			events: {
@@ -138,10 +98,10 @@
 					
 					var choroplethSeries = chart.series[1];
 					var pieSizeSeries = chart.series[2];
-					var pieSeries = [chart.series[3], chart.series[4];
+					var pieSeries = [chart.series[3], chart.series[4], ];
 
 					//pie diameters in px
-					var maxPieDiameter = 15;
+					var maxPieDiameter = 30;
 
 					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
 
@@ -157,7 +117,7 @@
 	                        tooltip: {
 	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {point.key} </span><br/>',
 	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),2) + '% </b><br/>';
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),0) + '</b><br/>';
 	                            }
 	                        },
 	                    };
@@ -171,29 +131,16 @@
 	                var maxValueInLegend = 0.1; 
 	                
                 	//Add manually drawn legend	
-                	fn.addLegendRectangle(chart, 243, 210, 230, 100, '#fbfbfb', 'pieLegend');
-                	fn.addLegendRectangle(chart, 243, 320, 230, 60, '#fbfbfb');
-	                fn.addLegendTitle(chart,"ChoroplethSeries.name", 250, 320);
-	                
-	                //fn.addLegendCircle(chart, 410, 275, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
-	                //fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),3,","," "), 430, 265);
-	                //fn.addLegendCircle(chart, 410, 300, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
-	                //fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),2,"."," "), 430, 290);
-					fn.addLegendLabelbold(chart, "PieSizeSeries.name", 250, 210);
-					fn.addLegendSquare(chart, 255, 240, 10, '#B00000');
-					fn.addLegendLabel(chart, 'Deutschland', 265, 234);
-					fn.addLegendSquare(chart, 255, 260, 10, '#FABD24');
-					fn.addLegendLabel(chart, 'Italien', 265, 254);
-					fn.addLegendSquare(chart, 255, 280, 10, '#68AB2B');
-					fn.addLegendLabel(chart, 'Serbien, Monte-<br/>negro,  Kosovo', 265, 274);
-					fn.addLegendSquare(chart, 360, 240, 10, '#E6E600');
-					fn.addLegendLabel(chart, 'Türkei', 370, 234);
-					fn.addLegendSquare(chart, 360, 260, 10, '#923F8D');
-					fn.addLegendLabel(chart, 'Spanien', 370, 254);
-					fn.addLegendSquare(chart, 360, 280, 10, '#A8C3CA');
-					fn.addLegendLabel(chart, 'Übrige', 370, 274);
-					
+                	fn.addLegendRectangle(chart, 243, 211, 230, 104, '#fbfbfb', 'pieLegend');
+                	fn.addLegendRectangle(chart, 243, 320, 230, 50, '#fbfbfb');
 
+                	fn.addLegendLabelbold(chart, pieSizeSeries.name, 250, 208, undefined, true);
+					fn.addLegendSquare(chart, 255, 227, 10, '#B00000');
+					fn.addLegendLabel(chart, 'Summe<br/>Einkommens-<br/>steuerbetrag', 265, 221);
+					fn.addLegendSquare(chart, 255, 270, 10, '#FABD24');
+					fn.addLegendLabel(chart, 'Summe<br/>Vermögens-<br/>steuerbetrag', 265, 264);
+					
+					fn.addLegendTitle(chart, choroplethSeries.name.replace(" pro", "<br/>pro"), 250, 320);
 
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
