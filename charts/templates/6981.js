@@ -8,18 +8,50 @@
             borderWidth: 0
         }
   },
-  "yAxis": {
-  	//"min": -200,
-    "labels": {
-      "format": "{value:,.0f}",
-    },
-     plotLines: [{
-                    value: 0,
-                    color: 'white',
-                    width: 2,
-                    zIndex: 4,
-                }]
-  },
+  
+  yAxis: [
+      {
+        gridLineColor: '#B9CFD7', 
+        gridLineWidth: 0.5,
+        lineColor: '#B9CFD7', 
+        title: {
+            style: {
+                color: "#000000",
+                fontSize: null
+            },
+            text: null
+        },
+        labels: {
+        	format: "{value:,.0f}",
+            style: {
+            color: "#000000"
+            }
+        }
+      },
+      {
+        opposite: true,
+        min: 0,
+        max: 11000,
+        gridLineColor: '#B9CFD7', 
+        gridLineWidth: 0.5,
+        lineColor: '#B9CFD7', 
+        title: {
+            style: {
+                color: "#000000",
+                fontSize: null
+            },
+            text: null
+        },
+        labels: {
+        	format: "{value:,.0f}",
+            style: {
+                color: "#000000"
+            }, 
+
+        }
+      }
+    ],
+  
   "xAxis": {
    "tickInterval": 1,
   },
@@ -28,9 +60,8 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-	//"y": 40,
-	"x": 40,
-	"itemMarginBottom": 5,
+  	"x": 40,
+  	"itemMarginBottom": 5,
     "itemStyle": {
     "fontWeight": "normal"
     }
@@ -57,15 +88,14 @@
       "pointWidth": "15",
       legendIndex: 2
     },
-	{
+	{   
+	    yAxis: 1,
       "color": "#000000",
       "index": 1,
       "type": "line",
       "marker": {
         "enabled": false
       }, 
-
-      //"yAxis": 1,
       legendIndex: 3,
       tooltip: {
       	"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'

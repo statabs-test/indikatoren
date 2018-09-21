@@ -151,6 +151,7 @@
       "name": "Ertrag aus Gewinnsteuer"
     },
     {
+      "yAxis": 1,
       "color": "#000000",
       "index": 1,
       "type": "line",
@@ -203,7 +204,7 @@
           10959
         ]
       ],
-      "name": "Veranlagungen (rechte Skala)"
+      "name": "Veranlagungen (rechteSkala)"
     }
   ],
   "chart": {
@@ -289,32 +290,47 @@
     "tickLength": 0,
     "tickInterval": 1
   },
-  "yAxis": {
-    "gridLineColor": "#B9CFD7",
-    "gridLineWidth": 0.5,
-    "lineColor": "#B9CFD7",
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
+  "yAxis": [
+    {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "lineColor": "#B9CFD7",
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
       },
-      "text": null
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      },
-      "format": "{value:,.0f}"
-    },
-    "plotLines": [
-      {
-        "value": 0,
-        "color": "white",
-        "width": 2,
-        "zIndex": 4
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
       }
-    ]
-  },
+    },
+    {
+      "opposite": true,
+      "min": 0,
+      "max": 11000,
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "lineColor": "#B9CFD7",
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      }
+    }
+  ],
   "navigation": {
     "menuItemStyle": {
       "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
