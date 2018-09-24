@@ -31,15 +31,15 @@
             //pointPlacement : 0.15
         }        
   ],
-  xAxis: {
-      type: "category",
-  "labels": {
-          	step: 1,
-              "rotation":-45,
-        }  
-
-  },
-  yAxis: [
+      xAxis: {
+          type: "category",
+          labels: {
+            step: 1,
+            rotation:-45,
+          }  
+    
+      },
+      yAxis: [
       {
         gridLineColor: '#B9CFD7', 
         gridLineWidth: 0.5,
@@ -98,7 +98,7 @@
         }
     }
   },
- "legend": { 
+ legend: { 
      labelFormatter: function(){
          return this.name.replace(' (', '<br/>(');
      },
@@ -109,6 +109,8 @@
     "itemStyle": {
         "fontWeight": "normal"
     },
+    itemDistance: 1,
+    padding: 1,
   },
   data: {
       switchRowsAndColumns: true

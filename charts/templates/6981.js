@@ -60,8 +60,10 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-  	"x": 40,
   	"itemMarginBottom": 5,
+  	itemDistance: 2,
+  	padding: 1, 
+  	symbolPadding: 2,
     "itemStyle": {
     "fontWeight": "normal"
     }
