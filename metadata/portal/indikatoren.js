@@ -12891,8 +12891,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "nach Haushaltstyp in m², Stand: 2016",
-		"kuerzel": "I.09.1.06363",
+		"subtitle": "nach Haushaltstyp in m², Basel-Stadt, 2017",
+		"kuerzel": "I.09.1.6363",
 		"kuerzelKunde": "",
 		"description": "Mittlere Wohnfläche pro Person",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -12901,15 +12901,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der durchschnittliche Wohnflächenverbrauch pro Kopf ist bei Personen, welche in Einpersonenhaushalten leben, am höchsten (60,7&nbsp;m²). Der tiefste Wert der Wohnfläche pro Kopf ist bei Personen zu finden, welche im Haushaltstyp «Verheiratete Paare mit Kindern» leben (24,9&nbsp;m²).",
+		"lesehilfe": "Der durchschnittliche Wohnflächenverbrauch pro Kopf ist bei Personen, welche in Einpersonenhaushalten leben, am höchsten (66,8&nbsp;m²). Der tiefste Wert der Wohnfläche pro Kopf ist bei Personen zu finden, welche im Haushaltstyp «Einelternhaushalte mit minderjährigen Kindern mit Grosseltern(-teil)» leben (23,0&nbsp;m²).",
 		"erlaeuterungen": "Die Wohnfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.<br>Minderjährige Kinder: unter 18 Jahre, volljährige Kinder: 18 Jahre und älter. <br>Beim Haushaltstyp «Unverheiratete Paare mit Kindern» ist mindestens ein gemeinsames Kind vorhanden. Nichtfamilienhaushalte sind zum Beispiel Wohngemeinschaften oder unverheiratete Paare ohne mindestens ein gemeinsames Kind.",
 		"template": "template001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
@@ -12973,7 +12974,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-09-20T11:18:02.022",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -12982,6 +12983,7 @@ var indikatoren = [
 		"lesehilfe": "Schweizer weisen im Durchschnitt pro Kopf einen um 11&nbsp;m² höheren Wohnflächenverbrauch auf als Ausländer. Ein geschlechtsspezifischer Unterschied des mittleren Wohnflächenverbrauchs pro Person wie bei den Schweizern (Männer: 43,0&nbsp;m², Frauen: 46,9&nbsp;m²) ist bei den ausländischen Staatsangehörigen nicht zu finden.",
 		"erlaeuterungen": "Die Wohnfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
@@ -12995,8 +12997,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 6365,
-		"darstellungsart": "Grafik"
+		"id": 6365
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
@@ -13010,15 +13011,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-09-20T11:27:19.1919",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Wohnfläche pro Person nimmt mit zunehmendem Alter zu. Frauen ab 55 Jahren haben einen 4 bis fast 10&nbsp;m² grösseren Wohnflächenverbrauch pro Kopf als Männer derselben Altersgruppe.",
+		"lesehilfe": "Die mittlere Wohnfläche pro Person nimmt mit zunehmendem Alter zu. Frauen ab 55 Jahren haben einen 4 bis fast 10&nbsp;m² grösseren Wohnflächenverbrauch pro Kopf als Männer derselben Altersgruppe.",
 		"erlaeuterungen": "Die Wohnfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.",
 		"template": "populationPyramid001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
@@ -13032,8 +13034,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 6366,
-		"darstellungsart": "Grafik"
+		"id": 6366
 	},
 	{
 		"title": "Sesshaftigkeit nach Wohnviertel",
