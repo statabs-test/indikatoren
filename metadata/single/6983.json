@@ -1,4 +1,4 @@
-{"title":"Steuerertrag juristischer Personen nach Stufen des steuersatzbestimmenden Gewinns",
+﻿{"title":"Steuerertrag juristischer Personen nach Stufen des steuersatzbestimmenden Gewinns",
 "subtitle":"Basel-Stadt",
 "kuerzel":"I.18.2.06983",
 "kuerzelKunde":"5-3",
@@ -7,7 +7,7 @@
 "thema":"18 Öffentliche Finanzen",
 "unterthema":"Steuern",
 "kennzahlenset":"Steuern",
-"raeumlicheGliederung":[],
+"raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
 "stufe1":"Jurstische Personen",
 "stufe2":"",
@@ -25,6 +25,6 @@
 "parentId":null,
 "children":[],
 "renderLink":[],
-"quellenangabe":[],
+"quellenangabe":["Steuerstatistik Basel-Stadt"],
 "externalLinks":[""]
 }
