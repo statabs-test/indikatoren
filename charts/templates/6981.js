@@ -68,21 +68,21 @@
   },
   "series": [
     {
-      "color": "#b475ab",
+      "color": "#007a2f",
       "index": 0,
       "type": "column",
       "pointWidth": "15",
       legendIndex: 0
     },
     {
-      "color": "#a8c4cb",
+      "color": "#DC440E",
       "index": 0,
       "type": "column",
       "pointWidth": "15",
       legendIndex: 1
     },
     {
-      "color": "#fabd24",
+      "color": "#B00000",
       "index": 0,
       "type": "column",
       "pointWidth": "15",
@@ -90,7 +90,7 @@
     },
 	{   
 	    yAxis: 1,
-      "color": "#000000",
+      "color": "#ffbb58",
       "index": 1,
       "type": "line",
       "marker": {
