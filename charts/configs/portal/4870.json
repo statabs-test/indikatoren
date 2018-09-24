@@ -2,7 +2,7 @@
   "series": [
     {
       "color": "#71A3B5",
-      "index": 0,
+      "index": 2,
       "data": [
         [
           "2009",
@@ -22,7 +22,7 @@
     },
     {
       "color": "#FFBB58",
-      "index": 2,
+      "index": 0,
       "data": [
         [
           "2009",
@@ -216,7 +216,7 @@
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
         },
-    "reversed": true
+    "reversed": false
   },
   "exporting": {
     "filename": 4870
