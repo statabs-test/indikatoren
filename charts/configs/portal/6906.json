@@ -88,7 +88,7 @@
           7766497
         ]
       ],
-      "name": "Ertrag EK 2006",
+      "name": "Ertrag Einkommen 2006",
       "turboThreshold": 0
     },
     {
@@ -179,7 +179,7 @@
           12223809
         ]
       ],
-      "name": "Ertrag EK 2015",
+      "name": "Ertrag Einkommen 2015",
       "turboThreshold": 0
     },
     {
@@ -270,7 +270,7 @@
           1796344
         ]
       ],
-      "name": "Ertrag Verm. 2006",
+      "name": "Ertrag Vermögen 2006",
       "turboThreshold": 0
     },
     {
@@ -361,7 +361,7 @@
           9752939
         ]
       ],
-      "name": "Ertrag Verm. 2015",
+      "name": "Ertrag Vermögen 2015",
       "turboThreshold": 0
     }
   ],
