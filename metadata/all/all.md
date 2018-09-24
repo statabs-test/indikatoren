@@ -801,6 +801,27 @@ id | visible | visibleInPortal | indikatorenset
 6771 | true | false | Wanderungen (Print)
 6774 | true | false | Wanderungen (Print)
 6778 | true | true | Gefragte Karten
+6893 | true | true | Wohnviertel
+6894 | true | true | Wohnviertel
+6895 | true | true | Wohnviertel
+6915 | true | true | Wohnviertel
+6916 | true | true | Wohnviertel
+6917 | true | true | Wohnviertel
+6918 | true | true | Wohnviertel
+6919 | true | true | Wohnviertel
+6920 | true | true | Wohnviertel
+6921 | true | true | Wohnviertel
+6922 | true | true | Wohnviertel
+6923 | true | true | Wohnviertel
+6924 | true | true | Wohnviertel
+6925 | true | true | Wohnviertel
+6926 | true | true | Wohnviertel
+6927 | true | true | Wohnviertel
+6928 | true | true | Wohnviertel
+6929 | true | true | Wohnviertel
+6930 | true | true | Wohnviertel
+6931 | true | true | Wohnviertel
+6932 | true | true | Wohnviertel
 6933 | true | true | Wohnviertel
 6935 | true | true | Wohnviertel
 6936 | true | true | Wohnviertel
