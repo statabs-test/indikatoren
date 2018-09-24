@@ -7195,11 +7195,7 @@
 					var pieSizeCatConfig;
 					//put the pies / bubbles on the map
 					fn.drawPies(chart, pieSizeSeries, pieSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig);
-	                
-					//pie values in legend
-	                var minValueInLegend = 0.001; 
-	                var maxValueInLegend = 0.1; 
-	                
+
                 	//Add manually drawn legend	
                 	fn.addLegendRectangle(chart, 243, 211, 230, 104, '#fbfbfb', 'pieLegend');
                 	fn.addLegendRectangle(chart, 243, 320, 230, 50, '#fbfbfb');
@@ -7210,10 +7206,55 @@
 					fn.addLegendSquare(chart, 255, 270, 10, '#FABD24');
 					fn.addLegendLabel(chart, 'Summe<br/>Vermögens-<br/>steuerbetrag', 265, 264);
 					
+					//pie values in legend
+	                var minValueInLegend = 10000000; 
+	                var maxValueInLegend = 200000000; 
+	                
+	                fn.addLegendCircle(chart, 359, 232, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'black', 'pieLegendStayeOnZoom');
+	                fn.addLegendCircle(chart, 360, 287, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'black', 'pieLegendStayeOnZoom');
+	                
+					var zoomableLabels = [];
+	                zoomableLabels.push({
+	                	chart: chart, 
+	                	text: Highcharts.numberFormat((minValueInLegend), 0, "," ," "), 
+	                	x: 450, 
+	                	y: 221, 
+	                	cssClass: 'pieLegendRecalculateOnZoom', 
+	                	useHtml: false, 
+	                	initialValue: minValueInLegend,
+	                	align: 'right',
+	                	legendLabelZoomFormatter: function(value){
+	                		return Highcharts.numberFormat((value), 0, ",", " ");
+	                	},					
+	                }); 
+	                zoomableLabels[0].label = fn.addLegendLabel(zoomableLabels[0].chart, zoomableLabels[0].text, zoomableLabels[0].x, zoomableLabels[0].y, zoomableLabels[0].cssClass, zoomableLabels[0].useHtml, zoomableLabels[0].align);
+	                //copy first label but overwrite some properties
+	                zoomableLabels.push($.extend({}, zoomableLabels[0], {
+	                	text: Highcharts.numberFormat((maxValueInLegend),0,"."," "),
+	                	y: 275,
+	                	initialValue: maxValueInLegend,
+	                }));
+	                zoomableLabels[1].label = fn.addLegendLabel(zoomableLabels[1].chart, zoomableLabels[1].text, zoomableLabels[1].x, zoomableLabels[1].y, zoomableLabels[1].cssClass, zoomableLabels[1].useHtml, zoomableLabels[1].align);						                					
+					
+					
+					
 					fn.addLegendTitle(chart, choroplethSeries.name.replace(" pro", "<br/>pro"), 250, 320);
 
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
+					
+					chart.update(
+					{
+						xAxis: {
+				    		events: {
+								//recalculate and hide svg elements on zoom
+								afterSetExtremes: function(e){
+									var fn = this.chart.userOptions.customFunctions;
+									fn.recalculateOnZoom(e, zoomableLabels);
+								}
+				    		}
+						}
+					});					
 	            }
     },
     "renderTo": "container-6980"
@@ -7339,6 +7380,46 @@
     "filename": 6980
   },
   "customFunctions": {
+    "hideOnZoom": function (e, selector){
+				var divId = e['target']['chart']['renderTo']['id'] || 'dummySettingForExportServer';
+				var divIdString = '#' + divId;
+				divIdString = '';
+				//only care about zoom events, not pan
+				if (e.trigger != 'pan'){
+					//determine current zoom level
+					var zoom = (e.dataMax - e.dataMin) / (e.max - e.min);
+					$(divIdString + selector).attr('visibility', zoom == 1 ? 'inherit' : 'hidden');
+				}
+			},
+    "recalculateOnZoom": function (e, zoomableLabels){
+				if (e.target.chart){
+					var fn = e.target.chart.userOptions.customFunctions;
+					fn.hideOnZoom(e, '.pieLegendHideOnZoom');
+					
+					//wait for zoom animation to be finished before attempting calculation of zoom
+					if (Array.isArray(zoomableLabels)){
+						setTimeout(function(context){
+							zoomableLabels.forEach(function(v, i, a){
+							//catch exception that occurs only in Highcharts Export Server for 6379. todo: fix in 6379
+							try {
+								var yAxis = e.target.chart.yAxis[0];
+								var zoom = (yAxis.dataMax - yAxis.dataMin) / (yAxis.max - yAxis.min);
+								if (!v.initialText) {v.initialText = v.text; }
+								var legendValue = (zoom == 1 ? v.initialText : v.legendLabelZoomFormatter(v.initialValue / zoom / zoom));
+								v.label.destroy(); 
+								v.text = legendValue;
+								v.label = fn.addLegendLabel(e.target.chart, v.text, v.x, v.y, v.cssClass, v.useHtml, v.align);
+								//handle right-align
+								if (v.align == 'right'){
+									v.label.attr({x: v.x - v.label.width});
+								}
+							}
+							catch(e){console.log(e)}
+							});
+						}, 750); //default jQuery animmation is 500 ms, see https://api.highcharts.com/highmaps/chart.animation 
+					}
+				}
+			},
     "pieSizeCategorical": function (value, conf){
 				for (var i=0; i < conf.length; i++ ){
 					if (value >= conf[i].from && value < conf[i].to) {
@@ -7589,11 +7670,21 @@
     				    class: cssClass + ' pieLegend'
     				}).add();
                 },
-    "addLegendLabel": function (chart, text, x, y, cssClass, useHtml){
-    				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
+    "addLegendLabel": function (chart, text, x, y, cssClass, useHtml, align){
+                	var label = 
+    				chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
+                	.css({
+					 fontSize: "12px", fontFamily: "Arial", fontWeight: 'normal', fontStyle: "normal"
+                	})    				
+    				.attr({
     					zIndex: 6,
-    					class: cssClass + ' pieLegend'
+    					class: cssClass + ' pieLegend', 
     				}).add();
+    				//handle right-align
+					if (align == 'right'){
+						label.attr({x: x - label.width});
+					}
+    				return label;
                 },
     "addLegendLabelbold": function (chart, text, x, y, cssClass, useHtml){
     				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).

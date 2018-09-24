@@ -125,11 +125,7 @@
 					var pieSizeCatConfig;
 					//put the pies / bubbles on the map
 					fn.drawPies(chart, pieSizeSeries, pieSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig);
-	                
-					//pie values in legend
-	                var minValueInLegend = 0.001; 
-	                var maxValueInLegend = 0.1; 
-	                
+
                 	//Add manually drawn legend	
                 	fn.addLegendRectangle(chart, 243, 211, 230, 104, '#fbfbfb', 'pieLegend');
                 	fn.addLegendRectangle(chart, 243, 320, 230, 50, '#fbfbfb');
@@ -140,10 +136,55 @@
 					fn.addLegendSquare(chart, 255, 270, 10, '#FABD24');
 					fn.addLegendLabel(chart, 'Summe<br/>Vermögens-<br/>steuerbetrag', 265, 264);
 					
+					//pie values in legend
+	                var minValueInLegend = 10000000; 
+	                var maxValueInLegend = 200000000; 
+	                
+	                fn.addLegendCircle(chart, 359, 232, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'black', 'pieLegendStayeOnZoom');
+	                fn.addLegendCircle(chart, 360, 287, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'black', 'pieLegendStayeOnZoom');
+	                
+					var zoomableLabels = [];
+	                zoomableLabels.push({
+	                	chart: chart, 
+	                	text: Highcharts.numberFormat((minValueInLegend), 0, "," ," "), 
+	                	x: 450, 
+	                	y: 221, 
+	                	cssClass: 'pieLegendRecalculateOnZoom', 
+	                	useHtml: false, 
+	                	initialValue: minValueInLegend,
+	                	align: 'right',
+	                	legendLabelZoomFormatter: function(value){
+	                		return Highcharts.numberFormat((value), 0, ",", " ");
+	                	},					
+	                }); 
+	                zoomableLabels[0].label = fn.addLegendLabel(zoomableLabels[0].chart, zoomableLabels[0].text, zoomableLabels[0].x, zoomableLabels[0].y, zoomableLabels[0].cssClass, zoomableLabels[0].useHtml, zoomableLabels[0].align);
+	                //copy first label but overwrite some properties
+	                zoomableLabels.push($.extend({}, zoomableLabels[0], {
+	                	text: Highcharts.numberFormat((maxValueInLegend),0,"."," "),
+	                	y: 275,
+	                	initialValue: maxValueInLegend,
+	                }));
+	                zoomableLabels[1].label = fn.addLegendLabel(zoomableLabels[1].chart, zoomableLabels[1].text, zoomableLabels[1].x, zoomableLabels[1].y, zoomableLabels[1].cssClass, zoomableLabels[1].useHtml, zoomableLabels[1].align);						                					
+					
+					
+					
 					fn.addLegendTitle(chart, choroplethSeries.name.replace(" pro", "<br/>pro"), 250, 320);
 
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
+					
+					chart.update(
+					{
+						xAxis: {
+				    		events: {
+								//recalculate and hide svg elements on zoom
+								afterSetExtremes: function(e){
+									var fn = this.chart.userOptions.customFunctions;
+									fn.recalculateOnZoom(e, zoomableLabels);
+								}
+				    		}
+						}
+					});					
 	            }
 			}
 		}
