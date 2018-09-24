@@ -120,7 +120,8 @@
           "pointWidth": 10,
           },
         "column": {
-                "colorByPoint": true 
+                "colorByPoint": true,
+                grouping: false,
             } 
       },
 };
