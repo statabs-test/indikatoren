@@ -33,7 +33,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2501
+		"id": 2501,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der Vereinbarkeit von Familie und Beruf nach Geschlecht, Herkunft und Altersgruppe",
@@ -68,7 +69,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2952
+		"id": 2952,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit dem Kulturangebot nach Geschlecht, Herkunft und Altersgruppe",
@@ -103,7 +105,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2953
+		"id": 2953,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit der Gesundheitsversorgung nach Geschlecht, Herkunft und Altersgruppe",
@@ -138,7 +141,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2956
+		"id": 2956,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
@@ -173,7 +177,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 3051
+		"id": 3051,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Durch BaselArea unterstützte internationale Ansiedlungen",
@@ -208,7 +213,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 3086
+		"id": 3086,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Globale und kontinentale Erreichbarkeit",
@@ -245,7 +251,8 @@ var indikatorensetData = [
 			"Weiterführende Informationen: <a href = 'https://www.bak-economics.com/en/solutions/regional-analysis/region-international/location-factors/erreichbarkeit/' target = '_blank'>BAK Economics</a> und",
 			"<a href = 'http://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/erreichbarkeit.html' target = '_blank'>Amt für Mobilität</a>"
 		],
-		"id": 3104
+		"id": 3104,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Transnationale Patentanmeldungen pro 1000 Einwohner",
@@ -280,7 +287,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5033
+		"id": 5033,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Neugründungen in Basel-Stadt",
@@ -316,7 +324,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5041
+		"id": 5041,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bezüger von Prämienverbilligungen",
@@ -353,7 +362,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5066
+		"id": 5066,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bruttoinlandprodukt in Franken pro Einwohner",
@@ -389,7 +399,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6124
+		"id": 6124,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Kantonaler Wettbewerbsindikator (KWI)",
@@ -425,7 +436,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6126
+		"id": 6126,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Kantonales Wettbewerbsprofil",
@@ -460,7 +472,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6127
+		"id": 6127,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Steuereinnahmen aus Quellensteuer",
@@ -495,7 +508,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6128
+		"id": 6128,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "NFA-Ressourcenindex",
@@ -530,7 +544,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6129
+		"id": 6129,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
@@ -565,7 +580,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6130
+		"id": 6130,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -606,7 +622,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6131
+		"id": 6131,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
@@ -643,7 +660,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6132
+		"id": 6132,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der kantonalen Steuern",
@@ -678,7 +696,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6133
+		"id": 6133,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
@@ -714,7 +733,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6134
+		"id": 6134,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Höchste abgeschlossene Ausbildung",
@@ -750,7 +770,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6136
+		"id": 6136,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
@@ -786,7 +807,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6137
+		"id": 6137,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -821,7 +843,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6138
+		"id": 6138,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Aufwendungen für Forschung und Entwicklung",
@@ -857,7 +880,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6140
+		"id": 6140,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil der Beschäftigten in innovativen Branchen",
@@ -871,15 +895,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-06T09:14:13.1313",
+		"aktualisierungsdatum": "2018-09-17T11:05:40.4040",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Insgesamt waren 2016 knapp 17% der Beschäftigten (in Vollzeitäquivalenten) in Basel-Stadt in innovativen Branchen tätig, der Grossteil davon in der Industrie.",
-		"erlaeuterungen": "Als innovative Branchen gelten (NOGA 2-Steller in Klammer): Herstellung von chemischen (20) und pharmazeutischen Produkten (21), Gummi- und Kunststoffwaren (22), elektronischen und optischen Produkten (26), elektrischen Ausrüstungen (27), Maschinenbau (28), sonstiger Fahrzeugbau (30), Herstellung von medizinischen und zahnmedizinischen Apparaten und Materialien (325), Reparatur und Installation von Maschinen und Ausrüstungen (33), Forschung und Entwicklung (72). Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen.",
+		"erlaeuterungen": "Als innovative Branchen gelten (Code der Allgemeinen Systematik der Wirtschaftszweige (NOGA) in Klammern): Herstellung von chemischen (20) und pharmazeutischen Produkten (21), Gummi- und Kunststoffwaren (22), elektronischen und optischen Produkten (26), elektrischen Ausrüstungen (27), Maschinenbau (28), sonstiger Fahrzeugbau (30), Herstellung von medizinischen und zahnmedizinischen Apparaten und Materialien (325), Reparatur und Installation von Maschinen und Ausrüstungen (33), Forschung und Entwicklung (72). Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "03_00_00_00_00_009",
 		"parentId": null,
@@ -927,7 +952,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6143
+		"id": 6143,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerung nach sozioprofessioneller Kategorie",
@@ -963,12 +989,13 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6144
+		"id": 6144,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung von gesellschaftlicher Vielfalt",
 		"subtitle": "«Im Kanton Basel-Stadt gibt es Menschen aus den verschiedensten Ländern. Bitte geben Sie mir an, ob das eine sehr grosse, eher grosse, eher nicht so grosse oder gar keine Bereicherung für den Kanton Basel-Stadt ist.»",
-		"kuerzel": "I.50.1.06146",
+		"kuerzel": "I.50.1.6146",
 		"kuerzelKunde": "4.5",
 		"description": "Beurteilung von gesellschaftlicher Vielfalt",
 		"thema": "50 Befragungen",
@@ -977,15 +1004,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-17T16:37:28.2828",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Drei Viertel der Befragten empfanden 2015 den multikulturellen Charakter Basel-Stadts als eine sehr oder eher grosse Bereicherung für den Kanton.",
+		"lesehilfe": "Drei Viertel der Befragten empfanden 2015 den multikulturellen Charakter des Kantons Basel-Stadt als eine sehr oder eher grosse Bereicherung für den Kanton.",
 		"erlaeuterungen": "",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "04_00_00_00_00_005",
 		"parentId": null,
 		"children": [
@@ -1034,7 +1063,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6147
+		"id": 6147,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Arbeitnehmende in Leitungsfunktionen",
@@ -1071,7 +1101,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6148
+		"id": 6148,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Einbürgerungsziffer der ausländischen Bevölkerung sowie Ausländeranteil",
@@ -1107,7 +1138,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6149
+		"id": 6149,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mittelwert und Median des Reineinkommens",
@@ -1144,7 +1176,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6150
+		"id": 6150,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Geschlecht",
@@ -1179,7 +1212,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6151
+		"id": 6151,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Segregationsindex nach Staatsangehörigkeit",
@@ -1217,7 +1251,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6152
+		"id": 6152,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Verkehrsleistungsindex",
@@ -1255,12 +1290,13 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6154
+		"id": 6154,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Transit durch die Region Basel",
 		"subtitle": "in Brutto-Tonnen nach Verkehrsträger",
-		"kuerzel": "I.06.4.06155",
+		"kuerzel": "I.06.4.6155",
 		"kuerzelKunde": "5.3",
 		"description": "Transit durch die Region Basel",
 		"thema": "06 Produktion, Handel",
@@ -1269,15 +1305,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-12T14:00:02.022",
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Transit durch die Region Basel nimmt auf der Strasse  seit 2010 kontinuierlich ab. Der Transit auf den Schienen hat seit 2007 zugenommen.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Der Transit durch die Region Basel nimmt auf der Strasse seit 2010 kontinuierlich ab. Auch der Transit auf  Schienen ist nach einer längeren Wachstumsphase seit 2015 rückläufig.",
+		"erlaeuterungen": "Die Region Basel besteht aus den Zollzonen Basel rechts, Basel links, Flughafen Basel-Mülhausen und Rheinhafen BS/BL. Mit Transit wird die Ware gemeint, welche die Schweiz durchquert. Am jeweiligen Zollamt wird die Ware registriert, welche in die resp. aus der Region transportiert wird. Für die Pipeline wird nur der Eingang angezeigt, da keine Waren aus der Region durch die Pipeline transportiert werden.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "05_00_00_00_00_003",
 		"parentId": null,
 		"children": [
@@ -1325,7 +1363,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6156
+		"id": 6156,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Luftqualität: Langzeitbelastung der Luft",
@@ -1362,7 +1401,8 @@ var indikatorensetData = [
 			"<a href = 'https://luft-bs-so.ch/messdaten' target = '_blank'>Luftqualität in der Nordwestschweiz</a>",
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>"
 		],
-		"id": 6157
+		"id": 6157,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "CO<sub>2</sub>-Emissionen Verkehr",
@@ -1398,7 +1438,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6158
+		"id": 6158,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Übermässig mit Lärm belastete Wohnbevölkerung",
@@ -1435,7 +1476,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6159
+		"id": 6159,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Endenergieverbrauch nach Verbrauchergruppe",
@@ -1473,7 +1515,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6160
+		"id": 6160,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil erneuerbare Energie am Bruttoenergieverbrauch",
@@ -1510,7 +1553,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6161
+		"id": 6161,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
@@ -1547,7 +1591,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6163
+		"id": 6163,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wasserqualität: AOX-Konzentration",
@@ -1584,7 +1629,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6164
+		"id": 6164,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "CO<sub>2</sub>-Emissionen",
@@ -1622,7 +1668,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6165
+		"id": 6165,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wassertemperatur Grundwasser",
@@ -1659,7 +1706,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6166
+		"id": 6166,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Besuche in Theater, Kinos und Museen",
@@ -1697,7 +1745,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6169
+		"id": 6169,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -1732,7 +1781,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6170
+		"id": 6170,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -1767,7 +1817,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6172
+		"id": 6172,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bezügerinnen und Bezüger von Prämienverbilligung",
@@ -1804,12 +1855,13 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6173
+		"id": 6173,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Stationäre Fälle in Basler Spitälern",
 		"subtitle": "Nach Hauptbereich und Wohnort",
-		"kuerzel": "I.14.1.06175",
+		"kuerzel": "I.14.1.6175",
 		"kuerzelKunde": "9.5",
 		"description": "Stationäre Fälle in Basler Spitälern",
 		"thema": "14 Gesundheit",
@@ -1818,15 +1870,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-20T11:32:29.2929",
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2016 wurden zum ersten Mal im Beobachtungszeitraum mehr ausserkantonale Patienten (40 481) behandelt als Patienten mit Wohnort im Kanton Basel-Stadt (38 585). Von den insgesamt 38 585 Fällen aus dem Stadtkanton können über 77% dem Hauptbereich der Akutsomatik zugerechnet werden. Bei den ausserkantonalen Fällen macht der Anteil der Akutsomatik hingegen über 91% aus.",
+		"lesehilfe": "Im Jahr 2017 wurden mehr ausserkantonale Patienten (45 278) behandelt als Patienten mit Wohnort im Kanton Basel-Stadt (35 502). Von den insgesamt 35 502 Fällen aus dem Stadtkanton können knapp 80% dem Hauptbereich der Akutsomatik zugerechnet werden. Bei den ausserkantonalen Fällen macht der Anteil der Akutsomatik hingegen über 88% aus.",
 		"erlaeuterungen": "Gezählt werden alle stationären Fälle mit Austritt im jeweiligen Erhebungsjahr (A-Fälle). Die Aufteilung in BS und Nicht-BS erfolgt anhand des Wohnorts der Patienten. Patienten mit Wohnsitz im Ausland sind in den Nicht-BS-Fällen eingeschlossen. Die Aufteilung in die Hauptbereiche erfolgt anhand der Hauptkostenstelle.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "09_00_00_00_00_005",
 		"parentId": null,
 		"children": [
@@ -1876,7 +1930,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6176
+		"id": 6176,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Strassenverkehrsunfälle",
@@ -1912,7 +1967,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6177
+		"id": 6177,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Störfälle und Ereignisse",
@@ -1949,12 +2005,13 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6179
+		"id": 6179,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung",
-		"subtitle": "",
-		"kuerzel": "I.13.2.06181",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.13.2.6181",
 		"kuerzelKunde": "11.2",
 		"description": "Anteil Haushalte mit FAMI resp. reiner Prämienverbilligung",
 		"thema": "13 Soziale Sicherheit",
@@ -1963,7 +2020,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-16T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-18T16:01:08.088",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1972,6 +2029,8 @@ var indikatorensetData = [
 		"lesehilfe": "2,3% der baselstädtischen Haushalte erhalten Ende 2017 Familienmietzinsbeiträge. In 14,7% der Haushalte bezieht mindestens eine Person reine Prämienverbilligung.",
 		"erlaeuterungen": "FAMI: Familienmietzinsbeiträge<br>Anteil Haushalte mit Prämienverbilligung: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "11_00_00_00_00_002",
 		"parentId": null,
 		"children": [
@@ -2024,7 +2083,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6182
+		"id": 6182,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
@@ -2062,7 +2122,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6183
+		"id": 6183,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -2097,7 +2158,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6184
+		"id": 6184,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Vertretung der Anliegen der Bevölkerung durch Behörden",
@@ -2132,7 +2194,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6185
+		"id": 6185,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der kantonalen Verwaltung",
@@ -2167,7 +2230,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6186
+		"id": 6186,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
@@ -2202,7 +2266,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6201
+		"id": 6201,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
@@ -2237,7 +2302,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6202
+		"id": 6202,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Kantonales BIP im Vergleich zu den Staatsausgaben",
@@ -2273,7 +2339,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6205
+		"id": 6205,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
@@ -2308,12 +2375,13 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6206
+		"id": 6206,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Lernende an Basler Berufsfachschulen",
 		"subtitle": "nach Herkunft",
-		"kuerzel": "I.15.3.06209",
+		"kuerzel": "I.15.3.6209",
 		"kuerzelKunde": "3.2",
 		"description": "Anzahl Lernende an Basler Berufsfachschulen",
 		"thema": "15 Bildung",
@@ -2322,7 +2390,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-19T09:27:39.3939",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2331,6 +2399,8 @@ var indikatorensetData = [
 		"lesehilfe": "Die Gesamtzahl der Lernenden ist seit 2011 mit Ausnahme von 2014 rückläufig. Bei Lernenden ohne Schweizer Pass ist in diesem Zeitraum eine leichte Zunahme zu beobachten.",
 		"erlaeuterungen": "Dargestellt werden die Lernenden der Ausbildungsgänge EFZ (Eidgenössisches Fähigkeitszeugnis) und EBA (Eidgenössisches Berufsattest) der vier grossen Basler Berufsfachschulen Allgemeine Gewerbeschule (AGS), Berufsfachschule (BFS), Schule für Gestaltung (SfG) sowie Handelsschule KV (HKV).",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "03_00_00_00_00_003",
 		"parentId": null,
 		"children": [
@@ -2378,7 +2448,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6210
+		"id": 6210,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Nettoschuldenquote und Nettoschulden pro Kopf",
@@ -2415,7 +2486,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6211
+		"id": 6211,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Alter",
@@ -2450,7 +2522,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6213
+		"id": 6213,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Einkommensklasse",
@@ -2485,7 +2558,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6228
+		"id": 6228,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
@@ -2520,7 +2594,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6239
+		"id": 6239,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
@@ -2555,7 +2630,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6240
+		"id": 6240,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Herkunft",
@@ -2590,7 +2666,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6266
+		"id": 6266,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Medianprämie pro Prämienregion",
@@ -2627,7 +2704,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6346
+		"id": 6346,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Beschäftigte nach Branche",
@@ -2661,7 +2739,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6347
+		"id": 6347,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Standortqualitätsindikator (SQI)",
@@ -2697,7 +2776,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6348
+		"id": 6348,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der Kantonspolizei",
@@ -2732,7 +2812,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Der Ergebnisbericht von 2015 ist auf der <a href = 'http://www.polizei.bs.ch/ueber-uns/kundenbefragungen.html' target = '_blank'>Internetseite der Kantonspolizei</a> publiziert."
 		],
-		"id": 6437
+		"id": 6437,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beurteilung der Kantonspolizei",
@@ -2767,6 +2848,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Der Ergebnisbericht von 2015 ist auf der <a href = 'http://www.polizei.bs.ch/ueber-uns/kundenbefragungen.html' target = '_blank'>Internetseite der Kantonspolizei</a> publiziert."
 		],
-		"id": 6438
+		"id": 6438,
+		"darstellungsart": "Grafik"
 	}
 ];

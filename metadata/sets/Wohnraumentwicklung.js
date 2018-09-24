@@ -30,7 +30,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4127
+		"id": 4127,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mietpreisentwicklung",
@@ -63,7 +64,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4128
+		"id": 4128,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mietpreisentwicklung der Leerwohnungen nach Zimmerzahl",
@@ -95,7 +97,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4129
+		"id": 4129,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mietpreisentwicklung der 3-Zimmer-Wohnungen",
@@ -128,7 +131,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4130
+		"id": 4130,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wohnungsbelegung",
@@ -161,7 +165,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4131
+		"id": 4131,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerungsbestand am Jahresende",
@@ -197,7 +202,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4132
+		"id": 4132,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Wohnungen",
@@ -230,7 +236,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4133
+		"id": 4133,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteile am Wohnungsbestand",
@@ -263,7 +270,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4134
+		"id": 4134,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Nettowohnungsproduktion",
@@ -298,7 +306,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4135
+		"id": 4135,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Umbausaldo",
@@ -331,7 +340,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4136
+		"id": 4136,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl neu erstellte Wohnungen",
@@ -364,7 +374,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4137
+		"id": 4137,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Leerwohnungen und Leerwohnungsquote",
@@ -400,7 +411,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4138
+		"id": 4138,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Leerwohnungen und Leerwohnungsquote",
@@ -435,7 +447,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4139
+		"id": 4139,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
@@ -474,7 +487,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4140
+		"id": 4140,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteile der Haushalte",
@@ -508,12 +522,13 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4141
+		"id": 4141,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteile der Familienhaushalte",
-		"subtitle": "nach Art der Zusammensetzung",
-		"kuerzel": "I.01.2.04142",
+		"subtitle": "nach Art der Zusammensetzung, Basel-Stadt",
+		"kuerzel": "I.01.2.4142",
 		"kuerzelKunde": "1.4.A2",
 		"description": "Anteile der Familienhaushalte",
 		"thema": "01 Bevölkerung",
@@ -522,15 +537,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-20T10:46:00.000",
+		"aktualisierungsdatum": "2018-09-12T14:04:26.2626",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil kinderloser Familien an allen Familien sank von 41,3% im Jahr 2011 auf 39,1% im Jahr 2014. 2015 stieg er wieder auf 41,0%. Im Jahr 2016 gab es einen erneuten Rückgang und der Anteil kinderloser Familien lag noch bei 38,4%.",
+		"lesehilfe": "Der Anteil kinderloser Familien an allen Familien sank von 41,3% im Jahr 2011 auf 39,1% im Jahr 2014. 2015 stieg er wieder auf 41,0%. In den Jahren 2016 und 2017 gab es einen erneuten Rückgang und der Anteil kinderloser Familien lag noch bei 37,9%.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "02_04_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -574,7 +591,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4143
+		"id": 4143,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit dem Wohnungsangebot - nur Familien",
@@ -607,7 +625,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4144
+		"id": 4144,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wohneigentumsquote",
@@ -640,7 +659,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4145
+		"id": 4145,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl und Anteil Wohnungen mit 4 oder mehr Zimmern",
@@ -673,7 +693,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4146
+		"id": 4146,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Saldo des Steuerertrages von Zu- und Wegzügern",
@@ -706,7 +727,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Siehe <a href='http://www.statistik.bs.ch/zahlen/analysen/steuerstatistik.html' target='_blank'>Weiterführende Informationen zur Steuerstatistik und zur Methodik</a>."
 		],
-		"id": 4147
+		"id": 4147,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Erwachsene Einwohner mit Hauptwohnsitz in Basel-Stadt",
@@ -739,7 +761,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4148
+		"id": 4148,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Freiraumfläche und Anteil an der Gesamtfläche",
@@ -772,7 +795,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4149
+		"id": 4149,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
@@ -807,7 +831,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4150
+		"id": 4150,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit Gestaltung und Erhaltung von Gebäuden und Strassenbild",
@@ -840,7 +865,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4151
+		"id": 4151,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Haushalte mit Familienmietzinsbeiträgen",
@@ -874,7 +900,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4152
+		"id": 4152,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Ausbezahlte Familienmietzinsbeiträge",
@@ -907,7 +934,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4153
+		"id": 4153,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bestand an Notwohnungen und ihre Belegung",
@@ -940,7 +968,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4154
+		"id": 4154,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit Einrichtungen und Angeboten für behinderte Menschen",
@@ -973,7 +1002,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4155
+		"id": 4155,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
@@ -1006,6 +1036,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4156
+		"id": 4156,
+		"darstellungsart": "Grafik"
 	}
 ];

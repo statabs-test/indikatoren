@@ -32,7 +32,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5201
+		"id": 5201,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerungsdichte",
@@ -67,7 +68,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5202
+		"id": 5202,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Zu- und Wegpendler nach Herkunft und Ziel",
@@ -104,7 +106,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5203
+		"id": 5203,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Leerwohnungsquote",
@@ -138,7 +141,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5813
+		"id": 5813,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Leerwohnungsquote nach Gemeinde und Wohnviertel",
@@ -172,7 +176,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5814
+		"id": 5814,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
@@ -206,7 +211,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5815
+		"id": 5815,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Nettowohnungsproduktion",
@@ -241,7 +247,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5816
+		"id": 5816,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Nettowohnungsproduktion",
@@ -276,7 +283,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5817
+		"id": 5817,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bruttogeschossfläche Wohnen nach Wohnviertel",
@@ -311,7 +319,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5818
+		"id": 5818,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
@@ -346,7 +355,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5819
+		"id": 5819,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bewertung der Lebensqualität",
@@ -383,7 +393,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5821
+		"id": 5821,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anteil Einwohner pro ÖV-Güteklasse",
@@ -420,12 +431,13 @@ var indikatorensetData = [
 			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/data/GO_GueteklassenOeV/Definition_Gueteklassen_oeffentlicher_Verkehr.pdf' target = '_blank'>Definition der Güteklassen des öffentlichen Verkehrs</a>",
 			"<a href = 'https://map.geo.bs.ch/ngeodesktop?lang=de&baselayer_ref=Grundkarte%20grau&map_x=2612508&map_y=1267331&map_zoom=2&tree_groups=G%C3%BCteklassen%20%C3%B6ffentlicher%20Verkehr&tree_group_layers_G%C3%BCteklassen%20%C3%B6ffentlicher%20Verkehr=GO_GueteklassenOeV' target = '_blank'>Karte der Güteklassen des öffentlichen Verkehrs</a>"
 		],
-		"id": 5822
+		"id": 5822,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Beschäftigtendichte",
-		"subtitle": "Anzahl Beschäftigte pro Hektar",
-		"kuerzel": "I.03.2.05823",
+		"subtitle": "Anzahl Beschäftigte pro Hektar, Basel-Stadt",
+		"kuerzel": "I.03.2.5823",
 		"kuerzelKunde": "ST 7-2",
 		"description": "Beschäftigtendichte",
 		"thema": "03 Erwerbsleben",
@@ -434,15 +446,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-06-26T14:38:43.4343",
+		"aktualisierungsdatum": "2018-09-07T10:01:16.1616",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Kanton Basel-Stadt arbeiteten 2015 in Vollzeitäquivalente (VZÄ) umgerechnet rund 151 600 Beschäftigte. Daraus resultiert eine Beschäftigtendichte von etwa 41 Beschäftigten (VZÄ) pro Hektar. Dieser Wert hat sich in den letzten Jahren kaum verändert.",
-		"erlaeuterungen": "Die Unternehmensstatistik (STATENT) basiert auf den AHV-Registerdaten. Als beschäftigt gilt jede Person mit AHV-pflichtigem Einkommen. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus einer Schätzung basierend auf den Beschäftigtenzahlen.",
+		"lesehilfe": "Im Kanton Basel-Stadt arbeiteten 2016 in Vollzeitäquivalente (VZÄ) umgerechnet rund 151 300 Beschäftigte. Daraus resultiert eine Beschäftigtendichte von etwa 42 Beschäftigten (VZÄ) pro Hektar. Dieser Wert hat sich in den letzten Jahren kaum verändert.",
+		"erlaeuterungen": "Die Unternehmensstatistik (STATENT) basiert auf den AHV-Registerdaten. Als beschäftigt gilt jede Person mit AHV-pflichtigem Einkommen. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert.",
 		"template": "line001",
+		"printformat": "",
 		"orderKey": "02_04_00_00_00_002",
 		"parentId": null,
 		"children": [
@@ -455,7 +468,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5823
+		"id": 5823,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
@@ -490,7 +504,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5825
+		"id": 5825,
+		"darstellungsart": "Karte kontinuierlich"
 	},
 	{
 		"title": "Kontinentale Erreichbarkeit",
@@ -527,29 +542,31 @@ var indikatorensetData = [
 			"Weiterführende Informationen <a href = 'https://www.bak-economics.com/en/solutions/regional-analysis/region-international/location-factors/erreichbarkeit/' target = '_blank'>BAK Economics</a>, und",
 			"<a href = 'http://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/erreichbarkeit.html' target = '_blank'>Amt für Mobilität</a>"
 		],
-		"id": 5891
+		"id": 5891,
+		"darstellungsart": "Grafik"
 	},
 	{
-		"title": "Index der Bevölkerungs- und Beschäftigtenentwicklung",
-		"subtitle": "Werte 2005 = 100",
-		"kuerzel": "I.03.2.05901",
+		"title": "Bevölkerungs- und Beschäftigtenentwicklung",
+		"subtitle": "Basel-Stadt, Indexwert (Basis 2005 = 100)",
+		"kuerzel": "I.03.2.5901",
 		"kuerzelKunde": "ST 4-11",
-		"description": "Index der Bevölkerungs- und Beschäftigtenentwicklung",
+		"description": "Bevölkerungs- und Beschäftigtenentwicklung",
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
-			"Schweiz"
+			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-01-16T00:00:00.000",
+		"aktualisierungsdatum": "2017-07-19T16:15:08.088",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Wohnbevölkerung ist im Kanton Basel-Stadt zwischen 2005 und 2015 von 187&nbsp;920 auf 197&nbsp;204 gestiegen, was einem Anstieg um etwa 4,9% entspricht. Demgegenüber stieg die Zahl der Beschäftigten um 11,1% von 171&nbsp;743 auf 190&nbsp;753.",
+		"lesehilfe": "Die Wohnbevölkerung ist im Kanton Basel-Stadt zwischen 2005 und 2016 von 187&nbsp;463 auf 198&nbsp;206 gestiegen, was einem Anstieg um etwa 5,7% entspricht. Demgegenüber stieg die Zahl der Beschäftigten um 11,0% von 171&nbsp;743 auf 190&nbsp;681.",
 		"erlaeuterungen": "Es ist jeweils der Bevölkerungsbestand Ende Jahr abgebildet. Referenzperiode für die Beschäftigten ist jeweils der Dezember. Beschäftigte werden berücksichtigt, sofern sie aufgrund eines Mindesteinkommens von 2 300 Franken im Jahr AHV-Beiträge zahlen müssen.",
 		"template": "line001",
+		"printformat": "",
 		"orderKey": "01_01_00_00_00_011",
 		"parentId": null,
 		"children": [
@@ -563,7 +580,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5901
+		"id": 5901,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Verkehrsleistungsindex",
@@ -598,7 +616,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6007
+		"id": 6007,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerung am Jahresende und Anzahl Wohnungen",
@@ -634,7 +653,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6214
+		"id": 6214,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
@@ -670,7 +690,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'http://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>."
 		],
-		"id": 6215
+		"id": 6215,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Zufriedenheit mit verschiedenen Aspekten und Angeboten am Wohnort",
@@ -705,7 +726,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6216
+		"id": 6216,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Leerstehende Industrie- und Gewerbeflächen",
@@ -742,7 +764,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6217
+		"id": 6217,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Bevölkerung ab 15 Jahren nach Ausbildungsniveau",
@@ -777,7 +800,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6218
+		"id": 6218,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Indexierter Verlauf der Haushalte in Begegnungszonen",
@@ -813,7 +837,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6220
+		"id": 6220,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Anzahl Beschäftigte nach Branche",
@@ -851,6 +876,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6236
+		"id": 6236,
+		"darstellungsart": "Grafik"
 	}
 ];
