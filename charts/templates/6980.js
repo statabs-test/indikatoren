@@ -127,10 +127,10 @@
 					fn.drawPies(chart, pieSizeSeries, pieSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig);
 
                 	//Add manually drawn legend	
-                	fn.addLegendRectangle(chart, 243, 211, 230, 104, '#fbfbfb', 'pieLegend');
+                	fn.addLegendRectangle(chart, 243, 209, 230, 104, '#fbfbfb', 'pieLegend');
                 	fn.addLegendRectangle(chart, 243, 320, 230, 50, '#fbfbfb');
 
-                	fn.addLegendLabelbold(chart, pieSizeSeries.name, 250, 208, undefined, true);
+                	fn.addLegendLabelbold(chart, pieSizeSeries.name, 250, 206, undefined, true);
 					fn.addLegendSquare(chart, 255, 227, 10, '#B00000');
 					fn.addLegendLabel(chart, 'Summe<br/>Einkommens-<br/>steuerbetrag', 265, 221);
 					fn.addLegendSquare(chart, 255, 270, 10, '#FABD24');
@@ -140,14 +140,14 @@
 	                var minValueInLegend = 10000000; 
 	                var maxValueInLegend = 200000000; 
 	                
-	                fn.addLegendCircle(chart, 359, 232, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'black', 'pieLegendStayeOnZoom');
-	                fn.addLegendCircle(chart, 360, 287, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'black', 'pieLegendStayeOnZoom');
+	                fn.addLegendCircle(chart, 359, 232, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey', 'pieLegendStayeOnZoom');
+	                fn.addLegendCircle(chart, 360, 287, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey', 'pieLegendStayeOnZoom');
 	                
 					var zoomableLabels = [];
 	                zoomableLabels.push({
 	                	chart: chart, 
 	                	text: Highcharts.numberFormat((minValueInLegend), 0, "," ," "), 
-	                	x: 450, 
+	                	x: 455, 
 	                	y: 221, 
 	                	cssClass: 'pieLegendRecalculateOnZoom', 
 	                	useHtml: false, 
