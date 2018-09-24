@@ -28,10 +28,10 @@
      ],
   "legend": { 
     "enabled": true,
-    "layout": "horizontal",
+    "layout": "vertical",
     itemDistance: 5, 
-    "verticalAlign": "top",
-    "align": "left",
+    "verticalAlign": "middle",
+    "align": "right",
     "itemStyle": {
     "fontWeight": "normal"
     }
