@@ -123,7 +123,7 @@
           40050
         ]
       ],
-      "name": "Wohnort",
+      "name": "Akutsomatik",
       "turboThreshold": 0
     },
     {
@@ -249,7 +249,7 @@
           1962
         ]
       ],
-      "name": "Akutsomatik",
+      "name": "Geriatrie",
       "turboThreshold": 0
     },
     {
@@ -375,7 +375,7 @@
           1441
         ]
       ],
-      "name": "Geriatrie",
+      "name": "Psychiatrie",
       "turboThreshold": 0
     },
     {
@@ -501,7 +501,7 @@
           1825
         ]
       ],
-      "name": "Psychiatrie",
+      "name": "Rehabilitation",
       "turboThreshold": 0
     }
   ],
@@ -532,7 +532,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -562,7 +562,7 @@
     "marginLeft": 95,
     "inverted": true,
     "renderTo": "container-6175",
-    "spacingBottom": 30
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -630,9 +630,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-20"
   },
   "legend": {
     "symbolRadius": 0,

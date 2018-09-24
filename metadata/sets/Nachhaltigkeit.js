@@ -669,7 +669,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T15:48:22.2222",
+		"aktualisierungsdatum": "2018-09-21T09:27:12.1212",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Existenzsicherung",
 		"stufe3": "",
@@ -678,6 +678,7 @@ var indikatorensetData = [
 		"lesehilfe": "Da seit 2017 gesamtkantonale Werte ausgewiesen werden können, zuvor aber nur die Daten der Stadt Basel abgebildet werden konnten, ist ein Vergleich zwischen 2017 und den Vorjahren nicht möglich. Da die Sozialhilfequoten der Gemeinden Riehen und Bettingen tiefer ausfallen als jene der Stadt Basel, sind bei der kantonalen Sozialhilfequote seit 2017 tiefere Werte zu erwarten als in den Vorjahren. Minderjährige weisen mit 12,7% die höchste Sozialhilfequote im Kanton auf. Bei jungen Erwachsenen im Alter von 18 bis 25 Jahren beträgt sie 9,8%. Mit 6,0% ist die Sozialhilfequote der 51- bis 65-Jährigen die tiefste aller Altersgruppen im erwerbsfähigen Alter.",
 		"erlaeuterungen": "Unter Sozialhilfebezügern sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Seit Anfang 2012 beruhen die Zahlen ab 2001 auf den Daten, welche die Sozialhilfe Basel im Jahr 2011 für das Management Information System (MIS) des WSU bereinigt und aufbereitet hat. <br>Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Seit 2015 wird für die Berechnung der Sozialhilfequoten im Nenner auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. <br>Bis 2016 konnten nur die Zahlen der Stadt Basel nach Alter ausgewiesen werden. Seit 2017 werden gesamtkantonale Werte abgebildet.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "03_03_00_00_00_308",
 		"parentId": 6182,
@@ -690,8 +691,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5184,
-		"darstellungsart": "Grafik"
+		"id": 5184
 	},
 	{
 		"title": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
@@ -1398,7 +1398,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-09-24T09:50:50.5050",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -1407,6 +1407,7 @@ var indikatorensetData = [
 		"lesehilfe": "Sowohl die Stickstoffdioxid- als auch die Feinstaubkonzentrationen lagen 2016 mit 27,8 resp. 16,1 Mikrogramm pro Kubikmeter unter dem jeweiligen Grenzwert.",
 		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung. Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen im Kanton Basel-Stadt: St. Johanns-Platz (PM10, NO<sub>2</sub>), Spalenring (NO<sub>2</sub>), Dreirosenbrücke Süd (NO<sub>2</sub>).<br><br>Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Sie sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und - zusammen mit flüchtigen organischen Verbindungen - von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.<br><br>Unter Feinstaub (PM10) versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub (PM10) ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. <br>Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub (PM10) 20 μg/m<sup>3</sup>.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "04_01_00_00_00_408",
 		"parentId": 6157,
@@ -1418,8 +1419,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6029,
-		"darstellungsart": "Grafik"
+		"id": 6029
 	},
 	{
 		"title": "Wasserqualität: AOX-Konzentration",
@@ -1433,15 +1433,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-09-24T09:50:50.5050",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die mittlere AOX-Fracht betrug im Jahr 2017 0,035 mg/l gereinigtem Abwasser. Sie lag damit unter dem Grenzwert von 0,08 mg/l.",
+		"lesehilfe": "Die mittlere AOX-Fracht betrug im Jahr 2017 0,035 mg/l gereinigtes Abwasser. Sie lag damit unter dem Grenzwert von 0,08 mg/l.",
 		"erlaeuterungen": "AOX sind an Aktivkohle adsorbierbare organische Halogenverbindungen. Diese Fluor-, Chlor- und Bromverbindungen (wobei Chlorkohlenwasserstoffe in der Regel am häufigsten vorkommen) können als Verluste oder Nebenprodukte aus industriellen und gewerblichen Produktionen ins Wasser gelangen. Auch chlorhaltige Reinigungsmittel aus Haushalten tragen zur Belastung der Abwässer bei. Die AOX-Konzentration wird im gereinigten Abwasser in den Abläufen der Abwasserreinigungsanlagen (ARA) gemessen. Der Indikator zeigt den Jahresmittelwert in Milligramm AOX pro Liter. <br><br>Im Auslauf der ARA wird mehrmals pro Jahr die AOX-Konzentration in Form von Tagessammelmustern gemessen. Der Mittelwert aller Messungen eines Jahres entspricht dem Jahreswert. In der Gewässerschutzverordnung ist für die Einleitung von kommunalem Abwasser in Gewässer ein AOX-Grenzwert von 0.08 mg/l definiert.<br><br>Das Abwasser aus Basel-Stadt wird in der ARA Basel gereinigt. Deren Einzugsgebiet umfasst auch die Gemeinden Allschwil, Binningen, Birsfelden, Bottmingen, Münchenstein (Ortsteil Brüglingen), Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Neuwiller (F).",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "04_01_00_00_00_409",
 		"parentId": 6164,
@@ -1453,8 +1454,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6030,
-		"darstellungsart": "Grafik"
+		"id": 6030
 	},
 	{
 		"title": "CO<sub>2</sub>-Emissionen",

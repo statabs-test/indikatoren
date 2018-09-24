@@ -14,11 +14,11 @@
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>'
   },
   "series": [
-    {"color": "#b00000"}, /* rot */
-	  {"color": "#672773"}, /* violett */
-  	{"color": "#007a2f"},/* grün  */
-    {"color": "#7F5F1A"},/* braun  */
-    {"color": "#E6E600"},/* gelb  */
+    {"color": "#ff8028"}, 
+	  {"color": "#dc440e"}, 
+  	{"color": "#b00000"},
+    {"color": "#661200"},
+    {"color": "#672773"},
 //    {"color": "#008AC3"},/* blau  */
   ],
   "legend": {

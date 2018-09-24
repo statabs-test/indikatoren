@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#b00000",
+      "color": "#ff8028",
       "data": [
         [
           2010,
@@ -39,7 +39,7 @@
       "name": "MIV Stadtstrassennetz"
     },
     {
-      "color": "#672773",
+      "color": "#dc440e",
       "data": [
         [
           2010,
@@ -77,7 +77,7 @@
       "name": "MIV Total"
     },
     {
-      "color": "#007a2f",
+      "color": "#b00000",
       "data": [
         [
           2010,
@@ -115,7 +115,7 @@
       "name": "ÖV"
     },
     {
-      "color": "#7F5F1A",
+      "color": "#661200",
       "data": [
         [
           2010,
@@ -153,7 +153,7 @@
       "name": "Velo (wetterbereinigt)"
     },
     {
-      "color": "#E6E600",
+      "color": "#672773",
       "data": [
         [
           2010,
