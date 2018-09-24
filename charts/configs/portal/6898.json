@@ -1941,7 +1941,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anzahl Veranlagungen und Wohnbevölkerung nach Alter"
+    "text": "Veranlagungen natürlicher Personen und Wohnbevölkerung"
   },
   "subtitle": {
     "style": {
@@ -1950,7 +1950,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2015",
+    "text": "nach Tarif und Alter, Basel-Stadt, 2015",
     "align": "left"
   },
   "tooltip": {

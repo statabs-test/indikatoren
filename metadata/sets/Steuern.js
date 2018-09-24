@@ -70,11 +70,11 @@ var indikatorensetData = [
 		"id": 6897
 	},
 	{
-		"title": "Anzahl Veranlagungen und Wohnbevölkerung nach Alter",
-		"subtitle": "Basel-Stadt, 2015",
+		"title": "Veranlagungen natürlicher Personen und Wohnbevölkerung",
+		"subtitle": "nach Tarif und Alter, Basel-Stadt, 2015",
 		"kuerzel": "I.18.2.06898",
 		"kuerzelKunde": "2-1",
-		"description": "Anzahl Veranlagungen und Wohnbevölkerung nach Alter",
+		"description": "Veranlagungen natürlicher Personen und Wohnbevölkerung",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Steuern",
@@ -350,11 +350,11 @@ var indikatorensetData = [
 		"id": 6905
 	},
 	{
-		"title": "Ertrag auf  Einkommens- und Vermögensssteuer",
+		"title": "Ertrag aus  Einkommens- und Vermögensssteuer",
 		"subtitle": "in Franken, Basel-Stadt, 2006 und 2015",
 		"kuerzel": "I.18.2.06906",
 		"kuerzelKunde": "2-9",
-		"description": "Ertrag auf  Einkommens- und Vermögensssteuer",
+		"description": "Ertrag aus  Einkommens- und Vermögensssteuer",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Steuern",
@@ -595,11 +595,46 @@ var indikatorensetData = [
 		"id": 6912
 	},
 	{
-		"title": "Quellensteuerertrag nach Status",
-		"subtitle": "in Franken, Basel-Stadt, 2016",
-		"kuerzel": "I.18.2.06913",
-		"kuerzelKunde": "",
-		"description": "Quellensteuerertrag nach Status",
+		"title": "Mittelwert des Gesamtsteuerertrag sowie Anteil von Einkommens- und Vermögenssteuerertrag",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.18.2.06980",
+		"kuerzelKunde": "2-13",
+		"description": "Mittelwert des Gesamtsteuerertrag sowie Anteil von Einkommens- und Vermögenssteuerertrag",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Steuern",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Ordentliche Veranlagung Natürlicher Personen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "mappie002",
+		"darstellungsart": "Karte kontinuierlich",
+		"printformat": "map",
+		"orderKey": "02_00_00_00_00_013",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6980
+	},
+	{
+		"title": "Gewinn- und Kapitalsteuer",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.18.2.06981",
+		"kuerzelKunde": "5-1",
+		"description": "Gewinn- und Kapitalsteuer",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Steuern",
@@ -615,79 +650,9 @@ var indikatorensetData = [
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "",
 		"template": "template001",
-		"printformat": "",
-		"orderKey": "05_00_00_00_00_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Steuerstatistik Basel-Stadt"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 6913,
-		"darstellungsart": "Grafik"
-	},
-	{
-		"title": "Mittelwert des Gesamtsteuerertrag sowie Anteil von Einkommens- und Vermögenssteuerertrag",
-		"subtitle": "",
-		"kuerzel": "I.18.2.06980",
-		"kuerzelKunde": "2-13",
-		"description": "Mittelwert des Gesamtsteuerertrag sowie Anteil von Einkommens- und Vermögenssteuerertrag",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kennzahlenset": "Steuern",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
-		"template": "mappie002",
-		"darstellungsart": "Karte kontinuierlich",
-		"printformat": "map",
-		"orderKey": "_013",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Steuerstatistik Basel-Stadt"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 6980
-	},
-	{
-		"title": "Gewinn- und Kapitalsteuer",
-		"subtitle": "",
-		"kuerzel": "I.18.2.06981",
-		"kuerzelKunde": "5-1",
-		"description": "Gewinn- und Kapitalsteuer",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kennzahlenset": "Steuern",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
-		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_001",
+		"orderKey": "05_00_00_00_00_001",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -708,7 +673,9 @@ var indikatorensetData = [
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Steuern",
-		"raeumlicheGliederung": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
 		"aktualisierungsdatum": "",
 		"stufe1": "Jurstische Personen",
 		"stufe2": "",
@@ -724,7 +691,9 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
 		"externalLinks": [
 			""
 		],
@@ -739,7 +708,9 @@ var indikatorensetData = [
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Steuern",
-		"raeumlicheGliederung": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
 		"aktualisierungsdatum": "",
 		"stufe1": "Jurstische Personen",
 		"stufe2": "",
@@ -755,7 +726,9 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
 		"externalLinks": [
 			""
 		],
