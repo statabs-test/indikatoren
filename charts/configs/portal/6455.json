@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#474747",
+      "color": "#008AC3",
       "data": [
         [
           2011,
@@ -21,13 +21,17 @@
         ],
         [
           2015,
-          0.877545
+          0.8729933
+        ],
+        [
+          2016,
+          0.8738822
         ]
       ],
       "name": "Männer"
     },
     {
-      "color": "#923F8D",
+      "color": "#B00000",
       "data": [
         [
           2011,
@@ -47,13 +51,17 @@
         ],
         [
           2015,
-          0.7023453
+          0.7050946
+        ],
+        [
+          2016,
+          0.7052739
         ]
       ],
       "name": "Frauen"
     },
     {
-      "color": "#008AC3",
+      "color": "#474747",
       "data": [
         [
           2011,
@@ -73,7 +81,11 @@
         ],
         [
           2015,
-          0.7949154
+          0.7938071
+        ],
+        [
+          2016,
+          0.7937954
         ]
       ],
       "name": "Total"
@@ -100,8 +112,8 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 428,
-    "spacingBottom": 55,
+    "height": 415,
+    "spacingBottom": 45,
     "style": {
       "fontFamily": "Arial"
     },
@@ -178,9 +190,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)."
   },
   "legend": {
     "enabled": true,

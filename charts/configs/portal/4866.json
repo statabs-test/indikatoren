@@ -79,7 +79,7 @@
         "style": {
           "fontSize": "10px"
         },
-        "enabled": true,
+        "enabled": false,
         "formatter": function () {
             var last  = this.series.data[this.series.data.length - 1];
             var first  = this.series.data[0];
@@ -171,6 +171,7 @@
     "enabled": false
   },
   "tooltip": {
+    "valueDecimals": 1,
     "shared": false
   },
   "exporting": {
