@@ -33,6 +33,10 @@
         [
           2016,
           97.2
+        ],
+        [
+          2017,
+          95.2
         ]
       ],
       "name": "MIV Stadtstrassennetz"
@@ -69,7 +73,11 @@
         ],
         [
           2016,
-          101
+          101.4
+        ],
+        [
+          2017,
+          100.2
         ]
       ],
       "name": "MIV Total"
@@ -86,70 +94,37 @@
         ],
         [
           2011,
-          103.0994
+          102.5897
         ],
         [
           2012,
-          106.8235
+          104.2585
         ],
         [
           2013,
-          null
+          104.7428
         ],
         [
           2014,
-          106.5139
+          106.158
         ],
         [
           2015,
-          null
+          109.5414
         ],
         [
           2016,
-          null
+          108.7326
+        ],
+        [
+          2017,
+          107.515
         ]
       ],
       "name": "ÖV"
     },
     {
       "color": "#7F5F1A",
-      "marker": {
-        "enabled": true
-      },
-      "data": [
-        [
-          2010,
-          100
-        ],
-        [
-          2011,
-          102.6173
-        ],
-        [
-          2012,
-          104.1737
-        ],
-        [
-          2013,
-          105.2624
-        ],
-        [
-          2014,
-          105.538
-        ],
-        [
-          2015,
-          109.0357
-        ],
-        [
-          2016,
-          108.4
-        ]
-      ],
-      "name": "ÖV BVB\u002FBLT"
-    },
-    {
-      "color": "#E6E600",
       "marker": {
         "enabled": true
       },
@@ -181,12 +156,16 @@
         [
           2016,
           122.9
+        ],
+        [
+          2017,
+          125.6
         ]
       ],
       "name": "Velo (wetterbereinigt)"
     },
     {
-      "color": "#008AC3",
+      "color": "#E6E600",
       "marker": {
         "enabled": true
       },
@@ -218,9 +197,19 @@
         [
           2016,
           102.5
+        ],
+        [
+          2017,
+          103.7
         ]
       ],
       "name": "Fussgänger"
+    },
+    {
+      "color": "#008AC3",
+      "marker": {
+        "enabled": true
+      }
     }
   ],
   "chart": {
@@ -246,7 +235,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -258,7 +247,7 @@
     },
     "type": "line",
     "renderTo": "container-6306",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "title": {
     "style": {
@@ -276,7 +265,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Indexwert (Basis 2010 = 100)",
+    "text": "Indexwert (Basis 2010 = 100), Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -329,9 +318,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Amt für Mobilität Basel-Stadt."
+    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-25"
   },
   "legend": {
     "enabled": true,

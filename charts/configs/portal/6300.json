@@ -9,34 +9,38 @@
       "data": [
         [
           2002,
-          0.800982800982801
+          0.792556742323097
         ],
         [
           2004,
-          0.802264938161228
+          0.799902072792558
         ],
         [
           2006,
-          0.815081306662829
+          0.812689303363622
         ],
         [
           2008,
-          0.79128982885766
+          0.815384615384615
         ],
         [
           2010,
-          0.807655762182707
+          0.8228631833283
         ],
         [
           2012,
-          0.791935483870968
+          0.827756764620308
         ],
         [
           2014,
-          0.819277108433735
+          0.855968286595214
+        ],
+        [
+          2016,
+          0.864193925233645
         ]
       ],
-      "name": "Lohnverhältnis"
+      "name": "Verhältnis der Löhne von Frauen und Männern (rechte Achse)"
     }
   ],
   "chart": {
@@ -62,7 +66,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -74,7 +78,7 @@
     },
     "type": "line",
     "renderTo": "container-6300",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "title": {
     "style": {
@@ -83,7 +87,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Verhältnis der Löhne von Frauen und Männern in Basel-Stadt"
+    "text": "Verhältnis der Löhne von Frauen und Männern"
   },
   "subtitle": {
     "style": {
@@ -92,7 +96,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "im privaten Sektor in der Nordwestschweiz",
     "align": "left"
   },
   "tooltip": {
@@ -143,9 +147,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)."
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
   },
   "legend": {
     "enabled": false,

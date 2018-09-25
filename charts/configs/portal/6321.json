@@ -50,9 +50,13 @@
         [
           2016,
           51229
+        ],
+        [
+          2017,
+          51887
         ]
       ],
-      "name": "PV-Beziehende"
+      "name": "Anzahl Beziehende von Prämienverbilligung"
     }
   ],
   "chart": {
@@ -78,7 +82,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -90,7 +94,7 @@
     },
     "type": "line",
     "renderTo": "container-6321",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "title": {
     "style": {
@@ -99,7 +103,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anzahl Bezüger von Prämienverbilligungen"
+    "text": "Bezügerinnen und Bezüger von Prämienverbilligung"
   },
   "subtitle": {
     "style": {
@@ -108,7 +112,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -159,9 +163,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Amt für Sozialbeiträge, Abteilung Prämienverbilligungen und Familienmietzinsbeiträge."
+    "text": "Quelle: Amt für Sozialbeiträge, Abteilung Prämienverbilligungen und Familienmietzinsbeiträge.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
   },
   "legend": {
     "enabled": false,

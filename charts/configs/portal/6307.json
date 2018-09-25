@@ -46,6 +46,10 @@
         [
           2016,
           14161516
+        ],
+        [
+          2017,
+          13781296
         ]
       ],
       "name": "Schiene Ausgang"
@@ -97,6 +101,10 @@
         [
           2016,
           18121077
+        ],
+        [
+          2017,
+          16865292
         ]
       ],
       "name": "Schiene Eingang"
@@ -148,6 +156,10 @@
         [
           2016,
           2184931
+        ],
+        [
+          2017,
+          2150476
         ]
       ],
       "name": "Strasse Ausgang"
@@ -199,6 +211,10 @@
         [
           2016,
           1747475
+        ],
+        [
+          2017,
+          1777024
         ]
       ],
       "name": "Strasse Eingang"
@@ -227,7 +243,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -239,7 +255,7 @@
     },
     "type": "line",
     "renderTo": "container-6307",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "title": {
     "style": {
@@ -257,7 +273,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": " in Brutto-Tonnen nach Verkehrsträger",
+    "text": "in Brutto-Tonnen nach Verkehrsträger",
     "align": "left"
   },
   "tooltip": {
@@ -309,9 +325,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Eidgenössische Zollverwaltung EZV."
+    "text": "Quelle: Eidgenössische Zollverwaltung EZV.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-12"
   },
   "legend": {
     "enabled": true,

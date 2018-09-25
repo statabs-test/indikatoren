@@ -6,15 +6,15 @@
       "data": [
         [
           "Genferseeregion",
-          1.78837908010601
+          1.78415011240352
         ],
         [
           "Nordwestschweiz",
-          6.62481836746059
+          6.57209231401793
         ],
         [
           "Zürich",
-          0.776009702247282
+          0.773963498792129
         ]
       ],
       "name": "2008",
@@ -26,15 +26,15 @@
       "data": [
         [
           "Genferseeregion",
-          1.53976242418022
+          1.53982784147816
         ],
         [
           "Nordwestschweiz",
-          7.26424368213479
+          7.1634547380111
         ],
         [
           "Zürich",
-          1.08128257546252
+          1.08005156852695
         ]
       ],
       "name": "2012",
@@ -122,7 +122,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft"
+    "text": "Aufwendungen für Forschung und Entwicklung"
   },
   "subtitle": {
     "style": {
@@ -131,7 +131,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Anteil am BIP",
+    "text": "in der Privatwirtschaft; Anteil am BIP",
     "align": "left"
   },
   "yAxis": {

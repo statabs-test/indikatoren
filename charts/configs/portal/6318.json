@@ -64,7 +64,11 @@
         ],
         [
           2016,
-          null
+          172013
+        ],
+        [
+          2017,
+          172013
         ]
       ],
       "name": "Theater"
@@ -118,23 +122,27 @@
         ],
         [
           2012,
-          175949
+          175289
         ],
         [
           2013,
-          167940
+          171317
         ],
         [
           2014,
-          154708
+          156935
         ],
         [
           2015,
-          160127
+          175272
         ],
         [
           2016,
-          null
+          171861
+        ],
+        [
+          2017,
+          171861
         ]
       ],
       "name": "Kleintheater"
@@ -205,6 +213,10 @@
         [
           2016,
           629843
+        ],
+        [
+          2017,
+          646086
         ]
       ],
       "name": "Kinos"
@@ -275,6 +287,10 @@
         [
           2016,
           1374857
+        ],
+        [
+          2017,
+          1487910
         ]
       ],
       "name": "Museen"
@@ -345,6 +361,10 @@
         [
           2016,
           1270137
+        ],
+        [
+          2017,
+          null
         ]
       ],
       "name": "Stadtbibliothek"
@@ -373,7 +393,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -385,7 +405,7 @@
     },
     "type": "line",
     "renderTo": "container-6318",
-    "spacingBottom": 12
+    "spacingBottom": 22
   },
   "title": {
     "style": {
@@ -403,7 +423,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -456,9 +476,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Jeweilige Institutionen;\u003Cbr\u002F\u003EProCinema."
+    "text": "Quelle: Jeweilige Institutionen;\u003Cbr\u002F\u003EProCinema.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
   },
   "legend": {
     "enabled": true,

@@ -9,19 +9,19 @@
       "data": [
         [
           2009,
-          108
+          108.1
         ],
         [
           2010,
-          103.8
+          104.2
         ],
         [
           2011,
-          115.6
+          115.8
         ],
         [
           2012,
-          140.7
+          140.8
         ],
         [
           2013,
@@ -38,6 +38,10 @@
         [
           2016,
           107.1
+        ],
+        [
+          2017,
+          110.5
         ]
       ],
       "name": "Straftaten nach StGB"
@@ -66,7 +70,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -78,7 +82,7 @@
     },
     "type": "line",
     "renderTo": "container-6323",
-    "spacingBottom": 12
+    "spacingBottom": 22
   },
   "title": {
     "style": {
@@ -96,7 +100,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -147,9 +151,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP);\u003Cbr\u002F\u003EPolizeiliche Kriminalitätsstatistk (PKS)."
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP);\u003Cbr\u002F\u003EPolizeiliche Kriminalitätsstatistk (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
   },
   "legend": {
     "enabled": false,
