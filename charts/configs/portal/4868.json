@@ -4,32 +4,40 @@
       "color": "#FFBB58",
       "data": [
         [
-          2008,
-          65.1
-        ],
-        [
           2009,
-          63.4
+          40.25
         ],
         [
           2010,
-          61.3
+          38.3
         ],
         [
           2011,
-          65.8
+          43.75
         ],
         [
           2012,
-          86.4
+          55.68
         ],
         [
           2013,
-          75.1
+          49.77
         ],
         [
           2014,
-          63.2
+          41.04
+        ],
+        [
+          2015,
+          37.42
+        ],
+        [
+          2016,
+          34.88
+        ],
+        [
+          2017,
+          35.43
         ]
       ],
       "name": "Anzahl Anzeigen"
@@ -39,7 +47,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
+    "height": 415,
     "spacing": [
       10,
       10,
@@ -70,7 +78,7 @@
     "marginTop": 75,
     "type": "column",
     "renderTo": "container-4868",
-    "spacingBottom": 50
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -79,7 +87,7 @@
         "style": {
           "fontSize": "10px"
         },
-        "enabled": true,
+        "enabled": false,
         "formatter": function () {
             var last  = this.series.data[this.series.data.length - 1];
             var first  = this.series.data[0];
@@ -98,7 +106,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anzahl Anzeigen wegen Diebstahl (ohne Fahrzeugdiebstahl\u002F-entwendung) pro 1000 Einwohner im Alter von 18 und mehr Jahren"
+    "text": "Anzeigen wegen Diebstahl pro 1000 Einwohner"
   },
   "subtitle": {
     "style": {
@@ -107,7 +115,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "ohne Fahrzeugdiebstahl und -entwendung, Basel-Stadt",
     "align": "left"
   },
   "xAxis": {
@@ -162,15 +170,16 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -35
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2016-9-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)."
   },
   "legend": {
     "symbolRadius": 0,
     "enabled": false
   },
   "tooltip": {
+    "valueDecimals": 1,
     "shared": false
   },
   "exporting": {
