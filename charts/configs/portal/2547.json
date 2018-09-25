@@ -244,6 +244,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
+    "marginRight": 18,
     "renderTo": "container-2547"
   },
   "title": {
