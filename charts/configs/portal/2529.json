@@ -45,7 +45,11 @@
         ],
         [
           2015,
-          12404
+          12423
+        ],
+        [
+          2016,
+          12138
         ]
       ],
       "name": "Handel, Reparatur"
@@ -95,7 +99,11 @@
         ],
         [
           2015,
-          9760
+          9816
+        ],
+        [
+          2016,
+          9420
         ]
       ],
       "name": "Verkehr, Lagerei"
@@ -145,7 +153,11 @@
         ],
         [
           2015,
-          7400
+          7388
+        ],
+        [
+          2016,
+          7190
         ]
       ],
       "name": "Gastgewerbe"
@@ -195,7 +207,11 @@
         ],
         [
           2015,
-          4029
+          4097
+        ],
+        [
+          2016,
+          3952
         ]
       ],
       "name": "Information, Kommunikation"
@@ -222,12 +238,13 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 428,
-    "spacingBottom": 55,
+    "height": 415,
+    "spacingBottom": 45,
     "style": {
       "fontFamily": "Arial"
     },
     "type": "line",
+    "marginRight": 18,
     "renderTo": "container-2529"
   },
   "title": {
@@ -295,9 +312,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)."
   },
   "legend": {
     "enabled": true,
