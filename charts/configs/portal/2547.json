@@ -2,9 +2,6 @@
   "series": [
     {
       "color": "#6F6F6F",
-      "marker": {
-        "enabled": false
-      },
       "data": [
         [
           2005,

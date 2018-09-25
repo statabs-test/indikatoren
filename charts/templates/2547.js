@@ -2,11 +2,11 @@
     return {
  "xAxis": {
     "tickInterval": 1,
-    labels:{
-    	style:{
-    		textOverflow: 'none' // prevents ellipsis
-    	}
-    }
+    //labels:{
+    	//style:{
+    		//TextOverflow: 'none' // prevents ellipsis
+    	//}
+    //}
   },
   "yAxis": {
 	"labels": {
@@ -18,11 +18,8 @@
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   },
  "series": [
-	{"color": "#6F6F6F", 	  
-	"marker": {
-        "enabled": false
-    }}, /*BS*/
-    {"color": "#FF8028"}, /*BL*/
+	{"color": "#6F6F6F"}, /*BS*/
+  {"color": "#FF8028"}, /*BL*/
  	{"color": "#A8C3CA"}, /*AG*/
 	{"color": "#008AC3"}, /*ZH*/
 	  ],
