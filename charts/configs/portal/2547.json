@@ -3,7 +3,7 @@
     {
       "color": "#6F6F6F",
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
@@ -48,7 +48,11 @@
         ],
         [
           2015,
-          151633
+          151421
+        ],
+        [
+          2016,
+          151362
         ]
       ],
       "name": "BS"
@@ -98,7 +102,11 @@
         ],
         [
           2015,
-          117286
+          117540
+        ],
+        [
+          2016,
+          117336
         ]
       ],
       "name": "BL"
@@ -148,7 +156,11 @@
         ],
         [
           2015,
-          261749
+          262337
+        ],
+        [
+          2016,
+          265251
         ]
       ],
       "name": "AG"
@@ -198,7 +210,11 @@
         ],
         [
           2015,
-          788498
+          779574
+        ],
+        [
+          2016,
+          787274
         ]
       ],
       "name": "ZH"
@@ -225,8 +241,8 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 428,
-    "spacingBottom": 55,
+    "height": 415,
+    "spacingBottom": 45,
     "style": {
       "fontFamily": "Arial"
     },
@@ -298,9 +314,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)."
   },
   "legend": {
     "enabled": true,

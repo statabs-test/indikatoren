@@ -20,7 +20,7 @@
  "series": [
 	{"color": "#6F6F6F", 	  
 	"marker": {
-        "enabled": true
+        "enabled": false
     }}, /*BS*/
     {"color": "#FF8028"}, /*BL*/
  	{"color": "#A8C3CA"}, /*AG*/
