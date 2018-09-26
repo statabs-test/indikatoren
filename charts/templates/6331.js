@@ -9,6 +9,9 @@
     { "color": "#ffbb58", index: 2, legendIndex: 2}, // orange
     { "color": "#dc440e", index: 1, legendIndex: 1}, // rot
     { "color": "#999999", index: 0, legendIndex: 0}, // grau
-  ]
-	}
+  ],
+	chart: {
+	  spacingTop: 5,
+	},
+};
 }());

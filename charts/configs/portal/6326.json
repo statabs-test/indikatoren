@@ -127,9 +127,11 @@
         "fontSize": 10,
         "color": "#000000"
       },
+      "step": 2,
       "rotation": -45
     },
-    "tickLength": 0
+    "tickLength": 0,
+    "tickInterval": 1
   },
   "chart": {
     "events": {
@@ -166,6 +168,7 @@
     },
     "type": "column",
     "inverted": false,
+    "spacingTop": 5,
     "renderTo": "container-6326",
     "spacingBottom": 12
   },

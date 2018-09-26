@@ -4,7 +4,11 @@
         spacing: [1,3,3,3], /*top, right, bottom and left */
       },
   "xAxis": {
-    "tickInterval": 2
+    "tickInterval": 1,
+    labels: {
+      step: 1,
+      rotation: -45,
+    },
   },
   "yAxis": {
     max: 40, 
@@ -18,70 +22,17 @@
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   },
   "series": [
-    {"color": "#B00000",
-      "marker": {
-        "enabled": false
-      }    
-    }, /* dunkelrot */
-    	{"color": "#007A2F",
-	visible:true,
-      "marker": {
-        "enabled": false
-      }    
-    }, /* dunkelgrün */
-    	{"color": "#4f81bd",
-	visible:true,
-      "marker": {
-        "enabled": false
-      }    
-    }, /* dunkelblau */
-    	{"color": "#662673",
-	visible:true,
-      "marker": {
-        "enabled": false
-      }    
-    }, /* dunkelviolett */
-        {"color": "#7F5F1A",
-      "marker": {
-        "enabled": false
-      }    
-    }, /* dunkelbraun */
-    	{"color": "#FABD24",
-	visible:true,
-      "marker": {
-        "enabled": false
-      }    
-    }, /* dunkelgelb */
-    	{"color": "#3C3C3C",
-	visible:true,
-      "marker": {
-        "enabled": false
-      }    
-    }, /* schwarz */
-    	{"color": "#2B0099",
-	visible:true,
-      "marker": {
-        "enabled": false
-      }    
-    }, /* dunkelblau */
-    	{"color": "#E7CEE2",
-	visible:true,
-      "marker": {
-        "enabled": false
-      }    
-    }, /* hellviolett */
-    	{"color": "#A8C3CA",
-	visible:true,
-      "marker": {
-        "enabled": false
-      }    
-    }, /* hellblau */
-    	{"color": "#8AB77D",
-	visible:true,
-      "marker": {
-        "enabled": false
-      }    
-    }, /* hellgrün */
+    {"color": "#B00000",}, /* dunkelrot */
+  	{"color": "#007A2F",}, /* dunkelgrün */
+  	{"color": "#4f81bd",}, /* dunkelblau */
+  	{"color": "#662673",}, /* dunkelviolett */
+    {"color": "#7F5F1A",}, /* dunkelbraun */
+  	{"color": "#FABD24",}, /* dunkelgelb */
+  	{"color": "#3C3C3C",}, /* schwarz */
+  	{"color": "#2B0099",}, /* dunkelblau */
+  	{"color": "#E7CEE2",}, /* hellviolett */
+  	{"color": "#A8C3CA",}, /* hellblau */
+  	{"color": "#8AB77D",}, /* hellgrün */
   ],
   "legend": {
     "enabled": true,

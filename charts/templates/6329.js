@@ -15,15 +15,18 @@
   },
   "xAxis": {
     "type": "category",
-    "tickInterval": 1
+    "tickInterval": 1,
+    "labels": {
+        "formatter": function() {
+              	 return this.value;
+        }
+    },
   },  
   "yAxis": {
-  	 max: 750000,
      tickInterval: 2500,
     "labels": {
       "format": "{value:,.0f}",
     },
-	"max": undefined
   },
   "legend": {
     "enabled": true,

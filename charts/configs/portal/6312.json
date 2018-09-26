@@ -151,9 +151,10 @@
                     
                 }
     },
-    "renderTo": "container-6312",
     "type": "column",
     "inverted": false,
+    "spacingTop": 5,
+    "renderTo": "container-6312",
     "spacingBottom": 12
   },
   "plotOptions": {
@@ -210,6 +211,7 @@
       },
       "format": "{value:,.0f}"
     },
+    "max": 6000,
     "tickInterval": 2000
   },
   "navigation": {

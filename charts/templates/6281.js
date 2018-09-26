@@ -70,6 +70,9 @@
       "color": "#7d60a0",
       "index": 1,
       "type": "line",
+      marker: {
+        enabled: false
+      },
       "yAxis": 1,
       "tooltip": {
        "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>'

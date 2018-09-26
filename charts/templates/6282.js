@@ -19,28 +19,11 @@
   },
   "series": [
     {"color": "#B00000",
-      "marker": {
-        "enabled": true
-      }    
     }, /* dunkelrot */
     	{"color": "#007A2F",
-	visible:true,
-      "marker": {
-        "enabled": false
-      }    
     }, /* dunkelgrün */
     	{"color": "#4f81bd",
-	visible:true,
-      "marker": {
-        "enabled": false
-      }    
     }, /* dunkelblau */
-    	/*{"color": "#662673",
-	visible:true,
-      "marker": {
-        "enabled": true
-      }    
-    },  dunkelviolett */
   ],
   "legend": {
     "enabled": true,

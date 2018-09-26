@@ -645,7 +645,7 @@
   "legend": {
     "padding": 0,
     "layout": "vertical",
-    "verticalAlign": "top",
+    "verticalAlign": "middle",
     "align": "right",
     "useHTML": true,
     "itemStyle": {

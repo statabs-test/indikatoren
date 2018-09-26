@@ -14,32 +14,21 @@
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   },
   "series": [
-    {"color": "#FABD24",
-    legendIndex: 0,
-      "marker": {
-        "enabled": true
-      }    
+    {
+      "color": "#FABD24",
+      legendIndex: 0,
     }, /* hellgelb */
-    	{"color": "#7F5F1A",
-   legendIndex: 2,
-	visible:true,
-      "marker": {
-        "enabled": true
-      }    
+  	{
+  	  "color": "#7F5F1A",
+      legendIndex: 2,
     }, /* dunkelgelb */
-    	{"color": "#008AC3",
-     legendIndex: 1,
-	visible:true,
-      "marker": {
-        "enabled": true
-      }    
+  	{
+  	  "color": "#008AC3",
+      legendIndex: 1,
     }, /* hellblau */
-    	{"color": "#2B0099",
-     legendIndex: 3,
-	visible:true,
-      "marker": {
-        "enabled": true
-      }    
+  	{
+  	  "color": "#2B0099",
+      legendIndex: 3,
     }, /* dunkelblau */
   ],
   "legend": {
@@ -47,7 +36,7 @@
     margin: 3,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 2,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
@@ -62,6 +51,6 @@
       }
     }
   }
-}
+};
 }());
  

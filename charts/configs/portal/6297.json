@@ -560,6 +560,7 @@
                     }
     },
     "type": "area",
+    "spacingTop": 5,
     "renderTo": "container-6297",
     "spacingBottom": 12
   },

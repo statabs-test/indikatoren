@@ -16,17 +16,8 @@
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   },
   "series": [
-    {"color": "#008AC3",
-      "marker": {
-        "enabled": true
-      }    
-    }, /* dunkelrot */
-    	{"color": "#007A2F",
-	visible:true,
-      "marker": {
-        "enabled": true
-      }    
-    }, /* dunkelgrün */
+    {"color": "#008AC3",}, /* dunkelrot */
+  	{"color": "#007A2F",}, /* dunkelgrün */
   ],
   "legend": {
     "enabled": true,

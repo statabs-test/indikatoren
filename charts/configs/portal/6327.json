@@ -2,9 +2,6 @@
   "series": [
     {
       "color": "#008AC3",
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2011,
@@ -39,10 +36,6 @@
     },
     {
       "color": "#007A2F",
-      "visible": true,
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2011,
@@ -191,13 +184,12 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 0,
-    "itemWidth": 500
+    "padding": 0
   },
   "plotOptions": {
     "series": {

@@ -489,6 +489,7 @@
                     
                 }
     },
+    "spacingTop": 5,
     "renderTo": "container-6288",
     "spacingBottom": 2
   },

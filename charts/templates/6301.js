@@ -15,14 +15,8 @@
   },
   "series": [
     {"color": "#008AC3 ",
-      "marker": {
-        "enabled": true
-      }    
     }, /* blau */
 	{"color": "#B00000",
-      "marker": {
-        "enabled": true
-      }    
     }, /* rot */
   ],
   "legend": {

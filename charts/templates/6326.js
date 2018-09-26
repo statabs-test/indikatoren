@@ -10,7 +10,9 @@
    },
   "xAxis": {
     "type": "category",
+    tickInterval: 1,
     "labels": {
+      step: 2,
       "rotation": -45
     } 
   },
@@ -41,7 +43,7 @@
   "chart": {      
     "type": "column",
     "inverted": false,
-    //"spacingTop": 100
+    "spacingTop": 5
   }
-}
+};
 }());

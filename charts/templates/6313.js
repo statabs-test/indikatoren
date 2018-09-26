@@ -19,7 +19,6 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 35,
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -31,12 +30,7 @@
   "chart": {      
     "type": "column",
     "inverted": false,
+    spacingTop: 5,
   },
-   plotOptions: {
-        series: {
-           "pointWidth": 30,
-        }
-   },
-
-}
+};
 }());

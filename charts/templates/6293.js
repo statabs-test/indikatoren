@@ -1,50 +1,49 @@
+/*
+global Highcharts
+*/
+
 (function(){
     return {
   "xAxis": {
-    "tickInterval": 2
+    "tickInterval": 1, 
+    labels: {
+      step: 2,
+      rotation: -45,
+    },
   },
   "yAxis": {
-    max: 8, 
-    tickInterval: 2,
   	"labels": {
-  		"format": "{value:,.0f}"
+  	  formatter: function(){
+  		  return Highcharts.numberFormat((this.value*100),1)+'%'; 
+  	  }
   	}
   },	
   "tooltip": {
     "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
+    "pointFormatter": function(){
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>';
+    },
+
   },
   "series": [
     {"color": "#008AC3",
-    legendIndex: 0,
-      "marker": {
-        "enabled": false
-      }    
-    }, /* grün */
-    	{"color": "#68AB2B",
-	visible:true,
-	legendIndex: 2,
-      "marker": {
-        "enabled": false
-      }    
+    legendIndex: 0,}, /* grün */
+  	{
+  	  "color": "#68AB2B",
+	    legendIndex: 2,
     }, /* blau */
-    	{"color": "#3C3C3C",
-	legendIndex: 1,
-	visible:true,
-      "marker": {
-        "enabled": true
-      }    
+  	{
+  	  "color": "#3C3C3C",
+    	legendIndex: 1,
     }, /* scharz */
   ],
   "legend": {
     "enabled": true,
-    //"x": 45,
-    //"y": 35,
-    "itemWidth": 200,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 3,
-    margin: 3, 
+    padding: 0,
+    itemDistance: 18,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"

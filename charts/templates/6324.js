@@ -15,16 +15,10 @@
   },
   "series": [
     {"color": "#008AC3",
-      "marker": {
-        "enabled": true
-      }    
     }, /* dunkelrot */
   ],
   "legend": {
     "enabled": false,
-    //"x":35,
-    //"y": 35,
-    "itemWidth": 80,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
@@ -33,15 +27,9 @@
       "fontWeight": "normal"
     }
   },
-  "plotOptions": {
-    "line": {
-	  "connectNulls": true,
-      "marker":{
-        "enabled": false,
-        "symbol": "circle",
-      }
-    }
-  }
-}
+  chart: {
+    spacingTop: 5,
+  },
+};
 }());
  

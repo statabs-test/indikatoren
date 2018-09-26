@@ -21,7 +21,7 @@
         "text": null
       },
       "labels": {
-        "format": "{value:,.1f}",
+        "format": "{value:,.0f}",
         "style": {
           "color": "#000000"
         }
@@ -38,37 +38,25 @@
   },
   "series": [
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },     
       "color": "#008AC3",
       "yAxis": 0,
-	 "tooltip": {
-		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
-	 },
+  	  "tooltip": {
+	  	  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
+	    },
     },
-        {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },     
+    {
       "color": "#68AB2B",
       "yAxis": 0,
-	 "tooltip": {
-		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
-	 },
+  	  "tooltip": {
+  		  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
+  	  },
     },
-            {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },     
+    {
       "color": "#662673",
       "yAxis": 1,
-	 "tooltip": {
-		"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}</b><br/>',
-	 },
+  	  "tooltip": {
+  		  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}</b><br/>',
+  	  },
     }
   ],
   "legend": {

@@ -1,10 +1,6 @@
 {
   "series": [
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
       "color": "#008AC3",
       "yAxis": 0,
       "tooltip": {
@@ -59,10 +55,6 @@
       "name": "Einbürgerungsziffer männlich"
     },
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
       "color": "#68AB2B",
       "yAxis": 0,
       "tooltip": {
@@ -117,10 +109,6 @@
       "name": "Einbürgerungsziffer weiblich"
     },
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
       "color": "#662673",
       "yAxis": 1,
       "tooltip": {
@@ -255,7 +243,7 @@
         "text": null
       },
       "labels": {
-        "format": "{value:,.1f}",
+        "format": "{value:,.0f}",
         "style": {
           "color": "#000000"
         }

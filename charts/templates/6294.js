@@ -77,7 +77,6 @@
   ],
   "legend": {
     "enabled": true,
-    "itemWidth": 200,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,

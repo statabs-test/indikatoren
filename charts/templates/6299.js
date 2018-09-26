@@ -1,10 +1,26 @@
 (function(){
     return {
       "xAxis": {
-        "type": "category"
+        "type": "category", 
+        labels: {
+          "formatter": function() {
+                  //add sum of observations of visible series to the axis label
+                  var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
+                      return val.visible;
+                  });
+                  var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                  var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
+                      return accumulator + series.yData[indexOfCurrentValue];
+                  }, 0);
+                  //use N if all series are visible, otherwise use n
+                  var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
+                  var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
+              	return this.value.replace(" ", "<br/>") + '<br/>' + nString + sum;      
+          },
+        },
       },
       chart: {
-        spacingTop: 12
+        spacingTop: 5
       },
       "series": [
         { "color": "#007a2f", index: 4, legendIndex: 4}, // dunkelgrün
@@ -13,16 +29,10 @@
         { "color": "#dc440e", index: 1, legendIndex: 1}, // rot
         { "color": "#999999", index: 0, legendIndex: 0}, // grau
       ],
-      /*"legend": {
-        "enabled": true,
-        "layout": "horizontal",
-        "verticalAlign": "top",
-        "align": "left",
-    	 "y": 70,
-    	 itemWidth: 500, 
-          "itemStyle": {
-            "fontWeight": "normal"
-          }
-      },*/
-	}
+      "legend": {
+        labelFormatter: function(){
+          return this.name.replace(" so", "<br/>so").replace(" / ", " /<br/>");
+        },
+      },
+	};
 }());

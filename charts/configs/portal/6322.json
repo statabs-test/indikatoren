@@ -565,9 +565,9 @@
                     
                 }
     },
+    "spacingBottom": 15,
     "inverted": false,
-    "renderTo": "container-6322",
-    "spacingBottom": 12
+    "renderTo": "container-6322"
   },
   "plotOptions": {
     "series": {
@@ -622,8 +622,13 @@
       },
       "format": "{value:,.0f}"
     },
-    "max": 42000,
-    "tickInterval": 10500
+    "tickPositions": [
+      0,
+      12500,
+      25000,
+      37500,
+      50000
+    ]
   },
   "navigation": {
     "menuItemStyle": {
@@ -649,7 +654,7 @@
   "legend": {
     "padding": 2,
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
@@ -657,7 +662,6 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "itemWidth": 120,
     "margin": 2
   },
   "dataLabels": {

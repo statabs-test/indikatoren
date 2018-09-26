@@ -2,9 +2,6 @@
   "series": [
     {
       "color": "#B00000",
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2002,
@@ -75,10 +72,6 @@
     },
     {
       "color": "#007A2F",
-      "visible": true,
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2002,
@@ -149,10 +142,6 @@
     },
     {
       "color": "#4f81bd",
-      "visible": true,
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2002,
@@ -223,10 +212,6 @@
     },
     {
       "color": "#662673",
-      "visible": true,
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2002,
@@ -297,10 +282,6 @@
     },
     {
       "color": "#FABD24",
-      "visible": true,
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2002,
@@ -459,6 +440,7 @@
         "fontSize": 10,
         "color": "#000000"
       },
+      "step": 1,
       "rotation": -45
     },
     "tickLength": 0,
@@ -486,7 +468,7 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"

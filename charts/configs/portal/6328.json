@@ -2,10 +2,7 @@
   "series": [
     {
       "color": "#B00000",
-      "visible": true,
-      "marker": {
-        "enabled": false
-      },
+      "id": "0",
       "data": [
         [
           2008,
@@ -52,10 +49,7 @@
     },
     {
       "color": "#007A2F",
-      "visible": true,
-      "marker": {
-        "enabled": false
-      },
+      "id": "1",
       "data": [
         [
           2008,
@@ -102,10 +96,7 @@
     },
     {
       "color": "#4f81bd",
-      "visible": true,
-      "marker": {
-        "enabled": false
-      },
+      "id": "2",
       "data": [
         [
           2008,
@@ -152,10 +143,7 @@
     },
     {
       "color": "#662673",
-      "visible": true,
-      "marker": {
-        "enabled": false
-      },
+      "id": "3",
       "data": [
         [
           2008,
@@ -202,10 +190,7 @@
     },
     {
       "color": "#7F5F1A",
-      "visible": true,
-      "marker": {
-        "enabled": false
-      },
+      "id": "4",
       "data": [
         [
           2008,
@@ -252,10 +237,7 @@
     },
     {
       "color": "#FABD24",
-      "visible": true,
-      "marker": {
-        "enabled": false
-      },
+      "id": "5",
       "data": [
         [
           2008,
@@ -302,10 +284,7 @@
     },
     {
       "color": "#3C3C3C",
-      "visible": true,
-      "marker": {
-        "enabled": true
-      },
+      "id": "6",
       "data": [
         [
           2008,
@@ -349,6 +328,361 @@
         ]
       ],
       "name": "Total (Stadt)"
+    },
+    {
+      "color": "#B00000",
+      "linkedTo": "0",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          12.74
+        ]
+      ],
+      "name": "0 bis 17 J. (Kanton)"
+    },
+    {
+      "color": "#007A2F",
+      "showInLegend": false,
+      "linkedTo": "1",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          9.82
+        ]
+      ],
+      "name": "18 bis 25 J. (Kanton)"
+    },
+    {
+      "color": "#4f81bd",
+      "showInLegend": false,
+      "linkedTo": "2",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          7.42
+        ]
+      ],
+      "name": "26 bis 35 J. (Kanton)"
+    },
+    {
+      "color": "#662673",
+      "showInLegend": false,
+      "linkedTo": "3",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          8.2
+        ]
+      ],
+      "name": "36 bis 50 J. (Kanton)"
+    },
+    {
+      "color": "#7F5F1A",
+      "linkedTo": "4",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          5.97
+        ]
+      ],
+      "name": "51 bis 65 J. (Kanton)"
+    },
+    {
+      "color": "#FABD24",
+      "showInLegend": false,
+      "linkedTo": "5",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          0.21
+        ]
+      ],
+      "name": "66 J. u.m. (Kanton)"
+    },
+    {
+      "color": "#3C3C3C",
+      "showInLegend": false,
+      "linkedTo": "6",
+      "marker": {
+        "enabled": true
+      },
+      "data": [
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          6.99
+        ]
+      ],
+      "name": "Total (Kanton)"
     }
   ],
   "chart": {
@@ -385,6 +719,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
+    "spacingTop": 5,
     "renderTo": "container-6328",
     "spacingBottom": 22
   },
@@ -429,8 +764,7 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}%"
-    },
-    "tickAmount": 5
+    }
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -439,10 +773,11 @@
       "style": {
         "fontSize": 10,
         "color": "#000000"
-      }
+      },
+      "y": 12
     },
     "tickLength": 0,
-    "tickInterval": 2
+    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -462,16 +797,20 @@
   },
   "legend": {
     "enabled": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
     "symbolRadius": 0,
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 0
+    "padding": 0,
+    "labelFormatter": function () {
+        return this.name.slice(0, this.name.indexOf('(Stadt)'));
+      },
+    "itemDistance": 5
   },
   "plotOptions": {
     "series": {
@@ -480,10 +819,10 @@
       }
     },
     "line": {
-      "connectNulls": true,
       "marker": {
         "enabled": false,
-        "symbol": "circle"
+        "symbol": "circle",
+        "radius": 2
       }
     }
   },

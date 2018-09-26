@@ -2,9 +2,6 @@
   "series": [
     {
       "color": "#b00000 ",
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2010,
@@ -43,9 +40,6 @@
     },
     {
       "color": "#672773",
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2010,
@@ -84,9 +78,6 @@
     },
     {
       "color": "#007a2f",
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2010,
@@ -125,9 +116,6 @@
     },
     {
       "color": "#7F5F1A",
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2010,
@@ -166,9 +154,6 @@
     },
     {
       "color": "#E6E600",
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2010,
@@ -204,12 +189,6 @@
         ]
       ],
       "name": "Fussgänger"
-    },
-    {
-      "color": "#008AC3",
-      "marker": {
-        "enabled": true
-      }
     }
   ],
   "chart": {
@@ -291,7 +270,6 @@
       },
       "format": "{value:,.0f}"
     },
-    "max": 125,
     "tickInterval": 5
   },
   "xAxis": {

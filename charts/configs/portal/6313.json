@@ -80,6 +80,7 @@
     },
     "type": "column",
     "inverted": false,
+    "spacingTop": 5,
     "renderTo": "container-6313",
     "spacingBottom": 12
   },
@@ -93,8 +94,7 @@
           "fontWeight": "normal",
           "color": "black"
         }
-      },
-      "pointWidth": 30
+      }
     }
   },
   "title": {
@@ -169,8 +169,7 @@
     "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left",
-    "x": 35
+    "align": "left"
   },
   "dataLabels": {
     "enabled": false,
