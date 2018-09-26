@@ -1,6 +1,6 @@
 (function(){
     return {
-    "yAxis": [{
+  "yAxis": [{
     "labels": {
       "format": "{value:,.0f}‰",
       "style": {
@@ -9,7 +9,8 @@
     },
     "min": 0,
     "max": undefined,
-    "title": ""
+    "title": "",
+    tickAmount: 5,
   },
   {
     "title": {
@@ -28,6 +29,7 @@
     "min": 0,
     "max": undefined,
     "gridLineWidth": 0,
+    tickAmount: 5,
     "opposite": true
   }
   ],

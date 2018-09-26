@@ -227,7 +227,8 @@
         }
       },
       "min": 0,
-      "title": ""
+      "title": "",
+      "tickAmount": 5
     },
     {
       "title": {
@@ -245,6 +246,7 @@
       },
       "min": 0,
       "gridLineWidth": 0,
+      "tickAmount": 5,
       "opposite": true
     }
   ],

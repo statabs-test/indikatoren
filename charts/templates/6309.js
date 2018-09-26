@@ -15,40 +15,32 @@
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>'
   },
   "series": [
-    {"color": "#008AC3",
-    "marker": {
-        "enabled": false
-      }    
+    {
+      "color": "#008AC3",
+      legendIndex: 0,
     }, /* duneklblau */
-    	{"color": "#68AB2B",
-	visible:true,
-    "marker": {
-        "enabled": false
-      }    
-    }, /* dunkelgrün */
-      {"color": "#2B0099",
-    "marker": {
-        "enabled": false
-      },
-       dashStyle: 'LongDash'
+  	{
+  	  "color": "#68AB2B",
+  	  legendIndex: 2,
+  	}, /* dunkelgrün */
+    {
+      "color": "#2B0099",
+       dashStyle: 'ShortDash',
+       legendIndex: 1,
     }, /* duneklblau */
-    	{"color": "#007A2F",
-	visible:true,
-    "marker": {
-        "enabled": false
-      },
-      dashStyle: 'LongDash'
+  	{
+  	  "color": "#007A2F",
+      dashStyle: 'ShortDash',
+      legendIndex: 3,
     }, /* dunkelgrün */
   ],
   "legend": {
-  	//symbolWidth: 30,
     "enabled": true,
-    //"x": 25,
-    //"y": 65,
-    //"itemWidth": 220,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 3,
+    padding: 1,
+    itemDistance: 10,
     margin: 3,
     "align": "left",
     "itemStyle": {

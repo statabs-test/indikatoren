@@ -148,7 +148,7 @@
       },
       "format": "{value:,.0f}%"
     },
-    "tickAmount": 5
+    "tickAmount": 6
   },
   "xAxis": {
     "lineColor": "#B9CFD7",

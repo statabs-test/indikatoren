@@ -135,6 +135,7 @@
       },
       "format": "{value:,.0f}%"
     },
+    "max": 40,
     "tickAmount": 5
   },
   "navigation": {

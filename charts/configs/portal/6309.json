@@ -2,9 +2,7 @@
   "series": [
     {
       "color": "#008AC3",
-      "marker": {
-        "enabled": false
-      },
+      "legendIndex": 0,
       "data": [
         [
           1991,
@@ -119,10 +117,7 @@
     },
     {
       "color": "#68AB2B",
-      "visible": true,
-      "marker": {
-        "enabled": false
-      },
+      "legendIndex": 2,
       "data": [
         [
           1991,
@@ -237,10 +232,8 @@
     },
     {
       "color": "#2B0099",
-      "marker": {
-        "enabled": false
-      },
-      "dashStyle": "LongDash",
+      "dashStyle": "ShortDash",
+      "legendIndex": 1,
       "data": [
         [
           1991,
@@ -355,11 +348,8 @@
     },
     {
       "color": "#007A2F",
-      "visible": true,
-      "marker": {
-        "enabled": false
-      },
-      "dashStyle": "LongDash",
+      "dashStyle": "ShortDash",
+      "legendIndex": 3,
       "data": [
         [
           1991,
@@ -594,7 +584,8 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 0,
+    "padding": 1,
+    "itemDistance": 10,
     "margin": 3
   },
   "plotOptions": {
