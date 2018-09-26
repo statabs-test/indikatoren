@@ -363,6 +363,106 @@
       ],
       "name": "Ertrag Vermögen 2015",
       "turboThreshold": 0
+    },
+    {
+      "color": "orange",
+      "type": "scatter",
+      "yAxis": 1,
+      "marker": {
+        "enabled": true,
+        "radius": 2
+      },
+      "tooltip": {
+        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "Altstadt GB",
+          1675
+        ],
+        [
+          "Vorstädte",
+          2999
+        ],
+        [
+          "Am Ring",
+          6239
+        ],
+        [
+          "Breite",
+          5497
+        ],
+        [
+          "St. Alban",
+          6439
+        ],
+        [
+          "Gundeldingen",
+          11541
+        ],
+        [
+          "Bruderholz",
+          4986
+        ],
+        [
+          "Bachletten",
+          8112
+        ],
+        [
+          "Gotthelf",
+          4191
+        ],
+        [
+          "Iselin",
+          9739
+        ],
+        [
+          "St. Johann",
+          10894
+        ],
+        [
+          "Altstadt KB",
+          1588
+        ],
+        [
+          "Clara",
+          2438
+        ],
+        [
+          "Wettstein",
+          3455
+        ],
+        [
+          "Hirzbrunnen",
+          5289
+        ],
+        [
+          "Rosental",
+          3158
+        ],
+        [
+          "Matthäus",
+          9052
+        ],
+        [
+          "Klybeck",
+          4093
+        ],
+        [
+          "Kleinhüning.",
+          1609
+        ],
+        [
+          "Riehen",
+          11758
+        ],
+        [
+          "Bettingen",
+          628
+        ]
+      ],
+      "name": "Anzahl Veranlagungen 2015 (rechte Skala)",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -433,24 +533,27 @@
     "shared": false,
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
-  "yAxis": {
-    "min": 0,
-    "gridLineColor": "#B9CFD7",
-    "gridLineWidth": 0.5,
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
+  "yAxis": [
+    {
+      "labels": {
+        "format": "{value:,.0f}"
       },
-      "text": null
-    },
-    "labels": {
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}"
+      "title": ""
+    },
+    {
+      "opposite": true,
+      "labels": {
+        "format": "{value:,.0f}"
+      },
+      "style": {
+        "color": "#000000"
+      },
+      "title": ""
     }
-  },
+  ],
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
@@ -475,6 +578,10 @@
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
+    },
+    "itemDistance": 5,
+    "labelFormatter": function (){
+      return this.name.replace(" (", "<br/>(");
     }
   },
   "plotOptions": {
