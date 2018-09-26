@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "name": "Mittelwert Gesamtsteuerertrag pro Veranlagung",
+      "name": "Mittelwert Gesamtsteuerertrag",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -6834,7 +6834,7 @@
           12223809
         ]
       ],
-      "name": "Summe Einkommenssteuerbetrag"
+      "name": "Einkommenssteuer"
     },
     {
       "visible": false,
@@ -6927,7 +6927,7 @@
           9752939
         ]
       ],
-      "name": "Summe Vermögenssteuerbetrag"
+      "name": "Vermögenssteuer"
     },
     {
       "name": "Rhein",
@@ -7197,28 +7197,28 @@
 					fn.drawPies(chart, pieSizeSeries, pieSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig);
 
                 	//Add manually drawn legend	
-                	fn.addLegendRectangle(chart, 243, 209, 230, 104, '#fbfbfb', 'pieLegend');
-                	fn.addLegendRectangle(chart, 243, 320, 230, 50, '#fbfbfb');
+                	fn.addLegendRectangle(chart, 243, 221, 230, 101, '#fbfbfb', 'pieLegend');
+                	fn.addLegendRectangle(chart, 243, 330, 230, 60, '#fbfbfb');
 
-                	fn.addLegendLabelbold(chart, pieSizeSeries.name, 250, 206, undefined, true);
-					fn.addLegendSquare(chart, 255, 227, 10, '#B00000');
-					fn.addLegendLabel(chart, 'Summe<br/>Einkommens-<br/>steuerbetrag', 265, 221);
-					fn.addLegendSquare(chart, 255, 270, 10, '#FABD24');
-					fn.addLegendLabel(chart, 'Summe<br/>Vermögens-<br/>steuerbetrag', 265, 264);
+                	fn.addLegendLabelbold(chart, pieSizeSeries.name, 250, 221, undefined, true);
+					fn.addLegendSquare(chart, 255, 245, 10, '#B00000');
+					fn.addLegendLabel(chart, 'Einkommens-<br/>steuer', 265, 239);
+					fn.addLegendSquare(chart, 255, 285, 10, '#FABD24');
+					fn.addLegendLabel(chart, 'Vermögens-<br/>steuer', 265, 279);
 					
 					//pie values in legend
 	                var minValueInLegend = 10000000; 
 	                var maxValueInLegend = 200000000; 
 	                
-	                fn.addLegendCircle(chart, 359, 232, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey', 'pieLegendStayeOnZoom');
-	                fn.addLegendCircle(chart, 360, 287, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey', 'pieLegendStayeOnZoom');
+	                fn.addLegendCircle(chart, 359, 250, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey', 'pieLegendStayeOnZoom');
+	                fn.addLegendCircle(chart, 360, 302, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey', 'pieLegendStayeOnZoom');
 	                
 					var zoomableLabels = [];
 	                zoomableLabels.push({
 	                	chart: chart, 
 	                	text: Highcharts.numberFormat((minValueInLegend), 0, "," ," "), 
 	                	x: 455, 
-	                	y: 221, 
+	                	y: 239, 
 	                	cssClass: 'pieLegendRecalculateOnZoom', 
 	                	useHtml: false, 
 	                	initialValue: minValueInLegend,
@@ -7231,14 +7231,14 @@
 	                //copy first label but overwrite some properties
 	                zoomableLabels.push($.extend({}, zoomableLabels[0], {
 	                	text: Highcharts.numberFormat((maxValueInLegend),0,"."," "),
-	                	y: 275,
+	                	y: 281,
 	                	initialValue: maxValueInLegend,
 	                }));
 	                zoomableLabels[1].label = fn.addLegendLabel(zoomableLabels[1].chart, zoomableLabels[1].text, zoomableLabels[1].x, zoomableLabels[1].y, zoomableLabels[1].cssClass, zoomableLabels[1].useHtml, zoomableLabels[1].align);						                					
 					
 					
 					
-					fn.addLegendTitle(chart, choroplethSeries.name.replace(" pro", "<br/>pro"), 250, 320);
+					fn.addLegendTitle(chart, choroplethSeries.name, 250, 330);
 
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
