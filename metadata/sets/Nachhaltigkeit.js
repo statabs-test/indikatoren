@@ -519,7 +519,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Lebenserwartung bei Geburt",
-		"subtitle": "nach Geschlecht in Jahren",
+		"subtitle": "nach Geschlecht in Jahren, Basel-Stadt",
 		"kuerzel": "I.14.3.5180",
 		"kuerzelKunde": "GW3",
 		"description": "Lebenserwartung bei Geburt",
@@ -529,7 +529,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-09-25T12:06:44.4444",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
@@ -538,6 +538,7 @@ var indikatorensetData = [
 		"lesehilfe": "Die Lebenserwartung bei Geburt für Frauen liegt im gesamten Beobachtungszeitraum über derjenigen der Männer. Die Werte für 2017 liegen bei 84,4 Jahren (Frauen) und 80,9 Jahren (Männer).",
 		"erlaeuterungen": "Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "03_02_00_00_00_303",
 		"parentId": null,
@@ -549,8 +550,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5180,
-		"darstellungsart": "Grafik"
+		"id": 5180
 	},
 	{
 		"title": "Empfundene gesundheitliche Verfassung",
