@@ -1,7 +1,13 @@
 (function(){
     return {
+      chart: {
+        spacingTop: 5,
+      },
   "xAxis": {
     "tickInterval": 1,
+    labels: {
+      step: 2,
+    },
   },
   "yAxis": {
     "min": 0, 

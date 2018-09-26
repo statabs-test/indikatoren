@@ -36,7 +36,10 @@
   }
   ],
   "xAxis": {
-    "tickInterval": 1
+    "tickInterval": 1,
+    labels: {
+      step: 2,
+    },
   },
   "legend": {
     "enabled": true,

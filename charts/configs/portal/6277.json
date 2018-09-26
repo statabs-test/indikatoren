@@ -191,6 +191,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
+    "spacingTop": 5,
     "renderTo": "container-6277",
     "spacingBottom": 12
   },
@@ -244,7 +245,8 @@
       "style": {
         "fontSize": 10,
         "color": "#000000"
-      }
+      },
+      "step": 2
     },
     "tickLength": 0,
     "tickInterval": 1

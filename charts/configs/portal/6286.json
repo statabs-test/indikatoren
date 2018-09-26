@@ -76,6 +76,7 @@
     },
     "type": "column",
     "inverted": false,
+    "spacingTop": 5,
     "renderTo": "container-6286",
     "spacingBottom": 2
   },

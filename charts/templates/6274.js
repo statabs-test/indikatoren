@@ -13,7 +13,7 @@
   "xAxis": {
     "type": "category",
      "labels": {
-      "rotation": -90 
+        "rotation": -90,
     } 
   },
   "yAxis": {
@@ -36,9 +36,8 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    itemWidth: 52,
-    //"x": 40,
-	//"y": 65,    
+    padding: 0,
+    itemDistance: 10,
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -50,11 +49,12 @@
   "chart": {      
     "type": "column",
     "inverted": false,
+    spacingBottom: 5,
      //"marginBottom": 75,
      //"marginTop": 75,
   },
    "labelFormatter": function () {
             return this.name;
         }
-}
+};
 }());

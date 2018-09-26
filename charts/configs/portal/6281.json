@@ -211,7 +211,8 @@
       "style": {
         "fontSize": 10,
         "color": "#000000"
-      }
+      },
+      "step": 2
     },
     "tickLength": 0,
     "tickInterval": 1

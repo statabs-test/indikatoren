@@ -167,6 +167,7 @@
     },
     "type": "column",
     "inverted": false,
+    "marginTop": 5,
     "renderTo": "container-6283",
     "spacingBottom": 2
   },
@@ -259,8 +260,7 @@
     "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left",
-    "x": 35
+    "align": "left"
   },
   "dataLabels": {
     "enabled": false,

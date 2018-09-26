@@ -1,5 +1,8 @@
 (function(){
     return {
+  chart: {
+    marginRight: 4,
+  },
   "xAxis": {
     "tickInterval": 2
   },
@@ -25,21 +28,18 @@
     }, /* dunkelrot */
     	{"color": "#007A2F",
     	legendIndex: 3,
-	visible:true,
       "marker": {
         "enabled": true
       }    
     }, /* dunkelgrün */
     	{"color": "#4f81bd",
     	legendIndex: 5,
-	visible:true,
       "marker": {
         "enabled": true
       }    
     }, /* dunkelblau */
     	{"color": "#2B0099",
     	legendIndex: 7,
-	visible:true,
       "marker": {
         "enabled": true
       }    
@@ -53,21 +53,18 @@
     }, /* hellrot */
     	{"color": "#68AB2B",
     	legendIndex: 4,
-	visible: true,
       "marker": {
         "enabled": false
       }    
     }, /* hellgrün */
     	{"color": "#008AC3",
     	legendIndex: 6,
-	visible: true,
       "marker": {
         "enabled": false
       }    
     }, /* hellblau */
     	{"color": "#B375AB",
     	legendIndex: 8,
-	visible: true,
       "marker": {
         "enabled": false
       }    
@@ -83,7 +80,6 @@
     "itemMarginBottom": 3,
     margin: 3, 
     padding: 2,
-    itemWidth: 120,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"

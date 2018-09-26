@@ -381,8 +381,8 @@
       "fontWeight": "normal"
     },
     "padding": 2,
-    "itemWidth": 54,
-    "margin": 2
+    "margin": 2,
+    "itemDistance": 7
   },
   "plotOptions": {
     "series": {

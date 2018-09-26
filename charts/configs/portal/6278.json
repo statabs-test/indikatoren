@@ -53,7 +53,6 @@
     {
       "color": "#007A2F",
       "legendIndex": 3,
-      "visible": true,
       "marker": {
         "enabled": true
       },
@@ -104,7 +103,6 @@
     {
       "color": "#4f81bd",
       "legendIndex": 5,
-      "visible": true,
       "marker": {
         "enabled": true
       },
@@ -155,7 +153,6 @@
     {
       "color": "#2B0099",
       "legendIndex": 7,
-      "visible": true,
       "marker": {
         "enabled": true
       },
@@ -257,7 +254,6 @@
     {
       "color": "#68AB2B",
       "legendIndex": 4,
-      "visible": true,
       "marker": {
         "enabled": false
       },
@@ -308,7 +304,6 @@
     {
       "color": "#008AC3",
       "legendIndex": 6,
-      "visible": true,
       "marker": {
         "enabled": false
       },
@@ -359,7 +354,6 @@
     {
       "color": "#B375AB",
       "legendIndex": 8,
-      "visible": true,
       "marker": {
         "enabled": false
       },
@@ -442,6 +436,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
+    "marginRight": 4,
     "renderTo": "container-6278",
     "spacingBottom": 12
   },
@@ -530,8 +525,7 @@
       "fontWeight": "normal"
     },
     "padding": 2,
-    "margin": 3,
-    "itemWidth": 120
+    "margin": 3
   },
   "plotOptions": {
     "series": {
