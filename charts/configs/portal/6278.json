@@ -3,9 +3,7 @@
     {
       "color": "#B00000",
       "legendIndex": 1,
-      "marker": {
-        "enabled": true
-      },
+      "dashStyle": "ShortDash",
       "data": [
         [
           2000,
@@ -53,9 +51,7 @@
     {
       "color": "#007A2F",
       "legendIndex": 3,
-      "marker": {
-        "enabled": true
-      },
+      "dashStyle": "ShortDash",
       "data": [
         [
           2000,
@@ -103,9 +99,7 @@
     {
       "color": "#4f81bd",
       "legendIndex": 5,
-      "marker": {
-        "enabled": true
-      },
+      "dashStyle": "ShortDash",
       "data": [
         [
           2000,
@@ -153,9 +147,7 @@
     {
       "color": "#2B0099",
       "legendIndex": 7,
-      "marker": {
-        "enabled": true
-      },
+      "dashStyle": "ShortDash",
       "data": [
         [
           2000,

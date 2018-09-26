@@ -20,29 +20,25 @@
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>'
   },
   "series": [
-    {"color": "#B00000",
-    legendIndex: 1,
-      "marker": {
-        "enabled": true
-      }    
-    }, /* dunkelrot */
-    	{"color": "#007A2F",
-    	legendIndex: 3,
-      "marker": {
-        "enabled": true
-      }    
+      {
+        "color": "#B00000",
+        legendIndex: 1,
+        dashStyle: 'ShortDash'
+      }, /* dunkelrot */
+    	{
+    	  "color": "#007A2F",
+      	legendIndex: 3,
+      	dashStyle: 'ShortDash'
     }, /* dunkelgrün */
-    	{"color": "#4f81bd",
-    	legendIndex: 5,
-      "marker": {
-        "enabled": true
-      }    
+    	{
+    	  "color": "#4f81bd",
+      	legendIndex: 5,
+        dashStyle: 'ShortDash'  
     }, /* dunkelblau */
-    	{"color": "#2B0099",
-    	legendIndex: 7,
-      "marker": {
-        "enabled": true
-      }    
+    	{
+    	  "color": "#2B0099",
+    	  legendIndex: 7,
+    	  dashStyle: 'ShortDash'
     }, /* dunkelviolett */
        {"color": "#E64900",
        visible: true,
