@@ -85,6 +85,7 @@
     },
     "type": "column",
     "inverted": false,
+    "spacingTop": 5,
     "renderTo": "container-6343",
     "spacingBottom": 2
   },

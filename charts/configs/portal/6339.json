@@ -1,10 +1,6 @@
 {
   "series": [
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
       "color": "#008AC3",
       "data": [
         [
@@ -83,10 +79,6 @@
       "name": "Nettoschuldenquote"
     },
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
       "color": "#68AB2B",
       "yAxis": 1,
       "data": [

@@ -36,17 +36,9 @@
   },
   "series": [
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },     
       "color": "#008AC3"
     },
-        {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },     
+    {
       "color": "#68AB2B",
       "yAxis": 1
     }

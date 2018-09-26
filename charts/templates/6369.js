@@ -53,6 +53,7 @@
   "chart": {
   	type: "column",
     "inverted": false,
+    spacingTop: 5,
   }
 };
 }());

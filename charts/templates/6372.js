@@ -88,7 +88,8 @@
     width: 600,
     "type": "column",
     "inverted": false,
-    //"spacingBottom": 40
+    spacingBottom: 5,
+    spacingTop: 5,
   }
 }
 }());
