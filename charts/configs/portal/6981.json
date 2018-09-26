@@ -48,7 +48,7 @@
           17418000
         ]
       ],
-      "name": "Ertrag Grundstücksteuer"
+      "name": "Ertrag Grundstücksteuern"
     },
     {
       "color": "#DC440E",
@@ -98,7 +98,7 @@
           134545000
         ]
       ],
-      "name": "Ertrag aus Kapitalsteuer"
+      "name": "Ertrag Kapitalsteuern"
     },
     {
       "color": "#B00000",
@@ -148,7 +148,7 @@
           542697000
         ]
       ],
-      "name": "Ertrag aus Gewinnsteuer"
+      "name": "Ertrag Gewinnsteuern"
     },
     {
       "yAxis": 1,
