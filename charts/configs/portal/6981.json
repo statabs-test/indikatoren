@@ -361,7 +361,6 @@
     "itemMarginBottom": 5,
     "itemDistance": 2,
     "padding": 1,
-    "symbolPadding": 2,
     "itemStyle": {
       "fontWeight": "normal"
     }

@@ -63,7 +63,7 @@
   	"itemMarginBottom": 5,
   	itemDistance: 2,
   	padding: 1, 
-  	symbolPadding: 2,
+  	//symbolPadding: 5,
     "itemStyle": {
     "fontWeight": "normal"
     }
