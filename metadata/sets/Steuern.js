@@ -1,7 +1,7 @@
 var indikatorensetData = [
 	{
 		"title": "Zusammensetzung der Gesamteinnahmen",
-		"subtitle": "in Franken und %, Basel-Stadt",
+		"subtitle": "in Franken, Basel-Stadt",
 		"kuerzel": "I.18.2.06896",
 		"kuerzelKunde": "1-1",
 		"description": "Zusammensetzung der Gesamteinnahmen",
@@ -70,11 +70,11 @@ var indikatorensetData = [
 		"id": 6897
 	},
 	{
-		"title": "Veranlagungen natürlicher Personen und Wohnbevölkerung",
+		"title": "Veranlagungen natürlicher Personen und Bevölkerung",
 		"subtitle": "nach Tarif und Alter, Basel-Stadt, 2015",
 		"kuerzel": "I.18.2.06898",
 		"kuerzelKunde": "2-1",
-		"description": "Veranlagungen natürlicher Personen und Wohnbevölkerung",
+		"description": "Veranlagungen natürlicher Personen und Bevölkerung",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Steuern",
@@ -105,11 +105,11 @@ var indikatorensetData = [
 		"id": 6898
 	},
 	{
-		"title": "Anzahl Veranlagungen, Bevölkerung und Summe von Reineinkommen, -vermögen und Steuerertrag",
+		"title": "Veranlagungen, Bevölkerung und Summe von Reineinkommen, -vermögen und Steuerertrag",
 		"subtitle": "indexiert (2006 = 100), Basel-Stadt",
 		"kuerzel": "I.18.2.06899",
 		"kuerzelKunde": "2-2",
-		"description": "Anzahl Veranlagungen, Bevölkerung und Summe von Reineinkommen, -vermögen und Steuerertrag",
+		"description": "Veranlagungen, Bevölkerung und Summe von Reineinkommen, -vermögen und Steuerertrag",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Steuern",
@@ -491,7 +491,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Summe der Ertrags aus Einkommens- und Vermögenssteuer von Zugezogenen und Weggezogenen",
-		"subtitle": "Basel-Stadt",
+		"subtitle": "in Franken, Basel-Stadt",
 		"kuerzel": "I.18.2.06910",
 		"kuerzelKunde": "3-1",
 		"description": "Summe der Ertrags aus Einkommens- und Vermögenssteuer von Zugezogenen und Weggezogenen",
@@ -526,7 +526,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Quellensteuerertrag",
-		"subtitle": "in Franken, Basel-Stadt, 2016",
+		"subtitle": "in Franken, Basel-Stadt, 2008 und 2016",
 		"kuerzel": "I.18.2.06911",
 		"kuerzelKunde": "4-1",
 		"description": "Quellensteuerertrag",
@@ -561,7 +561,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Quellensteuerertrag nach Status",
-		"subtitle": "in Franken, Basel-Stadt, 2016",
+		"subtitle": "in Franken, Basel-Stadt, 2008 und 2016",
 		"kuerzel": "I.18.2.06912",
 		"kuerzelKunde": "4-2",
 		"description": "Quellensteuerertrag nach Status",
@@ -596,7 +596,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Mittelwert des Gesamtsteuerertrag sowie Anteil von Einkommens- und Vermögenssteuerertrag",
-		"subtitle": "Basel-Stadt",
+		"subtitle": "in Franken, Basel-Stadt, 2015",
 		"kuerzel": "I.18.2.06980",
 		"kuerzelKunde": "2-13",
 		"description": "Mittelwert des Gesamtsteuerertrag sowie Anteil von Einkommens- und Vermögenssteuerertrag",
@@ -631,7 +631,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Gewinn- und Kapitalsteuer",
-		"subtitle": "Basel-Stadt",
+		"subtitle": "in Franken, Basel-Stadt",
 		"kuerzel": "I.18.2.06981",
 		"kuerzelKunde": "5-1",
 		"description": "Gewinn- und Kapitalsteuer",
@@ -666,7 +666,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Steuerertrag juristischer Personen nach Stufen der Gesamtsteuer",
-		"subtitle": "Basel-Stadt",
+		"subtitle": "in Franken, Basel-Stadt, 2014",
 		"kuerzel": "I.18.2.06982",
 		"kuerzelKunde": "5.2",
 		"description": "Steuerertrag juristischer Personen nach Stufen der Gesamtsteuer",
@@ -701,7 +701,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Steuerertrag juristischer Personen nach Stufen des steuersatzbestimmenden Gewinns",
-		"subtitle": "Basel-Stadt",
+		"subtitle": "in Franken, Basel-Stadt, 2014",
 		"kuerzel": "I.18.2.06983",
 		"kuerzelKunde": "5-3",
 		"description": "Steuerertrag juristischer Personen nach Stufen des steuersatzbestimmenden Gewinns",
