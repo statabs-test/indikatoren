@@ -1,9 +1,8 @@
 (function(){
   return {
     "yAxis": [{
-    	"min": 0,
-    	max: 200000000,
-    	tickInterval: 50000000,
+      tickAmount: 5,
+    	min: 0,
     	title: {
           text: null,
           "color": "#000000",
@@ -18,9 +17,8 @@
 
     },
     {
-    	"min": 0,
-    	max: 2000000000,
-    	tickInterval: 500000000,
+      tickAmount: 5,
+      min: 0,
       "title": {
           "style": {
           "color": "#000000",

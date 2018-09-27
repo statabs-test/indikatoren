@@ -19,7 +19,9 @@
   },
     yAxis: [
       {
-      	 max: 6000000000,
+  	    //max: 6000000000,
+  	    min: 0,
+  	    tickAmount: 4,
         gridLineColor: '#B9CFD7', 
         gridLineWidth: 0.5,
         lineColor: '#B9CFD7', 
@@ -40,7 +42,8 @@
       {
         opposite: true,
         min: 0,
-        max: 45,
+        tickAmount: 4,
+        //max: 45,
         //tickInterval: 15,
         gridLineColor: '#B9CFD7', 
         gridLineWidth: 0.5,
