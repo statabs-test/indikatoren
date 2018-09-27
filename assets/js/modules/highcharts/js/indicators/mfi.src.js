@@ -1,5 +1,5 @@
 /**
- * @license  Highcharts JS v6.1.1 (2018-06-27)
+ * @license  Highcharts JS v6.1.0 (2018-04-13)
  *
  * Money Flow Index indicator for Highstock
  *
@@ -20,13 +20,12 @@
 
 
 
-		var isArray = H.isArray,
-		    reduce = H.reduce;
+		var isArray = H.isArray;
 
 		    // Utils:
 		function sumArray(array) {
 
-		    return reduce(array, function (prev, cur) {
+		    return array.reduce(function (prev, cur) {
 		        return prev + cur;
 		    });
 		}
@@ -216,8 +215,4 @@
 		 */
 
 	}(Highcharts));
-	return (function () {
-
-
-	}());
 }));

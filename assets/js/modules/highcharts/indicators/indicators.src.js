@@ -1,5 +1,5 @@
 /**
- * @license  Highcharts JS v6.1.1 (2018-06-27)
+ * @license  Highcharts JS v6.1.0 (2018-04-13)
  *
  * Indicator series type for Highstock
  *
@@ -88,9 +88,7 @@
 		             */
 		            index: 0,
 		            /**
-		             * The base period for indicator calculations. This is the number of
-		             * data points which are taken into account for the indicator
-		             * calculations.
+		             * The base period for indicator calculations.
 		             *
 		             * @type {Number}
 		             * @since 6.0.0
@@ -282,8 +280,4 @@
 		 */
 
 	}(Highcharts));
-	return (function () {
-
-
-	}());
 }));

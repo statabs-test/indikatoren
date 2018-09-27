@@ -71,8 +71,10 @@ H.PlotLineOrBand.prototype = {
         
         // Set the presentational attributes
         if (isLine) {
-            attribs.stroke = color;
-            attribs['stroke-width'] = options.width;
+            attribs = {
+                stroke: color,
+                'stroke-width': options.width
+            };
             if (options.dashStyle) {
                 attribs.dashstyle = options.dashStyle;
             }
@@ -150,7 +152,7 @@ H.PlotLineOrBand.prototype = {
             path.length &&
             axis.width > 0 &&
             axis.height > 0 &&
-            !path.isFlat
+            !path.flat
         ) {
             // apply defaults
             optionsLabel = merge({
@@ -255,18 +257,18 @@ H.extend(Axis.prototype, /** @lends Highcharts.Axis.prototype */ {
      * @param  {Number} to
      *         The axis value to end on.
      *
-     * @return {Array<String|Number>}
+     * @return {Array.<String|Number>}
      *         The SVG path definition in array form.
      */
     getPlotBandPath: function (from, to) {
         var toPath = this.getPlotLinePath(to, null, null, true),
-            path = this.getPlotLinePath(from, null, null, true),
+            path   = this.getPlotLinePath(from, null, null, true),
             result = [],
             i,
             // #4964 check if chart is inverted or plotband is on yAxis
-            horiz = this.horiz,
+            horiz  = this.horiz,
             plus = 1,
-            isFlat,
+            flat,
             outside =
                 (from < this.min && to < this.min) ||
                 (from > this.max && to > this.max);
@@ -275,7 +277,7 @@ H.extend(Axis.prototype, /** @lends Highcharts.Axis.prototype */ {
 
             // Flat paths don't need labels (#3836)
             if (outside) {
-                isFlat = path.toString() === toPath.toString();
+                flat = path.toString() === toPath.toString();
                 plus = 0;
             }
 
@@ -304,7 +306,7 @@ H.extend(Axis.prototype, /** @lends Highcharts.Axis.prototype */ {
                     toPath[i + 2],
                     'z'
                 );
-                result.isFlat = isFlat;
+                result.flat = flat;
             }
 
         } else { // outside the axis area

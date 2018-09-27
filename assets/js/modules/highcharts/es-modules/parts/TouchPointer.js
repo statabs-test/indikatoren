@@ -156,13 +156,9 @@ extend(Pointer.prototype, /** @lends Pointer.prototype */ {
             hasZoom = self.hasZoom,
             selectionMarker = self.selectionMarker,
             transform = {},
-            fireClickEvent = touchesLength === 1 && (
-                (
-                    self.inClass(e.target, 'highcharts-tracker') &&
-                    chart.runTrackerClick
-                ) ||
-                self.runChartClick
-            ),
+            fireClickEvent = touchesLength === 1 &&
+                ((self.inClass(e.target, 'highcharts-tracker') &&
+                chart.runTrackerClick) || self.runChartClick),
             clip = {};
 
         // Don't initiate panning until the user has pinched. This prevents us

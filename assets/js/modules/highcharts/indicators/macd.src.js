@@ -1,5 +1,5 @@
 /**
- * @license  Highcharts JS v6.1.1 (2018-06-27)
+ * @license  Highcharts JS v6.1.0 (2018-04-13)
  *
  * Indicator series type for Highstock
  *
@@ -483,10 +483,6 @@
 		                longEMA,
 		                i;
 
-		            if (series.xData.length < params.longPeriod) {
-		                return false;
-		            }
-
 		            // Calculating the short and long EMA used when calculating the MACD
 		            shortEMA = EMA.prototype.getValues(series,
 		                {
@@ -507,12 +503,7 @@
 		            // Subtract each Y value from the EMA's and create the new dataset
 		            // (MACD)
 		            for (i = 1; i <= shortEMA.length; i++) {
-		                if (
-		                    defined(longEMA[i - 1]) &&
-		                    defined(longEMA[i - 1][1]) &&
-		                    defined(shortEMA[i + params.shortPeriod + 1]) &&
-		                    defined(shortEMA[i + params.shortPeriod + 1][0])
-		                    ) {
+		                if (defined(longEMA[i - 1]) && defined(longEMA[i - 1][1])) {
 		                    MACD.push([
 		                        shortEMA[i + params.shortPeriod + 1][0],
 		                        0,
@@ -550,7 +541,7 @@
 		                if (MACD[i][0] >= signalLine[0][0]) { // detect the first point
 
 		                    MACD[i][2] = signalLine[j][1];
-		                    yMACD[i] = [0, signalLine[j][1], MACD[i][3]];
+		                    yMACD[i] = [0, signalLine[j][1],  MACD[i][3]];
 
 		                    if (MACD[i][3] === null) {
 		                        MACD[i][1] = 0;
@@ -593,8 +584,4 @@
 		 */
 
 	}(Highcharts));
-	return (function () {
-
-
-	}());
 }));

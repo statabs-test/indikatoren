@@ -396,7 +396,7 @@ seriesType('column', 'line', {
      * marking other series of the same type as dirty.
      *
      * @function #init
-     * @memberof seriesTypes.column
+     * @memberOf seriesTypes.column
      *
      */
     init: function () {
@@ -426,10 +426,7 @@ seriesType('column', 'line', {
             options = series.options,
             xAxis = series.xAxis,
             yAxis = series.yAxis,
-            reversedStacks = xAxis.options.reversedStacks,
-            // Keep backward compatibility: reversed xAxis had reversed stacks
-            reverseStacks = (xAxis.reversed && !reversedStacks) ||
-                (!xAxis.reversed && reversedStacks),
+            reversedXAxis = xAxis.reversed,
             stackKey,
             stackGroups = {},
             columnCount = 0;
@@ -489,14 +486,14 @@ seriesType('column', 'line', {
             ),
             pointPadding = (pointOffsetWidth - pointWidth) / 2,
             // #1251, #3737
-            colIndex = (series.columnIndex || 0) + (reverseStacks ? 1 : 0),
+            colIndex = (series.columnIndex || 0) + (reversedXAxis ? 1 : 0),
             pointXOffset =
                 pointPadding +
                 (
                     groupPadding +
                     colIndex * pointOffsetWidth -
                     (categoryWidth / 2)
-                ) * (reverseStacks ? -1 : 1);
+                ) *    (reversedXAxis ? -1 : 1);
 
         // Save it for reading in linked series (Error bars particularly)
         series.columnMetrics = {

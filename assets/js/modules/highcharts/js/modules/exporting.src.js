@@ -1,5 +1,5 @@
 /**
- * @license Highcharts JS v6.1.1 (2018-06-27)
+ * @license Highcharts JS v6.1.0 (2018-04-13)
  * Exporting module
  *
  * (c) 2010-2017 Torstein Honsi
@@ -312,8 +312,7 @@
 		     * Function to call if the offline-exporting module fails to export
 		     * a chart on the client side, and [fallbackToExportServer](
 		     * #exporting.fallbackToExportServer) is disabled. If left undefined, an
-		     * exception is thrown instead. Receives two parameters, the exporting
-		     * options, and the error from the module.
+		     * exception is thrown instead.
 		     *
 		     * @type {Function}
 		     * @see [fallbackToExportServer](#exporting.fallbackToExportServer)
@@ -324,14 +323,7 @@
 
 		    /**
 		     * Whether or not to fall back to the export server if the offline-exporting
-		     * module is unable to export the chart on the client side. This happens for
-		     * certain browsers, and certain features (e.g.
-		     * [allowHTML](#exporting.allowHTML)), depending on the image type exporting
-		     * to. For very complex charts, it is possible that export can fail in
-		     * browsers that don't support Blob objects, due to data URL length limits.
-		     * It is recommended to define the [exporting.error](#exporting.error)
-		     * handler if disabling fallback, in order to notify users in case export
-		     * fails.
+		     * module is unable to export the chart on the client side.
 		     *
 		     * @type {Boolean}
 		     * @default true
@@ -784,7 +776,7 @@
 
 		            // Replace HTML entities, issue #347
 		            .replace(/&nbsp;/g, '\u00A0') // no-break space
-		            .replace(/&shy;/g, '\u00AD'); // soft hyphen
+		            .replace(/&shy;/g,  '\u00AD'); // soft hyphen
 
         
 
@@ -913,20 +905,13 @@
 		                userMin = extremes.userMin,
 		                userMax = extremes.userMax;
 
-		            if (
-		                axisCopy &&
-		                (
-		                    (userMin !== undefined && userMin !== axisCopy.min) ||
-		                    (userMax !== undefined && userMax !== axisCopy.max)
-		                )
-		            ) {
+		            if (axisCopy && (userMin !== undefined || userMax !== undefined)) {
 		                axisCopy.setExtremes(userMin, userMax, true, false);
 		            }
 		        });
 
 		        // Get the SVG from the container's innerHTML
 		        svg = chartCopy.getChartHTML();
-		        fireEvent(this, 'getSVG', { chartCopy: chartCopy });
 
 		        svg = chart.sanitizeSVG(svg, options);
 
@@ -1122,9 +1107,8 @@
 		            }, {
 		                position: 'absolute',
 		                zIndex: 1000,
-		                padding: menuPadding + 'px',
-		                pointerEvents: 'auto'
-		            }, chart.fixedDiv || chart.container);
+		                padding: menuPadding + 'px'
+		            }, chart.container);
 
 		            innerMenu = createElement(
 		                'div',
@@ -1157,12 +1141,6 @@
 		                // #2335, #2407)
 		                addEvent(doc, 'mouseup', function (e) {
 		                    if (!chart.pointer.inClass(e.target, className)) {
-		                        hide();
-		                    }
-		                }),
-
-		                addEvent(menu, 'click', function () {
-		                    if (chart.openMenu) {
 		                        hide();
 		                    }
 		                })
@@ -1228,7 +1206,7 @@
 		            y + height + chart.exportMenuHeight > chartHeight &&
 		            button.alignOptions.verticalAlign !== 'top'
 		        ) {
-		            menuStyle.bottom = (chartHeight - y - menuPadding) + 'px';
+		            menuStyle.bottom = (chartHeight - y - menuPadding)  + 'px';
 		        } else {
 		            menuStyle.top = (y + height - menuPadding) + 'px';
 		        }
@@ -1312,7 +1290,8 @@
 		            .addClass(options.className)
 		            .attr({
                 
-		                title: pick(chart.options.lang[btnOptions._titleKey], '')
+		                title: pick(chart.options.lang[btnOptions._titleKey], ''),
+		                zIndex: 3 // #4955
 		            });
 		        button.menuClassName = (
 		            options.menuClassName ||
@@ -1340,7 +1319,7 @@
             
 		        }
 
-		        button.add(chart.exportingGroup)
+		        button.add()
 		            .align(extend(btnOptions, {
 		                width: button.width,
 		                x: pick(btnOptions.x, chart.buttonOffset) // #1654
@@ -1384,12 +1363,6 @@
 		                }
 		            });
 		            exportSVGElements.length = 0;
-		        }
-
-		        // Destroy the exporting group
-		        if (chart.exportingGroup) {
-		            chart.exportingGroup.destroy();
-		            delete chart.exportingGroup;
 		        }
 
 		        // Destroy the divs for the menu
@@ -1668,11 +1641,6 @@
 		    if (isDirty && exportingOptions.enabled !== false) {
 		        chart.exportEvents = [];
 
-		        chart.exportingGroup = chart.exportingGroup ||
-		            chart.renderer.g('exporting-group').attr({
-		                zIndex: 3 // #4955, // #8392
-		            }).add();
-
 		        objectEach(buttons, function (button) {
 		            chart.addButton(button);
 		        });
@@ -1684,19 +1652,23 @@
 		    addEvent(chart, 'destroy', chart.destroyExport);
 		};
 
-		// Add update methods to handle chart.update and chart.exporting.update and
-		// chart.navigation.update. These must be added to the chart instance rather
-		// than the Chart prototype in order to use the chart instance inside the update
-		// function.
-		addEvent(Chart, 'init', function () {
-		    var chart = this;
+		Chart.prototype.callbacks.push(function (chart) {
+
 		    function update(prop, options, redraw) {
 		        chart.isDirtyExporting = true;
 		        merge(true, chart.options[prop], options);
 		        if (pick(redraw, true)) {
 		            chart.redraw();
 		        }
+
 		    }
+
+		    chart.renderExporting();
+
+		    addEvent(chart, 'redraw', chart.renderExporting);
+
+		    // Add update methods to handle chart.update and chart.exporting.update
+		    // and chart.navigation.update.
 		    each(['exporting', 'navigation'], function (prop) {
 		        chart[prop] = {
 		            update: function (options, redraw) {
@@ -1704,54 +1676,37 @@
 		            }
 		        };
 		    });
-		});
-
-		Chart.prototype.callbacks.push(function (chart) {
-
-		    chart.renderExporting();
-
-		    addEvent(chart, 'redraw', chart.renderExporting);
-
 
 		    // Uncomment this to see a button directly below the chart, for quick
 		    // testing of export
 		    /*
-		    var button, viewImage, viewSource;
 		    if (!chart.renderer.forExport) {
-		        viewImage = function () {
+		        var button;
+
+		        // View SVG Image
+		        button = doc.createElement('button');
+		        button.innerHTML = 'View SVG Image';
+		        chart.renderTo.parentNode.appendChild(button);
+		        button.onclick = function () {
 		            var div = doc.createElement('div');
 		            div.innerHTML = chart.getSVGForExport();
 		            chart.renderTo.parentNode.appendChild(div);
 		        };
 
-		        viewSource = function () {
+		        // View SVG Source
+		        button = doc.createElement('button');
+		        button.innerHTML = 'View SVG Source';
+		        chart.renderTo.parentNode.appendChild(button);
+		        button.onclick = function () {
 		            var pre = doc.createElement('pre');
 		            pre.innerHTML = chart.getSVGForExport()
 		                .replace(/</g, '\n&lt;')
 		                .replace(/>/g, '&gt;');
 		            chart.renderTo.parentNode.appendChild(pre);
 		        };
-
-		        viewImage();
-
-		        // View SVG Image
-		        button = doc.createElement('button');
-		        button.innerHTML = 'View SVG Image';
-		        chart.renderTo.parentNode.appendChild(button);
-		        button.onclick = viewImage;
-
-		        // View SVG Source
-		        button = doc.createElement('button');
-		        button.innerHTML = 'View SVG Source';
-		        chart.renderTo.parentNode.appendChild(button);
-		        button.onclick = viewSource;
 		    }
 		    //*/
 		});
 
 	}(Highcharts));
-	return (function () {
-
-
-	}());
 }));

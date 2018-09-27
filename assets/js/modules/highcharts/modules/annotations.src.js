@@ -1,5 +1,5 @@
 /**
- * @license Highcharts JS v6.1.1 (2018-06-27)
+ * @license Highcharts JS v6.1.0 (2018-04-13)
  * Annotations module
  *
  * (c) 2009-2017 Torstein Honsi
@@ -21,7 +21,7 @@
 		 * License: www.highcharts.com/license
 		 */
 
-		var merge = H.merge,
+		var    merge = H.merge,
 		    addEvent = H.addEvent,
 		    extend = H.extend,
 		    each = H.each,
@@ -166,7 +166,7 @@
 		    var options = { id: id };
 
     
-		    var attrs = {
+		    var attrs  = {
 		        stroke: markerOptions.color || 'none',
 		        fill: markerOptions.color || 'rgba(0, 0, 0, 0.75)'
 		    };
@@ -213,7 +213,7 @@
 		 * using axis values or pixel values
 		 *
 		 * @class MockPoint
-		 * @memberof Highcharts
+		 * @memberOf Highcharts
 		 * @private
 		 *
 		 * @param {Highcharts.Chart} - the chart object
@@ -241,7 +241,7 @@
 		 * A factory function for creating a mock point object
 		 *
 		 * @function #mockPoint
-		 * @memberof Highcharts
+		 * @memberOf Highcharts
 		 *
 		 * @param {MockPointOptions} mockPointOptions
 		 * @return {MockPoint} a mock point
@@ -255,7 +255,7 @@
 		     * Initialisation of the mock point
 		     *
 		     * @function init
-		     * @memberof Highcharts.MockPoint#
+		     * @memberOf Highcharts.MockPoint#
 		     *
 		     * @param {Highcharts.Chart} chart - a chart object to which the mock point
 		     * is attached
@@ -292,7 +292,7 @@
 		     * Update of the point's coordinates (plotX/plotY)
 		     *
 		     * @function translate
-		     * @memberof Highcharts.MockPoint#
+		     * @memberOf Highcharts.MockPoint#
 		     *
 		     * @return {undefined}
 		     */
@@ -316,11 +316,11 @@
 		     * Returns a box to which an item can be aligned to
 		     *
 		     * @function #alignToBox
-		     * @memberof Highcharts.MockPoint#
+		     * @memberOf Highcharts.MockPoint#
 		     *
 		     * @param {Boolean} [forceTranslate=false] - whether to update the point's
 		     * coordinates
-		     * @return {Array<Number>} A quadruple of numbers which denotes x, y,
+		     * @return {Array.<Number>} A quadruple of numbers which denotes x, y,
 		     * width and height of the box
 		    **/
 		    alignToBox: function (forceTranslate) {
@@ -347,7 +347,7 @@
 		     * the same as Highcharts.Point.prototype.getLabelConfig
 		     *
 		     * @function getLabelConfig
-		     * @memberof Highcharts.MockPoint#
+		     * @memberOf Highcharts.MockPoint#
 		     *
 		     * @return {Object} labelConfig - label config object
 		     * @return {Number|undefined} labelConfig.x
@@ -366,7 +366,7 @@
 		    },
 
 		    isInsidePane: function () {
-		        var plotX = this.plotX,
+		        var    plotX = this.plotX,
 		            plotY = this.plotY,
 		            xAxis = this.series.xAxis,
 		            yAxis = this.series.yAxis,
@@ -402,7 +402,7 @@
 		 * existing points or created mock points
 		 *
 		 * @class Annotation
-		 * @memberof Highcharts
+		 * @memberOf Highcharts
 		 *
 		 * @param {Chart} - the chart object
 		 * @param {AnnotationOptions} - the options object
@@ -413,7 +413,7 @@
 		     * The chart that the annotation belongs to.
 		     *
 		     * @name chart
-		     * @memberof Highcharts.Annotation#
+		     * @memberOf Highcharts.Annotation#
 		     * @type {Chart}
 		     */
 		    this.chart = chart;
@@ -422,7 +422,7 @@
 		     * The array of labels which belong to the annotation.
 		     *
 		     * @name labels
-		     * @memberof Highcharts.Annotation#
+		     * @memberOf Highcharts.Annotation#
 		     * @type {Array<Highcharts.SVGElement>}
 		     */
 		    this.labels = [];
@@ -431,26 +431,17 @@
 		     * The array of shapes which belong to the annotation.
 		     *
 		     * @name shapes
-		     * @memberof Highcharts.Annotation#
+		     * @memberOf Highcharts.Annotation#
 		     * @type {Array<Highcharts.SVGElement>}
 		     */
 		    this.shapes = [];
 
 		    /**
-		     * The user options for the annotations.
-		     *
-		     * @name options
-		     * @memberof Highcharts.Annotation#
-		     * @type {AnnotationOptions}
-		     */
-		    this.userOptions = userOptions;
-
-		    /**
-		     * The options for the annotations. It contains user defined options
+		     * The options for the annotations. It containers user defined options
 		     * merged with the default options.
 		     *
 		     * @name options
-		     * @memberof Highcharts.Annotation#
+		     * @memberOf Highcharts.Annotation#
 		     * @type {AnnotationOptions}
 		     */
 		    this.options = merge(this.defaultOptions, userOptions);
@@ -460,7 +451,7 @@
 		     * labels it should account for.
 		     *
 		     * @name labelCollector
-		     * @memberof Highcharts.Annotation#
+		     * @memberOf Highcharts.Annotation#
 		     * @type {Function}
 		     * @private
 		     */
@@ -469,7 +460,7 @@
 		     * The group element of the annotation.
 		     *
 		     * @name group
-		     * @memberof Highcharts.Annotation#
+		     * @memberOf Highcharts.Annotation#
 		     * @type {Highcharts.SVGElement}
 		     * @private
 		     */
@@ -478,7 +469,7 @@
 		     * The group element of the annotation's shapes.
 		     *
 		     * @name shapesGroup
-		     * @memberof Highcharts.Annotation#
+		     * @memberOf Highcharts.Annotation#
 		     * @type {Highcharts.SVGElement}
 		     * @private
 		     */
@@ -487,7 +478,7 @@
 		     * The group element of the annotation's labels.
 		     *
 		     * @name labelsGroup
-		     * @memberof Highcharts.Annotation#
+		     * @memberOf Highcharts.Annotation#
 		     * @type {Highcharts.SVGElement}
 		     * @private
 		     */
@@ -500,7 +491,7 @@
 		     * Shapes which do not have background - the object is used for proper
 		     * setting of the contrast color
 		     *
-		     * @type {Array<String>}
+		     * @type {Array.<String>}
 		     * @private
 		     */
 		    shapesWithoutBackground: ['connector'],
@@ -1072,15 +1063,17 @@
 		     * {@link Highcharts.Chart#removeAnnotation} instead.
 		    **/
 		    destroy: function () {
-		        var chart = this.chart,
-		            destroyItem = function (item) {
-		                item.destroy();
-		            };
+		        var chart = this.chart;
 
 		        erase(this.chart.labelCollectors, this.labelCollector);
 
-		        each(this.labels, destroyItem);
-		        each(this.shapes, destroyItem);
+		        each(this.labels, function (label) {
+		            label.destroy();
+		        });
+
+		        each(this.shapes, function (shape) {
+		            shape.destroy();
+		        });
 
 		        destroyObjectProperties(this, chart);
 		    },
@@ -1740,7 +1733,6 @@
 		        var annotation = new Annotation(this, userOptions);
 
 		        this.annotations.push(annotation);
-		        this.options.annotations.push(userOptions);
 
 		        if (pick(redraw, true)) {
 		            annotation.redraw();
@@ -1761,7 +1753,6 @@
 		            });
 
 		        if (annotation) {
-		            erase(this.options.annotations, annotation.userOptions);
 		            erase(annotations, annotation);
 		            annotation.destroy();
 		        }
@@ -1769,7 +1760,7 @@
 
 		    /**
 		     * @private
-		     * @memberof Highcharts.Chart#
+		     * @memberOf Highcharts.Chart#
 		     * @function drawAnnotations
 		     */
 		    drawAnnotations: function () {
@@ -1793,9 +1784,7 @@
 		    chart.annotations = [];
 
 		    each(chart.options.annotations, function (annotationOptions) {
-		        chart.annotations.push(
-		            new Annotation(chart, annotationOptions)
-		        );
+		        chart.addAnnotation(annotationOptions, false);
 		    });
 
 		    chart.drawAnnotations();
@@ -1870,8 +1859,4 @@
 		};
 
 	}(Highcharts));
-	return (function () {
-
-
-	}());
 }));

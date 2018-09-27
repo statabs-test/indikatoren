@@ -74,7 +74,7 @@ var Chart = H.Chart = function () {
  * Factory function for basic charts.
  *
  * @function #chart
- * @memberof Highcharts
+ * @memberOf Highcharts
  * @param  {String|HTMLDOMElement} renderTo - The DOM element to render to, or
  * its id.
  * @param  {Options} options - The chart options structure.
@@ -135,7 +135,7 @@ extend(Chart.prototype, /** @lends Highcharts.Chart.prototype */ {
             userPlotOptions = userOptions.plotOptions || {};
 
         // Fire the event with a default function
-        fireEvent(this, 'init', { args: arguments }, function () {
+        fireEvent(this,    'init',    { args: arguments }, function () {
 
             userOptions.series = null;
             options = merge(defaultOptions, userOptions); // do the merge
@@ -193,7 +193,7 @@ extend(Chart.prototype, /** @lends Highcharts.Chart.prototype */ {
              * @name axes
              * @see  Highcharts.Chart.xAxis
              * @see  Highcharts.Chart.yAxis
-             * @type {Array<Axis>}
+             * @type {Array.<Highcharts.Axis>}
              */
             this.axes = [];
 
@@ -202,7 +202,7 @@ extend(Chart.prototype, /** @lends Highcharts.Chart.prototype */ {
              *
              * @memberof Highcharts.Chart
              * @name series
-             * @type {Array<Series>}
+             * @type {Array.<Highcharts.Series>}
              */
             this.series = [];
 
@@ -264,16 +264,16 @@ extend(Chart.prototype, /** @lends Highcharts.Chart.prototype */ {
 
             /**
              * A collection of the X axes in the chart.
-             * @type {Array<Axis>}
+             * @type {Array.<Highcharts.Axis>}
              * @name xAxis
-             * @memberof Highcharts.Chart
+             * @memberOf Highcharts.Chart
              */
             chart.xAxis = [];
             /**
              * A collection of the Y axes in the chart.
-             * @type {Array<Axis>}
+             * @type {Array.<Highcharts.Axis>}
              * @name yAxis
-             * @memberof Highcharts.Chart
+             * @memberOf Highcharts.Chart
              */
             chart.yAxis = [];
 
@@ -613,7 +613,7 @@ extend(Chart.prototype, /** @lends Highcharts.Chart.prototype */ {
      * can be selected by clicking or programmatically by the {@link
      * Highcharts.Point#select} function.
      *
-     * @return {Array<Point>}
+     * @return {Array.<Highcharts.Point>}
      *         The currently selected points.
      *
      * @sample highcharts/plotoptions/series-allowpointselect-line/
@@ -638,7 +638,7 @@ extend(Chart.prototype, /** @lends Highcharts.Chart.prototype */ {
      * https://api.highcharts.com/highcharts/plotOptions.series.showCheckbox|
      * series.showCheckBox} is true.
      *
-     * @return {Array<Series>}
+     * @return {Array.<Highcharts.Series>}
      *         The currently selected series.
      *
      * @sample highcharts/members/chart-getselectedseries/
@@ -803,7 +803,7 @@ extend(Chart.prototype, /** @lends Highcharts.Chart.prototype */ {
          * The current pixel width of the chart.
          *
          * @name chartWidth
-         * @memberof Chart
+         * @memberOf Chart
          * @type {Number}
          */
         chart.chartWidth = Math.max( // #1393
@@ -814,7 +814,7 @@ extend(Chart.prototype, /** @lends Highcharts.Chart.prototype */ {
          * The current pixel height of the chart.
          *
          * @name chartHeight
-         * @memberof Chart
+         * @memberOf Chart
          * @type {Number}
          */
         chart.chartHeight = Math.max(
@@ -982,7 +982,7 @@ extend(Chart.prototype, /** @lends Highcharts.Chart.prototype */ {
          * dynamically inserted into the element given as the `renderTo`
          * parameterin the {@link Highcharts#chart} constructor.
          *
-         * @memberof Highcharts.Chart
+         * @memberOf Highcharts.Chart
          * @type {HTMLDOMElement}
          */
         container = createElement(
@@ -1006,7 +1006,7 @@ extend(Chart.prototype, /** @lends Highcharts.Chart.prototype */ {
          * associated renderer.
          * @type {SVGRenderer}
          * @name renderer
-         * @memberof Chart
+         * @memberOf Chart
          */
         chart.renderer = new Ren(
             container,
@@ -1060,7 +1060,16 @@ extend(Chart.prototype, /** @lends Highcharts.Chart.prototype */ {
             chart.legend.adjustMargins(margin, spacing);
         }
 
-        fireEvent(this, 'getMargins');
+        // adjust for scroller
+        if (chart.extraMargin) {
+            chart[chart.extraMargin.type] =
+                (chart[chart.extraMargin.type] || 0) + chart.extraMargin.value;
+        }
+
+        // adjust for rangeSelector
+        if (chart.adjustPlotArea) {
+            chart.adjustPlotArea();
+        }
 
         if (!skipAxes) {
             this.getAxisMargins();
@@ -1293,7 +1302,7 @@ extend(Chart.prototype, /** @lends Highcharts.Chart.prototype */ {
          * The current left position of the plot area in pixels.
          *
          * @name plotLeft
-         * @memberof Chart
+         * @memberOf Chart
          * @type {Number}
          */
         chart.plotLeft = plotLeft = Math.round(chart.plotLeft);
@@ -1302,7 +1311,7 @@ extend(Chart.prototype, /** @lends Highcharts.Chart.prototype */ {
          * The current top position of the plot area in pixels.
          *
          * @name plotTop
-         * @memberof Chart
+         * @memberOf Chart
          * @type {Number}
          */
         chart.plotTop = plotTop = Math.round(chart.plotTop);
@@ -1311,7 +1320,7 @@ extend(Chart.prototype, /** @lends Highcharts.Chart.prototype */ {
          * The current width of the plot area in pixels.
          *
          * @name plotWidth
-         * @memberof Chart
+         * @memberOf Chart
          * @type {Number}
          */
         chart.plotWidth = plotWidth = Math.max(
@@ -1323,7 +1332,7 @@ extend(Chart.prototype, /** @lends Highcharts.Chart.prototype */ {
          * The current height of the plot area in pixels.
          *
          * @name plotHeight
-         * @memberof Chart
+         * @memberOf Chart
          * @type {Number}
          */
         chart.plotHeight = plotHeight = Math.max(

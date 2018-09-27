@@ -472,7 +472,7 @@ Highcharts.Point.prototype = {
      * be shown or hidden.
      *
      * @name visible
-     * @memberof Highcharts.Point
+     * @memberOf Highcharts.Point
      * @type {Boolean}
      */
     visible: true
@@ -483,7 +483,7 @@ Highcharts.Point.prototype = {
  * point. For other axes it holds the X value.
  *
  * @name category
- * @memberof Highcharts.Point
+ * @memberOf Highcharts.Point
  * @type {String|Number}
  */
 
@@ -508,7 +508,7 @@ Highcharts.Point.prototype = {
  * }]
  *
  * @name name
- * @memberof Highcharts.Point
+ * @memberOf Highcharts.Point
  * @type {String}
  */
 
@@ -517,7 +517,7 @@ Highcharts.Point.prototype = {
  * The percentage for points in a stacked series or pies.
  *
  * @name percentage
- * @memberof Highcharts.Point
+ * @memberOf Highcharts.Point
  * @type {Number}
  */
 
@@ -526,7 +526,7 @@ Highcharts.Point.prototype = {
  * series.
  *
  * @name total
- * @memberof Highcharts.Point
+ * @memberOf Highcharts.Point
  * @type {Number}
  */
 
@@ -534,7 +534,7 @@ Highcharts.Point.prototype = {
  * The x value of the point.
  *
  * @name x
- * @memberof Highcharts.Point
+ * @memberOf Highcharts.Point
  * @type {Number}
  */
 
@@ -542,6 +542,6 @@ Highcharts.Point.prototype = {
  * The y value of the point.
  *
  * @name y
- * @memberof Highcharts.Point
+ * @memberOf Highcharts.Point
  * @type {Number}
  */

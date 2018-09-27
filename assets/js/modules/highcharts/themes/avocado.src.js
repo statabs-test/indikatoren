@@ -1,5 +1,5 @@
 /**
- * @license Highcharts JS v6.1.1 (2018-06-27)
+ * @license Highcharts JS v6.1.0 (2018-04-13)
  *
  * (c) 2009-2017 Highsoft AS
  *
@@ -51,8 +51,4 @@
 		Highcharts.setOptions(Highcharts.theme);
 
 	}(Highcharts));
-	return (function () {
-
-
-	}());
 }));

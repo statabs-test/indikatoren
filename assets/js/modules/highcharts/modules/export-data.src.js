@@ -1,5 +1,5 @@
 /**
- * @license Highcharts JS v6.1.1 (2018-06-27)
+ * @license Highcharts JS v6.1.0 (2018-04-13)
  * Exporting module
  *
  * (c) 2010-2017 Torstein Honsi
@@ -302,7 +302,7 @@
 
 		// Set up key-to-axis bindings. This is used when the Y axis is datetime or
 		// categorized. For example in an arearange series, the low and high values
-		// should be formatted according to the Y axis type, and in order to link them
+		// sholud be formatted according to the Y axis type, and in order to link them
 		// we need this map.
 		Highcharts.Chart.prototype.setUpKeyToAxis = function () {
 		    if (seriesTypes.arearange) {
@@ -322,7 +322,7 @@
 		 *            with top level headers. If a custom columnHeaderFormatter is
 		 *            defined, this can override the behavior.
 		 *
-		 * @returns {Array<Array<Number|String>>}
+		 * @returns {Array.<Array>}
 		 *          The current chart data
 		 */
 		Highcharts.Chart.prototype.getDataRows = function (multiLevelHeaders) {
@@ -450,7 +450,6 @@
 		                var key,
 		                    prop,
 		                    val,
-		                    name,
 		                    point;
 
 		                point = { series: mockSeries };
@@ -459,7 +458,6 @@
 		                    [options]
 		                );
 		                key = point.x;
-		                name = series.data[pIdx] && series.data[pIdx].name;
 
 		                if (xTaken) {
 		                    if (xTaken[key]) {
@@ -470,12 +468,6 @@
 
 		                j = 0;
 
-		                // Pies, funnels, geo maps etc. use point name in X row
-		                if (!series.xAxis || series.exportKey === 'name') {
-		                    key = name;
-		                }
-
-
 		                if (!rows[key]) {
 		                    // Generate the row
 		                    rows[key] = [];
@@ -483,8 +475,15 @@
 		                    rows[key].xValues = [];
 		                }
 		                rows[key].x = point.x;
-		                rows[key].name = name;
 		                rows[key].xValues[xAxisIndex] = point.x;
+
+		                // Pies, funnels, geo maps etc. use point name in X row
+		                if (!series.xAxis || series.exportKey === 'name') {
+		                    rows[key].name = (
+		                        series.data[pIdx] &&
+		                        series.data[pIdx].name
+		                    );
+		                }
 
 		                while (j < valueCount) {
 		                    prop = pointArrayMap[j]; // y, z etc
@@ -565,8 +564,6 @@
 		        });
 		    }
 		    dataRows = dataRows.concat(rowArr);
-
-		    Highcharts.fireEvent(this, 'exportData', { dataRows: dataRows });
 
 		    return dataRows;
 		};
@@ -1033,8 +1030,4 @@
 		}
 
 	}(Highcharts));
-	return (function () {
-
-
-	}());
 }));

@@ -73,9 +73,7 @@ seriesType('sma', 'line',
              */
             index: 0,
             /**
-             * The base period for indicator calculations. This is the number of
-             * data points which are taken into account for the indicator
-             * calculations.
+             * The base period for indicator calculations.
              *
              * @type {Number}
              * @since 6.0.0

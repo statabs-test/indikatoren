@@ -222,7 +222,6 @@ extend(Axis.prototype, /** @lends Axis.prototype */ {
         var axis = this,
             len,
             ordinalPositions = [],
-            uniqueOrdinalPositions,
             useOrdinal = false,
             dist,
             extremes = axis.getExtremes(),
@@ -264,7 +263,6 @@ extend(Axis.prototype, /** @lends Axis.prototype */ {
         if (isOrdinal || hasBreaks) { // #4167 YAxis is never ordinal ?
 
             each(axis.series, function (series, i) {
-                uniqueOrdinalPositions = [];
 
                 if (
                     (!ignoreHiddenSeries || series.visible !== false) &&
@@ -290,29 +288,12 @@ extend(Axis.prototype, /** @lends Axis.prototype */ {
                     );
 
                     if (len) {
-
-                        i = 0;
-                        while (i < len - 1) {
-                            if (
-                                ordinalPositions[i] !== ordinalPositions[i + 1]
-                            ) {
-                                uniqueOrdinalPositions.push(
-                                    ordinalPositions[i + 1]
-                                );
+                        i = len - 1;
+                        while (i--) {
+                            if (ordinalPositions[i] === ordinalPositions[i + 1]) {
+                                ordinalPositions.splice(i, 1);
                             }
-                            i++;
                         }
-
-                        // Check first item:
-                        if (
-                            uniqueOrdinalPositions[0] !== ordinalPositions[0]
-                        ) {
-                            uniqueOrdinalPositions.unshift(
-                                ordinalPositions[0]
-                            );
-                        }
-
-                        ordinalPositions = uniqueOrdinalPositions;
                     }
                 }
 

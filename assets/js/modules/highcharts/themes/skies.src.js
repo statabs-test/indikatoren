@@ -1,5 +1,5 @@
 /**
- * @license Highcharts JS v6.1.1 (2018-06-27)
+ * @license Highcharts JS v6.1.0 (2018-04-13)
  *
  * (c) 2009-2017 Torstein Honsi
  *
@@ -30,7 +30,7 @@
 		        className: 'skies',
 		        borderWidth: 0,
 		        plotShadow: true,
-		        plotBackgroundImage: 'https://www.highcharts.com/demo/gfx/skies.jpg',
+		        plotBackgroundImage: 'http://www.highcharts.com/demo/gfx/skies.jpg',
 		        plotBackgroundColor: {
 		            linearGradient: [0, 0, 250, 500],
 		            stops: [
@@ -114,8 +114,4 @@
 		Highcharts.setOptions(Highcharts.theme);
 
 	}(Highcharts));
-	return (function () {
-
-
-	}());
 }));

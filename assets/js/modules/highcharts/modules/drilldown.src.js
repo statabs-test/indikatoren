@@ -1,5 +1,5 @@
 /**
- * @license Highcharts JS v6.1.1 (2018-06-27)
+ * @license Highcharts JS v6.1.0 (2018-04-13)
  * Highcharts Drilldown module
  *
  * Author: Torstein Honsi
@@ -64,8 +64,8 @@
 		 *
 		 * The drilldown feature requires the drilldown.js file to be loaded,
 		 * found in the modules directory of the download package, or online at
-		 * [code.highcharts.com/modules/drilldown.js
-		 * ](code.highcharts.com/modules/drilldown.js).
+		 * (code.highcharts.com/modules/drilldown.js)[code.highcharts.com/modules/
+		 * drilldown.js].
 		 *
 		 * @type {Object}
 		 * @optionparent drilldown
@@ -365,7 +365,7 @@
 		 * https://api.highcharts.com/highcharts/drilldown.series|drilldown.series}
 		 * options structure.
 		 *
-		 * @memberof Highcharts.Chart
+		 * @memberOf Highcharts.Chart
 		 * @function #addSeriesAsDrilldown
 		 *
 		 * @param  {Highcharts.Point} point
@@ -570,7 +570,7 @@
 		 * will drill up to the parent series. Requires the drilldown module.
 		 *
 		 * @function drillUp
-		 * @memberof Highcharts.Chart
+		 * @memberOf Highcharts.Chart
 		 */
 		Chart.prototype.drillUp = function () {
 		    if (!this.drilldownLevels || this.drilldownLevels.length === 0) {
@@ -1165,8 +1165,4 @@
 		});
 
 	}(Highcharts));
-	return (function () {
-
-
-	}());
 }));
