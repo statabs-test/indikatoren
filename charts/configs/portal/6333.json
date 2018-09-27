@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "black",
+      "color": "#aaaaaa",
       "data": [
         [
           2006,
@@ -201,7 +201,7 @@
       "name": "Liestal"
     },
     {
-      "color": "#a0bec8",
+      "color": "#256370",
       "data": [
         [
           2006,

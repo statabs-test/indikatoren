@@ -2,9 +2,11 @@
     return {
   plotOptions: {
         series: {
-        	"stacking": "normal",
-             groupPadding: 0,
-        }
+        	stacking: "normal",
+          groupPadding: 0,
+          pointWidth: 25,
+        },
+        
   },
   "yAxis": {
   	max: 200000,
@@ -16,13 +18,6 @@
   },
   "xAxis": {
   	"type": "category",
-    "tickInterval": 1,
-    "labels": {
-      y: 15,
-      padding: 0, 
-      step: 1, 
-      rotation: -45
-    }  
   },
  "legend": {
     enabled:true,
@@ -54,6 +49,7 @@
   	type: "column",
     "inverted": false,
     spacingTop: 5,
+    width: 600,
   }
 };
 }());

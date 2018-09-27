@@ -15,24 +15,24 @@
   },
  "series": [
     {
-		"color": "black",
-    	"legendIndex": 3
+		  "color": "#aaaaaa",
+		  legendIndex: 0,
     }, 
     {
 		"color": "#B00000",
-    	"legendIndex": 4
+		legendIndex: 4,
     }, /* rot */
     {
 		"color": "#008AC3",
-    	"legendIndex": 0
+		legendIndex: 1,
     }, /* blau */
     {
     	"color": "#007A2F", 
-    	"legendIndex": 2
+    	legendIndex: 2,
     }, /* grün */
-        {
+    {
     	"color": "#E6E600", 
-    	"legendIndex": 1
+    	legendIndex: 3,
     }, /* gelb */
   ],
    "legend": {

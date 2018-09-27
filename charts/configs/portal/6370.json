@@ -1,8 +1,8 @@
 {
   "series": [
     {
-      "color": "black",
-      "legendIndex": 3,
+      "color": "#aaaaaa",
+      "legendIndex": 0,
       "data": [
         [
           2010,
@@ -88,7 +88,7 @@
     },
     {
       "color": "#008AC3",
-      "legendIndex": 0,
+      "legendIndex": 1,
       "data": [
         [
           2010,
@@ -174,7 +174,7 @@
     },
     {
       "color": "#E6E600",
-      "legendIndex": 1,
+      "legendIndex": 3,
       "data": [
         [
           2010,

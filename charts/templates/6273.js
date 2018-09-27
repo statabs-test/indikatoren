@@ -44,6 +44,6 @@
     "inverted": true,
     width: 600
   },
-}
+};
 }());
 

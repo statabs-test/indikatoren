@@ -15,11 +15,11 @@
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   },
  "series": [
- 	{"color": "black",}, /*schwarz BS*/
+ 	{"color": "#aaaaaa",}, /*schwarz BS*/
  	{"color": "#007a2f",}, /*grün BE*/
 	{"color": "#ff8028",}, /*orange GE*/
 	{"color": "#b00000",}, /*rot Liestal*/
-	{"color": "#a0bec8",}, /*hellblau ZH*/
+	{"color": "#256370",}, /*dunkelblau ZH*/
 	  ],
   "legend": {
     "enabled": true,

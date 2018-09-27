@@ -273,15 +273,16 @@
       "style": {
         "fontSize": 10,
         "color": "#000000"
-      }
+      },
+      "padding": 0,
+      "rotation": 0
     },
-    "tickLength": 0,
-    "tickInterval": 2
+    "tickLength": 0
   },
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 320,
+    "width": 600,
     "height": 221,
     "spacing": [
       2,
@@ -407,7 +408,7 @@
   "legend": {
     "padding": 1,
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 1,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
@@ -415,9 +416,8 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "symbolPadding": 3,
-    "symbolWidth": 10,
-    "align": "left"
+    "align": "left",
+    "itemDistance": 10
   },
   "dataLabels": {
     "enabled": false,

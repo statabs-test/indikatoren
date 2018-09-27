@@ -79,7 +79,7 @@
           8608
         ]
       ],
-      "name": "Übriges verarbeit. Gewerbe",
+      "name": "Übriges verarbeitendes Gewerbe",
       "turboThreshold": 0
     },
     {
@@ -384,19 +384,14 @@
       "style": {
         "fontSize": 10,
         "color": "#000000"
-      },
-      "y": 15,
-      "padding": 0,
-      "step": 1,
-      "rotation": -45
+      }
     },
-    "tickLength": 0,
-    "tickInterval": 1
+    "tickLength": 0
   },
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 320,
+    "width": 600,
     "height": 221,
     "spacing": [
       2,
@@ -446,7 +441,8 @@
         }
       },
       "stacking": "normal",
-      "groupPadding": 0
+      "groupPadding": 0,
+      "pointWidth": 25
     }
   },
   "title": {

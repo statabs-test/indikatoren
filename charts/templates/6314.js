@@ -14,7 +14,11 @@
   },
   "xAxis": {
     "type": "category",
-	"tickInterval": 2	
+	  //"tickInterval": 2	
+	  labels: {
+	    padding: 0,
+	    rotation: 0,
+	  },
   },  
 "yAxis": [{
   	title: {
@@ -84,18 +88,17 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
-    symbolPadding: 3,
-    symbolWidth: 10,
     "align": "left",
+    padding: 1,
+    //symbolWidth: 10,
+    itemDistance: 10,
     "itemStyle": {
      "fontWeight": "normal"
     }
   },
   "chart": {    
-    //"marginBottom": 75,
-    //"marginTop": 75,
-    "type": "column"
+    type: "column",
+    width: 600,
   }
-}
+};
 }());
