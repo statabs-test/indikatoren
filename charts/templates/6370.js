@@ -15,13 +15,13 @@
   },
  "series": [
     {
-		"color": "#B00000",
+		"color": "black",
     	"legendIndex": 3
-    }, /* rot */
+    }, 
     {
-		"color": "#662673",
+		"color": "#B00000",
     	"legendIndex": 4
-    }, /* violett */
+    }, /* rot */
     {
 		"color": "#008AC3",
     	"legendIndex": 0
@@ -37,15 +37,18 @@
   ],
    "legend": {
     "enabled": true,
-    //"x": 45,
-    //"y": 35,
     margin: 2,
+    itemWidth: 90,
+    padding: 1,
+    itemDistance: 10,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 3,
     "align": "left",
     "itemStyle": {
-      "fontWeight": "normal"
+      fontWeight: "normal",
+      textOverflow: null,
+      whiteSpace: 'nowrap',
     }
   },
   exporting: {
