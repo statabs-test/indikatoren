@@ -11,7 +11,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-09-27T14:45:05.055",
 		"stufe1": "Ertrag des Kantons",
 		"stufe2": "",
 		"stufe3": "",
@@ -46,7 +46,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-09-27T14:45:05.055",
 		"stufe1": "Ertrag des Kantons",
 		"stufe2": "",
 		"stufe3": "",
@@ -81,7 +81,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-09-27T14:45:05.055",
 		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
 		"stufe2": "",
 		"stufe3": "",
@@ -116,7 +116,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-09-27T14:45:05.055",
 		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
 		"stufe2": "",
 		"stufe3": "",
@@ -151,7 +151,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-09-27T14:45:05.055",
 		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
 		"stufe2": "",
 		"stufe3": "",
@@ -186,7 +186,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-09-27T14:45:05.055",
 		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
 		"stufe2": "",
 		"stufe3": "",
@@ -221,7 +221,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-09-27T14:45:05.055",
 		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
 		"stufe2": "",
 		"stufe3": "",
@@ -256,7 +256,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-09-27T14:45:05.055",
 		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
 		"stufe2": "",
 		"stufe3": "",
@@ -291,7 +291,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-09-27T14:45:05.055",
 		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
 		"stufe2": "",
 		"stufe3": "",
@@ -326,7 +326,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-09-27T14:45:05.055",
 		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
 		"stufe2": "",
 		"stufe3": "",
@@ -361,7 +361,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-09-27T14:45:05.055",
 		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
 		"stufe2": "",
 		"stufe3": "",
@@ -396,13 +396,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-09-27T14:45:05.055",
 		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei 24,8% aller Veranlagungen (28 591 von 115 380) beträgt das steuerbare Einkommen 0 Franken, somit muss keine Einkommenssteuer bezahlt werden. Der grösste Anteil bei den Veranlagungen (25,7%) – die Gruppe mit einem steuerbaren Einkommen von 1 bis 24 999 Franken – bezahlt zusammen über 81 Mio. Franken Einkommenssteuer; dies sind 7,3% des gesamten Einkommenssteuerertrags. Von Veranlagungen mit einem steuerbaren Einkommen von 200 000 Franken und mehr (3 051 oder 2,6% aller Veranlagungen) stammt ein Einkommenssteuerertrag von über 303 Mio. Franken (27,2% des Einkommenssteuertrags). Von über 73% aller Veranlagungen (Einkommenssklassen von 0 bis 49 999 Franken) stammt insgesamt 26,3% des Einkommenssteuerertrags. Im Vergleich zum Steuerjahr 2006 hat sich die Verteilung vor allem im Bereich der niedrigeren Einkommen verändert. Betrug der Anteil der Veranlagungen mit einem steuerbaren Einkommen von unter 25 000 Franken im Jahr 2006 29,0%, so waren es 2015 50,5% – was zum grossen Teil auf die Erhöhung der Sozialabzüge im Jahr 2008 zurückzuführen ist.",
+		"lesehilfe": "Bei 24,8% aller Veranlagungen (28 591 von 115 380) beträgt das steuerbare Einkommen 0 Franken, somit muss keine Einkommenssteuer bezahlt werden. Der grösste Anteil bei den Veranlagungen (25,7%) – die Gruppe mit einem steuerbaren Einkommen von 1 bis 24 999 Franken – bezahlt zusammen über 81 Mio. Franken Einkommenssteuer; dies sind 7,3% des gesamten Einkommenssteuerertrags. Von Veranlagungen mit einem steuerbaren Einkommen von 200 000 Franken und mehr (3 051 oder 2,6% aller Veranlagungen) stammt ein Einkommenssteuerertrag von über 303 Mio. Franken (27,2% des Einkommenssteuertrags). Von über 73% aller Veranlagungen (Einkommenssklassen von 0 bis 49 999 Franken) stammt insgesamt 26,3% des Einkommenssteuerertrags. Im Vergleich zum Steuerjahr 2006 hat sich die Verteilung vor allem im Bereich der niedrigeren Einkommen verändert. Betrug der Anteil der Veranlagungen mit einem steuerbaren Einkommen von unter 25 000 Franken im Jahr 2006 29,0%, so waren es 2015 50,5% – was zum grossen Teil auf die Neugestaltung der Sozialabzüge im Jahr 2008 zurückzuführen ist.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen, ohne Auswärtige, ohne Wochenaufenthalter.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
@@ -431,7 +431,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-09-27T14:45:05.055",
 		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
 		"stufe2": "",
 		"stufe3": "",
@@ -466,7 +466,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-09-27T14:45:05.055",
 		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
 		"stufe2": "",
 		"stufe3": "",
@@ -501,7 +501,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-09-27T14:45:05.055",
 		"stufe1": "Wanderung",
 		"stufe2": "",
 		"stufe3": "",
@@ -536,7 +536,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-09-27T14:45:05.055",
 		"stufe1": "Quellensteuer",
 		"stufe2": "",
 		"stufe3": "",
@@ -571,7 +571,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-09-27T14:45:05.055",
 		"stufe1": "Quellensteuer",
 		"stufe2": "",
 		"stufe3": "",
@@ -606,7 +606,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-09-27T14:45:06.066",
 		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
 		"stufe2": "",
 		"stufe3": "",
@@ -641,7 +641,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-09-27T14:45:06.066",
 		"stufe1": "Juristische Personen",
 		"stufe2": "",
 		"stufe3": "",
@@ -676,7 +676,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-09-27T14:45:06.066",
 		"stufe1": "Juristische Personen",
 		"stufe2": "",
 		"stufe3": "",
@@ -711,7 +711,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-09-27T14:45:06.066",
 		"stufe1": "Juristische Personen",
 		"stufe2": "",
 		"stufe3": "",

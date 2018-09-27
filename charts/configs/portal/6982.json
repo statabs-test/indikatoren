@@ -2,15 +2,15 @@
   "series": [
     {
       "color": "#2B0099",
-      "legendIndex": 6,
-      "index": 6,
+      "legendIndex": 7,
+      "index": 7,
       "data": [
         [
           "Veranlagungen",
           1094
         ],
         [
-          "Summe Einkommenssteuer",
+          "Summe Gesamtsteuer",
           0
         ]
       ],
@@ -19,15 +19,15 @@
     },
     {
       "color": "#008AC3",
-      "legendIndex": 5,
-      "index": 5,
+      "legendIndex": 6,
+      "index": 6,
       "data": [
         [
           "Veranlagungen",
           6975
         ],
         [
-          "Summe Einkommenssteuer",
+          "Summe Gesamtsteuer",
           7052029
         ]
       ],
@@ -36,15 +36,15 @@
     },
     {
       "color": "#A0BEC8",
-      "legendIndex": 4,
-      "index": 4,
+      "legendIndex": 5,
+      "index": 5,
       "data": [
         [
           "Veranlagungen",
           850
         ],
         [
-          "Summe Einkommenssteuer",
+          "Summe Gesamtsteuer",
           6034158
         ]
       ],
@@ -53,15 +53,15 @@
     },
     {
       "color": "#007A2F",
-      "legendIndex": 3,
-      "index": 3,
+      "legendIndex": 4,
+      "index": 4,
       "data": [
         [
           "Veranlagungen",
           692
         ],
         [
-          "Summe Einkommenssteuer",
+          "Summe Gesamtsteuer",
           9865303
         ]
       ],
@@ -70,15 +70,15 @@
     },
     {
       "color": "#68AB2B",
-      "legendIndex": 2,
-      "index": 2,
+      "legendIndex": 3,
+      "index": 3,
       "data": [
         [
           "Veranlagungen",
           639
         ],
         [
-          "Summe Einkommenssteuer",
+          "Summe Gesamtsteuer",
           20059873
         ]
       ],
@@ -87,15 +87,15 @@
     },
     {
       "color": "#73B97C",
-      "legendIndex": 1,
-      "index": 1,
+      "legendIndex": 2,
+      "index": 2,
       "data": [
         [
           "Veranlagungen",
           287
         ],
         [
-          "Summe Einkommenssteuer",
+          "Summe Gesamtsteuer",
           20069752
         ]
       ],
@@ -104,19 +104,36 @@
     },
     {
       "color": "#D7E8D2",
-      "legendIndex": 0,
-      "index": 0,
+      "legendIndex": 1,
+      "index": 1,
       "data": [
         [
           "Veranlagungen",
           360
         ],
         [
-          "Summe Einkommenssteuer",
+          "Summe Gesamtsteuer",
           100169857
         ]
       ],
       "name": "100 000 bis 999 999",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFDA80",
+      "legendIndex": 0,
+      "index": 0,
+      "data": [
+        [
+          "Veranlagungen",
+          62
+        ],
+        [
+          "Summe Gesamtsteuer",
+          531409764
+        ]
+      ],
+      "name": "1 Mio. und mehr",
       "turboThreshold": 0
     }
   ],
@@ -175,7 +192,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 415,
+    "height": 428,
     "spacing": [
       10,
       10,
@@ -189,7 +206,7 @@
     "type": "column",
     "inverted": false,
     "renderTo": "container-6982",
-    "spacingBottom": 30
+    "spacingBottom": 40
   },
   "title": {
     "style": {
@@ -263,9 +280,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt."
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-27"
   },
   "legend": {
     "layout": "vertical",
