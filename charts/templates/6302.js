@@ -35,30 +35,27 @@
   ],
   "xAxis": {
 	"tickInterval": 1,
+	labels: {
+	  step: 2
+	},
   },
   "series": [
     {
       "color": "#008AC3",
       "yAxis": 0,
-  	  "tooltip": {
-	  	  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
-	    },
     },
     {
-      "color": "#68AB2B",
+      "color": "#B00000",
       "yAxis": 0,
-  	  "tooltip": {
-  		  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
-  	  },
     },
     {
-      "color": "#662673",
+      "color": "#ff8028",
       "yAxis": 1,
-  	  "tooltip": {
-  		  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}</b><br/>',
-  	  },
     }
   ],
+  "tooltip": {
+	  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
+  },
   "legend": {
     "enabled": true,
     //"x": 25,

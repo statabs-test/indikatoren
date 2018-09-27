@@ -3,9 +3,6 @@
     {
       "color": "#008AC3",
       "yAxis": 0,
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
       "data": [
         [
           2007,
@@ -55,11 +52,8 @@
       "name": "Einbürgerungsziffer männlich"
     },
     {
-      "color": "#68AB2B",
+      "color": "#B00000",
       "yAxis": 0,
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
       "data": [
         [
           2007,
@@ -109,11 +103,8 @@
       "name": "Einbürgerungsziffer weiblich"
     },
     {
-      "color": "#662673",
+      "color": "black",
       "yAxis": 1,
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
       "data": [
         [
           2007,
@@ -220,7 +211,8 @@
     "align": "left"
   },
   "tooltip": {
-    "shared": false
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": [
     {
@@ -261,7 +253,8 @@
       "style": {
         "fontSize": 10,
         "color": "#000000"
-      }
+      },
+      "step": 2
     },
     "tickLength": 0,
     "tickInterval": 1

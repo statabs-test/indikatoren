@@ -20168,7 +20168,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "2015 fühlten sich 68% der befragten Personen sehr oder eher gut von den Behörden vertreten. Im Vergleich zu 2011 entspricht dies einem Rückgang um 2 Prozentpunkte. In den vorhergehenden Befragungsjahren lag die Zufriedenheit mit der Vertretung durch die Behörden jeweils deutlich unter derjenigen von 2011 und 2015 und die Frage konnte deutlich häufiger nicht beantwortet werden.",
 		"erlaeuterungen": "",
-		"template": "befragungenProzent001_print",
+		"template": "befragungen001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "large",
 		"visibleInPortal": false,

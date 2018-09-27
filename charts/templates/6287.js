@@ -15,9 +15,9 @@
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   },
  "series": [
- 	{"color": "#ff8028",}, /*orange BS*/
+ 	{"color": "black",}, /*schwarz BS*/
  	{"color": "#007a2f",}, /*grün BE*/
-	{"color": "#672773",}, /*violett GE*/
+	{"color": "#ff8028",}, /*orange GE*/
 	{"color": "#b00000",}, /*rot Liestal*/
 	{"color": "#a0bec8",}, /*hellblau ZH*/
 	  ],

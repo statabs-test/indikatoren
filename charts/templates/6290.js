@@ -21,15 +21,35 @@
                 //use N if all series are visible, otherwise use n
                 var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
                 var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
-            	return this.value.replace(" ", "<br/>") + '<br/>' + nString + sum;      
+            	return this.value + " (" + nString + sum + ")";      
         },
       },
   },
-  "legend": {
-      "reversed": false
+  yAxis: {
+    tickInterval: 25,
+  },
+  legend: {
+      reversed: true, 
+      alignColumns: false,
+      itemWidth: 75,
+      itemDistance: 10,
+      layout: 'horizontal',
+      align: 'left',
+      verticalAlign: 'top',
+      padding: 1,
+      itemMarginBottom: 2,
+      labelFormatter: function () {
+        return this.name;
+      },
+      itemStyle: {
+        textOverflow: undefined,
+        whiteSpace: 'nowrap',
+      }
+
   },
   chart: {
       spacingTop: 5,
+      inverted: true,
   }
 };
 }());

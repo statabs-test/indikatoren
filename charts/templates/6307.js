@@ -30,13 +30,16 @@
   	  "color": "#2B0099",
       legendIndex: 3,
     }, /* dunkelblau */
+  	{"color": "#68AB2B",
+     legendIndex: 5,
+    }, /* violett */
   ],
   "legend": {
     "enabled": true,
     margin: 3,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 2,
+    "itemMarginBottom": 3,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"

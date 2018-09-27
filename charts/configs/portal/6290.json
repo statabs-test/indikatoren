@@ -113,7 +113,7 @@
           79
         ]
       ],
-      "name": "Weiss nicht\u002F keine Angabe",
+      "name": "Weiss nicht \u002F keine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -149,7 +149,7 @@
                 //use N if all series are visible, otherwise use n
                 var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
                 var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
-            	return this.value.replace(" ", "<br/>") + '<br/>' + nString + sum;      
+            	return this.value + " (" + nString + sum + ")";      
         }
     }
   },
@@ -189,6 +189,7 @@
     "zoomType": "xy",
     "type": "column",
     "spacingTop": 5,
+    "inverted": true,
     "renderTo": "container-6290",
     "spacingBottom": 12
   },
@@ -227,7 +228,7 @@
     }
   },
   "yAxis": {
-    "tickInterval": 10,
+    "tickInterval": 25,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
@@ -267,21 +268,26 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F8.\u003Cbr\u002F\u003EZuletzt geändert: 2017-3-8"
   },
   "legend": {
-    "padding": 0,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
+    "padding": 1,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
     "useHTML": true,
     "itemStyle": {
       "fontSize": "10px",
       "fontFamily": "Arial",
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "whiteSpace": "nowrap"
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
-        },
-    "reversed": false
+        return this.name;
+      },
+    "reversed": true,
+    "alignColumns": false,
+    "itemWidth": 75,
+    "itemDistance": 10,
+    "itemMarginBottom": 2
   },
   "exporting": {
     "filename": 6290
