@@ -98,7 +98,7 @@
   },
   "chart": {    
     type: "column",
-    width: 600,
+    width: 665,
   }
 };
 }());

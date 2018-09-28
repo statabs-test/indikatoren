@@ -84,7 +84,7 @@
   "chart": {      
     "type": "column",
     "inverted": false,
-    width: 600,
+    width: 665,
     marginTop: 5,
     //"spacingBottom": 40
   }

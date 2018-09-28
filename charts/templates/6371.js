@@ -49,7 +49,7 @@
   	type: "column",
     "inverted": false,
     spacingTop: 5,
-    width: 600,
+    width: 665,
   }
 };
 }());

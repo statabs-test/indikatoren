@@ -97,7 +97,7 @@
     }
   }, 
   chart: {
-    width: 600,
+    width: 665,
     spacingTop: 5,
   }
 };

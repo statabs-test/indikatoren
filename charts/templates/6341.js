@@ -53,7 +53,7 @@
 "chart": {      
       marginLeft: 165,
      "inverted": true,
-     width: 600, 
+     width: 665, 
      spacing: [1,1,1,1]
   },
 }
