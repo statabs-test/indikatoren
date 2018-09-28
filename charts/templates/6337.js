@@ -38,7 +38,7 @@
   },
   "series": [
   {"color": "#b00000", "index": 5}, /*rot */
-  {"color": "#2f656b", "index": 4}, /*dunkelblau */
+  {"color": "#246370", "index": 4}, /*dunkelblau */
   ],
   "chart": {
     "renderTo": 'container-I.01.1.0016', 

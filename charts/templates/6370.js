@@ -15,9 +15,9 @@
   },
  "series": [
     {
-		  "color": "#aaaaaa",
+		  "color": "#6F6F6F",
 		  legendIndex: 0,
-    }, 
+    }, /* dunkelgrau */
     {
 		"color": "#B00000",
 		legendIndex: 4,

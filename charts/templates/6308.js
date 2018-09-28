@@ -14,9 +14,9 @@
       },
       "series": [
         {
-      	"color": "#B00000",
+      	"color": "#6F6F6F",
         	"legendIndex": 2
-        }, /* rot */
+        }, /* dunkelgrau */
         {
       	"color": "#662673",
         	"legendIndex": 0

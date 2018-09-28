@@ -15,7 +15,7 @@
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   },
  "series": [
- 	{"color": "#aaaaaa",}, /*grau BS*/
+ 	{"color": "#6F6F6F",}, /*dunkelgrau BS*/
  	{"color": "#007a2f",}, /*grün BE*/
 	{"color": "#ff8028",}, /*orange GE*/
 	{"color": "#b00000",}, /*rot Liestal*/
