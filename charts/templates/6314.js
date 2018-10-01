@@ -20,35 +20,37 @@
 	    rotation: 0,
 	  },
   },  
-"yAxis": [{
+yAxis: [{
   	title: {
         text: null
     },
-    "labels": {
-      "format": "{value:,.0f} kg",
+    labels: {
+      format: "{value:,.0f} kg",
       y: 3,
-      "style": {
-       "color": "#000000"
-        },
+      style: {
+       color: "#000000",
+       fontSize: 10,
+      },
     },
-    "min": 0,  
+    min: 0,  
     tickAmount: 5
   },
   {
     title: {
         text: null
     },
-    "labels": {
-      "format": "{value:,.0f}%",
+    labels: {
+      format: "{value:,.0f}%",
       y: 3,
-       "style": {
-       "color": "#000000"
-        },
+       style: {
+       color: "#000000",
+       fontSize: 10,
+      },
     },
-    "min": 0,
+    min: 0,
     tickAmount: 5,
     max: 50,
-    "opposite": true
+    opposite: true
   }
   ],
   "series": [

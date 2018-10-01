@@ -3,50 +3,40 @@
     title: {
       useHTML: true
     },
-    "plotOptions": {
-      "series": {
-        "borderWidth": 0,
-        "pointWidth": 30,
-        "dataLabels": {
-          "style": {
-            "fontSize": "10px"
-          }
-        },
-        "stacking": "false"
-      }
-    },
     "xAxis": {
       "type": "category",
   	//"tickInterval": 1	
     },  
-    "yAxis": [{
+    yAxis: [{
     	title: {
           text: null
       },
-      "labels": {
-        "format": "{value:,.0f}",
+      labels: {
+        format: "{value:,.0f}",
         y: 3,
-         "style": {
-         "color": "black"
-          },
+         style: {
+         color: "black",
+         fontSize: 10,
+        },
       },
-      "min": 0,  
+      min: 0,  
       tickAmount: 5
     },
     {
       title: {
           text: null
       },
-      "labels": {
-        "format": "{value:,.1f}",
+      labels: {
+        format: "{value:,.1f}",
         y: 3,
-         "style": {
-         "color": "black"
-          },
+        style: {
+         color: "black",
+         fontSize: 10,
+        },
       },
-      "min": 0,
+      min: 0,
       tickAmount: 5,
-      "opposite": true
+      opposite: true
     }
     ],
     "series": [

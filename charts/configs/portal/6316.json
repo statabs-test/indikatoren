@@ -127,9 +127,7 @@
           "fontWeight": "normal",
           "color": "black"
         }
-      },
-      "pointWidth": 30,
-      "stacking": "false"
+      }
     }
   },
   "title": {
@@ -161,7 +159,8 @@
         "format": "{value:,.0f}",
         "y": 3,
         "style": {
-          "color": "black"
+          "color": "black",
+          "fontSize": 10
         }
       },
       "min": 0,
@@ -175,7 +174,8 @@
         "format": "{value:,.1f}",
         "y": 3,
         "style": {
-          "color": "black"
+          "color": "black",
+          "fontSize": 10
         }
       },
       "min": 0,
