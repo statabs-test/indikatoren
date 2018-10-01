@@ -111,7 +111,7 @@
       "name": "Knaben"
     },
     {
-      "color": "3C3C3C",
+      "color": "#3C3C3C",
       "legendIndex": 2,
       "data": [
         [
@@ -396,6 +396,9 @@
         "enabled": false,
         "symbol": "circle"
       }
+    },
+    "chart": {
+      "marginRight": 18
     }
   },
   "customFunctions": {

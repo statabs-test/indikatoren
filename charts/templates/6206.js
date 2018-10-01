@@ -23,7 +23,7 @@
     	"legendIndex": 2
     }, /* blau */
     {
-		"color": "3C3C3C",
+		"color": "#3C3C3C",
     	"legendIndex": 2
     }, /* schwarz */
     {
@@ -51,7 +51,10 @@
         "enabled": false,
         "symbol": "circle",
       } 
-    }
+    },
+    "chart": {  
+    	marginRight: 18,
+   }
   }
 }
 }());
