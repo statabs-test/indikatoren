@@ -1,5 +1,6 @@
 /*
     global Highcharts
+    global $
 */
 
 (function(){
@@ -104,29 +105,29 @@
               color: "#B00000", // rot
               stacking: 'normal',
               stack: 'female',
-              legendIndex: 0,
-              index: 1
+              legendIndex: 1,
+              index: 2,
             }, 
             {
               color: "#008AC3", //blau
               stacking: 'normal',
               stack: 'male',
-              legendIndex: 2,
-              index: 0
+              legendIndex: 0,
+              index: 0,
             },
             {
               color: "#d00000", // rot
               stacking: 'normal',
               stack: 'female',
-              legendIndex: 1,
-              index: 3
+              legendIndex: 3,
+              index: 3,
             }, 
             {
               color: "#00bAf3", //blau
               stacking: 'normal',
               stack: 'male',
-              legendIndex: 3,
-              index: 2
+              legendIndex: 2,
+              index: 1,
             }
 	    ],
         "legend": {
@@ -144,7 +145,7 @@
         "tooltip": {
             "shared": true,
             formatter: function() { //sum values correctly
-                var s = '<span style="font-size: 12px">Alter: <b>'+this.x+'</b></span><br/>';
+                var s = '<span style="font-size: 12px">Alter: <b>' + this.points[0].key + '</b></span><br/>';
                 var sum = 0;
                 $.each(this.points, function(i, point) {
                     var v = Math.sqrt(this.y*this.y); //make - to + again
