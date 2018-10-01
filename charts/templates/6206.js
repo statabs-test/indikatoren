@@ -23,7 +23,7 @@
     	"legendIndex": 2
     }, /* blau */
     {
-		"color": "474747",
+		"color": "3C3C3C",
     	"legendIndex": 2
     }, /* schwarz */
     {
@@ -33,9 +33,6 @@
     {
     	"color": "#FABD24", /* dunkelgelb */
     	"legendIndex": 1,
-    	"marker": {
-        	"enabled": false
-    	}
     },
   ],
    "legend": {

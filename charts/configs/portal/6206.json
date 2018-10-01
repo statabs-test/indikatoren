@@ -111,7 +111,7 @@
       "name": "Knaben"
     },
     {
-      "color": "474747",
+      "color": "3C3C3C",
       "legendIndex": 2,
       "data": [
         [
@@ -223,9 +223,6 @@
     {
       "color": "#FABD24",
       "legendIndex": 1,
-      "marker": {
-        "enabled": false
-      },
       "data": [
         [
           2007,
