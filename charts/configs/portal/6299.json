@@ -178,7 +178,7 @@
                   //use N if all series are visible, otherwise use n
                   var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
                   var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
-              	return this.value.replace(" ", "<br/>") + '<br/>' + nString + sum;      
+              	return this.value + ' (' + nString + sum + ')';      
           }
     }
   },
@@ -218,6 +218,7 @@
     "zoomType": "xy",
     "type": "column",
     "spacingTop": 5,
+    "inverted": true,
     "renderTo": "container-6299",
     "spacingBottom": 12
   },
@@ -256,7 +257,7 @@
     }
   },
   "yAxis": {
-    "tickInterval": 10,
+    "tickInterval": 25,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
@@ -297,19 +298,24 @@
   },
   "legend": {
     "padding": 0,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
     "useHTML": true,
     "itemStyle": {
       "fontSize": "10px",
       "fontFamily": "Arial",
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
     },
     "symbolRadius": 0,
-    "labelFormatter": function (){
-          return this.name.replace(" so", "<br/>so").replace(" / ", " /<br/>");
-        }
+    "labelFormatter": function () {
+          console.log(this.name);
+            return this.name;
+        },
+    "reversed": true,
+    "itemWidth": 117
   },
   "exporting": {
     "filename": 6299

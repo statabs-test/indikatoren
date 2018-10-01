@@ -1,7 +1,10 @@
 (function(){
     return {
-      "xAxis": {
-        "type": "category", 
+      yAxis: {
+        tickInterval: 25,
+      },
+      xAxis: {
+        type: "category", 
         labels: {
           "formatter": function() {
                   //add sum of observations of visible series to the axis label
@@ -15,12 +18,13 @@
                   //use N if all series are visible, otherwise use n
                   var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
                   var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
-              	return this.value.replace(" ", "<br/>") + '<br/>' + nString + sum;      
+              	return this.value + ' (' + nString + sum + ')';      
           },
         },
       },
       chart: {
-        spacingTop: 5
+        spacingTop: 5, 
+        inverted: true,
       },
       "series": [
         { "color": "#007a2f", index: 4, legendIndex: 4}, // dunkelgrün
@@ -29,9 +33,20 @@
         { "color": "#dc440e", index: 1, legendIndex: 1}, // rot
         { "color": "#999999", index: 0, legendIndex: 0}, // grau
       ],
-      "legend": {
-        labelFormatter: function(){
-          return this.name.replace(" so", "<br/>so").replace(" / ", " /<br/>");
+      legend: {
+        layout: 'horizontal',
+        align: 'left',
+        verticalAlign: 'top',
+        reversed: true,
+        labelFormatter: function () {
+          console.log(this.name);
+            return this.name;
+        },
+        itemWidth: 117,
+        padding: 0,
+        itemStyle: {
+          textOverflow: 'none',
+          whiteSpace: 'nowrap',
         },
       },
 	};

@@ -6,10 +6,10 @@
   "yAxis": [
     {
       "labels": {
-        "format": "{value:,.0f}",
+        format: "{value:,.0f}",
         y: 3,
-        "style": {
-          "color": "#000000"
+        style: {
+          color: "#000000"
         }
       },
       "min": 0,
@@ -21,15 +21,16 @@
       "title": {
         "style": {
           "color": "#000000",
-          "fontSize": null
+          "fontSize": null,
         },
         "text": null
       },
-      "labels": {
-        "format": "{value:,.0f}",
+      labels: {
+        format: "{value:,.0f}",
         y: 3,
-        "style": {
-          "color": "#000000"
+        style: {
+          color: "#000000", 
+          fontSize: 10,
         }
       },
       "min": 0,

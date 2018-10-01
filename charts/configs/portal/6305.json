@@ -969,10 +969,10 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
-    "width": 320,
+    "width": 665,
     "height": 221,
     "spacing": [
-      1,
+      5,
       3,
       3,
       3
@@ -1061,9 +1061,9 @@
   },
   "legend": {
     "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
     "symbolRadius": 0,
     "itemMarginBottom": 1,
     "itemStyle": {
@@ -1072,7 +1072,8 @@
     },
     "padding": 1,
     "margin": 6,
-    "itemDistance": 5
+    "itemDistance": 5,
+    "y": -20
   },
   "plotOptions": {
     "series": {

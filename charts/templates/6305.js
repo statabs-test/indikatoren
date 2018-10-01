@@ -1,7 +1,8 @@
 (function(){
     return {
       chart: {
-        spacing: [1,3,3,3], /*top, right, bottom and left */
+        spacing: [5,3,3,3], /*top, right, bottom and left */
+        width: 665,
       },
   "xAxis": {
     "tickInterval": 1,
@@ -39,10 +40,11 @@
     margin: 6,
     padding: 1,
     itemDistance: 5,
-    "layout": "horizontal",
-    "verticalAlign": "top",
+    y: -20,
+    "layout": "vertical",
+    "verticalAlign": "middle",
     "itemMarginBottom": 1,
-    "align": "left",
+    "align": "right",
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -56,6 +58,6 @@
       }
     }
   }
-}
+};
 }());
  

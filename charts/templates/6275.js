@@ -13,7 +13,7 @@
   "xAxis": {
     "type": "category",
      "labels": {
-      "rotation": -90 
+      "rotation": -45, 
     } 
   },
   "yAxis": {
@@ -50,8 +50,7 @@
     "type": "column",
     "inverted": false,
     spacingBottom: 5,
-     //"marginBottom": 75,
-     //"marginTop": 75,
+    width: 665,
   },
    "labelFormatter": function () {
             return this.name;
