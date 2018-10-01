@@ -69,7 +69,7 @@
         ],
         [
           "Grenzgänger aus Frankreich",
-          50000000
+          66714383
         ],
         [
           "Künstler, Sport",
@@ -160,7 +160,7 @@
         ],
         [
           "Grenzgänger aus Frankreich",
-          75000000
+          70743027
         ],
         [
           "Künstler, Sport",
@@ -194,7 +194,7 @@
       "data": [
         [
           "Erwerb",
-          17768
+          17821
         ],
         [
           "Versicherung",
@@ -202,11 +202,11 @@
         ],
         [
           "Grenzgänger Deutschland u.a.",
-          20494
+          20554
         ],
         [
           "Grenzgänger aus Frankreich",
-          15000
+          21289
         ],
         [
           "Künstler, Sport",
@@ -252,7 +252,7 @@
         ],
         [
           "Grenzgänger aus Frankreich",
-          20000
+          23311
         ],
         [
           "Künstler, Sport",
@@ -344,13 +344,7 @@
       }
     },
     "scatter": {
-      "yAxis": 1,
-      "tooltip": {
-        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
-        "pointFormatter": function (){ 
-              return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 0, ",", " ") + '</b><br/>';
-          }
-      }
+      "yAxis": 1
     }
   },
   "title": {

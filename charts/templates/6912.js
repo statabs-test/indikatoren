@@ -123,12 +123,6 @@
     }, 
     scatter: {
         yAxis: 1,
-        tooltip: {
-          headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
-          pointFormatter: function(){ 
-              return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 0, ",", " ") + '</b><br/>';
-          }
-        }
     }
   },
  "legend": { 
