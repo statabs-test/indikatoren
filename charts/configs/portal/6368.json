@@ -39,9 +39,13 @@
         [
           "2016",
           31
+        ],
+        [
+          "2017",
+          21
         ]
       ],
-      "name": "Basel-Stadt und Basel-Landschaft",
+      "name": "Anzahl",
       "turboThreshold": 0
     }
   ],
