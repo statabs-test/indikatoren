@@ -273,26 +273,28 @@ var indikatorensetData = [
 		"darstellungsart": "Grafik"
 	},
 	{
-		"title": "Wanderungen: Schweizer",
-		"subtitle": "Stand: 2007 bis 2016",
-		"kuerzel": "I.01.5.05156",
+		"title": "Wanderungen der Schweizer",
+		"subtitle": "Summe 2008 bis 2017",
+		"kuerzel": "I.01.5.5156",
 		"kuerzelKunde": "BE8.2",
-		"description": "Wanderungen: Schweizer",
+		"description": "Wanderungen der Schweizer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-28T08:54:35.3535",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Zwischen 2007 und 2016 wiesen die zu- und weggezogenen Schweizer einzig in den Fünfjahresklassen der 15- bis 19-Jährigen sowie der 20- bis 24-Jährigen positive Wanderungssaldi auf. Deutlich mehr Weg- als Zuzüge verzeichneten die Schweizer im Alter zwischen 30 und 34 Jahren.",
+		"lesehilfe": "Zwischen 2008 und 2017 wiesen die Schweizer einzig in den Fünfjahresklassen der 15- bis 19-Jährigen sowie der 20- bis 24-Jährigen substanzielle Wanderunggewinne auf (+1 012 und +4 584). Leicht positiv fallen die Wanderungssaldi auch bei den 75- bis 79-Jährigen sowie bei den 80- bis 84-Jährigen aus. Am deutlichsten überstieg die Zahl der Wegzüge jene der Zuzüge bei den Schweizern im Alter zwischen 30 und 34 Jahren (-2 064).",
 		"erlaeuterungen": "Im Jahr 2010 einschliesslich rund 1 600 nachträglicher Streichungen (zu Weggezogenen gezählt) im Rahmen der Registerbereinigungen für die Volkszählung.",
 		"template": "populationPyramid001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "01_01_00_00_00_111",
 		"parentId": null,
 		"children": [],
@@ -303,30 +305,31 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5156,
-		"darstellungsart": "Grafik"
+		"id": 5156
 	},
 	{
-		"title": "Wanderungen: Ausländer",
-		"subtitle": "Stand: 2007 bis 2016",
-		"kuerzel": "I.01.5.05157",
+		"title": "Wanderungen der Ausländer",
+		"subtitle": "Summe 2008 bis 2017",
+		"kuerzel": "I.01.5.5157",
 		"kuerzelKunde": "BE8.3",
-		"description": "Wanderungen: Ausländer",
+		"description": "Wanderungen der Ausländer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-28T08:57:04.044",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In allen elf Fünfjahresklassen zwischen 0 und 54 Jahren ergaben sich bei den zu- und weggezogenen ausländischen Staatsangehörigen der Jahre 2007 bis 2016 Wanderungsgewinne. Am deutlichsten zeigte sich dies bei den Ausländern im Alter zwischen 25 und 29 Jahren, bei welchen der Zuzugsüberschuss 7 252 betrug. Kleine Wanderungsverluste zeigen sich in den Altersklassen ab 55 Jahren.",
+		"lesehilfe": "In allen elf Fünfjahresklassen zwischen 0 und 54 Jahren ergaben sich bei den ausländischen Staatsangehörigen der Jahre 2008 bis 2017 Wanderungsgewinne. Am deutlichsten zeigte sich dies bei den Ausländern im Alter zwischen 25 und 29 Jahren, bei welchen der Zuzugsüberschuss 7 054 betrug. Kleine Wanderungsverluste zeigen sich in den Altersklassen ab 55 Jahren.",
 		"erlaeuterungen": "Im Jahr 2010 einschliesslich rund 1 600 nachträglicher Streichungen (zu Weggezogenen gezählt) im Rahmen der Registerbereinigungen für die Volkszählung.",
 		"template": "populationPyramid001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "01_01_00_00_00_112",
 		"parentId": null,
 		"children": [],
@@ -337,8 +340,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5157,
-		"darstellungsart": "Grafik"
+		"id": 5157
 	},
 	{
 		"title": "Nettoschuldenquote und Nettoschulden pro Kopf",
@@ -518,8 +520,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Lebenserwartung bei Geburt",
-		"subtitle": "nach Geschlecht in Jahren",
-		"kuerzel": "I.14.3.05180",
+		"subtitle": "nach Geschlecht in Jahren, Basel-Stadt",
+		"kuerzel": "I.14.3.5180",
 		"kuerzelKunde": "GW3",
 		"description": "Lebenserwartung bei Geburt",
 		"thema": "14 Gesundheit",
@@ -528,15 +530,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-25T12:06:44.4444",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Lebenserwartung bei Geburt für Frauen liegt im gesamten Beobachtungszeitraum über derjenigen der Männer. Die Werte für 2016 liegen bei 84,4 Jahren (Frauen) und 80,4 Jahren (Männer).",
+		"lesehilfe": "Die Lebenserwartung bei Geburt für Frauen liegt im gesamten Beobachtungszeitraum über derjenigen der Männer. Die Werte für 2017 liegen bei 84,4 Jahren (Frauen) und 80,9 Jahren (Männer).",
 		"erlaeuterungen": "Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "03_02_00_00_00_303",
 		"parentId": null,
 		"children": [],
@@ -547,8 +551,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5180,
-		"darstellungsart": "Grafik"
+		"id": 5180
 	},
 	{
 		"title": "Empfundene gesundheitliche Verfassung",
@@ -829,17 +832,17 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Höchste abgeschlossene Ausbildung",
-		"subtitle": "«Welches ist Ihre höchste abgeschlossene Schul- und Berufsbildung?»",
-		"kuerzel": "I.15.6.05191",
+		"subtitle": "Nach Geschlecht, Staatsangehörigkeit und Altersklasse, Stand: 2015 <br>«Welches ist Ihre höchste abgeschlossene Schul- und Berufsbildung?»",
+		"kuerzel": "I.50.1.05191",
 		"kuerzelKunde": "GW13",
 		"description": "Höchste abgeschlossene Ausbildung",
-		"thema": "15 Bildung",
-		"unterthema": "Bildungsniveau",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-26T11:16:14.1414",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Bildung",
 		"stufe3": "",
@@ -848,6 +851,8 @@ var indikatorensetData = [
 		"lesehilfe": "9,2% der Befragten haben einen obligatorischen Schulabschluss. 40,6% aller Befragten absolvierten ein Studium an einer Fachhochschule oder Universität. Ein deutlicher Unterschied zwischen den Geschlechtern ist hier zu beobachten: Bei den Männern liegt der Anteil bei 46,4%, bei den Frauen bei 35,7%.",
 		"erlaeuterungen": "",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "03_05_00_00_00_313",
 		"parentId": 6136,
 		"children": [],
@@ -858,8 +863,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5191,
-		"darstellungsart": "Grafik"
+		"id": 5191
 	},
 	{
 		"title": "Besuchte Weiterbildungen und Kurse in den letzten zwölf Monaten",
@@ -1036,7 +1040,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Übermässig mit Lärm belastete Wohnbevölkerung",
-		"subtitle": "in %",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.02.14.05197",
 		"kuerzelKunde": "GW19",
 		"description": "Übermässig mit Lärm belastete Wohnbevölkerung",
@@ -1046,15 +1050,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-13T17:03:27.2727",
+		"aktualisierungsdatum": "2018-09-24T09:57:37.3737",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Anteil der Einwohner, welche an ihrem Wohnort in der Nacht einer Lärmbelastung von über 50 dB(A) ausgesetzt sind, betrug 2008 24,6%. Bei 14,5% der Einwohner wurde der Tagesgrenzwert überschritten, bei 16,2% der Grenzwert in der Nacht.",
-		"erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche an ihrem Wohnort einer Lärmbelastung über dem Immissionsgrenzwert gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Die in der LSV festgehaltenen Immissionsgrenzwerte drücken das Mass an Lärmbelastung aus, das zirka 75% der Bevölkerung erträgt, ohne sich erheblich gestört zu fühlen. Wohngebiete sind gemäss Lärmempfindlichkeitsstufenplan den Stufen II (Wohnzonen) und III (Wohn-/Gewerbezonen) mit unterschiedlichen Immissionsgrenzwerten zugeteilt: ES II: 60 dB(A) Tag, 50 dB(A) Nacht, ES III: 65 dB(A) Tag, 55 dB(A) Nacht; dB(A) ist die übliche Masseinheit zur Messung von Lärmstärke.<br>Die angegebenen Werte beruhen auf Modellierungen. Die Lärmimmission an den Gebäuden werden in einem 3D-Oberflächenmodell (Gelände, Gebäude, Hindernisse) auf Basis des Emissionskatasters für Strassenverkehrslärm berechnet. Sobald ein Teil eines Gebäudes, z. B. eine Fassade oder die oberen Geschosse, welche nicht durch eine Lärmschutzwand geschützt werden, von Grenzwertüberschreitungen (gemäss LSV) betroffen sind, werden sämtliche Bewohner des Gebäudes als lärmbelastete Personen gezählt. Die Ausrichtung der einzelnen Wohnungen fliesst nicht in die Beurteilung ein. Weiter werden lärmempfindliche Räume in Betrieben nicht berücksichtigt.",
+		"erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche an ihrem Wohnort einer Lärmbelastung über dem Immissionsgrenzwert gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Die in der LSV festgehaltenen Immissionsgrenzwerte drücken das Mass an Lärmbelastung aus, das zirka 75% der Bevölkerung erträgt, ohne sich erheblich gestört zu fühlen. Wohngebiete sind gemäss Lärmempfindlichkeits&shy;stufen&shy;plan den Empfindlichkeitsstufen (ES) II (Wohnzonen) und III (Wohn-/Gewerbezonen) mit unterschiedlichen Immissionsgrenzwerten zugeteilt: ES II: 60 dB(A) Tag, 50 dB(A) Nacht, ES III: 65 dB(A) Tag, 55 dB(A) Nacht; dB(A) ist die übliche Masseinheit zur Messung von Lärmstärke.<br><br>Die angegebenen Werte beruhen auf Modellierungen. Die Lärmimmissionen an den Gebäuden werden in einem 3D-Oberflächenmodell (Gelände, Gebäude, Hindernisse) auf Basis des Emissionskatasters für Strassenverkehrslärm berechnet. Sobald ein Teil eines Gebäudes, z. B. eine Fassade oder die oberen Geschosse, welche nicht durch eine Lärmschutzwand geschützt werden, von Grenzwertüberschreitungen (gemäss LSV) betroffen sind, werden sämtliche Bewohner des Gebäudes als lärmbelastete Personen gezählt. Die Ausrichtung der einzelnen Wohnungen fliesst nicht in die Beurteilung ein. Weiter werden lärmempfindliche Räume in Betrieben nicht berücksichtigt.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "03_06_00_00_00_319",
 		"parentId": 6159,
 		"children": [],
@@ -1065,8 +1071,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5197,
-		"darstellungsart": "Grafik"
+		"id": 5197
 	},
 	{
 		"title": "Grünfläche pro Kopf nach Wohnviertel",
@@ -1380,7 +1385,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Luftqualität: Langzeitbelastung der Luft",
-		"subtitle": "in Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10) in Mikrogramm pro m<sup>3</sup>",
+		"subtitle": "Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10) in Mikrogramm pro m<sup>3</sup>, Basel-Stadt",
 		"kuerzel": "I.02.5.06029",
 		"kuerzelKunde": "NL8",
 		"description": "Luftqualität: Langzeitbelastung der Luft",
@@ -1390,15 +1395,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-24T09:50:50.5050",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Sowohl die Stickstoffdioxid- als auch die Feinstaubkonzentrationen lagen 2016 mit 27,8 resp. 16,1 Mikrogramm pro Kubikmeter unter dem jeweiligen Grenzwert.",
-		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung. Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen im Kanton Basel-Stadt: St. Johanns-Platz (PM10, NO<sub>2</sub>), Spalenring (NO<sub>2</sub>), Dreirosenbrücke Süd (NO<sub>2</sub>).<br><br>Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Sie sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und - zusammen mit flüchtigen organischen Verbindungen - von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.<br><br>Unter Feinstaub (PM10) versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub (PM10) ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub (PM10) 20 μg/m<sup>3</sup>.",
+		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung. Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen im Kanton Basel-Stadt: St. Johanns-Platz (PM10, NO<sub>2</sub>), Spalenring (NO<sub>2</sub>), Dreirosenbrücke Süd (NO<sub>2</sub>).<br><br>Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Sie sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und - zusammen mit flüchtigen organischen Verbindungen - von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.<br><br>Unter Feinstaub (PM10) versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub (PM10) ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. <br>Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub (PM10) 20 μg/m<sup>3</sup>.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "04_01_00_00_00_408",
 		"parentId": 6157,
 		"children": [],
@@ -1409,12 +1416,11 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6029,
-		"darstellungsart": "Grafik"
+		"id": 6029
 	},
 	{
 		"title": "Wasserqualität: AOX-Konzentration",
-		"subtitle": "in Milligramm pro Liter gereinigtem Abwasser",
+		"subtitle": "in Milligramm pro Liter gereinigtem Abwasser in der ARA Basel",
 		"kuerzel": "I.02.19.06030",
 		"kuerzelKunde": "NL9",
 		"description": "Wasserqualität: AOX-Konzentration",
@@ -1424,15 +1430,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-24T11:51:57.5757",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die mittlere AOX-Fracht betrug im Jahr 2016 0,046 mg/l gereinigtem Abwasser. Sie lag damit unter dem Grenzwert von 0,08 mg/l.",
-		"erlaeuterungen": "AOX sind an Aktivkohle adsorbierbare organische Halogenverbindungen. Diese Fluor-, Chlor- und Bromverbindungen (wobei Chlorkohlenwasserstoffe in der Regel am häufigsten vorkommen) können als Verluste oder Nebenprodukte aus industriellen und gewerblichen Produktionen ins Wasser gelangen. Auch chlorhaltige Reinigungsmittel aus Haushalten tragen zur Belastung der Abwässer bei. Die AOX-Konzentration wird im gereinigten Abwasser in den Abläufen der Abwasserreinigungsanlagen (ARA) mehrmals pro Jahr in Form von Tagessammelmustern gemessen. Der Mittelwert aller Messungen eines Jahres entspricht dem Jahreswert. In der Gewässerschutzverordnung ist für die Einleitung von kommunalem Abwasser in Gewässer ein AOX-Grenzwert von 0.08 mg/l definiert. <br><br>Für die Wasserqualität ist entscheidend, wie viele Schadstoffe trotz Kläranlagen ins Wasser gelangen. Eine Zunahme des AOX-Indikators bedeutet eine unerwünschte Belastung der Gewässer, eine Abnahme entspricht einer Verbesserung der Wasserqualität. Organische Halogenverbindungen sind bereits in geringen Mengen schädlich, schwer biologisch abbaubar und reichern sich im Fettgewebe von Tieren und Menschen an. <br><br>Das Abwasser aus Basel-Stadt wird in der ARA Basel gereinigt. Deren Einzugsgebiet umfasst auch die Gemeinden Allschwil, Binningen, Birsfelden, Bottmingen, Münchenstein (Ortsteil Brüglingen), Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Neuwiller (F).",
+		"lesehilfe": "Die mittlere AOX-Fracht betrug im Jahr 2017 0,035 mg/l gereinigtes Abwasser. Sie lag damit unter dem Grenzwert von 0,08 mg/l.",
+		"erlaeuterungen": "AOX sind an Aktivkohle adsorbierbare organische Halogenverbindungen. Diese Fluor-, Chlor- und Bromverbindungen (wobei Chlorkohlenwasserstoffe in der Regel am häufigsten vorkommen) können als Verluste oder Nebenprodukte aus industriellen und gewerblichen Produktionen ins Wasser gelangen. Auch chlorhaltige Reinigungsmittel aus Haushalten tragen zur Belastung der Abwässer bei. Die AOX-Konzentration wird im gereinigten Abwasser in den Abläufen der Abwasserreinigungsanlagen (ARA) gemessen. Der Indikator zeigt den Jahresmittelwert in Milligramm AOX pro Liter. <br><br>Im Auslauf der ARA wird mehrmals pro Jahr die AOX-Konzentration in Form von Tagessammelmustern gemessen. Der Mittelwert aller Messungen eines Jahres entspricht dem Jahreswert. In der Gewässerschutzverordnung ist für die Einleitung von kommunalem Abwasser in Gewässer ein AOX-Grenzwert von 0.08 mg/l definiert.<br><br>Das Abwasser aus Basel-Stadt wird in der ARA Basel gereinigt. Deren Einzugsgebiet umfasst auch die Gemeinden Allschwil, Binningen, Birsfelden, Bottmingen, Münchenstein (Ortsteil Brüglingen), Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Neuwiller (F).",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "04_01_00_00_00_409",
 		"parentId": 6164,
 		"children": [],
@@ -1443,8 +1451,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6030,
-		"darstellungsart": "Grafik"
+		"id": 6030
 	},
 	{
 		"title": "CO<sub>2</sub>-Emissionen",
@@ -2172,18 +2179,18 @@ var indikatorensetData = [
 		"darstellungsart": "Grafik"
 	},
 	{
-		"title": "Mittelwert und Median des Reineinkommens in Basel-Stadt",
-		"subtitle": "in Franken",
-		"kuerzel": "I.18.2.06054",
+		"title": "Mittelwert und Median des Reineinkommens",
+		"subtitle": "in Franken, Basel-Stadt",
+		"kuerzel": "I.18.2.6054",
 		"kuerzelKunde": "WE10",
-		"description": "Mittelwert und Median des Reineinkommens in Basel-Stadt",
+		"description": "Mittelwert und Median des Reineinkommens",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-09-24T09:55:23.2323",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Erwerbsarbeit",
 		"stufe3": "",
@@ -2192,6 +2199,8 @@ var indikatorensetData = [
 		"lesehilfe": "Der Mittelwert des Reineinkommens des obersten Quintils ist seit 1991 am deutlichsten gestiegen. Die übrigen Werte verlaufen relativ konstant. Über den Betrachtungszeitraum gab es zahlreiche Veränderungen in der Steuergesetzgebung, die einen Einfluss auf die Berechnung des Reineinkommens haben können, etwa durch erhöhte Abzugsmöglichkeiten (z. B. für Berufskosten).",
 		"erlaeuterungen": "Mittelwert und Median werden pro Veranlagung berechnet.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "06_02_00_00_00_610",
 		"parentId": 6150,
 		"children": [],
@@ -2202,8 +2211,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6054,
-		"darstellungsart": "Grafik"
+		"id": 6054
 	},
 	{
 		"title": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen",
@@ -2319,7 +2327,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T11:32:37.3737",
+		"aktualisierungsdatum": "2018-09-24T09:58:42.4242",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengerechtigkeit",
 		"stufe3": "",
@@ -2328,6 +2336,7 @@ var indikatorensetData = [
 		"lesehilfe": "Der Anteil der Arbeitnehmenden in einer Leitungsposition betrug 2017 bei den Männern etwa 33%, bei den Frauen rund 21%.",
 		"erlaeuterungen": "Die Ergebnisse basieren auf der Hochrechnung einer Stichprobenerhebung von rund 1&nbsp;500 in Basel-Stadt wohnhaften Personen. Bei der Interpretation der Ergebnisse muss die Unsicherheit von Stichprobenerhebungen berücksichtigt werden.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "05_02_00_00_00_505",
 		"parentId": 6148,
@@ -2339,8 +2348,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6435,
-		"darstellungsart": "Grafik"
+		"id": 6435
 	},
 	{
 		"title": "Saldo aus Anzahl Baumpflanzungen und -fällungen",

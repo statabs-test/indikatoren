@@ -103,7 +103,7 @@
             {
               color: "#B00000", // rot
               stacking: 'normal',
-              stack: 'male',
+              stack: 'female',
               legendIndex: 0,
               index: 1
             }, 
@@ -124,7 +124,7 @@
             {
               color: "#00bAf3", //blau
               stacking: 'normal',
-              stack: 'female',
+              stack: 'male',
               legendIndex: 3,
               index: 2
             }

@@ -789,6 +789,115 @@ id | visible | visibleInPortal | indikatorenset
 6639 | true | true | Wohnviertel
 6640 | true | true | Wohnviertel
 6641 | true | true | Wohnviertel
+6642 | true | false | Integration (Print)
+6643 | true | false | Integration (Print)
+6644 | true | false | Integration (Print)
+6645 | true | false | Integration (Print)
+6646 | true | false | Integration (Print)
+6647 | true | false | Integration (Print)
+6648 | true | false | Integration (Print)
+6649 | true | false | Integration (Print)
+6650 | true | false | Integration (Print)
+6651 | true | false | Integration (Print)
+6652 | true | false | Integration (Print)
+6653 | true | false | Integration (Print)
+6654 | true | false | Integration (Print)
+6655 | true | false | Integration (Print)
+6656 | true | false | Integration (Print)
+6657 | true | false | Integration (Print)
+6658 | true | false | Integration (Print)
+6659 | true | false | Integration (Print)
+6660 | true | false | Integration (Print)
+6661 | true | false | Integration (Print)
+6662 | true | false | Integration (Print)
+6663 | true | false | Integration (Print)
+6664 | true | false | Integration (Print)
+6665 | true | false | Integration (Print)
+6666 | true | false | Integration (Print)
+6667 | true | false | Integration (Print)
+6668 | true | false | Integration (Print)
+6669 | true | false | Integration (Print)
+6670 | true | false | Integration (Print)
+6671 | true | false | Integration (Print)
+6672 | true | false | Integration (Print)
+6673 | true | false | Integration (Print)
+6674 | true | false | Integration (Print)
+6675 | true | false | Integration (Print)
+6676 | true | false | Integration (Print)
+6677 | true | false | Integration (Print)
+6678 | true | false | Integration (Print)
+6679 | true | false | Integration (Print)
+6680 | true | false | Integration (Print)
+6681 | true | false | Integration (Print)
+6682 | true | false | Integration (Print)
+6683 | true | false | Integration (Print)
+6684 | true | false | Integration (Print)
+6685 | true | false | Integration (Print)
+6686 | true | false | Integration (Print)
+6687 | true | false | Integration (Print)
+6688 | true | false | Integration (Print)
+6689 | true | false | Integration (Print)
+6690 | true | false | Integration (Print)
+6691 | true | false | Integration (Print)
+6692 | true | false | Integration (Print)
+6693 | true | false | Integration (Print)
+6694 | true | false | Integration (Print)
+6695 | true | false | Integration (Print)
+6696 | true | false | Integration (Print)
+6697 | true | false | Integration (Print)
+6698 | true | false | Integration (Print)
+6699 | true | false | Integration (Print)
+6700 | true | false | Integration (Print)
+6701 | true | false | Integration (Print)
+6702 | true | false | Integration (Print)
+6703 | true | false | Integration (Print)
+6704 | true | false | Integration (Print)
+6705 | true | false | Integration (Print)
+6706 | true | false | Integration (Print)
+6707 | true | false | Integration (Print)
+6708 | true | false | Integration (Print)
+6709 | true | false | Integration (Print)
+6710 | true | false | Integration (Print)
+6711 | true | false | Integration (Print)
+6712 | true | false | Integration (Print)
+6713 | true | false | Integration (Print)
+6714 | true | false | Integration (Print)
+6715 | true | false | Integration (Print)
+6716 | true | false | Integration (Print)
+6717 | true | false | Integration (Print)
+6718 | true | false | Integration (Print)
+6719 | true | false | Integration (Print)
+6720 | true | false | Integration (Print)
+6721 | true | false | Integration (Print)
+6722 | true | false | Integration (Print)
+6723 | true | false | Integration (Print)
+6724 | true | false | Integration (Print)
+6725 | true | false | Integration (Print)
+6726 | true | false | Integration (Print)
+6727 | true | false | Integration (Print)
+6728 | true | false | Integration (Print)
+6729 | true | false | Integration (Print)
+6730 | true | false | Integration (Print)
+6731 | true | false | Integration (Print)
+6732 | true | false | Integration (Print)
+6733 | true | false | Integration (Print)
+6734 | true | false | Integration (Print)
+6735 | true | false | Integration (Print)
+6736 | true | false | Integration (Print)
+6737 | true | false | Integration (Print)
+6738 | true | false | Integration (Print)
+6739 | true | false | Integration (Print)
+6740 | true | false | Integration (Print)
+6741 | true | false | Integration (Print)
+6742 | true | false | Integration (Print)
+6743 | true | false | Integration (Print)
+6744 | true | false | Integration (Print)
+6745 | true | false | Integration (Print)
+6746 | true | false | Integration (Print)
+6747 | true | false | Integration (Print)
+6748 | true | false | Integration (Print)
+6749 | true | false | Integration (Print)
+6750 | true | false | Integration (Print)
 6751 | true | true | Wohnviertel
 6752 | true | true | Wohnviertel
 6753 | true | true | Wohnviertel
@@ -804,6 +913,23 @@ id | visible | visibleInPortal | indikatorenset
 6893 | true | true | Wohnviertel
 6894 | true | true | Wohnviertel
 6895 | true | true | Wohnviertel
+6896 | true | true | Steuern
+6897 | true | true | Steuern
+6898 | true | true | Steuern
+6899 | true | true | Steuern
+6900 | true | true | Steuern
+6901 | true | true | Steuern
+6902 | true | true | Steuern
+6903 | true | true | Steuern
+6904 | true | true | Steuern
+6905 | true | true | Steuern
+6906 | true | true | Steuern
+6907 | true | true | Steuern
+6908 | true | true | Steuern
+6909 | true | true | Steuern
+6910 | true | true | Steuern
+6911 | true | true | Steuern
+6912 | true | true | Steuern
 6915 | true | true | Wohnviertel
 6916 | true | true | Wohnviertel
 6917 | true | true | Wohnviertel
@@ -843,6 +969,10 @@ id | visible | visibleInPortal | indikatorenset
 6953 | true | true | Wohnviertel
 6954 | true | true | Wohnviertel
 6955 | true | true | Wohnviertel
+6980 | true | true | Steuern
+6981 | true | true | Steuern
+6982 | true | true | Steuern
+6983 | true | true | Steuern
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

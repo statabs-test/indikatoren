@@ -3,7 +3,7 @@
     {
       "color": "#B00000",
       "stacking": "normal",
-      "stack": "male",
+      "stack": "female",
       "legendIndex": 0,
       "index": 1,
       "data": [
@@ -288,7 +288,7 @@
     {
       "color": "#00bAf3",
       "stacking": "normal",
-      "stack": "female",
+      "stack": "male",
       "legendIndex": 3,
       "index": 2,
       "data": [
