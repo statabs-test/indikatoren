@@ -36,7 +36,7 @@
                 }
             },
             "marker": {
-                "enabled": false
+                //"enabled": false
             }
         }
     },

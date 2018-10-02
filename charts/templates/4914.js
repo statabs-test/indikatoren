@@ -54,7 +54,10 @@
       "color": "#73b97c",
       "index": 1,
       "type": "line",
-      "yAxis": 1
+      "yAxis": 1,
+      marker: {
+        enabled: false
+      }
     }
   ],  
   "tooltip": {
