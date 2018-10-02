@@ -2,7 +2,7 @@
   "series": [
     {
       "color": "#B00000",
-      "legendIndex": 2,
+      "legendIndex": 4,
       "data": [
         [
           2007,
@@ -57,7 +57,7 @@
     },
     {
       "color": "#662673",
-      "legendIndex": 2,
+      "legendIndex": 1,
       "data": [
         [
           2007,
@@ -112,7 +112,7 @@
     },
     {
       "color": "#008AC3",
-      "legendIndex": 2,
+      "legendIndex": 3,
       "data": [
         [
           2007,
@@ -222,7 +222,7 @@
     },
     {
       "color": "#FABD24",
-      "legendIndex": 1,
+      "legendIndex": 2,
       "marker": {
         "enabled": false
       },
@@ -301,7 +301,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
-    "width": 320,
+    "width": 665,
     "height": 208,
     "spacing": [
       2,
@@ -313,6 +313,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
+    "spacingTop": 5,
     "renderTo": "container-6336",
     "spacingBottom": 2
   },
@@ -391,9 +392,9 @@
   },
   "legend": {
     "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
     "symbolRadius": 0,
     "itemMarginBottom": 5,
     "itemStyle": {
@@ -402,8 +403,7 @@
       "textOverflow": null,
       "whiteSpace": "nowrap"
     },
-    "padding": 0,
-    "itemWidth": 130
+    "padding": 1
   },
   "plotOptions": {
     "series": {
