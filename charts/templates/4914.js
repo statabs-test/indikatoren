@@ -50,7 +50,7 @@
     {
       "color": "#73b97c",
       "index": 1,
-      "type": "column",
+      "type": "line",
       "yAxis": 1
     }
   ],  
@@ -58,7 +58,7 @@
     "shared": false
   },
   "chart": {
-    "marginBottom": 65
+    //"marginBottom": 65
   }
 	}
 }());

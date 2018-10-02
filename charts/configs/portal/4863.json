@@ -100,6 +100,9 @@
             }
             return "";
           }
+      },
+      "marker": {
+        "enabled": false
       }
     }
   },

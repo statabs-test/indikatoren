@@ -87,6 +87,9 @@
             }
             return "";
           }
+      },
+      "marker": {
+        "enabled": false
       }
     }
   },

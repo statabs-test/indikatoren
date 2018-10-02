@@ -185,6 +185,9 @@
         },
         "enabled": false
       },
+      "marker": {
+        "enabled": false
+      },
       "stacking": "percent"
     }
   },

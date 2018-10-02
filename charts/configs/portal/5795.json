@@ -82,6 +82,9 @@
           "fontSize": "10px"
         }
       },
+      "marker": {
+        "enabled": false
+      },
       "pointWidth": 30
     }
   },

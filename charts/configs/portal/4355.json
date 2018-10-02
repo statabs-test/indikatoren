@@ -64,6 +64,9 @@
             }
             return "";
           }
+      },
+      "marker": {
+        "enabled": false
       }
     }
   },

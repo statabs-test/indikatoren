@@ -151,6 +151,9 @@
           "fontSize": "10px"
         }
       },
+      "marker": {
+        "enabled": false
+      },
       "stacking": null,
       "pointPadding": 0
     }

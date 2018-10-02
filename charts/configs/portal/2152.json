@@ -1080,6 +1080,9 @@
           "fontSize": "10px"
         }
       },
+      "marker": {
+        "enabled": false
+      },
       "stacking": "normal",
       "groupPadding": 0
     }

@@ -95,6 +95,9 @@
             }
             return "";
           }
+      },
+      "marker": {
+        "enabled": false
       }
     }
   },

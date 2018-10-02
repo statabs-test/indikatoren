@@ -296,6 +296,9 @@
           "fontSize": "10px"
         }
       },
+      "marker": {
+        "enabled": false
+      },
       "stacking": "normal",
       "pointPadding": 0,
       "groupPadding": 0.5

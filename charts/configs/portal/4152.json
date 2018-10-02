@@ -123,6 +123,9 @@
           "fontSize": "10px"
         },
         "enabled": false
+      },
+      "marker": {
+        "enabled": false
       }
     }
   },

@@ -319,6 +319,9 @@
           "fontSize": "10px"
         }
       },
+      "marker": {
+        "enabled": false
+      },
       "pointWidth": 15,
       "stacking": "normal"
     }

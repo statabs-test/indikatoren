@@ -126,6 +126,9 @@
         "enabled": true,
         "format": "{point.y:,.0f}"
       },
+      "marker": {
+        "enabled": false
+      },
       "stacking": "normal"
     }
   },

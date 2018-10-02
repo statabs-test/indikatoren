@@ -107,6 +107,9 @@
             }
             return "";
           }
+      },
+      "marker": {
+        "enabled": false
       }
     }
   },

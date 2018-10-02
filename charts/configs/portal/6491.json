@@ -166,6 +166,9 @@
           "fontSize": "10px"
         }
       },
+      "marker": {
+        "enabled": false
+      },
       "pointPadding": 100,
       "pointWidth": 80,
       "stacking": "normal"

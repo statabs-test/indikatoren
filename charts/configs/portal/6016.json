@@ -150,6 +150,9 @@
           "fontSize": "10px"
         }
       },
+      "marker": {
+        "enabled": false
+      },
       "pointPadding": 0
     }
   },

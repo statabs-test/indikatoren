@@ -158,6 +158,9 @@
         },
         "enabled": false
       },
+      "marker": {
+        "enabled": false
+      },
       "pointPadding": 0
     }
   },

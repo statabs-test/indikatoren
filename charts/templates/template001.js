@@ -34,6 +34,9 @@
                 "style": {
                 "fontSize": "10px"
                 }
+            },
+            "marker": {
+                "enabled": false
             }
         }
     },
