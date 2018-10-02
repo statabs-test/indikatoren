@@ -7681,15 +7681,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-14T14:15:17.1717",
+		"aktualisierungsdatum": "2018-10-02T11:43:59.5959",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Sicherheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Zahl der Gewaltstraftaten pro 100 000 Einwohner ist im Jahr 2017  im Vergleich zum Vorjahr von 358 auf 316 zurückgegangen.",
-		"erlaeuterungen": "Unter Gewaltstraftaten werden Straftatbestände zusammengefasst, welche die vorsätzliche Anwendung von Gewalt gegen Personen beinhalten. Für den Indikator sind dies Tötungsdelikte (Art. 111-113/116), schwere, sowie einfache Körperverletzung (Art. 122-123), Raub (Art. 140) und Vergewaltigung (Art. 190). Die Anzahl pro Einwohner wird anhand der mittleren Wohnbevölkerung berechnet. Für alle 12 Monate eines Jahres wird ein Monatsmittel von Anfangs- und Endbestand gebildet. Die 12 Monatsmittel werden addiert und durch 12 dividiert.",
+		"erlaeuterungen": "Unter Gewaltstraftaten werden Straftatbestände zusammengefasst, welche die vorsätzliche Anwendung von Gewalt gegen Personen beinhalten. Für den Indikator sind dies Tötungsdelikte (Art. 111-113/116), schwere, sowie einfache Körperverletzung (Art. 122-123), Raub (Art. 140) und Vergewaltigung (Art. 190). Die Anzahl pro Einwohner wird anhand der mittleren Wohnbevölkerung berechnet.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_04_00_00_00_311",
@@ -7704,8 +7705,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 5188,
-		"darstellungsart": "Grafik"
+		"id": 5188
 	},
 	{
 		"title": "Besuchte Weiterbildungen und Kurse in den letzten zwölf Monaten",
