@@ -531,7 +531,8 @@
     },
     "labels": {
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "fontSize": 10
       },
       "rotation": -45
     },
@@ -610,7 +611,8 @@
     "labels": {
       "y": 3,
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "fontSize": 10
       },
       "format": "{value:,.0f}"
     },

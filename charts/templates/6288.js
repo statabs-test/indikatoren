@@ -8,7 +8,8 @@
       "labels": {
         "format": "{value:,.0f}",
         "style": {
-          "color": "#000000"
+          color: "#000000",
+          fontSize: 10,
         }
       },
       y: 3,
@@ -27,7 +28,8 @@
       "labels": {
         "format": "{value:,.0f}",
         "style": {
-          "color": "#000000"
+          color: "#000000", 
+          fontSize: 10,
         }
       },
       y: 3,

@@ -22,7 +22,8 @@
     "labels": {
       "format": "{value:,.0f}",
        "style": {
-       "color": "black"
+          color: "black", 
+          fontSize: 10,
         },
     },
     "min": 0,  
@@ -35,7 +36,8 @@
     "labels": {
       "format": "{value:,.1f}",
        "style": {
-       "color": "black"
+         color: "black",
+         fontSize: 10,
         },
     },
     "min": 0,

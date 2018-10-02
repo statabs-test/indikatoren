@@ -4,7 +4,8 @@
     "labels": {
       "format": "{value:,.0f}‰",
       "style": {
-        "color": "#000000"
+        color: "#000000", 
+        fontSize: 10,
       }
     },
     "min": 0,
@@ -23,7 +24,8 @@
     "labels": {
       "format": "{value:,.0f} Fr.",
       "style": {
-        "color": "#000000"
+        color: "#000000",
+        fontSize: 10,
       }
     },
     "min": 0,
