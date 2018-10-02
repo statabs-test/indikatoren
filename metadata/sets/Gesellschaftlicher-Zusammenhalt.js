@@ -874,7 +874,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-10-02T11:38:08.088",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
@@ -883,6 +883,7 @@ var indikatorensetData = [
 		"lesehilfe": "Im Jahr 2017 wurden pro 1000 Einwohner 130,1 Anzeigen gemäss Strafgesetzbuch (StGB) erstattet.",
 		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB), berechnet auf die ständige Wohnbevölkerung am Jahresende.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "03_02_00_00_00_000",
 		"parentId": null,
@@ -895,8 +896,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4866,
-		"darstellungsart": "Grafik"
+		"id": 4866
 	},
 	{
 		"title": "Anzeigen wegen Veruntreuung/Betrug pro 1000 Einwohner",
@@ -910,7 +910,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-10-02T11:38:38.3838",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
@@ -919,6 +919,7 @@ var indikatorensetData = [
 		"lesehilfe": "Im Jahr 2017 wurden auf 1000 Einwohner 6,1 Anzeigen wegen Veruntreuung oder Betrug erstattet.",
 		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Veruntreuung oder Betrug (Art. 138 und 142). Berechnet auf die ständige Wohnbevölkerung am Jahresende.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "03_02_00_00_00_000",
 		"parentId": null,
@@ -931,8 +932,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4867,
-		"darstellungsart": "Grafik"
+		"id": 4867
 	},
 	{
 		"title": "Anzeigen wegen Diebstahl pro 1000 Einwohner",
@@ -946,7 +946,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-10-02T11:39:01.011",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
@@ -955,6 +955,7 @@ var indikatorensetData = [
 		"lesehilfe": "Im Jahr 2017 wurden auf 1000 Einwohner 35,4 Anzeigen wegen Diebstahl erstattet.",
 		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Diebstahl (Art. 139). Berechnet auf die ständige Wohnbevölkerung am Jahresende.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "03_02_00_00_00_000",
 		"parentId": null,
@@ -967,8 +968,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4868,
-		"darstellungsart": "Grafik"
+		"id": 4868
 	},
 	{
 		"title": "Anzeigen wegen Körperverletzung pro 1000 Einwohner",
@@ -982,7 +982,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-10-02T11:39:19.1919",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
@@ -991,6 +991,7 @@ var indikatorensetData = [
 		"lesehilfe": "Im Jahr 2017 wurden auf 1000 Einwohner 2,5 Anzeigen wegen Körperverletzung ersattet.",
 		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Körperverletzung (Art. 122). Berechnet auf die ständige Wohnbevölkerung am Jahresende.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "03_02_00_00_00_000",
 		"parentId": null,
@@ -1003,8 +1004,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4869,
-		"darstellungsart": "Grafik"
+		"id": 4869
 	},
 	{
 		"title": "Engagement in Organisationen und Vereinen",
