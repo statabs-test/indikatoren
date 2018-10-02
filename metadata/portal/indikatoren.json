@@ -6027,10 +6027,9 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Sowohl die Anzahl landwirtschaftlicher Betriebe als auch die Nutzfläche sind im Vergleich zu 1990 tendenziell rückläufig.",
+		"lesehilfe": "Sowohl die Anzahl landwirtschaftlicher Betriebe als auch die Nutzfläche sind seit der Jahrtausendwende tendenziell rückläufig.",
 		"erlaeuterungen": "Die landwirtschaftliche Nutzfläche eines baselstädtischen Betriebes kann auch im Ausland liegen.",
 		"template": "template001",
-		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
@@ -6043,7 +6042,8 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4914
+		"id": 4914,
+		"darstellungsart": "Grafik"
 	},
 	{
 		"title": "Privater Motorisierungsgrad",

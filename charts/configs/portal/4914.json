@@ -249,10 +249,10 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "rotation": -90
     },
-    "tickLength": 0,
-    "tickInterval": 2
+    "tickLength": 0
   },
   "chart": {
     "borderColor": "#fbfbfb",
@@ -331,8 +331,7 @@
           "color": "#000000"
         }
       },
-      "min": 0,
-      "max": 50
+      "min": 0
     },
     {
       "title": {

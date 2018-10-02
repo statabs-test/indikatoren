@@ -11,7 +11,7 @@
       }
     },
     "min": 0,
-    "max": 50
+    //"max": 0
   },
   {
     "title": {
@@ -28,8 +28,11 @@
   }
   ],
   "xAxis": {
-    "tickInterval": 2,
-    "type": "category"
+    //"tickInterval": 2,
+    "type": "category",
+    labels: {
+      rotation: -90
+    }
   },
   "legend": {
     "enabled": true,
