@@ -143,9 +143,7 @@
         },
         "enabled": false
       },
-      "marker": {
-        "enabled": false
-      }
+      "marker": {}
     }
   },
   "title": {

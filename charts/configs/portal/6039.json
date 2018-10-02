@@ -361,9 +361,7 @@
           "fontSize": "10px"
         }
       },
-      "marker": {
-        "enabled": false
-      },
+      "marker": {},
       "pointWidth": 20,
       "stacking": "normal"
     }

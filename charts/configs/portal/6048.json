@@ -119,9 +119,7 @@
           "fontSize": "10px"
         }
       },
-      "marker": {
-        "enabled": false
-      },
+      "marker": {},
       "pointWidth": 30,
       "stacking": "normal"
     }

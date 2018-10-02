@@ -122,6 +122,9 @@
       "index": 1,
       "type": "line",
       "yAxis": 1,
+      "marker": {
+        "enabled": false
+      },
       "data": [
         [
           "1975",
@@ -296,9 +299,7 @@
           "fontSize": "10px"
         }
       },
-      "marker": {
-        "enabled": false
-      }
+      "marker": {}
     }
   },
   "title": {

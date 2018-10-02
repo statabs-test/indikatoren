@@ -97,9 +97,7 @@
         "enabled": true,
         "format": "{y:,.1f}%"
       },
-      "marker": {
-        "enabled": false
-      }
+      "marker": {}
     }
   },
   "title": {

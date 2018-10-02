@@ -461,9 +461,7 @@
           "fontSize": "10px"
         }
       },
-      "marker": {
-        "enabled": false
-      }
+      "marker": {}
     },
     "line": {
       "marker": {

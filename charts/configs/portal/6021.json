@@ -649,9 +649,7 @@
           "fontSize": "10px"
         }
       },
-      "marker": {
-        "enabled": false
-      },
+      "marker": {},
       "stacking": "normal",
       "pointPadding": 0,
       "groupPadding": 0.5

@@ -161,9 +161,7 @@
           "fontSize": "10px"
         }
       },
-      "marker": {
-        "enabled": false
-      },
+      "marker": {},
       "pointPadding": 0,
       "groupPadding": 0.1
     }

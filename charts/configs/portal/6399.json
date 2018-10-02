@@ -995,9 +995,7 @@
           "fontSize": "10px"
         }
       },
-      "marker": {
-        "enabled": false
-      },
+      "marker": {},
       "pointPadding": 100,
       "pointWidth": 10,
       "stacking": "normal"

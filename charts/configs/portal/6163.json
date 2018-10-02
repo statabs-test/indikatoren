@@ -320,9 +320,7 @@
           "fontSize": "10px"
         }
       },
-      "marker": {
-        "enabled": false
-      },
+      "marker": {},
       "pointWidth": 10,
       "stacking": "normal"
     }

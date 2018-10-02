@@ -89,9 +89,7 @@
             return "";
           }
       },
-      "marker": {
-        "enabled": false
-      }
+      "marker": {}
     }
   },
   "title": {
