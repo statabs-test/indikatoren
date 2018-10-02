@@ -221,9 +221,7 @@
           "fontSize": 10
         }
       },
-      "marker": {
-        "enabled": false
-      },
+      "marker": {},
       "pointWidth": 25,
       "stacking": "normal"
     }

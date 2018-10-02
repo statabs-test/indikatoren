@@ -152,9 +152,7 @@
           "fontSize": "10px"
         }
       },
-      "marker": {
-        "enabled": false
-      },
+      "marker": {},
       "stacking": "percent"
     }
   },

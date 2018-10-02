@@ -572,9 +572,7 @@
           "fontSize": "10px"
         }
       },
-      "marker": {
-        "enabled": false
-      },
+      "marker": {},
       "stacking": "normal",
       "groupPadding": 0
     }

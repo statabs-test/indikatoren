@@ -159,9 +159,7 @@
           "fontSize": "10px"
         }
       },
-      "marker": {
-        "enabled": false
-      },
+      "marker": {},
       "pointPadding": 0,
       "itemWidth": 10
     }

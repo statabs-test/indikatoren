@@ -384,9 +384,7 @@
           "fontSize": "10px"
         }
       },
-      "marker": {
-        "enabled": false
-      },
+      "marker": {},
       "pointPadding": 100,
       "pointWidth": 20,
       "stacking": "normal"

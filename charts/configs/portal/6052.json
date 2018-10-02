@@ -216,9 +216,7 @@
           "fontSize": "10px"
         }
       },
-      "marker": {
-        "enabled": false
-      },
+      "marker": {},
       "stacking": null,
       "pointPadding": 0,
       "groupPadding": 0.1

@@ -124,9 +124,7 @@
         },
         "enabled": true
       },
-      "marker": {
-        "enabled": false
-      },
+      "marker": {},
       "stacking": "normal"
     }
   },

@@ -113,9 +113,7 @@
           "fontSize": "10px"
         }
       },
-      "marker": {
-        "enabled": false
-      }
+      "marker": {}
     },
     "column": {
       "colorByPoint": true
