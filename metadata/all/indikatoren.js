@@ -16766,8 +16766,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Anzahl Plätze in Tagesbetreuungsangeboten",
-		"subtitle": "",
-		"kuerzel": "I.13.2.06210",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.13.2.6210",
 		"kuerzelKunde": "4.4",
 		"description": "Anzahl Plätze in Tagesbetreuungsangeboten",
 		"thema": "13 Soziale Sicherheit",
@@ -16776,7 +16776,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16785,6 +16785,7 @@ var indikatoren = [
 		"lesehilfe": "Das Angebot an Tagesbetreuungsplätzen wurde seit 2016 kontinuierlich ausgebaut. 2016 stehen insgesamt 4 161 Plätze zur Verfügung, davon befinden sich 90 Plätze in Tagesfamilien.",
 		"erlaeuterungen": "Stichwoche im Oktober.",
 		"template": "line001",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_004",
 		"parentId": null,
