@@ -2,9 +2,6 @@
   "series": [
     {
       "color": "#008AC3",
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           1995,
@@ -89,6 +86,10 @@
         [
           2015,
           170
+        ],
+        [
+          2016,
+          176
         ]
       ],
       "name": "Nominales BIP BS"
@@ -96,9 +97,6 @@
     {
       "color": "#007A2F",
       "visible": true,
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           1995,
@@ -183,6 +181,10 @@
         [
           2015,
           147
+        ],
+        [
+          2016,
+          159
         ]
       ],
       "name": "Staatsausgaben BS"
@@ -209,8 +211,8 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 428,
-    "spacingBottom": 65,
+    "height": 415,
+    "spacingBottom": 55,
     "style": {
       "fontFamily": "Arial"
     },
@@ -284,9 +286,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -35
+      "y": -25
     },
-    "text": "Quelle: Eidgenössische Finanzverwaltung;\u003Cbr\u002F\u003EBAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: BAK Economics;\u003Cbr\u002F\u003EEidgenössische Finanzverwaltung."
   },
   "legend": {
     "enabled": true,

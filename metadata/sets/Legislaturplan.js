@@ -478,8 +478,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Steuereinnahmen aus Quellensteuer",
-		"subtitle": "in Franken",
-		"kuerzel": "I.18.2.06128",
+		"subtitle": "in Franken, Basel-Stadt",
+		"kuerzel": "I.18.2.6128",
 		"kuerzelKunde": "1.4",
 		"description": "Steuereinnahmen aus Quellensteuer",
 		"thema": "18 Öffentliche Finanzen",
@@ -488,7 +488,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
@@ -497,6 +497,7 @@ var indikatorensetData = [
 		"lesehilfe": "Der Ertrag aus der Quellenbesteuerung steigt seit vielen Jahren kontinuierlich. Zuletzt lag er bei über 400 Mio. Franken.",
 		"erlaeuterungen": "Der Ertrag aus der Quellenbesteuerung ist hier gemäss Steuerstatistik Basel-Stadt nach Steuerjahr dargestellt. Er unterscheidet sich vom Ertrag nach Kalenderjahr, wie er im Jahresbericht des Kantons Basel-Stadt dargestellt ist. Enthalten ist auch der Anteil, der an den Bund fliesst.",
 		"template": "line001",
+		"printformat": "",
 		"orderKey": "01_00_00_00_00_004",
 		"parentId": null,
 		"children": [
@@ -2240,7 +2241,7 @@ var indikatorensetData = [
 	{
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
 		"subtitle": "in Franken; Kapital und Reserven: 2 Mio. Fr.; Reingewinn: 400 000 Fr.",
-		"kuerzel": "I.18.2.06201",
+		"kuerzel": "I.18.2.6201",
 		"kuerzelKunde": "2.11b",
 		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
 		"thema": "18 Öffentliche Finanzen",
@@ -2249,17 +2250,19 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Werte für Basel-Stadt sind in den letzten 4 Jahren konstant, nachdem die Steuerbelastung zuvor leicht zurückgegangen ist. Zusammen mit Genf liegt Basel an der Spitze der verglichenen Kantonshauptorte.",
+		"lesehilfe": "Die Werte für Basel-Stadt sind in den letzten Jahren konstant, nachdem die Steuerbelastung zuvor leicht zurückgegangen ist. Zusammen mit Genf liegt Basel an der Spitze der verglichenen Kantonshauptorte.",
 		"erlaeuterungen": "Dargestellt ist die Steuerbelastung von Aktiengesellschaften (Handels-, Industrie, Bank-AG, ohne Beteiligungen), mit einem Kapital und Reserven von 2 Mio. Franken und einem Reingewinn von 400 000 Franken; Kanton- und Gemeindesteuer, einschliesslich Kirchensteuer. Reingewinn vor Abzug der im Geschäftsjahr bezahlten Steuern. In Genf ohne Gewerbesteuer.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "02_00_00_00_00_012",
-		"parentId": 5107,
+		"parentId": null,
 		"children": [
 			"6333"
 		],
@@ -2270,13 +2273,12 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6201,
-		"darstellungsart": "Grafik"
+		"id": 6201
 	},
 	{
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
 		"subtitle": "in Franken; Kapital und Reserven: 2 Mio. Fr.; Reingewinn: 1 000 000 Fr.",
-		"kuerzel": "I.18.2.06202",
+		"kuerzel": "I.18.2.6202",
 		"kuerzelKunde": "2.11c",
 		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
 		"thema": "18 Öffentliche Finanzen",
@@ -2285,17 +2287,18 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Werte für Basel sind in den letzten 4 Jahren konstant, nachdem Rückgang der Steuerbelastung stattgefunden hat. Die Steuerbelastung durch Reingewinn- und Kapitalsteuern ist in Basel 2016 nach Genf am zweithöchsten unter den verglichenen Kantonshauptorten.",
+		"lesehilfe": "Die Werte für Basel sind in den letzten Jahren konstant, nachdem ein Rückgang der Steuerbelastung stattgefunden hat. Die Steuerbelastung durch Reingewinn- und Kapitalsteuern ist in Basel 2017 nach Genf am zweithöchsten unter den verglichenen Kantonshauptorten.",
 		"erlaeuterungen": "Dargestellt ist die Steuerbelastung von Aktiengesellschaften (Handels-, Industrie, Bank-AG, ohne Beteiligungen), mit einem Kapital und Reserven von 2 Mio. Franken und einem Reingewinn von 1 Mio. Franken; Kanton- und Gemeindesteuer, einschliesslich Kirchensteuer. Reingewinn vor Abzug der im Geschäftsjahr bezahlten Steuern. In Genf ohne Gewerbesteuer.",
 		"template": "line001",
+		"printformat": "",
 		"orderKey": "02_00_00_00_00_013",
-		"parentId": 5108,
+		"parentId": null,
 		"children": [
 			"6334"
 		],
@@ -2312,7 +2315,7 @@ var indikatorensetData = [
 	{
 		"title": "Kantonales BIP im Vergleich zu den Staatsausgaben",
 		"subtitle": "indexiert (1995 = 100)",
-		"kuerzel": "I.18.1.06205",
+		"kuerzel": "I.18.1.6205",
 		"kuerzelKunde": "2.9",
 		"description": "Kantonales BIP im Vergleich zu den Staatsausgaben",
 		"thema": "18 Öffentliche Finanzen",
@@ -2321,15 +2324,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das kantonale nominale Bruttoinlandprodukt stieg von 1999 bis 2008 relativ stark, danach war das Wachstum moderat. Die Staatsausgaben in Basel-Stadt erhöhten sich vor allem in den letzten Jahren überdurchschnittlich.",
+		"lesehilfe": "Das kantonale nominale Bruttoinlandprodukt stieg von 1999 bis 2008 relativ stark, danach war das Wachstum moderat. Die Staatsausgaben in Basel-Stadt erhöhten sich vor allem in den letzten Jahren etwas stärker als das Bruttoinlandprodukt.",
 		"erlaeuterungen": "Indexierte Werte, 1995 = 100. Nominales BIP: Zu laufenden Preisen bewertete Gesamtproduktion von Gütern und Dienstleistungen einer Volkswirtschaft.",
 		"template": "line001",
+		"printformat": "",
 		"orderKey": "02_00_00_00_00_009",
 		"parentId": null,
 		"children": [
@@ -2337,8 +2341,8 @@ var indikatorensetData = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Eidgenössische Finanzverwaltung",
-			"BAK Economics"
+			"BAK Economics",
+			"Eidgenössische Finanzverwaltung"
 		],
 		"externalLinks": [
 			""
