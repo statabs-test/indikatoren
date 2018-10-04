@@ -552,7 +552,7 @@ var indikatorensetData = [
 	{
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
 		"subtitle": "in Franken; Kapital und Reserven: 2 Mio. Fr.; Reingewinn: 80 000 Fr.",
-		"kuerzel": "I.18.2.06130",
+		"kuerzel": "I.18.2.6130",
 		"kuerzelKunde": "2.11a",
 		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
 		"thema": "18 Öffentliche Finanzen",
@@ -561,7 +561,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -570,8 +570,9 @@ var indikatorensetData = [
 		"lesehilfe": "Die Werte für Basel sind in den letzten Jahren relativ konstant. Seit 2009 liegt die Steuerbelastung in Basel höher als in den anderen dargestellten Kantonshauptorten.",
 		"erlaeuterungen": "Dargestellt ist die Steuerbelastung von Aktiengesellschaften (Handels-, Industrie, Bank-AG, ohne Beteiligungen), mit einem Kapital und Reserven von 2 Mio. Franken und einem Reingewinn von 80 000 Franken; Kanton- und Gemeindesteuer, einschliesslich Kirchensteuer. Reingewinn vor Abzug der im Geschäftsjahr bezahlten Steuern. In Genf ohne Gewerbesteuer.",
 		"template": "line001",
+		"printformat": "",
 		"orderKey": "02_00_00_00_00_011",
-		"parentId": 3169,
+		"parentId": null,
 		"children": [
 			"6287"
 		],
