@@ -15,17 +15,17 @@
   },
  "series": [
     {
-		"color": "#DC440E",
+		"color": "#B00000",
     	"legendIndex": 2
     }, /* rot */
+    {
+		"color": "#662673",
+    	"legendIndex": 2
+    }, /* violett */
     {
 		"color": "#008AC3",
     	"legendIndex": 2
     }, /* blau */
-    {
-		"color": "#3C3C3C",
-    	"legendIndex": 2
-    }, /* schwarz */
     {
     	"color": "#007A2F", 
     	"legendIndex": 0
@@ -33,6 +33,9 @@
     {
     	"color": "#FABD24", /* dunkelgelb */
     	"legendIndex": 1,
+    	"marker": {
+        	"enabled": false
+    	}
     },
   ],
    "legend": {
@@ -51,10 +54,7 @@
         "enabled": false,
         "symbol": "circle",
       } 
-    },
-    "chart": {  
-    	marginRight: 18,
-   }
+    }
   }
 }
 }());

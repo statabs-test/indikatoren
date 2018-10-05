@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#DC440E",
+      "color": "#B00000",
       "legendIndex": 2,
       "data": [
         [
@@ -56,7 +56,7 @@
       "name": "Weiterbildungsschule"
     },
     {
-      "color": "#008AC3",
+      "color": "#662673",
       "legendIndex": 2,
       "data": [
         [
@@ -111,7 +111,7 @@
       "name": "Spezialangebote WBS"
     },
     {
-      "color": "#3C3C3C",
+      "color": "#008AC3",
       "legendIndex": 2,
       "data": [
         [
@@ -223,6 +223,9 @@
     {
       "color": "#FABD24",
       "legendIndex": 1,
+      "marker": {
+        "enabled": false
+      },
       "data": [
         [
           2007,
@@ -396,9 +399,6 @@
         "enabled": false,
         "symbol": "circle"
       }
-    },
-    "chart": {
-      "marginRight": 18
     }
   },
   "customFunctions": {
