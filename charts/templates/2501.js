@@ -17,8 +17,8 @@
   "series": [
   {"color": "#B00000"}, /* Schweiz = dunkelrot */
   {"color": "#6F6F6F"}, /* BS = dunkelgrau */
-  {"color": "#256370",
-  	"visible": false}, /* GE = dunkelblau */
+  {"color": "#FABD24",
+  	"visible": false}, /* GE = gelb */
   {"color": "#71a3b5",
   	"visible": false}  /* ZH = hellblau */
   ],
