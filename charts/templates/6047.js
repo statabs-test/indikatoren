@@ -22,7 +22,7 @@
     },
     "yAxis": {
       min: null,
-      max: 40,
+      //max: 40,
       "labels": {
         "format": "{value}%"
       }    
