@@ -2354,7 +2354,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
-		"subtitle": "nach Geschlecht und Schultyp, Basel-Stadt",
+		"subtitle": "nach Schultyp, Basel-Stadt",
 		"kuerzel": "I.15.7.6206",
 		"kuerzelKunde": "3.1a",
 		"description": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",

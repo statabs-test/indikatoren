@@ -1,6 +1,7 @@
 (function(){
     return {
   "xAxis": {
+    "min": 2007,
     "tickInterval": 1,
   },
   "yAxis": {
