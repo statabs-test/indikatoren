@@ -47,9 +47,13 @@
         [
           2016,
           1656
+        ],
+        [
+          2017,
+          1681
         ]
       ],
-      "name": "Subv. Tagesheime"
+      "name": "Subventionierte Tagesheime"
     },
     {
       "color": "#4f81bd",
@@ -98,9 +102,13 @@
         [
           2016,
           1949
+        ],
+        [
+          2017,
+          1893
         ]
       ],
-      "name": "Nicht subv. Tagesheime"
+      "name": "Nicht subventionierte Tagesheime"
     },
     {
       "color": "#662673",
@@ -149,6 +157,10 @@
         [
           2016,
           466
+        ],
+        [
+          2017,
+          456
         ]
       ],
       "name": "Firmen-Tagesheime"
@@ -200,6 +212,10 @@
         [
           2016,
           90
+        ],
+        [
+          2017,
+          85
         ]
       ],
       "name": "Tagesfamilien"
@@ -251,6 +267,10 @@
         [
           2016,
           4161
+        ],
+        [
+          2017,
+          4115
         ]
       ],
       "name": "Total"
