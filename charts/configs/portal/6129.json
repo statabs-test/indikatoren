@@ -128,9 +128,10 @@
     },
     "labels": {
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "fontSize": "9px"
       },
-      "rotation": 45
+      "rotation": -45
     },
     "tickLength": 0
   },
@@ -179,8 +180,8 @@
         }
       },
       "marker": {},
-      "pointPadding": 1,
-      "pointWidth": 40
+      "pointPadding": 0.1,
+      "pointWidth": 10
     }
   },
   "title": {

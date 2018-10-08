@@ -1321,7 +1321,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-02-16T13:43:21.2121",
+		"aktualisierungsdatum": "2018-10-08T11:59:14.1414",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1330,6 +1330,7 @@ var indikatoren = [
 		"lesehilfe": "Die Jugendlichen der Abschlussklassen der Sekundarstufe I werden jeweils Ende Schuljahr schriftlich über ihren nächsten Ausbildungsschritt befragt. Den Mädchen fällt es dabei leichter, eine Anschlusslösung zu finden. Nachdem die Jugendlichen zwischen 2015 und 2017 mehr Mühe bekundeten, eine für sie passende Anschlusslösung zu finden, deuten die Werte 2018 eine gewisse Entspannung an. Unruhiger Kurvenverlauf aufgrund der vergleichsweise geringen Zahl an Beobachtungen.",
 		"erlaeuterungen": "Datengrundlage bildet die jährliche Befragung der Schulabgängerinnen und Schulabgänger durch die Bildungsstatistikstelle des Bereichs Mittelschulen und Berufsbildung im Basler Erziehungsdepartement. Seit 2018 ersetzen die Werte der Sekundarschule diejenigen der Weiterbildungsschule.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_002",
@@ -1344,8 +1345,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 3051,
-		"darstellungsart": "Grafik"
+		"id": 3051
 	},
 	{
 		"title": "Durch BaselArea unterstützte internationale Ansiedlungen",
@@ -10523,7 +10523,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-18T16:01:08.088",
+		"aktualisierungsdatum": "2018-10-08T12:16:31.3131",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Existenzsicherung",
 		"stufe3": "",
@@ -10532,6 +10532,7 @@ var indikatoren = [
 		"lesehilfe": "2,3% der baselstädtischen Haushalte erhalten Ende 2017 Familienmietzinsbeiträge. In 14,7% der Haushalte bezieht mindestens eine Person reine Prämienverbilligung.",
 		"erlaeuterungen": "FAMI: Familienmietzinsbeiträge<br>Anteil Haushalte mit Prämienverbilligung: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
 		"orderKey": "03_03_00_00_00_307",
@@ -10545,8 +10546,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 5183,
-		"darstellungsart": "Grafik"
+		"id": 5183
 	},
 	{
 		"title": "Sozialhilfequote nach Altersgruppe",
@@ -14706,7 +14706,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-10-08T12:05:40.4040",
 		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
@@ -14715,6 +14715,7 @@ var indikatoren = [
 		"lesehilfe": "Der Ertrag aus der Quellenbesteuerung steigt seit vielen Jahren kontinuierlich. Zuletzt lag er bei über 400 Mio. Franken.",
 		"erlaeuterungen": "Der Ertrag aus der Quellenbesteuerung ist hier gemäss Steuerstatistik Basel-Stadt nach Steuerjahr dargestellt. Er unterscheidet sich vom Ertrag nach Kalenderjahr, wie er im Jahresbericht des Kantons Basel-Stadt dargestellt ist. Enthalten ist auch der Anteil, der an den Bund fliesst.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_004",
@@ -14729,8 +14730,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 6128,
-		"darstellungsart": "Grafik"
+		"id": 6128
 	},
 	{
 		"title": "NFA-Ressourcenindex",
@@ -14782,7 +14782,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-10-08T12:10:44.4444",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -14791,6 +14791,7 @@ var indikatoren = [
 		"lesehilfe": "Die Werte für Basel sind in den letzten Jahren relativ konstant. Seit 2009 liegt die Steuerbelastung in Basel höher als in den anderen dargestellten Kantonshauptorten.",
 		"erlaeuterungen": "Dargestellt ist die Steuerbelastung von Aktiengesellschaften (Handels-, Industrie, Bank-AG, ohne Beteiligungen), mit einem Kapital und Reserven von 2 Mio. Franken und einem Reingewinn von 80 000 Franken; Kanton- und Gemeindesteuer, einschliesslich Kirchensteuer. Reingewinn vor Abzug der im Geschäftsjahr bezahlten Steuern. In Genf ohne Gewerbesteuer.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_011",
@@ -14805,8 +14806,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 6130,
-		"darstellungsart": "Grafik"
+		"id": 6130
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -16517,7 +16517,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-10-08T12:06:36.3636",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16555,7 +16555,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-10-08T12:10:00.000",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16564,6 +16564,7 @@ var indikatoren = [
 		"lesehilfe": "Die Werte für Basel sind in den letzten Jahren konstant, nachdem ein Rückgang der Steuerbelastung stattgefunden hat. Die Steuerbelastung durch Reingewinn- und Kapitalsteuern ist in Basel 2017 nach Genf am zweithöchsten unter den verglichenen Kantonshauptorten.",
 		"erlaeuterungen": "Dargestellt ist die Steuerbelastung von Aktiengesellschaften (Handels-, Industrie, Bank-AG, ohne Beteiligungen), mit einem Kapital und Reserven von 2 Mio. Franken und einem Reingewinn von 1 Mio. Franken; Kanton- und Gemeindesteuer, einschliesslich Kirchensteuer. Reingewinn vor Abzug der im Geschäftsjahr bezahlten Steuern. In Genf ohne Gewerbesteuer.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_013",
@@ -16578,8 +16579,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 6202,
-		"darstellungsart": "Grafik"
+		"id": 6202
 	},
 	{
 		"title": "Anteil Haushalte mit FAMI",
@@ -16665,7 +16665,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-10-08T12:08:28.2828",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16674,6 +16674,7 @@ var indikatoren = [
 		"lesehilfe": "Das kantonale nominale Bruttoinlandprodukt stieg von 1999 bis 2008 relativ stark, danach war das Wachstum moderat. Die Staatsausgaben in Basel-Stadt erhöhten sich vor allem in den letzten Jahren etwas stärker als das Bruttoinlandprodukt.",
 		"erlaeuterungen": "Indexierte Werte, 1995 = 100. Nominales BIP: Zu laufenden Preisen bewertete Gesamtproduktion von Gütern und Dienstleistungen einer Volkswirtschaft.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_009",
@@ -16689,8 +16690,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 6205,
-		"darstellungsart": "Grafik"
+		"id": 6205
 	},
 	{
 		"title": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
@@ -16779,15 +16779,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-10-08T12:12:38.3838",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Angebot an Tagesbetreuungsplätzen wurde seit 2016 kontinuierlich ausgebaut. 2016 stehen insgesamt 4 161 Plätze zur Verfügung, davon befinden sich 90 Plätze in Tagesfamilien.",
+		"lesehilfe": "Das Angebot an Tagesbetreuungsplätzen wurde von 2006 bis 2016 kontinuierlich ausgebaut, bevor 2017 ein leichter Rückgang erfolgte. 2017 stehen insgesamt 4 115 Plätze zur Verfügung, davon befinden sich 85 Plätze in Tagesfamilien.",
 		"erlaeuterungen": "Stichwoche im Oktober.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_004",
@@ -16802,8 +16803,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 6210,
-		"darstellungsart": "Grafik"
+		"id": 6210
 	},
 	{
 		"title": "Nettoschuldenquote und Nettoschulden pro Kopf",
