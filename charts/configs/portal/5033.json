@@ -176,7 +176,7 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value}"
+      "format": "{value:,.1f}"
     },
     "min": 0,
     "max": 0.5
