@@ -1013,15 +1013,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-10T15:24:29.2929",
+		"aktualisierungsdatum": "2018-10-08T09:26:48.4848",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2017 geben 25,5% der Jugendlichen an, sich in einer Organisation, in einem Verein oder Ähnlichem zu engagieren, exakt gleich viele wie in der Befragung von 2013. 2009 lag dieser Wert bei 12,0%.",
+		"lesehilfe": "2017 geben 25,5% der Jugendlichen an, sich in einer Organisation, in einem Verein oder ähnlichem zu engagieren, exakt gleich viele wie in der Befragung von 2013. 2009 lag dieser Wert bei 12,0%.",
 		"erlaeuterungen": "",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "03_03_00_00_00_000",
 		"parentId": null,
@@ -1033,8 +1034,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4870,
-		"darstellungsart": "Grafik"
+		"id": 4870
 	},
 	{
 		"title": "Wahlbeteiligung an National- und Grossratswahlen",
