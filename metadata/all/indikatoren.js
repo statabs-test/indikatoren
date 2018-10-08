@@ -828,8 +828,9 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Das reale Wertschöpfungswachstum in der Branche Life Sciences war im Jahr 2017 in Basel-Stadt sowie im Kanton Genf und in der Gesamtschweiz stärker als in den anderen Branchen (Basel-Stadt: +4,6%). Auch die chemische Industrie in Basel-Stadt verzeichnete eine überduchschnittliche Wachstumsrate von 2,6%. In der Bauwirtschaft entwickelte sich die reale Wertschöpfung 2017 in Basel-Stadt hingegen rückläufig (-0,5%).",
-		"erlaeuterungen": "Die Entwicklung der realen Wertschöpfung zeigt, ob die wirtschaftliche Leistung einer Branche grösser oder kleiner wird. Es sagt aber nichst über die Bedeutung einer Branche in einer Region.",
+		"erlaeuterungen": "Die Entwicklung der realen Wertschöpfung zeigt, ob die wirtschaftliche Leistung einer Branche grösser oder kleiner wird. Damit zeigt sie auch, ob eine Branche erfolgreich ist. Dieser Indikator sagt aber nichts über die Bedeutung einer Branche in einer Region aus.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_002",
@@ -844,8 +845,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 2501,
-		"darstellungsart": "Grafik"
+		"id": 2501
 	},
 	{
 		"title": "Beschäftigung in Industrie und Baugewerbe",
@@ -1321,7 +1321,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-02-16T13:43:21.2121",
+		"aktualisierungsdatum": "2018-10-08T11:59:14.1414",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1330,6 +1330,7 @@ var indikatoren = [
 		"lesehilfe": "Die Jugendlichen der Abschlussklassen der Sekundarstufe I werden jeweils Ende Schuljahr schriftlich über ihren nächsten Ausbildungsschritt befragt. Den Mädchen fällt es dabei leichter, eine Anschlusslösung zu finden. Nachdem die Jugendlichen zwischen 2015 und 2017 mehr Mühe bekundeten, eine für sie passende Anschlusslösung zu finden, deuten die Werte 2018 eine gewisse Entspannung an. Unruhiger Kurvenverlauf aufgrund der vergleichsweise geringen Zahl an Beobachtungen.",
 		"erlaeuterungen": "Datengrundlage bildet die jährliche Befragung der Schulabgängerinnen und Schulabgänger durch die Bildungsstatistikstelle des Bereichs Mittelschulen und Berufsbildung im Basler Erziehungsdepartement. Seit 2018 ersetzen die Werte der Sekundarschule diejenigen der Weiterbildungsschule.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_002",
@@ -1344,8 +1345,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 3051,
-		"darstellungsart": "Grafik"
+		"id": 3051
 	},
 	{
 		"title": "Durch BaselArea unterstützte internationale Ansiedlungen",
@@ -9042,8 +9042,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Transnationale Patentanmeldungen pro 1000 Einwohner",
-		"subtitle": "nach ausgewählten Wirtschaftsbranchen;  Stand 2010 bis 2013",
-		"kuerzel": "I.04.1.05033",
+		"subtitle": "nach ausgewählten Wirtschaftsbranchen, 2010 bis 2013",
+		"kuerzel": "I.04.1.5033",
 		"kuerzelKunde": "3.6",
 		"description": "Transnationale Patentanmeldungen pro 1000 Einwohner",
 		"thema": "04 Volkswirtschaft",
@@ -9058,9 +9058,11 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Es werden die Patentanmeldungen pro Einwohner im Mittel über mehrere Jahre gezeigt. In Basel-Stadt werden am meisten Patente in der Pharmazeutischen Industrie angemeldet.",
-		"erlaeuterungen": "",
+		"lesehilfe": "In Basel-Stadt werden am meisten Patente in der Pharmazeutischen Industrie angemeldet. Im Kanton Zürich werden vor allem in der Branche Elektronik, Optik und Maschinenbau Patente angemeldet.",
+		"erlaeuterungen": "Die transnationalen Patentanmeldungen bestehen aus Patenten, die von Forschenden am European Patent Office (EPO) oder über das Patent Cooperation Treaty (PCT)-Verfahren (gleichzeitige Patentanmeldung bei einer Vielzahl von nationalen Patentämtern) angemeldet wurden. Die über das PCT-Verfahren zum EPO gelangenden Patentanmeldungen werden nur einmal gezählt. Die Regionalisierung der Patentdaten erfolgt nach der Wohnadresse der beteiligten Forscher und wird von der OECD durchgeführt (REGPAT database). Die Patentanmeldungen sind pro 1000 Einwohner im Mittel über mehrer Jahre abgebildet.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_007",
 		"parentId": null,
@@ -9074,8 +9076,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 5033,
-		"darstellungsart": "Grafik"
+		"id": 5033
 	},
 	{
 		"title": "Anzahl Neugründungen in Basel-Stadt",
@@ -10523,7 +10524,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-18T16:01:08.088",
+		"aktualisierungsdatum": "2018-10-08T12:16:31.3131",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Existenzsicherung",
 		"stufe3": "",
@@ -10532,6 +10533,7 @@ var indikatoren = [
 		"lesehilfe": "2,3% der baselstädtischen Haushalte erhalten Ende 2017 Familienmietzinsbeiträge. In 14,7% der Haushalte bezieht mindestens eine Person reine Prämienverbilligung.",
 		"erlaeuterungen": "FAMI: Familienmietzinsbeiträge<br>Anteil Haushalte mit Prämienverbilligung: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
 		"orderKey": "03_03_00_00_00_307",
@@ -10545,8 +10547,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 5183,
-		"darstellungsart": "Grafik"
+		"id": 5183
 	},
 	{
 		"title": "Sozialhilfequote nach Altersgruppe",
@@ -14601,6 +14602,7 @@ var indikatoren = [
 		"lesehilfe": "Das Bruttoinlandprodukt pro Kopf ist in Basel-Stadt seit den 1990er-Jahren stark gestiegen. Seit 2007 blieben die Werte in den Kantonen Basel-Stadt, Genf und Zürich relativ konstant.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_001",
@@ -14616,8 +14618,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 6124,
-		"darstellungsart": "Grafik"
+		"id": 6124
 	},
 	{
 		"title": "Kantonaler Wettbewerbsindikator (KWI)",
@@ -14706,7 +14707,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-10-08T12:05:40.4040",
 		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
@@ -14715,6 +14716,7 @@ var indikatoren = [
 		"lesehilfe": "Der Ertrag aus der Quellenbesteuerung steigt seit vielen Jahren kontinuierlich. Zuletzt lag er bei über 400 Mio. Franken.",
 		"erlaeuterungen": "Der Ertrag aus der Quellenbesteuerung ist hier gemäss Steuerstatistik Basel-Stadt nach Steuerjahr dargestellt. Er unterscheidet sich vom Ertrag nach Kalenderjahr, wie er im Jahresbericht des Kantons Basel-Stadt dargestellt ist. Enthalten ist auch der Anteil, der an den Bund fliesst.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_004",
@@ -14729,8 +14731,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 6128,
-		"darstellungsart": "Grafik"
+		"id": 6128
 	},
 	{
 		"title": "NFA-Ressourcenindex",
@@ -14782,7 +14783,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-10-08T12:10:44.4444",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -14791,6 +14792,7 @@ var indikatoren = [
 		"lesehilfe": "Die Werte für Basel sind in den letzten Jahren relativ konstant. Seit 2009 liegt die Steuerbelastung in Basel höher als in den anderen dargestellten Kantonshauptorten.",
 		"erlaeuterungen": "Dargestellt ist die Steuerbelastung von Aktiengesellschaften (Handels-, Industrie, Bank-AG, ohne Beteiligungen), mit einem Kapital und Reserven von 2 Mio. Franken und einem Reingewinn von 80 000 Franken; Kanton- und Gemeindesteuer, einschliesslich Kirchensteuer. Reingewinn vor Abzug der im Geschäftsjahr bezahlten Steuern. In Genf ohne Gewerbesteuer.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_011",
@@ -14805,8 +14807,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 6130,
-		"darstellungsart": "Grafik"
+		"id": 6130
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -16517,7 +16518,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-10-08T12:06:36.3636",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16555,7 +16556,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-10-08T12:10:00.000",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16564,6 +16565,7 @@ var indikatoren = [
 		"lesehilfe": "Die Werte für Basel sind in den letzten Jahren konstant, nachdem ein Rückgang der Steuerbelastung stattgefunden hat. Die Steuerbelastung durch Reingewinn- und Kapitalsteuern ist in Basel 2017 nach Genf am zweithöchsten unter den verglichenen Kantonshauptorten.",
 		"erlaeuterungen": "Dargestellt ist die Steuerbelastung von Aktiengesellschaften (Handels-, Industrie, Bank-AG, ohne Beteiligungen), mit einem Kapital und Reserven von 2 Mio. Franken und einem Reingewinn von 1 Mio. Franken; Kanton- und Gemeindesteuer, einschliesslich Kirchensteuer. Reingewinn vor Abzug der im Geschäftsjahr bezahlten Steuern. In Genf ohne Gewerbesteuer.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_013",
@@ -16578,8 +16580,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 6202,
-		"darstellungsart": "Grafik"
+		"id": 6202
 	},
 	{
 		"title": "Anteil Haushalte mit FAMI",
@@ -16665,7 +16666,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-10-08T12:08:28.2828",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16674,6 +16675,7 @@ var indikatoren = [
 		"lesehilfe": "Das kantonale nominale Bruttoinlandprodukt stieg von 1999 bis 2008 relativ stark, danach war das Wachstum moderat. Die Staatsausgaben in Basel-Stadt erhöhten sich vor allem in den letzten Jahren etwas stärker als das Bruttoinlandprodukt.",
 		"erlaeuterungen": "Indexierte Werte, 1995 = 100. Nominales BIP: Zu laufenden Preisen bewertete Gesamtproduktion von Gütern und Dienstleistungen einer Volkswirtschaft.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_009",
@@ -16689,8 +16691,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 6205,
-		"darstellungsart": "Grafik"
+		"id": 6205
 	},
 	{
 		"title": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
@@ -16779,15 +16780,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-10-08T12:12:38.3838",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Angebot an Tagesbetreuungsplätzen wurde seit 2016 kontinuierlich ausgebaut. 2016 stehen insgesamt 4 161 Plätze zur Verfügung, davon befinden sich 90 Plätze in Tagesfamilien.",
+		"lesehilfe": "Das Angebot an Tagesbetreuungsplätzen wurde von 2006 bis 2016 kontinuierlich ausgebaut, bevor 2017 ein leichter Rückgang erfolgte. 2017 stehen insgesamt 4 115 Plätze zur Verfügung, davon befinden sich 85 Plätze in Tagesfamilien.",
 		"erlaeuterungen": "Stichwoche im Oktober.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_004",
@@ -16802,8 +16804,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 6210,
-		"darstellungsart": "Grafik"
+		"id": 6210
 	},
 	{
 		"title": "Nettoschuldenquote und Nettoschulden pro Kopf",

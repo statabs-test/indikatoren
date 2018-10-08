@@ -99,7 +99,7 @@
           173368.609995379
         ]
       ],
-      "name": "Kanton Basel-Stadt"
+      "name": "Basel-Stadt"
     },
     {
       "color": "#B00000",
@@ -201,7 +201,7 @@
           97895.703404282
         ]
       ],
-      "name": "Kanton Genf"
+      "name": "Genf"
     },
     {
       "color": "#4f81bd",
@@ -303,7 +303,7 @@
           96630.4105505036
         ]
       ],
-      "name": "Kanton Zürich"
+      "name": "Zürich"
     }
   ],
   "chart": {

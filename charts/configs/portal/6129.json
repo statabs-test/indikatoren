@@ -128,7 +128,8 @@
     },
     "labels": {
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "fontSize": "9px"
       },
       "rotation": -90
     },

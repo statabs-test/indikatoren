@@ -633,7 +633,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-18T16:01:08.088",
+		"aktualisierungsdatum": "2018-10-08T12:16:31.3131",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Existenzsicherung",
 		"stufe3": "",
@@ -642,6 +642,7 @@ var indikatorensetData = [
 		"lesehilfe": "2,3% der baselstädtischen Haushalte erhalten Ende 2017 Familienmietzinsbeiträge. In 14,7% der Haushalte bezieht mindestens eine Person reine Prämienverbilligung.",
 		"erlaeuterungen": "FAMI: Familienmietzinsbeiträge<br>Anteil Haushalte mit Prämienverbilligung: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "03_03_00_00_00_307",
 		"parentId": 6181,
@@ -654,8 +655,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5183,
-		"darstellungsart": "Grafik"
+		"id": 5183
 	},
 	{
 		"title": "Sozialhilfequote nach Altersgruppe",
