@@ -828,8 +828,9 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Das reale Wertschöpfungswachstum in der Branche Life Sciences war im Jahr 2017 in Basel-Stadt sowie im Kanton Genf und in der Gesamtschweiz stärker als in den anderen Branchen (Basel-Stadt: +4,6%). Auch die chemische Industrie in Basel-Stadt verzeichnete eine überduchschnittliche Wachstumsrate von 2,6%. In der Bauwirtschaft entwickelte sich die reale Wertschöpfung 2017 in Basel-Stadt hingegen rückläufig (-0,5%).",
-		"erlaeuterungen": "Die Entwicklung der realen Wertschöpfung zeigt, ob die wirtschaftliche Leistung einer Branche grösser oder kleiner wird. Es sagt aber nichst über die Bedeutung einer Branche in einer Region.",
+		"erlaeuterungen": "Die Entwicklung der realen Wertschöpfung zeigt, ob die wirtschaftliche Leistung einer Branche grösser oder kleiner wird. Damit zeigt sie auch, ob eine Branche erfolgreich ist. Dieser Indikator sagt aber nichts über die Bedeutung einer Branche in einer Region aus.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_002",
@@ -844,8 +845,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 2501,
-		"darstellungsart": "Grafik"
+		"id": 2501
 	},
 	{
 		"title": "Beschäftigung in Industrie und Baugewerbe",
@@ -9042,8 +9042,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Transnationale Patentanmeldungen pro 1000 Einwohner",
-		"subtitle": "nach ausgewählten Wirtschaftsbranchen;  Stand 2010 bis 2013",
-		"kuerzel": "I.04.1.05033",
+		"subtitle": "nach ausgewählten Wirtschaftsbranchen, 2010 bis 2013",
+		"kuerzel": "I.04.1.5033",
 		"kuerzelKunde": "3.6",
 		"description": "Transnationale Patentanmeldungen pro 1000 Einwohner",
 		"thema": "04 Volkswirtschaft",
@@ -9058,9 +9058,11 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Es werden die Patentanmeldungen pro Einwohner im Mittel über mehrere Jahre gezeigt. In Basel-Stadt werden am meisten Patente in der Pharmazeutischen Industrie angemeldet.",
-		"erlaeuterungen": "",
+		"lesehilfe": "In Basel-Stadt werden am meisten Patente in der Pharmazeutischen Industrie angemeldet. Im Kanton Zürich werden vor allem in der Branche Elektronik, Optik und Maschinenbau Patente angemeldet.",
+		"erlaeuterungen": "Die transnationalen Patentanmeldungen bestehen aus Patenten, die von Forschenden am European Patent Office (EPO) oder über das Patent Cooperation Treaty (PCT)-Verfahren (gleichzeitige Patentanmeldung bei einer Vielzahl von nationalen Patentämtern) angemeldet wurden. Die über das PCT-Verfahren zum EPO gelangenden Patentanmeldungen werden nur einmal gezählt. Die Regionalisierung der Patentdaten erfolgt nach der Wohnadresse der beteiligten Forscher und wird von der OECD durchgeführt (REGPAT database). Die Patentanmeldungen sind pro 1000 Einwohner im Mittel über mehrer Jahre abgebildet.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_007",
 		"parentId": null,
@@ -9074,8 +9076,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 5033,
-		"darstellungsart": "Grafik"
+		"id": 5033
 	},
 	{
 		"title": "Anzahl Neugründungen in Basel-Stadt",
@@ -14601,6 +14602,7 @@ var indikatoren = [
 		"lesehilfe": "Das Bruttoinlandprodukt pro Kopf ist in Basel-Stadt seit den 1990er-Jahren stark gestiegen. Seit 2007 blieben die Werte in den Kantonen Basel-Stadt, Genf und Zürich relativ konstant.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_001",
@@ -14616,8 +14618,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 6124,
-		"darstellungsart": "Grafik"
+		"id": 6124
 	},
 	{
 		"title": "Kantonaler Wettbewerbsindikator (KWI)",
