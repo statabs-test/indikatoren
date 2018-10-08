@@ -5,16 +5,112 @@
       "visible": true,
       "data": [
         [
-          "Basel-Stadt",
-          149.6338322
+          "BS",
+          149.4544167
         ],
         [
-          "Zürich",
-          120.3679726
+          "ZH",
+          120.5
         ],
         [
-          "Genf",
-          146.0623559
+          "BE",
+          76.6
+        ],
+        [
+          "LU",
+          89
+        ],
+        [
+          "UR",
+          70.1
+        ],
+        [
+          "SZ",
+          172.4
+        ],
+        [
+          "OW",
+          119.3
+        ],
+        [
+          "NW",
+          159.5
+        ],
+        [
+          "GL",
+          71.2
+        ],
+        [
+          "ZG",
+          247.7
+        ],
+        [
+          "FR",
+          79.9
+        ],
+        [
+          "SO",
+          73
+        ],
+        [
+          "BL",
+          96.8
+        ],
+        [
+          "SH",
+          91.7
+        ],
+        [
+          "AR",
+          85.3
+        ],
+        [
+          "IR",
+          88.8
+        ],
+        [
+          "SG",
+          78.8
+        ],
+        [
+          "GR",
+          83.3
+        ],
+        [
+          "AG",
+          83.8
+        ],
+        [
+          "TG",
+          78.4
+        ],
+        [
+          "TI",
+          97.1
+        ],
+        [
+          "WA",
+          99.6
+        ],
+        [
+          "VS",
+          66.1
+        ],
+        [
+          "NE",
+          90.5
+        ],
+        [
+          "GE",
+          145.3
+        ],
+        [
+          "JU",
+          65.2
+        ],
+        [
+          "CH",
+          100
         ]
       ],
       "turboThreshold": 0
@@ -34,7 +130,7 @@
       "style": {
         "color": "#000000"
       },
-      "rotation": 0
+      "rotation": 45
     },
     "tickLength": 0
   },
@@ -42,7 +138,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
+    "height": 415,
     "spacing": [
       10,
       10,
@@ -72,7 +168,7 @@
     "type": "column",
     "inverted": false,
     "renderTo": "container-6129",
-    "spacingBottom": 40
+    "spacingBottom": 30
   },
   "plotOptions": {
     "series": {
@@ -83,7 +179,7 @@
         }
       },
       "marker": {},
-      "pointPadding": 0,
+      "pointPadding": 1,
       "pointWidth": 40
     }
   },
@@ -103,7 +199,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt im kantonalen Vergleich, Stand: 2018",
+    "text": "Basel-Stadt im kantonalen Vergleich, 2019",
     "align": "left"
   },
   "yAxis": {
@@ -141,9 +237,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Eidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-29"
+    "text": "Quelle: Eidgenössische Finanzverwaltung."
   },
   "legend": {
     "symbolRadius": 0,

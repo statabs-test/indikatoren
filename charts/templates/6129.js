@@ -2,9 +2,9 @@
     return {
    plotOptions: {
         series: {
-            pointPadding: 0,
+            pointPadding: 0.1,
             borderWidth: 0,
-			"pointWidth": 40,
+			"pointWidth": 10,
  
 
         }
@@ -12,7 +12,8 @@
   "xAxis": {
     "type": "category",
     "labels": {
-      "rotation": 0 
+      style: { fontSize: "9px"},
+      "rotation": -45 
     } 
   },
   "yAxis": {

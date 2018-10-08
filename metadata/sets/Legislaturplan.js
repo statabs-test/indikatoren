@@ -517,8 +517,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "NFA-Ressourcenindex",
-		"subtitle": "Basel-Stadt im kantonalen Vergleich, Stand: 2018",
-		"kuerzel": "I.04.1.06129",
+		"subtitle": "Basel-Stadt im kantonalen Vergleich, 2019",
+		"kuerzel": "I.04.1.6129",
 		"kuerzelKunde": "2.6",
 		"description": "NFA-Ressourcenindex",
 		"thema": "04 Volkswirtschaft",
@@ -527,15 +527,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Ressourcenindex bezeichnet die fiskalisch ausschöpfbaren finanziellen Ressourcen eines Kantons. Dieser liegt im Bemessungsjahr 2018, welches auf Daten der Jahre 2012 bis 2014 beruht,  im Kanton Basel-Stadt um rund 49% über dem Schweizerischen Durchschnitt.",
+		"lesehilfe": "Der Ressourcenindex bezeichnet die fiskalisch ausschöpfbaren finanziellen Ressourcen eines Kantons. Dieser liegt im Bemessungsjahr 2019, welches auf Daten der Jahre 2013 bis 2015 beruht,  im Kanton Basel-Stadt um rund 49% über dem Schweizerischen Durchschnitt. Die Werte des Jahres 2019 sind noch provisorisch.",
 		"erlaeuterungen": "Der Ressourcenindex bildet die Grundlage für den horizontalen und vertikalen Ressoucenausgleich des Neuen Finanzausgleichs (NFA). Der Ressourcenindex soll das Ressourcenpotenzial der Kantone - d.h. die fiskalisch ausschöpfbaren finanziellen Ressourcen eines Kantons - im Vergleich zum Schweizer Durchschnitt abbilden. Zur Bemessung der fiskalisch ausschöpfbaren Ressourcen stützt sich der neue Ressourcenindex auf die Aggregierte Steuerbemessungsgrundlage (ASG). Die ASG fasst die Summe der steuerbaren Einkommen und Vermögen der natürlichen Personen sowie die Summe der Gewinne der juristischen Personen zu einer Masszahl zusammen. Die ASG pro Einwohner eines Kantons im Verhältnis zur gesamtschweizerischen ASG pro Einwohner ergibt sodann den Ressourcenindex des Kantons.",
 		"template": "template001",
+		"printformat": "",
 		"orderKey": "02_00_00_00_00_006",
 		"parentId": null,
 		"children": [
