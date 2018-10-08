@@ -130,7 +130,7 @@
       "style": {
         "color": "#000000"
       },
-      "rotation": 45
+      "rotation": -90
     },
     "tickLength": 0
   },
@@ -178,9 +178,7 @@
           "fontSize": "10px"
         }
       },
-      "marker": {},
-      "pointPadding": 1,
-      "pointWidth": 40
+      "marker": {}
     }
   },
   "title": {
