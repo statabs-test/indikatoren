@@ -6,51 +6,51 @@
       "data": [
         [
           "Life Sciences Industrie",
-          23.5997188517308
+          23.6
         ],
         [
           "Chemische Industrie",
-          2.81701967043184
+          2.8
         ],
         [
           "Finanz- und Versicherungsdienstl.",
-          15.3981682782385
+          15.4
         ],
         [
           "Verkehr und Lagerei",
-          5.67114927229773
+          5.7
         ],
         [
           "Handel und Reparatur",
-          8.66161809470898
+          8.7
         ],
         [
           "Unternehmens- und freiberufl. Dienstl.",
-          9.48558668476868
+          9.5
         ],
         [
           "Grundstücks- und Wohnungswesen",
-          6.09506924545192
+          6.1
         ],
         [
           "Baugewerbe",
-          3.14696572866341
+          3.1
         ],
         [
           "Öffentliche Verwaltung",
-          6.61433591191344
+          6.6
         ],
         [
           "Gesundheits- und Sozialwesen",
-          5.98230000715211
+          6
         ],
         [
           "Tourismus",
-          1.57151321361997
+          1.6
         ],
         [
           "Übrige Branchen",
-          8.13953537059086
+          8.1
         ]
       ],
       "name": "2000",
@@ -62,107 +62,51 @@
       "data": [
         [
           "Life Sciences Industrie",
-          33.7441867975123
+          39.4
         ],
         [
           "Chemische Industrie",
-          2.92827376589501
+          1.4
         ],
         [
           "Finanz- und Versicherungsdienstl.",
-          11.1563548454362
+          10
         ],
         [
           "Verkehr und Lagerei",
-          4.87443389577564
+          4.2
         ],
         [
           "Handel und Reparatur",
-          7.20753902661115
+          7.7
         ],
         [
           "Unternehmens- und freiberufl. Dienstl.",
-          10.1892291328952
+          9.6
         ],
         [
           "Grundstücks- und Wohnungswesen",
-          5.77067316724585
+          5
         ],
         [
           "Baugewerbe",
-          2.20035975557416
+          1.9
         ],
         [
           "Öffentliche Verwaltung",
-          6.28927528805517
+          6.1
         ],
         [
           "Gesundheits- und Sozialwesen",
-          5.93926877021867
+          5.7
         ],
         [
           "Tourismus",
-          1.16417659947245
+          1.2
         ],
         [
           "Übrige Branchen",
-          5.60795518941326
-        ]
-      ],
-      "name": "2005",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#dc440e",
-      "visible": true,
-      "data": [
-        [
-          "Life Sciences Industrie",
-          39.373812158429
-        ],
-        [
-          "Chemische Industrie",
-          1.38697316873248
-        ],
-        [
-          "Finanz- und Versicherungsdienstl.",
-          10.0178417245685
-        ],
-        [
-          "Verkehr und Lagerei",
-          4.17468618761985
-        ],
-        [
-          "Handel und Reparatur",
-          7.67788699273776
-        ],
-        [
-          "Unternehmens- und freiberufl. Dienstl.",
-          9.59700351910966
-        ],
-        [
-          "Grundstücks- und Wohnungswesen",
-          5.01326081237451
-        ],
-        [
-          "Baugewerbe",
-          1.8777766306981
-        ],
-        [
-          "Öffentliche Verwaltung",
-          6.12773927056805
-        ],
-        [
-          "Gesundheits- und Sozialwesen",
-          5.74308706441285
-        ],
-        [
-          "Tourismus",
-          1.18843935647117
-        ],
-        [
-          "Übrige Branchen",
-          6.4345199455456
+          6.4
         ]
       ],
       "name": "2010",
@@ -174,107 +118,51 @@
       "data": [
         [
           "Life Sciences Industrie",
-          40.6794450252833
+          41.5
         ],
         [
           "Chemische Industrie",
-          1.09763606795885
+          1
         ],
         [
           "Finanz- und Versicherungsdienstl.",
-          9.30755859743694
+          8.8
         ],
         [
           "Verkehr und Lagerei",
-          3.52305257781014
+          3.5
         ],
         [
           "Handel und Reparatur",
-          6.78838249754414
+          6.7
         ],
         [
           "Unternehmens- und freiberufl. Dienstl.",
-          11.3187483975647
+          11.5
         ],
         [
           "Grundstücks- und Wohnungswesen",
-          4.59227524366263
+          4.5
         ],
         [
           "Baugewerbe",
-          1.9998580921948
+          1.9
         ],
         [
           "Öffentliche Verwaltung",
-          6.32545593618501
+          6.1
         ],
         [
           "Gesundheits- und Sozialwesen",
-          6.09572393371656
+          6.2
         ],
         [
           "Tourismus",
-          1.27297017701796
+          1.2
         ],
         [
           "Übrige Branchen",
-          5.90125738566615
-        ]
-      ],
-      "name": "2015",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#689199",
-      "visible": true,
-      "data": [
-        [
-          "Life Sciences Industrie",
-          41.5174002563557
-        ],
-        [
-          "Chemische Industrie",
-          0.976397610262757
-        ],
-        [
-          "Finanz- und Versicherungsdienstl.",
-          8.84518412723219
-        ],
-        [
-          "Verkehr und Lagerei",
-          3.49916043303631
-        ],
-        [
-          "Handel und Reparatur",
-          6.74216513692457
-        ],
-        [
-          "Unternehmens- und freiberufl. Dienstl.",
-          11.5175258227623
-        ],
-        [
-          "Grundstücks- und Wohnungswesen",
-          4.51305279717794
-        ],
-        [
-          "Baugewerbe",
-          1.88545720656113
-        ],
-        [
-          "Öffentliche Verwaltung",
-          6.12718061940461
-        ],
-        [
-          "Gesundheits- und Sozialwesen",
-          6.15199918787588
-        ],
-        [
-          "Tourismus",
-          1.2461426601619
-        ],
-        [
-          "Übrige Branchen",
-          6.0019365319819
+          6
         ]
       ],
       "name": "2017",

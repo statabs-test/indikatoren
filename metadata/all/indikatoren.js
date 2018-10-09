@@ -13117,7 +13117,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der Life Sciences Industrie an der nominalen Gesamtwertschöpfung des Kantons Basel-Stadt liegt 2017 bei 42%. Im Jahr 2000 lag er noch bei 24%. Den grössten Rückgang des Wertschöpfungsanteils verzeichnete die Branche der Finanz- und Versicherungsdienstleistungen (2017: 9%).",
+		"lesehilfe": "Der Anteil der Life Sciences Industrie an der nominalen Gesamtwertschöpfung des Kantons Basel-Stadt liegt 2017 bei 41,5%. Im Jahr 2000 lag er noch bei 23,6%. Den grössten Rückgang des Wertschöpfungsanteils verzeichnete die Branche der Finanz- und Versicherungsdienstleistungen (2017: 8,8%).",
 		"erlaeuterungen": "Die Branchenanteile werden mit der nominalen Bruttowertschöpfung in der Branche durch die gesamte nominale Bruttowertschöpfung im Kanton Basel-Stadt geteilt.",
 		"template": "line001",
 		"printformat": "",
