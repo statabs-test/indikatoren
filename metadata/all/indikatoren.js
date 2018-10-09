@@ -7619,7 +7619,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2017 geben 73,5% der befragten Jugendlichen an, sowohl Mädchen als auch Jungen in ihrem Freundeskreis zu haben. Jeweils gut 9% haben entweder nur Mädchen respektive nur Jungen im Freundeskreis. 1,4% geben an, keine Freunde zu haben. 2013 gaben 78,8% an, Mädchen und Jungen im Freundeskreis zu haben, 2009 lag der entsprechende Anteil bei 80,6%.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "TEST",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
