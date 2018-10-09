@@ -1,185 +1,290 @@
 {
   "series": [
     {
-      "color": "#CD9C00",
-      "visible": true,
+      "color": "#A8C3CA",
+      "index": 0,
+      "type": "column",
+      "pointPadding": 0,
+      "borderWidth": 0,
+      "legendIndex": 1,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
       "data": [
         [
+          "ZG",
+          "247,7"
+        ],
+        [
+          "SZ",
+          "172,4"
+        ],
+        [
+          "NW",
+          "159,5"
+        ],
+        [
           "BS",
-          149.4544167
+          "149,5"
+        ],
+        [
+          "GE",
+          "145,3"
         ],
         [
           "ZH",
-          120.5
+          "120,5"
         ],
         [
-          "BE",
-          76.6
+          "OW",
+          "119,3"
+        ],
+        [
+          "VD",
+          "99,6"
+        ],
+        [
+          "TI",
+          "97,1"
+        ],
+        [
+          "BL",
+          "96,8"
+        ],
+        [
+          "SH",
+          "91,7"
+        ],
+        [
+          "NE",
+          "90,5"
         ],
         [
           "LU",
           89
         ],
         [
-          "UR",
-          70.1
+          "IR",
+          "88,8"
         ],
         [
-          "SZ",
-          172.4
+          "AR",
+          "85,3"
         ],
         [
-          "OW",
-          119.3
+          "AG",
+          "83,8"
         ],
         [
-          "NW",
-          159.5
-        ],
-        [
-          "GL",
-          71.2
-        ],
-        [
-          "ZG",
-          247.7
+          "GR",
+          "83,3"
         ],
         [
           "FR",
-          79.9
+          "79,9"
+        ],
+        [
+          "SG",
+          "78,8"
+        ],
+        [
+          "TG",
+          "78,4"
+        ],
+        [
+          "BE",
+          "76,6"
         ],
         [
           "SO",
           73
         ],
         [
-          "BL",
-          96.8
+          "GL",
+          "71,2"
         ],
         [
-          "SH",
-          91.7
-        ],
-        [
-          "AR",
-          85.3
-        ],
-        [
-          "IR",
-          88.8
-        ],
-        [
-          "SG",
-          78.8
-        ],
-        [
-          "GR",
-          83.3
-        ],
-        [
-          "AG",
-          83.8
-        ],
-        [
-          "TG",
-          78.4
-        ],
-        [
-          "TI",
-          97.1
-        ],
-        [
-          "WA",
-          99.6
+          "UR",
+          "70,1"
         ],
         [
           "VS",
-          66.1
-        ],
-        [
-          "NE",
-          90.5
-        ],
-        [
-          "GE",
-          145.3
+          "66,1"
         ],
         [
           "JU",
-          65.2
+          "65,2"
+        ]
+      ],
+      "name": "undefined",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "index": 1,
+      "type": "line",
+      "marker": {
+        "enabled": false
+      },
+      "legendIndex": 2,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "ZG",
+          100
         ],
         [
-          "CH",
+          "SZ",
+          100
+        ],
+        [
+          "NW",
+          100
+        ],
+        [
+          "BS",
+          100
+        ],
+        [
+          "GE",
+          100
+        ],
+        [
+          "ZH",
+          100
+        ],
+        [
+          "OW",
+          100
+        ],
+        [
+          "VD",
+          100
+        ],
+        [
+          "TI",
+          100
+        ],
+        [
+          "BL",
+          100
+        ],
+        [
+          "SH",
+          100
+        ],
+        [
+          "NE",
+          100
+        ],
+        [
+          "LU",
+          100
+        ],
+        [
+          "IR",
+          100
+        ],
+        [
+          "AR",
+          100
+        ],
+        [
+          "AG",
+          100
+        ],
+        [
+          "GR",
+          100
+        ],
+        [
+          "FR",
+          100
+        ],
+        [
+          "SG",
+          100
+        ],
+        [
+          "TG",
+          100
+        ],
+        [
+          "BE",
+          100
+        ],
+        [
+          "SO",
+          100
+        ],
+        [
+          "GL",
+          100
+        ],
+        [
+          "UR",
+          100
+        ],
+        [
+          "VS",
+          100
+        ],
+        [
+          "JU",
           100
         ]
       ],
+      "name": "undefined",
       "turboThreshold": 0
     }
   ],
   "xAxis": {
     "type": "category",
-    "uniqueNames": true,
+    "uniqueNames": false,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
     "labels": {
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "textOverflow": "none"
       },
+      "step": 1,
       "rotation": -90
     },
-    "tickLength": 0
+    "tickLength": 0,
+    "tickInterval": 1
   },
   "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
     "width": 485,
     "height": 415,
-    "spacing": [
-      10,
-      10,
-      30,
-      10
-    ],
+    "spacingBottom": 45,
     "style": {
       "fontFamily": "Arial"
     },
-    "zoomType": "xy",
-    "events": {
-      "load": function (){
-            this.credits.element.onclick = function() {};
-              
-            //for top-left legends with no x defined: move legend to x position of first yAxis
-            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-              this.update(
-                {
-                  legend: {
-                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                  }
-                }
-              );
-            }
-          }
-    },
-    "type": "column",
-    "inverted": false,
-    "renderTo": "container-6129",
-    "spacingBottom": 30
-  },
-  "plotOptions": {
-    "series": {
-      "borderWidth": 0,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      },
-      "marker": {}
-    }
+    "type": "line",
+    "alignTicks": false,
+    "renderTo": "container-6129"
   },
   "title": {
     "style": {
@@ -200,31 +305,31 @@
     "text": "Basel-Stadt im kantonalen Vergleich, 2019",
     "align": "left"
   },
+  "tooltip": {
+    "shared": false
+  },
   "yAxis": {
+    "min": 0,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
-    "lineColor": "#B9CFD7",
     "title": {
       "style": {
         "color": "#000000",
         "fontSize": null
       },
-      "text": null
+      "text": null,
+      "color": "#000000",
+      "fontSize": null
     },
     "labels": {
       "style": {
-        "color": "#000000"
+        "color": "black"
       },
       "format": "{value:,.0f}"
     }
   },
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
-    }
-  },
   "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
     "style": {
       "color": "#000000",
@@ -240,19 +345,60 @@
     "text": "Quelle: Eidgenössische Finanzverwaltung."
   },
   "legend": {
-    "symbolRadius": 0,
-    "enabled": false,
+    "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
+    "symbolRadius": 0,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": "nowrap",
+      "whiteSpace": "nowrap"
+    },
+    "itemWidth": 140,
+    "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
     }
   },
-  "tooltip": {
-    "headerFormat": " ",
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {point.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
+    }
   },
   "exporting": {
     "filename": 6129
