@@ -39,7 +39,7 @@
     },
     "series": [
       {
-        "color": "#A8C3CA", // 
+        "color": "#689199", // 
         "index": 0,
         "type": "column",
         pointPadding: 0,
@@ -50,7 +50,7 @@
   		   },
       },
       {
-        "color": "#C8C8C8", // 
+        "color": "#B00000", // 
         "index": 1,
         "type": "line",
          "marker": {
