@@ -28,7 +28,7 @@
         },
         {
             stack: 1,
-            color: '#B00000'
+            color: '#DC440E'
         },
         {
             stack: 2,
@@ -36,7 +36,7 @@
         },
         {
             stack: 2,
-            color: '#d00000'
+            color: '#F05A23'
         }
       ],
       "legend": {
