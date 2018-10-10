@@ -821,7 +821,7 @@ var indikatoren = [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2017-09-26T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-10T10:46:30.3030",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -6022,7 +6022,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-21T09:35:14.1414",
+		"aktualisierungsdatum": "2018-10-10T10:44:13.1313",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -6031,6 +6031,7 @@ var indikatoren = [
 		"lesehilfe": "Sowohl die Anzahl landwirtschaftlicher Betriebe als auch die Nutzfläche sind seit der Jahrtausendwende tendenziell rückläufig.",
 		"erlaeuterungen": "Die landwirtschaftliche Nutzfläche eines baselstädtischen Betriebes kann auch in anderen Kantonen oder im Ausland liegen. Die Daten vor 1996 entstammen der Eidgenössischen Betriebszählung (1975, 1985) bzw. der Eidgenössischen Landwirtschafts- und Gartenbauzählung (1980, 1990) und wurden an die seit 1996 geltende Definition des landwirtschaftlichen Betriebs angepasst.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
@@ -6043,8 +6044,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 4914,
-		"darstellungsart": "Grafik"
+		"id": 4914
 	},
 	{
 		"title": "Privater Motorisierungsgrad",
@@ -6389,7 +6389,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-12-05T15:36:26.2626",
+		"aktualisierungsdatum": "2018-10-10T10:45:25.2525",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -10501,7 +10501,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-10-10T10:42:58.5858",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -10653,7 +10653,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-10-10T10:54:29.2929",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
