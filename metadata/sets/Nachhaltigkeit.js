@@ -1954,15 +1954,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-10-11T09:28:40.4040",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der Life Sciences Industrie an der nominalen Gesamtwertschöpfung des Kantons Basel-Stadt liegt 2017 bei 41,5%. Im Jahr 2000 lag er noch bei 23,6%. Den grössten Rückgang des Wertschöpfungsanteils verzeichnete die Branche der Finanz- und Versicherungsdienstleistungen (2017: 8,8%).",
-		"erlaeuterungen": "Die Branchenanteile werden mit der nominalen Bruttowertschöpfung in der Branche durch die gesamte nominale Bruttowertschöpfung im Kanton Basel-Stadt geteilt.",
+		"lesehilfe": "Der Anteil der Life Sciences-Industrie an der nominalen Gesamtwertschöpfung des Kantons Basel-Stadt liegt 2017 bei 41,5%. Im Jahr 2000 lag er noch bei 23,6%. Einen starken Rückgang des Wertschöpfungsanteils verzeichnete die Branche der Finanz- und Versicherungsdienstleistungen (von 15,4% im Jahr 2000 auf 8,8% im Jahr 2017).",
+		"erlaeuterungen": "Die Anteile errechnen sich aus der jeweiligen nominalen Bruttowertschöpfung der Branche geteilt durch den Gesamtwert des Kantons Basel-Stadt.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "06_01_00_00_00_603",
 		"parentId": null,
@@ -1974,8 +1975,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6047,
-		"darstellungsart": "Grafik"
+		"id": 6047
 	},
 	{
 		"title": "Anteil der Beschäftigten in innovativen Branchen",
