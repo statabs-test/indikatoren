@@ -45,7 +45,11 @@
         ],
         [
           2015,
-          10074
+          10213
+        ],
+        [
+          2016,
+          9910
         ]
       ],
       "name": "Finanz-, Versicherungs-DL"
@@ -95,7 +99,11 @@
         ],
         [
           2015,
-          19171
+          18857
+        ],
+        [
+          2016,
+          19008
         ]
       ],
       "name": "Beratung, Planung, Forschung, Immobilien"
@@ -145,7 +153,11 @@
         ],
         [
           2015,
-          5915
+          5775
+        ],
+        [
+          2016,
+          5749
         ]
       ],
       "name": "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL"
@@ -195,7 +207,11 @@
         ],
         [
           2015,
-          6041
+          6086
+        ],
+        [
+          2016,
+          6254
         ]
       ],
       "name": "Personalvermittlung, -überlassung"
@@ -222,8 +238,8 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 428,
-    "spacingBottom": 55,
+    "height": 415,
+    "spacingBottom": 45,
     "style": {
       "fontFamily": "Arial"
     },
@@ -270,7 +286,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "max": 20000
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -296,9 +313,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)."
   },
   "legend": {
     "enabled": true,
