@@ -39,13 +39,13 @@
                   }
                 }
                 
-                
               },
     		    seriesMapping: [
   		        {x: 3, y: 4},
   		        {x: 3, y: 5},
   		        {x: 3, y: 6},
   		        {x: 3, y: 7},
+  		        {x: 2, y: 1}
             ],
         },
         yAxis:[{
@@ -128,6 +128,10 @@
               stack: 'male',
               legendIndex: 2,
               index: 1,
+            },
+            {
+							visible: false,
+							showInLegend: false,
             }
 	    ],
         "legend": {
@@ -145,7 +149,7 @@
         "tooltip": {
             "shared": true,
             formatter: function() { //sum values correctly
-                var s = '<span style="font-size: 12px">Alter: <b>' + this.points[0].key + '</b></span><br/>';
+                var s = '<span style="font-size: 12px">' + this.points[0].series.chart.series[4].data[0].name + ':</span><br/> <span style="font-size: 12px">Alter: <b>' + this.points[0].key + '</b></span><br/>';
                 var sum = 0;
                 $.each(this.points, function(i, point) {
                     var v = Math.sqrt(this.y*this.y); //make - to + again
