@@ -294,14 +294,7 @@
       },
       "dataLabels": {
         "y": 25,
-        "enabled": true,
-        "formatter": function () {
-                  var first = this.series.data[0];
-                  var last  = this.series.data[this.series.data.length - 1];
-                  if (this.x === first.x || this.x === last.x) {
-                    return Highcharts.numberFormat(this.y, 0  , ",", " ");
-                  }
-                }
+        "enabled": false
       }
     }
   },
