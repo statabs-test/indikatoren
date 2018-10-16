@@ -3,7 +3,7 @@
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },
       "index": 0,
       "color": "#FF8028",
@@ -175,6 +175,14 @@
         [
           2015,
           76524
+        ],
+        [
+          2016,
+          75933
+        ],
+        [
+          2017,
+          71137
         ]
       ],
       "name": "Anzahl Betreibungen"
@@ -201,8 +209,8 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 428,
-    "spacingBottom": 55,
+    "height": 415,
+    "spacingBottom": 45,
     "style": {
       "fontFamily": "Arial"
     },
@@ -216,7 +224,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anzahl Betreibungen seit 1974"
+    "text": "Anzahl Betreibungen"
   },
   "subtitle": {
     "style": {
@@ -225,7 +233,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -273,9 +281,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Beitreibungs- und Konkursamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2016-9-21"
+    "text": "Quelle: Beitreibungs- und Konkursamt Basel-Stadt."
   },
   "legend": {
     "enabled": false,
