@@ -55,12 +55,11 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 0,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
     }
   },
-}
+};
 }());
 

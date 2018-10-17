@@ -1,7 +1,7 @@
 (function(){
     return {
       chart: {
-        spacingTop: 10
+        spacingTop: 5,
       },
       "yAxis": {
          tickAmount: 5,
@@ -34,7 +34,6 @@
         "enabled": true,
         "layout": "vertical",
         "verticalAlign": "middle",
-        "itemMarginBottom": 2,
         "align": "right",
         "itemStyle": {
           "fontWeight": "normal"

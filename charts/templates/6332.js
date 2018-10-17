@@ -36,7 +36,6 @@
     layout: 'horizontal',  
     align: 'left',
     verticalAlign: 'top',
-    padding: 1,
     itemDistance: 10,
     itemWidth: 100,
     reversed: true,

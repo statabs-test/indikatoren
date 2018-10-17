@@ -662,13 +662,12 @@
   "legend": {
     "padding": 0,
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
     "enabled": true,
-    "itemWidth": 200,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left"

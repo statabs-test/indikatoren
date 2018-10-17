@@ -33,10 +33,7 @@
  "legend": {
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 2, 
     "align": "left",
-    margin: 2,
-    padding: 2,
     "itemStyle": {
       "fontWeight": "normal"
     }

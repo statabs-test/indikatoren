@@ -38,10 +38,7 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 3,
-    padding: 1,
     itemDistance: 10,
-    margin: 3,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
@@ -56,6 +53,6 @@
       }
     }
   }
-}
+};
 }());
  

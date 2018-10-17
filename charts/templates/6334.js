@@ -23,12 +23,9 @@
   ],
   "legend": {
     "enabled": true,
-    margin: 2,
-    padding: 2,
     itemDistance: 7,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"

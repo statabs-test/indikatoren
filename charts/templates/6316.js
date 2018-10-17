@@ -70,10 +70,8 @@
     "legend": {
       useHTML: true,
       "enabled": true,
-      //"y": 35,
       "layout": "horizontal",
       "verticalAlign": "top",
-      "itemMarginBottom": 5,
       "align": "left",
       "itemStyle": {
        "fontWeight": "normal"

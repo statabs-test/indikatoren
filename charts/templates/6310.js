@@ -75,10 +75,8 @@
   }, 
   "legend": {
     "enabled": true,
-    //"y": 35,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
     "align": "left",
     "itemStyle": {
      "fontWeight": "normal"
@@ -89,5 +87,5 @@
     //"marginTop": 75,
     "type": "column"
   }
-}
+};
 }());

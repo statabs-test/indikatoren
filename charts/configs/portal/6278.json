@@ -516,8 +516,7 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 0,
-    "margin": 3
+    "padding": 0
   },
   "plotOptions": {
     "series": {

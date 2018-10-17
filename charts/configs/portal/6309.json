@@ -579,14 +579,13 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemMarginBottom": 3,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 1,
-    "itemDistance": 10,
-    "margin": 3
+    "padding": 0,
+    "itemDistance": 10
   },
   "plotOptions": {
     "series": {

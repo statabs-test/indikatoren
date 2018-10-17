@@ -43,7 +43,6 @@
             return this.name;
         },
         itemWidth: 117,
-        padding: 0,
         itemStyle: {
           textOverflow: 'none',
           whiteSpace: 'nowrap',

@@ -91,8 +91,6 @@ yAxis: [{
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    padding: 1,
-    //symbolWidth: 10,
     itemDistance: 10,
     "itemStyle": {
      "fontWeight": "normal"

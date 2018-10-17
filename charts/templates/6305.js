@@ -37,9 +37,6 @@
     ],
   legend: {
     enabled: true,
-    margin: 6,
-    padding: 1,
-    itemMarginBottom: 2,
     itemDistance: 5,
     y: -20,
     "layout": "vertical",

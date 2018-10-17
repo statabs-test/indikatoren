@@ -511,13 +511,11 @@
   "legend": {
     "padding": 0,
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "enabled": true,
-    "margin": 0,
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right"

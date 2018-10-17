@@ -40,10 +40,7 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
     "align": "left",
-    margin: 1,
-    itemDistance: 5,
     "itemStyle": {
       "fontWeight": "normal"
     }

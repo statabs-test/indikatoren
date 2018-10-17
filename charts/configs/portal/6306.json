@@ -306,14 +306,12 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 0,
-    "margin": 3,
-    "itemDistance": 5
+    "padding": 0
   },
   "plotOptions": {
     "series": {

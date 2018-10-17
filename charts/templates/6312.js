@@ -29,9 +29,6 @@
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",
-	  //"y": 20,
-  	//"Itemwidth": 500,
-  	"itemMarginBottom": 5,     
     "itemStyle": {
       "fontWeight": "normal"
     }

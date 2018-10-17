@@ -32,12 +32,9 @@
       reversed: true, 
       alignColumns: false,
       itemWidth: 75,
-      itemDistance: 10,
       layout: 'horizontal',
       align: 'left',
       verticalAlign: 'top',
-      padding: 1,
-      itemMarginBottom: 2,
       labelFormatter: function () {
         return this.name;
       },

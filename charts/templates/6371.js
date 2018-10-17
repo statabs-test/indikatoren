@@ -20,12 +20,8 @@
   	"type": "category",
   },
  "legend": {
-    enabled:true,
-    margin: 0,
-    //y: -3,
     "layout": "vertical",
     "verticalAlign": "middle",
-    "itemMarginBottom": 5, 
     "align": "right",
     "itemStyle": {
       "fontWeight": "normal"

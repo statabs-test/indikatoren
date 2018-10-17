@@ -34,9 +34,6 @@
     "verticalAlign": "top",
     "align": "left",
     itemWidth: 120,
-    itemMarginBottom: 5,
-  	//"y": 20,
-  	//"width": 200,
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -59,5 +56,5 @@
   "footerFormat": 'Total: <b>{point.total:,.0f}</b>',
    "shared": true
   },
-}
+};
 }());

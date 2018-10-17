@@ -357,7 +357,7 @@
   },
   "legend": {
     "padding": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 2,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",

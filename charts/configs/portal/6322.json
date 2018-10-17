@@ -652,7 +652,7 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-20"
   },
   "legend": {
-    "padding": 2,
+    "padding": 0,
     "symbolRadius": 0,
     "itemMarginBottom": 2,
     "itemStyle": {
@@ -661,8 +661,7 @@
     },
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left",
-    "margin": 2
+    "align": "left"
   },
   "dataLabels": {
     "enabled": false,

@@ -1070,8 +1070,7 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 1,
-    "margin": 6,
+    "padding": 0,
     "itemDistance": 5,
     "y": -20
   },

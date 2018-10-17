@@ -36,7 +36,6 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    padding: 0,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"

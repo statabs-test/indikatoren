@@ -41,8 +41,6 @@ global Highcharts
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 3,
-    padding: 0,
     itemDistance: 18,
     "align": "left",
     "itemStyle": {
