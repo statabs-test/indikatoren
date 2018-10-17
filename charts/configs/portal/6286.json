@@ -5,18 +5,111 @@
       "visible": true,
       "data": [
         [
-          "Basel-Stadt",
-          149.6338322
+          "ZG",
+          247.7
         ],
         [
-          "Zürich",
-          120.3679726
+          "SZ",
+          172.4
         ],
         [
-          "Genf",
-          146.0623559
+          "NW",
+          159.5
+        ],
+        [
+          "BS",
+          149.5
+        ],
+        [
+          "GE",
+          145.3
+        ],
+        [
+          "ZH",
+          120.5
+        ],
+        [
+          "OW",
+          119.3
+        ],
+        [
+          "VD",
+          99.6
+        ],
+        [
+          "TI",
+          97.1
+        ],
+        [
+          "BL",
+          96.8
+        ],
+        [
+          "SH",
+          91.7
+        ],
+        [
+          "NE",
+          90.5
+        ],
+        [
+          "LU",
+          89
+        ],
+        [
+          "IR",
+          88.8
+        ],
+        [
+          "AR",
+          85.3
+        ],
+        [
+          "AG",
+          83.8
+        ],
+        [
+          "GR",
+          83.3
+        ],
+        [
+          "FR",
+          79.9
+        ],
+        [
+          "SG",
+          78.8
+        ],
+        [
+          "TG",
+          78.4
+        ],
+        [
+          "BE",
+          76.6
+        ],
+        [
+          "SO",
+          73
+        ],
+        [
+          "GL",
+          71.2
+        ],
+        [
+          "UR",
+          70.1
+        ],
+        [
+          "VS",
+          66.1
+        ],
+        [
+          "JU",
+          65.2
         ]
       ],
+      "name": "Ressourcenindex nach Kanton",
       "turboThreshold": 0
     }
   ],
@@ -42,7 +135,7 @@
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 320,
+    "width": 665,
     "height": 208,
     "spacing": [
       2,
@@ -91,8 +184,7 @@
           "color": "black"
         }
       },
-      "pointPadding": 0,
-      "pointWidth": 40
+      "pointPadding": 0
     }
   },
   "title": {

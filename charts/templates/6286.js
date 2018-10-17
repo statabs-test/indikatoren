@@ -4,7 +4,7 @@
         series: {
             pointPadding: 0,
             borderWidth: 0,
-			"pointWidth": 40,
+			//"pointWidth": 40,
  
 
         }
@@ -45,6 +45,7 @@
     "type": "column",
     "inverted": false,
     "spacingTop": 5,
+    width: 665,
   }
 };
 }());
