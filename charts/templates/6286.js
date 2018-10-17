@@ -22,7 +22,20 @@
     }    
   },
   "series": [
-  {"color": "#CD9C00", "visible": true}, /* hellbraun*/
+  {"color": "#689199", "visible": true}, /* hellbraun*/
+  {
+    "color": "#B00000", // 
+    "index": 1,
+    "type": "line",
+     "marker": {
+      "enabled": false
+    },
+    legendIndex: 2,
+  "tooltip": {
+  	"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+   },
+  },
+
   //{"color": "#83522E", "visible": true} /* dunkelbraun */
   ],
   "legend": {

@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#CD9C00",
+      "color": "#689199",
       "visible": true,
       "data": [
         [
@@ -110,6 +110,126 @@
         ]
       ],
       "name": "Ressourcenindex nach Kanton",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B00000",
+      "index": 1,
+      "type": "line",
+      "marker": {
+        "enabled": false
+      },
+      "legendIndex": 2,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "ZG",
+          100
+        ],
+        [
+          "SZ",
+          100
+        ],
+        [
+          "NW",
+          100
+        ],
+        [
+          "BS",
+          100
+        ],
+        [
+          "GE",
+          100
+        ],
+        [
+          "ZH",
+          100
+        ],
+        [
+          "OW",
+          100
+        ],
+        [
+          "VD",
+          100
+        ],
+        [
+          "TI",
+          100
+        ],
+        [
+          "BL",
+          100
+        ],
+        [
+          "SH",
+          100
+        ],
+        [
+          "NE",
+          100
+        ],
+        [
+          "LU",
+          100
+        ],
+        [
+          "IR",
+          100
+        ],
+        [
+          "AR",
+          100
+        ],
+        [
+          "AG",
+          100
+        ],
+        [
+          "GR",
+          100
+        ],
+        [
+          "FR",
+          100
+        ],
+        [
+          "SG",
+          100
+        ],
+        [
+          "TG",
+          100
+        ],
+        [
+          "BE",
+          100
+        ],
+        [
+          "SO",
+          100
+        ],
+        [
+          "GL",
+          100
+        ],
+        [
+          "UR",
+          100
+        ],
+        [
+          "VS",
+          100
+        ],
+        [
+          "JU",
+          100
+        ]
+      ],
+      "name": "Durchschnitt Schweiz",
       "turboThreshold": 0
     }
   ],

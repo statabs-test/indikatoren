@@ -417,7 +417,6 @@
       "fontWeight": "normal"
     },
     "padding": 1,
-    "itemWidth": 300,
     "margin": 3
   },
   "plotOptions": {
