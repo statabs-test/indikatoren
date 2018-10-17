@@ -120,8 +120,7 @@
     "legend": {
     	padding: 0,
         symbolRadius: 0,
-        padding: 1,
-        itemMarginBottom: 1,
+        itemMarginBottom: 2,
         itemStyle:{
             fontSize: "10px"
         }

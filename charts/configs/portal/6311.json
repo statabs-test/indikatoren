@@ -193,7 +193,7 @@
     "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-24"
   },
   "legend": {
-    "padding": 1,
+    "padding": 0,
     "symbolRadius": 0,
     "itemMarginBottom": 5,
     "itemStyle": {

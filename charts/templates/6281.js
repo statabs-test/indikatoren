@@ -48,16 +48,11 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    margin: 3, 
-    padding: 3,
-  	//"y": 40,
-  	//"x": 40,
   	//line break before (rechte Achse)
   	labelFormatter: function(){
   	  return this.name.replace("(rechte", "<br/>(rechte");
   	},
-  	"itemMarginBottom": 5,
-      "itemStyle": {
+    "itemStyle": {
       "fontWeight": "normal"
       }
     },

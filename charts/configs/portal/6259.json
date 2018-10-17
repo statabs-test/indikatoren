@@ -873,7 +873,7 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bevölkerungsstatistik."
   },
   "legend": {
-    "padding": 1,
+    "padding": 0,
     "symbolRadius": 0,
     "itemMarginBottom": 5,
     "itemStyle": {

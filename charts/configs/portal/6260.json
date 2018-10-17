@@ -990,7 +990,7 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsszenarien."
   },
   "legend": {
-    "padding": 1,
+    "padding": 0,
     "symbolRadius": 0,
     "itemMarginBottom": 5,
     "itemStyle": {

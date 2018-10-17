@@ -178,9 +178,9 @@
     "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ)."
   },
   "legend": {
-    "padding": 1,
+    "padding": 0,
     "symbolRadius": 0,
-    "itemMarginBottom": 1,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"

@@ -204,7 +204,7 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
   },
   "legend": {
-    "padding": 1,
+    "padding": 0,
     "symbolRadius": 0,
     "itemMarginBottom": 5,
     "itemStyle": {

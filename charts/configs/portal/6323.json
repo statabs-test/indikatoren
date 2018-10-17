@@ -159,7 +159,7 @@
     "verticalAlign": "middle",
     "align": "right",
     "symbolRadius": 0,
-    "itemMarginBottom": 1,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px"
     },

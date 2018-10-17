@@ -28,7 +28,6 @@
   "legend": {
     "enabled": true,
     margin: 3, 
-    padding: 1,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,

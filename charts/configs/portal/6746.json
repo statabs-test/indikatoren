@@ -228,9 +228,9 @@
     "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Erwachsenenbildung;\u003Cbr\u002F\u003EBevölkerungsdienste und Migration Basel-Stadt."
   },
   "legend": {
-    "padding": 1,
+    "padding": 0,
     "symbolRadius": 0,
-    "itemMarginBottom": 1,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"

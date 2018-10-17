@@ -53,12 +53,9 @@
   },
   "legend": {
     "enabled": true,
-    //"x": 25,
-    //"y": 35,
-    "itemWidth": 500,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 0,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
