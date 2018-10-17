@@ -1034,7 +1034,9 @@
     "labels": {
       "style": {
         "fontSize": 10,
-        "color": "#000000"
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
       },
       "rotation": -45,
       "step": 1

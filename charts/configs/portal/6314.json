@@ -419,7 +419,8 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "itemDistance": 10
+    "itemDistance": 10,
+    "symbolWidth": 10
   },
   "dataLabels": {
     "enabled": false,

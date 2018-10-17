@@ -1367,7 +1367,9 @@
     "labels": {
       "style": {
         "fontSize": 10,
-        "color": "#000000"
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
       },
       "formatter": function (){
         //return the month 06 so that the label is centered over the year

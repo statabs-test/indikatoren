@@ -14,7 +14,7 @@
   "yAxis": {
     tickAmount: 5,
     "labels": {
-        "format": "{value:,.1f}%",
+        "format": "{value}%",
     },
 	"max": undefined
   },

@@ -17,7 +17,8 @@
     "type": "category",
     "tickInterval": 1,
     "labels": {
-        "formatter": function() {
+        rotation: -45,
+        formatter: function() {
               	 return this.value;
         }
     },
@@ -46,8 +47,6 @@
   ],
   "chart": {
     "renderTo": 'container-I.01.1.0016', 
-    //"marginBottom": 75,
-    //"marginTop": 75,
     "type": "column",
     "inverted": false
   },

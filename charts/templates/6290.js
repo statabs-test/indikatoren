@@ -31,7 +31,7 @@
   legend: {
       reversed: true, 
       alignColumns: false,
-      itemWidth: 75,
+      itemWidth: 77,
       layout: 'horizontal',
       align: 'left',
       verticalAlign: 'top',

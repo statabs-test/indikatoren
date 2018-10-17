@@ -73,10 +73,12 @@
   "xAxis": {
     lineColor: '#B9CFD7', 
     lineWidth: 0.5,
-    "labels": {
-      "style": {
-      	"fontSize": 10,
-        "color": "#000000", 
+    labels: {
+      style: {
+      	fontSize: 10,
+        color: "#000000", 
+        textOverflow: null,
+        whiteSpace: 'nowrap',
       }
     },
     "tickLength": 0

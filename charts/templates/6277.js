@@ -38,7 +38,6 @@
     "enabled": true,
     "layout": "vertical",
     "verticalAlign": "middle",
-    "itemMarginBottom": 5,
     "align": "right",
     "itemStyle": {
       "fontWeight": "normal"

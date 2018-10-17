@@ -92,6 +92,7 @@ yAxis: [{
     "verticalAlign": "top",
     "align": "left",
     itemDistance: 10,
+    symbolWidth: 10,
     "itemStyle": {
      "fontWeight": "normal"
     }
