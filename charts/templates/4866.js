@@ -37,7 +37,7 @@
     "shared": false
   },
   "chart": {
-    "marginBottom": 65,
+    "marginBottom": 75,
     "marginTop": 75,
     "type": "column"
   }

@@ -74,7 +74,7 @@
             }
           }
     },
-    "marginBottom": 65,
+    "marginBottom": 75,
     "marginTop": 75,
     "type": "column",
     "renderTo": "container-4868",
@@ -106,7 +106,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anzeigen wegen Diebstahl pro 1000 Einwohner"
+    "text": "Angezeigte Straftaten betreffend Diebstahl"
   },
   "subtitle": {
     "style": {
@@ -115,7 +115,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "ohne Fahrzeugdiebstahl und -entwendung, Basel-Stadt",
+    "text": "ohne Fahrzeugdiebstahl und -entwendung, pro 1000 Einwohner, Basel-Stadt",
     "align": "left"
   },
   "xAxis": {
@@ -172,7 +172,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-2"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-18"
   },
   "legend": {
     "symbolRadius": 0,

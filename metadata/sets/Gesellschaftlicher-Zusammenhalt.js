@@ -863,18 +863,18 @@ var indikatorensetData = [
 		"darstellungsart": "Grafik"
 	},
 	{
-		"title": "Anzeigen betreffend Strafgesetzbuch pro 1000 Einwohner",
-		"subtitle": "Basel-Stadt",
+		"title": "Angezeigte Straftaten betreffend Strafgesetzbuch",
+		"subtitle": "pro 1000 Einwohner, Basel-Stadt",
 		"kuerzel": "I.19.1.4866",
 		"kuerzelKunde": "3.2.01",
-		"description": "Anzeigen betreffend Strafgesetzbuch pro 1000 Einwohner",
+		"description": "Angezeigte Straftaten betreffend Strafgesetzbuch",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-02T11:38:08.088",
+		"aktualisierungsdatum": "2018-10-18T15:58:47.4747",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
@@ -887,7 +887,10 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "03_02_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6176",
+			"6323"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -899,18 +902,18 @@ var indikatorensetData = [
 		"id": 4866
 	},
 	{
-		"title": "Anzeigen wegen Veruntreuung/Betrug pro 1000 Einwohner",
-		"subtitle": "Basel-Stadt",
+		"title": "Angezeigte Straftaten betreffend Veruntreuung/Betrug",
+		"subtitle": "pro 1000 Einwohner, Basel-Stadt",
 		"kuerzel": "I.19.1.4867",
 		"kuerzelKunde": "3.2.02",
-		"description": "Anzeigen wegen Veruntreuung/Betrug pro 1000 Einwohner",
+		"description": "Angezeigte Straftaten betreffend Veruntreuung/Betrug",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-02T11:38:38.3838",
+		"aktualisierungsdatum": "2018-10-18T15:58:47.4747",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
@@ -935,18 +938,18 @@ var indikatorensetData = [
 		"id": 4867
 	},
 	{
-		"title": "Anzeigen wegen Diebstahl pro 1000 Einwohner",
-		"subtitle": "ohne Fahrzeugdiebstahl und -entwendung, Basel-Stadt",
+		"title": "Angezeigte Straftaten betreffend Diebstahl",
+		"subtitle": "ohne Fahrzeugdiebstahl und -entwendung, pro 1000 Einwohner, Basel-Stadt",
 		"kuerzel": "I.19.1.4868",
 		"kuerzelKunde": "3.2.03",
-		"description": "Anzeigen wegen Diebstahl pro 1000 Einwohner",
+		"description": "Angezeigte Straftaten betreffend Diebstahl",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-02T11:39:01.011",
+		"aktualisierungsdatum": "2018-10-18T15:58:47.4747",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
@@ -971,18 +974,18 @@ var indikatorensetData = [
 		"id": 4868
 	},
 	{
-		"title": "Anzeigen wegen Körperverletzung pro 1000 Einwohner",
-		"subtitle": "Basel-Stadt",
+		"title": "Angezeigte Straftaten betreffend Körperverletzung",
+		"subtitle": "pro 1000 Einwohner, Basel-Stadt",
 		"kuerzel": "I.19.1.4869",
 		"kuerzelKunde": "3.2.04",
-		"description": "Anzeigen wegen Körperverletzung pro 1000 Einwohner",
+		"description": "Angezeigte Straftaten betreffend Körperverletzung",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-02T11:39:19.1919",
+		"aktualisierungsdatum": "2018-10-18T15:58:47.4747",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",

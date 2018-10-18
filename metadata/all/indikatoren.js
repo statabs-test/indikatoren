@@ -8167,18 +8167,18 @@ var indikatoren = [
 		"darstellungsart": "Grafik"
 	},
 	{
-		"title": "Anzeigen betreffend Strafgesetzbuch pro 1000 Einwohner",
-		"subtitle": "Basel-Stadt",
+		"title": "Angezeigte Straftaten betreffend Strafgesetzbuch",
+		"subtitle": "pro 1000 Einwohner, Basel-Stadt",
 		"kuerzel": "I.19.1.4866",
 		"kuerzelKunde": "3.2.01",
-		"description": "Anzeigen betreffend Strafgesetzbuch pro 1000 Einwohner",
+		"description": "Angezeigte Straftaten betreffend Strafgesetzbuch",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-02T11:38:08.088",
+		"aktualisierungsdatum": "2018-10-18T15:58:47.4747",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
@@ -8192,7 +8192,10 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "03_02_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6176",
+			"6323"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -8204,18 +8207,18 @@ var indikatoren = [
 		"id": 4866
 	},
 	{
-		"title": "Anzeigen wegen Veruntreuung/Betrug pro 1000 Einwohner",
-		"subtitle": "Basel-Stadt",
+		"title": "Angezeigte Straftaten betreffend Veruntreuung/Betrug",
+		"subtitle": "pro 1000 Einwohner, Basel-Stadt",
 		"kuerzel": "I.19.1.4867",
 		"kuerzelKunde": "3.2.02",
-		"description": "Anzeigen wegen Veruntreuung/Betrug pro 1000 Einwohner",
+		"description": "Angezeigte Straftaten betreffend Veruntreuung/Betrug",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-02T11:38:38.3838",
+		"aktualisierungsdatum": "2018-10-18T15:58:47.4747",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
@@ -8241,18 +8244,18 @@ var indikatoren = [
 		"id": 4867
 	},
 	{
-		"title": "Anzeigen wegen Diebstahl pro 1000 Einwohner",
-		"subtitle": "ohne Fahrzeugdiebstahl und -entwendung, Basel-Stadt",
+		"title": "Angezeigte Straftaten betreffend Diebstahl",
+		"subtitle": "ohne Fahrzeugdiebstahl und -entwendung, pro 1000 Einwohner, Basel-Stadt",
 		"kuerzel": "I.19.1.4868",
 		"kuerzelKunde": "3.2.03",
-		"description": "Anzeigen wegen Diebstahl pro 1000 Einwohner",
+		"description": "Angezeigte Straftaten betreffend Diebstahl",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-02T11:39:01.011",
+		"aktualisierungsdatum": "2018-10-18T15:58:47.4747",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
@@ -8278,18 +8281,18 @@ var indikatoren = [
 		"id": 4868
 	},
 	{
-		"title": "Anzeigen wegen Körperverletzung pro 1000 Einwohner",
-		"subtitle": "Basel-Stadt",
+		"title": "Angezeigte Straftaten betreffend Körperverletzung",
+		"subtitle": "pro 1000 Einwohner, Basel-Stadt",
 		"kuerzel": "I.19.1.4869",
 		"kuerzelKunde": "3.2.04",
-		"description": "Anzeigen wegen Körperverletzung pro 1000 Einwohner",
+		"description": "Angezeigte Straftaten betreffend Körperverletzung",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-02T11:39:19.1919",
+		"aktualisierungsdatum": "2018-10-18T15:58:47.4747",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
@@ -16143,43 +16146,41 @@ var indikatoren = [
 		"id": 6175
 	},
 	{
-		"title": "Anzahl Straftaten nach StGB pro 1000 Einwohner",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.19.1.6176",
+		"title": "Angezeigte Straftaten betreffend Strafgesetzbuch",
+		"subtitle": "pro 1000 Einwohner, Basel-Stadt",
+		"kuerzel": "I.19.1.06176",
 		"kuerzelKunde": "10.1",
-		"description": "Anzahl Straftaten nach StGB pro 1000 Einwohner",
+		"description": "Angezeigte Straftaten betreffend Strafgesetzbuch",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T11:39:46.4646",
+		"aktualisierungsdatum": "2018-10-18T15:58:47.4747",
 		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl Straftaten nach Strafgesetzbuch pro 1000 Einwohner beträgt 2017 etwas mehr als 110. Im Jahr 2012 lag der Wert über 140 und damit am höchsten innerhalb des beobachteten Zeitraums.",
-		"erlaeuterungen": "Auf die ständige Wohnbevölkerung am Hauptwohnsitz am Jahresende berechnet. Wohnbevölkerung: Vorjahreszahlen.",
-		"template": "line001",
+		"lesehilfe": "Im Jahr 2017 wurden pro 1000 Einwohner 130,1 Anzeigen gemäss Strafgesetzbuch (StGB) erstattet.",
+		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB), berechnet auf die ständige Wohnbevölkerung am Jahresende.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "10_00_00_00_00_001",
-		"parentId": null,
-		"children": [
-			"6323"
-		],
+		"parentId": 4866,
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)",
-			"Polizeiliche Kriminalitätsstatistk (PKS)"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
 		],
 		"externalLinks": [
 			""
 		],
-		"id": 6176,
-		"darstellungsart": "Grafik"
+		"id": 6176
 	},
 	{
 		"title": "Anzahl Strassenverkehrsunfälle",
