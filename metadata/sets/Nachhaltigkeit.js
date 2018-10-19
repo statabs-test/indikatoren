@@ -2400,7 +2400,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bevölkerung nach Staatsangehörigkeit",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.01.1.06592",
 		"kuerzelKunde": "BE5.1",
 		"description": "Bevölkerung nach Staatsangehörigkeit",
@@ -2410,15 +2410,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-03T11:07:53.5353",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2016 lebten im Kanton Basel-Stadt 127 398 Schweizerinnen und Schweizer und 70 808 Ausländerinnen und Ausländer. Während die Zahl der ausländischen Personen seit Ende 1997 um 18 925 anstieg, sank die Anzahl Personen mit Schweizer Staatsangehörigkeit im gleichen Zeitraum um 14 927.",
+		"lesehilfe": "Ende 2017 lebten im Kanton Basel-Stadt 127 378 Schweizerinnen und Schweizer und 71 610 Ausländerinnen und Ausländer. Während die Zahl der ausländischen Personen seit Ende 1998 um 19 826 anstieg, sank die Anzahl Personen mit Schweizer Staatsangehörigkeit im gleichen Zeitraum um 13 030.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "01_01_00_00_00_105",
 		"parentId": 6058,
 		"children": [],
@@ -2429,8 +2431,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6592,
-		"darstellungsart": "Grafik"
+		"id": 6592
 	},
 	{
 		"title": "Ausländeranteil",
