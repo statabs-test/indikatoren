@@ -3,15 +3,11 @@
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },
       "index": 0,
       "color": "#008AC3",
       "data": [
-        [
-          "2005",
-          705
-        ],
         [
           "2006",
           727
@@ -55,6 +51,10 @@
         [
           "2016",
           849
+        ],
+        [
+          "2017",
+          857
         ]
       ],
       "name": "Genossenschaftswohnungen",
@@ -63,15 +63,11 @@
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true
+        "enabled": false
       },
       "index": 1,
       "color": "#990300",
       "data": [
-        [
-          "2005",
-          1090
-        ],
         [
           "2006",
           1104
@@ -90,7 +86,7 @@
         ],
         [
           "2010",
-          1117
+          1177
         ],
         [
           "2011",
@@ -115,6 +111,10 @@
         [
           "2016",
           1263
+        ],
+        [
+          "2017",
+          1281
         ]
       ],
       "name": "Ohne Genossenschaftswohnungen",
@@ -179,7 +179,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -220,10 +220,10 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2017-5-22"
   },
   "legend": {
-    "enabled": false,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
@@ -235,7 +235,7 @@
         "enabled": false
       },
       "dataLabels": {
-        "enabled": true,
+        "enabled": false,
         "formatter": function () {
               var last  = this.series.data[this.series.data.length - 1];
               if (this.point.category === last.category  &&  this.point.y === last.y ) {

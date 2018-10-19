@@ -1427,7 +1427,7 @@ var indikatoren = [
 	{
 		"title": "Mietpreisentwicklung",
 		"subtitle": "nach Zimmerzahl",
-		"kuerzel": "I.09.3.04128",
+		"kuerzel": "I.09.3.4128",
 		"kuerzelKunde": "0.1.B-1",
 		"description": "Mietpreisentwicklung",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -1445,6 +1445,8 @@ var indikatoren = [
 		"lesehilfe": "Seit 2008 ist bei allen Zimmerkategorien eine steigende Tendenz der Mietpreise (Nettomieten) zu beobachten.",
 		"erlaeuterungen": "Es handelt sich hier im Gegensatz zu den Mietpreisen der Leerwohnungen um Bestandsmieten.<br/>Die Mietpreisangaben stützen sich auf systematische Stichprobenerhebungen, die 5% der Miet- und Genossenschaftswohnungen umfassen. Einzelne Mittelwerte basieren deshalb nur auf wenigen Mietpreisangaben.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
@@ -1456,8 +1458,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 4128,
-		"darstellungsart": "Grafik"
+		"id": 4128
 	},
 	{
 		"title": "Mietpreisentwicklung der Leerwohnungen nach Zimmerzahl",
@@ -1495,8 +1496,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Mietpreisentwicklung der 3-Zimmer-Wohnungen",
-		"subtitle": "",
-		"kuerzel": "I.09.3.04130",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.09.3.4130",
 		"kuerzelKunde": "0.1.B-3",
 		"description": "Mietpreisentwicklung der 3-Zimmer-Wohnungen",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -1514,6 +1515,8 @@ var indikatoren = [
 		"lesehilfe": "Die Nettomietpreise der Genossenschaftswohnungen sind in den letzten 10 Jahren im Durchschnitt ein Drittel günstiger als die Mietpreise der übrigen Mietwohnungen.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
@@ -1525,8 +1528,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"id": 4130,
-		"darstellungsart": "Grafik"
+		"id": 4130
 	},
 	{
 		"title": "Wohnungsbelegung",
