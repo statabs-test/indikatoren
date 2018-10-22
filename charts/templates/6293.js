@@ -26,16 +26,16 @@ global Highcharts
 
   },
   "series": [
-    {"color": "#008AC3",
+    {"color": "#3C3C3C",
     legendIndex: 0,}, /* grün */
   	{
-  	  "color": "#68AB2B",
+  	  "color": "#008AC3",
 	    legendIndex: 2,
     }, /* blau */
   	{
-  	  "color": "#3C3C3C",
+  	  "color": "#68AB2B",
     	legendIndex: 1,
-    }, /* scharz */
+    }, /* schwarz */
   ],
   "legend": {
     "enabled": true,
