@@ -127,7 +127,9 @@
     },
     dataLabels: {
             enabled: false,
-            style: {fontSize: 10}
+            style: {
+                fontSize: 10,
+            }
         }
 	};
 }());
