@@ -73,7 +73,7 @@
         },
         "labels": {
             "style": {
-            	fontSize: 10,
+            	fontSize: '10px',
                 color: "#000000",
             }
         },
@@ -93,7 +93,7 @@
         "labels": {
             y: 3, 
             "style": {
-            	fontSize: 10,
+            	fontSize: '10px',
                 color: "#000000"
             }
         }
@@ -128,7 +128,7 @@
     dataLabels: {
             enabled: false,
             style: {
-                fontSize: 10,
+                fontSize: '10px',
             }
         }
 	};

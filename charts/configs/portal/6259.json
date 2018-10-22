@@ -809,7 +809,7 @@
     },
     "labels": {
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000"
       }
     },
@@ -889,7 +889,7 @@
   "dataLabels": {
     "enabled": false,
     "style": {
-      "fontSize": 10
+      "fontSize": "10px"
     }
   },
   "tooltip": {

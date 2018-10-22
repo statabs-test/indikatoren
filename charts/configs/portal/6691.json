@@ -138,7 +138,7 @@
     },
     "labels": {
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000"
       },
       "formatter": function (){
@@ -238,7 +238,7 @@
     "labels": {
       "y": 15,
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000"
       },
       "formatter": function (){
@@ -279,7 +279,7 @@
   "dataLabels": {
     "enabled": false,
     "style": {
-      "fontSize": 10
+      "fontSize": "10px"
     }
   },
   "exporting": {

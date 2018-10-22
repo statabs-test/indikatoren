@@ -16,7 +16,7 @@
         y: 3,
          style: {
          color: "black",
-         fontSize: 10,
+         fontSize: '10px',
         },
       },
       min: 0,  
@@ -31,7 +31,7 @@
         y: 3,
         style: {
          color: "black",
-         fontSize: 10,
+         fontSize: '10px',
         },
       },
       min: 0,

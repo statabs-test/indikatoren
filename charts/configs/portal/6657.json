@@ -307,7 +307,7 @@
     },
     "labels": {
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000"
       },
       "y": 3,
@@ -407,7 +407,7 @@
     "labels": {
       "y": 10,
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000",
         "textOverflow": "none"
       },
@@ -454,7 +454,7 @@
   "dataLabels": {
     "enabled": false,
     "style": {
-      "fontSize": 10
+      "fontSize": "10px"
     }
   },
   "tooltip": {

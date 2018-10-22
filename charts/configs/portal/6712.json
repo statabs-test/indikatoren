@@ -117,7 +117,7 @@
     },
     "labels": {
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000"
       },
       "padding": -100,
@@ -217,7 +217,7 @@
     "labels": {
       "y": 18,
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000",
         "textOverflow": "none"
       },
@@ -263,7 +263,7 @@
   "dataLabels": {
     "enabled": false,
     "style": {
-      "fontSize": 10
+      "fontSize": "10px"
     }
   },
   "tooltip": {

@@ -14,7 +14,7 @@
             labels: {
                 rotation: -45, 
                 style: {
-                    fontSize: 10,
+                    fontSize: '10px',
                 },
             }
             //range: 50 * 12 * 30 * 24 * 3600 * 1000, //50 years
@@ -27,7 +27,7 @@
             labels: {
             	format: '{value:,.0f}', 
             	style: {
-            	    fontSize: 10,
+            	    fontSize: '10px',
             	},
             }, 
             opposite: false

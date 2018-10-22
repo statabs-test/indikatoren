@@ -587,7 +587,7 @@
     },
     "labels": {
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000"
       }
     },
@@ -600,7 +600,7 @@
         "format": "{value:,.0f}",
         "style": {
           "color": "#000000",
-          "fontSize": 10
+          "fontSize": "10px"
         }
       },
       "y": 3,
@@ -619,7 +619,7 @@
         "format": "{value:,.0f}",
         "style": {
           "color": "#000000",
-          "fontSize": 10
+          "fontSize": "10px"
         }
       },
       "y": 3,
@@ -665,7 +665,7 @@
   "dataLabels": {
     "enabled": false,
     "style": {
-      "fontSize": 10
+      "fontSize": "10px"
     }
   },
   "tooltip": {

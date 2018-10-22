@@ -5,7 +5,7 @@
       "format": "{value:,.0f}‰",
       "style": {
         color: "#000000", 
-        fontSize: 10,
+        fontSize: '10px',
       }
     },
     "min": 0,
@@ -25,7 +25,7 @@
       "format": "{value:,.0f} Fr.",
       "style": {
         color: "#000000",
-        fontSize: 10,
+        fontSize: '10px',
       }
     },
     "min": 0,

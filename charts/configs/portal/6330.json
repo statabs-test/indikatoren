@@ -595,7 +595,7 @@
     },
     "labels": {
       "style": {
-        "fontSize": 10,
+        "fontSize": "10px",
         "color": "#000000"
       }
     },
@@ -609,7 +609,7 @@
         "y": 3,
         "style": {
           "color": "#000000",
-          "fontSize": 10
+          "fontSize": "10px"
         }
       },
       "min": 0,
@@ -629,7 +629,7 @@
         "y": 3,
         "style": {
           "color": "#000000",
-          "fontSize": 10
+          "fontSize": "10px"
         }
       },
       "min": 0,
@@ -675,7 +675,7 @@
   "dataLabels": {
     "enabled": false,
     "style": {
-      "fontSize": 10
+      "fontSize": "10px"
     }
   },
   "tooltip": {
