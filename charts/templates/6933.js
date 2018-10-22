@@ -38,6 +38,7 @@
 		        {x: 0, y: 17},
 		        {x: 0, y: 18},
 		        {x: 0, y: 19},
+		        {x: 0, y: 1 }, //dummy series to get Wohnviertel
         ],
         parsed: function(columns){ 
           //define which wohnviertel to display
@@ -55,6 +56,10 @@
               }
             }
           }
+          
+
+          //Create a new Series named like the current Wohnviertel, with its id as content
+          columns[1][0] = columns[2][1];
         },
       },
       series: [
@@ -75,6 +80,7 @@
         {"color": "rgb(131, 82, 46)"},
         {"color": "rgb(255, 232, 70)"},
         {"color": "rgb(60, 60, 60)"},
+        {showInLegend: false, visible: false} //dummy series to get Wohnviertel
       ],
       legend: {
         enabled: true, 
@@ -91,7 +97,17 @@
         }
       },
      tooltip: {
+         //headerFormat: '<span style="font-size: 10px">{point.key} {series.chart.series[17].name}</span><br/>',
          //pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y} ({point.percentage:.1f}%)</b><br/>',
+          formatter: function () {
+            console.log(this.points[0].series.chart.series[17].name);
+            var s = '<b>' + this.x + ' '  + this.points[0].series.chart.series[17].name + '</b>';
+            $.each(this.points, function () {
+                s += '<br/>' + this.series.name + ': ' +
+                    this.y + 'm';
+            });
+            return s;
+        },
          shared: true,
      },      
      plotOptions: {
