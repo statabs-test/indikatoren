@@ -13,7 +13,7 @@
       {
         "marker": {
           "symbol": "circle",
-          "enabled": true
+          "enabled": false
         },
         "index": 0,
         "color": "#008AC3"
@@ -21,19 +21,28 @@
       {
         "marker": {
           "symbol": "circle",
-          "enabled": true
+          "enabled": false
         },
         "index": 1,
         "color": "#990300"
       }
     ],
+    "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
     "tooltip": {
       "shared": false
     },
     "plotOptions": {
       "series": {
         "dataLabels": {
-          "enabled": true,
+          "enabled": false,
             //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
             formatter: function() {
               var last  = this.series.data[this.series.data.length - 1];

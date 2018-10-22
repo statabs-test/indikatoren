@@ -1427,7 +1427,7 @@
 	{
 		"title": "Mietpreisentwicklung",
 		"subtitle": "nach Zimmerzahl",
-		"kuerzel": "I.09.3.04128",
+		"kuerzel": "I.09.3.4128",
 		"kuerzelKunde": "0.1.B-1",
 		"description": "Mietpreisentwicklung",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -1445,6 +1445,8 @@
 		"lesehilfe": "Seit 2008 ist bei allen Zimmerkategorien eine steigende Tendenz der Mietpreise (Nettomieten) zu beobachten.",
 		"erlaeuterungen": "Es handelt sich hier im Gegensatz zu den Mietpreisen der Leerwohnungen um Bestandsmieten.<br/>Die Mietpreisangaben stützen sich auf systematische Stichprobenerhebungen, die 5% der Miet- und Genossenschaftswohnungen umfassen. Einzelne Mittelwerte basieren deshalb nur auf wenigen Mietpreisangaben.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
@@ -1456,8 +1458,7 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4128,
-		"darstellungsart": "Grafik"
+		"id": 4128
 	},
 	{
 		"title": "Mietpreisentwicklung der Leerwohnungen nach Zimmerzahl",
@@ -1495,8 +1496,8 @@
 	},
 	{
 		"title": "Mietpreisentwicklung der 3-Zimmer-Wohnungen",
-		"subtitle": "",
-		"kuerzel": "I.09.3.04130",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.09.3.4130",
 		"kuerzelKunde": "0.1.B-3",
 		"description": "Mietpreisentwicklung der 3-Zimmer-Wohnungen",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -1514,6 +1515,8 @@
 		"lesehilfe": "Die Nettomietpreise der Genossenschaftswohnungen sind in den letzten 10 Jahren im Durchschnitt ein Drittel günstiger als die Mietpreise der übrigen Mietwohnungen.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
@@ -1525,8 +1528,7 @@
 		"externalLinks": [
 			""
 		],
-		"id": 4130,
-		"darstellungsart": "Grafik"
+		"id": 4130
 	},
 	{
 		"title": "Wohnungsbelegung",
@@ -12469,43 +12471,6 @@
 			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'http://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>."
 		],
 		"id": 6215,
-		"darstellungsart": "Grafik"
-	},
-	{
-		"title": "Zufriedenheit mit verschiedenen Aspekten und Angeboten am Wohnort",
-		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» Stand: 2015",
-		"kuerzel": "I.50.1.06216",
-		"kuerzelKunde": "ST 5-3",
-		"description": "Zufriedenheit mit verschiedenen Aspekten und Angeboten am Wohnort",
-		"thema": "50 Befragungen",
-		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Richtplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2017-10-27T00:00:00.000",
-		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "2015 hatten die befragten Personen die Gelegenheit verschiedene Punkte, die für den Wohnort wichtig sind, einzuschätzen. Am zufriedensten sind die befragten Einwohnerinnen und Einwohner mit den Öffentlichen Verkehrsmitteln, gefolgt von den Grünanlagen. Am wenigsten zufrieden sind Sie mit den Parkplätzen und dem Angebot an Wohnungen.",
-		"erlaeuterungen": "2003: N=1495, 2005: N=1509, 2007: N=1505, 2011: N=1516, 2015: N=1504.",
-		"template": "befragungen001",
-		"visibleInPortal": true,
-		"orderKey": "01_02_00_00_00_003",
-		"parentId": null,
-		"children": [
-			"6261"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bevölkerungsbefragung Basel-Stadt 2015, Frage F6"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 6216,
 		"darstellungsart": "Grafik"
 	},
 	{
