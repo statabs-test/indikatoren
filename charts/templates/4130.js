@@ -16,7 +16,7 @@
           "enabled": false
         },
         "index": 0,
-        "color": "#008AC3"
+        "color": "#007A2F"
       },
       {
         "marker": {
@@ -24,17 +24,20 @@
           "enabled": false
         },
         "index": 1,
-        "color": "#990300"
+        "color": "#CD9C00"
       }
     ],
     "legend": {
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
+    itemMarginBottom: 7,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+     itemDistance: 6,
+     padding: 1,
   },
     "tooltip": {
       "shared": false
