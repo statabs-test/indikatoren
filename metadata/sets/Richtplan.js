@@ -803,7 +803,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Indexierter Verlauf der Haushalte in Begegnungszonen",
-		"subtitle": "Werte 2011 = 100",
+		"subtitle": "Basel, Werte 2011 = 100",
 		"kuerzel": "I.01.2.06220",
 		"kuerzelKunde": "ST 5-4",
 		"description": "Indexierter Verlauf der Haushalte in Begegnungszonen",
