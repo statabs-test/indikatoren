@@ -410,7 +410,8 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemDistance": 4
+    "width": 500,
+    "itemDistance": 8
   },
   "plotOptions": {
     "series": {

@@ -52,7 +52,8 @@
       }
     ],
     "legend": {
-    "itemDistance": 4,
+      "width": 500,
+    "itemDistance": 8,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
