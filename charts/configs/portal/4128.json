@@ -409,7 +409,8 @@
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "itemDistance": 4
   },
   "plotOptions": {
     "series": {
