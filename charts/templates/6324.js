@@ -1,10 +1,15 @@
 (function(){
     return {
   "xAxis": {
-    "tickInterval": 2
+    "tickInterval": 1,
+    labels: {
+      step: 1,
+      rotation: -45,
+    },
   },
   "yAxis": {
-    tickAmount: 5,
+    tickInterval: 500,
+    max: 3000,
   	"labels": {
   		"format": "{value:,.0f}"
   	}
@@ -14,8 +19,21 @@
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   },
   "series": [
-    {"color": "#008AC3",
-    }, /* dunkelrot */
+    {
+      "marker": {
+        "enabled": false
+      },
+      "color": "#8b2223"
+    },
+    {
+      "marker": {
+        "symbol": "circle",
+        "enabled": true, 
+        radius: 2
+      },
+      "color": "#8b2223"
+    }
+    
   ],
   "legend": {
     "enabled": false,

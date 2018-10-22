@@ -428,7 +428,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "marginRight": 4,
+    "marginRight": 5,
     "renderTo": "container-6278",
     "spacingBottom": 12
   },

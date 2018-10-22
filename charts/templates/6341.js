@@ -8,14 +8,13 @@
     },
  	"xAxis": {
         "type": "category",
+        tickInterval: 1,
         "labels": {
     		  align: "left",
           x: -150,
           y: 3,
           padding: 0,
-          style: {
-            "fontSize": "9px",
-          },
+          step: 1,
           "formatter": function() {
               //add sum of observations of visible series to the axis label
               var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
@@ -56,5 +55,5 @@
      width: 665, 
      spacing: [1,1,1,1]
   },
-}
+};
 }());

@@ -1,7 +1,10 @@
 {
   "series": [
     {
-      "color": "#008AC3",
+      "marker": {
+        "enabled": false
+      },
+      "color": "#8b2223",
       "data": [
         [
           1998,
@@ -85,6 +88,97 @@
         ]
       ],
       "name": "Unfälle"
+    },
+    {
+      "marker": {
+        "symbol": "circle",
+        "enabled": true,
+        "radius": 2
+      },
+      "color": "#8b2223",
+      "data": [
+        [
+          1998,
+          null
+        ],
+        [
+          1999,
+          null
+        ],
+        [
+          2000,
+          null
+        ],
+        [
+          2001,
+          null
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2003,
+          null
+        ],
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          835
+        ]
+      ],
+      "name": "Unfälle ab 2017"
     }
   ],
   "chart": {
@@ -167,7 +261,8 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickAmount": 5
+    "tickInterval": 500,
+    "max": 3000
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -178,10 +273,12 @@
         "color": "#000000",
         "textOverflow": null,
         "whiteSpace": "nowrap"
-      }
+      },
+      "step": 1,
+      "rotation": -45
     },
     "tickLength": 0,
-    "tickInterval": 2
+    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",

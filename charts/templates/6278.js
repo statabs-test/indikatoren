@@ -1,10 +1,10 @@
 (function(){
     return {
   chart: {
-    marginRight: 4,
+    marginRight: 5,
   },
   "xAxis": {
-    "tickInterval": 2
+    "tickInterval": 2,
   },
   "yAxis": {
   	min: 100,

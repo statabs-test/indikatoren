@@ -709,7 +709,7 @@
         "width": 1,
         "whiteSpace": "nowrap",
         "textOverflow": "none",
-        "fontSize": "9px"
+        "fontSize": "10px"
       },
       "formatter": function () {
               //add sum of observations of visible series to the axis label
@@ -728,8 +728,10 @@
       "align": "left",
       "x": -150,
       "y": 3,
-      "padding": 0
-    }
+      "padding": 0,
+      "step": 1
+    },
+    "tickInterval": 1
   },
   "chart": {
     "events": {
