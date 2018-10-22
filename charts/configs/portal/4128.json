@@ -411,7 +411,7 @@
       "fontWeight": "normal"
     },
     "width": 500,
-    "itemDistance": 8
+    "itemDistance": 10
   },
   "plotOptions": {
     "series": {
