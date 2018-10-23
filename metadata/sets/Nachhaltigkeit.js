@@ -175,8 +175,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Saldo aus Geburten und Todesfällen",
-		"subtitle": "",
-		"kuerzel": "I.01.1.05148",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.01.1.5148",
 		"kuerzelKunde": "BE6",
 		"description": "Saldo aus Geburten und Todesfällen",
 		"thema": "01 Bevölkerung",
@@ -194,6 +194,8 @@ var indikatorensetData = [
 		"lesehilfe": "In den Jahren 2007 bis 2015 überstieg die Zahl der Todesfälle stets diejenige der Geburten. 2016 hingegen gab es mehr Lebendgeborene als Gestorbene, der Saldo aus Geburten und Todesfällen betrug 152.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "01_01_00_00_00_107",
 		"parentId": null,
 		"children": [],
@@ -204,8 +206,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5148,
-		"darstellungsart": "Grafik"
+		"id": 5148
 	},
 	{
 		"title": "Geburtenziffer nach Staatsangehörigkeit",
