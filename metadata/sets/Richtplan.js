@@ -1,17 +1,17 @@
 var indikatorensetData = [
 	{
-		"title": "Bevölkerungsdichte",
+		"title": "Bevölkerungsdichte Basel-Stadt",
 		"subtitle": "Anzahl Einwohner pro Hektar",
-		"kuerzel": "I.01.1.05201",
+		"kuerzel": "I.01.1.5201",
 		"kuerzelKunde": "ST 4-2",
-		"description": "Bevölkerungsdichte",
+		"description": "Bevölkerungsdichte Basel-Stadt",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-01-16T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-23T15:54:04.044",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -20,6 +20,8 @@ var indikatorensetData = [
 		"lesehilfe": "Bis 2002 verzeichnete Basel-Stadt sinkende Bevölkerungszahlen. Seit 2007 nimmt die baselstädtische Wohnbevölkerung und mit ihr die Bevölkerungsdichte wieder zu.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "01_01_00_00_00_002",
 		"parentId": null,
 		"children": [
@@ -32,8 +34,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5201,
-		"darstellungsart": "Grafik"
+		"id": 5201
 	},
 	{
 		"title": "Bevölkerungsdichte",
