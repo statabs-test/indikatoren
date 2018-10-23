@@ -15,9 +15,9 @@
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true
-      },
-      "index": 0,
+        "enabled": false
+     },
+    "index": 0,
       "color": "#923f8d"
     }
   ],
@@ -26,9 +26,7 @@
   },
   "plotOptions": {
     "series": {
-      "dataLabels": {
-        "enabled": true,
-        //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
+             //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
         "formatter": function() {
           var last  = this.series.data[this.series.data.length - 1];
           var first  = this.series.data[0];
@@ -38,6 +36,5 @@
         }
       }
     }
-  }
 	}
 }());
