@@ -62,7 +62,6 @@ global Highcharts
             }
           }
           
-
           //Create a new Series named like the current Wohnviertel, with its id as content
           columns[1][0] = columns[2][1];
         },
