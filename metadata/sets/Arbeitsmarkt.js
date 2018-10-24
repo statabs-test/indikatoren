@@ -2,7 +2,7 @@ var indikatorensetData = [
 	{
 		"title": "Neue Grenzgängerbewilligungen nach Branche",
 		"subtitle": "Jährlich erteilte Bewilligungen, Basel-Stadt",
-		"kuerzel": "I.03.5.02151",
+		"kuerzel": "I.03.5.2151",
 		"kuerzelKunde": "3.4-04",
 		"description": "Neue Grenzgängerbewilligungen nach Branche",
 		"thema": "03 Erwerbsleben",
@@ -11,7 +11,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-18T17:53:33.3333",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Grenzgänger",
@@ -20,6 +20,8 @@ var indikatorensetData = [
 		"lesehilfe": "Die Branche Beratung, Planung, Forschung, Immobilien und IT weist den grössten Anteil von erteilten Grenzgängerbewilligungen in Basel-Stadt auf. 2017 wurden 2 820 neue Bewilligungen erteilt. Der Anteil an allen beträgt 53,6%. Zehn Jahre zuvor lag er bei 23,9%. Die Anteile der meisten anderen Branchen wurden entsprechend kleiner. Jedes Jahr (ausser 2008) wurden zwischen 5 000 und 6 000 Grenzgängerbewilligungen erteilt. Es sind auch Bewilligungen enthalten, die erneuert wurden.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Die Zahl umfasst neuerteilte und erneuererte Grenzgängerbewilligungen.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "02_04_01_00_00_404",
 		"parentId": null,
 		"children": [],
@@ -30,8 +32,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2151,
-		"darstellungsart": "Grafik"
+		"id": 2151
 	},
 	{
 		"title": "Grenzgänger nach Wohnort und Geschlecht",
@@ -617,17 +618,16 @@ var indikatorensetData = [
 	{
 		"title": "Zuwanderung von Erwerbstätigen nach Geschlecht",
 		"subtitle": "Kurz- und Daueraufenthalter, Basel-Stadt",
-		"kuerzel": "I.03.5.02462",
+		"kuerzel": "I.03.5.2462",
 		"kuerzelKunde": "3.4-10",
 		"description": "Zuwanderung von Erwerbstätigen nach Geschlecht",
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
-			"Kanton",
-			"Schweiz"
+			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-18T09:11:20.2020",
 		"stufe1": "Monitoring Basler Arbeitsmarkt",
 		"stufe2": "Ausländische Erwerbstätige",
 		"stufe3": "Zuwanderung",
@@ -636,6 +636,8 @@ var indikatorensetData = [
 		"lesehilfe": "Im 4. Quartal 2017 sind es 929 zugewanderte erwerbstätige Männer und 575 Frauen. Der Anteil der Frauen an der Zuwanderung von Erwerbstätigen bewegt sich seit Jahren zwischen 35% und 40%. Die Zuwanderung von Männern erreichte im 1. Quartal 2017 mit 1 353 Personen einen Höchstwert in der betrachteten Periode.",
 		"erlaeuterungen": "Die Ausländerstatistik liefert Informationen über die Zuwanderung in die erwerbstätige, ausländische Bevölkerung (erfasst im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "02_04_02_00_00_410",
 		"parentId": null,
 		"children": [],
@@ -646,8 +648,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 2462,
-		"darstellungsart": "Grafik"
+		"id": 2462
 	},
 	{
 		"title": "Zuwanderung von Erwerbstätigen nach Aufenthaltsbewilligung",

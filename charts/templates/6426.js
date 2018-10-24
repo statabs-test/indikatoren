@@ -26,7 +26,7 @@
     },
 	"max": undefined
   },
-  "legend": {
+	"legend": {
     "enabled": true,
     itemDistance: 3, 
     "layout": "horizontal",

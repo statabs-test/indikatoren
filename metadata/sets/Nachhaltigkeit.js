@@ -105,8 +105,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Altersquotient",
-		"subtitle": "",
-		"kuerzel": "I.01.1.05144",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.01.1.5144",
 		"kuerzelKunde": "BE3",
 		"description": "Altersquotient",
 		"thema": "01 Bevölkerung",
@@ -115,7 +115,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-13T15:47:44.4444",
+		"aktualisierungsdatum": "2018-10-23T15:40:09.099",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -124,6 +124,8 @@ var indikatorensetData = [
 		"lesehilfe": "Der Altersquotient ist zwischen 2008 und 2017 leicht gesunken. Dies ist darauf zurückzuführen, dass die Zahl der Personen im Erwerbsalter stärker zugenommen hat als diejenige der Senioren.",
 		"erlaeuterungen": "Der Altersquotient bezeichnet die Anzahl 65-Jährige und Ältere pro 100 20- bis 64-Jährige.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "01_01_00_00_00_103",
 		"parentId": null,
 		"children": [],
@@ -131,16 +133,19 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5144,
-		"darstellungsart": "Grafik"
+		"data-id": 5144,
+		"chart-id": 5144,
+		"filter": "",
+		"id": 5144
 	},
 	{
 		"title": "Jugendquotient",
-		"subtitle": "",
-		"kuerzel": "I.01.1.05147",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.01.1.5147",
 		"kuerzelKunde": "BE4",
 		"description": "Jugendquotient",
 		"thema": "01 Bevölkerung",
@@ -149,7 +154,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-13T16:34:54.5454",
+		"aktualisierungsdatum": "2018-10-23T15:58:43.4343",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -158,6 +163,8 @@ var indikatorensetData = [
 		"lesehilfe": "Der Jugendquotient ist von 2008 bis 2011 leicht zurückgegangen. Dies liegt daran, dass die Zahl der Jugendlichen deutlich weniger stark gestiegen ist als jene der Personen im Erwerbsalter. Seit 2013 steigt der Jugendquotient wieder.",
 		"erlaeuterungen": "Der Jugendquotient ergibt sich aus der Anzahl 0- bis 19-Jähriger pro 100 20- bis 64-Jährige.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "01_01_00_00_00_104",
 		"parentId": null,
 		"children": [],
@@ -165,11 +172,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5147,
-		"darstellungsart": "Grafik"
+		"data-id": 5147,
+		"chart-id": 5147,
+		"filter": "",
+		"id": 5147
 	},
 	{
 		"title": "Saldo aus Geburten und Todesfällen",
@@ -380,7 +390,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
-		"subtitle": "pro Kopf in Franken",
+		"subtitle": "pro Kopf in Franken, Basel-Stadt",
 		"kuerzel": "I.04.1.05161",
 		"kuerzelKunde": "SH2",
 		"description": "Entwicklung der Staatsausgaben nach Funktion",
@@ -390,15 +400,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-13T17:07:19.1919",
+		"aktualisierungsdatum": "2018-10-18T11:44:47.4747",
 		"stufe1": "Bereich Staatliches Handeln",
 		"stufe2": "Finanzhaushalt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den meisten Bereichen haben sich die Ausgaben seit 2008 erhöht. Den höchsten Anteil an den Gesamtausgaben hat die Funktion «Bildung», gefolgt von «Soziale Sicherheit» und «Gesundheit». Der hohe Wert von «Allgemeine Verwaltung» 2008 ist auf die Ausfinanzierung der Deckungslücke der Pensionskasse zurückzuführen.",
+		"lesehilfe": "In den meisten Bereichen haben sich die Ausgaben seit 2008 erhöht. Den höchsten Anteil an den Gesamtausgaben hat 2016 die Funktion «Bildung», gefolgt von «Soziale Sicherheit» und «Allgemeine Verwaltung». Die erhöhten Werte von «Allgemeine Verwaltung» 2008 und 2016 stehen jeweils in erster Linie mit der Pensionskassenreform in Zusammenhang.",
 		"erlaeuterungen": "Seit 2008 verwendet die Eidgenössischen Finanzverwaltung (EFV) wegen des Neuen Finanzausgleichs in der Finanzstatistik ein neues Sektorisierungskonzept an, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "02_01_00_00_00_202",
 		"parentId": 6131,
 		"children": [],
@@ -409,8 +421,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5161,
-		"darstellungsart": "Grafik"
+		"id": 5161
 	},
 	{
 		"title": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
@@ -483,8 +494,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort",
-		"subtitle": "Stand: 2015 <br> «Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?»",
-		"kuerzel": "I.50.1.05178",
+		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» <br> Stand: 2015",
+		"kuerzel": "I.50.1.5178",
 		"kuerzelKunde": "GW2",
 		"description": "Zufriedenheit mit verschiedenen Aspekten am Wohnort",
 		"thema": "50 Befragungen",
@@ -493,7 +504,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-19T09:22:11.1111",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Lebensqualität",
 		"stufe3": "",
@@ -502,6 +513,8 @@ var indikatorensetData = [
 		"lesehilfe": "2015 hatten die befragten Personen die Gelegenheit, 23 Punkte, die für den Wohnort wichtig sind, zu bewerten. Am zufriedensten sind sie mit der generellen Vielfalt der Einkaufsmöglichkeiten in Basel, gefolgt von den öffentlichen Verkehrsmitteln und der Gesundheitsversorgung. Beim Thema Parkplätze gehen die Meinungen auseinander: Der Anteil Zufriedener und der Anteil Unzufriedener halten sich in etwa die Waage.",
 		"erlaeuterungen": "Frage 6 zur Zufriedenheit ist eine Filterfrage und wurde nur den Personen gestellt, die Frage 5 zur Wichtigkeit nicht mit «Keine Angabe» beantwortet haben.",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "03_01_00_00_00_302",
 		"parentId": null,
 		"children": [
@@ -516,8 +529,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5178,
-		"darstellungsart": "Grafik"
+		"id": 5178
 	},
 	{
 		"title": "Lebenserwartung bei Geburt",
@@ -1012,18 +1024,18 @@ var indikatorensetData = [
 		"darstellungsart": "Grafik"
 	},
 	{
-		"title": "Mietpreisindex",
+		"title": "Mietpreisindex Basel-Stadt",
 		"subtitle": "Indexwert (Basis 2015 = 100)",
-		"kuerzel": "I.09.3.05196",
+		"kuerzel": "I.09.3.5196",
 		"kuerzelKunde": "GW18",
-		"description": "Mietpreisindex",
+		"description": "Mietpreisindex Basel-Stadt",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Mietpreise",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-23T16:07:41.4141",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
@@ -1032,6 +1044,8 @@ var indikatorensetData = [
 		"lesehilfe": "Der Mietpreisindex zeigt insgesamt eine steigende Entwicklung von berechneten 80,4 Punkten im Jahr 1995 auf den aktuellen Wert von 102,8 im November 2017.",
 		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1-6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "03_06_00_00_00_318",
 		"parentId": null,
 		"children": [],
@@ -1039,11 +1053,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5196,
-		"darstellungsart": "Grafik"
+		"data-id": 5196,
+		"chart-id": 5196,
+		"filter": "",
+		"id": 5196
 	},
 	{
 		"title": "Übermässig mit Lärm belastete Wohnbevölkerung",
@@ -1645,7 +1662,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T10:09:50.5050",
+		"aktualisierungsdatum": "2018-10-23T13:46:59.5959",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengerechtigkeit",
 		"stufe3": "",
@@ -1654,6 +1671,7 @@ var indikatorensetData = [
 		"lesehilfe": "In der Nordwestschweiz erreicht der Medianlohn der Frauen im Jahr 2016 rund 5 920 Franken. Dies entspricht 86% des Medianlohns der Männer (6 850 Fr.). Der Lohnunterschied hat sich gegenüber 2014 kaum verändert, ist jedoch geringer als vor 10 Jahren (2006 betrug das Lohnverhältnis rund 81%).",
 		"erlaeuterungen": "Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u.a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "05_02_00_00_00_504",
 		"parentId": null,
@@ -1665,16 +1683,19 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6037,
-		"darstellungsart": "Grafik"
+		"data-id": 6037,
+		"chart-id": 6037,
+		"filter": "",
+		"id": 6037
 	},
 	{
 		"title": "Übertritte nach der obligatorischen Schulzeit",
-		"subtitle": "im Schuljahr 2016/17",
-		"kuerzel": "I.15.1.06039",
+		"subtitle": "im Schuljahr 2017/18, Basel-Stadt",
+		"kuerzel": "I.15.1.6039",
 		"kuerzelKunde": "GZ6",
 		"description": "Übertritte nach der obligatorischen Schulzeit",
 		"thema": "15 Bildung",
@@ -1683,7 +1704,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-22T11:53:22.2222",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengerechtigkeit",
 		"stufe3": "",
@@ -1692,6 +1713,8 @@ var indikatorensetData = [
 		"lesehilfe": "Nach wie vor treten Schülerinnen nach der obligatorischen Schulzeit deutlich häufiger ins Gymnasium oder eine weiterführende Schule ein als Schüler, letztere besuchen danach hingegen häufiger eine berufliche Grundbildung. Noch deutlicher sind die Unterschiede, wenn die Schülerinnen und Schüler nach Staatsangehörigkeit oder Erstsprache gruppiert werden.",
 		"erlaeuterungen": "Jährliche Befragung von Schulabgängerinnen und Schulabgängern durch das Erziehungsdepartement Basel-Stadt.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "05_02_00_00_00_506",
 		"parentId": null,
 		"children": [],
@@ -1702,8 +1725,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6039,
-		"darstellungsart": "Grafik"
+		"id": 6039
 	},
 	{
 		"title": "Freiwillige Tätigkeit",
@@ -2467,7 +2489,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anzahl Ausländer nach Staatsangehörigkeit",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.01.1.06599",
 		"kuerzelKunde": "BE1",
 		"description": "Anzahl Ausländer nach Staatsangehörigkeit",
@@ -2477,20 +2499,20 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-18T17:09:42.4242",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2016 bildeten die Deutschen mit 16 066 Personen die grösste Bevölkerungsgruppe im Kanton. Ihre Anzahl ist seit 2002 kontinuierlich gestiegen. Diesem Anstieg steht ein Rückgang der Anzahl Italiener, Türken und Personen aus dem Balkan gegenüber, wobei die Anzahl Italiener seit 2013 wieder leicht zugenommen hat.",
+		"lesehilfe": "Ende 2017 bildeten die Deutschen mit 16 189 Personen die grösste Bevölkerungsgruppe im Kanton. Ihre Anzahl ist seit 2002 kontinuierlich gestiegen. Diesem Anstieg steht ein Rückgang der Anzahl Italiener, Türken und Personen aus dem Balkan gegenüber, wobei die Anzahl Italiener seit 2013 wieder leicht zugenommen hat.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "01_01_00_00_00_101",
-		"parentId": null,
-		"children": [
-			"6059"
-		],
+		"parentId": 6059,
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -2498,7 +2520,6 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6599,
-		"darstellungsart": "Grafik"
+		"id": 6599
 	}
 ];
