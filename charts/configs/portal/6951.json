@@ -1053,6 +1053,69 @@
         ]
       ],
       "name": "Übrige"
+    },
+    {
+      "showInLegend": false,
+      "visible": false,
+      "data": [
+        [
+          2004,
+          17
+        ],
+        [
+          2005,
+          17
+        ],
+        [
+          2006,
+          17
+        ],
+        [
+          2007,
+          17
+        ],
+        [
+          2008,
+          17
+        ],
+        [
+          2009,
+          17
+        ],
+        [
+          2010,
+          17
+        ],
+        [
+          2011,
+          17
+        ],
+        [
+          2012,
+          17
+        ],
+        [
+          2013,
+          17
+        ],
+        [
+          2014,
+          17
+        ],
+        [
+          2015,
+          17
+        ],
+        [
+          2016,
+          17
+        ],
+        [
+          2017,
+          17
+        ]
+      ],
+      "name": "Matthäus"
     }
   ],
   "chart": {
@@ -1166,7 +1229,16 @@
   },
   "tooltip": {
     "shared": true,
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f} ({point.percentage:.1f}%)\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f} ({point.percentage:.1f}%)\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "formatter": function () {
+            var lastSeriesIndex = this.points[0].series.chart.series.length - 1;
+            var s = '<b>'+ this.points[0].series.chart.series[lastSeriesIndex].name + ' ' +  this.x + '</b>';
+            $.each(this.points, function () {
+                s += '<br/><span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': ' + this.y;
+            });
+            
+            return s;
+        }
   },
   "legend": {
     "enabled": true,

@@ -1053,6 +1053,69 @@
         ]
       ],
       "name": "Übrige"
+    },
+    {
+      "showInLegend": false,
+      "visible": false,
+      "data": [
+        [
+          2004,
+          12
+        ],
+        [
+          2005,
+          12
+        ],
+        [
+          2006,
+          12
+        ],
+        [
+          2007,
+          12
+        ],
+        [
+          2008,
+          12
+        ],
+        [
+          2009,
+          12
+        ],
+        [
+          2010,
+          12
+        ],
+        [
+          2011,
+          12
+        ],
+        [
+          2012,
+          12
+        ],
+        [
+          2013,
+          12
+        ],
+        [
+          2014,
+          12
+        ],
+        [
+          2015,
+          12
+        ],
+        [
+          2016,
+          12
+        ],
+        [
+          2017,
+          12
+        ]
+      ],
+      "name": "Altstadt Kleinbasel"
     }
   ],
   "chart": {
@@ -1166,7 +1229,16 @@
   },
   "tooltip": {
     "shared": true,
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f} ({point.percentage:.1f}%)\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f} ({point.percentage:.1f}%)\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "formatter": function () {
+            var lastSeriesIndex = this.points[0].series.chart.series.length - 1;
+            var s = '<b>'+ this.points[0].series.chart.series[lastSeriesIndex].name + ' ' +  this.x + '</b>';
+            $.each(this.points, function () {
+                s += '<br/><span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': ' + this.y;
+            });
+            
+            return s;
+        }
   },
   "legend": {
     "enabled": true,

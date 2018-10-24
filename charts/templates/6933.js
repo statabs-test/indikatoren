@@ -1,3 +1,8 @@
+/* 
+global $
+global Highcharts
+*/
+
 (function(){
     return {
       yAxis: {
@@ -100,12 +105,12 @@
          //headerFormat: '<span style="font-size: 10px">{point.key} {series.chart.series[17].name}</span><br/>',
          //pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y} ({point.percentage:.1f}%)</b><br/>',
           formatter: function () {
-            console.log(this.points[0].series.chart.series[17].name);
-            var s = '<b>' + this.x + ' '  + this.points[0].series.chart.series[17].name + '</b>';
+            var lastSeriesIndex = this.points[0].series.chart.series.length - 1;
+            var s = '<b>'+ this.points[0].series.chart.series[lastSeriesIndex].name + ' ' +  this.x + '</b>';
             $.each(this.points, function () {
-                s += '<br/>' + this.series.name + ': ' +
-                    this.y + 'm';
+                s += '<br/><span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': ' + this.y;
             });
+            
             return s;
         },
          shared: true,

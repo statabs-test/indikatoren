@@ -1053,6 +1053,69 @@
         ]
       ],
       "name": "Übrige"
+    },
+    {
+      "showInLegend": false,
+      "visible": false,
+      "data": [
+        [
+          2004,
+          7
+        ],
+        [
+          2005,
+          7
+        ],
+        [
+          2006,
+          7
+        ],
+        [
+          2007,
+          7
+        ],
+        [
+          2008,
+          7
+        ],
+        [
+          2009,
+          7
+        ],
+        [
+          2010,
+          7
+        ],
+        [
+          2011,
+          7
+        ],
+        [
+          2012,
+          7
+        ],
+        [
+          2013,
+          7
+        ],
+        [
+          2014,
+          7
+        ],
+        [
+          2015,
+          7
+        ],
+        [
+          2016,
+          7
+        ],
+        [
+          2017,
+          7
+        ]
+      ],
+      "name": "Bruderholz"
     }
   ],
   "chart": {
@@ -1166,7 +1229,16 @@
   },
   "tooltip": {
     "shared": true,
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f} ({point.percentage:.1f}%)\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f} ({point.percentage:.1f}%)\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "formatter": function () {
+            var lastSeriesIndex = this.points[0].series.chart.series.length - 1;
+            var s = '<b>'+ this.points[0].series.chart.series[lastSeriesIndex].name + ' ' +  this.x + '</b>';
+            $.each(this.points, function () {
+                s += '<br/><span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': ' + this.y;
+            });
+            
+            return s;
+        }
   },
   "legend": {
     "enabled": true,
