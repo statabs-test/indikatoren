@@ -5,7 +5,7 @@
       },
    "yAxis": {
     "labels": {
-      "format": "{value:,.0f} °C",
+      "format": "{value:,.0f}",
     }
   },
   "xAxis": {
