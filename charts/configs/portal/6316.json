@@ -229,6 +229,7 @@
     "useHTML": true
   },
   "exporting": {
+    "allowHTML": true,
     "filename": 6316
   }
 }
