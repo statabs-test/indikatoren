@@ -15,7 +15,7 @@
           "symbol": "circle",
           "enabled": false
         },
-        "index": 4,
+        "index": 0,
         "color": "#DC440E"
       },
       {
@@ -23,7 +23,7 @@
           "symbol": "circle",
           "enabled": false
         },
-        "index": 3,
+        "index": 1,
         "color": "#933F8D"
       },
       {
@@ -39,7 +39,7 @@
           "symbol": "circle",
           "enabled": false
         },
-        "index": 1,
+        "index": 3,
         "color": "#689199"
       },
       {
@@ -47,7 +47,7 @@
           "symbol": "circle",
           "enabled": false
         },
-        "index": 0,
+        "index": 4,
         "color": "#008AC3"
       }
     ],

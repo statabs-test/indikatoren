@@ -35,7 +35,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Mietpreisentwicklung",
-		"subtitle": "nach Zimmerzahl",
+		"subtitle": "nach Zimmerzahl, Basel-Stadt",
 		"kuerzel": "I.09.3.4128",
 		"kuerzelKunde": "0.1.B-1",
 		"description": "Mietpreisentwicklung",
@@ -51,7 +51,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 2008 ist bei allen Zimmerkategorien eine steigende Tendenz der Mietpreise (Nettomieten) zu beobachten.",
+		"lesehilfe": "<bitte einen Kommentar oder Lesehilfe erfassen>",
 		"erlaeuterungen": "Es handelt sich hier im Gegensatz zu den Mietpreisen der Leerwohnungen um Bestandsmieten.<br/>Die Mietpreisangaben stützen sich auf systematische Stichprobenerhebungen, die 5% der Miet- und Genossenschaftswohnungen umfassen. Einzelne Mittelwerte basieren deshalb nur auf wenigen Mietpreisangaben.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -63,9 +63,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 4128,
+		"chart-id": 4128,
+		"filter": "",
 		"id": 4128
 	},
 	{

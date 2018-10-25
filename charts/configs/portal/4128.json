@@ -5,7 +5,7 @@
         "symbol": "circle",
         "enabled": false
       },
-      "index": 4,
+      "index": 0,
       "color": "#DC440E",
       "data": [
         [
@@ -65,7 +65,7 @@
         "symbol": "circle",
         "enabled": false
       },
-      "index": 3,
+      "index": 1,
       "color": "#933F8D",
       "data": [
         [
@@ -185,7 +185,7 @@
         "symbol": "circle",
         "enabled": false
       },
-      "index": 1,
+      "index": 3,
       "color": "#689199",
       "data": [
         [
@@ -245,7 +245,7 @@
         "symbol": "circle",
         "enabled": false
       },
-      "index": 0,
+      "index": 4,
       "color": "#008AC3",
       "data": [
         [
@@ -359,7 +359,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Zimmerzahl",
+    "text": "nach Zimmerzahl, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
