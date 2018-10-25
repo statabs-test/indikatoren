@@ -4,32 +4,40 @@
       "color": "#933F8D",
       "data": [
         [
-          2008,
-          4.5
-        ],
-        [
           2009,
-          5.5
+          4.71
         ],
         [
           2010,
-          4.5
+          3.83
         ],
         [
           2011,
-          4.4
+          3.78
         ],
         [
           2012,
-          6.4
+          5.46
         ],
         [
           2013,
-          6.1
+          5.18
         ],
         [
           2014,
-          6.6
+          5.61
+        ],
+        [
+          2015,
+          6.13
+        ],
+        [
+          2016,
+          4.91
+        ],
+        [
+          2017,
+          6.13
         ]
       ],
       "name": "Anzahl Anzeigen"
@@ -66,8 +74,6 @@
             }
           }
     },
-    "marginBottom": 65,
-    "marginTop": 75,
     "type": "column",
     "renderTo": "container-4867",
     "spacingBottom": 50
@@ -78,16 +84,7 @@
       "dataLabels": {
         "style": {
           "fontSize": "10px"
-        },
-        "enabled": true,
-        "formatter": function () {
-            var last  = this.series.data[this.series.data.length - 1];
-            var first  = this.series.data[0];
-            if (this.point.x === first.x || this.point.x === last.x) {
-              return Highcharts.numberFormat(this.point.y, 1, ",", " ");
-            }
-            return "";
-          }
+        }
       }
     }
   },
@@ -98,7 +95,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anzahl Anzeigen wegen Veruntreuung und Betrug pro 1000 Einwohner im Alter von 18 und mehr Jahren"
+    "text": "Angezeigte Straftaten betreffend Veruntreuung\u002FBetrug"
   },
   "subtitle": {
     "style": {
@@ -107,7 +104,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "pro 1000 Einwohner, Basel-Stadt",
     "align": "left"
   },
   "xAxis": {
@@ -164,13 +161,14 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2016-9-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-18"
   },
   "legend": {
     "symbolRadius": 0,
     "enabled": false
   },
   "tooltip": {
+    "valueDecimals": 1,
     "shared": false
   },
   "exporting": {

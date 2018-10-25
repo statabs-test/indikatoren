@@ -278,7 +278,7 @@ id | visible | visibleInPortal | indikatorenset
 4918 | true | true | 
 4919 | true | true | 
 4920 | false |  | Archiv
-4923 | true | true | 
+4923 | false |  | 
 4931 | true | true | Gesellschaftlicher-Zusammenhalt
 4932 | true | true | Gesellschaftlicher-Zusammenhalt
 4933 | true | true | Gesellschaftlicher-Zusammenhalt
@@ -485,7 +485,7 @@ id | visible | visibleInPortal | indikatorenset
 6172 | true | false | Legislaturplan
 6173 | true | true | Legislaturplan
 6175 | true | true | Legislaturplan
-6176 | true | true | Legislaturplan
+6176 | true | false | Legislaturplan
 6177 | true | true | Legislaturplan
 6179 | true | true | Legislaturplan
 6181 | true | true | Legislaturplan
@@ -506,7 +506,7 @@ id | visible | visibleInPortal | indikatorenset
 6213 | true | true | Legislaturplan
 6214 | true | true | Richtplan
 6215 | true | true | Richtplan
-6216 | true | true | Richtplan
+6216 | true | false | Richtplan
 6217 | true | true | Richtplan
 6218 | true | true | Richtplan
 6220 | true | true | Richtplan
