@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "rgb(176, 0, 0)",
+      "color": "rgb(36, 99, 112)",
       "data": [
         [
           2004,
@@ -63,7 +63,7 @@
       "name": "Deutschland"
     },
     {
-      "color": "rgb(255, 128, 40)",
+      "color": "rgb(104,145,153)",
       "data": [
         [
           2004,
@@ -125,7 +125,7 @@
       "name": "Italien"
     },
     {
-      "color": "rgb(115, 186, 124)",
+      "color": "rgb(168, 195, 202)",
       "data": [
         [
           2004,
@@ -187,7 +187,7 @@
       "name": "Türkei"
     },
     {
-      "color": "rgb(180, 117, 171)",
+      "color": "rgb(211, 226, 228)",
       "data": [
         [
           2004,
@@ -249,7 +249,7 @@
       "name": "Spanien"
     },
     {
-      "color": "rgb(8, 161, 217)",
+      "color": "rgb(102, 38, 115)",
       "data": [
         [
           2004,
@@ -311,7 +311,7 @@
       "name": "Portugal"
     },
     {
-      "color": "rgb(131, 82, 46)",
+      "color": "rgb(145, 63, 141)",
       "data": [
         [
           2004,
@@ -373,7 +373,7 @@
       "name": "Mazedonien"
     },
     {
-      "color": "rgb(255, 232, 70)",
+      "color": "rgb(179, 117, 171)",
       "data": [
         [
           2004,
@@ -435,7 +435,7 @@
       "name": "Serbien, Montenegro, Kosovo"
     },
     {
-      "color": "rgb(60, 60, 60)",
+      "color": "rgb(0, 122, 47)",
       "data": [
         [
           2004,
@@ -497,7 +497,7 @@
       "name": "Bosnien und Herzegowina"
     },
     {
-      "color": "rgb(200, 200, 200)",
+      "color": "rgb(104, 171, 43)",
       "data": [
         [
           2004,
@@ -559,7 +559,7 @@
       "name": "Slowenien"
     },
     {
-      "color": "rgb(176, 0, 0)",
+      "color": "rgb(115, 185, 124)",
       "data": [
         [
           2004,
@@ -621,7 +621,7 @@
       "name": "Kroatien"
     },
     {
-      "color": "rgb(255, 128, 40)",
+      "color": "rgb(127, 95, 26)",
       "data": [
         [
           2004,
@@ -683,7 +683,7 @@
       "name": "Vereinigtes Königreich"
     },
     {
-      "color": "rgb(115, 186, 124)",
+      "color": "rgb(205, 156, 0)",
       "data": [
         [
           2004,
@@ -745,7 +745,7 @@
       "name": "Frankreich"
     },
     {
-      "color": "rgb(180, 117, 171)",
+      "color": "rgb(176, 0, 0)",
       "data": [
         [
           2004,
@@ -807,7 +807,7 @@
       "name": "Indien"
     },
     {
-      "color": "rgb(8, 161, 217)",
+      "color": "rgb(220, 68, 14)",
       "data": [
         [
           2004,
@@ -869,7 +869,7 @@
       "name": "Vereinigte Staaten"
     },
     {
-      "color": "rgb(131, 82, 46)",
+      "color": "rgb(255, 128, 40)",
       "data": [
         [
           2004,
@@ -931,7 +931,7 @@
       "name": "Österreich"
     },
     {
-      "color": "rgb(255, 232, 70)",
+      "color": "rgb(255, 187, 88)",
       "data": [
         [
           2004,
@@ -993,7 +993,7 @@
       "name": "Sri Lanka"
     },
     {
-      "color": "rgb(60, 60, 60)",
+      "color": "rgb(191, 191, 191)",
       "data": [
         [
           2004,
