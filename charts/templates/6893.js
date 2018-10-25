@@ -54,13 +54,13 @@
             title: {
                 text: null
             },
-            "labels": {
+            labels: {
             	step: 1,
                 formatter: function () {
                 	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ");
             	},
-                "style": {
-                    "color": "#000000"
+                style: {
+                    color: "#000000"
                 }
             },
             plotLines: [{
@@ -130,8 +130,8 @@
               index: 1,
             },
             {
-							visible: false,
-							showInLegend: false,
+        			visible: false,
+        			showInLegend: false,
             }
 	    ],
         "legend": {
