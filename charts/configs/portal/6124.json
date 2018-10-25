@@ -414,7 +414,6 @@
       "fontWeight": "normal"
     },
     "x": 45,
-    "itemWidth": 300,
     "itemMarginBottom": 5
   },
   "plotOptions": {
