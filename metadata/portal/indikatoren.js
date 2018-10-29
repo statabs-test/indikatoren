@@ -12594,9 +12594,13 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Planungsamt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6220,
+		"chart-id": 6220,
+		"filter": "",
 		"id": 6220
 	},
 	{

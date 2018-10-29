@@ -26,5 +26,9 @@
 "children":["6264"],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Planungsamt Basel-Stadt"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6220, 
+"chart-id":6220, 
+"filter":""
 }
