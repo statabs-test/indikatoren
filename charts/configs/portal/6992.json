@@ -1,0 +1,985 @@
+{
+  "series": [
+    {
+      "color": "#DC4403",
+      "data": [
+        [
+          0,
+          4.92
+        ],
+        [
+          1,
+          3.95
+        ],
+        [
+          2,
+          3.86
+        ],
+        [
+          3,
+          3.36
+        ],
+        [
+          4,
+          3.81
+        ],
+        [
+          5,
+          4.04
+        ],
+        [
+          6,
+          3.83
+        ],
+        [
+          7,
+          3.96
+        ],
+        [
+          8,
+          4.07
+        ],
+        [
+          9,
+          3.83
+        ],
+        [
+          10,
+          6.09
+        ],
+        [
+          11,
+          5.85
+        ],
+        [
+          12,
+          8.07
+        ],
+        [
+          13,
+          7.27
+        ],
+        [
+          14,
+          6.22
+        ],
+        [
+          15,
+          7.07
+        ],
+        [
+          16,
+          6.59
+        ],
+        [
+          17,
+          6.43
+        ],
+        [
+          18,
+          4.58
+        ],
+        [
+          19,
+          4.48
+        ],
+        [
+          20,
+          4.4
+        ],
+        [
+          21,
+          4.87
+        ],
+        [
+          22,
+          4.95
+        ],
+        [
+          23,
+          4.24
+        ],
+        [
+          24,
+          5.55
+        ],
+        [
+          25,
+          5.03
+        ],
+        [
+          26,
+          4.48
+        ],
+        [
+          27,
+          5.1
+        ],
+        [
+          28,
+          4.64
+        ],
+        [
+          29,
+          4.78
+        ],
+        [
+          30,
+          4.76
+        ],
+        [
+          31,
+          4.95
+        ],
+        [
+          32,
+          4.99
+        ],
+        [
+          33,
+          4.97
+        ],
+        [
+          34,
+          4.86
+        ],
+        [
+          35,
+          4.8
+        ],
+        [
+          36,
+          5.23
+        ],
+        [
+          37,
+          4.92
+        ],
+        [
+          38,
+          4.68
+        ],
+        [
+          39,
+          4.94
+        ],
+        [
+          40,
+          4.77
+        ],
+        [
+          41,
+          4.96
+        ],
+        [
+          42,
+          5.22
+        ],
+        [
+          43,
+          5.6
+        ],
+        [
+          44,
+          5.35
+        ],
+        [
+          45,
+          5.57
+        ],
+        [
+          46,
+          5.13
+        ],
+        [
+          47,
+          5.21
+        ],
+        [
+          48,
+          5.25
+        ],
+        [
+          49,
+          5.77
+        ],
+        [
+          50,
+          5.58
+        ],
+        [
+          51,
+          6.03
+        ],
+        [
+          52,
+          5.68
+        ],
+        [
+          53,
+          5.69
+        ],
+        [
+          54,
+          6.14
+        ],
+        [
+          55,
+          6.28
+        ],
+        [
+          56,
+          6.28
+        ],
+        [
+          57,
+          6.39
+        ],
+        [
+          58,
+          6.43
+        ],
+        [
+          59,
+          7.4
+        ],
+        [
+          60,
+          6.95
+        ],
+        [
+          61,
+          7.31
+        ],
+        [
+          62,
+          6.15
+        ],
+        [
+          63,
+          7.02
+        ],
+        [
+          64,
+          7.05
+        ],
+        [
+          65,
+          7.01
+        ],
+        [
+          66,
+          6.81
+        ],
+        [
+          67,
+          8.16
+        ],
+        [
+          68,
+          8.13
+        ],
+        [
+          69,
+          7.45
+        ],
+        [
+          70,
+          7.52
+        ],
+        [
+          71,
+          7.62
+        ],
+        [
+          72,
+          7.93
+        ],
+        [
+          73,
+          8.1
+        ],
+        [
+          74,
+          7.94
+        ],
+        [
+          75,
+          7.63
+        ],
+        [
+          76,
+          8.41
+        ],
+        [
+          77,
+          8.22
+        ],
+        [
+          78,
+          7.97
+        ],
+        [
+          79,
+          7.84
+        ],
+        [
+          80,
+          8.19
+        ],
+        [
+          81,
+          7.39
+        ],
+        [
+          82,
+          7.77
+        ],
+        [
+          83,
+          8.35
+        ],
+        [
+          84,
+          7.35
+        ],
+        [
+          85,
+          8.21
+        ],
+        [
+          86,
+          7.58
+        ],
+        [
+          87,
+          7.4
+        ],
+        [
+          88,
+          8.08
+        ],
+        [
+          89,
+          7.27
+        ],
+        [
+          90,
+          6.62
+        ],
+        [
+          91,
+          7.09
+        ],
+        [
+          92,
+          6.84
+        ],
+        [
+          93,
+          6.77
+        ],
+        [
+          94,
+          6.46
+        ],
+        [
+          95,
+          6.36
+        ],
+        [
+          96,
+          6.82
+        ],
+        [
+          97,
+          5.95
+        ],
+        [
+          98,
+          5.33
+        ],
+        [
+          99,
+          6.91
+        ],
+        [
+          100,
+          5
+        ]
+      ],
+      "name": "Frauen"
+    },
+    {
+      "color": "#008AC3",
+      "data": [
+        [
+          0,
+          5.11
+        ],
+        [
+          1,
+          3.69
+        ],
+        [
+          2,
+          3.6
+        ],
+        [
+          3,
+          4.21
+        ],
+        [
+          4,
+          3.6
+        ],
+        [
+          5,
+          4.19
+        ],
+        [
+          6,
+          3.76
+        ],
+        [
+          7,
+          3.73
+        ],
+        [
+          8,
+          4.83
+        ],
+        [
+          9,
+          4.74
+        ],
+        [
+          10,
+          4.12
+        ],
+        [
+          11,
+          4.63
+        ],
+        [
+          12,
+          5.9
+        ],
+        [
+          13,
+          5.44
+        ],
+        [
+          14,
+          8.45
+        ],
+        [
+          15,
+          7.29
+        ],
+        [
+          16,
+          6.8
+        ],
+        [
+          17,
+          5.65
+        ],
+        [
+          18,
+          5.4
+        ],
+        [
+          19,
+          4.99
+        ],
+        [
+          20,
+          4.13
+        ],
+        [
+          21,
+          5.82
+        ],
+        [
+          22,
+          5.45
+        ],
+        [
+          23,
+          5.76
+        ],
+        [
+          24,
+          6.36
+        ],
+        [
+          25,
+          5.06
+        ],
+        [
+          26,
+          5.3
+        ],
+        [
+          27,
+          5.52
+        ],
+        [
+          28,
+          4.39
+        ],
+        [
+          29,
+          4.6
+        ],
+        [
+          30,
+          6.02
+        ],
+        [
+          31,
+          5.21
+        ],
+        [
+          32,
+          5.79
+        ],
+        [
+          33,
+          4.65
+        ],
+        [
+          34,
+          5.65
+        ],
+        [
+          35,
+          4.71
+        ],
+        [
+          36,
+          4.93
+        ],
+        [
+          37,
+          4.84
+        ],
+        [
+          38,
+          4.87
+        ],
+        [
+          39,
+          5.8
+        ],
+        [
+          40,
+          4.98
+        ],
+        [
+          41,
+          5.93
+        ],
+        [
+          42,
+          5.22
+        ],
+        [
+          43,
+          5.63
+        ],
+        [
+          44,
+          5.48
+        ],
+        [
+          45,
+          6.02
+        ],
+        [
+          46,
+          6.41
+        ],
+        [
+          47,
+          6.06
+        ],
+        [
+          48,
+          6.48
+        ],
+        [
+          49,
+          7.18
+        ],
+        [
+          50,
+          5.66
+        ],
+        [
+          51,
+          6.82
+        ],
+        [
+          52,
+          5.9
+        ],
+        [
+          53,
+          6.55
+        ],
+        [
+          54,
+          5.8
+        ],
+        [
+          55,
+          6.67
+        ],
+        [
+          56,
+          6.98
+        ],
+        [
+          57,
+          6.92
+        ],
+        [
+          58,
+          6.06
+        ],
+        [
+          59,
+          6.98
+        ],
+        [
+          60,
+          6.39
+        ],
+        [
+          61,
+          7.02
+        ],
+        [
+          62,
+          7.92
+        ],
+        [
+          63,
+          6.91
+        ],
+        [
+          64,
+          7.26
+        ],
+        [
+          65,
+          7.24
+        ],
+        [
+          66,
+          7.37
+        ],
+        [
+          67,
+          7.4
+        ],
+        [
+          68,
+          7.36
+        ],
+        [
+          69,
+          7.51
+        ],
+        [
+          70,
+          7.25
+        ],
+        [
+          71,
+          7.78
+        ],
+        [
+          72,
+          7.6
+        ],
+        [
+          73,
+          7.37
+        ],
+        [
+          74,
+          7.78
+        ],
+        [
+          75,
+          7.76
+        ],
+        [
+          76,
+          8.04
+        ],
+        [
+          77,
+          8.01
+        ],
+        [
+          78,
+          8.06
+        ],
+        [
+          79,
+          8.39
+        ],
+        [
+          80,
+          7.6
+        ],
+        [
+          81,
+          7.92
+        ],
+        [
+          82,
+          7.55
+        ],
+        [
+          83,
+          7.93
+        ],
+        [
+          84,
+          7.79
+        ],
+        [
+          85,
+          7.04
+        ],
+        [
+          86,
+          7.97
+        ],
+        [
+          87,
+          8.26
+        ],
+        [
+          88,
+          7.52
+        ],
+        [
+          89,
+          8.03
+        ],
+        [
+          90,
+          6.93
+        ],
+        [
+          91,
+          6.71
+        ],
+        [
+          92,
+          7.16
+        ],
+        [
+          93,
+          7.95
+        ],
+        [
+          94,
+          5.98
+        ],
+        [
+          95,
+          6.14
+        ],
+        [
+          96,
+          7.52
+        ],
+        [
+          97,
+          6.3
+        ],
+        [
+          98,
+          4.75
+        ],
+        [
+          99,
+          5.57
+        ],
+        [
+          100,
+          6.13
+        ]
+      ],
+      "name": "Männer"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-6992"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Mittlere Aufenthaltsdauer in Basler Spitälern nach Alter und Geschlecht"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "im Hauptbereich Akutsomatik, in Tagen, 2017",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik."
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemDistance": 18,
+    "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
+    }
+  },
+  "exporting": {
+    "filename": 6992
+  }
+}
