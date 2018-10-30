@@ -2,7 +2,8 @@
     return {
   "xAxis": {
     "showLastLabel": true,
-    "endOnTick": true
+    tickInterval: 2,
+    //"endOnTick": true
   },
     
   "yAxis": {
