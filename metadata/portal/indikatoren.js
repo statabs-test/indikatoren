@@ -7895,8 +7895,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Ausgaben für Umbau- und Unterhaltsarbeiten",
-		"subtitle": "in 1 000 Franken sowie Anteil am Total der Bauausgaben",
-		"kuerzel": "I.09.1.05199",
+		"subtitle": "in 1000 Franken sowie Anteil am Total der Bauausgaben, Basel-Stadt",
+		"kuerzel": "I.09.1.5199",
 		"kuerzelKunde": "GW21",
 		"description": "Ausgaben für Umbau- und Unterhaltsarbeiten",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -7911,22 +7911,23 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Total der Bauausgaben stieg seit 2011 bis 2015 kontinuierlich an. Der Anteil Ausgaben für Umbau- und Unterhaltsarbeiten lag in den meisten Jahren leicht unterhalb oder oberhalb der 50%-Marke. Der tiefste Wert ergab sich 2010 mit einem Anteil von 35% an den totalen Bauausgaben.",
+		"lesehilfe": "Das Total der Bauausgaben stieg seit 2011 ausser 2016 kontinuierlich an. Der Anteil Ausgaben für Umbau- und Unterhaltsarbeiten lag in den meisten Jahren leicht unterhalb oder oberhalb der 50%-Marke. Der tiefste Wert ergab sich 2010 mit einem Anteil von 35% an den totalen Bauausgaben.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_07_00_00_00_321",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
+			"Statistisches Amt Basel-Stadt, Baustatistik"
 		],
 		"externalLinks": [
 			""
 		],
-		"id": 5199,
-		"darstellungsart": "Grafik"
+		"id": 5199
 	},
 	{
 		"title": "Bevölkerungsdichte Basel-Stadt",
