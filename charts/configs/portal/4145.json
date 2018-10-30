@@ -1,10 +1,6 @@
 {
   "series": [
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
       "index": 0,
       "color": "#008AC3",
       "data": [
@@ -70,7 +66,8 @@
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line",
+    "type": "column",
+    "marginTop": 60,
     "renderTo": "container-4145"
   },
   "title": {
@@ -89,7 +86,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -113,7 +110,6 @@
       },
       "format": "{value}%"
     },
-    "max": 16,
     "tickInterval": 2
   },
   "xAxis": {
@@ -161,7 +157,7 @@
         "enabled": false
       },
       "dataLabels": {
-        "enabled": true,
+        "enabled": false,
         "formatter": function () {
             var first = this.series.data[0];
             var last  = this.series.data[this.series.data.length - 1];

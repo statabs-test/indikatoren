@@ -631,8 +631,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wohneigentumsquote",
-		"subtitle": "",
-		"kuerzel": "I.09.1.04145",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.09.1.4145",
 		"kuerzelKunde": "1.6.A",
 		"description": "Wohneigentumsquote",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -647,9 +647,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Eigentumsquote stieg bis ins Jahr 2014 an und blieb anschliessend stabil bei rund 15%.",
-		"erlaeuterungen": "Die Wohneigentumsquote wird als Anteil Wohnungen, welche durch den Gebäude- oder Wohnungseigentümer selber bewohnt sind, and den bewohnten Wohnungen berechnet.",
+		"lesehilfe": "Die Eigentumsquote beträgt seit 2015 rund 15,5%.",
+		"erlaeuterungen": "Die Wohneigentumsquote wird als Anteil Wohnungen, welche durch den Gebäude- oder Wohnungseigentümer selber bewohnt sind, an den bewohnten Wohnungen berechnet.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "02_06_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -660,8 +662,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 4145,
-		"darstellungsart": "Grafik"
+		"id": 4145
 	},
 	{
 		"title": "Anzahl und Anteil Wohnungen mit 4 oder mehr Zimmern",
