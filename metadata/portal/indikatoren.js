@@ -811,7 +811,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Jährliche Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
-		"subtitle": "Basel-Stadt im Vergleich mit der Schweiz und ausgewählten Kantonen, 2017",
+		"subtitle": "Basel-Stadt im Vergleich mit der Schweiz, 2017",
 		"kuerzel": "I.04.1.2501",
 		"kuerzelKunde": "2.2",
 		"description": "Jährliche Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
@@ -822,7 +822,7 @@ var indikatoren = [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2018-10-23T13:41:30.3030",
+		"aktualisierungsdatum": "2018-10-25T17:13:24.2424",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -6068,7 +6068,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-10T10:44:13.1313",
+		"aktualisierungsdatum": "2018-10-26T10:40:38.3838",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -6087,9 +6087,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Landwirtschaftliche Strukturerhebung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 4914,
+		"chart-id": 4914,
+		"filter": "",
 		"id": 4914
 	},
 	{
@@ -7779,8 +7783,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Staatsausgaben für Kultur und Freizeit",
-		"subtitle": "pro Kopf in Franken",
-		"kuerzel": "I.18.1.05193",
+		"subtitle": "pro Kopf in Franken, Basel-Stadt",
+		"kuerzel": "I.18.1.5193",
 		"kuerzelKunde": "GW15",
 		"description": "Staatsausgaben für Kultur und Freizeit",
 		"thema": "18 Öffentliche Finanzen",
@@ -7789,15 +7793,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-29T15:00:32.3232",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Bildung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Ausgaben im Bereich Kultur, Sport und Freizeit, Kirche sind zwischen 2008 und 2015 von rund 1 300 Fr. auf ca. 1 680 Fr. pro Kopf gestiegen.",
+		"lesehilfe": "Die Ausgaben des Kantons Basel-Stadt im Bereich Kultur, Sport und Freizeit, Kirche sind zwischen 2008 und 2016 von rund 1 300 Fr. auf 1 600 Fr. pro Kopf gestiegen.",
 		"erlaeuterungen": "Ausgaben nach Funktion berechnet von der Eidgenössischen Finanzverwaltung; pro Kopf der mittleren Wohnbevölkerung Basel-Stadt.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_05_00_00_00_315",
 		"parentId": null,
@@ -7806,11 +7812,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5193,
-		"darstellungsart": "Grafik"
+		"data-id": 5193,
+		"chart-id": 5193,
+		"filter": "",
+		"id": 5193
 	},
 	{
 		"title": "Mietpreisindex Basel-Stadt",
@@ -10530,7 +10539,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-23T13:39:39.3939",
+		"aktualisierungsdatum": "2018-10-25T14:22:18.1818",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
