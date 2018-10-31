@@ -20169,7 +20169,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die mittlere Aufenthaltsdauer von akutsomatischen Patienten in Basler Spitälern nahm von 7,0 Tagen im Jahr 2012 kontinuierlich auf 6,4 Tage im Jahr 2017 ab. Der Verlauf der Aufenthaltsdauer nach Alter in den 6 beobachteten Jahren gleicht sich relativ stark: Im Alter von ungefähr 10 Jahren steigt die Kurve an, um mit dem Erreichen der Volljährigkeit wieder auf unter 5 Tage zu sinken. Anschliessend nimmt die mittlere Aufenthaltsdauer mit zunehmendem Alter zu und erreicht in allen beobachteten Jahren in den frühen 80er Jahren die höchsten Werte.",
-		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr aus einem Basler Spital ausgetreten sind (mehrfach hospitalisierte Personen werden mehrfach gezählt). Gezählt wurden die im Erhebungsjahr in Anspruch genommenen Pflegetage, abzüglich Zwischenaustritten (z.B. Ferien). Personen im Alter von 100 und mehr Jahren wurden zusammengefasst.",
+		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr aus einem Basler Spital ausgetreten sind (mehrfach hospitalisierte Personen werden mehrfach gezählt). Gezählt werden die im Erhebungsjahr in Anspruch genommenen Pflegetage, abzüglich Zwischenaustritten (z.B. Ferien). Personen im Alter von 100 und mehr Jahren wurden zusammengefasst.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -20221,5 +20221,41 @@ var indikatoren = [
 			""
 		],
 		"id": 6992
+	},
+	{
+		"title": "Mittlere Aufenthaltsdauer in Basler Spitälern",
+		"subtitle": "nach Hauptbereich, in Tagen",
+		"kuerzel": "I.14.1.06993",
+		"kuerzelKunde": "",
+		"description": "Mittlere Aufenthaltsdauer in Basler Spitälern",
+		"thema": "14 Gesundheit",
+		"unterthema": "Spitäler",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die mittlere Aufenthaltsdauer in Basler Spitälern beträgt 2017 rund 9,1 Tage und damit 1 Tag weniger als 5 Jahre zuvor. Über den gesamten Beobachtungszeitraum weisen psychiatrische Fälle im Schnitt die längste stationäre Aufenthaltsdauer auf (2017: 30 Tage), während ein akutsomatischer Patient das Spital deutlich schneller wieder verlassen kann (2017: 6,4 Tage). Der deutlichste Rückgang von 2012 bis 2017 betrifft den Hauptbereich Geriatrie, wo der durchschnittliche Spitalaufenthalt 2017 17,1 Tage beträgt, nachdem dieser Wert 2012 noch bei 20,4 Tagen lag.",
+		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr aus einem Basler Spital ausgetreten sind (mehrfach hospitalisierte Personen werden mehrfach gezählt). Gezählt werden die im Erhebungsjahr in Anspruch genommenen Pflegetage, abzüglich Zwischenaustritten (z.B. Ferien).",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6993
 	}
 ];

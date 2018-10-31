@@ -15,7 +15,7 @@
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Die mittlere Aufenthaltsdauer von akutsomatischen Patienten in Basler Spitälern nahm von 7,0 Tagen im Jahr 2012 kontinuierlich auf 6,4 Tage im Jahr 2017 ab. Der Verlauf der Aufenthaltsdauer nach Alter in den 6 beobachteten Jahren gleicht sich relativ stark: Im Alter von ungefähr 10 Jahren steigt die Kurve an, um mit dem Erreichen der Volljährigkeit wieder auf unter 5 Tage zu sinken. Anschliessend nimmt die mittlere Aufenthaltsdauer mit zunehmendem Alter zu und erreicht in allen beobachteten Jahren in den frühen 80er Jahren die höchsten Werte.",
-"erlaeuterungen":"Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr aus einem Basler Spital ausgetreten sind (mehrfach hospitalisierte Personen werden mehrfach gezählt). Gezählt wurden die im Erhebungsjahr in Anspruch genommenen Pflegetage, abzüglich Zwischenaustritten (z.B. Ferien). Personen im Alter von 100 und mehr Jahren wurden zusammengefasst.",
+"erlaeuterungen":"Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr aus einem Basler Spital ausgetreten sind (mehrfach hospitalisierte Personen werden mehrfach gezählt). Gezählt werden die im Erhebungsjahr in Anspruch genommenen Pflegetage, abzüglich Zwischenaustritten (z.B. Ferien). Personen im Alter von 100 und mehr Jahren wurden zusammengefasst.",
 "template":"line001",
 "darstellungsart":"Grafik",
 "printformat":"", 

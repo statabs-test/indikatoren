@@ -933,6 +933,7 @@ id | visible | visibleInPortal | indikatorenset
 6983 | true | true | Steuern
 6991 | true | true | 
 6992 | true | true | 
+6993 | true | true | 
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
