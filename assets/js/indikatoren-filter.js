@@ -32,7 +32,7 @@ var sortOptions = {};
 
 var indikatoren;
 var view = false;
-var perPage=16;
+var perPage = 16;
 
 $(document).ready(function(){
   
@@ -105,6 +105,13 @@ $(document).ready(function(){
         perPage=perPageParam;
       }
       initializeFilterJS(indikatorenset, perPage);
+      //initialize tooltips for glossary
+      $('.glossary').tooltipster({
+        theme: 'tooltipster-shadow', 
+        contentAsHTML: true,
+        interactive: true,
+        maxWidth: 450,
+      });
   });  
 });
 

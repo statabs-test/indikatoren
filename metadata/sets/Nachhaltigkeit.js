@@ -2185,7 +2185,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2014 4,9 globale Hektaren pro Kopf. Das Bruttoinlandprodukt pro Kopf ist in Basel-Stadt seit den 1990er-Jahren stark gestiegen. Seit 2007 blieben die Werte relativ konstant.",
+		"lesehilfe": "Der <span class='glossary' title='Unter dem ökologischen Fußabdruck wird die Fläche auf der Erde verstanden, die notwendig ist, um den Lebensstil und Lebensstandard eines Menschen (unter den heutigen Produktionsbedingungen) dauerhaft zu ermöglichen. Er wird als Nachhaltigkeitsindikator bezeichnet. Das schließt Flächen ein, die zur Produktion von Kleidung und Nahrung oder zur Bereitstellung von Energie benötigt werden, aber z. B. auch zur Entsorgung von Müll oder zum Binden des durch menschliche Aktivitäten freigesetzten Kohlenstoffdioxids.'>ökologische Fussabdruck</span> der Schweiz mass 2014 4,9 globale Hektaren pro Kopf. Das Bruttoinlandprodukt pro Kopf ist in Basel-Stadt seit den 1990er-Jahren stark gestiegen. Seit 2007 blieben die Werte relativ konstant.",
 		"erlaeuterungen": "Der ökologische Fussabdruck misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden.",
 		"template": "line001",
 		"printformat": "",

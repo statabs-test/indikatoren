@@ -286,3 +286,12 @@ a {
 .pieLegend {
     cursor: pointer;
 }
+
+.glossary {    
+    border-bottom: 1px dotted #000;
+}
+
+/* see http://iamceege.github.io/tooltipster/#styling */
+.tooltipster-sidetip.tooltipster-shadow .tooltipster-content {
+	color:rgb(51,51,51);
+}
