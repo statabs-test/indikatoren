@@ -1,0 +1,645 @@
+{
+  "series": [
+    {
+      "color": "#A8C3CA",
+      "data": [
+        [
+          "0 bis 9 Jahre",
+          211.59
+        ],
+        [
+          "10 bis 19 Jahre",
+          67.48
+        ],
+        [
+          "20 bis 29 Jahre",
+          88.352
+        ],
+        [
+          "30 bis 39 Jahre",
+          117.26
+        ],
+        [
+          "40 bis 49 Jahre",
+          122.14
+        ],
+        [
+          "50 bis 59 Jahre",
+          170.68
+        ],
+        [
+          "60 bis 69 Jahre",
+          263.51
+        ],
+        [
+          "70 bis 79 Jahre",
+          432.4
+        ],
+        [
+          "80 bis 89 Jahre",
+          641.05
+        ],
+        [
+          "90 Jahre u.m.",
+          770.67
+        ]
+      ],
+      "name": "2008",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#9A86A6",
+      "visible": false,
+      "data": [
+        [
+          "0 bis 9 Jahre",
+          209.72
+        ],
+        [
+          "10 bis 19 Jahre",
+          69.581
+        ],
+        [
+          "20 bis 29 Jahre",
+          86.65
+        ],
+        [
+          "30 bis 39 Jahre",
+          119.4
+        ],
+        [
+          "40 bis 49 Jahre",
+          118.72
+        ],
+        [
+          "50 bis 59 Jahre",
+          170.06
+        ],
+        [
+          "60 bis 69 Jahre",
+          265.18
+        ],
+        [
+          "70 bis 79 Jahre",
+          432.39
+        ],
+        [
+          "80 bis 89 Jahre",
+          650.04
+        ],
+        [
+          "90 Jahre u.m.",
+          752.48
+        ]
+      ],
+      "name": "2009",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FABD24",
+      "visible": false,
+      "data": [
+        [
+          "0 bis 9 Jahre",
+          222.76
+        ],
+        [
+          "10 bis 19 Jahre",
+          68.981
+        ],
+        [
+          "20 bis 29 Jahre",
+          91.201
+        ],
+        [
+          "30 bis 39 Jahre",
+          114.64
+        ],
+        [
+          "40 bis 49 Jahre",
+          117.77
+        ],
+        [
+          "50 bis 59 Jahre",
+          172.27
+        ],
+        [
+          "60 bis 69 Jahre",
+          267.21
+        ],
+        [
+          "70 bis 79 Jahre",
+          436.5
+        ],
+        [
+          "80 bis 89 Jahre",
+          655.18
+        ],
+        [
+          "90 Jahre u.m.",
+          756.12
+        ]
+      ],
+      "name": "2010",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#68AB2B",
+      "visible": false,
+      "data": [
+        [
+          "0 bis 9 Jahre",
+          211.57
+        ],
+        [
+          "10 bis 19 Jahre",
+          69.238
+        ],
+        [
+          "20 bis 29 Jahre",
+          97.338
+        ],
+        [
+          "30 bis 39 Jahre",
+          123.56
+        ],
+        [
+          "40 bis 49 Jahre",
+          126.19
+        ],
+        [
+          "50 bis 59 Jahre",
+          171.03
+        ],
+        [
+          "60 bis 69 Jahre",
+          274.22
+        ],
+        [
+          "70 bis 79 Jahre",
+          449.48
+        ],
+        [
+          "80 bis 89 Jahre",
+          670.26
+        ],
+        [
+          "90 Jahre u.m.",
+          753.02
+        ]
+      ],
+      "name": "2011",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#9E7C59",
+      "visible": false,
+      "data": [
+        [
+          "0 bis 9 Jahre",
+          203.77
+        ],
+        [
+          "10 bis 19 Jahre",
+          73.695
+        ],
+        [
+          "20 bis 29 Jahre",
+          96.83
+        ],
+        [
+          "30 bis 39 Jahre",
+          123.63
+        ],
+        [
+          "40 bis 49 Jahre",
+          123.28
+        ],
+        [
+          "50 bis 59 Jahre",
+          174.11
+        ],
+        [
+          "60 bis 69 Jahre",
+          276.82
+        ],
+        [
+          "70 bis 79 Jahre",
+          460.69
+        ],
+        [
+          "80 bis 89 Jahre",
+          706.63
+        ],
+        [
+          "90 Jahre u.m.",
+          755.32
+        ]
+      ],
+      "name": "2012",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#9E7C59",
+      "visible": false,
+      "data": [
+        [
+          "0 bis 9 Jahre",
+          203.51
+        ],
+        [
+          "10 bis 19 Jahre",
+          70.898
+        ],
+        [
+          "20 bis 29 Jahre",
+          91.864
+        ],
+        [
+          "30 bis 39 Jahre",
+          117.8
+        ],
+        [
+          "40 bis 49 Jahre",
+          131.55
+        ],
+        [
+          "50 bis 59 Jahre",
+          168.01
+        ],
+        [
+          "60 bis 69 Jahre",
+          272.72
+        ],
+        [
+          "70 bis 79 Jahre",
+          481.71
+        ],
+        [
+          "80 bis 89 Jahre",
+          714.76
+        ],
+        [
+          "90 Jahre u.m.",
+          808.27
+        ]
+      ],
+      "name": "2013",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "visible": false,
+      "data": [
+        [
+          "0 bis 9 Jahre",
+          202.05
+        ],
+        [
+          "10 bis 19 Jahre",
+          72.001
+        ],
+        [
+          "20 bis 29 Jahre",
+          92.463
+        ],
+        [
+          "30 bis 39 Jahre",
+          123.35
+        ],
+        [
+          "40 bis 49 Jahre",
+          127.26
+        ],
+        [
+          "50 bis 59 Jahre",
+          167.94
+        ],
+        [
+          "60 bis 69 Jahre",
+          271.91
+        ],
+        [
+          "70 bis 79 Jahre",
+          477.78
+        ],
+        [
+          "80 bis 89 Jahre",
+          744.2
+        ],
+        [
+          "90 Jahre u.m.",
+          863.39
+        ]
+      ],
+      "name": "2014",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "visible": false,
+      "data": [
+        [
+          "0 bis 9 Jahre",
+          198.94
+        ],
+        [
+          "10 bis 19 Jahre",
+          67.283
+        ],
+        [
+          "20 bis 29 Jahre",
+          94.094
+        ],
+        [
+          "30 bis 39 Jahre",
+          120.51
+        ],
+        [
+          "40 bis 49 Jahre",
+          129.12
+        ],
+        [
+          "50 bis 59 Jahre",
+          176.97
+        ],
+        [
+          "60 bis 69 Jahre",
+          271.65
+        ],
+        [
+          "70 bis 79 Jahre",
+          473.59
+        ],
+        [
+          "80 bis 89 Jahre",
+          750.09
+        ],
+        [
+          "90 Jahre u.m.",
+          901.76
+        ]
+      ],
+      "name": "2015",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#662673",
+      "visible": false,
+      "data": [
+        [
+          "0 bis 9 Jahre",
+          197.09
+        ],
+        [
+          "10 bis 19 Jahre",
+          67.138
+        ],
+        [
+          "20 bis 29 Jahre",
+          94.498
+        ],
+        [
+          "30 bis 39 Jahre",
+          122.2
+        ],
+        [
+          "40 bis 49 Jahre",
+          128.06
+        ],
+        [
+          "50 bis 59 Jahre",
+          176.79
+        ],
+        [
+          "60 bis 69 Jahre",
+          280.5
+        ],
+        [
+          "70 bis 79 Jahre",
+          450.17
+        ],
+        [
+          "80 bis 89 Jahre",
+          779.91
+        ],
+        [
+          "90 Jahre u.m.",
+          908.93
+        ]
+      ],
+      "name": "2016",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#8B2223",
+      "data": [
+        [
+          "0 bis 9 Jahre",
+          190.57
+        ],
+        [
+          "10 bis 19 Jahre",
+          66.177
+        ],
+        [
+          "20 bis 29 Jahre",
+          85.202
+        ],
+        [
+          "30 bis 39 Jahre",
+          114.91
+        ],
+        [
+          "40 bis 49 Jahre",
+          114.63
+        ],
+        [
+          "50 bis 59 Jahre",
+          160.3
+        ],
+        [
+          "60 bis 69 Jahre",
+          251.34
+        ],
+        [
+          "70 bis 79 Jahre",
+          417.14
+        ],
+        [
+          "80 bis 89 Jahre",
+          687.88
+        ],
+        [
+          "90 Jahre u.m.",
+          803.38
+        ]
+      ],
+      "name": "2017",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 55,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-6994"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Hospitalisierungsrate der Basler Bevölkerung"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "nach Alter",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gesundheitsstatistik."
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemDistance": 18,
+    "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
+    }
+  },
+  "exporting": {
+    "filename": 6994
+  }
+}
