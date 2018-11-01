@@ -4,10 +4,6 @@
       "color": "#8b2223",
       "data": [
         [
-          2007,
-          -351
-        ],
-        [
           2008,
           -478
         ],
@@ -42,9 +38,13 @@
         [
           2016,
           152
+        ],
+        [
+          2017,
+          -62
         ]
       ],
-      "name": "Saldo Geburt\u002FTod"
+      "name": "Saldo Geburten\u002FTodesfälle"
     }
   ],
   "chart": {

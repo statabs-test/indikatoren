@@ -10056,7 +10056,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den Jahren 2007 bis 2015 überstieg die Zahl der Todesfälle stets diejenige der Geburten. 2016 hingegen gab es mehr Lebendgeborene als Gestorbene, der Saldo aus Geburten und Todesfällen betrug 152.",
+		"lesehilfe": "In den Jahren 2008 bis 2017 überstieg die Zahl der Todesfälle diejenige der Geburten meist. Lediglich im Jahr 2016 gab es mehr Lebendgeborene als Gestorbene, der Saldo aus Geburten und Todesfällen betrug 152.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
