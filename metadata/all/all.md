@@ -935,6 +935,7 @@ id | visible | visibleInPortal | indikatorenset
 6992 | true | true | 
 6993 | true | true | 
 6994 | true | false | 
+6995 | true | true | 
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

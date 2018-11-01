@@ -6236,6 +6236,13 @@
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "cbd8013f19a1f4d5c0c79409ed94273446c7d114"
 	},
+	"6995": {
+		"metadata": "060cf8b60224afbed34f2b0c4024fd8376de7d9c",
+		"chartConfig": "5ff092546b838ca20ada4668993706ff6694b08e",
+		"data": "b09abad9b14a22789b194380c76951c4073decf2",
+		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+		"template": "22dd86e8ba43e482db247507c8768e51a9987845"
+	},
 	"9995": {
 		"metadata": "9b2e225c17dbcd7d7ee0adc844a05b80be6f2df6",
 		"chartConfig": "5029d24f9269f886de9362fc87787a121dd5b8fa",

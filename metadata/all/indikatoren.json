@@ -32922,6 +32922,42 @@
 		"id": 6994
 	},
 	{
+		"title": "Alters- und Pflegeheime",
+		"subtitle": "Anzahl Institutionen und zur Verfügung stehende Plätze, Basel-Stadt",
+		"kuerzel": "I.14.2.06995",
+		"kuerzelKunde": "",
+		"description": "Alters- und Pflegeheime",
+		"thema": "14 Gesundheit",
+		"unterthema": "Heime und Spitex",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Jahr 2017 gab es insgesamt 40 Institutionen für Betagte in Basel-Stadt, welche 3&nbsp;287 Plätze zur Verfügung stellten. Dies sind 7 Institutionen und gut 500 Plätze mehr als noch 2011.",
+		"erlaeuterungen": "Gezählt werden alle Institutionen, welche den Fragebogen A der obligatorischen Statistik der sozialmedizinischen Institutionen (SOMED) ausfüllen.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 6995
+	},
+	{
 		"title": "Test Daten",
 		"subtitle": "Test",
 		"kuerzel": "",
