@@ -994,6 +994,7 @@ id | visible | visibleInPortal | indikatorenset
 6981 | true | true | Steuern
 6982 | true | true | Steuern
 6983 | true | true | Steuern
+6990 | true | true | Wohnviertel
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

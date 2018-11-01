@@ -4288,5 +4288,40 @@ var indikatorensetData = [
 		"chart-id": 6956,
 		"filter": "30",
 		"id": 6976
+	},
+	{
+		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"subtitle": "Kanton Basel-Stadt",
+		"kuerzel": "I.01.1.06990",
+		"kuerzelKunde": "",
+		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [],
+		"aktualisierungsdatum": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "stock001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6933,
+		"chart-id": 6933,
+		"filter": "0",
+		"id": 6990
 	}
 ];

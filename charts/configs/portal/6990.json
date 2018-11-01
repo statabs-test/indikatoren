@@ -1,0 +1,332 @@
+{
+  "series": [
+    {
+      "color": "rgb(008, 048, 56)",
+      "showInNavigator": true,
+      "data": [],
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(036, 099, 112)",
+      "showInNavigator": true,
+      "data": [],
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(104, 145, 153)",
+      "showInNavigator": true,
+      "data": [],
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(168, 195, 202)",
+      "showInNavigator": true,
+      "data": [],
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(211, 226, 228)",
+      "showInNavigator": true,
+      "data": [],
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(102, 038, 115)",
+      "showInNavigator": true,
+      "data": [],
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(145, 063, 141)",
+      "showInNavigator": true,
+      "data": [],
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(179, 117, 171)",
+      "showInNavigator": true,
+      "data": [],
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(000, 122, 047)",
+      "showInNavigator": true,
+      "data": [],
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(104, 171, 043)",
+      "showInNavigator": true,
+      "data": [],
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(115, 185, 124)",
+      "showInNavigator": true,
+      "data": [],
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(127, 095, 026)",
+      "showInNavigator": true,
+      "data": [],
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(205, 156, 000)",
+      "showInNavigator": true,
+      "data": [],
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(176, 000, 000)",
+      "showInNavigator": true,
+      "data": [],
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(220, 068, 014)",
+      "showInNavigator": true,
+      "data": [],
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(255, 128, 040)",
+      "showInNavigator": true,
+      "data": [],
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(255, 187, 088)",
+      "showInNavigator": true,
+      "data": [],
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(191, 191, 191)",
+      "showInNavigator": true,
+      "data": [],
+      "turboThreshold": 0
+    },
+    {
+      "showInLegend": false,
+      "visible": false,
+      "data": [],
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "ordinal": false,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "endOnTick": true,
+    "startOnTick": true,
+    "showFirstLabel": true,
+    "showLastLabel": true,
+    "tickInterval": 31536000000,
+    "minTickInterval": 31536000000
+  },
+  "isStock": true,
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacingBottom": 20,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "events": {
+      "load": function () {
+                  this.credits.element.onclick = function() {};
+                  //for top-left legends with no x defined: move legend to x position of first yAxis
+                  if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                    this.update(
+                      {
+                        legend: {
+                          x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                        }
+                      }
+                    );
+                  }              
+                }
+    },
+    "type": "area",
+    "renderTo": "container-6990"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "normal",
+      "lineWidth": 1,
+      "fillOpacity": 1
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Ausländische Bevölkerung nach Staatsangehörigkeit"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Kanton Basel-Stadt",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "showLastLabel": true,
+    "endOnTick": true,
+    "tickAmount": 6,
+    "opposite": false,
+    "reversedStacks": false
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -5
+    },
+    "text": "Quelle: ."
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "vertical",
+    "align": "right",
+    "verticalAlign": "middle",
+    "reversed": true,
+    "margin": 5,
+    "padding": 5,
+    "itemMarginBottom": 0,
+    "labelFormatter": function (){
+          return this.name
+            .replace("Bosnien und ", "Bosnien und<br/>")
+            .replace("Montenegro", "Monte-<br/>negro")
+            .replace("Vereinigtes ", "Vereinigtes<br/>")
+            .replace("Vereinigte ", "Vereinigte<br/>");
+        }
+  },
+  "rangeSelector": {
+    "verticalAlign": "bottom",
+    "buttonPosition": {},
+    "buttons": [
+      {
+        "count": 10,
+        "type": "year",
+        "text": "10 J"
+      },
+      {
+        "count": 20,
+        "type": "year",
+        "text": "20 J"
+      },
+      {
+        "count": 30,
+        "type": "year",
+        "text": "30 J"
+      },
+      {
+        "type": "all",
+        "text": "Alle J"
+      }
+    ],
+    "buttonSpacing": 15,
+    "inputEnabled": false,
+    "selected": 1,
+    "inputDateFormat": "%Y",
+    "inputEditDateFormat": "%Y"
+  },
+  "navigator": {
+    "margin": 10,
+    "height": 30,
+    "series": {
+      "includeInCSVExport": false
+    },
+    "outlineColor": "#B9CFD7"
+  },
+  "tooltip": {
+    "dateTimeLabelFormats": {
+      "day": "%A, %e. %b, %Y"
+    },
+    "enabled": true,
+    "shared": true,
+    "split": false,
+    "reversed": true,
+    "formatter": function () {
+          //console.log(this.points[0].series.chart.series);
+          var lastSeriesIndex = (this.points[0].series.chart.series.length -1)/ 2;
+          var s = '<b>'+ this.points[0].series.chart.series[lastSeriesIndex].name + ' ' +  new Date(this.x).getUTCFullYear(); + '</b>';
+          $.each(this.points, function () {
+              s += '<br/><span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': ' + this.y;
+          });
+          return s;
+         }
+  },
+  "exporting": {
+    "csv": {
+      "dateFormat": "%d.%m.%Y"
+    },
+    "filename": 6990
+  },
+  "customFunctions": {
+    "filter": "0",
+    "data-id": 6933
+  }
+}

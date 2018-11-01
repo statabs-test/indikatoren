@@ -1,21 +1,9 @@
 {
   "series": [
     {
-      "color": "rgb(36, 99, 112)",
+      "color": "rgb(008, 048, 56)",
       "showInNavigator": true,
       "data": [
-        [
-          126230400000,
-          147
-        ],
-        [
-          189302400000,
-          141
-        ],
-        [
-          283996800000,
-          124
-        ],
         [
           315532800000,
           113
@@ -169,24 +157,13 @@
           297
         ]
       ],
-      "name": "Deutschland"
+      "name": "Deutschland",
+      "turboThreshold": 0
     },
     {
-      "color": "rgb(104,145,153)",
+      "color": "rgb(036, 099, 112)",
       "showInNavigator": true,
       "data": [
-        [
-          126230400000,
-          666
-        ],
-        [
-          189302400000,
-          633
-        ],
-        [
-          283996800000,
-          539
-        ],
         [
           315532800000,
           513
@@ -340,24 +317,13 @@
           239
         ]
       ],
-      "name": "Italien"
+      "name": "Italien",
+      "turboThreshold": 0
     },
     {
-      "color": "rgb(168, 195, 202)",
+      "color": "rgb(104, 145, 153)",
       "showInNavigator": true,
       "data": [
-        [
-          126230400000,
-          53
-        ],
-        [
-          189302400000,
-          84
-        ],
-        [
-          283996800000,
-          66
-        ],
         [
           315532800000,
           59
@@ -511,24 +477,13 @@
           125
         ]
       ],
-      "name": "Türkei"
+      "name": "Türkei",
+      "turboThreshold": 0
     },
     {
-      "color": "rgb(211, 226, 228)",
+      "color": "rgb(168, 195, 202)",
       "showInNavigator": true,
       "data": [
-        [
-          126230400000,
-          232
-        ],
-        [
-          189302400000,
-          219
-        ],
-        [
-          283996800000,
-          139
-        ],
         [
           315532800000,
           135
@@ -682,24 +637,13 @@
           105
         ]
       ],
-      "name": "Spanien"
+      "name": "Spanien",
+      "turboThreshold": 0
     },
     {
-      "color": "rgb(102, 38, 115)",
+      "color": "rgb(211, 226, 228)",
       "showInNavigator": true,
       "data": [
-        [
-          126230400000,
-          1
-        ],
-        [
-          189302400000,
-          1
-        ],
-        [
-          283996800000,
-          2
-        ],
         [
           315532800000,
           6
@@ -853,75 +797,64 @@
           103
         ]
       ],
-      "name": "Portugal"
+      "name": "Portugal",
+      "turboThreshold": 0
     },
     {
-      "color": "rgb(145, 63, 141)",
+      "color": "rgb(102, 038, 115)",
       "showInNavigator": true,
       "data": [
         [
-          126230400000,
-          null
-        ],
-        [
-          189302400000,
-          null
-        ],
-        [
-          283996800000,
-          null
-        ],
-        [
           315532800000,
-          null
+          0
         ],
         [
           347155200000,
-          null
+          0
         ],
         [
           378691200000,
-          null
+          0
         ],
         [
           410227200000,
-          null
+          0
         ],
         [
           441763200000,
-          null
+          0
         ],
         [
           473385600000,
-          null
+          0
         ],
         [
           504921600000,
-          null
+          0
         ],
         [
           536457600000,
-          null
+          0
         ],
         [
           567993600000,
-          null
+          0
         ],
         [
           599616000000,
-          null
+          0
         ],
         [
           631152000000,
-          null
+          0
         ],
         [
           662688000000,
-          null
+          0
         ],
         [
           694224000000,
-          null
+          0
         ],
         [
           725846400000,
@@ -1024,87 +957,76 @@
           100
         ]
       ],
-      "name": "Mazedonien"
+      "name": "Mazedonien",
+      "turboThreshold": 0
     },
     {
-      "color": "rgb(179, 117, 171)",
+      "color": "rgb(145, 063, 141)",
       "showInNavigator": true,
       "data": [
         [
-          126230400000,
-          null
-        ],
-        [
-          189302400000,
-          null
-        ],
-        [
-          283996800000,
-          null
-        ],
-        [
           315532800000,
-          null
+          91
         ],
         [
           347155200000,
-          null
+          95
         ],
         [
           378691200000,
-          null
+          117
         ],
         [
           410227200000,
-          null
+          98
         ],
         [
           441763200000,
-          null
+          137
         ],
         [
           473385600000,
-          null
+          149
         ],
         [
           504921600000,
-          null
+          141
         ],
         [
           536457600000,
-          null
+          157
         ],
         [
           567993600000,
-          null
+          195
         ],
         [
           599616000000,
-          null
+          182
         ],
         [
           631152000000,
-          null
+          224
         ],
         [
           662688000000,
-          null
+          279
         ],
         [
           694224000000,
-          null
+          272
         ],
         [
           725846400000,
-          null
+          261
         ],
         [
           757382400000,
-          null
+          223
         ],
         [
           788918400000,
-          null
+          254
         ],
         [
           820454400000,
@@ -1136,174 +1058,163 @@
         ],
         [
           1041379200000,
-          null
+          0
         ],
         [
           1072915200000,
-          null
+          0
         ],
         [
           1104537600000,
-          null
+          0
         ],
         [
           1136073600000,
-          null
+          0
         ],
         [
           1167609600000,
-          null
+          0
         ],
         [
           1199145600000,
-          null
+          0
         ],
         [
           1230768000000,
-          null
+          0
         ],
         [
           1262304000000,
-          null
+          0
         ],
         [
           1293840000000,
-          null
+          0
         ],
         [
           1325376000000,
-          null
+          0
         ],
         [
           1356998400000,
-          null
+          0
         ],
         [
           1388534400000,
-          null
+          0
         ],
         [
           1420070400000,
-          null
+          0
         ],
         [
           1451606400000,
-          null
+          0
         ],
         [
           1483228800000,
-          null
+          0
         ]
       ],
-      "name": "Jugoslawien"
+      "name": "Jugoslawien",
+      "turboThreshold": 0
     },
     {
-      "color": "rgb(0, 122, 47)",
+      "color": "rgb(179, 117, 171)",
       "showInNavigator": true,
       "data": [
         [
-          126230400000,
-          null
-        ],
-        [
-          189302400000,
-          null
-        ],
-        [
-          283996800000,
-          null
-        ],
-        [
           315532800000,
-          null
+          0
         ],
         [
           347155200000,
-          null
+          0
         ],
         [
           378691200000,
-          null
+          0
         ],
         [
           410227200000,
-          null
+          0
         ],
         [
           441763200000,
-          null
+          0
         ],
         [
           473385600000,
-          null
+          0
         ],
         [
           504921600000,
-          null
+          0
         ],
         [
           536457600000,
-          null
+          0
         ],
         [
           567993600000,
-          null
+          0
         ],
         [
           599616000000,
-          null
+          0
         ],
         [
           631152000000,
-          null
+          0
         ],
         [
           662688000000,
-          null
+          0
         ],
         [
           694224000000,
-          null
+          0
         ],
         [
           725846400000,
-          null
+          0
         ],
         [
           757382400000,
-          null
+          0
         ],
         [
           788918400000,
-          null
+          0
         ],
         [
           820454400000,
-          null
+          0
         ],
         [
           852076800000,
-          null
+          0
         ],
         [
           883612800000,
-          null
+          0
         ],
         [
           915148800000,
-          null
+          0
         ],
         [
           946684800000,
-          null
+          0
         ],
         [
           978307200000,
-          null
+          0
         ],
         [
           1009843200000,
-          null
+          0
         ],
         [
           1041379200000,
@@ -1366,79 +1277,68 @@
           181
         ]
       ],
-      "name": "Serbien, Montenegro, Kosovo"
+      "name": "Serbien, Montenegro, Kosovo",
+      "turboThreshold": 0
     },
     {
-      "color": "rgb(104, 171, 43)",
+      "color": "rgb(000, 122, 047)",
       "showInNavigator": true,
       "data": [
         [
-          126230400000,
-          null
-        ],
-        [
-          189302400000,
-          null
-        ],
-        [
-          283996800000,
-          null
-        ],
-        [
           315532800000,
-          null
+          0
         ],
         [
           347155200000,
-          null
+          0
         ],
         [
           378691200000,
-          null
+          0
         ],
         [
           410227200000,
-          null
+          0
         ],
         [
           441763200000,
-          null
+          0
         ],
         [
           473385600000,
-          null
+          0
         ],
         [
           504921600000,
-          null
+          0
         ],
         [
           536457600000,
-          null
+          0
         ],
         [
           567993600000,
-          null
+          0
         ],
         [
           599616000000,
-          null
+          0
         ],
         [
           631152000000,
-          null
+          0
         ],
         [
           662688000000,
-          null
+          0
         ],
         [
           694224000000,
-          null
+          0
         ],
         [
           725846400000,
-          null
+          0
         ],
         [
           757382400000,
@@ -1537,71 +1437,60 @@
           15
         ]
       ],
-      "name": "Bosnien und Herzegowina"
+      "name": "Bosnien und Herzegowina",
+      "turboThreshold": 0
     },
     {
-      "color": "rgb(115, 185, 124)",
+      "color": "rgb(104, 171, 043)",
       "showInNavigator": true,
       "data": [
         [
-          126230400000,
-          null
-        ],
-        [
-          189302400000,
-          null
-        ],
-        [
-          283996800000,
-          null
-        ],
-        [
           315532800000,
-          null
+          0
         ],
         [
           347155200000,
-          null
+          0
         ],
         [
           378691200000,
-          null
+          0
         ],
         [
           410227200000,
-          null
+          0
         ],
         [
           441763200000,
-          null
+          0
         ],
         [
           473385600000,
-          null
+          0
         ],
         [
           504921600000,
-          null
+          0
         ],
         [
           536457600000,
-          null
+          0
         ],
         [
           567993600000,
-          null
+          0
         ],
         [
           599616000000,
-          null
+          0
         ],
         [
           631152000000,
-          null
+          0
         ],
         [
           662688000000,
-          null
+          0
         ],
         [
           694224000000,
@@ -1708,71 +1597,60 @@
           12
         ]
       ],
-      "name": "Slowenien"
+      "name": "Slowenien",
+      "turboThreshold": 0
     },
     {
-      "color": "rgb(127, 95, 26)",
+      "color": "rgb(115, 185, 124)",
       "showInNavigator": true,
       "data": [
         [
-          126230400000,
-          null
-        ],
-        [
-          189302400000,
-          null
-        ],
-        [
-          283996800000,
-          null
-        ],
-        [
           315532800000,
-          null
+          0
         ],
         [
           347155200000,
-          null
+          0
         ],
         [
           378691200000,
-          null
+          0
         ],
         [
           410227200000,
-          null
+          0
         ],
         [
           441763200000,
-          null
+          0
         ],
         [
           473385600000,
-          null
+          0
         ],
         [
           504921600000,
-          null
+          0
         ],
         [
           536457600000,
-          null
+          0
         ],
         [
           567993600000,
-          null
+          0
         ],
         [
           599616000000,
-          null
+          0
         ],
         [
           631152000000,
-          null
+          0
         ],
         [
           662688000000,
-          null
+          0
         ],
         [
           694224000000,
@@ -1879,24 +1757,13 @@
           34
         ]
       ],
-      "name": "Kroatien"
+      "name": "Kroatien",
+      "turboThreshold": 0
     },
     {
-      "color": "rgb(205, 156, 0)",
+      "color": "rgb(127, 095, 026)",
       "showInNavigator": true,
       "data": [
-        [
-          126230400000,
-          8
-        ],
-        [
-          189302400000,
-          9
-        ],
-        [
-          283996800000,
-          11
-        ],
         [
           315532800000,
           8
@@ -2050,24 +1917,13 @@
           35
         ]
       ],
-      "name": "Vereinigtes Königreich"
+      "name": "Vereinigtes Königreich",
+      "turboThreshold": 0
     },
     {
-      "color": "rgb(176, 0, 0)",
+      "color": "rgb(205, 156, 000)",
       "showInNavigator": true,
       "data": [
-        [
-          126230400000,
-          29
-        ],
-        [
-          189302400000,
-          30
-        ],
-        [
-          283996800000,
-          24
-        ],
         [
           315532800000,
           22
@@ -2221,24 +2077,13 @@
           45
         ]
       ],
-      "name": "Frankreich"
+      "name": "Frankreich",
+      "turboThreshold": 0
     },
     {
-      "color": "rgb(220, 68, 14)",
+      "color": "rgb(176, 000, 000)",
       "showInNavigator": true,
       "data": [
-        [
-          126230400000,
-          2
-        ],
-        [
-          189302400000,
-          4
-        ],
-        [
-          283996800000,
-          3
-        ],
         [
           315532800000,
           1
@@ -2249,11 +2094,11 @@
         ],
         [
           378691200000,
-          null
+          0
         ],
         [
           410227200000,
-          null
+          0
         ],
         [
           441763200000,
@@ -2261,11 +2106,11 @@
         ],
         [
           473385600000,
-          null
+          0
         ],
         [
           504921600000,
-          null
+          0
         ],
         [
           536457600000,
@@ -2392,24 +2237,13 @@
           163
         ]
       ],
-      "name": "Indien"
+      "name": "Indien",
+      "turboThreshold": 0
     },
     {
-      "color": "rgb(255, 128, 40)",
+      "color": "rgb(220, 068, 014)",
       "showInNavigator": true,
       "data": [
-        [
-          126230400000,
-          4
-        ],
-        [
-          189302400000,
-          5
-        ],
-        [
-          283996800000,
-          6
-        ],
         [
           315532800000,
           9
@@ -2563,24 +2397,13 @@
           32
         ]
       ],
-      "name": "Vereinigte Staaten"
+      "name": "Vereinigte Staaten",
+      "turboThreshold": 0
     },
     {
-      "color": "rgb(255, 187, 88)",
+      "color": "rgb(255, 128, 040)",
       "showInNavigator": true,
       "data": [
-        [
-          126230400000,
-          29
-        ],
-        [
-          189302400000,
-          24
-        ],
-        [
-          283996800000,
-          24
-        ],
         [
           315532800000,
           22
@@ -2734,31 +2557,20 @@
           28
         ]
       ],
-      "name": "Österreich"
+      "name": "Österreich",
+      "turboThreshold": 0
     },
     {
-      "color": "rgb(191, 191, 191)",
+      "color": "rgb(255, 187, 088)",
       "showInNavigator": true,
       "data": [
         [
-          126230400000,
-          null
-        ],
-        [
-          189302400000,
-          null
-        ],
-        [
-          283996800000,
-          null
-        ],
-        [
           315532800000,
-          null
+          0
         ],
         [
           347155200000,
-          null
+          0
         ],
         [
           378691200000,
@@ -2905,24 +2717,173 @@
           26
         ]
       ],
-      "name": "Sri Lanka"
+      "name": "Sri Lanka",
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(191, 191, 191)",
+      "showInNavigator": true,
+      "data": [
+        [
+          315532800000,
+          60
+        ],
+        [
+          347155200000,
+          87
+        ],
+        [
+          378691200000,
+          89
+        ],
+        [
+          410227200000,
+          81
+        ],
+        [
+          441763200000,
+          90
+        ],
+        [
+          473385600000,
+          88
+        ],
+        [
+          504921600000,
+          96
+        ],
+        [
+          536457600000,
+          79
+        ],
+        [
+          567993600000,
+          98
+        ],
+        [
+          599616000000,
+          99
+        ],
+        [
+          631152000000,
+          121
+        ],
+        [
+          662688000000,
+          109
+        ],
+        [
+          694224000000,
+          113
+        ],
+        [
+          725846400000,
+          125
+        ],
+        [
+          757382400000,
+          124
+        ],
+        [
+          788918400000,
+          134
+        ],
+        [
+          820454400000,
+          130
+        ],
+        [
+          852076800000,
+          137
+        ],
+        [
+          883612800000,
+          127
+        ],
+        [
+          915148800000,
+          127
+        ],
+        [
+          946684800000,
+          126
+        ],
+        [
+          978307200000,
+          145
+        ],
+        [
+          1009843200000,
+          154
+        ],
+        [
+          1041379200000,
+          189
+        ],
+        [
+          1072915200000,
+          191
+        ],
+        [
+          1104537600000,
+          194
+        ],
+        [
+          1136073600000,
+          226
+        ],
+        [
+          1167609600000,
+          237
+        ],
+        [
+          1199145600000,
+          275
+        ],
+        [
+          1230768000000,
+          292
+        ],
+        [
+          1262304000000,
+          298
+        ],
+        [
+          1293840000000,
+          332
+        ],
+        [
+          1325376000000,
+          351
+        ],
+        [
+          1356998400000,
+          389
+        ],
+        [
+          1388534400000,
+          390
+        ],
+        [
+          1420070400000,
+          377
+        ],
+        [
+          1451606400000,
+          370
+        ],
+        [
+          1483228800000,
+          369
+        ]
+      ],
+      "name": "Übrige",
+      "turboThreshold": 0
     },
     {
       "showInLegend": false,
       "visible": false,
       "data": [
-        [
-          126230400000,
-          13
-        ],
-        [
-          189302400000,
-          13
-        ],
-        [
-          283996800000,
-          13
-        ],
         [
           315532800000,
           13
@@ -3076,9 +3037,34 @@
           13
         ]
       ],
-      "name": "Clara"
+      "name": "Clara",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "ordinal": false,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "endOnTick": true,
+    "startOnTick": true,
+    "showFirstLabel": true,
+    "showLastLabel": true,
+    "tickInterval": 31536000000,
+    "minTickInterval": 31536000000
+  },
   "isStock": true,
   "chart": {
     "borderColor": "#fbfbfb",
@@ -3115,7 +3101,8 @@
         }
       },
       "stacking": "normal",
-      "lineWidth": 0
+      "lineWidth": 1,
+      "fillOpacity": 1
     }
   },
   "title": {
@@ -3137,28 +3124,6 @@
     "text": "Clara",
     "align": "left"
   },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "ordinal": false,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "tickLength": 0,
-    "endOnTick": true,
-    "startOnTick": true,
-    "showFirstLabel": true,
-    "showLastLabel": true,
-    "tickInterval": 31536000000,
-    "minTickInterval": 31536000000
-  },
   "yAxis": {
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
@@ -3179,7 +3144,8 @@
     "showLastLabel": true,
     "endOnTick": true,
     "tickAmount": 6,
-    "opposite": false
+    "opposite": false,
+    "reversedStacks": false
   },
   "navigation": {
     "menuItemStyle": {
@@ -3214,7 +3180,7 @@
     "reversed": true,
     "margin": 5,
     "padding": 5,
-    "itemMarginBottom": 2,
+    "itemMarginBottom": 0,
     "labelFormatter": function (){
           return this.name
             .replace("Bosnien und ", "Bosnien und<br/>")
@@ -3267,10 +3233,12 @@
     },
     "enabled": true,
     "shared": true,
+    "split": false,
+    "reversed": true,
     "formatter": function () {
-          console.log(this.points[0].series.chart.series);
+          //console.log(this.points[0].series.chart.series);
           var lastSeriesIndex = (this.points[0].series.chart.series.length -1)/ 2;
-          var s = '<b>'+ this.points[0].series.chart.series[lastSeriesIndex].name + ' ' +  this.x + '</b>';
+          var s = '<b>'+ this.points[0].series.chart.series[lastSeriesIndex].name + ' ' +  new Date(this.x).getUTCFullYear(); + '</b>';
           $.each(this.points, function () {
               s += '<br/><span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': ' + this.y;
           });

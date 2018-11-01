@@ -1,6 +1,5 @@
 /* 
 global $
-global Highcharts
 */
 
 (function(){
@@ -16,6 +15,7 @@ global Highcharts
               format: "{value:,.0f}",
           }, 
           opposite: false,
+          reversedStacks: false,
       },
       xAxis: {
           endOnTick: true,    
@@ -57,24 +57,25 @@ global Highcharts
         },
       data: {
 		    seriesMapping: [
-		        {x: 0, y: 3},
-		        {x: 0, y: 4},
-		        {x: 0, y: 5},
-		        {x: 0, y: 6},
-		        {x: 0, y: 7},
-		        {x: 0, y: 8},
-		        {x: 0, y: 9},
-		        {x: 0, y: 10},
-		        {x: 0, y: 11},
-		        {x: 0, y: 12},
-		        {x: 0, y: 13},
-		        {x: 0, y: 14},
-		        {x: 0, y: 15},
-		        {x: 0, y: 16},
-		        {x: 0, y: 17},
-		        {x: 0, y: 18},
-		        {x: 0, y: 19},
-		        {x: 0, y: 1 }, //dummy series to get Wohnviertel
+		        {x: 21, y: 3},
+		        {x: 21, y: 4},
+		        {x: 21, y: 5},
+		        {x: 21, y: 6},
+		        {x: 21, y: 7},
+		        {x: 21, y: 8},
+		        {x: 21, y: 9},
+		        {x: 21, y: 10},
+		        {x: 21, y: 11},
+		        {x: 21, y: 12},
+		        {x: 21, y: 13},
+		        {x: 21, y: 14},
+		        {x: 21, y: 15},
+		        {x: 21, y: 16},
+		        {x: 21, y: 17},
+		        {x: 21, y: 18},
+		        {x: 21, y: 19},
+		        {x: 21, y: 20},
+		        {x: 21, y: 1 }, //dummy series to get Wohnviertel
         ],
         parsed: function(columns){ 
           //define which wohnviertel to display
@@ -95,28 +96,31 @@ global Highcharts
           //Create a new Series named like the current Wohnviertel, with its id as content
           columns[1][0] = columns[2][1];
           //convert year in first column to UTC date to be used by Highstock
+          var utcDate = [];
           columns[0].forEach(function(v, i, a){
-              columns[0][i] = Date.UTC(columns[0][i]);
+              utcDate.push(Date.UTC(columns[0][i]));
           });
+          columns.push(utcDate);
         },
       },
       series: [
-        {color: "rgb(36, 99, 112)", showInNavigator: true},
-        {color: "rgb(104,145,153)", showInNavigator: true},
+        {color: "rgb(008, 048, 56)", showInNavigator: true},
+        {color: "rgb(036, 099, 112)", showInNavigator: true},
+        {color: "rgb(104, 145, 153)", showInNavigator: true},
         {color: "rgb(168, 195, 202)", showInNavigator: true},
         {color: "rgb(211, 226, 228)", showInNavigator: true},
-        {color: "rgb(102, 38, 115)", showInNavigator: true},
-        {color: "rgb(145, 63, 141)", showInNavigator: true},
+        {color: "rgb(102, 038, 115)",showInNavigator: true},
+        {color: "rgb(145, 063, 141)", showInNavigator: true},
         {color: "rgb(179, 117, 171)", showInNavigator: true},
-        {color: "rgb(0, 122, 47)", showInNavigator: true},
-        {color: "rgb(104, 171, 43)", showInNavigator: true},
+        {color: "rgb(000, 122, 047)", showInNavigator: true},
+        {color: "rgb(104, 171, 043)", showInNavigator: true},
         {color: "rgb(115, 185, 124)", showInNavigator: true},
-        {color: "rgb(127, 95, 26)", showInNavigator: true},
-        {color: "rgb(205, 156, 0)", showInNavigator: true},
-        {color: "rgb(176, 0, 0)", showInNavigator: true},
-        {color: "rgb(220, 68, 14)", showInNavigator: true},
-        {color: "rgb(255, 128, 40)", showInNavigator: true},
-        {color: "rgb(255, 187, 88)", showInNavigator: true},
+        {color: "rgb(127, 095, 026)", showInNavigator: true},
+        {color: "rgb(205, 156, 000)", showInNavigator: true},
+        {color: "rgb(176, 000, 000)", showInNavigator: true},
+        {color: "rgb(220, 068, 014)", showInNavigator: true},
+        {color: "rgb(255, 128, 040)", showInNavigator: true},
+        {color: "rgb(255, 187, 088)", showInNavigator: true},
         {color: "rgb(191, 191, 191)", showInNavigator: true},
         {showInLegend: false, visible: false} //dummy series to get Wohnviertel
       ],
@@ -128,7 +132,7 @@ global Highcharts
         reversed: true, 
         margin: 5, 
         padding: 5, 
-        itemMarginBottom: 2,
+        itemMarginBottom: 0,
         labelFormatter: function(){
           return this.name
             .replace("Bosnien und ", "Bosnien und<br/>")
@@ -142,20 +146,23 @@ global Highcharts
          //pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y} ({point.percentage:.1f}%)</b><br/>',
          enabled: true,
          shared: true,
+         split: false,
+         reversed: true,
          formatter: function () {
-          console.log(this.points[0].series.chart.series);
+          //console.log(this.points[0].series.chart.series);
           var lastSeriesIndex = (this.points[0].series.chart.series.length -1)/ 2;
-          var s = '<b>'+ this.points[0].series.chart.series[lastSeriesIndex].name + ' ' +  this.x + '</b>';
+          var s = '<b>'+ this.points[0].series.chart.series[lastSeriesIndex].name + ' ' +  new Date(this.x).getUTCFullYear(); + '</b>';
           $.each(this.points, function () {
               s += '<br/><span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': ' + this.y;
           });
           return s;
          },
      },      
-     plotOptions: {
+     plotOptions: { 
         series: {
           stacking: "normal", 
-          lineWidth: 0,
+          lineWidth: 1,
+          fillOpacity: 1, 
         }
      },
      customFunctions: {
