@@ -35056,7 +35056,7 @@ var indikatoren = [
 		],
 		"data-id": 6933,
 		"chart-id": 6933,
-		"filter": "0",
+		"filter": "99",
 		"id": 6990
 	},
 	{

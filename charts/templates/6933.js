@@ -81,7 +81,6 @@ global $
           //define which wohnviertel to display
           //var filterValue = 1;
           var filterValue = this.chartOptions.customFunctions.filter;
-          
           //define which column (zero-based index) should be filtered 
           var filterColumnIndex = 1;
           //go backwards through the column with the values to filter (because we remove values at the end of the array and want to retain the index)
@@ -151,10 +150,11 @@ global $
          formatter: function () {
           //console.log(this.points[0].series.chart.series);
           var lastSeriesIndex = (this.points[0].series.chart.series.length -1)/ 2;
-          var s = '<b>'+ this.points[0].series.chart.series[lastSeriesIndex].name + ' ' +  new Date(this.x).getUTCFullYear(); + '</b>';
-          $.each(this.points, function () {
-              s += '<br/><span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': ' + this.y;
-          });
+          var s = '<b>'+ this.points[0].series.chart.series[lastSeriesIndex].name + ' ' +  new Date(this.x).getUTCFullYear() + '</b>';
+          for (var i = this.points.length -1; i >= 0; i--){
+              var p = this.points[i];
+              s += '<br/><span style="color:' + p.color + '">\u25CF</span> ' + p.series.name + ': <b>' + p.y + '</b>';
+          }
           return s;
          },
      },      
