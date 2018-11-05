@@ -1,51 +1,59 @@
 (function(){
     return {
+  "plotOptions": {
+    "series": {
+      "pointWidth": 25,
+      "dataLabels": {
+        "style": {
+          "fontSize": 10
+        }
+      },
+      "stacking": "normal"
+    }
+  },
   "xAxis": {
-    "tickInterval": 1,
-  },
+    "type": "category"    
+  },  
   "yAxis": {
-    "min": 0, 
-    tickInterval: 10,
-	  "labels": {
-		  "format": "{value}%"
-	  }
-  },	
-  "tooltip": {
-    "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>'
+    tickAmount: 5,
+    "labels": {
+      "format": "{value:,.0f}"
+    },
+    "reversedStacks": false
   },
- "series": [
-  {"color": "#b00000"}, /*Schweiz*/
-  {"color": "#672773"}, /*Deutschland*/
-  {"color": "#007a2f"}, /*Italien*/
-  {"color": "#fabd24"}, /*Türkei*/
-  {"color": "#b475ab"}, /*EU-17 & EFTA*/
-  {"color": "#71a3b5"}, /*EU-Ost */
-  {"color": "#b9cfd7"}, /*Balkan*/
-  {"color": "#ff8028"}, /*Mittel- & Südamerika */
-  {"color": "#73ba7c"}, /*Arabische Länder */
-  {"color": "#9f7c5a"}, /*Afrikanische Länder*/
-  {"color": "#999999"}, /*Übrige Länder*/
-  ],
-   "legend": {
-    "enabled": true,
+  "tooltip": {
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
+    "shared": false
+  },  
+  "legend": {
+    enabled: true,
     "layout": "horizontal",
     "verticalAlign": "top",
+    "itemMarginBottom": 5,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
-    },
-    labelFormatter: function(){
-      return this.name.replace("&", "u.");
-    },
-  },
-  "plotOptions": {
-    "line": {
-      "marker":{
-        "enabled": false,
-        "symbol": "circle",
-      } 
     }
+  },
+  "series": [
+   
+    {
+      "color": "#246370",
+      "legendIndex": 1  
+    },
+    {
+      "color": "#D3E2E4",
+      "legendIndex": 2  
+    },
+    {
+      "color": "#68AB2B",
+      "legendIndex": 3  
+    },
+  ],
+  "chart": {    
+   // "marginBottom": 85,
+    //"marginTop": 75,
+    "type": "column"
   }
-};
+	};
 }());
