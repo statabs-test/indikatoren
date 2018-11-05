@@ -2,6 +2,7 @@
     return {
  "xAxis": {
     "tickInterval": 1,
+    type: 'category',
   },
   "yAxis": {
 	"labels": {
