@@ -38,16 +38,36 @@
   "series": [
    
     {
-      "color": "#246370",
+      "color": "#2E1435",
       "legendIndex": 1  
     },
     {
-      "color": "#D3E2E4",
+      "color": "#662673",
       "legendIndex": 2  
     },
     {
-      "color": "#68AB2B",
+      "color": "#923F8D",
       "legendIndex": 3  
+    },
+     {
+      "color": "#B375AB",
+      "legendIndex": 4  
+    },
+     {
+      "color": "#E7CEE2",
+      "legendIndex": 5  
+    },
+     {
+      "color": "#689199",
+      "legendIndex": 6  
+    },
+     {
+      "color": "#246370",
+      "legendIndex": 7  
+    },
+     {
+      "color": "#083038",
+      "legendIndex": 8  
     },
   ],
   "chart": {    

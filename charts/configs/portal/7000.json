@@ -1,7 +1,8 @@
 {
   "series": [
     {
-      "color": "#b00000",
+      "color": "#2E1435",
+      "legendIndex": 1,
       "data": [
         [
           "0 bis 9 Jahre",
@@ -48,7 +49,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#672773",
+      "color": "#662673",
+      "legendIndex": 2,
       "data": [
         [
           "0 bis 9 Jahre",
@@ -95,7 +97,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#007a2f",
+      "color": "#923F8D",
+      "legendIndex": 3,
       "data": [
         [
           "0 bis 9 Jahre",
@@ -142,7 +145,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#fabd24",
+      "color": "#B375AB",
+      "legendIndex": 4,
       "data": [
         [
           "0 bis 9 Jahre",
@@ -189,7 +193,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#b475ab",
+      "color": "#E7CEE2",
+      "legendIndex": 5,
       "data": [
         [
           "0 bis 9 Jahre",
@@ -236,7 +241,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#71a3b5",
+      "color": "#689199",
+      "legendIndex": 6,
       "data": [
         [
           "0 bis 9 Jahre",
@@ -283,7 +289,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#b9cfd7",
+      "color": "#246370",
+      "legendIndex": 7,
       "data": [
         [
           "0 bis 9 Jahre",
@@ -330,7 +337,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#ff8028",
+      "color": "#083038",
+      "legendIndex": 8,
       "data": [
         [
           "0 bis 9 Jahre",
@@ -375,15 +383,6 @@
       ],
       "name": "nach Hause",
       "turboThreshold": 0
-    },
-    {
-      "color": "#73ba7c"
-    },
-    {
-      "color": "#9f7c5a"
-    },
-    {
-      "color": "#999999"
     }
   ],
   "xAxis": {
@@ -397,8 +396,7 @@
         "textOverflow": "none"
       }
     },
-    "tickLength": 0,
-    "tickInterval": 1
+    "tickLength": 0
   },
   "chart": {
     "events": {
@@ -426,7 +424,7 @@
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line",
+    "type": "column",
     "renderTo": "container-7000"
   },
   "title": {
@@ -450,7 +448,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
     "min": 0,
@@ -467,9 +465,10 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value}%"
+      "format": "{value:,.0f}"
     },
-    "tickInterval": 10
+    "tickAmount": 5,
+    "reversedStacks": false
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -496,21 +495,20 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "labelFormatter": function (){
-      return this.name.replace("&", "u.");
-    }
+    "itemMarginBottom": 5
   },
   "plotOptions": {
     "series": {
       "marker": {
         "enabled": false
-      }
-    },
-    "line": {
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
+      },
+      "pointWidth": 25,
+      "dataLabels": {
+        "style": {
+          "fontSize": 10
+        }
+      },
+      "stacking": "normal"
     }
   },
   "customFunctions": {
