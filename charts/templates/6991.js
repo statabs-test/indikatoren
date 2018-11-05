@@ -1,7 +1,8 @@
 (function(){
     return {
  "xAxis": {
-    "tickInterval": 1,
+    tickInterval: 1,
+    type: 'category',
   },
   "yAxis": {
 	"labels": {
