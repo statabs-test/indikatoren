@@ -20438,5 +20438,42 @@
 			""
 		],
 		"id": 6999
+	},
+	{
+		"title": "Aufenthaltsorte nach dem Austritt aus Basler Spitälern",
+		"subtitle": "nach Alter, 2017",
+		"kuerzel": "I.14.1.07000",
+		"kuerzelKunde": "",
+		"description": "Aufenthaltsorte nach dem Austritt aus Basler Spitälern",
+		"thema": "14 Gesundheit",
+		"unterthema": "Spitäler",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik",
+			"Bundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7000
 	}
 ]
