@@ -10,7 +10,7 @@ global $
       yAxis: {
           showLastLabel: true,
           endOnTick: true,
-          tickAmount: 6,
+          maxPadding: 0,
           labels: {
               format: "{value:,.0f}",
           }, 
@@ -49,7 +49,7 @@ global $
                       text: 'Alle J'
     	            }
                 ],
-            buttonSpacing: 15,                
+            buttonSpacing: 15,
             inputEnabled: false,
             selected: 1, 
             inputDateFormat: '%Y',
@@ -57,25 +57,26 @@ global $
         },
       data: {
 		    seriesMapping: [
-		        {x: 21, y: 3},
-		        {x: 21, y: 4},
-		        {x: 21, y: 5},
-		        {x: 21, y: 6},
-		        {x: 21, y: 7},
-		        {x: 21, y: 8},
-		        {x: 21, y: 9},
-		        {x: 21, y: 10},
-		        {x: 21, y: 11},
-		        {x: 21, y: 12},
-		        {x: 21, y: 13},
-		        {x: 21, y: 14},
-		        {x: 21, y: 15},
-		        {x: 21, y: 16},
-		        {x: 21, y: 17},
-		        {x: 21, y: 18},
-		        {x: 21, y: 19},
-		        {x: 21, y: 20},
-		        {x: 21, y: 1 }, //dummy series to get Wohnviertel
+		        {x: 22, y: 3},
+		        {x: 22, y: 4},
+		        {x: 22, y: 5},
+		        {x: 22, y: 6},
+		        {x: 22, y: 7},
+		        {x: 22, y: 8},
+		        {x: 22, y: 9},
+		        {x: 22, y: 10},
+		        {x: 22, y: 11},
+		        {x: 22, y: 12},
+		        {x: 22, y: 13},
+		        {x: 22, y: 14},
+		        {x: 22, y: 15},
+		        {x: 22, y: 16},
+		        {x: 22, y: 17},
+		        {x: 22, y: 18},
+		        {x: 22, y: 19},
+		        {x: 22, y: 20},
+		        {x: 22, y: 21},
+		        {x: 22, y: 1 }, //dummy series to get Wohnviertel
         ],
         parsed: function(columns){ 
           //define which wohnviertel to display
@@ -121,6 +122,7 @@ global $
         {color: "rgb(255, 128, 040)", showInNavigator: true},
         {color: "rgb(255, 187, 088)", showInNavigator: true},
         {color: "rgb(191, 191, 191)", showInNavigator: true},
+        {color: "black", showInNavigator: true, visible: false},
         {showInLegend: false, visible: false} //dummy series to get Wohnviertel
       ],
       legend: {
