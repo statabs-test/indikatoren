@@ -52,17 +52,23 @@
       "color": "#73b97c",
       "index": 0,
       "type": "column",
-      "pointWidth": "10"
+      "pointWidth": "8"
     },
     {
       "color": "#cd9c00",
       "index": 1,
-      "type": "line",
+       type: 'scatter',
+            marker: {
+                symbol: 'dot', 
+                radius: 5,
+     // "type": "line",
+      // "pointWidth": "8",
       "yAxis": 1, 
       connectNulls: true,
       tooltip: {
         valueDecimals: 2
       }
+    }
     }
   ],  
   "tooltip": {

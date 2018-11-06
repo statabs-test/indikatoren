@@ -4,7 +4,7 @@
       "color": "#73b97c",
       "index": 0,
       "type": "column",
-      "pointWidth": "10",
+      "pointWidth": "8",
       "data": [
         [
           1980,
@@ -56,11 +56,15 @@
     {
       "color": "#cd9c00",
       "index": 1,
-      "type": "line",
-      "yAxis": 1,
-      "connectNulls": true,
-      "tooltip": {
-        "valueDecimals": 2
+      "type": "scatter",
+      "marker": {
+        "symbol": "dot",
+        "radius": 5,
+        "yAxis": 1,
+        "connectNulls": true,
+        "tooltip": {
+          "valueDecimals": 2
+        }
       },
       "data": [
         [
@@ -173,7 +177,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "xAxis": {
@@ -246,7 +250,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-1-18"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-11-6"
   },
   "legend": {
     "symbolRadius": 0,
