@@ -23,13 +23,13 @@
       "text": null
     },
     "labels": {
-      "format": "{value:,.0f}%",
+      "format": "{value:,.f}%",
       "style": {
         "color": "#000000"
       }
     },
     "min": 0,
-    "max": 24,
+    //"max": 15,
     "gridLineWidth": 0,
     "opposite": true
   }
@@ -57,18 +57,16 @@
     {
       "color": "#cd9c00",
       "index": 1,
-       type: 'scatter',
-            marker: {
-                symbol: 'dot', 
-                radius: 5,
-     // "type": "line",
-      // "pointWidth": "8",
+      type: 'scatter',
+      marker: {
+          symbol: 'dot', 
+          radius: 5,
+      },
       "yAxis": 1, 
       connectNulls: true,
       tooltip: {
         valueDecimals: 2
       }
-    }
     }
   ],  
   "tooltip": {
