@@ -1,7 +1,54 @@
 {
   "series": [
     {
-      "color": "#2E1435",
+      "color": "#246370",
+      "data": [
+        [
+          "0 bis 9 J.",
+          7772
+        ],
+        [
+          "10 bis 19 J.",
+          2448
+        ],
+        [
+          "20 bis 29 J.",
+          3938
+        ],
+        [
+          "30 bis 39 J.",
+          6550
+        ],
+        [
+          "40 bis 49 J.",
+          5040
+        ],
+        [
+          "50 bis 59 J.",
+          7184
+        ],
+        [
+          "60 bis 69 J.",
+          7659
+        ],
+        [
+          "70 bis 79 J.",
+          8126
+        ],
+        [
+          "80 bis 89 J.",
+          5722
+        ],
+        [
+          "90 J. u.m.",
+          1030
+        ]
+      ],
+      "name": "nach Hause",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
       "data": [
         [
           "0 bis 9 J.",
@@ -48,54 +95,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#662673",
-      "data": [
-        [
-          "0 bis 9 J.",
-          11
-        ],
-        [
-          "10 bis 19 J.",
-          11
-        ],
-        [
-          "20 bis 29 J.",
-          59
-        ],
-        [
-          "30 bis 39 J.",
-          64
-        ],
-        [
-          "40 bis 49 J.",
-          37
-        ],
-        [
-          "50 bis 59 J.",
-          62
-        ],
-        [
-          "60 bis 69 J.",
-          36
-        ],
-        [
-          "70 bis 79 J.",
-          71
-        ],
-        [
-          "80 bis 89 J.",
-          79
-        ],
-        [
-          "90 J. u.m.",
-          13
-        ]
-      ],
-      "name": "Andere",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#923F8D",
+      "color": "#A8C3CA",
       "data": [
         [
           "0 bis 9 J.",
@@ -142,7 +142,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#B375AB",
+      "color": "#FABD24",
       "data": [
         [
           "0 bis 9 J.",
@@ -189,7 +189,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#E7CEE2",
+      "color": "#CD9C00",
       "data": [
         [
           "0 bis 9 J.",
@@ -236,7 +236,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#689199",
+      "color": "#7F5F1A",
       "data": [
         [
           "0 bis 9 J.",
@@ -283,7 +283,54 @@
       "turboThreshold": 0
     },
     {
-      "color": "#246370",
+      "color": "#FF8028",
+      "data": [
+        [
+          "0 bis 9 J.",
+          11
+        ],
+        [
+          "10 bis 19 J.",
+          11
+        ],
+        [
+          "20 bis 29 J.",
+          59
+        ],
+        [
+          "30 bis 39 J.",
+          64
+        ],
+        [
+          "40 bis 49 J.",
+          37
+        ],
+        [
+          "50 bis 59 J.",
+          62
+        ],
+        [
+          "60 bis 69 J.",
+          36
+        ],
+        [
+          "70 bis 79 J.",
+          71
+        ],
+        [
+          "80 bis 89 J.",
+          79
+        ],
+        [
+          "90 J. u.m.",
+          13
+        ]
+      ],
+      "name": "Andere",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#DC440E",
       "data": [
         [
           "0 bis 9 J.",
@@ -327,53 +374,6 @@
         ]
       ],
       "name": "Unbekannt",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#083038",
-      "data": [
-        [
-          "0 bis 9 J.",
-          7772
-        ],
-        [
-          "10 bis 19 J.",
-          2448
-        ],
-        [
-          "20 bis 29 J.",
-          3938
-        ],
-        [
-          "30 bis 39 J.",
-          6550
-        ],
-        [
-          "40 bis 49 J.",
-          5040
-        ],
-        [
-          "50 bis 59 J.",
-          7184
-        ],
-        [
-          "60 bis 69 J.",
-          7659
-        ],
-        [
-          "70 bis 79 J.",
-          8126
-        ],
-        [
-          "80 bis 89 J.",
-          5722
-        ],
-        [
-          "90 J. u.m.",
-          1030
-        ]
-      ],
-      "name": "nach Hause",
       "turboThreshold": 0
     }
   ],

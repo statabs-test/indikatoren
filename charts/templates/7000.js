@@ -1,7 +1,7 @@
 (function(){
     return {
-  "plotOptions": {
-    "series": {
+ "plotOptions": {
+  "series": {
       "stacking": "normal"
     }
   },
@@ -25,28 +25,28 @@
   "series": [
    
     {
-      "color": "#2E1435",
-    },
-    {
-      "color": "#662673",
-    },
-    {
-      "color": "#923F8D",
-    },
-     {
-      "color": "#B375AB",
-    },
-     {
-      "color": "#E7CEE2",
-    },
-     {
-      "color": "#689199",
-    },
-     {
       "color": "#246370",
     },
+    {
+      "color": "#689199",
+    },
+    {
+      "color": "#A8C3CA",
+    },
      {
-      "color": "#083038",
+      "color": "#FABD24",
+    },
+     {
+      "color": "#CD9C00",
+    },
+     {
+      "color": "#7F5F1A",
+    },
+     {
+      "color": "#FF8028",
+    },
+     {
+      "color": "#DC440E",
     },
   ],
   "chart": {    
