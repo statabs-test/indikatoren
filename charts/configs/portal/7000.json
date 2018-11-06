@@ -2,46 +2,45 @@
   "series": [
     {
       "color": "#2E1435",
-      "legendIndex": 1,
       "data": [
         [
-          "0 bis 9 Jahre",
+          "0 bis 9 J.",
           534
         ],
         [
-          "10 bis 19 Jahre",
+          "10 bis 19 J.",
           24
         ],
         [
-          "20 bis 29 Jahre",
+          "20 bis 29 J.",
           63
         ],
         [
-          "30 bis 39 Jahre",
+          "30 bis 39 J.",
           113
         ],
         [
-          "40 bis 49 Jahre",
+          "40 bis 49 J.",
           91
         ],
         [
-          "50 bis 59 Jahre",
+          "50 bis 59 J.",
           173
         ],
         [
-          "60 bis 69 Jahre",
+          "60 bis 69 J.",
           353
         ],
         [
-          "70 bis 79 Jahre",
+          "70 bis 79 J.",
           917
         ],
         [
-          "80 bis 89 Jahre",
+          "80 bis 89 J.",
           1601
         ],
         [
-          "90 Jahre u.m.",
+          "90 J. u.m.",
           591
         ]
       ],
@@ -50,46 +49,45 @@
     },
     {
       "color": "#662673",
-      "legendIndex": 2,
       "data": [
         [
-          "0 bis 9 Jahre",
+          "0 bis 9 J.",
           11
         ],
         [
-          "10 bis 19 Jahre",
+          "10 bis 19 J.",
           11
         ],
         [
-          "20 bis 29 Jahre",
+          "20 bis 29 J.",
           59
         ],
         [
-          "30 bis 39 Jahre",
+          "30 bis 39 J.",
           64
         ],
         [
-          "40 bis 49 Jahre",
+          "40 bis 49 J.",
           37
         ],
         [
-          "50 bis 59 Jahre",
+          "50 bis 59 J.",
           62
         ],
         [
-          "60 bis 69 Jahre",
+          "60 bis 69 J.",
           36
         ],
         [
-          "70 bis 79 Jahre",
+          "70 bis 79 J.",
           71
         ],
         [
-          "80 bis 89 Jahre",
+          "80 bis 89 J.",
           79
         ],
         [
-          "90 Jahre u.m.",
+          "90 J. u.m.",
           13
         ]
       ],
@@ -98,46 +96,45 @@
     },
     {
       "color": "#923F8D",
-      "legendIndex": 3,
       "data": [
         [
-          "0 bis 9 Jahre",
+          "0 bis 9 J.",
           null
         ],
         [
-          "10 bis 19 Jahre",
+          "10 bis 19 J.",
           30
         ],
         [
-          "20 bis 29 Jahre",
+          "20 bis 29 J.",
           63
         ],
         [
-          "30 bis 39 Jahre",
+          "30 bis 39 J.",
           82
         ],
         [
-          "40 bis 49 Jahre",
+          "40 bis 49 J.",
           100
         ],
         [
-          "50 bis 59 Jahre",
+          "50 bis 59 J.",
           124
         ],
         [
-          "60 bis 69 Jahre",
+          "60 bis 69 J.",
           87
         ],
         [
-          "70 bis 79 Jahre",
+          "70 bis 79 J.",
           51
         ],
         [
-          "80 bis 89 Jahre",
+          "80 bis 89 J.",
           38
         ],
         [
-          "90 Jahre u.m.",
+          "90 J. u.m.",
           12
         ]
       ],
@@ -146,46 +143,45 @@
     },
     {
       "color": "#B375AB",
-      "legendIndex": 4,
       "data": [
         [
-          "0 bis 9 Jahre",
+          "0 bis 9 J.",
           14
         ],
         [
-          "10 bis 19 Jahre",
+          "10 bis 19 J.",
           16
         ],
         [
-          "20 bis 29 Jahre",
+          "20 bis 29 J.",
           40
         ],
         [
-          "30 bis 39 Jahre",
+          "30 bis 39 J.",
           59
         ],
         [
-          "40 bis 49 Jahre",
+          "40 bis 49 J.",
           160
         ],
         [
-          "50 bis 59 Jahre",
+          "50 bis 59 J.",
           431
         ],
         [
-          "60 bis 69 Jahre",
+          "60 bis 69 J.",
           909
         ],
         [
-          "70 bis 79 Jahre",
+          "70 bis 79 J.",
           1697
         ],
         [
-          "80 bis 89 Jahre",
+          "80 bis 89 J.",
           2017
         ],
         [
-          "90 Jahre u.m.",
+          "90 J. u.m.",
           562
         ]
       ],
@@ -194,46 +190,45 @@
     },
     {
       "color": "#E7CEE2",
-      "legendIndex": 5,
       "data": [
         [
-          "0 bis 9 Jahre",
+          "0 bis 9 J.",
           1
         ],
         [
-          "10 bis 19 Jahre",
+          "10 bis 19 J.",
           24
         ],
         [
-          "20 bis 29 Jahre",
+          "20 bis 29 J.",
           45
         ],
         [
-          "30 bis 39 Jahre",
+          "30 bis 39 J.",
           70
         ],
         [
-          "40 bis 49 Jahre",
+          "40 bis 49 J.",
           112
         ],
         [
-          "50 bis 59 Jahre",
+          "50 bis 59 J.",
           143
         ],
         [
-          "60 bis 69 Jahre",
+          "60 bis 69 J.",
           220
         ],
         [
-          "70 bis 79 Jahre",
+          "70 bis 79 J.",
           494
         ],
         [
-          "80 bis 89 Jahre",
+          "80 bis 89 J.",
           1071
         ],
         [
-          "90 Jahre u.m.",
+          "90 J. u.m.",
           634
         ]
       ],
@@ -242,46 +237,45 @@
     },
     {
       "color": "#689199",
-      "legendIndex": 6,
       "data": [
         [
-          "0 bis 9 Jahre",
+          "0 bis 9 J.",
           40
         ],
         [
-          "10 bis 19 Jahre",
+          "10 bis 19 J.",
           2
         ],
         [
-          "20 bis 29 Jahre",
+          "20 bis 29 J.",
           7
         ],
         [
-          "30 bis 39 Jahre",
+          "30 bis 39 J.",
           14
         ],
         [
-          "40 bis 49 Jahre",
+          "40 bis 49 J.",
           28
         ],
         [
-          "50 bis 59 Jahre",
+          "50 bis 59 J.",
           104
         ],
         [
-          "60 bis 69 Jahre",
+          "60 bis 69 J.",
           227
         ],
         [
-          "70 bis 79 Jahre",
+          "70 bis 79 J.",
           407
         ],
         [
-          "80 bis 89 Jahre",
+          "80 bis 89 J.",
           524
         ],
         [
-          "90 Jahre u.m.",
+          "90 J. u.m.",
           197
         ]
       ],
@@ -290,46 +284,45 @@
     },
     {
       "color": "#246370",
-      "legendIndex": 7,
       "data": [
         [
-          "0 bis 9 Jahre",
+          "0 bis 9 J.",
           4
         ],
         [
-          "10 bis 19 Jahre",
+          "10 bis 19 J.",
           8
         ],
         [
-          "20 bis 29 Jahre",
+          "20 bis 29 J.",
           17
         ],
         [
-          "30 bis 39 Jahre",
+          "30 bis 39 J.",
           9
         ],
         [
-          "40 bis 49 Jahre",
+          "40 bis 49 J.",
           21
         ],
         [
-          "50 bis 59 Jahre",
+          "50 bis 59 J.",
           12
         ],
         [
-          "60 bis 69 Jahre",
+          "60 bis 69 J.",
           2
         ],
         [
-          "70 bis 79 Jahre",
+          "70 bis 79 J.",
           6
         ],
         [
-          "80 bis 89 Jahre",
+          "80 bis 89 J.",
           2
         ],
         [
-          "90 Jahre u.m.",
+          "90 J. u.m.",
           2
         ]
       ],
@@ -338,46 +331,45 @@
     },
     {
       "color": "#083038",
-      "legendIndex": 8,
       "data": [
         [
-          "0 bis 9 Jahre",
+          "0 bis 9 J.",
           7772
         ],
         [
-          "10 bis 19 Jahre",
+          "10 bis 19 J.",
           2448
         ],
         [
-          "20 bis 29 Jahre",
+          "20 bis 29 J.",
           3938
         ],
         [
-          "30 bis 39 Jahre",
+          "30 bis 39 J.",
           6550
         ],
         [
-          "40 bis 49 Jahre",
+          "40 bis 49 J.",
           5040
         ],
         [
-          "50 bis 59 Jahre",
+          "50 bis 59 J.",
           7184
         ],
         [
-          "60 bis 69 Jahre",
+          "60 bis 69 J.",
           7659
         ],
         [
-          "70 bis 79 Jahre",
+          "70 bis 79 J.",
           8126
         ],
         [
-          "80 bis 89 Jahre",
+          "80 bis 89 J.",
           5722
         ],
         [
-          "90 Jahre u.m.",
+          "90 J. u.m.",
           1030
         ]
       ],
@@ -447,8 +439,7 @@
     "align": "left"
   },
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "shared": false
   },
   "yAxis": {
     "min": 0,
@@ -464,10 +455,9 @@
     "labels": {
       "style": {
         "color": "#000000"
-      },
-      "format": "{value:,.0f}"
+      }
     },
-    "tickAmount": 5,
+    "maxPadding": 0,
     "reversedStacks": false
   },
   "credits": {
@@ -488,25 +478,22 @@
   },
   "legend": {
     "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemMarginBottom": 5
+    "reversed": true,
+    "labelFormatter": function (){
+      return this.name.replace("Sozialmedizinische ", "Sozialmedizinische<br/>");
+    }
   },
   "plotOptions": {
     "series": {
       "marker": {
         "enabled": false
-      },
-      "pointWidth": 25,
-      "dataLabels": {
-        "style": {
-          "fontSize": 10
-        }
       },
       "stacking": "normal"
     }
