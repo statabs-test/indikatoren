@@ -189,8 +189,7 @@
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line",
-    "marginRight": 18,
+    "type": "column",
     "renderTo": "container-2528"
   },
   "title": {
@@ -293,13 +292,10 @@
       "marker": {
         "enabled": false
       },
-      "connectNulls": true
-    },
-    "line": {
-      "marker": {
-        "enabled": true,
-        "symbol": "circle"
-      }
+      "stacking": null,
+      "pointPadding": 0,
+      "groupPadding": 0.1,
+      "borderWidth": 0
     }
   },
   "customFunctions": {

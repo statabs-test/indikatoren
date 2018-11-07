@@ -243,8 +243,7 @@
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line",
-    "marginRight": 18,
+    "type": "column",
     "renderTo": "container-6456"
   },
   "title": {
@@ -286,8 +285,7 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    },
-    "max": 20000
+    }
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -347,13 +345,10 @@
       "marker": {
         "enabled": false
       },
-      "connectNulls": true
-    },
-    "line": {
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
+      "stacking": null,
+      "pointPadding": 0,
+      "groupPadding": 0.1,
+      "borderWidth": 0
     }
   },
   "customFunctions": {

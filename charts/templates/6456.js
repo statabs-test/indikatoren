@@ -5,7 +5,6 @@
     "tickPositions": [2005,2008,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021]
   },
   "yAxis": {
-    "max": 20000,
 	"labels": {
 		"format": "{value:,.0f}"
 	}
@@ -30,19 +29,17 @@
       "fontWeight": "normal"
     }
   },
-  "plotOptions": {
-    "line": {
-      "marker":{
-        "enabled": false,
-        "symbol": "circle",
-      } 
-    },
-    series: {
-       connectNulls: true
+ "plotOptions": {
+            "series": {
+                "stacking": null,
+				pointPadding: 0, 
+				groupPadding: 0.1, 
+				borderWidth: 0
+
+            }
+        },
+        "chart": {      
+            "type": "column"
+        },
     }
-  },
- "chart": {  
-    	marginRight: 18,
-   }
-}
 }());

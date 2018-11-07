@@ -35,18 +35,16 @@
     }
   },
   "plotOptions": {
-    "line": {
-      "marker":{
-        "enabled": false,
-        "symbol": "circle",
-      } 
-    },
-     series: {
-            connectNulls: true
-        }
-  },
-   "chart": {  
-    	marginRight: 18,
-   }
-}
+            "series": {
+                "stacking": null,
+				pointPadding: 0, 
+				groupPadding: 0.1, 
+				borderWidth: 0
+
+            }
+        },
+        "chart": {      
+            "type": "column"
+        },
+    }
 }());
