@@ -6,22 +6,27 @@
     }
   },
   "xAxis": {
-    "type": "category"    
+    reversed: false,
+    "type": "category",
+    labels: {
+      formatter: function(){
+        return this.axis.defaultLabelFormatter.call(this);
+      },
+    },
   },  
   yAxis: {
     maxPadding: 0,
-    reversedStacks: false
+    reversedStacks: false,
+    tickAmount: 6,
   },
   legend: {
     enabled: true,
-    reversed: true,
+    reversed: false,
     fontWeight: 'normal',
-    layout: "vertical",
-    verticalAlign: "middle",
-    align: "right",
-    labelFormatter: function(){
-      return this.name.replace("Sozialmedizinische ", "Sozialmedizinische<br/>");
-    },
+    layout: "horizontal",
+    verticalAlign: "top",
+    align: "left",
+    itemMarginBottom: 2,
   },
   "series": [
    
@@ -51,7 +56,8 @@
     },
   ],
   "chart": {    
-    "type": "column"
+    "type": "column",
+    inverted: true,
   }
 	};
 }());
