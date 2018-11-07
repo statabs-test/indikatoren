@@ -4,44 +4,28 @@
       "color": "#246370",
       "data": [
         [
-          "0 bis 9 J.",
-          7772
+          "0 bis 19 J.",
+          10995
         ],
         [
-          "10 bis 19 J.",
-          2448
+          "20 bis 39 J.",
+          11591
         ],
         [
-          "20 bis 29 J.",
-          3938
+          "40 bis 59 J.",
+          14207
         ],
         [
-          "30 bis 39 J.",
-          6550
+          "60 bis 79 J.",
+          19127
         ],
         [
-          "40 bis 49 J.",
-          5040
+          "80 J. u.m.",
+          7793
         ],
         [
-          "50 bis 59 J.",
-          7184
-        ],
-        [
-          "60 bis 69 J.",
-          7659
-        ],
-        [
-          "70 bis 79 J.",
-          8126
-        ],
-        [
-          "80 bis 89 J.",
-          5722
-        ],
-        [
-          "90 J. u.m.",
-          1030
+          "Total",
+          63713
         ]
       ],
       "name": "nach Hause",
@@ -51,44 +35,28 @@
       "color": "#689199",
       "data": [
         [
-          "0 bis 9 J.",
-          534
+          "0 bis 19 J.",
+          561
         ],
         [
-          "10 bis 19 J.",
-          24
+          "20 bis 39 J.",
+          179
         ],
         [
-          "20 bis 29 J.",
-          63
+          "40 bis 59 J.",
+          281
         ],
         [
-          "30 bis 39 J.",
-          113
+          "60 bis 79 J.",
+          1380
         ],
         [
-          "40 bis 49 J.",
-          91
+          "80 J. u.m.",
+          2379
         ],
         [
-          "50 bis 59 J.",
-          173
-        ],
-        [
-          "60 bis 69 J.",
-          353
-        ],
-        [
-          "70 bis 79 J.",
-          917
-        ],
-        [
-          "80 bis 89 J.",
-          1601
-        ],
-        [
-          "90 J. u.m.",
-          591
+          "Total",
+          4780
         ]
       ],
       "name": "Akutspital",
@@ -98,44 +66,28 @@
       "color": "#A8C3CA",
       "data": [
         [
-          "0 bis 9 J.",
-          null
+          "0 bis 19 J.",
+          33
         ],
         [
-          "10 bis 19 J.",
-          30
+          "20 bis 39 J.",
+          161
         ],
         [
-          "20 bis 29 J.",
-          63
+          "40 bis 59 J.",
+          254
         ],
         [
-          "30 bis 39 J.",
-          82
+          "60 bis 79 J.",
+          158
         ],
         [
-          "40 bis 49 J.",
-          100
+          "80 J. u.m.",
+          54
         ],
         [
-          "50 bis 59 J.",
-          124
-        ],
-        [
-          "60 bis 69 J.",
-          87
-        ],
-        [
-          "70 bis 79 J.",
-          51
-        ],
-        [
-          "80 bis 89 J.",
-          38
-        ],
-        [
-          "90 J. u.m.",
-          12
+          "Total",
+          660
         ]
       ],
       "name": "Psychiatrische Klinik",
@@ -145,44 +97,28 @@
       "color": "#FABD24",
       "data": [
         [
-          "0 bis 9 J.",
-          14
+          "0 bis 19 J.",
+          31
         ],
         [
-          "10 bis 19 J.",
-          16
+          "20 bis 39 J.",
+          115
         ],
         [
-          "20 bis 29 J.",
-          40
+          "40 bis 59 J.",
+          641
         ],
         [
-          "30 bis 39 J.",
-          59
+          "60 bis 79 J.",
+          2825
         ],
         [
-          "40 bis 49 J.",
-          160
+          "80 J. u.m.",
+          2722
         ],
         [
-          "50 bis 59 J.",
-          431
-        ],
-        [
-          "60 bis 69 J.",
-          909
-        ],
-        [
-          "70 bis 79 J.",
-          1697
-        ],
-        [
-          "80 bis 89 J.",
-          2017
-        ],
-        [
-          "90 J. u.m.",
-          562
+          "Total",
+          6334
         ]
       ],
       "name": "Rehabilitationsklinik",
@@ -192,44 +128,28 @@
       "color": "#CD9C00",
       "data": [
         [
-          "0 bis 9 J.",
-          1
+          "0 bis 19 J.",
+          30
         ],
         [
-          "10 bis 19 J.",
-          24
+          "20 bis 39 J.",
+          146
         ],
         [
-          "20 bis 29 J.",
-          45
+          "40 bis 59 J.",
+          314
         ],
         [
-          "30 bis 39 J.",
-          70
+          "60 bis 79 J.",
+          810
         ],
         [
-          "40 bis 49 J.",
-          112
+          "80 J. u.m.",
+          1864
         ],
         [
-          "50 bis 59 J.",
-          143
-        ],
-        [
-          "60 bis 69 J.",
-          220
-        ],
-        [
-          "70 bis 79 J.",
-          494
-        ],
-        [
-          "80 bis 89 J.",
-          1071
-        ],
-        [
-          "90 J. u.m.",
-          634
+          "Total",
+          3164
         ]
       ],
       "name": "Sozialmedizinische institution",
@@ -239,44 +159,28 @@
       "color": "#7F5F1A",
       "data": [
         [
-          "0 bis 9 J.",
-          40
+          "0 bis 19 J.",
+          42
         ],
         [
-          "10 bis 19 J.",
-          2
+          "20 bis 39 J.",
+          21
         ],
         [
-          "20 bis 29 J.",
-          7
+          "40 bis 59 J.",
+          132
         ],
         [
-          "30 bis 39 J.",
-          14
+          "60 bis 79 J.",
+          634
         ],
         [
-          "40 bis 49 J.",
-          28
+          "80 J. u.m.",
+          721
         ],
         [
-          "50 bis 59 J.",
-          104
-        ],
-        [
-          "60 bis 69 J.",
-          227
-        ],
-        [
-          "70 bis 79 J.",
-          407
-        ],
-        [
-          "80 bis 89 J.",
-          524
-        ],
-        [
-          "90 J. u.m.",
-          197
+          "Total",
+          1550
         ]
       ],
       "name": "Todesfall",
@@ -286,44 +190,28 @@
       "color": "#FF8028",
       "data": [
         [
-          "0 bis 9 J.",
-          11
+          "0 bis 19 J.",
+          22
         ],
         [
-          "10 bis 19 J.",
-          11
+          "20 bis 39 J.",
+          165
         ],
         [
-          "20 bis 29 J.",
-          59
+          "40 bis 59 J.",
+          107
         ],
         [
-          "30 bis 39 J.",
-          64
+          "60 bis 79 J.",
+          108
         ],
         [
-          "40 bis 49 J.",
-          37
+          "80 J. u.m.",
+          93
         ],
         [
-          "50 bis 59 J.",
-          62
-        ],
-        [
-          "60 bis 69 J.",
-          36
-        ],
-        [
-          "70 bis 79 J.",
-          71
-        ],
-        [
-          "80 bis 89 J.",
-          79
-        ],
-        [
-          "90 J. u.m.",
-          13
+          "Total",
+          495
         ]
       ],
       "name": "Andere",
@@ -333,44 +221,28 @@
       "color": "#DC440E",
       "data": [
         [
-          "0 bis 9 J.",
-          4
-        ],
-        [
-          "10 bis 19 J.",
-          8
-        ],
-        [
-          "20 bis 29 J.",
-          17
-        ],
-        [
-          "30 bis 39 J.",
-          9
-        ],
-        [
-          "40 bis 49 J.",
-          21
-        ],
-        [
-          "50 bis 59 J.",
+          "0 bis 19 J.",
           12
         ],
         [
-          "60 bis 69 J.",
-          2
+          "20 bis 39 J.",
+          27
         ],
         [
-          "70 bis 79 J.",
-          6
+          "40 bis 59 J.",
+          33
         ],
         [
-          "80 bis 89 J.",
-          2
+          "60 bis 79 J.",
+          8
         ],
         [
-          "90 J. u.m.",
-          2
+          "80 J. u.m.",
+          4
+        ],
+        [
+          "Total",
+          84
         ]
       ],
       "name": "Unbekannt",
@@ -379,45 +251,66 @@
   ],
   "xAxis": {
     "type": "category",
-    "uniqueNames": false,
+    "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
     "labels": {
       "style": {
-        "color": "#000000",
-        "textOverflow": "none"
+        "color": "#000000"
       }
     },
     "tickLength": 0
   },
   "chart": {
-    "events": {
-      "load": function () {
-              this.credits.element.onclick = function() {};
-              
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                    }
-                  }
-                );
-              }              
-          }
-    },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
     "width": 485,
     "height": 415,
-    "spacingBottom": 55,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
     "style": {
       "fontFamily": "Arial"
     },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
     "type": "column",
-    "renderTo": "container-7000"
+    "renderTo": "container-7000",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent"
+    }
   },
   "title": {
     "style": {
@@ -435,16 +328,13 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Alter, 2017",
+    "text": "nach Alter der Patienten, 2017",
     "align": "left"
   },
-  "tooltip": {
-    "shared": false
-  },
   "yAxis": {
-    "min": 0,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
     "title": {
       "style": {
         "color": "#000000",
@@ -460,8 +350,13 @@
     "maxPadding": 0,
     "reversedStacks": false
   },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
   "credits": {
-    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
     "style": {
       "color": "#000000",
@@ -477,60 +372,14 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser."
   },
   "legend": {
+    "symbolRadius": 0,
     "enabled": true,
+    "reversed": true,
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    },
-    "reversed": true,
     "labelFormatter": function (){
       return this.name.replace("Sozialmedizinische ", "Sozialmedizinische<br/>");
-    }
-  },
-  "plotOptions": {
-    "series": {
-      "marker": {
-        "enabled": false
-      },
-      "stacking": "normal"
-    }
-  },
-  "customFunctions": {
-    "optimalAxisLabelDecimals": function (axis, formatString){
-          
-          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-        	//function checks how many decimal places has a number
-          var countDecimals = function(value) {
-            if ((value % 1) != 0)
-              return value.toString().split(".")[1].length;
-            return 0;
-          };
-          
-          var ticks = axis.tickPositions;
-          var howManyDecimals = 0;
-					
-          //loop looks for the the largest number of decimal places
-          ticks.forEach(function(tick) {
-            if (countDecimals(tick) > howManyDecimals) {
-              howManyDecimals = countDecimals(tick);
-            }
-          });
-					
-					
-          //update labels so they have the same number of decimal places
-          axis.chart.update({
-            yAxis: [{
-              labels: {
-                //format: '{value:,.' + howManyDecimals + 'f}',
-                format: formatString.replace('howManyDecimals', howManyDecimals),
-              }
-            }, {
-            	//second yAxis, if present
-            }]
-          }, true, true);
     }
   },
   "exporting": {

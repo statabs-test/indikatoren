@@ -20441,7 +20441,7 @@
 	},
 	{
 		"title": "Aufenthaltsorte nach dem Austritt aus Basler Spitälern",
-		"subtitle": "nach Alter, 2017",
+		"subtitle": "nach Alter der Patienten, 2017",
 		"kuerzel": "I.14.1.07000",
 		"kuerzelKunde": "",
 		"description": "Aufenthaltsorte nach dem Austritt aus Basler Spitälern",
@@ -20459,7 +20459,7 @@
 		"stufe5": "",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "",
-		"template": "line001",
+		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,

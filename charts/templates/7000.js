@@ -2,7 +2,7 @@
     return {
  "plotOptions": {
   "series": {
-      "stacking": "normal"
+      "stacking": "percent"
     }
   },
   "xAxis": {
