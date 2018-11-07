@@ -15,6 +15,7 @@
   legend: {
     enabled: true,
     reversed: true,
+    fontWeight: 'normal',
     layout: "vertical",
     verticalAlign: "middle",
     align: "right",
