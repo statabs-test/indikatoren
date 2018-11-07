@@ -2,7 +2,7 @@
     return {
   "plotOptions": {
     "series": {
-      "pointWidth": 25,
+      "pointWidth": 15,
       "dataLabels": {
         "style": {
           "fontSize": 10
@@ -53,7 +53,8 @@
   "chart": {    
    // "marginBottom": 85,
     //"marginTop": 75,
-    "type": "column"
+    "type": "column", 
+    inverted: true,
   }
 	};
 }());

@@ -185,6 +185,7 @@
       "fontFamily": "Arial"
     },
     "type": "column",
+    "inverted": true,
     "renderTo": "container-6999"
   },
   "title": {
@@ -262,7 +263,7 @@
       "marker": {
         "enabled": false
       },
-      "pointWidth": 25,
+      "pointWidth": 15,
       "dataLabels": {
         "style": {
           "fontSize": 10
