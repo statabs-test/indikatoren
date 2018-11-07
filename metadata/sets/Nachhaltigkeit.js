@@ -187,8 +187,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Saldo aus Geburten und Todesfällen",
-		"subtitle": "",
-		"kuerzel": "I.01.1.05148",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.01.1.5148",
 		"kuerzelKunde": "BE6",
 		"description": "Saldo aus Geburten und Todesfällen",
 		"thema": "01 Bevölkerung",
@@ -197,15 +197,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-14T12:02:20.2020",
+		"aktualisierungsdatum": "2018-11-01T09:54:17.1717",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den Jahren 2007 bis 2015 überstieg die Zahl der Todesfälle stets diejenige der Geburten. 2016 hingegen gab es mehr Lebendgeborene als Gestorbene, der Saldo aus Geburten und Todesfällen betrug 152.",
+		"lesehilfe": "In den Jahren 2008 bis 2017 überstieg die Zahl der Todesfälle diejenige der Geburten meist. Lediglich im Jahr 2016 gab es mehr Lebendgeborene als Gestorbene, der Saldo aus Geburten und Todesfällen betrug 152.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "01_01_00_00_00_107",
 		"parentId": null,
 		"children": [],
@@ -213,11 +215,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5148,
-		"darstellungsart": "Grafik"
+		"data-id": 5148,
+		"chart-id": 5148,
+		"filter": "",
+		"id": 5148
 	},
 	{
 		"title": "Geburtenziffer nach Staatsangehörigkeit",
@@ -482,15 +487,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-14T14:05:05.055",
+		"aktualisierungsdatum": "2018-10-31T16:23:36.3636",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Lebensqualität",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. 2015 vergeben die Bewohnerinnen und Bewohner im Durchschnitt der Lebensqualität im Stadtkanton eine 7,8. 2003 betrug die Durchschnittsnote 7,4.",
-		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
+		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. 2015 geben die Bewohnerinnen und Bewohner im Durchschnitt der Lebensqualität im Stadtkanton eine 7,8. 2003 betrug die Durchschnittsnote 7,4.",
+		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "03_01_00_00_00_301",
 		"parentId": 5821,
 		"children": [],
@@ -498,11 +505,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5165,
-		"darstellungsart": "Grafik"
+		"data-id": 5821,
+		"chart-id": 5821,
+		"filter": "",
+		"id": 5165
 	},
 	{
 		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort",
@@ -940,8 +950,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Staatsausgaben für Kultur und Freizeit",
-		"subtitle": "pro Kopf in Franken",
-		"kuerzel": "I.18.1.05193",
+		"subtitle": "pro Kopf in Franken, Basel-Stadt",
+		"kuerzel": "I.18.1.5193",
 		"kuerzelKunde": "GW15",
 		"description": "Staatsausgaben für Kultur und Freizeit",
 		"thema": "18 Öffentliche Finanzen",
@@ -950,15 +960,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-29T15:00:32.3232",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Bildung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Ausgaben im Bereich Kultur, Sport und Freizeit, Kirche sind zwischen 2008 und 2015 von rund 1 300 Fr. auf ca. 1 680 Fr. pro Kopf gestiegen.",
+		"lesehilfe": "Die Ausgaben des Kantons Basel-Stadt im Bereich Kultur, Sport und Freizeit, Kirche sind zwischen 2008 und 2016 von rund 1 300 Fr. auf 1 600 Fr. pro Kopf gestiegen.",
 		"erlaeuterungen": "Ausgaben nach Funktion berechnet von der Eidgenössischen Finanzverwaltung; pro Kopf der mittleren Wohnbevölkerung Basel-Stadt.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "03_05_00_00_00_315",
 		"parentId": null,
 		"children": [],
@@ -966,11 +978,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5193,
-		"darstellungsart": "Grafik"
+		"data-id": 5193,
+		"chart-id": 5193,
+		"filter": "",
+		"id": 5193
 	},
 	{
 		"title": "Anzahl Besuche in Theater, Kinos und Museen",
@@ -1331,8 +1346,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anteile der Bodenbedeckungsarten an der Kantonsfläche",
-		"subtitle": "",
-		"kuerzel": "I.02.10.06026",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.02.10.6026",
 		"kuerzelKunde": "NL5",
 		"description": "Anteile der Bodenbedeckungsarten an der Kantonsfläche",
 		"thema": "02 Raum, Umwelt",
@@ -1341,7 +1356,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-11-02T09:18:42.4242",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -1350,6 +1365,8 @@ var indikatorensetData = [
 		"lesehilfe": "Auf gut der Hälfte der Kantonsfläche (2017: 51%) ist der Boden von Grünflächen bedeckt. Gewässer haben im Kanton Basel-Stadt mit 3,6% einen nur sehr geringen Anteil an der Gesamtfläche. Die Flächenanteile der drei Bodenbedeckungskategorien verändern sich über die Zeit nur minimal.",
 		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Befestigte Flächen sind: Bahn-, Tram-, Hafen- und Fabrikareale; Strassen, Wege, Trottoirs und Verkehrsinseln; Wasserbecken und befestigtes Gewässervorland; befestigte Sportanlagen; übrige befestigte Flächen. Unter Gewässer fallen sowohl stehende als auch fliessende Gewässer. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100&nbsp;m<sup>2</sup> geführt werden (Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "04_01_00_00_00_405",
 		"parentId": null,
 		"children": [],
@@ -1357,25 +1374,28 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6026,
-		"darstellungsart": "Grafik"
+		"data-id": 6026,
+		"chart-id": 6026,
+		"filter": "",
+		"id": 6026
 	},
 	{
-		"title": "Mittlere Wohnfläche pro Kopf",
-		"subtitle": "in m²",
+		"title": "Mittlere Wohnfläche pro Person",
+		"subtitle": "in m², Basel-Stadt",
 		"kuerzel": "I.09.1.06027",
 		"kuerzelKunde": "NL6",
-		"description": "Mittlere Wohnfläche pro Kopf",
+		"description": "Mittlere Wohnfläche pro Person",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-31T17:10:53.5353",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -1384,6 +1404,8 @@ var indikatorensetData = [
 		"lesehilfe": "Die Wohnfläche pro Kopf nahm von 1980 bis 2010 um sechs Quadratmeter zu. Seither ist ein leichter Rückgang zu verzeichnen.",
 		"erlaeuterungen": "Alle Berechnungen beziehen sich auf das Jahresende und berücksichtigen rückwirkend wo immer möglich die aktuell gültigen Definitionen gemäss Gesetzgebung zu Registerharmonisierung und Volkszählung. Ab 2012 handelt es sich um kantonale Registerauswertungen, frühere Werte wurden auf Basis der Volkszählungen 1980, 1990 und 2000 berechnet.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "04_01_00_00_00_406",
 		"parentId": 4140,
 		"children": [],
@@ -1392,11 +1414,14 @@ var indikatorensetData = [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6027,
-		"darstellungsart": "Grafik"
+		"data-id": 4140,
+		"chart-id": 4140,
+		"filter": "",
+		"id": 6027
 	},
 	{
 		"title": "Anteile der Verkehrsmittel",
@@ -2234,7 +2259,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.03.4.06053",
 		"kuerzelKunde": "WE9",
 		"description": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
@@ -2244,7 +2269,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-31T16:49:35.3535",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Erwerbsarbeit",
 		"stufe3": "",
@@ -2253,6 +2278,8 @@ var indikatorensetData = [
 		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im Jahresdurchschnitt 2017 auf 3,8% gesunken. Die Jugendarbeitslosenquote reduzierte sich 2017 auf 4,2%. Die Arbeitslosenquote der Personen über 50 Jahre lag mit 3,1% wie in den Vorjahren deutlich unterhalb des Durchschnitts.",
 		"erlaeuterungen": "Die Arbeitslosenquote berechnet sich folgendermassen: Registrierte Arbeitslose geteilt durch Erwerbspersonen mal 100.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "06_02_00_00_00_609",
 		"parentId": 6137,
 		"children": [],
@@ -2260,11 +2287,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6053,
-		"darstellungsart": "Grafik"
+		"data-id": 6137,
+		"chart-id": 6137,
+		"filter": "",
+		"id": 6053
 	},
 	{
 		"title": "Mittelwert und Median des Reineinkommens",
@@ -2303,8 +2333,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen",
-		"subtitle": "",
-		"kuerzel": "I.13.2.06055",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.13.2.6055",
 		"kuerzelKunde": "WE11",
 		"description": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen",
 		"thema": "13 Soziale Sicherheit",
@@ -2313,15 +2343,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-11-01T14:36:30.3030",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Erwerbsarbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl angebotener Plätze in der Tagesbetreuung (Tagesheime oder Tagesfamilien) sowie in den Tagesstrukturen der Schulen erfuhr in den letzten Jahren ein stetiges Wachstum. In der Stichwoche 2016 lag diese bei 4 161, respektive 4 272. In den Tagesstrukturen der Quartiere wurden 2016 832 Plätze angeboten, in den Tagesferien 195.",
-		"erlaeuterungen": "Tagesstrukturen: Stichwoche im September, bei den Tagesferien handelt es sich um die durchschnittliche Anzahl angebotener Plätze innerhalb eines Kalenderjahres.<br>Tagesbetreung: Stichwoche im Oktober.",
+		"lesehilfe": "Die Anzahl angebotener Plätze in der Tagesbetreuung (Tagesheime oder Tagesfamilien) sowie in den Tagesstrukturen der Schulen erfuhr in den letzten Jahren ein stetiges Wachstum. In der Stichwoche 2017 lag diese bei 4 115, respektive 6 966. In den Tagesstrukturen der Quartiere wurden 2017 insgesamt 896 Plätze angeboten, in den Tagesferien 198.",
+		"erlaeuterungen": "Tagesstrukturen: Stichwoche im September. Bei den Tagesferien handelt es sich um die durchschnittliche Anzahl angebotener Plätze innerhalb eines Kalenderjahres. Seit 2015 werden auch Plätze in den Sekundarschulen angeboten. Die Anzahl Tagesstrukturplätze an den Schulen wurde deshalb für die Jahre 2015 und 2016 rückwirkend angepasst.<br>Tagesbetreung: Stichwoche im Oktober.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "06_02_00_00_00_611",
 		"parentId": null,
 		"children": [],
@@ -2329,11 +2361,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6055,
-		"darstellungsart": "Grafik"
+		"data-id": 6055,
+		"chart-id": 6055,
+		"filter": "",
+		"id": 6055
 	},
 	{
 		"title": "Anteil Voll- und Teilzeiterwerbstätige nach Geschlecht",
@@ -2474,7 +2509,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bevölkerung nach Staatsangehörigkeit",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.01.1.06592",
 		"kuerzelKunde": "BE5.1",
 		"description": "Bevölkerung nach Staatsangehörigkeit",
@@ -2484,15 +2519,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-31T16:36:48.4848",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2016 lebten im Kanton Basel-Stadt 127 398 Schweizerinnen und Schweizer und 70 808 Ausländerinnen und Ausländer. Während die Zahl der ausländischen Personen seit Ende 1997 um 18 925 anstieg, sank die Anzahl Personen mit Schweizer Staatsangehörigkeit im gleichen Zeitraum um 14 927.",
+		"lesehilfe": "Ende 2017 lebten im Kanton Basel-Stadt 127 378 Schweizerinnen und Schweizer und 71 610 Ausländerinnen und Ausländer. Während die Zahl der ausländischen Personen seit Ende 1998 um 19 826 anstieg, sank die Anzahl Personen mit Schweizer Staatsangehörigkeit im gleichen Zeitraum um 13 030.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "01_01_00_00_00_105",
 		"parentId": 6058,
 		"children": [],
@@ -2500,15 +2537,18 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6592,
-		"darstellungsart": "Grafik"
+		"data-id": 6058,
+		"chart-id": 6058,
+		"filter": "",
+		"id": 6592
 	},
 	{
 		"title": "Ausländeranteil",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.01.1.06597",
 		"kuerzelKunde": "BE5.2",
 		"description": "Ausländeranteil",
@@ -2518,15 +2558,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-31T16:37:55.5555",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von 1997 bis 2016 stieg der Anteil der ausländischen Personen an der Bevölkerung von 26,8% auf 35,7%. Der stärkste Anstieg um über 0,8 Prozentpunkte wurde 2002 verzeichnet. In diesem Jahr traten die bilateralen Verträge zwischen der Schweiz und der EU in Kraft, welche den Aufenthalt von EU- und EFTA-Staatsangehörigen erleichterten. Lediglich geringfügige Anstiege waren in den Jahren 2000, 2007 und 2010 zu beobachten.",
+		"lesehilfe": "Von 1998 bis 2017 stieg der Anteil der ausländischen Personen an der Bevölkerung von 26,9% auf 36,0%. Der stärkste Anstieg um über 0,8 Prozentpunkte wurde 2002 verzeichnet. In diesem Jahr traten die bilateralen Verträge zwischen der Schweiz und der EU in Kraft, welche den Aufenthalt von EU- und EFTA-Staatsangehörigen erleichterten. Lediglich geringfügige Anstiege waren in den Jahren 2000, 2007 und 2010 zu beobachten.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "01_01_00_00_00_106",
 		"parentId": 6057,
 		"children": [],
@@ -2534,11 +2576,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6597,
-		"darstellungsart": "Grafik"
+		"data-id": 6057,
+		"chart-id": 6057,
+		"filter": "",
+		"id": 6597
 	},
 	{
 		"title": "Anzahl Ausländer nach Staatsangehörigkeit",
