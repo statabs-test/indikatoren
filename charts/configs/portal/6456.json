@@ -285,7 +285,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickInterval": 5000
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
