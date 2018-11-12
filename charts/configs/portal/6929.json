@@ -100,7 +100,7 @@
       "stacking": "normal",
       "stack": "male",
       "legendIndex": 0,
-      "index": 0,
+      "index": 3,
       "data": [
         [
           "0-4",
@@ -195,7 +195,7 @@
       "stacking": "normal",
       "stack": "female",
       "legendIndex": 3,
-      "index": 3,
+      "index": 0,
       "data": [
         [
           "0-4",

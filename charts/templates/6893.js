@@ -113,14 +113,14 @@
               stacking: 'normal',
               stack: 'male',
               legendIndex: 0,
-              index: 0,
+              index: 3,
             },
             {
               color: "#d00000", // rot
               stacking: 'normal',
               stack: 'female',
               legendIndex: 3,
-              index: 3,
+              index: 0,
             }, 
             {
               color: "#00bAf3", //blau
