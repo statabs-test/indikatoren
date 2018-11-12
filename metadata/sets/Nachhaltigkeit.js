@@ -75,8 +75,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bevölkerungspyramide am Jahresende",
-		"subtitle": "nach Staatsangehörigkeit und Geschlecht, Stand: 2017",
-		"kuerzel": "I.01.1.05142",
+		"subtitle": "nach Staatsangehörigkeit und Geschlecht, Basel-Stadt, 2017",
+		"kuerzel": "I.01.1.5142",
 		"kuerzelKunde": "BE2",
 		"description": "Bevölkerungspyramide am Jahresende",
 		"thema": "01 Bevölkerung",
@@ -94,6 +94,8 @@ var indikatorensetData = [
 		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass bei der ausländischen Bevölkerung vor allem die mittleren Jahrgänge der Personen im Erwerbsalter gut besetzt sind. Deutlich wird zudem, dass es in den höheren Altersgruppen zahlreiche Schweizerinnen gibt.",
 		"erlaeuterungen": "",
 		"template": "populationPyramid001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "01_01_00_00_00_102",
 		"parentId": null,
 		"children": [],
@@ -104,8 +106,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5142,
-		"darstellungsart": "Grafik"
+		"id": 5142
 	},
 	{
 		"title": "Altersquotient",

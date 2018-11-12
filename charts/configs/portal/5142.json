@@ -1843,6 +1843,7 @@
                 }
     },
     "marginRight": 15,
+    "marginBottom": 70,
     "renderTo": "container-5142"
   },
   "plotOptions": {
@@ -1877,7 +1878,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit und Geschlecht, Stand: 2017",
+    "text": "nach Staatsangehörigkeit und Geschlecht, Basel-Stadt, 2017",
     "align": "left"
   },
   "yAxis": [

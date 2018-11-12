@@ -135,6 +135,7 @@
         },
         "chart":{
          	marginRight: 15,
+         	marginBottom: 70,
             events: { // copied from resp. overwrite /charts/templates/populationPyramid001.js
                 load: function(){
                     this.credits.element.onclick = function() {};
