@@ -78,28 +78,28 @@
         }],
 		series: [
             {
-              color: "#B00000", // rot
+              color: "#008AC3", // blau dunkel
               stacking: 'normal',
               stack: 'male',
               legendIndex: 0,
               index: 1
             }, 
             {
-              color: "#008AC3", //blau
+              color: "#00bAf3", //blau hell
               stacking: 'normal',
               stack: 'male',
               legendIndex: 2,
               index:0
             },
             {
-              color: "#d00000", // rot
+              color: "#B00000", // rot dunkel
               stacking: 'normal',
               stack: 'female',
               legendIndex: 1,
               index:3
             }, 
             {
-              color: "#00bAf3", //blau
+              color: "#d00000", //rot hell
               stacking: 'normal',
               stack: 'female',
               legendIndex: 3,

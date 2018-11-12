@@ -445,7 +445,6 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemWidth": 500,
     "itemMarginBottom": 5
   },
   "plotOptions": {
