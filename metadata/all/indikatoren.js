@@ -1518,11 +1518,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik"
 	},
 	{
-		"title": "Mietpreisentwicklung der Leerwohnungen nach Zimmerzahl",
-		"subtitle": "Basel-Stadt",
+		"title": "Mietpreisentwicklung der Leerwohnungen",
+		"subtitle": "nach Zimmerzahl, Basel-Stadt",
 		"kuerzel": "I.09.2.4129",
 		"kuerzelKunde": "0.1.B-2",
-		"description": "Mietpreisentwicklung der Leerwohnungen nach Zimmerzahl",
+		"description": "Mietpreisentwicklung der Leerwohnungen",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Wohnraumentwicklung",
@@ -1538,18 +1538,20 @@ var indikatoren = [
 		"lesehilfe": "Die Mietpreisentwicklung der Leerwohnungen ist im Zehnjahresvergleich leicht ansteigend. Da es grundsätzlich wenige leerstehende 5-Zimmerwohnungen gibt, sind die ausgewiesenen Durchschnittsmieten in dieser Kategorie grösseren Schwankungen unterworfen bzw. können wie im Jahr 2014 aufgrund zu kleiner Stichprobe gar nicht berechnet werden.",
 		"erlaeuterungen": "Ohne Wohnungen in Einfamilienhäusern, ohne Wohnungen mit Zwischennutzung (eingeschränkte Mieterrechte, besonders günstig), ohne möblierte Wohnungen (besonders teuer) und mit Genossenschaftswohnungen.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
+		],
 		"externalLinks": [
 			""
 		],
-		"id": 4129,
-		"darstellungsart": "Grafik"
+		"id": 4129
 	},
 	{
 		"title": "Mietpreisentwicklung der 3-Zimmer-Wohnungen",
