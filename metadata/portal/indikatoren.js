@@ -811,7 +811,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Jährliche Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
-		"subtitle": "Basel-Stadt im Vergleich mit der Schweiz und ausgewählten Kantonen, 2017",
+		"subtitle": "Basel-Stadt im Vergleich mit der Schweiz, 2017",
 		"kuerzel": "I.04.1.2501",
 		"kuerzelKunde": "2.2",
 		"description": "Jährliche Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
@@ -822,7 +822,7 @@ var indikatoren = [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2018-10-23T13:41:30.3030",
+		"aktualisierungsdatum": "2018-10-25T17:13:24.2424",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -960,7 +960,7 @@ var indikatoren = [
 	{
 		"title": "Beurteilung der Vereinbarkeit von Familie und Beruf nach Geschlecht, Herkunft und Altersgruppe",
 		"subtitle": "«Es gibt in Basel gute Teilzeitstellen, so dass Väter und Mütter Beruf und Familie unter einen Hut bringen können.»",
-		"kuerzel": "I.50.1.02952",
+		"kuerzel": "I.50.1.2952",
 		"kuerzelKunde": "4.3",
 		"description": "Beurteilung der Vereinbarkeit von Familie und Beruf nach Geschlecht, Herkunft und Altersgruppe",
 		"thema": "50 Befragungen",
@@ -969,7 +969,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-02-15T10:22:47.4747",
+		"aktualisierungsdatum": "2018-10-31T12:06:46.4646",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -978,6 +978,8 @@ var indikatoren = [
 		"lesehilfe": "45,4% der Befragten sind der Meinung, dass es in Basel gute Teilzeitstellen gibt, sodass Väter und Mütter Beruf und Familie vereinbaren können. Männer stimmen dieser Aussage mit 49,5% häufiger zu als Frauen mit 41,9%. Seit 2003 ist die Zustimmung zu dieser Aussage kontinuierlich gestiegen: 2003 waren 36,8% sehr oder eher einverstanden mit der Aussage, 2015 liegt die Zustimmung bei 45,4%.",
 		"erlaeuterungen": "Antwortkategorien «Sehr einverstanden» und «Eher einverstanden» werden zusammengefasst. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_003",
 		"parentId": null,
@@ -988,11 +990,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F16a_9"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 2952,
-		"darstellungsart": "Grafik"
+		"data-id": 2952,
+		"chart-id": 2952,
+		"filter": "",
+		"id": 2952
 	},
 	{
 		"title": "Zufriedenheit mit dem Kulturangebot nach Geschlecht, Herkunft und Altersgruppe",
@@ -1873,8 +1878,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "in m²",
-		"kuerzel": "I.09.1.04140",
+		"subtitle": "in m², Basel-Stadt",
+		"kuerzel": "I.09.1.4140",
 		"kuerzelKunde": "1.3.A",
 		"description": "Mittlere Wohnfläche pro Person",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -1883,7 +1888,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-01-18T12:33:26.2626",
+		"aktualisierungsdatum": "2018-10-31T17:10:53.5353",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.3 Wohnraumnutzung",
 		"stufe3": "",
@@ -1892,25 +1897,29 @@ var indikatoren = [
 		"lesehilfe": "Die Wohnfläche pro Kopf nahm von 1980 bis 2010 um sechs Quadratmeter zu. Seither ist ein leichter Rückgang zu verzeichnen.",
 		"erlaeuterungen": "Alle Berechnungen beziehen sich auf das Jahresende und berücksichtigen rückwirkend wo immer möglich die aktuell gültigen Definitionen gemäss Gesetzgebung zu Registerharmonisierung und Volkszählung. Ab 2012 handelt es sich um kantonale Registerauswertungen, frühere Werte wurden auf Basis der Volkszählungen 1980, 1990 und 2000 berechnet.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_03_00_00_00_000",
 		"parentId": null,
 		"children": [
 			"5815",
 			"6027",
-			"6247",
-			"6362"
+			"6247"
 		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4140,
-		"darstellungsart": "Grafik"
+		"data-id": 4140,
+		"chart-id": 4140,
+		"filter": "",
+		"id": 4140
 	},
 	{
 		"title": "Anteile der Haushalte",
@@ -2056,8 +2065,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohneigentumsquote",
-		"subtitle": "",
-		"kuerzel": "I.09.1.04145",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.09.1.4145",
 		"kuerzelKunde": "1.6.A",
 		"description": "Wohneigentumsquote",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -2066,15 +2075,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-01-18T13:50:12.1212",
+		"aktualisierungsdatum": "2018-11-02T09:17:12.1212",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.6 Förderung von Wohneigentum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Eigentumsquote stieg bis ins Jahr 2014 an und blieb anschliessend stabil bei rund 15%.",
-		"erlaeuterungen": "Die Wohneigentumsquote wird als Anteil Wohnungen, welche durch den Gebäude- oder Wohnungseigentümer selber bewohnt sind, and den bewohnten Wohnungen berechnet.",
+		"lesehilfe": "Die Eigentumsquote beträgt seit 2015 rund 15%.",
+		"erlaeuterungen": "Die Wohneigentumsquote wird als Anteil Wohnungen, welche durch den Gebäude- oder Wohnungseigentümer selber bewohnt sind, an den bewohnten Wohnungen berechnet. Die Daten 1990 und 2000 stammen aus den eidg. Volkszählungen, seit 2012 kann die Eigentumsquote jährlich registerbasiert ausgeweisen werden.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_06_00_00_00_000",
 		"parentId": null,
@@ -2083,11 +2094,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4145,
-		"darstellungsart": "Grafik"
+		"data-id": 4145,
+		"chart-id": 4145,
+		"filter": "",
+		"id": 4145
 	},
 	{
 		"title": "Anzahl und Anteil Wohnungen mit 4 oder mehr Zimmern",
@@ -5046,7 +5060,7 @@ var indikatoren = [
 	{
 		"title": "Sicherheitsgefühl im Alltag",
 		"subtitle": "«Wie sicher fühlen Sie sich ganz allgemein im Alltag?»",
-		"kuerzel": "I.50.1.04852",
+		"kuerzel": "I.50.1.4852",
 		"kuerzelKunde": "1.2.01",
 		"description": "Sicherheitsgefühl im Alltag",
 		"thema": "50 Befragungen",
@@ -5055,28 +5069,35 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-02-17T17:14:41.4141",
+		"aktualisierungsdatum": "2018-10-31T16:19:37.3737",
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.2 Vertrauen in Mitmenschen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit einem Anteil von 42,2% fühlten sich 2015 weniger als die Hälfte der Befragten im Alltag sehr sicher und 49,0% fühlten sich eher sicher. Im Vergleich zu den vorherigen Befragungen fühlten sich die Befragten im Alltag weniger sicher. Am höchsten war das Sicherheitsempfinden 2005, als der Anteil Personen, die sich sehr sicher fühlten, bei 56,0% und die insgesamte Sicherheit bei 94,6% lag.",
+		"lesehilfe": "Mit einem Anteil von 42% fühlten sich 2015 weniger als die Hälfte der Befragten im Alltag sehr sicher und 49% fühlten sich eher sicher. Im Vergleich zu den vorherigen Befragungen fühlten sich die Befragten im Alltag weniger sicher. Am höchsten war das Sicherheitsempfinden 2005, als der Anteil Personen, die sich sehr sicher fühlten, bei 56% und die Sicherheit insgesamte bei 95% lag.",
 		"erlaeuterungen": "",
-		"template": "befragungen001",
+		"template": "befragungenProzent001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_02_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6035"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9a"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4852,
-		"darstellungsart": "Grafik"
+		"data-id": 4852,
+		"chart-id": 4852,
+		"filter": "",
+		"id": 4852
 	},
 	{
 		"title": "Bedrohungen und Angriffe",
@@ -6068,7 +6089,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-10T10:44:13.1313",
+		"aktualisierungsdatum": "2018-10-26T10:40:38.3838",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -6087,9 +6108,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Landwirtschaftliche Strukturerhebung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 4914,
+		"chart-id": 4914,
+		"filter": "",
 		"id": 4914
 	},
 	{
@@ -7382,8 +7407,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Saldo aus Geburten und Todesfällen",
-		"subtitle": "",
-		"kuerzel": "I.01.1.05148",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.01.1.5148",
 		"kuerzelKunde": "BE6",
 		"description": "Saldo aus Geburten und Todesfällen",
 		"thema": "01 Bevölkerung",
@@ -7392,15 +7417,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-14T12:02:20.2020",
+		"aktualisierungsdatum": "2018-11-01T09:54:17.1717",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den Jahren 2007 bis 2015 überstieg die Zahl der Todesfälle stets diejenige der Geburten. 2016 hingegen gab es mehr Lebendgeborene als Gestorbene, der Saldo aus Geburten und Todesfällen betrug 152.",
+		"lesehilfe": "In den Jahren 2008 bis 2017 überstieg die Zahl der Todesfälle diejenige der Geburten meist. Lediglich im Jahr 2016 gab es mehr Lebendgeborene als Gestorbene, der Saldo aus Geburten und Todesfällen betrug 152.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_107",
 		"parentId": null,
@@ -7409,11 +7436,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5148,
-		"darstellungsart": "Grafik"
+		"data-id": 5148,
+		"chart-id": 5148,
+		"filter": "",
+		"id": 5148
 	},
 	{
 		"title": "Geburtenziffer nach Staatsangehörigkeit",
@@ -7779,8 +7809,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Staatsausgaben für Kultur und Freizeit",
-		"subtitle": "pro Kopf in Franken",
-		"kuerzel": "I.18.1.05193",
+		"subtitle": "pro Kopf in Franken, Basel-Stadt",
+		"kuerzel": "I.18.1.5193",
 		"kuerzelKunde": "GW15",
 		"description": "Staatsausgaben für Kultur und Freizeit",
 		"thema": "18 Öffentliche Finanzen",
@@ -7789,15 +7819,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-29T15:00:32.3232",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Bildung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Ausgaben im Bereich Kultur, Sport und Freizeit, Kirche sind zwischen 2008 und 2015 von rund 1 300 Fr. auf ca. 1 680 Fr. pro Kopf gestiegen.",
+		"lesehilfe": "Die Ausgaben des Kantons Basel-Stadt im Bereich Kultur, Sport und Freizeit, Kirche sind zwischen 2008 und 2016 von rund 1 300 Fr. auf 1 600 Fr. pro Kopf gestiegen.",
 		"erlaeuterungen": "Ausgaben nach Funktion berechnet von der Eidgenössischen Finanzverwaltung; pro Kopf der mittleren Wohnbevölkerung Basel-Stadt.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_05_00_00_00_315",
 		"parentId": null,
@@ -7806,11 +7838,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5193,
-		"darstellungsart": "Grafik"
+		"data-id": 5193,
+		"chart-id": 5193,
+		"filter": "",
+		"id": 5193
 	},
 	{
 		"title": "Mietpreisindex Basel-Stadt",
@@ -7890,8 +7925,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Ausgaben für Umbau- und Unterhaltsarbeiten",
-		"subtitle": "in 1 000 Franken sowie Anteil am Total der Bauausgaben",
-		"kuerzel": "I.09.1.05199",
+		"subtitle": "in 1000 Franken sowie Anteil am Total der Bauausgaben, Basel-Stadt",
+		"kuerzel": "I.09.1.5199",
 		"kuerzelKunde": "GW21",
 		"description": "Ausgaben für Umbau- und Unterhaltsarbeiten",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -7900,28 +7935,33 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-02-16T00:00:00.000",
+		"aktualisierungsdatum": "2018-11-07T09:20:22.2222",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Infrastruktur",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Total der Bauausgaben stieg seit 2011 bis 2015 kontinuierlich an. Der Anteil Ausgaben für Umbau- und Unterhaltsarbeiten lag in den meisten Jahren leicht unterhalb oder oberhalb der 50%-Marke. Der tiefste Wert ergab sich 2010 mit einem Anteil von 35% an den totalen Bauausgaben.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Das Total der Bauausgaben stieg seit 2011 ausser 2016 kontinuierlich an. Der Anteil der Ausgaben für Umbau- und Unterhaltsarbeiten lag in den meisten Jahren über der 50%-Marke. Der tiefste Wert ergab sich 2008 mit einem Anteil von 46,4% und der höchste 2011 mit 63% an den totalen Bauausgaben.",
+		"erlaeuterungen": "Gegenüber den Vorjahren haben sich die Werte verändert. Die Bauausgaben des Bundes beziehungsweise der Bundesbetriebe können nicht mehr nach Neubau-, Umbau- oder Unterhaltsarbeiten unterschieden werden. Im Total der Bauausgaben wie auch bei den Umbau- und Unterhaltsarbeiten sind deshalb diese Werte nicht mehr in der Berechnung enthalten. Bei den Ausgaben für Umbau- und Unterhaltsarbeiten wurden neu auch nicht projektbezogene Daten berücksichtigt. Insgesamt erhöhten sich durch die Anpassungen die Anteile der Umbau- und Unterhaltsarbeiten.<br><br>Die Bauausgaben umfassen die öffentlichen und privaten Bauinvestitionen und die öffentlichen Unterhaltsarbeiten. Die Bauinvestitionen umfassen sämtliche Ausgaben, die bei der Realisierung eines Bauwerks anfallen. Dazu gehören Ausgaben für Vorbereitungs- und Umgebungsarbeiten innerhalb der Grundstücksgrenzen, sanitäre Installationen, Lüftungsanlagen, Heizungen und alle übrigen mit dem Bauprojekt fest verbundenen Einrichtungen sowie Architektenhonorare und Baunebenkosten. Nicht enthalten sind Kosten für Landerwerb sowie maschinelle und sonstige bewegliche Einrichtungen.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_07_00_00_00_321",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
+			"Statistisches Amt Basel-Stadt, Baustatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5199,
-		"darstellungsart": "Grafik"
+		"data-id": 5199,
+		"chart-id": 5199,
+		"filter": "",
+		"id": 5199
 	},
 	{
 		"title": "Bevölkerungsdichte Basel-Stadt",
@@ -8053,7 +8093,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2018-05-08T17:43:01.011",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -8261,7 +8301,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Bewertung der Lebensqualität",
-		"subtitle": "«Wie zufrieden sind Sie mit Parks und Grünanlagen am Wohnort?»",
+		"subtitle": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?»",
 		"kuerzel": "I.50.1.5821",
 		"kuerzelKunde": "ST 5-2",
 		"description": "Bewertung der Lebensqualität",
@@ -8271,15 +8311,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-10-27T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-31T16:23:02.022",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. 2015 geben die Bewohnerinnen und Bewohner im Durchschnitt der Lebensqualität im Stadtkanton eine 7,8. 2003 betrug die Durchschnittsnote 7,4.",
-		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, welche die Frage mit &quot;Weiss nicht&quot; oder gar nicht beantwortet haben, unberücksichtigt.",
+		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_02_00_00_00_002",
@@ -8292,11 +8333,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5821,
-		"darstellungsart": "Grafik"
+		"data-id": 5821,
+		"chart-id": 5821,
+		"filter": "",
+		"id": 5821
 	},
 	{
 		"title": "Anteil Einwohner pro ÖV-Güteklasse",
@@ -8940,8 +8984,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteile der Bodenbedeckungsarten an der Kantonsfläche",
-		"subtitle": "",
-		"kuerzel": "I.02.10.06026",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.02.10.6026",
 		"kuerzelKunde": "NL5",
 		"description": "Anteile der Bodenbedeckungsarten an der Kantonsfläche",
 		"thema": "02 Raum, Umwelt",
@@ -8950,7 +8994,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-11-02T09:18:42.4242",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -8959,6 +9003,8 @@ var indikatoren = [
 		"lesehilfe": "Auf gut der Hälfte der Kantonsfläche (2017: 51%) ist der Boden von Grünflächen bedeckt. Gewässer haben im Kanton Basel-Stadt mit 3,6% einen nur sehr geringen Anteil an der Gesamtfläche. Die Flächenanteile der drei Bodenbedeckungskategorien verändern sich über die Zeit nur minimal.",
 		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Befestigte Flächen sind: Bahn-, Tram-, Hafen- und Fabrikareale; Strassen, Wege, Trottoirs und Verkehrsinseln; Wasserbecken und befestigtes Gewässervorland; befestigte Sportanlagen; übrige befestigte Flächen. Unter Gewässer fallen sowohl stehende als auch fliessende Gewässer. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100&nbsp;m<sup>2</sup> geführt werden (Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_01_00_00_00_405",
 		"parentId": null,
@@ -8967,11 +9013,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6026,
-		"darstellungsart": "Grafik"
+		"data-id": 6026,
+		"chart-id": 6026,
+		"filter": "",
+		"id": 6026
 	},
 	{
 		"title": "Anteile der Verkehrsmittel",
@@ -9242,7 +9291,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-02T11:24:25.2525",
+		"aktualisierungsdatum": "2018-11-08T16:33:54.5454",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
@@ -9261,9 +9310,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6046,
+		"chart-id": 6046,
+		"filter": "",
 		"id": 6046
 	},
 	{
@@ -9376,8 +9429,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen",
-		"subtitle": "",
-		"kuerzel": "I.13.2.06055",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.13.2.6055",
 		"kuerzelKunde": "WE11",
 		"description": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen",
 		"thema": "13 Soziale Sicherheit",
@@ -9386,15 +9439,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-11-01T14:36:30.3030",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Erwerbsarbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl angebotener Plätze in der Tagesbetreuung (Tagesheime oder Tagesfamilien) sowie in den Tagesstrukturen der Schulen erfuhr in den letzten Jahren ein stetiges Wachstum. In der Stichwoche 2016 lag diese bei 4 161, respektive 4 272. In den Tagesstrukturen der Quartiere wurden 2016 832 Plätze angeboten, in den Tagesferien 195.",
-		"erlaeuterungen": "Tagesstrukturen: Stichwoche im September, bei den Tagesferien handelt es sich um die durchschnittliche Anzahl angebotener Plätze innerhalb eines Kalenderjahres.<br>Tagesbetreung: Stichwoche im Oktober.",
+		"lesehilfe": "Die Anzahl angebotener Plätze in der Tagesbetreuung (Tagesheime oder Tagesfamilien) sowie in den Tagesstrukturen der Schulen erfuhr in den letzten Jahren ein stetiges Wachstum. In der Stichwoche 2017 lag diese bei 4 115, respektive 6 966. In den Tagesstrukturen der Quartiere wurden 2017 insgesamt 896 Plätze angeboten, in den Tagesferien 198.",
+		"erlaeuterungen": "Tagesstrukturen: Stichwoche im September. Bei den Tagesferien handelt es sich um die durchschnittliche Anzahl angebotener Plätze innerhalb eines Kalenderjahres. Seit 2015 werden auch Plätze in den Sekundarschulen angeboten. Die Anzahl Tagesstrukturplätze an den Schulen wurde deshalb für die Jahre 2015 und 2016 rückwirkend angepasst.<br>Tagesbetreung: Stichwoche im Oktober.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "06_02_00_00_00_611",
 		"parentId": null,
@@ -9403,11 +9458,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6055,
-		"darstellungsart": "Grafik"
+		"data-id": 6055,
+		"chart-id": 6055,
+		"filter": "",
+		"id": 6055
 	},
 	{
 		"title": "Anteil Voll- und Teilzeiterwerbstätige nach Geschlecht",
@@ -10530,7 +10588,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-23T13:39:39.3939",
+		"aktualisierungsdatum": "2018-10-25T14:22:18.1818",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -10943,7 +11001,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-04T14:45:28.2828",
+		"aktualisierungsdatum": "2018-10-31T16:49:35.3535",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -10965,9 +11023,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6137,
+		"chart-id": 6137,
+		"filter": "",
 		"id": 6137
 	},
 	{
@@ -12667,8 +12729,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Bevölkerung ab 15 Jahren nach Ausbildungsniveau",
-		"subtitle": "",
-		"kuerzel": "I.15.6.06218",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.15.6.6218",
 		"kuerzelKunde": "ST 8-2",
 		"description": "Bevölkerung ab 15 Jahren nach Ausbildungsniveau",
 		"thema": "15 Bildung",
@@ -12677,15 +12739,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-10-27T00:00:00.000",
+		"aktualisierungsdatum": "2018-11-02T09:19:49.4949",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 8: Qualität für Wirtschaft und Bildung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 1990 hat sich der Anteil der Personen mit einer Ausbildung auf Tertiärstufe kontinuierlich erhöht. 2015 beträgt dieser Anteil 38%. Ebenfalls 38% der baselstädtischen Wohnbevölkerung besitzt eine höchste abgeschlossene Ausbildung auf Niveau Sekundarstufe 2 und 24% auf Niveau Sekundarstufe 1.",
-		"erlaeuterungen": "Die Sekundarstufe I umfasst Ausbildungen bis maximal der obligatorischen Schule. Unter Sekundarstufe II ist die berufliche Grundbildung, z. B. eine Berufslehre, sowie die allgemeinbildende Schule, z. B. die gymnasiale Maturität, zusammengefasst. Die Tertiärstufe umfasst die höhere Berufsbildung, z. B. die höhere Fachschule für Technik oder Wirtschaft, sowie Ausbildungen an Hochschulen, wie z. B. ein Bachelor- oder Masterstudium.",
+		"lesehilfe": "Seit 1990 hat sich der Anteil der Personen mit einer Ausbildung auf Tertiärstufe kontinuierlich erhöht. 2016 beträgt dieser Anteil 40%. Rund 37% der baselstädtischen Wohnbevölkerung besitzt eine höchste abgeschlossene Ausbildung auf Niveau Sekundarstufe II und 23% auf Niveau Sekundarstufe I.",
+		"erlaeuterungen": "Die Sekundarstufe I umfasst Ausbildungen bis maximal der obligatorischen Schule. Unter Sekundarstufe II ist die berufliche Grundbildung, z. B. eine Berufslehre, sowie die allgemeinbildende Schule, z. B. die gymnasiale Maturität, zusammengefasst. Die Tertiärstufe umfasst die höhere Berufsbildung, z. B. die höhere Fachschule für Technik oder Wirtschaft, sowie Ausbildungen an Hochschulen, wie z. B. ein Bachelor- oder Masterstudium. Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), ab 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung).",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_05_00_00_00_002",
 		"parentId": null,
@@ -12694,18 +12758,22 @@ var indikatoren = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
+			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6218,
-		"darstellungsart": "Grafik"
+		"data-id": 6218,
+		"chart-id": 6218,
+		"filter": "",
+		"id": 6218
 	},
 	{
 		"title": "Indexierter Verlauf der Haushalte in Begegnungszonen",
-		"subtitle": "Werte 2011 = 100",
-		"kuerzel": "I.01.2.06220",
+		"subtitle": "Basel, Werte 2011 = 100",
+		"kuerzel": "I.01.2.6220",
 		"kuerzelKunde": "ST 5-4",
 		"description": "Indexierter Verlauf der Haushalte in Begegnungszonen",
 		"thema": "01 Bevölkerung",
@@ -12714,15 +12782,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-10-27T00:00:00.000",
+		"aktualisierungsdatum": "2018-10-31T16:18:32.3232",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl Privathaushalte in Begegnungszonen ist von 2011 bis 2016 prozentual stärker angestiegen als das Total der Privathaushalte in der Stadt Basel. Ende 2016 gibt es 6 954 Privathaushalte in Begegnungszonen.",
+		"lesehilfe": "Die Anzahl Privathaushalte in Begegnungszonen ist von 2011 bis 2017 prozentual stärker angestiegen als das Total der Privathaushalte in der Stadt Basel. Dies ist in erster Linie auf die Ausweitung der Begegnungszonen zurückzuführen. Ende 2017 gibt es 7 411 Privathaushalte in Begegnungszonen.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_02_00_00_00_004",
 		"parentId": null,
@@ -12734,11 +12804,14 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Planungsamt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6220,
-		"darstellungsart": "Grafik"
+		"data-id": 6220,
+		"chart-id": 6220,
+		"filter": "",
+		"id": 6220
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Einkommensklasse",
@@ -15759,8 +15832,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Beschäftigung nach Branche",
-		"subtitle": "Basel-Stadt, in Vollzeitäquivalenten",
-		"kuerzel": "I.03.2.06459",
+		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
+		"kuerzel": "I.03.2.6459",
 		"kuerzelKunde": "2.1-01",
 		"description": "Beschäftigung nach Branche",
 		"thema": "03 Erwerbsleben",
@@ -15769,15 +15842,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
+		"aktualisierungsdatum": "2018-11-01T14:41:08.088",
 		"stufe1": "Übersicht Basler Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund 21 000 Beschäftigte in Vollzeitäquivalenten (VZÄ) sind in Basel-Stadt 2015 im Gesundheits- und Sozialwesen tätig und somit etwa 14% der Gesamtbeschäftigung. Im Vergleich zum Vorjahr ist dies eine Steigerung von 3,0%. Je 19 000 VZÄ oder 12% der Gesamtbeschäftigung arbeiten in der Dienstleistungsgruppe Beratung, Planung, Forschung, Immobilienwesen sowie in der Branche Chemische und Pharmazeutische Industrie. Dabei ist Letztere mit 2,0% im Vergleich zum Vorjahr wie schon in den Jahren zuvor weiter gewachsen. Ebenfalls über 1,0% Wachstum verzeichneten die Branchen Kultur, Unterhaltung und persönliche Dienstleistungen (+1,9%), Industrie (ohne Chemie und Pharma, +1,6%) sowie Gastgewerbe (+1,0%). Geschrumpft sind insbesondere die Branchen Verkehr und Lagerei (-8,9%), Personalvermittlung und -überlassung (-6,8%), Information und Kommunikation (-4,7%), Erziehung und Unterricht (-2,0%), Handel und Reparatur (-1,3%) sowie Finanz- und Versicherungsdienstleistungen (-1,1%).",
-		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen. Die Referenzperiode ist jeweils der Dezember des Jahres.",
+		"lesehilfe": "Rund 22 000 Beschäftigte in Vollzeitäquivalenten (VZÄ) sind in Basel-Stadt 2016 im Gesundheits- und Sozialwesen tätig, was etwa 15% der Gesamtbeschäftigung entspricht. Im Vergleich zum Vorjahr bedeutet dies eine Steigerung von 3,4%. Je 19 000 VZÄ oder 13% der Gesamtbeschäftigung sind in der Dienstleistungsgruppe Beratung, Planung, Forschung, Immobilienwesen sowie in der Branche Chemische und Pharmazeutische Industrie tätig. Dabei ist Letztere mit 0,9% im Vergleich zum Vorjahr wie schon in den Jahren zuvor weiter gewachsen. Über 1,0% Wachstum verzeichneten die Branchen Öffentliche Verwaltung und Sozialversicherungen (+3,8%) sowie Personalvermittlung und -überlassung  (+2,8%). Geschrumpft sind insbesondere die Branchen Verkehr und Lagerei (-4,0%), Information und Kommunikation (-3,5%), Finanz- und Versicherungsdienstleistungen (-3,0%), Gastgewerbe (-2,7%) sowie Handel und Reparatur (-2,3%).",
+		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit) in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_101",
 		"parentId": null,
@@ -15786,11 +15861,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6459,
-		"darstellungsart": "Grafik"
+		"data-id": 6459,
+		"chart-id": 6459,
+		"filter": "",
+		"id": 6459
 	},
 	{
 		"title": "Arbeitslosenquote nach Branche",

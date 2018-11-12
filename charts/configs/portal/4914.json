@@ -328,8 +328,7 @@
           "color": "#000000"
         }
       },
-      "min": 0,
-      "max": 50
+      "min": 0
     },
     {
       "title": {
@@ -364,17 +363,17 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Landwirtschaftliche Strukturerhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-10"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Landwirtschaftliche Strukturerhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-26"
   },
   "legend": {
     "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left",
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
+    "align": "left"
   },
   "tooltip": {
     "shared": false
