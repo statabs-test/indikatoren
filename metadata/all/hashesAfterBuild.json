@@ -6663,13 +6663,6 @@
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "34536e50cf379fdc85e2cd9b40c0b8c125efe462"
 	},
-	"6989": {
-		"metadata": "2ac0137d8e4a3c267d55f50879be2bb80a49adff",
-		"chartConfig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-		"data": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-		"template": "cbd8013f19a1f4d5c0c79409ed94273446c7d114"
-	},
 	"6990": {
 		"metadata": "f015955b152aad2785bd5e03dea5bc3b68fb15e3",
 		"chartConfig": "863045d5c2eb2a3d784a0ba1035b1231a7068939",
