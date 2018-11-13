@@ -584,7 +584,7 @@ var indikatorensetData = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Anteil der Genossenschaftswohnungen am Gesamtbestand beträgt 2017 etwa 11%.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Es werden nur dauernd bewohnte Wohnungen berücksichtigt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
