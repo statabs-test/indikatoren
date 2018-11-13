@@ -505,7 +505,7 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 415,
-    "spacingBottom": 20,
+    "spacingBottom": 30,
     "style": {
       "fontFamily": "Arial"
     },
@@ -552,7 +552,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Bevölkerung nach Alter und Wohnviertel"
+    "text": "Alterspyramide nach Geschlecht und Heimat"
   },
   "subtitle": {
     "style": {
@@ -561,7 +561,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Riehen",
+    "text": "Riehen, 2017",
     "align": "left"
   },
   "yAxis": [
@@ -611,9 +611,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: ."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik."
   },
   "legend": {
     "symbolRadius": 0,
