@@ -59,12 +59,14 @@
       "type": "scatter",
       "marker": {
         "symbol": "dot",
-        "radius": 5,
-        "yAxis": 1,
-        "connectNulls": true,
-        "tooltip": {
-          "valueDecimals": 2
-        }
+        "radius": 5
+      },
+      "yAxis": 1,
+      "connectNulls": true,
+      "tooltip": {
+        "valueDecimals": 1,
+        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
         [
@@ -220,13 +222,13 @@
         "text": null
       },
       "labels": {
-        "format": "{value:,.0f}%",
+        "format": "{value:,.f}%",
         "style": {
           "color": "#000000"
         }
       },
       "min": 0,
-      "max": 24,
+      "max": 25,
       "gridLineWidth": 0,
       "opposite": true
     }
@@ -263,7 +265,8 @@
     }
   },
   "tooltip": {
-    "shared": false
+    "shared": false,
+    "valueDecimals": 1
   },
   "exporting": {
     "filename": 4143

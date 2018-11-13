@@ -65,14 +65,15 @@
       "yAxis": 1, 
       connectNulls: true,
       tooltip: {
-        valueDecimals: 2,
+        valueDecimals: 1,
         headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
         pointFormat: '<span style="color:{point.color}">●</span> {series.name}: <b>{point.y}%</b><br/>',
       }
     }
   ],  
   "tooltip": {
-    "shared": false
+    "shared": false, 
+     valueDecimals: 1,
   },
   "chart": {
     "type": "line",
