@@ -49,10 +49,14 @@
   },
   "series": [
     {
-      "color": "#73b97c",
-      "index": 0,
-      "type": "column",
-      "pointWidth": "8"
+      color: "#73b97c",
+      index: 0,
+      type: "column",
+      pointWidth: 8,
+      tooltip: {
+        valueDecimals: 0,
+      }
+
     },
     {
       "color": "#cd9c00",
