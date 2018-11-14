@@ -139,7 +139,7 @@ global $
         itemMarginBottom: 0,
         labelFormatter: function(){
           return this.name
-            .replace("Bosnien und ", "Bosnien und<br/>")
+            .replace("Bosnien-", "Bosnien-<br/>")
             .replace("Montenegro", "Monte-<br/>negro")
             .replace("Vereinigtes ", "Vereinigtes<br/>")
             .replace("Vereinigte ", "Vereinigte<br/>");
