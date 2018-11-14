@@ -146,12 +146,11 @@ global $
         }
       },
      tooltip: {
-         //headerFormat: '<span style="font-size: 10px">{point.key} {series.chart.series[17].name}</span><br/>',
-         //pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y} ({point.percentage:.1f}%)</b><br/>',
          enabled: true,
-         shared: true,
+         shared: false,
          split: false,
          reversed: true,
+         /*
          formatter: function () {
           //console.log(this.points[0].series.chart.series);
           var lastSeriesIndex = (this.points[0].series.chart.series.length -1)/ 2;
@@ -162,6 +161,7 @@ global $
           }
           return s;
          },
+         */
      },      
      plotOptions: { 
         series: {

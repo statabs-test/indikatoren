@@ -1219,51 +1219,51 @@
         ],
         [
           1041379200000,
-          97
+          0
         ],
         [
           1072915200000,
-          76
+          0
         ],
         [
           1104537600000,
-          92
+          0
         ],
         [
           1136073600000,
-          91
+          0
         ],
         [
           1167609600000,
-          83
+          0
         ],
         [
           1199145600000,
-          65
+          0
         ],
         [
           1230768000000,
-          55
+          0
         ],
         [
           1262304000000,
-          41
+          0
         ],
         [
           1293840000000,
-          36
+          0
         ],
         [
           1325376000000,
-          35
+          0
         ],
         [
           1356998400000,
-          25
+          0
         ],
         [
           1388534400000,
-          6
+          0
         ],
         [
           1420070400000,
@@ -1379,51 +1379,51 @@
         ],
         [
           1041379200000,
-          0
+          97
         ],
         [
           1072915200000,
-          0
+          76
         ],
         [
           1104537600000,
-          0
+          92
         ],
         [
           1136073600000,
-          0
+          91
         ],
         [
           1167609600000,
-          1
+          84
         ],
         [
           1199145600000,
-          4
+          69
         ],
         [
           1230768000000,
-          20
+          75
         ],
         [
           1262304000000,
-          45
+          86
         ],
         [
           1293840000000,
-          55
+          91
         ],
         [
           1325376000000,
-          79
+          114
         ],
         [
           1356998400000,
-          82
+          107
         ],
         [
           1388534400000,
-          122
+          128
         ],
         [
           1420070400000,
@@ -1598,7 +1598,7 @@
           25
         ]
       ],
-      "name": "Bosnien und Herzegowina",
+      "name": "Bosnien-Herzegowina",
       "turboThreshold": 0
     },
     {
@@ -3552,19 +3552,9 @@
       "day": "%A, %e. %b, %Y"
     },
     "enabled": true,
-    "shared": true,
+    "shared": false,
     "split": false,
-    "reversed": true,
-    "formatter": function () {
-          //console.log(this.points[0].series.chart.series);
-          var lastSeriesIndex = (this.points[0].series.chart.series.length -1)/ 2;
-          var s = '<b>'+ this.points[0].series.chart.series[lastSeriesIndex].name + ' ' +  new Date(this.x).getUTCFullYear() + '</b>';
-          for (var i = this.points.length -1; i >= 0; i--){
-              var p = this.points[i];
-              s += '<br/><span style="color:' + p.color + '">\u25CF</span> ' + p.series.name + ': <b>' + p.y + '</b>';
-          }
-          return s;
-         }
+    "reversed": true
   },
   "exporting": {
     "csv": {
