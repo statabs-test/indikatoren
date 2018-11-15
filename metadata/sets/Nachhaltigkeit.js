@@ -75,7 +75,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bevölkerungspyramide am Jahresende",
-		"subtitle": "nach Staatsangehörigkeit und Geschlecht, Basel-Stadt, 2017",
+		"subtitle": "nach Alter in Jahren, Basel-Stadt, 2017",
 		"kuerzel": "I.01.1.5142",
 		"kuerzelKunde": "BE2",
 		"description": "Bevölkerungspyramide am Jahresende",
@@ -103,9 +103,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 5142,
+		"chart-id": 5142,
+		"filter": "",
 		"id": 5142
 	},
 	{
