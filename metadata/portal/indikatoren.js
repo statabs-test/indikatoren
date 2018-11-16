@@ -1482,18 +1482,18 @@ var indikatoren = [
 		"darstellungsart": "Grafik"
 	},
 	{
-		"title": "Mietpreisentwicklung der Leerwohnungen nach Zimmerzahl",
-		"subtitle": "Basel-Stadt",
+		"title": "Mietpreisentwicklung der Leerwohnungen",
+		"subtitle": "nach Zimmerzahl, Basel-Stadt",
 		"kuerzel": "I.09.2.4129",
 		"kuerzelKunde": "0.1.B-2",
-		"description": "Mietpreisentwicklung der Leerwohnungen nach Zimmerzahl",
+		"description": "Mietpreisentwicklung der Leerwohnungen",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Wohnraumentwicklung",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-08-22T15:38:57.5757",
+		"aktualisierungsdatum": "2018-11-13T09:12:39.3939",
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
@@ -1502,18 +1502,24 @@ var indikatoren = [
 		"lesehilfe": "Die Mietpreisentwicklung der Leerwohnungen ist im Zehnjahresvergleich leicht ansteigend. Da es grundsätzlich wenige leerstehende 5-Zimmerwohnungen gibt, sind die ausgewiesenen Durchschnittsmieten in dieser Kategorie grösseren Schwankungen unterworfen bzw. können wie im Jahr 2014 aufgrund zu kleiner Stichprobe gar nicht berechnet werden.",
 		"erlaeuterungen": "Ohne Wohnungen in Einfamilienhäusern, ohne Wohnungen mit Zwischennutzung (eingeschränkte Mieterrechte, besonders günstig), ohne möblierte Wohnungen (besonders teuer) und mit Genossenschaftswohnungen.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
+		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4129,
-		"darstellungsart": "Grafik"
+		"data-id": 4129,
+		"chart-id": 4129,
+		"filter": "",
+		"id": 4129
 	},
 	{
 		"title": "Mietpreisentwicklung der 3-Zimmer-Wohnungen",
@@ -7292,8 +7298,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Bevölkerungspyramide am Jahresende",
-		"subtitle": "nach Staatsangehörigkeit und Geschlecht, Stand: 2017",
-		"kuerzel": "I.01.1.05142",
+		"subtitle": "nach Alter in Jahren, Basel-Stadt, 2017",
+		"kuerzel": "I.01.1.5142",
 		"kuerzelKunde": "BE2",
 		"description": "Bevölkerungspyramide am Jahresende",
 		"thema": "01 Bevölkerung",
@@ -7302,7 +7308,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-01T13:06:51.5151",
+		"aktualisierungsdatum": "2018-11-15T09:33:03.033",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -7311,6 +7317,8 @@ var indikatoren = [
 		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass bei der ausländischen Bevölkerung vor allem die mittleren Jahrgänge der Personen im Erwerbsalter gut besetzt sind. Deutlich wird zudem, dass es in den höheren Altersgruppen zahlreiche Schweizerinnen gibt.",
 		"erlaeuterungen": "",
 		"template": "populationPyramid001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_102",
 		"parentId": null,
@@ -7319,11 +7327,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5142,
-		"darstellungsart": "Grafik"
+		"data-id": 5142,
+		"chart-id": 5142,
+		"filter": "",
+		"id": 5142
 	},
 	{
 		"title": "Altersquotient",
