@@ -102,28 +102,28 @@
         }],
 		series: [
             {
-              color: "#d00000", 
+              color: "#B00000", 
               stacking: 'normal',
               stack: 'female',
               legendIndex: 1,
               index: 2,
             }, 
             {
-              color: "#B00000", 
+              color: "#008AC3", 
               stacking: 'normal',
               stack: 'male',
               legendIndex: 0,
               index: 3,
             },
             {
-              color: "#00bAf3", 
+              color: "#d00000", 
               stacking: 'normal',
               stack: 'female',
               legendIndex: 3,
               index: 0,
             }, 
             {
-              color: "#008AC3", 
+              color: "#00bAf3", 
               stacking: 'normal',
               stack: 'male',
               legendIndex: 2,
