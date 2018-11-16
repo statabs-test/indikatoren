@@ -102,28 +102,28 @@
         }],
 		series: [
             {
-              color: "#B00000", // rot
+              color: "#d00000", 
               stacking: 'normal',
               stack: 'female',
               legendIndex: 1,
               index: 2,
             }, 
             {
-              color: "#008AC3", //blau
+              color: "#B00000", 
               stacking: 'normal',
               stack: 'male',
               legendIndex: 0,
               index: 3,
             },
             {
-              color: "#d00000", // rot
+              color: "#00bAf3", 
               stacking: 'normal',
               stack: 'female',
               legendIndex: 3,
               index: 0,
             }, 
             {
-              color: "#00bAf3", //blau
+              color: "#008AC3", 
               stacking: 'normal',
               stack: 'male',
               legendIndex: 2,
@@ -169,13 +169,11 @@
                     
                     //for top-left legends with no x defined: move legend to x position of first yAxis
                     if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top'){
-                      this.update(
-                        {
-                          legend: {
-                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding + 105 //fixed offset instead of /charts/templates/populationPyramid001.js
-                          }
-                        }
-                      );
+                      this.update({
+                         legend: {
+                           x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding + 105 //fixed offset instead of /charts/templates/populationPyramid001.js
+                         }
+                      });
                     }
                 },
             }
