@@ -4,7 +4,7 @@
     "tickInterval": 1,
     labels: { 
 		style: { 
-			textOverflow: 'none' // prevents ellipsis
+		//	textOverflow: 'none' // prevents ellipsis
 	}, 
 } 
 
@@ -21,7 +21,7 @@
   "series": [
     {"color": "#B00000",
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, /* dunkelrot */
     	/*{"color": "#007A2F",
@@ -30,10 +30,17 @@
         "enabled": true
       }    
     }, // dunkelgrün */
+    {"color": "#B00000",
+    linkedTo: 'previous',
+      "marker": {
+        "enabled": true,
+        radius: 2
+      }    
+    },
     	{"color": "#4f81bd",
 	visible:true,
       "marker": {
-        "enabled": true
+        "enabled": false
       }    
     }, //dunkelblau 
     	/*{"color": "#662673",
