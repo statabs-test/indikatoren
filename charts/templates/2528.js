@@ -22,7 +22,8 @@
   {"color": "#662673"}, 
 	  ],
   "legend": {
-  	itemWidth: 300,
+    width: 460,
+  	itemWidth: 230,
     "enabled": true,
     //"y": 45,
     "layout": "horizontal",

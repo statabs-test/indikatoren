@@ -52,7 +52,7 @@
           5409
         ]
       ],
-      "name": "Öffentliche Verwaltung, Sozialversicherungen"
+      "name": "Öffentliche Verwaltung,  \u003Cbr\u002F\u003ESozialversicherungen"
     },
     {
       "color": "#008AC3",
@@ -339,6 +339,8 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
+    "width": 460,
+    "itemWidth": 230,
     "itemMarginBottom": 5
   },
   "plotOptions": {
