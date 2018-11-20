@@ -106,7 +106,7 @@
           19008
         ]
       ],
-      "name": "Beratung, Planung, Forschung, Immobilien"
+      "name": "Beratung, Planung, Forschung,\u003Cbr\u002F\u003EImmobilien"
     },
     {
       "color": "#DC440E",
@@ -160,7 +160,7 @@
           5749
         ]
       ],
-      "name": "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL"
+      "name": "Gebäudebetreuung, Sicherheit, \u003Cbr\u002F\u003Esonst. wirtsch. DL"
     },
     {
       "color": "#B00000",
@@ -214,7 +214,7 @@
           6254
         ]
       ],
-      "name": "Personalvermittlung, -überlassung"
+      "name": "Personalvermittlung, \u003Cbr\u002F\u003E-überlassung"
     }
   ],
   "chart": {
@@ -339,6 +339,8 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
+    "width": 430,
+    "itemWidth": 215,
     "itemMarginBottom": 5
   },
   "plotOptions": {

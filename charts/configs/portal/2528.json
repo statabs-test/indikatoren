@@ -284,7 +284,8 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemWidth": 300,
+    "width": 460,
+    "itemWidth": 230,
     "itemMarginBottom": 5
   },
   "plotOptions": {
