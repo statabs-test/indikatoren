@@ -31,7 +31,7 @@
       }    
     }, // dunkelgrün */
     {"color": "#B00000",
-    linkedTo: 'previous',
+    linkedTo: "previous",
       "marker": {
         "enabled": true,
         radius: 2

@@ -777,7 +777,7 @@ var indikatorensetData = [
 	{
 		"title": "Strassenverkehrsunfälle und verunfallte Personen",
 		"subtitle": "",
-		"kuerzel": "I.11.7.05186",
+		"kuerzel": "I.11.7.5186",
 		"kuerzelKunde": "GW10",
 		"description": "Strassenverkehrsunfälle und verunfallte Personen",
 		"thema": "11 Verkehr",
@@ -786,15 +786,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Sicherheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Unfälle lag 2016 bei insgesamt 1 140. Diese setzt sich zusammen aus 871 durch die Polizei rapportierte Unfälle und 269 beanzeigte Parkschäden. Insgesamt gab es 490 verunfallte Personen: 389 Leichtverletzte, 97 Schwerverletzte und 4 Getötete.",
+		"lesehilfe": "Die Verkehrsunfallstatistik 2017 weist nur geringe Abweichungen gegenüber dem Vorjahr auf. Die Zahl der Unfälle lag bei insgesamt 835; die beanzeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) wurden der besseren Vergleichbarkeit halber herausgefiltert. Insgesamt gab es 446 verunfallte Personen: 360 Leichtverletzte, 85 Schwerverletzte sowie eine Person, welche an den Folgen eines Verkehrsunfalls starb. Dies ist die tiefste Zahl von Verkehrstoten im Kanton Basel-Stadt seit Beginn der Erhebung einer Verkehrsunfallstatistik.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "03_04_00_00_00_310",
 		"parentId": null,
 		"children": [],
@@ -805,8 +807,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 5186,
-		"darstellungsart": "Grafik"
+		"id": 5186
 	},
 	{
 		"title": "Anzahl Gewaltstraftaten pro 100 000 Einwohner",
