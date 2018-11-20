@@ -21,6 +21,8 @@
   {"color": "#2B0099"}, 
 	  ],
   "legend": {
+      width: 460,
+      itemWidth: 230,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
