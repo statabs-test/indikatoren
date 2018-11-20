@@ -776,7 +776,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Strassenverkehrsunfälle und verunfallte Personen",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.11.7.5186",
 		"kuerzelKunde": "GW10",
 		"description": "Strassenverkehrsunfälle und verunfallte Personen",
@@ -804,9 +804,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 5186,
+		"chart-id": 5186,
+		"filter": "",
 		"id": 5186
 	},
 	{
