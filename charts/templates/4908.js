@@ -2,7 +2,7 @@
     return {
   "plotOptions": {
     "series": {
-      "pointWidth": 15,
+     // "pointWidth": 15,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -31,7 +31,9 @@
     "itemMarginBottom": 5,
     "align": "right",
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "width": 125,
+      textOverflow: null
     }
   },
   "series": [
