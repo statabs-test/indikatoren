@@ -10743,7 +10743,7 @@ var indikatoren = [
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Auf den baselstädtischen Strassen sind 2017 bei 835 durch die Polizei rapportierten Unfällen 446 Personen verletzt, eine davon tödlich. Dies ist die tiefste Zahl von Verkehrstoten im Kanton Basel-Stadt seit Beginn der Erhebung einer Verkehrsunfallstatistik.",
-		"erlaeuterungen": "Der besseren Vergleichbarkeit halber wurden die beanzeigten Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) in der baselstädtischen Statistik ausgeschlossen.",
+		"erlaeuterungen": "Seit 2017 sind bei der Anzahl Unfälle beanzeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) nicht mehr enthalten.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
