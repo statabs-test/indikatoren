@@ -7728,8 +7728,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Verkehrsunfallstatistik 2017 weist nur geringe Abweichungen gegenüber dem Vorjahr auf. Die Zahl der Unfälle lag bei insgesamt 835; die beanzeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) wurden der besseren Vergleichbarkeit halber herausgefiltert. Insgesamt gab es 446 verunfallte Personen: 360 Leichtverletzte, 85 Schwerverletzte sowie eine Person, welche an den Folgen eines Verkehrsunfalls starb. Dies ist die tiefste Zahl von Verkehrstoten im Kanton Basel-Stadt seit Beginn der Erhebung einer Verkehrsunfallstatistik.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Auf den baselstädtischen Strassen sind 2017 bei 835 durch die Polizei rapportierten Unfällen 446 Personen verletzt, eine davon tödlich. Dies ist die tiefste Zahl von Verkehrstoten im Kanton Basel-Stadt seit Beginn der Erhebung einer Verkehrsunfallstatistik.",
+		"erlaeuterungen": "Der besseren Vergleichbarkeit halber wurden die beanzeigten Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) in der baselstädtischen Statistik ausgeschlossen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -7741,13 +7741,9 @@ var indikatoren = [
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
 		],
-		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"data-id": 5186,
-		"chart-id": 5186,
-		"filter": "",
 		"id": 5186
 	},
 	{
