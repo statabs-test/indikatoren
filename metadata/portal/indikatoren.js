@@ -21775,7 +21775,7 @@ var indikatoren = [
 		],
 		"data-id": 6956,
 		"chart-id": 6956,
-		"filter": "",
+		"filter": "1",
 		"id": 6956
 	},
 	{
@@ -22641,6 +22641,42 @@ var indikatoren = [
 			""
 		],
 		"id": 6983
+	},
+	{
+		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"subtitle": "Kanton Basel-Stadt",
+		"kuerzel": "I.09.1.06988",
+		"kuerzelKunde": "",
+		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Wohnviertel",
+		"raeumlicheGliederung": [],
+		"aktualisierungsdatum": "",
+		"stufe1": "Teil 4: Themen-Grafiken",
+		"stufe2": "Wohnungen",
+		"stufe3": "Raum und Umwelt",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_03_03_00_00_022",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "99",
+		"id": 6988
 	},
 	{
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",

@@ -1,4 +1,4 @@
-﻿Jahr	Monat	Zimmerzahl	Wohnungen	Wohnviertel_Id	Wohnviertel_name
+Jahr	Monat	Zimmerzahl	Wohnungen	Wohnviertel_Id	Wohnviertel_name
 2017	12	1 Zimmer	255	1	Altstadt Grossbasel
 2017	12	2 Zimmer	380	1	Altstadt Grossbasel
 2017	12	3 Zimmer	350	1	Altstadt Grossbasel
@@ -125,3 +125,9 @@
 2017	12	4 Zimmer	103	30	Bettingen
 2017	12	5 Zimmer	133	30	Bettingen
 2017	12	6 u.m. Zimmer	116	30	Bettingen
+2017	12	1 Zimmer	11135	99	Kanton Basel-Stadt
+2017	12	2 Zimmer	25557	99	Kanton Basel-Stadt
+2017	12	3 Zimmer	40753	99	Kanton Basel-Stadt
+2017	12	4 Zimmer	19182	99	Kanton Basel-Stadt
+2017	12	5 Zimmer	6981	99	Kanton Basel-Stadt
+2017	12	6 u.m. Zimmer	5882	99	Kanton Basel-Stadt
