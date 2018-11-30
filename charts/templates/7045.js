@@ -9,24 +9,29 @@
   "xAxis": {
     "type": "category",
     "labels": {
-		  align: "left",
-          x: -180,
+      rotation: -90,
+      y: 100,
+		  align: "middle",
           "formatter": function() {
             return this.value.replace("/", "<br/>")
         },
         style: { 
-			textOverflow: 'none' // prevents ellipsis
+		//	textOverflow: 'none' // prevents ellipsis
 		} 
     },
   },
   "yAxis": {
   	//"min": 0,
   	//"max": 0.5,
+  //tickInterval: 10000,
+    tickInterval: 5000,
     tickAmount: 6,
     "labels": {
       "format": "{value:,.0f}" ,
         style: { 
-			textOverflow: 'none' // prevents ellipsis
+          width: "10px",
+          wordWrap: 'break-word',
+		//	textOverflow: 'none' // prevents ellipsis
 		} 
     }    
   },
@@ -49,11 +54,11 @@
     shared: false
   },  
   "chart": {  
-  	marginRight: 50,
-  	marginLeft: 200,
-  	"height": 650,        
     "type": "column",
-    "inverted": true
+    "inverted": false,
+  	width: 665, 
+  	height: 500,
+  	spacingTop: 7
   }
 }
 }());
