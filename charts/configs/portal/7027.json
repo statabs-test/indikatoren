@@ -296,7 +296,8 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickAmount": 4
+    "max": 25000,
+    "tickAmount": 6
   },
   "xAxis": {
     "lineColor": "#B9CFD7",

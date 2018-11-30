@@ -242,7 +242,8 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickAmount": 5
+    "max": 25000,
+    "tickAmount": 6
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
