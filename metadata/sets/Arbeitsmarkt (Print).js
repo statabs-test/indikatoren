@@ -173,5 +173,40 @@ var indikatorensetData = [
 			""
 		],
 		"id": 7043
+	},
+	{
+		"title": "Beschäftigung im Dienstleistungssektor (III)",
+		"subtitle": "Anzahl Vollzeitäquivalente, Basel-Stadt",
+		"kuerzel": "I.03.2.07044",
+		"kuerzelKunde": "3.2-08",
+		"description": "Beschäftigung im Dienstleistungssektor (III)",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Beschäftigte",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2018-11-26T10:30:44.4444",
+		"stufe1": "Monitoring Basler Arbeitsmarkt",
+		"stufe2": "Beschäftigung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Gesundheits- und Sozialwesen liegt die Beschäftigung im Jahr 2016 bei rund 22 100 Vollzeitäquivalenten (VZÄ), was einem Wachstum von 3,4% gegenüber dem Vorjahr entspricht. Auch in der Branche Erziehung und Unterricht sowie in der Branche Öffentliche Verwaltung und Sozialversicherungen hat die Beschäftigung in VZÄ zugenommen, und zwar um 0,4% bzw. 3,8%. Die Branche Kultur, Unterhaltung und persönliche Dienstleistungen verzeichnet im Jahr 2016 einen Rückgang der VZÄ um 0,9% gegenüber dem Vorjahr.",
+		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit) in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode für die entsprechenden Jahre simuliert.",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "02_02_00_00_00_208",
+		"parentId": 6457,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7044
 	}
 ];
