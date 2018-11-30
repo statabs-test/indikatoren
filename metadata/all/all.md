@@ -934,6 +934,7 @@ id | visible | visibleInPortal | indikatorenset
 6982 | true | true | Steuern
 6983 | true | true | Steuern
 7026 | true | false | Arbeitsmarkt (Print)
+7027 | true | false | Arbeitsmarkt (Print)
 7041 | true | false | Arbeitsmarkt (Print)
 7042 | true | false | Arbeitsmarkt (Print)
 9995 | true | false | 
