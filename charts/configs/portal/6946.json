@@ -2078,7 +2078,7 @@
           35
         ]
       ],
-      "name": "Vereinigtes Königreich",
+      "name": "UK",
       "turboThreshold": 0
     },
     {
@@ -2558,7 +2558,7 @@
           32
         ]
       ],
-      "name": "Vereinigte Staaten",
+      "name": "USA",
       "turboThreshold": 0
     },
     {
@@ -3504,9 +3504,7 @@
     "labelFormatter": function (){
           return this.name
             .replace("Bosnien-", "Bosnien-<br/>")
-            .replace("Montenegro", "Monte-<br/>negro")
-            .replace("Vereinigtes ", "Vereinigtes<br/>")
-            .replace("Vereinigte ", "Vereinigte<br/>");
+            .replace("Montenegro", "Monte-<br/>negro");
         }
   },
   "rangeSelector": {

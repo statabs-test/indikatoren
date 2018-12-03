@@ -140,9 +140,7 @@ global $
         labelFormatter: function(){
           return this.name
             .replace("Bosnien-", "Bosnien-<br/>")
-            .replace("Montenegro", "Monte-<br/>negro")
-            .replace("Vereinigtes ", "Vereinigtes<br/>")
-            .replace("Vereinigte ", "Vereinigte<br/>");
+            .replace("Montenegro", "Monte-<br/>negro");
         }
       },
      tooltip: {
