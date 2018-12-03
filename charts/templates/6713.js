@@ -5,7 +5,7 @@
         "labels": {
            rotation: -90,
            y: 10,
-           x: -6,
+           x: -20,
            align: "right",
            //y: 110,
             "formatter": function() {

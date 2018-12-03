@@ -216,10 +216,13 @@
       "style": {
         "fontSize": "10px",
         "color": "#000000",
-        "textOverflow": "none"
+        "width": "115px",
+        "wordWrap": "break-word"
       },
-      "align": "left",
-      "x": -180,
+      "rotation": -90,
+      "y": 10,
+      "x": -10,
+      "align": "right",
       "formatter": function () {
             return this.value.replace("/", "<br/>")
         }
@@ -229,8 +232,8 @@
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 320,
-    "height": 663,
+    "width": 665,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -261,10 +264,10 @@
                     
                 }
     },
-    "marginRight": 50,
-    "marginLeft": 200,
     "type": "column",
-    "inverted": true,
+    "inverted": false,
+    "marginBottom": 120,
+    "spacingTop": 5,
     "renderTo": "container-7045",
     "spacingBottom": 12
   },
@@ -279,7 +282,8 @@
           "color": "black"
         }
       },
-      "pointPadding": 0
+      "pointPadding": 0,
+      "groupPadding": 0.1
     }
   },
   "title": {
@@ -316,11 +320,12 @@
       "y": 3,
       "style": {
         "fontSize": "10px",
-        "color": "#000000",
-        "textOverflow": "none"
+        "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickInterval": 5000,
+    "tickAmount": 6
   },
   "navigation": {
     "menuItemStyle": {

@@ -3,6 +3,7 @@
 	plotOptions: {
         series: {
             pointPadding: 0,
+            groupPadding: 0.1,
             borderWidth: 0
         }
     },
@@ -10,27 +11,25 @@
     "type": "category",
     "labels": {
       rotation: -90,
-      y: 100,
-		  align: "middle",
-          "formatter": function() {
+      y: 10,
+         x: -10,
+           "align": "right",
+           "formatter": function() {
             return this.value.replace("/", "<br/>")
         },
         style: { 
+          width: "115px",
+          wordWrap: 'break-word',
 		//	textOverflow: 'none' // prevents ellipsis
 		} 
     },
   },
   "yAxis": {
-  	//"min": 0,
-  	//"max": 0.5,
-  //tickInterval: 10000,
     tickInterval: 5000,
     tickAmount: 6,
     "labels": {
       "format": "{value:,.0f}" ,
         style: { 
-          width: "10px",
-          wordWrap: 'break-word',
 		//	textOverflow: 'none' // prevents ellipsis
 		} 
     }    
@@ -57,8 +56,8 @@
     "type": "column",
     "inverted": false,
   	width: 665, 
-  	height: 500,
-  	spacingTop: 7
+  	marginBottom: 120,
+  	spacingTop: 5
   }
 }
 }());

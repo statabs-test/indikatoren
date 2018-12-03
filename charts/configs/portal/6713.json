@@ -461,7 +461,7 @@
             	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + '<br/>(' + nString + sum + ')';
             },
       "y": 10,
-      "x": -6,
+      "x": -20,
       "align": "right"
     }
   },
