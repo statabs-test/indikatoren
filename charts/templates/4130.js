@@ -57,6 +57,7 @@
       "fontWeight": "normal"
     },
      itemDistance: 6,
+     itemWidth: 205, 
      padding: 1,
   },
     "tooltip": {

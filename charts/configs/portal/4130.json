@@ -61,7 +61,7 @@
           886
         ]
       ],
-      "name": "Genossenschaftswohnungen",
+      "name": "Genossenschaften",
       "turboThreshold": 0
     },
     {
@@ -125,7 +125,7 @@
           1288
         ]
       ],
-      "name": "Ohne Genossenschaftswohnungen",
+      "name": "Ohne Genossenschaften",
       "turboThreshold": 0
     },
     {
@@ -191,7 +191,7 @@
           875
         ]
       ],
-      "name": "Genossenschaftswohnungen gewichtet",
+      "name": "Genossenschaften gewichtet",
       "turboThreshold": 0
     },
     {
@@ -257,7 +257,7 @@
           1224
         ]
       ],
-      "name": "Ohne Genossenschaftswohnungen gewichtet",
+      "name": "Ohne Genossenschaften gew.",
       "turboThreshold": 0
     }
   ],
@@ -370,6 +370,7 @@
     },
     "itemMarginBottom": 7,
     "itemDistance": 6,
+    "itemWidth": 205,
     "padding": 1
   },
   "plotOptions": {
