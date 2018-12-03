@@ -6,7 +6,7 @@
         "enabled": false
       },
       "index": 0,
-      "color": "#007A2F",
+      "color": "#B375AB",
       "data": [
         [
           "2006",
@@ -55,6 +55,10 @@
         [
           "2017",
           857
+        ],
+        [
+          "2018",
+          886
         ]
       ],
       "name": "Genossenschaftswohnungen",
@@ -115,9 +119,145 @@
         [
           "2017",
           1281
+        ],
+        [
+          "2018",
+          1288
         ]
       ],
       "name": "Ohne Genossenschaftswohnungen",
+      "turboThreshold": 0
+    },
+    {
+      "marker": {
+        "symbol": "circle",
+        "radius": 3,
+        "enabled": true
+      },
+      "type": "scatter",
+      "index": 2,
+      "color": "#662673",
+      "data": [
+        [
+          "2006",
+          null
+        ],
+        [
+          "2007",
+          null
+        ],
+        [
+          "2008",
+          null
+        ],
+        [
+          "2009",
+          null
+        ],
+        [
+          "2010",
+          null
+        ],
+        [
+          "2011",
+          null
+        ],
+        [
+          "2012",
+          null
+        ],
+        [
+          "2013",
+          null
+        ],
+        [
+          "2014",
+          null
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2016",
+          849
+        ],
+        [
+          "2017",
+          859
+        ],
+        [
+          "2018",
+          875
+        ]
+      ],
+      "name": "Genossenschaftswohnungen gewichtet",
+      "turboThreshold": 0
+    },
+    {
+      "marker": {
+        "symbol": "circle",
+        "radius": 3,
+        "enabled": true
+      },
+      "type": "scatter",
+      "index": 3,
+      "color": "#7F5F1A",
+      "data": [
+        [
+          "2006",
+          null
+        ],
+        [
+          "2007",
+          null
+        ],
+        [
+          "2008",
+          null
+        ],
+        [
+          "2009",
+          null
+        ],
+        [
+          "2010",
+          null
+        ],
+        [
+          "2011",
+          null
+        ],
+        [
+          "2012",
+          null
+        ],
+        [
+          "2013",
+          null
+        ],
+        [
+          "2014",
+          null
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2016",
+          1199
+        ],
+        [
+          "2017",
+          1212
+        ],
+        [
+          "2018",
+          1224
+        ]
+      ],
+      "name": "Ohne Genossenschaftswohnungen gewichtet",
       "turboThreshold": 0
     }
   ],

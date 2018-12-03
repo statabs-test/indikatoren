@@ -16,7 +16,7 @@
           "enabled": false
         },
         "index": 0,
-        "color": "#007A2F"
+        "color": "#B375AB"
       },
       {
         "marker": {
@@ -25,7 +25,27 @@
         },
         "index": 1,
         "color": "#CD9C00"
-      }
+      },
+      {
+        "marker": {
+          "symbol": "circle",
+          radius: 3,
+          "enabled": true
+        },
+        type: "scatter",
+        "index": 2,
+        "color": "#662673"
+      },
+      {
+        "marker": {
+          "symbol": "circle",
+          radius: 3,
+          "enabled": true
+        },
+        type: "scatter",
+        "index": 3,
+        "color": "#7F5F1A"
+      },
     ],
     "legend": {
     "enabled": true,
