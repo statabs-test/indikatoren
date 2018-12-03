@@ -70,6 +70,41 @@ var indikatorensetData = [
 		"id": 7015
 	},
 	{
+		"title": "Arbeitslose nach Ländergruppe",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.03.4.07016",
+		"kuerzelKunde": "3.3-04",
+		"description": "Arbeitslose nach Ländergruppe",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Arbeitslose",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Monitoring Basler Arbeitsmarkt",
+		"stufe2": "Arbeitslosigkeit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "In Basel-Stadt waren 2017 im Jahresdurchschnitt 3 726 Arbeitslose bei den RAV angemeldet. Davon waren 47% bzw. 1 733 Schweizer Nationalität. Bei den ausländischen Arbeitslosen ist die Zahl der Angehörigen der EU15/EFTA-Länder am grössten und zeigt auch die stärksten saisonalen Schwankungen. Im Durchschnitt 2017 kamen 993 Arbeitslose aus den EU15/EFTA-Ländern und 831 aus Drittstaaten. 170 Arbeitslose waren aus jenen Ländern, die seit 2004 der EU beigetreten sind. Alle Ländergruppen zeigen einen Rückgang gegenüber 2016.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich mit der Anzahl Arbeitslosen geteilt durch die Erwerbspersonen.",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "02_03_00_00_00_304",
+		"parentId": 2426,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7016
+	},
+	{
 		"title": "Arbeitslosenquote nach Kanton",
 		"subtitle": "",
 		"kuerzel": "I.03.4.07019",
