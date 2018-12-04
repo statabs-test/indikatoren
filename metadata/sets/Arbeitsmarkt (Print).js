@@ -1,5 +1,75 @@
 var indikatorensetData = [
 	{
+		"title": "Grenzgänger nach Wohnort und Geschlecht",
+		"subtitle": "Bestand Ende Quartal, Basel-Stadt",
+		"kuerzel": "I.03.5.07004",
+		"kuerzelKunde": "3.4-02",
+		"description": "Grenzgänger nach Wohnort und Geschlecht",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Monitoring Basler Arbeitsmarkt",
+		"stufe2": "Ausländische Erwerbstätige",
+		"stufe3": "Grenzgänger",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "In allen Gruppen sind 2017 mehr Grenzgänger tätig als zehn Jahre zuvor. Besonders gross ist der relative Zuwachs seit 2007 bei Frauen aus Deutschland (+39,2%). Von den 36 000 Grenzgängern in Basel-Stadt sind 40,5% Frauen. Vor zehn Jahren betrug dieser Anteil 38,7%.",
+		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten.",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "02_04_01_00_00_402",
+		"parentId": 2152,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7004
+	},
+	{
+		"title": "Grenzgänger nach Kanton",
+		"subtitle": "Bestand Ende Quartal",
+		"kuerzel": "I.03.5.07008",
+		"kuerzelKunde": "3.4-01",
+		"description": "Grenzgänger nach Kanton",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Monitoring Basler Arbeitsmarkt",
+		"stufe2": "Ausländische Erwerbstätige",
+		"stufe3": "Grenzgänger",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Alle betrachteten Kantone verzeichneten in den letzten zehn Jahren einen Anstieg an ausländischen Grenzgängern. In Basel-Stadt beträgt der Zuwachs 19,7%, von ca. 30 000 auf fast 36 000 Personen. Gegenüber dem Vorjahr blieb der Wert praktisch konstant. In der gesamten Schweiz arbeiteten zum Ende des 4. Quartals 2017 über 318 000 Grenzgänger, 52,7% mehr als 2007.",
+		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten.",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "02_04_01_00_00_401",
+		"parentId": 2173,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7008
+	},
+	{
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.03.4.07014",

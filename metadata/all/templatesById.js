@@ -888,6 +888,8 @@ var templatesById = {
 	"6981": "template001",
 	"6982": "befragungen001",
 	"6983": "befragungen001",
+	"7004": "template001_print",
+	"7008": "line001_print",
 	"7014": "line001_print",
 	"7015": "line001_print",
 	"7016": "line001_print",
