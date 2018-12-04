@@ -14,7 +14,7 @@
   "devDependencies": {
     "casperjs": "1.1.4",
     "clone": "2.1.2",
-    "copy-node-modules": "1.0.3",
+    "copy-node-modules": "1.1.0",
     "csv": "4.0.0",
     "forever": "0.15.3",
     "fs-extra": "5.0.0",
