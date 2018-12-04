@@ -64,6 +64,12 @@
       "shared": false
     },
     "plotOptions": {
+      scatter:{
+        tooltip: {
+          headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
+          pointFormat: '<span style="color:{point.color}">●</span> {series.name}: <b>{point.y}</b><br/>'    
+        }  	    
+      },
       "series": {
         "dataLabels": {
           "enabled": false,
