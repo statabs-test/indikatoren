@@ -33091,6 +33091,40 @@ var indikatoren = [
 		"id": 6983
 	},
 	{
+		"title": "Arzt- und Zahnarztpraxen",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.14.4.07068",
+		"kuerzelKunde": "",
+		"description": "Arzt- und Zahnarztpraxen",
+		"thema": "14 Gesundheit",
+		"unterthema": "Prävention, Praxen, Rettung",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [],
+		"aktualisierungsdatum": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Jahr 2016 gibt es im Kanton Basel-Stadt 300 Arztpraxen für Allgemeinmedizin, 534 Facharztpraxen und 126 Zahnarztpraxen.",
+		"erlaeuterungen": "Arztpraxen für Allgemeinmedizin: Mit den Weiterbildungen Allgemeine Innere Medizin, praktischer Arzt oder Kinder- und Jugendmedizin (Pädiatrie); Intensivmedizin oder Grundversorgung; bei zwei oder mehr Spezialisierungen falls mindestens ein Allgemeinmediziner in der Praxis tätig ist oder bei zwei oder mehr verschiedenen Spezialisierungen. Facharztpraxen: Alle anderen Weiterbildungen; bei zwei oder mehr Spezialisierungen, wenn weniger als zwei verschiedene Spezialisierungen vorhanden sind.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7068
+	},
+	{
 		"title": "Test Daten",
 		"subtitle": "Test",
 		"kuerzel": "",
