@@ -164,7 +164,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Aufenthaltsdauer im Monatsmittel"
+    "text": "Aufenthaltsdauer in baselstädtischen Hotels im Monatsmittel"
   },
   "subtitle": {
     "style": {
@@ -173,7 +173,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Tagen, Stand: 2017",
+    "text": "in Tagen, 2017",
     "align": "left"
   },
   "tooltip": {
@@ -212,7 +212,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-15"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-11-20"
   },
   "legend": {
     "enabled": true,
@@ -231,20 +231,9 @@
         "enabled": false
       }
     },
-    "line": {
-      "dataLabels": {
-        "enabled": true,
-        "formatter": function (){
-          //only create dataLabels for max or min value within a series
-          if (this.y == Math.max.apply(null, this.series.yData) || this.y == Math.min.apply(null, this.series.yData)){
-            return Highcharts.numberFormat(this.y, 2, ",", " ");
-          }
-        }
-      },
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
+    "marker": {
+      "enabled": false,
+      "symbol": "circle"
     }
   },
   "customFunctions": {

@@ -238,18 +238,18 @@ var indikatorensetData = [
 		"darstellungsart": "Grafik"
 	},
 	{
-		"title": "Aufenthaltsdauer im Monatsmittel",
-		"subtitle": "in Tagen, Stand: 2017",
-		"kuerzel": "I.10.1.06544",
+		"title": "Aufenthaltsdauer in baselstädtischen Hotels im Monatsmittel",
+		"subtitle": "in Tagen, 2017",
+		"kuerzel": "I.10.1.6544",
 		"kuerzelKunde": "2-8",
-		"description": "Aufenthaltsdauer im Monatsmittel",
+		"description": "Aufenthaltsdauer in baselstädtischen Hotels im Monatsmittel",
 		"thema": "10 Tourismus",
 		"unterthema": "Hotellerie",
 		"kennzahlenset": "Tourismus",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
+		"aktualisierungsdatum": "2018-11-20T15:54:07.077",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -258,6 +258,8 @@ var indikatorensetData = [
 		"lesehilfe": "Bei den ausländischen Gästen wurde im August mit 1,81 Tagen die kürzeste Aufenthaltsdauer verzeichnet, bei den Schweizer Gästen im Dezember mit einer durchschnittlichen Aufenthaltsdauer von 1,47 Tagen.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "_008",
 		"parentId": null,
 		"children": [],
@@ -268,8 +270,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"id": 6544,
-		"darstellungsart": "Grafik"
+		"id": 6544
 	},
 	{
 		"title": "Logiernächte nach Monat und Herkunft",
