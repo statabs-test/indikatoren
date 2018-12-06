@@ -937,6 +937,7 @@ id | visible | visibleInPortal | indikatorenset
 7004 | true | false | Arbeitsmarkt (Print)
 7005 | true | false | Arbeitsmarkt (Print)
 7006 | true | false | Arbeitsmarkt (Print)
+7007 | true | false | Arbeitsmarkt (Print)
 7008 | true | false | Arbeitsmarkt (Print)
 7014 | true | false | Arbeitsmarkt (Print)
 7015 | true | false | Arbeitsmarkt (Print)
