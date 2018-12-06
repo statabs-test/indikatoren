@@ -902,6 +902,7 @@ var templatesById = {
 	"7019": "line001_print",
 	"7020": "line001_print",
 	"7021": "line001_print",
+	"7022": "line001_print",
 	"7026": "line001_print",
 	"7027": "line001_print",
 	"7028": "line001_print",
