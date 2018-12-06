@@ -33481,6 +33481,42 @@
 		"id": 7019
 	},
 	{
+		"title": "Zuwanderung von Erwerbstätigen nach Arbeitskanton",
+		"subtitle": "Kurz- und Daueraufenthalter",
+		"kuerzel": "I.03.5.07020",
+		"kuerzelKunde": "3.4-09",
+		"description": "Zuwanderung von Erwerbstätigen nach Arbeitskanton",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Monitoring Basler Arbeitsmarkt",
+		"stufe2": "Ausländische Erwerbstätige",
+		"stufe3": "Zuwanderung",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Zuwanderung von Erwerbstätigen liegt im Kanton Basel-Stadt im 4. Quartal 2017 bei 1 504 Personen. Im Gesamtjahr 2017 sind  7 188 ausländische Arbeitskräfte in den baselstädtischen Arbeitsmarkt zugewandert, was einem Anstieg um 1,4% gegenüber 2016 entspricht. Einen Rückgang der Zuwanderung verzeichneten 2017 die Kantone Aargau (-7,4%) und Zürich (-1,3%) sowie die Gesamtschweiz (-1,0%).",
+		"erlaeuterungen": "Die Ausländerstatistik liefert Informationen über die Zuwanderung in die erwerbstätige, ausländische Bevölkerung (erfasst im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst.",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "02_04_02_00_00_409",
+		"parentId": 2461,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7020
+	},
+	{
 		"title": "Beschäftigung in Industrie und Baugewerbe",
 		"subtitle": "Anzahl Vollzeitäquivalente, Basel-Stadt",
 		"kuerzel": "I.03.2.07026",
@@ -33623,6 +33659,42 @@
 			""
 		],
 		"id": 7037
+	},
+	{
+		"title": "Grenzgänger im Dienstleistungssektor (III)",
+		"subtitle": "Bestand Ende Quartal, Basel-Stadt",
+		"kuerzel": "I.03.5.07038",
+		"kuerzelKunde": "3.4-08",
+		"description": "Grenzgänger im Dienstleistungssektor (III)",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Monitoring Basler Arbeitsmarkt",
+		"stufe2": "Ausländische Erwerbstätige",
+		"stufe3": "Grenzgänger",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Deutlich mehr Grenzgänger als 2007 arbeiten in der Branche Gesundheits- und Sozialwesen. Der aktuelle Wert beträgt 3 562 Personen, 2,0% mehr als im Vorjahr. In den anderen Dienstleistungsbranchen verlief die Entwicklung in den vergangenen Jahren relativ konstant. In den Branchen Erziehung und Unterricht sowie Kultur, Unterhaltung und persönliche Dienstleistungen sind die Werte 2017 gegenüber dem Vorjahr etwas zurückgegangen.",
+		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten.",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "02_04_01_00_00_408",
+		"parentId": 6451,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7038
 	},
 	{
 		"title": "Beschäftigung nach Geschlecht",
