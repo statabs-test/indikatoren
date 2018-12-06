@@ -456,6 +456,41 @@ var indikatorensetData = [
 		"id": 7020
 	},
 	{
+		"title": "Zuwanderung von Erwerbstätigen nach Geschlecht",
+		"subtitle": "Kurz- und Daueraufenthalter, Basel-Stadt",
+		"kuerzel": "I.03.5.07021",
+		"kuerzelKunde": "3.4-10",
+		"description": "Zuwanderung von Erwerbstätigen nach Geschlecht",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2018-10-18T09:11:20.2020",
+		"stufe1": "Monitoring Basler Arbeitsmarkt",
+		"stufe2": "Ausländische Erwerbstätige",
+		"stufe3": "Zuwanderung",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im 4. Quartal 2017 sind es 929 zugewanderte erwerbstätige Männer und 575 Frauen. Der Anteil der Frauen an der Zuwanderung von Erwerbstätigen bewegt sich seit Jahren zwischen 35% und 40%. Die Zuwanderung von Männern erreichte im 1. Quartal 2017 mit 1 353 Personen einen Höchstwert in der betrachteten Periode.",
+		"erlaeuterungen": "Die Ausländerstatistik liefert Informationen über die Zuwanderung in die erwerbstätige, ausländische Bevölkerung (erfasst im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst.",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "02_04_02_00_00_410",
+		"parentId": 2462,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7021
+	},
+	{
 		"title": "Beschäftigung in Industrie und Baugewerbe",
 		"subtitle": "Anzahl Vollzeitäquivalente, Basel-Stadt",
 		"kuerzel": "I.03.2.07026",
