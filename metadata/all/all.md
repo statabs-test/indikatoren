@@ -950,6 +950,7 @@ id | visible | visibleInPortal | indikatorenset
 7022 | true | false | Arbeitsmarkt (Print)
 7023 | true | false | Arbeitsmarkt (Print)
 7024 | true | false | Arbeitsmarkt (Print)
+7025 | true | false | Arbeitsmarkt (Print)
 7026 | true | false | Arbeitsmarkt (Print)
 7027 | true | false | Arbeitsmarkt (Print)
 7028 | true | false | Arbeitsmarkt (Print)

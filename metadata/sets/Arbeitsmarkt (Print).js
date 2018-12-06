@@ -596,6 +596,41 @@ var indikatorensetData = [
 		"id": 7024
 	},
 	{
+		"title": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (I)",
+		"subtitle": "Kurz- und Daueraufenthalter, Basel-Stadt",
+		"kuerzel": "I.03.5.07025",
+		"kuerzelKunde": "3.4-14",
+		"description": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (I)",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Monitoring Basler Arbeitsmarkt",
+		"stufe2": "Ausländische Erwerbstätige",
+		"stufe3": "Zuwanderung",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Zuwanderung von Erwerbstätigen mit einer Beschäftigung in der Branche Handel und Reparatur im Kanton Basel-Stadt liegt bei rund 100 Personen pro Quartal. Im Gastgewerbe zeigt die Zuwanderung einen Rückgang auf ca. 60 Personen pro Quartal. Der Bereich Verkehr, Lagerei und Kommunikation liegt knapp darunter, mit rund 50 aus dem Ausland zugewanderten Personen pro Quartal.",
+		"erlaeuterungen": "Die Ausländerstatistik liefert Informationen über die Zuwanderung in die erwerbstätige, ausländische Bevölkerung (erfasst im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst.",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "02_04_02_00_00_414",
+		"parentId": 2466,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7025
+	},
+	{
 		"title": "Beschäftigung in Industrie und Baugewerbe",
 		"subtitle": "Anzahl Vollzeitäquivalente, Basel-Stadt",
 		"kuerzel": "I.03.2.07026",
