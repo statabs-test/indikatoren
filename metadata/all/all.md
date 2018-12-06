@@ -963,6 +963,7 @@ id | visible | visibleInPortal | indikatorenset
 7045 | true | false | Arbeitsmarkt (Print)
 7051 | true | false | Arbeitsmarkt (Print)
 7052 | true | false | Arbeitsmarkt (Print)
+7053 | true | false | Arbeitsmarkt (Print)
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
