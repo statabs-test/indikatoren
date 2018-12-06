@@ -6334,6 +6334,13 @@
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "79044eb0b4dc12c8aef2541209c52e49f7fab6f3"
 	},
+	"7024": {
+		"metadata": "e8ffda298e8cf2db38e77e24f3e0f397ccec5eb8",
+		"chartConfig": "73f26ac3ab70a6744fd89133bba554ad33a774b5",
+		"data": "418bfa63fd7436cbee7cad9e61416f2a84e7f70c",
+		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+		"template": "79044eb0b4dc12c8aef2541209c52e49f7fab6f3"
+	},
 	"7026": {
 		"metadata": "e6acba25d097e14cf0b5b7879290e3353bbb841b",
 		"chartConfig": "d13c8d1a64a22dbbcd66e1c91c7fc9e797bd8d04",
