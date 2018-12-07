@@ -841,6 +841,41 @@ var indikatorensetData = [
 		"id": 7031
 	},
 	{
+		"title": "Anteil der weiblichen Meldepflichtigen nach Erwerbsstatus",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.03.5.07032",
+		"kuerzelKunde": "3.4-20",
+		"description": "Anteil der weiblichen Meldepflichtigen nach Erwerbsstatus",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Monitoring Basler Arbeitsmarkt",
+		"stufe2": "Ausländische Erwerbstätige",
+		"stufe3": "Meldepflichtige",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Rund ein Drittel der Meldepflichtigen ist weiblich, bei den Arbeitnehmenden liegt der Frauenanteil im Mittel des Jahres 2017 bei 43,8%. Der Anteil weiblicher Entsandter liegt 2017 bei 8,7%, jener der Selbstständigerwerbenden bei 8,1%.",
+		"erlaeuterungen": "Meldepflichtige: Dienstleistungserbringung von ausländischen Unternehmen und Selbstständigen in der Schweiz während maximal 90 Arbeitstagen pro Jahr.",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "02_04_03_00_00_420",
+		"parentId": 3030,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7032
+	},
+	{
 		"title": "Grenzgänger im Dienstleistungssektor (II)",
 		"subtitle": "Bestand Ende Quartal, Basel-Stadt",
 		"kuerzel": "I.03.5.07037",
