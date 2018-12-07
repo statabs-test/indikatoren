@@ -33264,6 +33264,188 @@
 		"id": 7008
 	},
 	{
+		"title": "Nominales Bruttoinlandprodukt pro Kopf nach Kanton",
+		"subtitle": "In Franken",
+		"kuerzel": "I.04.2.07009",
+		"kuerzelKunde": "3.1-01",
+		"description": "Nominales Bruttoinlandprodukt pro Kopf nach Kanton",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Konjunktur",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Monitoring Basler Arbeitsmarkt",
+		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Basel-Stadt weist mit Abstand das höchste nominale BIP pro Kopf auf. Im Jahr 2016 beträgt es ca. 165 000 Franken. Dies sind 3,9% mehr als 2007 und 0,8% mehr als 2015. Der Schweizer Durchschnitt beträgt 2016 ca. 77 000 Franken.",
+		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "02_01_00_00_00_101",
+		"parentId": 2400,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7009
+	},
+	{
+		"title": "Wachstumsrate des realen BIP nach Kanton",
+		"subtitle": "Veränderungsrate gegenüber Vorjahr",
+		"kuerzel": "I.04.2.07010",
+		"kuerzelKunde": "3.1-02",
+		"description": "Wachstumsrate des realen BIP nach Kanton",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Konjunktur",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton",
+			"Schweiz"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Monitoring Basler Arbeitsmarkt",
+		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Das baselstädtische reale BIP ist 2016 gegenüber dem Vorjahr um 2,3% gewachsen und liegt damit vor den Vergleichskantonen. Der Schweizer Durchschnitt beträgt 1,3%.",
+		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "02_01_00_00_00_102",
+		"parentId": 2401,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7010
+	},
+	{
+		"title": "Anteil an der nominalen Wertschöpfung nach Branche",
+		"subtitle": "Stand: 2016",
+		"kuerzel": "I.04.2.07011",
+		"kuerzelKunde": "3.1-03",
+		"description": "Anteil an der nominalen Wertschöpfung nach Branche",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Konjunktur",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton",
+			"Schweiz"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Monitoring Basler Arbeitsmarkt",
+		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "In Basel-Stadt hat vor allem die Branche Chemie und Pharma einen grossen Anteil an der nominalen Wertschöpfung des Jahres 2016. Er beträgt 36,0%. Die Branche Beratung, Planung, Forschung und Immobilien folgt mit 12,8%, vor den Finanz- und Versicherungsdienstleistungen mit 10,3%. In Basel-Landschaft ist die Branche Handel und Reparatur mit 18,8% am grössten, im Aargau die Industrie (exkl. Chemie und Pharma) mit 24,1% und in Zürich die Finanz- und Versicherungsdienstleistungen mit 19,0%. Im Schweizer Durchschnitt liegt die Industrie mit 15,3% knapp vor der Branche Beratung, Planung, Forschung und Immobilien mit 15,2%. Die Branche Öffentliche Verwaltung und Sozialversicherungen enthält in dieser Abbildung auch die staatlichen Bildungsinstitutionen.",
+		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "02_01_00_00_00_103",
+		"parentId": 2402,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7011
+	},
+	{
+		"title": "Wertschöpfungsentwicklung in Industrie und Baugewerbe",
+		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2007 = 100)",
+		"kuerzel": "I.04.2.07012",
+		"kuerzelKunde": "3.1-04",
+		"description": "Wertschöpfungsentwicklung in Industrie und Baugewerbe",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Konjunktur",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Monitoring Basler Arbeitsmarkt",
+		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Seit dem Jahr 2007 ist die reale Wertschöpfung der Pharmazeutischen Industrie um 47,6% gewachsen. Gegenüber dem Vorjahr beträgt das Plus 4,3%. Die Industrie sowie das Baugewerbe kommen zwischen 2007 und 2016 auf Werte von 10,1% und 12,1% (gegenüber Vorjahr +2,7% und +1,0%).",
+		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "02_01_00_00_00_104",
+		"parentId": 2404,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7012
+	},
+	{
+		"title": "Wertschöpfungsentwicklung im Dienstleistungssektor (I)",
+		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2007 = 100)",
+		"kuerzel": "I.04.2.07013",
+		"kuerzelKunde": "3.1-05",
+		"description": "Wertschöpfungsentwicklung im Dienstleistungssektor (I)",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Konjunktur",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Monitoring Basler Arbeitsmarkt",
+		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Während die Branche Handel und Reparatur (+24,7%) sowie das Gastgewerbe (+11,5%) zwischen 2007 und 2016 ein Wachstum der realen Wertschöpfung verzeichneten, bildete sich der Wert für die Branchen Verkehr und Lagerei (-8,6%) sowie Information und Kommunikation (-14,1%) zurück. Gegenüber dem Vorjahr waren die Veränderungen relativ gering.",
+		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "02_01_00_00_00_105",
+		"parentId": 2405,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7013
+	},
+	{
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.03.4.07014",
@@ -34019,6 +34201,78 @@
 			""
 		],
 		"id": 7034
+	},
+	{
+		"title": "Wertschöpfungsentwicklung im Dienstleistungssektor (II)",
+		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2007 = 100)",
+		"kuerzel": "I.04.2.07035",
+		"kuerzelKunde": "3.1-06",
+		"description": "Wertschöpfungsentwicklung im Dienstleistungssektor (II)",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Konjunktur",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Monitoring Basler Arbeitsmarkt",
+		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Alle abgebildeten Dienstleistungsbranchen verzeichneten seit dem Jahr 2007 einen Anstieg der realen Wertschöpfung: Am stärksten wuchs sie mit 29,1% in der Branche Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen (gegenüber Vorjahr +1,9%). Der in ihr enthaltene Bereich Personalvermittlung und         -überlassung verzeichnete einen Wert von +16,8% (gegenüber Vorjahr +1,9%). Die Branche Beratung, Planung und Forschung wies ein Plus von 26,5% (gegenüber Vorjahr +3,3%) auf, die Finanz- und Versicherungsdienstleistungen eines von 6,2% (gegenüber Vorjahr +1,6%).",
+		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "02_01_00_00_00_106",
+		"parentId": 6448,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7035
+	},
+	{
+		"title": "Wertschöpfungsentwicklung im Dienstleistungssektor (III)",
+		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2007 = 100)",
+		"kuerzel": "I.04.2.07036",
+		"kuerzelKunde": "3.1-07",
+		"description": "Wertschöpfungsentwicklung im Dienstleistungssektor (III)",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Konjunktur",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Monitoring Basler Arbeitsmarkt",
+		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Branchen Gesundheits- und Sozialwesen (+26,5%) sowie Öffentliche Verwaltung und Sozialversicherungen (+14,5%) verzeichneten seit 2007 einen Zuwachs der realen Wertschöpfung (gegenüber Vorjahr +2,5% sowie +0,6%). Einen Rückgang hingegen gab es in den Branchen Erziehung und Unterricht (-9,7%) sowie Kultur und Unterhaltung (-8,3%) seit 2007 (gegenüber Vorjahr +2,8% sowie -4,3%). Die staatlichen Bildungsinstitutionen sind in dieser Abbildung in der Öffentlichen Verwaltung, und nicht in der Branche Erziehung und Unterricht enthalten.",
+		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "02_01_00_00_00_107",
+		"parentId": 6449,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7036
 	},
 	{
 		"title": "Grenzgänger im Dienstleistungssektor (II)",
