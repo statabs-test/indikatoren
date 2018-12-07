@@ -1,6 +1,33 @@
 {
   "series": [
     {
+      "color": "#6F6F6F",
+      "yAxis": 1,
+      "type": "line",
+      "marker": {
+        "enabled": false
+      },
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "2010",
+          0.823
+        ],
+        [
+          "2012",
+          0.843
+        ],
+        [
+          "2014",
+          0.867
+        ]
+      ],
+      "name": "Verhältnis Frauen\u002FMänner",
+      "turboThreshold": 0
+    },
+    {
       "color": "#DC440E",
       "yAxis": 0,
       "tooltip": {
@@ -67,33 +94,6 @@
         ]
       ],
       "name": "Total",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#6F6F6F",
-      "yAxis": 1,
-      "type": "line",
-      "marker": {
-        "enabled": false
-      },
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
-      "data": [
-        [
-          "2010",
-          0.823
-        ],
-        [
-          "2012",
-          0.843
-        ],
-        [
-          "2014",
-          0.867
-        ]
-      ],
-      "name": "Verhältnis Frauen\u002FMänner",
       "turboThreshold": 0
     }
   ],
@@ -256,7 +256,8 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "itemWidth": 300
+    "itemWidth": 170,
+    "width": 340
   },
   "dataLabels": {
     "enabled": false,
