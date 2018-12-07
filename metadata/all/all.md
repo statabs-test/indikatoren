@@ -975,6 +975,12 @@ id | visible | visibleInPortal | indikatorenset
 7054 | true | false | Arbeitsmarkt (Print)
 7055 | true | false | Arbeitsmarkt (Print)
 7056 | true | false | Arbeitsmarkt (Print)
+7057 | true | false | Arbeitsmarkt (Print)
+7058 | true | false | Arbeitsmarkt (Print)
+7059 | true | false | Arbeitsmarkt (Print)
+7060 | true | false | Arbeitsmarkt (Print)
+7061 | true | false | Arbeitsmarkt (Print)
+7062 | true | false | Arbeitsmarkt (Print)
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

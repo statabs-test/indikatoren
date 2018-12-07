@@ -1469,5 +1469,215 @@ var indikatorensetData = [
 			""
 		],
 		"id": 7056
+	},
+	{
+		"title": "Medianlohn nach Alter",
+		"subtitle": "Median in Franken, Nordwestschweiz",
+		"kuerzel": "I.03.3.07057",
+		"kuerzelKunde": "3.5-03",
+		"description": "Medianlohn nach Alter",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Löhne",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Monitoring Basler Arbeitsmarkt",
+		"stufe2": "Löhne",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Lohnverteilung nach Altersgruppe zeigt, dass jüngere Angestellte weniger verdienen als ältere Angestellte. Der Medianlohn in der Altersgruppe bis 29 Jahre liegt 2014 bei 4 970 Franken pro Monat, während der Lohn in der Altersgruppe zwischen 30 und 49 Jahren 6 820 Franken erreicht. Angestellte über 50 Jahre verdienen 7 460 Franken (Median).",
+		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "02_05_00_00_00_503",
+		"parentId": 6524,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7057
+	},
+	{
+		"title": "Medianlohn in der Privatwirtschaft nach Bewilligungsart",
+		"subtitle": "In Franken, Nordwestschweiz, Stand: 2014",
+		"kuerzel": "I.03.3.07058",
+		"kuerzelKunde": "3.5-04",
+		"description": "Medianlohn in der Privatwirtschaft nach Bewilligungsart",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Löhne",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Monitoring Basler Arbeitsmarkt",
+		"stufe2": "Löhne",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Ergebnisse der LSE nach Herkunft und Aufenthaltsbewilligung  liegen lediglich für die Privatwirtschaft vor, wo der Medianlohn bei 6 450 Franken liegt. Höhere Löhne verdienen die Grenzgänger (6 720 Franken) und die Schweizer (6 632 Franken), während die Niedergelassenen und die Aufenthalter knapp unter 6 000 Franken verdienen. Der Medianlohn der Kurzaufenthalter beträgt 5 350 Franken.",
+		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "02_05_00_00_00_504",
+		"parentId": 6525,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7058
+	},
+	{
+		"title": "Medianlohn in Industrie und Baugewerbe",
+		"subtitle": "Median in Franken, Nordwestschweiz",
+		"kuerzel": "I.03.3.07059",
+		"kuerzelKunde": "3.5-05",
+		"description": "Medianlohn in Industrie und Baugewerbe",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Löhne",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Monitoring Basler Arbeitsmarkt",
+		"stufe2": "Löhne",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "In der Industrie (inklusive Chemie und Pharma) liegt der Medianlohn 2014 bei 7 290 Franken. Am höchsten sind die Löhne in der Nordwestschweiz in der Pharmazeutischen Industrie (10 870 Franken). In der Bauwirtschaft liegt der Medianlohn bei 6 070 Franken.",
+		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "02_05_00_00_00_505",
+		"parentId": 6526,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7059
+	},
+	{
+		"title": "Medianlohn im Dienstleistungssektor (I)",
+		"subtitle": "Median in Franken, Nordwestschweiz",
+		"kuerzel": "I.03.3.07060",
+		"kuerzelKunde": "3.5-06",
+		"description": "Medianlohn im Dienstleistungssektor (I)",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Löhne",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Monitoring Basler Arbeitsmarkt",
+		"stufe2": "Löhne",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Medianlohn 2014 liegt bei 5 720 Franken in der Branche Handel und Reparatur und bei 6 210 Franken im Bereich Verkehr und Lagerei. Die tiefsten Löhne werden im Gastgewerbe bezahlt (4 330 Franken). In der Branche Information und Kommunikation verdient man hingegen knapp über 8 000 Franken monatlich.",
+		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "02_05_00_00_00_506",
+		"parentId": 6527,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7060
+	},
+	{
+		"title": "Medianlohn im Dienstleistungssektor (II)",
+		"subtitle": "Median in Franken, Nordwestschweiz",
+		"kuerzel": "I.03.3.07061",
+		"kuerzelKunde": "3.5-07",
+		"description": "Medianlohn im Dienstleistungssektor (II)",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Löhne",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Monitoring Basler Arbeitsmarkt",
+		"stufe2": "Löhne",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Medianlohn 2014 erreicht 8 460 Franken in den Finanz- und Versicherungsdienstleistungen und knapp 8 000 Franken im Bereich Beratung, Planung und Forschung. Tiefer sind die Löhne im Branchenaggregat Gebäudebetreuung, Sicherheit, sonstige wirtschaftliche Dienstleistungen (5 300 Franken) und in der Personalvermittlung und -überlassung (5 600 Franken).",
+		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "02_05_00_00_00_507",
+		"parentId": 6528,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7061
+	},
+	{
+		"title": "Medianlohn im Dienstleistungssektor (III)",
+		"subtitle": "Median in Franken, Nordwestschweiz",
+		"kuerzel": "I.03.3.07062",
+		"kuerzelKunde": "3.5-08",
+		"description": "Medianlohn im Dienstleistungssektor (III)",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Löhne",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Monitoring Basler Arbeitsmarkt",
+		"stufe2": "Löhne",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Knapp über 6 000 Franken verdient man in der Nordwestschweiz im Gesundheits- und Sozialwesen (6 260 Franken) sowie im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen (6 320 Franken). In der öffentlichen Verwaltung liegt der Medianlohn 2014 bei 7 370 Franken, während der Lohn im Bereich Erziehung und Unterricht von über 8 000 auf unter 7 000 Franken gesunken ist. Der Wert für diese Branche im Jahr 2014 ist allerdings statistisch unsicher.",
+		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "02_05_00_00_00_508",
+		"parentId": 6529,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7062
 	}
 ];
