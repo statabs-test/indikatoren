@@ -33805,6 +33805,42 @@ var indikatoren = [
 		"id": 7028
 	},
 	{
+		"title": "Meldepflichtige nach Einsatzkanton",
+		"subtitle": "Anzahl Personen",
+		"kuerzel": "I.03.5.07030",
+		"kuerzelKunde": "3.4-18",
+		"description": "Meldepflichtige nach Einsatzkanton",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Monitoring Basler Arbeitsmarkt",
+		"stufe2": "Ausländische Erwerbstätige",
+		"stufe3": "Meldepflichtige",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Bei der Anzahl meldepflichtiger Personen liegen die aktuellen Werte gesamtschweizerisch sowie in den Kantonen Basel-Landschaft, Aargau und Zürich über den Vorjahreswerten. Im Kanton Basel-Stadt liegt der aktuelle Wert mit 18 860 meldepflichtigen Personen unter dem Vorjahreswert (-2,8%; -548 Meldepflichtige). In der Grafik sind die Quartalswerte abgebildet.",
+		"erlaeuterungen": "Meldepflichtige: Dienstleistungserbringung von ausländischen Unternehmen und Selbstständigen in der Schweiz während maximal 90 Arbeitstagen pro Jahr.",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "02_04_03_00_00_418",
+		"parentId": 3028,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7030
+	},
+	{
 		"title": "Grenzgänger im Dienstleistungssektor (II)",
 		"subtitle": "Bestand Ende Quartal, Basel-Stadt",
 		"kuerzel": "I.03.5.07037",
