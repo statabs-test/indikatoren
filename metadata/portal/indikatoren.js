@@ -22660,7 +22660,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "",
-		"template": "line001",
+		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -22674,7 +22674,7 @@ var indikatoren = [
 			""
 		],
 		"data-id": 6956,
-		"chart-id": 6956,
+		"chart-id": 6988,
 		"filter": "99",
 		"id": 6988
 	},

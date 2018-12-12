@@ -1,7 +1,56 @@
 {
   "series": [
     {
+      "color": "lightgray",
+      "visible": false,
+      "tooltip": {
+        "pointFormatter": function (){
+              //var pcnt = (this.y / this.series.data.map(p => p.y).reduce((a, b) => a + b, 0)) * 100;
+              var anteilInWv = (this.y / this.series.data
+                .map(function(p){return p.y;})
+                .reduce(function(accumulator, currentValue){return accumulator + currentValue;})) * 100;
+              return '<span style="color:' + this.color + '">●</span> ' + this.Wohnviertel + ': <b>' + Highcharts.numberFormat(this.y, 0)  + '</b> '
+                + '(' + Highcharts.numberFormat(anteilInWv, 1) + '%) <br/>';
+            }
+      },
+      "data": [
+        {
+          "name": "1 Zimmer",
+          "Wohnviertel": "Kanton Basel-Stadt",
+          "y": 11135
+        },
+        {
+          "name": "2 Zimmer",
+          "Wohnviertel": "Kanton Basel-Stadt",
+          "y": 25557
+        },
+        {
+          "name": "3 Zimmer",
+          "Wohnviertel": "Kanton Basel-Stadt",
+          "y": 40753
+        },
+        {
+          "name": "4 Zimmer",
+          "Wohnviertel": "Kanton Basel-Stadt",
+          "y": 19182
+        },
+        {
+          "name": "5 Zimmer",
+          "Wohnviertel": "Kanton Basel-Stadt",
+          "y": 6981
+        },
+        {
+          "name": "6 u.m. Zimmer",
+          "Wohnviertel": "Kanton Basel-Stadt",
+          "y": 5882
+        }
+      ],
+      "name": "Kanton Basel-Stadt\u003Cbr\u002F\u003E(untere Skala)",
+      "turboThreshold": 0
+    },
+    {
       "color": "rgb(37, 99, 112)",
+      "yAxis": 1,
       "data": [
         {
           "name": "1 Zimmer",
@@ -34,7 +83,7 @@
           "y": 509
         }
       ],
-      "name": "Wohnungen",
+      "name": "St. Alban",
       "turboThreshold": 0
     }
   ],
@@ -121,24 +170,27 @@
     "text": "St. Alban",
     "align": "left"
   },
-  "yAxis": {
-    "gridLineColor": "#B9CFD7",
-    "gridLineWidth": 0.5,
-    "lineColor": "#B9CFD7",
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
+  "yAxis": [
+    {
+      "labels": {
+        "format": "{value:,.f}"
       },
-      "text": null
-    },
-    "labels": {
       "style": {
         "color": "#000000"
       },
-      "format": "{value::,.f}"
+      "title": ""
+    },
+    {
+      "opposite": true,
+      "labels": {
+        "format": "{value:,.f}"
+      },
+      "style": {
+        "color": "#000000"
+      },
+      "title": ""
     }
-  },
+  ],
   "navigation": {
     "menuItemStyle": {
       "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
@@ -165,10 +217,25 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "enabled": false
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "reversed": true
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {point.Wohnviertel}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormatter": function (){
+          //var pcnt = (this.y / this.series.data.map(p => p.y).reduce((a, b) => a + b, 0)) * 100;
+          var anteilInWv = (this.y / this.series.data
+            .map(function(p){return p.y;})
+            .reduce(function(accumulator, currentValue){return accumulator + currentValue;})) * 100;
+          var anzahlInKanton = this.series.chart.series[0].yData[this.category];
+          var anteilInKanton = this.y / anzahlInKanton;
+          return '<span style="color:' + this.color + '">●</span> ' + this.Wohnviertel + ': <b>' + Highcharts.numberFormat(this.y, 0)  + '</b> <br/>'
+            + '<b>' + Highcharts.numberFormat(anteilInWv, 1) + '%</b> aller Wohnungen dieses Wohnviertels,<br/>'
+            + '<b>' + Highcharts.numberFormat(100*anteilInKanton, 1) + '%</b> von ' + Highcharts.numberFormat(anzahlInKanton, 0) + ' Wohnungen dieser Kategorie im Kanton'
+            ; 
+        }
   },
   "customFunctions": {
     "filter": "5",

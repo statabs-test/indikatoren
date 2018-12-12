@@ -4416,7 +4416,7 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "",
-		"template": "line001",
+		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "04_03_03_00_00_022",
@@ -4429,7 +4429,7 @@ var indikatorensetData = [
 			""
 		],
 		"data-id": 6956,
-		"chart-id": 6956,
+		"chart-id": 6988,
 		"filter": "99",
 		"id": 6988
 	},
