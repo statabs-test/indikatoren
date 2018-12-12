@@ -1,10 +1,9 @@
 (function(){
     return {
  "xAxis": {
-  "tickPositions": [2005,2008,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021],
-  ordinal: false,
-   "labels": {
-      rotation: -45
+    "type": "category",
+    "labels": {
+      rotation: 0
    }
    
   },

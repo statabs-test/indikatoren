@@ -4,187 +4,208 @@
       "color": "#FFBB58",
       "data": [
         [
-          2007,
+          "2007",
           100
         ],
         [
-          2008,
+          "2008",
           94.4
         ],
         [
-          2009,
+          "2009",
           89.8
         ],
         [
-          2010,
+          "2010",
           90.7
         ],
         [
-          2011,
+          "2011",
           93.5
         ],
         [
-          2012,
+          "2012",
           96.8
         ],
         [
-          2013,
+          "2013",
           103
         ],
         [
-          2014,
+          "2014",
           102.7
         ],
         [
-          2015,
+          "2015",
           104.5
         ],
         [
-          2016,
+          "2016",
           106.2
         ]
       ],
-      "name": "Finanz-, Versicherungs-DL"
+      "name": "Finanz-, Versicherungs-DL",
+      "turboThreshold": 0
     },
     {
       "color": "#FF8028",
       "data": [
         [
-          2007,
+          "2007",
           100
         ],
         [
-          2008,
+          "2008",
           93.1
         ],
         [
-          2009,
+          "2009",
           99.7
         ],
         [
-          2010,
+          "2010",
           99.7
         ],
         [
-          2011,
+          "2011",
           99.6
         ],
         [
-          2012,
+          "2012",
           108.4
         ],
         [
-          2013,
+          "2013",
           116.8
         ],
         [
-          2014,
+          "2014",
           120.7
         ],
         [
-          2015,
+          "2015",
           122.5
         ],
         [
-          2016,
+          "2016",
           126.5
         ]
       ],
-      "name": "Beratung, Planung, Forschung"
+      "name": "Beratung, Planung, Forschung",
+      "turboThreshold": 0
     },
     {
       "color": "#DC440E",
       "data": [
         [
-          2007,
+          "2007",
           100
         ],
         [
-          2008,
+          "2008",
           94.5
         ],
         [
-          2009,
+          "2009",
           93.7
         ],
         [
-          2010,
+          "2010",
           100
         ],
         [
-          2011,
+          "2011",
           104.8
         ],
         [
-          2012,
+          "2012",
           113.9
         ],
         [
-          2013,
+          "2013",
           119.8
         ],
         [
-          2014,
+          "2014",
           124
         ],
         [
-          2015,
+          "2015",
           126.7
         ],
         [
-          2016,
+          "2016",
           129.1
         ]
       ],
-      "name": "Gebäudebet., Sicherh., sonst. wirtsch. DL (inkl. Pers.verm., -überl.)"
+      "name": "Gebäudebet., Sicherh., sonst. wirtsch. DL (inkl. Pers.verm., -überl.)",
+      "turboThreshold": 0
     },
     {
       "color": "#B00000",
       "data": [
         [
-          2007,
+          "2007",
           100
         ],
         [
-          2008,
+          "2008",
           90.5
         ],
         [
-          2009,
+          "2009",
           87.6
         ],
         [
-          2010,
+          "2010",
           90.1
         ],
         [
-          2011,
+          "2011",
           92.1
         ],
         [
-          2012,
+          "2012",
           101.3
         ],
         [
-          2013,
+          "2013",
           107.1
         ],
         [
-          2014,
+          "2014",
           111.4
         ],
         [
-          2015,
+          "2015",
           114.6
         ],
         [
-          2016,
+          "2016",
           116.8
         ]
       ],
-      "name": "Personalvermittlung, -überlassung"
+      "name": "Personalvermittlung, -überlassung",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
+      },
+      "rotation": 0
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
   "chart": {
     "events": {
       "load": function () {
@@ -267,21 +288,6 @@
     "max": 160,
     "tickAmount": 11
   },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "labels": {
-      "style": {
-        "fontSize": "10px",
-        "color": "#000000",
-        "textOverflow": null,
-        "whiteSpace": "nowrap"
-      },
-      "rotation": 0
-    },
-    "tickLength": 0,
-    "tickInterval": 1
-  },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
@@ -309,7 +315,9 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 0
+    "padding": 0,
+    "x": -1,
+    "width": 340
   },
   "plotOptions": {
     "series": {

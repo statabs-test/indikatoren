@@ -1,10 +1,11 @@
 (function(){
     return {
- "xAxis": {
-   "labels": {
-   rotation: 0,
-   },
+ "xAxis": { 
     "tickInterval": 1,
+     "type": "category",
+     "labels": {
+       rotation: 0
+    },
   },
   "yAxis": {
     tickAmount: 11,

@@ -23,20 +23,15 @@
    "tickInterval": 1,
           "labels": {
           	step: 1,
-            //"rotation": 0,
-            //"rotation": -90,
         }  
   },
  "legend": { 
- 	x: -1,
-     //y: 45,
     "enabled": true,
     "layout": "vertical",
-    //"itemWidth": 1000,
     "verticalAlign": "top",
     "align": "right",
-    itemMarginTop: 1,
-    itemMarginBottom: 1,
+    itemMarginTop: 0.3,
+    itemMarginBottom: 0.3,
     "itemStyle": {
     "fontWeight": "normal"
     }
@@ -67,8 +62,8 @@
     },
   },  
   "chart": {
-  	//height: 600,
   	width: 665, 
+  	spacingTop: 7,
   	type: "column",
     "inverted": false,
   }

@@ -4,187 +4,208 @@
       "color": "#D7E8D2",
       "data": [
         [
-          2007,
+          "2007",
           100
         ],
         [
-          2008,
+          "2008",
           102.1
         ],
         [
-          2009,
+          "2009",
           106.3
         ],
         [
-          2010,
+          "2010",
           110.7
         ],
         [
-          2011,
+          "2011",
           110.3
         ],
         [
-          2012,
+          "2012",
           112.2
         ],
         [
-          2013,
+          "2013",
           113.5
         ],
         [
-          2014,
+          "2014",
           119.2
         ],
         [
-          2015,
+          "2015",
           123.6
         ],
         [
-          2016,
+          "2016",
           124.6
         ]
       ],
-      "name": "Handel, Reparatur"
+      "name": "Handel, Reparatur",
+      "turboThreshold": 0
     },
     {
       "color": "#73B97C",
       "data": [
         [
-          2007,
+          "2007",
           100
         ],
         [
-          2008,
+          "2008",
           102.8
         ],
         [
-          2009,
+          "2009",
           96
         ],
         [
-          2010,
+          "2010",
           96.7
         ],
         [
-          2011,
+          "2011",
           94
         ],
         [
-          2012,
+          "2012",
           95.4
         ],
         [
-          2013,
+          "2013",
           90.1
         ],
         [
-          2014,
+          "2014",
           90.7
         ],
         [
-          2015,
+          "2015",
           90.6
         ],
         [
-          2016,
+          "2016",
           91.4
         ]
       ],
-      "name": "Verkehr, Lagerei"
+      "name": "Verkehr, Lagerei",
+      "turboThreshold": 0
     },
     {
       "color": "#007A2F",
       "data": [
         [
-          2007,
+          "2007",
           100
         ],
         [
-          2008,
+          "2008",
           103.9
         ],
         [
-          2009,
+          "2009",
           100.3
         ],
         [
-          2010,
+          "2010",
           102.6
         ],
         [
-          2011,
+          "2011",
           103.5
         ],
         [
-          2012,
+          "2012",
           102.2
         ],
         [
-          2013,
+          "2013",
           112.3
         ],
         [
-          2014,
+          "2014",
           113.1
         ],
         [
-          2015,
+          "2015",
           112.1
         ],
         [
-          2016,
+          "2016",
           111.5
         ]
       ],
-      "name": "Gastgewerbe"
+      "name": "Gastgewerbe",
+      "turboThreshold": 0
     },
     {
       "color": "#0A3B19",
       "data": [
         [
-          2007,
+          "2007",
           100
         ],
         [
-          2008,
+          "2008",
           103.9
         ],
         [
-          2009,
+          "2009",
           98.3
         ],
         [
-          2010,
+          "2010",
           93.6
         ],
         [
-          2011,
+          "2011",
           83.6
         ],
         [
-          2012,
+          "2012",
           89
         ],
         [
-          2013,
+          "2013",
           88.8
         ],
         [
-          2014,
+          "2014",
           84.5
         ],
         [
-          2015,
+          "2015",
           84.5
         ],
         [
-          2016,
+          "2016",
           85.9
         ]
       ],
-      "name": "Information, Kommunikation"
+      "name": "Information, Kommunikation",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
+      },
+      "rotation": 0
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
   "chart": {
     "events": {
       "load": function () {
@@ -266,21 +287,6 @@
     },
     "max": 160,
     "tickAmount": 11
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "labels": {
-      "style": {
-        "fontSize": "10px",
-        "color": "#000000",
-        "textOverflow": null,
-        "whiteSpace": "nowrap"
-      },
-      "rotation": 0
-    },
-    "tickLength": 0,
-    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",

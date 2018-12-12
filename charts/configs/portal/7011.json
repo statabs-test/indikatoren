@@ -504,6 +504,7 @@
                     
                 }
     },
+    "spacingTop": 7,
     "type": "column",
     "inverted": false,
     "renderTo": "container-7011",
@@ -593,17 +594,16 @@
   "legend": {
     "padding": 0,
     "symbolRadius": 0,
-    "itemMarginBottom": 1,
+    "itemMarginBottom": 0.3,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "x": -1,
     "enabled": true,
     "layout": "vertical",
     "verticalAlign": "top",
     "align": "right",
-    "itemMarginTop": 1
+    "itemMarginTop": 0.3
   },
   "dataLabels": {
     "enabled": false,

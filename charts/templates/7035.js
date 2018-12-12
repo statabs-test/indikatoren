@@ -1,10 +1,11 @@
 (function(){
     return {
  "xAxis": {
-   "labels": {
-     rotation: 0,
-   },
-    "tickInterval": 1,
+  "tickInterval": 1,
+     "type": "category",
+     "labels": {
+       rotation: 0
+     },
   },
   "yAxis": {
     min: 60,
@@ -25,10 +26,12 @@
   {"color": "#B00000"}, 
 	  ],
   "legend": {
+    x: -1,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
+    width: 340,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"

@@ -26,7 +26,7 @@
   "legend": { 
     "enabled": true,
     "layout": "horizontal",
-    itemDistance: 5, 
+    itemDistance: 20,
     "verticalAlign": "top",
     "align": "left",
     "itemStyle": {
