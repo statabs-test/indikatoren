@@ -776,8 +776,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Strassenverkehrsunfälle und verunfallte Personen",
-		"subtitle": "",
-		"kuerzel": "I.11.7.05186",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.11.7.5186",
 		"kuerzelKunde": "GW10",
 		"description": "Strassenverkehrsunfälle und verunfallte Personen",
 		"thema": "11 Verkehr",
@@ -786,15 +786,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2018-11-29T10:21:05.055",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Sicherheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Unfälle lag 2016 bei insgesamt 1 140. Diese setzt sich zusammen aus 871 durch die Polizei rapportierte Unfälle und 269 beanzeigte Parkschäden. Insgesamt gab es 490 verunfallte Personen: 389 Leichtverletzte, 97 Schwerverletzte und 4 Getötete.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Auf den baselstädtischen Strassen wurden 2017 bei 835 durch die Polizei rapportierten Unfällen 446 Personen verletzt, eine davon tödlich. Dies ist die tiefste Zahl von Verkehrstoten im Kanton Basel-Stadt seit Beginn der statistischen Erhebung von Verkehrsunfällen.",
+		"erlaeuterungen": "Seit 2017 sind bei der Anzahl Unfälle beanzeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) nicht mehr enthalten.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "03_04_00_00_00_310",
 		"parentId": null,
 		"children": [],
@@ -802,11 +804,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5186,
-		"darstellungsart": "Grafik"
+		"data-id": 5186,
+		"chart-id": 5186,
+		"filter": "",
+		"id": 5186
 	},
 	{
 		"title": "Anzahl Gewaltstraftaten pro 100 000 Einwohner",
@@ -1075,14 +1080,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-23T16:07:41.4141",
+		"aktualisierungsdatum": "2018-12-04T17:09:22.2222",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Mietpreisindex zeigt insgesamt eine steigende Entwicklung von berechneten 80,4 Punkten im Jahr 1995 auf den aktuellen Wert von 102,8 im November 2017.",
-		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1-6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden.",
+		"lesehilfe": "Der Mietpreisindex zeigt insgesamt eine steigende Entwicklung von 80,4 Punkten im Jahr 1995 auf den aktuellen Wert von 104,0 im November 2018.",
+		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1 bis 6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden. Es wird der Wert im November des jeweiligen Jahres ausgewiesen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
