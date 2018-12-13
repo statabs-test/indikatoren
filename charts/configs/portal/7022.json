@@ -1061,7 +1061,7 @@
         "enabled": false
       },
       "stacking": "normal",
-      "groupPadding": 0,
+      "pointWidth": 5,
       "borderWidth": 0
     }
   },

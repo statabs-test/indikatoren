@@ -432,7 +432,8 @@
       "fontWeight": "normal"
     },
     "padding": 0,
-    "itemWidth": 300
+    "width": 380,
+    "itemWidth": 190
   },
   "plotOptions": {
     "series": {

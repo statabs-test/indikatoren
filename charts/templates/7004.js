@@ -4,9 +4,11 @@
         series: {
         	"stacking": "normal",
              groupPadding: 0,
+             pointWidth: 5,
         }
   },
   "yAxis": {
+    tickInterval: 5000,
     "labels": {
       "format": "{value:,.0f}",
     }

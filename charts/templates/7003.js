@@ -32,7 +32,7 @@
     "itemStyle": {
     fontSize: "8px",
     },
-    symbolHeight: 7,
+    symbolHeight: 6,
     symbolPadding: 0,
     itemDistance: 0
     

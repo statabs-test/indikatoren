@@ -2579,7 +2579,7 @@
     },
     "padding": 0,
     "width": 300,
-    "itemDistance": 3
+    "itemDistance": 20
   },
   "plotOptions": {
     "series": {

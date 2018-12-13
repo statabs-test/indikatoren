@@ -3,7 +3,7 @@
   plotOptions: {
         series: {
         	"stacking": "normal",
-             groupPadding: 0,
+        	    pointWidth: 5,
              borderWidth: 0,
         }
   },
@@ -29,11 +29,15 @@
   },
  "legend": { 
      //y: 55,
+     //x: -1,
     "enabled": true,
     "layout": "horizontal",
-    //"itemWidth": 210,
     "verticalAlign": "top",
     "align": "left",
+     //width: 350,
+     //itemWidth: 175,
+     //itemDistance: 0,
+     //symbolPadding: 0,
     "itemStyle": {
     "fontWeight": "normal"
     }

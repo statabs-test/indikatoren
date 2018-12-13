@@ -2053,7 +2053,8 @@
         return Highcharts.numberFormat((this.value*100),0)+'%'; 
       }
     },
-    "tickAmount": 9
+    "tickAmount": 10,
+    "tickInterval": 0.01
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
