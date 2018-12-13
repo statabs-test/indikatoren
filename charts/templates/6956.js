@@ -53,15 +53,11 @@ global Highcharts
           var anteilInWv = (this.y / this.series.data
             .map(function(p){return p.y;})
             .reduce(function(accumulator, currentValue){return accumulator + currentValue;})) * 100;
-          var anzahlInKanton = this.series.chart.series[0].yData[this.category];
-          var anteilInKanton = this.y / anzahlInKanton;
-          return '<span style="color:' + this.color + '">●</span> ' + this.Wohnviertel + ': <b>' + Highcharts.numberFormat(this.y, 0)  + '</b> <br/>'
-            + '<b>' + Highcharts.numberFormat(anteilInWv, 1) + '%</b> aller Wohnungen dieses Wohnviertels,<br/>'
-            + '<b>' + Highcharts.numberFormat(100*anteilInKanton, 1) + '%</b> von ' + Highcharts.numberFormat(anzahlInKanton, 0) + ' Wohnungen dieser Kategorie im Kanton'
-            ; 
+          return '<span style="color:' + this.color + '">●</span> ' + this.Wohnviertel + ': <b>' + Highcharts.numberFormat(this.y, 0)  + '</b> '
+            + '(' + Highcharts.numberFormat(anteilInWv, 1) + '%) <br/>';
         },
       },
-  yAxis: [
+    yAxis: [
     {
       labels: {
         format: "{value:,.f}"
@@ -95,17 +91,6 @@ global Highcharts
       series: [
         {
           color: "lightgray",
-          visible: false,
-          tooltip: {
-            pointFormatter: function(){
-              //var pcnt = (this.y / this.series.data.map(p => p.y).reduce((a, b) => a + b, 0)) * 100;
-              var anteilInWv = (this.y / this.series.data
-                .map(function(p){return p.y;})
-                .reduce(function(accumulator, currentValue){return accumulator + currentValue;})) * 100;
-              return '<span style="color:' + this.color + '">●</span> ' + this.Wohnviertel + ': <b>' + Highcharts.numberFormat(this.y, 0)  + '</b> '
-                + '(' + Highcharts.numberFormat(anteilInWv, 1) + '%) <br/>';
-            },
-          },
         },
         {
           color: "rgb(37, 99, 112)",
