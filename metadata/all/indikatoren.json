@@ -34599,6 +34599,187 @@
 		"id": 7045
 	},
 	{
+		"title": "Arbeitslosenquote nach Branche",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.03.4.07046",
+		"kuerzelKunde": "2.2-01",
+		"description": "Arbeitslosenquote nach Branche",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Arbeitslose",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Übersicht Basler Arbeitsmarkt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die mittlere Arbeitslosenquote ist 2017 mit 11,1% im Baugewerbe am höchsten. Im Vergleich zum Vorjahr (12,7%) ist sie etwas gesunken. Ebenfalls hohe Arbeitslosenquoten finden sich 2017 im Gastgewerbe mit 8,1%, in der Dienstleistungssammelkategorie Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen, in der z. B. auch das Reinigungsgewerbe sowie der Gartenbau enthalten sind, mit 6,5% sowie in der Industrie (exkl. Chemie und Pharma) mit 5,5%. Am tiefsten sind die Arbeitslosenquoten in den Branchen Erziehung und Unterricht (2,1%), Chemie und Pharma (2,2%) sowie Öffentliche Verwaltung und Sozialversicherungen (2,7%). Die mittlere Arbeitslosigkeit in Basel-Stadt beträgt 2017 3,8%.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich mit der Anzahl Arbeitslosen geteilt durch die Erwerbspersonen.",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "01_00_00_00_00_201",
+		"parentId": 6460,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7046
+	},
+	{
+		"title": "Grenzgänger pro Beschäftigen nach Branche",
+		"subtitle": "Basel-Stadt, pro besetzter Stelle",
+		"kuerzel": "I.03.5.07047",
+		"kuerzelKunde": "2.3-01",
+		"description": "Grenzgänger pro Beschäftigen nach Branche",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Übersicht Basler Arbeitsmarkt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Abbildung zeigt die Zahl der Grenzgänger im Vergleich zu den auf dem baselstädtischen Arbeitsmarkt besetzten Stellen. Beispielsweise kommen in der Branche Chemie und Pharma 2017 rund 35 Grenzgänger auf 100 Stellen (Beschäftigungsstand: 2015) in diesem Bereich. Die Grenzgänger spielen auch in der Personalvermittlung und -überlassung (31%), der Industrie (ohne Chemie und Pharma, 28%), im Bereich der Gebäudebetreuung, Sicherheit und sonstigen wirtschaftlichen Dienstleistungen (28%), der Information und Kommunikation (28%), der Beratung, Planung, Forschung und im Immobilienwesen (27%), dem Baugewerbe (22%) sowie dem Handel (21%) eine wichtige Rolle. Eine eher geringe Bedeutung haben die Grenzgänger in den Bereichen Erziehung und Unterricht (5%), Kultur, Unterhaltung und persönliche Dienstleistungen (7%), Finanz- und Versicherungsdienstleistungen (8%) sowie in der Branche Öffentliche Verwaltung und Sozialversicherungen (9%).",
+		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Beschäftigte (besetzte Stelle): Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "01_00_00_00_00_301",
+		"parentId": 6461,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
+			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7047
+	},
+	{
+		"title": "Zuwanderung pro Beschäftigten nach Branche",
+		"subtitle": "Basel-Stadt, pro besetzter Stelle",
+		"kuerzel": "I.03.5.07048",
+		"kuerzelKunde": "2.3-02",
+		"description": "Zuwanderung pro Beschäftigten nach Branche",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Übersicht Basler Arbeitsmarkt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Abbildung zeigt die jährlich zugewanderten Erwerbstätigen mit Arbeitsort Basel-Stadt im Vergleich zur bestehenden Beschäftigung im Kanton (Beschäftigungsstand: 2015). Dabei sind Dauer- und Kurzaufenthalter berücksichtigt. In der Branche Chemie und Pharma wanderten 2017 etwas über 7 erwerbstätige ausländische Personen auf 100 existierende Stellen in Basel-Stadt ein (Quote von 7%). Noch etwas höher ist die Quote mit 8% in der Sammelbranche Beratung, Planung, Forschung, Immobilien, IT und andere Dienstleistungen. Am geringsten ist die Zuwanderung im Vergleich zur bestehenden Beschäftigung in der Finanz- und Versicherungsbranche sowie in der Öffentlichen Verwaltung und Sozialversicherungen mit jeweils unter 1%.",
+		"erlaeuterungen": "Zugewanderte Erwerbstätige: Arbeitnehmende und Selbstständige mit Aufenthaltsbewilligung in der Schweiz (ständige und nichtständige Wohnbevölkerung), die in Basel-Stadt erwerbstätig sind. Beschäftigte (besetzte Stelle): Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "01_00_00_00_00_302",
+		"parentId": 6462,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7048
+	},
+	{
+		"title": "Meldepflichtige pro Beschäftigten nach Branche",
+		"subtitle": "Basel-Stadt, pro Beschäftigten in Vollzeitäquivalenten",
+		"kuerzel": "I.03.5.07049",
+		"kuerzelKunde": "2.3-03",
+		"description": "Meldepflichtige pro Beschäftigten nach Branche",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Übersicht Basler Arbeitsmarkt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Abbildung zeigt die Zahl der Meldepflichtigen (maximal 90 Tage pro Jahr erwerbstätig) in Vollzeitäquivalente umgerechnet im Vergleich zu den auf dem baselstädtischen Arbeitsmarkt tätigen Beschäftigten, ebenfalls in Vollzeitäquivalenten. Bedeutend sind die Meldepflichtigen 2017 demnach vor allem in der Baubranche mit rund 6,7% im Vergleich zur sonstigen Beschäftigung in dieser Branche (Beschäftigungsstand: 2015). Ebenfalls bedeutend sind die Meldepflichtigen in der Personalvermittlung und -überlassung mit 6,2% im Jahr 2017. Es folgen Kultur, Unterhaltung und persönliche Dienstleistungen mit 3,4% sowie die IT-Dienstleistungen mit 2,5%. In den restlichen Branchen spielen die Meldepflichtigen eher eine untergeordnete Rolle.",
+		"erlaeuterungen": "Meldepflichtige: Dienstleistungserbringung von ausländischen Arbeitnehmern und Selbstständigen in der Schweiz während maximal 90 Arbeitstagen pro Jahr. Beschäftigte (Vollzeitäquivalente): Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen.",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "01_00_00_00_00_303",
+		"parentId": 6463,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7049
+	},
+	{
+		"title": "Löhne nach Branche",
+		"subtitle": "Nordwestschweiz, Median in Franken",
+		"kuerzel": "I.03.3.07050",
+		"kuerzelKunde": "2.4-01",
+		"description": "Löhne nach Branche",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Löhne",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Übersicht Basler Arbeitsmarkt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die höchsten Medianlöhne auf dem Arbeitsmarkt der Nordwestschweiz werden mit einem Bruttolohn von rund 10 900 Franken in der Pharmazeutischen Industrie gezahlt. Auch bei den Finanz- und Versicherungsdienstleistungen (8 500 Franken), dem Bereich Information und Kommunikation (8 200 Franken), Beratung, Planung, Forschung (8 000) und der Branche Öffentliche Verwaltung und Sozialversicherungen (7 400) werden überdurchschnittliche Löhne bezahlt. Die tiefsten Löhne werden im Mittel im Gastgewerbe mit 4 300 Franken bezahlt. Sie liegen damit bei etwa zwei Dritteln des Medianlohnes über alle Branchen der Nordwestschweiz von 6 600 Franken.",
+		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "01_00_00_00_00_401",
+		"parentId": 6464,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7050
+	},
+	{
 		"title": "Arbeitslose im Dienstleistungssektor (II)",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.03.4.07051",
