@@ -214,9 +214,9 @@
     },
     "labels": {
       "style": {
-        "fontSize": "10px",
+        "fontSize": "9px",
         "color": "#000000",
-        "width": "115px",
+        "width": "100px",
         "wordWrap": "break-word"
       },
       "rotation": -90,
@@ -232,7 +232,7 @@
   "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "width": 665,
+    "width": 662,
     "height": 221,
     "spacing": [
       2,
@@ -266,7 +266,7 @@
     },
     "type": "column",
     "inverted": false,
-    "marginBottom": 120,
+    "hight": 208,
     "spacingTop": 5,
     "renderTo": "container-7045",
     "spacingBottom": 12
@@ -319,7 +319,7 @@
     "labels": {
       "y": 3,
       "style": {
-        "fontSize": "10px",
+        "fontSize": "9px",
         "color": "#000000"
       },
       "format": "{value:,.0f}"
@@ -353,13 +353,14 @@
     "symbolRadius": 0,
     "itemMarginBottom": 2,
     "itemStyle": {
-      "fontSize": "10px",
+      "fontSize": "9px",
       "fontWeight": "normal"
     },
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left"
+    "align": "left",
+    "itemDistance": 3
   },
   "dataLabels": {
     "enabled": false,
