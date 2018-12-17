@@ -33236,6 +33236,151 @@ var indikatoren = [
 		"id": 7442
 	},
 	{
+		"title": "Beschäftigung im Detailhandel",
+		"subtitle": "in Basel-Stadt",
+		"kuerzel": "I.03.2.07443",
+		"kuerzelKunde": "4.2-01",
+		"description": "Beschäftigung im Detailhandel",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Beschäftigte",
+		"kennzahlenset": "Arbeitsmarkt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Detailhandel",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Beschäftigung im Detailhandel (NOGA 47) ist seit einigen Jahren rückläufig. 2015 lag sie bei rund 7 200 Vollzeitäquivalenten (2011: 8 000). Rund 2 000 VZÄ sind im Bereich Waren verschiedener Art tätig, welcher insbesondere die Supermärkte umfasst. Es folgen Bekleidung und Schuhe (1 100 VZÄ), Apotheken und Kosmetik (800 VZÄ) sowie Bücher, Sport und Spielwaren (600 VZÄ).",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "03_02_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7443
+	},
+	{
+		"title": "Arbeitslose und Arbeitslosenquote im Detailhandel",
+		"subtitle": "in Basel-Stadt",
+		"kuerzel": "I.03.4.07444",
+		"kuerzelKunde": "4.2-02",
+		"description": "Arbeitslose und Arbeitslosenquote im Detailhandel",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Arbeitslose",
+		"kennzahlenset": "Arbeitsmarkt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Detailhandel",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Seit einiger Zeit liegt die Zahl der Arbeitslosen im Detailhandel bei rund 200 Personen. Die mittlere jährliche Arbeitslosenquote liegt 2017 bei rund 3,6% und ist damit etwas höher als im Vorjahr.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "03_02_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7444
+	},
+	{
+		"title": "Ausländische Erwerbstätige im Detailhandel",
+		"subtitle": "in Basel-Stadt",
+		"kuerzel": "I.03.5.07445",
+		"kuerzelKunde": "4.2-03",
+		"description": "Ausländische Erwerbstätige im Detailhandel",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kennzahlenset": "Arbeitsmarkt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Detailhandel",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Zahl der Grenzgänger im Detailhandel ist in den letzten Jahren rückläufig und liegt im 4. Quartal 2017 bei 1 854 Personen. Die Zuwanderung von Kurz- und Daueraufenthaltern betrug in den letzten Jahren meist zwischen 20 und 40 Personen pro Quartal, im 4. Quartal 2017 liegt sie bei 25 Personen. Zu den Meldepflichtigen sind auf Ebene Detailhandel keine Zahlen bekannt. Im nächsthöheren Branchenaggregat Handel und Reparatur machen die Meldepflichtigen im 4. Quartal 2017 in Vollzeitäquivalente umgerechnet 21 Stellen aus.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "03_02_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
+			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7445
+	},
+	{
+		"title": "Medianlohn im Detailhandel",
+		"subtitle": "in der Nordwestschweiz",
+		"kuerzel": "I.03.3.07446",
+		"kuerzelKunde": "4.2-04",
+		"description": "Medianlohn im Detailhandel",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Löhne",
+		"kennzahlenset": "Arbeitsmarkt",
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Detailhandel",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "In den letzten Jahren ist der Medianlohn im Detailhandel der Nordwestschweiz leicht gestiegen, von 4 500 Franken brutto im Jahr 2010 auf 4 800 Franken brutto im Jahr 2016.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "03_02_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7446
+	},
+	{
 		"title": "Test Daten",
 		"subtitle": "Test",
 		"kuerzel": "",
