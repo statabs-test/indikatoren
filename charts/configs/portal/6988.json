@@ -90,7 +90,7 @@
     "type": "bar",
     "marginRight": 15,
     "renderTo": "container-6988",
-    "spacingBottom": 20
+    "spacingBottom": 30
   },
   "plotOptions": {
     "series": {
@@ -118,7 +118,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Kanton Basel-Stadt",
+    "text": "Kanton Basel-Stadt, 2099",
     "align": "left"
   },
   "yAxis": {
@@ -156,9 +156,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: ."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Baustatistik."
   },
   "legend": {
     "symbolRadius": 0,
