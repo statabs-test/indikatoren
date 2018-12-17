@@ -934,6 +934,9 @@ id | visible | visibleInPortal | indikatorenset
 6982 | true | true | Steuern
 6983 | true | true | Steuern
 7435 | true | false | Arbeitsmarkt
+7437 | true | false | Arbeitsmarkt
+7438 | true | false | Arbeitsmarkt
+7442 | true | false | Arbeitsmarkt
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

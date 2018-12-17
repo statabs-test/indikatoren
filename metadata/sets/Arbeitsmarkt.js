@@ -2145,10 +2145,118 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
 		"externalLinks": [
 			""
 		],
 		"id": 7435
+	},
+	{
+		"title": "Arbeitslose und Arbeitslosenquote im Baunebengewerbe",
+		"subtitle": "in Basel-Stadt",
+		"kuerzel": "I.03.4.07437",
+		"kuerzelKunde": "4.1-02",
+		"description": "Arbeitslose und Arbeitslosenquote im Baunebengewerbe",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Arbeitslose",
+		"kennzahlenset": "Arbeitsmarkt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Baunebengewerbe",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Zahl der Arbeitslosen im Baunebengewerbe schwankt zwischen 150 und 350 Personen, wobei eine ausgeprägte Saisonalität mit hohen Arbeitslosenzahlen im Winter zu beobachten ist. Die mittlere jährliche Arbeitslosenquote ist nach über 11% im Jahr 2016 auf unter 10% im Jahr 2017 gesunken.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7437
+	},
+	{
+		"title": "Ausländische Erwerbstätige im Baunebengewerbe",
+		"subtitle": "in Basel-Stadt",
+		"kuerzel": "I.03.5.07438",
+		"kuerzelKunde": "4.1-03",
+		"description": "Ausländische Erwerbstätige im Baunebengewerbe",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kennzahlenset": "Arbeitsmarkt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Baunebengewerbe",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im 4. Quartal 2017 sind in Basel-Stadt 1 165 Grenzgänger im Baunebengewerbe tätig. Die Zahl der Meldepflichtigen in VZÄ beträgt seit Jahren pro Quartal zwischen 40 und 275 Stellen. Im 1. Quartal sind die Werte messebedingt am höchsten. Die Zuwanderung beläuft sich seit 2015 auf max. 20 VZÄ pro Quartal.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
+			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7438
+	},
+	{
+		"title": "Medianlohn im Baunebengewerbe",
+		"subtitle": "in der Nordwestschweiz",
+		"kuerzel": "I.03.3.07442",
+		"kuerzelKunde": "4.1-04",
+		"description": "Medianlohn im Baunebengewerbe",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Löhne",
+		"kennzahlenset": "Arbeitsmarkt",
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Baunebengewerbe",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Jahr 2014 liegt der Medianlohn im Baunebengewerbe bei etwa 5 900 Franken brutto und hat sich damit im Vergleich zu 2012 kaum verändert.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_01_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7442
 	}
 ];

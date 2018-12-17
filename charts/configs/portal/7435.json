@@ -334,7 +334,8 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "rotation": 0
     },
     "tickLength": 0
   },
@@ -371,7 +372,7 @@
     },
     "type": "column",
     "renderTo": "container-7435",
-    "spacingBottom": 20
+    "spacingBottom": 30
   },
   "plotOptions": {
     "series": {
@@ -421,6 +422,7 @@
       },
       "format": "{value:,.0f}"
     },
+    "tickAmount": 8,
     "reversedStacks": false
   },
   "navigation": {
@@ -440,9 +442,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: ."
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)."
   },
   "legend": {
     "symbolRadius": 0,

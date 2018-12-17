@@ -12,9 +12,13 @@
     }
   },
   "xAxis": {
-    "type": "category"    
+    "type": "category",  
+    "labels": {
+      rotation: 0
+    }
   },  
   "yAxis": {
+    tickAmount: 8,
     "labels": {
       "format": "{value:,.0f}"
     },
