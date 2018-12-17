@@ -941,6 +941,10 @@ id | visible | visibleInPortal | indikatorenset
 7444 | true | false | Arbeitsmarkt
 7445 | true | false | Arbeitsmarkt
 7446 | true | false | Arbeitsmarkt
+7447 | true | false | Arbeitsmarkt
+7448 | true | false | Arbeitsmarkt
+7449 | true | false | Arbeitsmarkt
+7450 | true | false | Arbeitsmarkt
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

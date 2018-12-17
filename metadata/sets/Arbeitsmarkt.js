@@ -2399,5 +2399,146 @@ var indikatorensetData = [
 			""
 		],
 		"id": 7446
+	},
+	{
+		"title": "Beschäftigung im Landverkehr",
+		"subtitle": "in Basel-Stadt",
+		"kuerzel": "I.03.2.07447",
+		"kuerzelKunde": "4.3-01",
+		"description": "Beschäftigung im Landverkehr",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Beschäftigte",
+		"kennzahlenset": "Arbeitsmarkt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Landverkehr",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Rund 3 600 Vollzeitäquivalente sind 2015 in der Branche Landverkehr (NOGA 49) beschäftigt. Dies sind 500 weniger als 2014, wobei praktisch der gesamte Rückgang auf die Güterbeförderung auf der Schiene zurückzuführen ist. Bedeutend ist mit 1 100 VZÄ die Personenbeförderung auf der Schiene, mit 1 000 VZÄ die Personenbeförderung im Nahverkehr (ohne Taxis) sowie die Güterbeförderung im Strassenverkehr mit 900 VZÄ. Der Betrieb von Taxis macht rund 400 VZÄ aus.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_03_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7447
+	},
+	{
+		"title": "Arbeitslose und Arbeitslosenquote im Landverkehr",
+		"subtitle": "in Basel-Stadt",
+		"kuerzel": "I.03.4.07448",
+		"kuerzelKunde": "4.3-02",
+		"description": "Arbeitslose und Arbeitslosenquote im Landverkehr",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Arbeitslose",
+		"kennzahlenset": "Arbeitsmarkt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Landverkehr",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Ende 2017 waren in der Landverkehrsbranche rund 70 Personen arbeitslos. Die mittlere jährliche Arbeitslosenquote ist leicht gestiegen, von rund 4,4% im Jahr 2016 auf rund 4,7% im Jahr 2017.",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_03_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7448
+	},
+	{
+		"title": "Ausländische Erwerbstätige im Landverkehr",
+		"subtitle": "in Basel-Stadt",
+		"kuerzel": "I.03.5.07449",
+		"kuerzelKunde": "4.3-03",
+		"description": "Ausländische Erwerbstätige im Landverkehr",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kennzahlenset": "Arbeitsmarkt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Landverkehr",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Zahl der Grenzgänger in der Branche Landverkehr ist in den letzten Jahren rückläufig, im 4. Quartal 2017 liegt sie bei 600 Personen. Die Zuwanderung von Kurz- und Daueraufenthaltern im 4. Quartal 2017 beträgt 10 Personen. Zu den Meldepflichtigen sind für die Branche Landverkehr keine Daten vorhanden. Im nächsthöheren Branchenaggregat Verkehr machen die Meldepflichtigen im 4. Quartal 2017 in Vollzeitäquivalente umgerechnet lediglich eine Stelle aus.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_03_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
+			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7449
+	},
+	{
+		"title": "Medianlohn im Landverkehr",
+		"subtitle": "in der Nordwestschweiz",
+		"kuerzel": "I.03.3.07450",
+		"kuerzelKunde": "4.3-04",
+		"description": "Medianlohn im Landverkehr",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Löhne",
+		"kennzahlenset": "Arbeitsmarkt",
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Landverkehr",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Seit 2010 ist der Medianlohn für den Landverkehr in der Nordwestschweiz von brutto 5 800 Franken auf brutto 6 600 im Jahr 2014 gestiegen, im Jahr 2016 liegt er bei rund 5700 Franken.",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_03_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7450
 	}
 ];
