@@ -3699,7 +3699,7 @@ var indikatorensetData = [
 		],
 		"data-id": 6956,
 		"chart-id": 6956,
-		"filter": "",
+		"filter": "1",
 		"id": 6956
 	},
 	{
@@ -3736,9 +3736,9 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6957,
-		"chart-id": 6957,
-		"filter": "",
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "2",
 		"id": 6957
 	},
 	{
@@ -3775,9 +3775,9 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6958,
-		"chart-id": 6958,
-		"filter": "",
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "3",
 		"id": 6958
 	},
 	{
@@ -3814,9 +3814,9 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6959,
-		"chart-id": 6959,
-		"filter": "",
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "4",
 		"id": 6959
 	},
 	{
@@ -3853,9 +3853,9 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6960,
-		"chart-id": 6960,
-		"filter": "",
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "5",
 		"id": 6960
 	},
 	{
@@ -3892,9 +3892,9 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6961,
-		"chart-id": 6961,
-		"filter": "",
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "6",
 		"id": 6961
 	},
 	{
@@ -3927,9 +3927,9 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6962,
-		"chart-id": 6962,
-		"filter": "",
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "7",
 		"id": 6962
 	},
 	{
@@ -3966,9 +3966,9 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6963,
-		"chart-id": 6963,
-		"filter": "",
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "8",
 		"id": 6963
 	},
 	{
@@ -4005,9 +4005,9 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6964,
-		"chart-id": 6964,
-		"filter": "",
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "9",
 		"id": 6964
 	},
 	{
@@ -4044,9 +4044,9 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6965,
-		"chart-id": 6965,
-		"filter": "",
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "10",
 		"id": 6965
 	},
 	{
@@ -4083,9 +4083,9 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6966,
-		"chart-id": 6966,
-		"filter": "",
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "11",
 		"id": 6966
 	},
 	{
@@ -4122,9 +4122,9 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6967,
-		"chart-id": 6967,
-		"filter": "",
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "12",
 		"id": 6967
 	},
 	{
@@ -4161,9 +4161,9 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6968,
-		"chart-id": 6968,
-		"filter": "",
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "13",
 		"id": 6968
 	},
 	{
@@ -4200,9 +4200,9 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6969,
-		"chart-id": 6969,
-		"filter": "",
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "14",
 		"id": 6969
 	},
 	{
@@ -4239,9 +4239,9 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6970,
-		"chart-id": 6970,
-		"filter": "",
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "15",
 		"id": 6970
 	},
 	{
@@ -4278,9 +4278,9 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6971,
-		"chart-id": 6971,
-		"filter": "",
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "16",
 		"id": 6971
 	},
 	{
@@ -4317,9 +4317,9 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6972,
-		"chart-id": 6972,
-		"filter": "",
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "17",
 		"id": 6972
 	},
 	{
@@ -4356,9 +4356,9 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6973,
-		"chart-id": 6973,
-		"filter": "",
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "18",
 		"id": 6973
 	},
 	{
@@ -4395,9 +4395,9 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6974,
-		"chart-id": 6974,
-		"filter": "",
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "19",
 		"id": 6974
 	},
 	{
@@ -4435,9 +4435,9 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6975,
-		"chart-id": 6975,
-		"filter": "",
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "20",
 		"id": 6975
 	},
 	{
@@ -4475,9 +4475,9 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6976,
-		"chart-id": 6976,
-		"filter": "",
+		"data-id": 6956,
+		"chart-id": 6956,
+		"filter": "30",
 		"id": 6976
 	},
 	{

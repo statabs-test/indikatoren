@@ -223,7 +223,8 @@
         }
   },
   "customFunctions": {
-    "filter": 1
+    "filter": "1",
+    "data-id": 6956
   },
   "exporting": {
     "filename": 6956
