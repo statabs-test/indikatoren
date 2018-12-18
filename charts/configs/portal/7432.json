@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#B0000",
+      "color": "#B00000",
       "legendIndex": 0,
       "marker": {
         "enabled": false
