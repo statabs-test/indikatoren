@@ -14,7 +14,7 @@
   },
   "series": [
     {
-      "color": "#B00000",
+      "color": "#990300",
       legendIndex: 0,
       "marker": {
         "enabled": false
