@@ -2,9 +2,7 @@
     return {
   "plotOptions": {
     "series": {
-      "dataLabels": {
-
-    }
+      
   },
   "yAxis": {
     "labels": {
