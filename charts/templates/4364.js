@@ -1,9 +1,6 @@
 (function(){
     return {
-  "plotOptions": {
-    "series": {
-      
-  },
+ 
   "yAxis": {
     "labels": {
       "format": "{value:,.0f}%",
