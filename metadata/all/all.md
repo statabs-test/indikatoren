@@ -945,6 +945,26 @@ id | visible | visibleInPortal | indikatorenset
 7448 | true | false | Arbeitsmarkt
 7449 | true | false | Arbeitsmarkt
 7450 | true | false | Arbeitsmarkt
+7452 | true | false | Arbeitsmarkt
+7453 | true | false | Arbeitsmarkt
+7454 | true | false | Arbeitsmarkt
+7455 | true | false | Arbeitsmarkt
+7456 | true | false | Arbeitsmarkt
+7458 | true | false | Arbeitsmarkt
+7459 | true | false | Arbeitsmarkt
+7460 | true | false | Arbeitsmarkt
+7461 | true | false | Arbeitsmarkt
+7462 | true | false | Arbeitsmarkt
+7463 | true | false | Arbeitsmarkt
+7464 | true | false | Arbeitsmarkt
+7465 | true | false | Arbeitsmarkt
+7466 | true | false | Arbeitsmarkt
+7467 | true | false | Arbeitsmarkt
+7468 | true | false | Arbeitsmarkt
+7469 | true | false | Arbeitsmarkt
+7470 | true | false | Arbeitsmarkt
+7471 | true | false | Arbeitsmarkt
+7473 | true | false | Arbeitsmarkt
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

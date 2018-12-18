@@ -1,0 +1,478 @@
+{
+  "series": [
+    {
+      "marker": {
+        "symbol": "circle",
+        "enabled": false
+      },
+      "color": "#0A3B19",
+      "index": 1,
+      "type": "line",
+      "data": [
+        [
+          "2010-01",
+          549
+        ],
+        [
+          "2010-02",
+          534
+        ],
+        [
+          "2010-03",
+          588
+        ],
+        [
+          "2010-04",
+          502
+        ],
+        [
+          "2011-01",
+          536
+        ],
+        [
+          "2011-02",
+          566
+        ],
+        [
+          "2011-03",
+          605
+        ],
+        [
+          "2011-04",
+          604
+        ],
+        [
+          "2012-01",
+          616
+        ],
+        [
+          "2012-02",
+          668
+        ],
+        [
+          "2012-03",
+          789
+        ],
+        [
+          "2012-04",
+          775
+        ],
+        [
+          "2013-01",
+          803
+        ],
+        [
+          "2013-02",
+          838
+        ],
+        [
+          "2013-03",
+          784
+        ],
+        [
+          "2013-04",
+          874
+        ],
+        [
+          "2014-01",
+          933
+        ],
+        [
+          "2014-02",
+          868
+        ],
+        [
+          "2014-03",
+          906
+        ],
+        [
+          "2014-04",
+          920
+        ],
+        [
+          "2015-01",
+          960
+        ],
+        [
+          "2015-02",
+          983
+        ],
+        [
+          "2015-03",
+          1066
+        ],
+        [
+          "2015-04",
+          1070
+        ],
+        [
+          "2016-01",
+          1102
+        ],
+        [
+          "2016-02",
+          1081
+        ],
+        [
+          "2016-03",
+          1121
+        ],
+        [
+          "2016-04",
+          1115
+        ],
+        [
+          "2017-01",
+          1109
+        ],
+        [
+          "2017-02",
+          1167
+        ],
+        [
+          "2017-03",
+          1207
+        ],
+        [
+          "2017-04",
+          1223
+        ],
+        [
+          "2018-01",
+          1175
+        ],
+        [
+          "2018-02",
+          1264
+        ],
+        [
+          "2018-03",
+          1254
+        ]
+      ],
+      "name": "Bestand Grenzgänger",
+      "turboThreshold": 0
+    },
+    {
+      "marker": {
+        "symbol": "circle",
+        "enabled": false
+      },
+      "color": "#008AC3",
+      "index": 2,
+      "type": "line",
+      "data": [
+        [
+          "2010-01",
+          9
+        ],
+        [
+          "2010-02",
+          8
+        ],
+        [
+          "2010-03",
+          8
+        ],
+        [
+          "2010-04",
+          16
+        ],
+        [
+          "2011-01",
+          19
+        ],
+        [
+          "2011-02",
+          9
+        ],
+        [
+          "2011-03",
+          10
+        ],
+        [
+          "2011-04",
+          9
+        ],
+        [
+          "2012-01",
+          10
+        ],
+        [
+          "2012-02",
+          9
+        ],
+        [
+          "2012-03",
+          7
+        ],
+        [
+          "2012-04",
+          9
+        ],
+        [
+          "2013-01",
+          13
+        ],
+        [
+          "2013-02",
+          14
+        ],
+        [
+          "2013-03",
+          12
+        ],
+        [
+          "2013-04",
+          13
+        ],
+        [
+          "2014-01",
+          15
+        ],
+        [
+          "2014-02",
+          10
+        ],
+        [
+          "2014-03",
+          11
+        ],
+        [
+          "2014-04",
+          17
+        ],
+        [
+          "2015-01",
+          17
+        ],
+        [
+          "2015-02",
+          14
+        ],
+        [
+          "2015-03",
+          16
+        ],
+        [
+          "2015-04",
+          18
+        ],
+        [
+          "2016-01",
+          19
+        ],
+        [
+          "2016-02",
+          13
+        ],
+        [
+          "2016-03",
+          13
+        ],
+        [
+          "2016-04",
+          12
+        ],
+        [
+          "2017-01",
+          18
+        ],
+        [
+          "2017-02",
+          14
+        ],
+        [
+          "2017-03",
+          11
+        ],
+        [
+          "2017-04",
+          11
+        ],
+        [
+          "2018-01",
+          15
+        ],
+        [
+          "2018-02",
+          10
+        ],
+        [
+          "2018-03",
+          9
+        ]
+      ],
+      "name": "Bestand Meldepflichtige in VZÄ",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "formatter": function () {
+   			 return this.value.split("-").slice(0, -1);
+     		}
+    },
+    "tickLength": 0,
+    "tickInterval": 4
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "renderTo": "container-7454",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        },
+        "enabled": false
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Ausländische Erwerbstätige in der Branche IT-Dienstleistungen"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt",
+    "align": "left"
+  },
+  "yAxis": [
+    {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "tickAmount": 8
+    },
+    {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "tickAmount": 6,
+      "tickInterval": 20,
+      "opposite": true
+    }
+  ],
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)."
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": true,
+    "valueDecimals": 1
+  },
+  "zoomType": "xy",
+  "marginTop": 85,
+  "type": "line",
+  "exporting": {
+    "filename": 7454
+  }
+}
