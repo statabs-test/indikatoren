@@ -11,14 +11,14 @@
     } 
   },
   "yAxis": {
-    tickAmount: 8,
+    tickAmount: 7,
     tickInterval: 1000,
     "labels": {
       "format": "{value:,.0f}"
     }    
   },
   "series": [
-  {"color": "#923F8D", "visible": true},
+  {"color": "#923F8D", "visible": true}, 
   ],
   "legend": {
     "enabled": true,

@@ -2,6 +2,7 @@
     return {
    plotOptions: {
         series: {
+          pointPadding: 0,
         }
    },
   "xAxis": {
@@ -18,7 +19,8 @@
     }    
   },
   "series": [
-  {"color": "#923F8D", "visible": true},
+  {"color": "#B375AB", "visible": true}, /*violett (hell)*/
+  {"color": "#662673", "visible": true}, /*violett (dunkel)*/
   ],
   "legend": {
     "enabled": true,

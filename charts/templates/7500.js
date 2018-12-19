@@ -22,7 +22,7 @@
       }
     },
     "min": 0,
-    tickAmount: 6,
+    tickAmount: 7,
   },
   {
     "title": {
@@ -66,12 +66,7 @@
     }
   },
   "series": [
-    {
-      "color": "#73b97c",
-      "index": 0,
-      "type": "column",
-      "yAxis": 1
-    },
+    
     {"marker": {
         "symbol": "circle",
         "enabled": false

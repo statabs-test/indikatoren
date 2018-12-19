@@ -22,7 +22,7 @@
       }
     },
     "min": 0,
-    tickAmount: 6,
+    tickAmount: 7,
   },
   {
     "title": {
@@ -40,8 +40,8 @@
     },
     "min": 0,
     "max": undefined,
-    tickAmount: 6,
-    tickInterval: 20,
+    tickAmount: 7,
+    tickInterval: 10,
     "opposite": true
   }
   ],
@@ -60,9 +60,14 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-		//"y": 35,
     "itemStyle": {
       "fontWeight": "normal"
+    },
+     labelFormatter: function(){
+	        return this.name
+	            .replace("Veterinärwesen", "Veterinärw.")
+	            .replace("Kinderkrippen", "Kikri.")
+            ;
     }
   },
   "series": [
@@ -84,8 +89,17 @@
         "symbol": "circle",
         "enabled": false
       },     
-      "color": "#008AC3",
+      "color": "#0A3B19",
       "index": 2,
+      "type": "line",
+      dashStyle: "dash",
+    },
+    {"marker": {
+        "symbol": "circle",
+        "enabled": false
+      },     
+      "color": "#008AC3",
+      "index": 3,
       "type": "line",
     }
   ],  "tooltip": {
