@@ -34,7 +34,7 @@
     "align": "right",
     symbolPadding: 0,
     margin: 1,
-    width: 136,
+    width: 105,
     "itemStyle": {
       textOverflow: "undefined",
       "fontWeight": "normal"
