@@ -33128,7 +33128,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Arbeitslose und Arbeitslosenquote im Baunebengewerbe",
-		"subtitle": "in Basel-Stadt",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.03.4.07437",
 		"kuerzelKunde": "4.1-02",
 		"description": "Arbeitslose und Arbeitslosenquote im Baunebengewerbe",
@@ -33164,7 +33164,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Ausländische Erwerbstätige im Baunebengewerbe",
-		"subtitle": "in Basel-Stadt",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.03.5.07438",
 		"kuerzelKunde": "4.1-03",
 		"description": "Ausländische Erwerbstätige im Baunebengewerbe",
@@ -33201,7 +33201,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Medianlohn im Baunebengewerbe",
-		"subtitle": "in der Nordwestschweiz",
+		"subtitle": "Nordwestschweiz",
 		"kuerzel": "I.03.3.07442",
 		"kuerzelKunde": "4.1-04",
 		"description": "Medianlohn im Baunebengewerbe",
@@ -33237,7 +33237,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Beschäftigung im Detailhandel",
-		"subtitle": "in Basel-Stadt",
+		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
 		"kuerzel": "I.03.2.07443",
 		"kuerzelKunde": "4.2-01",
 		"description": "Beschäftigung im Detailhandel",
@@ -33273,7 +33273,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Arbeitslose und Arbeitslosenquote im Detailhandel",
-		"subtitle": "in Basel-Stadt",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.03.4.07444",
 		"kuerzelKunde": "4.2-02",
 		"description": "Arbeitslose und Arbeitslosenquote im Detailhandel",
@@ -33309,7 +33309,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Ausländische Erwerbstätige im Detailhandel",
-		"subtitle": "in Basel-Stadt",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.03.5.07445",
 		"kuerzelKunde": "4.2-03",
 		"description": "Ausländische Erwerbstätige im Detailhandel",
@@ -33346,7 +33346,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Medianlohn im Detailhandel",
-		"subtitle": "in der Nordwestschweiz",
+		"subtitle": "Nordwestschweiz",
 		"kuerzel": "I.03.3.07446",
 		"kuerzelKunde": "4.2-04",
 		"description": "Medianlohn im Detailhandel",
@@ -33382,7 +33382,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Beschäftigung im Landverkehr",
-		"subtitle": "in Basel-Stadt",
+		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
 		"kuerzel": "I.03.2.07447",
 		"kuerzelKunde": "4.3-01",
 		"description": "Beschäftigung im Landverkehr",
@@ -33418,7 +33418,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Arbeitslose und Arbeitslosenquote im Landverkehr",
-		"subtitle": "in Basel-Stadt",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.03.4.07448",
 		"kuerzelKunde": "4.3-02",
 		"description": "Arbeitslose und Arbeitslosenquote im Landverkehr",
@@ -33454,7 +33454,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Ausländische Erwerbstätige im Landverkehr",
-		"subtitle": "in Basel-Stadt",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.03.5.07449",
 		"kuerzelKunde": "4.3-03",
 		"description": "Ausländische Erwerbstätige im Landverkehr",
@@ -33491,7 +33491,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Medianlohn im Landverkehr",
-		"subtitle": "in der Nordwestschweiz",
+		"subtitle": "Nordwestschweiz",
 		"kuerzel": "I.03.3.07450",
 		"kuerzelKunde": "4.3-04",
 		"description": "Medianlohn im Landverkehr",

@@ -18,7 +18,7 @@
         ],
         [
           "2016",
-          5900
+          5887
         ]
       ],
       "name": "Monatlicher Bruttolohn (Median)",
@@ -107,7 +107,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in der Nordwestschweiz",
+    "text": "Nordwestschweiz",
     "align": "left"
   },
   "yAxis": {
