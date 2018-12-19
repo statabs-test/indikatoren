@@ -35248,40 +35248,6 @@
 		"id": 7064
 	},
 	{
-		"title": "Beschäftigung im Baunebengewerbe",
-		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"kuerzel": "I.03.2.07435",
-		"kuerzelKunde": "4.1-01",
-		"description": "Beschäftigung im Baunebengewerbe",
-		"thema": "03 Erwerbsleben",
-		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Arbeitsmarkt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Baunebengewerbe",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Bedeutend im Baunebengewerbe (NOGA 43) sind mit rund 6 100 Vollzeitäquivalenten (VZÄ) v. a. die Elektroinstallation (2 600 VZÄ), der Bereich Sanitär, Heizung und Lüftung (1 000 VZÄ) sowie die Malerei und Glaserei (900 VZÄ). Die Beschäftigung im Baunebengewerbe ist zwischen 2011 und 2015 um rund 5% gewachsen.",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "03_01_00_00_00_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [],
-		"externalLinks": [
-			""
-		],
-		"id": 7435
-	},
-	{
 		"title": "Test Daten",
 		"subtitle": "Test",
 		"kuerzel": "",

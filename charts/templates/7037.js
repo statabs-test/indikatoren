@@ -1,3 +1,8 @@
+/*
+global Highcharts
+*/
+
+
 (function(){
     return {
  "xAxis": {
@@ -43,6 +48,15 @@
         "symbol": "circle",
       } 
     }
-  }
-}
+  },
+data: {
+    parsed: function(columns){
+      var pointsToKeep=40;
+      //keep only the last n elements in the arrays but keep the column title
+      Highcharts.each(columns, function(v, i, a){
+        v.splice(1, v.length-pointsToKeep-1);
+      });
+    }
+  },
+};
 }());

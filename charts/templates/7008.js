@@ -1,7 +1,11 @@
+/*
+global Highcharts
+*/
+
 (function(){
     return {
  "xAxis": {
-    "tickInterval": 8,
+    "tickInterval": 4,
      "type": "category",
      labels:{
        rotation: 0,
@@ -22,7 +26,7 @@
   },	
   tooltip: {
   "pointFormatter": function(){
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + ' </b><br/><b>' 
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + ' </b><br/><b>';
     },
   },
  "series": [
@@ -52,6 +56,15 @@
         "symbol": "circle",
       } 
     }
-  }
-}
+  }, 
+  data: {
+    parsed: function(columns){
+      var pointsToKeep=40;
+      //keep only the last n elements in the arrays but keep the column title
+      Highcharts.each(columns, function(v, i, a){
+        v.splice(1, v.length-pointsToKeep-1);
+      });
+    }
+  },
+};
 }());

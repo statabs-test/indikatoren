@@ -1,3 +1,8 @@
+/*
+global Highcharts
+*/
+
+
 (function(){
     return {
   plotOptions: {
@@ -9,6 +14,7 @@
   },
   "yAxis": {
       tickInterval: 2000,
+          
     "labels": {
       "format": "{value:,.0f}",
        "formatter": function(){
@@ -61,7 +67,17 @@
   	//height: 600,
   	type: "column",
     inverted: false,
-  }
+  },
+  
+data: {
+    parsed: function(columns){
+      var pointsToKeep=10;
+      //keep only the last n elements in the arrays but keep the column title
+      Highcharts.each(columns, function(v, i, a){
+        v.splice(1, v.length-pointsToKeep-1);
+      });
+    }
+  },
 };
 }());
 
