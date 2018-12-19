@@ -21762,7 +21762,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Altstadt Grossbasel, 2099",
+		"subtitle": "Altstadt Grossbasel, 2017",
 		"kuerzel": "I.09.1.06956",
 		"kuerzelKunde": "TG-RU-WZ-01",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -21802,7 +21802,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Vorstädte, 2099",
+		"subtitle": "Vorstädte, 2017",
 		"kuerzel": "I.09.1.06957",
 		"kuerzelKunde": "TG-RU-WZ-02",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -21842,7 +21842,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Am Ring, 2099",
+		"subtitle": "Am Ring, 2017",
 		"kuerzel": "I.09.1.06958",
 		"kuerzelKunde": "TG-RU-WZ-03",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -21882,7 +21882,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Breite, 2099",
+		"subtitle": "Breite, 2017",
 		"kuerzel": "I.09.1.06959",
 		"kuerzelKunde": "TG-RU-WZ-04",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -21922,7 +21922,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "St. Alban, 2099",
+		"subtitle": "St. Alban, 2017",
 		"kuerzel": "I.09.1.06960",
 		"kuerzelKunde": "TG-RU-WZ-05",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -21962,7 +21962,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Gundeldingen, 2099",
+		"subtitle": "Gundeldingen, 2017",
 		"kuerzel": "I.09.1.06961",
 		"kuerzelKunde": "TG-RU-WZ-06",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -22002,7 +22002,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Bruderholz, 2099",
+		"subtitle": "Bruderholz, 2017",
 		"kuerzel": "I.09.1.06962",
 		"kuerzelKunde": "TG-RU-WZ-07",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -22038,7 +22038,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Bachletten, 2099",
+		"subtitle": "Bachletten, 2017",
 		"kuerzel": "I.09.1.06963",
 		"kuerzelKunde": "TG-RU-WZ-08",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -22078,7 +22078,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Gotthelf, 2099",
+		"subtitle": "Gotthelf, 2017",
 		"kuerzel": "I.09.1.06964",
 		"kuerzelKunde": "TG-RU-WZ-09",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -22118,7 +22118,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Iselin, 2099",
+		"subtitle": "Iselin, 2017",
 		"kuerzel": "I.09.1.06965",
 		"kuerzelKunde": "TG-RU-WZ-10",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -22158,7 +22158,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "St. Johann, 2099",
+		"subtitle": "St. Johann, 2017",
 		"kuerzel": "I.09.1.06966",
 		"kuerzelKunde": "TG-RU-WZ-11",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -22198,7 +22198,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Altstadt Kleinbasel, 2099",
+		"subtitle": "Altstadt Kleinbasel, 2017",
 		"kuerzel": "I.09.1.06967",
 		"kuerzelKunde": "TG-RU-WZ-12",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -22238,7 +22238,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Clara, 2099",
+		"subtitle": "Clara, 2017",
 		"kuerzel": "I.09.1.06968",
 		"kuerzelKunde": "TG-RU-WZ-13",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -22278,7 +22278,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Wettstein, 2099",
+		"subtitle": "Wettstein, 2017",
 		"kuerzel": "I.09.1.06969",
 		"kuerzelKunde": "TG-RU-WZ-14",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -22318,7 +22318,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Hirzbrunnen, 2099",
+		"subtitle": "Hirzbrunnen, 2017",
 		"kuerzel": "I.09.1.06970",
 		"kuerzelKunde": "TG-RU-WZ-15",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -22358,7 +22358,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Rosental, 2099",
+		"subtitle": "Rosental, 2017",
 		"kuerzel": "I.09.1.06971",
 		"kuerzelKunde": "TG-RU-WZ-16",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -22398,7 +22398,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Matthäus, 2099",
+		"subtitle": "Matthäus, 2017",
 		"kuerzel": "I.09.1.06972",
 		"kuerzelKunde": "TG-RU-WZ-17",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -22438,7 +22438,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Klybeck, 2099",
+		"subtitle": "Klybeck, 2017",
 		"kuerzel": "I.09.1.06973",
 		"kuerzelKunde": "TG-RU-WZ-18",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -22478,7 +22478,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Kleinhüningen, 2099",
+		"subtitle": "Kleinhüningen, 2017",
 		"kuerzel": "I.09.1.06974",
 		"kuerzelKunde": "TG-RU-WZ-19",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -22518,7 +22518,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Gemeinde Riehen, 2099",
+		"subtitle": "Gemeinde Riehen, 2017",
 		"kuerzel": "I.09.1.06975",
 		"kuerzelKunde": "TG-RU-WZ-20",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -22559,7 +22559,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Gemeinde Bettingen, 2099",
+		"subtitle": "Gemeinde Bettingen, 2017",
 		"kuerzel": "I.09.1.06976",
 		"kuerzelKunde": "TG-RU-WZ-21",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -22744,7 +22744,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Kanton Basel-Stadt, 2099",
+		"subtitle": "Kanton Basel-Stadt, 2017",
 		"kuerzel": "I.09.1.06988",
 		"kuerzelKunde": "TG-RU-WZ-BS",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
