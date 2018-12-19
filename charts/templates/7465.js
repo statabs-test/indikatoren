@@ -18,7 +18,7 @@
     }
   },  
   "yAxis": {
-    tickAmount: 8,
+    tickAmount: 10,
     "labels": {
       "format": "{value:,.0f}"
     },
@@ -35,7 +35,7 @@
     "align": "right",
     "itemStyle": {
       textOverflow: null,
-      width: 160,
+      width: 180,
       "fontWeight": "normal"
     }
   },

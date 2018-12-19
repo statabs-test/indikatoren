@@ -1,99 +1,27 @@
 {
   "series": [
     {
-      "color": "#246370",
-      "legendIndex": 2,
+      "color": "#923F8D",
+      "visible": true,
       "data": [
         [
-          "2011",
-          771.9
+          "2010",
+          5738
         ],
         [
           "2012",
-          575.6
-        ],
-        [
-          "2013",
-          791.6
+          5496
         ],
         [
           "2014",
-          1545.2
-        ],
-        [
-          "2015",
-          1459.1
+          5599
         ],
         [
           "2016",
-          773.8
+          5899
         ]
       ],
-      "name": "Vermittlung von Arbeitskräften",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#689199",
-      "legendIndex": 1,
-      "data": [
-        [
-          "2011",
-          4909
-        ],
-        [
-          "2012",
-          5271
-        ],
-        [
-          "2013",
-          5802.2
-        ],
-        [
-          "2014",
-          4938.2
-        ],
-        [
-          "2015",
-          4626.5
-        ],
-        [
-          "2016",
-          5479.3
-        ]
-      ],
-      "name": "Befristete Überlassung von Arbeitskräften",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#D3E2E4",
-      "legendIndex": 0,
-      "data": [
-        [
-          "2011",
-          0.5
-        ],
-        [
-          "2012",
-          null
-        ],
-        [
-          "2013",
-          0.2
-        ],
-        [
-          "2014",
-          0.4
-        ],
-        [
-          "2015",
-          0.4
-        ],
-        [
-          "2016",
-          0.4
-        ]
-      ],
-      "name": "Sonstige Überlassung von Arbeitskräften",
+      "name": "Monatlicher Bruttolohn (Median)",
       "turboThreshold": 0
     }
   ],
@@ -147,7 +75,8 @@
           }
     },
     "type": "column",
-    "renderTo": "container-7461",
+    "inverted": false,
+    "renderTo": "container-7464",
     "spacingBottom": 30
   },
   "plotOptions": {
@@ -158,8 +87,8 @@
           "fontSize": "10px"
         }
       },
-      "pointWidth": 25,
-      "stacking": "normal"
+      "pointPadding": 0,
+      "pointWidth": 40
     }
   },
   "title": {
@@ -169,7 +98,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Beschäftigung in der Personalvermittlung und -überlassung"
+    "text": "Medianlohn in der Personalvermittlung und -überlassung"
   },
   "subtitle": {
     "style": {
@@ -178,7 +107,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Vollzeitäquivalenten, Basel-Stadt",
+    "text": "Nordwestschweiz",
     "align": "left"
   },
   "yAxis": {
@@ -199,7 +128,7 @@
       "format": "{value:,.0f}"
     },
     "tickAmount": 8,
-    "reversedStacks": false
+    "tickInterval": 1000
   },
   "navigation": {
     "menuItemStyle": {
@@ -220,25 +149,23 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)."
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)."
   },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
-      "fontWeight": "normal",
-      "textOverflow": null,
-      "width": 160
+      "fontWeight": "normal"
     },
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 5,
-    "align": "right"
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
-    "filename": 7461
+    "filename": 7464
   }
 }

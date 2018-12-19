@@ -6,30 +6,30 @@
       "data": [
         [
           "2011",
-          771.9
+          587.7
         ],
         [
           "2012",
-          575.6
+          632.3
         ],
         [
           "2013",
-          791.6
+          716.3
         ],
         [
           "2014",
-          1545.2
+          708.9
         ],
         [
           "2015",
-          1459.1
+          788.1
         ],
         [
           "2016",
-          773.8
+          832.7
         ]
       ],
-      "name": "Vermittlung von Arbeitskräften",
+      "name": "Private Wach- und Sicherheitsdienste",
       "turboThreshold": 0
     },
     {
@@ -38,30 +38,30 @@
       "data": [
         [
           "2011",
-          4909
+          2
         ],
         [
           "2012",
-          5271
+          1.9
         ],
         [
           "2013",
-          5802.2
+          1
         ],
         [
           "2014",
-          4938.2
+          40.5
         ],
         [
           "2015",
-          4626.5
+          2
         ],
         [
           "2016",
-          5479.3
+          7.9
         ]
       ],
-      "name": "Befristete Überlassung von Arbeitskräften",
+      "name": "Sicherheitsdienste mithilfe von Überwachungs-Alarmsystemen",
       "turboThreshold": 0
     },
     {
@@ -70,30 +70,30 @@
       "data": [
         [
           "2011",
-          0.5
+          1
         ],
         [
           "2012",
-          null
+          0.7
         ],
         [
           "2013",
-          0.2
+          0.7
         ],
         [
           "2014",
-          0.4
+          0.7
         ],
         [
           "2015",
-          0.4
+          0.7
         ],
         [
           "2016",
-          0.4
+          0.7
         ]
       ],
-      "name": "Sonstige Überlassung von Arbeitskräften",
+      "name": "Detekteien",
       "turboThreshold": 0
     }
   ],
@@ -147,7 +147,7 @@
           }
     },
     "type": "column",
-    "renderTo": "container-7461",
+    "renderTo": "container-7465",
     "spacingBottom": 30
   },
   "plotOptions": {
@@ -169,7 +169,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Beschäftigung in der Personalvermittlung und -überlassung"
+    "text": "Beschäftigung in der Branche Wach- und Sicherheitsdienste"
   },
   "subtitle": {
     "style": {
@@ -178,7 +178,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Vollzeitäquivalenten, Basel-Stadt",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -198,7 +198,7 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickAmount": 8,
+    "tickAmount": 10,
     "reversedStacks": false
   },
   "navigation": {
@@ -227,7 +227,7 @@
     "itemStyle": {
       "fontWeight": "normal",
       "textOverflow": null,
-      "width": 160
+      "width": 180
     },
     "layout": "vertical",
     "verticalAlign": "middle",
@@ -239,6 +239,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 7461
+    "filename": 7465
   }
 }

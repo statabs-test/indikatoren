@@ -18,7 +18,7 @@
     }
   },  
   "yAxis": {
-    tickAmount: 8,
+    tickAmount: 10,
     "labels": {
       "format": "{value:,.0f}"
     },
@@ -35,22 +35,41 @@
     "align": "right",
     "itemStyle": {
       textOverflow: null,
-      width: 160,
+      width: 180,
       "fontWeight": "normal"
     }
   },
   "series": [
-    
     {
-      "color": "#246370",
+      "color": "#DC440E",
+      "legendIndex": 7     
+    },
+    {
+      "color": "#FF8028",
+      "legendIndex": 6     
+    },
+    {
+      "color": "#2E1435",
+      "legendIndex": 5     
+    },
+    {
+      "color": "#662673",
+      "legendIndex": 4
+    },
+    {
+      "color": "#923F8D",
+      "legendIndex": 3  
+    },
+    {
+      "color": "#B375AB",
       "legendIndex": 2  
     },
     {
-      "color": "#689199",
+      "color": "#E7CEE2",
       "legendIndex": 1  
     },
     {
-      "color": "#D3E2E4",
+      "color": "#C9D6DB",
       "legendIndex": 0  
     }        
   ],
