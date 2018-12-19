@@ -2137,5 +2137,1133 @@ var indikatorensetData = [
 			""
 		],
 		"id": 7064
+	},
+	{
+		"title": "Beschäftigung im Baunebengewerbe",
+		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
+		"kuerzel": "I.03.2.07474",
+		"kuerzelKunde": "4.1-01",
+		"description": "Beschäftigung im Baunebengewerbe",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Beschäftigte",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Baunebengewerbe",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Bedeutend im Baunebengewerbe (NOGA 43) sind mit rund 6 100 Vollzeitäquivalenten (VZÄ) v. a. die Elektroinstallation (2 600 VZÄ), der Bereich Sanitär, Heizung und Lüftung (1 000 VZÄ) sowie die Malerei und Glaserei (900 VZÄ). Die Beschäftigung im Baunebengewerbe ist zwischen 2011 und 2015 um rund 5% gewachsen.",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_01_00_00_00_000",
+		"parentId": 7435,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7474
+	},
+	{
+		"title": "Arbeitslose und Arbeitslosenquote im Baunebengewerbe",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.03.4.07475",
+		"kuerzelKunde": "4.1-02",
+		"description": "Arbeitslose und Arbeitslosenquote im Baunebengewerbe",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Arbeitslose",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Baunebengewerbe",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Zahl der Arbeitslosen im Baunebengewerbe schwankt zwischen 150 und 350 Personen, wobei eine ausgeprägte Saisonalität mit hohen Arbeitslosenzahlen im Winter zu beobachten ist. Die mittlere jährliche Arbeitslosenquote ist nach über 11% im Jahr 2016 auf unter 10% im Jahr 2017 gesunken.",
+		"erlaeuterungen": "",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_01_00_00_00_000",
+		"parentId": 7437,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7475
+	},
+	{
+		"title": "Ausländische Erwerbstätige im Baunebengewerbe",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.03.5.07476",
+		"kuerzelKunde": "4.1-03",
+		"description": "Ausländische Erwerbstätige im Baunebengewerbe",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Baunebengewerbe",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im 4. Quartal 2017 sind in Basel-Stadt 1 165 Grenzgänger im Baunebengewerbe tätig. Die Zahl der Meldepflichtigen in VZÄ beträgt seit Jahren pro Quartal zwischen 40 und 275 Stellen. Im 1. Quartal sind die Werte messebedingt am höchsten. Die Zuwanderung beläuft sich seit 2015 auf max. 20 VZÄ pro Quartal.",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_01_00_00_00_000",
+		"parentId": 7438,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
+			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7476
+	},
+	{
+		"title": "Medianlohn im Baunebengewerbe",
+		"subtitle": "Nordwestschweiz",
+		"kuerzel": "I.03.3.07477",
+		"kuerzelKunde": "4.1-04",
+		"description": "Medianlohn im Baunebengewerbe",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Löhne",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Baunebengewerbe",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Jahr 2014 liegt der Medianlohn im Baunebengewerbe bei etwa 5 900 Franken brutto und hat sich damit im Vergleich zu 2012 kaum verändert.",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_01_00_00_00_000",
+		"parentId": 7442,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7477
+	},
+	{
+		"title": "Beschäftigung im Detailhandel",
+		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
+		"kuerzel": "I.03.2.07478",
+		"kuerzelKunde": "4.2-01",
+		"description": "Beschäftigung im Detailhandel",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Beschäftigte",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Detailhandel",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Beschäftigung im Detailhandel (NOGA 47) ist seit einigen Jahren rückläufig. 2015 lag sie bei rund 7 200 Vollzeitäquivalenten (2011: 8 000). Rund 2 000 VZÄ sind im Bereich Waren verschiedener Art tätig, welcher insbesondere die Supermärkte umfasst. Es folgen Bekleidung und Schuhe (1 100 VZÄ), Apotheken und Kosmetik (800 VZÄ) sowie Bücher, Sport und Spielwaren (600 VZÄ).",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_02_00_00_00_000",
+		"parentId": 7443,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7478
+	},
+	{
+		"title": "Arbeitslose und Arbeitslosenquote im Detailhandel",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.03.4.07479",
+		"kuerzelKunde": "4.2-02",
+		"description": "Arbeitslose und Arbeitslosenquote im Detailhandel",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Arbeitslose",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Detailhandel",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Seit einiger Zeit liegt die Zahl der Arbeitslosen im Detailhandel bei rund 200 Personen. Die mittlere jährliche Arbeitslosenquote liegt 2017 bei rund 3,6% und ist damit etwas höher als im Vorjahr.",
+		"erlaeuterungen": "",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_02_00_00_00_000",
+		"parentId": 7444,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7479
+	},
+	{
+		"title": "Ausländische Erwerbstätige im Detailhandel",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.03.5.07480",
+		"kuerzelKunde": "4.2-03",
+		"description": "Ausländische Erwerbstätige im Detailhandel",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Detailhandel",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Zahl der Grenzgänger im Detailhandel ist in den letzten Jahren rückläufig und liegt im 4. Quartal 2017 bei 1 854 Personen. Die Zuwanderung von Kurz- und Daueraufenthaltern betrug in den letzten Jahren meist zwischen 20 und 40 Personen pro Quartal, im 4. Quartal 2017 liegt sie bei 25 Personen. Zu den Meldepflichtigen sind auf Ebene Detailhandel keine Zahlen bekannt. Im nächsthöheren Branchenaggregat Handel und Reparatur machen die Meldepflichtigen im 4. Quartal 2017 in Vollzeitäquivalente umgerechnet 21 Stellen aus.",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_02_00_00_00_000",
+		"parentId": 7445,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
+			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7480
+	},
+	{
+		"title": "Medianlohn im Detailhandel",
+		"subtitle": "Nordwestschweiz",
+		"kuerzel": "I.03.3.07481",
+		"kuerzelKunde": "4.2-04",
+		"description": "Medianlohn im Detailhandel",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Löhne",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Detailhandel",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "In den letzten Jahren ist der Medianlohn im Detailhandel der Nordwestschweiz leicht gestiegen, von 4 500 Franken brutto im Jahr 2010 auf 4 800 Franken brutto im Jahr 2016.",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_02_00_00_00_000",
+		"parentId": 7446,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7481
+	},
+	{
+		"title": "Beschäftigung im Landverkehr",
+		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
+		"kuerzel": "I.03.2.07482",
+		"kuerzelKunde": "4.3-01",
+		"description": "Beschäftigung im Landverkehr",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Beschäftigte",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Landverkehr",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Rund 3 600 Vollzeitäquivalente sind 2015 in der Branche Landverkehr (NOGA 49) beschäftigt. Dies sind 500 weniger als 2014, wobei praktisch der gesamte Rückgang auf die Güterbeförderung auf der Schiene zurückzuführen ist. Bedeutend ist mit 1 100 VZÄ die Personenbeförderung auf der Schiene, mit 1 000 VZÄ die Personenbeförderung im Nahverkehr (ohne Taxis) sowie die Güterbeförderung im Strassenverkehr mit 900 VZÄ. Der Betrieb von Taxis macht rund 400 VZÄ aus.",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_03_00_00_00_000",
+		"parentId": 7447,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7482
+	},
+	{
+		"title": "Arbeitslose und Arbeitslosenquote im Landverkehr",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.03.4.07483",
+		"kuerzelKunde": "4.3-02",
+		"description": "Arbeitslose und Arbeitslosenquote im Landverkehr",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Arbeitslose",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Landverkehr",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Ende 2017 waren in der Landverkehrsbranche rund 70 Personen arbeitslos. Die mittlere jährliche Arbeitslosenquote ist leicht gestiegen, von rund 4,4% im Jahr 2016 auf rund 4,7% im Jahr 2017.",
+		"erlaeuterungen": "",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_03_00_00_00_000",
+		"parentId": 7448,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7483
+	},
+	{
+		"title": "Ausländische Erwerbstätige im Landverkehr",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.03.5.07484",
+		"kuerzelKunde": "4.3-03",
+		"description": "Ausländische Erwerbstätige im Landverkehr",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Landverkehr",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Zahl der Grenzgänger in der Branche Landverkehr ist in den letzten Jahren rückläufig, im 4. Quartal 2017 liegt sie bei 600 Personen. Die Zuwanderung von Kurz- und Daueraufenthaltern im 4. Quartal 2017 beträgt 10 Personen. Zu den Meldepflichtigen sind für die Branche Landverkehr keine Daten vorhanden. Im nächsthöheren Branchenaggregat Verkehr machen die Meldepflichtigen im 4. Quartal 2017 in Vollzeitäquivalente umgerechnet lediglich eine Stelle aus.",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_03_00_00_00_000",
+		"parentId": 7449,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
+			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7484
+	},
+	{
+		"title": "Medianlohn im Landverkehr",
+		"subtitle": "Nordwestschweiz",
+		"kuerzel": "I.03.3.07485",
+		"kuerzelKunde": "4.3-04",
+		"description": "Medianlohn im Landverkehr",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Löhne",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Landverkehr",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Seit 2010 ist der Medianlohn für den Landverkehr in der Nordwestschweiz von brutto 5 800 Franken auf brutto 6 600 im Jahr 2014 gestiegen, im Jahr 2016 liegt er bei rund 5700 Franken.",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_03_00_00_00_000",
+		"parentId": 7450,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7485
+	},
+	{
+		"title": "Beschäftigung in der Branche IT-Dienstleistungen",
+		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
+		"kuerzel": "I.03.2.07486",
+		"kuerzelKunde": "4.4-01",
+		"description": "Beschäftigung in der Branche IT-Dienstleistungen",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Beschäftigte",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "IT-Dienstleistungen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Bereich IT-Dienstleistungen (NOGA 62 und 63) sind 2015 in Basel-Stadt rund 2 200 Vollzeitäquivalente beschäftigt, ein Rückgang von rund 400 VZÄ im Vergleich zum Höchststand 2013. Die Beschäftigung teilt sich insbesondere auf Programmierungs-tätigkeiten und IT-Beratung mit im Jahr 2015 je rund 1 000 VZÄ auf.",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_04_00_00_00_000",
+		"parentId": 7452,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7486
+	},
+	{
+		"title": "Arbeitslose und Arbeitslosenquote in der Branche IT-Dienstleistungen",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.03.4.07487",
+		"kuerzelKunde": "4.4-02",
+		"description": "Arbeitslose und Arbeitslosenquote in der Branche IT-Dienstleistungen",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Arbeitslose",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "IT-Dienstleistungen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Rund 50 Personen aus dem Bereich IT-Dienstleistungen sind in Basel-Stadt Ende 2017 arbeitslos. Die mittlere jährliche Arbeitslosenquote bleibt 2017 fast unverändert bei 3,4%.",
+		"erlaeuterungen": "",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_04_00_00_00_000",
+		"parentId": 7453,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7487
+	},
+	{
+		"title": "Ausländische Erwerbstätige in der Branche IT-Dienstleistungen",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.03.5.07488",
+		"kuerzelKunde": "4.4-03",
+		"description": "Ausländische Erwerbstätige in der Branche IT-Dienstleistungen",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "IT-Dienstleistungen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "In der Branche IT-Dienstleistungen zeigt sich in den letzten Jahren eine deutlich steigende Zahl an Grenzgängern. Im 4. Quartal 2017 arbeiten hier 1 211 Grenzgänger. In Vollzeitäquivalente umgerechnet machen die Meldepflichtigen im 4. Quartal 2017 in der Branche IT-Dienstleistungen 11 Stellen aus. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_04_00_00_00_000",
+		"parentId": 7454,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
+			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7488
+	},
+	{
+		"title": "Medianlohn in der Branche IT-Dienstleistungen",
+		"subtitle": "Nordwestschweiz",
+		"kuerzel": "I.03.3.07489",
+		"kuerzelKunde": "4.4-04",
+		"description": "Medianlohn in der Branche IT-Dienstleistungen",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Löhne",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "IT-Dienstleistungen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Vergleich zu 2012 ist der Medianlohn für Beschäftigte in der Branche der IT-Dienstleistungen in der Nordwestschweiz im Jahr  2014 leicht gesunken, nämlich von 8 800 Franken auf 8 500 Franken brutto.",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_04_00_00_00_000",
+		"parentId": 7455,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7489
+	},
+	{
+		"title": "Beschäftigung in Architektur- und Ingenieurbüros",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.03.2.07490",
+		"kuerzelKunde": "4.5-01",
+		"description": "Beschäftigung in Architektur- und Ingenieurbüros",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Beschäftigte",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Architektur- und Ingenieurbüros",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Beschäftigung in der Branche Architektur- und Ingenieurbüros (NOGA 71) steigt seit 2011 und beträgt im Jahr 2015 rund 5 100 VZÄ (2011: 4 200 VZÄ). Das sind rund 200 VZÄ mehr als im Jahr 2014, wobei der Anstieg auf die Ingenieurbüros zurückzuführen ist. Bei den Architekturbüros ist die Beschäftigung im Vergleich zum Vorjahr leicht rückläufig.",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_05_00_00_00_000",
+		"parentId": 7456,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7490
+	},
+	{
+		"title": "Arbeitslose und Arbeitslosenquote in Architektur- und Ingenieurbüros",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.03.4.07491",
+		"kuerzelKunde": "4.5-02",
+		"description": "Arbeitslose und Arbeitslosenquote in Architektur- und Ingenieurbüros",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Arbeitslose",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Architektur- und Ingenieurbüros",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Ende 2017 sind rund 60 Personen in der Branche Architektur- und Ingenieurbüros arbeitslos. Die mittlere jährliche Arbeitslosenquote liegt 2017 bei 2,6% und damit leicht tiefer als Ende 2016 mit 2,7%.",
+		"erlaeuterungen": "",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_05_00_00_00_000",
+		"parentId": 7458,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7491
+	},
+	{
+		"title": "Ausländische Erwerbstätige in Architektur- und Ingenieurbüros",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.03.5.07492",
+		"kuerzelKunde": "4.5-03",
+		"description": "Ausländische Erwerbstätige in Architektur- und Ingenieurbüros",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Architektur- und Ingenieurbüros",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Branche Architektur- und Ingenieurbüros verzeichnet in den letzten Jahren eine deutlich steigende Zahl an Grenzgängern. Im 4. Quartal 2017 liegt sie bei 2 183 Personen. Zu den Meldepflichtigen sind für die Branche Architektur- und Ingenieurbüros keine Daten vorhanden. Im nächsthöheren Branchenaggregat Beratung und Planung sind es im 4. Quartal 2017 9 Meldepflichtige in Vollzeitäquivalenten. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_05_00_00_00_000",
+		"parentId": 7459,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
+			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7492
+	},
+	{
+		"title": "Medianlohn in Architektur- und Ingenieurbüros",
+		"subtitle": "Nordwestschweiz",
+		"kuerzel": "I.03.3.07493",
+		"kuerzelKunde": "4.5-04",
+		"description": "Medianlohn in Architektur- und Ingenieurbüros",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Löhne",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Architektur- und Ingenieurbüros",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Vergleich zu 2012 ist der Medianlohn für Beschäftigte in der Branche Architektur- und Ingenieurbüros in der Nordwestschweiz im Jahr 2014 leicht gesunken, von rund 7 400 Franken auf 7 200 Franken brutto.",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_05_00_00_00_000",
+		"parentId": 7460,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7493
+	},
+	{
+		"title": "Beschäftigung in der Personalvermittlung und -überlassung",
+		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
+		"kuerzel": "I.03.2.07494",
+		"kuerzelKunde": "4.6-01",
+		"description": "Beschäftigung in der Personalvermittlung und -überlassung",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Beschäftigte",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Personalvermittlung und -überlassung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Bereich Personalvermittlung und -überlassung (NOGA 78) sind 2015 in Basel-Stadt rund 6 000 Vollzeitäquivalente beschäftigt, ein Rückgang von rund 600 VZÄ im Vergleich zum Höchststand 2013. Die Mehrheit der Beschäftigten stammt mit rund 4 600 VZÄ im Jahr 2015 aus dem Bereich Befristete Überlassung von Arbeitskräften.",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_06_00_00_00_000",
+		"parentId": 7461,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7494
+	},
+	{
+		"title": "Arbeitslose und Arbeitslosenquote in der Personalvermittlung und -überlassung",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.03.4.07495",
+		"kuerzelKunde": "4.6-02",
+		"description": "Arbeitslose und Arbeitslosenquote in der Personalvermittlung und -überlassung",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Arbeitslose",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Personalvermittlung und -überlassung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Rund 60 Personen aus der Branche Personalvermittlung und <br>-überlassung sind Ende 2017 arbeitslos. Das sind etwa doppelt so viele wie Mitte 2017. Die mittlere jährliche Arbeitslosenquote ist von 2,2% im Jahr 2016 auf 3,2% im Jahr 2017 gestiegen.",
+		"erlaeuterungen": "",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_06_00_00_00_000",
+		"parentId": 7462,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7495
+	},
+	{
+		"title": "Ausländische Erwerbstätige in der Personalvermittlung und -überlassung",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.03.5.07496",
+		"kuerzelKunde": "4.6-03",
+		"description": "Ausländische Erwerbstätige in der Personalvermittlung und -überlassung",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Personalvermittlung und -überlassung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Zahl der Grenzgänger in der Branche Personalvermittlung und <br>-überlassung ist in den letzten Jahren gestiegen. Ausserdem zeigt sie saisonale Schwankungen. Im 4. Quartal 2017 liegt sie bei 2 232 Personen. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten zeigt ebenfalls saisonal geprägte Muster. Im 4. Quartal 2017 sind es 85 Meldepflichtige in VZÄ. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_06_00_00_00_000",
+		"parentId": 7463,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
+			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7496
+	},
+	{
+		"title": "Medianlohn in der Personalvermittlung und -überlassung",
+		"subtitle": "Nordwestschweiz",
+		"kuerzel": "I.03.3.07497",
+		"kuerzelKunde": "4.6-04",
+		"description": "Medianlohn in der Personalvermittlung und -überlassung",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Löhne",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Personalvermittlung und -überlassung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Medianlohn für Beschäftigte in der Branche Personalvermittlung und -überlassung ist von 5 500 Franken brutto im Jahr 2012 auf 5 600 Franken brutto im Jahr 2014 gestiegen.",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_06_00_00_00_000",
+		"parentId": 7464,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7497
+	},
+	{
+		"title": "Beschäftigung in der Branche Wach- und Sicherheitsdienste",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.03.2.07498",
+		"kuerzelKunde": "4.7-01",
+		"description": "Beschäftigung in der Branche Wach- und Sicherheitsdienste",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Beschäftigte",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Wach- und Sicherheitsdienste",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Rund 840 Vollzeitäquivalente sind im Jahr 2015 in der Branche Wach- und Sicherheitsdienste (NOGA 80) beschäftigt. Diese sind fast ausschliesslich im Bereich Private Wach- und Sicherheitsdienste tätig. Die gesamte Branche konnte seit 2011 einen Zuwachs von 250 VZÄ verzeichnen, was einem Wachstum von 42% entspricht.",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_07_00_00_00_000",
+		"parentId": 7465,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7498
+	},
+	{
+		"title": "Arbeitslose und Arbeitslosenquote in der Branche Wach- und Sicherheitsdienste",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.03.4.07499",
+		"kuerzelKunde": "4.7-02",
+		"description": "Arbeitslose und Arbeitslosenquote in der Branche Wach- und Sicherheitsdienste",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Arbeitslose",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Wach- und Sicherheitsdienste",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Ende 2017 sind rund 20 Personen aus der Branche Wach- und Sicherheitsdienste arbeitslos. Die mittlere jährliche Arbeitslosenquote ist von 9,1% auf 8,6% gesunken. Davor war sie seit 2011 (3,9%) gestiegen.",
+		"erlaeuterungen": "",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_07_00_00_00_000",
+		"parentId": 7466,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7499
+	},
+	{
+		"title": "Ausländische Erwerbstätige in der Branche Wach- und Sicherheitsdienste",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.03.5.07500",
+		"kuerzelKunde": "4.7-03",
+		"description": "Ausländische Erwerbstätige in der Branche Wach- und Sicherheitsdienste",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Wach- und Sicherheitsdienste",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Zahl der Grenzgänger in der Branche Wach- und Sicherheitsdienste ist nicht bekannt. Für das nächsthöhere Branchenaggregat Sonstige wirtschaftliche Dienstleistungen ist sie in den letzten Jahren deutlich gestiegen. Im 4. Quartal 2017 liegt sie bei 2 350 Personen. Die Meldepflichtigen machen im 4. Quartal 2017 in Vollzeitäquivalente umgerechnet 2 Stellen aus. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_07_00_00_00_000",
+		"parentId": 7467,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
+			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7500
+	},
+	{
+		"title": "Medianlohn in der Branche Wach- und Sicherheitsdienste",
+		"subtitle": "Nordwestschweiz",
+		"kuerzel": "I.03.3.07501",
+		"kuerzelKunde": "4.7-04",
+		"description": "Medianlohn in der Branche Wach- und Sicherheitsdienste",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Löhne",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Wach- und Sicherheitsdienste",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Medianlohn für Beschäftigte in der Branche Wach- und Sicherheitsdienste ist von 5 300 Franken brutto im Jahr 2012 auf 5 200 Franken brutto im Jahr 2014 gesunken. Es handelt sich hier um Werte für die gesamte Schweiz, da auf Ebene Nordwestschweiz keine Zahlen vorliegen.",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_07_00_00_00_000",
+		"parentId": 7468,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7501
+	},
+	{
+		"title": "Beschäftigung in der Branche Heime und Sozialwesen",
+		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
+		"kuerzel": "I.03.2.07502",
+		"kuerzelKunde": "4.8-01",
+		"description": "Beschäftigung in der Branche Heime und Sozialwesen",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Beschäftigte",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Heime und Sozialwesen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Rund 7 600 VZÄ sind im Jahr 2015 im Bereich Heime und Sozialwesen (NOGA 87 und 88) beschäftigt. Das sind etwa 500 VZÄ mehr als im Jahr 2014. Bedeutend sind mit 3 100 VZÄ die Pflegeheime, mit 1 100 VZÄ die Tagesbetreuung von Kindern und mit 700 VZÄ die soziale Betreuung älterer Menschen und Behinderter.",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_08_00_00_00_000",
+		"parentId": 7469,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7502
+	},
+	{
+		"title": "Arbeitslose und Arbeitslosenquote in der Branche Heime und Sozialwesen",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.03.4.07503",
+		"kuerzelKunde": "4.8-02",
+		"description": "Arbeitslose und Arbeitslosenquote in der Branche Heime und Sozialwesen",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Arbeitslose",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Heime und Sozialwesen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "In der Branche Heime sind Ende 2017 rund 150 Personen arbeitslos. Im Sozialwesen sind es etwa 100 Arbeitslose. Die mittlere jährliche Arbeislosenquote der Branche Heime ist von 3,5% im Jahr 2014 auf 4,1% im Jahr 2015 gestiegen. Im Sozialwesen ist im selben Zeitraum ebenfalls ein Anstieg der Quote zu beobachten, von 5,0% auf 5,3%.",
+		"erlaeuterungen": "",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_08_00_00_00_000",
+		"parentId": 7470,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7503
+	},
+	{
+		"title": "Ausländische Erwerbstätige in der Branche Heime und Sozialwesen",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.03.5.07504",
+		"kuerzelKunde": "4.8-03",
+		"description": "Ausländische Erwerbstätige in der Branche Heime und Sozialwesen",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Heime und Sozialwesen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Zahl der Grenzgänger in den Branchen Heime und Sozialwesen ist in den letzten Jahren leicht gestiegen. Im 4. Quartal 2017 sind im Bereich Heime 1 036 und im Bereich Sozialwesen 434 Grenzgänger beschäftigt. Die Zuwanderung von Kurz- und Daueraufenthaltern im 4. Quartal 2017 beträgt 10 Personen. Die in Vollzeitäquivalente umgerechnete Zahl der Meldepflichtigen ist für die Branchen Heime und Sozialwesen nicht bekannt. Das nächsthöhere Branchenaggregat Gesundheits-, Veterinärwesen, Heime und Kinderkrippen ver-zeichnet 19 Meldepflichtige in VZÄ.",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_08_00_00_00_000",
+		"parentId": 7471,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
+			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7504
+	},
+	{
+		"title": "Medianlohn in der Branche Heime und Sozialwesen",
+		"subtitle": "Nordwestschweiz",
+		"kuerzel": "I.03.3.07505",
+		"kuerzelKunde": "4.8-04",
+		"description": "Medianlohn in der Branche Heime und Sozialwesen",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Löhne",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "Fokusbranchen",
+		"stufe2": "Heime und Sozialwesen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Medianlohn für Beschäftigte in der Branche Heime liegt im Jahr 2014 bei 5 800 Franken brutto und hat sich damit im Vergleich zu 2012 kaum verändert. Seit 2010 ist der Medianlohn im Sozialwesen von 6 100 Franken brutto auf 5 500 Franken brutto im Jahr 2014 gesunken.",
+		"erlaeuterungen": "",
+		"template": "template001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_08_00_00_00_000",
+		"parentId": 7473,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [
+			""
+		],
+		"id": 7505
 	}
 ];
