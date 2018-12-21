@@ -112,7 +112,7 @@
 				"visible": false
 			}, 
 			{
-				visible: false,
+				visible: false, 
 				type: 'pie',
 				color: '#B00000',
 				borderColor: '#B00000'
@@ -166,7 +166,7 @@
 					
 					var choroplethSeries = chart.series[1];
 					var pieSizeSeries = chart.series[2];
-					var pieSeries = [chart.series[3], chart.series[4], chart.series[5], chart.series[6], chart.series[6], chart.series[8]];
+					var pieSeries = [chart.series[3], chart.series[4], chart.series[5], chart.series[6], chart.series[7], chart.series[8]];
 
 					//pie diameters in px
 					var maxPieDiameter = 15;
@@ -225,8 +225,7 @@
 					fn.addLegendLabel(chart, 'Spanien', 375, 310);
 					fn.addLegendSquare(chart, 359, 331, 12, '#68AB2B');
 					fn.addLegendLabel(chart, 'Serbien, Monte-<br/>negro, Kosovo', 375, 327);
-			
-					
+
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart, '#cccccc');
 	            }
