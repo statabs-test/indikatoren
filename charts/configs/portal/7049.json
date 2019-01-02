@@ -224,7 +224,16 @@
       "x": -10,
       "align": "right",
       "formatter": function () {
-           return this.value.replace("/", "<br/>")
+            return this.value
+            .replace("Finanz-, Versicherungs-DL", "Finanz-,<br/>Versicherungs-DL")
+            .replace("Personalvermittlung, -überlassung", "Personalvermittlung,<br/>-überlassung")
+            .replace("Industrie (inkl. Chemie, Pharma)", "Industrie (inkl. <br/>Chemie, Pharma)")
+            .replace("Öffentliche Verwaltung, Sozialversicherungen", "Öffentliche <br/>Verwaltung, <br/>Sozialversicherungen")
+            .replace("Kultur, Unterhaltung, pers. DL", "Kultur, Unterhaltung, <br/>pers. DL")
+            .replace("Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL", "Gebäudebetreuung, <br/>Sicherheit, sonst. <br/>wirtsch. DL")
+            .replace("Gesundheits-, Sozialwesen", "Gesundheits-, <br/>Sozialwesen")
+            .replace("Information, Kommunikation", "Information, <br/>Kommunikation")
+            .replace("Beratung, Planung, Forschung, Immobilien", "Beratung, Planung, <br/>Forschung, Immobilien");
         }
     },
     "tickLength": 0
@@ -268,8 +277,8 @@
     "inverted": false,
     "hight": 208,
     "spacingTop": 5,
-    "renderTo": "container-7049",
-    "spacingBottom": 2
+    "spacingBottom": 5,
+    "renderTo": "container-7049"
   },
   "plotOptions": {
     "series": {

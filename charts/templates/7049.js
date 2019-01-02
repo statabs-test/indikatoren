@@ -15,9 +15,18 @@
       x: -10,
            "align": "right",
            "formatter": function() {
-           return this.value.replace("/", "<br/>")
+            return this.value
+            .replace("Finanz-, Versicherungs-DL", "Finanz-,<br/>Versicherungs-DL")
+            .replace("Personalvermittlung, -überlassung", "Personalvermittlung,<br/>-überlassung")
+            .replace("Industrie (inkl. Chemie, Pharma)", "Industrie (inkl. <br/>Chemie, Pharma)")
+            .replace("Öffentliche Verwaltung, Sozialversicherungen", "Öffentliche <br/>Verwaltung, <br/>Sozialversicherungen")
+            .replace("Kultur, Unterhaltung, pers. DL", "Kultur, Unterhaltung, <br/>pers. DL")
+            .replace("Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL", "Gebäudebetreuung, <br/>Sicherheit, sonst. <br/>wirtsch. DL")
+            .replace("Gesundheits-, Sozialwesen", "Gesundheits-, <br/>Sozialwesen")
+            .replace("Information, Kommunikation", "Information, <br/>Kommunikation")
+            .replace("Beratung, Planung, Forschung, Immobilien", "Beratung, Planung, <br/>Forschung, Immobilien");
         },
-        style: { 
+       style: { 
           fontSize: "9px",
           width: "100px",
           wordWrap: 'break-word',
@@ -64,8 +73,8 @@
     "inverted": false,
   	width: 662, 
   	hight: 208,
-  	//marginBottom: 120,
-	  spacingTop: 5
+	  spacingTop: 5,
+	  spacingBottom: 5,
   }
 }
 }());

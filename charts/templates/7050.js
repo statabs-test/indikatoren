@@ -15,7 +15,16 @@
       x: -10,
            "align": "right",
            "formatter": function() {
-           return this.value.replace("/", "<br/>")
+            return this.value
+            .replace("Finanz- und Versicherungs-DL", "Finanz- und<br/>Versicherungs-DL")
+            .replace("Personalvermittlung, -überlassung", "Personalvermittlung,<br/>-überlassung")
+            .replace("Öffentliche Verwaltung, Sozialversicherungen", "Öffentliche <br/>Verwaltung, <br/>Sozialversicherungen")
+            .replace("Kultur, Unterhaltung, pers. DL", "Kultur, Unterhaltung, <br/>pers. DL")
+            .replace("Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL", "Gebäudebetreuung, <br/>Sicherheit, sonst. <br/>wirtsch. DL")
+            .replace("Gesundheits-, Sozialwesen", "Gesundheits-, <br/>Sozialwesen")
+            .replace("Information, Kommunikation", "Information, <br/>Kommunikation")
+            .replace("Beratung, Planung, Forschung", "Beratung, Planung, <br/>Forschung")
+            .replace("Kunst und Unterhaltung", "Kunst und <br/>Unterhaltung");;
         },
         style: { 
           fontSize: "9px",
@@ -45,6 +54,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
+    margin: 8,
     itemDistance: 3,
     "itemStyle": {
       "fontSize": "9px",
@@ -60,8 +70,8 @@
     "inverted": false,
   	width: 662, 
   	hight: 208,
-  	//marginBottom: 120,
-	  spacingTop: 5
+	  spacingTop: 5,
+	  spacingBottom: 5
   }
 };
 }());

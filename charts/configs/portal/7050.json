@@ -44,7 +44,7 @@
           5170
         ],
         [
-          "Personalvermittlung, -üerlassung",
+          "Personalvermittlung, -überlassung",
           5738
         ],
         [
@@ -115,7 +115,7 @@
           4727
         ],
         [
-          "Personalvermittlung, -üerlassung",
+          "Personalvermittlung, -überlassung",
           5496
         ],
         [
@@ -186,7 +186,7 @@
           5299
         ],
         [
-          "Personalvermittlung, -üerlassung",
+          "Personalvermittlung, -überlassung",
           5599
         ],
         [
@@ -236,7 +236,16 @@
       "x": -10,
       "align": "right",
       "formatter": function () {
-           return this.value.replace("/", "<br/>")
+            return this.value
+            .replace("Finanz- und Versicherungs-DL", "Finanz- und<br/>Versicherungs-DL")
+            .replace("Personalvermittlung, -überlassung", "Personalvermittlung,<br/>-überlassung")
+            .replace("Öffentliche Verwaltung, Sozialversicherungen", "Öffentliche <br/>Verwaltung, <br/>Sozialversicherungen")
+            .replace("Kultur, Unterhaltung, pers. DL", "Kultur, Unterhaltung, <br/>pers. DL")
+            .replace("Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL", "Gebäudebetreuung, <br/>Sicherheit, sonst. <br/>wirtsch. DL")
+            .replace("Gesundheits-, Sozialwesen", "Gesundheits-, <br/>Sozialwesen")
+            .replace("Information, Kommunikation", "Information, <br/>Kommunikation")
+            .replace("Beratung, Planung, Forschung", "Beratung, Planung, <br/>Forschung")
+            .replace("Kunst und Unterhaltung", "Kunst und <br/>Unterhaltung");;
         }
     },
     "tickLength": 0
@@ -280,8 +289,8 @@
     "inverted": false,
     "hight": 208,
     "spacingTop": 5,
-    "renderTo": "container-7050",
-    "spacingBottom": 2
+    "spacingBottom": 5,
+    "renderTo": "container-7050"
   },
   "plotOptions": {
     "series": {
@@ -371,6 +380,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
+    "margin": 8,
     "itemDistance": 3
   },
   "dataLabels": {
