@@ -26,10 +26,10 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
+    margin: 16,
+    itemMarginBottom: 1,
     "align": "left",
-    //"x": 25,
-	  //"y": 55,  
-	  "itemWidth": 300,
+	  //"itemWidth": 300,
     "itemStyle": {
       "fontWeight": "normal"
     }

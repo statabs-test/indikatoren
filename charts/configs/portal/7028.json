@@ -44,7 +44,7 @@
           151362
         ]
       ],
-      "name": "BS",
+      "name": "Basel-Stadt",
       "turboThreshold": 0
     },
     {
@@ -91,7 +91,7 @@
           117336
         ]
       ],
-      "name": "BL",
+      "name": "Basel-Landschaft",
       "turboThreshold": 0
     },
     {
@@ -138,7 +138,7 @@
           265251
         ]
       ],
-      "name": "AG",
+      "name": "Aargau",
       "turboThreshold": 0
     },
     {
@@ -185,7 +185,7 @@
           787274
         ]
       ],
-      "name": "ZH",
+      "name": "Zürich",
       "turboThreshold": 0
     }
   ],
@@ -316,7 +316,10 @@
     },
     "padding": 0,
     "width": 300,
-    "itemwidth": 140
+    "itemwidth": 140,
+    "labelFormatter": function (){
+    return this.name.replace("Basel-Stadt", "BS") .replace("Basel-Landschaft", "BL") .replace("Aargau", "AG") .replace("Zürich", "ZH");
+    }
   },
   "plotOptions": {
     "series": {

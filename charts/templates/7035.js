@@ -30,7 +30,7 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 1,
     width: 340,
     "align": "left",
     "itemStyle": {

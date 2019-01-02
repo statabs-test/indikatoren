@@ -1590,8 +1590,7 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 0,
-    "itemWidth": 300
+    "padding": 0
   },
   "plotOptions": {
     "series": {

@@ -36,6 +36,9 @@
     "verticalAlign": "top",
     "itemMarginBottom": 5,
     "align": "left",
+    labelFormatter: function(){
+    return this.name.replace("Basel-Stadt", "BS") .replace("Basel-Landschaft", "BL") .replace("Aargau", "AG") .replace("Zürich", "ZH");
+    },
     "itemStyle": {
       "fontWeight": "normal"
     }

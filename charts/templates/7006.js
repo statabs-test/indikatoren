@@ -30,7 +30,7 @@ global Highcharts
   {"color": "#662673"}, 
 	  ],
   "legend": {
-  	itemWidth: 300,
+  	//itemWidth: 300,
     "enabled": true,
     //"y": 45,
     "layout": "horizontal",

@@ -214,7 +214,7 @@
   "legend": {
     "padding": 0,
     "symbolRadius": 0,
-    "itemMarginBottom": 2,
+    "itemMarginBottom": 1,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
@@ -222,8 +222,8 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left",
-    "itemWidth": 300
+    "margin": 16,
+    "align": "left"
   },
   "dataLabels": {
     "enabled": false,

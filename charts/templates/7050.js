@@ -24,7 +24,7 @@
             .replace("Gesundheits-, Sozialwesen", "Gesundheits-, <br/>Sozialwesen")
             .replace("Information, Kommunikation", "Information, <br/>Kommunikation")
             .replace("Beratung, Planung, Forschung", "Beratung, Planung, <br/>Forschung")
-            .replace("Kunst und Unterhaltung", "Kunst und <br/>Unterhaltung");;
+            .replace("Kunst und Unterhaltung", "Kunst und <br/>Unterhaltung");
         },
         style: { 
           fontSize: "9px",

@@ -34251,8 +34251,8 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.1 Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",

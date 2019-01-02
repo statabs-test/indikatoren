@@ -25,9 +25,8 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
+     itemMarginBottom: 5,
     "align": "left",
-    widht: 320,
-    symbolPadding: 1,
     "itemStyle": {
       "fontWeight": "normal"
     }

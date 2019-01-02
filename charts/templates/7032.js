@@ -35,10 +35,10 @@
   "legend": {
     "enabled": true,
     //"y": 45,
-    itemWidth: 1000,
+    //itemWidth: 1000,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 1,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"

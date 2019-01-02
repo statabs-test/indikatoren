@@ -44,7 +44,7 @@
           114.5
         ]
       ],
-      "name": "Öffentl. Verwaltung, Sozialvers. (inkl. staatl. Bildungsinst.)",
+      "name": "Öffentliche Verwaltung, Sozialversicherungen (inkl. staatl. Bildungsinstitutionen)",
       "turboThreshold": 0
     },
     {
@@ -310,12 +310,15 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 1,
     "itemStyle": {
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 0
+    "padding": 0,
+    "labelFormatter": function (){
+      return this.name.replace("Öffentliche Verwaltung, Sozialversicherungen (inkl. staatl. Bildungsinstitutionen)", "Öffentl. Verwaltung, Sozialvers. (inkl. staatl. Bildungsinst.)")
+    }
   },
   "plotOptions": {
     "series": {
