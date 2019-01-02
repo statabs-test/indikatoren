@@ -33117,7 +33117,7 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik (BFS)"
+			"Bundesamt für Statistik (BFS), Statistik der Lernenden (SDL)"
 		],
 		"externalLinks": [
 			""
