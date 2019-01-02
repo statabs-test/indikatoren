@@ -35,8 +35,9 @@
     "align": "right",
     symbolPadding: 0,
     margin: 1,
-    width: 140,
+    width: 120,
     "itemStyle": {
+      fontSize: "9px",
       textOverflow: "undefined",
       "fontWeight": "normal"
     }

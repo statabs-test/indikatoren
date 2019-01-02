@@ -37,6 +37,7 @@
     margin: 1,
     width: 105,
     "itemStyle": {
+      fontSize: "9px",
       textOverflow: "undefined",
       "fontWeight": "normal"
     }

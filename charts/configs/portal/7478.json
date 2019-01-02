@@ -461,7 +461,7 @@
     "symbolRadius": 0,
     "itemMarginBottom": 2,
     "itemStyle": {
-      "fontSize": "10px",
+      "fontSize": "9px",
       "textOverflow": "undefined",
       "fontWeight": "normal"
     },
@@ -470,7 +470,7 @@
     "align": "right",
     "symbolPadding": 0,
     "margin": 1,
-    "width": 140
+    "width": 120
   },
   "dataLabels": {
     "enabled": false,

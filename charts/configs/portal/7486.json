@@ -237,7 +237,7 @@
     "symbolRadius": 0,
     "itemMarginBottom": 5,
     "itemStyle": {
-      "fontSize": "10px",
+      "fontSize": "9px",
       "textOverflow": null,
       "fontWeight": "normal"
     },
@@ -246,7 +246,7 @@
     "align": "right",
     "symbolPadding": 0,
     "margin": 1,
-    "width": 110,
+    "width": 105,
     "labelFormatter": function (){
 	        return this.name
 	            .replace("Programmierungstätigkeiten", "Programmierungs-<br/>tätigkeiten")

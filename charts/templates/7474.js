@@ -31,10 +31,17 @@
   "legend": {
     "layout": "vertical",
     "verticalAlign": "middle",
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 2,
     "align": "right",
     symbolPadding: 0,
     margin: 1,
+    width: 120,
+    labelFormatter: function(){
+      return this.name
+        .replace("Boden, Fliesen, Tapeziererei", "Boden, Fliesen, <br/>Tapeziererei")
+        .replace("Stuck, Gipserei, Verputzerei", "Stuck, Gipserei, <br/>Verputzerei")
+        .replace("Bautischlerei, -schlosserei", "Bautischlerei, <br/>-schlosserei");
+    },
     "itemStyle": {
       fontSize: "9px",
       "fontWeight": "normal"

@@ -152,6 +152,7 @@
                 }
     },
     "type": "column",
+    "spacingTop": 7,
     "renderTo": "container-7498",
     "spacingBottom": 2
   },
@@ -236,7 +237,7 @@
     "symbolRadius": 0,
     "itemMarginBottom": 5,
     "itemStyle": {
-      "fontSize": "10px",
+      "fontSize": "9px",
       "textOverflow": "undefined",
       "fontWeight": "normal"
     },
@@ -245,7 +246,7 @@
     "align": "right",
     "symbolPadding": 0,
     "margin": 1,
-    "width": 105
+    "width": 120
   },
   "dataLabels": {
     "enabled": false,

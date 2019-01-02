@@ -30,7 +30,7 @@
   "legend": {
     "layout": "vertical",
     "verticalAlign": "middle",
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 2,
     "align": "right",
     symbolPadding: 0,
      margin: 1,

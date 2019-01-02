@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#923F8D",
+      "color": "#B375AB",
       "visible": true,
       "data": [
         [
@@ -21,7 +21,31 @@
           4667
         ]
       ],
-      "name": "Monatlicher Bruttolohn (Median)",
+      "name": "Monatlicher Bruttolohn Nordwestschweiz (Median)",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#662673",
+      "visible": true,
+      "data": [
+        [
+          "2010",
+          5200
+        ],
+        [
+          "2012",
+          5333
+        ],
+        [
+          "2014",
+          5189
+        ],
+        [
+          "2016",
+          5275
+        ]
+      ],
+      "name": "Monatlicher Bruttolohn Schweiz (Median)",
       "turboThreshold": 0
     }
   ],
@@ -94,7 +118,8 @@
           "fontWeight": "normal",
           "color": "black"
         }
-      }
+      },
+      "pointPadding": 0
     }
   },
   "title": {

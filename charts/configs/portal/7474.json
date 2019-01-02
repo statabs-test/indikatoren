@@ -459,7 +459,7 @@
   "legend": {
     "padding": 0,
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontSize": "9px",
       "fontWeight": "normal"
@@ -468,7 +468,14 @@
     "verticalAlign": "middle",
     "align": "right",
     "symbolPadding": 0,
-    "margin": 1
+    "margin": 1,
+    "width": 120,
+    "labelFormatter": function (){
+      return this.name
+        .replace("Boden, Fliesen, Tapeziererei", "Boden, Fliesen, <br/>Tapeziererei")
+        .replace("Stuck, Gipserei, Verputzerei", "Stuck, Gipserei, <br/>Verputzerei")
+        .replace("Bautischlerei, -schlosserei", "Bautischlerei, <br/>-schlosserei");
+    }
   },
   "dataLabels": {
     "enabled": false,
