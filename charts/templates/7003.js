@@ -30,15 +30,25 @@ global Highcharts
         }  
   },
  "legend": { 
+    x: -1,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
     width: 340,
-    "itemStyle": {
-    fontSize: "8px",
+   // itemWidth: 150,
+    itemMarginBottom: 0,
+    labelFormatter: function(){
+      return this.name
+        .replace("Öffentliche Verwaltung, Sozialvers.", "Öffentl. Verw., Sozialvers.")
+        .replace("Verkehr, Lagerei, Kommunikation", "Verkehr, Lagerei, Komm.")
+        .replace("Industrie (exkl. Chemie, Pharma)", "Industrie (o. Chemie, Pharma)")
+        .replace("Berat., Plan., Forsch., Immob., IT", "Berat., Plan., Forsch., Imm., IT");
     },
-    symbolHeight: 6,
+    "itemStyle": {
+   fontSize: "9px",
+    },
+   // symbolHeight: 6,
     symbolPadding: 0,
     itemDistance: 0
     

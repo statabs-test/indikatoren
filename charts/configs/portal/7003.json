@@ -751,13 +751,20 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemMarginBottom": 2,
+    "itemMarginBottom": 0,
     "itemStyle": {
-      "fontSize": "8px"
+      "fontSize": "9px"
     },
     "padding": 0,
+    "x": -1,
     "width": 340,
-    "symbolHeight": 6,
+    "labelFormatter": function (){
+      return this.name
+        .replace("Öffentliche Verwaltung, Sozialvers.", "Öffentl. Verw., Sozialvers.")
+        .replace("Verkehr, Lagerei, Kommunikation", "Verkehr, Lagerei, Komm.")
+        .replace("Industrie (exkl. Chemie, Pharma)", "Industrie (o. Chemie, Pharma)")
+        .replace("Berat., Plan., Forsch., Immob., IT", "Berat., Plan., Forsch., Imm., IT");
+    },
     "symbolPadding": 0,
     "itemDistance": 0
   },
