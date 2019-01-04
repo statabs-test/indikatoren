@@ -865,12 +865,12 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-11-26T10:27:24.2424",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Beschäftigung",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.2 Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Branche der Chemischen und Pharmazeutischen Industrie sind 2016 in Vollzeitäquivalente (VZÄ) umgerechnet rund 19 000 Beschäftigte tätig, was einem Wachstum von 0,9% gegenüber dem Vorjahr entspricht. In der Industrie (exkl. Chemie, Pharma) hat sich die Beschäftigung im gleichen Zeitraum kaum verändert, während das Baugewerbe einen Rückgang der Beschäftigung in VZÄ um 0,7% verzeichnet.",
+		"lesehilfe": "In der Chemischen und Pharmazeutischen Industrie sind 2016 in Vollzeitäquivalente (VZÄ) umgerechnet 19 030 Beschäftigte tätig, was einem Wachstum von 0,9% gegenüber dem Vorjahr entspricht. In der Industrie (exkl. Chemie, Pharma) hat sich die Beschäftigung im gleichen Zeitraum kaum verändert, während das Baugewerbe einen Rückgang der Beschäftigung in VZÄ um 0,7% verzeichnet.",
 		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit) in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode für die entsprechenden Jahre simuliert.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -907,12 +907,12 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-11-22T09:20:07.077",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Beschäftigung",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.2 Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Branche Handel und Reparatur verzeichnet zwischen 2015 und 2016 einen Rückgang der Beschäftigung in Vollzeitäquivalenten (VZÄ) um 2,3%. Ebenfalls rückläufig ist die Beschäftigung in VZÄ in den Branchen Verkehr und Lagerei mit -4,0% sowie Information und Kommunikation mit -3,5%. Das Gastgewerbe setzt das Beschäftigungswachstum der vergangenen Jahre nicht fort und weist stattdessen einen Rückgang der VZÄ um 2,7% im Vergleich zum Vorjahr auf.",
+		"lesehilfe": "Die Branche Handel und Reparatur verzeichnet zwischen 2015 und 2016 einen Rückgang der Beschäftigung in Vollzeitäquivalenten (VZÄ) um 2,3%. Ebenfalls rückläufig ist die Beschäftigung in VZÄ in den Branchen Verkehr und Lagerei mit -4,0% sowie Information und Kommunikation mit -3,5%. Das Gastgewerbe weist einen Rückgang der VZÄ um 2,7% im Vergleich zum Vorjahr auf.",
 		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit) in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode für die entsprechenden Jahre simuliert.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -920,7 +920,9 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_206",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7027"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -947,12 +949,12 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-11-22T09:19:31.3131",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Beschäftigung",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.2 Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Kanton Basel-Stadt waren 2016 rund 190 700 Beschäftigte tätig, was umgerechnet rund 151 400 Vollzeitäquivalenten (VZÄ) entspricht. Damit ist die Anzahl der VZÄ verglichen mit dem Vorjahr nahezu unverändert. Der Kanton Basel-Landschaft verzeichnet einen Rückgang der VZÄ um 0,2%. In den Kantonen Zürich und Aargau steigt die Anzahl der VZÄ um 1,0% bzw. 1,1%.",
+		"lesehilfe": "Im Kanton Basel-Stadt waren 2016 190 681 Beschäftigte tätig, was 151 362 Vollzeitäquivalenten (VZÄ) entspricht. Die Zahl der VZÄ ist verglichen mit dem Vorjahr nahezu unverändert. Der Kanton Basel-Landschaft verzeichnet einen Rückgang der VZÄ um 0,2%, Zürich und Aargau einen Anstieg um 1,0% bzw. 1,1%.",
 		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit) in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode für die entsprechenden Jahre simuliert.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -960,7 +962,9 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_201",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7028"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -24284,8 +24288,8 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-10-15T09:26:33.3333",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Beschäftigung",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.2 Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -24297,14 +24301,20 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_203",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7041"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6454,
+		"chart-id": 6454,
+		"filter": "",
 		"id": 6454
 	},
 	{
@@ -24320,12 +24330,12 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-10-15T09:28:18.1818",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Beschäftigung",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.2 Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die 190 700 Beschäftigten aus dem Jahr 2016 entsprechen umgerechnet rund 151 400  Vollzeitäquivalenten (VZÄ). Daraus resultiert für den Kanton Basel-Stadt ein durchschnittlicher Beschäftigungsgrad von 79%. Der durchschnittliche Beschäftigungsgrad der Männer liegt im Jahr 2016 bei 87%, während er bei den Frauen 71% beträgt.",
+		"lesehilfe": "Die 190 700 Beschäftigten aus dem Jahr 2016 entsprechen umgerechnet rund 151 400  Vollzeitäquivalenten (VZÄ). Daraus resultiert für den Kanton Basel-Stadt ein durchschnittlicher Beschäftigungsgrad von 79%. Bei den Männern liegt er bei 87%, während er bei den Frauen 71% beträgt.",
 		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit) in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -24333,14 +24343,20 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_204",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7042"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6455,
+		"chart-id": 6455,
+		"filter": "",
 		"id": 6455
 	},
 	{
@@ -24356,12 +24372,12 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-11-26T10:28:11.1111",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Beschäftigung",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.2 Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Branche Beratung, Planung, Forschung und Immobilien verzeichnet im Jahr 2016 einen Anstieg der Beschäftigung in Vollzeitäquivalenten (VZÄ) um 0,8%. Ebenfalls zugenommen hat die Beschäftigung in VZÄ zwischen 2015 und 2016 bei der Personalvermittlung und -überlassung, und zwar um 2,8%. Die Finanz- und Versicherungsdienstleistungen sowie die Branche Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen weisen im selben Zeitraum einen Rückgang der Beschäftigung in VZÄ um 3,0% bzw. 0,5% auf.",
+		"lesehilfe": "Die Branchen Beratung, Planung, Forschung und Immobilien sowie Personalvermittlung und –überlassung verzeichnen zwischen 2015 und 2016 einen Anstieg der Beschäftigung in Vollzeitäquivalenten (VZÄ) um 0,8% bzw. 2,8%. Die Finanz- und Versicherungsdienstleistungen sowie die Branche Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen weisen einen Rückgang um 3,0% bzw. 0,5% auf.",
 		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit) in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode für die entsprechenden Jahre simuliert.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -24398,12 +24414,12 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-11-26T10:30:44.4444",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Beschäftigung",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.2 Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Gesundheits- und Sozialwesen liegt die Beschäftigung im Jahr 2016 bei rund 22 100 Vollzeitäquivalenten (VZÄ), was einem Wachstum von 3,4% gegenüber dem Vorjahr entspricht. Auch in der Branche Erziehung und Unterricht sowie in der Branche Öffentliche Verwaltung und Sozialversicherungen hat die Beschäftigung in VZÄ zugenommen, und zwar um 0,4% bzw. 3,8%. Die Branche Kultur, Unterhaltung und persönliche Dienstleistungen verzeichnet im Jahr 2016 einen Rückgang der VZÄ um 0,9% gegenüber dem Vorjahr.",
+		"lesehilfe": "Im Gesundheits- und Sozialwesen liegt die Beschäftigung im Jahr 2016 bei 22 139 Vollzeitäquivalenten (VZÄ), und damit 3,4% über dem Vorjahreswert. In den Branchen Erziehung und Unterricht sowie Öffentliche Verwaltung und Sozialversicherungen hat die Beschäftigung in VZÄ im gleichen Zeitraum um 0,4% bzw. 3,8% zugenommen. Die Branche Kultur, Unterhaltung und persönliche Dienstleistungen verzeichnet einen Rückgang um 0,9%.",
 		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit) in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode für die entsprechenden Jahre simuliert.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -24440,12 +24456,12 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-11-01T14:41:08.088",
-		"stufe1": "Übersicht Basler Arbeitsmarkt",
+		"stufe1": "2 Übersicht Basler Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund 22 000 Beschäftigte in Vollzeitäquivalenten (VZÄ) sind in Basel-Stadt 2016 im Gesundheits- und Sozialwesen tätig, was etwa 15% der Gesamtbeschäftigung entspricht. Im Vergleich zum Vorjahr bedeutet dies eine Steigerung von 3,4%. Je 19 000 VZÄ oder 13% der Gesamtbeschäftigung sind in der Dienstleistungsgruppe Beratung, Planung, Forschung, Immobilienwesen sowie in der Branche Chemische und Pharmazeutische Industrie tätig. Dabei ist Letztere mit 0,9% im Vergleich zum Vorjahr wie schon in den Jahren zuvor weiter gewachsen. Über 1,0% Wachstum verzeichneten die Branchen Öffentliche Verwaltung und Sozialversicherungen (+3,8%) sowie Personalvermittlung und -überlassung  (+2,8%). Geschrumpft sind insbesondere die Branchen Verkehr und Lagerei (-4,0%), Information und Kommunikation (-3,5%), Finanz- und Versicherungsdienstleistungen (-3,0%), Gastgewerbe (-2,7%) sowie Handel und Reparatur (-2,3%).",
+		"lesehilfe": "Rund 22 000 Beschäftigte in Vollzeitäquivalenten (VZÄ) sind in Basel­Stadt 2016 im Gesundheits- und Sozialwesen tätig, was etwa 15% der Gesamtbeschäftigung entspricht. Im Vergleich zum Vorjahr bedeutet dies eine Steigerung von 3,4%. Je 19 000 VZÄ oder 13% der Gesamtbeschäftigung sind in der Branche Beratung, Planung, Forschung, Immobilienwesen sowie in der Chemischen und Pharmazeutischen Industrie tätig. Dabei ist Letztere mit 0,9% im Vergleich zum Vorjahr wie schon in den Jahren zuvor weiter gewachsen. Über 1,0% Wachstum verzeichneten die Branchen Öffentliche Verwaltung und Sozialversicherungen (+3,8%) sowie Personalvermittlung und -überlassung (+2,8%). Geschrumpft sind insbesondere die Branchen Verkehr und Lagerei (-4,0%), Information und Kommunikation (-3,5%), Finanz- und Versicherungsdienstleistungen (-3,0%), Gastgewerbe (-2,7%) sowie Handel und Reparatur (-2,3%).",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit) in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -24453,7 +24469,9 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_101",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7045"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -26726,12 +26744,12 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-10-15T09:31:11.1111",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Beschäftigung",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.2 Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von den rund 151 400 Beschäftigten in Vollzeitäquivalenten (VZÄ) im Kanton Basel-Stadt im Jahr 2016 sind 35% in grossen Arbeitsstätten (250 VZÄ und mehr) tätig. Im Kanton Basel-Landschaft sind lediglich 13% der VZÄ in grossen Arbeitsstätten beschäftigt. Auch in den Kantonen Aargau und Zürich fällt dieser Anteil mit 18% bzw. 24% tiefer aus.",
+		"lesehilfe": "Im Jahr 2016 sind in Basel-Stadt von den 151 362 Beschäftigten in Vollzeitäquivalenten (VZÄ) rund 35% in grossen Arbeitsstätten (250 VZÄ und mehr) tätig. Im Kanton Basel-Landschaft liegt dieser Anteil bei 13%, in den Kantonen Aargau und Zürich fällt er mit 18% bzw. 24% ebenfalls tiefer aus als in Basel­Stadt.",
 		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit) in Vollzeitstellen.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
@@ -26739,14 +26757,20 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_202",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7064"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6531,
+		"chart-id": 6531,
+		"filter": "",
 		"id": 6531
 	},
 	{
