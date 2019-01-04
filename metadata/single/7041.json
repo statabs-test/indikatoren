@@ -9,8 +9,8 @@
 "kennzahlenset":"Arbeitsmarkt (Print)",
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"2018-10-15T09:26:33.3333",
-"stufe1":"Monitoring Basler Arbeitsmarkt",
-"stufe2":"Beschäftigung",
+"stufe1":"3 Monitoring Basler Arbeitsmarkt",
+"stufe2":"3.2 Beschäftigung",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":7041, 
+"chart-id":7041, 
+"filter":""
 }
