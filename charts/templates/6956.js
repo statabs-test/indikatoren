@@ -60,21 +60,21 @@ global Highcharts
     yAxis: [
     {
       labels: {
-        format: "{value:,.f}"
+        format: "{value:,.f}",
+        style: {
+        color: "#000000",
+        },
       }, 
-      style: {
-        color: "#000000"
-      },
       title: "",
     },
     {
       opposite: true,
       labels: {
-        format: "{value:,.f}"
-      },
-      style: {
-        color: "#000000"
-      },
+        format: "{value:,.f}",
+        style: {
+        color: "#000000",
+        },
+      }, 
       title: "",
     }
     ],
