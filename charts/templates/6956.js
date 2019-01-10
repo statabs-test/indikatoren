@@ -34,7 +34,7 @@ global Highcharts
             }
           }
           //add bs data and labels
-          bsData.unshift("Kanton Basel-Stadt<br/>(untere Skala)");
+          bsData.unshift("Kanton Basel-Stadt (untere Skala)");
           columns.push(bsData);
           bsLabels.unshift("Wohnviertel_Name");
           columns.push(bsLabels);
