@@ -1,8 +1,8 @@
 {
   "series": [
     {
-      "color": "#73B97C",
-      "index": 2,
+      "color": "#FABD24",
+      "index": 0,
       "data": [
         [
           "Berufliche Probleme",
@@ -73,8 +73,40 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FABD24",
-      "index": 0
+      "color": "#73B97C",
+      "index": 2,
+      "data": [
+        [
+          "Berufliche Probleme",
+          31.89
+        ],
+        [
+          "Gesundheitliche Probleme",
+          23.36
+        ],
+        [
+          "Finanzielle Probleme",
+          8.65
+        ],
+        [
+          "Wohnungsprobleme",
+          21.08
+        ],
+        [
+          "Partnerschaftliche Probleme",
+          35.62
+        ],
+        [
+          "Schulische Probleme der Kinder",
+          26.76
+        ],
+        [
+          "Erziehungsfragen oder -probleme",
+          53.09
+        ]
+      ],
+      "name": "2017 (N=1665)",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
