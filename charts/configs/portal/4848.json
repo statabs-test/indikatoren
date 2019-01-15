@@ -1,8 +1,8 @@
 {
   "series": [
     {
-      "color": "#A8C4CB",
-      "index": 1,
+      "color": "#73B97C",
+      "index": 2,
       "data": [
         [
           "Berufliche Probleme",
@@ -37,8 +37,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#256370",
-      "index": 0,
+      "color": "#007A2F",
+      "index": 1,
       "data": [
         [
           "Berufliche Probleme",
@@ -71,6 +71,10 @@
       ],
       "name": "2013 (N=2231)",
       "turboThreshold": 0
+    },
+    {
+      "color": "#FABD24",
+      "index": 0
     }
   ],
   "xAxis": {

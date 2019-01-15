@@ -9,12 +9,16 @@
     }    
   },
   "series": [
-    {
-      "color": "#A8C4CB",
+   {
+      "color": "#73B97C",
+      "index": 2
+    },
+       {
+      "color": "#007A2F",
       "index": 1
     },
     {
-      "color": "#256370",
+      "color": "#FABD24",
       "index": 0
     }
   ],
