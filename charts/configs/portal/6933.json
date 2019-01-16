@@ -3366,6 +3366,12 @@
     "uniqueNames": false,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "ordinal": false,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
     "labels": {
       "style": {
         "color": "#000000"
@@ -3377,45 +3383,47 @@
     "showFirstLabel": true,
     "showLastLabel": true,
     "tickInterval": 31536000000,
-    "minTickInterval": 31536000000,
-    "ordinal": false
+    "minTickInterval": 31536000000
   },
+  "isStock": true,
   "chart": {
-    "events": {
-      "load": function () {
-            this.credits.element.onclick = function() {};
-
-            //for top-left legends with no x defined: move legend to x position of first yAxis
-            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-              this.update(
-                {
-                  legend: {
-                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                  }
-                }
-              );
-            }              
-
-                  
-          }
-    },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
     "width": 485,
     "height": 415,
-    "spacing": [
-      10,
-      10,
-      45,
-      10
-    ],
+    "spacingBottom": 30,
     "style": {
       "fontFamily": "Arial"
     },
+    "events": {
+      "load": function () {
+                  this.credits.element.onclick = function() {};
+                  //for top-left legends with no x defined: move legend to x position of first yAxis
+                  if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                    this.update(
+                      {
+                        legend: {
+                          x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                        }
+                      }
+                    );
+                  }              
+                }
+    },
     "type": "area",
-    "renderTo": "container-6933",
-    "spacingBottom": 45
+    "renderTo": "container-6933"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "normal",
+      "lineWidth": 1,
+      "fillOpacity": 1
+    }
   },
   "title": {
     "style": {
@@ -3437,10 +3445,9 @@
     "align": "left"
   },
   "yAxis": {
-    "min": 0,
-    "max": 100,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
     "title": {
       "style": {
         "color": "#000000",
@@ -3460,8 +3467,13 @@
     "opposite": false,
     "reversedStacks": false
   },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
   "credits": {
-    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
     "style": {
       "color": "#000000",
@@ -3476,48 +3488,28 @@
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik."
   },
-  "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f} ({point.percentage:.1f}%)\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "enabled": true,
-    "split": false,
-    "reversed": true
-  },
   "legend": {
-    "enabled": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
     "symbolRadius": 0,
-    "itemMarginBottom": 0,
     "itemStyle": {
       "fontWeight": "normal"
     },
+    "enabled": true,
+    "layout": "vertical",
+    "align": "right",
+    "verticalAlign": "middle",
     "reversed": true,
     "margin": 5,
     "padding": 5,
+    "itemMarginBottom": 0,
     "labelFormatter": function (){
           return this.name
             .replace("Bosnien-", "Bosnien-<br/>")
             .replace("Montenegro", "Monte-<br/>negro");
         }
   },
-  "plotOptions": {
-    "series": {
-      "stacking": "normal",
-      "fillOpacity": 1,
-      "lineWidth": 1
-    },
-    "area": {
-      "lineWidth": 0,
-      "itemMarginBottom": 5,
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
-    }
-  },
   "rangeSelector": {
+    "verticalAlign": "bottom",
+    "buttonPosition": {},
     "buttons": [
       {
         "count": 10,
@@ -3545,10 +3537,31 @@
     "inputDateFormat": "%Y",
     "inputEditDateFormat": "%Y"
   },
-  "customFunctions": {
-    "filter": 1
+  "navigator": {
+    "margin": 10,
+    "height": 30,
+    "series": {
+      "includeInCSVExport": false
+    },
+    "outlineColor": "#B9CFD7"
+  },
+  "tooltip": {
+    "dateTimeLabelFormats": {
+      "day": "%A, %e. %b, %Y"
+    },
+    "enabled": true,
+    "shared": false,
+    "split": false,
+    "reversed": true
   },
   "exporting": {
+    "csv": {
+      "dateFormat": "%d.%m.%Y"
+    },
     "filename": 6933
+  },
+  "customFunctions": {
+    "filter": "1",
+    "data-id": 6933
   }
 }

@@ -16,8 +16,8 @@
 "stufe5":"", 
 "lesehilfe":"Der Anteil Deutscher ist im Wohnviertel Iselin geringer als im kantonalen Durchschnitt. Anteilsmässig stärker vertreten sind hingegen die  Italiener, Türken, Spanier und Portugiesen.",
 "erlaeuterungen":"Jahresendbestände. Die Schweizer, die  15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens sind separat abgebildet.",
-"template":"area001",
-"darstellungsart":"",
+"template":"stock001",
+"darstellungsart":"Grafik",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,
@@ -30,5 +30,5 @@
 "externalLinks":[""],
 "data-id":6943, 
 "chart-id":6943, 
-"filter":""
+"filter":"10"
 }

@@ -16,8 +16,8 @@
 "stufe5":"", 
 "lesehilfe":"Im Vergleich zum gesamten Kanton wohnen im Wohnviertel Bruderholz überdurchschnittlich viele Schweizer, weshalb die Anteile aller anderen Staatsangehörigkeite kleiner ausfallen. Die Deutschen bilden die grösste ausländische Bevölkerungsgruppe, gefolgt von den Briten, Franzosen und US-Amerikanern.",
 "erlaeuterungen":"Jahresendbestände. Die Schweizer, die  15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens sind separat abgebildet.",
-"template":"area001",
-"darstellungsart":"",
+"template":"stock001",
+"darstellungsart":"Grafik",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,
@@ -30,5 +30,5 @@
 "externalLinks":[""],
 "data-id":6940, 
 "chart-id":6940, 
-"filter":""
+"filter":"7"
 }

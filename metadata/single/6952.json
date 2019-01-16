@@ -16,8 +16,8 @@
 "stufe5":"", 
 "lesehilfe":"Im Vergleich zur kantonalen Entwicklung fällt besonders auf, dass der Ausländeranteil im Wohnviertel Klybeck in den letzten 20 Jahren nicht so stark gestiegen ist. Türken, Italiener und Personen aus dem Balkan stellen die grössten Gruppen. Portugiesen sind im kantonalen Vergleich stärker vertreten, Deutsche weniger.",
 "erlaeuterungen":"Jahresendbestände. Die Schweizer, die  15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens sind separat abgebildet.",
-"template":"area001",
-"darstellungsart":"",
+"template":"stock001",
+"darstellungsart":"Grafik",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,
@@ -30,5 +30,5 @@
 "externalLinks":[""],
 "data-id":6952, 
 "chart-id":6952, 
-"filter":""
+"filter":"18"
 }

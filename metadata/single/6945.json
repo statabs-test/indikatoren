@@ -16,8 +16,8 @@
 "stufe5":"", 
 "lesehilfe":"Im Vergleich zum kantonalen Durchschnitt wohnen im Wohnviertel Altstadt Kleinbasel weniger Türken und Portugiesen. Der Anteil Österreicher ist innerhalb des Kantons in der Altstadt Kleinbasel am grössten. Hierbei ist jedoch zu berücksichtigen, dass das Wohnviertel insgesamt eine im kantonalen Vergleich sehr tiefe Einwohnerzahl hat.",
 "erlaeuterungen":"Jahresendbestände. Die Schweizer, die  15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens sind separat abgebildet.",
-"template":"area001",
-"darstellungsart":"",
+"template":"stock001",
+"darstellungsart":"Grafik",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,
@@ -30,5 +30,5 @@
 "externalLinks":[""],
 "data-id":6945, 
 "chart-id":6945, 
-"filter":""
+"filter":"12"
 }

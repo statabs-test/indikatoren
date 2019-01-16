@@ -21362,7 +21362,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Im Vergleich zum kantonalen Durchschnitt wohnen im Wohnviertel Altstadt Grossbasel mehr Franzosen, Briten und US-Amerikaner, wobei letztere in keinem anderen Wohnviertel anteilsmässig eine entsprechend grosse Gruppe bilden. Personen aus dem Balkan und aus Indien sind hingegen weniger vertreten als im kantonalen Durchschnitt.",
 		"erlaeuterungen": "Jahresendbestände. Die Schweizer, die  15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens sind separat abgebildet.",
-		"template": "area001",
+		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -21379,7 +21379,7 @@ var indikatoren = [
 		],
 		"data-id": 6933,
 		"chart-id": 6933,
-		"filter": "",
+		"filter": "1",
 		"id": 6933
 	},
 	{
@@ -21402,7 +21402,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Im Vergleich zum kantonalen Durchschnitt wohnen im Wohnviertel Vorstädte weniger Türken und Personen aus dem Balkan. US-Amerikaner, Briten und Franzosen sind stärker vertreten.",
 		"erlaeuterungen": "Jahresendbestände. Die Schweizer, die  15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens sind separat abgebildet.",
-		"template": "area001",
+		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -21419,7 +21419,7 @@ var indikatoren = [
 		],
 		"data-id": 6935,
 		"chart-id": 6935,
-		"filter": "",
+		"filter": "2",
 		"id": 6935
 	},
 	{
@@ -21459,7 +21459,7 @@ var indikatoren = [
 		],
 		"data-id": 6936,
 		"chart-id": 6936,
-		"filter": "",
+		"filter": "3",
 		"id": 6936
 	},
 	{
@@ -21482,7 +21482,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Der Anteil Personen mit der polnischer Staatsbürgerschaft ist im Wohnviertel Breite höher als im Vergleich mit dem kantonalen Durchschnitt. Kleiner fallen hingegen die Anteile bei den US-Amerikanern, Briten, Franzosen und Deutschen aus. Letztere bilden - wie im gesamten Kanton - die grösste ausländische Bevölkerungsgruppe im Wohnviertel.",
 		"erlaeuterungen": "Jahresendbestände. Die Schweizer, die  15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens sind separat abgebildet.",
-		"template": "area001",
+		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -21499,7 +21499,7 @@ var indikatoren = [
 		],
 		"data-id": 6937,
 		"chart-id": 6937,
-		"filter": "",
+		"filter": "4",
 		"id": 6937
 	},
 	{
@@ -21522,7 +21522,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Im Vergleich zum kantonalen Durchschnitt wohnen im  Wohnviertel St. Alban mehr Franzosen, Briten und US-Amerikaner. Personen aus dem Balkan sind hingegen weniger vertreten.",
 		"erlaeuterungen": "Jahresendbestände. Die Schweizer, die  15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens sind separat abgebildet.",
-		"template": "area001",
+		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -21539,7 +21539,7 @@ var indikatoren = [
 		],
 		"data-id": 6938,
 		"chart-id": 6938,
-		"filter": "",
+		"filter": "5",
 		"id": 6938
 	},
 	{
@@ -21562,7 +21562,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Im Wohnviertel Gundeldingen wohnen im Vergleich zum kantonalen Durchschnitt mehr Türken und Personen aus dem Balkan. Unterdurchschnittlich vertreten sind hingegen die US-Amerikaner.",
 		"erlaeuterungen": "Jahresendbestände. Die Schweizer, die  15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens sind separat abgebildet.",
-		"template": "area001",
+		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -21579,7 +21579,7 @@ var indikatoren = [
 		],
 		"data-id": 6939,
 		"chart-id": 6939,
-		"filter": "",
+		"filter": "6",
 		"id": 6939
 	},
 	{
@@ -21602,7 +21602,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Im Vergleich zum gesamten Kanton wohnen im Wohnviertel Bruderholz überdurchschnittlich viele Schweizer, weshalb die Anteile aller anderen Staatsangehörigkeite kleiner ausfallen. Die Deutschen bilden die grösste ausländische Bevölkerungsgruppe, gefolgt von den Briten, Franzosen und US-Amerikanern.",
 		"erlaeuterungen": "Jahresendbestände. Die Schweizer, die  15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens sind separat abgebildet.",
-		"template": "area001",
+		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -21619,7 +21619,7 @@ var indikatoren = [
 		],
 		"data-id": 6940,
 		"chart-id": 6940,
-		"filter": "",
+		"filter": "7",
 		"id": 6940
 	},
 	{
@@ -21642,7 +21642,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Der Anteil Schweizer ist im Wohnviertel Bachletten innerhalb des Kantons am grössten, weshalb die Anteile aller anderen Staatsangehörigkeiten vergleichsweise kleiner ausfallen. Die grösste ausländische Bevölkerungsgruppe bilden die Deutschen, gefolgt von den Italienern, Briten und Franzosen.",
 		"erlaeuterungen": "Jahresendbestände. Die Schweizer, die  15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens sind separat abgebildet.",
-		"template": "area001",
+		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -21659,7 +21659,7 @@ var indikatoren = [
 		],
 		"data-id": 6941,
 		"chart-id": 6941,
-		"filter": "",
+		"filter": "8",
 		"id": 6941
 	},
 	{
@@ -21682,7 +21682,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Im Vergleich zum kantonalen Durchschnitt wohnen im Wohnviertel Gotthelf weniger Türken und  Personen aus dem Balkan. Wie im Gesamtkanton stellen die Deutschen die grösste Bevölkerungsgruppe dar.",
 		"erlaeuterungen": "Jahresendbestände. Die Schweizer, die  15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens sind separat abgebildet.",
-		"template": "area001",
+		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -21699,7 +21699,7 @@ var indikatoren = [
 		],
 		"data-id": 6942,
 		"chart-id": 6942,
-		"filter": "",
+		"filter": "9",
 		"id": 6942
 	},
 	{
@@ -21722,7 +21722,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Der Anteil Deutscher ist im Wohnviertel Iselin geringer als im kantonalen Durchschnitt. Anteilsmässig stärker vertreten sind hingegen die  Italiener, Türken, Spanier und Portugiesen.",
 		"erlaeuterungen": "Jahresendbestände. Die Schweizer, die  15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens sind separat abgebildet.",
-		"template": "area001",
+		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -21739,7 +21739,7 @@ var indikatoren = [
 		],
 		"data-id": 6943,
 		"chart-id": 6943,
-		"filter": "",
+		"filter": "10",
 		"id": 6943
 	},
 	{
@@ -21762,7 +21762,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Im Wohnviertel St. Johann wohnen mehr Portugiesen, Spanier, Türken und Sri-Lanker und etwas weniger Deutsche, Franzosen und Briten als im kantonalen Durchschnitt.",
 		"erlaeuterungen": "Jahresendbestände. Die Schweizer, die  15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens sind separat abgebildet.",
-		"template": "area001",
+		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -21779,7 +21779,7 @@ var indikatoren = [
 		],
 		"data-id": 6944,
 		"chart-id": 6944,
-		"filter": "",
+		"filter": "11",
 		"id": 6944
 	},
 	{
@@ -21802,7 +21802,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Im Vergleich zum kantonalen Durchschnitt wohnen im Wohnviertel Altstadt Kleinbasel weniger Türken und Portugiesen. Der Anteil Österreicher ist innerhalb des Kantons in der Altstadt Kleinbasel am grössten. Hierbei ist jedoch zu berücksichtigen, dass das Wohnviertel insgesamt eine im kantonalen Vergleich sehr tiefe Einwohnerzahl hat.",
 		"erlaeuterungen": "Jahresendbestände. Die Schweizer, die  15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens sind separat abgebildet.",
-		"template": "area001",
+		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -21819,7 +21819,7 @@ var indikatoren = [
 		],
 		"data-id": 6945,
 		"chart-id": 6945,
-		"filter": "",
+		"filter": "12",
 		"id": 6945
 	},
 	{
@@ -21842,7 +21842,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Im Vergleich zum kantonalen Durschnitt wohnen im Wohnviertel Clara mehr Inder, Italiener, Spanier und Personen aus dem Balkan. Unterdurschnittlich vertreten sind die Deutschen und Briten.",
 		"erlaeuterungen": "Jahresendbestände. Die Schweizer, die  15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens sind separat abgebildet.",
-		"template": "area001",
+		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -21859,7 +21859,7 @@ var indikatoren = [
 		],
 		"data-id": 6946,
 		"chart-id": 6946,
-		"filter": "",
+		"filter": "13",
 		"id": 6946
 	},
 	{
@@ -21882,7 +21882,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Im Vergleich zum kantonalen Durchschnitt wohnen im Wohnviertel Wettstein weniger Türken und Personen aus dem Balkan. Wie auch im Kanton stellen im Wohnviertel die Deutschen die grösste Bevölkerungsgruppe dar.",
 		"erlaeuterungen": "Jahresendbestände. Die Schweizer, die  15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens sind separat abgebildet.",
-		"template": "area001",
+		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -21899,7 +21899,7 @@ var indikatoren = [
 		],
 		"data-id": 6947,
 		"chart-id": 6947,
-		"filter": "",
+		"filter": "14",
 		"id": 6947
 	},
 	{
@@ -21922,7 +21922,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Das Wohnviertel Hirzbrunnen hat innerhalb des Kantons einen der höchsten Anteile an Schweizern, weshalb die Anteile aller anderen Staatsangehörigkeiten unter dem Kantonsdurchschnitt liegen. Die grösste ausländische Bevölkerungsgruppe bilden wie im Gesamtkanton die Deutschen, wobei der Wert auch hier unter dem kantonalen Durchschnitt liegt.",
 		"erlaeuterungen": "Jahresendbestände. Die Schweizer, die  15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens sind separat abgebildet.",
-		"template": "area001",
+		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -21939,7 +21939,7 @@ var indikatoren = [
 		],
 		"data-id": 6948,
 		"chart-id": 6948,
-		"filter": "",
+		"filter": "15",
 		"id": 6948
 	},
 	{
@@ -21962,7 +21962,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Im Wohnviertel Rosental wohnen deutlich mehr Türken, Portugiesen, Personen aus dem Balkan und Inder als im kantonalen Durchschnitt. Der Anteil an Personen mit indischer Staatsangehörigkeit ist innerhalb des Kantons im Wohnviertel Rosental am grössten.",
 		"erlaeuterungen": "Jahresendbestände. Die Schweizer, die  15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens sind separat abgebildet.",
-		"template": "area001",
+		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -21979,7 +21979,7 @@ var indikatoren = [
 		],
 		"data-id": 6949,
 		"chart-id": 6949,
-		"filter": "",
+		"filter": "16",
 		"id": 6949
 	},
 	{
@@ -22002,7 +22002,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Im Vergleich zur kantonalen Entwicklung fällt besonders auf, dass der Ausländeranteil im Wohnviertel Matthäus in den letzten 20 Jahren kaum gestiegen ist, in den letzten vier Jahren sogar etwas zurückgegangen ist.",
 		"erlaeuterungen": "Jahresendbestände. Die Schweizer, die  15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens sind separat abgebildet.",
-		"template": "area001",
+		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -22019,7 +22019,7 @@ var indikatoren = [
 		],
 		"data-id": 6951,
 		"chart-id": 6951,
-		"filter": "",
+		"filter": "17",
 		"id": 6951
 	},
 	{
@@ -22042,7 +22042,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Im Vergleich zur kantonalen Entwicklung fällt besonders auf, dass der Ausländeranteil im Wohnviertel Klybeck in den letzten 20 Jahren nicht so stark gestiegen ist. Türken, Italiener und Personen aus dem Balkan stellen die grössten Gruppen. Portugiesen sind im kantonalen Vergleich stärker vertreten, Deutsche weniger.",
 		"erlaeuterungen": "Jahresendbestände. Die Schweizer, die  15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens sind separat abgebildet.",
-		"template": "area001",
+		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -22059,7 +22059,7 @@ var indikatoren = [
 		],
 		"data-id": 6952,
 		"chart-id": 6952,
-		"filter": "",
+		"filter": "18",
 		"id": 6952
 	},
 	{
@@ -22082,7 +22082,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Im Vergleich zur kantonalen Entwicklung fällt besonders auf, dass der Ausländeranteil im Wohnviertel Kleinhüningen in den letzten 20 Jahren nicht so stark gestiegen ist. Der Anteil Italiener ist deutlich zurückgegangen. Im kantonalen Vergleich wohnen mehr Portugiesen und weniger Deutsche im Wohnviertel.",
 		"erlaeuterungen": "Jahresendbestände. Die Schweizer, die  15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens sind separat abgebildet.",
-		"template": "area001",
+		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -22099,7 +22099,7 @@ var indikatoren = [
 		],
 		"data-id": 6953,
 		"chart-id": 6953,
-		"filter": "",
+		"filter": "19",
 		"id": 6953
 	},
 	{
@@ -22111,16 +22111,19 @@ var indikatoren = [
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Wohnviertel",
-		"raeumlicheGliederung": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel",
+			"Gemeinde"
+		],
 		"aktualisierungsdatum": "",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
-		"template": "area001",
+		"lesehilfe": "Die Gemeinde Riehen hat innerhalb des Kantons einen der höchsten Anteile an Schweizern, weshalb die Anteile der meisten anderen Staatsangehörigkeiten unter dem Kantonsdurchschnitt liegen. Ausnahme bilden die Deutschen, welche im Vergleich mit dem kantonalen Durchschnitt in Riehen deutlich stärker vertreten sind.",
+		"erlaeuterungen": "Jahresendbestände. Die Schweizer, die  15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens sind separat abgebildet.",
+		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -22128,14 +22131,16 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
 		"data-id": 6954,
 		"chart-id": 6954,
-		"filter": "",
+		"filter": "20",
 		"id": 6954
 	},
 	{
@@ -22159,7 +22164,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Im Vergleich zum kantonalen Durchschnitt wohnen in der Gemeinde Bettingen deutlich mehr Deutsche. Andere Nationalitäten sind kaum vertreten.",
 		"erlaeuterungen": "Jahresendbestände. Die Schweizer, die  15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens sind separat abgebildet.",
-		"template": "area001",
+		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -22176,7 +22181,7 @@ var indikatoren = [
 		],
 		"data-id": 6955,
 		"chart-id": 6955,
-		"filter": "",
+		"filter": "21",
 		"id": 6955
 	},
 	{
