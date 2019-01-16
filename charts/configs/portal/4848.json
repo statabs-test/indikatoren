@@ -122,7 +122,9 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "formatter": function () {
+            return this.value.replace("Erziehungsfragen oder -probleme", "Erziehungsfragen oder<br/>-probleme")}
     },
     "tickLength": 0
   },
@@ -170,7 +172,7 @@
           "fontSize": "10px"
         }
       },
-      "pointPadding": 0.1
+      "pointPadding": 0
     }
   },
   "title": {
@@ -207,8 +209,6 @@
       "style": {
         "color": "#000000"
       },
-      "formatter": function () {
-            return this.value.replace("Erziehungsfragen oder -probleme", "Erziehungsfragen oder <br/>-probleme")},
       "format": "{value}%"
     }
   },

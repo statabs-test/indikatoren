@@ -2,17 +2,17 @@
     return {
       plotOptions: {
         series: {
-            pointPadding: 0.1,
+            pointPadding: 0,
             borderWidth: 0
         }
     },
-  "xAxis": {
+  "xAxis": {    "labels": {
+         "formatter": function() {
+            return this.value.replace("Erziehungsfragen oder -probleme", "Erziehungsfragen oder<br/>-probleme")}},
     "type": "category"    
   },
-  "yAxis": {
-    "labels": {
-         "formatter": function() {
-            return this.value.replace("Erziehungsfragen oder -probleme", "Erziehungsfragen oder <br/>-probleme")},
+  "yAxis": {"labels": {
+
       "format": "{value}%"
     }    
   },
