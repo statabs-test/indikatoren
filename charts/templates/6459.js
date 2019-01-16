@@ -24,6 +24,9 @@
   	//"max": 0.5,
   //tickInterval: 10000,
     "labels": {
+      "formatter": function() {
+            return this.value.replace("Erziehungsfragen oder -probleme", "Erziehungsfragen oder <br/>-probleme")
+},
       "format": "{value:,.0f}" ,
         style: { 
 			textOverflow: 'none' // prevents ellipsis

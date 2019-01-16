@@ -309,6 +309,9 @@
         "color": "#000000",
         "textOverflow": "none"
       },
+      "formatter": function () {
+            return this.value.replace("Erziehungsfragen oder -probleme", "Erziehungsfragen oder <br/>-probleme")
+},
       "format": "{value:,.0f}"
     }
   },

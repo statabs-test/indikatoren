@@ -2,7 +2,7 @@
   "series": [
     {
       "color": "#FABD24",
-      "index": 0,
+      "index": 2,
       "data": [
         [
           "Berufliche Probleme",
@@ -74,7 +74,7 @@
     },
     {
       "color": "#73B97C",
-      "index": 2,
+      "index": 0,
       "data": [
         [
           "Berufliche Probleme",
@@ -169,7 +169,8 @@
         "style": {
           "fontSize": "10px"
         }
-      }
+      },
+      "pointPadding": 0.1
     }
   },
   "title": {

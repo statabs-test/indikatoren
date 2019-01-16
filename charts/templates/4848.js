@@ -1,5 +1,11 @@
 (function(){
     return {
+      plotOptions: {
+        series: {
+            pointPadding: 0.1,
+            borderWidth: 0
+        }
+    },
   "xAxis": {
     "type": "category"    
   },
@@ -11,7 +17,7 @@
   "series": [
    {
       "color": "#FABD24",
-      "index": 0
+      "index": 2
 
     },
        {
@@ -20,7 +26,7 @@
     },
     {
       "color": "#73B97C",
-      "index": 2
+      "index": 0
     }
   ],
   "legend": {
