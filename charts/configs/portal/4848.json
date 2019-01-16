@@ -207,6 +207,8 @@
       "style": {
         "color": "#000000"
       },
+      "formatter": function () {
+            return this.value.replace("Erziehungsfragen oder -probleme", "Erziehungsfragen oder <br/>-probleme")},
       "format": "{value}%"
     }
   },

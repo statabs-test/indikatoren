@@ -11,6 +11,8 @@
   },
   "yAxis": {
     "labels": {
+         "formatter": function() {
+            return this.value.replace("Erziehungsfragen oder -probleme", "Erziehungsfragen oder <br/>-probleme")},
       "format": "{value}%"
     }    
   },
