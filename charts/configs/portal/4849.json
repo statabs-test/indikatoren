@@ -12,6 +12,10 @@
         [
           "2013 (N=2231)",
           54.1
+        ],
+        [
+          "2017 (N=1665)",
+          56.4
         ]
       ],
       "name": "Stimmt genau",
@@ -29,6 +33,10 @@
         [
           "2013 (N=2231)",
           35.5
+        ],
+        [
+          "2017 (N=1665)",
+          35
         ]
       ],
       "name": "Stimmt eher",
@@ -46,6 +54,10 @@
         [
           "2013 (N=2231)",
           4.9
+        ],
+        [
+          "2017 (N=1665)",
+          3.9
         ]
       ],
       "name": "Stimmt eher nicht",
@@ -63,6 +75,10 @@
         [
           "2013 (N=2231)",
           1.2
+        ],
+        [
+          "2017 (N=1665)",
+          1.1
         ]
       ],
       "name": "Stimmt gar nicht",
@@ -80,6 +96,10 @@
         [
           "2013 (N=2231)",
           1.5
+        ],
+        [
+          "2017 (N=1665)",
+          1.7
         ]
       ],
       "name": "Weiss nicht",
@@ -97,6 +117,10 @@
         [
           "2013 (N=2231)",
           2.7
+        ],
+        [
+          "2017 (N=1665)",
+          1.9
         ]
       ],
       "name": "Keine Angabe",
@@ -209,7 +233,7 @@
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "credits": {
