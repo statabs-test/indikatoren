@@ -16,7 +16,7 @@
 "stufe5":"", 
 "lesehilfe":"Im Vergleich zum kantonalen Durchschnitt wohnen im Wohnviertel am Ring weniger Türken. Wie im Gesamtkanton stellen die Deutschen die grösste Bevölkerungsgruppe dar.",
 "erlaeuterungen":"Jahresendbestände. Die Schweizer, die  15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens sind separat abgebildet.",
-"template":"area001",
+"template":"stock001",
 "darstellungsart":"Grafik",
 "printformat":"", 
 "visible":true,
@@ -28,7 +28,7 @@
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
 "datenInChartIntegriert":false,
 "externalLinks":[""],
-"data-id":6936, 
-"chart-id":6936, 
+"data-id":6933, 
+"chart-id":6933, 
 "filter":"3"
 }

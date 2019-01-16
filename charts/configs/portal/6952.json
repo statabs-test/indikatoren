@@ -3391,7 +3391,7 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 415,
-    "spacingBottom": 20,
+    "spacingBottom": 30,
     "style": {
       "fontFamily": "Arial"
     },
@@ -3432,7 +3432,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Ausländische Bevölkerung nach Staatsangehörigkeit und Wohnviertel"
+    "text": "Ausländische Bevölkerung nach Staatsangehörigkeit"
   },
   "subtitle": {
     "style": {
@@ -3484,9 +3484,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -5
+      "y": -15
     },
-    "text": "Quelle: ."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik."
   },
   "legend": {
     "symbolRadius": 0,

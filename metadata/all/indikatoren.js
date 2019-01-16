@@ -34219,8 +34219,8 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6935,
-		"chart-id": 6935,
+		"data-id": 6933,
+		"chart-id": 6933,
 		"filter": "2",
 		"id": 6935
 	},
@@ -34244,7 +34244,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Im Vergleich zum kantonalen Durchschnitt wohnen im Wohnviertel am Ring weniger Türken. Wie im Gesamtkanton stellen die Deutschen die grösste Bevölkerungsgruppe dar.",
 		"erlaeuterungen": "Jahresendbestände. Die Schweizer, die  15 grössten Ausländergruppen am Jahresende 2017 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens sind separat abgebildet.",
-		"template": "area001",
+		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -34259,8 +34259,8 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6936,
-		"chart-id": 6936,
+		"data-id": 6933,
+		"chart-id": 6933,
 		"filter": "3",
 		"id": 6936
 	},
@@ -34299,8 +34299,8 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6937,
-		"chart-id": 6937,
+		"data-id": 6933,
+		"chart-id": 6933,
 		"filter": "4",
 		"id": 6937
 	},
@@ -34339,8 +34339,8 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6938,
-		"chart-id": 6938,
+		"data-id": 6933,
+		"chart-id": 6933,
 		"filter": "5",
 		"id": 6938
 	},
@@ -34379,8 +34379,8 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6939,
-		"chart-id": 6939,
+		"data-id": 6933,
+		"chart-id": 6933,
 		"filter": "6",
 		"id": 6939
 	},
@@ -34419,8 +34419,8 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6940,
-		"chart-id": 6940,
+		"data-id": 6933,
+		"chart-id": 6933,
 		"filter": "7",
 		"id": 6940
 	},
@@ -34459,8 +34459,8 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6941,
-		"chart-id": 6941,
+		"data-id": 6933,
+		"chart-id": 6933,
 		"filter": "8",
 		"id": 6941
 	},
@@ -34499,8 +34499,8 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6942,
-		"chart-id": 6942,
+		"data-id": 6933,
+		"chart-id": 6933,
 		"filter": "9",
 		"id": 6942
 	},
@@ -34539,8 +34539,8 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6943,
-		"chart-id": 6943,
+		"data-id": 6933,
+		"chart-id": 6933,
 		"filter": "10",
 		"id": 6943
 	},
@@ -34579,8 +34579,8 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6944,
-		"chart-id": 6944,
+		"data-id": 6933,
+		"chart-id": 6933,
 		"filter": "11",
 		"id": 6944
 	},
@@ -34619,8 +34619,8 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6945,
-		"chart-id": 6945,
+		"data-id": 6933,
+		"chart-id": 6933,
 		"filter": "12",
 		"id": 6945
 	},
@@ -34659,8 +34659,8 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6946,
-		"chart-id": 6946,
+		"data-id": 6933,
+		"chart-id": 6933,
 		"filter": "13",
 		"id": 6946
 	},
@@ -34699,8 +34699,8 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6947,
-		"chart-id": 6947,
+		"data-id": 6933,
+		"chart-id": 6933,
 		"filter": "14",
 		"id": 6947
 	},
@@ -34739,8 +34739,8 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6948,
-		"chart-id": 6948,
+		"data-id": 6933,
+		"chart-id": 6933,
 		"filter": "15",
 		"id": 6948
 	},
@@ -34779,8 +34779,8 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6949,
-		"chart-id": 6949,
+		"data-id": 6933,
+		"chart-id": 6933,
 		"filter": "16",
 		"id": 6949
 	},
@@ -34819,8 +34819,8 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6951,
-		"chart-id": 6951,
+		"data-id": 6933,
+		"chart-id": 6933,
 		"filter": "17",
 		"id": 6951
 	},
@@ -34859,8 +34859,8 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6952,
-		"chart-id": 6952,
+		"data-id": 6933,
+		"chart-id": 6933,
 		"filter": "18",
 		"id": 6952
 	},
@@ -34899,8 +34899,8 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6953,
-		"chart-id": 6953,
+		"data-id": 6933,
+		"chart-id": 6933,
 		"filter": "19",
 		"id": 6953
 	},
@@ -34940,8 +34940,8 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6954,
-		"chart-id": 6954,
+		"data-id": 6933,
+		"chart-id": 6933,
 		"filter": "20",
 		"id": 6954
 	},
@@ -34981,8 +34981,8 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6955,
-		"chart-id": 6955,
+		"data-id": 6933,
+		"chart-id": 6933,
 		"filter": "21",
 		"id": 6955
 	},
@@ -36068,7 +36068,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "",
 		"erlaeuterungen": "",
-		"template": "line001",
+		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
