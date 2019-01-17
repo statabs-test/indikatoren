@@ -6,32 +6,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 11135
+          "y": 0.1016987853,
+          "Anzahl": 11135
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 25557
+          "y": 0.233418577,
+          "Anzahl": 25557
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 40753
+          "y": 0.3722075075,
+          "Anzahl": 40753
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 19182
+          "y": 0.1751940817,
+          "Anzahl": 19182
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 6981
+          "y": 0.0637592474,
+          "Anzahl": 6981
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 5882
+          "y": 0.0537218011,
+          "Anzahl": 5882
         }
       ],
       "name": "Wohnungen",
@@ -125,18 +131,14 @@
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
-      },
-      "text": null
-    },
+    "title": "",
     "labels": {
       "style": {
         "color": "#000000"
       },
-      "format": "{value::,.f}"
+      "formatter": function (){
+            return this.value*100 + "%";
+          }
     }
   },
   "navigation": {
@@ -169,12 +171,7 @@
   },
   "tooltip": {
     "pointFormatter": function (){
-          //var pcnt = (this.y / this.series.data.map(p => p.y).reduce((a, b) => a + b, 0)) * 100;
-          var anteilInWv = (this.y / this.series.data
-            .map(function(p){return p.y;})
-            .reduce(function(accumulator, currentValue){return accumulator + currentValue;})) * 100;
-          return '<span style="color:' + this.color + '">●</span> ' + this.Wohnviertel + ': <b>' + Highcharts.numberFormat(this.y, 0)  + '</b> '
-            + '(' + Highcharts.numberFormat(anteilInWv, 1) + '%) <br/>';
+          return '<span style="color:' + this.color + '">●</span> ' + this.Wohnviertel + ': <b> ' + Highcharts.numberFormat(this.Anzahl, 0, ",", " ") + "</b> (" +Highcharts.numberFormat(this.y*100, 1, ",", " ") + "%)";
         }
   },
   "customFunctions": {

@@ -11,7 +11,7 @@ global Highcharts
           var filterValue = this.chartOptions.customFunctions.filter;
           
           //define which column (zero-based index) should be filtered 
-          var filterColumnIndex = 4;
+          var filterColumnIndex = 6;
           //go backwards through the column with the values to filter (because we remove values at the end of the array and want to retain the index)
           for (var i = columns[0].length; i > 0; i--){
             if (columns[filterColumnIndex][i] != filterValue){
@@ -25,23 +25,24 @@ global Highcharts
           //columns[1][0] = columns[2][1];
         },
         seriesMapping: [
-          {x: 2, Wohnviertel: 5, y: 3}
+          {x: 2, Wohnviertel: 7, y: 5, Anzahl: 3}
         ]
       },
       tooltip: {
         pointFormatter: function(){
-          //var pcnt = (this.y / this.series.data.map(p => p.y).reduce((a, b) => a + b, 0)) * 100;
-          var anteilInWv = (this.y / this.series.data
-            .map(function(p){return p.y;})
-            .reduce(function(accumulator, currentValue){return accumulator + currentValue;})) * 100;
-          return '<span style="color:' + this.color + '">●</span> ' + this.Wohnviertel + ': <b>' + Highcharts.numberFormat(this.y, 0)  + '</b> '
-            + '(' + Highcharts.numberFormat(anteilInWv, 1) + '%) <br/>';
+          return '<span style="color:' + this.color + '">●</span> ' + this.Wohnviertel + ': <b> ' + Highcharts.numberFormat(this.Anzahl, 0, ",", " ") + "</b> (" +Highcharts.numberFormat(this.y*100, 1, ",", " ") + "%)";
         },
       },
       yAxis: {
         labels: {
-          format: "{value::,.f}",
-        }
+          formatter: function(){
+            return this.value*100 + "%";
+          },
+          style: {
+            color: "#000000",
+          },
+        }, 
+        title: "",
       },
       xAxis: {
         reversed: false,
