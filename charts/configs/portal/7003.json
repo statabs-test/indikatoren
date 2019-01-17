@@ -756,8 +756,9 @@
       "fontSize": "9px"
     },
     "padding": 0,
-    "x": -1,
+    "x": 25,
     "width": 340,
+    "margin": 20,
     "labelFormatter": function (){
       return this.name
         .replace("Öffentliche Verwaltung, Sozialvers.", "Öffentl. Verw., Sozialvers.")

@@ -34011,12 +34011,12 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Meldepflichtige",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.3 Meldepflichtige",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die aktuellen Werte im Meldewesen für das Jahr 2017 liegen sowohl gesamtschweizerisch als auch in den betrachteten Kantonen über den Vorjahreswerten (in der Grafik sind die einzelnen Quartalswerte abgebildet). In Basel-Stadt leisteten die Meldepflichtigen 2017 insgesamt 479 803 Arbeitstage, gegenüber dem Vorjahr entspricht dies einer Zunahme um 1 955 bzw. 0,4%.",
+		"lesehilfe": "Die aktuellen Werte im Meldewesen für das Jahr 2018 liegen in den Kantonen Basel-Landschaft und Basel-Stadt unter den Vorjahreswerten (in der Grafik sind die einzelnen Quartalswerte abgebildet). In Basel-Stadt leisteten die Meldepflichtigen 2018 insgesamt 456 190 Arbeitstage, gegenüber dem Vorjahr entspricht dies einer Abnahme um 23 613 bzw. 4,9%. Gesamtschweizerisch sowie in den Kantonen Aargau und Zürich liegen die aktuellen Werte über den Vorjahreswerten.",
 		"erlaeuterungen": "Meldepflichtige: Dienstleistungserbringung von ausländischen Unternehmen und Selbstständigen in der Schweiz während maximal 90 Arbeitstagen pro Jahr.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -34029,9 +34029,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7029,
+		"chart-id": 7029,
+		"filter": "",
 		"id": 7029
 	},
 	{
@@ -34047,12 +34051,12 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Meldepflichtige",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.3 Meldepflichtige",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei der Anzahl meldepflichtiger Personen liegen die aktuellen Werte gesamtschweizerisch sowie in den Kantonen Basel-Landschaft, Aargau und Zürich über den Vorjahreswerten. Im Kanton Basel-Stadt liegt der aktuelle Wert mit 18 860 meldepflichtigen Personen unter dem Vorjahreswert (-2,8%; -548 Meldepflichtige). In der Grafik sind die Quartalswerte abgebildet.",
+		"lesehilfe": "Bei der Anzahl meldepflichtiger Personen liegen die aktuellen Werte gesamtschweizerisch sowie in den Kantonen Aargau und Zürich über den Vorjahreswerten. In den Kantonen Basel-Landschaft und Basel-Stadt liegen die aktuellen Werte unter den Vorjahreswerten.  In Basel-Stadt wurden 17 992 meldepflichtigen Personen registriert, das sind 4,6% bzw. 868 Meldepflichtige weniger als 2017. In der Grafik sind die Quartalswerte abgebildet.",
 		"erlaeuterungen": "Meldepflichtige: Dienstleistungserbringung von ausländischen Unternehmen und Selbstständigen in der Schweiz während maximal 90 Arbeitstagen pro Jahr.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -34065,9 +34069,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7030,
+		"chart-id": 7030,
+		"filter": "",
 		"id": 7030
 	},
 	{
@@ -34083,12 +34091,12 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Meldepflichtige",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.3 Meldepflichtige",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Messe- und ferienbedingt ist der Bedarf an Arbeitskräften saisonalen Schwankungen ausgesetzt. Bei den Arbeitnehmenden hat 2017 die Zahl der Arbeitstage im Vergleich zum Vorjahr um 23 256 bzw. 8,5% auf 297 024 Arbeitstage zugenommen. Bei den Selbständigerwerbenden und Entsandten wurden 2017 weniger Arbeitstage verzeichnet als im Vorjahr.",
+		"lesehilfe": "Messe- und ferienbedingt ist der Bedarf an Arbeitskräften saisonalen Schwankungen ausgesetzt. Bei den Arbeitnehmenden ist 2018 die Zahl der Arbeitstage im Vergleich zum Vorjahr um 1 889 bzw. 0,6% auf 298 913 Arbeitstage gestiegen. Bei den Selbständigerwerbenden und Entsandten wurden 2018 weniger Arbeitstage verzeichnet als im Vorjahr.",
 		"erlaeuterungen": "Meldepflichtige: Dienstleistungserbringung von ausländischen Unternehmen und Selbstständigen in der Schweiz während maximal 90 Arbeitstagen pro Jahr.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -34101,9 +34109,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7031,
+		"chart-id": 7031,
+		"filter": "",
 		"id": 7031
 	},
 	{
@@ -34119,12 +34131,12 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Meldepflichtige",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.3 Meldepflichtige",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund ein Drittel der Meldepflichtigen ist weiblich, bei den Arbeitnehmenden liegt der Frauenanteil im Mittel des Jahres 2017 bei 43,8%. Der Anteil weiblicher Entsandter liegt 2017 bei 8,7%, jener der Selbstständigerwerbenden bei 8,1%.",
+		"lesehilfe": "Rund ein Drittel der Meldepflichtigen ist weiblich, bei den Arbeitnehmenden liegt der Frauenanteil im Mittel des Jahres 2018 bei 43,1%. Der Anteil weiblicher Entsandter liegt 2018 bei 8,8%, jener der Selbstständigerwerbenden bei 8,4%. Insgesamt hat der Frauenanteil der Meldepflichtigen gegenüber dem Vorjahr um 2,9 Prozentpunkte zugenommen.",
 		"erlaeuterungen": "Meldepflichtige: Dienstleistungserbringung von ausländischen Unternehmen und Selbstständigen in der Schweiz während maximal 90 Arbeitstagen pro Jahr.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -34137,9 +34149,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7032,
+		"chart-id": 7032,
+		"filter": "",
 		"id": 7032
 	},
 	{
@@ -34155,12 +34171,12 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Meldepflichtige",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.3 Meldepflichtige",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2017 leisteten 8 248 Meldepflichtige im Bereich Industrie und Baugewerbe 184 905 Arbeitstage, was im Vergleich zu den Arbeitstagen im Jahr 2016 einer Abnahme um 12 470 bzw. 6,3% entspricht. Im 1. Quartal werden jeweils am meisten Arbeitstage verzeichnet: Der Bedarf meldepflichtiger Arbeitskräfte in Industrie und Baugewerbe war im 1. Quartal 2017 mit insgesamt 74 725 Arbeitstagen tiefer als im Vorjahresquartal.",
+		"lesehilfe": "2018 leisteten 7 734 Meldepflichtige im Bereich Industrie und Baugewerbe 162 182 Arbeitstage, was im Vergleich zu den Arbeitstagen im Jahr 2017 einer Abnahme um 22 723 bzw. 12,3% entspricht. Im 1. Quartal werden jeweils am meisten Arbeitstage verzeichnet: Der Bedarf meldepflichtiger Arbeitskräfte in Industrie und Baugewerbe war im 1. Quartal 2018 mit insgesamt 72 543 Arbeitstagen tiefer als im Vorjahresquartal.",
 		"erlaeuterungen": "Meldepflichtige: Dienstleistungserbringung von ausländischen Unternehmen und Selbstständigen in der Schweiz während maximal 90 Arbeitstagen pro Jahr.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -34173,9 +34189,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7033,
+		"chart-id": 7033,
+		"filter": "",
 		"id": 7033
 	},
 	{
@@ -34191,12 +34211,12 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Meldepflichtige",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.3 Meldepflichtige",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den Branchen Handel, Verkehr, Gastgewerbe und IT- Dienstleistung leisteten 2 682 Meldepflichtige 61 039 Arbeitstage. Im Vergleich zum Vorjahr entspricht dies bei den Arbeitstagen einer Zunahme um 4,7%. Im Gastgewerbe wurden 2017 insgesamt 1 213 Meldepflichtige registriert, die  28 778 Arbeitstage leisteten. Im Vergleich zum Vorjahr bedeutet dies eine Zunahme um 3 719 Arbeitstage bzw. 14,8%. Die messebedingten Spitzen im Gastgewerbe jeweils im 1. Quartal bzw. im März sind weiterhin erkennbar.",
+		"lesehilfe": "In den Branchen Handel, Verkehr, Gastgewerbe und IT- Dienstleistung leisteten 2 417 Meldepflichtige 54 891 Arbeitstage. Im Vergleich zum Vorjahr entspricht dies bei den Arbeitstagen einer Abnahme um 10,1%. Im Gastgewerbe wurden 2018 insgesamt 945 Meldepflichtige registriert, die  26 084 Arbeitstage leisteten. Im Vergleich zum Vorjahr bedeutet dies eine Abnahme um 2 694 Arbeitstage bzw. 9,4%.",
 		"erlaeuterungen": "Meldepflichtige: Dienstleistungserbringung von ausländischen Unternehmen und Selbstständigen in der Schweiz während maximal 90 Arbeitstagen pro Jahr.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -34209,9 +34229,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7034,
+		"chart-id": 7034,
+		"filter": "",
 		"id": 7034
 	},
 	{
@@ -34371,12 +34395,12 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Meldepflichtige",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.3 Meldepflichtige",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2017 leisteten 1 524 Meldepflichtige im Bereich Personalvermittlung bzw. -überlassung 90 525 Arbeitstage, was im Vergleich zu den Arbeitstagen im Vorjahr einer Zunahme um 16 045 bzw. 21,5% entspricht. Die Entwicklung in der Vermittlung von Arbeitskräften zeigt ein saisonal geprägtes Muster mit dem Höhepunkt jeweils im 3. Quartal: Im 3. Quartal wurden im Schnitt der letzten fünf Jahre rund 36 300 Arbeitstage verzeichnet.",
+		"lesehilfe": "1 584 Meldepflichtige leisteten 2018 im Bereich Personalvermittlung bzw. -überlassung 94 209 Arbeitstage, was im Vergleich zu den Arbeitstagen im Vorjahr einer Zunahme um 3 684 bzw. 4,1% entspricht. Die Entwicklung in der Vermittlung von Arbeitskräften zeigt ein saisonal geprägtes Muster mit dem Höhepunkt jeweils im 3. Quartal: Im 3. Quartal wurden im Schnitt der letzten fünf Jahre rund 35 000 Arbeitstage verzeichnet.",
 		"erlaeuterungen": "Meldepflichtige: Dienstleistungserbringung von ausländischen Unternehmen und Selbstständigen in der Schweiz während maximal 90 Arbeitstagen pro Jahr.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -34389,9 +34413,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7039,
+		"chart-id": 7039,
+		"filter": "",
 		"id": 7039
 	},
 	{
@@ -34407,12 +34435,12 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Meldepflichtige",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.3 Meldepflichtige",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen wurden 2017 insgesamt 3 309 Meldepflichtige registriert, die 61 903 Arbeitstage leisteten. Im Vergleich zu den Arbeitstagen 2016 bedeutet dies eine Zunahme um 6 575 bzw. 11,9%. In den Bereichen Öffentliche Verwaltung und Sozialversicherungen sowie Erziehung und Unterricht wurden 2017 lediglich 9 212 Arbeitstage verzeichnet.",
+		"lesehilfe": "Im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen wurden 2018 insgesamt 3 312 Meldepflichtige registriert, die 62 710 Arbeitstage leisteten. Im Vergleich zu den Arbeitstagen 2017 bedeutet dies eine Zunahme um 807 bzw. 1,3%. Im Bereich Gesundheits- und Sozialwesen wurden 20 461 Arbeitstage verzeichnet, gegenüber dem Vorjahr entspricht dies einer Zunahme um 1 407 bzw. 7,4%.",
 		"erlaeuterungen": "Meldepflichtige: Dienstleistungserbringung von ausländischen Unternehmen und Selbstständigen in der Schweiz während maximal 90 Arbeitstagen pro Jahr.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -34425,9 +34453,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7040,
+		"chart-id": 7040,
+		"filter": "",
 		"id": 7040
 	},
 	{
@@ -34739,7 +34771,7 @@ var indikatoren = [
 		"title": "Meldepflichtige pro Beschäftigten nach Branche",
 		"subtitle": "Basel-Stadt, pro Beschäftigten in Vollzeitäquivalenten",
 		"kuerzel": "I.03.5.07049",
-		"kuerzelKunde": "2.3-03",
+		"kuerzelKunde": "2.1-05",
 		"description": "Meldepflichtige pro Beschäftigten nach Branche",
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Ausländische Erwerbstätige",
@@ -34748,12 +34780,12 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Übersicht Basler Arbeitsmarkt",
+		"stufe1": "2 Übersicht Basler Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Abbildung zeigt die Zahl der Meldepflichtigen (maximal 90 Tage pro Jahr erwerbstätig) in Vollzeitäquivalente umgerechnet im Vergleich zu den auf dem baselstädtischen Arbeitsmarkt tätigen Beschäftigten, ebenfalls in Vollzeitäquivalenten. Bedeutend sind die Meldepflichtigen 2017 demnach vor allem in der Baubranche mit rund 6,7% im Vergleich zur sonstigen Beschäftigung in dieser Branche (Beschäftigungsstand: 2015). Ebenfalls bedeutend sind die Meldepflichtigen in der Personalvermittlung und -überlassung mit 6,2% im Jahr 2017. Es folgen Kultur, Unterhaltung und persönliche Dienstleistungen mit 3,4% sowie die IT-Dienstleistungen mit 2,5%. In den restlichen Branchen spielen die Meldepflichtigen eher eine untergeordnete Rolle.",
+		"lesehilfe": "Die Abbildung zeigt die Zahl der Meldepflichtigen (maximal 90 Tage pro Jahr erwerbstätig) in Vollzeitäquivalente umgerechnet im Vergleich zu den auf dem baselstädtischen Arbeitsmarkt tätigen Beschäftigten, ebenfalls in Vollzeitäquivalenten. Bedeutend sind die Meldepflichtigen 2018 vor allem in der Personalvermittlung und -überlassung mit 6,3% im Vergleich zur zur sonstigen Beschäftigung in dieser Branche (Beschäftigungsstand: 2016). Die Meldepflichtigen sind auch in der Baubranche mit 5,9% im Jahr 2018 bedeutend. Es folgen Kultur, Unterhaltung und persönliche Dienstleistungen mit 3,6% sowie die IT-Dienstleistungen mit 1,9%. In den restlichen Branchen spielen die Meldepflichtigen eher eine untergeordnete Rolle.",
 		"erlaeuterungen": "Meldepflichtige: Dienstleistungserbringung von ausländischen Arbeitnehmern und Selbstständigen in der Schweiz während maximal 90 Arbeitstagen pro Jahr. Beschäftigte (Vollzeitäquivalente): Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -34766,9 +34798,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7049,
+		"chart-id": 7049,
+		"filter": "",
 		"id": 7049
 	},
 	{

@@ -2,6 +2,7 @@
     return {
 	plotOptions: {
         series: {
+            minPointLength: 2,
             pointPadding: 0,
             groupPadding: 0.1,
             borderWidth: 0

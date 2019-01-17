@@ -9,12 +9,12 @@
 "kennzahlenset":"Arbeitsmarkt (Print)",
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
-"stufe1":"Monitoring Basler Arbeitsmarkt",
-"stufe2":"Ausländische Erwerbstätige",
-"stufe3":"Meldepflichtige",
+"stufe1":"3 Monitoring Basler Arbeitsmarkt",
+"stufe2":"3.4 Ausländische Erwerbstätige",
+"stufe3":"3.4.3 Meldepflichtige",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Bei der Anzahl meldepflichtiger Personen liegen die aktuellen Werte gesamtschweizerisch sowie in den Kantonen Basel-Landschaft, Aargau und Zürich über den Vorjahreswerten. Im Kanton Basel-Stadt liegt der aktuelle Wert mit 18 860 meldepflichtigen Personen unter dem Vorjahreswert (-2,8%; -548 Meldepflichtige). In der Grafik sind die Quartalswerte abgebildet.",
+"lesehilfe":"Bei der Anzahl meldepflichtiger Personen liegen die aktuellen Werte gesamtschweizerisch sowie in den Kantonen Aargau und Zürich über den Vorjahreswerten. In den Kantonen Basel-Landschaft und Basel-Stadt liegen die aktuellen Werte unter den Vorjahreswerten.  In Basel-Stadt wurden 17 992 meldepflichtigen Personen registriert, das sind 4,6% bzw. 868 Meldepflichtige weniger als 2017. In der Grafik sind die Quartalswerte abgebildet.",
 "erlaeuterungen":"Meldepflichtige: Dienstleistungserbringung von ausländischen Unternehmen und Selbstständigen in der Schweiz während maximal 90 Arbeitstagen pro Jahr.",
 "template":"line001_print",
 "darstellungsart":"",
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":7030, 
+"chart-id":7030, 
+"filter":""
 }

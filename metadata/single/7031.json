@@ -9,12 +9,12 @@
 "kennzahlenset":"Arbeitsmarkt (Print)",
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
-"stufe1":"Monitoring Basler Arbeitsmarkt",
-"stufe2":"Ausländische Erwerbstätige",
-"stufe3":"Meldepflichtige",
+"stufe1":"3 Monitoring Basler Arbeitsmarkt",
+"stufe2":"3.4 Ausländische Erwerbstätige",
+"stufe3":"3.4.3 Meldepflichtige",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Messe- und ferienbedingt ist der Bedarf an Arbeitskräften saisonalen Schwankungen ausgesetzt. Bei den Arbeitnehmenden hat 2017 die Zahl der Arbeitstage im Vergleich zum Vorjahr um 23 256 bzw. 8,5% auf 297 024 Arbeitstage zugenommen. Bei den Selbständigerwerbenden und Entsandten wurden 2017 weniger Arbeitstage verzeichnet als im Vorjahr.",
+"lesehilfe":"Messe- und ferienbedingt ist der Bedarf an Arbeitskräften saisonalen Schwankungen ausgesetzt. Bei den Arbeitnehmenden ist 2018 die Zahl der Arbeitstage im Vergleich zum Vorjahr um 1 889 bzw. 0,6% auf 298 913 Arbeitstage gestiegen. Bei den Selbständigerwerbenden und Entsandten wurden 2018 weniger Arbeitstage verzeichnet als im Vorjahr.",
 "erlaeuterungen":"Meldepflichtige: Dienstleistungserbringung von ausländischen Unternehmen und Selbstständigen in der Schweiz während maximal 90 Arbeitstagen pro Jahr.",
 "template":"line001_print",
 "darstellungsart":"",
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":7031, 
+"chart-id":7031, 
+"filter":""
 }
