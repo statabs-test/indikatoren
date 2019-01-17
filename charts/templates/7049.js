@@ -2,7 +2,7 @@
     return {
 	plotOptions: {
         series: {
-            minPointLength: 2,
+            minPointLength: 1.6,
             pointPadding: 0,
             groupPadding: 0.1,
             borderWidth: 0
@@ -17,9 +17,10 @@
            "align": "right",
            "formatter": function() {
             return this.value
+            .replace("Industrie (inkl. Chemie, Pharma)", "Industrie (inkl. <br/>Chemie, Pharma)<br/> ")
+            .replace("Baugewerbe", "Baugewerbe")
             .replace("Finanz-, Versicherungs-DL", "Finanz-,<br/>Versicherungs-DL")
             .replace("Personalvermittlung, -überlassung", "Personalvermittlung,<br/>-überlassung")
-            .replace("Industrie (inkl. Chemie, Pharma)", "Industrie (inkl. <br/>Chemie, Pharma)")
             .replace("Öffentliche Verwaltung, Sozialversicherungen", "Öffentliche <br/>Verwaltung, <br/>Sozialversicherungen")
             .replace("Kultur, Unterhaltung, pers. DL", "Kultur, Unterhaltung, <br/>pers. DL")
             .replace("Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL", "Gebäudebetreuung, <br/>Sicherheit, sonst. <br/>wirtsch. DL")
