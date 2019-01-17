@@ -148,18 +148,11 @@ global $
          shared: false,
          split: false,
          reversed: true,
-         /*
          formatter: function () {
-          //console.log(this.points[0].series.chart.series);
-          var lastSeriesIndex = (this.points[0].series.chart.series.length -1)/ 2;
-          var s = '<b>'+ this.points[0].series.chart.series[lastSeriesIndex].name + ' ' +  new Date(this.x).getUTCFullYear() + '</b>';
-          for (var i = this.points.length -1; i >= 0; i--){
-              var p = this.points[i];
-              s += '<br/><span style="color:' + p.color + '">\u25CF</span> ' + p.series.name + ': <b>' + p.y + '</b>';
-          }
-          return s;
+            var s = '<span style="font-size: 10px">' + new Date(this.x).getUTCFullYear() + '</span> <br/> <span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + this.y + '</b>';
+            //suppress tooltip if value equals 0
+            return (this.y > 0 ? s : false);
          },
-         */
      },      
      plotOptions: { 
         series: {

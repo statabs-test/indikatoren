@@ -3552,7 +3552,12 @@
     "enabled": true,
     "shared": false,
     "split": false,
-    "reversed": true
+    "reversed": true,
+    "formatter": function () {
+            var s = '<span style="font-size: 10px">' + new Date(this.x).getUTCFullYear() + '</span> <br/> <span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + this.y + '</b>';
+            //suppress tooltip if value equals 0
+            return (this.y > 0 ? s : false);
+         }
   },
   "exporting": {
     "csv": {
