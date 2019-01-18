@@ -214,8 +214,10 @@
     },
     "labels": {
       "style": {
-        "fontSize": "10px",
-        "color": "#000000"
+        "fontSize": "9px",
+        "color": "#000000",
+        "width": "100px",
+        "wordWrap": "break-word"
       },
       "rotation": -90,
       "y": 10,

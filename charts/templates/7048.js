@@ -73,7 +73,7 @@
   	"type": "column",
     "inverted": false,
   	width: 662, 
-  	hight: 208,
+  	height: 208,
 	  spacingTop: 5,
 	  spacingBottom: 5
   }

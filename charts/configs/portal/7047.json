@@ -226,8 +226,10 @@
     },
     "labels": {
       "style": {
-        "fontSize": "10px",
-        "color": "#000000"
+        "fontSize": "9px",
+        "color": "#000000",
+        "width": "100px",
+        "wordWrap": "break-word"
       },
       "rotation": -90,
       "y": 10,
@@ -285,7 +287,6 @@
     },
     "type": "column",
     "inverted": false,
-    "hight": 208,
     "spacingTop": 5,
     "spacingBottom": 15,
     "renderTo": "container-7047"

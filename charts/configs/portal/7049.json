@@ -276,7 +276,6 @@
     },
     "type": "column",
     "inverted": false,
-    "hight": 208,
     "spacingTop": 5,
     "spacingBottom": 5,
     "renderTo": "container-7049"

@@ -26,6 +26,12 @@
             .replace("Information, Kommunikation", "Information, <br/>Kommunikation")
             .replace("Beratung, Planung, Forschung, Immobilien", "Beratung, Planung, <br/>Forschung, Immobilien");
         },
+        style: { 
+          fontSize: "9px",
+          width: "100px",
+          wordWrap: 'break-word',
+		//	textOverflow: 'none' // prevents ellipsis
+		} 
     },
   },
   "yAxis": {
@@ -67,7 +73,7 @@
   	"type": "column",
     "inverted": false,
   	width: 662, 
-  	hight: 208,
+  	height: 208,
 	  spacingTop: 5,
 	  spacingBottom: 5
 	  
