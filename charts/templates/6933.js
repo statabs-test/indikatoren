@@ -145,13 +145,20 @@ global $
       },
      tooltip: {
          enabled: true,
-         shared: false,
+         shared: true,
          split: false,
-         reversed: true,
-         formatter: function () {
+         reversed: false,
+         pointFormatter: function(){
+           //console.log(this);
+           return (this.y > 0 ? '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + this.y + '</b><br/>': "");
+         },
+         _formatter: function () {
             var s = '<span style="font-size: 10px">' + new Date(this.x).getUTCFullYear() + '</span> <br/> <span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + this.y + '</b>';
             //suppress tooltip if value equals 0
-            return (this.y > 0 ? s : false);
+            console.log(this.y);
+            console.log(this);
+            return s;
+            //return (this.y > 0 ? s : false);
          },
      },      
      plotOptions: { 
