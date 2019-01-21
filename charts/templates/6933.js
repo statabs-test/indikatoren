@@ -163,6 +163,13 @@ global $
      },      
      plotOptions: { 
         series: {
+          marker: {
+            states: {
+              hover: {
+                enabled: false,
+              },
+            },
+          },
           stacking: "normal", 
           lineWidth: 1,
           fillOpacity: 1, 
