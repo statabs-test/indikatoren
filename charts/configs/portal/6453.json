@@ -146,6 +146,22 @@
         [
           "2017-4",
           1067
+        ],
+        [
+          "2018-1",
+          540
+        ],
+        [
+          "2018-2",
+          1063
+        ],
+        [
+          "2018-3",
+          2034
+        ],
+        [
+          "2018-4",
+          923
         ]
       ],
       "name": "Öffentliche Verwaltung, Sozialversicherungen",
@@ -297,6 +313,22 @@
         [
           "2017-4",
           1252
+        ],
+        [
+          "2018-1",
+          693
+        ],
+        [
+          "2018-2",
+          1566
+        ],
+        [
+          "2018-3",
+          1692
+        ],
+        [
+          "2018-4",
+          1149
         ]
       ],
       "name": "Erziehung, Unterricht",
@@ -448,6 +480,22 @@
         [
           "2017-4",
           4608
+        ],
+        [
+          "2018-1",
+          5055
+        ],
+        [
+          "2018-2",
+          3744
+        ],
+        [
+          "2018-3",
+          7139
+        ],
+        [
+          "2018-4",
+          4523
         ]
       ],
       "name": "Gesundheits-, Sozialwesen",
@@ -599,6 +647,22 @@
         [
           "2017-4",
           17736
+        ],
+        [
+          "2018-1",
+          15051
+        ],
+        [
+          "2018-2",
+          15640
+        ],
+        [
+          "2018-3",
+          14146
+        ],
+        [
+          "2018-4",
+          17873
         ]
       ],
       "name": "Kultur, Unterhaltung, pers. DL",
@@ -643,8 +707,8 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 428,
-    "spacingBottom": 55,
+    "height": 415,
+    "spacingBottom": 45,
     "style": {
       "fontFamily": "Arial"
     },
@@ -690,7 +754,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickInterval": 5000
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -704,9 +769,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)."
   },
   "legend": {
     "enabled": true,

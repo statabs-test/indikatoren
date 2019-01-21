@@ -146,6 +146,22 @@
         [
           "2017-4",
           4983
+        ],
+        [
+          "2018-1",
+          3088
+        ],
+        [
+          "2018-2",
+          3397
+        ],
+        [
+          "2018-3",
+          3064
+        ],
+        [
+          "2018-4",
+          5565
         ]
       ],
       "name": "Handel, Reparatur",
@@ -297,6 +313,22 @@
         [
           "2017-4",
           400
+        ],
+        [
+          "2018-1",
+          438
+        ],
+        [
+          "2018-2",
+          516
+        ],
+        [
+          "2018-3",
+          708
+        ],
+        [
+          "2018-4",
+          2014
         ]
       ],
       "name": "Verkehr, Lagerei, Kommunikation",
@@ -448,6 +480,22 @@
         [
           "2017-4",
           7592
+        ],
+        [
+          "2018-1",
+          6743
+        ],
+        [
+          "2018-2",
+          5552
+        ],
+        [
+          "2018-3",
+          5928
+        ],
+        [
+          "2018-4",
+          7861
         ]
       ],
       "name": "Gastgewerbe",
@@ -599,6 +647,22 @@
         [
           "2017-4",
           2567
+        ],
+        [
+          "2018-1",
+          3515
+        ],
+        [
+          "2018-2",
+          2326
+        ],
+        [
+          "2018-3",
+          2046
+        ],
+        [
+          "2018-4",
+          2130
         ]
       ],
       "name": "IT-Dienstleistungen",
@@ -643,8 +707,8 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 428,
-    "spacingBottom": 55,
+    "height": 415,
+    "spacingBottom": 45,
     "style": {
       "fontFamily": "Arial"
     },
@@ -704,9 +768,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)."
   },
   "legend": {
     "enabled": true,
