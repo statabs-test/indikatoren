@@ -36,8 +36,8 @@
     style: { 
           "textAlign": "center",
           fontSize: "9px",
-          width: "100px",
-          wordWrap: 'break-word',
+       //   width: "100px",
+        //  wordWrap: 'break-word',
 		} 
     },
   },

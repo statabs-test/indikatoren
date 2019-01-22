@@ -11,6 +11,7 @@
     "type": "category",
     "labels": {
       useHTML: true,
+      fallbackToExportServer: false,
       rotation: -90,
       y: 7,
       x: -10,
