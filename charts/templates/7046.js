@@ -10,27 +10,35 @@
   "xAxis": {
     "type": "category",
     "labels": {
+      useHTML: true,
       rotation: -90,
-      y: 10,
+      y: 7,
       x: -10,
-           "align": "right",
            "formatter": function() {
             return this.value
-            .replace("Finanz-, Versicherungs-DL", "Finanz-,<br/>Versicherungs-DL")
-            .replace("Personalvermittlung, -überlassung", "Personalvermittlung,<br/>-überlassung")
-            .replace("Industrie (exkl. Chemie, Pharma)", "Industrie (exkl. <br/>Chemie, Pharma)")
-            .replace("Öffentliche Verwaltung, Sozialversicherungen", "Öffentliche <br/>Verwaltung, <br/>Sozialversicherungen")
-            .replace("Kultur, Unterhaltung, pers. DL", "Kultur, Unterhaltung, <br/>pers. DL")
-            .replace("Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL", "Gebäudebetreuung, <br/>Sicherheit, sonst. <br/>wirtsch. DL")
-            .replace("Gesundheits-, Sozialwesen", "Gesundheits-, <br/>Sozialwesen")
+            .replace("Industrie (exkl. Chemie, Pharma)", "Industrie (exkl. <br/>Chemie,\u00A0Pharma)")
+            .replace("Chemie, Pharma", "<br/>Chemie, Pharma<br/> ")
+            .replace("Baugewerbe", "<br/>Baugewerbe<br/>")
+            .replace("Handel, Reparatur", "<br/>Handel, Reparatur<br/>")
+            .replace("Verkehr, Lagerei", "<br/>Verkehr, Lagerei<br/>")
+            .replace("Gastgewerbe", "<br/>Gastgewerbe<br/>")
             .replace("Information, Kommunikation", "Information, <br/>Kommunikation")
-            .replace("Beratung, Planung, Forschung, Immobilien", "Beratung, Planung, <br/>Forschung, Immobilien");
+            .replace("Finanz-, Versicherungs-DL", "Finanz-,<br/>Versicherungs-DL")
+            .replace("Beratung, Planung, Forschung, Immobilien", "Beratung, Planung, <br/>Forschung, Immobilien")
+            .replace("Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL", "Gebäudebetreuung, <br/>Sicherheit, sonst. <br/>wirtsch. DL")
+            .replace("Personalvermittlung, -überlassung", "Personalvermittlung,<br/>-überlassung")
+            .replace("Öffentliche Verwaltung, Sozialversicherungen", "Öffentliche <br/>Verwaltung, <br/>Sozialversicherungen")
+            .replace("Erziehung, Unterricht", "<br/>Erziehung, Unterricht<br/>")
+            .replace("Kultur, Unterhaltung, pers. DL", "Kultur, Unterhaltung, <br/>pers. DL")
+            .replace("Gesundheits-, Sozialwesen", "Gesundheits-, <br/>Sozialwesen")
+            .replace("Total", "<br/>Total<br/>")
+            ;
     },
     style: { 
+          "textAlign": "center",
           fontSize: "9px",
           width: "100px",
           wordWrap: 'break-word',
-		//	textOverflow: 'none' // prevents ellipsis
 		} 
     },
   },

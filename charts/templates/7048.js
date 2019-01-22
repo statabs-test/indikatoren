@@ -10,27 +10,33 @@
   "xAxis": {
     "type": "category",
     "labels": {
+      useHTML: true,
       rotation: -90,
-      y: 10,
+      y: 7,
       x: -10,
-           "align": "right",
            "formatter": function() {
             return this.value
+            .replace("Industrie (exkl. Chemie, Pharma)", "Industrie (exkl. <br/>Chemie,\u00A0Pharma)")
+            .replace("Chemie, Pharma", "<br/>Chemie, Pharma<br/> ")
+            .replace("Baugewerbe", "<br/>Baugewerbe<br/>")
+            .replace("Handel, Reparatur", "<br/>Handel, Reparatur<br/>")
+            .replace("Verkehr, Lagerei, Kommunikation", "Verkehr, Lagerei,<br/>Kommunikation")
+            .replace("Gastgewerbe", "<br/>Gastgewerbe<br/>")
             .replace("Finanz-, Versicherungs-DL", "Finanz-,<br/>Versicherungs-DL")
-            .replace("Personalvermittlung, -überlassung", "Personalvermittlung,<br/>-überlassung")
-            .replace("Industrie (exkl. Chemie, Pharma)", "Industrie (exkl. <br/>Chemie, Pharma)")
-            .replace("Öffentliche Verwaltung, Sozialversicherungen", "Öffentliche <br/>Verwaltung, <br/>Sozialversicherungen")
-            .replace("Kultur, Unterhaltung, pers. DL", "Kultur, Unterhaltung, <br/>pers. DL")
+            .replace("Beratung, Planung, Forschung, Immobilien, IT, Personalvermittlung, andere DL", "Beratung, Planung, <br/>Forschung, Immob.,<br/>IT, sonst. DL")
             .replace("Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL", "Gebäudebetreuung, <br/>Sicherheit, sonst. <br/>wirtsch. DL")
+            .replace("Öffentliche Verwaltung, Sozialversicherungen", "Öffentliche <br/>Verwaltung, <br/>Sozialversicherungen")
+            .replace("Erziehung, Unterricht", "<br/>Erziehung, Unterricht<br/>")
+            .replace("Kultur, Unterhaltung, pers. DL", "Kultur, Unterhaltung, <br/>pers. DL")
             .replace("Gesundheits-, Sozialwesen", "Gesundheits-, <br/>Sozialwesen")
-            .replace("Information, Kommunikation", "Information, <br/>Kommunikation")
-            .replace("Beratung, Planung, Forschung, Immobilien, IT, Personalvermittlung, andere DL", "Beratung, Planung, <br/>Forschung, Immob., <br/>IT, sonst. DL");
-        },
-        style: { 
+            .replace("Total", "<br/>Total<br/>")
+            ;
+    },
+    style: { 
+          "textAlign": "center",
           fontSize: "9px",
           width: "100px",
           wordWrap: 'break-word',
-		//	textOverflow: 'none' // prevents ellipsis
 		} 
     },
   },

@@ -10,27 +10,36 @@
   "xAxis": {
     "type": "category",
     "labels": {
+      useHTML: true,
       rotation: -90,
-      y: 10,
+      y: 7,
       x: -10,
-           "align": "right",
            "formatter": function() {
             return this.value
-            .replace("Finanz- und Versicherungs-DL", "Finanz- und<br/>Versicherungs-DL")
-            .replace("Personalvermittlung, -überlassung", "Personalvermittlung,<br/>-überlassung")
-            .replace("Öffentliche Verwaltung, Sozialversicherungen", "Öffentliche <br/>Verwaltung, <br/>Sozialversicherungen")
-            .replace("Kultur, Unterhaltung, pers. DL", "Kultur, Unterhaltung, <br/>pers. DL")
-            .replace("Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL", "Gebäudebetreuung, <br/>Sicherheit, sonst. <br/>wirtsch. DL")
-            .replace("Gesundheits-, Sozialwesen", "Gesundheits-, <br/>Sozialwesen")
+            .replace("Industrie (inkl. Pharma, exkl. Energie, Wasser)", "Industrie<br/>(inkl. Pharma, exkl. <br/>Energie, Wasser)")
+            .replace("Pharma", "<br/>Pharma<br/>")
+            .replace("inkl. <br/>Pharma<br/>", "inkl. Pharma")
+            .replace("Baugewerbe", "<br/>Baugewerbe<br/>")
+            .replace("Handel, Reparatur", "<br/>Handel, Reparatur<br/>")
+            .replace("Verkehr, Lagerei", "<br/>Verkehr, Lagerei<br/>")
+            .replace("Gastgewerbe", "<br/>Gastgewerbe<br/>")
             .replace("Information, Kommunikation", "Information, <br/>Kommunikation")
+            .replace("Finanz- und Versicherungs-DL", "Finanz- und <br/> Versicherungs-DL")
             .replace("Beratung, Planung, Forschung", "Beratung, Planung, <br/>Forschung")
-            .replace("Kunst und Unterhaltung", "Kunst und <br/>Unterhaltung");
-        },
-        style: { 
+            .replace("Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL", "Gebäudebetreuung, <br/>Sicherheit, sonst. <br/>wirtsch. DL")
+            .replace("Personalvermittlung, -überlassung", "Personalvermittlung,<br/>-überlassung")
+            .replace("Öffentliche Verwaltung", "Öffentliche <br/>Verwaltung")
+            .replace("Erziehung, Unterricht", "<br/>Erziehung, Unterricht<br/>")
+            .replace("Kunst und Unterhaltung", "Kunst und<br/>Unterhaltung")
+            .replace("Gesundheits-, Sozialwesen", "Gesundheits-, <br/>Sozialwesen")
+            .replace("Total", "<br/>Total<br/>")
+            ;
+    },
+    style: { 
+          "textAlign": "center",
           fontSize: "9px",
           width: "100px",
           wordWrap: 'break-word',
-		//	textOverflow: 'none' // prevents ellipsis
 		} 
     },
   },
