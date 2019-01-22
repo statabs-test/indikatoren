@@ -1,5 +1,11 @@
 (function(){
     return {
+      exporting: {
+        enabled: true,
+            allowHTML: true,
+            //fallbackToExportServer: false,
+      },
+        
 	plotOptions: {
         series: {
             pointPadding: 0,
@@ -11,7 +17,6 @@
     "type": "category",
     "labels": {
       useHTML: true,
-      fallbackToExportServer: false,
       rotation: -90,
       y: 7,
       x: -10,
@@ -61,6 +66,7 @@
   {"color": "#73B97C"}, 
   {"color": "#007A2F"}, 
   ],
+  
   "legend": {
     "enabled": true,
     "layout": "horizontal",
