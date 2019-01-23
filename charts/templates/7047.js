@@ -2,8 +2,8 @@
     return {
       exporting: {
         enabled: true,
-            allowHTML: true,
-            //fallbackToExportServer: false,
+        allowHTML: false,
+        //fallbackToExportServer: false,
       },
         
 	plotOptions: {
