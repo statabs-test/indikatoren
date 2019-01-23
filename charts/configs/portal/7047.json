@@ -228,34 +228,14 @@
       "style": {
         "fontSize": "9px",
         "color": "#000000",
-        "textAlign": "center",
+        "textAlign": "right",
         "width": "100px",
         "wordWrap": "break-word"
       },
       "useHTML": true,
       "rotation": -90,
       "y": 7,
-      "x": -10,
-      "formatter": function () {
-            return this.value
-            .replace("Industrie (exkl. Chemie, Pharma)", "Industrie (exkl. <br/>Chemie,\u00A0Pharma)")
-            .replace("Chemie, Pharma", "<br/>Chemie, Pharma<br/> ")
-            .replace("Baugewerbe", "<br/>Baugewerbe<br/>")
-            .replace("Handel, Reparatur", "<br/>Handel, Reparatur<br/>")
-            .replace("Verkehr, Lagerei", "<br/>Verkehr, Lagerei<br/>")
-            .replace("Gastgewerbe", "<br/>Gastgewerbe<br/>")
-            .replace("Information, Kommunikation", "Information, <br/>Kommunikation")
-            .replace("Finanz-, Versicherungs-DL", "Finanz-,<br/>Versicherungs-DL")
-            .replace("Beratung, Planung, Forschung, Immobilien", "Beratung, Planung, <br/>Forschung, Immobilien")
-            .replace("Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL", "Gebäudebetreuung, <br/>Sicherheit, sonst. <br/>wirtsch. DL")
-            .replace("Personalvermittlung, -überlassung", "Personalvermittlung,<br/>-überlassung")
-            .replace("Öffentliche Verwaltung, Sozialversicherungen", "Öffentliche <br/>Verwaltung, <br/>Sozialversicherungen")
-            .replace("Erziehung, Unterricht", "<br/>Erziehung, Unterricht<br/>")
-            .replace("Kultur, Unterhaltung, pers. DL", "Kultur, Unterhaltung, <br/>pers. DL")
-            .replace("Gesundheits-, Sozialwesen", "Gesundheits-, <br/>Sozialwesen")
-            .replace("Total", "<br/>Total<br/>")
-            ;
-    }
+      "x": -10
     },
     "tickLength": 0
   },
@@ -400,12 +380,12 @@
       "fontSize": "10px"
     }
   },
+  "exporting": {
+    "filename": 7047
+  },
   "tooltip": {
     "pointFormatter": function (){
       return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>' 
     }
-  },
-  "exporting": {
-    "filename": 7047
   }
 }
