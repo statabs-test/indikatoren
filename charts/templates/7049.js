@@ -11,34 +11,32 @@
   "xAxis": {
     "type": "category",
     "labels": {
-      useHTML: true,
       rotation: -90,
       y: 7,
-      x: -10,
            "formatter": function() {
             return this.value
             .replace("Industrie (inkl. Chemie, Pharma)", "Industrie (inkl. <br/>Chemie,\u00A0Pharma)")
-            .replace("Baugewerbe", "<br/>Baugewerbe<br/>")
-            .replace("Handel, Reparatur", "<br/>Handel, Reparatur<br/>")
+            .replace("Baugewerbe", "Baugewerbe")
+            .replace("Handel, Reparatur", "Handel, Reparatur")
             .replace("Verkehr, Lagerei, Kommunikation", "Verkehr, Lagerei,<br/>Kommunikation")
-            .replace("Gastgewerbe", "<br/>Gastgewerbe<br/>")
-            .replace("IT-Dienstleistungen", "<br/>IT-Dienstleistungen<br/>")
+            .replace("Gastgewerbe", "Gastgewerbe")
+            .replace("IT-Dienstleistungen", "IT-Dienstleistungen")
             .replace("Finanz-, Versicherungs-DL", "Finanz-,<br/>Versicherungs-DL")
             .replace("Beratung, Planung, Forschung, Immobilien", "Beratung, Planung, <br/>Forschung, Immobilien")
             .replace("Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL", "Gebäudebetreuung, <br/>Sicherheit, sonst. <br/>wirtsch. DL")
             .replace("Personalvermittlung, -überlassung", "Personalvermittlung,<br/>-überlassung")
-            .replace("Öffentliche Verwaltung, Sozialversicherungen", "Öffentliche <br/>Verwaltung, <br/>Sozialversicherungen")
-            .replace("Erziehung, Unterricht", "<br/>Erziehung, Unterricht<br/>")
+            .replace("Öffentliche Verwaltung, Sozialversicherungen", "Öffentl. Verwaltung, <br/>Sozialversicherungen")
+            .replace("Erziehung, Unterricht", "Erziehung, Unterricht")
             .replace("Kultur, Unterhaltung, pers. DL", "Kultur, Unterhaltung, <br/>pers. DL")
             .replace("Gesundheits-, Sozialwesen", "Gesundheits-, <br/>Sozialwesen")
-            .replace("Total", "<br/>Total<br/>")
+            .replace("Total", "Total")
             ;
     },
     style: { 
           "textAlign": "center",
           fontSize: "9px",
-          width: "100px",
-          wordWrap: 'break-word',
+          //width: "100px",
+          //wordWrap: 'break-word',
 		} 
     },
   },
@@ -83,6 +81,18 @@
   	height: 208,
 	  spacingTop: 5,
 	  spacingBottom: 5,
+	  events: {
+        render() {
+        	let chart = this;
+          chart.xAxis[0].labelGroup.element.childNodes.forEach(label => {
+            if(label.getBBox().height > 9){
+            	label.attributes[4].value = label.attributes[4].value - (label.getBBox().height - 9)/2
+            }
+          })
+ 
+        }
+
+      }
   }
 }
 }());

@@ -192,30 +192,26 @@
       "style": {
         "fontSize": "9px",
         "color": "#000000",
-        "textAlign": "center",
-        "width": "100px",
-        "wordWrap": "break-word"
+        "textAlign": "center"
       },
-      "useHTML": true,
       "rotation": -90,
       "y": 7,
-      "x": -10,
       "formatter": function () {
             return this.value
             .replace("Industrie (exkl. Chemie, Pharma)", "Industrie (exkl. <br/>Chemie,\u00A0Pharma)")
-            .replace("Chemie, Pharma", "<br/>Chemie, Pharma<br/> ")
-            .replace("Baugewerbe", "<br/>Baugewerbe<br/>")
-            .replace("Handel, Reparatur", "<br/>Handel, Reparatur<br/>")
+            .replace("Chemie, Pharma", "Chemie, Pharma")
+            .replace("Baugewerbe", "Baugewerbe")
+            .replace("Handel, Reparatur", "Handel, Reparatur")
             .replace("Verkehr, Lagerei, Kommunikation", "Verkehr, Lagerei,<br/>Kommunikation")
-            .replace("Gastgewerbe", "<br/>Gastgewerbe<br/>")
-            .replace("Finanz-, Versicherungs-DL", "Finanz-,<br/>Versicherungs-DL")
+            .replace("Gastgewerbe", "Gastgewerbe")
+            .replace("Finanz-, Versicherungs-DL", "Finanz- und<br/>Versicherungs-DL")
             .replace("Beratung, Planung, Forschung, Immobilien, IT, Personalvermittlung, andere DL", "Beratung, Planung, <br/>Forschung, Immob.,<br/>IT, sonst. DL")
             .replace("Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL", "Gebäudebetreuung, <br/>Sicherheit, sonst. <br/>wirtsch. DL")
-            .replace("Öffentliche Verwaltung, Sozialversicherungen", "Öffentliche <br/>Verwaltung, <br/>Sozialversicherungen")
-            .replace("Erziehung, Unterricht", "<br/>Erziehung, Unterricht<br/>")
+            .replace("Öffentliche Verwaltung, Sozialversicherungen", "Öffentl. Verwaltung, <br/>Sozialversicherungen")
+            .replace("Erziehung, Unterricht", "Erziehung, Unterricht")
             .replace("Kultur, Unterhaltung, pers. DL", "Kultur, Unterhaltung, <br/>pers. DL")
             .replace("Gesundheits-, Sozialwesen", "Gesundheits-, <br/>Sozialwesen")
-            .replace("Total", "<br/>Total<br/>")
+            .replace("Total", "Total")
             ;
     }
     },
@@ -254,7 +250,16 @@
                       );
                     }              
                     
-                }
+                },
+      "render": render() {
+        	let chart = this;
+          chart.xAxis[0].labelGroup.element.childNodes.forEach(label => {
+            if(label.getBBox().height > 9){
+            	label.attributes[4].value = label.attributes[4].value - (label.getBBox().height - 9)/2
+            }
+          })
+ 
+        }
     },
     "type": "column",
     "inverted": false,

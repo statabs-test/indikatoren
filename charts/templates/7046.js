@@ -10,35 +10,34 @@
   "xAxis": {
     "type": "category",
     "labels": {
-      useHTML: true,
       rotation: -90,
       y: 7,
-      x: -10,
+
            "formatter": function() {
             return this.value
             .replace("Industrie (exkl. Chemie, Pharma)", "Industrie (exkl. <br/>Chemie,\u00A0Pharma)")
-            .replace("Chemie, Pharma", "<br/>Chemie, Pharma<br/> ")
+            .replace("Chemie, Pharma", "Chemie, Pharma")
             .replace("Baugewerbe", "<br/>Baugewerbe<br/>")
-            .replace("Handel, Reparatur", "<br/>Handel, Reparatur<br/>")
-            .replace("Verkehr, Lagerei", "<br/>Verkehr, Lagerei<br/>")
-            .replace("Gastgewerbe", "<br/>Gastgewerbe<br/>")
+            .replace("Handel, Reparatur", "Handel, Reparatur")
+            .replace("Verkehr, Lagerei", "Verkehr, Lagerei")
+            .replace("Gastgewerbe", "Gastgewerbe")
             .replace("Information, Kommunikation", "Information, <br/>Kommunikation")
-            .replace("Finanz-, Versicherungs-DL", "Finanz-,<br/>Versicherungs-DL")
+            .replace("Finanz-, Versicherungs-DL", "Finanz- und<br/>Versicherungs-DL")
             .replace("Beratung, Planung, Forschung, Immobilien", "Beratung, Planung, <br/>Forschung, Immobilien")
             .replace("Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL", "Gebäudebetreuung, <br/>Sicherheit, sonst. <br/>wirtsch. DL")
             .replace("Personalvermittlung, -überlassung", "Personalvermittlung,<br/>-überlassung")
-            .replace("Öffentliche Verwaltung, Sozialversicherungen", "Öffentliche <br/>Verwaltung, <br/>Sozialversicherungen")
-            .replace("Erziehung, Unterricht", "<br/>Erziehung, Unterricht<br/>")
+            .replace("Öffentliche Verwaltung, Sozialversicherungen", "Öffentl. Verwaltung, <br/>Sozialversicherungen")
+            .replace("Erziehung, Unterricht", "Erziehung, Unterricht")
             .replace("Kultur, Unterhaltung, pers. DL", "Kultur, Unterhaltung, <br/>pers. DL")
             .replace("Gesundheits-, Sozialwesen", "Gesundheits-, <br/>Sozialwesen")
-            .replace("Total", "<br/>Total<br/>")
+            .replace("Total", "Total")
             ;
     },
     style: { 
           "textAlign": "center",
           fontSize: "9px",
-          width: "100px",
-          wordWrap: 'break-word',
+          //width: "100px",
+          //wordWrap: 'break-word',
 		} 
     },
   },
@@ -53,7 +52,6 @@
      "format": "{value}*100%" ,
      style: { 
       fontSize: "9px",
-			//textOverflow: 'none' // prevents ellipsis
 		} 
     }    
   },
@@ -85,7 +83,19 @@
   	width: 662, 
   	height: 208,
 	  spacingTop: 5,
-	  spacingBottom: 5
+	  spacingBottom: 5,
+	  events: {
+        render() {
+        	let chart = this;
+          chart.xAxis[0].labelGroup.element.childNodes.forEach(label => {
+            if(label.getBBox().height > 9){
+            	label.attributes[4].value = label.attributes[4].value - (label.getBBox().height - 9)/2
+            }
+          })
+ 
+        }
+
+      }
   }
 }
 }());
