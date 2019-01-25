@@ -25,7 +25,7 @@
             .replace("Beratung, Planung, Forschung", "Beratung, Planung, <br/>Forschung")
             .replace("Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL", "Gebäudebetreuung, <br/>Sicherheit, sonst. <br/>wirtsch. DL")
             .replace("Personalvermittlung, -überlassung", "Personalvermittlung,<br/>-überlassung")
-            .replace("Öffentliche Verwaltung", "Öffentliche <br/>Verwaltung")
+            .replace("Öffentliche Verwaltung, Sozialversicherungen", "Öffentl. Verwaltung, <br/>Sozialversicherungen")
             .replace("Erziehung, Unterricht", "Erziehung, Unterricht")
             .replace("Kunst und Unterhaltung", "Kunst und<br/>Unterhaltung")
             .replace("Gesundheits-, Sozialwesen", "Gesundheits-, <br/>Sozialwesen")
@@ -35,7 +35,7 @@
     style: { 
           "textAlign": "center",
           fontSize: "9px",
-         // width: "100px",
+          width: "100px",
           //wordWrap: 'break-word',
 		} 
     },
