@@ -27140,8 +27140,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Nettozimmerauslastung nach Wochentag",
-		"subtitle": "Effektiv und auf Basis der Zimmerzahl von 2008",
-		"kuerzel": "I.10.1.06540",
+		"subtitle": "Effektiv und auf Basis der Zimmerzahl von 2009",
+		"kuerzel": "I.10.1.6540",
 		"kuerzelKunde": "2-4",
 		"description": "Nettozimmerauslastung nach Wochentag",
 		"thema": "10 Tourismus",
@@ -27150,7 +27150,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -27159,6 +27159,8 @@ var indikatoren = [
 		"lesehilfe": "2017 lag die durchschnittliche Nettozimmerauslastung von Montag bis Sonntag bei 61,2%. 2017 waren die Zimmer von Montag bis Donnerstag zu 68,7% ausgelastet, von Freitag bis Sonntag zu 51,2%. Auf Basis der Anzahl verfügbare Zimmer 2008 hat die Nettozimmerauslastung 2017 jedoch sowohl an Werktagen als auch am Wochenende um 15,0 bzw. 13,5 Prozentpunkte zugenommen.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_004",
 		"parentId": null,
@@ -27167,11 +27169,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6540,
-		"darstellungsart": "Grafik"
+		"data-id": 6540,
+		"chart-id": 6540,
+		"filter": "",
+		"id": 6540
 	},
 	{
 		"title": "Entwicklung der Betriebsstruktur",
