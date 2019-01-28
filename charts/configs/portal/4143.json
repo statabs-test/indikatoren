@@ -4,7 +4,10 @@
       "color": "#73b97c",
       "index": 0,
       "type": "column",
-      "pointWidth": "8",
+      "pointWidth": 8,
+      "tooltip": {
+        "valueDecimals": 0
+      },
       "data": [
         [
           1990,
@@ -37,6 +40,10 @@
         [
           2017,
           10588
+        ],
+        [
+          2018,
+          10662
         ]
       ],
       "name": "Anzahl Genossenschaftswohnungen"
@@ -88,6 +95,10 @@
         [
           2017,
           10.762787671789
+        ],
+        [
+          2018,
+          10.800046192183
         ]
       ],
       "name": "Anteil in Prozent (rechte Skala)"

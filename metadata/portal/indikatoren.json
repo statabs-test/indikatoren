@@ -2006,7 +2006,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der Genossenschaftswohnungen am Gesamtbestand beträgt 2017 etwa 11%.",
+		"lesehilfe": "Der Anteil der Genossenschaftswohnungen am Gesamtbestand beträgt 2018 etwa 11%.",
 		"erlaeuterungen": "Seit der Aktualisierung mit Daten aus dem Jahr 2017 werden nur noch Wohnungen berücksichtigt, welche am Stichtag (31.12.) durch mindestens eine Person belegt waren. Die Werte wurden entsprechend rückwirkend angepasst und weichen deshalb von früher an dieser Stelle publizierten Werten ab.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -2019,9 +2019,13 @@
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 4143,
+		"chart-id": 4143,
+		"filter": "",
 		"id": 4143
 	},
 	{
