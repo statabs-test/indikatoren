@@ -33274,12 +33274,12 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Baunebengewerbe",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.1 Baunebengewerbe",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im 4. Quartal 2017 sind in Basel-Stadt 1 165 Grenzgänger im Baunebengewerbe tätig. Die Zahl der Meldepflichtigen in VZÄ beträgt seit Jahren pro Quartal zwischen 40 und 275 Stellen. Im 1. Quartal sind die Werte messebedingt am höchsten. Die Zuwanderung beläuft sich seit 2015 auf max. 20 VZÄ pro Quartal.",
+		"lesehilfe": "Im 3. Quartal 2018 sind in Basel-Stadt 1 078 Grenzgänger im Baunebengewerbe tätig. Die Zahl der Meldepflichtigen in VZÄ beträgt seit Jahren pro Quartal zwischen 40 und 275 Stellen. Im 1. Quartal sind die Werte messebedingt am höchsten. Die Zuwanderung beläuft sich seit 2015 auf max. 20 VZÄ pro Quartal (Ausnahme: 3. Quartal 2018).",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -33287,15 +33287,21 @@ var indikatoren = [
 		"visibleInPortal": false,
 		"orderKey": "03_01_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7476"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7438,
+		"chart-id": 7438,
+		"filter": "",
 		"id": 7438
 	},
 	{
