@@ -33190,12 +33190,12 @@
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Baunebengewerbe",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.1 Baunebengewerbe",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bedeutend im Baunebengewerbe (NOGA 43) sind mit rund 6 100 Vollzeitäquivalenten (VZÄ) v. a. die Elektroinstallation (2 600 VZÄ), der Bereich Sanitär, Heizung und Lüftung (1 000 VZÄ) sowie die Malerei und Glaserei (900 VZÄ). Die Beschäftigung im Baunebengewerbe ist zwischen 2011 und 2015 um rund 5% gewachsen.",
+		"lesehilfe": "Bedeutend im Baunebengewerbe (NOGA 43) mit 6 141 Vollzeitäquivalenten (VZÄ) sind v. a. die Elektroinstallation (2 479 VZÄ), der Bereich Sanitär, Heizung und Lüftung (1 173 VZÄ) sowie die Malerei und Glaserei (893 VZÄ). Der Zuwachs der Beschäftigung in VZÄ gegenüber dem Jahr 2011 beträgt im Baunebengewerbe rund 5%.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -33203,14 +33203,20 @@
 		"visibleInPortal": false,
 		"orderKey": "03_01_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7474"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7435,
+		"chart-id": 7435,
+		"filter": "",
 		"id": 7435
 	},
 	{
@@ -33226,12 +33232,12 @@
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Baunebengewerbe",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.1 Baunebengewerbe",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Arbeitslosen im Baunebengewerbe schwankt zwischen 150 und 350 Personen, wobei eine ausgeprägte Saisonalität mit hohen Arbeitslosenzahlen im Winter zu beobachten ist. Die mittlere jährliche Arbeitslosenquote ist nach über 11% im Jahr 2016 auf unter 10% im Jahr 2017 gesunken.",
+		"lesehilfe": "Die Zahl der Arbeitslosen im Baunebengewerbe schwankt in den letzten Jahren zwischen rund 150 und 350 Personen, wobei eine ausgeprägte Saisonalität mit hohen Arbeitslosenzahlen im Winter zu beobachten ist. Die mittlere jährliche Arbeitslosenquote liegt wie im Vorjahr bei rund 10%.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -33239,14 +33245,20 @@
 		"visibleInPortal": false,
 		"orderKey": "03_01_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7475"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7437,
+		"chart-id": 7437,
+		"filter": "",
 		"id": 7437
 	},
 	{

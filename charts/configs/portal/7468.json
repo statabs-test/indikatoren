@@ -5,10 +5,6 @@
       "visible": true,
       "data": [
         [
-          "2010",
-          null
-        ],
-        [
           "2012",
           null
         ],
@@ -21,7 +17,7 @@
           4667
         ]
       ],
-      "name": "Monatlicher Bruttolohn (Median)",
+      "name": "Monatlicher Bruttolohn Nordwestschweiz (Median)",
       "turboThreshold": 0
     }
   ],

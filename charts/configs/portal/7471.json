@@ -136,15 +136,19 @@
         ],
         [
           "2018-01",
-          "."
+          4
         ],
         [
           "2018-02",
-          "."
+          null
         ],
         [
           "2018-03",
-          "."
+          9
+        ],
+        [
+          "2018-04",
+          5
         ]
       ],
       "name": "Zuwanderung ET (rechte Skala)",
@@ -298,6 +302,10 @@
         [
           "2018-03",
           1101
+        ],
+        [
+          "2018-04",
+          null
         ]
       ],
       "name": "Bestand Grenzgänger Heime",
@@ -452,6 +460,10 @@
         [
           "2018-03",
           430
+        ],
+        [
+          "2018-04",
+          null
         ]
       ],
       "name": "Bestand Grenzgänger Sozialwesen",
@@ -605,6 +617,10 @@
         [
           "2018-03",
           30
+        ],
+        [
+          "2018-04",
+          19
         ]
       ],
       "name": "Best. MP in VZÄ Gesundh.-, Veterinärwesen, Heime, Kinderkrippen",
