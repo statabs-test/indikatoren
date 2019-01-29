@@ -33195,7 +33195,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bedeutend im Baunebengewerbe (NOGA 43) mit 6 141 Vollzeitäquivalenten (VZÄ) sind v. a. die Elektroinstallation (2 479 VZÄ), der Bereich Sanitär, Heizung und Lüftung (1 173 VZÄ) sowie die Malerei und Glaserei (893 VZÄ). Der Zuwachs der Beschäftigung in VZÄ gegenüber dem Jahr 2011 beträgt im Baunebengewerbe rund 5%.",
+		"lesehilfe": "Bedeutend im Baunebengewerbe (NOGA 43) mit 6 100 Vollzeitäquivalenten (VZÄ) sind v. a. die Elektroinstallation (2 500 VZÄ), der Bereich Sanitär, Heizung und Lüftung (1 200 VZÄ) sowie die Malerei und Glaserei (900 VZÄ). Der Zuwachs der Beschäftigung in VZÄ gegenüber dem Jahr 2011 beträgt im Baunebengewerbe rund 5%.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -33317,12 +33317,12 @@ var indikatoren = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Baunebengewerbe",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.1 Baunebengewerbe",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2014 liegt der Medianlohn im Baunebengewerbe bei etwa 5 900 Franken brutto und hat sich damit im Vergleich zu 2012 kaum verändert.",
+		"lesehilfe": "Im Jahr 2016 liegt der Medianlohn im Baunebengewerbe bei etwa 5 900 Franken brutto und hat sich damit im Vergleich zu 2012 kaum verändert.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -33330,14 +33330,20 @@ var indikatoren = [
 		"visibleInPortal": false,
 		"orderKey": "03_01_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7477"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7442,
+		"chart-id": 7442,
+		"filter": "",
 		"id": 7442
 	},
 	{
@@ -33353,12 +33359,12 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Detailhandel",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.2 Detailhandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Beschäftigung im Detailhandel (NOGA 47) ist seit einigen Jahren rückläufig. 2015 lag sie bei rund 7 200 Vollzeitäquivalenten (2011: 8 000). Rund 2 000 VZÄ sind im Bereich Waren verschiedener Art tätig, welcher insbesondere die Supermärkte umfasst. Es folgen Bekleidung und Schuhe (1 100 VZÄ), Apotheken und Kosmetik (800 VZÄ) sowie Bücher, Sport und Spielwaren (600 VZÄ).",
+		"lesehilfe": "Die Beschäftigung im Detailhandel (NOGA 47) ist seit einigen Jahren rückläufig. 2016 lag sie bei rund 7000 Vollzeitäquivalenten (2011: 8 000). Rund 2 000 VZÄ sind im Bereich Waren verschiedener Art tätig, welcher insbesondere die Supermärkte umfasst. Es folgen Bekleidung und Schuhe (1 100 VZÄ), Apotheken und Kosmetik (900 VZÄ) sowie Bücher, Sport und Spielwaren (600 VZÄ).",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -33366,14 +33372,20 @@ var indikatoren = [
 		"visibleInPortal": false,
 		"orderKey": "03_02_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7478"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7443,
+		"chart-id": 7443,
+		"filter": "",
 		"id": 7443
 	},
 	{
@@ -33389,12 +33401,12 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Detailhandel",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.2 Detailhandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit einiger Zeit liegt die Zahl der Arbeitslosen im Detailhandel bei rund 200 Personen. Die mittlere jährliche Arbeitslosenquote liegt 2017 bei rund 3,6% und ist damit etwas höher als im Vorjahr.",
+		"lesehilfe": "Seit einiger Zeit liegt die Zahl der Arbeitslosen im Detailhandel bei rund 200 Personen. Die mittlere jährliche Arbeitslosenquote liegt 2018 bei rund 3,6% und ist damit etwas höher als im Vorjahr.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -33402,14 +33414,20 @@ var indikatoren = [
 		"visibleInPortal": false,
 		"orderKey": "03_02_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7479"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7444,
+		"chart-id": 7444,
+		"filter": "",
 		"id": 7444
 	},
 	{
@@ -33462,12 +33480,12 @@ var indikatoren = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Detailhandel",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.2 Detailhandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den letzten Jahren ist der Medianlohn im Detailhandel der Nordwestschweiz leicht gestiegen, von 4 500 Franken brutto im Jahr 2010 auf 4 800 Franken brutto im Jahr 2016.",
+		"lesehilfe": "In den letzten Jahren ist der Medianlohn im Detailhandel der Nordwestschweiz leicht gestiegen, von 4 700 Franken brutto im Jahr 2012 auf 4 800 Franken brutto im Jahr 2016.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -33475,14 +33493,20 @@ var indikatoren = [
 		"visibleInPortal": false,
 		"orderKey": "03_02_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7481"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7446,
+		"chart-id": 7446,
+		"filter": "",
 		"id": 7446
 	},
 	{
