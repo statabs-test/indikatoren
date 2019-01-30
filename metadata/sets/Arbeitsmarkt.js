@@ -379,7 +379,7 @@ var indikatorensetData = [
 	{
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.03.4.02423",
+		"kuerzel": "I.03.4.2423",
 		"kuerzelKunde": "3.3-02",
 		"description": "Arbeitslosenquote nach Alter",
 		"thema": "03 Erwerbsleben",
@@ -388,27 +388,34 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Arbeitslosigkeit",
+		"aktualisierungsdatum": "",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.3 Arbeitslosigkeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Arbeitslosenquote der Personen zwischen 15 und 24 Jahren ist in der Regel höher als die Quote in der Gesamtbevölkerung und zeigt ausgeprägte Schwankungen. Im Dezember 2017 beträgt sie 4,0%, im August 2017 erreichte sie 4,8%. Im Durchschnitt 2017 lag sie bei 4,2% (2016: 4,5%). Eine im Vergleich zum Durchschnitt tiefere Arbeitslosenquote zeigt hingegen die Altersgruppe ab 50 Jahren. In dieser Altersgruppe liegt die Quote im Dezember 2017 bei 2,9% (3,4% vor Jahresfrist), im Jahresmittel lag sie bei 3,1%.",
-		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich mit der Anzahl Arbeitslosen geteilt durch die Erwerbspersonen.",
+		"lesehilfe": "Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) reduzierte sich von 4,2% im Jahresdurschnitt 2017 auf 3,6% im Jahr 2018. Sie lag damit nur noch leicht über der durchschnittlichen Arbeitslosenquote aller Altersgruppen (3,4% 2018). Die Arbeitslosenquote der Personen über 50 Jahre ging 2018 vergleichsweise weniger stark zurück, lag mit 2,8% jedoch weiterhin deutlich unterhalb des Durchschnitts.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. März bis Mai 2018: Technische Umstellung in der Erfassung von arbeitslosen und nicht arbeitslosen Stellensuchenden. Die Arbeitslosenquote berechnet sich mit der Anzahl Arbeitslosen geteilt durch die Erwerbspersonen.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "02_03_00_00_00_302",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7014"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 2423,
-		"darstellungsart": "Grafik"
+		"data-id": 2423,
+		"chart-id": 2423,
+		"filter": "",
+		"id": 2423
 	},
 	{
 		"title": "Arbeitslosenquote nach Herkunft und Geschlecht",
@@ -549,7 +556,7 @@ var indikatorensetData = [
 	{
 		"title": "Arbeitslosenquote nach Kanton",
 		"subtitle": "",
-		"kuerzel": "I.03.4.02459",
+		"kuerzel": "I.03.4.2459",
 		"kuerzelKunde": "3.3-01",
 		"description": "Arbeitslosenquote nach Kanton",
 		"thema": "03 Erwerbsleben",
@@ -559,32 +566,39 @@ var indikatorensetData = [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Arbeitslosigkeit",
+		"aktualisierungsdatum": "",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.3 Arbeitslosigkeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im Verlauf des vergangenen Jahres gesunken. Ende Dezember 2017 beträgt sie 3,8%, im Januar 2017 erreichte sie mit 4,2% den Höhepunkt der letzten fünf Jahre. Im Jahresdurchschnitt ging die Arbeitslosenquote von 3,9% im Jahr 2016 auf 3,8% im Jahr 2017 zurück. Gesunken ist die Arbeitslosenquote im vergangenen Jahr auch in den Vergleichskantonen Zürich, Basel-Landschaft und Aargau sowie in der Gesamtschweiz, wo sie im Mittel des Jahres 2017 bei 3,2% lag.",
-		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich mit der Anzahl Arbeitslosen geteilt durch die Erwerbspersonen.",
+		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im vergangenen Jahr weiter gesunken. Im Jahresdurchschnitt ging sie von 3,8% im Jahr 2017 auf 3,4% im Jahr 2018 zurück. In den Kantonen Zürich und Basel-Landschaft sowie in der Gesamtschweiz war der Rückgang noch stärker. Landesweit sank die Arbeitslosenquote im Jahresmittel von 3,2% 2017 auf 2,6% 2018.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. März bis Mai 2018: Technische Umstellung in der Erfassung von arbeitslosen und nicht arbeitslosen Stellensuchenden. Die Arbeitslosenquote berechnet sich mit der Anzahl Arbeitslosen geteilt durch die Erwerbspersonen.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "02_03_00_00_00_301",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7019"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 2459,
-		"darstellungsart": "Grafik"
+		"data-id": 2459,
+		"chart-id": 2459,
+		"filter": "",
+		"id": 2459
 	},
 	{
 		"title": "Zuwanderung von Erwerbstätigen nach Arbeitskanton",
 		"subtitle": "Kurz- und Daueraufenthalter",
-		"kuerzel": "I.03.5.02461",
+		"kuerzel": "I.03.5.2461",
 		"kuerzelKunde": "3.4-09",
 		"description": "Zuwanderung von Erwerbstätigen nach Arbeitskanton",
 		"thema": "03 Erwerbsleben",
@@ -593,27 +607,34 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Zuwanderung",
+		"aktualisierungsdatum": "",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.2 Zuwanderung",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zuwanderung von Erwerbstätigen liegt im Kanton Basel-Stadt im 4. Quartal 2017 bei 1 504 Personen. Im Gesamtjahr 2017 sind  7 188 ausländische Arbeitskräfte in den baselstädtischen Arbeitsmarkt zugewandert, was einem Anstieg um 1,4% gegenüber 2016 entspricht. Einen Rückgang der Zuwanderung verzeichneten 2017 die Kantone Aargau (-7,4%) und Zürich (-1,3%) sowie die Gesamtschweiz (-1,0%).",
-		"erlaeuterungen": "Die Ausländerstatistik liefert Informationen über die Zuwanderung in die erwerbstätige, ausländische Bevölkerung (erfasst im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst.",
+		"lesehilfe": "Die Zuwanderung von Erwerbstätigen liegt im Kanton Basel-Stadt im 4. Quartal 2018 bei 1 622 Personen. Im Gesamtjahr 2018 sind 7 620 ausländische Arbeitskräfte in den baselstädtischen Arbeitsmarkt zugewandert, was einem Anstieg um 6,0% gegenüber 2017 entspricht. Im Kanton Basel-Landschaft wurde ein Zuwachs um 11,1% registriert, während im Kanton Aargau ein Rückgang verzeichnet wurde (-2,3%).",
+		"erlaeuterungen": "Die Ausländerstatistik liefert Informationen über die Zuwanderung in die ausländische Bevölkerung (im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst (Bewilligungen von mehr als zwölf Monaten bzw. von maximal zwölf Monaten).",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "02_04_02_00_00_409",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7020"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 2461,
-		"darstellungsart": "Grafik"
+		"data-id": 2461,
+		"chart-id": 2461,
+		"filter": "",
+		"id": 2461
 	},
 	{
 		"title": "Zuwanderung von Erwerbstätigen nach Geschlecht",
@@ -628,32 +649,38 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-10-18T09:11:20.2020",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Zuwanderung",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.2 Zuwanderung",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im 4. Quartal 2017 sind es 929 zugewanderte erwerbstätige Männer und 575 Frauen. Der Anteil der Frauen an der Zuwanderung von Erwerbstätigen bewegt sich seit Jahren zwischen 35% und 40%. Die Zuwanderung von Männern erreichte im 1. Quartal 2017 mit 1 353 Personen einen Höchstwert in der betrachteten Periode.",
-		"erlaeuterungen": "Die Ausländerstatistik liefert Informationen über die Zuwanderung in die erwerbstätige, ausländische Bevölkerung (erfasst im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst.",
+		"lesehilfe": "Im 4. Quartal 2018 sind es 1 008 zugewanderte erwerbstätige Männer und 614 Frauen. Der Anteil der Frauen an der Zuwanderung von Erwerbstätigen bewegt sich seit Jahren zwischen 35% und 40%. Die Zuwanderung von Männern erreichte im 3. Quartal 2018 mit 1 401 Personen einen Höchstwert in der betrachteten Periode.",
+		"erlaeuterungen": "Die Ausländerstatistik liefert Informationen über die Zuwanderung in die ausländische Bevölkerung (im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst (Bewilligungen von mehr als zwölf Monaten bzw. von maximal zwölf Monaten).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "02_04_02_00_00_410",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7021"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 2462,
+		"chart-id": 2462,
+		"filter": "",
 		"id": 2462
 	},
 	{
 		"title": "Zuwanderung von Erwerbstätigen nach Aufenthaltsbewilligung",
 		"subtitle": "Kurz- und Daueraufenthalter, Basel-Stadt",
-		"kuerzel": "I.03.5.02463",
+		"kuerzel": "I.03.5.2463",
 		"kuerzelKunde": "3.4-11",
 		"description": "Zuwanderung von Erwerbstätigen nach Aufenthaltsbewilligung",
 		"thema": "03 Erwerbsleben",
@@ -662,27 +689,34 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Zuwanderung",
+		"aktualisierungsdatum": "",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.2 Zuwanderung",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von den nach Basel-Stadt zugewanderten Erwerbstätigen weisen in den letzten fünf Jahren durchschnittlich 44% eine B-Bewilligung auf (Bewilligung für fünf Jahre). Rund 8% besitzen eine L-Bewilligung für Kurzaufenthalter (L) für mehr als zwölf Monate, 25% eine Kurzaufenthaltsbewilligung (L) bis zwölf Monate und 9% eine Bewilligung bis vier Monate. Dazu kommen rund 12% Bewilligungen für Dienstleitungserbringer bis vier Monate und 1% übrige Bewilligungen.",
-		"erlaeuterungen": "Die Ausländerstatistik liefert Informationen über die Zuwanderung in die erwerbstätige, ausländische Bevölkerung (erfasst im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst.",
+		"lesehilfe": "Von den nach Basel-Stadt zugewanderten Erwerbstätigen weisen in den letzten drei Jahren durchschnittlich 43% eine B-Bewilligung auf (Bewilligung für fünf Jahre) und 7% eine Kurzaufenthaltsbewilligung L ab 12 Monate. Rund 21% besitzen eine Kurzaufenthaltsbewilligung L zwischen vier und zwölf Monaten, während 28% eine Bewilligungsart bis vier Monate erhalten.",
+		"erlaeuterungen": "Die Ausländerstatistik liefert Informationen über die Zuwanderung in die ausländische Bevölkerung (im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst (Bewilligungen von mehr als zwölf Monaten bzw. von maximal zwölf Monaten).",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "02_04_02_00_00_411",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7022"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 2463,
-		"darstellungsart": "Grafik"
+		"data-id": 2463,
+		"chart-id": 2463,
+		"filter": "",
+		"id": 2463
 	},
 	{
 		"title": "Zuwanderung von Erwerbstätigen nach Herkunft",
