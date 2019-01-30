@@ -23,8 +23,8 @@
     },
   },
  "series": [
- 	{"color": "#923F8D","index": 1}, /**/
-	{"color": "#008AC3", "index": 1}, /**/	  
+ 	{"color": "#DC440E","index": 1}, /*Frauen*/
+	{"color": "#008AC3", "index": 1}, /*Männer*/	  
 	  ],
   "legend": {
     "enabled": true,
