@@ -9,8 +9,8 @@
 "kennzahlenset":"Arbeitsmarkt",
 "raeumlicheGliederung":["Grossregion"],
 "aktualisierungsdatum":"",
-"stufe1":"Fokusbranchen",
-"stufe2":"Heime und Sozialwesen",
+"stufe1":"4 Fokusbranchen",
+"stufe2":"4.8 Heime und Sozialwesen",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
@@ -23,8 +23,12 @@
 "visibleInPortal":false,
 "orderKey":"03_08_00_00_00_000",
 "parentId":null,
-"children":[],
+"children":["7505"],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":7473, 
+"chart-id":7473, 
+"filter":""
 }

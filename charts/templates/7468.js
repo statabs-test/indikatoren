@@ -23,8 +23,8 @@
     }    
   },
   "series": [
-  {"color": "#923F8D", "visible": true}, /* hellbraun*/
-  //{"color": "#83522E", "visible": true} /* dunkelbraun */
+  {"color": "#923F8D", "visible": true}, /* violett (hell)*/
+  {"color": "#662673", "visible": true}, /*violett (dunkel)*/
   ],
   "legend": {
     "enabled": true,

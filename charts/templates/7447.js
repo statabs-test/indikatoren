@@ -26,7 +26,8 @@
   },
   "tooltip": {
     "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
-    "shared": false
+    "shared": false,
+    valueDecimals: 0
   },  
   "legend": {
     "layout": "vertical",
@@ -35,7 +36,10 @@
     "align": "right",
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+   "labelFormatter": function() {
+            return this.name.replace("Personenbef.", "Personenbeförderung");
+          }
   },
   "series": [
     

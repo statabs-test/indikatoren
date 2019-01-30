@@ -2347,7 +2347,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2016 liegt der Medianlohn im Baunebengewerbe bei etwa 5 900 Franken brutto und hat sich damit im Vergleich zu 2012 kaum verändert.",
+		"lesehilfe": "Im Jahr 2016 liegt der Medianlohn im Baunebengewerbe bei etwa 5 900 Franken brutto und hat sich damit seit 2012 kaum verändert.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -2506,7 +2506,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den letzten Jahren ist der Medianlohn im Detailhandel der Nordwestschweiz leicht gestiegen, von 4 700 Franken brutto im Jahr 2012 auf 4 800 Franken brutto im Jahr 2016.",
+		"lesehilfe": "In den letzten Jahren ist der Medianlohn im Detailhandel der Nordwestschweiz leicht gestiegen, von 4 500 Franken brutto im Jahr 2010 auf 4 800 Franken brutto im Jahr 2016.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -2542,26 +2542,32 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Landverkehr",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.3 Landverkehr",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund 3 600 Vollzeitäquivalente sind 2015 in der Branche Landverkehr (NOGA 49) beschäftigt. Dies sind 500 weniger als 2014, wobei praktisch der gesamte Rückgang auf die Güterbeförderung auf der Schiene zurückzuführen ist. Bedeutend ist mit 1 100 VZÄ die Personenbeförderung auf der Schiene, mit 1 000 VZÄ die Personenbeförderung im Nahverkehr (ohne Taxis) sowie die Güterbeförderung im Strassenverkehr mit 900 VZÄ. Der Betrieb von Taxis macht rund 400 VZÄ aus.",
+		"lesehilfe": "Rund 3 500 Vollzeitäquivalente sind 2016 in der Branche Landverkehr (NOGA 49) beschäftigt. Dies sind 600 weniger als 2014, wobei praktisch der gesamte Rückgang auf die Güterbeförderung auf der Schiene zurückzuführen ist. Bedeutend sind mit je rund 1 000 VZÄ die Personenbeförderung auf der Schiene die Personenbeförderung im Nahverkehr (ohne Taxis) sowie die Güterbeförderung im Strassenverkehr mit 800 VZÄ. Der Betrieb von Taxis macht rund 400 VZÄ aus.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "03_03_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7482"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7447,
+		"chart-id": 7447,
+		"filter": "",
 		"id": 7447
 	},
 	{
@@ -2577,26 +2583,32 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Landverkehr",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.3 Landverkehr",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2017 waren in der Landverkehrsbranche rund 70 Personen arbeitslos. Die mittlere jährliche Arbeitslosenquote ist leicht gestiegen, von rund 4,4% im Jahr 2016 auf rund 4,7% im Jahr 2017.",
+		"lesehilfe": "Ende 2018 waren in der Landverkehrsbranche 75 Personen arbeitslos. Die mittlere jährliche Arbeitslosenquote ist von 4,7% im Jahr 2017 auf 3,8% im Jahr 2018 gesunken.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "03_03_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7483"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7448,
+		"chart-id": 7448,
+		"filter": "",
 		"id": 7448
 	},
 	{
@@ -2648,26 +2660,32 @@ var indikatorensetData = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Landverkehr",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.3 Landverkehr",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 2010 ist der Medianlohn für den Landverkehr in der Nordwestschweiz von brutto 5 800 Franken auf brutto 6 600 im Jahr 2014 gestiegen, im Jahr 2016 liegt er bei rund 5700 Franken.",
+		"lesehilfe": "Im Vergleich zum Jahr 2014 hat der Medianlohn für den Landverkehr in der Nordwestschweiz von brutto 6 600 auf rund 5 700 Franken abgenommen.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "03_03_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7485"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7450,
+		"chart-id": 7450,
+		"filter": "",
 		"id": 7450
 	},
 	{
@@ -2683,26 +2701,32 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "IT-Dienstleistungen",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.4 IT-Dienstleistungen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bereich IT-Dienstleistungen (NOGA 62 und 63) sind 2015 in Basel-Stadt rund 2 200 Vollzeitäquivalente beschäftigt, ein Rückgang von rund 400 VZÄ im Vergleich zum Höchststand 2013. Die Beschäftigung teilt sich insbesondere auf Programmierungs-tätigkeiten und IT-Beratung mit im Jahr 2015 je rund 1 000 VZÄ auf.",
+		"lesehilfe": "Im Bereich IT-Dienstleistungen (NOGA 62 und 63) sind im Jahr 2016 in Basel-Stadt rund 2 200 Beschäftigte in Vollzeitäquivalente beschäftigt, ein Rückgang von rund 500 VZÄ im Vergleich zum Höchststand 2013. Die Beschäftigung teilt sich insbesondere auf Programmierungstätigkeiten und IT-Beratung mit im Jahr 2016 je rund 1 000 VZÄ auf.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "03_04_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7486"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7452,
+		"chart-id": 7452,
+		"filter": "",
 		"id": 7452
 	},
 	{
@@ -2718,26 +2742,32 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "IT-Dienstleistungen",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.4 IT-Dienstleistungen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund 50 Personen aus dem Bereich IT-Dienstleistungen sind in Basel-Stadt Ende 2017 arbeitslos. Die mittlere jährliche Arbeitslosenquote bleibt 2017 fast unverändert bei 3,4%.",
+		"lesehilfe": "Rund 60 Personen aus dem Bereich IT-Dienstleistungen sind in Basel-Stadt Ende 2018 arbeitslos. Die mittlere jährliche Arbeitslosenquote bleibt 2018 fast unverändert bei 3,4%.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "03_04_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7487"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7453,
+		"chart-id": 7453,
+		"filter": "",
 		"id": 7453
 	},
 	{
@@ -2789,31 +2819,37 @@ var indikatorensetData = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "IT-Dienstleistungen",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.4 IT-Dienstleistungen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zu 2012 ist der Medianlohn für Beschäftigte in der Branche der IT-Dienstleistungen in der Nordwestschweiz im Jahr  2014 leicht gesunken, nämlich von 8 800 Franken auf 8 500 Franken brutto.",
+		"lesehilfe": "Im Vergleich zu 2014 ist der Medianlohn für Beschäftigte in der Branche der IT-Dienstleistungen in der Nordwestschweiz im Jahr 2016 leicht gestiegen, nämlich von rund 8 500 Franken auf 8 700 Franken brutto.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "03_04_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7489"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7455,
+		"chart-id": 7455,
+		"filter": "",
 		"id": 7455
 	},
 	{
 		"title": "Beschäftigung in Architektur- und Ingenieurbüros",
-		"subtitle": "Basel-Stadt",
+		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
 		"kuerzel": "I.03.2.07456",
 		"kuerzelKunde": "4.5-01",
 		"description": "Beschäftigung in Architektur- und Ingenieurbüros",
@@ -2824,26 +2860,32 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Architektur- und Ingenieurbüros",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.5 Architektur- und Ingenieurbüros",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Beschäftigung in der Branche Architektur- und Ingenieurbüros (NOGA 71) steigt seit 2011 und beträgt im Jahr 2015 rund 5 100 VZÄ (2011: 4 200 VZÄ). Das sind rund 200 VZÄ mehr als im Jahr 2014, wobei der Anstieg auf die Ingenieurbüros zurückzuführen ist. Bei den Architekturbüros ist die Beschäftigung im Vergleich zum Vorjahr leicht rückläufig.",
+		"lesehilfe": "Die Beschäftigung in der Branche Architektur- und Ingenieurbüros (NOGA 71) liegt im Jahr 2016 bei rund 5000 Vollzeitäquivalenten (VZÄ) und ist damit leicht tiefer als im Vorjahr (2015: 5100 VZÄ). Zuvor war die Beschäftigung seit 2011 um rund 900 VZÄ gestiegen.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "03_05_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7490"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7456,
+		"chart-id": 7456,
+		"filter": "",
 		"id": 7456
 	},
 	{
@@ -2859,26 +2901,32 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Architektur- und Ingenieurbüros",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.5 Architektur- und Ingenieurbüros",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2017 sind rund 60 Personen in der Branche Architektur- und Ingenieurbüros arbeitslos. Die mittlere jährliche Arbeitslosenquote liegt 2017 bei 2,6% und damit leicht tiefer als Ende 2016 mit 2,7%.",
+		"lesehilfe": "Ende 2018 sind rund 50 Personen in der Branche Architektur- und Ingenieurbüros arbeitslos. Die mittlere jährliche Arbeitslosenquote liegt 2018 bei 2,3% und damit tiefer als 2017 mit 2,6%.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "03_05_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7491"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7458,
+		"chart-id": 7458,
+		"filter": "",
 		"id": 7458
 	},
 	{
@@ -2930,26 +2978,32 @@ var indikatorensetData = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Architektur- und Ingenieurbüros",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.5 Architektur- und Ingenieurbüros",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zu 2012 ist der Medianlohn für Beschäftigte in der Branche Architektur- und Ingenieurbüros in der Nordwestschweiz im Jahr 2014 leicht gesunken, von rund 7 400 Franken auf 7 200 Franken brutto.",
+		"lesehilfe": "Im Vergleich zu 2014 ist der Medianlohn für Beschäftigte in der Branche Architektur- und Ingenieurbüros in der Nordwestschweiz im Jahr 2016 leicht gestiegen, von rund 7 200 Franken auf 7 300 Franken brutto.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "03_05_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7493"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7460,
+		"chart-id": 7460,
+		"filter": "",
 		"id": 7460
 	},
 	{
@@ -2965,26 +3019,32 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Personalvermittlung und -überlassung",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.6 Personalvermittlung und -überlassung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bereich Personalvermittlung und -überlassung (NOGA 78) sind 2015 in Basel-Stadt rund 6 000 Vollzeitäquivalente beschäftigt, ein Rückgang von rund 600 VZÄ im Vergleich zum Höchststand 2013. Die Mehrheit der Beschäftigten stammt mit rund 4 600 VZÄ im Jahr 2015 aus dem Bereich Befristete Überlassung von Arbeitskräften.",
+		"lesehilfe": "Im Bereich Personalvermittlung und -überlassung (NOGA 78) sind 2016 in Basel-Stadt rund 6 300 Beschäftigte in Vollzeitäquivalenten tätig, ein Anstieg von rund 200 VZÄ im Vergleich zum Vorjahr. Die Mehrheit der Beschäftigten stammt mit rund 5 500 VZÄ im Jahr 2016 aus dem Bereich Befristete Überlassung von Arbeitskräften.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "03_06_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7494"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7461,
+		"chart-id": 7461,
+		"filter": "",
 		"id": 7461
 	},
 	{
@@ -3000,26 +3060,32 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Personalvermittlung und -überlassung",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.6 Personalvermittlung und -überlassung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund 60 Personen aus der Branche Personalvermittlung und <br>-überlassung sind Ende 2017 arbeitslos. Das sind etwa doppelt so viele wie Mitte 2017. Die mittlere jährliche Arbeitslosenquote ist von 2,2% im Jahr 2016 auf 3,2% im Jahr 2017 gestiegen.",
+		"lesehilfe": "Rund 40 Personen aus der Branche Personalvermittlung und <br>-überlassung sind Ende 2018 arbeitslos. Das sind etwa doppelt so viele wie Mitte 2018. Die mittlere jährliche Arbeitslosenquote ist mit 3,0% leicht tiefer als im Vorjahr.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "03_06_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7495"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7462,
+		"chart-id": 7462,
+		"filter": "",
 		"id": 7462
 	},
 	{
@@ -3071,31 +3137,37 @@ var indikatorensetData = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Personalvermittlung und -überlassung",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.6 Personalvermittlung und -überlassung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Medianlohn für Beschäftigte in der Branche Personalvermittlung und -überlassung ist von 5 500 Franken brutto im Jahr 2012 auf 5 600 Franken brutto im Jahr 2014 gestiegen.",
+		"lesehilfe": "Der Medianlohn für Beschäftigte in der Branche Personalvermittlung und -überlassung ist seit dem Jahr 2012 von rund 5 500 Franken brutto auf 5 900 Franken brutto im Jahr 2016 gestiegen.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "03_06_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7497"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7464,
+		"chart-id": 7464,
+		"filter": "",
 		"id": 7464
 	},
 	{
 		"title": "Beschäftigung in der Branche Wach- und Sicherheitsdienste",
-		"subtitle": "Basel-Stadt",
+		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
 		"kuerzel": "I.03.2.07465",
 		"kuerzelKunde": "4.7-01",
 		"description": "Beschäftigung in der Branche Wach- und Sicherheitsdienste",
@@ -3106,26 +3178,32 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Wach- und Sicherheitsdienste",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.7 Wach- und Sicherheitsdienste",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund 840 Vollzeitäquivalente sind im Jahr 2015 in der Branche Wach- und Sicherheitsdienste (NOGA 80) beschäftigt. Diese sind fast ausschliesslich im Bereich Private Wach- und Sicherheitsdienste tätig. Die gesamte Branche konnte seit 2011 einen Zuwachs von 250 VZÄ verzeichnen, was einem Wachstum von 42% entspricht.",
+		"lesehilfe": "Rund 841 Beschäftigte in Vollzeitäquivalenten (VZÄ) sind im Jahr 2016 in der Branche Wach- und Sicherheitsdienste (NOGA 80) tätig. Diese sind fast ausschliesslich im Bereich Private Wach- und Sicherheitsdienste tätig. Die gesamte Branche konnte seit 2011 einen Zuwachs von 250 VZÄ verzeichnen, was einem Wachstum von 42% entspricht.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "03_07_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7498"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7465,
+		"chart-id": 7465,
+		"filter": "",
 		"id": 7465
 	},
 	{
@@ -3141,26 +3219,32 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Wach- und Sicherheitsdienste",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.7 Wach- und Sicherheitsdienste",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2017 sind rund 20 Personen aus der Branche Wach- und Sicherheitsdienste arbeitslos. Die mittlere jährliche Arbeitslosenquote ist von 9,1% auf 8,6% gesunken. Davor war sie seit 2011 (3,9%) gestiegen.",
+		"lesehilfe": "Ende 2018 sind rund 20 Personen aus der Branche Wach- und Sicherheitsdienste arbeitslos. Die mittlere jährliche Arbeitslosenquote liegt im Vergleich zum Vorjahr unverändert bei 8,6%.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "03_07_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7499"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7466,
+		"chart-id": 7466,
+		"filter": "",
 		"id": 7466
 	},
 	{
@@ -3212,26 +3296,32 @@ var indikatorensetData = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Wach- und Sicherheitsdienste",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.7 Wach- und Sicherheitsdienste",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Medianlohn für Beschäftigte in der Branche Wach- und Sicherheitsdienste ist von 5 300 Franken brutto im Jahr 2012 auf 5 200 Franken brutto im Jahr 2014 gesunken. Es handelt sich hier um Werte für die gesamte Schweiz, da auf Ebene Nordwestschweiz keine Zahlen vorliegen.",
+		"lesehilfe": "Der Medianlohn für Beschäftigte in der Branche Wach- und Sicherheitsdienste in der Nordwestschweiz liegt 2016 bei rund 4 700 Franken brutto. Der Wert für die gesamte Schweiz beträgt in der gleichen Branche rund 5 300 Franken brutto.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "03_07_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7501"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7468,
+		"chart-id": 7468,
+		"filter": "",
 		"id": 7468
 	},
 	{
@@ -3353,8 +3443,8 @@ var indikatorensetData = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Heime und Sozialwesen",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.8 Heime und Sozialwesen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -3365,14 +3455,20 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "03_08_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7505"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7473,
+		"chart-id": 7473,
+		"filter": "",
 		"id": 7473
 	}
 ];
