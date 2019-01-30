@@ -465,7 +465,7 @@
           8
         ]
       ],
-      "name": "Bestand Meldepflichtige in VZÄ",
+      "name": "Bestand Meldepflichtige in VZÄ Verkehr",
       "turboThreshold": 0
     }
   ],
@@ -629,7 +629,7 @@
   },
   "tooltip": {
     "shared": true,
-    "valueDecimals": 1
+    "valueDecimals": 0
   },
   "zoomType": "xy",
   "marginTop": 85,

@@ -154,7 +154,7 @@
           null
         ]
       ],
-      "name": "Bestand Grenzgänger",
+      "name": "Bestand Grenzgänger Sonstige wirtsch. DL",
       "turboThreshold": 0
     },
     {
@@ -475,7 +475,7 @@
   },
   "tooltip": {
     "shared": true,
-    "valueDecimals": 1
+    "valueDecimals": 0
   },
   "zoomType": "xy",
   "marginTop": 85,

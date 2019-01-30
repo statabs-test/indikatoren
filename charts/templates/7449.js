@@ -95,7 +95,7 @@
     }
   ],  "tooltip": {
     "shared": true, 
-    valueDecimals: 1
+    valueDecimals: 0
   },
  // "chart": {
     "zoomType": "xy",

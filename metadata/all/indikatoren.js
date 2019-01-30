@@ -33279,7 +33279,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im 3. Quartal 2018 sind in Basel-Stadt 1 078 Grenzgänger im Baunebengewerbe tätig. Die Zahl der Meldepflichtigen in VZÄ beträgt seit Jahren pro Quartal zwischen 40 und 275 Stellen. Im 1. Quartal sind die Werte messebedingt am höchsten. Die Zuwanderung beläuft sich seit 2015 auf max. 20 VZÄ pro Quartal (Ausnahme: 3. Quartal 2018).",
+		"lesehilfe": "Im 3. Quartal 2018 sind in Basel-Stadt 1 078 Grenzgänger im Baunebengewerbe tätig. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten (VZÄ) beträgt seit Jahren pro Quartal zwischen 40 und 275 Stellen. Im 1. Quartal sind die Werte messebedingt am höchsten. Die Zuwanderung beläuft sich seit 2015 auf maximal 20 VZÄ pro Quartal (Ausnahme: 3. Quartal 2018).",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -33443,12 +33443,12 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Detailhandel",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.2 Detailhandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Grenzgänger im Detailhandel ist in den letzten Jahren rückläufig und liegt im 4. Quartal 2017 bei 1 854 Personen. Die Zuwanderung von Kurz- und Daueraufenthaltern betrug in den letzten Jahren meist zwischen 20 und 40 Personen pro Quartal, im 4. Quartal 2017 liegt sie bei 25 Personen. Zu den Meldepflichtigen sind auf Ebene Detailhandel keine Zahlen bekannt. Im nächsthöheren Branchenaggregat Handel und Reparatur machen die Meldepflichtigen im 4. Quartal 2017 in Vollzeitäquivalente umgerechnet 21 Stellen aus.",
+		"lesehilfe": "Die Zahl der Grenzgänger im Detailhandel ist in den letzten Jahren rückläufig und liegt im 3. Quartal 2018 bei 1 731 Personen. Die Zuwanderung von Kurz- und Daueraufenthaltern betrug in den letzten Jahren meist zwischen 20 und 40 Personen pro Quartal, im 4. Quartal 2018 liegt sie bei 27 Personen. Zu den Meldepflichtigen sind auf Ebene Detailhandel keine Zahlen bekannt. Im nächsthöheren Branchenaggregat Handel und Reparatur machen die Meldepflichtigen im 4. Quartal 2018 in Vollzeitäquivalente umgerechnet 23 Stellen aus.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -33456,15 +33456,21 @@ var indikatoren = [
 		"visibleInPortal": false,
 		"orderKey": "03_02_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7480"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7445,
+		"chart-id": 7445,
+		"filter": "",
 		"id": 7445
 	},
 	{
@@ -33606,12 +33612,12 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Landverkehr",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.3 Landverkehr",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Grenzgänger in der Branche Landverkehr ist in den letzten Jahren rückläufig, im 4. Quartal 2017 liegt sie bei 600 Personen. Die Zuwanderung von Kurz- und Daueraufenthaltern im 4. Quartal 2017 beträgt 10 Personen. Zu den Meldepflichtigen sind für die Branche Landverkehr keine Daten vorhanden. Im nächsthöheren Branchenaggregat Verkehr machen die Meldepflichtigen im 4. Quartal 2017 in Vollzeitäquivalente umgerechnet lediglich eine Stelle aus.",
+		"lesehilfe": "Die Zahl der Grenzgänger in der Branche Landverkehr ist in den letzten Jahren rückläufig, im 3. Quartal 2018 liegt sie bei 559 Personen. Die Zuwanderung von Kurz- und Daueraufenthaltern im 4. Quartal 2018 beträgt 20 Personen. Zu den Meldepflichtigen sind für die Branche Landverkehr keine Daten vorhanden. Im nächsthöheren Branchenaggregat Verkehr machen die Meldepflichtigen im 4. Quartal 2018 in Vollzeitäquivalente umgerechnet 8 Stellen aus.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -33619,15 +33625,21 @@ var indikatoren = [
 		"visibleInPortal": false,
 		"orderKey": "03_03_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7484"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7449,
+		"chart-id": 7449,
+		"filter": "",
 		"id": 7449
 	},
 	{
@@ -33769,12 +33781,12 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "IT-Dienstleistungen",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.4 IT-Dienstleistungen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Branche IT-Dienstleistungen zeigt sich in den letzten Jahren eine deutlich steigende Zahl an Grenzgängern. Im 4. Quartal 2017 arbeiten hier 1 211 Grenzgänger. In Vollzeitäquivalente umgerechnet machen die Meldepflichtigen im 4. Quartal 2017 in der Branche IT-Dienstleistungen 11 Stellen aus. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
+		"lesehilfe": "In der Branche IT-Dienstleistungen zeigt sich in den letzten Jahren eine deutlich steigende Zahl an Grenzgängern. Im 3. Quartal 2018 arbeiten hier 1 254 Grenzgänger. In Vollzeitäquivalente umgerechnet machen die Meldepflichtigen im 4. Quartal 2018 in der Branche IT-Dienstleistungen 9 Stellen aus. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -33782,15 +33794,21 @@ var indikatoren = [
 		"visibleInPortal": false,
 		"orderKey": "03_04_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7488"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7454,
+		"chart-id": 7454,
+		"filter": "",
 		"id": 7454
 	},
 	{
@@ -33932,12 +33950,12 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Architektur- und Ingenieurbüros",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.5 Architektur- und Ingenieurbüros",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Branche Architektur- und Ingenieurbüros verzeichnet in den letzten Jahren eine deutlich steigende Zahl an Grenzgängern. Im 4. Quartal 2017 liegt sie bei 2 183 Personen. Zu den Meldepflichtigen sind für die Branche Architektur- und Ingenieurbüros keine Daten vorhanden. Im nächsthöheren Branchenaggregat Beratung und Planung sind es im 4. Quartal 2017 9 Meldepflichtige in Vollzeitäquivalenten. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
+		"lesehilfe": "Die Branche Architektur- und Ingenieurbüros verzeichnet in den letzten Jahren eine deutlich steigende Zahl an Grenzgängern. Im 3. Quartal 2018 liegt sie bei 2 205 Personen. Zu den Meldepflichtigen sind für die Branche Architektur- und Ingenieurbüros keine Daten vorhanden. Im nächsthöheren Branchenaggregat Beratung und Planung sind es im 4. Quartal 2018 11 Meldepflichtige in Vollzeitäquivalenten. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -33945,15 +33963,21 @@ var indikatoren = [
 		"visibleInPortal": false,
 		"orderKey": "03_05_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7492"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7459,
+		"chart-id": 7459,
+		"filter": "",
 		"id": 7459
 	},
 	{
@@ -34095,12 +34119,12 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Personalvermittlung und -überlassung",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.6 Personalvermittlung und -überlassung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Grenzgänger in der Branche Personalvermittlung und <br>-überlassung ist in den letzten Jahren gestiegen. Ausserdem zeigt sie saisonale Schwankungen. Im 4. Quartal 2017 liegt sie bei 2 232 Personen. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten zeigt ebenfalls saisonal geprägte Muster. Im 4. Quartal 2017 sind es 85 Meldepflichtige in VZÄ. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
+		"lesehilfe": "Die Zahl der Grenzgänger in der Branche Personalvermittlung und <br>-überlassung ist in den letzten Jahren gestiegen. Ausserdem zeigt sie saisonale Schwankungen. Im 4. Quartal 2017 liegt sie bei 2 233 Personen. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten zeigt ebenfalls saisonal geprägte Muster. Im 4. Quartal 2018 sind es 85 Meldepflichtige in VZÄ. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -34108,15 +34132,21 @@ var indikatoren = [
 		"visibleInPortal": false,
 		"orderKey": "03_06_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7496"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7463,
+		"chart-id": 7463,
+		"filter": "",
 		"id": 7463
 	},
 	{
@@ -34258,12 +34288,12 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Wach- und Sicherheitsdienste",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.7 Wach- und Sicherheitsdienste",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Grenzgänger in der Branche Wach- und Sicherheitsdienste ist nicht bekannt. Für das nächsthöhere Branchenaggregat Sonstige wirtschaftliche Dienstleistungen ist sie in den letzten Jahren deutlich gestiegen. Im 4. Quartal 2017 liegt sie bei 2 350 Personen. Die Meldepflichtigen machen im 4. Quartal 2017 in Vollzeitäquivalente umgerechnet 2 Stellen aus. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
+		"lesehilfe": "Die Zahl der Grenzgänger in der Branche Wach- und Sicherheitsdienste ist nicht bekannt. Für das nächsthöhere Branchenaggregat Sonstige wirtschaftliche Dienstleistungen ist sie in den letzten Jahren deutlich gestiegen. Im 3. Quartal 2018 liegt sie bei 2 374 Personen. Die Meldepflichtigen machen im 4. Quartal 2018 in Vollzeitäquivalente umgerechnet 5 Stellen aus. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -34271,15 +34301,21 @@ var indikatoren = [
 		"visibleInPortal": false,
 		"orderKey": "03_07_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7500"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7467,
+		"chart-id": 7467,
+		"filter": "",
 		"id": 7467
 	},
 	{
@@ -34337,12 +34373,12 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Heime und Sozialwesen",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.8 Heime und Sozialwesen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund 7 600 VZÄ sind im Jahr 2015 im Bereich Heime und Sozialwesen (NOGA 87 und 88) beschäftigt. Das sind etwa 500 VZÄ mehr als im Jahr 2014. Bedeutend sind mit 3 100 VZÄ die Pflegeheime, mit 1 100 VZÄ die Tagesbetreuung von Kindern und mit 700 VZÄ die soziale Betreuung älterer Menschen und Behinderter.",
+		"lesehilfe": "Rund 7 900 Beschäftigte in Vollzeitäquivalenten (VZÄ) sind im Jahr 2016 im Bereich Heime und Sozialwesen (NOGA 87 und 88) tätig. Das sind etwa 200 VZÄ mehr als im Vorjahr. Bedeutend sind mit 3 300 VZÄ die Pflegeheime, mit 1 100 VZÄ die Tagesbetreuung von Kindern und mit 700 VZÄ die soziale Betreuung älterer Menschen und Behinderter.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -34350,14 +34386,20 @@ var indikatoren = [
 		"visibleInPortal": false,
 		"orderKey": "03_08_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7502"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7469,
+		"chart-id": 7469,
+		"filter": "",
 		"id": 7469
 	},
 	{
@@ -34373,12 +34415,12 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Heime und Sozialwesen",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.8 Heime und Sozialwesen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Branche Heime sind Ende 2017 rund 150 Personen arbeitslos. Im Sozialwesen sind es etwa 100 Arbeitslose. Die mittlere jährliche Arbeislosenquote der Branche Heime ist von 3,5% im Jahr 2014 auf 4,1% im Jahr 2015 gestiegen. Im Sozialwesen ist im selben Zeitraum ebenfalls ein Anstieg der Quote zu beobachten, von 5,0% auf 5,3%.",
+		"lesehilfe": "In der Branche Heime sind Ende 2018 rund 70 Personen arbeitslos. Im Sozialwesen sind es etwa 80 Arbeitslose. Die mittlere jährliche Arbeislosenquote der Branche Heime ist von 4,1% im Jahr 2017 auf 3,2% im Jahr 2018 gestiegen. Im Sozialwesen ist im selben Zeitraum ebenfalls ein Rückgang der Quote zu beobachten, von 5,3% auf 4,9%.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -34386,14 +34428,20 @@ var indikatoren = [
 		"visibleInPortal": false,
 		"orderKey": "03_08_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7503"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7470,
+		"chart-id": 7470,
+		"filter": "",
 		"id": 7470
 	},
 	{
@@ -34409,12 +34457,12 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Heime und Sozialwesen",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.8 Heime und Sozialwesen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Grenzgänger in den Branchen Heime und Sozialwesen ist in den letzten Jahren leicht gestiegen. Im 4. Quartal 2017 sind im Bereich Heime 1 036 und im Bereich Sozialwesen 434 Grenzgänger beschäftigt. Die Zuwanderung von Kurz- und Daueraufenthaltern im 4. Quartal 2017 beträgt 10 Personen. Die in Vollzeitäquivalente umgerechnete Zahl der Meldepflichtigen ist für die Branchen Heime und Sozialwesen nicht bekannt. Das nächsthöhere Branchenaggregat Gesundheits-, Veterinärwesen, Heime und Kinderkrippen ver-zeichnet 19 Meldepflichtige in VZÄ.",
+		"lesehilfe": "Die Zahl der Grenzgänger in den Branchen Heime und Sozialwesen ist in den letzten Jahren leicht gestiegen. Im 3. Quartal 2018 sind im Bereich Heime 1 101 und im Bereich Sozialwesen 430 Grenzgänger beschäftigt. Die Zuwanderung von Kurz- und Daueraufenthaltern im 4. Quartal 2018 beträgt 5 Personen. Die in Vollzeitäquivalente umgerechnete Zahl der Meldepflichtigen ist für die Branchen Heime und Sozialwesen nicht bekannt. Das nächsthöhere Branchenaggregat Gesundheits-, Veterinärwesen, Heime und Kinderkrippen verzeichnet 19 Meldepflichtige in VZÄ.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -34422,15 +34470,21 @@ var indikatoren = [
 		"visibleInPortal": false,
 		"orderKey": "03_08_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7504"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7471,
+		"chart-id": 7471,
+		"filter": "",
 		"id": 7471
 	},
 	{
@@ -34451,7 +34505,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Medianlohn für Beschäftigte in der Branche Heime liegt im Jahr 2014 bei 5 800 Franken brutto und hat sich damit im Vergleich zu 2012 kaum verändert. Seit 2010 ist der Medianlohn im Sozialwesen von 6 100 Franken brutto auf 5 500 Franken brutto im Jahr 2014 gesunken.",
+		"lesehilfe": "Der Medianlohn für Beschäftigte in der Branche Heime liegt im Jahr 2016 bei 5 800 Franken brutto und hat sich damit seit 2012 kaum verändert. Im Sozialwesen ist der Medianlohn im Vergleich zu 2014 von rund 5 500 Franken brutto auf 5800 Franken brutto gestiegen, liegt damit aber immer noch unter dem Wert von 2010.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
