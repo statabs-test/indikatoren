@@ -6693,10 +6693,17 @@
 	},
 	"7519": {
 		"metadata": "ab5673d6339a32b94e1fbdf8fbf9c86d2cd63ae1",
-		"chartConfig": "57e5985ea9ea0a36965a2cf13a06927383156884",
-		"data": "c4f9aca74b1de0f1bc6ff58aa67b1db219ce70cf",
+		"chartConfig": "b08f6204bcf3d7096b8716269ad8c315832b1496",
+		"data": "256492c01002e933bef9c1388fa196b74b853f4e",
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "c0dfae9729d859cea846deccc77c2aff3bd40059"
+	},
+	"7520": {
+		"metadata": "938486123beb4f1078e9972772249d883c0db8dc",
+		"chartConfig": "4c8b3e80fb7e6db507bbda2f291f58a8442a12a4",
+		"data": "598f9b2d509d2a0077ecdc77edb4f3d56da802b6",
+		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+		"template": "765aa902077ea20c6685a69d33c8f57dd25e1f9c"
 	},
 	"9995": {
 		"metadata": "9b2e225c17dbcd7d7ee0adc844a05b80be6f2df6",

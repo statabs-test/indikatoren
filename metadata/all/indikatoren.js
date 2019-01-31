@@ -36245,6 +36245,46 @@ var indikatoren = [
 		"id": 7519
 	},
 	{
+		"title": "Logiernächte und Marktanteile am Übernachtungsvolumen 2009 und 2018",
+		"subtitle": "",
+		"kuerzel": "I.10.1.07520",
+		"kuerzelKunde": "3-2",
+		"description": "Logiernächte und Marktanteile am Übernachtungsvolumen 2009 und 2018",
+		"thema": "10 Tourismus",
+		"unterthema": "Hotellerie",
+		"kennzahlenset": "Tourismus",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7520,
+		"chart-id": 7520,
+		"filter": "",
+		"id": 7520
+	},
+	{
 		"title": "Test Daten",
 		"subtitle": "Test",
 		"kuerzel": "",
