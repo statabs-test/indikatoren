@@ -9,12 +9,12 @@
 "kennzahlenset":"Arbeitsmarkt (Print)",
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
-"stufe1":"Fokusbranchen",
-"stufe2":"Detailhandel",
+"stufe1":"4 Fokusbranchen",
+"stufe2":"4.2 Detailhandel",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Seit einiger Zeit liegt die Zahl der Arbeitslosen im Detailhandel bei rund 200 Personen. Die mittlere jährliche Arbeitslosenquote liegt 2017 bei rund 3,6% und ist damit etwas höher als im Vorjahr.",
+"lesehilfe":"Seit einiger Zeit liegt die Zahl der Arbeitslosen im Detailhandel bei rund 200 Personen. Die mittlere jährliche Arbeitslosenquote liegt 2018 bei rund 3,6% und ist damit etwas höher als im Vorjahr.",
 "erlaeuterungen":"",
 "template":"line001_print",
 "darstellungsart":"",
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":7479, 
+"chart-id":7479, 
+"filter":""
 }

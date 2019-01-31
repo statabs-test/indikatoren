@@ -9,8 +9,8 @@
 "kennzahlenset":"Arbeitsmarkt (Print)",
 "raeumlicheGliederung":["Grossregion"],
 "aktualisierungsdatum":"",
-"stufe1":"Fokusbranchen",
-"stufe2":"Detailhandel",
+"stufe1":"4 Fokusbranchen",
+"stufe2":"4.2 Detailhandel",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":7481, 
+"chart-id":7481, 
+"filter":""
 }

@@ -148,6 +148,10 @@
         [
           "2018-03",
           2233
+        ],
+        [
+          "2018-04",
+          null
         ]
       ],
       "name": "Bestand Grenzgänger",
@@ -301,6 +305,10 @@
         [
           "2018-03",
           140
+        ],
+        [
+          "2018-04",
+          85
         ]
       ],
       "name": "Bestand Meldepflichtige in VZÄ",

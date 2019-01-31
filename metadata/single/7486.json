@@ -9,12 +9,12 @@
 "kennzahlenset":"Arbeitsmarkt (Print)",
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
-"stufe1":"Fokusbranchen",
-"stufe2":"IT-Dienstleistungen",
+"stufe1":"4 Fokusbranchen",
+"stufe2":"4.4 IT-Dienstleistungen",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Im Bereich IT-Dienstleistungen (NOGA 62 und 63) sind 2015 in Basel-Stadt rund 2 200 Vollzeitäquivalente beschäftigt, ein Rückgang von rund 400 VZÄ im Vergleich zum Höchststand 2013. Die Beschäftigung teilt sich insbesondere auf Programmierungs-tätigkeiten und IT-Beratung mit im Jahr 2015 je rund 1 000 VZÄ auf.",
+"lesehilfe":"Im Bereich IT-Dienstleistungen (NOGA 62 und 63) sind im Jahr 2016 in Basel-Stadt rund 2 200 Beschäftigte in Vollzeitäquivalente beschäftigt, ein Rückgang von rund 500 VZÄ im Vergleich zum Höchststand 2013. Die Beschäftigung teilt sich insbesondere auf Programmierungstätigkeiten und IT-Beratung mit im Jahr 2016 je rund 1 000 VZÄ auf.",
 "erlaeuterungen":"",
 "template":"template001_print",
 "darstellungsart":"",
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":7486, 
+"chart-id":7486, 
+"filter":""
 }

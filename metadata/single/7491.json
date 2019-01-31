@@ -9,12 +9,12 @@
 "kennzahlenset":"Arbeitsmarkt (Print)",
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
-"stufe1":"Fokusbranchen",
-"stufe2":"Architektur- und Ingenieurbüros",
+"stufe1":"4 Fokusbranchen",
+"stufe2":"4.5 Architektur- und Ingenieurbüros",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Ende 2017 sind rund 60 Personen in der Branche Architektur- und Ingenieurbüros arbeitslos. Die mittlere jährliche Arbeitslosenquote liegt 2017 bei 2,6% und damit leicht tiefer als Ende 2016 mit 2,7%.",
+"lesehilfe":"Ende 2018 sind rund 50 Personen in der Branche Architektur- und Ingenieurbüros arbeitslos. Die mittlere jährliche Arbeitslosenquote liegt 2018 bei 2,3% und damit tiefer als 2017 mit 2,6%.",
 "erlaeuterungen":"",
 "template":"line001_print",
 "darstellungsart":"",
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":7491, 
+"chart-id":7491, 
+"filter":""
 }

@@ -9,12 +9,12 @@
 "kennzahlenset":"Arbeitsmarkt (Print)",
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
-"stufe1":"Fokusbranchen",
-"stufe2":"Landverkehr",
+"stufe1":"4 Fokusbranchen",
+"stufe2":"4.3 Landverkehr",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Die Zahl der Grenzgänger in der Branche Landverkehr ist in den letzten Jahren rückläufig, im 4. Quartal 2017 liegt sie bei 600 Personen. Die Zuwanderung von Kurz- und Daueraufenthaltern im 4. Quartal 2017 beträgt 10 Personen. Zu den Meldepflichtigen sind für die Branche Landverkehr keine Daten vorhanden. Im nächsthöheren Branchenaggregat Verkehr machen die Meldepflichtigen im 4. Quartal 2017 in Vollzeitäquivalente umgerechnet lediglich eine Stelle aus.",
+"lesehilfe":"Die Zahl der Grenzgänger in der Branche Landverkehr ist in den letzten Jahren rückläufig, im 3. Quartal 2018 liegt sie bei 559 Personen. Die Zuwanderung von Kurz- und Daueraufenthaltern im 4. Quartal 2018 beträgt 20 Personen. Zu den Meldepflichtigen sind für die Branche Landverkehr keine Daten vorhanden. Im nächsthöheren Branchenaggregat Verkehr machen die Meldepflichtigen im 4. Quartal 2018 in Vollzeitäquivalente umgerechnet 8 Stellen aus.",
 "erlaeuterungen":"",
 "template":"template001_print",
 "darstellungsart":"",
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)","Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":7484, 
+"chart-id":7484, 
+"filter":""
 }

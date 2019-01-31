@@ -2219,12 +2219,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Baunebengewerbe",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.1 Baunebengewerbe",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bedeutend im Baunebengewerbe (NOGA 43) sind mit rund 6 100 Vollzeitäquivalenten (VZÄ) v. a. die Elektroinstallation (2 600 VZÄ), der Bereich Sanitär, Heizung und Lüftung (1 000 VZÄ) sowie die Malerei und Glaserei (900 VZÄ). Die Beschäftigung im Baunebengewerbe ist zwischen 2011 und 2015 um rund 5% gewachsen.",
+		"lesehilfe": "Bedeutend im Baunebengewerbe (NOGA 43) mit 6 100 Vollzeitäquivalenten (VZÄ) sind v. a. die Elektroinstallation (2 500 VZÄ), der Bereich Sanitär, Heizung und Lüftung (1 200 VZÄ) sowie die Malerei und Glaserei (900 VZÄ). Der Zuwachs der Beschäftigung in VZÄ gegenüber dem Jahr 2011 beträgt im Baunebengewerbe rund 5%.",
 		"erlaeuterungen": "",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -2236,9 +2236,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7474,
+		"chart-id": 7474,
+		"filter": "",
 		"id": 7474
 	},
 	{
@@ -2254,12 +2258,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Baunebengewerbe",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.1 Baunebengewerbe",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Arbeitslosen im Baunebengewerbe schwankt zwischen 150 und 350 Personen, wobei eine ausgeprägte Saisonalität mit hohen Arbeitslosenzahlen im Winter zu beobachten ist. Die mittlere jährliche Arbeitslosenquote ist nach über 11% im Jahr 2016 auf unter 10% im Jahr 2017 gesunken.",
+		"lesehilfe": "Die Zahl der Arbeitslosen im Baunebengewerbe schwankt in den letzten Jahren zwischen rund 150 und 350 Personen, wobei eine ausgeprägte Saisonalität mit hohen Arbeitslosenzahlen im Winter zu beobachten ist. Die mittlere jährliche Arbeitslosenquote liegt wie im Vorjahr bei rund 10%.",
 		"erlaeuterungen": "",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -2271,9 +2275,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7475,
+		"chart-id": 7475,
+		"filter": "",
 		"id": 7475
 	},
 	{
@@ -2289,12 +2297,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Baunebengewerbe",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.1 Baunebengewerbe",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im 4. Quartal 2017 sind in Basel-Stadt 1 165 Grenzgänger im Baunebengewerbe tätig. Die Zahl der Meldepflichtigen in VZÄ beträgt seit Jahren pro Quartal zwischen 40 und 275 Stellen. Im 1. Quartal sind die Werte messebedingt am höchsten. Die Zuwanderung beläuft sich seit 2015 auf max. 20 VZÄ pro Quartal.",
+		"lesehilfe": "Im 3. Quartal 2018 sind in Basel-Stadt 1 078 Grenzgänger im Baunebengewerbe tätig. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten (VZÄ) beträgt seit Jahren pro Quartal zwischen 40 und 275 Stellen. Im 1. Quartal sind die Werte messebedingt am höchsten. Die Zuwanderung beläuft sich seit 2015 auf maximal 20 VZÄ pro Quartal (Ausnahme: 3. Quartal 2018).",
 		"erlaeuterungen": "",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -2307,9 +2315,13 @@ var indikatorensetData = [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7476,
+		"chart-id": 7476,
+		"filter": "",
 		"id": 7476
 	},
 	{
@@ -2325,12 +2337,12 @@ var indikatorensetData = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Baunebengewerbe",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.1 Baunebengewerbe",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2014 liegt der Medianlohn im Baunebengewerbe bei etwa 5 900 Franken brutto und hat sich damit im Vergleich zu 2012 kaum verändert.",
+		"lesehilfe": "Im Jahr 2016 liegt der Medianlohn im Baunebengewerbe bei etwa 5 900 Franken brutto und hat sich damit seit 2012 kaum verändert.",
 		"erlaeuterungen": "",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -2342,9 +2354,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7477,
+		"chart-id": 7477,
+		"filter": "",
 		"id": 7477
 	},
 	{
@@ -2360,12 +2376,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Detailhandel",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.2 Detailhandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Beschäftigung im Detailhandel (NOGA 47) ist seit einigen Jahren rückläufig. 2015 lag sie bei rund 7 200 Vollzeitäquivalenten (2011: 8 000). Rund 2 000 VZÄ sind im Bereich Waren verschiedener Art tätig, welcher insbesondere die Supermärkte umfasst. Es folgen Bekleidung und Schuhe (1 100 VZÄ), Apotheken und Kosmetik (800 VZÄ) sowie Bücher, Sport und Spielwaren (600 VZÄ).",
+		"lesehilfe": "Die Beschäftigung im Detailhandel (NOGA 47) ist seit einigen Jahren rückläufig. 2016 lag sie bei rund 7000 Vollzeitäquivalenten (2011: 8 000). Rund 2 000 VZÄ sind im Bereich Waren verschiedener Art tätig, welcher insbesondere die Supermärkte umfasst. Es folgen Bekleidung und Schuhe (1 100 VZÄ), Apotheken und Kosmetik (900 VZÄ) sowie Bücher, Sport und Spielwaren (600 VZÄ).",
 		"erlaeuterungen": "",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -2377,9 +2393,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7478,
+		"chart-id": 7478,
+		"filter": "",
 		"id": 7478
 	},
 	{
@@ -2395,12 +2415,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Detailhandel",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.2 Detailhandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit einiger Zeit liegt die Zahl der Arbeitslosen im Detailhandel bei rund 200 Personen. Die mittlere jährliche Arbeitslosenquote liegt 2017 bei rund 3,6% und ist damit etwas höher als im Vorjahr.",
+		"lesehilfe": "Seit einiger Zeit liegt die Zahl der Arbeitslosen im Detailhandel bei rund 200 Personen. Die mittlere jährliche Arbeitslosenquote liegt 2018 bei rund 3,6% und ist damit etwas höher als im Vorjahr.",
 		"erlaeuterungen": "",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -2412,9 +2432,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7479,
+		"chart-id": 7479,
+		"filter": "",
 		"id": 7479
 	},
 	{
@@ -2430,12 +2454,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Detailhandel",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.2 Detailhandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Grenzgänger im Detailhandel ist in den letzten Jahren rückläufig und liegt im 4. Quartal 2017 bei 1 854 Personen. Die Zuwanderung von Kurz- und Daueraufenthaltern betrug in den letzten Jahren meist zwischen 20 und 40 Personen pro Quartal, im 4. Quartal 2017 liegt sie bei 25 Personen. Zu den Meldepflichtigen sind auf Ebene Detailhandel keine Zahlen bekannt. Im nächsthöheren Branchenaggregat Handel und Reparatur machen die Meldepflichtigen im 4. Quartal 2017 in Vollzeitäquivalente umgerechnet 21 Stellen aus.",
+		"lesehilfe": "Die Zahl der Grenzgänger im Detailhandel ist in den letzten Jahren rückläufig und liegt im 3. Quartal 2018 bei 1 731 Personen. Die Zuwanderung von Kurz- und Daueraufenthaltern betrug in den letzten Jahren meist zwischen 20 und 40 Personen pro Quartal, im 4. Quartal 2018 liegt sie bei 27 Personen. Zu den Meldepflichtigen sind auf Ebene Detailhandel keine Zahlen bekannt. Im nächsthöheren Branchenaggregat Handel und Reparatur machen die Meldepflichtigen im 4. Quartal 2018 in Vollzeitäquivalente umgerechnet 23 Stellen aus.",
 		"erlaeuterungen": "",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -2448,9 +2472,13 @@ var indikatorensetData = [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7480,
+		"chart-id": 7480,
+		"filter": "",
 		"id": 7480
 	},
 	{
@@ -2466,8 +2494,8 @@ var indikatorensetData = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Detailhandel",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.2 Detailhandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -2483,9 +2511,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7481,
+		"chart-id": 7481,
+		"filter": "",
 		"id": 7481
 	},
 	{
@@ -2501,12 +2533,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Landverkehr",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.3 Landverkehr",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund 3 600 Vollzeitäquivalente sind 2015 in der Branche Landverkehr (NOGA 49) beschäftigt. Dies sind 500 weniger als 2014, wobei praktisch der gesamte Rückgang auf die Güterbeförderung auf der Schiene zurückzuführen ist. Bedeutend ist mit 1 100 VZÄ die Personenbeförderung auf der Schiene, mit 1 000 VZÄ die Personenbeförderung im Nahverkehr (ohne Taxis) sowie die Güterbeförderung im Strassenverkehr mit 900 VZÄ. Der Betrieb von Taxis macht rund 400 VZÄ aus.",
+		"lesehilfe": "Rund 3 500 Vollzeitäquivalente sind 2016 in der Branche Landverkehr (NOGA 49) beschäftigt. Dies sind 600 weniger als 2014, wobei praktisch der gesamte Rückgang auf die Güterbeförderung auf der Schiene zurückzuführen ist. Bedeutend sind mit je rund 1 000 VZÄ die Personenbeförderung auf der Schiene die Personenbeförderung im Nahverkehr (ohne Taxis) sowie die Güterbeförderung im Strassenverkehr mit 800 VZÄ. Der Betrieb von Taxis macht rund 400 VZÄ aus.",
 		"erlaeuterungen": "",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -2518,9 +2550,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7482,
+		"chart-id": 7482,
+		"filter": "",
 		"id": 7482
 	},
 	{
@@ -2536,12 +2572,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Landverkehr",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.3 Landverkehr",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2017 waren in der Landverkehrsbranche rund 70 Personen arbeitslos. Die mittlere jährliche Arbeitslosenquote ist leicht gestiegen, von rund 4,4% im Jahr 2016 auf rund 4,7% im Jahr 2017.",
+		"lesehilfe": "Ende 2018 waren in der Landverkehrsbranche 75 Personen arbeitslos. Die mittlere jährliche Arbeitslosenquote ist von 4,7% im Jahr 2017 auf 3,8% im Jahr 2018 gesunken.",
 		"erlaeuterungen": "",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -2553,9 +2589,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7483,
+		"chart-id": 7483,
+		"filter": "",
 		"id": 7483
 	},
 	{
@@ -2571,12 +2611,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Landverkehr",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.3 Landverkehr",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Grenzgänger in der Branche Landverkehr ist in den letzten Jahren rückläufig, im 4. Quartal 2017 liegt sie bei 600 Personen. Die Zuwanderung von Kurz- und Daueraufenthaltern im 4. Quartal 2017 beträgt 10 Personen. Zu den Meldepflichtigen sind für die Branche Landverkehr keine Daten vorhanden. Im nächsthöheren Branchenaggregat Verkehr machen die Meldepflichtigen im 4. Quartal 2017 in Vollzeitäquivalente umgerechnet lediglich eine Stelle aus.",
+		"lesehilfe": "Die Zahl der Grenzgänger in der Branche Landverkehr ist in den letzten Jahren rückläufig, im 3. Quartal 2018 liegt sie bei 559 Personen. Die Zuwanderung von Kurz- und Daueraufenthaltern im 4. Quartal 2018 beträgt 20 Personen. Zu den Meldepflichtigen sind für die Branche Landverkehr keine Daten vorhanden. Im nächsthöheren Branchenaggregat Verkehr machen die Meldepflichtigen im 4. Quartal 2018 in Vollzeitäquivalente umgerechnet 8 Stellen aus.",
 		"erlaeuterungen": "",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -2589,9 +2629,13 @@ var indikatorensetData = [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7484,
+		"chart-id": 7484,
+		"filter": "",
 		"id": 7484
 	},
 	{
@@ -2607,12 +2651,12 @@ var indikatorensetData = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Landverkehr",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.3 Landverkehr",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 2010 ist der Medianlohn für den Landverkehr in der Nordwestschweiz von brutto 5 800 Franken auf brutto 6 600 im Jahr 2014 gestiegen, im Jahr 2016 liegt er bei rund 5700 Franken.",
+		"lesehilfe": "Im Vergleich zum Jahr 2014 hat der Medianlohn für den Landverkehr in der Nordwestschweiz von brutto 6 600 auf rund 5 700 Franken abgenommen.",
 		"erlaeuterungen": "",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -2624,9 +2668,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7485,
+		"chart-id": 7485,
+		"filter": "",
 		"id": 7485
 	},
 	{
@@ -2642,12 +2690,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "IT-Dienstleistungen",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.4 IT-Dienstleistungen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bereich IT-Dienstleistungen (NOGA 62 und 63) sind 2015 in Basel-Stadt rund 2 200 Vollzeitäquivalente beschäftigt, ein Rückgang von rund 400 VZÄ im Vergleich zum Höchststand 2013. Die Beschäftigung teilt sich insbesondere auf Programmierungs-tätigkeiten und IT-Beratung mit im Jahr 2015 je rund 1 000 VZÄ auf.",
+		"lesehilfe": "Im Bereich IT-Dienstleistungen (NOGA 62 und 63) sind im Jahr 2016 in Basel-Stadt rund 2 200 Beschäftigte in Vollzeitäquivalente beschäftigt, ein Rückgang von rund 500 VZÄ im Vergleich zum Höchststand 2013. Die Beschäftigung teilt sich insbesondere auf Programmierungstätigkeiten und IT-Beratung mit im Jahr 2016 je rund 1 000 VZÄ auf.",
 		"erlaeuterungen": "",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -2659,9 +2707,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7486,
+		"chart-id": 7486,
+		"filter": "",
 		"id": 7486
 	},
 	{
@@ -2677,12 +2729,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "IT-Dienstleistungen",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.4 IT-Dienstleistungen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund 50 Personen aus dem Bereich IT-Dienstleistungen sind in Basel-Stadt Ende 2017 arbeitslos. Die mittlere jährliche Arbeitslosenquote bleibt 2017 fast unverändert bei 3,4%.",
+		"lesehilfe": "Rund 60 Personen aus dem Bereich IT-Dienstleistungen sind in Basel-Stadt Ende 2018 arbeitslos. Die mittlere jährliche Arbeitslosenquote bleibt 2018 fast unverändert bei 3,4%.",
 		"erlaeuterungen": "",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -2694,9 +2746,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7487,
+		"chart-id": 7487,
+		"filter": "",
 		"id": 7487
 	},
 	{
@@ -2712,12 +2768,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "IT-Dienstleistungen",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.4 IT-Dienstleistungen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Branche IT-Dienstleistungen zeigt sich in den letzten Jahren eine deutlich steigende Zahl an Grenzgängern. Im 4. Quartal 2017 arbeiten hier 1 211 Grenzgänger. In Vollzeitäquivalente umgerechnet machen die Meldepflichtigen im 4. Quartal 2017 in der Branche IT-Dienstleistungen 11 Stellen aus. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
+		"lesehilfe": "In der Branche IT-Dienstleistungen zeigt sich in den letzten Jahren eine deutlich steigende Zahl an Grenzgängern. Im 3. Quartal 2018 arbeiten hier 1 254 Grenzgänger. In Vollzeitäquivalente umgerechnet machen die Meldepflichtigen im 4. Quartal 2018 in der Branche IT-Dienstleistungen 9 Stellen aus. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
 		"erlaeuterungen": "",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -2730,9 +2786,13 @@ var indikatorensetData = [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7488,
+		"chart-id": 7488,
+		"filter": "",
 		"id": 7488
 	},
 	{
@@ -2748,12 +2808,12 @@ var indikatorensetData = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "IT-Dienstleistungen",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.4 IT-Dienstleistungen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zu 2012 ist der Medianlohn für Beschäftigte in der Branche der IT-Dienstleistungen in der Nordwestschweiz im Jahr  2014 leicht gesunken, nämlich von 8 800 Franken auf 8 500 Franken brutto.",
+		"lesehilfe": "Im Vergleich zu 2014 ist der Medianlohn für Beschäftigte in der Branche der IT-Dienstleistungen in der Nordwestschweiz im Jahr 2016 leicht gestiegen, nämlich von rund 8 500 Franken auf 8 700 Franken brutto.",
 		"erlaeuterungen": "",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -2765,14 +2825,18 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7489,
+		"chart-id": 7489,
+		"filter": "",
 		"id": 7489
 	},
 	{
 		"title": "Beschäftigung in Architektur- und Ingenieurbüros",
-		"subtitle": "Basel-Stadt",
+		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
 		"kuerzel": "I.03.2.07490",
 		"kuerzelKunde": "4.5-01",
 		"description": "Beschäftigung in Architektur- und Ingenieurbüros",
@@ -2783,12 +2847,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Architektur- und Ingenieurbüros",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.5 Architektur- und Ingenieurbüros",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Beschäftigung in der Branche Architektur- und Ingenieurbüros (NOGA 71) steigt seit 2011 und beträgt im Jahr 2015 rund 5 100 VZÄ (2011: 4 200 VZÄ). Das sind rund 200 VZÄ mehr als im Jahr 2014, wobei der Anstieg auf die Ingenieurbüros zurückzuführen ist. Bei den Architekturbüros ist die Beschäftigung im Vergleich zum Vorjahr leicht rückläufig.",
+		"lesehilfe": "Die Beschäftigung in der Branche Architektur- und Ingenieurbüros (NOGA 71) liegt im Jahr 2016 bei rund 5000 Vollzeitäquivalenten (VZÄ) und ist damit leicht tiefer als im Vorjahr (2015: 5100 VZÄ). Zuvor war die Beschäftigung seit 2011 um rund 900 VZÄ gestiegen.",
 		"erlaeuterungen": "",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -2800,9 +2864,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7490,
+		"chart-id": 7490,
+		"filter": "",
 		"id": 7490
 	},
 	{
@@ -2818,12 +2886,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Architektur- und Ingenieurbüros",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.5 Architektur- und Ingenieurbüros",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2017 sind rund 60 Personen in der Branche Architektur- und Ingenieurbüros arbeitslos. Die mittlere jährliche Arbeitslosenquote liegt 2017 bei 2,6% und damit leicht tiefer als Ende 2016 mit 2,7%.",
+		"lesehilfe": "Ende 2018 sind rund 50 Personen in der Branche Architektur- und Ingenieurbüros arbeitslos. Die mittlere jährliche Arbeitslosenquote liegt 2018 bei 2,3% und damit tiefer als 2017 mit 2,6%.",
 		"erlaeuterungen": "",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -2835,9 +2903,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7491,
+		"chart-id": 7491,
+		"filter": "",
 		"id": 7491
 	},
 	{
@@ -2853,12 +2925,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Architektur- und Ingenieurbüros",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.5 Architektur- und Ingenieurbüros",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Branche Architektur- und Ingenieurbüros verzeichnet in den letzten Jahren eine deutlich steigende Zahl an Grenzgängern. Im 4. Quartal 2017 liegt sie bei 2 183 Personen. Zu den Meldepflichtigen sind für die Branche Architektur- und Ingenieurbüros keine Daten vorhanden. Im nächsthöheren Branchenaggregat Beratung und Planung sind es im 4. Quartal 2017 9 Meldepflichtige in Vollzeitäquivalenten. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
+		"lesehilfe": "Die Branche Architektur- und Ingenieurbüros verzeichnet in den letzten Jahren eine deutlich steigende Zahl an Grenzgängern. Im 3. Quartal 2018 liegt sie bei 2 205 Personen. Zu den Meldepflichtigen sind für die Branche Architektur- und Ingenieurbüros keine Daten vorhanden. Im nächsthöheren Branchenaggregat Beratung und Planung sind es im 4. Quartal 2018 11 Meldepflichtige in Vollzeitäquivalenten. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
 		"erlaeuterungen": "",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -2871,9 +2943,13 @@ var indikatorensetData = [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7492,
+		"chart-id": 7492,
+		"filter": "",
 		"id": 7492
 	},
 	{
@@ -2889,12 +2965,12 @@ var indikatorensetData = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Architektur- und Ingenieurbüros",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.5 Architektur- und Ingenieurbüros",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zu 2012 ist der Medianlohn für Beschäftigte in der Branche Architektur- und Ingenieurbüros in der Nordwestschweiz im Jahr 2014 leicht gesunken, von rund 7 400 Franken auf 7 200 Franken brutto.",
+		"lesehilfe": "Im Vergleich zu 2014 ist der Medianlohn für Beschäftigte in der Branche Architektur- und Ingenieurbüros in der Nordwestschweiz im Jahr 2016 leicht gestiegen, von rund 7 200 Franken auf 7 300 Franken brutto.",
 		"erlaeuterungen": "",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -2906,9 +2982,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7493,
+		"chart-id": 7493,
+		"filter": "",
 		"id": 7493
 	},
 	{
@@ -2924,12 +3004,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Personalvermittlung und -überlassung",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.6 Personalvermittlung und -überlassung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bereich Personalvermittlung und -überlassung (NOGA 78) sind 2015 in Basel-Stadt rund 6 000 Vollzeitäquivalente beschäftigt, ein Rückgang von rund 600 VZÄ im Vergleich zum Höchststand 2013. Die Mehrheit der Beschäftigten stammt mit rund 4 600 VZÄ im Jahr 2015 aus dem Bereich Befristete Überlassung von Arbeitskräften.",
+		"lesehilfe": "Im Bereich Personalvermittlung und -überlassung (NOGA 78) sind 2016 in Basel-Stadt rund 6 300 Beschäftigte in Vollzeitäquivalenten tätig, ein Anstieg von rund 200 VZÄ im Vergleich zum Vorjahr. Die Mehrheit der Beschäftigten stammt mit rund 5 500 VZÄ im Jahr 2016 aus dem Bereich Befristete Überlassung von Arbeitskräften.",
 		"erlaeuterungen": "",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -2941,9 +3021,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7494,
+		"chart-id": 7494,
+		"filter": "",
 		"id": 7494
 	},
 	{
@@ -2959,12 +3043,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Personalvermittlung und -überlassung",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.6 Personalvermittlung und -überlassung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund 60 Personen aus der Branche Personalvermittlung und <br>-überlassung sind Ende 2017 arbeitslos. Das sind etwa doppelt so viele wie Mitte 2017. Die mittlere jährliche Arbeitslosenquote ist von 2,2% im Jahr 2016 auf 3,2% im Jahr 2017 gestiegen.",
+		"lesehilfe": "Rund 40 Personen aus der Branche Personalvermittlung und <br>-überlassung sind Ende 2018 arbeitslos. Das sind etwa doppelt so viele wie Mitte 2018. Die mittlere jährliche Arbeitslosenquote ist mit 3,0% leicht tiefer als im Vorjahr.",
 		"erlaeuterungen": "",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -2976,9 +3060,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7495,
+		"chart-id": 7495,
+		"filter": "",
 		"id": 7495
 	},
 	{
@@ -2994,12 +3082,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Personalvermittlung und -überlassung",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.6 Personalvermittlung und -überlassung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Grenzgänger in der Branche Personalvermittlung und <br>-überlassung ist in den letzten Jahren gestiegen. Ausserdem zeigt sie saisonale Schwankungen. Im 4. Quartal 2017 liegt sie bei 2 232 Personen. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten zeigt ebenfalls saisonal geprägte Muster. Im 4. Quartal 2017 sind es 85 Meldepflichtige in VZÄ. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
+		"lesehilfe": "Die Zahl der Grenzgänger in der Branche Personalvermittlung und <br>-überlassung ist in den letzten Jahren gestiegen. Ausserdem zeigt sie saisonale Schwankungen. Im 4. Quartal 2017 liegt sie bei 2 233 Personen. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten zeigt ebenfalls saisonal geprägte Muster. Im 4. Quartal 2018 sind es 85 Meldepflichtige in VZÄ. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
 		"erlaeuterungen": "",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -3012,9 +3100,13 @@ var indikatorensetData = [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7496,
+		"chart-id": 7496,
+		"filter": "",
 		"id": 7496
 	},
 	{
@@ -3030,12 +3122,12 @@ var indikatorensetData = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Personalvermittlung und -überlassung",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.6 Personalvermittlung und -überlassung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Medianlohn für Beschäftigte in der Branche Personalvermittlung und -überlassung ist von 5 500 Franken brutto im Jahr 2012 auf 5 600 Franken brutto im Jahr 2014 gestiegen.",
+		"lesehilfe": "Der Medianlohn für Beschäftigte in der Branche Personalvermittlung und -überlassung ist seit dem Jahr 2012 von rund 5 500 Franken brutto auf 5 900 Franken brutto im Jahr 2016 gestiegen.",
 		"erlaeuterungen": "",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -3047,14 +3139,18 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7497,
+		"chart-id": 7497,
+		"filter": "",
 		"id": 7497
 	},
 	{
 		"title": "Beschäftigung in der Branche Wach- und Sicherheitsdienste",
-		"subtitle": "Basel-Stadt",
+		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
 		"kuerzel": "I.03.2.07498",
 		"kuerzelKunde": "4.7-01",
 		"description": "Beschäftigung in der Branche Wach- und Sicherheitsdienste",
@@ -3065,12 +3161,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Wach- und Sicherheitsdienste",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.7 Wach- und Sicherheitsdienste",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund 840 Vollzeitäquivalente sind im Jahr 2015 in der Branche Wach- und Sicherheitsdienste (NOGA 80) beschäftigt. Diese sind fast ausschliesslich im Bereich Private Wach- und Sicherheitsdienste tätig. Die gesamte Branche konnte seit 2011 einen Zuwachs von 250 VZÄ verzeichnen, was einem Wachstum von 42% entspricht.",
+		"lesehilfe": "Rund 841 Beschäftigte in Vollzeitäquivalenten (VZÄ) sind im Jahr 2016 in der Branche Wach- und Sicherheitsdienste (NOGA 80) tätig. Diese sind fast ausschliesslich im Bereich Private Wach- und Sicherheitsdienste tätig. Die gesamte Branche konnte seit 2011 einen Zuwachs von 250 VZÄ verzeichnen, was einem Wachstum von 42% entspricht.",
 		"erlaeuterungen": "",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -3082,9 +3178,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7498,
+		"chart-id": 7498,
+		"filter": "",
 		"id": 7498
 	},
 	{
@@ -3100,12 +3200,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Wach- und Sicherheitsdienste",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.7 Wach- und Sicherheitsdienste",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2017 sind rund 20 Personen aus der Branche Wach- und Sicherheitsdienste arbeitslos. Die mittlere jährliche Arbeitslosenquote ist von 9,1% auf 8,6% gesunken. Davor war sie seit 2011 (3,9%) gestiegen.",
+		"lesehilfe": "Ende 2018 sind rund 20 Personen aus der Branche Wach- und Sicherheitsdienste arbeitslos. Die mittlere jährliche Arbeitslosenquote liegt im Vergleich zum Vorjahr unverändert bei 8,6%.",
 		"erlaeuterungen": "",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -3117,9 +3217,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7499,
+		"chart-id": 7499,
+		"filter": "",
 		"id": 7499
 	},
 	{
@@ -3135,12 +3239,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Wach- und Sicherheitsdienste",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.7 Wach- und Sicherheitsdienste",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Grenzgänger in der Branche Wach- und Sicherheitsdienste ist nicht bekannt. Für das nächsthöhere Branchenaggregat Sonstige wirtschaftliche Dienstleistungen ist sie in den letzten Jahren deutlich gestiegen. Im 4. Quartal 2017 liegt sie bei 2 350 Personen. Die Meldepflichtigen machen im 4. Quartal 2017 in Vollzeitäquivalente umgerechnet 2 Stellen aus. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
+		"lesehilfe": "Die Zahl der Grenzgänger in der Branche Wach- und Sicherheitsdienste ist nicht bekannt. Für das nächsthöhere Branchenaggregat Sonstige wirtschaftliche Dienstleistungen ist sie in den letzten Jahren deutlich gestiegen. Im 3. Quartal 2018 liegt sie bei 2 374 Personen. Die Meldepflichtigen machen im 4. Quartal 2018 in Vollzeitäquivalente umgerechnet 5 Stellen aus. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
 		"erlaeuterungen": "",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -3153,9 +3257,13 @@ var indikatorensetData = [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7500,
+		"chart-id": 7500,
+		"filter": "",
 		"id": 7500
 	},
 	{
@@ -3171,12 +3279,12 @@ var indikatorensetData = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Wach- und Sicherheitsdienste",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.7 Wach- und Sicherheitsdienste",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Medianlohn für Beschäftigte in der Branche Wach- und Sicherheitsdienste ist von 5 300 Franken brutto im Jahr 2012 auf 5 200 Franken brutto im Jahr 2014 gesunken. Es handelt sich hier um Werte für die gesamte Schweiz, da auf Ebene Nordwestschweiz keine Zahlen vorliegen.",
+		"lesehilfe": "Der Medianlohn für Beschäftigte in der Branche Wach- und Sicherheitsdienste in der Nordwestschweiz liegt 2016 bei rund 4 700 Franken brutto. Der Wert für die gesamte Schweiz beträgt in der gleichen Branche rund 5 300 Franken brutto.",
 		"erlaeuterungen": "",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -3188,9 +3296,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7501,
+		"chart-id": 7501,
+		"filter": "",
 		"id": 7501
 	},
 	{
@@ -3206,12 +3318,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Heime und Sozialwesen",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.8 Heime und Sozialwesen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund 7 600 VZÄ sind im Jahr 2015 im Bereich Heime und Sozialwesen (NOGA 87 und 88) beschäftigt. Das sind etwa 500 VZÄ mehr als im Jahr 2014. Bedeutend sind mit 3 100 VZÄ die Pflegeheime, mit 1 100 VZÄ die Tagesbetreuung von Kindern und mit 700 VZÄ die soziale Betreuung älterer Menschen und Behinderter.",
+		"lesehilfe": "Rund 7 900 Beschäftigte in Vollzeitäquivalenten (VZÄ) sind im Jahr 2016 im Bereich Heime und Sozialwesen (NOGA 87 und 88) tätig. Das sind etwa 200 VZÄ mehr als im Vorjahr. Bedeutend sind mit 3 300 VZÄ die Pflegeheime, mit 1 100 VZÄ die Tagesbetreuung von Kindern und mit 700 VZÄ die soziale Betreuung älterer Menschen und Behinderter.",
 		"erlaeuterungen": "",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -3223,9 +3335,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7502,
+		"chart-id": 7502,
+		"filter": "",
 		"id": 7502
 	},
 	{
@@ -3241,12 +3357,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Heime und Sozialwesen",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.8 Heime und Sozialwesen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Branche Heime sind Ende 2017 rund 150 Personen arbeitslos. Im Sozialwesen sind es etwa 100 Arbeitslose. Die mittlere jährliche Arbeislosenquote der Branche Heime ist von 3,5% im Jahr 2014 auf 4,1% im Jahr 2015 gestiegen. Im Sozialwesen ist im selben Zeitraum ebenfalls ein Anstieg der Quote zu beobachten, von 5,0% auf 5,3%.",
+		"lesehilfe": "In der Branche Heime sind Ende 2018 rund 70 Personen arbeitslos. Im Sozialwesen sind es etwa 80 Arbeitslose. Die mittlere jährliche Arbeislosenquote der Branche Heime ist von 4,1% im Jahr 2017 auf 3,2% im Jahr 2018 gestiegen. Im Sozialwesen ist im selben Zeitraum ebenfalls ein Rückgang der Quote zu beobachten, von 5,3% auf 4,9%.",
 		"erlaeuterungen": "",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -3258,9 +3374,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7503,
+		"chart-id": 7503,
+		"filter": "",
 		"id": 7503
 	},
 	{
@@ -3276,12 +3396,12 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Heime und Sozialwesen",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.8 Heime und Sozialwesen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Grenzgänger in den Branchen Heime und Sozialwesen ist in den letzten Jahren leicht gestiegen. Im 4. Quartal 2017 sind im Bereich Heime 1 036 und im Bereich Sozialwesen 434 Grenzgänger beschäftigt. Die Zuwanderung von Kurz- und Daueraufenthaltern im 4. Quartal 2017 beträgt 10 Personen. Die in Vollzeitäquivalente umgerechnete Zahl der Meldepflichtigen ist für die Branchen Heime und Sozialwesen nicht bekannt. Das nächsthöhere Branchenaggregat Gesundheits-, Veterinärwesen, Heime und Kinderkrippen ver-zeichnet 19 Meldepflichtige in VZÄ.",
+		"lesehilfe": "Die Zahl der Grenzgänger in den Branchen Heime und Sozialwesen ist in den letzten Jahren leicht gestiegen. Im 3. Quartal 2018 sind im Bereich Heime 1 101 und im Bereich Sozialwesen 430 Grenzgänger beschäftigt. Die Zuwanderung von Kurz- und Daueraufenthaltern im 4. Quartal 2018 beträgt 5 Personen. Die in Vollzeitäquivalente umgerechnete Zahl der Meldepflichtigen ist für die Branchen Heime und Sozialwesen nicht bekannt. Das nächsthöhere Branchenaggregat Gesundheits-, Veterinärwesen, Heime und Kinderkrippen verzeichnet 19 Meldepflichtige in VZÄ.",
 		"erlaeuterungen": "",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -3294,9 +3414,13 @@ var indikatorensetData = [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7504,
+		"chart-id": 7504,
+		"filter": "",
 		"id": 7504
 	},
 	{
@@ -3312,12 +3436,12 @@ var indikatorensetData = [
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Fokusbranchen",
-		"stufe2": "Heime und Sozialwesen",
+		"stufe1": "4 Fokusbranchen",
+		"stufe2": "4.8 Heime und Sozialwesen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Medianlohn für Beschäftigte in der Branche Heime liegt im Jahr 2014 bei 5 800 Franken brutto und hat sich damit im Vergleich zu 2012 kaum verändert. Seit 2010 ist der Medianlohn im Sozialwesen von 6 100 Franken brutto auf 5 500 Franken brutto im Jahr 2014 gesunken.",
+		"lesehilfe": "Der Medianlohn für Beschäftigte in der Branche Heime liegt im Jahr 2016 bei 5 800 Franken brutto und hat sich damit seit 2012 kaum verändert. Im Sozialwesen ist der Medianlohn im Vergleich zu 2014 von rund 5 500 Franken brutto auf 5800 Franken brutto gestiegen, liegt damit aber immer noch unter dem Wert von 2010.",
 		"erlaeuterungen": "",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -3329,9 +3453,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7505,
+		"chart-id": 7505,
+		"filter": "",
 		"id": 7505
 	}
 ];

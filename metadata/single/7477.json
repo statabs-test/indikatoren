@@ -9,12 +9,12 @@
 "kennzahlenset":"Arbeitsmarkt (Print)",
 "raeumlicheGliederung":["Grossregion"],
 "aktualisierungsdatum":"",
-"stufe1":"Fokusbranchen",
-"stufe2":"Baunebengewerbe",
+"stufe1":"4 Fokusbranchen",
+"stufe2":"4.1 Baunebengewerbe",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Im Jahr 2014 liegt der Medianlohn im Baunebengewerbe bei etwa 5 900 Franken brutto und hat sich damit im Vergleich zu 2012 kaum verändert.",
+"lesehilfe":"Im Jahr 2016 liegt der Medianlohn im Baunebengewerbe bei etwa 5 900 Franken brutto und hat sich damit seit 2012 kaum verändert.",
 "erlaeuterungen":"",
 "template":"template001_print",
 "darstellungsart":"",
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":7477, 
+"chart-id":7477, 
+"filter":""
 }

@@ -9,12 +9,12 @@
 "kennzahlenset":"Arbeitsmarkt (Print)",
 "raeumlicheGliederung":["Grossregion"],
 "aktualisierungsdatum":"",
-"stufe1":"Fokusbranchen",
-"stufe2":"IT-Dienstleistungen",
+"stufe1":"4 Fokusbranchen",
+"stufe2":"4.4 IT-Dienstleistungen",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Im Vergleich zu 2012 ist der Medianlohn für Beschäftigte in der Branche der IT-Dienstleistungen in der Nordwestschweiz im Jahr  2014 leicht gesunken, nämlich von 8 800 Franken auf 8 500 Franken brutto.",
+"lesehilfe":"Im Vergleich zu 2014 ist der Medianlohn für Beschäftigte in der Branche der IT-Dienstleistungen in der Nordwestschweiz im Jahr 2016 leicht gestiegen, nämlich von rund 8 500 Franken auf 8 700 Franken brutto.",
 "erlaeuterungen":"",
 "template":"template001_print",
 "darstellungsart":"",
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":7489, 
+"chart-id":7489, 
+"filter":""
 }

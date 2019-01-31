@@ -1,5 +1,5 @@
 {"title":"Beschäftigung in der Branche Wach- und Sicherheitsdienste",
-"subtitle":"Basel-Stadt",
+"subtitle":"in Vollzeitäquivalenten, Basel-Stadt",
 "kuerzel":"I.03.2.07498",
 "kuerzelKunde":"4.7-01",
 "description":"Beschäftigung in der Branche Wach- und Sicherheitsdienste",
@@ -9,12 +9,12 @@
 "kennzahlenset":"Arbeitsmarkt (Print)",
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
-"stufe1":"Fokusbranchen",
-"stufe2":"Wach- und Sicherheitsdienste",
+"stufe1":"4 Fokusbranchen",
+"stufe2":"4.7 Wach- und Sicherheitsdienste",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Rund 840 Vollzeitäquivalente sind im Jahr 2015 in der Branche Wach- und Sicherheitsdienste (NOGA 80) beschäftigt. Diese sind fast ausschliesslich im Bereich Private Wach- und Sicherheitsdienste tätig. Die gesamte Branche konnte seit 2011 einen Zuwachs von 250 VZÄ verzeichnen, was einem Wachstum von 42% entspricht.",
+"lesehilfe":"Rund 841 Beschäftigte in Vollzeitäquivalenten (VZÄ) sind im Jahr 2016 in der Branche Wach- und Sicherheitsdienste (NOGA 80) tätig. Diese sind fast ausschliesslich im Bereich Private Wach- und Sicherheitsdienste tätig. Die gesamte Branche konnte seit 2011 einen Zuwachs von 250 VZÄ verzeichnen, was einem Wachstum von 42% entspricht.",
 "erlaeuterungen":"",
 "template":"template001_print",
 "darstellungsart":"",
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":7498, 
+"chart-id":7498, 
+"filter":""
 }

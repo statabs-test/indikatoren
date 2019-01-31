@@ -9,12 +9,12 @@
 "kennzahlenset":"Arbeitsmarkt (Print)",
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
-"stufe1":"Fokusbranchen",
-"stufe2":"Baunebengewerbe",
+"stufe1":"4 Fokusbranchen",
+"stufe2":"4.1 Baunebengewerbe",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Bedeutend im Baunebengewerbe (NOGA 43) sind mit rund 6 100 Vollzeitäquivalenten (VZÄ) v. a. die Elektroinstallation (2 600 VZÄ), der Bereich Sanitär, Heizung und Lüftung (1 000 VZÄ) sowie die Malerei und Glaserei (900 VZÄ). Die Beschäftigung im Baunebengewerbe ist zwischen 2011 und 2015 um rund 5% gewachsen.",
+"lesehilfe":"Bedeutend im Baunebengewerbe (NOGA 43) mit 6 100 Vollzeitäquivalenten (VZÄ) sind v. a. die Elektroinstallation (2 500 VZÄ), der Bereich Sanitär, Heizung und Lüftung (1 200 VZÄ) sowie die Malerei und Glaserei (900 VZÄ). Der Zuwachs der Beschäftigung in VZÄ gegenüber dem Jahr 2011 beträgt im Baunebengewerbe rund 5%.",
 "erlaeuterungen":"",
 "template":"template001_print",
 "darstellungsart":"",
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":7474, 
+"chart-id":7474, 
+"filter":""
 }

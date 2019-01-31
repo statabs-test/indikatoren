@@ -9,12 +9,12 @@
 "kennzahlenset":"Arbeitsmarkt (Print)",
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
-"stufe1":"Fokusbranchen",
-"stufe2":"Heime und Sozialwesen",
+"stufe1":"4 Fokusbranchen",
+"stufe2":"4.8 Heime und Sozialwesen",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"In der Branche Heime sind Ende 2017 rund 150 Personen arbeitslos. Im Sozialwesen sind es etwa 100 Arbeitslose. Die mittlere jährliche Arbeislosenquote der Branche Heime ist von 3,5% im Jahr 2014 auf 4,1% im Jahr 2015 gestiegen. Im Sozialwesen ist im selben Zeitraum ebenfalls ein Anstieg der Quote zu beobachten, von 5,0% auf 5,3%.",
+"lesehilfe":"In der Branche Heime sind Ende 2018 rund 70 Personen arbeitslos. Im Sozialwesen sind es etwa 80 Arbeitslose. Die mittlere jährliche Arbeislosenquote der Branche Heime ist von 4,1% im Jahr 2017 auf 3,2% im Jahr 2018 gestiegen. Im Sozialwesen ist im selben Zeitraum ebenfalls ein Rückgang der Quote zu beobachten, von 5,3% auf 4,9%.",
 "erlaeuterungen":"",
 "template":"line001_print",
 "darstellungsart":"",
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":7503, 
+"chart-id":7503, 
+"filter":""
 }

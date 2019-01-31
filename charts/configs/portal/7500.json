@@ -148,9 +148,13 @@
         [
           "2018-03",
           2374
+        ],
+        [
+          "2018-04",
+          null
         ]
       ],
-      "name": "Bestand Grenzgänger",
+      "name": "Bestand Grenzgänger Sonstige wirtsch. DL",
       "turboThreshold": 0
     },
     {
@@ -301,6 +305,10 @@
         [
           "2018-03",
           3
+        ],
+        [
+          "2018-04",
+          5
         ]
       ],
       "name": "Bestand Meldepflichtige in VZÄ",

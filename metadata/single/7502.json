@@ -9,12 +9,12 @@
 "kennzahlenset":"Arbeitsmarkt (Print)",
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
-"stufe1":"Fokusbranchen",
-"stufe2":"Heime und Sozialwesen",
+"stufe1":"4 Fokusbranchen",
+"stufe2":"4.8 Heime und Sozialwesen",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Rund 7 600 VZÄ sind im Jahr 2015 im Bereich Heime und Sozialwesen (NOGA 87 und 88) beschäftigt. Das sind etwa 500 VZÄ mehr als im Jahr 2014. Bedeutend sind mit 3 100 VZÄ die Pflegeheime, mit 1 100 VZÄ die Tagesbetreuung von Kindern und mit 700 VZÄ die soziale Betreuung älterer Menschen und Behinderter.",
+"lesehilfe":"Rund 7 900 Beschäftigte in Vollzeitäquivalenten (VZÄ) sind im Jahr 2016 im Bereich Heime und Sozialwesen (NOGA 87 und 88) tätig. Das sind etwa 200 VZÄ mehr als im Vorjahr. Bedeutend sind mit 3 300 VZÄ die Pflegeheime, mit 1 100 VZÄ die Tagesbetreuung von Kindern und mit 700 VZÄ die soziale Betreuung älterer Menschen und Behinderter.",
 "erlaeuterungen":"",
 "template":"template001_print",
 "darstellungsart":"",
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":7502, 
+"chart-id":7502, 
+"filter":""
 }

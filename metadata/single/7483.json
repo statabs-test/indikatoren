@@ -9,12 +9,12 @@
 "kennzahlenset":"Arbeitsmarkt (Print)",
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
-"stufe1":"Fokusbranchen",
-"stufe2":"Landverkehr",
+"stufe1":"4 Fokusbranchen",
+"stufe2":"4.3 Landverkehr",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Ende 2017 waren in der Landverkehrsbranche rund 70 Personen arbeitslos. Die mittlere jährliche Arbeitslosenquote ist leicht gestiegen, von rund 4,4% im Jahr 2016 auf rund 4,7% im Jahr 2017.",
+"lesehilfe":"Ende 2018 waren in der Landverkehrsbranche 75 Personen arbeitslos. Die mittlere jährliche Arbeitslosenquote ist von 4,7% im Jahr 2017 auf 3,8% im Jahr 2018 gesunken.",
 "erlaeuterungen":"",
 "template":"line001_print",
 "darstellungsart":"",
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":7483, 
+"chart-id":7483, 
+"filter":""
 }

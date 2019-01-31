@@ -9,12 +9,12 @@
 "kennzahlenset":"Arbeitsmarkt (Print)",
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
-"stufe1":"Fokusbranchen",
-"stufe2":"IT-Dienstleistungen",
+"stufe1":"4 Fokusbranchen",
+"stufe2":"4.4 IT-Dienstleistungen",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Rund 50 Personen aus dem Bereich IT-Dienstleistungen sind in Basel-Stadt Ende 2017 arbeitslos. Die mittlere jährliche Arbeitslosenquote bleibt 2017 fast unverändert bei 3,4%.",
+"lesehilfe":"Rund 60 Personen aus dem Bereich IT-Dienstleistungen sind in Basel-Stadt Ende 2018 arbeitslos. Die mittlere jährliche Arbeitslosenquote bleibt 2018 fast unverändert bei 3,4%.",
 "erlaeuterungen":"",
 "template":"line001_print",
 "darstellungsart":"",
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":7487, 
+"chart-id":7487, 
+"filter":""
 }
