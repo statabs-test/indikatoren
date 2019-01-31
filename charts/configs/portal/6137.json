@@ -415,7 +415,8 @@
       "style": {
         "color": "#000000",
         "textOverflow": "none"
-      }
+      },
+      "rotation": -45
     },
     "tickLength": 0,
     "tickInterval": 2
