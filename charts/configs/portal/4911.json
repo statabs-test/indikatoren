@@ -190,7 +190,7 @@
     },
     "renderTo": "container-4911",
     "type": "column",
-    "marginBottom": 65,
+    "marginBottom": 80,
     "spacingBottom": 50
   },
   "plotOptions": {
