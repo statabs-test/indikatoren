@@ -474,5 +474,44 @@ var indikatorensetData = [
 		],
 		"id": 6576,
 		"darstellungsart": "Grafik"
+	},
+	{
+		"title": "Marktanteile am Übernachtungsvolumen 2018",
+		"subtitle": "",
+		"kuerzel": "I.10.1.07519",
+		"kuerzelKunde": "3-1",
+		"description": "Marktanteile am Übernachtungsvolumen 2018",
+		"thema": "10 Tourismus",
+		"unterthema": "Hotellerie",
+		"kennzahlenset": "Tourismus",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "pie001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7519,
+		"chart-id": 7519,
+		"filter": "",
+		"id": 7519
 	}
 ];
