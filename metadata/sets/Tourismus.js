@@ -476,6 +476,45 @@ var indikatorensetData = [
 		"darstellungsart": "Grafik"
 	},
 	{
+		"title": "Logiernächte und Marktanteile am Übernachtungsvolumen",
+		"subtitle": "",
+		"kuerzel": "I.10.1.07518",
+		"kuerzelKunde": "2-12",
+		"description": "Logiernächte und Marktanteile am Übernachtungsvolumen",
+		"thema": "10 Tourismus",
+		"unterthema": "Hotellerie",
+		"kennzahlenset": "Tourismus",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7518,
+		"chart-id": 7518,
+		"filter": "",
+		"id": 7518
+	},
+	{
 		"title": "Marktanteile am Übernachtungsvolumen 2018",
 		"subtitle": "",
 		"kuerzel": "I.10.1.07519",

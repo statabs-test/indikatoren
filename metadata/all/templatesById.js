@@ -955,6 +955,7 @@ var templatesById = {
 	"6989": "populationPyramid001",
 	"6990": "stock001",
 	"7432": "line001",
+	"7518": "line001",
 	"7519": "pie001",
 	"7520": "template001",
 	"7523": "befragungen001",

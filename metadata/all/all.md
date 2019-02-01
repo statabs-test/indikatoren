@@ -1000,6 +1000,7 @@ id | visible | visibleInPortal | indikatorenset
 6989 | true | false | Wohnviertel
 6990 | true | true | Wohnviertel
 7432 | true | true | 
+7518 | true | true | Tourismus
 7519 | true | true | Tourismus
 7520 | true | true | Tourismus
 7523 | true | true | Tourismus
