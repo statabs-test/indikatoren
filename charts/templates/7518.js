@@ -15,9 +15,10 @@
   },
   "xAxis": {
     "type": "category",
-    "tickInterval": 1
+    "tickInterval": 1,
   },  
   "yAxis": {
+      tickAmount: 6,
   	 //max: 120000,
      //tickInterval: 60000,
     "labels": {
