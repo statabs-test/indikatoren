@@ -552,5 +552,44 @@ var indikatorensetData = [
 		"chart-id": 7520,
 		"filter": "",
 		"id": 7520
+	},
+	{
+		"title": "Logiernächte der Hauptmärkte nach Hotelkategorie 2018",
+		"subtitle": "",
+		"kuerzel": "I.10.1.07523",
+		"kuerzelKunde": "3-5",
+		"description": "Logiernächte der Hauptmärkte nach Hotelkategorie 2018",
+		"thema": "10 Tourismus",
+		"unterthema": "Hotellerie",
+		"kennzahlenset": "Tourismus",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7523,
+		"chart-id": 7523,
+		"filter": "",
+		"id": 7523
 	}
 ];

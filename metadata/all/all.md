@@ -1002,6 +1002,7 @@ id | visible | visibleInPortal | indikatorenset
 7432 | true | true | 
 7519 | true | true | Tourismus
 7520 | true | true | Tourismus
+7523 | true | true | Tourismus
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

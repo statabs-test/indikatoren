@@ -1,0 +1,354 @@
+{
+  "series": [
+    {
+      "color": "#DC440E",
+      "index": 3,
+      "legendIndex": 0,
+      "data": [
+        [
+          "CHN",
+          10373
+        ],
+        [
+          "IND",
+          6571
+        ],
+        [
+          "NED",
+          10023
+        ],
+        [
+          "ESP",
+          11327
+        ],
+        [
+          "ITA",
+          13626
+        ],
+        [
+          "FRA",
+          23471
+        ],
+        [
+          "GBR",
+          45027
+        ],
+        [
+          "USA",
+          98867
+        ],
+        [
+          "GER",
+          60929
+        ],
+        [
+          "SUI",
+          132832
+        ]
+      ],
+      "name": "5- und 4-Sterne",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FABD24",
+      "index": 2,
+      "legendIndex": 1,
+      "data": [
+        [
+          "CHN",
+          6142
+        ],
+        [
+          "IND",
+          14403
+        ],
+        [
+          "NED",
+          12404
+        ],
+        [
+          "ESP",
+          13335
+        ],
+        [
+          "ITA",
+          18800
+        ],
+        [
+          "FRA",
+          21812
+        ],
+        [
+          "GBR",
+          33304
+        ],
+        [
+          "USA",
+          31981
+        ],
+        [
+          "GER",
+          79927
+        ],
+        [
+          "SUI",
+          196015
+        ]
+      ],
+      "name": "3-Sterne",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#68AB2B",
+      "index": 1,
+      "legendIndex": 2,
+      "data": [
+        [
+          "CHN",
+          3192
+        ],
+        [
+          "IND",
+          2605
+        ],
+        [
+          "NED",
+          5657
+        ],
+        [
+          "ESP",
+          7617
+        ],
+        [
+          "ITA",
+          11485
+        ],
+        [
+          "FRA",
+          10103
+        ],
+        [
+          "GBR",
+          11636
+        ],
+        [
+          "USA",
+          7436
+        ],
+        [
+          "GER",
+          29441
+        ],
+        [
+          "SUI",
+          72788
+        ]
+      ],
+      "name": "2- und 1-Sterne",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#8A8A8A",
+      "index": 0,
+      "legendIndex": 3,
+      "data": [
+        [
+          "CHN",
+          1316
+        ],
+        [
+          "IND",
+          913
+        ],
+        [
+          "NED",
+          2221
+        ],
+        [
+          "ESP",
+          2498
+        ],
+        [
+          "ITA",
+          3578
+        ],
+        [
+          "FRA",
+          4828
+        ],
+        [
+          "GBR",
+          5310
+        ],
+        [
+          "USA",
+          4472
+        ],
+        [
+          "GER",
+          26248
+        ],
+        [
+          "SUI",
+          56368
+        ]
+      ],
+      "name": "Nicht klassiert",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "rotation": 0,
+      "style": {
+        "color": "#000000",
+        "width": 1,
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
+      },
+      "formatter": function () {
+      	return this.value;
+      }
+    },
+    "reversed": false
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+            }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 415,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "column",
+    "inverted": true,
+    "renderTo": "container-7523",
+    "spacingBottom": 30
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": " Logiernächte der Hauptmärkte nach Hotelkategorie 2018"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": ""
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent"
+    }
+  },
+  "yAxis": {
+    "tickInterval": 20,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "format": "{value}%",
+      "style": {
+        "color": "#000000",
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
+      }
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik."
+  },
+  "legend": {
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left",
+    "useHTML": false,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": null
+    },
+    "symbolRadius": 0,
+    "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        },
+    "itemDistance": 5,
+    "enabled": true
+  },
+  "exporting": {
+    "filename": 7523
+  }
+}
