@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "rgb(211, 226, 229)",
+      "color": "rgb(168, 196, 203)",
       "data": [
         [
           "Schweiz",
@@ -40,16 +40,12 @@
           7511
         ],
         [
-          "China",
+          "China, Hongkong",
           10582
         ],
         [
-          "Hongkong",
-          695575
-        ],
-        [
           "Übrige Länder",
-          null
+          179601
         ]
       ],
       "name": "Logiernächte 2009",
@@ -95,16 +91,12 @@
           24492
         ],
         [
-          "China",
+          "China, Hongkong",
           21023
         ],
         [
-          "Hongkong",
-          930166
-        ],
-        [
           "Übrige Länder",
-          null
+          275618
         ]
       ],
       "name": "Logiernächte 2018",
@@ -156,16 +148,12 @@
           0.007289813
         ],
         [
-          "China",
+          "China, Hongkong",
           0.010270376
         ],
         [
-          "Hongkong",
-          0.174312025
-        ],
-        [
           "Übrige Länder",
-          null
+          0.174312025
         ]
       ],
       "name": "Marktanteile (rechte Skala) 2009",
@@ -217,16 +205,12 @@
           0.017664636
         ],
         [
-          "China",
+          "China, Hongkong",
           0.015162651
         ],
         [
-          "Hongkong",
-          0.198787017
-        ],
-        [
           "Übrige Länder",
-          null
+          0.198787017
         ]
       ],
       "name": "Marktanteile (rechte Skala) 2018",
@@ -331,6 +315,7 @@
   },
   "yAxis": [
     {
+      "tickAmount": 6,
       "gridLineColor": "#B9CFD7",
       "gridLineWidth": 0.5,
       "lineColor": "#B9CFD7",
@@ -349,6 +334,7 @@
       }
     },
     {
+      "tickAmount": 6,
       "opposite": true,
       "min": 0,
       "gridLineColor": "#B9CFD7",
@@ -367,6 +353,8 @@
         },
         "formatter": function () {
                return 100 * this.value + "%";
+            
+                
             }
       }
     }

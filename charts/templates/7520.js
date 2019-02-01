@@ -6,7 +6,7 @@
     return {
     series: [
         {
-            color: "rgb(211, 226, 229)",
+            color: "rgb(168, 196, 203)",
         },
         {
             color: "rgb(105, 146, 155)",
@@ -39,7 +39,8 @@
      
   },
   yAxis: [
-      {
+      { 
+        tickAmount: 6,
         gridLineColor: '#B9CFD7', 
         gridLineWidth: 0.5,
         lineColor: '#B9CFD7', 
@@ -58,6 +59,7 @@
         }
       },
       {
+        tickAmount: 6, 
         opposite: true,
         min: 0,
         gridLineColor: '#B9CFD7', 
@@ -76,6 +78,8 @@
             }, 
             formatter: function() {
                return 100 * this.value + "%";
+            
+                
             }
         }
       }
