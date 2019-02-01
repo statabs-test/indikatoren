@@ -1,8 +1,12 @@
 {
   "series": [
     {
-      "name": "undefined",
+      "name": "Anteil",
       "data": [
+        [
+          "Schweiz",
+          0.330330566
+        ],
         [
           "Deutschland",
           0.141756323
@@ -84,6 +88,7 @@
         "enabled": false
       },
       "colors": [
+        "#B00000",
         "#FABD24",
         "#68AB2B",
         "#C4AB91",
@@ -91,9 +96,9 @@
         "#008AC3",
         "#FFDA80",
         "#BAA85A",
+        "#B375AB",
         "#FF8028",
-        "#FABD24",
-        "#B00000"
+        "#C8C8C8"
       ]
     }
   },
@@ -118,7 +123,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} ({point.percentage:,.1f}%)\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.percentage:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",

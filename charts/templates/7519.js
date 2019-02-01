@@ -1,5 +1,6 @@
 (function(){
     return {
+        
       legend:{
       	style: {
 		fontSize: "12px"
@@ -7,29 +8,27 @@
       },
       "series": [ 
           {
-              "name": "Anzahl"
+              "name": "Anteil"
           }        
       ],
     	"tooltip": {
-    		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f} ({point.percentage:,.1f}%)</b><br/>',
+    		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.percentage:,.1f}%</b><br/>',
         "shared": false
       },
       plotOptions: {
         pie: {
          colors: [
-           '#FABD24', 
-           '#68AB2B',
-           '#C4AB91',
-           '#246370',
-           '#008AC3',
-           '#FFDA80', 
-           '#BAA85A',
-           '#FF8028',
-           '#FABD24',
-           '#B00000',
-           
-           
-        
+           "#B00000",
+           "#FABD24", 
+           "#68AB2B",
+           "#C4AB91",
+           "#246370",
+           "#008AC3",
+           "#FFDA80", 
+           "#BAA85A",
+           "#B375AB",
+           "#FF8028",
+           "#C8C8C8",
         ],
 		/*dataLabels: {
 		                enabled: true,
