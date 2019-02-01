@@ -12,7 +12,9 @@
             }
         },
         "chart": {      
-            "type": "column"
+            "type": "column",
+
+            
         },
         "series": [
             {"color": "#083038"},
@@ -41,15 +43,14 @@
   },	
   "legend": {
     "enabled": true,
-    //"y": 45,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
     }
-  },
+         },
+
         tooltip: {
             "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>'
       }
