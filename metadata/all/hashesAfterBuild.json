@@ -6693,10 +6693,17 @@
 	},
 	"7510": {
 		"metadata": "1a73d3d4bc9e71626b62ed5a84e39ef11002b093",
-		"chartConfig": "552b01e99d9113a8fcba71b6765b6f4b6299f993",
+		"chartConfig": "28d488c897e0acfaae203a64221922f81f3ee7aa",
 		"data": "be7c32803c33b9655012d0f29b2aa13c4a9decb7",
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "765aa902077ea20c6685a69d33c8f57dd25e1f9c"
+	},
+	"7512": {
+		"metadata": "645e3665d9dd747af1d481664fc6d208d25c6d64",
+		"chartConfig": "0dcd5ca3145646a97bb5358b3878ba07fdcffcc7",
+		"data": "7050b8e6110b2d6950c1f6181ae2b22935c19af5",
+		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+		"template": "cbd8013f19a1f4d5c0c79409ed94273446c7d114"
 	},
 	"7516": {
 		"metadata": "1f5415cdaf71a6c30282e5b62e73085163e3225e",

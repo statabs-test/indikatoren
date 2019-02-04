@@ -190,35 +190,15 @@
         "color": "#000000"
       },
       "formatter": function () {
-        if (this.isFirst || this.isLast) {
-          return Highcharts.dateFormat('%b %y', this.value);
-        } else {
-          return Highcharts.dateFormat('%b', this.value);
-        }
-      }
+              if (this.isFirst || this.isLast) {
+                return Highcharts.dateFormat('%b %y', this.value);
+              } else {
+                return Highcharts.dateFormat('%b', this.value);
+              }
+            }
     },
     "tickLength": 0,
-    "tickInterval": 2592000000,
-    "yAxis": {
-      "labels": {
-        "format": "{value:,.0f}",
-        "formatter": function (){
-        return Highcharts.numberFormat((this.value*100),0)+'%'; 
-      }
-      }
-    },
-    "legend": {
-      "enabled": true,
-      "layout": "horizontal",
-      "verticalAlign": "top",
-      "align": "left",
-      "itemStyle": {
-        "fontWeight": "normal"
-      }
-    },
-    "tooltip": {
-      "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-    }
+    "tickInterval": 2592000000
   },
   "chart": {
     "borderColor": "#fbfbfb",
@@ -301,7 +281,11 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "format": "{value:,.0f}",
+      "formatter": function (){
+                return Highcharts.numberFormat((this.value*100),0)+'%'; 
+              }
     }
   },
   "navigation": {
@@ -329,7 +313,14 @@
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": 7510

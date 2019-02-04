@@ -36224,6 +36224,48 @@ var indikatoren = [
 		"id": 7510
 	},
 	{
+		"title": "Monatliche Jahresteuerung",
+		"subtitle": "",
+		"kuerzel": "I.05.1.07512",
+		"kuerzelKunde": "",
+		"description": "Monatliche Jahresteuerung",
+		"thema": "05 Preise",
+		"unterthema": "Basler Index der Konsumentenpreise",
+		"kennzahlenset": "Monatsindikatoren",
+		"raeumlicheGliederung": [
+			"Kanton",
+			"Schweiz"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die basel-städtische Jahresteuerung liegt jeweils leicht über dem Schweizer Wert.",
+		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispeilsweise zwischen Dezember 2017 und Dezember 2018.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt",
+			"Bundesamt für Statistik (BFS)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7512,
+		"chart-id": 7512,
+		"filter": "",
+		"id": 7512
+	},
+	{
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "",
 		"kuerzel": "I.10.1.07516",

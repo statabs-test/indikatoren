@@ -1001,6 +1001,7 @@ id | visible | visibleInPortal | indikatorenset
 6990 | true | true | Wohnviertel
 7432 | true | true | 
 7510 | true | true | Monatsindikatoren
+7512 | true | true | Monatsindikatoren
 7516 | true | true | Monatsindikatoren
 9995 | true | false | 
 9996 | true | false | 
