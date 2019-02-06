@@ -166,7 +166,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#662673",
+      "color": "#B00000",
       "index": 4,
       "legendIndex": 1,
       "data": [
@@ -496,7 +496,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#B375AB",
+      "color": "#DC440E",
       "index": 2,
       "legendIndex": 3,
       "data": [
@@ -826,7 +826,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#E7CEE2",
+      "color": "#FF8028",
       "index": 0,
       "legendIndex": 5,
       "data": [

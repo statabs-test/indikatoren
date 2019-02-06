@@ -47,12 +47,13 @@ global Highcharts
 
  "series": [
    	 {"color": "#008AC3", index: 5, legendIndex: 0}, /* */
-	 {"color": "#662673", index: 4, legendIndex: 1}, /* */
+	 {"color": "#B00000", index: 4, legendIndex: 1}, /* */
 	 {"color": "#689199", index: 3, legendIndex: 2},  /* */
-	 {"color": "#B375AB", index: 2, legendIndex: 3},  /* */
+	 {"color": "#DC440E", index: 2, legendIndex: 3},  /* */
 	 {"color": "#A8C3CA", index: 1, legendIndex: 4}, /* */
-	 {"color": "#E7CEE2", index: 0, legendIndex: 5}, /* */
+	 {"color": "#FF8028", index: 0, legendIndex: 5}, /* */
   ],
+
  tooltip: {
   "pointFormatter": function(){
       return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + ' </b><br/><b>' 
