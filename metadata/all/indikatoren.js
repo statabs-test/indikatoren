@@ -1,7 +1,7 @@
 var indikatoren = [
 	{
 		"title": "Neue Grenzgängerbewilligungen nach Branche",
-		"subtitle": "Jährlich erteilte Bewilligungen, Basel-Stadt",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.03.5.2151",
 		"kuerzelKunde": "3.4-04",
 		"description": "Neue Grenzgängerbewilligungen nach Branche",
@@ -12,9 +12,9 @@ var indikatoren = [
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-10-18T17:53:33.3333",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Grenzgänger",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.1 Grenzgänger",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Branche Beratung, Planung, Forschung, Immobilien und IT weist den grössten Anteil von erteilten Grenzgängerbewilligungen in Basel-Stadt auf. 2017 wurden 2 820 neue Bewilligungen erteilt. Der Anteil an allen beträgt 53,6%. Zehn Jahre zuvor lag er bei 23,9%. Die Anteile der meisten anderen Branchen wurden entsprechend kleiner. Jedes Jahr (ausser 2008) wurden zwischen 5 000 und 6 000 Grenzgängerbewilligungen erteilt. Es sind auch Bewilligungen enthalten, die erneuert wurden.",
@@ -25,20 +25,26 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "02_04_01_00_00_404",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7003"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 2151,
+		"chart-id": 2151,
+		"filter": "",
 		"id": 2151
 	},
 	{
 		"title": "Grenzgänger nach Wohnort und Geschlecht",
 		"subtitle": "Bestand Ende Quartal, Basel-Stadt",
-		"kuerzel": "I.03.5.02152",
+		"kuerzel": "I.03.5.2152",
 		"kuerzelKunde": "3.4-02",
 		"description": "Grenzgänger nach Wohnort und Geschlecht",
 		"thema": "03 Erwerbsleben",
@@ -47,33 +53,40 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Grenzgänger",
+		"aktualisierungsdatum": "",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.1 Grenzgänger",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In allen Gruppen sind 2017 mehr Grenzgänger tätig als zehn Jahre zuvor. Besonders gross ist der relative Zuwachs seit 2007 bei Frauen aus Deutschland (+39,2%). Von den 36 000 Grenzgängern in Basel-Stadt sind 40,5% Frauen. Vor zehn Jahren betrug dieser Anteil 38,7%.",
+		"lesehilfe": "In allen Gruppen sind 2018 mehr Grenzgänger tätig als zehn Jahre zuvor. Besonders gross ist der relative Zuwachs seit 2009 bei Frauen aus Deutschland (+33,7%). Von den 34 400 Grenzgängern in Basel-Stadt sind 40,6% Frauen. Insgesamt kommen rund 54% der Grenzgänger- und Grenzgängerinnen in Basel-Stadt aus Frankreich, knapp 46% aus Deutschland.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_04_01_00_00_402",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7004"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 2152,
-		"darstellungsart": "Grafik"
+		"data-id": 2152,
+		"chart-id": 2152,
+		"filter": "",
+		"id": 2152
 	},
 	{
 		"title": "Grenzgänger nach Alter",
 		"subtitle": "Bestand Ende Quartal, Basel-Stadt",
-		"kuerzel": "I.03.5.02153",
+		"kuerzel": "I.03.5.2153",
 		"kuerzelKunde": "3.4-03",
 		"description": "Grenzgänger nach Alter",
 		"thema": "03 Erwerbsleben",
@@ -82,33 +95,40 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Grenzgänger",
+		"aktualisierungsdatum": "",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.1 Grenzgänger",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Grenzgänger mit einem Alter von über 54 Jahren stellen aktuell mit 18,4% (6 613 Personen) den grössten Anteil in Basel-Stadt. Es folgt die Gruppe der 50- bis 54-Jährigen (15,5%, 5 559). Unter 25 Jahre sind nur 4,7% der Grenzgänger (1 702). In den letzten zehn Jahren hat sich die Zahl der Grenzgänger in zwei Altersgruppen zurückentwickelt (35-39 und 40-44 Jahre). In allen anderen Gruppen wurde ein Zuwachs verzeichnet. Gegenüber dem Vorjahr verzeichneten zum 4. Quartal 2017 vor allem die beiden höheren Altersklassen einen Zuwachs.",
+		"lesehilfe": "Grenzgänger mit einem Alter von über 54 Jahren stellen aktuell mit 17,5% (6 030 Personen) den grössten Anteil in Basel-Stadt. Es folgt die Gruppe der 50- bis 54-Jährigen (15,7%, 5 388). Unter 25 Jahre sind nur 4,8% der Grenzgänger (1 655). In fast allen Altersgruppen gibt es mehr Grenzgänger als vor zehn Jahren. Ausnahmen bilden die Gruppen mit Personen zwischen 40 und 44 sowie zwischen 45 und 49. In den letzten Quartalen ist ein leichter Rückgang der Grenzgängerzahl zu verzeichnen. Er fiel gegenüber dem Vorjahr mit 8,0% in der Gruppe der Personen über 54 Jahre am stärksten aus.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_04_01_00_00_403",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7005"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 2153,
-		"darstellungsart": "Grafik"
+		"data-id": 2153,
+		"chart-id": 2153,
+		"filter": "",
+		"id": 2153
 	},
 	{
 		"title": "Grenzgänger in Industrie und Baugewerbe",
 		"subtitle": "Bestand Ende Quartal, Basel-Stadt",
-		"kuerzel": "I.03.5.02161",
+		"kuerzel": "I.03.5.2161",
 		"kuerzelKunde": "3.4-05",
 		"description": "Grenzgänger in Industrie und Baugewerbe",
 		"thema": "03 Erwerbsleben",
@@ -117,33 +137,40 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Grenzgänger",
+		"aktualisierungsdatum": "",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.1 Grenzgänger",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den abgebildeten Branchen blieb die Zahl der Grenzgänger in den letzten zehn Jahren relativ konstant. Beim Baugewerbe fällt das aussergewöhnliche Jahr 2008 auf. In der Branche Chemie und Pharma wurden zum Ende des 4. Quartals 2017 6 887 Grenzgänger gezählt, 4,3% weniger als ein Jahr zuvor.",
+		"lesehilfe": "Nach einer relativ konstanten Entwicklung in den lezten zehn Jahren ging die Zahl der Grenzgänger in den abgebildeten Branchen zuletzt leicht zurück. In der Branche Chemie und Pharma wurden zum Ende des 3. Quartals 2018 6 397 Grenzgänger gezählt, 8,0% weniger als ein Jahr zuvor.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_04_01_00_00_405",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7006"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 2161,
-		"darstellungsart": "Grafik"
+		"data-id": 2161,
+		"chart-id": 2161,
+		"filter": "",
+		"id": 2161
 	},
 	{
 		"title": "Grenzgänger im Dienstleistungssektor (I)",
 		"subtitle": "Bestand Ende Quartal, Basel-Stadt",
-		"kuerzel": "I.03.5.02163",
+		"kuerzel": "I.03.5.2163",
 		"kuerzelKunde": "3.4-06",
 		"description": "Grenzgänger im Dienstleistungssektor (I)",
 		"thema": "03 Erwerbsleben",
@@ -152,33 +179,40 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Grenzgänger",
+		"aktualisierungsdatum": "",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.1 Grenzgänger",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Etwas zurückentwickelt hat sich in den letzten Jahren die Zahl der Grenzgänger in der Branche Handel und Reparatur. Sie betrug 2017 zum Ende des 4. Quartals 3 224 (-5,0% gegenüber Vorjahr). Mehr Grenzgänger als früher arbeiten in der Branche Information und Kommunikation, aktuell 1 374 (+5,6% gegenüber Vorjahr). Im Gastgewerbe sowie in der Branche Verkehr und Lagerei gingen die Zahlen in den letzten Jahren etwas zurück.",
+		"lesehilfe": "In der Branche Information und Kommunikation arbeiteten im 3. Quartal 2018 1,5% mehr Grenzgänger als ein Jahr zuvor, 1 400 Personen. In den drei anderen Branchen ging die Zahl zurück, relativ am stärksten im Gastbewerbe mit 9,6% (aktuell 912 Personen).",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_04_01_00_00_406",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7007"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 2163,
-		"darstellungsart": "Grafik"
+		"data-id": 2163,
+		"chart-id": 2163,
+		"filter": "",
+		"id": 2163
 	},
 	{
 		"title": "Grenzgänger nach Kanton",
 		"subtitle": "Bestand Ende Quartal",
-		"kuerzel": "I.03.5.02173",
+		"kuerzel": "I.03.5.2173",
 		"kuerzelKunde": "3.4-01",
 		"description": "Grenzgänger nach Kanton",
 		"thema": "03 Erwerbsleben",
@@ -187,33 +221,40 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Grenzgänger",
+		"aktualisierungsdatum": "",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.1 Grenzgänger",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Alle betrachteten Kantone verzeichneten in den letzten zehn Jahren einen Anstieg an ausländischen Grenzgängern. In Basel-Stadt beträgt der Zuwachs 19,7%, von ca. 30 000 auf fast 36 000 Personen. Gegenüber dem Vorjahr blieb der Wert praktisch konstant. In der gesamten Schweiz arbeiteten zum Ende des 4. Quartals 2017 über 318 000 Grenzgänger, 52,7% mehr als 2007.",
+		"lesehilfe": "Alle betrachteten Kantone verzeichneten seit 2009 einen Anstieg an ausländischen Grenzgängern. In Basel-Stadt beträgt der Zuwachs 17,2%, von ca. 29 000 auf über 34 000 Personen. In den letzten Quartalen ist ein leichter Rückgang zu beobachten. In Basel-Stadt betrug er gegenüber dem dritten Quartal 2017 4,1%. In der gesamten Schweiz arbeiteten akutell über 312 000 Grenzgänger, 43,3% mehr als 2009.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_04_01_00_00_401",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7008"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 2173,
-		"darstellungsart": "Grafik"
+		"data-id": 2173,
+		"chart-id": 2173,
+		"filter": "",
+		"id": 2173
 	},
 	{
 		"title": "Nominales Bruttoinlandprodukt pro Kopf nach Kanton",
 		"subtitle": "In Franken",
-		"kuerzel": "I.04.2.02400",
+		"kuerzel": "I.04.2.2400",
 		"kuerzelKunde": "3.1-01",
 		"description": "Nominales Bruttoinlandprodukt pro Kopf nach Kanton",
 		"thema": "04 Volkswirtschaft",
@@ -222,35 +263,42 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
+		"aktualisierungsdatum": "",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.1 Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Basel-Stadt weist mit Abstand das höchste nominale BIP pro Kopf auf. Im Jahr 2016 beträgt es ca. 165 000 Franken. Dies sind 3,9% mehr als 2007 und 0,8% mehr als 2015. Der Schweizer Durchschnitt beträgt 2016 ca. 77 000 Franken.",
+		"lesehilfe": "Basel-Stadt weist mit Abstand das höchste nominale BIP pro Kopf auf. Im Jahr 2017 beträgt es ca. 174 000 Franken. Dies sind 5,5% mehr als 2008 und 0,3% mehr als 2016. Der Schweizer Durchschnitt beträgt 2017 ca. 79 000 Franken.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_01_00_00_00_101",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7009"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 2400,
-		"darstellungsart": "Grafik"
+		"data-id": 2400,
+		"chart-id": 2400,
+		"filter": "",
+		"id": 2400
 	},
 	{
-		"title": "Wachstumsrate des realen BIP nach Kanton",
-		"subtitle": "Veränderungsrate gegenüber Vorjahr",
-		"kuerzel": "I.04.2.02401",
+		"title": "Wachstumsrate des realen BIP gegenüber Vorjahr",
+		"subtitle": "nach Kanton",
+		"kuerzel": "I.04.2.2401",
 		"kuerzelKunde": "3.1-02",
-		"description": "Wachstumsrate des realen BIP nach Kanton",
+		"description": "Wachstumsrate des realen BIP gegenüber Vorjahr",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
 		"kennzahlenset": "Arbeitsmarkt",
@@ -258,33 +306,40 @@ var indikatoren = [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
+		"aktualisierungsdatum": "",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.1 Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das baselstädtische reale BIP ist 2016 gegenüber dem Vorjahr um 2,3% gewachsen und liegt damit vor den Vergleichskantonen. Der Schweizer Durchschnitt beträgt 1,3%.",
+		"lesehilfe": "Das baselstädtische reale BIP ist 2017 gegenüber dem Vorjahr um 3,4% gewachsen und liegt damit vor den Vergleichskantonen. Der Schweizer Durchschnitt beträgt 1,6%.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_01_00_00_00_102",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7010"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 2401,
-		"darstellungsart": "Grafik"
+		"data-id": 2401,
+		"chart-id": 2401,
+		"filter": "",
+		"id": 2401
 	},
 	{
 		"title": "Anteil an der nominalen Wertschöpfung nach Branche",
 		"subtitle": "Stand: 2016",
-		"kuerzel": "I.04.2.02402",
+		"kuerzel": "I.04.2.2402",
 		"kuerzelKunde": "3.1-03",
 		"description": "Anteil an der nominalen Wertschöpfung nach Branche",
 		"thema": "04 Volkswirtschaft",
@@ -294,33 +349,40 @@ var indikatoren = [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
+		"aktualisierungsdatum": "",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.1 Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In Basel-Stadt hat vor allem die Branche Chemie und Pharma einen grossen Anteil an der nominalen Wertschöpfung des Jahres 2016. Er beträgt 36,0%. Die Branche Beratung, Planung, Forschung und Immobilien folgt mit 12,8%, vor den Finanz- und Versicherungsdienstleistungen mit 10,3%. In Basel-Landschaft ist die Branche Handel und Reparatur mit 18,8% am grössten, im Aargau die Industrie (exkl. Chemie und Pharma) mit 24,1% und in Zürich die Finanz- und Versicherungsdienstleistungen mit 19,0%. Im Schweizer Durchschnitt liegt die Industrie mit 15,3% knapp vor der Branche Beratung, Planung, Forschung und Immobilien mit 15,2%. Die Branche Öffentliche Verwaltung und Sozialversicherungen enthält in dieser Abbildung auch die staatlichen Bildungsinstitutionen.",
+		"lesehilfe": "In Basel-Stadt hat vor allem die Branche Chemie und Pharma einen grossen Anteil an der nominalen Wertschöpfung des Jahres 2017. Er beträgt 41,4%. Die Branche Beratung, Planung, Forschung und Immobilien folgt mit 13,1%, vor den Finanz- und Versicherungsdienstleistungen mit 9,1%. In Basel-Landschaft ist die Branche Handel und Reparatur mit 18,8% am grössten, im Aargau die Industrie (exkl. Chemie und Pharma) mit 20,3% und in Zürich die Branche Beratung, Planung, Forschung und Immobilien mit 18,3%. Diese Branche ist auch im Schweizer Durchschnitt mit 15,1% die grösste. Die Branche Öffentliche Verwaltung und Sozialversicherungen enthält in dieser Abbildung auch die staatlichen Bildungsinstitutionen.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_01_00_00_00_103",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7011"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 2402,
-		"darstellungsart": "Grafik"
+		"data-id": 2402,
+		"chart-id": 2402,
+		"filter": "",
+		"id": 2402
 	},
 	{
 		"title": "Wertschöpfungsentwicklung in Industrie und Baugewerbe",
-		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2007 = 100)",
-		"kuerzel": "I.04.2.02404",
+		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2008 = 100)",
+		"kuerzel": "I.04.2.2404",
 		"kuerzelKunde": "3.1-04",
 		"description": "Wertschöpfungsentwicklung in Industrie und Baugewerbe",
 		"thema": "04 Volkswirtschaft",
@@ -329,33 +391,40 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
+		"aktualisierungsdatum": "",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.1 Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit dem Jahr 2007 ist die reale Wertschöpfung der Pharmazeutischen Industrie um 47,6% gewachsen. Gegenüber dem Vorjahr beträgt das Plus 4,3%. Die Industrie sowie das Baugewerbe kommen zwischen 2007 und 2016 auf Werte von 10,1% und 12,1% (gegenüber Vorjahr +2,7% und +1,0%).",
+		"lesehilfe": "Seit dem Jahr 2008 hat sich die reale Wertschöpfung der Pharmazeutischen Industrie mehr als verdoppelt. 2017 beträgt der Zuwachs gegenüber dem Vorjahr 6,2%. Bei der Industrie beträgt die Zunahme zwischen 2008 und 2017 insgesamt 80,3% (gegenüber Vorjahr +5,8%) und beim Baugewerbe 16,4% (+1,7%).",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_01_00_00_00_104",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7012"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 2404,
-		"darstellungsart": "Grafik"
+		"data-id": 2404,
+		"chart-id": 2404,
+		"filter": "",
+		"id": 2404
 	},
 	{
 		"title": "Wertschöpfungsentwicklung im Dienstleistungssektor (I)",
-		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2007 = 100)",
-		"kuerzel": "I.04.2.02405",
+		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2008 = 100)",
+		"kuerzel": "I.04.2.2405",
 		"kuerzelKunde": "3.1-05",
 		"description": "Wertschöpfungsentwicklung im Dienstleistungssektor (I)",
 		"thema": "04 Volkswirtschaft",
@@ -364,28 +433,35 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
+		"aktualisierungsdatum": "",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.1 Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Während die Branche Handel und Reparatur (+24,7%) sowie das Gastgewerbe (+11,5%) zwischen 2007 und 2016 ein Wachstum der realen Wertschöpfung verzeichneten, bildete sich der Wert für die Branchen Verkehr und Lagerei (-8,6%) sowie Information und Kommunikation (-14,1%) zurück. Gegenüber dem Vorjahr waren die Veränderungen relativ gering.",
+		"lesehilfe": "Während die Branche Handel und Reparatur (+20,3%) sowie das Gastgewerbe (+2,1%) zwischen 2008 und 2017 ein Wachstum der realen Wertschöpfung verzeichneten, bildete sich der Wert für die Branchen Verkehr und Lagerei (-22,4%) sowie Information und Kommunikation (-21,6%) zurück. Gegenüber dem Vorjahr waren die Veränderungen relativ gering.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_01_00_00_00_105",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7013"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 2405,
-		"darstellungsart": "Grafik"
+		"data-id": 2405,
+		"chart-id": 2405,
+		"filter": "",
+		"id": 2405
 	},
 	{
 		"title": "Arbeitslosenquote nach Alter",
@@ -24143,8 +24219,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Wertschöpfungsentwicklung im Dienstleistungssektor (II)",
-		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2007 = 100)",
-		"kuerzel": "I.04.2.06448",
+		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2008 = 100)",
+		"kuerzel": "I.04.2.6448",
 		"kuerzelKunde": "3.1-06",
 		"description": "Wertschöpfungsentwicklung im Dienstleistungssektor (II)",
 		"thema": "04 Volkswirtschaft",
@@ -24153,33 +24229,40 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
+		"aktualisierungsdatum": "",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.1 Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Alle abgebildeten Dienstleistungsbranchen verzeichneten seit dem Jahr 2007 einen Anstieg der realen Wertschöpfung: Am stärksten wuchs sie mit 29,1% in der Branche Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen (gegenüber Vorjahr +1,9%). Der in ihr enthaltene Bereich Personalvermittlung und         -überlassung verzeichnete einen Wert von +16,8% (gegenüber Vorjahr +1,9%). Die Branche Beratung, Planung und Forschung wies ein Plus von 26,5% (gegenüber Vorjahr +3,3%) auf, die Finanz- und Versicherungsdienstleistungen eines von 6,2% (gegenüber Vorjahr +1,6%).",
+		"lesehilfe": "Alle abgebildeten Dienstleistungsbranchen verzeichneten seit dem Jahr 2008 einen Anstieg der realen Wertschöpfung: Am stärksten wuchs sie mit 38,7% in der Branche Beratung, Planung und Forschung (gegenüber dem Vorjahr +1,9%). Die Branche Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen verzeichnet ein Plus von 25,3% (gegenüber Vorjahr +1,6%). Der in ihr enthaltene Bereich Personalvermittlung und -überlassung zeigt ein Wertschöpfungswachstum von 17,0% (gegenüber Vorjahr +1,9%). Die Finanz- und Versicherungsdienstleistungen weisen einen Wert von +14,3% auf (gegenüber Vorjahr +2,2%).",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_01_00_00_00_106",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7035"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6448,
-		"darstellungsart": "Grafik"
+		"data-id": 6448,
+		"chart-id": 6448,
+		"filter": "",
+		"id": 6448
 	},
 	{
 		"title": "Wertschöpfungsentwicklung im Dienstleistungssektor (III)",
-		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2007 = 100)",
-		"kuerzel": "I.04.2.06449",
+		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2008 = 100)",
+		"kuerzel": "I.04.2.6449",
 		"kuerzelKunde": "3.1-07",
 		"description": "Wertschöpfungsentwicklung im Dienstleistungssektor (III)",
 		"thema": "04 Volkswirtschaft",
@@ -24188,33 +24271,40 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
+		"aktualisierungsdatum": "",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.1 Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Branchen Gesundheits- und Sozialwesen (+26,5%) sowie Öffentliche Verwaltung und Sozialversicherungen (+14,5%) verzeichneten seit 2007 einen Zuwachs der realen Wertschöpfung (gegenüber Vorjahr +2,5% sowie +0,6%). Einen Rückgang hingegen gab es in den Branchen Erziehung und Unterricht (-9,7%) sowie Kultur und Unterhaltung (-8,3%) seit 2007 (gegenüber Vorjahr +2,8% sowie -4,3%). Die staatlichen Bildungsinstitutionen sind in dieser Abbildung in der Öffentlichen Verwaltung, und nicht in der Branche Erziehung und Unterricht enthalten.",
+		"lesehilfe": "Die Branchen Gesundheits- und Sozialwesen (+26,1%) sowie Öffentliche Verwaltung und Sozialversicherungen (+16,9%) verzeichneten seit 2008 einen Zuwachs der realen Wertschöpfung (gegenüber Vorjahr +3,2% sowie +0,4%). Einen Rückgang seit 2008 gibt es hingegen in den Branchen Erziehung und Unterricht (-16,9%) sowie Kultur und Unterhaltung (-33,9%) zu beobachten (gegenüber Vorjahr +1,5% sowie +2,5%). Die staatlichen Bildungsinstitutionen sind in dieser Abbildung in der Öffentlichen Verwaltung, und nicht in der Branche Erziehung und Unterricht enthalten.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_01_00_00_00_107",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7036"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6449,
-		"darstellungsart": "Grafik"
+		"data-id": 6449,
+		"chart-id": 6449,
+		"filter": "",
+		"id": 6449
 	},
 	{
 		"title": "Grenzgänger im Dienstleistungssektor (II)",
 		"subtitle": "Bestand Ende Quartal, Basel-Stadt",
-		"kuerzel": "I.03.5.06450",
+		"kuerzel": "I.03.5.6450",
 		"kuerzelKunde": "3.4-07",
 		"description": "Grenzgänger im Dienstleistungssektor (II)",
 		"thema": "03 Erwerbsleben",
@@ -24223,33 +24313,40 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Grenzgänger",
+		"aktualisierungsdatum": "",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.1 Grenzgänger",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Branche Beratung, Planung, Forschung und Immobilien verzeichnet den grössten Anstieg der Grenzgängerzahl in den letzten zehn Jahren. Im 4. Quartal 2017 liegt sie bei 6 385 Personen. Gegenüber 2007 hat sich die Zahl fast verdreifacht. Im Vergleich zu 2016 beträgt das Plus 8,1%. Auch in der Branche Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen ist die Anzahl Grenzgänger seit 2007 stark gestiegen. Aktuell beträgt sie 2 350 Personen (+9,3% gegenüber Vorjahr). Ein ähnliches langfristiges Bild zeigt die Branche Personalvermittlung und -überlassung (2 232 Personen), mit einem Anstieg um 4,4% gegenüber dem Vorjahr.",
+		"lesehilfe": "Die Branche Beratung, Planung, Forschung und Immobilien verzeichnet den grössten Anstieg der Grenzgängerzahl in den letzten zehn Jahren. Im 4. Quartal 2018 liegt sie bei 6 434 Personen (+4,0% gegenüber dem dritten Quartal 2017. In den drei anderen Branchen ging die Zahl der Grenzgänger seit Jahresfrist leicht zurück. Nur die Finanz- und Versicherungsdienstleistungen verzeichnen einen Rückgang der Grenzgängerzahl seit 2009 (-20,6% auf 834 Personen).",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_04_01_00_00_407",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7037"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6450,
-		"darstellungsart": "Grafik"
+		"data-id": 6450,
+		"chart-id": 6450,
+		"filter": "",
+		"id": 6450
 	},
 	{
 		"title": "Grenzgänger im Dienstleistungssektor (III)",
 		"subtitle": "Bestand Ende Quartal, Basel-Stadt",
-		"kuerzel": "I.03.5.06451",
+		"kuerzel": "I.03.5.6451",
 		"kuerzelKunde": "3.4-08",
 		"description": "Grenzgänger im Dienstleistungssektor (III)",
 		"thema": "03 Erwerbsleben",
@@ -24258,28 +24355,35 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Grenzgänger",
+		"aktualisierungsdatum": "",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.1 Grenzgänger",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Deutlich mehr Grenzgänger als 2007 arbeiten in der Branche Gesundheits- und Sozialwesen. Der aktuelle Wert beträgt 3 562 Personen, 2,0% mehr als im Vorjahr. In den anderen Dienstleistungsbranchen verlief die Entwicklung in den vergangenen Jahren relativ konstant. In den Branchen Erziehung und Unterricht sowie Kultur, Unterhaltung und persönliche Dienstleistungen sind die Werte 2017 gegenüber dem Vorjahr etwas zurückgegangen.",
+		"lesehilfe": "Relativ viele Grenzgänger arbeiten in der Branche Gesundheits- und Sozialwesen (3 524), 35,6% mehr als 2009. Im Vergleich zum Vorjahr ging die Anzahl um 1,2% zurück. Einen stärkeren Rückgang verzeichnet die Branche Erziehung und Unterricht (aktuell 594 Grenzgänger), gegenüber 2009 um 20,2%, genüber 2017 um 9,7%.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_04_01_00_00_408",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7038"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6451,
-		"darstellungsart": "Grafik"
+		"data-id": 6451,
+		"chart-id": 6451,
+		"filter": "",
+		"id": 6451
 	},
 	{
 		"title": "Arbeitstage von Meldepflichtigen im Dienstleistungssektor (II)",
@@ -24612,9 +24716,9 @@ var indikatoren = [
 	},
 	{
 		"title": "Grenzgänger pro Beschäftigen nach Branche",
-		"subtitle": "Basel-Stadt, pro besetzter Stelle",
-		"kuerzel": "I.03.5.06461",
-		"kuerzelKunde": "2.3-01",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.03.5.6461",
+		"kuerzelKunde": "2.1-03",
 		"description": "Grenzgänger pro Beschäftigen nach Branche",
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Ausländische Erwerbstätige",
@@ -24622,29 +24726,36 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
-		"stufe1": "Übersicht Basler Arbeitsmarkt",
+		"aktualisierungsdatum": "",
+		"stufe1": "2 Übersicht Basler Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Abbildung zeigt die Zahl der Grenzgänger im Vergleich zu den auf dem baselstädtischen Arbeitsmarkt besetzten Stellen. Beispielsweise kommen in der Branche Chemie und Pharma 2017 rund 35 Grenzgänger auf 100 Stellen (Beschäftigungsstand: 2015) in diesem Bereich. Die Grenzgänger spielen auch in der Personalvermittlung und -überlassung (31%), der Industrie (ohne Chemie und Pharma, 28%), im Bereich der Gebäudebetreuung, Sicherheit und sonstigen wirtschaftlichen Dienstleistungen (28%), der Information und Kommunikation (28%), der Beratung, Planung, Forschung und im Immobilienwesen (27%), dem Baugewerbe (22%) sowie dem Handel (21%) eine wichtige Rolle. Eine eher geringe Bedeutung haben die Grenzgänger in den Bereichen Erziehung und Unterricht (5%), Kultur, Unterhaltung und persönliche Dienstleistungen (7%), Finanz- und Versicherungsdienstleistungen (8%) sowie in der Branche Öffentliche Verwaltung und Sozialversicherungen (9%).",
+		"lesehilfe": "Die Abbildung zeigt die Zahl der Grenzgänger im Vergleich zu den auf dem baselstädtischen Arbeitsmarkt besetzten Stellen. Beispielsweise kommen in der Branche Chemie und Pharma 2018 rund 32 Grenzgänger auf 100 Stellen (Beschäftigungsstand: 2015) in diesem Bereich. Die Grenzgänger spielen auch in der Personalvermittlung und -überlassung (30%), im Bereich der Gebäudebetreuung, Sicherheit und sonstigen wirtschaftlichen Dienstleistungen (28%), der Information und Kommunikation (29%), der Beratung, Planung, Forschung und im Immobilienwesen (27%), der Industrie (ohne Chemie und Pharma, 28%), im Baugewerbe (20%) sowie im Handel (20%) eine wichtige Rolle. In den anderen Branchen haben die Grenzgänger eine geringere Bedeutung.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Beschäftigte (besetzte Stelle): Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_301",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7047"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6461,
-		"darstellungsart": "Grafik"
+		"data-id": 6461,
+		"chart-id": 6461,
+		"filter": "",
+		"id": 6461
 	},
 	{
 		"title": "Zuwanderung pro Beschäftigten nach Branche",
