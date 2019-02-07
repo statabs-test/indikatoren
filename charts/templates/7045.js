@@ -83,8 +83,8 @@
         render() {
         	let chart = this;
           chart.xAxis[0].labelGroup.element.childNodes.forEach(label => {
-            if(label.getBBox().height > 10){
-            	label.attributes[4].value = label.attributes[4].value - (label.getBBox().height - 10)/2
+            if(label.getBBox().height > 9){
+            	label.attributes[4].value = label.attributes[4].value - (label.getBBox().height - 9)/4
             }
           })
  
