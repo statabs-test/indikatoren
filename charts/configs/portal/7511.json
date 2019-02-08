@@ -1,232 +1,118 @@
 {
   "series": [
     {
-      "stack": 1,
-      "color": "rgb(220, 68, 14)",
+      "color": "rgb(92,230,57)",
       "data": [
         [
           "Jan",
-          25114
+          214
         ],
         [
           "Feb",
-          23741
+          203
         ],
         [
           "Mrz",
-          45579
+          210
         ],
         [
           "Apr",
-          32892
+          201
         ],
         [
           "Mai",
-          38673
+          224
         ],
         [
           "Jun",
-          31452
+          329
         ],
         [
           "Jul",
-          37768
+          713
         ],
         [
           "Aug",
-          31300
+          998
         ],
         [
           "Sep",
-          35590
+          1066
         ],
         [
           "Okt",
-          42138
+          1030
         ],
         [
           "Nov",
-          44737
+          1029
         ],
         [
           "Dez",
-          35270
+          1118
         ]
       ],
-      "name": "Inland 2017",
+      "name": "2018",
       "turboThreshold": 0
     },
     {
-      "stack": 1,
-      "color": "rgb(168, 196, 203)",
+      "color": "rgb(0,122,47)",
       "data": [
         [
           "Jan",
-          48045
+          1444
         ],
         [
           "Feb",
-          55336
+          null
         ],
         [
           "Mrz",
-          79565
+          null
         ],
         [
           "Apr",
-          66492
+          null
         ],
         [
           "Mai",
-          84632
+          null
         ],
         [
           "Jun",
-          95289
+          null
         ],
         [
           "Jul",
-          84542
+          null
         ],
         [
           "Aug",
-          85261
+          null
         ],
         [
           "Sep",
-          81716
+          null
         ],
         [
           "Okt",
-          80417
+          null
         ],
         [
           "Nov",
-          73808
+          null
         ],
         [
           "Dez",
-          68690
+          null
         ]
       ],
-      "name": "Ausland 2017",
-      "turboThreshold": 0
-    },
-    {
-      "stack": 2,
-      "color": "rgb(176, 0, 0)",
-      "data": [
-        [
-          "Jan",
-          36106
-        ],
-        [
-          "Feb",
-          35027
-        ],
-        [
-          "Mrz",
-          37092
-        ],
-        [
-          "Apr",
-          35624
-        ],
-        [
-          "Mai",
-          37483
-        ],
-        [
-          "Jun",
-          38654
-        ],
-        [
-          "Jul",
-          42566
-        ],
-        [
-          "Aug",
-          37780
-        ],
-        [
-          "Sep",
-          35730
-        ],
-        [
-          "Okt",
-          42687
-        ],
-        [
-          "Nov",
-          39717
-        ],
-        [
-          "Dez",
-          39537
-        ]
-      ],
-      "name": "Inland 2018",
-      "turboThreshold": 0
-    },
-    {
-      "stack": 2,
-      "color": "rgb(105, 146, 155)",
-      "data": [
-        [
-          "Jan",
-          55153
-        ],
-        [
-          "Feb",
-          57885
-        ],
-        [
-          "Mrz",
-          77249
-        ],
-        [
-          "Apr",
-          72075
-        ],
-        [
-          "Mai",
-          74776
-        ],
-        [
-          "Jun",
-          96582
-        ],
-        [
-          "Jul",
-          86556
-        ],
-        [
-          "Aug",
-          93558
-        ],
-        [
-          "Sep",
-          84523
-        ],
-        [
-          "Okt",
-          83306
-        ],
-        [
-          "Nov",
-          72583
-        ],
-        [
-          "Dez",
-          74250
-        ]
-      ],
-      "name": "Ausland 2018",
+      "name": "2019",
       "turboThreshold": 0
     }
   ],
   "xAxis": {
-    "type": "category",
+    "type": "datetime",
     "uniqueNames": false,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
@@ -234,9 +120,17 @@
       "style": {
         "color": "#000000",
         "textOverflow": "none"
-      }
+      },
+      "formatter": function () {
+              if (this.isFirst || this.isLast) {
+                return Highcharts.dateFormat('%b %y', this.value);
+              } else {
+                return Highcharts.dateFormat('%b', this.value);
+              }
+            }
     },
-    "tickLength": 0
+    "tickLength": 0,
+    "tickInterval": 2592000000
   },
   "chart": {
     "events": {
@@ -265,7 +159,8 @@
       "fontFamily": "Arial"
     },
     "type": "column",
-    "renderTo": "container-7516"
+    "renderTo": "container-7511",
+    "marginBottom": 80
   },
   "title": {
     "style": {
@@ -274,7 +169,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Logiernächte nach Monat und Herkunft"
+    "text": "Gemeldete offene Stellen"
   },
   "subtitle": {
     "style": {
@@ -283,12 +178,12 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
     "min": 0,
@@ -304,10 +199,12 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
-    },
-    "reversedStacks": false,
-    "tickAmount": 7
+      },
+      "format": "{value:,.0f}",
+      "formatter": function (){
+                return Highcharts.numberFormat((this.value*1),0); 
+              }
+    }
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -323,7 +220,7 @@
       "x": 10,
       "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik."
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik."
   },
   "legend": {
     "enabled": true,
@@ -333,9 +230,7 @@
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    },
-    "itemWidth": 180,
-    "itemMarginBottom": 5
+    }
   },
   "plotOptions": {
     "series": {
@@ -343,15 +238,11 @@
         "enabled": false
       },
       "pointPadding": 0,
-      "borderWidth": 0,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
       }
-    },
-    "column": {
-      "stacking": "normal"
     }
   },
   "customFunctions": {
@@ -390,6 +281,6 @@
     }
   },
   "exporting": {
-    "filename": 7516
+    "filename": 7511
   }
 }

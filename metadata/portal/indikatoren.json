@@ -23379,6 +23379,46 @@
 		"id": 7510
 	},
 	{
+		"title": "Gemeldete offene Stellen",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.03.4.07511",
+		"kuerzelKunde": "",
+		"description": "Gemeldete offene Stellen",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Arbeitslose",
+		"kennzahlenset": "Monatsindikatoren",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Seit Einführung der Meldepflicht im Juli 2018 sind die Zahlen zu den offenen Stellen stark gestiegen. Inzwischen hat sich die Anzahl bei rund 1 000 Stellen eingependelt.",
+		"erlaeuterungen": "Die offenen Stellen werden den regionalen Arbeitsvermittlungszentren, welche die entsprechenden Register bewirtschaften, freiwillig gemeldet. Seit Juli 2018 gilt für bestimmte Branchen eine Meldepflicht.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7511,
+		"chart-id": 7511,
+		"filter": "",
+		"id": 7511
+	},
+	{
 		"title": "Monatliche Jahresteuerung",
 		"subtitle": "",
 		"kuerzel": "I.05.1.07512",
@@ -23421,7 +23461,7 @@
 		"id": 7512
 	},
 	{
-		"title": "Indexwert",
+		"title": "Basler Index der Konsumentenpreise",
 		"subtitle": "Basis Dez 2015",
 		"kuerzel": "I.05.1.07513",
 		"kuerzelKunde": "",
@@ -23438,7 +23478,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Basler Index der Konsumentenpreise….",
+		"lesehilfe": "Der Basler Index der Konsumentenpreise zeigt, wie sich die Lebenshaltungskosten in Basel-Stadt seit Dezember 2015 verändert haben. Mit wenigen Ausnahmen in den Sommermonaen oder gegen Jahresende liegt die monatiche Preisentwicklung jeweils im positiven Bereich.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen",
 		"template": "line001",
 		"darstellungsart": "Grafik",

@@ -157,7 +157,7 @@
     },
     "type": "column",
     "renderTo": "container-7512",
-    "marginBottom": 65
+    "marginBottom": 80
   },
   "title": {
     "style": {
@@ -196,7 +196,11 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "format": "{value:,.0f}",
+      "formatter": function (){
+                return Highcharts.numberFormat((this.value*1),1)+'%'; 
+              }
     }
   },
   "credits": {

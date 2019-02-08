@@ -1,227 +1,239 @@
 {
   "series": [
     {
-      "stack": 1,
-      "color": "rgb(220, 68, 14)",
+      "color": "#ff8028",
       "data": [
         [
+          "Dez",
+          100
+        ],
+        [
           "Jan",
-          25114
+          99.7
         ],
         [
           "Feb",
-          23741
+          99.9
         ],
         [
           "Mrz",
-          45579
+          100.2
         ],
         [
           "Apr",
-          32892
+          100.5
         ],
         [
           "Mai",
-          38673
+          100.7
         ],
         [
           "Jun",
-          31452
+          100.8
         ],
         [
           "Jul",
-          37768
+          100.4
         ],
         [
           "Aug",
-          31300
+          100.4
         ],
         [
           "Sep",
-          35590
+          100.4
         ],
         [
           "Okt",
-          42138
+          100.4
         ],
         [
           "Nov",
-          44737
+          100.2
         ],
         [
           "Dez",
-          35270
+          100.2
         ]
       ],
-      "name": "Inland 2017",
+      "name": "2016",
       "turboThreshold": 0
     },
     {
-      "stack": 1,
-      "color": "rgb(168, 196, 203)",
+      "color": "#dc440e",
       "data": [
         [
+          "Dez",
+          100.2
+        ],
+        [
           "Jan",
-          48045
+          100.2
         ],
         [
           "Feb",
-          55336
+          100.7
         ],
         [
           "Mrz",
-          79565
+          100.9
         ],
         [
           "Apr",
-          66492
+          101.1
         ],
         [
           "Mai",
-          84632
+          101.4
         ],
         [
           "Jun",
-          95289
+          101.2
         ],
         [
           "Jul",
-          84542
+          100.9
         ],
         [
           "Aug",
-          85261
+          101
         ],
         [
           "Sep",
-          81716
+          101.3
         ],
         [
           "Okt",
-          80417
+          101.4
         ],
         [
           "Nov",
-          73808
+          101.3
         ],
         [
           "Dez",
-          68690
+          101.3
         ]
       ],
-      "name": "Ausland 2017",
+      "name": "2017",
       "turboThreshold": 0
     },
     {
-      "stack": 2,
-      "color": "rgb(176, 0, 0)",
+      "color": "#b00000",
       "data": [
         [
+          "Dez",
+          101.3
+        ],
+        [
           "Jan",
-          36106
+          101.1
         ],
         [
           "Feb",
-          35027
+          101.6
         ],
         [
           "Mrz",
-          37092
+          101.9
         ],
         [
           "Apr",
-          35624
+          102.2
         ],
         [
           "Mai",
-          37483
+          102.6
         ],
         [
           "Jun",
-          38654
+          102.6
         ],
         [
           "Jul",
-          42566
+          102.4
         ],
         [
           "Aug",
-          37780
+          102.4
         ],
         [
           "Sep",
-          35730
+          102.5
         ],
         [
           "Okt",
-          42687
+          102.6
         ],
         [
           "Nov",
-          39717
+          102.4
         ],
         [
           "Dez",
-          39537
+          102.1
         ]
       ],
-      "name": "Inland 2018",
+      "name": "2018",
       "turboThreshold": 0
     },
     {
-      "stack": 2,
-      "color": "rgb(105, 146, 155)",
+      "color": "#661200",
       "data": [
         [
+          "Dez",
+          102.1
+        ],
+        [
           "Jan",
-          55153
+          101.9
         ],
         [
           "Feb",
-          57885
+          null
         ],
         [
           "Mrz",
-          77249
+          null
         ],
         [
           "Apr",
-          72075
+          null
         ],
         [
           "Mai",
-          74776
+          null
         ],
         [
           "Jun",
-          96582
+          null
         ],
         [
           "Jul",
-          86556
+          null
         ],
         [
           "Aug",
-          93558
+          null
         ],
         [
           "Sep",
-          84523
+          null
         ],
         [
           "Okt",
-          83306
+          null
         ],
         [
           "Nov",
-          72583
+          null
         ],
         [
           "Dez",
-          74250
+          null
         ]
       ],
-      "name": "Ausland 2018",
+      "name": "2019",
       "turboThreshold": 0
     }
   ],
@@ -236,7 +248,8 @@
         "textOverflow": "none"
       }
     },
-    "tickLength": 0
+    "tickLength": 0,
+    "tickInterval": 1
   },
   "chart": {
     "events": {
@@ -260,12 +273,12 @@
     "zoomType": "xy",
     "width": 485,
     "height": 415,
-    "spacingBottom": 45,
+    "spacingBottom": 55,
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "column",
-    "renderTo": "container-7516"
+    "type": "line",
+    "renderTo": "container-7513"
   },
   "title": {
     "style": {
@@ -274,7 +287,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Logiernächte nach Monat und Herkunft"
+    "text": "Basler Index der Konsumentenpreise"
   },
   "subtitle": {
     "style": {
@@ -283,15 +296,14 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basis Dez 2015",
     "align": "left"
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
-    "min": 0,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "title": {
@@ -304,10 +316,9 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
-    },
-    "reversedStacks": false,
-    "tickAmount": 7
+      },
+      "format": "{value:,.0f}"
+    }
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -321,9 +332,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik."
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS)."
   },
   "legend": {
     "enabled": true,
@@ -334,24 +345,21 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemWidth": 180,
     "itemMarginBottom": 5
   },
   "plotOptions": {
     "series": {
       "marker": {
         "enabled": false
-      },
-      "pointPadding": 0,
-      "borderWidth": 0,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
       }
     },
-    "column": {
-      "stacking": "normal"
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle",
+        "radius": 3
+      }
     }
   },
   "customFunctions": {
@@ -390,6 +398,6 @@
     }
   },
   "exporting": {
-    "filename": 7516
+    "filename": 7513
   }
 }
