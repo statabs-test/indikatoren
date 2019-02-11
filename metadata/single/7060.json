@@ -1,4 +1,4 @@
-{"title":"Medianlohn im Dienstleistungssektor (I)",
+﻿{"title":"Medianlohn im Dienstleistungssektor (I)",
 "subtitle":"Median in Franken, Nordwestschweiz",
 "kuerzel":"I.03.3.07060",
 "kuerzelKunde":"3.5-06",
@@ -9,8 +9,8 @@
 "kennzahlenset":"Arbeitsmarkt (Print)",
 "raeumlicheGliederung":["Grossregion"],
 "aktualisierungsdatum":"",
-"stufe1":"Monitoring Basler Arbeitsmarkt",
-"stufe2":"Löhne",
+"stufe1":"3 Monitoring Basler Arbeitsmarkt",
+"stufe2":"3.5 Löhne",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":7060, 
+"chart-id":7060, 
+"filter":""
 }

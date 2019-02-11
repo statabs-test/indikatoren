@@ -1,4 +1,4 @@
-{"title":"Anteil an der nominalen Wertschöpfung nach Branche",
+﻿{"title":"Anteil an der nominalen Wertschöpfung nach Branche",
 "subtitle":"Stand: 2016",
 "kuerzel":"I.04.2.07011",
 "kuerzelKunde":"3.1-03",
@@ -9,12 +9,12 @@
 "kennzahlenset":"Arbeitsmarkt (Print)",
 "raeumlicheGliederung":["Kanton","Schweiz"],
 "aktualisierungsdatum":"",
-"stufe1":"Monitoring Basler Arbeitsmarkt",
-"stufe2":"Bruttoinlandprodukt und Wertschöpfung",
+"stufe1":"3 Monitoring Basler Arbeitsmarkt",
+"stufe2":"3.1 Bruttoinlandprodukt und Wertschöpfung",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"In Basel-Stadt hat vor allem die Branche Chemie und Pharma einen grossen Anteil an der nominalen Wertschöpfung des Jahres 2016. Er beträgt 36,0%. Die Branche Beratung, Planung, Forschung und Immobilien folgt mit 12,8%, vor den Finanz- und Versicherungsdienstleistungen mit 10,3%. In Basel-Landschaft ist die Branche Handel und Reparatur mit 18,8% am grössten, im Aargau die Industrie (exkl. Chemie und Pharma) mit 24,1% und in Zürich die Finanz- und Versicherungsdienstleistungen mit 19,0%. Im Schweizer Durchschnitt liegt die Industrie mit 15,3% knapp vor der Branche Beratung, Planung, Forschung und Immobilien mit 15,2%. Die Branche Öffentliche Verwaltung und Sozialversicherungen enthält in dieser Abbildung auch die staatlichen Bildungsinstitutionen.",
+"lesehilfe":"In Basel-Stadt hat vor allem die Branche Chemie und Pharma einen grossen Anteil an der nominalen Wertschöpfung des Jahres 2017. Er beträgt 41,4%. Die Branche Beratung, Planung, Forschung und Immobilien folgt mit 13,1%, vor den Finanz- und Versicherungsdienstleistungen mit 9,1%. In Basel-Landschaft ist die Branche Handel und Reparatur mit 18,8% am grössten, im Aargau die Industrie (exkl. Chemie und Pharma) mit 20,3% und in Zürich die Branche Beratung, Planung, Forschung und Immobilien mit 18,3%. Diese Branche ist auch im Schweizer Durchschnitt mit 15,1% die grösste. Die Branche Öffentliche Verwaltung und Sozialversicherungen enthält in dieser Abbildung auch die staatlichen Bildungsinstitutionen.",
 "erlaeuterungen":"Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 "template":"template001_print",
 "darstellungsart":"",
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["BAK Economics"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":7011, 
+"chart-id":7011, 
+"filter":""
 }

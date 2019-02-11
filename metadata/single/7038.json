@@ -1,4 +1,4 @@
-{"title":"Grenzgänger im Dienstleistungssektor (III)",
+﻿{"title":"Grenzgänger im Dienstleistungssektor (III)",
 "subtitle":"Bestand Ende Quartal, Basel-Stadt",
 "kuerzel":"I.03.5.07038",
 "kuerzelKunde":"3.4-08",
@@ -9,12 +9,12 @@
 "kennzahlenset":"Arbeitsmarkt (Print)",
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
-"stufe1":"Monitoring Basler Arbeitsmarkt",
-"stufe2":"Ausländische Erwerbstätige",
-"stufe3":"Grenzgänger",
+"stufe1":"3 Monitoring Basler Arbeitsmarkt",
+"stufe2":"3.4 Ausländische Erwerbstätige",
+"stufe3":"3.4.1 Grenzgänger",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Deutlich mehr Grenzgänger als 2007 arbeiten in der Branche Gesundheits- und Sozialwesen. Der aktuelle Wert beträgt 3 562 Personen, 2,0% mehr als im Vorjahr. In den anderen Dienstleistungsbranchen verlief die Entwicklung in den vergangenen Jahren relativ konstant. In den Branchen Erziehung und Unterricht sowie Kultur, Unterhaltung und persönliche Dienstleistungen sind die Werte 2017 gegenüber dem Vorjahr etwas zurückgegangen.",
+"lesehilfe":"Relativ viele Grenzgänger arbeiten in der Branche Gesundheits- und Sozialwesen (3 524), 35,6% mehr als 2009. Im Vergleich zum Vorjahr ging die Anzahl um 1,2% zurück. Einen stärkeren Rückgang verzeichnet die Branche Erziehung und Unterricht (aktuell 594 Grenzgänger), gegenüber 2009 um 20,2%, genüber 2017 um 9,7%.",
 "erlaeuterungen":"Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten.",
 "template":"line001_print",
 "darstellungsart":"",
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":7038, 
+"chart-id":7038, 
+"filter":""
 }

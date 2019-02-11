@@ -1,4 +1,4 @@
-{"title":"Grenzgänger im Dienstleistungssektor (II)",
+﻿{"title":"Grenzgänger im Dienstleistungssektor (II)",
 "subtitle":"Bestand Ende Quartal, Basel-Stadt",
 "kuerzel":"I.03.5.07037",
 "kuerzelKunde":"3.4-07",
@@ -9,12 +9,12 @@
 "kennzahlenset":"Arbeitsmarkt (Print)",
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
-"stufe1":"Monitoring Basler Arbeitsmarkt",
-"stufe2":"Ausländische Erwerbstätige",
-"stufe3":"Grenzgänger",
+"stufe1":"3 Monitoring Basler Arbeitsmarkt",
+"stufe2":"3.4 Ausländische Erwerbstätige",
+"stufe3":"3.4.1 Grenzgänger",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Die Branche Beratung, Planung, Forschung und Immobilien verzeichnet den grössten Anstieg der Grenzgängerzahl in den letzten zehn Jahren. Im 4. Quartal 2017 liegt sie bei 6 385 Personen. Gegenüber 2007 hat sich die Zahl fast verdreifacht. Im Vergleich zu 2016 beträgt das Plus 8,1%. Auch in der Branche Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen ist die Anzahl Grenzgänger seit 2007 stark gestiegen. Aktuell beträgt sie 2 350 Personen (+9,3% gegenüber Vorjahr). Ein ähnliches langfristiges Bild zeigt die Branche Personalvermittlung und -überlassung (2 232 Personen), mit einem Anstieg um 4,4% gegenüber dem Vorjahr.",
+"lesehilfe":"Die Branche Beratung, Planung, Forschung und Immobilien verzeichnet den grössten Anstieg der Grenzgängerzahl in den letzten zehn Jahren. Im 4. Quartal 2018 liegt sie bei 6 434 Personen (+4,0% gegenüber dem dritten Quartal 2017. In den drei anderen Branchen ging die Zahl der Grenzgänger seit Jahresfrist leicht zurück. Nur die Finanz- und Versicherungsdienstleistungen verzeichnen einen Rückgang der Grenzgängerzahl seit 2009 (−20,6% auf 834 Personen).",
 "erlaeuterungen":"Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten.",
 "template":"line001_print",
 "darstellungsart":"",
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":7037, 
+"chart-id":7037, 
+"filter":""
 }

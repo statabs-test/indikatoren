@@ -1,4 +1,4 @@
-{"title":"Nominales Bruttoinlandprodukt pro Kopf nach Kanton",
+﻿{"title":"Nominales Bruttoinlandprodukt pro Kopf nach Kanton",
 "subtitle":"In Franken",
 "kuerzel":"I.04.2.07009",
 "kuerzelKunde":"3.1-01",
@@ -9,12 +9,12 @@
 "kennzahlenset":"Arbeitsmarkt (Print)",
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
-"stufe1":"Monitoring Basler Arbeitsmarkt",
-"stufe2":"Bruttoinlandprodukt und Wertschöpfung",
+"stufe1":"3 Monitoring Basler Arbeitsmarkt",
+"stufe2":"3.1 Bruttoinlandprodukt und Wertschöpfung",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Basel-Stadt weist mit Abstand das höchste nominale BIP pro Kopf auf. Im Jahr 2016 beträgt es ca. 165 000 Franken. Dies sind 3,9% mehr als 2007 und 0,8% mehr als 2015. Der Schweizer Durchschnitt beträgt 2016 ca. 77 000 Franken.",
+"lesehilfe":"Basel-Stadt weist mit Abstand das höchste nominale BIP pro Kopf auf. Im Jahr 2017 beträgt es ca. 174 000 Franken. Dies sind 5,5% mehr als 2008 und 0,3% mehr als 2016. Der Schweizer Durchschnitt beträgt 2017 ca. 79 000 Franken.",
 "erlaeuterungen":"Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 "template":"line001_print",
 "darstellungsart":"",
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["BAK Economics"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":7009, 
+"chart-id":7009, 
+"filter":""
 }

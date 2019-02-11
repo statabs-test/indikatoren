@@ -1,7 +1,7 @@
-{"title":"Löhne nach Branche",
+﻿{"title":"Löhne nach Branche",
 "subtitle":"Nordwestschweiz, Median in Franken",
 "kuerzel":"I.03.3.07050",
-"kuerzelKunde":"2.4-01",
+"kuerzelKunde":"2.1-06",
 "description":"Löhne nach Branche",
 "id":7050,
 "thema":"03 Erwerbsleben",
@@ -9,7 +9,7 @@
 "kennzahlenset":"Arbeitsmarkt (Print)",
 "raeumlicheGliederung":["Grossregion"],
 "aktualisierungsdatum":"",
-"stufe1":"Übersicht Basler Arbeitsmarkt",
+"stufe1":"2 Übersicht Basler Arbeitsmarkt",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":7050, 
+"chart-id":7050, 
+"filter":""
 }

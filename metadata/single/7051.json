@@ -1,4 +1,4 @@
-{"title":"Arbeitslose im Dienstleistungssektor (II)",
+﻿{"title":"Arbeitslose im Dienstleistungssektor (II)",
 "subtitle":"Basel-Stadt",
 "kuerzel":"I.03.4.07051",
 "kuerzelKunde":"3.3-07",
@@ -9,12 +9,12 @@
 "kennzahlenset":"Arbeitsmarkt (Print)",
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
-"stufe1":"Monitoring Basler Arbeitsmarkt",
-"stufe2":"Arbeitslosigkeit",
+"stufe1":"3 Monitoring Basler Arbeitsmarkt",
+"stufe2":"3.3 Arbeitslosigkeit",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Im Bereich Beratung, Planung, Forschung, Immobilien sind die Arbeitslosenzahlen im Verlauf des Jahres 2017 auf 298 Personen zurückgegangen (-49 Personen). Im Bereich Gebäudebetreuung und Sicherheit verringerte sich die Zahl auf 237 Personen (-67 Personen). Bei den Finanz- und Versicherungs¬dienstleistungen sind in den letzten Jahren relativ konstante Werte von 120 bis 130 Arbeitslosen zu beobachten. Geringer ist die Zahl der Arbeitslosen aus der Branche Personalvermittlung und -überlassung, wobei der Wert Ende Dezember 2017 auf 61 Personen gestiegen ist.",
+"lesehilfe":"In allen hier abgebildeten Dienstleistungen sind die Arbeitslosenzahlen im Dezember 2018 tiefer als im Dezember 2017. Im Bereich Beratung, Planung, Forschung, Immobilien sind Ende Dezember 2018 284 Personen arbeitslos (-2% gegenüber Ende 2017), im Bereich Gebäudebetreuung und Sicherheit 218 Personen (-8%).",
 "erlaeuterungen":"Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind.",
 "template":"line001_print",
 "darstellungsart":"",
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":7051, 
+"chart-id":7051, 
+"filter":""
 }

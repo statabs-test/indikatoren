@@ -1,4 +1,4 @@
-{"title":"Medianlohn nach Alter",
+﻿{"title":"Medianlohn nach Alter",
 "subtitle":"Median in Franken, Nordwestschweiz",
 "kuerzel":"I.03.3.07057",
 "kuerzelKunde":"3.5-03",
@@ -9,8 +9,8 @@
 "kennzahlenset":"Arbeitsmarkt (Print)",
 "raeumlicheGliederung":["Grossregion"],
 "aktualisierungsdatum":"",
-"stufe1":"Monitoring Basler Arbeitsmarkt",
-"stufe2":"Löhne",
+"stufe1":"3 Monitoring Basler Arbeitsmarkt",
+"stufe2":"3.5 Löhne",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":7057, 
+"chart-id":7057, 
+"filter":""
 }

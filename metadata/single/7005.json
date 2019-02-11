@@ -1,4 +1,4 @@
-{"title":"Grenzgänger nach Alter",
+﻿{"title":"Grenzgänger nach Alter",
 "subtitle":"Bestand Ende Quartal, Basel-Stadt",
 "kuerzel":"I.03.5.07005",
 "kuerzelKunde":"3.4-03",
@@ -9,12 +9,12 @@
 "kennzahlenset":"Arbeitsmarkt (Print)",
 "raeumlicheGliederung":["Kanton"],
 "aktualisierungsdatum":"",
-"stufe1":"Monitoring Basler Arbeitsmarkt",
-"stufe2":"Ausländische Erwerbstätige",
-"stufe3":"Grenzgänger",
+"stufe1":"3 Monitoring Basler Arbeitsmarkt",
+"stufe2":"3.4 Ausländische Erwerbstätige",
+"stufe3":"3.4.1 Grenzgänger",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Grenzgänger mit einem Alter von über 54 Jahren stellen aktuell mit 18,4% (6 613 Personen) den grössten Anteil in Basel-Stadt. Es folgt die Gruppe der 50- bis 54-Jährigen (15,5%, 5 559). Unter 25 Jahre sind nur 4,7% der Grenzgänger (1 702). In den letzten zehn Jahren hat sich die Zahl der Grenzgänger in zwei Altersgruppen zurückentwickelt (35-39 und 40-44 Jahre). In allen anderen Gruppen wurde ein Zuwachs verzeichnet. Gegenüber dem Vorjahr verzeichneten zum 4. Quartal 2017 vor allem die beiden höheren Altersklassen einen Zuwachs.",
+"lesehilfe":"Grenzgänger mit einem Alter von über 54 Jahren stellen aktuell mit 17,5% (6 030 Personen) den grössten Anteil in Basel­Stadt. In fast allen Altersgruppen gibt es mehr Grenzgänger als vor zehn Jahren. In den letzten Quartalen ist insgesamt ein leichter Rückgang zu verzeichnen. Er fiel gegenüber dem dritten Quartal 2017 mit 8,0% in der Gruppe der Personen über 54 Jahre am stärksten aus.",
 "erlaeuterungen":"Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten.",
 "template":"template001_print",
 "darstellungsart":"",
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":7005, 
+"chart-id":7005, 
+"filter":""
 }
