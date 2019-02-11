@@ -1004,6 +1004,7 @@ id | visible | visibleInPortal | indikatorenset
 7511 | true | true | Monatsindikatoren
 7512 | true | true | Monatsindikatoren
 7513 | true | true | Monatsindikatoren
+7515 | true | true | Monatsindikatoren
 7516 | true | true | Monatsindikatoren
 7517 | true | true | Monatsindikatoren
 9995 | true | false | 

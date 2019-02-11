@@ -159,6 +159,45 @@ var indikatorensetData = [
 		"id": 7513
 	},
 	{
+		"title": "Bilanz der Wohnbevölkerung",
+		"subtitle": "",
+		"kuerzel": "I.01.1.07515",
+		"kuerzelKunde": "",
+		"description": "Bilanz der Wohnbevölkerung",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Monatsindikatoren",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Monatliche Veränderungen am Bevölkerungsbestand sind in erster Linie auf räumliche Bevölkerungsbewegungen zurückzuführen. Der Geburtssaldo fällt jeweils deutlich kleiner aus.",
+		"erlaeuterungen": "Aufgrund nachträglich gemeldeter Ereignisse (z. B. verspäteter An- oder Abmeldungen) entspricht die Summe aus Wanderungssaldo und Geburtssalso nicht der effektiven Veränderung des Bevölkerungsbestandes per Ende Monat (= Spalte Bereinigungen).",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7515,
+		"chart-id": 7515,
+		"filter": "",
+		"id": 7515
+	},
+	{
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "",
 		"kuerzel": "I.10.1.07516",
