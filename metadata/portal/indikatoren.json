@@ -23542,8 +23542,8 @@
 		"id": 7516
 	},
 	{
-		"title": "Auslastung Basler Hotels nach Kategorie",
-		"subtitle": "Dezember",
+		"title": "Auslastung Basler Hotels nach Kategorie im Dezember",
+		"subtitle": "",
 		"kuerzel": "I.10.1.07517",
 		"kuerzelKunde": "",
 		"description": "Auslastung Basler Hotels nach Kategorie",
@@ -23561,7 +23561,7 @@
 		"stufe5": "",
 		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne Hotels angeboten. Die Auslastung liegt in allen Kategorien über 50%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
-		"template": "line001",
+		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
