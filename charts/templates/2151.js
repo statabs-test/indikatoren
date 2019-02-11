@@ -8,7 +8,7 @@
         }
   },
   "yAxis": {
-      tickInterval: 2000,
+      tickAmount: 8,
     "labels": {
       "format": "{value:,.0f}",
        "formatter": function(){
@@ -30,6 +30,8 @@
     "align": "left",
     padding: 0,
     itemDistance: 2,
+    width: 485,
+    itemWidth: 220
   },
  "series": [
 	 {"color": "#E7CEE2", index: 15}, /* */
