@@ -753,7 +753,9 @@
     "symbolRadius": 0,
     "itemMarginBottom": 0,
     "itemStyle": {
-      "fontSize": "9px"
+      "fontSize": "9px",
+      "fontFamily": "Arial",
+      "fontWeight": "normal"
     },
     "padding": 0,
     "x": 25,

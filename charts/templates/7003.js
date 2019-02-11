@@ -47,7 +47,9 @@ global Highcharts
         .replace("Berat., Plan., Forsch., Immob., IT", "Berat., Plan., Forsch., Imm., IT");
     },
     "itemStyle": {
+   fontFamily: "Arial",
    fontSize: "9px",
+   "fontWeight": "normal"
     },
    // symbolHeight: 6,
     symbolPadding: 0,

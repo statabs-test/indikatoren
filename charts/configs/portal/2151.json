@@ -714,8 +714,7 @@
       "formatter": function (){
         return Highcharts.numberFormat((this.value),0)+''; 
       }
-    },
-    "tickAmount": 8
+    }
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
