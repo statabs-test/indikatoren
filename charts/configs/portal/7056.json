@@ -13,29 +13,6 @@
       "data": [
         [
           "2010",
-          0.823
-        ],
-        [
-          "2012",
-          0.843
-        ],
-        [
-          "2014",
-          0.867
-        ]
-      ],
-      "name": "Verhältnis Frauen\u002FMänner",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#DC440E",
-      "yAxis": 0,
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
-      "data": [
-        [
-          "2010",
           5449
         ],
         [
@@ -45,13 +22,17 @@
         [
           "2014",
           6014
+        ],
+        [
+          "2016",
+          6220
         ]
       ],
       "name": "Frauen",
       "turboThreshold": 0
     },
     {
-      "color": "#008AC3",
+      "color": "#DC440E",
       "yAxis": 0,
       "tooltip": {
         "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
@@ -68,13 +49,17 @@
         [
           "2014",
           6934
+        ],
+        [
+          "2016",
+          7034
         ]
       ],
       "name": "Männer",
       "turboThreshold": 0
     },
     {
-      "color": "#3C3C3C",
+      "color": "#008AC3",
       "yAxis": 0,
       "tooltip": {
         "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
@@ -91,9 +76,40 @@
         [
           "2014",
           6578
+        ],
+        [
+          "2016",
+          6700
         ]
       ],
       "name": "Total",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#3C3C3C",
+      "yAxis": 0,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "2010",
+          0.823
+        ],
+        [
+          "2012",
+          0.843
+        ],
+        [
+          "2014",
+          0.867
+        ],
+        [
+          "2016",
+          0.884
+        ]
+      ],
+      "name": "Verhältnis Frauen\u002FMänner",
       "turboThreshold": 0
     }
   ],

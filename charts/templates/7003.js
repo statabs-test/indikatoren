@@ -13,7 +13,7 @@ global Highcharts
         }
   },
   "yAxis": {
-      tickInterval: 2000,
+      tickAmount: 8,
           
     "labels": {
       "format": "{value:,.0f}",

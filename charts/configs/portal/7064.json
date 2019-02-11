@@ -6,23 +6,23 @@
       "legendIndex": 0,
       "data": [
         [
-          "BS",
+          "Basel-Stadt",
           27874
         ],
         [
-          "BL",
+          "Basel-Landschaft",
           32923
         ],
         [
-          "AG",
+          "Aargau",
           77597
         ],
         [
-          "ZH",
+          "Zürich",
           193618
         ],
         [
-          "CH",
+          "Schweiz",
           1169440
         ]
       ],
@@ -35,23 +35,23 @@
       "legendIndex": 1,
       "data": [
         [
-          "BS",
+          "Basel-Stadt",
           31929
         ],
         [
-          "BL",
+          "Basel-Landschaft",
           33256
         ],
         [
-          "AG",
+          "Aargau",
           71543
         ],
         [
-          "ZH",
+          "Zürich",
           201217
         ],
         [
-          "CH",
+          "Schweiz",
           1093812
         ]
       ],
@@ -64,23 +64,23 @@
       "legendIndex": 2,
       "data": [
         [
-          "BS",
+          "Basel-Stadt",
           38479
         ],
         [
-          "BL",
+          "Basel-Landschaft",
           36093
         ],
         [
-          "AG",
+          "Aargau",
           66477
         ],
         [
-          "ZH",
+          "Zürich",
           200883
         ],
         [
-          "CH",
+          "Schweiz",
           1012661
         ]
       ],
@@ -93,23 +93,23 @@
       "legendIndex": 3,
       "data": [
         [
-          "BS",
+          "Basel-Stadt",
           53139
         ],
         [
-          "BL",
+          "Basel-Landschaft",
           15267
         ],
         [
-          "AG",
+          "Aargau",
           46719
         ],
         [
-          "ZH",
+          "Zürich",
           183855
         ],
         [
-          "CH",
+          "Schweiz",
           698027
         ]
       ],

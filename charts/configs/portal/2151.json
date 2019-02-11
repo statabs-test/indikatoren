@@ -715,7 +715,7 @@
         return Highcharts.numberFormat((this.value),0)+''; 
       }
     },
-    "tickInterval": 2000
+    "tickAmount": 8
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -743,7 +743,9 @@
       "fontWeight": "normal"
     },
     "padding": 0,
-    "itemDistance": 2
+    "itemDistance": 2,
+    "width": 600,
+    "itemwidth": 280
   },
   "plotOptions": {
     "series": {
