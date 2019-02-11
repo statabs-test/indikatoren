@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "rgb(92,230,57)",
+      "color": "rgb(115,186,124)",
       "data": [
         [
           "Jan",
@@ -112,7 +112,7 @@
     }
   ],
   "xAxis": {
-    "type": "datetime",
+    "type": "category",
     "uniqueNames": false,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
@@ -120,17 +120,10 @@
       "style": {
         "color": "#000000",
         "textOverflow": "none"
-      },
-      "formatter": function () {
-              if (this.isFirst || this.isLast) {
-                return Highcharts.dateFormat('%b %y', this.value);
-              } else {
-                return Highcharts.dateFormat('%b', this.value);
-              }
-            }
+      }
     },
     "tickLength": 0,
-    "tickInterval": 2592000000
+    "tickInterval": 1
   },
   "chart": {
     "events": {
@@ -183,7 +176,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
     "min": 0,
