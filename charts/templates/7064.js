@@ -7,11 +7,17 @@
  	"xAxis": {
         "type": "category",
         "labels": {
-            "formatter": function() {
-                  	 return this.value;
+        "formatter": function () {
+        return this.value
+                .replace("Basel-Stadt", "BS")	
+                .replace("Basel-Landschaft", "BL")
+                .replace("Aargau", "AG")
+                .replace("Zürich", "ZH")
+                .replace("Schweiz", "CH");
+    },
             }
-        } 
-  },  
+        }, 
+  
   plotOptions: {
   	column: {
   		groupPadding: 0.2,
