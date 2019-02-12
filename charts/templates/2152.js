@@ -34,7 +34,7 @@
 
  "series": [
    	 {"color": "#008AC3", index: 5, legendIndex: 0}, /* */
-	 {"color": "#B00000", index: 4, legendIndex: 1}, /* */
+	 {"color": "#8B2223", index: 4, legendIndex: 1}, /* */
 	 {"color": "#689199", index: 3, legendIndex: 2},  /* */
 	 {"color": "#DC440E", index: 2, legendIndex: 3},  /* */
 	 {"color": "#A8C3CA", index: 1, legendIndex: 4}, /* */
