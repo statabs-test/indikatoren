@@ -17,7 +17,7 @@
             marker: {
                 enabled: true,
                 symbol: 'diamond', 
-                radius: 8
+                radius: 7
             },
             pointPlacement : -0.15
         },
@@ -27,13 +27,16 @@
             marker: {
                 enabled: true,
                 symbol: 'diamond', 
-                radius: 8
+                radius: 7
             },
             pointPlacement : 0.15
         }        
   ],
   xAxis: {
-      type: "category"
+      type: "category",
+      labels:{
+     fontSize: '9px'
+      }
   },
   yAxis: [
       {
@@ -53,6 +56,7 @@
         labels: {
         	format: "{value:,.0f}",
             style: {
+                fontSize: '9px',
             color: "#000000"
             }
         }
@@ -74,6 +78,7 @@
         },
         labels: {
             style: {
+                fontSize: '9px',
                 color: "#000000"
             }, 
             formatter: function() {
@@ -106,8 +111,9 @@
    // y: -40,
     layout: "horizontal",
     verticalAlign: "top",
+    itemMarginTop: 5,
     itemMarginBottom: 5,
-    itemDistance: 0,
+    itemDistance: 5,
     align: "left",
         itemStyle: {
         height: 2,
@@ -117,6 +123,8 @@
     //width: 200,
     //itemWidth: 70,    
     symbolRadius: 0,
+    symbolHeight: 8,
+    symbolPadding: 0,
     labelFormatter: function(){
         //remove text before year on each item with odd index
         //return (this.index % 2 != 0) ? this.name.slice(-4) : this.name;
@@ -139,7 +147,7 @@
   },
   chart: {
         type: 'column',
-        width: 665,
+        width: 663,
        // spacingTop: 50,
         /*events: {
           load: function(){
