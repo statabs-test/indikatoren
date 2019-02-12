@@ -7,9 +7,30 @@
     series: [
         {
             color: "rgb(255, 218, 128)",
+            dataLabels: {
+            enabled: true,
+            y: 20,
+            style: {
+                inside: true,
+                fontSize: "9px", 
+                color: 'black', 
+                fontWeight: 'normal',
+                textOutline: undefined
+            }
+        },
         },
         {
             color: "rgb(186, 168, 90)",
+             dataLabels: {
+            enabled: true,
+            y: 20,
+            style: {
+                fontSize: "9px", 
+                color: 'black', 
+                fontWeight: 'normal',
+                textOutline: undefined
+            }
+        },
         },
         {
             color: "rgb(220, 68, 14)",
@@ -63,7 +84,8 @@
       },
       {
         tickAmount: 6,
-        max: 0.7,
+        max: 0.85,
+        tickInterval: 0.17,
         opposite: true,
         min: 0,
         gridLineColor: '#B9CFD7', 
@@ -118,6 +140,7 @@
         itemStyle: {
         height: 2,
         fontWeight: "normal",
+        fontSize: '9px'
       //width: 40        
     },
     //width: 200,
@@ -127,8 +150,10 @@
     symbolPadding: 0,
     labelFormatter: function(){
         //remove text before year on each item with odd index
-        //return (this.index % 2 != 0) ? this.name.slice(-4) : this.name;
-        return this.name.slice(-4);
+       // return (this.index % 2 != 0) ? this.name.slice(-4) : this.name + ':';
+        return   (this.index % 2 != 0) ? this.name.slice(-4) : this.name;
+        return   (this.index % 1 != 0) ? this.name.slice(-4) : this.name;
+        //return this.name.slice(-4);
     }, 
    /* title: {
     	text: 'Angebotene Zimmer: Nettozimmerauslastung (rechte Skala):', 
