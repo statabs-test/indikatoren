@@ -62,8 +62,8 @@
   yAxis: [
       {
         tickAmount: 6,
-        max: 1750,
-        tickInterval: 350,
+        max: 2000,
+        tickInterval: 400,
         gridLineColor: '#B9CFD7', 
         gridLineWidth: 0.5,
         lineColor: '#B9CFD7', 
@@ -84,8 +84,8 @@
       },
       {
         tickAmount: 6,
-        max: 0.85,
-        tickInterval: 0.17,
+        max: 0.75,
+        tickInterval: 0.15,
         opposite: true,
         min: 0,
         gridLineColor: '#B9CFD7', 
@@ -151,9 +151,10 @@
     labelFormatter: function(){
         //remove text before year on each item with odd index
        // return (this.index % 2 != 0) ? this.name.slice(-4) : this.name + ':';
-        return   (this.index % 2 != 0) ? this.name.slice(-4) : this.name;
-        return   (this.index % 1 != 0) ? this.name.slice(-4) : this.name;
+       
+        return  (this.index % 2 != 0) ? this.name.slice(-4) : this.name;
         //return this.name.slice(-4);
+        
     }, 
    /* title: {
     	text: 'Angebotene Zimmer: Nettozimmerauslastung (rechte Skala):', 
