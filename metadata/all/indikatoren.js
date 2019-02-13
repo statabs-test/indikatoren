@@ -36325,6 +36325,46 @@ var indikatoren = [
 		"id": 7520
 	},
 	{
+		"title": "Logiernächte nach Herkunft und Hotelkategorie 2018",
+		"subtitle": "",
+		"kuerzel": "I.10.1.07522",
+		"kuerzelKunde": "3-4",
+		"description": "Logiernächte nach Herkunft und Hotelkategorie 2018",
+		"thema": "10 Tourismus",
+		"unterthema": "Hotellerie",
+		"kennzahlenset": "Tourismus",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "pie001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7522,
+		"chart-id": 7522,
+		"filter": "",
+		"id": 7522
+	},
+	{
 		"title": "Logiernächte der Hauptmärkte nach Hotelkategorie 2018",
 		"subtitle": "",
 		"kuerzel": "I.10.1.07523",

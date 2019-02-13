@@ -6712,6 +6712,13 @@
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "765aa902077ea20c6685a69d33c8f57dd25e1f9c"
 	},
+	"7522": {
+		"metadata": "0c5d77c7b3fd750bc9be4d6d44fad9ac44633a49",
+		"chartConfig": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+		"data": "7da22eaf1282a8952b8d97d7b9a8a0630f489ef3",
+		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+		"template": "c0dfae9729d859cea846deccc77c2aff3bd40059"
+	},
 	"7523": {
 		"metadata": "de47d90565538c1c5ff69aa95868563a5dbbd9ba",
 		"chartConfig": "6ac241f7ab4ad1884e86fef9cb1ad5a29ada5180",
