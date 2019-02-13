@@ -6,9 +6,9 @@
     return {
     series: [
         {
-            color: "rgb(255, 218, 128)",
+            color: "rgb(191, 215, 236)",
             dataLabels: {
-            enabled: true,
+            enabled: false,
             y: 20,
             style: {
                 inside: true,
@@ -20,9 +20,9 @@
         },
         },
         {
-            color: "rgb(186, 168, 90)",
+             color: "rgb(159, 196, 227)",
              dataLabels: {
-            enabled: true,
+            enabled: false,
             y: 20,
             style: {
                 fontSize: "9px", 
@@ -57,14 +57,16 @@
       type: "category",
       labels:{
           rotation: 0,
-     fontSize: '9px'
+          style:{
+        fontSize: '9px'
+          } 
       }
   },
   yAxis: [
       {
         tickAmount: 6,
-        max: 2000,
-        tickInterval: 400,
+        max: 500000,
+        tickInterval: 100000,
         gridLineColor: '#B9CFD7', 
         gridLineWidth: 0.5,
         lineColor: '#B9CFD7', 
@@ -85,8 +87,8 @@
       },
       {
         tickAmount: 6,
-        max: 0.75,
-        tickInterval: 0.15,
+        //max: 0.35,
+        //tickInterval: 0.07,
         opposite: true,
         min: 0,
         gridLineColor: '#B9CFD7', 
@@ -134,8 +136,8 @@
    // y: -40,
     layout: "horizontal",
     verticalAlign: "top",
-    itemMarginTop: 5,
-    itemMarginBottom: 5,
+    itemMarginTop: 0,
+    itemMarginBottom: 0,
     itemDistance: 5,
     align: "left",
         itemStyle: {
@@ -154,7 +156,7 @@
        // return (this.index % 2 != 0) ? this.name.slice(-4) : this.name + ':';
          if(this.index == 0) { return 'Verfügbare Zimmer: ' + this.name.slice(-4);}
         else if (this.index == 1) {return this.name.slice(-4)}
-        else if (this.index == 2) {return 'Nettozimmerauslastung (rechte Skala:) ' + this.name.slice(-4)}
+        else if (this.index == 2) {return 'Nettozimmerauslastung (rechte Skala): ' + this.name.slice(-4)}
         else if (this.index == 3) {return this.name.slice(-4)}
       //  return  (this.index % 2 != 0) ? this.name.slice(-4) : this.name.slice(-4);
         //return this.name.slice(-4);
@@ -177,8 +179,10 @@
   },
   chart: {
         type: 'column',
+        height: 208,
         width: 663,
-       // spacingTop: 50,
+        spacingTop: 1,
+        spacingBottom: 15,
         /*events: {
           load: function(){
             this.credits.element.onclick = function() {};

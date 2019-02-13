@@ -2,6 +2,16 @@
   "series": [
     {
       "color": "rgb(255, 218, 128)",
+      "dataLabels": {
+        "enabled": true,
+        "y": 20,
+        "style": {
+          "inside": true,
+          "fontSize": "9px",
+          "color": "black",
+          "fontWeight": "normal"
+        }
+      },
       "data": [
         [
           "1- und 2-Sterne",
@@ -20,11 +30,20 @@
           268
         ]
       ],
-      "name": "Angebotene Zimmer 2009",
+      "name": "Verfügbare Zimmer 2009",
       "turboThreshold": 0
     },
     {
       "color": "rgb(186, 168, 90)",
+      "dataLabels": {
+        "enabled": true,
+        "y": 20,
+        "style": {
+          "fontSize": "9px",
+          "color": "black",
+          "fontWeight": "normal"
+        }
+      },
       "data": [
         [
           "1- und 2-Sterne",
@@ -43,7 +62,7 @@
           346
         ]
       ],
-      "name": "Angebotene Zimmer 2018",
+      "name": "Verfügbare Zimmer 2018",
       "turboThreshold": 0
     },
     {
@@ -52,7 +71,7 @@
       "marker": {
         "enabled": true,
         "symbol": "diamond",
-        "radius": 8
+        "radius": 7
       },
       "pointPlacement": -0.15,
       "data": [
@@ -82,7 +101,7 @@
       "marker": {
         "enabled": true,
         "symbol": "diamond",
-        "radius": 8
+        "radius": 7
       },
       "pointPlacement": 0.15,
       "data": [
@@ -118,7 +137,8 @@
         "color": "#000000",
         "textOverflow": null,
         "whiteSpace": "nowrap"
-      }
+      },
+      "fontSize": "9px"
     },
     "tickLength": 0
   },
@@ -144,7 +164,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
-    "width": 665,
+    "width": 663,
     "height": 208,
     "spacing": [
       2,
@@ -185,8 +205,8 @@
   "yAxis": [
     {
       "tickAmount": 6,
-      "max": 1750,
-      "tickInterval": 350,
+      "max": 2000,
+      "tickInterval": 400,
       "gridLineColor": "#B9CFD7",
       "gridLineWidth": 0.5,
       "lineColor": "#B9CFD7",
@@ -200,13 +220,15 @@
       "labels": {
         "format": "{value:,.0f}",
         "style": {
+          "fontSize": "9px",
           "color": "#000000"
         }
       }
     },
     {
       "tickAmount": 6,
-      "max": 0.7,
+      "max": 0.75,
+      "tickInterval": 0.15,
       "opposite": true,
       "min": 0,
       "gridLineColor": "#B9CFD7",
@@ -221,6 +243,7 @@
       },
       "labels": {
         "style": {
+          "fontSize": "9px",
           "color": "#000000"
         },
         "formatter": function () {
@@ -253,16 +276,25 @@
     "symbolRadius": 0,
     "itemMarginBottom": 5,
     "itemStyle": {
-      "fontSize": "10px",
+      "fontSize": "9px",
       "height": 2,
       "fontWeight": "normal"
     },
     "padding": 0,
-    "itemDistance": 0,
+    "itemMarginTop": 5,
+    "itemDistance": 5,
+    "symbolHeight": 8,
+    "symbolPadding": 0,
     "labelFormatter": function (){
         //remove text before year on each item with odd index
-        //return (this.index % 2 != 0) ? this.name.slice(-4) : this.name;
-        return this.name.slice(-4);
+       // return (this.index % 2 != 0) ? this.name.slice(-4) : this.name + ':';
+         if(this.index == 0) { return 'Verfügbare Zimmer: ' + this.name.slice(-4);}
+        else if (this.index == 1) {return this.name.slice(-4)}
+        else if (this.index == 2) {return 'Nettozimmerauslastung (rechte Skala:) ' + this.name.slice(-4)}
+        else if (this.index == 3) {return this.name.slice(-4)}
+      //  return  (this.index % 2 != 0) ? this.name.slice(-4) : this.name.slice(-4);
+        //return this.name.slice(-4);
+        
     }
   },
   "plotOptions": {
