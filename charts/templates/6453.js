@@ -32,7 +32,8 @@
     "verticalAlign": "top",
     "itemMarginBottom": 5,
     "align": "left",
-    itemWidth: 200,
+    itemDistance: 0,
+    itemWidth: 203,
     labelFormatter: function (){
       return this.name.replace("Öffentliche Verwaltung, Sozialversicherungen", "Öffentl. Verwaltung, Sozialvers.");
     },
