@@ -338,7 +338,7 @@
 	},
 	{
 		"title": "Anteil an der nominalen Wertschöpfung nach Branche",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Stand: 2017",
 		"kuerzel": "I.04.2.2402",
 		"kuerzelKunde": "3.1-03",
 		"description": "Anteil an der nominalen Wertschöpfung nach Branche",
@@ -355,7 +355,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In Basel-Stadt hat vor allem die Branche Chemie und Pharma einen grossen Anteil an der nominalen Wertschöpfung des Jahres 2017. Er beträgt 41,4%. Die Branche Beratung, Planung, Forschung und Immobilien folgt mit 13,1%, vor den Finanz- und Versicherungsdienstleistungen mit 9,1%. In Basel-Landschaft ist die Branche Handel und Reparatur mit 18,8% am grössten, im Aargau die Industrie (exkl. Chemie und Pharma) mit 20,3% und in Zürich die Branche Beratung, Planung, Forschung und Immobilien mit 18,3%. Diese Branche ist auch im Schweizer Durchschnitt mit 15,1% die grösste. Die Branche Öffentliche Verwaltung und Sozialversicherungen enthält in dieser Abbildung auch die staatlichen Bildungsinstitutionen.",
+		"lesehilfe": "In Basel-Stadt hat vor allem die Branche Chemie und Pharma einen grossen Anteil an der nominalen Wertschöpfung. Im Jahr 2017 beträgt dieser 41,4%. Die Branche Beratung, Planung, Forschung und Immobilien folgt mit 13,1%, vor den Finanz- und Versicherungsdienstleistungen mit 9,1%. In Basel-Landschaft ist die Branche Handel und Reparatur mit 18,8% am grössten, im Aargau die Industrie (exkl. Chemie und Pharma) mit 20,3% und in Zürich die Branche Beratung, Planung, Forschung und Immobilien mit 18,3%. Diese Branche ist auch im Schweizer Durchschnitt mit 15,1% die grösste. Die Branche Öffentliche Verwaltung und Sozialversicherungen enthält in dieser Abbildung auch die staatlichen Bildungsinstitutionen.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -24760,8 +24760,8 @@
 	{
 		"title": "Zuwanderung pro Beschäftigten nach Branche",
 		"subtitle": "Basel-Stadt, pro besetzter Stelle",
-		"kuerzel": "I.03.5.06462",
-		"kuerzelKunde": "2.3-02",
+		"kuerzel": "I.03.5.6462",
+		"kuerzelKunde": "2.1-04",
 		"description": "Zuwanderung pro Beschäftigten nach Branche",
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Ausländische Erwerbstätige",
@@ -24769,28 +24769,35 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
-		"stufe1": "Übersicht Basler Arbeitsmarkt",
+		"aktualisierungsdatum": "",
+		"stufe1": "2 Übersicht Basler Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Abbildung zeigt die jährlich zugewanderten Erwerbstätigen mit Arbeitsort Basel-Stadt im Vergleich zur bestehenden Beschäftigung im Kanton (Beschäftigungsstand: 2015). Dabei sind Dauer- und Kurzaufenthalter berücksichtigt. In der Branche Chemie und Pharma wanderten 2017 etwas über 7 erwerbstätige ausländische Personen auf 100 existierende Stellen in Basel-Stadt ein (Quote von 7%). Noch etwas höher ist die Quote mit 8% in der Sammelbranche Beratung, Planung, Forschung, Immobilien, IT und andere Dienstleistungen. Am geringsten ist die Zuwanderung im Vergleich zur bestehenden Beschäftigung in der Finanz- und Versicherungsbranche sowie in der Öffentlichen Verwaltung und Sozialversicherungen mit jeweils unter 1%.",
-		"erlaeuterungen": "Zugewanderte Erwerbstätige: Arbeitnehmende und Selbstständige mit Aufenthaltsbewilligung in der Schweiz (ständige und nichtständige Wohnbevölkerung), die in Basel-Stadt erwerbstätig sind. Beschäftigte (besetzte Stelle): Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
+		"lesehilfe": "In….",
+		"erlaeuterungen": "Zugewanderte Erwerbstätige mit Aufenthaltsbewilligung in der Schweiz (ständige und nichtständige Wohnbevölkerung), die in Basel-Stadt erwerbstätig sind. Beschäftigte (besetzte Stelle): Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten (im Jahr 2016).",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_302",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7048"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6462,
-		"darstellungsart": "Grafik"
+		"data-id": 6462,
+		"chart-id": 6462,
+		"filter": "",
+		"id": 6462
 	},
 	{
 		"title": "Meldepflichtige pro Beschäftigten nach Branche",

@@ -781,6 +781,8 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
+    "itemWidth": 200,
+    "itemDistance": 0,
     "itemMarginBottom": 5
   },
   "plotOptions": {

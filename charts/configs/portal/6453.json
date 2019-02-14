@@ -782,7 +782,12 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemMarginBottom": 5
+    "itemMarginBottom": 5,
+    "itemDistance": 0,
+    "itemWidth": 203,
+    "labelFormatter": function (){
+      return this.name.replace("Öffentliche Verwaltung, Sozialversicherungen", "Öffentl. Verwaltung, Sozialvers.");
+    }
   },
   "plotOptions": {
     "series": {
