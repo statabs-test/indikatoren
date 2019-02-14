@@ -707,7 +707,7 @@
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Zuwanderung von Erwerbstätigen liegt im Kanton Basel-Stadt im 4. Quartal 2018 bei 1 622 Personen. Im Gesamtjahr 2018 sind 7 620 ausländische Arbeitskräfte in den baselstädtischen Arbeitsmarkt zugewandert, was einem Anstieg um 6,0% gegenüber 2017 entspricht. Im Kanton Basel-Landschaft wurde ein Zuwachs um 11,1% registriert, während im Kanton Aargau ein Rückgang verzeichnet wurde (-2,3%).",
-		"erlaeuterungen": "Die Ausländerstatistik liefert Informationen über die Zuwanderung in die ausländische Bevölkerung (im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst (Bewilligungen von mehr als zwölf Monaten bzw. von maximal zwölf Monaten).",
+		"erlaeuterungen": "Hier wird die Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton) gezeigt, wobei die ständige und die  nichtständige ausländische Bevölkerung zusammengefasst sind (Dauer- und Kurzaufenthalter).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -748,8 +748,8 @@
 		"stufe3": "3.4.2 Zuwanderung",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im 4. Quartal 2018 sind es 1 008 zugewanderte erwerbstätige Männer und 614 Frauen. Der Anteil der Frauen an der Zuwanderung von Erwerbstätigen bewegt sich seit Jahren zwischen 35% und 40%. Die Zuwanderung von Männern erreichte im 3. Quartal 2018 mit 1 401 Personen einen Höchstwert in der betrachteten Periode.",
-		"erlaeuterungen": "Die Ausländerstatistik liefert Informationen über die Zuwanderung in die ausländische Bevölkerung (im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst (Bewilligungen von mehr als zwölf Monaten bzw. von maximal zwölf Monaten).",
+		"lesehilfe": "Im 4. Quartal 2018 sind 1 008 erwerbstätige Männer und 614 Frauen zugewandert. Der Anteil der Frauen an der Zuwanderung von Erwerbstätigen bewegt sich seit Jahren zwischen 35% und 40%. Die Zuwanderung von Männern erreichte im 3. Quartal 2018 mit 1 401 Personen den Höchstwert in der betrachteten Periode.",
+		"erlaeuterungen": "Hier wird die Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton) gezeigt, wobei die ständige und die  nichtständige ausländische Bevölkerung zusammengefasst sind (Dauer- und Kurzaufenthalter).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -791,7 +791,7 @@
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Von den nach Basel-Stadt zugewanderten Erwerbstätigen weisen in den letzten drei Jahren durchschnittlich 43% eine B-Bewilligung auf (Bewilligung für fünf Jahre) und 7% eine Kurzaufenthaltsbewilligung L ab 12 Monate. Rund 21% besitzen eine Kurzaufenthaltsbewilligung L zwischen vier und zwölf Monaten, während 28% eine Bewilligungsart bis vier Monate erhalten.",
-		"erlaeuterungen": "Die Ausländerstatistik liefert Informationen über die Zuwanderung in die ausländische Bevölkerung (im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst (Bewilligungen von mehr als zwölf Monaten bzw. von maximal zwölf Monaten).",
+		"erlaeuterungen": "Hier wird die Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton) gezeigt, wobei die ständige und die  nichtständige ausländische Bevölkerung zusammengefasst sind (Dauer- und Kurzaufenthalter).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -817,7 +817,7 @@
 	{
 		"title": "Zuwanderung von Erwerbstätigen nach Herkunft",
 		"subtitle": "Kurz- und Daueraufenthalter, Basel-Stadt",
-		"kuerzel": "I.03.5.02464",
+		"kuerzel": "I.03.5.2464",
 		"kuerzelKunde": "3.4-12",
 		"description": "Zuwanderung von Erwerbstätigen nach Herkunft",
 		"thema": "03 Erwerbsleben",
@@ -826,33 +826,40 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Zuwanderung",
+		"aktualisierungsdatum": "",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.2 Zuwanderung",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund zwei Drittel der Zuwanderung kommen aus den EU15/EFTA-Staaten (ca. 1 100 Personen pro Quartal in den letzten fünf Jahren). Die Zuwanderung aus den Ländern, die ab 2004 der EU beigetreten sind, macht ca. 13% der Gesamtzuwanderung aus. Rund 21% der zugewanderten Erwerbstätigen kommen aus Drittstaaten (ca. 390 Personen pro Quartal). Im 1. Quartal 2017 wurde hier ein Spitzenwert von 695 Bewilligungen für Angehörige aus Drittstaaten erreicht.",
-		"erlaeuterungen": "Die Ausländerstatistik liefert Informationen über die Zuwanderung in die erwerbstätige, ausländische Bevölkerung (erfasst im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst.",
+		"lesehilfe": "Rund 60% der Zuwanderung kommen aus den EU15/EFTA-Staaten (4 528 Personen im Jahr 2018). Die Zuwanderung aus den Ländern, die ab 2004 der EU beigetreten sind, macht ca. 15% der Gesamtzuwanderung aus. Fast ein Viertel der zugewanderten Erwerbstätigen kommen aus Drittstaaten. Die Zuwanderung aus den Drittstaaten hat in den letzten zwei Jahren deutlich zugenommen und liegt 2018 bei 1 881 Personen.",
+		"erlaeuterungen": "Hier wird die Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton) gezeigt, wobei die ständige und die  nichtständige ausländische Bevölkerung zusammengefasst sind (Dauer- und Kurzaufenthalter).",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_04_02_00_00_412",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7023"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 2464,
-		"darstellungsart": "Grafik"
+		"data-id": 2464,
+		"chart-id": 2464,
+		"filter": "",
+		"id": 2464
 	},
 	{
 		"title": "Zuwanderung von Erwerbstätigen in Industrie und Baugewerbe",
 		"subtitle": "Kurz- und Daueraufenthalter, Basel-Stadt",
-		"kuerzel": "I.03.5.02465",
+		"kuerzel": "I.03.5.2465",
 		"kuerzelKunde": "3.4-13",
 		"description": "Zuwanderung von Erwerbstätigen in Industrie und Baugewerbe",
 		"thema": "03 Erwerbsleben",
@@ -861,33 +868,40 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Zuwanderung",
+		"aktualisierungsdatum": "",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.2 Zuwanderung",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zuwanderung von Erwerbstätigen mit einer Tätigkeit in der Chemischen und Pharmazeutischen Industrie in Basel-Stadt schwankt in den letzten zwei Jahren zwischen 270 und 450 Personen pro Quartal (im Gesamtjahr 2017 1 464 Personen). In der übrigen Industrie beträgt die Zuwanderung knapp 80 Personen pro Quartal. Im Baugewerbe ist die Zuwanderung auf weniger als 40 Personen pro Quartal gesunken.",
-		"erlaeuterungen": "Die Ausländerstatistik liefert Informationen über die Zuwanderung in die erwerbstätige, ausländische Bevölkerung (erfasst im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst.",
+		"lesehilfe": "Die Zuwanderung von Erwerbstätigen mit einer Tätigkeit in der Chemischen und Pharmazeutischen Industrie in Basel-Stadt liegt im Gesamtjahr 2018 bei 1 333 Personen (9% weniger als 2017). Im Mittel der letzten zwei Jahre sind 350 Personen pro Quartal in diese Branche zugewandert. In der übrigen Industrie liegt die Zuwanderung 2018 bei 288 Personen, im Baugewerbe bei 120 Personen.",
+		"erlaeuterungen": "Hier wird die Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton) gezeigt, wobei die ständige und die  nichtständige ausländische Bevölkerung zusammengefasst sind (Dauer- und Kurzaufenthalter).",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_04_02_00_00_413",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7024"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 2465,
-		"darstellungsart": "Grafik"
+		"data-id": 2465,
+		"chart-id": 2465,
+		"filter": "",
+		"id": 2465
 	},
 	{
 		"title": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (I)",
 		"subtitle": "Kurz- und Daueraufenthalter, Basel-Stadt",
-		"kuerzel": "I.03.5.02466",
+		"kuerzel": "I.03.5.2466",
 		"kuerzelKunde": "3.4-14",
 		"description": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (I)",
 		"thema": "03 Erwerbsleben",
@@ -896,28 +910,35 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Zuwanderung",
+		"aktualisierungsdatum": "",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.2 Zuwanderung",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zuwanderung von Erwerbstätigen mit einer Beschäftigung in der Branche Handel und Reparatur im Kanton Basel-Stadt liegt bei rund 100 Personen pro Quartal. Im Gastgewerbe zeigt die Zuwanderung einen Rückgang auf ca. 60 Personen pro Quartal. Der Bereich Verkehr, Lagerei und Kommunikation liegt knapp darunter, mit rund 50 aus dem Ausland zugewanderten Personen pro Quartal.",
-		"erlaeuterungen": "Die Ausländerstatistik liefert Informationen über die Zuwanderung in die erwerbstätige, ausländische Bevölkerung (erfasst im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst.",
+		"lesehilfe": "Die Zuwanderung von Erwerbstätigen mit einer Beschäftigung in der Branche Handel und Reparatur im Kanton Basel-Stadt ist 2018 mit insgesamt 392 Personen höher als im Jahr 2017. Im Bereich Verkehr, Lagerei und Kommunikation zeigt die Zuwanderung 2018 einen Anstieg auf 235 Personen. Im Gastgewerbe ist hingegen ein Rückgang der Zuwanderung auf 179 Personen 2018 zu beobachten.",
+		"erlaeuterungen": "Hier wird die Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton) gezeigt, wobei die ständige und die  nichtständige ausländische Bevölkerung zusammengefasst sind (Dauer- und Kurzaufenthalter).",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_04_02_00_00_414",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7025"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 2466,
-		"darstellungsart": "Grafik"
+		"data-id": 2466,
+		"chart-id": 2466,
+		"filter": "",
+		"id": 2466
 	},
 	{
 		"title": "Jährliche Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
@@ -16239,7 +16260,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In….",
+		"lesehilfe": "In der Branche Chemie und Pharma wanderten 2018 wie in den Vorjahren etwas über 7 erwerbstätige ausländische Personen auf 100 existierende Stellen in Basel-Stadt ein (Quote von 7,3%). Am höchsten ist die Quote in der Sammelbranche Beratung, Planung, Forschung, Immobilien, IT und andere Dienstleistungen: sie liegt 2018 bei 10,5%. Am geringsten ist die Zuwanderung im Vergleich zur bestehenden Beschäftigung in der Finanz- und Versicherungsbranche sowie in der Öffentlichen Verwaltung und Sozialversicherungen. Im Total entspricht die Zuwanderung 4,4% der Beschäftigten in Basel-Stadt.",
 		"erlaeuterungen": "Zugewanderte Erwerbstätige mit Aufenthaltsbewilligung in der Schweiz (ständige und nichtständige Wohnbevölkerung), die in Basel-Stadt erwerbstätig sind. Beschäftigte (besetzte Stelle): Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten (im Jahr 2016).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -17947,7 +17968,7 @@
 	{
 		"title": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (II)",
 		"subtitle": "Kurz- und Daueraufenthalter, Basel-Stadt",
-		"kuerzel": "I.03.5.06520",
+		"kuerzel": "I.03.5.6520",
 		"kuerzelKunde": "3.4-15",
 		"description": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (II)",
 		"thema": "03 Erwerbsleben",
@@ -17956,33 +17977,40 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Zuwanderung",
+		"aktualisierungsdatum": "",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.2 Zuwanderung",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der grösste Teil der zugewanderten Erwerbstätigen ist im Bereich Beratung, Planung, Forschung, Immobilien, IT und sonstige Dienstleistungen (inkl. Gebäudereinigung und Personalvermittlung) tätig. Mit rund 800 neuen Bewilligungen pro Quartal hat sich die Zuwanderung in diesem Bereich seit 2009 fast verdoppelt. Im 1. Quartal 2017 wurde ein Höchstwert von 1 056 neuen Bewilligungen erreicht. Diese breit gefasste Dienstleistungsgruppe kann nicht detaillierter ausgewiesen werden.",
-		"erlaeuterungen": "Die Ausländerstatistik liefert Informationen über die Zuwanderung in die erwerbstätige, ausländische Bevölkerung (erfasst im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst.",
+		"lesehilfe": "Mehr als die Hälfte der zugewanderten Erwerbstätigen ist im Bereich Beratung, Planung, Forschung, Immobilien, IT und sonstige Dienstleistungen (inkl. Gebäudereinigung und Personalvermittlung) tätig. Mit 4 018 neuen Bewilligungen im Jahr 2018 hat sich die Zuwanderung in diesem Bereich seit 2009 mehr als verdoppelt. Im 1. Quartal 2018 wurde ein Höchstwert von 1 190 neuen Bewilligungen erreicht. Diese breit gefasste Dienstleistungsgruppe kann nicht detaillierter ausgewiesen werden.",
+		"erlaeuterungen": "Hier wird die Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton) gezeigt, wobei die ständige und die  nichtständige ausländische Bevölkerung zusammengefasst sind (Dauer- und Kurzaufenthalter).",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_04_02_00_00_415",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7053"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6520,
-		"darstellungsart": "Grafik"
+		"data-id": 6520,
+		"chart-id": 6520,
+		"filter": "",
+		"id": 6520
 	},
 	{
 		"title": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (III)",
 		"subtitle": "Kurz- und Daueraufenthalter, Basel-Stadt",
-		"kuerzel": "I.03.5.06521",
+		"kuerzel": "I.03.5.6521",
 		"kuerzelKunde": "3.4-16",
 		"description": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (III)",
 		"thema": "03 Erwerbsleben",
@@ -17991,28 +18019,35 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Zuwanderung",
+		"aktualisierungsdatum": "",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.2 Zuwanderung",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Gesundheits- und Sozialwesen sowie in der Branche Erziehung und Unterricht werden pro Quartal rund 100 neue Aufenthaltsbewilligungen für  Erwerbstätige erteilt. Zum Anfang des Schuljahres ist die Anzahl der neuen Bewilligungen im Unterrichtswesen jeweils höher als im Rest des Jahres. Im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen schwankt die Zuwanderung zwischen 60 und 170 Personen pro Quartal. Hier werden auch Vereine und religiöse Vereinigungen erfasst.",
-		"erlaeuterungen": "Die Ausländerstatistik liefert Informationen über die Zuwanderung in die erwerbstätige, ausländische Bevölkerung (erfasst im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst.",
+		"lesehilfe": "In der Branche Gesundheits- und Sozialwesen sind 2018 knapp 300 Personen zugewandert, im der Branche Erziehung und Unterricht 342 Personen. Im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen liegt die Zuwanderung 2018 ebenfalls bei 300 Personen. In allen hier abgebildeten Branchen ist die Zuwanderung 2018 gegenüber 2017 rückläufig.",
+		"erlaeuterungen": "Hier wird die Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton) gezeigt, wobei die ständige und die  nichtständige ausländische Bevölkerung zusammengefasst sind (Dauer- und Kurzaufenthalter).",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_04_02_00_00_416",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7054"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6521,
-		"darstellungsart": "Grafik"
+		"data-id": 6521,
+		"chart-id": 6521,
+		"filter": "",
+		"id": 6521
 	},
 	{
 		"title": "Medianlohn in der Schweiz, der Nordwestschweiz und Zürich",
