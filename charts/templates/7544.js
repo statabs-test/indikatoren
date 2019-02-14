@@ -38,7 +38,7 @@
             marker: {
                 enabled: true,
                 symbol: 'diamond', 
-                radius: 7
+                radius: 5
             },
             pointPlacement : -0.15
         },
@@ -48,7 +48,7 @@
             marker: {
                 enabled: true,
                 symbol: 'diamond', 
-                radius: 7
+                radius: 5
             },
             pointPlacement : 0.15
         }        
