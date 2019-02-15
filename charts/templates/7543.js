@@ -129,7 +129,7 @@
     }
   },
   legend: {
-    enabled: true,
+    enabled: false,
     //useHTML: true,
    // y: -40,
     layout: "horizontal",
@@ -152,9 +152,9 @@
     labelFormatter: function(){
         //remove text before year on each item with odd index
        // return (this.index % 2 != 0) ? this.name.slice(-4) : this.name + ':';
-         if(this.index == 0) { return 'Verfügbare Zimmer: ' + this.name.slice(-4);}
+         if(this.index == 0) { return /*'Verfügbare Zimmer: ' + */this.name.slice(-4);}
         else if (this.index == 1) {return this.name.slice(-4)}
-        else if (this.index == 2) {return 'Nettozimmerauslastung (rechte Skala:) ' + this.name.slice(-4)}
+        else if (this.index == 2) {return /*'Nettozimmerauslastung (rechte Skala:) ' +*/ this.name.slice(-4)}
         else if (this.index == 3) {return this.name.slice(-4)}
       //  return  (this.index % 2 != 0) ? this.name.slice(-4) : this.name.slice(-4);
         //return this.name.slice(-4);
@@ -178,6 +178,7 @@
   chart: {
         type: 'column',
         width: 663,
+        spacingTop: 30,
        // spacingTop: 50,
         /*events: {
           load: function(){

@@ -131,7 +131,7 @@
     }
   },
   legend: {
-    enabled: true,
+    enabled: false,
     //useHTML: true,
    // y: -40,
     layout: "horizontal",
@@ -181,7 +181,7 @@
         type: 'column',
         height: 208,
         width: 663,
-        spacingTop: 1,
+        spacingTop: 30,
         spacingBottom: 15,
         /*events: {
           load: function(){
