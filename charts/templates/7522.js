@@ -4,7 +4,8 @@
     return {
       
       plotOptions: {
-       series: {
+    
+        series: {
             point: {
                 events: {
                     legendItemClick: function () {
@@ -14,18 +15,17 @@
                            
                             if (point.parentId == id) {
                                 if(point.visible)
-                                    point.setVisible(true);
-                                else
                                     point.setVisible(false);
+                                else
+                                    point.setVisible(true);
                             }
+
                         });
                     }
                 }
             }
-        },
-    
-        
-     },
+        }
+    },
         
       legend:{
         layout: "horizontal",
@@ -37,7 +37,7 @@
 		}
       },
       "series": [{
-            parentId: '1',
+          
             showInLegend: false,
             type: 'pie',
             size: '100%',
@@ -52,7 +52,15 @@
            
         ],
       }, {
-            id: '1',
+            point: [{
+              id: '1',
+          },{
+              id: '2',
+          },{
+              id: '3',
+          },{
+              id: '4',
+          }],
             showInLegend: true,
             type: 'pie',
             innerSize: '70%',
