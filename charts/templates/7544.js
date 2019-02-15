@@ -33,22 +33,22 @@
         },
         },
         {
-            color: "rgb(220, 68, 14)",
+            color: "rgb(255, 102, 0)",
             type: 'scatter',
             marker: {
                 enabled: true,
                 symbol: 'diamond', 
-                radius: 5
+                radius: 4.8
             },
             pointPlacement : -0.15
         },
         {
-            color: "rgb(139, 34, 35)",
+            color: "rgb(201, 62, 13)",
             type: 'scatter',
             marker: {
                 enabled: true,
                 symbol: 'diamond', 
-                radius: 5
+                radius: 4.8
             },
             pointPlacement : 0.15
         }        
@@ -179,10 +179,10 @@
   },
   chart: {
         type: 'column',
-        height: 208,
-        width: 663,
-        spacingTop: 30,
-        spacingBottom: 15,
+        width: 661.41732283,
+        height: 207.87401575,
+        spacingTop: 25,
+        spacingBottom: 18,
         /*events: {
           load: function(){
             this.credits.element.onclick = function() {};

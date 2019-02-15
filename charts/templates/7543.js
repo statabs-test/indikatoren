@@ -38,7 +38,7 @@
             marker: {
                 enabled: true,
                 symbol: 'diamond', 
-                radius: 7
+                radius: 6
             },
             pointPlacement : -0.15
         },
@@ -48,7 +48,7 @@
             marker: {
                 enabled: true,
                 symbol: 'diamond', 
-                radius: 7
+                radius: 6
             },
             pointPlacement : 0.15
         }        
@@ -57,7 +57,8 @@
       type: "category",
       labels:{
           rotation: 0,
-     fontSize: '9px'
+          style:{
+     fontSize: '9px'}
       }
   },
   yAxis: [
@@ -177,7 +178,8 @@
   },
   chart: {
         type: 'column',
-        width: 663,
+        width: 661.41732283,
+        height: 207.87401575,
         spacingTop: 30,
        // spacingTop: 50,
         /*events: {
