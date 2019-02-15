@@ -39,7 +39,7 @@
     },
   },
   "yAxis": {
-    tickAmount: 6,
+    tickInterval: 0.02,
     "labels": {
       "format": "{value}%" ,
         style: { 

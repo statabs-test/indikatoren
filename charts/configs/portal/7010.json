@@ -316,7 +316,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Wachstumsrate des realen BIP nach Kanton"
+    "text": "Wachstumsrate des realen BIP gegenüber Vorjahr"
   },
   "subtitle": {
     "style": {
@@ -325,7 +325,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Veränderungsrate gegenüber Vorjahr",
+    "text": "nach Kanton",
     "align": "left"
   },
   "yAxis": {

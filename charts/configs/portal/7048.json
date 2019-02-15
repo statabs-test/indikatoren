@@ -323,7 +323,7 @@
         return Highcharts.numberFormat((this.value*100),0)+'%'; 
       }
     },
-    "tickAmount": 6
+    "tickInterval": 0.02
   },
   "navigation": {
     "menuItemStyle": {

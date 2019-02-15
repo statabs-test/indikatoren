@@ -33049,7 +33049,7 @@
 	},
 	{
 		"title": "Neue Grenzgängerbewilligungen nach Branche",
-		"subtitle": "Jährlich erteilte Bewilligungen, Basel-Stadt",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.03.5.07003",
 		"kuerzelKunde": "3.4-04",
 		"description": "Neue Grenzgängerbewilligungen nach Branche",
@@ -33060,13 +33060,13 @@
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-10-18T17:53:33.3333",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Grenzgänger",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.1 Grenzgänger",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Branche Beratung, Planung, Forschung, Immobilien und IT weist den grössten Anteil von erteilten Grenzgängerbewilligungen in Basel-Stadt auf. 2017 wurden 2 820 neue Bewilligungen erteilt. Der Anteil an allen beträgt 53,6%. Zehn Jahre zuvor lag er bei 23,9%. Die Anteile der meisten anderen Branchen wurden entsprechend kleiner. Jedes Jahr (ausser 2008) wurden zwischen 5 000 und 6 000 Grenzgängerbewilligungen erteilt. Es sind auch Bewilligungen enthalten, die erneuert wurden.",
-		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Die Zahl umfasst neuerteilte und erneuererte Grenzgängerbewilligungen.",
+		"lesehilfe": "Die Branche Beratung, Planung, Forschung, Immobilien und IT weist den grössten Anteil von erteilten Grenzgängerbewilligungen in Basel-Stadt auf. 2018 wurden 2 729 neue Bewilligungen erteilt. Der Anteil an allen beträgt 56,3%. Zehn Jahre zuvor lag der Anteil bei 32,5%. Insgesamt wurden 2018 rund 4 800 neue Grenzgängerbewilligungen erteilt, 7,9% weniger als im Vorjahr. Darunter sind auch Bewilligungen enthalten, die erneuert wurden.",
+		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Die Zahl umfasst die vom Staatssekretariat für Migration neuerteilten und erneuerten Grenzgängerbewilligungen.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -33078,9 +33078,13 @@
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7003,
+		"chart-id": 7003,
+		"filter": "",
 		"id": 7003
 	},
 	{
@@ -33096,12 +33100,12 @@
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Grenzgänger",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.1 Grenzgänger",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In allen Gruppen sind 2017 mehr Grenzgänger tätig als zehn Jahre zuvor. Besonders gross ist der relative Zuwachs seit 2007 bei Frauen aus Deutschland (+39,2%). Von den 36 000 Grenzgängern in Basel-Stadt sind 40,5% Frauen. Vor zehn Jahren betrug dieser Anteil 38,7%.",
+		"lesehilfe": "In allen Gruppen sind 2018 mehr Grenzgänger tätig als zehn Jahre zuvor. Besonders gross ist der relative Zuwachs seit 2009 bei Frauen aus Deutschland (+33,7%). Von den 34 400 Grenzgängern in Basel-Stadt sind 40,6% Frauen. Insgesamt kommen rund 54% der Grenzgänger- und Grenzgängerinnen in Basel-Stadt aus Frankreich, knapp 46% aus Deutschland.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -33114,9 +33118,13 @@
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7004,
+		"chart-id": 7004,
+		"filter": "",
 		"id": 7004
 	},
 	{
@@ -33132,12 +33140,12 @@
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Grenzgänger",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.1 Grenzgänger",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Grenzgänger mit einem Alter von über 54 Jahren stellen aktuell mit 18,4% (6 613 Personen) den grössten Anteil in Basel-Stadt. Es folgt die Gruppe der 50- bis 54-Jährigen (15,5%, 5 559). Unter 25 Jahre sind nur 4,7% der Grenzgänger (1 702). In den letzten zehn Jahren hat sich die Zahl der Grenzgänger in zwei Altersgruppen zurückentwickelt (35-39 und 40-44 Jahre). In allen anderen Gruppen wurde ein Zuwachs verzeichnet. Gegenüber dem Vorjahr verzeichneten zum 4. Quartal 2017 vor allem die beiden höheren Altersklassen einen Zuwachs.",
+		"lesehilfe": "Grenzgänger mit einem Alter von über 54 Jahren stellen aktuell mit 17,5% (6 030 Personen) den grössten Anteil in Basel­Stadt. In fast allen Altersgruppen gibt es mehr Grenzgänger als vor zehn Jahren. In den letzten Quartalen ist insgesamt ein leichter Rückgang zu verzeichnen. Er fiel gegenüber dem dritten Quartal 2017 mit 8,0% in der Gruppe der Personen über 54 Jahre am stärksten aus.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -33150,9 +33158,13 @@
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7005,
+		"chart-id": 7005,
+		"filter": "",
 		"id": 7005
 	},
 	{
@@ -33168,12 +33180,12 @@
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Grenzgänger",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.1 Grenzgänger",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den abgebildeten Branchen blieb die Zahl der Grenzgänger in den letzten zehn Jahren relativ konstant. Beim Baugewerbe fällt das aussergewöhnliche Jahr 2008 auf. In der Branche Chemie und Pharma wurden zum Ende des 4. Quartals 2017 6 887 Grenzgänger gezählt, 4,3% weniger als ein Jahr zuvor.",
+		"lesehilfe": "Nach einer relativ konstanten Entwicklung in den lezten zehn Jahren ging die Zahl der Grenzgänger in den abgebildeten Branchen zuletzt leicht zurück. In der Branche Chemie und Pharma wurden zum Ende des 3. Quartals 2018 6 397 Grenzgänger gezählt, 8,0% weniger als ein Jahr zuvor.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -33186,9 +33198,13 @@
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7006,
+		"chart-id": 7006,
+		"filter": "",
 		"id": 7006
 	},
 	{
@@ -33204,12 +33220,12 @@
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Grenzgänger",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.1 Grenzgänger",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Etwas zurückentwickelt hat sich in den letzten Jahren die Zahl der Grenzgänger in der Branche Handel und Reparatur. Sie betrug 2017 zum Ende des 4. Quartals 3 224 (-5,0% gegenüber Vorjahr). Mehr Grenzgänger als früher arbeiten in der Branche Information und Kommunikation, aktuell 1 374 (+5,6% gegenüber Vorjahr). Im Gastgewerbe sowie in der Branche Verkehr und Lagerei gingen die Zahlen in den letzten Jahren etwas zurück.",
+		"lesehilfe": "In der Branche Information und Kommunikation arbeiteten im 3. Quartal 2018 1,5% mehr Grenzgänger als ein Jahr zuvor, 1 400 Personen. In den drei anderen Branchen ging die Zahl zurück, relativ am stärksten im Gastbewerbe mit 9,6% (aktuell 912 Personen).",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -33222,9 +33238,13 @@
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7007,
+		"chart-id": 7007,
+		"filter": "",
 		"id": 7007
 	},
 	{
@@ -33240,12 +33260,12 @@
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Grenzgänger",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.1 Grenzgänger",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Alle betrachteten Kantone verzeichneten in den letzten zehn Jahren einen Anstieg an ausländischen Grenzgängern. In Basel-Stadt beträgt der Zuwachs 19,7%, von ca. 30 000 auf fast 36 000 Personen. Gegenüber dem Vorjahr blieb der Wert praktisch konstant. In der gesamten Schweiz arbeiteten zum Ende des 4. Quartals 2017 über 318 000 Grenzgänger, 52,7% mehr als 2007.",
+		"lesehilfe": "Alle betrachteten Kantone verzeichneten seit 2009 einen Anstieg an ausländischen Grenzgängern. In Basel-Stadt beträgt der Zuwachs 17,2%, von ca. 29 000 auf über 34 000 Personen. In den letzten Quartalen ist ein leichter Rückgang zu beobachten. In Basel-Stadt betrug er gegenüber dem dritten Quartal 2017 4,1%. In der gesamten Schweiz arbeiteten akutell über 312 000 Grenzgänger, 43,3% mehr als 2009.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -33258,9 +33278,13 @@
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7008,
+		"chart-id": 7008,
+		"filter": "",
 		"id": 7008
 	},
 	{
@@ -33276,12 +33300,12 @@
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.1 Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Basel-Stadt weist mit Abstand das höchste nominale BIP pro Kopf auf. Im Jahr 2016 beträgt es ca. 165 000 Franken. Dies sind 3,9% mehr als 2007 und 0,8% mehr als 2015. Der Schweizer Durchschnitt beträgt 2016 ca. 77 000 Franken.",
+		"lesehilfe": "Basel-Stadt weist mit Abstand das höchste nominale BIP pro Kopf auf. Im Jahr 2017 beträgt es ca. 174 000 Franken. Dies sind 5,5% mehr als 2008 und 0,3% mehr als 2016. Der Schweizer Durchschnitt beträgt 2017 ca. 79 000 Franken.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -33294,17 +33318,21 @@
 		"quellenangabe": [
 			"BAK Economics"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7009,
+		"chart-id": 7009,
+		"filter": "",
 		"id": 7009
 	},
 	{
-		"title": "Wachstumsrate des realen BIP nach Kanton",
-		"subtitle": "Veränderungsrate gegenüber Vorjahr",
+		"title": "Wachstumsrate des realen BIP gegenüber Vorjahr",
+		"subtitle": "nach Kanton",
 		"kuerzel": "I.04.2.07010",
 		"kuerzelKunde": "3.1-02",
-		"description": "Wachstumsrate des realen BIP nach Kanton",
+		"description": "Wachstumsrate des realen BIP gegenüber Vorjahr",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
 		"kennzahlenset": "Arbeitsmarkt (Print)",
@@ -33313,12 +33341,12 @@
 			"Schweiz"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.1 Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das baselstädtische reale BIP ist 2016 gegenüber dem Vorjahr um 2,3% gewachsen und liegt damit vor den Vergleichskantonen. Der Schweizer Durchschnitt beträgt 1,3%.",
+		"lesehilfe": "Das baselstädtische reale BIP ist 2017 gegenüber dem Vorjahr um 3,4% gewachsen und liegt damit vor den Vergleichskantonen. Der Schweizer Durchschnitt beträgt 1,6%.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -33331,9 +33359,13 @@
 		"quellenangabe": [
 			"BAK Economics"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7010,
+		"chart-id": 7010,
+		"filter": "",
 		"id": 7010
 	},
 	{
@@ -33350,12 +33382,12 @@
 			"Schweiz"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.1 Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In Basel-Stadt hat vor allem die Branche Chemie und Pharma einen grossen Anteil an der nominalen Wertschöpfung des Jahres 2016. Er beträgt 36,0%. Die Branche Beratung, Planung, Forschung und Immobilien folgt mit 12,8%, vor den Finanz- und Versicherungsdienstleistungen mit 10,3%. In Basel-Landschaft ist die Branche Handel und Reparatur mit 18,8% am grössten, im Aargau die Industrie (exkl. Chemie und Pharma) mit 24,1% und in Zürich die Finanz- und Versicherungsdienstleistungen mit 19,0%. Im Schweizer Durchschnitt liegt die Industrie mit 15,3% knapp vor der Branche Beratung, Planung, Forschung und Immobilien mit 15,2%. Die Branche Öffentliche Verwaltung und Sozialversicherungen enthält in dieser Abbildung auch die staatlichen Bildungsinstitutionen.",
+		"lesehilfe": "In Basel-Stadt hat vor allem die Branche Chemie und Pharma einen grossen Anteil an der nominalen Wertschöpfung des Jahres 2017. Er beträgt 41,4%. Die Branche Beratung, Planung, Forschung und Immobilien folgt mit 13,1%, vor den Finanz- und Versicherungsdienstleistungen mit 9,1%. In Basel-Landschaft ist die Branche Handel und Reparatur mit 18,8% am grössten, im Aargau die Industrie (exkl. Chemie und Pharma) mit 20,3% und in Zürich die Branche Beratung, Planung, Forschung und Immobilien mit 18,3%. Diese Branche ist auch im Schweizer Durchschnitt mit 15,1% die grösste. Die Branche Öffentliche Verwaltung und Sozialversicherungen enthält in dieser Abbildung auch die staatlichen Bildungsinstitutionen.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -33368,14 +33400,18 @@
 		"quellenangabe": [
 			"BAK Economics"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7011,
+		"chart-id": 7011,
+		"filter": "",
 		"id": 7011
 	},
 	{
 		"title": "Wertschöpfungsentwicklung in Industrie und Baugewerbe",
-		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2007 = 100)",
+		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2008 = 100)",
 		"kuerzel": "I.04.2.07012",
 		"kuerzelKunde": "3.1-04",
 		"description": "Wertschöpfungsentwicklung in Industrie und Baugewerbe",
@@ -33386,12 +33422,12 @@
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.1 Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit dem Jahr 2007 ist die reale Wertschöpfung der Pharmazeutischen Industrie um 47,6% gewachsen. Gegenüber dem Vorjahr beträgt das Plus 4,3%. Die Industrie sowie das Baugewerbe kommen zwischen 2007 und 2016 auf Werte von 10,1% und 12,1% (gegenüber Vorjahr +2,7% und +1,0%).",
+		"lesehilfe": "Seit dem Jahr 2008 hat sich die reale Wertschöpfung der Pharmazeutischen Industrie mehr als verdoppelt. 2017 beträgt der Zuwachs gegenüber dem Vorjahr 6,2%. Bei der Industrie beträgt die Zunahme zwischen 2008 und 2017 insgesamt 80,3% (gegenüber Vorjahr +5,8%) und beim Baugewerbe 16,4% (+1,7%).",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -33404,14 +33440,18 @@
 		"quellenangabe": [
 			"BAK Economics"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7012,
+		"chart-id": 7012,
+		"filter": "",
 		"id": 7012
 	},
 	{
 		"title": "Wertschöpfungsentwicklung im Dienstleistungssektor (I)",
-		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2007 = 100)",
+		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2008 = 100)",
 		"kuerzel": "I.04.2.07013",
 		"kuerzelKunde": "3.1-05",
 		"description": "Wertschöpfungsentwicklung im Dienstleistungssektor (I)",
@@ -33422,12 +33462,12 @@
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.1 Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Während die Branche Handel und Reparatur (+24,7%) sowie das Gastgewerbe (+11,5%) zwischen 2007 und 2016 ein Wachstum der realen Wertschöpfung verzeichneten, bildete sich der Wert für die Branchen Verkehr und Lagerei (-8,6%) sowie Information und Kommunikation (-14,1%) zurück. Gegenüber dem Vorjahr waren die Veränderungen relativ gering.",
+		"lesehilfe": "Während die Branche Handel und Reparatur (+20,3%) sowie das Gastgewerbe (+2,1%) zwischen 2008 und 2017 ein Wachstum der realen Wertschöpfung verzeichneten, bildete sich der Wert für die Branchen Verkehr und Lagerei (-22,4%) sowie Information und Kommunikation (-21,6%) zurück. Gegenüber dem Vorjahr waren die Veränderungen relativ gering.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -33440,9 +33480,13 @@
 		"quellenangabe": [
 			"BAK Economics"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7013,
+		"chart-id": 7013,
+		"filter": "",
 		"id": 7013
 	},
 	{
@@ -33458,13 +33502,13 @@
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Arbeitslosigkeit",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.3 Arbeitslosigkeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Arbeitslosenquote der Personen zwischen 15 und 24 Jahren ist in der Regel höher als die Quote in der Gesamtbevölkerung und zeigt ausgeprägte Schwankungen. Im Dezember 2017 beträgt sie 4,0%, im August 2017 erreichte sie 4,8%. Im Durchschnitt 2017 lag sie bei 4,2% (2016: 4,5%). Eine im Vergleich zum Durchschnitt tiefere Arbeitslosenquote zeigt hingegen die Altersgruppe ab 50 Jahren. In dieser Altersgruppe liegt die Quote im Dezember 2017 bei 2,9% (3,4% vor Jahresfrist), im Jahresmittel lag sie bei 3,1%.",
-		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich mit der Anzahl Arbeitslosen geteilt durch die Erwerbspersonen.",
+		"lesehilfe": "Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) reduzierte sich von 4,2% im Jahresdurchschnitt 2017 auf 3,6% im Jahr 2018. Sie lag damit nur noch leicht über der durchschnittlichen Arbeitslosenquote aller Altersgruppen (3,4% 2018). Die Arbeitslosenquote der Personen über 50 Jahre ging 2018 vergleichsweise weniger stark zurück, lag mit 2,8% jedoch weiterhin deutlich unterhalb des Durchschnitts.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. März bis Mai 2018: Technische Umstellung in der Erfassung von arbeitslosen und nicht arbeitslosen Stellensuchenden. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -33476,9 +33520,13 @@
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7014,
+		"chart-id": 7014,
+		"filter": "",
 		"id": 7014
 	},
 	{
@@ -33494,13 +33542,13 @@
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Arbeitslosigkeit",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.3 Arbeitslosigkeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ausländer und Ausländerinnen sind über die ganze Zeit hinweg stärker von Arbeitslosigkeit betroffen als Schweizer und Schweizerinnen. Die Arbeitslosigkeit der ausländischen Männer ist ausserdem stark von saisonalen Schwankungen geprägt. Ende Dezember 2017 beträgt die Arbeitslosenquote der ausländischen Männer 5,9%, einen ganzen Prozentpunkt weniger als vor Jahresfrist. Auch die Arbeitslosenquoten der Schweizer Männer (3,0% Ende 2017), der Schweizer Frauen (2,5%) und der ausländischen Frauen (4,5%) sind gegenüber Ende 2016 leicht gesunken.",
-		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich mit der Anzahl Arbeitslosen geteilt durch die Erwerbspersonen.",
+		"lesehilfe": "Ausländerinnen und Ausländer sind stärker von Arbeitslosigkeit betroffen als Schweizerinnen und Schweizer. Die Arbeitslosigkeit der ausländischen Männer ist ausserdem stark von saisonalen Schwankungen geprägt. Ende Dezember 2018 beträgt die Arbeitslosenquote der ausländischen Männer 6,0% (im Sommer lag sie bei 4,4%). Gegenüber Dezember 2017 hat sie sich kaum verändert.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -33512,9 +33560,13 @@
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7015,
+		"chart-id": 7015,
+		"filter": "",
 		"id": 7015
 	},
 	{
@@ -33530,13 +33582,13 @@
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Arbeitslosigkeit",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.3 Arbeitslosigkeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In Basel-Stadt waren 2017 im Jahresdurchschnitt 3 726 Arbeitslose bei den RAV angemeldet. Davon waren 47% bzw. 1 733 Schweizer Nationalität. Bei den ausländischen Arbeitslosen ist die Zahl der Angehörigen der EU15/EFTA-Länder am grössten und zeigt auch die stärksten saisonalen Schwankungen. Im Durchschnitt 2017 kamen 993 Arbeitslose aus den EU15/EFTA-Ländern und 831 aus Drittstaaten. 170 Arbeitslose waren aus jenen Ländern, die seit 2004 der EU beigetreten sind. Alle Ländergruppen zeigen einen Rückgang gegenüber 2016.",
-		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich mit der Anzahl Arbeitslosen geteilt durch die Erwerbspersonen.",
+		"lesehilfe": "In Basel-Stadt waren 2018 im Jahresdurchschnitt 3 362 Arbeitslose bei den RAV angemeldet. Davon waren 46% Schweizer. 28% der Arbeitslosen waren Angehörige der EU15/EFTA-Länder. 22% der Arbeitslosen kamen 2018 aus Drittstaaten und 4% stammten aus jenen Ländern, die seit 2004 der EU beigetreten sind. Alle Ländergruppen zeigen einen Rückgang der Arbeitslosenzahlen gegenüber 2017.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -33548,9 +33600,13 @@
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7016,
+		"chart-id": 7016,
+		"filter": "",
 		"id": 7016
 	},
 	{
@@ -33566,12 +33622,12 @@
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Arbeitslosigkeit",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.3 Arbeitslosigkeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Baugewerbe sind die saisonalen Schwankungen am stärksten. Im Dezember 2017 sind hier 504 Personen arbeitslos (76 weniger als im Dezember 2016), im September waren es 254. In der Industrie (ohne Chemie, Pharma) sind im Dezember 2017 232 Personen arbeitslos, 94 weniger als ein Jahr zuvor. 105 Arbeitslose zählen im Dezember 2017 zur Chemisch-Pharmazeutischen Industrie (45 weniger als im Dezember 2016).",
+		"lesehilfe": "Im Baugewerbe sind die saisonalen Schwankungen am stärksten. Im Dezember 2018 sind hier 574 Personen arbeitslos (70 mehr als im Dezember 2017), im August waren es 252. Die Anzahl Arbeitslosen in der Industrie (ohne Chemie, Pharma) sowie in der Chemisch-Pharmazeutischen Industrie hat sich gegenüber dem Vorjahr kaum verändert und liegt Ende 2018 bei 230 bzw. 107 Personen.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -33584,9 +33640,13 @@
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7017,
+		"chart-id": 7017,
+		"filter": "",
 		"id": 7017
 	},
 	{
@@ -33602,12 +33662,12 @@
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Arbeitslosigkeit",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.3 Arbeitslosigkeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Arbeitslosen aus dem Handel ist seit Jahren relativ konstant und liegt im Dezember 2017 bei 362 Personen. Diejenige aus dem Gastgewerbe hat sich mit 289 Personen Ende 2017 im Vorjahresvergleich geringfügig erhöht (+12 Personen). Leicht rückläufig war die Arbeitslosenzahl im Bereich Verkehr und Lagerei (167 Personen Ende 2017) sowie in der Informatik und Kommunikation (77 Personen).",
+		"lesehilfe": "Die Anzahl Arbeitslosen aus dem Handel ist seit Jahren relativ konstant und liegt im Dezember 2018 bei 351 Personen. Diejenige aus dem Gastgewerbe (Dezember 2018: 273) ist gegenüber Ende 2017 um 6% zurückgegangen. Die Arbeitslosenzahlen aus den Bereichen Verkehr und Lagerei sowie Informatik und Kommunikation sind gegenüber Ende 2017 um 11% bzw. 25% gestiegen.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -33620,9 +33680,13 @@
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7018,
+		"chart-id": 7018,
+		"filter": "",
 		"id": 7018
 	},
 	{
@@ -33639,13 +33703,13 @@
 			"Schweiz"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Arbeitslosigkeit",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.3 Arbeitslosigkeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im Verlauf des vergangenen Jahres gesunken. Ende Dezember 2017 beträgt sie 3,8%, im Januar 2017 erreichte sie mit 4,2% den Höhepunkt der letzten fünf Jahre. Im Jahresdurchschnitt ging die Arbeitslosenquote von 3,9% im Jahr 2016 auf 3,8% im Jahr 2017 zurück. Gesunken ist die Arbeitslosenquote im vergangenen Jahr auch in den Vergleichskantonen Zürich, Basel-Landschaft und Aargau sowie in der Gesamtschweiz, wo sie im Mittel des Jahres 2017 bei 3,2% lag.",
-		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich mit der Anzahl Arbeitslosen geteilt durch die Erwerbspersonen.",
+		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im vergangenen Jahr weiter gesunken. Im Jahresdurchschnitt ging sie von 3,8% im Jahr 2017 auf 3,4% im Jahr 2018 zurück. In den Kantonen Zürich und Basel-Landschaft sowie in der Gesamtschweiz war der Rückgang noch stärker. Landesweit sank die Arbeitslosenquote im Jahresmittel von 3,2% 2017 auf 2,6% 2018.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. März bis Mai 2018: Technische Umstellung in der Erfassung von arbeitslosen und nicht arbeitslosen Stellensuchenden. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -33657,9 +33721,13 @@
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7019,
+		"chart-id": 7019,
+		"filter": "",
 		"id": 7019
 	},
 	{
@@ -33675,13 +33743,13 @@
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Zuwanderung",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.2 Zuwanderung",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zuwanderung von Erwerbstätigen liegt im Kanton Basel-Stadt im 4. Quartal 2017 bei 1 504 Personen. Im Gesamtjahr 2017 sind  7 188 ausländische Arbeitskräfte in den baselstädtischen Arbeitsmarkt zugewandert, was einem Anstieg um 1,4% gegenüber 2016 entspricht. Einen Rückgang der Zuwanderung verzeichneten 2017 die Kantone Aargau (-7,4%) und Zürich (-1,3%) sowie die Gesamtschweiz (-1,0%).",
-		"erlaeuterungen": "Die Ausländerstatistik liefert Informationen über die Zuwanderung in die erwerbstätige, ausländische Bevölkerung (erfasst im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst.",
+		"lesehilfe": "Die Zuwanderung von Erwerbstätigen liegt im Kanton Basel-Stadt im 4. Quartal 2018 bei 1 622 Personen. Im Gesamtjahr 2018 sind 7 620 ausländische Arbeitskräfte in den baselstädtischen Arbeitsmarkt zugewandert, was einem Anstieg um 6,0% gegenüber 2017 entspricht. Im Kanton Basel-Landschaft wurde ein Zuwachs um 11,1% registriert, während im Kanton Aargau ein Rückgang verzeichnet wurde (-2,3%).",
+		"erlaeuterungen": "Die Ausländerstatistik liefert Informationen über die Zuwanderung in die ausländische Bevölkerung (im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst (Bewilligungen von mehr als zwölf Monaten bzw. von maximal zwölf Monaten).",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -33693,9 +33761,13 @@
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7020,
+		"chart-id": 7020,
+		"filter": "",
 		"id": 7020
 	},
 	{
@@ -33711,13 +33783,13 @@
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-10-18T09:11:20.2020",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Zuwanderung",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.2 Zuwanderung",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im 4. Quartal 2017 sind es 929 zugewanderte erwerbstätige Männer und 575 Frauen. Der Anteil der Frauen an der Zuwanderung von Erwerbstätigen bewegt sich seit Jahren zwischen 35% und 40%. Die Zuwanderung von Männern erreichte im 1. Quartal 2017 mit 1 353 Personen einen Höchstwert in der betrachteten Periode.",
-		"erlaeuterungen": "Die Ausländerstatistik liefert Informationen über die Zuwanderung in die erwerbstätige, ausländische Bevölkerung (erfasst im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst.",
+		"lesehilfe": "Im 4. Quartal 2018 sind es 1 008 zugewanderte erwerbstätige Männer und 614 Frauen. Der Anteil der Frauen an der Zuwanderung von Erwerbstätigen bewegt sich seit Jahren zwischen 35% und 40%. Die Zuwanderung von Männern erreichte im 3. Quartal 2018 mit 1 401 Personen einen Höchstwert in der betrachteten Periode.",
+		"erlaeuterungen": "Die Ausländerstatistik liefert Informationen über die Zuwanderung in die ausländische Bevölkerung (im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst (Bewilligungen von mehr als zwölf Monaten bzw. von maximal zwölf Monaten).",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -33729,9 +33801,13 @@
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7021,
+		"chart-id": 7021,
+		"filter": "",
 		"id": 7021
 	},
 	{
@@ -33747,13 +33823,13 @@
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Zuwanderung",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.2 Zuwanderung",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von den nach Basel-Stadt zugewanderten Erwerbstätigen weisen in den letzten fünf Jahren durchschnittlich 44% eine B-Bewilligung auf (Bewilligung für fünf Jahre). Rund 8% besitzen eine L-Bewilligung für Kurzaufenthalter (L) für mehr als zwölf Monate, 25% eine Kurzaufenthaltsbewilligung (L) bis zwölf Monate und 9% eine Bewilligung bis vier Monate. Dazu kommen rund 12% Bewilligungen für Dienstleitungserbringer bis vier Monate und 1% übrige Bewilligungen.",
-		"erlaeuterungen": "Die Ausländerstatistik liefert Informationen über die Zuwanderung in die erwerbstätige, ausländische Bevölkerung (erfasst im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst.",
+		"lesehilfe": "Von den nach Basel-Stadt zugewanderten Erwerbstätigen weisen in den letzten drei Jahren durchschnittlich 43% eine B-Bewilligung auf (Bewilligung für fünf Jahre) und 7% eine Kurzaufenthaltsbewilligung L ab 12 Monate. Rund 21% besitzen eine Kurzaufenthaltsbewilligung L zwischen vier und zwölf Monaten, während 28% eine Bewilligungsart bis vier Monate erhalten.",
+		"erlaeuterungen": "Die Ausländerstatistik liefert Informationen über die Zuwanderung in die ausländische Bevölkerung (im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst (Bewilligungen von mehr als zwölf Monaten bzw. von maximal zwölf Monaten).",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -33765,9 +33841,13 @@
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7022,
+		"chart-id": 7022,
+		"filter": "",
 		"id": 7022
 	},
 	{
@@ -33783,13 +33863,13 @@
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Zuwanderung",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.2 Zuwanderung",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund zwei Drittel der Zuwanderung kommen aus den EU15/EFTA-Staaten (ca. 1 100 Personen pro Quartal in den letzten fünf Jahren). Die Zuwanderung aus den Ländern, die ab 2004 der EU beigetreten sind, macht ca. 13% der Gesamtzuwanderung aus. Rund 21% der zugewanderten Erwerbstätigen kommen aus Drittstaaten (ca. 390 Personen pro Quartal). Im 1. Quartal 2017 wurde hier ein Spitzenwert von 695 Bewilligungen für Angehörige aus Drittstaaten erreicht.",
-		"erlaeuterungen": "Die Ausländerstatistik liefert Informationen über die Zuwanderung in die erwerbstätige, ausländische Bevölkerung (erfasst im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst.",
+		"lesehilfe": "Rund zwei Drittel der Zuwanderung kommen aus den EU15/EFTA-Staaten (ca. 1 130 Personen pro Quartal in den letzten drei Jahren). Die Zuwanderung aus den Ländern, die ab 2004 der EU beigetreten sind, macht ca. 14-15% der Gesamtzuwanderung aus. Rund 20% der zugewanderten Erwerbstätigen kommen aus Drittstaaten (ca. 350 Personen pro Quartal). ACHTUNG: Spitzenwert EU seit 2004 kontrollieren!!!!",
+		"erlaeuterungen": "Die Ausländerstatistik liefert Informationen über die Zuwanderung in die ausländische Bevölkerung (im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst (Bewilligungen von mehr als zwölf Monaten bzw. von maximal zwölf Monaten).",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -33801,9 +33881,13 @@
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7023,
+		"chart-id": 7023,
+		"filter": "",
 		"id": 7023
 	},
 	{
@@ -33819,12 +33903,12 @@
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Zuwanderung",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.2 Zuwanderung",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zuwanderung von Erwerbstätigen mit einer Tätigkeit in der Chemischen und Pharmazeutischen Industrie in Basel-Stadt schwankt in den letzten zwei Jahren zwischen 270 und 450 Personen pro Quartal (im Gesamtjahr 2017 1 464 Personen). In der übrigen Industrie beträgt die Zuwanderung knapp 80 Personen pro Quartal. Im Baugewerbe ist die Zuwanderung auf weniger als 40 Personen pro Quartal gesunken.",
+		"lesehilfe": "Branchendaten kontrollieren",
 		"erlaeuterungen": "Die Ausländerstatistik liefert Informationen über die Zuwanderung in die erwerbstätige, ausländische Bevölkerung (erfasst im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -33837,9 +33921,13 @@
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7024,
+		"chart-id": 7024,
+		"filter": "",
 		"id": 7024
 	},
 	{
@@ -33855,12 +33943,12 @@
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Zuwanderung",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.2 Zuwanderung",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zuwanderung von Erwerbstätigen mit einer Beschäftigung in der Branche Handel und Reparatur im Kanton Basel-Stadt liegt bei rund 100 Personen pro Quartal. Im Gastgewerbe zeigt die Zuwanderung einen Rückgang auf ca. 60 Personen pro Quartal. Der Bereich Verkehr, Lagerei und Kommunikation liegt knapp darunter, mit rund 50 aus dem Ausland zugewanderten Personen pro Quartal.",
+		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
 		"erlaeuterungen": "Die Ausländerstatistik liefert Informationen über die Zuwanderung in die erwerbstätige, ausländische Bevölkerung (erfasst im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -33873,9 +33961,13 @@
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7025,
+		"chart-id": 7025,
+		"filter": "",
 		"id": 7025
 	},
 	{
@@ -33896,7 +33988,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Chemischen und Pharmazeutischen Industrie sind 2016 in Vollzeitäquivalente (VZÄ) umgerechnet 19 030 Beschäftigte tätig, was einem Wachstum von 0,9% gegenüber dem Vorjahr entspricht. In der Industrie (exkl. Chemie, Pharma) hat sich die Beschäftigung in VZÄ im gleichen Zeitraum kaum verändert, während das Baugewerbe einen Rückgang um 0,7% verzeichnet.",
+		"lesehilfe": "In der Chemischen und Pharmazeutischen Industrie sind 2016 in Vollzeitäquivalente (VZÄ) umgerechnet 19 030 Beschäftigte tätig, was einem Wachstum von 0,9% gegenüber dem Vorjahr entspricht. In der Industrie (exkl. Chemie, Pharma) hat sich die Beschäftigung in VZÄ im gleichen Zeitraum kaum verändert, während das Baugewerbe einen Rückgang um 0,7% verzeichnet.",
 		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit) in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode für die entsprechenden Jahre simuliert.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -33936,7 +34028,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Branche Handel und Reparatur verzeichnet zwischen 2015 und 2016 einen Rückgang der Beschäftigung in Vollzeitäquivalenten (VZÄ) um 2,3%. Ebenfalls rückläufig ist die Beschäftigung in VZÄ in den Branchen Verkehr und Lagerei mit -4,0% sowie Information und Kommunikation mit -3,5%. Das Gastgewerbe weist einen Rückgang der VZÄ um 2,7% im Vergleich zum Vorjahr auf.",
+		"lesehilfe": "Die Branche Handel und Reparatur verzeichnet zwischen 2015 und 2016 einen Rückgang der Beschäftigung in Vollzeitäquivalenten (VZÄ) um 2,3%. Ebenfalls rückläufig ist die Beschäftigung in VZÄ in den Branchen Verkehr und Lagerei mit -4,0%, Information und Kommunikation mit -3,5% und im Gastgewerbe mit -2,7%.",
 		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit) in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode für die entsprechenden Jahre simuliert.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -33976,7 +34068,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Kanton Basel-Stadt waren 2016 190 681 Beschäftigte tätig, was 151 362 Vollzeitäquivalenten (VZÄ) entspricht. Die Zahl der VZÄ ist verglichen mit dem Vorjahr nahezu unverändert. Der Kanton Basel-Landschaft verzeichnet einen Rückgang der VZÄ um 0,2%, Zürich und Aargau einen Anstieg um 1,0% bzw. 1,1%.",
+		"lesehilfe": "Im Kanton Basel-Stadt waren 2016 190 681 Beschäftigte tätig, was 151 362 Vollzeitäquivalenten (VZÄ) entspricht. Die Zahl der VZÄ ist verglichen mit dem Vorjahr nahezu unverändert. Der Kanton Basel-Landschaft verzeichnet einen Rückgang der VZÄ um 0,2%, Zürich und Aargau registrieren einen Anstieg um 1,0% bzw. 1,1%.",
 		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit) in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode für die entsprechenden Jahre simuliert.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -34240,7 +34332,7 @@
 	},
 	{
 		"title": "Wertschöpfungsentwicklung im Dienstleistungssektor (II)",
-		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2007 = 100)",
+		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2008 = 100)",
 		"kuerzel": "I.04.2.07035",
 		"kuerzelKunde": "3.1-06",
 		"description": "Wertschöpfungsentwicklung im Dienstleistungssektor (II)",
@@ -34251,12 +34343,12 @@
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Bruttoinlandprodukt und Wertschöpfung",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.1 Bruttoinlandprodukt und Wertschöpfung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Alle abgebildeten Dienstleistungsbranchen verzeichneten seit dem Jahr 2007 einen Anstieg der realen Wertschöpfung: Am stärksten wuchs sie mit 29,1% in der Branche Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen (gegenüber Vorjahr +1,9%). Der in ihr enthaltene Bereich Personalvermittlung und         -überlassung verzeichnete einen Wert von +16,8% (gegenüber Vorjahr +1,9%). Die Branche Beratung, Planung und Forschung wies ein Plus von 26,5% (gegenüber Vorjahr +3,3%) auf, die Finanz- und Versicherungsdienstleistungen eines von 6,2% (gegenüber Vorjahr +1,6%).",
+		"lesehilfe": "Alle abgebildeten Dienstleistungsbranchen verzeichneten seit dem Jahr 2008 einen Anstieg der realen Wertschöpfung: Am stärksten wuchs sie mit 38,7% in der Branche Beratung, Planung und Forschung (gegenüber dem Vorjahr +1,9%). Die Branche Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen verzeichnet ein Plus von 25,3% (gegenüber Vorjahr +1,6%). Der in ihr enthaltene Bereich Personalvermittlung und -überlassung zeigt ein Wertschöpfungswachstum von 17,0% (gegenüber Vorjahr +1,9%). Die Finanz- und Versicherungsdienstleistungen weisen einen Wert von +14,3% auf (gegenüber Vorjahr +2,2%).",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -34269,14 +34361,18 @@
 		"quellenangabe": [
 			"BAK Economics"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7035,
+		"chart-id": 7035,
+		"filter": "",
 		"id": 7035
 	},
 	{
 		"title": "Wertschöpfungsentwicklung im Dienstleistungssektor (III)",
-		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2007 = 100)",
+		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2008 = 100)",
 		"kuerzel": "I.04.2.07036",
 		"kuerzelKunde": "3.1-07",
 		"description": "Wertschöpfungsentwicklung im Dienstleistungssektor (III)",
@@ -34292,7 +34388,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Branchen Gesundheits- und Sozialwesen (+26,5%) sowie Öffentliche Verwaltung und Sozialversicherungen (+14,5%) verzeichneten seit 2007 einen Zuwachs der realen Wertschöpfung (gegenüber Vorjahr +2,5% sowie +0,6%). Einen Rückgang hingegen gab es in den Branchen Erziehung und Unterricht (-9,7%) sowie Kultur und Unterhaltung (-8,3%) seit 2007 (gegenüber Vorjahr +2,8% sowie -4,3%). Die staatlichen Bildungsinstitutionen sind in dieser Abbildung in der Öffentlichen Verwaltung, und nicht in der Branche Erziehung und Unterricht enthalten.",
+		"lesehilfe": "Die Branchen Gesundheits- und Sozialwesen (+26,1%) sowie Öffentliche Verwaltung und Sozialversicherungen (+16,9%) verzeichneten seit 2008 einen Zuwachs der realen Wertschöpfung (gegenüber Vorjahr +3,2% sowie +0,4%). Einen Rückgang seit 2008 gibt es hingegen in den Branchen Erziehung und Unterricht (-16,9%) sowie Kultur und Unterhaltung (-33,9%) zu beobachten (gegenüber Vorjahr +1,5% sowie +2,5%). Die staatlichen Bildungsinstitutionen sind in dieser Abbildung in der Öffentlichen Verwaltung, und nicht in der Branche Erziehung und Unterricht enthalten.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -34305,9 +34401,13 @@
 		"quellenangabe": [
 			"BAK Economics"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7036,
+		"chart-id": 7036,
+		"filter": "",
 		"id": 7036
 	},
 	{
@@ -34323,12 +34423,12 @@
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Grenzgänger",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.1 Grenzgänger",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Branche Beratung, Planung, Forschung und Immobilien verzeichnet den grössten Anstieg der Grenzgängerzahl in den letzten zehn Jahren. Im 4. Quartal 2017 liegt sie bei 6 385 Personen. Gegenüber 2007 hat sich die Zahl fast verdreifacht. Im Vergleich zu 2016 beträgt das Plus 8,1%. Auch in der Branche Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen ist die Anzahl Grenzgänger seit 2007 stark gestiegen. Aktuell beträgt sie 2 350 Personen (+9,3% gegenüber Vorjahr). Ein ähnliches langfristiges Bild zeigt die Branche Personalvermittlung und -überlassung (2 232 Personen), mit einem Anstieg um 4,4% gegenüber dem Vorjahr.",
+		"lesehilfe": "Die Branche Beratung, Planung, Forschung und Immobilien verzeichnet den grössten Anstieg der Grenzgängerzahl in den letzten zehn Jahren. Im 4. Quartal 2018 liegt sie bei 6 434 Personen (+4,0% gegenüber dem dritten Quartal 2017. In den drei anderen Branchen ging die Zahl der Grenzgänger seit Jahresfrist leicht zurück. Nur die Finanz- und Versicherungsdienstleistungen verzeichnen einen Rückgang der Grenzgängerzahl seit 2009 (−20,6% auf 834 Personen).",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -34341,9 +34441,13 @@
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7037,
+		"chart-id": 7037,
+		"filter": "",
 		"id": 7037
 	},
 	{
@@ -34359,12 +34463,12 @@
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Grenzgänger",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.1 Grenzgänger",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Deutlich mehr Grenzgänger als 2007 arbeiten in der Branche Gesundheits- und Sozialwesen. Der aktuelle Wert beträgt 3 562 Personen, 2,0% mehr als im Vorjahr. In den anderen Dienstleistungsbranchen verlief die Entwicklung in den vergangenen Jahren relativ konstant. In den Branchen Erziehung und Unterricht sowie Kultur, Unterhaltung und persönliche Dienstleistungen sind die Werte 2017 gegenüber dem Vorjahr etwas zurückgegangen.",
+		"lesehilfe": "Relativ viele Grenzgänger arbeiten in der Branche Gesundheits- und Sozialwesen (3 524), 35,6% mehr als 2009. Im Vergleich zum Vorjahr ging die Anzahl um 1,2% zurück. Einen stärkeren Rückgang verzeichnet die Branche Erziehung und Unterricht (aktuell 594 Grenzgänger), gegenüber 2009 um 20,2%, genüber 2017 um 9,7%.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -34377,9 +34481,13 @@
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7038,
+		"chart-id": 7038,
+		"filter": "",
 		"id": 7038
 	},
 	{
@@ -34560,7 +34668,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Branchen Beratung, Planung, Forschung und Immobilien sowie Personalvermittlung und –überlassung verzeichnen zwischen 2015 und 2016 einen Anstieg der Beschäftigung in Vollzeitäquivalenten (VZÄ) um 0,8% bzw. 2,8%. Die Finanz- und Versicherungsdienstleistungen sowie die Branche Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen weisen einen Rückgang um 3,0% bzw. 0,5% auf.",
+		"lesehilfe": "Die Branchen Beratung, Planung, Forschung und Immobilien sowie Personalvermittlung und -überlassung verzeichnen zwischen 2015 und 2016 einen Anstieg der Beschäftigung in Vollzeitäquivalenten (VZÄ) um 0,8% bzw. 2,8%. Die Finanz- und Versicherungsdienstleistungen sowie die Branche Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen weisen einen Rückgang um 3,0% bzw. 0,5% auf.",
 		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit) in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode für die entsprechenden Jahre simuliert.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -34635,12 +34743,12 @@
 			"Kanton"
 		],
 		"aktualisierungsdatum": "2018-11-01T14:41:08.088",
-		"stufe1": "Übersicht Basler Arbeitsmarkt",
+		"stufe1": "2 Übersicht Basler Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund 22 000 Beschäftigte in Vollzeitäquivalenten (VZÄ) sind in Basel-Stadt 2016 im Gesundheits- und Sozialwesen tätig, was etwa 15% der Gesamtbeschäftigung entspricht. Im Vergleich zum Vorjahr bedeutet dies eine Steigerung von 3,4%. Je 19 000 VZÄ oder 13% der Gesamtbeschäftigung sind in der Dienstleistungsgruppe Beratung, Planung, Forschung, Immobilienwesen sowie in der Branche Chemische und Pharmazeutische Industrie tätig. Dabei ist Letztere mit 0,9% im Vergleich zum Vorjahr wie schon in den Jahren zuvor weiter gewachsen. Über 1,0% Wachstum verzeichneten die Branchen Öffentliche Verwaltung und Sozialversicherungen (+3,8%) sowie Personalvermittlung und -überlassung  (+2,8%). Geschrumpft sind insbesondere die Branchen Verkehr und Lagerei (-4,0%), Information und Kommunikation (-3,5%), Finanz- und Versicherungsdienstleistungen (-3,0%), Gastgewerbe (-2,7%) sowie Handel und Reparatur (-2,3%).",
+		"lesehilfe": "Rund 22 000 Beschäftigte in Vollzeitäquivalenten (VZÄ) sind in Basel-Stadt 2016 im Gesundheits- und Sozialwesen tätig, was etwa 15% der Gesamtbeschäftigung entspricht. Im Vergleich zum Vorjahr bedeutet dies eine Steigerung um 3,4%. Je 19 000 VZÄ oder 13% der Gesamtbeschäftigung sind in der Branche Beratung, Planung, Forschung, Immobilienwesen sowie in der Chemischen und Pharmazeutischen Industrie tätig. Dabei ist Letztere mit 0,9% im Vergleich zum Vorjahr wie schon in den Jahren zuvor weiter gewachsen. Über 1,0% Wachstum verzeichneten die Branchen Öffentliche Verwaltung und Sozialversicherungen (+3,8%) sowie Personalvermittlung und -überlassung (+2,8%). Geschrumpft sind insbesondere die Branchen Verkehr und Lagerei (-4,0%), Information und Kommunikation (-3,5%), Finanz- und Versicherungsdienstleistungen (-3,0%), Gastgewerbe (-2,7%) sowie Handel und Reparatur (-2,3%).",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit) in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -34653,16 +34761,20 @@
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7045,
+		"chart-id": 7045,
+		"filter": "",
 		"id": 7045
 	},
 	{
 		"title": "Arbeitslosenquote nach Branche",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.03.4.07046",
-		"kuerzelKunde": "2.2-01",
+		"kuerzelKunde": "2.1-02",
 		"description": "Arbeitslosenquote nach Branche",
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Arbeitslose",
@@ -34671,13 +34783,13 @@
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Übersicht Basler Arbeitsmarkt",
+		"stufe1": "2 Übersicht Basler Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die mittlere Arbeitslosenquote ist 2017 mit 11,1% im Baugewerbe am höchsten. Im Vergleich zum Vorjahr (12,7%) ist sie etwas gesunken. Ebenfalls hohe Arbeitslosenquoten finden sich 2017 im Gastgewerbe mit 8,1%, in der Dienstleistungssammelkategorie Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen, in der z. B. auch das Reinigungsgewerbe sowie der Gartenbau enthalten sind, mit 6,5% sowie in der Industrie (exkl. Chemie und Pharma) mit 5,5%. Am tiefsten sind die Arbeitslosenquoten in den Branchen Erziehung und Unterricht (2,1%), Chemie und Pharma (2,2%) sowie Öffentliche Verwaltung und Sozialversicherungen (2,7%). Die mittlere Arbeitslosigkeit in Basel-Stadt beträgt 2017 3,8%.",
-		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich mit der Anzahl Arbeitslosen geteilt durch die Erwerbspersonen.",
+		"lesehilfe": "Die mittlere Arbeitslosenquote ist 2018 mit 10,7% im Baugewerbe weiterhin am höchsten, jedoch gegenüber den Vorjahren rückläufig. Ebenfalls eine hohe Arbeitslosenquote weist mit 7,6% das Gastgewerbe auf. In der Dienstleistungsgruppe Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen, in der z. B. auch das Reinigungsgewerbe enthalten ist, liegt die Arbeitslosenquote 2018 bei 6,0%, in der Industrie (exkl. Chemie und Pharma) liegt sie bei 4,8%. In allen dargestellten Branchen ist die Arbeitslosigkeit 2018 zurückgegangen oder allenfalls gleich geblieben. Die mittlere Arbeitslosigkeit in Basel-Stadt beträgt im Jahresdurchschnitt 2018 3,4%.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -34689,16 +34801,20 @@
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7046,
+		"chart-id": 7046,
+		"filter": "",
 		"id": 7046
 	},
 	{
 		"title": "Grenzgänger pro Beschäftigen nach Branche",
-		"subtitle": "Basel-Stadt, pro besetzter Stelle",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.03.5.07047",
-		"kuerzelKunde": "2.3-01",
+		"kuerzelKunde": "2.1-03",
 		"description": "Grenzgänger pro Beschäftigen nach Branche",
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Ausländische Erwerbstätige",
@@ -34707,13 +34823,13 @@
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Übersicht Basler Arbeitsmarkt",
+		"stufe1": "2 Übersicht Basler Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Abbildung zeigt die Zahl der Grenzgänger im Vergleich zu den auf dem baselstädtischen Arbeitsmarkt besetzten Stellen. Beispielsweise kommen in der Branche Chemie und Pharma 2017 rund 35 Grenzgänger auf 100 Stellen (Beschäftigungsstand: 2015) in diesem Bereich. Die Grenzgänger spielen auch in der Personalvermittlung und -überlassung (31%), der Industrie (ohne Chemie und Pharma, 28%), im Bereich der Gebäudebetreuung, Sicherheit und sonstigen wirtschaftlichen Dienstleistungen (28%), der Information und Kommunikation (28%), der Beratung, Planung, Forschung und im Immobilienwesen (27%), dem Baugewerbe (22%) sowie dem Handel (21%) eine wichtige Rolle. Eine eher geringe Bedeutung haben die Grenzgänger in den Bereichen Erziehung und Unterricht (5%), Kultur, Unterhaltung und persönliche Dienstleistungen (7%), Finanz- und Versicherungsdienstleistungen (8%) sowie in der Branche Öffentliche Verwaltung und Sozialversicherungen (9%).",
-		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Beschäftigte (besetzte Stelle): Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
+		"lesehilfe": "Die Abbildung zeigt die Zahl der Grenzgänger im Vergleich zu den auf dem baselstädtischen Arbeitsmarkt besetzten Stellen. Beispielsweise kommen in der Branche Chemie und Pharma 2018 rund 32 Grenzgänger auf 100 Stellen (Beschäftigungsstand: 2015) in diesem Bereich. Die Grenzgänger spielen auch in der Personalvermittlung und -überlassung (30%), im Bereich der Gebäudebetreuung, Sicherheit und sonstigen wirtschaftlichen Dienstleistungen (28%), der Information und Kommunikation (29%), der Beratung, Planung, Forschung und im Immobilienwesen (27%), der Industrie (ohne Chemie und Pharma, 28%), im Baugewerbe (20%) sowie im Handel (20%) eine wichtige Rolle. In den anderen Branchen haben die Grenzgänger eine geringere Bedeutung.",
+		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Beschäftigte (besetzte Stelle): Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -34726,16 +34842,20 @@
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7047,
+		"chart-id": 7047,
+		"filter": "",
 		"id": 7047
 	},
 	{
 		"title": "Zuwanderung pro Beschäftigten nach Branche",
 		"subtitle": "Basel-Stadt, pro besetzter Stelle",
 		"kuerzel": "I.03.5.07048",
-		"kuerzelKunde": "2.3-02",
+		"kuerzelKunde": "2.1-04",
 		"description": "Zuwanderung pro Beschäftigten nach Branche",
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Ausländische Erwerbstätige",
@@ -34744,13 +34864,13 @@
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Übersicht Basler Arbeitsmarkt",
+		"stufe1": "2 Übersicht Basler Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Abbildung zeigt die jährlich zugewanderten Erwerbstätigen mit Arbeitsort Basel-Stadt im Vergleich zur bestehenden Beschäftigung im Kanton (Beschäftigungsstand: 2015). Dabei sind Dauer- und Kurzaufenthalter berücksichtigt. In der Branche Chemie und Pharma wanderten 2017 etwas über 7 erwerbstätige ausländische Personen auf 100 existierende Stellen in Basel-Stadt ein (Quote von 7%). Noch etwas höher ist die Quote mit 8% in der Sammelbranche Beratung, Planung, Forschung, Immobilien, IT und andere Dienstleistungen. Am geringsten ist die Zuwanderung im Vergleich zur bestehenden Beschäftigung in der Finanz- und Versicherungsbranche sowie in der Öffentlichen Verwaltung und Sozialversicherungen mit jeweils unter 1%.",
-		"erlaeuterungen": "Zugewanderte Erwerbstätige: Arbeitnehmende und Selbstständige mit Aufenthaltsbewilligung in der Schweiz (ständige und nichtständige Wohnbevölkerung), die in Basel-Stadt erwerbstätig sind. Beschäftigte (besetzte Stelle): Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
+		"lesehilfe": "In….",
+		"erlaeuterungen": "Zugewanderte Erwerbstätige mit Aufenthaltsbewilligung in der Schweiz (ständige und nichtständige Wohnbevölkerung), die in Basel-Stadt erwerbstätig sind. Beschäftigte (besetzte Stelle): Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten (im Jahr 2016).",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -34762,9 +34882,13 @@
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7048,
+		"chart-id": 7048,
+		"filter": "",
 		"id": 7048
 	},
 	{
@@ -34811,7 +34935,7 @@
 		"title": "Löhne nach Branche",
 		"subtitle": "Nordwestschweiz, Median in Franken",
 		"kuerzel": "I.03.3.07050",
-		"kuerzelKunde": "2.4-01",
+		"kuerzelKunde": "2.1-06",
 		"description": "Löhne nach Branche",
 		"thema": "03 Erwerbsleben",
 		"unterthema": "Löhne",
@@ -34820,7 +34944,7 @@
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Übersicht Basler Arbeitsmarkt",
+		"stufe1": "2 Übersicht Basler Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -34838,9 +34962,13 @@
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7050,
+		"chart-id": 7050,
+		"filter": "",
 		"id": 7050
 	},
 	{
@@ -34856,12 +34984,12 @@
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Arbeitslosigkeit",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.3 Arbeitslosigkeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bereich Beratung, Planung, Forschung, Immobilien sind die Arbeitslosenzahlen im Verlauf des Jahres 2017 auf 298 Personen zurückgegangen (-49 Personen). Im Bereich Gebäudebetreuung und Sicherheit verringerte sich die Zahl auf 237 Personen (-67 Personen). Bei den Finanz- und Versicherungs¬dienstleistungen sind in den letzten Jahren relativ konstante Werte von 120 bis 130 Arbeitslosen zu beobachten. Geringer ist die Zahl der Arbeitslosen aus der Branche Personalvermittlung und -überlassung, wobei der Wert Ende Dezember 2017 auf 61 Personen gestiegen ist.",
+		"lesehilfe": "In allen hier abgebildeten Dienstleistungen sind die Arbeitslosenzahlen im Dezember 2018 tiefer als im Dezember 2017. Im Bereich Beratung, Planung, Forschung, Immobilien sind Ende Dezember 2018 284 Personen arbeitslos (-2% gegenüber Ende 2017), im Bereich Gebäudebetreuung und Sicherheit 218 Personen (-8%).",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -34874,9 +35002,13 @@
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7051,
+		"chart-id": 7051,
+		"filter": "",
 		"id": 7051
 	},
 	{
@@ -34892,12 +35024,12 @@
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Arbeitslosigkeit",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.3 Arbeitslosigkeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Branche Gesundheits- und Sozialwesen zeigt die Zahl der Arbeitslosen seit Anfang 2016 eine steigende Tendenz. Ende Dezember 2017 liegt sie bei 380 Personen und damit um 42 Personen höher als im Vorjahr. Die Arbeitslosigkeit in den übrigen hier abgebildeten Branchen verläuft eher stabil. In der Branche Kultur und Unterhaltung sind Ende Dezember 2017 170 Personen arbeitslos, im Bereich Erziehung und Unterricht 154 Personen. Die Anzahl der Arbeitslosen aus der Öffentlichen Verwaltung (inkl. Sozialversicherungen) liegt bei 83 Personen.",
+		"lesehilfe": "Im Gesundheits- und Sozialwesen liegt die Zahl der Arbeitslosen Ende Dezember 2018 bei 326 Personen und damit um 14% tiefer als im Vorjahr. Die Arbeitslosenzahlen in den Bereichen Erziehung und Unterricht sowie Kultur und Unterhaltung sind 2018 ebenfalls rückläufig gewesen und liegen bei rund 150 Personen.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -34910,9 +35042,13 @@
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7052,
+		"chart-id": 7052,
+		"filter": "",
 		"id": 7052
 	},
 	{
@@ -34928,12 +35064,12 @@
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Zuwanderung",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.2 Zuwanderung",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der grösste Teil der zugewanderten Erwerbstätigen ist im Bereich Beratung, Planung, Forschung, Immobilien, IT und sonstige Dienstleistungen (inkl. Gebäudereinigung und Personalvermittlung) tätig. Mit rund 800 neuen Bewilligungen pro Quartal hat sich die Zuwanderung in diesem Bereich seit 2009 fast verdoppelt. Im 1. Quartal 2017 wurde ein Höchstwert von 1 056 neuen Bewilligungen erreicht. Diese breit gefasste Dienstleistungsgruppe kann nicht detaillierter ausgewiesen werden.",
+		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
 		"erlaeuterungen": "Die Ausländerstatistik liefert Informationen über die Zuwanderung in die erwerbstätige, ausländische Bevölkerung (erfasst im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -34946,9 +35082,13 @@
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7053,
+		"chart-id": 7053,
+		"filter": "",
 		"id": 7053
 	},
 	{
@@ -34964,12 +35104,12 @@
 			"Kanton"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Ausländische Erwerbstätige",
-		"stufe3": "Zuwanderung",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.2 Zuwanderung",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Gesundheits- und Sozialwesen sowie in der Branche Erziehung und Unterricht werden pro Quartal rund 100 neue Aufenthaltsbewilligungen für  Erwerbstätige erteilt. Zum Anfang des Schuljahres ist die Anzahl der neuen Bewilligungen im Unterrichtswesen jeweils höher als im Rest des Jahres. Im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen schwankt die Zuwanderung zwischen 60 und 170 Personen pro Quartal. Hier werden auch Vereine und religiöse Vereinigungen erfasst.",
+		"lesehilfe": "<bitte einen Kommentar oder Lesehilfe erfassen>",
 		"erlaeuterungen": "Die Ausländerstatistik liefert Informationen über die Zuwanderung in die erwerbstätige, ausländische Bevölkerung (erfasst im Arbeitskanton). Hier werden die Zuwanderung in die ständige und die Zuwanderung in die nichtständige erwerbstätige Bevölkerung zusammengefasst.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -34982,9 +35122,13 @@
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7054,
+		"chart-id": 7054,
+		"filter": "",
 		"id": 7054
 	},
 	{
@@ -35000,8 +35144,8 @@
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Löhne",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.5 Löhne",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -35018,9 +35162,13 @@
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7055,
+		"chart-id": 7055,
+		"filter": "",
 		"id": 7055
 	},
 	{
@@ -35036,8 +35184,8 @@
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Löhne",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.5 Löhne",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -35054,9 +35202,13 @@
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7056,
+		"chart-id": 7056,
+		"filter": "",
 		"id": 7056
 	},
 	{
@@ -35072,8 +35224,8 @@
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Löhne",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.5 Löhne",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -35090,9 +35242,13 @@
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7057,
+		"chart-id": 7057,
+		"filter": "",
 		"id": 7057
 	},
 	{
@@ -35108,8 +35264,8 @@
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Löhne",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.5 Löhne",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -35126,9 +35282,13 @@
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7058,
+		"chart-id": 7058,
+		"filter": "",
 		"id": 7058
 	},
 	{
@@ -35144,8 +35304,8 @@
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Löhne",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.5 Löhne",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -35162,9 +35322,13 @@
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7059,
+		"chart-id": 7059,
+		"filter": "",
 		"id": 7059
 	},
 	{
@@ -35180,8 +35344,8 @@
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Löhne",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.5 Löhne",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -35198,9 +35362,13 @@
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7060,
+		"chart-id": 7060,
+		"filter": "",
 		"id": 7060
 	},
 	{
@@ -35216,8 +35384,8 @@
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Löhne",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.5 Löhne",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -35234,9 +35402,13 @@
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7061,
+		"chart-id": 7061,
+		"filter": "",
 		"id": 7061
 	},
 	{
@@ -35252,8 +35424,8 @@
 			"Grossregion"
 		],
 		"aktualisierungsdatum": "",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Löhne",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.5 Löhne",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -35270,9 +35442,13 @@
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7062,
+		"chart-id": 7062,
+		"filter": "",
 		"id": 7062
 	},
 	{
@@ -35293,7 +35469,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2016 sind in Basel-Stadt von den 151 362 Beschäftigten in Vollzeitäquivalenten (VZÄ) rund 35% in grossen Arbeitsstätten (250 VZÄ und mehr) tätig. Im Kanton Basel-Landschaft liegt dieser Anteil bei 13%, in den Kantonen Aargau und Zürich fällt er mit 18% bzw. 24% ebenfalls tiefer aus als in Basel­Stadt.",
+		"lesehilfe": "Im Jahr 2016 sind in Basel-Stadt von den 151 362 Beschäftigten in Vollzeitäquivalenten (VZÄ) rund 35% in grossen Arbeitsstätten (250 VZÄ und mehr) tätig. Im Kanton Basel-Landschaft liegt dieser Anteil bei 13%, in den Kantonen Aargau und Zürich fällt er mit 18% bzw. 24% ebenfalls tiefer aus als in Basel-Stadt.",
 		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit) in Vollzeitstellen.",
 		"template": "befragungen001_print",
 		"darstellungsart": "Grafik",
@@ -35333,7 +35509,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bedeutend im Baunebengewerbe (NOGA 43) mit 6 100 Vollzeitäquivalenten (VZÄ) sind v. a. die Elektroinstallation (2 500 VZÄ), der Bereich Sanitär, Heizung und Lüftung (1 200 VZÄ) sowie die Malerei und Glaserei (900 VZÄ). Der Zuwachs der Beschäftigung in VZÄ gegenüber dem Jahr 2011 beträgt im Baunebengewerbe rund 5%.",
+		"lesehilfe": "Bedeutend im Baunebengewerbe (NOGA 43) mit 6 100 Vollzeitäquivalenten (VZÄ) sind v. a. die Elektroinstallation (2 500 VZÄ), der Bereich Sanitär, Heizung und Lüftung (1 200 VZÄ) sowie die Malerei und Glaserei (900 VZÄ). Der Zuwachs der Beschäftigung in VZÄ gegenüber dem Jahr 2011 beträgt im Baunebengewerbe rund 5%.",
 		"erlaeuterungen": "",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -35494,7 +35670,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Beschäftigung im Detailhandel (NOGA 47) ist seit einigen Jahren rückläufig. 2016 lag sie bei rund 7000 Vollzeitäquivalenten (2011: 8 000). Rund 2 000 VZÄ sind im Bereich Waren verschiedener Art tätig, welcher insbesondere die Supermärkte umfasst. Es folgen Bekleidung und Schuhe (1 100 VZÄ), Apotheken und Kosmetik (900 VZÄ) sowie Bücher, Sport und Spielwaren (600 VZÄ).",
+		"lesehilfe": "Die Beschäftigung im Detailhandel (NOGA 47) ist seit einigen Jahren rückläufig. 2016 lag sie bei rund 7 000 Vollzeitäquivalenten (2011: 8 000). Rund 2 000 VZÄ sind im Bereich Waren verschiedener Art tätig, welcher insbesondere die Supermärkte umfasst. Es folgen Bekleidung und Schuhe (1 100 VZÄ), Apotheken und Kosmetik (900 VZÄ) sowie Bücher, Sport und Spielwaren (600 VZÄ).",
 		"erlaeuterungen": "",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -35655,7 +35831,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund 3 500 Vollzeitäquivalente sind 2016 in der Branche Landverkehr (NOGA 49) beschäftigt. Dies sind 600 weniger als 2014, wobei praktisch der gesamte Rückgang auf die Güterbeförderung auf der Schiene zurückzuführen ist. Bedeutend sind mit je rund 1 000 VZÄ die Personenbeförderung auf der Schiene die Personenbeförderung im Nahverkehr (ohne Taxis) sowie die Güterbeförderung im Strassenverkehr mit 800 VZÄ. Der Betrieb von Taxis macht rund 400 VZÄ aus.",
+		"lesehilfe": "Rund 3 500 Vollzeitäquivalente sind 2016 in der Branche Landverkehr (NOGA 49) beschäftigt. Dies sind 600 weniger als 2014, wobei praktisch der gesamte Rückgang auf die Güterbeförderung auf der Schiene zurückzuführen ist. Bedeutend sind mit je rund 1 000 VZÄ die Personenbeförderung auf der Schiene die Personenbeförderung im Nahverkehr (ohne Taxis) sowie die Güterbeförderung im Strassenverkehr mit 800 VZÄ. Der Betrieb von Taxis macht rund 400 VZÄ aus.",
 		"erlaeuterungen": "",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -35816,7 +35992,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bereich IT-Dienstleistungen (NOGA 62 und 63) sind im Jahr 2016 in Basel-Stadt rund 2 200 Beschäftigte in Vollzeitäquivalente beschäftigt, ein Rückgang von rund 500 VZÄ im Vergleich zum Höchststand 2013. Die Beschäftigung teilt sich insbesondere auf Programmierungstätigkeiten und IT-Beratung mit im Jahr 2016 je rund 1 000 VZÄ auf.",
+		"lesehilfe": "Im Bereich IT-Dienstleistungen (NOGA 62 und 63) sind im Jahr 2016 in Basel-Stadt rund 2 200 Beschäftigte in Vollzeitäquivalente beschäftigt, ein Rückgang von rund 500 VZÄ im Vergleich zum Höchststand 2013. Die Beschäftigung teilt sich insbesondere auf Programmierungstätigkeiten und IT-Beratung mit im Jahr 2016 je rund 1 000 VZÄ auf.",
 		"erlaeuterungen": "",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -35977,7 +36153,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Beschäftigung in der Branche Architektur- und Ingenieurbüros (NOGA 71) liegt im Jahr 2016 bei rund 5000 Vollzeitäquivalenten (VZÄ) und ist damit leicht tiefer als im Vorjahr (2015: 5100 VZÄ). Zuvor war die Beschäftigung seit 2011 um rund 900 VZÄ gestiegen.",
+		"lesehilfe": "Die Beschäftigung in der Branche Architektur- und Ingenieurbüros (NOGA 71) liegt im Jahr 2016 bei rund 5 000 Vollzeitäquivalenten (VZÄ) und ist damit leicht tiefer als im Vorjahr (2015: 5 100 VZÄ). Zuvor war die Beschäftigung seit 2011 um rund 900 VZÄ gestiegen.",
 		"erlaeuterungen": "",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -36138,7 +36314,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bereich Personalvermittlung und -überlassung (NOGA 78) sind 2016 in Basel-Stadt rund 6 300 Beschäftigte in Vollzeitäquivalenten tätig, ein Anstieg von rund 200 VZÄ im Vergleich zum Vorjahr. Die Mehrheit der Beschäftigten stammt mit rund 5 500 VZÄ im Jahr 2016 aus dem Bereich Befristete Überlassung von Arbeitskräften.",
+		"lesehilfe": "Im Bereich Personalvermittlung und -überlassung (NOGA 78) sind 2016 in Basel-Stadt rund 6 300 Beschäftigte in Vollzeitäquivalenten tätig, ein Anstieg von rund 200 VZÄ im Vergleich zum Vorjahr. Die Mehrheit der Beschäftigten stammt mit rund 5 500 VZÄ im Jahr 2016 aus dem Bereich Befristete Überlassung von Arbeitskräften.",
 		"erlaeuterungen": "",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -36299,7 +36475,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund 841 Beschäftigte in Vollzeitäquivalenten (VZÄ) sind im Jahr 2016 in der Branche Wach- und Sicherheitsdienste (NOGA 80) tätig. Diese sind fast ausschliesslich im Bereich Private Wach- und Sicherheitsdienste tätig. Die gesamte Branche konnte seit 2011 einen Zuwachs von 250 VZÄ verzeichnen, was einem Wachstum von 42% entspricht.",
+		"lesehilfe": "Rund 800 Beschäftigte in Vollzeitäquivalenten (VZÄ) sind im Jahr 2016 in der Branche Wach- und Sicherheitsdienste (NOGA 80) tätig. Diese sind fast ausschliesslich im Bereich Private Wach- und Sicherheitsdienste tätig. Die gesamte Branche konnte seit 2011 einen Zuwachs von rund 250 VZÄ verzeichnen, was einem Wachstum von 42% entspricht.",
 		"erlaeuterungen": "",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -36460,7 +36636,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund 7 900 Beschäftigte in Vollzeitäquivalenten (VZÄ) sind im Jahr 2016 im Bereich Heime und Sozialwesen (NOGA 87 und 88) tätig. Das sind etwa 200 VZÄ mehr als im Vorjahr. Bedeutend sind mit 3 300 VZÄ die Pflegeheime, mit 1 100 VZÄ die Tagesbetreuung von Kindern und mit 700 VZÄ die soziale Betreuung älterer Menschen und Behinderter.",
+		"lesehilfe": "Rund 7 900 Beschäftigte in Vollzeitäquivalenten (VZÄ) sind im Jahr 2016 im Bereich Heime und Sozialwesen (NOGA 87 und 88) tätig. Das sind etwa 200 VZÄ mehr als im Vorjahr. Bedeutend sind mit 3 300 VZÄ die Pflegeheime, mit 1 100 VZÄ die Tagesbetreuung von Kindern und mit 700 VZÄ die soziale Betreuung älterer Menschen und Behinderter.",
 		"erlaeuterungen": "",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
