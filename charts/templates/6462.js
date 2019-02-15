@@ -15,7 +15,7 @@
             return this.value.replace("/", "<br/>");
         },
         style: { 
-		//	textOverflow: 'none' // prevents ellipsis
+			textOverflow: 'none' // prevents ellipsis
 		} 
     },
   },
