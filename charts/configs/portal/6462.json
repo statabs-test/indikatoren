@@ -190,13 +190,12 @@
     },
     "labels": {
       "style": {
-        "color": "#000000",
-        "textOverflow": "none"
+        "color": "#000000"
       },
       "align": "left",
       "x": -180,
       "formatter": function () {
-            return this.value.replace("/", "<br/>")
+            return this.value.replace("/", "<br/>");
         }
     },
     "tickLength": 0
@@ -287,9 +286,10 @@
       },
       "format": "{value}%",
       "formatter": function (){
-        return Highcharts.numberFormat((this.value*100),1)+'%'; 
+        return Highcharts.numberFormat((this.value*100), 0)+'%'; 
       }
-    }
+    },
+    "tickInterval": 0.02
   },
   "navigation": {
     "menuItemStyle": {
