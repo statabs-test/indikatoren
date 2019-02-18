@@ -6,9 +6,12 @@
       plotOptions: {
     
         series: {
+            allowPointSelect: false,
             point: {
                 events: {
-                    legendItemClick: function () {
+                    legendItemClick: function (event) {
+                        event.preventDefault();
+                        /*
                         var id = this.id,
                             data = this.series.chart.series[0].data;
                         $.each(data, function (i, point) {
@@ -19,8 +22,8 @@
                                 else
                                     point.setVisible(true);
                             }
-
                         });
+                        */
                     }
                 }
             }
@@ -37,6 +40,16 @@
 		}
       },
       "series": [{
+          data: {
+                series: [
+              {ParentId: '1',
+          },{
+              ParentId: '2',
+          },{
+              ParentId: '3',
+          },{
+              ParentId: '4',
+          }]},
           
             showInLegend: false,
             type: 'pie',
@@ -52,15 +65,16 @@
            
         ],
       }, {
-            point: [{
-              id: '1',
+            data: {
+                series: [
+              {id: '1',
           },{
               id: '2',
           },{
               id: '3',
           },{
               id: '4',
-          }],
+          }]},
             showInLegend: true,
             type: 'pie',
             innerSize: '70%',
