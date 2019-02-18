@@ -2190,8 +2190,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Medianlohn in der Privatwirtschaft nach Bewilligungsart",
-		"subtitle": "In Franken, Nordwestschweiz, Stand: 2014",
-		"kuerzel": "I.03.3.06525",
+		"subtitle": "in Franken, Nordwestschweiz, 2016",
+		"kuerzel": "I.03.3.6525",
 		"kuerzelKunde": "3.5-04",
 		"description": "Medianlohn in der Privatwirtschaft nach Bewilligungsart",
 		"thema": "03 Erwerbsleben",
@@ -2200,27 +2200,34 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Löhne",
+		"aktualisierungsdatum": "",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.5 Löhne",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Ergebnisse der LSE nach Herkunft und Aufenthaltsbewilligung  liegen lediglich für die Privatwirtschaft vor, wo der Medianlohn bei 6 450 Franken liegt. Höhere Löhne verdienen die Grenzgänger (6 720 Franken) und die Schweizer (6 632 Franken), während die Niedergelassenen und die Aufenthalter knapp unter 6 000 Franken verdienen. Der Medianlohn der Kurzaufenthalter beträgt 5 350 Franken.",
+		"lesehilfe": "Die Ergebnisse der LSE nach Herkunft und Aufenthaltsbewilligung liegen lediglich für die Privatwirtschaft vor, wo der Bruttoedianlohn bei 6 498 Franken pro Monat liegt. Höhere Löhne verdienen die Grenzgänger (6 655 Franken) und die Schweizer (6 644 Franken), während die Niedergelassenen und die Aufenthalter knapp über 6 000 Franken verdienen. Der Medianlohn der Kurzaufenthalter ist am tiefsten (5 582 Franken).",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "02_05_00_00_00_504",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7058"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6525,
-		"darstellungsart": "Grafik"
+		"data-id": 6525,
+		"chart-id": 6525,
+		"filter": "",
+		"id": 6525
 	},
 	{
 		"title": "Medianlohn in Industrie und Baugewerbe",
