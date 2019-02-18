@@ -84,6 +84,9 @@
 	  itemDistance: 0,
 	  "itemWidth": 170,
 	  "width": 340,
+	  labelFormatter: function(){ 
+	    return this.name.replace("Verhältnis Frauen/Männer (rechte Skala)","Verhältnis Frauen/Männer<br/>(rechte Skala)");
+	  },
 	  
     "itemStyle": {
       "fontWeight": "normal"
