@@ -109,7 +109,7 @@
           0.884
         ]
       ],
-      "name": "Verhältnis Frauen\u002FMänner",
+      "name": "Verhältnis Frauen\u002FMänner (rechte Skala)",
       "turboThreshold": 0
     }
   ],
@@ -255,8 +255,7 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left",
-    "itemWidth": 190
+    "align": "left"
   },
   "exporting": {
     "filename": 6523
