@@ -52,22 +52,22 @@
   ],
   "series": [
      
-  {"color": "#DC440E", "yAxis": 0,
+  {"color": "#DC440E", "yAxis": 0, legendIndex: 0,
   	tooltip: {
     pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
 	},  
   },
-  {"color": "#008AC3", "yAxis": 0,
+  {"color": "#008AC3", "yAxis": 0, legendIndex: 1,
   	tooltip: {
     pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
 	},  
   }, 
-  {"color": "#3C3C3C", "yAxis": 0,
+  {"color": "#3C3C3C", "yAxis": 0, legendIndex: 3,
   	tooltip: {
     pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
 	},  
   },
-  {"color": "#6F6F6F", "yAxis": 1, "type": "line", marker:{enabled: false},
+  {"color": "#6F6F6F", "yAxis": 1, legendIndex: 2, "type": "line", marker:{enabled: false},
   	tooltip: {
     pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}</b><br/>',
 	},  
@@ -82,7 +82,7 @@
     //"x": 25,
 	  //"y": 45,  
 	  itemDistance: 0,
-	  "itemWidth": 150,
+	  "itemWidth": 170,
 	  "width": 340,
 	  
     "itemStyle": {
