@@ -1,191 +1,188 @@
 {
   "series": [
     {
-      "color": "#990300",
+      "color": "#FABD24",
       "visible": true,
       "data": [
         [
-          "2017-12",
+          1512086400000,
           -36
         ],
         [
-          "2018-01",
+          1514764800000,
           -83
         ],
         [
-          "2018-02",
+          1517443200000,
           -35
         ],
         [
-          "2018-03",
+          1519862400000,
           -1
         ],
         [
-          "2018-04",
+          1522540800000,
           -83
         ],
         [
-          "2018-05",
+          1525132800000,
           -53
         ],
         [
-          "2018-06",
+          1527811200000,
           28
         ],
         [
-          "2018-07",
+          1530403200000,
           30
         ],
         [
-          "2018-08",
+          1533081600000,
           1
         ],
         [
-          "2018-09",
+          1535760000000,
           -38
         ],
         [
-          "2018-10",
+          1538352000000,
           165
         ],
         [
-          "2018-11",
+          1541030400000,
           55
         ],
         [
-          "2018-12",
+          1543622400000,
           -11
         ]
       ],
-      "name": "Saldo Geburten-Todesfälle",
-      "turboThreshold": 0
+      "name": "Saldo Geburten-Todesfälle"
     },
     {
-      "color": "#0F7399",
+      "color": "#923F8D",
       "visible": true,
       "data": [
         [
-          "2017-12",
+          1512086400000,
           -623
         ],
         [
-          "2018-01",
+          1514764800000,
           343
         ],
         [
-          "2018-02",
+          1517443200000,
           941
         ],
         [
-          "2018-03",
+          1519862400000,
           163
         ],
         [
-          "2018-04",
+          1522540800000,
           90
         ],
         [
-          "2018-05",
+          1525132800000,
           94
         ],
         [
-          "2018-06",
+          1527811200000,
           -198
         ],
         [
-          "2018-07",
+          1530403200000,
           -178
         ],
         [
-          "2018-08",
+          1533081600000,
           71
         ],
         [
-          "2018-09",
+          1535760000000,
           296
         ],
         [
-          "2018-10",
+          1538352000000,
           185
         ],
         [
-          "2018-11",
+          1541030400000,
           -116
         ],
         [
-          "2018-12",
+          1543622400000,
           -522
         ]
       ],
-      "name": "Saldo Zuzüge-Wegzüge",
-      "turboThreshold": 0
+      "name": "Saldo Zuzüge-Wegzüge"
     },
     {
-      "color": "#000000",
+      "color": "#C8C8C8",
       "visible": true,
       "data": [
         [
-          "2017-12",
+          1512086400000,
           429
         ],
         [
-          "2018-01",
+          1514764800000,
           -87
         ],
         [
-          "2018-02",
+          1517443200000,
           383
         ],
         [
-          "2018-03",
+          1519862400000,
           151
         ],
         [
-          "2018-04",
+          1522540800000,
           23
         ],
         [
-          "2018-05",
+          1525132800000,
           66
         ],
         [
-          "2018-06",
+          1527811200000,
           246
         ],
         [
-          "2018-07",
+          1530403200000,
           -357
         ],
         [
-          "2018-08",
+          1533081600000,
           416
         ],
         [
-          "2018-09",
+          1535760000000,
           7
         ],
         [
-          "2018-10",
+          1538352000000,
           18
         ],
         [
-          "2018-11",
+          1541030400000,
           89
         ],
         [
-          "2018-12",
+          1543622400000,
           178
         ]
       ],
-      "name": "Bereinigungen",
-      "turboThreshold": 0
+      "name": "Bereinigungen"
     }
   ],
   "xAxis": {
-    "type": "category",
-    "uniqueNames": true,
+    "type": "datetime",
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "uniqueNames": true,
     "title": {
       "style": {
         "color": "#000000"
@@ -194,9 +191,17 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "formatter": function () {
+              if (this.isFirst || this.isLast) {
+                return Highcharts.dateFormat('%b %y', this.value);
+              } else {
+                return Highcharts.dateFormat('%b', this.value);
+              }
+            }
     },
-    "tickLength": 0
+    "tickLength": 0,
+    "tickInterval": 2592000000
   },
   "chart": {
     "borderColor": "#fbfbfb",
@@ -281,9 +286,9 @@
       },
       "format": "{value:,.0f}"
     },
-    "max": 3500,
-    "tickInterval": 500,
-    "min": -1500
+    "max": 1000,
+    "tickInterval": 250,
+    "min": -1000
   },
   "navigation": {
     "menuItemStyle": {
@@ -317,8 +322,7 @@
     "align": "left"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": 7515
