@@ -1,0 +1,458 @@
+{
+  "series": [
+    {
+      "color": "rgb(191, 215, 236)",
+      "dataLabels": {
+        "enabled": false,
+        "y": 20,
+        "style": {
+          "inside": true,
+          "fontSize": "9px",
+          "color": "black",
+          "fontWeight": "normal"
+        }
+      },
+      "data": [
+        [
+          "Schweiz",
+          314033
+        ],
+        [
+          "Deutschland",
+          201941
+        ],
+        [
+          "Vereinigte Staaten",
+          90940
+        ],
+        [
+          "Vereinigtes Königreich",
+          78413
+        ],
+        [
+          "Frankreich",
+          48130
+        ],
+        [
+          "Italien",
+          41359
+        ],
+        [
+          "Spanien",
+          26997
+        ],
+        [
+          "Niederlande",
+          30835
+        ],
+        [
+          "Indien",
+          7511
+        ],
+        [
+          "China, Hongkong",
+          10582
+        ],
+        [
+          "Übrige Länder",
+          179601
+        ]
+      ],
+      "name": "Logiernächte 2009",
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(159, 196, 227)",
+      "dataLabels": {
+        "enabled": false,
+        "y": 20,
+        "style": {
+          "fontSize": "9px",
+          "color": "black",
+          "fontWeight": "normal"
+        }
+      },
+      "data": [
+        [
+          "Schweiz",
+          458003
+        ],
+        [
+          "Deutschland",
+          196545
+        ],
+        [
+          "Vereinigte Staaten",
+          142756
+        ],
+        [
+          "Vereinigtes Königreich",
+          95277
+        ],
+        [
+          "Frankreich",
+          60214
+        ],
+        [
+          "Italien",
+          47489
+        ],
+        [
+          "Spanien",
+          34777
+        ],
+        [
+          "Niederlande",
+          30305
+        ],
+        [
+          "Indien",
+          24492
+        ],
+        [
+          "China, Hongkong",
+          21023
+        ],
+        [
+          "Übrige Länder",
+          275618
+        ]
+      ],
+      "name": "Logiernächte 2018",
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(255, 102, 0)",
+      "type": "scatter",
+      "marker": {
+        "enabled": true,
+        "symbol": "diamond",
+        "radius": 4.8
+      },
+      "pointPlacement": -0.15,
+      "data": [
+        [
+          "Schweiz",
+          0.304785207
+        ],
+        [
+          "Deutschland",
+          0.195994146
+        ],
+        [
+          "Vereinigte Staaten",
+          0.088261956
+        ],
+        [
+          "Vereinigtes Königreich",
+          0.076103857
+        ],
+        [
+          "Frankreich",
+          0.046712645
+        ],
+        [
+          "Italien",
+          0.040141041
+        ],
+        [
+          "Spanien",
+          0.02620198
+        ],
+        [
+          "Niederlande",
+          0.029926956
+        ],
+        [
+          "Indien",
+          0.007289813
+        ],
+        [
+          "China, Hongkong",
+          0.010270376
+        ],
+        [
+          "Übrige Länder",
+          0.174312025
+        ]
+      ],
+      "name": "Marktanteile (rechte Skala) 2009",
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(201, 62, 13)",
+      "type": "scatter",
+      "marker": {
+        "enabled": true,
+        "symbol": "diamond",
+        "radius": 4.8
+      },
+      "pointPlacement": 0.15,
+      "data": [
+        [
+          "Schweiz",
+          0.330330566
+        ],
+        [
+          "Deutschland",
+          0.141756323
+        ],
+        [
+          "Vereinigte Staaten",
+          0.102961488
+        ],
+        [
+          "Vereinigtes Königreich",
+          0.068717684
+        ],
+        [
+          "Frankreich",
+          0.043428809
+        ],
+        [
+          "Italien",
+          0.034251016
+        ],
+        [
+          "Spanien",
+          0.0250826
+        ],
+        [
+          "Niederlande",
+          0.02185721
+        ],
+        [
+          "Indien",
+          0.017664636
+        ],
+        [
+          "China, Hongkong",
+          0.015162651
+        ],
+        [
+          "Übrige Länder",
+          0.198787017
+        ]
+      ],
+      "name": "Marktanteile (rechte Skala) 2018",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none",
+        "fontSize": "9px"
+      },
+      "rotation": 0
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 661.41732283,
+    "height": 207.87401575,
+    "spacingBottom": 18,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "column",
+    "spacingTop": 25,
+    "renderTo": "container-7544"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Logiernächte und Marktanteile am Übernachtungsvolumen 2009 und 2018"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": [
+    {
+      "tickAmount": 6,
+      "max": 500000,
+      "tickInterval": 100000,
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "lineColor": "#B9CFD7",
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "fontSize": "9px",
+          "color": "#000000"
+        }
+      }
+    },
+    {
+      "tickAmount": 6,
+      "opposite": true,
+      "min": 0,
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "lineColor": "#B9CFD7",
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "style": {
+          "fontSize": "9px",
+          "color": "#000000"
+        },
+        "formatter": function () {
+               return 100 * this.value + "%";
+            }
+      }
+    }
+  ],
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -15
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik."
+  },
+  "legend": {
+    "enabled": false,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "height": 2,
+      "fontSize": "9px"
+    },
+    "itemMarginTop": 0,
+    "itemMarginBottom": 0,
+    "itemDistance": 5,
+    "symbolHeight": 8,
+    "symbolPadding": 0,
+    "labelFormatter": function (){
+        //remove text before year on each item with odd index
+       // return (this.index % 2 != 0) ? this.name.slice(-4) : this.name + ':';
+         if(this.index == 0) { return 'Verfügbare Zimmer: ' + this.name.slice(-4);}
+        else if (this.index == 1) {return this.name.slice(-4)}
+        else if (this.index == 2) {return 'Nettozimmerauslastung (rechte Skala): ' + this.name.slice(-4)}
+        else if (this.index == 3) {return this.name.slice(-4)}
+      //  return  (this.index % 2 != 0) ? this.name.slice(-4) : this.name.slice(-4);
+        //return this.name.slice(-4);
+        
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "stacking": null,
+      "pointPadding": 0,
+      "borderWidth": 0
+    },
+    "scatter": {
+      "yAxis": 1,
+      "tooltip": {
+        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
+        "pointFormatter": function (){ 
+              return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';
+          }
+      }
+    }
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
+    }
+  },
+  "exporting": {
+    "filename": 7544
+  }
+}

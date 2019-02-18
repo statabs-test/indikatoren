@@ -67,9 +67,9 @@
         tickAmount: 6,
         max: 500000,
         tickInterval: 100000,
-        gridLineColor: '#B9CFD7', 
+        gridLineColor: '#B6CFD7', 
         gridLineWidth: 0.5,
-        lineColor: '#B9CFD7', 
+        lineColor: '#B6CFD7', 
         title: {
             style: {
                 color: "#000000",
@@ -91,9 +91,9 @@
         //tickInterval: 0.07,
         opposite: true,
         min: 0,
-        gridLineColor: '#B9CFD7', 
+        gridLineColor: '#B6CFD7', 
         gridLineWidth: 0.5,
-        lineColor: '#B9CFD7', 
+        lineColor: '#B6CFD7', 
         title: {
             style: {
                 color: "#000000",
