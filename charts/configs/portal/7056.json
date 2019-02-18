@@ -113,7 +113,7 @@
           0.884
         ]
       ],
-      "name": "Verhältnis Frauen\u002FMänner",
+      "name": "Verhältnis Frauen\u002FMänner (rechte Skala)",
       "turboThreshold": 0
     }
   ],
@@ -278,7 +278,10 @@
     "align": "left",
     "itemDistance": 0,
     "itemWidth": 170,
-    "width": 340
+    "width": 340,
+    "labelFormatter": function (){ 
+	    return this.name.replace("Verhältnis Frauen/Männer (rechte Skala)","Verhältnis Frauen/Männer<br/>(rechte Skala)");
+	  }
   },
   "dataLabels": {
     "enabled": false,
