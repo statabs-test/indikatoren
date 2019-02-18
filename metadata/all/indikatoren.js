@@ -26738,8 +26738,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Medianlohn nach Geschlecht",
-		"subtitle": "Median in Franken, Nordwestschweiz",
-		"kuerzel": "I.03.3.06523",
+		"subtitle": "in Franken, Nordwestschweiz",
+		"kuerzel": "I.03.3.6523",
 		"kuerzelKunde": "3.5-02",
 		"description": "Medianlohn nach Geschlecht",
 		"thema": "03 Erwerbsleben",
@@ -26748,28 +26748,35 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "2018-03-14T00:00:00.000",
-		"stufe1": "Monitoring Basler Arbeitsmarkt",
-		"stufe2": "Löhne",
+		"aktualisierungsdatum": "",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.5 Löhne",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Medianlohn der Männer in der Nordwestschweiz liegt 2014 bei 6 930 Franken brutto pro Monat. Die Frauen verdienen 2014 mit einem Medianlohn von 6 010 Franken 13% weniger als die Männer. Das Verhältnis zwischen Medianlohn der Frauen und der Männer hat sich von 0,82 im Jahr 2010 auf 0,87 im Jahr 2014 erhöht, was einer Verringerung des Lohnunterschieds gleichkommt.",
+		"lesehilfe": "Der Medianlohn der Männer in der Nordwestschweiz liegt 2016 bei 7 034 Franken brutto pro Monat. Die Frauen verdienen 2016 mit einem Medianlohn von 6 220 Franken 12% weniger als die Männer. Das Verhältnis zwischen dem Medianlohn der Frauen und der Männer hat sich von 0,82 im Jahr 2010 auf 0,88 im Jahr 2016 erhöht, was einer Verringerung des Lohnunterschieds gleichkommt.",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_05_00_00_00_502",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7056"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6523,
-		"darstellungsart": "Grafik"
+		"data-id": 6523,
+		"chart-id": 6523,
+		"filter": "",
+		"id": 6523
 	},
 	{
 		"title": "Medianlohn nach Alter",
