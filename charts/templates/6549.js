@@ -1,5 +1,6 @@
 (function(){
     return {
+    
       series: [
         {
         }
@@ -7,14 +8,14 @@
       tooltip: {
       	useHTML: false,
         pointFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {point.name}</span><br/>' +
-            'Veränderung 2017 gegenüber dem Mittelwert 2008-2017:<b> {point.x}%</b><br/>' +
-            'Logiernächte 2017 in Tausend:<b> {point.y}</b><br/>' +
-            'Marktanteil 2017:<b> {point.z}%</b>'
+            'Anteile am Übernachtungsvolumen 2018:<b> {point.x}%</b><br/>' +
+            'Veränderung 2018 gegenüber dem Mittelwert 2007-2011:<b> {point.y}</b><br/>' +
+            'Wachstumsbeitrag:<b> {point.z}%</b>'
       },
       data: {
 		    seriesMapping: [
 		    		//bubble series
-		        {x: 1, y: 2, z: 3, name: 0, color: 4}
+		        {x: 2, y: 1, z: 3, name: 0, color: 4}
         ],  
         parsed: function(columns){
           //define colors by entry in first column
@@ -56,20 +57,27 @@
         }
       }, 
       xAxis:{
+        //tickInterval: 5,
+        max: 40,
         min: 0,
         labels: {
           format: '{value}%'
         },
         title: {
-        	text: 'Veränderung 2017 gegenüber dem Mittelwert 2008-2017'
+        	text: 'Anteile am Übernachtungsvolumen 2018'
         }
       },
       yAxis: {
+        min: -50,
+        labels: {
+          format: '{value}%'
+        },
       	title: {
-      		text: 'Logiernächte 2017 in Tausend'
+      		text: 'Veränderung Logiernächte 2018 gegenüber Ø 2007-2011'
       	}
       },
 	plotOptions: {
+	 
     	    series: {
 
     	    },
@@ -83,7 +91,7 @@
     		   return this.name.split(" ").slice(-1);
     		   //return Highcharts.numberFormat(this.point.y, 0, ",", " ") // I dont't want to display a number but a character
         		},*/
-                	x:-20,
+                //	x:-20,
                 	y:-5,
                 	
                 	allowOverlap: true,
