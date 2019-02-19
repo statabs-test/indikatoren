@@ -52,9 +52,13 @@
           }
         },
         tooltip: {
-          "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>'
+        "pointFormatter": function(){
+          return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>' 
+        },
+          "xDateFormat": '%Y-%m'
         }
 	  };
 }());
 
  
+ /*"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{(point.y*100),1)}%</b><br/>',*/

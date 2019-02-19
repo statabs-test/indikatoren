@@ -113,7 +113,7 @@
         return this.name.slice(-4);
     }, 
     title: {
-    	text: 'Angebotene Zimmer:<br/>Nettozimmerauslastung (rechte Skala):', 
+    	text: 'Verfügbare Zimmer:<br/>Nettozimmerauslastung (rechte Skala):', 
     	style: {
     	  fontWeight: 'normal'
     	}

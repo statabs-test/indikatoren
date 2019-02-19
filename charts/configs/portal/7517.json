@@ -20,7 +20,7 @@
           350
         ]
       ],
-      "name": "Angebotene Zimmer 2017",
+      "name": "Verfügbare Zimmer 2017",
       "turboThreshold": 0
     },
     {
@@ -43,7 +43,7 @@
           346
         ]
       ],
-      "name": "Angebotene Zimmer 2018",
+      "name": "Verfügbare Zimmer 2018",
       "turboThreshold": 0
     },
     {
@@ -283,7 +283,7 @@
         return this.name.slice(-4);
     },
     "title": {
-      "text": "Angebotene Zimmer:\u003Cbr\u002F\u003ENettozimmerauslastung (rechte Skala):",
+      "text": "Verfügbare Zimmer:\u003Cbr\u002F\u003ENettozimmerauslastung (rechte Skala):",
       "style": {
         "fontWeight": "normal"
       }

@@ -52,7 +52,8 @@
   },
   tooltip: {
     pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>',
-    shared: false
+    shared: false,
+    "xDateFormat": '%Y-%m'
   },  
   "chart": {      
     "renderTo": 'container-I.05.1.0001',
