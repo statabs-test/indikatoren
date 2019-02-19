@@ -87,8 +87,9 @@
       },
       {
         tickAmount: 6,
-        //max: 0.35,
-        //tickInterval: 0.07,
+        allowDecimals: false,
+        max: 0.35,
+       tickInterval: 0.07,
         opposite: true,
         min: 0,
         gridLineColor: '#B6CFD7', 
@@ -103,11 +104,13 @@
         },
         labels: {
             style: {
+               
                 fontSize: '9px',
                 color: "#000000"
             }, 
             formatter: function() {
-               return 100 * this.value + "%";
+               
+              return Highcharts.numberFormat((this.value*100), 0)+'%';
             }
         }
       }
@@ -181,8 +184,8 @@
         type: 'column',
         width: 661.41732283,
         height: 207.87401575,
-        spacingTop: 0,
-        //spacingBottom: 10,
+        spacingTop: 25,
+        spacingBottom: 18,
         /*events: {
           load: function(){
             this.credits.element.onclick = function() {};
