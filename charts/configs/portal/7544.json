@@ -245,9 +245,10 @@
     "lineWidth": 0.5,
     "labels": {
       "style": {
+        "fontSize": "9px",
         "color": "#000000",
-        "textOverflow": "none",
-        "fontSize": "9px"
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
       },
       "rotation": 0
     },
@@ -257,13 +258,15 @@
     "events": {
       "load": function () {
               this.credits.element.onclick = function() {};
-              
+
               //for top-left legends with no x defined: move legend to x position of first yAxis
               if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                //square legends must be placed 3 pixels more to the left that lines, don't know why
+                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
                 this.update(
                   {
                     legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
                     }
                   }
                 );
@@ -275,17 +278,23 @@
     "zoomType": "xy",
     "width": 661.41732283,
     "height": 207.87401575,
-    "spacingBottom": 18,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
     "style": {
       "fontFamily": "Arial"
     },
     "type": "column",
     "spacingTop": 25,
+    "spacingBottom": 18,
     "renderTo": "container-7544"
   },
   "title": {
     "style": {
-      "fontSize": "14px",
+      "fontSize": "10px",
       "fontWeight": "bold",
       "color": "#000000"
     },
@@ -294,7 +303,7 @@
   },
   "subtitle": {
     "style": {
-      "fontSize": "12px",
+      "fontSize": "10px",
       "fontWeight": "normal",
       "fontFamily": "Arial",
       "color": "#000000"
@@ -311,9 +320,9 @@
       "tickAmount": 6,
       "max": 500000,
       "tickInterval": 100000,
-      "gridLineColor": "#B9CFD7",
-      "gridLineWidth": 0.5,
-      "lineColor": "#B9CFD7",
+      "gridLineColor": "#B6CFD7",
+      "gridLineWidth": 0.35,
+      "lineColor": "#B6CFD7",
       "title": {
         "style": {
           "color": "#000000",
@@ -333,9 +342,9 @@
       "tickAmount": 6,
       "opposite": true,
       "min": 0,
-      "gridLineColor": "#B9CFD7",
-      "gridLineWidth": 0.5,
-      "lineColor": "#B9CFD7",
+      "gridLineColor": "#B6CFD7",
+      "gridLineWidth": 0.35,
+      "lineColor": "#B6CFD7",
       "title": {
         "style": {
           "color": "#000000",
@@ -376,13 +385,14 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal",
-      "height": 2,
-      "fontSize": "9px"
-    },
-    "itemMarginTop": 0,
     "itemMarginBottom": 0,
+    "itemStyle": {
+      "fontSize": "9px",
+      "height": 2,
+      "fontWeight": "normal"
+    },
+    "padding": 0,
+    "itemMarginTop": 0,
     "itemDistance": 5,
     "symbolHeight": 8,
     "symbolPadding": 0,
@@ -417,42 +427,8 @@
       }
     }
   },
-  "customFunctions": {
-    "optimalAxisLabelDecimals": function (axis, formatString){
-          
-          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-        	//function checks how many decimal places has a number
-          var countDecimals = function(value) {
-            if ((value % 1) != 0)
-              return value.toString().split(".")[1].length;
-            return 0;
-          };
-          
-          var ticks = axis.tickPositions;
-          var howManyDecimals = 0;
-					
-          //loop looks for the the largest number of decimal places
-          ticks.forEach(function(tick) {
-            if (countDecimals(tick) > howManyDecimals) {
-              howManyDecimals = countDecimals(tick);
-            }
-          });
-					
-					
-          //update labels so they have the same number of decimal places
-          axis.chart.update({
-            yAxis: [{
-              labels: {
-                //format: '{value:,.' + howManyDecimals + 'f}',
-                format: formatString.replace('howManyDecimals', howManyDecimals),
-              }
-            }, {
-            	//second yAxis, if present
-            }]
-          }, true, true);
-    }
-  },
   "exporting": {
+    "enabled": false,
     "filename": 7544
   }
 }

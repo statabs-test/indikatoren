@@ -1,9 +1,9 @@
 {"title":"Logiernächte und Marktanteile am Übernachtungsvolumen 2009 und 2018",
 "subtitle":"",
-"kuerzel":"I.10.1.07544",
+"kuerzel":"I.10.1.07548",
 "kuerzelKunde":"3-2",
 "description":"Logiernächte und Marktanteile am Übernachtungsvolumen 2009 und 2018",
-"id":7544,
+"id":7548,
 "thema":"10 Tourismus",
 "unterthema":"Hotellerie",
 "kennzahlenset":"Testset",
@@ -28,7 +28,7 @@
 "quellenangabe":["Statistisches Amt Basel-Stadt, Tourismusstatistik"],
 "datenInChartIntegriert":false,
 "externalLinks":[""],
-"data-id":7544, 
-"chart-id":7544, 
+"data-id":7548, 
+"chart-id":7548, 
 "filter":""
 }

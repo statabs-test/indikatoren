@@ -23401,7 +23401,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "",
-		"template": "line001",
+		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -23420,5 +23420,45 @@ var indikatoren = [
 		"chart-id": 7544,
 		"filter": "",
 		"id": 7544
+	},
+	{
+		"title": "Logiernächte und Marktanteile am Übernachtungsvolumen 2009 und 2018",
+		"subtitle": "",
+		"kuerzel": "I.10.1.07548",
+		"kuerzelKunde": "3-2",
+		"description": "Logiernächte und Marktanteile am Übernachtungsvolumen 2009 und 2018",
+		"thema": "10 Tourismus",
+		"unterthema": "Hotellerie",
+		"kennzahlenset": "Testset",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": 7520,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7548,
+		"chart-id": 7548,
+		"filter": "",
+		"id": 7548
 	}
 ];

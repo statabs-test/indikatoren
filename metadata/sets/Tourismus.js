@@ -474,40 +474,5 @@ var indikatorensetData = [
 		],
 		"id": 6576,
 		"darstellungsart": "Grafik"
-	},
-	{
-		"title": "Zimmerangebot und Auslastung nach Hotelkategorie",
-		"subtitle": "",
-		"kuerzel": "I.10.1.07543",
-		"kuerzelKunde": "2-3",
-		"description": "Zimmerangebot und Auslastung nach Hotelkategorie",
-		"thema": "10 Tourismus",
-		"unterthema": "Hotellerie",
-		"kennzahlenset": "Tourismus",
-		"raeumlicheGliederung": [],
-		"aktualisierungsdatum": "",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
-		"template": "line001_print",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"orderKey": "_000",
-		"parentId": 6539,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7543,
-		"chart-id": 7543,
-		"filter": "",
-		"id": 7543
 	}
 ];

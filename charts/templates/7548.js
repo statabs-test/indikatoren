@@ -12,7 +12,7 @@
             y: 20,
             style: {
                 inside: true,
-                fontSize: "9px", 
+                fontSize: "16px", 
                 color: 'black', 
                 fontWeight: 'normal',
                 textOutline: undefined
@@ -25,7 +25,7 @@
             enabled: false,
             y: 20,
             style: {
-                fontSize: "9px", 
+                fontSize: "16px", 
                 color: 'black', 
                 fontWeight: 'normal',
                 textOutline: undefined
@@ -38,7 +38,7 @@
             marker: {
                 enabled: true,
                 symbol: 'diamond', 
-                radius: 4.8
+                radius: 6
             },
             pointPlacement : -0.15
         },
@@ -48,7 +48,7 @@
             marker: {
                 enabled: true,
                 symbol: 'diamond', 
-                radius: 4.8
+                radius: 6
             },
             pointPlacement : 0.15
         }        
@@ -56,9 +56,23 @@
   xAxis: {
       type: "category",
       labels:{
+          formatter: function(){
+          return this.value.replace("Schweiz", "CH")
+                            .replace("Deutschland", "DE")
+                            .replace("Vereinigte Staaten", "US")
+                            .replace("Vereinigtes Königreich", "GB")
+                            .replace("Frankreich", "FR")
+                            .replace("Italien", "IT")
+                            .replace("Spanien", "ES")
+                            .replace("Niederlande", "NL")
+                            .replace("Indien", "IN")
+                            .replace("China, Hongkong", "CN")
+                            .replace("Übrige Länder", "Übrige<br/>Länder");
+                            
+      },
           rotation: 0,
           style:{
-        fontSize: '9px'
+        fontSize: '16px'
           } 
       }
   },
@@ -68,7 +82,7 @@
         max: 500000,
         tickInterval: 100000,
         gridLineColor: '#B6CFD7', 
-        gridLineWidth: 0.35,
+        gridLineWidth: 0.8,
         lineColor: '#B6CFD7', 
         title: {
             style: {
@@ -80,7 +94,7 @@
         labels: {
         	format: "{value:,.0f}",
             style: {
-                fontSize: '9px',
+                fontSize: '16px',
             color: "#000000"
             }
         }
@@ -92,7 +106,7 @@
         opposite: true,
         min: 0,
         gridLineColor: '#B6CFD7', 
-        gridLineWidth: 0.35,
+        gridLineWidth: 0.8,
         lineColor: '#B6CFD7', 
         title: {
             style: {
@@ -103,7 +117,7 @@
         },
         labels: {
             style: {
-                fontSize: '9px',
+                fontSize: '16px',
                 color: "#000000"
             }, 
             formatter: function() {
@@ -143,7 +157,7 @@
         itemStyle: {
         height: 2,
         fontWeight: "normal",
-        fontSize: '9px'
+        fontSize: '16px'
       //width: 40        
     },
     //width: 200,
@@ -179,10 +193,10 @@
   },
   chart: {
         type: 'column',
-        width: 661.41732283,
-        height: 207.87401575,
-        spacingTop: 0,
-        //spacingBottom: 10,
+        height: 415.7480315,
+        width: 831.49606299,
+        spacingTop: 60,
+        spacingBottom: 0,
         /*events: {
           load: function(){
             this.credits.element.onclick = function() {};

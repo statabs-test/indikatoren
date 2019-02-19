@@ -1,9 +1,9 @@
 {
   "series": [
     {
-      "color": "rgb(255, 218, 128)",
+      "color": "rgb(191, 215, 236)",
       "dataLabels": {
-        "enabled": true,
+        "enabled": false,
         "y": 20,
         "style": {
           "inside": true,
@@ -14,29 +14,57 @@
       },
       "data": [
         [
-          "1- und 2-Sterne",
-          378
+          "Schweiz",
+          314033
         ],
         [
-          "3-Sterne",
-          1262
+          "Deutschland",
+          201941
         ],
         [
-          "4- und 5-Sterne",
-          1628
+          "Vereinigte Staaten",
+          90940
         ],
         [
-          "Nicht klassiert",
-          268
+          "Vereinigtes Königreich",
+          78413
+        ],
+        [
+          "Frankreich",
+          48130
+        ],
+        [
+          "Italien",
+          41359
+        ],
+        [
+          "Spanien",
+          26997
+        ],
+        [
+          "Niederlande",
+          30835
+        ],
+        [
+          "Indien",
+          7511
+        ],
+        [
+          "China, Hongkong",
+          10582
+        ],
+        [
+          "Übrige Länder",
+          179601
         ]
       ],
-      "name": "Angebotene Zimmer 2009",
+      "name": "Logiernächte 2009",
       "turboThreshold": 0
     },
     {
-      "color": "rgb(186, 168, 90)",
+      "color": "rgb(159, 196, 227)",
       "dataLabels": {
-        "enabled": true,
+        "enabled": false,
         "y": 20,
         "style": {
           "fontSize": "9px",
@@ -46,83 +74,167 @@
       },
       "data": [
         [
-          "1- und 2-Sterne",
-          727
+          "Schweiz",
+          458003
         ],
         [
-          "3-Sterne",
-          1646
+          "Deutschland",
+          196545
         ],
         [
-          "4- und 5-Sterne",
-          1692
+          "Vereinigte Staaten",
+          142756
         ],
         [
-          "Nicht klassiert",
-          346
+          "Vereinigtes Königreich",
+          95277
+        ],
+        [
+          "Frankreich",
+          60214
+        ],
+        [
+          "Italien",
+          47489
+        ],
+        [
+          "Spanien",
+          34777
+        ],
+        [
+          "Niederlande",
+          30305
+        ],
+        [
+          "Indien",
+          24492
+        ],
+        [
+          "China, Hongkong",
+          21023
+        ],
+        [
+          "Übrige Länder",
+          275618
         ]
       ],
-      "name": "Angebotene Zimmer 2018",
+      "name": "Logiernächte 2018",
       "turboThreshold": 0
     },
     {
-      "color": "rgb(220, 68, 14)",
+      "color": "rgb(255, 102, 0)",
       "type": "scatter",
       "marker": {
         "enabled": true,
         "symbol": "diamond",
-        "radius": 6
+        "radius": 4.8
       },
       "pointPlacement": -0.15,
       "data": [
         [
-          "1- und 2-Sterne",
-          0.516005456
+          "Schweiz",
+          0.304785207
         ],
         [
-          "3-Sterne",
-          0.642513546
+          "Deutschland",
+          0.195994146
         ],
         [
-          "4- und 5-Sterne",
-          0.631309527
+          "Vereinigte Staaten",
+          0.088261956
         ],
         [
-          "Nicht klassiert",
-          0.40791436
+          "Vereinigtes Königreich",
+          0.076103857
+        ],
+        [
+          "Frankreich",
+          0.046712645
+        ],
+        [
+          "Italien",
+          0.040141041
+        ],
+        [
+          "Spanien",
+          0.02620198
+        ],
+        [
+          "Niederlande",
+          0.029926956
+        ],
+        [
+          "Indien",
+          0.007289813
+        ],
+        [
+          "China, Hongkong",
+          0.010270376
+        ],
+        [
+          "Übrige Länder",
+          0.174312025
         ]
       ],
-      "name": "Nettozimmerauslastung (rechte Skala) 2009",
+      "name": "Marktanteile (rechte Skala) 2009",
       "turboThreshold": 0
     },
     {
-      "color": "rgb(139, 34, 35)",
+      "color": "rgb(201, 62, 13)",
       "type": "scatter",
       "marker": {
         "enabled": true,
         "symbol": "diamond",
-        "radius": 6
+        "radius": 4.8
       },
       "pointPlacement": 0.15,
       "data": [
         [
-          "1- und 2-Sterne",
-          0.531156006
+          "Schweiz",
+          0.330330566
         ],
         [
-          "3-Sterne",
-          0.657905249
+          "Deutschland",
+          0.141756323
         ],
         [
-          "4- und 5-Sterne",
-          0.64980253
+          "Vereinigte Staaten",
+          0.102961488
         ],
         [
-          "Nicht klassiert",
-          0.64980253
+          "Vereinigtes Königreich",
+          0.068717684
+        ],
+        [
+          "Frankreich",
+          0.043428809
+        ],
+        [
+          "Italien",
+          0.034251016
+        ],
+        [
+          "Spanien",
+          0.0250826
+        ],
+        [
+          "Niederlande",
+          0.02185721
+        ],
+        [
+          "Indien",
+          0.017664636
+        ],
+        [
+          "China, Hongkong",
+          0.015162651
+        ],
+        [
+          "Übrige Länder",
+          0.198787017
         ]
       ],
-      "name": "Nettozimmerauslastung (rechte Skala) 2018",
+      "name": "Marktanteile (rechte Skala) 2018",
       "turboThreshold": 0
     }
   ],
@@ -164,8 +276,8 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
-    "width": 661.41732283,
-    "height": 207.87401575,
+    "width": 415.7480315,
+    "height": 831.49606299,
     "spacing": [
       2,
       2,
@@ -176,9 +288,9 @@
       "fontFamily": "Arial"
     },
     "type": "column",
-    "spacingTop": 30,
-    "renderTo": "container-7543",
-    "spacingBottom": 2
+    "spacingTop": 25,
+    "spacingBottom": 18,
+    "renderTo": "container-7548"
   },
   "title": {
     "style": {
@@ -187,7 +299,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Zimmerangebot und Auslastung nach Hotelkategorie"
+    "text": "Logiernächte und Marktanteile am Übernachtungsvolumen 2009 und 2018"
   },
   "subtitle": {
     "style": {
@@ -206,8 +318,8 @@
   "yAxis": [
     {
       "tickAmount": 6,
-      "max": 2000,
-      "tickInterval": 400,
+      "max": 500000,
+      "tickInterval": 100000,
       "gridLineColor": "#B6CFD7",
       "gridLineWidth": 0.35,
       "lineColor": "#B6CFD7",
@@ -228,8 +340,6 @@
     },
     {
       "tickAmount": 6,
-      "max": 0.75,
-      "tickInterval": 0.15,
       "opposite": true,
       "min": 0,
       "gridLineColor": "#B6CFD7",
@@ -275,23 +385,23 @@
     "verticalAlign": "top",
     "align": "left",
     "symbolRadius": 0,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 0,
     "itemStyle": {
       "fontSize": "9px",
       "height": 2,
       "fontWeight": "normal"
     },
     "padding": 0,
-    "itemMarginTop": 5,
+    "itemMarginTop": 0,
     "itemDistance": 5,
     "symbolHeight": 8,
     "symbolPadding": 0,
     "labelFormatter": function (){
         //remove text before year on each item with odd index
        // return (this.index % 2 != 0) ? this.name.slice(-4) : this.name + ':';
-         if(this.index == 0) { return /*'Verfügbare Zimmer: ' + */this.name.slice(-4);}
+         if(this.index == 0) { return 'Verfügbare Zimmer: ' + this.name.slice(-4);}
         else if (this.index == 1) {return this.name.slice(-4)}
-        else if (this.index == 2) {return /*'Nettozimmerauslastung (rechte Skala:) ' +*/ this.name.slice(-4)}
+        else if (this.index == 2) {return 'Nettozimmerauslastung (rechte Skala): ' + this.name.slice(-4)}
         else if (this.index == 3) {return this.name.slice(-4)}
       //  return  (this.index % 2 != 0) ? this.name.slice(-4) : this.name.slice(-4);
         //return this.name.slice(-4);
@@ -319,6 +429,6 @@
   },
   "exporting": {
     "enabled": false,
-    "filename": 7543
+    "filename": 7548
   }
 }
