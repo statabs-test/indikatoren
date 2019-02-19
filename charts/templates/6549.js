@@ -46,6 +46,7 @@
               	case 'ES': val = 'rgb(255, 232, 70)'; break;
               	case 'NL': val = 'rgb(60, 60, 60)'; break;
               	case 'CN': val = 'rgb(103, 39, 115)'; break;
+              	case 'IN': val = 'rgb(0, 122, 47)'; break;
               	
               	
               	//default: val = 'black';
@@ -79,6 +80,7 @@
 	plotOptions: {
 	 
     	    series: {
+    	     
 
     	    },
     	    bubble: {
