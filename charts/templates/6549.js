@@ -9,7 +9,7 @@
       	useHTML: false,
         pointFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {point.name}</span><br/>' +
             'Anteile am Übernachtungsvolumen 2018:<b> {point.x}%</b><br/>' +
-            'Veränderung 2018 gegenüber dem Mittelwert 2007-2011:<b> {point.y}</b><br/>' +
+            'Veränderung 2018 gegenüber dem Mittelwert 2007-2011:<b> {point.y}%</b><br/>' +
             'Wachstumsbeitrag:<b> {point.z}%</b>'
       },
       data: {
