@@ -326,6 +326,10 @@
         [
           2017,
           1.617925338
+        ],
+        [
+          2018,
+          1.688490323
         ]
       ],
       "name": "Schweiz"
@@ -656,6 +660,10 @@
         [
           2017,
           1.974916746
+        ],
+        [
+          2018,
+          1.97159699
         ]
       ],
       "name": "Ausland"
@@ -682,8 +690,8 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 428,
-    "spacingBottom": 55,
+    "height": 415,
+    "spacingBottom": 45,
     "style": {
       "fontFamily": "Arial"
     },
@@ -697,7 +705,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Entwicklung der mittleren Aufenthaltsdauer"
+    "text": "Mittlere Aufenthaltsdauer pro Jahr, in Tagen"
   },
   "subtitle": {
     "style": {
@@ -762,9 +770,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-15"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik."
   },
   "legend": {
     "enabled": true,

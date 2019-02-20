@@ -4,11 +4,11 @@
       "color": "rgb(237, 226, 208)",
       "data": [
         [
-          "2008",
-          7
+          "2009",
+          8
         ],
         [
-          "2017",
+          "2018",
           10
         ]
       ],
@@ -19,11 +19,11 @@
       "color": "rgb(197, 171, 146)",
       "data": [
         [
-          "2008",
-          24
+          "2009",
+          26
         ],
         [
-          "2017",
+          "2018",
           26
         ]
       ],
@@ -34,11 +34,11 @@
       "color": "rgb(159, 124, 90)",
       "data": [
         [
-          "2008",
+          "2009",
           14
         ],
         [
-          "2017",
+          "2018",
           17
         ]
       ],
@@ -49,11 +49,11 @@
       "color": "rgb(138, 138, 138)",
       "data": [
         [
-          "2008",
-          18
+          "2009",
+          17
         ],
         [
-          "2017",
+          "2018",
           12
         ]
       ],
@@ -82,7 +82,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
+    "height": 415,
     "spacing": [
       10,
       10,
@@ -111,7 +111,7 @@
     },
     "type": "column",
     "renderTo": "container-6537",
-    "spacingBottom": 40
+    "spacingBottom": 30
   },
   "plotOptions": {
     "series": {
@@ -181,9 +181,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-15"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik."
   },
   "legend": {
     "symbolRadius": 0,

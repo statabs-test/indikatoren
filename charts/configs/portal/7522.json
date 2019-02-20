@@ -1,35 +1,6 @@
 {
   "series": [
     {
-      "point": [
-        {
-          "ParentId": "1"
-        },
-        {
-          "ParentId": "2"
-        },
-        {
-          "ParentId": "3"
-        },
-        {
-          "ParentId": "4"
-        }
-      ],
-      "showInLegend": false,
-      "type": "pie",
-      "size": "100%",
-      "innerSize": "40%",
-      "center": [
-        180,
-        120
-      ],
-      "borderWidth": 2,
-      "colors": [
-        "#DC440E",
-        "#FABD24",
-        "#68AB2B",
-        "#8A8A8A"
-      ],
       "data": [
         [
           "5- und 4-Sterne",
@@ -48,27 +19,10 @@
           56368
         ]
       ],
-      "name": "Inland",
-      "turboThreshold": 0
-    },
-    {
-      "point": [
-        {
-          "id": "1"
-        },
-        {
-          "id": "2"
-        },
-        {
-          "id": "3"
-        },
-        {
-          "id": "4"
-        }
-      ],
-      "showInLegend": true,
+      "showInLegend": false,
       "type": "pie",
-      "innerSize": "70%",
+      "size": "100%",
+      "innerSize": "40%",
       "center": [
         180,
         120
@@ -80,6 +34,10 @@
         "#68AB2B",
         "#8A8A8A"
       ],
+      "name": "Inland",
+      "turboThreshold": 0
+    },
+    {
       "data": [
         [
           "5- und 4-Sterne",
@@ -97,6 +55,20 @@
           "Nicht klassiert",
           70639
         ]
+      ],
+      "showInLegend": true,
+      "type": "pie",
+      "innerSize": "70%",
+      "center": [
+        180,
+        120
+      ],
+      "borderWidth": 2,
+      "colors": [
+        "#DC440E",
+        "#FABD24",
+        "#68AB2B",
+        "#8A8A8A"
       ],
       "name": "Ausland",
       "turboThreshold": 0
@@ -140,9 +112,12 @@
       }
     },
     "series": {
+      "allowPointSelect": false,
       "point": {
         "events": {
-          "legendItemClick": function () {
+          "legendItemClick": function (event) {
+                        event.preventDefault();
+                        /*
                         var id = this.id,
                             data = this.series.chart.series[0].data;
                         $.each(data, function (i, point) {
@@ -153,8 +128,8 @@
                                 else
                                     point.setVisible(true);
                             }
-
                         });
+                        */
                     }
         }
       }
@@ -167,7 +142,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": " Logiernächte nach Herkunft und Hotelkategorie 2018"
+    "text": "Logiernächte nach Herkunft und Hotelkategorie 2018"
   },
   "subtitle": {
     "style": {

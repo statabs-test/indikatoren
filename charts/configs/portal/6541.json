@@ -326,6 +326,10 @@
         [
           2017,
           65
+        ],
+        [
+          2018,
+          65
         ]
       ],
       "name": "Hotelbetriebe"
@@ -657,6 +661,10 @@
         [
           2017,
           8692
+        ],
+        [
+          2018,
+          8939
         ]
       ],
       "name": "Anzahl Betten (rechte Skala)"
@@ -683,8 +691,8 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 485,
-    "height": 428,
-    "spacingBottom": 55,
+    "height": 415,
+    "spacingBottom": 45,
     "style": {
       "fontFamily": "Arial"
     },
@@ -698,7 +706,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Entwicklung der Betriebsstruktur"
+    "text": "Hotelbetriebe und Anzahl Betten"
   },
   "subtitle": {
     "style": {
@@ -789,9 +797,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-15"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik."
   },
   "legend": {
     "enabled": true,

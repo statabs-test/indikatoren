@@ -5,22 +5,22 @@
       "data": [
         [
           "1- und 2-Sterne",
-          313
+          378
         ],
         [
           "3-Sterne",
-          1148
+          1262
         ],
         [
           "4- und 5-Sterne",
-          1623
+          1628
         ],
         [
           "Nicht klassiert",
-          290
+          268
         ]
       ],
-      "name": "Angebotene Zimmer 2008",
+      "name": "Angebotene Zimmer 2009",
       "turboThreshold": 0
     },
     {
@@ -28,22 +28,22 @@
       "data": [
         [
           "1- und 2-Sterne",
-          736
+          727
         ],
         [
           "3-Sterne",
-          1623
+          1646
         ],
         [
           "4- und 5-Sterne",
-          1652
+          1692
         ],
         [
           "Nicht klassiert",
           346
         ]
       ],
-      "name": "Angebotene Zimmer 2017",
+      "name": "Angebotene Zimmer 2018",
       "turboThreshold": 0
     },
     {
@@ -57,22 +57,22 @@
       "data": [
         [
           "1- und 2-Sterne",
-          0.66211857
+          0.516005456
         ],
         [
           "3-Sterne",
-          0.666619067
+          0.642513546
         ],
         [
           "4- und 5-Sterne",
-          0.67476068
+          0.631309527
         ],
         [
           "Nicht klassiert",
-          0.401365677
+          0.40791436
         ]
       ],
-      "name": "Nettozimmerauslastung (rechte Skala) 2008",
+      "name": "Nettozimmerauslastung (rechte Skala) 2009",
       "turboThreshold": 0
     },
     {
@@ -86,22 +86,22 @@
       "data": [
         [
           "1- und 2-Sterne",
-          0.494873855
+          0.531156006
         ],
         [
           "3-Sterne",
-          0.635030286
+          0.657905249
         ],
         [
           "4- und 5-Sterne",
-          0.643437661
+          0.64980253
         ],
         [
           "Nicht klassiert",
-          0.601112747
+          0.64980253
         ]
       ],
-      "name": "Nettozimmerauslastung (rechte Skala) 2017",
+      "name": "Nettozimmerauslastung (rechte Skala) 2018",
       "turboThreshold": 0
     }
   ],
@@ -126,7 +126,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
+    "height": 415,
     "spacing": [
       10,
       10,
@@ -158,7 +158,7 @@
     },
     "type": "column",
     "renderTo": "container-6539",
-    "spacingBottom": 40
+    "spacingBottom": 30
   },
   "plotOptions": {
     "series": {
@@ -188,7 +188,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Zimmerangebot und Auslastung nach Hotelkategorie"
+    "text": "Anzahl Zimmer und Auslastung nach Hotelkategorie"
   },
   "subtitle": {
     "style": {
@@ -259,9 +259,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-15"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik."
   },
   "legend": {
     "symbolRadius": 0,
