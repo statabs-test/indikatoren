@@ -43,6 +43,7 @@
         },     
         "color": "#662673",
         "yAxis": 0,
+        legendIndex: 3,
         "tooltip": {
            headerFormat: '<span style="font-size: 10px">{point.key}<table><br/>',
           "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>'
@@ -55,6 +56,7 @@
         },     
         "color": "#FFBB58",
         "yAxis": 0,
+        legendIndex: 0,
         "tooltip": {
           "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>'
         },
@@ -66,6 +68,7 @@
         },     
         "color": "#008AC3",
         "yAxis": 0,
+        legendIndex: 2,
         "tooltip": {
           "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>'
         },
@@ -78,6 +81,7 @@
         },     
         "color": "#73B97C",
         "yAxis": 0,
+        legendIndex: 1,
         "tooltip": {
           headerFormat: '<span style="font-size: 10px">{point.key}<table><br/>',
           "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>'
@@ -90,6 +94,7 @@
         },     
         "color": "#68AB2B",
         "yAxis": 1,
+        legendIndex: 3,
         "tooltip": {
           "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>'
         }
