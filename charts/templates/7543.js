@@ -77,6 +77,8 @@
             text: null
         },
         labels: {
+            y: 2.5,
+            x: -8,
         	format: "{value:,.0f}",
             style: {
                 fontSize: '9px',
@@ -102,6 +104,8 @@
             text: null
         },
         labels: {
+            y: 2.5,
+            x: 8,
             style: {
                 fontSize: '9px',
                 color: "#000000"

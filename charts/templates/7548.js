@@ -92,6 +92,8 @@
             text: null
         },
         labels: {
+            y: 5,
+            x: -12,
         	format: "{value:,.0f}",
             style: {
                 fontSize: '16px',
@@ -116,6 +118,8 @@
             text: null
         },
         labels: {
+            y: 5,
+            x: 12,
             style: {
                 fontSize: '16px',
                 color: "#000000"

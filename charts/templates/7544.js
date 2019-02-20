@@ -84,6 +84,8 @@
             text: null
         },
         labels: {
+            y: 2.5,
+            x: -8,
         	format: "{value:,.0f}",
             style: {
                 fontSize: '9px',
@@ -109,6 +111,8 @@
             text: null
         },
         labels: {
+            y: 2.5,
+            x: 8,
             style: {
                
                 fontSize: '9px',
@@ -190,7 +194,7 @@
         type: 'column',
         width: 661.41732283,
         height: 207.87401575,
-        spacingTop: 25,
+        spacingTop: 35,
         spacingBottom: 6,
         /*events: {
           load: function(){
