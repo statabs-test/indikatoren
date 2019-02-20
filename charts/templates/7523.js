@@ -7,7 +7,8 @@
     {"color": "#8A8A8A", index: 0, legendIndex: 3}, /**/
   ],
   chart: {
-    inverted: true
+    inverted: true,
+    type: "column"
   },
   legend: {
     itemDistance: 5,
@@ -34,4 +35,3 @@
 
 };
 }());
-
