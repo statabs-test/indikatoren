@@ -15,8 +15,8 @@ global Highcharts
      }
   },
   "yAxis": {
-  tickAmount: 5,
- // tickInterval: 20000,
+  tickAmount: 9,
+  tickInterval: 5000,
 	"labels": {
 		"format": "{value:,.0f}",
 		"formatter": function(){

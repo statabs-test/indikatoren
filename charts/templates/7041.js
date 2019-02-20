@@ -19,8 +19,10 @@
         tickInterval: 1
       },
       "yAxis": {
+          max: 200000,
+          tickAmount: 6,
+          tickInterval: 40000,
           reversedStacks: false, 
-          tickAmount: 7
          
       },
       "series": [
@@ -30,7 +32,7 @@
         },
         {
             stack: 1,
-            color: '#DC440E'
+            color: '#B00000'
         },
         {
             stack: 2,
