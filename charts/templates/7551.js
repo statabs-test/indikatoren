@@ -32,7 +32,6 @@
     ],
     "xAxis": {
       type: "category",
-     
   	  "tickInterval": 3
     },
     "series": [
