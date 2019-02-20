@@ -56,6 +56,12 @@
   xAxis: {
       type: "category",
       labels:{
+          "formatter": function() {
+            return this.value.replace("Vereinigte Staaten", "Vereinigte<br/>Staaten")
+                            .replace("Vereinigtes Königreich", "Vereinigtes<br/>Königreich")
+                            .replace("China, Hongkong","China,<br/>Hongkong")
+                            .replace("Übrige Länder","Übrige<br/>Länder")
+        },
           rotation: 0,
           style:{
         fontSize: '9px'
@@ -185,7 +191,7 @@
         width: 661.41732283,
         height: 207.87401575,
         spacingTop: 25,
-        spacingBottom: 18,
+        spacingBottom: 6,
         /*events: {
           load: function(){
             this.credits.element.onclick = function() {};

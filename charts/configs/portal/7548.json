@@ -7,7 +7,7 @@
         "y": 20,
         "style": {
           "inside": true,
-          "fontSize": "9px",
+          "fontSize": "16px",
           "color": "black",
           "fontWeight": "normal"
         }
@@ -67,7 +67,7 @@
         "enabled": false,
         "y": 20,
         "style": {
-          "fontSize": "9px",
+          "fontSize": "16px",
           "color": "black",
           "fontWeight": "normal"
         }
@@ -127,7 +127,7 @@
       "marker": {
         "enabled": true,
         "symbol": "diamond",
-        "radius": 4.8
+        "radius": 6
       },
       "pointPlacement": -0.15,
       "data": [
@@ -185,7 +185,7 @@
       "marker": {
         "enabled": true,
         "symbol": "diamond",
-        "radius": 4.8
+        "radius": 6
       },
       "pointPlacement": 0.15,
       "data": [
@@ -245,10 +245,24 @@
     "lineWidth": 0.5,
     "labels": {
       "style": {
-        "fontSize": "9px",
+        "fontSize": "16px",
         "color": "#000000",
         "textOverflow": null,
         "whiteSpace": "nowrap"
+      },
+      "formatter": function (){
+          return this.value.replace("Schweiz", "CH")
+                            .replace("Deutschland", "DE")
+                            .replace("Vereinigte Staaten", "US")
+                            .replace("Vereinigtes Königreich", "GB")
+                            .replace("Frankreich", "FR")
+                            .replace("Italien", "IT")
+                            .replace("Spanien", "ES")
+                            .replace("Niederlande", "NL")
+                            .replace("Indien", "IN")
+                            .replace("China, Hongkong", "CN")
+                            .replace("Übrige Länder", "Übrige<br/>Länder");
+                            
       },
       "rotation": 0
     },
@@ -276,8 +290,8 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
-    "width": 415.7480315,
-    "height": 831.49606299,
+    "width": 831.49606299,
+    "height": 415.7480315,
     "spacing": [
       2,
       2,
@@ -288,8 +302,8 @@
       "fontFamily": "Arial"
     },
     "type": "column",
-    "spacingTop": 25,
-    "spacingBottom": 18,
+    "spacingTop": 60,
+    "spacingBottom": 2,
     "renderTo": "container-7548"
   },
   "title": {
@@ -321,7 +335,7 @@
       "max": 500000,
       "tickInterval": 100000,
       "gridLineColor": "#B6CFD7",
-      "gridLineWidth": 0.35,
+      "gridLineWidth": 0.8,
       "lineColor": "#B6CFD7",
       "title": {
         "style": {
@@ -333,17 +347,19 @@
       "labels": {
         "format": "{value:,.0f}",
         "style": {
-          "fontSize": "9px",
+          "fontSize": "16px",
           "color": "#000000"
         }
       }
     },
     {
       "tickAmount": 6,
+      "max": 0.35,
+      "tickInterval": 0.07,
       "opposite": true,
       "min": 0,
       "gridLineColor": "#B6CFD7",
-      "gridLineWidth": 0.35,
+      "gridLineWidth": 0.8,
       "lineColor": "#B6CFD7",
       "title": {
         "style": {
@@ -354,11 +370,11 @@
       },
       "labels": {
         "style": {
-          "fontSize": "9px",
+          "fontSize": "16px",
           "color": "#000000"
         },
         "formatter": function () {
-               return 100 * this.value + "%";
+              return Highcharts.numberFormat((this.value*100), 0)+'%';
             }
       }
     }
@@ -387,7 +403,7 @@
     "symbolRadius": 0,
     "itemMarginBottom": 0,
     "itemStyle": {
-      "fontSize": "9px",
+      "fontSize": "16px",
       "height": 2,
       "fontWeight": "normal"
     },

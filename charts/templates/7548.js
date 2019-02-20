@@ -101,8 +101,8 @@
       },
       {
         tickAmount: 6,
-        //max: 0.35,
-        //tickInterval: 0.07,
+        max: 0.35,
+        tickInterval: 0.07,
         opposite: true,
         min: 0,
         gridLineColor: '#B6CFD7', 
@@ -121,7 +121,7 @@
                 color: "#000000"
             }, 
             formatter: function() {
-               return 100 * this.value + "%";
+              return Highcharts.numberFormat((this.value*100), 0)+'%';
             }
         }
       }
