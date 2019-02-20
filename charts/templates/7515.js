@@ -48,9 +48,8 @@
     }
   },
    tooltip: {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>'
-//  tooltip: {xDateFormat: '%Y-%m'}
-     
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+    "xDateFormat": '%Y-%m'
    },
   "chart": {      
     "type": "column",
