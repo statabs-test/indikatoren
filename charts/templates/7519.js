@@ -8,6 +8,7 @@
       },
       "series": [ 
           {
+              borderWidth: 2,
               "name": "Anteil"
           }        
       ],

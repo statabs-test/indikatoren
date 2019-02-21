@@ -122,7 +122,7 @@
           "color": "black",
           "fontWeight": "normal"
         },
-        "enabled": true
+        "enabled": false
       },
       "stacking": "normal"
     }
