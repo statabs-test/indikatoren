@@ -36476,7 +36476,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Ein interessantes Bild zeigt sich bei der Betrachtung der Logiernächte der Top 10-Herkunftsländer nach Unterkunftsart: Von insgesamt 142 756 Logiernächten von Gästen aus den Vereinigten Staaten entfielen im Jahr 2018 mehr als zwei Drittel aller Übernachtungen auf die 4- und 5-Sterne-Hotels. Mit 49,3% bzw. 47,3% hoch im Kurs standen die Luxushotels auch bei den Touristen aus der Volksrepublik China und dem Vereinigten Königreich. 40,9% der Gäste aus den Niederlanden sowie 40,7% der Besucher aus Deutschland wählten für ihren Aufenthalt ein 3-Sterne-Hotel.",
 		"erlaeuterungen": "",
-		"template": "template001",
+		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
