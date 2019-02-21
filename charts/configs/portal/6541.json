@@ -4,6 +4,18 @@
       "color": "rgb(255, 128, 40)",
       "data": [
         [
+          1934,
+          42
+        ],
+        [
+          1935,
+          42
+        ],
+        [
+          1936,
+          42
+        ],
+        [
           1937,
           42
         ],
@@ -332,12 +344,24 @@
           65
         ]
       ],
-      "name": "Hotelbetriebe"
+      "name": "geöffnete Betriebe"
     },
     {
       "color": "rgb(0, 122, 47)",
       "yAxis": 1,
       "data": [
+        [
+          1934,
+          2228
+        ],
+        [
+          1935,
+          2225
+        ],
+        [
+          1936,
+          2225
+        ],
         [
           1937,
           2164
@@ -667,7 +691,7 @@
           8939
         ]
       ],
-      "name": "Anzahl Betten (rechte Skala)"
+      "name": "verfügbaren Betten (rechte Skala)"
     }
   ],
   "chart": {

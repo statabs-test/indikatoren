@@ -6,31 +6,31 @@
       "legendIndex": 0,
       "data": [
         [
-          "CHN",
+          "VR China",
           10373
         ],
         [
-          "IND",
+          "Indien",
           6571
         ],
         [
-          "NED",
+          "Niederlande",
           10023
         ],
         [
-          "ESP",
+          "Spanien",
           11327
         ],
         [
-          "ITA",
+          "Italien",
           13626
         ],
         [
-          "FRA",
+          "Frankreich",
           23471
         ],
         [
-          "GBR",
+          "UK",
           45027
         ],
         [
@@ -38,15 +38,15 @@
           98867
         ],
         [
-          "GER",
+          "Deutschland",
           60929
         ],
         [
-          "SUI",
+          "Schweiz",
           132832
         ]
       ],
-      "name": "5- und 4-Sterne",
+      "name": "4- und 5-Sterne",
       "turboThreshold": 0
     },
     {
@@ -55,31 +55,31 @@
       "legendIndex": 1,
       "data": [
         [
-          "CHN",
+          "VR China",
           6142
         ],
         [
-          "IND",
+          "Indien",
           14403
         ],
         [
-          "NED",
+          "Niederlande",
           12404
         ],
         [
-          "ESP",
+          "Spanien",
           13335
         ],
         [
-          "ITA",
+          "Italien",
           18800
         ],
         [
-          "FRA",
+          "Frankreich",
           21812
         ],
         [
-          "GBR",
+          "UK",
           33304
         ],
         [
@@ -87,11 +87,11 @@
           31981
         ],
         [
-          "GER",
+          "Deutschland",
           79927
         ],
         [
-          "SUI",
+          "Schweiz",
           196015
         ]
       ],
@@ -104,31 +104,31 @@
       "legendIndex": 2,
       "data": [
         [
-          "CHN",
+          "VR China",
           3192
         ],
         [
-          "IND",
+          "Indien",
           2605
         ],
         [
-          "NED",
+          "Niederlande",
           5657
         ],
         [
-          "ESP",
+          "Spanien",
           7617
         ],
         [
-          "ITA",
+          "Italien",
           11485
         ],
         [
-          "FRA",
+          "Frankreich",
           10103
         ],
         [
-          "GBR",
+          "UK",
           11636
         ],
         [
@@ -136,15 +136,15 @@
           7436
         ],
         [
-          "GER",
+          "Deutschland",
           29441
         ],
         [
-          "SUI",
+          "Schweiz",
           72788
         ]
       ],
-      "name": "2- und 1-Sterne",
+      "name": "1- und 2-Sterne",
       "turboThreshold": 0
     },
     {
@@ -153,31 +153,31 @@
       "legendIndex": 3,
       "data": [
         [
-          "CHN",
+          "VR China",
           1316
         ],
         [
-          "IND",
+          "Indien",
           913
         ],
         [
-          "NED",
+          "Niederlande",
           2221
         ],
         [
-          "ESP",
+          "Spanien",
           2498
         ],
         [
-          "ITA",
+          "Italien",
           3578
         ],
         [
-          "FRA",
+          "Frankreich",
           4828
         ],
         [
-          "GBR",
+          "UK",
           5310
         ],
         [
@@ -185,11 +185,11 @@
           4472
         ],
         [
-          "GER",
+          "Deutschland",
           26248
         ],
         [
-          "SUI",
+          "Schweiz",
           56368
         ]
       ],
