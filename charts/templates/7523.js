@@ -1,5 +1,18 @@
 (function(){
     return {
+      "plotOptions": {
+    "series": {
+      //pointPadding: 0,
+      borderWidth: 0,
+      pointWidth: 20,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent"
+    }
+  },
   series: [
     {"color": "#DC440E", index: 3, legendIndex: 0}, /**/
     {"color": "#FABD24", index: 2, legendIndex: 1}, /**/
@@ -9,6 +22,10 @@
   chart: {
     inverted: true,
     type: "column"
+  },
+  "tooltip": {
+    "shared": false, 
+	  "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y} </b> ({point.percentage:.1f}%)<br/>',
   },
   legend: {
     itemDistance: 5,
@@ -22,15 +39,13 @@
     }
   },  
   yAxis: {
-    tickInterval: 20
+    tickInterval: 20,
+    "labels": {
+		  "format": "{value}%"
+     }
   },
   xAxis: {
     reversed: false,
-    labels: {
-      formatter: function() {
-      	return this.value;
-      }
-    }
   },
 
 };
