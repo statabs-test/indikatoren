@@ -769,7 +769,7 @@ id | visible | visibleInPortal | indikatorenset
 6545 | true | true | Tourismus
 6546 | true | true | Tourismus
 6547 | true | true | Tourismus
-6548 | true | true | Tourismus
+6548 | false |  | Tourismus
 6549 | true | true | Tourismus
 6570 | true | true | Integration
 6574 | true | true | Nachhaltigkeit
@@ -1000,7 +1000,7 @@ id | visible | visibleInPortal | indikatorenset
 6989 | true | false | Wohnviertel
 6990 | true | true | Wohnviertel
 7432 | true | true | 
-7518 | true | true | Tourismus
+7518 | false |  | Tourismus
 7519 | true | true | Tourismus
 7520 | true | true | Tourismus
 7522 | true | true | Tourismus
