@@ -18458,7 +18458,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Geöffnete Betriebe nach Hotelkategorie",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.10.1.6537",
 		"kuerzelKunde": "2-1",
 		"description": "Geöffnete Betriebe nach Hotelkategorie",
@@ -18497,11 +18497,11 @@ var indikatoren = [
 		"id": 6537
 	},
 	{
-		"title": "Durchschnittliche Betriebsgrösse (Zimmer je Betrieb)",
-		"subtitle": "Zimmer pro Betrieb",
+		"title": "Durchschnittliche Betriebsgrösse",
+		"subtitle": "Zimmer je Betrieb, Basel-Stadt",
 		"kuerzel": "I.10.1.6538",
 		"kuerzelKunde": "2-2",
-		"description": "Durchschnittliche Betriebsgrösse (Zimmer je Betrieb)",
+		"description": "Durchschnittliche Betriebsgrösse",
 		"thema": "10 Tourismus",
 		"unterthema": "Hotellerie",
 		"kennzahlenset": "Tourismus",
@@ -18514,7 +18514,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 betrug die durchschnittliche Betriebsgrösse 68 Zimmer. Trotz der mit Ausnahme von 4- oder 5-Sterne Hotels in der letzten Dekade zu beobachtenden Tendenz zu grösseren Hotels zeigt dies, dass die Basler Hotellerie nach wie vor von mittelgrossen Betrieben geprägt ist. 2018 entfielen im Schnitt 73 Zimmer auf Häuser mit 1- und 2-Sternen, 63 auf 3-Sterne-Hotels, 100 auf Hotels mit 4- und 5-Sternen sowie 29 Zimmer auf nicht klassierte Betriebe.",
+		"lesehilfe": "2018 betrug die durchschnittliche Betriebsgrösse 68 Zimmer. Trotz der mit Ausnahme von 4- oder 5-Sterne-Hotels in der letzten Dekade zu beobachtenden Tendenz zu grösseren Hotels zeigt dies, dass die Basler Hotellerie nach wie vor von mittelgrossen Betrieben geprägt ist. 2018 entfielen im Schnitt 73 Zimmer auf Häuser mit 1 und 2 Sternen, 63 auf 3-Sterne-Hotels, 100 auf Hotels mit 4 und 5 Sternen sowie 29 Zimmer auf nicht klassierte Betriebe.",
 		"erlaeuterungen": "Als durchschnittliche Betriebsgrösse wird die Anzahl Zimmer je Betrieb bezeichnet.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -18538,7 +18538,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anzahl Zimmer und Auslastung nach Hotelkategorie",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.10.1.6539",
 		"kuerzelKunde": "2-3",
 		"description": "Anzahl Zimmer und Auslastung nach Hotelkategorie",
@@ -18579,11 +18579,11 @@ var indikatoren = [
 		"id": 6539
 	},
 	{
-		"title": "Nettozimmerauslastung nach Wochentag (effektiv) und auf Basis der Zimmerzahl 2009",
-		"subtitle": "",
+		"title": "Nettozimmerauslastung nach Wochentag",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.10.1.6540",
 		"kuerzelKunde": "2-4",
-		"description": "Nettozimmerauslastung nach Wochentag (effektiv) und auf Basis der Zimmerzahl 2009",
+		"description": "Nettozimmerauslastung nach Wochentag",
 		"thema": "10 Tourismus",
 		"unterthema": "Hotellerie",
 		"kennzahlenset": "Tourismus",
@@ -18620,7 +18620,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Hotelbetriebe und Anzahl Betten",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.10.1.6541",
 		"kuerzelKunde": "2-5",
 		"description": "Hotelbetriebe und Anzahl Betten",
@@ -18660,7 +18660,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Verfügbare Betten nach Hotelkategorie",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.10.1.6542",
 		"kuerzelKunde": "2-6",
 		"description": "Verfügbare Betten nach Hotelkategorie",
@@ -18676,7 +18676,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die «vorhandenen Betten» entsprechen dem Total aller Hotelbetten im Kanton. Verschiedene Betriebe sind aufgrund Betriebsferien, Renovationen usw. zeitweilig geschlossen. Die für den Gast tatsächlich zugänglichen Betten werden als «verfügbare Betten» ausgewiesen. Von diesen verzeichnete der Stadtkanton 2018 rund 9 000. Gegenüber 2017 entspricht dies einer Zunahme um 2,8%. Die Hälfte der 246 hinzugekommenen Betten fallen auf Betriebe mit 4- oder 5-Sternen.",
+		"lesehilfe": "Die «vorhandenen Betten» entsprechen dem Total aller Hotelbetten im Kanton. Verschiedene Betriebe sind aufgrund Betriebsferien, Renovationen usw. zeitweilig geschlossen. Die für den Gast tatsächlich zugänglichen Betten werden als «verfügbare Betten» ausgewiesen. Von diesen verzeichnete der Stadtkanton 2018 rund 9 000. Gegenüber 2017 entspricht dies einer Zunahme um 2,8%. Die Hälfte der 246 hinzugekommenen Betten fallen auf Betriebe mit 4 oder 5 Sternen.",
 		"erlaeuterungen": "Seit 2016 werden bei allen Hotels die Doppelbetten, welche eine Schlafgelegenheit für zwei Personen anbieten, als zwei Betten in der Statistik aufgeführt. Deshalb ist die Bettenzahl ab 2016 mit den früher publizierten Daten der vergangenen Jahre nicht vergleichbar.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -18716,7 +18716,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Besucherinnen und Besucher aus der Schweiz blieben 2018 etwas kürzer (1,69 Tage) als diejenigen aus dem Ausland (1,97). Bis Mitte der 1990er-Jahre, mit Ausnahme der Kriegsjahre 1940- 1944, war es umgekehrt.",
+		"lesehilfe": "Die Besucherinnen und Besucher aus der Schweiz blieben 2018 etwas kürzer (1,69 Tage) als diejenigen aus dem Ausland (1,97). Bis Mitte der 1990er-Jahre, mit Ausnahme der Kriegsjahre 1940-1944, war es umgekehrt.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -18740,7 +18740,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Mittlere Aufenthaltsdauer pro Monat",
-		"subtitle": "in Tagen, 2018",
+		"subtitle": "in Tagen, Basel-Stadt, 2018",
 		"kuerzel": "I.10.1.6544",
 		"kuerzelKunde": "2-8",
 		"description": "Mittlere Aufenthaltsdauer pro Monat",
@@ -18780,7 +18780,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Logiernächte pro Monat nach Herkunft der Gäste",
-		"subtitle": "Werte 2018 im Vergleich mit dem Mittelwert 2009 bis 2018",
+		"subtitle": "Basel-Stadt, Werte 2018 im Vergleich mit dem Mittelwert 2009 bis 2018",
 		"kuerzel": "I.10.1.6545",
 		"kuerzelKunde": "2-10",
 		"description": "Logiernächte pro Monat nach Herkunft der Gäste",
@@ -18860,7 +18860,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Logiernächte nach Herkunft der Gäste",
-		"subtitle": "indexiert (2009 = 100)",
+		"subtitle": "indexiert (2009 = 100), Basel-Stadt",
 		"kuerzel": "I.10.1.6547",
 		"kuerzelKunde": "2-12",
 		"description": "Logiernächte nach Herkunft der Gäste",
@@ -18901,7 +18901,7 @@ var indikatoren = [
 	{
 		"title": "Entwicklung der Logiernächte der Top-Märkte",
 		"subtitle": "",
-		"kuerzel": "I.10.1.06548",
+		"kuerzel": "I.10.1.6548",
 		"kuerzelKunde": "2-13",
 		"description": "Entwicklung der Logiernächte der Top-Märkte",
 		"thema": "10 Tourismus",
@@ -18910,7 +18910,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-02-15T00:00:00.000",
+		"aktualisierungsdatum": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -18919,6 +18919,8 @@ var indikatoren = [
 		"lesehilfe": "Der wichtigste Markt der Basler Hotellerie ist die Schweiz. Seit 2008 hat die Anzahl der Übernachtungen der Schweizer Gäste um 41,9% bzw. 125 368 auf 424 254 zugenommen. Der wichtigste ausländische Markt ist weiterhin Deutschland mit 192 042 Übernachtungen.",
 		"erlaeuterungen": "",
 		"template": "area001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_013",
 		"parentId": null,
@@ -18927,11 +18929,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6548,
-		"darstellungsart": "Grafik"
+		"data-id": 6548,
+		"chart-id": 6548,
+		"filter": "",
+		"id": 6548
 	},
 	{
 		"title": "Wachstumsbeiträge der aufkommensstärksten Herkunftsmärkte",
@@ -19052,7 +19057,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Ankünfte pro Monat nach Herkunft der Gäste",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.10.1.6576",
 		"kuerzelKunde": "2-9",
 		"description": "Ankünfte pro Monat nach Herkunft der Gäste",
