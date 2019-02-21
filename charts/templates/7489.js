@@ -7,6 +7,9 @@
   "xAxis": {
     "type": "category",
     "labels": {
+      style: {
+        fontSize: "10px"
+      },
       "rotation": 0 
     } 
   },

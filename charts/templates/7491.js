@@ -7,7 +7,8 @@
         return Highcharts.numberFormat((this.value*100),0)+'%'; 
       },
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        fontSize: "10px"
       }
     },
     "min": 0,
@@ -20,6 +21,7 @@
     "title": {
       "style": {
         "color": "#000000",
+        fontSize: "10px",
         "fontSize": null
       },
       "text": null
@@ -27,7 +29,8 @@
     "labels": {
       "format": "{value:,.0f}",
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        fontSize: "10px"
       }
     },
     "min": 0,
