@@ -58,10 +58,11 @@
             center: [180,120],
           borderWidth: 2,
             colors: [
-           "#DC440E",
-           "#FABD24", 
-           "#68AB2B",
+            "#68AB2B",
+            "#FABD24",
+            "#DC440E",
            "#8A8A8A",
+           
            
         ],
       }, {
@@ -81,9 +82,9 @@
             center: [180,120],
           borderWidth: 2,
              colors: [
-           "#DC440E",
-           "#FABD24", 
            "#68AB2B",
+            "#FABD24",
+            "#DC440E",
            "#8A8A8A",
             ],
         }],
