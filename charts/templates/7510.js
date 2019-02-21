@@ -2,14 +2,19 @@
 /*global Highcharts*/
 (function(){
     return {
-        "plotOptions": {
-            "series": {
-                "stacking": null,
-				pointPadding: 0, 
-				groupPadding: 0.1, 
-				borderWidth: 0
-
-            }
+        plotOptions: {
+          series: {
+              stacking: null,
+      				pointPadding: 0, 
+      				groupPadding: 0.1, 
+      				borderWidth: 0
+          }, 
+          line: {
+            marker:{
+              enabled: false,
+              symbol: "circle",
+            } 
+          }
         },
         "chart": {      
             "type": "line",
@@ -51,18 +56,10 @@
         },
         tooltip: {
         "pointFormatter": function(){
-          return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>' 
+          return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>';
         },
           "xDateFormat": '%Y-%m'
         },
-       "plotOptions": {
-        "line": {
-        "marker":{
-        "enabled": false,
-        "symbol": "circle",
-      } 
-    }
-  }
     };
 }());
 
