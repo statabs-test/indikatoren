@@ -474,40 +474,5 @@ var indikatorensetData = [
 		],
 		"id": 6576,
 		"darstellungsart": "Grafik"
-	},
-	{
-		"title": "Entwicklung der Besucherzahl ausgewählter Messen",
-		"subtitle": "",
-		"kuerzel": "I.10.1.07551",
-		"kuerzelKunde": "3-3",
-		"description": "Entwicklung der Besucherzahl ausgewählter Messen",
-		"thema": "10 Tourismus",
-		"unterthema": "Hotellerie",
-		"kennzahlenset": "Tourismus",
-		"raeumlicheGliederung": [],
-		"aktualisierungsdatum": "",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
-		"template": "line001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7551,
-		"chart-id": 7551,
-		"filter": "",
-		"id": 7551
 	}
 ];

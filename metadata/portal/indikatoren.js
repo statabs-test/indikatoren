@@ -23389,7 +23389,7 @@ var indikatoren = [
 		"description": "Entwicklung der Besucherzahl ausgewählter Messen",
 		"thema": "10 Tourismus",
 		"unterthema": "Hotellerie",
-		"kennzahlenset": "Tourismus",
+		"kennzahlenset": "",
 		"raeumlicheGliederung": [],
 		"aktualisierungsdatum": "",
 		"stufe1": "",
@@ -23397,8 +23397,8 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"lesehilfe": "Die fünf besucherstärksten Messen sind die Baselworld, die Muba und die Art Basel, die jährlich stattfinden sowie alle zwei Jahre die Swissbau und die Igeho. Sowohl die Besucherzahlen der Muba als auch der Igeho stiegen bis Ende der 80er-Jahre an. Die Swissbau erreichte 1995 mit über 1500000 Besuchern ihren bisherigen Höchstwert. Die Besucherzahlen der Baselworld und der Art Basel nahmen stetig zu, bis 2015 jeweils beide Messen Höchstwerte verzeichneten.",
+		"erlaeuterungen": "Ab 1997 fand die Swissbau jährlich statt, da die Themenbereiche Rohbau und Innenausbau getrennt wurden. In geraden Jahren richtete sich die Ausstellung jeweils an ein Fachpublikum, während in ungeraden Jahren auch ein breiteres Publikum angesprochen wurde. 2005 wurden die Bereiche wieder vereint und die Messe alle zwei Jahre durchgeführt.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -23407,7 +23407,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Messe Schweiz"
+		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
