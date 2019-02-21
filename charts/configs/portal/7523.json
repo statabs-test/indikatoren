@@ -1,52 +1,52 @@
 {
   "series": [
     {
-      "color": "#DC440E",
+      "color": "#68AB2B",
       "index": 3,
       "legendIndex": 0,
       "data": [
         [
           "VR China",
-          10373
+          3192
         ],
         [
           "Indien",
-          6571
+          2605
         ],
         [
           "Niederlande",
-          10023
+          5657
         ],
         [
           "Spanien",
-          11327
+          7617
         ],
         [
           "Italien",
-          13626
+          11485
         ],
         [
           "Frankreich",
-          23471
+          10103
         ],
         [
           "UK",
-          45027
+          11636
         ],
         [
           "USA",
-          98867
+          7436
         ],
         [
           "Deutschland",
-          60929
+          29441
         ],
         [
           "Schweiz",
-          132832
+          72788
         ]
       ],
-      "name": "4- und 5-Sterne",
+      "name": "1- und 2-Sterne",
       "turboThreshold": 0
     },
     {
@@ -99,52 +99,52 @@
       "turboThreshold": 0
     },
     {
-      "color": "#68AB2B",
+      "color": "#DC440E",
       "index": 1,
       "legendIndex": 2,
       "data": [
         [
           "VR China",
-          3192
+          10373
         ],
         [
           "Indien",
-          2605
+          6571
         ],
         [
           "Niederlande",
-          5657
+          10023
         ],
         [
           "Spanien",
-          7617
+          11327
         ],
         [
           "Italien",
-          11485
+          13626
         ],
         [
           "Frankreich",
-          10103
+          23471
         ],
         [
           "UK",
-          11636
+          45027
         ],
         [
           "USA",
-          7436
+          98867
         ],
         [
           "Deutschland",
-          29441
+          60929
         ],
         [
           "Schweiz",
-          72788
+          132832
         ]
       ],
-      "name": "1- und 2-Sterne",
+      "name": "4- und 5-Sterne",
       "turboThreshold": 0
     },
     {
@@ -327,7 +327,8 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemDistance": 5,
+    "itemDistance": 0,
+    "symbolPadding": 2,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",

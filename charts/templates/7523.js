@@ -14,9 +14,9 @@
     }
   },
   series: [
-    {"color": "#DC440E", index: 3, legendIndex: 0}, /**/
+    {"color": "#68AB2B", index: 3, legendIndex: 0}, /**/
     {"color": "#FABD24", index: 2, legendIndex: 1}, /**/
-    {"color": "#68AB2B", index: 1, legendIndex: 2}, /**/
+    {"color": "#DC440E", index: 1, legendIndex: 2}, /**/
     {"color": "#8A8A8A", index: 0, legendIndex: 3}, /**/
   ],
   chart: {
@@ -28,7 +28,8 @@
 	  "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y} </b> ({point.percentage:.1f}%)<br/>',
   },
   legend: {
-    itemDistance: 5,
+    itemDistance: 0,
+  symbolPadding: 2,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",

@@ -133,7 +133,7 @@
         "color": "black",
         "fontSize": "11px"
       },
-      "text": "Veränderung Logiernächte 2018 gegenüber Ø 2007-2011"
+      "text": "Veränderung Logiernächte 2018 gegenüber Ø 2007\u003Cspan\u003E-\u003C\u002Fspan\u003E2011"
     },
     "labels": {
       "style": {
@@ -142,7 +142,8 @@
       },
       "format": "{value}%"
     },
-    "min": -50
+    "min": -50,
+    "useHTML": true
   },
   "xAxis": {
     "lineColor": "#B9CFD7",

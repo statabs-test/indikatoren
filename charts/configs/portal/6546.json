@@ -710,7 +710,8 @@
         "textOverflow": "none"
       }
     },
-    "tickLength": 0
+    "tickLength": 0,
+    "tickInterval": 6
   },
   "chart": {
     "events": {

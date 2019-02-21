@@ -18,14 +18,6 @@
         [
           "Nicht klassiert",
           268
-        ],
-        [
-          "Total",
-          3535
-        ],
-        [
-          "undefined",
-          null
         ]
       ],
       "name": "Verfügbare Zimmer 2009",
@@ -49,14 +41,6 @@
         [
           "Nicht klassiert",
           346
-        ],
-        [
-          "Total",
-          4411
-        ],
-        [
-          "undefined",
-          null
         ]
       ],
       "name": "Verfügbare Zimmer 2018",
@@ -86,14 +70,6 @@
         [
           "Nicht klassiert",
           0.40791436
-        ],
-        [
-          "Total",
-          0.606040831
-        ],
-        [
-          "undefined",
-          null
         ]
       ],
       "name": "Nettozimmerauslastung (rechte Skala) 2009",
@@ -123,14 +99,6 @@
         [
           "Nicht klassiert",
           0.64980253
-        ],
-        [
-          "Total",
-          0.629092612
-        ],
-        [
-          "undefined",
-          null
         ]
       ],
       "name": "Nettozimmerauslastung (rechte Skala) 2018",

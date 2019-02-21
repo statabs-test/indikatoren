@@ -69,12 +69,13 @@
         }
       },
       yAxis: {
+        useHTML: true,
         min: -50,
         labels: {
           format: '{value}%'
         },
       	title: {
-      		text: 'Veränderung Logiernächte 2018 gegenüber Ø 2007-2011'
+      		text: 'Veränderung Logiernächte 2018 gegenüber Ø 2007<span>-</span>2011'
       	}
       },
 	plotOptions: {
