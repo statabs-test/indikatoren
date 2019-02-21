@@ -354,7 +354,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Entwicklung der Logiernächte nach Herkunft der Gäste",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.10.1.6546",
 		"kuerzelKunde": "2-11",
 		"description": "Entwicklung der Logiernächte nach Herkunft der Gäste",
@@ -370,7 +370,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2008 wurde erstmals die Millionenmarke bei den Logiernächten überschritten. Die Vorjahreswerte werden seither jedes Jahr überboten, so auch 2018 mit einem neuen Höchststand von 1,39 Millionen Übernachtungen. Das sind gut 58 000 bzw. 4,4% mehr als vor Jahresfrist.                                                                                                                                                                                                                                                                                                                     Interessant ist auch der zeitliche Verlauf: 1934, zu Beginn der statistischen Aufzeichnung der touristischen Ströme in Basel, sind 304 261 Logiernächte registriert worden – 56,9% davon von ausländischen Besuchern.  Einen Einbruch erlitt die Basler Hotellerie durch den Zweiten Weltkrieg. Einen sprunghaften Anstieg erfuhren die Logiernächtezahlen im Jahr 2004 (+142 113 bzw. +21,5% gegenüber dem Vorjahr): Die Ausstellung «Tutanchamun – Das goldene Jenseits» im Antikenmuseum Basel und Sammlung Ludwig wirkte sich mit 620 000 generierten Eintritten positiv auf die Logiernächte aus.",
+		"lesehilfe": "2008 wurde erstmals die Millionenmarke bei den Logiernächten überschritten. Die Vorjahreswerte werden seither jedes Jahr überboten, so auch 2018 mit einem neuen Höchststand von 1,39 Millionen Übernachtungen. Das sind gut 58 000 bzw. 4,4% mehr als vor Jahresfrist. Interessant ist auch der zeitliche Verlauf: 1934, zu Beginn der statistischen Aufzeichnung der touristischen Ströme in Basel, sind 304 261 Logiernächte registriert worden – 56,9% davon von ausländischen Besuchern.  Einen Einbruch erlitt die Basler Hotellerie durch den Zweiten Weltkrieg. Einen sprunghaften Anstieg erfuhren die Logiernächtezahlen im Jahr 2004 (+142 113 bzw. +21,5% gegenüber dem Vorjahr): Die Ausstellung «Tutanchamun – Das goldene Jenseits» im Antikenmuseum Basel und Sammlung Ludwig wirkte sich mit 620 000 generierten Eintritten positiv auf die Logiernächte aus.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
