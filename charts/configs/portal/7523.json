@@ -250,6 +250,7 @@
           }
     },
     "inverted": true,
+    "type": "column",
     "renderTo": "container-7523",
     "spacingBottom": 30
   },
