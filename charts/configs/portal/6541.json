@@ -344,7 +344,7 @@
           65
         ]
       ],
-      "name": "geöffnete Betriebe"
+      "name": "Geöffnete Betriebe"
     },
     {
       "color": "rgb(0, 122, 47)",
@@ -691,7 +691,7 @@
           8939
         ]
       ],
-      "name": "verfügbaren Betten (rechte Skala)"
+      "name": "Verfügbare Betten (rechte Skala)"
     }
   ],
   "chart": {
