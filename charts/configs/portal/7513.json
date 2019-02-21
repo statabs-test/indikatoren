@@ -4,10 +4,6 @@
       "color": "#ff8028",
       "data": [
         [
-          "Dez",
-          100
-        ],
-        [
           "Jan",
           99.7
         ],
@@ -62,10 +58,6 @@
     {
       "color": "#dc440e",
       "data": [
-        [
-          "Dez",
-          100.2
-        ],
         [
           "Jan",
           100.2
@@ -122,10 +114,6 @@
       "color": "#b00000",
       "data": [
         [
-          "Dez",
-          101.3
-        ],
-        [
           "Jan",
           101.1
         ],
@@ -179,11 +167,12 @@
     },
     {
       "color": "#661200",
+      "type": "scatter",
+      "marker": {
+        "enabled": true,
+        "radius": 3
+      },
       "data": [
-        [
-          "Dez",
-          102.1
-        ],
         [
           "Jan",
           101.9
@@ -317,7 +306,7 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}"
+      "format": "{value:,.1f}"
     }
   },
   "credits": {

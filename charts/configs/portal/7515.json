@@ -57,7 +57,7 @@
           -19
         ]
       ],
-      "name": "Saldo Geburten-Todesfälle"
+      "name": "Saldo Geburten - Todesfälle"
     },
     {
       "color": "#923F8D",
@@ -116,7 +116,7 @@
           718
         ]
       ],
-      "name": "Saldo Zuzüge-Wegzüge"
+      "name": "Saldo Zuzüge - Wegzüge"
     },
     {
       "color": "#C8C8C8",
@@ -266,7 +266,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
