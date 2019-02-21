@@ -287,7 +287,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Indexwert"
+    "text": "Basler Index"
   },
   "subtitle": {
     "style": {
@@ -296,7 +296,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basis Dez 2015",
+    "text": "Basis Dezember 2015 = 100",
     "align": "left"
   },
   "tooltip": {

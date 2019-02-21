@@ -78,11 +78,11 @@ var indikatorensetData = [
 		"id": 7511
 	},
 	{
-		"title": "Monatliche Jahresteuerung",
+		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
 		"kuerzel": "I.05.1.07512",
 		"kuerzelKunde": "",
-		"description": "Monatliche Jahresteuerung",
+		"description": "Jahresteuerung Basler Index und Landesindex",
 		"thema": "05 Preise",
 		"unterthema": "Basler Index der Konsumentenpreise",
 		"kennzahlenset": "Monatsindikatoren",
@@ -119,11 +119,11 @@ var indikatorensetData = [
 		"id": 7512
 	},
 	{
-		"title": "Indexwert",
-		"subtitle": "Basis Dez 2015",
+		"title": "Basler Index",
+		"subtitle": "Basis Dezember 2015 = 100",
 		"kuerzel": "I.05.1.07513",
 		"kuerzelKunde": "",
-		"description": "Indexwert",
+		"description": "Basler Index",
 		"thema": "05 Preise",
 		"unterthema": "Basler Index der Konsumentenpreise",
 		"kennzahlenset": "Monatsindikatoren",
@@ -136,7 +136,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im ersten Jahr nach dem jüngsten Basiswechsel von Dezember 2015 sind die Durchschnittspreise in Basel-Stadt mehrheitlich gesunken. Seit Dezember 2016 hingegen liegt die Jahresteuerung des Basler Index der Konsumenpreise stets im positiven Bereich.",
+		"lesehilfe": "Im ersten Jahr nach dem jüngsten Basiswechsel von Dezember 2015 sind die Durchschnittspreise in Basel-Stadt mehrheitlich gesunken. Seit Dezember 2016 hingegen liegt die Jahresteuerung des Basler Index der Konsumentenpreise stets im positiven Bereich.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",

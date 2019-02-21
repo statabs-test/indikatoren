@@ -221,7 +221,7 @@
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "column",
+    "type": "line",
     "renderTo": "container-7510"
   },
   "title": {
@@ -301,11 +301,13 @@
     "series": {
       "marker": {
         "enabled": false
-      },
-      "stacking": null,
-      "pointPadding": 0,
-      "groupPadding": 0.1,
-      "borderWidth": 0
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
     }
   },
   "customFunctions": {
