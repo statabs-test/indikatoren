@@ -16,7 +16,8 @@
             type: 'scatter',
             marker: {
                 symbol: 'diamond', 
-                radius: 8
+                radius: 8,
+                enabled: true,
             },
             pointPlacement : -0.15
         },
@@ -25,7 +26,8 @@
             type: 'scatter',
             marker: {
                 symbol: 'diamond', 
-                radius: 8
+                radius: 8, 
+                enabled: true,
             },
             pointPlacement : 0.15
         }        
@@ -94,11 +96,12 @@
     }
   },
   legend: {
+    enabled: true,
     useHTML: true,
     y: -40,
     layout: "horizontal",
     verticalAlign: "top",
-    itemMarginBottom: 5,     
+    itemMarginBottom: 2,     
     align: "right",
     itemStyle: {
         fontWeight: "normal",

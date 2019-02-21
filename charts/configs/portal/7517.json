@@ -51,7 +51,8 @@
       "type": "scatter",
       "marker": {
         "symbol": "diamond",
-        "radius": 8
+        "radius": 8,
+        "enabled": true
       },
       "pointPlacement": -0.15,
       "data": [
@@ -80,7 +81,8 @@
       "type": "scatter",
       "marker": {
         "symbol": "diamond",
-        "radius": 8
+        "radius": 8,
+        "enabled": true
       },
       "pointPlacement": 0.15,
       "data": [
@@ -232,7 +234,7 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik."
   },
   "legend": {
-    "enabled": false,
+    "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "right",
@@ -243,7 +245,7 @@
     },
     "useHTML": true,
     "y": -40,
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 2,
     "width": 200,
     "itemWidth": 70,
     "labelFormatter": function (){
