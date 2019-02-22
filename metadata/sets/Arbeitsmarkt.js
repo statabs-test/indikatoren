@@ -947,7 +947,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Beschäftigung in Industrie und Baugewerbe",
-		"subtitle": "Anzahl Vollzeitäquivalente, Basel-Stadt",
+		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
 		"kuerzel": "I.03.2.2528",
 		"kuerzelKunde": "3.2-05",
 		"description": "Beschäftigung in Industrie und Baugewerbe",
@@ -988,7 +988,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Beschäftigung im Dienstleistungssektor (I)",
-		"subtitle": "Anzahl Vollzeitäquivalente, Basel-Stadt",
+		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
 		"kuerzel": "I.03.2.2529",
 		"kuerzelKunde": "3.2-06",
 		"description": "Beschäftigung im Dienstleistungssektor (I)",
@@ -1644,7 +1644,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Beschäftigung im Dienstleistungssektor (II)",
-		"subtitle": "Anzahl Vollzeitäquivalente, Basel-Stadt",
+		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
 		"kuerzel": "I.03.2.6456",
 		"kuerzelKunde": "3.2-07",
 		"description": "Beschäftigung im Dienstleistungssektor (II)",
@@ -1685,7 +1685,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Beschäftigung im Dienstleistungssektor (III)",
-		"subtitle": "Anzahl Vollzeitäquivalente, Basel-Stadt",
+		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
 		"kuerzel": "I.03.2.6457",
 		"kuerzelKunde": "3.2-08",
 		"description": "Beschäftigung im Dienstleistungssektor (III)",
