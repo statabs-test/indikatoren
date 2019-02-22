@@ -21,7 +21,7 @@
           8729
         ]
       ],
-      "name": "Monatlicher Bruttolohn (Median)",
+      "name": "Monatlicher Bruttolohn",
       "turboThreshold": 0
     }
   ],
@@ -135,8 +135,9 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickAmount": 11,
-    "tickInterval": 1000
+    "tickAmount": 10,
+    "tickInterval": 1000,
+    "max": 9000
   },
   "navigation": {
     "menuItemStyle": {

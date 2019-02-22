@@ -18,7 +18,9 @@
     }
   },  
   "yAxis": {
-    tickAmount: 10,
+    tickAmount: 9,
+    max: 8000,
+    tickInterval: 1000,
     "labels": {
       "format": "{value:,.0f}"
     },

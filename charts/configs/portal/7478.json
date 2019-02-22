@@ -432,7 +432,9 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickAmount": 10,
+    "tickAmount": 9,
+    "max": 8000,
+    "tickInterval": 1000,
     "reversedStacks": false
   },
   "navigation": {

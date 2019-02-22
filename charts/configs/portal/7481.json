@@ -135,8 +135,9 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickAmount": 7,
-    "tickInterval": 1000
+    "tickAmount": 6,
+    "tickInterval": 1000,
+    "max": 5000
   },
   "navigation": {
     "menuItemStyle": {

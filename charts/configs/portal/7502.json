@@ -368,7 +368,9 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickAmount": 10,
+    "tickAmount": 9,
+    "max": 8000,
+    "tickInterval": 1000,
     "reversedStacks": false
   },
   "navigation": {
@@ -406,7 +408,10 @@
     "align": "right",
     "symbolPadding": 0,
     "margin": 1,
-    "width": 120
+    "width": 120,
+    "labelFormatter": function (){
+       return this.name.replace("Institutionen für Suchtkranke, psychosoziale Fälle", "Institutionen für Sucht-<br/>kranke, psychosoziale Fälle");
+     }
   },
   "dataLabels": {
     "enabled": false,

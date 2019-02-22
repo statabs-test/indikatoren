@@ -33,7 +33,7 @@
     },
     {
       "stack": 1,
-      "color": "#DC440E",
+      "color": "#B00000",
       "data": [
         [
           2011,
@@ -236,8 +236,10 @@
         "color": "#000000"
       }
     },
-    "reversedStacks": false,
-    "tickAmount": 7
+    "max": 200000,
+    "tickAmount": 6,
+    "tickInterval": 40000,
+    "reversedStacks": false
   },
   "navigation": {
     "menuItemStyle": {

@@ -335,7 +335,7 @@
           116
         ]
       ],
-      "name": "Kurzaufenthalter ab 12 M.",
+      "name": "Kurzaufenthalter ab 12 Monaten",
       "turboThreshold": 0
     },
     {
@@ -504,7 +504,7 @@
           361
         ]
       ],
-      "name": "Kurzaufenthalter 4 bis 12 M.",
+      "name": "Kurzaufenthalter 4 bis 12 Monate",
       "turboThreshold": 0
     },
     {
@@ -673,7 +673,7 @@
           176
         ]
       ],
-      "name": "Kurzaufenthalter bis 4 M.",
+      "name": "Kurzaufenthalter bis 4 Monate",
       "turboThreshold": 0
     },
     {
@@ -842,7 +842,7 @@
           214
         ]
       ],
-      "name": "Dienstleistungserbringer bis 4 M.",
+      "name": "Dienstleistungserbringer bis 4 Monate",
       "turboThreshold": 0
     },
     {

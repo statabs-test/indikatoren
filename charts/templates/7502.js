@@ -17,7 +17,9 @@
     }
   },  
   "yAxis": {
-    tickAmount: 10,
+    tickAmount: 9,
+    max: 8000,
+    tickInterval: 1000,
     "labels": {
       "format": "{value:,.0f}"
     },
@@ -35,6 +37,9 @@
     symbolPadding: 0,
      margin: 1,
      width: 120,
+     labelFormatter: function(){
+       return this.name.replace("Institutionen für Suchtkranke, psychosoziale Fälle", "Institutionen für Sucht-<br/>kranke, psychosoziale Fälle");
+     },
     "itemStyle": {
       fontSize: "9px",
       textOverflow: "undefined",

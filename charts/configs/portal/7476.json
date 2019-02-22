@@ -305,7 +305,7 @@
         ],
         [
           "2018-04",
-          null
+          1096
         ]
       ],
       "name": "Bestand Grenzgänger",
@@ -575,7 +575,8 @@
       "labels": {
         "format": "{value:,.0f}",
         "style": {
-          "color": "#000000"
+          "color": "#000000",
+          "fontSize": "10px"
         }
       },
       "min": 0,
@@ -592,7 +593,8 @@
       "labels": {
         "format": "{value:,.0f}",
         "style": {
-          "color": "#000000"
+          "color": "#000000",
+          "fontSize": "10px"
         }
       },
       "min": 0,

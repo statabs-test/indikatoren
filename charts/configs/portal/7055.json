@@ -215,7 +215,8 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left"
+    "align": "left",
+    "itemDistance": 10
   },
   "dataLabels": {
     "enabled": false,

@@ -67,8 +67,8 @@
     },
      labelFormatter: function(){
 	        return this.name
-	            .replace("Veterinärwesen", "Veterinärw.")
-	            .replace("Kinderkrippen", "Kikri.")
+	       
+	            .replace("Best. Meldepflichtige in VZÄ Gesundh.-, Veterinärwesen, Heime, Kinderkrippen", "Bestand Meldepflichtige in VZÄ Gesundheits-,<br/>Veterinärwesen, Heime, Kinderkrippen")
             ;
     }
   },
