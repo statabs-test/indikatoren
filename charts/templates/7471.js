@@ -65,6 +65,9 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
+    labelFormatter: function(){
+      return this.name.replace("Best. Meldepflichtige in VZÄ Gesundh.-, Veterinärwesen, Heime, Kinderkrippen", "Best. Meldepflichtige in VZÄ Gesundh.-, Veterinärwesen, Heime, Kinderkr.");
+    },
 		//"y": 35,
     "itemStyle": {
       "fontWeight": "normal"
