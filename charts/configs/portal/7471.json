@@ -151,7 +151,7 @@
           5
         ]
       ],
-      "name": "Zuwanderung ET (rechte Skala)",
+      "name": "Zuwanderung Erwerbstätige (rechte Skala)",
       "turboThreshold": 0
     },
     {
@@ -623,7 +623,7 @@
           19
         ]
       ],
-      "name": "Best. MP in VZÄ Gesundh.-, Veterinärwesen, Heime, Kinderkrippen",
+      "name": "Best. Meldepflichtige in VZÄ Gesundh.-, Veterinärwesen, Heime, Kinderkrippen",
       "turboThreshold": 0
     }
   ],
