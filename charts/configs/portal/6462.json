@@ -257,7 +257,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Zuwanderung pro Beschäftigten nach Branche"
+    "text": "Zugewanderte Erwerbstätige pro Beschäftigten nach Branche"
   },
   "subtitle": {
     "style": {
@@ -266,7 +266,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, pro besetzter Stelle",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "yAxis": {

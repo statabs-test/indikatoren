@@ -181,7 +181,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Beschäftigung nach Geschlecht"
+    "text": "Beschäftigte und Vollzeitäquivalente nach Geschlecht"
   },
   "subtitle": {
     "style": {
@@ -190,7 +190,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Anzahl Beschäftigte und Vollzeitäquivalente, Basel-Stadt",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "xAxis": {
