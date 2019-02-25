@@ -106,7 +106,7 @@
 	                var maxValueInLegend = 160000; 
 	                
                 	//Add manually drawn legend	
-	                fn.addLegendTitle(chart, pieSizeSeries.name + " in m²", 265, 220);
+	                fn.addLegendTitle(chart, "Veränderung von 1995 bis 2015 in m²", 265, 220);
 	                
 	                fn.addLegendCircle(chart, 390, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 410, 245);
