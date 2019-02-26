@@ -26,7 +26,6 @@ global Highcharts
   	"type": "category",
     "tickInterval": 1,
           "labels": {
-               x: 14,
           	step: 1,
         }  
   },

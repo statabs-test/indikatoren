@@ -8,6 +8,7 @@ global Highcharts
     "tickInterval": 4,
      "type": "category",
      labels:{
+       x: 11,
        rotation: 0,
      		"formatter": function() {
    			 return this.value.split("-").slice(0, -1);
