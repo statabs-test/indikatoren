@@ -641,6 +641,7 @@
       "style": {
         "color": "#000000"
       },
+      "x": 17,
       "formatter": function () {
    			 return this.value.split("-").slice(0, -1);
      		}

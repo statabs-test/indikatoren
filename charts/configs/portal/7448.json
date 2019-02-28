@@ -900,6 +900,7 @@
         "color": "#000000",
         "textOverflow": "none"
       },
+      "x": 20,
       "formatter": function () {
    			 return this.value.split("-").slice(0, -1);
 		}
