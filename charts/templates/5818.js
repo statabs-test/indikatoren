@@ -55,7 +55,7 @@
 				}
 			}, 
 			{
-				"visible": false
+				"visible": true
 			}
 		],
 		chart: {
@@ -102,11 +102,11 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 	                
 					//pie values in legend
-	                var minValueInLegend = 3000; 
-	                var maxValueInLegend = 120000; 
+	                var minValueInLegend = 500; 
+	                var maxValueInLegend = 20000; 
 	                
                 	//Add manually drawn legend	
-	                fn.addLegendTitle(chart, "Veränderung von 1995 bis 2015 in m²", 265, 220);
+	                fn.addLegendTitle(chart, "Veränderung von 2010 bis 2015 in m²", 265, 220);
 	                
 	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 300, 245);
