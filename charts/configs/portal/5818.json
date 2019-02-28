@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "name": "2010",
+      "name": "1995",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -6569,179 +6569,179 @@
       "data": [
         [
           1,
-          234162
+          222619
         ],
         [
           2,
-          405084
+          405581
         ],
         [
           3,
-          710360
+          687802
         ],
         [
           4,
-          494450
+          479915
         ],
         [
           5,
-          805689
+          741350
         ],
         [
           6,
-          1007041
+          963804
         ],
         [
           7,
-          657497
+          637255
         ],
         [
           8,
-          901044
+          885607
         ],
         [
           9,
-          430316
+          417901
         ],
         [
           10,
-          890815
+          869484
         ],
         [
           11,
-          990762
+          929184
         ],
         [
           12,
-          165181
+          165814
         ],
         [
           13,
-          228430
+          218884
         ],
         [
           14,
-          357541
+          333883
         ],
         [
           15,
-          456075
+          451596
         ],
         [
           16,
-          256823
+          220407
         ],
         [
           17,
-          814458
+          780131
         ],
         [
           18,
-          329535
+          326070
         ],
         [
           19,
-          122818
+          103490
         ],
         [
           20,
-          1372108
+          1254613
         ],
         [
           30,
-          97299
+          83358
         ]
       ]
     },
     {
-      "visible": false,
+      "visible": true,
       "data": [
         [
           "Altstadt GB",
-          -89
+          11454
         ],
         [
-          "Vorst�dte",
-          13937
+          "Vorstädte",
+          13440
         ],
         [
           "Am Ring",
-          7252
+          29810
         ],
         [
           "Breite",
-          2695
+          17230
         ],
         [
           "St. Alban",
-          38988
+          103327
         ],
         [
           "Gundeldingen",
-          27515
+          70752
         ],
         [
           "Bruderholz",
-          4823
+          25065
         ],
         [
           "Bachletten",
-          4993
+          20430
         ],
         [
           "Gotthelf",
-          1047
+          13462
         ],
         [
           "Iselin",
-          2256
+          23587
         ],
         [
           "St. Johann",
-          36758
+          98336
         ],
         [
           "Altstadt KB",
-          3424
+          2791
         ],
         [
           "Clara",
-          -5
+          9541
         ],
         [
           "Wettstein",
-          16693
+          40351
         ],
         [
           "Hirzbrunnen",
-          13061
+          17540
         ],
         [
           "Rosental",
-          71127
+          107543
         ],
         [
-          "Matth�us",
-          4012
+          "Matthäus",
+          38339
         ],
         [
           "Klybeck",
-          0
+          3465
         ],
         [
-          "Kleinh�ningen",
-          15197
+          "Kleinhüningen",
+          34525
         ],
         [
           "Riehen",
-          4848
+          122343
         ],
         [
           "Bettingen",
-          1377
+          15318
         ]
       ],
-      "name": "Differenz 2010 zu 2015"
+      "name": "Differenz 1995 zu 2015"
     },
     {
       "name": "Rhein",
@@ -6982,8 +6982,8 @@
 	                //define new Highcharts template "mappie"
 					fn.defineTemplate();
 					
-					var choroplethSeries = chart.series[0];
-					var pieSizeSeries = chart.series[1];
+					var choroplethSeries = chart.series[1];
+					var pieSizeSeries = chart.series[2];
 					
 					//pie diameters in px
 					var maxPieDiameter = 20;
@@ -7019,7 +7019,7 @@
 	                var maxValueInLegend = 20000; 
 	                
                 	//Add manually drawn legend	
-	                fn.addLegendTitle(chart, "Veränderung von 2010 bis 2015 in m²", 265, 220);
+	                fn.addLegendTitle(chart, "Veränderung von 1995 bis 2015 in m²", 265, 220);
 	                
 	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 300, 245);
