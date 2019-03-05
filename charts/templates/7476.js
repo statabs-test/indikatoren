@@ -8,6 +8,9 @@
     }
   },
   "yAxis": [{
+     gridLineColor: '#B9CFD7', 
+        gridLineWidth: 0.5,
+        lineColor: '#B9CFD7', 
    // gridLineColor: '#B9CFD7', 
    // gridLineWidth: 0.5,
     "title": {
@@ -28,8 +31,9 @@
     tickAmount: 9,
   },
   {
-  //  gridLineColor: '#B9CFD7', 
-    //gridLineWidth: 0.5,
+        gridLineColor: '#B9CFD7', 
+        gridLineWidth: 0.5,
+        lineColor: '#B9CFD7', 
     "title": {
       "style": {
         "color": "#000000",

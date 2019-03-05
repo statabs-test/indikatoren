@@ -12,16 +12,23 @@
 
   "xAxis": {
     "labels": {
+      style: {
+        fontSize: "10px"
+      },
       rotation: 0
     },
     "type": "category"
   },
      "yAxis": [{
+      gridLineColor: '#B9CFD7', 
+      gridLineWidth: 0.5,
+      lineColor: '#B9CFD7', 
       tickInterval: 1000,
       tickAmount: 10,
     "labels": {
       "format": "{value:,.0f}",
       "style": {
+        fontSize:"10px",
         "color": "#000000"
       }
     },
@@ -30,6 +37,9 @@
     "title": ""
   },
   {
+    gridLineColor: '#B9CFD7', 
+    gridLineWidth: 0.5,
+    lineColor: '#B9CFD7', 
     "title": {
       "style": {
         "color": "#000000",
@@ -40,6 +50,7 @@
     "labels": {
       "format": "{value:,.1f}",
       "style": {
+        fontSize: "10px",
         "color": "#000000"
       }
     },

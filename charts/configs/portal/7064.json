@@ -6,24 +6,24 @@
       "legendIndex": 0,
       "data": [
         [
-          "Basel-Stadt",
-          27874
+          "BS",
+          27548
         ],
         [
-          "Basel-Landschaft",
-          32923
+          "BL",
+          33022
         ],
         [
-          "Aargau",
-          77597
+          "AG",
+          78259
         ],
         [
-          "Zürich",
-          193618
+          "ZH",
+          194647
         ],
         [
-          "Schweiz",
-          1169440
+          "CH",
+          1173582
         ]
       ],
       "name": "bis 9 VZÄ",
@@ -35,24 +35,24 @@
       "legendIndex": 1,
       "data": [
         [
-          "Basel-Stadt",
-          31929
+          "BS",
+          31167
         ],
         [
-          "Basel-Landschaft",
-          33256
+          "BL",
+          33574
         ],
         [
-          "Aargau",
-          71543
+          "AG",
+          71136
         ],
         [
-          "Zürich",
-          201217
+          "ZH",
+          204057
         ],
         [
-          "Schweiz",
-          1093812
+          "CH",
+          1101462
         ]
       ],
       "name": "10 bis 49 VZÄ",
@@ -64,24 +64,24 @@
       "legendIndex": 2,
       "data": [
         [
-          "Basel-Stadt",
-          38479
+          "BS",
+          38595
         ],
         [
-          "Basel-Landschaft",
-          36093
+          "BL",
+          35741
         ],
         [
-          "Aargau",
-          66477
+          "AG",
+          68077
         ],
         [
-          "Zürich",
-          200883
+          "ZH",
+          204509
         ],
         [
-          "Schweiz",
-          1012661
+          "CH",
+          1021947
         ]
       ],
       "name": "50 bis 249 VZÄ",
@@ -93,24 +93,24 @@
       "legendIndex": 3,
       "data": [
         [
-          "Basel-Stadt",
-          53139
+          "BS",
+          54052
         ],
         [
-          "Basel-Landschaft",
-          15267
+          "BL",
+          14999
         ],
         [
-          "Aargau",
-          46719
+          "AG",
+          47780
         ],
         [
-          "Zürich",
-          183855
+          "ZH",
+          184061
         ],
         [
-          "Schweiz",
-          698027
+          "CH",
+          704101
         ]
       ],
       "name": "250 VZÄ u.m.",
