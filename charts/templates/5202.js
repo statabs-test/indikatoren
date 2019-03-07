@@ -70,7 +70,7 @@
 					fn.defineTemplate();
 					
 					var choroplethSeries = chart.series[0];
-					var pieSizeSeries = chart.series[1];
+					var pieSizeSeries = chart.series[2];
 					
 					//pie diameters in px
 					var maxPieDiameter = 20;
@@ -92,7 +92,7 @@
 	                        },
 	                        tooltip: {
 	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),2) + ' Einwohner pro ha </b><br/>';
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),1) + ' Einwohner pro ha </b><br/>';
 	                            }
 	                        }
 	                    };
