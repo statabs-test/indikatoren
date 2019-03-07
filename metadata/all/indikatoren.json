@@ -33099,15 +33099,17 @@
 		"thema": "14 Gesundheit",
 		"unterthema": "Prävention, Praxen, Rettung",
 		"kennzahlenset": "",
-		"raeumlicheGliederung": [],
-		"aktualisierungsdatum": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-02-27T16:18:16.1616",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2016 gibt es im Kanton Basel-Stadt 300 Arztpraxen für Allgemeinmedizin, 534 Facharztpraxen und 126 Zahnarztpraxen. Die Zahl der Facharztpraxen hat im Vergleich zum Jahr 2011 um 288 zugenommen, während die Zahl der Arztpraxen für Allgemeinmedizin und der Zahnarztpraxen etwas tiefer ausfällt als fünf Jahre zuvor.",
-		"erlaeuterungen": "In der Statistik der Unternehmensstruktur (STATENT) werden alle Arbeitsstätten berücksichtigt, die der AHV-Beitragspflicht unterstehen (ab 2300 Franken Jahreslohn). Arztpraxen für Allgemeinmedizin: (i) Wenn der Arzt eine Weiterbildungen in einem der folgenden Gebiete hat: Allgemeine Innere Medizin, praktischer Arzt oder Kinder- und Jugendmedizin (Pädiatrie); (ii) Intensivmedizin oder Grundversorgung; (iii) Wenn in der Praxis mehr als zwei Spezialisten oder mindestens ein Allgemeinmediziner tätig sind. Facharztpraxen: (i) Bei allen anderen Weiterbildungen;  (ii) Wenn in der Praxis zwei Spezialisten und kein Allgemeinmediziner tätig sind.",
+		"lesehilfe": "Im Jahr 2016 gibt es im Kanton Basel-Stadt 300 Arztpraxen von Grundversorgern, 534 Spezialarztpraxen und 126 Zahnarztpraxen. Die Zahl der Spezialarztpraxen hat im Vergleich zum Jahr 2011 um 288 zugenommen, während die Zahl der Arztpraxen von Grundversorgern und der Zahnarztpraxen etwas tiefer ausfällt als fünf Jahre zuvor.",
+		"erlaeuterungen": "In der Statistik der Unternehmensstruktur (STATENT) werden alle Arbeitsstätten berücksichtigt, die der AHV-Beitragspflicht unterstehen (ab 2300 Franken Jahreslohn). Arzt- und Zahnarztpraxen (NOGA 862): Tätigkeiten in privaten Praxen, Gemeinschaftspraxen, Krankenhausambulatorien oder vergleichbare Institutionen. Es sind sowohl private als auch öffentlich-rechtliche Betriebe enthalten. Arztpraxen von Grundversorgern (Allgmeine Innere Medizin, Pädiatrie): Mindestens einer der Ärzte muss eine allgemeinmedizinische Tätigkeit ausüben. Spezialarztpraxen: Keiner der Ärzte darf eine allgemeinmedizinische Tätigkeit ausüben.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -33119,9 +33121,13 @@
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 7068,
+		"chart-id": 7068,
+		"filter": "",
 		"id": 7068
 	},
 	{
