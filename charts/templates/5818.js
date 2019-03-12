@@ -24,7 +24,7 @@
         "data": {
 		    "seriesMapping": [
 		      {
-		      	x: 0, y:2
+		      	x: 0, y: 2
 		      },
 		      {
 		      	//2nd series: use y values from column 3

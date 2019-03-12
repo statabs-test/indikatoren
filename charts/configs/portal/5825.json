@@ -6741,7 +6741,7 @@
           1933
         ]
       ],
-      "name": "Differenz 1995 zu 2015"
+      "name": "Veränderung 1995 zu 2015"
     },
     {
       "name": "Rhein",
@@ -7015,7 +7015,7 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 	                
 					//pie values in legend
-	                var minValueInLegend = 400; 
+	                var minValueInLegend = 4000; 
 	                var maxValueInLegend = 160000; 
 	                
                 	//Add manually drawn legend	
