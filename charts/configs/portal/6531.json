@@ -26,7 +26,7 @@
           1173582
         ]
       ],
-      "name": "bis 9 VZÄ",
+      "name": "\u003C10 VZÄ",
       "turboThreshold": 0
     },
     {
@@ -55,7 +55,7 @@
           1101462
         ]
       ],
-      "name": "10 bis 49 VZÄ",
+      "name": "10-49,9 VZÄ",
       "turboThreshold": 0
     },
     {
@@ -84,7 +84,7 @@
           1021947
         ]
       ],
-      "name": "50 bis 249 VZÄ",
+      "name": "50-249,9 VZÄ",
       "turboThreshold": 0
     },
     {
